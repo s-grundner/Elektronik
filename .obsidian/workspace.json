@@ -11,11 +11,28 @@
             "id": "aca43dc4c12959e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "mathe/mathe (4)/Schwingkreise.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f234f951f95667dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "hwe/LC Oszillatoren.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mtrs/Binom'scher Lehrsatz.md",
+                "file": "hwe/LC Oszillatoren.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,9 +123,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mtrs/Binom'scher Lehrsatz.md",
+                "file": "hwe/LC Oszillatoren.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -129,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mtrs/Binom'scher Lehrsatz.md"
+                "file": "hwe/LC Oszillatoren.md"
               }
             }
           },
@@ -148,17 +165,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4cb3e7acda50a06f",
+  "active": "f234f951f95667dc",
   "lastOpenFiles": [
+    "mathe/mathe (4)/Schwingkreise.md",
+    "hwe/LC Oszillatoren.md",
+    "mathe/mathe (4)/lineare DGL 1. Ordnung.md",
+    "README.md",
+    "mathe/mathe (4)/{MOC} DGL.md",
+    "mathe/mathe (3)/L'Hospital.md",
+    "mathe/mathe (3)/Konvergente Folgen.md",
     "mtrs/Binom'scher Lehrsatz.md",
     "HTL-SBG Lehrgang/{MOT} Mathe.md",
-    "hwe/Sperrwandler.md",
-    "ksn/Streuparameter.md",
-    "Eintakt-Durchflusswandler.md",
-    "Pasted image 20220928181952.png",
-    "Pasted image 20221013145121.png",
-    "Pasted image 20221013145031.png",
-    "Pasted image 20221013144412.png",
-    "Pasted image 20221012130725.png"
+    "hwe/Sperrwandler.md"
   ]
 }

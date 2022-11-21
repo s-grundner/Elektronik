@@ -1659,6 +1659,7 @@ tCw
 tHn
 tBNNN
 tQps
+trigonometrischen
 aliases
 arbeiter
 an
@@ -3449,6 +3450,9 @@ agiKp
 aufgeteilt
 aussortiert
 aktuellem
+abhängige
+allgemein
+anwenden
 subject
 source
 so
@@ -5228,6 +5232,12 @@ segmentiert
 senden
 sendet
 schnell
+sonst
+schwingfähig
+schwingung
+schwingfähiges
+selbst
+sodass
 reference
 rc
 rCs
@@ -6865,6 +6875,8 @@ rOK
 rqe
 reihe
 richtige
+rekursive
+realen
 created
 cU
 cc
@@ -10646,6 +10658,15 @@ Sliding
 Schnittstellen
 Seriell
 Synchron
+Störfunktion
+Störterm
+Salzburg
+System
+Schwingungen
+Schwingkreis
+Serienschwingkreis
+Schwingers
+Schwingfall
 Inverswandler
 Indukitivät
 ID
@@ -14378,6 +14399,7 @@ Tiefpasses
 TCP
 Transmission
 Three
+Termdarstellung
 Der
 Diode
 Dabei
@@ -16094,6 +16116,10 @@ Doppelte
 Daten
 Datenübertragung
 DGL
+Darstellung
+Dämpfungskonstante
+Daraus
+Differentailgleichung
 nach
 nur
 nD
@@ -17882,6 +17908,7 @@ nON
 nbxo
 nxt
 nächsten
+nun
 dem
 der
 des
@@ -19710,6 +19737,8 @@ durchschnittliche
 durchschnittlich
 durchgeführt
 damit
+dazugehörigen
+darstellbar
 geschlossen
 geschlossenen
 gespeicherten
@@ -21407,6 +21436,9 @@ gesicherte
 geschickt
 genug
 gelöst
+geschrieben
+gefunden
+gesucht
 Mindestlaststrom
 Ma
 Mt
@@ -23423,6 +23455,7 @@ Mvg
 MHQtxc
 MIDI
 Mischungsaufgaben
+Mechanischer
 June
 Ju
 JI
@@ -26934,6 +26967,8 @@ Bestätigung
 Bereits
 Bildung
 Beispiele
+Bezeichnungen
+Bestimmung
 Converter
 Columns
 CE
@@ -30552,6 +30587,7 @@ Way
 Wait
 Window
 Wachstum
+Wurzel
 Einschaltphase
 Eingangsspannung
 Energie
@@ -32495,6 +32531,16 @@ Ergebnis
 Empfänger
 Empfängerkapazität
 Empfangsbuffer
+Exponentialansatz
+Exponentialansatzes
+Elektronik
+Einschwingvorgang
+Einschwingvorganges
+Eigenfrequenz
+Eingenschaften
+Einfluss
+Ebenfalls
+Erzwungene
 Fällt
 Filter
 FlateDecode
@@ -34347,6 +34393,13 @@ Final
 Flusskontrolle
 Flow
 Fehler
+Folgen
+Faktor
+Federkonstante
+Formel
+Freie
+Fälle
+Frequenzgang
 fließt
 für
 fFOlq
@@ -36132,6 +36185,11 @@ fNRj
 feet
 fTIFz
 fragt
+flüchtig
+finale
+führt
+freien
+funktion
 über
 übertragen
 üR
@@ -36165,6 +36223,7 @@ fragt
 üer
 üK
 üwc
+überlassen
 weiter
 wird
 wo
@@ -40057,6 +40116,8 @@ uAv
 uxT
 uIEYJ
 unabhängig
+umformen
+unter
 lädt
 liegt
 leifert
@@ -41681,6 +41742,9 @@ lFN
 lfV
 lUy
 lDq
+linearen
+lösen
+leigt
 Kondensator
 KO
 KkA
@@ -43566,6 +43630,10 @@ Kurve
 Kontrollelemente
 Kennzeichnung
 Kennzeichnet
+Konvergente
+Koeffizient
+Koeffizien
+Kriechfall
 bzw
 bbd
 bg
@@ -45241,6 +45309,13 @@ bekommt
 bestimmter
 beendet
 bestätigt
+beliebigen
+betragen
+beide
+betrachten
+bekannten
+betrachtet
+beliebige
 in
 ihr
 iz
@@ -47201,6 +47276,9 @@ idJ
 iuB
 interessant
 indem
+inhomogen
+inhomogene
+inhomogenen
 ZTL
 ZX
 Zw
@@ -49182,6 +49260,9 @@ ZCw
 Zufallsvariablen
 Zufallsvariable
 Zufallsexperiment
+Zustand
+Zustandes
+Zeitpunkt
 Verbraucher
 VuuV
 VU
@@ -51068,6 +51149,7 @@ Verbindung
 Verbindungsaufbau
 Verbindungswunsch
 Verbindungsabbau
+Variablen
 Nach
 Ngm
 NN
@@ -58240,6 +58322,7 @@ Pakete
 Paket
 Paralell
 Peripheral
+Phasen
 Herleitung
 Hy
 HE
@@ -59962,6 +60045,7 @@ HEADER
 Headers
 Header
 Handshake
+HTBLUVA
 obj
 oy
 oi
@@ -61696,6 +61780,7 @@ ois
 oBAq
 ones
 oft
+oszillierend
 Linearized
 Length
 Ll
@@ -63450,6 +63535,10 @@ LOo
 Lra
 Logistisches
 Leistungsaufgaben
+Lösung
+Lösungsansatz
+Lehrgang
+Ladung
 endobj
 ey
 endstream
@@ -65411,6 +65500,12 @@ erwartete
 eintritt
 erst
 empfangen
+einfacher
+exponentiell
+entsprechend
+eingeschwungenen
+erzeugen
+erzwungenen
 Root
 RY
 RJH
@@ -67318,6 +67413,7 @@ Resonanzfrequenz
 Reihen
 Runden
 Relativer
+Resonanzkreisfrequenz
 XRef
 XTG
 XW
@@ -72788,6 +72884,8 @@ pnK
 pdDb
 poh
 pdIAR
+partikulären
+partikuläre
 hY
 hK
 ha
@@ -74501,6 +74599,10 @@ hDcZ
 hap
 hEz
 hinzufügen
+homogen
+homogene
+homogenen
+hergeleitet
 xI
 xj
 xA
@@ -80086,6 +80188,12 @@ kNN
 kmMfK
 kLk
 kOI
+konstantem
+konstante
+klingt
+komponenten
+kommt
+kriechend
 qB
 qo
 qg
@@ -85333,6 +85441,8 @@ zxZOZ
 zZX
 zdB
 zugeordnet
+zurückgerechnet
+zurückkehrt
 Qu
 QCQ
 QlFq
@@ -89109,6 +89219,11 @@ GtG
 Gültigkeit
 Gleichungssysteme
 Geschwingigkeitsaufgaben
+Grundform
+Gesamten
+Gleichgewichtszustand
+Gleichung
+Grenzfall
 Oc
 OB
 OJ
@@ -90969,6 +91084,8 @@ OvUV
 OVVc
 OIo
 Ozo
+Ordnung
+Ohmsches
 mu
 mR
 ma
@@ -92958,6 +93075,8 @@ mean
 mittlere
 möglich
 müssen
+mithilfe
+minimal
 AI
 Ay
 Aoha
@@ -94649,6 +94768,13 @@ Abweichung
 Ack
 ACK
 Asynchron
+Allgemeinen
+Ausdruck
+Abklingkonstante
+Auslenkung
+Ansatz
+Aperiodischer
+Auflösen
 ÖgLk
 ÖW
 ÖP
@@ -94827,3 +94953,4 @@ Asynchron
 äS
 äDL
 äw
+ähnlichen
