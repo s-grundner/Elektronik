@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:KSN",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -88,6 +88,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 110,
-  "scale": 0.16094295830999106,
-  "close": true
+  "scale": 0.20025788594811506,
+  "close": false
 }

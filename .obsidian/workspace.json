@@ -14,25 +14,12 @@
               "type": "markdown",
               "state": {
                 "file": "dic/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15361ccaec32758a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dic/Gradient Descent.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dic/Gradient Descent.md",
+                "file": "dic/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dic/Gradient Descent.md",
+                "file": "dic/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dic/Gradient Descent.md"
+                "file": "dic/Machine Learning.md"
               }
             }
           },
@@ -165,8 +153,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "15361ccaec32758a",
+  "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
+    "ksn/Smith-Diagramm.md",
+    "dic/Gradient Descent.md",
     "dic/Machine Learning.md",
     "mathe/mathe (4)/Schwingkreise.md",
     "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
@@ -174,8 +164,6 @@
     "mathe/mathe (4)/{MOC} DGL.md",
     "hwe/LC Oszillatoren.md",
     "Untitled.md",
-    "mtrs/Systemtheorie.md",
-    "HTL-SBG Lehrgang/{MOT} Mathe.md",
-    "HTL-SBG Lehrgang/{MOT} Matura.md"
+    "mtrs/Systemtheorie.md"
   ]
 }

@@ -28,19 +28,35 @@ Cost (h_{\theta}(x), y) &=
 \end{align*}
 $$
 
+
+
 ```functionplot
 ---
 title: non-convex function
 xLabel: 
 yLabel: 
-bounds: [0,20,0,10]
+bounds: [0,12,0,7]
 disableZoom: true
 grid: true
 ---
-y=0.5*sin(10x)-(log(x))+4
+y=0.2*sin(10x)-(log(x))+4
 ```
 
-# Matlab Simulation
+
+```functionplot
+---
+title: convex function
+xLabel: 
+yLabel: 
+bounds: [0,12,0,7]
+disableZoom: true
+grid: true
+---
+y=-(log(x))+4
+```
+
+
+# Matlab Simulations
 ````ad-example
 title: Häuse
 
@@ -98,6 +114,7 @@ E = (Theta' * Xnorm) - Y;
 J = sum(E.^2);
 ```
 ````
+
 # Quellen
 ## MatLab Commands
 
@@ -106,3 +123,6 @@ mean(X) %Mittelwert eines Arrays/Matrix
 std(X) %Standardabweichung einer Matrix
 X' %Matrix X Transponieren
 ```
+
+## Andrew Ng Course
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
