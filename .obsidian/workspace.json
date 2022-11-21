@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md"
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md"
               }
             }
           },
@@ -149,19 +149,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
-    "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
     "htbluva_sbg_fsst/Db/DB_Skr_01_Einfuehrung.md",
+    "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
+    "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
+    "htbluva_sbg_fsst/Db/DB_Skr_05_02_Xampp_phpMyAdmin.md",
+    "htbluva_sbg_fsst/Db/DB_Skr_07_01_MSAccess.md",
     "-assets/Pasted image 20221121145418.png",
     "htbluva_sbg_fsst/ds-algo/O-Notation.md",
     "-assets/Pasted image 20221121145313.png",
     "mathe/mathe (4)/Schwingkreise.md",
-    "README.md",
-    "hwe/Colpitts Oszillator.md",
-    "hwe/LC Oszillatoren.md",
-    "hwe/Emitterfolger.md"
+    "README.md"
   ]
 }
