@@ -2,5 +2,7 @@
   "cssTheme": "Everforest",
   "baseFontSize": 19,
   "translucency": true,
-  "accentColor": "#8624ff"
+  "accentColor": "#8624ff",
+  "textFontFamily": "Monocraft",
+  "monospaceFontFamily": "Monocraft"
 }

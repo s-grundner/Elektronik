@@ -1,7 +1,7 @@
 {
   "characterRegex": "a-zA-ZöäüÖÄÜß",
   "maxLookBackDistance": 50,
-  "minWordLength": 2,
+  "minWordLength": 3,
   "minWordTriggerLength": 3,
   "wordInsertionMode": "Ignore-Case & Replace",
   "ignoreDiacriticsWhenFiltering": true,

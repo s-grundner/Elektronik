@@ -35,12 +35,7 @@ Aussagen aus dem Barkhausenkriterium
 [[Wien-Brücke Oszillator]]
 [[Phasenschieber Oszillator]]
 
-## LC Oszillatoren
-- Prinzip der Schwingungserzeugnung: Entladung eines [[Schwingkreise|Schwingkreis]]es
-- Resonanzfrequenz des LC-SK bestimmt die Frequenz
-- sowohl Reihen- als auch Parallelschwingkreis möglich 
-- Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
-- geeignet für hohe Frequenzen
+## [[LC Oszillatoren]]
 
 
 

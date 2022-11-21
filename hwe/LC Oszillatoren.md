@@ -38,27 +38,45 @@ i_{R}-i_{C}-i_{L}&=0\\
 \end{align*}
 $$
 
-### Herleitung der [[lineare DGL 1. Ordnung|linearen Differentialgleichung 1. Ordnung]]
+### Herleitung der [[lineare DGL 2. Ordnung|linearen Differentialgleichung 2. Ordnung]]
 $$
 \begin{align*}
-\ddot{u}_{1}+2\gamma \cdot\dot{u}_{1} - \frac{1}{LC}\cdot u_{1}&=0 \qquad \gamma= \frac{1-A}{2RC}  \qquad \omega_{0}^{2} = \frac{1}{LC} 
+\ddot{u}_{1}+2\delta \cdot\dot{u}_{1} - \frac{1}{LC}\cdot u_{1}&=0 \qquad \delta= \frac{1-A}{2RC}  \qquad \omega_{0}^{2} = \frac{1}{LC} 
 \end{align*}
 $$
-$\gamma \dots$ Dämpfung
-- Die Dämpfung muss $0$ betragen, damit das System schwingfähig ist
-#### Lösungsansatz
+$\delta \dots$ Dämpfung
+- Der Störterm muss $0$ betragen, damit das System schwingfähig ist
+  
+```ad-question
+title: Lösungsansatz
 $$
 \begin{align*}
 u_{1}(t) &= C\cdot e^{\lambda t}\\
 \dot{u}_{1}(t) &= C\cdot \lambda \cdot e^{\lambda t}\\
 \ddot{u}_{1}(t) &= C\cdot \lambda^{2}\cdot e^{\lambda t}
 \\\\
-C\cdot e^{\lambda t}(\lambda^{2}+2\gamma\lambda + \omega_{0}^{2}) &= 0\\
-\lambda^{2}+2\gamma\lambda + \omega_{0}^{2} &= 0\\
-
+C\cdot e^{\lambda t}(\lambda^{2}+2\delta\lambda + \omega_{0}^{2}) &= 0\\
+\lambda^{2}+2\delta\lambda + \omega_{0}^{2} &= 0
+\\\\
+\lambda_{1,2} &= -\frac{2\delta}{2} \pm \sqrt{\frac{(2\delta)^{2}}{4}-\omega_{0}^{2}}\\
+&= - \delta \pm \sqrt{\delta^{2}-\omega_{0}^{2}}
+\\\\
+u_{1}(t) &= 
 \end{align*}
 $$
+```
 
+
+# Colpitts Oszillator
+Besteht aus Emitter/Basis/Collector Schaltung mit einer Rückkopplung:
+1. kapazitiv
+2. [[Induktivitäten|induktiv]]
+3. transformatorisch
+
+Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)
+Vorteil: 
+- einfache Kapazitäten
+- nur eine [[Induktivitäten|Induktivität]]
 
 
 # Quellen
