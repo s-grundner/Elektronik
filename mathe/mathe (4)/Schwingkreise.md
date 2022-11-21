@@ -11,7 +11,7 @@ subject: ["mathe", "hwe", "physik"]
 Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.
 Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurückgerechnet werden.
 
-Die komponenten einer schwingung in der [[lineare DGL 2. Ordnung|lineare DGL zweiter Ordnung]] sind wiefolgt:
+Die Komponenten einer schwingung in der [[lineare DGL 2. Ordnung|lineare DGL zweiter Ordnung]] sind wiefolgt:
 1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [[lineare DGL 2. Ordnung|homogenen Lösung der DGL 2. Ordnung]] 
 	$\rightarrow y_{h}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = 0$
 2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [[lineare DGL 2. Ordnung#Lösung der inhomogenen DGL 2 Ordnung|der inhomogenen DGL 2. Ordnung]]
@@ -242,3 +242,7 @@ $$
 \end{align*}
 $$
  >![[frequ_gang_e_serien_schwingk.png|700]]
+# Hardware Implementationen
+- [[LC Oszillatoren]]
+- Colpitts Oszillator
+- 

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dic/Machine Learning.md",
-                "mode": "preview",
+                "file": "Emitterfolger.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 279
+    "width": 279,
+    "collapsed": true
   },
   "right": {
     "id": "8477e7e09a934947",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dic/Machine Learning.md",
+                "file": "Emitterfolger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dic/Machine Learning.md",
+                "file": "Emitterfolger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dic/Machine Learning.md"
+                "file": "Emitterfolger.md"
               }
             }
           },
@@ -155,15 +155,15 @@
   },
   "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
-    "ksn/Smith-Diagramm.md",
-    "dic/Gradient Descent.md",
-    "dic/Machine Learning.md",
     "mathe/mathe (4)/Schwingkreise.md",
     "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+    "hwe/LC Oszillatoren.md",
+    "LC-Oszillator.md",
+    "dic/Machine Learning.md",
+    "ksn/Smith-Diagramm.md",
+    "dic/Gradient Descent.md",
     "mathe/mathe (4)/lineare DGL 1. Ordnung.md",
     "mathe/mathe (4)/{MOC} DGL.md",
-    "hwe/LC Oszillatoren.md",
-    "Untitled.md",
-    "mtrs/Systemtheorie.md"
+    "Untitled.md"
   ]
 }

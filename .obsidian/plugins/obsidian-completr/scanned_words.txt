@@ -10679,6 +10679,8 @@ Struktur
 Struber
 Schwingungs
 Smith
+Selbstschwingendes
+Selbsterregt
 Inverswandler
 Indukitivät
 ID
@@ -12587,6 +12589,7 @@ Invertierender
 Informationen
 Infos
 Interconnect
+Implementationen
 Tags
 Transistor
 Teil
@@ -60116,6 +60119,7 @@ Header
 Handshake
 HTBLUVA
 Häufigste
+Hardware
 obj
 oy
 oi

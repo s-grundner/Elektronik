@@ -17,7 +17,9 @@ created: 17th November 2022
 ## Schaltung
 
 ## Herleitung
-$\dfrac{u_{1}}{u_{2}}=1+\dfrac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A$
+$$
+\frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A
+$$
 mit 
 $$
 \begin{align*}
@@ -44,8 +46,8 @@ $$
 \ddot{u}_{1}+2\delta \cdot\dot{u}_{1} - \frac{1}{LC}\cdot u_{1}&=0 \qquad \delta= \frac{1-A}{2RC}  \qquad \omega_{0}^{2} = \frac{1}{LC} 
 \end{align*}
 $$
-$\delta \dots$ Dämpfung
-- Der Störterm muss $0$ betragen, damit das System schwingfähig ist
+- Damit die Schaltung ein [[Schwingkreise|Selbstschwingendes]] System sein kann, muss der [[Schwingkreise#Freie Schwingungen im realen Serienschwingkreis|Störterm]] $0$ sein (Selbsterregt) und ein [[lineare DGL 2. Ordnung#3 Fall konjugiert Komplexe Zahlen komplexe Lösungen\|Schwingfall]] ($\delta<\omega_{0}$)
+
   
 ```ad-question
 title: Lösungsansatz
@@ -66,18 +68,8 @@ u_{1}(t) &= \dots
 $$
 ```
 
-
-# Colpitts Oszillator
-Besteht aus Emitter/Basis/Collector Schaltung mit einer Rückkopplung:
-1. kapazitiv
-2. [[Induktivitäten|induktiv]]
-3. transformatorisch
-
-Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)
-Vorteil: 
-- einfache Kapazitäten
-- nur eine [[Induktivitäten|Induktivität]]
-
+# Typen
+[[Colpitts Oszillator]]
 
 # Quellen
 

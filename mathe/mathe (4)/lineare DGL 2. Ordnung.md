@@ -41,6 +41,7 @@ $\left.\begin{align*}y_{h1}&=C_{1}\cdot e^{\lambda_{1}x}\\y_{h2}&=C_{2}\cdot e^{
 
 #### 2. Fall: Doppellösung
 $\begin{align*} \lambda_{1}&=\lambda_{2}=- \frac{p}{2} \\ y_{h}&=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}\end{align*}$
+
 ```ad-warning
 ergibt nur eine Lösung ... es fehlt also etwas
 ![[Pasted image 20220601193117.png]]
