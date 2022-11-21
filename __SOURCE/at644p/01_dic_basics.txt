@@ -1,0 +1,32 @@
+ANGABE
+------------------------------------------------------------
+Folgendes Codesample ist gegeben, in PINC steht 00000100b 
+
+if ((PC3 >> PINC) || (PC6 << PINC))
+ 	// CodeA
+else
+    // CODEB
+
+Welcher Codeteil, CodeA oder CodeB, wird ausgeführt und warum. Die Erklärung muss detailliert ausgeführt werden.
+
+LOESUNG
+------------------------------------------------------------
+
+PC3 >> PINC = 0b 00000000.1 // die 1 wurde hinter das erste bit verschoben:
+	logisch 0 (false)
+PC6 << PINC = 0b100000000 // die 1 wurde außerhalb des 8-bit bereichs geschoben, da uns das aber egal ist, zählt es boole'sch immer noch als true:
+	logisch 1 (true)
+
+also:
+false || true = true
+
+if (false || true)
+{
+	// ausgeführter code
+	// CODEA
+} else 
+{
+	// dead code
+	// CODEB
+}
+Ausgeführt wird also CODEA
