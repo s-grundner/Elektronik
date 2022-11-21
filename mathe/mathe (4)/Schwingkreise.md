@@ -80,16 +80,19 @@ $$
 }}
 $$
 Ebenfalls kann die Ladung über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentailgleichung kommt.
+
 $$
 \begin{align*}
-	R\cdot \frac{dq}{dt} + L\cdot \frac{d^{2q}}{dt^{2}} + \frac{q}{c} &= 0 \Big{|}:L\\
+ R\cdot \frac{dq}{dt} + L\cdot \frac{d^{2q}}{dt^{2}} + \frac{q}{c} = 0 \qquad \Big{|}:L
 \end{align*}
 $$
+
 $$
 \underline{\underline{
 	\frac{d^{2q}}{dt^{2}} + \frac{dq}{dt}\cdot \frac{R}{L}+q\cdot \frac{1}{LC} = 0
 }}
 $$
+
 Nun kann man aus einer der [[{MOC} DGL|DGL]] die [[lineare DGL 2. Ordnung#Lösung der homogenen DGL 2 Ordnung|charakteristische Gleichung]] erzeugen
 $$
 \begin{align*}
@@ -242,6 +245,19 @@ $$
 \end{align*}
 $$
  >![[frequ_gang_e_serien_schwingk.png|700]]
+# Jupyter
+```jupyter
+import numpy as np
+from mathplot import pyplot as plt
+x = np.linspace(0,1)
+y = sin(x)
+plt.plot(x, y)
+pass
+
+
+
+```
+
 # Hardware Implementationen
 - [[LC Oszillatoren]]
 - Colpitts Oszillator

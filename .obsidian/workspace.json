@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emitterfolger.md",
-                "mode": "source",
+                "file": "mathe/mathe (4)/Schwingkreise.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "8477e7e09a934947",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Emitterfolger.md",
+                "file": "mathe/mathe (4)/Schwingkreise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Emitterfolger.md",
+                "file": "mathe/mathe (4)/Schwingkreise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Emitterfolger.md"
+                "file": "mathe/mathe (4)/Schwingkreise.md"
               }
             }
           },
@@ -150,20 +149,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
-    "mathe/mathe (4)/Schwingkreise.md",
-    "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+    "Colpitts Oszillator.md",
     "hwe/LC Oszillatoren.md",
+    "mathe/mathe (4)/Schwingkreise.md",
+    "Emitterfolger.md",
+    "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
     "LC-Oszillator.md",
     "dic/Machine Learning.md",
     "ksn/Smith-Diagramm.md",
     "dic/Gradient Descent.md",
-    "mathe/mathe (4)/lineare DGL 1. Ordnung.md",
-    "mathe/mathe (4)/{MOC} DGL.md",
-    "Untitled.md"
+    "mathe/mathe (4)/lineare DGL 1. Ordnung.md"
   ]
 }

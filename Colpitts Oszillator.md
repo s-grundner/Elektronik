@@ -8,3 +8,5 @@ Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)
 Vorteil: 
 - einfache Kapazitäten
 - nur eine [[Induktivitäten|Induktivität]]
+
+## Schaltung
