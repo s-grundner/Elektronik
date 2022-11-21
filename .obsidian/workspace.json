@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cbcd90ed3024c8cf",
+        "id": "6d51c7f6ee9af447",
         "type": "tabs",
         "children": [
           {
-            "id": "aca43dc4c12959e3",
+            "id": "2628baa15b7d13c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e9333456e901318d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dd75a39ecf0f6164",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mathe/mathe (4)/Schwingkreise.md",
-                "mode": "preview",
+                "file": "dic/Machine Learning.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "8477e7e09a934947",
@@ -112,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+                "file": "dic/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+                "file": "dic/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md"
+                "file": "dic/Machine Learning.md"
               }
             }
           },
@@ -171,12 +152,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aca43dc4c12959e3",
+  "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
-    "mathe/mathe (4)/lineare DGL 1. Ordnung.md",
     "mathe/mathe (4)/Schwingkreise.md",
-    "mathe/mathe (4)/{MOC} DGL.md",
     "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+    "mathe/mathe (4)/lineare DGL 1. Ordnung.md",
+    "mathe/mathe (4)/{MOC} DGL.md",
     "hwe/LC Oszillatoren.md",
     "Untitled.md",
     "mtrs/Systemtheorie.md",

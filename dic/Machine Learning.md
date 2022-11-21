@@ -8,7 +8,8 @@ created: 24th October 2022
 ---
 
 # Machine Learning
-
+## Cost function
+### Linear Regression
 $$
 \begin{align*}
 X &= 
@@ -17,11 +18,26 @@ X &=
 5 & 8
 \end{pmatrix}\\
 h_{\theta}(x) &= \theta_{0}+\theta_{1}\cdot x_{1}+\theta_{2}\cdot x_{2}+\theta_{3}\cdot x_{3}+\theta_{4}\cdot x_{4}\\
-&= \Theta' \cdot X\\
+&= \Theta' \cdot X_{(n)}\\
+J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})
 \end{align*}
 $$
 
+```functionplot
+---
+title: non-convex
+xLabel: 
+yLabel: 
+bounds: [0,20,0,10]
+disableZoom: true
+grid: true
+---
+y=0.5*sin(10x)-(log(x))+4
+```
 
+
+
+# Matlab Simulation
 ````ad-example
 title: Häuse
 
@@ -81,6 +97,7 @@ J = sum(E.^2);
 ````
 # Quellen
 ## MatLab Commands
+
 ```matlab
 mean(X) %Mittelwert eines Arrays/Matrix
 std(X) %Standardabweichung einer Matrix
