@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mathe/mathe (4)/Schwingkreise.md",
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mathe/mathe (4)/Schwingkreise.md",
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mathe/mathe (4)/Schwingkreise.md",
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mathe/mathe (4)/Schwingkreise.md"
+                "file": "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md"
               }
             }
           },
@@ -153,15 +153,15 @@
   },
   "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
-    "Colpitts Oszillator.md",
-    "hwe/LC Oszillatoren.md",
+    "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
+    "htbluva_sbg_fsst/Db/DB_Skr_01_Einfuehrung.md",
+    "-assets/Pasted image 20221121145418.png",
+    "htbluva_sbg_fsst/ds-algo/O-Notation.md",
+    "-assets/Pasted image 20221121145313.png",
     "mathe/mathe (4)/Schwingkreise.md",
-    "Emitterfolger.md",
-    "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
-    "LC-Oszillator.md",
-    "dic/Machine Learning.md",
-    "ksn/Smith-Diagramm.md",
-    "dic/Gradient Descent.md",
-    "mathe/mathe (4)/lineare DGL 1. Ordnung.md"
+    "README.md",
+    "hwe/Colpitts Oszillator.md",
+    "hwe/LC Oszillatoren.md",
+    "hwe/Emitterfolger.md"
   ]
 }
