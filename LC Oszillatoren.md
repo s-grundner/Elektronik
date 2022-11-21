@@ -1,0 +1,46 @@
+---
+tags: []
+aliases: []
+subject: ["hwe"]
+source: ["Siegbert Schrempf"]
+reference: []
+created: 17th November 2022
+---
+
+# LC Oszillatoren
+- Prinzip der Schwingungserzeugnung: Entladung eines [[Schwingkreise|Schwingkreis]]es
+- Resonanzfrequenz des LC-SK bestimmt die Frequenz
+- sowohl Reihen- als auch Parallelschwingkreis möglich 
+- Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
+- geeignet für hohe Frequenzen
+
+## Schaltung
+
+## Herleitung
+$\dfrac{u_{1}}{u_{2}}=1+\dfrac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A$
+mit 
+$$
+\begin{align*}
+&u_{L}=L\cdot\dfrac{di}{dt}
+&&i_{L}=\frac{1}{L}\int u_{L}dt\\
+&i_{C}=C\cdot\dfrac{du_{c}}{dt}
+&&U_{C}=\frac{1}{C}\int idt\\
+\end{align*}
+$$
+
+Bildung einer DGL:
+$$
+\begin{align*}
+i_{R}-i_{C}-i_{L}&=0\\
+\frac{u_{2}-u_{1}}{R}-C\cdot \dot{u}- \frac{1}{L}\int u_{1}dt &= 0 \quad\Big| \frac{d}{dt}\\
+\frac{}{}-C\cdot \dot{u}- \frac{1}{L}\int u_{1}dt &= 0 \quad\Big| \frac{d}{dt} \quad\Big| \frac{d}{dt}\\
+\end{align*}
+$$
+
+
+
+# Quellen
+
+
+
+

@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "1d3d850054a48354",
+    "type": "split",
+    "children": [
+      {
+        "id": "b01d206c78400f8d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "hwe/Sperrwandler.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "d524810794cbcb03",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "hwe/Sperrwandler.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63f8bcfa56482b41",
+    "type": "split",
+    "children": [
+      {
+        "id": "da9ee9248f7d305f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cb3e7acda50a06f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "dd56dd99f1699a9e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b87791edbcf8e235",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279
+  },
+  "right": {
+    "id": "8477e7e09a934947",
+    "type": "split",
+    "children": [
+      {
+        "id": "52acd4b768856ed7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e359560b151b2bc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2ea7d30d2d370dd4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "hwe/Sperrwandler.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b28d50602b13ecf6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "hwe/Sperrwandler.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d600ef920ea978e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "62e723d0b14a535e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hwe/Sperrwandler.md"
+              }
+            }
+          },
+          {
+            "id": "c43c2b481880d33a",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "b28d50602b13ecf6",
+  "lastOpenFiles": [
+    "ksn/Streuparameter.md",
+    "hwe/Sperrwandler.md",
+    "Eintakt-Durchflusswandler.md",
+    "Pasted image 20220928181952.png",
+    "Pasted image 20221013145121.png",
+    "Pasted image 20221013145031.png",
+    "Pasted image 20221013144412.png",
+    "Pasted image 20221012130725.png",
+    "Pasted image 20221012125710.png",
+    "Pasted image 20221001154620.png"
+  ]
+}

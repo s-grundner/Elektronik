@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "1d3d850054a48354",
+    "type": "split",
+    "children": [
+      {
+        "id": "c59baf0e3f665eb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aff431b32f66e143",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eacb512fb1774bc9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "128a9f4c64fa5772",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6318ec76bc7009ae",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "87546a56cec7a3f4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "376979d808d03c34",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e85b61b3065d1412",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "96af789851312406",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "9715f98f187088df",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1a115174166dec63",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      },
+      {
+        "id": "8acecd81fb4c7bc8",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "583998af5d2e7f93",
+        "type": "leaf",
+        "state": {
+          "type": "reminder-list",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "aff431b32f66e143",
+  "lastOpenFiles": [
+    "hwe/assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf",
+    "mathe/mathe (5)/Kombinatorik.pdf",
+    "mathe/mathe (4)/Taylorreihe.md",
+    "mtrs/MTRS.pdf",
+    "mathe/mathe (5)/Übungszettel Wahrscheinlichkeitsrechnung.pdf",
+    "mathe/mathe (5)/Wahrscheinlichkeit.md",
+    "mathe/assets/Kombinatorik.pdf",
+    "ksn/Streuparameter.md",
+    "hwe/Sperrwandler.md",
+    "Eintakt-Durchflusswandler.md"
+  ]
+}

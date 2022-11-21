@@ -1,0 +1,31 @@
+---
+tags: []
+aliases: ["PSO", "Phaseshift "]
+subject: ["hwe"]
+source: ["Siegbert Schrempf"]
+reference: []
+created: 7th November 2022
+---
+
+# Phasenschieber Oszillator
+- Einfacher Aufbau
+	- Invertierender Verstärker
+	- RC-Netzwerk
+## Bedingung für die Schwingfrequenz
+
+## Herleitung des gepufferten PSO
+[[Übertragungsfunktion]] vom RC-Tiefpass:
+$$
+\frac{U_{2}}{U_{1}}= \dfrac{\dfrac{1}{j\omega C}}{R+\dfrac{1}{j\omega C}} =\dfrac{1}{1+j\omega\uptau}
+$$
+### Phasenbedingung
+$\varphi=\dfrac{\beta}{3}=60\degree\rightarrow$ 360° auf 3 Tiefpässe geteilt (Tiefpass 3. Ordnung)
+$\varphi = \arctan\left(\dfrac{Im}{Re}\right)=\arctan(\omega RC)=60\degree$
+$\omega RC = \tan(60\degree) = \sqrt{3}\approx 1.73$
+$\omega=\dfrac{\sqrt{3}}{RC}\rightarrow\omega^{2}=\dfrac{3}{R^{2}C^{2}}$
+### Amplitudenbedingung
+$\dfrac{U_{2}}{U_{1}}=\dfrac{1}{1+j\omega RC}\rightarrow \Big|\dfrac{U_{2}}{U_{1}}\Big|$
+
+
+
+# Quellen
