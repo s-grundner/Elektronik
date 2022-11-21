@@ -13,50 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mathe/mathe (4)/Schwingkreise.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f234f951f95667dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "e9333456e901318d",
+        "type": "tabs",
+        "children": [
           {
-            "id": "a493518e45ad047a",
+            "id": "dd75a39ecf0f6164",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hwe/LC Oszillatoren.md",
+                "file": "mathe/mathe (4)/Schwingkreise.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "6ea35207614413b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hwe/Bipolartransistor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279
+    "width": 279,
+    "collapsed": true
   },
   "right": {
     "id": "8477e7e09a934947",
@@ -130,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hwe/LC Oszillatoren.md",
+                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hwe/LC Oszillatoren.md",
+                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hwe/LC Oszillatoren.md"
+                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md"
               }
             }
           },
@@ -182,24 +164,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "a493518e45ad047a",
+  "active": "aca43dc4c12959e3",
   "lastOpenFiles": [
+    "mathe/mathe (4)/lineare DGL 1. Ordnung.md",
+    "mathe/mathe (4)/Schwingkreise.md",
+    "mathe/mathe (4)/{MOC} DGL.md",
+    "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+    "hwe/LC Oszillatoren.md",
+    "Untitled.md",
+    "mtrs/Systemtheorie.md",
     "HTL-SBG Lehrgang/{MOT} Mathe.md",
     "HTL-SBG Lehrgang/{MOT} Matura.md",
-    "hwe/LC Oszillatoren.md",
-    "hwe/Induktivitäten.md",
-    "hwe/Bipolartransistor.md",
-    "Emitterfolger.md",
-    "Kollektorfolger.md",
-    "hwe/{MOC} Transistor.md",
-    "hwe/Clock und Reset Systeme.md",
-    "mathe/mathe (4)/Schwingkreise.md"
+    "hwe/Induktivitäten.md"
   ]
 }

@@ -61,7 +61,7 @@ C\cdot e^{\lambda t}(\lambda^{2}+2\delta\lambda + \omega_{0}^{2}) &= 0\\
 \lambda_{1,2} &= -\frac{2\delta}{2} \pm \sqrt{\frac{(2\delta)^{2}}{4}-\omega_{0}^{2}}\\
 &= - \delta \pm \sqrt{\delta^{2}-\omega_{0}^{2}}
 \\\\
-u_{1}(t) &= 
+u_{1}(t) &= \dots
 \end{align*}
 $$
 ```
