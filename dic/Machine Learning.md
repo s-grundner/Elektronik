@@ -19,13 +19,18 @@ X &=
 \end{pmatrix}\\
 h_{\theta}(x) &= \theta_{0}+\theta_{1}\cdot x_{1}+\theta_{2}\cdot x_{2}+\theta_{3}\cdot x_{3}+\theta_{4}\cdot x_{4}\\
 &= \Theta' \cdot X_{(n)}\\
-J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})
+J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})\\\\
+Cost (h_{\theta}(x), y) &=
+\begin{cases}
+-\log(h_{\theta}(x^{(n)}))\cdot y^{(i)}\\
+-\log(1-h_{\theta}(x^{(n)}))
+\end{cases}
 \end{align*}
 $$
 
 ```functionplot
 ---
-title: non-convex
+title: non-convex function
 xLabel: 
 yLabel: 
 bounds: [0,20,0,10]
@@ -34,8 +39,6 @@ grid: true
 ---
 y=0.5*sin(10x)-(log(x))+4
 ```
-
-
 
 # Matlab Simulation
 ````ad-example
