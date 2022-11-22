@@ -13,18 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mathe/mathe (3)/Asymptote.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28751328e48feb49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Sofie.md",
                 "mode": "source",
                 "source": false
@@ -39,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,9 +159,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "28751328e48feb49",
+  "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
     "mathe/mathe (3)/Asymptote.md",
+    "Sofie.md",
     "htbluva_sbg_fsst/Db/DB_Skr_04_UE_Sql.md",
     "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
     "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
@@ -182,7 +170,6 @@
     "hwe/LC Oszillatoren.md",
     "mathe/mathe (4)/Schwingkreise.md",
     "Colpitts Oszillator.md",
-    "Emitterfolger.md",
-    "mathe/mathe (4)/lineare DGL 2. Ordnung.md"
+    "Emitterfolger.md"
   ]
 }
