@@ -7023,6 +7023,8 @@ rot
 rechte
 reagiert
 reagieren
+rhombus
+rhombusPerimeter
 created
 cU
 cc
@@ -36958,6 +36960,7 @@ formatierten
 früher
 festgelegt
 folg
+führr
 über
 übertragen
 üR
@@ -38962,6 +38965,9 @@ weiterem
 wesentlich
 wobei
 weisen
+whiteSpace
+wrap
+word
 und
 uY
 uo
@@ -96462,6 +96468,7 @@ Angestellten
 Anweisungen
 ACfU
 AEwD
+Addresse
 ÖgLk
 ÖW
 ÖP

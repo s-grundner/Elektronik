@@ -18,7 +18,7 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 - Projekte haben eine Nr, Titel und Budget
 - Abteilungen haben ein Kürzel und einen Namen
 - Abteilungen sind hirarchisch orgranisiert (können (maximal eine) Oberabteilung haben)
-
+![[htbluva_sbg_fsst/Db/Untitled Diagram 1.svg]]
 ## Kardinalitäten
 
 Bestimmen Sie die Kardinalitäten der folg. Beziehungen:
