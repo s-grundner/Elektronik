@@ -8,7 +8,10 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 - Mitarbeiter hat PersNr, Name und Adresse
 - Kurse haben eine KNr, einen Leiter und einen Termin
 
+```ad-success
+title: Lösung
 ![[htbluva_sbg_fsst/Db/Untitled Diagram.svg]]
+```
 
 ## Projektdatenbank
 
@@ -18,11 +21,27 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 - Projekte haben eine Nr, Titel und Budget
 - Abteilungen haben ein Kürzel und einen Namen
 - Abteilungen sind hirarchisch orgranisiert (können (maximal eine) Oberabteilung haben)
+
+``` ad-success
+title: Lösung
 ![[htbluva_sbg_fsst/Db/Untitled Diagram 1.svg]]
+```
+
 ## Kardinalitäten
 
 Bestimmen Sie die Kardinalitäten der folg. Beziehungen:
 
+| Kunden beauftragen Projekte                        | N:M |
+| -------------------------------------------------- | --- |
+| Firmen erzeugen Produkte                           |     | 
+| Mitarbeiter sind einer Abteilung zugeordnet        |     |
+| Ein Schüler geht in eine Klasse                    |     |
+| Studierende besuchen eine oder mehrere Vorlesungen |     |
+| Schüler entlehnen Bücher in der Bibliothek         |     |
+| Ein Mitarbeiter leitet ein Projekt                 |     |
+
+```ad-success
+title: Lösung
 | Kunden beauftragen Projekte                        | N:M |
 | -------------------------------------------------- | --- |
 | Firmen erzeugen Produkte                           | N:M |
@@ -31,6 +50,8 @@ Bestimmen Sie die Kardinalitäten der folg. Beziehungen:
 | Studierende besuchen eine oder mehrere Vorlesungen | N:M |
 | Schüler entlehnen Bücher in der Bibliothek         | N:1 |
 | Ein Mitarbeiter leitet ein Projekt                 | 1:1 |
+```
+
 
 ## Bibliothek
 
