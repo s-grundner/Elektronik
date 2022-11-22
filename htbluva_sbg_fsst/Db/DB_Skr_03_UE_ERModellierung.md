@@ -124,6 +124,11 @@ title: Lösung
 - Eine Webanbindung (Vorlesungsverzeichnis) soll realisiert werden
 - Eine MS-Access / Openoffice base Anwendung zur Verwaltung der Daten und zur Berichterzeugung soll erstellt werden.
 
+```ad-success
+title: Lösung
+![[htbluva_sbg_fsst/Db/Untitled Diagram 3.svg]]
+```
+
 ## Schule
 
 Stellen Sie folgende Zusammenhänge in einem Schulinformationssystem als ER-Diagramm dar, und geben Sie an, ob es sich bei den Beziehungen jeweils um eine 1 : n- oder n : m-Beziehung handelt. Achten Sie auch auf die Festlegung der eindeutigen Identifikation.

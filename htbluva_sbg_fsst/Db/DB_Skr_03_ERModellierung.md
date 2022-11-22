@@ -1,3 +1,12 @@
+---
+tags: ["Database", ""]
+aliases: []
+subject: ["fsst"]
+source: ["Roman Schragl"]
+reference: []
+created: 21st November 2022
+---
+
 # 3 Entity-Relationship-Modell (ERM)
 
 (nach Peter Chen)

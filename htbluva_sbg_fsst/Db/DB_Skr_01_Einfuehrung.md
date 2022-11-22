@@ -12,7 +12,7 @@ abgerufen oder abgelegt werden, dann ist der Einsatz von *Datenbanken* zweckmä�
 
 ## Software
 
-Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: ein *LAMP* Stack ist ein Akronym für *LinuxApacheMysqlPhp*, das *X* steht für mehrere OS, das zweite *P* für Perl). Darin ist eine *MariaDB*-Datenbank verfügbar (https://www.apachefriends.org/de/index.html) auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. Für diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
+Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: ein *LAMP* [[Stack]] ist ein Akronym für *LinuxApacheMysqlPhp*, das *X* steht für mehrere OS, das zweite *P* für Perl). Darin ist eine *MariaDB*-Datenbank verfügbar (https://www.apachefriends.org/de/index.html) auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. Für diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
 
 ![lampStack](.\bilder\lampStack.png)
 
