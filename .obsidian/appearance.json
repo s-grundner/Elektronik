@@ -4,5 +4,6 @@
   "translucency": true,
   "accentColor": "#8624ff",
   "textFontFamily": "Monocraft",
-  "monospaceFontFamily": "Monocraft"
+  "monospaceFontFamily": "Monocraft",
+  "theme": "moonstone"
 }
