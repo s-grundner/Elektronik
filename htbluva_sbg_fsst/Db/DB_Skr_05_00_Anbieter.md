@@ -106,9 +106,9 @@ MongoDB arbeitet, anders als MySQL, dokumentenorientiert und verfolgt entspreche
 - In Access eine Access-DB (accdb) anlegen mit 2 Spalten: Namen, Alter. Diese DB mit ein paar Datensätzen befüllen.
 
 - Damit der Zugriff auf MS-AccDb funktioniert muss evtl. die "Microsoft Office Access database engine" installiert werden:
-
+  
   https://www.microsoft.com/de-de/download/confirmation.aspx?id=23734
-
+  
   Ob das notwendig ist zeigt sich beim ersten Versuch eine Verbindung herzustellen und der Fehlermeldung "Microsoft.ACE.OLEDB.12.0'-Provider ist nicht auf dem lokalen Computer registriert."
 
 ### Einrichten einer MySql-Datenbank
@@ -127,7 +127,6 @@ show tables;
 use mydb;
 ...
 ```
-
 
 ### Einrichten Microsoft SQL Server
 
@@ -181,9 +180,9 @@ Sehr gute Beschreibung: [https://www.linglom.com/it-support/enable-remote-connec
 ## Referenzen
 
 - Erklärung und Beispiele:
-
+  
   http://www.datenbanken-verstehen.de/
 
 - MySQL
-
+  
   http://isticktoit.net/wp-content/uploads/2013/09/kurs_forts2.pdf

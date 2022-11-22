@@ -12,7 +12,7 @@ Erstellen Sie die Struktur mittels SQL in die Datenbank *is_fussball*.
 
 - Liste alle Spieler (Name, Land, Position) aufsteigend sortiert nach Land.
 - Wie viele Länder haben am Turnier teilgenommen?
-- Liste alle Stadien (Stadt, AnzPlaetze) sortiert nach Stadt mit mehr als 50000 Plätzen.  	
+- Liste alle Stadien (Stadt, AnzPlaetze) sortiert nach Stadt mit mehr als 50000 Plätzen.      
 - Liste alle Stadien (Stadt, AnzPlaetze) sortiert nach AnzPlaetze
 - Wie viele Personen fassen alle Stadien? 
 
@@ -21,18 +21,18 @@ Erstellen Sie die Struktur mittels SQL in die Datenbank *is_fussball*.
 - Liste alle Spieler (Name, Land, Position), die zumindest 1 Tor erzielt haben.
 - Liste alle Spieler (Name, Land, Position) aufsteigend sortiert nach Land, die verwarnt (Karte, Minute) wurden.
 - Liste alle Spiele (MannschaftA, MannschaftB) inklusive der Kampfrichter (Name, Nationalität, Funktion).
-- Liste alle Stadien, die zumindest einmal ausverkauft waren.  	
+- Liste alle Stadien, die zumindest einmal ausverkauft waren.      
 
 **GROUP BY**
 
 - Wieviele Zuschauer waren pro Spiel (MannschaftA, ManschaftB) durchschnittlich?
-- Wieviele Zuschauer waren pro Stadion (Stadt, AnzPlaetze, durchschnittl. Besucher) 	durchschnittlich?
+- Wieviele Zuschauer waren pro Stadion (Stadt, AnzPlaetze, durchschnittl. Besucher)     durchschnittlich?
 - In welchem(n) Spiel(en) vielen die meisten Tore?
 - Liste pro Spiel (MannschaftA, ManschaftB) die Tore (Spieler, Minute, Spielsituation).
 
 **VIEW**
 
-- Erzeuge die View v_spiel ( tag, stadion, zuschauer, MannschaftA, ManschaftB, ToreMannschaftA, 	ToreMannschaftB, Kampfrichter)
+- Erzeuge die View v_spiel ( tag, stadion, zuschauer, MannschaftA, ManschaftB, ToreMannschaftA,     ToreMannschaftB, Kampfrichter)
 
 **SQL-Stichworte:**
 
@@ -51,18 +51,28 @@ Erstellen Sie die Struktur mittels SQL in die Datenbank *is_fussball*.
 Erstellen Sie für die UNI-Datenbank folgende Queries
 
 - Auflistung sämtlicher Vorlesung (Nr, Titel, SWS)
+
 - Vorlesungsliste: Auflistung sämtlicher Vorlesungen samt haltenden Professoren (VNr, VTitel, SWS, ProfName, Raum)
+
 - Mitarbeiterliste: Auflistung sämtlicher Mitarbeiter - Professoren und Assistenten - (PersNr, Name, Geburtsdatum) 
 
 - Geburtstagsliste: Auflistung sämtlicher Mitarbeiter und Studenten (Name, Geburtsdatum) sortiert nach Datum (steigend)
+
 - Hörerverzeichnis: Auflistung sämtlicher Studenten die eine Vorlesung besuchten (Name, MatrNr, Vorlesung) sortiert nach Vorlesungstitel
+
 - Auflistung wie viele Studenten welche Vorlesung besuchen
+
 - Auflistung der abgelegten Prüfungen (Studenten Name, MatrNr, Note, Fach, Prüfer)
+
 - Auflistung der abgelegten Prüfungen (Studenten Name, MatrNr, Note, Fach, Prüfer) mit
+  
   - zusätzlich dem Mittelwert der Note im jeweiligen Fach
   - zusätzlich dem Mittelwert des Studenten
+
 - Ermitteln Sie ob die Prüfung *Mathematik III* für den Studenten *28106 Carnap* zulässig ist.
+
 - Tragen Sie eine Prüfung ein die ohne eine Vorbedingung möglich ist
+
 - Tragen Sie eine Prüfung ein die ohne eine Vorbedingung möglich ist
 
 ## Northwind
@@ -79,12 +89,9 @@ FROM employees;
 
 Auflistung sämtlicher Kunden (Firmenname, Nachname, Tätigkeit, Telefonnummer)
 
-
 Auflistung sämtlicher Angestellten (PersNr, Tätigkeit, Vorname, Nachname, Region)
 
-
 Auflistung sämtlicher Zulieferer (Firmenname, Fax-Nummer, Tel-Nummer, Homepage)
-
 
 #### ORDER BY
 
@@ -95,27 +102,19 @@ ORDER BY Last_Name, First_Name;
 
 Auflistung sämtlicher Mitarbeiter (Titel, Vor-/Nachname) sortiert nach Tätigkeit und Nachname
 
-
 Auflistung sämtlicher Mitarbeiter (Titel, Vor-/Nachname) sortiert nach Tätigkeit (steigend) und Nachname (fallend)
-
 
 Auflistung sämtlicher Kunden (Firma, Nachname, Tätigkeit, Tel-Nummer) sortiert nach Tel-Nummer
 
-
 Auflistung sämtlicher Mitarbeiter (Vor-/Nachname, Personalnummer) sortiert nach der Personalnummer
-
 
 Auflistung sämtlicher Bestellungen (Nummer, Bestelldatum, Lieferdatum, Kundennummer, Zustelltarif) sortiert nach dem Preis (teuer nach billig)
 
-
 Auflistung sämtlicher Lieferanten (Firmenname, Fax-/Tel-Nummer, Homepage, Land) sortiert nach Land (fallend) und Firmenname (steigend)
-
 
 Auflistung sämtlicher Mitarbeiter (Tätigkeit, Vor-/Nachname) sortiert nach Tätigkeit (steigend) und Nachname (fallend)
 
-
 Auflistung sämtlicher Produkte (Nummer, Name, Listenpreis in Dollar und in Euro)
-
 
 #### WHERE
 
@@ -134,36 +133,25 @@ WHERE job_title = 'Sales Representative';
 
 Auflistung der Mitarbeiter deren Nachname mit einem N oder Höher beginnt (Vor-/Nachname)
 
-
 Auflistung der Mitarbeiter (Vor-/Nachname) für welche keine Bemerkungen eingetragen sind
-
 
 Auflistung der Mitarbeiter (Vor-/Nachname) für welche eine Bemerkungen eingetragen sind
 
-
 Auflistung der Mitarbeiter deren Nachname mit einem N oder Höher beginnt (Vor-/Nachname) sortiert nach Vorname (steigend)
-
 
 Auflistung der Kunden (Firma, Nachname) aus der Stadt Seattle
 
-
 Auflistung der Bestellungen (Bestelldatum, Lieferdatum, Kundennummer, Preis) mit Bestelldatum '5.6.2006' (ein Datum wird in vielen Datenbanken in unterschiedlichen Formaten akzeptiert ...)
-
 
 Auflistung der Mitarbeiter (Vor-/Nachname) die nicht aus den USA kommen
 
-
 Auflistung der Bestellungen (PersNr, Bestell-Nr, Kunden-Nr, Bestelldatum, Lieferdatum) für die das Lieferdatum vor dem Bestelldatum eingetragen ist
-
 
 Auflistung der Kunden (Firma, Nachname) bei denen keine Fax-Nummer angegeben ist, sortiert nach Firmenname (fallend)
 
-
 Auflistung der Mitarbeiter (Vor-/Nachname, Stadt) die aus Seattle oder Redmond kommen
 
-
 Auflistung der Kunden aus einem Bundesstaat der Form 'N_' (Nevada, New York)
-
 
 #### Funktionen
 
@@ -176,9 +164,7 @@ WHERE order_id=3;
 
 Berechnung des durchschnittlichen Listenpreises sämtlicher Produkte
 
-
 Berechnung des frühesten und spätesten Bezahldatum sämtlicher Bestellungen
-
 
 #### GROUP
 
@@ -217,15 +203,11 @@ SELECT employees.id, employees.last_name, employees.first_name, orders.id, order
 
 Auflistung der Bestellnummern, des bestellenden Kunden und des betreuenden Mitarbeiters
 
-
 Auflistung von Bestellnummern und den zugeordneten Bearbeitern für Bestellungen nach dem 12.3.2005
-
 
 Auflistung der Anzahl von Produkten (Name und Anzahl) allerdings nur wenn die Anzahl geringer als 200 ist
 
-
 Auflistung der Anzahl von Bestellungen seit 31.12.2007 pro Kunde. Allerdings nur, wenn die Anzahl größer/gleich 2 ist.
-
 
 Auflösungen:
 
@@ -245,11 +227,11 @@ Dazu soll in der Kunden-Tabelle das Attribut *numbest* eingefügt werden. Es sol
 - Auslösen des Triggers durch Einfügen in die *bestellungen*-Tabelle - Vor oder Nach dem Einfügen spielt keine Rolle. Daher Wahl `AFTER INSERT`
 
 - Der Wert wird gesetzt mit *Bisheriger Wert +1*:
-
+  
   ```SQL
   UPDATE kunden SET numbest=(
-  	(SELECT numbest FROM kunden WHERE kunden.knr=NEW.knr)+1
-  	) WHERE kunden.knr=NEW.knr;
+      (SELECT numbest FROM kunden WHERE kunden.knr=NEW.knr)+1
+      ) WHERE kunden.knr=NEW.knr;
   ```
 
 ### Verkäufer (07)
@@ -261,35 +243,35 @@ Fügen Sie eine weitere Tabelle *verkaeufer* ein. Die Struktur soll dadurch folg
 Die Fremdschlüsselbeziehungen sind entsprechend zu Setzen.
 
 - Listen Sie sämtliche Bestellungen samt deren Kunde und Verkäufer nur für Fälle in welchem ein Verkäufer und Kunde eingetragen ist(INNER JOIN). 
-
+  
   ```sql
   SELECT * FROM bestellungen,verkaeufer,kunden WHERE bestellungen.knr=kunden.knr AND bestellungen.vnr=verkaeufer.pnr
   ```
-
+  
   oder mit Join:
-
+  
   ```sql
   SELECT * FROM bestellungen JOIN kunden ON bestellungen.knr=kunden.knr JOIN verkaeufer ON verkaeufer.pnr=bestellungen.vnr
   ```
 
 - Listen Sie Kunden samt oder auch ohne Bestellung (LEFT JOIN).
-
+  
   ```sql
   SELECT * FROM bestellungen LEFT JOIN kunden ON kunden.knr=bestellungen.knr
   ```
 
 - Listen Sie sämtliche Kunden und sämtliche Bestellungen (FULL JOIN).
-
+  
   ```sql
   SELECT * FROM bestellungen LEFT JOIN kunden ON kunden.knr=bestellungen.knr
   UNION
   SELECT * FROM bestellungen RIGHT JOIN kunden ON kunden.knr=bestellungen.knr
   ```
-
+  
   Wichtig: beide Join liefern die gleichen Attribute in der gleichen Reihenfolge, daher können sie mittels Union direkt kombiniert werden.
 
 - Listen Sie sämtliche Verkäufer samt oder auch ohne Bestellungen (RIGHT JOIN). 
-
+  
   ```sql
   SELECT * FROM bestellungen RIGHT JOIN verkaeufer ON bestellungen.vnr=verkaeufer.pnr
   ```
@@ -311,24 +293,24 @@ Pos.  ArtikelNr  Bezeichnung       Anzahl      E-Preis     G-Preis
 ```
 
 Die Geschäftsregeln der Miniwelt lassen sich wie folgt fassen: 
-   	1. Eine Rechnung geht genau an einen Kunden und existiert ohne Kunden nicht. 
- 	2. Ein Kunde kann keine, eine oder mehrere Rechnungen erhalten. 
- 	3. Eine Rechnung enthält mindestens eine Rechnungsposition. 
- 	4. Eine Rechnungsposition bezieht sich auf genau eine Rechnung und 
+       1. Eine Rechnung geht genau an einen Kunden und existiert ohne Kunden nicht. 
+     2. Ein Kunde kann keine, eine oder mehrere Rechnungen erhalten. 
+     3. Eine Rechnung enthält mindestens eine Rechnungsposition. 
+     4. Eine Rechnungsposition bezieht sich auf genau eine Rechnung und 
 
     existiert ohne Rechnung nicht.
- 	5. Eine Rechnungsposition betrifft genau einen Artikel und existiert ohne Artikel nicht.
- 	6. Ein Artikel kann in keiner, einer oder mehreren Rechnungen auftauchen.
+     5. Eine Rechnungsposition betrifft genau einen Artikel und existiert ohne Artikel nicht.
+     6. Ein Artikel kann in keiner, einer oder mehreren Rechnungen auftauchen.
 
 Arbeitsanweisungen:
-   	1. Aufgabe: Erstelle ein vollständiges ER-Diagramm (Papier)
- 	2. Aufgabe: Erstelle ein vollständiges relationales Datenmodell in der Datei: is_invoice.sql
+       1. Aufgabe: Erstelle ein vollständiges ER-Diagramm (Papier)
+     2. Aufgabe: Erstelle ein vollständiges relationales Datenmodell in der Datei: is_invoice.sql
 
     (mit 1. create database, 2. create table, 3. Keys, 4. Constraints, 5. referentielle Integrität, 6. Testdaten).
     Tipp: siehe is_uni-mysql.sql
- 	3. Aufgabe: Zeige die SQL-Anweisung, welcher Artikel am meisten verkauft wurde.
- 	4. Aufgabe: Zeige die Redundanzfreiheit durch das Einhalten der 3. Normalform und 
-
+     3. Aufgabe: Zeige die SQL-Anweisung, welcher Artikel am meisten verkauft wurde.
+     4. Aufgabe: Zeige die Redundanzfreiheit durch das Einhalten der 3. Normalform und 
+    
     gib Definitionen zur 1. , 2. und 3. Normalform.
 
 -- file: : is_invoice.sql
@@ -350,9 +332,9 @@ use is_invoice;
 
 drop table if exists customer;
 create table customer(
-	id int  primary key,
-	name varchar(80) not null default 'Sepp Bastman',
-	address varchar(80) not null default 'address n/a'
+    id int  primary key,
+    name varchar(80) not null default 'Sepp Bastman',
+    address varchar(80) not null default 'address n/a'
 );
 
 is_invoice.sql
@@ -375,46 +357,46 @@ use is_invoice;
 
 drop table if exists customer;
 create table customer(
-	id int  primary key,
-	name varchar(80) not null,
-	address varchar(80) not null default 'address n/a'
+    id int  primary key,
+    name varchar(80) not null,
+    address varchar(80) not null default 'address n/a'
 );
 
 drop table if exists product;
 create table product(
-	id	 int primary key,
-	description varchar(80) not null default 'desc n/a',	
-	price	double not null default 1.0
+    id     int primary key,
+    description varchar(80) not null default 'desc n/a',    
+    price    double not null default 1.0
 );
 
 drop table if exists invoice;
 create table invoice(
-	id int primary key,
-	full_price double not null default 0.0,
+    id int primary key,
+    full_price double not null default 0.0,
     date date,
 
     customer_id int not null,
 
-	constraint inv_cust_fk
-	foreign key (customer_id) references customer(id) on delete restrict
+    constraint inv_cust_fk
+    foreign key (customer_id) references customer(id) on delete restrict
 );
 
 drop table if exists invoice_position;
 create table invoice_position (
-	position int not null,
-	number_of_items int not null default 1,
+    position int not null,
+    number_of_items int not null default 1,
 
     product_id int not null ,
     invoice_id int not null ,
 
-	constraint invpos_pk 
-	primary key (product_id,invoice_id),
+    constraint invpos_pk 
+    primary key (product_id,invoice_id),
 
-	constraint invpos_prod_fk 
-	foreign key (product_id) references product(id) on delete restrict,
+    constraint invpos_prod_fk 
+    foreign key (product_id) references product(id) on delete restrict,
 
-	constraint invpos_cust_fk 
-	foreign key (invoice_id) references invoice(id) on delete restrict
+    constraint invpos_cust_fk 
+    foreign key (invoice_id) references invoice(id) on delete restrict
 );
 
 commit;
@@ -458,7 +440,7 @@ values (2, 2, 2, 2);
 
 
 -- which products are best-sellers?
- 
+
 select description, product_id, sum(number_of_items) as countProduct
 from invoice_position, product
 where product.id= invoice_position.product_id
@@ -501,4 +483,3 @@ moz_bookmarks          moz_inputhistory       moz_origins
 moz_bookmarks_deleted  moz_items_annos        moz_places
 sqlite> .quit
 ```
-

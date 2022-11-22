@@ -2,10 +2,10 @@
 
 - ist ein Interpreter für die Sprache Javascript der auf die Javascript-Runtime-V8 von Google-Chrome aufbaut - grundsätzlich können damit beliebige js-Dateien ausgeführt werden.
 
-- Javascript ist ein Sprache die üblicherweise auf einem Client läuft. Mit Node.js ist es möglich Javascript-Code auf einem Server zu interpretieren (PHP läuft ebenfalls auf Serverseite).
+- Javascript ist eine Sprache die üblicherweise auf einem Client läuft. Mit Node.js ist es möglich Javascript-Code auf einem Server zu interpretieren (PHP läuft ebenfalls auf Serverseite).
 
 - Node.js ist Event-gesteuert. Dadurch kann ein Non-Blocking-I/O Modell realisiert werden. Dadurch kann die Serveranwendung beliebige Anfragen parallel und voneinander unabhängig (Non-Blocking) bearbeitet werden.
-
+  
   --> Programmieren von Event-Handlern
 
 Hier wird nur sehr oberflächlich eingegangen auf den Zugriff auf eine Datenbank mittels Webserver mittels Node.js für:
@@ -28,7 +28,7 @@ Direkt einen Webserver mittels Node.js zu implementieren ist kein übliches Vorg
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
 - Dann wird ein Verzeichnis angelegt (in diesem Verzeichnis folgt die Entwicklung) und hineingewechselt
-
+  
   ```
   mkdir c:\temp\myNode
   cd c:\temp\myNode
@@ -36,7 +36,7 @@ Direkt einen Webserver mittels Node.js zu implementieren ist kein übliches Vorg
   npm install express
   npm install -g nodemon
   ```
-
+  
   ab nun ist in Node.js Express verfügbar `var express = require('express');`
 
 ### Erstes Skript
@@ -81,7 +81,7 @@ app.listen(80, () => {                      // Port-80
 
 app.get('/', (req, res) => {
     // Direkt ausgeben:
-	// res.send("Welcome on nodejs-WebServer");
+    // res.send("Welcome on nodejs-WebServer");
     // Alternativ eine Datei senden:
     res.sendFile(path.join(__dirname + '/public/index.html'));
 });
@@ -98,7 +98,7 @@ Die Datei `index.html`  kann dazu im Ordner `public` im gleichen Pfad wie `app.j
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
 - Dann wird ein Verzeichnis angelegt (in diesem Verzeichnis folgt die Entwicklung) und hineingewechselt
-
+  
   ```
   mkdir c:\temp\nodemysql
   cd c:\temp\nodemysql
@@ -107,7 +107,7 @@ Die Datei `index.html`  kann dazu im Ordner `public` im gleichen Pfad wie `app.j
   npm install mysql
   npm install -g nodemon
   ```
-
+  
   ab nun ist in nodejs MySQL verfügbar `var mysql = require('mysql');`
 
 ### Verbinden mit der DB
@@ -120,7 +120,7 @@ var con = mysql.createConnection({
     user     : 'fsst',
     password : 'comein'
 });
-  
+
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
@@ -149,7 +149,7 @@ con.connect(function(err) {
 ### Beenden der Verbindung
 
 ```javascript
-connection.end();
+con.end();
 ```
 
 ## Mongo-Db
@@ -161,7 +161,7 @@ connection.end();
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
 - Dann wird ein Verzeichnis angelegt (in diesem Verzeichnis folgt die Entwicklung) und hineingewechselt
-
+  
   ```
   mkdir c:\temp\node-mongo
   cd c:\temp\node-mongo
@@ -170,7 +170,7 @@ connection.end();
   npm install mongodb
   npm install -g nodemon
   ```
-
+  
   ab nun ist in nodejs MongDB verfügbar `var mongo = require('mongodb');`
 
 ### Verbinden mit der DB
@@ -180,11 +180,11 @@ const MongoClient = require('mongodb').MongoClient;
 const client = new MongoClient("mongodb://localhost:27017");
 
 client.connect(err => {
-	const collection = client.db("MyDb").collection("person");
-	collection.find().toArray((err, docs) => {
-		if (err) throw err;
-		console.log(docs);
-	});
+    const collection = client.db("MyDb").collection("person");
+    collection.find().toArray((err, docs) => {
+        if (err) throw err;
+        console.log(docs);
+    });
 });
 ```
 
@@ -198,14 +198,15 @@ client.close();
 
 - node.js
   https://nodejs.org
+
 - Gute, ganz allgemeine Einführung
   https://www.youtube.com/watch?v=6hcsrjooU0w
 
 - MySQL
-
+  
   https://github.com/mysqljs/mysql
 
 - Sehr "lesbare" Einführung auf w3schools für MySQL/MongoDB
-
+  
   https://www.w3schools.com/nodejs/nodejs_mysql.asp
   https://www.w3schools.com/nodejs/nodejs_mongodb.asp

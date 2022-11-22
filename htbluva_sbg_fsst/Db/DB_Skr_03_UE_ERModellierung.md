@@ -21,14 +21,14 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 
 Bestimmen Sie die Kardinalitäten der folg. Beziehungen:
 
-| Kunden beauftragen Projekte                        | N:M  |
-| -------------------------------------------------- | ---- |
-| Firmen erzeugen Produkte                           |      |
-| Mitarbeiter sind einer Abteilung zugeordnet        |      |
-| Ein Schüler geht in eine Klasse                    |      |
-| Studierende besuchen eine oder mehrere Vorlesungen |      |
-| Schüler entlehnen Bücher in der Bibliothek         |      |
-| Ein Mitarbeiter leitet ein Projekt                 |      |
+| Kunden beauftragen Projekte                        | N:M |
+| -------------------------------------------------- | --- |
+| Firmen erzeugen Produkte                           |     |
+| Mitarbeiter sind einer Abteilung zugeordnet        |     |
+| Ein Schüler geht in eine Klasse                    |     |
+| Studierende besuchen eine oder mehrere Vorlesungen |     |
+| Schüler entlehnen Bücher in der Bibliothek         |     |
+| Ein Mitarbeiter leitet ein Projekt                 |     |
 
 ## Bibliothek
 
@@ -84,15 +84,15 @@ Variante:
   Die Studierenden sollen bestimmte Lehrveranstaltungen hören (inskribieren) und über diese dann Prüfungen ablegen können.
 - Verwaltungspersonal:
   Wir verwalten Professoren und deren Assistenten, wobei bei Professoren folg. Daten wichtig sind: Personalnummer, Name, Geburtsdatum, Raum, Rang.
-  Professoren haben je ein eigenes Büro/Raum. Bei Assistenten wird zusätzlich das Fachgebiet gespeichert. Nur Professoren halten Vorlesungen ab. Über Vorlesungen werden folg. Daten gespeichert:
-  Vorlesungsnummer, Titel, SWS (Semesterwochenstunden).
+  Professoren haben je ein eigenes Büro/Raum. Assistenten haben keinen Rang und eigenen Raum, bei ihnen wird das Fachgebiet gespeichert. Jeder Assistent ist genau einem Professor zugeordnet. Nur Professoren halten Vorlesungen ab. Über Vorlesungen werden folg. Daten gespeichert:
+  Vorlesungsnummer, Titel, SWS (Semesterwochenstunden, ECTS).
   Manche Vorlesungen setzen den Besuch anderer Vorlesungen voraus und können ihrerseits wieder Voraussetzung für andere Vorlesungen sein.
   Es werden auch Studentendaten gespeichert: Matrikelnummer, Name, Geburtsdatum, Semester
-  Zu den Prüfungen muss gespeichert werden, welcher Student, bei welcher Vorlesung und bei welchem Professor welche Note, wann gemacht hat
+  Zu den Prüfungen (Exam) muss gespeichert werden, welcher Student, bei welcher Vorlesung und bei welchem Professor welche Note (Grade), wann gemacht hat
 - Ein Vorlesungsverzeichnis soll erstellt werden können
 - Eine Mitarbeiterliste soll erstellt werden können, gereiht nach Professor und seinen Assistenten
 - Ein Inskriptionsverzeichnis: Welcher Student, welche Vorlesung(en) besucht
-- Ein Prüfungsverzeichnis: Welcher Student bei welchem Professor zu welcher Vorlesung wann, welche Note gemacht hat
+- Ein Prüfungsverzeichnis: Welcher Student bei welchem Professor zu welcher Vorlesung, wann, welche Note gemacht hat
 - Eine Webanbindung (Vorlesungsverzeichnis) soll realisiert werden
 - Eine MS-Access / Openoffice base Anwendung zur Verwaltung der Daten und zur Berichterzeugung soll erstellt werden.
 
@@ -111,7 +111,7 @@ Beschreibung:
 - Von Schulen werden folgende Informationen gespeichert:
   Schulkennzahl, Name, Adresse (strasse, nr, PLZ, Ort), Direktor
 
-Beziehungen: (non-identifiying 	Relationship verwenden)
+Beziehungen: (non-identifiying     Relationship verwenden)
 
 - Lehrer unterrichten Schüler.
 - Schüler sind höchstens einer Abteilung zugeordnet. 
@@ -141,11 +141,13 @@ Verwenden Sie Normalisierung, um ein Datenbankschema für eine Arztpraxis zu ent
 ## Abteilung-Angestellte-Projekte (04)
 
 1. Entitäten
+   
    - Angestellter: Nummer, Gehalt, Name
    - Abteilung: Nummer, Name
    - Projekt: Nummer, Beschreibung
 
 2. Beziehungen:
+   
    - leiten (2x)
    - gehören zu
    - arbeiten an
@@ -153,6 +155,7 @@ Verwenden Sie Normalisierung, um ein Datenbankschema für eine Arztpraxis zu ent
    - vertreten
 
 3. Kardinalitäten
+   
    - Jeder Angestellte gehört zu genau einer Abteilung
    - Jede Abteilung wird von genau einem Angestellten geleitet.
    - Zu einer Abteilung gehört mindestens ein Angestellter.
@@ -182,4 +185,3 @@ b) Erstellen Sie die notwendigen SQL-Anweisungen
   https://docplayer.org/32883339-02-arbeitsunterlagen.html
 - Beispiel Biomed
   https://books.google.at/books?id=JwxWDwAAQBAJ&pg=PA26&lpg=PA26&dq=patient+erm+entit%C3%A4t&source=bl&ots=BvQD6JYSUR&sig=ACfU3U2L3dIUADb8K0J6YBbaF2gKpyoowA&hl=de&sa=X&ved=2ahUKEwjsuK_X4d3gAhUPExQKHTpqCTEQ6AEwD3oECAIQAQ#v=onepage&q=patient%20erm%20entit%C3%A4t&f=false
-

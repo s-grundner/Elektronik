@@ -6,17 +6,17 @@ Ein ODBC-Treiber bietet eine Programmierschnittstelle für Datenbanksysteme. Mit
 
 ### Treiber-Einstellung am Beispiel MySQL-DB
 
-Für die verwendete MySQL-Datenbank muss ein 32-Bit-ODBC-Treiber installiert werden. Dieser kann einfach im Internet bezogen werden. Für *Windows/MySQL* etwa unter https://cdn.mysql.com//Downloads/Connector-ODBC/8.0/mysql-connector-odbc-8.0.18-win32.msi.
+Für die verwendete MySQL-Datenbank muss ein 32-Bit/64Bit-ODBC-Treiber installiert werden. Dieser kann einfach im Internet bezogen werden. Für *Windows/MySQL* etwa unter https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.31.0.msi.
 
 Nach der Installation des notwendigen Treibers wird dieser mit `odcbad32.exe` gestartet (ODBC-Datenquellen-Administrator) für 32 Bit. Im Reiter *System-DSN* wird eine Datenquelle hinzugefügt. Es wird der entsprechende Treiber (MySQL ODBC 8.0 ANSI Driver) ausgewählt. Für die zu verbindende Datenbank werden nun die Einstellungen getätigt:
 
 ```
-Data Source Name: 	myOdbc
-TCP/IP: 			localhost
-Port:				3306
-User:				root
-Password:			
-Database:			is_uni
+Data Source Name:     myOdbc
+TCP/IP:               localhost
+Port:                 3306
+User:                 root
+Password:            
+Database:             is_uni
 ```
 
 Die Werte müssen für die konkrete Anwendung angepasst werden. Die Datenbank kann nur ausgesucht werden, wenn eine Verbindung über die eingestellten Parameter möglich ist. Die hier frei gewählte Bezeichnung *myOdbc* wird später für die Verbindung benötigt.
@@ -65,12 +65,12 @@ SQLAllocHandle(SQL_HANDLE_STMT, hdbc, &hstmt);
 SQLExecDirect(hstmt, sqlStatement, SQL_NTS);
 
 while (SQLFetch(hstmt) == SQL_SUCCESS) {
-	SQLLEN lenNum;
+    SQLLEN lenNum;
     SQLINTEGER num;
-	SQLGetData(hstmt, 1, SQL_C_LONG, &num, 0, &lenNum);
-	printf("%6i\n", num);
+    SQLGetData(hstmt, 1, SQL_C_LONG, &num, 0, &lenNum);
+    printf("%6i\n", num);
 }
-              
+
 SQLFreeHandle(SQL_HANDLE_ENV, henv);
 ```
 
@@ -95,14 +95,14 @@ LINK_LIBRARIES(odbc32)
 Mit obigen Einstellungen mittels Qt:
 
 - das Qt-Projekt (pro-Datei) muss sql laden:
-
+  
   ```
   QT += sql
   ```
 
 - Cpp:
   es gibt viele Varianten via ODBC zuzugreifen: es wird die Treiberbezeichnung benötigt (*MySQL ODBC 8.0 ANSI Driver*)...
-
+  
   ```c++
   #include <QCoreApplication>
   #include <QDebug>
@@ -150,7 +150,7 @@ Mit obigen Einstellungen mittels Qt:
   ```
 
 - Alternativ:
-
+  
   ```c++
   #include <QCoreApplication>
   #include <QDebug>
@@ -164,7 +164,7 @@ Mit obigen Einstellungen mittels Qt:
       QCoreApplication a(argc, argv);
   
       QSqlDatabase db = QSqlDatabase::addDatabase("QODBC3");
-      db.setDatabaseName("DataSourceName");				// hier wird der benannte ODBC-Treiber gewaehlt
+      db.setDatabaseName("DataSourceName");                // hier wird der benannte ODBC-Treiber gewaehlt
   
       if (!db.open()) qDebug() << db.lastError().text();
   // mit is_uni kann hier direkt in anderes Schema verlinkt werden
@@ -187,7 +187,6 @@ Mit obigen Einstellungen mittels Qt:
       qDebug() << qstr.toStdString().c_str(); qstr="";
   }
   ```
-
 
 ## SQLite
 
@@ -249,4 +248,3 @@ https://www.connectionstrings.com/microsoft-access-accdb-odbc-driver/
 
 - https://www.easysoft.com/developer/languages/c/examples/index.html
 - https://docs.microsoft.com/de-de/sql/odbc/reference/syntax/odbc-reference?view=sql-server-2017
-

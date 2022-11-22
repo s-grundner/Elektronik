@@ -37,9 +37,9 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
 - Ein DBS setzt sich zusammen aus der **Datenbank DB** (die Sammlung sämtlicher Daten) und dem **Datenbank-Management-System DBMS** (ein Programmsystem welches die DB verwaltet, sie fortschreibt und den Zugriff regelt)
 
 - Abstraktionsebenen von Datenbanken. Datenbanken sind komplex. Ein einfacher Anwender der Daten aus einer Datenbank abfragt oder dort hineinschreibt, kennt oder sieht den inneren Aufbau (Dateiorganisation ...) einer Datenbank nicht (ist auch gut, dass das nicht notwendig ist). Er kennt nur eine externe Sicht auf die Datenbank via Browser- oder Anwendungsmasken.
-
+  
   Ein Datenbankadministrator kennt die dahinterliegende Schicht, ein Datenmodell und hat damit eine konzeptionelle Sicht. Diese Schicht ist oft einheitlich und unabhängig vom speziellen Produkt. 
-
+  
   Physisch ist die Datenbank unterschiedlich aufgebaut, abhängig vom Hersteller des Produkts. Auf dieser Ebene werden die Daten auf Dateien verteilt, die Pfade und die Rechte geregelt.
 
 ## Datenbankmodelle
@@ -48,10 +48,10 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
   Ein Ursprungknoten von dem hierarchisch Abzweige erfolgen (ähnlich wie ein Dateisystem: Laufwerk->Verzeichnis->Verzeichnis...). Veraltetes Modell; eine kleine Veränderung in der DB Struktur, kann die komplette Struktur zerstören
   
   ![](bilder/DB_hierarchischesModell.png)
-  
+
 - **Relationale DB**
   Organisation in Tabellen (Relationen) - sehr verbreitet, einfach, redundant (siehe Unten)
-  
+
 - **Objektorientiert** - sehr an Computerprogrammierung angepasst (Vertreter: db4o, PostgreSQL). Es können nicht nur Daten sondern auch Algorithmen abgelegt werden (~Methoden von Klassen)
 
 - **NoSql**
@@ -98,4 +98,4 @@ In einer relationalen Datenbank sind die Daten in voneinander abhängigen Tabell
 - Was kennzeichnet eine relationale Datenbank?
 - Was ist ein Tupel / Attribut / Schlüssel?
 - Was ist der Unterschied zwischen einem Superschlüssel / Primärschlüssel / Fremdschlüssel / Schlüsselkandidat?
-- Welche Anforderungen werden an eine Datenbank gestellt?
+- Welche Anforderungen werden an eine Datenbank gestellt

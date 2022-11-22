@@ -14,7 +14,7 @@ In einem Measurement gibt's die folgenden Elemente:
 
 - **Timestamp**: gibt's in dieser DB immer - jeder Datensatz wird automatisch mit einem Zeitstempel (RFC3339 UTC) abgelegt. Alles Andere ist frei konfigurierbar.
 - **Field Key** und **Field Value**: entsprechen den Attributen in den relationalen DB. Der Key ist etwa die Überschrift (Spannung) und der Value der gemessene Wert (230).
--  **Tag Key** und **Tag Value**: erstmal das selbe wie die Field-Elemente. Der Unterschied: nach den Tag-Elementen kann effizient gesucht werden, nach den Field-Elementen muss die komplette Measurement durchsucht werden (Zeile für Zeile). Für die Tag-Elemente wird wohl ein eigener Index angelegt.
+- **Tag Key** und **Tag Value**: erstmal das selbe wie die Field-Elemente. Der Unterschied: nach den Tag-Elementen kann effizient gesucht werden, nach den Field-Elementen muss die komplette Measurement durchsucht werden (Zeile für Zeile). Für die Tag-Elemente wird wohl ein eigener Index angelegt.
   In obigen Beispiel wurde beliebig der Entladestrom als Tag gewählt. Dadurch kann in dieser Tabelle sehr effizient nach einem bestimmten Entladestrom gefiltert werden. Die Aufteilung Tag<->Field kann beliebig erfolgen.
 - **Point**: als Point wird eine einzelne Messung bezeichnet, also wie ein Datensatz.
 
@@ -71,29 +71,29 @@ Eine **Where**-Clause analog zu jener in SQL gibt es ebenfalls.
 
 - Windows - Download und Extract
   https://portal.influxdata.com/downloads/  --> Windows-Binaries ... dort enweder den Link rauskopieren oder mittels Powershell:
-
+  
   ```
   wget https://dl.influxdata.com/influxdb/releases/influxdb-1.8.5_windows_amd64.zip -UseBasicParsing -OutFile influxdb-1.8.5_windows_amd64.zip
   ```
-
+  
   und entpacken:
-
+  
   ```
   Expand-Archive .\influxdb-1.8.5_windows_amd64.zip -DestinationPath 'C:\Program Files\InfluxData\influxdb\'
   ```
 
 - Erstkonfig - influxdb.conf editieren
-
+  
   Manuell anlegen die Ordner (wo auch immer ...):
-
+  
   ```
   C:\Users\roman\AppData\Roaming\influxdb\influx-data\data
   C:\Users\roman\AppData\Roaming\influxdb\influx-data\meta
   C:\Users\roman\AppData\Roaming\influxdb\influx-data\val
   ```
-
+  
   Mittels Editor die Datei **influxdb.conf** anlegen (Ordner anpassen - evtl. mit Unix-CR abspeichern):
-
+  
   ```
   [meta]
     # Where the metadata/raft database is stored
@@ -112,7 +112,7 @@ Eine **Where**-Clause analog zu jener in SQL gibt es ebenfalls.
 - Client: **influx.exe**
 
 - Abfrage via HTTP-GET:
-
+  
   ```
   http://localhost:8086/query?db=TTNDB&q=SELECT%20*%20FROM%20%22Solarmodul%22
   ```
@@ -132,4 +132,3 @@ Beispiel (Import in Node-Red):
 ```json
 [{"id":"70f5f647.0e57b8","type":"influxdb out","z":"dc3fb0b2.df903","influxdb":"e1dc092f.e02b78","name":"espmeasure","measurement":"espmeasure","precision":"","retentionPolicy":"","database":"espmeasure","precisionV18FluxV20":"ms","retentionPolicyV18Flux":"","org":"lesson","bucket":"measure","x":590,"y":340,"wires":[]},{"id":"62110329.7106cc","type":"function","z":"dc3fb0b2.df903","name":"Fields","func":"msg.payload = [{   // InfluxDB-Values\n    H: 52,\n    T: 20.2,\n    P: 1.2\n},{                // InfluxDB-Tags\n    loc: \"Schlafzimmer\",\n    type: \"bmp182\"\n}]\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":410,"y":340,"wires":[["70f5f647.0e57b8","3de19d84.119862"]]},{"id":"cefed6e.230e7a8","type":"inject","z":"dc3fb0b2.df903","name":"","repeat":"","crontab":"","once":false,"topic":"","payload":"","payloadType":"date","x":240,"y":440,"wires":[["62110329.7106cc","fc9df475.a4aa58"]]},{"id":"3de19d84.119862","type":"debug","z":"dc3fb0b2.df903","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":610,"y":400,"wires":[]},{"id":"fc9df475.a4aa58","type":"influxdb in","z":"dc3fb0b2.df903","influxdb":"e1dc092f.e02b78","name":"in","query":"SELECT * FROM espmeasure","rawOutput":true,"precision":"","retentionPolicy":"","org":"lesson","x":430,"y":500,"wires":[["fdc2b192.0c4668"]]},{"id":"fdc2b192.0c4668","type":"function","z":"dc3fb0b2.df903","name":"result","func":"//msg.payload = \"Hallo Welt\"; //Math.random()*10;\nreturn msg.payload.results[0].series[0];","outputs":1,"noerr":0,"initialize":"","finalize":"","x":590,"y":500,"wires":[["c2da08e2.60e1d8"]]},{"id":"c2da08e2.60e1d8","type":"debug","z":"dc3fb0b2.df903","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"true","targetType":"full","statusVal":"","statusType":"auto","x":730,"y":500,"wires":[]},{"id":"3f54c86c.0dc56","type":"comment","z":"dc3fb0b2.df903","name":"InfluxDB Point Schreiben","info":"Schreiben in die InfluxDB\n- Die Datenbank muss laufen (auf localhost)\n- geschrieben wird immer der gleiche Point\n- Tags und Fields können in der Funktion ersehen werden","x":470,"y":280,"wires":[]},{"id":"bddd4082.2671b","type":"comment","z":"dc3fb0b2.df903","name":"InfluxDB Measurement Lesen","info":"Lesen aus der InfluxDB\n- die Datenbank muss laufen (localhost)\n- gelesen werden die Rohen Daten","x":660,"y":560,"wires":[]},{"id":"e1dc092f.e02b78","type":"influxdb","z":"","hostname":"localhost","port":"8086","protocol":"http","database":"ttndb","name":"Einf","usetls":false,"tls":"10d548aa.fc0ed7","influxdbVersion":"1.x","url":"http://localhost:8086","rejectUnauthorized":false},{"id":"10d548aa.fc0ed7","type":"tls-config","name":"","cert":"","key":"","ca":"","certname":"","keyname":"","caname":"","servername":"","verifyservercert":false}]
 ```
-

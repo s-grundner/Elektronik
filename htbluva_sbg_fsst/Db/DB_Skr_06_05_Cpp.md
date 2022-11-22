@@ -15,55 +15,57 @@ In der Projektkonfiguration für QTCreator muss im Projekt die Option sql ergän
 ```
 QT += sql
 ```
+
 Im Source müssen diese Bibliotheken dazu geladen werden:
-```
+
+```cpp
 #include <QtSql>
 #include <QtSql/QSqlQuery>
 ```
 
 Für die Initialisierung:
 
-```
+```cpp
 QSqlDatabase myDb = QSqlDatabase::addDatabase("QSQLITE");
 myDb.setDatabaseName("c:/.../is_firma.db");        // Location of DB-File
 
-if (myDb.open()) {																	// Open and Check for Access
-	...// Connection established
+if (myDb.open()) {                                                                    // Open and Check for Access
+    ...// Connection established
 } else ...// Fehler
 ```
 
 Für ein Query:
 
-```c++
+```cpp
 QSqlQuery query;
 query.exec("SELECT name, salary FROM employee WHERE salary > 50000");
 ```
 
 Für DDL-Befehle genügt das. Mit exec (Execute) wird der Query ausgeführt. Für Abfragen (DML), die eine Tabelle zurückgeben, muss in Folge mit *next* gearbeitet werden:
 
-```c++
+```cpp
 // Standard-Init
 QSqlDatabase myDb = QSqlDatabase::addDatabase("QSQLITE");
 myDb.setDatabaseName("c:/temp/sqllite/is_firma.db");        // Location of DB-File
 
-if (myDb.open()) {																	// Open and Check for Access
-	// Connection established
+if (myDb.open()) {                                                                    // Open and Check for Access
+    // Connection established
 }
 
-QSqlQuery query("SELECT * FROM angestellte");				// Configure Query
+QSqlQuery query("SELECT * FROM angestellte");                // Configure Query
 
 // Optional: query.exec();
 
 QString str = "";
-for (int i = 0; i < query.record().count(); i++) {		// Column-Names
-	str += query.record().fieldName(i) + "\t";
+for (int i = 0; i < query.record().count(); i++) {        // Column-Names
+    str += query.record().fieldName(i) + "\t";
 }
 str += "\n";
 while (query.next()) {
-	for (int i = 0; i < query.record().count(); i++) {	// Values
-  	str += query.value(i).toString() + "\t";
+    for (int i = 0; i < query.record().count(); i++) {    // Values
+      str += query.value(i).toString() + "\t";
   }
-	str += "\n";
+    str += "\n";
 }
 // Output str ....
 
@@ -76,7 +78,7 @@ In einem Record ist eine ganze Zeile der Tabelle enthalten. Mit *value(i)* kann 
 
 Mittels einem Design-Pattern ähnlich dem Model-View-Control lässt sich in Qt komfortabel ein DB-Inhalt anzeigen. Die Idee des Patterns: möglichst starke Trennung der Daten und der Anzeige. In Qt gibt es mehrere Möglichkeiten, hier wird lediglich eine gezeigt:
 
-```c++
+```cpp
 QSqlDatabase myDb = QSqlDatabase::addDatabase("QODBC3");       //Wir wollen mit ODCB zugreifen
 QString connectString = QStringLiteral(
     "DRIVER={MySQL ODBC 8.0 ANSI Driver};UID=root;PWD=;SCROLLABLERESULT=true;DATABASE=4ahbg_projekt");
@@ -85,22 +87,22 @@ if (!myDb.open()) qDebug() << myDb.lastError().text();         //Versucht die Da
 
 // Erstellen des Modells - Verknüpfen mit der DB (hier myDb)
 QSqlTableModel *model = new QSqlTableModel(this, myDb);
-model->setTable("personal");			                        // Tabelle personal in der gewählten DB
-model->setEditStrategy(QSqlTableModel::OnManualSubmit);			// <-- Siehe Unten
+model->setTable("personal");                                    // Tabelle personal in der gewählten DB
+model->setEditStrategy(QSqlTableModel::OnManualSubmit);            // <-- Siehe Unten
 model->select();                                                // "Holvorgang"
-model->setHeaderData(0, Qt::Horizontal, tr("Personal-Nummer"));	// Beschriftung der Spalten
+model->setHeaderData(0, Qt::Horizontal, tr("Personal-Nummer"));    // Beschriftung der Spalten
 model->setHeaderData(1, Qt::Horizontal, tr("Name"));            // sonst werden die Standardwerte
 model->setHeaderData(2, Qt::Horizontal, tr("Abteilungsnummer"));// Übernommen
 
-ui->myTable->setModel(model);									// QTableView auf der UI
-ui->myTable->hideColumn(0); // don't show the ID				// Standard: Einfügen eines Index
+ui->myTable->setModel(model);                                    // QTableView auf der UI
+ui->myTable->hideColumn(0); // don't show the ID                // Standard: Einfügen eines Index
 ```
 
 In diesem Beispiel gibt's in der MySQL-Datenbank ein Schema `4ahbg_projekt` und darin eine Tabelle `personal`.
 
 Alternativ gibt's ähnlich dem hier gezeigten `QSqlTableModel` ein `QSqlQueryModel`, dann wird nicht die vorhandene Tabelle angezeigt, sondern das Ergebnis des Queries:
 
-```c++
+```cpp
 QSqlQueryModel *model = new QSqlQueryModel(this, myDb);
 QSqlQuery qry;
 qry.exec("Select pname from personal");        
@@ -109,7 +111,7 @@ model->setQuery (qry);
 
 Die Model-View-Struktur hat den großen Vorteil, dass mittels Qt-Framework der gesamte DB-Schreib-/Lese-Zugriff erledigt wird. Mit der Einstellung
 
-```c++
+```cpp
 model->setEditStrategy(QSqlTableModel::OnManualSubmit);
 ```
 
@@ -123,7 +125,7 @@ SQLite ist eine Ein-Datei-Datenbank. Außerdem kann mit SQLite eine *InMemory*-D
 
 Im obigen Programm muss dafür nur anstatt des DB-Pfades *:memory:* `myDb.setDatabaseName(":memory:");` eingetragen werden. Die DB wird bei Beendigung des Programms automatisch gelöscht.
 
-```c++
+```cpp
 #include <QCoreApplication>
 #include <QDebug>
 
@@ -192,6 +194,3 @@ int main(int argc, char *argv[])
     qDebug() << qstr.toStdString().c_str(); qstr="";
 }
 ```
-
-
-

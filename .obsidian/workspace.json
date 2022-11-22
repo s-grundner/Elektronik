@@ -18,6 +18,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b5df7878626c61ca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -69,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "8477e7e09a934947",
@@ -150,20 +157,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "2628baa15b7d13c2",
   "lastOpenFiles": [
-    "htbluva_sbg_fsst/Db/DB_Skr_01_Einfuehrung.md",
+    "conflict-files-obsidian-git.md",
     "htbluva_sbg_fsst/Db/DB_Skr_02_Normalformen.md",
     "htbluva_sbg_fsst/Db/DB_Skr_02_UE_Normalformen.md",
-    "htbluva_sbg_fsst/Db/DB_Skr_05_02_Xampp_phpMyAdmin.md",
-    "htbluva_sbg_fsst/Db/DB_Skr_07_01_MSAccess.md",
-    "-assets/Pasted image 20221121145418.png",
-    "htbluva_sbg_fsst/ds-algo/O-Notation.md",
-    "-assets/Pasted image 20221121145313.png",
+    "hwe/LC Oszillatoren.md",
     "mathe/mathe (4)/Schwingkreise.md",
-    "README.md"
+    "Colpitts Oszillator.md",
+    "Emitterfolger.md",
+    "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+    "LC-Oszillator.md",
+    "dic/Machine Learning.md"
   ]
 }

@@ -13,16 +13,18 @@ Ab nun ist das XAMPP-Control-Panel verfügbar:
 - Starten des Control-Panels von XAMPP
 
 - In diesem Control-Panel sind die inkludierten Werkzeuge angeführt, für uns erstmal wichtig:
-
+  
   - Apache - ein WebServer
   - MySQL - eine MariaDB-Datenbank (früher war's wohl eine MySQL-DB).
-
+  
   Mittels der Konfig-Schaltflächen können Einstellungen für das entstprechende Werkzeug getroffen werden.
   Mit den Starten-Schaltflächen können die Werkzeuge gestartet werden, ab diesem Zeitpunkt zeigen diese Schaltflächen *Stoppen*. Ab nun sind auch die Admin-Schaltflächen verfügbar. Mit diesen kann auf die Tools zugegriffen werden.
-
+  
   Im unteren Bereich des Fensters werden Status-Meldungen ausgegeben. Solange die Meldungen schwarz/blau sind handelt es sich um Status-Information, erst wenn etwas rot geschrieben wird muss reagiert werden.
 
 Wenn Apache und MySQL gestartet ist, dann kann mittels Admin bei MySQL die Datenbank mittels phpMyAdmin bearbeitet werden. Sollte sich dabei kein Browser öffnen dann die Adresse (üblicherweise `localhost/phpmyadmin`) in einen anderen Browser kopieren.
+
+Das Programm funktioniert nur dann einwandfrei wenn es mit Admin-Rechten gestartet wird (sonst läßt es sich nicht richtig beenden, die Symbole funktionieren nicht immer ...)
 
 ## Webserver Apache
 
@@ -140,7 +142,7 @@ $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
 Sinnvolle Konfiguration: root-Benutzer (der wirklich Alles darf) wird nur lokaler Zugriff (localhost) gewährt. Erstellen von weiteren Benutzern die nur die gewünschten Befugnisse bekommen. Wichtig: das Passwort für Root irgendwo notieren!
 
-### Export 
+### Export
 
 Zum Exportieren von Tabellen oder gesamten Datenbanken:
 

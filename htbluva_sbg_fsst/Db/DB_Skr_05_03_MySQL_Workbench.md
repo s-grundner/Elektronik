@@ -15,7 +15,7 @@ Die Unterstützung im Internet zu diesem Tool ist sehr gut.
 Verbinden mit der MariaDB von XAMPP:
 
 - Beim ersten Start von MySQL-WB ist ein MySQL-Connections-Bereich dargestellt. Hier kann mit (+) eine neue Verbindung eingerichtet werden -> (+) Drücken
-- Benennung der Vebindung **lokaleXamppDb** mit Hostname **127.0.0.1** und Port **3306**. Diese Einstellungen sind Standard solange sie nicht bewusst für die DB verstellt wurden.
+- Benennung der Verbindung **lokaleXamppDb** mit Hostname **127.0.0.1** und Port **3306**. Diese Einstellungen sind Standard solange sie nicht bewusst für die DB verstellt wurden.
 - **Username**: derjenige der via eingestelltem Host verfügbar ist. Das Passwort kann eingestellt/gespeichert werden. Ansonsten muss es bei jedem Start eingegeben werden.
 - Mit **Test Connection** können die getroffenen Einstellungen geprüft werden, wenn sie passen beenden/bestätigen mit **OK**.
 
@@ -51,17 +51,17 @@ Die Oberfläche:
 - Das Bearbeiten / Hinzufügen / Löschen von Spalten/Tabellen/Schemas erfolgt jeweils über das Kontextmenü im Navigator.
 
 - Beziehungen: im Navigator wird Tabelle bearbeiten ausgewählt. Im sich öffnenden Fenster kann unten auf **Foreign Keys** umgeschaltet werden:
-
+  
   - jeder Fremdschlüssel bekommt einen **Namen**
   - Angabe in welche Tabelle referenziert werden soll
   - Angabe welche Spalte in der aktuellen Tabelle referenzieren soll
   - Angabe auf welche Spalte sich referenziert werden soll (muss ein Schlüssel sein)
   - Auswahl wie bei einem Update/Delete verfahren werden soll (CASCADE...)
-
+  
   Damit wird eine Beziehung 1:n dargestellt.
 
 - Erzeugen eines ERM-Diagramms aus einem Schema:
-
+  
   - Menüleiste -> Database -> Reverse Engineer ... -> ... -> Schema auswählen -> ... beim Vorletzten Punkt wurde ein ERM-Diagramm erstellt, der Ablauf kann beendet werden.
 
 ## ERD-Diagramm
@@ -73,15 +73,16 @@ In MySQL-WB werden diese Diagramm EER-Diagramme genannt.
 - Doppelklick auf Tabelle -> Bereich mit Einstellungen öffnet sich: Tabelle benennen, Einfügen/Konfigurieren von Spalten ...
 
 - Beziehungen von Tabellen:
-
+  
   - Auswahl einer Verbindung (Linie) 
   - Klick auf erste Tabelle
   - Klick auf zweite Tabelle
-
+  
   Zum Erkennen welche Spalten miteinander Verbunden wurde: Klick auf die Verbindung - die betroffenen Spalten werden farbig abgehoben. Es gibt strichlierte Linien, dann muss es für einzelne Elemente nicht zwangsläufig eine Beziehung geben.
-
+  
   Alternativ: Tabelle auswählen und in den Reitern unten auf *Foreign Keys*
 
 - Erzeugen der SQL-Anweisung zur Erstellung der erzeugten Struktur:
+  
   - Database -> Forward Engineer ... -> ... 
   - wenn der SQL-Code angezeigt wird, kann er kopiert werden und der Ablauf beendet werden.

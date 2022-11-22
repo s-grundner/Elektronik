@@ -1,5 +1,7 @@
 # 3 Entity-Relationship-Modell (ERM)
 
+(nach Peter Chen)
+
 Beschreibung der realen Welt durch:
 
 - Entitäten: Menge gleichartiger Objekte (dargestellt durch Rechtecke)
@@ -42,6 +44,16 @@ Einzelne Objekte können zu einer Anzahl von gleichartigen Objekten eine Beziehu
 - Ein Buch kann nur von einem Leser ausgeliehen werden (1)
 - Ein Leser kann mehrere Bücher gleichzeitig ausleihen (n) (wenn das so erlaubt ist!)
 
+häufig werden Kardinalitäten noch detailierter beschrieben, z.B.:
+
+- 0 .. n auch keine Beziehung möglich
+
+- 1 .. n es muss mindestens 1 Beziehung geben
+
+- 0 .. 10 keine bis maximal 10 Beziehungen
+
+u.s.f.
+
 ## Is-A-Beziehung
 
 Es kommt vor, dass unterschiedliche Objekte sehr starke Ähnlichkeiten aufweisen. Beispielsweise gibt es in einer Firma einen Chef, einen Abteilungsleiter, einen Projektleiter, einen Assistenten, einen Einkäufer und viele weitere. Sie alle haben eine Personalnummer, einen Vor-/Nachnamen, eine Adresse ...
@@ -73,9 +85,15 @@ Wenn das Diagramm gut aufgebaut wurde, ergibt sich automatisch eine hohe Normalf
 
 - In Werkzeugen zur Erstellung wird für Fremdschlüssel die Optionen **NO ACTION**, **CASCADE**, **RESTRICT**, **SET NULL** und **SET DEFAULT** angeboten. Damit wird festgelegt wie in der abhängigen Tabelle verfahren wird, wenn ein verknüpfter Schlüssel verändert wird. Eben nichts oder Änderung übernehmen usf.
 
+## Notation nach Barker
+
+Die Darstellung nach Peter Chen ist für das Zeichnen mit der Hand noch relativ gut möglich, die Darstellung nach Barker ist für größere Strukturen wesentlich komfortabler und übersichtlicher. Von dieser Notation kann einfach mittels UML-Darstellungen in Werkzeugen gearbeitet werden:
+
+![](C:\Daten\Skripten\Informatik\DB\bilder\ERD_Barker.png)
+
 ## Fragen
 
 - Was ist das Entity-Relationship-Modell?
 - Welche Arten von Kardinalitäten gibt es?
 - Was ist eine Is-A-Beziehung?
-- Wie werden ERM in eine Tabellen-Struktur übersetzt?
+- Wie werden ERM in eine Tabellen-Struktur übersetzt

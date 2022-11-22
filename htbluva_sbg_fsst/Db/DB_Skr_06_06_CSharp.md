@@ -34,7 +34,7 @@ Installation des Connectors (Download: <https://dev.mysql.com/downloads/windows/
 
 Aufbau/Beenden der Verbindung zur DB:
 
-```c#
+```cs
 using MySql.Data.MySqlClient;
 
 ...
@@ -42,18 +42,18 @@ using MySql.Data.MySqlClient;
 string conString = "server=localhost; port=3306; username=mgin; password=comein; SslMode=none;";
 MySqlConnection con = new MySqlConnection(conString);
 
-con.Open();		// Verbinden
+con.Open();        // Verbinden
 
-...	// Arbeiten mit der DB
+...    // Arbeiten mit der DB
 
-con.Close();	// Trennen der Verbindung
+con.Close();    // Trennen der Verbindung
 ```
 
 Evtl. Benutzer **mgin**/Passwort **comein** anpassen. Der Port 3306 ist der MySQL-Standardport, sofern in MySQL (XAMPP) das nicht verändert wurde stimmt der.
 
 Um Befehle mit dieser DB-Verbindung ausführen zu können wird ein MySqlCommand erzeugt:
 
-```
+```cs
 MySqlCommand sqlCmd = con.CreateCommand();
 ```
 
@@ -65,7 +65,7 @@ Wenn in C# Text mit Anführungsstrichen verwendet werden soll, so erfolgt das mi
 
 Zum Ausführen von SQL-Befehlen ohne Auswertung eines Querys bei geöffneter Verbindung:
 
-```c#
+```cs
 sqlCmd.CommandText = @"DROP DATABASE myDb;";
 MySqlCommand sqlCmd = new MySqlCommand("DROP DATABASE myDb;", con);    // db loeschen
 sqlCmd.ExecuteNonQuery();
@@ -79,7 +79,7 @@ Zum Abfangen von Exceptions ist `cmd.ExecuteNonQuery()` in einen Try-Catch-Block
 
 Für Querys wird folgende Anweisung verwendet:
 
-```c#
+```cs
 sqlCmd.CommandText = @"SELECT * FROM univerwaltungssystem.professoren;";
 MySqlDataReader reader = sqlCmd.ExecuteReader();
 
@@ -107,24 +107,24 @@ Mit den Methoden `GetInt32(i)` oder `GetString(i)` wird das i-te Element entspre
 
 Verbindung Herstellen (Personen1.accdb muss im gleichen Verzeichnis liegen wie die Anwendung, ansonsten absoluten Pfad):
 
-```c#
+```cs
 using System.Data.OleDb;
 
 ...
-    
+
 String conct = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Daten\Skripten\DB\MSAccess\01_Einfuehrung.accdb;Persist Security Info=False;";
 OleDbConnection con = new OleDbConnection(conct);
 
-con.Open();		// Verbinden
+con.Open();        // Verbinden
 
 ... // Arbeiten mit der DB
 
-con.Close();	// Trennen der Verbindung
+con.Close();    // Trennen der Verbindung
 ```
 
 #### SQL-Befehl ohne Query
 
-```c#
+```cs
 con.Open();
 
 OleDbCommand sql = con.CreateCommand();
@@ -136,7 +136,7 @@ con.Close();
 
 #### SQL-Befehl mit Query
 
-```c#
+```cs
 con.Open();
 OleDbCommand sql = con.CreateCommand();
 sql.CommandText = "select * from person;";
@@ -144,7 +144,7 @@ OleDbDataReader reader = sql.ExecuteReader();
 tbAusgabe.Text = "";
 while (reader.Read()) {
   for (int i = 0; i < reader.FieldCount; i++) {
-	tbAusgabe.AppendText(" " + reader[i]);  // oder reader["alter"]
+    tbAusgabe.AppendText(" " + reader[i]);  // oder reader["alter"]
   }
   tbAusgabe.AppendText("\r\n");
 }
@@ -164,23 +164,23 @@ Die Konfiguration des MS-SQL-Servers erfolgt mittels *Microsoft SQL Server Manag
 
 Als Data-Source muss die Adresse der DB angegeben werden. Mit Initial Catalog wird die DB angegeben auf die Verbunden werden soll. User-ID und Passwort muss mit den eingestellten Parametern der DB übereinstimmen:
 
-```c#
+```cs
 using System.Data.SqlClient;
 string conct = @"Data Source=NBI-RSCHRAGL;Initial Catalog=Northwind;User ID=sa;Password=passwort";
 
 SqlConnection con = new SqlConnection(conct);
-con.Open();		// Verbinden
+con.Open();        // Verbinden
 
 ... // Arbeiten mit der DB
 
-con.Close();	// Trennen der Verbindung
+con.Close();    // Trennen der Verbindung
 ```
 
 #### SQL-Befehl ohne Query
 
 Erstellen einer Tabelle:
 
-```c#
+```cs
 con.Open();
 
 SqlCommand sql = con.CreateCommand();
@@ -194,7 +194,7 @@ con.Close();
 
 Daten aus DB lesen:
 
-```c#
+```cs
 con.Open();
 
 SqlCommand sqlCmd = new SqlCommand("SELECT * FROM [dbo].[Testtabelle];", con);
@@ -217,12 +217,15 @@ Die Daten werden im Textbox-Fenster tbAusgabe ausgegeben.
 
 - Connection Strings für Datenbanken:
   www.connectionstrings.com
+
 - MySQL Befehls Referenz:
   https://dev.mysql.com/doc/dev/connector-net/8.0/html/T_MySql_Data_MySqlClient_MySqlCommand.htm
+
 - Einführung in ADO.NET:
   <https://www.youtube.com/watch?v=aoFDyt8oG0k&list=PL6n9fhu94yhX5dzHunAI2t4kE0kOuv4D7>
 
 - Tiefgehende C#-Datenbank Einführung für SQL-Server (Bernhard Baltes-Götz C# Skriptum V4):
   <https://www.uni-trier.de/fileadmin/urt/doku/csharp/v40/csharp4.pdf>
+
 - MySQL-Namespace:
   <https://dev.mysql.com/doc/dev/connector-net/8.0/html/N_MySql_Data_MySqlClient.htm>

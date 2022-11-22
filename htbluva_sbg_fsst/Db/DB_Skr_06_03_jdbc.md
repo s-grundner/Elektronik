@@ -1,6 +1,6 @@
 # 6.3 Java Database Connectivity JDBC
 
-Ähnlich der ODBC-Idee gibt es für Java eine Zwischenschicht, das JDBC. Diese Schicht bietet ein einheitliche Schnittstelle für die Anwendungsentwicklung an, womit die Anwendung unabhängig von der konkreten DB wird.
+Ähnlich der ODBC-Idee gibt es für Java eine Zwischenschicht - JDBC. Diese Schicht bietet ein einheitliche Schnittstelle für die Anwendungsentwicklung an, womit die Anwendung unabhängig von der konkreten DB wird.
 
 ## MySQL - Setup
 
@@ -31,9 +31,25 @@ Ablage im Projekt-Verzeichnis oder im JDK-Verzeichnis.
 
 In IntelliJ-IDEA ist es hilfreich das Database-Navigator-Plugin zu installieren (File->Settings->Plugins ...). Für die Ultimate-Variante gibt per JetBrain ein Plugin.
 
-Um den Connector verwenden zu können muss er geladen werden. In IntelliJ-IDEA erfolgt das im Menü File->Project Structure->Project Settings->Libraries. Darin wird eine neue Library angelegt und aus dem Maven-Repository unter dem Stichwort `mysql:mysql-connector-java` (der neueste) geladen.
+Download den letzten Treiber von https://mariadb.com -> Download -> Connector -> Java-Connector. Die Jar-Datei im Projekt ablegen und referenzieren:
 
-### DB-Zugriff
+File->ProjectStructure->ProjectSettings->Modules->Dependencies->jar-Datei referenzieren.
+
+## Maven
+
+Mittels Maven kann für MariaDB gesetzt werden:
+
+```
+<dependencies>
+    <dependency>
+        <groupId>org.mariadb.jdbc</groupId>
+        <artifactId>mariadb-java-client</artifactId>
+        <version>3.0.8</version>
+    </dependency>
+</dependencies>
+```
+
+## DB-Zugriff
 
 Verbinden mit der Datenbank *localhost:3306/is_uni* und den entsprechenden Zugriffsdaten. Es werden sämtliche Werte von bis zu 4 Spalten ausgegeben.
 
@@ -41,25 +57,25 @@ Verbinden mit der Datenbank *localhost:3306/is_uni* und den entsprechenden Zugri
 import java.sql.*;
 
 public class Hauptprog {
-	public static void main(String[] args) throws Exception {
-		String sDbUrl="jdbc:mysql://localhost:3306/is_uni";  //siehe Oben für neue Vers.
-		String sUsr="root";
-		String sPwd="";
-		String sTable="professoren";
+    public static void main(String[] args) throws Exception {
+        String sDbUrl="jdbc:mysql://localhost:3306/is_uni";  //siehe Oben für neue Vers.
+        String sUsr="root";
+        String sPwd="";
+        String sTable="professoren";
 
-		Connection conn;
-		Statement stmt;
-		ResultSet rslt;
+        Connection conn;
+        Statement stmt;
+        ResultSet rslt;
 
-		conn = DriverManager.getConnection( sDbUrl, sUsr, sPwd );
-		stmt = conn.createStatement();
-		rslt = stmt.executeQuery("SELECT * FROM " + sTable);
+        conn = DriverManager.getConnection( sDbUrl, sUsr, sPwd );
+        stmt = conn.createStatement();
+        rslt = stmt.executeQuery("SELECT * FROM " + sTable);
 
-		while( rslt.next() ) {
-			System.out.printf("%-6s %-15s %-4s %-4s\n", rslt.getString(1), rslt.getString(2), rslt.getString(3), rslt.getString(4));
-		}
-		conn.close();
-	}
+        while( rslt.next() ) {
+            System.out.printf("%-6s %-15s %-4s %-4s\n", rslt.getString(1), rslt.getString(2), rslt.getString(3), rslt.getString(4));
+        }
+        conn.close();
+    }
 }
 ```
 
@@ -113,17 +129,27 @@ st.executeUpdate();     // das "preparete" Statement wird ausgefuehrt
 
 Bis auf den Connector funktioniert der Zugriff auf eine SQLite-DB vollkommen identisch wie mit einer MySQL-DB.
 
-- Download Connector (gilt für sämtliche OS):  https://bitbucket.org/xerial/sqlite-jdbc/downloads/  (hier sqlite-jdbc-3.27.2.1.jar).
+- Download Connector (gilt für sämtliche OS):  https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc  (hier sqlite-jdbc-3.39.3.0.jar).
 
-- Ablegen unter `C:\Program Files\Java\jdk1.8.0_181\lib` (oder wohin auch immer später konfiguriert wird).
+- Ablegen unter `C:\Program Files\Java\jdk1.8.0_181\lib` (oder wohin auch immer später konfiguriert wird, eventuell direkt im Projekt).
 
 - Unter den Einstellungen für das Java-Projekt wird dieser Connector hinzugefügt.
 
+- Alternativ: Connector-Jar mittels Maven:
+  
+  ```
+  <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+  <dependency>
+      <groupId>org.xerial</groupId>
+      <artifactId>sqlite-jdbc</artifactId>
+      <version>3.39.3.0</version>
+  </dependency>
+  ```
+
 - Anschließend kann für obige MySQL-Beispiele der Connector angepasst werden:
-
-   ```java
-String sDbUrl="jdbc:sqlite:c:\\myDir\\is_uni.db";
-   ```
-   
+  
+  ```java
+  String sDbUrl="jdbc:sqlite:c:\\myDir\\is_uni.db";
+  ```
+  
    Damit ist keine weiter Änderung notwendig.
-

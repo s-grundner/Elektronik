@@ -48,8 +48,14 @@ In diesem Beispiel werden mit Drücken des Start-Buttons die Daten der vier Feld
 
 In einfachen Formularen genügt eine Schaltfläche, die Action wird im Form-Tag angeführt. Für Forms mit mehreren Schaltflächen, die auf unterschiedliche PHP-Dateien verzweigen sollen, wird die Action direkt beim Input angeführt:
 
-```php+HTML
+```html
 <input type="submit" value="GO" formaction="Go.php" formmethod="post">
+```
+
+Button auf Link:
+
+```html
+<input type="button" value="Zurück" onclick="window.location='index.html'">
 ```
 
 ### Select-Liste
@@ -58,7 +64,7 @@ In einfachen Formularen genügt eine Schaltfläche, die Action wird im Form-Tag 
 
 ```php+HTML
 <label>
-	<select name="list" size="10">
+    <select name="list" size="10">
         <option>Bruno</option>
         <option>Helgo</option>
         <option>Sandi</option>
@@ -77,16 +83,16 @@ Mit einem css-Tag kann die Breite oder eine Scrollbar manipuliert werden:
 ```php+HTML
 <table align="left" style="width:30%">
     <tr>
-    	<th align="left">Titel 1</th>
-    	<th align="left">Titel 2</th>
+        <th align="left">Titel 1</th>
+        <th align="left">Titel 2</th>
     </tr>
     <tr>
-    	<td>Val 1</td>
-    	<td>val 2</td>
+        <td>Val 1</td>
+        <td>val 2</td>
     </tr>
     <tr>
-    	<td>Val 3</td>
-    	<td>val 4</td>
+        <td>Val 3</td>
+        <td>val 4</td>
     </tr>
 </table>
 ```
@@ -104,19 +110,19 @@ Mit der einfachen PHP-Datei `formulare.php`:
 
 ```php+HTML
 <?php
-	echo $_POST['server'];
+    echo $_POST['server'];
 ?>
 ```
 
 Wird im Browser der Wert aus dem *Server*-Formular-Eingabe-Feld ausgegeben. Der PHP-Code wird bei Anforderung auf dem Server ausgeführt und das Ergebnis (hier nur das was hinter echo kommt) an den Browser gesendet.
 
-Für html-Formulare die method="post" verwenden, sind die Werte der Formular-Felder im PHP verfügbar. Sie liegen in einem **assoziativen** Feld namens **$_POST**. Um den Wert des Feldelements mit Namen Server zu bekommen: `$_POST['server']`. Anders wie bei einem einfachen Array wird nicht mittels nummerischen Index zugegriffen sondern mittels einem Namen.
+Für html-Formulare die method="post" verwenden, sind die Werte der Formular-Felder im PHP verfügbar. Sie liegen in einem **assoziativen** Feld namens `$_POST`. Um den Wert des Feldelements mit Namen Server zu bekommen: `$_POST['server']`. Anders wie bei einem einfachen Array wird nicht mittels nummerischen Index zugegriffen sondern mittels einem Namen.
 
 Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Server-Felds. Um die Form der Anzeige zu steuern kann man sich HTML-Code bedienen: 
 
 ```php+HTML
 <?php
-	echo "<p>***".$_POST['server']."***</p>";
+    echo "<p>***".$_POST['server']."***</p>";
 ?>
 ```
 
@@ -130,7 +136,7 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
     <body>
         <center><h1>Ausgabe der Formulardaten</h1></center>
         <p><strong>Servername:</strong>
-	        <?php echo $_POST['server'];?>
+            <?php echo $_POST['server'];?>
         </p>
     </body>
 </html>
@@ -148,14 +154,14 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 
 - Datentypen: int, bool, double, string, array, object
 
-- Variablen: Benennung von Variablen erfolgt IMMER mit führendem $    -   `$Var`
+- Variablen: Benennung von Variablen erfolgt IMMER mit führendem `$`    -   `$Var`
 
 - Operatoren: zusätzlich zu den Bekannten gibt es `===` und `!==`
 
 - Deklaration von Variablen: nicht erforderlich, Datentyp wird automatisch aus der Verwendung erschlossen
 
 - Um den Zeichensatz einzustellen muss am Beginn des PHP-Skripts der gleiche Zeichensatz eingestellt werden wie in der verwendeten Datenbank (etwa um Umlaute/Sonderzeichen richtig darzustellen):
-
+  
   ```php+HTML
   header("Content-Type: text/html; charset=utf8_general_ci");
   ```
@@ -166,20 +172,20 @@ Da sich Datentypen aus dem Kontext bestimmen kann `liefert 2=="2"` ein wahres Er
 
 ```php
 $feld = array(0, 2, 4, 5, 6);
-$feld[] = 7;				<!-- 7 wird hinten angefuegt -->
-$feld[20] = 10;				<!-- 10 wird an 20 eingefuegt, dazwischenliegende leer --> 
+$feld[] = 7;                <!-- 7 wird hinten angefuegt -->
+$feld[20] = 10;                <!-- 10 wird an 20 eingefuegt, dazwischenliegende leer --> 
 
-foreach ($feld as $wert)	<!-- Element fuer Element kommt in $wert -->
-	echo "<p>$wert</p>";
+foreach ($feld as $wert)    <!-- Element fuer Element kommt in $wert -->
+    echo "<p>$wert</p>";
 ```
 
 Felder sind Wertpaare, sie bestehen aus jeweils einem Index und einem Wert. Der Index muss keine Nummer sein, er kann genauso gut ein String sein (assoziative Felder):
 
 ```php
 $feld = array(0=>0, 3=>7, "jim"=>4, "John"=>"Bill");
-echo count($feld);			<!-- Anzahl der Elemente - hier 4 -->
-echo $feld["John"];			<!-- Bill -->
-echo $feld[3];				<!-- 7 -->
+echo count($feld);            <!-- Anzahl der Elemente - hier 4 -->
+echo $feld["John"];            <!-- Bill -->
+echo $feld[3];                <!-- 7 -->
 ```
 
 ### Datenbank
@@ -198,7 +204,7 @@ Zum Herstellen der Verbindung (Server, User, Passwort entsprechend anpassen):
 $conn = new PDO("mysql:host=localhost;mydb","schueler","comein");
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $conn->setAttribute(PDO::ATTR_CASE, PDO::CASE_UPPER);
-$conn->beginTransaction();		// bis commit
+$conn->beginTransaction();        // bis commit
 ```
 
 Für die Verbindung ist nur die erste Zeile erforderlich. Mit dem `$conn`-Objekt werden anschließend Attribute gesetzt und eine Transaktion gestartet. Das `$conn`-Objekt ist die Verbindung zur Datenbank (das PDO-Objekt).
@@ -218,7 +224,7 @@ mit jedem `fetch()` wird (maximal!) eine komplette Zeile der Ergebnistabelle zur
 
 ```php+HTML
 while ($row = $stmt->fetch()):
-	echo "<p>".$row['COL1']."</p>";
+    echo "<p>".$row['COL1']."</p>";
 endwhile;
 ```
 
@@ -234,7 +240,7 @@ Für Befehle ohne Rückmeldung (keine Anfrage ...) gibt's zwei Möglichkeiten, *
 ```php+HTML
 $sql = "INSERT INTO cdsammlung.kuenstler (IId,Interpret,Gruendungsjahr) VALUES (?,?,?)";
 $stmt = $conn->prepare($sql);
-$stmt->execute(array('1111', 'Bob', '1888'));				
+$stmt->execute(array('1111', 'Bob', '1888'));                
 ```
 
 Das Schreiben kann mittels `prepare` und `execute` erfolgen. Das kann sehr hilfreich sein, wenn mehr als nur eine Zeile eingefügt werden soll.
@@ -243,7 +249,7 @@ Alternativ **exec**:
 
 ```
 $sql = "INSERT INTO cdsammlung.kuenstler (IId,Interpret,Gruendungsjahr) VALUES ('2222','Bill','1777')";
-$anzahl = $conn->exec($sql);			
+$anzahl = $conn->exec($sql);            
 ```
 
 `exec` gibt die Anzahl der betroffenen Datensätze (etwa bei Delete) zurück.
@@ -251,8 +257,8 @@ $anzahl = $conn->exec($sql);
 #### Beenden der DB-Verbindung
 
 ```php+HTML
-$conn->commit();	// Transaktion beenden (beginTransaction)
-$conn = null;		// Datenbankverbindung beenden (Obj freigeben)
+$conn->commit();    // Transaktion beenden (beginTransaction)
+$conn = null;        // Datenbankverbindung beenden (Obj freigeben)
 ```
 
 Wenn die Transaktion zurückgesetzt werden soll wird anstatt von `commit` ein `rollback` ausgeführt.
@@ -263,7 +269,7 @@ Beim Verbinden mit der Datenbank wurde eingestellt, dass Fehler mit einer Except
 
 ```php+HTML
 try {
-	// DB-Zugriff
+    // DB-Zugriff
 } catch (PDOException $e) {
 echo "<p>PDO-Fehler in Zeile ", $e->getLine(), 
     " mit Code ", $e->getCode(), 
@@ -291,24 +297,24 @@ Suche des Raums eines Professors:
 
 ```php+HTML
 <?php
-	$prof = $_POST['profName'];
+    $prof = $_POST['profName'];
 
-	// Verbindung aufbauen
-	$conn = new PDO("mysql:host=127.0.0.1;dbname=is_uni", "me", "comein");
-	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	$conn->beginTransaction();
+    // Verbindung aufbauen
+    $conn = new PDO("mysql:host=127.0.0.1;dbname=is_uni", "me", "comein");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn->beginTransaction();
 
-	// arbeiten
-	$sql = "SELECT Name, Raum FROM is_professoren WHERE Name=\"$prof\"";
-	$stmt = $conn->query($sql);
-	$row = $stmt->fetch();
-	echo "<p>Professor \"$row[Name]\" ist in Raum $row[Raum] zu finden.</p>";
-	
-	// Arbeit confirmen
-	$conn->commit();
-	
-	// Objekt löschen
-	$conn = null;
+    // arbeiten
+    $sql = "SELECT Name, Raum FROM is_professoren WHERE Name=\"$prof\"";
+    $stmt = $conn->query($sql);
+    $row = $stmt->fetch();
+    echo "<p>Professor \"$row[Name]\" ist in Raum $row[Raum] zu finden.</p>";
+
+    // Arbeit confirmen
+    $conn->commit();
+
+    // Objekt löschen
+    $conn = null;
 ?>
 ```
 
@@ -316,19 +322,19 @@ mit einer passenden HTML-Seite:
 
 ```php+HTML
 <html>
-	<head>
-		<title>Raumsuche</title>
-	</head>
-	<body>
-		<form action="raumsuche.php" method="post" target="myiframe">
-		<p>Professor: <input type="text" size="20" name="profName"/></p>
-		<p>Es gibt: sokrates, russel, kopernikus, popper, augustin, curie, kant</p>
-		<p><input type="Submit" value="Raum Suchen"/></p>
+    <head>
+        <title>Raumsuche</title>
+    </head>
+    <body>
+        <form action="raumsuche.php" method="post" target="myiframe">
+        <p>Professor: <input type="text" size="20" name="profName"/></p>
+        <p>Es gibt: sokrates, russel, kopernikus, popper, augustin, curie, kant</p>
+        <p><input type="Submit" value="Raum Suchen"/></p>
 
-		</form>
-		<iframe name="myiframe"></iframe>
+        </form>
+        <iframe name="myiframe"></iframe>
 
-	</body>
+    </body>
 </html>
 ```
 

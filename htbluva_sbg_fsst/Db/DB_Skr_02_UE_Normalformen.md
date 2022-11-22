@@ -62,6 +62,7 @@ Transformation in die 3te Normalform:
 ![CD-Lieder3](bilder/NF_CD_05.png)
 
 - In der *Cd*-Tabelle zeigt sich: das *Gründungsjahr* der *Interpreten* ist nicht direkt von der *Cd*, sondern nur vom *Interpreten* abhängig (transitiv), das müsste noch in eine eigene Tabelle verschoben werden:
+  
   - Cd: **CdId → (Album, InterpretenId)**
   - Künstler:  **InterpretenId → (Interpret, Gründungsjahr)**
   
@@ -108,6 +109,7 @@ In einer Bibliothek werden folgende Daten erfasst:
   Vorname Peter
   Land Dänemark
   andere Buchtitel „Der Plan von der Abschaffung des Dunkels“
+
 - Entleiher:
   Name Meier
   Vorname Peter
@@ -120,7 +122,7 @@ In einer Bibliothek werden folgende Daten erfasst:
 
 Überlegen Sie sich wie eine Datenbank in einer hohen Normalform organisiert werden kann.
 
-##  UNI-Verwaltungssystem
+## UNI-Verwaltungssystem
 
 - Studenten besuchen Vorlesungen und machen mit Professoren Prüfungen darüber
 - Ein Vorlesungsverzeichnis soll erstellt werden können.
@@ -134,11 +136,13 @@ In einer Bibliothek werden folgende Daten erfasst:
 
 Fragen
 ------------------------------------------------------------
+
 - Was versteht man unter Datenanomalie
+
 - Was versteht man unter funktionaler Abhängigkeit
 
 - Zuordnung der Begriffe Konsistenz/Redundanz den Beschreibungen "in verschiedenen Tabellen wird jeweils *ZUNAME*, *VORNAME*, *ADR*, ... abgelegt" / "die *Postleitzahl* bestimmt automatisch auch die Attribute *Bundesland* und *Ort*"
 
 - Was ist der Unterschied zwischen 1. Normalform, 2. Normalform und 3. Normalform
 
-- Warum ist die Einhaltung der Normalformen so wichtig?
+- Warum ist die Einhaltung der Normalformen so wichtig

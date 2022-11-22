@@ -14,15 +14,15 @@ Es wird unterschieden zwischen Befehlen zur Datenmanipulation einer DB (DML) (z.
 
 Auch die Datentypen können von Datenbank zu Datenbank unterschiedlich sein.
 
-- **character(n)**, **char(n)**	String fester Länge mit n Zeichen
-- **varchar2(n)**, **varchar(n)**	String variabler Länge mit bis zu n Zeichen (Anzahl der Zeichen dient lediglich der Anzeigelänge)
-- **integer**, **int**	ganze Zahl
-- **number(n,m)**, **decimal(n,m)**	Festkommazahl mit n Stellen, (m nach dem Komma)
-- **float(m)**	Gleitkommazahlen
-- **date**	Datum-/Zeitangabe
-- **long**	Zeichenkette bis zu 2 GByte
-- **raw**	Binärstrings bis zu 255 Bytes
-- **long raw**	Binärobjekte bis zu 2 GByte (Soundfiles, Videos, ...)
+- **character(n)**, **char(n)**    String fester Länge mit n Zeichen
+- **varchar2(n)**, **varchar(n)**    String variabler Länge mit bis zu n Zeichen (Anzahl der Zeichen dient lediglich der Anzeigelänge)
+- **integer**, **int**    ganze Zahl
+- **number(n,m)**, **decimal(n,m)**    Festkommazahl mit n Stellen, (m nach dem Komma)
+- **float(m)**    Gleitkommazahlen
+- **date**    Datum-/Zeitangabe
+- **long**    Zeichenkette bis zu 2 GByte
+- **raw**    Binärstrings bis zu 255 Bytes
+- **long raw**    Binärobjekte bis zu 2 GByte (Soundfiles, Videos, ...)
 
 ## DML - Data Manipulation Language
 
@@ -39,19 +39,19 @@ CREATE DATABASE my_einkauf;
 
 CREATE TABLE kunden (knr INT(10), kunde VARCHAR(20));
 INSERT INTO kunden (kunde, knr) VALUES 
-	("Jim", 1),
-	("Bob", 2),
-	("Bill", 3),
-	("Joe", 4),
-	("Jenny", 5);
+    ("Jim", 1),
+    ("Bob", 2),
+    ("Bill", 3),
+    ("Joe", 4),
+    ("Jenny", 5);
 
 CREATE TABLE bestellungen (bnr INT(10), teil VARCHAR(20), knr INT(10), gr VARCHAR(3));
 INSERT INTO bestellungen (bnr, teil, knr, gr) VALUES
-	(71, "Milch", 1, "LM"),
-	(72, "Birne", 2, "LM"),
-	(73, "Apfel", 3, "LM"),
-	(74, "Stift", 0, "OE"),
-	(75, "Tinte", 0, "OE");
+    (71, "Milch", 1, "LM"),
+    (72, "Birne", 2, "LM"),
+    (73, "Apfel", 3, "LM"),
+    (74, "Stift", 0, "OE"),
+    (75, "Tinte", 0, "OE");
 ```
 
 ### SELECT
@@ -118,10 +118,10 @@ SELECT * FROM bestellungen GROUP BY gr;
 
 Damit werden sämtliche gr-Gruppen der Bestellungen in eine Tabelle gelistet. Die unterschiedlichen Werte werden nur einfach ausgegeben (nur einmal LM und einmal OE). Für die obige Tabelle ist hier das Ergebnis:
 
-| bnr  | teil  | knr  | gr   |
-| ---- | ----- | ---- | ---- |
-| 71   | Milch | 1    | LM   |
-| 74   | Stift | 0    | OE   |
+| bnr | teil  | knr | gr  |
+| --- | ----- | --- | --- |
+| 71  | Milch | 1   | LM  |
+| 74  | Stift | 0   | OE  |
 
 Mit Gruppierung können einfach Aufstellungen von unterschiedlichen Elementen gemacht werden (welche gr gibt es ...). Mit den Mathematischen Funktionen können dabei auch sehr gut Teile gezählt werden:
 
@@ -131,10 +131,10 @@ SELECT gr, COUNT(bnr) AS AnzTeile FROM bestellungen GROUP BY gr;
 
 Damit werden nicht über die komplette Tabelle die Bestellnummern gezählt, sondern nur über die jeweilige Gruppe, also hier nur über LM und über OE. Das Ergebnis:
 
-| gr   | AnzTeile |
-| ---- | -------- |
-| LM   | 3        |
-| OE   | 4        |
+| gr  | AnzTeile |
+| --- | -------- |
+| LM  | 3        |
+| OE  | 4        |
 
 #### JOIN
 
@@ -142,92 +142,91 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
 
 - INNER JOIN: für die Auswahl von Elementen die in beiden Teiltabellen vorhanden sind.
   Ermittlung nur jener Kunden die auch eine Bestellung getätigt haben:
-
+  
   ![SQL_JOIN1](bilder/SQL_JOIN1.png)
-
+  
   ```sql
   SELECT * FROM kunden JOIN bestellungen ON bestellungen.knr=kunden.knr;
   ```
-
+  
   liefert diese Tabelle:
-
+  
   ```
-  knr	kunde	bnr	 teil	 knr
-   1	Jim	    1	 Milch  1
-   2	Bob	    2	 Birne  2
-   3	Bill	3	 Apfel  3
+  knr    kunde    bnr     teil     knr
+   1    Jim        1     Milch  1
+   2    Bob        2     Birne  2
+   3    Bill    3     Apfel  3
   ```
-
+  
   Für INNER JOIN kann das gleiche Ergebnis mittels WHERE erzielt werden:
-
+  
   ```
   SELECT * FROM kunden, bestellungen WHERE bestellungen.knr=kunden.knr;
   ```
 
 - LEFT JOIN: Auswahl von sämtlichen Elementen aus der *linken* (erstgenannte) Tabelle. Wenn möglich werden die Datensätze mit Informationen der *rechten* Tabelle ergänzt.
   Auflistung sämtliche Kunden, vorhandene Bestellungen werden beim Kunden angeführt:
-
+  
   ![SQL_JOIN1](bilder/SQL_JOIN2.png)
-
+  
   ```sql
   SELECT * FROM kunden LEFT JOIN bestellungen ON bestellungen.knr=kunden.knr;
   ```
-
+  
   ergibt:
-
+  
   ```
-  knr	kunde 	bnr	  teil	 knr
-   1	Jim	      1	  Milch	   1
-   2	Bob	      2	  Birne	   2
-   3	Bill	  3	  Apfel	   3
+  knr    kunde     bnr      teil     knr
+   1    Jim          1      Milch       1
+   2    Bob          2      Birne       2
+   3    Bill      3      Apfel       3
    4  Joe    NULL   NULL   NULL
    5  Jenny  NULL   NULL   NULL
   ```
 
 - RIGHT JOIN: Analog zu LEFT JOIN, in manchen DB-Systemen gibt es nur einen der beiden, der jeweilig anderen kann ja durch vertauschen der Reihenfolge ermittelt werden.
   Sämtliche Bestellungen, wenn möglich komplettiert mit eventuell bestellenden Kunden (in diesem Beispiel gibt es interne Bestellungen - ohne Kunde):
-
+  
   ![SQL_JOIN1](bilder/SQL_JOIN3.png)
-
+  
   ```sql
   SELECT * FROM kunden RIGHT JOIN bestellungen ON bestellungen.knr=kunden.knr;
   ```
-
+  
   bringt:
-
+  
   ```
-  knr	 kunde bnr	teil	 knr
-  1	 Jim   1	Milch	 1
-  2	 Bob   2	Birne	 2
-  3	 Bill  3	Apfel	 3
+  knr     kunde bnr    teil     knr
+  1     Jim   1    Milch     1
+  2     Bob   2    Birne     2
+  3     Bill  3    Apfel     3
   NULL NULL  4    Stift    0
   NULL NULL  5    Tinte    0
   ```
 
 - OUTER JOIN: Für die Darstellung sämtlicher Datensätze beider Tabellen, wenn möglich werden die Sätze aus beiden Tabellen kombiniert.
   Sämtliche Kunden und sämtliche Bestellungen, wenn Möglich mit Zuordnung:
-  
 
 ![SQL_JOIN1](bilder/SQL_JOIN4.png)
 
-  ```sql
-  SELECT * FROM kunden OUTER JOIN bestellungen ON bestellungen.knr=kunden.knr;
-  ```
+```sql
+SELECT * FROM kunden OUTER JOIN bestellungen ON bestellungen.knr=kunden.knr;
+```
 
 (für MySQL gibt's kein OUTER JOIN, Alternative: eine UNION aus LEFT und RIGHT JOIN)
 
 Ergebnis:
 
-  ```
-  knr	 kunde 	bnr	  teil	  knr
-    1	 Jim     1	  Milch	   1
-    2	 Bob     2	  Birne	   2
-    3	 Bill    3	  Apfel	   3
-    4  Joe   NULL   NULL   NULL
-    5  Jenny NULL   NULL   NULL
-  NULL NULL    4    Stift    0
-  NULL NULL    5    Tinte    0
-  ```
+```
+knr     kunde     bnr      teil      knr
+  1     Jim     1      Milch       1
+  2     Bob     2      Birne       2
+  3     Bill    3      Apfel       3
+  4  Joe   NULL   NULL   NULL
+  5  Jenny NULL   NULL   NULL
+NULL NULL    4    Stift    0
+NULL NULL    5    Tinte    0
+```
 
 Typische Anwendung dieser JOINs ist das Herausfinden von fehlenden Daten.
 
@@ -240,7 +239,7 @@ SELECT * FROM kunden LEFT JOIN bestellungen ON kunden.knr=bestellungen.knr WHERE
 ergibt:
 
 ```
-knr  kunde 	bnr	  teil	 knr
+knr  kunde     bnr      teil     knr
   4  Joe   NULL   NULL   NULL
   5  Jenny NULL   NULL   NULL
 ```
@@ -254,7 +253,7 @@ SELECT * FROM kunden RIGHT JOIN bestellungen ON kunden.knr=bestellungen.knr WHER
 liefert:
 
 ```sql
-  knr  kunde 	bnr	  teil	 knr
+  knr  kunde     bnr      teil     knr
   NULL NULL     4     Stift  0
   NULL NULL     5     Tinte  0
 ```
@@ -417,22 +416,22 @@ DROP DATABASE myDb;
 #### Tabelle Erzeugen
 
 1. Erzeugen der Tabelle *myTab* mit den beiden Spalten *myNum* und *myVal* im aktiven Schema (use *myDb*):
-
+   
    ```sql
    CREATE TABLE myTab (myNum INT, myVal CHAR(20));
    ```
 
 2. Erzeugen der Tabelle *myTab* mit den beiden Spalten *myNum* und *myVal* im aktiven Schema (use *myDb*). Hier wird eingeschränkt - *myNum* darf nicht leer sein (beim Befüllen Attribut nicht angegeben):
-
+   
    ```sql
    CREATE TABLE myTab (
     myNum INT          NOT NULL,
     myVal CHAR(20)
    );
    ```
-
+   
    Einschränkungen für ein Attribut (myNum) werden direkt hinter die Definition gehängt. Oder wenn die Werte Eindeutig sein müssen (aber kein Schlüssel):
-
+   
    ```sql
    CREATE TABLE myTab (
     myNum INT          NOT NULL       UNIQUE,
@@ -441,16 +440,16 @@ DROP DATABASE myDb;
    ```
 
 3. Wenn ein Attribut gleich als Schlüssel mit angegeben wird:
-
+   
    ```sql
    CREATE TABLE myTab (
     myNum INT          PRIMARY KEY,
     myVal CHAR(20)
    );
    ```
-
+   
    Ganz so einfach geht's leider nicht, wenn mehrere Spalten zusammen einen Primärschlüssel (der bekommt hier den Namen PK_myKey) bilden:
-
+   
    ```sql
    CREATE TABLE myTab (
     myNum INT          PRIMARY KEY,
@@ -458,10 +457,10 @@ DROP DATABASE myDb;
     CONSTRAINT PK_myKey PRIMARY KEY (myNum, myVal)
    );
    ```
-
+   
    Es kann auch auf sich selbst referenziert werden:
-
-   ```
+   
+   ```sql
    CREATE TABLE Personal(
        Persnr INT PRIMARY KEY,
        NAME CHAR(25) NOT NULL,
@@ -473,14 +472,14 @@ DROP DATABASE myDb;
        Beurteilung CHAR
    );
    ```
-
+   
    Jede Person der Personal-Tabelle hat hier eine Referenz auf eine andere Person, den Vorgesetzten.
 
 #### Tabelle Löschen
 
 Löschen von Tabellen funktioniert nur wenn nicht auf sie referenziert ist:
 
-```
+```sql
 DROP TABLE myTab;
 ```
 
@@ -489,60 +488,58 @@ DROP TABLE myTab;
 Im aktuell ausgewählten Schema (`use myDb`):
 
 1. Spaltentyp oder Spaltenname ändern:
-
+   
    ```sql
    ALTER TABLE myTab MODIFY COLUMN myVal VARCHAR(59);
    ALTER TABLE myTab CHANGE myVal myNewVal VARCHAR(50);
    ```
 
 2. Spalte Löschen (die betroffene Spalte darf kein Schlüssel sein):
-
-   ```
+   
+   ```sql
    ALTER TABLE myTab DROP COLUMN myVal;
    ```
 
 3. Spalte Einfügen:
-
-   ```
+   
+   ```sql
    ALTER TABLE myTab ADD COLUMN myVal VARCHAR(50);
    ```
 
 4. Primärschlüssel Setzen (hier zwei Spalten gemeinsam):
-
-   ```
+   
+   ```sql
    ALTER TABLE myTab ADD PRIMARY KEY (myNum, myVal);
    ```
 
 5. Erzeugen eines Fremdschlüssels mit Namen FK_myVal_coolVal. Dafür muss es in Tabelle *myTab* eine Spalte *myVal* geben und in der Tabelle *coolTab* eine Spalte *coolVal* (mit gleichem Typ!):
-
-   ```
+   
+   ```sql
    ALTER TABLE myTab ADD CONSTRAINT FK_myVal_coolVal FOREIGN KEY (myVal) REFERENCES coolTab(coolVal);
    ```
-
+   
    das klappt nur wenn *coolVal* in der *coolTab* ein Primärschlüssel, sonst wäre nicht eindeutig auf welchen Datensatz verwiesen wird.
-
+   
     Da durch das Löschen/Verändern eines Datensatzes der mittels Fremdschlüsselbeziehung verknüpft ist eine Inkonsistenz entstehen kann, können hier weitere Optionen mit angegeben werden:
-
+   
    ```sql
    ALTER TABLE myTab ADD CONSTRAINT FK_myVal_coolVal FOREIGN KEY (myVal) REFERENCES coolTab(coolVal) ON DELETE RESTRICT ON UPDATE RESTRICT;
    ```
-
+   
    Mit `ON DELETE` und `ON UPDATE` wird angegeben wie in diesem Fall zu verfahren ist:
-
+   
    - soll das Löschen/Ändern untersagt werden *RESTRICT*
    - soll das Löschen/Ändern auch für den verknüpften Datensatz durchgeführt werden *CASCADE*
    - soll das Löschen/Ändern den Fremdschlüssel im verknüpften Datensatz auf NULL setzen *SET NULL*
    - soll das Löschen/Ändern im verknüpften Datensatz ignoriert werden (eventuelle Inkonsistenz) *NO ACTION*
-
+   
    Alternativ kann die Beziehung beim Erstellen der Tabelle miterzeugt werden:
-
+   
    ```sql
    ...,
    constraint fk_tab1_tab2
-   	foreign key (customer_id) references customer(id) on delete restrict, ...
+       foreign key (customer_id) references customer(id) on delete restrict, ...
    ```
-
-   
 
 ### Index
 
@@ -573,11 +570,11 @@ Mit Trigger können durch definierte Ereignisse Vorgänge ausgelöst werden.
 
 ```sql
 CREATE TRIGGER Datum_Trigger
-	AFTER INSERT
-	ON Auftrag
+    AFTER INSERT
+    ON Auftrag
 BEGIN
-	UPDATE Auftrag
-	SET Datum=CurrentDate
+    UPDATE Auftrag
+    SET Datum=CurrentDate
 END;
 ```
 
@@ -614,30 +611,30 @@ Mit *DELIMITER* wird der Zeilenabschluss auf $$ verändert, damit wird diese Kom
 ### Berechtigungen
 
 1. Grant
-
+   
    Gewährt Zugriffsrechte:
-
+   
    ```sql
    GRANT SELECT, INSERT ON myTab TO me;
    ```
-
+   
    Gewährt dem Benutzer *me* Zugriff auf SELECT und INSERT Befehle für die Tabelle *myTab*.
-
+   
    Kombiniertes Erstellen eines Benutzers mit Rechten:
-
+   
    ```sql
    grant create, drop, select,insert, update, delete 
    on mydatabase.* to myuser@localhost identified by 'passwort';
    ```
 
 2. Revoke
-
+   
    Umgekehrt zu Grant werden hier Rechte entzogen:
-
+   
    ```sql
    REVOKE SELECT ON myTab FROM me;
    ```
-
+   
    Hiermit wird das Recht auf SELECT wieder entzogen (für *me* auf Tabelle *myTab*).
 
 Es gibt User und Gruppen (von Usern), Beispiel von Berechtigung über Gruppe:
@@ -698,4 +695,4 @@ Dieses Dokument ist weit davon entfernt vollständig zu sein, gerade für SQL gi
 - Was bedeutet ein NULL-Attribut?
 - Was wird mit dem DEFAULT-Schlüsselwort bewirkt?
 - Muss ein Fremdschlüssel UNIQUE sein?
-- Dürfen Fremdschlüssel NULL sein?
+- Dürfen Fremdschlüssel NULL sein
