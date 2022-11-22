@@ -2,7 +2,7 @@
 tags: ["Database", "Datenbank"]
 aliases: ["ERM", "Entity-Relationship-Modell", "ERD", "Entity-Relationship-Modell"]
 subject: ["fsst"]
-source: ["Roman Schragl"]
+source: ["Roman Schragl", "https://gitlab.com/fosy/htbluva_sbg_fsst/"]
 reference: []
 created: 21st November 2022
 ---

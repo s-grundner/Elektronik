@@ -1,3 +1,12 @@
+---
+tags: ["Database", "Datenbank"]
+aliases: ["SQL", "SQLite", "MySQL", "PostgreSQL", "Structured Query Language"]
+subject: ["fsst"]
+source: ["Roman Schragl", "https://gitlab.com/fosy/htbluva_sbg_fsst/"]
+reference: []
+created: 21st November 2022
+---
+
 # 4 SQL
 
 SQL (Structured Query Language) - ist eine Datenbanksprache zur Definition und zum Bearbeiten von Datenstrukturen und Beständen in relationalen Datenbanken. 
@@ -28,7 +37,7 @@ Auch die Datentypen können von Datenbank zu Datenbank unterschiedlich sein.
 
 Für die folgenden Erklärungen hilft es mit einer Beispieldatenbank *my_einkauf* zu arbeiten:
 
-![SQL_DML_01](C:\Daten\Skripten\Informatik\DB\bilder\SQL_DML_01.png)
+![SQL_DML_01](bilder/SQL_DML_01.png)
 
 Sie können dafür folgendes Skript verwenden:
 
@@ -80,7 +89,7 @@ SELECT kunden.knr, bestellungen.bnr FROM bestellungen, kunden;
 
 Hier wird eine Tabelle mit den Spalten *knr* und *bnr* generiert. Durch die zweite Tabelle wird jede knr aus *kunden* sooft ausgegeben wie *bestellungen* Zeilen hat (Kreuzprodukt).
 
-![SQL_DML_02](C:\Daten\Skripten\Informatik\DB\bilder\SQL_DML_02.png)
+![SQL_DML_02](bilder/SQL_DML_02.png)
 
 Umbenennen von Spalten:
 
