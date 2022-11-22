@@ -80,13 +80,13 @@ Beispielhaft ist die Adresse eines Kunden prinzipiell ja nicht durch eine Rechnu
 
 Transitive Abhängigkeiten werden in eigene Tabellen verschoben.
 
-![img](bilder\NF_Einf_05_1.png)
+![img](bilder/NF_Einf_05_1.png)
 
 - wenn ein Attribut *transitiv* vom Primärschlüssel abhängt ist die Struktur nicht in der 3ten NF. Die Details eines Kunden (Adresse, Geb-Datum ...) sind nur über das komplette Objekt Kunde von einer Rechnung abhängig.
   Das gleiche gilt für einen Artikel. Hat ein Artikel mehr Eigenschaften (Lagerort, Lieferant, Produzent, Preis ...) dann sind diese nicht direkt von einer Rechnungsposition abhängig und werden damit in eine eigene Tabelle verschoben.
 - *Musterort* kann schon durch *Plz* alleine bestimmt werden. Transitiv: Ort hängt über die *Plz* von *KNr* ab.
 
-![](bilder\NF_Einf_05_2.png)
+![](bilder/NF_Einf_05_2.png)
 
 Es gibt noch weitere Normalformen (4., 5.). Diese sind für allgemeine Entwicklung lediglich von theoretischer Natur.
 
