@@ -248,14 +248,11 @@ $$
 # Jupyter
 ```jupyter
 import numpy as np
-from mathplot import pyplot as plt
+from matplotlib import pyplot as plt
 x = np.linspace(0,1)
-y = sin(x)
+y = np.sin(2*np.pi*x)
 plt.plot(x, y)
 pass
-
-
-
 ```
 
 # Hardware Implementationen
