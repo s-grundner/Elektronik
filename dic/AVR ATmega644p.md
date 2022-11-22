@@ -56,7 +56,7 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 
 ## Protokolle
 ### Custom Protocol
-## [[Schnittstellen]]
+## [[{MOC} Schnittstellen]]
 ### [[TWI|I2C]]/[[TWI]]
 ## Sleep and Powersaving
 ### Typische Wakeup-Sources aus Stromspar-Modes
