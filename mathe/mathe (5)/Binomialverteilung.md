@@ -24,10 +24,12 @@ V(X)&=n\cdot p\cdot(1-p)&& \text{Varianz}\\
 \end{align*}
 $$
 
+![[mathe/mathe (5)/Untitled Diagram.svg]]
+
 ```ad-example 
 title: Würfeln mit einem würfel
 - Entweder 6 oder nicht 6
-![[mathe/mathe (5)/Untitled Diagram.svg]]
+
 
 Zufallsvariablen: $1, 4, 6, 4, 1$
 $$
@@ -41,5 +43,10 @@ P(k=6) = \binom{4}{0} \cdot\left(\frac{1}{6}\right)^{0} \cdot\left(\frac{5}{6}\r
 $$
 ```
 
-
+title: ![[Pasted image 20221122111119.png]]
+```ad-example
+1. 
+2. Nein, das ziehen eines Asses ist davon abhängig, wie viele bereits gezogen wurden
+3. Ja: $P=\frac{1}{20}$
+```
 # Quellen
