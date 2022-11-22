@@ -24,6 +24,13 @@ V(X)&=n\cdot p\cdot(1-p)&& \text{Varianz}\\
 \end{align*}
 $$
 
+```ad-example 
+title: Würfeln mit einem würfel
+- Entweder 6 oder nicht 6
+![[mathe/mathe (5)/Untitled Diagram.svg]]
+
+
+```
 
 
 # Quellen
