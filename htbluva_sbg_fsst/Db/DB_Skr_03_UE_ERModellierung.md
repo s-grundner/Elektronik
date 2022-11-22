@@ -100,6 +100,11 @@ Variante:
 - Die in Zeitschriften publizierten Artikel sind ebenso wie Bücher einem oder mehreren Fachgebieten (z.B. Betriebssysteme, Datenbanksysteme, Programmiersprachen) zugeordnet.
 - Ausgeliehen werden können nur Bücher (keine Zeitschriften).
 
+```ad-success
+title: Lösung
+![[htbluva_sbg_fsst/Db/Untitled Diagram 2.svg]]
+```
+
 ## Uni-Verwaltungssystem
 
 - Es soll ein Uni-Verwaltungssystem gebaut werden. Dazu werden mehrere Personen interviewt:
