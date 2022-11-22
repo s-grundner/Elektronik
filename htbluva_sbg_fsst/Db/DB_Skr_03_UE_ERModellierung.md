@@ -1,4 +1,4 @@
-# 3 Entity-Relationship-Modell (ERM) - Übungen
+# 3 Entity-Relationship-Modell ([[DB_Skr_03_ERModellierung|ERM]]) - Übungen
 
 ## Kurse
 

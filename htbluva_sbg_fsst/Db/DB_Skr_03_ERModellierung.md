@@ -1,6 +1,6 @@
 ---
-tags: ["Database", ""]
-aliases: []
+tags: ["Database", "Datenbank"]
+aliases: ["ERM", "Entity-Relationship-Modell", "ERD", "Entity-Relationship-Modell"]
 subject: ["fsst"]
 source: ["Roman Schragl"]
 reference: []
