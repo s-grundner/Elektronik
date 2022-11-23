@@ -28,6 +28,11 @@ Fragen die vorab überlegt werden müssen (Expertenwissen)
 - Ist eine Versicherung immer an der gleichen Adresse?
 - Können an einem Tag mehrere Reparaturen am gleichen Fahrrad, für den gleichen Kunden stattfinden?
 
+```ad-success
+title: Lösung
+![[Pasted image 20221123110050.png]]
+```
+
 ## CD-Lieder
 
 Gegeben ist folgende Tabelle:
