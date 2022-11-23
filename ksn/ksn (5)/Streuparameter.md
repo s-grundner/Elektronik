@@ -64,7 +64,7 @@ $$
 
 ## [[Zweitor]] Gleichungen
 ![[MGL-Zweitor.png]]
-### [[Ketten Matrix#Impedanz Matrix|Impedanz Matrix]]
+### [[Ketten Matrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
 
 ```ad-example
 title: Standard [[Zweitor]]
@@ -75,6 +75,6 @@ title: Standard [[Zweitor]]
 title: T-Glied
 ```
 
-### [[Ketten Matrix#Admittanz Matrix|Admittanz Matrix]]
+### [[Ketten Matrix#Admittanz Matrixrechnung Matrix|Admittanz Matrix]]
 
 # Einführung von Streuparametern und Wellengrößen
