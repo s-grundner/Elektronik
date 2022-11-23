@@ -8,7 +8,7 @@ created: 28th September 2022
 ---
 
 # [Streuparameter](https://de.wikipedia.org/wiki/Streuparameter)
-**Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im *Kleinsignalverhalten* mittels Wellengrößen.
+**Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
 - Beschreiben z.B. Filter, Antenne, Mischer
 - Wellenparameter = Teilspannungen 

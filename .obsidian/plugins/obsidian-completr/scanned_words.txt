@@ -6042,6 +6042,7 @@ sqF
 sYh
 sWumYr
 sys
+sqrt
 reference
 rc
 rCs
@@ -9982,6 +9983,7 @@ cfA
 clsC
 cyt
 cNnt
+cdot
 September
 Sp
 Schalter
@@ -22669,6 +22671,9 @@ dCH
 dFz
 dEr
 dQpc
+dfrac
+dots
+ddots
 geschlossen
 geschlossenen
 gespeicherten
@@ -62271,6 +62276,7 @@ vQQUA
 vYt
 vqK
 vBy
+vdots
 jetzt
 jv
 ji
@@ -82899,6 +82905,7 @@ pSP
 pqrj
 pam
 pvQ
+pmatrix
 hY
 hK
 ha
@@ -92960,6 +92967,7 @@ qLAn
 qBWiy
 qUj
 qWrOdU
+qquad
 yj
 yX
 yN
@@ -105479,6 +105487,7 @@ meJE
 myD
 mlP
 mST
+mathbf
 AI
 Ay
 Aoha
