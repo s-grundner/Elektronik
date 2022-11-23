@@ -91,12 +91,15 @@ $$
 ### Darstellung der S-Parameter an einem Zweitor
 ![[Pasted image 20221123233833.png]]
 ### Bedeutung der S-Parameter
-#### Eingangsreflexionsfaktor $S_{11}$
-stellt die Reflexion am Eingang ohne Anregung an Tor 2 dar:
-$$
-S=\left. \frac{b_{1}}{a_{1}}\right|_{a_{2}=0}
-$$
 
+#### Eingangsreflexionsfaktor $S_{11}$
+stellt die Reflexion am Eingang ohne Anregung an Tor 2 dar: $S_{11}=\left. \dfrac{b_{1}}{a_{1}}\right|_{a_{2}=0}$
+#### Ausgangsreflexionsfaktor $S_{22}$
+stellt die Reflexion am Tor 2 ohne Anregung an Tor 1 dar: $S_{22}=\left. \dfrac{b_{2}}{a_{2}}\right|_{a_{1}=0}$
+#### Vorwärts-Transmissionsfaktor $S_{21}$
+stellt die Vorwärts-Transmission ohne Anregung an Tor 2 dar: $S_{21}=\left. \dfrac{b_{2}}{a_{1}}\right|_{a_{2}=0}$
+#### Rückwärts-Transmissionsfaktor $S_{12}$
+stellt die Rückwärts-Transmission ohne Anregung an Tor 1 dar: $S_{12}=\left. \dfrac{b_{1}}{a_{2}}\right|_{a_{1}=0}$
 
 ### [[Ketten Matrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
 
