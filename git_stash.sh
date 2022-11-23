@@ -1,1 +1,1 @@
-git stash .
+git stash
