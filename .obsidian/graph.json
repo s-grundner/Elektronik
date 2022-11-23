@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#MOT",
@@ -78,7 +78,7 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.10756178817696,
@@ -88,6 +88,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 110,
-  "scale": 0.11660891579457346,
-  "close": false
+  "scale": 0.08317427835927595,
+  "close": true
 }
