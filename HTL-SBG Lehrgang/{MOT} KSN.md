@@ -6,10 +6,16 @@ created: 23rd November 2022
 ---
 # Map of Topics - KSN
 ## 3. JG
+- [[OSI-Modell]]
+- #Netzwerke
 
 ## 4. JG
+- [[Leitungstheorie]]
+- [[Smith-Diagramm]]
+- [[Modulation]]
 
 ## 5. JG
-
+- [[Streuparameter]]
+- [[Antenne|Antennen]]
 ---
 # Tags
