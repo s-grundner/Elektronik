@@ -3965,6 +3965,7 @@ aBnKB
 aFg
 aktuellen
 ausgeblendet
+auslaufende
 subject
 source
 so
@@ -6047,6 +6048,8 @@ sWumYr
 sys
 sqrt
 spitzen
+spielen
+stellt
 reference
 rc
 rCs
@@ -16570,6 +16573,7 @@ TKHTa
 TklTU
 TMhTW
 Terme
+Transmissionsfaktor
 Der
 Diode
 Dabei
@@ -20575,6 +20579,7 @@ nOp
 nVtgw
 nwT
 nUg
+nbsp
 dem
 der
 des
@@ -37295,6 +37300,7 @@ EcKqcA
 EFXmZ
 Eulersche
 Ersetzung
+Eingangsreflexionsfaktor
 Fällt
 Filter
 FlateDecode
@@ -41436,6 +41442,7 @@ fgJ
 fFD
 fAy
 filename
+frac
 über
 übertragen
 üR
@@ -45790,6 +45797,7 @@ uiz
 uFCsU
 unsigned
 unlesbar
+umfassen
 lädt
 liegt
 leifert
@@ -51770,6 +51778,7 @@ bXl
 beziehungsweise
 bereitet
 beschränkt
+bedeutende
 in
 ihr
 iz
@@ -53961,6 +53970,7 @@ iJkjQ
 include
 ifdef
 ifndef
+insbesondere
 ZTL
 ZX
 Zw
@@ -56189,6 +56199,7 @@ ZsC
 ZRxtKxl
 ZBwh
 ZhE
+Zweitoren
 Verbraucher
 VuuV
 VU
@@ -58353,6 +58364,7 @@ Vkw
 VEQl
 VYY
 VYoG
+Vorwärts
 Nach
 Ngm
 NN
@@ -62314,6 +62326,7 @@ vqK
 vBy
 vdots
 verarbeitet
+verfügen
 jetzt
 jv
 ji
@@ -74675,6 +74688,7 @@ else
 endif
 ersetzt
 erkennen
+einlaufende
 Root
 RY
 RJH
@@ -76850,6 +76864,8 @@ RMkSA
 Rev
 RKhSA
 Raute
+Reflexion
+Rückwärts
 XRef
 XTG
 XW
@@ -108031,6 +108047,7 @@ AAABKJ
 Ableitungsregeln
 Antennen
 Anführungstrichen
+Ausgangsreflexionsfaktor
 ÖgLk
 ÖW
 ÖP

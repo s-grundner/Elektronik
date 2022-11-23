@@ -10,7 +10,7 @@ created: 28th September 2022
 # [Streuparameter](https://de.wikipedia.org/wiki/Streuparameter)
 **Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
-- Beschreiben z.B. Filter, [[Antenne]], Mischer
+- Beschreiben z.B. [[Filter]], [[Antenne]], [[Mischer]]
 - Wellenparameter = Teilspannungen 
 - Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende Spannung)
 - Widerstandsparameter bei Serienschaltung
@@ -63,7 +63,32 @@ $$
 $$
 
 ## [[Zweitor]] Gleichungen
+
+==$a_{1}$== ist die am Tor einlaufende Welle,
 ![[MGL-Zweitor.png]]
+$$
+\begin{pmatrix}
+     b_1\\
+     b_2
+\end{pmatrix}
+=
+\begin{pmatrix}
+    S_{11} & S_{12}\\
+    S_{21} & S_{22}
+\end{pmatrix}\cdot
+\begin{pmatrix}
+     a_1\\
+     a_2
+\end{pmatrix}
+$$
+### Darstellung der S-Parameter an einem Zweitor
+
+![[Pasted image 20221123233833.png]]
+### Bedeutung der S-Parameter
+
+
+
+
 ### [[Ketten Matrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
 
 ```ad-example
