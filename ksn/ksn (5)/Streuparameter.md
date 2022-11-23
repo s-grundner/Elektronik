@@ -64,7 +64,8 @@ $$
 
 ## [[Zweitor]] Gleichungen
 
-==$a_{1}$== ist die am Tor einlaufende Welle,
+- ==$a_{1}$== ist die am Tor einlaufende Welle
+- 
 ![[MGL-Zweitor.png]]
 $$
 \begin{pmatrix}
@@ -84,8 +85,6 @@ $$
 ### Darstellung der S-Parameter an einem Zweitor
 ![[Pasted image 20221123233833.png]]
 ### Bedeutung der S-Parameter
-
-
 
 
 ### [[Ketten Matrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
