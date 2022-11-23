@@ -40,7 +40,6 @@ Allgemein werden die S-Parameter eines n-Tors als eine n×n-[[Matrixrechnung|Mat
 
 
 
-moinomoinomoin
 $$\mathbf{b} = \mathbf{S} \cdot \mathbf{a}$$
 
 oder in der Elementschreibweise:
@@ -66,9 +65,13 @@ $$
 $$
 
 ## [[Zweitor]] Gleichungen
+Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: Zweitor -> 4 S-Parameter.
 
-- ==$a_{1}$== ist die am Tor einlaufende Welle
-- 
+- ==$a_{1}$== ist die am ==Tor 1== einlaufende Welle
+- $a_{2}$ ist dei am ==Tor 2== einlaufende Welle
+- ==$b_{1}$== ist die vom Eingang (Tor 1) auslaufende Welle
+- ==$b_{2}$== ist die vom Ausgang (Tor 2) auslaufende Welle
+  
 ![[MGL-Zweitor.png]]
 $$
 \begin{pmatrix}
@@ -88,6 +91,11 @@ $$
 ### Darstellung der S-Parameter an einem Zweitor
 ![[Pasted image 20221123233833.png]]
 ### Bedeutung der S-Parameter
+#### Eingangsreflexionsfaktor $S_{11}$
+stellt die Reflexion am Eingang ohne Anregung an Tor 2 dar:
+$$
+S=\left. \frac{b_{1}}{a_{1}}\right|_{a_{2}=0}
+$$
 
 
 ### [[Ketten Matrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
