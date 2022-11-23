@@ -28,6 +28,11 @@ Fragen die vorab überlegt werden müssen (Expertenwissen)
 - Ist eine Versicherung immer an der gleichen Adresse?
 - Können an einem Tag mehrere Reparaturen am gleichen Fahrrad, für den gleichen Kunden stattfinden?
 
+```ad-success
+title: Lösung
+![[Pasted image 20221123110050.png]]
+```
+
 ## CD-Lieder
 
 Gegeben ist folgende Tabelle:
@@ -40,7 +45,8 @@ Führen Sie die Tabelle nacheinander in die 1te, 2te und 3te Normalform über
 - Ein Interpret kann mehrere CDs herausbringen
 - Ein Künstler/Band hat nur ein Gründungsjahr
 
-**Lösung:**
+```ad-success
+title: Lösung:
 
 in die 1.NF durch Atomarisieren:
 
@@ -69,6 +75,8 @@ Transformation in die 3te Normalform:
   Um den Interpreten nicht in beiden Tabellen gleichermaßen abzulegen, wird der *Interpret* in die Künstlertabelle verschoben
 
 ![CD-Lieder](bilder/NF_CD_03.png)
+
+```
 
 ## Kurse
 
