@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#MOT",
@@ -18,14 +18,14 @@
       "query": "path:dic",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 15122176
       }
     },
     {
       "query": "path:fsst",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 11861826
       }
     },
     {
@@ -88,6 +88,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 110,
-  "scale": 0.08317427835927595,
+  "scale": 0.08317427835927602,
   "close": true
 }

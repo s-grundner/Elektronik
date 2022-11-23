@@ -1680,6 +1680,7 @@ teuer
 tutorial
 table
 teilen
+temperature
 aliases
 arbeiter
 an
@@ -5439,6 +5440,8 @@ sqlitebrowser
 selbstverständlich
 sqliteodbc
 seiner
+steigender
+sicht
 reference
 rc
 rCs
@@ -11082,6 +11085,9 @@ Search
 Sort
 SQLiteBrowser
 Symbolisch
+Sättigungssperrstrom
+Summation
+Spannungen
 Inverswandler
 Indukitivät
 ID
@@ -13025,6 +13031,7 @@ Impulsfunktion
 Impulsfläche
 Impulsdauer
 Integral
+Idee
 Tags
 Transistor
 Teil
@@ -14920,6 +14927,11 @@ Tabellenzeile
 Testtabelle
 Topological
 Tage
+Temperaturspannung
+Temperaturabhängigkeit
+Temperaturdurchgriff
+Transistors
+Temperaturkoeffizienten
 Der
 Diode
 Dabei
@@ -18539,6 +18551,9 @@ null
 natürlich
 nachempfunden
 net
+nutzt
+ndermodell
+negativ
 dem
 der
 des
@@ -24314,6 +24329,7 @@ MSSQLSERVER
 Managers
 Model
 Merge
+Materialkonstante
 June
 Ju
 JI
@@ -27952,6 +27968,10 @@ Beenden
 Bundle
 Bubble
 Binaries
+Bandabstand
+Bauelements
+Bandgap
+Bandabstandsreferenz
 Converter
 Columns
 CE
@@ -31653,6 +31673,7 @@ Widenius
 Webanwendungen
 Wörtern
 Wirkung
+Widerstände
 Einschaltphase
 Eingangsspannung
 Energie
@@ -33697,6 +33718,7 @@ Execute
 Entzippen
 Erklärung
 Einleitung
+Erwärmung
 Fällt
 Filter
 FlateDecode
@@ -45085,6 +45107,8 @@ Kompatibilität
 Konfigurationstool
 Kommando
 Kram
+Kollektorwiderstände
+Kompensation
 bzw
 bbd
 bg
@@ -46834,6 +46858,7 @@ beinhaltet
 befüllen
 bezogen
 bequemen
+besitzen
 in
 ihr
 iz
@@ -52816,6 +52841,8 @@ Visual
 Versuch
 Verbinden
 Verwaltungs
+Volt
+Valenzband
 Nach
 Ngm
 NN
@@ -54590,6 +54617,7 @@ NoSQL
 NotOnly
 Node
 Normierung
+Negativen
 öffnen
 öi
 öG
@@ -60198,6 +60226,7 @@ Provider
 Pfad
 Precompiled
 Pfeil
+Proportional
 Herleitung
 Hy
 HE
@@ -61951,6 +61980,7 @@ Having
 Herkunft
 HAVING
 History
+Hochgenauen
 obj
 oy
 oi
@@ -65506,6 +65536,7 @@ LIKE
 Listenpreises
 Leut
 Listen
+Leitungsband
 endobj
 ey
 endstream
@@ -67594,6 +67625,8 @@ erhältlich
 einiger
 elektrisches
 eigentlichen
+ermitteln
+entsprechender
 Root
 RY
 RJH
@@ -69578,6 +69611,9 @@ Realtionship
 Realtional
 Ruhezustand
 Rechtecksimpuls
+Referenzspannung
+Referenzspannungen
+Reference
 XRef
 XTG
 XW
@@ -75132,6 +75168,7 @@ paar
 passwort
 passwd
 personal
+positiven
 hY
 hK
 ha
@@ -76884,6 +76921,7 @@ haltenden
 heruntergeladen
 herzustellen
 help
+herleiten
 xI
 xj
 xA
@@ -82540,6 +82578,7 @@ konfigurierten
 kurs
 kurzen
 konzentrieren
+koeffizienten
 qB
 qo
 qg
@@ -97446,6 +97485,7 @@ Algorithms
 Auszug
 Arbeiten
 Ausblend
+Abstand
 ÖgLk
 ÖW
 ÖP
