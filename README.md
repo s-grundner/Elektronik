@@ -1,6 +1,8 @@
 # Elektronik
 HTBLUVA Salzburg Lehrgang
 
+Evergreen-Skriptum des HEL-Lehrgangs, verfasst in [Obsidian](https://obsidian.md/)
+
 ## Disclaimer
 Ohne 🔫
 
