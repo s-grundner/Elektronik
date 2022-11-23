@@ -38,7 +38,7 @@ Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit 
 
 Allgemein werden die S-Parameter eines n-Tors als eine n×n-[[Matrixrechnung|Matrix]] $S$ und die beiden je n Elemente umfassenden [[Vektorrechung|Vektoren]] $a$ und $b$ als [[Matrixrechnung|Matrixgleichung]] ausgedrückt:
 
-$\mathbf{b} = \mathbf{S} \cdot \mathbf{a}$
+$$\mathbf{b} = \mathbf{S} \cdot \mathbf{a}$$
 
 oder in der Elementschreibweise:
 
