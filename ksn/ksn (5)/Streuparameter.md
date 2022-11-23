@@ -37,7 +37,7 @@ Im einfachsten Fall eines **Eintors** ist der skalare [[Reflexionsfaktor]] $r$ g
 Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [[Matrixrechnung|Matrixgleichung]] in Form eines [[Lineares Gleichungssystem|linearen Gleichungssystems]] ausgedrückt.
 
 Allgemein werden die S-Parameter eines n-Tors als eine n×n-[[Matrixrechnung|Matrix]] $S$ und die beiden je n Elemente umfassenden [[Vektorrechung|Vektoren]] $a$ und $b$ als [[Matrixrechnung|Matrixgleichung]] ausgedrückt:
-
+sssss
 $$\mathbf{b} = \mathbf{S} \cdot \mathbf{a}$$
 
 oder in der Elementschreibweise:
