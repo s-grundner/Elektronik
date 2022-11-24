@@ -21,6 +21,6 @@ Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
 ![[Pasted image 20221124172444.png]]
 
 
-
+Der isotrope Kugelstrahler ist technisch nicht realisierbar, 
 # Quellen
 ![[Gustrau.pdf]]
