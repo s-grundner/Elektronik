@@ -40,6 +40,9 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 [[Isotroper Kugelstrahler]]
  
 ### Kenngrößen für das Strahlungsfeld einer Antenne
+#### Feldkomponenten $\vec{E}$ und $\vec{H}$
+
+
 #### Richtcharakteristik $C_{i}$
 
 #### Richtfunktion $D$
