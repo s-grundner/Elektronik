@@ -12,5 +12,8 @@ Der Isotrope Kugelstrahler ist eine theoretische Antenne, die die ihr zugeführt
 
 Die Strahlungsdichte $\vec{S_{i}}$ des isotropen Kugelstrahlers im Abstand $r$ kann einfach aus der zugeführten Leistung $P$ und der Kugeloberfläche $O = 4\pi r^{2}$, auf die sich die Leistung verteilt, berechnet werden. Die Strahlungsleistungsdichte ist unabhängig von den Winkeln $\varphi$ und $\vartheta$.
 
+$$
+\vec{S_{i}}= \frac{P}{4\pi r^{2}}\cdot\vec{e_{r}} = \frac{\vec{E_{i}^{2}}}{Z_{F0}}\cdot \vec{e_{r} }
+$$
 
 # Quellen

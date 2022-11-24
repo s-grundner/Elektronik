@@ -1984,6 +1984,8 @@ tXD
 tGw
 tzG
 ttVJM
+tool
+theoretische
 aliases
 arbeiter
 an
@@ -4222,6 +4224,7 @@ acm
 aGW
 aPo
 ach
+abstrahlt
 subject
 source
 so
@@ -13124,6 +13127,8 @@ Strahlendes
 SgL
 SYE
 Skg
+Strahlungsdichte
+Strahlungsleistungsdichte
 Inverswandler
 Indukitivät
 ID
@@ -15430,6 +15435,7 @@ IdGD
 IwS
 IcM
 Isotroper
+Isotrope
 Tags
 Transistor
 Teil
@@ -26285,6 +26291,7 @@ gcL
 gDR
 gia
 githubusercontent
+gleichmäßiges
 Mindestlaststrom
 Ma
 Mt
@@ -37273,6 +37280,7 @@ WZG
 Wrj
 WGv
 Waz
+Winkeln
 Einschaltphase
 Eingangsspannung
 Energie
@@ -46348,6 +46356,7 @@ wuww
 wrHz
 worden
 wdK
+winget
 und
 uY
 uo
@@ -52903,6 +52912,8 @@ KBo
 KMI
 KzI
 Kugelstrahler
+Kugelstrahlers
+Kugeloberfläche
 bzw
 bbd
 bg
@@ -57282,6 +57293,7 @@ icL
 ihJl
 iyk
 iSiG
+isotropen
 ZTL
 ZX
 Zw
@@ -81456,6 +81468,7 @@ RPi
 Reaktive
 Reaktives
 RSx
+Richtungen
 XRef
 XTG
 XW
@@ -102689,6 +102702,7 @@ zDbE
 zrS
 zcv
 zlW
+zugeführten
 Qu
 QCQ
 QlFq
