@@ -36,7 +36,7 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
-![[Pasted image 20221124144616.png]]
+![[Ant_feldzonen.png]]
 [[Isotroper Kugelstrahler]]
  
 ### Kenngrößen für das Strahlungsfeld einer Antenne

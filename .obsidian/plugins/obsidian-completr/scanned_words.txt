@@ -2012,6 +2012,7 @@ ttuu
 taZ
 tqo
 tytm
+trifft
 aliases
 arbeiter
 an
@@ -13267,6 +13268,8 @@ SpvvFpp
 SiEA
 SSSa
 Suo
+Strahlungseigenschaften
+Strahlungdichte
 Inverswandler
 Indukitivät
 ID
@@ -33325,6 +33328,7 @@ Bdff
 BKB
 BJv
 BCCCCCCC
+Begriffserklärung
 Converter
 Columns
 CE
@@ -82348,6 +82352,8 @@ RDB
 RSa
 Rhaap
 RZZJTT
+Reziprozität
+Richtung
 XRef
 XTG
 XW
@@ -97520,6 +97526,7 @@ kHJJBaa
 kCU
 kFD
 kAM
+koppelt
 qB
 qo
 qg

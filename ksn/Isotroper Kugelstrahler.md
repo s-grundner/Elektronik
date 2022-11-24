@@ -24,7 +24,7 @@ Bei einer allgemeinen [[Antenne]] stellt sich immer eine gewisse Richtwirkung ei
 Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
 ```
 
-![[Pasted image 20221124172444.png]]
+![[Ant_Richtwirkung_iso.png]]
 
 
 ```ad-info
