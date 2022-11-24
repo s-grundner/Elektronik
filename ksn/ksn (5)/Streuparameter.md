@@ -40,7 +40,7 @@ Allgemein werden die S-Parameter eines n-Tors als eine n×n-[[Matrixrechnung|Mat
 
 
 
-$$\mathbf{b} = \mathbf{S} \cdot \mathbf{a}$$
+$$\mathbf{b} = \mathbf{S} \times \mathbf{a}$$
 
 oder in der Elementschreibweise:
 
@@ -56,7 +56,7 @@ $$
     \vdots &\ddots &\vdots \\
     S_{n1} & \dots &S_{nn}
 \end{pmatrix}
-\cdot
+\times
 \begin{pmatrix}
     a_1    \\
     \vdots \\
@@ -68,9 +68,9 @@ $$
 Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: Zweitor -> 4 S-Parameter.
 
 - ==$a_{1}$== ist die am ==Tor 1== einlaufende Welle
-- $a_{2}$ ist dei am ==Tor 2== einlaufende Welle
-- ==$b_{1}$== ist die vom Eingang (Tor 1) auslaufende Welle
-- ==$b_{2}$== ist die vom Ausgang (Tor 2) auslaufende Welle
+- ==$a_{2}$== ist dei am ==Tor 2== einlaufende Welle
+- ==$b_{1}$== ist die vom Eingang (==Tor 1==) auslaufende Welle
+- ==$b_{2}$== ist die vom Ausgang (==Tor 2==) auslaufende Welle
   
 ![[MGL-Zweitor.png]]
 $$
@@ -82,7 +82,7 @@ $$
 \begin{pmatrix}
     S_{11} & S_{12}\\
     S_{21} & S_{22}
-\end{pmatrix}\cdot
+\end{pmatrix}\times
 \begin{pmatrix}
      a_1\\
      a_2
