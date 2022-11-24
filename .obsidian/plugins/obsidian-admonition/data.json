@@ -4,7 +4,7 @@
   "copyButton": false,
   "version": "9.0.5",
   "autoCollapse": true,
-  "defaultCollapseType": "closed",
+  "defaultCollapseType": "open",
   "injectColor": true,
   "parseTitles": true,
   "dropShadow": true,
