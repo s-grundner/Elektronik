@@ -13,7 +13,9 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 - Im <mark style="background: #FFB86CA6;">Empfangsfall</mark>: Die Antenne nimmt aus einen [[Elektromagnetische Wellen|EM-Wellenfeld]] [[Elektrische Leistung|Leistung]] auf und stellt diese an ihrem [[Streuparameter|Netzwerktor]] zur Verfügung.
 ![[ksn/ksn (5)/Untitled Diagram.svg]]
 ![[Pasted image 20221124135725.png]]
-
+![[ksn/ksn (5)/Untitled Diagram 1.svg]]
 ## Nahfeld und Fernfeld
+| Phasenzentrum | Reaktive Felsstär
+| ------------- |
 ![[Pasted image 20221124140038.png]]
 # Quellen
