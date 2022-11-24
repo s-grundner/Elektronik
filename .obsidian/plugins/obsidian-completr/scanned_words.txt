@@ -13129,6 +13129,7 @@ SYE
 Skg
 Strahlungsdichte
 Strahlungsleistungsdichte
+Strahlungsfeld
 Inverswandler
 Indukitivät
 ID
@@ -107162,6 +107163,7 @@ GnGP
 GiVJDD
 Grr
 GDs
+Grundbegriffe
 Oc
 OB
 OJ
