@@ -41,6 +41,7 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
  
 ### Kenngrößen für das Strahlungsfeld einer Antenne
 #### Richtcharakteristik $C_{i}$
+
 #### Richtfunktion $D$
 
 # Quellen
