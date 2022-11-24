@@ -15429,6 +15429,7 @@ ITf
 IdGD
 IwS
 IcM
+Isotroper
 Tags
 Transistor
 Teil
@@ -52901,6 +52902,7 @@ KjDi
 KBo
 KMI
 KzI
+Kugelstrahler
 bzw
 bbd
 bg
