@@ -8491,6 +8491,7 @@ rvB
 rUQ
 rLl
 rIWY
+räumlichen
 created
 cU
 cc
@@ -37285,6 +37286,7 @@ Wrj
 WGv
 Waz
 Winkeln
+Winkel
 Einschaltphase
 Eingangsspannung
 Energie
@@ -52921,6 +52923,7 @@ KzI
 Kugelstrahler
 Kugelstrahlers
 Kugeloberfläche
+Kugelkoordinaten
 bzw
 bbd
 bg
@@ -70514,6 +70517,7 @@ PYn
 Phasenzentrum
 PuMU
 PbP
+Polarkoordinaten
 Herleitung
 Hy
 HE
@@ -85921,6 +85925,7 @@ UPRRJ
 UBp
 UkV
 UoV
+Ursprung
 pI
 pz
 pw
