@@ -15428,6 +15428,7 @@ IBAD
 ITf
 IdGD
 IwS
+IcM
 Tags
 Transistor
 Teil
@@ -35013,6 +35014,7 @@ CYz
 CqLA
 Cto
 Cff
+CmHG
 Während
 Wx
 Wb
@@ -41900,6 +41902,7 @@ Feldstärken
 Fresnel
 Fraunhofer
 FTYv
+FezG
 fließt
 für
 fFOlq
@@ -54965,6 +54968,7 @@ bbRS
 bAD
 bbcY
 bsz
+bPLTE
 in
 ihr
 iz
@@ -66068,6 +66072,7 @@ vXjv
 vDB
 verfasst
 verworfen
+vtRNS
 jetzt
 jv
 ji
@@ -91952,6 +91957,7 @@ xnOY
 xDyb
 xeg
 xIT
+xvz
 Yz
 Ys
 YD
