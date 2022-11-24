@@ -26293,6 +26293,8 @@ gDR
 gia
 githubusercontent
 gleichmäßiges
+großen
+größerer
 Mindestlaststrom
 Ma
 Mt
@@ -32960,6 +32962,7 @@ Bes
 BWD
 Bfs
 BXyZ
+Beobachtungspunkte
 Converter
 Columns
 CE
@@ -39661,6 +39664,7 @@ Editor
 EfH
 EtK
 EEnC
+Entfernung
 Fällt
 Filter
 FlateDecode
@@ -41913,6 +41917,7 @@ Fresnel
 Fraunhofer
 FTYv
 FezG
+Feldverteilung
 fließt
 für
 fFOlq
@@ -48644,6 +48649,7 @@ uRL
 ucrHw
 uGf
 uFS
+unmittelbaren
 lädt
 liegt
 leifert
@@ -81471,6 +81477,8 @@ Reaktives
 RSx
 Richtungen
 Richtwirkung
+Richtcharakteristik
+Richtfunktion
 XRef
 XTG
 XW

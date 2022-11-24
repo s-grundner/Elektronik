@@ -15,9 +15,7 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 
 ![[Pasted image 20221124144534.png]]
 
-```ad-info
-title: Der Sende- und Empfangsfall sind reziprok.
-```
+> [!info] Der Sende- und Empfangsfall sind reziprok.
 
 ```ad-question
 title: Begriffserklärung: Reziprozität / reziprok
@@ -25,16 +23,16 @@ Die Strahlungseigenschaften und auch die Impedanz sind im Sende- und Empfangsfal
 - Dieser Zusammenhang wird als Reziprozität bezeichnet.
 
 #### Praktisch:
-- Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtun ab.
+- Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtung ab.
 - Ebenso koppelt die Antenne im Empfangsfall die maximale Leistung einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
 
 ```
 
 ### Nahfeld und Fernfeld
-Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (<mark style="background: #BBFABBA6;">Nahfeld</mark>) oder nur für Beobachtungspunkte in größerer Entfernung (<mark style="background: #BBFABBA6;">Fernfeld</mark>) interessiert.
-```ad-warning
-title: Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
-```
+
+Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert.
+
+> [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
 ![[Pasted image 20221124144616.png]]
 [[Isotroper Kugelstrahler]]
