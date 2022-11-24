@@ -81469,6 +81469,7 @@ Reaktive
 Reaktives
 RSx
 Richtungen
+Richtwirkung
 XRef
 XTG
 XW
