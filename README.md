@@ -9,8 +9,17 @@ Ctrl+P //Öffnet die Befehlszeile
 'Obsidian Git: Pull' Ausführen
 ```
 Falls Änderungen vorgenommen worden sind, müssen diese vor jedem pull verworfen werden.
-Dies erfolg durch das Ausführen des Shell-Scripts `git_stash.sh`
+Dies erfolg durch das Ausführen des Shell-Scripts `git_stash.sh` 
 > [[git_stash.sh]]
+
+`Git for Windows` wird auf Windows Geräten benötigt:
+
+- [Downloads](https://git-scm.com/download/win)
+
+oder mit winget tool:
+```powershell
+winget install --id Git.Git -e --source winget
+```
 
 ## Disclaimer: Ohne 🔫
 
