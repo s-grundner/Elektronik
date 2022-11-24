@@ -20,4 +20,7 @@ Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
 
 ![[Pasted image 20221124172444.png]]
 
+
+
 # Quellen
+![[Gustrau.pdf]]
