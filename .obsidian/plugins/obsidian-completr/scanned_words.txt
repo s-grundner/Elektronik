@@ -52924,6 +52924,7 @@ Kugelstrahler
 Kugelstrahlers
 Kugeloberfläche
 Kugelkoordinaten
+Koordinatensystem
 bzw
 bbd
 bg
@@ -70518,6 +70519,7 @@ Phasenzentrum
 PuMU
 PbP
 Polarkoordinaten
+Punktes
 Herleitung
 Hy
 HE
@@ -96502,6 +96504,7 @@ kTX
 kSsL
 kHRR
 ktc
+kartesisches
 qB
 qo
 qg
@@ -114359,6 +114362,7 @@ AoU
 ACSn
 AAAJ
 Auk
+Achsen
 ÖgLk
 ÖW
 ÖP

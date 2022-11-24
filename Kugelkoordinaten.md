@@ -10,12 +10,14 @@ created: 24th November 2022
 # Kugelkoordinaten
 In ==Kugelkoordinaten== oder räumlichen ==Polarkoordinaten== wird ein Punkt im $\mathbb{R}^{3}$ durch seinen Abstand vom ==Ursprung== ($r$) und ==zwei Winkel== ($\varphi, \vartheta$) angegeben.
 
-<img align="left" width="0px" height="18px"/>
-<img src="https://user-images.githubusercontent.com/11986158/145484796-9bf1f77f-e706-4e15-b46b-c9b949f0086c.png" align="left" width="100px" height="100px"/>
+$$
+\begin{array}{cll}
+x &=& r \cdot \sin \theta \cdot \cos \varphi \\
+y &=& r \cdot \sin \theta \cdot \sin \varphi \\
+z &=& r \cdot \cos \theta
+\end{array}
+$$
 
-<h3>redscript</h3>
+>[!info] $r,\theta,\varphi$ eines Punktes $P$ und kartesisches Koordinatensystem mit den Achsen $x,y,z$
+![[Pasted image 20221124195324.png|450]]
 
-Toolkit for working with scripts used by REDengine in Cyberpunk 2077.
-Currently includes a compiler, a decompiler and a disassembler.
-
-# Quellen
