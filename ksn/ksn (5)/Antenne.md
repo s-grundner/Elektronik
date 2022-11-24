@@ -32,7 +32,7 @@ Die Strahlungseigenschaften und auch die Impedanz sind im Sende- und Empfangsfal
 ### Nahfeld und Fernfeld
 ![[Pasted image 20221124144616.png]]
 [[Isotroper Kugelstrahler]]
-
+ 
 ### Kenngrößen für das Strahlungsfeld einer Antenne
 
 
