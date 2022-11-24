@@ -8,7 +8,7 @@ created: 24th November 2022
 ---
 
 # Kugelkoordinaten
-In ==Kugelkoordinaten== oder räumlichen ==Polarkoordinaten== wird ein Punkt im $\mathbb{R}^{3}$ durch seinen Abstand vom ==Ursprung== ($r$) und ==zwei Winkel== ($\varphi, \vartheta$) angegeben.
+In ==Kugelkoordinaten== oder räumlichen ==Polarkoordinaten== wird ein Punkt im $\mathbb{R}^{3}$ durch seinen Abstand vom ==Ursprung== ($r$) und ==zwei Winkel== ($\varphi, \theta$) angegeben.
 
 $$
 \begin{array}{cll}
@@ -19,5 +19,10 @@ z &=& r \cdot \cos \theta
 $$
 
 >[!info] $r,\theta,\varphi$ eines Punktes $P$ und kartesisches Koordinatensystem mit den Achsen $x,y,z$
-![[Pasted image 20221124195324.png|450]]
+>![[kugelkoordinaten.png|450]]
 
+## Anwendungen
+- Berechnung von [[Antennen]]kenngrößen.
+
+# Quellen
+[Wikipedia](https://de.wikipedia.org/wiki/Kugelkoordinaten)
