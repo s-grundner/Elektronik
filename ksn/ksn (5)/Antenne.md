@@ -14,8 +14,8 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 - Im <mark style="background: #FFB86CA6;">Empfangsfall</mark>: Die Antenne nimmt aus einen [[Elektromagnetische Wellen|EM-Wellenfeld]] [[Elektrische Leistung|Leistung]] auf und stellt diese an ihrem [[Streuparameter|Netzwerktor]] zur Verfügung.
 ### Antennen als Wellentypwandler
 - Zumeist ist nur das ferne EM-Feld von technischem Interesse
-- Da jede Antenne in hinreichend großem Abstand als klein angesehen werden kann, ist eine Beschreibung in Kugelkoordinaten zweckmäßig.
-- Die Antenne erzeugt einWellenfeld (Freiraumwelle), welches Leistung von der Antenne fortführt (Bild 7.1a).
+- Da jede Antenne in hinreichend großem Abstand als klein angesehen werden kann, ist eine Beschreibung in [[Kugelkoordinaten]] zweckmäßig.
+- Die Antenne erzeugt ein Wellenfeld (Freiraumwelle), welches Leistung von der Antenne fortführt (a).
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
 ![[Pasted image 20221124144534.png]]
