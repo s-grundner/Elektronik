@@ -31,10 +31,16 @@ Die Strahlungseigenschaften und auch die Impedanz sind im Sende- und Empfangsfal
 ```
 
 ### Nahfeld und Fernfeld
+Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (<mark style="background: #BBFABBA6;">Nahfeld</mark>) oder nur für Beobachtungspunkte in größerer Entfernung (<mark style="background: #BBFABBA6;">Fernfeld</mark>) interessiert.
+```ad-warning
+title: Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
+```
+
 ![[Pasted image 20221124144616.png]]
 [[Isotroper Kugelstrahler]]
  
 ### Kenngrößen für das Strahlungsfeld einer Antenne
 #### Richtcharakteristik $C_{i}$
+#### Richtfunktion $D$
 
 # Quellen
