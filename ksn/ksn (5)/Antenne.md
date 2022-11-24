@@ -20,12 +20,12 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 ```ad-info
 title: Begriffserklärung: Reziprozität / reziprok
 Die Strahlungseigenschaften und auch die Impedanz sind im Sende- und Empfangsfall gleich.
+- Dieser Zusammenhang wird als Reziprozität bezeichnet.
+- Der Sende- und Empfangsfall sind reziprok.
 
-Dieser Zusammenhang wird als Reziprozität bezeichnet.
-
-Praktisch: Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtun ab.
-Ebenso koppelt die Antenne die maximale 
-
+#### Praktisch:
+- Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtun ab.
+- Ebenso koppelt die Antenne im Empfangsfall die maximale Leistung einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
 
 ```
 
