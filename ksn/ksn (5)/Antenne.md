@@ -32,19 +32,32 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 
 ### Nahfeld und Fernfeld
 
-Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert.
+Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert
 
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
 ![[Ant_feldzonen.png]]
-[[Isotroper Kugelstrahler]]
+
+#### Vereinfachungen beim Übergang vom Nah- ins Fernfeld:
+- Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
+- Im Fernfeld dominiert hingegen der radial orientierte Leistungstransport.
+
+Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und den geometrischen Abmessungen der Antenne ab.
+
+Feldabstand bei:
+- elektrisch kleinen Antennen: $r\geq 2\uplambda$
+- elektrisch großen Antennen: $r\geq$
+
  
 ### Kenngrößen für das Strahlungsfeld einer Antenne
-#### Feldkomponenten $\vec{E}$ und $\vec{H}$
 
+#### Feldkomponenten $\vec{E}$ und $\vec{H}$
 
 #### Richtcharakteristik $C_{i}$
 
 #### Richtfunktion $D$
 
 # Quellen
+Frage:
+- $L_{max}$ welche Einheit/Physikalische größe?
+- 
