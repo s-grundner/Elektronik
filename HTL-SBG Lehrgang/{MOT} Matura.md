@@ -39,7 +39,7 @@ created: 19th August 2022
 - [[Kernfusion]]
 - [[Radioaktivität]]
 - [[Allgemeines Gasgesetz|Gasgesetze]]
-- Energieumwandlung, Energieformen und Leistung
+- Energieumwandlung, Energieformen und [[Elektrische Leistung|Leistung]]
 
 ### 5. Newtonsche und Relativistische [[{MOC} Mechanik|Mechanik]]
 - [[Relativitätstheorie]]

@@ -11,7 +11,7 @@ last_edited: 11th April 2022
 # OSI Referenzmodell
 Das ISO/OSI-Referenzmodell (englisch Open Systems Interconnection model) ist ein Referenzmodell für Netzwerkprotokolle als Schichtenarchitektur. Es wird seit 1983 von der International Telecommunication Union (ITU) und seit 1984 auch von der International Organization for Standardization (ISO) als Standard veröffentlicht. Seine Entwicklung begann im Jahr 1977.
 
-Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische Systeme hinweg zu beschreiben und die Weiterentwicklung zu begünstigen. Dazu definiert dieses Modell sieben aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht mit klaren Schnittstellen definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn sie wie das Internet Protocol eine zentrale Funktion haben.
+Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische Systeme hinweg zu beschreiben und die Weiterentwicklung zu begünstigen. Dazu definiert dieses Modell sieben aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht mit klaren [[{MOC} Schnittstellen|Schnittstellen]] definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn sie wie das [[Internet Protocol]] eine zentrale Funktion haben.
 
 ## [[Bitübertragungsschicht|Layer 1]]: [[Bitübertragungsschicht]] ([[Bitübertragungsschicht|Physical Layer]])
 Bits

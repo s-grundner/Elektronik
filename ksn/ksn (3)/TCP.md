@@ -37,6 +37,7 @@ Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richt
 ![[TCP_trans_daten.png]]
 Sender sendet Paket $\rightarrow$ Empfänger bestätigt.
 ### Verbindungsabbau
+![[TCP_trans_aufbau.png]]
 ![[TCP_trans_abbau.png]]
 ## Flusskontrolle (Flow Control)
 ### Stop-and-Wait

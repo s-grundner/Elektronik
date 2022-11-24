@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["Leistung", "Leistungsabfall"]
 subject: ["physik"]
 source: ["Michael Offenhuber", "Martin Aichriedler", "Siegbert Schrempf", "Angela Lindner"]
 reference: []

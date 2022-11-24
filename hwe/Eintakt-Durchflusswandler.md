@@ -7,9 +7,9 @@ reference: []
 created: 13th October 2022
 ---
 
-# Eintakt-Durchflusswandler
+# Eintakt-[[Durchflusswandler]]
 - Eine galvanisch getrennte, regelbare Ausgangsspannung
-- Leistung bis einige $100W$
+- [[Elektrische Leistung|Leistung]] bis einige $100W$
 - Transistorsperrspannung $U_{DS} \geq 2U_{e}$
 - Tastverhältnis $\frac{t_{ein}}{T} \leq 0.5$
 - Sehr gute magnetische Kopplung notwendig
@@ -48,7 +48,7 @@ mit $DC=0.5$ ergibt sich:
 $$
 \frac{N_{2}}{N_{1}}=2\cdot \frac{U_{a}}{U_{e}}
 $$
-## Induktivität
+## [[Induktivitäten|Induktivität]]
 $\Delta I_{L}=\Delta I_{3} \approx 0.2\cdot I_{a}$
 mit $DC=0.5$ wird:
 $$

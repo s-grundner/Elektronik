@@ -65,7 +65,7 @@ $$
 $$
 
 ## [[Zweitor]] Gleichungen
-Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: Zweitor -> 4 S-Parameter.
+Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [[Zweitor]] -> 4 S-Parameter.
 
 - ==$a_{1}$== ist die am ==Tor 1== einlaufende Welle
 - ==$a_{2}$== ist dei am ==Tor 2== einlaufende Welle
@@ -88,7 +88,7 @@ $$
      a_2
 \end{pmatrix}
 $$
-### Darstellung der S-Parameter an einem Zweitor
+### Darstellung der S-Parameter an einem [[Zweitor]]
 ![[Zweitor.png]]
 ### Bedeutung der S-Parameter
 
