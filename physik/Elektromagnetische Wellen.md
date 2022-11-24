@@ -1,15 +1,13 @@
 ---
 tags: []
-aliases: ["EM-Wellen", "EMR", "Raumwelle", "Elektromagnetische Welle"]
+aliases: ["EM-Wellen", "EMR", "Raumwelle", "Elektromagnetische Welle", "EM-Welle", "EM-Feld", "EM-Wellenfeld"]
 subject: ["physik"]
-source: ["Angela Lindner"]
-reference: []
+source: ["Angela Lindner", "Martin Aichreidler"]
+reference: ["Gustrau"]
 created: 6th September 2022
 ---
 
 # Elektromagnetische Wellen
-## EM-Spektrum
-![[Em-Spektrum.png]]
 
 
 ---

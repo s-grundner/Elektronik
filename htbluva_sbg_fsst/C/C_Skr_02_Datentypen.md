@@ -1,9 +1,9 @@
-# 2 Datentypen
+\# 2 Datentypen
 
 Die folgenden Datentypen gibt's in C:
 
 - kein Boolean Typ (am besten möglichst kurze nummerische Typen darstellen)
-- char: Character - Zeichen, **8 Bit** ASCII Codiert (Java, C#: 16 Bit Unicode)
+- char: Character - Zeichen, **8 Bit** ASCII Codiert (Java, C\#: 16 Bit Unicode)
 - short: Ganzzahl. **16 Bit**.
 - int: Integer, Ganzzahl. Die Größe hängt vom Rechner, Betriebssystem und Kompiler ab, üblich: 16, **32** auf 64 **Bit** wird üblicherweise verzichtet.
 - long: Ganzzahl. **32 Bit**.
@@ -23,7 +23,7 @@ Um eine definierte Breite zur Verfügung zu stellen gibt's in \<stdint.h\> klar 
 
 Für sämtliche Typen können die Vorsätze *signed* und *unsigned*  verwendet werden. Ohne Vorsatz ist die Art Implementationsabhängig (meist vorzeichenbehaftet).
 
-## Speicherbedarf
+\#\# Speicherbedarf
 
 Die Funktion **sizeof(Ausdruck)** liefert wieviel Speicherplatz die Variable oder der Typ *Ausdruck* liefert:
 
@@ -33,7 +33,7 @@ int length = sizeof(a);              // 1. Moeglichkeit: Speicherbedarf der Vari
 length = sizeof(unsigned char);      // 2. Moeglichkeit: Speicherbedarf einer "unsigned char" Variable
 ```
 
-## Konstante Werte ("Literale")
+\#\# Konstante Werte ("Literale")
 
 Für Nummern gilt: ohne Zusatz wird für Ganzzahlen, sofern es sich ausgeht der Typ *int* gewählt. Gesteuert werden kann mit den Suffix L (long) und U (unsigned). Mit vorangestellten 0 wird die Konstante als Oktale- und mit einem 0x als Hexadezimale-Zahl interpretiert. Fließkommazahlen werden als float interpretiert, außer die Konstante ist für float zu groß.
 
@@ -43,7 +43,7 @@ Zeichen können ebenfalls durch ihren hexadezimalen Code mit `'\xhh'` übergeben
 
 Zeichenketten-Literale (Strings) haben doppelte Anführungsstriche `"Hallo"`.
 
-## Typecast
+\#\# Typecast
 
 Werte können von einem Typen in einen anderen Typen umgewandelt werden. Das kann automatisch (*implizit*) oder bewusst (*explizit*) erfolgen. Im englischen nennt man diese Umwandlung *Casten*.
 
@@ -69,7 +69,7 @@ Mit dem Klammerausdruck `(long long)` wird der erste Ausdruck numKurz als long l
 
 Explitziter Typcast: `(neuer-Typ)Variable` damit wird der Wert von Variable als neuer-Typ verwendet.
 
-## Konstante
+\#\# Konstante
 
 Mit dem Schlüsselwort *const* können Konstante gekennzeichnet werden. Sie können während der Programmlaufzeit nicht (direkt) verändert werden:
 
@@ -80,7 +80,7 @@ const float PI = 3.14f;
 
 (diese Definition stellt keinen Schutz vor Veränderung dar!)
 
-## Char Typ
+\#\# Char Typ
 
 Ein char ist 1 Byte (8 Bit) groß. char steht für *Character* also ein *Zeichen*. Im Speicher ist dieser eine ganz normale Zahl zwischen -128 und +127. Wird eine char-Variable ausgegeben wird der Zahlenwert mittels ASCII-Tabelle in ein Zeichen übersetzt und ausgegeben (eigentlich entscheidet die Konsole/das Betriebssystem was ausgegeben wird). Intern ist und bleibt ein char eine Zahl. Entsprechend kann mit char-Variablen ganz normal gerechnet werden.
 
@@ -101,28 +101,27 @@ c = c + 'a';		// in c steht 2 + 97 (97 = 'a') und damit 99 ( = 'c')
 
 Genauso können auch Zahlen verwendet werden, die müssten der ASCII-Tabelle entnommen werden. Die ASCII-Tabelle definiert Zeichen für die Nummern von 0 bis 127 (eigentlich nur 7 Bit). Je nachdem in welchem Betriebssystem das C-Programm die char-Zeichen ausgibt werden die verbleibenden 128 Zeichen verschieden kodiert. Um sämtliche 8 Bits (256 Zeichen) auszunutzen (und auch um dringend gewünschte Zeichen darzustellen) wird in eigenen Codierungen definiert, wie die verbleibenden 128 Zeichen codiert werden. In der Windows-Eingabeaufforderung kann die eingestellte Codepage mit `chcp`  angezeigt werden (oder auch verändert werden), häufig bei uns *Codepage 850*.  In UNIX kann das mit `cat /etc/default/locale`  angezeigt werden, häufig bei uns *utf-8*.
 
-## Makros
+\#\# Makros
 
 Makros können auch so etwas Ähnliches wie Konstante definieren:
 
 ```c
 #define MAXDAYS 31
-
 ...
  
 if (days < MAXDAYS) {
    ...
 ```
 
-Makrodefinitionen gehören zu den sogenannten **Präprozessorabweisungen**. Während des Kompiliervorgangs wird vor dem eigentlichen Compilieren der sogenannte Präprozessor über das Programm laufen lassen. Dieser beschäftigt sich nur mit Zeilen die mit dem #-Zeichen beginnen (Präprozessoranweisungen).
+Makrodefinitionen gehören zu den sogenannten **Präprozessorabweisungen**. Während des Kompiliervorgangs wird vor dem eigentlichen Compilieren der sogenannte Präprozessor über das Programm laufen lassen. Dieser beschäftigt sich nur mit Zeilen die mit dem \#-Zeichen beginnen (Präprozessoranweisungen).
 
-Für #define werden dabei immer die folgenden Bezeichner (MAXDAYS) durch die als zweites folgenden Begriffe (31) ersetzt. Der Präprozessor läuft den ganzen Code durch und ersetzt überall wo er MAXDAYS findet durch 31. Er prüft nicht ob das Sinn haben kann oder vielleicht auch die Syntax verletzt wird. 
+Für \#define werden dabei immer die folgenden Bezeichner (MAXDAYS) durch die als zweites folgenden Begriffe (31) ersetzt. Der Präprozessor läuft den ganzen Code durch und ersetzt überall wo er MAXDAYS findet durch 31. Er prüft nicht ob das Sinn haben kann oder vielleicht auch die Syntax verletzt wird. 
 
 An den Präprozessor anschliessend läuft der Kompiler über das Programm und der finden an allen Stellen an denen MAXDAYS geschrieben war nur mehr 31.
 
 Zum Kenntlich machen, dass MAXDAYS ein Makro ist, wird es gesperrt groß geschrieben.
 
-## Enumerator
+\#\# Enumerator
 
 Wenn Aufzählungen erforderlich sind, können Enumeratoren hilfreich sein, etwa für Wochentage, Monatsnamen, Verbuchungstypen o.ä. Der Vorteil der Enums sind die einfache Erweiterbarkeit und die mögliche Sicherheit, dass die Werte unterschiedlich sind.
 
@@ -152,7 +151,7 @@ Auch sinnvoll kann die Verwendung ohne Typ und ohne Variable sein:
 enum {FALSE, TRUE};
 ```
 
-Damit sind im Folgenden die Ausdrücke TRUE und FALSE verfügbar und sicher verschieden. Mit einem Makro (#define) könnte TRUE und FALSE auf die gleichen Werte definiert werden (zum Beispiel beide auf 0).
+Damit sind im Folgenden die Ausdrücke TRUE und FALSE verfügbar und sicher verschieden. Mit einem Makro (\#define) könnte TRUE und FALSE auf die gleichen Werte definiert werden (zum Beispiel beide auf 0).
 
 Die Enum-Elemente sind immer vom Typ Integer (4 Bytes) und bekommen automatisch eine numerische Entsprechung. Der erste Wert  entspricht 0, der zweite 1 und so fort. Die Werte können auch kontrolliert gesetzt werden:
 
@@ -181,7 +180,7 @@ typedef enum wochentag TWOCHENTAG;
 TWOCHENTAG day;
 ```
 
-## Typedef
+\#\# Typedef
 
 Mit typedef können eigene Datentypen definiert werden:
 
@@ -210,8 +209,8 @@ Zur Kenntlichmachung, dass TWOCHENTAG ein neu definierter Typ ist, wir der Name 
 "Schöne" Programmierung setzt typedef durchaus sehr stark ein:
 
 ```c
-#define OFFSET 32.0
-#define FAKTOR (9.0 / 5.0)
+\#define OFFSET 32.0
+\#define FAKTOR (9.0 / 5.0)
 typedef double Celsius;
 typedef double Fahrenheit;
 
@@ -225,7 +224,7 @@ Damit wird der Code sehr gut lesbar. Ein weiterer großer Vorteil ist, dass nach
 
 Grundsätzlich werden mit typedef keine echten neuen Datentypen erstellt, sie ermöglichen lediglich alternative Bezeichnungen.
 
-## Fragen
+\#\# Fragen
 
 - Wieviel Speicher (Bytes) wird durch `int x;` reserviert?
 - Was bedeutet das Literal `4UL`?
