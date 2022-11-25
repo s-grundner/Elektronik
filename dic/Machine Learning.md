@@ -57,19 +57,23 @@ y=-(log(x))+4
 
 $$
 \begin{align*}
-X\dots 100\times3\\
-\Theta\dots 3\times1\\
+	X\dots 100\times3\\
+	\Theta\dots 3\times1\\
 \begin{array}{cll}\\\\
 & \begin{pmatrix}
-1 & 2 & 3 
+	1 & 2 & 3
 \end{pmatrix}\\
 \left.\begin{pmatrix}
-1 & 94 & 72\\
-1 & 93 & 87\\
-1 & 91 & 43\\
-1 & 100 & 12
+	1 & 94 & 72\\
+	1 & 93 & 87\\
+	1 & 91 & 43\\
+	1 & 100 & 12
 \end{pmatrix}\right\downarrow_{m} &
 \begin{pmatrix}
+	1\cdot1 &+ 94\cdot2 &+ 72\cdot3 \\
+	1\cdot1 &+ 93\cdot2 &+ 87\cdot3 \\
+	1\cdot1 &+ 91\cdot2 &+ 43\cdot3 \\
+	1\cdot1 &+ 100\cdot2 &+ 12\cdot3 \\
 \end{pmatrix}
 \end{array}\\
 \end{align*}
