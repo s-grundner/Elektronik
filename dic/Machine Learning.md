@@ -55,6 +55,30 @@ grid: true
 y=-(log(x))+4
 ```
 
+$$
+\begin{align*}
+	X\dots 100\times3\\
+	\Theta\dots 3\times1\\
+\begin{array}{cll}\\\\
+& \begin{pmatrix}
+	1 &&&& 2 & 3
+\end{pmatrix}\\
+\left.\begin{pmatrix}
+	1 & 94 & 72\\
+	1 & 93 & 87\\
+	1 & 91 & 43\\
+	1 & 100 & 12
+\end{pmatrix}\right\downarrow_{m} &
+\begin{pmatrix}
+	1\cdot1 &+ 94\cdot2 &+ 72\cdot3 \\
+	1\cdot1 &+ 93\cdot2 &+ 87\cdot3 \\
+	1\cdot1 &+ 91\cdot2 &+ 43\cdot3 \\
+	1\cdot1 &+ 100\cdot2 &+ 12\cdot3 \\
+\end{pmatrix}
+\end{array}\\
+\end{align*}
+$$
+
 
 # Matlab Simulations
 ````ad-example
@@ -116,6 +140,20 @@ J = sum(E.^2);
 ````
 
 # Quellen
+
+>[!info] Teststoff
+> ### Regression
+>anhand von datenpunkten einen $y$ wert ausrechenn
+>Kosten $J$ aurechnen
+>Neue $\theta$ Ausrechnen
+>### Klassifiziereung
+>entscheidungsgrenze einzeichnen durch Thata (geradengleichung)
+>Bei einem neuen punkt die WSK ausrechnen, ob der neue punkt in der Klasse y=1 ist
+>Kosten $J$ Ausrechnen
+>Kein Neues $\theta$
+>Als mtrixmultiplikation und mit normaler Algebra ausrechnen
+
+
 ## MatLab Commands
 
 ```matlab
