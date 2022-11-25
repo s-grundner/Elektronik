@@ -9,7 +9,7 @@ created: 26th April 2022
 
 # Laplace Transformation - Multiplizieren statt [[Differenzialrechnung|Differenzieren]]
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem Einschalten $(t=0)$ passiert.
-- Um mehr Funktionen transformieren zu können, wird eine Dämpfung $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
+- Um mehr Funktionen transformieren zu können, wird eine [[Dämpfung]] $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
 Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t)=0$ für $t<0$, so heißt:
 $$
@@ -61,7 +61,7 @@ $$
 \mathcal{L}\{c\cdot f(t)\} = c\cdot \mathcal{L}\{f(t)\} 
 $$
 ### Dämpfungssatz
-Aus einer Dämpfung im [[Komplexe Zahlen|Zeitbereich]] wird eine Verschiebung im [[Komplexe Zahlen|Bildbereich]]
+Aus einer [[Dämpfung]] im [[Komplexe Zahlen|Zeitbereich]] wird eine Verschiebung im [[Komplexe Zahlen|Bildbereich]]
 
 $$
 \begin{align*}
