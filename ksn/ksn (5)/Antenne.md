@@ -30,6 +30,9 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 >- Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtung ab.
 >- Ebenso koppelt die Antenne im Empfangsfall die maximale [[Elektrische Leistung|Leistung]] einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
 
+#### Feldkomponenten $\vec{E}$ und $\vec{H}$
+
+
 ### Nahfeld und Fernfeld
 
 Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert
@@ -50,8 +53,6 @@ Feldabstand bei:
 
  
 ### Kenngrößen für das Strahlungsfeld einer Antenne
-
-#### Feldkomponenten $\vec{E}$ und $\vec{H}$
 
 #### Richtcharakteristik $C_{i}$
 
