@@ -14071,6 +14071,7 @@ ISm
 Iuv
 IrPf
 IEe
+Intensität
 Tags
 Transistor
 Teil
@@ -36413,6 +36414,7 @@ ECQHd
 EdZ
 EmzX
 EKm
+Eingeschwngen
 Fällt
 Filter
 FlateDecode
@@ -38469,6 +38471,7 @@ FmX
 FZNF
 FcQP
 FWq
+Frequenze
 fließt
 für
 fFOlq
@@ -83030,6 +83033,7 @@ hkl
 hRG
 hOE
 hsrIT
+her
 xI
 xj
 xA
@@ -99112,6 +99116,7 @@ Ghp
 GzbIC
 GEw
 GLTNrR
+Grenzfre
 Oc
 OB
 OJ
