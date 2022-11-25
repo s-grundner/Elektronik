@@ -55,6 +55,18 @@ grid: true
 y=-(log(x))+4
 ```
 
+$$
+\begin{align*}
+X\dots 100\times3\\
+\Theta\dots 3\times1\\
+\left.\begin{pmatrix}
+1 & 94 & 72\\
+1 & 93 & 87\\
+1 & 91 & 43
+\end{pmatrix}\right\downarrow_{m}
+\end{align*}
+$$
+
 
 # Matlab Simulations
 ````ad-example
