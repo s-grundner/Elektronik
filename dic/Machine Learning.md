@@ -61,7 +61,7 @@ $$
 	\Theta\dots 3\times1\\
 \begin{array}{cll}\\\\
 & \begin{pmatrix}
-	1 & 2 & 3
+	1 &&&& 2 & 3
 \end{pmatrix}\\
 \left.\begin{pmatrix}
 	1 & 94 & 72\\
