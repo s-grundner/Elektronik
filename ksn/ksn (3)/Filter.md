@@ -13,8 +13,7 @@ created: 23rd November 2022
 
 
 # Hochpass
-## Grenzfrequenz
-Phasenverschiebung: $-45\degree$
 
+# Tiefpass
 
 # Quellen
