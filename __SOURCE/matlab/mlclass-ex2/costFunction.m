@@ -20,11 +20,13 @@ function [J, grad] = costFunction(theta, X, y)
     % Note: grad should have the same dimensions as theta
     %
 
-    % Gradient Descent
-    grad = (1 / m) * (X' * (sigmoid(X * theta) - y));
-
-    % Compute the cost function
+    % Cost function parameters
     m = length(y); % number of training examples
     h = sigmoid(X * theta);
+
+    % Cost function
     J = (1 / m) * sum(-y .* log(h) - (1 - y) .* log(1 - h));
+
+    % Gradient Descent (derivative J w.r.t. theta)
+    grad = (1 / m) * (X' * (h - y));
 end
