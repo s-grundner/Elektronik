@@ -13,6 +13,3 @@ created: 18th November 2022
 
 
 # Quellen#
-anhand von datenpunkten einen y wert ausrechenn
-Kosten aurechnen
-Neues Theta Ausrechnen

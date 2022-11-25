@@ -116,6 +116,20 @@ J = sum(E.^2);
 ````
 
 # Quellen
+
+>[!info] Teststoff
+> ### Regression
+>anhand von datenpunkten einen $y$ wert ausrechenn
+>Kosten $J$ aurechnen
+>Neue $\theta$ Ausrechnen
+>### Klassifiziereung
+>entscheidungsgrenze einzeichnen durch Thata (geradengleichung)
+>Bei einem neuen punkt die WSK ausrechnen, ob der neue punkt in der Klasse y=1 ist
+>Kosten $J$ Ausrechnen
+>Kein Neues $\theta$
+>Als mtrixmultiplikation und mit normaler Algebra ausrechnen
+
+
 ## MatLab Commands
 
 ```matlab
