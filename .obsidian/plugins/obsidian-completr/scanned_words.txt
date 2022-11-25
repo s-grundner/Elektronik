@@ -8586,6 +8586,8 @@ rHLLDhh
 rKx
 rnYY
 rCe
+reaktive
+radial
 created
 cU
 cc
@@ -24423,6 +24425,7 @@ dBrr
 dEO
 dvH
 dddp
+dominiert
 geschlossen
 geschlossenen
 gespeicherten
@@ -26591,6 +26594,8 @@ ghii
 gffx
 gQz
 gPP
+geometrischen
+größe
 Mindestlaststrom
 Ma
 Mt
@@ -37688,6 +37693,7 @@ WOL
 Wuez
 WpJ
 Whh
+Wellenlänge
 Einschaltphase
 Eingangsspannung
 Energie
@@ -42367,6 +42373,9 @@ Fhhhhhhhhhhhhh
 FBV
 FSd
 Feldkomponenten
+Feldanteile
+Fernfeldabstand
+Feldabstand
 fließt
 für
 fFOlq
@@ -62559,6 +62568,7 @@ VDFF
 VWWQXX
 VGEEmZ
 VZd
+Vereinfachungen
 Nach
 Ngm
 NN
@@ -64670,6 +64680,7 @@ Nmb
 Nqw
 NZO
 NzS
+Nah
 öffnen
 öi
 öG
@@ -71275,6 +71286,7 @@ PUJ
 PuvU
 PYTq
 PTe
+Physikalische
 Herleitung
 Hy
 HE
@@ -75436,6 +75448,7 @@ oayy
 oaF
 oED
 onM
+orientierte
 Linearized
 Length
 Ll
@@ -77577,6 +77590,7 @@ LoooL
 Lfw
 Llw
 Lpzq
+Leistungstransport
 endobj
 ey
 endstream
@@ -80031,6 +80045,7 @@ eIYg
 efi
 eiU
 eoc
+elektrisch
 Root
 RY
 RJH
@@ -90920,6 +90935,7 @@ hiCj
 hrv
 haw
 höm
+hingegen
 xI
 xj
 xA
@@ -115589,6 +115605,7 @@ AAO
 AAq
 AqL
 Axa
+Abmessungen
 ÖgLk
 ÖW
 ÖP
@@ -115673,6 +115690,7 @@ Axa
 Übersicht
 Übertragen
 Übertragungen
+Übergang
 ßs
 ßY
 ßm
