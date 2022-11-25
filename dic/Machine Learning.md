@@ -62,7 +62,8 @@ X\dots 100\times3\\
 \left.\begin{pmatrix}
 1 & 94 & 72\\
 1 & 93 & 87\\
-1 & 91 & 43
+1 & 91 & 43\\
+1 & 100 & 12
 \end{pmatrix}\right\downarrow_{m}
 \end{align*}
 $$
