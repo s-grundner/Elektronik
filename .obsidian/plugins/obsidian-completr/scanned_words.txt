@@ -6590,6 +6590,7 @@ standen
 struct
 sehen
 später
+sofern
 reference
 rc
 rCs
@@ -35459,6 +35460,7 @@ Compiler
 Cast
 Casts
 Casten
+Cosinus
 Während
 Wx
 Wb
@@ -44623,6 +44625,7 @@ for
 findet
 frequenz
 fouriertranformation
+frequenzen
 über
 übertragen
 üR
@@ -89428,6 +89431,7 @@ polnischer
 private
 printf
 package
+phase
 hY
 hK
 ha
