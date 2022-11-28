@@ -18,7 +18,11 @@ Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)
 Vorteil: 
 - einfache Kapazitäten
 - nur eine [[Induktivitäten|Induktivität]]
+Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 
+$$
+V_{ges}=1 \qquad \varphi = 
+$$
 ## Schaltung
 ![[Pasted image 20221128102638.png]]
 
