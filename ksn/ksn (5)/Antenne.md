@@ -1,5 +1,5 @@
 ---
-tags: [""]
+tags: ["HF-Technik"]
 aliases: ["Antennen"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
@@ -19,11 +19,12 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 - Die Antenne erzeugt ein Wellenfeld (Freiraumwelle), welches [[Elektrische Leistung|Leistung]] von der Antenne fortführt (a).
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
-![[Pasted image 20221124144534.png]]
+> ![[Pasted image 20221124144534.png]]
 
 > [!info] Der Sende- und Empfangsfall sind reziprok.
 
 > [!question] Begriffserklärung: Reziprozität / reziprok
+> `wechselseitig, gegenseitig, aufeinander bezüglich`
 > Die Strahlungseigenschaften und auch die Impedanz sind im Sende- und Empfangsfall gleich.
 > - Dieser Zusammenhang wird als Reziprozität bezeichnet.
 > #### Praktisch:
@@ -39,7 +40,7 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
-![[Ant_feldzonen.png]]
+>![[Ant_feldzonen.png]]
 
 #### Vereinfachungen beim Übergang vom Nah- ins Fernfeld:
 - Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
