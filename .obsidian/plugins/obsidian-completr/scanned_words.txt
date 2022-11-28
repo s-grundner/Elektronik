@@ -44422,6 +44422,7 @@ fIav
 fVyK
 fQo
 fNA
+funktionen
 über
 übertragen
 üR
@@ -104283,6 +104284,7 @@ zUa
 zxbr
 zAj
 zDt
+zeitabhängige
 Qu
 QCQ
 QlFq
