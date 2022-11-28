@@ -18,31 +18,9 @@ h_{\theta}(x) &= \Theta' \cdot X_{(n)}\\
 J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})
 \end{align*}
 $$
-$$
-\begin{align*}
-\begin{array}{cll}\\
-& \begin{pmatrix}
-	1 & 2 & 3
-\end{pmatrix}\\
-\left.\begin{pmatrix}
-	1 & 94 & 72\\
-	1 & 93 & 87\\
-	1 & 91 & 43\\
-	1 & 100 & 12
-\end{pmatrix}\right\downarrow_{m} &
-\begin{pmatrix}
-	1\cdot1 &+ 94\cdot2 &+ 72\cdot3 \\
-	1\cdot1 &+ 93\cdot2 &+ 87\cdot3 \\
-	1\cdot1 &+ 91\cdot2 &+ 43\cdot3 \\
-	1\cdot1 &+ 100\cdot2 &+ 12\cdot3 \\
-\end{pmatrix}
-\end{array}\\
-\end{align*}
-$$
-
-
-
-
+| $\Theta' \cdot X_{(n)} =$                                                                                     | $$\begin{pmatrix}1 & 2 & 3\end{pmatrix}$$                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $$\left.\begin{pmatrix}1 & 94 & 72\\1 & 93 & 87\\1 & 91 & 43\\1 & 100 & 12\end{pmatrix}\right\downarrow_{m}$$ | $$\begin{pmatrix}1\cdot1 &+ 94\cdot2 &+ 72\cdot3 \\1\cdot1 &+ 93\cdot2 &+ 87\cdot3 \\1\cdot1 &+ 91\cdot2 &+ 43\cdot3 \\1\cdot1 &+ 100\cdot2 &+ 12\cdot3 \\\end{pmatrix}$$ |
 
 ## Convexity
 
