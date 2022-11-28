@@ -36,6 +36,9 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 $\vec{E}\dots$ [[Elektrisches Feld#Elektrische Feldstärke|E-Feldstärke]]
 $\vec{H}\dots$ [[Magnetisches Feld#Magnetische Feldstärke|M-Feldstärke]]
 
+Im Fernfeld 
+[[Transversale Elektromagnetische Welle]]
+
 ### Nahfeld und Fernfeld
 
 Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert
