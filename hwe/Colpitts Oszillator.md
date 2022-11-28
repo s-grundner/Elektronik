@@ -20,8 +20,9 @@ Vorteil:
 
 ## Rückkopplungsarten
 
-| Colpitts | Hartley |     |
-| -------- | ------- | --- |
+| Colpitts <br> Kapazitiv | Hartley <br> Induktiv | Meissner <br> |
+| ----------------------- | --------------------- | ------------- |
+|                         |                       |               |
 
 ## Schaltung
 
@@ -30,11 +31,13 @@ Vorteil:
 - Emitterschaltung: $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
 - kapazitive 3-Punkt Schaltung bringt weitere $180\degree\rightarrow\sum=360\degree$
 - Barkhausenkriterium its erfüllt
-  
 - Emitterschaltung mit Basisspannugsteiler
 - $R_{E}$ zur Temperaturkompensation
 - RFC (Radio Frequency Choke) dt. Drosselspule
-	- hebt den Massebezug des Oszillatorsignal 
+	- hebt den Massebezug des Oszillatorsignal zur Betriebspannung auf
+- Analyse der Schleifenverstärkung bringt ...
+	- ... einerseits $\mathcal{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
+	- ... andererseits $\frac{C_{2}}{C_{1}}=S\cdot R_{L}$ -> Steilheit $S=\frac{\Delta I_{C}}{\Delta U_{BE}}$
 
 ## Herleitung
 

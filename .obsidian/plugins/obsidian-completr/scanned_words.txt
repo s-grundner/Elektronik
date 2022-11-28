@@ -13304,6 +13304,7 @@ Stack
 Soll
 Später
 Sinn
+Schleifenverstärkung
 Inverswandler
 Indukitivät
 ID
@@ -17877,6 +17878,7 @@ Taschenrechner
 Teilstring
 Typprüfung
 Typprüfungen
+Temperaturkompensation
 Der
 Diode
 Dabei
@@ -20048,6 +20050,7 @@ Dateizugriff
 Deklarationsanweisungen
 Dezimalformat
 Deklaration
+Drosselspule
 nach
 nur
 nD
@@ -29056,6 +29059,7 @@ Makro
 Modulation
 Magnetisches
 Magnetische
+Massebezug
 June
 Ju
 JI
@@ -33364,6 +33368,8 @@ Beispielstring
 Bereichsüberschreitung
 Buffers
 Bereichsauflöser
+Basisspannugsteiler
+Betriebspannung
 Converter
 Columns
 CE
@@ -35463,6 +35469,7 @@ Cast
 Casts
 Casten
 Cosinus
+Choke
 Während
 Wx
 Wb
@@ -42443,6 +42450,7 @@ Funktionsaufruf
 Funktionsdefinition
 Feldzonen
 Feldstärke
+Frequency
 fließt
 für
 fFOlq
@@ -82816,6 +82824,7 @@ Resolution
 Rückgabetyp
 Referenzhandbuch
 Rückkopplungsarten
+Radio
 XRef
 XTG
 XW
@@ -91554,6 +91563,7 @@ hangman
 hilfreiche
 hex
 hinten
+hebt
 xI
 xj
 xA
@@ -98260,6 +98270,7 @@ kennt
 klassischen
 keinerlei
 konvergieren
+kapazitive
 qB
 qo
 qg
@@ -111474,6 +111485,7 @@ Operanten
 Operator
 Oktalformat
 Organisationsstruktur
+Oszillatorsignal
 mu
 mR
 ma
@@ -117750,6 +117762,7 @@ Aufruf
 Anfang
 Abkürzung
 Achtung
+Analyse
 ÖgLk
 ÖW
 ÖP
