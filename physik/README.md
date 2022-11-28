@@ -1,7 +1,7 @@
 ---
 tags: ["MOT"]
 teacher: ["Angela Lindner"]
-inst: ["HTL-SBG"]
+inst: ["HTBLuVA Salzburg"]
 created: 19th August 2022
 ---
 # Map of Topics - Physik

@@ -1,7 +1,7 @@
 ---
 tags: ["MOT"]
 teacher: ["Christa Sartorius", "Rudolf Frauenschuh"]
-inst: ["HTL-SBG"]
+inst: ["HTBLuVA Salzburg"]
 created: 19th August 2022
 ---
 
