@@ -24527,6 +24527,7 @@ darzustellen
 dringen
 dehnen
 dünnere
+durhc
 geschlossen
 geschlossenen
 gespeicherten
@@ -26690,6 +26691,7 @@ gibts
 global
 gemittelte
 geringere
+gleichmäßig
 Mindestlaststrom
 Ma
 Mt
@@ -29133,6 +29135,7 @@ Meissner
 Molare
 Maximalwert
 Meer
+Magnet
 June
 Ju
 JI
@@ -44737,6 +44740,7 @@ findet
 frequenz
 fouriertranformation
 frequenzen
+feld
 über
 übertragen
 üR
@@ -55959,6 +55963,7 @@ besser
 bevorzugen
 beginnend
 besprechenden
+bewegte
 in
 ihr
 iz
@@ -63031,6 +63036,7 @@ Volumenveränderung
 Volumenveränderug
 Verschiebungsgesetz
 Verdunsten
+Verteilung
 Nach
 Ngm
 NN

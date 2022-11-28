@@ -15,7 +15,7 @@ Besitz ein **Absorptionsvermögen** von **$\alpha=1$**
 ## Stefan-Boltzmann Verteilung
 $$
 \begin{align*}
-&f(\omega, T)\text{Spektrum}\\
+f(\omega, T)&\dots\text{Spektrum}\\
 \omega&\dots\text{Wellenlänge der abgestrahlten EM-Welle}\\
 T&\dots\text{Temperatur des Körpers}
 \end{align*}
