@@ -29,6 +29,9 @@ $$
 \mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt && t \in \mathbb{R}\qquad 
 \end{align*}
 $$
+- $\mathcal{F\{f(t)\}}= F(\omega)$ ist das Spektrum von $f(t)$
+- $\mathcal{F\{f(t)\}}= F(\omega)$ 
+
 
 
 # Quellen
