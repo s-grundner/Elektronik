@@ -29054,6 +29054,7 @@ Modulen
 Modifizierer
 Makro
 Modulation
+Magnetisches
 June
 Ju
 JI
@@ -42439,6 +42440,7 @@ Freigabe
 Formatspezifizierer
 Funktionsaufruf
 Funktionsdefinition
+Feldzonen
 fließt
 für
 fFOlq

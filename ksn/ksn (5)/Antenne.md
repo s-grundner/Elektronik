@@ -33,7 +33,8 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 >- Ebenso koppelt die Antenne im Empfangsfall die maximale [[Elektrische Leistung|Leistung]] einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
 
 #### Feldkomponenten $\vec{E}$ und $\vec{H}$
-
+$\vec{E}\dots$ [[Elektrisches Feld]]
+$\vec{H}\dots$ Magnetisches Feld
 
 ### Nahfeld und Fernfeld
 
