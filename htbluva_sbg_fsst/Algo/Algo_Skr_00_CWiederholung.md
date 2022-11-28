@@ -54,7 +54,7 @@
 ### Makros
 
 - Präprozessor-Direktive, werden vor der Übersetzung (Kompilierung) des Programms ersetzt (durch den Präprozessor)
-- Kann Parameter beinhalten *#define       MAX(x,y)     (x > y ? x : y)*
+- Kann Parameter beinhalten *\#define       MAX(x,y)     (x > y ? x : y)*
 - Keine Typprüfung in Makros (Nachteil gegenüber inline-Funktionen)
 
 ### Dateizugriff

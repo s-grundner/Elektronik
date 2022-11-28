@@ -17,7 +17,7 @@
 
 ## Symbolische Konstante
 
-K&R-C kennt nur symbolische Konstanten, die mit Hilfe der Präprozessor-Direktive  *#define* definiert werden können.
+K&R-C kennt nur symbolische Konstanten, die mit Hilfe der Präprozessor-Direktive  *\#define* definiert werden können.
 
 ```c
 #define M 100
