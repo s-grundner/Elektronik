@@ -29055,6 +29055,7 @@ Modifizierer
 Makro
 Modulation
 Magnetisches
+Magnetische
 June
 Ju
 JI
@@ -42441,6 +42442,7 @@ Formatspezifizierer
 Funktionsaufruf
 Funktionsdefinition
 Feldzonen
+Feldstärke
 fließt
 für
 fFOlq
