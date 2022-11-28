@@ -9,31 +9,27 @@ created: 22nd November 2022
 
 # Colpitts Oszillator
 Besteht aus Emitter/Basis/Collector Schaltung mit einer Rückkopplung:
-1. kapazitiv
-2. [[Induktivitäten|induktiv]]
-3. transformatorisch
+
+| <mark style="background: #FFB86CA6;">Colpitts:</mark> [[Kanalkapazität\|kapazitiv]] | <mark style="background: #FFB86CA6;">Hartley:</mark> [[Induktivitäten\|induktiv]] | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
+| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![[Pasted image 20221128102513.png]]                                                | ![[Pasted image 20221128102527.png]]                                              | ![[Pasted image 20221128102551.png]]                                                                        |
 
 Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)
 Vorteil: 
 - einfache Kapazitäten
 - nur eine [[Induktivitäten|Induktivität]]
 
-## Rückkopplungsarten
-
-| Colpitts <br> Kapazitiv | Hartley <br> Induktiv | Meissner <br> |
-| ----------------------- | --------------------- | ------------- |
-|                         |                       |               |
-
 ## Schaltung
+![[Pasted image 20221128102638.png]]
 
 
 ## Funktionsweise
-- Emitterschaltung: $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
+- [[Kollektorfolger|Emitterschaltung]]: $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
 - kapazitive 3-Punkt Schaltung bringt weitere $180\degree\rightarrow\sum=360\degree$
 - Barkhausenkriterium its erfüllt
-- Emitterschaltung mit Basisspannugsteiler
+- [[Kollektorfolger|Emitterschaltung]] mit Basisspannugsteiler
 - $R_{E}$ zur Temperaturkompensation
-- RFC (Radio Frequency Choke) dt. Drosselspule
+- RFC ([[Rundfunk|Radio]] Frequency Choke) dt. Drosselspule
 	- hebt den Massebezug des Oszillatorsignal zur Betriebspannung auf
 - Analyse der Schleifenverstärkung bringt ...
 	- ... einerseits $\mathcal{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
@@ -44,6 +40,6 @@ Vorteil:
 
 # Quellen
 ![[Pasted image 20221128095623.png|800]]
-![[Pasted image 20221128095705.png|525]]
+![[Pasted image 20221128095705.png|700]]
 ![[Pasted image 20221128095501.png|500]]
 ![[Pasted image 20221128095752.png|525]]
