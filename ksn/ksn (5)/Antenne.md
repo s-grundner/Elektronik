@@ -36,6 +36,8 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 $\vec{E}\dots$ [[Elektrisches Feld#Elektrische Feldstärke|E-Feldstärke]]
 $\vec{H}\dots$ [[Magnetisches Feld#Magnetische Feldstärke|M-Feldstärke]]
 
+Der Poynting Vektor
+
 Im Fernfeld 
 [[Transversale Elektromagnetische Welle]]
 
