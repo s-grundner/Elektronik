@@ -13357,6 +13357,7 @@ Solarkonstante
 Sonneneinstrahlung
 Schwarzkörperstrahlung
 Stefa
+Sigmoid
 Inverswandler
 Indukitivät
 ID
@@ -35559,6 +35560,7 @@ Casts
 Casten
 Cosinus
 Choke
+Convexity
 Während
 Wx
 Wb
@@ -37885,6 +37887,7 @@ Wolken
 Wolkenentstehung
 Wolkenbildung
 Wind
+Wertebereich
 Einschaltphase
 Eingangsspannung
 Energie
@@ -65187,6 +65190,7 @@ Natürliche
 Normbedingungen
 Niederschlag
 Neues
+Normalisiert
 öffnen
 öi
 öG
