@@ -1,6 +1,6 @@
 ---
-tags: []
-aliases: []
+tags: ["Oszillator"]
+aliases: ["Colpitts"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
@@ -20,12 +20,10 @@ Vorteil:
 - nur eine [[Induktivitäten|Induktivität]]
 Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 
-$$
-V_{ges}=1 \qquad \varphi = 
-$$
-## Schaltung
-![[Pasted image 20221128102638.png]]
+$$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
+## Schaltung
+![[Pasted image 20221128104509.png]]
 
 ## Funktionsweise
 - [[Kollektorfolger|Emitterschaltung]]: $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
@@ -40,10 +38,9 @@ $$
 	- ... andererseits $\frac{C_{2}}{C_{1}}=S\cdot R_{L}$ -> Steilheit $S=\frac{\Delta I_{C}}{\Delta U_{BE}}$
 
 ## Herleitung
-
+### Kapazitive 3-Punktschaltung
+Ein Teil der Schwingkreis Spannung muss phasenrichtig rückgekoppelt werden.
+![[Pasted image 20221128104351.png|500]]
+![[Pasted image 20221128104421.png]]
 
 # Quellen
-![[Pasted image 20221128095623.png|800]]
-![[Pasted image 20221128095705.png|700]]
-![[Pasted image 20221128095501.png|500]]
-![[Pasted image 20221128095752.png|525]]
