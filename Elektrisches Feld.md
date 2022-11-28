@@ -8,7 +8,8 @@ created: 28th November 2022
 ---
 
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
-
+- Ein Elektrisches Feld wird durhc eine stehende Ladung erzeugt
+- ![[Pasted image 20221128111502.png]]
 # Elektrische Feldstärke
 
 

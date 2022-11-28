@@ -30,7 +30,8 @@ $$
 \end{align*}
 $$
 - $\mathcal{F\{f(t)\}}= F(\omega)$ ist das Spektrum von $f(t)$
-- $\mathcal{F\{f(t)\}}= F(\omega)$ 
+
+Bsp.: [[Schwarzkörperstrahlung]]s Spektrum
 
 
 
