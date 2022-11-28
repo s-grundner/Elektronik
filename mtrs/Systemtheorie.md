@@ -16,12 +16,19 @@ Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensitä
 
 
 ## [[Fourier Reihe]] und [[Fourier Transformation]]
+
+$$
+\begin{align*}
+f(\omega) &= \sum\limits_{i=1}^{n}a_{i}\cdot e^{j\omega\cdot t} &&\qquad \text{sofern Phase bekannt (Diskrete Fourierreihe)}\\
+f(\omega) &= \sum\limits_{i=1}^{n}a_{i}\cdot \cos(\omega_{i}\cdot t) &&\qquad \text{sofern Phase irrelevant (Diskrete Cosinusreihe)}
+\end{align*}
+$$
 wenn zeitabhängige funktionen mit zunehmender frequenz nicht konvergieren, kann keine fouriertranformation angewandt werden.
 $$
 \begin{align*}
-f(\omega) &= \sum\limits_{i=1}^{n}a_{i}\cdot e^{j\omega\cdot t} &&\qquad \text{sofern Phase bekannt (DFT)}\\
-f(\omega) &= \sum\limits_{i=1}^{n}a_{i}\cdot \cos(\omega_{i}\cdot t) &&\qquad \text{sofern Phase irrelevant (DCT)}
+\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt && t \in \mathbb{R}\qquad 
 \end{align*}
 $$
+
 
 # Quellen

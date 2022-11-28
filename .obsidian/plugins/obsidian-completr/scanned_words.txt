@@ -6592,6 +6592,7 @@ struct
 sehen
 später
 sofern
+sagt
 reference
 rc
 rCs
@@ -8629,6 +8630,7 @@ reJ
 rlm
 ratenden
 rein
+reellen
 created
 cU
 cc
@@ -13307,6 +13309,8 @@ Später
 Sinn
 Schleifenverstärkung
 Steilheit
+Sinusschwingungen
+Schreibweisen
 Inverswandler
 Indukitivät
 ID
@@ -17881,6 +17885,7 @@ Teilstring
 Typprüfung
 Typprüfungen
 Temperaturkompensation
+Transformierte
 Der
 Diode
 Dabei
@@ -42454,6 +42459,8 @@ Funktionsdefinition
 Feldzonen
 Feldstärke
 Frequency
+Folgende
+Fouriertransformation
 fließt
 für
 fFOlq
@@ -44686,6 +44693,7 @@ frequenzen
 überschreiben
 überladene
 überholt
+üblich
 weiter
 wird
 wo
@@ -49356,6 +49364,7 @@ unbemerkt
 unbedingt
 ungültig
 unbeabsichtigter
+unendlich
 lädt
 liegt
 leifert
@@ -55851,6 +55860,7 @@ bEISPIELSTRING
 besser
 bevorzugen
 beginnend
+besprechenden
 in
 ihr
 iz
@@ -60593,6 +60603,7 @@ Zumindest
 Zuweisung
 Zugehörigkeit
 Zwecke
+Zeitfunktion
 Verbraucher
 VuuV
 VU
@@ -67198,6 +67209,7 @@ vorangestellt
 veränderbar
 verzichtet
 verwendete
+vieler
 jetzt
 jv
 ji
@@ -82831,6 +82843,7 @@ Rückgabetyp
 Referenzhandbuch
 Rückkopplungsarten
 Radio
+Rücktransformation
 XRef
 XTG
 XW
@@ -89453,6 +89466,7 @@ private
 printf
 package
 phase
+periodischen
 hY
 hK
 ha
@@ -91570,6 +91584,7 @@ hilfreiche
 hex
 hinten
 hebt
+harmonischen
 xI
 xj
 xA
@@ -98277,6 +98292,7 @@ klassischen
 keinerlei
 konvergieren
 kapazitive
+komplexe
 qB
 qo
 qg
@@ -111492,6 +111508,7 @@ Operator
 Oktalformat
 Organisationsstruktur
 Oszillatorsignal
+Original
 mu
 mR
 ma
