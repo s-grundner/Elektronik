@@ -6,7 +6,7 @@ created: 19th August 2022
 ---
 # Map of Topics - Matura
 
-## [[{MOT} Chemie|Chemie]] (RDP)
+## [[chemie/README|Chemie]] (RDP)
 ### 1. [[Grundlagen  der Chemie|Allgemein]] und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
  - [[Elektrochemie]]
  - [[Katalyse]]
@@ -31,7 +31,7 @@ created: 19th August 2022
 
 ### Struber Leaks
 ### Zusammenfassung 5c 
-![[5c-matura-sum.pdf]]
+![[chemie/assets/5c-matura-sum.pdf]]
 
 ## Physik (RDP)
 ### 4. Energie und ihre Bedeutung in Technik, Umwelt und Gesellschaft
