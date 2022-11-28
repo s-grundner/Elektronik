@@ -19,7 +19,8 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 - Die Antenne erzeugt ein Wellenfeld (Freiraumwelle), welches [[Elektrische Leistung|Leistung]] von der Antenne fortführt (a).
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
-> ![[Pasted image 20221124144534.png]]
+>[!summary] Sende- & Empfangsfall
+>![[Pasted image 20221124144534.png]]
 
 > [!info] Der Sende- und Empfangsfall sind reziprok.
 
@@ -40,6 +41,8 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
+
+>[!summary] Feldzonen
 >![[Ant_feldzonen.png]]
 
 #### Vereinfachungen beim Übergang vom Nah- ins Fernfeld:
