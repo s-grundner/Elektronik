@@ -12,4 +12,6 @@ Häufiger als Zeitabhängige Funktionen sind Frequenzabhängige Funktionen -> [[
 
 Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensität her verändern -> Ein System lässt sich nur im Eingeschwngen Zustand beschreiben: [[Übertragungsfunktion]] nur im eingeschwungenen Zustand.
 
+
+
 # Quellen
