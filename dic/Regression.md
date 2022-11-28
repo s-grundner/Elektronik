@@ -22,7 +22,7 @@ $$
 ## Sigmoid funktion
 Die Sigmoid Funktion ist eine Funktion, welche den Wertebereich Normalisiert.
 
-![[Pasted image 20221128115150.png]]
+![[sigmoid.png]]
 
 
 # Quellen#

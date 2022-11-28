@@ -23,7 +23,7 @@ Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Sch
 $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ## Schaltung
-![[Pasted image 20221128104509.png]]
+![[colp-sch.png]]
 
 ## Funktionsweise
 - [[Kollektorfolger|Emitterschaltung]]: $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
