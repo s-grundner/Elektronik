@@ -4340,6 +4340,9 @@ aussieht
 abgestrahlte
 abgeflossene
 aufsteigenden
+ausrechenn
+aurechnen
+ausrechnen
 subject
 source
 so
@@ -17938,6 +17941,8 @@ Treibhausgasen
 Troposphäre
 Transport
 Tiefdruckgebiete
+Teststoff
+Thata
 Der
 Diode
 Dabei
@@ -22279,6 +22284,7 @@ neuem
 nahezu
 neben
 negative
+normaler
 dem
 der
 des
@@ -24528,6 +24534,7 @@ dringen
 dehnen
 dünnere
 durhc
+datenpunkten
 geschlossen
 geschlossenen
 gespeicherten
@@ -26692,6 +26699,7 @@ global
 gemittelte
 geringere
 gleichmäßig
+geradengleichung
 Mindestlaststrom
 Ma
 Mt
@@ -47122,6 +47130,7 @@ wichtiger
 while
 warmer
 warum
+wert
 und
 uY
 uo
@@ -53855,6 +53864,9 @@ Komplettes
 Klima
 Kubikmeter
 Konsequenzen
+Kosten
+Klassifiziereung
+Kein
 bzw
 bbd
 bg
@@ -65174,6 +65186,7 @@ Namensräumen
 Natürliche
 Normbedingungen
 Niederschlag
+Neues
 öffnen
 öi
 öG
@@ -80642,6 +80655,8 @@ elektromagnetische
 erwärmen
 erwärmte
 entstandene
+entscheidungsgrenze
+einzeichnen
 Root
 RY
 RJH
@@ -89600,6 +89615,7 @@ phase
 periodischen
 plancksche
 proportional
+punkt
 hY
 hK
 ha
@@ -114004,6 +114020,7 @@ manipulieren
 myval
 mögliche
 meist
+mtrixmultiplikation
 AI
 Ay
 Aoha
@@ -117941,6 +117958,8 @@ Atembereich
 Absorptionsvermögen
 Abkühlung
 Anhöhen
+Ausrechnen
+Algebra
 ÖgLk
 ÖW
 ÖP

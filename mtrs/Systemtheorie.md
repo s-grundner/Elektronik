@@ -38,12 +38,12 @@ Bsp.: [[Schwarzkörperstrahlung|Stefan-Boltzmann]] Spektrum
 ## [[Laplace Transformation]]
 $$
 \begin{align*}
-F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt && s = \delta+j\omega\\
+\mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} = F(\omega)\\
+F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt\\
+F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot e^{-(\delta+j\omega)t} dt\qquad s = \delta+j\omega\\
 F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
-\mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} && f(t) = 0 \forall t<0
+
 \end{align*}
 $$
-
-
 
 # Quellen

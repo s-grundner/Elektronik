@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["ML"]
 subject: ["dic"]
 source: ["Robert Vogl"]
 reference: []
@@ -8,27 +8,6 @@ created: 24th October 2022
 ---
 
 # Machine Learning
-## Cost function
-### Linear Regression
-$$
-\begin{align*}
-X &= 
-\begin{pmatrix}
-1 & 1\\
-5 & 8
-\end{pmatrix}\\
-h_{\theta}(x) &= \theta_{0}+\theta_{1}\cdot x_{1}+\theta_{2}\cdot x_{2}+\theta_{3}\cdot x_{3}+\theta_{4}\cdot x_{4}\\
-&= \Theta' \cdot X_{(n)}\\
-J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})\\\\
-Cost (h_{\theta}(x), y) &=
-\begin{cases}
--\log(h_{\theta}(x^{(n)}))\cdot y^{(i)}\\
--\log(1-h_{\theta}(x^{(n)}))
-\end{cases}
-\end{align*}
-$$
-
-
 
 ```functionplot
 ---
@@ -61,7 +40,7 @@ $$
 	\Theta\dots 3\times1\\
 \begin{array}{cll}\\\\
 & \begin{pmatrix}
-	1 &&&& 2 & 3
+	1 & 2 & 3
 \end{pmatrix}\\
 \left.\begin{pmatrix}
 	1 & 94 & 72\\
@@ -142,13 +121,13 @@ J = sum(E.^2);
 # Quellen
 
 >[!info] Teststoff
-> ### Regression
+> ### [[Regression]]
 >anhand von datenpunkten einen $y$ wert ausrechenn
 >Kosten $J$ aurechnen
 >Neue $\theta$ Ausrechnen
 >### Klassifiziereung
 >entscheidungsgrenze einzeichnen durch Thata (geradengleichung)
->Bei einem neuen punkt die WSK ausrechnen, ob der neue punkt in der Klasse y=1 ist
+>Bei einem neuen punkt die [[Wahrscheinlichkeit|WSK]] ausrechnen, ob der neue punkt in der Klasse y=1 ist
 >Kosten $J$ Ausrechnen
 >Kein Neues $\theta$
 >Als mtrixmultiplikation und mit normaler Algebra ausrechnen
