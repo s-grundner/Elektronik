@@ -8,7 +8,7 @@ created: 11th May 2022
 ---
 
 # Voltage-Mode-Regelung
-![[Untitled Diagram 3.svg]]
+![[hwe/assets/Untitled Diagram 3.svg]]
 $U_{a}$ wird über einen Spannungsteiler wird über einen 
 Der Impulsbreitenmodulator wandelt die Ausgansspannung $U_{R}$ des [[PI-Regler]] in eine Pulsweitenmodulierte Spannung $U_{st}$ um.
 

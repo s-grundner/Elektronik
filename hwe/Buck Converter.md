@@ -135,7 +135,7 @@ Die erzeugung von $U_{steuer}$ erfolg mit einem Pulsbreiten modulator und mit ei
 >![[bsb.svg]]
 
 ### Funktionsweise des Impulsbreitenmodulators
->![[Untitled Diagram 1.svg]]
+>![[hwe/assets/Untitled Diagram 1.svg]]
 
 Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([[Metall-Oxid-Halbleiter-Feldeffekttransistor|MOSFET]] + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte [[Voltage-Mode-Regelung]]. 
 
