@@ -9,18 +9,15 @@ created: 24th October 2022
 
 # Machine Learning
 ## Cost Function
-
+$X\dots 100\times3$
+$\Theta\dots 3\times1$
 $$
 \begin{align*}
-X\dots 100&\times3\\
-\Theta\dots 3&\times1\\
-\Theta'&\times X\\
-h_{\theta}(x) &= \theta_{0}+\theta_{1}\cdot x_{1}+\theta_{2}\cdot x_{2}+\theta_{3}\cdot x_{3}+\theta_{4}\cdot x_{4}\\
-&= \Theta' \cdot X_{(n)}\\
+h_{\theta}(x) &= \Theta' \cdot X_{(n)}\\
+&= \theta_{0}+\theta_{1}\cdot x_{1}+\theta_{2}\cdot x_{2}+\theta_{3}\cdot x_{3}+\theta_{4}\cdot x_{4}\\
 J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})
 \end{align*}
 $$
-
 $$
 \begin{align*}
 \begin{array}{cll}\\
