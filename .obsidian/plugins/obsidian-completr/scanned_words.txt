@@ -73810,6 +73810,7 @@ Hauptprogramm
 Häufig
 Hexadezimalformat
 Hinten
+Hartley
 obj
 oy
 oi
@@ -82814,6 +82815,7 @@ Reference
 Resolution
 Rückgabetyp
 Referenzhandbuch
+Rückkopplungsarten
 XRef
 XTG
 XW

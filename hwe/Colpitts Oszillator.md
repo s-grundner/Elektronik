@@ -18,7 +18,25 @@ Vorteil:
 - einfache Kapazitäten
 - nur eine [[Induktivitäten|Induktivität]]
 
+## Rückkopplungsarten
+
+| Colpitts | Hartley |     |
+| -------- | ------- | --- |
+
 ## Schaltung
+
+
+## Funktionsweise
+- Emitterschaltung: $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
+- kapazitive 3-Punkt Schaltung bringt weitere $180\degree\rightarrow\sum=360\degree$
+- Barkhausenkriterium its erfüllt
+  
+- Emitterschaltung mit Basisspannugsteiler
+- $R_{E}$ zur Temperaturkompensation
+- RFC (Radio Frequency Choke) dt. Drosselspule
+	- hebt den Massebezug des Oszillatorsignal 
+
+## Herleitung
 
 
 # Quellen
