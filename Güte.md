@@ -23,11 +23,11 @@ $$
 title: 
 xLabel: 
 yLabel: 
-bounds: [-4,4,-4,4]
+bounds: [-900,900,-90,90]
 disableZoom: false
 grid: true
 ---
-y(x)=1/(1+2.71^(-x))
+y(x)=180*(1/(1+2.71^(-(x/180)+5))-0.5)
 ```
 
 # Tags

@@ -5620,6 +5620,7 @@ apvBe
 aDHh
 aDLrZ
 att
+ausgrprägt
 subject
 source
 so
@@ -11257,6 +11258,7 @@ rTG
 rMU
 rdV
 rückgekoppelt
+resonanzverhalten
 created
 cU
 cc
@@ -43234,6 +43236,7 @@ Bfx
 BAW
 Boi
 BQt
+Beschreibt
 Converter
 Columns
 CE
@@ -80964,6 +80967,7 @@ VEAV
 VaN
 VtL
 VSEO
+Verhältnis
 Nach
 Ngm
 NN
@@ -106580,6 +106584,7 @@ RVLJ
 RKR
 Rin
 Rwc
+Resonanz
 XRef
 XTG
 XW
@@ -140409,6 +140414,8 @@ GGJ
 GuGkc
 GJMR
 GSB
+Güte
+Gesamtspannung
 Oc
 OB
 OJ
