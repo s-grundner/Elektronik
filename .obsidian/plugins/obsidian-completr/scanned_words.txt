@@ -28859,6 +28859,7 @@ nmv
 nHv
 nre
 nZGB
+negativ
 dem
 der
 des
@@ -51940,6 +51941,7 @@ EAH
 Emb
 EdM
 Entladungsvorgang
+Entladevorgang
 Fällt
 Filter
 FlateDecode
@@ -94978,6 +94980,7 @@ HyC
 HaRT
 HhW
 HEeV
+Herleitungen
 obj
 oy
 oi
@@ -100415,6 +100418,7 @@ LkYih
 LwI
 Ldb
 Ladungsvorgang
+Ladevorgang
 endobj
 ey
 endstream
@@ -103482,6 +103486,7 @@ eäh
 eaCF
 eAU
 erscheint
+entlädt
 Root
 RY
 RJH
