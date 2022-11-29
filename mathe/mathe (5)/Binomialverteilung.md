@@ -55,4 +55,13 @@ title: ![[Pasted image 20221122112926.png|725]]
 
 ```
 
+## unbekanntes $n$
+
+Bsp.:
+- Fluglinie überbucht Flüge (200 Sitze)
+- WSK, dass ein gebuchter Passagier erscheint, $p=0.93$
+
+Wie viele Tickets kann man verkaufen, sodass mit $WSK=0.9$ der Flug nicht überbucht ist?
+$P(x\leq200)=P(x=0)+P(x=1)+\dots+$
+
 # Quellen
