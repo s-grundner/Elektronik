@@ -2701,6 +2701,7 @@ toh
 thh
 til
 tBd
+theoretische
 aliases
 arbeiter
 an
@@ -5622,6 +5623,7 @@ aDLrZ
 att
 ausgrprägt
 ausprobieren
+abstrahlt
 subject
 source
 so
@@ -17230,6 +17232,8 @@ SGDF
 Schwingt
 Schlefe
 Sitze
+Strahlungsdichte
+Strahlungsleistungsdichte
 Inverswandler
 Indukitivät
 ID
@@ -20272,6 +20276,8 @@ IfxxQ
 IZn
 IbRBIb
 Imaginärteil
+Isotroper
+Isotrope
 Tags
 Transistor
 Teil
@@ -23223,6 +23229,7 @@ TdL
 Tle
 TdTZ
 Tickets
+Teams
 Der
 Diode
 Dabei
@@ -34554,6 +34561,7 @@ github
 grundner
 gebuchter
 gegebener
+gleichmäßiges
 Mindestlaststrom
 Ma
 Mt
@@ -48849,6 +48857,7 @@ Wph
 WYYr
 WzX
 WPxe
+Winkeln
 Einschaltphase
 Eingangsspannung
 Energie
@@ -69220,6 +69229,9 @@ KZUC
 KtBS
 Kvs
 Kapazitive
+Kugelstrahler
+Kugelstrahlers
+Kugeloberfläche
 bzw
 bbd
 bg
@@ -74999,6 +75011,7 @@ irG
 imAq
 ibj
 iWq
+isotropen
 ZTL
 ZX
 Zw
@@ -86545,6 +86558,7 @@ vLhD
 vju
 vgH
 verkaufen
+verteilt
 jetzt
 jv
 ji
@@ -106610,6 +106624,7 @@ Rin
 Rwc
 Resonanz
 Realteil
+Richtungen
 XRef
 XTG
 XW
@@ -134696,6 +134711,7 @@ zHcs
 zKWh
 zHg
 zfC
+zugeführten
 Qu
 QCQ
 QlFq
