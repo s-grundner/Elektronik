@@ -74,7 +74,7 @@ $n=210$
 ````ad-example
 title: Bsp
 $n=6\qquad p=0.4$
-bei welchem $k$ gilt $P(x\leq)$
+bei welchem $k$ gilt $P(x\leq k)>0.6$
 ````
 
 # Quellen
