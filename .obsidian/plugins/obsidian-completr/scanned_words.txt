@@ -11256,6 +11256,7 @@ rud
 rTG
 rMU
 rdV
+rückgekoppelt
 created
 cU
 cc
@@ -17222,6 +17223,8 @@ Sag
 SeB
 SDx
 SGDF
+Schwingt
+Schlefe
 Inverswandler
 Indukitivät
 ID
@@ -69197,6 +69200,7 @@ KhQLZ
 KZUC
 KtBS
 Kvs
+Kapazitive
 bzw
 bbd
 bg
@@ -92262,6 +92266,8 @@ PSN
 PCsl
 PQIb
 PpBl
+Phasendrehung
+Punktschaltung
 Herleitung
 Hy
 HE
@@ -115078,6 +115084,7 @@ pUm
 pLu
 pBe
 pnl
+phasenrichtig
 hY
 hK
 ha
