@@ -20271,6 +20271,7 @@ ILjc
 IfxxQ
 IZn
 IbRBIb
+Imaginärteil
 Tags
 Transistor
 Teil
@@ -31793,6 +31794,7 @@ dtm
 dOk
 dnRt
 dNHv
+diagramm
 geschlossen
 geschlossenen
 gespeicherten
@@ -51937,6 +51939,7 @@ Ebr
 EAH
 Emb
 EdM
+Entladungsvorgang
 Fällt
 Filter
 FlateDecode
@@ -100411,6 +100414,7 @@ LjaRb
 LkYih
 LwI
 Ldb
+Ladungsvorgang
 endobj
 ey
 endstream
@@ -106600,6 +106604,7 @@ RKR
 Rin
 Rwc
 Resonanz
+Realteil
 XRef
 XTG
 XW
@@ -140432,6 +140437,7 @@ GJMR
 GSB
 Güte
 Gesamtspannung
+Gleich
 Oc
 OB
 OJ

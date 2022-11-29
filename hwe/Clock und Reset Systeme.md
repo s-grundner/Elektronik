@@ -42,3 +42,5 @@ Aussagen aus dem Barkhausenkriterium
 
 
 # Quellen
+#incomplete 
+Teams -> Skriptum
