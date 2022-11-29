@@ -18,16 +18,17 @@ $$
 \end{align*}
 $$
 
+
 ```functionplot
 ---
 title: 
 xLabel: 
 yLabel: 
-bounds: [-900,900,-90,90]
+bounds: [0,2000,-90,90]
 disableZoom: false
 grid: true
 ---
-y(x)=180*(1/(1+2.71^(-(x/180)+5))-0.5)
+y(x)=180*(1/(1+2.71^(-(x/180)+5.555))-0.5)
 ```
 
 # Tags
