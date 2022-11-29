@@ -18,12 +18,12 @@ $$
 \end{align*}
 $$
 
-
+## Phase
 ```functionplot
 ---
-title: 
-xLabel: 
-yLabel: 
+title: Phase
+xLabel: omega
+yLabel: phi(omega)
 bounds: [0,2000,-90,90]
 disableZoom: false
 grid: true
