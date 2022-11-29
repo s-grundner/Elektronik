@@ -43,4 +43,4 @@ Ein Teil der Schwingkreis Spannung muss phasenrichtig rückgekoppelt werden.
 ![[Pasted image 20221128104351.png|500]]
 ![[Pasted image 20221128104421.png]]
 
-# Quellen
+# Rechenbeispiele
