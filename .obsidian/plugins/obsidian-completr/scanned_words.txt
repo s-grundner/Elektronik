@@ -17227,6 +17227,7 @@ SDx
 SGDF
 Schwingt
 Schlefe
+Sitze
 Inverswandler
 Indukitivät
 ID
@@ -23218,6 +23219,7 @@ TTk
 TdL
 Tle
 TdTZ
+Tickets
 Der
 Diode
 Dabei
@@ -34545,6 +34547,7 @@ glyEH
 gXBs
 github
 grundner
+gebuchter
 Mindestlaststrom
 Ma
 Mt
@@ -54840,6 +54843,9 @@ FLrx
 FpY
 FNnb
 FGu
+Flug
+Fluglinie
+Flüge
 fließt
 für
 fFOlq
@@ -57759,6 +57765,7 @@ fFM
 üth
 üLn
 übv
+überbucht
 weiter
 wird
 wo
@@ -63577,6 +63584,7 @@ uBr
 utSC
 uwu
 uQvYWV
+unbekanntes
 lädt
 liegt
 leifert
@@ -86527,6 +86535,7 @@ vSk
 vLhD
 vju
 vgH
+verkaufen
 jetzt
 jv
 ji
@@ -92272,6 +92281,7 @@ PQIb
 PpBl
 Phasendrehung
 Punktschaltung
+Passagier
 Herleitung
 Hy
 HE
@@ -103463,6 +103473,7 @@ eDzbi
 eäh
 eaCF
 eAU
+erscheint
 Root
 RY
 RJH

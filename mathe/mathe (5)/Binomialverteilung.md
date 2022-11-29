@@ -56,12 +56,25 @@ title: ![[Pasted image 20221122112926.png|725]]
 ```
 
 ## unbekanntes $n$
-
-Bsp.:
+````ad-example
+title: Wie viele Tickets kann man verkaufen, sodass mit $WSK=0.9$ der Flug nicht überbucht ist? 
 - Fluglinie überbucht Flüge (200 Sitze)
 - WSK, dass ein gebuchter Passagier erscheint, $p=0.93$
 
-Wie viele Tickets kann man verkaufen, sodass mit $WSK=0.9$ der Flug nicht überbucht ist?
-$P(x\leq200)=P(x=0)+P(x=1)+\dots+$
+$P(x\leq200)=P(x=0)+P(x=1)+\dots+P(x=200)\geq 0.9$
+
+```ad-success
+title: Lösung
+ausprobieren mit Taschenrechner: binomial CD kumulierte Binomialverteilung
+$n=210$
+```
+````
+
+## unbekanntes $k$ bei gegebener $WSK$
+````ad-example
+title: Bsp
+$n=6\qquad p=0.4$
+bei welchem $k$ gilt $P(x\leq)$
+````
 
 # Quellen
