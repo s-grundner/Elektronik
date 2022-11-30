@@ -17,16 +17,17 @@ $$p=P(A)$$
 Dann ist $X$ binomialverteilt mit den Parametern $n\&p$
 $$
 \begin{align*}
-P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\\\
-E(X)&=n\cdot p\\
-\sigma(X)&=\sqrt{n\cdot p\cdot(1-p)}&&\text{Standardabweichung}
+P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\
 \end{align*}
 $$
-## Varianz
+## Varianz $V(X)$
 Die Varianz ist die durchschnittliche Abweichung (Streuung)
 $V(X)=n\cdot p\cdot(1-p)$
 
+## Erwartungswert $E(X)$
+$E(X)=n\cdot p$
 
+## [[Standardabweichung]]
 # Würfeln mit einem Würfel
 - Entweder 6 oder nicht 6
 - 4 Versuche

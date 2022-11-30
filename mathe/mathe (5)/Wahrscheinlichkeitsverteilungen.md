@@ -1,6 +1,6 @@
 ---
 tags: ["Wahrscheinlichkeit"]
-aliases: ["Wahrscheinlichkeitsverteilungen"]
+aliases: ["Wahrscheinlichkeitsverteilung"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []

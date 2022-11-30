@@ -48858,6 +48858,8 @@ WYYr
 WzX
 WPxe
 Winkeln
+Wahrscheinlichkeitsverteilungen
+Wahrscheinlichkeitsdichte
 Einschaltphase
 Eingangsspannung
 Energie
@@ -80998,6 +81000,7 @@ VaN
 VtL
 VSEO
 Verhältnis
+Varianz
 Nach
 Ngm
 NN
