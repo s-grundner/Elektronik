@@ -23,6 +23,7 @@ winget install --id Git.Git -e --source winget
 ```
 
 ## Disclaimer: Ohne 🔫
+Aufgrund der Evergreen Philosophie dieser Zusammentragung an Lehrmaterial, kann es durchaus provisorische bzw. unvollständige Dateien geben.
 
 Ohne Push-Berechtigung sind Folgende Einstellungen(`Ctrl+,`) des Obsidian Git Plugins empfohlen:
 
