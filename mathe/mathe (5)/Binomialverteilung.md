@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["Binom"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []
