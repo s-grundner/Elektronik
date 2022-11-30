@@ -7,7 +7,7 @@ reference: []
 created: 16th November 2022
 ---
 
-# Binomialverteilung
+# Binomialverteilung $P(X)$
 
 - Bei einem Zufallsexperiment gibt es nur $2$ Ergebnisse: $A$ oder $\neg{A}$
 - Es werden $n$ gleichartigen Versuche durchgeführt.
@@ -19,12 +19,15 @@ $$
 \begin{align*}
 P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\\\
 E(X)&=n\cdot p\\
-V(X)&=n\cdot p\cdot(1-p)&& \text{Varianz}\\
 \sigma(X)&=\sqrt{n\cdot p\cdot(1-p)}&&\text{Standardabweichung}
 \end{align*}
 $$
+## Varianz
+Die Varianz ist die durchschnittliche Abweichung (Streuung)
+$V(X)=n\cdot p\cdot(1-p)$
 
-## Würfeln mit einem Würfel
+
+# Würfeln mit einem Würfel
 - Entweder 6 oder nicht 6
 - 4 Versuche
 - 6er bei einem Würfel

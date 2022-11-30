@@ -7,7 +7,7 @@ reference: []
 created: 30th November 2022
 ---
 
-# Wahrscheinlichkeitsverteilung
+# Wahrscheinlichkeitsverteilungen
 
 $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
@@ -25,31 +25,10 @@ P(5)&= \binom{5}{5}0.3^{5}\\
 \end{align*}
 $$
 
+Wahrscheinlichkeitsdichte
 
-```functionplot
----
-title: 
-xLabel: C
-yLabel: P(X)
-bounds: [0,5,0,5]
-disableZoom: tru
-grid: true
----
+Wahrscheinlichkeitsverteilung
 
-```
-
-
-```functionplot
----
-title: Wahrscheinlichkeitsverteilung
-xLabel: X
-yLabel: G(X)
-bounds: [0,5,0,1.2]
-disableZoom: true
-grid: true
----
-f(x) =1
-```
 
 
 # Tags
