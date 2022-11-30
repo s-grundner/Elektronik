@@ -10,19 +10,4 @@ created: 18th November 2022
 
 
 # Logistic Regression
-$$
-\begin{align*}
-Cost (h_{\theta}(x), y) &=
-\begin{cases}
--\log(h_{\theta}(x^{(n)}))\cdot y^{(i)}\\
--\log(1-h_{\theta}(x^{(n)}))
-\end{cases}
-\end{align*}
-$$
-## Sigmoid funktion
-Die Sigmoid Funktion ist eine Funktion, welche den Wertebereich Normalisiert.
-
-![[sigmoid.png]]
-
-
 # Quellen#
