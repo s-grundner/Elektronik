@@ -9,37 +9,33 @@ created: 24th October 2022
 
 # Machine Learning
 ## [[Regression]]
+
+```functionplot
+---
+title: Nicht konvexe Kostenfunktion
+xLabel: 
+yLabel: 
+bounds: [0,12,0,7]
+disableZoom: false
+grid: true
+---
+y=0.2*sin(10x)+(1/10)*(x-7)^2
+```
+
+man findet das Globale minimum sehr schwer
+
 ## [[ML Klassifizierung|Klassifizierung]]
-## Cost Function
-## Convexity
-
 ```functionplot
 ---
-title: non-convex function
+title: Konvexe Kostenfunktion
 xLabel: 
 yLabel: 
 bounds: [0,12,0,7]
 disableZoom: true
 grid: true
 ---
-y=0.2*sin(10x)-(log(x))+4
+y=(1/10)*(x-7)^2
 ```
-
-
-```functionplot
----
-title: convex function
-xLabel: 
-yLabel: 
-bounds: [0,12,0,7]
-disableZoom: true
-grid: true
----
-y=-(log(x))+4
-```
-
-
-
 
 # Matlab Simulations
 ````ad-example
