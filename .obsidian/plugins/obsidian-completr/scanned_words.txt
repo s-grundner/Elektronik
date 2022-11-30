@@ -11263,6 +11263,7 @@ rMU
 rdV
 rückgekoppelt
 resonanzverhalten
+renderPlotly
 created
 cU
 cc
@@ -28867,6 +28868,7 @@ nHv
 nre
 nZGB
 negativ
+newPlot
 dem
 der
 des
@@ -60681,6 +60683,7 @@ wQz
 wVE
 wvUs
 wet
+window
 und
 uY
 uo
@@ -92308,6 +92311,7 @@ PpBl
 Phasendrehung
 Punktschaltung
 Passagier
+Plotly
 Herleitung
 Hy
 HE

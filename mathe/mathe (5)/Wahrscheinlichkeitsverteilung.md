@@ -27,9 +27,10 @@ $$
 
 
 Wahrscheinlichkeitsdichte
+(graph)
 
 Wahrscheinlichkeitsverteilung
-
+(graph)
 
 
 # Tags
