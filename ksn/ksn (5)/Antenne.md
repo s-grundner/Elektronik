@@ -20,7 +20,7 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
 >[!summary] Sende- & Empfangsfall
->![[Pasted image 20221124144534.png]]
+>![[Pasted image 20221124144534.png|550]]
 
 > [!info] Der Sende- und Empfangsfall sind reziprok.
 
@@ -47,7 +47,7 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 
 
 >[!summary] Feldzonen
->![[Ant_feldzonen.png]]
+>![[Ant_feldzonen.png|700]]
 
 #### Vereinfachungen beim Übergang vom Nah- ins Fernfeld:
 - Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
