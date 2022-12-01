@@ -50,7 +50,7 @@ $$
 #### Lösung
 $$
 \begin{align*}
-u_{c}(t)= \underbrace{\underbrace{(C_{1}+C_{2})}_{\tilde{C_{1}}}\cdot\cos(\omega t)}_{\matha{Re}}
+u_{c}(t)= \underbrace{\underbrace{(C_{1}+C_{2})}_{\tilde{C_{1}}}\cdot\cos(\omega t)}_{\mathcal{Re}} + j \underbrace{\underbrace{(C_{1}-C_{2})}_{\tilde{C_{2}}}\cdot\sin(\omega t)}_{\mathcal{Im}}
 \end{align*}
 $$
 
@@ -58,6 +58,15 @@ $$
 > Sowohl Real, als auch Imaginärteil sind Lösungen der Differentailgleichung
 > Das erkennt man durch Einsetzen
 > Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
+
+![[Pasted image 20221201121517.png]]
+$$
+\begin{align*}
+u_{c}(t)&= \tilde{C_{1}}\cdot\cos(\omega t)+\tilde{C_{2}}\sin(\omega t)\\
+&= A\cdot\sin(\omega t+\varphi)\\
+\tan(\varphi)&= \frac{\tilde{C_{2}}}{\tilde{C_{1}}}
+\end{align*}
+$$
 
 - Damit die Schaltung ein [[Schwingkreise|Selbstschwingendes]] System sein kann, muss der [[Schwingkreise#Freie Schwingungen im realen Serienschwingkreis|Störterm]] $0$ sein (Selbsterregt) und ein [[lineare DGL 2. Ordnung#3 Fall konjugiert Komplexe Zahlen komplexe Lösungen\|Schwingfall]] ($\delta<\omega_{0}$)
 
