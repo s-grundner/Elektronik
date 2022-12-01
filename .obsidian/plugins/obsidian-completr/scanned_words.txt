@@ -5625,6 +5625,7 @@ att
 ausgrprägt
 ausprobieren
 abstrahlt
+ansteuert
 subject
 source
 so
@@ -17237,6 +17238,7 @@ Schlefe
 Sitze
 Strahlungsdichte
 Strahlungsleistungsdichte
+Stäbe
 Inverswandler
 Indukitivät
 ID
@@ -26119,6 +26121,7 @@ DFbW
 DCd
 DjVT
 Dkk
+Drahtantennen
 nach
 nur
 nD
@@ -31810,6 +31813,7 @@ diagramm
 dfrac
 dots
 ddots
+destruktive
 geschlossen
 geschlossenen
 gespeicherten
@@ -34569,6 +34573,7 @@ grundner
 gebuchter
 gegebener
 gleichmäßiges
+geschwenkt
 Mindestlaststrom
 Ma
 Mt
@@ -51958,6 +51963,8 @@ Emb
 EdM
 Entladungsvorgang
 Entladevorgang
+Einzenle
+Erreger
 Fällt
 Filter
 FlateDecode
@@ -54870,6 +54877,7 @@ FGu
 Flug
 Fluglinie
 Flüge
+Fringing
 fließt
 für
 fFOlq
@@ -69239,6 +69247,7 @@ Kapazitive
 Kugelstrahler
 Kugelstrahlers
 Kugeloberfläche
+Keule
 bzw
 bbd
 bg
@@ -75019,6 +75028,7 @@ imAq
 ibj
 iWq
 isotropen
+inteferenz
 ZTL
 ZX
 Zw
@@ -86567,6 +86577,7 @@ vgH
 verkaufen
 verteilt
 vdots
+visuarisiert
 jetzt
 jv
 ji
@@ -92315,6 +92326,7 @@ Phasendrehung
 Punktschaltung
 Passagier
 PLTEOONkkj
+Phaseverschoben
 Herleitung
 Hy
 HE
@@ -95005,6 +95017,7 @@ HaRT
 HhW
 HEeV
 Herleitungen
+Hertzscher
 obj
 oy
 oi
@@ -103511,6 +103524,7 @@ eaCF
 eAU
 erscheint
 entlädt
+erreger
 Root
 RY
 RJH
@@ -106635,6 +106649,8 @@ Rwc
 Resonanz
 Realteil
 Richtungen
+Richtantennen
+Randfeld
 XRef
 XTG
 XW
@@ -126418,6 +126434,7 @@ kHt
 kBb
 kYRz
 kumulierte
+konstruktive
 qB
 qo
 qg
@@ -137659,6 +137676,9 @@ QFsJ
 QYWdO
 QaV
 QrZu
+QcycggWU
+Quadratur
+QAM
 Gd
 GU
 GC
@@ -140472,6 +140492,7 @@ GSB
 Güte
 Gesamtspannung
 Gleich
+Gleider
 Oc
 OB
 OJ
@@ -150869,6 +150890,7 @@ AoB
 Aag
 AfVT
 AFi
+Antennenbauformen
 ÖgLk
 ÖW
 ÖP
