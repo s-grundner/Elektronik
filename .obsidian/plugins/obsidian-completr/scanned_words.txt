@@ -5628,6 +5628,7 @@ ausgrprägt
 ausprobieren
 abstrahlt
 argument
+ansteuert
 subject
 source
 so
@@ -17262,6 +17263,7 @@ Schlefe
 Sitze
 Strahlungsdichte
 Strahlungsleistungsdichte
+Stäbe
 Inverswandler
 Indukitivät
 ID
@@ -92369,6 +92371,7 @@ Phasendrehung
 Punktschaltung
 Passagier
 Plotly
+Phaseverschoben
 Herleitung
 Hy
 HE
@@ -103573,6 +103576,7 @@ errors
 expression
 encode
 escape
+erreger
 Root
 RY
 RJH
@@ -106700,6 +106704,7 @@ Richtungen
 Replaces
 Reduce
 Remove
+Richtantennen
 XRef
 XTG
 XW
@@ -140545,6 +140550,7 @@ Güte
 Gesamtspannung
 Gleich
 Globale
+Gleider
 Oc
 OB
 OJ
