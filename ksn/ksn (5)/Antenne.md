@@ -67,14 +67,15 @@ Feldabstand bei:
 #### Richtfunktion $D$
 
 # Richtantennen
-Stäbe dienen als erreger
+Stäbe bzw "Einzenle Antennen" dienen als Erreger.
 
-Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert(Phased Array Beam Stream Streaming).  
+Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert([Phased Array Beam Stream Streaming](https://www.youtube.com/watch?v=2i293tUjYbI)).  
 
 Die Keule wird durch konstruktive und destruktive inteferenz der erreger (Antennen) elektrisch geschwenkt
 
 
 # Quellen
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z4uxC7ISd-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qs2QcycggWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -83,4 +84,5 @@ Die Keule wird durch konstruktive und destruktive inteferenz der erreger (Antenn
 ## 9:27:
 - [[Transversale Elektromagnetische Welle|TEM-Welle]] -> Amplituden sind Normal zur Ausbreitungsrichtung
 - $\vec E\times\vec H$ visuarisiert
-
+## 25:30
+Quadratur Amplituden [[Modulation]] (QAM)

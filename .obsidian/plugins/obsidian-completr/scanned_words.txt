@@ -2705,6 +2705,7 @@ theoretische
 typo
 throw
 tests
+tUjYbI
 aliases
 arbeiter
 an
@@ -31872,6 +31873,7 @@ decoding
 durchdringen
 dipol
 destruktiv
+destruktive
 geschlossen
 geschlossenen
 gespeicherten
@@ -34635,6 +34637,7 @@ gasförmig
 gemeinsame
 gewinkeltes
 geringeres
+geschwenkt
 Mindestlaststrom
 Ma
 Mt
@@ -52045,6 +52048,8 @@ Elektronenpaare
 Edelgaskonfiguration
 Elektronegativität
 Elektronennegativität
+Einzenle
+Erreger
 Fällt
 Filter
 FlateDecode
@@ -54957,6 +54962,7 @@ FGu
 Flug
 Fluglinie
 Flüge
+Fringing
 fließt
 für
 fFOlq
@@ -75140,6 +75146,7 @@ implemented
 invalid
 interoperability
 interferieren
+inteferenz
 ZTL
 ZX
 Zw
@@ -86700,6 +86707,7 @@ values
 valid
 verbinden
 visualisiert
+visuarisiert
 jetzt
 jv
 ji
@@ -126590,6 +126598,7 @@ kumulierte
 kommunierte
 kosten
 kondensieren
+konstruktive
 qB
 qo
 qg
@@ -137831,6 +137840,8 @@ QYWdO
 QaV
 QrZu
 QcycggWU
+Quadratur
+QAM
 Gd
 GU
 GC
