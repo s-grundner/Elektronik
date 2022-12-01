@@ -66,6 +66,8 @@ Feldabstand bei:
 
 #### Richtfunktion $D$
 
+
+
 # Richtantennen
 Stäbe bzw "Einzenle Antennen" dienen als Erreger.
 
