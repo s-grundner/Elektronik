@@ -5632,6 +5632,8 @@ argument
 ansteuert
 addieren
 anziehen
+aufgemischt
+annehmen
 subject
 source
 so
@@ -17281,6 +17283,8 @@ Sich
 Satelliten
 Starlink
 Streaming
+Sprachsignal
+Somit
 Inverswandler
 Indukitivät
 ID
@@ -23284,6 +23288,8 @@ Teams
 Throw
 Tetraeder
 Teilpole
+Transportieren
+Trägersignal
 Der
 Diode
 Dabei
@@ -26179,6 +26185,7 @@ Dipolmoment
 Debey
 Drahtantennen
 December
+Demodulation
 nach
 nur
 nD
@@ -54968,6 +54975,10 @@ Flug
 Fluglinie
 Flüge
 Fringing
+Funkbänder
+Fortbewegung
+Funkwelle
+Fortbewegen
 fließt
 für
 fFOlq
@@ -69358,6 +69369,7 @@ Kerne
 Kommen
 Keule
 Konstruktiv
+Kommunikationsmedium
 bzw
 bbd
 bg
@@ -81142,6 +81154,7 @@ Varianz
 Viele
 Valenzstrichformel
 Verzerrter
+Verschieden
 Nach
 Ngm
 NN
@@ -83927,6 +83940,8 @@ Nichtmetallatomen
 Niedriger
 Nichtmetalle
 Nebeneinanderliegende
+Niederfrequentes
+Nutzsignal
 öffnen
 öi
 öG
@@ -95159,6 +95174,8 @@ HEeV
 Herleitungen
 Hydrophob
 Hertzscher
+Halbwellen
+Hochfrequentes
 obj
 oy
 oi
@@ -106808,6 +106825,10 @@ Reduce
 Remove
 Richtantennen
 Randfeld
+Rundfunk
+Radiowellen
+Rundfunkspektrum
+Radiowelle
 XRef
 XTG
 XW
@@ -151115,6 +151136,7 @@ Antennenbauformen
 Ökj
 ÖMS
 Ögi
+Öffentlichkeit
 Üd
 ÜWgc
 ÜTY

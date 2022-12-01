@@ -8,6 +8,9 @@ created: 1st December 2022
 ---
 
 # Halbwellen Dipol
-![[330px-Dipole_receiving_antenna_animation_6_800x394x150ms.gif]]
+## Aufbau
+![[Dipolentstehung.gif|200]]
 
+## Empfang
+![[330px-Dipole_receiving_antenna_animation_6_800x394x150ms.gif|600]]
 # Tags
