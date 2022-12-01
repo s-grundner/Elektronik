@@ -11290,6 +11290,8 @@ regular
 reassignments
 release
 reine
+richten
+richtung
 created
 cU
 cc
@@ -17274,6 +17276,9 @@ Stäbe
 Schmelz
 Siedepunkt
 Stoffe
+Sich
+Satelliten
+Starlink
 Inverswandler
 Indukitivät
 ID
@@ -31866,6 +31871,7 @@ decodeURIComponent
 decoding
 durchdringen
 dipol
+destruktiv
 geschlossen
 geschlossenen
 gespeicherten
@@ -43328,6 +43334,7 @@ Bindung
 Bindende
 Bestimmen
 Benzin
+Bewegande
 Converter
 Columns
 CE
@@ -69338,6 +69345,8 @@ Kugelstrahlers
 Kugeloberfläche
 Kerne
 Kommen
+Keule
+Konstruktiv
 bzw
 bbd
 bg
@@ -72150,6 +72159,7 @@ besetzter
 benachbarter
 bindende
 bindenden
+breitungs
 in
 ihr
 iz
@@ -75129,6 +75139,7 @@ instead
 implemented
 invalid
 interoperability
+interferieren
 ZTL
 ZX
 Zw
@@ -83903,6 +83914,7 @@ Nbu
 Nichtmetallatomen
 Niedriger
 Nichtmetalle
+Nebeneinanderliegende
 öffnen
 öi
 öG
@@ -86687,6 +86699,7 @@ validation
 values
 valid
 verbinden
+visualisiert
 jetzt
 jv
 ji
@@ -137817,6 +137830,7 @@ QFsJ
 QYWdO
 QaV
 QrZu
+QcycggWU
 Gd
 GU
 GC
@@ -146443,6 +146457,7 @@ mode
 missing
 more
 minimum
+mechanisch
 AI
 Ay
 Aoha

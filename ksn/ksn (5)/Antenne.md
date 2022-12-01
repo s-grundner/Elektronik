@@ -67,19 +67,20 @@ Feldabstand bei:
 #### Richtfunktion $D$
 
 # Richtantennen
-Stäbe als erreger
+Stäbe dienen als erreger
 
-Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert.
-Man steuert die Keule elektrisch, anstatt sie mechanisch zu richten.
-Anwendung: Sich schnell Bewegande Satelliten (Starlink)
+Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert(Phased Array Beam Stream Streaming).  
 
-Nebeneinanderliegende erreger interferieren sich Konstruktiv oder destruktiv
+Die Keule wird durch konstruktive und destruktive inteferenz der erreger (Antennen) elektrisch geschwenkt
 
 
+# Quellen
 
-# Tags
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qs2QcycggWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##
+- Fringing Field
 ## 9:27:
-- TEM Wellen: Amplitude Normal zur aus breitungs richtung
-- Das $\vec E\times \vec H$ feld visualisiert -> [[Poynting [[Vektorrechung|[[Vektorrechung|Vektor]]]]]] 
-- 
+- [[Transversale Elektromagnetische Welle|TEM-Welle]] -> Amplituden sind Normal zur Ausbreitungsrichtung
+- $\vec E\times\vec H$ visuarisiert
+
