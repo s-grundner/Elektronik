@@ -37695,6 +37695,7 @@ Mkh
 Molekül
 Moleküle
 Molekülform
+MOSFET
 June
 Ju
 JI
@@ -143550,6 +143551,7 @@ Obsidian
 OZo
 Okqu
 Only
+Oxid
 mu
 mR
 ma

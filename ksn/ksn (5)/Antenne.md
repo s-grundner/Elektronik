@@ -86,3 +86,5 @@ Die Keule wird durch konstruktive und destruktive inteferenz der erreger (Antenn
 - $\vec E\times\vec H$ visuarisiert
 ## 25:30
 Quadratur Amplituden [[Modulation]] (QAM)
+
+![[Gustrau.pdf]]
