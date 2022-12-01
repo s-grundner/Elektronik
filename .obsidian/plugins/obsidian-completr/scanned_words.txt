@@ -8572,6 +8572,7 @@ setting
 scope
 server
 special
+schwer
 reference
 rc
 rCs
@@ -140543,6 +140544,7 @@ GSB
 Güte
 Gesamtspannung
 Gleich
+Globale
 Oc
 OB
 OJ
@@ -146352,6 +146354,7 @@ message
 mode
 missing
 more
+minimum
 AI
 Ay
 Aoha
