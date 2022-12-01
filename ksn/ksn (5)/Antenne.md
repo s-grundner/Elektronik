@@ -75,9 +75,10 @@ Feldabstand bei:
 [[Richtantennen]]
 
 # Quellen
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qs2QcycggWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Fringing Field -> Randfeld
+
 ## 9:27:
 - [[Transversale Elektromagnetische Welle|TEM-Welle]] -> Amplituden sind Normal zur Ausbreitungsrichtung
 - $\vec E\times\vec H$ visuarisiert
