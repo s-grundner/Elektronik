@@ -66,15 +66,12 @@ Feldabstand bei:
 
 #### Richtfunktion $D$
 
+## Hertzscher Dipol
 
+# Drahtantennen
 
-# Richtantennen
-Stäbe bzw "Einzenle Antennen" dienen als Erreger.
-
-Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert([Phased Array Beam Stream Streaming](https://www.youtube.com/watch?v=2i293tUjYbI)).  
-
-Die Keule wird durch konstruktive und destruktive inteferenz der erreger (Antennen) elektrisch geschwenkt
-
+# Antennenbauformen
+[[Richtantennen]]
 
 # Quellen
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z4uxC7ISd-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

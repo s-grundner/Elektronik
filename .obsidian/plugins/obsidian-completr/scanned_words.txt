@@ -17280,6 +17280,7 @@ Stoffe
 Sich
 Satelliten
 Starlink
+Streaming
 Inverswandler
 Indukitivät
 ID
@@ -26176,6 +26177,8 @@ Dipolpfeil
 Dipolmolekül
 Dipolmoment
 Debey
+Drahtantennen
+December
 nach
 nur
 nD
@@ -43339,6 +43342,7 @@ Bindende
 Bestimmen
 Benzin
 Bewegande
+Beam
 Converter
 Columns
 CE
@@ -86709,6 +86713,7 @@ valid
 verbinden
 visualisiert
 visuarisiert
+vtPPAnvJS
 jetzt
 jv
 ji
@@ -92461,6 +92466,7 @@ Phaseverschoben
 PLTEOONkkj
 Polymere
 Polare
+Phased
 Herleitung
 Hy
 HE
@@ -95152,6 +95158,7 @@ HhW
 HEeV
 Herleitungen
 Hydrophob
+Hertzscher
 obj
 oy
 oi
@@ -151069,6 +151076,7 @@ Ausnahme
 Atombindungen
 Abstoßung
 Atomen
+Antennenbauformen
 ÖgLk
 ÖW
 ÖP
