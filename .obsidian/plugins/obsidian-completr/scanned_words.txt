@@ -5629,6 +5629,8 @@ ausprobieren
 abstrahlt
 argument
 ansteuert
+addieren
+anziehen
 subject
 source
 so
@@ -8574,6 +8576,9 @@ scope
 server
 special
 schwer
+symmetrische
+symmetrischen
+studyflix
 reference
 rc
 rCs
@@ -11284,6 +11289,7 @@ resulting
 regular
 reassignments
 release
+reine
 created
 cU
 cc
@@ -14090,6 +14096,7 @@ contained
 comma
 client
 characters
+chemie
 September
 Sp
 Schalter
@@ -17264,6 +17271,9 @@ Sitze
 Strahlungsdichte
 Strahlungsleistungsdichte
 Stäbe
+Schmelz
+Siedepunkt
+Stoffe
 Inverswandler
 Indukitivät
 ID
@@ -20311,6 +20321,7 @@ Isotrope
 Improve
 Ignore
 Initial
+Isolatoren
 Tags
 Transistor
 Teil
@@ -23264,6 +23275,8 @@ TdTZ
 Tickets
 Teams
 Throw
+Tetraeder
+Teilpole
 Der
 Diode
 Dabei
@@ -26149,6 +26162,14 @@ DFbW
 DCd
 DjVT
 Dkk
+Doppel
+Dreifachbindungen
+Dipole
+Dipol
+Dipolpfeil
+Dipolmolekül
+Dipolmoment
+Debey
 nach
 nur
 nD
@@ -31843,6 +31864,8 @@ draft
 deopt
 decodeURIComponent
 decoding
+durchdringen
+dipol
 geschlossen
 geschlossenen
 gespeicherten
@@ -34602,6 +34625,10 @@ grundner
 gebuchter
 gegebener
 gleichmäßiges
+gasförmig
+gemeinsame
+gewinkeltes
+geringeres
 Mindestlaststrom
 Ma
 Mt
@@ -37656,6 +37683,9 @@ MbB
 MWj
 MtADB
 Mkh
+Molekül
+Moleküle
+Molekülform
 June
 Ju
 JI
@@ -43294,6 +43324,10 @@ BAW
 Boi
 BQt
 Beschreibt
+Bindung
+Bindende
+Bestimmen
+Benzin
 Converter
 Columns
 CE
@@ -48900,6 +48934,10 @@ WPxe
 Winkeln
 Wahrscheinlichkeitsverteilungen
 Wahrscheinlichkeitsdichte
+Wichtigste
+Wechselwirkung
+Wichtigstes
+Weil
 Einschaltphase
 Eingangsspannung
 Energie
@@ -51995,6 +52033,11 @@ Entladungsvorgang
 Entladevorgang
 Ease
 Ensures
+Elektrisch
+Elektronenpaare
+Edelgaskonfiguration
+Elektronegativität
+Elektronennegativität
 Fällt
 Filter
 FlateDecode
@@ -57778,6 +57821,7 @@ fjx
 fSI
 fFM
 floating
+flüssig
 über
 übertragen
 üR
@@ -60729,6 +60773,7 @@ work
 with
 when
 which
+wasserliebend
 und
 uY
 uo
@@ -63654,6 +63699,10 @@ uQvYWV
 unbekanntes
 unnecessary
 unescape
+unterschiedlicher
+unpolare
+unsymmetrischem
+unpolar
 lädt
 liegt
 leifert
@@ -66352,6 +66401,7 @@ lfHp
 lYax
 loop
 level
+löslich
 Kondensator
 KO
 KkA
@@ -69286,6 +69336,8 @@ Kapazitive
 Kugelstrahler
 Kugelstrahlers
 Kugeloberfläche
+Kerne
+Kommen
 bzw
 bbd
 bg
@@ -72094,6 +72146,10 @@ binomial
 browsers
 better
 bad
+besetzter
+benachbarter
+bindende
+bindenden
 in
 ihr
 iz
@@ -81060,6 +81116,9 @@ VtL
 VSEO
 Verhältnis
 Varianz
+Viele
+Valenzstrichformel
+Verzerrter
 Nach
 Ngm
 NN
@@ -83841,6 +83900,9 @@ Nnx
 NSM
 NOew
 Nbu
+Nichtmetallatomen
+Niedriger
+Nichtmetalle
 öffnen
 öi
 öG
@@ -86624,6 +86686,7 @@ verteilt
 validation
 values
 valid
+verbinden
 jetzt
 jv
 ji
@@ -89550,6 +89613,7 @@ jwA
 jAS
 jmz
 jDVf
+jpK
 Phase
 PDF
 Predictor
@@ -92372,6 +92436,9 @@ Punktschaltung
 Passagier
 Plotly
 Phaseverschoben
+PLTEOONkkj
+Polymere
+Polare
 Herleitung
 Hy
 HE
@@ -95062,6 +95129,7 @@ HaRT
 HhW
 HEeV
 Herleitungen
+Hydrophob
 obj
 oy
 oi
@@ -100501,6 +100569,8 @@ LwI
 Ldb
 Ladungsvorgang
 Ladevorgang
+Ladungswolke
+Ladungsverteilung
 endobj
 ey
 endstream
@@ -103577,6 +103647,9 @@ expression
 encode
 escape
 erreger
+einander
+energieärmer
+entgegengesetztem
 Root
 RY
 RJH
@@ -112562,6 +112635,7 @@ UGYp
 UNXP
 USxz
 Use
+Unpolare
 pI
 pz
 pw
@@ -115216,6 +115290,8 @@ parse
 point
 provided
 parts
+positive
+polare
 hY
 hK
 ha
@@ -117937,6 +118013,9 @@ hCx
 hqV
 header
 hoist
+hält
+hydrophil
+heben
 xI
 xj
 xA
@@ -126497,6 +126576,7 @@ kYRz
 kumulierte
 kommunierte
 kosten
+kondensieren
 qB
 qo
 qg
@@ -134802,6 +134882,7 @@ zKWh
 zHg
 zfC
 zugeführten
+zyx
 Qu
 QCQ
 QlFq
@@ -140551,6 +140632,7 @@ Gesamtspannung
 Gleich
 Globale
 Gleider
+Gitter
 Oc
 OB
 OJ
@@ -150953,6 +151035,11 @@ AoB
 Aag
 AfVT
 AFi
+Atombindung
+Ausnahme
+Atombindungen
+Abstoßung
+Atomen
 ÖgLk
 ÖW
 ÖP
@@ -151049,6 +151136,7 @@ AFi
 ÜeU
 ÜpxQC
 ÜQzEh
+Überlappung
 ßs
 ßY
 ßm

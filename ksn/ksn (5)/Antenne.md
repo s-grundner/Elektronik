@@ -66,7 +66,16 @@ Feldabstand bei:
 
 #### Richtfunktion $D$
 
-# Quellen
+# Richtantennen
+Stäbe als erreger
+
+Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert.
+Man steuert die Keule elektrisch, anstatt sie mechanisch zu richten.
+Anwendung: Sich schnell Bewegande Satelliten (Starlink)
+
+
+
+
+# Tags
 Frage:
 - $L_{max}$ welche Einheit/Physikalische größe?
-- 

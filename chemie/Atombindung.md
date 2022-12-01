@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["Molekül", "Moleküle", "Dipol"]
+aliases: ["Molekül", "Moleküle"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
 reference: []
@@ -8,7 +8,7 @@ created: 23rd August 2022
 ---
 
 # Atombindung
->![[Atom-bnd.png|300]]
+>![[Atom-bnd.png]]
 - Wichtigste art der Bindung zwischen 2 Nichtmetallatomen
 - $\Delta EN < 1.7$
 - Elektronen-Wolken durchdringen einander $\rightarrow$ <mark style="background: #ADCCFFA6;">negative</mark> Ladungswolke hält <mark style="background: #FF5582A6;">positive</mark> Kerne zusammen $\rightarrow$ Neues Teilchen: **Molekül**
