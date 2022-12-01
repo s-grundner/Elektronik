@@ -36,6 +36,7 @@ Antennen erzeugen und empfangen [[elektromagnetische Wellen]], die sich im freie
 $\vec{E}\dots$ [[Elektrisches Feld#Elektrische Feldstärke|E-Feldstärke]]
 $\vec{H}\dots$ [[Magnetisches Feld#Magnetische Feldstärke|M-Feldstärke]]
 Das Kreuzprodukt beider [[Vektorrechung|Vektoren]] ergibt den [[Poynting Vektor]]:
+
 $$\vec S=\vec E\times \vec H$$
 [[Transversale Elektromagnetische Welle]]
 
