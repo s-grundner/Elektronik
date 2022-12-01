@@ -76,5 +76,10 @@ Anwendung: Sich schnell Bewegande Satelliten (Starlink)
 Nebeneinanderliegende erreger interferieren sich Konstruktiv oder destruktiv
 
 
+
 # Tags
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qs2QcycggWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 9:27:
+- TEM Wellen: Amplitude Normal zur aus breitungs richtung
+- Das $\vec E\times \vec H$ feld visualisiert -> [[Poynting [[Vektorrechung|[[Vektorrechung|Vektor]]]]]] 
+- 
