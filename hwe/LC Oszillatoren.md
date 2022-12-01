@@ -46,6 +46,19 @@ $$
 \ddot{u}_{1}+2\delta \cdot\dot{u}_{1} - \frac{1}{LC}\cdot u_{1}&=0 \qquad \delta= \frac{1-A}{2RC}  \qquad \omega_{0}^{2} = \frac{1}{LC} 
 \end{align*}
 $$
+
+#### Lösung
+$$
+\begin{align*}
+u_{c}(t)= \underbrace{\underbrace{(C_{1}+C_{2})}_{\tilde{C_{1}}}\cdot\cos(\omega t)}_{\matha{Re}}
+\end{align*}
+$$
+
+> [!info] Anmerkung
+> Sowohl Real, als auch Imaginärteil sind Lösungen der Differentailgleichung
+> Das erkennt man durch Einsetzen
+> Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
+
 - Damit die Schaltung ein [[Schwingkreise|Selbstschwingendes]] System sein kann, muss der [[Schwingkreise#Freie Schwingungen im realen Serienschwingkreis|Störterm]] $0$ sein (Selbsterregt) und ein [[lineare DGL 2. Ordnung#3 Fall konjugiert Komplexe Zahlen komplexe Lösungen\|Schwingfall]] ($\delta<\omega_{0}$)
 
   
@@ -67,7 +80,6 @@ u_{1}(t) &= \dots
 \end{align*}
 $$
 ```
-
 # Typen
 [[Colpitts Oszillator]]
 

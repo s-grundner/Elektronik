@@ -11295,6 +11295,7 @@ release
 reine
 richten
 richtung
+realteil
 created
 cU
 cc
@@ -17285,6 +17286,7 @@ Starlink
 Streaming
 Sprachsignal
 Somit
+Sowohl
 Inverswandler
 Indukitivät
 ID
@@ -52063,6 +52065,7 @@ Elektronennegativität
 Einzenle
 Erreger
 Empfang
+Einsetzen
 Fällt
 Filter
 FlateDecode
@@ -75165,6 +75168,7 @@ invalid
 interoperability
 interferieren
 inteferenz
+imaginärteil
 ZTL
 ZX
 Zw
@@ -103697,6 +103701,7 @@ erreger
 einander
 energieärmer
 entgegengesetztem
+erkennt
 Root
 RY
 RJH
@@ -106830,6 +106835,7 @@ Rundfunk
 Radiowellen
 Rundfunkspektrum
 Radiowelle
+Real
 XRef
 XTG
 XW
