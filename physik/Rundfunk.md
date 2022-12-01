@@ -33,16 +33,16 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 
 
 # Tags
->[!info] Fragen zur [[{MOT} Matura]]
+>[!info] Fragen zur [[{MOT} Matura|Matura]]
 > - EM-Spektrum – Frequenzbereich von Radiowellen
->- FM4 – 104 MHz, so ist das im Spektrum der [[Elektromagnetische Wellen\|[[Elektromagnetische Wellen|EM-Wellen]]]] einzuordnen
-- Zusammenhang: Frequenz, Wellenlänge, Antenne, Sender - [[Schwingkreise\|Schwingkreis]]
-- Energie, Energieübertragung durch Wellen
-- Kodierung / Dekodierung, Mikrophon, Lautsprecher Fernsehen – schätze ab wie viele Informationen pro Sekunde gesendet werden müssen:
-	- Du willst mit deinem Freund mit dem Handy telefonieren – was muss da alles geschehen und funktionieren….
-	- Bild: xxx *xxx Pixel – Intensitäten – xx Bilder pro Sekunde .
-- Was transportieren Wellen? - Energie
-- Was ist notwendig, damit Wellen Information transportieren können. - Kodierung
+>- FM4 – 104 MHz, so ist das im Spektrum der [[Elektromagnetische Wellen|EM-Wellen]] einzuordnen
+> - Zusammenhang: Frequenz, Wellenlänge, [[Antenne]], Sender - [[Schwingkreise\|Schwingkreis]]
+> - Energie, Energieübertragung durch Wellen
+> - Kodierung / Dekodierung, Mikrophon, Lautsprecher Fernsehen – schätze ab wie viele Informationen pro Sekunde gesendet werden müssen:
+>	- Du willst mit deinem Freund mit dem Handy telefonieren – was muss da alles geschehen und funktionieren….
+>	- Bild: xxx *xxx Pixel – Intensitäten – xx Bilder pro Sekunde .
+> - Was transportieren Wellen? - Energie
+> - Was ist notwendig, damit Wellen Information transportieren können. - Kodierung
 
 ![[Rundfunk.pdf]]
 ```
