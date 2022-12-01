@@ -63,9 +63,7 @@ Feldabstand bei:
 ### Kenngrößen für das Strahlungsfeld einer Antenne
 
 #### Richtcharakteristik $C_{i}$
-![[Pasted image 20221201101329.png]]
-![[Pasted image 20221201101416.png]]
-
+![[Gustrau-pages-244.jpg]]
 
 #### Richtfunktion $D$
 
