@@ -15,7 +15,7 @@ created: 17th November 2022
 - geeignet für hohe Frequenzen
 
 ## Schaltung
-
+![[Pasted image 20221201122247.png]]
 ## Herleitung
 $$
 \frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A

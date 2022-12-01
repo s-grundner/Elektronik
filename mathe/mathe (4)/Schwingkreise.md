@@ -245,15 +245,9 @@ $$
 \end{align*}
 $$
  >![[frequ_gang_e_serien_schwingk.png|700]]
-# Jupyter
-```jupyter
-import numpy as np
-from matplotlib import pyplot as plt
-x = np.linspace(0,1)
-y = np.sin(2*np.pi*x)
-plt.plot(x, y)
-pass
-```
+
+## Freie Schwingung im realen Parallelschwingkreis
+![[Pasted image 20221201122606.png]]
 
 # Hardware Implementationen
 - [[LC Oszillatoren]]
