@@ -73,9 +73,8 @@ Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phasev
 Man steuert die Keule elektrisch, anstatt sie mechanisch zu richten.
 Anwendung: Sich schnell Bewegande Satelliten (Starlink)
 
-
+Nebeneinanderliegende erreger interferieren sich Konstruktiv oder destruktiv
 
 
 # Tags
-Frage:
-- $L_{max}$ welche Einheit/Physikalische größe?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qs2QcycggWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
