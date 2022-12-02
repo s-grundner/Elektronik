@@ -49,18 +49,8 @@ $$
 
 ## [[Lineare Regression]]
 
-```functionplot
----
-title: Nicht konvexe Kostenfunktion
-xLabel: 
-yLabel: 
-bounds: [0,12,0,7]
-disableZoom: true
-grid: true
----
-y=0.2*sin(10x)+(1/10)*(x-7)^2 + 0.2
-```
-
+![[Pasted image 20221202093554.png]]
+Hochgradige Kostenfunktion (nicht konvex)
 man findet das Globale minimum sehr schwer
 
 ## [[Logistische Regression|Logistische Regression]]
