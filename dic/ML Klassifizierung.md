@@ -1,6 +1,6 @@
 ---
 tags: ["Machine Learning"]
-aliases: ["Classification", "Klassifizierung"]
+aliases: ["Classification", "Klassifizierung", "Logistische Regression"]
 subject: ["dic"]
 source: ["Robert Vogl"]
 reference: []

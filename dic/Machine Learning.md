@@ -21,19 +21,31 @@ grid: true
 ---
 y= -0.1*x+5
 ```
-
+$$
+\begin{align*}
+k &= \dfrac{\Delta y}{\Delta x} =\frac{-5}{50}\\
+d &= 5
+\end{align*}
+$$
+--- 
 $\theta_{0}+\theta_{1}\cdot x_{1}+ \theta_{2}\cdot x_{2}\rightarrow x_{2}=-\dfrac{\theta_{1}}{\theta_{2}}\cdot x_{1}-\dfrac{\theta_{0}}{\theta_{2}}$
 ```functionplot
 ---
 title: 
-xLabel: x
-yLabel: y
+xLabel: x2
+yLabel: x1
 bounds: [0,60,0,6]
 disableZoom: true
 grid: true
 ---
 y= -0.1*x+5
 ```
+
+$$
+\Theta=\begin{pmatrix}
+-5 \\ +0.1 \\ 1
+\end{pmatrix}
+$$
 
 ## [[Regression]]
 
@@ -43,10 +55,10 @@ title: Nicht konvexe Kostenfunktion
 xLabel: 
 yLabel: 
 bounds: [0,12,0,7]
-disableZoom: false
+disableZoom: true
 grid: true
 ---
-y=0.2*sin(10x)+(1/10)*(x-7)^2
+y=0.2*sin(10x)+(1/10)*(x-7)^2 + 0.2
 ```
 
 man findet das Globale minimum sehr schwer
@@ -66,7 +78,7 @@ y=(1/10)*(x-7)^2
 
 # Matlab Simulations
 ````ad-example
-title: Häuse
+title: Häuserpreis
 
 | $x_{0}$ | Size (feet$^{2}$)<br> $x_{1}$ | Number of Bedrooms <br> $x_{2}$ | Number of Floors <br> $x_3$ | Age of Home <br> $x_{4}$ | Price <br> $y$ |
 |:-------:|:-----------------------------:|:-------------------------------:|:---------------------------:|:------------------------:|:--------------:|
