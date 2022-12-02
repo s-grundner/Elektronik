@@ -17240,6 +17240,7 @@ Sitze
 Strahlungsdichte
 Strahlungsleistungsdichte
 Stäbe
+Samplepoints
 Inverswandler
 Indukitivät
 ID
@@ -23237,6 +23238,7 @@ Tle
 TdTZ
 Tickets
 Teams
+Transponiert
 Der
 Diode
 Dabei
