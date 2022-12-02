@@ -20,10 +20,39 @@ created: 23rd November 2022
 - [[Streuparameter]]
 - [[Antenne|Antennen]]
 
-# [[{MOT} Matura|Matura]]
+# Matura
+
+## Grundlagen der [[{MOC} Informationstheorie|Informationstheorie]] und Übertragungstechnik
+- Amplitudenmodulation
+- Frequenzmodulation
+- Huffman-Codierung
+- Kenngrößen der [[{MOC} Informationstheorie|Informationstheorie]]
+- Hammingabstand – Kodewürfel
+- [[Lichtwellenleiter|LWL]]
 
 
+## Hochfrequenztechnik
+- Leitung
+- Rechteckimpuls auf Leitung
+- Anpassung mit [[Smith-Diagramm]], Shunt, TL
+- [[Antenne|Antennen]], Richtdiagramm
 
+
+## Consumer Electronics
+- Superhetprinzip
+- DVB, MPEG, QAM
+- Mehrwegeausbreitung
+- Auditive Wahrnehmung, Höhrbereich beim Menschen
+- Quell-, Kanalkodierung
+- Fehlererkennende-, Fehlerkorrigierende Codes
+	
+
+## Netzwerktechnik
+- Schichtenmodell
+- [[CIDR]]
+- [[VLSM]]
+- [[Kollisionsdomäne|Kollisions-]], [[Broadcastdomäne]]
+- Segmentierung
 
 
 
