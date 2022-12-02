@@ -13,7 +13,7 @@ last_edited: 6th April 2022
 ### Vorteile
 1. Schneller
 2. Keine EM Störung
-3. Höhere Bandbreite/Kanalkapazität
+3. Höhere Bandbreite/ [[Kanalkapazität]]
 
 ## Aufbau
 ![[lwl_aufbau.png]]

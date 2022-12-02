@@ -1,3 +1,4 @@
+
 ---
 tags: []
 aliases: []
@@ -8,8 +9,8 @@ created: 23rd November 2022
 ---
 
 # Modulation
-- Amplituden Modulation
+- [[Amplitudenmodulation]]
 - Quadratur Amplituden Modulation
-
+- [[Frequenzmodulation]]
 
 # Quellen

@@ -23,8 +23,8 @@ created: 23rd November 2022
 # Matura
 
 ## Grundlagen der [[{MOC} Informationstheorie|Informationstheorie]] und Übertragungstechnik
-- Amplitudenmodulation
-- Frequenzmodulation
+- [[Amplitudenmodulation]]
+- [[Frequenzmodulation]]
 - Huffman-Codierung
 - Kenngrößen der [[{MOC} Informationstheorie|Informationstheorie]]
 - Hammingabstand – Kodewürfel
@@ -48,7 +48,7 @@ created: 23rd November 2022
 	
 
 ## Netzwerktechnik
-- Schichtenmodell
+- [[OSI-Modell|Schichtenmodell]]
 - [[CIDR]]
 - [[VLSM]]
 - [[Kollisionsdomäne|Kollisions-]], [[Broadcastdomäne]]

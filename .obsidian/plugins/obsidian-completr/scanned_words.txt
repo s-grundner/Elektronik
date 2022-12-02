@@ -8583,6 +8583,7 @@ symmetrische
 symmetrischen
 studyflix
 setzt
+strahlt
 reference
 rc
 rCs
@@ -17288,6 +17289,13 @@ Streaming
 Sprachsignal
 Somit
 Sowohl
+Schneller
+Stufenprofil
+Stufenindexfaser
+Signalleistung
+Shunt
+Superhetprinzip
+Schichtenmodell
 Inverswandler
 Indukitivät
 ID
@@ -20336,6 +20344,7 @@ Improve
 Ignore
 Initial
 Isolatoren
+Informationstheorie
 Tags
 Transistor
 Teil
@@ -23293,6 +23302,7 @@ Tetraeder
 Teilpole
 Transportieren
 Trägersignal
+Totalreflexion
 Der
 Diode
 Dabei
@@ -31888,6 +31898,7 @@ durchdringen
 dipol
 destruktiv
 destruktive
+dimensionslose
 geschlossen
 geschlossenen
 gespeicherten
@@ -34652,6 +34663,7 @@ gemeinsame
 gewinkeltes
 geringeres
 geschwenkt
+gegebenen
 Mindestlaststrom
 Ma
 Mt
@@ -37710,6 +37722,14 @@ Molekül
 Moleküle
 Molekülform
 MOSFET
+Monomode
+Multimode
+Material
+Mediums
+Matels
+MPEG
+Mehrwegeausbreitung
+Menschen
 June
 Ju
 JI
@@ -43354,6 +43374,10 @@ Bestimmen
 Benzin
 Bewegande
 Beam
+Bandbreite
+Bezeichnet
+Brechungsindizes
+Brechungsindex
 Converter
 Columns
 CE
@@ -46031,6 +46055,8 @@ CUOy
 Cxp
 Ctw
 Cbu
+Codierung
+Codes
 Während
 Wx
 Wb
@@ -48964,6 +48990,7 @@ Wichtigste
 Wechselwirkung
 Wichtigstes
 Weil
+Wahrnehmung
 Einschaltphase
 Eingangsspannung
 Energie
@@ -52069,6 +52096,8 @@ Erreger
 Empfang
 Einsetzen
 Eigneschaften
+Einspeisung
+Electronics
 Fällt
 Filter
 FlateDecode
@@ -54986,6 +55015,11 @@ Funkbänder
 Fortbewegung
 Funkwelle
 Fortbewegen
+Faser
+Fortplanzung
+Frequenzmodulation
+Fehlererkennende
+Fehlerkorrigierende
 fließt
 für
 fFOlq
@@ -57858,6 +57892,7 @@ fSI
 fFM
 floating
 flüssig
+fehlerfrei
 über
 übertragen
 üR
@@ -63739,6 +63774,7 @@ unterschiedlicher
 unpolare
 unsymmetrischem
 unpolar
+umgebenden
 lädt
 liegt
 leifert
@@ -69377,6 +69413,12 @@ Kommen
 Keule
 Konstruktiv
 Kommunikationsmedium
+Kanalkapazität
+Kernbrachzahl
+Kerndurchmesser
+Kanaldynamik
+Kodewürfel
+Kanalkodierung
 bzw
 bbd
 bg
@@ -72190,6 +72232,7 @@ benachbarter
 bindende
 bindenden
 breitungs
+beschreibung
 in
 ihr
 iz
@@ -78230,6 +78273,7 @@ ZpVp
 ZhG
 ZIAN
 ZUb
+Zahlenwert
 Verbraucher
 VuuV
 VU
@@ -83952,6 +83996,10 @@ Niederfrequentes
 Nutzsignal
 Newton
 Näherungsverfahren
+Numerische
+Nachrichtenkanal
+Nachrichtenkanals
+Netzwerktechnik
 öffnen
 öi
 öG
@@ -95188,6 +95236,10 @@ Hertzscher
 Halbwellen
 Hochfrequentes
 Häuserpreis
+Höhere
+Huffman
+Hammingabstand
+Höhrbereich
 obj
 oy
 oi
@@ -100631,6 +100683,15 @@ Ladungswolke
 Ladungsverteilung
 Lullifunktion
 Logistische
+Lichtwellenleiter
+Lichtes
+Lichtwelle
+Lichtgeschwintigkeit
+Leitungslänge
+LWL
+Lichtgeschwindigkeit
+Leistungsfähigkeit
+Leitung
 endobj
 ey
 endstream
@@ -106847,6 +106908,9 @@ Radiowelle
 Real
 Reession
 Regularisieren
+Rauschleistung
+Rechteckimpuls
+Richtdiagramm
 XRef
 XTG
 XW
@@ -137891,6 +137955,7 @@ QrZu
 QcycggWU
 Quadratur
 QAM
+Quell
 Gd
 GU
 GC
@@ -140707,6 +140772,8 @@ Gleich
 Globale
 Gleider
 Gitter
+Gradientenprofil
+Grenzwinkel
 Oc
 OB
 OJ
@@ -143603,6 +143670,7 @@ Oxid
 Output
 Overfit
 Overfitting
+Obergrenze
 mu
 mR
 ma
@@ -151122,6 +151190,13 @@ Atomen
 Antennenbauformen
 Algorithmus
 Annäherung
+Ausbreitungsmöglichkeit
+Akzeptanzwinkel
+Apertur
+Abhängig
+Amplitudenmodulation
+Anpassung
+Auditive
 ÖgLk
 ÖW
 ÖP
@@ -151161,6 +151236,8 @@ Annäherung
 ÖMS
 Ögi
 Öffentlichkeit
+Öffnungsweite
+Öffnungswinkel
 Üd
 ÜWgc
 ÜTY
@@ -151220,6 +151297,7 @@ Annäherung
 ÜpxQC
 ÜQzEh
 Überlappung
+Übertragungstechnik
 ßs
 ßY
 ßm
