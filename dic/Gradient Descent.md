@@ -22,6 +22,7 @@ h_{\theta}(x^{(i)})&= \frac{1}{1+e^{-\Theta^{T}\cdot x}}
 $$
 $j\dots$Anzahl der Eigeschaften
 $i\dots$Anzahl der Samplepoints
+$^{T}\dots$Matrix ist Transponiert
 
 # Beispiel
 $$
