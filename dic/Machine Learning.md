@@ -8,6 +8,33 @@ created: 24th October 2022
 ---
 
 # Machine Learning
+## Lullifunktion
+$y=k\cdot x+d$
+```functionplot
+---
+title: 
+xLabel: x
+yLabel: y
+bounds: [0,60,0,6]
+disableZoom: true
+grid: true
+---
+y= -0.1*x+5
+```
+
+$\theta_{0}+\theta_{1}\cdot x_{1}+ \theta_{2}\cdot x_{2}\rightarrow x_{2}=-\dfrac{\theta_{1}}{\theta_{2}}\cdot x_{1}-\dfrac{\theta_{0}}{\theta_{2}}$
+```functionplot
+---
+title: 
+xLabel: x
+yLabel: y
+bounds: [0,60,0,6]
+disableZoom: true
+grid: true
+---
+y= -0.1*x+5
+```
+
 ## [[Regression]]
 
 ```functionplot
