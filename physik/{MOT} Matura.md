@@ -1,7 +1,7 @@
 
 ---
 tags: ["MOT", "Matura"]
-aliases: ["Matura"]
+aliases: []
 created: 19th August 2022
 ---
 # Map of Topics - Matura
