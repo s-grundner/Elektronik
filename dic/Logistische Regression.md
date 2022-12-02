@@ -23,14 +23,9 @@ $$
 Man Verändert $\theta^{(i)}$ so, dass $J$ minimal ist
 - [[Gradient Descent]]
 
-Output: $h_{\theta}(x)=\dfrac{1}{1+e^{-\Theta^{T}x}}$
-
-
-## Sigmoid funktion
-Die Sigmoid Funktion ist eine Funktion, welche den Wertebereich Normalisiert.
+Zum normalisieren setzt man $h_{\theta}(x)$ in die [[Sigmoid Funktion]] ein.
 Das $h_{\theta}$ ist bei der kosten Funktion immer mit der Sigmoid Kurve Normalisiert.
-
-![[sigmoid.png]]
+Output: $h_{\theta neu}(x)=\dfrac{1}{1+e^{-\Theta^{T}x}}$
 
 # Tags
 [[Machine Learning]]

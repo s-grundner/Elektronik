@@ -15,7 +15,8 @@ $$
 \begin{align*}
 h_{\theta}(x) &= \Theta' \cdot X_{(n)}\\
 &= \theta_{0}+\theta_{1}\cdot x_{1}+\theta_{2}\cdot x_{2}+\theta_{3}\cdot x_{3}+\theta_{4}\cdot x_{4}\\
-J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})
+J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})\\
+J &= \frac{1}{2m}\sum^{m}_{n=1}(h_{\theta}(x^{(n)})-y^{n})
 \end{align*}
 $$
 Zum Normalisieren wird quadriert
