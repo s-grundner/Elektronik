@@ -16,6 +16,7 @@ Die Kostenfunktion $J$ wird zunächst über $\theta$ aller Eigenschaften partiel
 $$
 \begin{align*}
 J&=\frac{\partial J}{\partial\theta_{j}}= \frac{1}{m}\sum^{m}_{i=1}(h_{\theta}(x^{(i)})-y^{(i)})\cdot x_{j}^{(i)}\\
+\text
 h_{\theta}(x^{(i)})&= \frac{1}{1+e^{-\Theta^{T}\cdot x}}
 \end{align*}
 $$
