@@ -83947,6 +83947,8 @@ Nichtmetalle
 Nebeneinanderliegende
 Niederfrequentes
 Nutzsignal
+Newton
+Näherungsverfahren
 öffnen
 öi
 öG
@@ -100622,6 +100624,7 @@ Ladungsvorgang
 Ladevorgang
 Ladungswolke
 Ladungsverteilung
+Lullifunktion
 endobj
 ey
 endstream
@@ -143588,6 +143591,7 @@ OZo
 Okqu
 Only
 Oxid
+Output
 mu
 mR
 ma

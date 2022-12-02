@@ -47,7 +47,7 @@ $$
 \end{pmatrix}
 $$
 
-## [[Regression]]
+## [[Linear Regression]]
 
 ```functionplot
 ---
@@ -63,7 +63,7 @@ y=0.2*sin(10x)+(1/10)*(x-7)^2 + 0.2
 
 man findet das Globale minimum sehr schwer
 
-## [[ML Klassifizierung|Klassifizierung]]
+## [[ML Klassifizierung|Logistische Regression]]
 ```functionplot
 ---
 title: Konvexe Kostenfunktion

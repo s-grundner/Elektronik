@@ -1,11 +1,3 @@
----
-tags: ["Machine Learning"]
-aliases: []
-subject: ["dic"]
-source: ["Robert Vogl"]
-reference: []
-created: 18th November 2022
----
 # Linear Regression
 
 $X\dots 100\times3$
@@ -20,8 +12,3 @@ $$
 | $\Theta' \cdot X_{(n)} =$                                                                                     | $$\begin{pmatrix}1 & 2 & 3\end{pmatrix}$$                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $$\left.\begin{pmatrix}1 & 94 & 72\\1 & 93 & 87\\1 & 91 & 43\\1 & 100 & 12\end{pmatrix}\right\downarrow_{m}$$ | $$\begin{pmatrix}1\cdot1 &+ 94\cdot2 &+ 72\cdot3 \\1\cdot1 &+ 93\cdot2 &+ 87\cdot3 \\1\cdot1 &+ 91\cdot2 &+ 43\cdot3 \\1\cdot1 &+ 100\cdot2 &+ 12\cdot3 \\\end{pmatrix}$$ |
-
-# Logistic Regression
-
-
-# Quellen#
