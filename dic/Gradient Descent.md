@@ -11,6 +11,7 @@ created: 7th November 2022
 Der Gradient Descent ist ein Algorithmus zur Annäherung von der Kostenfunktion $J$ der [[Lineare Regression|Lineare-]] oder [[Logistische Regression|Logistische]] Regression.
 
 Der Algorithmus ist eine Kombination aus dem [[Newton'sches Näherungsverfahren|Newton'schen Annäherungsverfahren]] und der [[Sigmoid Funktion]].
+Die Kostenfunktion $J$ wird zunächst über $\theta$ aller Eigenschaften partiell Differenziert:
 
 $$
 \begin{align*}
