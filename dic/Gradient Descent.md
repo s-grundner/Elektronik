@@ -20,8 +20,21 @@ h_{\theta}(x^{(i)})&= \frac{1}{1+e^{-\Theta^{T}\cdot x}}
 $$
 $j\dots$Anzahl der Eigeschaften
 $i\dots$Anzahl der ....
-# Quellen
-Gradient Descent Wiki
+
+# Beispiel
+$$
+\begin{array}{cll}
+P_{1}(1|10): y=\\
+P_{2}(1|10): y=\\
+P_{3}(1|10): y=1\\
+&\theta_{init}=\begin{pmatrix}-50\\10\\1\end{pmatrix}\\
+P_{4}(1|10): y=1\\
+P_{5}(1|10): y=1\\
+P_{6}(1|10): y=1\\
+\end{array}
+$$
+
+# Tags
 
 
 
