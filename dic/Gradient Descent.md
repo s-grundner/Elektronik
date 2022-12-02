@@ -24,7 +24,7 @@ $i\dots$Anzahl der Samplepoints
 
 # Beispiel
 $$
-\begin{array}{cll}
+\begin{array}{}
 P_{1}(1|10): y=0\\
 P_{2}(1|30): y=0\\
 P_{3}(2|20): y=0\\
