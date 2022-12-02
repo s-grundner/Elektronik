@@ -20,8 +20,7 @@ h_{\theta}(x^{(i)})&= \frac{1}{1+e^{-\Theta^{T}\cdot x}}
 \end{align*}
 $$
 $j\dots$Anzahl der Eigeschaften
-
-$i\dots$Anzahl der ....
+$i\dots$Anzahl der Samplepoints
 
 # Beispiel
 $$

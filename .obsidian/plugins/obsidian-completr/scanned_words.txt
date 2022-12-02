@@ -26123,6 +26123,8 @@ DCd
 DjVT
 Dkk
 Drahtantennen
+December
+Differenziert
 nach
 nur
 nD
@@ -86580,6 +86582,7 @@ verkaufen
 verteilt
 vdots
 visuarisiert
+verhindern
 jetzt
 jv
 ji
@@ -95020,6 +95023,7 @@ HhW
 HEeV
 Herleitungen
 Hertzscher
+Häuserpreis
 obj
 oy
 oi
@@ -106654,6 +106658,7 @@ Realteil
 Richtungen
 Richtantennen
 Randfeld
+Regularisieren
 XRef
 XTG
 XW
@@ -115160,6 +115165,7 @@ pBe
 pnl
 phasenrichtig
 pmatrix
+partiell
 hY
 hK
 ha
@@ -143388,6 +143394,8 @@ Observer
 Obsidian
 OZo
 Okqu
+Overfit
+Overfitting
 mu
 mR
 ma
