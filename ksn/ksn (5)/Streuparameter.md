@@ -94,7 +94,7 @@ $$
 
 |          |                               |                                           |             |     |     |     |
 | -------- | ----------------------------- | ----------------------------------------- | ----------- | --- | --- | --- |
-| $S_{11}$ | Eingangsreflexionsfaktor      | $S_{11}=\left. \dfrac{b_{1}}{a_{1}}\right\||_{a_{2}=0}$ |     |     |     |
+| $S_{11}$ | Eingangsreflexionsfaktor      | $S_{11}=\left. \dfrac{b_{1}}{a_{1}}\right_{a_{2}=0}$ |     |     |     |
 | $S_{22}$ | Ausgangsreflexionsfaktor      |                                           |             |     |     |     |
 | $S_{21}$ | Vorwärts-Transmissionsfaktor  |                                           |             |     |     |     |
 | $S_{12}$ | Rückwärts-Transmissionsfaktor |                                           |             |     |     |     |
