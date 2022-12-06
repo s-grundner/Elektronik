@@ -25,3 +25,16 @@ nicht nur der erwartete *mittlere* Wert einer Zufallsvariable ist interessant, s
 Sozusagen: wie weit streuen die Ergebnisse durchschnittlich?
 Sei $X$ eine diskrete Zufallsvariable mit $M_{x}=\{x_{1};\dots;x_{n}\}$
 und $p_{i}=P(X=x_{i})$
+
+
+# Tags
+
+$$
+\begin{align*}
+E(X) &= \sum\limits_{i=0}^{n}p_{i}\cdot x_{i}=\qquad X=\{-10,0,15,40\}\\
+&= (\frac{5}{6})^{3}\cdot-10+
+\end{align*}
+$$
+
+Durchschnittlicher Gewinn pro spiel:
+$E(X)=$ -4,56€
