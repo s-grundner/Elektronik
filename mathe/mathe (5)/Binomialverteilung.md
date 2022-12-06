@@ -20,11 +20,11 @@ $$
 P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\
 \end{align*}
 $$
-## Varianz $V(X)$
-Die Varianz ist die durchschnittliche Abweichung (Streuung)
+## [[Varianz]] $V(X)$
+Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
 $V(X)=n\cdot p\cdot(1-p)$
 
-## Erwartungswert $E(X)$
+## [[Erwartungswert]] $E(X)$
 $E(X)=n\cdot p$
 
 ## [[Standardabweichung]]

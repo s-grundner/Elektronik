@@ -26203,6 +26203,7 @@ Drahtantennen
 December
 Demodulation
 Differenziert
+Durchschnittlicher
 nach
 nur
 nD
@@ -43382,6 +43383,7 @@ Bandbreite
 Bezeichnet
 Brechungsindizes
 Brechungsindex
+Beutel
 Converter
 Columns
 CE
@@ -55025,6 +55027,7 @@ Fortplanzung
 Frequenzmodulation
 Fehlererkennende
 Fehlerkorrigierende
+Fair
 fließt
 für
 fFOlq
@@ -103779,6 +103782,7 @@ einander
 energieärmer
 entgegengesetztem
 erkennt
+erwartungswert
 Root
 RY
 RJH
@@ -140783,6 +140787,7 @@ Gleider
 Gitter
 Gradientenprofil
 Grenzwinkel
+Gewinn
 Oc
 OB
 OJ
