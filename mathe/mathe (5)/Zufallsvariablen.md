@@ -1,4 +1,4 @@
 - [[Erwartungswert]]
 - [[Varianz]]
-- [[Standardabweichung
+- [[Standardabweichung]]
 - [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilung]]
