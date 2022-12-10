@@ -13,8 +13,8 @@ created: 30th November 2022
 Jedem $x_{i}$ wird eine [[Wahrscheinlichkeit|WSK]] zugeordnet :
 $M_{x}\rightarrow [0;1]$
 (Diag verteilung würfeln mit 2 würfel)
-## Erwartungswert einer Zufallsvariable
-Ist $X$ eine diskrete Zufallsvariable mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
+## Erwartungswert einer [[Zufallsvariablen|Zufallsvariable]]
+Ist $X$ eine diskrete [[Zufallsvariablen|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
 $$
 E(X)=\sum_{i=1}^{n}p_{i}\cdot x_{i}
 $$
@@ -27,12 +27,12 @@ E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdo
 \end{align*}
 $$
 ## Rechenreglen für den Erwartungswert
-$c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ Zufallsvariable
+$c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariablen|Zufallsvariable]]
 $$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h}\cdot c_{i}\cdot E(X_{i})$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
-nicht nur der erwartete *mittlere* Wert einer Zufallsvariable ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom Erwartungswert.
+nicht nur der erwartete *mittlere* Wert einer [[Zufallsvariablen|Zufallsvariable]] ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom Erwartungswert.
 Sozusagen: wie weit streuen die Ergebnisse durchschnittlich?
-Sei $X$ eine diskrete Zufallsvariable mit $M_{x}=\{x_{1};\dots;x_{n}\}$
+Sei $X$ eine diskrete [[Zufallsvariablen|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$
 und $p_{i}=P(X=x_{i})$
 
 

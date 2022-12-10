@@ -17,8 +17,9 @@ $$
 $$
 
 > [!important] Standardabweichung $\sigma$ und empirische Standardabweichung $s$
-> Die Standardabweichung $\sigma$ einer Zufallsvariable $X$ ist näherungsweise gelich der empirischen Standardabweichung $s$ einer großen Stichprobe von $X$:
-> 
+> Die Standardabweichung $\sigma$ einer [[Zufallsvariablen|Zufallsvariable]] $X$ ist näherungsweise gelich der empirischen Standardabweichung $s$ einer großen Stichprobe von $X$:
+> $\sigma\approx s$
+> $\sigma$ ist daher bei großen Stichproben ein Prognosewert für die empirische Standardabweichung $s$
 > 
 
 # Tags

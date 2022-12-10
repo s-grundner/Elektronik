@@ -10,9 +10,9 @@ created: 16th November 2022
 # Binomialverteilung $P(X)$
 
 - Bei einem Zufallsexperiment gibt es nur $2$ Ergebnisse: $A$ oder $\neg{A}$
-- Es werden $n$ gleichartigen Versuche durchgeführt.
+- Es werden $n$ gleichartige Versuche durchgeführt.
 - Die Einzelversuche sind voneinander unabhängig.
-- Die Zufallsvariable $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+- Die [[Zufallsvariablen|Zufallsvariable]] $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
 
 $$p=P(A)$$
 Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
@@ -76,7 +76,7 @@ $$
 ````
 
 ````ad-example
-title: Prüfe, ob folgende Zufallsvariable $X$ binomialverteilt ist
+title: Prüfe, ob folgende [[Zufallsvariablen|Zufallsvariable]] $X$ binomialverteilt ist
 ![[Pasted image 20221122111119.png]]
 ```ad-success
 title: Lösung

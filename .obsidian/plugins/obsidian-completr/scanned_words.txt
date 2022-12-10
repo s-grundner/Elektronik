@@ -17585,6 +17585,7 @@ Serverseite
 Standalone
 State
 Swagger
+Stetige
 Inverswandler
 Indukitivät
 ID
@@ -26650,6 +26651,7 @@ DNIC
 Dateisystem
 Date
 Durchs
+Diskrete
 nach
 nur
 nD
@@ -35282,6 +35284,7 @@ gepackt
 gedacht
 gebrowsed
 gezippte
+gleichartige
 Mindestlaststrom
 Ma
 Mt
