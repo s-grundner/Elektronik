@@ -25,5 +25,14 @@
       ],
       "key": "G"
     }
+  ],
+  "obsidian-textgenerator-plugin:create-generated-text-From-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Y"
+    }
   ]
 }

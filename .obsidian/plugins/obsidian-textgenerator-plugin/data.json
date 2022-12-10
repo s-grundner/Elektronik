@@ -1,0 +1,20 @@
+{
+  "api_key": "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",
+  "engine": "text-curie-001",
+  "max_tokens": 160,
+  "temperature": 0.7,
+  "frequency_penalty": 0.5,
+  "prompt": "",
+  "showStatusBar": true,
+  "promptsPath": "textgenerator/prompts",
+  "context": {
+    "includeTitle": true,
+    "includeStaredBlocks": true,
+    "includeFrontmatter": true,
+    "includeHeadings": true,
+    "includeChildren": true,
+    "includeMentions": true,
+    "includeHighlights": true
+  },
+  "models": {}
+}

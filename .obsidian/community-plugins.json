@@ -35,5 +35,6 @@
   "obsidian-discordrpc",
   "obsidian-plotly",
   "multi-column-markdown",
-  "multi-line-formatting"
+  "multi-line-formatting",
+  "obsidian-textgenerator-plugin"
 ]
