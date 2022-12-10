@@ -8,6 +8,7 @@ created: 24th October 2022
 ---
 
 # Kombinatorik
+![[Kombinatorik-formeln.PNG|700]]
 ## Produktregel
 Vorgang in $k$ Schritten
 1. Schritt hat $n_{1}$ möglichkeiten
@@ -61,6 +62,3 @@ ABC, ABE, ABF, BCF ...
 ```
 
 # Quellen
-![[Kombinatorik-formeln.PNG]]
-![[Kombinatorik-formeln.PNG]]
-

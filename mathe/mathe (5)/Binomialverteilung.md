@@ -28,6 +28,7 @@ $V(X)=n\cdot p\cdot(1-p)$
 $E(X)=n\cdot p$
 
 ## [[Standardabweichung]]
+
 # Würfeln mit einem Würfel
 - Entweder 6 oder nicht 6
 - 4 Versuche
