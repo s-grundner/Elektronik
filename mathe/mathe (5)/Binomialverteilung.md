@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Statistik"]
 aliases: ["Binom"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
@@ -13,13 +13,15 @@ created: 16th November 2022
 - Es werden $n$ gleichartigen Versuche durchgeführt.
 - Die Einzelversuche sind voneinander unabhängig.
 - Die Zufallsvariable $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+
 $$p=P(A)$$
-Dann ist $X$ binomialverteilt mit den Parametern $n\&p$
+Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 $$
 \begin{align*}
 P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\
 \end{align*}
 $$
+wobei $n$ die Anzahl der Versuche, $k$ die Anzahl der Erfolge, $p$ die Wahrscheinlichkeit eines Erfolgs und $\binom{n}{k}$ das Binomialkoeffizient ist.
 ## [[Varianz]] $V(X)$
 Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
 $V(X)=n\cdot p\cdot(1-p)$
