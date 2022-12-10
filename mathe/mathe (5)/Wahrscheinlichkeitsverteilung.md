@@ -7,14 +7,12 @@ reference: []
 created: 30th November 2022
 ---
 # Wahrscheinlichkeitsverteilung
--   Wahrscheinlichkeitsverteilung beschreibt wahrscheinlichkeit von Ereignissen
+-   Wahrscheinlichkeitsverteilung beschreibt [[wahrscheinlichkeit]] von Ereignissen
 -   verschiedene Arten: binomial, Poisson, Normalverteilung
 -   Form hängt von Faktoren ab: Anzahl Ergebnisse, Häufigkeit von Ergebnissen
 -   wichtiges Werkzeug in Statistik: Berechnung von Wahrscheinlichkeiten, Vorhersagen
 -   kann in Stickpunkten zusammengefasst werden:
--   Wahrscheinlichkeitsverteilung
--   verschiedene Arten
--   Form hängt von Faktoren ab
+
 $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
