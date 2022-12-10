@@ -14,6 +14,8 @@ Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phasev
 
 Die Keule wird durch konstruktive und destruktive inteferenz der erreger ([[Antenne|Antennen]]) elektrisch geschwenkt
 
+
+
 # Quellen
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vtPPAnvJS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
