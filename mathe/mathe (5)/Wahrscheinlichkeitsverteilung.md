@@ -13,6 +13,7 @@ created: 30th November 2022
 -   wichtiges Werkzeug in Statistik: Berechnung von Wahrscheinlichkeiten, Vorhersagen
 -   kann in Stickpunkten zusammengefasst werden:
 
+Die Gesamtheit der Werte $x_{i}$ einer diskreten [[Zufallsvariablen|Zufallsvariable]] $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt Wahrscheinlichkeitsverteilung dieser [[Zufallsvariablen|Zufallsvariable]].
 $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
