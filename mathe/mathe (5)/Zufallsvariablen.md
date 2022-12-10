@@ -8,12 +8,12 @@ created: 30th November 2022
 ---
 
 # Zufallsvariablen
+## Diskrete Zufallsvariablen
+## Stetige Zufallsvariablen
 
+
+# Tags
 - [[Erwartungswert]]
 - [[Varianz]]
 - [[Standardabweichung]]
 - [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilung]]
-
-Was sind zufallsvariablen?
-
-# Tags

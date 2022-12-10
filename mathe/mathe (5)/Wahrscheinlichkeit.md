@@ -43,7 +43,7 @@ Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 $P(E^C)=1-P(E)$
 $P(gerade) = 1-P(ungerade)$
 ![[Pasted image 20221210140838.png]]
-![[Pasted image 20221210140907.png|975]]
+![[Pasted image 20221210140907.png|1075]]
 ``` ad-example
 title: 26 Schüler: 2 haben den selben Geburtstag
 $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$

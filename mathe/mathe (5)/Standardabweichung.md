@@ -15,6 +15,12 @@ $$
 \sigma(X)&=\sqrt{n\cdot p\cdot(1-p)}
 \end{align*}
 $$
+
+> [!important] Standardabweichung $\sigma$ und empirische Standardabweichung $s$
+> Die Standardabweichung $\sigma$ einer Zufallsvariable $X$ ist näherungsweise gelich der empirischen Standardabweichung $s$ einer großen Stichprobe von $X$:
+> 
+> 
+
 # Tags
 ```ad-example
 title: Würfel mit 1 Würfel
