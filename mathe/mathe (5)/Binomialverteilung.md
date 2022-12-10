@@ -75,6 +75,9 @@ $$
 
 ````
 
+
+![[Binom-vert.svg]]
+
 ````ad-example
 title: Prüfe, ob folgende [[Zufallsvariablen|Zufallsvariable]] $X$ binomialverteilt ist
 ![[Pasted image 20221122111119.png]]

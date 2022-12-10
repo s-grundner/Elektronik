@@ -5745,6 +5745,7 @@ akzeptiere
 abgesetzt
 aufbereitet
 anderes
+annehmen
 subject
 source
 so
@@ -8745,6 +8746,7 @@ sink
 schwimm
 standAbrufen
 sperren
+stetige
 reference
 rc
 rCs
@@ -17586,6 +17588,7 @@ Standalone
 State
 Swagger
 Stetige
+Stichprobe
 Inverswandler
 Indukitivät
 ID
@@ -29467,6 +29470,8 @@ nlM
 ncom
 nAKA
 nJIB
+numerische
+näherungsweise
 dem
 der
 des
@@ -32460,6 +32465,7 @@ dekantieren
 darunter
 dran
 deiner
+diskreten
 geschlossen
 geschlossenen
 gespeicherten
@@ -35285,6 +35291,7 @@ gedacht
 gebrowsed
 gezippte
 gleichartige
+gelich
 Mindestlaststrom
 Ma
 Mt
@@ -38415,6 +38422,7 @@ Microcontroller
 Modified
 Momentaufnahme
 Methode
+Merkmal
 June
 Ju
 JI
@@ -76577,6 +76585,7 @@ iMA
 iJy
 implementieren
 ich
+intervall
 ZTL
 ZX
 Zw
@@ -79680,6 +79689,8 @@ Zylinder
 Zündkerze
 Zähler
 Zustandslosigkeit
+Zufallvorganges
+Zufallsgröße
 Verbraucher
 VuuV
 VU
@@ -94241,6 +94252,7 @@ POST
 Protokolls
 Priorität
 Postman
+Prognosewert
 Herleitung
 Hy
 HE
@@ -105674,6 +105686,8 @@ emx
 extrahieren
 explosionsartige
 eroeffnen
+empirische
+empirischen
 Root
 RY
 RJH
@@ -143366,6 +143380,7 @@ Gasgemische
 Grundstoff
 Gleichförmige
 Gedankenexperiment
+Gesamtheit
 Oc
 OB
 OJ
