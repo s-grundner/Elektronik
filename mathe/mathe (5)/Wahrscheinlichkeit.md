@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Statistik"]
 aliases: ["WSK"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]

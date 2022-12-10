@@ -1,5 +1,5 @@
 ---
-tags: ["Wahrscheinlichkeit"]
+tags: ["Statistik"]
 aliases: ["Wahrscheinlichkeitsverteilungen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
