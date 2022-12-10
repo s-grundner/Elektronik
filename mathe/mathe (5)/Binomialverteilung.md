@@ -21,7 +21,7 @@ $$
 P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\
 \end{align*}
 $$
-wobei $n$ die Anzahl der Versuche, $k$ die Anzahl der Erfolge, $p$ die Wahrscheinlichkeit eines Erfolgs und $\binom{n}{k}$ das Binomialkoeffizient ist.
+wobei $n$ die Anzahl der Versuche, $k$ die Anzahl der Erfolge, $p$ die [[Wahrscheinlichkeit]] eines Erfolgs und $\binom{n}{k}$ das Binomialkoeffizient ist.
 ## [[Varianz]] $V(X)$
 Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
 $V(X)=n\cdot p\cdot(1-p)$
@@ -33,7 +33,7 @@ $E(X)=n\cdot p$
 
 ## unbekanntes $n$
 ````ad-example
-title: Wie viele Tickets kann man verkaufen, sodass mit $WSK=0.9$ der Flug nicht überbucht ist? 
+title: Wie viele Tickets kann man verkaufen, sodass mit [[Wahrscheinlichkeit|WSK]]$=0.9$ der Flug nicht überbucht ist? 
 - Fluglinie überbucht Flüge (200 Sitze)
 - WSK, dass ein gebuchter Passagier erscheint, $p=0.93$
 
@@ -46,7 +46,7 @@ $n=210$
 ```
 ````
 
-## unbekanntes $k$ bei gegebener $WSK$
+## unbekanntes $k$ bei gegebener [[Wahrscheinlichkeit|WSK]]
 ````ad-example
 title: Bsp
 $n=6\qquad p=0.4$
@@ -61,8 +61,7 @@ title: Würfeln mit einem Würfel
 
 ```ad-success
 title: Lösung
-![[Binom-vert.svg]]
-
+![[Binom-vert.svg|1375]]
 $$
 \begin{align*}
 P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\
@@ -76,7 +75,6 @@ $$
 ````
 
 
-![[Binom-vert.svg]]
 
 ````ad-example
 title: Prüfe, ob folgende [[Zufallsvariablen|Zufallsvariable]] $X$ binomialverteilt ist
