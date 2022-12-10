@@ -11,17 +11,18 @@ created: 10th December 2022
 ## 2. JG (EDT)
 - [[Dioden]] 
 - Flip Flops
-- 
 
 ## 3. JG
 - Digitale Zähler und Kippstufen
+- [[Metall-Oxid-Halbleiter-Feldeffekttransistor|MOSFETs]]
 - Microcontroller Architekturen und Register
 - Messtechnische Erfassungen für Eingebettete Systeme 
-- AVR (ATmega644p)
+- AVR ([[AVR ATmega644p|ATmega644p]])
 
 ## 4. JG
 - Microcontroller
-- AVR (ATmega644p)
+- AVR ([[AVR ATmega644p|ATmega644p]])
+- Digitale [[{MOC} Schnittstellen|schnittstellen]]
 - Embedded [[{MOC} Algorithms|Algorithms]]
 
 ## 5. JG
