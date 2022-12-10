@@ -35210,6 +35210,7 @@ gLCS
 gcF
 gsB
 gBq
+graph
 Mindestlaststrom
 Ma
 Mt
@@ -49801,6 +49802,7 @@ Wvjl
 Wdz
 Wshf
 WclE
+Wahrscheinlichkeitsdichte
 Einschaltphase
 Eingangsspannung
 Energie
@@ -128757,6 +128759,7 @@ kpulm
 klU
 kluhTE
 kombies
+kommunierte
 qB
 qo
 qg

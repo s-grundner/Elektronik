@@ -25,12 +25,9 @@ P(5)&= \binom{5}{5}0.3^{5}\\
 $$
 ```
 
-
-Wahrscheinlichkeitsdichte
-(graph)
-
-Wahrscheinlichkeitsverteilung
-(graph)
+| Wahrscheinlichkeitsdichte            | Wahrscheinlichkeitsverteilung        |
+| ------------------------------------ | ------------------------------------ |
+| ![[Pasted image 20221210150102.png]] | ![[Pasted image 20221210150004.png]] |
 
 
 # Tags
