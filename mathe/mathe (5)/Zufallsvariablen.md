@@ -14,4 +14,6 @@ created: 30th November 2022
 - [[Standardabweichung]]
 - [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilung]]
 
+Was sind zufallsvariablen?
+
 # Tags
