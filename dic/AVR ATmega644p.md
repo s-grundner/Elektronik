@@ -1,6 +1,6 @@
 ---
 tags: ["AVR"]
-aliases: ["CrumbTL", "CrumTL"]
+aliases: ["CrumbTL", "CrumTL", "ATmega644p", "at644p"]
 subject: ["dic"]
 source: ["Robert Vogl"]
 reference: [""]
@@ -70,7 +70,7 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 # Algo
 ## Hex to ASCII (xtoa)
 ## ASCII to Hex (atox)
-## Ringbuffer
+## [[Ringbuffer]]
 
 ---
 # Tags

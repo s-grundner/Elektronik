@@ -5736,6 +5736,7 @@ aSYA
 arPM
 aCbbb
 andersartig
+ausgestoßen
 subject
 source
 so
@@ -11484,6 +11485,7 @@ rMW
 rIh
 ruS
 required
+reversiblen
 created
 cU
 cc
@@ -17560,6 +17562,8 @@ Stickpunkten
 Suspension
 Siedepunkt
 Salze
+Suck
+Squeeze
 Inverswandler
 Indukitivät
 ID
@@ -20654,6 +20658,7 @@ IDd
 IUx
 Integration
 Isotope
+Idealfall
 Tags
 Transistor
 Teil
@@ -23660,6 +23665,7 @@ TJd
 TpJ
 Trennverfahren
 Teilchengröße
+Takte
 Der
 Diode
 Dabei
@@ -32420,6 +32426,7 @@ dpTv
 dCCC
 description
 dekantieren
+darunter
 geschlossen
 geschlossenen
 gespeicherten
@@ -35234,6 +35241,11 @@ gBq
 graph
 gleichartig
 gasförmig
+geschlossenem
+größten
+gezündet
+gedrückt
+geöffnet
 Mindestlaststrom
 Ma
 Mt
@@ -38356,6 +38368,11 @@ Moleküle
 Massenzahl
 Massen
 Mengenangaben
+Mechanik
+Maschine
+Motors
+Moment
+Microcontroller
 June
 Ju
 JI
@@ -44113,6 +44130,13 @@ BHzc
 Binomialkoeffizient
 BBFABBA
 Bestehen
+Beschleunigte
+Bewegungsänderung
+Bang
+Blow
+Benzin
+Brennstoff
+Beide
 Converter
 Columns
 CE
@@ -46856,6 +46880,7 @@ CoM
 ClU
 Chromatographie
 Chemische
+Carnot
 Während
 Wx
 Wb
@@ -49838,6 +49863,7 @@ Wshf
 WclE
 Wahrscheinlichkeitsdichte
 Werkzeug
+Wärme
 Einschaltphase
 Eingangsspannung
 Energie
@@ -52987,6 +53013,10 @@ Erfolge
 Erfolgs
 Emulsion
 Erhaltung
+Einlassventil
+Erfassungen
+Eingebettete
+Embedded
 Fällt
 Filter
 FlateDecode
@@ -55966,6 +55996,9 @@ Fortschritt
 Fortbildung
 Faktoren
 Formelsprache
+Fortbewegung
+Flip
+Flops
 fließt
 für
 fFOlq
@@ -67600,6 +67633,7 @@ ldD
 ldsm
 lyQ
 lCq
+laufen
 Kondensator
 KO
 KkA
@@ -70588,6 +70622,12 @@ KiNg
 KYA
 KWrg
 KMv
+Kraft
+Kraftarten
+Kräfteaddition
+Kreisprozess
+Kolben
+Kippstufen
 bzw
 bbd
 bg
@@ -73438,6 +73478,7 @@ bcE
 bmM
 bNrO
 bIii
+bewegt
 in
 ihr
 iz
@@ -79560,6 +79601,10 @@ ZWt
 ZLyh
 Zusammentragung
 Zerlegung
+Zyklus
+Zylinder
+Zündkerze
+Zähler
 Verbraucher
 VuuV
 VU
@@ -82545,6 +82590,16 @@ Vorhersagen
 Varianz
 Verfahren
 Verschiedene
+Verbrennungsmotor
+Viertakt
+Verdichten
+Vier
+Vergasers
+Verdichtungstakt
+Ventilen
+Ventile
+Verdichtung
+Verbrennung
 Nach
 Ngm
 NN
@@ -88238,6 +88293,10 @@ vXwr
 vdi
 verschiedene
 values
+versetzt
+verdichtet
+verrichtet
+verbrannten
 jetzt
 jv
 ji
@@ -94089,6 +94148,7 @@ Prüfe
 Prüflos
 Partialbruchzerlegung
 Partialbrüche
+Prozess
 Herleitung
 Hy
 HE
@@ -96853,6 +96913,8 @@ Hjq
 Häufigkeit
 Homogen
 Heterogen
+Halbleiter
+Hooke
 obj
 oy
 oi
@@ -102400,6 +102462,8 @@ Ldl
 Lehrmaterial
 Lehre
 Löslichkeit
+Luftgemisches
+Logikgatter
 endobj
 ey
 endstream
@@ -105509,6 +105573,7 @@ eotB
 eqpp
 emx
 extrahieren
+explosionsartige
 Root
 RY
 RJH
@@ -108696,6 +108761,9 @@ RuKT
 RIhaa
 Reinstoff
 Reaktionsgleichungen
+Reibung
+Realisierung
+Register
 XRef
 XTG
 XW
@@ -120138,6 +120206,7 @@ hnF
 hzY
 hUV
 heter
+hierbei
 xI
 xj
 xA
@@ -143165,6 +143234,8 @@ GMdln
 Gemisch
 Gasgemische
 Grundstoff
+Gleichförmige
+Gedankenexperiment
 Oc
 OB
 OJ
@@ -146110,6 +146181,9 @@ OCo
 Ome
 OrS
 Ordnungszahl
+Ortsfaktor
+Ottomotor
+Ottomotors
 mu
 mR
 ma
@@ -153734,6 +153808,16 @@ Autors
 Aerosol
 Aggregatzustände
 Abdampfen
+Arbeit
+Ansaugen
+Arbeiten
+Auspuffen
+Arbeitstakt
+Ansaugtakt
+Auslassventil
+Auspufftakt
+Abgase
+Architekturen
 ÖgLk
 ÖW
 ÖP
