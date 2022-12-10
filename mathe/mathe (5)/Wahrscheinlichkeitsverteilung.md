@@ -7,11 +7,18 @@ reference: []
 created: 30th November 2022
 ---
 # Wahrscheinlichkeitsverteilung
-
+-   Wahrscheinlichkeitsverteilung beschreibt wahrscheinlichkeit von Ereignissen
+-   verschiedene Arten: binomial, Poisson, Normalverteilung
+-   Form hängt von Faktoren ab: Anzahl Ergebnisse, Häufigkeit von Ergebnissen
+-   wichtiges Werkzeug in Statistik: Berechnung von Wahrscheinlichkeiten, Vorhersagen
+-   kann in Stickpunkten zusammengefasst werden:
+-   Wahrscheinlichkeitsverteilung
+-   verschiedene Arten
+-   Form hängt von Faktoren ab
 $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
-(kommunierte Binomialverteilung)
+
 ```ad-info
 title: [[Binomialverteilung|Binom]]: $h=5\qquad p=0.3$
 $$
@@ -25,9 +32,9 @@ P(5)&= \binom{5}{5}0.3^{5}\\
 $$
 ```
 
-| Wahrscheinlichkeitsdichte            | Wahrscheinlichkeitsverteilung        |
-| ------------------------------------ | ------------------------------------ |
-| ![[Pasted image 20221210150102.png]] | ![[Pasted image 20221210150004.png]] |
-
+| Wahrscheinlichkeitsdichte                 | Wahrscheinlichkeitsverteilung             |
+| ----------------------------------------- | ----------------------------------------- |
+| ![[Pasted image 20221210150102.png\|350]] | ![[Pasted image 20221210150004.png\|300]] |
+| Summe aller $=1$                          | w                                          |
 
 # Tags

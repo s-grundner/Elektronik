@@ -17546,6 +17546,8 @@ SjE
 SNMF
 SRkmz
 Skriptums
+Statistik
+Stickpunkten
 Inverswandler
 Indukitivät
 ID
@@ -49803,6 +49805,7 @@ Wdz
 Wshf
 WclE
 Wahrscheinlichkeitsdichte
+Werkzeug
 Einschaltphase
 Eingangsspannung
 Energie
@@ -52946,6 +52949,8 @@ EDDDDDDDD
 EdEU
 EDDDDDDD
 EYJ
+Ereignissen
+Ergebnissen
 Fällt
 Filter
 FlateDecode
@@ -55923,6 +55928,7 @@ FzqWW
 FIpX
 Fortschritt
 Fortbildung
+Faktoren
 fließt
 für
 fFOlq
@@ -61826,6 +61832,8 @@ woL
 wdg
 weSW
 wLx
+wahrscheinlichkeit
+wichtiges
 und
 uY
 uo
@@ -82490,6 +82498,7 @@ VujC
 VFnu
 VTPkY
 VUGW
+Vorhersagen
 Nach
 Ngm
 NN
@@ -85335,6 +85344,7 @@ NDDL
 Nqy
 NAR
 Nyt
+Normalverteilung
 öffnen
 öi
 öG
@@ -88177,6 +88187,7 @@ vdjvG
 vitJ
 vXwr
 vdi
+verschiedene
 jetzt
 jv
 ji
@@ -94022,6 +94033,7 @@ PASK
 PVl
 Philosophie
 Probablitiy
+Poisson
 Herleitung
 Hy
 HE
@@ -96783,6 +96795,7 @@ HEQZ
 HNjA
 HcX
 Hjq
+Häufigkeit
 obj
 oy
 oi
