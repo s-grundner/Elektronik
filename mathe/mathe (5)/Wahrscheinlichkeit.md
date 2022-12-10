@@ -8,12 +8,12 @@ created: 4th October 2022
 ---
 
 # Wahrscheinlichkeit
-Unter der Wahrscheinlichkeit $P(\omega)$ eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probablitiy) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$
 $$
 
 $$
 ## Ereignis 
-Oft interessiert uns nicht für die Wahrscheinlichkeit einkombies einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
+Oft interessiert uns nicht für die Wahrscheinlichkeit ein kombies einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
 
 ```ad-example
 title: Roulette $\dots$ geraden Zahlen
@@ -42,7 +42,8 @@ $P(E\&F) = P(E) + P(F)$
 Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 $P(E^C)=1-P(E)$
 $P(gerade) = 1-P(ungerade)$
-
+![[Pasted image 20221210140838.png]]
+![[Pasted image 20221210140907.png|975]]
 ``` ad-example
 title: 26 Schüler: 2 haben den selben Geburtstag
 $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
