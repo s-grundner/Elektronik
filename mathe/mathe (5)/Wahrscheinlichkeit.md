@@ -37,6 +37,7 @@ $P(E^C)=1-P(E)$
 $P(gerade) = 1-P(ungerade)$
 ![[Pasted image 20221210140838.png]]
 ![[Pasted image 20221210140907.png|1050]]
+
 ``` ad-example
 title: 26 Schüler: 2 haben den selben Geburtstag
 $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
@@ -57,6 +58,8 @@ $P(E\&F) = P(E) + P(F)$
 ![[Pasted image 20221211124209.png]]
 ![[Pasted image 20221211124216.png]]
 # Tags
+
+
 
 
 ```ad-example
