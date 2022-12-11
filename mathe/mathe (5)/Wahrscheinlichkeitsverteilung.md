@@ -18,6 +18,7 @@ $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
 
+
 ```ad-info
 title: [[Binomialverteilung|Binom]]: $h=5\qquad p=0.3$
 $$
