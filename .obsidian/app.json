@@ -11,5 +11,9 @@
     "downscalePercent": 65
   },
   "promptDelete": false,
-  "trashOption": "local"
+  "trashOption": "local",
+  "spellcheckLanguages": [
+    "de-DE"
+  ],
+  "spellcheck": true
 }
