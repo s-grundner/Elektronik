@@ -7,6 +7,7 @@ reference: []
 created: 30th November 2022
 ---
 # Wahrscheinlichkeitsverteilung
+
 -   Wahrscheinlichkeitsverteilung beschreibt [[wahrscheinlichkeit]] von Ereignissen
 -   verschiedene Arten: binomial, Poisson, Normalverteilung
 -   Form hängt von Faktoren ab: Anzahl Ergebnisse, Häufigkeit von Ergebnissen
@@ -17,8 +18,7 @@ Die Gesamtheit der Werte $x_{i}$ einer diskreten [[Zufallsvariable|Zufallsvariab
 $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
-
-
+:
 ```ad-info
 title: [[Binomialverteilung|Binom]]: $h=5\qquad p=0.3$
 $$
