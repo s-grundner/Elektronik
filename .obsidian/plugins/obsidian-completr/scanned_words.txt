@@ -20716,6 +20716,7 @@ Igf
 IQQ
 InFDv
 IMI
+Implizit
 Tags
 Transistor
 Teil
@@ -26694,6 +26695,8 @@ Diskrete
 DNt
 DCP
 DrZ
+Differenzialrechnung
+Differenzieren
 nach
 nur
 nD
@@ -70806,6 +70809,7 @@ Kontoservice
 Kontainer
 KYNL
 Keee
+Kettenregel
 bzw
 bbd
 bg
@@ -140727,6 +140731,7 @@ Qcf
 Qkz
 Qlll
 QDe
+Quotientenregel
 Gd
 GU
 GC
@@ -154203,6 +154208,7 @@ Allen
 Addon
 Applikation
 Application
+Ableitungsregeln
 ÖgLk
 ÖW
 ÖP

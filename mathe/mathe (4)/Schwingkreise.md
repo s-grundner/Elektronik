@@ -50,7 +50,7 @@ $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 
 ## Freie Schwingungen im realen Serienschwingkreis
-Freie Schwingungen führt ein schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach Dämpfung oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
+Freie Schwingungen führt ein schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [[Dämpfung]] oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
 > ![[e_serien_schwingk_frei.png|400]]
 
@@ -251,5 +251,5 @@ $$
 
 # Hardware Implementationen
 - [[LC Oszillatoren]]
-- Colpitts Oszillator
+- [[Colpitts Oszillator]]
 - 
