@@ -14,7 +14,7 @@ void init_usart(void)
 {
 	UCSR0B = ((1 << RXEN0) | (1 << RXCIE0));
 	UCSR0C = ((1 << UCSZ01) | (1 << UCSZ00));
-	UBRR0 = 51
+	UBRR0 = 51;
 }
 
 ISR(USART0_RX_vect)
