@@ -12,7 +12,7 @@ created: 16th November 2022
 - Bei einem Zufallsexperiment gibt es nur $2$ Ergebnisse: $A$ oder $\neg{A}$
 - Es werden $n$ gleichartige Versuche durchgeführt.
 - Die Einzelversuche sind voneinander unabhängig.
-- Die [[Zufallsvariablen|Zufallsvariable]] $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+- Die [[Zufallsvariable|Zufallsvariable]] $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
 
 $$p=P(A)$$
 Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$

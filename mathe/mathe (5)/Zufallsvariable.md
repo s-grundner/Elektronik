@@ -7,7 +7,7 @@ reference: []
 created: 30th November 2022
 ---
 
-# Zufallsvariablen
+# Zufallsvariable
 Ein Merkmal $X$, dessen numerische Werte dei Ergebnisse eines Zufallvorganges sind, heißt Zufallsvariable oder Zufallsgröße.
 ## Diskrete Zufallsvariablen
 Eine diskrete Zufallsvariable kann nur einzelne Werte annehmen.

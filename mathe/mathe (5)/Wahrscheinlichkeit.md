@@ -9,9 +9,7 @@ created: 4th October 2022
 
 # Wahrscheinlichkeit
 Unter der Wahrscheinlichkeit $P(\omega)$ (Probablitiy) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$
-$$
-
-$$
+![[Pasted image 20221211123853.png|750]]
 ## Ereignis 
 Oft interessiert uns nicht für die Wahrscheinlichkeit ein kombies einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
 
@@ -34,27 +32,30 @@ $P(\omega_1)=P(\omega_2)\dots=P(\omega_n)\qquad \notin$
 ## Rechnen mit Wahrscheinlichkeiten
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
 
-```ad-example
-title: gerade und ungerade Zahl bei Roulette
-Wenn die Ereignisse E&F unvereinbar sind, dann gilt:
-$P(E\&F) = P(E) + P(F)$
-```
 Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 $P(E^C)=1-P(E)$
 $P(gerade) = 1-P(ungerade)$
 ![[Pasted image 20221210140838.png]]
-![[Pasted image 20221210140907.png|1075]]
+![[Pasted image 20221210140907.png|1050]]
 ``` ad-example
 title: 26 Schüler: 2 haben den selben Geburtstag
 $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
 
 $\frac{364}{365}\cdot\frac{364}{365}\cdot\frac{363}{365}\dots\frac{340}{365} = \frac{365!}{365^{26}\cdot339!}=0.4$
 $1-0.4=0.6$
-
 ```
 
-## [[Zufallsvariablen]]
+```ad-example
+title: gerade und ungerade Zahl bei Roulette
+Wenn die Ereignisse E&F unvereinbar sind, dann gilt:
+$P(E\&F) = P(E) + P(F)$
+```
 
+
+## [[Zufallsvariable]]
+# Bedingte Wahrscheinlichkeit
+![[Pasted image 20221211124209.png]]
+![[Pasted image 20221211124216.png]]
 # Tags
 
 
