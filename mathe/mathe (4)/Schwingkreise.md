@@ -274,7 +274,17 @@ B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}\\
 &= \frac{1}{2\pi}\cdot \frac{R}{L}\\
 \end{align*}
 $$
-![[Pasted image 20221212102110.png]]
+![[Pasted image 20221212102110.png|600]]
+$$
+\begin{align*}
+\underline{Y} &= \frac{1}{R} + j\left(\omega\cdot C - \frac{1}{\omega L}\right)\qquad \text{Y wird zu null bei Resonanz}\\
+\omega_{0}\cdot C &= \frac{1}{\omega_{0}\cdot L} = \frac{1}{\sqrt{LC}}
+\end{align*}
+$$
+
+<img align=left src="Pasted image 20221212102519.png"><>
+
+
 
 
 
