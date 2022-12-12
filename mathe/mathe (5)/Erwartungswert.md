@@ -1,11 +1,24 @@
+---
+tags: ["Statistik"]
+aliases: []
+subject: ["mathe"]
+source: ["Rudolf Frauenschuh"]
+reference: []
+created: 30th November 2022
+---
+
 # Erwartungswert
+Der Erwartungswert ist ein Konzept aus der Statistik, das beschreibt, wie wahrscheinlich es ist, dass ein bestimmtes Ereignis eintritt.
+Es wird auch als Erwartung, Durchschnitt oder Mittelwert bezeichnet und wird in der Regel mit dem griechischen Buchstaben μ (Mu) symbolisiert.
+Der Erwartungswert einer [[Zufallsvariable]] X ist der Wert, den man erwarten würde, wenn man die [[Zufallsvariable]] X viele Male beobachtet und ihren Wert in jedem Durchgang notiert. Dieser Wert wird berechnet, indem man alle möglichen Werte der [[Zufallsvariable]] X mit ihren jeweiligen Wahrscheinlichkeiten multipliziert und dann alle diese Produkte addiert.
+
 
 ## [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilung]]
 Jedem $x_{i}$ wird eine [[Wahrscheinlichkeit|WSK]] zugeordnet :
 $M_{x}\rightarrow [0;1]$
 (Diag verteilung würfeln mit 2 würfel)
-## Erwartungswert einer Zufallsvariable
-Ist $X$ eine diskrete Zufallsvariable mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
+## Erwartungswert einer [[Zufallsvariable|Zufallsvariable]]
+Ist $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
 $$
 E(X)=\sum_{i=1}^{n}p_{i}\cdot x_{i}
 $$
@@ -18,17 +31,19 @@ E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdo
 \end{align*}
 $$
 ## Rechenreglen für den Erwartungswert
-$c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ Zufallsvariable
+$c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
 $$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h}\cdot c_{i}\cdot E(X_{i})$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
-nicht nur der erwartete *mittlere* Wert einer Zufallsvariable ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom Erwartungswert.
+nicht nur der erwartete *mittlere* Wert einer [[Zufallsvariable|Zufallsvariable]] ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom Erwartungswert.
 Sozusagen: wie weit streuen die Ergebnisse durchschnittlich?
-Sei $X$ eine diskrete Zufallsvariable mit $M_{x}=\{x_{1};\dots;x_{n}\}$
+Sei $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$
 und $p_{i}=P(X=x_{i})$
 
 
-# Tags
+# Beispiele
 
+```ad-example 
+title: Spiel mit Gewinnen von $X=\{-10,0,15,40\}$
 $$
 \begin{align*}
 E(X) &= \sum\limits_{i=0}^{n}p_{i}\cdot x_{i}=\qquad X=\{-10,0,15,40\}\\
@@ -41,6 +56,4 @@ Durchschnittlicher Gewinn pro spiel:
 $E(X)=$ -4,56€
 
 Ein Spiel ist dann Fair, wenn der erwartungswert $0$ ist.
-
----
-in einem Beutel...
+```

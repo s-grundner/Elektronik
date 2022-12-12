@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Statistik"]
 aliases: ["Binom"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
@@ -10,16 +10,20 @@ created: 16th November 2022
 # Binomialverteilung $P(X)$
 
 - Bei einem Zufallsexperiment gibt es nur $2$ Ergebnisse: $A$ oder $\neg{A}$
-- Es werden $n$ gleichartigen Versuche durchgeführt.
+- Es werden $n$ gleichartige Versuche durchgeführt.
 - Die Einzelversuche sind voneinander unabhängig.
-- Die Zufallsvariable $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+- Die [[Zufallsvariable|Zufallsvariable]] $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+
+Die Binomialverteilung ist eine Verteilungsformel, mit der die Wahrscheinlichkeiten für verschiedene Ergebnisse bei einem Zufallsexperiment bestimmt werden können. Bei einem solchen Experiment gibt es nur zwei mögliche Ergebnisse: $A$ oder $\neg{A}$. Die Einzelversuche sind voneinander unabhängig und die Zufallsvariable $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+
 $$p=P(A)$$
-Dann ist $X$ binomialverteilt mit den Parametern $n\&p$
+Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 $$
 \begin{align*}
 P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\
 \end{align*}
 $$
+wobei $n$ die Anzahl der Versuche, $k$ die Anzahl der Erfolge, $p$ die [[Wahrscheinlichkeit]] eines Erfolgs und $\binom{n}{k}$ das Binomialkoeffizient ist.
 ## [[Varianz]] $V(X)$
 Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
 $V(X)=n\cdot p\cdot(1-p)$
@@ -29,40 +33,9 @@ $E(X)=n\cdot p$
 
 ## [[Standardabweichung]]
 
-# Würfeln mit einem Würfel
-- Entweder 6 oder nicht 6
-- 4 Versuche
-- 6er bei einem Würfel
-![[Binom-vert.svg]]
-
-$$
-\begin{align*}
-P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\
-P(k=2) = \binom{4}{2} \cdot\left(\frac{1}{6}\right)^{2} \cdot\left(\frac{5}{6}\right)^{2} = \frac{1}{6^{4}}\\
-P(k=3) = \binom{4}{3} \cdot\left(\frac{1}{6}\right)^{3} \cdot\left(\frac{5}{6}\right)^{1} = \frac{1}{6^{4}}\\
-P(k=1) = \binom{4}{1} \cdot\left(\frac{1}{6}\right)^{1} \cdot\left(\frac{5}{6}\right)^{3} = \frac{1}{6^{4}}\\
-P(k=6) = \binom{4}{0} \cdot\left(\frac{1}{6}\right)^{0} \cdot\left(\frac{5}{6}\right)^{4} = \frac{1}{6^{4}}
-
-
-\end{align*}
-$$
-
-
-```ad-example
-title: ![[Pasted image 20221122111119.png]]
-1. 
-2. Nein, das ziehen eines Asses ist davon abhängig, wie viele bereits gezogen wurden
-3. Ja: $P=\frac{1}{20}$
-```
-
-```ad-example
-title: ![[Pasted image 20221122112926.png|725]]
-
-```
-
 ## unbekanntes $n$
 ````ad-example
-title: Wie viele Tickets kann man verkaufen, sodass mit $WSK=0.9$ der Flug nicht überbucht ist? 
+title: Wie viele Tickets kann man verkaufen, sodass mit [[Wahrscheinlichkeit|WSK]]$=0.9$ der Flug nicht überbucht ist? 
 - Fluglinie überbucht Flüge (200 Sitze)
 - WSK, dass ein gebuchter Passagier erscheint, $p=0.93$
 
@@ -75,11 +48,56 @@ $n=210$
 ```
 ````
 
-## unbekanntes $k$ bei gegebener $WSK$
+## unbekanntes $k$ bei gegebener [[Wahrscheinlichkeit|WSK]]
 ````ad-example
 title: Bsp
 $n=6\qquad p=0.4$
 bei welchem $k$ gilt $P(x\leq k)>0.6$
+````
+
+````ad-example
+title: Würfeln mit einem Würfel
+- Entweder 6 oder nicht 6
+- 4 Versuche
+- 6er bei einem Würfel
+
+```ad-success
+title: Lösung
+![[Binom-vert.svg|1375]]
+$$
+\begin{align*}
+P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\
+P(k=2) = \binom{4}{2} \cdot\left(\frac{1}{6}\right)^{2} \cdot\left(\frac{5}{6}\right)^{2} = \frac{1}{6^{4}}\\
+P(k=3) = \binom{4}{3} \cdot\left(\frac{1}{6}\right)^{3} \cdot\left(\frac{5}{6}\right)^{1} = \frac{1}{6^{4}}\\
+P(k=1) = \binom{4}{1} \cdot\left(\frac{1}{6}\right)^{1} \cdot\left(\frac{5}{6}\right)^{3} = \frac{1}{6^{4}}\\
+P(k=6) = \binom{4}{0} \cdot\left(\frac{1}{6}\right)^{0} \cdot\left(\frac{5}{6}\right)^{4} = \frac{1}{6^{4}}
+\end{align*}
+$$
+
+````
+
+
+
+````ad-example
+title: Prüfe, ob folgende [[Zufallsvariablen|Zufallsvariable]] $X$ binomialverteilt ist
+![[Pasted image 20221122111119.png]]
+```ad-success
+title: Lösung
+1. 
+2. Nein, das ziehen eines Asses ist davon abhängig, wie viele bereits gezogen wurden
+3. Ja: $P=\frac{1}{20}$
+4.
+```
+````
+
+````ad-example
+title: Prüflos
+![[Pasted image 20221122112926.png|725]]
+
+```ad-success
+title: Lösung
+```
+
 ````
 
 # Quellen
