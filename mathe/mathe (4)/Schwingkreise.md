@@ -269,9 +269,14 @@ $$
 $$
 \begin{align*}
 Q&= \dfrac{U_{L,R}}{U} =\dfrac{U_{C,R}}{U} = \frac{\omega_{0}\cdot L}{R}=\frac{1}{\omega_{0}\cdot RC}\\
-B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}
+B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}\\
+&\dots\\
+&= \frac{1}{2\pi}\cdot \frac{R}{L}\\
 \end{align*}
 $$
+![[Pasted image 20221212102110.png]]
+
+
 
 # Hardware Implementationen
 - [[LC Oszillatoren]]
