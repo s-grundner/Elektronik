@@ -106930,6 +106930,7 @@ Rauschleistung
 Rechteckimpuls
 Richtdiagramm
 RFID
+Rückwärts
 XRef
 XTG
 XW
