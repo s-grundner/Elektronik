@@ -248,14 +248,28 @@ $$
 
 ## Freie Schwingung im realen Parallelschwingkreis
 ![[Pasted image 20221201122606.png]]
-
+### Herleitung
 $$
 \begin{align*}
+\omega_{1}&
 \begin{cases}
 R&= \omega_{1}\cdot L- \frac{1}{\omega_{1}\cdot C}\\
 &\dots\\
-\omega_{1,1}&= \frac{R}{2L}+\sqrt{\frac{R^{2}}{4L^{2}}+ \frac{1}{LC}} =\frac{R}{2L}+\sqrt{x}\\
+\omega_{1,1}&= \frac{R}{2L}+\sqrt{\dfrac{R^{2}}{4L^{2}}+ \dfrac{1}{LC}} =\dfrac{R}{2L}+\sqrt{x}\\
+\end{cases}\\
+\omega_{2}&
+\begin{cases}
+R&= -\left(\omega_{2}\cdot L - \dfrac{1}{\omega_{2}\cdot C}\right)\\
+\omega_{2}\cdot RC &= -\omega_{2}^{2}\cdot LC+1\\
+
 \end{cases}
+\end{align*}
+$$
+#### Abkürzung
+$$
+\begin{align*}
+Q&= \dfrac{U_{L,R}}{U} =\dfrac{U_{C,R}}{U} = \frac{\omega_{0}\cdot L}{R}=\frac{1}{\omega_{0}\cdot RC}\\
+B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}
 \end{align*}
 $$
 
