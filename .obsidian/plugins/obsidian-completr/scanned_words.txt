@@ -37,6 +37,8 @@ Sowohl
 Summe
 Selbsterregt
 Schwingfrequenz
+Schwingungserzeugung
+Serien
 Zusammenhang
 Zustand
 Zustände
@@ -192,6 +194,7 @@ Permutationen
 Permutation
 Prinzip
 Phasengang
+Parallel
 Wurzel
 Wiederholung
 Herleitung

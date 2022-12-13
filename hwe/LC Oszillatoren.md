@@ -132,7 +132,8 @@ Bandbreite: Obere minus untere [[Grenzfrequenz]]
 
 # Serien [[Schwingkreise|Schwingkreis]] mit OPV
 ## Schaltung
-
+![[Pasted image 20221213082043.png]]
+## 
 # Typen
 [[Colpitts Oszillator]]
 
