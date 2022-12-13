@@ -89,6 +89,46 @@ u_{1}(t) &= \dots
 \end{align*}
 $$
 ```
+### Herleitung
+$$
+\begin{align*}
+\omega_{1}&
+\begin{cases}
+R&= \omega_{1}\cdot L- \dfrac{1}{\omega_{1}\cdot C}\\
+&\dots\\
+\omega_{1,1}&= \frac{R}{2L}+\sqrt{\dfrac{R^{2}}{4L^{2}}+ \dfrac{1}{LC}} =\dfrac{R}{2L}+\sqrt{x}\\
+\end{cases}\\
+\omega_{2}&
+\begin{cases}
+R&= -\left(\omega_{2}\cdot L - \dfrac{1}{\omega_{2}\cdot C}\right)\\
+\omega_{2}\cdot RC &= -\omega_{2}^{2}\cdot LC+1\\
+
+\end{cases}
+\end{align*}
+$$
+#### Abkürzung
+$$
+\begin{align*}
+Q&= \dfrac{U_{L,R}}{U} =\dfrac{U_{C,R}}{U} = \frac{\omega_{0}\cdot L}{R}=\frac{1}{\omega_{0}\cdot RC}\\
+B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}\\
+&\dots\\
+&= \frac{1}{2\pi}\cdot \frac{R}{L}\\
+\end{align*}
+$$
+![[Pasted image 20221212102110.png|600]]
+$$
+\begin{align*}
+\underline{Y} &= \frac{1}{R} + j\left(\omega\cdot C - \frac{1}{\omega L}\right)\qquad \text{Y wird zu null bei Resonanz}\\
+\omega_{0}\cdot C &= \frac{1}{\omega_{0}\cdot L} = \frac{1}{\sqrt{LC}}
+\end{align*}
+$$
+![[ParallelZeiger.png|600]]
+- $Y\rightarrow0$ bei $\omega = \omega_{r}$
+- $Z$ wird ein Maximum
+- Spannungsmaximum bei Resonanz
+- bewirkt $\underline{I}_{L}$, $\underline{I}_{C}$ welche größer als $\underline{I}$ 
+
+Bandbreite: Obere minus untere Grenzfrequenz
 # Typen
 [[Colpitts Oszillator]]
 
