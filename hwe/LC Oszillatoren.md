@@ -133,7 +133,10 @@ Bandbreite: Obere minus untere [[Grenzfrequenz]]
 # Serien [[Schwingkreise|Schwingkreis]] mit OPV
 ## Schaltung
 ![[Pasted image 20221213082043.png]]
-## 
+## Herleitung
+man betrachtet den Fall der ungedämpften Schwingung mit $\delta = \frac{R}{2L}= 0$
+Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
+
 # Typen
 [[Colpitts Oszillator]]
 
