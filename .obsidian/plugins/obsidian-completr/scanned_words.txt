@@ -36,6 +36,7 @@ Schaltung
 Sowohl
 Summe
 Selbsterregt
+Schwingfrequenz
 Zusammenhang
 Zustand
 Zustände
@@ -85,6 +86,7 @@ minimal
 möglichkeiten
 möglich
 muss
+minus
 Differentialgleichungen
 Dämpfungskonstante
 Daraus
@@ -126,6 +128,7 @@ Gesamten
 Gleichgewichtszustand
 Gleichung
 Geordnet
+Grenzfrequenz
 Mechanischer
 Masse
 Maximum
@@ -139,6 +142,7 @@ Bedingung
 Bestimmung
 Berechnung
 Bildung
+Bandbreite
 Ausdruck
 Auslenkung
 Ansatz
@@ -153,6 +157,7 @@ Anmerkung
 Allgemeine
 umformen
 unter
+untere
 finale
 folgende
 führt
@@ -202,6 +207,7 @@ created
 October
 Objekten
 Oszillatoren
+Obere
 Vorgang
 Variation
 insgesamt

@@ -8,12 +8,12 @@ created: 17th November 2022
 ---
 
 # LC Oszillatoren
-- Prinzip der Schwingungserzeugnung: Entladung eines [[Schwingkreise|Schwingkreis]]es
+- Prinzip der Schwingungserzeugung: Entladung eines [[Schwingkreise|Schwingkreis]]es
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
-- sowohl Reihen- als auch Parallelschwingkreis möglich 
+- sowohl Serien- als auch Parallelschwingkreis möglich 
 - Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
 - geeignet für hohe Frequenzen
-
+# Parallel [[Schwingkreise|Schwingkreis]] mit OPV
 ## Schaltung
 ![[Pasted image 20221201122247.png]]
 ## Herleitung
@@ -89,7 +89,7 @@ u_{1}(t) &= \dots
 \end{align*}
 $$
 ```
-### Herleitung
+### Herleitung der Schwingfrequenz
 $$
 \begin{align*}
 \omega_{1}&
@@ -128,7 +128,11 @@ $$
 - Spannungsmaximum bei Resonanz
 - bewirkt $\underline{I}_{L}$, $\underline{I}_{C}$ welche größer als $\underline{I}$ 
 
-Bandbreite: Obere minus untere Grenzfrequenz
+Bandbreite: Obere minus untere [[Grenzfrequenz]]
+
+# Serien [[Schwingkreise|Schwingkreis]] mit OPV
+## Schaltung
+
 # Typen
 [[Colpitts Oszillator]]
 
