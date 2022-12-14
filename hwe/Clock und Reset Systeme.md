@@ -22,7 +22,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 ## Herleitung der Schwingbedingungen eines Oszillators
 
 
-Aussagen aus dem Barkhausenkriterium
+Aussagen aus dem [[Barkhausen Kriterium]]
 
 - Die vom Rückkoppelnetzwerk hervorgerufene Dämpfung muss vom Verstärker kompensiert werden 
 - Die Eingekoppelte Spannung $\overline{U_{1}}$ und die Rückgekoppelte Spannung $\overline{U_{3}}$
