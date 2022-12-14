@@ -1,9 +1,9 @@
 {
   "cssTheme": "Everforest",
-  "baseFontSize": 21,
+  "baseFontSize": 24,
   "translucency": true,
   "accentColor": "#8624ff",
-  "textFontFamily": "Helvetica,Fira Code,Monocraft",
-  "monospaceFontFamily": "Fira Code,Monocraft",
+  "textFontFamily": "Helvetica,Fira Code,FiraCode NF Retina,Monocraft",
+  "monospaceFontFamily": "Fira Code,Monocraft,FiraCode NF",
   "theme": "obsidian"
 }

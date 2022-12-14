@@ -114,7 +114,6 @@ $$
 \end{align*}
 $$
 
----
 ### Differentationssatz
 $$
 \begin{align*}
