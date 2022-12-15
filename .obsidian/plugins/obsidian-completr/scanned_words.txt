@@ -160,6 +160,7 @@ Allgemeine
 umformen
 unter
 untere
+ungedämpften
 finale
 folgende
 führt
@@ -202,6 +203,7 @@ Hardware
 größer
 gibt
 geeignet
+gilt
 Implementationen
 Imaginärteil
 Tags
