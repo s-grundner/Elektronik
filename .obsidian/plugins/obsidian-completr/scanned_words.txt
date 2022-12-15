@@ -1,5 +1,7 @@
 tags
 trigonometrischen
+them
+text
 aliases
 auch
 allgemein
@@ -15,6 +17,7 @@ sodass
 source
 sowohl
 sein
+scanned
 Schwingungen
 Schwingung
 Schwingkreis
@@ -55,6 +58,7 @@ beschreibt
 bewirkt
 bestimmten
 bestimmt
+before
 einem
 eingeschwungenen
 einer
@@ -79,6 +83,7 @@ Entladung
 Einsetzen
 dieser
 durch
+deleted
 kann
 kommt
 kriechend
@@ -104,6 +109,8 @@ wird
 wenn
 welche
 während
+will
+words
 Komponenten
 Kriechfall
 Koeffizienten
@@ -123,6 +130,7 @@ Frequenzstabilität
 Frequenzen
 partikuläre
 partikulären
+plugins
 Lösung
 Ladung
 Lösungen
@@ -166,6 +174,7 @@ folgende
 führt
 freien
 funktion
+file
 lineare
 leigt
 lässt
@@ -180,12 +189,14 @@ Real
 realen
 reference
 realteil
+resolve
 nach
 überlassen
 über
 oszillierend
 oder
 ohne
+obsidian
 ähnlichen
 Phasen
 Phase
@@ -196,6 +207,7 @@ Permutation
 Prinzip
 Phasengang
 Parallel
+Please
 Wurzel
 Wiederholung
 Herleitung
@@ -204,11 +216,16 @@ größer
 gibt
 geeignet
 gilt
+generator
 Implementationen
 Imaginärteil
 Tags
 Typen
+This
 created
+commit
+command
+completr
 October
 Objekten
 Oszillatoren
@@ -222,3 +239,5 @@ Ungeordnet
 versteht
 Quellen
 November
+Conflicts
+json
