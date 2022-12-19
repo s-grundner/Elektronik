@@ -18,7 +18,7 @@ created: 17th November 2022
 >![[Pasted image 20221201122247.png]]
 ## Herleitung mit BHK
 
-## Herleitung mit DGL
+## Herleitung mit [[{MOC} DGL|DGL]]
 $$
 \frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A
 $$
@@ -138,7 +138,7 @@ Bandbreite: Obere minus untere [[Grenzfrequenz]]
 > ![[Pasted image 20221213082043.png]]
 
 ## Herleitung mit BHK
-## Herleitung mit DGL
+## Herleitung mit [[{MOC} DGL|DGL]]
 man betrachtet den Fall der ungedämpften Schwingung mit $\delta = \frac{R}{2L}= 0$
 Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
