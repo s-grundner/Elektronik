@@ -134,8 +134,6 @@ Bandbreite: Obere minus untere [[Grenzfrequenz]]
 
 
 # Serien [[Schwingkreise|Schwingkreis]] mit OPV
-## Schaltung
-
 > [!info] Schaltung
 > ![[Pasted image 20221213082043.png]]
 
