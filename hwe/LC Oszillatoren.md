@@ -147,6 +147,6 @@ Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
 # Quellen
 
-
+<iframe src="https://htlsalzburg78.autodesk360.com/shares/public/SH35dfcQT936092f0e43c7db28f51da1abd4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
