@@ -60,6 +60,7 @@ Zufallsvariable
 Zufallvorganges
 Zufallsgröße
 Zufallsvariablen
+Zufallsvorgangs
 Jede
 besteht
 beide
@@ -148,6 +149,7 @@ words
 width
 webkitallowfullscreen
 wächst
+waren
 Komponenten
 Kriechfall
 Koeffizienten
@@ -197,6 +199,7 @@ Bandbreite
 Bauelementen
 Betrag
 Bauelemente
+Bisher
 Ausdruck
 Auslenkung
 Ansatz
