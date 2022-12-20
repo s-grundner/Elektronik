@@ -10,6 +10,7 @@ anwenden
 angegeben
 allowfullscreen
 aktiven
+annehmen
 subject
 schwingung
 sind
@@ -21,6 +22,7 @@ source
 sowohl
 sein
 scanned
+stetige
 Schwingungen
 Schwingung
 Schwingkreis
@@ -48,11 +50,16 @@ Serien
 Systeme
 Schwingbedingungen
 Skriptum
+Stetige
 Zusammenhang
 Zustand
 Zustände
 Zustandes
 Zeitpunkt
+Zufallsvariable
+Zufallvorganges
+Zufallsgröße
+Zufallsvariablen
 Jede
 besteht
 beide
@@ -82,6 +89,7 @@ elektrische
 erzeugt
 entstehen
 erfolgt
+einzelne
 Einschwingvorgang
 Einschwingvorganges
 Eigenfrequenz
@@ -93,9 +101,14 @@ Eingang
 Entladung
 Einsetzen
 Eingekoppelte
+Ergebnisse
+Eine
 dieser
 durch
 deleted
+dessen
+diskrete
+diskreten
 kann
 kommt
 kriechend
@@ -119,8 +132,11 @@ Daher
 Damit
 Dämpfung
 December
+Diskrete
 zurückgerechnet
 zurückkehrt
+zusammen
+zugehörigen
 werden
 wiefolgt
 wird
@@ -162,12 +178,14 @@ Gleichgewichtszustand
 Gleichung
 Geordnet
 Grenzfrequenz
+Gesamtheit
 Mechanischer
 Masse
 Maximum
 Möglichkeiten
 Mathematik
 Multinomialkoeffizient
+Merkmal
 Bezeichnungen
 Bezeichnung
 Bauteile
@@ -216,6 +234,7 @@ hohe
 height
 hervorgerufene
 heraus
+heißt
 Resonanzkreisfrequenz
 Resonanz
 Reihenfolge
@@ -231,6 +250,8 @@ realteil
 resolve
 nach
 nichtlineare
+numerische
+nimmt
 überlassen
 über
 oszillierend
@@ -250,6 +271,9 @@ Parallel
 Please
 Wurzel
 Wiederholung
+Werte
+Wert
+Wahrscheinlichkeiten
 Herleitung
 Hardware
 größer
@@ -259,6 +283,7 @@ gilt
 generator
 Implementationen
 Imaginärteil
+Intervall
 Tags
 Typen
 This
@@ -289,3 +314,4 @@ Nach
 Conflicts
 Clock
 json
+jeden
