@@ -17,7 +17,13 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 ### Nach den aktiven Bauelementen
 
 ## Typen
+### RC Oszillatoren
 [[NE555]]
+[[Wien-Brücke Oszillator]]
+[[Phasenschieber Oszillator]]
+
+### [[LC Oszillatoren]]
+### [[Relaxationsoszillator]]
 
 ## Herleitung der Schwingbedingungen eines Oszillators
 
@@ -31,11 +37,6 @@ Aussagen aus dem [[Barkhausen Kriterium]]
 - Das Rückkoppelnetzwerk ist Frequenzselektiv
 - Die Anregung der Schwingung erfolgt aus dem Rauschen oder aus einer Störung heraus
 
-## RC Oszillatoren mit OPV
-[[Wien-Brücke Oszillator]]
-[[Phasenschieber Oszillator]]
-
-## [[LC Oszillatoren]]
 
 
 
