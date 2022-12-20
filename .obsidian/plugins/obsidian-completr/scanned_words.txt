@@ -2,11 +2,13 @@ tags
 trigonometrischen
 them
 text
+true
 aliases
 auch
 allgemein
 anwenden
 angegeben
+allowfullscreen
 subject
 schwingung
 sind
@@ -94,6 +96,7 @@ möglichkeiten
 möglich
 muss
 minus
+mozallowfullscreen
 Differentialgleichungen
 Dämpfungskonstante
 Daraus
@@ -111,6 +114,8 @@ welche
 während
 will
 words
+width
+webkitallowfullscreen
 Komponenten
 Kriechfall
 Koeffizienten
@@ -175,12 +180,14 @@ führt
 freien
 funktion
 file
+frameborder
 lineare
 leigt
 lässt
 homogene
 hergeleitet
 hohe
+height
 Resonanzkreisfrequenz
 Resonanz
 Reihenfolge
@@ -234,6 +241,7 @@ Vorgang
 Variation
 insgesamt
 imaginärteil
+iframe
 Unter
 Ungeordnet
 versteht
