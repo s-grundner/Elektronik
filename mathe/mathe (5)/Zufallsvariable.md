@@ -16,7 +16,7 @@ Eine diskrete Zufallsvariable kann nur einzelne Werte annehmen.
 Eine stetige Zufallsvariable nimmt jeden Wert in einem bestimmten Intervall an.
 Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt [[Wahrscheinlichkeitsverteilung]] dieser Zufallsvariable.
 
-
+Bisher waren 
 
 # Tags
 - [[Erwartungswert]]
