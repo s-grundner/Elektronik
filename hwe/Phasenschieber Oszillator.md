@@ -46,7 +46,15 @@ A = \begin{pmatrix}
 j\omega C & 1
 \end{pmatrix}
 $$
+$$
+\begin{align*}
+A_{11}= \frac{U_{1}}{U_{2}}\Bigg |_{I_{2}=0} = 1+j\omega RC\\
+A_{11}= \frac{U_{1}}{U_{2}}\Bigg |_{I_{2}=0} = 1+j\omega RC\\
+A_{11}= \frac{U_{1}}{U_{2}}\Bigg |_{I_{2}=0} = 1+j\omega RC\\
+A_{11}= \frac{U_{1}}{U_{2}}\Bigg |_{I_{2}=0} = 1+j\omega RC\\
 
+\end{align*}
+$$
 
 # Tags
 [[Ketten Matrix]]
