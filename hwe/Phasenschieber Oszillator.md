@@ -61,6 +61,6 @@ $$
 \underline{k}=\frac{1}{A_{11}}&=\frac{1}{s^{3}R^{3}C^{3}+5s^{2}R^{2}C^{2}+6sRC+1}\qquad s = \sigma+j\omega\\
 &= \dots
 \end{align*}$$ #incomplete 
-bei Resonanz: 
+bei Resonanz: $\rightarrow $
 # Tags
 [[Kettenmatrix]]
