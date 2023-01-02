@@ -1,12 +1,12 @@
 ---
 tags: []
-aliases: []
+aliases: ["Kettenmatrizen"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
 created: 14th November 2022
 ---
-# Ketten [[Matrixrechnung|Matrix]]
+# Ketten[[Matrixrechnung|matrix]]
 $$
 \begin{pmatrix}
 U_{1}\\I_{1}
@@ -29,7 +29,7 @@ $$
 &&\left.A_{22}=\frac{I_{1}}{I_{2}}\right|_{U_{2}=0, \text{ Kurzschlus}}\\
 \end{align*}
 $$
-# Impedanz [[Matrixrechnung|Matrix]]
+# Impedanz[[Matrixrechnung|matrix]]
 
 $\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$
 $\underline{U}_{2}= \underline{I}_{1}\cdot\underline{Z}_{21}+\underline{I}_{2}\cdot\underline{Z}_{22}$
@@ -63,7 +63,7 @@ $$
 | $\underline{Z}_{22}$ | Leerlauf Ausgangswiderstand     | 
 
 
-# Admittanz [[Matrixrechnung|Matrix]]
+# Admittanz[[Matrixrechnung|matrix]]
 $\underline{I}_{1}= \underline{U}_{1}\cdot\underline{Y}_{11}+\underline{U}_{2}\cdot\underline{Y}_{12}$
 $\underline{I}_{2}= \underline{U}_{1}\cdot\underline{Y}_{21}+\underline{U}_{2}\cdot\underline{Y}_{22}$
 

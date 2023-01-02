@@ -39,7 +39,7 @@ $$
 > 3 Filterstufen mit $\left|\dfrac{U_{2}}{U_{1}}\right|=\dfrac{1}{2}\rightarrow\dfrac{1}{2}\cdot\dfrac{1}{2}\cdot\dfrac{1}{2} = \dfrac{1}{8}$ 
 
 ## Herleitung des gepufferten PSO
-> [!tip] Kettenmatrizen für die Herleitung
+> [!tip] [[Kettenmatrix|Kettenmatrizen]] für die Herleitung
 > ![[PSO-kette.png|975]]
 
 $$
@@ -50,13 +50,12 @@ j\omega C & 1
 $$
 $$
 \begin{align*}
-A_{11}&= \frac{U_{1}}{U_{2}}\Bigg |_{I_{2}=0} = 1+j\omega RC\\
+A_{11}&=1+j\omega RC\\
 A_{12}&= \frac{I_{1}}{U_{2}}\Bigg |_{I_{2}=0} = j\omega C\\
 A_{21}&= \frac{U_{1}}{I_{2}}\Bigg |_{U_{2}=0} = R\\
 A_{22}&= \frac{I_{1}}{I_{2}}\Bigg |_{U_{2}=0} = 1\\
-
 \end{align*}
 $$
 
 # Tags
-[[Ketten Matrix]]
+[[Kettenmatrix]]
