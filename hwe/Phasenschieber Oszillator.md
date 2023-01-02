@@ -38,7 +38,6 @@ $$
 > [!important] Tiefpass 3. Ordnung
 > 3 Filterstufen mit $\left|\dfrac{U_{2}}{U_{1}}\right|=\dfrac{1}{2}\rightarrow\dfrac{1}{2}\cdot\dfrac{1}{2}\cdot\dfrac{1}{2} = \dfrac{1}{8}$ 
 
-
 ## Herleitung des gepufferten PSO
 
 
