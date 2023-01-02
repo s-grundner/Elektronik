@@ -13,7 +13,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 ## Klassifizierung von Oszillatoren
 ### Nach Art der Schwingungserzeugung
 ### Der Form des Ausgangssignals
-### Nach der Art der frequenzbestimmmenden Bauteile
+### Nach der Art der frequenzbestimmenden Bauteile
 ### Nach den aktiven Bauelementen
 
 ## Typen
