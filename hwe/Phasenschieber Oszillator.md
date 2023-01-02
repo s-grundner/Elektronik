@@ -54,13 +54,8 @@ j\omega C & 1
 &&A_{22}=1\\
 \end{align*}
 $$
-Multiplikation der Matrizen: $A_{a}, A_{b}, A_{c}$
-$$
-A_{g}=A_{a}\cdot A_{b}\cdot A_{c}
-$$
-$$
+[[Matrixrechnung|Multiplikation der Matrizen:]] $A_{gesamt}=A_{a}\cdot A_{b}\cdot A_{c}$
 
-$$
 
 # Tags
 [[Kettenmatrix]]
