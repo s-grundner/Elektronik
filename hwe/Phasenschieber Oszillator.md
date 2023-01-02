@@ -54,8 +54,8 @@ j\omega C & 1
 &&A_{22}=1\\
 \end{align*}
 $$
-[[Matrixrechnung|Multiplikation der Matrizen:]] $A_{gesamt}=A_{a}\cdot A_{b}\cdot A_{c}$
-$$\underline{k}=\frac{1}{A_{gesamt}}=$$
-
+[[Matrixrechnung|Multiplikation der Matrizen:]] $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$
+Terme $A_{11}\dots A_{22}$ sind sehr lang
+$$\underline{k}=\frac{1}{A_{11}}=\frac{1}{s^{3}R^{3}C^{3}+5s^{2}R^{2}C^{2}+6sRC+1}$$
 # Tags
 [[Kettenmatrix]]
