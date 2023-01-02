@@ -14,9 +14,11 @@ created: 17th November 2022
 - Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
 - geeignet für hohe Frequenzen
 # Parallel [[Schwingkreise|Schwingkreis]] mit OPV
-## Schaltung
-![[Pasted image 20221201122247.png]]
-## Herleitung
+> [!info] Schaltung
+>![[Pasted image 20221201122247.png]]
+## Herleitung mit BHK
+
+## Herleitung mit [[{MOC} DGL|DGL]]
 $$
 \frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A
 $$
@@ -130,10 +132,13 @@ $$
 
 Bandbreite: Obere minus untere [[Grenzfrequenz]]
 
+
 # Serien [[Schwingkreise|Schwingkreis]] mit OPV
-## Schaltung
-![[Pasted image 20221213082043.png]]
-## Herleitung
+> [!info] Schaltung
+> ![[Pasted image 20221213082043.png]]
+
+## Herleitung mit BHK
+## Herleitung mit [[{MOC} DGL|DGL]]
 man betrachtet den Fall der ungedämpften Schwingung mit $\delta = \frac{R}{2L}= 0$
 Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
@@ -142,6 +147,6 @@ Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
 # Quellen
 
-
+<iframe src="https://htlsalzburg78.autodesk360.com/shares/public/SH35dfcQT936092f0e43c7db28f51da1abd4?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
