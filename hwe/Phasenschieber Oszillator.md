@@ -55,7 +55,7 @@ j\omega C & 1
 \end{align*}
 $$
 [[Matrixrechnung|Multiplikation der Matrizen:]] $A_{gesamt}=A_{a}\cdot A_{b}\cdot A_{c}$
-
+$$\underline{k}=\frac{1}{A_{gesamt}}=$$
 
 # Tags
 [[Kettenmatrix]]
