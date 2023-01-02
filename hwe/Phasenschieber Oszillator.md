@@ -26,15 +26,18 @@ $$\omega=\dfrac{\sqrt{3}}{RC}\rightarrow\omega^{2}=\dfrac{3}{R^{2}C^{2}}$$
 $$
 \begin{align*}
 \dfrac{U_{2}}{U_{1}}&=\dfrac{1}{1+j\omega RC}\rightarrow\\
-\Big|\dfrac{U_{2}}{U_{1}}\Big|&=\frac{1}{\sqrt{1+\omega^{2}R^{2}C^{2}}}
+\left|\dfrac{U_{2}}{U_{1}}\right|&=\frac{1}{\sqrt{1+\omega^{2}R^{2}C^{2}}}
 \end{align*}
 $$
 Nach einsetzen der Phasenbedingung: $\omega^{2}=\dfrac{3}{R^{2}C^{2}}$
 $$
 \begin{align*}
-&=\frac{1}{\sqrt{1+3\cdot}}
+&=\frac{1}{\sqrt{1+3\cdot \dfrac{R^{2}C^{2}}{R^{2}C^{2}}}}=\frac{1}{\sqrt{4}}= \frac{1}{2}
 \end{align*}
 $$
+> [!important] Tiefpass 3. Ordnung
+> 3 Filterstufen mit $\left|\dfrac{U_{2}}{U_{1}}\right|=\dfrac{1}{2}:$ 
+
 
 ## Herleitung des gepufferten PSO
 
