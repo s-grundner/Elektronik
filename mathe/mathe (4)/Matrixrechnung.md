@@ -8,6 +8,8 @@ created: 28th September 2022
 ---
 
 # Matrixrechnung
+Matrizen sind:
+- assoziativ $\rightarrow$ 
 ## Transponieren von Matrizen
 Werte werden um die Diagonale gespiegelt
 $$
@@ -32,9 +34,15 @@ B_{13} & B_{23}\\
 \end{pmatrix}
 \end{align*}
 $$
-## Addition
 ## Multiplikation
+> [!important] Größe des Produkts
+> ![[Matrix_multiplication.png|525]]
+
+
+> [!important]
+> ![[Pasted image 20230102212307.png|400]]
 
 
 ---
 # Tags
+https://de.wikipedia.org/wiki/Matrizenmultiplikation
