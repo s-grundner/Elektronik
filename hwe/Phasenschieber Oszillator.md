@@ -46,15 +46,20 @@ $$
 A = \begin{pmatrix}
 1+j\omega RC & R\\
 j\omega C & 1
-\end{pmatrix}
-$$
-$$
+\end{pmatrix}\qquad
 \begin{align*}
-A_{11}&=1+j\omega RC\\
-A_{12}&= \frac{I_{1}}{U_{2}}\Bigg |_{I_{2}=0} = j\omega C\\
-A_{21}&= \frac{U_{1}}{I_{2}}\Bigg |_{U_{2}=0} = R\\
-A_{22}&= \frac{I_{1}}{I_{2}}\Bigg |_{U_{2}=0} = 1\\
+&A_{11}=1+j\omega RC
+&&A_{12}=j\omega C\\
+&A_{21}=R
+&&A_{22}=1\\
 \end{align*}
+$$
+Multiplikation der Matrizen: $A_{a}, A_{b}, A_{c}$
+$$
+A_{g}=A_{a}\cdot A_{b}\cdot A_{c}
+$$
+$$
+
 $$
 
 # Tags
