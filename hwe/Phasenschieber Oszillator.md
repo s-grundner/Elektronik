@@ -26,8 +26,12 @@ $$\omega=\dfrac{\sqrt{3}}{RC}\rightarrow\omega^{2}=\dfrac{3}{R^{2}C^{2}}$$
 $$
 \begin{align*}
 \dfrac{U_{2}}{U_{1}}&=\dfrac{1}{1+j\omega RC}\rightarrow\\
-\Big|\dfrac{U_{2}}{U_{1}}\Big|&=\frac{1}{\sqrt{1+\omega^{2}R^{2}C^{2}}}\\
-&\text{nach einsetzen der Phasenbedingung}\\
+\Big|\dfrac{U_{2}}{U_{1}}\Big|&=\frac{1}{\sqrt{1+\omega^{2}R^{2}C^{2}}}
+\end{align*}
+$$
+Nach einsetzen der Phasenbedingung: $\omega^{2}=\dfrac{3}{R^{2}C^{2}}$
+$$
+\begin{align*}
 &=\frac{1}{\sqrt{1+3\cdot}}
 \end{align*}
 $$
