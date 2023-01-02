@@ -56,11 +56,21 @@ j\omega C & 1
 $$
 [[Matrixrechnung|Multiplikation der Matrizen:]] $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$
 Terme $A_{11}\dots A_{22}$ sind sehr lang
+
 $$
 \begin{align*}
 \underline{k}=\frac{1}{A_{11}}&=\frac{1}{s^{3}R^{3}C^{3}+5s^{2}R^{2}C^{2}+6sRC+1}\qquad s = \sigma+j\omega\\
 &= \dots
-\end{align*}$$ #incomplete 
-bei Resonanz: $\rightarrow $
+\end{align*}
+$$
+
+#incomplete 
+bei Resonanz: $\rightarrow \{Im\}=0:$
+$$
+\begin{align*}
+6RC&=\omega^{2}R^{3}C^{3}\\
+\omega_{0}&=\dfrac{\sqrt{6}}{RC}
+\end{align*}
+$$
 # Tags
 [[Kettenmatrix]]
