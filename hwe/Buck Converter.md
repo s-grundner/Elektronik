@@ -7,11 +7,12 @@ reference: []
 created: 20th April 2022
 ---
 # Buck Converter
->![[Buck_converter.svg]]
+## Schaltung
+![[Buck_converter.svg|1175]]
 
 Der [[{MOC} Transistor|Transistor]] $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gatespannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
 Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle) der Steuerspannung.
-
+## Impuls-Zeit Diagramm
 >![[BuckConverterLZD.png]]
 
 ## Schaltstufe S

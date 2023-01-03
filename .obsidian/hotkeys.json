@@ -34,5 +34,14 @@
       ],
       "key": "Y"
     }
+  ],
+  "canvas:new-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
+    }
   ]
 }

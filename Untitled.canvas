@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"4bb69fa2c1c1ff0c","x":-269,"y":-1289,"width":400,"height":518,"type":"file","file":"hwe/{MOC} Stromversorgungs Einheiten.md"},
+		{"id":"fc8c60e63291b210","x":-478,"y":9,"width":418,"height":400,"type":"file","file":"hwe/Boost Converter.md"},
+		{"id":"b2ee872d717cbf30","x":-60,"y":9,"width":400,"height":400,"type":"file","file":"hwe/Buck Converter.md"}
+	],
+	"edges":[]
+}
