@@ -8,7 +8,7 @@ created: 8th June 2022
 ---
 
 # Boost Converter
-## Schaltbild
+## Schaltung
 >![[Boostconverter.svg|600]]
 
 $$
@@ -17,18 +17,18 @@ $$
 Während der Einschaltphase des [[{MOC} Transistor|Transistors]] $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.
 Schaltet der [[{MOC} Transistor|Transistor]] $(T)$ ab, so fließt der Strom $I_{L}$ über die Diode (D) weiter und lädt den Kondensator $C_{a}$.
 
-## Impuls-Zeitdiagramm
+## Impuls-Zeit Diagramm
 > ![[boost_converter_IZdiag.svg|425]]
 
 ## Schalter $S$ bzw. [[{MOC} Transistor|Transistor]] $T$
 ### $0<t<t_{1}$: $S_{geschlossen}$
-Bei geschlossenen Schlater $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [[Induktivitäten|Spule]].
+Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [[Induktivitäten|Spule]].
  - Dabei *speichert die [[Induktivitäten|Spule]] Energie*.
  - Die Diode sperrt in dieser Zeit.
- - Der Kondensator $C_{A}$ leifert den Strom für den Verbraucher.
+ - Der Kondensator $C_{A}$ liefert den Strom für den Verbraucher.
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
-Nach dem öffnen von $S$ $(T)$ treibt die [[Induktivitäten|Spule]], aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlassrichtung* leigende, Diode.
+Nach dem öffnen von $S$ $(T)$ treibt die [[Induktivitäten|Spule]], aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, Diode.
 
 Ein Teil der in der [[Induktivitäten|Spule]] gespeicherten Energie, wird in der Sperrphase auf den Kondensator übertragen.
 $\rightarrow$ **[[Sperrwandler]]**, Da die [[Induktivitäten|Spule]] dem Kondensator nur in dieser Phase Strom liefert.

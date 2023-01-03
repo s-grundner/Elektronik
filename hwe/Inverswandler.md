@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["Bucl-Boost-Converter"; "Invertierender Wandler"]
+aliases: ["Buck-Boost-Converter", "Invertierender Wandler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
@@ -8,7 +8,7 @@ created: 26th September 2022
 ---
 
 # Inverswandler
-- Der Inverswandler arbeiter nach dem Sperrwandlerprinzip
+- Der Inverswandler arbeitet nach dem Sperrwandler-Prinzip
 - Die Ausgangsspannung $U_{e}$ kann größer oder kleiner als $U_{e}$ sein.
 
 ## Schaltbild

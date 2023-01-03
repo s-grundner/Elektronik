@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"b21541526435c27b","x":246,"y":-1356,"width":400,"height":400,"type":"file","file":"hwe/Schaltnetzteil.md"},
+		{"id":"f11bcddb2726c512","x":246,"y":-834,"width":400,"height":400,"type":"file","file":"hwe/Primär getakteter Schaltregler.md"},
+		{"id":"b2ee872d717cbf30","x":1320,"y":-1356,"width":400,"height":400,"type":"file","file":"hwe/Buck Converter.md"},
+		{"id":"fc8c60e63291b210","x":1320,"y":-834,"width":400,"height":400,"type":"file","file":"hwe/Boost Converter.md"},
+		{"id":"3681edd3fcedacf8","x":1320,"y":-292,"width":400,"height":400,"type":"file","file":"hwe/Inverswandler.md"},
+		{"id":"6231907bd92bdd11","x":-239,"y":-1356,"width":400,"height":400,"type":"file","file":"hwe/Spannungsstabilisierung.md"},
+		{"id":"4bb69fa2c1c1ff0c","x":6,"y":-2060,"width":400,"height":518,"type":"file","file":"hwe/{MOC} Stromversorgungs Einheiten.md"},
+		{"id":"487af2e3ded9f79d","x":772,"y":-834,"width":400,"height":400,"type":"file","file":"hwe/Sekundär getaktete Schaltregler.md"}
+	],
+	"edges":[]
+}
