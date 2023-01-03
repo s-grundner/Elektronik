@@ -15,7 +15,7 @@ created: 17th November 2022
 - geeignet für hohe Frequenzen
 # Parallel [[Schwingkreise|Schwingkreis]] mit [[Operations-Verstärker|OPV]]
 > [!info] Schaltung
->![[Pasted image 20221201122247.png]]
+>![[Pasted image 20230103031538.png]]
 ## Herleitung mit [[Barkhausen Kriterium|BHK]]
 
 ## Herleitung mit [[{MOC} DGL|DGL]]
@@ -146,3 +146,4 @@ Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 [[Colpitts Oszillator]]
 
 # Quellen
+![[Clock_und_Reset_Generierung.pdf]]

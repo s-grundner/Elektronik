@@ -11,6 +11,12 @@ created: 7th November 2022
 - Einfacher Aufbau
 	- Invertierender Verstärker
 	- RC-Netzwerk
+- einige Hz bis Megahertz Bereich
+- sehr niedriger Klirrfaktor (low-distortion)
+- breit durchstimmbar unter Verwendung von Doppel-Poti, bzw. Doppeldrehkondensatoren
+## Schaltung
+![[Pasted image 20230103031231.png]]
+
 ## Bedingung für die Schwingfrequenz
 
 [[Übertragungsfunktion]] vom RC-Tiefpass:
