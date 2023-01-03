@@ -23,6 +23,8 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 [[LC Oszillatoren]]
 [[Colpitts Oszillator]]
 [[Relaxationsoszillator]]
+[[Rechteck-Dreieck-Generator]]
+[[Kippschaltungen]]
 
 ## [[Barkhausen Kriterium]]
 
