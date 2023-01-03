@@ -25,7 +25,7 @@ Verlauf der Spannung:
 - Gelb: nach der Stufe
 
 >![[zw_spannungen_netzteil.png]]
-## Stabilisierung und regelung von Spannung
+## Stabilisierung und Regelung von Spannung
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz
 2. Ausgangsspannung und Toleranz
