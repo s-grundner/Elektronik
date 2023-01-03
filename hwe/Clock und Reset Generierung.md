@@ -21,6 +21,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 [[Wien-Brücke Oszillator]]
 [[Phasenschieber Oszillator]]
 [[LC Oszillatoren]]
+[[Colpitts Oszillator]]
 [[Relaxationsoszillator]]
 
 ## [[Barkhausen Kriterium]]

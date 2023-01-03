@@ -39,7 +39,7 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ## Herleitung
 ### Kapazitive 3-Punktschaltung
-Ein Teil der Schwingkreis Spannung muss phasenrichtig rückgekoppelt werden.
+Ein Teil der [[Schwingkreise|Schwingkreis]] Spannung muss phasenrichtig rückgekoppelt werden.
 ![[Pasted image 20221128104351.png|500]]
 ![[Pasted image 20221128104421.png]]
 

@@ -17,7 +17,7 @@ Der Impulsbreitenmodulator wandelt die Ausgansspannung $U_{R}$ des [[PI-Regler]]
 - $U_{R}$ läuft hoch bis $U_{ref}-k\cdot U_{a} = 0$
 - das Tastverhältnis steigt und $U_{a}$ steigt
 _Hinweis_:
-Der Regelverstärker (error amplifier) ist in der Fachliteratur als [[Transkonduktanzverstärler]] Angeführt. Dieser liefert einen Ausgangsstrom proportional zur Spannung $U_{d}$. Die $RC$ Kombination ($C_{1}$, $R_{4}$) wird in diesem Fall zwischen OPV Ausgang und Masse angeschlossen.
+Der Regelverstärker (error amplifier) ist in der Fachliteratur als [[Transkonduktanzverstärler]] Angeführt. Dieser liefert einen Ausgangsstrom proportional zur Spannung $U_{d}$. Die $RC$ Kombination ($C_{1}$, $R_{4}$) wird in diesem Fall zwischen [[Operations-Verstärker|OPV]] Ausgang und Masse angeschlossen.
  
 
 ---

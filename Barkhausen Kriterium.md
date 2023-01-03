@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["BHK"]
 subject: ["hwe"]
 source: ["Siebgert Schrempf"]
 reference: []
