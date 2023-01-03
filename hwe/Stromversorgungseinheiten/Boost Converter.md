@@ -9,7 +9,7 @@ created: 8th June 2022
 
 # Boost Converter
 ## Schaltung
->![[Boostconverter.svg|600]]
+![[Boostconverter.svg]]
 
 $$
 U_{a}\approx U_{e} \cdot \frac{1}{1-DC}

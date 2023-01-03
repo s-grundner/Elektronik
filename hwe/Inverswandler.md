@@ -12,7 +12,7 @@ created: 26th September 2022
 - Die Ausgangsspannung $U_{e}$ kann größer oder kleiner als $U_{e}$ sein.
 
 ## Schaltbild
->![[hwe/assets/Untitled Diagram.svg|650]]
+>![[hwe/assets/Untitled Diagram.svg]]
 
 Der [[{MOC} Transistor|Transistor]] arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird.
 Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
