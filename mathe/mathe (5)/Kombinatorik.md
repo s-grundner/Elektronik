@@ -11,9 +11,9 @@ created: 24th October 2022
 ![[Kombinatorik-formeln.PNG|700]]
 ## Produktregel
 Vorgang in $k$ Schritten
-1. Schritt hat $n_{1}$ möglichkeiten
-2. Schritt hat $n_{2}$ möglichkeiten
-3. $k$. Schritt hat $n_{k}$ möglichkeiten
+- 1. Schritt hat $n_{1}$ Möglichkeiten
+- 2. Schritt hat $n_{2}$ Möglichkeiten
+- $k$. Schritt hat $n_{k}$ Möglichkeiten
 Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 
 ## Permutationen
