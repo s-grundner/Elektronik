@@ -49,10 +49,7 @@ Die Folge der relativen zeigt ein konvergentes Verhalten
 # Wahrscheinlichkeit $P(\omega)$
 Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
 
->[!summary] Wahrscheinlichkeit $P(\omega)$
->$$
->P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle
->$$
+>[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
 
 > [!example] Würfel: $P(1)=\dfrac{1}{6}$
 
@@ -65,22 +62,27 @@ Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
 ## Wahrscheinlichkeitsfunktion
 $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
-> [!summary] Wahrscheinlichkeitsfunktion
-> $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
+> [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
 
 ### Laplace Experiment (Laplace Modell)
 Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$ ($n$ Elemente)
-$P(\omega_{i})=\dfrac{1}{n}$
 
-$P(E)=\dfrac{E}{|\Omega|}$
-mit:
-- $P(E)=$ die Wahrscheinlichkeit eines Ereignisses
-- $E=$ die Anzahl der günstigen Ergebnisse
-- $|\Omega|=$ die Anzahl der möglichen Ergebnisse 
+>[!summary] $P(\omega_{i})=\dfrac{1}{n}$
+>mit
+> - $n$
 
+>[!summary] $P(E)=\dfrac{E}{|\Omega|}$
+> mit:
+> - $P(E)\dots$ die Wahrscheinlichkeit eines Ereignisses
+> - $E\dots$ die Anzahl der günstigen Ergebnisse
+> - $|\Omega|\dots$ die Anzahl der möglichen Ergebnisse 
 
+> [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
+ 
 ## Rechnen mit Wahrscheinlichkeiten
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
+>[!example] gerade & ungerade Zahl beim Roulette
+
 
 Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 $P(E^C)=1-P(E)$
