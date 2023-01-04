@@ -33,8 +33,10 @@ Ein Merkmal kann verschieden ungewichtete Größen annehmen.
 
 ## Klassenbildung
 - Klasseneinteilung oder Klassierung bezeichnet in der Statistik die **Einteilung von Merkmalswerten oder statistischen Reihen in getrennte Gruppen, Klassen oder Größenklassen**.
-
 - Jedes Element der untersuchten Gesamtheit wird in Abhängigkeit von seinem Wert auf der entsprechenden Variablen genau einer Klasse zugeordnet.
+> [!example] Bsp.: Alter
+> man kann das Alter in bestimmte Altersklassen einteilen:
+> - Kleinkind, Jugendlich, Erwachsener...
 
 ### Richtlinien:
 1. nach Möglichkeit Klasse gleicher Breite bilden
@@ -44,5 +46,7 @@ Ein Merkmal kann verschieden ungewichtete Größen annehmen.
 	- max. 20
 3. Es muss klar sein, in welche Klasse ein Wert fällt.
 
-## 
+## Kennwerten von Stichproben
+Maßzahlen, die Stellvertretend wichtige Eigenschaften einer Stichprobe beschreiben.
+
 # Tags
