@@ -7,36 +7,6 @@ reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 4th October 2022
 ---
 
-# Einführung in die Wahrscheinlichkeitsrechnung 
-
-## Grundmenge $\Omega$
-- Menge aller möglichen Ergebnisse (Ausgänge) $\Omega$
-- Anzahl aller möglichen Ergebnisse $|\Omega|$ oder $n$
-
->[!example] 1 Würfel
-> $\Omega = \{\text{"1"; "2"; "3"; "4"; "5"; "6"}\}$
-> $|\Omega|= n = 6$
-
->[!example] 2 Würfel
-> $\Omega=\{2;\dots;12\}\qquad$ Augensumme
-> $\Omega=\{(1,1);(1,2);\dots;(6,6)\}\qquad$ Würfelkombination ohne Reihenfolge
-> $\Omega=\{(1,1);(1,2);(2,1);\dots(6,6)\}\qquad$ Würfelkombination mit Reihenfolge
-> 
-
-## Häufigkeit
-sei $\omega\in\Omega$ (ein Ausgang)
-$n$ Versuche
-
-### absolute Häufigkeit
-$H(\omega)$ … Anzahl des Auftretens von $\omega$
-$$\sum\limits_{\omega\in\Omega}H(\omega)=n$$
-
-### relative Häufigkeit
-$h(\omega)=\dfrac{H(\omega)}{n}$
-$$\sum\limits_{\omega\in\Omega}h(\omega)=1$$
-## Das empirische Gesetz der großen Zahlen
-Die Folge der relativen zeigt ein konvergentes Verhalten
-
 # Wahrscheinlichkeit $P(\omega)$
 ![[Pasted image 20221211123853.png|750]]
 Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
@@ -94,6 +64,9 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 > $P(E^C)=1-P(E)$
 
+![[UEB-rechnen-wsk.png]]
+
+
 >[!example] gerade & ungerade Zahl beim Roulette
 > $P(gerade) = 1-P(ungerade)$
 
@@ -104,55 +77,9 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 > 
 > $1-0.4=0.6$
 
-
-![[Pasted image 20221210140838.png|800]]
-
-
-
-# Bedingte Wahrscheinlichkeit $P(A|B)$
-
-Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = P\dfrac{A\wedge B}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
-- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
-
-## Additionssatz (ODER-Regel)
-
-> [!summary] für beliebige Ereignisse
-> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
-
-
-
-
->[!summary] 
-> $P(A\wedge B)=P(A)\cdot P(B|A)$
-> 
-> $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
-> 
-> $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
-
 # Tags
+[[Einführung in die Wahrscheinlichkeitsrechnung]]
+
+[[Bedingte Wahrscheinlichkeit]]
+
 https://studyflix.de/statistik/wahrscheinlichkeit-1932
-
-[[Zufallsvariable]]
-
-
-
-```ad-example
-title: 16) Unter 9 Passagieren sind 4 Schmuggler und 5 ehrliche Leute. Ein Zollbeamter wählt drei Personen zur Kontrolle aus. Alle drei entpuppen sich als Schmuggler. Berechne die WSK, rein zufällig ein so gutes Ergebnis zu erzielen.
-Ziehen ohne zurücklegen
-![[Pasted image 20221012125710.png]]
-$$
-\frac{4}{9}\cdot \frac{3}{8}\cdot \frac{2}{7} = \frac{1}{21}
-$$
-```
-
-```ad-example
-title: 18. Welches Ereignis ist wahrscheinlicher:
-a) 4 Würfe mit einem Würfel und dabei mindestens eine Sechs oder
-b) 24 Würfe mit 2 Würfeln und dabei mindestens eine Doppelsechs.
-![[Pasted image 20221012130725.png]]
-
-$$
-P(\geq 1 '6') = 1-P(\neg '6')
-$$
-
-```
