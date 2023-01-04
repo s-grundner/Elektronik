@@ -8,15 +8,6 @@ created: 4th October 2022
 ---
 
 # Einführung in die Wahrscheinlichkeitsrechnung 
-Ein Zufallsexperiment ist gekennzeichnet durch:
-- gleiche Ausgangsbedingungen
-- unsicheren Ausgang
-- beliebig wiederholbar
-
->[!example] Beispiele
-> - Würfeln mit einem Würfel
-> - ein Los ziehen
-> - eine Münze werfen
 
 ## Grundmenge $\Omega$
 - Menge aller möglichen Ergebnisse (Ausgänge) $\Omega$
@@ -47,11 +38,22 @@ $$\sum\limits_{\omega\in\Omega}h(\omega)=1$$
 Die Folge der relativen zeigt ein konvergentes Verhalten
 
 # Wahrscheinlichkeit $P(\omega)$
+![[Pasted image 20221211123853.png|750]]
 Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
 
 >[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
 
 > [!example] Würfel: $P(1)=\dfrac{1}{6}$
+
+Ein Zufallsexperiment ist gekennzeichnet durch:
+- gleiche Ausgangsbedingungen
+- unsicheren Ausgang
+- beliebig wiederholbar
+
+>[!example] Beispiele
+> - Würfeln mit einem Würfel
+> - ein Los ziehen
+> - eine Münze werfen
 
 ## Ereignis $E$
 Oft interessiert uns nicht für die Wahrscheinlichkeit eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
@@ -103,15 +105,24 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 > $1-0.4=0.6$
 
 
+![[Pasted image 20221210140838.png|800]]
+
+
+
 # Bedingte Wahrscheinlichkeit $P(A|B)$
 
 Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = P\dfrac{A\wedge B}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
 - Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
 
-> [!summary] Additionssatz (ODER-Regel)
-> $$P(A\wedge B) = P(A) + P(B)-\underbrace{P(A\vee B)}_{0\text{ wenn unvereinbar}}$$
+## Additionssatz (ODER-Regel)
 
->[!summary] Multiplikationssatz
+> [!summary] für beliebige Ereignisse
+> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
+
+
+
+
+>[!summary] 
 > $P(A\wedge B)=P(A)\cdot P(B|A)$
 > 
 > $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
@@ -123,8 +134,6 @@ https://studyflix.de/statistik/wahrscheinlichkeit-1932
 
 [[Zufallsvariable]]
 
-![[Pasted image 20221210140838.png]]
-![[Pasted image 20221210140907.png|1050]]
 
 
 ```ad-example
