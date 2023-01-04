@@ -35,7 +35,7 @@ $$
 ```ad-example
 title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $6$ Plätze aufzuteilen?
 $$
-6\cdot5\cdot4\cdot3= \frac{\overbrace{n!}^{\text{Plätze}}}{(n-\underbrace{k}_{\text{Schüler}})!}
+6\cdot5\cdot4\cdot3= \frac{n!}{(\underbrace{n}_{\text{Plätze}}-\underbrace{k}_{\text{Schüler}})!}
 $$
 
 ```
