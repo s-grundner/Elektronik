@@ -20,7 +20,7 @@ Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 ## Alle Elemente $n$
 [[Permutation]]
 
-## Stichprobe 
+## Stichprobe $k$ aus $n$ 
 [[Variation]]
 [[Kombination]]
 
