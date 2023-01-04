@@ -7,17 +7,7 @@ reference: []
 created: 4th October 2022
 ---
 
-# Wahrscheinlichkeit
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
-
-```ad-summary
-title: Formel
-```
->[!summary] Formel
->$$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
-
-> [!example] Würfel: $P(1)=\dfrac{1}{6}$
-
+# Wahrscheinlichkeitsrechnung
 Ein Zufallsexperiment ist gekennzeichnet durch:
 - gleiche Ausgangsbedingungen
 - unsicheren Ausgang
@@ -41,8 +31,23 @@ Menge aller möglichen Ergebnisse (Ausgänge)
 > 
 
 
-![[Pasted image 20221211123853.png|750]]
+## Wahrscheinlichkeit $P(\omega)$
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
 
+>[!summary] Formel
+>$$
+>P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle
+>$$
+
+> [!example] Würfel: $P(1)=\dfrac{1}{6}$
+
+## Häufigkeit
+sei $\omega\in\Omega$ (ein Ausgang)
+$n$ Versuche
+
+### absolute Häufigkeit
+$H(\omega)$ … 
+### relative Häufigkeit
 
 ## Ereignis 
 Oft interessiert uns nicht für die Wahrscheinlichkeit eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
