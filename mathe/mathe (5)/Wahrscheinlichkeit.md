@@ -8,7 +8,6 @@ created: 4th October 2022
 ---
 
 # Wahrscheinlichkeit $P(\omega)$
-![[Pasted image 20221211123853.png|750]]
 Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
 
 >[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
@@ -64,22 +63,20 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 > $P(E^C)=1-P(E)$
 
-![[UEB-rechnen-wsk.png]]
-
-
 >[!example] gerade & ungerade Zahl beim Roulette
 > $P(gerade) = 1-P(ungerade)$
 
  >[!example] 26 Schüler: 2 haben den selben Geburtstag
 > $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
 > 
-> $\dfrac{364}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
+> $\dfrac{365}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
 > 
 > $1-0.4=0.6$
 
 # Tags
 [[Einführung in die Wahrscheinlichkeitsrechnung]]
-
 [[Bedingte Wahrscheinlichkeit]]
 
+![[Pasted image 20221211123853.png|875]]
+![[UEB-rechnen-wsk.png]]
 https://studyflix.de/statistik/wahrscheinlichkeit-1932

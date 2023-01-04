@@ -41,3 +41,6 @@ Die Folge der relativen zeigt ein konvergentes Verhalten
 # Tags
 - [[Wahrscheinlichkeit]]
 - [[Bedingte Wahrscheinlichkeit]]
+
+![[Pasted image 20221211123853.png|875]]
+![[UEB-rechnen-wsk.png]]
