@@ -25,20 +25,12 @@ während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffi
 ### ohne Wiederholung
 ![[Pasted image 20230104153716.png]]
 Fakultät: 
-$$\frac{n!}{(n-k)!}$$
+$$n!$$
 ```ad-example
 title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $4$ Plätze aufzuteilen?
 $$
 4\cdot3\cdot2\cdot1 = \frac{4!}{(4-4)!} = 4!
 $$
-```
-
-```ad-example
-title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $6$ Plätze aufzuteilen?
-$$
-6\cdot5\cdot4\cdot3= \frac{n!}{(\underbrace{n}_{\text{Plätze}}-\underbrace{k}_{\text{Schüler}})!}
-$$
-
 ```
 
 ### mit Wiederholung
@@ -59,8 +51,20 @@ $$
 
 ## Stichproben
 ### Geordnet (Variation)
+#### ohne Wiederholung
+$$\frac{n!}{(n-k)!}$$
+```ad-example
+title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $6$ Plätze aufzuteilen?
+$$
+6\cdot5\cdot4\cdot3= \frac{n!}{(\underbrace{n}_{\text{Plätze}}-\underbrace{k}_{\text{Schüler}})!}
+$$
+
+```
+
+#### mit Wiederholung
 
 ### Ungeordnet (Kombination)
+#### ohne Wiederholung
 $n$ über $k$:
 $$
 \frac{n \cdot (n - 1) \cdot (n - 2) \cdot \ldots \cdot (n - k + 1)}{k!} = \frac{n!}{(n - k)! \cdot k!} = \binom{n}{n - k} = \binom{n}{k}
@@ -71,5 +75,7 @@ Keine Person kommt in einer Gruppe doppelt vor, und die Reihenfolge ist unwichti
 ABC, ABE, ABF, BCF ...
 
 ```
+
+#### mit Wiederholung
 
 # Quellen
