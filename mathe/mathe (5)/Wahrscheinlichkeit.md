@@ -8,6 +8,24 @@ created: 4th October 2022
 ---
 
 # Wahrscheinlichkeitsrechnung
+
+## Grundmenge $\Omega$
+Menge aller möglichen Ergebnisse (Ausgänge)
+
+>[!example] 1 Würfel
+> $\Omega = \{\text{"1"; "2"; "3"; "4"; "5"; "6"}\}$
+
+>[!example] 2 Würfel
+> $\Omega=\{2;\dots;12\}$
+> $\Omega=\{(1,1);(1,2);\dots;(6,6)\}$
+> $\Omega=\{(1,1);(1,2);(2,1);\dots(6,6)\}$
+> 
+
+
+
+# Wahrscheinlichkeit
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $$.
+
 Ein Zufallsexperiment ist gekennzeichnet durch:
 - gleiche Ausgangsbedingungen
 - unsicheren Ausgang
@@ -18,14 +36,6 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 > - ein Los ziehen
 > - eine Münze werfen
 
-## Grundmenge $\Omega$
-Menge aller möglichen Ergebnisse (Ausgänge)
-
->[!example] 1 Würfel
-> $\Omega = \{"1","",\}$
-
-# Wahrscheinlichkeit
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments.
 
 ![[Pasted image 20221211123853.png|750]]
 ## Ereignis 
