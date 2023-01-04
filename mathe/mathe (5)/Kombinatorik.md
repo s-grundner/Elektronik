@@ -23,6 +23,7 @@ Die Anzahl der Permutationen ohne Wiederholung ergibt sich als [Fakultät](http
 während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffizienten](https://de.wikipedia.org/wiki/Multinomialkoeffizient "Multinomialkoeffizient") angegeben wird.
 
 ### ohne Wiederholung
+![[Pasted image 20230104153716.png]]
 Fakultät: 
 $$\frac{n!}{(n-k)!}$$
 ```ad-example
@@ -55,6 +56,7 @@ E_{1}E_{2}E_{3}E_{4}T_{1}T_{2}B_{1}U_{1}L_{1}\\
 \end{align*}
 $$
 ```
+
 ## Stichproben
 ### Geordnet (Variation)
 
