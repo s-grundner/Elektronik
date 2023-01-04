@@ -48,5 +48,25 @@ Ein Merkmal kann verschieden ungewichtete Größen annehmen.
 
 ## Kennwerten von Stichproben
 Maßzahlen, die Stellvertretend wichtige Eigenschaften einer Stichprobe beschreiben.
+Grundgesamtheit $\leftrightarrow$ Stichprobe
+
+## Lagegrundwerte
+### arithmetischer Mittelwert
+$\overline{x}$ ... arithmetischer Mittelwert
+$$
+\overline{x} = \frac{1}{n}\sum\limits_{i=1}^{n}x_{i}
+$$
+### Median (Zentralwert)
+$\tilde{x}$ ... Median oder Zentralwert
+- alle Werte der Größe nach Ordnen
+	- geht auch für qualitative Merkmale
+- Wenn $n$ ungerade
+	- Wert in der Mitte nehmen
+- Wenn $n$ gerade
+	- arithmetisches Mittel beider mittleren Werte nehmen
+### Minimum & Maximum
+Kleinster und größter Wert
+### Quartil
+- 1. Quartil $Q1$: $25\perthousand$ 
 
 # Tags
