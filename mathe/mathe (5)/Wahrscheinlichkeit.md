@@ -19,14 +19,16 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 > - eine Münze werfen
 
 ## Grundmenge $\Omega$
-Menge aller möglichen Ergebnisse (Ausgänge)
+- Menge aller möglichen Ergebnisse (Ausgänge) $\Omega$
+- Anzahl aller möglichen Ergebnisse $|\Omega|$
 
 >[!example] 1 Würfel
 > $\Omega = \{\text{"1"; "2"; "3"; "4"; "5"; "6"}\}$
+> $|\Omega| = 6$
 
 >[!example] 2 Würfel
-> $\Omega=\{2;\dots;12\}$
-> $\Omega=\{(1,1);(1,2);\dots;(6,6)\}$
+> $\Omega=\{2;\dots;12\}\qquad$ Augensumme
+> $\Omega=\{(1,1);(1,2);\dots;(6,6)\}\qquad$ Würfelkombination 
 > $\Omega=\{(1,1);(1,2);(2,1);\dots(6,6)\}$
 > 
 
@@ -68,8 +70,10 @@ $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
 
 >[!note] Laplace Experiment (Laplace Modell)
-> Ein Fall der häufig vorkommt
-> $P(\omega_{})=$
+> Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$ ($n$ Elemente)
+> $P(\omega_{i})=\dfrac{1}{n}$
+> $P(E)$
+> 
 
 
 ## Rechnen mit Wahrscheinlichkeiten
@@ -101,9 +105,7 @@ $P(E\&F) = P(E) + P(F)$
 ![[Pasted image 20221211124209.png]]
 ![[Pasted image 20221211124216.png]]
 # Tags
-
-
-
+https://studyflix.de/statistik/wahrscheinlichkeit-1932
 
 ```ad-example
 title: 16) Unter 9 Passagieren sind 4 Schmuggler und 5 ehrliche Leute. Ein Zollbeamter wählt drei Personen zur Kontrolle aus. Alle drei entpuppen sich als Schmuggler. Berechne die WSK, rein zufällig ein so gutes Ergebnis zu erzielen.
