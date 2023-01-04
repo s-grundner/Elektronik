@@ -68,4 +68,9 @@ Kleinster und größter Wert
 - 1. Quartil $Q1$: $25\%$ der Werte liegen darunter
 - 3. Quartil $Q3$: $25\%$ der Werte liegen darüber
 
+
+## Streuung 
+Wir bilden die Quadrate der Abweichungen vom arithmetischen Mittelwert und addieren diese: 
+$\sigma^{2}$ … [[Varianz]]
+
 # Tags
