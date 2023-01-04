@@ -61,7 +61,21 @@ $$
 
 ```
 
+```ad-example
+title: W.v. Möglichkeiten gibt es, aus 28 Vereinsmitglieder einen Präsidenten, einen Kassier und einen Schriftführer auszuwählen
+$$
+28\cdot27\cdot26 = \frac{n!}{(n-k)!}
+$$
+```
+
 #### mit Wiederholung
+$$n^{k}$$
+```ad-example
+title: Zahlensysteme: Variation von symbolen
+- Binär: Basis 2 -> 2 verschiedene Symbole (0,1) werden k-mal variiert
+- Hex: Basis 16 -> 16 verschiedene Symbole (0-F) werden k-mal varriert
+- ...
+```
 
 ### Ungeordnet (Kombination)
 #### ohne Wiederholung
