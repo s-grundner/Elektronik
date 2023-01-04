@@ -28,8 +28,8 @@ ABC, ABE, ABF, BCF ...
 title: 30 Schüler auf 26 Plätze aufteilen
 4 auswählen, die keinen Platz bekommen:
 $$\binom{30}{4} = 27405$$
-pro
-
+[[Kombinatorik#Produktregel]]
+$$\binom{30}{4}\cdot 26!$$
 ```
 
 ## mit Wiederholung
