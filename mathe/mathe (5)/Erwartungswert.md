@@ -16,7 +16,7 @@ Der Erwartungswert einer [[Zufallsvariable]] X ist der Wert, den man erwarten w�
 ## [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilung]]
 Jedem $x_{i}$ wird eine [[Wahrscheinlichkeit|WSK]] zugeordnet :
 $M_{x}\rightarrow [0;1]$
-(Diag verteilung würfeln mit 2 würfel)
+(Diag Verteilung würfeln mit 2 Würfel)
 ## Erwartungswert einer [[Zufallsvariable|Zufallsvariable]]
 Ist $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
 $$
@@ -30,7 +30,7 @@ E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdo
 &= 7
 \end{align*}
 $$
-## Rechenreglen für den Erwartungswert
+## Rechenregeln für den Erwartungswert
 $c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
 $$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h}\cdot c_{i}\cdot E(X_{i})$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
