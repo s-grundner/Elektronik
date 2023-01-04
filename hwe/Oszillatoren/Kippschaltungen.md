@@ -2,7 +2,7 @@
 tags: []
 aliases: []
 subject: ["hwe"]
-source: ["Siegbert SChrempf"]
+source: ["Siegbert Schrempf"]
 reference: []
 created: 3rd January 2023
 ---
