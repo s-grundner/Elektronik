@@ -8,7 +8,7 @@ created: 4th October 2022
 ---
 
 # Wahrscheinlichkeit
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probablitiy) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$
+Unter der Wahrscheinlichkeit $P(\omega)$ (en. Probablitiy) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$
 ![[Pasted image 20221211123853.png|750]]
 ## Ereignis 
 Oft interessiert uns nicht für die Wahrscheinlichkeit ein kombies einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
