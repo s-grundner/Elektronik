@@ -7,7 +7,7 @@ reference: []
 created: 8th June 2022
 ---
 
-# Transkonduktanz-Verstärker
+# Trans-Konduktanz-Verstärker
 
 ---
 # Tags

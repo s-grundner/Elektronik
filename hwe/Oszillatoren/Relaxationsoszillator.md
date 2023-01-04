@@ -10,6 +10,8 @@ created: 20th December 2022
 - Rückgekoppelte Schaltung
 - Lade und Entladevorgänge von Kondensatoren zur Festlegung der Periodendauer und Signalform
 
-## Dreieck-Rechteck Generator
+## Rechteck-Dreieck-Generator
+### Schaltung
+![[Pasted image 20230103031833.png]]
 
 # Tags

@@ -8,7 +8,7 @@ created: 2nd October 2022
 ---
 
 # Sperrwandler
-- Beruht auf dem prinzip des [[Inverswandler]]s
+- Beruht auf dem Prinzip des [[Inverswandler]]s
 - Gehört zu dem [[Primär getakteter Schaltregler|Primär getakteten SMPS]]
 
 
