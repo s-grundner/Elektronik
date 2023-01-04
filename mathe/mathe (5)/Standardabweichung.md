@@ -8,7 +8,7 @@ created: 30th November 2022
 ---
 
 # Standardabweichung
-Die [[Standardabweichung]] oder die Streuung von $X$ ist:
+Die Standardabweichung oder die Streuung von $X$ ist:
 $$
 \begin{align*}
 \sigma(X)&=\sqrt{V(X)}\qquad \text{Einheit wie }X\\
