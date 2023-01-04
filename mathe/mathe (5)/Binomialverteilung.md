@@ -21,12 +21,13 @@ Bei einem solchen Experiment gibt es nur zwei mögliche Ergebnisse: $A$ oder $\n
 >[!summary] $$p=P(A)$$
 
 Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
->[!summary] $$
-\begin{align*}
-P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\
-\end{align*}
-$$
-wobei $n$ die Anzahl der Versuche, $k$ die Anzahl der Erfolge, $p$ die [[Wahrscheinlichkeit]] eines Erfolgs und $\binom{n}{k}$ das Binomialkoeffizient ist.
+>[!summary] $$P(X=k)=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}$$
+>
+> mit
+> - $n\dots$ Anzahl der Versuche
+> - $k\dots$ Anzahl der Erfolge
+> - $p\dots$ [[Wahrscheinlichkeit]] eines Erfolgs
+> - $\binom{n}{k}\dots$ Binomialkoeffizient 
 
 ## [[Varianz]] $V(X)$
 Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
