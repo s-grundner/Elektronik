@@ -105,9 +105,11 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 
 # Bedingte Wahrscheinlichkeit $P(A|B)$
 
-## Additionssatz
+> [!summary] Additionssatz (ODER-Regel)
+> $$P(A\wedge B) = P(A) + P(B)-\underbrace{P(A\vee B)}_{0\text{ wenn unvereinbar}}$$
 
-## Multiplikationssatz
+>[!summary] Multiplikationssatz
+> P(A)
 
 ![[Pasted image 20221211124209.png]]
 ![[Pasted image 20221211124209.png]]
