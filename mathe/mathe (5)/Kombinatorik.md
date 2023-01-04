@@ -19,16 +19,25 @@ Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 ## Permutationen
 Unter einer **Permutation** versteht man in der Kombinatorik eine Anordnung von Objekten in einer bestimmten Reihenfolge.
 
-Die Anzahl der Permutationen ohne Wiederholung ergibt sich als [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik) "Fakultät (Mathematik)"), während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffizienten](https://de.wikipedia.org/wiki/Multinomialkoeffizient "Multinomialkoeffizient") angegeben wird.
+Die Anzahl der Permutationen ohne Wiederholung ergibt sich als [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik) "Fakultät (Mathematik)"),
+während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffizienten](https://de.wikipedia.org/wiki/Multinomialkoeffizient "Multinomialkoeffizient") angegeben wird.
 
 ### ohne Wiederholung
 Fakultät: 
-$$n!$$
+$$\frac{n!}{(n-k)!}$$
 ```ad-example
 title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $4$ Plätze aufzuteilen?
 $$
-4\cdot3\cdot2\cdot1 = 4!
+4\cdot3\cdot2\cdot1 = \frac{4!}{(4-4)!} = 4!
 $$
+```
+
+```ad-example
+title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $6$ Plätze aufzuteilen?
+$$
+6\cdot5\cdot4\cdot3= \frac{\overbrace{n!}^{\text{Plätze}}}{(n-\underbrace{k}_{\text{Schüler}})!}
+$$
+
 ```
 
 ### mit Wiederholung
