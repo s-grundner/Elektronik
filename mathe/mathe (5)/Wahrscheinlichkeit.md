@@ -3,11 +3,11 @@ tags: ["Statistik"]
 aliases: ["WSK"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
+reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 4th October 2022
 ---
 
-# Wahrscheinlichkeitsrechnung
+# Einführung in die Wahrscheinlichkeitsrechnung 
 Ein Zufallsexperiment ist gekennzeichnet durch:
 - gleiche Ausgangsbedingungen
 - unsicheren Ausgang
@@ -30,8 +30,21 @@ Menge aller möglichen Ergebnisse (Ausgänge)
 > $\Omega=\{(1,1);(1,2);(2,1);\dots(6,6)\}$
 > 
 
+## Häufigkeit
+sei $\omega\in\Omega$ (ein Ausgang)
+$n$ Versuche
 
-## Wahrscheinlichkeit $P(\omega)$
+### absolute Häufigkeit
+$H(\omega)$ … Anzahl des Auftretens von $\omega$
+$$\sum\limits_{\omega\in\Omega}H(\omega)=n$$
+
+### relative Häufigkeit
+$h(\omega)=\dfrac{H(\omega)}{n}$
+$$\sum\limits_{\omega\in\Omega}h(\omega)=1$$
+## Das empirische Gesetz der großen Zahlen
+Die Folge der relativen zeigt ein konvergentes Verhalten
+
+# Wahrscheinlichkeit $P(\omega)$
 Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
 
 >[!summary] Formel
@@ -41,19 +54,11 @@ Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zuf
 
 > [!example] Würfel: $P(1)=\dfrac{1}{6}$
 
-## Häufigkeit
-sei $\omega\in\Omega$ (ein Ausgang)
-$n$ Versuche
-
-### absolute Häufigkeit
-$H(\omega)$ … 
-### relative Häufigkeit
-
 ## Ereignis 
 Oft interessiert uns nicht für die Wahrscheinlichkeit eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
 
 ```ad-example
-title: Roulette $\dots$ geraden Zahlen
+title: Roulette: 
 Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
 z.B $E=\{2;4;\dots;36\}$
 ```
