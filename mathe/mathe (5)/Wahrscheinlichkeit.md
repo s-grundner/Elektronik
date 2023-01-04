@@ -85,19 +85,20 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
  
 ## Rechnen mit Wahrscheinlichkeiten
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
->[!example] gerade & ungerade Zahl beim Roulette
 
 >[!summary] Wenn die Ereignisse $E$ & $F$ unvereinbar sind, dann gilt
 >$P(E\&F)=P(E)+P(F)$
 
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 > $P(E^C)=1-P(E)$
+
+>[!example] gerade & ungerade Zahl beim Roulette
 > $P(gerade) = 1-P(ungerade)$
 
  >[!example] 26 Schüler: 2 haben den selben Geburtstag
 > $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
 > 
-> $\frac{364}{365}\cdot\frac{364}{365}\cdot\frac{363}{365}\dots\frac{340}{365} = \frac{365!}{365^{26}\cdot339!}=0.4$
+> $\dfrac{364}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
 > 
 > $1-0.4=0.6$
 
