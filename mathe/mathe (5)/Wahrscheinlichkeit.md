@@ -7,11 +7,29 @@ reference: []
 created: 4th October 2022
 ---
 
+# Wahrscheinlichkeitsrechnung
+Ein Zufallsexperiment ist gekennzeichnet durch:
+- gleiche Ausgangsbedingungen
+- unsicheren Ausgang
+- beliebig wiederholbar
+
+>[!example] Beispiele
+> - Würfeln mit einem Würfel
+> - ein Los ziehen
+> - eine Münze werfen
+
+## Grundmenge $\Omega$
+Menge aller möglichen Ergebnisse (Ausgänge)
+
+>[!example] 1 Würfel
+> $\Omega = \{"1","",\}$
+
 # Wahrscheinlichkeit
-Unter der Wahrscheinlichkeit $P(\omega)$ (en. Probablitiy) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments.
+
 ![[Pasted image 20221211123853.png|750]]
 ## Ereignis 
-Oft interessiert uns nicht für die Wahrscheinlichkeit ein kombies einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
+Oft interessiert uns nicht für die Wahrscheinlichkeit eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
 
 ```ad-example
 title: Roulette $\dots$ geraden Zahlen
@@ -21,14 +39,6 @@ z.B $E=\{2;4;\dots;36\}$
 
 ## Wahrscheinlichkeitsfunktion
 
-```ad-example
-title: Laplace Experiment
-Fall, der häufig vorkommt
-$P(\omega_1)=P(\omega_2)\dots=P(\omega_n)\qquad \notin$
-
-
-
-```
 ## Rechnen mit Wahrscheinlichkeiten
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
 
