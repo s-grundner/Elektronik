@@ -47,23 +47,30 @@ Die Folge der relativen zeigt ein konvergentes Verhalten
 # Wahrscheinlichkeit $P(\omega)$
 Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
 
->[!summary] Formel
+>[!summary] Wahrscheinlichkeit $P(\omega)$
 >$$
 >P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle
 >$$
 
 > [!example] Würfel: $P(1)=\dfrac{1}{6}$
 
-## Ereignis 
+## Ereignis $E$
 Oft interessiert uns nicht für die Wahrscheinlichkeit eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
-
-```ad-example
-title: Roulette: 
 Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
-z.B $E=\{2;4;\dots;36\}$
-```
+
+>[!example] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
 
 ## Wahrscheinlichkeitsfunktion
+$P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
+
+> [!summary] Wahrscheinlichkeitsfunktion
+> $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
+
+
+>[!note] Laplace Experiment (Laplace Modell)
+> Ein Fall der häufig vorkommt
+> $P(\omega_{})=$
+
 
 ## Rechnen mit Wahrscheinlichkeiten
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
