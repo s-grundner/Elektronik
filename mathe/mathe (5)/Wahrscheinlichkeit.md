@@ -87,7 +87,7 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
 
 >[!summary] Wenn die Ereignisse $E$ & $F$ unvereinbar sind, dann gilt
->$P(E\&F)=P(E)+P(F)$
+>$P(E\wedge F)=P(E)+P(F)$
 
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 > $P(E^C)=1-P(E)$
@@ -105,15 +105,19 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 
 # Bedingte Wahrscheinlichkeit $P(A|B)$
 
+Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = P\dfrac{A\wedge B}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
+- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
+
 > [!summary] Additionssatz (ODER-Regel)
 > $$P(A\wedge B) = P(A) + P(B)-\underbrace{P(A\vee B)}_{0\text{ wenn unvereinbar}}$$
 
 >[!summary] Multiplikationssatz
-> P(A)
+> $P(A\wedge B)=P(A)\cdot P(B|A)$
+> 
+> $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
+> 
+> $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
 
-![[Pasted image 20221211124209.png]]
-![[Pasted image 20221211124209.png]]
-![[Pasted image 20221211124216.png]]
 # Tags
 https://studyflix.de/statistik/wahrscheinlichkeit-1932
 
