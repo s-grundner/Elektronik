@@ -17,10 +17,10 @@ Vorgang in $k$ Schritten
 
 Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 
-## Alle Elemente
+## Alle Elemente $n$
 [[Permutation]]
 
-## Stichprobe
+## Stichprobe 
 [[Variation]]
 [[Kombination]]
 

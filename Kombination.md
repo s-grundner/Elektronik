@@ -33,4 +33,6 @@ $$\binom{30}{4}\cdot 26!$$
 ```
 
 ## mit Wiederholung
+$$\binom{n+k-1}{k}$$
+
 # Tags
