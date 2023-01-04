@@ -1,10 +1,10 @@
 {
 	"nodes":[
-		{"id":"aede17d84827e7f2","x":426,"y":532,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Erwartungswert.md"},
 		{"id":"3f2d4a02b175495e","x":-100,"y":-134,"width":684,"height":400,"type":"file","file":"mathe/mathe (5)/Wahrscheinlichkeitsverteilung.md"},
 		{"id":"7595d86e475b9008","x":-124,"y":419,"width":449,"height":400,"type":"file","file":"mathe/mathe (5)/Wahrscheinlichkeit.md"},
-		{"id":"da8d0d531b284b28","x":-669,"y":489,"width":476,"height":261,"type":"file","file":"mathe/mathe (5)/Varianz.md"},
-		{"id":"6e1c94b7c2e4747a","x":-669,"y":-134,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Kombinatorik.md"}
+		{"id":"6e1c94b7c2e4747a","x":-669,"y":-134,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Kombinatorik.md"},
+		{"id":"aede17d84827e7f2","x":384,"y":419,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Erwartungswert.md"},
+		{"id":"da8d0d531b284b28","x":-669,"y":419,"width":476,"height":261,"type":"file","file":"mathe/mathe (5)/Varianz.md"}
 	],
 	"edges":[]
 }
