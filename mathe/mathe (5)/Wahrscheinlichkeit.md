@@ -28,8 +28,8 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 
 >[!example] 2 Würfel
 > $\Omega=\{2;\dots;12\}\qquad$ Augensumme
-> $\Omega=\{(1,1);(1,2);\dots;(6,6)\}\qquad$ Würfelkombination 
-> $\Omega=\{(1,1);(1,2);(2,1);\dots(6,6)\}$
+> $\Omega=\{(1,1);(1,2);\dots;(6,6)\}\qquad$ Würfelkombination ohne Reihenfolge
+> $\Omega=\{(1,1);(1,2);(2,1);\dots(6,6)\}\qquad$ Würfelkombination mit Reihenfolge
 > 
 
 ## Häufigkeit
@@ -68,12 +68,15 @@ $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 > [!summary] Wahrscheinlichkeitsfunktion
 > $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
 
+### Laplace Experiment (Laplace Modell)
+Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$ ($n$ Elemente)
+$P(\omega_{i})=\dfrac{1}{n}$
 
->[!note] Laplace Experiment (Laplace Modell)
-> Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$ ($n$ Elemente)
-> $P(\omega_{i})=\dfrac{1}{n}$
-> $P(E)$
-> 
+$P(E)=\dfrac{E}{|\Omega|}$
+mit:
+- $P(E)=$ die Wahrscheinlichkeit eines Ereignisses
+- $E=$ die Anzahl der günstigen Ergebnisse
+- $|\Omega|=$ die Anzahl der möglichen Ergebnisse 
 
 
 ## Rechnen mit Wahrscheinlichkeiten
