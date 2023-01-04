@@ -12,7 +12,11 @@ Eine *Variation* oder *geordnete Stichprobe* ist in der [[Kombinatorik]] ein
 - Die Menge muss nicht die Grundmenge sein.
 ## ohne Wiederholung
 Darf jedes Objekt nur einmal auftreten, spricht man von einer **Variation ohne Wiederholung**.
-$$\frac{n!}{(n-k)!}$$
+
+>[!summary] Formel
+> $$\frac{n!}{(n-k)!}$$
+
+
 ```ad-example
 title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $6$ Plätze aufzuteilen?
 - Ein Schüler kann nicht 2 Plätze belegen
@@ -35,7 +39,10 @@ $$
 
 ## mit Wiederholung
 Können Objekte dabei mehrfach ausgewählt werden, so spricht man von einer **Variation mit Wiederholung**.
+>[!summary] Formel
 $$n^{k}$$
+
+
 ```ad-example
 title: Zahlensysteme: Variation von symbolen
 - Dezimal: Basis $10 \rightarrow 10$ verschiedene Symbole $(0-9)$ werden $k$-mal variiert $\rightarrow 10^{k}$ Variationen

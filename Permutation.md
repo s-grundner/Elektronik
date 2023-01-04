@@ -15,8 +15,10 @@ während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffi
 
 ### ohne Wiederholung
 ![[Pasted image 20230104153716.png]]
-Fakultät: 
-$$n!$$
+
+>[!summary] Fakultät: 
+> $$n!$$
+
 ```ad-example
 title: Wv. Möglichkeiten gibt es, $4$ Schüler auf $4$ Plätze aufzuteilen?
 $$
@@ -25,10 +27,10 @@ $$
 ```
 
 ### mit Wiederholung
-Multinomialkoeffizient:
-$$
-n! \choose {k_{1}!,\cdots, k_{n}!}
-$$
+>[!summary] Multinomialkoeffizient:
+>$$n! \choose {k_{1}!,\cdots, k_{n}!}$$
+
+
 ```ad-example
 title: "Teebeutel": Wv. Wörter kann man mit "EEEETTBUL" bilden?
 Alle Buchstaben Verschieden, dann: $9!$
