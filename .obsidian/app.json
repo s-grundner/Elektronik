@@ -1,6 +1,6 @@
 {
   "showLineNumber": true,
-  "showFrontmatter": false,
+  "showFrontmatter": true,
   "showUnsupportedFiles": true,
   "readableLineLength": false,
   "alwaysUpdateLinks": true,

@@ -1,14 +1,15 @@
 ---
-tags: []
+tags: ["Statistik"]
 aliases: ["geordnete Stichprobe", "geordnete Stichproben", "Variationen"]
 subject: ["mathe"]
-source: ["Siebgert Schrempf, "]
+source: ["Rudolf Frauenschuh"]
 reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 4th January 2023
 ---
 
 # Variation
-Eine **Variation** oder **geordnete Stichprobe** ist in der [[Kombinatorik]] eine Auswahl von Objekten aus einer Menge in einer bestimmten Reihenfolge.
+Eine *Variation* oder *geordnete Stichprobe* ist in der [[Kombinatorik]] eine Auswahl von Objekten aus einer Menge in einer bestimmten Reihenfolge.
+- Die Menge muss nicht die Grundmenge sein.
 ## ohne Wiederholung
 Darf jedes Objekt nur einmal auftreten, spricht man von einer **Variation ohne Wiederholung**.
 $$\frac{n!}{(n-k)!}$$
