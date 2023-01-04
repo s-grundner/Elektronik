@@ -36,7 +36,7 @@ Ein Merkmal kann verschieden ungewichtete Größen annehmen.
 - Jedes Element der untersuchten Gesamtheit wird in Abhängigkeit von seinem Wert auf der entsprechenden Variablen genau einer Klasse zugeordnet.
 > [!example] Bsp.: Alter
 > man kann das Alter in bestimmte Altersklassen einteilen:
-> - Kleinkind, Jugendlich, Erwachsener...
+> - Kleinkind, Jugendlicher, Erwachsener...
 
 ### Richtlinien:
 1. nach Möglichkeit Klasse gleicher Breite bilden
@@ -53,9 +53,7 @@ Grundgesamtheit $\leftrightarrow$ Stichprobe
 ## Lagegrundwerte
 ### arithmetischer Mittelwert
 $\overline{x}$ ... arithmetischer Mittelwert
-$$
-\overline{x} = \frac{1}{n}\sum\limits_{i=1}^{n}x_{i}
-$$
+$\overline{x} = \dfrac{1}{n}\sum\limits_{i=1}^{n}x_{i}$
 ### Median (Zentralwert)
 $\tilde{x}$ ... Median oder Zentralwert
 - alle Werte der Größe nach Ordnen
@@ -67,6 +65,7 @@ $\tilde{x}$ ... Median oder Zentralwert
 ### Minimum & Maximum
 Kleinster und größter Wert
 ### Quartil
-- 1. Quartil $Q1$: $25\perthousand$ 
+- 1. Quartil $Q1$: $25\%$ der Werte liegen darunter
+- 3. Quartil $Q3$: $25\%$ der Werte liegen darüber
 
 # Tags
