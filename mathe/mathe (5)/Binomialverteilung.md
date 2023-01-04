@@ -18,9 +18,10 @@ Die Binomialverteilung ist eine Verteilungsformel, mit der die Wahrscheinlichkei
 
 Bei einem solchen Experiment gibt es nur zwei mögliche Ergebnisse: $A$ oder $\neg{A}$. Die Einzelversuche sind voneinander unabhängig und die Zufallsvariable $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
 
-$$p=P(A)$$
+>[!summary] $$p=P(A)$$
+
 Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
-$$
+>[!summary] $$
 \begin{align*}
 P(X=k)&=\binom{n}{k}\cdot p^{k} \cdot (1-p)^{n-k}\\
 \end{align*}

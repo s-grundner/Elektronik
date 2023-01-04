@@ -20,11 +20,11 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 
 ## Grundmenge $\Omega$
 - Menge aller möglichen Ergebnisse (Ausgänge) $\Omega$
-- Anzahl aller möglichen Ergebnisse $|\Omega|$
+- Anzahl aller möglichen Ergebnisse $|\Omega|$ oder $n$
 
 >[!example] 1 Würfel
 > $\Omega = \{\text{"1"; "2"; "3"; "4"; "5"; "6"}\}$
-> $|\Omega| = 6$
+> $|\Omega|= n = 6$
 
 >[!example] 2 Würfel
 > $\Omega=\{2;\dots;12\}\qquad$ Augensumme
@@ -65,11 +65,15 @@ $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 > [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
 
 ### Laplace Experiment (Laplace Modell)
-Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$ ($n$ Elemente)
+> [!note] 
+> Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle Elementarereignisse gleichwahrscheinlich sind. Typische Beispiele sind hier auch der Münzwurf oder ein Würfelwurf.
 
->[!summary] $P(\omega_{i})=\dfrac{1}{n}$
+Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$
+
+>[!summary] $P(\omega_{i})=\dfrac{1}{|\Omega|}$
 >mit
-> - $n$
+> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des Ereignis $\omega$
+> - $|\Omega|\dots$ die Anzahl der möglichen Ergebnisse 
 
 >[!summary] $P(E)=\dfrac{E}{|\Omega|}$
 > mit:
@@ -82,7 +86,6 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 ## Rechnen mit Wahrscheinlichkeiten
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
 >[!example] gerade & ungerade Zahl beim Roulette
-
 
 Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 $P(E^C)=1-P(E)$
