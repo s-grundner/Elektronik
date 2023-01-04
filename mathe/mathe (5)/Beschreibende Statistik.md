@@ -3,7 +3,7 @@ tags: []
 aliases: []
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
+reference: ["Ing. Mathematik 4 - Timischl/Kaiser, "]
 created: 4th January 2023
 ---
 

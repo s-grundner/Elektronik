@@ -103,7 +103,13 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 > $1-0.4=0.6$
 
 
-# Bedingte Wahrscheinlichkeit
+# Bedingte Wahrscheinlichkeit $P(A|B)$
+
+## Additionssatz
+
+## Multiplikationssatz
+
+![[Pasted image 20221211124209.png]]
 ![[Pasted image 20221211124209.png]]
 ![[Pasted image 20221211124216.png]]
 # Tags
