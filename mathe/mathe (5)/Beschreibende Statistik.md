@@ -1,7 +1,7 @@
 ---
-tags: []
+tags: [Statistik]
 aliases: []
-subject: ["mathe"]
+subject: [mathe]
 source: ["Rudolf Frauenschuh"]
 reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 4th January 2023
@@ -69,6 +69,8 @@ Kleinster und größter Wert
 - 3. Quartil $Q3$: $25\%$ der Werte liegen darüber
 
 
+## Boxplot
+![[Boxplot.png]]
 ## Streuung 
 Wir bilden die Quadrate der Abweichungen vom arithmetischen Mittelwert und addieren diese: 
 $\sigma^{2}$ … [[Varianz]]
