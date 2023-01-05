@@ -8,20 +8,14 @@
 		{"id":"5bac5de82b1e2713","x":249,"y":-363,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Wahrscheinlichkeitsverteilung.md"},
 		{"id":"686ffc75a68669ce","x":-562,"y":-893,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Beschreibende Statistik.md"},
 		{"id":"b89cb1d1caf48219","x":249,"y":175,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Binomialverteilung.md"},
-		{"id":"1d9b92d572bb2656","x":791,"y":-893,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Standardabweichung.md"},
-		{"id":"578b5fe0f7f3f729","x":791,"y":-363,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Varianz.md"}
+		{"id":"1d9b92d572bb2656","x":249,"y":-1423,"width":400,"height":400,"type":"file","file":"mathe/Standardabweichung.md"},
+		{"id":"578b5fe0f7f3f729","x":249,"y":-893,"width":400,"height":400,"type":"file","file":"mathe/Varianz.md"}
 	],
 	"edges":[
 		{"id":"69a0c48c959fe23f","fromNode":"44800b5ee0885c01","fromSide":"left","toNode":"0f5f1caad0da1106","toSide":"right"},
 		{"id":"b1fec008abdb8615","fromNode":"44800b5ee0885c01","fromSide":"left","toNode":"0a5b0881e4d26688","toSide":"right"},
 		{"id":"c84795c761a67f6d","fromNode":"44800b5ee0885c01","fromSide":"left","toNode":"4f4668925b92b390","toSide":"right"},
 		{"id":"afb4420a324f2248","fromNode":"686ffc75a68669ce","fromSide":"bottom","toNode":"44800b5ee0885c01","toSide":"top"},
-		{"id":"c8406133ba613132","fromNode":"686ffc75a68669ce","fromSide":"bottom","toNode":"9219575165c28092","toSide":"top"},
-		{"id":"6a53f11f4dbe9c11","fromNode":"9219575165c28092","fromSide":"right","toNode":"b89cb1d1caf48219","toSide":"left"},
-		{"id":"50bbc2f273eb6d8a","fromNode":"9219575165c28092","fromSide":"right","toNode":"5bac5de82b1e2713","toSide":"left"},
-		{"id":"e2cf26f4805e2424","fromNode":"686ffc75a68669ce","fromSide":"right","toNode":"1d9b92d572bb2656","toSide":"left"},
-		{"id":"f71aba8b0779ad21","fromNode":"5bac5de82b1e2713","fromSide":"right","toNode":"1d9b92d572bb2656","toSide":"left"},
-		{"id":"4cf265676e1a4e32","fromNode":"5bac5de82b1e2713","fromSide":"right","toNode":"578b5fe0f7f3f729","toSide":"left"},
-		{"id":"3bb322dee0f21458","fromNode":"686ffc75a68669ce","fromSide":"right","toNode":"578b5fe0f7f3f729","toSide":"left"}
+		{"id":"c8406133ba613132","fromNode":"686ffc75a68669ce","fromSide":"bottom","toNode":"9219575165c28092","toSide":"top"}
 	]
 }
