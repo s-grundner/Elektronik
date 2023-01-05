@@ -1,9 +1,5 @@
 {
 	"nodes":[
-		{"id":"5bac5de82b1e2713","x":249,"y":-363,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Wahrscheinlichkeitsverteilung.md"},
-		{"id":"b89cb1d1caf48219","x":249,"y":175,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Binomialverteilung.md"},
-		{"id":"1d9b92d572bb2656","x":249,"y":-1423,"width":400,"height":400,"type":"file","file":"mathe/Standardabweichung.md"},
-		{"id":"578b5fe0f7f3f729","x":249,"y":-893,"width":400,"height":400,"type":"file","file":"mathe/Varianz.md"},
 		{"id":"0f5f1caad0da1106","x":-1398,"y":-363,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Kombination.md"},
 		{"id":"4f4668925b92b390","x":-1398,"y":-893,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Permutation.md"},
 		{"id":"0a5b0881e4d26688","x":-1398,"y":175,"width":400,"height":400,"type":"file","file":"mathe/mathe (5)/Variation.md"},
