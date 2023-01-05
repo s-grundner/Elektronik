@@ -54,11 +54,13 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 
 > [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
  
-## Rechnen mit Wahrscheinlichkeiten
+# Rechnen mit Wahrscheinlichkeiten
 Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
 
 >[!summary] Wenn die Ereignisse $E$ & $F$ unvereinbar sind, dann gilt
->$P(E\wedge F)=P(E)+P(F)$
+>$P(E\vee F)=P(E)+P(F)$
+>$P(E\wedge F)=0$
+>
 
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 > $P(E^C)=1-P(E)$
@@ -73,9 +75,33 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 > 
 > $1-0.4=0.6$
 
+## Bedingte Wahrscheinlichkeit $P(A|B)$
+
+Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = P\dfrac{A\wedge B}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
+- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
+
+### Additionssatz (ODER-Regel)
+
+> [!summary] für beliebige Ereignisse
+> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
+
+>[!summary] für unvereinbare Ereignisse
+> $$P(A\vee B) = P(A) + P(B) - 0$$
+
+### Multiplikationssatz (UND-Regel)
+
+>[!summary] für beliebige Ereignisse
+> $P(A\wedge B)=P(A)\cdot P(B|A)$
+> - $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
+> - $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
+
+>[!summary] für unabhängige Ereignisse
+> $P(A\wedge B)=P(A)\cdot P(B)$
+
+
+
 # Tags
 [[Einführung in die Wahrscheinlichkeitsrechnung]]
-[[Bedingte Wahrscheinlichkeit]]
 
 ![[Pasted image 20221211123853.png|875]]
 ![[UEB-rechnen-wsk.png]]
