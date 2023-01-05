@@ -17,7 +17,7 @@ Dies erfolgt durch das Ausführen des Shell-Scripts `git_stash.sh`
 
 - [Downloads](https://git-scm.com/download/win)
 
-oder mit dem winget tool:
+oder mit dem winget Tool:
 ```powershell
 winget install --id Git.Git -e --source winget
 ```

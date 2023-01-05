@@ -75,6 +75,13 @@ Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeins
 > 
 > $1-0.4=0.6$
 
+### Additionssatz (ODER-Regel)
+
+> [!summary] für beliebige Ereignisse
+> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
+
+>[!summary] für unvereinbare Ereignisse
+> $$P(A\vee B) = P(A) + P(B) - 0$$
 ## Bedingte Wahrscheinlichkeit $P(A|B)$
 
 Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = P\dfrac{A\wedge B}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
@@ -97,7 +104,6 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = P\dfrac{A\wedge B}{P(B)}$ die Wa
 
 >[!summary] für unabhängige Ereignisse
 > $P(A\wedge B)=P(A)\cdot P(B)$
-
 
 
 # Tags
