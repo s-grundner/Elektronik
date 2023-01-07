@@ -15,5 +15,6 @@
   "spellcheckLanguages": [
     "de-DE"
   ],
-  "spellcheck": true
+  "spellcheck": true,
+  "attachmentFolderPath": "./assets"
 }
