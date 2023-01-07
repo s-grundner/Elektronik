@@ -18,7 +18,7 @@
 >[!summary] für unabhängige Ereignisse
 > $P(A\wedge B)=P(A)\cdot P(B)$
 
-## Unvereinbarkeit
+## Unvereinbare Ereignisse
 
 ![[Pasted image 20230107220855.png]]
 
@@ -36,6 +36,13 @@
 > $A$ ist mit $C$ vereinbar
 > $B$ ist mit $C$ vereinbar
 
+
+
+## Bedingte Wahrscheinlichkeit $P(A|B)$
+
+Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
+- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
+
 ## Gegenereignis
 
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
@@ -50,8 +57,3 @@
 > $\dfrac{365}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
 > 
 > $1-0.4=0.6$
-
-## Bedingte Wahrscheinlichkeit $P(A|B)$
-
-Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
-- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
