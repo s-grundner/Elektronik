@@ -98,12 +98,10 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 >[!summary] für unabhängige Ereignisse
 > $P(A\wedge B)=P(A)\cdot P(B)$
 
-
 # Tags
 [[Einführung in die Wahrscheinlichkeitsrechnung]]
 
 | ![[Pasted image 20221211123853.png]] | ![[UEB-rechnen-wsk.png]] | 
 | ------------------------------------ | ------------------------ |
-
 
 https://studyflix.de/statistik/wahrscheinlichkeit-1932
