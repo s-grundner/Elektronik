@@ -24,12 +24,6 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 > - ein Los ziehen
 > - eine Münze werfen
 
-## Ereignis $E$
-Oft interessiert uns nicht für die Wahrscheinlichkeit eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
-Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
-
->[!example] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
-
 ## Wahrscheinlichkeitsfunktion
 $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
@@ -43,7 +37,7 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 
 >[!summary] $P(\omega_{i})=\dfrac{1}{|\Omega|}$
 >mit
-> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des Ereignis $\omega$
+> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des [[Ereignis]] $\omega$
 > - $|\Omega|\dots$ die Anzahl der möglichen Ergebnisse 
 
 >[!summary] $P(E)=\dfrac{E}{|\Omega|}$
@@ -55,9 +49,36 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 > [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
  
 
+
+## Rechnen mit Wahrscheinlichkeiten
+
+### Bedingte Wahrscheinlichkeit $P(A|B)$
+Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
+- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
+
+### Additionssatz (ODER-Regel)
+
+> [!summary] für beliebige [[Ereignis|Ereignisse]]
+> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
+
+>[!summary] für [[Ereignis#Unvereinbare Ereignisse|unvereinbare Ereignisse]]
+> $$P(A\vee B) = P(A) + P(B) - 0$$
+
+### Multiplikationssatz (UND-Regel)
+
+>[!summary] für beliebige [[Ereignis|Ereignisse]]
+> $P(A\wedge B)=P(A)\cdot P(B|A)$
+> - $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
+> - $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
+
+>[!summary] für [[Ereignis#Unabhängige Ereignisse|unabhängige Ereignisse]]
+> $P(A\wedge B)=P(A)\cdot P(B)$
+
+
+
+
 # Tags
 [[Einführung in die Wahrscheinlichkeitsrechnung]]
-[[Rechnen mit Wahrscheinlichkeiten]]
 
 | ![[Pasted image 20221211123853.png]] | ![[UEB-rechnen-wsk.png]] | 
 | ------------------------------------ | ------------------------ |

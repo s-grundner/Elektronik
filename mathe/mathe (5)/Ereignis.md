@@ -1,22 +1,17 @@
-# Rechnen mit Wahrscheinlichkeiten
-## Rechenregeln
-### Additionssatz (ODER-Regel)
+---
+tags: []
+aliases: ["Ereignisse"]
+subject: ["mathe"]
+source: ["Rudolf Frauenschuh"]
+reference: []
+created: 8th January 2023
+---
 
-> [!summary] für beliebige Ereignisse
-> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
+# Ereignis $E$
+Oft interessiert uns nicht für die [[Wahrscheinlichkeit]] eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
+Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
 
->[!summary] für unvereinbare Ereignisse
-> $$P(A\vee B) = P(A) + P(B) - 0$$
-
-### Multiplikationssatz (UND-Regel)
-
->[!summary] für beliebige Ereignisse
-> $P(A\wedge B)=P(A)\cdot P(B|A)$
-> - $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
-> - $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
-
->[!summary] für unabhängige Ereignisse
-> $P(A\wedge B)=P(A)\cdot P(B)$
+>[!example] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
 
 ## Unvereinbare Ereignisse
 
@@ -36,12 +31,8 @@
 > $A$ ist mit $C$ vereinbar
 > $B$ ist mit $C$ vereinbar
 
-
-
-## Bedingte Wahrscheinlichkeit $P(A|B)$
-
-Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
-- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
+## Unabhängige Ereignisse
+![[Pasted image 20230108002929.png]]
 
 ## Gegenereignis
 
@@ -57,3 +48,6 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 > $\dfrac{365}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
 > 
 > $1-0.4=0.6$
+
+# Tags
+[[Wahrscheinlichkeit]]
