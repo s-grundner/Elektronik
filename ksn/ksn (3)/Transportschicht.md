@@ -11,8 +11,8 @@ last_edited: 11th April 2022
 # Transportschicht (OSI-Layer 4)
 ## Aufgaben der Transportschicht
 ### Ports
-## Addressierung der Transportschicht
-Die Addressierung erfolgt in der Transportschicht mit [[Sockets]]
+## Adressierung der Transportschicht
+Die Adressierung erfolgt in der Transportschicht mit [[Sockets]]
 ## Transport-Protokolle
 Was wünschen wir uns von der Flusskontrolle:
 - Garantierte Datenübertragung
