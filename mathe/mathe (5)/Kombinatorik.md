@@ -24,4 +24,8 @@ Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 [[Variation]]
 [[Kombination]]
 
-# Quellen
+# Tags
+## Timischl/Kaiser [Übungen](https://a.digi4school.at/ebook/5011/?page=164)
+![[UE-Kombinatorik.pdf]]
+## Übungsaufgaben
+![[Kombinatorik.pdf]]  ![[UEZ-Kombinatorik.pdf]] 
