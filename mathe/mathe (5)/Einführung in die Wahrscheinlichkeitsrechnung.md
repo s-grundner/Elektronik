@@ -34,8 +34,8 @@ $n$ Versuche
 ### relative Häufigkeit
 - $h(\omega)=\dfrac{H(\omega)}{n}$
 - $\sum\limits_{\omega\in\Omega}h(\omega)=1$
-## Das empirische Gesetz der großen Zahlen
-Die Folge der relativen zeigt ein konvergentes Verhalten
+#### Das empirische Gesetz der großen Zahlen
+Die Folge der relativen Häufigkeit zeigt ein konvergentes Verhalten
 
 ---
 # Tags
