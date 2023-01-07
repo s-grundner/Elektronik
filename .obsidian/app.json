@@ -16,5 +16,6 @@
     "de-DE"
   ],
   "spellcheck": true,
-  "attachmentFolderPath": "./assets"
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "current"
 }
