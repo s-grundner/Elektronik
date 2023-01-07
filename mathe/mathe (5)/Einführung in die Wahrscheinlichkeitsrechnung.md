@@ -40,6 +40,6 @@ Die Folge der relativen Häufigkeit zeigt ein konvergentes Verhalten
 ---
 # Tags
 - [[Wahrscheinlichkeit]]
-
+- [[Rechnen mit Wahrscheinlichkeiten]]
 ![[Pasted image 20221211123853.png|875]]
 ![[UEB-rechnen-wsk.png]]
