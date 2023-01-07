@@ -55,12 +55,20 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 > [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
  
 # Rechnen mit Wahrscheinlichkeiten
-Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
 
->[!summary] Wenn die Ereignisse $E$ & $F$ unvereinbar sind, dann gilt
->$P(E\vee F)=P(E)+P(F)$
->$P(E\wedge F)=0$
+![[Pasted image 20230107220855.png]]
+
+>[!summary] Wenn die Ereignisse $A$ & $B$ unvereinbar sind, dann gilt
+>$P(A\vee B)=P(A)+P(B)$
+>$P(A\wedge B)=0$
 >
+
+> [!example] Zweimaliges Werfen eines Würfels
+> - $A$: Beim ersten Wurf "6" werfen;
+> - $B$: beim ersten Wurf eine ungerade Augenzahl werfen;
+> - $C$: beim zweiten Wurf "6" werfen;
+> $A$ ist uvereinbar mit
+
 
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 > $P(E^C)=1-P(E)$
