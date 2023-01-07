@@ -55,6 +55,7 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 > [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
  
 # Rechnen mit Wahrscheinlichkeiten
+## Unvereinbarkeit
 
 ![[Pasted image 20230107220855.png]]
 
@@ -67,8 +68,12 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 > - $A$: Beim ersten Wurf "6" werfen;
 > - $B$: beim ersten Wurf eine ungerade Augenzahl werfen;
 > - $C$: beim zweiten Wurf "6" werfen;
-> $A$ ist uvereinbar mit
+> 
+> $A$ ist unvereinbar mit $B\rightarrow$ man kann nicht zugleich "6" und dabei eine ungerade Augenzahl werfen.
+> $A$ ist mit $C$ vereinbar
+> $B$ ist mit $C$ vereinbar
 
+## Gegenereignis
 
 >[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
 > $P(E^C)=1-P(E)$
