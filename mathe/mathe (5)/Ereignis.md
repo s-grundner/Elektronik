@@ -39,6 +39,9 @@ Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
 >[!summary] [[Wahrscheinlichkeit]] für das Gegenereignis von $A$:
 > $P(\overline{A})=1-P(A)$
 
+öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die Wahrscheinlichkeit des Gegenereignisses ermittelt.
+So gilt: <mark style="background: #FF5582A6;">Mindestens eines = nicht keines</mark>
+
 >[!example] gerade & ungerade Zahl beim Roulette
 > $P(gerade) = 1-P(ungerade)$
 
