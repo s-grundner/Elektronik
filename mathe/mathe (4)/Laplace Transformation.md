@@ -1,6 +1,6 @@
 ---
 tags: ["Transformation"]
-aliases: []
+aliases: ["s-Domäne"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []
@@ -12,22 +12,18 @@ created: 26th April 2022
 - Um mehr Funktionen transformieren zu können, wird eine [[Dämpfung]] $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
 Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t)=0$ für $t<0$, so heißt:
->[!summary] $$
-\begin{align*}
-F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt && s\in\mathbb{C} \dots\text{(Komplex)}
-\end{align*}
-$$
+>[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} \dots\text{(Komplex)}$$
 
-
-> [!summary]
+> [!summary] Frequenzparameter: $s = \delta+j\omega$
 > 
 
 Woher: $f(t)\cdot e^{-\delta t}$ wird [[Fourier Transformation|fourier-transformiert]] $(f(t)=0 \forall t<0)$
+
 $$
 \begin{align*}
-F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt && s = \delta+j\omega\\
+F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt\\
 F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
-\mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} && f(t) = 0 \forall t<0
+\mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} \qquad f(t) = 0 \forall t<0
 \end{align*}
 $$
 
