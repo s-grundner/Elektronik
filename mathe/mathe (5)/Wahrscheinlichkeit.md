@@ -77,6 +77,12 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 
 
 
+### Pfadregeln
+![[Pasted image 20230108013030.png]]
+
+![[Pasted image 20230108013044.png]]
+
+![[Pasted image 20230108013054.png]]
 # Tags
 [[Einführung in die Wahrscheinlichkeitsrechnung]]
 

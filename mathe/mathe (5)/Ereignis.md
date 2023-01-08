@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Statistik"]
 aliases: ["Ereignisse"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
@@ -36,8 +36,8 @@ Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
 
 ## Gegenereignis
 
->[!summary] Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
-> $P(E^C)=1-P(E)$
+>[!summary] [[Wahrscheinlichkeit]] für das Gegenereignis von $A$:
+> $P(\overline{A})=1-P(A)$
 
 >[!example] gerade & ungerade Zahl beim Roulette
 > $P(gerade) = 1-P(ungerade)$
