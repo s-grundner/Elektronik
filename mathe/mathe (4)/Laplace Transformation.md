@@ -11,12 +11,37 @@ created: 26th April 2022
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem Einschalten $(t=0)$ passiert.
 - Um mehr Funktionen transformieren zu können, wird eine [[Dämpfung]] $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
-Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t)=0$ für $t<0$, so heißt:
->[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} \dots\text{(Komplex)}$$
+Ist eine Funktion auf
+- $t\in\mathbb{R}$
+- definiert mit $f(t):[0,\infty[$
+- für $t<0$,
+so heißt:
+  
+>[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C}$$
 
 > [!summary] Frequenzparameter: $s = \delta+j\omega$
 > 
 
+[[Fourier Transformation]] vs. Laplace Transformation
+$$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$
+für $s=j\omega$ ist dann $F(s)=F(\omega)$
+
+>[!example] Bsp.: Deltaimpuls
+> $$
+> \begin{align*}
+> f(t) &= 1\\
+> f(t) &= \delta(t) = \begin{cases}
+> 1 && t \geq 0\\
+> 0 && t < 0
+> \end{cases}\\
+> \mathcal{L}\{1\} &= \int_{0}^{\infty}1\cdot e^{-st}dt = -\frac{1}{s}\cdot e^{-st} \Bigg{|}_{0}^{\infty} = 0-\left(\frac{1}{s}\cdot e^{0}\right) = \frac{1}{s}
+> \end{align*}
+> $$
+
+
+
+
+## Herleitung
 Woher: $f(t)\cdot e^{-\delta t}$ wird [[Fourier Transformation|fourier-transformiert]] $(f(t)=0 \forall t<0)$
 
 $$
@@ -26,29 +51,6 @@ F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
 \mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} \qquad f(t) = 0 \forall t<0
 \end{align*}
 $$
-
-
-[[Fourier Transformation]] vs. Laplace Transformation
-$$
-\begin{align*}
-F(s) = \mathcal{L}\{ f(t)\} && F(\omega) = \mathcal{F} \{f(t)\}
-\end{align*}
-$$
-für $s=j\omega$ ist dann $F(s)=F(\omega)$
-
->[!example] Bsp.: Deltaimpuls
-> $$
-\begin{align*}
-f(t) &= 1\\
-f(t) &= \delta(t) = \begin{cases}
-1 && t \geq 0\\
-0 && t < 0
-\end{cases}\\
-\mathcal{L}\{1\} &= \int_{0}^{\infty}1\cdot e^{-st}dt = -\frac{1}{s}\cdot e^{-st} \Bigg{|}_{0}^{\infty} = 0-\left(\frac{1}{s}\cdot e^{0}\right) = \frac{1}{s}
-\end{align*}
-$$
-
-
 ## Regeln der Laplace Transformation
 ### Linearitätssatz
 #### Summenregel
@@ -138,7 +140,7 @@ $$
 \end{align*}
 $$
 
-# Elektrische Netzwerke im Laplace-[[Komplexe Zahlen|Bildbereich]]
+# Elektrische Netzwerke im Laplace-[[Komplexe Zahlen|Bildbereich]] (s-Domäne)
 Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lineare Differentialgleichung mit konstanten Koeffizienten beschrieben. Diese Netzwerke werden als lineare Netzwerke bezeichnet.
 
 Bei umfangreichen Netzwerken ist jedoch oft
