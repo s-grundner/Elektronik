@@ -24,7 +24,7 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 > - ein Los ziehen
 > - eine Münze werfen
 
-## Wahrscheinlichkeitsfunktion#
+## Wahrscheinlichkeitsfunktion
 [[Grundmenge]] $\Omega$:
 $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
