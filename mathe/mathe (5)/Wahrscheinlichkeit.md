@@ -72,6 +72,8 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 >[!summary] für [[Ereignis#Unabhängige Ereignisse|unabhängige Ereignisse]]
 > $P(A\wedge B)=P(A)\cdot P(B)$
 
+
+## Mehrstufige Zufallsvorgänge
 ### Pfadregeln
 ![[Pasted image 20230108013030.png]]
 
