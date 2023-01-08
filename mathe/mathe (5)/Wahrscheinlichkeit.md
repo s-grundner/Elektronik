@@ -24,7 +24,8 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 > - ein Los ziehen
 > - eine Münze werfen
 
-## Wahrscheinlichkeitsfunktion
+## Wahrscheinlichkeitsfunktion#
+[[Grundmenge]] $\Omega$:
 $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
 > [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
@@ -49,7 +50,6 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 > [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
 
 ## Rechnen mit Wahrscheinlichkeiten
-
 ### Bedingte Wahrscheinlichkeit $P(A|B)$
 Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
 - Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
@@ -79,9 +79,9 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 
 ![[Pasted image 20230108013054.png]]
 # Tags
-[[Einführung in die Wahrscheinlichkeitsrechnung]]
-
 | ![[Pasted image 20221211123853.png]] | ![[UEB-rechnen-wsk.png]] | 
 | ------------------------------------ | ------------------------ |
 
+[[Grundmenge]]
+[[Ereignis]]
 https://studyflix.de/statistik/wahrscheinlichkeit-1932
