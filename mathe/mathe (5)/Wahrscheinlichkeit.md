@@ -8,7 +8,7 @@ created: 4th October 2022
 ---
 
 # Wahrscheinlichkeit $P(\omega)$
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den Grenzwert der Folge $\langle h(\omega)\rangle$.
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$.
 
 >[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
 
@@ -30,7 +30,7 @@ $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 > [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
 
 ### Laplace Experiment (Laplace Modell)
-- Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle Elementarereignisse gleichwahrscheinlich sind.
+- Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle [[Ereignis|Elementarereignisse]] gleichwahrscheinlich sind.
 - Typische Beispiele sind hier auch der Münzwurf oder ein Würfelwurf.
 
 Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$
@@ -38,17 +38,15 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 >[!summary] $P(\omega_{i})=\dfrac{1}{|\Omega|}$
 >mit
 > - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des [[Ereignis]] $\omega$
-> - $|\Omega|\dots$ die Anzahl der möglichen Ergebnisse 
+> - $|\Omega|\dots$ die Anzahl der möglichen [[Ereignis|Ereignisse]]
 
 >[!summary] $P(E)=\dfrac{E}{|\Omega|}$
 > mit:
-> - $P(E)\dots$ die Wahrscheinlichkeit eines Ereignisses
-> - $E\dots$ die Anzahl der günstigen Ergebnisse
-> - $|\Omega|\dots$ die Anzahl der möglichen Ergebnisse 
+> - $P(E)\dots$ die Wahrscheinlichkeit eines [[Ereignis]]
+> - $E\dots$ die Anzahl der günstigen [[Ereignis|Ereignisse]]
+> - $|\Omega|\dots$ die Anzahl der möglichen [[Ereignis|Ereignisse]] 
 
 > [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
- 
-
 
 ## Rechnen mit Wahrscheinlichkeiten
 
@@ -73,9 +71,6 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 
 >[!summary] für [[Ereignis#Unabhängige Ereignisse|unabhängige Ereignisse]]
 > $P(A\wedge B)=P(A)\cdot P(B)$
-
-
-
 
 ### Pfadregeln
 ![[Pasted image 20230108013030.png]]
