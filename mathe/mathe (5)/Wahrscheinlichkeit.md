@@ -74,6 +74,10 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 
 
 ## Mehrstufige Zufallsvorgänge
+- Ein **zusammengesetzter Zufallsvorgang** lässt sich oft in eine Folge von einfacheren Zufallsvorgängen zerlegen.
+- Man spricht dann von einem **mehrstufigen Zufallsvorgang**.
+- Kann durch ein sogenanntes Baumdiagramm veranschaulicht werden.
+- Durch ein Baumdiagramm auch die Berechnung von Wahrscheinlichkeiten erheblich erleichtert werden.  
 ### Pfadregeln
 ![[Pasted image 20230108013030.png]]
 
