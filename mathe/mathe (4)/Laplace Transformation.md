@@ -12,20 +12,26 @@ created: 26th April 2022
 - Um mehr Funktionen transformieren zu können, wird eine [[Dämpfung]] $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
 Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t)=0$ für $t<0$, so heißt:
-$$
+>[!summary] $$
 \begin{align*}
-F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt && s\in\mathbb{C}
+F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt && s\in\mathbb{C} \dots\text{(Komplex)}
 \end{align*}
 $$
-Woher: $f(t)\cdot e^{-\delta t}$ wird [[Fourier Transformation|Fouriertransformiert]] $(f(t)=0 \forall t<0)$
+
+
+> [!summary]
+> 
+
+Woher: $f(t)\cdot e^{-\delta t}$ wird [[Fourier Transformation|fourier-transformiert]] $(f(t)=0 \forall t<0)$
 $$
 \begin{align*}
 F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt && s = \delta+j\omega\\
 F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
 \mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} && f(t) = 0 \forall t<0
 \end{align*}
-
 $$
+
+
 [[Fourier Transformation]] vs. Laplace Transformation
 $$
 \begin{align*}
@@ -34,10 +40,8 @@ F(s) = \mathcal{L}\{ f(t)\} && F(\omega) = \mathcal{F} \{f(t)\}
 $$
 für $s=j\omega$ ist dann $F(s)=F(\omega)$
 
-```ad-example
-title: Bsp.:
-
-$$
+>[!example] Bsp.: Deltaimpuls
+> $$
 \begin{align*}
 f(t) &= 1\\
 f(t) &= \delta(t) = \begin{cases}
@@ -48,7 +52,6 @@ f(t) &= \delta(t) = \begin{cases}
 \end{align*}
 $$
 
-```
 
 ## Regeln der Laplace Transformation
 ### Linearitätssatz
@@ -72,7 +75,7 @@ $$
 	f(t)\cdot e^{-at} &\multimap F(s+a)
 \end{align*}
 $$
-### Zeitverschiebungssatz
+### Zeitverschiebungs-Satz
 Ist $t \leq 0$ so gilt:
  $$
 \begin{align*}
@@ -132,15 +135,12 @@ $$
 $$
 \int_{0}^{t} f(\tau)d\tau \multimap \frac{1}{s}F(s)
 $$
-```ad-example
-title: Bsp.:
 $$
 \begin{align*}
 	\mathcal{L}\{\sin(t)\} &= \frac{1}{s^{2}+1}\\
 	\mathcal{L}\{\cos(t)\} &= s\cdot F(s) - f(0) = s\cdot \frac{1}{s^{2} + 1} - \sin(0) = \frac{s}{s^{2}}
 \end{align*}
 $$
-```
 
 # Elektrische Netzwerke im Laplace-[[Komplexe Zahlen|Bildbereich]]
 Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lineare Differentialgleichung mit konstanten Koeffizienten beschrieben. Diese Netzwerke werden als lineare Netzwerke bezeichnet.
