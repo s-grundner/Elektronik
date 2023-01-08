@@ -9,7 +9,7 @@ created: 8th January 2023
 
 # Ereignis $E$
 Oft interessiert uns nicht für die [[Wahrscheinlichkeit]] eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
-Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
+Das Ereignis $E$ ist eine Teilmenge der [[Grundmenge]] $\Omega$
 
 >[!example] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
 
