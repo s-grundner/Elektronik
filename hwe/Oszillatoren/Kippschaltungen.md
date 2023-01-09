@@ -44,6 +44,11 @@ $$T=(t_{3}-t_{2})+(t_{2}-t_{1})$$
 ![[herl_T.png]]
 
 ## Dimensionierung "Invertierenden Schmitttrigger" als Taktgenerator
-$$U_{a,min}=0V=U_{B}^{-}$$ U_{T}^{-}=2V\qquad f =1kHz$$
+$$
+\begin{align*}
+U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz\\
+U_{a,max}=0V=U_{B}^{-} && U_{T}^{+}=3V\\
+\end{align*}
+$$
 
 # Tags
