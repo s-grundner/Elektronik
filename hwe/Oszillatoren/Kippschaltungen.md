@@ -31,7 +31,8 @@ Die Schmitttrigger Kippschaltungen ist eine Astabile Kippstufe
 ![[ST-Diag.png|500]]
 
 $$T=(t_{3}-t_{2})+(t_{2}-t_{1})$$
-- $u_{c}(t)=$
+- Laden: $u_{c}(t)=U_{0}\cdot(1-e^{\dfrac{-t}{\uptau}})$
+- Entladen: $u_{c}(t)=U_{0}\cdot e^{\dfrac{-t}{\uptau}}$
 
 ## Dimensionierung
 
