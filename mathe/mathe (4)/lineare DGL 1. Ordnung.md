@@ -39,8 +39,6 @@ $$
 		&&\Big |e\uparrow\\
 \end{align*}
 $$
-<br>
-
 $$
 \underline{\underline{
 	y(x)=c\cdot e^{-p\cdot x}
@@ -49,7 +47,7 @@ $$
 Grundform des Exponentialansatzes mit nicht-konstantem Faktor p(x):
 $$
 \begin{align*}
-	y(x)=c\cdot e^{-\int p(x)d(x)}
+	y(x)=c\cdot e^{-\int p(x)dx}
 \end{align*}
 $$
 > Bsp.: Kondensator entladen
@@ -62,7 +60,7 @@ $$
 \end{align*}
 $$
 
-Eine partikuläre Lösung $y_{p}$ der inhomogenen lineare DGL a´kann, wenn der Koeffizien $p$ konstant ist, durch einen Lösungsansatz entsprechend dem Störterm $s(x)$ gesucht werden.
+Eine partikuläre Lösung $y_{p}$ der inhomogenen lineare DGL kann, wenn der Koeffizient $p$ konstant ist, durch einen Lösungsansatz entsprechend dem Störterm $s(x)$ gesucht werden.
 Ist der Koeffizient nicht 
 
 ## Tags

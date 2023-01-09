@@ -3,82 +3,109 @@ tags: ["Statistik"]
 aliases: ["WSK"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
+reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 4th October 2022
 ---
 
-# Wahrscheinlichkeit
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probablitiy) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$
-![[Pasted image 20221211123853.png|750]]
-## Ereignis 
-Oft interessiert uns nicht für die Wahrscheinlichkeit ein kombies einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
+# Wahrscheinlichkeit $P(\omega)$
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$.
 
-```ad-example
-title: Roulette $\dots$ geraden Zahlen
-Das Ereignis $E$ ist eine Teilmenge der Grundmenge $\Omega$
-z.B $E=\{2;4;\dots;36\}$
-```
+>[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
+
+> [!example] Würfel: $P(1)=\dfrac{1}{6}$
+
+Ein Zufallsexperiment ist gekennzeichnet durch:
+- gleiche Ausgangsbedingungen
+- unsicheren Ausgang
+- beliebig wiederholbar
+
+>[!example] Beispiele
+> - Würfeln mit einem Würfel
+> - ein Los ziehen
+> - eine Münze werfen
 
 ## Wahrscheinlichkeitsfunktion
+[[Grundmenge]] $\Omega$:
+$P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
-```ad-example
-title: Laplace Experiment
-Fall, der häufig vorkommt
-$P(\omega_1)=P(\omega_2)\dots=P(\omega_n)\qquad \notin$
+> [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
 
+### Laplace Experiment (Laplace Modell)
+- Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle [[Ereignis|Elementarereignisse]] gleichwahrscheinlich sind.
+- Typische Beispiele sind hier auch der Münzwurf oder ein Würfelwurf.
 
+Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$
 
-```
+>[!summary] $P(\omega_{i})=\dfrac{1}{|\Omega|}$
+>mit
+> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des [[Ereignis]] $\omega$
+> - $|\Omega|\dots$ die Anzahl der möglichen [[Ereignis|Ereignisse]]
+
+>[!summary] $P(E)=\dfrac{E}{|\Omega|}$
+> mit:
+> - $P(E)\dots$ die Wahrscheinlichkeit eines [[Ereignis]]
+> - $E\dots$ die Anzahl der günstigen [[Ereignis|Ereignisse]]
+> - $|\Omega|\dots$ die Anzahl der möglichen [[Ereignis|Ereignisse]] 
+
+> [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
+
 ## Rechnen mit Wahrscheinlichkeiten
-Zwei Ereignisse heißen ausschließlich oder unvereinbar, wenn sie nicht gemeinsam auftreten können.
+### Bedingte Wahrscheinlichkeit $P(A|B)$
+Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
+- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
 
-Sei $E^C$ das Gegenereignis zu $E$, dann gilt:
-$P(E^C)=1-P(E)$
-$P(gerade) = 1-P(ungerade)$
-![[Pasted image 20221210140838.png]]
-![[Pasted image 20221210140907.png|1050]]
+### Additionssatz (ODER-Regel)
 
-``` ad-example
-title: 26 Schüler: 2 haben den selben Geburtstag
-$P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
+> [!summary] für beliebige [[Ereignis|Ereignisse]]
+> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
 
-$\frac{364}{365}\cdot\frac{364}{365}\cdot\frac{363}{365}\dots\frac{340}{365} = \frac{365!}{365^{26}\cdot339!}=0.4$
-$1-0.4=0.6$
-```
+>[!summary] für [[Ereignis#Unvereinbare Ereignisse|unvereinbare Ereignisse]]
+> $$P(A\vee B) = P(A) + P(B) - 0$$
 
-```ad-example
-title: gerade und ungerade Zahl bei Roulette
-Wenn die Ereignisse E&F unvereinbar sind, dann gilt:
-$P(E\&F) = P(E) + P(F)$
-```
+### Multiplikationssatz (UND-Regel)
+
+>[!summary] für beliebige [[Ereignis|Ereignisse]]
+> $P(A\wedge B)=P(A)\cdot P(B|A)$
+> - $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
+> - $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
+
+>[!summary] für [[Ereignis#Unabhängige Ereignisse|unabhängige Ereignisse]]
+> $P(A\wedge B)=P(A)\cdot P(B)$
+
+## Gegenereignis
+
+>[!summary] [[Wahrscheinlichkeit]] für das Gegenereignis von $A$:
+> $P(\overline{A})=1-P(A)$
+
+öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die [[Wahrscheinlichkeit]] des Gegenereignisses ermittelt.
+So gilt: <mark style="background: #FF5582A6;">Mindestens eines = nicht keines</mark>
+
+>[!example] gerade & ungerade Zahl beim Roulette
+> $P(gerade) = 1-P(ungerade)$
+
+ >[!example] 26 Schüler: 2 haben den selben Geburtstag
+> $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
+> 
+> $\dfrac{365}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
+> 
+> $1-0.4=0.6$
 
 
-## [[Zufallsvariable]]
-# Bedingte Wahrscheinlichkeit
-![[Pasted image 20221211124209.png]]
-![[Pasted image 20221211124216.png]]
+## Mehrstufige Zufallsvorgänge
+- Ein **zusammengesetzter Zufallsvorgang** lässt sich oft in eine Folge von einfacheren Zufallsvorgängen zerlegen.
+- Man spricht dann von einem **mehrstufigen Zufallsvorgang**.
+- Kann durch ein sogenanntes Baumdiagramm veranschaulicht werden.
+- Durch ein Baumdiagramm auch die Berechnung von Wahrscheinlichkeiten erheblich erleichtert werden.  
+### Pfadregeln
+![[Pasted image 20230108013030.png]]
+
+![[Pasted image 20230108013044.png]]
+
+![[Pasted image 20230108013054.png]]
 # Tags
+| ![[Pasted image 20221211123853.png]] | ![[UEB-rechnen-wsk.png]] | 
+| ------------------------------------ | ------------------------ |
 
-
-
-
-```ad-example
-title: 16) Unter 9 Passagieren sind 4 Schmuggler und 5 ehrliche Leute. Ein Zollbeamter wählt drei Personen zur Kontrolle aus. Alle drei entpuppen sich als Schmuggler. Berechne die WSK, rein zufällig ein so gutes Ergebnis zu erzielen.
-Ziehen ohne zurücklegen
-![[Pasted image 20221012125710.png]]
-$$
-\frac{4}{9}\cdot \frac{3}{8}\cdot \frac{2}{7} = \frac{1}{21}
-$$
-```
-
-```ad-example
-title: 18. Welches Ereignis ist wahrscheinlicher:
-a) 4 Würfe mit einem Würfel und dabei mindestens eine Sechs oder
-b) 24 Würfe mit 2 Würfeln und dabei mindestens eine Doppelsechs.
-![[Pasted image 20221012130725.png]]
-
-$$
-P(\geq 1 '6') = 1-P(\neg '6')
-$$
-
-```
+[[Grundmenge]]
+[[Ereignis]]
+https://studyflix.de/statistik/wahrscheinlichkeit-1932

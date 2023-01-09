@@ -1,10 +1,8 @@
-.trash
-.obsidian/workspace
-.obsidian/workspace-mobile.json
-.obsidian/workspace.json
-.obsidian/plugins/obsidian-git/data.json
-.obsidian/plugins/obsidian-textgenerator-plugin/data.json
+/.trash
+/.vscode
+/.obsidian/*.json
+/.obsidian/plugins/obsidian-completr/scanned_words.txt
+/.obsidian/snippets
+/.obsidian/themes
+**/data.json
 conflict-files-obsidian-git.md
-.obsidian/text-generator.json
-.obsidian/plugins/obsidian-completr/scanned_words.txt
-.obsidian/appearance.json

@@ -1,5 +1,5 @@
 ---
-tags: ["Infinidesimalrechnung"]
+tags: ["Infinitesimalrechnung"]
 aliases: ["Integrieren", "Integral"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]

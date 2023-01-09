@@ -1,5 +1,5 @@
 ---
-tags: ["Infinidesimalrechnung"]
+tags: ["Infinitesimalrechnung"]
 aliases: ["Differenzieren", "Ableitung"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]

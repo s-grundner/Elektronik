@@ -6,12 +6,12 @@ source: ["Martin Aichriedler, Christian Baun"]
 ---
 
 # Bitübertragungsschicht (OSI-Layer 1)
-## Aufgaben der Bitübertragunsschicht
+## Aufgaben der Bitübertragungsschicht
 ## Geräte der Bitübertragungsschicht
 ## Bitübertragungs-Protokolle
 # Tags
-## [[OSI-Modell]]
-## [Christian Baun](http://www.christianbaun.de/)
+[[OSI-Modell]]
+[Christian Baun](http://www.christianbaun.de/)
 [Foliensätze](http://www.christianbaun.de/Netzwerke1718/index_de.html)
 ![[2-FS_ComputerNetze.pdf]]
 ![[3-FS_ComputerNetze.pdf]]

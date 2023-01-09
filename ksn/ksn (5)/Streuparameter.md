@@ -99,7 +99,7 @@ $$
 | $S_{21}$ | Vorwärts-Transmissionsfaktor  | $S_{21}=\left. \dfrac{b_{2}}{a_{1}}\right._{a_{2}=0}$ | stellt die Vorwärts-Transmission ohne Anregung an Tor 2 dar  |
 | $S_{12}$ | Rückwärts-Transmissionsfaktor | $S_{12}=\left. \dfrac{b_{1}}{a_{2}}\right._{a_{1}=0}$ | stellt die Rückwärts-Transmission ohne Anregung an Tor 1 dar | 
 
-### [[Ketten Matrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
+### [[Kettenmatrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
 
 ```ad-example
 title: Standard [[Zweitor]]
@@ -110,6 +110,6 @@ title: Standard [[Zweitor]]
 title: T-Glied
 ```
 
-### [[Ketten Matrix#Admittanz Matrixrechnung Matrix|Admittanz Matrix]]
+### [[Kettenmatrix#Admittanz Matrixrechnung Matrix|Admittanz Matrix]]
 
 # Einführung von Streuparametern und Wellengrößen

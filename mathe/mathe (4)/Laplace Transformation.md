@@ -1,6 +1,6 @@
 ---
 tags: ["Transformation"]
-aliases: []
+aliases: ["s-Domäne"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []
@@ -11,45 +11,46 @@ created: 26th April 2022
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem Einschalten $(t=0)$ passiert.
 - Um mehr Funktionen transformieren zu können, wird eine [[Dämpfung]] $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
-Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t)=0$ für $t<0$, so heißt:
-$$
-\begin{align*}
-F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt && s\in\mathbb{C}
-\end{align*}
-$$
-Woher: $f(t)\cdot e^{-\delta t}$ wird [[Fourier Transformation|Fouriertransformiert]] $(f(t)=0 \forall t<0)$
-$$
-\begin{align*}
-F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt && s = \delta+j\omega\\
-F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
-\mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} && f(t) = 0 \forall t<0
-\end{align*}
+Ist eine Funktion auf
+- $t\in\mathbb{R}$
+- definiert mit $f(t):[0,\infty[$
+- für $t<0$,
+so heißt:
+  
+>[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C}$$
 
-$$
+> [!summary] Frequenzparameter: $s = \delta+j\omega$
+> 
+
 [[Fourier Transformation]] vs. Laplace Transformation
-$$
-\begin{align*}
-F(s) = \mathcal{L}\{ f(t)\} && F(\omega) = \mathcal{F} \{f(t)\}
-\end{align*}
-$$
+$$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$
 für $s=j\omega$ ist dann $F(s)=F(\omega)$
 
-```ad-example
-title: Bsp.:
+>[!example] Bsp.: Deltaimpuls
+> $$
+> \begin{align*}
+> f(t) &= 1\\
+> f(t) &= \delta(t) = \begin{cases}
+> 1 && t \geq 0\\
+> 0 && t < 0
+> \end{cases}\\
+> \mathcal{L}\{1\} &= \int_{0}^{\infty}1\cdot e^{-st}dt = -\frac{1}{s}\cdot e^{-st} \Bigg{|}_{0}^{\infty} = 0-\left(\frac{1}{s}\cdot e^{0}\right) = \frac{1}{s}
+> \end{align*}
+> $$
+
+
+
+
+## Herleitung
+Woher: $f(t)\cdot e^{-\delta t}$ wird [[Fourier Transformation|fourier-transformiert]] $(f(t)=0 \forall t<0)$
 
 $$
 \begin{align*}
-f(t) &= 1\\
-f(t) &= \delta(t) = \begin{cases}
-1 && t \geq 0\\
-0 && t < 0
-\end{cases}\\
-\mathcal{L}\{1\} &= \int_{0}^{\infty}1\cdot e^{-st}dt = -\frac{1}{s}\cdot e^{-st} \Bigg{|}_{0}^{\infty} = 0-\left(\frac{1}{s}\cdot e^{0}\right) = \frac{1}{s}
+F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt\\
+F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
+\mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} \qquad f(t) = 0 \forall t<0
 \end{align*}
 $$
-
-```
-
 ## Regeln der Laplace Transformation
 ### Linearitätssatz
 #### Summenregel
@@ -72,7 +73,7 @@ $$
 	f(t)\cdot e^{-at} &\multimap F(s+a)
 \end{align*}
 $$
-### Zeitverschiebungssatz
+### Zeitverschiebungs-Satz
 Ist $t \leq 0$ so gilt:
  $$
 \begin{align*}
@@ -132,17 +133,14 @@ $$
 $$
 \int_{0}^{t} f(\tau)d\tau \multimap \frac{1}{s}F(s)
 $$
-```ad-example
-title: Bsp.:
 $$
 \begin{align*}
 	\mathcal{L}\{\sin(t)\} &= \frac{1}{s^{2}+1}\\
 	\mathcal{L}\{\cos(t)\} &= s\cdot F(s) - f(0) = s\cdot \frac{1}{s^{2} + 1} - \sin(0) = \frac{s}{s^{2}}
 \end{align*}
 $$
-```
 
-# Elektrische Netzwerke im Laplace-[[Komplexe Zahlen|Bildbereich]]
+# Elektrische Netzwerke im Laplace-[[Komplexe Zahlen|Bildbereich]] (s-Domäne)
 Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lineare Differentialgleichung mit konstanten Koeffizienten beschrieben. Diese Netzwerke werden als lineare Netzwerke bezeichnet.
 
 Bei umfangreichen Netzwerken ist jedoch oft

@@ -25,26 +25,10 @@ title: Phase
 xLabel: f/Hz
 yLabel: 
 bounds: [0,2000,-90,90]
-disableZoom: false
+disableZoom: true
 grid: true
 ---
 phi(x)=180*(1/(1+2.71^(-(x/180)+5.555))-0.5)
 ```
-
-
-```functionplot
----
-title: 
-xLabel: 
-yLabel: 
-bounds: [-10,10,-10,10]
-disableZoom: false
-grid: true
----
-y(x)=x
-f(x)= 1/x
-g(x) = x+1/x
-```
-
 
 # Tags
