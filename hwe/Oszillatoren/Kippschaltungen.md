@@ -55,7 +55,7 @@ Die Schmitttrigger Kippschaltungen ist eine Astabile Kippstufe
 ### $T$ berechnen
 
 ![[herl_T.png]]
- > [!summary] $$T = \uptau\ln\left(\cdot\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
+ > [!summary] $$T = \uptau\ln\left(\frac{U_T^+}{U_T^-}\cdot\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
 
 ## Dimensionierung "Invertierenden Schmitttrigger" als Taktgenerator
 $$
