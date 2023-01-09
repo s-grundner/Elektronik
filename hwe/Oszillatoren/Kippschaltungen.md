@@ -14,5 +14,12 @@ created: 3rd January 2023
 - Als Buffer sollte ein weiteres Gatter hinter dem Oszillator nachgeschaltet werden.
 - Nachschalten eines T-FF zur Taktsymmetrierung.
 
+# Schmitttrigger Kippschaltung
+- Frequenz
+
+
+## Herleitung
+
+## Dimensionierung
 
 # Tags
