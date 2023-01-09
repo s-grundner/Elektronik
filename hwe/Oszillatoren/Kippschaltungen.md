@@ -34,6 +34,16 @@ $$T=(t_{3}-t_{2})+(t_{2}-t_{1})$$
 - Laden: $u_{c}(t)=U_{0}\cdot(1-e^{\dfrac{-t}{\uptau}})$
 - Entladen: $u_{c}(t)=U_{0}\cdot e^{\dfrac{-t}{\uptau}}$
 
-## Dimensionierung
+### Entladen
+![[herl_te.png]]
+
+### Laden
+![[Herl_tl.png]]
+
+### $T$ berechnen
+![[herl_T.png]]
+
+## Dimensionierung "Invertierenden Schmitttrigger" als Taktgenerator
+$$U_{a,min}=0V=U_{B}^{-}$$ U_{T}^{-}=2V\qquad f =1kHz$$
 
 # Tags
