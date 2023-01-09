@@ -29,19 +29,25 @@ Die Schmitttrigger Kippschaltungen ist eine Astabile Kippstufe
 
 ## Herleitung
 ![[ST-Diag.png|500]]
+> [!summary] Periodendauer $T$
+> $T=(t_{3}-t_{2})+(t_{2}-t_{1})$
+ 
 
-$$T=(t_{3}-t_{2})+(t_{2}-t_{1})$$
-Laden
-$$u_{c}(t)=U_{0}\cdot(1-e^{\frac{-t}{\uptau}})$$
-- Entladen: $u_{c}(t)=U_{0}\cdot e^{\frac{-t}{\uptau}}$
+> [!summary] Ladedauer $t_L$
+> $u_{c}(t)=U_{0}\cdot(1-e^{\frac{-t}{\uptau}})$
+
+
+> [!summary] Entladedauer $t_E$
+> $u_{c}(t)=U_{0}\cdot e^{\frac{-t}{\uptau}}$
 
 ### Entladen
 
 ![[herl_te.png]]
 
 ### Laden
-
 ![[Herl_tl.png]]
+
+$$t_L = \uptau\cdot\ln{\dfrac{U_0- U_T^+}{U_0-U_T^-}}$$
 
 ### $T$ berechnen
 
