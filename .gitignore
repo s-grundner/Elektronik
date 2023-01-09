@@ -1,6 +1,8 @@
-.trash
-conflict-files-obsidian-git.md
-.obsidian/plugins/obsidian-completr/scanned_words.txt
-.obsidian/*.json
-.vscode
+/.trash
+/.vscode
+/.obsidian/*.json
+/.obsidian/plugins/obsidian-completr/scanned_words.txt
+/.obsidian/snippets
+/.obsidian/themes
 **/data.json
+conflict-files-obsidian-git.md
