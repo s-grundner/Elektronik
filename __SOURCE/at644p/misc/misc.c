@@ -42,16 +42,3 @@ void atox(unsigned char high, unsigned char low, unsigned char *data)
 
 	*data = ((upper_four << 4) | (lower_four & 0x0F));
 }
-
-void print_prime(int x)
-{
-	for (int i = 0; i <= x; i++)
-	{
-		int j;
-		for (j = 0; j < x; j++)
-			if (!(x % i))
-				break;
-		if (x == i + 1)
-			fprintf(stdout, "%d\n", x)
-	}
-}
