@@ -8,23 +8,23 @@ source: ["Rudolf Frauenschuh"]
 # Lineare Differentialgleichungen 1. Ordnung
 ## Lineare Differentialgleichungen 1. Ordnung mit konstantem Koeffizienten
 $$y'+p\cdot y=s(x)$$
-Eine DGL 1. Ordnung heißt **linear**, wenn sie in der Form $y'+p\cdot y=s(x)$ geschrieben werden kann.
+Eine [[{MOC} DGL|DGL]] 1. Ordnung heißt **linear**, wenn sie in der Form $y'+p\cdot y=s(x)$ geschrieben werden kann.
 
-Der Faktor $p$ heißt **Koeffizient** der linearen DGL. ist der Koeffizient eine *Konstante*, so spricht man von einer **linearen Differentialgleichungen 1. Ordnung mit konstantem Koeffizienten**.
+Der Faktor $p$ heißt **Koeffizient** der linearen [[{MOC} DGL|DGL]]. ist der Koeffizient eine *Konstante*, so spricht man von einer **linearen Differentialgleichungen 1. Ordnung mit konstantem Koeffizienten**.
 
 Die im Allgemeinen vom $x$ abhängige Funktion **$s(x)$** wird oft als **Störfunktion** bezeichnet.
 
-Ist **$s(x)=0$** für *alle* x, heißt die lineare DGL **homogen**, sonst **inhomogen**.
+Ist **$s(x)=0$** für *alle* x, heißt die lineare [[{MOC} DGL|DGL]] **homogen**, sonst **inhomogen**.
 $$
 y'+\underbrace{p}_{\text{Koeffizient}} \cdot y=\underbrace{s(x)}_{\text{Störterm}}
 $$
 > Bsp.:
-> $y'+x^{2}\cdot y=0\rightarrow$ **homogene lineare** DGL 1. Ordnung mit **nicht konstantem** Koeffizienten
-> $y'+2\cdot y=1\rightarrow$ **inhomogene lineare** DGL 1. Ordnung mit **konstantem** Koeffizienten
+> $y'+x^{2}\cdot y=0\rightarrow$ **homogene lineare** [[{MOC} DGL|DGL]] 1. Ordnung mit **nicht konstantem** Koeffizienten
+> $y'+2\cdot y=1\rightarrow$ **inhomogene lineare** [[{MOC} DGL|DGL]] 1. Ordnung mit **konstantem** Koeffizienten
 
-Eine **homogene** lineare DGL 1. Ordnung lässt sich durch Trennung der Variablen lösen. Ist der **Koeffizient $p$** *konstant,* so kann die Lösung einfacher mit mit einem **Exponentialansatz** gefunden werden. Ist der konstante Koeffizient $p$ positiv, so klingt die Lösung exponentiell ab, sie ist "flüchtig". 
+Eine **homogene** lineare [[{MOC} DGL|DGL]] 1. Ordnung lässt sich durch Trennung der Variablen lösen. Ist der **Koeffizient $p$** *konstant,* so kann die Lösung einfacher mit mit einem **Exponentialansatz** gefunden werden. Ist der konstante Koeffizient $p$ positiv, so klingt die Lösung exponentiell ab, sie ist "flüchtig". 
 
-### Lösung der *homogenen*  DGL 1. Ordnung mit Exponentialansatz
+### Lösung der *homogenen*  [[{MOC} DGL|DGL]] 1. Ordnung mit Exponentialansatz
 $$
 \begin{align*}
 	y'+p\cdot y &= 0\\
@@ -52,15 +52,15 @@ $$
 $$
 > Bsp.: Kondensator entladen
 > ![[c_disch.png|200]]
-### Lösung der *inhomogenen*  DGL 1. Ordnung
-Die allgemeine Lösung $y$ einer inhomogenen linearen DGL 1. Ordnung ([[{MOC} DGL|oder auch einer höheren Ordnung]]) ist als Summe der allgemeinen Lösung $y_{h}$ der **dazugehörigen homogenen DGL** und einer *beliebigen* **partikulären Lösung $y_{p}$** der **inhomogenen DGL **darstellbar:
+### Lösung der *inhomogenen*  [[{MOC} DGL|DGL]] 1. Ordnung
+Die allgemeine Lösung $y$ einer inhomogenen linearen [[{MOC} DGL|DGL]] 1. Ordnung ([[{MOC} DGL|oder auch einer höheren Ordnung]]) ist als Summe der allgemeinen Lösung $y_{h}$ der **dazugehörigen homogenen [[{MOC} DGL|DGL]]** und einer *beliebigen* **partikulären Lösung $y_{p}$** der **inhomogenen [[{MOC} DGL|DGL]] **darstellbar:
 $$
 \begin{align*}
 	y = y_{h} + y_{p}
 \end{align*}
 $$
 
-Eine partikuläre Lösung $y_{p}$ der inhomogenen lineare DGL kann, wenn der Koeffizient $p$ konstant ist, durch einen Lösungsansatz entsprechend dem Störterm $s(x)$ gesucht werden.
+Eine partikuläre Lösung $y_{p}$ der inhomogenen lineare [[{MOC} DGL|DGL]] kann, wenn der Koeffizient $p$ konstant ist, durch einen Lösungsansatz entsprechend dem Störterm $s(x)$ gesucht werden.
 Ist der Koeffizient nicht 
 
 ## Tags

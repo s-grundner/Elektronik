@@ -11,10 +11,10 @@ created: 17th October 2022
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
 ## Klassifizierung von Oszillatoren
-### Nach Art der Schwingungserzeugung
-### Der Form des Ausgangssignals
-### Nach der Art der frequenzbestimmenden Bauteile
-### Nach den aktiven Bauelementen
+- Nach Art der Schwingungserzeugung
+- Der Form des Ausgangssignals
+- Nach der Art der frequenzbestimmenden Bauteile
+- Nach den aktiven Bauelementen
 
 ## Typen
 [[NE555]]
@@ -23,7 +23,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 [[LC Oszillatoren]]
 [[Colpitts Oszillator]]
 [[Relaxationsoszillator]]
-[[Rechteck-Dreieck-Generator]]
 [[Kippschaltungen]]
 
 ## [[Barkhausen Kriterium]]
