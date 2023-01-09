@@ -34,30 +34,34 @@ Die Schmitttrigger Kippschaltungen ist eine Astabile Kippstufe
  
 
 > [!summary] Ladedauer $t_L$
-> $u_{c}(t)=U_{0}\cdot(1-e^{\frac{-t}{\uptau}})$
+> $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$
 
 
 > [!summary] Entladedauer $t_E$
-> $u_{c}(t)=U_{0}\cdot e^{\frac{-t}{\uptau}}$
+> $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$
 
 ### Entladen
 
 ![[herl_te.png]]
 
+ > [!summary] $$t_{E} =\uptau\ln\left(\dfrac{U_T^+}{U_T^-}\right)$$
+
+
 ### Laden
 ![[Herl_tl.png]]
 
-$$t_L = \uptau\cdot\ln{\dfrac{U_0- U_T^+}{U_0-U_T^-}}$$
+ > [!summary] $$t_L = \uptau\cdot\ln\left(\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
 
 ### $T$ berechnen
 
 ![[herl_T.png]]
+ > [!summary] $$T = \uptau\ln\left(\cdot\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
 
 ## Dimensionierung "Invertierenden Schmitttrigger" als Taktgenerator
 $$
 \begin{align*}
-U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz\\
-U_{a,max}=0V=U_{B}^{-} && U_{T}^{+}=3V\\
+&U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz\\
+&U_{a,max}=15V=U_{B}^{+} && U_{T}^{+}=3V\\
 \end{align*}
 $$
 
