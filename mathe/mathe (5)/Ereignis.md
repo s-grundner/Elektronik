@@ -34,23 +34,5 @@ Das Ereignis $E$ ist eine Teilmenge der [[Grundmenge]] $\Omega$
 ## Unabhängige Ereignisse
 ![[Pasted image 20230108002929.png]]
 
-## Gegenereignis
-
->[!summary] [[Wahrscheinlichkeit]] für das Gegenereignis von $A$:
-> $P(\overline{A})=1-P(A)$
-
-öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die [[Wahrscheinlichkeit]] des Gegenereignisses ermittelt.
-So gilt: <mark style="background: #FF5582A6;">Mindestens eines = nicht keines</mark>
-
->[!example] gerade & ungerade Zahl beim Roulette
-> $P(gerade) = 1-P(ungerade)$
-
- >[!example] 26 Schüler: 2 haben den selben Geburtstag
-> $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
-> 
-> $\dfrac{365}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
-> 
-> $1-0.4=0.6$
-
 # Tags
 [[Wahrscheinlichkeit]]
