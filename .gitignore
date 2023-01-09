@@ -5,6 +5,7 @@
 .obsidian/plugins/obsidian-git/data.json
 .obsidian/plugins/obsidian-textgenerator-plugin/data.json
 conflict-files-obsidian-git.md
-.obsidian/text-generator.json
 .obsidian/plugins/obsidian-completr/scanned_words.txt
-.obsidian/appearance.json
+.obsidian/*.json
+.vscode/c_cpp_properties.json
+**/data.json
