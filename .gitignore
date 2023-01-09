@@ -1,11 +1,6 @@
 .trash
-.obsidian/workspace
-.obsidian/workspace-mobile.json
-.obsidian/workspace.json
-.obsidian/plugins/obsidian-git/data.json
-.obsidian/plugins/obsidian-textgenerator-plugin/data.json
 conflict-files-obsidian-git.md
 .obsidian/plugins/obsidian-completr/scanned_words.txt
 .obsidian/*.json
-.vscode/c_cpp_properties.json
+.vscode
 **/data.json
