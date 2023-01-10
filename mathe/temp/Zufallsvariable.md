@@ -34,9 +34,14 @@ F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
 > [!example] Bormalverteilung
 > $f\dots$ Dichtefunktion
-> 
+> (Graph mitschrift)
+> $\downarrow\int\downarrow$
+> (Graph mitschrift)
 > $F\dots$ Verteilungsfunktion
 
+Verteilungen können unterschiedlicher Wertebereiche annehmen.
+
+>[!example] Lebensdauer
 
 # Tags
 - [[Erwartungswert]]
