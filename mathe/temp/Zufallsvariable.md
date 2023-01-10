@@ -16,7 +16,17 @@ Eine diskrete Zufallsvariable kann nur einzelne Werte annehmen.
 Eine stetige Zufallsvariable nimmt jeden Wert in einem bestimmten Intervall an.
 Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt [[Wahrscheinlichkeitsverteilung]] dieser Zufallsvariable.
 
-Bisher waren 
+- Bisher waren [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilungen]] gegeben (z.B. [[Binomialverteilung]]).
+- jetzt nurmehr eine Funktion, die die Verteilung angibt
+
+$F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
+
+Ist $F$ dfferenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
+
+Anstelle von $F'$ schreibt man sie als $f$
+
+$$
+$$
 
 # Tags
 - [[Erwartungswert]]
