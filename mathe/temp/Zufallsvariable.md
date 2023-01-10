@@ -26,7 +26,17 @@ Ist $F$ dfferenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von 
 Anstelle von $F'$ schreibt man sie als $f$
 
 $$
+\int^{b}_{a} f(x)dx= F(b)-F(a) = P(a\leq X\leq b)
 $$
+Ist die Dichtefunktion gegeben, so ist:
+$$
+F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
+$$
+> [!example] Bormalverteilung
+> $f\dots$ Dichtefunktion
+> 
+> $F\dots$ Verteilungsfunktion
+
 
 # Tags
 - [[Erwartungswert]]
