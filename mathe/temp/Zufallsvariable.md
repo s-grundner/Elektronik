@@ -30,8 +30,6 @@ Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
 >$p_{7}=P(X=7)=P(\{\omega|X(\omega)=7\})=\sum\limits P(\omega)$
 >$X(\omega)=7$
 
-
-
 ### Beispiele für Zufallsvariablen
 - Anzahl der Ausschussteile in einer Stichprobe.
 - Anzahl der Mädchen in einer 4-Köpfigen Familie

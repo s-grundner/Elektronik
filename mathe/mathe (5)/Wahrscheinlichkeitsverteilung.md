@@ -23,6 +23,12 @@ $M_{x}\rightarrow [0;1]$
 >[!example] [[Erwartungswert]] von 2 Würfeln
 > ![[erw_wert_zfv.png]]
 
+# Tags
+[[Erwartungswert]]
+[[Varianz#Varianz einer Zufallsvariable]]
+[[Binomialverteilung]]
+[[Normalverteilung]]
+
 ## Erwartungswert
 ### Erwartungswert einer [[Zufallsvariable|Zufallsvariable]]
 Ist $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
@@ -42,11 +48,17 @@ $c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariab
 $$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h}\cdot c_{i}\cdot E(X_{i})$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
 
-## Varianz
+## Varianz einer Zufallsvariable
 nicht nur der erwartete *mittlere* Wert einer [[Zufallsvariable|Zufallsvariable]] ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom Erwartungswert.
-Sozusagen: wie weit streuen die Ergebnisse durchschnittlich?
-Sei $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$
-und $p_{i}=P(X=x_{i})$
+
+- Sozusagen: wie weit streuen die Ergebnisse durchschnittlich?
+
+Sei $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x_{i})$, so heißt:
+
+>[!summary] $$V(X)=\sum\limits_{i=1}^{n}p_{i}\cdot(x_{i}-E(X))^{2}$$
+>
+> - $V(X)\dots$ Varianz
+> 
 
 
 
