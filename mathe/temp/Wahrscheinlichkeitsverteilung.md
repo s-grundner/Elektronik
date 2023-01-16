@@ -9,10 +9,9 @@ created: 30th November 2022
 # Wahrscheinlichkeitsverteilung
 
 -   Wahrscheinlichkeitsverteilung beschreibt [[wahrscheinlichkeit]] von Ereignissen
--   verschiedene Arten: binomial, Poisson, Normalverteilung
--   Form hängt von Faktoren ab: Anzahl Ergebnisse, Häufigkeit von Ergebnissen
--   wichtiges Werkzeug in Statistik: Berechnung von Wahrscheinlichkeiten, Vorhersagen
--   kann in Stickpunkten zusammengefasst werden:
+-   verschiedene Arten:
+	- Diskrete Verteilung: [[Binomialverteilung]]
+	- Stetige Verteilung: [[Normalverteilung]]
 
 Die Gesamtheit der Werte $x_{i}$ einer diskreten [[Zufallsvariable|Zufallsvariable]] $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt Wahrscheinlichkeitsverteilung dieser [[Zufallsvariable|Zufallsvariable]].
 $$

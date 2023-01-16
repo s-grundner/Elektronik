@@ -17,12 +17,12 @@ created: 3rd January 2023
 > [!warning] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):
 > ![[Kippschalter-slew.png]]
 
-# Schmitttrigger Kippschaltung
+# [[Schmitttrigger]] Kippschaltung
 Die Frequenz wird von durch folgende Parameter beeinflusst:
 - RC-Glied im Rückkoppelbereich ($\uptau$);
 - Schaltschwellen (Threshhold) des Schmitttriggers ($U_{T}^{+} / U_{T}^{-}$)
 
-Die Schmitttrigger Kippschaltungen ist eine Astabile Kippstufe
+Die [[Schmitttrigger]] Kippschaltungen ist eine Astabile Kippstufe
 
 > [!hint] Schaltung
 > ![[ST-Kippschalter.png|300]]
@@ -57,7 +57,7 @@ Die Schmitttrigger Kippschaltungen ist eine Astabile Kippstufe
 ![[herl_T.png]]
  > [!summary] $$T = \uptau\ln\left(\frac{U_T^+}{U_T^-}\cdot\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
 
-## Dimensionierung "Invertierenden Schmitttrigger" als Taktgenerator
+## Dimensionierung "Invertierenden [[Schmitttrigger]]" als Taktgenerator
 $$
 \begin{align*}
 &U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz\\
