@@ -68,3 +68,4 @@ Verteilungen können unterschiedlicher Wertebereiche annehmen.
 
 # Tags
 [[Wahrscheinlichkeitsverteilung]]
+[[Varianz#Varianz einer Zufallsvariable]]
