@@ -15,7 +15,9 @@ Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
 
 >[!hint] Jedem Ereignis wird ein Wert zugeordnet (Diskret)
 
-
+>[!example] Werfen von 2 Würfeln
+>$\Omega=\{(1,1);(1,2);\dots;(6,6)\}$ Werte der einzelnen Wür
+>$X=\{2;3;\dots;12\}$
 
 ## Stetige Zufallsvariablen
 Eine stetige Zufallsvariable nimmt jeden Wert in einem bestimmten Intervall an.
