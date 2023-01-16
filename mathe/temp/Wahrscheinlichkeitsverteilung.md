@@ -19,6 +19,31 @@ $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
 
+## Erwartungswert
+### Erwartungswert einer [[Zufallsvariable|Zufallsvariable]]
+Ist $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
+$$
+E(X)=\sum_{i=1}^{n}p_{i}\cdot x_{i}
+$$
+Erwartungswert von $X$ beim Würfelbeispiel:
+$$
+\begin{align*}
+E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdot5+\frac{5}{36}\cdot6+\frac{6}{36}\cdot7\\
+&+\frac{1}{36}\cdot12+\frac{2}{36}\cdot11+\frac{3}{36}\cdot10+\frac{4}{36}\cdot9+\frac{5}{36}\cdot8\\
+&= 7
+\end{align*}
+$$
+### Rechenregeln für den Erwartungswert
+$c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
+$$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h}\cdot c_{i}\cdot E(X_{i})$$
+$$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
+nicht nur der erwartete *mittlere* Wert einer [[Zufallsvariable|Zufallsvariable]] ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom Erwartungswert.
+Sozusagen: wie weit streuen die Ergebnisse durchschnittlich?
+Sei $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$
+und $p_{i}=P(X=x_{i})$
+
+
+
 > [!note] [[Binomialverteilung|Binom]]: $h=5\qquad p=0.3$
 > $$
 > \begin{align*}
