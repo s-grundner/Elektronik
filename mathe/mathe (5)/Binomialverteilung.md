@@ -42,16 +42,6 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 
 > [!summary] 
 
-```mermaid
-	graph TD;
-		Wurf-->6
-		Wurf-->/6
-		1:6-->/6
-		/6-->6
-		
-```
-
-
 
 ## unbekanntes $n$
 ````ad-example
