@@ -30,9 +30,10 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > - $p\dots$ [[Wahrscheinlichkeit]] eines Erfolgs
 > - $\binom{n}{k}\dots$ Binomialkoeffizient 
 
-> [!summary] [[Varianz]] $V(X)$
-> Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
-> $V(X)=n\cdot p\cdot(1-p)$
+## Kennwerte
+
+[[Varianz]]: $V(X)=n\cdot p\cdot(1-p)$
+
 
 >[!summary] [[Erwartungswert]] $E(X)$
 > $E(X)=n\cdot p$
