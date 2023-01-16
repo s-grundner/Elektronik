@@ -27,8 +27,10 @@ E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdo
 $$
 ### Rechenregeln für den Erwartungswert
 $c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
-$$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h}\cdot c_{i}\cdot E(X_{i})$$
+$$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h} c_{i}\cdot x_{i}$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
+
+
 
 > [!example] Spiel mit Gewinnen von $X=\{-10,0,15,40\}$
 > $$
@@ -42,4 +44,4 @@ $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
 > $E(X)=$ -4,56€
 > 
 > Ein Spiel ist dann Fair, wenn der erwartungswert $0$ ist.
-> 
+
