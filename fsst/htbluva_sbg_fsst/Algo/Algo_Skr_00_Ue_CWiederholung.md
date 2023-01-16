@@ -111,7 +111,7 @@ Beispielhafte Ausgabe:
 Minimum           : 0
 Maximum           : 25
 Durchschnitt      : 10.000000
-Standardabweichung: 3.302428
+[[Standardabweichung]]: 3.302428
 ```
 
 ### Hangman (070)

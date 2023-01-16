@@ -8,14 +8,17 @@ created: 30th November 2022
 ---
 
 # Standardabweichung
-Die Standardabweichung oder die Streuung von $X$ ist:
-$$
-\begin{align*}
-\sigma(X)&=\sqrt{V(X)}\qquad \text{Einheit wie }X\\
-\sigma(X)&=\sqrt{n\cdot p\cdot(1-p)}
-\end{align*}
-$$
-$V(X)$ … [[Varianz]]
+>[!summary] Die Standardabweichung oder die Streuung von $X$ ist:
+> $$
+> \begin{align*}
+> \sigma(X)&=\sqrt{V(X)}\qquad \text{Einheit wie }X\\
+> \sigma(X)&=\sqrt{n\cdot p\cdot(1-p)}
+> \end{align*}
+> $$
+> - $V(X)$ … [[Varianz]]
+> - $p$ ... [[Wahrscheinlichkeit]]
+> - $n$ ... Anzahl der [[Ereignis|Ereignisse]]
+
 > [!important] Standardabweichung $\sigma$ und empirische Standardabweichung $s$
 > Die Standardabweichung $\sigma$ einer [[Zufallsvariable|Zufallsvariable]] $X$ ist näherungsweise gelich der empirischen Standardabweichung $s$ einer großen Stichprobe von $X$:
 > $\sigma\approx s$
@@ -23,16 +26,6 @@ $V(X)$ … [[Varianz]]
 > 
 
 # Tags
-```ad-example
-title: Würfel mit 1 Würfel
-$E(X)=3.5$
-$p_{i}:$ für jeden Wurf $\frac{1}{6}$
-$$
-\begin{align*}
-V(X)=\sum\limits_{i=1}^{6} \frac{1}{6}\cdot(x_{i}-E(X))
-\end{align*}
-$$
-```
 
 
 
