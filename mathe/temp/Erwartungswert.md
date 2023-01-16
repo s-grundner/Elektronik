@@ -26,8 +26,8 @@ E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdo
 \end{align*}
 $$
 ### Rechenregeln für den Erwartungswert
-$c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
-$$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h} c_{i}\cdot x_{i}$$
+$p_{1};\dots ;p_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
+$$E\left(\sum\limits^{n}_{i=1}p_{i}X_{i}\right) = \sum\limits_{i=1}^{h} p_{i}\cdot x_{i}$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
 > [!example] Bsp
 > $X_{1}\dots$ Augensumme Würfeln mit 1 Würfel

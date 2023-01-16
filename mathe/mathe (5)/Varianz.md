@@ -25,4 +25,8 @@ Sei $X$ eine diskrete [[Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und 
 > - $V(X)\dots$ Varianz
 > - $E(X)\dots$ [[Erwartungswert]]
 
+>[!example] Würfeln mit 1 Würfel
+> $X\dots$ Augensumme
+> $E(X)=3.5$
+> $V(X)=\sum\limits_{i=0}^{6} \dfrac{1}{6}\dots(x_{i}-3.5)^{2}$
 # Tags
