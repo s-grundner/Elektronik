@@ -38,7 +38,20 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > $E(X)=n\cdot p$
 
 >[!summary] [[Standardabweichung]]
-> $$
+> $\sigma(X)=\sqrt{n\cdot p\cdot (1-p)}$
+
+> [!summary] 
+
+```mermaid
+	graph TD;
+		Wurf-->6
+		Wurf-->/6
+		1:6-->/6
+		/6-->6
+		
+```
+
+
 
 ## unbekanntes $n$
 ````ad-example
