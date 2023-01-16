@@ -11,6 +11,11 @@ created: 30th November 2022
 Ein Merkmal $X$, dessen numerische Werte die Ergebnisse eines Zufallsvorgangs sind, heißt Zufallsvariable oder Zufallsgröße.
 ## Diskrete Zufallsvariablen
 Eine diskrete Zufallsvariable kann nur einzelne Werte annehmen.
+Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
+
+>[!hint] Jedem Ereignis wird ein Wert zugeordnet (Diskret)
+
+
 
 ## Stetige Zufallsvariablen
 Eine stetige Zufallsvariable nimmt jeden Wert in einem bestimmten Intervall an.
@@ -32,7 +37,7 @@ Ist die Dichtefunktion gegeben, so ist:
 $$
 F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
-> [!example] Bormalverteilung
+> [!example] Binomialverteilung
 > $f\dots$ Dichtefunktion
 > (Graph mitschrift)
 > $\downarrow\int\downarrow$
@@ -44,7 +49,3 @@ Verteilungen können unterschiedlicher Wertebereiche annehmen.
 >[!example] Lebensdauer
 
 # Tags
-- [[Erwartungswert]]
-- [[Varianz]]
-- [[Standardabweichung]]
-- [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilung]]
