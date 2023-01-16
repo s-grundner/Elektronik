@@ -18,10 +18,12 @@ Die Gesamtheit der Werte $x_{i}$ einer diskreten [[Zufallsvariable|Zufallsvariab
 $$
 G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
+$M_{x}\rightarrow [0;1]$
 
-## Erwartungswert
->[!example] Erwartungswert von Würfeln mit 
-### Erwartungswert einer [[Zufallsvariable|Zufallsvariable]]
+>[!example] [[Erwartungswert]] von 2 Würfeln
+> ![[erw_wert_zfv.png]]
+
+## Erwartungswert einer [[Zufallsvariable|Zufallsvariable]]
 Ist $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
 $$
 E(X)=\sum_{i=1}^{n}p_{i}\cdot x_{i}
@@ -34,7 +36,7 @@ E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdo
 &= 7
 \end{align*}
 $$
-### Rechenregeln für den Erwartungswert
+## Rechenregeln für den Erwartungswert
 $c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
 $$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h}\cdot c_{i}\cdot E(X_{i})$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$

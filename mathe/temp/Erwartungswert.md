@@ -8,14 +8,13 @@ created: 30th November 2022
 ---
 
 # Erwartungswert
-Der Erwartungswert ist ein Konzept aus der Statistik, das beschreibt, wie wahrscheinlich es ist, dass ein bestimmtes [[Ereignis]] eintritt.
-Es wird auch als Erwartung, Durchschnitt oder Mittelwert bezeichnet und wird in der Regel mit dem griechischen Buchstaben μ (Mu) symbolisiert.
-Der Erwartungswert einer [[Zufallsvariable]] X ist der Wert, den man erwarten würde, wenn man die [[Zufallsvariable]] X viele Male beobachtet und ihren Wert in jedem Durchgang notiert. Dieser Wert wird berechnet, indem man alle möglichen Werte der [[Zufallsvariable]] X mit ihren jeweiligen Wahrscheinlichkeiten multipliziert und dann alle diese Produkte addiert.
+- Der Erwartungswert ist ein Konzept aus der Statistik, das beschreibt, wie wahrscheinlich es ist, dass ein bestimmtes [[Ereignis]] eintritt.
+- Es wird auch als Erwartung, Durchschnitt oder Mittelwert bezeichnet und wird in der Regel mit dem griechischen Buchstaben μ symbolisiert.
+- Der Erwartungswert einer [[Zufallsvariable]] X ist der Wert, den man erwarten würde, wenn man die [[Zufallsvariable]] X viele Male beobachtet und ihren Wert in jedem Durchgang notiert. Dieser Wert wird berechnet, indem man alle möglichen Werte der [[Zufallsvariable]] X mit ihren jeweiligen Wahrscheinlichkeiten multipliziert und dann alle diese Produkte addiert.
 
 
 ## [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilung]]
 Jedem $x_{i}$ wird eine [[Wahrscheinlichkeit|WSK]] zugeordnet :
-$M_{x}\rightarrow [0;1]$
 (Diag Verteilung würfeln mit 2 Würfel)
 
 # Beispiele
