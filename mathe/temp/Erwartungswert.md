@@ -29,7 +29,9 @@ $$
 $c_{1};\dots ;c_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [[Zufallsvariable|Zufallsvariable]]
 $$E\left(\sum\limits^{n}_{i=1}c_{i}X_{i}\right) = \sum\limits_{i=1}^{h} c_{i}\cdot x_{i}$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
-
+> [!example] Bsp
+> $X_{1}\dots$ Augensumme Würfeln mit 1 Würfel
+> $X_{1}\dots$ Augensumme Würfeln mit 1 Würfel
 
 
 > [!example] Spiel mit Gewinnen von $X=\{-10,0,15,40\}$
