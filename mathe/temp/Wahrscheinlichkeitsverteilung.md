@@ -20,6 +20,7 @@ G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
 
 ## Erwartungswert
+
 ### Erwartungswert einer [[Zufallsvariable|Zufallsvariable]]
 Ist $X$ eine diskrete [[Zufallsvariable|Zufallsvariable]] mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
 $$
