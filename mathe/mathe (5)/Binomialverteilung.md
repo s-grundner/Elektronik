@@ -40,8 +40,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 >[!summary] [[Standardabweichung]]
 > $\sigma(X)=\sqrt{n\cdot p\cdot (1-p)}$
 
-> [!summary] 
-
+![[binom_tree.png]]
 
 ## unbekanntes $n$
 ````ad-example
