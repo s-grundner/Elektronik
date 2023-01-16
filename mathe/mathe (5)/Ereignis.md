@@ -1,6 +1,6 @@
 ---
 tags: ["Statistik"]
-aliases: ["Ereignisse"]
+aliases: ["Ereignisse", "Ereignissen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []

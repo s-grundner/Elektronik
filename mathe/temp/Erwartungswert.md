@@ -42,8 +42,7 @@ und $p_{i}=P(X=x_{i})$
 
 # Beispiele
 
-```ad-example 
-title: Spiel mit Gewinnen von $X=\{-10,0,15,40\}$
+tSpiel mit Gewinnen von $X=\{-10,0,15,40\}$
 $$
 \begin{align*}
 E(X) &= \sum\limits_{i=0}^{n}p_{i}\cdot x_{i}=\qquad X=\{-10,0,15,40\}\\
@@ -56,4 +55,3 @@ Durchschnittlicher Gewinn pro spiel:
 $E(X)=$ -4,56€
 
 Ein Spiel ist dann Fair, wenn der erwartungswert $0$ ist.
-```

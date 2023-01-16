@@ -8,8 +8,9 @@ created: 30th November 2022
 ---
 # Wahrscheinlichkeitsverteilung
 
--   Wahrscheinlichkeitsverteilung beschreibt [[wahrscheinlichkeit]] von Ereignissen
--   verschiedene Arten:
+- Wahrscheinlichkeitsverteilung beschreibt [[Wahrscheinlichkeit]] von [[Ereignis|Ereignissen]]
+- Jedem $x_{i}$ wird eine [[Wahrscheinlichkeit]] zugeordnet
+- verschiedene Arten:
 	- Diskrete Verteilung: [[Binomialverteilung]]
 	- Stetige Verteilung: [[Normalverteilung]]
 
