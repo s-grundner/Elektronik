@@ -16,7 +16,8 @@ created: 16th November 2022
 
 Die Binomialverteilung ist eine Verteilungsformel, mit der die Wahrscheinlichkeiten für verschiedene Ergebnisse bei einem Zufallsexperiment bestimmt werden können.
 
-Bei einem solchen Experiment gibt es nur zwei mögliche Ergebnisse: $A$ oder $\neg{A}$. Die Einzelversuche sind voneinander unabhängig und die Zufallsvariable $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+Bei einem solchen Experiment gibt es nur zwei mögliche Ergebnisse: $A$ oder $\neg{A}$.
+Die Einzelversuche sind voneinander unabhängig und die Zufallsvariable $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
 
 >[!summary] $$p=P(A)$$
 
@@ -29,14 +30,15 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > - $p\dots$ [[Wahrscheinlichkeit]] eines Erfolgs
 > - $\binom{n}{k}\dots$ Binomialkoeffizient 
 
-## [[Varianz]] $V(X)$
-Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
-$V(X)=n\cdot p\cdot(1-p)$
+> [!summary] [[Varianz]] $V(X)$
+> Die [[Varianz]] ist die durchschnittliche Abweichung (Streuung)
+> $V(X)=n\cdot p\cdot(1-p)$
 
-## [[Erwartungswert]] $E(X)$
-$E(X)=n\cdot p$
+>[!summary] [[Erwartungswert]] $E(X)$
+> $E(X)=n\cdot p$
 
-## [[Standardabweichung]]
+>[!summary] [[Standardabweichung]]
+> $$
 
 ## unbekanntes $n$
 ````ad-example

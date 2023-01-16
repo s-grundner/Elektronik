@@ -8,6 +8,7 @@ Primzahlberechnung nach dem Sieb-Verfahren: Schreiben Sie alle Zahlen (z.B. von 
 Ein Integer in binärer Form dargestellt - also mit der Basis 2 – gibt den Wert als Bitmuster aus 0 und 1 wieder. Schreiben Sie die Funktion  **str2bin**, die einen String bestehend aus aneinander gereihten 0er und 1er entgegen nimmt und einen **vorzeichenlosen Integerwert** zurück liefert, der dem Wert des mit dem String beschriebenen Bitmusters entspricht. Schreiben Sie die Funktion so, dass sie sowohl auf 16, 32 oder 64 Bit-Systemen verwendet werden kann. Berücksichtigen Sie eine etwaige Fehlerbehandlung.
 ### ArrAuth (067)
 gegeben sind:
+```c
 int zahlen[] = {12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
 
 char fragen\[\]\[81\] = {
@@ -24,6 +25,7 @@ char fragen\[\]\[81\] = {
 "Zahl2 * Zahl3 - Zahl1 = ?",
 "Zahl7 * Zahl8 + Zahl2 = ?"
 };
+```
 
 1.  Erstellen Sie die Funktion
     int getAntwort(int zahlen[], int len, char frage[]);
@@ -66,6 +68,7 @@ char str[128+1];
 strcpy(str , "Hallo");
 printf("<%s>strlen=<%i>sizeof=<%i>\n", str, strlen(str), sizeof(str));
 ```
+
 
 Welcher Text wird mit printf auf stdout ausgegeben?
 

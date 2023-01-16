@@ -8,6 +8,7 @@ created: 30th November 2022
 ---
 
 # Standardabweichung
+
 >[!summary] Die Standardabweichung oder die Streuung von $X$ ist:
 > $$
 > \begin{align*}
