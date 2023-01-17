@@ -2,7 +2,7 @@
 tags: []
 aliases: ["BHK"]
 subject: ["hwe"]
-source: ["Siegbert Schrempf, "]
+source: ["Siegbert Schrempf"]
 reference: []
 created: 2nd January 2023
 ---
