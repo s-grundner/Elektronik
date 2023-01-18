@@ -8,29 +8,24 @@ created: 7th June 2022
 ---
 
 # Piezoelektrik
-```ad-example
-title: Ein Quarz mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
+> [!example] Ein [[Quarzoszillator|Quarz]] mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
+> 
+> $$
+> \begin{align*}
+> R_{q} &= \frac{\rho\cdot l}{A} &&= \frac{10^{12}\cdot 10^{-3}}{10\cdot 10^{-4}} = 10^{12}\Omega
+> \\
+> C_{q} &= \frac{\varepsilon_{0}\cdot \varepsilon_{r}\cdot A}{d} &&= \frac{8.8542\cdot 10^{-12}\cdot 5\cdot 10\cdot 10^{-4}}{10^{-3}} = 44.27pF
+> \\\\
+> Q &= k\cdot F &&= 2.3\cdot 10^{-12}\cdot 10^{3} = 2.3 \cdot 10^{-9}As
+> \\
+> U_{q} &= \frac{Q}{C_{q}} &&= 51.95 V
+> \\\\
+> \uptau &= R_{q}\cdot C_{q} &&= 44.27s
+> \\
+> \uptau_{\infty} &= 5\uptau &&=221.35s\dots\text{Abklingdauer}
+> \end{align*}
+> $$
 
-
-$$
-\begin{align*}
-R_{q} &= \frac{\rho\cdot l}{A} &&= \frac{10^{12}\cdot 10^{-3}}{10\cdot 10^{-4}} = 10^{12}\Omega
-\\
-C_{q} &= \frac{\varepsilon_{0}\cdot \varepsilon_{r}\cdot A}{d} &&= \frac{8.8542\cdot 10^{-12}\cdot 5\cdot 10\cdot 10^{-4}}{10^{-3}} = 44.27pF
-\\\\
-Q &= k\cdot F &&= 2.3\cdot 10^{-12}\cdot 10^{3} = 2.3 \cdot 10^{-9}As
-\\
-U_{q} &= \frac{Q}{C_{q}} &&= 51.95 V
-\\\\
-\uptau &= R_{q}\cdot C_{q} &&= 44.27s
-\\
-\uptau_{\infty} &= 5\uptau &&=221.35s\dots\text{Abklingdauer}
-\end{align*}
-$$
-
-![[Pasted image 20220609235617.png|600]]
-
-```
 ## Piezogeber
 ![[piezo_ions.png|650]]
 
