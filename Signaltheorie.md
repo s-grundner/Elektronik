@@ -10,8 +10,15 @@ created: 23rd January 2023
 
 # Signaltheorie
 
+## Signaldarstellung
 
+--- 
 
+![[Fourier Reihe#Periodische Funktion]]
+
+## komplexe Form
+
+![[Fourier Transformation#Fourier Reihe Fourier Analyse - komplexe Form der Fourier Reihe|Fouriertransformation]]
 
 # Tags
 
