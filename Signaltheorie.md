@@ -12,13 +12,15 @@ created: 23rd January 2023
 
 ## Signaldarstellung
 
---- 
+### Darstellung mit einer Fourierreihe
 
+>[!Help] 
 ![[Fourier Reihe#Periodische Funktion]]
 
-## komplexe Form
+### komplexe Form
 
-![[Fourier Transformation#Fourier Reihe Fourier Analyse - komplexe Form der Fourier Reihe|Fouriertransformation]]
+>[!Help] 
+>![[Fourier Transformation#Fourier Reihe Fourier Analyse - komplexe Form der Fourier Reihe|Fouriertransformation]]
 
 # Tags
 
