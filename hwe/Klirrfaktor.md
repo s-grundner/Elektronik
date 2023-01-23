@@ -15,14 +15,10 @@ Der Klirrfaktor beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Ob
 > - $A_{n}\dots$ Amplituden der $n$-ten Komponente
 
 ## Klirrfaktor bei Oszillatoren
-- Für Sinusoszillatoren ist die spektrale Reinheit des Ausgan
-- gssignals von entscheidender Bedeutung.
+- Für Sinusoszillatoren ist die spektrale Reinheit des Ausgangssignals von entscheidender Bedeutung.
 - Der hierbei verwendete Kennwert ist der Klirrfaktor.
 
-> [!summary] $$k_{ges}=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}+u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}$$
-> - $Z\dots$ einzelnen Oberschwingungen
-> - $N\dots$ Gesamtes Signals (Grundschwingung mit Oberwellen)
-> - $u_{n}\dots$ Amplituden der $n$-ten Komponente
+
 
 Der Wert von $k_{ges}$ ist immer eine dimensionslose Größe $<1$. Sie wird in Prozent oder Promille angegeben.
 Im Englischsprachigen wird der Begriff der „*total harmonic distortion*" (THD) verwendet und verkörpert die nachfolgende Näherung, welche für Klirrfaktoren $<3\%$ anwendbar ist.
