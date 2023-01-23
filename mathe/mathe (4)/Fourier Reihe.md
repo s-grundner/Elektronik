@@ -46,6 +46,8 @@ $f(x)\dots$**Trigonometrisches Polynom**
 
 ### Periode $T$
 
+
+
 ### Periode $T=2\pi$
 $$
 \begin{align*}
