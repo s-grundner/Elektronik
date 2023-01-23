@@ -18,6 +18,7 @@ created: 23rd January 2023
 >[!Help] 
 ![[Fourier Reihe#Periodische Funktion]]
 
+> [!Help] 
 
 ### komplexe Form
 
