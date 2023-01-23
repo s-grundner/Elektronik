@@ -8,10 +8,22 @@ created: 3rd January 2023
 ---
 
 # Klirrfaktor
-- Für Sinusoszillatoren ist die spektrale Reinheit des Ausgangssignals von entscheidender Bedeutung.
+Der Klirrfaktor beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Oberwellen als Effektivwert.
+> [!summary] $$k_{ges}=\frac{\sqrt{A_{2}^{2}+A_{3}^{2}+A_{4}^{2}+\cdots}}{\sqrt{A_{1}^{2}+A_{2}^{2}+A_{3}^{2}+A_{4}^{2}+\cdots}}$$
+> - $Z\dots$ einzelnen Oberschwingungen
+> - $N\dots$ Gesamtes Signals (Grundschwingung mit Oberwellen)
+> - $A_{n}\dots$ Amplituden der $n$-ten Komponente
+
+## Klirrfaktor bei Oszillatoren
+- Für Sinusoszillatoren ist die spektrale Reinheit des Ausgan
+- gssignals von entscheidender Bedeutung.
 - Der hierbei verwendete Kennwert ist der Klirrfaktor.
-- Er beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Oberwellen als Effektivwert.
-$$k_{ges}=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}+u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}$$
+
+> [!summary] $$k_{ges}=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}+u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}$$
+> - $Z\dots$ einzelnen Oberschwingungen
+> - $N\dots$ Gesamtes Signals (Grundschwingung mit Oberwellen)
+> - $u_{n}\dots$ Amplituden der $n$-ten Komponente
+
 Der Wert von $k_{ges}$ ist immer eine dimensionslose Größe $<1$. Sie wird in Prozent oder Promille angegeben.
 Im Englischsprachigen wird der Begriff der „*total harmonic distortion*" (THD) verwendet und verkörpert die nachfolgende Näherung, welche für Klirrfaktoren $<3\%$ anwendbar ist.
 $$k_{ges}=THD=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}}} = \sqrt{\frac{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}{u_{1}^{2}}}$$
@@ -21,6 +33,8 @@ $$k_{ges}=THD=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}
 - Hinweise zur Ermittlung des Klirrfaktors mit LTSpice können den nachfolgenden Links entnommen werden.
 
 # Tags
+[[Fourier Reihe]]
+
 LT-Spice Tutorial: http://eecs.oregonstate.edu/education/docs/ece323/Appendix.pdf
 http://www.audio-perfection.com/spice-ltspice/distortion-measurements-with-ltspice.html
 ![[00_Clock_und_Reset_Generierung_intro.pdf]]

@@ -14,8 +14,10 @@ created: 16th March 2022
 ## Kennlinie
 ## Aufbau
 ## Anwendung
-# [[Zener-Diode]]
-# [[Germanium-Dioden]]
-# [[Leucht-Dioden]]
+
 ---
 # Tags
+- [[Zener-Diode]]
+- [[Germanium-Dioden]]
+- [[Leucht-Dioden]]
+- [[Kapazitäts-Diode]]

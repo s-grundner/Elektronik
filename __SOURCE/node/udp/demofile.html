@@ -1,0 +1,24 @@
+<html>
+
+<body>
+  <h1>My Header</h1>
+  <p>My paragraph.</p>
+
+  <button onclick="showContent()">Show hidden content</button>
+
+  <template>
+    <h2>Flower</h2>
+    <img src="alps.gif" width="1600" height="1200">
+  </template>
+
+  <script>
+    function showContent() {
+      var temp = document.getElementsByTagName("template")[0];
+      var clone = temp.content.cloneNode(true);
+      document.body.appendChild(clone);
+    }
+  </script>
+
+</body>
+
+</html>

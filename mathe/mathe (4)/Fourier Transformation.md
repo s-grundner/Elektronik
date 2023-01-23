@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["Fouriertransformiert", "Fouriertransformation"]
+aliases: ["Fouriertransformiert", "Fouriertransformation", "Fourier Analyse"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []
@@ -39,14 +39,12 @@ $$
 $$
 \begin{align*}
 \cos(\varphi) &= \frac{1}{2}(e^{j\varphi}+e^{-j\varphi})\\
-\sin(\varphi) &= \frac{1}{2}(e^{j\varphi}-e^{-j\varphi})\\
+\sin(\varphi) &= -j\frac{1}{2}(e^{j\varphi}-e^{-j\varphi})\\
 
 \end{align*}
 $$
 ### [[Fourier Reihe|Fourier Analyse]] - komplexe Form der [[Fourier Reihe]]
-$$
-f(t) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot\omega_{0} t)+b_{n}\cdot\sin(n\cdot\omega_{0} t)\right]
-$$
+>[!summary] $$f(t) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot\omega_{0} t)+b_{n}\cdot\sin(n\cdot\omega_{0} t)\right]$$
 
 $$
 \begin{align*}
@@ -54,13 +52,10 @@ $$
 \\
 	f(t) &= \frac{a_{0}}{2} &&+ b_{1}\cdot \frac{1}{2j}(e^{j\omega_{0}\cdot t}-e^{-j\omega_{0}\cdot t}) &&+ a_{1}\frac{1}{2}(e^{j\omega_{0}\cdot t} + e^{-j\omega_{0}\cdot t}) &&+ b_{2}\cdot \frac{1}{2j}(e^{j\omega_{0}2\cdot t}-e^{-j\omega_{0}2\cdot t}) &&+ a_{2}\frac{1}{2}(e^{j\omega_{0}2\cdot t}+e^{-j\omega_{0}2\cdot t}) \dots
 \\
-	f(t) &= \frac{a_{0}}{2} &&+ e^{j\omega_{0} t} \underbrace{(b_{1}\cdot \frac{1}{2j} + a_{1}\cdot \frac{1}{2})}_{C_{1}} &&+ e^{-j\omega_{0} t} \underbrace{(-b_{1}\cdot \frac{1}{2j} + a_{1}\cdot \frac{1}{2})}_{C_{-1}} &&+ e^{j\omega_{0}\cdot 2t} \underbrace{(b_{2}\cdot \frac{1}{2j} + a_{2}\cdot \frac{1}{2})}_{C_{2}} &&+ e^{-j\omega_{0}\cdot 2t} \underbrace{(-b_{2}\cdot \frac{1}{2j} + a_{2}\cdot \frac{1}{2})}_{C_{-2}}
+	f(t) &= \frac{a_{0}}{2} &&+ e^{j\omega_{0} t} \underbracket{(b_{1}\cdot \frac{1}{2j} + a_{1}\cdot \frac{1}{2})}_{C_{1}} &&+ e^{-j\omega_{0} t} \underbracket{(-b_{1}\cdot \frac{1}{2j} + a_{1}\cdot \frac{1}{2})}_{C_{-1}} &&+ e^{j\omega_{0}\cdot 2t} \underbracket{(b_{2}\cdot \frac{1}{2j} + a_{2}\cdot \frac{1}{2})}_{C_{2}} &&+ e^{-j\omega_{0}\cdot 2t} \underbracket{(-b_{2}\cdot \frac{1}{2j} + a_{2}\cdot \frac{1}{2})}_{C_{-2}}
 \end{align*}
 $$
-
-$$
-f(t) = \frac{a_{0}}{2} + \sum\limits^{\infty}_{n=-\infty} C_{n}\cdot e^{jn\omega_{0}t} \dots \text{komplexe Form der Fourier-Reihe}
-$$
+>[!tip] $$f(t) = \frac{a_{0}}{2} + \sum\limits^{\infty}_{n=-\infty} C_{n}\cdot e^{jn\omega_{0}t} \dots \text{komplexe Form der Fourierreihe}$$
 
 $$
 \begin{align*}
