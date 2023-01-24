@@ -9,15 +9,16 @@ subject: ["mathe", "hwe", "physik"]
 ## Zusammenhang mit [[{MOC} DGL|Differentialgleichgungen]]
 
 Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.
-Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurückgerechnet werden.
+Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
 
-Die Komponenten einer schwingung in der [[lineare DGL 2. Ordnung|lineare DGL zweiter Ordnung]] sind wiefolgt:
+Die Komponenten einer Schwingung in der [[lineare DGL 2. Ordnung|lineare DGL zweiter Ordnung]] sind wie folgt:
 1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [[lineare DGL 2. Ordnung|homogenen Lösung der DGL 2. Ordnung]] 
 	$\rightarrow y_{h}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = 0$
 2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [[lineare DGL 2. Ordnung#Lösung der inhomogenen DGL 2 Ordnung|der inhomogenen DGL 2. Ordnung]]
 	$\rightarrow y_{p}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = s(x)$
 
-Die Funktion der Gesamten Schwingung ist somit: $y(t) = y_{p}(t) + y_{h}(t)$
+> [!summary] Die Funktion der Gesamten Schwingung ist somit:
+> $y(t) = y_{p}(t) + y_{h}(t)$
 
 ## Mechanischer Schwingkreis
 > ![[m_schwingk.png|400]]
@@ -74,12 +75,11 @@ $$
 	\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot \frac{R}{L}+u_{c}\cdot \frac{1}{LC} &= 0\\
 \end{align*}
 $$
-$$
-\underline{\underline{
-	\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot 2\delta+u_{c}\cdot \omega^{2}_{0} = 0
-}}
-$$
-Ebenfalls kann die Ladung über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentailgleichung kommt.
+>[!summary] $$\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot 2\delta+u_{c}\cdot \omega^{2}_{0} = 0$$
+
+--- 
+
+Ebenfalls kann die Ladung über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentialgleichung kommt.
 
 $$
 \begin{align*}
@@ -87,11 +87,9 @@ $$
 \end{align*}
 $$
 
-$$
-\underline{\underline{
-	\frac{d^{2q}}{dt^{2}} + \frac{dq}{dt}\cdot \frac{R}{L}+q\cdot \frac{1}{LC} = 0
-}}
-$$
+>[!summary] $$\frac{d^{2q}}{dt^{2}} + \frac{dq}{dt}\cdot \frac{R}{L}+q\cdot \frac{1}{LC} = 0$$
+
+--- 
 
 Nun kann man aus einer der [[{MOC} DGL|DGL]] die [[lineare DGL 2. Ordnung#Lösung der homogenen DGL 2 Ordnung|charakteristische Gleichung]] erzeugen
 $$
@@ -99,11 +97,9 @@ $$
 	\lambda^{2}+ \underbrace{\frac{R}{L}}_{2\delta}\lambda + \underbrace{\frac{1}{LC}}_{\omega_{0}^{2}} &= 0\\	
 \end{align*}
 $$
-$$
-\underline{\underline{
-	\lambda^{2}+ 2\delta\cdot\lambda + \omega_{0}^{2} = 0
-}}
-$$
+>[!summary] $$\lambda^{2}+ 2\delta\cdot\lambda + \omega_{0}^{2} = 0$$
+
+
 ### Bezeichnungen
 | Ausdruck                                                | Bezeichnung                                                        |
 | ------------------------------------------------------- | ------------------------------------------------------------------ |

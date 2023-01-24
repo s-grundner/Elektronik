@@ -13,5 +13,5 @@ created: 7th November 2022
 ![[Pasted image 20230124205649.png|1000]]
 ## Grundregel
 
- $g=k\cdotA$
+ $g=k\cdot A$
 # Quellen
