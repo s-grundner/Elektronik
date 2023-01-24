@@ -16,4 +16,7 @@ Aussagen aus dem Barkhausen Kriterium:
 - Das Rückkoppelnetzwerk ist Frequenzselektiv
 - Die Anregung der Schwingung erfolgt aus dem Rauschen oder aus einer Störung heraus
 
+## Herleitung der Schwingfähigkeit eines Oszillators
+
+
 # Tags

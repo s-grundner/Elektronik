@@ -17,12 +17,14 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - Nach den aktiven Bauelementen
 
 ## Typen
-[[NE555]]
-RC Oszillatoren
-	[[Wien-Brücke Oszillator]]
-	[[Phasenschieber Oszillator]]
-[[LC Oszillatoren]]
-[[Colpitts Oszillator]]
+- [[NE555]]
+- RC Oszillatoren:
+	- [[Wien-Brücke Oszillator]]
+	- [[Phasenschieber Oszillator]]
+- [[LC Oszillatoren]]
+	- [[LC Oszillatoren#Serien Schwingkreise Schwingkreis mit Operations-Verstärker OPV]]
+	- [[LC Oszillatoren#]]
+	- [[Colpitts Oszillator]]
 [[Relaxationsoszillator]]
 [[Kippschaltungen]]
 [[Quarzoszillator]]
