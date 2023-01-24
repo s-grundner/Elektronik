@@ -8,6 +8,8 @@ created: 7th November 2022
 ---
 
 # Wien-Brücke Oszillator
+- $kHz-MHz$ Bereich
+- $\k\cdot\alpha$
 
 ## Schaltung
 ![[Pasted image 20230124205649.png|1000]]

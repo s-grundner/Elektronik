@@ -19,11 +19,14 @@ Aussagen aus dem Barkhausen Kriterium:
 ## Herleitung der Schwingfähigkeit eines Oszillators
 ![[Pasted image 20230124212033.png]]
 
-| Verstärker                                                             | Rückkoppler |
-| ---------------------------------------------------------------------- | ----------- |
-| - $u_{2}=A\cdot U_{1}$                                                 | - U_3                                                          ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,            |
-| - parasitäre Phasenverschiebung <br> $\alpha$ von $U_{2}$ nach $U_{1}$ |             |
+| Verstärker                                                             | Rückkoppler                                   |
+| ---------------------------------------------------------------------- | --------------------------------------------- |
+| - $u_{2}=A\cdot U_{1}$                                                 | - $U_{3}= k\cdot U_{3}$                       |
+| - parasitäre Phasenverschiebung <br> $\alpha$ von $U_{2}$ nach $U_{1}$ | - Rückkoppelnetzwerk (z.B. [[Schwingkreise]]) |
+|                                                                        | - Phasenverschiebung $\beta$ <br> $U_{2}$ nach $U_{3}$                                               |
 
+$$U_{1}=U_{3}=k\cdot U_{2}=\underbracket{k\cdot A}_{g}\cdot U_{1}$$
 
+$g$ ... Schleifenverstärkung
 
 # Tags
