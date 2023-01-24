@@ -8,7 +8,7 @@ created: 22nd November 2022
 ---
 
 # Colpitts Oszillator
-Besteht aus Emitter/Basis/Collector Schaltung mit einer Rückkopplung:
+Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
 | <mark style="background: #FFB86CA6;">Colpitts:</mark> [[Kanalkapazität\|kapazitiv]] | <mark style="background: #FFB86CA6;">Hartley:</mark> [[Induktivitäten\|induktiv]] | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
 | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
@@ -42,5 +42,3 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 Ein Teil der [[Schwingkreise|Schwingkreis]] Spannung muss phasenrichtig rückgekoppelt werden.
 ![[Pasted image 20221128104351.png|500]]
 ![[Pasted image 20221128104421.png]]
-
-# Rechenbeispiele
