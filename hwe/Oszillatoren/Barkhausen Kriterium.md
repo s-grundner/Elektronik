@@ -17,6 +17,13 @@ Aussagen aus dem Barkhausen Kriterium:
 - Die Anregung der Schwingung erfolgt aus dem Rauschen oder aus einer Störung heraus
 
 ## Herleitung der Schwingfähigkeit eines Oszillators
+![[Pasted image 20230124212033.png]]
+
+| Verstärker                                                             | Rückkoppler |
+| ---------------------------------------------------------------------- | ----------- |
+| - $u_{2}=A\cdot U_{1}$                                                 | - U_3                                                          ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,            |
+| - parasitäre Phasenverschiebung <br> $\alpha$ von $U_{2}$ nach $U_{1}$ |             |
+
 
 
 # Tags

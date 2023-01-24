@@ -11,7 +11,13 @@ created: 7th November 2022
 
 ## Schaltung
 ![[Pasted image 20230124205649.png|1000]]
-## Grundregel
+## Herleitung
+Grundregel:
 
- $g=k\cdot A$
+$$
+\begin{align*}
+g &= k\cdot A \\
+A &= (1+\frac{R_{2}}{R_{1}})
+\end{align*}
+$$
 # Quellen

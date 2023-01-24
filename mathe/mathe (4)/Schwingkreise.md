@@ -87,7 +87,7 @@ $$
 \end{align*}
 $$
 
->[!summary] $$\frac{d^{2q}}{dt^{2}} + \frac{dq}{dt}\cdot \frac{R}{L}+q\cdot \frac{1}{LC} = 0$$
+>[!summary] $$\frac{d^{2}q}{dt^{2}} + \frac{dq}{dt}\cdot \frac{R}{L}+q\cdot \frac{1}{LC} = 0$$
 
 --- 
 
