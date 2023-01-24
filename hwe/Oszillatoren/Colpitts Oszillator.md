@@ -8,7 +8,7 @@ created: 22nd November 2022
 ---
 
 # Colpitts Oszillator
-Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
+Besteht aus Emitter/Basis/Kollektor  Schaltung mit einer Rückkopplung:
 
 | <mark style="background: #FFB86CA6;">Colpitts:</mark> [[Kanalkapazität\|kapazitiv]] | <mark style="background: #FFB86CA6;">Hartley:</mark> [[Induktivitäten\|induktiv]] | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
 | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
