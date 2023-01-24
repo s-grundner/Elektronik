@@ -18,5 +18,11 @@ Ein Ringoszillator besteht aus einer in Reihe geschaleteten Kette von Invertern.
 > - $M$ ... Anzahl der Inverter stufen.
 > - $T_{d}$ ... Delay Time eines einzelnen Inverters
 
-Die delay time einer einzalnen Inverterst
+Die delay time einer einzalnen Inverterstufe, lässt sich auf kapazitive/resistive weise und durch beeinflusses des Querstromes beim Schaltvorgang des Gatters beeinflussen. 
+
+## Schaltung
+![[PNG-Bild 1.png]]
+
+## Clock Divider 
+Zweier potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen
 # Tags
