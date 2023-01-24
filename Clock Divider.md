@@ -8,6 +8,7 @@ created: 24th January 2023
 ---
 
 # [[Clock und Reset Generierung|Clock]] Divider
+Zweier potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
 
 ## Geradzahlig 
 ![[PNG-Bild 3.png]]
@@ -17,5 +18,5 @@ created: 24th January 2023
 ## Ungeradzahlig
 ![[PNG-Bild 2.png]]
 
->[!warning] Unsymmetrsche
+>[!warning] Unsymmetrscher Takt $(DC\neq 50\%)$
 # Tags

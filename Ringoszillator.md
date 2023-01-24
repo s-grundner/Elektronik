@@ -23,6 +23,4 @@ Die delay time einer einzalnen Inverterstufe, lässt sich auf kapazitive/resisti
 ## Schaltung
 ![[PNG-Bild 1.png]]
 
-## Clock Divider 
-Zweier potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen
 # Tags
