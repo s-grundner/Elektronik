@@ -20,7 +20,7 @@ J&=\frac{\partial J}{\partial\theta_{j}}= \frac{1}{m}\sum^{m}_{i=1}(h_{\theta}(x
 h_{\theta}(x^{(i)})&= \frac{1}{1+e^{-\Theta^{T}\cdot x}}
 \end{align*}
 $$
-$j\dots$Anzahl der Eigeschaften
+$j\dots$Anzahl der Eigenschaften
 $i\dots$Anzahl der Samplepoints
 $^{T}\dots$Matrix ist Transponiert
 
