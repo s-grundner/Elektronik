@@ -25,8 +25,7 @@ Aussagen aus dem Barkhausen Kriterium:
 | - parasitäre Phasenverschiebung <br> $\alpha$ von $U_{2}$ nach $U_{1}$ | - Rückkoppelnetzwerk (z.B. [[Schwingkreise]]) |
 |                                                                        | - Phasenverschiebung $\beta$ <br> $U_{2}$ nach $U_{3}$                                               |
 
-$$U_{1}=U_{3}=k\cdot U_{2}=\underbracket{k\cdot A}_{g}\cdot U_{1}$$
-
-$g$ ... Schleifenverstärkung
+>[!summary] $U_{1}=U_{3}=k\cdot U_{2}=\underbracket{k\cdot A}_{g}\cdot U_{1}$
+> $g$ ... Schleifenverstärkung
 
 # Tags
