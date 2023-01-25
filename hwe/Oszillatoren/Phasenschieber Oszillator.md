@@ -11,9 +11,12 @@ created: 7th November 2022
 - Einfacher Aufbau
 	- Invertierender Verstärker
 	- RC-Netzwerk
+
 ## Schaltung
 ![[Pasted image 20230124215050.png|925]]
-
+- 3-4x Tiefpass 1. Ordnung
+- $f_{0}$ mit $180\degree$ Phase ($\beta=180\degree$([[Barkhausen Kriterium|BHK]]))
+- verstärker kompensiert die Rückkopplungsdämpfung
 ## Bedingung für die Schwingfrequenz
 
 [[Übertragungsfunktion]] vom RC-Tiefpass:

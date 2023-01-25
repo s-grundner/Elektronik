@@ -21,11 +21,14 @@ created: 2nd January 2023
 
 | Verstärker                                                             | Rückkoppler                                   |
 | ---------------------------------------------------------------------- | --------------------------------------------- |
-| - $u_{2}=A\cdot U_{1}$                                                 | - $U_{3}= k\cdot U_{3}$                       |
+| - $U_{2}=A\cdot U_{1}$                                                 | - $U_{3}= k\cdot U_{2}$                       |
 | - parasitäre Phasenverschiebung $\alpha$ von $U_{2}$ nach $U_{1}$ | - Rückkoppelnetzwerk (z.B. [[Schwingkreise]]) |
 |                                                                        | - Phasenverschiebung $\beta$ <br> $U_{2}$ nach $U_{3}$                                               |
 
 >[!summary] $U_{1}=U_{3}=k\cdot U_{2}=\underbracket{k\cdot A}_{g}\cdot U_{1}$
 > $g$ ... Schleifenverstärkung
+> >[!important] $g=1$, wenn das BHK erfüllt ist
+
+
 
 # Tags
