@@ -16,6 +16,9 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - Nach der Art der frequenzbestimmenden Bauteile
 - Nach den aktiven Bauelementen
 
+## [[Barkhausen Kriterium]]
+
+
 ## Typen
 - [[NE555]]
 - RC Oszillatoren:
@@ -28,9 +31,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 [[Relaxationsoszillator]]
 [[Kippschaltungen]]
 [[Quarzoszillator]]
-
-
-## [[Barkhausen Kriterium]]
 
 # Quellen
 #incomplete 
