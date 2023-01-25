@@ -9,5 +9,10 @@ created: 10th January 2023
 
 # Normalverteilung
 
-## Eigenschaften
-# Tags
+## Eiganschaften
+## Symmetrische Intervalle von $\mu$
+## Standartisierte Normalverteilung
+
+# Zentraler Grenzwertsatz
+# Näherung der Binomialverteilung
+# Verteilung von Stichprobenkennwerte
