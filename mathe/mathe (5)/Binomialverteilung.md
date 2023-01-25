@@ -1,6 +1,6 @@
 ---
 tags: ["Statistik"]
-aliases: ["Binom"]
+aliases: [""]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []
