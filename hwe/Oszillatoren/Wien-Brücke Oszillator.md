@@ -16,8 +16,10 @@ created: 7th November 2022
 ![[Pasted image 20230124205649.png|1000]]
 
 > [!summary] 
-> Resonanzfrequenz: $\omega=\dfrac{1}{RC}$
-> Verstärkung: $
+> Resonanzfrequenz: $\omega_{0}=\dfrac{1}{RC}$
+> Verstärkung: $v_{0}=3$
+
+
 ## Herleitung
 > [!summary] Grundregel:
 > $g = k\cdot A \qquad A = \dfrac{U_{e}}{U_{a}},\quad k = \dfrac{U_{a}}{U_{e}}$
@@ -39,8 +41,18 @@ k= \dfrac{U_{a}}{U_{e}} &= \frac{\frac{1}{Y}}{Z+ \frac{1}{Y}}= \frac{1}{1+Z\cdot
 \end{align*}
 $$
 
->[!Help] Barkhausenkriterium
+>[!hint] [[Barkhausen Kriterium]]
 > $k\cdot v = 1$
 > $v = v_{0}= \dfrac{1}{k}=3+j\left(\omega\uptau- \dfrac{1}{\omega\uptau}\right)$
-> für Resonanz $\righ$
+> für Resonanz $\rightarrow \mathcal{Im}\{v_{0}\}=0$
+> $$
+> \begin{align*}
+> \omega\uptau-\frac{1}{\omega\uptau} &= 0\\
+> \omega\uptau &= \frac{1}{\omega\uptau}\\
+> \omega^{2}&= \frac{1}{\uptau^{2}}\\
+> \omega &= \frac{1}{\uptau}\\
+> \omega_{0} &= \frac{1}{\uptau}=\frac{1}{RC}
+> \end{align*}
+> $$
+
 # Quellen
