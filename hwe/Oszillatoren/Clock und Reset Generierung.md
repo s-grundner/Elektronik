@@ -18,7 +18,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 
 ## [[Barkhausen Kriterium]]
 
-
 ## Typen
 - [[NE555]]
 - RC Oszillatoren:

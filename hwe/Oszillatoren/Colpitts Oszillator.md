@@ -8,11 +8,11 @@ created: 22nd November 2022
 ---
 
 # Colpitts Oszillator
-Besteht aus Emitter/Basis/Kollektor  Schaltung mit einer Rückkopplung:
+Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
-| <mark style="background: #FFB86CA6;">Colpitts:</mark> [[Kanalkapazität\|kapazitiv]] | <mark style="background: #FFB86CA6;">Hartley:</mark> [[Induktivitäten\|induktiv]] | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
-| ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![[Pasted image 20221128102513.png]]                                                | ![[Pasted image 20221128102527.png]]                                              | ![[Pasted image 20221128102551.png]]                                                                        |
+| <mark style="background: #FFB86CA6;">Colpitts:</mark> kapazitiv | <mark style="background: #FFB86CA6;">Hartley:</mark> [[Induktivitäten\|induktiv]] | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
+| --------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![[Pasted image 20221128102513.png]]                            | ![[Pasted image 20221128102527.png]]                                              | ![[Pasted image 20221128102551.png]]                                    |
 
 Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)
 Vorteil: 
