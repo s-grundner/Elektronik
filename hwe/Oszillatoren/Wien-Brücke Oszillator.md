@@ -20,8 +20,10 @@ $g = k\cdot A \qquad A = \left(1+\dfrac{R_{2}}{R_{1}}\right),\quad k = \dfrac{U_
 
 $$
 \begin{align*}
-k&= \dfrac{U_{a}}{U_{e}} = \frac{\frac{1}{Y}}{Z+ \frac{1}{Y}}= \frac{1}{1+Z\cdot Y}\\
-&= \frac{1}{1+(R+)}
+k= \dfrac{U_{a}}{U_{e}} &= \frac{\frac{1}{Y}}{Z+ \frac{1}{Y}}= \frac{1}{1+Z\cdot Y}\\
+&= \frac{1}{1+(R+\frac{1}{j\omega C})\cdot(\frac{1}{R}+j\omega C)}\\
+&= \frac{1}{1+1+\frac{1}{j\omega RC}+j\omega RC}+1\\
+&= \frac{1}{3+}
 \end{align*}
 $$
 # Quellen
