@@ -44,7 +44,7 @@ $$
 > [!important] Tiefpass 3. Ordnung
 > 3 Filterstufen mit $\left|\dfrac{U_{2}}{U_{1}}\right|=\dfrac{1}{2}\rightarrow\dfrac{1}{2}\cdot\dfrac{1}{2}\cdot\dfrac{1}{2} = \dfrac{1}{8}$ 
 
-## Herleitung des gepufferten PSO
+## Herleitung des ungepufferten PSO
 > [!tip] [[Kettenmatrix|Kettenmatrizen]] für die Herleitung
 > ![[PSO-kette.png|975]]
 
@@ -69,7 +69,7 @@ $$
 &= \dots
 \end{align*}
 $$
-
+$\sigma$ in unserem Fall meistens 0
 #incomplete 
 bei Resonanz: $\rightarrow \{Im\}=0:$
 $$
