@@ -16,14 +16,14 @@ created: 7th November 2022
 - verstärker kompensiert die Rückkopplungsdämpfung
 
 ## ungepuffert
-
+> [!summary] $\omega_{0}=\dfrac{\sqrt{6}}{RC}\qquad v_{0}=|29|$
 ## gepuffert
 
 ### Schaltung
 ![[Pasted image 20230124215050.png|925]]
 
 ### Herleitung
-![[RC]]
+
 Übertragungsfunktion vom RC-Tiefpass:
 $$
 \frac{U_{2}}{U_{1}}= \dfrac{\dfrac{1}{j\omega C}}{R+\dfrac{1}{j\omega C}} =\dfrac{1}{1+j\omega\uptau}
