@@ -23,13 +23,15 @@ Wenn bei einer [[Binomialverteilung]] $\sigma^{2}n\cdot p>9$ ist, kann man sie d
 Sei
 
 # Konfidenzintervalle
-Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine Zufallsvariable $X\sim N(\mu;\sigma^{2})$, dann 
+Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine Zufallsvariable $X\sim N(\mu;\sigma^{2})$, dann ist die 
 
-|                |                                          | Vertrauensbereich |
-| -------------- | ---------------------------------------- | ----------------- |
-| $\mu_{unten}=$ | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$ | $1-\alpha=95\%$   |
-| $\mu_{oben}=$  | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$ | $1-\alpha=99\%$   |
-| $\mu_{unten}=$ | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$ | $1-\alpha=95\%$   |  
-| $\mu_{oben}=$  | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$ | $1-\alpha=99\%$   |
-| $\mu_{unten}=$ | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$ | $1-\alpha=95\%$   |  
-| $\mu_{oben}=$  | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$ | $1-\alpha=99\%$   |
+| Erwartungswert | Stichprobe                                                  | Vertrauensbereich |
+| -------------- | ----------------------------------------------------------- | ----------------- |
+| $\mu_{unten}=$ | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$                    | $1-\alpha=95\%$   |
+| $\mu_{oben}=$  | $\overline{X}+1.96\dfrac{\sigma^{2}}{n}$                    | $1-\alpha=95\%$   |
+|                |                                                             |                   |
+| $\mu_{unten}=$ | $\overline{X}-2.57\dfrac{\sigma^{2}}{n}$                    | $1-\alpha=99\%$   |
+| $\mu_{oben}=$  | $\overline{X}+2.57\dfrac{\sigma^{2}}{n}$                    | $1-\alpha=99\%$   |
+|                |                                                             |                   |
+| $\mu_{unten}=$ | $\overline{X}-U_{1- \frac{\alpha}{2}}\dfrac{\sigma^{2}}{n}$ | $1-\alpha=$       |
+| $\mu_{oben}=$  | $\overline{X}+U_{1- \frac{\alpha}{2}}\dfrac{\sigma^{2}}{n}$ | $1-\alpha=$       |
