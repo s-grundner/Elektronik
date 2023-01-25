@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["Clock", "Reset"]
+aliases: ["Clock", "Reset", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
