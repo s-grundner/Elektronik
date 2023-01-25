@@ -32,7 +32,7 @@ Sei $X$ eine [[Zufallsvariable]] für einen Merkmalswert eines Merkmalsträger.
 > $$
 
 > [!summary] Stichprobenmittel
-> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}$ ... $\overline{x}$ ist auch eine Zufallsvariable
+> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}\qquad$ ... $\overline{x}$ ist auch eine Zufallsvariable
 
 > [!done] Wenn $X$ Normalverteilt sind mit $X\sim (\mu|\sigma^{2})$, dann ist $\overline{X}\sim(\mu| \frac{\sigma^{2}}{n})$
 

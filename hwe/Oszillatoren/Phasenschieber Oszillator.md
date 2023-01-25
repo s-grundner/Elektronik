@@ -12,6 +12,10 @@ created: 7th November 2022
 	- Invertierender Verstärker
 	- RC-Netzwerk
 
+# ungepuffert
+
+# gepuffert
+
 ## Schaltung
 ![[Pasted image 20230124215050.png|925]]
 - 3-4x Tiefpass 1. Ordnung
