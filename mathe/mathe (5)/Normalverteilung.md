@@ -20,7 +20,18 @@ Wenn bei einer [[Binomialverteilung]] $\sigma^{2}n\cdot p>9$ ist, kann man sie d
 > [!warning] Mit Taschenrechner nicht mehr nötig
 
 ## Verteilung von Stichprobenkennwerte
-Sei $X$ eine Zufallsvariable für einen Merkmals
+Sei $X$ eine Zufallsvariable für einen Merkmalswert eines Merkmalsträger.
+
+Stichprobe:
+$$
+\begin{align*}
+X_{1},&&X_{1},&&X_{1}&&\dots&& X_{n}&&\\
+\downarrow&&\downarrow&&\downarrow&& &&\downarrow&&\\
+x_{1},&&x_{1},&&x_{1}&&\dots&& x_{n}&&\qquad\dots \text{n-Tupel(eine Stichprobe)}
+
+\end{align*}
+$$
+
 # Konfidenzintervalle
 Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine Zufallsvariable $X\sim N(\mu;\sigma^{2})$, dann ist die Stichprobe $\overline{X}\sim N(\mu; \frac{\sigma^{2}}{n})$. 
 $\mu$ muss "in der Nähe" von $\overline{X}$ liegen.
