@@ -14,6 +14,10 @@ created: 7th November 2022
 	 
 ## Schaltung
 ![[Pasted image 20230124205649.png|1000]]
+
+> [!summary] 
+> Resonanzfrequenz: $\omega=\dfrac{1}{RC}$
+> Verstärkung: $
 ## Herleitung
 > [!summary] Grundregel:
 > $g = k\cdot A \qquad A = \dfrac{U_{e}}{U_{a}},\quad k = \dfrac{U_{a}}{U_{e}}$
@@ -37,5 +41,6 @@ $$
 
 >[!Help] Barkhausenkriterium
 > $k\cdot v = 1$
-> $v = v_{0}= \frac{1}{k}=3+j(\omega\uptau)$
+> $v = v_{0}= \dfrac{1}{k}=3+j\left(\omega\uptau- \dfrac{1}{\omega\uptau}\right)$
+> für Resonanz $\righ$
 # Quellen
