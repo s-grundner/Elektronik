@@ -9,10 +9,21 @@ created: 30th January 2023
 
 # Discrete Time Oscillator
 
-Ausgangspunkt: 4 Bit Dualzähler betrieben mit $f_{0}$ betrachtet man das MSB
-Topologie: Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines PLL
+> [!important] Ausgangspunkt:
+> 4 Bit Dualzähler betrieben mit $f_{0}$ betrachtet man das MSB
 
-The MSB of the Accureg is used as the output ... register of the DTO
+
+> [!important] Topologie:
+> Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [[Phase Locked Loop|PLL]]
+
+
+
+Das MSB des Accureg wird als Ausgang des DTO verwendet.
+
+> [!info] Die Frequenz ist abhängig von
+> - der Clockfrequenz des PLL
+> - Bit-Breite des Addierers
+> - Inkrement Wert
 
 
 
