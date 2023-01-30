@@ -19,6 +19,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 ## [[Barkhausen Kriterium]]
 
 ## Typen
+### Analoge Oszillatoren
 - [[NE555]]
 - RC Oszillatoren:
 	- [[Wien-Brücke Oszillator]]
@@ -30,6 +31,8 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 [[Relaxationsoszillator]]
 [[Kippschaltungen]]
 [[Quarzoszillator]]
+### Digital Oszillatoren
+- [[Discrete Time Oscillator]]
 
 # Quellen
 #incomplete 
