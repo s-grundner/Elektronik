@@ -35,33 +35,28 @@ $2 H_{2}(g)+O_{2}(g)\longrightarrow 2H_{2}O$
 Ein Katalysator setzt durch Bildung eines Zwischenproduktes (Delle im Energiediagramm) die AE herab und beschleunigt dadurch die Reaktion.
 Er wird zuvor **vorübergehend verändert** aber **nicht verbraucht**
 
-```ad-example
-title: Auto Abgas Katalysator
-Nur für Benzinmotoren
-💀$CO + \frac{1}{2}O_{2} \longrightarrow CO_{2}$
-$2CO + 2NO \longrightarrow 2CO_{2} + N_{2}$
-$CxHy + O_{2} \longrightarrow CO_{2} + H_{2}O$
-Umwandlung von $CO$, $NO$ und Kohlenwasserstoffe CxHy (90%)
-Enzyme = Biokatalysator
-```
+> [!example] Auto Abgas Katalysator
+> Nur für Benzinmotoren
+> 💀$CO + \frac{1}{2}O_{2} \longrightarrow CO_{2}$
+> $2CO + 2NO \longrightarrow 2CO_{2} + N_{2}$
+> $CxHy + O_{2} \longrightarrow CO_{2} + H_{2}O$
+> Umwandlung von $CO$, $NO$ und Kohlenwasserstoffe CxHy (90%)
+> Enzyme = Biokatalysator
 
-````ad-example
-title: Gasschmelzschwießen
-Beim Schweißen wird Ethin (Acetylen, $C_{2}H_{2}$) verbrannt.
-$10g$ Ethin liefern $500kJ$.
-Erstellen sie die Reaktionsgleichung und geben sie die Enthalpiedifferenz ($\Delta H$) der Reaktion an.
-![[C.png|150]] ![[H.png|150]]
-```ad-success
-title: Lösung
-**RGL:**
-$2C_{2}H_{2}+5O_{2}\longrightarrow 4CO_{2} + 2H_{2}O$
-**Molmasse** $(C_{2}H_{2}) = 26.038g$
-$26.038g \dots 1mol$
-$10g \dots 0.384mol$
-**Enthalpie:**
-$0.384\dots 500kJ$
-$1mol\dots 1301.9kJ$
-$\Delta H = -1301.9 \frac{kJ}{mol}$
-```
-````
+> [!example] Gasschmelzschwießen
+> Beim Schweißen wird Ethin (Acetylen, $C_{2}H_{2}$) verbrannt.
+> $10g$ Ethin liefern $500kJ$.
+> Erstellen sie die Reaktionsgleichung und geben sie die Enthalpiedifferenz ($\Delta H$) der Reaktion an.
+> ![[C.png|150]] ![[H.png|150]]
+> 
+> > [!success] Lösung
+> > **RGL:**
+> > $2C_{2}H_{2}+5O_{2}\longrightarrow 4CO_{2} + 2H_{2}O$
+> > **Molmasse** $(C_{2}H_{2}) = 26.038g$
+> > $26.038g \dots 1mol$
+> > $10g \dots 0.384mol$
+> > **Enthalpie:**
+> > $0.384\dots 500kJ$
+> > $1mol\dots 1301.9kJ$
+> > $\Delta H = -1301.9 \frac{kJ}{mol}$
 # Tags
