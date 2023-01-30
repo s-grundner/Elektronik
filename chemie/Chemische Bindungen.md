@@ -17,7 +17,7 @@ $\Delta EN < 1.7$ polare [[Atombindung]]
 ### [[Metallbindung]]
 >![[Metall-bdn.png|125]]
 > - Kristallgitter mit Atomrümpfen ($M^{+}$)
-> - <mark style="background: #ADCCFFA6;">freibewegliche $e^{-}$ "Elektronengas"</mark> 
+> - freibewegliche $e^{-}$ "Elektronengas"
 
 [[Valenzelektronen]] der Metalle werden abgegeben und bilden ein Elektronengas
 
