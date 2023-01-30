@@ -10,9 +10,9 @@ created: 20th August 2022
 # Chemische Bindungen
 ![[Pasted image 20220831183755.png|350]]
 Durch die unterschiedliche [[Periodensystem der Elemente#Elektronegativität EN|Elektronegativität]] ($\Delta EN$) der Verbindungspartner ist erkennbar welcher Verbindungstyp vorliegt:
-$\Delta EN > 1.7$ <mark style="background: #BBFABBA6;">[[Ionenbindung]]</mark>
-$\Delta EN=0$ <mark style="background: #ADCCFFA6;">[[Metallbindung]]</mark> oder unpolare [[Atombindung]] (2x gleiches NM)
-$\Delta EN < 1.7$ <mark style="background: #FF5582A6;">polare [[Atombindung]]</mark> 
+$\Delta EN > 1.7$ [[Ionenbindung]]
+$\Delta EN=0$ [[Metallbindung]] oder unpolare [[Atombindung]] (2x gleiches NM)
+$\Delta EN < 1.7$ polare [[Atombindung]]
 
 ### [[Metallbindung]]
 >![[Metall-bdn.png|125]]
