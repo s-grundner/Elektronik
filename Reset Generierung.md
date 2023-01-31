@@ -20,6 +20,7 @@ created: 31st January 2023
 
 # Watchdog
 $\rightarrow$ "seed-key" Prinzip
+![[wat]]
 
 
 
