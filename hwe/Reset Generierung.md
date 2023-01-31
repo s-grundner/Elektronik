@@ -20,10 +20,11 @@ created: 31st January 2023
 
 # Watchdog
 $\rightarrow$ "seed-key" Prinzip
-![watchdog](hwe/assets/watchdog.png)
+![[assets/watchdog.png|450]]
 
 
 
 
 
 # Tags
+[[Open Collector]]
