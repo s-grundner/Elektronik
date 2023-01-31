@@ -22,7 +22,7 @@ In PLL-Schaltungen kommen für die Oszillatoren hauptsächlich [[LC Oszillatoren
 Beim [[LC Oszillatoren|LC-Oszillator]] wird ein [[Schwingkreise|Schwingkreis]], bestehend aus einer [[Induktivitäten|Induktivität]] und einer Kapazität verwendet. Mittels Kapazitätsdioden, ist die Resonanzfrequenz einstellbar.
 
 >[!note] [[Colpitts Oszillator|Colpitts]]-Ostillator in [[Emitterfolger]]
-> ![[VCO_KapD.png]]
+> ![[VCO_KapD.png|500]]
 
 # Tags
 
