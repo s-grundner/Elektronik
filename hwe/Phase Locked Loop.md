@@ -15,23 +15,32 @@ Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines ver�
 > ![[PLL.png]]
 
 > [!summary] Bestandteile
-> - Phase Detector
-> - Charge Pump
+> - Phase Detector + Charge Pump
 > - Loop Filter
 > - [[Voltage Controlled Oscillator|VCO]]
 > - Feedback Divider ([[Clock Divider]])
 
-## Phasedetector (PD)
+## Kennwerte
+1. **Lock range:** PLL folgt der Frequenzänderung innerhalb eines Taktes
+2. **Pull out range:** spezifizierte Zeit für größere Frequenzänderungen um wieder den „locked“ Zustand zu erreichen.
+3. **Lock time**
+4. **Operationsbereich:** der von der PLL überdeckte Frequenzbereich
+5. **Frequenzmultiplikator:** ganzzahlig / fraktional
+6. **Ordnung der PLL:** Ordnung des Loop filters
+7. **Frequenzstabilität / Jitter**
+	
+# Phasedetector (PD)
 Der Phasedetector vergleicht die .... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, der Abweichung proportionales Signal, ausgegeben.
 
-### XOR Phase Detector
+## XOR Phase Detector
 Ein einfaches Modell für einen Phasendetektor ist ein XOR-Gatter.
 Je größer die Phasenabweichung, desto höher das "PWM" am ausgang des XOR Gatters.
 
-### Phase Frequency Detector (PFD)
+## Phase Frequency Detector (PFD)
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector.
+![[PFD.png]]
 
-## Loop Filter
+# Loop Filter
 Das rechteck-förmige Ausgangssignal des PD besteht aus einer Vielzahl von Frequenzen.
 Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert. Der Filter hat daher eiene Tiefpass-Charakteristik.
 

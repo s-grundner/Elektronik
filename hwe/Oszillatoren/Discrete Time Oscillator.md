@@ -11,8 +11,6 @@ created: 30th January 2023
 
 > [!important] Ausgangspunkt:
 > 4 Bit Dualzähler betrieben mit $f_{0}$ betrachtet man das MSB
-> ![[assets/dto-counter.png]]
-
 
 > [!important] Topologie:
 > Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [[Phase Locked Loop|PLL]]
@@ -27,6 +25,8 @@ created: 30th January 2023
 
 ## Blockschaltbild eines komplexen Taktsystems
 ![[komplex-dto.png]]
+![[dto-counter.png]]
 # Tags
+[[Clock Tree Balancing]]
 [[Clock Generierung]]
 [[Phase Locked Loop|PLL]]
