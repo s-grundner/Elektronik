@@ -8,13 +8,14 @@ created: 19th January 2023
 ---
 
 # Phase Locked Loop (PLL)
-
-## Phasedetector
+> []
+## Phasedetector (PD)
+Der Phasedetector vergleicht die
 ### Phase Frequency Detector (PFD)
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector
 ## Loop Filter
-Das rechteckförmige Ausgangssignal des PFD besteht aus einer vielzahl von Frequenzen.
-Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert. Der Filter hat daher iene Tiefpass-Charakteristik.
+Das rechteck-förmige Ausgangssignal des PFD besteht aus einer Vielzahl von Frequenzen.
+Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert. Der Filter hat daher eiene Tiefpass-Charakteristik.
 ## Voltage Controlled Oscillator (VCO)
 Der VCO setzt das Signal in eine Rechteckschwingung um. Interessant ist die sogenannte center-frequency, also jede Frequenz mitder der Oszillator im Locked-Zustand schwingt.
 Um sie herum findet der Regelvorgang statt.
