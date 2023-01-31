@@ -16,7 +16,7 @@ created: 30th January 2023
 
 > [!important] Topologie:
 > Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [[Phase Locked Loop|PLL]]
-> ![[assets/DTO.png]]
+> ![[DTO.png]]
 > - Das MSB des Accureg wird als Ausgang des DTO verwendet.
 
 
@@ -26,6 +26,7 @@ created: 30th January 2023
 > - Inkrement Wert
 
 ## Blockschaltbild eines komplexen Taktsystems
-![[assets/komplex-dto.png]]
+![[komplex-dto.png]]
 # Tags
 [[Clock Generierung]]
+[[Phase Locked Loop|PLL]]

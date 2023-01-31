@@ -8,13 +8,19 @@ created: 19th January 2023
 ---
 
 # Phase Locked Loop (PLL)
-> []
+
+Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines veränderbaren Oszillators so beeinflusst, dass die Phasenabweichung zu einem zu einem äußeren System möglichst konstant ist. 
+
+> [!note] Schaltung
+> ![[PLL.png]]
+
+
 ## Phasedetector (PD)
-Der Phasedetector vergleicht die
+Der Phasedetector vergleicht die .... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, )
 ### Phase Frequency Detector (PFD)
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector
 ## Loop Filter
-Das rechteck-förmige Ausgangssignal des PFD besteht aus einer Vielzahl von Frequenzen.
+Das rechteck-förmige Ausgangssignal des PD besteht aus einer Vielzahl von Frequenzen.
 Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert. Der Filter hat daher eiene Tiefpass-Charakteristik.
 ## Voltage Controlled Oscillator (VCO)
 Der VCO setzt das Signal in eine Rechteckschwingung um. Interessant ist die sogenannte center-frequency, also jede Frequenz mitder der Oszillator im Locked-Zustand schwingt.
@@ -26,6 +32,8 @@ Beim [[LC Oszillatoren|LC-Oszillator]] wird ein [[Schwingkreise|Schwingkreis]], 
 > ![[VCO_KapD.png|675]]
 
 # Tags
+[[Kapazitäts-Diode|Varicap]]
+
 
 ![[Clock_und_Reset_Generierung.pdf]]
 
