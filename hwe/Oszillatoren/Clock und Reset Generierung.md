@@ -27,9 +27,9 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 	- [[LC Oszillatoren#Serien Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Serien Schwingkreis]]
 	- [[LC Oszillatoren#Parallel Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Parallel Schwingkreis]]
 	- [[Colpitts Oszillator]]
-[[Relaxationsoszillator]]
-[[Kippschaltungen]]
-[[Quarzoszillator]]
+- [[Relaxationsoszillator]]
+- [[Kippschaltungen]]
+- [[Quarzoszillator]]
 
 # Quellen
 #incomplete 

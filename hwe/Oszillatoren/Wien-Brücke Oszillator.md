@@ -11,7 +11,7 @@ created: 7th November 2022
 - $kHz-MHz$ Bereich
 - geringer Klirrfaktor
 - breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-Kondensator. 
-	 
+
 ## Schaltung
 ![[Pasted image 20230124205649.png|1000]]
 
