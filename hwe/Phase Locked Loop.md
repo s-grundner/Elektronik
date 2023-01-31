@@ -11,8 +11,7 @@ created: 19th January 2023
 
 Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines veränderbaren Oszillators so beeinflusst, dass die Phasenabweichung zu einem zu einem äußeren System möglichst konstant ist. 
 
-> [!note] Schaltung
-> ![[PLL.png]]
+![[PLL.png]]
 
 > [!summary] Bestandteile
 > - Phase Detector + Charge Pump
@@ -35,7 +34,7 @@ Der Phasedetector vergleicht die .... sind beide Frequenzen gleich, ist die PLL 
 ## XOR Phase Detector
 Ein einfaches Modell für einen Phasendetektor ist ein XOR-Gatter.
 Je größer die Phasenabweichung, desto höher das "PWM" am ausgang des XOR Gatters.
-
+![[XOR-PD.png|525]]
 ## Phase Frequency Detector (PFD)
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector.
 ![[PFD.png]]
@@ -46,7 +45,6 @@ Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Freq
 
 # Tags
 [[Kapazitäts-Diode|Varicap]]
-
 
 ![[Clock_und_Reset_Generierung.pdf]]
 
