@@ -7,7 +7,7 @@ reference: []
 created: 17th October 2022
 ---
 
-# Clock und Reset Generierung
+# Oszillatoren
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
 ## Klassifizierung von Oszillatoren
@@ -33,6 +33,12 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 [[Quarzoszillator]]
 ### Digital Oszillatoren
 - [[Discrete Time Oscillator]]
+
+# Resetschaltungen
+
+Aufgaben:
+- bei Systemstart ...
+- 
 
 # Quellen
 #incomplete 
