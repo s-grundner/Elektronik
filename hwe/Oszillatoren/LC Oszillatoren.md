@@ -7,7 +7,7 @@ reference: []
 created: 17th November 2022
 ---
 
-# LC [Oszillatoren](Clock%20und%20Reset%20Generierung.md)
+# LC [Oszillatoren](Clock%20Generierung.md)
 - Prinzip der Schwingungserzeugung: Entladung eines [[Schwingkreise|Schwingkreis]]es
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
 - sowohl Serien- als auch Parallelschwingkreis möglich 

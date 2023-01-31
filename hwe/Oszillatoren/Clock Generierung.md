@@ -34,11 +34,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 ### Digital Oszillatoren
 - [[Discrete Time Oscillator]]
 
-# Resetschaltungen
-
-Aufgaben:
-- bei Systemstart ...
-- 
 
 # Quellen
 #incomplete 

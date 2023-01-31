@@ -7,12 +7,12 @@ reference: []
 created: 24th January 2023
 ---
 
-# [[Clock und Reset Generierung|Clock]] Divider
+# [[../hwe/Oszillatoren/Clock Generierung|Clock]] Divider
 Zweier potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
 
 ## Geradzahlig 
 ![[PNG-Bild 3.png]]
-1. [[Clock und Reset Generierung|Clock]]-Tree-Balancing (Kompensierung der Phasenverschiebung)
+1. [[../hwe/Oszillatoren/Clock Generierung|Clock]]-Tree-Balancing (Kompensierung der Phasenverschiebung)
 
 
 ## Ungeradzahlig
