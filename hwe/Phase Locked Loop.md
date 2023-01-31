@@ -16,7 +16,7 @@ Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines ver√
 
 
 ## Phasedetector (PD)
-Der Phasedetector vergleicht die .... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein,der Abweichung proportionales Signal, ausgegeben.
+Der Phasedetector vergleicht die .... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, der Abweichung proportionales Signal, ausgegeben.
 
 ### XOR Phase Detector
 Ein einfaches Modell f√ºr einen Phasendetektor ist ein XOR-Gatter.

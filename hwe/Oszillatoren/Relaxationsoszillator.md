@@ -15,3 +15,4 @@ created: 20th December 2022
 ![[Pasted image 20230103031833.png]]
 
 # Tags
+[[Clock Generierung|Oszillator]]
