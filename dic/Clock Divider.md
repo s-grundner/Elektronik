@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["Taktteiler"]
 subject: ["dic"]
 source: ["Siegbert Schrempf", "Roman Schragl", "Robert Vogl"]
 reference: []
