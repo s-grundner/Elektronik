@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["Clock-Tree-Balancing"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
