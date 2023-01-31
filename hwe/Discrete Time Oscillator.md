@@ -31,4 +31,4 @@ Das MSB des Accureg wird als Ausgang des DTO verwendet.
 ## Blockschaltbild eines komplexen Taktsystems
 ![komplex-dto](assets/komplex-dto.png)
 # Tags
-[Clock Tree Balancing](../Clock%20Tree%20Balancing.md)
+[Clock Tree Balancing](Clock%20Tree%20Balancing.md)
