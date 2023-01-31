@@ -7,7 +7,7 @@ reference: []
 created: 2nd January 2023
 ---
 
-# Herleitung der Schwingbedingungen eines [[Clock und Reset Generierung|Oszillators]]
+# Herleitung der Schwingbedingungen eines [[Clock Generierung|Oszillators]]
 ## Aussagen aus dem Barkhausen Kriterium:
 - Die vom Rückkoppelnetzwerk hervorgerufene [[Dämpfung]] muss vom Verstärker kompensiert werden 
 - Die Eingekoppelte Spannung $\overline{U_{1}}$ und die Rückgekoppelte Spannung $\overline{U_{3}}$
