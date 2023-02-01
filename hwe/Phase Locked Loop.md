@@ -25,16 +25,16 @@ Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines ver�
 3. **Lock time**
 4. **Operationsbereich:** der von der PLL überdeckte Frequenzbereich
 5. **Frequenzmultiplikator:** ganzzahlig / fraktional
-6. **Ordnung der PLL:** Ordnung des Loop filters
+6. **Ordnung der PLL:** Ordnung des Loop Filters
 7. **Frequenzstabilität / Jitter**
-	
+
 # Phasedetector (PD)
-Der Phasedetector vergleicht die .... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, der Abweichung proportionales Signal, ausgegeben.
+Der Phasedetector vergleicht die ... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, der Abweichung proportionales Signal, ausgegeben.
 
 ## XOR Phase Detector
 Ein einfaches Modell für einen Phasendetektor ist ein XOR-Gatter.
 Je größer die Phasenabweichung, desto höher das "PWM" am Ausgang des XOR Gatters.
-![[XOR-PD.png|525]]
+![[XOR-PD.png|625]]
 ## Phase Frequency Detector (PFD)
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector.
 ![[PFD.png]]
@@ -46,8 +46,6 @@ Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Freq
 > Tiefpass 1. Ordnung
 
 # Tags
-[[Kapazitäts-Diode|Varicap]]
-
 ![[Clock_und_Reset_Generierung.pdf]]
 
 ![[MT-086.pdf]]

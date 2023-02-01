@@ -13,4 +13,7 @@ created: 19th January 2023
 $d = f(U)$
 Die Breite der RLZ ist eine Funktion der Spannung.
 
+>[!summary] $C=\dfrac{\varepsilon\cdot A}{d(U)}$
+
 # Tags
+[[Voltage Controlled Oscillator|VCO]]

@@ -17,6 +17,7 @@ created: 30th January 2023
 > ![[DTO.png]]
 > - Das MSB des Accureg wird als Ausgang des DTO verwendet.
 
+![[dto-counter.png]]
 
 > [!info] Die Frequenz ist abhängig von
 > - der Clockfrequenz des [[Phase Locked Loop|PLL]]
@@ -24,6 +25,6 @@ created: 30th January 2023
 > - Inkrement Wert
 
 # Tags
-[[Clock Tree Balancing]]
 [[Clock Generierung]]
+[[Clock Tree Balancing]]
 [[Phase Locked Loop|PLL]]
