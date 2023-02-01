@@ -1,4 +1,4 @@
----
+8---
 tags: []
 aliases: ["Phasenregelschleife", "PLL"]
 subject: ["hwe"]
@@ -44,6 +44,9 @@ Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Freq
 
 > [!warning] Der Filter hat daher eine Tiefpass-Charakteristik.
 > Tiefpass 1. Ordnung
+
+# [[Voltage Controlled Oscillator|VCO]]
+
 
 # Tags
 ![[Clock_und_Reset_Generierung.pdf]]
