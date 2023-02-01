@@ -33,14 +33,17 @@ Der Phasedetector vergleicht die .... sind beide Frequenzen gleich, ist die PLL 
 
 ## XOR Phase Detector
 Ein einfaches Modell für einen Phasendetektor ist ein XOR-Gatter.
-Je größer die Phasenabweichung, desto höher das "PWM" am ausgang des XOR Gatters.
+Je größer die Phasenabweichung, desto höher das "PWM" am Ausgang des XOR Gatters.
 ![[XOR-PD.png|525]]
 ## Phase Frequency Detector (PFD)
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector.
 ![[PFD.png]]
 # Loop Filter
 Das rechteck-förmige Ausgangssignal des PD besteht aus einer Vielzahl von Frequenzen.
-Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert. Der Filter hat daher eiene Tiefpass-Charakteristik.
+Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert.
+
+> [!warning] Der Filter hat daher eine Tiefpass-Charakteristik.
+> Tiefpass 1. Ordnung
 
 # Tags
 [[Kapazitäts-Diode|Varicap]]
