@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["Reset"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []

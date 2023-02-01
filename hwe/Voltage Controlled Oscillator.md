@@ -18,3 +18,5 @@ Beim [[LC Oszillatoren|LC-Oszillator]] wird ein [[Schwingkreise|Schwingkreis]], 
 
 # Tags
 [[Kapazitäts-Diode|Varicap]]
+[[Phase Locked Loop|PLL]]
+[[Discrete Time Oscillator|DTO]]

@@ -13,7 +13,7 @@ created: 30th January 2023
 > 4 Bit Dualzähler betrieben mit $f_{0}$ betrachtet man das MSB
 
 > [!important] Topologie:
-> Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [[Phase Locked Loop|PLL]]
+> Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [[Phase Locked Loop|PLL]] *(clk_i)*
 > ![[DTO.png]]
 > - Das MSB des Accureg wird als Ausgang des DTO verwendet.
 
@@ -23,9 +23,6 @@ created: 30th January 2023
 > - Bit-Breite des Addierers
 > - Inkrement Wert
 
-## Blockschaltbild eines komplexen Taktsystems
-![[komplex-dto.png]]
-![[dto-counter.png]]
 # Tags
 [[Clock Tree Balancing]]
 [[Clock Generierung]]

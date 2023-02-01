@@ -1,13 +1,13 @@
 ---
 tags: []
-aliases: ["Clock", "Reset", "Oszillatoren"]
+aliases: ["Clock", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
 created: 17th October 2022
 ---
 
-# Clock und Reset Generierung
+# Clock Generierung
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
 ## Klassifizierung von Oszillatoren
@@ -15,8 +15,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - Der Form des Ausgangssignals
 - Nach der Art der frequenzbestimmenden Bauteile
 - Nach den aktiven Bauelementen
-
-## [[Barkhausen Kriterium]]
 
 ## Typen
 - [[NE555]]
@@ -30,8 +28,13 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - [[Relaxationsoszillator]]
 - [[Kippschaltungen]]
 - [[Quarzoszillator]]
+## Blockschaltbild eines komplexen Taktsystems
+![[komplex-dto.png]]
+![[dto-counter.png]]
 
-# Quellen
-#incomplete 
+
+# Tags
+[[Barkhausen Kriterium]]
+[[Clock Generierung|Reset]]
 ![[00_Clock_und_Reset_Generierung_intro.pdf]]
 ![[Clock_und_Reset_Generierung.pdf]]
