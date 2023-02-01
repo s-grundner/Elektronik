@@ -7,6 +7,7 @@ reference: []
 created: 14th November 2022
 ---
 # Ketten[[Matrixrechnung|matrix]]
+
 $$
 \begin{pmatrix}
 U_{1}\\I_{1}
@@ -23,12 +24,13 @@ U_{2}\\I_{2}
 $$
 $$
 \begin{align*}
-&\left.A_{11}=\frac{U_{1}}{U_{2}}\right|_{I_{2}=0, \text{ Leerlauf}}
-&&\left.A_{12}=\frac{I_{1}}{U_{2}}\right|_{I_{2}=0, \text{ Leerlauf}}\\
-&\left.A_{21}=\frac{U_{1}}{I_{2}}\right|_{U_{2}=0, \text{ Kurzschluss}}
-&&\left.A_{22}=\frac{I_{1}}{I_{2}}\right|_{U_{2}=0, \text{ Kurzschlus}}\\
+&&\left.A_{11}=\frac{U_{1}}{U_{2}}\right|_{I_{2}=0, \text{ Leerlauf}}
+&&\left.A_{12}=\frac{U_{1}}{I_{2}}\right|_{U_{2}=0, \text{ Leerlauf}}
+&&\left.A_{21}=\frac{I_{1}}{U_{2}}\right|_{I_{2}=0, \text{ Kurzschluss}}
+&&\left.A_{22}=\frac{I_{1}}{I_{2}}\right|_{U_{2}=0, \text{ Kurzschlus}}
 \end{align*}
 $$
+
 # Impedanz[[Matrixrechnung|matrix]]
 
 $\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$

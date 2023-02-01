@@ -1,13 +1,13 @@
 ---
 tags: []
-aliases: ["Clock", "Oszillatoren", "Oszillator"]
+aliases: ["Clock", "Reset", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
 created: 17th October 2022
 ---
 
-# Oszillatoren
+# Clock und Reset Generierung
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
 ## Klassifizierung von Oszillatoren
@@ -19,7 +19,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 ## [[Barkhausen Kriterium]]
 
 ## Typen
-### Analoge Oszillatoren
 - [[NE555]]
 - RC Oszillatoren:
 	- [[Wien-Brücke Oszillator]]
@@ -28,12 +27,9 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 	- [[LC Oszillatoren#Serien Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Serien Schwingkreis]]
 	- [[LC Oszillatoren#Parallel Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Parallel Schwingkreis]]
 	- [[Colpitts Oszillator]]
-[[Relaxationsoszillator]]
-[[Kippschaltungen]]
-[[Quarzoszillator]]
-### Digital Oszillatoren
-- [[Discrete Time Oscillator]]
-
+- [[Relaxationsoszillator]]
+- [[Kippschaltungen]]
+- [[Quarzoszillator]]
 
 # Quellen
 #incomplete 
