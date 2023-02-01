@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["PSO", "Phaseshift "]
+aliases: ["PSO", "Phaseshift Oscillator"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []

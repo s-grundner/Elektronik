@@ -30,12 +30,17 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - [[Kippschaltungen]]
 - [[Quarzoszillator]]
 - [[Pierce-Gate Oszillator]]
+- [[Phase Locked Loop]]
 
 ### Digital
 - [[Discrete Time Oscillator]]
 
-## Blockschaltbild eines komplexen Taktsystems
-![[komplex-dto.png]]
+> [!note] Blockschaltbild eines komplexen Taktsystems
+> 
+> ![[komplex-dto.png]]
+> 
+> | [[Pierce Gate Oszillator\|PGO]] | [[Phase Locked Loop\|PLL]] | [[Discrete Time Oscillator\|DTO]] | [[Clock Divider]] | [[Clock Tree Balancing]] |
+> |-|-|-|-|
 
 # Tags
 [[Barkhausen Kriterium]]
