@@ -19,14 +19,16 @@ Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines ver�
 > - [[Voltage Controlled Oscillator|VCO]]
 > - Feedback Divider ([[Clock Divider]])
 
-## Kennwerte
-1. **Lock range:** PLL folgt der Frequenzänderung innerhalb eines Taktes
-2. **Pull out range:** spezifizierte Zeit für größere Frequenzänderungen um wieder den „locked“ Zustand zu erreichen.
-3. **Lock time**
-4. **Operationsbereich:** der von der PLL überdeckte Frequenzbereich
-5. **Frequenzmultiplikator:** ganzzahlig / fraktional
-6. **Ordnung der PLL:** Ordnung des Loop Filters
-7. **Frequenzstabilität / Jitter**
+## Kennwert8e
+| Kennwert                        |                                                                                                |
+| ------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Lock Range**                  | PLL folgt der Frequenzänderung innerhalb eines Taktes                                          |
+| **Pull out Range**              | spezifizierte Zeit für größere Frequenzänderungen um wieder den „locked“ Zustand zu erreichen. |
+| **Lock time**                   |                                                                                                |
+| **Operationsbereich**           | der von der PLL überdeckte Frequenzbereich                                                     |
+| **Frequenzmultiplikator**       | ganzzahlig / fraktional                                                                        |
+| **Ordnung der PLL**             | Ordnung des Loop Filters                                                                       |
+| **Frequenzstabilität / Jitter** |                                                                                                |
 
 # Phasedetector (PD)
 Der Phasedetector vergleicht die ... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, der Abweichung proportionales Signal, ausgegeben.
@@ -46,9 +48,10 @@ Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Freq
 > Tiefpass 1. Ordnung
 
 # [[Voltage Controlled Oscillator|VCO]]
-Der VCO setzt das Signal in eine Rechteckschwingung um. Interessant ist die sogenannte *center-frequency*, also jede, Frequenz mit der der [[Clock Generierung|Oszillator]] im Locked-Zustand schwingt.
-Um sie herum findet der Regelvorgang statt.
-In PLL-Schaltungen kommen für die [[Clock Generierung|Oszillatoren]] hauptsächlich [[LC Oszillatoren|LC-Oszillatoren]] (weniger häufig RC-[[Clock Generierung|Oszillatoren]]) sowie Ringoszillatoren zum Einsatz.
+- Der VCO setzt das Signal in eine Rechteckschwingung um.
+- Interessant ist die sogenannte *center-frequency*, also jede Frequenz, mit der der [[Clock Generierung|Oszillator]] im Locked-Zustand schwingt.
+- Um sie herum findet der Regelvorgang statt.
+- In PLL-Schaltungen kommen für die [[Clock Generierung|Oszillatoren]] hauptsächlich [[LC Oszillatoren|LC-Oszillatoren]] (weniger häufig RC-[[Clock Generierung|Oszillatoren]]) sowie Ringoszillatoren zum Einsatz.
 
 --- 
 
