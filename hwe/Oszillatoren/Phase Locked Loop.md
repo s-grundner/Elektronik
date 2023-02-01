@@ -1,4 +1,4 @@
-8---
+---
 tags: []
 aliases: ["Phasenregelschleife", "PLL"]
 subject: ["hwe"]
@@ -46,7 +46,11 @@ Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Freq
 > Tiefpass 1. Ordnung
 
 # [[Voltage Controlled Oscillator|VCO]]
+Der VCO setzt das Signal in eine Rechteckschwingung um. Interessant ist die sogenannte *center-frequency*, also jede, Frequenz mit der der [[Clock Generierung|Oszillator]] im Locked-Zustand schwingt.
+Um sie herum findet der Regelvorgang statt.
+In PLL-Schaltungen kommen für die [[Clock Generierung|Oszillatoren]] hauptsächlich [[LC Oszillatoren|LC-Oszillatoren]] (weniger häufig RC-[[Clock Generierung|Oszillatoren]]) sowie Ringoszillatoren zum Einsatz.
 
+--- 
 
 # Tags
 ![[Clock_und_Reset_Generierung.pdf]]
