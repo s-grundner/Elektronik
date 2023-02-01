@@ -10,6 +10,4 @@ created: 17th January 2023
 # Quarzoszillator
 
 
-
-
 # Tags

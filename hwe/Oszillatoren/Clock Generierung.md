@@ -17,6 +17,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - Nach den aktiven Bauelementen
 
 ## Typen
+### Analog
 - [[NE555]]
 - RC Oszillatoren:
 	- [[Wien-Brücke Oszillator]]
@@ -28,13 +29,15 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - [[Relaxationsoszillator]]
 - [[Kippschaltungen]]
 - [[Quarzoszillator]]
+- [[Pierce-Gate Oszillator]]
+
+### Digital
+- [[Discrete Time Oscillator]]
+
 ## Blockschaltbild eines komplexen Taktsystems
 ![[komplex-dto.png]]
-![[dto-counter.png]]
-
 
 # Tags
 [[Barkhausen Kriterium]]
-[[Clock Generierung|Reset]]
-![[00_Clock_und_Reset_Generierung_intro.pdf]]
+[[Reset Generierung]]
 ![[Clock_und_Reset_Generierung.pdf]]

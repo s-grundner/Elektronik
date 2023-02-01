@@ -14,7 +14,7 @@ Der Klirrfaktor beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Ob
 > - $N\dots$ Gesamtes Signals (Grundschwingung mit Oberwellen)
 > - $A_{n}\dots$ Amplituden der $n$-ten Komponente
 
-## Klirrfaktor bei Oszillatoren
+## Klirrfaktor bei [[Clock Generierung|Oszillatoren]]
 - Für Sinusoszillatoren ist die spektrale Reinheit des Ausgangssignals von entscheidender Bedeutung.
 - Der hierbei verwendete Kennwert ist der Klirrfaktor.
 
