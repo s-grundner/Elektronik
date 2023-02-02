@@ -9,9 +9,9 @@ created: 7th November 2022
 
 # Wien-Brücke Oszillator
 - $kHz-MHz$ Bereich
-- geringer Klirrfaktor
+- geringer [[Klirrfaktor]]
 - breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-Kondensator. 
-	 
+
 ## Schaltung
 ![[Pasted image 20230124205649.png|1000]]
 

@@ -7,7 +7,7 @@ reference: []
 created: 17th November 2022
 ---
 
-# LC Oszillatoren
+# LC [Oszillatoren](Clock%20Generierung.md)
 - Prinzip der Schwingungserzeugung: Entladung eines [[Schwingkreise|Schwingkreis]]es
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
 - sowohl Serien- als auch Parallelschwingkreis möglich 
@@ -15,7 +15,7 @@ created: 17th November 2022
 - geeignet für hohe Frequenzen
 # Parallel [[Schwingkreise|Schwingkreis]] mit [[Operations-Verstärker|OPV]]
 > [!info] Schaltung
->![[Pasted image 20230103031538.png]]
+>![[LC-osz.png]]
 ## Herleitung mit [[Barkhausen Kriterium|BHK]]
 
 ## Herleitung mit [[{MOC} DGL|DGL]]
@@ -49,19 +49,21 @@ $$
 \end{align*}
 $$
 
-#### Lösung
-$$
-\begin{align*}
-u_{c}(t)= \underbrace{\underbrace{(C_{1}+C_{2})}_{\tilde{C_{1}}}\cdot\cos(\omega t)}_{\mathcal{Re}} + j \underbrace{\underbrace{(C_{1}-C_{2})}_{\tilde{C_{2}}}\cdot\sin(\omega t)}_{\mathcal{Im}}
-\end{align*}
-$$
+> [!check] Lösung
+> $$
+> \begin{align*}
+> u_{c}(t)= \underbrace{\underbrace{(C_{1}+C_{2})}_{\tilde{C_{1}}}\cdot\cos(\omega t)}_{\mathcal{Re}} + j \underbrace{\underbrace{(C_{1}-C_{2})}_{\tilde{C_{2}}}\cdot\sin(\omega t)}_{\mathcal{Im}}
+> \end{align*}
+> $$
 
 > [!info] Anmerkung
 > Sowohl Real, als auch Imaginärteil sind Lösungen der Differentailgleichung
 > Das erkennt man durch Einsetzen
 > Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
 
-![[Pasted image 20221201121517.png]]
+
+![](../assets/Pasted%20image%2020221201121517.png)
+
 $$
 \begin{align*}
 u_{c}(t)&= \tilde{C_{1}}\cdot\cos(\omega t)+\tilde{C_{2}}\sin(\omega t)\\
@@ -73,8 +75,7 @@ $$
 - Damit die Schaltung ein [[Schwingkreise|Selbstschwingendes]] System sein kann, muss der [[Schwingkreise#Freie Schwingungen im realen Serienschwingkreis|Störterm]] $0$ sein (Selbsterregt) und ein [[lineare DGL 2. Ordnung#3 Fall konjugiert Komplexe Zahlen komplexe Lösungen\|Schwingfall]] ($\delta<\omega_{0}$)
 
   
-```ad-question
-title: Lösungsansatz
+> [!question] Lösungsansatz
 $$
 \begin{align*}
 u_{1}(t) &= C\cdot e^{\lambda t}\\
@@ -90,7 +91,6 @@ C\cdot e^{\lambda t}(\lambda^{2}+2\delta\lambda + \omega_{0}^{2}) &= 0\\
 u_{1}(t) &= \dots
 \end{align*}
 $$
-```
 ### Herleitung der Schwingfrequenz
 $$
 \begin{align*}

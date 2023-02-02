@@ -1,14 +1,22 @@
 ---
 tags: []
-aliases: ["Clock", "Reset", "Oszillatoren"]
+aliases: ["Clock", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
 created: 17th October 2022
 ---
 
-# Clock und Reset Generierung
+# Clock Generierung
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
+
+> [!note] Blockschaltbild eines komplexen Taktsystems
+> ![[komplex-dto.png]]
+> - [[Pierce Gate Oszillator|PGO]]
+> - [[Phase Locked Loop|PLL]]
+> - [[Discrete Time Oscillator|DTO]]
+> - [[Clock Divider]]
+> - [[Clock Tree Balancing]]
 
 ## Klassifizierung von Oszillatoren
 - Nach Art der Schwingungserzeugung
@@ -16,10 +24,8 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - Nach der Art der frequenzbestimmenden Bauteile
 - Nach den aktiven Bauelementen
 
-## [[Barkhausen Kriterium]]
-
 ## Typen
-### Analoge Oszillatoren
+### Analog
 - [[NE555]]
 - RC Oszillatoren:
 	- [[Wien-Brücke Oszillator]]
@@ -28,13 +34,19 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 	- [[LC Oszillatoren#Serien Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Serien Schwingkreis]]
 	- [[LC Oszillatoren#Parallel Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Parallel Schwingkreis]]
 	- [[Colpitts Oszillator]]
-[[Relaxationsoszillator]]
-[[Kippschaltungen]]
-[[Quarzoszillator]]
-### Digital Oszillatoren
+- [[Relaxationsoszillator]]
+- [[Kippschaltungen]]
+- [[Quarzoszillator]]
+- [[Pierce-Gate Oszillator]]
+- [[Phase Locked Loop]]
+
+### Digital
 - [[Discrete Time Oscillator]]
 
-# Quellen
-#incomplete 
-![[00_Clock_und_Reset_Generierung_intro.pdf]]
+
+# Tags
+[[Barkhausen Kriterium]]
+[[Reset Generierung]]
+[[Klirrfaktor]]
+
 ![[Clock_und_Reset_Generierung.pdf]]

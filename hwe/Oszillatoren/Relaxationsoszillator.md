@@ -12,6 +12,7 @@ created: 20th December 2022
 
 ## Rechteck-Dreieck-Generator
 ### Schaltung
-![[Pasted image 20230103031833.png]]
+![[Relaxations-Osz.png]]
 
 # Tags
+[[Clock Generierung|Oszillator]]

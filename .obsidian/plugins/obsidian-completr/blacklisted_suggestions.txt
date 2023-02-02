@@ -35,3 +35,5 @@ TO
 Gas
 WSK
 LWL
+LLK
+WAN
