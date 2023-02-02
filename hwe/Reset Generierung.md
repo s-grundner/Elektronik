@@ -25,9 +25,12 @@ created: 31st January 2023
 > - Hochfahren der Systemkomponenten, [[Schaltnetzteil|Schaltregler]], [[Phase Locked Loop|PLL]]
 > - Pipeline Strukturen im µC
 
-### Power on Reset POR
+### Power on Reset (POR)
 Reset bei Systemstart
-
+![[POR-LZD.png|325]]
+#### Einfachster Aufbau
+> [!note] Schaltung
+> ![[POR-schaltung.png|500]]
 
 ## Reset bei Spannungseinbruch
 
