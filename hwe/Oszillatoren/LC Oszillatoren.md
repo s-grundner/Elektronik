@@ -15,7 +15,7 @@ created: 17th November 2022
 - geeignet für hohe Frequenzen
 # Parallel [[Schwingkreise|Schwingkreis]] mit [[Operations-Verstärker|OPV]]
 > [!info] Schaltung
->![[Pasted image 20230103031538.png]]
+>![[LC-osz.png]]
 ## Herleitung mit [[Barkhausen Kriterium|BHK]]
 
 ## Herleitung mit [[{MOC} DGL|DGL]]

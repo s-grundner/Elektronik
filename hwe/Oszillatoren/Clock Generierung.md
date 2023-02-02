@@ -10,6 +10,14 @@ created: 17th October 2022
 # Clock Generierung
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
+> [!note] Blockschaltbild eines komplexen Taktsystems
+> ![[komplex-dto.png]]
+> - [[Pierce Gate Oszillator|PGO]]
+> - [[Phase Locked Loop|PLL]]
+> - [[Discrete Time Oscillator|DTO]]
+> - [[Clock Divider]]
+> - [[Clock Tree Balancing]]
+
 ## Klassifizierung von Oszillatoren
 - Nach Art der Schwingungserzeugung
 - Der Form des Ausgangssignals
@@ -35,13 +43,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 ### Digital
 - [[Discrete Time Oscillator]]
 
-> [!note] Blockschaltbild eines komplexen Taktsystems
-> ![[komplex-dto.png]]
-> - [[Pierce Gate Oszillator|PGO]]
-> - [[Phase Locked Loop|PLL]]
-> - [[Discrete Time Oscillator|DTO]]
-> - [[Clock Divider]]
-> - [[Clock Tree Balancing]]
 
 # Tags
 [[Barkhausen Kriterium]]
