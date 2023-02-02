@@ -25,7 +25,9 @@ created: 31st January 2023
 > - Hochfahren der Systemkomponenten, [[Schaltnetzteil|Schaltregler]], [[Phase Locked Loop|PLL]]
 > - Pipeline Strukturen im µC
 
-### Beim Systemstart
+### Power on Reset POR
+Reset bei Systemstart
+
 
 ## Reset bei Spannungseinbruch
 
