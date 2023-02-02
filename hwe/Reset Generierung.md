@@ -27,15 +27,19 @@ created: 31st January 2023
 
 ### Power on Reset (POR)
 Reset bei Systemstart
-![[POR-LZD.png|325]]
-#### Einfachster Aufbau
-> [!note] Schaltung
-> ![[POR-schaltung.png|500]]
+> [!note] Einfachster Aufbau
+> ![[POR.png]]
+
+
+#### Berechnung der Resetdauer
+$V_{IL,max}=0.8V$
+$V_{IH,max}=2.4V$
+
+$u_{c}(t)=U_{0}(1-e^{\tfrac{-t}{\uptau}})$
 
 ## Reset bei Spannungseinbruch
 
 ![[reset-spg-einbruch.png|725]]
-
 # Watchdog
 Ein Watchdog weckt eine Schaltung wieder auf, wenn sie z.B. keine Rückmeldung erhält.
 
