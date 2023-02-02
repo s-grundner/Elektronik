@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["SMPS", "Switched Mode Power Supply"]
+aliases: ["SMPS", "Switched Mode Power Supply", "Schaltregler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []
