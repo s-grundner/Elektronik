@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["komplexe Rechnung", "komplex", "Zeitbereich", "Bildbereich"]
+aliases: ["komplexe Rechnung", "komplex"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 reference: []
