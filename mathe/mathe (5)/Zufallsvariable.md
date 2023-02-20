@@ -44,7 +44,7 @@ Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen
 
 $F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
 
-Ist $F$ dfferenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
+Ist $F$ differenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
 
 Anstelle von $F'$ schreibt man sie als $f$
 
