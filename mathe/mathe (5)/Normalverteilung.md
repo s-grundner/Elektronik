@@ -32,11 +32,11 @@ Sei $X$ eine [[Zufallsvariable]] für einen Merkmalswert eines Merkmalsträger.
 > $$
 
 > [!summary] Stichprobenmittel
-> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}\qquad$ ... $\overline{x}$ ist auch eine Zufallsvariable
+> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}\qquad$ ... $\overline{x}$ ist auch eine [[Zufallsvariable]]
 
 > [!done] Wenn $X$ Normalverteilt sind mit $X\sim (\mu|\sigma^{2})$, dann ist $\overline{X}\sim(\mu| \frac{\sigma^{2}}{n})$
 
-# Konfidenzintervalle
+# Konfidenzintervalle (Vertrauensbereich)
 Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine [[Zufallsvariable]] $X\sim N(\mu;\sigma^{2})$, dann ist die Stichprobe $\overline{X}\sim N(\mu; \frac{\sigma^{2}}{n})$. 
 $\mu$ muss "in der Nähe" von $\overline{X}$ liegen.
 > [!important] Wir akzeptieren dabei eine Irrtumswahrscheinlichkeit $\alpha$
