@@ -55,16 +55,13 @@ Ist die Dichtefunktion gegeben, so ist:
 $$
 F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
-> [!example] [[Binomialverteilung]]
-> $f\dots$ Dichtefunktion
-> (Graph mitschrift)
-> $\downarrow\int\downarrow$
-> (Graph mitschrift)
-> $F\dots$ Verteilungsfunktion
+> [!example] [[Normalverteilung]]
+> ![[PNG-Bild.png]]
 
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
 
 >[!example] Lebensdauer
+>![[PNG-Bild 1.png|1175]]
 
 # Tags
 [[Wahrscheinlichkeitsverteilung]]

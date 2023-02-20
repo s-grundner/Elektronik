@@ -9,12 +9,12 @@ created: 10th January 2023
 
 # Normalverteilung
 
-## Eiganschaften
+## Eigenschaften
 ## Symmetrische Intervalle von $\mu$
-## Standartisierte Normalverteilung
+## Standardisierte Normalverteilung
 
 ## Zentraler Grenzwertsatz
-Eine [[Zufallsvariable#Stetige Zufallsvariablen|stetige Zufallsvariable]], die sich als Summe ser vieler unabhängiger Einflussgrößen ergibt, von denen keine dominierend ist, ist näherungsweise normalverteilt.
+Eine [[Zufallsvariable#Stetige Zufallsvariablen|stetige Zufallsvariable]], die sich als Summe sehr vieler unabhängiger Einflussgrößen ergibt, von denen keine dominierend ist, ist näherungsweise normalverteilt.
 ## Näherung der [[Binomialverteilung]]
 Wenn bei einer [[Binomialverteilung]] $\sigma^{2}n\cdot p>9$ ist, kann man sie durch eine Normalverteilung annähern.
 > [!warning] Mit Taschenrechner nicht mehr nötig
