@@ -1,7 +1,5 @@
-																																																																																																																																																																																																																																																																																																																					# 1 Kryptographie
-
+# 1 Kryptographie
 ## Allgemein
-
 Computer und Netzwerksicherheit gewinnen immer größere Bedeutung. Um eine sichere Kommunikation über Netzwerke zu gewährleisten, müssen folgende Aspekte erfüllt sein:
 
 - *Vertraulichkeit*: Sicherheit gegen unerlaubtes Abhören
