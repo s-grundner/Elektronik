@@ -15,4 +15,20 @@ Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes ode
 ## Grundlagen und Begriffe
 
 
+### Kopplungsmechanismus
+Der Kopplungsmechanismus ist der physikalische Zusammenhang über den eine von der Störquelle ausgehende Störung auf die Senke einwirkt.
+
+> [!hint] Kopplungsarten
+> 1. kapazitiv
+> 2. induktiv
+> 3. galvanisch
+
+### Störquelle
+Ist das Objekt von dem die Störung ausgeht.
+
+### Störsenke
+Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtigt werden kann.
+
+### Störgröße
+Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünnschte Beeinflussung erzeugt.
 # Tags
