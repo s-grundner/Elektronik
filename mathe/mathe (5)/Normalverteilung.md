@@ -23,6 +23,16 @@ F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
 
 ![[PNG-Bild.png]]
+
+
+- Bisher waren [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilungen]] gegeben (z.B. [[Binomialverteilung]]).
+- jetzt nurmehr eine Funktion, die die Verteilung angibt
+
+Verteilungen können unterschiedlicher Wertebereiche annehmen.
+
+>[!example] Lebensdauer
+>![[PNG-Bild 1.png|1175]]
+
 ## Eigenschaften
 ## Symmetrische Intervalle von $\mu$
 ## Standardisierte Normalverteilung
