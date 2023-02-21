@@ -55,8 +55,8 @@ Ist die Dichtefunktion gegeben, so ist:
 $$
 F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
-> [!example] [[Normalverteilung]]
-> ![[PNG-Bild.png]]
+
+> [!example] ![[Normalverteilung#Normalverteilung]]
 
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
 

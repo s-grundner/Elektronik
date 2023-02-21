@@ -8,7 +8,7 @@ created: 10th January 2023
 ---
 
 # Normalverteilung
-
+![[PNG-Bild.png]]
 ## Eigenschaften
 ## Symmetrische Intervalle von $\mu$
 ## Standardisierte Normalverteilung
