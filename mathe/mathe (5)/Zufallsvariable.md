@@ -44,7 +44,7 @@ Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen
 
 $F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
 
-Ist $F$ dfferenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
+Ist $F$ differenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
 
 Anstelle von $F'$ schreibt man sie als $f$
 
@@ -55,16 +55,13 @@ Ist die Dichtefunktion gegeben, so ist:
 $$
 F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
-> [!example] [[Binomialverteilung]]
-> $f\dots$ Dichtefunktion
-> (Graph mitschrift)
-> $\downarrow\int\downarrow$
-> (Graph mitschrift)
-> $F\dots$ Verteilungsfunktion
+> [!example] [[Normalverteilung]]
+> ![[PNG-Bild.png]]
 
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
 
 >[!example] Lebensdauer
+>![[PNG-Bild 1.png|1175]]
 
 # Tags
 [[Wahrscheinlichkeitsverteilung]]
