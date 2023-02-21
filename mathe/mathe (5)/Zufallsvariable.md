@@ -39,30 +39,6 @@ Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
 Eine stetige Zufallsvariable nimmt jeden Wert in einem bestimmten Intervall an.
 Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt [[Wahrscheinlichkeitsverteilung]] dieser Zufallsvariable.
 
-- Bisher waren [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilungen]] gegeben (z.B. [[Binomialverteilung]]).
-- jetzt nurmehr eine Funktion, die die Verteilung angibt
-
-$F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
-
-Ist $F$ differenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
-
-Anstelle von $F'$ schreibt man sie als $f$
-
-$$
-\int^{b}_{a} f(x)dx= F(b)-F(a) = P(a\leq X\leq b)
-$$
-Ist die Dichtefunktion gegeben, so ist:
-$$
-F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
-$$
-
-> [!example] ![[Normalverteilung#Normalverteilung]]
-
-Verteilungen können unterschiedlicher Wertebereiche annehmen.
-
->[!example] Lebensdauer
->![[PNG-Bild 1.png|1175]]
-
 # Tags
 [[Wahrscheinlichkeitsverteilung]]
 [[Varianz#Varianz einer Zufallsvariable]]

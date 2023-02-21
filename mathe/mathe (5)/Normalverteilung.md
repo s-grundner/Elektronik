@@ -8,6 +8,20 @@ created: 10th January 2023
 ---
 
 # Normalverteilung
+$F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
+
+Ist $F$ differenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
+
+Anstelle von $F'$ schreibt man sie als $f$
+
+$$
+\int^{b}_{a} f(x)dx= F(b)-F(a) = P(a\leq X\leq b)
+$$
+Ist die Dichtefunktion gegeben, so ist:
+$$
+F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
+$$
+
 ![[PNG-Bild.png]]
 ## Eigenschaften
 ## Symmetrische Intervalle von $\mu$
