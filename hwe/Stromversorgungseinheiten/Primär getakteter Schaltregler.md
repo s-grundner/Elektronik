@@ -7,7 +7,7 @@ reference: []
 created: 2nd October 2022
 ---
 
-# Primär getakteter Schaltregler
+# Primär getakteter [[Schaltnetzteil|Schaltregler]]
 ![[PrimGetaktSMPS.png]]
 ## Eigenschaften
 ### Nachteile gegenüber [[Sekundär getaktete Schaltregler]]

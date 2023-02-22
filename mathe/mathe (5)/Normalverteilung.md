@@ -8,13 +8,37 @@ created: 10th January 2023
 ---
 
 # Normalverteilung
+$F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
 
-## Eiganschaften
+Ist $F$ differenzierbar, so nennt man die [[Differenzialrechnung|Ableitung]] von $F$ die Dichtefunktion von $X$, kurz Dichte.
+
+Anstelle von $F'$ schreibt man sie als $f$
+
+$$
+\int^{b}_{a} f(x)dx= F(b)-F(a) = P(a\leq X\leq b)
+$$
+Ist die Dichtefunktion gegeben, so ist:
+$$
+F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
+$$
+
+![[PNG-Bild.png]]
+
+
+- Bisher waren [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilungen]] gegeben (z.B. [[Binomialverteilung]]).
+- jetzt nurmehr eine Funktion, die die Verteilung angibt
+
+Verteilungen können unterschiedlicher Wertebereiche annehmen.
+
+>[!example] Lebensdauer
+>![[PNG-Bild 1.png|1175]]
+
+## Eigenschaften
 ## Symmetrische Intervalle von $\mu$
-## Standartisierte Normalverteilung
+## Standardisierte Normalverteilung
 
 ## Zentraler Grenzwertsatz
-Eine [[Zufallsvariable#Stetige Zufallsvariablen|stetige Zufallsvariable]], die sich als Summe ser vieler unabhängiger Einflussgrößen ergibt, von denen keine dominierend ist, ist näherungsweise normalverteilt.
+Eine [[Zufallsvariable#Stetige Zufallsvariablen|stetige Zufallsvariable]], die sich als Summe sehr vieler unabhängiger Einflussgrößen ergibt, von denen keine dominierend ist, ist näherungsweise normalverteilt.
 ## Näherung der [[Binomialverteilung]]
 Wenn bei einer [[Binomialverteilung]] $\sigma^{2}n\cdot p>9$ ist, kann man sie durch eine Normalverteilung annähern.
 > [!warning] Mit Taschenrechner nicht mehr nötig
@@ -32,11 +56,11 @@ Sei $X$ eine [[Zufallsvariable]] für einen Merkmalswert eines Merkmalsträger.
 > $$
 
 > [!summary] Stichprobenmittel
-> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}\qquad$ ... $\overline{x}$ ist auch eine Zufallsvariable
+> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}\qquad$ ... $\overline{x}$ ist auch eine [[Zufallsvariable]]
 
 > [!done] Wenn $X$ Normalverteilt sind mit $X\sim (\mu|\sigma^{2})$, dann ist $\overline{X}\sim(\mu| \frac{\sigma^{2}}{n})$
 
-# Konfidenzintervalle
+# Konfidenzintervalle (Vertrauensbereich)
 Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine [[Zufallsvariable]] $X\sim N(\mu;\sigma^{2})$, dann ist die Stichprobe $\overline{X}\sim N(\mu; \frac{\sigma^{2}}{n})$. 
 $\mu$ muss "in der Nähe" von $\overline{X}$ liegen.
 > [!important] Wir akzeptieren dabei eine Irrtumswahrscheinlichkeit $\alpha$

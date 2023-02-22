@@ -37,3 +37,5 @@ WSK
 LWL
 LLK
 WAN
+LAN
+LO
