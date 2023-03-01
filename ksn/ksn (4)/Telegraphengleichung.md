@@ -7,6 +7,5 @@ reference: []
 created: 1st March 2023
 ---
 
-# Telegraphengleichung
 
 # Tags

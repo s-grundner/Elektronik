@@ -16,17 +16,30 @@ created: 23rd November 2022
 | Induktivitätsbelag | $L'=\frac{L}{l}$ | $[L']=\frac{1H}{m}$      |
 | Kapazitätsbelag    | $C'=\frac{C}{l}$ | $[C']=\frac{1C}{m}$      | 
 
-## Kirchhoff'sche Gesetze in der Leitungstheorie
-### 1. Knotenregel
-### 2. Maschenregel
+> [!summary] [[Telegraphengleichung]]
+> $$
+> \frac{d^{2}u}{dz^{2}}=u(z)\cdot\gamma^{2}\\
+> $$
 
-# [[Telegraphengleichung]]
+> [!summary] komplexer Ausbreitungskoeffizient
+> $$
+> \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')}
+> $$
+
+> [!summary] Lösung der [[Telegraphengleichung]]
+> $$
+> u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}
+> $$
+# Telegraphengleichung
+
+> [!summary] Kirchhoff'sche Gesetze in der Leitungstheorie
+> 1. Knotenregel
+> 2. Maschenregel
+## Herleitung
+
 $$
-\frac{d^{2}u}{dz^{2}}=u(z)\cdot\gamma^{2}
+Z_{E}= u(z)/
 $$
-
-## Lösung der Telegraphengleichung
-
 
 # Quellen
 [[Reflexionsfaktor]]
