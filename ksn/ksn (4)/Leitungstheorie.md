@@ -7,8 +7,16 @@ reference: []
 created: 23rd November 2022
 ---
 
-# Leitungstheorie
+# Leitermodell
 
+| Bezeichnung        | Formel | Einheit |
+| ------------------ | ------ | ------- |
+| Widerstandsbelag   |        |         |
+| Leitwertsbelag     |        |         |
+| Induktivitätsbelag |        |         |
+| Kapazitätsbelag    |        |         |
+
+## Kirchhoff'sche Gesetze in der Leitungstheorie
 
 
 # Quellen
