@@ -17,6 +17,9 @@ created: 23rd November 2022
 | Kapazitätsbelag    |        |         |
 
 ## Kirchhoff'sche Gesetze in der Leitungstheorie
+### 1. Knotenregel
+### 2. Maschenregel
 
 
 # Quellen
+[[Reflexionsfaktor]]
