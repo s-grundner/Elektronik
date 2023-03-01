@@ -8,7 +8,7 @@ created: 23rd November 2022
 ---
 
 # Leitungstheorie
-o
+
 
 
 # Quellen

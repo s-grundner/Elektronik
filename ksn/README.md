@@ -32,7 +32,7 @@ created: 23rd November 2022
 
 
 ## Hochfrequenztechnik
-- Leitung
+- [[Leitungstheorie]]
 - Rechteckimpuls auf Leitung
 - Anpassung mit [[Smith-Diagramm]], Shunt, TL
 - [[Antenne|Antennen]], Richtdiagramm
