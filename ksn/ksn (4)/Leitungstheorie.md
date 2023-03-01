@@ -37,9 +37,22 @@ created: 23rd November 2022
 > 2. Maschenregel
 ## Herleitung
 
+# Leitung
+## Allgemein
+$$\gamma = \alpha+ j\beta$$
+
 $$
-Z_{E}= u(z)/
+Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ j\frac{Z_{L}}{Z_{A}}\cdot\tanh(\gamma\cdot l)}{1+ \frac{Z_{A}}{Z_{L}}\cdot\tanh(\gamma\cdot l)}
 $$
 
+## Verlustlos
+$$
+Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ \frac{Z_{L}}{Z_{A}}\cdot\tan(\gamma\cdot l)}{1+ j\frac{Z_{A}}{Z_{L}}\cdot\tan(\gamma\cdot l)}
+$$
+
+# Stehwellenverhältnis
+> [!note] VSWR: Voltage Standing Wave Ratio
+
+$s=VSWR=\frac{|U_{max}|}{|U_{min}|}=\frac{|I_{max}|}{|I_{min}|}$
 # Quellen
 [[Reflexionsfaktor]]
