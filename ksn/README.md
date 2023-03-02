@@ -62,7 +62,7 @@ created: 23rd November 2022
 > $$
 
 $$
-U_{a} = U_{e}\cdot e^{-\alpha}
+U_{a} = U_{e}\cdot e^{-\alpha\cdot l}
 $$
 
 # Tags
