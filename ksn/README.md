@@ -45,7 +45,6 @@ created: 23rd November 2022
 - Auditive Wahrnehmung, Höhrbereich beim Menschen
 - Quell-, Kanalkodierung
 - Fehlererkennende-, Fehlerkorrigierende Codes
-	
 
 ## Netzwerktechnik
 - [[OSI-Modell|Schichtenmodell]]
@@ -53,7 +52,17 @@ created: 23rd November 2022
 - [[VLSM]]
 - [[Kollisionsdomäne|Kollisions-]], [[Broadcastdomäne]]
 - Segmentierung
+# Übungen
 
+> [!example] Lindner Elektroaufgaben Band 3, 2.41
+> $$
+> \begin{align*}\\
+> 
+> \end{align*}
+> $$
 
+$$
+U_{a} = U_{e}\cdot e^{-\alpha}
+$$
 
 # Tags

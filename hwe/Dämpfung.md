@@ -17,4 +17,5 @@ Bezogen auf $1\mu V$
 Bezogen auf $1mW$
 # dBi
 [[Isotroper Kugelstrahler]]
+# Np
 # Quellen
