@@ -35,5 +35,6 @@ Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünn
 ## Übertragungswege von EMV Störungen
 # Kapazitive Kopplung
 
+> [!example] Beispiel
 
 # Tags
