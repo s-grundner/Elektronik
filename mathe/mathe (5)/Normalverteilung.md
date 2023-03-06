@@ -22,7 +22,7 @@ $$
 F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
 
-![[PNG-Bild.png]]
+![[mathe/mathe (5)/assets/PNG-Bild.png]]
 
 
 - Bisher waren [[Wahrscheinlichkeitsverteilung|Wahrscheinlichkeitsverteilungen]] gegeben (z.B. [[Binomialverteilung]]).
