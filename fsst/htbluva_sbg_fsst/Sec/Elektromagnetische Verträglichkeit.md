@@ -19,7 +19,7 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 Der Kopplungsmechanismus ist der physikalische Zusammenhang über den eine von der Störquelle ausgehende Störung auf die Senke einwirkt.
 
 > [!hint] Kopplungsarten
-> 1. kapazitiv
+> 1. [[Kapazitive Kopplung|kapazitiv]]
 > 2. induktiv
 > 3. galvanisch
 > 
@@ -33,8 +33,5 @@ Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtig
 ### Störgröße
 Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünnschte Beeinflussung erzeugt.
 ## Übertragungswege von EMV Störungen
-# Kapazitive Kopplung
-
-> [!example] Beispiel
-
+# Schirmung
 # Tags
