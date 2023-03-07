@@ -34,4 +34,5 @@ Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtig
 Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünnschte Beeinflussung erzeugt.
 ## Übertragungswege von EMV Störungen
 # Schirmung
+Die Koppelkapazität teilt sich auf
 # Tags
