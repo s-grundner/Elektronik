@@ -12,6 +12,11 @@ created: 28th November 2022
 # Magnetische Grundgrößen
 
 magn. Feldstärke: $H=\frac{I}{2\pi r}\qquad[\frac{A}{m}]$
-magn. Flussdichte: 
+magn. Flussdichte: $B=\mu \cdot H\qquad[T],[ \frac{Vs}{m^{2}}]$
+permeablität: $\mu\qquad[\frac{Vs}{Am}]$
+magn. Fluss: $\Phi=B\cdot A\qquad[Vs],[Wb]$
+
+
+
 # Quellen
 #MS-2JG 
