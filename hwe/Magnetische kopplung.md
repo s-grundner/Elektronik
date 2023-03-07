@@ -12,4 +12,4 @@ Bei der magnetischen Kopplung wird die Störgröße über das magnetische Feld i
 
 > [!warning] Ursachen für magnetische beeinflussungen sind, die Magnetfelder stromdurchflossener Leiter, welche bei einer Stromänderung Spannungen in benachbarten Leiterschleifen induzieren.
 # Tags
-[[Magnetisches Feld#magnetische Grundgrößen]]
+[[Magnetisches Feld#Magnetische Grundgrößen]]
