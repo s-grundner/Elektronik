@@ -11,5 +11,8 @@ created: 7th March 2023
 Bei der magnetischen Kopplung wird die Störgröße über das magnetische Feld in den Nutzkreis übertragen.
 
 > [!warning] Ursachen für magnetische beeinflussungen sind, die Magnetfelder stromdurchflossener Leiter, welche bei einer Stromänderung Spannungen in benachbarten Leiterschleifen induzieren.
+
+![[magn_kopplung.png|625]]
+
 # Tags
 [[Magnetisches Feld#Magnetische Grundgrößen]]
