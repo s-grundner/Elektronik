@@ -9,10 +9,15 @@ created: 28th November 2022
 
 # Magnetisches Feld
 > [!info] Ein Magnet feld wird durch einen Strom (gleichmäßig bewegte Ladung) durch einen Leiter erzeugt
+> ![[magn_feld_leiter.png|275]]
 
 > [!hint] Rechtsschraubenregel
+> ![[Rechtsschrauben_regel.png|300]]
 
 > [!hint] Umfassungsregel
+> ![[Umfassungs_regel.png|375]]
+
+
 # Magnetische Grundgrößen
 
 | Größe                            | Formel                                               |         Einheit          |
