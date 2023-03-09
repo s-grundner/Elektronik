@@ -26,9 +26,11 @@ $$
 Die Lastspannung $u_{L}$ erhält durch die magnetischeingekoppelte Störspannung einen Störanteil.
 ## Modellierung 
 Modellierung der induzierten Störspannung erfolg durch eine weitere Spannnungsquelle am Nutzkreis.
+![[magn_koppl_modell.png|700]]
+
 > [!info] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.
 
-> [!summary] Der Störanteil am Verbrauchereingang:
+> [!summary] Der Störanteil am Verbrauchereingang: $$
 > $$
 > \begin{align*}
 > u_{L, stör} &= \frac{R_{L}}{R_{i}+ R_{L}}\cdot u_{stör} = \frac{R_{L}}{R_{i}+ R_{L}} \cdot M\cdot\frac{di_{stör}}{dt} \qquad&&\text{Zeitbereich}\\
