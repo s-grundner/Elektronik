@@ -85,10 +85,14 @@ Verringerung der Gegeninduktivität druch:
 - Vergrößern des Abstandes zwischen der gefährdete und gefährende Masche
 - Enge räumliche Anordung 
 - Verdrillen von Hin- und Rückleiter
-- > [!info] Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
-> Einsatz von Bauelementen mit niedriger Grenzfrequenz
-> Einsatz von Tiefpassfiltern
+- Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
+- Herabsetzen der Flussänderungsgeschwindigkeit 
 
-Herabsetzen der Flussänderungsgeschwindigkeit $\frac{d\Phi}{dt}$
+> [!info] Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
+> - Einsatz von Bauelementen mit niedriger Grenzfrequenz
+> - Einsatz von Tiefpassfiltern
+
+> [!info] Herabsetzen der Flussänderungsgeschwindigkeit 
+> - Ein Kurzschlussring mit ähnlicher magntischer Flussdichte wird zwischen Stör und Nutzkreis 
 # Tags
 [[Magnetisches Feld#Magnetische Grundgrößen]]
