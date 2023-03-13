@@ -74,7 +74,7 @@ $$
 
 $$
 \begin{align*}
-\ddot{u}_{L,stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot \ddot{u}_{stör} = \frac{R_{L}}{R_{i}+R_L}
+\ddot{u}_{L,stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot \ddot{u}_{stör} = \frac{R_{L}}{R_{i}+R_{L}\cdot}M\cdot \frac{di}{dt}
 \end{align*}
 $$
 
