@@ -48,7 +48,26 @@ Die Höhe der induzierten Störspannug hängt ab von:
 Die Gegeninduktivität wird durch die Topologie, bzw durch die Leiterbahn anordnung bestimmt.
 
 ## Gegeninduktivität $M$
-![[gegenindu.png|]]
+![[gegenindu.png|800]]
 
+$$
+\begin{align*}
+M&= \frac{\mu_{0}\cdot l}{2\pi}\cdot\ln\left[1+\left(\frac{a}{d}\right)^{2}\right]
+\end{align*}
+$$
+
+>[!example] Bsp.:
+>$l=1m$
+>$\cfrac{a}{d}=0.1$
+> ges. $M$
+>
+
+$$
+\begin{align*}
+M&= \frac{4\pi\cdot10^{-7}\cdot 1m}{2\pi}\cdot\ln(1.01) = 2\cdot10^{-9}H = 2nH \\
+\\
+u_{L}&=M\cdot \frac{di_{stör}}{dt}=2\cdot 10^{-9}H\cdot \frac{1000A}{10^{-6}s}
+\end{align*}
+$$
 # Tags
 [[Magnetisches Feld#Magnetische Grundgrößen]]
