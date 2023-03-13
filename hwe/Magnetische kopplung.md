@@ -59,15 +59,32 @@ $$
 >[!example] Bsp.:
 >$l=1m$
 >$\cfrac{a}{d}=0.1$
-> ges. $M$
->
+> ges.: $M$
+> $R_{i}<<R_{L}$ (Nutzkreis)
+> $\cfrac{di}{dt}=\frac{1000A}{\mu s}$
+> ges.: $u_{L}$
+> $$
+> \begin{align*}
+> M&= \frac{4\pi\cdot10^{-7}\cdot 1m}{2\pi}\cdot\ln(1.01) = 2\cdot10^{-9}H = 2nH \\
+> u_{L}&=M\cdot \frac{di_{stör}}{dt}=2\cdot 10^{-9}H\cdot \frac{1000A}{10^{-6}s}
+> \end{align*}
+> $$
+
+## Nachweis magnetisch gekoppeter Störungen
 
 $$
 \begin{align*}
-M&= \frac{4\pi\cdot10^{-7}\cdot 1m}{2\pi}\cdot\ln(1.01) = 2\cdot10^{-9}H = 2nH \\
-\\
-u_{L}&=M\cdot \frac{di_{stör}}{dt}=2\cdot 10^{-9}H\cdot \frac{1000A}{10^{-6}s}
+\ddot{u}_{L,stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot \ddot{u}_{stör} = \frac{R_{L}}{R_{i}+R_L}
 \end{align*}
 $$
+
+Zur Diagnose muss der Wechselanteil der Störgröße zu $0$ gemacht werden.
+
+### Abhilfemaßnahmen
+Verringerung der Gegeninduktivität druch:
+- Vergrößern des Abstandes zwischen der gefährdete und gefährende Masche
+- Enge räumliche Anordung 
+- Verdrillen von Hin- und Rückleiter (Differenzielles Paar)
+
 # Tags
 [[Magnetisches Feld#Magnetische Grundgrößen]]
