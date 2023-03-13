@@ -29,16 +29,15 @@ Modellierung der induzierten Störspannung erfolg durch eine weitere Spannnungsq
 ![[magn_koppl_modell.png|700]]
 
 > [!info] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.
+> $u_{stör} = M\cdot \dfrac{di_{stör}}{dt}$
 
-> [!summary] Der Störanteil am Verbrauchereingang: $$
+> [!summary] Der Störanteil am Verbrauchereingang: 
 > $$
 > \begin{align*}
 > u_{L, stör} &= \frac{R_{L}}{R_{i}+ R_{L}}\cdot u_{stör} = \frac{R_{L}}{R_{i}+ R_{L}} \cdot M\cdot\frac{di_{stör}}{dt} \qquad&&\text{Zeitbereich}\\
 > U_{L, stör} &= \frac{R_{L}}{R_{i}+R_{L}}\cdot U_{stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot j\omega M \cdot \underline{I}_{stör}\qquad&&\text{Frequenzbereich}
 > \end{align*}
 > $$
-
-
 
 Die Höhe der induzierten Störspannug hängt ab von:
 1. Der Größe der Gegeninduktivität $M$, zwischen Nutz- und Störkreis
