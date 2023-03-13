@@ -47,5 +47,8 @@ Die Höhe der induzierten Störspannug hängt ab von:
 
 Die Gegeninduktivität wird durch die Topologie, bzw durch die Leiterbahn anordnung bestimmt.
 
+## Gegeninduktivität $M$
+![[gegenindu.png|]]
+
 # Tags
 [[Magnetisches Feld#Magnetische Grundgrößen]]
