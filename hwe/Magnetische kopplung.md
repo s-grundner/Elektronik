@@ -84,7 +84,11 @@ Zur Diagnose muss der Wechselanteil der Störgröße zu $0$ gemacht werden.
 Verringerung der Gegeninduktivität druch:
 - Vergrößern des Abstandes zwischen der gefährdete und gefährende Masche
 - Enge räumliche Anordung 
-- Verdrillen von Hin- und Rückleiter (Differenzielles Paar)
+- Verdrillen von Hin- und Rückleiter
+- > [!info] Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
+> Einsatz von Bauelementen mit niedriger Grenzfrequenz
+> Einsatz von Tiefpassfiltern
 
+Herabsetzen der Flussänderungsgeschwindigkeit $\frac{d\Phi}{dt}$
 # Tags
 [[Magnetisches Feld#Magnetische Grundgrößen]]
