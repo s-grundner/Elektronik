@@ -23,9 +23,9 @@ u_{stör}&=N\cdot \frac{d\Phi}{dt}\\
 u_{stör} &= L\cdot \frac{di}{dt}
 \end{align*}
 $$
-Die Lastspannung $u_{L}$ erhält durch die magnetischeingekoppelte Störspannung einen Störanteil.
+Die Lastspannung $u_{L}$ erhält durch die magnetisch eingekoppelte Störspannung einen Störanteil.
 ## Modellierung 
-Modellierung der induzierten Störspannung erfolg durch eine weitere Spannnungsquelle am Nutzkreis.
+Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsquelle am Nutzkreis.
 ![[magn_koppl_modell.png|700]]
 
 > [!info] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.
