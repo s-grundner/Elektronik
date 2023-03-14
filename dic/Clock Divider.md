@@ -8,7 +8,7 @@ created: 24th January 2023
 ---
 
 # [[../hwe/Oszillatoren/Clock Generierung|Clock]] Divider
-Zweier potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
+Zweier Potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
 
 ## Geradzahlig 
 ![[c-div-2.png]]
