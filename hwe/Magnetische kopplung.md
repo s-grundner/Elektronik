@@ -29,16 +29,15 @@ Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsq
 ![[magn_koppl_modell.png|700]]
 
 > [!info] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.
+> $u_{stör} = M\cdot \dfrac{di_{stör}}{dt}$
 
-> [!summary] Der Störanteil am Verbrauchereingang: $$
+> [!summary] Der Störanteil am Verbrauchereingang: 
 > $$
 > \begin{align*}
 > u_{L, stör} &= \frac{R_{L}}{R_{i}+ R_{L}}\cdot u_{stör} = \frac{R_{L}}{R_{i}+ R_{L}} \cdot M\cdot\frac{di_{stör}}{dt} \qquad&&\text{Zeitbereich}\\
 > U_{L, stör} &= \frac{R_{L}}{R_{i}+R_{L}}\cdot U_{stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot j\omega M \cdot \underline{I}_{stör}\qquad&&\text{Frequenzbereich}
 > \end{align*}
 > $$
-
-
 
 Die Höhe der induzierten Störspannug hängt ab von:
 1. Der Größe der Gegeninduktivität $M$, zwischen Nutz- und Störkreis
@@ -48,5 +47,52 @@ Die Höhe der induzierten Störspannug hängt ab von:
 
 Die Gegeninduktivität wird durch die Topologie, bzw durch die Leiterbahn anordnung bestimmt.
 
+## Gegeninduktivität $M$
+![[gegenindu.png|800]]
+
+$$
+\begin{align*}
+M&= \frac{\mu_{0}\cdot l}{2\pi}\cdot\ln\left[1+\left(\frac{a}{d}\right)^{2}\right]
+\end{align*}
+$$
+
+>[!example] Bsp.:
+>$l=1m$
+>$\cfrac{a}{d}=0.1$
+> ges.: $M$
+> $R_{i}<<R_{L}$ (Nutzkreis)
+> $\cfrac{di}{dt}=\frac{1000A}{\mu s}$
+> ges.: $u_{L}$
+> $$
+> \begin{align*}
+> M&= \frac{4\pi\cdot10^{-7}\cdot 1m}{2\pi}\cdot\ln(1.01) = 2\cdot10^{-9}H = 2nH \\
+> u_{L}&=M\cdot \frac{di_{stör}}{dt}=2\cdot 10^{-9}H\cdot \frac{1000A}{10^{-6}s}
+> \end{align*}
+> $$
+
+## Nachweis magnetisch gekoppeter Störungen
+
+$$
+\begin{align*}
+\ddot{u}_{L,stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot \ddot{u}_{stör} = \frac{R_{L}}{R_{i}+R_{L}\cdot}M\cdot \frac{di}{dt}
+\end{align*}
+$$
+
+Zur Diagnose muss der Wechselanteil der Störgröße zu $0$ gemacht werden.
+
+### Abhilfemaßnahmen
+Verringerung der Gegeninduktivität druch:
+- Vergrößern des Abstandes zwischen der gefährdete und gefährende Masche
+- Enge räumliche Anordung 
+- Verdrillen von Hin- und Rückleiter
+- Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
+- Herabsetzen der Flussänderungsgeschwindigkeit 
+
+> [!info] Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
+> - Einsatz von Bauelementen mit niedriger Grenzfrequenz
+> - Einsatz von Tiefpassfiltern
+
+> [!info] Herabsetzen der Flussänderungsgeschwindigkeit 
+> - Ein Kurzschlussring mit ähnlicher magntischer Flussdichte wird zwischen Stör und Nutzkreis 
 # Tags
 [[Magnetisches Feld#Magnetische Grundgrößen]]
