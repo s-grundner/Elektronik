@@ -27,7 +27,7 @@ created: 23rd November 2022
 - [[Frequenzmodulation]]
 - Huffman-Codierung
 - Kenngrößen der [[{MOC} Informationstheorie|Informationstheorie]]
-- Hammingabstand – Kodewürfel
+- Hamming Abstand – Kodewürfel
 - [[Lichtwellenleiter|LWL]]
 
 
@@ -39,10 +39,10 @@ created: 23rd November 2022
 
 
 ## Consumer Electronics
-- Superhetprinzip
+- Superheterodyn-Prinzip
 - DVB, MPEG, QAM
 - Mehrwegeausbreitung
-- Auditive Wahrnehmung, Höhrbereich beim Menschen
+- Auditive Wahrnehmung, Hörbereich beim Menschen
 - Quell-, Kanalkodierung
 - Fehlererkennende-, Fehlerkorrigierende Codes
 
@@ -53,16 +53,5 @@ created: 23rd November 2022
 - [[Kollisionsdomäne|Kollisions-]], [[Broadcastdomäne]]
 - Segmentierung
 # Übungen
-
-> [!example] Lindner Elektroaufgaben Band 3, 2.41
-> $$
-> \begin{align*}\\
-> 
-> \end{align*}
-> $$
-
-$$
-U_{a} = U_{e}\cdot e^{-\alpha\cdot l}
-$$
-
+> [!example] Lindner Elektroaufgaben Band 3
 # Tags

@@ -12,7 +12,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 
 > [!note] Blockschaltbild eines komplexen Taktsystems
 > ![[komplex-dto.png]]
-> - [[Pierce Gate Oszillator|PGO]]
+> - [[Pierce-Gate Oszillator|PGO]]
 > - [[Phase Locked Loop|PLL]]
 > - [[Discrete Time Oscillator|DTO]]
 > - [[Clock Divider]]

@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: []
+aliases: ["Pierce Gate Oszillator", "PGO"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 reference: []

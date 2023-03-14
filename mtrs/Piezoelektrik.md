@@ -29,8 +29,7 @@ created: 7th June 2022
 ## Piezogeber
 ![[piezo_ions.png|650]]
 
-In diesem Modell zur veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.
-
+In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.
 | Input       | Output |
 | ----------- | ------ |
 | Kraft/Druck | Spannung       |
@@ -41,7 +40,6 @@ In diesem Modell zur veranschaulichung des Piezoelektrischen Effekts werden zwei
 
 ## Piezoresistiver Geber
 Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus Silizium herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.
-
 Es handelt sich dabei um ein **[[Dehnungsmessstreifen|DMS-System]]** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
 
 ![[piezoresistivergeber.png|375]]
@@ -50,6 +48,9 @@ Es handelt sich dabei um ein **[[Dehnungsmessstreifen|DMS-System]]** aus **mehre
  - Es muss Referenzdruck herrschen
 
 ## Piezoelektrischer Effekt
+>[!info] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische Ladungen aus.
+>#
+
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen
 Ladung die zugrunde liegende Deformation zu bestimmen.
 Der Effekt ist nur von der Längenänderung nicht von Geschwindigkeit
@@ -57,11 +58,7 @@ bzw. Beschleunigung der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
 Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.
-Man spricht vom **inversen piezoelektrischen (Lippman) Effekt**.
+Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
----
-# Anwendung
-## Typische Verstärkerschaltung
-![[piezoverstaerker.svg]]
-$R_{g}$ soll möglichst groß sein, weil der Piezo ein Isolator ist.
-# Tags
+# Tags 
+[[Quarzoszillator|Quarz]]

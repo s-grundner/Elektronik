@@ -15,14 +15,14 @@ created: 3rd January 2023
 - Nachschalten eines T-FF zur Taktsymmetrierung.
 
 > [!warning] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):
-> ![[Kippschalter-slew.png]]
+> ![[Kippschalter-slew.png|500]]
 
-# [[Schmitttrigger]] Kippschaltung
+# [[Schmitt Trigger]] Kippschaltung
 Die Frequenz wird von durch folgende Parameter beeinflusst:
 - RC-Glied im Rückkoppelbereich ($\uptau$);
-- Schaltschwellen (Threshhold) des Schmitttriggers ($U_{T}^{+} / U_{T}^{-}$)
+- Schaltschwellen (Threshhold) des Schmitt Triggers ($U_{T}^{+} / U_{T}^{-}$)
 
-Die [[Schmitttrigger]] Kippschaltungen ist eine Astabile Kippstufe
+Die [[Schmitt Trigger]] Kippschaltungen ist eine Astabile Kippstufe
 
 > [!hint] Schaltung
 > ![[ST-Kippschalter.png|300]]
@@ -57,12 +57,13 @@ Die [[Schmitttrigger]] Kippschaltungen ist eine Astabile Kippstufe
 ![[herl_T.png]]
  > [!summary] $$T = \uptau\ln\left(\frac{U_T^+}{U_T^-}\cdot\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
 
-## Dimensionierung "Invertierenden [[Schmitttrigger]]" als Taktgenerator
+## Dimensionierung "Invertierenden [[Schmitt Trigger]]" als Taktgenerator
 $$
 \begin{align*}
-&U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz\\
-&U_{a,max}=15V=U_{B}^{+} && U_{T}^{+}=3V\\
+&U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz&&|&&\text{gesucht}\\
+&U_{a,max}=15V=U_{B}^{+} && U_{T}^{+}=3V && T=10^{-3}s&&|&&\underbrace{R_{1}, R_{2}}_{U_{V}} , R_{3}, R_{4}\\
+\\
 \end{align*}
 $$
-
+![[invST-calc1.png]]
 # Tags

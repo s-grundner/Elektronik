@@ -8,6 +8,15 @@ created: 17th January 2023
 ---
 
 # Quarzoszillator
+> [!info] Schwingquarze beruhen auf dem Prinzip des [[Piezoelektrik#Piezoelektrischer Effekt|Piezoelektrischen Effekts]]
+> Der Quarz ist daher ein Mechanisches Bauelement 
 
+## Symbol
+
+> [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens
+> 
+
+## Ableitung der Resonanzfrequenz
+## Bauteileigenschaften
 
 # Tags

@@ -7,8 +7,9 @@ reference: []
 created: 10th January 2023
 ---
 
-# Schmitttrigger
+# Schmitt Trigger
 
-
+# Invertierender Schmitt Trigger
+![[invST-calc2.png]]
 # Tags
 [[Kippschaltungen]]
