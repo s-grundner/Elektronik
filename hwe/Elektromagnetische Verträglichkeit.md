@@ -7,10 +7,9 @@ reference: []
 created: 21st February 2023
 ---
 
-	# Elektromagnetische Verträglichkeit
+# Elektromagnetische Verträglichkeits
 Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes oder Systems in seiner elektromagnetischen Umgebung zufriedenstellend zu funktionieren ohne selbst unzulässige Strörungen in diese Umgebung einzubringen.
 ![[EMV-einfluesss.png]]
-
 > [!info] EMV ist eine horizontale Disziplin
 > ![[EMV-horiz.png|600]]
 

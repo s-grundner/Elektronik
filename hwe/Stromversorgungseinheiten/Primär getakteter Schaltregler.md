@@ -34,8 +34,8 @@ created: 2nd October 2022
 ### Layout
 - Hohe Frequenzen
 - Hohe Ströme
-- EMV gerechter Aufbau
-- EMV Filter
+- [[Elektromagnetische Verträglichkeit|EMV]] gerechter Aufbau
+- [[Elektromagnetische Verträglichkeit|EMV]] Filter
 - kurze Leitungsführung
 
 # Typen

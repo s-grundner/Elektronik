@@ -22,7 +22,7 @@ Auch SMPS (Switched Mode Power Supply)
 	- hohe Wirtschaftlichkeit (Herstellung und Betrieb)
 ### Nachteile
 - Aufwändige Schaltung
-- [EMV](https://de.wikipedia.org/wiki/Elektromagnetische_Vertr%C3%A4glichkeit)-Störungen
+- [[Elektromagnetische Verträglichkeit|EMV]]-Störungen
 - Restwelligkeit
 ## Einteilung der SMPSs
 Prinzipiell unterscheidet man zwischen:

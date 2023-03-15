@@ -102,7 +102,7 @@ Zu Beachten:
 | Groß     | Kondensator       | Spule                  | Frequenz                |
 | -------- | ----------------- | ---------------------- | ----------------------- |
 | Vorteil  | Stärkere Glättung | kleines $\Delta I_{L}$ | Spule kann kleiner sein |
-| Nachteil |                   | großes Package         | größeres EMV            |
+| Nachteil |                   | großes Package         | größere [[Elektromagnetische Verträglichkeit\|EMV]]            |
 
 ### Mindest Spulenwert
 >![[Lückgrenze.svg]]
