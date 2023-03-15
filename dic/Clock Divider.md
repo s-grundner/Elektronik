@@ -15,6 +15,6 @@ Zweier Potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
 1. [[Clock Tree Balancing|Clock-Tree-Balancing]] (Kompensierung der Phasenverschiebung)
 
 ## Ungeradzahlig
-![[c-div3.png|725]]
+![[c-div3.png|1150]]
 >[!warning] Unsymmetrscher Takt $(DC\neq 50\%)$
 # Tags

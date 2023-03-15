@@ -16,7 +16,7 @@ Ein Ringoszillator besteht aus einer in Reihe geschalteten Kette von Invertern. 
 
 >[!summary] Oscillation frequency: $f_{osz} = \dfrac{1}{2\cdot M\cdot T_{d}}$
 > - $M$ ... Anzahl der Inverter stufen.
-> - $T_{d}$ ... Delay Time eines einzelnen Inverters
+> - $T_{d}$ ... Delay Time eines einzelnen Inverters (Propagation Delay)
 
 Die delay time einer einzelnen Inverter Stufe, lässt sich auf kapazitive/resistive weise und durch beeinflussen des Querstromes beim Schaltvorgang des Gatters beeinflussen. 
 
