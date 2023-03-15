@@ -16,7 +16,7 @@ created: 17th January 2023
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens
 > 
 
-## Ableitung der Resonanzfrequenz
+## [[Differenzialrechnung|Ableitung]] der Resonanzfrequenz
 ## Bauteileigenschaften
 
 # Tags

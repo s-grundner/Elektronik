@@ -49,7 +49,7 @@ Es handelt sich dabei um ein **[[Dehnungsmessstreifen|DMS-System]]** aus **mehre
 
 ## Piezoelektrischer Effekt
 >[!info] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische Ladungen aus.
->#
+
 
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen
 Ladung die zugrunde liegende Deformation zu bestimmen.
