@@ -31,8 +31,24 @@ Ist das Objekt von dem die Störung ausgeht.
 Grundsätzlich kann zwischen externen und internen Störquellen unterschieden werden.
 ##### Externe Störquellen: 
 Man untersheidet wiederum;
-- Natürliche Störquellen Atmospherische Entladungen (Blitz)
-- Elektrostatische Entladungen (z.B. Reibungselektrizität) bei Kunststoffbeschichteten Stühlen & Tischen bei Bekleidung und Böden aus synthetischen Stoffen bei nicht geerdeten Werkzeugen Künstliche Störquellen Vorhergesehene und unvorhergesehene elektromagnetische vorgänge. In der Energieerzeugung und Verteilung → elektrische Schaltvorgänge. Schaltnetzteile, Leuchtstoffröhren Zündsysteme von Motoren Fernseh / Radiosender, Mobilfunk Schweißanlagen Interne Störquellen: Lade- & Entladevorgänge von L,C Takterzeugung und Verteilung Signalwechsel auf Leitungen Schaltvorgänge von [[{MOC} Transistor|Transistoren]] usw
+###### Natürliche Störquellen
+- Atmospherische Entladungen (Blitz)
+- Elektrostatische Entladungen (z.B. Reibungselektrizität)
+	- bei Kunststoffbeschichteten Stühlen & Tischen
+	- bei Bekleidung und Böden aus synthetischen Stoffen
+	- bei nicht geerdeten Werkzeugen
+###### Künstliche Störquellen
+- Vorhergesehene und unvorhergesehene elektromagnetische vorgänge.
+- In der Energieerzeugung und Verteilung → elektrische Schaltvorgänge
+- Schaltnetzteile, Leuchtstoffröhren
+- Zündsysteme von Motoren
+- Fernseh / Radiosender, Mobilfunk
+
+##### Interne Störquellen:
+- Lade- & Entladevorgänge von L,C
+- Takterzeugung und Verteilung
+- Signalwechsel auf Leitungen
+- Schaltvorgänge von [[{MOC} Transistor|Transistoren]]
 ### Störsenke
 Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtigt werden kann.
 
@@ -40,5 +56,14 @@ Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtig
 Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünnschte Beeinflussung erzeugt.
 ## Übertragungswege von EMV Störungen
 # Schirmung
-Die Koppelkapazität teilt sich auf
+>[!info] Die Koppelkapazität teilt sich auf:
+>Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die Kapazität $C_{S2}$ zwischen Schrim und Nutzkreis.
+>Bei gleicher Amplitude und $\frac{d}{dt}$ der Störquelle verringert sich damit die eingekoppelte Störspannung.
+>![[Pasted image 20230316091847.png]]
+
+> [!important] ESB
+> ![[Pasted image 20230316091915.png|500]]
+
+Der Schirm muss jeweils aus gut leitendem Material bestehen, damit der über ihn abfliessende Strom keinen nennenswerten Spannungsabfall über der Schirmimpedanz erzeugt.
 # Tags
+![[Pasted image 20230316092131.png|700]]
