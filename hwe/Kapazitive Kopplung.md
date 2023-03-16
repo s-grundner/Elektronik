@@ -15,11 +15,20 @@ Kapazitäten zwischen Leitern die zu verschiedenen Stromkreisen gehören.
 ![[Pasted image 20230316093012.png|600]]
 $$
 \begin{align*}
-u_{L}&= u_{SIG}\cdot \frac{R_{L}}{R_{L}+ R_{i}} + i_{stör}\cdot \frac{R_{i}\cdot R_{L}}{R_{i}+R_{L}}
+u_{L}&= u_{SIG}\cdot \frac{R_{L}}{R_{L}+ R_{i}} + i_{\text{stör}}\cdot \frac{R_{i}\cdot R_{L}}{R_{i}+R_{L}}\\
+u_{L}&= u_{SIG}\cdot \frac{R_{L}}{R_{L}+ R_{i}} + i_{\text{stör}}\cdot \frac{R_{i}\cdot R_{L}}{R_{i}+R_{L}}\\
 \end{align*}
 $$
 Für den (allgemeinen) Fall, dass die [[Impedanz]] der Koppelkapazität sehr viel
-größer ist als die [[Impedanz]] des Nutzkreises folgt: $\dfrac{1}{j\omega C_{K}}\gg(R_{i}||R_{L})$ gilt 
+größer ist als die [[Impedanz]] des Nutzkreises folgt:
+
+$$
+\begin{align*}
+\text{für }\dfrac{1}{j\omega C_{K}}&\gg(R_{i}||R_{L})\text{ gilt}\\
+i_{\text{stör}}&\approx C\cdot \frac{du_{\text{stör}}}{dt}\\
+
+\end{align*}
+$$
 # Schirmung
 >[!info] Die Koppelkapazität teilt sich auf:
 >Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die Kapazität $C_{S2}$ zwischen Schrim und Nutzkreis.
