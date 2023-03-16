@@ -13,10 +13,14 @@ created: 17th January 2023
 
 ## Symbol
 
+![[quarz.png|600]]
+
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens
-> 
+> ![[elek_esb_quarz.png]]
 
 ## [[Differenzialrechnung|Ableitung]] der Resonanzfrequenz
+![[quarz_mechschwing.png|400]]
+
 ## Bauteileigenschaften
 
 # Tags
