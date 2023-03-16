@@ -9,5 +9,7 @@ created: 1st February 2023
 
 # Pierce-Gate Oszillator
 
+
+
 # Tags
 [[Quarzoszillator]]
