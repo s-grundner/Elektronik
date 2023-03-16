@@ -19,7 +19,7 @@ u_{L}&= u_{SIG}\cdot \frac{R_{L}}{R_{L}+ R_{i}} + i_{stör}\cdot \frac{R_{i}\cdo
 \end{align*}
 $$
 Für den (allgemeinen) Fall, dass die [[Impedanz]] der Koppelkapazität sehr viel
-größer ist als die [[Impedanz]] des Nutzkreises folgt:
+größer ist als die [[Impedanz]] des Nutzkreises folgt: $\dfrac{1}{j\omega C_{K}}\gg(R_{i}||R_{L})$ gilt 
 # Schirmung
 >[!info] Die Koppelkapazität teilt sich auf:
 >Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die Kapazität $C_{S2}$ zwischen Schrim und Nutzkreis.
