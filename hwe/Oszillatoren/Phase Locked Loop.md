@@ -40,6 +40,7 @@ Je größer die Phasenabweichung, desto höher das "PWM" am Ausgang des XOR Gatt
 ## Phase Frequency Detector (PFD)
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector.
 ![[PFD.png]]
+siehe: [[MT-086.pdf]]
 # Loop Filter
 Das rechteck-förmige Ausgangssignal des PD besteht aus einer Vielzahl von Frequenzen.
 Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert.

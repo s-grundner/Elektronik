@@ -27,7 +27,12 @@ Der Kopplungsmechanismus ist der physikalische Zusammenhang über den eine von d
 
 ### Störquelle
 Ist das Objekt von dem die Störung ausgeht.
-
+#### Art der Störquellen
+Grundsätzlich kann zwischen externen und internen Störquellen unterschieden werden.
+##### Externe Störquellen: 
+Man untersheidet wiederum;
+- Natürliche Störquellen Atmospherische Entladungen (Blitz)
+- Elektrostatische Entladungen (z.B. Reibungselektrizität) bei Kunststoffbeschichteten Stühlen & Tischen bei Bekleidung und Böden aus synthetischen Stoffen bei nicht geerdeten Werkzeugen Künstliche Störquellen Vorhergesehene und unvorhergesehene elektromagnetische vorgänge. In der Energieerzeugung und Verteilung → elektrische Schaltvorgänge. Schaltnetzteile, Leuchtstoffröhren Zündsysteme von Motoren Fernseh / Radiosender, Mobilfunk Schweißanlagen Interne Störquellen: Lade- & Entladevorgänge von L,C Takterzeugung und Verteilung Signalwechsel auf Leitungen Schaltvorgänge von [[{MOC} Transistor|Transistoren]] usw
 ### Störsenke
 Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtigt werden kann.
 
