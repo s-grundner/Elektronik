@@ -25,11 +25,12 @@ $$
 
 > [!summary] 
 > $$
-\begin{align*}
-u_{L}&= u_{SIG}\cdot \frac{R_{L}}{R_{L}+ R_{i}} + i_{\text{stör}}\cdot \frac{R_{i}\cdot R_{L}}{R_{i}+R_{L}}\\
-u_{L}&= \frac{R_{L}}{R_{L}+ R_{i}}\cdot (u_{SIG}+ i_{\text{stör}}\cdot R_{i})\\
-\end{align*}
-$$
+> \begin{align*}
+> u_{L}&= u_{SIG}\cdot \frac{R_{L}}{R_{L}+ R_{i}} + i_{\text{stör}}\cdot \frac{R_{i}\cdot R_{L}}{R_{i}+R_{L}}\\
+> u_{L}&= \frac{R_{L}}{R_{L}+ R_{i}}\cdot (u_{SIG}+ i_{\text{stör}}\cdot R_{i})\\
+> \end{align*}
+> $$
+
 # Schirmung
 >[!info] Die Koppelkapazität teilt sich auf:
 >Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die Kapazität $C_{S2}$ zwischen Schrim und Nutzkreis.
