@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"79dd8365cd20ac72","x":-185,"y":-200,"width":225,"height":50,"type":"text","text":"# Anti-Gun"},
+		{"id":"3aa3d57b0f076735","x":-405,"y":-120,"width":665,"height":500,"type":"text","text":"# Activist\n## Hunting\n- Hunting for sport is not ok\n\t- hunting grounds yield more animal corpses than the hunters could sell or Consume\n\t- a lot of meat gets wasted\n- hunting should be left for authorities\n\t- Sustainability\n\t- there are farms for lifestock, we dont need additional hunting grounds"}
+	],
+	"edges":[]
+}
