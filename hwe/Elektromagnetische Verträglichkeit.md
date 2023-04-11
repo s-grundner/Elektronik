@@ -64,10 +64,17 @@ Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünn
 Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 
 
-Da die Impedanz eines Kondensators bis zur Resonanzfrequenz sinkt, können HF-Störungen auf Versorgungsleitungen mit Gleichsignalen oder NF-Signalen durch einen Parallelgeschalteten Kondensator (Kurzschluss-geblockt) werden.
+Da die [[Impedanz]] eines Kondensators bis zur Resonanzfrequenz sinkt, können HF-Störungen auf Versorgungsleitungen mit Gleichsignalen oder NF-Signalen durch einen Parallelgeschalteten Kondensator (Kurzschluss-geblockt) werden.
 
 
 Für das NF-Signal: Kapazität ist ein Leerlauf
 Für die HF-Störung: Kapazität ist ein Kurzschluss
+
+- Die HF Störung kann nicht in die Schaltungsteil eindringen bzw diesen verlassen.
+- Störungen werden reflektiert, nicht absorbiert
+	- [[Reflexionsfaktor]] im Kurzschluss: $r_{KS}=-1$
+	- ggf. gibt es Probleme mit Resonanzen innerhalb der Schaltung
+- Versorgungsleitungen kurz halten (siehe 4-Pol Kondensator [a])
+- 3-Leiter Anordung mit 3 Kondensatoren zum KS gleich und gegentaktsignalen [b])
 # Tags
 ![[Pasted image 20230316092131.png|700]]
