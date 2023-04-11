@@ -59,8 +59,15 @@ Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünn
 # Komponenten und Konzepte zur Verbesserung
 > [!info] Von Leistungselektroink bis Mikroelektronik gibt es eine große breite, und in der technischen Umsetzung sehr unterschiedliche, Maßnahmen.
 
-![[cap]]
+
+
 Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 
+
+Da die Impedanz eines Kondensators bis zur Resonanzfrequenz sinkt, können HF-Störungen auf Versorgungsleitungen mit Gleichsignalen oder NF-Signalen durch einen Parallelgeschalteten Kondensator (Kurzschluss-geblockt) werden.
+
+
+Für das NF-Signal: Kapazität ist ein Leerlauf
+Für die HF-Störung: Kapazität ist ein Kurzschluss
 # Tags
 ![[Pasted image 20230316092131.png|700]]
