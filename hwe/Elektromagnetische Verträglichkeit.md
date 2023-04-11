@@ -11,8 +11,8 @@ created: 21st February 2023
 Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes oder Systems in seiner elektromagnetischen Umgebung zufriedenstellend zu funktionieren ohne selbst unzulässige Strörungen in diese Umgebung einzubringen.
 ![[EMV-einfluesss.png]]
 > [!info] EMV ist eine horizontale Disziplin
+> ... die sich durch alle bereiche der Elektrotechnik zieht.
 > ![[EMV-horiz.png|600]]
-
 ## Grundlagen und Begriffe
 
 Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werden.
@@ -55,5 +55,8 @@ Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtig
 
 ### Störgröße
 Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünnschte Beeinflussung erzeugt.
+
+# Komponenten und Konzepte zur Verbesserung
+
 # Tags
 ![[Pasted image 20230316092131.png|700]]
