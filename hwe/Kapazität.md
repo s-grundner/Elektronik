@@ -10,6 +10,6 @@ created: 11th April 2023
 # Kapazität
 ## idealer Kondensator
 $$
-jX_{C}=\frac{1}{j\omega C}\qquad
+jX_{C}=\frac{1}{j\omega C}\qquad Z\approx \frac{1}{f}
 $$
 # Tags
