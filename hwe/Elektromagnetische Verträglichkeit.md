@@ -63,6 +63,7 @@ Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünn
 
 Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 
+## Abblockkondensator
 
 Da die [[Impedanz]] eines Kondensators bis zur Resonanzfrequenz sinkt, können HF-Störungen auf Versorgungsleitungen mit Gleichsignalen oder NF-Signalen durch einen Parallelgeschalteten Kondensator (Kurzschluss-geblockt) werden.
 
