@@ -8,7 +8,7 @@ created: 11th April 2023
 ---
 
 # Kapazität
-## idealer Kondensator
+## Idealer Kondensator
 $$
 jX_{C}=\frac{1}{j\omega C}\qquad Z\approx \frac{1}{f}
 $$
@@ -25,7 +25,9 @@ $$
 f_{0} &= \frac{1}{2\pi}\cdot \frac{1}{\sqrt{LC}}
 \end{align*}
 $$
-> ![Info] Wertebereich von der Bauform abhängig
+> [!info] Wertebereich von der Bauform abhängig
 > $C\approx1nF$
-> $L\approx1\muH$ 
+> $L\approx1\mu H$
+> $R_{ESR}\approx0.1\Omega$
+
 # Tags
