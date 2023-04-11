@@ -28,7 +28,7 @@ $$
 - $I_{1}=0$
 - Die Spannung am Transformator (Speichertransformator) polen sich um.
 - Die Diode wird Leitend
-- Sekundärwickling gint die Energie an den Kondensator weiter
+- Sekundärwickling gint die Energie an den [[Kapazität|Kondensator]] weiter
 
 ---
 # Quellen

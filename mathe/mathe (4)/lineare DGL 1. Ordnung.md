@@ -50,7 +50,7 @@ $$
 	y(x)=c\cdot e^{-\int p(x)dx}
 \end{align*}
 $$
-> Bsp.: Kondensator entladen
+> Bsp.: [[Kapazität|Kondensator]] entladen
 > ![[c_disch.png|200]]
 ### Lösung der *inhomogenen*  [[{MOC} DGL|DGL]] 1. Ordnung
 Die allgemeine Lösung $y$ einer inhomogenen linearen [[{MOC} DGL|DGL]] 1. Ordnung ([[{MOC} DGL|oder auch einer höheren Ordnung]]) ist als Summe der allgemeinen Lösung $y_{h}$ der **dazugehörigen homogenen [[{MOC} DGL|DGL]]** und einer *beliebigen* **partikulären Lösung $y_{p}$** der **inhomogenen [[{MOC} DGL|DGL]] **darstellbar:

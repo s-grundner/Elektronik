@@ -15,7 +15,7 @@ $$
 U_{a}\approx U_{e} \cdot \frac{1}{1-DC}
 $$
 Während der Einschaltphase des [[{MOC} Transistor|Transistors]] $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.
-Schaltet der [[{MOC} Transistor|Transistor]] $(T)$ ab, so fließt der Strom $I_{L}$ über die Diode (D) weiter und lädt den Kondensator $C_{a}$.
+Schaltet der [[{MOC} Transistor|Transistor]] $(T)$ ab, so fließt der Strom $I_{L}$ über die Diode (D) weiter und lädt den [[Kapazität|Kondensator]] $C_{a}$.
 
 ## Impuls-Zeit Diagramm
 > ![[boost_converter_IZdiag.svg|425]]
@@ -25,13 +25,13 @@ Schaltet der [[{MOC} Transistor|Transistor]] $(T)$ ab, so fließt der Strom $I_{
 Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [[Induktivitäten|Spule]].
  - Dabei *speichert die [[Induktivitäten|Spule]] Energie*.
  - Die Diode sperrt in dieser Zeit.
- - Der Kondensator $C_{A}$ liefert den Strom für den Verbraucher.
+ - Der [[Kapazität|Kondensator]] $C_{A}$ liefert den Strom für den Verbraucher.
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 Nach dem öffnen von $S$ $(T)$ treibt die [[Induktivitäten|Spule]], aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, Diode.
 
-Ein Teil der in der [[Induktivitäten|Spule]] gespeicherten Energie, wird in der Sperrphase auf den Kondensator übertragen.
-$\rightarrow$ **[[Sperrwandler]]**, Da die [[Induktivitäten|Spule]] dem Kondensator nur in dieser Phase Strom liefert.
+Ein Teil der in der [[Induktivitäten|Spule]] gespeicherten Energie, wird in der Sperrphase auf den [[Kapazität|Kondensator]] übertragen.
+$\rightarrow$ **[[Sperrwandler]]**, Da die [[Induktivitäten|Spule]] dem [[Kapazität|Kondensator]] nur in dieser Phase Strom liefert.
 
 ### Herleitung der Dimensionierung
 #### $0<t<t_{1}$: $S_{geschlossen}$
@@ -72,7 +72,7 @@ Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 
 >![[Pasted image 20221001154620.png]]
 
-## Kapazität
+## [[Kapazität]]
 >![[BuckBoostDisconID.png]]
 > <mark style="background: #FF5582A6;">$I_{a,min}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
 

@@ -18,10 +18,10 @@ Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle)
 ## Schaltstufe S
 
 ### $0<t<t_{1}$: $S_{geschlossen}$
-Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [[Induktivitäten|Spule]] $L$ und versorgt den Lastwiderstand und den Kondensator $C_{L}$. Dabei speichert auch die [[Induktivitäten|Spule]] $L$ Energie
+Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [[Induktivitäten|Spule]] $L$ und versorgt den Lastwiderstand und den [[Kapazität|Kondensator]] $C_{L}$. Dabei speichert auch die [[Induktivitäten|Spule]] $L$ Energie
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
-Die in der [[Induktivitäten|Spule]] gespeicherten Energie liefert weiter Strom an den Kondensator  und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [[Induktivitäten|Spule]], den Kondensator und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
+Die in der [[Induktivitäten|Spule]] gespeicherten Energie liefert weiter Strom an den [[Kapazität|Kondensator]]  und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [[Induktivitäten|Spule]], den [[Kapazität|Kondensator]] und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
 
 ### Herleitung der Dimensionierung
 Annahme: $U_{a}$ ist konstant über $T_{S}$
@@ -67,7 +67,7 @@ $$
 L_{\min} = \frac{(U_{a}-U_{e})\cdot t_{1}}{\Delta I_{L}}
 $$
 Es ist zu beachten, dass $I_{L}(t)$ in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, das heißt auf $0$ sinkt. Delta $I_{L}$ ist daher mit $0,2 - 0,4$ fachen von $\overline{I_{a}}$ als Richtwert anzunehmen.
-## Kapazität
+## [[Kapazität]]
 $$
 \begin{align*}
 \Delta Q &= \Delta I\cdot t &&= \frac{\Delta I_{L}}{2}\cdot\frac{t_{1}}{2}\cdot \frac{1}{2} + \frac{\Delta I_{L}}{2} \cdot \frac{T_{S}-t_{1}}{2}\cdot \frac{1}{2}
@@ -99,7 +99,7 @@ Zu Beachten:
 - Bauteilplatzierung Wichtig
 - Layout Guideline beachten (im Datasheet)
 
-| Groß     | Kondensator       | Spule                  | Frequenz                |
+| Groß     | [[Kapazität\|Kondensator]]       | Spule                  | Frequenz                |
 | -------- | ----------------- | ---------------------- | ----------------------- |
 | Vorteil  | Stärkere Glättung | kleines $\Delta I_{L}$ | Spule kann kleiner sein |
 | Nachteil |                   | großes Package         | größere [[Elektromagnetische Verträglichkeit\|EMV]]            |
