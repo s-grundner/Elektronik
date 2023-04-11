@@ -57,6 +57,10 @@ Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtig
 Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünnschte Beeinflussung erzeugt.
 
 # Komponenten und Konzepte zur Verbesserung
+> [!info] Von Leistungselektroink bis Mikroelektronik gibt es eine große breite, und in der technischen Umsetzung sehr unterschiedliche, Maßnahmen.
+
+![[cap]]
+Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 
 # Tags
 ![[Pasted image 20230316092131.png|700]]
