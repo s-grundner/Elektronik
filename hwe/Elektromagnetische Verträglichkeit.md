@@ -61,11 +61,12 @@ Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünn
 > ![[EMV-horiz2.png]]
 > Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 
-![[EMV_impedanz.png|700]]
+> [!info] Resonanzverlauf
+> ![[EMV_impedanz.png|700]]
 
 ## Abblockkondensator
 Da die [[Impedanz]] eines Kondensators bis zur Resonanzfrequenz sinkt, können HF-Störungen auf Versorgungsleitungen mit Gleichsignalen oder NF-Signalen durch einen Parallelgeschalteten [[Kapazität|Kondensator]] (Kurzschluss-geblockt) werden.
-
+![[AbblockCap.png|400]]
 Für das NF-Signal: [[Kapazität]] ist ein Leerlauf
 Für die HF-Störung: [[Kapazität]] ist ein Kurzschluss
 
