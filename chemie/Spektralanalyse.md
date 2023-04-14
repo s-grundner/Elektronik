@@ -29,14 +29,14 @@ Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **E
 ## Spektrum des Sonnenlichts
 ### Prismen-Spektroskop
 ![[Pasted image 20220825152529.png|325]]
->![[Pasted image 20220825152325.png|300]]
+>![[fraunhofer_linien.png|300]]
 > Fraunhofer untersuchte das Sonnenlicht mit einem Prismen-Spektroskop.
 > Der Physiker beobachtete im Jahr 1814 dunkle Linien im Spektrum des Sonnenlichts. Fraunhofer katalogisierte 570 Fraunhofer-Linien.
 > Allerdings konnte er das Phänomen noch nicht erklären.
 
 ### Spektroskop nach Kirchhoff und Bunsen
-![[Pasted image 20220825152620.png|425]]
-![[Spektroskop.png]]
+![[chemie/assets/Spektroskop.png|425]]
+![[-assets/Spektroskop.png]]
 **Funktionsweise:**
 - Das Licht fällt durch einen Spalt in das **Spaltrohr** über eine Linse auf ein Prisma. Der Durchmesser des Spalts kann variiert werden.
 - Am Prisma werden die Wellenanteile des Lichts unterschiedlich gebrochen.
@@ -44,7 +44,7 @@ Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **E
 - Das Skalenrohr projiziert eine Skala in den **Strahlengang**, mit der die Wellenlängen ablesbar sind.
 
 ### Zusammenhang mit den chemischen Elementen
-![[Pasted image 20220825153203.png]]
+![[alkali_flammen.png]]
 Kirchhoff und Bunsen beobachteten, dass bestimmte chemische Elemente die Gasflammen eines Gasbrenners färben.
 Sie konnten nachweisen, dass die von Fraunhofer beschriebenen schwarzen D-Linien im Sonnenspektrum bei etwa 589 Nanometer mit der von Natriumsalzen in der Flamme emittierten gelben Linie übereinstimmt.
 Die beiden Chemiker entwickelten 1859 das erste spektralanalytische Verfahren.
@@ -54,7 +54,7 @@ Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente <m
 
 ## Absorption und Emission
 ![[EmissionAbsorbtion.png|500]]
-![[Pasted image 20220825153500.png|475]]
+![[absorbtion_emission.png|475]]
 1. Wird einem Atom **Energie zugeführt** (Flamme, Lichtbogen), können Elektronen auf **höhere Energieniveaus** gehoben werden.
 2. Es entsteht ein angeregter Zustand. Er ist nur **kurz** beständig, danach fällt das Elektron wieder in den **Grundzustand** zurück.
 3. Dabei wird die **Energie**, die bei der Anregung **aufgenommen** (absorbiert) wurde, **in Form von Licht abgegeben** (emittiert).

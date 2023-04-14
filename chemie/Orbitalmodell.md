@@ -60,7 +60,7 @@ Es gibt 7 Stk.
 ![[Pasted image 20220904112819.png]]
 ### Schreibweise der Elektronen Konfiguration
 Bsp.:
-![[Pasted image 20220822140830.png]]
+![[Ne.png]]
 $1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$
 >![[Ne-conf.png|150]]
 <mark style="background: #ADCCFFA6;">Anzahl der $e^{-}$ </mark> 

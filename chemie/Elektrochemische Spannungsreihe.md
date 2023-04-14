@@ -9,7 +9,7 @@ created: 12th September 2022
 
 # Elektrochemische Spannungsreihe
 Ordnet man [[Oxidation und Reduktion|Redoxpaare]] (z.B.: $Zn_{(RED)}|Zn^{2+}_{(OX)}$) nach ihren Standardpotentialen E° beginnend mit der niedrigsten, so erhält man die Spannungsreihe
-![[Pasted image 20220821083045.png|800]]
+![[redoxpaare.png|800]]
 
 ## Was lässt sich aus Tabelle ableiten? 
 -  Ob [[Metallbindung|Metall]] edel oder unedel ist  **(Auflösung in Salzlösung)** 
