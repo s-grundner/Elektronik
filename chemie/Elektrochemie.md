@@ -7,7 +7,8 @@ reference: []
 created: 21st August 2022
 ---
 # Elektrochemie
->**LUIGI GALVANI (1750)**
+
+> [!info] **LUIGI GALVANI (1750)**
 >**ALESSANDRO VOLTA (1800)**
 >Bei Kontakt unterschiedlicher Metalle mit einer Elektrolytlösung entsteht elektrische Spannung.
 >Elektrolyte (oder elektrische Leiter 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten
