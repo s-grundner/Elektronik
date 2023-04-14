@@ -8,10 +8,14 @@ created: 24th March 2022
 ---
 
 # Grundlagen
+
+# Transistor als Transistor als Schalter
+![[pnp-schalter.png]]
+
 # Transistorschaltungen
 - [[Emitterfolger]]
 - [[Kollektorfolger]]
-- Längstransistor
+- [[Spannungsstabilisierung#Längstransistor mit Dioden Zener Diode Zener Diode|Längstransistor]] Stabilisierung
 
 ---
 # Tags
