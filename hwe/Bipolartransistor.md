@@ -9,9 +9,11 @@ created: 24th March 2022
 
 # Grundlagen
 
-# Transistor als Transistor als Schalter
-![[pnp-schalter.png]]
-
+# [[{MOC} Transistor|Transistor]] als Schalter
+## NPN
+![[npn-schalter.png|330]]
+## PNP
+![[pnp-schalter.png|300]]
 # Transistorschaltungen
 - [[Emitterfolger]]
 - [[Kollektorfolger]]
