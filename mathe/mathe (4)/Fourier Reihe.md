@@ -9,7 +9,7 @@ last_edited: 11th April 2022
 ---
 
 # Fourier Reihe
-Jede periodische Funktion kann aus einer Summe von Sinus- und/oder Cosinusschwingungen zusammengesetzt werden.
+Jede periodische Funktion kann aus einer Summe von Sinus- und/oder Cosinus Schwingungen zusammengesetzt werden.
 
 ![[Fourreihe_zerlegung.png|400]]
 
