@@ -17,8 +17,8 @@ Gilt als absolute Obergrenze für die Leistungsfähigkeit eines Nachrichtenkanal
 
 | Bezeichnung    | Formel                                                      | Einheit     |
 | -------------- | ----------------------------------------------------------- | ----------- |
-| Kanalkapazität | $C=\Delta f\cdot ld\left(1\cdot \frac{P_{s}}{P_{n}}\right)$ | $[C] = \frac{bit}{s}$            | 
-| Kanaldynamik   | $D=ld\left(1\cdot \frac{P_{s}}{P_{n}} \right)$              | $[D] = bit$ |
+| Kanalkapazität | $C=\Delta f\cdot ld\left(1+ \frac{P_{s}}{P_{n}}\right)$ | $[C] = \frac{bit}{s}$            | 
+| Kanaldynamik   | $D=ld\left(1+ \frac{P_{s}}{P_{n}} \right)$              | $[D] = bit$ |
 
 | Komponente | Bezeichnung    |
 | ---------- | -------------- |
