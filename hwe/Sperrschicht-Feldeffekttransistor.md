@@ -8,6 +8,6 @@ created: 25th March 2022
 ---
 
 # Sperrschicht-[[Feldeffekttransistor]] (JFET)
-
+![[JFET als Verstärker.pdf]]
 ---
 # Tags

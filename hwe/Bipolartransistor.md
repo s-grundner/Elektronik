@@ -15,9 +15,11 @@ created: 24th March 2022
 ## PNP
 ![[pnp-schalter.png|300]]
 # Transistorschaltungen
-- [[Emitterfolger]]
-- [[Kollektorfolger]]
-- [[Spannungsstabilisierung#Längstransistor mit Dioden Zener Diode Zener Diode|Längstransistor]] Stabilisierung
+## Stromgegenkopplung
+![[Pasted image 20230420115746.png]]
+## [[Emitterfolger]]
+## [[Kollektorfolger]]
+## [[Spannungsstabilisierung#Längstransistor mit Dioden Zener Diode Zener Diode|Längstransistor]] Stabilisierung
 
 ---
 # Tags
