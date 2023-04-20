@@ -10,9 +10,10 @@ created: 16th March 2022
 
 # [Silizium-Diode](https://de.wikipedia.org/wiki/Diode)
 ## Grundlagen
-## Kennwerte
-## Kennlinie
 ## Aufbau
+## Funktion
+## Kenngröße
+## Kennlinie
 ## Anwendung
 
 ---
