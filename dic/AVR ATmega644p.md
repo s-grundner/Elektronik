@@ -33,6 +33,8 @@ Wenn **globale Variablen** nur in einem File verwendet werden, soll man sie als 
 
 Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</mark> verwendet wird, sollte sie als `static` markiert werden. 
 
+## ASM
+![[Pasted image 20230421081440.png]]
 ## AVR-lib Basics
 ### 1. Pin als Ausgang Definieren
 ### 2. Bit setzen
@@ -42,14 +44,7 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 ## ADC
 
 ## Interrupts
-```pdf
-{
-	"url": "[[at644p.pdf]]",
-	"scale": 1,
-	"fit": false,
-	"page": 55
-}
-```
+![[at644p.pdf]]
 ### Extern Interrupt
 ### Timer Interrupt
 ### ADC Interrupt
@@ -75,5 +70,6 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 ---
 # Tags
 ## [AVR Tips and API](https://onlinedocs.microchip.com/pr/GUID-78362176-487F-41B9-95C7-B478A9A186EB-en-US-2/index.html?GUID-E8E50411-4A61-4C7B-A8FD-7E07E93F6DDE)
+![[Instruction_Set_8bit.pdf]]
 
 ![[at644p.pdf]]
