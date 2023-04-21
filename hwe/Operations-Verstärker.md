@@ -21,6 +21,6 @@ created: 2nd January 2023
 ## Praxistipps
 Slew-Rate: $SR>\dfrac{du}{dt}\rightarrow u(t)\dots$ Beschaltungssignal 
 
-# Tags
+# Quellen
 ![[OPV.pdf]]
 ![[OPV Grundschaltungen.pdf]]
