@@ -34,16 +34,16 @@ Wenn **globale Variablen** nur in einem File verwendet werden, soll man sie als 
 Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</mark> verwendet wird, sollte sie als `static` markiert werden. 
 
 ## ASM
-| Codeadresse | Hexcode | Mnemonic | Operanden   | _Bemerkung_ | Cycles |
-| ----------- | ------- | -------- | ----------- | ----------- | ------ |
-| C:`0x0020`  |         | ldi      | `r26`,`$2B` |             |        |
-| C:`0x`      |         | lds      | `r20`,`$002A` |             |        |
-| C:`0x`      |         | add      | `r20`,`r26` |             |        |
-| C:`0x`      |         | sts      | `002A`,`R20` |             |        |
-| C:`0x`      |         | ldi      | `r27`,`$00` |             |        |
-| C:`0x`      |         | ld       | `r19`,`-X` |             |        |
-| C:`0x`      |         | st       | `X+`,`r20` |             |        |
-| C:`0x`      |         | or       | `r17`,`r26` |             |        |
+| Codeadresse | Hexcode              | Mnemonic | Operanden     | _Bemerkung_ | Cycles |
+| ----------- | -------------------- | -------- | ------------- | ----------- | ------ |
+| C:`0x0020`  | `0xE2AB`             | ldi      | `r26`,`$2B`   |             |        |
+| C:`0x0021`  | `0x9140`<br>`0x002A` | lds      | `r20`,`$002A` |             |        |
+| C:`0x0023`  | `0x0F4A`             | add      | `r20`,`r26`   |             |        |
+| C:`0x0024`  | `0x93A0`<br>`0x002A` | sts      | `002A`,`R20`  |             |        |
+| C:`0x0026`  | `0xE0B0`             | ldi      | `r27`,`$00`   |             |        |
+| C:`0x0027`  | `0x913E`               | ld       | `r19`,`-X`    |             |        |
+| C:`0x`      |                      | st       | `X+`,`r20`    |             |        |
+| C:`0x`      |                      | or       | `r17`,`r26`   |             |        |
 
 ## AVR-lib Basics
 ### 1. Pin als Ausgang Definieren
