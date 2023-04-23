@@ -22,12 +22,13 @@ created: 10th December 2022
 ## 4. JG
 - Microcontroller
 - AVR ([[AVR ATmega644p|ATmega644p]])
-- Digitale [[{MOC} Schnittstellen|schnittstellen]]
+- Digitale [[{MOC} Schnittstellen|Schnittstellen]]
 - Embedded [[{MOC} Algorithms|Algorithms]]
 
 ## 5. JG
 - [[Machine Learning]] 
 - ESP32
 
+## M
 ---
 # Tags

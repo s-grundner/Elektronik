@@ -7,7 +7,6 @@ reference: []
 created: 24th March 2022
 last_edited: 11th April 2022
 ---
-
 # Fourier Reihe
 Jede periodische Funktion kann aus einer Summe von Sinus- und/oder Cosinus Schwingungen zusammengesetzt werden.
 
@@ -41,7 +40,7 @@ $f(x)\dots$**Trigonometrisches Polynom**
 > [[Klirrfaktor]] ... $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
 
 
-## Fourierkoeffizienten
+## Fourier Koeffizienten
 ![[Pasted image 20230120081647.png]]
 
 ### Periode $T$
