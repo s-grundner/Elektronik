@@ -16,8 +16,4 @@
 | 1     | 1     | 0     | 1     |     | 1     | 1     | 0        | 0        |
 | 1     | 1     | 1     | 0     |     | 0     | 1     | 1        | 0        |
 | 1     | 1     | 1     | 1     |     | 0     | 1     | 0        | 0        |
-
- $Y_1 = A_0 \operatorname{AND} \operatorname{NOT}(B_1)$
-$Y_0 = A_0 \operatorname{XOR} B_0$
-$Y_{-1} = A_1 \operatorname{NOR} B_1 \operatorname{NOR} A_0 \operatorname{NOR} B_0$
-$Y_{-2} = A_1 \operatorname{NAND} B_1 \operatorname{NAND} A_0 \operatorname{NAND} B_0$
+![[Pasted image 20230423232627.png]]
