@@ -29,6 +29,44 @@ created: 10th December 2022
 - [[Machine Learning]] 
 - ESP32
 
-## M
----
-# Tags
+## Matura 
+### Schaltungsentwurf
+- KV-Diagramme
+- Logikgleichungen
+- Entwurf Mathematischer Operationen
+	- Dividierer
+	- Addierer
+	- Multiplizier
+	- Subtrahierer
+- Zähler entwerfen
+- FlipFlops
+
+### [[{MOC} Transistor|Transistor]] als Schalter BSP
+- Berechnungen (Schaltschwellen, Dimensionieren usw. 3. Klasse)
+- [[Metall-Oxid-Halbleiter-Feldeffekttransistor|Mosfets]] (Logische Schaltung mit vielen [[Metall-Oxid-Halbleiter-Feldeffekttransistor|Mosfets]]: was kommt am ende raus)
+- CMOS
+### Assembler
+- Große Tabelle: wo ist man am Ende, wie lang dauerts… 3.Klasse
+### [[AVR ATmega644p|Crumbtl]] 
+- ADC
+- Ext INT
+- Timer INT
+- Serielle [[{MOC} Schnittstellen|Schnittstelle]]
+### [[Ringbuffer]]
+### Zahlensysteme umrechnen
+- Dezimal
+- Binär
+- Hex
+- Oktal
+- Alle in alle umrechnen können
+### [[Machine Learning]]
+- So wie beim Test
+### Neuronale Netze BSP
+- Nur was wir im Unterricht gemacht haben (matritzen und eingänge gegeben, ausgänge ausrechnen)
+### [[Signaltheorie]]
+- Fourier-Analyse (auch [[Komplexe Zahlen|komplex]])
+- [[Fourier Transformation]]
+### [[Faltung]]
+- 2 Signale falten
+### Digitale Filter BSP
+- Einen Filter dimensionieren 

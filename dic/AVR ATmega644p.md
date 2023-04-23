@@ -15,7 +15,7 @@ last_edited: 11th April 2022
 | Program Memory | 64kiB |
 | Flash (RAM)    | 2kiB  |
 
-Konstante Variablen oder Tabellen sollten zur speicheroptimierung im Programmemory gespeichert werden:
+Konstante Variablen oder Tabellen sollten zur Speicher Optimierung im Programmemory gespeichert werden:
 ```c
 // AVR GCC usues Variable Attributes to declare a variable in Program Memory
 const int mydata[] __attribute__((__progmem__)) = ...
