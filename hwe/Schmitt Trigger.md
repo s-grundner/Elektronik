@@ -16,6 +16,10 @@ created: 10th January 2023
 ## Hysterese
 $U_{V}\dots$Verschiebespannung
 
+
+## Helmholzsches Überlagerungsprinzip
+
+
 ![[invST-calc2.png]]
 # Tags
 [[Kippschaltungen]]
