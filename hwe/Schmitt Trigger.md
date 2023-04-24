@@ -13,7 +13,7 @@ created: 10th January 2023
 
 # Invertierender Schmitt Trigger
 
-
+$U_{V}\dots$Verschiebespannung
 
 ![[invST-calc2.png]]
 # Tags
