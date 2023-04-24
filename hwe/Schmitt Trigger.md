@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Grundschaltungen", "Schaltungsentwicklung", "Schaltungsanalyse"]
 aliases: ["Schmitttrigger"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf", "Michael Offenhuber"]
@@ -13,6 +13,7 @@ created: 10th January 2023
 
 # Invertierender Schmitt Trigger
 
+## Hysterese
 $U_{V}\dots$Verschiebespannung
 
 ![[invST-calc2.png]]
