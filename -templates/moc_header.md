@@ -9,6 +9,3 @@ reference: []
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ---
 # Map of Content - <%tp.file.title.split ("{MOC} ")[1]%>
-
----
-# Tags

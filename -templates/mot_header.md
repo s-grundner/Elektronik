@@ -14,6 +14,3 @@ created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ## 4. JG
 
 ## 5. JG
-
----
-# Tags
