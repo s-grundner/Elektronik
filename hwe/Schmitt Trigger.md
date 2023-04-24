@@ -13,10 +13,8 @@ created: 10th January 2023
 
 # Invertierender Schmitt Trigger
 
+![[IMG_3622.jpeg]]
 ## Hysterese
-$U_{V}\dots$Verschiebespannung
-
-
 ## Helmholzsches Überlagerungsprinzip
 
 
