@@ -56,7 +56,7 @@ created: 19th August 2022
 ## 5. JG
 - Statistik
 - Kombinatorik
-- Wahrscheinlichkeit
+- [[Wahrscheinlichkeit]]
 - Wahrscheinlichkeitsverteilung
 
 ---
