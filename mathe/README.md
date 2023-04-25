@@ -54,7 +54,10 @@ created: 19th August 2022
  - [[Laplace Transformation]]
 
 ## 5. JG
-
+- Statistik
+- Kombinatorik
+- Wahrscheinlichkeit
+- Wahrscheinlichkeitsverteilung
 
 ---
 # Tags
