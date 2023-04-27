@@ -101,10 +101,8 @@ $$
 
 ### [[Kettenmatrix#Impedanz Matrixrechnung Matrix|Impedanz Matrix]]
 
-```ad-example
-title: Standard [[Zweitor]]
+Standard [[Zweitor]]
  
-```
 
 ```ad-example
 title: T-Glied
