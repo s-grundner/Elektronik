@@ -18,7 +18,7 @@ last_edited: 11th April 2022
 #### USB
 #### MIDI
 
-## Paralell
+## Parallel
 ### [PCI](https://de.wikipedia.org/wiki/Peripheral_Component_Interconnect)
 
 ---

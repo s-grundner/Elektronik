@@ -27,7 +27,7 @@ const int mydata[] __attribute__((__progmem__)) = ...
 const int mydata[] PROGMEM = ...
 ```
 
-## `static` Specifier
+## `static` specifier
 Wenn **globale Variablen** nur in einem File verwendet werden, soll man sie als `static` bezeichnen.
 **Lokale Variablen** sollen nur `static` markiert werden, wenn <mark style="background: #FFB86CA6;">der Wert erhalten bleiben</mark> soll.
 
@@ -51,7 +51,50 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 ### 3. Bit löschen
 ### 4. Bit toggeln
 ### 5. Bit abfragen
+
 ## ADC
+### Example
+> [!info]  Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
+> - Bei 1 mW/cm² misst man 0,1 V
+> - bei 10 mW/cm² 4 V.
+> 
+> Schreib eine Funktion `char checkSensor(void)`:
+> Returncode:
+> - -1 bei Energiedichte < als 3mW/cm²
+> - 0 Energiedichte zwischen 3 und 7 mW/cm²
+> - 1 Energiedichte > 7 mW/cm²
+
+Der AD Wandler wurde bereits initialisiert mit single conversion, Referenz Spannung = 5V, 10 Bit Auflösung und ADLAR = 0.
+```c
+void adc_init()
+{
+    // Vref = 5V
+    ADMUX |= (1 << REFS0);
+    ADMUX &= ~(1 << REFS0);
+
+    // ADLAR = 0
+    ADMUX &= ~(1 << ADLAR);
+
+    // Set ADC Channel to PA3 (Single Conversion)
+    ADMUX &= 0xE0;
+    ADMUX |= 0x03;
+
+    // Prescaler 128: f_adc = 125 000 Hz (ADPSn = b111)
+    ADCSRA |= (1 << ADPS2) | (1 << ADPS2) | (1 << ADPS2);
+
+    // Enable ADC
+    ADCSRA |= (1 << ADEN);
+    // Start First Conversion to initialize ADC
+    ADCSRA |= (1 << ADSC);
+}
+```
+
+```c
+char check_sensor()
+{
+
+}
+```
 
 ## Interrupts
 ### Extern Interrupt
@@ -59,9 +102,12 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 ### ADC Interrupt
 
 ## Protokolle
-### Custom Protocol
+
 ## [[{MOC} Schnittstellen]]
-### [[TWI|I2C]]/[[TWI]]
+- [[TWI|I2C]]/[[TWI]]
+-  [[USART]]
+
+
 ## Sleep and Powersaving
 ### Typische Wakeup-Sources aus Stromspar-Modes
 | Source                    |     |
@@ -72,8 +118,6 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 |                           |     |
 
 # Algo
-## Hex to ASCII (xtoa)
-## ASCII to Hex (atox)
 ## [[Ringbuffer]]
 
 ---

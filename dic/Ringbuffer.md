@@ -5,7 +5,6 @@ subject: ["dic", "fsst"]
 source: ["Robert Vogl"]
 reference: []
 created: 19th April 2022
-last_edited: 19th April 2022
 ---
 
 # Ringbuffer
@@ -30,7 +29,7 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 > [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden
 > Freie Größe im Ringbuffer (D... Daten, X ... Freier Platz)
-> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` 
+> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read + p_write - 1` 
 > ![[Pasted image 20230430160942.png]]
 > - Daraus folgt:  Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`
 > ![[Pasted image 20230430161507.png]]
@@ -102,12 +101,16 @@ Da die Pointer `p_write` und `p_read` in der ISR verändert werden, könnte bei 
 void free_size(int* head, int* tail)
 {
 	int size = 0;
+	
 	// ---[!] Enter Critical Section [!]---
+	
 	unsigned char c_sreg = SREG; // interrupts speicher
 	cli(); // clear interrupts
 	size = (p_write >= p_read) ? (RINGBUFFERSIZE - (int) p_write + (int) p_read - 1) : ((int) p_read + (int) p_write - 1);
 	SREG = c_sreg; // alle interrupts wieder einschalten
+	
 	// ---[!] Leave Critical Section [!]---
+	
 	return size;
 }
 ```
@@ -119,6 +122,7 @@ int send_serial_data(unsigned char *data, int len)
 {
 	if(len >= RINGBUFFER_SIZE)
 		return -1; // return wenn Datengröße größer als der Ringbuffer ist
+		
 	int free_size = free_size(); // freien speicher berechnen
 	if(len > free_size)
 		while(!(UCSR0A & (1<<TXC0))); // einfrieren bis ISR Ringbuffer ausreichend geleert hat
@@ -153,15 +157,34 @@ ISR(USART0_UDRE_vect)
 }
 ```
 
+Um automatisch die länge des Datensatzes zu ermitteln, wird die Wrapperfunktion `print()` erstellt
 ```c
 void print(char* message)
 {
 	int len = 0;
 	char* p = message;
-	while (*msg++ != '\0')
-		len++;
+	while (*msg++ != '\0') len++;
 	send_serial_data((unsigned char*) message, len);
 }
+```
+
+### main
+
+```c
+/// file: main.c
+#include "ringbuffer.h"
+
+int main()
+{
+	ringbuffer_init();
+	usart0_init();
+	sei();
+
+	print("Hello, World!\n");
+	
+	while(1);
+}
+
 ```
 
 ---
