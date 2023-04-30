@@ -10,9 +10,9 @@ last_edited: 19th April 2022
 
 # USART
 ## AVR Example
-
+USART
 ```c
-void USART_Init(unsigned int baud)
+void usart_init(unsigned int baud)
 {
 	/* Set baud rate */
 	UBRRHn = (unsigned char)(baud>>8);
@@ -25,7 +25,7 @@ void USART_Init(unsigned int baud)
 ```
 
 ``` c
-void USART_Transmit(unsigned char data)
+void usart_transmit(unsigned char data)
 {
 	/* Wait for empty transmit buffer */
 	while (!( UCSRnA & (1<<UDREn)));
@@ -35,7 +35,7 @@ void USART_Transmit(unsigned char data)
 ```
 
 ``` c
-unsigned char USART_Receive(void)
+unsigned char usart_recieve(void)
 {
 	/* Wait for data to be received */
 	while (!(UCSRnA & (1<<RXCn)));

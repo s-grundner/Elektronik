@@ -29,10 +29,10 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 > [!summary] Die Größe und der Datentyp des Ring Buffers müssen als einzige Parameter angegeben werden
 > Freie Größe im Ring Buffer
 > - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` ![[Pasted image 20230430160942.png]]
-> - Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` ![[Pasted image 20230430161830.png]]
+> - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` ![[Pasted image 20230430161830.png]]
 > ---
 > - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` ![[Pasted image 20230430161829.png]]
-> - Wenn der Read-Pointer auf dem Write-Pointer ist: `free_size = RINGBUFFER_SIZE - 1` ![[Pasted image 20230430161507.png]]
+> - Daraus folgt:  Wenn der Read-Pointer auf dem Write-Pointer ist: `free_size = RINGBUFFER_SIZE - 1` ![[Pasted image 20230430161507.png]]
 
 > [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe
 > Es muss eine Stelle im Puffer geben, bei der der Write Pointer Stehenbleibt, diese 
@@ -70,6 +70,8 @@ void init_ringbuffer()
 	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
 ```
+Anschließend muss die Serielle Schnittstelle initialisiert werden.
+
 
 
 ## AVR Example
