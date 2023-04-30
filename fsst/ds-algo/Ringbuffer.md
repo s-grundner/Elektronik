@@ -13,7 +13,7 @@ Der Ringbuffer ist eine FIFO Speicher, der zwischen Ein und Ausgangsmedium eine 
 indem die zu übertragenden Daten nacheinander in einem Array Aufgereiht werden und bei bedarf gelesen werden können.
 ![[Circular_Buffer_Animation.gif]]
 
-Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch den Ringbuffer:
+Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 > [!info] `p_write` zeigt auf die Stelle im Buffer, auf die als nächstes geschrieben wird
 > - Wenn geschrieben wird. bewegt er sich auf die nächste Stelle
@@ -23,18 +23,19 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch den Ringbuffer:
 > - Wenn gelesen wird. bewegt er sich auf die nächste Stelle
 > - Ist er am Ende des Ringbuffers, kehrt er auf die Anfangspoition zurück
 
-> [!summary] Die Größe und der Datentyp des Ring Buffers müssen als einzige Parameter angegeben werden
-> Freie Größe im Ring Buffer
-> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = p_read - p_write + 1` ![[Pasted image 20230430160942.png]]
-> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` ![[Pasted image 20230430161829.png]]
-> - Wenn der Read-Pointer auf dem Write-Pointer ist: `free_size = RINGBUFFER_SIZE - 1` ![[Pasted image 20230430161507.png]]
-
-> [!warning] Der Tatsächlich für die Datenverfügbare Platz ist um `1` weniger als die angegebene Größe
-> Es muss eine Stelle im Puffer geben, bei der der Write Pointer Stehenbleibt, diese 
-
 
 ![[buffer_anim.gif]]
 
+> [!summary] Die Größe und der Datentyp des Ring Buffers müssen als einzige Parameter angegeben werden
+> Freie Größe im Ring Buffer
+> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` ![[Pasted image 20230430160942.png]]
+> - Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` ![[Pasted image 20230430161830.png]]
+> ---
+> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` ![[Pasted image 20230430161829.png]]
+> - Wenn der Read-Pointer auf dem Write-Pointer ist: `free_size = RINGBUFFER_SIZE - 1` ![[Pasted image 20230430161507.png]]
+
+> [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe
+> Es muss eine Stelle im Puffer geben, bei der der Write Pointer Stehenbleibt, diese 
 
 ## AVR Example
 ### Header
