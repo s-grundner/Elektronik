@@ -26,23 +26,25 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 ![[buffer_anim.gif]]
 
-> [!summary] Die Größe und der Datentyp des Ring Buffers müssen als einzige Parameter angegeben werden
-> Freie Größe im Ring Buffer (D... Daten, X ... Freier Platz)
-> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` 
+## Freier Speicher im Ringbuffer
+
+> [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden
+> Freie Größe im Ringbuffer (D... Daten, X ... Freier Platz)
+> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` 
 > ![[Pasted image 20230430160942.png]]
-> - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` 
-> ![[Pasted image 20230430161830.png]]
-> ---
-> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` 
-> ![[Pasted image 20230430161829.png]]
 > - Daraus folgt:  Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`
 > ![[Pasted image 20230430161507.png]]
+> ---
+> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` 
+> ![[Pasted image 20230430161829.png]]
+> - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` 
+> ![[Pasted image 20230430161830.png]]
 
 > [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe
 > Es muss eine Stelle im Puffer geben, bei der der Write Pointer stehenbleibt, diese 
 
 ## AVR Example
-Im Beispiel soll ein Ring Buffer verwendet werden, um Daten über die serielle [[{MOC} Schnittstellen|Schnittstelle]] `usart0` des µC [[AVR ATmega644p|ATMega644p]]
+Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [[{MOC} Schnittstellen|Schnittstelle]] `usart0` des µC [[AVR ATmega644p|ATMega644p]]
 ### Header
 ```c
 /// @file ringbuffer.h
@@ -59,15 +61,15 @@ Includes:
 #include <avr/io.h>        // für Pin-Definitionen des Prozessors
 #include <avr/interrupt.h> // für UART Interrupt Vektoren
 ```
-Initialisieren der Ring Buffer variablen:
+Initialisieren der Ringbuffer variablen:
 - Da Interrupts verwendet werden, müssen die variablen global angelegt werden, weil keine Parameter in eine ISR übergeben werden können.
 - Der verwendete Datentyp ist `unsigned char`
-- Die Größe des Ring Buffers wird als Makro definiert.
+- Die Größe des Ringbuffers wird als Makro definiert.
 ```c
 #define RINGBUFFER_SIZE 30
 static unsigned char *p_read, *p_write, ringbuffer[RINGBUFFER_SIZE];
 ```
-Zum initialisieren des Ring Buffers werden `p_read` und `p_write` auf den Anfang  von `ringbuffer` gesetzt, damit der Ring Buffer zu Beginn leer ist.
+Zum initialisieren des Ringbuffers werden `p_read` und `p_write` auf den Anfang  von `ringbuffer` gesetzt, damit der Ringbuffer zu Beginn leer ist.
 ```c
 void ringbuffer_init()
 {
@@ -76,86 +78,89 @@ void ringbuffer_init()
 ```
 Anschließend muss die Serielle [[{MOC} Schnittstellen|Schnittstelle]] initialisiert werden.
 Serielle [[{MOC} Schnittstellen|Schnittstelle]]:
-| Baudrate | Enable   | Startbit | Stoppbit | Datenbits | Parity Bit | Interrupt           |
-| -------- | -------- | -------- | -------- | --------- | ---------- | ------------------- |
-| 19200    | Reciever | 1 Bit    | 1 Bit    | 8 Bit     | Aus        | Data Register Empty | 
+![[Pasted image 20230430214657.png]]
+![[Pasted image 20230430214709.png]]
+![[Pasted image 20230430214641.png]]
+
+| Baudrate |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |      Interrupt      |           Mode            |
+|:--------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:-------------------:|:-------------------------:|
+|  19200   | Reciever | 1 Bit <br> (Standard) | 8 Bit <br> (Standard) | Aus <br> (Standard) | Data Register Empty | Asynchron <br> (Standard) |
 
 ```c
 void usart0_init()
 {
-	// Baudrate 19200 (single speed)
-	// Start Stopp Parity
-	// Reciever Enable
-	// UDRE Interrupt Enable
-	
+	UBRRL0 = 51; // Baudrate 19200 (single speed)
+	UBRRH0 = 0;
+	UCSR0B |= (1<<TXEN0) // Reciever Enable
+	UCSR0B |= (1<<UDRIE0) // UDRE Interrupt Enable
 }
 ```
 
-## AVR Example
-``` c
-#include "ringbuffer.h"
-#define RINGBUFFERSIZE 20
-
-unsigned char ringbuffer[RINGBUFFERSIZE], *p_read, *p_write;
-void init_usart(void)
+Um den freien Speicherplatz zu ermitteln, müssen die Kriterien aus [[#Freier Speicher im Ringbuffer]] berücksichtigt werden.
+Da die Pointer `p_write` und `p_read` in der ISR verändert werden, könnte bei eintreten eines Interrupts die Falsche `free_size` berechnet werden, weshalb die Interrupts davor gecleared werden müssen.
+```c
+void free_size(int* head, int* tail)
 {
-    UBRR0 = 51; // 19200 baud
-    UCSR0B |= ((1<<RXEN0)|(1<<TXEN0)); // enable transmitter + reciever
-    UCSR0C |= ((1<<UCSZ01)|(1<<USBS0)); // 8 data + 1 stopbit
+	int size = 0;
+	// ---[!] Enter Critical Section [!]---
+	unsigned char c_sreg = SREG; // interrupts speicher
+	cli(); // clear interrupts
+	size = (p_write >= p_read) ? (RINGBUFFERSIZE - (int) p_write + (int) p_read - 1) : ((int) p_read + (int) p_write - 1);
+	SREG = c_sreg; // alle interrupts wieder einschalten
+	// ---[!] Leave Critical Section [!]---
+	return size;
 }
+```
 
-void init_ringbuffer(void)
+In `send_serial_data()` werden die Daten in den Ringbuffer geschrieben und der UDRE Interrupt eingeschalten.
+In dieser Funktion erfolgt das Beschreiben des Ringbuffers.
+```c
+int send_serial_data(unsigned char *data, int len)
 {
-	p_read = p_write = ringbuffer;
-}
+	if(len >= RINGBUFFER_SIZE)
+		return -1; // return wenn Datengröße größer als der Ringbuffer ist
+	int free_size = free_size(); // freien speicher berechnen
+	if(len > free_size)
+		while(!(UCSR0A & (1<<TXC0))); // einfrieren bis ISR Ringbuffer ausreichend geleert hat
 
-char send_serial_data(char* serial_data, char len)
-{
-	int free_size;
-	
-	// [!] Critical Section
-	// ------------------------------------------------------------
+	for(int i = 0; i < len; i++)
 	{
-		unsigned char c_sreg;
-		c_sreg = SREG;
-		cli();
-		free_size = (p_write >= p_read) ? (RINGBUFFERSIZE - (int) p_write + (int) p_read - 1) : ((int) p_read + (int) p_write - 1);
-		SREG = c_sreg;
+		*p_write = data[i]; // *p_write mit daten befüllen
+		p_write++; // p_write erhöhen
+		if(p_write >= &ringbuffer[RINGBUFFERSIZE]) //ringbuffer addressbereich überschritten
+			p_write = ringbuffer; // auf den start des Ringbuffers setzen
 	}
-	// ------------------------------------------------------------
-	// [!] Leave Critical Section
-	
-	if(len > free_size) return -1;
-	for (int i = 0; i < len; i++)
-	{
-		*p_write = serial_data[i];
-		p_write++;
-		if (p_write >= &ringbuffer[RINGBUFFERSIZE])
-		{
-			p_write = ringbuffer;
-		}
-	}
-	UCSR0B |= (1<<UDRIE0);
-	return 0;
+	UCSR0B |= (1<<UDRIE0) // UDRE anschalten
 }
+```
 
+Nachdem die Funktion `send_serial_data()` den UDRE Interrupt eingeschalten hat, wird die ISR dieses Interrupt Vektors ausgelöst, sobald das RX Daten Register leer ist.
+In der ISR wird der Ringbuffer gelesen und die Daten an die Serielle gesendet.
+Ist der Ringbuffer leer, so wird der UDRE Interrupt wieder ausgeschalten, bis die Funktion `send_serial_data()` erneut aufgerufen wird.
+
+```c
 ISR(USART0_UDRE_vect)
 {
-	if (p_read == p_write)
+	if(p_read == p_write) // ringbuffer ist leer
 	{
-		// Exit ISR & Disable UDR Empty Interrupt
-		UCSR0B &= ~(1<<UDRIE0);
+		UCSR0B &= ~(1<<UDRIE0) // UDRE Interrupt ausschalten
 		return;
 	}
-	UDR0 = *p_read;
-	p_read++;
-	
-	if (p_read >= &ringbuffer[RINGBUFFERSIZE])
-	{
-		// pointer set to ringbuffer start
-		p_read = ringbuffer;
-	}
-	return;
+	UDR0 = *p_read; // Wert bei p_read ins Output Register schreiben
+	p_read++; // p_read erhöhen
+	if(p_read >= &ringbuffer[RINGBUFFER_SIZE]) //ringbuffer addressbereich überschritten
+		p_read = ringbuffer; // auf den start des Ringbuffers setzen
+}
+```
+
+```c
+void print(char* message)
+{
+	int len = 0;
+	char* p = message;
+	while (*msg++ != '\0')
+		len++;
+	send_serial_data((unsigned char*) message, len);
 }
 ```
 
