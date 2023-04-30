@@ -9,8 +9,8 @@ last_edited: 19th April 2022
 ---
 
 # Ringbuffer
-Der Ringbuffer ist eine FIFO Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,
-indem die zu übertragenden Daten nacheinander in einem Array Aufgereiht werden und bei bedarf gelesen werden können.
+Der Ringbuffer ist ein [[Queue|FIFO]] Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,
+indem die zu übertragenden Daten nacheinander in einem Array geschrieben werden und bei bedarf gelesen werden können.
 ![[Circular_Buffer_Animation.gif]]
 
 Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
@@ -38,6 +38,7 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 > Es muss eine Stelle im Puffer geben, bei der der Write Pointer Stehenbleibt, diese 
 
 ## AVR Example
+Im Beispiel soll ein Ring Buffer verwendet werden, um Daten über die serielle [[{MOC} Schnittstellen|Schnittstelle]] `usart0` des µC [[AVR ATmega644p|ATMega644p]]
 ### Header
 ```c
 /// @file ringbuffer.h
@@ -62,13 +63,12 @@ Initialisieren der Ring Buffer variablen:
 #define RINGBUFFER_SIZE 30
 static unsigned char *p_read, *p_write, ringbuffer[RINGBUFFER_SIZE];
 ```
-Zum initialisieren des Ring Buffers werden `p_read` und `p_write` auf den Anfang  von `ringbuffer` gesetzt
+Zum initialisieren des Ring Buffers werden `p_read` und `p_write` auf den Anfang  von `ringbuffer` gesetzt, damit der Ringbuffer zu Beginn leer ist.
 ```c
 void init_ringbuffer()
 {
-	
+	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
-
 ```
 
 
