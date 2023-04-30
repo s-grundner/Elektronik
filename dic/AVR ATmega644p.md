@@ -92,6 +92,25 @@ void adc_init()
 ```c
 char check_sensor()
 {
+	while (ADCSRA & (1<<ADSC));
+	short adc_val = ADCL;
+	adc_val |= ADCH<<8;
+
+/*
+ed = k*V + d 
+10 = k*4 + d
+1 = k*0.1 + d
+
+9 = 3.9*k           1 = 3/13 + d
+k = 9/3.9 -> 30/13  d = 10/13
+
+V / 5 = adc_val / 1024
+V =5 * adc_val / 1024
+
+ed = 30/13 * adc_val * 5/1024 + 10/13
+
+*/
+
 
 }
 ```
