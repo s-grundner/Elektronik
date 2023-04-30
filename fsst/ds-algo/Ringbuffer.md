@@ -27,23 +27,27 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 ![[buffer_anim.gif]]
 
 > [!summary] Die Größe und der Datentyp des Ring Buffers müssen als einzige Parameter angegeben werden
-> Freie Größe im Ring Buffer
-> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` ![[Pasted image 20230430160942.png]]
-> - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` ![[Pasted image 20230430161830.png]]
+> Freie Größe im Ring Buffer (D... Daten, X ... Freier Platz)
+> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` 
+> ![[Pasted image 20230430160942.png]]
+> - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` 
+> ![[Pasted image 20230430161830.png]]
 > ---
-> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` ![[Pasted image 20230430161829.png]]
-> - Daraus folgt:  Wenn der Read-Pointer auf dem Write-Pointer ist: `free_size = RINGBUFFER_SIZE - 1` ![[Pasted image 20230430161507.png]]
+> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read - p_write - 1` 
+> ![[Pasted image 20230430161829.png]]
+> - Daraus folgt:  Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`
+> ![[Pasted image 20230430161507.png]]
 
 > [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe
-> Es muss eine Stelle im Puffer geben, bei der der Write Pointer Stehenbleibt, diese 
+> Es muss eine Stelle im Puffer geben, bei der der Write Pointer stehenbleibt, diese 
 
 ## AVR Example
 Im Beispiel soll ein Ring Buffer verwendet werden, um Daten über die serielle [[{MOC} Schnittstellen|Schnittstelle]] `usart0` des µC [[AVR ATmega644p|ATMega644p]]
 ### Header
 ```c
 /// @file ringbuffer.h
-void init_ringbuffer();
-void init_usart0();
+void ringbuffer_init();
+void usart0_init();
 void send_serial_data();
 void print();
 ```
@@ -63,16 +67,29 @@ Initialisieren der Ring Buffer variablen:
 #define RINGBUFFER_SIZE 30
 static unsigned char *p_read, *p_write, ringbuffer[RINGBUFFER_SIZE];
 ```
-Zum initialisieren des Ring Buffers werden `p_read` und `p_write` auf den Anfang  von `ringbuffer` gesetzt, damit der Ringbuffer zu Beginn leer ist.
+Zum initialisieren des Ring Buffers werden `p_read` und `p_write` auf den Anfang  von `ringbuffer` gesetzt, damit der Ring Buffer zu Beginn leer ist.
 ```c
-void init_ringbuffer()
+void ringbuffer_init()
 {
 	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
 ```
-Anschließend muss die Serielle Schnittstelle initialisiert werden.
+Anschließend muss die Serielle [[{MOC} Schnittstellen|Schnittstelle]] initialisiert werden.
+Serielle [[{MOC} Schnittstellen|Schnittstelle]]:
+| Baudrate | Enable   | Startbit | Stoppbit | Datenbits | Parity Bit | Interrupt           |
+| -------- | -------- | -------- | -------- | --------- | ---------- | ------------------- |
+| 19200    | Reciever | 1 Bit    | 1 Bit    | 8 Bit     | Aus        | Data Register Empty | 
 
-
+```c
+void usart0_init()
+{
+	// Baudrate 19200 (single speed)
+	// Start Stopp Parity
+	// Reciever Enable
+	// UDRE Interrupt Enable
+	
+}
+```
 
 ## AVR Example
 ``` c
