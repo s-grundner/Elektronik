@@ -27,13 +27,12 @@ const int mydata[] __attribute__((__progmem__)) = ...
 const int mydata[] PROGMEM = ...
 ```
 
-## `static` specifier
-Wenn **globale Variablen** nur in einem File verwendet werden, soll man sie als `static` bezeichnen.
-**Lokale Variablen** sollen nur `static` markiert werden, wenn <mark style="background: #FFB86CA6;">der Wert erhalten bleiben</mark> soll.
+>[!info] `static` specifier
+> Wenn **globale Variablen** nur in einem File verwendet werden, soll man sie als `static` bezeichnen.
+> **Lokale Variablen** sollen nur `static` markiert werden, wenn <mark style="background: #FFB86CA6;">der Wert erhalten bleiben</mark> soll.
+> Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</mark> verwendet wird, sollte sie als `static` markiert werden. 
 
-Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</mark> verwendet wird, sollte sie als `static` markiert werden. 
-
-## ASM
+## Assembly
 | Codeadresse | Hexcode              | Mnemonic | Operanden     | _Bemerkung_ | Cycles |
 | ----------- | -------------------- | -------- | ------------- | ----------- | ------ |
 | C:`0x0020`  | `0xE2AB`             | ldi      | `r26`,`$2B`   |             |        |
@@ -46,79 +45,93 @@ Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</m
 | C:`0x`      |                      | or       | `r17`,`r26`   |             |        |
 
 ## AVR-lib Basics
-### 1. Pin als Ausgang Definieren
-### 2. Bit setzen
-### 3. Bit löschen
-### 4. Bit toggeln
-### 5. Bit abfragen
+- Bit setzen: `REG = REG | (1<<REG[n])`
+- Bit löschen: `REG = REG & ~(1<<REG[n])`
+- Bit toggeln: `REG = REG ^ (1<<REG[n])`
+- Bit abfragen: `BOOL = REG & (1<<REG[n])`
+
+## PIN, PORT, DDR
+`PORT` Register zum Beschreiben der Pin Ausgänge
+`PIN` Register zum Abfragen des digitalen Wertes am Pin
+`DDR` Register: `0 -> input`, `1 -> output`
 
 ## ADC
-### Example
+### Examples
+
 > [!info]  Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
 > - Bei 1 mW/cm² misst man 0,1 V
 > - bei 10 mW/cm² 4 V.
 > 
-> Schreib eine Funktion `char checkSensor(void)`:
+> Schreib eine Funktion `char check_sensor(void)`:
 > Returncode:
 > - -1 bei Energiedichte < als 3mW/cm²
 > - 0 Energiedichte zwischen 3 und 7 mW/cm²
 > - 1 Energiedichte > 7 mW/cm²
 
-Der AD Wandler wurde bereits initialisiert mit single conversion, Referenz Spannung = 5V, 10 Bit Auflösung und ADLAR = 0.
+> [!warning] Der AD Wandler wurde bereits initialisiert mit Single Konversion, Referenz Spannung = 5V, 10 Bit Auflösung und ADLAR = 0.
 ```c
 void adc_init()
 {
-    // Vref = 5V
-    ADMUX |= (1 << REFS0);
-    ADMUX &= ~(1 << REFS0);
-
-    // ADLAR = 0
-    ADMUX &= ~(1 << ADLAR);
-
-    // Set ADC Channel to PA3 (Single Conversion)
-    ADMUX &= 0xE0;
-    ADMUX |= 0x03;
-
-    // Prescaler 128: f_adc = 125 000 Hz (ADPSn = b111)
-    ADCSRA |= (1 << ADPS2) | (1 << ADPS2) | (1 << ADPS2);
-
-    // Enable ADC
-    ADCSRA |= (1 << ADEN);
-    // Start First Conversion to initialize ADC
-    ADCSRA |= (1 << ADSC);
+	// Vref = 5V
+	ADMUX |= (1 << REFS0);
+	ADMUX &= ~(1 << REFS0);
+	// ADLAR = 0
+	ADMUX &= ~(1 << ADLAR); 
+	// Set ADC Channel to PA3 (Single Conversion)
+	ADMUX &= 0xE0;
+	ADMUX |= 0x03;
+	// Prescaler 128: f_adc = 125 000 Hz (ADPSn = b111)
+	ADCSRA |= (1 << ADPS2) | (1 << ADPS2) | (1 << ADPS2);
+	// Enable ADC
+	ADCSRA |= (1 << ADEN);
+	// Start First Conversion to initialize ADC
+	ADCSRA |= (1 << ADSC);
 }
 ```
 
-```c
+> [!summary] Sensorgleichung
+> $$
+> ed = k\cdot V_{adc} + d \quad\rightarrow \quad
+> \begin{align*}
+> 9 &= 3.9\cdot k && k = \tfrac{9}{3.9} = \tfrac{30}{13}\\
+> 1 &= \tfrac{3}{13} + d && d = \tfrac{10}{13}\\
+> \end{align*}
+> $$
+> $$
+> \begin{align*}
+> \tfrac{V_{adc}}{5} &= \tfrac{ADC}{1024} \qquad V_{adc} = 5 \cdot\tfrac{ADC}{1024}\\\\
+> ed &= \tfrac{30}{13} \cdot ADC \cdot  \tfrac{5}{1024} + \tfrac{10}{13}\\
+> ed &= ADC \cdot \tfrac{75}{6656} + \tfrac{10}{13}\\
+> \end{align*}
+> $$
+
+```c	
+#define SENSOR_K (75.0/6656.0)
+#define SENSOR_D (10.0/13.0)
 char check_sensor()
 {
-	while (ADCSRA & (1<<ADSC));
-	short adc_val = ADCL;
-	adc_val |= ADCH<<8;
-
-/*
-ed = k*V + d 
-10 = k*4 + d
-1 = k*0.1 + d
-
-9 = 3.9*k           1 = 3/13 + d
-k = 9/3.9 -> 30/13  d = 10/13
-
-V / 5 = adc_val / 1024
-V =5 * adc_val / 1024
-
-ed = 30/13 * adc_val * 5/1024 + 10/13
-
-*/
-
-
+	while (ADCSRA & (1<<ADSC)); // Warten bis Konversion fertig ist
+	float energy_density = ADC * SENSOR_K + SENSOR_D; // Sensorgleichung
+	ADCSRA |= (1<<ADSC); // Konversion restarten
+	return (energy_density > 7.0) - (energy_density < 3.0); // -1 wenn < 3, 1 wenn > 7, 0 wenn dazwischen
 }
 ```
 
 ## Interrupts
+
 ### Extern Interrupt
+#### Example
+
 ### Timer Interrupt
-### ADC Interrupt
+#### Example PWM
+> [!info] PWM
+> - Timer2 8 Bit breit
+> - fast pwm mode
+> - zählt von 0-255
+> - in diesem mode ist der pwm ausgang fix oc2x
+> - von 0-wert von ocr2 (8bit) ist der pin oc2x ist high
+> - von ocr2 wert bis 255 ist oc2x bit low
+> - $f_{PWM} = 20kHz$
 
 ## Protokolle
 
@@ -126,21 +139,10 @@ ed = 30/13 * adc_val * 5/1024 + 10/13
 - [[TWI|I2C]]/[[TWI]]
 -  [[USART]]
 
-
-## Sleep and Powersaving
-### Typische Wakeup-Sources aus Stromspar-Modes
-| Source                    |     |
-| ------------------------- | --- |
-| [[TWI]] address match (Slave) |     |
-| Timer Interrupt           |     |
-| ADC Interrupt             |     |
-|                           |     |
-
 # Algo
-## [[Ringbuffer]]
+- [[Ringbuffer]]
 
----
 # Quellen
 - [AVR Tips and API](https://onlinedocs.microchip.com/pr/GUID-78362176-487F-41B9-95C7-B478A9A186EB-en-US-2/index.html?GUID-E8E50411-4A61-4C7B-A8FD-7E07E93F6DDE)
-[[Instruction_Set_8bit.pdf]]
-[[at644p.pdf]]
+- [[Instruction_Set_8bit.pdf]]
+- [[at644p.pdf]]

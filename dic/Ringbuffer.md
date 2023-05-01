@@ -77,9 +77,6 @@ void ringbuffer_init()
 ```
 Anschließend muss die Serielle [[{MOC} Schnittstellen|Schnittstelle]] initialisiert werden.
 Serielle [[{MOC} Schnittstellen|Schnittstelle]]:
-![[Pasted image 20230430214657.png]]
-![[Pasted image 20230430214709.png]]
-![[Pasted image 20230430214641.png]]
 
 | Baudrate |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |      Interrupt      |           Mode            |
 |:--------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:-------------------:|:-------------------------:|

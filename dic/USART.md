@@ -24,40 +24,98 @@ UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft �
 Ein Startbit signalisiert dem Empfänger, dass eine Übertragung beginnt. Das Potential auf der Übertragungsleitung ist _Normally-High_ und wird durch das Startbit auf _Low_ gezogen. Anschließend folgt das Datenframe, welches je nach Konfiguration fünf bis neun Bit lang ist. Eine Paritätsbit dient zur Validierung der Übertragung. Dieses Bit kann aber auch im Controller ausgeschalten werden. Am Ende der Übertragung setzt ein Stop Bit den Bus wieder auf den Idle-Zustand.
   
 # AVR Example
-### USART ohne Interrupt
+USART Parameters:
+
+|       Baudrate        |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |   Interrupts   |           Mode            |
+|:---------------------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:--------------:|:-------------------------:|
+| Tabelle<br>Datenblatt | RX<br>TX | 1 Bit <br> (Standard) | 8 Bit <br> (Standard) | Aus <br> (Standard) | UDRE, RXC, TXC | Asynchron <br> (Standard) |
+
+
+
+## USART RXC Interrupt
 ```c
-void usart0_init(unsigned short baud)
+void usart_init(void)
 {
-	/* Set baud rate */
-	UBRRHn = (unsigned char)(baud>>8);
-	UBRRLn = (unsigned char)baud;
-	/* Enable receiver and transmitter */
-	UCSR0B = (1<<RXEN0)|(1<<TXEN0);
-	/* Set frame format: 8data, 2stop bit */
-	UCSR0C = (1<<USBS0)|(3<<UCSZn0);
+	UCSR0B = ((1 << RXEN0) | (1 << RXCIE0));  // Reciever Enable, RX Interrupt Enable
+	UCSR0C = ((1 << UCSZ01) | (1 << UCSZ00)); // 8-Bit Data
+	UBRR0 = 51 // Baudrate
 }
 ```
 
-``` c
-void usart0_transmit(unsigned char data)
+> [!info] LED mit USART Steuern
+> Unter Verwendung der obigen Funktion, schreib ein Programm,
+> welches bei der Eingabe über die serielle Schnittstelle bei `'e'` `PD7` auf *high* setzt und bei `'a'` auf *low*.
+> 
+> Verwende dazu die passende Interrupt Service Routine.
+> Erstelle die komplette SW, das heißt die `main()` Routine und die Interrupt Service Routine.
+
+> [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()`aufrufen.
+
+```c
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+ISR(USART0_RX_vect)
 {
-	/* Wait for empty transmit buffer */
-	while (!( UCSR0A & (1<<UDRE0)));
-	/* Put data into buffer, sends the data */
-	UDR0 = data;
+	// PD7-led is acive low
+	PORTD &= ~((UDR0 == 'e') << PD7);
+	PORTD |= ((UDR0 == 'a') << PD7);
+}
+
+int main(void)
+{
+	DDRD |= (1 << PD7);
+	usart_init();
+	sei();
+	while (1);
+	return 0;
 }
 ```
 
-``` c
-unsigned char usart0_recieve(void)
+---
+## USART UDRE Interrupt
+
+```c
+void usart_init(void)
 {
-	/* Wait for data to be received */
-	while (!(UCSRnA & (1<<RXCn)));
-	/* Get and return received data from buffer */
-	return UDR0;
+	UCSR0B = ((1 << TXEN0) | (1 << UDRIE0));  // RX und TX einschalten
+	UCSR0C = ((1 << UCSZ01) | (1 << UCSZ00)); // 8-Bit daten
+	unsigned short baud = 51;                 // baudrate
+	UBRR0H = (unsigned char) (baud >> 8);
+	UBRR0L = (unsigned char) baud;
+	UCSR0B |= (1 << UDRIE0); // Dataregister Empty Interrupt Enablen
 }
 ```
-###
+
+> [!info] String via UART Senden
+> Unter Verwendung der obigen Funktion, schreibe ein Programm, welches den Text `„Hallo ich lebe“` einmal beim Einschalten auf die Serielle
+> Schnittstelle schickt.
+> Achtung, verwende dazu die Funktion: `ISR(USART0_UDRE_vect)`
+> Erstelle die komplette SW, das heißt die `main()` Routine und die Interrupt Service Routine.
+
+> [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()` aufrufen.
+
+>[!warning] Ein Ringbuffer ist nicht notwendig!
+
+```c
+static char *message = "Hallo ich lebe";
+
+ISR(USART0_UDRE_vect)
+{
+	static counter = 0; // Lokalstatische Variable wird einmal auf 0 initialisiert
+	if (message[counter] == '\0')
+		UCSR0B &= ~(1 << UDRIE0);
+	UDR0 = message[counter];
+	counter++;
+}
+
+int main(void)
+{
+	usart_init();
+	sei();
+	while (1);
+}
+```
 
 ---
 # Tags
