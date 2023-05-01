@@ -103,7 +103,10 @@ void free_size(int* head, int* tail)
 	
 	unsigned char c_sreg = SREG; // interrupts speicher
 	cli(); // clear interrupts
-	size = (p_write >= p_read) ? (RINGBUFFERSIZE - (int) p_write + (int) p_read - 1) : ((int) p_read + (int) p_write - 1);
+	if(p_write >= p_read)
+		size = (RINGBUFFERSIZE - (int) p_write + (int) p_read - 1)
+	else
+		size = ((int) p_read + (int) p_write - 1);
 	SREG = c_sreg; // alle interrupts wieder einschalten
 	
 	// ---[!] Leave Critical Section [!]---
@@ -122,13 +125,16 @@ int send_serial_data(unsigned char *data, int len)
 		
 	int free_size = free_size(); // freien speicher berechnen
 	if(len > free_size)
-		while(!(UCSR0A & (1<<TXC0))); // einfrieren bis ISR Ringbuffer ausreichend geleert hat
+		while(!(UCSR0A & (1<<TXC0)))
+			; // einfrieren bis ISR Ringbuffer ausreichend geleert hat
 
 	for(int i = 0; i < len; i++)
 	{
 		*p_write = data[i]; // *p_write mit daten befüllen
 		p_write++; // p_write erhöhen
-		if(p_write >= &ringbuffer[RINGBUFFERSIZE]) //ringbuffer addressbereich überschritten
+		
+		//ringbuffer addressbereich überschritten
+		if(p_write >= &ringbuffer[RINGBUFFERSIZE])
 			p_write = ringbuffer; // auf den start des Ringbuffers setzen
 	}
 	UCSR0B |= (1<<UDRIE0) // UDRE anschalten
@@ -149,7 +155,9 @@ ISR(USART0_UDRE_vect)
 	}
 	UDR0 = *p_read; // Wert bei p_read ins Output Register schreiben
 	p_read++; // p_read erhöhen
-	if(p_read >= &ringbuffer[RINGBUFFER_SIZE]) //ringbuffer addressbereich überschritten
+	
+	//ringbuffer addressbereich überschritten
+	if(p_read >= &ringbuffer[RINGBUFFER_SIZE]) 
 		p_read = ringbuffer; // auf den start des Ringbuffers setzen
 }
 ```

@@ -19,18 +19,16 @@ Die Daten werden einfach gesendet. Bei der Verdrahtung ist zu beachten, dass die
 UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft über eine USB-Bridge den Flashspeicher beschreiben. Die USB-Bridge spricht das System dabei mit UART an. Auch das Debuggen erfolgt meistens über diese serielle [[{MOC} Schnittstellen|Schnittstelle]].
 
 ## Die übertragenen Datenpakte haben folgendes Formatierung
-
 ![[Pasted image 20230501003521.png]]
 Ein Startbit signalisiert dem Empfänger, dass eine Übertragung beginnt. Das Potential auf der Übertragungsleitung ist _Normally-High_ und wird durch das Startbit auf _Low_ gezogen. Anschließend folgt das Datenframe, welches je nach Konfiguration fünf bis neun Bit lang ist. Eine Paritätsbit dient zur Validierung der Übertragung. Dieses Bit kann aber auch im Controller ausgeschalten werden. Am Ende der Übertragung setzt ein Stop Bit den Bus wieder auf den Idle-Zustand.
-  
+
 # AVR Example
+
 USART Parameters:
 
 |       Baudrate        |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |   Interrupts   |           Mode            |
 |:---------------------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:--------------:|:-------------------------:|
 | Tabelle<br>Datenblatt | RX<br>TX | 1 Bit <br> (Standard) | 8 Bit <br> (Standard) | Aus <br> (Standard) | UDRE, RXC, TXC | Asynchron <br> (Standard) |
-
-
 
 ## USART RXC Interrupt
 ```c
@@ -73,6 +71,9 @@ int main(void)
 ```
 
 ---
+
+<br><br>
+
 ## USART UDRE Interrupt
 
 ```c
@@ -95,7 +96,7 @@ void usart_init(void)
 
 > [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()` aufrufen.
 
->[!warning] Ein Ringbuffer ist nicht notwendig!
+> [!warning] Ein Ringbuffer ist nicht notwendig!
 
 ```c
 static char *message = "Hallo ich lebe";
