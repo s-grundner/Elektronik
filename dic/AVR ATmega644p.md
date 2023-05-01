@@ -132,6 +132,18 @@ void ext_int1_init(void)
     EICRA |= ((1 << ISC10) | (1 << ISC11)); // rising edge
     EIMSK |= (1 << INT1);                   // enable interrupt
 }
+
+ISR(INT1_vect)
+{
+	// do stuff
+}
+
+int main()
+{
+	ext_int1_init();
+	sei();
+	while(1);
+}
 ```
 
 ### Timer Interrupt
