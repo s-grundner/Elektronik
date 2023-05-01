@@ -39,3 +39,5 @@ LLK
 WAN
 LAN
 LO
+PORT
+Port
