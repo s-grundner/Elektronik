@@ -123,15 +123,59 @@ char check_sensor()
 #### Example
 
 ### Timer Interrupt
-#### Example PWM
-> [!info] PWM
-> - Timer2 8 Bit breit
-> - fast pwm mode
-> - zählt von 0-255
-> - in diesem mode ist der pwm ausgang fix oc2x
-> - von 0-wert von ocr2 (8bit) ist der pin oc2x ist high
-> - von ocr2 wert bis 255 ist oc2x bit low
+#### Example
+> [!info] Fast-PWM
+> - Timer2 8-Bit breit, zählt von 0-255
+> - fast pwm mode (non inverting)
+> 	- Bei OC2A = 0 -> Pin High
+> 	- Bei OC2A = TOP -> Pin Low
 > - $f_{PWM} = 20kHz$
+
+```c
+void timer2_init(void)
+{
+	// fast PWM Modus Setzen (WGMn 011)
+	TCCR2A |= (1<<WGM20)|(1<<WGM21);
+	// non-inverting Mode setzen (COM2An 10)
+	TCCR2A |= (1<<COM2A1);
+	// Duty Cycle 50%
+	OCR2A = (0xFF>>1); // 255/2
+	// Prescaler bei f_osz = 16MHz
+	// f_PWM ~= 20kHz = 16MHz/(PS*256) -> PS = 8 (am nächsten unter 20kHz)
+	// f_PWM = 7812.5Hz
+	// PS 8 (CS2n 010) und Starten
+	TCCR2B |= (1<<CS21);
+}
+```
+
+```c
+int main()
+{
+	unsigned char inputState;
+	DDRD |= (1 << PD7); //Pinout -> OC2A PIN
+	timer2_init();
+	
+	while (1)
+	{
+		inputState = PINA & 0x03; // PA0 und PA1 als Eingang zur DC Steuerung
+		switch (inputState)
+		{
+		case 0:
+			OCR2A = 250; // DC = 250/255 ~ 98%
+			break;
+		case 1:
+			OCR2A = 200; // DC = 200/255 ~ 78%
+			break;
+		case 2:
+			OCR2A = 100; // DC = 100/255 ~ 39%
+			break;
+		case 3:
+			OCR2A = 10; // DC = 10/255 ~ 4%
+			break;
+		}
+	}
+}
+```
 
 ## Protokolle
 
