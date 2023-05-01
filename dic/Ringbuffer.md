@@ -29,7 +29,7 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 > [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden
 > Freie Größe im Ringbuffer (D... Daten, X ... Freier Platz)
-> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_read + p_write - 1` 
+> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_write + p_read - 1` 
 > ![[Pasted image 20230430160942.png]]
 > - Daraus folgt:  Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`
 > ![[Pasted image 20230430161507.png]]
