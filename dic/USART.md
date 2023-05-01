@@ -103,7 +103,8 @@ static char *message = "Hallo ich lebe";
 
 ISR(USART0_UDRE_vect)
 {
-	static counter = 0; // Lokalstatische Variable wird einmal auf 0 initialisiert
+	// Lokalstatische Variable wird einmal auf 0 initialisiert
+	static counter = 0;
 	if (message[counter] == '\0')
 		UCSR0B &= ~(1 << UDRIE0);
 	UDR0 = message[counter];

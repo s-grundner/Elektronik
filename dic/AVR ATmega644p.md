@@ -33,16 +33,20 @@ const int mydata[] PROGMEM = ...
 > Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</mark> verwendet wird, sollte sie als `static` markiert werden. 
 
 ## Assembly
-| Codeadresse | Hexcode              | Mnemonic | Operanden     | _Bemerkung_ | Cycles |
-| ----------- | -------------------- | -------- | ------------- | ----------- | ------ |
-| C:`0x0020`  | `0xE2AB`             | ldi      | `r26`,`$2B`   |             |        |
-| C:`0x0021`  | `0x9140`<br>`0x002A` | lds      | `r20`,`$002A` |             |        |
-| C:`0x0023`  | `0x0F4A`             | add      | `r20`,`r26`   |             |        |
-| C:`0x0024`  | `0x93A0`<br>`0x002A` | sts      | `002A`,`R20`  |             |        |
-| C:`0x0026`  | `0xE0B0`             | ldi      | `r27`,`$00`   |             |        |
-| C:`0x0027`  | `0x913E`               | ld       | `r19`,`-X`    |             |        |
-| C:`0x`      |                      | st       | `X+`,`r20`    |             |        |
-| C:`0x`      |                      | or       | `r17`,`r26`   |             |        |
+> [!example] 
+> ![[Pasted image 20230501185146.png]]
+> Vor dem Start des Programms wurde das gesamte interne Datenmemory (insklusive der Register R0-R31) auf 0x5A initialisiert. Indirektes Register X=R27:R26
+> **Was steht nach der Ausführung des Programms (also von C:0x002B-letztem Befehl) auf folgender Adressen:**
+> D:0x0029 : `0x5A ` 
+> D:0x002A : `0x76 ` 
+> D:0x002B : `0x76`  
+> D:0x002C : `0x5A`
+> R17 : `0x2D`  
+> R19 : `0x5A`  
+> R20 : `0x76`  
+> R26 : `0x2C ` 
+> R27 : `0x00`
+> 
 
 ## AVR-lib Basics
 - Bit setzen: `REG = REG | (1<<REG[n])`
@@ -113,17 +117,22 @@ char check_sensor()
 	while (ADCSRA & (1<<ADSC)); // Warten bis Konversion fertig ist
 	float energy_density = ADC * SENSOR_K + SENSOR_D; // Sensorgleichung
 	ADCSRA |= (1<<ADSC); // Konversion restarten
-	return (energy_density > 7.0) - (energy_density < 3.0); // -1 wenn < 3, 1 wenn > 7, 0 wenn dazwischen
+	return (energy_density > 7.0) - (energy_density < 3.0);
 }
 ```
 
 --- 
 
-
 ## Interrupts
-
-### Extern Interrupt
+### External Interrupt
 #### Example
+```c
+void ext_int1_init(void)
+{
+    EICRA |= ((1 << ISC10) | (1 << ISC11)); // rising edge
+    EIMSK |= (1 << INT1);                   // enable interrupt
+}
+```
 
 ### Timer Interrupt
 #### Example
@@ -160,7 +169,8 @@ int main()
 	
 	while (1)
 	{
-		inputState = PINA & 0x03; // PA0 und PA1 als Eingang zur DC Steuerung
+		// PA0 und PA1 als Eingang zur DC Steuerung
+		inputState = PINA & 0x03;
 		switch (inputState)
 		{
 		case 0:
