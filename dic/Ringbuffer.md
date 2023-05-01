@@ -8,7 +8,7 @@ created: 19th April 2022
 ---
 
 # Ringbuffer
-Der Ringbuffer ist ein [[Queue|FIFO]] Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,
+Der Ringbuffer ist ein FIFO Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,
 indem die zu übertragenden Daten nacheinander in einem Array geschrieben werden und bei bedarf gelesen werden können.
 ![[Circular_Buffer_Animation.gif]]
 
