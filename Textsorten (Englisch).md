@@ -75,14 +75,62 @@
 
 
 
-# Blog Comment
-
 # Leaflet
-# Report 
+- Catchy Title
+- Opening Paragraph
+	- Rhetorical questions
+- Interesting and informative
+- Subheadings
+- Short and simple sentences
+- Conclusion
+	- <mark style="background: #FF5582A6;">So what are you waiting for? Get...</mark>
+
+> [!info] Keywords
+> - Amazing 
+> - Unbelievable
+> - Exciting
+> - breathtaking
+> - adventurous
+> - exciting
+> - extraordinary
+> - glamorous
+> - memorable 
+> - outstanding
+> - promising
+> - spectacular
+> - top-notch
+> - unforgettable
+> - unique
+> - world-class
+
+# Blog Comment
+# Report
+
+
 ---
 # Letter / E-Mail
 ## Application
+> [!info] Header
+> From:
+> To:
+> Subject:
 
+> [!note] Beginning
+> I am writing in response to your advertisement I found in ... in which you are searching for ... in the field of ...
+
+> [!note] Body
+> - I am particularly interested because...
+> - …has always been a passion of mine
+> - Additionally, I participated in numerous workshops focusing...
+> - Highly competitive candidate
+> - Gain insights into...
+> - As for my personal qualities, I regard myself as...
+> - Gathered valuable experience
+
+> [!summary] End
+> I would be grateful if you would consider my application. In that case, I would be delighted to attend an interview at your earliest convenience.
+> - Yours sincerely, (Dear Mr, Ms, Mrs (Name))
+> - Yours faithfully, (Dear Sir or Madame)
 
 ## Motivation
 ## Circular
