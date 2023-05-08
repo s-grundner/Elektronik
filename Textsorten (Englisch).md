@@ -106,10 +106,30 @@
 # Blog Comment
 # Report
 
+> [!note] Beginning
+> - The (aim / purpose / intention) of this report is to (describe / examine / outline/summarize/ compare)
+> - This report outlines/contains/examines
+> - This report aims to 
+
+> [!example] 
+> This report is intended to (get a closer look at ...). It examines the significance of ... by analyzing a bar / pie chart and tries to give reasons for the recent development. Finally, predictions about the future of ... will be made.
+> 
+
+> [!note] Describing
+> - The slices of the pie chart show/compare
+> - The line graph shows 
+> - It can be seen clearly that 
+> - ... is twice as big as
+> - More than one third of ... 
+> - One out of four is ...
+
+
+
 
 ---
+
 # Letter / E-Mail
-## Application
+## Application / Motivation
 > [!info] Header
 > From:
 > To:
@@ -132,7 +152,24 @@
 > - Yours sincerely, (Dear Mr, Ms, Mrs (Name))
 > - Yours faithfully, (Dear Sir or Madame)
 
-## Motivation
 ## Circular
+
+> [!info] Header
+> From:
+> To:
+> Subject:
+
+> [!note] Opening paragraph
+> Dear All!
+> As you know, "our company has recently"...
+
+- 3 bullet points
+
+> [!info] Closing paragraph
+> Hope to see you at *our next cross-cultural workshop*.
+> Kind regards
+> ...
+
+--- 
 
 ![[Writing reference_Matura.pdf]]
