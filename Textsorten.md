@@ -26,13 +26,24 @@ Anrede und Grußformel
 # Kommentar
 Kommentieren bedeutet argumentieren
  - gründlich mit anderen Meinungen Auseinandersetzen
- - direkte Bezugnahme auf 
+ - direkte Bezugnahme auf andere Meinungen
+
 ## Einleitung
 Zum Nachdenken anregendes Beispiel.
 
 ## Hauptteil
 ## Schluss
+
 # Meinungsrede
+Zuhörer mit eigener Position überzeugen
 ## Einleitung
+- Vorstellen
+- Warum wird die Meinungsrede verfasst
+
 ## Hauptteil
+- Operatoren beachten
+
 ## Schluss
+- Zusammenfassen
+- Publikum danken
+- Verabschiedung
