@@ -1,10 +1,41 @@
 # Article
 - Catchy Title
+- Small introduction
 - Clear Text Structure
 - Be Objective and provide facts
 - Address readers and inform them about a certain topic
 - summarize the main points in the conclusion
+## Phrases
 
+>[!note] Introduction / Rhetorical questions
+> - Have you ever...?
+> - Are you one of those people...?
+> - What would life be like if,...?
+> - You might ask yourself...
+
+>[!info] Arguments
+> - Firstly, First of all 
+> - You might ask yourself, if
+> - Secondly / Another consideration is
+> - Apart from that / not only...but also
+> - In addition / furthermore / moreover / on top of that
+> - However / Nevertheless
+> - On the other hand
+
+> [!note] Examples
+> - for example
+> - for instance
+> - in particular
+
+> [!summary] Conclusion
+> - Above, all
+> - In conclusion
+> - To sum up
+> - All in all
+> - All aspects considered
+> - Taking everything into account
+
+## Example
 ![[Pasted image 20230508163022.png]]
 >[!tip] Catchy Title
 > **Go International**
@@ -51,6 +82,8 @@
 ---
 # Letter / E-Mail
 ## Application
+
+
 ## Motivation
 ## Circular
 
