@@ -104,29 +104,57 @@
 > - world-class
 
 # Blog Comment
-# Report
+## Structure 
+Name
+09 May, 11:24am
+Angela, thank you for bringing up this topic. I understand your concerns, but...
+- Bulletpoints
+- Short end sentences as goodbyes
+	- I hope i could help you
 
-> [!note] Beginning
-> - The (aim / purpose / intention) of this report is to (describe / examine / outline/summarize/ compare)
-> - This report outlines/contains/examines
-> - This report aims to 
+# Report
+## Beginning
+
+- The (aim / purpose / intention) of this report is to (describe / examine / outline/summarize/ compare)
+- This report outlines/contains/examines
+- This report aims to 
 
 > [!example] 
 > This report is intended to (get a closer look at ...). It examines the significance of ... by analyzing a bar / pie chart and tries to give reasons for the recent development. Finally, predictions about the future of ... will be made.
 > 
 
-> [!note] Describing
-> - The slices of the pie chart show/compare
-> - The line graph shows 
-> - It can be seen clearly that 
-> - ... is twice as big as
-> - More than one third of ... 
-> - One out of four is ...
+## Describing
+- The slices of the pie chart show/compare
+- The line graph shows 
+- It can be seen clearly that 
+- ... is twice as big as
+- More than one third of ... 
+- One out of four is ...
 
+> [!example] 
+> It can be seen that .... In addition, more than half of .... In contrast to that, only (four out of ten). The lowest category is ....
 
+## Future Predictions
+> [!example] 
+> It can be predicted that ... will be used less and less. As for ..., it will remain important, because... Finally, the ... might still. 
 
+## Conclusion
+It can therefore be concluded that .... So in the future....
+
+## Findings
+- The sources indicate that
+- These Statistics show that
+
+## Linkers
+- In addition
+- furthermore
+- what's more
+- moreover
+- besides
+- apart from
 
 ---
+
 
 # Letter / E-Mail
 ## Application / Motivation
@@ -171,5 +199,7 @@
 > ...
 
 --- 
+
+
 
 ![[Writing reference_Matura.pdf]]
