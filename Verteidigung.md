@@ -57,3 +57,7 @@ Software am PC
 - Versorgung (LDO)
 
 # CAD
+- 
+
+# Benutzeroberfläche
+
