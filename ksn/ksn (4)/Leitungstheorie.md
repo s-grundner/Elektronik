@@ -30,7 +30,7 @@ created: 23rd November 2022
 > $$
 > u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}
 > $$
-# Telegraphengleichung
+# [[Telegraphengleichung]]
 
 > [!summary] Kirchhoff'sche Gesetze in der Leitungstheorie
 > 1. Knotenregel
