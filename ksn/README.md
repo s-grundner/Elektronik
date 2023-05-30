@@ -31,7 +31,7 @@ created: 23rd November 2022
 - [[Lichtwellenleiter|LWL]]
 
 
-## Hochfrequenztechnik
+## [[sRDP KSN - HF-Technik|Hochfrequenztechnik]]
 - [[Leitungstheorie]]
 - Rechteckimpuls auf Leitung
 - Anpassung mit [[Smith-Diagramm]], Shunt, TL
