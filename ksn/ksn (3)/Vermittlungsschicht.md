@@ -39,11 +39,9 @@ Router leiten Datenpakete zwischen Netzen mit eigenen logischen Adressbereichen 
 Moderne Computernetze arbeiten fast ausschließlich mit dem [[Internet Protocol]].
 - Darum ist eine Protokollumsetzung auf der Vermittlungsschicht heute meist nicht nötig.
 
-```ad-note
 Auch VPN-[[Gateway|Gateways]] (Virtual Private Network) können auf der Vermittlungsschicht arbeiten.
  - Sie ermöglichen über unsichere öffentliche Netze den sicheren Zugriff auf entfernte sichere Netze
  - Dienste (z.B. E-Mail), die nur innerhalb des sicheren Netzes zur Verfügung stehen, werden über eine getunnelte Verbindung genutzt.
-```
 
 ## Vermittlungs-Protokolle
 - Dienen zur Weiterleitung und Wegbestimmung

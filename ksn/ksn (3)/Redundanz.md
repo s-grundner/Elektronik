@@ -1,0 +1,1 @@
+untercshied bits vor der Codierung und nach der codierung
