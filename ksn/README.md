@@ -1,4 +1,4 @@
----
+w---
 tags: ["MOT"]
 teacher: ["Martin Aichriedler"]
 inst: ["HTBLuVA Salzburg"]
@@ -52,6 +52,8 @@ created: 23rd November 2022
 - [[VLSM]]
 - [[Kollisionsdomäne|Kollisions-]], [[Broadcastdomäne]]
 - Segmentierung
+- #Netzwerke 
+
 # Übungen
 > [!example] Lindner Elektroaufgaben Band 3
 # Tags
