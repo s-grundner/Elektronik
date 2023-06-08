@@ -10,7 +10,6 @@ last_edited: 11th April 2022
 # Sicherungsschicht (OSI-Layer 2)
 ## Aufgaben der Sicherungsschicht
 ## Geräte der Sicherungsschicht
-### Lernende Bridges
 # Tags
 ![[4-FS_ComputerNetze.pdf]]
 ![[5-FS_ComputerNetze.pdf]]
