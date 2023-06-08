@@ -1,6 +1,6 @@
 ---
 tags: ["Netzwerke"]
-aliases: ["OSI-Modells"]
+aliases: ["OSI-Modell","OSI-Modells"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
 reference: []
