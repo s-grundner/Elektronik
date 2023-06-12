@@ -57,14 +57,14 @@ $$NA = \sin(\theta_{max})=\frac{1}{n_{0}}\cdot\sqrt{n_{1}^{2}-n_{2}^{2}}$$
 
 
 
-> Aufgabe: Die Kernbrachzahl eines LWL beträgt $1.55$, die des Matels $1.51$. Einspeisung erfolgt durch *[[Lufthülle der Erde|Luft]]*. Kerndurchmesser beträgt $50\mu m$, der LWL wird bei einer Wellenlänge von $0.8\mu m$ betrieben.
-##### 1. Lichtgeschwindigkeit im Kern:
-$$c_{1}= \frac{c_{0}}{n_{1}}=\frac{3\cdot10^{8} \frac{m}{s}}{1.55}=1.94\cdot 10^{8} \frac{m}{s}$$
-##### 2. Grenzwinkel der Totalreflexion
-$$\frac{\sin(\alpha_{1})}{\sin(\alpha_{2})}=\frac{n_{1}}{n_{2}}$$
-$$\text{für }\sin(\alpha_{2})=1 \rightarrow \alpha_{1} = \arcsin\left(\frac{n_{2}}{n_{1}}\right) = \arcsin\left(\frac{1.51}{1.55}\right) = 76.95°$$
-##### 3. Numerische Apertur
-##### 4. Akzeptanzwinkel
+>[!example] Aufgabe: Die Kernbrachzahl eines LWL beträgt $1.55$, die des Matels $1.51$. Einspeisung erfolgt durch *[[Lufthülle der Erde|Luft]]*. Kerndurchmesser beträgt $50\mu m$, der LWL wird bei einer Wellenlänge von $0.8\mu m$ betrieben.
+> ##### 1. Lichtgeschwindigkeit im Kern:
+> $$c_{1}= \frac{c_{0}}{n_{1}}=\frac{3\cdot10^{8} \frac{m}{s}}{1.55}=1.94\cdot 10^{8} \frac{m}{s}$$
+> ##### 2. Grenzwinkel der Totalreflexion
+> $$\frac{\sin(\theta_{1})}{\sin(\theta_{2})}=\frac{n_{1}}{n_{2}}$$
+> $$\text{für }\sin(\theta_{2})=1 \rightarrow \theta_{1} = \arcsin\left(\frac{n_{2}}{n_{1}}\right) = \arcsin\left(\frac{1.51}{1.55}\right) = 76.95°$$
+> ##### 3. Numerische Apertur
+> ##### 4. Akzeptanzwinkel
 
 
 ---
