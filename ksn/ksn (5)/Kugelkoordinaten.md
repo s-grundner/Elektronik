@@ -22,7 +22,7 @@ $$
 >![[kugelkoordinaten.png|450]]
 
 ## Anwendungen
-- Berechnung von [[Antennen]]kenngrößen.
+- Berechnung von [[Antenne]]nkenngrößen.
 
 # Quellen
 [Wikipedia](https://de.wikipedia.org/wiki/Kugelkoordinaten)

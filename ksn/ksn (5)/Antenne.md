@@ -41,7 +41,7 @@ $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
 [[Transversale Elektromagnetische Welle]]
 
 ### Nahfeld und Fernfeld
-
+ 
 Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert
 
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
