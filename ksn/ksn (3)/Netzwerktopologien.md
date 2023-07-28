@@ -15,6 +15,7 @@ last_edited: 11th April 2022
 ## Stern ⭐
 ## Vermascht 🖇️
 ## Vollvermascht 🕸️
+
 # Arten von Netzwerken
 ## BAN - Body Area Network
 ## PAN - Personal Area Network
