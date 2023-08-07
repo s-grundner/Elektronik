@@ -9,9 +9,11 @@ created: 8th April 2022
 
 # Induktivitäten
 ## Schaltzeichen
+
 | Symbol        | ESB |
 | ------------- | --- |
 | ![[indu.png]] | ![[indu-esb.png]]    |
+
 ## Induktivitäten als Bauelemente Leistungselektronischen Schaltungen
 Unter **Vernachlässigung** von **$R_{L}$** und der **parasitären Parallelkapazität $C_{L}$**, gilt für lineare Materialien der folgende Zusammenhang der die Spannung an der Induktivität beschreibt:
 $$
