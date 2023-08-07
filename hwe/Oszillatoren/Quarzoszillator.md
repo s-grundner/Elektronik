@@ -43,5 +43,4 @@ $$
 ## Bauteileigenschaften
 
 # Tags
-
 [ST Application Note](https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf)
