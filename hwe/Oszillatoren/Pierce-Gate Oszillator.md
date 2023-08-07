@@ -15,6 +15,6 @@ $R_{2} = 2k\Omega$
 $C_{1}, C_{2} \dots 20-30pF \rightarrow \text{bilden }C_{Last}$
 $C_{streu} = 2-3pF$
 
-# Tags
+
 [[Quarzoszillator]]
 [[Schmitt Trigger]]
