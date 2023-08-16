@@ -12,3 +12,4 @@ last_edited: 11th April 2022
 
 ---
 # Tags
+![C1-Smith_Chart_Aarhus_CAS_2010_caspers_version_20_September_2010](C1-Smith_Chart_Aarhus_CAS_2010_caspers_version_20_September_2010.pdf)
