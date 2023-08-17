@@ -16,4 +16,4 @@ Feldplatten bestehen aus Indiumantimonid (InSb), was eine hohe Elektronenbewegli
 ## Hall-Sonde
 ---
 # Tags
-![[MTRS23_02a_Sensorik.pdf]]
+![[mess-technik/assets/MTRS23_02a_Sensorik.pdf]]

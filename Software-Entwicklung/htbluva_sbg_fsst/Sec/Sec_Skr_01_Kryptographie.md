@@ -252,7 +252,7 @@ Mittels Diffie-Hellman-Merkle können sich Alice und Bob den gleichen, geheimen 
 
 Funktion:
 
-![](fsst/htbluva_sbg_fsst/Sec/bilder/Kry_DiffieHellman.png)
+![](Software-Entwicklung/htbluva_sbg_fsst/Sec/bilder/Kry_DiffieHellman.png)
 
 mit $g = [2, ..., n-2]$ und $s = [1, ..., n-1]$. Durch Abhören der Übertragung, kann n (Modul - Primzahl), g, $p_A$ und $p_B$ erfahren werden. Zur Berechnung von k, wird allerdings noch entweder $s_A$ oder $s_B$ benötigt. Diese Werte können ermittelt werden durch Lösen der Gleichung $p_A = g^{s_A} mod\ n$ nach $s_A$. Diese Bestimmung wird *diskretes Logarithmus-Problem* bezeichnet. Für große n mit g und n teilerfremd ist diese Gleichung ähnlich aufwändig zu bestimmen, wie eine große Primfaktorenzerlegung. Mit große Primzahl ist aktuell etwa $2^{2048}$ gemeint (Standardbrowser). Aktuell geht die öffentliche Kryptologie-Meinung davon aus, dass von Geheimdiensten deutlich weniger als $2^{100}$ Berechnungen durch reines Probieren gelöst werden kann (je nach Algorithmus gibt es jedoch Effizienzsteigerungen).
 

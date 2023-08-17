@@ -14,13 +14,13 @@ last_edited: 11th April 2022
 #### [[SPI]]
 #### I2S
 ### Asynchron
-#### UART/[[USART]]
+#### [UART](USART.md)/[[USART]]
 #### USB
-#### MIDI
+#### [MIDI](../MIDI.md)
 
 ## Parallel
 ### [PCI](https://de.wikipedia.org/wiki/Peripheral_Component_Interconnect)
 
 ---
 # Tags
-## [[Netzwerktopologien]]
+## [Netzwerktopologien](Netzwerktopologien.md)
