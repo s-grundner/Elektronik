@@ -16,7 +16,7 @@ created: 13th October 2022
 - Kleiner Kern ohne Luftspalt
 
 ## Schaltbild
-![[../../ET_DFW.png]]
+![[../assets/ET_DFW.png]]
 $$
 U_{a}=U_{e}\cdot \frac{t_{1}}{T_{S}}\cdot \frac{N_{2}}{N_{1}}
 $$
