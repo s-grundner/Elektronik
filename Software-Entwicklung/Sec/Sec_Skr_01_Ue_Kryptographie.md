@@ -228,7 +228,7 @@ int num = rand() % 256;
 
 Mit den so erzeugten Schlüsseln wird das Zeichen mittels obiger *XorSubstitution* verschlüsselt.
 
-<img src="bilder/Kry_StreamCipher_.png" style="zoom:80%;" />
+![Kry_StreamCipher](bilder/Kry_StreamCipher_.png)
 
 - Erstellen Sie die Klasse *StreamCipher* abgeleitet von der *XorSubstitution*-Klasse.
 

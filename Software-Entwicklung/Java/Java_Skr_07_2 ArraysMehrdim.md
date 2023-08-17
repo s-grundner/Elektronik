@@ -13,7 +13,7 @@ r[2] = new int[2];		// das 3te r-Element soll ein Array mit 2 Elementen sein
 r[3] = new int[3];		// das 4te r-Element soll ein Array mit 3 Elementen sein
 ```
 
-<img src="./bilder/05_FelderMehrdim01.png" width="200">
+![05_FelderMehrdim01](bilder/05_FelderMehrdim01.png)
 
 Wie man in diesem Beispiel erkennt ist es nicht notwendig, dass jedes Array-Element gleich groß sein muss (das wären rechteckige Arrays). Auch hier gibt's die Abkürzung:
 

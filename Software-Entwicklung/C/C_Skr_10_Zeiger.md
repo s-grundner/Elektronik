@@ -127,7 +127,7 @@ printf("%x", *ptr);
 
 die Adresse wird um 8 erhöht. Wird eine Adressvariable inkrementiert, dann wird der Wert immer um die Größe des Inhalts erhöht.
 
-<img src="./bilder/Zeiger1.png" width="500">
+![Zeiger1](assets/Zeiger1.png)
 
 ## Call-By-Value/Reference
 
