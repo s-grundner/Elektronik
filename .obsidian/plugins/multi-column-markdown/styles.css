@@ -86,13 +86,16 @@
     text-align: center;
 }
 
+.mcm-error-message-color {
+    color: var(--text-error);
+}
+
 .mcm-column-root-container {
     margin: 1.5625em 0;
 }
 
 .mcm-column-parent-container {
     padding: 0;
-    overflow: hidden;
     color: var(--text-normal);
     page-break-inside: avoid;
 
@@ -100,6 +103,10 @@
 
     display:flex; 
     flex-direction:row;
+}
+
+.mcm-doc-reflow-container {
+    margin-top: 1.5625em;
 }
 
 .mcm-region-shadow {
@@ -136,6 +143,10 @@
     word-wrap: normal;
 }
 
+.mcm-no-flex-shrink {
+    flex-shrink: 0;
+}
+
 .mcm-col-settings-preview {
     color: var(--text-normal);
 }
@@ -145,12 +156,19 @@
     padding: 0pt !important;
 }
 
-.mcm-content-overflow-hidden {
+.mcm-content-overflow-hidden-x {
     overflow-x: hidden;
 }
 
-.mcm-content-overflow-auto-scroll {
+.mcm-content-overflow-auto-scroll-x {
     overflow-x: auto;
+}
+
+.mcm-content-overflow-auto-scroll-y {
+    overflow-x: auto;
+}
+.mcm-content-overflow-hidden-y {
+    overflow-y: hidden;
 }
 
 .mcm-content-alignment-left {
@@ -163,4 +181,13 @@
 
 .mcm-content-alignment-right {
     text-align: right;
+}
+
+.mcm-span-content-alignment-center {
+    display: block;
+    text-align: center;
+}
+
+.mcm-small-font-message {
+    font-size: small
 }
