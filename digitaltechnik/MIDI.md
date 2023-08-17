@@ -48,7 +48,7 @@ Mit den Vier übrigen Bit wird der Kanal eingestellt, an den die Nachricht gesch
 >![](Pasted%20image%2020230817210520.png)
 
 > [!info] MIDI Kanäle auf die Hardware bezogen:
-> ![](Pasted%20image%2020230817210535.png)
+> ![](../assets/MIDI_Controller.png)
 > Channel 10: Drumpads (16 Quadratische Drucktasten oben)
 > Channel 1: Klaviertasten
 

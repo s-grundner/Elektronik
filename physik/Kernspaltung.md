@@ -30,7 +30,7 @@ ${}^{1,00866u}_{0}n+^{235,04392}_{92}U\longrightarrow {}^{236.04556u}_{92}U\long
 
 Man muss beachten, dass sich diese Energie auf einen Kernzerfall bezieht. Betrachtet man die Anzahl der Atomkerne, die in einem Kilogramm Uran enthalten sind und nimmt an, dass alle zerfallen, so beträgt die dann frei werdende Energie ~8,6⋅1012 J. Das ist etwa 290 000-mal so viel, wie bei der Verbrennung von 1 kg Steinkohle freigesetzt wird. $\rightarrow$ [[Bindungsenergie]]
 ## Kettenreaktion
-![[Kernspaltung.png]]
+![[../assets/Kernspaltung.png]]
 
 Treffen die bei einer Kernspaltung **frei werdenden Neutronen** auf weiteres **spaltbares Material** und haben sie darüber hinaus die "**richtige**" Geschwindigkeit, so können sie **weitere Kernspaltungen** hervorrufen.
 Es kommt zu einer Reaktion, die sich **von selbst fortsetzt**, zu einer Kettenreaktion.

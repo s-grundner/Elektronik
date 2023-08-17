@@ -6,7 +6,7 @@ source: ["Angela Lindner"]
 reference: []
 created: 18th August 2022
 ---
-![[thermodynamik2.png]]
+![[../assets/thermodynamik2.png]]
 
 # Temperatur und Teilchenmodell
 ## Teilchenmodell

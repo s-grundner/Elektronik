@@ -9,7 +9,7 @@ created: 2nd December 2022
 
 # Overfit
 Bsp.: [[Lineare Regression]] (Häuserpreis)
-![[Pasted image 20221202093554.png]]
+![[../assets/Overfit.png]]
 ## Regularisieren
 um das Overfitting zu verhindern
 

@@ -40,7 +40,7 @@ Die **absolute Luftfeuchtigkeit** ist der Gehalt an **Wasserdampf pro Kubikmeter
 
 Grafik: maximale absolute Luftfeuchtigkeit in Abhängigkeit der [[Temperatur und Teilchenmodell|Temperatur]]
 
-![[RelLuftFeuchte2.png|475]]
+![[../assets/RelLuftFeuchte2.png|475]]
 
 ### [[Lufthülle der Erde]]
 

@@ -16,7 +16,7 @@ last_edited: 11th April 2022
 ### Asynchron
 #### [UART](USART.md)/[[USART]]
 #### USB
-#### [MIDI](../MIDI.md)
+#### [MIDI](MIDI.md)
 
 ## Parallel
 ### [PCI](https://de.wikipedia.org/wiki/Peripheral_Component_Interconnect)

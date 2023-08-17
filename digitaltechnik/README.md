@@ -9,12 +9,12 @@ created: 10th December 2022
 - Grundlagen Logikgatter
 
 ## 2. JG (EDT)
-- [[Dioden]] 
+- [Dioden](../hwe/Dioden.md)
 - Flip Flops
 
 ## 3. JG
 - Digitale Zähler und Kippstufen
-- [[Metall-Oxid-Halbleiter-Feldeffekttransistor|MOSFETs]]
+- [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md)
 - Microcontroller Architekturen und Register
 - Messtechnische Erfassungen für Eingebettete Systeme 
 - AVR ([ATmega644p](AVR%20ATmega644p.md))
@@ -26,7 +26,7 @@ created: 10th December 2022
 - Embedded [Algorithms](../Software-Entwicklung/ds-algo/{MOC}%20Algorithms.md)
 
 ## 5. JG
-- [Machine Learning](Machine%20Learning/Machine%20Learning.md)Learning 
+- [Machine Learning](Machine%20Learning/Machine%20Learning.md)
 - ESP32
 
 ## Matura 
@@ -41,32 +41,32 @@ created: 10th December 2022
 - Zähler entwerfen
 - FlipFlops
 
-### [[{MOC} Transistor|Transistor]] als Schalter BSP
+### [Transistor](../hwe/{MOC}%20Transistor.md)als Schalter BSP
 - Berechnungen (Schaltschwellen, Dimensionieren usw. 3. Klasse)
-- [[Metall-Oxid-Halbleiter-Feldeffekttransistor|Mosfets]] (Logische Schaltung mit vielen [[Metall-Oxid-Halbleiter-Feldeffekttransistor|Mosfets]]: was kommt am ende raus)
+- [[../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor|Mosfets]] (Logische Schaltung mit vielen [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
 - CMOS
 ### Assembler
 - Große Tabelle: wo ist man am Ende, wie lang dauerts… 3.Klasse
-### [[AVR ATmega644p|Crumbtl]] 
+### [CrumbTL](AVR%20ATmega644p.md) 
 - ADC
 - Ext INT
 - Timer INT
-- Serielle [[{MOC} Schnittstellen|Schnittstelle]]
-### [[Ringbuffer]]
+- Serielle [Schnittstelle]({MOC}%20Schnittstellen.md)]
+### [Ringbuffer](Ringbuffer.md)]
 ### Zahlensysteme umrechnen
 - Dezimal
 - Binär
 - Hex
 - Oktal
 - Alle in alle umrechnen können
-### [[Machine Learning]]
+### [Machine Learning](Machine%20Learning/Machine%20Learning.md)
 - So wie beim Test
 ### Neuronale Netze BSP
 - Nur was wir im Unterricht gemacht haben (matritzen und eingänge gegeben, ausgänge ausrechnen)
-### [[Signaltheorie]]
-- Fourier-Analyse (auch [[Komplexe Zahlen|komplex]])
-- [[Fourier Transformation]]
-### [[Faltung]]
+### [Signaltheorie](Signaltheorie.md)
+- Fourier-Analyse (auch [komplex](../mathe/mathe%20(3)/Komplexe%20Zahlen.md))
+- [Fouriertransformation](../mathe/mathe%20(4)/Fourier%20Transformation.md)
+### [Faltung](../hwe/assets/pdf/Faltung.md)
 - 2 Signale falten
 ### Digitale Filter BSP
 - Einen Filter dimensionieren 

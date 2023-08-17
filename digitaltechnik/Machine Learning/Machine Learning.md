@@ -49,7 +49,7 @@ $$
 
 ## [[Lineare Regression]]
 
-![[Pasted image 20221202093554.png]]
+![[../assets/Overfit.png]]
 Hochgradige Kostenfunktion (nicht konvex)
 man findet das Globale minimum sehr schwer
 

@@ -11,7 +11,7 @@ created: 25th August 2022
 ## Entstehung eines Spektrums
 Beim Zerlegen von Sonnenlicht oder dem Licht einer Glühlampe durch ein Glasprisma, erhält man ein **Spektrum**:
 Ein Farbband von <mark style="background: #FF5582A6;">Rot</mark> nach <mark style="background: #D2B3FFA6;">Violett</mark>
-![[Refraction.png]]
+![[../assets/Refraction.png]]
 Weißes Licht besteht aus der Mischung mehrerer Farben
 
 
@@ -36,7 +36,7 @@ Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **E
 
 ### Spektroskop nach Kirchhoff und Bunsen
 ![[chemie/assets/Spektroskop.png|425]]
-![[-assets/Spektroskop.png]]
+![[../assets/Spektroskop.png]]
 **Funktionsweise:**
 - Das Licht fällt durch einen Spalt in das **Spaltrohr** über eine Linse auf ein Prisma. Der Durchmesser des Spalts kann variiert werden.
 - Am Prisma werden die Wellenanteile des Lichts unterschiedlich gebrochen.
@@ -53,7 +53,7 @@ Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente <m
 ![[Pasted image 20220825153403.png|450]]
 
 ## Absorption und Emission
-![[EmissionAbsorbtion.png|500]]
+![[../assets/EmissionAbsorbtion.png|500]]
 ![[absorbtion_emission.png|475]]
 1. Wird einem Atom **Energie zugeführt** (Flamme, Lichtbogen), können Elektronen auf **höhere Energieniveaus** gehoben werden.
 2. Es entsteht ein angeregter Zustand. Er ist nur **kurz** beständig, danach fällt das Elektron wieder in den **Grundzustand** zurück.

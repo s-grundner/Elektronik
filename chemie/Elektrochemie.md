@@ -84,7 +84,7 @@ $I = \dfrac{0.5\cdot F}{1800}$
 
 
 ## Spannungsreihe
-![[Pasted image 20220912192901.png]]
+![[../assets/Pasted image 20220912192901.png]]
 
 **Eisennagel in Kupferlösung:** Kupfer scheidet sich ab und Eisen löst sich.
 **Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und Kupfer bleibt Metallisch.
@@ -101,7 +101,7 @@ Je leichter ein [[Metallbindung|Metall]] in Lösung geht, desto unedler ist es.
 - edle Metalle in $HCl$ unlöslich
 ### Galvanisches Element
 <mark style="background: #FFB86CA6;">elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.</mark> 
-![[Pasted image 20220912194512.png|675]]
+![[../assets/Pasted image 20220912194512.png|675]]
 [[Primärelement#Daniell-Element]]
 
 #### Beim Schließen des Stromkreises passiert folgendes
@@ -124,7 +124,7 @@ Spannung $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_
 Spannung eines einzelnen Metalls kann nicht angegeben werden.
 Vermessung gegen eine Bezugselektrode ist notwendig. 
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$
-![[Pasted image 20220912200046.png]]
+![[../assets/Pasted image 20220912200046.png]]
 **Standard:** 
 - Wasserstoffgesättigte Pt-Elemente mit $HCl$: $c = 1.00 mol/l$
 - $p = 1 bar$ 

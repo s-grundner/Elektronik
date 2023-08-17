@@ -70,7 +70,7 @@ Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 >$\overline{I_{D}} = I_{a,min}$
 ><mark style="background: #FFB86CA6;">$A_{+}$</mark> = <mark style="background: #ADCCFFA6;">$A_{-}$</mark> (Fläche zwischen dem Stromverlauf von $\Delta I_{L}$ und $I_{a,min}$)
 
->![[Pasted image 20221001154620.png]]
+>![[../../assets/Pasted image 20221001154620.png]]
 
 ## [[Kapazität]]
 >![[BuckBoostDisconID.png]]

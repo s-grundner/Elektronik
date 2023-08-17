@@ -17,7 +17,7 @@ Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *
 
 
 ## Daniell-Element
-![[Pasted image 20220912194512.png|675]]
+![[../assets/Pasted image 20220912194512.png|675]]
 - Cu/Zn in Metallsalzlösung
 ## Leclanché-Element
 - Zink-Kohle-Batterie (Taschenlampenbatterie)

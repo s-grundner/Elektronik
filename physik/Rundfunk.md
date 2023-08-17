@@ -9,7 +9,7 @@ created: 21st June 2022
 
 # Rundfunk
 Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.
-![[RadioBands.png|500]]
+![[../assets/RadioBands.png|500]]
 
 ## Radiowellen
 ### [[Elektromagnetische Wellen]]

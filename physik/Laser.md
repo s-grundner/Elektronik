@@ -6,4 +6,4 @@ Light Amplification by Stimulated Emission
 -  **Laserlicht** ist monochromatisch, hat also eine ganz bestimmte Frequenz und damit eine ganz bestimmte Farbe, die von der chemischen Zusammensetzung des Energiespeichers abhängig ist.
 
 ## Helium Neon Laser
-![[NeHe-Laser.png]]
+![[../assets/NeHe-Laser.png]]

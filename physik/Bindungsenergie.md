@@ -15,7 +15,7 @@ $B=\Delta m\cdot c^{2}$
 Die Bindungsenergie ist also bereits bei der Bildung des gebundenen Systems freigesetzt und abgegeben worden und nun nicht mehr verfügbar. 
 Unter der *mittleren Bindungsenergie pro Nukleon* versteht man die Bindungsenergie bezogen auf ein Nukleon: $B_{mittel} = \dfrac{B}{A}$
 
-![[MittlereBindungsenergie3.png|1000]]
+![[../assets/MittlereBindungsenergie3.png|1000]]
 
 
 

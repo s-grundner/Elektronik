@@ -18,7 +18,7 @@ Der [[{MOC} Transistor|Transistor]] arbeitet als Schalter ($S$) der mittels PWM 
 Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 
 ## Lauf-Zeit-Diagramm
->![[Pasted image 20221002152648.png]]
+>![[../../assets/Pasted image 20221002152648.png]]
 > <mark style="background: #ABF7F7A6;">$\Delta I_{L1}$</mark>
 > <mark style="background: #FFF3A3A6;">$\Delta I_{L2}$</mark> 
 

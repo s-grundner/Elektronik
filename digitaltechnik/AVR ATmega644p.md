@@ -34,7 +34,7 @@ const int mydata[] PROGMEM = ...
 
 ## Assembly
 > [!example] 
-> ![[Pasted image 20230501185146.png]]
+> ![[assets/AVR_Assembly1.png]]
 > Vor dem Start des Programms wurde das gesamte interne Datenmemory (insklusive der Register R0-R31) auf 0x5A initialisiert. Indirektes Register X=R27:R26
 > **Was steht nach der Ausführung des Programms (also von C:0x002B-letztem Befehl) auf folgender Adressen:**
 > D:0x0029 : `0x5A ` 

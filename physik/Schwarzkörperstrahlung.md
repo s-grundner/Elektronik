@@ -20,7 +20,7 @@ f(\omega, T)&\dots\text{Spektrum}\\
 T&\dots\text{Temperatur des Körpers}
 \end{align*}
 $$
-![[planckStrahlungsspektrum.png]]
+![[../assets/planckStrahlungsspektrum.png]]
 
 Durch das plancksche Strahlungsgesetz wird beschrieben, wie das Strahlungsspektrum eines schwarzen Körpers in Abhängigkeit von seiner [[Temperatur und Teilchenmodell|Temperatur]] aussieht.
 

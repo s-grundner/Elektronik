@@ -8,7 +8,7 @@ created: 2nd October 2022
 ---
 
 # Primär getakteter [[Schaltnetzteil|Schaltregler]]
-![[PrimGetaktSMPS.png]]
+![[../../assets/PrimGetaktSMPS.png]]
 ## Eigenschaften
 ### Nachteile gegenüber [[Sekundär getaktete Schaltregler]]
 - Potenzialtrennung in der Ansteuerlogik

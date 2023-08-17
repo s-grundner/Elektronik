@@ -33,7 +33,7 @@ Grundsätzlich kann zwischen externen und internen Störquellen unterschieden we
 Man untersheidet wiederum;
 ###### Natürliche Störquellen
 - Atmospherische Entladungen (Blitz)
-- Elektrostatische Entladungen (ESD) (z.B. Reibungselektrizität)
+- Elektrostatische Entladungen ([ESD](../digitaltechnik/Electrostatic%20Discharge.md)) (z.B. Reibungselektrizität)
 	- bei Kunststoffbeschichteten Stühlen & Tischen
 	- bei Bekleidung und Böden aus synthetischen Stoffen
 	- bei nicht geerdeten Werkzeugen
@@ -45,7 +45,7 @@ Man untersheidet wiederum;
 - Fernseh / Radiosender, Mobilfunk
 
 ##### Interne Störquellen
-- Lade- & Entladevorgänge von L,C
+- Lade- & Entladevorgänge von L,[C](../assets/C.md)
 - Takterzeugung und Verteilung
 - Signalwechsel auf Leitungen
 - Schaltvorgänge von [[{MOC} Transistor|Transistoren]]
