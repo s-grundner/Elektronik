@@ -3,7 +3,7 @@
 > [!example] Bauteilwerte Bestimmen
 >Berechne die primäre [[Induktivitäten|Induktivität]] sowie das Übersetzungsverhältnis, entsprechend der im Unterricht gezeigten online [Rechenhilfe](http://schmidt-walter-schaltnetzteile.de/smps/spw_smps.html):
 >Gib die Größen L1 und ü = N1:N2 in der Mitschrift an.
-> ![[../../assets/Pasted image 20221013192440.png|575]]
+> ![[../assets/SperrwandlerIMG2.png|575]]
 >$$
 >L_{2} = \frac{L_{1}}{(N_{1}:N_{2})^{2}} = \frac{88.58\mu H}{2.36^{2}} = 15.9\mu H
 >$$

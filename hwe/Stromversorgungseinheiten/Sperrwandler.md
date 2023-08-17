@@ -13,7 +13,7 @@ created: 2nd October 2022
 
 
 ## Schaltung
-![[../../assets/Pasted image 20221013145359.png]]
+![[../assets/SperrwandlerIMG.png]]
 Der Transistor arbeitet als Schalter $S$, der mit einer PWM Steuerspannung ($U_{st}$) angesteuert wird.
 $$
 U_{a}= U_{e}\cdot \frac{N_{2}}{N_{1}}\cdot \frac{t_{1}}{T-t_{1}}

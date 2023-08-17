@@ -12,7 +12,7 @@ Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
 | <mark style="background: #FFB86CA6;">Colpitts:</mark> kapazitiv | <mark style="background: #FFB86CA6;">Hartley:</mark> [[Induktivitäten\|induktiv]] | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
 | --------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![[Pasted image 20221128102513.png]]                            | ![[Pasted image 20221128102527.png]]                                              | ![[Pasted image 20221128102551.png]]                                    |
+| ![[../assets/colpitts1.png]]                            | ![[Pasted image 20221128102527.png]]                                              | ![[Pasted image 20221128102551.png]]                                    |
 
 Häufigste [[Kombination]]: Colpitts Oszillator (mit kapazitiver Rückkopplung)
 Vorteil: 

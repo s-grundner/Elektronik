@@ -10,7 +10,7 @@ created: 10th September 2022
 # Carnot Prozess
 Der **Carnot-[Kreisprozess](https://de.wikipedia.org/wiki/Kreisprozess "Kreisprozess")** oder **-Zyklus** ist ein Gedankenexperiment, das zur Realisierung einer reversiblen Wärme-Kraft-Maschine zur Umwandlung von Wärme in Arbeit dient.
 ## Verbrennungsmotor
-![[../assets/Pasted image 20220910204237.png|550]]
+![[../assets/carnot1.png|550]]
 
 **Viertakt-Ottomotor:**
 •	*Die 4 Takte sind:* Ansaugen, Verdichten, Arbeiten, Auspuffen / Suck, Squeeze, Bang, Blow

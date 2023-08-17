@@ -1,6 +1,6 @@
 ---
 tags: ["MOT"]
-teacher: ["Robert Vogl "]
+teacher: ["Robert Vogl"]
 inst: ["HTBLuVA Salzburg"]
 created: 10th December 2022
 ---
@@ -23,11 +23,11 @@ created: 10th December 2022
 - Microcontroller
 - AVR ([ATmega644p](AVR%20ATmega644p.md))
 - Digitale [Schnittstellen]({MOC}%20Schnittstellen.md)
-- Embedded [Algorithms](../Software-Entwicklung/ds-algo/{MOC}%20Algorithms.md)
+- Embedded [Algorithms](../software-entwicklung/ds-algo/{MOC}%20Algorithms.md)
 
 ## 5. JG
 - [Machine Learning](Machine%20Learning/Machine%20Learning.md)
-- ESP32
+- [ESP32](../software-entwicklung/IoT/ESP32.md)
 
 ## Matura 
 ### Schaltungsentwurf

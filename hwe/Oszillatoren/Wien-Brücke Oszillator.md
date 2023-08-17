@@ -13,7 +13,7 @@ created: 7th November 2022
 - breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[[Kapazität|Kondensator]]. 
 
 ## Schaltung
-![[Pasted image 20230124205649.png|1000]]
+![[assets/WB.png|1000]]
 
 > [!summary] 
 > Resonanzfrequenz: $\omega_{0}=\dfrac{1}{RC}$

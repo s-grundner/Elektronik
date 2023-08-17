@@ -19,9 +19,9 @@ last_edited: 19th April 2022
 ### Graph-Representation
 #### Edge List
 #### [Adjezenzmatrix](https://de.wikipedia.org/wiki/Adjazenzmatrix)
-![[adj_matrix.png|575]]
+![[../assets/adj_matrix.png|575]]
 #### Adjezenzliste
-![[adj_liste.png|575]]
+![[../assets/adj_liste.png|575]]
 
 ### [[Heap]]
 ---

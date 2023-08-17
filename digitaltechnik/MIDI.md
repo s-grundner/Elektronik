@@ -45,7 +45,7 @@ Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status- und Kan
 Mit den Vier übrigen Bit wird der Kanal eingestellt, an den die Nachricht geschickt werden soll. Ein einzelner Controller kann also bis zu 16 verschieden MIDI-Kanäle in einer DAW ansprechen. Auf einem MIDI-Keyboard würden zum Beispiel die Klaviertasten auf einen anderen Kanal geschickt werden als die Drumpads.
 
 >[!info] Vier verschiede MIDI-Spuren mit dem gleichen Controller als Input
->![](Pasted%20image%2020230817210520.png)
+>![](../assets/MIDI-SW-Channel.png)
 
 > [!info] MIDI Kanäle auf die Hardware bezogen:
 > ![](../assets/MIDI_Controller.png)
