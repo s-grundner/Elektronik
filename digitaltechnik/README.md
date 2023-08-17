@@ -17,16 +17,16 @@ created: 10th December 2022
 - [[Metall-Oxid-Halbleiter-Feldeffekttransistor|MOSFETs]]
 - Microcontroller Architekturen und Register
 - Messtechnische Erfassungen für Eingebettete Systeme 
-- AVR ([[AVR ATmega644p|ATmega644p]])
+- AVR ([ATmega644p](AVR%20ATmega644p.md))
 
 ## 4. JG
 - Microcontroller
-- AVR ([[AVR ATmega644p|ATmega644p]])
-- Digitale [[{MOC} Schnittstellen|Schnittstellen]]
-- Embedded [[{MOC} Algorithms|Algorithms]]
+- AVR ([ATmega644p](AVR%20ATmega644p.md))
+- Digitale [Schnittstellen]({MOC}%20Schnittstellen.md)
+- Embedded [Algorithms](../Software-Entwicklung/ds-algo/{MOC}%20Algorithms.md)
 
 ## 5. JG
-- [[Machine Learning]] 
+- [Machine Learning](Machine%20Learning/Machine%20Learning.md)Learning 
 - ESP32
 
 ## Matura 
