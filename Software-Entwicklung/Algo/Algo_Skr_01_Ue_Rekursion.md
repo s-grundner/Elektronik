@@ -116,11 +116,11 @@ int calc(int n, double xn, double yn, double a, double b) {
 
 Hier wurde die komplexe Zahl in einen Real- (x = Re(z) bzw. a) und einen Imaginärteil (y = Im(z) bzw. b) aufgespaltet. Das Beispiel wurde in JAVA programmiert um eine grafische Darstellung zu vereinfachen. Die Farbe der Punkte gibt die Anzahl der Iterationsschritte wieder ab denen der Grenzwert (MAX) überschritten wird:
 
-<img src="./bilder/C_RekursFraktal3.png" style="width: 500px;"/>
+![C_RekursFraktal3](bilder/C_RekursFraktal3.png)
 
 beziehungsweise:
 
-<img src="./bilder/C_RekursFraktal2.png" style="width: 500px;"/>
+![C_RekursFraktal2](bilder/C_RekursFraktal2.png)
 
 ### Größter gemeinsamer Teiler (ggT) (256)
 
@@ -217,7 +217,7 @@ Lösungsstrategie:
 
 Ein klassisches Beispiel für eine rekursive Problemlösung sind die Türme von Hanoi. Dabei sind n Scheiben mit Loch auf einer Stange A aufgesteckt. Die Scheiben sind auf eine 2te Stange B umzustecken. Dabei darf immer nur eine Scheibe nach der anderen bewegt werden und es darf keine größere auf eine kleinere Scheibe zum liegen kommen. Als Hilfe steht eine dritte Stange C zur Verfügung:
 
-<img src="./bilder/hanoi.png" style="width: 400px;"/>
+![hanoi](bilder/hanoi.png)
 
 Für einen rekursiven Algorithmus macht man sich keine Gedanken über die umfassende Problemlösung. Man versucht das Problem um "einen Grad" zu vereinfachen:
 

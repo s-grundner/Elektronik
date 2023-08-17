@@ -90,7 +90,7 @@ Bringen Sie das Java-Programm *VisualLabyrinth.html* zum Laufen. Dazu muss die S
 
 Acht Damen sollen so auf einem 8x8-Felder Schachbrett platziert werden, dass keine Dame eine andere bedroht. Damen bedrohen Figuren entlang der waagrechten, senkrechten und diagonalen Linien:
 
-<img src="./bilder/8damen.png" style="width: 200px;"/>
+![8damen](bilder/8damen.png)
 
 Wird die Dame im dargestellten Feld gesetzt, dann darf keine weitere Dame auf den mit Punkten markierten Feldern stehen.
 
@@ -212,6 +212,8 @@ Erweitern Sie den js-Code des 8-Damen-Problems so, dass die HTML-Datei Backtrack
 ## Sudoku (2100)
 
 Gegeben ist ein Sudoku Feld mit neun 3x3 großen Teilfeldern. Die Teilfelder sind 3x3 angeordnet.
+
+![[sudoku]]
 
 <img src="./bilder/sudokufeld.png" style="width: 200px;"/>
 
