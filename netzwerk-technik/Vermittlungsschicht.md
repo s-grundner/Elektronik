@@ -3,9 +3,7 @@ tags: ["Netzwerke"]
 aliases: ["Layer 3", "Network Layer"]
 subject: ["ksn"]
 source: ["Martin Aichriedler", "Christian Baun"]
-reference: []
 created: 4th April 2022
-last_edited: 11th April 2022
 ---
 
 # Vermittlungsschicht (OSI-Layer 3)

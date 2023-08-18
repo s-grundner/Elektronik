@@ -4,7 +4,6 @@ aliases: ["Heaviside-Funktion", "Heaviside-Transformation"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 created: 26th April 2022
-last_edited: 26th April 2022
 ---
 
 # Die Einheitssprungfunktion

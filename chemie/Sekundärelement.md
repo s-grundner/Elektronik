@@ -3,7 +3,6 @@ tags: []
 aliases: ["Sekundärelemente", "Akkus", "Akku", "Akkumulator", "Akkumulatoren"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 21st August 2022
 ---
 

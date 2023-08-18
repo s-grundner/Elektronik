@@ -3,7 +3,6 @@ tags: []
 aliases: ["Stabilisierungsschaltung", "Stabilisierungsschaltungen", "Linearregler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 16th March 2022
 ---
 

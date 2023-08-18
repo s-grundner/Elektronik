@@ -3,9 +3,7 @@ tags: []
 aliases: ["UART"]
 subject: ["dic"]
 source: ["Robert Vogl"]
-reference: []
 created: 19th April 2022
-last_edited: 19th April 2022
 ---
 
 # Universal Asynchronous Receive and Transmit

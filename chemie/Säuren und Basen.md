@@ -3,7 +3,6 @@ tags: []
 aliases: ["Sauer", "Säure", "Base", "Säuren", "Basen"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 25th August 2022
 ---
 

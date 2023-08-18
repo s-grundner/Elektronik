@@ -3,7 +3,6 @@ tags: []
 aliases: ["Flyback-Converter"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 2nd October 2022
 ---
 

@@ -3,9 +3,7 @@ tags: ["Netzwerke"]
 aliases: ["Variable Length Subnet Mask"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 8th April 2022
-last_edited: 11th April 2022
 ---
 
 # VLSM  - Variable Length Subnet Mask

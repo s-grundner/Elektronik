@@ -3,7 +3,6 @@ tags: []
 aliases: ["Primär getakteter SMPS", "Primär getaktete SMPS"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 2nd October 2022
 ---
 

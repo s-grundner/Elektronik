@@ -3,7 +3,6 @@ tags: []
 aliases: ["Außenelektronen", "Valenzen", "Valenzelektron", "Außenelektron"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 20th August 2022
 ---
 

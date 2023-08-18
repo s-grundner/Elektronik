@@ -3,7 +3,6 @@ tags: ["ds-algo"]
 aliases: ["Circular Buffer", "Circular Queue"]
 subject: ["dic", "fsst"]
 source: ["Robert Vogl"]
-reference: []
 created: 19th April 2022
 ---
 

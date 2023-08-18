@@ -3,7 +3,6 @@ tags: []
 aliases: ["Molares Volumen", "Gasvolumen"]
 subject: ["physik"]
 source: ["Fritz Struber"]
-reference: []
 created: 10th September 2022
 ---
 

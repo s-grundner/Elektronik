@@ -3,9 +3,7 @@ tags: ["Licht", "EM-Wellen"]
 aliases: ["Brechungsgesetz", "Snelluissches Gesetz", "Snelluis-Gesetz"]
 subject: ["physik"]
 source: ["Angela Lindner", "Martin Aichriedler", "Anton Jerey"]
-reference: []
 created: 28th March 2022
-last_edited: 11th April 2022
 ---
 
 # Snelliussches Brechungsgesetz

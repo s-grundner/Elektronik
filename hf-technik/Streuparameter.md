@@ -3,7 +3,6 @@ tags: []
 aliases: [S-Parameter]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 28th September 2022
 ---
 

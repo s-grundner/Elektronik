@@ -3,7 +3,6 @@ tags: []
 aliases: ["Stoß"]
 subject: ["physik"]
 source: ["Angela Lindner"]
-reference: []
 created: 31st May 2022
 ---
 

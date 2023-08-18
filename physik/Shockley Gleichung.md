@@ -3,9 +3,7 @@ tags: []
 aliases: []
 subject: ["physik"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 30th March 2022
-last_edited: 11th April 2022
 ---
 
 # [Shockley Gleichung](https://de.wikipedia.org/wiki/Shockley-Gleichung)

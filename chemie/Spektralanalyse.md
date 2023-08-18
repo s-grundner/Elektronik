@@ -3,7 +3,6 @@ tags: []
 aliases: ["Licht"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 25th August 2022
 ---
 

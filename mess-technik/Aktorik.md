@@ -3,7 +3,6 @@ aliases: ["Aktor"]
 subject: ["mtrs"]
 source: ["Norbert Irnleitner"]
 created: 31st March 2022
-last_edited: 31st March 2022
 ---
 
 # Aktorik

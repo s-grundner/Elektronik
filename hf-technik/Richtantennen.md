@@ -3,7 +3,6 @@ tags: []
 aliases: ["Phase Arrays", "Phase Array", "Array Faktor"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 1st December 2022
 ---
 

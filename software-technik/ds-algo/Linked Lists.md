@@ -3,9 +3,7 @@ tags: ["ds-algo", ]
 aliases: ["Linked List"]
 subject: ["null"]
 source: ["null"]
-reference: []
 created: 17th April 2022
-last_edited: 17th April 2022
 ---
 
 # Linked Lists

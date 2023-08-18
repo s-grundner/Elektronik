@@ -3,7 +3,6 @@ tags: []
 aliases: ["Band-Gap Referenz", "bandgap reference"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 6th April 2022
 ---
 

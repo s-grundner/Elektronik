@@ -3,7 +3,6 @@ tags: ["RF"]
 aliases: ["Radio Frequency Identification"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 1st December 2022
 ---
 

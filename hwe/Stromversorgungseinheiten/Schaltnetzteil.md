@@ -3,7 +3,6 @@ tags: []
 aliases: ["SMPS", "Switched Mode Power Supply", "Schaltregler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 6th April 2022
 ---
 

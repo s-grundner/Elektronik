@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["dic"]
 source: ["Siegbert Schremof"]
-reference: []
 created: 24th January 2023
 ---
 

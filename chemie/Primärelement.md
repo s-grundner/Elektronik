@@ -3,7 +3,6 @@ tags: []
 aliases: ["Batterie", "Batterien", "Primärelemente"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 21st August 2022
 ---
 

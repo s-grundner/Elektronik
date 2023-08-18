@@ -3,7 +3,6 @@ tags: []
 aliases: ["Phasenregelschleife", "PLL"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 19th January 2023
 ---
 

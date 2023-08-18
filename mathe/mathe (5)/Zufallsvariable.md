@@ -3,7 +3,6 @@ tags: ["Statistik"]
 aliases: ["Zufallsvariablen", "Zufallsgröße", "Zufallsgrößen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 30th November 2022
 ---
 

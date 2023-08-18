@@ -3,7 +3,6 @@ tags: []
 aliases: ["Temperatur", "Brown'sche Bewegung"]
 subject: ["physik"]
 source: ["Angela Lindner"]
-reference: []
 created: 18th August 2022
 ---
 

@@ -4,7 +4,6 @@ aliases: ["CrumbTL", "CrumTL", "ATmega644p", "at644p"]
 subject: ["dic"]
 source: ["Robert Vogl"]
 created: 21st March 2022
-last_edited: 11th April 2022
 ---
 
 # AVR ATmega644p

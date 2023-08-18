@@ -3,7 +3,6 @@ tags: []
 aliases: ["Funk", "Radio"]
 subject: ["ksn, physik"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 21st June 2022
 ---
 

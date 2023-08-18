@@ -3,7 +3,6 @@ tags: ["Statistik"]
 aliases: ["geordnete Stichprobe", "geordnete Stichproben", "Variationen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 4th January 2023
 ---
 

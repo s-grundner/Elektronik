@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 28th November 2022
 ---
 

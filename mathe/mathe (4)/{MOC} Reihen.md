@@ -3,7 +3,6 @@ aliases: ["Reihen", "Folgen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 created: 24th March 2022
-last_edited: 11th April 2022
 ---
 # Map of Content - Reihen
 ## [Konvergente Folgen](../mathe%20(3)/Konvergente%20Folgen.md)

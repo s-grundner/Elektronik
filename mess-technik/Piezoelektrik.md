@@ -3,7 +3,6 @@ tags: []
 aliases: ["Piezogeber", "Piezo", "Piezoelektrisch", "Piezoeffekt"]
 subject: ["mtrs"]
 source: ["Norbert Irnleitner"]
-reference: []
 created: 7th June 2022
 ---
 

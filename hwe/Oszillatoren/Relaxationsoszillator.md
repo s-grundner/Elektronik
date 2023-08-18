@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 20th December 2022
 ---
 # Relaxationsoszillator

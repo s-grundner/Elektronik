@@ -3,7 +3,6 @@ tags: []
 aliases: ["Voltage-Mode"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 11th May 2022
 ---
 

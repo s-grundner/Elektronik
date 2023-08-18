@@ -3,7 +3,6 @@ tags: ["Sekundär getaktete SMPS"]
 aliases: []
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 2nd October 2022
 ---
 

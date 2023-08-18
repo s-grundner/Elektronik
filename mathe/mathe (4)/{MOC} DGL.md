@@ -4,7 +4,6 @@ aliases: ["DGL", "Differenzialgleichungen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 created: 14th March 2022
-last_edited: 11th April 2022
 ---
 # Map of Content - Differentialgleichungen (DGL)
 ## [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)

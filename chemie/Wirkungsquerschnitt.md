@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["chemie"]
 source: []
-reference: []
 created: 10th September 2022
 ---
 

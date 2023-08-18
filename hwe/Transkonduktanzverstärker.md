@@ -3,7 +3,6 @@ tags: []
 aliases: ["OTA", "Operational-Transconductance-Amplifier"]
 subject: ["hwe"]
 source: ["Aaron Lanterman"]
-reference: []
 created: 8th June 2022
 ---
 

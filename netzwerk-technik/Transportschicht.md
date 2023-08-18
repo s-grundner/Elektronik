@@ -3,9 +3,7 @@ tags: ["Netzwerke"]
 aliases: ["Transport Layer", "Layer 4"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 6th April 2022
-last_edited: 11th April 2022
 ---
 
 # Transportschicht (OSI-Layer 4)

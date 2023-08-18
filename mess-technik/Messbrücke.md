@@ -3,9 +3,7 @@ tags: [""]
 aliases: ["Messbrücken", "Auto-Balancing-Bridge"]
 subject: ["mtrs"]
 source: ["Norbert Irnleitner", "Harald Salhofer"]
-reference: []
 created: 31st March 2022
-last_edited: 11th April 2022
 ---
 
 # Messbrücke

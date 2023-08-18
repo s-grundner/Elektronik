@@ -3,9 +3,7 @@ tags: ["ds-algo"]
 aliases: []
 subject: ["fsst"]
 source: ["Anton Hofmann", "freecodecamp.org"]
-reference: []
 created: 18th April 2022
-last_edited: 18th April 2022
 ---
 
 # Recursion

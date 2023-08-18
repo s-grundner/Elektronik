@@ -3,7 +3,6 @@ tags: ["Microcontroller"]
 aliases: ["Pierce Gate Oszillator", "PGO"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 1st February 2023
 ---
 

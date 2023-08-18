@@ -3,7 +3,6 @@ tags: ["Machine Learning"]
 aliases: []
 subject: ["dic"]
 source: ["Robert Vogl"]
-reference: []
 created: 2nd December 2022
 ---
 

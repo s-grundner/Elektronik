@@ -3,9 +3,7 @@ tags: []
 aliases: ["TCP", "Transmission Control Protocol"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 6th May 2022
-last_edited: 6th May 2022
 ---
 
 # TCP - Transmission Control Protocol

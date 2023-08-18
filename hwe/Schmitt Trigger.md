@@ -3,7 +3,6 @@ tags: ["Grundschaltungen", "Schaltungsentwicklung", "Schaltungsanalyse"]
 aliases: ["Schmitttrigger"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf", "Michael Offenhuber"]
-reference: []
 created: 10th January 2023
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["physik"]
 source: ["Sophie öttl"]
-reference: []
 created: 15th September 2022
 ---
 

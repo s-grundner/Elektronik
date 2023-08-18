@@ -3,7 +3,6 @@ tags: []
 aliases: ["TEM-Welle", "Transversale EM-Welle", "transversal"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 28th November 2022
 ---
 
