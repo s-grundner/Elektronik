@@ -24,7 +24,7 @@ Ein Gemisch kann <mark style="background: #D2B3FFA6;">homogen</mark> (gleicharti
 
 - Reinstoff mit physikalischen Methoden nicht mehr zerlegbar
 - Verbindung mit chemischen Methoden zerlegbarer Reinstoff, besteht aus Elementen
-- [Moleküle](Atombindung.md) sind zwei- bis mehratomige Teilchen
+- [Moleküle](chemie/Atombindung.md) sind zwei- bis mehratomige Teilchen
 - Elemente weder physikalisch noch chemisch zerlegbarer Grundstoff
 
 ## Aggregatzustände
@@ -62,9 +62,9 @@ Ein Gemisch kann <mark style="background: #D2B3FFA6;">homogen</mark> (gleicharti
 
 ## Chemische Umsatzberechnung
 
-[Molvolumen](Molvolumen.md)
+[Molvolumen](chemie/Molvolumen.md)
 # Tags
-[Atommodelle](Atommodelle.md)
-[PSE](Periodensystem%20der%20Elemente.md)
-[Stöchiometrie](St%C3%B6chiometrie.md)
+[Atommodelle](chemie/Atommodelle.md)
+[PSE](chemie/Periodensystem%20der%20Elemente.md)
+[Stöchiometrie](chemie/Stöchiometrie.md)
 #incomplete 

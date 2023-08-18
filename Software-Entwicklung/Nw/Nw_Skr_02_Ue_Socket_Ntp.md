@@ -246,7 +246,7 @@ void MainWindow::readyRead() {
 
 Erstellen Sie ein Programm das eine graphische Uhr darstellt. Beispielhaft:
 
-![](bilder/Nw_Ue_NtpUhr.png)
+![](software-entwicklung/Nw/bilder/Nw_Ue_NtpUhr.png)
 
 - Die Uhr soll im Sekunden-Takt aktualisiert werden
 - Im Minuten-Takt soll die Uhrzeit mittels NTP aktualisiert werden

@@ -12,7 +12,7 @@ last_edited: 11th April 2022
 Die Shockley-Gleichung, benannt nach William B. Shockley, beschreibt die Strom-Spannungs-Kennlinie einer Halbleiterdiode.
 
 Sie lautet nach Wagner:
-## Bei der [Dioden](Dioden.md):
+## Bei der [Dioden](hwe/Dioden.md):
 $I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
 
 | Bezeichnung | Beschreibung bei Transistor |

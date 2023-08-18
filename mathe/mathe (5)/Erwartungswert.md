@@ -8,11 +8,11 @@ created: 30th November 2022
 ---
 
 # Erwartungswert
-- Der Erwartungswert ist ein Konzept aus der Statistik, das beschreibt, wie wahrscheinlich es ist, dass ein bestimmtes [Ereignis](Ereignis.md) eintritt.
+- Der Erwartungswert ist ein Konzept aus der Statistik, das beschreibt, wie wahrscheinlich es ist, dass ein bestimmtes [Ereignis](mathe/mathe%20(5)/Ereignis.md) eintritt.
 - Es wird auch als Erwartung, Durchschnitt oder Mittelwert bezeichnet und wird in der Regel mit dem griechischen Buchstaben μ symbolisiert.
-- Der Erwartungswert einer [Zufallsvariable](Zufallsvariable.md) X ist der Wert, den man erwarten würde, wenn man die [Zufallsvariable](Zufallsvariable.md) X viele Male beobachtet und ihren Wert in jedem Durchgang notiert. Dieser Wert wird berechnet, indem man alle möglichen Werte der [Zufallsvariable](Zufallsvariable.md) X mit ihren jeweiligen Wahrscheinlichkeiten multipliziert und dann alle diese Produkte addiert.
-## Erwartungswert einer [Zufallsvariable](Zufallsvariable.md)
-Ist $X$ eine diskrete [Zufallsvariable](Zufallsvariable.md) mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
+- Der Erwartungswert einer [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) X ist der Wert, den man erwarten würde, wenn man die [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) X viele Male beobachtet und ihren Wert in jedem Durchgang notiert. Dieser Wert wird berechnet, indem man alle möglichen Werte der [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) X mit ihren jeweiligen Wahrscheinlichkeiten multipliziert und dann alle diese Produkte addiert.
+## Erwartungswert einer [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md)
+Ist $X$ eine diskrete [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x)$ so heißt:
 
 >[!summary] $$E(X)=\sum_{i=1}^{n}p_{i}\cdot x_{i}$$
 
@@ -26,7 +26,7 @@ E(X)&= \frac{1}{36}\cdot2+\frac{2}{36}\cdot3+\frac{3}{36}\cdot4+\frac{4}{36}\cdo
 \end{align*}
 $$
 ### Rechenregeln für den Erwartungswert
-$p_{1};\dots ;p_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [Zufallsvariable](Zufallsvariable.md)
+$p_{1};\dots ;p_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md)
 $$E\left(\sum\limits^{n}_{i=1}p_{i}X_{i}\right) = \sum\limits_{i=1}^{h} p_{i}\cdot x_{i}$$
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
 > [!example] Bsp

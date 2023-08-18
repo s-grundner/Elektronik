@@ -13,7 +13,7 @@ Kratfstoß: $p = F\cdot t$
 Impulsübertragung: $p = m\cdot v$
 
 ## Unelastischer Stoß
-![Unelastischer_stoss](Unelastischer_stoss.svg)
+![Unelastischer_stoss](physik/assets/Unelastischer_stoss.svg)
 $$
 \begin{align*}
 m_{1}\cdot v_{1}+m_{2}\cdot v_{2} &= (m_{1}+m_{2})\cdot v_{s}\\

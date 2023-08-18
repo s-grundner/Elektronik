@@ -8,13 +8,13 @@ created: 4th January 2023
 ---
 
 # Permutation
-Unter einer **Permutation** versteht man in der [Kombinatorik](Kombinatorik.md) eine Anordnung von Objekten in einer bestimmten Reihenfolge.
+Unter einer **Permutation** versteht man in der [Kombinatorik](mathe/mathe%20(5)/Kombinatorik.md) eine Anordnung von Objekten in einer bestimmten Reihenfolge.
 
 Die Anzahl der Permutationen ohne Wiederholung ergibt sich als [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik) "Fakultät (Mathematik)"),
 während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffizienten](https://de.wikipedia.org/wiki/Multinomialkoeffizient "Multinomialkoeffizient") angegeben wird.
 
 ### ohne Wiederholung
-![Pasted image 20230104153716](Pasted%20image%2020230104153716.png)
+![Pasted image 20230104153716](mathe/assets/Pasted%20image%2020230104153716.png)
 
 >[!summary] Fakultät: 
 > $$n!$$

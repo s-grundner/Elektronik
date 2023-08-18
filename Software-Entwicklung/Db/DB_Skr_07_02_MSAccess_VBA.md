@@ -8,7 +8,7 @@ Hier wird gezeigt wie in ein Formular mittels Schaltfläche eine Datei in einem 
 
 Zuerst wird ein Formular erzeugt. Im einfachsten Fall beinhaltet es ein Text-Feld, eine Schaltfläche und ein Bild:
 
-![MSAccess](bilder/MSAccess_VBA01.png)
+![MSAccess](software-entwicklung/Db/bilder/MSAccess_VBA01.png)
 
 - Das Textfeld wird als *BildPfad* benannt (es kann natürlich auch mit einem Tabellenfeld verbunden sein). Das Bild wird einfach als *Bild* benannt (die Namen sind wichtig, es wird via Code darauf zugegriffen). Die Schaltfläche wird als *SelBild* benannt (beim Erzeugen nichts Auswählen - nur Abbrechen).
 

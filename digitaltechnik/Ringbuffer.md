@@ -11,7 +11,7 @@ created: 19th April 2022
 Der Ringbuffer ist ein FIFO Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,
 indem die zu übertragenden Daten nacheinander in einem Array geschrieben werden und bei bedarf gelesen werden können.
 
-![](assets/Circular_Buffer_Animation.gif)
+![](digitaltechnik/assets/Circular_Buffer_Animation.gif)
 
 Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
@@ -24,27 +24,27 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 > - Ist er am Ende des Ringbuffers, kehrt er auf die Anfangspoition zurück
 
 
-![buffer_anim](assets/buffer_anim.gif)
+![buffer_anim](digitaltechnik/assets/buffer_anim.gif)
 
 ## Freier Speicher im Ringbuffer
 
 > [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden
 > Freie Größe im Ringbuffer (D... Daten, X ... Freier Platz)
 > - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_write + p_read - 1` 
-> ![RB1](assets/RB1.png)
+> ![RB1](digitaltechnik/assets/RB1.png)
 > - Daraus folgt:  Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`
-> ![RB2](assets/RB2.png)
+> ![RB2](digitaltechnik/assets/RB2.png)
 > ---
 > - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` 
-> ![RB3](assets/RB3.png)
+> ![RB3](digitaltechnik/assets/RB3.png)
 > - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` 
-> ![RB4](assets/RB4.png)
+> ![RB4](digitaltechnik/assets/RB4.png)
 
 > [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe
 > Es muss eine Stelle im Puffer geben, bei der der Write Pointer stehenbleibt, diese 
 
 ## AVR Example
-Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [Schnittstelle]({MOC}%20Schnittstellen.md) `usart0` des µC [ATmega644p](AVR%20ATmega644p.md)
+Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [Schnittstelle](digitaltechnik/{MOC}%20Schnittstellen.md) `usart0` des µC [ATmega644p](digitaltechnik/AVR%20ATmega644p.md)
 ### Header
 ```c
 /// @file ringbuffer.h
@@ -76,8 +76,8 @@ void ringbuffer_init()
 	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
 ```
-Anschließend muss die Serielle [Schnittstelle](%7BMOC%7D%20Schnittstellen.md) initialisiert werden.
-Serielle [Schnittstelle](%7BMOC%7D%20Schnittstellen.md):
+Anschließend muss die Serielle [Schnittstelle](digitaltechnik/{MOC}%20Schnittstellen.md) initialisiert werden.
+Serielle [Schnittstelle](digitaltechnik/{MOC}%20Schnittstellen.md):
 
 | Baudrate |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |      Interrupt      |           Mode            |
 |:--------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:-------------------:|:-------------------------:|

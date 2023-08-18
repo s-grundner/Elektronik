@@ -17,16 +17,16 @@ created: 21st August 2022
 Abscheidung von Stoffen durch Strom beziehungsweise Zerlegung mit Strom.
 
 >[!example] Elektrolyse von $CuCl_{2}$ (Kupfer(II)-chlorid Lösung)
->![350](Cucl.png)
+>![350](chemie/assets/Cucl.png)
 
 
-| [Reduktion](Oxidation%20und%20Reduktion.md) (Aufnahme von $e^{-}$) | [Oxidation](Oxidation%20und%20Reduktion.md) (Abgabe von $e^{-}$) |
+| [Reduktion](chemie/Oxidation%20und%20Reduktion.md) (Aufnahme von $e^{-}$) | [Oxidation](chemie/Oxidation%20und%20Reduktion.md) (Abgabe von $e^{-}$) |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | $Cu^{2+}+2e^{-}\longrightarrow Cu$                                           | $2Cl^{-}\longrightarrow Cl_{2}+2e^{-}$                                                                           |
 
 **Gesamtreaktion:** $CuCl_{2}\longrightarrow Cu\downarrow+Cl_{2}\uparrow$
 
-**Elektrolyse ist mit Gleichstromerzwungene [Redoxreaktion](Oxidation%20und%20Reduktion.md)**
+**Elektrolyse ist mit Gleichstromerzwungene [Redoxreaktion](chemie/Oxidation%20und%20Reduktion.md)**
 - **Zersetzungsspannung:** Mindestspannung für der Elektrolyse
 - **Schmelzflusselektrolyse:** Elektrolyse von Schmelzen
 
@@ -84,31 +84,31 @@ $I = \dfrac{0.5\cdot F}{1800}$
 
 
 ## Spannungsreihe
-![ElektrolyseNagel](../assets/ElektrolyseNagel.png)
+![ElektrolyseNagel](assets/ElektrolyseNagel.png)
 
 **Eisennagel in Kupferlösung:** Kupfer scheidet sich ab und Eisen löst sich.
 **Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und Kupfer bleibt Metallisch.
 unedles Fe geht gerne in Lösung! → Lösung wird grün 
 edleres Cu bleibt gerne metallisch oder scheidet sich ab!
 
-[Oxidation](Oxidation%20und%20Reduktion.md):$Fe \longrightarrow Fe^{2+} + 2e^{-}$ 
-[Reduktion](Oxidation%20und%20Reduktion.md): $Cu^{2+} + 2e^{-} \longrightarrow Cu\downarrow$ 
+[Oxidation](chemie/Oxidation%20und%20Reduktion.md):$Fe \longrightarrow Fe^{2+} + 2e^{-}$ 
+[Reduktion](chemie/Oxidation%20und%20Reduktion.md): $Cu^{2+} + 2e^{-} \longrightarrow Cu\downarrow$ 
 $Fe + Cu^{2+} \longrightarrow Fe^{2+} + Cu\downarrow$
 
-Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es.
-### [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) der Metalle
+Je leichter ein [Metall](chemie/Metallbindung.md) in Lösung geht, desto unedler ist es.
+### [Reaktivitätsreihe](chemie/Elektrochemische%20Spannungsreihe.md) der Metalle
 - unedle Metalle in $HCl$ löslich
 - edle Metalle in $HCl$ unlöslich
 ### Galvanisches Element
 <mark style="background: #FFB86CA6;">elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.</mark> 
-![675](../assets/DaniellEL.png)
-[](Prim%C3%A4relement.md#Daniell-Element)
+![675](assets/DaniellEL.png)
+[](chemie/Primärelement.md#Daniell-Element)
 
 #### Beim Schließen des Stromkreises passiert folgendes
-1. Unedleres $Zn$ löst sich auf ([Oxidation](Oxidation%20und%20Reduktion.md))
+1. Unedleres $Zn$ löst sich auf ([Oxidation](chemie/Oxidation%20und%20Reduktion.md))
    $Zn\longrightarrow Zn^{2+}+2e^{-}$
    
-2. $e^{-}$ wandern zum edleren $Cu$ und reagieren mit $Cu^{2+}$ und $Cu$ schiedet sich ab ([Reduktion](Oxidation%20und%20Reduktion.md))
+2. $e^{-}$ wandern zum edleren $Cu$ und reagieren mit $Cu^{2+}$ und $Cu$ schiedet sich ab ([Reduktion](chemie/Oxidation%20und%20Reduktion.md))
    $Cu^{2+}+2e^{-}\longrightarrow Cu\downarrow$
    
 3. $SO_{4}^{2-}$ wandert durch Membran $\rightarrow$ es bildet sich Zinksulfat
@@ -124,15 +124,15 @@ Spannung $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_
 Spannung eines einzelnen Metalls kann nicht angegeben werden.
 Vermessung gegen eine Bezugselektrode ist notwendig. 
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$
-![DaniellEL2](../assets/DaniellEL2.png)
+![DaniellEL2](assets/DaniellEL2.png)
 **Standard:** 
 - Wasserstoffgesättigte Pt-Elemente mit $HCl$: $c = 1.00 mol/l$
 - $p = 1 bar$ 
 - $T = 25°C$
 
-<mark style="background: #ADCCFFA6;">Unedle Metalle:</mark> $e^{-}$ fließen zur Wasserstoffhalbzelle; [Metall](Metallbindung.md) löst sich auf $E° < 0$
-<mark style="background: #FF5582A6;">Edle Metalle:</mark> e- fließen von Wasserstoffhalbzelle zum edlen [Metall](Metallbindung.md); [Metall](Metallbindung.md) scheidet sich ab. $E° > 0$
-[(° = Standard)](Elektrochemische%20Spannungsreihe.md)
+<mark style="background: #ADCCFFA6;">Unedle Metalle:</mark> $e^{-}$ fließen zur Wasserstoffhalbzelle; [Metall](chemie/Metallbindung.md) löst sich auf $E° < 0$
+<mark style="background: #FF5582A6;">Edle Metalle:</mark> e- fließen von Wasserstoffhalbzelle zum edlen [Metall](chemie/Metallbindung.md); [Metall](chemie/Metallbindung.md) scheidet sich ab. $E° > 0$
+[(° = Standard)](chemie/Elektrochemische%20Spannungsreihe.md)
 
 **Standard-Wasserstoffelektrode:**
 
@@ -143,16 +143,16 @@ $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 
 
 ![Pasted image 20220912200913.png](Pasted%20image%2020220912200913.png)
 
-Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektrochemische%20Spannungsreihe.md) aufstellen.
+Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](chemie/Elektrochemische%20Spannungsreihe.md) aufstellen.
 
 ## Technische nutzbare galvanische Elemente
-### [Primärelement](Prim%C3%A4relement.md)
-Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ <mark style="background: #FFF3A3A6;">[Batterie](Prim%C3%A4relement.md) </mark> 
-### [Sekundärelement](Sekund%C3%A4relement.md)
-Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$  <mark style="background: #FFF3A3A6;">[Akkumulator](Sekund%C3%A4relement.md)</mark> 
+### [Primärelement](chemie/Primärelement.md)
+Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ <mark style="background: #FFF3A3A6;">[Batterie](chemie/Primärelement.md) </mark> 
+### [Sekundärelement](chemie/Sekundärelement.md)
+Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$  <mark style="background: #FFF3A3A6;">[Akkumulator](chemie/Sekundärelement.md)</mark> 
 
 # Tags
 
-[Korrosion](Korrosion)
+[Korrosion](chemie/Korrosion.md)
 [Galvanotechnik](https://de.wikipedia.org/wiki/Galvanotechnik)
 

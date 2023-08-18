@@ -29,7 +29,7 @@ Grundsätzlich gilt:
 - jedes iterativ lösbare Problem lässt sich auch rekursiv lösen und umgekehrt (nicht immer trivial).
   
 
-![Rekursion](bilder/Rekursion.png)
+![Rekursion](software-entwicklung/Algo/bilder/Rekursion.png)
 
 
 ## Fragen

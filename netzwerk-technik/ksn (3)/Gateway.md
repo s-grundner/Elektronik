@@ -9,11 +9,11 @@ source: ["Martin Aichriedler"]
 Das Wort Gateway bezeichnet in der Informatik eine Komponente (Hard- oder Software), welche zwischen zwei Systemen eine Verbindung herstellt.
 
 Gateways ermöglichen die Kommunikationzwischen Netzen, die auf unterschiedlichen Protokollen basieren.
-Ein Gateway kann theoretisch auf allen [OSI-Schichten](OSI-Modell.md) Arbeiten
+Ein Gateway kann theoretisch auf allen [OSI-Schichten](netzwerk-technik/ksn%20(3)/OSI-Modell.md) Arbeiten
 Als Gateway werden üblicherweise alle **Protokoll-Umsetzer** bezeichnet.
 
 ## Arbeitsweise
-Die Arbeitsweise eines Gateways ist je nach Schicht im [OSI-Modell](OSI-Modell.md) sehr unterschiedlich:
+Die Arbeitsweise eines Gateways ist je nach Schicht im [OSI-Modell](netzwerk-technik/ksn%20(3)/OSI-Modell.md) sehr unterschiedlich:
 
 | OSI-Layer                               | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,7 +25,7 @@ Die Arbeitsweise eines Gateways ist je nach Schicht im [OSI-Modell](OSI-Modell.m
 | **[Layer 5-7](OSI-Modell%5C)**                                         | Gateways auf diesen Layern nehmen eine Umsetzung zwischen unterschiedlichen Applikationsprotokollen vor,<br>z. B. von Fax zu E-Mail oder von analoger Telefonie zu VoIP.<br>Ein Gateway auf diesen Layern, das die Inhalte der Pakete untersucht und verändert, ohne eine Übersetzung in ein anderes Protokoll vorzunehmen,<br>wird als Application Layer Gateway oder häufiger als Proxy bezeichnet.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ## Beispiele für Gateways
-- USB to UART Bridge ([Layer 1](Bit%C3%BCbertragungsschicht.md) Gateway)
-- Router Verbindet [LAN](Local%20Area%20Network.md) mit einem [Wide Area Network](Wide%20Area%20Network.md) (Gateway auf [Layer 3](Vermittlungsschicht.md))
+- USB to UART Bridge ([Layer 1](netzwerk-technik/ksn%20(3)/Bitübertragungsschicht.md) Gateway)
+- Router Verbindet [LAN](netzwerk-technik/ksn%20(3)/Local%20Area%20Network.md) mit einem [Wide Area Network](netzwerk-technik/ksn%20(3)/Wide%20Area%20Network.md) (Gateway auf [Layer 3](netzwerk-technik/ksn%20(3)/Vermittlungsschicht.md))
 # Tags
 Wikipedia Eintrag zu [Gateway](<https://de.wikipedia.org/wiki/Gateway_(Informatik)>)

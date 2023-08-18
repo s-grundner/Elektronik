@@ -12,7 +12,7 @@ created: 16th November 2022
 - Bei einem Zufallsexperiment gibt es nur $2$ Ergebnisse: $A$ oder $\neg{A}$
 - Es werden $n$ gleichartige Versuche durchgeführt.
 - Die Einzelversuche sind voneinander unabhängig.
-- Die [Zufallsvariable](Zufallsvariable.md) $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+- Die [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
 
 Die Binomialverteilung ist eine Verteilungsformel, mit der die Wahrscheinlichkeiten für verschiedene Ergebnisse bei einem Zufallsexperiment bestimmt werden können.
 
@@ -27,21 +27,21 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > mit
 > - $n\dots$ Anzahl der Versuche
 > - $k\dots$ Anzahl der Erfolge
-> - $p\dots$ [Wahrscheinlichkeit](Wahrscheinlichkeit.md) eines Erfolgs
+> - $p\dots$ [Wahrscheinlichkeit](mathe/mathe%20(5)/Wahrscheinlichkeit.md) eines Erfolgs
 > - $\binom{n}{k}\dots$ Binomialkoeffizient 
 
 ## Kennwerte
 
-[Varianz](Varianz.md): $V(X)=n\cdot p\cdot(1-p)$
+[Varianz](mathe/mathe%20(5)/Varianz.md): $V(X)=n\cdot p\cdot(1-p)$
 
 
->[!summary] [Erwartungswert](Erwartungswert.md) $E(X)$
+>[!summary] [Erwartungswert](mathe/mathe%20(5)/Erwartungswert.md) $E(X)$
 > $E(X)=n\cdot p$
 
->[!summary] [Standardabweichung](Standardabweichung.md)
+>[!summary] [Standardabweichung](mathe/mathe%20(5)/Standardabweichung.md)
 > $\sigma(X)=\sqrt{n\cdot p\cdot (1-p)}$
 
-![binom_tree](binom_tree.png)
+![binom_tree](mathe/mathe%20(5)/assets/binom_tree.png)
 
 ## unbekanntes $n$
 ````ad-example
@@ -58,7 +58,7 @@ $n=210$
 ```
 ````
 
-## unbekanntes $k$ bei gegebener [WSK](Wahrscheinlichkeit.md)
+## unbekanntes $k$ bei gegebener [WSK](mathe/mathe%20(5)/Wahrscheinlichkeit.md)
 ````ad-example
 title: Bsp
 $n=6\qquad p=0.4$

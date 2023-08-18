@@ -10,7 +10,7 @@ created: 10th January 2023
 # Normalverteilung
 $F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
 
-Ist $F$ differenzierbar, so nennt man die [Ableitung](Differenzialrechnung.md) von $F$ die Dichtefunktion von $X$, kurz Dichte.
+Ist $F$ differenzierbar, so nennt man die [Ableitung](mathe/mathe%20(3)/Differenzialrechnung.md) von $F$ die Dichtefunktion von $X$, kurz Dichte.
 
 Anstelle von $F'$ schreibt man sie als $f$
 
@@ -25,26 +25,26 @@ $$
 ![PNG-Bild](mathe/mathe%20(5)/assets/PNG-Bild.png)
 
 
-- Bisher waren [Wahrscheinlichkeitsverteilungen](Wahrscheinlichkeitsverteilung.md) gegeben (z.B. [Binomialverteilung](Binomialverteilung.md)).
+- Bisher waren [Wahrscheinlichkeitsverteilungen](mathe/mathe%20(5)/Wahrscheinlichkeitsverteilung.md) gegeben (z.B. [Binomialverteilung](mathe/mathe%20(5)/Binomialverteilung.md)).
 - jetzt nurmehr eine Funktion, die die Verteilung angibt
 
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
 
 >[!example] Lebensdauer
->![1175](PNG-Bild%201.png)
+>![1175](mathe/mathe%20(5)/assets/PNG-Bild%201.png)
 
 ## Eigenschaften
 ## Symmetrische Intervalle von $\mu$
 ## Standardisierte Normalverteilung
 
 ## Zentraler Grenzwertsatz
-Eine [](Zufallsvariable.md#Stetige%20Zufallsvariablen%7Cstetige%20Zufallsvariable), die sich als Summe sehr vieler unabhängiger Einflussgrößen ergibt, von denen keine dominierend ist, ist näherungsweise normalverteilt.
-## Näherung der [Binomialverteilung](Binomialverteilung.md)
-Wenn bei einer [Binomialverteilung](Binomialverteilung.md) $\sigma^{2}n\cdot p>9$ ist, kann man sie durch eine Normalverteilung annähern.
+Eine [](mathe/mathe%20(5)/Zufallsvariable.md#Stetige%20Zufallsvariablen|stetige%20Zufallsvariable), die sich als Summe sehr vieler unabhängiger Einflussgrößen ergibt, von denen keine dominierend ist, ist näherungsweise normalverteilt.
+## Näherung der [Binomialverteilung](mathe/mathe%20(5)/Binomialverteilung.md)
+Wenn bei einer [Binomialverteilung](mathe/mathe%20(5)/Binomialverteilung.md) $\sigma^{2}n\cdot p>9$ ist, kann man sie durch eine Normalverteilung annähern.
 > [!warning] Mit Taschenrechner nicht mehr nötig
 
 ## Verteilung von Stichprobenkennwerte
-Sei $X$ eine [Zufallsvariable](Zufallsvariable.md) für einen Merkmalswert eines Merkmalsträger.
+Sei $X$ eine [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) für einen Merkmalswert eines Merkmalsträger.
 
 >[!summary] Stichprobe
 > $$
@@ -56,17 +56,17 @@ Sei $X$ eine [Zufallsvariable](Zufallsvariable.md) für einen Merkmalswert eines
 > $$
 
 > [!summary] Stichprobenmittel
-> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}\qquad$ ... $\overline{x}$ ist auch eine [Zufallsvariable](Zufallsvariable.md)
+> $\overline{x}=\sum\limits_{i=1}^{n}x_{i}\qquad$ ... $\overline{x}$ ist auch eine [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md)
 
 > [!done] Wenn $X$ Normalverteilt sind mit $X\sim (\mu|\sigma^{2})$, dann ist $\overline{X}\sim(\mu| \frac{\sigma^{2}}{n})$
 
 # Konfidenzintervalle (Vertrauensbereich)
-Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine [Zufallsvariable](Zufallsvariable.md) $X\sim N(\mu;\sigma^{2})$, dann ist die Stichprobe $\overline{X}\sim N(\mu; \frac{\sigma^{2}}{n})$. 
+Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) $X\sim N(\mu;\sigma^{2})$, dann ist die Stichprobe $\overline{X}\sim N(\mu; \frac{\sigma^{2}}{n})$. 
 $\mu$ muss "in der Nähe" von $\overline{X}$ liegen.
 > [!important] Wir akzeptieren dabei eine Irrtumswahrscheinlichkeit $\alpha$
 > $\rightarrow (1-\alpha)$ ... Vertrauungsbereich
 
-| [Erwartungswert](Erwartungswert.md) | Stichprobe                                                  | Vertrauensbereich |
+| [Erwartungswert](mathe/mathe%20(5)/Erwartungswert.md) | Stichprobe                                                  | Vertrauensbereich |
 | -------------- | ----------------------------------------------------------- | ----------------- |
 | $\mu_{unten}=$ | $\overline{X}-1.96\dfrac{\sigma^{2}}{n}$                    | $1-\alpha=95\%$   |
 | $\mu_{oben}=$  | $\overline{X}+1.96\dfrac{\sigma^{2}}{n}$                    | $1-\alpha=95\%$   |

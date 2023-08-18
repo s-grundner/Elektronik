@@ -8,6 +8,6 @@ created: 31st January 2023
 ---
 
 # Open Collector
-![450](open-drain.png)
+![450](hwe/assets/open-drain.png)
 
 # Tags

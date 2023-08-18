@@ -7,7 +7,7 @@ reference: []
 created: 25th March 2022
 ---
 
-# Sperrschicht-[Feldeffekttransistor](Feldeffekttransistor.md) (JFET)
-![JFET als Verstärker](JFET%20als%20Verst%C3%A4rker.pdf)
+# Sperrschicht-[Feldeffekttransistor](hwe/Feldeffekttransistor.md) (JFET)
+![JFET als Verstärker](hwe/assets/JFET%20als%20Verstärker.pdf)
 ---
 # Tags

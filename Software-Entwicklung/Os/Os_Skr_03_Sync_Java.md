@@ -123,7 +123,7 @@ Beispiel **Producer-Consumer**:
 
   einfachste Lösung: Auslösen einer Exception für Buffer-Overflow/-Underflow
 
-FiFo-Buffer können einfach als [Ringbuffer](Ringbuffer.md) realisiert werden. Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden ...):
+FiFo-Buffer können einfach als [Ringbuffer](digitaltechnik/Ringbuffer.md) realisiert werden. Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden ...):
 
 ![OS_FiFo](.\Bilder\OS_FiFo.png)
 
@@ -307,7 +307,7 @@ Referenz-Beispiel:
 
   
 
-  ![OS_LostUpdate](bilder/OS_LostUpdate.png)
+  ![OS_LostUpdate](software-entwicklung/Os/bilder/OS_LostUpdate.png)
 
   Thread2 liest den ursprünglichen Wert von Var, erhöht ihn und schreibt ihn. Thread1 liest ebenfalls den ursprünglichen Wert, erhöht diesen ebenfalls und überschreibt damit den von Thread2 erhöhten Wert. Der Grund liegt darin, dass die zeitliche Abfolge nicht abgestimmt ist. Die Änderung von Thread2 ist wirkungslos, sein *Update* wird verloren (*lost*).
 
@@ -413,7 +413,7 @@ Als Parameter für `synchronized`kann ein Objekt mitgegeben werden auf welches s
 
 Semaphor(e) gehören zur Gruppe der Mutex-Verfahren und beinhalten eine **Datenstruktur zur Steuerung eines ausschließenden Zugriffs**. Im Betriebssystembereich ist dieses Konzept mit dem **Monitor** verwandt. Die allgemeine Bedeutung von Semaphor ist Signalmast (Formsignal bei der Eisenbahn). Im Bahnverkehr kann ein Gleisabschnitt auch nur von einer maximalen Anzahl (je nach Anzahl der Spuren) Zügen zur gleichen Zeit befahren werden.
 
-![](bilder/os-thread-semaphore-eisenbahn.png)
+![](software-entwicklung/Os/bilder/os-thread-semaphore-eisenbahn.png)
 
 Ein binärer Semaphor (nur ein einzelner Thread darf zu einem Zeitpunkt einen Abschnitt betreten - siehe Bild) besitzt:
 

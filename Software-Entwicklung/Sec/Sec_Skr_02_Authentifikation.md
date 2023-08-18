@@ -147,7 +147,7 @@ Ein Kommunikationspartner kann demnach ein Zertifikat vorweisen, dass von einer 
 
 Eine Möglichkeit um Zertifikate zu erstellen ist, dass eine CA ein gültiges Zertifikat einer übergeordneten CA besitzt, das bedeutet eine CA kann weitere CAs zertifizieren -> **hierarchische Public-Key-Infrastruktur**.
 
-![](bilder/Kry_Pki.png)
+![](software-entwicklung/Sec/bilder/Kry_Pki.png)
 
 Eine andere Variante wird durch die Open-Source Software GPG-PGP (Gnu Privacy Guard-Pretty-Good-Privacy) verwendet. Dabei kann jeder Benutzer Zertifikate für andere Benutzer ausstellen. Wenn immer jemand in der Kette vertrauenswürdig ist, dann kann davon ausgegangen werden, dass ein erhaltenes Zertifikat vertrauenswürdig ist. Diese Art wird als **Web-of-Trust** bezeichnet.
 

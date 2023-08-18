@@ -4,7 +4,7 @@
 
 Der größte Teil der Kommunikation in Netzwerken findet zwischen Client- und Server-Prozessen statt.
 
-![NW_ClientServerPrinzip](bilder/NW_ClientServerPrinzip.png)
+![NW_ClientServerPrinzip](software-entwicklung/Nw/bilder/NW_ClientServerPrinzip.png)
 
 Das Client-Server-Paar kann grundsätzlich mittels verschiedener Protokolle kommunizieren (solange beide das Gleiche verwenden).
 
@@ -18,7 +18,7 @@ Die Kombination von IP-Adresse und Portnummer wird als **Socket** bezeichnet. Ei
 
 Eine Socket-Interface-API wurde in den 1980er Jahren für UNIX-BSD (Berkeley Software Distribution) veröffentlicht. Mittlerweile ist es für viele Betriebssysteme verfügbar. Es bietet Verbindung zwischen Client und Server aufzubauen mittels TCP (Stream-Sockets), UDP (Datagram-Socket) oder direkt IP (Raw-Socket):
 
-![NW_Socket_03](bilder/NW_Socket_03.png)
+![NW_Socket_03](software-entwicklung/Nw/bilder/NW_Socket_03.png)
 
 Die Unterstützung von Netzwerken/Internet ist allgemein Teil des Betriebssystems (wird oft als **TCP/IP-Stack** bezeichnet).
 
@@ -32,7 +32,7 @@ In vielen Fällen bedient ein einzelner Server mehrere Clients. Dann wird der Se
 
 Ein großer Unterschied zwischen Server und Client ist, dass ein Client für eine Verbindung lediglich 1 Socket benötigt. Soll ein Server nicht nur einen Client bedienen, dann benötigt der Server für jeden Client einen eigenen Socket. Für einen Serverseitigen Socket sind die folgenden Schritte notwendig. 
 
-![Serversocket](bilder/NW_Socket_02.png)
+![Serversocket](software-entwicklung/Nw/bilder/NW_Socket_02.png)
 
 Mit *accept* wird ein neuer Socket erzeugt (und es kann auf eine weitere Anfrage gewartet werden).
 
@@ -44,11 +44,11 @@ Mit *accept* wird ein neuer Socket erzeugt (und es kann auf eine weitere Anfrage
 
 Ein Client ist einer der beiden Endpunkt einer Kommunikation. Der grundsätzliche Ablauf einer Kommunikation ist in der folgenden Abbildung dargestellt:
 
-![Clientsocket](bilder/NW_Socket_01.png)
+![Clientsocket](software-entwicklung/Nw/bilder/NW_Socket_01.png)
 
 #### Verbindungsaufbau
 
-![Serversocket](bilder/NW_Socket_04.png)
+![Serversocket](software-entwicklung/Nw/bilder/NW_Socket_04.png)
 
 ### UDP-Kommunikation
 
@@ -56,7 +56,7 @@ Das UDP-Protokoll garantiert lediglich das Nachrichten korrekte Daten beinhalten
 
 Der Vorteil gegenüber der TCP-Kommunikation ist, dass dadurch eine stark reduzierte Datenmenge übertragen werden muss (es erfolgt kein Handshake mittels Checksummen...). Verwendet werden Datagramme für Daten bei denen es nicht unbedingt notwendig ist, dass sie ihr Ziel erreichen und große Datenmengen übertragen werden: Multimedia-Streams (im schlimmsten Fall Aussetzer) oder Computerspiele (im schlimmsten Fall ruckelnde Bewegungen von Spielfiguren).
 
-![UDP](bilder/NW_Socket_UDP.png)
+![UDP](software-entwicklung/Nw/bilder/NW_Socket_UDP.png)
 
 ## Unterschiedliche OS
 

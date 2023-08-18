@@ -36,7 +36,7 @@ Es wird *formulare.html* angelegt:
 
 Beim Öffnen mit einem Browser werden diese Felder dargestellt (exakte Darstellung hängt vom Browser ab):
 
-![einf_001.png](bilder/php_einf_001.png)
+![einf_001.png](software-entwicklung/Db/bilder/php_einf_001.png)
 
 In diesem Beispiel werden mit Drücken des Start-Buttons die Daten der vier Felder (Server/Datenbank/User/Passwort) an formulare.php (kommt weiter unten) übertragen.
 

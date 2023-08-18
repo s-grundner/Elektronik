@@ -13,7 +13,7 @@ string codeVerschiebeCh(string str, int shift);
 
 
 > [!example] Testen Sie die Funktion mittels dem Beispiel-Text:
-> In einem Raumgebiet befinde sich ein [Elektrisches Feld](elektrisches%20Feld.md) (weil zum Beispiel gerade eine Gewitterwolke darueber schwebt). Stell dir vor, du moechtest jemandem mitteilen, wie viel und was fuer Feldstoff sich an einer bestimmten Stelle des Gebiets befindet. Du brauchst dazu ein Mass, eine physikalische Groesse. Ein solches Mass ist die elektrische Feldstaerke. Man wuerde wahrscheinlich zunaechst erwarten, dass die elektrische Feldstaerke einfach in der Naehe eines geladenen Koerpers einen grossen Wert hat und in groesserer Entfernung einen kleinen. Nun kann man aber das Feld so noch nicht eindeutig beschreiben. Wir hatten festgestellt, dass im elektrischen Feld sowohl Druck- als auch Zugspannungen herrschen koennen. Tatsaechlich ist es so, dass in einem Feld Zug und Druck an jedem Ort gleichzeitig herrschen. Wie ist das moeglich? Fuer jedes Stueckchen Feldstoff gibt es eine ausgezeichnete Richtung, in der das Feld unter Zugspannung steht. Wir nennen sie die Zugrichtung. In allen Richtungen quer dazu steht es unter Druckspannung. Abb. 1.42 zeigt einen kleinen Zylinder, den wir in Gedanken aus einem Feld herausgeschnitten haben, und zwar so, dass die Zylinderachse in der Zugrichtung des Feldes liegt. In den Richtungen quer dazu herrscht Druckspannung. (Dass ein Material an jeder Stelle eine ausgezeichnete Richtung hat, ist keine seltene Eigenschaft. So hat die Maserung eines Holzstuecks an jeder Stelle eine bestimmte Richtung.
+> In einem Raumgebiet befinde sich ein [Elektrisches Feld](hwe/Elektrisches%20Feld.md) (weil zum Beispiel gerade eine Gewitterwolke darueber schwebt). Stell dir vor, du moechtest jemandem mitteilen, wie viel und was fuer Feldstoff sich an einer bestimmten Stelle des Gebiets befindet. Du brauchst dazu ein Mass, eine physikalische Groesse. Ein solches Mass ist die elektrische Feldstaerke. Man wuerde wahrscheinlich zunaechst erwarten, dass die elektrische Feldstaerke einfach in der Naehe eines geladenen Koerpers einen grossen Wert hat und in groesserer Entfernung einen kleinen. Nun kann man aber das Feld so noch nicht eindeutig beschreiben. Wir hatten festgestellt, dass im elektrischen Feld sowohl Druck- als auch Zugspannungen herrschen koennen. Tatsaechlich ist es so, dass in einem Feld Zug und Druck an jedem Ort gleichzeitig herrschen. Wie ist das moeglich? Fuer jedes Stueckchen Feldstoff gibt es eine ausgezeichnete Richtung, in der das Feld unter Zugspannung steht. Wir nennen sie die Zugrichtung. In allen Richtungen quer dazu steht es unter Druckspannung. Abb. 1.42 zeigt einen kleinen Zylinder, den wir in Gedanken aus einem Feld herausgeschnitten haben, und zwar so, dass die Zylinderachse in der Zugrichtung des Feldes liegt. In den Richtungen quer dazu herrscht Druckspannung. (Dass ein Material an jeder Stelle eine ausgezeichnete Richtung hat, ist keine seltene Eigenschaft. So hat die Maserung eines Holzstuecks an jeder Stelle eine bestimmte Richtung.
 
 Ein gute Kontrolle ist möglich, wenn als Verschiebe-Spanne zweimal hintereinander 13 eingegeben wird, dann wird auf den ursprünglichen Text verschoben (*ROT13*).
 
@@ -30,7 +30,7 @@ In deutschsprachigen Texten kommen die Buchstaben mit etwa folgender Häufigkeit
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 9,78 | 2,51 | 0,79 | 0,02 | 7,00 | 7,27 | 6,15 | 4,35 | 0,67 | 1,89 | 0,03 | 0,04 | 1,13 |
 
-Der Buchstabe *e* kommt demzufolge mit etwa 17%i[ger Wahrscheinlich](Wahrscheinlichkeit.md)keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
+Der Buchstabe *e* kommt demzufolge mit etwa 17%i[ger Wahrscheinlich](mathe/mathe%20(5)/Wahrscheinlichkeit.md)keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
 
 ### Homophone Chiffre
 
@@ -217,7 +217,7 @@ Hier wird der Schlüssel mit jedem Zeichen addiert. Überläufe können ignorier
 
 Die obigen Codes sind nach modernen Erkenntnissen statistisch trivial zu Brechen. Aus diesem Grund wird hier jedes Zeichen mit einem anderen Code verschlüsselt.
 
-![Kry_StromChiffre](bilder/Kry_StromChiffre.png)
+![Kry_StromChiffre](software-entwicklung/Sec/bilder/Kry_StromChiffre.png)
 
 Dafür wird ein Strom an Schlüsseln generiert. Für unser Beispiel soll dieser Strom mittels Zufallsgenerator erzeugt werden. Es hilft uns, dass der Zufallsgenerator immer die gleiche Zahlenfolge liefert, wenn mit einem gleichen Seed gestartet wird. Dadurch kann beim Entschlüsseln "zufällig" die gleiche Schlüsselfolge generiert werden. Wird der folgende Code ausgeführt, erhält *num* immer den gleichen Wert (auf dem gleichen System).
 
@@ -228,7 +228,7 @@ int num = rand() % 256;
 
 Mit den so erzeugten Schlüsseln wird das Zeichen mittels obiger *XorSubstitution* verschlüsselt.
 
-![Kry_StreamCipher](bilder/Kry_StreamCipher_.png)
+![Kry_StreamCipher](software-entwicklung/Sec/bilder/Kry_StreamCipher_.png)
 
 - Erstellen Sie die Klasse *StreamCipher* abgeleitet von der *XorSubstitution*-Klasse.
 
@@ -310,7 +310,7 @@ Um Daten zwischen 2 Kommunikationsteilnehmern sicher (verschlüsselt) austausche
 
 - Will Alice einen Liebesbrief P (Klartext) an Bob schicken, den kein Anderer lesen soll, so verschlüsselt sie ihn mit Bobs öffentlichem Schlüssel $p_B$. Nur Bob ist im Besitz des zugehörigen geheimen Schlüssels $s_B$ und kann damit Alices verschlüsselten Brief C (Chiffrat) entschlüsseln.
 
-![Kry_DHCipher](bilder/Kry_DHCipher.png)
+![Kry_DHCipher](software-entwicklung/Sec/bilder/Kry_DHCipher.png)
 
 - Asymmetrische Verfahren können auch verwendet werden, um damit über eine ungeschützte Verbindung einen geheimen symmetrischen Schlüssel zu vereinbaren, der dann zur Verschlüsselung einer vertraulichen Nachricht verwendet wird. Symmetrische Verfahren sind wesentlich schneller (vor allem wichtig bei größeren Datenmengen).
 
@@ -320,7 +320,7 @@ Um Daten zwischen 2 Kommunikationsteilnehmern sicher (verschlüsselt) austausche
 
 - Jeder Kommunikationsteilnehmer veröffentlicht seinen Public Key p bei einem Trustcenter. Dafür wird eine **geheime Zahl s** (Secret Key) gewählt ($s = [1, ..., n-1]$) und berechnet den Public Key $p = g^s mod\ n$ und schickt diesen zur Veröffentlichung an das Trustcenter.  
 
-![Kry_DHCipher_02](bilder/Kry_DHCipher_02.png)
+![Kry_DHCipher_02](software-entwicklung/Sec/bilder/Kry_DHCipher_02.png)
 
 Beachten Sie:
 
@@ -534,7 +534,7 @@ d = 120 - 7 = 113
 
 Alternative: Tabellarischer Weg (Christian Spannagel):
 
-![Kry_Rsa_Euklid_01](bilder/Kry_Rsa_Euklid_01.png)
+![Kry_Rsa_Euklid_01](software-entwicklung/Sec/bilder/Kry_Rsa_Euklid_01.png)
 
 also e = -7: wir wollen eine positive Zahl, damit wir das Ergebnis (Rest) nicht verändern dürfen wir 120 dazuzählen: **e** = -7 + 120 = **113**
 
@@ -572,7 +572,7 @@ Rest: 1 = 19 - 3*6
 
 Alternative: Tabellarischer Weg (Christian Spannagel):
 
-![Kry_Rsa_Euklid_01](bilder/Kry_Rsa_Euklid_02.png)
+![Kry_Rsa_Euklid_01](software-entwicklung/Sec/bilder/Kry_Rsa_Euklid_02.png)
 
 also **d** = **19**
 
@@ -616,7 +616,7 @@ Rest: 1 = 3 - 1*2
 
 Alternative: Tabellarischer Weg (Christian Spannagel):
 
-![Kry_Rsa_Euklid_01](bilder/Kry_Rsa_Euklid_03.png)
+![Kry_Rsa_Euklid_01](software-entwicklung/Sec/bilder/Kry_Rsa_Euklid_03.png)
 
 also **d** = 120-73 = **47**
 
@@ -1485,7 +1485,7 @@ openssl.exe enc -aes-256-cbc -pass pass:"pw" -in Tux_origBody.ppm -out Tux_encBo
 
 (Diese Prozedur ist allgemein bekannt: https://www.youtube.com/watch?v=k8zJh1tAcok, https://en.wikipedia.org/wiki/File:Tux.jpg, https://en.wikipedia.org/wiki/File:Tux_ecb.jpg)
 
-![Kry_Tux](bilder/Kry_Tux_.png)
+![Kry_Tux](software-entwicklung/Sec/bilder/Kry_Tux_.png)
 
 Beim Zusammenfügen des Header- und Body-Teils muss ein Editor verwendet werden der wirklich sämtliche Zeichen korrekt mitkopiert. Alternativ via Kommandozeile (hier Windows):
 

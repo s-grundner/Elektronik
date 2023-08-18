@@ -22,13 +22,13 @@ created: 31st January 2023
 ## Möglichkeiten zur Resetgenerierung
 
 > [!info] Bestimmende Faktoren der Resetdauer
-> - Hochfahren der Systemkomponenten, [Schaltregler](Schaltnetzteil.md), [PLL](Phase%20Locked%20Loop.md)
+> - Hochfahren der Systemkomponenten, [Schaltregler](hwe/Stromversorgungseinheiten/Schaltnetzteil.md), [PLL](hwe/Oszillatoren/Phase%20Locked%20Loop.md)
 > - Pipeline Strukturen im µC
 
 ### Power on Reset (POR)
 Reset bei Systemstart
 > [!note] Einfachster Aufbau
-> ![POR](POR.png)
+> ![POR](hwe/assets/POR.png)
 
 
 #### Berechnung der Resetdauer
@@ -50,13 +50,13 @@ Synchronisiert das loslassen des Reset Signals auf die Falling edge
 > Wenn sich ein Signal um die Taktflanke ändert, sollte das Reset Signal nicht die änderung im Latch verhindern.
 ## Reset bei Spannungseinbruch
 
-![725](reset-spg-einbruch.png)
+![725](hwe/assets/reset-spg-einbruch.png)
 # Watchdog
 Ein Watchdog weckt eine Schaltung wieder auf, wenn sie z.B. keine Rückmeldung erhält.
 
 $\rightarrow$ "seed-key" Prinzip
-![450](assets/watchdog.png)
+![450](hwe/assets/watchdog.png)
 > [!error] Wenn der Key nicht mit dem im LUT übereinstimmt, führt der Watchdog einen Reset durch.
 
 # Tags
-[Open Collector](Open%20Collector.md)
+[Open Collector](hwe/Open%20Collector.md)

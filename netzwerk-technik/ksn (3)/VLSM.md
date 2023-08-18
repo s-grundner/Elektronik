@@ -12,7 +12,7 @@ last_edited: 11th April 2022
 
 ### Variable Length Subnet Mask
 Von der ICANN wurde Ihnen folgendes Class-C Netz zugewiesen: **192.184.128.0/24**
-Entwerfen Sie ein möglichst effizientes Adressierungsschema mit VLSM für Ihre Niederlassungen. Entwerfen Sie Ihre Subnetze so, dass die geforderte Anzahl an [IP](Internet%20Protocol.md)-Adressen gerade so zugewiesen werden kann und noch möglichst viel Platz im C-Netz übrig bleibt für weitere Subnetze.
+Entwerfen Sie ein möglichst effizientes Adressierungsschema mit VLSM für Ihre Niederlassungen. Entwerfen Sie Ihre Subnetze so, dass die geforderte Anzahl an [IP](netzwerk-technik/ksn%20(3)/protokolle/Internet%20Protocol.md)-Adressen gerade so zugewiesen werden kann und noch möglichst viel Platz im C-Netz übrig bleibt für weitere Subnetze.
 
 | Niederlassung | Benötigte Hosts |
 | ------------- | --------------- |

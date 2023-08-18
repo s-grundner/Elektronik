@@ -38,7 +38,7 @@ https://de.wikibooks.org/wiki/C%2B%2B-Programmierung:_Entwurfsmuster:_Singleton
 
 Eine einfache Form-Factory hat die folgende Struktur:
 
-![Pattern_Factory_Formen](bilder/Pattern_Factory_Formen.png)
+![Pattern_Factory_Formen](software-entwicklung/SEng/02_SEng/bilder/Pattern_Factory_Formen.png)
 
 Dabei ist die Fabrik nicht weiter abstrahiert sondern eine konkrete Klasse. Verwendet wird die Fabrik auf diese Art:
 
@@ -401,7 +401,7 @@ Rectangle:  oldDraw.  P1(120,200) | P2(180,240)
 
 In Java ist folgendes Brücken-Pattern zu implementieren:
 
- ![Bridge Pattern UML Diagram](bilder/Pattern_Bridge_Beispiel.jpg) 
+ ![Bridge Pattern UML Diagram](software-entwicklung/SEng/02_SEng/bilder/Pattern_Bridge_Beispiel.jpg) 
 
 Bridge-Implementierungs-Interface
 

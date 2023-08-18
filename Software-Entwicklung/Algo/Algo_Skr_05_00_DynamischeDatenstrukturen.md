@@ -11,13 +11,13 @@ Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten 
 
 Die Elemente so einer Liste werden als **Knoten** bezeichnet. Für das Speichern von drei einfachen Nummern sieht das so aus:
 
-![EinfList02](bilder/EinfList02.png)
+![EinfList02](software-entwicklung/Algo/bilder/EinfList02.png)
 
 Der Vorteil von einer solchen Liste ist ersichtlich: sie kann beliebig erweitert werden, dazu muss ein neues Element erzeugt werden und entweder an einer beliebigen Stelle oder am Ende eingefügt werden.
 
 Da diese Art der Liste nur in eine Richtung durchgangen werden kann, wird sie als **einfach** verkettete Liste bezeichnet. Alternativ gibt es die **doppelt** verketteten Listen. Sie haben zusätzlich in jedem Knoten einen Zeiger der auf den vorhergehenden Knoten zeigt. Hier wiederum ein einfaches Beispiel dieses Typs:
 
-![EinfList03](bilder/EinfList03.png)
+![EinfList03](software-entwicklung/Algo/bilder/EinfList03.png)
 
 Diese Liste kann in beide Richtungen durchgangen werden. Sie haben allerdings einen höheren Speicherbedarf.
 
@@ -51,21 +51,21 @@ Der Zeiger des letzten Knotens in **Zyklischen** Listen zeigt auf das erste Elem
 
 Anstatt sich das erste Listenelement zu merken, wird häufig ein **Listenkopf** vorangestellt. Dieser beinhaltet zumindest einen Zeiger auf das erste Listenelement. Zusätzlich wird oft noch die Anzahl der Knoten in der Liste (Anzahl der Elemente) und/oder ein Zeiger auf das letzte Element angefügt.
 
-![EinfList07](bilder/EinfList07.png)
+![EinfList07](software-entwicklung/Algo/bilder/EinfList07.png)
 
 ### Vorteile von Listen
 
 1. Einfaches Einfügen von Knoten am Beginn/Ende in der Mitte der Liste. Hier wird das Element 25 zwischen 99 und 37 eingefügt:
 
-![EinfList04](bilder/EinfList04.png)
+![EinfList04](software-entwicklung/Algo/bilder/EinfList04.png)
 
 2. Einfaches Löschen von Knoten am Beginn/Ende in der Mitte der Liste. Der Zeiger des vorhergehenden Knotens wird angepasst, dann wird (ein Zeiger auf) das Element freigegeben (free):
 
-![EinfList05](bilder/EinfList05.png)
+![EinfList05](software-entwicklung/Algo/bilder/EinfList05.png)
 
 3. Einfaches Verschieben von Knoten innerhalb der Liste. Dazu müssen lediglich die Zeiger verändert werden:
 
-![EinfList06](bilder/EinfList06.png)
+![EinfList06](software-entwicklung/Algo/bilder/EinfList06.png)
 
 Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil viele Elemente umkopiert werden. Hier werden lediglich einzelne, wenige Pointer angepasst.
 
@@ -74,9 +74,9 @@ Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil vie
 Mit Traversieren ist das Durchlaufen von Listen oder ähnlichen Strukturen gemeint. Wie erfolgt das:
 
 - Begonnen wird das indem ein temporärer Zeiger `ptr` auf das erste Element gelegt wird - also dorthin wo `first`  vom Listenkopf zeigt:
-![EinfList08](bilder/EinfList08.png)
+![EinfList08](software-entwicklung/Algo/bilder/EinfList08.png)
 - Um auf das nächste Element zugreifen zu können, muss der Hilfs-Zeiger `ptr` auf das Element verschoben werden, welches durch das aktuelle Element mittels `next` erreicht werden kann:
-![EinfList09](bilder/EinfList09.png)
+![EinfList09](software-entwicklung/Algo/bilder/EinfList09.png)
 - Dieser Vorgang kann solange wiederholt werden, bis die Anzahl der Elemente `hdr.size` durchlaufen wurde, bis `ptr` auf `NULL` verschoben wird oder bis `ptr` auf `hdr.last` verschoben wird.
 
 In einer doppelt verketteten Liste kann entsprechend auch in die entgegengesetzte Richtung verschoben werden.
@@ -90,11 +90,11 @@ Für Bäumen gilt:
 - Jeder Knoten, bis auf den **Wurzelknoten (root)**, hat einen Vorgängerknoten.
 - Ein Knoten ohne Nachfolger ist ein **Blatt (leaf)**.
 
-![baum_01](bilder/baum_01.png)
+![baum_01](software-entwicklung/Algo/bilder/baum_01.png)
 
 Haben Knoten in Bäumen maximal zwei Nachfolgeknoten werden diese als **binäre Bäume** bezeichnet. Sie  haben große Bedeutung für die Sortierung/Suche von Daten - **binäre Suchbäume**.
 
-![baum_02](bilder/baum_02.png)
+![baum_02](software-entwicklung/Algo/bilder/baum_02.png)
 
 Für einen binären Suchbaum gilt zusätzlich, dass die Werte jedes linken Teilbaums kleiner als die Wurzel ist.
 
@@ -220,7 +220,7 @@ Für das Löschen eines Knotens in binären Suchbäumen müssen zwei Fälle unte
 
 Soll ein Knoten gelöschte werden dem nur ein Knoten folgt:
 
-![baum_04](bilder/baum_04.png)
+![baum_04](software-entwicklung/Algo/bilder/baum_04.png)
 
 Im linken Bild soll Knoten 17 gelöscht werden. Dazu muss der right-Zeiger des Vorgängerknoten 12 der auf 17 zeigt auf Knoten 19 geändert werden (also auf denjenigen Knoten auf den der zu löschende Knoten zeigt). Wenn Knoten 17 keine Folgeknoten hat, dann wird der right-Zeiger von Knoten 12 (der auf Knoten 17 zeigt) auf NULL verändert.
 
@@ -228,7 +228,7 @@ Im rechten Bild soll Knoten 17 gelöscht werden. Dazu muss der right-Zeiger von 
 
 Völlig anders für das Löschen von Knoten mit zwei Folge-Zweigen. Im dargestellten Beispiel soll etwa der Knoten 12 gelöscht werden. Dazu wird der Knoten 12 durch den Knoten mit dem nächsthöheren Wert ersetzt (hier Knoten 14). Der nächsthöhere Knoten ist der Knoten im rechten Teilbaum von 12 der ganz links ist.
 
-![baum_06](bilder/baum_06.png)
+![baum_06](software-entwicklung/Algo/bilder/baum_06.png)
 
 Für das Ersetzten von Knoten 12 durch Knoten 14 wird am einfachsten nur der Wert kopiert und dann Knoten 14 gelöscht. Hätte Knoten 14 noch einen rechten Zweig, dann müsste der Löschvorgang rekursiv auf diesen Knoten angewendet werden.
 
@@ -238,7 +238,7 @@ Die beschriebene Art kann völlig analog auch auf der anderen Seite erfolgen: 12
 
 Der Grund für die Entwicklung der Bäume ist ja eine effiziente Suchstruktur. Je nachdem in welcher Reihenfolge ein Baum aufgebaut wird kann es zu ungünstigen Konstellationen kommen:
 
-![baum_07](bilder/baum_07.png)
+![baum_07](software-entwicklung/Algo/bilder/baum_07.png)
 
 Um solche Anordnungen zu vermeiden, gibt es balancierte/ausgeglichene Bäume. Um einen Baum auszubalancieren wird der Medianwert ermittelt und als Wurzel gesetzt. Für jede Seite des Baums wird dieser Vorgang wiederholt.
 

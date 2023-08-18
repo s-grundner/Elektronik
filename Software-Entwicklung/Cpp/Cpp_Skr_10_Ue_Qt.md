@@ -486,7 +486,7 @@ Erstellen Sie eine GUI-Anwendung:
 
 - GUI zum Beispiel so:
 
-  ![serporterm](bilder/Qt_SerialPort_Write_01.png)
+  ![serporterm](software-entwicklung/Cpp/bilder/Qt_SerialPort_Write_01.png)
 
   
 
@@ -601,7 +601,7 @@ Erstellen Sie eine GUI-Anwendung:
 
 - GUI zum Beispiel so:
 
-  ![serporterm](bilder/Qt_SerialPort_Read_01.png)
+  ![serporterm](software-entwicklung/Cpp/bilder/Qt_SerialPort_Read_01.png)
 
 - Mit Connect wird automatisch jede Sekunde die Uhrzeit übertragen
 
@@ -609,7 +609,7 @@ Erstellen Sie eine GUI-Anwendung:
 
 Erstellen Sie eine Anwendung zum Senden/Empfangen von seriellen Nachrichten auf der seriellen Schnittstelle
 
-![serpoterm](bilder/Qt_SerialPort_ReadWrite_01.png)
+![serpoterm](software-entwicklung/Cpp/bilder/Qt_SerialPort_ReadWrite_01.png)
 
 - mainwindow.cpp:
 

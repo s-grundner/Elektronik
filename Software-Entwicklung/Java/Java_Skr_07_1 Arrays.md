@@ -113,7 +113,7 @@ Für unsere Wohnorte machen wir das ähnlich: Sepp wohnt in der *Viehwaldstätte
 
 Diese *direkte* Art der Adressierung wird für sämtliche primitiven Datentypen verwendet. Im folgenden Beispiel ist eine Variable b = 107 gesetzt worden. Im Programm wird die Variable mit ihrem Namen b angesprochen, der Inhalt der Variable (107) liegt hier an der Adresse 94. 
 
-![05_Felder01](bilder/05_Felder01.png)
+![05_Felder01](software-entwicklung/Java/bilder/05_Felder01.png)
 
 Was versteht man nun unter **Referenzdatentypen**?
 
@@ -122,7 +122,7 @@ Bei primitiven Datentypen wird der Wert einer Variable direkt unter der Adresse 
 Der Wert einer Referenzdatentyp-Variable ist also unter der Adresse abgelegt die an der Adresse der Variable liegt. Im folgenden Beispiel wird eine Referenzvariable (z.B. ein Feld) mit dem Namen r verwendet. An der Adresse (101) für die r steht ist nicht der Wert, sondern wieder eine Adresse (123). Unter dieser Adresse ist der eigentliche Wert der Referenzvariable abgelegt. Für eine Feldvariable also liegen ab dieser Adresse die Feldwerte.
 
 
-![05_Felder02](bilder/05_Felder02.png)
+![05_Felder02](software-entwicklung/Java/bilder/05_Felder02.png)
 
 In vielen Fällen ist das Wissen über die Art der Adressierung unerheblich. In manchen Fällen erklärt es aber ansonsten seltsam anmutende Fälle:
 

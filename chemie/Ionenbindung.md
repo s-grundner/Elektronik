@@ -8,22 +8,22 @@ created: 22nd August 2022
 ---
 
 # Ionenbindung
->![475](Ionen-bdn.png)
+>![475](chemie/assets/Ionen-bdn.png)
 - wichtigste Art der Bindung zwischen Metallen und Nichtmetallen
 - $\Delta EN > 1.7$
 - Stoffe mit Ionenbindung nennt man **Salze**
-- Nichtmetall mit größerer EN entreißt [Metall](Metallbindung.md) [Valenzelektron](Valenzelektronen.md)
+- Nichtmetall mit größerer EN entreißt [Metall](chemie/Metallbindung.md) [Valenzelektron](chemie/Valenzelektronen.md)
 - Metallatom: <mark style="background: #ADCCFFA6;">Kation</mark> ($Na\longrightarrow Na^{+}+e^{-}$)
 - Nichtmetallatom: <mark style="background: #FF5582A6;">Anion</mark> ($Cl+e^{-}\longrightarrow Cl^{-}$)
 
 ## Struktur
 Ionenpaare bilden Ionengitter  oder Kristallgitter:
->![300](IonAnord.png)
+>![300](chemie/assets/IonAnord.png)
 > - $e^{-} \rightarrow$  Übertragungsreaktion
 > - z.B.: $Na^{+}Cl^{-}$ sind ein Ionenpaar
 
 ## Notation
-|  4 [Valenzelektronen](Valenzelektronen.md) | Nebengruppen |  4 [Valenzelektronen](Valenzelektronen.md) |
+|  4 [Valenzelektronen](chemie/Valenzelektronen.md) | Nebengruppen |  4 [Valenzelektronen](chemie/Valenzelektronen.md) |
 | -------------------- | ------------ | --------------------- |
 | $Na^{+}$             | $Fe^{3+}$    | $F^{-}$               |
 | $Mg^{2+}$            | $Fe^{2+}$    | $Cl^{-}$              |
@@ -35,7 +35,7 @@ Ionenpaare bilden Ionengitter  oder Kristallgitter:
 
 ## Binäre Ionenbindung (-id)
 Salze aus zwei Verbindungen heißen **binäre** Verbindungen:
-<mark style="background: #ADCCFFA6;">[Metall](Metallbindung.md) steht an 1. Stelle</mark>
+<mark style="background: #ADCCFFA6;">[Metall](chemie/Metallbindung.md) steht an 1. Stelle</mark>
 <mark style="background: #FFF3A3A6;">Nichtmetalle an 2. Stelle mit Endung</mark> <mark style="background: #FF5582A6;">-id</mark> 
 
 | Ionenpaar        | Summenformel  | Name            | Bindung                                  |
@@ -48,7 +48,7 @@ Salze aus zwei Verbindungen heißen **binäre** Verbindungen:
 
 ## Komplexe Ionenbindung (-at, -onium-)
 Salze aus mehr als 2 Elementen heißen **komplexe** Verbindungen:
-<mark style="background: #ADCCFFA6;">[Metall](Metallbindung.md) steht an 1. Stelle</mark>
+<mark style="background: #ADCCFFA6;">[Metall](chemie/Metallbindung.md) steht an 1. Stelle</mark>
 <mark style="background: #FFF3A3A6;">komplexes Anion an 2. Stelle mit Endung</mark> <mark style="background: #FF5582A6;">-at</mark> (kommt bei mehrfachem Vorkommen in Klammern)
 
 | Ionenpaar             | Summenformel         | Name            | Beispiele            |

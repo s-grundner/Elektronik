@@ -4,7 +4,7 @@
 
 In welcher Normalform befindet sich die folgende Tabelle (Begründung)? Bringen Sie die folgende Tabelle in die nächst-höhere(n)-Normalform(en):
 
-![Projekt](bilder/NF_Projekt_01.png)
+![Projekt](software-entwicklung/Db/bilder/NF_Projekt_01.png)
 
 - PNr ist die Personalnummer - ist eindeutig zugeordnet
 - Eine Person ist fest einer Abteilung zugeordnet
@@ -18,7 +18,7 @@ In welcher Normalform befindet sich die folgende Tabelle (Begründung)? Bringen 
 
 Bringen Sie die folgende Tabelle nacheinander in die 1te, 2te und 3te Normalform:
 
-![Fahrrad](bilder/NF_Fahrrad_01.png)
+![Fahrrad](software-entwicklung/Db/bilder/NF_Fahrrad_01.png)
 
 Fragen die vorab überlegt werden müssen (Expertenwissen)
 
@@ -37,7 +37,7 @@ title: Lösung
 
 Gegeben ist folgende Tabelle:
 
-![CD-Lieder](bilder/NF_CD_01.png)
+![CD-Lieder](software-entwicklung/Db/bilder/NF_CD_01.png)
 
 Führen Sie die Tabelle nacheinander in die 1te, 2te und 3te Normalform über
 
@@ -82,7 +82,7 @@ Transformation in die 3te Normalform:
 
 Normalisieren Sie folgende Tabelle bis in die 3te Normalform:
 
-![Kurse](bilder/NF_Kurse_01.png)
+![Kurse](software-entwicklung/Db/bilder/NF_Kurse_01.png)
 
 - Kommt ein Teilnehmer immer von der gleichen Firma oder kann er Firma wechseln und wiederum Kurse machen?
 - Kurstyp und Kursname sind eindeutig zugeordnet.
@@ -94,7 +94,7 @@ Für eine Autovermietung wurde ein ER-Diagramm erstellt und von einem Mitarbeite
 - Prüfen Sie die Qualität dieser Vorlage und
 - gehen Sie dabei auf die Begriffe: Normalformen, Anomalien, Redundanzfreiheit, Funktionale Abhängigkeit, Minimalität des Schlüssels ein.
 
-![Kurse](bilder/bsp_Autovermietung.png)
+![Kurse](software-entwicklung/Db/bilder/bsp_Autovermietung.png)
 
 ## Bibliothek
 

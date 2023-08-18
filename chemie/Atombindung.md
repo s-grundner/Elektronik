@@ -13,7 +13,7 @@ created: 23rd August 2022
 - $\Delta EN < 1.7$
 - Elektronen-Wolken durchdringen einander $\rightarrow$ <mark style="background: #ADCCFFA6;">negative</mark> Ladungswolke hält <mark style="background: #FF5582A6;">positive</mark> Kerne zusammen $\rightarrow$ Neues Teilchen: **Molekül**
 - $H_{2}$ Molekül ist energieärmer als 2x $H$
->![molekuel2h](assets/molekuel2h.png)
+>![molekuel2h](chemie/assets/molekuel2h.png)
 
 **Allgemeine Eigenschaften von Stoffen mit Atombindung**
 - Moleküle sind Elektrisch neutral $\rightarrow$ elektrische Isolatoren
@@ -34,15 +34,15 @@ Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 ## Valenzstrichformel
 | Molekül  | VSF                    | Atome                                                                               |
 | -------- | ---------------------- | ----------------------------------------------------------------------------------- |
-| $Cl_{2}$ | >![VSF-Cl2.png\|125](VSF-Cl2.png) | ![Cl.png\|125](Cl.png)                                           |
-| $O_{2}$  | >![VSF-O2.png\|125](VSF-O2.png)  | ![O.png\|125](O.png)                                           |
-| $N_{2}$  | >![VSF-N2.png\|125](VSF-N2.png)  | ![N.png\|125](N.png)                                           |
-| $HCl$    | >![VSF-HCl.png\|125](VSF-HCl.png) | ![H.png\|125](H.png) ![Cl.png\|125](Cl.png) |
-| $H_{2}O$ | >![VSF-H2O.png\|125](VSF-H2O.png) | ![H.png\|125](H.png) ![O.png\|125](O.png)                                                                                     |
-| $NH_{3}$ | >![VSF-NH3.png\|125](VSF-NH3.png) | ![N.png\|125](N.png) ![H.png\|125](H.png)                                                                                    |
-| $CH_{4}$ | >![VSF-CH4.png\|125](VSF-CH4.png) | ![C.png\|125](C.png) ![H.png\|125](H.png)                                                                                   |
+| $Cl_{2}$ | >![125](chemie/assets/VSF-Cl2.png) | ![125](chemie/assets/Cl.png)                                           |
+| $O_{2}$  | >![125](chemie/assets/VSF-O2.png)  | ![125](chemie/assets/O.png)                                           |
+| $N_{2}$  | >![125](chemie/assets/VSF-N2.png)  | ![125](chemie/assets/N.png)                                           |
+| $HCl$    | >![125](chemie/assets/VSF-HCl.png) | ![125](chemie/assets/H.png) ![125](chemie/assets/Cl.png) |
+| $H_{2}O$ | >![125](chemie/assets/VSF-H2O.png) | ![125](chemie/assets/H.png) ![125](chemie/assets/O.png)                                                                                     |
+| $NH_{3}$ | >![125](chemie/assets/VSF-NH3.png) | ![125](chemie/assets/N.png) ![125](chemie/assets/H.png)                                                                                    |
+| $CH_{4}$ | >![125](chemie/assets/VSF-CH4.png) | ![125](chemie/assets/C.png) ![125](chemie/assets/H.png)                                                                                   |
 
-Durch gemeinsame Elektronenpaare erreichen all Atome Edelgaskonfiguration (8 [Valenzelektronen](Valenzelektronen.md)).
+Durch gemeinsame Elektronenpaare erreichen all Atome Edelgaskonfiguration (8 [Valenzelektronen](chemie/Valenzelektronen.md)).
 Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektronenpaare bestimmt:
 >![molekuel-struktur.png](molekuel-struktur.png)
 > Tetraeder ($CH_{4}$)
@@ -52,17 +52,17 @@ Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektron
 
 # Doppel und Dreifachbindungen
 
-![Pasted image 20220901200104.png](Pasted%20image%2020220901200104.png)
+![Pasted image 20220901200104.png](chemie/assets/Pasted%20image%2020220901200104.png)
 
 ## Unpolare Atombindungen
 1. Eine reine Atombindung besteht **nur** zwischen Atomen gleicher Elektronegativität $\rightarrow$ **symmetrische Elektronen & Ladungsverteilung**
 
 | Molekül                   | VSF                             | Ladungsverteilung       |
 | ------------------------- | ------------------------------- | ----------------------- |
-| $Cl_2$ <br> $\Delta EN=0$ | >![VSF-Cl2](assets/VSF-Cl2.png) | >![unp](assets/unp.png) | 
+| $Cl_2$ <br> $\Delta EN=0$ | >![VSF-Cl2](chemie/assets/VSF-Cl2.png) | >![unp](chemie/assets/unp.png) | 
 
 2. Bei Atomen unterschiedlicher $\Delta EN$, die sich zu einem **symmetrischen Molekül** verbinden $\rightarrow$ **unpolare Verbindung**
->![unpch4.png](unpch4.png)
+>![unpch4.png](chemie/assets/unpch4.png)
 
 Unpolare Stoffe zeigen nach außen keine Ladung und sind deshalb im Wasser schwer löslich $\rightarrow$ **Hydrophob** (z.B.: Benzin).
 
@@ -78,11 +78,11 @@ Dipole heben sich auf $\rightarrow$ unpolar.
 
 | Molekül                    | VSF                    | Ladungsverteilung  |
 | -------------------------- | ---------------------- | ------------------ |
-| $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl\|250](assets/VSF-HCl.png) | >![dpl\|250](assets/dpl.png) |
+| $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl\|250](chemie/assets/VSF-HCl.png) | >![dpl\|250](chemie/assets/dpl.png) |
 
 Dipolpfeil zeigt zur negativen Ladung
 Wichtigstes Dipolmolekül: $H_{2}O$
->![dpl-h2o](assets/dpl-h2o.png)
+>![dpl-h2o](chemie/assets/dpl-h2o.png)
 
 #### Dipolmoment
 Teilpole addieren sich zum Dipolmoment:
@@ -91,7 +91,7 @@ $H_{2}O$: $1.9D$
 $HCl$: $1.1D$
 $H_{2}S$: $1.1D$
 
->![dpl-H2S](assets/dpl-H2S.png)
+>![dpl-H2S](chemie/assets/dpl-H2S.png)
 
 Weil Dipole sich elektrisch anziehen, kondensieren diese leicht
 $H_{2}O$ flüssig 

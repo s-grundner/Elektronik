@@ -10,10 +10,10 @@ source: ["Rudolf Frauenschuh"]
 ---
 
 # Lineare Differentialgleichungen 2. Ordnung
-## Lineare [DGL](%7BMOC%7D%20DGL.md) 2. Ordnung mit konstantem Koeffizienten
+## Lineare [DGL](mathe/mathe%20(4)/{MOC}%20DGL.md) 2. Ordnung mit konstantem Koeffizienten
 $$y'' + p\cdot y'+q\cdot y=s(x) $$
-### Lösung der *homogenen* [DGL](%7BMOC%7D%20DGL.md) 2. Ordnung
-Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL](%7BMOC%7D%20DGL.md) 2. Ordnung mit dem [Exponentialansatz](lineare%20DGL%201.%20Ordnung.md)
+### Lösung der *homogenen* [DGL](mathe/mathe%20(4)/{MOC}%20DGL.md) 2. Ordnung
+Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL](mathe/mathe%20(4)/{MOC}%20DGL.md) 2. Ordnung mit dem [Exponentialansatz](mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
 $$
 \begin{align*}
 	y_{h} &= c\cdot e^{\lambda x} & y'' + p\cdot y'+q\cdot y &= 0 \\
@@ -21,7 +21,7 @@ $$
 	y''_{h} &= c\cdot\lambda^{2}\cdot e^{\lambda x} &\lambda^{2}+\lambda\cdot p+q &= 0
 \end{align*}
 $$
-Mit dem [](lineare%20DGL%201.%20Ordnung.md#L%C3%B6sung%20der%20homogenen%20DGL%201%20Ordnung%20Exponentialansatz%7CExponentialansatz) gewinnt man die **charakteristische Gleichung**: $\lambda^{2}+\lambda\cdot p+q=0$.
+Mit dem [](mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%201%20Ordnung%20Exponentialansatz|Exponentialansatz) gewinnt man die **charakteristische Gleichung**: $\lambda^{2}+\lambda\cdot p+q=0$.
 Je nach Art der Lösungen $\lambda_{1}$ und $\lambda_{2}$ sind drei Fälle zu unterscheiden: 
 
 $\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$
@@ -47,7 +47,7 @@ ergibt nur eine Lösung ... es fehlt also etwas
 ![Pasted image 20220601193117](Pasted%20image%2020220601193117.png)
 ```
 
-#### 3. Fall: konjugiert [komplexe](Komplexe%20Zahlen.md) Lösungen
+#### 3. Fall: konjugiert [komplexe](mathe/mathe%20(3)/Komplexe%20Zahlen.md) Lösungen
 $\left( \frac{p}{2} \right)^{2}-q<0$
 $\lambda_{1}=a+jb$
 $\lambda_{2}=a-jb$
@@ -64,10 +64,10 @@ Man schreibt $\sigma$ statt $a$ und $\omega$ statt $b$.
 
 ---
 
-### Lösung der *inhomogenen* [DGL](%7BMOC%7D%20DGL.md) 2. Ordnung
-Die Vorangehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](%7BMOC%7D%20DGL.md) hat. Die allgemeine Lösung $y$ der inhomogenen Gleichung ist die Summe *("Überlagerung")* der allgemeinen Lösung $y_{h}$ der zugehörigen homogenen Gleichung und irgendeiner partikulären *(speziellen)* Lösung $y_{p}$ der inhomogenen Gleichung: **$y=y_{p}+y_{h}$**. 
+### Lösung der *inhomogenen* [DGL](mathe/mathe%20(4)/{MOC}%20DGL.md) 2. Ordnung
+Die Vorangehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](mathe/mathe%20(4)/{MOC}%20DGL.md) hat. Die allgemeine Lösung $y$ der inhomogenen Gleichung ist die Summe *("Überlagerung")* der allgemeinen Lösung $y_{h}$ der zugehörigen homogenen Gleichung und irgendeiner partikulären *(speziellen)* Lösung $y_{p}$ der inhomogenen Gleichung: **$y=y_{p}+y_{h}$**. 
 
-Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL](%7BMOC%7D%20DGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist. 
+Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL](mathe/mathe%20(4)/{MOC}%20DGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist. 
 
 | Störterm                                                                                                       | Lösunsansatz                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

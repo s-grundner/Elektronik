@@ -13,19 +13,19 @@ $$
 &\sigma^{2}= \frac{1}{n}\cdot\sum\limits_{i=1}^{n}(x_{i}-\overline{x})^{2}\\
 \end{align*}
 $$
-# Varianz einer [Zufallsvariable](Zufallsvariable.md)
-Nicht nur der erwartete *mittlere* Wert einer [Zufallsvariable](Zufallsvariable.md) ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom [Erwartungswert](Erwartungswert.md).
+# Varianz einer [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md)
+Nicht nur der erwartete *mittlere* Wert einer [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) ist interessant, sondern auch die erwartete durchschnittliche Abweichung vom [Erwartungswert](mathe/mathe%20(5)/Erwartungswert.md).
 
 - Sozusagen: wie weit streuen die Ergebnisse durchschnittlich?
 
-Sei $X$ eine diskrete [Zufallsvariable](Zufallsvariable.md) mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x_{i})$, so heißt:
+Sei $X$ eine diskrete [Zufallsvariable](mathe/mathe%20(5)/Zufallsvariable.md) mit $M_{x}=\{x_{1};\dots;x_{n}\}$ und $p_{i}=P(X=x_{i})$, so heißt:
 
 >[!summary] $$V(X)=\sum\limits_{i=1}^{n}p_{i}\cdot(x_{i}-E(X))^{2}$$
 >
 > - $V(X)\dots$ Varianz
-> - $E(X)\dots$ [Erwartungswert](Erwartungswert.md)
+> - $E(X)\dots$ [Erwartungswert](mathe/mathe%20(5)/Erwartungswert.md)
 
-Die [Standardabweichung](Standardabweichung.md) oder Streuung $\sigma$ von $X$
+Die [Standardabweichung](mathe/mathe%20(5)/Standardabweichung.md) oder Streuung $\sigma$ von $X$
 >[!summary] $\sigma(X)=\sqrt{V(X)}$
 
 >[!example] Würfeln mit 1 Würfel

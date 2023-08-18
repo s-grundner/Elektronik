@@ -65,7 +65,7 @@ Verbesserung durch Reorganisation: Tabellengröße dynamisch, Hashfunktion anpas
 - Jedes Element wird durch einen eindeutigen **Schlüssel** identifiziert.
 
 
-  ![AssocList](bilder/AssocList.png)
+  ![AssocList](software-entwicklung/Algo/bilder/AssocList.png)
 
 Beispiel Telefonbuch:
 

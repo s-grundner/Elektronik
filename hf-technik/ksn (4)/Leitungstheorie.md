@@ -16,7 +16,7 @@ created: 23rd November 2022
 | Induktivitätsbelag | $L'=\frac{L}{l}$ | $[L']=\frac{1H}{m}$      |
 | Kapazitätsbelag    | $C'=\frac{C}{l}$ | $[C']=\frac{1C}{m}$      | 
 
-> [!summary] [Telegraphengleichung](Telegraphengleichung.md)
+> [!summary] [Telegraphengleichung](hf-technik/ksn%20(4)/Telegraphengleichung.md)
 > $$
 > \frac{d^{2}u}{dz^{2}}=u(z)\cdot\gamma^{2}\\
 > $$
@@ -26,11 +26,11 @@ created: 23rd November 2022
 > \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')}
 > $$
 
-> [!summary] Lösung der [Telegraphengleichung](Telegraphengleichung.md)
+> [!summary] Lösung der [Telegraphengleichung](hf-technik/ksn%20(4)/Telegraphengleichung.md)
 > $$
 > u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}
 > $$
-# [Telegraphengleichung](Telegraphengleichung.md)
+# [Telegraphengleichung](hf-technik/ksn%20(4)/Telegraphengleichung.md)
 
 > [!summary] Kirchhoff'sche Gesetze in der Leitungstheorie
 > 1. Knotenregel
@@ -40,7 +40,7 @@ created: 23rd November 2022
 # Leitung
 | Kennwert | Formelzeichen | Beschreibung |
 | -------- | ------------- | ------------ |
-| [Dämpfung](D%C3%A4mpfung.md) |               |              |
+| [Dämpfung](hwe/Dämpfung.md) |               |              |
 |          |               |              |
 
 ## Allgemein
@@ -61,4 +61,4 @@ $$
 
 $s=VSWR=\frac{|U_{max}|}{|U_{min}|}=\frac{|I_{max}|}{|I_{min}|}$
 # Quellen
-[Reflexionsfaktor](Reflexionsfaktor.md)
+[Reflexionsfaktor](hf-technik/ksn%20(4)/Reflexionsfaktor.md)

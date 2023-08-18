@@ -9,16 +9,16 @@ created: 6th April 2022
 
 # Referenzspannung
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
-Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
+Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](hwe/Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
 ### Grundlagen
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)
-[Halbleitermaterialien](Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.
+[Halbleitermaterialien](hwe/Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.
 $U_{g}= \frac{W_{g}}{e}$
-wobei $e$ die [](Konstanten%20Verzeichnis.md#Elementar%20Ladung%5C%7CElementar%20Ladung) ist.
+wobei $e$ die [](physik/Konstanten%20Verzeichnis.md#Elementar%20Ladung%5C|Elementar%20Ladung) ist.
 
->![Baendermodell](Baendermodell.png)
+>![Baendermodell](hwe/assets/Baendermodell.png)
 	
-2. [Shockley Gleichung](Shockley%20Gleichung.md)
+2. [Shockley Gleichung](physik/Shockley%20Gleichung.md)
 $I_{c}= I_{s}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
 Näherung:
 $I_{c}=I_{s}\cdot e^{\frac{U_{BE}}{\eta \cdot U_{T}}}$
@@ -42,7 +42,7 @@ $U_{BE}=U_{g}+D_{T}\cdot T +\underbrace{[(\eta -1)U_{T}\cdot(1-\ln(\frac{T}{T_{0
 $U_{BE}$ wird mit steigender Erwärmung des Transistors kleiner, da $D_{T}$ *negativ* ist.
 ### Schaltung der [Bandabstandsreferenz](https://de.wikipedia.org/wiki/Bandabstandsreferenz)
 
->![400](Bandabstandsreferenz.png)
+>![400](hwe/assets/Bandabstandsreferenz.png)
 
 #### $U_{PTAT}$ Proportional to absolute temperature
 Mit den folgenden Schritten lässt sicht herleiten, dass $U_{ref}$ konstant bleibt.
@@ -81,4 +81,4 @@ R_{1}&\approx R_{2}
 $$
 ---
 # Tags
-[Chemische Bindungen](Chemische%20Bindungen.md)
+[Chemische Bindungen](chemie/Chemische%20Bindungen.md)

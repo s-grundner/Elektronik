@@ -8,7 +8,7 @@ source: ["Martin Aichriedler"]
 # Internet Protokoll
 ## IPv4
 ### Aufbau eines IPv4-Paketes
-![400](IPv4.png)
+![400](mess-technik/IPv4.png)
 
 | Nummer | Segment             | Größe (bit) | Beschreibung / Funktion        |
 | ------ | ------------------- | ----------- | ------------------------------ |
@@ -25,7 +25,7 @@ source: ["Martin Aichriedler"]
 | 11.    | IP-Adresse (Sender) |             |                                |
 | 12.    | IP-Adresse (Ziel)   |             |                                |
 | 13.    | Optionen / Füllbits |             |                                |
-| 14.    | Datenbereich        |             | Daten der [Transportschicht](Transportschicht.md) |
+| 14.    | Datenbereich        |             | Daten der [Transportschicht](netzwerk-technik/ksn%20(3)/Transportschicht.md) |
 
 
 ### Fragmentieren

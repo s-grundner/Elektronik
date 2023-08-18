@@ -38,5 +38,5 @@ $$
 Slew-Rate: $SR>\dfrac{du}{dt}\rightarrow u(t)\dots$ Beschaltungssignal 
 
 # Quellen
-![OPV](OPV.pdf)
-![OPV Grundschaltungen](OPV%20Grundschaltungen.pdf)
+![OPV](hwe/assets/pdf/OPV.pdf)
+![OPV Grundschaltungen](hwe/assets/pdf/OPV%20Grundschaltungen.pdf)

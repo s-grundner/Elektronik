@@ -344,7 +344,7 @@ int main() {
 
 UML-Diagramm:
 
-![Bankkonto_001](bilder/Bankkonto_001.png)
+![Bankkonto_001](software-entwicklung/Cpp/bilder/Bankkonto_001.png)
 
 In diesem Beispiel besteht eine **Assoziation** (Beziehung) zwischen den Klassen Bank und Account. Es gibt zwei Arten von Assoziationen: **Aggregation** (Account kann auch ohne Bank existieren) und **Komposition** (Account kann ausschließlich nur in einer Bank existieren).
 

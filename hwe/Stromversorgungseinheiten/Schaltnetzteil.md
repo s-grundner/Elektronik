@@ -22,7 +22,7 @@ Auch SMPS (Switched Mode Power Supply)
 	- hohe Wirtschaftlichkeit (Herstellung und Betrieb)
 ### Nachteile
 - Aufwändige Schaltung
-- [EMV](Elektromagnetische%20Vertr%C3%A4glichkeit.md)-Störungen
+- [EMV](hwe/Elektromagnetische%20Verträglichkeit.md)-Störungen
 - Restwelligkeit
 ## Einteilung der SMPSs
 Prinzipiell unterscheidet man zwischen:
@@ -30,8 +30,8 @@ Prinzipiell unterscheidet man zwischen:
 - Geregelten SMPS
 
 # Prinzipien der Schaltregler
-[Sekundär getaktete Schaltregler](Sekund%C3%A4r%20getaktete%20Schaltregler.md)
-[Primär getakteter Schaltregler](Prim%C3%A4r%20getakteter%20Schaltregler.md)
+[Sekundär getaktete Schaltregler](hwe/Stromversorgungseinheiten/Sekundär%20getaktete%20Schaltregler.md)
+[Primär getakteter Schaltregler](hwe/Stromversorgungseinheiten/Primär%20getakteter%20Schaltregler.md)
 # Tags
 [Schmidt-Walter Schaltnetzteildimensionierung](http://schmidt-walter-schaltnetzteile.de/smps/smps.html)
-![SMPS_intro](SMPS_intro.pdf)
+![SMPS_intro](hwe/assets/pdf/SMPS_intro.pdf)

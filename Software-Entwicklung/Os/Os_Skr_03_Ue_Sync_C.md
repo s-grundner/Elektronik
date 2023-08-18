@@ -473,7 +473,7 @@ Eine Lösung für Notepad++:
 
 Großer Nachteil von *RegEx* (im Allgemeinen): vielfach werden diese *RegEx* abweichend implementiert/interpretiert. Eigentlich ist *RegEx* durch POSIX standardisiert. Besonders schlimm ist die eigene Definition von Microsoft-Word.
 
-![Os_RegExMan](bilder/Os_RegExMan.png)
+![Os_RegExMan](software-entwicklung/Os/bilder/Os_RegExMan.png)
 
 Beispiel für E-Mail-Adresse (RFC 5322 Official Standard): https://www.regular-expressions.info/email.html
 

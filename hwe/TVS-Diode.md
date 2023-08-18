@@ -6,18 +6,18 @@ created: 17th August 2023
 
 # TVS-Diode
 
-![](ESD)
+![](hwe/ESD.md)
 
 ## Kennwerte von TVS-Dioden
 ### Uni- oder Bidirektional
 Je nachdem ob die zu schützende Leitung über oder unter dem Massepotential liegt, muss man bei unidirektionalen TVS-Dioden die Polung beachten.
 Bidirektionale arbeiten in beide Richtungen.
-![](assets/TVS-Diode.png)
+![](digitaltechnik/assets/TVS-Diode.png)
 
 ### Anzahl von Kanälen
 Oft haben Konnektoren eine Vielzahl an Pole (z.B. HDMI) die geschützt werden müssen.
 Deshalb gibt es mehrere TVS-Dioden in einem einzigen Package.
-![](assets/SC7538.png)
+![](digitaltechnik/assets/SC7538.png)
 
 ### Arbeitsspannung
 Die Arbeitsspannung ist die maximale Spannung, welche im Normalbetrieb auf der Leitung vorkommt. z.B. 3.3V

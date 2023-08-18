@@ -12,7 +12,7 @@ created: 20th December 2022
 
 ## Rechteck-Dreieck-Generator
 ### Schaltung
-![Relaxations-Osz](Relaxations-Osz.png)
+![Relaxations-Osz](hwe/assets/Relaxations-Osz.png)
 
 # Tags
-[Oszillator](Clock%20Generierung.md)
+[Oszillator](hwe/Oszillatoren/Clock%20Generierung.md)

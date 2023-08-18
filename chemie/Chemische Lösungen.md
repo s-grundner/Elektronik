@@ -12,7 +12,7 @@ Lösung = Lösungsmittel (LM) + gelöster Stoff
 
 Lösungen sind homogene Mischungen zwei oder mehreren Komponenten.
 - meist flüssig
-- fest $\rightarrow$ [Legierung](Metallbindung.md)
+- fest $\rightarrow$ [Legierung](chemie/Metallbindung.md)
 - $\underbrace{\text{Gas}}_{\text{Gelöster Stoff}} + \underbrace{\text{Flüssigket}}_{\text{LM (immer)}}$
 - Bei 2 Flüssigkeiten: LM ist die Flüssigkeit im Überschuss
 

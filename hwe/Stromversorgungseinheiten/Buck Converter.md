@@ -8,20 +8,20 @@ created: 20th April 2022
 ---
 # Buck Converter
 ## Schaltung
-![Buck_converter](Buck_converter.svg)
+![Buck_converter](hwe/assets/Buck_converter.svg)
 
-Der [Transistor](%7BMOC%7D%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gatespannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
+Der [Transistor](hwe/{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gatespannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
 Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle) der Steuerspannung.
 ## Impuls-Zeit Diagramm
->![BuckConverterLZD](BuckConverterLZD.png)
+>![BuckConverterLZD](hwe/assets/BuckConverterLZD.png)
 
 ## Schaltstufe S
 
 ### $0<t<t_{1}$: $S_{geschlossen}$
-Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](Induktivit%C3%A4ten.md) $L$ und versorgt den Lastwiderstand und den [Kondensator](Kapazit%C3%A4t.md) $C_{L}$. Dabei speichert auch die [Spule](Induktivit%C3%A4ten.md) $L$ Energie
+Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](hwe/Induktivitäten.md) $L$ und versorgt den Lastwiderstand und den [Kondensator](hwe/Kapazität.md) $C_{L}$. Dabei speichert auch die [Spule](hwe/Induktivitäten.md) $L$ Energie
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
-Die in der [Spule](Induktivit%C3%A4ten.md) gespeicherten Energie liefert weiter Strom an den [Kondensator](Kapazit%C3%A4t.md)  und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](Induktivit%C3%A4ten.md), den [Kondensator](Kapazit%C3%A4t.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
+Die in der [Spule](hwe/Induktivitäten.md) gespeicherten Energie liefert weiter Strom an den [Kondensator](hwe/Kapazität.md)  und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](hwe/Induktivitäten.md), den [Kondensator](hwe/Kapazität.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
 
 ### Herleitung der Dimensionierung
 Annahme: $U_{a}$ ist konstant über $T_{S}$
@@ -57,17 +57,17 @@ $$
 
 Die Ausgangsspannung kann nur kleiner als $U_{e}$ sein und die Steuerung von $U_{a}$ erfolgt durch veränderung der **Duty-Cycle** bzw der **Schaltperiode**.
 
-## [Induktivität](Induktivit%C3%A4ten.md)
-Aus [](Buck%20Converter.md#t_%201%20t%20T_%20s%20S_%20ge%C3%B6ffnet%7C(2)) folgt:
+## [Induktivität](hwe/Induktivitäten.md)
+Aus [](hwe/Stromversorgungseinheiten/Buck%20Converter.md#t_%201%20t%20T_%20s%20S_%20geöffnet|(2)) folgt:
 $$
 L_{min} = \frac{(U_{a}+U_{FO})\cdot (T_{s}-t_{1})}{\Delta I_{L}(t)}
 $$
- Aus [](Buck%20Converter.md#0%20t%20t_%201%20S_%20geschlossen%7C(1)) folgt:
+ Aus [](hwe/Stromversorgungseinheiten/Buck%20Converter.md#0%20t%20t_%201%20S_%20geschlossen|(1)) folgt:
 $$
 L_{\min} = \frac{(U_{a}-U_{e})\cdot t_{1}}{\Delta I_{L}}
 $$
 Es ist zu beachten, dass $I_{L}(t)$ in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, das heißt auf $0$ sinkt. Delta $I_{L}$ ist daher mit $0,2 - 0,4$ fachen von $\overline{I_{a}}$ als Richtwert anzunehmen.
-## [Kapazität](Kapazit%C3%A4t.md)
+## [Kapazität](hwe/Kapazität.md)
 $$
 \begin{align*}
 \Delta Q &= \Delta I\cdot t &&= \frac{\Delta I_{L}}{2}\cdot\frac{t_{1}}{2}\cdot \frac{1}{2} + \frac{\Delta I_{L}}{2} \cdot \frac{T_{S}-t_{1}}{2}\cdot \frac{1}{2}
@@ -81,7 +81,7 @@ Durch den Ladestrom $I_{L}$ wird auch eine Änderung der Kondensatorspannung bew
 
 Die Annahme einer konstanten Ausgangsspannung bezieht sich daher auf den Mittelwert der zeitabhängigen Größe $U_{A} = U_{C}(\overline{t})$
 
-## [Diode](Dioden.md)
+## [Diode](hwe/Dioden.md)
 Verwendung einer Schottky Diode:
 - kurze Schaltzeit
 - niedrige Schwellspannung $U_{FO}\approx 0,4V$
@@ -105,7 +105,7 @@ Zu Beachten:
 | Nachteil |                   | großes Package         | größere [EMV](Elektromagnetische%20Vertr%C3%A4glichkeit%5C)            |
 
 ### Mindest Spulenwert
->![Lückgrenze](L%C3%BCckgrenze.svg)
+>![Lückgrenze](hwe/assets/Lückgrenze.svg)
 
 Damit der Spulenstrom in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, muss folgendes gelten:
 $$
@@ -113,13 +113,13 @@ $$
 	I_{Amin} = \frac{\Delta I_{L}}{2}\rightarrow R_{L,max} = \frac{U_{a}}{\frac{\Delta I_{L}}{2}} = \frac{2\cdot U_{a}}{\Delta I_{L}}
 \end{align*}
 $$
-Mit [](Buck%20Converter.md#0%20t%20t_%201%20S_%20geschlossen%7C(1)) folgt $\dots$ $\Delta I_{L} = \dfrac{1}{L}\cdot (U_{e}-U_{a})\cdot T_{s}$
+Mit [](hwe/Stromversorgungseinheiten/Buck%20Converter.md#0%20t%20t_%201%20S_%20geschlossen|(1)) folgt $\dots$ $\Delta I_{L} = \dfrac{1}{L}\cdot (U_{e}-U_{a})\cdot T_{s}$
 Unter vernachlässigung von $U_{FO}$
 $$
 I_{Amin} = \frac{1}{2L_{min}}\cdot (U_{e}-U_{a})\cdot T_{s}
 $$
 
- - Für kleine [Induktivitäten](Induktivit%C3%A4ten.md) ist eine große Schaltfrequenz zu wählen. 
+ - Für kleine [Induktivitäten](hwe/Induktivitäten.md) ist eine große Schaltfrequenz zu wählen. 
  - Frequenz nicht beliebig wählbar, da sie ein steigen der dynamischen Verluste in der Drossel verursacht, wenn sie höher wird. Eine Hohe Schaltfrequenz bewirkt auch einen teureren Schalttransistor.
  - Daher erfolgt eine begrenzung der Taktfrequenz bei $50-500kHz$ (Je nach Bauart)
  ### Glättungskondensator
@@ -133,13 +133,13 @@ $$
 ## Erzeugung des Schaltsignals
 Die erzeugung von $U_{steuer}$ erfolg mit einem Pulsbreiten modulator und mit einem Regler mit Spannungsreferenz
 
->![bsb](bsb.svg)
+>![bsb](hwe/assets/bsb.svg)
 
 ### Funktionsweise des Impulsbreitenmodulators
 >![Untitled Diagram 1](hwe/assets/Untitled%20Diagram%201.svg)
 
-Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](../Metall-Oxid-Halbleiter-Feldeffekttransistor.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte [Voltage-Mode-Regelung](Voltage-Mode-Regelung.md). 
+Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte [Voltage-Mode-Regelung](hwe/Voltage-Mode-Regelung.md). 
 
 ---
 # Tags
-[Schaltnetzteil](Schaltnetzteil.md)
+[Schaltnetzteil](hwe/Stromversorgungseinheiten/Schaltnetzteil.md)

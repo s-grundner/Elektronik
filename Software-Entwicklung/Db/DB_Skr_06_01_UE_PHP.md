@@ -43,10 +43,10 @@ Erstellen Sie für die Einkauf-DB eine Anzeige der Kunden-Tabelle.
 
 Erstellen Sie mittels PHP und der Uni-Datenbank die folgenden Seiten:
 
-##### ![Uni-Verwaltung](bilder/Php_Uni001.png)
+##### ![Uni-Verwaltung](software-entwicklung/Db/bilder/Php_Uni001.png)
 
 ## Prüfungsanmeldung
 
 Erweitern Sie das vorherige Beispiel um eine Prüfungsabnahme. Die Eingabe einer Prüfung soll nur möglich sein, wenn über die Voraussetzungsvorlesungen schon eine Prüfung abgelegt wurde.
 
-![Uni-Verwaltung](bilder/Php_Uni002.png)
+![Uni-Verwaltung](software-entwicklung/Db/bilder/Php_Uni002.png)

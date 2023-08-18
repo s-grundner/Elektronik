@@ -174,7 +174,7 @@ typedef struct {
 
 - Wenn mit dynamischer Speicherreservierung gearbeitet wird: free() nicht vergessen.
 
-![](bilder/ptrQsort.png)
+![](software-entwicklung/Algo/bilder/ptrQsort.png)
 
 > Wichtig: wenn Arrays mit großen Strukturen sortiert werden sollen, kann ein Sortieren von Zeigern auf das Feld schneller sein, da weniger Daten umkopiert werden müssen.
 

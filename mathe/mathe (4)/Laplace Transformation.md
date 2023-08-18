@@ -7,9 +7,9 @@ reference: []
 created: 26th April 2022
 ---
 
-# Laplace Transformation - Multiplizieren statt [Differenzieren](Differenzialrechnung.md)
+# Laplace Transformation - Multiplizieren statt [Differenzieren](mathe/mathe%20(3)/Differenzialrechnung.md)
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem Einschalten $(t=0)$ passiert.
-- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](D%C3%A4mpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
+- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](hwe/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
 Ist eine Funktion auf
 - $t\in\mathbb{R}$
@@ -22,7 +22,7 @@ so heißt:
 > [!summary] Frequenzparameter: $s = \delta+j\omega$
 > 
 
-[Fourier Transformation](Fourier%20Transformation.md) vs. Laplace Transformation
+[Fourier Transformation](mathe/mathe%20(4)/Fourier%20Transformation.md) vs. Laplace Transformation
 $$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$
 für $s=j\omega$ ist dann $F(s)=F(\omega)$
 
@@ -42,7 +42,7 @@ für $s=j\omega$ ist dann $F(s)=F(\omega)$
 
 
 ## Herleitung
-Woher: $f(t)\cdot e^{-\delta t}$ wird [fourier-transformiert](Fourier%20Transformation.md) $(f(t)=0 \forall t<0)$
+Woher: $f(t)\cdot e^{-\delta t}$ wird [fourier-transformiert](mathe/mathe%20(4)/Fourier%20Transformation.md) $(f(t)=0 \forall t<0)$
 
 $$
 \begin{align*}
@@ -62,7 +62,7 @@ $$
 \mathcal{L}\{c\cdot f(t)\} = c\cdot \mathcal{L}\{f(t)\} 
 $$
 ### Dämpfungssatz
-Aus einer [Dämpfung](D%C3%A4mpfung.md) im [Zeitbereich](Komplexe%20Zahlen.md) wird eine Verschiebung im [Bildbereich](Komplexe%20Zahlen.md)
+Aus einer [Dämpfung](hwe/Dämpfung.md) im [Zeitbereich](mathe/mathe%20(3)/Komplexe%20Zahlen.md) wird eine Verschiebung im [Bildbereich](mathe/mathe%20(3)/Komplexe%20Zahlen.md)
 
 $$
 \begin{align*}
@@ -81,7 +81,7 @@ Ist $t \leq 0$ so gilt:
 	&\downarrow &&&\downarrow
 \end{align*}
 $$   
-![Zeitverschiebungssatz](Zeitverschiebungssatz.png)
+![Zeitverschiebungssatz](mathe/assets/Zeitverschiebungssatz.png)
 #### Herleitung
 $$
 \begin{align*}
@@ -140,14 +140,14 @@ $$
 \end{align*}
 $$
 
-# Elektrische Netzwerke im Laplace-[Bildbereich](Komplexe%20Zahlen.md) (s-Domäne)
+# Elektrische Netzwerke im Laplace-[Bildbereich](mathe/mathe%20(3)/Komplexe%20Zahlen.md) (s-Domäne)
 Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lineare Differentialgleichung mit konstanten Koeffizienten beschrieben. Diese Netzwerke werden als lineare Netzwerke bezeichnet.
 
 Bei umfangreichen Netzwerken ist jedoch oft
- - das Aufstellen der [Differenzialgleichung(en)](%7BMOC%7D%20DGL.md) 
+ - das Aufstellen der [Differenzialgleichung(en)](mathe/mathe%20(4)/{MOC}%20DGL.md) 
  - die Lösung
  mit beträchtlichen Schwierigkeiten verbunden.
 
 # Tags
-[Delta-Impuls](Delta-Impuls.md)
+[Delta-Impuls](mathe/mathe%20(4)/Delta-Impuls.md)
  

@@ -8,8 +8,8 @@ created: 8th January 2023
 ---
 
 # Grundmenge $\Omega$
-- Menge aller möglichen [Ereignisse](Ereignis.md) (Ausgänge) $\Omega$
-- Anzahl aller möglichen [Ereignisse](Ereignis.md) $|\Omega|$
+- Menge aller möglichen [Ereignisse](mathe/mathe%20(5)/Ereignis.md) (Ausgänge) $\Omega$
+- Anzahl aller möglichen [Ereignisse](mathe/mathe%20(5)/Ereignis.md) $|\Omega|$
 
 >[!example] 1 Würfel
 > $\Omega = \{\text{"1"; "2"; "3"; "4"; "5"; "6"}\}$
@@ -36,4 +36,4 @@ $n$ Versuche
 Die Folge der relativen Häufigkeit zeigt ein konvergentes Verhalten
 
 # Tags
-- [Wahrscheinlichkeit](Wahrscheinlichkeit.md)
+- [Wahrscheinlichkeit](mathe/mathe%20(5)/Wahrscheinlichkeit.md)

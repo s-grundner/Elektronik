@@ -10,17 +10,17 @@ last_edited: 11th April 2022
 # Map of Content - Schnittstellen
 ## Seriell
 ### Synchron
-#### [TWI](TWI.md)/[I2C](TWI.md)
-#### [SPI](SPI.md)
+#### [TWI](digitaltechnik/TWI.md)/[I2C](digitaltechnik/TWI.md)
+#### [SPI](digitaltechnik/SPI.md)
 #### I2S
 ### Asynchron
-#### [UART](USART.md)/[USART](USART.md)
+#### [UART](digitaltechnik/USART.md)/[USART](digitaltechnik/USART.md)
 #### USB
-#### [MIDI](MIDI.md)
+#### [MIDI](digitaltechnik/MIDI.md)
 
 ## Parallel
 ### [PCI](https://de.wikipedia.org/wiki/Peripheral_Component_Interconnect)
 
 ---
 # Tags
-## [Netzwerktopologien](Netzwerktopologien.md)
+## [Netzwerktopologien](netzwerk-technik/ksn%20(3)/Netzwerktopologien.md)

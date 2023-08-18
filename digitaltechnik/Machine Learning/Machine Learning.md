@@ -47,13 +47,13 @@ $$
 \end{pmatrix}
 $$
 
-## [Lineare Regression](Lineare%20Regression.md)
+## [Lineare Regression](digitaltechnik/Machine%20Learning/Lineare%20Regression.md)
 
-![Overfit](../assets/Overfit.png)
+![Overfit](digitaltechnik/assets/Overfit.png)
 Hochgradige Kostenfunktion (nicht konvex)
 man findet das Globale minimum sehr schwer
 
-## [Logistische Regression](Logistische%20Regression.md)
+## [Logistische Regression](digitaltechnik/Machine%20Learning/Logistische%20Regression.md)
 ```functionplot
 ---
 title: Konvexe Kostenfunktion
@@ -134,7 +134,7 @@ J = sum(E.^2);
 >Neue $\theta$ Ausrechnen
 >### Klassifiziereung
 >entscheidungsgrenze einzeichnen durch Thata (geradengleichung)
->Bei einem neuen punkt die [WSK](Wahrscheinlichkeit.md) ausrechnen, ob der neue punkt in der Klasse y=1 ist
+>Bei einem neuen punkt die [WSK](mathe/mathe%20(5)/Wahrscheinlichkeit.md) ausrechnen, ob der neue punkt in der Klasse y=1 ist
 >Kosten $J$ Ausrechnen
 >Kein Neues $\theta$
 >Als mtrixmultiplikation und mit normaler Algebra ausrechnen

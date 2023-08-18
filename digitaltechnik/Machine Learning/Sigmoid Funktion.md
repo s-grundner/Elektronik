@@ -1,4 +1,4 @@
 # Sigmoid Funktion
 Die Sigmoid Funktion ist eine Funktion, welche den Wertebereich Normalisiert.
 
-![sigmoid](sigmoid.png)
+![sigmoid](digitaltechnik/assets/sigmoid.png)

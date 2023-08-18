@@ -8,11 +8,11 @@ created: 13th October 2022
 ---
 
 # Durchflusswandler
-- Gehört zu den [Primär getakteter Schaltregler](Prim%C3%A4r%20getakteter%20Schaltregler.md)n
+- Gehört zu den [Primär getakteter Schaltregler](hwe/Stromversorgungseinheiten/Primär%20getakteter%20Schaltregler.md)n
 - für Leistungen bis 1kW
 
 ## Typen
-[Eintakt-Durchflusswandler](Eintakt-Durchflusswandler.md)
-[Halbbrücken-Durchflusswandler](Halbbr%C3%BCcken-Durchflusswandler.md)
+[Eintakt-Durchflusswandler](hwe/Stromversorgungseinheiten/Eintakt-Durchflusswandler.md)
+[Halbbrücken-Durchflusswandler](hwe/Stromversorgungseinheiten/Halbbrücken-Durchflusswandler.md)
 # Tags
-![Schaltnetzteile_Schmidt-Walter](Schaltnetzteile_Schmidt-Walter.pdf)
+![Schaltnetzteile_Schmidt-Walter](hwe/assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)

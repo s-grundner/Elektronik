@@ -90,7 +90,7 @@ Bringen Sie das Java-Programm *VisualLabyrinth.html* zum Laufen. Dazu muss die S
 
 Acht Damen sollen so auf einem 8x8-Felder Schachbrett platziert werden, dass keine Dame eine andere bedroht. Damen bedrohen Figuren entlang der waagrechten, senkrechten und diagonalen Linien:
 
-![8damen](bilder/8damen.png)
+![8damen](software-entwicklung/Algo/bilder/8damen.png)
 
 Wird die Dame im dargestellten Feld gesetzt, dann darf keine weitere Dame auf den mit Punkten markierten Feldern stehen.
 
@@ -213,7 +213,7 @@ Erweitern Sie den js-Code des 8-Damen-Problems so, dass die HTML-Datei Backtrack
 
 Gegeben ist ein Sudoku Feld mit neun 3x3 großen Teilfeldern. Die Teilfelder sind 3x3 angeordnet.
 
-![sudokufeld](bilder/sudokufeld.png)
+![sudokufeld](software-entwicklung/Algo/bilder/sudokufeld.png)
 
 
 
@@ -233,7 +233,7 @@ Zu Beginn sind in manchen Feldern bereits Ziffern eingetragen. Die fehlenden Fel
 
 Mittels Springer (Schachfigur-Pferd) soll auf einem leeren Schachbrett (8x8 Felder) ein Weg gefunden werden um sämtliche Felder genau einmal zu besuchen. Als Bewegung für den Springers ist dabei nur erlaubt: 2 Felder in eine beliebige Richtung und 1 Feld in eine rechtwinklig davon abgehende Richtung:
 
-![springer01](bilder/springer01.png)
+![springer01](software-entwicklung/Algo/bilder/springer01.png)
 
 Es ergeben sich daraus die dargestellten, möglichen acht Bewegungen. Das Ergebnis kann so aussehen (hier Start auf 0/0):
 

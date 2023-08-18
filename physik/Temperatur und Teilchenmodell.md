@@ -6,7 +6,7 @@ source: ["Angela Lindner"]
 reference: []
 created: 18th August 2022
 ---
-![thermodynamik2](../assets/thermodynamik2.png)
+![thermodynamik2](assets/thermodynamik2.png)
 
 # Temperatur und Teilchenmodell
 ## Teilchenmodell
@@ -17,7 +17,7 @@ created: 18th August 2022
 ## Brown'sche Bewegung und Innere Energie
 - Die Atome eines Körpers sind auch ohne Krafteinwirkung von außen immer in Bewegung.
 - Einen Festkörper kannst du dir als *Feder-Kugel-Modell* vorstellen.
-	![braunschebewegung](braunschebewegung.png)
+	![braunschebewegung](physik/assets/braunschebewegung.png)
 - Die Summe aller kinetischen und potentiellen Energien der Atome eines Körpers wird als **innere Energie** bezeichnet.
 
 ---

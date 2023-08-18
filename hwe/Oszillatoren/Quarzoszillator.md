@@ -8,23 +8,23 @@ created: 17th January 2023
 ---
 
 # Quarzoszillator
-> [!info] Schwingquarze beruhen auf dem Prinzip des [](Piezoelektrik.md#Piezoelektrischer%20Effekt%7CPiezoelektrischen%20Effekts)
+> [!info] Schwingquarze beruhen auf dem Prinzip des [](mess-technik/Piezoelektrik.md#Piezoelektrischer%20Effekt|Piezoelektrischen%20Effekts)
 > Der Quarz ist daher ein Mechanisches Bauelement 
 
 ## Symbol
 
-![500](quarz.png)
+![500](hwe/assets/quarz.png)
 
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens
-> ![500](elek_esb_quarz.png)
+> ![500](hwe/assets/elek_esb_quarz.png)
 
-![400](quarz_mechschwing.png)
-$L_{1}\dots$ Serien-[Induktivität](Induktivit%C3%A4ten.md) (das Schwingen der Masse des Resonators)
-$C_{1}\dots$ Serien-[Kapazität](Kapazit%C3%A4t.md) (Elektrizitätskonstante des Quarzes)
+![400](hwe/assets/quarz_mechschwing.png)
+$L_{1}\dots$ Serien-[Induktivität](hwe/Induktivitäten.md) (das Schwingen der Masse des Resonators)
+$C_{1}\dots$ Serien-[Kapazität](hwe/Kapazität.md) (Elektrizitätskonstante des Quarzes)
 $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere Reibung/mechanische Verluste)
 $C_{0}\dots$ Streukapazität der Elektroden
 
-## [Ableitung](Differenzialrechnung.md) der Resonanzfrequenz
+## [Ableitung](mathe/mathe%20(3)/Differenzialrechnung.md) der Resonanzfrequenz
 $R_{1}$ vernachlässigbar
 
 > [!note] $s=\sigma+j\omega$

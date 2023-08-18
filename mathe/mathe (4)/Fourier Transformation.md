@@ -9,14 +9,14 @@ last_edited: 27th April 2022
 ---
 
 # Fourier Transformation
-Eine *periodische* Funktion $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
+Eine *periodische* Funktion $f$ lässt sich in Form der [Fourier-Reihe](mathe/mathe%20(4)/Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
 
 Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* Funktionen die Aufgabe, diese als Überlagerung von **harmonischen Schwingungen** darzustellen.
 
 Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der Funktion $f$.
-Dadurch entsteht aus einer reellen Funktion $f$ eine [komplexwertige](Komplexe%20Zahlen.md) Funktion $F$.
+Dadurch entsteht aus einer reellen Funktion $f$ eine [komplexwertige](mathe/mathe%20(3)/Komplexe%20Zahlen.md) Funktion $F$.
 
-Man sagt, dass die Zeitfunktion $f$ im **Original-** oder **[Zeitbereich](Komplexe%20Zahlen.md)** liegt, während ihre Fourier-Transformierte im **Frequenz-** oder **[Bildbereich](Komplexe%20Zahlen.md)** liegt.
+Man sagt, dass die Zeitfunktion $f$ im **Original-** oder **[Zeitbereich](mathe/mathe%20(3)/Komplexe%20Zahlen.md)** liegt, während ihre Fourier-Transformierte im **Frequenz-** oder **[Bildbereich](mathe/mathe%20(3)/Komplexe%20Zahlen.md)** liegt.
 Folgende Schreibweisen sind üblich:
 $$
 \begin{align*}
@@ -35,7 +35,7 @@ $$
 \mathcal{F}\{F(\omega)\}^{-1} = f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cdot e^{j\omega t}d\omega
 $$
 ## Herleitung
-### [Eulersche Formel](Eulersche%20Formel.md)
+### [Eulersche Formel](mathe/mathe%20(3)/Eulersche%20Formel.md)
 $$
 \begin{align*}
 \cos(\varphi) &= \frac{1}{2}(e^{j\varphi}+e^{-j\varphi})\\
@@ -43,7 +43,7 @@ $$
 
 \end{align*}
 $$
-### [Fourier Analyse](Fourier%20Reihe.md) - komplexe Form der [Fourier Reihe](Fourier%20Reihe.md)
+### [Fourier Analyse](mathe/mathe%20(4)/Fourier%20Reihe.md) - komplexe Form der [Fourier Reihe](mathe/mathe%20(4)/Fourier%20Reihe.md)
 >[!summary] $$f(t) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot\omega_{0} t)+b_{n}\cdot\sin(n\cdot\omega_{0} t)\right]$$
 
 $$

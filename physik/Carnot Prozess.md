@@ -10,7 +10,7 @@ created: 10th September 2022
 # Carnot Prozess
 Der **Carnot-[Kreisprozess](https://de.wikipedia.org/wiki/Kreisprozess "Kreisprozess")** oder **-Zyklus** ist ein Gedankenexperiment, das zur Realisierung einer reversiblen Wärme-Kraft-Maschine zur Umwandlung von Wärme in Arbeit dient.
 ## Verbrennungsmotor
-![550](../assets/carnot1.png)
+![550](assets/carnot1.png)
 
 **Viertakt-Ottomotor:**
 •	*Die 4 Takte sind:* Ansaugen, Verdichten, Arbeiten, Auspuffen / Suck, Squeeze, Bang, Blow
@@ -26,7 +26,7 @@ Ansaugen des Benzin-Luftgemisches des Vergasers durch das Einlassventil bei gesc
 2.	Verdichtungstakt (Squeeze)
 Der sich nach oben bewegenden Kolben verdichtet bei geschlossenen Ventilen den Brennstoff und erwärmt ihn hierbei.
 3.	Arbeitstakt (Bang)
-Beide Ventile sind geschlossen. Im Moment der größten Verdichtung wird das Benzin-[Luft](Lufth%C3%BClle%20der%20Erde.md)-Gemisch durch die Zündkerze gezündet. Durch die explosionsartige Verbrennung wird der Kolben nach unten gedrückt, es wird an ihm Arbeit verrichtet.
+Beide Ventile sind geschlossen. Im Moment der größten Verdichtung wird das Benzin-[Luft](physik/Lufthülle%20der%20Erde.md)-Gemisch durch die Zündkerze gezündet. Durch die explosionsartige Verbrennung wird der Kolben nach unten gedrückt, es wird an ihm Arbeit verrichtet.
 4.	Auspufftakt (Blow)
 Das Auslassventil wird geöffnet und die verbrannten Abgase werden durch den sich nach oben bewegenden Kolben ausgestoßen.
 

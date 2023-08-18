@@ -8,8 +8,8 @@ created: 2nd December 2022
 ---
 
 # Overfit
-Bsp.: [Lineare Regression](Lineare%20Regression.md) (Häuserpreis)
-![Overfit](../assets/Overfit.png)
+Bsp.: [Lineare Regression](digitaltechnik/Machine%20Learning/Lineare%20Regression.md) (Häuserpreis)
+![Overfit](digitaltechnik/assets/Overfit.png)
 ## Regularisieren
 um das Overfitting zu verhindern
 

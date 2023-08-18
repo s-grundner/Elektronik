@@ -13,5 +13,5 @@ Der Poynting-Vektor $\vec S$ kennzeichnet in der Elektrodynamik die Dichte und d
 Der Begriff des Energieflusses ist identisch mit dem physikalischen Begriff der Leistung, die Bezeichnung Energieflussdichte ist daher gleichwertig zur Leistungsdichte.
 
 ## Beim Koaxialleiter
-![poynting](../assets/poynting.png)
+![poynting](hf-technik/assets/poynting.png)
 # Quellen
