@@ -10,6 +10,7 @@ created: 2nd December 2022
 # Lineare Regression
 
 $X\dots 100\times3$
+
 $\Theta\dots 3\times1$
 $$
 \begin{align*}
@@ -19,7 +20,9 @@ J &= \frac{1}{2m}\cdot \sum\limits_{n=1}^{m}(\Theta'\cdot X_{(n)}-Y_{(n)})\\
 J &= \frac{1}{2m}\sum^{m}_{n=1}(h_{\theta}(x^{(n)})-y^{n})
 \end{align*}
 $$
+
 Zum Normalisieren wird quadriert
+
 $$J = \frac{1}{2m}\sum^{m}_{n=1}(h_{\theta}(x^{(n)})-y^{n})^{2}$$
 
 

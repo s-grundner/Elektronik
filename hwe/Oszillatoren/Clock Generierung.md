@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Microcontroller"]
 aliases: ["Clock", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

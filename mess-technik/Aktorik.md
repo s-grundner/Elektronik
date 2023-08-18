@@ -16,8 +16,11 @@ Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscom
 # Aktoren Übersicht
 
 ## EM-Aktoren: [Elektromagnet](../physik/Elektromagnet.md)
+
 [Elektromagnet](../physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../physik/Elektromagnetische%20Wellen.md)  mit Bewegung reagieren z.B. [Relais](Relais.md)
+
 $\rightarrow$ Mechanische Translation. [Elektromagnet](../physik/Elektromagnet.md) und [Spule](../hwe/Induktivitäten.md) werden benötigt.
+
 ### Elektromotor
 - Stator mit Permanentmagneten verursacht ein statisches Magnetfeld.
 - Rotor mit [Elektromagnet](../physik/Elektromagnet.md) der sich dreht.
@@ -27,21 +30,19 @@ $\rightarrow$ Mechanische Translation. [Elektromagnet](../physik/Elektromagnet.m
 
 
 ## Fl.-Druck-Aktoren: [Hydraulik](Hydraulik.md)
+
 Hydraulische Aktoren arbeiten mit Druck von Flüssigkeiten.
+
 Vorteil: Wasser ist im flüssigen Zustand unkompremierbar.
 
 ## Gasdruck-Aktoren: [Pneumatik](Pneumatik.md)
+
 Pneumatische Aktoren arbeiten mit Gasdruck
 
 ## Thermo-Aktoren
 
-
 ## Pyrotechnische-Aktoren
 
-
-
-
-
 ---
-# Tags
 
+# Tags

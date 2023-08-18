@@ -8,8 +8,10 @@ created: 17th August 2023
 Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die Kommunikation zwischen Computern und Musik-Hardware, sogenannten MIDI-Controllern. Jedes Mal, wenn eine Taste auf einem Controller gedrückt wird, erstellt dieser eine MIDI-Nachricht und sendet sie an den Computer. Diese Tasten sind nicht nur auf die Klaviatur eines MIDI-Controllers beschränkt, es können ebenfalls MIDI-Wörter gesendet werden, welche andere Parameter in einer digitalen Musikproduktionsumgebung steuern, wie zum Beispiel die Intensität eines Audioeffekts.
 
 > [!example] Beispiel
+> 
 > Die [Grenzfrequenz](../hwe/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
-> ![](../assets/Pasted%20image%2020230817205949.png)
+> 
+> ![750](../assets/MIDI-DigiFilter.png)
 
 Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analoges- noch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [1]
 
@@ -18,6 +20,7 @@ Das MIDI-Protokoll beschreibt unter anderem die zu übertragenden Noten mit digi
 Das MIDI-Protokoll beschreibt unter anderem die zu übertragenden Noten mit digitalen Wörtern, welche in einer genormten Tabelle festgehalten sind. Jede Note hat daher eine Adresse, durch welche dann ein anderes digitales Instrument weiß, mit welcher Tonhöhe es diese Note spielen muss.
 
 ## Status Bytes
+
 Eine MIDI-Nachricht ist aus drei (manchmal zwei) Bytes aufgebaut:
 - Status und Kanal
 - Erstes Datenbyte
@@ -45,10 +48,13 @@ Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status- und Kan
 Mit den Vier übrigen Bit wird der Kanal eingestellt, an den die Nachricht geschickt werden soll. Ein einzelner Controller kann also bis zu 16 verschieden MIDI-Kanäle in einer DAW ansprechen. Auf einem MIDI-Keyboard würden zum Beispiel die Klaviertasten auf einen anderen Kanal geschickt werden als die Drumpads.
 
 >[!info] Vier verschiede MIDI-Spuren mit dem gleichen Controller als Input
+>
 >![](../assets/MIDI-SW-Channel.png)
 
 > [!info] MIDI Kanäle auf die Hardware bezogen:
+> 
 > ![](../assets/MIDI_Controller.png)
+> 
 > Channel 10: Drumpads (16 Quadratische Drucktasten oben)
 > Channel 1: Klaviertasten
 
@@ -74,5 +80,7 @@ Nach dieser Übertragung bleibt die Note so lange angeschaltet, bis ein _Note Of
 # Quellen
 
 [1] - [ZeM College MIDI Kompendium](https://www.zem-college.de/indexf.html)
+
 [2] - [Expanded MIDI 1.0 Messages List (Status Bytes)](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes)
+
 [3] - [MIDI note numbers and center frequencies](https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies)

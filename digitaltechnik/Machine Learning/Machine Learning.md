@@ -10,6 +10,7 @@ created: 24th October 2022
 # Machine Learning
 ## Lullifunktion
 $y=k\cdot x+d$
+
 ```functionplot
 ---
 title: 

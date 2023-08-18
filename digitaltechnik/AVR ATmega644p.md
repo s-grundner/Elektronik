@@ -10,12 +10,14 @@ last_edited: 11th April 2022
 
 # AVR ATmega644p
 ## Memory
-| Storage Medium               | Size  |
+
+| Storage Medium | Size  |
 | -------------- | ----- |
 | Program Memory | 64kiB |
 | Flash (RAM)    | 2kiB  |
 
 Konstante Variablen oder Tabellen sollten zur Speicher Optimierung im Programmemory gespeichert werden:
+
 ```c
 // AVR GCC usues Variable Attributes to declare a variable in Program Memory
 const int mydata[] __attribute__((__progmem__)) = ...
@@ -27,12 +29,8 @@ const int mydata[] __attribute__((__progmem__)) = ...
 const int mydata[] PROGMEM = ...
 ```
 
->[!info] `static` specifier
-> Wenn **globale Variablen** nur in einem File verwendet werden, soll man sie als `static` bezeichnen.
-> **Lokale Variablen** sollen nur `static` markiert werden, wenn <mark style="background: #FFB86CA6;">der Wert erhalten bleiben</mark> soll.
-> Wenn eine **Funktion** nur in <mark style="background: #FFB86CA6;">einem File</mark> verwendet wird, sollte sie als `static` markiert werden. 
-
 ## Assembly
+
 > [!example] 
 > ![AVR_Assembly1](assets/AVR_Assembly1.png)
 > Vor dem Start des Programms wurde das gesamte interne Datenmemory (insklusive der Register R0-R31) auf 0x5A initialisiert. Indirektes Register X=R27:R26
@@ -46,7 +44,6 @@ const int mydata[] PROGMEM = ...
 > R20 : `0x76`  
 > R26 : `0x2C ` 
 > R27 : `0x00`
-> 
 
 ## AVR-lib Basics
 - Bit setzen: `REG = REG | (1<<REG[n])`
@@ -55,11 +52,12 @@ const int mydata[] PROGMEM = ...
 - Bit abfragen: `BOOL = REG & (1<<REG[n])`
 
 ## PIN, PORT, DDR
-`PORT` Register zum Beschreiben der Pin Ausgänge
-`PIN` Register zum Abfragen des digitalen Wertes am Pin
-`DDR` Register: `0 -> input`, `1 -> output`
+- `PORT` Register zum Beschreiben der Pin Ausgänge
+- `PIN` Register zum Abfragen des digitalen Wertes am Pin
+- `DDR` Register: `0 -> input`, `1 -> output`
 
 ## ADC
+
 ### Examples
 
 > [!info]  Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
@@ -73,6 +71,7 @@ const int mydata[] PROGMEM = ...
 > - 1 Energiedichte > 7 mW/cm²
 
 > [!warning] Der AD Wandler wurde bereits initialisiert mit Single Konversion, Referenz Spannung = 5V, 10 Bit Auflösung und ADLAR = 0.
+> 
 ```c
 void adc_init()
 {
@@ -124,8 +123,11 @@ char check_sensor()
 --- 
 
 ## Interrupts
+
 ### External Interrupt
+
 #### Example
+
 ```c
 void ext_int1_init(void)
 {
@@ -147,7 +149,9 @@ int main()
 ```
 
 ### Timer Interrupt
+
 #### Example
+
 > [!info] Fast-PWM
 > - Timer2 8-Bit breit, zählt von 0-255
 > - fast pwm mode (non inverting)
@@ -206,9 +210,10 @@ int main()
 
 ## [{MOC} Schnittstellen]({MOC}%20Schnittstellen.md)
 - [I2C](TWI.md)/[TWI](TWI.md)
--  [USART](USART.md)
+- [USART](USART.md)
 
 # Algo
+
 - [Ringbuffer](Ringbuffer.md)
 
 # Quellen

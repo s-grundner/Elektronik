@@ -8,21 +8,28 @@ created: 17th November 2022
 ---
 
 # LC [Oszillatoren](Clock%20Generierung.md)
-- Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md)es
+- Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md)
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
 - sowohl Serien- als auch Parallelschwingkreis möglich 
 - Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
 - geeignet für hohe Frequenzen
+- 
 # Parallel [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
+
 > [!info] Schaltung
 >![LC-osz](../assets/LC-osz.png)
+
+
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
 
 ## Herleitung mit [DGL](../../mathe/mathe%20(4)/{MOC}%20DGL.md)
+
 $$
 \frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A
 $$
+
 mit 
+
 $$
 \begin{align*}
 &u_{L}=L\cdot\dfrac{di}{dt}
@@ -33,6 +40,7 @@ $$
 $$
 
 Bildung einer [DGL](../../mathe/mathe%20(4)/{MOC}%20DGL.md):
+
 $$
 \begin{align*}
 i_{R}-i_{C}-i_{L}&=0\\
@@ -43,6 +51,7 @@ i_{R}-i_{C}-i_{L}&=0\\
 $$
 
 ### Herleitung der [linearen Differentialgleichung 2. Ordnung](../../mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md)
+
 $$
 \begin{align*}
 \ddot{u}_{1}+2\delta \cdot\dot{u}_{1} - \frac{1}{LC}\cdot u_{1}&=0 \qquad \delta= \frac{1-A}{2RC}  \qquad \omega_{0}^{2} = \frac{1}{LC} 
@@ -91,7 +100,9 @@ C\cdot e^{\lambda t}(\lambda^{2}+2\delta\lambda + \omega_{0}^{2}) &= 0\\
 u_{1}(t) &= \dots
 \end{align*}
 $$
+
 ### Herleitung der Schwingfrequenz
+
 $$
 \begin{align*}
 \omega_{1}&
@@ -108,7 +119,9 @@ R&= -\left(\omega_{2}\cdot L - \dfrac{1}{\omega_{2}\cdot C}\right)\\
 \end{cases}
 \end{align*}
 $$
+
 #### Abkürzung
+
 $$
 \begin{align*}
 Q&= \dfrac{U_{L,R}}{U} =\dfrac{U_{C,R}}{U} = \frac{\omega_{0}\cdot L}{R}=\frac{1}{\omega_{0}\cdot RC}\\
@@ -117,14 +130,18 @@ B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}\\
 &= \frac{1}{2\pi}\cdot \frac{R}{L}\\
 \end{align*}
 $$
+
 ![600](../assets/Pasted%20image%2020221212102110.png)
+
 $$
 \begin{align*}
 \underline{Y} &= \frac{1}{R} + j\left(\omega\cdot C - \frac{1}{\omega L}\right)\qquad \text{Y wird zu null bei Resonanz}\\
 \omega_{0}\cdot C &= \frac{1}{\omega_{0}\cdot L} = \frac{1}{\sqrt{LC}}
 \end{align*}
 $$
+
 ![600](../assets/ParallelZeiger.png)
+
 - $Y\rightarrow0$ bei $\omega = \omega_{r}$
 - $Z$ wird ein Maximum
 - Spannungsmaximum bei Resonanz
@@ -134,16 +151,22 @@ Bandbreite: Obere minus untere [Grenzfrequenz](../Grenzfrequenz.md)
 
 
 # Serien [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
+
 > [!info] Schaltung
 > ![Pasted image 20221213082043](../assets/Pasted%20image%2020221213082043.png)
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
+
 ## Herleitung mit [DGL](../../mathe/mathe%20(4)/{MOC}%20DGL.md)
+
 man betrachtet den Fall der ungedämpften Schwingung mit $\delta = \frac{R}{2L}= 0$
+
 Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
 # Typen
+
 [Colpitts Oszillator](Colpitts%20Oszillator.md)
 
 # Quellen
+
 ![Clock_und_Reset_Generierung](../assets/pdf/Clock_und_Reset_Generierung.pdf)

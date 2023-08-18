@@ -1,10 +1,18 @@
-/.trash
-/.vscode
-/.obsidian/*.json
-/.obsidian/plugins/obsidian-completr/scanned_words.txt
-/.obsidian/snippets
-/.obsidian/themes
+.trash
+.vscode
 **/data.json
-conflict-files-obsidian-git.md
-.obsidian/workspace
 node_modules
+
+.obsidian/snippets
+.obsidian/*.json
+.obsidian/themes
+.obsidian/workspace
+conflict-files-obsidian-git.md
+
+# Obsidian Plugins
+.obsidian/plugins/obsidian-completr
+.obsidian/plugins/calendar
+.obsidian/plugins/better-word-count
+.obsidian/plugins/obsidian-living-graph
+.obsidian/plugins/code-block-copy
+.obsidian/plugins/drawio-obsidian

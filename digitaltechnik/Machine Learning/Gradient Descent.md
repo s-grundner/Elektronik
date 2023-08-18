@@ -8,6 +8,7 @@ created: 7th November 2022
 ---
 
 # Gradient Descent
+
 Der Gradient Descent ist ein Algorithmus zur Annäherung von der Kostenfunktion $J$ der [Lineare-](Lineare%20Regression.md) oder [Logistische](Logistische%20Regression.md) Regression.
 
 Der Algorithmus ist eine Kombination aus dem [Newton'schen Annäherungsverfahren](../../mathe/mathe%20(3)/Newton'sches%20Näherungsverfahren.md) und der [Sigmoid Funktion](Sigmoid%20Funktion.md).
@@ -20,8 +21,11 @@ J&=\frac{\partial J}{\partial\theta_{j}}= \frac{1}{m}\sum^{m}_{i=1}(h_{\theta}(x
 h_{\theta}(x^{(i)})&= \frac{1}{1+e^{-\Theta^{T}\cdot x}}
 \end{align*}
 $$
+
 $j\dots$Anzahl der Eigenschaften
+
 $i\dots$Anzahl der Samplepoints
+
 $^{T}\dots$Matrix ist Transponiert
 
 # Beispiel
@@ -38,6 +42,3 @@ P_{6}(6|150): y=1\\
 $$
 
 # Tags
-
-
-
