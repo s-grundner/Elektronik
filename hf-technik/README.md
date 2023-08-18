@@ -1,4 +1,4 @@
-w---
+---
 tags: ["MOT"]
 teacher: ["Martin Aichriedler"]
 inst: ["HTBLuVA Salzburg"]
