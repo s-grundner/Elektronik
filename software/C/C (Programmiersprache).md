@@ -1,8 +1,8 @@
 ---
 tags: ["MOC"]
-aliases: ["undefined"]
+aliases: []
 subject: ["fsst"]
-source: ["a"]
+source: []
 reference: []
 created: 17th August 2023
 ---

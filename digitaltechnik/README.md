@@ -23,11 +23,11 @@ created: 10th December 2022
 - Microcontroller
 - AVR ([ATmega644p](AVR%20ATmega644p.md))
 - Digitale [Schnittstellen]({MOC}%20Schnittstellen.md)
-- Embedded [Algorithms](../software-entwicklung/ds-algo/{MOC}%20Algorithms.md)
+- Embedded [Algorithms](../software/ds-algo/{MOC}%20Algorithms.md)
 
 ## 5. JG
 - [Machine Learning](Machine%20Learning/Machine%20Learning.md)
-- [ESP32](../software-entwicklung/IoT/ESP32.md)
+- [ESP32](../software/IoT/ESP32.md)
 
 ## Matura 
 ### Schaltungsentwurf
