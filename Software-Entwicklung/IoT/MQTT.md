@@ -89,7 +89,7 @@ home/data 32
 
 Wireshark:
 
-![](software-entwicklung/IoT/assets/MQTT_FrameWireSh.png)
+![](assets/MQTT_FrameWireSh.png)
 
 (Markiert: MQTT auf darunterliegenden TCP)
 
@@ -132,7 +132,7 @@ sport/#
 
 Übertragung wird vom Client initiiert, dadurch kann von außen keine Verbindung geöffnet werden. Durch die Adressierung mittels Topic-Level ist keine Zuordnung auf Geräte möglich. MQTT wird im einfachsten Fall mittels TCP übertragen. Grundsätzlich soll die Übertragung produktiv immer über **TSL** übertragen werden. 
 
-![](software-entwicklung/IoT/assets/MQTT_TLS.png)
+![](assets/MQTT_TLS.png)
 
 TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die für die Richtigkeit der Daten bürgt. Falls wir unseren eigenen Zertifikaten trauen können wir diese selbst Erstellen (wie im Folgenden gezeigt).
 

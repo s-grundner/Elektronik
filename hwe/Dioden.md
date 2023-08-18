@@ -21,5 +21,5 @@ created: 16th March 2022
 - [Zener-Diode](Zener-Diode)
 - [Germanium-Dioden](Germanium-Dioden)
 - [Leucht-Dioden](Leucht-Dioden)
-- [Kapazitäts-Diode](hwe/Kapazitäts-Diode.md)
+- [Kapazitäts-Diode](Kapazitäts-Diode.md)
 - TVS-Diode

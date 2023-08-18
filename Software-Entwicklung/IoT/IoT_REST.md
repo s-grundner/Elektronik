@@ -857,22 +857,22 @@ Im Android-Studio:
   Rest-Ok Response: {"status":200,"status_message":"Book Found","data":348}
   ```
 
-## [Node-RED](software-entwicklung/IoT/Node-RED.md)
+## [Node-RED](Node-RED.md)
 
-[Node-RED](software-entwicklung/IoT/Node-RED.md) ist eine grafische Signalfluss-Sprache. Gerade für IOT-Anwendungen sind häufig nicht so versierte Benutzer am basteln.
+[Node-RED](Node-RED.md) ist eine grafische Signalfluss-Sprache. Gerade für IOT-Anwendungen sind häufig nicht so versierte Benutzer am basteln.
 
 - REST funktioniert mittels HTTP. Daher wird als Input ein `http`-Node benötigt. Für diesen Node wird als URL "/users" eingestellt.
 - Als Output wird ein `http-response`-Node verwendet, die Standardeinstellungen werden nicht verändert.
 
-![](software-entwicklung/IoT/assets/NodeRed_Rest01.png)
+![](assets/NodeRed_Rest01.png)
 
 In einem weiteren Browserfenster wird nun auf die URL (für obiges Bild) `http://192.168.62.104:1880/users` zugegriffen (oder http://localhost:1880/users). Um GET in HTTP Daten mitzugeben kann die URL erweitert werden: `http://192.168.62.104:1880/users?Var=Wert`. Im Browser wird als Antwort Var=Wert dargestellt.
 
 Als nächstes wird ein HTTP-Anforderung-Node (`http request`) dazwischen eingefügt. In diesem wird die URL `http://192.168.62.104:3000/api` eingestellt und als Methode `GET`. Wenn ein entsprechender node-Server läuft (siehe REST `$node Server.js`) dann wird die Antwort aus dem REST-Api returniert
 
-## [Node-RED](software-entwicklung/IoT/Node-RED.md) MongoDB
+## [Node-RED](Node-RED.md) MongoDB
 
-![](software-entwicklung/IoT/assets/NodeRed_Rest02.png)
+![](assets/NodeRed_Rest02.png)
 
 Mit der dargestellten Struktur kann ebenfalls auf die MongoDB zugegriffen werden und wie mit obigen Node.js der Inhalt zurückgegeben werden. Damit gleich wird für GET api/personcollection angegeben. Für MongoDB muss im Hintergrund wiederum die DB (als Service) laufen. Eingestellt wurde als DB MyDb, als Collection persons. Mittels Browserfenster kann nun:
 
@@ -882,11 +882,11 @@ http://xxx.xxx.xxx.xxx:1880/api/personcollection?name=Huber
 ```
 Mit dem ersten Aufruf werden alle Elemente aus der DB gelistet, mit dem zweiten nur derjenige mit Namen Huber (wenns den denn gibt).
 
-## [Node-RED](software-entwicklung/IoT/Node-RED.md) BookStore
+## [Node-RED](Node-RED.md) BookStore
 
-Das obige PHP (siehe Oben) wird mittels [Node-RED](software-entwicklung/IoT/Node-RED.md) implementiert:
+Das obige PHP (siehe Oben) wird mittels [Node-RED](Node-RED.md) implementiert:
 
-![](software-entwicklung/IoT/assets/NodeRed_Rest03.png)
+![](assets/NodeRed_Rest03.png)
 
 Hier wird das Array ins JavaScript implementiert. Aufgerufen wird im Browser mittels:
 
@@ -919,10 +919,10 @@ http://localhost:1880/_rest?name=java
   - Installation für div. OS: https://nodejs.org/en/download/
   - Node.js für Raspian: https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
 
-  - [Node-Red](software-entwicklung/IoT/Node-RED.md)->Datenbank: https://flows.nodered.org/node/node-red-node-mysql
+  - [Node-Red](Node-RED.md)->Datenbank: https://flows.nodered.org/node/node-red-node-mysql
   - Node.js - Verwendung für MySQL-Datenbanken
     <https://www.w3schools.com/nodejs/nodejs_mysql_select.asp>
     (<https://www.npmjs.com/package/mysql>)
 
-- [Node-Red](software-entwicklung/IoT/Node-RED.md) mit Rest-API:
+- [Node-Red](Node-RED.md) mit Rest-API:
   https://medium.com/@ankur.kus1/build-rest-api-using-flow-based-programming-node-red-4ed343228ba

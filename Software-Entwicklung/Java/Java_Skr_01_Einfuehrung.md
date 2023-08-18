@@ -23,7 +23,7 @@ Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vo
 
 Nach Erstellung des Quellcodes muss das Programm in einen Byte-Code umgewandelt werden (**Kompiliert**) werden. Man benötigt dafür einen Java-Compiler (Teil der JDK). Der Java-Bytecode kann nicht alleine direkt auf dem Betriebssystem ausgeführt werden. Man benötigt ein Programm das diesen Bytecode ausführt, die **Java-Virtuelle-Maschine**. Der Vorteil dieser Variante (im Vergleich zu anderen Programmiersprachen) ist, dass auf einem Rechnersystem mit einem verschiedenen Betriebssystem der idente Bytecode unter Verwendung einer JVM ausgeführt werden kann.
 
-![Programm-Erstellung](software-entwicklung/Java/bilder/01_Einführung_Erstellung.png "Programm-Erstellung")
+![Programm-Erstellung](bilder/01_Einführung_Erstellung.png "Programm-Erstellung")
 
 **Beispiel:** Ausgabe von "Hello 2AHEL!" auf der Konsole: 
 

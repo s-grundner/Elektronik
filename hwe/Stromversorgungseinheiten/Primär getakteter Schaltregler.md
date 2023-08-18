@@ -7,10 +7,10 @@ reference: []
 created: 2nd October 2022
 ---
 
-# Primär getakteter [Schaltregler](hwe/Stromversorgungseinheiten/Schaltnetzteil.md)
-![PrimGetaktSMPS](assets/PrimGetaktSMPS.png)
+# Primär getakteter [Schaltregler](Schaltnetzteil.md)
+![PrimGetaktSMPS](../../assets/PrimGetaktSMPS.png)
 ## Eigenschaften
-### Nachteile gegenüber [Sekundär getaktete Schaltregler](hwe/Stromversorgungseinheiten/Sekundär%20getaktete%20Schaltregler.md)
+### Nachteile gegenüber [Sekundär getaktete Schaltregler](Sekundär%20getaktete%20Schaltregler.md)
 - Potenzialtrennung in der Ansteuerlogik
 - relativ hohe Welligkeit in $U_{a}$
 - Anforderungen der Bauelemente hoch
@@ -25,8 +25,8 @@ created: 2nd October 2022
 ### Übertrager
 - Ferritkern
 - Speichertransformator
-- geringer [Streuverlust](hf-technik/ksn%20(5)/Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
->![325](hwe/assets/Trafo-Streuung.png)
+- geringer [Streuverlust](../../hf-technik/ksn%20(5)/Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
+>![325](../assets/Trafo-Streuung.png)
 ### Glättungskondensator
 - Low ESR (Equivalent Series Resistance)
 - Low ESL (Equivalent Series Inductance)
@@ -34,14 +34,14 @@ created: 2nd October 2022
 ### Layout
 - Hohe Frequenzen
 - Hohe Ströme
-- [EMV](hwe/Elektromagnetische%20Verträglichkeit.md) gerechter Aufbau
-- [EMV](hwe/Elektromagnetische%20Verträglichkeit.md) Filter
+- [EMV](../Elektromagnetische%20Verträglichkeit.md) gerechter Aufbau
+- [EMV](../Elektromagnetische%20Verträglichkeit.md) Filter
 - kurze Leitungsführung
 
 # Typen
-[Sperrwandler](hwe/Stromversorgungseinheiten/Sperrwandler.md)
+[Sperrwandler](Sperrwandler.md)
 
 ---
 # Tags
-![SMPS_intro](hwe/assets/pdf/SMPS_intro.pdf)
-![Schaltnetzteile_Schmidt-Walter](hwe/assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)
+![SMPS_intro](../assets/pdf/SMPS_intro.pdf)
+![Schaltnetzteile_Schmidt-Walter](../assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)

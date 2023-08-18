@@ -37,14 +37,14 @@ Nicht näher spezifizierte Beziehungen werden durch eine durchgehende Linie ohne
 
 Eine generalisierte Klasse wird mit einer durchgehenden Linie verbunden und einer dreieckigen Pfeilspitze die zur generalisierten Klasse hin zeigt.
 
-![Vererbung](software-entwicklung/Java/bilder/Klassendiagr_04.gif "Vererbung")
+![Vererbung](bilder/Klassendiagr_04.gif "Vererbung")
 
 ### Aggregation/Komposition
 
 Aggregationen werden durch eine durchgehende Linie mit abschliessender und nichtausgefüllter Raute dargestellt. Die Darstelltung der Kompositionen ist gleich lediglich die Raute wird ausgefüllt. Die Raute ist in beiden Fällen auf Seite des Ganzen.
 
 
-![Aggregation/Komposition](software-entwicklung/Java/bilder/Klassendiagr_03.gif "Aggregation/Komposition")
+![Aggregation/Komposition](bilder/Klassendiagr_03.gif "Aggregation/Komposition")
 
 ### Multiplizität
 
@@ -56,12 +56,12 @@ In einer Beziehung kann auch die Anzahl der Verbindungen angegeben werden:
 - Auflistung n;m;o wenn die Anzahl genau die Werte n, m, o usw. annehmen kann
 
 
-![Multiplizität](software-entwicklung/Java/bilder/Klassendiagr_02.gif "Multiplizität")
+![Multiplizität](bilder/Klassendiagr_02.gif "Multiplizität")
 
 ### Rolle, Beziehungsname und Richtung
 
 Die Rolle wird nahe der Klasse angegeben und beschreibt die Rolle der Klasse in der Beziehung. Der Beziehungsname wird mittig über die Beziehung geschrieben und mit einem Pfeil für die Leserichtung eingetragen.
 
-![Rolle, Beziehungsname und Richtung](software-entwicklung/Java/bilder/Klassendiagr_01.gif "Rolle, Beziehungsname und Richtung")
+![Rolle, Beziehungsname und Richtung](bilder/Klassendiagr_01.gif "Rolle, Beziehungsname und Richtung")
 
 

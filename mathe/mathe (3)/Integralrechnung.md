@@ -20,5 +20,5 @@ last_edited: 11th April 2022
 ### Substitution bei bestimmten Integralen
 ---
 # Tags
-[Partialbruchzerlegung](mathe/mathe%20(3)/Partialbruchzerlegung.md)
+[Partialbruchzerlegung](Partialbruchzerlegung.md)
 #incomplete 

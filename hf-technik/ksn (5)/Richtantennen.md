@@ -8,11 +8,11 @@ created: 1st December 2022
 ---
 
 # Richtantennen
-Stäbe bzw "Einzenle [Antennen](hf-technik/ksn%20(5)/Antenne.md)" dienen als Erreger.
+Stäbe bzw "Einzenle [Antennen](Antenne.md)" dienen als Erreger.
 
 Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert (Phased Array Beam Stream Streaming).
 
-Die Keule wird durch konstruktive und destruktive inteferenz der erreger ([Antennen](hf-technik/ksn%20(5)/Antenne.md)) elektrisch geschwenkt
+Die Keule wird durch konstruktive und destruktive inteferenz der erreger ([Antennen](Antenne.md)) elektrisch geschwenkt
 
 
 

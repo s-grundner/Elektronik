@@ -9,8 +9,8 @@ created: 24th January 2023
 
 # Ringoszillator
 
-Ein Ringoszillator besteht aus einer in Reihe geschalteten Kette von Invertern. es gelten die [Barkhausen Kriterien](hwe/Oszillatoren/Barkhausen%20Kriterium.md).
-[BHK](hwe/Oszillatoren/Barkhausen%20Kriterium.md):
+Ein Ringoszillator besteht aus einer in Reihe geschalteten Kette von Invertern. es gelten die [Barkhausen Kriterien](Barkhausen%20Kriterium.md).
+[BHK](Barkhausen%20Kriterium.md):
 - open loop gain > 1
 - open loop phase shift: ungerades Vielfaches von $180\degree$
 
@@ -21,6 +21,6 @@ Ein Ringoszillator besteht aus einer in Reihe geschalteten Kette von Invertern. 
 Die delay time einer einzelnen Inverter Stufe, lässt sich auf kapazitive/resistive weise und durch beeinflussen des Querstromes beim Schaltvorgang des Gatters beeinflussen. 
 
 ## Schaltung
-![ring-osz](hwe/assets/ring-osz.png)
+![ring-osz](../assets/ring-osz.png)
 
 # Tags

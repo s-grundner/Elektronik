@@ -263,7 +263,7 @@ Temperatur = [60,8 °F; 100,0 °F; 60,8 °F; 82,4 °F; 212,0 °F]; Mittelwert = 
 
 Die Daten der Messreihe sollen in eine csv-Datei geschrieben werden und dann mit Excel gelesen werden. Aufbau der Datei:
 
-![Alt-Text](software-entwicklung/Java/bilder/Messreihe.png)
+![Alt-Text](bilder/Messreihe.png)
 
 ## Ue_Datum
 

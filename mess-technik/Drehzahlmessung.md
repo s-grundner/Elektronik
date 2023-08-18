@@ -13,7 +13,7 @@ Auf einer umlaufenden Welle werden sich vorbei bewegende Markierungen $(m)$ gez√
 
 Es gilt: $f = n\cdot m$ ($n\dots$ Drehzahl, $f\dots$ Frequenz)
 
-![675](mess-technik/assets/revmeter.png)
+![675](assets/revmeter.png)
 
 ---
 # Tags

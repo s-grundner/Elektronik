@@ -11,16 +11,16 @@ last_edited: 31st March 2022
 # Aktorik
 Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscomputer) in mechanische Bewegung , bzw. in andere physikalische Größen um.
 
-![Aktor_BSB](mess-technik/assets/Aktor_BSB.svg)
+![Aktor_BSB](assets/Aktor_BSB.svg)
 
 # Aktoren Übersicht
 
-## EM-Aktoren: [Elektromagnet](physik/Elektromagnet.md)
-[Elektromagnet](physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](physik/Elektromagnetische%20Wellen.md)  mit Bewegung reagieren z.B. [Relais](Relais.md)
-$\rightarrow$ Mechanische Translation. [Elektromagnet](physik/Elektromagnet.md) und [Spule](hwe/Induktivitäten.md) werden benötigt.
+## EM-Aktoren: [Elektromagnet](../physik/Elektromagnet.md)
+[Elektromagnet](../physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../physik/Elektromagnetische%20Wellen.md)  mit Bewegung reagieren z.B. [Relais](Relais.md)
+$\rightarrow$ Mechanische Translation. [Elektromagnet](../physik/Elektromagnet.md) und [Spule](../hwe/Induktivitäten.md) werden benötigt.
 ### Elektromotor
 - Stator mit Permanentmagneten verursacht ein statisches Magnetfeld.
-- Rotor mit [Elektromagnet](physik/Elektromagnet.md) der sich dreht.
+- Rotor mit [Elektromagnet](../physik/Elektromagnet.md) der sich dreht.
 - Kommutator sorgt für die Umpolung des Rotor.
 
 **Funktionsweise:** Der Rotor dreht sich bis $+$ und $-$ bei einander sind, jetzt dreht der Kommutator die Polung um, sodass gleiche Pole beieinanderliegen uns sich abstoßen.

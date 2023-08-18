@@ -14,8 +14,8 @@ Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rig
 	$\rightarrow$ Aräometer
 - $U=2V$
 
->![450](chemie/assets/Bleiakku.png)
->$H_{2}SO_4$ als **[Elektrolyt](chemie/Elektrochemie.md)** 
+>![450](assets/Bleiakku.png)
+>$H_{2}SO_4$ als **[Elektrolyt](Elektrochemie.md)** 
 
 <mark style="background: #ADCCFFA6;">Anode (-):</mark> $Pb\longrightarrow Pb^{2+}+2e^{-}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$
 <mark style="background: #FF5582A6;">Kathode (+):</mark> $Pb^{4+}+2e^{-}\longrightarrow Pb^{2+}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$
@@ -31,7 +31,7 @@ $\overbracket{\underbracket{Cd}_{0}+2\underbracket{Ni(OH)_{3}}_{+3}}^{+6}\longle
 
 ## Lithium-Ionen-Akku
 - Müssen völlig Wasserfrei sein. ($Li$ +💧=🔥)
-- **[Elektrolyt](chemie/Elektrochemie.md):** organische Lösungsmittel mit $Li^{+}$-Salzen
+- **[Elektrolyt](Elektrochemie.md):** organische Lösungsmittel mit $Li^{+}$-Salzen
 - Hohe energetische Dichte $100\frac{Wh}{kg}$ für Laptops und Smartphones.
 - Früher: Bei Überhitzung Kurzschluss zwischen Elektroden
 - Heute: Temperaturstabile 
@@ -42,7 +42,7 @@ $\overbracket{\underbracket{Cd}_{0}+2\underbracket{Ni(OH)_{3}}_{+3}}^{+6}\longle
 ## Lithium-Polymer-Akku (LiPo)
 - $U=3,7V$
 - Weiterentwicklung des LiPos
-- Kein flüssiger [Elektrolyt](chemie/Elektrochemie.md), sondern polymere Gelelektrolyte
+- Kein flüssiger [Elektrolyt](Elektrochemie.md), sondern polymere Gelelektrolyte
 
 | Pro                                      | Kontra                                   |
 | ---------------------------------------- | ---------------------------------------- |

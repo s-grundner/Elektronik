@@ -11,7 +11,7 @@ created: 6th April 2022
 Stromversorgungseinheiten (Netzteile) dienen zur Erzeugung der von elektrischen Schaltungen benötigten Gleichspannung.
 
 # Arten von Netzteilen
-## [Linearregler](hwe/Stromversorgungseinheiten/Spannungsstabilisierung.md)
-## [Schaltnetzteil](hwe/Stromversorgungseinheiten/Schaltnetzteil.md)
+## [Linearregler](Spannungsstabilisierung.md)
+## [Schaltnetzteil](Schaltnetzteil.md)
 ---
 # Tags

@@ -32,7 +32,7 @@ Allgemein gilt: Reihenfolge der Attribute (Spalten) aber auch Reihenfolge der Ze
 
 Die Daten sind *unnormalisiert* (nicht atomar ...) in einer Tabelle zusammengestellt. Das kann der Beginn einer Datenbank-Entwicklung sein - um einen Überblick zu erhalten, werden sämtliche zu speichernde Daten *irgendwie* in einer Tabelle zusammengeschrieben.
 
-![Nullte Normalform in einer Datenbank | Normalisierung von Datenbanken](software-entwicklung/Db/bilder/NF_Einf_01.png)
+![Nullte Normalform in einer Datenbank | Normalisierung von Datenbanken](bilder/NF_Einf_01.png)
 
 > 0.NF: Tupel (Zeile) ist einzigartig (nicht mehrfach).
 
@@ -40,7 +40,7 @@ Die Daten sind *unnormalisiert* (nicht atomar ...) in einer Tabelle zusammengest
 
 Unterschied zur NF0: Information in atomare Form überführen, d.h. sämtliche Attribute sind so klein wie (sinnvoll) möglich zerteilt.
 
-![img](software-entwicklung/Db/bilder/NF_Einf_02.png)
+![img](bilder/NF_Einf_02.png)
 
 Es wurde der *Name* in *Vor-* und *Nachname* aufgespaltet. Es kann ja einen *Mustermann* der nicht *Max* heißt und einen *Max* der nicht *Mustermann* heißt geben. Gleiches gilt für *PLZ*/*Ort* und *Preis*/*Währung*. Natürlich könnte auch das Datum auf *Tag/Monat/Jahr* gespaltet werden. Für das Endergebnis wird das keinen Zugewinn bringen (es gibt einen Datum-Datentyp). Diese Atomarität ist gewissermaßen subjektiv. Es muss mit Sachkenntnis für die Daten entschieden werden, ob eine Aufteilung sinnvoll ist oder nicht (ansonsten kann jedes Wort weiter in seine Buchstaben zerlegt werden ...).
 
@@ -50,7 +50,7 @@ Es wurde der *Name* in *Vor-* und *Nachname* aufgespaltet. Es kann ja einen *Mus
 
 In der obigen 1.Normalform gibt es für die angeführte Rechnung *187* mehrere Rechnungspositionen (eventuell werden nicht nur die angeführten Bleistifte gekauft). Jeder der Rechnungsposition-Einträge hat dann den gleichen *Name*, *Adresse* und *Datum* oder auch *RNr*. Die Information wird daher mehrfach (redundant) gespeichert. Beim Ändern von Daten ist das problematisch. Um das zu Verbessern, wird in die 2. Normalform entwickelt. Dafür wird zuerst der Schlüssel der Relation ermittelt. Als Schlüssel zählen jene Spalten gemeinsam, deren Werte bekannt sein müssen, um eine Zeile eindeutig identifizieren zu können. Als Schlüssel kann die *RNr* gemeinsam mit dem *Artikel* gewählt werde.
 
-![img](software-entwicklung/Db/bilder/NF_Einf_03.png)
+![img](bilder/NF_Einf_03.png)
 
 Dann gilt für die 2. Normalform die folgende Bedingung:
 
@@ -62,7 +62,7 @@ Dann gilt für die 2. Normalform die folgende Bedingung:
 
 Um diese Bedingung zu erfüllen (und in die 2.NF zu entwickeln) muss daher auf neue Tabellen aufgeteilt werden:
 
-![img](software-entwicklung/Db/bilder/NF_Einf_04.png)
+![img](bilder/NF_Einf_04.png)
 
 Hier gilt für jedes Attribut: es ist durch den jeweiligen Primärschlüssel bestimmt. Allgemein gilt:
 
@@ -81,13 +81,13 @@ Beispielhaft ist die Adresse eines Kunden prinzipiell ja nicht durch eine Rechnu
 
 Transitive Abhängigkeiten werden in eigene Tabellen verschoben.
 
-![img](software-entwicklung/Db/bilder/NF_Einf_05_1.png)
+![img](bilder/NF_Einf_05_1.png)
 
 - wenn ein Attribut *transitiv* vom Primärschlüssel abhängt ist die Struktur nicht in der 3ten NF. Die Details eines Kunden (Adresse, Geb-Datum ...) sind nur über das komplette Objekt Kunde von einer Rechnung abhängig.
   Das gleiche gilt für einen Artikel. Hat ein Artikel mehr Eigenschaften (Lagerort, Lieferant, Produzent, Preis ...) dann sind diese nicht direkt von einer Rechnungsposition abhängig und werden damit in eine eigene Tabelle verschoben.
 - *Musterort* kann schon durch *Plz* alleine bestimmt werden. Transitiv: Ort hängt über die *Plz* von *KNr* ab.
 
-![](software-entwicklung/Db/bilder/NF_Einf_05_2.png)
+![](bilder/NF_Einf_05_2.png)
 
 Es gibt noch weitere Normalformen (4., 5.). Diese sind für allgemeine Entwicklung lediglich von theoretischer Natur.
 

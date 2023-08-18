@@ -8,7 +8,7 @@ created: 7th June 2022
 ---
 
 # Piezoelektrik
-> [!example] Ein [Quarz](hwe/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
+> [!example] Ein [Quarz](../hwe/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
 > 
 > $$
 > \begin{align*}
@@ -27,14 +27,14 @@ created: 7th June 2022
 > $$
 
 ## Piezogeber
-![650](mess-technik/assets/piezo_ions.png)
+![650](assets/piezo_ions.png)
 
 In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.
 | Input       | Output |
 | ----------- | ------ |
 | Kraft/Druck | Spannung       |
 
-![piezo_esb](mess-technik/assets/piezo_esb.png)
+![piezo_esb](assets/piezo_esb.png)
 
 ![Piezo_effects.png](Piezo_effects.png)
 
@@ -61,4 +61,4 @@ Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung d
 Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
 # Tags 
-[Quarz](hwe/Oszillatoren/Quarzoszillator.md)
+[Quarz](../hwe/Oszillatoren/Quarzoszillator.md)

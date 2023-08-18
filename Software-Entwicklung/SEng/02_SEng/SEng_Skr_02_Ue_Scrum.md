@@ -57,7 +57,7 @@
    - Review
    - Retrospective
 
-![Scrum_01](software-entwicklung/SEng/02_SEng/bilder/Scrum_01.png)
+![Scrum_01](bilder/Scrum_01.png)
 
 ## SCRUM Training Series (by COLLABNET)
 

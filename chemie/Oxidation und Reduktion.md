@@ -18,7 +18,7 @@ $2Mg+O_{2} \longrightarrow 2MgO$
 
 <mark style="background: #ADCCFFA6;">Reduktion:</mark> 
 - Ursprünglicher Entzug von Sauerstoff
-- Meistens Rückführung eines Metalloxids in das [Metall](chemie/Metallbindung.md)
+- Meistens Rückführung eines Metalloxids in das [Metall](Metallbindung.md)
 - Reaktion ist <mark style="background: #ADCCFFA6;">endotherm</mark> 
 - <mark style="background: #ADCCFFA6;">Aufnahme von $e^{-}$</mark> 
 $HgO \longrightarrow Hg + \frac{1}{2}O$
@@ -29,7 +29,7 @@ $Fe_{2}O_{3} + 3C \longrightarrow 2Fe + 3CO$
 ### Was passiert genau?
 $2Mg+O_{2}\longrightarrow2MgO$
 Elektronenübertragung von $Mg$ zu $O$
-$\rightarrow$ Führt zu $MgO$ ([Salz](chemie/Ionenbindung.md))
+$\rightarrow$ Führt zu $MgO$ ([Salz](Ionenbindung.md))
 
 **RGL:**
 <mark style="background: #FF5582A6;">$Mg$ wird oxidiert</mark> $Mg \longrightarrow Mg^{2+}+2e^{-}$
@@ -53,7 +53,7 @@ Chemische Reaktionen mit $e^{-}$ Übertragungen (Oxidation und Reduktion laufen 
 - Nichtmetalle mit hoher Elektronegativität (Halogene). 
 <mark style="background: #FF5582A6;">z.B.: $O_{2}, F_{2}$</mark> 
 
-Ob ein Stoff ein Oxidations- oder Reduktionsmittel, hängt von der Stellung im [PSE](chemie/Periodensystem%20der%20Elemente.md) ab und zwar von der [](chemie/Periodensystem%20der%20Elemente.md#Elektronegativität%20EN|Elektronegativität%20(EN)).
+Ob ein Stoff ein Oxidations- oder Reduktionsmittel, hängt von der Stellung im [PSE](Periodensystem%20der%20Elemente.md) ab und zwar von der [](Periodensystem%20der%20Elemente.md#Elektronegativität%20EN|Elektronegativität%20(EN)).
 
 ```ad-example
 title: Reduktion von $CuO$ mit $H_{2}$
@@ -64,12 +64,12 @@ H_{2}^{+2} + CuO + 2e^{-} &\longrightarrow H_{2}^{+2}O^{-2} + Cu^{+2} + 2e^{-}\\
 \end{align*}$$
 ```
 
-Redoxreaktionen können auch durch Zu- und Abfuhr von $e^{-}$ an einer Gleichspannungsquelle erfolgen: [Elektrolyse](chemie/Elektrochemie.md)
+Redoxreaktionen können auch durch Zu- und Abfuhr von $e^{-}$ an einer Gleichspannungsquelle erfolgen: [Elektrolyse](Elektrochemie.md)
 <mark style="background: #ADCCFFA6;">Kathode (-): Reduktion (Aufnahme von $e^{-}$)</mark>
 <mark style="background: #FF5582A6;">Anode (+): Oxidation (Abgabe von $e^{-}$)</mark> 
 
 ## Oxidationszahl
-Ist die formale Ladung eines Atoms in einem [Molekül](chemie/Atombindung.md) zur tatsächlichen Ladung einatomiger Ionen
+Ist die formale Ladung eines Atoms in einem [Molekül](Atombindung.md) zur tatsächlichen Ladung einatomiger Ionen
 $$
 \text{Ionen}\begin{dcases}
 \begin{align*}

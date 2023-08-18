@@ -89,7 +89,7 @@ git push origin addition
 
 Analog kann die Division eingebaut werden. Damit sieht der Verlauf so aus (in der Addition wurde ein zweiter *push* getätigt um einen Fehler zu korrigieren):
 
-![img](software-entwicklung/SEng/01_Git/bilder/git_ver09.png)
+![img](bilder/git_ver09.png)
 
 ### Projekt Mergen
 
@@ -105,7 +105,7 @@ Die getätigten Änderungen müssen nun wieder in den Haupt-Branch (*master*) zu
 
 Anschließend sieht der Verlauf etwa so aus:
 
-![img](software-entwicklung/SEng/01_Git/bilder/git_ver10.png)
+![img](bilder/git_ver10.png)
 
 3. Das *Mergen* erfolgt in diesem Beispiel direkt auf dem Remote-Repo. Die lokalen Repos werden dadurch nicht automatisch mitgezogen. Dafür muss auf dem *master*-Branch zurückgewechselt und das Repo heruntergezogen werden:
 

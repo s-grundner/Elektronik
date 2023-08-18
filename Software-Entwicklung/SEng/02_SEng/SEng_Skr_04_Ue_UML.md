@@ -21,7 +21,7 @@ Auf der Unternehmerseite gibt es Reservierung-, Übergabe- und Rücknahmemitarbe
 
 Finden Sie die Fehler im folgenden Use-Case-Diagramm und korrigieren sie diese. Erstellen Sie das Use-Case-Diagramm neu.
 
-![1571684085148](software-entwicklung/SEng/02_SEng/bilder/UML_UseCase2.png)
+![1571684085148](bilder/UML_UseCase2.png)
 
 Inverviewer und Personalchef sind nicht Teil der Bewerbung. Wer erhält das Bewerbungsschreiben/Absage/Einladung? Wer sendet die Einladung ... 
 
@@ -202,7 +202,7 @@ class MainWindow : public QMainWindow{
 }
 ```
 
-![UML-Klasse](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Einf_04.png)
+![UML-Klasse](bilder/UML_Ue_Einf_04.png)
 
 
 ```mermaid
@@ -245,7 +245,7 @@ dann kann argumentiert werden dass dieses Element f nur innerhalb der aktuellen 
 
 Folgendes UML-Klassendiagramm beschreibt eine Java-Klassenhierarchie:
 
- ![Ausschnitt aus der Java-Klassenhierarchie](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_JavaKlassendiagramm.png) 
+ ![Ausschnitt aus der Java-Klassenhierarchie](bilder/UML_Ue_JavaKlassendiagramm.png) 
 
 Was sagt Ihnen diese Abbildung? Sämtliche Klassen leiten sich von *Object* ab:
 
@@ -256,11 +256,11 @@ Was sagt Ihnen diese Abbildung? Sämtliche Klassen leiten sich von *Object* ab:
 
 Vervollständigen Sie die Begriffe im Klassendiagramm:
 
-![1571681579380](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_01.png)
+![1571681579380](bilder/UML_Ue_Klassendiagramm_01.png)
 
 Lösung:
 
-![1571684252260](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_01Lsg.png)
+![1571684252260](bilder/UML_Ue_Klassendiagramm_01Lsg.png)
 
 ### Assoziationen II
 
@@ -278,7 +278,7 @@ classDiagram
 Abteilung "0..1 Oberabteilung" <--> "Unterabteilung" Abteilung : ist unterstellt>
 ```
 
-![1571681766093](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_02.png)
+![1571681766093](bilder/UML_Ue_Klassendiagramm_02.png)
 
 ### Klassendiagramme I
 
@@ -342,7 +342,7 @@ Versuchen Sie die folgenden Beispiele in UML Diagrammen aufzuzeichnen:
 
    **Lösung:**
 
-   ![1571683753016](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_08.png)
+   ![1571683753016](bilder/UML_Ue_Klassendiagramm_08.png)
 
    - Unter einer **Map** versteht man in Java einen Container (Behälter), der sogenannte Schlüssel-Werte-Paare (**Entry**) enthält.  
 
@@ -357,29 +357,29 @@ Versuchen Sie die folgenden Beispiele in UML Diagrammen aufzuzeichnen:
 
 Beurteilen Sie, ob die folgenden Diagramme richtig sind und korrigieren sie diese sofern sie nicht richtig sind:
 
-![1571683080462](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_03.png)
+![1571683080462](bilder/UML_Ue_Klassendiagramm_03.png)
 
 ------
 
-![1571683167336](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_04.png)
+![1571683167336](bilder/UML_Ue_Klassendiagramm_04.png)
 
 ------
 
-![1571683198305](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_05.png)
+![1571683198305](bilder/UML_Ue_Klassendiagramm_05.png)
 
 ------
 
-![1571683218635](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_06.png)
+![1571683218635](bilder/UML_Ue_Klassendiagramm_06.png)
 
 ------
 
-![1571683235493](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Klassendiagramm_07.png)
+![1571683235493](bilder/UML_Ue_Klassendiagramm_07.png)
 
 ### Bestellung
 
 Gegeben ist das folgende UML-Klassendiagramm.
 
-![1571681052426](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Bestellung.png)
+![1571681052426](bilder/UML_Ue_Bestellung.png)
 
 Bestimmen Sie, ob die folgenden Aussagen zum Klassendiagramm richtig oder falsch sind.
 
@@ -399,7 +399,7 @@ In der Datenbankentwicklung werden oftmals Entity-Relationship-Diagramme (ERD) e
 2. In der folgenden Darstellung ist ein Erst-Entwurf eines Klassendiagrammes gegeben. Nehmen Sie dazu Stellung und versuchen Sie eine verbesserte Version zu erstellen.
 3. Wie kann dieses verbesserte Modell dann in einem relationalem Datenbanksystem gespeichert werden?
 
-![1571681444051](software-entwicklung/SEng/02_SEng/bilder/UML_Ue_Kunde.png)
+![1571681444051](bilder/UML_Ue_Kunde.png)
 
 ### Bibliothek
 

@@ -11,7 +11,7 @@ created: 23rd August 2022
 ## Reaktionsgeschwindigkeit
 Reaktionsgeschwindigkeit (RG): $v=$ Stoffumsatz pro Zeiteinheit ($\frac{mol}{sek}$)
 ### Einflüsse auf die RG
-**[Temperatur](physik/Temperatur%20und%20Teilchenmodell.md) (RGT-Regel)**
+**[Temperatur](../physik/Temperatur%20und%20Teilchenmodell.md) (RGT-Regel)**
 **Druck bzw. Konzentration**
 **Verteilungszustand**
 **Art der Stoffe**
@@ -24,7 +24,7 @@ Das Vorhandensein einzelner Atome = **Aktivierter zustand**
 Man braucht: <mark style="background: #FFB86CA6;">Aktivierungsenergie</mark>
 
 ### Energiediagramm bei Knallgasreaktion
->![500](chemie/assets/AE.png)
+>![500](assets/AE.png)
 ><mark style="background: #FF5582A6;">EA ohne Katalysator</mark>
 ><mark style="background: #ADCCFFA6;">EA mit Katalysator</mark>
 
@@ -47,7 +47,7 @@ Er wird zuvor **vorübergehend verändert** aber **nicht verbraucht**
 > Beim Schweißen wird Ethin (Acetylen, $C_{2}H_{2}$) verbrannt.
 > $10g$ Ethin liefern $500kJ$.
 > Erstellen sie die Reaktionsgleichung und geben sie die Enthalpiedifferenz ($\Delta H$) der Reaktion an.
-> ![150](chemie/assets/C.png) ![150](chemie/assets/H.png)
+> ![150](assets/C.png) ![150](assets/H.png)
 > 
 > > [!success] Lösung
 > > **RGL:**

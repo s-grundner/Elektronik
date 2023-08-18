@@ -6,36 +6,36 @@ created: 23rd November 2022
 ---
 # Map of Topics - KSN
 ## 3. JG
-- [OSI-Modell](netzwerk-technik/ksn%20(3)/OSI-Modell.md)
+- [OSI-Modell](../netzwerk-technik/ksn%20(3)/OSI-Modell.md)
 - #Netzwerke
 - [Filter](Filter)
 
 ## 4. JG
-- [Leitungstheorie](hf-technik/ksn%20(4)/Leitungstheorie.md)
-- [Smith-Diagramm](hf-technik/ksn%20(4)/Smith-Diagramm.md)
-- [Modulation](hf-technik/ksn%20(4)/Modulation.md)
-- [Mischer](hf-technik/ksn%20(4)/Mischer.md)
+- [Leitungstheorie](ksn%20(4)/Leitungstheorie.md)
+- [Smith-Diagramm](ksn%20(4)/Smith-Diagramm.md)
+- [Modulation](ksn%20(4)/Modulation.md)
+- [Mischer](ksn%20(4)/Mischer.md)
 
 ## 5. JG
-- [Streuparameter](hf-technik/ksn%20(5)/Streuparameter.md)
-- [Antennen](hf-technik/ksn%20(5)/Antenne.md)
+- [Streuparameter](ksn%20(5)/Streuparameter.md)
+- [Antennen](ksn%20(5)/Antenne.md)
 
 # Matura
 
-## Grundlagen der [Informationstheorie](netzwerk-technik/ksn%20(3)/{MOC}%20Informationstheorie.md) und Übertragungstechnik
-- [Amplitudenmodulation](hf-technik/ksn%20(5)/Amplitudenmodulation.md)
-- [Frequenzmodulation](hf-technik/ksn%20(5)/Frequenzmodulation.md)
+## Grundlagen der [Informationstheorie](../netzwerk-technik/ksn%20(3)/{MOC}%20Informationstheorie.md) und Übertragungstechnik
+- [Amplitudenmodulation](ksn%20(5)/Amplitudenmodulation.md)
+- [Frequenzmodulation](ksn%20(5)/Frequenzmodulation.md)
 - Huffman-Codierung
-- Kenngrößen der [Informationstheorie](netzwerk-technik/ksn%20(3)/{MOC}%20Informationstheorie.md)
+- Kenngrößen der [Informationstheorie](../netzwerk-technik/ksn%20(3)/{MOC}%20Informationstheorie.md)
 - Hamming Abstand – Kodewürfel
-- [LWL](hf-technik/ksn%20(4)/Lichtwellenleiter.md)
+- [LWL](ksn%20(4)/Lichtwellenleiter.md)
 
 
-## [Hochfrequenztechnik](hf-technik/sRDP%20KSN%20-%20HF-Technik.md)
-- [Leitungstheorie](hf-technik/ksn%20(4)/Leitungstheorie.md)
+## [Hochfrequenztechnik](sRDP%20KSN%20-%20HF-Technik.md)
+- [Leitungstheorie](ksn%20(4)/Leitungstheorie.md)
 - Rechteckimpuls auf Leitung
-- Anpassung mit [Smith-Diagramm](hf-technik/ksn%20(4)/Smith-Diagramm.md), Shunt, TL
-- [Antennen](hf-technik/ksn%20(5)/Antenne.md), Richtdiagramm
+- Anpassung mit [Smith-Diagramm](ksn%20(4)/Smith-Diagramm.md), Shunt, TL
+- [Antennen](ksn%20(5)/Antenne.md), Richtdiagramm
 
 
 ## Consumer Electronics
@@ -47,10 +47,10 @@ created: 23rd November 2022
 - Fehlererkennende-, Fehlerkorrigierende Codes
 
 ## Netzwerktechnik
-- [Schichtenmodell](netzwerk-technik/ksn%20(3)/OSI-Modell.md)
-- [CIDR](netzwerk-technik/ksn%20(3)/CIDR.md)
-- [VLSM](netzwerk-technik/ksn%20(3)/VLSM.md)
-- [Kollisions-](netzwerk-technik/ksn%20(3)/Kollisionsdomäne.md), [Broadcastdomäne](netzwerk-technik/ksn%20(3)/Broadcastdomäne.md)
+- [Schichtenmodell](../netzwerk-technik/ksn%20(3)/OSI-Modell.md)
+- [CIDR](../netzwerk-technik/ksn%20(3)/CIDR.md)
+- [VLSM](../netzwerk-technik/ksn%20(3)/VLSM.md)
+- [Kollisions-](../netzwerk-technik/ksn%20(3)/Kollisionsdomäne.md), [Broadcastdomäne](../netzwerk-technik/ksn%20(3)/Broadcastdomäne.md)
 - Segmentierung
 - #Netzwerke 
 

@@ -9,25 +9,25 @@ created: 10th December 2022
 - Grundlagen Logikgatter
 
 ## 2. JG (EDT)
-- [Dioden](hwe/Dioden.md)
+- [Dioden](../hwe/Dioden.md)
 - Flip Flops
 
 ## 3. JG
 - Digitale Zähler und Kippstufen
-- [MOSFETs](hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md)
+- [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md)
 - Microcontroller Architekturen und Register
 - Messtechnische Erfassungen für Eingebettete Systeme 
-- AVR ([ATmega644p](digitaltechnik/AVR%20ATmega644p.md))
+- AVR ([ATmega644p](AVR%20ATmega644p.md))
 
 ## 4. JG
 - Microcontroller
-- AVR ([ATmega644p](digitaltechnik/AVR%20ATmega644p.md))
-- Digitale [Schnittstellen](digitaltechnik/{MOC}%20Schnittstellen.md)
-- Embedded [Algorithms](software-entwicklung/ds-algo/{MOC}%20Algorithms.md)
+- AVR ([ATmega644p](AVR%20ATmega644p.md))
+- Digitale [Schnittstellen]({MOC}%20Schnittstellen.md)
+- Embedded [Algorithms](../software-entwicklung/ds-algo/{MOC}%20Algorithms.md)
 
 ## 5. JG
-- [Machine Learning](digitaltechnik/Machine%20Learning/Machine%20Learning.md)
-- [ESP32](software-entwicklung/IoT/ESP32.md)
+- [Machine Learning](Machine%20Learning/Machine%20Learning.md)
+- [ESP32](../software-entwicklung/IoT/ESP32.md)
 
 ## Matura 
 ### Schaltungsentwurf
@@ -41,32 +41,32 @@ created: 10th December 2022
 - Zähler entwerfen
 - FlipFlops
 
-### [Transistor](hwe/{MOC}%20Transistor.md)als Schalter BSP
+### [Transistor](../hwe/{MOC}%20Transistor.md)als Schalter BSP
 - Berechnungen (Schaltschwellen, Dimensionieren usw. 3. Klasse)
-- [Mosfets](hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) (Logische Schaltung mit vielen [MOSFETs](hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
+- [Mosfets](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) (Logische Schaltung mit vielen [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
 - CMOS
 ### Assembler
 - Große Tabelle: wo ist man am Ende, wie lang dauerts… 3.Klasse
-### [CrumbTL](digitaltechnik/AVR%20ATmega644p.md) 
+### [CrumbTL](AVR%20ATmega644p.md) 
 - ADC
 - Ext INT
 - Timer INT
-- Serielle [Schnittstelle](digitaltechnik/{MOC}%20Schnittstellen.md)]
-### [Ringbuffer](digitaltechnik/Ringbuffer.md)]
+- Serielle [Schnittstelle]({MOC}%20Schnittstellen.md)]
+### [Ringbuffer](Ringbuffer.md)]
 ### Zahlensysteme umrechnen
 - Dezimal
 - Binär
 - Hex
 - Oktal
 - Alle in alle umrechnen können
-### [Machine Learning](digitaltechnik/Machine%20Learning/Machine%20Learning.md)
+### [Machine Learning](Machine%20Learning/Machine%20Learning.md)
 - So wie beim Test
 ### Neuronale Netze BSP
 - Nur was wir im Unterricht gemacht haben (matritzen und eingänge gegeben, ausgänge ausrechnen)
-### [Signaltheorie](digitaltechnik/Signaltheorie.md)
-- Fourier-Analyse (auch [komplex](mathe/mathe%20(3)/Komplexe%20Zahlen.md))
-- [Fouriertransformation](mathe/mathe%20(4)/Fourier%20Transformation.md)
-### [Faltung](hwe/assets/pdf/Faltung.md)
+### [Signaltheorie](Signaltheorie.md)
+- Fourier-Analyse (auch [komplex](../mathe/mathe%20(3)/Komplexe%20Zahlen.md))
+- [Fouriertransformation](../mathe/mathe%20(4)/Fourier%20Transformation.md)
+### [Faltung](../hwe/assets/pdf/Faltung.md)
 - 2 Signale falten
 ### Digitale Filter BSP
 - Einen Filter dimensionieren 

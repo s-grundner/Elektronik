@@ -39,7 +39,7 @@ public String reverseString(String input) {
 
 
 ## Memoisation
-To reduce [time complexity](software-entwicklung/ds-algo/O-Notation.md), it is recommended to save repeating patterns (in objects or structs).
+To reduce [time complexity](O-Notation.md), it is recommended to save repeating patterns (in objects or structs).
 
 ````ad-example 
 title: fibonacci

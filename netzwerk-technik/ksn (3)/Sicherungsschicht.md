@@ -11,6 +11,6 @@ last_edited: 11th April 2022
 ## Aufgaben der Sicherungsschicht
 ## Geräte der Sicherungsschicht
 # Tags
-![4-FS_ComputerNetze](netzwerk-technik/assets/Christian-Baun/4-FS_ComputerNetze.pdf)
-![5-FS_ComputerNetze](netzwerk-technik/assets/Christian-Baun/5-FS_ComputerNetze.pdf)
-![6-FS_ComputerNetze](netzwerk-technik/assets/Christian-Baun/6-FS_ComputerNetze.pdf)
+![4-FS_ComputerNetze](../assets/Christian-Baun/4-FS_ComputerNetze.pdf)
+![5-FS_ComputerNetze](../assets/Christian-Baun/5-FS_ComputerNetze.pdf)
+![6-FS_ComputerNetze](../assets/Christian-Baun/6-FS_ComputerNetze.pdf)

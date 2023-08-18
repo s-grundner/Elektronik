@@ -13,10 +13,10 @@ $$
 jX_{C}=\frac{1}{j\omega C}\qquad Z\approx \frac{1}{f}
 $$
 > [!summary] ESB
-> ![500](hwe/assets/cap_esb.png)
+> ![500](assets/cap_esb.png)
 > - $R_{ESR}$: dielektrische und elektrische Verluste
 > - $ESR$: equivalent series resistance
-> - $L$: intrinsische parasitäre [Induktivität](hwe/Induktivitäten.md)
+> - $L$: intrinsische parasitäre [Induktivität](Induktivitäten.md)
 
 $$
 \begin{align*}

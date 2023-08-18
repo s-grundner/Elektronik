@@ -6,7 +6,7 @@ source: ["Martin Aichriedler"]
 ---
 
 # Map of Content - Netzwerke
-## [Netzwerktopologien](netzwerk-technik/ksn%20(3)/Netzwerktopologien.md)
+## [Netzwerktopologien](Netzwerktopologien.md)
 ## [Paketbildung / Framing](Paketbildung%20/%20Framing)
 ## [CSMA/CD](CSMA/CD)
 ## [CSMA/CA](CSMA/CA)

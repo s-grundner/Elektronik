@@ -11,7 +11,7 @@ created: 25th August 2022
 ## Entstehung eines Spektrums
 Beim Zerlegen von Sonnenlicht oder dem Licht einer Glühlampe durch ein Glasprisma, erhält man ein **Spektrum**:
 Ein Farbband von <mark style="background: #FF5582A6;">Rot</mark> nach <mark style="background: #D2B3FFA6;">Violett</mark>
-![Refraction](assets/Refraction.png)
+![Refraction](../assets/Refraction.png)
 Weißes Licht besteht aus der Mischung mehrerer Farben
 
 
@@ -24,19 +24,19 @@ Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **E
 <mark style="background: #D2B3FFA6;">Violettes/Blaues</mark> Licht ist kurzwellig und <mark style="background: #D2B3FFA6;">energiereich</mark>.
 
 ## Elektromagnetisches Spektrum
-![spectrum_20090210](physik/assets/spectrum_20090210.pdf)
+![spectrum_20090210](../physik/assets/spectrum_20090210.pdf)
 
 ## Spektrum des Sonnenlichts
 ### Prismen-Spektroskop
 ![325](Pasted%20image%2020220825152529.png)
->![300](chemie/assets/fraunhofer_linien.png)
+>![300](assets/fraunhofer_linien.png)
 > Fraunhofer untersuchte das Sonnenlicht mit einem Prismen-Spektroskop.
 > Der Physiker beobachtete im Jahr 1814 dunkle Linien im Spektrum des Sonnenlichts. Fraunhofer katalogisierte 570 Fraunhofer-Linien.
 > Allerdings konnte er das Phänomen noch nicht erklären.
 
 ### Spektroskop nach Kirchhoff und Bunsen
-![425](chemie/assets/Spektroskop.png)
-![Spektroskop](assets/Spektroskop.png)
+![425](assets/Spektroskop.png)
+![Spektroskop](../assets/Spektroskop.png)
 **Funktionsweise:**
 - Das Licht fällt durch einen Spalt in das **Spaltrohr** über eine Linse auf ein Prisma. Der Durchmesser des Spalts kann variiert werden.
 - Am Prisma werden die Wellenanteile des Lichts unterschiedlich gebrochen.
@@ -44,25 +44,25 @@ Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **E
 - Das Skalenrohr projiziert eine Skala in den **Strahlengang**, mit der die Wellenlängen ablesbar sind.
 
 ### Zusammenhang mit den chemischen Elementen
-![alkali_flammen](chemie/assets/alkali_flammen.png)
+![alkali_flammen](assets/alkali_flammen.png)
 Kirchhoff und Bunsen beobachteten, dass bestimmte chemische Elemente die Gasflammen eines Gasbrenners färben.
 Sie konnten nachweisen, dass die von Fraunhofer beschriebenen schwarzen D-Linien im Sonnenspektrum bei etwa 589 Nanometer mit der von Natriumsalzen in der Flamme emittierten gelben Linie übereinstimmt.
 Die beiden Chemiker entwickelten 1859 das erste spektralanalytische Verfahren.
 Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente <mark style="background: #D2B3FFA6;">Rubidium</mark> und <mark style="background: #ADCCFFA6;">Cäsium</mark>.
 
-![450](chemie/assets/Pasted%20image%2020220825153403.png)
+![450](assets/Pasted%20image%2020220825153403.png)
 
 ## Absorption und Emission
-![500](assets/EmissionAbsorbtion.png)
-![475](chemie/assets/absorbtion_emission.png)
+![500](../assets/EmissionAbsorbtion.png)
+![475](assets/absorbtion_emission.png)
 1. Wird einem Atom **Energie zugeführt** (Flamme, Lichtbogen), können Elektronen auf **höhere Energieniveaus** gehoben werden.
 2. Es entsteht ein angeregter Zustand. Er ist nur **kurz** beständig, danach fällt das Elektron wieder in den **Grundzustand** zurück.
 3. Dabei wird die **Energie**, die bei der Anregung **aufgenommen** (absorbiert) wurde, **in Form von Licht abgegeben** (emittiert).
-4. Da bei jedem Element nur ganz bestimmte Energiedifferenzen zwischen den [Schalen](chemie/Orbitalmodell.md) vorkommen, emittiert jedes Element Licht ganz bestimmter Farbe.
+4. Da bei jedem Element nur ganz bestimmte Energiedifferenzen zwischen den [Schalen](Orbitalmodell.md) vorkommen, emittiert jedes Element Licht ganz bestimmter Farbe.
 
 
 ### Spektren Typen 
-![Pasted image 20220825153839](chemie/assets/Pasted%20image%2020220825153839.png)
+![Pasted image 20220825153839](assets/Pasted%20image%2020220825153839.png)
 <mark style="background: #FFF3A3A6;">Kontinuierliches Spektrum:</mark> Enthält keine diskreten Linien (Banden), da es Licht aller Wellenlängen aufweist.
 
 <mark style="background: #FF5582A6;">Emissionsspektrum:</mark> Enthält diskrete Linien (daher auch Linien-spektrum) , welche durch den Elektronenübergang von angeregten Atomen in den Grundzustand entstehen.

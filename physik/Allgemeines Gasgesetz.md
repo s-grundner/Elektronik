@@ -46,7 +46,7 @@ $$
 **Ideales Gas:**
 - nimmt den zu Verfügung stehenden Raum **zur Gänze** ein.
 - Erdanziehungskraft ist vernachlässigbar
-- Volumen der Gas Atome / [Moleküle](chemie/Atombindung.md) ist Vernachlässigbar zum Gesamtvolumen
+- Volumen der Gas Atome / [Moleküle](../chemie/Atombindung.md) ist Vernachlässigbar zum Gesamtvolumen
 - Anziehungskraft untereinander vernachlässigbar
 - Haben nur **eine** Molekülsorte
 

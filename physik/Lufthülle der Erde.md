@@ -15,8 +15,8 @@ created: 10th September 2022
 | 0.93%  | Argon             |
 | 0.04%  | Kohlenstoffdioxid |
 \+ Spuren von Anderen Edelgasen
-![CNO](assets/CNO.png)
-![Erdatmosphaere](assets/Erdatmosphaere.png)
+![CNO](../assets/CNO.png)
+![Erdatmosphaere](../assets/Erdatmosphaere.png)
 
 
 ---

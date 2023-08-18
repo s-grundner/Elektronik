@@ -17,13 +17,13 @@ Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *
 
 
 ## Daniell-Element
-![675](assets/DaniellEL.png)
+![675](../assets/DaniellEL.png)
 - Cu/Zn in Metallsalzlösung
 ## Leclanché-Element
 - Zink-Kohle-Batterie (Taschenlampenbatterie)
 - $U=1.5V$
 - Probleme: $Zn$ löst sich auf und die Elektrolytpaste rinnt aus. Spannung sinkt bei Stromentnahme stark ab.
->![350](chemie/assets/lecl-element.png)
+>![350](assets/lecl-element.png)
 ><mark style="background: #CACFD9A6;">Grafitstab</mark> 
 ><mark style="background: #ADCCFFA6;">Zn-Becher</mark> 
 ><mark style="background: #FFB86CA6;">Braunstein ($MnO_{2}$)</mark> 
@@ -31,11 +31,11 @@ Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *
 
 <mark style="background: #ADCCFFA6;">Anode (-):</mark> $Zn\longrightarrow Zn^{2+}+2e^{-}$
 <mark style="background: #FF5582A6;">Kathode: (+)</mark> $2MnO_{2}+2e^{-}+\underbrace{2H^{+}+2OH^{-}}_{2H_{2}O}\longrightarrow 2\overset{3+}{Mn}O(OH)$
-Wasser aus [Elektrolyt](chemie/Elektrochemie.md) teilt sich auf, da $MnO_{2}$ neutral geladen ist
+Wasser aus [Elektrolyt](Elektrochemie.md) teilt sich auf, da $MnO_{2}$ neutral geladen ist
 ## Alkali-Mangan-Batterie
 - Stahlbecher statt Zinkbecher
 - Zinkpulver als Gel im Inneren
-- **$KOH$** als [Elektrolyt](chemie/Elektrochemie.md) $\rightarrow$ $U$ bleibt konstant
+- **$KOH$** als [Elektrolyt](Elektrochemie.md) $\rightarrow$ $U$ bleibt konstant
 
 <mark style="background: #ADCCFFA6;">Anode: (-)</mark> $Zn + 2OH^{-}\longrightarrow Zn(OH)_{2}+2e^{-}$
 <mark style="background: #FF5582A6;">Kathode (+):</mark> $2MnO_{2}+2H_{2}O+2e^{-}\longrightarrow 2MnO(OH)+2OH^{-}$
@@ -54,4 +54,4 @@ $Zn_{(0)}+2Mn_{(+4)}O_{2}+2H_{2}O\longrightarrow Zn_{(+2)}(OH)_{2}+2Mn_{+3}O(OH)
 
 ---
 # Tags
-[Elektrochemie](chemie/Elektrochemie.md)
+[Elektrochemie](Elektrochemie.md)

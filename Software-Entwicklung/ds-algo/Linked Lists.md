@@ -19,7 +19,7 @@ If a new element is needed, it just needs to be **allocated one time** and then 
 
 The order of the elements can easily be changed by changing the pointers to the next or previous elements, without reallocating or copying values. 
 
-![525](software-entwicklung/assets/singly_linked_list.svg)
+![525](../assets/singly_linked_list.svg)
 
 ````ad-example
 title: Example: static allocated list

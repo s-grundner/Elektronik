@@ -170,6 +170,6 @@ https://www.jetbrains.com/help/clion/memory-profiling-with-valgrind.html#start
 
   hier wird dynamisch Speicherplatz reserviert. Bevor das Programm beendet wird, wird dieser Speicher auch wieder freigegeben. Wenn die *delete*-Zeile auskommentiert wird, dann wird, wenn mit Valgrind gestartet wird, ausgegeben:
 
-  ![valgrind](software-entwicklung/Cpp/bilder/CLionWslValgrind.png)
+  ![valgrind](bilder/CLionWslValgrind.png)
 
 wobei mit der Auswahl der Elemente, die betroffene Stelle im Code angezeigt wird.

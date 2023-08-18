@@ -13,6 +13,6 @@ created: 28th November 2022
 - Bildet sich als geführte Welle z. B. zwischen Außen- und Innenleiter eines verlustlosen Koaxialkabels aus.
 - Auch die ebene Welle ist ein Beispiel für TEM-Wellen.
 
-![](hf-technik/assets/TEMMode.png)
+![](assets/TEMMode.png)
 
 # Quellen

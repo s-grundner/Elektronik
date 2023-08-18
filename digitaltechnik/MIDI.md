@@ -8,8 +8,8 @@ created: 17th August 2023
 Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die Kommunikation zwischen Computern und Musik-Hardware, sogenannten MIDI-Controllern. Jedes Mal, wenn eine Taste auf einem Controller gedrückt wird, erstellt dieser eine MIDI-Nachricht und sendet sie an den Computer. Diese Tasten sind nicht nur auf die Klaviatur eines MIDI-Controllers beschränkt, es können ebenfalls MIDI-Wörter gesendet werden, welche andere Parameter in einer digitalen Musikproduktionsumgebung steuern, wie zum Beispiel die Intensität eines Audioeffekts.
 
 > [!example] Beispiel
-> Die [Grenzfrequenz](hwe/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
-> ![](assets/Pasted%20image%2020230817205949.png)
+> Die [Grenzfrequenz](../hwe/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
+> ![](../assets/Pasted%20image%2020230817205949.png)
 
 Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analoges- noch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [1]
 
@@ -23,7 +23,7 @@ Eine MIDI-Nachricht ist aus drei (manchmal zwei) Bytes aufgebaut:
 - Erstes Datenbyte
 - Zweites Datenbyte
 
-![](assets/Pasted%20image%2020230817210312.png)
+![](../assets/Pasted%20image%2020230817210312.png)
 
 ### MIDI-Status
 
@@ -38,17 +38,17 @@ Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status- und Kan
 | Program Change    | 0xC      | Wechselt zwischen verschiedene Klänge und Instrumente                                                     |
 | Channel Pressure  | 0xD      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für alle Noten auf dem Kanal)                        |
 | Pitch Bend        | 0xE      | Ändert die Tonhöhe des gesamten Kanals in feinen Schritten.                                               |
-| System Messages   | 0xF      | MIDI [Clock](hwe/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](hwe/Reset%20Generierung.md), Active Sensing |
+| System Messages   | 0xF      | MIDI [Clock](../hwe/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](../hwe/Reset%20Generierung.md), Active Sensing |
 
 ### MIDI Kanal
 
 Mit den Vier übrigen Bit wird der Kanal eingestellt, an den die Nachricht geschickt werden soll. Ein einzelner Controller kann also bis zu 16 verschieden MIDI-Kanäle in einer DAW ansprechen. Auf einem MIDI-Keyboard würden zum Beispiel die Klaviertasten auf einen anderen Kanal geschickt werden als die Drumpads.
 
 >[!info] Vier verschiede MIDI-Spuren mit dem gleichen Controller als Input
->![](assets/MIDI-SW-Channel.png)
+>![](../assets/MIDI-SW-Channel.png)
 
 > [!info] MIDI Kanäle auf die Hardware bezogen:
-> ![](assets/MIDI_Controller.png)
+> ![](../assets/MIDI_Controller.png)
 > Channel 10: Drumpads (16 Quadratische Drucktasten oben)
 > Channel 1: Klaviertasten
 

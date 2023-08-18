@@ -11,7 +11,7 @@ last_edited: 11th April 2022
 # Konstanten Verzeichnis
 
 # Casio TR konstanten
-![Casio_fx-991dex_classwiz_Konstanten](physik/assets/Casio_fx-991dex_classwiz_Konstanten.pdf)
+![Casio_fx-991dex_classwiz_Konstanten](assets/Casio_fx-991dex_classwiz_Konstanten.pdf)
 
 ---
 # Tags

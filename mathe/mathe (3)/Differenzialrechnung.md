@@ -22,5 +22,5 @@ last_edited: 6th April 2022
 
 ---
 # Tags
-## [L'Hospital](mathe/mathe%20(3)/L'Hospital.md)
+## [L'Hospital](L'Hospital.md)
 ## [Linearisieren](Linearisieren)

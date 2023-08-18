@@ -20,7 +20,7 @@ keinen konstanten Verlauf mehr:
 > [!note] Kenngrößen
 > Zur vollständigen Beschreibung der Leitungseinflüsse muss die Leitung neben ihrer Länge $l$ durch zwei zusätzliche Kenngrößen charakterisiert werden:
 > - den Leitungswellenwiderstand $Z_{L}$
-> - und die [Ausbreitungskonstante](hf-technik/ksn%20(4)/Telegraphengleichung.md) $\gamma$.
+> - und die [Ausbreitungskonstante](ksn%20(4)/Telegraphengleichung.md) $\gamma$.
 > 
 > Im Schaltungsentwurf sind diese mit zu berücksichtigen!
 

@@ -9,8 +9,8 @@ last_edited: 19th April 2022
 ---
 # Map of Content - Algorithms
 ## Search
-### [Linear Search](software-entwicklung/ds-algo/Linear%20Search.md)
-### [Binary Search](software-entwicklung/ds-algo/Binary%20Search.md)
+### [Linear Search](Linear%20Search.md)
+### [Binary Search](Binary%20Search.md)
 ## Sort
 ### Topological Sort
 ### Quick Sort

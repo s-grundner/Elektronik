@@ -77,18 +77,18 @@ http-Endpoint: https://cookbook.nodered.org/http/create-an-http-endpoint
   ```
   der Port 1880 ist für Node-RED reserviert.
 
-## [REST](software-entwicklung/IoT/Rest.md)-Api
+## [REST](Rest.md)-Api
 
-- [REST](software-entwicklung/IoT/Rest.md) funktioniert mittels HTTP. Daher wird als Input ein `http`-Node benötigt. Für diesen Node wird als URL "/users" eingestellt.
+- [REST](Rest.md) funktioniert mittels HTTP. Daher wird als Input ein `http`-Node benötigt. Für diesen Node wird als URL "/users" eingestellt.
 - Als Output wird ein `http-response`-Node verwendet, die Standardeinstellungen werden nicht verändert.
 
-![](software-entwicklung/IoT/assets/NodeRed_Rest01.png)
+![](assets/NodeRed_Rest01.png)
 
 In einem weiteren Browserfenster wird nun auf die URL (für obiges Bild) `http://192.168.62.104:1880/users` zugegriffen. Um GET in HTTP Daten mitzugeben kann die URL erweitert werden: `http://192.168.62.104:1880/users?Var=Wert`. Im Browser wird als Antwort Var=Wert dargestellt.
 
 Als nächstes wird ein HTTP-Anforderung-Node (`http request`) dazwischen eingefügt. In diesem wird die URL `http://192.168.62.104:3000/api` eingestellt und als Methode `GET`. Wenn ein entsprechender node-Server läuft (siehe REST `$node Server.js`) dann wird die Antwort aus dem REST-Api returniert.
 
-## [MQTT](software-entwicklung/IoT/MQTT.md)
+## [MQTT](MQTT.md)
 
 (Broker siehe Unten)
 
@@ -96,16 +96,16 @@ Als nächstes wird ein HTTP-Anforderung-Node (`http request`) dazwischen eingef�
 
 - auf dem Rechner läuft ein Mosquitto-Broker (alternative z.B. mosquitto.org)
 
-- ein Device (oder mittels Kommandozeile `mosquitto_pub`) sendet an den Broker [MQTT](software-entwicklung/IoT/MQTT.md)-Botschaften `home/data`
+- ein Device (oder mittels Kommandozeile `mosquitto_pub`) sendet an den Broker [MQTT](MQTT.md)-Botschaften `home/data`
 
 - In Node-RED wird eine `home/data`-Botschaft vom entsprechenden Broker subscribed:
 
-  ![](software-entwicklung/IoT/assets/NodeRed_Mqtt.png)
+  ![](assets/NodeRed_Mqtt.png)
 
-### [MQTT](software-entwicklung/IoT/MQTT.md)-Mosquitto
+### [MQTT](MQTT.md)-Mosquitto
 
 [https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/](https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/)
-Um mit [MQTT](software-entwicklung/IoT/MQTT.md) arbeiten zu können wird am einfachsten Mosquitto installiert:
+Um mit [MQTT](MQTT.md) arbeiten zu können wird am einfachsten Mosquitto installiert:
 
 ```
 sudo apt-get install -y mosquitto mosquitto-clients
@@ -135,23 +135,23 @@ Starten/Stoppen (enable/disable) eines Service:
 sudo systemctl enable mosquitto.service
 ```
 
-## [MQTT](software-entwicklung/IoT/MQTT.md)-TLS
+## [MQTT](MQTT.md)-TLS
 
 (IoT-Hack ist ein Thema! https://www.youtube.com/watch?v=urnNfS6tWAY)
 
-- Für [MQTT](software-entwicklung/IoT/MQTT.md) wird ein Server/Broker benötigt, die Einstellungen erfolgen in den [MQTT](software-entwicklung/IoT/MQTT.md)-Nodes.
+- Für [MQTT](MQTT.md) wird ein Server/Broker benötigt, die Einstellungen erfolgen in den [MQTT](MQTT.md)-Nodes.
 - In Node-RED sind Nodes für Publish und Subscribe verfügbar. Im Node erfolgen die Einstellungen (Adresse ...)
-- Wenn der Broker SSL/TLS verwendet, dann muss die Einstellung des [MQTT](software-entwicklung/IoT/MQTT.md)-Nodes entsprechend angepasst werden (Adresse, Port). Für selbst ausgestellte Zertifikate wird der lokale Pfad angegeben unter dem die Dateien **ca.crt**, **ca.key** abgelegt sind. Für eigene Zertifikate muss weiters ein Zertifikat für die CA und evtl. eine Passphrase (Passwort) angegeben werden und wichtig Ausschalten von *Verifiy server certificate*.
+- Wenn der Broker SSL/TLS verwendet, dann muss die Einstellung des [MQTT](MQTT.md)-Nodes entsprechend angepasst werden (Adresse, Port). Für selbst ausgestellte Zertifikate wird der lokale Pfad angegeben unter dem die Dateien **ca.crt**, **ca.key** abgelegt sind. Für eigene Zertifikate muss weiters ein Zertifikat für die CA und evtl. eine Passphrase (Passwort) angegeben werden und wichtig Ausschalten von *Verifiy server certificate*.
 - Im Node kann ein Topic eingestellt werden (home/data)
 - Hier wird eine home/data-Botschaft subscribed:
 
-![](software-entwicklung/IoT/assets/NodeRed_Mqtt01.png)
+![](assets/NodeRed_Mqtt01.png)
 
 Der Content wird lediglich an einen Debug-Output gegeben - siehe Nachricht rechts: "Hello World from ESP32".
 
-Analog funktioniert die Einstellung für einen [MQTT](software-entwicklung/IoT/MQTT.md)-Output-Node.
+Analog funktioniert die Einstellung für einen [MQTT](MQTT.md)-Output-Node.
 
-![](software-entwicklung/IoT/assets/NodeRed_Mqtt02.png)
+![](assets/NodeRed_Mqtt02.png)
 
 ## MySQL
 
@@ -176,11 +176,11 @@ Analog funktioniert die Einstellung für einen [MQTT](software-entwicklung/IoT/M
 
 - Der DB-Ausgang kann auf einen Debug-Node verknüpft werden
 
-![](software-entwicklung/IoT/assets/NodeRed_mySQL01.png)
+![](assets/NodeRed_mySQL01.png)
 
-## [MQTT](software-entwicklung/IoT/MQTT.md) -> MySQL
+## [MQTT](MQTT.md) -> MySQL
 
-Wunsch: Daten die via [MQTT](software-entwicklung/IoT/MQTT.md) empfangen werden sollen in eine DB eingetragen werden. Die Tabelle ist ganz einfach gehalten: es wird lediglich die Empfangszeit und das empfangene String eingetragen. Die SQL-Anweisung (im Function-Node) dazu:
+Wunsch: Daten die via [MQTT](MQTT.md) empfangen werden sollen in eine DB eingetragen werden. Die Tabelle ist ganz einfach gehalten: es wird lediglich die Empfangszeit und das empfangene String eingetragen. Die SQL-Anweisung (im Function-Node) dazu:
 
 ```javascript
 // Zeit wird korrigiert fuer AT
@@ -202,7 +202,7 @@ return msg;
 
 Die DB **espdta** hat zwei Spalten: **DATA** und **DATE**.
 
-![](software-entwicklung/IoT/assets/NodeRed_MQTT_mySQL01.png)
+![](assets/NodeRed_MQTT_mySQL01.png)
 
 ## InfluxDB
 
@@ -255,21 +255,21 @@ Im Node-RED-Panel gibts jetzt eine neue Schaltfläche, in der können Grundeinst
   - see: http://developers.sensetecnic.com/article/node-red-flow-using-freeboard/
 
 - example: node-red
-  ![image-20210603194549898](software-entwicklung/IoT/assets/NodeRed_OpenWeather05.png)
+  ![image-20210603194549898](assets/NodeRed_OpenWeather05.png)
 
 - example: node-red-dashboard
-  ![image-20210603194708236](software-entwicklung/IoT/assets/NodeRed_OpenWeather06.png)
+  ![image-20210603194708236](assets/NodeRed_OpenWeather06.png)
 
 - hint: openweathermap widget (Generierung der Anzeige)
 
-## [MQTT](software-entwicklung/IoT/MQTT.md), JSON - BMP280
+## [MQTT](MQTT.md), JSON - BMP280
 
-Messung der aktuellen Temperature mittels [ESP32](software-entwicklung/IoT/ESP32.md) und Übertragen mittels [MQTT](software-entwicklung/IoT/MQTT.md) an Broker. In Node-RED [MQTT](software-entwicklung/IoT/MQTT.md) subscriben und die JSON-Nachricht aufbereiten und anzeigen:
+Messung der aktuellen Temperature mittels [ESP32](ESP32.md) und Übertragen mittels [MQTT](MQTT.md) an Broker. In Node-RED [MQTT](MQTT.md) subscriben und die JSON-Nachricht aufbereiten und anzeigen:
 
 - result: node-red
-  ![image-20210603195042638](software-entwicklung/IoT/assets/NodeRed_OpenWeather03.png)
+  ![image-20210603195042638](assets/NodeRed_OpenWeather03.png)
 - result: node-red-dashboard
-  ![image-20210603195141597](software-entwicklung/IoT/assets/NodeRed_OpenWeather04.png)
+  ![image-20210603195141597](assets/NodeRed_OpenWeather04.png)
 
 ## Referenzen
 
@@ -285,5 +285,5 @@ Messung der aktuellen Temperature mittels [ESP32](software-entwicklung/IoT/ESP32
   <https://medium.com/@ankur.kus1/build-rest-api-using-flow-based-programming-node-red-4ed343228ba>
 - Node-RED Dashboard
   <https://www.youtube.com/watch?v=X8ustpkAJ-U>
-- Node-RED [MQTT](software-entwicklung/IoT/MQTT.md)
+- Node-RED [MQTT](MQTT.md)
   <https://www.youtube.com/watch?v=amA5OaXXCJo>

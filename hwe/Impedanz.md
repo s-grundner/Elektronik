@@ -11,5 +11,5 @@ created: 11th April 2023
 
 
 # Tags
-[Induktivitäten](hwe/Induktivitäten.md)
-[Kapazität](hwe/Kapazität.md)
+[Induktivitäten](Induktivitäten.md)
+[Kapazität](Kapazität.md)

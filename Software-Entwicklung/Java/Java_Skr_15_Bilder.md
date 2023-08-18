@@ -79,6 +79,6 @@ for (int i = 0; i < bild.length; i++) {
 
 Es wird ein bild-Array erstellt in welchem in jedem Element ein Teil des Sammelbildes abgelegt wird (getSubimage).
 
-![bird](software-entwicklung/Java/bilder/bird.png)
+![bird](bilder/bird.png)
 
 Es wird nur einmal ein Bild geladen und im Programm wird es gesplittet.

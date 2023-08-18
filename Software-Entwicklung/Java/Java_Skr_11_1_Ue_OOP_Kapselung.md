@@ -50,7 +50,7 @@ Erstellen Sie ein Projekt KomplexerTaschenrechner:
 
 Beispielhafte Oberfläche:
 
-![KomplexerTaschenrechner](software-entwicklung/Java/bilder/KomplexerTaschenrechner.gif)
+![KomplexerTaschenrechner](bilder/KomplexerTaschenrechner.gif)
 
 - Wenn ein Textfeld den Fokus erhält, dann wird der gesamte Text markiert.
 - Ganze Zahlen werden mit *,0 dargestellt

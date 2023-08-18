@@ -6,22 +6,22 @@ subject: ["mathe", "hwe", "physik"]
 
 # Schwingungen
 
-## Zusammenhang mit [Differentialgleichgungen](mathe/mathe%20(4)/{MOC}%20DGL.md)
+## Zusammenhang mit [Differentialgleichgungen]({MOC}%20DGL.md)
 
 Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.
 Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
 
-Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) sind wie folgt:
-1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [homogenen Lösung der DGL 2. Ordnung](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) 
+Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wie folgt:
+1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [homogenen Lösung der DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) 
 	$\rightarrow y_{h}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = 0$
-2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung|der%20inhomogenen%20DGL%202.%20Ordnung)
+2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung|der%20inhomogenen%20DGL%202.%20Ordnung)
 	$\rightarrow y_{p}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = s(x)$
 
 > [!summary] Die Funktion der Gesamten Schwingung ist somit:
 > $y(t) = y_{p}(t) + y_{h}(t)$
 
 ## Mechanischer Schwingkreis
-> ![400](mathe/assets/m_schwingk.png)
+> ![400](../assets/m_schwingk.png)
 $$
 \begin{align*}
 	F_{feder} &= -k\cdot y & F_{a} &= F_{feder} + F_{reibung}\\
@@ -37,10 +37,10 @@ $$
 | $d$      | Dämpfungskonstante |
 | $k$      | Federkonstante     |
 
-Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md): 
+Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md): 
 $\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y = 0$
 
-Daraus ergibt sich durch die [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) folgende Formel für $\lambda$:
+Daraus ergibt sich durch die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) folgende Formel für $\lambda$:
 $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 ### Bezeichnungen
@@ -51,11 +51,11 @@ $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 
 ## Freie Schwingungen im realen Serienschwingkreis
-Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](hwe/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
+Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../hwe/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
-> ![400](mathe/assets/e_serien_schwingk_frei.png)
+> ![400](../assets/e_serien_schwingk_frei.png)
 
-Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eingenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
+Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eingenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
 | Einfluss der [Spule](Impedanz%5C) | Einfluss des [Kondensator](Impedanz%5C)       | Einfluss des [Widerstand](Impedanz%5C) |
 | -------------------------------- | -------------------------------------------- | ------------------------------------- |
@@ -91,7 +91,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [DGL](mathe/mathe%20(4)/{MOC}%20DGL.md) die [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) erzeugen
+Nun kann man aus einer der [DGL]({MOC}%20DGL.md) die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) erzeugen
 $$
 \begin{align*}
 	\lambda^{2}+ \underbrace{\frac{R}{L}}_{2\delta}\lambda + \underbrace{\frac{1}{LC}}_{\omega_{0}^{2}} &= 0\\	
@@ -109,7 +109,7 @@ $$
 ### Lösung der Gleichung
 $\lambda_{1} = -\delta+\sqrt{\delta^{2}-\omega^{2}_{0}}$
 
-die 3. Fälle der [DGL 2. Ordnung](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) sind wiefolgt
+die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolgt
 
 | Fall                                                                                    |      Bedingung      | Bezeichnung                                                                      |
 | --------------------------------------------------------------------------------------- |:-------------------:| -------------------------------------------------------------------------------- |
@@ -118,11 +118,11 @@ die 3. Fälle der [DGL 2. Ordnung](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnun
 | [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen%5C|3.%20Fall) | $\delta<\omega_{0}$ | Schwingfall                                                                      |
 
 
->![400](mathe/assets/faelle_e_sk.png)
->![Federpendel_verschiedene_Dämpfungen](mathe/assets/Federpendel_verschiedene_Dämpfungen.gif)
+>![400](../assets/faelle_e_sk.png)
+>![Federpendel_verschiedene_Dämpfungen](../assets/Federpendel_verschiedene_Dämpfungen.gif)
 
 ## Erzwungene Schwingung im realen Serienschwingkreis
->![400](mathe/assets/e_serien_schwingk_erzw.png)
+>![400](../assets/e_serien_schwingk_erzw.png)
 
 Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige [Spannung](https://de.wikipedia.org/wiki/Ohmsches_Gesetz) $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
@@ -149,7 +149,7 @@ $$
 }}
 $$
 
-Mit dem Auflösen der [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) ergibt sich eine [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20Störterm|lineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
+Mit dem Auflösen der [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) ergibt sich eine [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20Störterm|lineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
 
 ### Bestimmung der Amplituden-Phasen-Form
 Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\cdot \sin(\omega\cdot t+\varphi)$ und beschreibt nur die Funktion nach dem Einschwingvorgang.
@@ -240,12 +240,12 @@ $$
 	D = \frac{\delta}{\omega_{0}} &\dots\text{Dämpfungsgrad}
 \end{align*}
 $$
- >![700](mathe/assets/frequ_gang_e_serien_schwingk.png)
+ >![700](../assets/frequ_gang_e_serien_schwingk.png)
 
 ## Freie Schwingung im realen Parallelschwingkreis
-![Pasted image 20221201122606](mathe/assets/Pasted%20image%2020221201122606.png)
+![Pasted image 20221201122606](../assets/Pasted%20image%2020221201122606.png)
 # Hardware Implementationen
-- [LC Oszillatoren](hwe/Oszillatoren/LC%20Oszillatoren.md)
-- [Colpitts Oszillator](hwe/Oszillatoren/Colpitts%20Oszillator.md)
+- [LC Oszillatoren](../../hwe/Oszillatoren/LC%20Oszillatoren.md)
+- [Colpitts Oszillator](../../hwe/Oszillatoren/Colpitts%20Oszillator.md)
 
 # Tags

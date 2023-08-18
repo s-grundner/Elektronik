@@ -9,8 +9,8 @@ created: 28th November 2022
 
 # Schwarzkörperstrahlung
 
-absorbiert auftreffende elektromagnetische [Strahlung](chemie/Radioaktivität.md) vollständig, somit auch [Licht](chemie/Spektralanalyse.md).
-Er lässt keine [Strahlung](chemie/Radioaktivität.md) hindurch und spiegelt oder streut nichts.
+absorbiert auftreffende elektromagnetische [Strahlung](../chemie/Radioaktivität.md) vollständig, somit auch [Licht](../chemie/Spektralanalyse.md).
+Er lässt keine [Strahlung](../chemie/Radioaktivität.md) hindurch und spiegelt oder streut nichts.
 Besitz ein **Absorptionsvermögen** von **$\alpha=1$**
 ## Stefan-Boltzmann Verteilung
 $$
@@ -20,23 +20,23 @@ f(\omega, T)&\dots\text{Spektrum}\\
 T&\dots\text{Temperatur des Körpers}
 \end{align*}
 $$
-![planckStrahlungsspektrum](assets/planckStrahlungsspektrum.png)
+![planckStrahlungsspektrum](../assets/planckStrahlungsspektrum.png)
 
-Durch das plancksche Strahlungsgesetz wird beschrieben, wie das Strahlungsspektrum eines schwarzen Körpers in Abhängigkeit von seiner [Temperatur](physik/Temperatur%20und%20Teilchenmodell.md) aussieht.
+Durch das plancksche Strahlungsgesetz wird beschrieben, wie das Strahlungsspektrum eines schwarzen Körpers in Abhängigkeit von seiner [Temperatur](Temperatur%20und%20Teilchenmodell.md) aussieht.
 
 ## Stefan-Boltzmann-Gesetz
-Die Strahlungsleistung eines schwarzen Körpers ist proportional zur 4. Potenz der [Temperatur](physik/Temperatur%20und%20Teilchenmodell.md).
+Die Strahlungsleistung eines schwarzen Körpers ist proportional zur 4. Potenz der [Temperatur](Temperatur%20und%20Teilchenmodell.md).
 $P=\sigma\cdot A\cdot T^{4}$ 
 
 $P\dots$ Strahlungsleistung
 $A\dots$ Fläche
-$T\dots$ [Temperatur](physik/Temperatur%20und%20Teilchenmodell.md)
-$\sigma\dots$ Stefan Boltzmann [Naturkonstante](physik/Konstanten%20Verzeichnis.md) ($\sigma = \dfrac{2\pi^5 k_\mathrm{B}^4}{15h^3c^2} = 5{,}670\,374\,419... \,\cdot 10^{-8} \, \mathrm{\dfrac{W}{m^2 K^4}}$)
+$T\dots$ [Temperatur](Temperatur%20und%20Teilchenmodell.md)
+$\sigma\dots$ Stefan Boltzmann [Naturkonstante](Konstanten%20Verzeichnis.md) ($\sigma = \dfrac{2\pi^5 k_\mathrm{B}^4}{15h^3c^2} = 5{,}670\,374\,419... \,\cdot 10^{-8} \, \mathrm{\dfrac{W}{m^2 K^4}}$)
 
 **Wienisches Verschiebungsgesetz:**
 $\lambda_{m} = \dfrac{2.898\cdot 10^{-3}mK}{T}$
-Mit Änderung der [Temperatur](physik/Temperatur%20und%20Teilchenmodell.md) verändert sich auch das abgestrahlte Spektrum, insbesondere auch die Wellenlänge des Strahlungsmaximums.
-Mit steigender [Temperatur](physik/Temperatur%20und%20Teilchenmodell.md) T wird die Wellenlänge des Strahlungsmaximums somit kleiner.
+Mit Änderung der [Temperatur](Temperatur%20und%20Teilchenmodell.md) verändert sich auch das abgestrahlte Spektrum, insbesondere auch die Wellenlänge des Strahlungsmaximums.
+Mit steigender [Temperatur](Temperatur%20und%20Teilchenmodell.md) T wird die Wellenlänge des Strahlungsmaximums somit kleiner.
 
 ## Oberflächentemperatur der Sonne
 [Solarkonstante](https://de.wikipedia.org/wiki/Solarkonstante): $E_{0} = 1367 \frac{W}{m^{2}}$

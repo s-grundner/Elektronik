@@ -4,7 +4,7 @@
 
 Erstellen Sie mittels VisualStudio-C# folgende Anwendung für die Univerwaltung:
 
-![Uni-Verwaltung](software-entwicklung/Db/bilder/csharp_univerw.png)
+![Uni-Verwaltung](bilder/csharp_univerw.png)
 
 - Die Liste der Studenten soll geladen werden beim Öffnen des Programms (Server/User/Kennwort ist im Programm)
 - Mit **Datensatz Löschen** kann ein Datensatz gelöscht werden, dazu öffnet sich ein Anmeldefenster das die Zugangsdaten User/Passwort abfragt. Der Datensatz wird dann ohne weitere Rückfrage gelöscht.

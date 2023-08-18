@@ -23,13 +23,13 @@ Unterschalen sind Orbitale
 
 #### s-Orbitale
 **Kugelsymmetrisch:**
->![orb-s](chemie/assets/orb-s.png)
+>![orb-s](assets/orb-s.png)
 #### p-Orbitale
 **Mantelförmig:** 
 
 | px               | py               | pz              |
 | ---------------- | ---------------- | --------------- |
-| >![orb-px](chemie/assets/orb-px.png) | >![orb-py](chemie/assets/orb-py.png) | >![orb-pz](chemie/assets/orb-pz.png) |
+| >![orb-px](assets/orb-px.png) | >![orb-py](assets/orb-py.png) | >![orb-pz](assets/orb-pz.png) |
  
 <mark style="background: #FFB86CA6;">Wellenberg</mark> 
 <mark style="background: #CACFD9A6;">Wellental</mark> 
@@ -38,13 +38,13 @@ Es gibt 3 Stk.
 
 #### d-Orbitale
 **Rosettenförmig:**
->![orb-d](chemie/assets/orb-d.png)
+>![orb-d](assets/orb-d.png)
 
 Es gibt 5 Stk.
 
 #### f-Orbitale
 **Komplexere Form:**
->![orb-f](chemie/assets/orb-f.png)
+>![orb-f](assets/orb-f.png)
 
 Es gibt 7 Stk.
 
@@ -60,9 +60,9 @@ Es gibt 7 Stk.
 ![Pasted image 20220904112819.png](Pasted%20image%2020220904112819.png)
 ### Schreibweise der Elektronen Konfiguration
 Bsp.:
-![Ne](chemie/assets/Ne.png)
+![Ne](assets/Ne.png)
 $1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$
->![150](chemie/assets/Ne-conf.png)
+>![150](assets/Ne-conf.png)
 <mark style="background: #ADCCFFA6;">Anzahl der $e^{-}$ </mark> 
 <mark style="background: #FF5582A6;">Hauptquantenzahl</mark> 
 <mark style="background: #FFB86CA6;">Orbitaltyp</mark> 

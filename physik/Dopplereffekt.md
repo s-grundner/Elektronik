@@ -9,7 +9,7 @@ created: 16th August 2022
 
 # Dopplereffekt
 
-# [Relativistischer](physik/Relativitätstheorie.md) Dopplereffekt
+# [Relativistischer](Relativitätstheorie.md) Dopplereffekt
 
 
 

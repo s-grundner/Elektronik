@@ -20,7 +20,7 @@ $$
 \end{align*}
 $$
 
-![pseudo_d_impuls](mathe/assets/pseudo_d_impuls.png)
+![pseudo_d_impuls](../assets/pseudo_d_impuls.png)
 
 Zur Normierung der *Wirkung* einer solchen Impulsfunktion wurde gewählt, dass die **Impulsfläche 1 ist**:
 $$
@@ -39,7 +39,7 @@ $$
 $$
 $\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. [...]
 Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.
-![d_impuls](mathe/assets/d_impuls.png)
+![d_impuls](../assets/d_impuls.png)
 
 $d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
 
@@ -62,7 +62,7 @@ $$
 $$
 
 Allgemein:
-![delta_impuls](mathe/assets/delta_impuls.png)
+![delta_impuls](../assets/delta_impuls.png)
 $$
 \underline{\underline{
 	f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})dt

@@ -16,6 +16,6 @@ Bezogen auf $1\mu V$
 # dBm
 Bezogen auf $1mW$
 # dBi
-[Isotroper Kugelstrahler](hf-technik/ksn%20(5)/Isotroper%20Kugelstrahler.md)
+[Isotroper Kugelstrahler](../hf-technik/ksn%20(5)/Isotroper%20Kugelstrahler.md)
 # Np
 # Quellen

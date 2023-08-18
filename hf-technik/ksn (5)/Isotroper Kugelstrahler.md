@@ -8,9 +8,9 @@ created: 24th November 2022
 ---
 
 # Isotroper Kugelstrahler
-Der Isotrope Kugelstrahler ist eine theoretische [Antenne](hf-technik/ksn%20(5)/Antenne.md), die die ihr zugeführte [Leistung](physik/Elektrische%20Leistung.md) gleichmäßiges in alle Richtungen abstrahlt.
+Der Isotrope Kugelstrahler ist eine theoretische [Antenne](Antenne.md), die die ihr zugeführte [Leistung](../../physik/Elektrische%20Leistung.md) gleichmäßiges in alle Richtungen abstrahlt.
 
-Die *Strahlungsdichte* $\vec{S_{i}}$ des isotropen Kugelstrahlers im *Abstand* $r$ kann aus der zugeführten *[Leistung](physik/Elektrische%20Leistung.md)* $P$ und der *Kugeloberfläche* $O = 4\pi r^{2}$, auf die sich die [Leistung](physik/Elektrische%20Leistung.md) verteilt, berechnet werden.
+Die *Strahlungsdichte* $\vec{S_{i}}$ des isotropen Kugelstrahlers im *Abstand* $r$ kann aus der zugeführten *[Leistung](../../physik/Elektrische%20Leistung.md)* $P$ und der *Kugeloberfläche* $O = 4\pi r^{2}$, auf die sich die [Leistung](../../physik/Elektrische%20Leistung.md) verteilt, berechnet werden.
 
 Die Strahlungsleistungsdichte ist unabhängig von den Winkeln $\varphi$ und $\vartheta$.
 
@@ -24,7 +24,7 @@ Bei einer allgemeinen [Antenne](Antenne.md) stellt sich immer eine gewisse Richt
 Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
 ```
 
-![Ant_Richtwirkung_iso](hf-technik/assets/Ant_Richtwirkung_iso.png)
+![Ant_Richtwirkung_iso](../assets/Ant_Richtwirkung_iso.png)
 
 
 ```ad-info
@@ -32,4 +32,4 @@ Der isotrope Kugelstrahler ist technisch nicht realisierbar (Zuführung der Ante
 ```
 
 # Quellen
-![Gustrau](hf-technik/assets/Gustrau.pdf)
+![Gustrau](../assets/Gustrau.pdf)

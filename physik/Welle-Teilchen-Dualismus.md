@@ -9,6 +9,6 @@ created: 15th September 2022
 
 # Welle-Teilchen-Dualismus
 
-[Laser](physik/Laser.md)
+[Laser](Laser.md)
 
 # Tags

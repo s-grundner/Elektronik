@@ -13,30 +13,30 @@ last_edited: 6th April 2022
 ### Vorteile
 1. Schneller
 2. Keine EM Störung
-3. Höhere Bandbreite/ [Kanalkapazität](netzwerk-technik/ksn%20(3)/Kanalkapazität.md)
+3. Höhere Bandbreite/ [Kanalkapazität](../../netzwerk-technik/ksn%20(3)/Kanalkapazität.md)
 
 ## Aufbau
-![lwl_aufbau](hf-technik/assets/lwl_aufbau.png)
+![lwl_aufbau](../assets/lwl_aufbau.png)
 ## Arten
 ### 1. Monomode Faser
->![monomode_faser](hf-technik/assets/monomode_faser.png)
+>![monomode_faser](../assets/monomode_faser.png)
 ### 2. Multimode Faser
 #### 1. Stufenprofil
->![multimode_stufenp](hf-technik/assets/multimode_stufenp.png)
+>![multimode_stufenp](../assets/multimode_stufenp.png)
 
 #### 1. Gradientenprofil
->![multimode_gradienten_p](hf-technik/assets/multimode_gradienten_p.png)
+>![multimode_gradienten_p](../assets/multimode_gradienten_p.png)
 
 Jede weitere Ausbreitungsmöglichkeit des Lichtes im Kern wird als **Mode** Bezeichnet
-Die Fortplanzung der Lichtwelle, die im Leiter durch das Material mit unterschiedlichen Brechungsindizes strahlt, wird mit dem [Brechungsgesetz](physik/Snelliussches%20Brechungsgesetz.md) bestimmt.
+Die Fortplanzung der Lichtwelle, die im Leiter durch das Material mit unterschiedlichen Brechungsindizes strahlt, wird mit dem [Brechungsgesetz](../../physik/Snelliussches%20Brechungsgesetz.md) bestimmt.
 
 ## Kenngrößen (Stufenindexfaser)
-![Optic_fibre-numerical_aperture_diagram.svg](hf-technik/assets/Optic_fibre-numerical_aperture_diagram.svg.png) 
+![Optic_fibre-numerical_aperture_diagram.svg](../assets/Optic_fibre-numerical_aperture_diagram.svg.png) 
 
 ### 1. Lichtgeschwintigkeit in einer Mode
 
  ### 2. Akzeptanzwinkel $\theta_{max}$
- ![Optical-fibre.svg](hf-technik/assets/Optical-fibre.svg.png)
+ ![Optical-fibre.svg](../assets/Optical-fibre.svg.png)
 #### Totalreflexion
 $$
 \begin{align*}
@@ -53,7 +53,7 @@ Ist eine dimensionslose Größe zur beschreibung der Öffnungsweite als Zahl.
 Der Zahlenwert ist vom **Akzeptanzwinkel (Öffnungswinkel)**, sowie vom **Brechungsindex des umgebenden Mediums** Abhängig.
 $$NA = \sin(\theta_{max})=\frac{1}{n_{0}}\cdot\sqrt{n_{1}^{2}-n_{2}^{2}}$$
 
->[!example] Aufgabe: Die Kernbrachzahl eines LWL beträgt $1.55$, die des Matels $1.51$. Einspeisung erfolgt durch *[Luft](physik/Lufthülle%20der%20Erde.md)*. Kerndurchmesser beträgt $50\mu m$, der LWL wird bei einer Wellenlänge von $0.8\mu m$ betrieben.
+>[!example] Aufgabe: Die Kernbrachzahl eines LWL beträgt $1.55$, die des Matels $1.51$. Einspeisung erfolgt durch *[Luft](../../physik/Lufthülle%20der%20Erde.md)*. Kerndurchmesser beträgt $50\mu m$, der LWL wird bei einer Wellenlänge von $0.8\mu m$ betrieben.
 > ##### 1. Lichtgeschwindigkeit im Kern:
 > $$c_{1}= \frac{c_{0}}{n_{1}}=\frac{3\cdot10^{8} \frac{m}{s}}{1.55}=1.94\cdot 10^{8} \frac{m}{s}$$
 > ##### 2. Grenzwinkel der Totalreflexion

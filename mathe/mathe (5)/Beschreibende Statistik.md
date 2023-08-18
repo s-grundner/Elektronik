@@ -70,11 +70,11 @@ Kleinster und größter Wert
 
 
 ## Boxplot
-![Boxplot.png](mathe/assets/Boxplot.png)
+![Boxplot.png](../assets/Boxplot.png)
 ## Streuung 
 Wir bilden die Quadrate der Abweichungen vom arithmetischen Mittelwert und addieren diese: 
-$\sigma^{2}$ … [Varianz](mathe/mathe%20(5)/Varianz.md)
-$\sigma$ … [Standardabweichung](mathe/mathe%20(5)/Standardabweichung.md)
+$\sigma^{2}$ … [Varianz](Varianz.md)
+$\sigma$ … [Standardabweichung](Standardabweichung.md)
 $$
 \begin{align*}
 &\sigma^{2}= \frac{1}{n}\cdot\sum\limits_{i=1}^{n}(x_{i}-\overline{x})^{2} &&\sigma =\sqrt{\sigma^{2}}\\

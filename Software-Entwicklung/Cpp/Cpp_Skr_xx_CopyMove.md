@@ -295,7 +295,7 @@ Die Initialisierung kann nicht direkt bei der Erstellung vorgenommen werden.
 
 ## shared_ptr
 
-![Cpp_SmartPtr_01](software-entwicklung/Cpp/bilder/Cpp_SmartPtr_01.png)
+![Cpp_SmartPtr_01](bilder/Cpp_SmartPtr_01.png)
 
 Eine Erweiterung des *unique_ptr* ist der *shared_ptr*. Ansonsten grundsätzlich gleich, können auf Ressourcen auf die der *shared_ptr* zeigt, mehrere *shared_ptr* gleichzeitig zeigen. Ein *Referenzzähler* zählt dabei die Zugriffszeiger, die auf die Ressource zeigen. Zeigt kein einziger Zeiger mehr auf die Ressource, dann wird sie automatisch gelöscht.
 

@@ -13,14 +13,14 @@ created: 30th January 2023
 > 4 Bit Dualzähler betrieben mit $f_{0}$ betrachtet man das MSB
 
 > [!important] Topologie:
-> Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [PLL](hwe/Oszillatoren/Phase%20Locked%20Loop.md) *(clk_i)*
-> ![DTO](hwe/assets/DTO.png)
+> Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [PLL](Phase%20Locked%20Loop.md) *(clk_i)*
+> ![DTO](../assets/DTO.png)
 > - Das MSB des Accureg wird als Ausgang des DTO verwendet.
 
-![dto-counter](hwe/assets/dto-counter.png)
+![dto-counter](../assets/dto-counter.png)
 
 > [!info] Die Frequenz ist abhängig von
-> - der Clockfrequenz des [PLL](hwe/Oszillatoren/Phase%20Locked%20Loop.md)
+> - der Clockfrequenz des [PLL](Phase%20Locked%20Loop.md)
 > - Bit-Breite des Addierers
 > - Inkrement Wert
 
@@ -31,6 +31,6 @@ Z_\max
 $$
 
 # Tags
-[Clock Generierung](hwe/Oszillatoren/Clock%20Generierung.md)
-[Clock Tree Balancing](hwe/Clock%20Tree%20Balancing.md)
-[PLL](hwe/Oszillatoren/Phase%20Locked%20Loop.md)
+[Clock Generierung](Clock%20Generierung.md)
+[Clock Tree Balancing](../Clock%20Tree%20Balancing.md)
+[PLL](Phase%20Locked%20Loop.md)

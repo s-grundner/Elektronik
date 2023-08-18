@@ -89,7 +89,7 @@ POSIX definiert Funktionen zum Umwandeln einer Form in die jeweils Andere:
 - inet_ntoa
 - inet_addr
 
-![NW_AdrAusloesung](software-entwicklung/Nw/bilder/NW_AdrAufloesung.png)
+![NW_AdrAusloesung](bilder/NW_AdrAufloesung.png)
 
 Die im folgenden Beispiel verwendete Struktur **hostent** beinhaltet Information über einen Host (Name, IP ...). Die Struktur **in_addr** speichert die NP-Adresse (Union - Byte und Wort-Weise).
 
@@ -296,7 +296,7 @@ Abfrage-Arten: GET, POST, PUT, DELETE, LINK, UNLINK, TRACE, OPTIONS
 
 Der Inhalt des HTTP-Headers sieht folgendermaßen aus:
 
-![](software-entwicklung/Nw/bilder/NW_http01.png)
+![](bilder/NW_http01.png)
 
 ### Telnet
 

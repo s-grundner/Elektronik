@@ -10,7 +10,7 @@ last_edited: 11th April 2022
 
 # Taylorreihe
 ## Entwicklung an der Stelle 0
-## [Differenzieren](mathe/mathe%20(3)/Differenzialrechnung.md) & [Integrieren](mathe/mathe%20(3)/Integralrechnung.md) von [Potenzreihen](mathe/mathe%20(4)/Potenzreihe.md)
+## [Differenzieren](../mathe%20(3)/Differenzialrechnung.md) & [Integrieren](../mathe%20(3)/Integralrechnung.md) von [Potenzreihen](Potenzreihe.md)
 
 ````ad-example
 title: Examples
