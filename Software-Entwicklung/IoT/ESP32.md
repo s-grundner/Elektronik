@@ -7,9 +7,11 @@ created: 29th November 2022
 # ESP32
 
 Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../digitaltechnik/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../digitaltechnik/USART.md), [SPI](../../digitaltechnik/SPI.md), CAN, [I2C](../../digitaltechnik/TWI.md), I2S, WLAN und Bluetooth.
+
 ![](assets/ESP32_nocase.png)
 
 Für Prototypen sind ESP32-WROOM Module, halbfertige PCB-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../hf-technik/ksn%20(5)/Antenne.md), PIF-[Antenne](../../hf-technik/ksn%20(5)/Antenne.md)  oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
+
 ![](assets/ESP32WROOM.png)
 
 ## Bootloader Brennen mit dem ESP-Tool
