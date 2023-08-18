@@ -1,9 +1,7 @@
 ---
 tags: ["MOC"]
-aliases: []
 subject: ["fsst"]
 source: []
-reference: []
 created: 17th August 2023
 ---
 # Map of Content - C (Programmiersprache)

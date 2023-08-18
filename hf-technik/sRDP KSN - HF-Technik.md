@@ -28,4 +28,4 @@ keinen konstanten Verlauf mehr:
 
 # Anpassung mit Smith-Diagramm, Shunt, TL
 
-# Antennen, Richtdiagramm
+# [Antennen](Antenne.md), Richtdiagramm

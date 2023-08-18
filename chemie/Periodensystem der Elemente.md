@@ -118,6 +118,9 @@ Die EN kennzeichnet das Bestreben der Atome, $e^{-}$ **in einer Bindung** anzuzi
 
 
 ---
+
 # Tags
+
 [Orbitalmodell](Orbitalmodell.md)
+
 [Wikipedia Entry](https://de.wikipedia.org/wiki/Periodensystem)

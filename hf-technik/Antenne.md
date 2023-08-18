@@ -1,5 +1,5 @@
 ---
-tags: ["HF-Technik"]
+tags: ["RF"]
 aliases: ["Antennen"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]

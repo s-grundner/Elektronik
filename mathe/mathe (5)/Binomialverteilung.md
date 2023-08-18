@@ -3,7 +3,6 @@ tags: ["Statistik"]
 aliases: [""]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 16th November 2022
 ---
 

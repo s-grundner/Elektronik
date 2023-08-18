@@ -1,9 +1,7 @@
 ---
-tags: []
 aliases: ["Abwärtswandler", "Tiefsetzsteller", "Step-Down converter"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 20th April 2022
 ---
 # Buck Converter

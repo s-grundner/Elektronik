@@ -1,9 +1,7 @@
 ---
-tags: []
 aliases: []
 subject: ["chemie"]
 source: ["Angela Lindner"]
-reference: []
 created: 10th September 2022
 ---
 
