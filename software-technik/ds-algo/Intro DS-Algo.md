@@ -3,9 +3,7 @@ tags: ["ds-algo"]
 aliases: []
 subject: ["null"]
 source: ["null"]
-reference: []
 created: 18th April 2022
-last_edited: 18th April 2022
 ---
 
 # Intro DS-Algo

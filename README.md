@@ -1,4 +1,5 @@
 # [Elektronik](https://github.com/s-grundner/Elektronik)
+
 HTBLUVA Salzburg Lehrgang
 
 Evergreen-Skriptum des HEL-Lehrgangs, verfasst im Markdown Editor [Obsidian](https://obsidian.md/)
@@ -23,6 +24,7 @@ winget install --id Git.Git -e --source winget
 ```
 
 ## Disclaimer: Ohne 🔫
+
 Aufgrund der Evergreen Philosophie dieser Zusammentragung an Lehrmaterial, kann es durchaus provisorische bzw. unvollständige Dateien geben.
 Der Fortschritt dieses Skriptums steht direkt im Zusammenhang mit der Fortbildung des Autors. 
 
@@ -32,6 +34,9 @@ Ohne Push-Berechtigung sind Folgende Einstellungen (`Ctrl+,`) des Obsidian Git P
 
 ---
 
-# Latex Cheat-Sheets
+# Cheat-Sheets
+
 - http://tug.ctan.org/info/undergradmath/undergradmath.pdf
 - https://wch.github.io/latexsheet/latexsheet-a4.pdf
+- https://www.rexegg.com/regex-quickstart.html
+- https://vim.rtorr.com/

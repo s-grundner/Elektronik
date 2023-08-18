@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: ["Gustrau HF Technik, 70"]
 created: 23rd November 2022
 ---
 

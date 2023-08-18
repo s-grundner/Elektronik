@@ -3,7 +3,6 @@ tags: []
 aliases: ["Luft", "Lufthülle"]
 subject: ["physik"]
 source: [""]
-reference: []
 created: 10th September 2022
 ---
 

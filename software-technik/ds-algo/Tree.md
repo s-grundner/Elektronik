@@ -3,9 +3,7 @@ tags: []
 aliases: []
 subject: ["fsst"]
 source: ["Anton Hofmann"]
-
 created: 26th April 2022
-last_edited: 26th April 2022
 ---
 
 # Trees
