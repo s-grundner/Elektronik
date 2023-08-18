@@ -8,9 +8,9 @@ created: 24th November 2022
 ---
 
 # Isotroper Kugelstrahler
-Der Isotrope Kugelstrahler ist eine theoretische [[Antenne]], die die ihr zugeführte [[Elektrische Leistung|Leistung]] gleichmäßiges in alle Richtungen abstrahlt.
+Der Isotrope Kugelstrahler ist eine theoretische [Antenne](Antenne.md), die die ihr zugeführte [Leistung](Elektrische%20Leistung.md) gleichmäßiges in alle Richtungen abstrahlt.
 
-Die *Strahlungsdichte* $\vec{S_{i}}$ des isotropen Kugelstrahlers im *Abstand* $r$ kann aus der zugeführten *[[Elektrische Leistung|Leistung]]* $P$ und der *Kugeloberfläche* $O = 4\pi r^{2}$, auf die sich die [[Elektrische Leistung|Leistung]] verteilt, berechnet werden.
+Die *Strahlungsdichte* $\vec{S_{i}}$ des isotropen Kugelstrahlers im *Abstand* $r$ kann aus der zugeführten *[Leistung](Elektrische%20Leistung.md)* $P$ und der *Kugeloberfläche* $O = 4\pi r^{2}$, auf die sich die [Leistung](Elektrische%20Leistung.md) verteilt, berechnet werden.
 
 Die Strahlungsleistungsdichte ist unabhängig von den Winkeln $\varphi$ und $\vartheta$.
 
@@ -19,12 +19,12 @@ $$
 $$
 
 ```ad-note
-Bei einer allgemeinen [[Antenne]] stellt sich immer eine gewisse Richtwirkung ein, sodass hier die Strahlungsleistungsdichte im Fernfeld auch von den Winkeln $\varphi$ und $\vartheta$ abhängt.
+Bei einer allgemeinen [Antenne](Antenne.md) stellt sich immer eine gewisse Richtwirkung ein, sodass hier die Strahlungsleistungsdichte im Fernfeld auch von den Winkeln $\varphi$ und $\vartheta$ abhängt.
 
 Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
 ```
 
-![[Ant_Richtwirkung_iso.png]]
+![Ant_Richtwirkung_iso](Ant_Richtwirkung_iso.png)
 
 
 ```ad-info
@@ -32,4 +32,4 @@ Der isotrope Kugelstrahler ist technisch nicht realisierbar (Zuführung der Ante
 ```
 
 # Quellen
-![[Gustrau.pdf]]
+![Gustrau](Gustrau.pdf)

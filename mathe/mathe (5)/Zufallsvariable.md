@@ -13,14 +13,14 @@ Ein Merkmal $X$, dessen numerische Werte die Ergebnisse eines Zufallsvorgangs si
 Eine diskrete Zufallsvariable oder Zufallsgröße kann nur einzelne Werte annehmen.
 Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
 
->[!hint] Jedem [[Ereignis]] wird ein Wert zugeordnet (Diskret)
+>[!hint] Jedem [Ereignis](Ereignis.md) wird ein Wert zugeordnet (Diskret)
 
 >[!example] Werfen von 2 Würfeln
 >$\Omega=\{(1,1);(1,2);\dots;(6,6)\}$ Werte der einzelnen Würfel
 >$X=\{2;3;\dots;12\}$ Augenzahl (einzelne Würfel sind unwichtig)
 
 **Bisher:**
-- $P(\omega)\dots$ [[Wahrscheinlichkeit]] eines Ereignisses $\omega$
+- $P(\omega)\dots$ [Wahrscheinlichkeit](Wahrscheinlichkeit.md) eines Ereignisses $\omega$
 
 **Jetzt:**
 - $M_{x}=\{x_{1};\dots ;x_{n}\}$
@@ -37,8 +37,8 @@ Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
 
 ## Stetige Zufallsvariablen
 Eine stetige Zufallsvariable nimmt jeden Wert in einem bestimmten Intervall an.
-Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt [[Wahrscheinlichkeitsverteilung]] dieser Zufallsvariable.
+Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt [Wahrscheinlichkeitsverteilung](Wahrscheinlichkeitsverteilung.md) dieser Zufallsvariable.
 
 # Tags
-[[Wahrscheinlichkeitsverteilung]]
-[[Varianz#Varianz einer Zufallsvariable]]
+[Wahrscheinlichkeitsverteilung](Wahrscheinlichkeitsverteilung.md)
+[](Varianz.md#Varianz%20einer%20Zufallsvariable)

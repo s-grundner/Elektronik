@@ -9,13 +9,13 @@ last_edited: 6th May 2022
 ---
 
 # TCP - Transmission Control Protocol
-![[TCPIP_im_Schichtenmodell.png]]
+![TCPIP_im_Schichtenmodell.png](TCPIP_im_Schichtenmodell.png)
 ## TCP Segmentierung
 Datenpakete werden *segmentiert*/aufgeteilt und nach der Übertragung wieder zusammengesetzt. Die Segmente werden mit einem **HEADER** versehen, indem wichtige Informationen, wie Steuer- und Kontrollelemente , enthalten sind.
 Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richtige Reihenfolge gebracht weredn können. 
 **Fehlende werden neu gesendet und Doppelte aussortiert.**
 ## Aufbau des TCP Headers
-![[TCP_übertragung.png]]
+![TCP_übertragung.png](TCP_%C3%BCbertragung.png)
 - Im Header sind alle Infos enthalten, die für eine gesicherte Verbindung wichtig sind
 - Header ist in 32-Bit-Blöcke aufgeteilt.
 - Min. 5 Blöcke $\rightarrow$ min. 20 Byte
@@ -29,16 +29,16 @@ Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richt
 
 ### Verbindungsaufbau
 "Three-Way-Handshake"
-![[TCO_trans_aufbau.png]]
+![TCO_trans_aufbau.png](TCO_trans_aufbau.png)
 1. Verbindungswunsch wird geschickt (SYN)
 2. Server bestätigt (ACK) und fragt Verbindungswunsch an (SYN)
 3. Client Bestätigung (ACK) 
 ### Datenübertragung
-![[TCP_trans_daten.png]]
+![TCP_trans_daten](TCP_trans_daten.png)
 Sender sendet Paket $\rightarrow$ Empfänger bestätigt.
 ### Verbindungsabbau
-![[TCP_trans_aufbau.png]]
-![[TCP_trans_abbau.png]]
+![TCP_trans_aufbau.png](TCP_trans_aufbau.png)
+![TCP_trans_abbau.png](TCP_trans_abbau.png)
 ## Flusskontrolle (Flow Control)
 ### Stop-and-Wait
 ### Sliding Window

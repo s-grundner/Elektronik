@@ -8,46 +8,46 @@ created: 20th August 2022
 ---
 
 # Chemische Bindungen
-![[EN_in_bindungen.png|350]]
-Durch die unterschiedliche [[Periodensystem der Elemente#Elektronegativität EN|Elektronegativität]] ($\Delta EN$) der Verbindungspartner ist erkennbar welcher Verbindungstyp vorliegt:
-$\Delta EN > 1.7$ [[Ionenbindung]]
-$\Delta EN=0$ [[Metallbindung]] oder unpolare [[Atombindung]] (2x gleiches NM)
-$\Delta EN < 1.7$ polare [[Atombindung]]
+![350](EN_in_bindungen.png)
+Durch die unterschiedliche [](Periodensystem%20der%20Elemente.md#Elektronegativit%C3%A4t%20EN%7CElektronegativit%C3%A4t) ($\Delta EN$) der Verbindungspartner ist erkennbar welcher Verbindungstyp vorliegt:
+$\Delta EN > 1.7$ [Ionenbindung](Ionenbindung.md)
+$\Delta EN=0$ [Metallbindung](Metallbindung.md) oder unpolare [Atombindung](Atombindung.md) (2x gleiches NM)
+$\Delta EN < 1.7$ polare [Atombindung](Atombindung.md)
 
-### [[Metallbindung]]
->![[Metall-bdn.png|125]]
+### [Metallbindung](Metallbindung.md)
+>![Metall-bdn.png](Metall-bdn.png)
 > - Kristallgitter mit Atomrümpfen ($M^{+}$)
 > - freibewegliche $e^{-}$ "Elektronengas"
 
-[[Valenzelektronen]] der Metalle werden abgegeben und bilden ein Elektronengas
+[Valenzelektronen](Valenzelektronen.md) der Metalle werden abgegeben und bilden ein Elektronengas
 
-### [[Ionenbindung]]
-> ![[Ionen-bdn.png|700]]
+### [Ionenbindung](Ionenbindung.md)
+> ![700](Ionen-bdn.png)
 
-Metalle ($Na$) übertragen ihre [[Valenzelektronen]] an Nichtmetalle ($Cl$)
+Metalle ($Na$) übertragen ihre [Valenzelektronen](Valenzelektronen.md) an Nichtmetalle ($Cl$)
 
-### [[Atombindung]]
->![[Atom-bnd.png|300]]
+### [Atombindung](Atombindung.md)
+>![300](Atom-bnd.png)
 
-Nichtmetalle benutzen [[Valenzelektronen]] gemeinsam.
+Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 
 ## Übergänge zwischen Bindungsarten
 ### Zwischenmolekulare Kräfte
-1. [[Atombindung|Dipol]]-[[Atombindung|Dipol]]-Wechselwirkung
-	![[Pasted image 20220901195527.png|475]]
+1. [Dipol](Atombindung.md)-[Dipol](Atombindung.md)-Wechselwirkung
+	![475](Pasted%20image%2020220901195527.png)
 	 - [Studyflix](https://studyflix.de/chemie/dipol-dipol-wechselwirkung-2391)
 
 2. Wasserstoffbrückenbindung
-	![[Pasted image 20220901195604.png|575]]
+	![575](Pasted%20image%2020220901195604.png)
 
 3. Van-der-Waals-Kräfte
 	- [Studyflix](https://studyflix.de/chemie/van-der-waals-krafte-1561)
 ## Elektrische Leitfähigkeit
-- Leiter, [[Halbleiter]], Isolator (Nichtleiter)
+- Leiter, [Halbleiter](Halbleiter.md), Isolator (Nichtleiter)
 - Elektr. Leiter 1. Klasse (Metalle) $\rightarrow$ <mark style="background: #ADCCFFA6;">Elektronen</mark> als Ladungsträger
-- Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [[Ionenbindung|Salz]]) $\rightarrow$ <mark style="background: #FF5582A6;">Ionen</mark> als Ladungsträger
+- Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ <mark style="background: #FF5582A6;">Ionen</mark> als Ladungsträger
 
->![[Baendermodell.png|775]]
+>![775](Baendermodell.png)
   
 ---
 # Tags

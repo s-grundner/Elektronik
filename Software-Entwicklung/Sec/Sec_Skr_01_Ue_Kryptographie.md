@@ -13,7 +13,7 @@ string codeVerschiebeCh(string str, int shift);
 
 
 > [!example] Testen Sie die Funktion mittels dem Beispiel-Text:
-> In einem Raumgebiet befinde sich ein [[elektrisches Feld]] (weil zum Beispiel gerade eine Gewitterwolke darueber schwebt). Stell dir vor, du moechtest jemandem mitteilen, wie viel und was fuer Feldstoff sich an einer bestimmten Stelle des Gebiets befindet. Du brauchst dazu ein Mass, eine physikalische Groesse. Ein solches Mass ist die elektrische Feldstaerke. Man wuerde wahrscheinlich zunaechst erwarten, dass die elektrische Feldstaerke einfach in der Naehe eines geladenen Koerpers einen grossen Wert hat und in groesserer Entfernung einen kleinen. Nun kann man aber das Feld so noch nicht eindeutig beschreiben. Wir hatten festgestellt, dass im elektrischen Feld sowohl Druck- als auch Zugspannungen herrschen koennen. Tatsaechlich ist es so, dass in einem Feld Zug und Druck an jedem Ort gleichzeitig herrschen. Wie ist das moeglich? Fuer jedes Stueckchen Feldstoff gibt es eine ausgezeichnete Richtung, in der das Feld unter Zugspannung steht. Wir nennen sie die Zugrichtung. In allen Richtungen quer dazu steht es unter Druckspannung. Abb. 1.42 zeigt einen kleinen Zylinder, den wir in Gedanken aus einem Feld herausgeschnitten haben, und zwar so, dass die Zylinderachse in der Zugrichtung des Feldes liegt. In den Richtungen quer dazu herrscht Druckspannung. (Dass ein Material an jeder Stelle eine ausgezeichnete Richtung hat, ist keine seltene Eigenschaft. So hat die Maserung eines Holzstuecks an jeder Stelle eine bestimmte Richtung.
+> In einem Raumgebiet befinde sich ein [Elektrisches Feld](elektrisches%20Feld.md) (weil zum Beispiel gerade eine Gewitterwolke darueber schwebt). Stell dir vor, du moechtest jemandem mitteilen, wie viel und was fuer Feldstoff sich an einer bestimmten Stelle des Gebiets befindet. Du brauchst dazu ein Mass, eine physikalische Groesse. Ein solches Mass ist die elektrische Feldstaerke. Man wuerde wahrscheinlich zunaechst erwarten, dass die elektrische Feldstaerke einfach in der Naehe eines geladenen Koerpers einen grossen Wert hat und in groesserer Entfernung einen kleinen. Nun kann man aber das Feld so noch nicht eindeutig beschreiben. Wir hatten festgestellt, dass im elektrischen Feld sowohl Druck- als auch Zugspannungen herrschen koennen. Tatsaechlich ist es so, dass in einem Feld Zug und Druck an jedem Ort gleichzeitig herrschen. Wie ist das moeglich? Fuer jedes Stueckchen Feldstoff gibt es eine ausgezeichnete Richtung, in der das Feld unter Zugspannung steht. Wir nennen sie die Zugrichtung. In allen Richtungen quer dazu steht es unter Druckspannung. Abb. 1.42 zeigt einen kleinen Zylinder, den wir in Gedanken aus einem Feld herausgeschnitten haben, und zwar so, dass die Zylinderachse in der Zugrichtung des Feldes liegt. In den Richtungen quer dazu herrscht Druckspannung. (Dass ein Material an jeder Stelle eine ausgezeichnete Richtung hat, ist keine seltene Eigenschaft. So hat die Maserung eines Holzstuecks an jeder Stelle eine bestimmte Richtung.
 
 Ein gute Kontrolle ist möglich, wenn als Verschiebe-Spanne zweimal hintereinander 13 eingegeben wird, dann wird auf den ursprünglichen Text verschoben (*ROT13*).
 
@@ -30,7 +30,7 @@ In deutschsprachigen Texten kommen die Buchstaben mit etwa folgender Häufigkeit
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 9,78 | 2,51 | 0,79 | 0,02 | 7,00 | 7,27 | 6,15 | 4,35 | 0,67 | 1,89 | 0,03 | 0,04 | 1,13 |
 
-Der Buchstabe *e* kommt demzufolge mit etwa 17%i[[Wahrscheinlichkeit|ger Wahrscheinlich]]keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
+Der Buchstabe *e* kommt demzufolge mit etwa 17%i[ger Wahrscheinlich](Wahrscheinlichkeit.md)keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
 
 ### Homophone Chiffre
 
@@ -505,7 +505,7 @@ Euklidischer Algorithmus (ggT Berechnung) (<https://www.mathe-online.at/material
 ggT(e, phi) = ggt(17, 120) -> wir wissen dieser muss 1 sein (wurde ja so gewählt)
 120 = 7 * 17 + 1    -> 17 und 120 aus Angabe
 17 = 17 * 1 + 0     -> 1ter 17er wurde von oben runtergeholt, 1er wurde von oben runtergeholt, 2ter 17er wurde ermittelt und 0er ebenfalls
--> da kein [[Rest]], Rechnung fertig, ggT ist der Multiplikator von 17 also 1
+-> da kein [Rest](Rest.md), Rechnung fertig, ggT ist der Multiplikator von 17 also 1
 ```
 
 Erweiterter euklidischer Algorithmus, Verwenden der vorletzten Zeile ( 1 = ...), und den Algorithmus von unten nach oben wieder durchgehen. Hier ein Sonderfall, weil die Rechnung so kurz ist:

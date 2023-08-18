@@ -12,7 +12,7 @@ created: 16th November 2022
 - Bei einem Zufallsexperiment gibt es nur $2$ Ergebnisse: $A$ oder $\neg{A}$
 - Es werden $n$ gleichartige Versuche durchgeführt.
 - Die Einzelversuche sind voneinander unabhängig.
-- Die [[Zufallsvariable|Zufallsvariable]] $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
+- Die [Zufallsvariable](Zufallsvariable.md) $X$ gibt an, wie oft bei $n$ Versuchen das Ergebnis $A$ eintritt.
 
 Die Binomialverteilung ist eine Verteilungsformel, mit der die Wahrscheinlichkeiten für verschiedene Ergebnisse bei einem Zufallsexperiment bestimmt werden können.
 
@@ -27,25 +27,25 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > mit
 > - $n\dots$ Anzahl der Versuche
 > - $k\dots$ Anzahl der Erfolge
-> - $p\dots$ [[Wahrscheinlichkeit]] eines Erfolgs
+> - $p\dots$ [Wahrscheinlichkeit](Wahrscheinlichkeit.md) eines Erfolgs
 > - $\binom{n}{k}\dots$ Binomialkoeffizient 
 
 ## Kennwerte
 
-[[Varianz]]: $V(X)=n\cdot p\cdot(1-p)$
+[Varianz](Varianz.md): $V(X)=n\cdot p\cdot(1-p)$
 
 
->[!summary] [[Erwartungswert]] $E(X)$
+>[!summary] [Erwartungswert](Erwartungswert.md) $E(X)$
 > $E(X)=n\cdot p$
 
->[!summary] [[Standardabweichung]]
+>[!summary] [Standardabweichung](Standardabweichung.md)
 > $\sigma(X)=\sqrt{n\cdot p\cdot (1-p)}$
 
-![[binom_tree.png]]
+![binom_tree](binom_tree.png)
 
 ## unbekanntes $n$
 ````ad-example
-title: Wie viele Tickets kann man verkaufen, sodass mit [[Wahrscheinlichkeit|WSK]]$=0.9$ der Flug nicht überbucht ist? 
+title: Wie viele Tickets kann man verkaufen, sodass mit [WSK](Wahrscheinlichkeit.md)$=0.9$ der Flug nicht überbucht ist? 
 - Fluglinie überbucht Flüge (200 Sitze)
 - WSK, dass ein gebuchter Passagier erscheint, $p=0.93$
 
@@ -58,7 +58,7 @@ $n=210$
 ```
 ````
 
-## unbekanntes $k$ bei gegebener [[Wahrscheinlichkeit|WSK]]
+## unbekanntes $k$ bei gegebener [WSK](Wahrscheinlichkeit.md)
 ````ad-example
 title: Bsp
 $n=6\qquad p=0.4$
@@ -73,7 +73,7 @@ title: Würfeln mit einem Würfel
 
 ```ad-success
 title: Lösung
-![[Binom-vert.svg|1375]]
+![1375](Binom-vert.svg)
 $$
 \begin{align*}
 P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\
@@ -89,8 +89,8 @@ $$
 
 
 ````ad-example
-title: Prüfe, ob folgende [[Zufallsvariablen|Zufallsvariable]] $X$ binomialverteilt ist
-![[Pasted image 20221122111119.png]]
+title: Prüfe, ob folgende [Zufallsvariable](Zufallsvariablen) $X$ binomialverteilt ist
+![Pasted image 20221122111119](Pasted%20image%2020221122111119.png)
 ```ad-success
 title: Lösung
 1. 
@@ -102,7 +102,7 @@ title: Lösung
 
 ````ad-example
 title: Prüflos
-![[Pasted image 20221122112926.png|725]]
+![725](Pasted%20image%2020221122112926.png)
 
 ```ad-success
 title: Lösung

@@ -6,21 +6,21 @@ created: 19th August 2022
 ---
 # Map of Topics - Chemie
 ## Grundlagen (2. JG)
- - [[Grundlagen  der Chemie|Allgemein]]
- - [[Atommodelle]]
- - [[Spektralanalyse]]
- - [[Orbitalmodell]]
- - [[Valenzelektronen]]
- - [[Radioaktivität]]
- - [[Periodensystem der Elemente]]
- - [[Chemische Bindungen]]
- - [[Chemische Lösungen ]]
- - [[Chemische Reaktionen]]
- - [[Kinetik und Katalyse]]
- - [[Chemisches Gleichgewicht]]
- - [[Säuren und Basen]]
- - [[Oxidation und Reduktion]]
- - [[Elektrochemie]]
+ - [Allgemein](Grundlagen%20%20der%20Chemie.md)
+ - [Atommodelle](Atommodelle.md)
+ - [Spektralanalyse](Spektralanalyse.md)
+ - [Orbitalmodell](Orbitalmodell.md)
+ - [Valenzelektronen](Valenzelektronen.md)
+ - [Radioaktivität](Radioaktivit%C3%A4t.md)
+ - [Periodensystem der Elemente](Periodensystem%20der%20Elemente.md)
+ - [Chemische Bindungen](Chemische%20Bindungen.md)
+ - [Chemische Lösungen ](Chemische%20L%C3%B6sungen%20)
+ - [Chemische Reaktionen](Chemische%20Reaktionen)
+ - [Kinetik und Katalyse](Kinetik%20und%20Katalyse)
+ - [Chemisches Gleichgewicht](Chemisches%20Gleichgewicht)
+ - [Säuren und Basen](S%C3%A4uren%20und%20Basen.md)
+ - [Oxidation und Reduktion](Oxidation%20und%20Reduktion.md)
+ - [Elektrochemie](Elektrochemie.md)
  - Korrosion
 
 ## Organische Chemie (3. JG)
@@ -53,13 +53,13 @@ created: 19th August 2022
 
 
 
-# [[chemie/README|Chemie]] (RDP)
-## 1. [[Grundlagen  der Chemie|Allgemein]] und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
- - [[Elektrochemie]]
- - [[Katalyse]]
- - [[Oxidation und Reduktion]]
- - [[pH-Wert]] ([[Säuren und Basen]])
- - [[Stöchiometrie]] und [[Allgemeines Gasgesetz]]
+# [Chemie](chemie/README.md) (RDP)
+## 1. [Allgemein](Grundlagen%20%20der%20Chemie.md) und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
+ - [Elektrochemie](Elektrochemie.md)
+ - [Katalyse](Katalyse.md)
+ - [Oxidation und Reduktion](Oxidation%20und%20Reduktion.md)
+ - [pH-Wert](pH-Wert.md) ([Säuren und Basen](S%C3%A4uren%20und%20Basen.md))
+ - [Stöchiometrie](St%C3%B6chiometrie.md) und [Allgemeines Gasgesetz](Allgemeines%20Gasgesetz.md)
 
 ## 2. ~~Organische Chemie und Grundlagen lebendiger Systeme~~
  - ~~Alkohole und deren Reaktionsprodukte~~
@@ -70,14 +70,14 @@ created: 19th August 2022
  - Aminosäuren und Proteine
  
 ## 3. Klassischer und quantenmechanischer Aufbau
- - [[Chemische Bindungen]]
+ - [Chemische Bindungen](Chemische%20Bindungen.md)
  - ~~Chiralität~~
- - [[Periodensystem der Elemente|PSE]]
- - [[Spektralanalyse]]
- - [[Radioaktivität]]
+ - [PSE](Periodensystem%20der%20Elemente.md)
+ - [Spektralanalyse](Spektralanalyse.md)
+ - [Radioaktivität](Radioaktivit%C3%A4t.md)
 
 ## Struber Leaks
 ### Zusammenfassung 5c 
-![[chemie/assets/5c-matura-sum.pdf]]
+![5c-matura-sum](chemie/assets/5c-matura-sum.pdf)
 
 # Tags

@@ -9,8 +9,8 @@ created: 1st December 2022
 
 # Halbwellen Dipol
 ## Aufbau
-![[hf-technik/assets/Dipolentstehung.gif|200]]
+![200](hf-technik/assets/Dipolentstehung.gif)
 
 ## Empfang
-![[330px-Dipole_receiving_antenna_animation_6_800x394x150ms.gif|600]]
+![600](330px-Dipole_receiving_antenna_animation_6_800x394x150ms.gif)
 # Tags

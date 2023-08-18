@@ -10,28 +10,28 @@ created: 22nd November 2022
 # Colpitts Oszillator
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
-| <mark style="background: #FFB86CA6;">Colpitts:</mark> kapazitiv | <mark style="background: #FFB86CA6;">Hartley:</mark> [[Induktivitäten\|induktiv]] | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
+| <mark style="background: #FFB86CA6;">Colpitts:</mark> kapazitiv | <mark style="background: #FFB86CA6;">Hartley:</mark> [induktiv](Induktivit%C3%A4ten%5C) | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
 | --------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![[../assets/colpitts1.png]]                            | ![[Pasted image 20221128102527.png]]                                              | ![[Pasted image 20221128102551.png]]                                    |
+| ![colpitts1](../assets/colpitts1.png)                            | ![Pasted image 20221128102527](Pasted%20image%2020221128102527.png)                                              | ![Pasted image 20221128102551](Pasted%20image%2020221128102551.png)                                    |
 
-Häufigste [[Kombination]]: Colpitts Oszillator (mit kapazitiver Rückkopplung)
+Häufigste [Kombination](Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)
 Vorteil: 
 - einfache Kapazitäten
-- nur eine [[Induktivitäten|Induktivität]]
+- nur eine [Induktivität](Induktivit%C3%A4ten.md)
 Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 
 $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ## Schaltung
-![[colp-sch.png]]
+![colp-sch](colp-sch.png)
 
 ## Funktionsweise
-- [[Kollektorfolger|Emitterschaltung]]: $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
+- [Emitterschaltung](Kollektorfolger.md): $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
 - kapazitive 3-Punkt Schaltung bringt weitere $180\degree\rightarrow\sum=360\degree$
-- [[Barkhausen Kriterium]] ist erfüllt
-- [[Kollektorfolger|Emitterschaltung]] mit Basisspannungs-Teiler
+- [Barkhausen Kriterium](Barkhausen%20Kriterium.md) ist erfüllt
+- [Emitterschaltung](Kollektorfolger.md) mit Basisspannungs-Teiler
 - $R_{E}$ zur Temperaturkompensation
-- RFC ([[Rundfunk|Radio]] Frequency Choke) dt. Drosselspule
+- RFC ([Radio](Rundfunk.md) Frequency Choke) dt. Drosselspule
 	- hebt den Massebezug des Oszillatorsignal zur Betriebsspannung auf
 - Analyse der Schleifenverstärkung bringt …
 	- … einerseits $\mathcal{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
@@ -39,6 +39,6 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ## Herleitung
 ### Kapazitive 3-Punktschaltung
-Ein Teil der [[Schwingkreise|Schwingkreis]] Spannung muss phasenrichtig rückgekoppelt werden.
-![[Pasted image 20221128104351.png|500]]
-![[Pasted image 20221128104421.png]]
+Ein Teil der [Schwingkreis](Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
+![500](Pasted%20image%2020221128104351.png)
+![Pasted image 20221128104421](Pasted%20image%2020221128104421.png)

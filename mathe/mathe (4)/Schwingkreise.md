@@ -6,22 +6,22 @@ subject: ["mathe", "hwe", "physik"]
 
 # Schwingungen
 
-## Zusammenhang mit [[{MOC} DGL|Differentialgleichgungen]]
+## Zusammenhang mit [Differentialgleichgungen](%7BMOC%7D%20DGL.md)
 
 Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.
 Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
 
-Die Komponenten einer Schwingung in der [[lineare DGL 2. Ordnung|lineare DGL zweiter Ordnung]] sind wie folgt:
-1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [[lineare DGL 2. Ordnung|homogenen Lösung der DGL 2. Ordnung]] 
+Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wie folgt:
+1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [homogenen Lösung der DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) 
 	$\rightarrow y_{h}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = 0$
-2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [[lineare DGL 2. Ordnung#Lösung der inhomogenen DGL 2 Ordnung|der inhomogenen DGL 2. Ordnung]]
+2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [](lineare%20DGL%202.%20Ordnung.md#L%C3%B6sung%20der%20inhomogenen%20DGL%202%20Ordnung%7Cder%20inhomogenen%20DGL%202.%20Ordnung)
 	$\rightarrow y_{p}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = s(x)$
 
 > [!summary] Die Funktion der Gesamten Schwingung ist somit:
 > $y(t) = y_{p}(t) + y_{h}(t)$
 
 ## Mechanischer Schwingkreis
-> ![[m_schwingk.png|400]]
+> ![400](m_schwingk.png)
 $$
 \begin{align*}
 	F_{feder} &= -k\cdot y & F_{a} &= F_{feder} + F_{reibung}\\
@@ -37,10 +37,10 @@ $$
 | $d$      | Dämpfungskonstante |
 | $k$      | Federkonstante     |
 
-Man kommt durch umformen auf die finale lineare homogene [[lineare DGL 2. Ordnung|Differentialgleichung 2. Ordnung]]: 
+Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md): 
 $\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y = 0$
 
-Daraus ergibt sich durch die [[lineare DGL 2. Ordnung#Lösung der homogenen DGL 2 Ordnung|charakteristische Gleichung]] folgende Formel für $\lambda$:
+Daraus ergibt sich durch die [](lineare%20DGL%202.%20Ordnung.md#L%C3%B6sung%20der%20homogenen%20DGL%202%20Ordnung%7Ccharakteristische%20Gleichung) folgende Formel für $\lambda$:
 $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 ### Bezeichnungen
@@ -51,13 +51,13 @@ $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 
 ## Freie Schwingungen im realen Serienschwingkreis
-Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [[Dämpfung]] oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
+Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](D%C3%A4mpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
-> ![[e_serien_schwingk_frei.png|400]]
+> ![400](e_serien_schwingk_frei.png)
 
-Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eingenschaften der Bauteile eine [[lineare DGL 2. Ordnung|Differentialgleichung 2. Ordnung]] hergeleitet.
+Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eingenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
-| Einfluss der [[Impedanz\|Spule]] | Einfluss des [[Impedanz\|Kondensator]]       | Einfluss des [[Impedanz\|Widerstand]] |
+| Einfluss der [Spule](Impedanz%5C) | Einfluss des [Kondensator](Impedanz%5C)       | Einfluss des [Widerstand](Impedanz%5C) |
 | -------------------------------- | -------------------------------------------- | ------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$   | $u_{C}(0) = U_{0}$                           | $u_{R}=i(t)\cdot R$                   |
 |                                  | $q(t)=C\cdot u_{C}(t)$                       |                                       |
@@ -91,7 +91,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [[{MOC} DGL|DGL]] die [[lineare DGL 2. Ordnung#Lösung der homogenen DGL 2 Ordnung|charakteristische Gleichung]] erzeugen
+Nun kann man aus einer der [DGL](%7BMOC%7D%20DGL.md) die [](lineare%20DGL%202.%20Ordnung.md#L%C3%B6sung%20der%20homogenen%20DGL%202%20Ordnung%7Ccharakteristische%20Gleichung) erzeugen
 $$
 \begin{align*}
 	\lambda^{2}+ \underbrace{\frac{R}{L}}_{2\delta}\lambda + \underbrace{\frac{1}{LC}}_{\omega_{0}^{2}} &= 0\\	
@@ -109,24 +109,24 @@ $$
 ### Lösung der Gleichung
 $\lambda_{1} = -\delta+\sqrt{\delta^{2}-\omega^{2}_{0}}$
 
-die 3. Fälle der [[lineare DGL 2. Ordnung|DGL 2. Ordnung]] sind wiefolgt
+die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolgt
 
 | Fall                                                                                    |      Bedingung      | Bezeichnung                                                                      |
 | --------------------------------------------------------------------------------------- |:-------------------:| -------------------------------------------------------------------------------- |
-| [[lineare DGL 2. Ordnung#1 Fall Eindeutige Lösung\|1. Fall]]                            | $\delta>\omega_{0}$ | Kriechfall                                                                       |
-| [[lineare DGL 2. Ordnung#2 Fall Doppellösung\|2. Fall]]                                 | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
-| [[lineare DGL 2. Ordnung#3 Fall konjugiert Komplexe Zahlen komplexe Lösungen\|3. Fall]] | $\delta<\omega_{0}$ | Schwingfall                                                                      |
+| [](lineare%20DGL%202.%20Ordnung.md#1%20Fall%20Eindeutige%20L%C3%B6sung%5C%7C1.%20Fall)                            | $\delta>\omega_{0}$ | Kriechfall                                                                       |
+| [](lineare%20DGL%202.%20Ordnung.md#2%20Fall%20Doppell%C3%B6sung%5C%7C2.%20Fall)                                 | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
+| [](lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20L%C3%B6sungen%5C%7C3.%20Fall) | $\delta<\omega_{0}$ | Schwingfall                                                                      |
 
 
->![[faelle_e_sk.png|400]]
->![[Federpendel_verschiedene_Dämpfungen.gif]]
+>![400](faelle_e_sk.png)
+>![Federpendel_verschiedene_Dämpfungen](Federpendel_verschiedene_D%C3%A4mpfungen.gif)
 
 ## Erzwungene Schwingung im realen Serienschwingkreis
->![[e_serien_schwingk_erzw.png|400]]
+>![400](e_serien_schwingk_erzw.png)
 
 Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige [Spannung](https://de.wikipedia.org/wiki/Ohmsches_Gesetz) $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
-| Einfluss der [[Impedanz\|Spule]] | Einfluss des [[Impedanz\|Kondensators]]      | Einfluss des [[Impedanz\|Widerstands]] |
+| Einfluss der [Spule](Impedanz%5C) | Einfluss des [Kondensators](Impedanz%5C)      | Einfluss des [Widerstands](Impedanz%5C) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$   | $i(t)=C\cdot\frac{du_{c}}{dt}$               | $u_{R}=i(t)\cdot R$                    |
 |                                  | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |
@@ -149,14 +149,14 @@ $$
 }}
 $$
 
-Mit dem Auflösen der [[Kirchhoffsche Regeln#Maschen Regel|Masche]] ergibt sich eine [[lineare DGL 2. Ordnung#Lösung der inhomogenen DGL 2 Ordnung mit Störterm|lineare inhomogene DGL 2. Ordnung mit konstanten koeffizienten]]$(R,L,C)$.
+Mit dem Auflösen der [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) ergibt sich eine [](lineare%20DGL%202.%20Ordnung.md#L%C3%B6sung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20St%C3%B6rterm%7Clineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
 
 ### Bestimmung der Amplituden-Phasen-Form
 Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\cdot \sin(\omega\cdot t+\varphi)$ und beschreibt nur die Funktion nach dem Einschwingvorgang.
 
 ``` ad-example
 Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
-![[e_serien_schwingk_erzw.png|300]]
+![300](e_serien_schwingk_erzw.png)
 Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$
 Um den eingeschwungenen Zustand zu definieren, wird zunächst  $u_{h}$ - die homogene Lösung - ignoriert.
 $$
@@ -164,7 +164,7 @@ $$
 $$
 
 
-Die [[lineare DGL 2. Ordnung\|partikuläre Lösung]] wird daher ermittelt:
+Die [partikuläre Lösung](lineare%20DGL%202.%20Ordnung%5C) wird daher ermittelt:
 $$
 \begin{align*}
 	u_{cp} &= a\cdot\sin(\omega t)+b\cdot\cos(\omega t)\\
@@ -222,7 +222,7 @@ $$
 \end{align*}
 $$
 ```ad-note
-Das [[{MOC} Kurvendiskussion\|globale Minimum]] wird durch das Null setzen der [[Differenzialrechnung\|ersten Ableitung]] ermittelt.
+Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion%5C) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung%5C) ermittelt.
 ```
 
 $$
@@ -240,12 +240,12 @@ $$
 	D = \frac{\delta}{\omega_{0}} &\dots\text{Dämpfungsgrad}
 \end{align*}
 $$
- >![[frequ_gang_e_serien_schwingk.png|700]]
+ >![700](frequ_gang_e_serien_schwingk.png)
 
 ## Freie Schwingung im realen Parallelschwingkreis
-![[Pasted image 20221201122606.png]]
+![Pasted image 20221201122606](Pasted%20image%2020221201122606.png)
 # Hardware Implementationen
-- [[LC Oszillatoren]]
-- [[Colpitts Oszillator]]
+- [LC Oszillatoren](LC%20Oszillatoren.md)
+- [Colpitts Oszillator](Colpitts%20Oszillator.md)
 
 # Tags

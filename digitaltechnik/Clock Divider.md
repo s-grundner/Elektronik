@@ -7,14 +7,14 @@ reference: []
 created: 24th January 2023
 ---
 
-# [[Clock Generierung|Clock]] Divider
+# [Clock](Clock%20Generierung.md) Divider
 Zweier Potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
 
 ## Geradzahlig 
-![[c-div-2.png]]
-1. [[Clock Tree Balancing|Clock-Tree-Balancing]] (Kompensierung der Phasenverschiebung)
+![c-div-2](c-div-2.png)
+1. [Clock-Tree-Balancing](Clock%20Tree%20Balancing.md) (Kompensierung der Phasenverschiebung)
 
 ## Ungeradzahlig
-![[c-div3.png|1150]]
+![1150](c-div3.png)
 >[!warning] Unsymmetrscher Takt $(DC\neq 50\%)$
 # Tags

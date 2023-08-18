@@ -12,4 +12,4 @@ created: 6th September 2022
 
 ---
 # Quellen
-![[spectrum_20090210.pdf]]
+![spectrum_20090210](spectrum_20090210.pdf)

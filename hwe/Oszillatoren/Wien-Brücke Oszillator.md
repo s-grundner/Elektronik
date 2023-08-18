@@ -9,11 +9,11 @@ created: 7th November 2022
 
 # Wien-Brücke Oszillator
 - $kHz-MHz$ Bereich
-- geringer [[Klirrfaktor]]
-- breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[[Kapazität|Kondensator]]. 
+- geringer [Klirrfaktor](Klirrfaktor.md)
+- breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[Kondensator](Kapazit%C3%A4t.md). 
 
 ## Schaltung
-![[assets/WB.png|1000]]
+![1000](assets/WB.png)
 
 > [!summary] 
 > Resonanzfrequenz: $\omega_{0}=\dfrac{1}{RC}$
@@ -41,7 +41,7 @@ k= \dfrac{U_{a}}{U_{e}} &= \frac{\frac{1}{Y}}{Z+ \frac{1}{Y}}= \frac{1}{1+Z\cdot
 \end{align*}
 $$
 
->[!hint] [[Barkhausen Kriterium]]
+>[!hint] [Barkhausen Kriterium](Barkhausen%20Kriterium.md)
 > $k\cdot v = 1$
 > $v = v_{0}= \dfrac{1}{k}=3+j\left(\omega\uptau- \dfrac{1}{\omega\uptau}\right)$
 > für Resonanz $\rightarrow \mathcal{Im}\{v_{0}\}=0$

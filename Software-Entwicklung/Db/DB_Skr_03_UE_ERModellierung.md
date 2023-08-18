@@ -1,4 +1,4 @@
-# 3 Entity-Relationship-Modell ([[DB_Skr_03_ERModellierung|ERM]]) - Übungen
+# 3 Entity-Relationship-Modell ([ERM](DB_Skr_03_ERModellierung.md)) - Übungen
 
 ## Kurse
 
@@ -10,7 +10,7 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 
 ```ad-success
 title: Lösung
-![[htbluva_sbg_fsst/Db/Untitled Diagram.svg]]
+![htbluva_sbg_fsst/Db/Untitled Diagram.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram.svg)
 ```
 
 ## Projektdatenbank
@@ -24,7 +24,7 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 
 ``` ad-success
 title: Lösung
-![[htbluva_sbg_fsst/Db/Untitled Diagram 1.svg]]
+![htbluva_sbg_fsst/Db/Untitled Diagram 1.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%201.svg)
 ```
 
 ## Kardinalitäten
@@ -102,7 +102,7 @@ Variante:
 
 ```ad-success
 title: Lösung
-![[htbluva_sbg_fsst/Db/Untitled Diagram 2.svg]]
+![htbluva_sbg_fsst/Db/Untitled Diagram 2.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%202.svg)
 ```
 
 ## Uni-Verwaltungssystem
@@ -126,7 +126,7 @@ title: Lösung
 
 ```ad-success
 title: Lösung
-![[htbluva_sbg_fsst/Db/Untitled Diagram 3.svg]]
+![htbluva_sbg_fsst/Db/Untitled Diagram 3.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%203.svg)
 ```
 
 ## Schule

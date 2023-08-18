@@ -9,29 +9,29 @@ created: 8th June 2022
 
 # Boost Converter
 ## Schaltung
-![[Boostconverter.svg]]
+![Boostconverter](Boostconverter.svg)
 
 $$
 U_{a}\approx U_{e} \cdot \frac{1}{1-DC}
 $$
-Während der Einschaltphase des [[{MOC} Transistor|Transistors]] $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.
-Schaltet der [[{MOC} Transistor|Transistor]] $(T)$ ab, so fließt der Strom $I_{L}$ über die Diode (D) weiter und lädt den [[Kapazität|Kondensator]] $C_{a}$.
+Während der Einschaltphase des [Transistors](%7BMOC%7D%20Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.
+Schaltet der [Transistor](%7BMOC%7D%20Transistor.md) $(T)$ ab, so fließt der Strom $I_{L}$ über die Diode (D) weiter und lädt den [Kondensator](Kapazit%C3%A4t.md) $C_{a}$.
 
 ## Impuls-Zeit Diagramm
-> ![[boost_converter_IZdiag.svg|425]]
+> ![425](boost_converter_IZdiag.svg)
 
-## Schalter $S$ bzw. [[{MOC} Transistor|Transistor]] $T$
+## Schalter $S$ bzw. [Transistor](%7BMOC%7D%20Transistor.md) $T$
 ### $0<t<t_{1}$: $S_{geschlossen}$
-Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [[Induktivitäten|Spule]].
- - Dabei *speichert die [[Induktivitäten|Spule]] Energie*.
+Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](Induktivit%C3%A4ten.md).
+ - Dabei *speichert die [Spule](Induktivit%C3%A4ten.md) Energie*.
  - Die Diode sperrt in dieser Zeit.
- - Der [[Kapazität|Kondensator]] $C_{A}$ liefert den Strom für den Verbraucher.
+ - Der [Kondensator](Kapazit%C3%A4t.md) $C_{A}$ liefert den Strom für den Verbraucher.
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
-Nach dem öffnen von $S$ $(T)$ treibt die [[Induktivitäten|Spule]], aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, Diode.
+Nach dem öffnen von $S$ $(T)$ treibt die [Spule](Induktivit%C3%A4ten.md), aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, Diode.
 
-Ein Teil der in der [[Induktivitäten|Spule]] gespeicherten Energie, wird in der Sperrphase auf den [[Kapazität|Kondensator]] übertragen.
-$\rightarrow$ **[[Sperrwandler]]**, Da die [[Induktivitäten|Spule]] dem [[Kapazität|Kondensator]] nur in dieser Phase Strom liefert.
+Ein Teil der in der [Spule](Induktivit%C3%A4ten.md) gespeicherten Energie, wird in der Sperrphase auf den [Kondensator](Kapazit%C3%A4t.md) übertragen.
+$\rightarrow$ **[Sperrwandler](Sperrwandler.md)**, Da die [Spule](Induktivit%C3%A4ten.md) dem [Kondensator](Kapazit%C3%A4t.md) nur in dieser Phase Strom liefert.
 
 ### Herleitung der Dimensionierung
 #### $0<t<t_{1}$: $S_{geschlossen}$
@@ -64,16 +64,16 @@ $$
 $t_{aus}= T_{S} - t_{1}$
 $DC = \frac{t_{ein}}{T_{S}}$
 $1-DC = \frac{t_{aus}}{T_{S}}$
-## [[Induktivitäten|Induktivität]]
+## [Induktivität](Induktivit%C3%A4ten.md)
 Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
->![[BuckBoostDisconID.png]]
+>![BuckBoostDisconID](BuckBoostDisconID.png)
 >$\overline{I_{D}} = I_{a,min}$
 ><mark style="background: #FFB86CA6;">$A_{+}$</mark> = <mark style="background: #ADCCFFA6;">$A_{-}$</mark> (Fläche zwischen dem Stromverlauf von $\Delta I_{L}$ und $I_{a,min}$)
 
->![[../assets/BoostIminLmin.png]]
+>![BoostIminLmin](../assets/BoostIminLmin.png)
 
-## [[Kapazität]]
->![[BuckBoostDisconID.png]]
+## [Kapazität](Kapazit%C3%A4t.md)
+>![BuckBoostDisconID](BuckBoostDisconID.png)
 > <mark style="background: #FF5582A6;">$I_{a,min}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
 
 $Q=C\cdot U$
@@ -83,4 +83,4 @@ $C_{min}= \dfrac{\Delta Q}{\Delta U_{a}} = \dfrac{I_{a,max}-T_{S}}{\Delta U_{a}}
 
 ---
 # Tags
-![[Schaltnetzteile_Schmidt-Walter.pdf]]
+![Schaltnetzteile_Schmidt-Walter](Schaltnetzteile_Schmidt-Walter.pdf)

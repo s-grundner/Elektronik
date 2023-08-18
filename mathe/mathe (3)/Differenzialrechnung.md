@@ -22,5 +22,5 @@ last_edited: 6th April 2022
 
 ---
 # Tags
-## [[L'Hospital]]
-## [[Linearisieren]]
+## [L'Hospital](L'Hospital.md)
+## [Linearisieren](Linearisieren)

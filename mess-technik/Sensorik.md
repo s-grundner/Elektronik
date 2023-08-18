@@ -15,12 +15,12 @@ Der Einzugsbereich der technischen „Sensorik“ wird im deutschsprachigen Raum
 
 Gemeinsam ist der technischen Sensorik, dass sie technische Produkte behandelt, die in der Regel nichtelektrische [Messgrößen](https://de.wikipedia.org/wiki/Messgr%C3%B6%C3%9Fe "Messgröße") in [elektrische Signale](https://de.wikipedia.org/wiki/Elektrisches_Signal "Elektrisches Signal") umwandeln. In vielen Fällen kommen dabei die sogenannten [Einheitssignale](https://de.wikipedia.org/wiki/Einheitssignal "Einheitssignal"), oder in letzter Zeit immer häufiger [Feldbusse](https://de.wikipedia.org/wiki/Feldbus "Feldbus") zur Anwendung.
 # Sensor Elemente
-## [[Magnetometer]]
-## [[Thermometer]]
+## [Magnetometer](Magnetometer.md)
+## [Thermometer](Thermometer.md)
 
-## [[Piezoelektrik]]
-## [[Drehzahlmessung]]
+## [Piezoelektrik](Piezoelektrik.md)
+## [Drehzahlmessung](Drehzahlmessung.md)
 ---
 # Tags
-[[Aktorik]]
-![[mess-technik/assets/MTRS23_02a_Sensorik.pdf]]
+[Aktorik](Aktorik.md)
+![MTRS23_02a_Sensorik](mess-technik/assets/MTRS23_02a_Sensorik.pdf)

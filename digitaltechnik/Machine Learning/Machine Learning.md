@@ -47,13 +47,13 @@ $$
 \end{pmatrix}
 $$
 
-## [[Lineare Regression]]
+## [Lineare Regression](Lineare%20Regression.md)
 
-![[../assets/Overfit.png]]
+![Overfit](../assets/Overfit.png)
 Hochgradige Kostenfunktion (nicht konvex)
 man findet das Globale minimum sehr schwer
 
-## [[Logistische Regression|Logistische Regression]]
+## [Logistische Regression](Logistische%20Regression.md)
 ```functionplot
 ---
 title: Konvexe Kostenfunktion
@@ -128,13 +128,13 @@ J = sum(E.^2);
 # Quellen
 
 >[!info] Teststoff
-> ### [[Regression]]
+> ### [Regression](Regression)
 >anhand von datenpunkten einen $y$ wert ausrechenn
 >Kosten $J$ aurechnen
 >Neue $\theta$ Ausrechnen
 >### Klassifiziereung
 >entscheidungsgrenze einzeichnen durch Thata (geradengleichung)
->Bei einem neuen punkt die [[Wahrscheinlichkeit|WSK]] ausrechnen, ob der neue punkt in der Klasse y=1 ist
+>Bei einem neuen punkt die [WSK](Wahrscheinlichkeit.md) ausrechnen, ob der neue punkt in der Klasse y=1 ist
 >Kosten $J$ Ausrechnen
 >Kein Neues $\theta$
 >Als mtrixmultiplikation und mit normaler Algebra ausrechnen

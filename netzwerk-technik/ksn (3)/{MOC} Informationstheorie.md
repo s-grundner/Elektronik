@@ -6,9 +6,9 @@ source: ["Martin Aichriedler"]
 ---
 
 # Map of Content - Informationstheorie
-## [[Entscheidungsgehalt]] $H_{0}$
-## [[Informationsgehalt & Entropie|Informationsgehalt]] $I_{x}$
-## [[Informationsgehalt & Entropie|Entropie]] $H$
-## [[Informationsfluss]] $F$
-## [[Kanalkapazität]] $C$
-## [[Redundanz]] $R$
+## [Entscheidungsgehalt](Entscheidungsgehalt.md) $H_{0}$
+## [Informationsgehalt](Informationsgehalt%20&%20Entropie.md) $I_{x}$
+## [Entropie](Informationsgehalt%20&%20Entropie.md) $H$
+## [Informationsfluss](Informationsfluss.md) $F$
+## [Kanalkapazität](Kanalkapazit%C3%A4t.md) $C$
+## [Redundanz](Redundanz.md) $R$

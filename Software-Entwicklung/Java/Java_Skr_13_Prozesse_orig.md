@@ -119,7 +119,7 @@ synchronized {this}			// this = monitor
 
 ## Runnable
 
-Soll eine abgeleitete Klasse in einem eigenem Thread laufen, dann kann sie nicht auch von der Klasse Thread abgeleitet werden. Abhilfe schaft die Runnable-[[{MOC} Schnittstellen|Schnittstelle]]. Sie schreibt nur eine run() Methode vor:
+Soll eine abgeleitete Klasse in einem eigenem Thread laufen, dann kann sie nicht auch von der Klasse Thread abgeleitet werden. Abhilfe schaft die Runnable-[Schnittstelle](%7BMOC%7D%20Schnittstellen.md). Sie schreibt nur eine run() Methode vor:
 
 ```java
 public class DateCommand implements Runnable {	// impl. die Schnittst. Runnable
@@ -130,7 +130,7 @@ public class DateCommand implements Runnable {	// impl. die Schnittst. Runnable
 }
 ```
 
-Die run-Methode wird automatisch gestartet, wenn ein Objekt mit der Runnable-[[{MOC} Schnittstellen|Schnittstelle]] als Thread gestartet wird:
+Die run-Methode wird automatisch gestartet, wenn ein Objekt mit der Runnable-[Schnittstelle](%7BMOC%7D%20Schnittstellen.md) als Thread gestartet wird:
 
 ```java
 Thread t1 = new Thread( new DateCommand() );

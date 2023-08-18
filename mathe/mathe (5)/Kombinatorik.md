@@ -8,7 +8,7 @@ created: 24th October 2022
 ---
 
 # Kombinatorik
-![[Kombinatorik-formeln.PNG|700]]
+![700](Kombinatorik-formeln.PNG)
 ## Produktregel
 Vorgang in $k$ Schritten
 1. Schritt hat $n_{1}$ Möglichkeiten
@@ -18,15 +18,15 @@ Vorgang in $k$ Schritten
 Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 
 ## Alle Elemente $n$
-[[Permutation]]
+[Permutation](Permutation.md)
 
 ## Stichprobe $k$ aus $n$ 
-[[Variation]]
-[[Kombination]]
+[Variation](Variation.md)
+[Kombination](Kombination.md)
 
 # Tags
 ## Timischl/Kaiser [Übungen](https://a.digi4school.at/ebook/5011/?page=164)
-- [[UE-Kombinatorik.pdf]]
+- [UE-Kombinatorik](UE-Kombinatorik.pdf)
 ## Übungsaufgaben
-- [[Kombinatorik.pdf]]
-- [[UEZ-Kombinatorik.pdf]] 
+- [Kombinatorik](Kombinatorik.pdf)
+- [UEZ-Kombinatorik](UEZ-Kombinatorik.pdf) 

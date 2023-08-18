@@ -30,7 +30,7 @@ Fragen die vorab überlegt werden müssen (Expertenwissen)
 
 ```ad-success
 title: Lösung
-![[Pasted image 20221123110050.png]]
+![Pasted image 20221123110050](Pasted%20image%2020221123110050.png)
 ```
 
 ## CD-Lieder

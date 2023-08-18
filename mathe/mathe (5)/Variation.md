@@ -8,8 +8,8 @@ created: 4th January 2023
 ---
 
 # Variation
-Eine *Variation* oder *geordnete Stichprobe* ist in der [[Kombinatorik]] eine Auswahl von Objekten aus einer Menge in einer bestimmten Reihenfolge.
-- Die Menge muss nicht die [[Grundmenge]] sein.
+Eine *Variation* oder *geordnete Stichprobe* ist in der [Kombinatorik](Kombinatorik.md) eine Auswahl von Objekten aus einer Menge in einer bestimmten Reihenfolge.
+- Die Menge muss nicht die [Grundmenge](Grundmenge.md) sein.
 ## ohne Wiederholung
 Darf jedes Objekt nur einmal auftreten, spricht man von einer **Variation ohne Wiederholung**.
 

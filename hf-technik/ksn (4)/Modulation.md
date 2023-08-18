@@ -9,8 +9,8 @@ created: 23rd November 2022
 ---
 
 # Modulation
-- [[Amplitudenmodulation]]
+- [Amplitudenmodulation](Amplitudenmodulation.md)
 - Quadratur Amplituden Modulation
-- [[Frequenzmodulation]]
+- [Frequenzmodulation](Frequenzmodulation.md)
 
 # Quellen

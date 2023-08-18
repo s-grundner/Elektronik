@@ -7,10 +7,10 @@ reference: []
 created: 2nd October 2022
 ---
 
-# Primär getakteter [[Schaltnetzteil|Schaltregler]]
-![[../../assets/PrimGetaktSMPS.png]]
+# Primär getakteter [Schaltregler](Schaltnetzteil.md)
+![PrimGetaktSMPS](../../assets/PrimGetaktSMPS.png)
 ## Eigenschaften
-### Nachteile gegenüber [[Sekundär getaktete Schaltregler]]
+### Nachteile gegenüber [Sekundär getaktete Schaltregler](Sekund%C3%A4r%20getaktete%20Schaltregler.md)
 - Potenzialtrennung in der Ansteuerlogik
 - relativ hohe Welligkeit in $U_{a}$
 - Anforderungen der Bauelemente hoch
@@ -25,8 +25,8 @@ created: 2nd October 2022
 ### Übertrager
 - Ferritkern
 - Speichertransformator
-- geringer [[Streuparameter|Streuverlust]] (Streuverlust verursacht Selbstinduktion)
->![[Trafo-Streuung.png|325]]
+- geringer [Streuverlust](Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
+>![325](Trafo-Streuung.png)
 ### Glättungskondensator
 - Low ESR (Equivalent Series Resistance)
 - Low ESL (Equivalent Series Inductance)
@@ -34,14 +34,14 @@ created: 2nd October 2022
 ### Layout
 - Hohe Frequenzen
 - Hohe Ströme
-- [[Elektromagnetische Verträglichkeit|EMV]] gerechter Aufbau
-- [[Elektromagnetische Verträglichkeit|EMV]] Filter
+- [EMV](Elektromagnetische%20Vertr%C3%A4glichkeit.md) gerechter Aufbau
+- [EMV](Elektromagnetische%20Vertr%C3%A4glichkeit.md) Filter
 - kurze Leitungsführung
 
 # Typen
-[[Sperrwandler]]
+[Sperrwandler](Sperrwandler.md)
 
 ---
 # Tags
-![[SMPS_intro.pdf]]
-![[Schaltnetzteile_Schmidt-Walter.pdf]]
+![SMPS_intro](SMPS_intro.pdf)
+![Schaltnetzteile_Schmidt-Walter](Schaltnetzteile_Schmidt-Walter.pdf)

@@ -8,9 +8,9 @@ created: 11th May 2022
 ---
 
 # Voltage-Mode-Regelung
-![[hwe/assets/Untitled Diagram 3.svg]] #incomplete 
+![Untitled Diagram 3](hwe/assets/Untitled%20Diagram%203.svg) #incomplete 
 $U_{a}$ wird über einen Spannungsteiler wird über einen 
-Der Impulsbreitenmodulator wandelt die Ausgansspannung $U_{R}$ des [[PI-Regler]] in eine Pulsweitenmodulierte Spannung $U_{st}$ um.
+Der Impulsbreitenmodulator wandelt die Ausgansspannung $U_{R}$ des [PI-Regler](PI-Regler.md) in eine Pulsweitenmodulierte Spannung $U_{st}$ um.
 
 ## Regelmechanismus
 - $U_{a}$ zu klein, $U_{a}' < U_{ref}$
@@ -18,9 +18,9 @@ Der Impulsbreitenmodulator wandelt die Ausgansspannung $U_{R}$ des [[PI-Regler]]
 - das Tastverhältnis steigt und $U_{a}$ steigt
 
 > [!tip] Tip
-> Der Regelverstärker (error amplifier) ist in der Fachliteratur als [[Transkonduktanzverstärker]] Angeführt.
+> Der Regelverstärker (error amplifier) ist in der Fachliteratur als [Transkonduktanzverstärker](Transkonduktanzverst%C3%A4rker.md) Angeführt.
 > Dieser liefert einen Ausgangsstrom proportional zur Spannung $U_{d}$.
-> Die $RC$ Kombination ($C_{1}$, $R_{4}$) wird in diesem Fall zwischen [[Operations-Verstärker|OPV]] Ausgang und Masse angeschlossen.
+> Die $RC$ Kombination ($C_{1}$, $R_{4}$) wird in diesem Fall zwischen [OPV](Operations-Verst%C3%A4rker.md) Ausgang und Masse angeschlossen.
  
 
 ---

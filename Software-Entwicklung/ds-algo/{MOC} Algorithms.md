@@ -9,8 +9,8 @@ last_edited: 19th April 2022
 ---
 # Map of Content - Algorithms
 ## Search
-### [[Linear Search]]
-### [[Binary Search]]
+### [Linear Search](Linear%20Search.md)
+### [Binary Search](Binary%20Search.md)
 ## Sort
 ### Topological Sort
 ### Quick Sort

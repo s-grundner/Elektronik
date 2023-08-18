@@ -9,34 +9,34 @@ created: 21st June 2022
 
 # Rundfunk
 Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.
-![[../assets/RadioBands.png|500]]
+![500](../assets/RadioBands.png)
 
 ## Radiowellen
-### [[Elektromagnetische Wellen]]
+### [Elektromagnetische Wellen](Elektromagnetische%20Wellen.md)
 Die Funkbänder im Rundfunkspektrum:
-![[EM-Spektrum_Funk.png]]
+![EM-Spektrum_Funk](EM-Spektrum_Funk.png)
 
 ### Fortbewegung der Funkwelle
-Eine Radiowelle ist eine [[Elektromagnetische Wellen|EM-Welle]] und benötigt somit kein Medium, um sich Fortbewegen zu können. 
-![[Raum-Bodenwelle.png|475]]
+Eine Radiowelle ist eine [EM-Welle](Elektromagnetische%20Wellen.md) und benötigt somit kein Medium, um sich Fortbewegen zu können. 
+![475](Raum-Bodenwelle.png)
 ### Energie der Welle
-[[Elektromagnetische Wellen|EM-Wellen]] Transportieren Energie
+[EM-Wellen](Elektromagnetische%20Wellen.md) Transportieren Energie
 $E=h\cdot f$ 
 
 ## Vom Sprachsignal zur Funkwelle
-Durch **[[Modulation]]** wird ein Niederfrequentes Sprachsignal auf ein Hochfrequentes Trägersignal aufgemischt.
-Somit kann das Sprachsignal die Eigenschaften einer HF-[[Elektromagnetische Wellen|EM-Welle]] annehmen und zur Übertragung verwendet werden. 
+Durch **[Modulation](Modulation.md)** wird ein Niederfrequentes Sprachsignal auf ein Hochfrequentes Trägersignal aufgemischt.
+Somit kann das Sprachsignal die Eigenschaften einer HF-[EM-Welle](Elektromagnetische%20Wellen.md) annehmen und zur Übertragung verwendet werden. 
 Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 
-- Verschieden Arten von [[Modulation]]
-- Eine [[Antenne]] 
+- Verschieden Arten von [Modulation](Modulation.md)
+- Eine [Antenne](Antenne.md) 
 
 
 # Tags
->[!info] Fragen zur [[{MOT} Matura|Matura]]
+>[!info] Fragen zur [Matura](%7BMOT%7D%20Matura.md)
 > - EM-Spektrum – Frequenzbereich von Radiowellen
->- FM4 – 104 MHz, so ist das im Spektrum der [[Elektromagnetische Wellen|EM-Wellen]] einzuordnen
-> - Zusammenhang: Frequenz, Wellenlänge, [[Antenne]], Sender - [[Schwingkreise\|Schwingkreis]]
+>- FM4 – 104 MHz, so ist das im Spektrum der [EM-Wellen](Elektromagnetische%20Wellen.md) einzuordnen
+> - Zusammenhang: Frequenz, Wellenlänge, [Antenne](Antenne.md), Sender - [Schwingkreis](Schwingkreise%5C)
 > - Energie, Energieübertragung durch Wellen
 > - Kodierung / Dekodierung, Mikrophon, Lautsprecher Fernsehen – schätze ab wie viele Informationen pro Sekunde gesendet werden müssen:
 >	- Du willst mit deinem Freund mit dem Handy telefonieren – was muss da alles geschehen und funktionieren….
@@ -44,6 +44,6 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 > - Was transportieren Wellen? - Energie
 > - Was ist notwendig, damit Wellen Information transportieren können. - Kodierung
 
-![[Rundfunk.pdf]]
+![Rundfunk](Rundfunk.pdf)
 ```
-![[spectrum_20090210.pdf]]
+![spectrum_20090210](spectrum_20090210.pdf)

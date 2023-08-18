@@ -11,12 +11,12 @@ created: 17th October 2022
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
 > [!note] Blockschaltbild eines komplexen Taktsystems
-> ![[komplex-dto.png]]
-> - [[Pierce-Gate Oszillator|PGO]]
-> - [[Phase Locked Loop|PLL]]
-> - [[Discrete Time Oscillator|DTO]]
-> - [[Clock Divider]]
-> - [[Clock Tree Balancing]]
+> ![komplex-dto](komplex-dto.png)
+> - [PGO](Pierce-Gate%20Oszillator.md)
+> - [PLL](Phase%20Locked%20Loop.md)
+> - [DTO](Discrete%20Time%20Oscillator.md)
+> - [Clock Divider](Clock%20Divider.md)
+> - [Clock Tree Balancing](Clock%20Tree%20Balancing.md)
 
 ## Klassifizierung von Oszillatoren
 - Nach Art der Schwingungserzeugung
@@ -26,27 +26,27 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 
 ## Typen
 ### Analog
-- [[NE555]]
+- [NE555](NE555.md)
 - RC Oszillatoren:
-	- [[Wien-Brücke Oszillator]]
-	- [[Phasenschieber Oszillator]]
-- [[LC Oszillatoren]]
-	- [[LC Oszillatoren#Serien Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Serien Schwingkreis]]
-	- [[LC Oszillatoren#Parallel Schwingkreise Schwingkreis mit Operations-Verstärker OPV|Parallel Schwingkreis]]
-	- [[Colpitts Oszillator]]
-- [[Relaxationsoszillator]]
-- [[Kippschaltungen]]
-- [[Quarzoszillator]]
-- [[Pierce-Gate Oszillator]]
-- [[Phase Locked Loop]]
+	- [Wien-Brücke Oszillator](Wien-Br%C3%BCcke%20Oszillator.md)
+	- [Phasenschieber Oszillator](Phasenschieber%20Oszillator.md)
+- [LC Oszillatoren](LC%20Oszillatoren.md)
+	- [](LC%20Oszillatoren.md#Serien%20Schwingkreise%20Schwingkreis%20mit%20Operations-Verst%C3%A4rker%20OPV%7CSerien%20Schwingkreis)
+	- [](LC%20Oszillatoren.md#Parallel%20Schwingkreise%20Schwingkreis%20mit%20Operations-Verst%C3%A4rker%20OPV%7CParallel%20Schwingkreis)
+	- [Colpitts Oszillator](Colpitts%20Oszillator.md)
+- [Relaxationsoszillator](Relaxationsoszillator.md)
+- [Kippschaltungen](Kippschaltungen.md)
+- [Quarzoszillator](Quarzoszillator.md)
+- [Pierce-Gate Oszillator](Pierce-Gate%20Oszillator.md)
+- [Phase Locked Loop](Phase%20Locked%20Loop.md)
 
 ### Digital
-- [[Discrete Time Oscillator]]
+- [Discrete Time Oscillator](Discrete%20Time%20Oscillator.md)
 
 
 # Tags
-[[Barkhausen Kriterium]]
-[[Reset Generierung]]
-[[Klirrfaktor]]
+[Barkhausen Kriterium](Barkhausen%20Kriterium.md)
+[Reset Generierung](Reset%20Generierung.md)
+[Klirrfaktor](Klirrfaktor.md)
 
-![[Clock_und_Reset_Generierung.pdf]]
+![Clock_und_Reset_Generierung](Clock_und_Reset_Generierung.pdf)

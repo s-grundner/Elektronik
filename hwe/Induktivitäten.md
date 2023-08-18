@@ -12,7 +12,7 @@ created: 8th April 2022
 
 | Symbol        | ESB |
 | ------------- | --- |
-| ![[indu.png]] | ![[indu-esb.png]]    |
+| ![indu](indu.png) | ![indu-esb](indu-esb.png)    |
 
 ## Induktivitäten als Bauelemente Leistungselektronischen Schaltungen
 Unter **Vernachlässigung** von **$R_{L}$** und der **parasitären Parallelkapazität $C_{L}$**, gilt für lineare Materialien der folgende Zusammenhang der die Spannung an der Induktivität beschreibt:
@@ -27,10 +27,10 @@ $$
 W &= \frac{L\cdot I^{2}}{2} 
 \end{align*}
 $$
-Grundsätzlich kann man sagen, dass die Induktivität änderungen des **Stromes entgegenwirkt** ([[Lenzsche Regel]]).
+Grundsätzlich kann man sagen, dass die Induktivität änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](Lenzsche%20Regel.md)).
 
 Durch das Anlegen einer Puls-förmigen spannung an eine Induktivität folgt, dass sich **$i_{L}$ nicht linear verhält**.
->![[indu-pulse.png]]
+>![indu-pulse](indu-pulse.png)
 
 Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren Ohmschen Widerstands.
 Daher gilt die folgende Näherung:
@@ -39,7 +39,7 @@ $$
 i \approx \frac{1}{L}\cdot u_{L}\cdot t
 \end{align*}
 $$
-Der nicht lineare reale Wert ergibt sich durch das Lösen der [[lineare DGL 1. Ordnung|homogenen linearen DGL 1. Ordnung]]
+Der nicht lineare reale Wert ergibt sich durch das Lösen der [homogenen linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
 $$
 \begin{align*}
 	u_{L} &= L\cdot \frac{di}{dt}\\
@@ -48,10 +48,10 @@ $$
 $$
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 ### Einschaltvorgang einer Induktivität
->![[indu-einsch.png]]
+>![indu-einsch](indu-einsch.png)
 
 ### Abschaltvorgang einer Induktivität
->![[indu-aussch.png]]
+>![indu-aussch](indu-aussch.png)
 
 ---
 # Tags

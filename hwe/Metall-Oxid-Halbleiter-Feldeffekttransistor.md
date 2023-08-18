@@ -7,7 +7,7 @@ reference: []
 created: 25th March 2022
 ---
 
-# # [[Metallbindung|Metall]]-Oxid-[[Halbleiter]]-[[Feldeffekttransistor]] (MOSFET)
+# # [Metall](Metallbindung.md)-Oxid-[Halbleiter](Halbleiter.md)-[Feldeffekttransistor](Feldeffekttransistor.md) (MOSFET)
 
 ---
 # Tags

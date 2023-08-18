@@ -8,17 +8,17 @@ created: 17th November 2022
 ---
 
 # LC [Oszillatoren](Clock%20Generierung.md)
-- Prinzip der Schwingungserzeugung: Entladung eines [[Schwingkreise|Schwingkreis]]es
+- Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](Schwingkreise.md)es
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
 - sowohl Serien- als auch Parallelschwingkreis möglich 
 - Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
 - geeignet für hohe Frequenzen
-# Parallel [[Schwingkreise|Schwingkreis]] mit [[Operations-Verstärker|OPV]]
+# Parallel [Schwingkreis](Schwingkreise.md) mit [OPV](Operations-Verst%C3%A4rker.md)
 > [!info] Schaltung
->![[LC-osz.png]]
-## Herleitung mit [[Barkhausen Kriterium|BHK]]
+>![LC-osz](LC-osz.png)
+## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
 
-## Herleitung mit [[{MOC} DGL|DGL]]
+## Herleitung mit [DGL](%7BMOC%7D%20DGL.md)
 $$
 \frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A
 $$
@@ -32,7 +32,7 @@ $$
 \end{align*}
 $$
 
-Bildung einer [[{MOC} DGL|DGL]]:
+Bildung einer [DGL](%7BMOC%7D%20DGL.md):
 $$
 \begin{align*}
 i_{R}-i_{C}-i_{L}&=0\\
@@ -42,7 +42,7 @@ i_{R}-i_{C}-i_{L}&=0\\
 \end{align*}
 $$
 
-### Herleitung der [[lineare DGL 2. Ordnung|linearen Differentialgleichung 2. Ordnung]]
+### Herleitung der [linearen Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
 $$
 \begin{align*}
 \ddot{u}_{1}+2\delta \cdot\dot{u}_{1} - \frac{1}{LC}\cdot u_{1}&=0 \qquad \delta= \frac{1-A}{2RC}  \qquad \omega_{0}^{2} = \frac{1}{LC} 
@@ -72,7 +72,7 @@ u_{c}(t)&= \tilde{C_{1}}\cdot\cos(\omega t)+\tilde{C_{2}}\sin(\omega t)\\
 \end{align*}
 $$
 
-- Damit die Schaltung ein [[Schwingkreise|Selbstschwingendes]] System sein kann, muss der [[Schwingkreise#Freie Schwingungen im realen Serienschwingkreis|Störterm]] $0$ sein (Selbsterregt) und ein [[lineare DGL 2. Ordnung#3 Fall konjugiert Komplexe Zahlen komplexe Lösungen\|Schwingfall]] ($\delta<\omega_{0}$)
+- Damit die Schaltung ein [Selbstschwingendes](Schwingkreise.md) System sein kann, muss der [](Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis%7CSt%C3%B6rterm) $0$ sein (Selbsterregt) und ein [](lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20L%C3%B6sungen%5C%7CSchwingfall) ($\delta<\omega_{0}$)
 
   
 > [!question] Lösungsansatz
@@ -117,33 +117,33 @@ B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}\\
 &= \frac{1}{2\pi}\cdot \frac{R}{L}\\
 \end{align*}
 $$
-![[Pasted image 20221212102110.png|600]]
+![600](Pasted%20image%2020221212102110.png)
 $$
 \begin{align*}
 \underline{Y} &= \frac{1}{R} + j\left(\omega\cdot C - \frac{1}{\omega L}\right)\qquad \text{Y wird zu null bei Resonanz}\\
 \omega_{0}\cdot C &= \frac{1}{\omega_{0}\cdot L} = \frac{1}{\sqrt{LC}}
 \end{align*}
 $$
-![[ParallelZeiger.png|600]]
+![600](ParallelZeiger.png)
 - $Y\rightarrow0$ bei $\omega = \omega_{r}$
 - $Z$ wird ein Maximum
 - Spannungsmaximum bei Resonanz
 - bewirkt $\underline{I}_{L}$, $\underline{I}_{C}$ welche größer als $\underline{I}$ 
 
-Bandbreite: Obere minus untere [[Grenzfrequenz]]
+Bandbreite: Obere minus untere [Grenzfrequenz](Grenzfrequenz.md)
 
 
-# Serien [[Schwingkreise|Schwingkreis]] mit [[Operations-Verstärker|OPV]]
+# Serien [Schwingkreis](Schwingkreise.md) mit [OPV](Operations-Verst%C3%A4rker.md)
 > [!info] Schaltung
-> ![[Pasted image 20221213082043.png]]
+> ![Pasted image 20221213082043](Pasted%20image%2020221213082043.png)
 
-## Herleitung mit [[Barkhausen Kriterium|BHK]]
-## Herleitung mit [[{MOC} DGL|DGL]]
+## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
+## Herleitung mit [DGL](%7BMOC%7D%20DGL.md)
 man betrachtet den Fall der ungedämpften Schwingung mit $\delta = \frac{R}{2L}= 0$
 Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
 # Typen
-[[Colpitts Oszillator]]
+[Colpitts Oszillator](Colpitts%20Oszillator.md)
 
 # Quellen
-![[Clock_und_Reset_Generierung.pdf]]
+![Clock_und_Reset_Generierung](Clock_und_Reset_Generierung.pdf)

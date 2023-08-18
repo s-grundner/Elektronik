@@ -20,5 +20,5 @@ last_edited: 11th April 2022
 ### Substitution bei bestimmten Integralen
 ---
 # Tags
-[[Partialbruchzerlegung]]
+[Partialbruchzerlegung](Partialbruchzerlegung.md)
 #incomplete 

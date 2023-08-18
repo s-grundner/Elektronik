@@ -76,8 +76,8 @@ void ringbuffer_init()
 	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
 ```
-Anschließend muss die Serielle [[{MOC} Schnittstellen|Schnittstelle]] initialisiert werden.
-Serielle [[{MOC} Schnittstellen|Schnittstelle]]:
+Anschließend muss die Serielle [Schnittstelle](%7BMOC%7D%20Schnittstellen.md) initialisiert werden.
+Serielle [Schnittstelle](%7BMOC%7D%20Schnittstellen.md):
 
 | Baudrate |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |      Interrupt      |           Mode            |
 |:--------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:-------------------:|:-------------------------:|

@@ -7,10 +7,10 @@ reference: []
 created: 21st March 2022
 ---
 # Map of Content - Transistoren
-## [[Bipolartransistor]] ([[Bipolartransistor|BJT]])
-## [[Feldeffekttransistor]] ([[Feldeffekttransistor|FET]]) 
-## [[Sperrschicht-Feldeffekttransistor]] ([[Sperrschicht-Feldeffekttransistor|JFET]])
-## [[Metall-Oxid-Halbleiter-Feldeffekttransistor]] ([[Metall-Oxid-Halbleiter-Feldeffekttransistor|MOSFET]])
+## [Bipolartransistor](Bipolartransistor.md) ([BJT](Bipolartransistor.md))
+## [Feldeffekttransistor](Feldeffekttransistor.md) ([FET](Feldeffekttransistor.md)) 
+## [Sperrschicht-Feldeffekttransistor](Sperrschicht-Feldeffekttransistor.md) ([JFET](Sperrschicht-Feldeffekttransistor.md))
+## [Metall-Oxid-Halbleiter-Feldeffekttransistor](Metall-Oxid-Halbleiter-Feldeffekttransistor.md) ([MOSFET](Metall-Oxid-Halbleiter-Feldeffekttransistor.md))
 
 ---
 # Tags

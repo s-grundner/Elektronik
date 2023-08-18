@@ -16,6 +16,6 @@ Bezogen auf $1\mu V$
 # dBm
 Bezogen auf $1mW$
 # dBi
-[[Isotroper Kugelstrahler]]
+[Isotroper Kugelstrahler](Isotroper%20Kugelstrahler.md)
 # Np
 # Quellen

@@ -8,7 +8,7 @@ created: 23rd August 2022
 ---
 
 # Metallbindung
->![[Metall-bdn.png|225]]
+>![225](Metall-bdn.png)
 
 Starke Anziehungskräfte zwischen Kationen und Elektronengas halten das Metallgitter zusammen.
 

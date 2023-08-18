@@ -43,7 +43,7 @@ created: 10th December 2022
 
 ### [Transistor](../hwe/{MOC}%20Transistor.md)als Schalter BSP
 - Berechnungen (Schaltschwellen, Dimensionieren usw. 3. Klasse)
-- [[../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor|Mosfets]] (Logische Schaltung mit vielen [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
+- [Mosfets](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) (Logische Schaltung mit vielen [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
 - CMOS
 ### Assembler
 - Große Tabelle: wo ist man am Ende, wie lang dauerts… 3.Klasse

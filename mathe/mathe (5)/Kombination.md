@@ -8,9 +8,9 @@ created: 4th January 2023
 ---
 
 # Kombination
-Eine *Kombination* oder *ungeordnete Stichprobe* ist in der [[Kombinatorik]] eine Auswahl von Objekten aus einer gegebenen [[Grundmenge]] …
-- … die im Gegensatz zur [[Permutation]] nicht alle Objekte der [[Grundmenge]] enthalten muss (Stichprobe)
-- … bei der im Gegensatz zur [[Permutation]] und [[Variation]] die Reihenfolge unberücksichtigt bleibt
+Eine *Kombination* oder *ungeordnete Stichprobe* ist in der [Kombinatorik](Kombinatorik.md) eine Auswahl von Objekten aus einer gegebenen [Grundmenge](Grundmenge.md) …
+- … die im Gegensatz zur [Permutation](Permutation.md) nicht alle Objekte der [Grundmenge](Grundmenge.md) enthalten muss (Stichprobe)
+- … bei der im Gegensatz zur [Permutation](Permutation.md) und [Variation](Variation.md) die Reihenfolge unberücksichtigt bleibt
 
 ## ohne Wiederholung
 Darf jedes Objekt nur einmal auftreten, spricht man von einer **Kombination ohne Wiederholung**.
@@ -26,7 +26,7 @@ Darf jedes Objekt nur einmal auftreten, spricht man von einer **Kombination ohn
 > [!example] 30 Schüler auf 26 Plätze aufteilen
 > 4 auswählen, die keinen Platz bekommen:
 > $$\binom{30}{4} = 27405$$
-> [[Kombinatorik#Produktregel]]
+> [](Kombinatorik.md#Produktregel)
 > $$\binom{30}{4}\cdot 26!$$
 
 ## mit Wiederholung

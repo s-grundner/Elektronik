@@ -122,7 +122,7 @@ Kommando-Zeile:
 
 ```
 mysql -u root -p
-show [[databases]];
+show [databases](databases);
 show tables;
 use mydb;
 ...
@@ -153,8 +153,8 @@ Installation des "SQL Server Management Studio":
 
 - Starten und Verbinden mit "SQL Server-Authentifizierung", Anmeldename "sa" (Serveradministrator) und obiges Kennwort ("passwort"). Damit kann mit dem Server mittels dieser Daten verbunden werden. Ansonsten kann mittels Windows-Authentifizierung gearbeitet werden.
 - Ab hier ist man mit dem Datenbanksystem verbunden. Sichtbar ist das links oben im Object-Explorer
-- Unter [[Databases]]/System [[Databases]] sind viele Systemdatenbanken vorhanden, darin werden die angemeldeten Benutzer und ähnlicher Kram abgelegt.
-- Erstellen einer neuen Datenbank: Object Explorer -> [[Databases]] -> New Database ...
+- Unter [Databases](Databases)/System [Databases](Databases) sind viele Systemdatenbanken vorhanden, darin werden die angemeldeten Benutzer und ähnlicher Kram abgelegt.
+- Erstellen einer neuen Datenbank: Object Explorer -> [Databases](Databases) -> New Database ...
 - Databasename: "Northwind".
 - Mit der Schaltfläche Script ganz oben kann ein Skript angezeigt werden, das die getroffenen Einstellungen vornimmt (der ganze Kram könnte auch via Skript erledigt werden).
   Mit OK im Einstellungsfenster kann die Northwind-DB (ohne Skript) angelegt werden. Das Skript im Hauptfenster kann geschlossen werden. Die neue Datenbank ist im Object-Explorer zu finden.

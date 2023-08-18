@@ -9,13 +9,13 @@ created: 7th November 2022
 
 # Systemtheorie
 
-## [[Übertragungsfunktion]]
-Häufiger als Zeitabhängige Funktionen sind Frequenzabhängige Funktionen -> [[Übertragungsfunktion]]
+## [Übertragungsfunktion](%C3%9Cbertragungsfunktion)
+Häufiger als Zeitabhängige Funktionen sind Frequenzabhängige Funktionen -> [Übertragungsfunktion](%C3%9Cbertragungsfunktion)
 
-Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensität her verändern -> Ein System lässt sich nur im Eingeschwngen Zustand beschreiben: [[Übertragungsfunktion]] nur im eingeschwungenen Zustand.
+Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensität her verändern -> Ein System lässt sich nur im Eingeschwngen Zustand beschreiben: [Übertragungsfunktion](%C3%9Cbertragungsfunktion) nur im eingeschwungenen Zustand.
 
 
-## [[Fourier Reihe]]
+## [Fourier Reihe](Fourier%20Reihe.md)
 
 $$
 \begin{align*}
@@ -23,9 +23,9 @@ f(\omega) &= \sum\limits_{i=1}^{n}a_{i}\cdot e^{j\omega\cdot t} &&\qquad \text{s
 f(\omega) &= \sum\limits_{i=1}^{n}a_{i}\cdot \cos(\omega_{i}\cdot t) &&\qquad \text{sofern Phase irrelevant (Diskrete Cosinusreihe)}
 \end{align*}
 $$
-## [[Fourier Transformation]]
+## [Fourier Transformation](Fourier%20Transformation.md)
 wenn zeitabhängige funktionen mit zunehmender frequenz nicht konvergieren, kann keine fouriertranformation angewandt werden:
-- Hohe Frequenzen müssen gegen 0 gehen -> Lösung: [[Laplace Transformation]]
+- Hohe Frequenzen müssen gegen 0 gehen -> Lösung: [Laplace Transformation](Laplace%20Transformation.md)
 $$
 \begin{align*}
 \mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt && t \in \mathbb{R}\qquad 
@@ -33,9 +33,9 @@ $$
 $$
 - $\mathcal{F\{f(t)\}}= F(\omega)$ ist das Spektrum von $f(t)$
 
-Bsp.: [[Schwarzkörperstrahlung|Stefan-Boltzmann]] Spektrum 
+Bsp.: [Stefan-Boltzmann](Schwarzk%C3%B6rperstrahlung.md) Spektrum 
 
-## [[Laplace Transformation]]
+## [Laplace Transformation](Laplace%20Transformation.md)
 $$
 \begin{align*}
 \mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} = F(\omega)\\
@@ -47,4 +47,4 @@ F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
 $$
 
 # Quellen
-![[MTRS 4-5.pdf]]
+![MTRS 4-5](MTRS%204-5.pdf)

@@ -15,20 +15,20 @@ created: 3rd January 2023
 - Nachschalten eines T-FF zur Taktsymmetrierung.
 
 > [!warning] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):
-> ![[Kippschalter-slew.png|500]]
+> ![500](Kippschalter-slew.png)
 
-# [[Schmitt Trigger]] Kippschaltung
+# [Schmitt Trigger](Schmitt%20Trigger.md) Kippschaltung
 Die Frequenz wird von durch folgende Parameter beeinflusst:
 - RC-Glied im Rückkoppelbereich ($\uptau$);
 - Schaltschwellen (Threshhold) des Schmitt Triggers ($U_{T}^{+} / U_{T}^{-}$)
 
-Die [[Schmitt Trigger]] Kippschaltungen ist eine Astabile Kippstufe
+Die [Schmitt Trigger](Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile Kippstufe
 
 > [!hint] Schaltung
-> ![[ST-Kippschalter.png|300]]
+> ![300](ST-Kippschalter.png)
 
 ## Herleitung
-![[ST-Diag.png|500]]
+![500](ST-Diag.png)
 > [!summary] Periodendauer $T$
 > $T=(t_{3}-t_{2})+(t_{2}-t_{1})$
  
@@ -42,22 +42,22 @@ Die [[Schmitt Trigger]] Kippschaltungen ist eine Astabile Kippstufe
 
 ### Entladen
 
-![[herl_te.png]]
+![herl_te](herl_te.png)
 
  > [!summary] $$t_{E} =\uptau\ln\left(\dfrac{U_T^+}{U_T^-}\right)$$
 
 
 ### Laden
-![[Herl_tl.png]]
+![Herl_tl](Herl_tl.png)
 
  > [!summary] $$t_L = \uptau\cdot\ln\left(\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
 
 ### $T$ berechnen
 
-![[herl_T.png]]
+![herl_T](herl_T.png)
  > [!summary] $$T = \uptau\ln\left(\frac{U_T^+}{U_T^-}\cdot\dfrac{U_0- U_T^+}{U_0-U_T^-}\right)$$
 
-## Dimensionierung "Invertierenden [[Schmitt Trigger]]" als Taktgenerator
+## Dimensionierung "Invertierenden [Schmitt Trigger](Schmitt%20Trigger.md)" als Taktgenerator
 $$
 \begin{align*}
 &U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz&&|&&\text{gesucht}\\
@@ -65,5 +65,5 @@ $$
 \\
 \end{align*}
 $$
-![[invST-calc1.png]]
+![invST-calc1](invST-calc1.png)
 # Tags

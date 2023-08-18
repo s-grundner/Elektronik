@@ -18,7 +18,7 @@ $$
 $$
 Diese an der Stelle $t=0$ unstetige Funktion heißt auch **Heaviside**-Funktion und wird auch mit **$\mathscr{H}$**, **$\varepsilon$** oder **$\mathcal{u}$** bezeichnet. Sie wird zur Beschreibung von Einschaltvorgängen verwendet.
 
-![[einheitssprung.png]]
+![einheitssprung](einheitssprung.png)
 ``` ad-example 
 title: $f(t) = (t-2)\cdot\sigma(t-2)$
 
@@ -28,4 +28,4 @@ title: $f(t) = (t-2)\cdot\sigma(t-2)$
 
 ---
 # Tags
-[[Delta-Impuls]]
+[Delta-Impuls](Delta-Impuls.md)

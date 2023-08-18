@@ -10,8 +10,8 @@ source: ["Martin Aichriedler, Christian Baun"]
 ## Geräte der Bitübertragungsschicht
 ## Bitübertragungs-Protokolle
 # Tags
-[[OSI-Modell]]
+[OSI-Modell](OSI-Modell.md)
 [Christian Baun](http://www.christianbaun.de/)
 [Foliensätze](http://www.christianbaun.de/Netzwerke1718/index_de.html)
-![[2-FS_ComputerNetze.pdf]]
-![[3-FS_ComputerNetze.pdf]]
+![2-FS_ComputerNetze](2-FS_ComputerNetze.pdf)
+![3-FS_ComputerNetze](3-FS_ComputerNetze.pdf)

@@ -8,25 +8,25 @@ created: 19th August 2022
 
 ## Physik (RDP)
 ### 4. Energie und ihre Bedeutung in Technik, Umwelt und Gesellschaft
-- [[Thermodynamik]]
-- [[Kernfusion]]
-- [[Radioaktivität]]
-- [[Allgemeines Gasgesetz|Gasgesetze]]
-- Energieumwandlung, Energieformen und [[Elektrische Leistung|Leistung]]
+- [Thermodynamik](Thermodynamik.md)
+- [Kernfusion](Kernfusion.md)
+- [Radioaktivität](../chemie/Radioaktivität.md)
+- [Gasgesetze](Allgemeines%20Gasgesetz.md)
+- Energieumwandlung, Energieformen und [Leistung](Elektrische%20Leistung.md)
 
-### 5. Newtonsche und Relativistische [[{MOC} Mechanik|Mechanik]]
-- [[Relativitätstheorie]]
-- [[Newtonsche Kräfte]]
-- [[Welle-Teilchen-Dualismus]]
+### 5. Newtonsche und Relativistische [Mechanik]({MOC}%20Mechanik.md)
+- [Relativitätstheorie](Relativitätstheorie.md)
+- [Newtonsche Kräfte](Newtonsche%20Kräfte)
+- [Welle-Teilchen-Dualismus](Welle-Teilchen-Dualismus.md)
 
-### 6. Elektrizität, Schwingungs- und Wellenphänomene in [[{MOC} Mechanik|Mechanik]], Optik und Akustik
+### 6. Elektrizität, Schwingungs- und Wellenphänomene in [Mechanik]({MOC}%20Mechanik.md), Optik und Akustik
 - Akustik
-- [[Elektromagnetische Wellen]]
+- [Elektromagnetische Wellen](Elektromagnetische%20Wellen.md)
 - Allgemeine Informationen
 
 ### Angela Leaks
 ### Zusammenfassung 5c
-![[physik/assets/5c-matura-sum.pdf]]
+![5c-matura-sum](assets/5c-matura-sum.pdf)
 
 
 ---
@@ -52,8 +52,8 @@ Konstanten:
 Alle im TR
 ausnahmen:
 masse von proton elektron?
-[[Konstanten Verzeichnis|TR-Konstanten]]
-Energie dichte [[Primärelement|Batterie]]
+[TR-Konstanten](Konstanten%20Verzeichnis.md)
+Energie dichte [Batterie](Prim%C3%A4relement.md)
 
 $$
 

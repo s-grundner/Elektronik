@@ -14,17 +14,17 @@ created: 16th March 2022
 3. Spannungsstabilisierung der Gleichspannung gegen Schwankungen ...
 	- ... der Eingangsspannung
 	- ... der Last
-	- ... der [[Temperatur und Teilchenmodell|Temperatur]] 
+	- ... der [Temperatur](Temperatur%20und%20Teilchenmodell.md) 
 4. Last
 	- bei der Last werden üblicherweise Analoge und Digitale Versorgung mittels einer Sternförmigen Masse getrennt.
 
->![[Netzteil_sch.png]]
+>![Netzteil_sch](Netzteil_sch.png)
 
 Verlauf der Spannung:
 - Rot: vor der Stufe
 - Gelb: nach der Stufe
 
->![[zw_spannungen_netzteil.png]]
+>![zw_spannungen_netzteil](zw_spannungen_netzteil.png)
 ## Stabilisierung und Regelung von Spannung
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz
@@ -33,24 +33,24 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 	- $\dfrac{\Delta U_{a}}{\Delta U_{e}}$
 4. Belastungs-Regelung **(Load Regulation)**
 	- $\dfrac{\Delta U_{a}}{\Delta i_{a}}$
-5. [[Temperatur und Teilchenmodell|Temperatur]] Koeffizienten
+5. [Temperatur](Temperatur%20und%20Teilchenmodell.md) Koeffizienten
 6.  Ausregelzeit
 	- Wie lange eine Veränderung am Eingang zu einer Veränderung am Ausgang dauert.
 
 Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kategorien **geregelt** und **ungeregelt** vorgenommen werden.
 # Linearregler
 ## Ungeregelte Spannungsstabilisierung
-### Stabilisierungsschaltung mit einer [[Dioden#Zener-Diode|Zener Diode]]
-Mittels einer Zener [[Dioden]] kann eine Ausgansspannung in einem wieten Bereich konstantgehalten werden.
+### Stabilisierungsschaltung mit einer [](Dioden.md#Zener-Diode%7CZener%20Diode)
+Mittels einer Zener [Dioden](Dioden.md) kann eine Ausgansspannung in einem wieten Bereich konstantgehalten werden.
 
 | Kennwerte                                                                                                           | Schaltung                    |
 | ------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Diodenstrom<br>$U_{Z}\dots$ Z-Diodenspannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![[Z-diode-regler.png\|400]] |
+| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Diodenstrom<br>$U_{Z}\dots$ Z-Diodenspannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](Z-diode-regler.png%5C) |
 
 #### Kennlinie
 | Kennwerte                                                                                                                                                                                      | Kennlinie                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![[z-d-kennlinie.png\|600]] |
+| $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![600](z-d-kennlinie.png%5C) |
 
 #### Dimensionierung
 $$
@@ -86,10 +86,10 @@ $$
 Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.
 Es gilt  $\Delta I_{L}=\Delta I_{Z}$
 Eine Längstransistorschaltung behebt diesen Nachteil
-### Längstransistor mit [[Dioden#Zener Diode|Zener Diode]]
-![[../../assets/Laengstransostor2.png]]
+### Längstransistor mit [](Dioden.md#Zener%20Diode%7CZener%20Diode)
+![Laengstransostor2](../../assets/Laengstransostor2.png)
 #### Längsregler
-![[../../assets/Laengstransistor.png]]
+![Laengstransistor](../../assets/Laengstransistor.png)
 ## Geregelte Spannungsstabilisierung
 ### Kontinuierlicher Spannungsregler
 ### Integrierter Spannungsregler
@@ -97,4 +97,4 @@ Eine Längstransistorschaltung behebt diesen Nachteil
 ---
 # Tags
 #incomplete 
-![[Linearregler.pdf]]
+![Linearregler](Linearregler.pdf)

@@ -14,5 +14,5 @@ $$
 | Variable | Bezeichnung   |
 | -------- | ------------- |
 | $t_{m}$  | mittlere Zeit |
-| $H$      | [[Informationsgehalt & Entropie\|Entropie]]      |
+| $H$      | [Entropie](Informationsgehalt%20&%20Entropie%5C)      |
 | $F$      | Informationsfluss              |

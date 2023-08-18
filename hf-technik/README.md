@@ -6,36 +6,36 @@ created: 23rd November 2022
 ---
 # Map of Topics - KSN
 ## 3. JG
-- [[OSI-Modell]]
+- [OSI-Modell](OSI-Modell.md)
 - #Netzwerke
-- [[Filter]]
+- [Filter](Filter)
 
 ## 4. JG
-- [[Leitungstheorie]]
-- [[Smith-Diagramm]]
-- [[Modulation]]
-- [[Mischer]]
+- [Leitungstheorie](Leitungstheorie.md)
+- [Smith-Diagramm](Smith-Diagramm.md)
+- [Modulation](Modulation.md)
+- [Mischer](Mischer.md)
 
 ## 5. JG
-- [[Streuparameter]]
-- [[Antenne|Antennen]]
+- [Streuparameter](Streuparameter.md)
+- [Antennen](Antenne.md)
 
 # Matura
 
-## Grundlagen der [[{MOC} Informationstheorie|Informationstheorie]] und Übertragungstechnik
-- [[Amplitudenmodulation]]
-- [[Frequenzmodulation]]
+## Grundlagen der [Informationstheorie](%7BMOC%7D%20Informationstheorie.md) und Übertragungstechnik
+- [Amplitudenmodulation](Amplitudenmodulation.md)
+- [Frequenzmodulation](Frequenzmodulation.md)
 - Huffman-Codierung
-- Kenngrößen der [[{MOC} Informationstheorie|Informationstheorie]]
+- Kenngrößen der [Informationstheorie](%7BMOC%7D%20Informationstheorie.md)
 - Hamming Abstand – Kodewürfel
-- [[Lichtwellenleiter|LWL]]
+- [LWL](Lichtwellenleiter.md)
 
 
-## [[sRDP KSN - HF-Technik|Hochfrequenztechnik]]
-- [[Leitungstheorie]]
+## [Hochfrequenztechnik](sRDP%20KSN%20-%20HF-Technik.md)
+- [Leitungstheorie](Leitungstheorie.md)
 - Rechteckimpuls auf Leitung
-- Anpassung mit [[Smith-Diagramm]], Shunt, TL
-- [[Antenne|Antennen]], Richtdiagramm
+- Anpassung mit [Smith-Diagramm](Smith-Diagramm.md), Shunt, TL
+- [Antennen](Antenne.md), Richtdiagramm
 
 
 ## Consumer Electronics
@@ -47,10 +47,10 @@ created: 23rd November 2022
 - Fehlererkennende-, Fehlerkorrigierende Codes
 
 ## Netzwerktechnik
-- [[OSI-Modell|Schichtenmodell]]
-- [[CIDR]]
-- [[VLSM]]
-- [[Kollisionsdomäne|Kollisions-]], [[Broadcastdomäne]]
+- [Schichtenmodell](OSI-Modell.md)
+- [CIDR](CIDR.md)
+- [VLSM](VLSM.md)
+- [Kollisions-](Kollisionsdom%C3%A4ne.md), [Broadcastdomäne](Broadcastdom%C3%A4ne.md)
 - Segmentierung
 - #Netzwerke 
 

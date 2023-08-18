@@ -10,12 +10,12 @@ last_edited: 11th April 2022
 # Fourier Reihe
 Jede periodische Funktion kann aus einer Summe von Sinus- und/oder Cosinus Schwingungen zusammengesetzt werden.
 
-![[Fourreihe_zerlegung.png|400]]
+![400](Fourreihe_zerlegung.png)
 
 
 ## Periodische Funktion
 $f(x)=f(x+a)$
-![[fourReihe.png|400]]
+![400](fourReihe.png)
 
 >[!summary] $$f(x) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot x)+b_{n}\cdot\sin(n\cdot x)\right]$$
 > - $a_{n}$, $b_{n}\dots$ **Fourier Koeffizienten**
@@ -36,12 +36,12 @@ $f(x)\dots$**Trigonometrisches Polynom**
 - $A_{3}\cdot\sin(3x+\varphi)$: 3. Harmonische oder 2. Oberschwingung
 
 >[!example] Rechteckschwingung
-> ![[Fourreihe_k.png]]
-> [[Klirrfaktor]] ... $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
+> ![Fourreihe_k](Fourreihe_k.png)
+> [Klirrfaktor](Klirrfaktor.md) ... $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
 
 
 ## Fourier Koeffizienten
-![[Pasted image 20230120081647.png]]
+![Pasted image 20230120081647](Pasted%20image%2020230120081647.png)
 
 ### Periode $T$
 
@@ -70,4 +70,4 @@ Gleichrichtwert $\dfrac{a_{0}}{2}$
 ---
 
 # Tags
-![[Fourierreihe.pdf]]
+![Fourierreihe](Fourierreihe.pdf)

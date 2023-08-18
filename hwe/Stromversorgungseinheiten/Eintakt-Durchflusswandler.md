@@ -7,21 +7,21 @@ reference: []
 created: 13th October 2022
 ---
 
-# Eintakt-[[Durchflusswandler]]
+# Eintakt-[Durchflusswandler](Durchflusswandler.md)
 - Eine galvanisch getrennte, regelbare Ausgangsspannung
-- [[Elektrische Leistung|Leistung]] bis einige $100W$
+- [Leistung](Elektrische%20Leistung.md) bis einige $100W$
 - Transistorsperrspannung $U_{DS} \geq 2U_{e}$
 - Tastverhältnis $\frac{t_{ein}}{T} \leq 0.5$
 - Sehr gute magnetische Kopplung notwendig
 - Kleiner Kern ohne Luftspalt
 
 ## Schaltbild
-![[../assets/ET_DFW.png]]
+![ET_DFW](../assets/ET_DFW.png)
 $$
 U_{a}=U_{e}\cdot \frac{t_{1}}{T_{S}}\cdot \frac{N_{2}}{N_{1}}
 $$
 ## Lauf-Zeit Diagramm
-![[DurchflussWandlerLZD.png]]
+![DurchflussWandlerLZD](DurchflussWandlerLZD.png)
 
 ## Schaltstufe  $S$
 
@@ -40,7 +40,7 @@ Daher Liegt üer $U_{DS}=2 \cdot U_{e}$
 	- Entnetzwerk ist trotzdem Notwendig
 - $DC=0.5$ maximal
 ### Herleitung der Dimensionierung
-$\rightarrow$ siehe [[Buck Converter|Abwärtswandler]]
+$\rightarrow$ siehe [Abwärtswandler](Buck%20Converter.md)
 $$
 U_{a}=U_{e}\cdot \frac{t_{1}}{T_{S}}\cdot \frac{N_{2}}{N_{1}}
 $$
@@ -48,7 +48,7 @@ mit $DC=0.5$ ergibt sich:
 $$
 \frac{N_{2}}{N_{1}}=2\cdot \frac{U_{a}}{U_{e}}
 $$
-## [[Induktivitäten|Induktivität]]
+## [Induktivität](Induktivit%C3%A4ten.md)
 $\Delta I_{L}=\Delta I_{3} \approx 0.2\cdot I_{a}$
 mit $DC=0.5$ wird:
 $$
@@ -59,4 +59,4 @@ $$
 
 ---
 # Tags
-![[Schaltnetzteile_Schmidt-Walter.pdf]]
+![Schaltnetzteile_Schmidt-Walter](Schaltnetzteile_Schmidt-Walter.pdf)

@@ -8,7 +8,7 @@ created: 7th June 2022
 ---
 
 # Piezoelektrik
-> [!example] Ein [[Quarzoszillator|Quarz]] mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
+> [!example] Ein [Quarz](Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
 > 
 > $$
 > \begin{align*}
@@ -27,22 +27,22 @@ created: 7th June 2022
 > $$
 
 ## Piezogeber
-![[piezo_ions.png|650]]
+![650](piezo_ions.png)
 
 In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.
 | Input       | Output |
 | ----------- | ------ |
 | Kraft/Druck | Spannung       |
 
-![[piezo_esb.png]]
+![piezo_esb](piezo_esb.png)
 
-![[Piezo_effects.png]]
+![Piezo_effects.png](Piezo_effects.png)
 
 ## Piezoresistiver Geber
 Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus Silizium herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.
-Es handelt sich dabei um ein **[[Dehnungsmessstreifen|DMS-System]]** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
+Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
 
-![[piezoresistivergeber.png|375]]
+![375](piezoresistivergeber.png)
 
  - Die Membrane muss gasdicht sein.
  - Es muss Referenzdruck herrschen
@@ -61,4 +61,4 @@ Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung d
 Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
 # Tags 
-[[Quarzoszillator|Quarz]]
+[Quarz](Quarzoszillator.md)

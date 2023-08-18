@@ -8,11 +8,11 @@ created: 1st December 2022
 ---
 
 # Richtantennen
-Stäbe bzw "Einzenle [[Antenne|Antennen]]" dienen als Erreger.
+Stäbe bzw "Einzenle [Antennen](Antenne.md)" dienen als Erreger.
 
 Richtcharakteristik kann verändert werden, indem man die erreger Gleider Phaseverschoben ansteuert (Phased Array Beam Stream Streaming).
 
-Die Keule wird durch konstruktive und destruktive inteferenz der erreger ([[Antenne|Antennen]]) elektrisch geschwenkt
+Die Keule wird durch konstruktive und destruktive inteferenz der erreger ([Antennen](Antenne.md)) elektrisch geschwenkt
 
 
 

@@ -10,7 +10,7 @@ last_edited: 11th April 2022
 
 # Newtonsches Abkühlungsgesetz
 ## Beschreibung
-Das Newtonsche Abkühlungsgesetz besagt, dass die Temperaturänderung eines betrachteten Objekt proportional zur Temperaturdifferenz der Umgebungstemperatur und der [[Temperatur und Teilchenmodell|Temperatur]] des Objekts ist.
+Das Newtonsche Abkühlungsgesetz besagt, dass die Temperaturänderung eines betrachteten Objekt proportional zur Temperaturdifferenz der Umgebungstemperatur und der [Temperatur](Temperatur%20und%20Teilchenmodell.md) des Objekts ist.
 Es gilt daher:
 $$
 \begin{align*}
@@ -20,18 +20,18 @@ $$
 Der Temperaturkoeffizient $k$ in $s^{-1}$ wird bei der Abkühlung des Objektes negativ, sonst positiv.
 
 ## Herleitung des Temperaturverlaufs $T(t)$
-Die [[lineare DGL 1. Ordnung]] löst sich wiefolgt:
+Die [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md) löst sich wiefolgt:
 $$
 \begin{align*}
 	\frac{dT}{dt} &= k\cdot(T(t)-T_{umgebung})\\
 	\frac{dT}{dt}-k\cdot T(t) &= -k\cdot T_{umbegung}
 \end{align*}
 $$
-Der homogene Teil wird mittels dem [[lineare DGL 1. Ordnung#Lösung der homogenen DGL 1 Ordnung mit Exponentialansatz|Exponentialansatzes]] gelöst:
+Der homogene Teil wird mittels dem [](lineare%20DGL%201.%20Ordnung.md#L%C3%B6sung%20der%20homogenen%20DGL%201%20Ordnung%20mit%20Exponentialansatz%7CExponentialansatzes) gelöst:
 $$
 \begin{align*}
 	T_{h}(t) = C\cdot e^{k\cdot t}
 \end{align*}
 $$
-Der Lösung der inhomogenen DGL wird anhand des [[lineare DGL 1. Ordnung#Lösung der inhomogenen DGL 1 Ordnung|Störterms]] $-k\cdot T_{umgebung}$ ermittelt:
+Der Lösung der inhomogenen DGL wird anhand des [](lineare%20DGL%201.%20Ordnung.md#L%C3%B6sung%20der%20inhomogenen%20DGL%201%20Ordnung%7CSt%C3%B6rterms) $-k\cdot T_{umgebung}$ ermittelt:
 # Tags

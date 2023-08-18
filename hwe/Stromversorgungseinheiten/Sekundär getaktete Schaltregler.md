@@ -8,7 +8,7 @@ created: 2nd October 2022
 ---
 
 # Sekundär getaktete Schaltregle
->![[../../assets/SekGetaktSMPS.png]]
+>![SekGetaktSMPS](../../assets/SekGetaktSMPS.png)
 ### 1. Netztraffo/Gleichrichter
 Niederfrequenter Teil
 ### 2. Spannungsregelung
@@ -29,17 +29,17 @@ Es wird oft Analoge und Digitale Masse **Sternförmig** an die Masse des Netztei
 ## Eigenschaften
 ### Einsatzgebiete
 - Dort wo eine galvanische Trennung bereits vorhanden ist.
-- Bei [[Sekundärelement|Akku]] betrieben Geräten
+- Bei [Akku](Sekund%C3%A4relement.md) betrieben Geräten
 ### Prinzip 
-- Mittles Schaltglied werden Energieportionen aus der Eingangsspannugsquelle übernommen und in der [[Induktivitäten|Induktivität]] gespeichert.
+- Mittles Schaltglied werden Energieportionen aus der Eingangsspannugsquelle übernommen und in der [Induktivität](Induktivit%C3%A4ten.md) gespeichert.
 - $f\approx 20kHz - 2MHz$, des Tastverhältnis bestimmt den Energiefluss.
 - Tiefpass am Ausgang glättet den Kontinuierlichen Energiefluss.
 
 ### Typen
-[[Buck Converter]]
-[[Boost Converter]]
-[[Inverswandler]]
+[Buck Converter](Buck%20Converter.md)
+[Boost Converter](Boost%20Converter.md)
+[Inverswandler](Inverswandler.md)
 
 --- 
 # Tags
-![[SMPS_intro.pdf]]
+![SMPS_intro](SMPS_intro.pdf)

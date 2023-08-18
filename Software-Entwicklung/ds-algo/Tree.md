@@ -16,7 +16,7 @@ Jeder Knoten hat maximal 2 Sub-knoten
 Jeder Knoten im Linken Teilbaum ist kleiner als seine Wurzel.
 Jeder Knoten im rechten Teilbaum ist größer als seine Wurzel.
 ````ad-example 
-![[binary_Search_tree.svg]]
+![binary_Search_tree](binary_Search_tree.svg)
 ```c
 struct node {
 	int data;

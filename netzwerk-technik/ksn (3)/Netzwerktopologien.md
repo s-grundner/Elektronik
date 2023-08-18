@@ -19,7 +19,7 @@ last_edited: 11th April 2022
 # Arten von Netzwerken
 ## BAN - Body Area Network
 ## PAN - Personal Area Network
-## [[Local Area Network|LAN]] - [[Local Area Network]]
+## [LAN](Local%20Area%20Network.md) - [Local Area Network](Local%20Area%20Network.md)
 ## MAN - Metropolian Area Network
-## [[Wide Area Network|WAN]] - [[Wide Area Network]]
+## [WAN](Wide%20Area%20Network.md) - [Wide Area Network](Wide%20Area%20Network.md)
 ## GAN - Global Area Network

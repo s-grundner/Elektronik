@@ -15,7 +15,7 @@ Vorraussetzungen:
 - Sinusförmig
 - gleiche Frequenz
 
-Zusammenhang ist die [[Eulersche Formel]]
+Zusammenhang ist die [Eulersche Formel](Eulersche%20Formel.md)
 
 | Zeitbereich                               | Bildbereich                            |
 | ----------------------------------------- | -------------------------------------- |

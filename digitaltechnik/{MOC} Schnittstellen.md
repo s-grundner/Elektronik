@@ -10,11 +10,11 @@ last_edited: 11th April 2022
 # Map of Content - Schnittstellen
 ## Seriell
 ### Synchron
-#### [[TWI]]/[[TWI|I2C]]
-#### [[SPI]]
+#### [TWI](TWI.md)/[I2C](TWI.md)
+#### [SPI](SPI.md)
 #### I2S
 ### Asynchron
-#### [UART](USART.md)/[[USART]]
+#### [UART](USART.md)/[USART](USART.md)
 #### USB
 #### [MIDI](MIDI.md)
 

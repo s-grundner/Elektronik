@@ -17,7 +17,7 @@ created: 19th August 2022
 ### Beschleunigte Bewegung
 ### Bewegungsänderung
 ### Reibung und Fortbewegung
-## [[Keplersche Gesetze]]
+## [Keplersche Gesetze](Keplersche%20Gesetze)
 
 ---
 # Tags

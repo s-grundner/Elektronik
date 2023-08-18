@@ -8,11 +8,11 @@ created: 19th January 2023
 ---
 
 # Kapazitäts-Diode
-Die Kapazitätsdiode oder Varicap, auch Varaktor oder Abstimmdiode genannt, ist ein elektronisches [[Halbleiter]]-Bauteil.
-Durch Änderung der angelegten Spannung lässt sich eine Variation der [[Kapazität]] von 10:1 erreichen.
-Somit steht eine elektrisch steuerbare [[Kapazität]] zur Verfügung, die die früher üblichen, erheblich größeren Drehkondensatoren weitgehend ersetzt hat.
+Die Kapazitätsdiode oder Varicap, auch Varaktor oder Abstimmdiode genannt, ist ein elektronisches [Halbleiter](Halbleiter.md)-Bauteil.
+Durch Änderung der angelegten Spannung lässt sich eine Variation der [Kapazität](Kapazit%C3%A4t.md) von 10:1 erreichen.
+Somit steht eine elektrisch steuerbare [Kapazität](Kapazit%C3%A4t.md) zur Verfügung, die die früher üblichen, erheblich größeren Drehkondensatoren weitgehend ersetzt hat.
 
-![[varicap.png|500]]
+![500](varicap.png)
 
 $d = f(U)$
 Die Breite der RLZ ist eine Funktion der Spannung.
@@ -20,11 +20,11 @@ Die Breite der RLZ ist eine Funktion der Spannung.
 >[!summary] $C=\dfrac{\varepsilon\cdot A}{d(U)}$
 
 ## Funktionsweise
-- Der p-n-Übergang einer Diode hat eine [[Kapazität]], die von der Breite der Raumladungszone abhängig ist.
-- Wird eine Diode in Sperrrichtung betrieben, so entsteht am p-n-Übergang eine Ladungsträgerverarmungszone, an der sich auch ein [[elektrisches Feld]], bedingt durch die fehlenden Ladungsträger, aufbaut.
-- Mit steigender Spannung vergrößert sich die Breite der ladungsfreien Zone, damit nimmt die [[Kapazität]] ab.
+- Der p-n-Übergang einer Diode hat eine [Kapazität](Kapazit%C3%A4t.md), die von der Breite der Raumladungszone abhängig ist.
+- Wird eine Diode in Sperrrichtung betrieben, so entsteht am p-n-Übergang eine Ladungsträgerverarmungszone, an der sich auch ein [Elektrisches Feld](elektrisches%20Feld.md), bedingt durch die fehlenden Ladungsträger, aufbaut.
+- Mit steigender Spannung vergrößert sich die Breite der ladungsfreien Zone, damit nimmt die [Kapazität](Kapazit%C3%A4t.md) ab.
 - Durch geeignete Dotierung können Kapazitäten im Bereich von 3 pF bis 300 pF erreicht werden.
 
 # Tags
-[[Voltage Controlled Oscillator|VCO]]
-[[Phase Locked Loop|PLL]]
+[VCO](Voltage%20Controlled%20Oscillator.md)
+[PLL](Phase%20Locked%20Loop.md)

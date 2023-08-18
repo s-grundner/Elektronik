@@ -30,10 +30,10 @@ $HCl\overset{H_{2}O}{\longrightarrow}H^{+}_{(aq.)}+Cl^{-}_{(aq.)}$
 Durch Wasser wird das $HCl$ Molekül in Ionen aufgespalten.
 
 Hierbei werden beide Ionen von einer [Hydrathülle](https://studyflix.de/chemie/hydratation-2388) umschlossen. (aq.)
-![[Pasted image 20220827035713.png|225]]
+![225](Pasted%20image%2020220827035713.png)
 
 ### Neutralisation
-Reaktion einer Säure mit einer Base, in deren Verlauf ein [[Ionenbindung|Salz]] und Wasser entstehen.
+Reaktion einer Säure mit einer Base, in deren Verlauf ein [Salz](Ionenbindung.md) und Wasser entstehen.
 $HCl+NaOH\longrightarrow NaCl+H_{2}O$
 exotherme Reaktion: es entsteht Neutralisationswärme
 
@@ -44,7 +44,7 @@ Die <mark style="background: #ADCCFFA6;">Stärke</mark> einer <mark style="backg
 
 <mark style="background: #FF5582A6;">Starke Säuren</mark> sind mit Wasser <mark style="background: #FF5582A6;">vollständig</mark> dissoziiert.
 <mark style="background: #FFB86CA6;">Schwache</mark> Säuren sind mit Wasser <mark style="background: #FFB86CA6;">unvollständig</mark> dissoziiert.
-![[Pasted image 20220827040951.png]]
+![Pasted image 20220827040951](Pasted%20image%2020220827040951.png)
 
 Dissoziationsgrad $\alpha = \dfrac{\text{Konz. der dissoziierten Moleküle}}{\text{Gesamte Konz. der Säure}}=\dfrac{C(A^{-})}{C(HA)}$
 $H\cdot A\leftrightarrows H^{+}+A^{-}$
@@ -87,13 +87,13 @@ $\underbrace{B}_{\text{Base}}+H_{2}O \leftrightarrows \underbrace{BH^{+}}_{\text
 #### Ampholyt
 Ein und derselbe Stoff wirkt je nach Reaktionspartner als Säure oder als Base.
 >**$H_{2}O$:**
->![[h2o-ampholyt.png|350]]
+>![350](h2o-ampholyt.png)
 ><mark style="background: #FF5582A6;">$H_{2}O$ wirkt als Säure</mark>
 ><mark style="background: #ADCCFFA6;">$H_{2}O$ Wirkt als Base</mark> 
 $H_{2}O$ ist ein Ampholyt und verhält sich amphoter
 
 ## Wichtige Säuren
-| Name               |    Formel     |                 [[Ionenbindung\|Anion]]                  | Name des Salzes / Anions                               | n-protonige Säure |
+| Name               |    Formel     |                 [Anion](Ionenbindung%5C)                  | Name des Salzes / Anions                               | n-protonige Säure |
 | ------------------ |:-------------:|:--------------------------------------------------------:| ------------------------------------------------------ |:-----------------:|
 | Salzsäure          |     $HCl$     |                         $Cl^{-}$                         | Chlorid                                                |         1         |
 | Flusssäure💀       |     $HF$      |                         $F^{-}$                          | Fluorid                                                |         1         |
@@ -124,7 +124,7 @@ $Na_{2}O+H_{2}O\longrightarrow 2NaOH\longrightarrow 2Na^{+}_{(aq.)}+2OH^{-}_{(aq
 | Calciumhydroxid, Kalklauge, Kalkmilch, Löschkalk(fest) | $Ca(OH)_{2}$ |
 | Ammoniumhydroxid, Ammoniumlauge                        | $NH_{4}OH$   | 
 
-## [[pH-Wert|Säure- und Basenkonstante]]
+## [Säure- und Basenkonstante](pH-Wert.md)
 Bei schwachen Säuren existiert ein **Gleichgewicht** zwischen Ionen und den undissoziierten Molekülen (**Massenwirkungsgesetz**)
 $HA+H_{2}O\leftrightarrows H_{3}O^{+}+\underbrace{A^{-}}_{\text{Anion der Säure}}$
 $K_{a}=\dfrac{C(H_{3}O^{+})\cdot C(A^{-})}{C(HA)}$
@@ -152,4 +152,4 @@ $C\dots$ Konzentration von $(\dots)$
 
 ---
 # Tags
-[[pH-Wert]]
+[pH-Wert](pH-Wert.md)

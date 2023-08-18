@@ -13,11 +13,11 @@ created: 10th January 2023
 
 # Invertierender Schmitt Trigger
 
-![[IMG_3622.jpeg]]
+![IMG_3622](IMG_3622.jpeg)
 ## Hysterese
 ## Helmholzsches Überlagerungsprinzip
 
 
-![[invST-calc2.png]]
+![invST-calc2](invST-calc2.png)
 # Tags
-[[Kippschaltungen]]
+[Kippschaltungen](Kippschaltungen.md)

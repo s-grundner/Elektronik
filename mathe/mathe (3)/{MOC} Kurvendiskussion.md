@@ -7,16 +7,16 @@ reference: []
 created: 18th April 2022
 ---
 # Map of Content - Kurvendiskussion
-## [[Definitionsmenge]]
-## [[Polstelle]]
-## [[Stetigkeit]]
-## [[Grenzwert]]
-## [[Asymptoten]]
-## [[Nullstellen]]
-## [[Extrema]]
-## [[Wendepunkt]] 
-## [[Krümmung]]
-## [[Symmetrie]]
+## [Definitionsmenge](Definitionsmenge)
+## [Polstelle](Polstelle)
+## [Stetigkeit](Stetigkeit.md)
+## [Grenzwert](Grenzwert.md)
+## [Asymptoten](Asymptoten)
+## [Nullstellen](Nullstellen)
+## [Extrema](Extrema)
+## [Wendepunkt](Wendepunkt.md) 
+## [Krümmung](Kr%C3%BCmmung)
+## [Symmetrie](Symmetrie)
 
 ---
 # Tags

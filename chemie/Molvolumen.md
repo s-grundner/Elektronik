@@ -9,8 +9,8 @@ created: 10th September 2022
 
 # Molvolumen
 
-> [!example] Berechne die Masse 1m³ [[Lufthülle der Erde|Luft]] – 78%N2, 21% O2, 1% Argon
+> [!example] Berechne die Masse 1m³ [Luft](Lufth%C3%BClle%20der%20Erde.md) – 78%N2, 21% O2, 1% Argon
 > ![CNO](../assets/CNO.png)
-> ![[../assets/MolLuftGLS.png]]
+> ![MolLuftGLS](../assets/MolLuftGLS.png)
 
 # Gasvolumen

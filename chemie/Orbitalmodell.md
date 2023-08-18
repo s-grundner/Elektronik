@@ -23,13 +23,13 @@ Unterschalen sind Orbitale
 
 #### s-Orbitale
 **Kugelsymmetrisch:**
->![[orb-s.png]]
+>![orb-s](orb-s.png)
 #### p-Orbitale
 **Mantelförmig:** 
 
 | px               | py               | pz              |
 | ---------------- | ---------------- | --------------- |
-| >![[orb-px.png]] | >![[orb-py.png]] | >![[orb-pz.png]] |
+| >![orb-px](orb-px.png) | >![orb-py](orb-py.png) | >![orb-pz](orb-pz.png) |
  
 <mark style="background: #FFB86CA6;">Wellenberg</mark> 
 <mark style="background: #CACFD9A6;">Wellental</mark> 
@@ -38,13 +38,13 @@ Es gibt 3 Stk.
 
 #### d-Orbitale
 **Rosettenförmig:**
->![[orb-d.png]]
+>![orb-d](orb-d.png)
 
 Es gibt 5 Stk.
 
 #### f-Orbitale
 **Komplexere Form:**
->![[orb-f.png]]
+>![orb-f](orb-f.png)
 
 Es gibt 7 Stk.
 
@@ -56,13 +56,13 @@ Es gibt 7 Stk.
 | n = 4            | 4 (s, p, d, f) | 4s, 4p, 4d, 4f               | $1\cdot4s,3\cdot4p,5\cdot4d,7\cdot4f=16$ | 
 
 ### Energieniveauschema zur Orbitalbesetzung
-![[Pasted image 20220826201819.png|650]]
-![[Pasted image 20220904112819.png]]
+![650](Pasted%20image%2020220826201819.png)
+![Pasted image 20220904112819.png](Pasted%20image%2020220904112819.png)
 ### Schreibweise der Elektronen Konfiguration
 Bsp.:
-![[Ne.png]]
+![Ne](Ne.png)
 $1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$
->![[Ne-conf.png|150]]
+>![150](Ne-conf.png)
 <mark style="background: #ADCCFFA6;">Anzahl der $e^{-}$ </mark> 
 <mark style="background: #FF5582A6;">Hauptquantenzahl</mark> 
 <mark style="background: #FFB86CA6;">Orbitaltyp</mark> 

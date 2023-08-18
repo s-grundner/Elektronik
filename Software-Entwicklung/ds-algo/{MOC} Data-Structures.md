@@ -10,19 +10,19 @@ last_edited: 19th April 2022
 # Map of Content - Data-Structures
 ## Lists
 ### Arrays
-### [[Hash Maps]]
-### [[Linked Lists]]
-### [[Stack]] ([[Stack|LIFO]])
-### [[Queue]] ([[Queue|FIFO]])
-#### [[Ringbuffer]]
-## [[Tree]]
+### [Hash Maps](Hash%20Maps.md)
+### [Linked Lists](Linked%20Lists.md)
+### [Stack](Stack.md) ([LIFO](Stack.md)])
+### [Queue](../C/Queue.md) ([FIFO](../C/Queue.md)
+#### [Ringbuffer](../../digitaltechnik/Ringbuffer.md)
+## [Tree](Tree.md)
 ### Graph-Representation
 #### Edge List
 #### [Adjezenzmatrix](https://de.wikipedia.org/wiki/Adjazenzmatrix)
-![[../assets/adj_matrix.png|575]]
+![adj_matrix|750](../assets/adj_matrix.png)
 #### Adjezenzliste
-![[../assets/adj_liste.png|575]]
+![adj_liste|750](../assets/adj_liste.png)
 
-### [[Heap]]
+### [Heap](Heap.md)
 ---
 # Tags

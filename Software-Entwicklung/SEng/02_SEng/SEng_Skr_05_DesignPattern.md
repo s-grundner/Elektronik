@@ -46,7 +46,7 @@ Oft wird dieses Pattern vereinfacht implementiert, dabei wird das eine Objekt al
 
 Allgemeine Lösung: die Funktion `getInstance` muss Thread-Sicher ausgeführt werden.
 
- ![[Singleton UML class diagram]](bilder/UML_Pattern_Singleton.png)
+ ![Singleton UML class diagram](Singleton%20UML%20class%20diagram)(bilder/UML_Pattern_Singleton.png)
 
 c++ Beispiel:
 

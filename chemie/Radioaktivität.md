@@ -16,7 +16,7 @@ created: 20th August 2022
 | Allgemeine <br> Zerfallsformel | ${}^{A}_{Z}X\rightarrow {}^{A-4}_{Z-2}Y + {}^{4}_{2}He$               | ${}^{A}_{Z}X\rightarrow {}^{A}_{Z+1}Y + {}^{0}_{-1}e^{-} + {}^{0}_{0}\overline{v_{e}}$                             | ${}^{A}_{Z}X\rightarrow {}^{A}_{Z-1}Y + {}^{0}_{1}e^{+} + {}^{0}_{0}v_{e}$                                      | ${}^{A}_{Z}X* \rightarrow {}^{A}_{Z}X+\gamma$                                                                   |
 | Zerfallsvorgang                | Es werden zwei Protonen und zwei <br> Neutronen als $\alpha$-Teilchen | in Neutron wandelt sich im Kern in ein Proton um. <br> Dabei wird ein Elektron und Elektron-Antineutrino emittiert | Ein Proton wandelt sich im Kern in ein Neutron um. <br> Dabei wird ein Positron und Elektron-Neutrino emittiert | Kern geht von energetisch angeregtem Zustand <br> in energetisch günstigeren über und emittiert Gammastrahlung. |
 | Ionisationsvermögen            | sehr hoch                                                             | mittel                                                                                                             | mittel                                                                                                          | gering                                                                                                          |
-| Reichweit in [[Lufthülle der Erde\|Luft]]              | Einige Zentimeter                                                     | Einige Meter                                                                                                       | einige Meter                                                                                                    | Sehr weit                                                                                                       |
+| Reichweit in [Luft](Lufth%C3%BClle%20der%20Erde%5C)              | Einige Zentimeter                                                     | Einige Meter                                                                                                       | einige Meter                                                                                                    | Sehr weit                                                                                                       |
 | Abschirmung durch              | Papier                                                                | Aluminium                                                                                                          | Aluminium                                                                                                       | Blei                                                                                                            | 
 
 ### Positronen Emissions Tomographie (PET)
@@ -46,7 +46,7 @@ $N(t)= N_0 \cdot e^{-\lambda t}\,$
 Zwischen $\lambda$ und der Halbwertszeit $T_{1/2}$ besteht die Beziehung:
 $\lambda = \dfrac {\ln 2}{T_{1/2}} \approx \dfrac {0{,}693}{T_{1/2}}$
 
-![[hwz.png]]
+![hwz.png](hwz.png)
 
 ### C-14 Methode der Altersbestimmung
 In der obersten Atmosphärenschicht trifft **kosmische Strahlung** auf die Erde, wodurch aus einem Stickstoffkern und einem Neutron das radioaktive **Kohlenstoffisotop** $^{14}C$ entsteht.
@@ -77,9 +77,9 @@ $t=\dfrac{\ln{(\dfrac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)} = \dfrac{\ln{(\d
 
 ## Strahlenschäden
 
-## [[Kernspaltung]]
+## [Kernspaltung](Kernspaltung.md)
 
 ---
 # Tags
-[[Kernfusion]]
+[Kernfusion](Kernfusion.md)
 #incomplete 

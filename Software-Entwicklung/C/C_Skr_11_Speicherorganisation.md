@@ -89,7 +89,7 @@ int funct(int param) {                    // funct: text, param: stack
 }
 ```
 
-Beim Aufruf der Funktion **funct()** wird der aktuelle Instruction Pointer ([[Internet Protocol|IP]]) auf dem Stack gespeichert und die Funktion aufgerufen. Der Instruction Pointer ist die Adresse an der sich die Code-Ausführung gerade befindet und wird in einem eigenem Register gespeichert.
+Beim Aufruf der Funktion **funct()** wird der aktuelle Instruction Pointer ([IP](Internet%20Protocol.md)) auf dem Stack gespeichert und die Funktion aufgerufen. Der Instruction Pointer ist die Adresse an der sich die Code-Ausführung gerade befindet und wird in einem eigenem Register gespeichert.
 
 Der Stack hat eine begrenzte Größe, wächst und schrumpft während dem Programmverlauf, der Zugriff ist sehr effizient (Zugriff ohne eigenen Zeiger) und muss nicht explizit freigegeben werden.
 

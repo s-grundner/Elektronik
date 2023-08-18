@@ -9,7 +9,7 @@ last_edited: 17th April 2022
 ---
 
 # Hash Maps
-![[../../assets/buddah.png]]
+![buddah](../../assets/buddah.png)
 
 ---
 # Tags

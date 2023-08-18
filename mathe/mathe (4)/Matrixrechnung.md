@@ -40,11 +40,11 @@ B_{13} & B_{23}\\
 $$
 ## Multiplikation
 > [!important] Größe des Produkts
-> ![[Matrix_multiplication.png|525]]
+> ![525](Matrix_multiplication.png)
 
 
 > [!important] Berechnung der Werte
-> ![[Pasted image 20230102212307.png|400]]
+> ![400](Pasted%20image%2020230102212307.png)
 
 
 ---

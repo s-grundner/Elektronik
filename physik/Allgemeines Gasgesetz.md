@@ -33,8 +33,8 @@ $$
 | Bezeichnung                                   | Formelzeichen | Einheit                |
 | --------------------------------------------- | ------------- | ---------------------- |
 | Druck                                         | $p$           | $\frac{N}{m^{2}}=Pa$   |
-| [[Molvolumen\|Gasvolumen]]                    | $V$           | $dm^{3}=l$             |
-| [[Temperatur und Teilchenmodell\|Temperatur]] | $T$           | $K$                    |
+| [Gasvolumen](Molvolumen%5C)                    | $V$           | $dm^{3}=l$             |
+| [Temperatur](Temperatur%20und%20Teilchenmodell%5C) | $T$           | $K$                    |
 | Stoffmenge (Molzahl)                          | $n$           | $mol$                  |
 | Teilchenzahl                                  | $N$           | Anzahl                 |
 | Avogadro Konstante                            | $N_{A}$       | $\frac{1}{mol}$        |
@@ -46,7 +46,7 @@ $$
 **Ideales Gas:**
 - nimmt den zu Verfügung stehenden Raum **zur Gänze** ein.
 - Erdanziehungskraft ist vernachlässigbar
-- Volumen der Gas Atome / [[Atombindung|Moleküle]] ist Vernachlässigbar zum Gesamtvolumen
+- Volumen der Gas Atome / [Moleküle](Atombindung.md) ist Vernachlässigbar zum Gesamtvolumen
 - Anziehungskraft untereinander vernachlässigbar
 - Haben nur **eine** Molekülsorte
 

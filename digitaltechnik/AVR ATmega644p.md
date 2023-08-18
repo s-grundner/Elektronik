@@ -34,7 +34,7 @@ const int mydata[] PROGMEM = ...
 
 ## Assembly
 > [!example] 
-> ![[assets/AVR_Assembly1.png]]
+> ![AVR_Assembly1](assets/AVR_Assembly1.png)
 > Vor dem Start des Programms wurde das gesamte interne Datenmemory (insklusive der Register R0-R31) auf 0x5A initialisiert. Indirektes Register X=R27:R26
 > **Was steht nach der Ausführung des Programms (also von C:0x002B-letztem Befehl) auf folgender Adressen:**
 > D:0x0029 : `0x5A ` 
@@ -204,14 +204,14 @@ int main()
 
 ## Protokolle
 
-## [[{MOC} Schnittstellen]]
-- [[TWI|I2C]]/[[TWI]]
--  [[USART]]
+## [{MOC} Schnittstellen](%7BMOC%7D%20Schnittstellen.md)
+- [I2C](TWI.md)/[TWI](TWI.md)
+-  [USART](USART.md)
 
 # Algo
-- [[Ringbuffer]]
+- [Ringbuffer](Ringbuffer.md)
 
 # Quellen
 - [AVR Tips and API](https://onlinedocs.microchip.com/pr/GUID-78362176-487F-41B9-95C7-B478A9A186EB-en-US-2/index.html?GUID-E8E50411-4A61-4C7B-A8FD-7E07E93F6DDE)
-- [[Instruction_Set_8bit.pdf]]
-- [[at644p.pdf]]
+- [Instruction_Set_8bit](Instruction_Set_8bit.pdf)
+- [at644p](at644p.pdf)

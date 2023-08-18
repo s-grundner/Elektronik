@@ -15,7 +15,7 @@ created: 7th November 2022
 	- Anzahl von der gesamten Phasendrehung abhängig ($\geq180\degree$)
 - Phasenbedingung:
 	- $180\degree$ Drehung wegen invertierenden Verstärker ($\alpha=180\degree$)
-	- min. 3x $60\degree$ Glieder um das [[Barkhausen Kriterium|BHK]] zu erfüllen ($\beta=180\degree$)
+	- min. 3x $60\degree$ Glieder um das [BHK](Barkhausen%20Kriterium.md) zu erfüllen ($\beta=180\degree$)
 - Verstärker kompensiert die Rückkopplungsdämpfung
 
 
@@ -23,7 +23,7 @@ created: 7th November 2022
 > [!summary] $\omega_{0}=\dfrac{\sqrt{6}}{RC}\qquad v_{0}=|29|$
 
 ## Schaltung
-![[Pasted image 20230124215050.png|925]]
+![925](Pasted%20image%2020230124215050.png)
 
 ## Herleitung
 
@@ -54,8 +54,8 @@ $$
 >3 Filterstufen mit $\left|\dfrac{U_{2}}{U_{1}}\right|=\dfrac{1}{2}\rightarrow\dfrac{1}{2}\cdot\dfrac{1}{2}\cdot\dfrac{1}{2} = \dfrac{1}{8}$ 
 
 ## Herleitung des gepufferten PSO
-> [!tip] [[Kettenmatrix|Kettenmatrizen]] für die Herleitung
-> ![[PSO-kette.png|975]]
+> [!tip] [Kettenmatrizen](Kettenmatrix.md) für die Herleitung
+> ![975](PSO-kette.png)
 
 $$
 A = \begin{pmatrix}
@@ -69,7 +69,7 @@ j\omega C & 1
 &&A_{22}=1\\
 \end{align*}
 $$
-[[Matrixrechnung|Multiplikation der Matrizen:]] $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$
+[Multiplikation der Matrizen:](Matrixrechnung.md) $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$
 Terme $A_{11}\dots A_{22}$ sind sehr lang
 
 $$
@@ -88,4 +88,4 @@ $$
 \end{align*}
 $$
 # Tags
-[[Kettenmatrix]]
+[Kettenmatrix](Kettenmatrix.md)

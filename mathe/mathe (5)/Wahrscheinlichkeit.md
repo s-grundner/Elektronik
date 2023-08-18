@@ -8,7 +8,7 @@ created: 4th October 2022
 ---
 
 # Wahrscheinlichkeit $P(\omega)$
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [[Grenzwert]] der Folge $\langle h(\omega)\rangle$.
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [Grenzwert](Grenzwert.md) der Folge $\langle h(\omega)\rangle$.
 
 >[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
 
@@ -25,27 +25,27 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 > - eine Münze werfen
 
 ## Wahrscheinlichkeitsfunktion
-[[Grundmenge]] $\Omega$:
+[Grundmenge](Grundmenge.md) $\Omega$:
 $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
 > [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
 
 ### Laplace Experiment (Laplace Modell)
-- Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle [[Ereignis|Elementarereignisse]] gleichwahrscheinlich sind.
+- Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle [Elementarereignisse](Ereignis.md) gleichwahrscheinlich sind.
 - Typische Beispiele sind hier auch der Münzwurf oder ein Würfelwurf.
 
 Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$
 
 >[!summary] $P(\omega_{i})=\dfrac{1}{|\Omega|}$
 >mit
-> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des [[Ereignis]] $\omega$
-> - $|\Omega|\dots$ die Anzahl der möglichen [[Ereignis|Ereignisse]]
+> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des [Ereignis](Ereignis.md) $\omega$
+> - $|\Omega|\dots$ die Anzahl der möglichen [Ereignisse](Ereignis.md)
 
 >[!summary] $P(E)=\dfrac{E}{|\Omega|}$
 > mit:
-> - $P(E)\dots$ die Wahrscheinlichkeit eines [[Ereignis]]
-> - $E\dots$ die Anzahl der günstigen [[Ereignis|Ereignisse]]
-> - $|\Omega|\dots$ die Anzahl der möglichen [[Ereignis|Ereignisse]] 
+> - $P(E)\dots$ die Wahrscheinlichkeit eines [Ereignis](Ereignis.md)
+> - $E\dots$ die Anzahl der günstigen [Ereignisse](Ereignis.md)
+> - $|\Omega|\dots$ die Anzahl der möglichen [Ereignisse](Ereignis.md) 
 
 > [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
 
@@ -56,28 +56,28 @@ Ist $P(B)\neq 0$, so heißt der Wert  $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die 
 
 ### Additionssatz (ODER-Regel)
 
-> [!summary] für beliebige [[Ereignis|Ereignisse]]
+> [!summary] für beliebige [Ereignisse](Ereignis.md)
 > $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
 
->[!summary] für [[Ereignis#Unvereinbare Ereignisse|unvereinbare Ereignisse]]
+>[!summary] für [](Ereignis.md#Unvereinbare%20Ereignisse%7Cunvereinbare%20Ereignisse)
 > $$P(A\vee B) = P(A) + P(B) - 0$$
 
 ### Multiplikationssatz (UND-Regel)
 
->[!summary] für beliebige [[Ereignis|Ereignisse]]
+>[!summary] für beliebige [Ereignisse](Ereignis.md)
 > $P(A\wedge B)=P(A)\cdot P(B|A)$
 > - $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
 > - $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
 
->[!summary] für [[Ereignis#Unabhängige Ereignisse|unabhängige Ereignisse]]
+>[!summary] für [](Ereignis.md#Unabh%C3%A4ngige%20Ereignisse%7Cunabh%C3%A4ngige%20Ereignisse)
 > $P(A\wedge B)=P(A)\cdot P(B)$
 
 ## Gegenereignis
 
->[!summary] [[Wahrscheinlichkeit]] für das Gegenereignis von $A$:
+>[!summary] [Wahrscheinlichkeit](Wahrscheinlichkeit.md) für das Gegenereignis von $A$:
 > $P(\overline{A})=1-P(A)$
 
-öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die [[Wahrscheinlichkeit]] des Gegenereignisses ermittelt.
+öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) des Gegenereignisses ermittelt.
 So gilt: <mark style="background: #FFB86CA6;">Mindestens eines = nicht keines</mark>
 
 >[!example] gerade & ungerade Zahl beim Roulette
@@ -97,15 +97,15 @@ So gilt: <mark style="background: #FFB86CA6;">Mindestens eines = nicht keines</m
 - Kann durch ein sogenanntes Baumdiagramm veranschaulicht werden.
 - Durch ein Baumdiagramm auch die Berechnung von Wahrscheinlichkeiten erheblich erleichtert werden.  
 ### Pfadregeln
-![[Pasted image 20230108013030.png]]
+![Pasted image 20230108013030](Pasted%20image%2020230108013030.png)
 
-![[Pasted image 20230108013044.png]]
+![Pasted image 20230108013044](Pasted%20image%2020230108013044.png)
 
-![[Pasted image 20230108013054.png]]
+![Pasted image 20230108013054](Pasted%20image%2020230108013054.png)
 # Tags
-| ![[Pasted image 20221211123853.png]] | ![[UEB-rechnen-wsk.png]] | 
+| ![Pasted image 20221211123853](Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](UEB-rechnen-wsk.png) | 
 | ------------------------------------ | ------------------------ |
 
-[[Grundmenge]]
-[[Ereignis]]
+[Grundmenge](Grundmenge.md)
+[Ereignis](Ereignis.md)
 https://studyflix.de/statistik/wahrscheinlichkeit-1932

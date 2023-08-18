@@ -8,14 +8,14 @@ created: 8th January 2023
 ---
 
 # Ereignis $E$
-Oft interessiert uns nicht für die [[Wahrscheinlichkeit]] eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
-Das Ereignis $E$ ist eine Teilmenge der [[Grundmenge]] $\Omega$
+Oft interessiert uns nicht für die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften
+Das Ereignis $E$ ist eine Teilmenge der [Grundmenge](Grundmenge.md) $\Omega$
 
 >[!example] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
 
 ## Unvereinbare Ereignisse
 
-![[Pasted image 20230107220855.png]]
+![Pasted image 20230107220855](Pasted%20image%2020230107220855.png)
 
 >[!summary] Wenn die Ereignisse $A$ & $B$ unvereinbar sind, dann gilt
 >$P(A\vee B)=P(A)+P(B)$
@@ -32,7 +32,7 @@ Das Ereignis $E$ ist eine Teilmenge der [[Grundmenge]] $\Omega$
 > $B$ ist mit $C$ vereinbar
 
 ## Unabhängige Ereignisse
-![[Pasted image 20230108002929.png]]
+![Pasted image 20230108002929](Pasted%20image%2020230108002929.png)
 
 # Tags
-[[Wahrscheinlichkeit]]
+[Wahrscheinlichkeit](Wahrscheinlichkeit.md)

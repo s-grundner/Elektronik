@@ -13,6 +13,6 @@ created: 1st March 2023
 > - $U_{h}$ = Amplitude der hinlaufenden Welle
 > - $U_{r}$ = Amplitude der rücklaufenden Welle
 > 
-> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die [[Dämpfung]] und Wellenlänge und ist eine wichtige Leitungskenngröße.
+> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die [Dämpfung](D%C3%A4mpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
 
 # Tags

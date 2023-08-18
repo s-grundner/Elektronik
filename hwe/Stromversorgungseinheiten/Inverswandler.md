@@ -12,22 +12,22 @@ created: 26th September 2022
 - Die Ausgangsspannung $U_{e}$ kann größer oder kleiner als $U_{e}$ sein.
 
 ## Schaltbild
->![[hwe/assets/Untitled Diagram.svg]]
+>![Untitled Diagram](hwe/assets/Untitled%20Diagram.svg)
 
-Der [[{MOC} Transistor|Transistor]] arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird.
+Der [Transistor](%7BMOC%7D%20Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird.
 Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 
 ## Lauf-Zeit-Diagramm
->![[../assets/BuckBoostLZD.png]]
+>![BuckBoostLZD](../assets/BuckBoostLZD.png)
 > <mark style="background: #ABF7F7A6;">$\Delta I_{L1}$</mark>
 > <mark style="background: #FFF3A3A6;">$\Delta I_{L2}$</mark> 
 
 ### Kontinuierlicher Betrieb
->![[BuckBoostConID.png]]
+>![BuckBoostConID](BuckBoostConID.png)
 > <mark style="background: #FF5582A6;">$I_{a,max}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
 
 ### Diskontinuierlicher Betrieb
->![[BuckBoostDisconID.png]]
+>![BuckBoostDisconID](BuckBoostDisconID.png)
 > <mark style="background: #FF5582A6;">$I_{a,min}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
 
 ## Schalter $S$ bzw. Transistor $T$
@@ -55,10 +55,10 @@ $$
 \end{align*}
 $$
 ## Induktivität
-$\rightarrow$ [[Boost Converter#Induktivitäten Induktivität|Indiuktivität Boostconverter]]
+$\rightarrow$ [](Boost%20Converter.md#Induktivit%C3%A4ten%20Induktivit%C3%A4t%7CIndiuktivit%C3%A4t%20Boostconverter)
 ## Kapazitzät
-$\rightarrow$ [[Boost Converter#Kapazität|Kapazität BoostConverter]]
+$\rightarrow$ [](Boost%20Converter.md#Kapazit%C3%A4t%7CKapazit%C3%A4t%20BoostConverter)
 
 ---
 # Tags
-![[Schaltnetzteile_Schmidt-Walter.pdf]]
+![Schaltnetzteile_Schmidt-Walter](Schaltnetzteile_Schmidt-Walter.pdf)

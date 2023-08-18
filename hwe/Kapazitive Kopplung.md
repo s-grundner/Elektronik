@@ -12,9 +12,9 @@ Die Übertragung der Störgröße auf den Nutzkreis erfolgt über das
 elektrische Feld.
 Ursache für Kapazitive beeinflussung sind parasitäre (d.h nicht beabsichtigte)
 Kapazitäten zwischen Leitern die zu verschiedenen Stromkreisen gehören.
-![[Pasted image 20230316093012.png|600]]
-Für den (allgemeinen) Fall, dass die [[Impedanz]] der Koppelkapazität sehr viel
-größer ist als die [[Impedanz]] des Nutzkreises folgt:
+![600](Pasted%20image%2020230316093012.png)
+Für den (allgemeinen) Fall, dass die [Impedanz](Impedanz.md) der Koppelkapazität sehr viel
+größer ist als die [Impedanz](Impedanz.md) des Nutzkreises folgt:
 
 $$
 \begin{align*}
@@ -33,18 +33,18 @@ $$
 
 # Schirmung
 >[!info] Die Koppelkapazität teilt sich auf:
->Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die [[Kapazität]] $C_{S2}$ zwischen Schrim und Nutzkreis.
+>Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die [Kapazität](Kapazit%C3%A4t.md) $C_{S2}$ zwischen Schrim und Nutzkreis.
 >Bei gleicher Amplitude und $\frac{d}{dt}$ der Störquelle verringert sich damit die eingekoppelte Störspannung.
->![[Pasted image 20230316091847.png]]
+>![Pasted image 20230316091847](Pasted%20image%2020230316091847.png)
 
 > [!important] ESB
-> ![[Pasted image 20230316091915.png|500]]
+> ![500](Pasted%20image%2020230316091915.png)
 
 Der Schirm muss jeweils aus gut leitendem Material bestehen, damit der über ihn abfliessende Strom keinen nennenswerten Spannungsabfall über der Schirmimpedanz $Z_{s} = R_{s}+j\omega L_{s}$ erzeugt.
 
 
 > [!example] PCB mit übereinander Kreuzende Leiterbahnen
-> ![[kap_kopplung_bsp1.png|525]]
-> ![[Modellbildung.png]]
+> ![525](kap_kopplung_bsp1.png)
+> ![Modellbildung](Modellbildung.png)
 
 # Tags

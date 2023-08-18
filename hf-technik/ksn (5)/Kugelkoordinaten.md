@@ -19,10 +19,10 @@ z &=& r \cdot \cos \theta
 $$
 
 >[!info] $r,\theta,\varphi$ eines Punktes $P$ und kartesisches Koordinatensystem mit den Achsen $x,y,z$
->![[kugelkoordinaten.png|450]]
+>![450](kugelkoordinaten.png)
 
 ## Anwendungen
-- Berechnung von [[Antenne]]nkenngrößen.
+- Berechnung von [Antenne](Antenne.md)nkenngrößen.
 
 # Quellen
 [Wikipedia](https://de.wikipedia.org/wiki/Kugelkoordinaten)
