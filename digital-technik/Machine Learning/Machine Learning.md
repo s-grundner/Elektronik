@@ -67,8 +67,7 @@ y=(1/10)*(x-7)^2
 ```
 
 # Matlab Simulations
-````ad-example
-title: Häuserpreis
+> [!example] Häuserpreis
 
 | $x_{0}$ | Size (feet$^{2}$)<br> $x_{1}$ | Number of Bedrooms <br> $x_{2}$ | Number of Floors <br> $x_3$ | Age of Home <br> $x_{4}$ | Price <br> $y$ |
 |:-------:|:-----------------------------:|:-------------------------------:|:---------------------------:|:------------------------:|:--------------:|
@@ -103,7 +102,9 @@ X_norm = [x0; x1_norm;x2_norm;x3_norm;x4_norm];
 Theta = [1;2;3;4;5];
 J = (1/(2*m)) * sum((Theta'*X_norm-y).^2);
 ```
+
 ### Vereinfacht
+
 ```matlab
 X = [2104 1416 1534 852; % (4x4)
 	5 3 3 2;
@@ -123,21 +124,8 @@ Xnorm = [ones(1, 4); Z];
 E = (Theta' * Xnorm) - Y;
 J = sum(E.^2);
 ```
-````
 
 # Quellen
-
->[!info] Teststoff
-> ### [Regression](Regression)
->anhand von datenpunkten einen $y$ wert ausrechenn
->Kosten $J$ aurechnen
->Neue $\theta$ Ausrechnen
->### Klassifiziereung
->entscheidungsgrenze einzeichnen durch Thata (geradengleichung)
->Bei einem neuen punkt die [WSK](../../mathe/mathe%20(5)/Wahrscheinlichkeit.md) ausrechnen, ob der neue punkt in der Klasse y=1 ist
->Kosten $J$ Ausrechnen
->Kein Neues $\theta$
->Als mtrixmultiplikation und mit normaler Algebra ausrechnen
 
 ## MatLab Commands
 

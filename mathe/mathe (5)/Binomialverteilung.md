@@ -43,70 +43,50 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 ![binom_tree](assets/binom_tree.png)
 
 ## unbekanntes $n$
-````ad-example
-title: Wie viele Tickets kann man verkaufen, sodass mit [WSK](Wahrscheinlichkeit.md)$=0.9$ der Flug nicht überbucht ist? 
-- Fluglinie überbucht Flüge (200 Sitze)
-- WSK, dass ein gebuchter Passagier erscheint, $p=0.93$
-
-$P(x\leq200)=P(x=0)+P(x=1)+\dots+P(x=200)\geq 0.9$
-
-```ad-success
-title: Lösung
-ausprobieren mit Taschenrechner: binomial CD kumulierte Binomialverteilung
-$n=210$
-```
-````
+> [!example] Wie viele Tickets kann man verkaufen, sodass mit [WSK](Wahrscheinlichkeit.md)$=0.9$ der Flug nicht überbucht ist? 
+> - Fluglinie überbucht Flüge (200 Sitze)
+> - WSK, dass ein gebuchter Passagier erscheint, $p=0.93$
+> $P(x\leq200)=P(x=0)+P(x=1)+\dots+P(x=200)\geq 0.9$
+> > [!success] Lösung
+> > ausprobieren mit Taschenrechner: binomial CD kumulierte Binomialverteilung
+> > $n=210$
 
 ## unbekanntes $k$ bei gegebener [WSK](Wahrscheinlichkeit.md)
-````ad-example
-title: Bsp
-$n=6\qquad p=0.4$
-bei welchem $k$ gilt $P(x\leq k)>0.6$
-````
+> [!example] Bsp
+> $n=6\qquad p=0.4$
+> bei welchem $k$ gilt $P(x\leq k)>0.6$
 
-````ad-example
-title: Würfeln mit einem Würfel
-- Entweder 6 oder nicht 6
-- 4 Versuche
-- 6er bei einem Würfel
 
-```ad-success
-title: Lösung
-![1375](Binom-vert.svg)
-$$
-\begin{align*}
-P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\
-P(k=2) = \binom{4}{2} \cdot\left(\frac{1}{6}\right)^{2} \cdot\left(\frac{5}{6}\right)^{2} = \frac{1}{6^{4}}\\
-P(k=3) = \binom{4}{3} \cdot\left(\frac{1}{6}\right)^{3} \cdot\left(\frac{5}{6}\right)^{1} = \frac{1}{6^{4}}\\
-P(k=1) = \binom{4}{1} \cdot\left(\frac{1}{6}\right)^{1} \cdot\left(\frac{5}{6}\right)^{3} = \frac{1}{6^{4}}\\
-P(k=6) = \binom{4}{0} \cdot\left(\frac{1}{6}\right)^{0} \cdot\left(\frac{5}{6}\right)^{4} = \frac{1}{6^{4}}
-\end{align*}
-$$
-
-````
+> [!example] Würfeln mit einem Würfel
+> - Entweder 6 oder nicht 6
+> - 4 Versuche
+> - 6er bei einem Würfel
+> > [!success] Lösung
+> > ![1375](Binom-vert.svg)
+> > $$
+> > \begin{align*}
+> > P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\
+> > P(k=2) = \binom{4}{2} \cdot\left(\frac{1}{6}\right)^{2} \cdot\left(\frac{5}{6}\right)^{2} = \frac{1}{6^{4}}\\
+> > P(k=3) = \binom{4}{3} \cdot\left(\frac{1}{6}\right)^{3} \cdot\left(\frac{5}{6}\right)^{1} = \frac{1}{6^{4}}\\
+> > P(k=1) = \binom{4}{1} \cdot\left(\frac{1}{6}\right)^{1} \cdot\left(\frac{5}{6}\right)^{3} = \frac{1}{6^{4}}\\
+> > P(k=6) = \binom{4}{0} \cdot\left(\frac{1}{6}\right)^{0} \cdot\left(\frac{5}{6}\right)^{4} = \frac{1}{6^{4}}
+> > \end{align*}
+> > $$
 
 
 
-````ad-example
-title: Prüfe, ob folgende [Zufallsvariable](Zufallsvariablen) $X$ binomialverteilt ist
-![Pasted image 20221122111119](Pasted%20image%2020221122111119.png)
-```ad-success
-title: Lösung
-1. 
-2. Nein, das ziehen eines Asses ist davon abhängig, wie viele bereits gezogen wurden
-3. Ja: $P=\frac{1}{20}$
-4.
-```
-````
 
-````ad-example
-title: Prüflos
-![725](Pasted%20image%2020221122112926.png)
+> [!example] Prüfe, ob folgende [Zufallsvariable](Zufallsvariablen) $X$ binomialverteilt ist
+>![Pasted image 20221122111119](Pasted%20image%2020221122111119.png)
+> > [!success] Lösung
+> > 1. 
+> > 2. Nein, das ziehen eines Asses ist davon abhängig, wie viele bereits gezogen wurden
+> > 3. Ja: $P=\frac{1}{20}$
+> > 4.
 
-```ad-success
-title: Lösung
-```
+> [!example] Prüflos
+> ![725](Pasted%20image%2020221122112926.png)
+> > [!success] Lösung
 
-````
 
 # Quellen

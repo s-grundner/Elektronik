@@ -9,9 +9,9 @@ created: 22nd November 2022
 # Colpitts Oszillator
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
-| <mark style="background: #FFB86CA6;">Colpitts:</mark> kapazitiv | <mark style="background: #FFB86CA6;">Hartley:</mark> [induktiv](Induktivit%C3%A4ten%5C) | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
-| --------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![colpitts1](../assets/colpitts1.png)                            | ![Pasted image 20221128102527](../assets/Pasted%20image%2020221128102527.png)                                              | ![Pasted image 20221128102551](../assets/Pasted%20image%2020221128102551.png)                                    |
+| <mark style="background: #FFB86CA6;">Colpitts:</mark> [kapazitiv](../Kapazität.md) | <mark style="background: #FFB86CA6;">Hartley:</mark> [induktiv](../Induktivitäten.md) | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
 
 Häufigste [Kombination](../../mathe/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)
 Vorteil: 
@@ -37,7 +37,9 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 	- … andererseits $\frac{C_{2}}{C_{1}}=S\cdot R_{L}$ -> Steilheit $S=\frac{\Delta I_{C}}{\Delta U_{BE}}$
 
 ## Herleitung
+
 ### Kapazitive 3-Punktschaltung
+
 Ein Teil der [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
 ![500](../assets/Pasted%20image%2020221128104351.png)
 ![Pasted image 20221128104421](../assets/Pasted%20image%2020221128104421.png)

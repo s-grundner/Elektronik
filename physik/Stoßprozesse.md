@@ -7,12 +7,15 @@ created: 31st May 2022
 ---
 
 # Stoßprozesse zwischen Teilchen
-Energie : $E_{kin} = \dfrac{m\cdot v^{2}}{2}$
-Kratfstoß: $p = F\cdot t$
-Impulsübertragung: $p = m\cdot v$
+
+- Energie : $E_{kin} = \dfrac{m\cdot v^{2}}{2}$
+- Kratfstoß: $p = F\cdot t$
+- Impulsübertragung: $p = m\cdot v$
 
 ## Unelastischer Stoß
+
 ![Unelastischer_stoss](assets/Unelastischer_stoss.svg)
+
 $$
 \begin{align*}
 m_{1}\cdot v_{1}+m_{2}\cdot v_{2} &= (m_{1}+m_{2})\cdot v_{s}\\
@@ -21,7 +24,9 @@ v_{s} &= \frac{m_{1}\cdot v_{1}+m_{2}\cdot v_{2}}{m_{1}+m_{2}}\\
 $$
 
 ## Elastischer Stoß
+
 Impulserhaltung: $m_{1}\cdot v_{1\text{, pre}}+m_{2}\cdot v_{2\text{, pre}} = m_{1}\cdot v_{1\text{, post}}+m_{2}\cdot v_{2\text{, post}}$
+
 Energieerhaltung: $\dfrac{m_{1}\cdot v_{1\text{, pre}}^{2}}{2}+\dfrac{m_{2}\cdot v_{2\text{, pre}}^{2}}{2} = \dfrac{m_{1}\cdot v_{1\text{, post}}^{2}}{2}+\dfrac{m_{2}\cdot v_{2\text{, post}}^{2}}{2}$
 
 $$
@@ -31,10 +36,8 @@ v'_{2} = u_{2} &= 2\cdot v_{s} - v_{2}
 \end{align*}
 $$
 
-```ad-example
-title: Gummiball und Wand
+> [!example] Gummiball und Wand
 ![elastischer_stoss1](elastischer_stoss1.svg)
-```
 
 ---
 # Tags

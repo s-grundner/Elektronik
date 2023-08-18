@@ -28,10 +28,8 @@ Fragen die vorab überlegt werden müssen (Expertenwissen)
 - Ist eine Versicherung immer an der gleichen Adresse?
 - Können an einem Tag mehrere Reparaturen am gleichen Fahrrad, für den gleichen Kunden stattfinden?
 
-```ad-success
-title: Lösung
-![Pasted image 20221123110050](Pasted%20image%2020221123110050.png)
-```
+> [!success] Lösung
+> ![Pasted image 20221123110050](Pasted%20image%2020221123110050.png)
 
 ## CD-Lieder
 
@@ -45,38 +43,36 @@ Führen Sie die Tabelle nacheinander in die 1te, 2te und 3te Normalform über
 - Ein Interpret kann mehrere CDs herausbringen
 - Ein Künstler/Band hat nur ein Gründungsjahr
 
-```ad-success
-title: Lösung:
+> [!success] Lösung:
+> 
+> in die 1.NF durch Atomarisieren:
+> 
+> - Das Feld *Album* enthält den *Interpret* und den *Albumtitel*
+> - Die Titelliste enthält mehrere *Titel* (können auch auf unterschiedlichen *Alben* vorkommen)
+> - als Primär-Schlüssel wird *CdId* gemeinsam mit der *Track*-Nummer gewählt
+> 
+> ![CD-Lieder](bilder/NF_CD_02.png)
+> 
+> in die 2.NF durch funktional unabhängige Attribute:
+> 
+> - *Album/Interpret/Gründungsjahr* hängt nur von einem Teil des Primärschlüssels ab, von der *CdId*:  **CdId → (Album, Interpret, Gründungsjahr)**
+> - der *Titel* hängt von beiden Schlüsselteilen ab, mit einem alleine kann ein Titel nicht bestimmt werden:  **CdId, Track → Titel**
+> 
+> ![CD-Lieder](bilder/NF_CD_04.png)
+> 
+> Transformation in die 3te Normalform:
+> 
+> ![CD-Lieder3](bilder/NF_CD_05.png)
+> 
+> - In der *Cd*-Tabelle zeigt sich: das *Gründungsjahr* der *Interpreten* ist nicht direkt von der *Cd*, sondern nur vom *Interpreten* abhängig (transitiv), das müsste noch in eine eigene Tabelle verschoben werden:
+>   
+>   - Cd: **CdId → (Album, InterpretenId)**
+>   - Künstler:  **InterpretenId → (Interpret, Gründungsjahr)**
+>   
+>   Um den Interpreten nicht in beiden Tabellen gleichermaßen abzulegen, wird der *Interpret* in die Künstlertabelle verschoben
+> 
+> ![CD-Lieder](bilder/NF_CD_03.png)
 
-in die 1.NF durch Atomarisieren:
-
-- Das Feld *Album* enthält den *Interpret* und den *Albumtitel*
-- Die Titelliste enthält mehrere *Titel* (können auch auf unterschiedlichen *Alben* vorkommen)
-- als Primär-Schlüssel wird *CdId* gemeinsam mit der *Track*-Nummer gewählt
-
-![CD-Lieder](bilder/NF_CD_02.png)
-
-in die 2.NF durch funktional unabhängige Attribute:
-
-- *Album/Interpret/Gründungsjahr* hängt nur von einem Teil des Primärschlüssels ab, von der *CdId*:  **CdId → (Album, Interpret, Gründungsjahr)**
-- der *Titel* hängt von beiden Schlüsselteilen ab, mit einem alleine kann ein Titel nicht bestimmt werden:  **CdId, Track → Titel**
-
-![CD-Lieder](bilder/NF_CD_04.png)
-
-Transformation in die 3te Normalform:
-
-![CD-Lieder3](bilder/NF_CD_05.png)
-
-- In der *Cd*-Tabelle zeigt sich: das *Gründungsjahr* der *Interpreten* ist nicht direkt von der *Cd*, sondern nur vom *Interpreten* abhängig (transitiv), das müsste noch in eine eigene Tabelle verschoben werden:
-  
-  - Cd: **CdId → (Album, InterpretenId)**
-  - Künstler:  **InterpretenId → (Interpret, Gründungsjahr)**
-  
-  Um den Interpreten nicht in beiden Tabellen gleichermaßen abzulegen, wird der *Interpret* in die Künstlertabelle verschoben
-
-![CD-Lieder](bilder/NF_CD_03.png)
-
-```
 
 ## Kurse
 

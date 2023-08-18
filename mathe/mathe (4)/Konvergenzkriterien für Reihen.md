@@ -6,8 +6,5 @@ source: ["Rudolf Frauenschuh"]
 ---
 
 # Leibnitz Kriterium
-```ad-example
-```
+
 # Quotienten Kriterium
-```ad-example
-```

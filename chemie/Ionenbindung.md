@@ -76,22 +76,14 @@ Aus der starken Anziehungskraft zwischen Anionen und Kationen resultiert eine Gi
 - im flüssigen oder gelösten Zustand sind sie elektr. Leiter (2. Klasse)
 - Spröde (Gitterebenen verschieben sich bei Krafteinwirkungen und stoßen sich ab)
 
-````ad-example
-title: Bsp.: Welche Summenformel haben folgende Ionenpaare:
-- $Ra^{2+}/Cl^{-}$
-- $Na^{+}/O^{2-}$
-- $Al^{3+}/F^{-}$
-
-```ad-success
-title: Lösung
-- $RaCl_{2}$
-- $Na_{2}O$
-- $AlF_{3}$
-
-```
-
-
-````
+> [!example] Welche Summenformel haben folgende Ionenpaare:
+> - $Ra^{2+}/Cl^{-}$
+> - $Na^{+}/O^{2-}$
+> - $Al^{3+}/F^{-}$
+> > [!success] Lösung
+> > - $RaCl_{2}$
+> > - $Na_{2}O$
+> > - $AlF_{3}$
 
 ---
 # Tags

@@ -8,10 +8,8 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 - Mitarbeiter hat PersNr, Name und Adresse
 - Kurse haben eine KNr, einen Leiter und einen Termin
 
-```ad-success
-title: Lösung
+> [!success] Lösung
 ![htbluva_sbg_fsst/Db/Untitled Diagram.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram.svg)
-```
 
 ## Projektdatenbank
 
@@ -22,10 +20,8 @@ Erstellen Sie ein ER-Diagramm für folgende Anforderung:
 - Abteilungen haben ein Kürzel und einen Namen
 - Abteilungen sind hirarchisch orgranisiert (können (maximal eine) Oberabteilung haben)
 
-``` ad-success
-title: Lösung
-![htbluva_sbg_fsst/Db/Untitled Diagram 1.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%201.svg)
-```
+> [!success] Lösung
+> ![htbluva_sbg_fsst/Db/Untitled Diagram 1.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%201.svg)
 
 ## Kardinalitäten
 
@@ -40,8 +36,9 @@ Bestimmen Sie die Kardinalitäten der folg. Beziehungen:
 | Schüler entlehnen Bücher in der Bibliothek         |     |
 | Ein Mitarbeiter leitet ein Projekt                 |     |
 
-```ad-success
-title: Lösung
+> [!success] Lösung
+
+
 | Kunden beauftragen Projekte                        | N:M |
 | -------------------------------------------------- | --- |
 | Firmen erzeugen Produkte                           | N:M |
@@ -50,7 +47,6 @@ title: Lösung
 | Studierende besuchen eine oder mehrere Vorlesungen | N:M |
 | Schüler entlehnen Bücher in der Bibliothek         | N:1 |
 | Ein Mitarbeiter leitet ein Projekt                 | 1:1 |
-```
 
 
 ## Bibliothek
@@ -100,10 +96,8 @@ Variante:
 - Die in Zeitschriften publizierten Artikel sind ebenso wie Bücher einem oder mehreren Fachgebieten (z.B. Betriebssysteme, Datenbanksysteme, Programmiersprachen) zugeordnet.
 - Ausgeliehen werden können nur Bücher (keine Zeitschriften).
 
-```ad-success
-title: Lösung
-![htbluva_sbg_fsst/Db/Untitled Diagram 2.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%202.svg)
-```
+> [!success] Lösung
+> ![htbluva_sbg_fsst/Db/Untitled Diagram 2.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%202.svg)
 
 ## Uni-Verwaltungssystem
 
@@ -124,10 +118,8 @@ title: Lösung
 - Eine Webanbindung (Vorlesungsverzeichnis) soll realisiert werden
 - Eine MS-Access / Openoffice base Anwendung zur Verwaltung der Daten und zur Berichterzeugung soll erstellt werden.
 
-```ad-success
-title: Lösung
-![htbluva_sbg_fsst/Db/Untitled Diagram 3.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%203.svg)
-```
+> [!success] Lösung
+> ![htbluva_sbg_fsst/Db/Untitled Diagram 3.svg](htbluva_sbg_fsst/Db/Untitled%20Diagram%203.svg)
 
 ## Schule
 

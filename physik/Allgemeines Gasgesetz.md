@@ -7,6 +7,7 @@ created: 18th August 2022
 ---
 
 # Allgemeines Gasgesetz
+
 Das Gesetz von Boyle-Mariotte und das Gesetz von Gay-Lussac können zur allgemeinen Gasgleichung Zusammengefasst werden.
 Das Allgemeine Gasgesetz besagt: $\dfrac{p\cdot V}{T}$ **ist konstant**
 
@@ -21,6 +22,7 @@ $V\propto T$
 $\dfrac{V_{1}}{V_{2}} = \dfrac{T_{1}}{T_{2}}$
 
 # Universelle Gasgleichung
+
 $$
 \begin{align*}
 p\cdot V &= n\cdot R\cdot T\\
@@ -32,8 +34,8 @@ $$
 | Bezeichnung                                   | Formelzeichen | Einheit                |
 | --------------------------------------------- | ------------- | ---------------------- |
 | Druck                                         | $p$           | $\frac{N}{m^{2}}=Pa$   |
-| [Gasvolumen](Molvolumen%5C)                    | $V$           | $dm^{3}=l$             |
-| [Temperatur](Temperatur%20und%20Teilchenmodell%5C) | $T$           | $K$                    |
+| [Gasvolumen](Molvolumen.md)                    | $V$           | $dm^{3}=l$             |
+| [Temperatur](Temperatur%20und%20Teilchenmodell.md) | $T$           | $K$                    |
 | Stoffmenge (Molzahl)                          | $n$           | $mol$                  |
 | Teilchenzahl                                  | $N$           | Anzahl                 |
 | Avogadro Konstante                            | $N_{A}$       | $\frac{1}{mol}$        |
@@ -42,6 +44,7 @@ $$
 
 
 # Ideales Gas und reales Gas
+
 **Ideales Gas:**
 - nimmt den zu Verfügung stehenden Raum **zur Gänze** ein.
 - Erdanziehungskraft ist vernachlässigbar
@@ -54,7 +57,3 @@ $$
 - Atome bewegen sich durch den raum nie gleicher abstand dazwischen
 - Nicht gut rechenbar $\rightarrow$ Modell ideales gas
 
-
-
----
-# Tags

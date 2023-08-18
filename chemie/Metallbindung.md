@@ -7,7 +7,7 @@ created: 23rd August 2022
 ---
 
 # Metallbindung
->![225](Metall-bdn.png)
+![](assets/Metall-bnd.png)
 
 Starke Anziehungskräfte zwischen Kationen und Elektronengas halten das Metallgitter zusammen.
 
@@ -19,11 +19,8 @@ Aus Gitteraufbau folgt:
 - sind duktil (mechanisch verformbar) $\rightarrow$ Gitterebenen gleiten übereinander
 - bilden **Legierungen** (Atome im Metallgitter können ausgetauscht werden)
 
-```ad-note
-title: Legierung:
+>[!note] Legierung
 Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
-```
-
 
 ---
 # Tags

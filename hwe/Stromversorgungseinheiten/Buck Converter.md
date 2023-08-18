@@ -97,12 +97,13 @@ Zu Beachten:
 - Bauteilplatzierung Wichtig
 - Layout Guideline beachten (im Datasheet)
 
-| Groß     | [Kondensator](Kapazit%C3%A4t%5C)       | Spule                  | Frequenz                |
+| Groß     | [Kapazität](../Kapazität.md)      | Spule                  | Frequenz                |
 | -------- | ----------------- | ---------------------- | ----------------------- |
 | Vorteil  | Stärkere Glättung | kleines $\Delta I_{L}$ | Spule kann kleiner sein |
-| Nachteil |                   | großes Package         | größere [EMV](Elektromagnetische%20Vertr%C3%A4glichkeit%5C)            |
+| Nachteil |                   | großes Package         | größere [EMV](../Elektromagnetische%20Verträglichkeit.md)            |
 
 ### Mindest Spulenwert
+
 >![Lückgrenze](../assets/Lückgrenze.svg)
 
 Damit der Spulenstrom in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, muss folgendes gelten:
@@ -111,8 +112,10 @@ $$
 	I_{Amin} = \frac{\Delta I_{L}}{2}\rightarrow R_{L,max} = \frac{U_{a}}{\frac{\Delta I_{L}}{2}} = \frac{2\cdot U_{a}}{\Delta I_{L}}
 \end{align*}
 $$
-Mit [](Buck%20Converter.md#0%20t%20t_%201%20S_%20geschlossen|(1)) folgt $\dots$ $\Delta I_{L} = \dfrac{1}{L}\cdot (U_{e}-U_{a})\cdot T_{s}$
+
+Mit [$0<t<t_{1}$ $S_{geschlossen}$](Buck%20Converter.md#$0<t<t_{1}$%20$S_{geschlossen}$) folgt $\dots$ $\Delta I_{L} = \dfrac{1}{L}\cdot (U_{e}-U_{a})\cdot T_{s}$
 Unter vernachlässigung von $U_{FO}$
+
 $$
 I_{Amin} = \frac{1}{2L_{min}}\cdot (U_{e}-U_{a})\cdot T_{s}
 $$
@@ -129,15 +132,19 @@ C_{a,min} &= \frac{U_{a}\cdot T^{2}}{8L\cdot\Delta U_{a}}\cdot\left(1- \frac{U_{
 \end{align*}
 $$
 ## Erzeugung des Schaltsignals
+
 Die erzeugung von $U_{steuer}$ erfolg mit einem Pulsbreiten modulator und mit einem Regler mit Spannungsreferenz
 
 >![bsb](../assets/bsb.svg)
 
 ### Funktionsweise des Impulsbreitenmodulators
+
 >![Untitled Diagram 1](../assets/Untitled%20Diagram%201.svg)
 
 Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](../Metall-Oxid-Halbleiter-Feldeffekttransistor.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte [Voltage-Mode-Regelung](../Voltage-Mode-Regelung.md). 
 
 ---
+
 # Tags
+
 [Schaltnetzteil](Schaltnetzteil.md)

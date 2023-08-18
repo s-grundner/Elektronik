@@ -14,7 +14,7 @@ $\Delta EN=0$ [Metallbindung](Metallbindung.md) oder unpolare [Atombindung](Atom
 $\Delta EN < 1.7$ polare [Atombindung](Atombindung.md)
 
 ### [Metallbindung](Metallbindung.md)
->![Metall-bdn.png](Metall-bdn.png)
+>![Metall-bnd.png](assets/Metall-bnd.png)
 > - Kristallgitter mit Atomrümpfen ($M^{+}$)
 > - freibewegliche $e^{-}$ "Elektronengas"
 

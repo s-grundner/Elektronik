@@ -7,12 +7,12 @@ created: 23rd August 2022
 ---
 
 # Atombindung
->![Atom-bnd.png](Atom-bnd.png)
-- Wichtigste art der Bindung zwischen 2 Nichtmetallatomen
+![](assets/Atom-bnd.png)
+- Wichtigste Art der Bindung zwischen 2 Nichtmetallatomen
 - $\Delta EN < 1.7$
 - Elektronen-Wolken durchdringen einander $\rightarrow$ <mark style="background: #ADCCFFA6;">negative</mark> Ladungswolke hält <mark style="background: #FF5582A6;">positive</mark> Kerne zusammen $\rightarrow$ Neues Teilchen: **Molekül**
 - $H_{2}$ Molekül ist energieärmer als 2x $H$
->![molekuel2h](assets/molekuel2h.png)
+![molekuel2h](assets/molekuel2h.png)
 
 **Allgemeine Eigenschaften von Stoffen mit Atombindung**
 - Moleküle sind Elektrisch neutral $\rightarrow$ elektrische Isolatoren
@@ -43,7 +43,6 @@ Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 
 Durch gemeinsame Elektronenpaare erreichen all Atome Edelgaskonfiguration (8 [Valenzelektronen](Valenzelektronen.md)).
 Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektronenpaare bestimmt:
->![molekuel-struktur.png](molekuel-struktur.png)
 > Tetraeder ($CH_{4}$)
 > Verzerrter Tetraeder ($NH_{3}$)
 > gewinkeltes Molekül ($H_{2}O$)

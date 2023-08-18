@@ -21,7 +21,9 @@ Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20
 > $y(t) = y_{p}(t) + y_{h}(t)$
 
 ## Mechanischer Schwingkreis
-> ![400](../assets/m_schwingk.png)
+
+![400](../assets/m_schwingk.png)
+
 $$
 \begin{align*}
 	F_{feder} &= -k\cdot y & F_{a} &= F_{feder} + F_{reibung}\\
@@ -53,7 +55,7 @@ $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 ## Freie Schwingungen im realen Serienschwingkreis
 Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../hwe/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
-> ![400](../assets/e_serien_schwingk_frei.png)
+![400](../assets/e_serien_schwingk_frei.png)
 
 Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eingenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
@@ -92,21 +94,25 @@ $$
 --- 
 
 Nun kann man aus einer der [DGL]({MOC}%20DGL.md) die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) erzeugen
+
 $$
 \begin{align*}
 	\lambda^{2}+ \underbrace{\frac{R}{L}}_{2\delta}\lambda + \underbrace{\frac{1}{LC}}_{\omega_{0}^{2}} &= 0\\	
 \end{align*}
 $$
+
 >[!summary] $$\lambda^{2}+ 2\delta\cdot\lambda + \omega_{0}^{2} = 0$$
 
 
 ### Bezeichnungen
+
 | Ausdruck                                                | Bezeichnung                                                        |
 | ------------------------------------------------------- | ------------------------------------------------------------------ |
 | $2\delta = \frac{R}{L} \rightarrow \frac{R}{2L}=\delta$ | [Abklingkonstante](https://de.wikipedia.org/wiki/Abklingkonstante) |
 | $\omega_{0} = \frac{1}{\sqrt{LC}}$                      | Resonanzkreisfrequenz                                              |
 
 ### Lösung der Gleichung
+
 $\lambda_{1} = -\delta+\sqrt{\delta^{2}-\omega^{2}_{0}}$
 
 die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolgt
@@ -117,12 +123,13 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 | [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#2%20Fall%20Doppellösung%5C|2.%20Fall)                                 | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
 | [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen%5C|3.%20Fall) | $\delta<\omega_{0}$ | Schwingfall                                                                      |
 
+![400](../assets/faelle_e_sk.png)
 
->![400](../assets/faelle_e_sk.png)
->![Federpendel_verschiedene_Dämpfungen](../assets/Federpendel_verschiedene_Dämpfungen.gif)
+![Federpendel_verschiedene_Dämpfungen](../assets/Federpendel_verschiedene_Dämpfungen.gif)
 
 ## Erzwungene Schwingung im realen Serienschwingkreis
->![400](../assets/e_serien_schwingk_erzw.png)
+
+![400](../assets/e_serien_schwingk_erzw.png)
 
 Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige [Spannung](https://de.wikipedia.org/wiki/Ohmsches_Gesetz) $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
@@ -154,58 +161,64 @@ Mit dem Auflösen der [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) ergibt
 ### Bestimmung der Amplituden-Phasen-Form
 Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\cdot \sin(\omega\cdot t+\varphi)$ und beschreibt nur die Funktion nach dem Einschwingvorgang.
 
-``` ad-example
-Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
-![300](e_serien_schwingk_erzw.png)
-Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$
-Um den eingeschwungenen Zustand zu definieren, wird zunächst  $u_{h}$ - die homogene Lösung - ignoriert.
-$$
-\omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t) = \ddot u_{c} + 2\delta\dot u_{c} + \omega^{2}_{0}\cdot u_{c}
-$$
+> [!example] 
+> Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
+> 
+> ![300](e_serien_schwingk_erzw.png)
+> 
+> Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$
+> Um den eingeschwungenen Zustand zu definieren, wird zunächst  $u_{h}$ - die homogene Lösung - ignoriert.
+> $$
+> \omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t) = \ddot u_{c} + 2\delta\dot u_{c} + \omega^{2}_{0}\cdot u_{c}
+> $$
+> Die [partikuläre Lösung](lineare%20DGL%202.%20Ordnung%5C) wird daher ermittelt:
+> $$
+> \begin{align*}
+> 	u_{cp} &= a\cdot\sin(\omega t)+b\cdot\cos(\omega t)\\
+> 	\dot u_{cp} &= a\omega\cdot\cos(\omega t)-b\cdot\sin(\omega t)\\
+> 	\ddot u_{cp} &= -a\omega^{2}\cdot\sin(\omega t) - b\omega^{2}\cdot\cos(\omega t)\\
+> \\
+> 	\omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t)
+> 	&= -a\omega^{2}\cdot\sin(\omega t) - b\omega^{2}\cdot\cos(\omega t)\\
+> 	&+ 2\delta\cdot (a\omega\cdot\cos(\omega t) - b\omega\cdot\sin(\omega t))\\
+> 	&+ \omega^{2}_{0}\cdot (a\cdot\sin(\omega t) + b\cdot\cos(\omega t))\\
+> \\
+> 	\omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t)
+> 	&= -a\omega^{2}\cdot\sin(\omega t) - b\omega^{2}\cdot\cos(\omega t)\\
+> 	&+ 2\delta\cdot a\omega\cdot\cos(\omega t) - 2\delta\cdot b\omega\cdot\sin(\omega t)\\
+> 	&+ \omega^{2}_{0}\cdot a\cdot\sin(\omega t) + \omega^{2}_{0}\cdot b\cdot\cos(\omega t)\\
+> \\
+> 	0 &= \left.
+> 		-b\cdot\omega^{2}+2\delta\cdot a\cdot\omega + \omega^{2}_{0}\cdot b
+> 	\right|t=0\\
+> 	\omega^{2}_{0}\cdot\hat{u}_{e} &= \left.
+> 		-a\cdot\omega^{2}-2\delta\cdot b\cdot\omega + \omega^{2}_{0}\cdot a
+> 	\right|{t=\frac{\pi}{2\omega}}
+> \end{align*}
+> $$
 
-
-Die [partikuläre Lösung](lineare%20DGL%202.%20Ordnung%5C) wird daher ermittelt:
-$$
-\begin{align*}
-	u_{cp} &= a\cdot\sin(\omega t)+b\cdot\cos(\omega t)\\
-	\dot u_{cp} &= a\omega\cdot\cos(\omega t)-b\cdot\sin(\omega t)\\
-	\ddot u_{cp} &= -a\omega^{2}\cdot\sin(\omega t) - b\omega^{2}\cdot\cos(\omega t)\\
-\\
-	\omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t)
-	&= -a\omega^{2}\cdot\sin(\omega t) - b\omega^{2}\cdot\cos(\omega t)\\
-	&+ 2\delta\cdot (a\omega\cdot\cos(\omega t) - b\omega\cdot\sin(\omega t))\\
-	&+ \omega^{2}_{0}\cdot (a\cdot\sin(\omega t) + b\cdot\cos(\omega t))\\
-\\
-	\omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t)
-	&= -a\omega^{2}\cdot\sin(\omega t) - b\omega^{2}\cdot\cos(\omega t)\\
-	&+ 2\delta\cdot a\omega\cdot\cos(\omega t) - 2\delta\cdot b\omega\cdot\sin(\omega t)\\
-	&+ \omega^{2}_{0}\cdot a\cdot\sin(\omega t) + \omega^{2}_{0}\cdot b\cdot\cos(\omega t)\\
-\\
-	0 &= \left.
-		-b\cdot\omega^{2}+2\delta\cdot a\cdot\omega + \omega^{2}_{0}\cdot b
-	\right|t=0\\
-	\omega^{2}_{0}\cdot\hat{u}_{e} &= \left.
-		-a\cdot\omega^{2}-2\delta\cdot b\cdot\omega + \omega^{2}_{0}\cdot a
-	\right|{t=\frac{\pi}{2\omega}}
-\end{align*}
-$$
-```
 #### Koeffizienten $a$ und $b$ der partikulären Lösung 
+
 Durch umformen erhält man einer Formel für $a$ und $b$, die sich allgemein für die Berechnung von Schwingungen, mit einer trigonometrischen Funktion als Störterm, anwenden lässt:
+
 $$
 \begin{align*}
 	a&= \frac{\omega^{2}_{0}\cdot\hat{u}_{e}(\omega^{2}_{0}-\omega^{2})}{(\omega^{2}_{0}-\omega^{2})^{2}+4\delta^{2}\omega^{2}}\\
 	b&= \frac{-\omega^{2}_{0}\cdot\hat{u}_{e}\cdot2\delta\omega}{(\omega^{2}_{0}-\omega^{2})^{2}+4\delta^{2}\omega^{2}}
 \end{align*}
 $$
+
 #### Amplitude von $u_{cp}$ (Allgemein auch als $A(\omega)$)
+
 $$
 \begin{align*}
 	\hat{u}_{cp} &= \sqrt{a^{2}+b^{2}}\\
 	&=\frac{\omega^{2}_{0}}{\sqrt{(\omega^{2}_{0} - \omega^{2})^{2}+4\delta^{2}\omega^{2}}}\cdot\hat{u}_{e}
 \end{align*}
 $$
+
 #### Phase von $u_{cp}$
+
 $$
 \begin{align*}
 	\varphi_{p}&=\arctan\left(\frac{b}{a}\right)\\
@@ -221,9 +234,8 @@ $$
 	d'(\omega) &= 2(\omega^{2}_{0} - \omega^{2})\cdot(-2\omega)+4\delta^{2}2\omega\\
 \end{align*}
 $$
-```ad-note
-Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion%5C) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung%5C) ermittelt.
-```
+
+> [!note] Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion%5C) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung%5C) ermittelt.
 
 $$
 \begin{align*}
@@ -243,8 +255,11 @@ $$
  >![700](../assets/frequ_gang_e_serien_schwingk.png)
 
 ## Freie Schwingung im realen Parallelschwingkreis
+
 ![Pasted image 20221201122606](../assets/Pasted%20image%2020221201122606.png)
+
 # Hardware Implementationen
+
 - [LC Oszillatoren](../../hwe/Oszillatoren/LC%20Oszillatoren.md)
 - [Colpitts Oszillator](../../hwe/Oszillatoren/Colpitts%20Oszillator.md)
 

@@ -7,16 +7,20 @@ created: 6th April 2022
 ---
 
 # Referenzspannung
+
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
+
 Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
+
 ### Grundlagen
+
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)
 [Halbleitermaterialien](Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.
 $U_{g}= \frac{W_{g}}{e}$
 wobei $e$ die [](../physik/Konstanten%20Verzeichnis.md#Elementar%20Ladung%5C|Elementar%20Ladung) ist.
 
->![Baendermodell](assets/Baendermodell.png)
-	
+![Baendermodell](assets/Baendermodell.png)
+
 2. [Shockley Gleichung](../physik/Shockley%20Gleichung.md)
 $I_{c}= I_{s}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
 Näherung:
@@ -39,11 +43,13 @@ $U_{BE}=U_{g}+D_{T}\cdot T +\underbrace{[(\eta -1)U_{T}\cdot(1-\ln(\frac{T}{T_{0
 | $\eta -1$     | Materialkonstante    |                 |
 
 $U_{BE}$ wird mit steigender Erwärmung des Transistors kleiner, da $D_{T}$ *negativ* ist.
+
 ### Schaltung der [Bandabstandsreferenz](https://de.wikipedia.org/wiki/Bandabstandsreferenz)
 
->![400](assets/Bandabstandsreferenz.png)
+![400](assets/Bandabstandsreferenz.png)
 
 #### $U_{PTAT}$ Proportional to absolute temperature
+
 Mit den folgenden Schritten lässt sicht herleiten, dass $U_{ref}$ konstant bleibt.
 Mit der folgenden [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) lässt sich auf die Spannung über die Kollektorwiderstände ermitteln:
 
@@ -54,9 +60,9 @@ Mit der folgenden [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) lässt sic
 |    3    | $$\begin{align*}U_{R2} &= R_{C}(I_{E1}+ I_{E2})\\&= \frac{R_{2}}{R_{1}}\cdot\Delta U_{BE} + \frac{R_{C1}}{R_{C2}} \cdot \frac{R_{2}}{R_{1}}\cdot\Delta U_{BE}\\&= \frac{R_{2}}{R_{1}}\cdot\Delta U_{BE}(1+\frac{R_{C1}}{R_{C2}})\\&= U_{T}\cdot \ln(\frac{R_{C1}}{R_{C2}})\cdot \frac{R_{2}}{R_{1}}\cdot(1+\frac{R_{C1}}{R_{C2}})\\\end{align*}$$ |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |    4    | $$\begin{align*}\frac{dU_{ref}}{dT} &= 0\\U_{ref}&=U_{g2}+D_{T}\cdot T + U_{Ptat}\\\rightarrow \frac{dU_{ref}}{dT} &= D_{T} + \frac{k}{e}\cdot\ln(\frac{R_{C1}}{R_{C2}})\cdot \frac{R_{2}}{R_{1}}\cdot(1+\frac{R_{C1}}{R_{C2}})\end{align*}$$                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-```ad-note
-Eine Günstige Annahme bei der Dimensionierung: $R_{C1} = 10\cdot R_{C2}$
-```
+
+> [!info] Eine Günstige Annahme bei der Dimensionierung: $R_{C1} = 10\cdot R_{C2}$
+
 Es erfolgt eine Dimensionierung der Widerstände, sodass:
 $$
 \begin{align*}
@@ -69,7 +75,9 @@ $$
 \frac{k}{e} = \frac{U_{T}}{T} = \frac{25mV}{300K}
 \end{align*}
 $$
+
 Dimensionierung
+
 $$
 \begin{align*}
 D_{T} &= -2 \frac{mV}{K} = \frac{-25mV}{300K}\cdot \frac{R_{2}}{R_{1}}\underbrace{\left(10+1\right)\ln(10)}_{11\cdot2,3 = 25,33}\\
@@ -78,6 +86,9 @@ D_{T} &= \frac{-25mV}{300K}\cdot 25,33\cdot \frac{R_{2}}{R_{1}}\\
 R_{1}&\approx R_{2} 
 \end{align*}
 $$
+
 ---
+
 # Tags
+
 [Chemische Bindungen](../chemie/Chemische%20Bindungen.md)

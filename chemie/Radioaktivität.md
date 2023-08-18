@@ -64,21 +64,19 @@ t=\frac{\ln{(\frac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)}
 \end{align*}
 $$
 
-```ad-example
-title: Ötzi altersbestimmung
-Bei Ötzi zählt man N(t) = 2,3 * 105 dieser 14C-Atome,  
-bei einer Vergleichsprobe zählte man N(0) = 4 * 105 dieser 14C -Atome.  
-Vor wie vielen Jahren ist Ötzi verstorben?
+> [!example] Ötzi altersbestimmung
+> Bei Ötzi zählt man N(t) = 2,3 * 105 dieser 14C-Atome,  
+> bei einer Vergleichsprobe zählte man N(0) = 4 * 105 dieser 14C -Atome.  
+> Vor wie vielen Jahren ist Ötzi verstorben?
 
 $t=\dfrac{\ln{(\dfrac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)} = \dfrac{\ln{(\dfrac{2,3\ \cdot\ {10}^5}{4\cdot{10}^5})}\cdot5370\ Jahre}{-ln(2)}=4500\ Jahre$
-
-```
 
 ## Strahlenschäden
 
 ## [Kernspaltung](../physik/Kernspaltung.md)
 
 ---
+
 # Tags
+
 [Kernfusion](../physik/Kernfusion.md)
-#incomplete 

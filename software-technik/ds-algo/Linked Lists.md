@@ -7,6 +7,7 @@ created: 17th April 2022
 ---
 
 # Linked Lists
+
 A linked list is a list of any elements which additionally points somewhere in the memory to the next element.
 
 The first element is called **HEADER**, the last element is called **TAIL**.
@@ -19,8 +20,8 @@ The order of the elements can easily be changed by changing the pointers to the 
 
 ![525](../assets/singly_linked_list.svg)
 
-````ad-example
-title: Example: static allocated list
+> [!example] static allocated list
+
 ``` c
 #include <stdlib.h>
 #include <stdio.h>
@@ -60,11 +61,8 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 ```
-```ad-note
-title: Output
-32 - 8 - 45 -
-```
-````
+
+> [!note] Output: 32 - 8 - 45 -
 
 ---
 # Tags
