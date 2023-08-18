@@ -10,7 +10,7 @@ ESD ist die Abkürzung für "electrostatic discharge" und beschreibt die plötzl
 
 Integrierte Schaltkreise, wie sie in diesem Projekt enthalten sind, sind typischerweise sehr empfindlich gegenüber statischer Entladung. Aufgrund des vielen Interagieren mit der Platine, zum Beispiel beim Ein- und Ausstecken, muss mittels TVS [Dioden](Dioden.md) (Transient Voltage Suppression) eine Abschirmung gegen statische Entladung am USB-Eingang vorhanden sein.
 
-![](../digitaltechnik/assets/ESD-Connector.png)
+![](../digital-technik/assets/ESD-Connector.png)
 
 # Tags
 - [TVS](TVS-Diode.md)

@@ -1,9 +1,7 @@
 ---
-tags: []
 aliases: ["Aktor"]
 subject: ["mtrs"]
 source: ["Norbert Irnleitner"]
-reference: []
 created: 31st March 2022
 last_edited: 31st March 2022
 ---

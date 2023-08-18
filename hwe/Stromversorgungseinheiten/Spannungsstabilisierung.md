@@ -87,9 +87,9 @@ Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.
 Es gilt  $\Delta I_{L}=\Delta I_{Z}$
 Eine Längstransistorschaltung behebt diesen Nachteil
 ### Längstransistor mit [](../Dioden.md#Zener%20Diode|Zener%20Diode)
-![Laengstransostor2](../../assets/Laengstransostor2.png)
+![Laengstransostor2](../assets/Laengstransostor2.png)
 #### Längsregler
-![Laengstransistor](../../assets/Laengstransistor.png)
+![Laengstransistor](../assets/Laengstransistor.png)
 ## Geregelte Spannungsstabilisierung
 ### Kontinuierlicher Spannungsregler
 ### Integrierter Spannungsregler

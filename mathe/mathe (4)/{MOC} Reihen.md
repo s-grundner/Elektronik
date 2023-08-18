@@ -1,9 +1,7 @@
 ---
-tags: []
 aliases: ["Reihen", "Folgen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 24th March 2022
 last_edited: 11th April 2022
 ---

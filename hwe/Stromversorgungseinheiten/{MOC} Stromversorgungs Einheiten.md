@@ -3,7 +3,6 @@ tags: ["MOC"]
 aliases: ["netzteile", "Netzteil"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 6th April 2022
 ---
 

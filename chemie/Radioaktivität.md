@@ -20,7 +20,7 @@ created: 20th August 2022
 | Abschirmung durch              | Papier                                                                | Aluminium                                                                                                          | Aluminium                                                                                                       | Blei                                                                                                            | 
 
 ### Positronen Emissions Tomographie (PET)
-![](../assets/PET.png)
+![](assets/PET.png)
 
 Bei der **Positronen Emissions Tomographie** (PET) werden radioaktiv markierte Substanzen (Tracer), die Positronen **abstrahlen**, in den **Stoffwechsel eingeschleust** und ihre Verteilung im menschlichen Körper mit einer PET-Kamera aufgezeichnet.
 
@@ -31,7 +31,7 @@ Bei Positronen Strahler macht man sich zunutze, dass das emittierte Positron im 
 3. Ort eines Positronen Zerfalls und Paarvernichtung  
 4. γ-Quanten fliegen gleichzeitig und im Winkel von 180 Grad zueinander vom Ort des Zerfalls weg.
 
-![](../assets/ABG_Strahlung.png)
+![](assets/ABG_Strahlung.png)
 
 ## Halbwertszeit
 Zerfallskonstante und Zerfallsgesetz

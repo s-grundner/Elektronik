@@ -3,7 +3,6 @@ tags: ["Matura"]
 aliases: ["Gasgesetz", "Gasgesetze", "Gas", "Gase", "Universelle Gasgleichung", "Gasgleichung"]
 subject: ["physik"]
 source: ["Angela Lindner"]
-reference: []
 created: 18th August 2022
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: ["Salz", "Salze", "Anion", "Kation", "Anionen", "Kationen"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 22nd August 2022
 ---
 

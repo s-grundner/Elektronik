@@ -17,7 +17,7 @@ Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines verÃ
 > - Phase Detector + Charge Pump
 > - Loop Filter
 > - [VCO](../Voltage%20Controlled%20Oscillator.md)
-> - Feedback Divider ([Clock Divider](../../digitaltechnik/Clock%20Divider.md))
+> - Feedback Divider ([Clock Divider](../../digital-technik/Clock%20Divider.md))
 
 ## Kennwerte
 | Kennwert                        |                                                                                                |

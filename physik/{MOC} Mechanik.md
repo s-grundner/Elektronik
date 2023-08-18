@@ -3,7 +3,6 @@ tags: ["MOC"]
 aliases: ["Mechanik"]
 subject: ["physik"]
 source: ["Angela Lindner", "Rudolf Frauenschuh"]
-reference: []
 created: 19th August 2022
 ---
 # Map of Content - Mechanik

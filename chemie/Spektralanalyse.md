@@ -35,8 +35,8 @@ Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **E
 > Allerdings konnte er das Phänomen noch nicht erklären.
 
 ### Spektroskop nach Kirchhoff und Bunsen
-![425](assets/Spektroskop.png)
-![Spektroskop](../assets/Spektroskop.png)
+![425](assets/Spektroskop%201.png)
+![Spektroskop](assets/Spektroskop%201.png)
 **Funktionsweise:**
 - Das Licht fällt durch einen Spalt in das **Spaltrohr** über eine Linse auf ein Prisma. Der Durchmesser des Spalts kann variiert werden.
 - Am Prisma werden die Wellenanteile des Lichts unterschiedlich gebrochen.
@@ -53,7 +53,7 @@ Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente <m
 ![450](assets/Pasted%20image%2020220825153403.png)
 
 ## Absorption und Emission
-![500](../assets/EmissionAbsorbtion.png)
+![500](assets/EmissionAbsorbtion.png)
 ![475](assets/absorbtion_emission.png)
 1. Wird einem Atom **Energie zugeführt** (Flamme, Lichtbogen), können Elektronen auf **höhere Energieniveaus** gehoben werden.
 2. Es entsteht ein angeregter Zustand. Er ist nur **kurz** beständig, danach fällt das Elektron wieder in den **Grundzustand** zurück.

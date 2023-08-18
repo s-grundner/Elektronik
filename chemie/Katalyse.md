@@ -3,7 +3,6 @@ tags: []
 aliases: ["Reaktionsbeschleunigung", "Reaktionsgeschwindigkeit", "Kinetik", "Katalysator"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 23rd August 2022
 ---
 

@@ -8,7 +8,7 @@ created: 2nd October 2022
 ---
 
 # Primär getakteter [Schaltregler](Schaltnetzteil.md)
-![PrimGetaktSMPS](../../assets/PrimGetaktSMPS.png)
+![PrimGetaktSMPS](../assets/PrimGetaktSMPS.png)
 ## Eigenschaften
 ### Nachteile gegenüber [Sekundär getaktete Schaltregler](Sekundär%20getaktete%20Schaltregler.md)
 - Potenzialtrennung in der Ansteuerlogik
@@ -25,7 +25,7 @@ created: 2nd October 2022
 ### Übertrager
 - Ferritkern
 - Speichertransformator
-- geringer [Streuverlust](../../hf-technik/ksn%20(5)/Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
+- geringer [Streuverlust](../../hf-technik/Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
 >![325](../assets/Trafo-Streuung.png)
 ### Glättungskondensator
 - Low ESR (Equivalent Series Resistance)

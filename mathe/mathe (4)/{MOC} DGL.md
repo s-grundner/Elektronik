@@ -3,7 +3,6 @@ tags: ["MOC"]
 aliases: ["DGL", "Differenzialgleichungen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 14th March 2022
 last_edited: 11th April 2022
 ---

@@ -1,9 +1,8 @@
 ---
-tags: [Statistik]
+tags: ["Statistik"]
 aliases: []
-subject: [mathe]
+subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 4th January 2023
 ---
 

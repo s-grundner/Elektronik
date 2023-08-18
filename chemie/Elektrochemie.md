@@ -3,7 +3,6 @@ tags: ["Matura"]
 aliases: ["Elektrolyt", "Elektrolyse"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 21st August 2022
 ---
 # Elektrochemie
@@ -84,7 +83,7 @@ $I = \dfrac{0.5\cdot F}{1800}$
 
 
 ## Spannungsreihe
-![ElektrolyseNagel](../assets/ElektrolyseNagel.png)
+![ElektrolyseNagel](assets/ElektrolyseNagel.png)
 
 **Eisennagel in Kupferlösung:** Kupfer scheidet sich ab und Eisen löst sich.
 **Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und Kupfer bleibt Metallisch.
@@ -101,7 +100,7 @@ Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es
 - edle Metalle in $HCl$ unlöslich
 ### Galvanisches Element
 <mark style="background: #FFB86CA6;">elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.</mark> 
-![675](../assets/DaniellEL.png)
+![675](assets/DaniellEL.png)
 [](Primärelement.md#Daniell-Element)
 
 #### Beim Schließen des Stromkreises passiert folgendes
@@ -124,7 +123,7 @@ Spannung $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_
 Spannung eines einzelnen Metalls kann nicht angegeben werden.
 Vermessung gegen eine Bezugselektrode ist notwendig. 
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$
-![DaniellEL2](../assets/DaniellEL2.png)
+![DaniellEL2](assets/DaniellEL2.png)
 **Standard:** 
 - Wasserstoffgesättigte Pt-Elemente mit $HCl$: $c = 1.00 mol/l$
 - $p = 1 bar$ 
