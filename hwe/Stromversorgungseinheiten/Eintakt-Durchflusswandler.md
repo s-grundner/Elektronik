@@ -3,7 +3,6 @@ tags: []
 aliases: ["Single transistor forward converter"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 13th October 2022
 ---
 

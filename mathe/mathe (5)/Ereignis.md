@@ -3,7 +3,6 @@ tags: ["Statistik"]
 aliases: ["Ereignisse", "Ereignissen"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 8th January 2023
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: ["THD"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 3rd January 2023
 ---
 

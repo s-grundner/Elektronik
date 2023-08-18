@@ -3,7 +3,6 @@ tags: []
 aliases: ["Buck-Boost-Converter", "Invertierender Wandler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 26th September 2022
 ---
 

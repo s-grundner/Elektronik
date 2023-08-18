@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["physik"]
 source: ["Fritz Struber", "Angela Lindner"]
-reference: []
 created: 7th September 2022
 ---
 

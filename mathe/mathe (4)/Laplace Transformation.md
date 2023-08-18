@@ -3,7 +3,6 @@ tags: ["Transformation"]
 aliases: ["s-Domäne"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 26th April 2022
 ---
 

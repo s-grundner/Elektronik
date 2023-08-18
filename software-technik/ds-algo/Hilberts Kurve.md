@@ -3,9 +3,7 @@ tags: []
 aliases: []
 subject: ["fsst"]
 source: [""]
-reference: []
 created: 3rd April 2022
-last_edited: 11th April 2022
 ---
 
 # Hilberts Kurve

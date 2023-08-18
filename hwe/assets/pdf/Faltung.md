@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["dic"]
 source: ["Robert Vogl"]
-reference: []
 created: 3rd February 2023
 ---
 

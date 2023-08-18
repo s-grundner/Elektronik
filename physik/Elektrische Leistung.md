@@ -3,7 +3,6 @@ tags: []
 aliases: ["Leistung", "Leistungsabfall"]
 subject: ["physik"]
 source: ["Michael Offenhuber", "Martin Aichriedler", "Siegbert Schrempf", "Angela Lindner"]
-reference: []
 created: 24th November 2022
 ---
 

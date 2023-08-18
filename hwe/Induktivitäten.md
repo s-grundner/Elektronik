@@ -3,7 +3,6 @@ tags: []
 aliases: ["Spule", "Spulen", "Induktivität"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf", "Michael Offenhuber"]
-reference: []
 created: 8th April 2022
 ---
 

@@ -3,7 +3,6 @@ tags: ["Machine Learning"]
 aliases: ["Classification", "Klassifizierung"]
 subject: ["dic"]
 source: ["Robert Vogl"]
-reference: []
 created: 28th November 2022
 ---
 

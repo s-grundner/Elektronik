@@ -3,7 +3,6 @@ tags: []
 aliases: ["PSE", "PSdE", "Periodensystem"]
 subject: ["chemie"]
 source: ["Fritz Struber"]
-reference: []
 created: 20th August 2022
 ---
 
@@ -82,10 +81,8 @@ Aus dem Atombau lassen sich einige Eigenschaften der Elemente ableiten.
 # Tendenzen im PSE
 ## Atomradius
 >![200](assets/x-ab_y-zu.png)
-- Atomradius nimmt von oben nach unten **zu**:
-  Zahl der $e^{-}$ [Schalen](Orbitalmodell.md) nimmt zu
 - Atomradius nimmt von links nach rechts **ab**:
-  Innerhalb einer Periode werden Atome kleiner, weil die Anziehungskräfte zwischen Kern und $e^{-}$ Hülle immer Stärker werden.
+Innerhalb einer Periode werden Atome kleiner, weil die Anziehungskräfte zwischen Kern und $e^{-}$ Hülle immer Stärker werden.
   $\rightarrow$ <mark style="background: #BBFABBA6;">Orbitalkontraktion</mark>
    
 ## Metallcharakter

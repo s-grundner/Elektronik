@@ -3,7 +3,6 @@ tags: ["Microcontroller"]
 aliases: ["DTO"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 30th January 2023
 ---
 

@@ -3,7 +3,7 @@ tags: ["ds-algo"]
 aliases: ["LIFO"]
 subject: ["null"]
 source: ["null"]
-reference: []
+\n
 created: 20th April 2022
 last_edited: 20th April 2022
 ---

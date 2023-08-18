@@ -3,7 +3,6 @@ tags: []
 aliases: ["Dirac-Impuls", "Dirac-Funktion", "Nadelimpuls"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 26th April 2022
 last_edited: 26th April 2022
 ---

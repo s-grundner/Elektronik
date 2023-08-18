@@ -3,7 +3,6 @@ tags: ["Microcontroller"]
 aliases: ["Clock", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 17th October 2022
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: ["Q-Faktor"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf", "Michael Offenhuber"]
-reference: []
 created: 29th November 2022
 ---
 

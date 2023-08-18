@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 19th August 2022
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: ["Kondensator"]
 subject: ["hwe"]
 source: ["Michael Offenhuber", "Siegbert Schrempf"]
-reference: []
 created: 11th April 2023
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: ["isotroper Kugelstrahler", "isotropen Kugelstahlers"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: ["Gustrau HF Technik"]
 created: 24th November 2022
 ---
 

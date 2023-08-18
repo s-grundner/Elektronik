@@ -3,7 +3,6 @@ tags: ["Oszillator"]
 aliases: ["Colpitts"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 22nd November 2022
 ---
 

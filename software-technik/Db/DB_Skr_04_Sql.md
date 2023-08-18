@@ -3,7 +3,6 @@ tags: ["Database", "Datenbank"]
 aliases: ["SQL", "SQLite", "MySQL", "PostgreSQL", "Structured Query Language"]
 subject: ["fsst"]
 source: ["Roman Schragl", "https://gitlab.com/fosy/htbluva_sbg_fsst/"]
-reference: []
 created: 21st November 2022
 ---
 

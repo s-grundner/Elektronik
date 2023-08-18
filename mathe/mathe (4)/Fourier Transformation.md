@@ -3,9 +3,7 @@ tags: []
 aliases: ["Fouriertransformiert", "Fouriertransformation", "Fourier Analyse"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: []
 created: 27th April 2022
-last_edited: 27th April 2022
 ---
 
 # Fourier Transformation

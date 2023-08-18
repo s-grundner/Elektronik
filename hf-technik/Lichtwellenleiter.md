@@ -3,9 +3,7 @@ tags: ["Nachrichtentechnik"]
 aliases: ["LWL", "LLK", "Lichtleitkabel", "Glasfaserkabel"]
 subject: ["ksn"]
 source: ["Martin Aichriedler"]
-reference: []
 created: 28th March 2022
-last_edited: 6th April 2022
 ---
 
 # Lichtwellenleiter

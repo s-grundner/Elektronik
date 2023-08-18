@@ -3,7 +3,6 @@ tags: []
 aliases: ["Kettenmatrizen"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
-reference: []
 created: 14th November 2022
 ---
 # Ketten[matrix](../mathe/mathe%20(4)/Matrixrechnung.md)

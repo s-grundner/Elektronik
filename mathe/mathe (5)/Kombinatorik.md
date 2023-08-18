@@ -3,7 +3,6 @@ tags: ["Statistik"]
 aliases: []
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
-reference: ["Ing. Mathematik 4 - Timischl/Kaiser"]
 created: 24th October 2022
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["physik"]
 source: ["Michael Offenhuber"]
-reference: []
 created: 28th November 2022
 ---
 

@@ -3,7 +3,6 @@ tags: []
 aliases: []
 subject: ["physik"]
 source: ["null"]
-reference: []
 created: 10th September 2022
 ---
 
