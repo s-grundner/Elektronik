@@ -1,10 +1,10 @@
 ---
-tags: ["Bitmath"]
+tags: ["c", "Bitmath"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 3 Bitoperatoren
+# Bitoperatoren
 
 Oft wird die Sprache C im hardwarenahen Bereich eingesetzt. Dadurch werden zusätzlich zu den üblichen Operatoren gerade die Bit-Operatoren häufig verwendet.
 

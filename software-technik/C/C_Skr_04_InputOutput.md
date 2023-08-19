@@ -1,10 +1,10 @@
 ---
-tags: ["buffer", "stream"]
+tags: ["c", "buffer", "stream"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 4 Ein-/Ausgabe
+# Ein-/Ausgabe
 
 Ein-/Ausgabe-Streams: das Lesen und Schreiben von Daten aus oder in ein C-Programm funktioniert über Streams (Datenströme). Werden Daten von der Tastatur gelesen, dann wird dem `stdin`-Stream ein Zeichen eingefügt, das auf der Tastatur gedrückt wird:
 

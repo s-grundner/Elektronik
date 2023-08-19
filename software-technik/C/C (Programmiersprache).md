@@ -1,5 +1,5 @@
 ---
-tags: ["MOC"]
+tags: ["c", "MOC"]
 subject: ["fsst"]
 source: []
 created: 17th August 2023
@@ -73,3 +73,8 @@ created: 17th August 2023
 
 - [C_Skr_14_Strukturen](C_Skr_14_Strukturen.md)
 - [C_Skr_14_Ue_Strukturen](C_Skr_14_Ue_Strukturen.md)
+
+# Tags#
+
+- [Algo_Skr_00_CWiederholung](../Algo/Algo_Skr_00_CWiederholung.md)
+- [Algo_Skr_00_Ue_CWiederholung](../Algo/Algo_Skr_00_Ue_CWiederholung.md)

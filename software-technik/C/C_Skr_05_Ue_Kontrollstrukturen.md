@@ -1,4 +1,10 @@
-# 5 Kontrollstrukturen - Übungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Kontrollstrukturen - Übungen
 
 ## ShortIf1
 

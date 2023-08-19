@@ -1,4 +1,10 @@
-# 2 Datentypen - Übungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Datentypen - Übungen
 
 ### Literale Nummern
 

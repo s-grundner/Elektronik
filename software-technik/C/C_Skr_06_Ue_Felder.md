@@ -1,4 +1,10 @@
-# 6 Felder - Übungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Felder - Übungen
 
 ## FlipArr
 

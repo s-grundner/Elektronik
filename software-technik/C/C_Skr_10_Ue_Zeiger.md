@@ -1,5 +1,5 @@
 ---
-tags: ["C", "Pointer", "Heap"]
+tags: ["c", "Pointer", "Heap"]
 aliases: []
 created: 29th November 2022
 ---

@@ -1,4 +1,10 @@
-# 4 Ein-/Ausgabe - Übungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Ein-/Ausgabe - Übungen
 
 ##  Einführung scanf
 

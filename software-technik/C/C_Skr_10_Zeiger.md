@@ -1,10 +1,10 @@
 ---
-tags: ["C", "Pointer"]
+tags: ["c", "Pointer", "Heap"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 9 Zeiger
+# Zeiger
 
 ## Allgemein
 

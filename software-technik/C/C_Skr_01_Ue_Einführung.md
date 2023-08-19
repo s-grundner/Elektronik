@@ -1,4 +1,10 @@
-# 1 C Einführung - Übungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# C Einführung - Übungen
 
 ## Installation - Codeblocks
 

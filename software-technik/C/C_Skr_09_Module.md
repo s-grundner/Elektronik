@@ -1,10 +1,10 @@
 ---
-tags: ["C", "Compiler"]
+tags: ["c", "Compiler"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 8 Module
+# Module
 
 In größeren Projekten ist es unumgänglich Software in Teile aufzuteilen, die Gründe dafür sind:
 

@@ -1,10 +1,10 @@
 ---
-tags: ["C", "static", "extern", "volatile"]
+tags: ["c", "static", "extern", "volatile"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 8 Sichtbarkeit, Lebensdauer und Gültigkeit
+# Sichtbarkeit, Lebensdauer und Gültigkeit
 
 Von welchen Programmteilen aus kann auf welche Variable zugegriffen werden und wie lange werden Variable behalten? Grundsätzlich können die folgenden Typen unterschieden werden:
 

@@ -5,7 +5,7 @@ subject: [""]
 source: [""]
 created: 18th April 2022
 ---
-# Binary Search s
+# Binary Search
 
 ## Python Code
 ### Normal Version

@@ -1,10 +1,10 @@
 ---
-tags: []
+tags: ["c"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 1 Einführung C
+# Einführung C
 
 - Entwickelt ~1975 von Dennis Ritchie / Bell Laboratories als Nachfolger von B
 - Eine der am weitesten verbreiteten Sprachen

@@ -1,10 +1,10 @@
 ---
-tags: ["C", "if", "else", "else if", "while", "do-while", "for", "switch-case", "break", "continue"]
+tags: ["c", "if", "else", "else if", "while", "do-while", "for", "switch-case", "break", "continue"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 5 Kontrollstrukturen
+# Kontrollstrukturen
 
 Allgemeine Strukturen (wie z.B. in Java auch):
 

@@ -1,4 +1,10 @@
-# 7 Funktionen - Übungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Funktionen - Übungen
 
 ## StaticVariable (120)
 

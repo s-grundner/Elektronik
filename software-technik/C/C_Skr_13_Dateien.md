@@ -1,4 +1,10 @@
-# 12 Dateizugriff
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Dateizugriff
 
 **Grundsätzlicher Ablauf:**
 

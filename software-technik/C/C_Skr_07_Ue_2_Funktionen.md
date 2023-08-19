@@ -1,4 +1,10 @@
-# 7 Funktionen - Rekursionen - Übungen - Lösungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Funktionen - Rekursionen - Übungen - Lösungen
 
 ##  A01_Add
 

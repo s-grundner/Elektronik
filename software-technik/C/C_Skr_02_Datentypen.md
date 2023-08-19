@@ -1,4 +1,10 @@
-# 2 Datentypen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Datentypen
 
 Die folgenden Datentypen gibt's in C:
 

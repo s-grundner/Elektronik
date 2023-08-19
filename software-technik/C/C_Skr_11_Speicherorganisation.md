@@ -1,10 +1,10 @@
 ---
-tags: ["C", "Stack", "Heap", "free", "malloc"]
+tags: ["c", "Stack", "Heap", "free", "malloc"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 10 Speicherorganisation
+# Speicherorganisation
 
 Es wird nur eine stark vereinfachte Übersicht geboten. Diese Organisation ist Betriebssystemabhängig.
 

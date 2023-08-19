@@ -1,10 +1,10 @@
 ---
-tags: ["C", "Funktionen". "Funktion", "Methode"]
+tags: ["c", "Funktionen". "Funktion", "Methode"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 7 Funktionen
+# Funktionen
 
 ## Allgemein
 

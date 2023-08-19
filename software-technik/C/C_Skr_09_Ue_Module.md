@@ -1,10 +1,10 @@
 ---
-tags: ["Compiler"]
+tags: ["c", "Compiler"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 8 Module - Übungen
+# Module - Übungen
 
 ##  Doppelt einbinden
 

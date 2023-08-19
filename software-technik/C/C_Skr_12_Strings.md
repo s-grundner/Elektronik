@@ -1,4 +1,10 @@
-# 11 Zeichenketten/Strings
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Zeichenketten/Strings
 
 - In C gibt's keinen Datentyp String, eine Zeichenkette wird durch eine Folge (also Felder) von Zeichen (char) realisiert - eine Zeichenkette.
 - Um das Ende einer Zeichenkette erkennen zu können wurde das Zeichen '\0' (EOS = End Of String) vereinbart. Diese Terminierung muss in der Feld-Länge berücksichtigt werden. Um eine 5 Zeichen lange Zeichenkette zu speichern wird ein Feld mit 6 Zeichen benötigt.

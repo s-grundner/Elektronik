@@ -1,4 +1,10 @@
-# 3 Bitoperatoren - Übungen
+---
+tags: ["c"]
+aliases: []
+created: 29th November 2022
+---
+
+# Bitoperatoren - Übungen
 
 ##  BitSetzen (006)
 
