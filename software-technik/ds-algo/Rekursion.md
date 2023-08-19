@@ -6,16 +6,16 @@ source: ["Anton Hofmann", "freecodecamp.org"]
 created: 18th April 2022
 ---
 
-# Recursion
+# Rekursion
 
-The number a function called *itself*, is called **recursive depth**.
+Die Anzahl mit der sich eine Funktion selbst aufruft nennt sich rekursive Tiefe.
 
-| pros                                                                                  | cons                                                      |
-| ------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| Bridges the gap between elegance and complexity                                       | Slowness due to CPU-Overhead                              |
-| Reduces the need for complex loops and auxiliary data Structures                      | Can lead to out-of-memory errors/stackoverflow-exceptions |
-| Cane Reduce [time complexity](O-Notation.md) easily with [Memoisation](Recursion.md#Memoisation) | Can be unnecessarily complex if poorly constructed        |
-| Works really well with recursive structures (Trees, Graphs)                           |                                                           |
+| pros                                                                                            | cons                                               |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| Komplexe Aufgaben lassen sich elegant darstellen                                                | Langsam wegen CPU-Overhead                         |
+| Reduziert den Gebrauch von Schleifen und Hilfsdatentypen                                        | Kann zu Out-of-Memory/Stack Overflow führen        | 
+| Can Reduce [time complexity](O-Notation.md) easily with [Memoisation](Rekursion.md#Memoisation) | Can be unnecessarily complex if poorly constructed |
+| Works really well with recursive structures (Trees, Graphs)                                     |                                                    |
 
 ## Principle
 

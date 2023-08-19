@@ -41,3 +41,11 @@ LAN
 LO
 PORT
 Port
+C
+OS
+if
+RF
+for
+Heap
+free
+else

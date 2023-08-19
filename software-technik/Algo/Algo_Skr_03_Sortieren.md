@@ -2,13 +2,13 @@
 
 Sortieren ist eine grundlegende Technologie der Informatik. Effiziente Sortieralgorithmen werden auch eingesetzt um in großen Datenmengen schneller Suchen zu können.
 
-Definitionen:
-
-- **Internes Sortieren**: Daten werden in den Arbeitsspeicher (RAM) kopiert. Es kann wahlfrei auf die einzelnen Elemente zugegriffen werden.
-- **Externes Sortieren**: Daten können nicht in den Arbeitsspeicher kopiert werden (zum Beispiel zu viel). Verarbeitung auf externer Quelle.
-- **Vergleichendes Sortieren**: Verwendung eines Werts aus der Sortiermenge mit dem beim Sortieren verglichen wird ("Schlüssel").
-- **Stabiles Sortieren**: Sortierung die einen zusammengesetzten Datensatz richtig sortiert. Beispiel: eine *alphabetisch sortierte* Personenliste wird *nach Geburtsdatum* neu sortiert,  dann bleibt die alphabetische Sortierung für Personen mit gleichem Geburtsdatum erhalten (bei stabilen Sortieralgorithmen). 
-  Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler Algorithmus garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
+> [!info] Definitionen:
+> - **Internes Sortieren**: Daten werden in den Arbeitsspeicher (RAM) kopiert. Es kann wahlfrei auf die einzelnen Elemente zugegriffen werden.
+> - **Externes Sortieren**: Daten können nicht in den Arbeitsspeicher kopiert werden (zum Beispiel zu viel). Verarbeitung auf externer Quelle.
+> - **Vergleichendes Sortieren**: Verwendung eines Werts aus der Sortiermenge mit dem beim Sortieren verglichen wird ("Schlüssel").
+> - **Stabiles Sortieren**: Sortierung die einen zusammengesetzten Datensatz richtig sortiert. Beispiel: eine *alphabetisch sortierte* Personenliste wird *nach Geburtsdatum* neu sortiert,  dann bleibt die alphabetische Sortierung für Personen mit gleichem Geburtsdatum erhalten (bei stabilen Sortieralgorithmen). 
+> 
+> Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler Algorithmus garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
 
 ## Selection Sort (2005)
 
@@ -20,17 +20,17 @@ Algorithmus zum aufsteigenden Sortieren:
 - Vertauschen des ersten Elements dieser neuen Menge (ohne erstem Element) mit dem gefundenen kleinsten Element (zweitkleinstes Element).
 - ...
 
-Beispiel:
-
-```
- 5   1   12   -5    2   12   14	// kleinstes Element an Index 3
--5   1   12    5    2   12   14	// Vertauschen mit nullten Element, kleinstes Element des verbleibenden Felds an Index 1
--5   1   12    5    2   12   14	// Vertauschen mit sich selbst, kleinstes Element des verbleibenden Felds an Index 4
--5   1    2    5   12   12   14	// Vertauschen mit zweiten Element, kleinstes Element des verbleibenden Felds an Index 3
--5   1    2	   5   12   12   14	// Vertauschen mit sich selbst, kleinstes Element des verbleibenden Felds an Index 4
--5   1    2	   5   12   12   14	// Vertauschen mit sich selbst, kleinstes Element des verbleibenden Felds an Index 5
--5   1    2	   5   12   12   14	// Vertauschen mit sich selbst -> Feld sortiert
-```
+> [!example] Beispiel:
+>
+> ```txt
+>  5   1   12   -5    2   12   14   // kleinstes Element an Index 3
+> -5   1   12    5    2   12   14   // Vertauschen mit nullten Element, kleinstes Element des verbleibenden Felds an Index 1
+> -5   1   12    5    2   12   14   // Vertauschen mit sich selbst, kleinstes Element des verbleibenden Felds an Index 4
+> -5   1    2    5   12   12   14   // Vertauschen mit zweiten Element, kleinstes Element des verbleibenden Felds an Index 3
+> -5   1    2    5   12   12   14   // Vertauschen mit sich selbst, kleinstes Element des verbleibenden Felds an Index 4
+> -5   1    2    5   12   12   14   // Vertauschen mit sich selbst, kleinstes Element des verbleibenden Felds an Index 5
+> -5   1    2    5   12   12   14   // Vertauschen mit sich selbst -> Feld sortiert
+> ```
 
 Kennzeichen:
 
@@ -70,7 +70,7 @@ Algorithmus zum Aufsteigenden Sortieren:
 - Dieser Vorgang wird bis zum letzten Element wiederholt. Dadurch ist nach diesem Durchlauf das größte Element an der letzten Stelle (es ist wie ein Bubble aufgestiegen).
 - Die komplette Prozedur wird von vorne beginnend solange wiederholt bis bei einem kompletten Durchlauf keine Vertauschung mehr erfolgt.
 
-Beispiel:
+> [!example] Beispiel:
 
 ```
  5   1   12   -5    2   12   14	// Vertauschen Element 0 und 1
@@ -184,7 +184,7 @@ function merge(von1, bis1, von2, bis2) {
 
 Kennzeichen:
 
-- Das zu sortierende Feld kann beliebig aufgeteilt und sortiert werden, daher ist der Algorithmus zum Sortieren großer Datenmengen geeignet (einfach mittels Rekursion).
+- Das zu sortierende Feld kann beliebig aufgeteilt und sortiert werden, daher ist der Algorithmus zum Sortieren großer Datenmengen geeignet (einfach mittels [Rekursion](../ds-algo/Rekursion.md)).
 - Prinzip: Teile und Herrsche (Divide and Conquer)
 - Der Mischvorgang benötigt den doppelten Speicherplatz.
 - Durch die Teilung kann die Aufgabe parallelisiert werden
@@ -224,7 +224,7 @@ durch `quick_sort(arr, 0, n-1);`  wird das n-Elemente große Feld arr sortiert. 
 6. Wiederholen von 2 beginnend
 7. Nun Vertauschen von k und l
 
-Beispiel:
+> [!example] Beispiel
 
 ```
 10   7  16   4   9  18  -3   8  12
@@ -349,9 +349,9 @@ für numerische Integer-Felder. Im Funktionsaufruf:
 
 Es gibt häufig die Forderung ein Array zu sortieren in welchem die Elemente große Strukturen sind. Der Zeitbedarf von Sortieralgorithmen ist maßgeblich durch den Zeitaufwand durch eine Verschiebung (kopieren) der Elemente im Feld geprägt. Wenn anstatt der Strukturen lediglich ein Zeiger auf die Elemente verändert wird kann der Zeitaufwand eventuell deutlich verringert werden.
 
-## Laufzeitbewertung
+## [Laufzeitbewertung](../ds-algo/O-Notation.md)
 
-Die Laufzeit von Algorithmen kann nicht eindeutig bestimmt werden. Sie hängt von vielen allgemeinen Faktoren (Hardware, Betriebssystem, Software ...) als auch von den speziellen Eigenheiten der Startwerte ab. Sortieren eines schon fast fertig sortierten Felds kann zum Beispiel sehr viel schneller ablaufen als ein vollständig durchmischtes Feld. Um die Laufzeit unterschiedlicher Algorithmen trotzdem vergleichen zu können wird ihr Zeitverhalten in Abhängigkeit der Anzahl der Elemente betrachtet. Zum Beispiel ist für den oben erwähnten Selection-Sort ersichtlich, dass sich die Sortierzeit mit dem Quadrat der Anzahl der Elemente verändern wird. Dargestellt wird das mittels der **O-Notation** (O für Ordnung): der Selection-Sort hat ein Laufzeitverhalten **$O(n^2)$**, sprich sie hat ein Verhalten *in der Ordnung von $n^2$*.
+Die Laufzeit von Algorithmen kann nicht eindeutig bestimmt werden. Sie hängt von vielen allgemeinen Faktoren (Hardware, Betriebssystem, Software ...) als auch von den speziellen Eigenheiten der Startwerte ab. Sortieren eines schon fast fertig sortierten Felds kann zum Beispiel sehr viel schneller ablaufen als ein vollständig durchmischtes Feld. Um die Laufzeit unterschiedlicher Algorithmen trotzdem vergleichen zu können wird ihr Zeitverhalten in Abhängigkeit der Anzahl der Elemente betrachtet. Zum Beispiel ist für den oben erwähnten Selection-Sort ersichtlich, dass sich die Sortierzeit mit dem Quadrat der Anzahl der Elemente verändern wird. Dargestellt wird das mittels der **[O-Notation](../ds-algo/O-Notation.md)** (O für Ordnung): der Selection-Sort hat ein Laufzeitverhalten **$O(n^2)$**, sprich sie hat ein Verhalten *in der Ordnung von $n^2$*.
 
 ## Referenzen
 
