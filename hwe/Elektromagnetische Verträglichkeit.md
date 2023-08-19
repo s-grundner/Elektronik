@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["EMV"]
+aliases: ["EMV", "EMI"]
 subject: ["hwe"]
 source: ["Siebgert Schrempf"]
 created: 21st February 2023
@@ -61,7 +61,7 @@ Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünn
 > Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 
 > [!info] Resonanzverlauf
-> ![700](assets/EMV_impedanz.png)
+> ![](assets/EMV_impedanz.png)
 
 ## Abblockkondensator
 Da die [Impedanz](Impedanz.md) eines Kondensators bis zur Resonanzfrequenz sinkt, können HF-Störungen auf Versorgungsleitungen mit Gleichsignalen oder NF-Signalen durch einen Parallelgeschalteten [Kondensator](Kapazität.md) (Kurzschluss-geblockt) werden.
@@ -74,6 +74,8 @@ Für die HF-Störung: [Kapazität](Kapazität.md) ist ein Kurzschluss
 	- [Reflexionsfaktor](../hf-technik/Reflexionsfaktor.md) im Kurzschluss: $r_{KS}=-1$
 	- ggf. gibt es Probleme mit Resonanzen innerhalb der Schaltung
 - Versorgungsleitungen kurz halten (siehe 4-Pol [Kondensator](Kapazität.md) [a])
-- 3-Leiter Anordung mit 3 Kondensatoren zum KS gleich und gegentaktsignalen [b])
+- 3-Leiter Anordnung mit 3 Kondensatoren zum KS gleich und Gegentaktsignalen [b])
 # Tags
-![700](assets/Pasted%20image%2020230316092131.png)
+![700](assets/SchirmLeiterbahn.png)
+
+![How to Achieve Proper Grounding - Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)
