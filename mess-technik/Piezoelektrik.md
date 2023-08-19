@@ -7,7 +7,7 @@ created: 7th June 2022
 ---
 
 # Piezoelektrik
-> [!example] Ein [Quarz](../hwe/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
+> [!example] Ein [Quarz](../../hwe/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
 > 
 > $$
 > \begin{align*}
@@ -60,4 +60,4 @@ Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung d
 Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
 # Tags 
-[Quarz](../hwe/Oszillatoren/Quarzoszillator.md)
+[Quarz](../../hwe/Oszillatoren/Quarzoszillator.md)

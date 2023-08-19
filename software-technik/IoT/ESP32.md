@@ -10,7 +10,7 @@ Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32
 
 ![](assets/ESP32_nocase.png)
 
-Für Prototypen sind ESP32-WROOM Module, halbfertige PCB-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../hf-technik/Antenne.md), PIF-[Antenne](../../hf-technik/Antenne.md)  oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
+Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../hwe/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../hf-technik/Antenne.md), PIF-[Antenne](../../hf-technik/Antenne.md)  oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
 
 ![](assets/ESP32WROOM.png)
 

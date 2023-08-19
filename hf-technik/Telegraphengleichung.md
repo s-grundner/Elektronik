@@ -5,6 +5,7 @@ subject: ["ksn"]
 source: ["Martin Aichriedler"]
 created: 1st March 2023
 ---
+
 # Telegraphengleichung
 
 > [!note] Telegraphengleichung
@@ -13,5 +14,11 @@ created: 1st March 2023
 > - $U_{r}$ = Amplitude der rücklaufenden Welle
 > 
 > Die Ausbreitungskonstante $\gamma$ beschreibt dabei die [Dämpfung](../../hwe/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
+
+## Herleitung
+
+> [!summary] Kirchhoff'sche Gesetze in der Leitungstheorie
+> 1. Knotenregel
+> 2. Maschenregel
 
 # Tags
