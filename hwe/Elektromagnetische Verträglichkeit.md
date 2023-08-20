@@ -2,9 +2,10 @@
 tags: []
 aliases: ["EMV", "EMI"]
 subject: ["hwe"]
-source: ["Siebgert Schrempf"]
+source: ["Siebgert Schrempf", "Rick Hartley"]
 created: 21st February 2023
 ---
+
 
 # Elektromagnetische Verträglichkeit
 
@@ -59,10 +60,8 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 > [!caution] Die Frequenz in digitalen Schaltkreisen liegt in den Flanken, nicht im Takt.
 > Schon bei niedrigen getakteten Schaltkreisen können Effekte der HF-Technik eintreten.
 
-> [!caution] Die Energie in Schaltkreisen liegt in den Feldern im Dielektrikum Zwischen den Leiterbahnen bzw im Isolator von Twistet-Wire Paar.
+> [!caution] Die Energie in Schaltkreisen liegt in den Feldern im Dielektrikum Zwischen den Leiterbahnen bzw im Isolator von Twisted-Wire Paar.
 
 # Tags
-
-![700](assets/SchirmLeiterbahn.png)
 
 ![How to Achieve Proper Grounding - Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)

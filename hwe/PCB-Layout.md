@@ -1,6 +1,7 @@
 ---
 tags: []
 aliases: ["Leiterplatte", "PCB", "Leiterplatten-Design", "PCB-Design"]
+source: ["Rick Hartley"]
 created: 19th August 2023
 ---
 
