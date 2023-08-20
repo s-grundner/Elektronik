@@ -34,7 +34,7 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 > Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtigt werden kann.
 
 > [!hint] Störgröße
-> Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünnschte Beeinflussung erzeugt.
+> Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünschte Beeinflussung erzeugt.
 
 
 # Komponenten und Konzepte zur Verbesserung
@@ -55,6 +55,11 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 		- Dünne Dielektrika mit hoher Dielektrizitätszahl
 		- $\Big(C=\dfrac{\varepsilon_{0}\cdot\varepsilon_{r}\cdot A}{d}\Big)$
 5. Gutes [PCB-Layout](PCB-Layout.md)/Stack-Up
+
+> [!caution] Die Frequenz in digitalen Schaltkreisen liegt in den Flanken, nicht im Takt.
+> Schon bei niedrigen getakteten Schaltkreisen können Effekte der HF-Technik eintreten.
+
+> [!caution] Die Energie in Schaltkreisen liegt in den Feldern im Dielektrikum Zwischen den Leiterbahnen bzw im Isolator von Twistet-Wire Paar.
 
 # Tags
 
