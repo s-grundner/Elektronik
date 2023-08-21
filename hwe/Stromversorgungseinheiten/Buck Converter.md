@@ -147,4 +147,8 @@ Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Kompar
 
 # Tags
 
+![Phils Lab Introduction](https://www.youtube.com/watch?v=AmfLhT5SntE)
+
+![Scott Nance Seminar](https://www.youtube.com/watch?v=gq-0ZpcGm8E)
+
 [Schaltnetzteil](Schaltnetzteil.md)
