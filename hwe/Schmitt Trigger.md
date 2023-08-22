@@ -8,15 +8,16 @@ created: 10th January 2023
 
 # Schmitt Trigger
 
-
-
 # Invertierender Schmitt Trigger
 
 ![IMG_3622](assets/IMG_3622.jpeg)
+
 ## Hysterese
+
 ## Helmholzsches Überlagerungsprinzip
 
-
 ![invST-calc2](assets/invST-calc2.png)
+
 # Tags
+
 [Kippschaltungen](Oszillatoren/Kippschaltungen.md)

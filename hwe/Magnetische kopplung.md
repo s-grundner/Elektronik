@@ -7,6 +7,7 @@ created: 7th March 2023
 ---
 
 # Magnetische Kopplung
+
 Bei der magnetischen Kopplung wird die Störgröße über das magnetische Feld in den Nutzkreis übertragen.
 
 > [!warning] Ursachen für magnetische beeinflussungen sind, die Magnetfelder stromdurchflossener Leiter, welche bei einer Stromänderung Spannungen in benachbarten Leiterschleifen induzieren.
@@ -23,7 +24,9 @@ u_{stör} &= L\cdot \frac{di}{dt}
 \end{align*}
 $$
 Die Lastspannung $u_{L}$ erhält durch die magnetisch eingekoppelte Störspannung einen Störanteil.
+
 ## Modellierung 
+
 Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsquelle am Nutzkreis.
 ![700](assets/magn_koppl_modell.png)
 
@@ -47,6 +50,7 @@ Die Höhe der induzierten Störspannug hängt ab von:
 Die Gegeninduktivität wird durch die Topologie, bzw durch die Leiterbahn anordnung bestimmt.
 
 ## Gegeninduktivität $M$
+
 ![800](assets/gegenindu.png)
 
 $$
@@ -80,6 +84,7 @@ $$
 Zur Diagnose muss der Wechselanteil der Störgröße zu $0$ gemacht werden.
 
 ### Abhilfemaßnahmen
+
 Verringerung der Gegeninduktivität druch:
 - Vergrößern des Abstandes zwischen der gefährdete und gefährende Masche
 - Enge räumliche Anordung 
@@ -93,5 +98,7 @@ Verringerung der Gegeninduktivität druch:
 
 > [!info] Herabsetzen der Flussänderungsgeschwindigkeit 
 > - Ein Kurzschlussring mit ähnlicher magntischer Flussdichte wird zwischen Stör und Nutzkreis 
+
 # Tags
+
 [](Magnetisches%20Feld.md#Magnetische%20Grundgrößen)

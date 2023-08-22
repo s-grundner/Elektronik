@@ -7,11 +7,13 @@ created: 11th May 2022
 ---
 
 # Voltage-Mode-Regelung
+
 ![Untitled Diagram 3](assets/Untitled%20Diagram%203.svg) #incomplete 
 $U_{a}$ wird über einen Spannungsteiler wird über einen 
 Der Impulsbreitenmodulator wandelt die Ausgansspannung $U_{R}$ des [PI-Regler](../mess-technik/PI-Regler.md) in eine Pulsweitenmodulierte Spannung $U_{st}$ um.
 
 ## Regelmechanismus
+
 - $U_{a}$ zu klein, $U_{a}' < U_{ref}$
 - $U_{R}$ läuft hoch bis $U_{ref}-k\cdot U_{a} = 0$
 - das Tastverhältnis steigt und $U_{a}$ steigt
@@ -23,5 +25,7 @@ Der Impulsbreitenmodulator wandelt die Ausgansspannung $U_{R}$ des [PI-Regler](.
  
 
 ---
+
 # Tags
+
 #incomplete 

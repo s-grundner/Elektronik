@@ -8,15 +8,23 @@ created: 16th March 2022
 
 
 # [Silizium](Halbleiter.md)-Diode (https://de.wikipedia.org/wiki/Diode)
+
 ## Grundlagen
+
 ## Aufbau
+
 ## Funktion
+
 ## Kenngröße
+
 ## Kennlinie
+
 ## Anwendung
 
 ---
+
 # Tags
+
 - [Zener-Diode](Zener-Diode)
 - [Germanium-Dioden](Germanium-Dioden)
 - [Leucht-Dioden](Leucht-Dioden)

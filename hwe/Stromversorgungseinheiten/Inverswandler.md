@@ -13,25 +13,25 @@ created: 26th September 2022
 
 ## Schaltbild
 
->![Untitled Diagram](../assets/Untitled%20Diagram.svg)
+![Untitled Diagram](../assets/Untitled%20Diagram.svg)
 
 Der [Transistor](../{MOC}%20Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird.
 Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 
 ## Lauf-Zeit-Diagramm
 
->![BuckBoostLZD](../assets/BuckBoostLZD.png)
+![BuckBoostLZD](../assets/BuckBoostLZD.png)
 > <mark style="background: #ABF7F7A6;">$\Delta I_{L1}$</mark>
 > <mark style="background: #FFF3A3A6;">$\Delta I_{L2}$</mark> 
 
 ### Kontinuierlicher Betrieb
 
->![BuckBoostConID](../assets/BuckBoostConID.png)
+![BuckBoostConID](../assets/BuckBoostConID.png)
 > <mark style="background: #FF5582A6;">$I_{a,max}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
 
 ### Diskontinuierlicher Betrieb
 
->![BuckBoostDisconID](../assets/BuckBoostDisconID.png)
+![BuckBoostDisconID](../assets/BuckBoostDisconID.png)
 > <mark style="background: #FF5582A6;">$I_{a,min}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
 
 ## Schalter $S$ bzw. Transistor $T$

@@ -1,4 +1,5 @@
 # Schirmung
+
 >[!info] Die Koppelkapazität teilt sich auf:
 >Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die [Kapazität](Kapazität.md) $C_{S2}$ zwischen Schrim und Nutzkreis.
 >Bei gleicher Amplitude und $\frac{d}{dt}$ der [Störquelle](Störquelle.md) verringert sich damit die eingekoppelte Störspannung.

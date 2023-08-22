@@ -7,6 +7,7 @@ created: 29th November 2022
 ---
 
 # Güte
+
 Beschreibt, wie stark das resonanzverhalten ausgeprägt ist.
 
 Verhältnis der Teilspannungen zur Gesamtspannung $\underline{U}$ bei Resonanz
@@ -18,6 +19,7 @@ $$
 $$
 
 ## Phase
+
 ```functionplot
 ---
 title: Phase

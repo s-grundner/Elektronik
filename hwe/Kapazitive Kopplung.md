@@ -7,9 +7,10 @@ created: 6th March 2023
 ---
 
 # Kapazitive Kopplung
+
 Die Übertragung der Störgröße auf den Nutzkreis erfolgt über das
 elektrische Feld.
-Ursache für Kapazitive beeinflussung sind parasitäre (d.h nicht beabsichtigte)
+Ursache für Kapazitive Beeinflussung sind parasitäre (d.h. nicht beabsichtigte)
 Kapazitäten zwischen Leitern die zu verschiedenen Stromkreisen gehören.
 ![600](assets/Pasted%20image%2020230316093012.png)
 Für den (allgemeinen) Fall, dass die [Impedanz](Impedanz.md) der Koppelkapazität sehr viel

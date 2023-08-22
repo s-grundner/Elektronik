@@ -5,9 +5,13 @@ subject: ["hwe","chemie", "dic"]
 ---
 
 # Halbleiter
+
 ## [Diode](Diode.md)
+
 ## [Transistoren]({MOC}%20Transistor.md)
 
 ---
+
 # Tags
+
 [Chemische Bindungen](../chemie/Chemische%20Bindungen.md)

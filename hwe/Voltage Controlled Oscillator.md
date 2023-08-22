@@ -14,6 +14,7 @@ Beim [LC-Oszillator](Oszillatoren/LC%20Oszillatoren.md) wird ein [Schwingkreis](
 > ![675](assets/VCO_KapD.png)
 
 # Tags
+
 [Varicap](Kapazitäts-Diode.md)
 [PLL](Oszillatoren/Phase%20Locked%20Loop.md)
 [DTO](Oszillatoren/Discrete%20Time%20Oscillator.md)

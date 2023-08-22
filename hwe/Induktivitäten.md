@@ -7,6 +7,7 @@ created: 8th April 2022
 ---
 
 # Induktivitäten
+
 ## Schaltzeichen
 
 | Symbol        | ESB |
@@ -14,6 +15,7 @@ created: 8th April 2022
 | ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png)    |
 
 ## Induktivitäten als Bauelemente Leistungselektronischen Schaltungen
+
 Unter **Vernachlässigung** von **$R_{L}$** und der **parasitären Parallelkapazität $C_{L}$**, gilt für lineare Materialien der folgende Zusammenhang der die Spannung an der Induktivität beschreibt:
 $$
 \begin{align*}
@@ -26,12 +28,12 @@ $$
 W &= \frac{L\cdot I^{2}}{2} 
 \end{align*}
 $$
-Grundsätzlich kann man sagen, dass die Induktivität änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../physik/Lenzsche%20Regel.md)).
+Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../physik/Lenzsche%20Regel.md)).
 
-Durch das Anlegen einer Puls-förmigen spannung an eine Induktivität folgt, dass sich **$i_{L}$ nicht linear verhält**.
+Durch das Anlegen einer Puls-förmigen Spannung an eine Induktivität folgt, dass sich **$i_{L}$ nicht linear verhält**.
 >![indu-pulse](assets/indu-pulse.png)
 
-Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren Ohmschen Widerstands.
+Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren Ohm'schen Widerstands.
 Daher gilt die folgende Näherung:
 $$
 \begin{align*}
@@ -46,14 +48,21 @@ $$
 \end{align*}
 $$
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
+
 ### Einschaltvorgang einer Induktivität
+
 >![indu-einsch](assets/indu-einsch.png)
 
 ### Abschaltvorgang einer Induktivität
+
 >![indu-aussch](assets/indu-aussch.png)
 
 ---
+
 # Tags
+
 ## Wikipedia
+
 [Induktivitäten](<https://de.wikipedia.org/wiki/Induktivit%C3%A4t_(Bauelement)>)
+
 [Spulen](<https://de.wikipedia.org/wiki/Spule_(Elektrotechnik)>)

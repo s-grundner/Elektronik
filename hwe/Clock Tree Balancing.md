@@ -14,4 +14,5 @@ Das heißt, sollten mehr Eingänge getrieben werden, muss das Signal auf-gepuffe
 ![clock_tree_balancing](assets/clock_tree_balancing.png)
 
 # Tags
+
 [DTO](Oszillatoren/Discrete%20Time%20Oscillator.md)

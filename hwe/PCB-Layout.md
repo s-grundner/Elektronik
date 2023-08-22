@@ -11,7 +11,7 @@ created: 19th August 2023
 
 - **DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
 - **DFP - Performance/Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), Thermisch, Strom 
-- **DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil versorgung/verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
+- **DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil Versorgung/Verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
 
 ## Hochfrequenz Leitungen
 

@@ -19,13 +19,13 @@ created: 16th March 2022
 4. Last
 	- bei der Last werden üblicherweise Analoge und Digitale Versorgung mittels einer Sternförmigen Masse getrennt.
 
->![Netzteil_sch](../assets/Netzteil_sch.png)
+![Netzteil_sch](../assets/Netzteil_sch.png)
 
 Verlauf der Spannung:
 - Rot: vor der Stufe
 - Gelb: nach der Stufe
 
->![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
+![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
 
 ## Stabilisierung und Regelung von Spannung
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:

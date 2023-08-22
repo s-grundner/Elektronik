@@ -7,6 +7,7 @@ created: 28th November 2022
 ---
 
 # Magnetisches Feld
+
 > [!info] Ein Magnet feld wird durch einen Strom (gleichmäßig bewegte Ladung) durch einen Leiter erzeugt
 > ![275](assets/magn_feld_leiter.png)
 
@@ -30,4 +31,5 @@ created: 28th November 2022
 
 
 # Quellen
+
 #MS-2JG 

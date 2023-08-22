@@ -9,6 +9,7 @@ created: 2nd January 2023
 # Operations-Verstärker
 
 ## Grundschaltungen
+
 - Nicht-Invertierender Verstärker
 - Invertierender Verstärker
 - Umkehrsummierer / Addierer
@@ -19,7 +20,9 @@ created: 2nd January 2023
 - Schmitttrigger
 
 ### Umkehrsummierer
+
 ### Subtrahierer
+
 #### Helmholzsches Überlagerungsprinzip
 
 1) $U_{e1},U_{e2}=0, U_{a}1$
@@ -34,8 +37,11 @@ U_{a}&= U_{a1}+U_{a2}=(1+\frac{R_{1}}{R_{2}})
 $$
 
 ## Praxistipps
+
 Slew-Rate: $SR>\dfrac{du}{dt}\rightarrow u(t)\dots$ Beschaltungssignal 
 
 # Quellen
+
 ![OPV](assets/pdf/OPV.pdf)
+
 ![OPV Grundschaltungen](assets/pdf/OPV%20Grundschaltungen.pdf)
