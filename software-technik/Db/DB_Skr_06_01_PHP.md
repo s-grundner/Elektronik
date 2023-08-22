@@ -287,7 +287,7 @@ session_start();
 
 gestartet werden. Damit sind globale Variable verfügbar. In jeder teilnehmenden Seite muss die erste Anweisung ein `session_start()` sein um die Session aufrecht zu erhalten. Damit sind im assoziativen Feld `$_SESSION` globale Variable verfügbar.
 
-![php_session](.\bilder\php_session.png)
+![php_session](assets/php_session.png)
 
 ## Beispiel Uni-Abfrage
 

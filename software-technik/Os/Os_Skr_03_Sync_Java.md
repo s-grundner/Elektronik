@@ -125,7 +125,7 @@ Beispiel **Producer-Consumer**:
 
 FiFo-Buffer können einfach als [Ringbuffer](../../digital-technik/Ringbuffer.md) realisiert werden. Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden ...):
 
-![OS_FiFo](.\Bilder\OS_FiFo.png)
+![OS_FiFo](assets/OS_FiFo.png)
 
 Eine einfache Implementierung, die anstatt des Ringbuffers einen Vector verwendet wird im folgenden gezeigt. Aufgrund des ~endlos~ großen Buffers gibt es keinen Overflow sondern nur einen Underflow:
 

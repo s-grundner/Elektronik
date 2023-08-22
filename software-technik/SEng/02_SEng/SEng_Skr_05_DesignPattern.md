@@ -2,7 +2,7 @@
 
 (Design Pattern)
 
-![GoF](bilder/GoF.png)
+![GoF](assets/GoF.png)
 
 Viele Probleme wurden schon gelöst, daher naheliegend: diese Lösungen für die Lösung eigener Probleme verwenden.
 

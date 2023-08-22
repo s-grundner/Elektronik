@@ -1,4 +1,10 @@
-# 1 Datenbanken
+---
+tags: ["Datenbank"]
+aliases: []
+created: 29th November 2022
+---
+
+# Datenbanken
 
 ## Definition
 
@@ -14,7 +20,7 @@ abgerufen oder abgelegt werden, dann ist der Einsatz von *Datenbanken* zweckm채�
 
 F체r die Einf체hrung in Datenbanken empfiehlt sich f체r uns *XAMPP* (Allgemein: ein *LAMP* [Stack](../ds-algo/Stack.md) ist ein Akronym f체r *LinuxApacheMysqlPhp*, das *X* steht f체r mehrere OS, das zweite *P* f체r Perl). Darin ist eine *MariaDB*-Datenbank verf체gbar (https://www.apachefriends.org/de/index.html) auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. F체r diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
 
-![lampStack](.\bilder\lampStack.png)
+![lampStack](assets/lampStack.png)
 
 ## Anforderung an eine Datenbank
 
