@@ -28,9 +28,13 @@ Prinzipiell unterscheidet man zwischen:
 - Ungeregelten SMPS
 - Geregelten SMPS
 
-# Prinzipien der Schaltregler
+## Prinzipien der Schaltregler
 [Sekundär getaktete Schaltregler](Sekundär%20getaktete%20Schaltregler.md)
 [Primär getakteter Schaltregler](Primär%20getakteter%20Schaltregler.md)
+
+## Layout von SMPS
+
+
 # Tags
 [Schmidt-Walter Schaltnetzteildimensionierung](http://schmidt-walter-schaltnetzteile.de/smps/smps.html)
 ![SMPS_intro](../assets/pdf/SMPS_intro.pdf)

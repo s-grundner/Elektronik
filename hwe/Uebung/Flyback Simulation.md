@@ -11,11 +11,11 @@
 
 > [!example] LTSpice Simulation und Schaltplan
 > Der Duty cycle beträgt 50%.
-> Berechne vorab die Sperrspannungen für Diode und Transist
+> Berechne vorab die Sperrspannungen für [Diode](../Diode.md) und Transist
 > $$
 > U_{DS} \approx U_{e}\cdot 2
 > $$
-> Wähle Schalttransistor und Diode entsprechend ihrer erwarteten Sperrspannungen.
+> Wähle Schalttransistor und [Diode](../Diode.md) entsprechend ihrer erwarteten Sperrspannungen.
 > ![Pasted image 20221013193151](Pasted%20image%2020221013193151.png)
  
 
@@ -40,5 +40,5 @@
 
 > [!example] Implementiere ein Snubber Netzwerk entsprechend der Vorlesung/Abbildung ein
 > ![Pasted image 20221013205941](Pasted%20image%2020221013205941.png)
-> Ideale Diode, C=10nF, R=10kWie verändert sich $U_{DS}$? Erkläre den Effekt.
+> Ideale [Diode](../Diode.md), C=10nF, R=10kWie verändert sich $U_{DS}$? Erkläre den Effekt.
 > ![Pasted image 20221013204707](Pasted%20image%2020221013204707.png)

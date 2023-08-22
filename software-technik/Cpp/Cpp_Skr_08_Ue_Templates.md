@@ -88,7 +88,7 @@ int main() {
 }
 ```
 
-Tipp: zusätzlicher Speicher mit (void *)realloc(void *, int) ; Destruktor nicht vergessen.
+Tipp: zusätzlicher Speicher mit `(void *)realloc(void *, int); `Destruktor nicht vergessen.
 
 Das Programm liefert:
 

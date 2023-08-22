@@ -26,7 +26,7 @@ $\Delta EN < 1.7$ polare [Atombindung](Atombindung.md)
 Metalle ($Na$) übertragen ihre [Valenzelektronen](Valenzelektronen.md) an Nichtmetalle ($Cl$)
 
 ### [Atombindung](Atombindung.md)
->![300](Atom-bnd.png)
+>![300](../assets/Atom-bnd.png)
 
 Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 

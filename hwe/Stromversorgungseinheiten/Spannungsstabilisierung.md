@@ -7,7 +7,9 @@ created: 16th March 2022
 ---
 
 # Typische Schaltung eines Netzteils mit Linearregler
+
 ## Aufbau
+
 1. Gleichrichterschaltung (inkl. Transformation)
 2. Siebschaltung zur Glättung der Gleichspannung
 3. Spannungsstabilisierung der Gleichspannung gegen Schwankungen ...
@@ -24,6 +26,7 @@ Verlauf der Spannung:
 - Gelb: nach der Stufe
 
 >![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
+
 ## Stabilisierung und Regelung von Spannung
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz
@@ -37,21 +40,27 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 	- Wie lange eine Veränderung am Eingang zu einer Veränderung am Ausgang dauert.
 
 Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kategorien **geregelt** und **ungeregelt** vorgenommen werden.
+
 # Linearregler
+
 ## Ungeregelte Spannungsstabilisierung
-### Stabilisierungsschaltung mit einer [](../Dioden.md#Zener-Diode|Zener%20Diode)
-Mittels einer Zener [Dioden](../Dioden.md) kann eine Ausgansspannung in einem wieten Bereich konstantgehalten werden.
+
+### Stabilisierungsschaltung mit einer [Zener-Diode](Zener-Diode.md)
+
+Mittels einer [Zener-Diode](Zener-Diode.md) kann eine Ausgansspannung in einem wieten Bereich konstant gehalten werden.
 
 | Kennwerte                                                                                                           | Schaltung                    |
 | ------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Diodenstrom<br>$U_{Z}\dots$ Z-Diodenspannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](Z-diode-regler.png%5C) |
+| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden Strom<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](Z-diode-regler.png) |
 
 #### Kennlinie
+
 | Kennwerte                                                                                                                                                                                      | Kennlinie                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![600](z-d-kennlinie.png%5C) |
+| $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![600](z-d-kennlinie.png) |
 
 #### Dimensionierung
+
 $$
 \begin{align*}
 	U_{e} &\rightarrow \text{konstant}\\
@@ -76,21 +85,31 @@ Für eine *optimale Stabilisierung* ist folgendes zu beachten:
 - *$R_{V}$* begrenzt *$I_{Z}$* bei *$U_{e,max}$* auf *$I_{Z,max}$* 
 
 #### Absoluter Stabilisierungsfaktor
+
 $$
 \begin{align*}
 S=\frac{\Delta U_{e}}{\Delta U_{a}} = \frac{\Delta U_{e}}{\Delta U_{Z}}
 \end{align*}
 $$
+
 #### Nachteil der Schlatung
+
 Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.
 Es gilt  $\Delta I_{L}=\Delta I_{Z}$
 Eine Längstransistorschaltung behebt diesen Nachteil
-### Längstransistor mit [](../Dioden.md#Zener%20Diode|Zener%20Diode)
+
+### Längstransistor mit [Zener-Diode](Zener-Diode.md)
+
 ![Laengstransostor2](../assets/Laengstransostor2.png)
+
 #### Längsregler
+
 ![Laengstransistor](../assets/Laengstransistor.png)
+
 ## Geregelte Spannungsstabilisierung
+
 ### Kontinuierlicher Spannungsregler
+
 ### Integrierter Spannungsregler
 
 ---

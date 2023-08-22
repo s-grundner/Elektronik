@@ -6,7 +6,7 @@ subject: ["mathe", "hwe", "physik"]
 
 # Schwingungen
 
-## Zusammenhang mit [Differentialgleichgungen]({MOC}%20DGL.md)
+## Zusammenhang mit [Differentialgleichungen]({MOC}%20DGL.md)
 
 Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.
 Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
@@ -33,6 +33,7 @@ $$
 $$
 
 ### Bezeichnungen
+
 | Ausdruck | Bezeichnung        |
 | -------- | ------------------ |
 | $m$      | Masse              |
@@ -46,6 +47,7 @@ Daraus ergibt sich durch die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20
 $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 ### Bezeichnungen
+
 | Ausdruck                                                | Bezeichnung                                                        |
 | ------------------------------------------------------- | ------------------------------------------------------------------ |
 | $2\delta = \frac{d}{m} \rightarrow \frac{d}{2m}=\delta$ | [Abklingkonstante](https://de.wikipedia.org/wiki/Abklingkonstante) |
@@ -53,27 +55,25 @@ $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 
 ## Freie Schwingungen im realen Serienschwingkreis
+
 Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../hwe/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
 ![400](../assets/e_serien_schwingk_frei.png)
 
-Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eingenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
+Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
-| Einfluss der [Spule](Impedanz%5C) | Einfluss des [Kondensator](Impedanz%5C)       | Einfluss des [Widerstand](Impedanz%5C) |
-| -------------------------------- | -------------------------------------------- | ------------------------------------- |
-| $u_{L}(t)=L\cdot\frac{di}{dt}$   | $u_{C}(0) = U_{0}$                           | $u_{R}=i(t)\cdot R$                   |
-|                                  | $q(t)=C\cdot u_{C}(t)$                       |                                       |
-|                                  | $i(t)=C\cdot\frac{du_{c}}{dt}$               |                                       |
-|                                  | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                       |
+| Einfluss der [Spule](Impedanz.md) | Einfluss des [Kondensator](Impedanz.md)      | Einfluss des [Widerstand](Impedanz.md) |
+| --------------------------------- | -------------------------------------------- | -------------------------------------- |
+| $u_{L}(t)=L\cdot\frac{di}{dt}$    | $u_{C}(0) = U_{0}$                           | $u_{R}=i(t)\cdot R$                    |
+|                                   | $q(t)=C\cdot u_{C}(t)$                       |                                        |
+|                                   | $i(t)=C\cdot\frac{du_{c}}{dt}$               |                                        |
+|                                   | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |
 
 $$
 \begin{align*}
 	u_{R}+u_{L}+u_{C} &= 0\\
-	
 	i\cdot R+L\cdot \frac{di}{dt}+u_{C} &= 0\\
-	
 	R\cdot C\cdot \frac{du_{c}}{dt}+L\cdot C\cdot \frac{d^{2}u}{dt^{2}} + u_{C} &= 0 \Big|:LC\\
-	
 	\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot \frac{R}{L}+u_{c}\cdot \frac{1}{LC} &= 0\\
 \end{align*}
 $$
@@ -85,7 +85,7 @@ Ebenfalls kann die Ladung über die Zeit betrachtet werden, sodass man auf einen
 
 $$
 \begin{align*}
- R\cdot \frac{dq}{dt} + L\cdot \frac{d^{2q}}{dt^{2}} + \frac{q}{c} = 0 \qquad \Big{|}:L
+R\cdot \frac{dq}{dt} + L\cdot \frac{d^{2q}}{dt^{2}} + \frac{q}{c} = 0 \qquad \Big{|}:L
 \end{align*}
 $$
 
@@ -119,9 +119,9 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 
 | Fall                                                                                    |      Bedingung      | Bezeichnung                                                                      |
 | --------------------------------------------------------------------------------------- |:-------------------:| -------------------------------------------------------------------------------- |
-| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#1%20Fall%20Eindeutige%20Lösung%5C|1.%20Fall)                            | $\delta>\omega_{0}$ | Kriechfall                                                                       |
-| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#2%20Fall%20Doppellösung%5C|2.%20Fall)                                 | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
-| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen%5C|3.%20Fall) | $\delta<\omega_{0}$ | Schwingfall                                                                      |
+| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#1%20Fall%20Eindeutige%20Lösung.md|1.%20Fall)                            | $\delta>\omega_{0}$ | Kriechfall                                                                       |
+| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#2%20Fall%20Doppellösung.md|2.%20Fall)                                 | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
+| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|3.%20Fall) | $\delta<\omega_{0}$ | Schwingfall                                                                      |
 
 ![400](../assets/faelle_e_sk.png)
 
@@ -133,7 +133,7 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 
 Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige [Spannung](https://de.wikipedia.org/wiki/Ohmsches_Gesetz) $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
-| Einfluss der [Spule](Impedanz%5C) | Einfluss des [Kondensators](Impedanz%5C)      | Einfluss des [Widerstands](Impedanz%5C) |
+| Einfluss der [Spule](Impedanz.md) | Einfluss des [Kondensators](Impedanz.md)      | Einfluss des [Widerstands](Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$   | $i(t)=C\cdot\frac{du_{c}}{dt}$               | $u_{R}=i(t)\cdot R$                    |
 |                                  | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |
@@ -171,7 +171,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > $$
 > \omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t) = \ddot u_{c} + 2\delta\dot u_{c} + \omega^{2}_{0}\cdot u_{c}
 > $$
-> Die [partikuläre Lösung](lineare%20DGL%202.%20Ordnung%5C) wird daher ermittelt:
+> Die [partikuläre Lösung](lineare%20DGL%202.%20Ordnung.md) wird daher ermittelt:
 > $$
 > \begin{align*}
 > 	u_{cp} &= a\cdot\sin(\omega t)+b\cdot\cos(\omega t)\\
@@ -235,7 +235,7 @@ $$
 \end{align*}
 $$
 
-> [!note] Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion%5C) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung%5C) ermittelt.
+> [!note] Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung.md) ermittelt.
 
 $$
 \begin{align*}

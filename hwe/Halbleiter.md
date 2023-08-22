@@ -5,7 +5,7 @@ subject: ["hwe","chemie", "dic"]
 ---
 
 # Halbleiter
-## [Dioden](Dioden.md)
+## [Diode](Diode.md)
 ## [Transistoren]({MOC}%20Transistor.md)
 
 ---

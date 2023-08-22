@@ -7,6 +7,7 @@ created: 7th November 2022
 ---
 
 # Phasenschieber Oszillator
+
 - Einfacher Aufbau
 	- Invertierender Verstärker
 	- RC-Netzwerk
@@ -19,9 +20,11 @@ created: 7th November 2022
 
 
 # Ungepufferter PSO
+
 > [!summary] $\omega_{0}=\dfrac{\sqrt{6}}{RC}\qquad v_{0}=|29|$
 
 ## Schaltung
+
 ![925](assets/Pasted%20image%2020230124215050.png)
 
 ## Herleitung
@@ -53,6 +56,7 @@ $$
 >3 Filterstufen mit $\left|\dfrac{U_{2}}{U_{1}}\right|=\dfrac{1}{2}\rightarrow\dfrac{1}{2}\cdot\dfrac{1}{2}\cdot\dfrac{1}{2} = \dfrac{1}{8}$ 
 
 ## Herleitung des gepufferten PSO
+
 > [!tip] [Kettenmatrizen](../Kettenmatrix.md) für die Herleitung
 > ![975](../assets/PSO-kette.png)
 
@@ -86,5 +90,7 @@ $$
 \omega_{0}&=\dfrac{\sqrt{6}}{RC}
 \end{align*}
 $$
+
 # Tags
+
 [Kettenmatrix](../Kettenmatrix.md)

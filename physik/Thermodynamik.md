@@ -21,9 +21,9 @@ $p\cdot V = n\cdot R\cdot T$
 | Bezeichnung                                         | Formelzeichen | Einheit                                       |
 | --------------------------------------------------- | ------------- | --------------------------------------------- |
 | allgemeine Gaskonstante                             | $R$           | $\dfrac{J}{mol\cdot K}$                       |
-| [Molares Volumen](Molvolumen%5C)                                     | $V$           | $\dfrac{dm^{3}}{mol}$ / $\dfrac{m^{3}}{kmol}$ |
-| Molare Masse ([PSE](Periodensystem%20der%20Elemente%5C)) | $M$           | $\dfrac{g}{mol}$ / $\dfrac{kg}{kmol}$         |
-| [Temperatur](Temperatur%20und%20Teilchenmodell%5C)       | $T$           | $K$                                           |
+| [Molares Volumen](Molvolumen.md)                                     | $V$           | $\dfrac{dm^{3}}{mol}$ / $\dfrac{m^{3}}{kmol}$ |
+| Molare Masse ([PSE](Periodensystem%20der%20Elemente.md)) | $M$           | $\dfrac{g}{mol}$ / $\dfrac{kg}{kmol}$         |
+| [Temperatur](Temperatur%20und%20Teilchenmodell.md)       | $T$           | $K$                                           |
 | Stoffmenge (Molzahl)                                | $n$           | $mol$                                         |
 | Teilchenzahl                                        | $N$           | Anzahl                                        |
 | Avogadro Konstante                                  | $N_{A}$       | $\dfrac{1}{mol}$                              |

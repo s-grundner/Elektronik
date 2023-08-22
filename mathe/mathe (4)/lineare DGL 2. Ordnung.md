@@ -36,7 +36,7 @@ $\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$
 | ------- | ------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | 1. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q>0$ | $\lambda_1 \neq \lambda_2$ (2 reelle Lösungen)                                               | $y_{h}= C_{1}\cdot e^{\lambda_{1}}+C_{2}\cdot e^{\lambda_{2}x}$                          |
 | 2. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q=0$ | $\lambda_{1}=\lambda_{2}=\lambda_0$ (reelle Doppellösung)                                    | $y_{h}=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}$                                             |
-| 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ (2 konjugiert [komplexe](Komplexe%20Zahlen%5C) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
+| 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ (2 konjugiert [komplexe](Komplexe%20Zahlen.md) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
 
 > [!note] $C_{1}$ und $C_{2}$ werden durch die Anfangsbedingung festgelegt
 

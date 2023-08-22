@@ -31,7 +31,7 @@ $M_{x}\rightarrow [0;1]$
 
 | Wahrscheinlichkeitsdichte                 | Wahrscheinlichkeitsverteilung             |
 | ----------------------------------------- | ----------------------------------------- |
-| ![350](Pasted%20image%2020221210150102.png%5C) | ![300](Pasted%20image%2020221210150004.png%5C) |
+| ![350](../../assets/Pasted%20image%2020221210150102.png) | ![300](../../assets/Pasted%20image%2020221210150004.png) |
 | Summe aller $=1$                          | w                                          |
 
 # Tags

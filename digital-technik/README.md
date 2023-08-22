@@ -9,7 +9,7 @@ created: 10th December 2022
 - Grundlagen Logikgatter
 
 ## 2. JG (EDT)
-- [Dioden](../hwe/Dioden.md)
+- [Diode](../hwe/Diode.md)
 - Flip Flops
 
 ## 3. JG

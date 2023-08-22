@@ -17,7 +17,7 @@ created: 2nd October 2022
 ### Schalttransistor
 - Spannugsfestigkeit  $>800V$
 - Schnelle Schaltzeiten
-### Diode
+### [Diode](../Diode.md)
 - Netzgleichrichter unproblematisch
 - Sekundär Gleichrichter Diodn
 	- Schnelle Schottky Schaltdioden ($U_{Fo} \approx 0.4V$)

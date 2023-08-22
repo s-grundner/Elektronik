@@ -1,27 +1,34 @@
 ---
-aliases: ["Abwärtswandler", "Tiefsetzsteller", "Step-Down converter"]
+aliases: ["Abwärtswandler", "Tiefsetzsteller", "Step-Down"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 created: 20th April 2022
 ---
 # Buck Converter
+
 ## Schaltung
+
 ![Buck_converter](../assets/Buck_converter.svg)
 
-Der [Transistor](../{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gatespannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
+Der [Transistor](../{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
 Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle) der Steuerspannung.
+
 ## Impuls-Zeit Diagramm
->![BuckConverterLZD](../assets/BuckConverterLZD.png)
+
+![BuckConverterLZD](../assets/BuckConverterLZD.png)
 
 ## Schaltstufe S
 
 ### $0<t<t_{1}$: $S_{geschlossen}$
+
 Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](../Induktivitäten.md) $L$ und versorgt den Lastwiderstand und den [Kondensator](../Kapazität.md) $C_{L}$. Dabei speichert auch die [Spule](../Induktivitäten.md) $L$ Energie
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
+
 Die in der [Spule](../Induktivitäten.md) gespeicherten Energie liefert weiter Strom an den [Kondensator](../Kapazität.md)  und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../Induktivitäten.md), den [Kondensator](../Kapazität.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
 
 ### Herleitung der Dimensionierung
+
 Annahme: $U_{a}$ ist konstant über $T_{S}$
 $0<t<t_{1}$: $S_{geschlossen}$
 $$
@@ -56,6 +63,7 @@ $$
 Die Ausgangsspannung kann nur kleiner als $U_{e}$ sein und die Steuerung von $U_{a}$ erfolgt durch veränderung der **Duty-Cycle** bzw der **Schaltperiode**.
 
 ## [Induktivität](../Induktivitäten.md)
+
 Aus [](Buck%20Converter.md#t_%201%20t%20T_%20s%20S_%20geöffnet|(2)) folgt:
 $$
 L_{min} = \frac{(U_{a}+U_{FO})\cdot (T_{s}-t_{1})}{\Delta I_{L}(t)}
@@ -65,7 +73,9 @@ $$
 L_{\min} = \frac{(U_{a}-U_{e})\cdot t_{1}}{\Delta I_{L}}
 $$
 Es ist zu beachten, dass $I_{L}(t)$ in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, das heißt auf $0$ sinkt. Delta $I_{L}$ ist daher mit $0,2 - 0,4$ fachen von $\overline{I_{a}}$ als Richtwert anzunehmen.
+
 ## [Kapazität](../Kapazität.md)
+
 $$
 \begin{align*}
 \Delta Q &= \Delta I\cdot t &&= \frac{\Delta I_{L}}{2}\cdot\frac{t_{1}}{2}\cdot \frac{1}{2} + \frac{\Delta I_{L}}{2} \cdot \frac{T_{S}-t_{1}}{2}\cdot \frac{1}{2}
@@ -79,8 +89,9 @@ Durch den Ladestrom $I_{L}$ wird auch eine Änderung der Kondensatorspannung bew
 
 Die Annahme einer konstanten Ausgangsspannung bezieht sich daher auf den Mittelwert der zeitabhängigen Größe $U_{A} = U_{C}(\overline{t})$
 
-## [Diode](../Dioden.md)
-Verwendung einer Schottky Diode:
+## [Diode](../Diode.md)
+
+Verwendung einer Schottky [Diode](../Diode.md):
 - kurze Schaltzeit
 - niedrige Schwellspannung $U_{FO}\approx 0,4V$
 
@@ -88,6 +99,7 @@ Zu Beachten:
 - $U_{Reverse} > U_{e}$ (laut DS meistens $1.3\cdot U_{e}$)
 
 ## Dimensionierung der Bauteile
+
 - ESR: Equivalent Series Resistance
 	- Möglichst Gering
 - ESL: Equivalent Series Inductance
@@ -104,7 +116,7 @@ Zu Beachten:
 
 ### Mindest Spulenwert
 
->![Lückgrenze](../assets/Lückgrenze.svg)
+![Lückgrenze](../assets/Lückgrenze.svg)
 
 Damit der Spulenstrom in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, muss folgendes gelten:
 $$
@@ -122,8 +134,10 @@ $$
 
  - Für kleine [Induktivitäten](../Induktivitäten.md) ist eine große Schaltfrequenz zu wählen. 
  - Frequenz nicht beliebig wählbar, da sie ein steigen der dynamischen Verluste in der Drossel verursacht, wenn sie höher wird. Eine Hohe Schaltfrequenz bewirkt auch einen teureren Schalttransistor.
- - Daher erfolgt eine begrenzung der Taktfrequenz bei $50-500kHz$ (Je nach Bauart)
- ### Glättungskondensator
+ - Daher erfolgt eine Begrenzung der Taktfrequenz bei $50-500kHz$ (Je nach Bauart)
+
+### Glättungskondensator
+
 $$
 \begin{align*}
 \Delta U_{a} &= \frac{\Delta I_{L}\cdot T}{8\cdot C}\\
@@ -131,15 +145,16 @@ $$
 C_{a,min} &= \frac{U_{a}\cdot T^{2}}{8L\cdot\Delta U_{a}}\cdot\left(1- \frac{U_{a}}{U_{e}}\right)
 \end{align*}
 $$
+
 ## Erzeugung des Schaltsignals
 
 Die erzeugung von $U_{steuer}$ erfolg mit einem Pulsbreiten modulator und mit einem Regler mit Spannungsreferenz
 
->![bsb](../assets/bsb.svg)
+![bsb](../assets/bsb.svg)
 
 ### Funktionsweise des Impulsbreitenmodulators
 
->![Untitled Diagram 1](../assets/Untitled%20Diagram%201.svg)
+![Untitled Diagram 1](../assets/Untitled%20Diagram%201.svg)
 
 Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](../Metall-Oxid-Halbleiter-Feldeffekttransistor.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte [Voltage-Mode-Regelung](../Voltage-Mode-Regelung.md). 
 

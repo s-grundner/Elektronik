@@ -7,6 +7,7 @@ created: 17th November 2022
 ---
 
 # LC [Oszillatoren](Clock%20Generierung.md)
+
 - Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md)
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
 - sowohl Serien- als auch Parallelschwingkreis möglich 
@@ -80,7 +81,7 @@ u_{c}(t)&= \tilde{C_{1}}\cdot\cos(\omega t)+\tilde{C_{2}}\sin(\omega t)\\
 \end{align*}
 $$
 
-- Damit die Schaltung ein [Selbstschwingendes](../../mathe/mathe%20(4)/Schwingkreise.md) System sein kann, muss der [](../../mathe/mathe%20(4)/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen%5C|Schwingfall) ($\delta<\omega_{0}$)
+- Damit die Schaltung ein [Selbstschwingendes](../../mathe/mathe%20(4)/Schwingkreise.md) System sein kann, muss der [](../../mathe/mathe%20(4)/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
 
   
 > [!question] Lösungsansatz

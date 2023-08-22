@@ -1,11 +1,19 @@
 ---
 tags: []
 aliases: ["Leiterplatte", "PCB", "Leiterplatten-Design", "PCB-Design"]
-source: ["Rick Hartley"]
+source: ["Rick Hartley", "Mike Creeden"]
 created: 19th August 2023
 ---
 
 # PCB-Layout
+
+![500](assets/Pasted%20image%2020230822172103.png)
+
+- **DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
+- **DFP - Performance/Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), Thermisch, Strom 
+- **DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil versorgung/verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
+
+## Hochfrequenz Leitungen
 
 ## [Schirmung](Schirmung.md) von Leiterbahnen
 
@@ -44,5 +52,7 @@ created: 19th August 2023
 > - Mit jedem Signal Via ein Referenz-Via ==dicht== daneben Platzieren 
 
 # Tags
+
+![EM Field and High-Speed Routing Principles - Mike Creeden](https://www.youtube.com/watch?v=3Is7bra3tsc)
 
 ![How to Achieve Proper Grounding - Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)
