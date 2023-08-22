@@ -25,12 +25,15 @@ created: 23rd August 2022
 - Alle organischen Verbindungen ($CH_{4}$, Polymere)
 
 ## Bindende Elektronenpaare
+
 Durch Überlappung einfach besetzter Orbitale benachbarter Atome, entstehen Elektronenpaare mit entgegengesetztem Spin.
 
 ## Nicht bindende Elektronenpaare
+
 Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 
 ## Valenzstrichformel
+
 | Molekül  | VSF                    | Atome                                                                               |
 | -------- | ---------------------- | ----------------------------------------------------------------------------------- |
 | $Cl_{2}$ | >![125](assets/VSF-Cl2.png) | ![125](assets/Cl.png)                                           |
