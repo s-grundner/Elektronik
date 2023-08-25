@@ -1,5 +1,5 @@
 ---
-tags: ["Database", "Datenbank"]
+tags: ["DB", "DB"]
 aliases: ["SQL", "SQLite", "MySQL", "PostgreSQL", "Structured Query Language"]
 subject: ["fsst"]
 source: ["Roman Schragl", "https://gitlab.com/fosy/htbluva_sbg_fsst/"]
@@ -36,7 +36,7 @@ Auch die Datentypen können von Datenbank zu Datenbank unterschiedlich sein.
 
 Für die folgenden Erklärungen hilft es mit einer Beispieldatenbank *my_einkauf* zu arbeiten:
 
-![SQL_DML_01](bilder/SQL_DML_01.png)
+![SQL_DML_01](assets/SQL_DML_01.png)
 
 Sie können dafür folgendes Skript verwenden:
 
@@ -88,7 +88,7 @@ SELECT kunden.knr, bestellungen.bnr FROM bestellungen, kunden;
 
 Hier wird eine Tabelle mit den Spalten *knr* und *bnr* generiert. Durch die zweite Tabelle wird jede knr aus *kunden* sooft ausgegeben wie *bestellungen* Zeilen hat (Kreuzprodukt).
 
-![SQL_DML_02](bilder/SQL_DML_02.png)
+![SQL_DML_02](assets/SQL_DML_02.png)
 
 Umbenennen von Spalten:
 
@@ -151,7 +151,7 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
 - INNER JOIN: für die Auswahl von Elementen die in beiden Teiltabellen vorhanden sind.
   Ermittlung nur jener Kunden die auch eine Bestellung getätigt haben:
   
-  ![SQL_JOIN1](bilder/SQL_JOIN1.png)
+  ![SQL_JOIN1](assets/SQL_JOIN1.png)
   
   ```sql
   SELECT * FROM kunden JOIN bestellungen ON bestellungen.knr=kunden.knr;
@@ -175,7 +175,7 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
 - LEFT JOIN: Auswahl von sämtlichen Elementen aus der *linken* (erstgenannte) Tabelle. Wenn möglich werden die Datensätze mit Informationen der *rechten* Tabelle ergänzt.
   Auflistung sämtliche Kunden, vorhandene Bestellungen werden beim Kunden angeführt:
   
-  ![SQL_JOIN1](bilder/SQL_JOIN2.png)
+  ![SQL_JOIN1](assets/SQL_JOIN2.png)
   
   ```sql
   SELECT * FROM kunden LEFT JOIN bestellungen ON bestellungen.knr=kunden.knr;
@@ -195,7 +195,7 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
 - RIGHT JOIN: Analog zu LEFT JOIN, in manchen DB-Systemen gibt es nur einen der beiden, der jeweilig anderen kann ja durch vertauschen der Reihenfolge ermittelt werden.
   Sämtliche Bestellungen, wenn möglich komplettiert mit eventuell bestellenden Kunden (in diesem Beispiel gibt es interne Bestellungen - ohne Kunde):
   
-  ![SQL_JOIN1](bilder/SQL_JOIN3.png)
+  ![SQL_JOIN1](assets/SQL_JOIN3.png)
   
   ```sql
   SELECT * FROM kunden RIGHT JOIN bestellungen ON bestellungen.knr=kunden.knr;
@@ -215,7 +215,7 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
 - OUTER JOIN: Für die Darstellung sämtlicher Datensätze beider Tabellen, wenn möglich werden die Sätze aus beiden Tabellen kombiniert.
   Sämtliche Kunden und sämtliche Bestellungen, wenn Möglich mit Zuordnung:
 
-![SQL_JOIN1](bilder/SQL_JOIN4.png)
+![SQL_JOIN1](assets/SQL_JOIN4.png)
 
 ```sql
 SELECT * FROM kunden OUTER JOIN bestellungen ON bestellungen.knr=kunden.knr;

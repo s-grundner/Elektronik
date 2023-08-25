@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Oszillator"]
 aliases: ["Phasenregelschleife", "PLL"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -15,8 +15,8 @@ Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines ver�
 > [!summary] Bestandteile
 > - Phase Detector + Charge Pump
 > - Loop Filter
-> - [VCO](../Voltage%20Controlled%20Oscillator.md)
-> - Feedback-Divider ([Clock Divider](../../digital-technik/Clock%20Divider.md))
+> - [VCO](Voltage%20Controlled%20Oscillator.md)
+> - Feedback-Divider ([Clock Divider](Clock%20Divider.md))
 
 ## Kennwerte
 
@@ -57,9 +57,9 @@ F체r den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die 체brigen Freq
 > [!warning] Der Filter hat daher eine Tiefpass-Charakteristik.
 > Tiefpass 1. Ordnung
 
-# [VCO](../Voltage%20Controlled%20Oscillator.md)
+# [VCO](Voltage%20Controlled%20Oscillator.md)
 
-- Der [VCO](../Voltage%20Controlled%20Oscillator.md) setzt das Signal in eine Rechteckschwingung um.
+- Der [VCO](Voltage%20Controlled%20Oscillator.md) setzt das Signal in eine Rechteckschwingung um.
 - Interessant ist die sogenannte *center-frequency*, also jede Frequenz, mit der der [Oszillator](Clock%20Generierung.md) im Locked-Zustand schwingt.
 - Um sie herum findet der Regelvorgang statt.
 - In PLL-Schaltungen kommen f체r die [Oszillatoren](Clock%20Generierung.md) haupts채chlich [LC-Oszillatoren](LC%20Oszillatoren.md) (weniger h채ufig RC-[Oszillatoren](Clock%20Generierung.md)) sowie Ringoszillatoren zum Einsatz.

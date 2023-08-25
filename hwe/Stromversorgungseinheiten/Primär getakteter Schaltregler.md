@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["SMPS"]
 aliases: ["Primär getakteter SMPS", "Primär getaktete SMPS"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -25,7 +25,7 @@ created: 2nd October 2022
 - Spannungsfestigkeit  $>800V$
 - Schnelle Schaltzeiten
 
-### [Diode](../Diode.md)
+### [Diode](../Halbleiter/Diode.md)
 
 - Netzgleichrichter unproblematisch
 - Sekundär Gleichrichter Diodn

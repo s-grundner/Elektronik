@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 1 Rekursion
 
 **Iteration:** mehrmaliges/wiederholtes Ausführen einer Aktion.
@@ -29,7 +35,7 @@ Grundsätzlich gilt:
 - jedes iterativ lösbare Problem lässt sich auch rekursiv lösen und umgekehrt (nicht immer trivial).
   
 
-![Rekursion](bilder/Rekursion.png)
+![Rekursion](assets/Rekursion.png)
 
 
 ## Fragen

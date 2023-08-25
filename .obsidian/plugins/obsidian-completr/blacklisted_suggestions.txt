@@ -50,3 +50,10 @@ Heap
 free
 else
 c
+while
+SQL
+ERD
+B
+c++
+ARP
+DB

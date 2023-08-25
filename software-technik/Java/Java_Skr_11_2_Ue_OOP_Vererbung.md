@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 11.2 OOP Vererbung - Übungen
 
 ## Firma (120, 012)

@@ -42,7 +42,7 @@ Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 3. Van-der-Waals-Kräfte
 	- [Studyflix](https://studyflix.de/chemie/van-der-waals-krafte-1561)
 ## Elektrische Leitfähigkeit
-- Leiter, [Halbleiter](../hwe/Halbleiter.md), Isolator (Nichtleiter)
+- Leiter, [Halbleiter](../hwe/Halbleiter/Halbleiter.md), Isolator (Nichtleiter)
 - Elektr. Leiter 1. Klasse (Metalle) $\rightarrow$ <mark style="background: #ADCCFFA6;">Elektronen</mark> als Ladungsträger
 - Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ <mark style="background: #FF5582A6;">Ionen</mark> als Ladungsträger
 

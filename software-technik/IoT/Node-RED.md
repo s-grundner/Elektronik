@@ -1,3 +1,9 @@
+---
+tags: ["IoT"]
+aliases: []
+created: 29th November 2022
+---
+
 # Node-RED
 
 ## Installation
@@ -206,9 +212,9 @@ Die DB **espdta** hat zwei Spalten: **DATA** und **DATE**.
 
 ## InfluxDB
 
-InfluxDB ist eine Datenbank die sich gut für Zeit-Abhängige Ablagen eignet. Um das InfluxDB-Addon Node-Red zu installieren: https://flows.nodered.org/node/node-red-contrib-influxdb.
+InfluxDB ist eine [Datenbank](../Db/Datenbank.md) die sich gut für Zeit-Abhängige Ablagen eignet. Um das InfluxDB-Addon Node-Red zu installieren: https://flows.nodered.org/node/node-red-contrib-influxdb.
 
-InfluxDB-Datenbank aufsetzen:
+InfluxDB-[Datenbank](../Db/Datenbank.md) aufsetzen:
 
 https://www.bjoerns-techblog.de/2017/05/installation-von-influxdb-telegraf-und-grafana-auf-dem-raspberry-pi-3/
 

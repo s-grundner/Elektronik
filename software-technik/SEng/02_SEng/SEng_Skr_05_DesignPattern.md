@@ -1,3 +1,9 @@
+---
+tags: ["Software Engineering"]
+aliases: []
+created: 29th November 2022
+---
+
 # 5 Entwurfsmuster
 
 (Design Pattern)
@@ -113,7 +119,7 @@ Auto *meins = new Bmw();
 
 
 
- ![Klassendiagramm der am Muster beteiligten Rollen.](bilder/UML_Pattern_Factory.png) 
+ ![Klassendiagramm der am Muster beteiligten Rollen.](assets/UML_Pattern_Factory.png) 
 
 Die hier dargestellte Factory ist eine vereinfachte Form für eine einzelne Fabrik. Erweitert wird dieses Pattern indem unterschiedliche Fabriken die gleichen Produktlinien erzeugen.
 
@@ -140,7 +146,7 @@ Ein Observer gehört zur Gruppe der **Verhaltensmuster**. Er wird verwendet um V
 
 Ein Observer ist eine *Eins-zu-Viele-Abhängigkeit* (Ein Subject <-> Viele Observer).
 
-![img](bilder/UML_Pattern_Observer.png)
+![img](assets/UML_Pattern_Observer.png)
 
 c++-Beispiel:
 
@@ -154,7 +160,7 @@ Ein **Iterator** gehört zur Gruppe der Verhaltensmuster. Dieses Muster sei hier
 
 Das MVC-Pattern ist Keines der GoF, allerdings hat es sich für GUI-Anwendungen sehr bewährt. Dabei geht es darum graphische Kontrollelemente von der Logik zu trennen:
 
- ![img](bilder/Pattern_MVC.png) 
+ ![img](assets/Pattern_MVC.png) 
 
 Beispielhaft soll mittels einer Datenbankanwendung Listen in einer Applikation dargestellt werden. In einer ersten Implementierung würde das ein ständiges Wechselspiel von GUI-Events und Datenbankzugriffen zur Folge haben. Ein Problem entsteht, wenn die Anwendung auf einem anderem System (Linux, Windows, Mobil, Desktop ...) laufen soll, dann muss die komplette Anwendung neu erstellt werden. Aber genauso wenn die Daten eine andere Struktur aufweisen.
 
@@ -213,7 +219,7 @@ Problemstellung:
 
 
 
-![Objektadapter in UML-Notation](bilder/UML_Pattern_adapter.png)
+![Objektadapter in UML-Notation](assets/UML_Pattern_adapter.png)
 
 Ein Client greift auf `request()` von `Target` zu. Verfügbar für diese Anforderung ist lediglich `specificRequest` von `Adaptee`. Es wird eine *Adapter*-Klasse erstellt: 
 

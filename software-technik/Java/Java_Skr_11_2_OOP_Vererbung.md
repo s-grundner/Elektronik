@@ -1,12 +1,16 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
 
-11.2 Objekt Orientierte Programmierung - Vererbung
-===================
+# 11.2 Objekt Orientierte Programmierung - Vererbung
 
 ## Beispiel
 
 Ein Programm beinhaltet die Klassen *Auto*, *LKW*, *Fahrrad* und *Kutsche*. Jede dieser Klassen hat das double-Attribut *geschwindigkeit* und die Methode *fahren()*. Zusätzlich haben einzelne Klassen noch weitere Attribute/Methoden die nicht alle anderen Klassen haben:
 
-![07_2_OOP_VererbungBeispiel|1050](bilder/07_2_OOP_VererbungBeispiel.png)
+![07_2_OOP_VererbungBeispiel|1050](assets/07_2_OOP_VererbungBeispiel.png)
 
 Nun könnte jede dieser Klassen unabhängig voneinander implementiert werden. Eventuell idente Attribute/Methoden können z.B. mittels Copy&Paste kopiert werden. Sollen die Klassen später mit weiteren gemeinsamen Attribute/Methoden erweitert werden, dann muss jede der Klassen angepasst werden.
 
@@ -14,7 +18,7 @@ Als Alternative können die gemeinsamen Elemente (Attribute/Methoden) in eine ei
 
 Für das angeführte Beispiel kann eine gemeinsame Klasse *Fahrzeuge* erzeugt werden. Diese Klasse enthält das *geschwindigkeits*-Attribute und die *fahren()*-Methode.
 
-![07_2_OOP_VererbungBeispiel2|550](bilder/07_2_OOP_VererbungBeispiel2.png)
+![07_2_OOP_VererbungBeispiel2|550](assets/07_2_OOP_VererbungBeispiel2.png)
 
 Damit muss in den Klassen die sich von dieser Klasse ableiten nur mehr der Unterschied zu dieser Klasse implementiert werden. Wird die *Fahrzeug*-Klasse etwa mit der Methode *bremsen()* ertweitert, dann steht sie auch für die davon abgeleiteten Klassen zur Verfügung.
 

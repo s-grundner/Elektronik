@@ -1,5 +1,10 @@
-11.4 Objekt Orientierte Programmierung - Weiteres
-===================
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
+# 11.4 Objekt Orientierte Programmierung - Weiteres
 
 ### Singleton-Objekte
 

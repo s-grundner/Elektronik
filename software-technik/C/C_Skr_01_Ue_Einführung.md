@@ -8,7 +8,7 @@ created: 29th November 2022
 
 ## Installation - Codeblocks
 
-- Download und Installation Codeblocks-Entwicklungsumgebung. Es gibt Versionen die beinhalten einen Compiler (mingw). mingw ist eine MS-Windows-Version einer GNU-Compiler-Sammlung (c, c++ ...):
+- Download und Installation Codeblocks-Entwicklungsumgebung. Es gibt Versionen die beinhalten einen Compiler (mingw). mingw ist eine MS-Windows-Version einer GNU-Compiler-Sammlung (c, [c++](../Cpp/Cpp.md) ...):
 
   http://www.codeblocks.org/downloads/
 

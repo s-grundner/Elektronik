@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["SMPS"]
 aliases: ["Stabilisierungsschaltung", "Stabilisierungsschaltungen", "Linearregler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -45,9 +45,9 @@ Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kat
 
 ## Ungeregelte Spannungsstabilisierung
 
-### Stabilisierungsschaltung mit einer [Zener-Diode](Zener-Diode.md)
+### Stabilisierungsschaltung mit einer [Zener-Diode](../Halbleiter/Zener-Diode.md)
 
-Mittels einer [Zener-Diode](Zener-Diode.md) kann eine Ausgansspannung in einem wieten Bereich konstant gehalten werden.
+Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspannung in einem wieten Bereich konstant gehalten werden.
 
 | Kennwerte                                                                                                           | Schaltung                    |
 | ------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
@@ -98,7 +98,7 @@ Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.
 Es gilt  $\Delta I_{L}=\Delta I_{Z}$
 Eine Längstransistorschaltung behebt diesen Nachteil
 
-### Längstransistor mit [Zener-Diode](Zener-Diode.md)
+### Längstransistor mit [Zener-Diode](../Halbleiter/Zener-Diode.md)
 
 ![Laengstransostor2](../assets/Laengstransostor2.png)
 

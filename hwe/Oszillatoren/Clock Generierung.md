@@ -1,5 +1,5 @@
 ---
-tags: ["Microcontroller"]
+tags: ["Microcontroller", "Oszillator"]
 aliases: ["Clock", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -15,8 +15,8 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 > - [PGO](Pierce-Gate%20Oszillator.md)
 > - [PLL](Phase%20Locked%20Loop.md)
 > - [DTO](Discrete%20Time%20Oscillator.md)
-> - [Clock Divider](../../digital-technik/Clock%20Divider.md)
-> - [Clock Tree Balancing](../Clock%20Tree%20Balancing.md)
+> - [Clock Divider](Clock%20Divider.md)
+> - [Clock Tree Balancing](Clock%20Tree%20Balancing.md)
 
 ## Klassifizierung von Oszillatoren
 

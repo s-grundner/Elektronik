@@ -1,4 +1,10 @@
-# 1 Kryptographie
+---
+tags: ["Security"]
+aliases: []
+created: 29th November 2022
+---
+
+# Kryptographie
 ## Allgemein
 Computer und Netzwerksicherheit gewinnen immer größere Bedeutung. Um eine sichere Kommunikation über Netzwerke zu gewährleisten, müssen folgende Aspekte erfüllt sein:
 

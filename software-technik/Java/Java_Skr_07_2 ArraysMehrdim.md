@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 7.2 Mehrdimensionale Arrays
 
 Arrays bündeln gleichartige Daten (int ...)  in eine Array-Variable. Mit Arrays können nicht nur primitive Datentypen gebündelt werden sondern alle Arten von Variablen. Daher können auch Array-Variable in eine Array-Variable gebündelt werden. Dadurch entstehen mehrdimensionale Arrays. Zum Beispiel kann die Feldvariable: `int[] numArr` mit einer eckigen Klammer als neue Feldvariable definiert werden: `int[][] arrVonNumArr`.
@@ -13,7 +19,7 @@ r[2] = new int[2];		// das 3te r-Element soll ein Array mit 2 Elementen sein
 r[3] = new int[3];		// das 4te r-Element soll ein Array mit 3 Elementen sein
 ```
 
-![05_FelderMehrdim01](bilder/05_FelderMehrdim01.png)
+![05_FelderMehrdim01](assets/05_FelderMehrdim01.png)
 
 Wie man in diesem Beispiel erkennt ist es nicht notwendig, dass jedes Array-Element gleich groß sein muss (das wären rechteckige Arrays). Auch hier gibt's die Abkürzung:
 

@@ -1,14 +1,19 @@
-3 PROJEKTMANAGEMENT-Grundlagen - Übungen
-================================================================================
+---
+tags: ["Software Engineering"]
+aliases: []
+created: 29th November 2022
+---
 
-PJ-Management Übersicht
---------------------------------------------------------------------------------
+# 3 PROJEKTMANAGEMENT-Grundlagen - Übungen
+
+## PJ-Management Übersicht
+
 Lesen Sie 
 `SEng_Skr_03_Projektmanagement.ppt`
 
 
-Projektstrukturpläne (PSP-I und PSP-II) erstellen
---------------------------------------------------------------------------------
+## Projektstrukturpläne (PSP-I und PSP-II) erstellen
+
 Überprüfen Sie die folgende Zusammenfassung auf Fehler bzw. Vollständigkeit.
 
 
@@ -47,8 +52,8 @@ Projektstrukturpläne (PSP-I und PSP-II) erstellen
 		* Gebrauchte Zeit
 
 
-AUFGABE: Projekt-Management und GANTT Diagramm
---------------------------------------------------------------------------------
+## AUFGABE: Projekt-Management und GANTT Diagramm
+
 1. Erstellen Sie ein GANTT-Diagramm für Ihre DA
 	https://info.htl-salzburg.ac.at/Lehre/elektronik/Diplomarbeiten/Vorlagen/Projektplan_MUSTERMANN.xlsx
 

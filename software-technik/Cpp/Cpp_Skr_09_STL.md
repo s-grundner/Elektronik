@@ -12,11 +12,11 @@ Die Container und Algorithmen sind im Standard-Namespace *std* definiert. Die fo
 - möglichst einfach (**primitiv**). Kein Vereinen unterschiedlicher Lösungen
 - möglichst **erweiterbar**
 
-![](bilder/Stl_Overview.png)
+![](assets/Stl_Overview.png)
 
 Um Algorithmen möglichst von den Datenstrukturen/Containern unabhängig zu machen, sind die Algorithmen so entworfen, dass sie über einheitlich definierte Iteratoren funktionieren.
 
-![](bilder/Stl_Allg.png)
+![](assets/Stl_Allg.png)
 
 ## 9.1 Container
 
@@ -57,7 +57,7 @@ Unterscheidung:
 - Containeradapter: diese Container haben keine Iteratoren
   Beispiele: *stack*, *queue* und *priority_queue*
 
-![](bilder/STL_Container.png)
+![](assets/STL_Container.png)
 
 In den meisten Anwendungsfällen für einen sequentiellen Container sind *array* und *vector* die idealen Kandidaten. Gründe: schnellster Zugriff und kleinster Speicher-Overhead.
 

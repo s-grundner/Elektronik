@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 11.4 OOP - Weiteres - Übungen
 
 ## Ue_Komplex
@@ -263,7 +269,7 @@ Temperatur = [60,8 °F; 100,0 °F; 60,8 °F; 82,4 °F; 212,0 °F]; Mittelwert = 
 
 Die Daten der Messreihe sollen in eine csv-Datei geschrieben werden und dann mit Excel gelesen werden. Aufbau der Datei:
 
-![Alt-Text](bilder/Messreihe.png)
+![Alt-Text](assets/Messreihe.png)
 
 ## Ue_Datum
 

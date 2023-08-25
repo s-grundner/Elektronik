@@ -6,7 +6,7 @@ source: ["Michael Offenhuber"]
 created: 25th March 2022
 ---
 
-# Sperrschicht-[Feldeffekttransistor](Feldeffekttransistor.md) (JFET)
+# Sperrschicht-[Feldeffekttransistor](Halbleiter/Feldeffekttransistor.md) (JFET)
 
 ![JFET als Verstärker](assets/JFET%20als%20Verstärker.pdf)
 

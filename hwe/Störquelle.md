@@ -21,4 +21,4 @@ Man unterscheidet wiederum;
 - Lade- & Entladevorgänge von L, C
 - Takterzeugung und Verteilung
 - Signalwechsel auf Leitungen
-- Schaltvorgänge von [Transistoren]({MOC}%20Transistor.md)
+- Schaltvorgänge von [Transistoren](Halbleiter/{MOC}%20Transistor.md)

@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Microcontroller"]
 aliases: []
 created: 18th August 2023
 ---

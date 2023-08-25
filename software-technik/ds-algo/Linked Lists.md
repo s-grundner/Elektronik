@@ -1,5 +1,5 @@
 ---
-tags: ["ds-algo", ]
+tags: ["Algorithmus", ]
 aliases: ["Linked List"]
 subject: ["null"]
 source: ["null"]

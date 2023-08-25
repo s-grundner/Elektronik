@@ -10,12 +10,12 @@ created: 6th April 2022
 
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
 
-Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
+Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](Halbleiter/Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
 
 ### Grundlagen
 
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)
-[Halbleitermaterialien](Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.
+[Halbleitermaterialien](Halbleiter/Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.
 $U_{g}= \frac{W_{g}}{e}$
 wobei $e$ die [](../physik/Konstanten%20Verzeichnis.md#Elementar%20Ladung.md|Elementar%20Ladung) ist.
 
@@ -29,7 +29,7 @@ $U_{BE}= U_{T}\cdot \ln(I_{c}/I_{s})$
 
 | Formelzeichen | Bezeichnung                                    | Formel                                                                  |
 | ------------- | ---------------------------------------------- | ----------------------------------------------------------------------- |
-| $\eta$        | [Transistorgeometrie](%7BMOC%7D%20Transistor.md) $(\eta=1)$ |                                                                         | 
+| $\eta$        | [Transistorgeometrie](Halbleiter/{MOC}%20Transistor.md) $(\eta=1)$ |                                                                         | 
 | $U_{T}$       | Temperaturspannung                             | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](Konstanten%20Verzeichnis.md) |
 | $I_{s}$       | Sättigungssperrstrom                           |                                                                         |
 

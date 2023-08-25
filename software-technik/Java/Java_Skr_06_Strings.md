@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 6 Zeichenketten / Strings / Stringbuffer
 
 Strings sind Zeichenketten (Aneinanderreihung von Zeichen). Definieren von Stringvariablen:
@@ -128,7 +134,7 @@ str = String.format("xxx%7.3xxx",2.34567);		// xxx  2,346xxx
 str = String.format("xxx%7.3xxx",2.3);			// xxx  2,300xxx
 ```
 
-Als Komma wird verwendet, was im Betriebssystem in Regionseinstellungen festgelegt wurde.
+Als Komma wird verwendet, was im [Betriebssystem](../Os/Operating%20Systems.md) in Regionseinstellungen festgelegt wurde.
 
 Erweitert:
 

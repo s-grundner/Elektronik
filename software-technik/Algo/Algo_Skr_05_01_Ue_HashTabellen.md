@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 5.1 Hash-Tabellen / Assoziative Listen - Übungen
 
 ## Einführung (c286)

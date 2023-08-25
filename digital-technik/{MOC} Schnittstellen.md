@@ -11,7 +11,7 @@ created: 11th April 2022
 
 ### Synchron
 
-#### [TWI](TWI.md)/[I2C](TWI.md)
+#### [I2C](I2C.md)/[I2C](I2C.md)
 
 #### [SPI](SPI.md)
 

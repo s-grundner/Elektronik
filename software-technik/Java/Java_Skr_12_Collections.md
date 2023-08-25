@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 12 Collections
 
 Collections sind Sammlungen. Sie sind geeignet Mengen von Daten aufzunehmen. Das kann eigentlich schon mit Hilfe von Feldern gemacht werden. Die haben allerdings einen gravierenden Nachteil: die Größe kann während der Laufzeit nicht verändert werden. Neben diesem großen Unterschied gibt es in Java sehr viele unterschiedliche Collection-Typen. Wir werden uns nur mit einer Art beschäftigen - den ArrayLists (der Unterschied der vielen Collection-Typen wird dann relevant wenn richtig viele Daten verarbeitet werden. Dann sind z.B. einige Typen schneller). Sie gehört zu den Listen.

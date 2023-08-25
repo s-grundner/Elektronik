@@ -1,3 +1,9 @@
+---
+tags: []
+aliases: ["Leiterbahn"]
+created: 20th August 2023
+---
+
 # Leitung
 
 > [!note] elektrisch kurze Leitung

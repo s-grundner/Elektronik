@@ -4,7 +4,7 @@
 
 Gegeben ist das folgende Diagramm:
 
-![Fussball_DML](bilder/SQL_Fussball_DML.png)
+![Fussball_DML](assets/SQL_Fussball_DML.png)
 
 Erstellen Sie die Struktur mittels SQL in die Datenbank *is_fussball*.
 
@@ -79,7 +79,7 @@ Erstellen Sie für die UNI-Datenbank folgende Queries
 
 Nordwind ist eine sehr häufig referenzierte Beispiel-Datenbank für SQL-Beispiele (von Microsoft):
 
-![SQL_northwind-erd](bilder/SQL_northwind-erd.png)
+![SQL_northwind-erd](assets/SQL_northwind-erd.png)
 
 #### Einfache SELECT
 

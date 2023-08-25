@@ -1,5 +1,13 @@
+---
+tags: ["physik"]
+aliases: []
+created: 21st November 2022
+---
+
 # Laser
+
 Light Amplification by Stimulated Emission
+
 ## Eigenschaften
 -  **Laserlicht** ist nahezu paralleles Licht und kann gut gebündelt werden.
 -  **Laserlicht** hat eine hohe Energiedichte.

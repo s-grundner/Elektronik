@@ -1,7 +1,6 @@
 ---
-tags: []
+tags: ["physik"]
 aliases: ["Stoß"]
-subject: ["physik"]
 source: ["Angela Lindner"]
 created: 31st May 2022
 ---

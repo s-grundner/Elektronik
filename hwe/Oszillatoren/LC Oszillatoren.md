@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Oszillator"]
 aliases: ["LC-Oszillator", "LC-Oszillatoren", "LC Oszillator"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

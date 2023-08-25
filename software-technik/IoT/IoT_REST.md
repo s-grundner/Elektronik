@@ -1,3 +1,9 @@
+---
+tags: ["IoT"]
+aliases: []
+created: 29th November 2022
+---
+
 # REST-API
 
 Erstellen eines REST-Apis für einen Datenbankzugriff mittels Node.js und express.
@@ -19,7 +25,7 @@ Beispielhaft wird hier das Anlegen eines Datensatz in einer XAMPP/MariaDB angef�
 
 ### 1. Erstellen einer Beispieldatenbank
 
-In phpMyAdmin wird eine Datenbank mit dem Namen **crud-intro** angelegt und mit Daten befüllt:
+In phpMyAdmin wird eine [Datenbank](../Db/Datenbank.md) mit dem Namen **crud-intro** angelegt und mit Daten befüllt:
 
 ```
 CREATE TABLE `customers` (
@@ -329,9 +335,9 @@ connection.connect();
 connection.end();
 ```
 
-### 6. Datenbank SELECT
+### 6. [Datenbank](../Db/Datenbank.md) SELECT
 
-Ein bisschen mehr: Mit get wird eine Verbindung zur Datenbank hergestellt, ein Select ausgeführt und das Ergebnis get zurückgegeben und in der Konsole ausgegeben. Daraufhin wird die DB-Verbindung beendet. **server.js**:
+Ein bisschen mehr: Mit get wird eine Verbindung zur [Datenbank](../Db/Datenbank.md) hergestellt, ein Select ausgeführt und das Ergebnis get zurückgegeben und in der Konsole ausgegeben. Daraufhin wird die DB-Verbindung beendet. **server.js**:
 
 ```
 // server.js
@@ -448,7 +454,7 @@ Starten/Stoppen (enable/disable) eines Service:
 
 https://www.youtube.com/watch?v=1VA0MPwFcyU
 
-Für dieses Beispiel ist eine lokale MongoDB-Datenbank notwendig. Der Server muss lokal laufen (zum Beispiel als Service) und eine *MyDB*-Datenbank beinhalten mit einer (beliebigen) *person*-Collection (siehe *NoSQL-Datenbanken-Skriptum*).
+Für dieses Beispiel ist eine lokale MongoDB-[Datenbank](../Db/Datenbank.md) notwendig. Der Server muss lokal laufen (zum Beispiel als Service) und eine *MyDB*-[Datenbank](../Db/Datenbank.md) beinhalten mit einer (beliebigen) *person*-Collection (siehe *NoSQL-Datenbanken-Skriptum*).
 
 ### 1. Installation
 
@@ -919,7 +925,7 @@ http://localhost:1880/_rest?name=java
   - Installation für div. OS: https://nodejs.org/en/download/
   - Node.js für Raspian: https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
 
-  - [Node-Red](Node-RED.md)->Datenbank: https://flows.nodered.org/node/node-red-node-mysql
+  - [Node-Red](Node-RED.md)->[Datenbank](../Db/Datenbank.md): https://flows.nodered.org/node/node-red-node-mysql
   - Node.js - Verwendung für MySQL-Datenbanken
     <https://www.w3schools.com/nodejs/nodejs_mysql_select.asp>
     (<https://www.npmjs.com/package/mysql>)

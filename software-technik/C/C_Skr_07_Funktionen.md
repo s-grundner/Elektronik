@@ -1,5 +1,5 @@
 ---
-tags: ["c", "Funktionen". "Funktion", "Methode"]
+tags: ["c"]
 aliases: []
 created: 29th November 2022
 ---
@@ -52,7 +52,7 @@ int add(int a, int b) { .... }  // Implementierung der Funktion
 
 Diese separate Deklaration spielt eine ganz wichtige Rolle für die weitere Verwendung von Funktionen in anderen c-Modulen/Programmen und wird daher oft auch in die h-Datei ausgelagert. In den Prototypen ist es erlaubt den Variablennamen wegzulassen (also gilt für obiges Beispiel gleichwertig auch `int add(int, int)`.
 
-## [ Sichtbarkeit](C_Skr_08_Sichtbar.md#8%20Sichtbarkeit,%20Lebensdauer%20und%20Gültigkeit) / Geltungsbereich von Variablen
+## [Sichtbarkeit](C_Skr_08_Sichtbar.md#8%20Sichtbarkeit,%20Lebensdauer%20und%20Gültigkeit) / Geltungsbereich von Variablen
 
 - [Lokale Variable](C_Skr_08_Sichtbar.md#Lokale%20Variable)
 - [Lokal STATIC](C_Skr_08_Sichtbar.md#Lokal%20STATIC)
@@ -256,8 +256,8 @@ Vorgangsweise für die Erstellung solcher Projekte:
 -  Implementierung der Funktionen in der c-Datei schreiben
 -  Überlegen, was von dieser Implementierung von aussen sichtbar sein soll.
 -  Das kommt als Deklaration (Prototyp) in die h-Datei.
--  Für alles in der c-Datei, das woanders herkommt, gibt es einen #include, der die notwendige h-Datei einbindet.
--  Werden in der h-Datei Dinge von woanders benutzt, dann enthält die h-Datei einen entsprechenden #include.
+-  Für alles in der c-Datei, das woanders herkommt, gibt es einen `#include`, der die notwendige h-Datei einbindet.
+-  Werden in der h-Datei Dinge von woanders benutzt, dann enthält die h-Datei einen entsprechenden `#include`.
 -  Jede Datei, sowohl h-Datei als auch c-Datei ist in sich vollständig. Werden dort Dinge benutzt, dann müssen diese vor der Verwendung deklariert worden sein. Wie und wo diese Deklaration herkommt, ist dabei zweitrangig. Es kann sein, dass die Deklaration vor der Verwendung steht, es kann aber auch sein, dass die Deklaration über einen weiteren Include mit aufgenommen wird.
 
 

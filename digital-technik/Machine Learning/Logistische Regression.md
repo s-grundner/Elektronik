@@ -1,5 +1,5 @@
 ---
-tags: ["Machine Learning"]
+tags: ["ML"]
 aliases: ["Classification", "Klassifizierung"]
 subject: ["dic"]
 source: ["Robert Vogl"]

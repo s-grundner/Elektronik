@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["IoT"]
 aliases: []
 created: 18th August 2023
 ---

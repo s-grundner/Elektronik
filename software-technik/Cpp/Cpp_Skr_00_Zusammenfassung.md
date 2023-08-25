@@ -1,4 +1,4 @@
-# C++ Zusammenfassung
+# [C++](Cpp.md) Zusammenfassung
 
 ## Datentypen
 
@@ -14,7 +14,7 @@ Grundsätzlich sind die Typen immer Vorzeichen behaftet, ansonsten können sie m
 
 **Ganzzahlen** gibt es in unterschiedlicher Form:
 
-- `int`	hat nicht auf jedem Rechner die gleiche Größe, das hängt von der Hardware/Betriebssystem (Prozessorregister-Breite) und vor allem dem verwendeten Compiler ab.
+- `int`	hat nicht auf jedem Rechner die gleiche Größe, das hängt von der Hardware/[Betriebssystem](../Os/Operating%20Systems.md) (Prozessorregister-Breite) und vor allem dem verwendeten Compiler ab.
 
 - `short int`	auf jedem System 2 Bytes
 
@@ -49,7 +49,7 @@ ptr2 = &num;		// Adresse von var in Adressvariable ptr1 kopieren
 
 Mit dem Adress-Operator *&* kann die Adresse einer Variable ermittelt werden. Diese Adresse kann dann einer Adress-Variable (Zeiger) zugewiesen werden.
 
-![Cpp_Zeiger_01](bilder/Cpp_Zeiger_01.png)
+![Cpp_Zeiger_01](assets/Cpp_Zeiger_01.png)
 
 Rechnen mit Adressen: (ptr2 + 1) erhöht die Adresse nicht um 1 sondern um die Größe des Elements, für einen Zeiger auf int wird daher die Adresse um 4 erhöht, und das gilt auch für den Inkrement-Operator:
 
@@ -110,11 +110,11 @@ Bei der Definition eines Arrays ist der wesentliche Unterschied zu Arrays in and
 
 - die Array-Variable *arr* kann auch als Zeiger verstanden werden. Die Adresse die dieser Zeiger beinhaltet ist die Adresse des ersten Elements des Arrays. Sämtliche weiteren Elemente des Arrays sind im Speicher genau auf das erste Element folgend abgelegt. Dadurch kann mittels eines Index relativ effizient auf die einzelnen Elemente zugegriffen werden.
 
-  ![Cpp_Zeiger_01](bilder/Cpp_Array_01.png)
+  ![Cpp_Zeiger_01](assets/Cpp_Array_01.png)
 
   In der technischen Realisierung eines Array kann daher der Index direkt zur Adresse des ersten Elements dazugezählt werden.
 
-- Umgekehrt kann in C/C++ daher auf Zeiger mittels des Index-Operators zugegriffen werden (so als ob sie Arrays wären):
+- Umgekehrt kann in C/[C++](Cpp.md) daher auf Zeiger mittels des Index-Operators zugegriffen werden (so als ob sie Arrays wären):
 
   ```c++
   char *zeiger;
@@ -133,7 +133,7 @@ Der c-Dateizugriff funktioniert nach dem Prinzip:
 
 ​	Datei Öffnen -> Datei Lesen/Schreiben -> Datei Schließen
 
-**Datei Öffnen**: Mit dem Öffnen wird eine Datei üblicherweise vom Betriebssystem reserviert. Erst wenn ein Zugriff wieder geschlossen (Close) wird, kann die Datei vom Betriebssystem freigegeben werden.
+**Datei Öffnen**: Mit dem Öffnen wird eine Datei üblicherweise vom [Betriebssystem](../Os/Operating%20Systems.md) reserviert. Erst wenn ein Zugriff wieder geschlossen (Close) wird, kann die Datei vom [Betriebssystem](../Os/Operating%20Systems.md) freigegeben werden.
 
 ```c++
 FILE *fhdl = fopen("c:/pfad/myFile.txt", "rt");
@@ -327,9 +327,9 @@ int add(int a, int b) {				// Implementierung
 
 Um Funktionen aufrufen zu können müssen sie darüber bekannt sein. Dafür kann ein Prototyp verwendet werden.
 
-Um Funktionen in anderen C/C++-Dateien verwenden zu können werden die Prototypen in eigene Dateien ausgelagert. Diese eigenen Dateien können dann überall ohne die Implementierung eingebunden werden.
+Um Funktionen in anderen C/[C++](Cpp.md)-Dateien verwenden zu können werden die Prototypen in eigene Dateien ausgelagert. Diese eigenen Dateien können dann überall ohne die Implementierung eingebunden werden.
 
-Diese Dateien mit den Deklarationen sind **Header**-Dateien mit der Erweiterung **.h**. Die Implementierung wird in gleichbenannte Dateien mit der Erweiterung **.cpp** geschrieben. Für das Additionsbeispiel:
+Diese Dateien mit den Deklarationen sind **Header**-Dateien mit der Erweiterung **.h**. Die Implementierung wird in gleichbenannte Dateien mit der Erweiterung **.[cpp](Cpp.md)** geschrieben. Für das Additionsbeispiel:
 
 add.h
 
@@ -355,4 +355,4 @@ int main() {
 }
 ```
 
-Mit **#include ** wird vor der Übersetzung (Compilierung) der Code von *add.h* an dieser Stelle einkopiert.
+Mit `#include` wird vor der Übersetzung (Compilierung) der Code von *add.h* an dieser Stelle einkopiert.

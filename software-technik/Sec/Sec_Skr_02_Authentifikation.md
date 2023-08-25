@@ -1,3 +1,9 @@
+---
+tags: ["Security"]
+aliases: []
+created: 29th November 2022
+---
+
 # 2 Authentifikation
 
 Für Kommunikation, beispielsweise über Internet (Mail ...), ist es erforderlich sicherstellen zu können wer der Kommunikationspartner ist.

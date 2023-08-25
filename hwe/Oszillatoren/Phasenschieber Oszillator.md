@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Oszillator"]
 aliases: ["PSO", "Phaseshift Oscillator"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

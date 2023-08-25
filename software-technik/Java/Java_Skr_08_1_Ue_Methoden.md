@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 8 Methoden - Übungen
 
 1. Erstelle je eine Methode zur Berechnung des Umfangs eines Kreises.

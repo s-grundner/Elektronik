@@ -1,5 +1,5 @@
 ---
-tags: ["Machine Learning"]
+tags: ["ML"]
 aliases: []
 subject: ["dic"]
 source: ["Robert Vogl"]

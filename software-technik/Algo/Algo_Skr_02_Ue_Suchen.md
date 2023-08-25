@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 2 Suchen in Feldern - Übungen
 
 ## Sequentielle Suche im Struktur-Array (2051)

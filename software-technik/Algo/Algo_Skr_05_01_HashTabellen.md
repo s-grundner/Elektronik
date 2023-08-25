@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 5.1 Hash-Tabellen / Assoziative Listen
 
 ## Hash-Tabellen
@@ -65,7 +71,7 @@ Verbesserung durch Reorganisation: Tabellengröße dynamisch, Hashfunktion anpas
 - Jedes Element wird durch einen eindeutigen **Schlüssel** identifiziert.
 
 
-  ![AssocList](bilder/AssocList.png)
+  ![AssocList](assets/AssocList.png)
 
 Beispiel Telefonbuch:
 
@@ -77,7 +83,7 @@ Beispiel Telefonbuch:
 
   Telefonbuch["Huber"] --> "0662/737373"
 
-für C++:
+für [C++](../Cpp/Cpp.md):
 
 ```c++
 map<string, string> telbuch;			// include map, using std
@@ -90,7 +96,7 @@ telbuch[ "Kaiser" ] = "0500/554432";
 cout << telbuch[ "Maier" ];
 ```
 
-Beispiel (C++):
+Beispiel ([C++](../Cpp/Cpp.md)):
 
 ```c++
 // include iostream, map, string, iterator
@@ -125,7 +131,7 @@ if(mapOfWords.find("Mars") == mapOfWords.end())
 ```
 
 - Elemente Einfügen: Zugriff mit eckiger Klammer, dabei wird ein bereits vorhandener Schlüssel einfach Überschrieben. Mittels *.insert* wird ein bestehendes Element nicht überschrieben. Mit *.second* kann gleichzeitig geprüft werden ob das Element eingefügt wurde.
-- Auch für maps in c++ gibt es Iteratoren: siehe Beispiel
+- Auch für maps in [c++](../Cpp/Cpp.md) gibt es Iteratoren: siehe Beispiel
 
 Beispiel Java:
 

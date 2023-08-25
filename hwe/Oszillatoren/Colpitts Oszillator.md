@@ -25,10 +25,10 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 ![colp-sch](../assets/colp-sch.png)
 
 ## Funktionsweise
-- [Emitterschaltung](../Kollektorfolger.md): $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
+- [Emitterschaltung](../Halbleiter/Kollektorfolger.md): $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
 - kapazitive 3-Punkt Schaltung bringt weitere $180\degree\rightarrow\sum=360\degree$
 - [Barkhausen Kriterium](Barkhausen%20Kriterium.md) ist erfüllt
-- [Emitterschaltung](../Kollektorfolger.md) mit Basisspannungs-Teiler
+- [Emitterschaltung](../Halbleiter/Kollektorfolger.md) mit Basisspannungs-Teiler
 - $R_{E}$ zur Temperaturkompensation
 - RFC ([Radio](../../hf-technik/Rundfunk.md) Frequency Choke) dt. Drosselspule
 	- hebt den Massebezug des Oszillatorsignal zur Betriebsspannung auf

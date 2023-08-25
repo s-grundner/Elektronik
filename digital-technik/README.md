@@ -9,12 +9,12 @@ created: 10th December 2022
 - Grundlagen Logikgatter
 
 ## 2. JG (EDT)
-- [Diode](../hwe/Diode.md)
+- [Diode](../hwe/Halbleiter/Diode.md)
 - Flip Flops
 
 ## 3. JG
 - Digitale Zähler und Kippstufen
-- [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md)
+- [MOSFETs](../hwe/Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md)
 - Microcontroller Architekturen und Register
 - Messtechnische Erfassungen für Eingebettete Systeme 
 - AVR ([ATmega644p](AVR%20ATmega644p.md))
@@ -41,9 +41,9 @@ created: 10th December 2022
 - Zähler entwerfen
 - FlipFlops
 
-### [Transistor](../hwe/{MOC}%20Transistor.md)als Schalter BSP
+### [Transistor](../hwe/Halbleiter/{MOC}%20Transistor.md)als Schalter BSP
 - Berechnungen (Schaltschwellen, Dimensionieren usw. 3. Klasse)
-- [Mosfets](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) (Logische Schaltung mit vielen [MOSFETs](../hwe/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
+- [Mosfets](../hwe/Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) (Logische Schaltung mit vielen [MOSFETs](../hwe/Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
 - CMOS
 ### Assembler
 - Große Tabelle: wo ist man am Ende, wie lang dauerts… 3.Klasse

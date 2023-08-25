@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["SMPS"]
 aliases: ["Single transistor forward converter"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

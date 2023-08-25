@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 5 Dynamische Datenstrukturen - Übungen
 
 ## Einfach verkettete Liste (c280)
@@ -92,7 +98,7 @@ THEADER *swap(THEADER *lst, int pos1, int pos2);
 
 Es wird ein Programm minish (Minishell) entwickelt, das eine Historie von eingegebenen Befehlen in einer Liste speichert. Ein Listenknoten TNODE enthält einen String (das eingegebene Kommando). Als Listenkopf soll eine eigene Knotenstruktur THEADER dienen:
 
-![ListMinish](bilder/ListMinish.png)
+![ListMinish](assets/ListMinish.png)
 
 Header/Kopf:
 

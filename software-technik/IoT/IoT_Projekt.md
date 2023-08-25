@@ -1,14 +1,20 @@
+---
+tags: ["IoT"]
+aliases: []
+created: 29th November 2022
+---
+
 # Temperaturmessstation
 
 Es ist eine Temperaturmessstation zu entwerfen:
 
-![](C:\daten\Skripten\Informatik\IoT\bilder\Config.png)
+![Config](assets/Config.png)
 
-- erfaßt wird mittels Sensor die Lufttemperatur, der Luftdruck und die Luftfeuchtigkeit
+- erfasst wird mittels Sensor die Lufttemperatur, der Luftdruck und die Luftfeuchtigkeit
 - die Auswertung erfolgt mittels [ESP32](ESP32.md)
 - der [ESP32](ESP32.md) sendet die Messdaten mittels [MQTT](MQTT.md)-Protokoll an den MQTT-Broker Mosquitto
 - von diesem Broker wiederum werden die Daten von einem RaspberryPi abgerufen
-- der Raspi legt die Daten in einer internen influxDB-Datenbank ab
+- der Raspi legt die Daten in einer internen influxDB-[Datenbank](../Db/Datenbank.md) ab
 - die Bedienerschnittstelle wird mittels Grafana realisiert
 
 ## 1. [ESP32](ESP32.md)

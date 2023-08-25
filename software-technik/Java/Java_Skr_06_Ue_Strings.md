@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 6 Strings - Übungen
 
 ## Klein-/Großschreibung

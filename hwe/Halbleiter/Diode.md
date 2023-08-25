@@ -7,7 +7,7 @@ created: 16th March 2022
 ---
 
 
-# [Silizium](Halbleiter.md)-Diode (https://de.wikipedia.org/wiki/Diode)
+# [Silizium](Halbleiter/Halbleiter.md)-Diode (https://de.wikipedia.org/wiki/Diode)
 
 ## Grundlagen
 
@@ -25,7 +25,7 @@ created: 16th March 2022
 
 # Tags
 
-- [Zener-Diode](Zener-Diode)
+- [Zener-Diode](Zener-Diode.md)
 - [Germanium-Dioden](Germanium-Dioden)
 - [Leucht-Dioden](Leucht-Dioden)
 - [Kapazitäts-Diode](Kapazitäts-Diode.md)

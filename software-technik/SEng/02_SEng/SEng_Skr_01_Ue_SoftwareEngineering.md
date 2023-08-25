@@ -1,3 +1,9 @@
+---
+tags: ["Software Engineering"]
+aliases: []
+created: 29th November 2022
+---
+
 # Software Engineering - Übungen
 ## Grundlagen
 

@@ -1,4 +1,5 @@
 ---
+tags: ["SMPS"]
 aliases: ["Abwärtswandler", "Tiefsetzsteller", "Step-Down"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -10,7 +11,7 @@ created: 20th April 2022
 
 ![Buck_converter](../assets/Buck_converter.svg)
 
-Der [Transistor](../{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
+Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
 Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle) der Steuerspannung.
 
 ## Impuls-Zeit Diagramm
@@ -89,9 +90,9 @@ Durch den Ladestrom $I_{L}$ wird auch eine Änderung der Kondensatorspannung bew
 
 Die Annahme einer konstanten Ausgangsspannung bezieht sich daher auf den Mittelwert der zeitabhängigen Größe $U_{A} = U_{C}(\overline{t})$
 
-## [Diode](../Diode.md)
+## [Diode](../Halbleiter/Diode.md)
 
-Verwendung einer Schottky [Diode](../Diode.md):
+Verwendung einer Schottky [Diode](../Halbleiter/Diode.md):
 - kurze Schaltzeit
 - niedrige Schwellspannung $U_{FO}\approx 0,4V$
 
@@ -156,7 +157,7 @@ Die erzeugung von $U_{steuer}$ erfolg mit einem Pulsbreiten modulator und mit ei
 
 ![Untitled Diagram 1](../assets/Untitled%20Diagram%201.svg)
 
-Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](../Metall-Oxid-Halbleiter-Feldeffekttransistor.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte [Voltage-Mode-Regelung](../Voltage-Mode-Regelung.md). 
+Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](../Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte [Voltage-Mode-Regelung](../Voltage-Mode-Regelung.md). 
 
 ---
 

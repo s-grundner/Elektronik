@@ -186,7 +186,7 @@ deploy:
 
 
 
-Sinn der Sache: es kann sichergestellt werden, dass ein Projekt unter Umständen generiert wird, die für sämtliche Entwickler ident ist. Gerade durch die Verwendung unterschiedlicher Betriebssysteme / Entwicklungsumgebungen können gefundene Teillösungen für machen Entwickler funktionieren, für andere eventuell nicht (kann von einem Entwickler alleine nicht sichergestellt werden). Mit einer zentralen Gesamtprojekt-Überwachung kann dem entgegengewirkt werden. Eine Forderung der agilen Software-Entwicklung: Das Gesamt-Projekt muss immer lauffähig sein wird damit unterstützt.
+Sinn der Sache: es kann sichergestellt werden, dass ein Projekt unter Umständen generiert wird, die für sämtliche Entwickler ident ist. Gerade durch die Verwendung unterschiedlicher [Betriebssysteme](../../Os/Operating%20Systems.md) / Entwicklungsumgebungen können gefundene Teillösungen für machen Entwickler funktionieren, für andere eventuell nicht (kann von einem Entwickler alleine nicht sichergestellt werden). Mit einer zentralen Gesamtprojekt-Überwachung kann dem entgegengewirkt werden. Eine Forderung der agilen Software-Entwicklung: Das Gesamt-Projekt muss immer lauffähig sein wird damit unterstützt.
 
 ## Referenz
 

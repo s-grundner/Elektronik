@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 4 Backtracking
 
 Backtracking ist ein Problemlösungsverfahren nach dem *Trial-and-Error* (Versuch-und-Irrtum) Prinzip. Auf dem Weg zur Lösung wird ein möglicher Versuch angenommen und verfolgt bis er sich als richtig herausstellt oder ansonsten wird der Versuch zurückgenommen und ein alternativer Versuch unternommen.

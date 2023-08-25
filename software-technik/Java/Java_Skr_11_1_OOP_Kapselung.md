@@ -1,6 +1,10 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
 
-11.1 Objekt Orientierte Programmierung - Kapselung
-===================
+# 11.1 Objekt Orientierte Programmierung - Kapselung
 
 Das Objektorientierte Programmierparadigma basiert auf 3 Ideen:
 
@@ -171,7 +175,7 @@ Die Zugriffsmodifikatoren beschreiben von wo aus auf Memberelemente zugegriffen 
 
 **Beispiel:**
 
-![07_OOP_Zugrifsmodifikator](bilder/07_OOP_Zugrifsmodifikator.png)
+![07_OOP_Zugrifsmodifikator](assets/07_OOP_Zugrifsmodifikator.png)
 
 In der Klasse Dreieck gibt's die 3 Memberattribute a (public), b (private) und c (package). Die Variable a und die Methode getB() kann von überall, auch von außerhalb des Paketes gesehen oder beschrieben werden. Die Variable c kann von innerhalb des Pakets in dem das Objekt existiert gelesen oder geschrieben werden. Die Variable b kann nur von innerhalb des Objekts selbst gelesen oder verändert werden. Private Elemente sind nach aussen nicht sichtbar.
 

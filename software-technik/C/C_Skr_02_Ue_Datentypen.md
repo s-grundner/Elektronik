@@ -98,7 +98,7 @@ Hilfreiche Formatspezifizierer: d, u, lld, llu, e
   else wochentag++;
   ```
 
-L: Grundsätzlich funktioniert dieses Code-Fragment, wenn im enum die Werte oder die Reihenfolge für die Elemente verändert wird, dann stimmt das enum-Inkrement (++) nicht mehr (In C++ kann dafür der ++ -Operator überladen werden).
+L: Grundsätzlich funktioniert dieses Code-Fragment, wenn im enum die Werte oder die Reihenfolge für die Elemente verändert wird, dann stimmt das enum-Inkrement (++) nicht mehr (In [C++](../Cpp/Cpp.md) kann dafür der ++ -Operator überladen werden).
 
 ### Typedef
 

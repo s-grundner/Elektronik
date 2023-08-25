@@ -1,11 +1,10 @@
 ---
 tags: []
-aliases: ["EMV", "EMI"]
+aliases: ["EMV", "EMI", "EMC"]
 subject: ["hwe"]
 source: ["Siebgert Schrempf", "Rick Hartley"]
 created: 21st February 2023
 ---
-
 
 # Elektromagnetische Verträglichkeit
 

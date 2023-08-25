@@ -2,14 +2,14 @@
 
 ## 1. Allgemein
 
-Ein Betriebssystem ist die **Software**, die **den Betrieb Computers ermöglicht**.
+Ein [Betriebssystem](Operating%20Systems.md) ist die **Software**, die **den Betrieb Computers ermöglicht**.
 
 
 Es **verwaltet Betriebsmittel** wie Speicher, Ein- und Ausgabegeräte (und stellt sie somit zur Verfügung) und steuert die Ausführung von Programmen. 
 
 ### Aufgaben
 
-Ein Betriebssystem hat folgende grundlegende Aufgaben:  
+Ein [Betriebssystem](Operating%20Systems.md) hat folgende grundlegende Aufgaben:  
 
 1. Verwaltung
    - CPU: Prozessor(en)
@@ -45,7 +45,7 @@ Ein Betriebssystem hat folgende grundlegende Aufgaben:
 
 
 - Reale Maschine = Hardware (CPU + RAM + Peripheriegeräte)
-- Abstrakte Maschine = Reale Maschine + Betriebssystem
+- Abstrakte Maschine = Reale Maschine + [Betriebssystem](Operating%20Systems.md)
 - Benutzermaschine = Abstrakte Maschine + Anwendungsprogramm  	
 
 ###  Klassifizierung von Betriebssystemen
@@ -73,14 +73,14 @@ Bei bestimmten Betriebssystemen spielt die Verarbeitungszeit eine Rolle. Bei (Ec
 
 ###  Schichtenmodell eines Betriebssystems
 
-Zur logischen Strukturierung wird das Betriebssystem normalerweise in mehrere **Schichten** oder Schalen eingeteilt.  
+Zur logischen Strukturierung wird das [Betriebssystem](Operating%20Systems.md) normalerweise in mehrere **Schichten** oder Schalen eingeteilt.  
 
 - Die unterste Schale beinhaltet alle **hardwareabhängigen** Teile des Betriebssystems, insbesondere auch die **Verarbeitung von** **Interrupts**. 
   Auf diese Weise ist es möglich, das BS leicht an unterschiedliche Rechnerausstattungen anzupassen.  
 - Die nächste Schicht enthält die grundlegenden **Ein-/Ausgabe**-Dienste für Plattenspeicher und Peripheriegeräte. (**BIOS**)
-- Die darauf folgende Schicht behandelt **Kommunikations- und** **Netzwerkdienste**, **Dateien und** **Dateisysteme**. Weitere Schichten können je nach Anforderung folgen. Ein Betriebssystem besitzt also drei oder mehr logische Schichten.
+- Die darauf folgende Schicht behandelt **Kommunikations- und** **Netzwerkdienste**, **Dateien und** **Dateisysteme**. Weitere Schichten können je nach Anforderung folgen. Ein [Betriebssystem](Operating%20Systems.md) besitzt also drei oder mehr logische Schichten.
 
-![OS_Schalenmodell](bilder/OS_Schalenmodell.png)
+![OS_Schalenmodell](assets/OS_Schalenmodell.png)
 
 **Jede** **Schicht** bildet eine abstrakte (virtuelle) Maschine, die mit ihren benachbarten Schichten über **wohldefinierte Schnittstellen kommuniziert**.  
 
@@ -98,9 +98,9 @@ Durch jede Schicht wird eine zunehmende "**Veredelung**" der Hardware erreicht (
 
 Durch die Programmierschnittstelle (**API**, Application Programmer Interface) der höheren Schichten wird auch vermieden, dass jeder Programmierer die grundlegenden Routinen für den Zugriff auf Ein-/Ausgabegeräte und Massenspeicher selbst programmieren muss.  
 
-**Das BS stellt also eine** **definierte Programmierschnittstelle** **zur Verfügung**. Änderungen am BS oder der Hardware wirken sich so nicht auf die Anwenderprogramme aus, die nach wie vor über die gleichen Betriebssystem-Aufrufe die Dienste des BS in Anspruch nehmen.
+**Das BS stellt also eine** **definierte Programmierschnittstelle** **zur Verfügung**. Änderungen am BS oder der Hardware wirken sich so nicht auf die Anwenderprogramme aus, die nach wie vor über die gleichen [Betriebssystem](Operating%20Systems.md)-Aufrufe die Dienste des BS in Anspruch nehmen.
 
-![OS Schichtenmodell](bilder/OS_Schichtenmodell.png)
+![OS Schichtenmodell](assets/OS_Schichtenmodell.png)
 
 ###  Multitasking
 
@@ -108,7 +108,7 @@ Wenn mehrere Prozesse **quasiparallel/nebenläufig** nebeneinander laufen, dann 
 
 Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange kein weiterer ausstehender Prozess ausgeführt. Das passieren relativ häufig durch das Warten auf eine Benutzereingabe oder auf sonstige langsame Ereignisse (Festplattenzugriff, Drucker, Netzwerk ...). Für diese Fälle ist das quasiparallele Ausführen eine große Beschleunigung.
 
-![Multitasking](bilder/OS_Multitasking.png)
+![Multitasking](assets/OS_Multitasking.png)
 
 ## 2. Prozesse
 
@@ -124,11 +124,11 @@ Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange
 
 - **Prozess**
 
-  Wird ein Programm/Prozedur in einem Betriebssystem **ausgeführt**, so wird dieser Ablauf als **Prozess** (**Task**) bezeichnet. Bei der Ausführung von Prozessen entstehen Statusinformationen (Registerinhalte ...).
+  Wird ein Programm/Prozedur in einem [Betriebssystem](Operating%20Systems.md) **ausgeführt**, so wird dieser Ablauf als **Prozess** (**Task**) bezeichnet. Bei der Ausführung von Prozessen entstehen Statusinformationen (Registerinhalte ...).
 
   **Prozess:**
 
-  ![OS_Schalenmodell](bilder/OS_Instanz.png)
+  ![OS_Schalenmodell](assets/OS_Instanz.png)
 
   Alle vier Komponenten, die bei der Ausführung eines Programms (einer Prozedur) beteiligt sind, werden als Instanz zusammengefasst. 
 
@@ -146,7 +146,7 @@ Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange
 
   Damit ein Prozess wiederum quasiparallele Abläufe realisieren kann, können Prozesse (mehrere) Threads starten. Dabei handelt es sich um sogenannte *leichtgewichtige Prozesse*.  
   
-  ![](bilder/OS_Prozesse_03.png)
+  ![](assets/OS_Prozesse_03.png)
 
  - Letztendlich besteht ein Prozess mindestens aus einem Thread. 	
 
@@ -162,7 +162,7 @@ Somit stehen den einzelnen Threads dasselbe Codesegment, Datensegment, der Heap 
 
 Weil aber kein Speicherschutzmechanismus unter den Threads vorhanden ist, bedeutet dies auch, dass ein Thread, wenn er abstürzt, alle anderen Threads mit abstürzen lässt.
 
-![](bilder/OS_Prozesse_04.png)
+![](assets/OS_Prozesse_04.png)
 
  
 
@@ -207,11 +207,11 @@ Im Speicher liegen die einzelnen Instanzen der Prozesse.
 
 Jeweils einem Prozess wird die CPU zugeteilt. In der folgenden Abbildung sind 4 Instanzen dargestellt mit ihren Code, Daten, Stack Daten und ein Prozessor der den Prozessen zugeteilt wird:
 
-![](bilder/OS_Prozesse_05.png)
+![](assets/OS_Prozesse_05.png)
 
  Der Wechsel der Prozess-Zustände erfolgen wie hier dargestellt:
 
-![](bilder/OS_ProcZustaende.png)
+![](assets/OS_ProcZustaende.png)
 
 Übergänge:
 
@@ -247,7 +247,7 @@ In UNIX(-ähnliche) OS kann aus einem Prozess ein neuer Prozess gestartet werden
 - Jeder Kind-Prozess hat genau einen Eltern-Prozess  
 - Ein Eltern-Prozess kann mehrere Kind-Prozesse besitzen  
 
-![](bilder/OS_Prozesse_07.png)
+![](assets/OS_Prozesse_07.png)
 
 [Unix: pstree, ps aux,  top]
 
@@ -266,7 +266,7 @@ In UNIX(-ähnliche) OS kann aus einem Prozess ein neuer Prozess gestartet werden
 
 Durch die Suspendierungsmöglichkeit erweitert sich das Diagramm der Prozesszustände. Im suspendierten Zustand wird der Prozess in einen Sekundär-Speicher ausgelagert:  
 
-![](bilder/OS_Prozesse_08.png)
+![](assets/OS_Prozesse_08.png)
 
 ##  3. Prozess-Synchronisation
 
@@ -474,7 +474,7 @@ Der **Verbraucher** wechselt nun in den **SLEEP** Zustand.
 
 ### Semaphore
 
-![](bilder/OS_Prozesse_09.png)
+![](assets/OS_Prozesse_09.png)
 
 Bisher haben die Prozesse ihren Eintritt in den kritischen Abschnitt selbst gesteuert. 
 
@@ -694,14 +694,14 @@ Eine Verklemmung tritt bei **Anforderungen von Ressourcen durch mehrere Prozesse
 
 Beispiel aus dem täglichen Leben:
 
-![](bilder/OS_Prozesse_10.png)
+![](assets/OS_Prozesse_10.png)
 
 
 Das Problem wurde schon vor vielen Jahren behoben. Die Abbiegevorschriften wurden so geändert, dass die Autos **voreinander** abbiegen dürfen.  
 
 Die speisenden Philosophen
 
-![](bilder/OS_Prozesse_11.png)
+![](assets/OS_Prozesse_11.png)
 
 Dieses Beispiel stammt von Dijkstra und ist als Demonstrationsmodell für das Entstehen von Deadlocks gedacht. Es wird seither auch immer als Testproblem für neue Prozess-Synchronisations-Algorithmen verwendet. Bei Tanenbaum essen die Philosophen Spaghetti und zwar immer mit zwei Gabeln.  
 
@@ -747,7 +747,7 @@ Verklemmungen treten bei konkurrierendem Zugriff auf Ressourcen auf, die exklusi
 
 Oder bei einer Verkehrssteuerung, das Recht, eine Kreuzung zu passieren:
 
-![](bilder/OS_Prozesse_12.png)
+![](assets/OS_Prozesse_12.png)
 
  **Beispiel: System mit Drucker und Magnetband, 2 Prozesse**  
 
@@ -784,7 +784,7 @@ Für das Auftreten einer Verklemmung müssen folgende Bedingungen erfüllt sein:
 - **Nichtentziehbarkeit:** Einem Prozess können zugeordnete BM nicht zwangsweise entzogen werden; er muss sie explizit freigeben.  
 - **Geschlossene Kette:** Es existiert eine geschlossene Kette von 2 bis n Prozessen. Jeder von ihnen wartet auf ein BM, das durch den nächsten Prozess in der Kette gehalten wird.  
 
-![](bilder/OS_Prozesse_13.png)
+![](assets/OS_Prozesse_13.png)
 
 Im allgemeinen werden vier **Strategien zur Behandlung von Verklemmungen** verwendet:  
 

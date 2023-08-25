@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["SMPS"]
 aliases: []
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

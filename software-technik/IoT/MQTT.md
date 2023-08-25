@@ -1,3 +1,9 @@
+---
+tags: ["IoT"]
+aliases: ["Message Queuing Telemetry Transport"]
+created: 29th November 2022
+---
+
 # MQTT - Message Queuing Telemetry Transport
 
 https://de.wikipedia.org/wiki/MQTT
@@ -8,7 +14,7 @@ Schwachstelle von MQTT: ohne Broker geht gar nicht mehr.
 
 ## Installation Mosquitto
 
-Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige Betriebssysteme. Für Windows/Linux kann es einfach über die Seite https://mosquitto.org/download bezogen werden.
+Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige [Betriebssysteme](../Os/Operating%20Systems.md). Für Windows/Linux kann es einfach über die Seite https://mosquitto.org/download bezogen werden.
 
 Grundsätzlich ist zu unterscheiden:
 

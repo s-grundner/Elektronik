@@ -1,3 +1,9 @@
+---
+tags: ["Sortieren", "Algorithmus"]
+aliases: ["Bubbel-Sort"]
+created: 19th August 2023
+---
+
 # Bubble Sort
 
 Algorithmus zum Aufsteigenden Sortieren:

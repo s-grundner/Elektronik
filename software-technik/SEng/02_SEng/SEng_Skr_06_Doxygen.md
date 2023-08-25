@@ -1,3 +1,9 @@
+---
+tags: ["Software Engineering"]
+aliases: []
+created: 29th November 2022
+---
+
 # 6 Doxygen
 
 Mit Doxygen kann direkt aus dem Code eine Dokumentation generiert werden. Vorteil: keine eigenen Dokumente, die eventuell in der Version nicht zusammenpassen ... Außerdem ist die Motivation größer, wenn direkt im Code mit kommentiert wird.

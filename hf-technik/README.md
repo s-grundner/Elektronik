@@ -33,14 +33,14 @@ created: 23rd November 2022
 
 ## [Hochfrequenztechnik](sRDP%20KSN%20-%20HF-Technik.md)
 - [Leitungstheorie](Leitungstheorie.md)
-- Rechteckimpuls auf Leitung
+- Rechteckimpuls auf [Leitung](Leitung.md)
 - Anpassung mit [Smith-Diagramm](Smith-Diagramm.md), Shunt, TL
 - [Antennen](Antenne.md), Richtdiagramm
 
 
 ## Consumer Electronics
 - Superheterodyn-Prinzip
-- DVB, MPEG, QAM
+- DVB, MPEG, [QAM](Quadratur%20Amplituden%20Modulation.md)
 - Mehrwegeausbreitung
 - Auditive Wahrnehmung, Hörbereich beim Menschen
 - Quell-, Kanalkodierung

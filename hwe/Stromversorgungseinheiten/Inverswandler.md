@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["SMPS"]
 aliases: ["Buck-Boost-Converter", "Invertierender Wandler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -15,7 +15,7 @@ created: 26th September 2022
 
 ![Untitled Diagram](../assets/Untitled%20Diagram.svg)
 
-Der [Transistor](../{MOC}%20Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird.
+Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird.
 Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 
 ## Lauf-Zeit-Diagramm

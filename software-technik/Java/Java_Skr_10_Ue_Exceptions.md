@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 10 Ausnahmen / Exceptions - Übungen
 
 ## Einlesen Schulnoten (100)

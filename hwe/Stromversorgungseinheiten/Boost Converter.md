@@ -1,6 +1,6 @@
 ---
-tags: []
-aliases: []
+tags: ["SMPS"]
+aliases: ["Aufwärtswandler", "Step-Up", "Tiefsetzsteller"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 created: 8th June 2022
@@ -14,22 +14,22 @@ created: 8th June 2022
 $$
 U_{a}\approx U_{e} \cdot \frac{1}{1-DC}
 $$
-Während der Einschaltphase des [Transistors](../{MOC}%20Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.
-Schaltet der [Transistor](../{MOC}%20Transistor.md) $(T)$ ab, so fließt der Strom $I_{L}$ über die [Diode](../Diode.md) (D) weiter und lädt den [Kondensator](../Kapazität.md) $C_{a}$.
+Während der Einschaltphase des [Transistors](../Halbleiter/{MOC}%20Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.
+Schaltet der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $(T)$ ab, so fließt der Strom $I_{L}$ über die [Diode](../Halbleiter/Diode.md) (D) weiter und lädt den [Kondensator](../Kapazität.md) $C_{a}$.
 
 ## Impuls-Zeit Diagramm
 
 ![425](boost_converter_IZdia)
 
-## Schalter $S$ bzw. [Transistor](../{MOC}%20Transistor.md) $T$
+## Schalter $S$ bzw. [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$
 ### $0<t<t_{1}$: $S_{geschlossen}$
 Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](../Induktivitäten.md).
  - Dabei *speichert die [Spule](../Induktivitäten.md) Energie*.
- - Die [Diode](../Diode.md) sperrt in dieser Zeit.
+ - Die [Diode](../Halbleiter/Diode.md) sperrt in dieser Zeit.
  - Der [Kondensator](../Kapazität.md) $C_{A}$ liefert den Strom für den Verbraucher.
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
-Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../Induktivitäten.md), aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Diode.md).
+Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../Induktivitäten.md), aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
 
 Ein Teil der in der [Spule](../Induktivitäten.md) gespeicherten Energie, wird in der Sperrphase auf den [Kondensator](../Kapazität.md) übertragen.
 $\rightarrow$ **[Sperrwandler](Sperrwandler.md)**, Da die [Spule](../Induktivitäten.md) dem [Kondensator](../Kapazität.md) nur in dieser Phase Strom liefert.

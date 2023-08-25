@@ -1,5 +1,5 @@
 ---
-tags: ["Microcontroller"]
+tags: ["Microcontroller", "Oszillator"]
 aliases: ["DTO"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -31,5 +31,5 @@ $$
 
 # Tags
 [Clock Generierung](Clock%20Generierung.md)
-[Clock Tree Balancing](../Clock%20Tree%20Balancing.md)
+[Clock Tree Balancing](Clock%20Tree%20Balancing.md)
 [PLL](Phase%20Locked%20Loop.md)

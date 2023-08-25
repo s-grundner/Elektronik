@@ -83,6 +83,6 @@ Feldabstand bei:
 - [TEM-Welle](../Transversale%20Elektromagnetische%20Welle.md) -> Amplituden sind Normal zur Ausbreitungsrichtung
 - $\vec E\times\vec H$ visuarisiert
 ## 25:30
-Quadratur Amplituden [Modulation](../Modulation.md) (QAM)
+Quadratur Amplituden [Modulation](../Modulation.md) ([QAM](Quadratur%20Amplituden%20Modulation.md))
 
 ![Gustrau](../assets/Gustrau.pdf)

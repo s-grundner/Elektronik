@@ -1,3 +1,9 @@
+---
+tags: ["Software Engineering"]
+aliases: []
+created: 29th November 2022
+---
+
 # 5 Entwurfsmuster - Übungen
 
 ## Logger - Singleton (c++157)
@@ -38,7 +44,7 @@ https://de.wikibooks.org/wiki/C%2B%2B-Programmierung:_Entwurfsmuster:_Singleton
 
 Eine einfache Form-Factory hat die folgende Struktur:
 
-![Pattern_Factory_Formen](bilder/Pattern_Factory_Formen.png)
+![Pattern_Factory_Formen](assets/Pattern_Factory_Formen.png)
 
 Dabei ist die Fabrik nicht weiter abstrahiert sondern eine konkrete Klasse. Verwendet wird die Fabrik auf diese Art:
 

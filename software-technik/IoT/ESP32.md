@@ -1,12 +1,12 @@
 ---
-tags: ["Microcontroller"]
+tags: ["Microcontroller","IoT"]
 aliases: []
 created: 29th November 2022
 ---
 
 # ESP32
 
-Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../digital-technik/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../digital-technik/USART.md), [SPI](../../digital-technik/SPI.md), CAN, [I2C](../../digital-technik/TWI.md), I2S, WLAN und Bluetooth.
+Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../digital-technik/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../digital-technik/USART.md), [SPI](../../digital-technik/SPI.md), CAN, [I2C](../../digital-technik/I2C.md), I2S, WLAN und Bluetooth.
 
 ![](assets/ESP32_nocase.png)
 

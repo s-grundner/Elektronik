@@ -6,7 +6,7 @@ source: ["Michael Offenhuber"]
 created: 25th March 2022
 ---
 
-# [Metall](../chemie/Metallbindung.md)-Oxid-[Halbleiter](Halbleiter.md)-[Feldeffekttransistor](Feldeffekttransistor.md) (MOSFET)
+# [Metall](../../chemie/Metallbindung.md)-Oxid-[Halbleiter](Halbleiter/Halbleiter.md)-[Feldeffekttransistor](Halbleiter/Feldeffekttransistor.md) (MOSFET)
 
 ---
 

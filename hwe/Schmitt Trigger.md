@@ -14,7 +14,7 @@ created: 10th January 2023
 
 ## Hysterese
 
-## Helmholzsches Überlagerungsprinzip
+## Helmholz'sches Überlagerungsprinzip
 
 ![invST-calc2](assets/invST-calc2.png)
 

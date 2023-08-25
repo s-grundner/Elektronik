@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 2 Suchen in Feldern
 
 Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht . Dieser Wert wird als **Schlüssel** bezeichnet.

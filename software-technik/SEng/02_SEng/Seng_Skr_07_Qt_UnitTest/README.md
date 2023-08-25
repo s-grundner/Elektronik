@@ -1,3 +1,10 @@
+---
+tags: ["QT", "C++"]
+aliases: []
+created: 29th November 2022
+---
+
+# README
 ## Unit-Test mit QTCreator C++ (651)
 
 https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html

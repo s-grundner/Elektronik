@@ -1,6 +1,6 @@
 ---
-tags: []
-aliases: []
+tags: ["Oszillator"]
+aliases: ["Wien-Brücke", "Wien Brücke"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 created: 7th November 2022

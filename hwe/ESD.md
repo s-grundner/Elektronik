@@ -13,11 +13,11 @@ ESD kann auftreten bei:
 - bei Bekleidung und Böden aus synthetischen Stoffen
 - bei nicht geerdeten Werkzeugen
 
-Integrierte Schaltkreise, wie sie in diesem Projekt enthalten sind, sind typischerweise sehr empfindlich gegenüber statischer Entladung. Aufgrund des vielen Interagieren mit der Platine, zum Beispiel beim Ein- und Ausstecken, muss mittels TVS [Diode](Diode.md) (Transient Voltage Suppression) eine Abschirmung gegen statische Entladung am USB-Eingang vorhanden sein.
+Integrierte Schaltkreise, wie sie in diesem Projekt enthalten sind, sind typischerweise sehr empfindlich gegenüber statischer Entladung. Aufgrund des vielen Interagieren mit der Platine, zum Beispiel beim Ein- und Ausstecken, muss mittels TVS [Diode](Halbleiter/Diode.md) (Transient Voltage Suppression) eine Abschirmung gegen statische Entladung am USB-Eingang vorhanden sein.
 
 ![](../digital-technik/assets/ESD-Connector.png)
 
 
 # Tags
 
-- [TVS](TVS-Diode.md)
+- [TVS](Halbleiter/TVS-Diode.md)

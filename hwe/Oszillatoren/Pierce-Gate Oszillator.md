@@ -1,5 +1,5 @@
 ---
-tags: ["Microcontroller"]
+tags: ["Microcontroller", "Oszillator"]
 aliases: ["Pierce Gate Oszillator", "PGO"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

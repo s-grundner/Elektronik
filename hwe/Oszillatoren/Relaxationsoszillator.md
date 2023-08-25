@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Oszillator"]
 aliases: []
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

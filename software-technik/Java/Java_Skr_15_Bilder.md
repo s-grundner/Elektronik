@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 15 Bilder
 
 ## Fenster Erzeugen
@@ -79,6 +85,6 @@ for (int i = 0; i < bild.length; i++) {
 
 Es wird ein bild-Array erstellt in welchem in jedem Element ein Teil des Sammelbildes abgelegt wird (getSubimage).
 
-![bird](bilder/bird.png)
+![bird](assets/bird.png)
 
 Es wird nur einmal ein Bild geladen und im Programm wird es gesplittet.

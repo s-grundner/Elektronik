@@ -17,7 +17,7 @@ created: 2nd January 2023
 - Integrator (aktiver Tiefpass)
 - Differenzierer (aktiver Hochpass)
 - Instrumentenverstärker
-- Schmitttrigger
+- [Schmitttrigger](Schmitt%20Trigger.md)
 
 ### Umkehrsummierer
 

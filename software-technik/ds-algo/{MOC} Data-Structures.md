@@ -1,5 +1,5 @@
 ---
-tags: ["MOC","ds-algo"]
+tags: ["MOC","Algorithmus"]
 aliases: ["Data-Structures"]
 subject: ["fsst"]
 source: ["Anton Hofmann"]

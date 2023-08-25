@@ -1,3 +1,9 @@
+---
+tags: ["Security"]
+aliases: []
+created: 29th November 2022
+---
+
 # KEY-Signing-Party: HOWTO
 
 Organisieren einer **KEY-Signing-Party** um

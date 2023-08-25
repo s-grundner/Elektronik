@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Interface"]
 aliases: ["UART"]
 subject: ["dic"]
 source: ["Robert Vogl"]

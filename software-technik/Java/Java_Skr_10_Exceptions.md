@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 10 Ausnahmen / Exceptions
 
 In Software gibt's zum einen syntaktischen Fehler im Programm "Syntax Error". Diese können von einem Compiler gefunden werden (z.B. es fehlt eine Klammer, eine Variable wird verwendet, wurde aber nie definiert ...). Aufgrund dieser Art von Fehlern kann das Programm schon mal gar nicht kompiliert und ausgeführt werden.

@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 9 Datei Zugriff / I/O-Streams - Übungen
 
 ## OpenData (152)
@@ -48,7 +54,7 @@
 - Laden Sie mit Ihrem Webbrowser die Datei *index.html* und testen Sie die Funktionalität.
   Tipp: Achten Sie auf den richtigen Aufbau (Tabulator) der Datei *textfile.txt*.
 
-Häufig sperrt das Betriebssystem den Aufruf von den Skripten. Um dieses Problem zu umgehen *XAMPP* installieren und die Dateien gemeinsam unter [c:\xampp\opendata]() ablegen.
+Häufig sperrt das [Betriebssystem](../Os/Operating%20Systems.md) den Aufruf von den Skripten. Um dieses Problem zu umgehen *XAMPP* installieren und die Dateien gemeinsam unter [c:\xampp\opendata]() ablegen.
 
 #### HINWEIS: (falls kein Netz vorhanden) parkautomaten.csv
 

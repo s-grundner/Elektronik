@@ -1,3 +1,9 @@
+---
+tags: ["IoT"]
+aliases: []
+created: 29th November 2022
+---
+
 # Grafana
 
 (raspi: https://www.youtube.com/watch?v=b0Ors2hJJ5s)

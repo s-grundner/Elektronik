@@ -1,3 +1,9 @@
+---
+tags: ["Security"]
+aliases: []
+created: 29th November 2022
+---
+
 # 1 Kryptographie - Übungen
 
 ## Symmetrische Verfahren

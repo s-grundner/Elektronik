@@ -207,7 +207,7 @@ int main()
 ## Protokolle
 
 ## [{MOC} Schnittstellen]({MOC}%20Schnittstellen.md)
-- [I2C](TWI.md)/[TWI](TWI.md)
+- [I2C](I2C.md)/[I2C](I2C.md)
 - [USART](USART.md)
 
 # Algo

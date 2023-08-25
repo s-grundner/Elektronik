@@ -27,7 +27,7 @@ Referenz-Beispiel:
 
   
   
-  ![OS_LostUpdate](bilder/OS_LostUpdate.png)
+  ![OS_LostUpdate](assets/OS_LostUpdate.png)
   
   
   
@@ -292,7 +292,7 @@ Beispiel **Producer-Consumer**:
 
 FiFo-Buffer, am Einfachsten realisiert als [Ringbuffer](../../digital-technik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden ...):
 
-![OS_FiFo](bilder/OS_FiFo.png)
+![OS_FiFo](assets/OS_FiFo.png)
 
 ### Exceptions
 

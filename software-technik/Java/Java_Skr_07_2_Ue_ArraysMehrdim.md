@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 7.2 Mehrdimensionale Arrays - Übungen
 
 1. Es soll ein Array angelegt werden mit 2x2 Ganzzahlen. Gib die Adresse des Arrays aus. Gib den Inhalt des Arrays (1te Dimension - Index 0) aus.

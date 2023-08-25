@@ -11,16 +11,16 @@ Die folgenden Datentypen gibt's in C:
 - kein Boolean Typ (am besten möglichst kurze nummerische Typen darstellen)
 - char: Character - Zeichen, **8 Bit** ASCII Codiert (Java, C\#: 16 Bit Unicode)
 - short: Ganzzahl. **16 Bit**.
-- int: Integer, Ganzzahl. Die Größe hängt vom Rechner, Betriebssystem und Kompiler ab, üblich: 16, **32** auf 64 **Bit** wird üblicherweise verzichtet.
+- int: Integer, Ganzzahl. Die Größe hängt vom Rechner, [Betriebssystem](../Os/Operating%20Systems.md) und Kompiler ab, üblich: 16, **32** auf 64 **Bit** wird üblicherweise verzichtet.
 - long: Ganzzahl. **32 Bit**.
 - long long: Ganzzahl. **64 Bit**.
-- float: Fließkomma, einfach genau. **32 Bit** (die Göße hängt vom Betriebssystem/Kompiler ab).
-- double: Fließkomma, doppelt genau. **64 Bit** (die Göße hängt vom Betriebssystem/Kompiler ab).
+- float: Fließkomma, einfach genau. **32 Bit** (die Göße hängt vom [Betriebssystem](../Os/Operating%20Systems.md)/Kompiler ab).
+- double: Fließkomma, doppelt genau. **64 Bit** (die Göße hängt vom [Betriebssystem](../Os/Operating%20Systems.md)/Kompiler ab).
 
 Idee der Maschinenabhängigen Länge: Berechnungen laufen unter optimaler Speicherausnutzung und sind schnell (auf der jeweilig verwendeten Hardware). Nachteil: Code läuft auf jedem Rechner anders. Die Datenbreite hängt ab von:
 
 - Rechner
-- Betriebssystem
+- [Betriebssystem](../Os/Operating%20Systems.md)
 - Compiler
 
 in \<limits.h\> sind die Wertebereiche der Ganzzahl-Datentypen abgelegt (UCHAR_MAX ...), in \<float.h\> sind die Wertebereiche der Fließkommatypen abgelegt (FLT_... DBL...).
@@ -88,7 +88,7 @@ const float PI = 3.14f;
 
 ## Char Typ
 
-Ein char ist 1 Byte (8 Bit) groß. char steht für *Character* also ein *Zeichen*. Im Speicher ist dieser eine ganz normale Zahl zwischen -128 und +127. Wird eine char-Variable ausgegeben wird der Zahlenwert mittels ASCII-Tabelle in ein Zeichen übersetzt und ausgegeben (eigentlich entscheidet die Konsole/das Betriebssystem was ausgegeben wird). Intern ist und bleibt ein char eine Zahl. Entsprechend kann mit char-Variablen ganz normal gerechnet werden.
+Ein char ist 1 Byte (8 Bit) groß. char steht für *Character* also ein *Zeichen*. Im Speicher ist dieser eine ganz normale Zahl zwischen -128 und +127. Wird eine char-Variable ausgegeben wird der Zahlenwert mittels ASCII-Tabelle in ein Zeichen übersetzt und ausgegeben (eigentlich entscheidet die Konsole/das [Betriebssystem](../Os/Operating%20Systems.md) was ausgegeben wird). Intern ist und bleibt ein char eine Zahl. Entsprechend kann mit char-Variablen ganz normal gerechnet werden.
 
 ```c
 char c = 'A';
@@ -105,7 +105,7 @@ c = c - 'A';		// in c steht 2 (3ter Buchstabe im Alphabeth)
 c = c + 'a';		// in c steht 2 + 97 (97 = 'a') und damit 99 ( = 'c')
 ```
 
-Genauso können auch Zahlen verwendet werden, die müssten der ASCII-Tabelle entnommen werden. Die ASCII-Tabelle definiert Zeichen für die Nummern von 0 bis 127 (eigentlich nur 7 Bit). Je nachdem in welchem Betriebssystem das C-Programm die char-Zeichen ausgibt werden die verbleibenden 128 Zeichen verschieden kodiert. Um sämtliche 8 Bits (256 Zeichen) auszunutzen (und auch um dringend gewünschte Zeichen darzustellen) wird in eigenen Codierungen definiert, wie die verbleibenden 128 Zeichen codiert werden. In der Windows-Eingabeaufforderung kann die eingestellte Codepage mit `chcp`  angezeigt werden (oder auch verändert werden), häufig bei uns *Codepage 850*.  In UNIX kann das mit `cat /etc/default/locale`  angezeigt werden, häufig bei uns *utf-8*.
+Genauso können auch Zahlen verwendet werden, die müssten der ASCII-Tabelle entnommen werden. Die ASCII-Tabelle definiert Zeichen für die Nummern von 0 bis 127 (eigentlich nur 7 Bit). Je nachdem in welchem [Betriebssystem](../Os/Operating%20Systems.md) das C-Programm die char-Zeichen ausgibt werden die verbleibenden 128 Zeichen verschieden kodiert. Um sämtliche 8 Bits (256 Zeichen) auszunutzen (und auch um dringend gewünschte Zeichen darzustellen) wird in eigenen Codierungen definiert, wie die verbleibenden 128 Zeichen codiert werden. In der Windows-Eingabeaufforderung kann die eingestellte Codepage mit `chcp`  angezeigt werden (oder auch verändert werden), häufig bei uns *Codepage 850*.  In UNIX kann das mit `cat /etc/default/locale`  angezeigt werden, häufig bei uns *utf-8*.
 
 ## Makros
 

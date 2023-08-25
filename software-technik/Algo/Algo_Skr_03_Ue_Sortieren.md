@@ -1,6 +1,12 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # 3 Sortieren - Übungen
 
-## Bubble Sort für int/txt/struct-Array (2006)
+## [Bubble Sort](Bubble%20Sort.md) für int/txt/struct-Array (2006)
 
 Das folgende Programm soll:
 
@@ -174,7 +180,7 @@ typedef struct {
 
 - Wenn mit dynamischer Speicherreservierung gearbeitet wird: free() nicht vergessen.
 
-![](bilder/ptrQsort.png)
+![](assets/ptrQsort.png)
 
 > Wichtig: wenn Arrays mit großen Strukturen sortiert werden sollen, kann ein Sortieren von Zeigern auf das Feld schneller sein, da weniger Daten umkopiert werden müssen.
 

@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Oszillator"]
 aliases: ["BHK", "Barkhausen Kriterien"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

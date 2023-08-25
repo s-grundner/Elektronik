@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 2 Datentypen
 
 ## Primitive Datentypen
@@ -145,7 +151,7 @@ byte numZahl = (byte)(300 + 4);				// Setzen von entsprechenden Klammern
 
 Wird der Datentyp nicht explizit umgewandelt, so versucht Java den Datentypen automatisch anzupassen. Diese Umwandlung wird als implizite Umwandlung bezeichnet. Sie wird nur dann von Java ausgeführt, wenn der Zieldatentyp einen größeren Wertebereich hat als der Quelldatenbereich. In diesen Fällen können keine Daten verloren gehen. Die folgende Darstellung verdeutlicht welche Konvertierungen automatisch erfolgen können:
 
-![Implizite Typumwandlung](bilder/Datentypen_ImpliziterTypumwandlung.png)
+![Implizite Typumwandlung](assets/Datentypen_ImpliziterTypumwandlung.png)
 
 In Pfeilrichtung ist jede Art der Umwandlung zulässig, so zum Beispiel *byte* → *short*, *byte* → *float* oder  *char* → *long*. Entgegen Pfeilrichtung wird eine Zuweisung sofort als Syntax-Fehler interpretiert:
 

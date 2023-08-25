@@ -1,5 +1,5 @@
 ---
-tags: ["Database", "Datenbank"]
+tags: ["DB", "DB"]
 aliases: ["ERM", "Entity-Relationship-Modell", "ERD", "Entity-Relationship-Modell"]
 subject: ["fsst"]
 source: ["Roman Schragl", "https://gitlab.com/fosy/htbluva_sbg_fsst/"]
@@ -22,7 +22,7 @@ Beispiel: ein Mitarbeiter kann an einem Kurs teilnehmen.
 
 Ein **Mitarbeiter** (Objekt) mit diversen Eigenschaften (PNr, Name, Adresse) und eine Beziehung **teilnehmen** zu einem weiterem Objekt **Kurs** (KNr, Leiter, Termin).:
 
-![](bilder/ERD_Einf_02.png)
+![](assets/ERD_Einf_02.png)
 
 Vorgangsweise:
 
@@ -36,18 +36,18 @@ Vorgangsweise:
 
 Einzelne Objekte können zu einer Anzahl von gleichartigen Objekten eine Beziehung haben:
 
-![Kardinalitäten](bilder/Kardinalitaet_.png)
+![Kardinalitäten](assets/Kardinalitaet_.png)
 
 **Beispiel Kurs:**
 
-![Kardinalität Uni-Beispiel](bilder/ERD_EinfKardinalitaet_01.png)
+![Kardinalität Uni-Beispiel](assets/ERD_EinfKardinalitaet_01.png)
 
 - Ein Mitarbeiter kann an mehr als einem Kurs teilnehmen (m)
 - Ein Kurs kann von mehr als einem Mitarbeiter besucht werden (n)
 
 **Beispiel Bibliothek-Buch:**
 
-![Kardinalität Bibliothek](bilder/ERD_EinfKardinalitaet_02.png)
+![Kardinalität Bibliothek](assets/ERD_EinfKardinalitaet_02.png)
 
 - Ein Buch kann nur von einem Leser ausgeliehen werden (1)
 - Ein Leser kann mehrere Bücher gleichzeitig ausleihen (n) (wenn das so erlaubt ist!)
@@ -67,7 +67,7 @@ u.s.f.
 Es kommt vor, dass unterschiedliche Objekte sehr starke Ähnlichkeiten aufweisen. Beispielsweise gibt es in einer Firma einen Chef, einen Abteilungsleiter, einen Projektleiter, einen Assistenten, einen Einkäufer und viele weitere. Sie alle haben eine Personalnummer, einen Vor-/Nachnamen, eine Adresse ...
 Sie alle sind eine Ausprägung von *Mitarbeiter*, daher: **Projektleiter Is A Mitarbeiter**.
 
-![Is-A-Beziehung](bilder/ERD_IsA.png)
+![Is-A-Beziehung](assets/ERD_IsA.png)
 
 In den meisten Fällen sind diese isa-Beziehungen 1:n-Beziehungen - für dieses Beispiel handelt es sich um eine 1:1 Beziehung: ein Mitarbeiter kann nur ein Einkäufer oder ein Assistent sein. Ebenso kann ein Assistent nur ein einzelner Mitarbeiter sein. Es kann jedoch auf vorkommen dass hier mehrfache Zuordnungen möglich sind (n:m), etwa wenn es mehrere Assistenten geben kann.
 

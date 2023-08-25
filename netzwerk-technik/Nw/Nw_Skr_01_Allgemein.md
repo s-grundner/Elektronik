@@ -29,7 +29,7 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 
 ### Schichten
 
-![Schichtenmodell Einführung](bilder/NW_Schichtenmodell_Einf.png)
+![Schichtenmodell Einführung](assets/NW_Schichtenmodell_Einf.png)
 
 1. Bitübertragung: Übertragung der Bits über physische Verbindung (HW-Definition). Typisch: welche Spannung hat 1, welche Spannung hat 0, wie lange ist ein Bit, wie sieht ein Stecker aus ... 
 2. Sicherung: Um Übertragungsfehler zu erkennen (und zu beheben), wird eine Datenflusskontrolle und eine Fehlererkennung und -Behebung implementiert. Hier gibt es auch eine erste Adressierung von Paketen. Die Übertragung findet hier zwischen benachbarten Knoten statt. Mehrere Bits werden in einen Frame zusammengefasst. Adressierung kann etwa über MAC-Adressen erfolgen. Typisch: Management konkurrierender Zugriff, Daten-Bits zusammen mit Kontrollbits in Frames zusammengefasst ...
@@ -45,7 +45,7 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 
 - Schichten 5-7: **Anwendungssystem** - für dieses System ist eine komplette End-zu-End-Verbindung gewährleistet.
 
-![Schichtenmodell](bilder/NW_Schichtenmodell.png)
+![Schichtenmodell](assets/NW_Schichtenmodell.png)
 
 Definition der Begriffe: Bits, Frames, Pakete, Segmente, Daten (siehe Bild): sind jeweils das Gleiche, kennzeichnen lediglich in welcher Schicht sie sich befinden. Zuordnung von (sehr gängigen) Protokollen zu den Schichten (siehe Bild).
 
@@ -53,7 +53,7 @@ Definition der Begriffe: Bits, Frames, Pakete, Segmente, Daten (siehe Bild): sin
 
 Die Kommunikation mittels eines Schichtenmodells wirkt so als kommuniziert etwa die Darstellungsschicht mittels eines Darstellungsprotokolls mit einem zweiten Teilnehmer der Darstellungsschicht (-> starke Vereinfachung). Unsichtbar ist eine Schicht dafür zuständig in die nächste Schicht zu übertragen. In jedem zwischengeschalteten Teilnehmer funktioniert das gleich. Bis in welche Ebene kommuniziert wird, hängt von der eingesetzten Komponente ab:
 
-![NW_Schichtenmodell_Real](bilder/NW_Schichtenmodell_Real.png)
+![NW_Schichtenmodell_Real](assets/NW_Schichtenmodell_Real.png)
 
 Hier ist **Host A** mit **Router 1** verbunden. Dieser ist (via weiterer, hier nicht dargestellter Komponenten) wiederum mit einem weiterem **Router n** verbunden. In einem Router (in einem TCP/IP-Netzwerk) werden die empfangenen Daten bis in die Vermittlungsschicht ausgepackt, der Empfänger damit ermittelt, für den Weitertransport wieder entsprechend verpackt und weitergesendet.
 
@@ -65,13 +65,13 @@ Es gibt unterschiedliche Formen der Architektur, welche verwendet wird, hängt v
 
 In einem Peer-to-Peer-Netzwerk ist jeder Teilnehmer gleichberechtigt. Jeder teilnehmende Computer stellt seine Ressourcen zur Verfügung. Das können Drucker, Scanner oder Kommunikationswege (weitere Netzwerke) sein. Der Vorteil dieser Struktur ist der einfache und kostengünstige Aufbau. Der Aufbau wird aber schon mit relativ wenigen Teilnehmern (<10) praktisch nicht mehr organisierbar.
 
-![NW_PeerPeer](bilder/NW_PeerPeer.png)
+![NW_PeerPeer](assets/NW_PeerPeer.png)
 
 ### Hub
 
 Mittels Hub können mehrere Geräte miteinander verbunden werden. Wenn ein Rechner Daten versendet, dann erhalten sämtliche am Hub angeschlossene Rechner die Nachricht. Derjenige Rechner der die Nachricht erhalten soll (Zieladresse der Nachricht) behält die Nachricht, alle anderen Teilnehmer verwerfen sie. Daher ist ein Hub nur für sehr kleine Netzwerke sinnvoll (nicht mehr wirklich zeitgemäß, Preisvorteil gegenüber Switch marginal).
 
-![NW_Hub](bilder/NW_Hub.png)
+![NW_Hub](assets/NW_Hub.png)
 
 ### Switch
 
@@ -85,7 +85,7 @@ Um mittels WLAN kommunizieren zu können, wird ein Access Point verwendet. Diese
 
 Um Dienste im Internet in Anspruch nehmen zu können, ist ein Router notwendig. Dazu werden interne IP-Adressen in diejenige Adresse übersetzt, die zum Beispiel vom Internet-Provider zur Verfügung gestellt wird. Das kann entweder statisch (fest eingestellt) oder dynamisch (DHCP) erfolgen. Router haben vielfach noch zusätzliche Optionen - Firewall, Filterung ...
 
-![NW_Hub](bilder/NW_Router.png)
+![NW_Hub](assets/NW_Router.png)
 
 Wenn vom Datennetzanbieter kein Netzwerk angeboten wird sondern ein anderes Medium (Telefon, Fernsehkabel ...), dann ist zusätzlich zwischen Router und Internet ein **Modem** notwendig. Ein Modem (*Mod*ulator-*Dem*odulator) adaptiert zum Beispiel Ethernet auf eine Telefonleitung oder ein Fernsehkabel.
 
@@ -102,7 +102,7 @@ Beispiele für gängige Server-Anwendungen sind:
 - Mail-Server (der liefert meinem Client-Mailprogramm Mails wenn abgefragt wird)
 - Drucker-Server: wird etwas im Netzwerk gedruckt, dann sendet ein Druckertreiber (Client) an den Drucker-Server (eventuell Software nur im Drucker)
 - Web-Server: ein Browser (Client) fragt nach einer Seite (beim Web-Server)
-- Datenbank: eine Datenbankanwendung (php, c# ...) kommuniziert mit einer Datenbank (DB-Server)
+- [Datenbank](../../software-technik/Db/Datenbank.md): eine Datenbankanwendung (php, c# ...) kommuniziert mit einer [Datenbank](../../software-technik/Db/Datenbank.md) (DB-Server)
 - Applikation-Server: Anwendung laufen auf Server
 
 Ganz wichtig damit das funktionieren kann: die Sprache im Netzwerk muss geregelt sein. Der Anwender möchte sich nicht darum kümmern -> Protokolle.
@@ -126,7 +126,7 @@ Die Server-Client-Struktur hat sich für sehr viele Anwendungen durchgesetzt. De
 
 Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:
 
-![NW_Schichtenmodell_IP](bilder/NW_Schichtenmodell_IP.png)
+![NW_Schichtenmodell_IP](assets/NW_Schichtenmodell_IP.png)
 
 - **Network Access Layer** OSI-Layer 1, 2 und zum Teil 3; Frame bestehend aus Header und Paket
 - **Internet Layer** OSI-Layer 3; Paket bestehend aus Header und Segment
@@ -135,7 +135,7 @@ Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protok
 
 Die niedrigen Schichten beinhalten immer die kompletten oberen Schichten, erweitert um einen Schichtspezifischen Header. Der TCP-Header beinhaltet den Quell-/Ziel-Port, der IP-Header beinhaltet die Quell-/Ziel-IP-Adresse und die beiden Ethernet-Schichten darunter die Quell-/Ziel-MAC-Adressen (Achtung: Bild nicht maßstabgerecht):
 
-![](bilder/NW_Internetprotokollfam.png)
+![](assets/NW_Internetprotokollfam.png)
 
 ### Protokolle der Netzzugangsschicht
 
@@ -230,7 +230,7 @@ Ein Response:
 
 Es wird eine Anfrage mittels Browser an einen Web-Server getätigt, die Anfrage wird vom Browser in Form eines HTTP-Requests getätigt. In Folge wird der HTTP-Nachricht ein TCP-Header vorangestellt (TCP-Paket), diesem wiederum ein IP-Header (IP-Datagramm) und letztlich diesem ein Ethernet II-Header. Dieses Paket wird dann gesendet:
 
-![NW_Schichten_HTTP](bilder/NW_Schichten_HTTP.png)
+![NW_Schichten_HTTP](assets/NW_Schichten_HTTP.png)
 
 (das ist eine mögliche Übertragung)
 
@@ -467,7 +467,7 @@ Telnet aktivieren:  https://praxistipps.chip.de/windows-10-telnet-client-aktivie
 
 
 Poster:
-![img](bilder/NW_Schichtenmodell_Poster.png)
+![img](assets/NW_Schichtenmodell_Poster.png)
 
 ## Referenzen
 

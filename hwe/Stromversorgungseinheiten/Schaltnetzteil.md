@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["SMPS"]
 aliases: ["SMPS", "Switched Mode Power Supply", "Schaltregler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

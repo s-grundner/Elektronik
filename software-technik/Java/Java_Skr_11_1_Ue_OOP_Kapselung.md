@@ -1,7 +1,8 @@
 ---
-typora-root-url: ./
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
 ---
-
 
 # 11.1 OOP Kapselung - Übungen
 
@@ -50,7 +51,7 @@ Erstellen Sie ein Projekt KomplexerTaschenrechner:
 
 Beispielhafte Oberfläche:
 
-![KomplexerTaschenrechner](bilder/KomplexerTaschenrechner.gif)
+![KomplexerTaschenrechner](assets/KomplexerTaschenrechner.gif)
 
 - Wenn ein Textfeld den Fokus erhält, dann wird der gesamte Text markiert.
 - Ganze Zahlen werden mit *,0 dargestellt

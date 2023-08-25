@@ -12,7 +12,7 @@ Es wird nur eine stark vereinfachte Übersicht geboten. Diese Organisation ist B
 
 Einem C-Programm wird bei der Ausführung ein Speicherbereich zugewiesen der sich in verschiedene Teile gliedert.
 Unter Windows wird dem Programm ein maximaler Speicherbereich von 2GB zugewiesen (in Linux ebenfalls).
-Mehr kann vom Programm nicht verwaltet werden, das Betriebssystem rückt nicht mehr raus (4GB können adressiert werden, 2GB, rund 50% des Speichers werden vom OS für Org. zurückgehalten).
+Mehr kann vom Programm nicht verwaltet werden, das [Betriebssystem](../Os/Operating%20Systems.md) rückt nicht mehr raus (4GB können adressiert werden, 2GB, rund 50% des Speichers werden vom OS für Org. zurückgehalten).
 Aus Sicht des Programms ist es ein zusammenhängender Speicher. Aus Betriebssystemsicht kann dieser Speicher auf verschiedene Stellen verteilt sein oder sogar komplett oder zum Teil auf auf eine Festplatte ausgelagert sein. 
 
 Für unser Programm ist dieser Speicher virtuell, als linear adressierbar, zusammenhängender Speicher wahrnehmbar.
@@ -248,7 +248,7 @@ Im Watches-Fenster kann die Adresse einer Variable mit dem Adressoperator ermitt
 
 ## Speicherlecks - *Memory-Leakage*
 
-Speicherlecks sind DIE Fehler in C/C++ schlechthin. Diese Fehler sind der Grund warum viele andere Sprachen, trotz des enormen Potentials von Pointern auf dieses Konzept verzichten.
+Speicherlecks sind DIE Fehler in C/[C++](../Cpp/Cpp.md) schlechthin. Diese Fehler sind der Grund warum viele andere Sprachen, trotz des enormen Potentials von Pointern auf dieses Konzept verzichten.
 
 Speicherleck: es wird Speicher reserviert und nie wieder frei gegeben. Dadurch ist Speicher reserviert (kann nicht verwendet werden) wird aber nicht mehr verwendet. Der Speicherbedarf der Anwendung ist größer als notwendig. Passiert das in Schleifen kann der Bedarf kontinuierlich wachsen. Für Programme wie sie in der Ausbildung entwickelt werden ist das nicht weiter problematisch. Auch das ist mit ein Problem, die Sache wird nicht wahrgenommen. Dadurch übt sich eine gewisse *Schlampigkeit* ein. In einer Anwendung die dann tatsächlich dauerhaft zur Anwendung kommt tritt der Fehler dann in Form von seltsamen Abstürzen auf. Ein typischer Fall ist eine Serveranwendung die ständig läuft. Der Ursache für den Absturz ist im nachhinein sehr schwer zu erkennen.
 
@@ -269,7 +269,7 @@ Hier wird Platz für 10x2 Integer-Werte reserviert aber nur der Speicher für 2 
 Es gibt zahlreiche Tools die unterstützen Speicherlecks zu finden. Ein sehr gutes und bei weitem das bekannteste ist *Valgrind*. Problem: das gibt's nicht für Windows.
 
 > [!success] Lösung:
-> WSL ein Windows-Linux-Subsystem. Sehr ähnlich wie eine virtuelle Maschine ist das Linux-Subsystem. Allerdings ist es keine vollständig virtuell laufendes OS (samt Kernel) sondern lediglich ein auf Betriebssystem-Schnittstellen aufgesetzte Kompatibilitätsschicht. Dadurch ist es sehr schnell und für Entwickler im MS-Bereich kann sehr einfach und effizient auf Linux-Tools zugegriffen werden und für Linux getestet werden.
+> WSL ein Windows-Linux-Subsystem. Sehr ähnlich wie eine virtuelle Maschine ist das Linux-Subsystem. Allerdings ist es keine vollständig virtuell laufendes OS (samt Kernel) sondern lediglich ein auf [Betriebssystem](../Os/Operating%20Systems.md)-Schnittstellen aufgesetzte Kompatibilitätsschicht. Dadurch ist es sehr schnell und für Entwickler im MS-Bereich kann sehr einfach und effizient auf Linux-Tools zugegriffen werden und für Linux getestet werden.
 
 (Howtos: install of WSL)
 

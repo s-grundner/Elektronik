@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["Oszillator"]
 aliases: []
 subject: ["dic"]
 source: ["Siegbert Schremof"]

@@ -1,3 +1,8 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
 
 11.3 OOP - Polymorphie - Übungen
 ===================

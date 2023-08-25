@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 13 Prozesse / Threads - Übungen
 
 ## Stoppuhr (060_01)

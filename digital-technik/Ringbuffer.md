@@ -1,5 +1,5 @@
 ---
-tags: ["ds-algo"]
+tags: ["Algorithmus"]
 aliases: ["Circular Buffer", "Circular Queue"]
 subject: ["dic", "fsst"]
 source: ["Robert Vogl"]

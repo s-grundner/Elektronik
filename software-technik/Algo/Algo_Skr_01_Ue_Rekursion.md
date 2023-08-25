@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 ## 1 Rekursion - Übungen
 
 ### Selbstaufruf ohne Abbruchbedingung (249)
@@ -116,11 +122,11 @@ int calc(int n, double xn, double yn, double a, double b) {
 
 Hier wurde die komplexe Zahl in einen Real- (x = Re(z) bzw. a) und einen Imaginärteil (y = Im(z) bzw. b) aufgespaltet. Das Beispiel wurde in JAVA programmiert um eine grafische Darstellung zu vereinfachen. Die Farbe der Punkte gibt die Anzahl der Iterationsschritte wieder ab denen der Grenzwert (MAX) überschritten wird:
 
-![C_RekursFraktal3](bilder/C_RekursFraktal3.png)
+![C_RekursFraktal3](assets/C_RekursFraktal3.png)
 
 beziehungsweise:
 
-![C_RekursFraktal2](bilder/C_RekursFraktal2.png)
+![C_RekursFraktal2](assets/C_RekursFraktal2.png)
 
 ### Größter gemeinsamer Teiler (ggT) (256)
 
@@ -217,7 +223,7 @@ Lösungsstrategie:
 
 Ein klassisches Beispiel für eine rekursive Problemlösung sind die Türme von Hanoi. Dabei sind n Scheiben mit Loch auf einer Stange A aufgesteckt. Die Scheiben sind auf eine 2te Stange B umzustecken. Dabei darf immer nur eine Scheibe nach der anderen bewegt werden und es darf keine größere auf eine kleinere Scheibe zum liegen kommen. Als Hilfe steht eine dritte Stange C zur Verfügung:
 
-![hanoi](bilder/hanoi.png)
+![hanoi](assets/hanoi.png)
 
 Für einen rekursiven Algorithmus macht man sich keine Gedanken über die umfassende Problemlösung. Man versucht das Problem um "einen Grad" zu vereinfachen:
 

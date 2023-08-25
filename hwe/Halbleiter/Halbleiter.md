@@ -1,7 +1,7 @@
 ---
 tags: ["Halbleiter"]
 aliases: ["Silizium", "Germanium"]
-subject: ["hwe","chemie", "dic"]
+subject: ["hwe", "chemie", "dic"]
 ---
 
 # Halbleiter
@@ -14,4 +14,4 @@ subject: ["hwe","chemie", "dic"]
 
 # Tags
 
-[Chemische Bindungen](../chemie/Chemische%20Bindungen.md)
+[Chemische Bindungen](../../chemie/Chemische%20Bindungen.md)

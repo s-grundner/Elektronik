@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: ["SMPS"]
 aliases: ["Flyback-Converter"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

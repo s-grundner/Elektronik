@@ -24,9 +24,9 @@ created: 24th March 2022
 
 ![Pasted image 20230420115746](assets/Pasted%20image%2020230420115746.png)
 
-## [Emitterfolger](Emitterfolger.md)
+## [Emitterfolger](Halbleiter/Emitterfolger.md)
 
-## [Kollektorfolger](Kollektorfolger.md)
+## [Kollektorfolger](Halbleiter/Kollektorfolger.md)
 
 ## [](Stromversorgungseinheiten/Spannungsstabilisierung.md#Längstransistor%20mit%20Dioden%20Zener%20Diode%20Zener%20Diode|Längstransistor) Stabilisierung
 

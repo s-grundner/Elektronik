@@ -1,3 +1,9 @@
+---
+tags: ["Software Engineering"]
+aliases: []
+created: 29th November 2022
+---
+
 # 7 Unit-Test
 
 Ein Unit-Test testet eine kleine Einheit (Unit), noch bevor sie in das gesamte Projekt eingebunden (integriert) wird. Die Idee ist, die Erfüllung der konkreten Anforderung zu Testen. Um keinen Einfluss von anderen Teilen der System-Software zu verspüren (im Guten wie im Schlechten) wird das Testen des Features in einer Eigens erstellten, sinnvoller Weise nach möglichst einfachen Umgebung erfolgen. 

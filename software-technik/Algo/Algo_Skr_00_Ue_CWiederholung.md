@@ -1,3 +1,9 @@
+---
+tags: ["Algorithmus"]
+aliases: []
+created: 29th November 2022
+---
+
 # Wiederholung C
 
 ## Arrays und Strings
@@ -43,6 +49,7 @@ int getAntwort(int zahlen[], int len, char frage[]);
   Verwenden Sie die Funktion aus 1.
 
 ### Buchstabenmischen (080)
+
 Erkennen von Wörten mit Buchstabenmix
 
 Aus einer Email:

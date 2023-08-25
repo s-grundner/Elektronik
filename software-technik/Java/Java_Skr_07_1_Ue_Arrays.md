@@ -1,3 +1,9 @@
+---
+tags: ["Java"]
+aliases: []
+created: 29th November 2022
+---
+
 # 7 Arrays - Übungen
 
 1. Es soll ein Array angelegt werde mit 5 Vornamen. Anschließend soll der Inhalt des Arrays in der Konsole ausgegeben werden und die "Adresse" unter der das Array abgelegt wird.
@@ -76,7 +82,7 @@
    ...
    ```
 
-   Die Adresse selbst kann in Java nicht ermittelt werden. Die Trennung zwischen Betriebssystem und Software durch die Java-VM ist ein Grundkonzept der Sprache. Daher kann die physikalische Adresse in Java nicht ermittelt werden. Der HashCode kann als eine Art Adresse interpretiert werden.
+   Die Adresse selbst kann in Java nicht ermittelt werden. Die Trennung zwischen [Betriebssystem](../Os/Operating%20Systems.md) und Software durch die Java-VM ist ein Grundkonzept der Sprache. Daher kann die physikalische Adresse in Java nicht ermittelt werden. Der HashCode kann als eine Art Adresse interpretiert werden.
 
 2. Es soll ein Array angelegt werde mit 5 Vornamen. Anschließend soll der Inhalt des Arrays in ein anderes Array kopiert werden.
 

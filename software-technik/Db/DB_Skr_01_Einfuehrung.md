@@ -1,5 +1,5 @@
 ---
-tags: ["Datenbank"]
+tags: ["DB"]
 aliases: []
 created: 29th November 2022
 ---
@@ -8,7 +8,7 @@ created: 29th November 2022
 
 ## Definition
 
-Daten können dauerhaft (*persistent* = bleiben nach Beendigung des Systems erhalten) in Dateien gespeichert werden. Die Entscheidung auf welche Art (binär, Text, XML-Formate ...) die Daten gespeichert werden, liegt bei einer Anwendung und kann mit Dateiendungen/Dateitypen (.txt, .xls ...) gekennzeichnet werden. Die Zugriffsart und der konkurrierende Zugriff mehrerer Anwendungen ist nicht geregelt (entscheidet das Betriebssystem). Sollen:
+Daten können dauerhaft (*persistent* = bleiben nach Beendigung des Systems erhalten) in Dateien gespeichert werden. Die Entscheidung auf welche Art (binär, Text, XML-Formate ...) die Daten gespeichert werden, liegt bei einer Anwendung und kann mit Dateiendungen/Dateitypen (.txt, .xls ...) gekennzeichnet werden. Die Zugriffsart und der konkurrierende Zugriff mehrerer Anwendungen ist nicht geregelt (entscheidet das [Betriebssystem](../Os/Operating%20Systems.md)). Sollen:
 
 - große Datenmengen
 - von vielen Benutzern gleichzeitig
@@ -53,7 +53,7 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
 - **Hierarchische DB**
   Ein Ursprungknoten von dem hierarchisch Abzweige erfolgen (ähnlich wie ein Dateisystem: Laufwerk->Verzeichnis->Verzeichnis...). Veraltetes Modell; eine kleine Veränderung in der DB Struktur, kann die komplette Struktur zerstören
   
-  ![](bilder/DB_hierarchischesModell.png)
+  ![](assets/DB_hierarchischesModell.png)
 
 - **Relationale DB**
   Organisation in Tabellen (Relationen) - sehr verbreitet, einfach, redundant (siehe Unten)

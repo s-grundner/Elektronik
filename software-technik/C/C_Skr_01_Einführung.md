@@ -8,7 +8,7 @@ created: 29th November 2022
 
 - Entwickelt ~1975 von Dennis Ritchie / Bell Laboratories als Nachfolger von B
 - Eine der am weitesten verbreiteten Sprachen
-- Implementierung vieler Unix-Betriebssysteme in C
+- Implementierung vieler Unix-[Betriebssysteme](../Os/Operating%20Systems.md) in C
 - Viele Kompiler anderer Sprachen sind in C implementiert worden
 - Viele Sprachen übernahmen Teile der Syntax
 - Mehrfach standardisiert (ANSI-C ... C11, C18)
@@ -64,14 +64,14 @@ Als Anfänger empfiehlt sich eine einfache IDE (Entwicklungsumgebung). Mächtige
 
 2. VisualStudio - https://www.visualstudio.com/de/downloads/
 
-   Visual Studio ist eine IDE für C++, für einfache C-Projekte sind einige Einstellungen zu tätigen:
+   Visual Studio ist eine IDE für [C++](../Cpp/Cpp.md), für einfache C-Projekte sind einige Einstellungen zu tätigen:
 
-   C++ Projekt --> Konsolenapplikation
+   [C++](../Cpp/Cpp.md) Projekt --> Konsolenapplikation
 
-   - Datei als *.c speichern (Standard ist cpp)
-   - -->Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/C++ --> Erweitert --> Kompilierungsart --> "Als C-Code kompilieren (/TC)"
-   - --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/C++ --> Präprozessor --> Präprozessordefinitionen --> "_CRT_SECURE_NO_WARNINGS" einfügen
-   - damit stdfx.h nicht eingebunden werden muss: --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/C++ --> Vorkompilierte Header --> Vorkompilierte Header nicht verwenden einstellen
+   - Datei als *.c speichern (Standard ist [cpp](../Cpp/Cpp.md))
+   - -->Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Erweitert --> Kompilierungsart --> "Als C-Code kompilieren (/TC)"
+   - --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Präprozessor --> Präprozessordefinitionen --> "_CRT_SECURE_NO_WARNINGS" einfügen
+   - damit stdfx.h nicht eingebunden werden muss: --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Vorkompilierte Header --> Vorkompilierte Header nicht verwenden einstellen
 
 3. QtCreator - http://download.qt.io/official_releases/online_installers/qt-unified-windows-x86-online.exe (Open Source)
 
