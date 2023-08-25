@@ -5,7 +5,7 @@ aliases: ["GitHub", "GitLab"]
 created: 25th August 2023
 ---
 
-# Git
+# Map of Content - Git
 
 - [Git_Skr_01_Allg](Git_Skr_01_Allg.md)
 - [Git_Skr_01_Ue_Allg](Git_Skr_01_Ue_Allg.md)

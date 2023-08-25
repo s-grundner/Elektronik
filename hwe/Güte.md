@@ -8,7 +8,7 @@ created: 29th November 2022
 
 # Güte
 
-Beschreibt, wie stark das resonanzverhalten ausgeprägt ist.
+Beschreibt, wie stark das Resonanzverhalten ausgeprägt ist.
 
 Verhältnis der Teilspannungen zur Gesamtspannung $\underline{U}$ bei Resonanz
 
