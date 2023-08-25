@@ -40,7 +40,7 @@ Mit *CI* lassen sich in *GitLab* automatische Abläufe (Pipelines) generieren. B
   - der Name (*stage: build*) und 
   - das Skript, das ausgeführt werden soll (script: ...)
   
-  Allgemein: jeder Stage läuft in einem *Docker-Image* (Vorstellbar wie eine virtuelle Maschine). Wird es nicht anders angegeben, dann wählt GitLab das verwendete Image - aktuell Standard: Ruby-image
+  Allgemein: jeder Stage läuft in einem *[Docker](../../Docker.md)-Image* (Vorstellbar wie eine virtuelle Maschine). Wird es nicht anders angegeben, dann wählt GitLab das verwendete Image - aktuell Standard: Ruby-image
   
   **Ruby:** ist eine Skriptsprache (wird zur Laufzeit interpretiert)
   
@@ -90,7 +90,7 @@ Hier wird der gesamte im Stage erzeugte Ordner als Artefakt definiert (kann auch
 
 ## Images
 
-In GitLab sind verschiedene Docker-Images verfügbar. (Wird das Git-Repo lokal verwaltet, dann kann eine selbst definierte Umgebung geschaffen werden.)
+In GitLab sind verschiedene [Docker](../../Docker.md)-Images verfügbar. (Wird das Git-Repo lokal verwaltet, dann kann eine selbst definierte Umgebung geschaffen werden.)
 
 ### gcc
 

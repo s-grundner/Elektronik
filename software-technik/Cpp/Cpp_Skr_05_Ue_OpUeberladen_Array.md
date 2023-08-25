@@ -156,7 +156,7 @@ Frage: obiges Arbeiten mit *char\** als Array-Elemente resultiert in Pointer-auf
 Manchmal sollen:
 
 - Daten in eine Struktur abgelegt werden und in der umgekehrten Reihenfolge entnommen werden. Dann ist eine Stack-Struktur praktischer
-- Daten in eine Struktur abgelegt werden und in der gleichen Reihenfolge entnommen werden. Dann ist eine Queue-Struktur (FIFO) praktischer
+- Daten in eine Struktur abgelegt werden und in der gleichen Reihenfolge entnommen werden. Dann ist eine Queue-Struktur ([FIFO](../FIFO.md)) praktischer
 - Daten in eine Struktur abgelegt werden und beliebig in der Mitte Elemente eingefügt oder entnommen/entfernt werden können. Dann ist eine verkettete Liste effizienter
 
 Arrays sind die effizienteste Art Daten zu speichern, wenn die Größe bekannt ist und nicht verändert werden muss. Der Zugriff auf eine beliebige Zelle kann sehr schnell erfolgen.

@@ -1,3 +1,10 @@
+---
+tags: ["Netzwerke"]
+aliases: []
+created: 29th November 2022
+---
+
+# Nw_Skr_01_Ue_Allgemein
 # 1 Netzwerke - Übungen
 
 ## ARP

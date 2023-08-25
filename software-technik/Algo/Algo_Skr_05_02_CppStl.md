@@ -56,7 +56,7 @@ showSequence(L2); // (leere Liste)
 
 ## deque
 
-Abkürzung für *double ended queue*. Dieser Typ implementiert eine List an deren beiden Enden Elemente entnommen oder hinzugefügt werden können.
+Abkürzung für *double ended [queue](../FIFO.md)*. Dieser Typ implementiert eine List an deren beiden Enden Elemente entnommen oder hinzugefügt werden können.
 
 Implementiert wird eine deque als eine doppelt verkettete Liste von vectoren.
 
@@ -121,9 +121,9 @@ while(!einStack.empty()) {
 cout << endl;
 ```
 
-## queue
+## [queue](../FIFO.md)
 
-Warteschlange. Erlaubt die Ablage auf einer Seite und die Entnahme auf der anderen Seite (FIFO).
+Warteschlange. Erlaubt die Ablage auf einer Seite und die Entnahme auf der anderen Seite ([FIFO](../FIFO.md)).
 
 ```c++
 // include queue, iostream			using std
