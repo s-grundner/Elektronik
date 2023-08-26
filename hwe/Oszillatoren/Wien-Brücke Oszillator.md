@@ -1,5 +1,5 @@
 ---
-tags: ["Oszillator"]
+tags: ["Baugruppen/Oszillator"]
 aliases: ["Wien-Brücke", "Wien Brücke"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

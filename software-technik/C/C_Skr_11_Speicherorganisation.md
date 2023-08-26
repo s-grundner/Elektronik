@@ -1,5 +1,5 @@
 ---
-tags: ["c", "Stack", "Heap", "free", "malloc"]
+tags: ["c", "Stack", "Heap", "c/free", "c/malloc"]
 aliases: []
 created: 29th November 2022
 ---

@@ -1,5 +1,5 @@
 ---
-tags: ["Microcontroller", "Oszillator"]
+tags: ["Microcontroller", "Baugruppen/Oszillator"]
 aliases: ["DTO"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

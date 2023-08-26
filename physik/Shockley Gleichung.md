@@ -1,5 +1,5 @@
 ---
-tags: ["Halbleiter, "]
+tags: ["Halbleiter"]
 aliases: []
 subject: ["physik"]
 source: ["Siegbert Schrempf"]

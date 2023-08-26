@@ -1,5 +1,5 @@
 ---
-tags: ["Oszillator"]
+tags: ["Baugruppen/Oszillator"]
 aliases: ["Colpitts"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

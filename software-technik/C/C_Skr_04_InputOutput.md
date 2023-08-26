@@ -1,5 +1,5 @@
 ---
-tags: ["c", "buffer", "stream"]
+tags: ["c", "buffer", "c/stream"]
 aliases: []
 created: 29th November 2022
 ---

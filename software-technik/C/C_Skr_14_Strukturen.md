@@ -1,5 +1,5 @@
 ---
-tags: ["c", "struct"]
+tags: ["c", "c/struct"]
 aliases: []
 created: 29th November 2022
 ---

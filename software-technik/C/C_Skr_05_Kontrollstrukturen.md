@@ -1,5 +1,5 @@
 ---
-tags: ["c", "if", "else", "else if", "while", "do-while", "for", "switch-case", "break", "continue"]
+tags: ["c", "c/if", "c/else", "c/while", "c/do-while", "c/for", "c/switch-case", "c/break", "c/continue"]
 aliases: []
 created: 29th November 2022
 ---

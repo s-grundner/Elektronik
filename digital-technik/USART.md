@@ -1,5 +1,5 @@
 ---
-tags: ["Interface"]
+tags: ["Interface", "AVR"]
 aliases: ["UART"]
 subject: ["dic"]
 source: ["Robert Vogl"]
@@ -92,7 +92,7 @@ void usart_init(void)
 
 > [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()` aufrufen.
 
-> [!warning] Ein Ringbuffer ist nicht notwendig!
+> [!warning] Ein [Ringbuffer](Ringbuffer.md) ist nicht notwendig!
 
 ```c
 static char *message = "Hallo ich lebe";

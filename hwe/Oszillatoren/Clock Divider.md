@@ -1,5 +1,5 @@
 ---
-tags: ["Oszillator"]
+tags: ["Baugruppen/Oszillator"]
 aliases: ["Taktteiler"]
 subject: ["dic"]
 source: ["Siegbert Schrempf", "Roman Schragl", "Robert Vogl"]
