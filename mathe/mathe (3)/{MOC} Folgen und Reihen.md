@@ -5,7 +5,7 @@ source: ["Rudolf Frauenschuh"]
 created: 24th March 2022
 ---
 # Map of Content - Reihen
-## [Konvergente Folgen](../mathe%20(3)/Konvergente%20Folgen.md)
+## [Grenzwert](../mathe%20(3)/Grenzwert.md)
 ## [Geometrische Reihe](Geometrische%20Reihe)
 ## [Arithmetische Reihe](Arithmetische%20Reihe)
 ## [Konvergenzkriterien für Reihen](Konvergenzkriterien%20für%20Reihen.md)

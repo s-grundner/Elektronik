@@ -25,7 +25,7 @@ $$
 	\frac{dT}{dt}-k\cdot T(t) &= -k\cdot T_{umbegung}
 \end{align*}
 $$
-Der homogene Teil wird mittels dem [](../mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%201%20Ordnung%20mit%20Exponentialansatz|Exponentialansatzes) gelöst:
+Der homogene Teil wird mittels dem [Exponentialansatz](../mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md) gelöst:
 $$
 \begin{align*}
 	T_{h}(t) = C\cdot e^{k\cdot t}

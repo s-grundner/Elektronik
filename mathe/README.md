@@ -30,7 +30,7 @@ created: 19th August 2022
  - [Logarithmus](Logarithmus)
 
 ## 3. JG
- - [Konvergente Folgen](mathe%20(3)/Konvergente%20Folgen.md)
+ - [Grenzwert](mathe%20(3)/Grenzwert.md)
  - [Geometrische Reihe](Geometrische%20Reihe)
  - [Arithmetische Reihe](Arithmetische%20Reihe)
  - [Polynomdivision](Polynomdivision)
