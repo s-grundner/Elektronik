@@ -7,21 +7,86 @@ created: 4th April 2022
 ---
 
 # OSI Referenzmodell
+
 Das ISO/OSI-Referenzmodell (englisch Open Systems Interconnection model) ist ein Referenzmodell für Netzwerkprotokolle als Schichtenarchitektur. Es wird seit 1983 von der International Telecommunication Union (ITU) und seit 1984 auch von der International Organization for Standardization (ISO) als Standard veröffentlicht. Seine Entwicklung begann im Jahr 1977.
 
-Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische Systeme hinweg zu beschreiben und die Weiterentwicklung zu begünstigen. Dazu definiert dieses Modell sieben aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht mit klaren [Schnittstellen](../digital-technik/{MOC}%20Schnittstellen.md) definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn sie wie das [Internet Protocol](protokolle/Internet%20Protocol.md) eine zentrale Funktion haben.
+> [!info] Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische Systeme hinweg zu beschreiben und die Weiterentwicklung zu begünstigen.
+> Dazu definiert dieses Modell sieben aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht mit klaren [Schnittstellen](../digital-technik/{MOC}%20Schnittstellen.md) definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn sie wie das [Internet Protocol](protokolle/Internet%20Protocol.md) eine zentrale Funktion haben.
 
-## [Layer 1](Bitübertragungsschicht.md): [Bitübertragungsschicht](Bitübertragungsschicht.md) ([Physical Layer](Bitübertragungsschicht.md))
-Bits
-## [Layer 2](Sicherungsschicht.md): [Sicherungsschicht](Sicherungsschicht.md) ([Data Link Layer](Sicherungsschicht.md))
-Rahmen
-## [Layer 3](Vermittlungsschicht.md): [Vermittlungsschicht](Vermittlungsschicht.md) ([Network Layer](Vermittlungsschicht.md))
-Pakete
-## [Layer 4](Transportschicht.md): [Transportschicht](Transportschicht.md) ([Transport Layer](Transportschicht.md))
-Segmente
-## Layer 5: [Sitzungsschicht](Sitzungsschicht) (Session Layer)
-## Layer 6: [Darstellungsschicht](Darstellungsschicht) (Presentation Layer)
-## Layer 7: [Anwendungsschicht](Anwendungsschicht) (Application Layer)
+> [!warning] Früh wurde erkannt: Kommunikation ist komplex, daher:
+> - zur Vereinfachung wird der komplexe (Kommunikations-) Vorgang in einfache Teilschritte aufgeteilt
+> - jeder Teilschritt wird als Schicht ausgedrückt (-> 7 Schichten)
+> - es werden Schnittstellen zwischen den Schichten definiert um erfolgreich zu kommunizieren. Zur Übertragung: Protokolle (=Definition der Regelwerke)
+> - Datenübertragungen können grob in 3 Teile unterteilt werden:
+> 	- Übertragungsweg (Kabel/[Funk](../../hf-technik/Rundfunk.md) ...)
+> 	- Protokoll: Definition wie der Übertragungsweg genutzt wird
+> - Anwendung: stellt die Daten zur Verfügung/nimmt sie wieder entgegen
+> - Beim Senden werden 7 Schichten von Oben (Anwendung) beginnend durchlaufen, beim Empfang werden ebenfalls 7 Schichten in umgekehrter Richtung durchlaufen
+
+Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als sehr grob erwiesen, die oberen Schichten als zu fein.
+
+## Schichten
+
+![Schichtenmodell Einführung](assets/NW_Schichtenmodell_Einf.png)
+
+| Layer | Name (DE)                                           | Name (EN)                                   | Einheit  |
+|:-----:| --------------------------------------------------- | ------------------------------------------- | -------- |
+|   1   | [Bitübertragungsschicht](Bitübertragungsschicht.md) | [Physical Layer](Bitübertragungsschicht.md) | Bits     |
+|   2   | [Sicherungsschicht](Sicherungsschicht.md)           | [Data Link Layer](Sicherungsschicht.md)     | Rahmen   |
+|   3   | [Vermittlungsschicht](Vermittlungsschicht.md)       | [Network Layer](Vermittlungsschicht.md)     | Pakete   |
+|   4   | [Transportschicht](Transportschicht.md)             | [Transport Layer](Transportschicht.md)      | Segmente |
+|   5   | [Sitzungsschicht](Sitzungsschicht)                  | Session Layer                               |          |
+|   6   | [Darstellungsschicht](Darstellungsschicht)          | Presentation Layer                          |          |
+|   7   | [Anwendungsschicht](Anwendungsschicht)              | Application Layer                           |          |
+
+3. Vermittlung: 
+	- logische Adressierung der Endgeräte. Routing/Weg Findung zwischen Sender und Empfänger. Auf dieser Schicht werden Pakete unabhängig voneinander von einem entfernten Punkt zwischen einem Zweiten transportiert. Die logische Adressierung kann etwa die IP-Adresse sein. Typisch: je nach Übertragungsweg (untere Ebenen) werden Datenpakete geteilt oder zusammengefasst (daher auch gepuffert), es wird ein Paket-Header mit Quelle-/Ziel-Adresse angehängt ...
+4. Transport:
+	- Für fehlerfreie Übertragung der Pakete in richtiger Reihenfolge. Datenpakete werden den entsprechenden Anwendungen zugeordnet. Mit den Schichten 1-4 wird der Anwendung darüber eine zuverlässige End-zu-Endverbindung zur Verfügung gestellt. Typisch: Daten werden aus empfangenen Daten komplett wieder zusammengesetzt ...
+5. Sitzung:
+	- Legt fest welche Station wann und wie lange sendet. Organisiert die Verbindung. Typisch: Session Auf-/Abbau ...
+6. Darstellung:
+	- Bestimmt das Datenformat, wandelt diese um - Protokollumwandlung. Typisch: Umwandlung von Übertragungsformate in übergeordnete (HTML ...), Kompression, Verschlüsselung etc.
+1. Anwendung:
+	- Dateieingabe und -Ausgabe; stellt Funktionen für die Anwendung zur Verfügung
+
+
+> [!hint] Weitere Definitionen
+> - Schichten 1-4: **Transportsystem** - stellt eine zuverlässige Übertragung sicher
+> 
+> - Schichten 5-7: **Anwendungssystem** - für dieses System ist eine komplette End-zu-End-Verbindung gewährleistet.
+> 
+> ![Schichtenmodell](assets/NW_Schichtenmodell.png)
+> 
+> Definition der Begriffe: Bits, Frames, Pakete, Segmente, Daten (siehe Bild): sind jeweils das Gleiche, kennzeichnen lediglich in welcher Schicht sie sich befinden. Zuordnung von (sehr gängigen) Protokollen zu den Schichten (siehe Bild).
+
+## Reale Kommunikation
+
+Die Kommunikation mittels eines Schichtenmodells wirkt so als kommuniziert etwa die Darstellungsschicht mittels eines Darstellungsprotokolls mit einem zweiten Teilnehmer der Darstellungsschicht (-> starke Vereinfachung). Unsichtbar ist eine Schicht dafür zuständig in die nächste Schicht zu übertragen. In jedem zwischengeschalteten Teilnehmer funktioniert das gleich. Bis in welche Ebene kommuniziert wird, hängt von der eingesetzten Komponente ab:
+
+![NW_Schichtenmodell_Real](assets/NW_Schichtenmodell_Real.png)
+
+Hier ist **Host A** mit **Router 1** verbunden. Dieser ist (via weiterer, hier nicht dargestellter Komponenten) wiederum mit einem weiterem **Router n** verbunden. In einem Router (in einem TCP/IP-Netzwerk) werden die empfangenen Daten bis in die Vermittlungsschicht ausgepackt, der Empfänger damit ermittelt, für den Weitertransport wieder entsprechend verpackt und weitergesendet.
+
+## Internet-Protokollfamilie
+
+- das OSI-Modell ist sehr komplex
+- über die Jahre haben sich leichter implementierbare Protokolle (daher preiswerter) etabliert.
+- das amerikanische Verteidigungsministerium hat eigene Lösungen erarbeitet
+
+Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:
+
+![NW_Schichtenmodell_IP](assets/NW_Schichtenmodell_IP.png)
+
+- **Network Access Layer** OSI-Layer 1, 2 und zum Teil 3; Frame bestehend aus Header und Paket
+- **Internet Layer** OSI-Layer 3; Paket bestehend aus Header und Segment
+- **Transport Layer** OSI-Layer 4 und teilweise 5; Segment bestehend aus Header und Nachricht und 
+- **Application Layer** OSI-Layer 5,6, und 7; Nachricht bestehend aus Header und Daten.
+
+Die niedrigen Schichten beinhalten immer die kompletten oberen Schichten, erweitert um einen Schichtspezifischen Header. Der TCP-Header beinhaltet den Quell-/Ziel-Port, der IP-Header beinhaltet die Quell-/Ziel-IP-Adresse und die beiden Ethernet-Schichten darunter die Quell-/Ziel-MAC-Adressen (Achtung: Bild nicht maßstabgerecht):
+
+![](assets/NW_Internetprotokollfam.png)
 
 # Tags
+
 [Christian Baun](http://www.christianbaun.de/)

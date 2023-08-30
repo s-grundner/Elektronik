@@ -126,7 +126,7 @@ Aufruf:
 double[] cplxSumme = addiere(cplx1, cplx2);
 ```
 
-Komplexe Zahlen beinhalten immer 2 Zahlen. Mit einem primitiven Rückgabewert könnte man lediglich den Real- oder Imaginärteil zurückgeben. Wird eine komplexe Zahl in ein Feld gekapselt, dann kann die komplette Zahl zurückgegeben werden.
+[Komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) beinhalten immer 2 Zahlen. Mit einem primitiven Rückgabewert könnte man lediglich den Real- oder Imaginärteil zurückgeben. Wird eine [komplexe Zahl](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) in ein Feld gekapselt, dann kann die komplette Zahl zurückgegeben werden.
 
 ## Mehrere Return-Anweisungen
 

@@ -34,7 +34,7 @@ created: 29th November 2022
 
    ​
 
-8. Erstelle die Methoden für die Addition / Subtraktion / Multiplikation / Division von komplexen Zahlen. Eine Komplexe Zahl ist ein Zahlenbündel (Real-/Imag.-Teil) und läßt sich gut in einem Feld mit zwei Elementen ablegen. Teste die Methoden für die komplexen Zahlen *z1 = (1 + j)* , *z2 = (1 + j)* und der Rechnung: *z1 - z2 * (z1 + z1/z2)*.
+8. Erstelle die Methoden für die Addition / Subtraktion / Multiplikation / Division von komplexen Zahlen. Eine [Komplexe Zahl](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist ein Zahlenbündel (Real-/Imag.-Teil) und läßt sich gut in einem Feld mit zwei Elementen ablegen. Teste die Methoden für die komplexen Zahlen *z1 = (1 + j)* , *z2 = (1 + j)* und der Rechnung: *z1 - z2 * (z1 + z1/z2)*.
 
    ​
 
@@ -42,11 +42,11 @@ created: 29th November 2022
 
    ​
 
-10. Überlade die add-Methode um auch 3 komplexe Zahlen miteinander addieren zu können.
+10. Überlade die add-Methode um auch 3 [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.
 
  ​
 
-11. Überlade die add-Methode um beliebig viele komplexe Zahlen miteinander addieren zu können.
+11. Überlade die add-Methode um beliebig viele [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.
 
     ​
 
@@ -258,7 +258,7 @@ created: 29th November 2022
    System.out.println(findeWort("jodiwodi", "Di"));		// True
    ```
 
-8. Erstelle die Methoden für die Addition / Subtraktion / Multiplikation / Division von komplexen Zahlen. Eine Komplexe Zahl ist ein Zahlenbündel (Real-/Imag.-Teil) und läßt sich gut in einem Feld mit zwei Elementen ablegen. Teste die Methoden für die komplexen Zahlen *z1 = (1 + j)* , *z2 = (1 + j)* und der Rechnung: *z1 - z2 * (z1 + z1/z2)*.
+8. Erstelle die Methoden für die Addition / Subtraktion / Multiplikation / Division von komplexen Zahlen. Eine [Komplexe Zahl](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist ein Zahlenbündel (Real-/Imag.-Teil) und läßt sich gut in einem Feld mit zwei Elementen ablegen. Teste die Methoden für die komplexen Zahlen *z1 = (1 + j)* , *z2 = (1 + j)* und der Rechnung: *z1 - z2 * (z1 + z1/z2)*.
    L:
 
    ```java
@@ -284,7 +284,7 @@ created: 29th November 2022
    ...
    ```
 
-10. Überlade die add-Methode um auch 3 komplexe Zahlen miteinander addieren zu können.
+10. Überlade die add-Methode um auch 3 [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.
 
  L:
 
@@ -294,7 +294,7 @@ created: 29th November 2022
  ...
  ```
 
-11. Überlade die add-Methode um beliebig viele komplexe Zahlen miteinander addieren zu können.
+11. Überlade die add-Methode um beliebig viele [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.
     L:
 
     ```java

@@ -6,11 +6,11 @@ created: 29th November 2022
 
 # 11.1 OOP Kapselung - Übungen
 
-## Komplex (110, 007w)
+## [Komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) (110, 007w)
 
-- Erstellen Sie die Klasse **Komplex**.
+- Erstellen Sie die Klasse **[Komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md)**.
 - Legen Sie die Attribute **re** und **im** an.
-- Stelle Sie die Methoden **add()**, **sub()**, **mul()**, **div()**, **konj()** (konjug. komplex) zur Verfügung. 
+- Stelle Sie die Methoden **add()**, **sub()**, **mul()**, **div()**, **konj()** (konjug. [komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md)) zur Verfügung. 
 - Eine Anwendung im selben Paket (Methoden haben paket-Sichtbarkeit) führt Berechnungen mit den Elementen durch.
 
 ## Punkt (111, 008w)
@@ -43,11 +43,11 @@ Testen Sie die Klassen mit geeigneten Testfunktionen
 
 Erstellen Sie ein Projekt KomplexerTaschenrechner:
 
-- Erstellen Sie eine Klasse Komplex
+- Erstellen Sie eine Klasse [Komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md)
 - Erstellen Sie einen Swing-JFrame
 - Platzieren Sie die Real-/Imaginärteile für 2 Operanden und ein Ergebnis
 - Erzeugen Sie die Schaltflächen +, -, *, /
-- Erstellen Sie die notwendigen Klassen für die Berechnung in der Komplex-Klasse
+- Erstellen Sie die notwendigen Klassen für die Berechnung in der [Komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md)-Klasse
 
 Beispielhafte Oberfläche:
 

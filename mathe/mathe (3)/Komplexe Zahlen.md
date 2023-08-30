@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["komplexe Rechnung", "komplex"]
+aliases: ["komplexe Rechnung", "komplex", "komplexe Zahl"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 created: 26th April 2022

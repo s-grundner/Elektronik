@@ -6,9 +6,9 @@ created: 29th November 2022
 
 # 11.4 OOP - Weiteres - Übungen
 
-## Ue_Komplex
+## Ue_[Komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md)
 
-Erstellen Sie die Klasse Komplex, sodass folgendes Programm funktioniert:
+Erstellen Sie die Klasse [Komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md), sodass folgendes Programm funktioniert:
 
 ```java
 Komplex a = new Komplex(3.0, 2.0);

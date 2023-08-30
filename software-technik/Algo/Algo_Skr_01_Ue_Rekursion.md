@@ -103,30 +103,7 @@ int fact(int n) {
 }
 ```
 
-### Mandelbrot-Mengen (255/Java:003)
-
-Die Mandelbrot-Menge ist definiert als die Menge der komplexen Zahlen c, für welche die Folge $$z_{n+1}=z_n^2+c$$ 	mit 	 $$z_0=0$$ für $$n \rightarrow \infty$$ beschränkt bleibt. Das bedeutet es gibt komplexe Zahlen c für die wird $$z$$ unendlich (nicht Mandelbrot-Menge) und andere für die bleibt der Wert beschränkt (Mandelbrot-Menge). Die Formel ist eine rekursive Beschreibung und lässt sich einfach Programmieren:
-
-```java
-int calc(int n, double xn, double yn, double a, double b) {
-	if (    ((xn*xn + yn*yn) > MAX)       // 4: frei gewählte Schranke
-		 || (n > MAXITER)
-		 ) return n;
-	double xm =  xn*xn - yn*yn + a;
-	double ym = 2*xn*yn + b;
-	n++;
-
-	return calc(n, xm, ym, a, b);
-}
-```
-
-Hier wurde die komplexe Zahl in einen Real- (x = Re(z) bzw. a) und einen Imaginärteil (y = Im(z) bzw. b) aufgespaltet. Das Beispiel wurde in JAVA programmiert um eine grafische Darstellung zu vereinfachen. Die Farbe der Punkte gibt die Anzahl der Iterationsschritte wieder ab denen der Grenzwert (MAX) überschritten wird:
-
-![C_RekursFraktal3](assets/C_RekursFraktal3.png)
-
-beziehungsweise:
-
-![C_RekursFraktal2](assets/C_RekursFraktal2.png)
+- [Mandelbrot](Mandelbrot.md)
 
 ### Größter gemeinsamer Teiler (ggT) (256)
 
@@ -237,7 +214,7 @@ Um zwei Scheiben von A auf B zu versetzen kann das Problem wiederum vereinfacht 
 
 Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschoben werden. Mit dieser Fähigkeit wiederum 3 Scheiben, mit dieser wiederum 4 Scheiben und so fort.
 
-In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr komplex ist, durch eine schrittweise Vereinfachung des Problems kann rekursiv eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
+In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann rekursiv eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
 
 Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
 
