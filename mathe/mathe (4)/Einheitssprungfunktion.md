@@ -7,6 +7,7 @@ created: 26th April 2022
 ---
 
 # Die Einheitssprungfunktion
+
 $$
 \sigma(t) =
 \begin{cases}
@@ -17,11 +18,8 @@ $$
 Diese an der Stelle $t=0$ unstetige Funktion heißt auch **Heaviside**-Funktion und wird auch mit **$\mathscr{H}$**, **$\varepsilon$** oder **$\mathcal{u}$** bezeichnet. Sie wird zur Beschreibung von Einschaltvorgängen verwendet.
 
 ![einheitssprung](../assets/einheitssprung.png)
-``` ad-example 
-title: $f(t) = (t-2)\cdot\sigma(t-2)$
 
-```
-
+> [!example] $f(t) = (t-2)\cdot\sigma(t-2)$
 
 
 ---

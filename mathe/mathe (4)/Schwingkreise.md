@@ -159,6 +159,7 @@ $$
 Mit dem Auflösen der [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) ergibt sich eine [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20Störterm|lineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
 
 ### Bestimmung der Amplituden-Phasen-Form
+
 Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\cdot \sin(\omega\cdot t+\varphi)$ und beschreibt nur die Funktion nach dem Einschwingvorgang.
 
 > [!example] 
@@ -227,6 +228,7 @@ $$
 $$
 
 #### Frequenzgang der Amplitude:
+
 Die Amplitude ist maximal, wenn der Ausdruck unter der Wurzel minimal ist. $d$ ist der Ausdruck unter der Wurzel.
 $$
 \begin{align*}

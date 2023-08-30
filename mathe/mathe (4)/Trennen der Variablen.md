@@ -1,7 +1,7 @@
 ---
 tags: []
-aliases: ["Nullstellen", "NST"]
+aliases: []
 created: 30th August 2023
 ---
 
-# Nullstelle
+# Trennen der Variablen

@@ -17,17 +17,27 @@ $$y'' + p\cdot y'+q\cdot y=s(x) $$
 
 ### Lösung der *homogenen* [DGL]({MOC}%20DGL.md) 2. Ordnung
 
-Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL]({MOC}%20DGL.md) 2. Ordnung mit dem [Exponentialansatz](lineare%20DGL%201.%20Ordnung.md)
+Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL]({MOC}%20DGL.md) 2. Ordnung erfolgt mit dem [Exponentialansatz](Exponentialansatz.md)
 
 $$
 \begin{align*}
-	y_{h} &= c\cdot e^{\lambda x} & y'' + p\cdot y'+q\cdot y &= 0 \\
-	y'_{h} &= c\cdot\lambda\cdot e^{\lambda x} &\lambda^{2}\cdot c \cdot e^{\lambda x} + p \cdot\lambda\cdot c\cdot e^{\lambda x} + q \cdot c\cdot e^{\lambda x} &= 0 \\
-	y''_{h} &= c\cdot\lambda^{2}\cdot e^{\lambda x} &\lambda^{2}+\lambda\cdot p+q &= 0
+	y_{h} &= c\cdot e^{\lambda x}\\
+	y'_{h} &= c\cdot\lambda\cdot e^{\lambda x}\\
+	y''_{h} &= c\cdot\lambda^{2}\cdot e^{\lambda x}
 \end{align*}
 $$
 
-Mit dem [](lineare%20DGL%201.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%201%20Ordnung%20Exponentialansatz|Exponentialansatz) gewinnt man die **charakteristische Gleichung**: $\lambda^{2}+\lambda\cdot p+q=0$.
+Daraus folgt:
+$$
+\begin{align*}
+	0 &= y'' + p\cdot y'+q\cdot y\\
+	0 &= \lambda^{2}\cdot c \cdot e^{\lambda x} + p \cdot\lambda\cdot c\cdot e^{\lambda x} + q \cdot c\cdot e^{\lambda x} \\
+	0 &= \lambda^{2}+\lambda\cdot p+q
+\end{align*}
+$$
+
+
+Mit dem [Exponentialansatz](Exponentialansatz.md) gewinnt man die **charakteristische Gleichung**: $\lambda^{2}+\lambda\cdot p+q=0$.
 Je nach Art der Lösungen $\lambda_{1}$ und $\lambda_{2}$ sind drei Fälle zu unterscheiden: 
 
 $\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$
@@ -66,7 +76,9 @@ $b = \omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
 
 ### Lösung der *inhomogenen* [DGL]({MOC}%20DGL.md) 2. Ordnung
 
-Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL]({MOC}%20DGL.md) hat. Die allgemeine Lösung $y$ der inhomogenen Gleichung ist die Summe *("Überlagerung")* der allgemeinen Lösung $y_{h}$ der zugehörigen homogenen Gleichung und irgendeiner partikulären *(speziellen)* Lösung $y_{p}$ der inhomogenen Gleichung: **$y=y_{p}+y_{h}$**. 
+Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL]({MOC}%20DGL.md) hat. 
+
+Die allgemeine Lösung $y$ der inhomogenen Gleichung ist die Summe *("Überlagerung")* der allgemeinen Lösung $y_{h}$ der zugehörigen homogenen Gleichung und irgendeiner partikulären *(speziellen)* Lösung $y_{p}$ der inhomogenen Gleichung: **$y=y_{p}+y_{h}$**. 
 
 Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL]({MOC}%20DGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist. 
 

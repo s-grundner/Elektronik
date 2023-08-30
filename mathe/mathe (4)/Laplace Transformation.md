@@ -7,6 +7,7 @@ created: 26th April 2022
 ---
 
 # Laplace Transformation - Multiplizieren statt [Differenzieren](../mathe%20(3)/Differenzialrechnung.md)
+
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem Einschalten $(t=0)$ passiert.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../hwe/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
@@ -140,6 +141,7 @@ $$
 $$
 
 # Elektrische Netzwerke im Laplace-[Bildbereich](../mathe%20(3)/Komplexe%20Zahlen.md) (s-Domäne)
+
 Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lineare Differentialgleichung mit konstanten Koeffizienten beschrieben. Diese Netzwerke werden als lineare Netzwerke bezeichnet.
 
 Bei umfangreichen Netzwerken ist jedoch oft
@@ -148,5 +150,6 @@ Bei umfangreichen Netzwerken ist jedoch oft
  mit beträchtlichen Schwierigkeiten verbunden.
 
 # Tags
+
 [Delta-Impuls](Delta-Impuls.md)
  

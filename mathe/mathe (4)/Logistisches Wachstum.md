@@ -7,7 +7,3 @@ created: 29th August 2022
 ---
 
 # Logistisches Wachstum
-
-
----
-# Tags

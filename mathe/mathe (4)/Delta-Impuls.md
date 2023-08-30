@@ -42,7 +42,7 @@ Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.
 $d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
 
 ## Ausblend-Eigenschaft des $\delta$-Impuls
-Wirkung des $\delta$-Impulses auf eine Zeitfunktion $f$:
+Wirkung des $\delta$-Impulses auf eine Zeit Funktion $f$:
 $$
 \begin{align*}
 	\delta(t) &= \lim_{h\rightarrow 0}\begin{cases}
@@ -66,6 +66,3 @@ $$
 	f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})dt
 }}
 $$
-
----
-# Tags
