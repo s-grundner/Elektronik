@@ -73,17 +73,6 @@ Komponenten:
 
 Die Server-Client-Struktur hat sich für sehr viele Anwendungen durchgesetzt. Der Grund liegt in der Einfachheit und klaren Definition der Rollen.
 
-### Protokolle der Transportschicht (OSI4)
-
-- **UDP**	User Datagram Protocol: Verbindung der IP mit der Applikationsschicht. Ports definieren einen Dienst eines Servers oder ein Anwendungsprogramm einer Arbeitsstation. UDP ist verbindungslos (kein Öffnen/Schließen). Damit kann nicht auf Empfangsbereitschaft geprüft werden oder auf Erhalt von Daten. Eingesetzt wird es daher bei Media-Streaming-Anwendungen oder Internettelefonie.
-
-- **TCP**		Transmission Control Protocol: Verbindungsorientiertes Protokoll, es verbindet zwei Endpunkte miteinander. Auch auf unzuverlässigen niedrigeren Schichten (etwa IP), kann damit sichergestellt werden, dass Daten ankommen. Vor dem Senden wird die Menge an Daten *ausgehandelt*. Gesendet wird mit Sequence-Number. Die Reihenfolge und Vollständigkeit wird damit gewährleistet. Der Empfänger muss Erhalt bestätigen ansonsten wird erneut gesendet.
-
-  Endpunkte sind mittels IP-Adresse und Port definiert. Ein TCP-Segment besteht aus einem Header (beinhaltet Src- und Dst-Port) und der Payload.
-
-- **TLS/SSL**		Secure Sockets Layer (neu **T**ransport **L**ayer **S**ecurity): Ende-zu-Ende-Verschlüsselung mittels symmetrischer Verschlüsselung (DES, AES...) und kryptografische Prüfsumme (SHA-1, MD5). TLS wird heute (unter Anderem) mit HTTPS, POP3S, SMTPS, FTPS eingesetzt (SSL wurde durch TLS ersetzt, die Abkürzung wird aber noch sehr häufig verwendet).
-  Das TLS besteht wiederum aus zwei Schichten und wird häufig eher der 5ten Schicht zugerechnet. Es wird grundsätzlich über TCP gesehen (aber unter etwa HTTP).
-
 ### Protokolle der Anwendungsschicht (OSI5+)
 
 - **DHCP**	Dynamic Host Configuration Protocol: für die Kommunikation benötigt jeder Rechner eine eigene, eindeutige IP-Adresse. In großen Netzwerken und mit wechselnden Teilnehmern ist das sehr aufwendig, daher gibt's DHCP: einer Station können dynamische IPs zugeordnet werden. DHCP-Server verwalten den Adresspool und protokollieren alle Vergaben. DHCP basiert auf UDP, Ports für IPv4 67/68 und für IPv6 547/546

@@ -11,7 +11,7 @@ created: 20th August 2023
 > $$\lambda = \frac{c_{0}}{f}\gg l \qquad \text{oder} \qquad \uptau = \frac{\text{Strecke}}{\text{Geschwindigkeit}} = \frac{l}{c_{0}} \ll T = \frac{1}{f}$$
  
 > [!note] nicht elektrisch kurz ($l>\frac{\lambda}{10}$) 
-> Ist die Leitung ==nicht== als elektrisch ==kurz== anzusehen, so zeigt die Spannung längs der Leitung
+> Ist die Leitung ==nicht== als elektrisch ==kurz== anzusehen, so zeigt die Spannung  der Leitung
 keinen konstanten Verlauf mehr:
 > - In dem sinusförmigen Verlauf ist die Wellennatur der elektromagnetischen Erscheinungen zu erkennen.
 > - In der Praxis geht man davon aus, dass ab einer Leitungslänge von einem Zehntel der Wellenlänge ==($l > \frac{\lambda}{10}$)== der Effekt bedeutsam ist.
