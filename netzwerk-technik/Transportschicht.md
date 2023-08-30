@@ -7,34 +7,36 @@ created: 6th April 2022
 ---
 
 # Transportschicht (OSI-Layer 4)
+
+> [!hint] Für fehlerfreie Übertragung der Pakete in richtiger Reihenfolge.
+> - Datenpakete werden den entsprechenden Anwendungen zugeordnet.
+> - Mit den Schichten 1-4 wird der Anwendung darüber eine zuverlässige End-zu-Endverbindung zur Verfügung gestellt.
+>
+> Typisch: Daten werden aus empfangenen Daten komplett wieder zusammengesetzt
+
 ## Aufgaben der Transportschicht
+
 ### Ports
+
 ## Adressierung der Transportschicht
+
 Die Adressierung erfolgt in der Transportschicht mit [Sockets](Sockets)
 
 ## Protokolle der Transportschicht
 
-1. [**UDP**](UDP.md) [User Datagram Protocol](UDP.md):
+> [!note] Was wünschen wir uns von der Flusskontrolle
+> - Garantierte Datenübertragung
+> - Einhaltung der korrekten Reihenfolge
+> - Unterstützung beliebig großer Datenübertragungen
+> - Der Sender soll das Netzwerk nicht überlassen
 
-1. [**TCP**](TCP.md) [Transmission Control Protocol](TCP.md):
-	- Verbindungsorientiertes Protokoll, es verbindet zwei Endpunkte miteinander.
-	- Auch auf unzuverlässigen niedrigeren Schichten (etwa IP), kann damit sichergestellt werden, dass Daten ankommen.
-	- Vor dem Senden wird die Menge an Daten *ausgehandelt*. Gesendet wird mit Sequence-Number.
-	- Die Reihenfolge und Vollständigkeit wird damit gewährleistet.
-	- Der Empfänger muss Erhalt bestätigen ansonsten wird erneut gesendet.
-	- Endpunkte sind mittels IP-Adresse und Port definiert.
-	- Ein TCP-Segment besteht aus einem Header (beinhaltet Src- und Dst-Port) und der Payload.
-
+1. [**UDP**](UDP.md) [User Datagram Protocol](UDP.md)
+1. [**TCP**](TCP.md) [Transmission Control Protocol](TCP.md)
 1. **TLS/SSL** Secure Sockets Layer (neu **T**ransport **L**ayer **S**ecurity):
 	- Ende-zu-Ende-Verschlüsselung mittels symmetrischer Verschlüsselung (DES, AES...) und kryptografische Prüfsumme (SHA-1, MD5). TLS wird heute (unter Anderem) mit HTTPS, POP3S, SMTPS, FTPS eingesetzt (SSL wurde durch TLS ersetzt, die Abkürzung wird aber noch sehr häufig verwendet).
-  Das TLS besteht wiederum aus zwei Schichten und wird häufig eher der 5ten Schicht zugerechnet. Es wird grundsätzlich über TCP gesehen (aber unter etwa HTTP).
+	- Das TLS besteht wiederum aus zwei Schichten und wird häufig eher der 5ten Schicht zugerechnet. Es wird grundsätzlich über TCP gesehen (aber unter etwa HTTP).
 
 
-Was wünschen wir uns von der Flusskontrolle:
-- Garantierte Datenübertragung
-- Einhaltung der korrekten Reihenfolge
-- Unterstützung beliebig großer Datenübertragungen
-- Der Sender soll das Netzwerk nicht überlassen
 
 ---
 # Tags

@@ -8,7 +8,12 @@ created: 4th April 2022
 # Sicherungsschicht (OSI-Layer 2)
 
 > [!hint] Um Übertragungsfehler zu erkennen (und zu beheben), wird eine Datenflusskontrolle und eine Fehlererkennung und -Behebung implementiert.
-> Hier gibt es auch eine erste Adressierung von Paketen. Die Übertragung findet hier zwischen benachbarten Knoten statt. Mehrere Bits werden in einen Frame zusammengefasst. Adressierung kann etwa über MAC-Adressen erfolgen. Typisch: Management konkurrierender Zugriff, Daten-Bits zusammen mit Kontrollbits in Frames zusammengefasst
+> - Hier gibt es auch eine erste Adressierung von Paketen.
+> - Die Übertragung findet hier zwischen benachbarten Knoten statt.
+> - Mehrere Bits werden in einen Frame zusammengefasst.
+> - Adressierung kann etwa über MAC-Adressen erfolgen.
+> 
+> Typisch: Management konkurrierender Zugriff, Daten-Bits zusammen mit Kontrollbits in Frames zusammengefasst
 
 ## Aufgaben der Sicherungsschicht
 

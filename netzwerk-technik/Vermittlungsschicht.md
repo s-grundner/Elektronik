@@ -7,21 +7,30 @@ created: 4th April 2022
 ---
 
 # Vermittlungsschicht (OSI-Layer 3)
-## Aufgaben der Vermittlungsschicht
-1. Sender
-	- Segmente der [Transportschicht](Transportschicht.md) werden in Pakete unterteilt
-2. Empfänger
-	- Pakete in den Rahmen der [Sicherungsschicht](Sicherungsschicht.md) erkennen      
-3. Logische Adressen ([IP-Adressen](protokolle/Internet%20Protocol.md)) bereitstellen
-4. Routing
-	-  Ermittlung des besten Weges
-5. Forwarding
-	- Weiterleitung der Pakete zwischen logischen Netzen, also über physische Übertragungsabschnitte hinweg.
 
-## Geräte der Vermittlungschicht
+> [!hint] logische Adressierung der Endgeräte.
+> - Routing/Weg Findung zwischen Sender und Empfänger.
+> - Auf dieser Schicht werden Pakete unabhängig voneinander von einem entfernten Punkt zwischen einem Zweiten transportiert.
+> - Die logische Adressierung kann etwa die IP-Adresse sein.
+> 
+> Typisch: je nach Übertragungsweg (untere Ebenen) werden Datenpakete geteilt oder zusammengefasst (daher auch gepuffert), es wird ein Paket-Header mit Quelle-/Ziel-Adresse angehängt.
+
+## Aufgaben der Vermittlungsschicht
+
+|            |                                                                                                        |
+| ---------- | ------------------------------------------------------------------------------------------------------ |
+| Sender     | Segmente der [Transportschicht](Transportschicht.md) werden in Pakete unterteilt                       |
+| Empfänger  | Pakete in den Rahmen der [Sicherungsschicht](Sicherungsschicht.md) erkennen                            |
+| IP         | Logische Adressen ([IP-Adressen](protokolle/Internet%20Protocol.md)) bereitstellen                     |
+| Routing    | Ermittlung des besten Weges                                                                            |
+| Forwarding | Weiterleitung der Pakete zwischen logischen Netzen, also über physische Übertragungsabschnitte hinweg. |
+
+## Geräte der Vermittlungsschicht
+
 Die Geräte der Vermittlungsschicht unterbrechen die [Broadcastdomäne](Broadcastdomäne.md).
 
 ### Router
+
 *siehe Wikipedia Eintrag zu [Router](https://de.wikipedia.org/wiki/Router)*
 Router leiten Datenpakete zwischen Netzen mit eigenen logischen Adressbereichen weiter.
 - Besitzt genau wie Hubs und Switche mehrere Schnittstellen
@@ -29,9 +38,11 @@ Router leiten Datenpakete zwischen Netzen mit eigenen logischen Adressbereichen 
 	- zum Beispiel: via DSL oder 3G/4G Mobilfunk.
 
 ### Layer 3 Switch
+
 (Router ohne [Wide Area Network](Wide%20Area%20Network.md)-Schnittstelle)
 
 ### [Gateways](Gateway.md) in der Vermittlungsschicht
+
 [Gateways](Gateway.md) die auf der Vermittlungsschicht arbeiten, heißen auch **Mehrprotokoll Router** oder **Multiprotololl Router**.
 
 Moderne Computernetze arbeiten fast ausschließlich mit dem [Internet Protocol](protokolle/Internet%20Protocol.md).
@@ -41,10 +52,10 @@ Auch VPN-[Gateways](Gateway.md) (Virtual Private Network) können auf der Vermit
  - Sie ermöglichen über unsichere öffentliche Netze den sicheren Zugriff auf entfernte sichere Netze
  - Dienste (z.B. E-Mail), die nur innerhalb des sicheren Netzes zur Verfügung stehen, werden über eine getunnelte Verbindung genutzt.
 
-## Protokolle der Vermittlungsschicht )
+## Protokolle der Vermittlungsschicht
 
-> [!note] Dienen zur Weiterleitung und Wegbestimmung
-> - Distanzvector-Routing-Potokolle
+> [!note] Dienen zur Weiterleitung und Weg Bestimmung
+> - Distanz Vector-Routing-Protokolle
 > - Link-State-Routing- Protokolle
 
 1. **IP** - Internet Protocol:

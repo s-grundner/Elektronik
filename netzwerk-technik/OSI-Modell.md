@@ -35,18 +35,10 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 |   2   | [Sicherungsschicht](Sicherungsschicht.md)           | [Data Link Layer](Sicherungsschicht.md)     | Rahmen   |
 |   3   | [Vermittlungsschicht](Vermittlungsschicht.md)       | [Network Layer](Vermittlungsschicht.md)     | Pakete   |
 |   4   | [Transportschicht](Transportschicht.md)             | [Transport Layer](Transportschicht.md)      | Segmente |
-|   5   | [Sitzungsschicht](Sitzungsschicht)                  | Session Layer                               |          |
-|   6   | [Darstellungsschicht](Darstellungsschicht)          | Presentation Layer                          |          |
-|   7   | [Anwendungsschicht](Anwendungsschicht)              | Application Layer                           |          |
+|   5   | [Sitzungsschicht](Sitzungsschicht)                  | [Session Layer](Sitzungsschicht.md)                               |          |
+|   6   | [Darstellungsschicht](Darstellungsschicht)          | [Presentation Layer](Darstellungsschicht.md)                          |          |
+|   7   | [Anwendungsschicht](Anwendungsschicht)              | [Application Layer](Anwendungsschicht.md)                           |          |
 
-3. Vermittlung: 
-	- logische Adressierung der Endgeräte. Routing/Weg Findung zwischen Sender und Empfänger. Auf dieser Schicht werden Pakete unabhängig voneinander von einem entfernten Punkt zwischen einem Zweiten transportiert. Die logische Adressierung kann etwa die IP-Adresse sein. Typisch: je nach Übertragungsweg (untere Ebenen) werden Datenpakete geteilt oder zusammengefasst (daher auch gepuffert), es wird ein Paket-Header mit Quelle-/Ziel-Adresse angehängt ...
-4. Transport:
-	- Für fehlerfreie Übertragung der Pakete in richtiger Reihenfolge. Datenpakete werden den entsprechenden Anwendungen zugeordnet. Mit den Schichten 1-4 wird der Anwendung darüber eine zuverlässige End-zu-Endverbindung zur Verfügung gestellt. Typisch: Daten werden aus empfangenen Daten komplett wieder zusammengesetzt ...
-5. Sitzung:
-	- Legt fest welche Station wann und wie lange sendet. Organisiert die Verbindung. Typisch: Session Auf-/Abbau ...
-6. Darstellung:
-	- Bestimmt das Datenformat, wandelt diese um - Protokollumwandlung. Typisch: Umwandlung von Übertragungsformate in übergeordnete (HTML ...), Kompression, Verschlüsselung etc.
 1. Anwendung:
 	- Dateieingabe und -Ausgabe; stellt Funktionen für die Anwendung zur Verfügung
 

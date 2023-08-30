@@ -8,12 +8,21 @@ created: 6th May 2022
 
 # TCP - Transmission Control Protocol
 
+> [!hint] Verbindungsorientiertes Protokoll, es verbindet zwei Endpunkte miteinander
+> - Auch auf unzuverlässigen niedrigeren Schichten (etwa IP), kann damit sichergestellt werden, dass Daten ankommen.
+> - Vor dem Senden wird die Menge an Daten *ausgehandelt*. Gesendet wird mit Sequence-Number.
+> - Die Reihenfolge und Vollständigkeit wird damit gewährleistet.
+> - Der Empfänger muss Erhalt bestätigen ansonsten wird erneut gesendet.
+> - Endpunkte sind mittels IP-Adresse und Port definiert.
+> - Ein TCP-Segment besteht aus einem Header (beinhaltet Src- und Dst-Port) und der Payload.
+
+
 ![TCPIP_im_Schichtenmodell.png](assets/TCPIP_im_Schichtenmodell.png)
 
 ## TCP Segmentierung
 
 Datenpakete werden *segmentiert*/aufgeteilt und nach der Übertragung wieder zusammengesetzt. Die Segmente werden mit einem **HEADER** versehen, indem wichtige Informationen, wie Steuer- und Kontrollelemente , enthalten sind.
-Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richtige Reihenfolge gebracht weredn können. 
+Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richtige Reihenfolge gebracht werden können. 
 **Fehlende werden neu gesendet und Doppelte aussortiert.**
 
 ## Aufbau des TCP Headers
