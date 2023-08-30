@@ -1,4 +1,11 @@
-# 2 Netzwerke - Sockets
+---
+tags: ["Netzwerke"]
+aliases: ["Socket"]
+created: 29th November 2022
+---
+
+# Socket
+# Sockets
 
 ## Client/Server - Sockets
 
@@ -583,4 +590,4 @@ Zahlen werden je nach System in unterschiedlicher Byte-Reihenfolge verarbeitet (
 
 - Windows-Tools:
   
-  ###### https://kompendium.infotip.de/netzwerkbefehle-der-windows-kommandozeile.html
+   https://kompendium.infotip.de/netzwerkbefehle-der-windows-kommandozeile.html

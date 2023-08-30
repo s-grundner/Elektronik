@@ -33,7 +33,7 @@ created: 19th August 2022
  - [Grenzwert](mathe%20(3)/Grenzwert.md)
  - [Geometrische Reihe](Geometrische%20Reihe)
  - [Arithmetische Reihe](Arithmetische%20Reihe)
- - [Polynomdivision](Polynomdivision)
+ - [Polynomdivision](mathe%20(3)/Polynomdivision.md)
  - [Differenzialrechnung](mathe%20(3)/Differenzialrechnung.md)
  - [Kurvendiskussion](mathe%20(3)/{MOC}%20Kurvendiskussion.md)
  - [Newton'sches Näherungsverfahren](mathe%20(3)/Newton'sches%20Näherungsverfahren.md)
