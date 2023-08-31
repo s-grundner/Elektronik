@@ -1,6 +1,6 @@
 # Mix
 
-### decltype
+## decltype
 
 C++11
 
@@ -22,19 +22,19 @@ decltype(x) w = 7;		// ohne "=7" funktioniert es nicht - const ohne = klappt nic
 
 mit dem Formular *decltype(auto)* wird für *const* automatisch auch *=123* mitkopiert, ist daher weniger problematisch als die erste Form.
 
-### LPARAM
+## LPARAM
 
-Die Bezeichnungen WPARAM und LPARAM stammen aus dem ersten  16-BitWindows. PARAM heißt Parameter und ist damit von der Funktion  abhängig. W steht für WORD (unter 16 bit-Windows 16 bit), L steht für  LONG (unter 16-bit Windows 32 bit). Das ist schon alles!
+Die Bezeichnungen WPARAM und LPARAM stammen aus dem ersten 16-BitWindows. PARAM heißt Parameter und ist damit von der Funktion abhängig. W steht für WORD (unter 16 bit-Windows 16 bit), L steht für LONG (unter 16-bit Windows 32 bit). Das ist schon alles!
 
-### auto
+## auto
 
-Es steht für einen unbekannten Datentyp, den der Compiler selbst  bestimmt. Am einfachsten versteht man es anhand eines Beispiels.
+Es steht für einen unbekannten Datentyp, den der Compiler selbst bestimmt. Am einfachsten versteht man es anhand eines Beispiels.
 
-Man sollte dieses Konzept nicht mit der dynamischen Datentypzuweisung,  wie es sie beispielsweise in PHP gibt, verwechseln. C++ besitzt eine  statisch explizite Typisierung
+Man sollte dieses Konzept nicht mit der dynamischen Datentypzuweisung, wie es sie beispielsweise in PHP gibt, verwechseln. C++ besitzt eine statisch explizite Typisierung
 
 auto soll(!) durchaus verwendet werden, damit kann die Änderungsfähigkeit verbessert werden und Fehler vermieden werden. Die Effizienz eines Programms leidet NICHT, auto wird zur Compile-Zeit übersetzt.
 
-## lvalue, rvalue
+# lvalue, rvalue
 
 Die Bezeichnung könnte davon kommen:
 
@@ -54,7 +54,7 @@ int i = func();
 
 Hier liefert auch *func* einen *rvalue*, es gibt keinen Speicherplatz, der adressiert werden könnte. der 10er ist temporär.
 
-### Referenzen auf lvalue, rvalue
+## Referenzen auf lvalue, rvalue
 
 Auf einen *lvalue* kann einfach eine Referenz erstellt werden:
 
@@ -86,11 +86,8 @@ Auf diese Art kann eine Funktion ermitteln ob sie mit einem *lvalue* oder einem 
 
 Sehr gute Videos:
 
-https://www.youtube.com/watch?v=fbYknr-HPYE
-https://www.youtube.com/watch?v=ehMg6zvXuMY
-https://www.youtube.com/watch?v=OWNeCTd7yQE
+<https://www.youtube.com/watch?v=fbYknr-HPYE>  
+<https://www.youtube.com/watch?v=ehMg6zvXuMY>  
+<https://www.youtube.com/watch?v=OWNeCTd7yQE>
 
-## 
-
-
-
+# 

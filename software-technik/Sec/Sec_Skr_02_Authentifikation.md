@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 2 Authentifikation
 
-Für Kommunikation, beispielsweise über Internet (Mail ...), ist es erforderlich sicherstellen zu können wer der Kommunikationspartner ist.
+Für Kommunikation, beispielsweise über Internet (Mail …), ist es erforderlich sicherstellen zu können wer der Kommunikationspartner ist.
 
 Beispiele: Kaufverträge, E-Banking, Verträge, Behördeneingaben, persönliche Datenübertragung, Web-Seiten
 
@@ -49,12 +49,12 @@ Das Ausmultiplizieren dieses Terms ist trivial möglich. Umgekehrt, um von der L
 
 Häufig werden diese Hash-Werte rekursiv berechnet, zum Beispiel:
 
-- Klartext-Dokument *M* wird in *m*-lange Teile zerlegt, M = (M1, M2 ... Mk)
+- Klartext-Dokument *M* wird in *m*-lange Teile zerlegt, M = (M1, M2 … Mk)
 - Der Hash-Wert *h* hat eine Länge *n* (<*m*)
-- h0 = 0                             (Startwert)
-- hi = f(   Mi, h(i-1)   )       (Berechnung aus iten Klartextanteil und vorhergehender Hash-Stelle)
+- h0 = 0 (Startwert)
+- hi = f( Mi, h(i-1) )       (Berechnung aus iten Klartextanteil und vorhergehender Hash-Stelle)
 
-- h = hk                             (letzte Iteration liefert den Hash-Wert)
+- h = hk (letzte Iteration liefert den Hash-Wert)
 
 Wichtige Einweg-Hash-Funktionen:
 
@@ -118,10 +118,10 @@ Das **Fiat-Shamir-Protokoll** ist kein echtes Zero-Knowledge-Protokoll:
 
 6. Viktor entscheidet sich für $b = 1$ oder $b = 0$ (Challenge) und sendet $b$
 
-7. Wenn $b = 0$ sendet Peggy $y = r\ mod \ n$
+7. Wenn $b = 0$ sendet Peggy $y = r\ mod \ n$  
    Viktor prüft: $y^2\ mod \ n = x$
 
-8. Wenn $b = 1$ sendet Peggy $y = (r\cdot s)\ mod \ n$ (NICHT Zero-Knowledge)
+8. Wenn $b = 1$ sendet Peggy $y = (r\cdot s)\ mod \ n$ (NICHT Zero-Knowledge)  
    Viktor prüft: $y^2\ mod\ n = x\cdot v\ mod \ n$
 
 Die Punkte 4-8 können von Viktor beliebig oft wiederholt werden. Wenn Peggy tatsächlich im Besitz des Schlüssels s ist, dann wird das Ergebnis immer richtig sein.
@@ -140,12 +140,12 @@ Um einen Kommunikationspartner eindeutig als Denjenigen identifizieren zu könne
 
 Ein solches Zertifikat beinhaltet (knapper Auszug):
 
-- Inhaberdaten (Land, Organisation, Name ...)
-- Ausstellerdaten (Land, Organisation ...)
+- Inhaberdaten (Land, Organisation, Name …)
+- Ausstellerdaten (Land, Organisation …)
 - Gültigkeit (von, bis)
 - Zertifikatinhaber-Schlüsselinformationen (Public-Key-Algorithmus, Public Key des Zertifikatinhabers)
 - Seriennummer
-- Fingerabdrücke (Signaturen etwa SHA-256 ...)
+- Fingerabdrücke (Signaturen etwa SHA-256 …)
 - Daten die Zertifizierungsstelle betreffend
 - Signatur - Signatur des Hash-Werte aller anderen Felder durch den Aussteller des Zertifikats
 

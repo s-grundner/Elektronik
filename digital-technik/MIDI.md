@@ -5,6 +5,7 @@ created: 17th August 2023
 ---
 
 # MIDI
+
 Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die Kommunikation zwischen Computern und Musik-Hardware, sogenannten MIDI-Controllern. Jedes Mal, wenn eine Taste auf einem Controller gedrückt wird, erstellt dieser eine MIDI-Nachricht und sendet sie an den Computer. Diese Tasten sind nicht nur auf die Klaviatur eines MIDI-Controllers beschränkt, es können ebenfalls MIDI-Wörter gesendet werden, welche andere Parameter in einer digitalen Musikproduktionsumgebung steuern, wie zum Beispiel die Intensität eines Audioeffekts.
 
 > [!example] Beispiel
@@ -13,7 +14,7 @@ Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die 
 > 
 > ![750](assets/MIDI-DigiFilter.png)
 
-Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analoges- noch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [1]
+Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analogesnoch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [1]
 
 Das MIDI-Protokoll beschreibt unter anderem die zu übertragenden Noten mit digitalen Wörtern, welche in einer genormten Tabelle festgehalten sind. Jede Note hat daher eine Adresse, durch welche dann ein anderes digitales Instrument weiß, mit welcher Tonhöhe es diese Note spielen muss.
 
@@ -30,7 +31,7 @@ Eine MIDI-Nachricht ist aus drei (manchmal zwei) Bytes aufgebaut:
 
 ### MIDI-Status
 
-Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status- und Kanalnibble ein Byte. Mit dem Statusnibble wird dem Empfänger mitgeteilt, welche Funktion die darauffolgenden Datenbytes haben. Mit 16 verschiedenen Möglichkeiten, kann der Status mit vier Bit eindeutig codiert werden. Mögliche Statusnibble sind:
+Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Statusund Kanalnibble ein Byte. Mit dem Statusnibble wird dem Empfänger mitgeteilt, welche Funktion die darauffolgenden Datenbytes haben. Mit 16 verschiedenen Möglichkeiten, kann der Status mit vier Bit eindeutig codiert werden. Mögliche Statusnibble sind:
 
 | Status            | Hex-Wert | Funktion                                                                                                  |
 | ----------------- | -------- | --------------------------------------------------------------------------------------------------------- |
@@ -55,7 +56,7 @@ Mit den Vier übrigen Bit wird der Kanal eingestellt, an den die Nachricht gesch
 > 
 > ![](assets/MIDI_Controller.png)
 > 
-> Channel 10: Drumpads (16 Quadratische Drucktasten oben)
+> Channel 10: Drumpads (16 Quadratische Drucktasten oben)  
 > Channel 1: Klaviertasten
 
 ### Datenbytes

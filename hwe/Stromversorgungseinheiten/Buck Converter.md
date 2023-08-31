@@ -5,13 +5,14 @@ subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 created: 20th April 2022
 ---
+
 # Buck Converter
 
 ## Schaltung
 
 ![Buck_converter](../assets/Buck_converter.svg)
 
-Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.
+Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.  
 Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle) der Steuerspannung.
 
 ## Impuls-Zeit Diagramm
@@ -26,11 +27,11 @@ Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](../I
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-Die in der [Spule](../Induktivitäten.md) gespeicherten Energie liefert weiter Strom an den [Kondensator](../Kapazität.md)  und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../Induktivitäten.md), den [Kondensator](../Kapazität.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
+Die in der [Spule](../Induktivitäten.md) gespeicherten Energie liefert weiter Strom an den [Kondensator](../Kapazität.md) und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../Induktivitäten.md), den [Kondensator](../Kapazität.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
 
 ### Herleitung der Dimensionierung
 
-Annahme: $U_{a}$ ist konstant über $T_{S}$
+Annahme: $U_{a}$ ist konstant über $T_{S}$  
 $0<t<t_{1}$: $S_{geschlossen}$
 $$
 \begin{align*}
@@ -126,7 +127,7 @@ $$
 \end{align*}
 $$
 
-Mit [$0<t<t_{1}$ $S_{geschlossen}$](Buck%20Converter.md#$0<t<t_{1}$%20$S_{geschlossen}$) folgt $\dots$ $\Delta I_{L} = \dfrac{1}{L}\cdot (U_{e}-U_{a})\cdot T_{s}$
+Mit [$0<t<t_{1}$ $S_{geschlossen}$](Buck%20Converter.md#$0<t<t_{1}$%20$S_{geschlossen}$) folgt $\dots$ $\Delta I_{L} = \dfrac{1}{L}\cdot (U_{e}-U_{a})\cdot T_{s}$  
 Unter vernachlässigung von $U_{FO}$
 
 $$

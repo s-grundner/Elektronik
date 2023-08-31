@@ -8,9 +8,8 @@ created: 29th November 2022
 
 ## PJ-Management Übersicht
 
-Lesen Sie 
+Lesen Sie  
 `SEng_Skr_03_Projektmanagement.ppt`
-
 
 ## Projektstrukturpläne (PSP-I und PSP-II) erstellen
 
@@ -29,34 +28,33 @@ Lesen Sie
 	
 	4. US Personen zuordnen
 	
-	Ergebnis: UserStory mit
-			* Beschreibung
-			* Subtasks
-			* Bearbeiter
-			* Zeitaufwand (Punkte) geschätzt
+	Ergebnis: UserStory mit  
+			* Beschreibung  
+			* Subtasks  
+			* Bearbeiter  
+			* Zeitaufwand (Punkte) geschätzt  
 			* Zeitaufwand (Punkte) fertig
 
 
 2. PSP-II: Arbeitsplan für Gesamtprojekt und pro Person erstellen
 
 	1. PSP-II: GesamtProjekt/Gantt-Diagramm erstellen
-		* UserStories im Diagramm 
-		* x-Achse (Monate, ...)
-		* y-Achse (US)
+		- UserStories im Diagramm 
+		- x-Achse (Monate, …)
+		- y-Achse (US)
 		
-	2. PSP-II: Pro Person  (Tabelle)
-		* WER
-		* WAS
-		* BIS WANN
-		* Geschätzte Zeit
-		* Gebrauchte Zeit
-
+	2. PSP-II: Pro Person (Tabelle)
+		- WER
+		- WAS
+		- BIS WANN
+		- Geschätzte Zeit
+		- Gebrauchte Zeit
 
 ## AUFGABE: Projekt-Management und GANTT Diagramm
 
-1. Erstellen Sie ein GANTT-Diagramm für Ihre DA
-	https://info.htl-salzburg.ac.at/Lehre/elektronik/Diplomarbeiten/Vorlagen/Projektplan_MUSTERMANN.xlsx
+1. Erstellen Sie ein GANTT-Diagramm für Ihre DA  
+	<https://info.htl-salzburg.ac.at/Lehre/elektronik/Diplomarbeiten/Vorlagen/Projektplan_MUSTERMANN.xlsx>
 
-2. Studieren Sie: https://www.teamgantt.com oder Redmine oder OpenProject
+2. Studieren Sie: <https://www.teamgantt.com> oder Redmine oder OpenProject
 
 3. Verwenden Sie eines der obigen Systeme zu Ihrer DA/Projektverwaltung

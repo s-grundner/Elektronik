@@ -38,7 +38,7 @@ Um die Bedienung auf der GUI aufrechtzuerhalten während der Timer läuft wird e
 
 Hinweise:
 
-- ein eigener Uhr-Thread kann mittels `class UhrThread extends Thread`  realisiert werden. In dieser Klasse muss die run-Methode überschrieben werden: `@Override public void run() {...`.
+- ein eigener Uhr-Thread kann mittels `class UhrThread extends Thread` realisiert werden. In dieser Klasse muss die run-Methode überschrieben werden: `@Override public void run() {…`.
 - Ein Thread kann mittels `uhr.start()` gestartet werden (die run-Methode).
 - Das Ende eines Threads kann mittels `uhr.interrupt()` angefordert werden. Im Thread kann ein `Thread.sleep()` eine interrupted-Exception auslösen. Innerhalb dieser muss das Flag erneut gesetzt werden mit `interrupt()` und mit `isinterrupted()` kann das Flag geprüft werden.
 

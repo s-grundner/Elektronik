@@ -9,7 +9,7 @@ created: 19th August 2023
 - Sortieren der ersten beiden Elemente des zu sortierenden Feldes in ein zweites, leeres Feld.
 - Einfügen des 3ten Elements in die ersten beiden Elemente an die richtige Stelle. Eventuell ist ein Verschieben notwendig.
 - Einfügen des 4ten Elements in die ersten drei Elemente an die richtige Stelle. Eventuell ist ein Verschieben notwendig.
-- ...
+- …
 - Ein einmaliger Durchlauf genügt für eine Sortierung
 
 Implementierung in C:

@@ -7,10 +7,13 @@ created: 30th March 2022
 ---
 
 # [Shockley Gleichung](https://de.wikipedia.org/wiki/Shockley-Gleichung)
+
 Die Shockley-Gleichung, benannt nach William B. Shockley, beschreibt die Strom-Spannungs-Kennlinie einer Halbleiterdiode.
 
 Sie lautet nach Wagner:
+
 ## Bei der [Diode](../hwe/Halbleiter/Diode.md):
+
 $I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
 
 | Bezeichnung | Beschreibung bei Transistor |
@@ -22,6 +25,7 @@ $I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
 |     $\eta$     |    Emissionskoeffizient     | 
 
 ## Beim Transistor:
+
 $I_{C} = I_{S}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
 
 | Bezeichnung | Beschreibung bei Transistor |

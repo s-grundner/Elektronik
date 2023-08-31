@@ -25,8 +25,8 @@ created: 2nd January 2023
 
 #### Helmholzsches Überlagerungsprinzip
 
-1) $U_{e1},U_{e2}=0, U_{a}1$
-2) $U_{e1}=0, U_{e2}, U_{a}2$
+1. $U_{e1},U_{e2}=0, U_{a}1$
+2. $U_{e1}=0, U_{e2}, U_{a}2$
 $$
 \begin{align*}
 U_{e}'&=U_{e1}\cdot \frac{R_{3}}{R_{3}+R_{4}}\\

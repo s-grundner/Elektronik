@@ -8,31 +8,31 @@ Wikipedia: <Eine Versionsverwaltung ist ein System das zur Erfassung von Aenderu
 
 In der Softwareentwicklung kann damit die chronologische Entwicklung einer Software verwaltet werden. Gerade in der Softwareentwicklung ist das wichtig, weil:
 
-- oftmals vorhergehende Softwarestände wiederhergestellt werden sollen, etwa um eine erfolglose Veränderung/Erweiterung rückgängig zu machen.
+- oftmals vorhergehende Softwarestände wiederhergestellt werden sollen, etwa um eine erfolglose Veränderung/Erweiterung rückgängig zu machen.  
   Häufig sollen Softwarestände wiederhergestellt werden die an Kunden ausgeliefert wurden, vielleicht um für die entsprechende Version Veränderungen oder Korrekturen einbauen zu können.
 - für parallele Entwicklungen (mit mehreren/vielen Softwareentwickler) werden definierte Softwarestände benötigt um aufgeteilt an verschiedenen Teilen arbeiten zu können und sie anschließend wieder zusammenführen zu können.
 
 Es gibt viele verschiedene Versionsverwaltungssysteme (SCM-Systeme). Zwei sehr grundlegende Unterschiede verschiedener SCM-Systeme:
 
-- Versionsgeschichte wird auf einem zentralen Server gespeichert. In einer lokalen Version wird lediglich eine Kopie eines einzigen Standes abgelegt. 
+- Versionsgeschichte wird auf einem zentralen Server gespeichert. In einer lokalen Version wird lediglich eine Kopie eines einzigen Standes abgelegt.  
   Git: Demgegenüber gibt es Systeme in denen auf jedem Client lokal eine komplette Versionsgeschichte abgelegt ist. Dabei gibt es den Server dann eigentlich nur für die Synchronisierung zwischen den verteilten Clients.
 - Speichern von Unterschieden zwischen zwei Versionen (spart Speicher). In Git: es sind für jede Version die kompletten Daten vorhanden.
 
-Sehr anschauliche Erklärung:  [https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-Grundlagen](https://git-scm.com/book/de/v1/Los-geht's-Git-Grundlagen) 
+Sehr anschauliche Erklärung: [https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-Grundlagen](https://git-scm.com/book/de/v1/Los-geht's-Git-Grundlagen) 
 
 ## Tools
 
-- Notwendig ist ein Server um das SCM zu hosten. Dieser kann selber aufgesetzt werden. Alternativ stehen viele unterschiedliche Hosting-Anbieter zur Verfügung:
-  https://git.wiki.kernel.org/index.php/GitHosting
+- Notwendig ist ein Server um das SCM zu hosten. Dieser kann selber aufgesetzt werden. Alternativ stehen viele unterschiedliche Hosting-Anbieter zur Verfügung:  
+  <https://git.wiki.kernel.org/index.php/GitHosting>
 
 - Ein Client. Um mit Git arbeiten zu können wird lokal ein Client benötigt, es gibt eine enorme Fülle von Tools, die einfachsten sind Konsolenbasiert, etwa Git-For-Windows:
 
-  https://git-scm.com/download/win
+  <https://git-scm.com/download/win>
 
   In sehr vielen Linux-Distributionen ist Git schon inkludiert, also keine Installation notwendig.
   
-  Auch mit graphischer Unterstützung sind viele Tools verfügbar:
-  https://git-scm.com/downloads/guis/
+  Auch mit graphischer Unterstützung sind viele Tools verfügbar:  
+  <https://git-scm.com/downloads/guis/>
 
 Da das Arbeiten mit Git aktuell sehr populär ist, gibt es eine Vielzahl an Dokumentation für die Arbeit im Internet (siehe Referenzen).
 
@@ -50,7 +50,7 @@ Für *GitLab* wird ein SSH-Schlüssel benötigt. Dafür muss, wenn ein für eine
 
 Beim Erstellen eines Projekts wird das Projekt auf *private* gesetzt. Dadurch wird das Projekt nicht automatisch für jedermann zugreifbar.
 
-Wird ein Projekt mit jemanden geteilt wird in den Projekteinstellungen unter Members der entsprechende Anwender für das aktuelle Projekt dazugefügt. Dabei kann der Anwender mittels Gitlab-User oder einer Mail-Adresse angeführt werden. Dabei wird auch die Rolle eingestellt: https://docs.gitlab.com/ee/user/permissions.html
+Wird ein Projekt mit jemanden geteilt wird in den Projekteinstellungen unter Members der entsprechende Anwender für das aktuelle Projekt dazugefügt. Dabei kann der Anwender mittels Gitlab-User oder einer Mail-Adresse angeführt werden. Dabei wird auch die Rolle eingestellt: <https://docs.gitlab.com/ee/user/permissions.html>
 
 Für Benutzer die Code auch verändern können sollen ist zumindest die Rolle *Reporter* notwendig (via Branch und Merge - Details siehe Link). Um direkt im *main*-Branch Änderungen tätigen zu können muss zumindest die Rolle *Maintainer* zugeteilt sein.
 
@@ -72,7 +72,7 @@ Ein **Remote Repo** ist eines, von welchem lokale Repos kopiert werden können, 
 
    ![Git-transport](assets/Git-transport.png)
 
-2. Im einfachsten (üblichen) Fall hat ein lokales Repo genau ein Remote-Repo. Das Remote-Repo ist über seine Adresse erreichbar. Um einfacher darauf zugegriffen werden kann, wird dem Remote-Repo ein kurzer Name gegeben. Für den erwähnten, einfachen, üblichen Fall wird dieses Repo **Origin** (Ursprung) genannt.
+2. Im einfachsten (üblichen) Fall hat ein lokales Repo genau ein Remote-Repo. Das Remote-Repo ist über seine Adresse erreichbar. Um einfacher darauf zugegriffen werden kann, wird dem Remote-Repo ein kurzer Name gegeben. Für den erwähnten, einfachen, üblichen Fall wird dieses Repo **Origin** (Ursprung) genannt.  
    Jeder Pfad der Versionierung hat eine Bezeichnung. Der Hauptpfad heißt **main**. Die Idee: die Entwicklung verläuft linear auf dem *main*-Pfad. Dieser Hauptpfad wird bei der Erstellung eines Repos automatisch erstellt. Wenn immer eine parallele Entwicklung (gleichzeitig unterschiedliche Features) gewünscht ist, wird ein **branch** (Zweig) mit einem gewählten Namen erzeugt. Um zwischen branches umzuschalten: `checkout myBranch` oder zurück `checkout main`
 
 ## Projekt Erstellen
@@ -109,11 +109,11 @@ Ein Projekt kann auf *GitLab* einfach (menügeführt) erstellt werden. Beim Eins
 
   mit `git remote add` wird das Remote-Repo (hier *myRepo*) angegeben (anschließend verfügbar als *origin*). *myGitUser* stellt hier den GitLab-Benutzer dar, der das Projekt erstellt hat (hat nichts mit den Daten oben zu tun). Ein Remote-Repo kann auf drei Arten angegeben werden:
 
-  - *https://gitlab.com/myGitUser/myRepo.git*	https-Protokoll, es wird nach den Verbindungsparametern gefragt
-  - *http://gitlab.com/myGitUser/myRepo.git*	http-Protokoll, es wird nach den Verbindungsparametern gefragt
+  - *<https://gitlab.com/myGitUser/myRepo.git*>	https-Protokoll, es wird nach den Verbindungsparametern gefragt
+  - *<http://gitlab.com/myGitUser/myRepo.git*>	http-Protokoll, es wird nach den Verbindungsparametern gefragt
   - *git@gitlab.com:myGitUser/myRepo.git*	*GitLab*-Protokoll, mittels ssh kann eine RSA-geschützte Verbindung aufgebaut werden
 
-  Mit `git add .` werden sämtliche im Verzeichnis befindliche Dateien in den *Index* *gestagt*, mit `git commit -m "..."` ins lokale Repo *commitet*. Diese Schritte sind natürlich nur dann notwendig, wenn vorhandene Dateien mitgenommen werden sollen.
+  Mit `git add .` werden sämtliche im Verzeichnis befindliche Dateien in den *Index* *gestagt*, mit `git commit -m "…"` ins lokale Repo *commitet*. Diese Schritte sind natürlich nur dann notwendig, wenn vorhandene Dateien mitgenommen werden sollen.
 
 - Alternativ kann ein schon vorhandenes Remote-Repo als Start für ein lokales Repo verwendet werden (gerade wenn Remote schon Dateien gehostet sind). Dazu wird lokal ein Verzeichnis erstellt und darin ausgeführt:
    ```
@@ -124,7 +124,7 @@ Ein Projekt kann auf *GitLab* einfach (menügeführt) erstellt werden. Beim Eins
 
 Mit `git add .` wird der aktuelle Inhalt des lokalen Arbeitsverzeichnisses ins Repo mitgenommen. Die oben (in der Abbildung) angeführte Option `-u` (update) kopiert geänderte Dateien und entfernt gelöschte Elemente. Allerdings fügt es dann nicht neue Elemente dazu. Um nicht sämtliche Dateien eines Verzeichnisses in ein Repo mitzunehmen können diese exkludiert werden (eine IDE generiert oft temporäre Arbeitsdateien):
 
-- nur *sinnvolle* Dateien ins Repo nehmen etwa mit`git add *.c`.  Temporäre Ablagen oder Dateien die während dem Compilieren erzeugt werden sollen nicht versioniert werden (log-Dateien ...).
+- nur *sinnvolle* Dateien ins Repo nehmen etwa mit`git add *.c`. Temporäre Ablagen oder Dateien die während dem Compilieren erzeugt werden sollen nicht versioniert werden (log-Dateien …).
 
 - *sinnlose* Dateien ausnehmen. Dazu muss im Pfad die Datei *.gitignore* erzeugt werden und mit den Ausnahmen eingetragen werden:
 
@@ -191,7 +191,7 @@ Mit jedem Commit wird eine neue Version erstellt und **main** um Eins weiter ges
 
 ![img](assets/git_ver01.png)
 
-Gleichzeitig zeigt ein zweiter Zeiger ebenfalls auf dieses letzte Element, der **Head**-Zeiger. Die in der Übersicht angeführte Parameter `-a`  inkludiert den Add-Schritt, fügt aber keine neu eingefügten Dateien ein.
+Gleichzeitig zeigt ein zweiter Zeiger ebenfalls auf dieses letzte Element, der **Head**-Zeiger. Die in der Übersicht angeführte Parameter `-a` inkludiert den Add-Schritt, fügt aber keine neu eingefügten Dateien ein.
 
 Wenn eine Nicht-Commitete (geadded) Version gelöscht werden soll:
 
@@ -311,7 +311,7 @@ git tag -a "V2.4" -m "Meine Version vom 2.3.2017" b75dc1c
 
 Damit wird der *Commit* b75dc1c getaggt (kann weggelassen werden wenn die aktuelle Version *getaggt* werden soll).
 
-Mit *-a* wird der Name des Tags angegeben.
+Mit *-a* wird der Name des Tags angegeben.  
 Mit *-m* wird eine zusätzliche (optionale) Beschreibung mit angeführt
 
 Tags werden mit einem normalen *Push* nicht automatisch mit Übertragen. Sie müssen manuell mit übertragen werden (wird als *Tag-Sharing* bezeichnet). 
@@ -320,7 +320,7 @@ Tags werden mit einem normalen *Push* nicht automatisch mit Übertragen. Sie mü
 git push origin "v2.4"
 ```
 
-Damit wird das Tag *v2.4*  vom Lokalen-Repo auf das Remote-Repo kopiert.
+Damit wird das Tag *v2.4* vom Lokalen-Repo auf das Remote-Repo kopiert.
 
 Zum Klonen einer expliziten Version eines Remote-Repos mit Hilfe des obigen *Tags* v2.4 in das aktuelle Verzeichnis (User: usr):
 
@@ -342,7 +342,7 @@ Das Erstellen eines eigenen Git-Servers ist relativ einfach, eine direkte Anleit
 
 Für Linux (inklusive Setup für SSH-Verbindung):
 
-https://www.linux.com/tutorials/how-run-your-own-git-server/
+<https://www.linux.com/tutorials/how-run-your-own-git-server/>
 
 ## Git im Unterricht
 
@@ -421,54 +421,54 @@ https://www.linux.com/tutorials/how-run-your-own-git-server/
 1. Erstellen eines Remote-Repos und eines dazu passenden lokalen Repos:
    - auf *GitLab*-Projekt erstellen (*myProject*)
    - lokal einen Ordner auswählen in welchem das lokale Repo liegen soll
-   - Für User myUser: `git clone https://gitlab.com/myUser/myProject.git ./` 
+   - Für User myUser: `git clone https://gitlab.com/myUser/myProject.git ./`  
     (mit SSH: `git@gitlab.com:myUser/myProject.git ./`)
    
 2. Lokale Veränderungen nach Remote übernehmen
    - als Beispiel wurde die Datei *myFile.txt* lokal bearbeitet
    - Datei vom Arbeitsverzeichnis in den Index *stagen*: `git add myFile.txt`
-   - Datei vom Index in den Head *commiten* (vor dem aller ersten Mal:`git config ...`) : `git commit -m "myFile verändert" myFile.txt`
+   - Datei vom Index in den Head *commiten* (vor dem aller ersten Mal:`git config …`) : `git commit -m "myFile verändert" myFile.txt`
    - Datei vom Head in das Remote-Repo übernehmen: `git push -u origin main`
    
 3. Remote Veränderung übernehmen, sofern lokal noch keine Veränderung seit dem letzten Push erfolgte:
 
   `git pull -u origin main`
 
-4. Branching: um einen Zweig zu erstellen mit dem Namen *newFeature*
+1. Branching: um einen Zweig zu erstellen mit dem Namen *newFeature*
 
    - `git checkout -b newFeature` (-b: nacheinander `git branch` und `git checkout`)
    - zum Rückwechseln auf den main-Pfad:`git checkout main`
    - Zum Branch löschen `git branch -d newFeature`
    - Zum Hochladen des lokal erstellten Branch: `git push origin newFeature`
 
-5. Merge
+2. Merge
 
    - `git merge <branch>` zum Zusammenführen des aktuellen Branches (zuletzt mit *Checkout* gewählt) mit \<branch\>. 
 
-6. Ältere Commit Version vom remote Repo auf lokalen Repo wiederherstellen (alles lokale wird Gelöscht/Überschrieben):
+3. Ältere Commit Version vom remote Repo auf lokalen Repo wiederherstellen (alles lokale wird Gelöscht/Überschrieben):
 
    - `git reset --hard c05c20be` die angeführte Nummer ist der SH des Commits. Am Remote-Repo bleibt alles gleich.
 
-7. Änderung einer lokalen Datei auf dem *Workspace* (ohne *stage* und *commit*) rückgängig machen (aus dem lokalen Repo):
+4. Änderung einer lokalen Datei auf dem *Workspace* (ohne *stage* und *commit*) rückgängig machen (aus dem lokalen Repo):
 
    ```
    git restore main.cpp
    ```
 
-8. Anzeigen von allen Branches:
+5. Anzeigen von allen Branches:
 
    ```
    git branch
    * main
    ```
 
-9. Ändern der *Commit*-Beschreibung nach dem *Commit*
+6. Ändern der *Commit*-Beschreibung nach dem *Commit*
 
    ```
    git commit --amend -m "New Message"
    ```
 
-10. Prüfen des Unterschieds lokales- und Remote-Repo:
+7. Prüfen des Unterschieds lokalesund Remote-Repo:
 
    ```
    > git fetch origin main
@@ -480,7 +480,7 @@ https://www.linux.com/tutorials/how-run-your-own-git-server/
 
    *fetch* holt *main* von *origin* als *FETCH_HEAD*.
 
-11. Umschalten auf den *FETCH_HEAD* Status:
+1. Umschalten auf den *FETCH_HEAD* Status:
 
     ``` 
     > git fetch origin main
@@ -496,14 +496,14 @@ https://www.linux.com/tutorials/how-run-your-own-git-server/
     git checkout main
     ```
 
-12. Ein Lokales Repo zurücksetzen (alle lokalen Änderungen gehen verloren):
+2. Ein Lokales Repo zurücksetzen (alle lokalen Änderungen gehen verloren):
 
     ```
     git fetch --all
     git reset --hard origin/main
     ```
 
-13. Wechsel zwischen unterschiedlicher Remote-Versionen:
+3. Wechsel zwischen unterschiedlicher Remote-Versionen:
 
     ```
     git checkout origin/main
@@ -518,21 +518,21 @@ https://www.linux.com/tutorials/how-run-your-own-git-server/
 
   [mittwald](https://www.mittwald.de/blog/webentwicklung-design/webentwicklung/versionsverwaltung-einfuhrung-in-git-teil-1)
 
-- Sehr anschauliche Einführung git:
-  [https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf](https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf)
+- Sehr anschauliche Einführung git:  
+  [https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf](https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf)  
   http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de/ch01.html
 
 - Ein erster Überblick / Cheatsheet:
 
   [rogerdudler](https://rogerdudler.github.io/git-guide/index.de.html)
 
-- Interaktive, sehr anschauliche Übersicht:
+- Interaktive, sehr anschauliche Übersicht:  
   [git-cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
 
-- Online Git-Doku:
+- Online Git-Doku:  
   [git-scm](https://git-scm.com/book/de/v1/Git-Grundlagen)
   
 - Eigener Git-Server (deutsche Anleitung):
   
-  [git-scm:Git-auf-dem-Server](https://git-scm.com/book/de/v1/Git-auf-dem-Server)
+  [git-scm:Git-auf-dem-Server](https://git-scm.com/book/de/v1/Git-auf-dem-Server)  
   [nullpointer](http://www.nullpointer.at/2011/10/15/howto-der-eigene-git-server-mit-gitosis/)

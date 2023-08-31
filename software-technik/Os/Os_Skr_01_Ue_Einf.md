@@ -83,11 +83,11 @@ ERFOLGREICH: Ein Beendigungssignal wurde an den Prozess mit der PID 15136 geschi
 
 Von den Microsoft-Systeminternals:
 
-https://download.sysinternals.com/files/ProcessMonitor.zip
+<https://download.sysinternals.com/files/ProcessMonitor.zip>
 
 Beschreibung:
 
- https://www.heise.de/select/ct/2016/20/1475141035373311 bzw.  https://docs.microsoft.com/de-at/sysinternals/downloads/procmon?redirectedfrom=MSDN 
+ <https://www.heise.de/select/ct/2016/20/1475141035373311> bzw. <https://docs.microsoft.com/de-at/sysinternals/downloads/procmon?redirectedfrom=MSDN> 
 
 Mit diesem Tool kann gezeigt werden wie ein Thread in einem Prozess gestartet oder beendet wird (zusätzlich zu jeder Menge Registry-Zugriffen). Dabei ist es sinnvoll einen geeigneten Filter zu konfigurieren, ansonsten ist die Datenmenge enorm groß.
 

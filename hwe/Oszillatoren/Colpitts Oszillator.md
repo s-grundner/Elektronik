@@ -7,24 +7,27 @@ created: 22nd November 2022
 ---
 
 # Colpitts Oszillator
+
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
 | <mark style="background: #FFB86CA6;">Colpitts:</mark> [kapazitiv](../Kapazität.md) | <mark style="background: #FFB86CA6;">Hartley:</mark> [induktiv](../Induktivitäten.md) | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
 
-Häufigste [Kombination](../../mathe/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)
+Häufigste [Kombination](../../mathe/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
 - einfache Kapazitäten
-- nur eine [Induktivität](../Induktivitäten.md)
+- nur eine [Induktivität](../Induktivitäten.md)  
 Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 
 $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ## Schaltung
+
 ![colp-sch](../assets/colp-sch.png)
 
 ## Funktionsweise
+
 - [Emitterschaltung](../Halbleiter/Kollektorfolger.md): $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
 - kapazitive 3-Punkt Schaltung bringt weitere $180\degree\rightarrow\sum=360\degree$
 - [Barkhausen Kriterium](Barkhausen%20Kriterium.md) ist erfüllt
@@ -40,6 +43,6 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ### Kapazitive 3-Punktschaltung
 
-Ein Teil der [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
-![500](../assets/Pasted%20image%2020221128104351.png)
+Ein Teil der [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.  
+![500](../assets/Pasted%20image%2020221128104351.png)  
 ![Pasted image 20221128104421](../assets/Pasted%20image%2020221128104421.png)

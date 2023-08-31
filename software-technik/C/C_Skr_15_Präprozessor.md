@@ -14,7 +14,7 @@ Präprozessordirektiven werden nicht vom Compiler übersetzt. Sie werden vor der
 
 - Einfügen von Dateien - `#include`
 
-  Mit einer `#include` Anweisung wird die folgende Datei an dieser Stelle einkopiert. Wird die Datei in spitzen Klammern  `<filename>` angeführt, dann wird die Datei im Bibliothekspfad gesucht. Wird die Datei in doppelten Anführungsstrichen `"filename"` angeführt, dann wird zuerst im Pfad der aktuellen Datei gesucht.
+  Mit einer `#include` Anweisung wird die folgende Datei an dieser Stelle einkopiert. Wird die Datei in spitzen Klammern `<filename>` angeführt, dann wird die Datei im Bibliothekspfad gesucht. Wird die Datei in doppelten Anführungsstrichen `"filename"` angeführt, dann wird zuerst im Pfad der aktuellen Datei gesucht.
 
 - Bedingte Übersetzung `#if`, `#ifdef`, `#ifndef` beziehungsweise `#elif`, `#else` und `#endif`
 
@@ -46,11 +46,11 @@ int main() {
 }
 ```
 
-Hier wird **int** durch **unsigned char** ersetzt (Makroname  vom ersten Buchstaben bis zum Leerzeichen). Der Kompiler gibt keinen Fehler aus. Code kann auf diese Weise sehr schnell unlesbar werden, daher werden Makros gesperrt groß geschrieben.
+Hier wird **int** durch **unsigned char** ersetzt (Makroname vom ersten Buchstaben bis zum Leerzeichen). Der Kompiler gibt keinen Fehler aus. Code kann auf diese Weise sehr schnell unlesbar werden, daher werden Makros gesperrt groß geschrieben.
 
 ## Referenz
 
-- Sehr gut: https://www.tutorialspoint.com/cprogramming/c_preprocessors.htm
+- Sehr gut: <https://www.tutorialspoint.com/cprogramming/c_preprocessors.htm>
 
 ## Fragen
 

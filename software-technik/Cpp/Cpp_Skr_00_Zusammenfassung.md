@@ -30,7 +30,7 @@ Solle es notwendig sein den exakten Wert auf dem System zu kennen, kann das mitt
 
 ## Zeiger (606)
 
-In gibt es einen eigenen Datentyp um sich Adressen im Speicher zu merken. Den Speicher kann man sich als große Menge von Speicher-Bytes vorstellen. Jedes Byte hat eine eigene Adresse mittels welcher auf dessen Wert zugegriffen werden kann. Was in dem Byte gespeichert wird  (Zeichen, Fließkomma, Ganzzahl ...) ist dabei nicht wichtig. Daher ist eine Adress-Variable auch immer gleich groß, unabhängig davon auf welche Speicherzelle sie verweist. Da eine Adresse auf eine Stelle im Speicher verweist wird sie üblicherweise als Zeiger/Pointer bezeichnet.
+In gibt es einen eigenen Datentyp um sich Adressen im Speicher zu merken. Den Speicher kann man sich als große Menge von Speicher-Bytes vorstellen. Jedes Byte hat eine eigene Adresse mittels welcher auf dessen Wert zugegriffen werden kann. Was in dem Byte gespeichert wird (Zeichen, Fließkomma, Ganzzahl …) ist dabei nicht wichtig. Daher ist eine Adress-Variable auch immer gleich groß, unabhängig davon auf welche Speicherzelle sie verweist. Da eine Adresse auf eine Stelle im Speicher verweist wird sie üblicherweise als Zeiger/Pointer bezeichnet.
 
 **1. Definition:** Um eine Adress-Variable zu definieren:
 
@@ -236,7 +236,7 @@ Daher kann aber in ein 10 großes Array nur 9 nutzbare String-Zeichen eingefüll
 
 ### Ausgabe
 
-1. **printf**: Um Ausgaben in die Konsole auszuführen gibt es die klassische C-Variante **print f**ormated (https://de.wikipedia.org/wiki/Printf):
+1. **printf**: Um Ausgaben in die Konsole auszuführen gibt es die klassische C-Variante **print f**ormated (<https://de.wikipedia.org/wiki/Printf):>
 
    ```c++
    printf("Hallo Welt\n");
@@ -246,10 +246,10 @@ Daher kann aber in ein 10 großes Array nur 9 nutzbare String-Zeichen eingefüll
 
    - Der erste Parameter dieser Funktion ist ein String der Platzhaltern beinhalten kann. Platzhalter beginnen immer mit %. Bei diesen Platzhaltern wird zusätzlich mit angegeben was an dieser Stelle ausgegeben wird:
    
-     ​	%i ... Integerwert
-     ​	%x ... Ganzzahl als Hexadezimal
-     ​	%f ... Fließkommawert
-     ​	%s ... c-String
+     ​	%i … Integerwert  
+     ​	%x … Ganzzahl als Hexadezimal  
+     ​	%f … Fließkommawert  
+     ​	%s … c-String
    
    - Nach diesem String folgen die Parameter die anstatt der Platzhalter eingefüllt werden, dabei wird der erste Parameter an die Stelle des ersten Platzhalters gesetzt, der Zweite anstelle des zweiten Platzhalters usf.
    

@@ -8,7 +8,7 @@ created: 29th November 2022
 
 ## Allgemein
 
-1. Was ist größte wesentliche Unterschied zwischen Entwicklung mittels agiler und klassischer (V-Modell ...) Methoden?
+1. Was ist größte wesentliche Unterschied zwischen Entwicklung mittels agiler und klassischer (V-Modell …) Methoden?
 
 
 
@@ -67,18 +67,18 @@ created: 29th November 2022
 
 ## SCRUM Training Series (by COLLABNET)
 
-1. Introduction to Scrum
+1. Introduction to Scrum  
    <https://www.youtube.com/watch?v=D8vT7G0WATM>
-2. Backlog Refinement Meeting
+2. Backlog Refinement Meeting  
    <https://www.youtube.com/watch?v=b_WeHcZcx1w>
-3. Sprint Planing Meeting
+3. Sprint Planing Meeting  
    <https://www.youtube.com/watch?v=wPvG9NZNUa4>
-4. Daily Scrum Meeting
+4. Daily Scrum Meeting  
    <https://www.youtube.com/watch?v=cUOoWxi_NB0>
-5. Sprint Review Meeting
+5. Sprint Review Meeting  
    <https://www.youtube.com/watch?v=f8JVSfICRew>
 
 ## AUFGABE: Agile Methoden Übersicht
 
-1. Studieren Sie: https://tree.taiga.io oder http://www.kanbanflow.com
+1. Studieren Sie: <https://tree.taiga.io> oder <http://www.kanbanflow.com>
 2. Verwenden Sie eines der obigen Systeme zu Ihrer DA/Projektverwaltung

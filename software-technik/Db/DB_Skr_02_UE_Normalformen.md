@@ -12,7 +12,7 @@ In welcher Normalform befindet sich die folgende Tabelle (Begründung)? Bringen 
 - Personen können an mehreren Projekten arbeiten
 - Mehrere Personen können am gleichen Projekt arbeiten
 
-(Beispiel von https://www.youtube.com/watch?v=RfjMGFPiyps)
+(Beispiel von <https://www.youtube.com/watch?v=RfjMGFPiyps)>
 
 ## Fahrradgeschäft
 
@@ -28,7 +28,7 @@ Fragen die vorab überlegt werden müssen (Expertenwissen)
 - Ist eine Versicherung immer an der gleichen Adresse?
 - Können an einem Tag mehrere Reparaturen am gleichen Fahrrad, für den gleichen Kunden stattfinden?
 
-> [!success] Lösung
+> [!success] Lösung  
 > ![Pasted image 20221123110050](Pasted%20image%2020221123110050.png)
 
 ## CD-Lieder
@@ -55,8 +55,8 @@ Führen Sie die Tabelle nacheinander in die 1te, 2te und 3te Normalform über
 > 
 > in die 2.NF durch funktional unabhängige Attribute:
 > 
-> - *Album/Interpret/Gründungsjahr* hängt nur von einem Teil des Primärschlüssels ab, von der *CdId*:  **CdId → (Album, Interpret, Gründungsjahr)**
-> - der *Titel* hängt von beiden Schlüsselteilen ab, mit einem alleine kann ein Titel nicht bestimmt werden:  **CdId, Track → Titel**
+> - *Album/Interpret/Gründungsjahr* hängt nur von einem Teil des Primärschlüssels ab, von der *CdId*: **CdId → (Album, Interpret, Gründungsjahr)**
+> - der *Titel* hängt von beiden Schlüsselteilen ab, mit einem alleine kann ein Titel nicht bestimmt werden: **CdId, Track → Titel**
 > 
 > ![CD-Lieder](assets/NF_CD_04.png)
 > 
@@ -67,12 +67,11 @@ Führen Sie die Tabelle nacheinander in die 1te, 2te und 3te Normalform über
 > - In der *Cd*-Tabelle zeigt sich: das *Gründungsjahr* der *Interpreten* ist nicht direkt von der *Cd*, sondern nur vom *Interpreten* abhängig (transitiv), das müsste noch in eine eigene Tabelle verschoben werden:
 >   
 >   - Cd: **CdId → (Album, InterpretenId)**
->   - Künstler:  **InterpretenId → (Interpret, Gründungsjahr)**
+>   - Künstler: **InterpretenId → (Interpret, Gründungsjahr)**
 >   
 >   Um den Interpreten nicht in beiden Tabellen gleichermaßen abzulegen, wird der *Interpret* in die Künstlertabelle verschoben
 > 
 > ![CD-Lieder](assets/NF_CD_03.png)
-
 
 ## Kurse
 
@@ -96,32 +95,32 @@ Für eine Autovermietung wurde ein ER-Diagramm erstellt und von einem Mitarbeite
 
 In einer Bibliothek werden folgende Daten erfasst:
 
-- Bücher:
-  Titel:  Fräulein Smillas Gespür für Schnee
-  Autor: Peter Høeg
-  Verlag: Carl Hanser
-  Ort: München
-  Jahr 1994
-  ISBN 3-499-13599-x
-  Preis 19,90
-  Exemplare 3
-  Zustand gut, sehr gut, gut
+- Bücher:  
+  Titel: Fräulein Smillas Gespür für Schnee  
+  Autor: Peter Høeg  
+  Verlag: Carl Hanser  
+  Ort: München  
+  Jahr 1994  
+  ISBN 3-499-13599-x  
+  Preis 19,90  
+  Exemplare 3  
+  Zustand gut, sehr gut, gut  
   Standort Zimmer 3, Regal 5, Fach 7,7 und 8, Platz 3, 15,12
 
-- Autoren:
-  Name Høeg
-  Vorname Peter
-  Land Dänemark
+- Autoren:  
+  Name Høeg  
+  Vorname Peter  
+  Land Dänemark  
   andere Buchtitel „Der Plan von der Abschaffung des Dunkels“
 
-- Entleiher:
-  Name Meier
-  Vorname Peter
-  Geburtsdatum 24.4.1966
-  Straße Tegtmüllerweg 9
-  PLZ 80089
-  Ort München
-  Telefon (089) 383 245 12
+- Entleiher:  
+  Name Meier  
+  Vorname Peter  
+  Geburtsdatum 24.4.1966  
+  Straße Tegtmüllerweg 9  
+  PLZ 80089  
+  Ort München  
+  Telefon (089) 383 245 12  
   Sperre keine
 
 Überlegen Sie sich wie eine Datenbank in einer hohen Normalform organisiert werden kann.
@@ -145,7 +144,7 @@ Fragen
 
 - Was versteht man unter funktionaler Abhängigkeit
 
-- Zuordnung der Begriffe Konsistenz/Redundanz den Beschreibungen "in verschiedenen Tabellen wird jeweils *ZUNAME*, *VORNAME*, *ADR*, ... abgelegt" / "die *Postleitzahl* bestimmt automatisch auch die Attribute *Bundesland* und *Ort*"
+- Zuordnung der Begriffe Konsistenz/Redundanz den Beschreibungen "in verschiedenen Tabellen wird jeweils *ZUNAME*, *VORNAME*, *ADR*, … abgelegt" / "die *Postleitzahl* bestimmt automatisch auch die Attribute *Bundesland* und *Ort*"
 
 - Was ist der Unterschied zwischen 1. Normalform, 2. Normalform und 3. Normalform
 

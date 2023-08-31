@@ -20,5 +20,4 @@ $$
 J=\frac{1}{2m}\left[\sum\limits_{i=1}^{m}(h_{\theta}(x^{(i)}) \right]
 $$
 
-
 # Tags

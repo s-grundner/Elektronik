@@ -22,7 +22,7 @@ Beispiel: Element Nummer 7 ist zu finden an Position 7: arr[7]
 
 Vor der Erstellung einer Hash-Tabelle muss ein Teil eines Datenobjekts (wenn nicht nur reine Nummern abgelegt werden) als **Schlüssel** definiert werden. 
 
-Zum Abspeichern steht ein $m$ Plätze großer Speicherbereich (**Behälter**) zur Verfügung (Index 0, 1, ... , m-1 -> **Hashadresse**).
+Zum Abspeichern steht ein $m$ Plätze großer Speicherbereich (**Behälter**) zur Verfügung (Index 0, 1, … , m-1 -> **Hashadresse**).
 
 Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $m$ Speicherplätze ab.
 
@@ -34,17 +34,17 @@ Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $
 
 ### Beispiel
 
-- Bankkunden sollen in einer Hashtabelle gespeichert werden. Ein Datenobjekt besteht aus Name, Adresse, Kontonummer, ...
+- Bankkunden sollen in einer Hashtabelle gespeichert werden. Ein Datenobjekt besteht aus Name, Adresse, Kontonummer, …
 - Als Schlüssel wird die Kontonummer ktoNr (Teil des Datenobjekts) gewählt
 - Es stehen uns 1000 Speicherplätze (=m) zur Verfügung
 
-Eine Hashfunktion muss sämtliche möglichen Kontonummern auf die Zahlen 0 ... 999 abbilden.
+Eine Hashfunktion muss sämtliche möglichen Kontonummern auf die Zahlen 0 … 999 abbilden.
 
-Eine einfache Hashfunktion (Modulo-Operation): *h(ktoNr) = ktoNr  %  m​*
+Eine einfache Hashfunktion (Modulo-Operation): *h(ktoNr) = ktoNr %  m​*
 
 Problem: Es kann mehr Kontonummern als Speicherplätze geben.
 
-###  Gute Hashfunktion
+### Gute Hashfunktion
 
 - möglichst wenige Objekte werden auf eine Adresse abgebildet. Werden mehre Objekte auf eine Hashadresse abgebildet, spricht man von einer **Kollision**.
 - eine Hashfunktion wird als **perfekt** für eine Menge bezeichnet wenn sie ohne Kollision abbildet.
@@ -60,7 +60,7 @@ Ist die Hashfunktion nicht perfekt dann muss es möglich sein mit einer Hashadre
 Mögliche Probleme einer Hashtabelle:
 
 - wenige Objekte: schlechte Speicherausnutzung
-- viele Objekte: lange Suchdauer (aufgrund Verkettung, Überläufer ...)
+- viele Objekte: lange Suchdauer (aufgrund Verkettung, Überläufer …)
 
 Verbesserung durch Reorganisation: Tabellengröße dynamisch, Hashfunktion anpassen, Umspeichern von Elementen. Am einfachsten wenn eine Mehrfachbelegung auftritt eine neue, größere Tabelle erzeugen und die Daten umkopieren.
 
@@ -147,11 +147,10 @@ if (n != null) System.out.println("two = " + n);
 
 ## Referenzen
 
-- Einfache Einführung (für Java)
+- Einfache Einführung (für Java)  
   [http://www.codeadventurer.de/?p=2091](http://www.codeadventurer.de/?p=2091)
-- Gutes einführendes C-Beispiel
+- Gutes einführendes C-Beispiel  
   [https://www.tutorialspoint.com/data_structures_algorithms/hash_table_program_in_c.htm](https://www.tutorialspoint.com/data_structures_algorithms/hash_table_program_in_c.htm)
-
 
 ## Fragen
 

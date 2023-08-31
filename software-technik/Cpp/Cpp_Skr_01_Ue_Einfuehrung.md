@@ -20,7 +20,7 @@ Geben Sie eine Zahl ein bis zu welcher ausgegeben werden soll: 3
 ## Zufalls-Array (602)
 
 - Erstellen Sie ein 2-dimensionales int-Array, Bsp: `int arr[3][5];`
-- Die Größe der Dimensionen soll durch ein Makro gegeben sein, Bsp: `#define LENX 3`
+- Die Größe der Dimensionen soll durch ein Makro gegeben sein, Bsp: `#define LENX 3`  
   (alternativ kann die Größe eines Arrays mit Hilfe von `sizeof(arr)` bestimmt werden - das liefert die Größe des Arrays in Anzahl Bytes (!)).
 
 - Befüllen Sie das Feld mit Zufallszahlen
@@ -30,7 +30,7 @@ Geben Sie eine Zahl ein bis zu welcher ausgegeben werden soll: 3
   int zufall = rand() % 77;		// ganzzahlige Zufallszahl zwischen 0 und 77
   ```
 
-- Geben Sie den Inhalt des Feldes aus und außerdem den größten und kleinsten Wert.
+- Geben Sie den Inhalt des Feldes aus und außerdem den größten und kleinsten Wert.  
   Beispielhafte Ausgabe:
 
   ```
@@ -45,7 +45,7 @@ Geben Sie eine Zahl ein bis zu welcher ausgegeben werden soll: 3
 ## Funktionen (602)
 
 - Erweitern Sie das Programm "Zufalls-Array (602)", sodass jede Zahl im Array nur einmal vorkommt.
-- Erstellen Sie dafür eine Funktion `bool avail(...)` die Prüft ob der Zufallswert schon vorhanden ist
+- Erstellen Sie dafür eine Funktion `bool avail(…)` die Prüft ob der Zufallswert schon vorhanden ist
 - Nachdem die Implementierung funktioniert, versuchen Sie die Funktion ist in einer eigenen Datei (avail.cpp und avail.h) zu erstellen.
 
 ## Dateizugriff (603)

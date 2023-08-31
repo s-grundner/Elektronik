@@ -46,23 +46,23 @@ created: 29th November 2022
 
  ​
 
-11. Überlade die add-Methode um beliebig viele [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.
+1. Überlade die add-Methode um beliebig viele [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.
 
     ​
 
-12. Eingabe von Zahlen unterschiedlicher Zahlensysteme. Estelle Methoden zum Einlesen von Zahlen unterschiedlicher Zahlensysteme: readBinNum(), readDecNum(), readHexNum(). Die Methoden sollen eine Eingabe solange wiederholen, bis gültige Werte eingegeben wurden.
+2. Eingabe von Zahlen unterschiedlicher Zahlensysteme. Estelle Methoden zum Einlesen von Zahlen unterschiedlicher Zahlensysteme: readBinNum(), readDecNum(), readHexNum(). Die Methoden sollen eine Eingabe solange wiederholen, bis gültige Werte eingegeben wurden.
 
    ​
 
-13. Umrechnung von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methoden convBin2Dec(), convBin2Hex(), convDec2Bin(), convDec2Hex(), convHex2Bin(), convHex2Dec().
+1. Umrechnung von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methoden convBin2Dec(), convBin2Hex(), convDec2Bin(), convDec2Hex(), convHex2Bin(), convHex2Dec().
 
     ​
 
-14. Ausgabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methode print() um binäre, dezimale und hexadezimale Zahlen auszugeben.
+2. Ausgabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methode print() um binäre, dezimale und hexadezimale Zahlen auszugeben.
 
     ​
 
-15. Definieren Sie für folgende Aufgaben die Methoden:
+3. Definieren Sie für folgende Aufgaben die Methoden:
 
     Berechnung Notendurchschnitt von 3 Noten
 
@@ -82,41 +82,41 @@ created: 29th November 2022
 
     Berechnung des BodyMassIndex
 
-    Berechnung von Lottozahlen (6 aus 45)
+    Berechnung von Lottozahlen (6 aus 45)  
     ​
 
-16. 6 aus 45. Lese einen Tipp ein (readTipp() ). Berechne 6 Zufallslottozahlen (getRandNumArr() ). Sortiere das Tipp-Feld und das Feld mit den Zufallszahlen (sortArr() ). Vergleiche die beiden Felder und ermittle wieviele Werte im Tipp-Feld und im Zufallszahlen-Feld gleich sind (compArr() ). Erweiterung: wiederhole die Ziehungen bis ein Lotto-Sechser getippt wird. Berechne wie lang man Lotto spielen muss damit das passiert (2 Ziehungen pro Woche).
+4. 6 aus 45. Lese einen Tipp ein (readTipp() ). Berechne 6 Zufallslottozahlen (getRandNumArr() ). Sortiere das Tipp-Feld und das Feld mit den Zufallszahlen (sortArr() ). Vergleiche die beiden Felder und ermittle wieviele Werte im Tipp-Feld und im Zufallszahlen-Feld gleich sind (compArr() ). Erweiterung: wiederhole die Ziehungen bis ein Lotto-Sechser getippt wird. Berechne wie lang man Lotto spielen muss damit das passiert (2 Ziehungen pro Woche).
 
     ​
 
-17. Umrechnung römische Zahlen in dezimale Zahlen in klassischer Variante und Rückumrechnung.
-   1   = I
-    5   = V
-    10  = X
-    50  = L
-    100 = C
-    500 = D
-    1000 = M
-    in der klassischen Variante bedeutet 4 -> IIII. Kleinere Ziffern dürfen nie links von größeren Ziffern stehen. Die Vielfachen von 5 können maximal einmal vorkommen.
+5. Umrechnung römische Zahlen in dezimale Zahlen in klassischer Variante und Rückumrechnung.  
+   1   = I  
+    5   = V  
+    10  = X  
+    50  = L  
+    100 = C  
+    500 = D  
+    1000 = M  
+    in der klassischen Variante bedeutet 4 -> IIII. Kleinere Ziffern dürfen nie links von größeren Ziffern stehen. Die Vielfachen von 5 können maximal einmal vorkommen.  
     ​
 
-18. Umrechnung römische Zahlen in dezimale Zahlen in moderner Variante und Rückumrechnung.
-    1   = I
-    5   = V
-    10  = X
-    50  = L
-    100 = C
-    500 = D
-    1000 = M
+6. Umrechnung römische Zahlen in dezimale Zahlen in moderner Variante und Rückumrechnung.  
+    1   = I  
+    5   = V  
+    10  = X  
+    50  = L  
+    100 = C  
+    500 = D  
+    1000 = M  
     In der modernen Variante gilt: wenn eine kleinere Zahl links von einer größeren steht, dann ist sie abzuziehen: 4 -> IV. Erlaubt ist das nur für eine einzelne. Beispiele:
 
-    **klassisch       modern     arabisch**
-    IIII                     IV                 (4)
-    XXXX                 XL                (40)
-    LXXXX               XC                (90)
-    LXXXXVIIII        XCIX             (99)
+    **klassisch modern arabisch**  
+    IIII IV                 (4)  
+    XXXX XL                (40)  
+    LXXXX XC                (90)  
+    LXXXXVIIII XCIX             (99)
 
-### Beispiele
+## Beispiele
 
 1. Erstelle je eine Methode zur Berechnung des Umfangs eines Kreises.
 
@@ -258,7 +258,7 @@ created: 29th November 2022
    System.out.println(findeWort("jodiwodi", "Di"));		// True
    ```
 
-8. Erstelle die Methoden für die Addition / Subtraktion / Multiplikation / Division von komplexen Zahlen. Eine [Komplexe Zahl](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist ein Zahlenbündel (Real-/Imag.-Teil) und läßt sich gut in einem Feld mit zwei Elementen ablegen. Teste die Methoden für die komplexen Zahlen *z1 = (1 + j)* , *z2 = (1 + j)* und der Rechnung: *z1 - z2 * (z1 + z1/z2)*.
+8. Erstelle die Methoden für die Addition / Subtraktion / Multiplikation / Division von komplexen Zahlen. Eine [Komplexe Zahl](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist ein Zahlenbündel (Real-/Imag.-Teil) und läßt sich gut in einem Feld mit zwei Elementen ablegen. Teste die Methoden für die komplexen Zahlen *z1 = (1 + j)* , *z2 = (1 + j)* und der Rechnung: *z1 - z2 * (z1 + z1/z2)*.  
    L:
 
    ```java
@@ -273,7 +273,7 @@ created: 29th November 2022
    ...  
    ```
 
-9. Erweitere das letzte Beispiel mit den Methoden getReal() und getImg() zur Ermittlung des Real-/Imaginärteils einer Komplexen Zahl.
+9. Erweitere das letzte Beispiel mit den Methoden getReal() und getImg() zur Ermittlung des Real-/Imaginärteils einer Komplexen Zahl.  
    L:
 
    ```java
@@ -294,7 +294,7 @@ created: 29th November 2022
  ...
  ```
 
-11. Überlade die add-Methode um beliebig viele [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.
+1. Überlade die add-Methode um beliebig viele [komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) miteinander addieren zu können.  
     L:
 
     ```java
@@ -308,19 +308,19 @@ created: 29th November 2022
     }
     ```
 
-    In diesem Beispiel wird zahl2 zu einem 2-dimensionalen Feld. Die 1te Dimension repräsentiert die Nummer der komplexen Zahl. Die 2te Dimension gibt den Real-/Imaginärteil an.
+    In diesem Beispiel wird zahl2 zu einem 2-dimensionalen Feld. Die 1te Dimension repräsentiert die Nummer der komplexen Zahl. Die 2te Dimension gibt den Real-/Imaginärteil an.  
     ​
 
-12. Eingabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle Methoden zum Einlesen von Zahlen unterschiedlicher Zahlensysteme: readBinNum(), readDecNum(), readHexNum(). Die Methoden sollen eine Eingabe solange wiederholen, bis gültige Werte eingegeben wurden.
+2. Eingabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle Methoden zum Einlesen von Zahlen unterschiedlicher Zahlensysteme: readBinNum(), readDecNum(), readHexNum(). Die Methoden sollen eine Eingabe solange wiederholen, bis gültige Werte eingegeben wurden.  
     ​
 
-13. Umrechnung von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methoden convBin2Dec(), convBin2Hex(), convDec2Bin(), convDec2Hex(), convHex2Bin(), convHex2Dec().
+3. Umrechnung von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methoden convBin2Dec(), convBin2Hex(), convDec2Bin(), convDec2Hex(), convHex2Bin(), convHex2Dec().  
     ​
 
-14. Ausgabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methode print() um binäre, dezimale und hexadezimale Zahlen auszugeben.
+4. Ausgabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methode print() um binäre, dezimale und hexadezimale Zahlen auszugeben.  
     ​
 
-15. Definieren Sie für folgende Aufgaben die Methoden:
+5. Definieren Sie für folgende Aufgaben die Methoden:
 
     Berechnung Notendurchschnitt von 3 Noten
 
@@ -340,36 +340,36 @@ created: 29th November 2022
 
     Berechnung des BodyMassIndex
 
-    Berechnung von Lottozahlen (6 aus 45)
+    Berechnung von Lottozahlen (6 aus 45)  
     ​
 
-16. 6 aus 45. Lese einen Tipp ein (readTipp() ). Berechne 6 Zufallslottozahlen (getRandNumArr() ). Sortiere das Tipp-Feld und das Feld mit den Zufallszahlen (sortArr() ). Vergleiche die beiden Felder und ermittle wieviele Werte im Tipp-Feld und im Zufallszahlen-Feld gleich sind (compArr() ). Erweiterung: wiederhole die Ziehungen bis ein Lotto-Sechser getippt wird. Berechne wie lang man Lotto spielen muss damit das passiert (2 Ziehungen pro Woche).
+6. 6 aus 45. Lese einen Tipp ein (readTipp() ). Berechne 6 Zufallslottozahlen (getRandNumArr() ). Sortiere das Tipp-Feld und das Feld mit den Zufallszahlen (sortArr() ). Vergleiche die beiden Felder und ermittle wieviele Werte im Tipp-Feld und im Zufallszahlen-Feld gleich sind (compArr() ). Erweiterung: wiederhole die Ziehungen bis ein Lotto-Sechser getippt wird. Berechne wie lang man Lotto spielen muss damit das passiert (2 Ziehungen pro Woche).
 
     ​
 
-17. Umrechnung römische Zahlen in dezimale Zahlen in klassischer Variante und Rückumrechnung.
-    1   = I
-     5   = V
-     10  = X
-     50  = L
-     100 = C
-     500 = D
-     1000 = M
-     in der klassischen Variante bedeutet 4 -> IIII. Kleinere Ziffern dürfen nie links von größeren Ziffern stehen. Die Vielfachen von 5 können maximal einmal vorkommen.
+7. Umrechnung römische Zahlen in dezimale Zahlen in klassischer Variante und Rückumrechnung.  
+    1   = I  
+     5   = V  
+     10  = X  
+     50  = L  
+     100 = C  
+     500 = D  
+     1000 = M  
+     in der klassischen Variante bedeutet 4 -> IIII. Kleinere Ziffern dürfen nie links von größeren Ziffern stehen. Die Vielfachen von 5 können maximal einmal vorkommen.  
      ​
 
-18. Umrechnung römische Zahlen in dezimale Zahlen in moderner Variante und Rückumrechnung.
-    1   = I
-    5   = V
-    10  = X
-    50  = L
-    100 = C
-    500 = D
-    1000 = M
+8. Umrechnung römische Zahlen in dezimale Zahlen in moderner Variante und Rückumrechnung.  
+    1   = I  
+    5   = V  
+    10  = X  
+    50  = L  
+    100 = C  
+    500 = D  
+    1000 = M  
     In der modernen Variante gilt: wenn eine kleinere Zahl links von einer größeren steht, dann ist sie abzuziehen: 4 -> IV. Erlaubt ist das nur für eine einzelne. Beispiele:
 
-    **klassisch       modern     arabisch**
-    IIII                     IV                 (4)
-    XXXX                 XL                (40)
-    LXXXX               XC                (90)
-    LXXXXVIIII        XCIX             (99)
+    **klassisch modern arabisch**  
+    IIII IV                 (4)  
+    XXXX XL                (40)  
+    LXXXX XC                (90)  
+    LXXXXVIIII XCIX             (99)

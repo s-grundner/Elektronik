@@ -7,4 +7,5 @@ subject: ["<% tp.system.suggester(
 source: ["<% tp.system.prompt("Lehrperson(en)", "") %>"]
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ---
+
 # Map of Content - <%tp.file.title.split ("{MOC} ")[1]%>

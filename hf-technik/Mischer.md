@@ -8,6 +8,4 @@ created: 23rd November 2022
 
 # Mischer
 
-
-
 # Quellen

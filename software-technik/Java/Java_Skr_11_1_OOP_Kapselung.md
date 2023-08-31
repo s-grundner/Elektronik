@@ -18,7 +18,7 @@ In der OOP können besondere Datentypen definiert werden - die **Klassen**. Die 
 
 Klassen sind als Datentypen zu verstehen.
 
-- eine Klasse kann mehr als nur ein einziges Datum (Zahl, Zeichenkette, Feld ...) speichern. Ein *int*-Datentyp hingegen kann nur eine Zahl speichern.
+- eine Klasse kann mehr als nur ein einziges Datum (Zahl, Zeichenkette, Feld …) speichern. Ein *int*-Datentyp hingegen kann nur eine Zahl speichern.
 - eine Klasse kann gleichzeitig Methoden mit diesem Datentyp anbieten.
 
 Definition einer eigenen, vollständig leeren Klasse **Cls**:
@@ -88,7 +88,7 @@ a.printNum();	// Ausführen der Methode printNum des Objekts auf das a zeigt.
 Konstruktor
 ------------
 
-Der Konstruktor ist eine spezielle Methode die automatisch bei der Erzeugung eines Objekts ausgeführt wird (also während dem new-Aufruf).  Der Konstruktor hat den gleichen Namen wie die Klasse und (im Gegensatz zu den Methoden) KEINEN Rückgabewert, also auch kein void:
+Der Konstruktor ist eine spezielle Methode die automatisch bei der Erzeugung eines Objekts ausgeführt wird (also während dem new-Aufruf). Der Konstruktor hat den gleichen Namen wie die Klasse und (im Gegensatz zu den Methoden) KEINEN Rückgabewert, also auch kein void:
 
 ```java
 class Cls {
@@ -121,7 +121,7 @@ class Cls {
 }
 ```
 
-Welcher der beiden Konstruktoren verwendet wird hängt davon ab wieviele Parameter beim new-Aufruf mitgegeben werden. `new Cls()` verwendet den ersten Konstruktor und `new Cls(2)`  verwendet den zweiten Konstruktor:
+Welcher der beiden Konstruktoren verwendet wird hängt davon ab wieviele Parameter beim new-Aufruf mitgegeben werden. `new Cls()` verwendet den ersten Konstruktor und `new Cls(2)` verwendet den zweiten Konstruktor:
 
 ```java
 Cls obj1, obj2;		// 2 Referenzen auf Cls-Objekte erzeugen
@@ -238,7 +238,7 @@ Daher: nach Möglichkeit alles Private setzen.
 
 ## Destructor
 
-Den gibt es in Java nicht, der Garbage-Collector (GC)  zerstört Objekte automatisch, die im späteren Programmverlauf nicht mehr benötigt werden. Wann das erfolgt kann nicht bestimmt werden. Eine Möglichkeit dem GC explizit anzuweisen ein Objekt zu löschen ist das Entfernen einer Referenz auf das Objekt:
+Den gibt es in Java nicht, der Garbage-Collector (GC) zerstört Objekte automatisch, die im späteren Programmverlauf nicht mehr benötigt werden. Wann das erfolgt kann nicht bestimmt werden. Eine Möglichkeit dem GC explizit anzuweisen ein Objekt zu löschen ist das Entfernen einer Referenz auf das Objekt:
 
 ```java
 ref = null;   // GC loescht das Objekt auf dem die Referenz ref zeigte

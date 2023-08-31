@@ -10,11 +10,11 @@ created: 2nd October 2022
 
 >![SekGetaktSMPS](../assets/SekGetaktSMPS.png)
 
-### 1. Netztraffo/Gleichrichter
+## 1. Netztraffo/Gleichrichter
 
 Niederfrequenter Teil
 
-### 2. Spannungsregelung
+## 2. Spannungsregelung
 
 Hochfrequenter Teil
 
@@ -25,24 +25,24 @@ Hochfrequenter Teil
 | C     | Regler                 |
 | D     | Ansteuerschaltung      | 
 
-### 3. Zu versorgende Schaltung
+## 3. Zu versorgende Schaltung
 
 > [!note] Es wird oft Analoge und Digitale Masse **Sternförmig** an die Masse des Netzteils geführt
 
-## Eigenschaften
+# Eigenschaften
 
-### Einsatzgebiete
+## Einsatzgebiete
 
 - Dort wo eine galvanische Trennung bereits vorhanden ist.
 - Bei [Akku](../../chemie/Sekundärelement.md) betrieben Geräten
-- 
-### Prinzip 
+
+## Prinzip 
 
 - Mittles Schaltglied werden Energieportionen aus der Eingangsspannugsquelle übernommen und in der [Induktivität](../Induktivitäten.md) gespeichert.
 - $f\approx 20kHz - 2MHz$, des Tastverhältnis bestimmt den Energiefluss.
 - Tiefpass am Ausgang glättet den Kontinuierlichen Energiefluss.
 
-### Typen
+## Typen
 
 - [Buck Converter](Buck%20Converter.md)
 - [Boost Converter](Boost%20Converter.md)

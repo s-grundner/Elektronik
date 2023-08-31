@@ -8,7 +8,7 @@ Streams/Kanäle der Konsole:
 
 ## Umleiten der **stdout**-Ausgabe >
 
-Um  **stdout**-Ausgaben aus einem Programm in die Konsole in eine Datei umzuleiten wird der **>** Operator verwendet:
+Um **stdout**-Ausgaben aus einem Programm in die Konsole in eine Datei umzuleiten wird der **>** Operator verwendet:
 
 ```
 befehl > datei
@@ -20,7 +20,7 @@ Werden aus dem Programm Ausgaben nach **stderr** ausgegeben, dann wird dieses Au
 
 ## Umleiten der **stderr**-Ausgabe >
 
-Um  **stderr**-Ausgaben (Fehler-Ausgaben) aus einem Programm in die Konsole in eine Datei umzuleiten wird der **2>** Operator verwendet:
+Um **stderr**-Ausgaben (Fehler-Ausgaben) aus einem Programm in die Konsole in eine Datei umzuleiten wird der **2>** Operator verwendet:
 
 ```
 befehl 2> datei
@@ -76,5 +76,5 @@ Zuerst *befehl1*, was immer dieser Befehl in **stdout** ausgibt wird in **stdin*
 
 ## Referenzen
 
-- https://de.wikibooks.org/wiki/Batch-Programmierung:_Batch-Operatoren#||
-- https://wiki.ubuntuusers.de/Shell/Umleitungen/
+- <https://de.wikibooks.org/wiki/Batch-Programmierung:_Batch-Operatoren#||>
+- <https://wiki.ubuntuusers.de/Shell/Umleitungen/>

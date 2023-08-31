@@ -9,7 +9,7 @@ Erstellen Sie mittels VisualStudio-C# folgende Anwendung für die Univerwaltung:
 - Die Liste der Studenten soll geladen werden beim Öffnen des Programms (Server/User/Kennwort ist im Programm)
 - Mit **Datensatz Löschen** kann ein Datensatz gelöscht werden, dazu öffnet sich ein Anmeldefenster das die Zugangsdaten User/Passwort abfragt. Der Datensatz wird dann ohne weitere Rückfrage gelöscht.
 - Fehlerbehandlung:
-  - wenn kein Datensatz ausgewählt ist und **Datensatz Löschen** ausgewählt wird, dann  wird eine entsprechende Fehlermeldung angezeigt.
+  - wenn kein Datensatz ausgewählt ist und **Datensatz Löschen** ausgewählt wird, dann wird eine entsprechende Fehlermeldung angezeigt.
   - wenn die Zugangsdaten nicht korrekt sind, wird eine entsprechende Fehlermeldung ausgegeben.
 
 Tipps:

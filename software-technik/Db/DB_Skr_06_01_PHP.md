@@ -1,4 +1,6 @@
-### 6.1 PHP
+# DB_Skr_06_01_PHP
+
+## 6.1 PHP
 
 Hypertext Preprocessor (vormals Personal Home Page Tools)
 
@@ -6,21 +8,21 @@ Hypertext Preprocessor (vormals Personal Home Page Tools)
 - Freie Software unter PHP-Lizenz (freie Veränderung und Verwendung)
 - Starke Unterstützung von Datenbanken
 - Variablen werden nicht deklariert und können ihren Typ während der Laufzeit verändern.
-- Der Quelltext wird NICHT AN den Webbrowser übermittelt, sondern direkt auf dem Server interpretiert.
-  Das Skript kann daher eine angeforderte Seite auf Serverseite verändern und Senden. Daher wird zur Ausführung wird ein Webserver (etwa Apache) und PHP (Interpreter, Bibliotheken ...) benötigt. Werden Datenbankzugriffe ebenfalls benötigt, gibt es für diese gesamte Toolkette fertige Pakete - etwa XAMPP.
+- Der Quelltext wird NICHT AN den Webbrowser übermittelt, sondern direkt auf dem Server interpretiert.  
+  Das Skript kann daher eine angeforderte Seite auf Serverseite verändern und Senden. Daher wird zur Ausführung wird ein Webserver (etwa Apache) und PHP (Interpreter, Bibliotheken …) benötigt. Werden Datenbankzugriffe ebenfalls benötigt, gibt es für diese gesamte Toolkette fertige Pakete - etwa XAMPP.
 - PHP kann direkt in html integriert werden
 
-## Vorbereitung
+# Vorbereitung
 
 - Installation von XAMPP
 - Zur möglichen Ausführung muss der XAMPP-Apache-Server laufen. Im Control-Panel wird dazu Apache auf Starten gesetzt (für DB-Zugriffe muss auch MySQL gestartet werden).
 - Php-Skripte müssen unter c:\xampp\htdocs (sofern das Standardinstallationsverzeichnis c:\xampp akzeptiert wurde) abgelegt werden, dann können sie mittels Browser unter folgender URL aufgerufen werden: localhost/helloworld.php.
 
-## HTML
+# HTML
 
 PHP wird *üblicherweise* in HTML eingebettet. Ein Browser bekommt eine HTML-Seite von einem Server direkt (als Quelltext) gesendet. Die Interpretation (Darstellung) übernimmt der Browser. Für eine Datenbank-Anwendung ist es häufig notwendig Daten vom Benutzer einzulesen und an den Server zu senden. Diese Vorgehensweise wird gut von Formularen unterstützt.
 
-### Form
+## Form
 
 Es wird *formulare.html* angelegt:
 
@@ -58,7 +60,7 @@ Button auf Link:
 <input type="button" value="Zurück" onclick="window.location='index.html'">
 ```
 
-### Select-Liste
+## Select-Liste
 
 (kann auch in einem Form verwendet werden, mittels $_POST[list] wird dann der gewählte Wert zurückgegeben):
 
@@ -76,9 +78,9 @@ mit `<option value="val1">langer Text</option>` kann ein verschiedener Rückgabe
 
 Mit einem css-Tag kann die Breite oder eine Scrollbar manipuliert werden:
 
-` ...size="10" style=width:300px;overflow:auto;>` 
+` …size="10" style=width:300px;overflow:auto;>` 
 
-### Table
+## Table
 
 ```php+HTML
 <table align="left" style="width:30%">
@@ -97,13 +99,13 @@ Mit einem css-Tag kann die Breite oder eine Scrollbar manipuliert werden:
 </table>
 ```
 
-## PHP
+# PHP
 
 Damit PHP-Dateien in einem Browser das gewünschte Ergebnis zeigen, wird ein Compiler/Interpreter benötigt. PHP ist eine Sprache die auf dem Server compiliert und interpretiert wird. Daher muss für das Testen/Ausführen von PHP-Dateien eine entsprechende Umgebung eingerichtet sein. Wir verwenden dafür XAMPP. Dieses Paket beinhaltet einen Webserver (Apache) und PHP.
 
 - im XAMPP Control Panel wird der Webserver gestartet
-- im Verzeichnis `c:\xampp\htdocs\` werden HTML- und PHP-Dateien abgelegt.
-- mittels Browser kann auch von lokal darauf zugegriffen werden: `localhost\formulare.html`
+- im Verzeichnis `c:\xampp\htdocs\` werden HTMLund PHP-Dateien abgelegt.
+- mittels Browser kann auch von lokal darauf zugegriffen werden: `localhost\formulare.html`  
   Einfache html-Dateien können natürlich auch direkt im Browser dargestellt werden. Beim Anwählen einer einfachen Seite im Internet wird ja ebenfalls der pure html-Code dem Browser lokal zur Verfügung gestellt. PHP-Dateien werden im Gegensatz dazu vom Server verarbeitet und das resultierende html an den Browser geschickt.
 
 Mit der einfachen PHP-Datei `formulare.php`:
@@ -146,15 +148,15 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 - PHP-Code beginnt immer mit `<?php` und endet mit `?>`
 - wenn PHP-Code in einer HTML-Datei eingebettet wird, dann wird die Datei mit *.php benannt.
 
-### Übersicht
+## Übersicht
 
-- Eingrenzung `<?php ... ?>`
+- Eingrenzung `<?php … ?>`
 
 - Kommentare: `<!--` bis `-->`
 
 - Datentypen: int, bool, double, string, array, object
 
-- Variablen: Benennung von Variablen erfolgt IMMER mit führendem `$`    -   `$Var`
+- Variablen: Benennung von Variablen erfolgt IMMER mit führendem `$` -   `$Var`
 
 - Operatoren: zusätzlich zu den Bekannten gibt es `===` und `!==`
 
@@ -168,7 +170,7 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 
 Da sich Datentypen aus dem Kontext bestimmen kann `liefert 2=="2"` ein wahres Ergebnis. Um zu überprüfen ob der Datentyp und der Wert identisch ist, wird mittels `===` bzw. `!==` Operator geprüft.
 
-### Felder
+## Felder
 
 ```php
 $feld = array(0, 2, 4, 5, 6);
@@ -188,9 +190,9 @@ echo $feld["John"];            <!-- Bill -->
 echo $feld[3];                <!-- 7 -->
 ```
 
-### Datenbank
+## Datenbank
 
-#### Aufbau der Verbindung
+### Aufbau der Verbindung
 
 Es gibt viele verschieden Hersteller von Datenbanken. Um den Zugriff aus PHP trotzdem einheitlich zu gestalten, ist in PHP eine zusätzliche Abstraktionsebene verfügbar: **PHP Data Object (PDO)**. Damit kann Software unabhängig vom Datenbankhersteller entwickelt werden, es muss lediglich ein entsprechender Treiber verfügbar sein (zum Beispiel php_pdo_mysql.dll). Aktiviert wird der Treiber in der Serverumgebung (dort läuft ja das PHP) in der php.ini-Datei, dort wird diese Zeile eingefügt:
 
@@ -209,7 +211,7 @@ $conn->beginTransaction();        // bis commit
 
 Für die Verbindung ist nur die erste Zeile erforderlich. Mit dem `$conn`-Objekt werden anschließend Attribute gesetzt und eine Transaktion gestartet. Das `$conn`-Objekt ist die Verbindung zur Datenbank (das PDO-Objekt).
 
-#### Select in Datenbank (Lesen)
+### Select in Datenbank (Lesen)
 
 Um einen SQL-Befehl (genauer eine Abfrage) abzusetzen wird ein Query ausgeführt. Zurückgegeben wird ein PDOStatement (\$stmt):
 
@@ -228,14 +230,14 @@ while ($row = $stmt->fetch()):
 endwhile;
 ```
 
-Wichtig: der Spaltenname muss groß geschrieben werden. Es wird empfohlen die SQL-Anweisung nicht mit einem ; abzuschließen (es gibt Datenbanken die das mit einem Fehler quittieren). [es klappt auch `while ( ... ) { ... }`]
+Wichtig: der Spaltenname muss groß geschrieben werden. Es wird empfohlen die SQL-Anweisung nicht mit einem ; abzuschließen (es gibt Datenbanken die das mit einem Fehler quittieren). [es klappt auch `while ( … ) { … }`]
 
 - Ermitteln des $i-ten Spaltennamens: `$stmt->getColumnMeta($i)['name']`
 - Ermitteln der Spaltenanzahl: `$stmt->columnCount()`
 
-#### Insert in Datenbank (Schreiben)
+### Insert in Datenbank (Schreiben)
 
-Für Befehle ohne Rückmeldung (keine Anfrage ...) gibt's zwei Möglichkeiten, **prepare - execute**
+Für Befehle ohne Rückmeldung (keine Anfrage …) gibt's zwei Möglichkeiten, **prepare - execute**
 
 ```php+HTML
 $sql = "INSERT INTO cdsammlung.kuenstler (IId,Interpret,Gruendungsjahr) VALUES (?,?,?)";
@@ -254,7 +256,7 @@ $anzahl = $conn->exec($sql);
 
 `exec` gibt die Anzahl der betroffenen Datensätze (etwa bei Delete) zurück.
 
-#### Beenden der DB-Verbindung
+### Beenden der DB-Verbindung
 
 ```php+HTML
 $conn->commit();    // Transaktion beenden (beginTransaction)
@@ -263,7 +265,7 @@ $conn = null;        // Datenbankverbindung beenden (Obj freigeben)
 
 Wenn die Transaktion zurückgesetzt werden soll wird anstatt von `commit` ein `rollback` ausgeführt.
 
-### Fehlerbehandlung
+## Fehlerbehandlung
 
 Beim Verbinden mit der Datenbank wurde eingestellt, dass Fehler mit einer Exception zu behandeln sind.
 
@@ -277,7 +279,7 @@ echo "<p>PDO-Fehler in Zeile ", $e->getLine(),
 } catch (Exception $e) {}
 ```
 
-### Komplexe Datenbankzugriffe
+## Komplexe Datenbankzugriffe
 
 Wenn auf eine Datenbank nicht nur mit wenigen/kurzen Zugriffen gearbeitet wird sondern sogar über mehrere HTML-Seiten hinweg muss die Information von einer Seite zur anderen mittels POST weitergereicht werden. Passwörter die auf diese Art weitergereicht werden sind von außen lesbar, daher ist das nicht zulässig. Für diese Zwecke gibt es in PHP **Sessions**. Eine Session kann in einem PHP-Skript mittels
 
@@ -289,7 +291,7 @@ gestartet werden. Damit sind globale Variable verfügbar. In jeder teilnehmenden
 
 ![php_session](assets/php_session.png)
 
-## Beispiel Uni-Abfrage
+# Beispiel Uni-Abfrage
 
 Für diese Beispiel muss es die DB **is_uni** geben. In dieser DB muss eine Tabelle **is_professoren** mit den Attributen **name** und **raum** geben. Ansonsten muss die SQL-Anweisung entsprechend angepasst werden.
 
@@ -344,14 +346,14 @@ Die angegebene POST-Methode liefert sämtliche Werte aus dem form-Formular an da
 
 Im PHP wird auf den Wert von profName zugegriffen und mit diesem mittels SQL der Raum gesucht.
 
-## Frameworks
+# Frameworks
 
-### PHP-Frameworks
+## PHP-Frameworks
 
-Dynamische Seiten (Inhalt etwa aus Datenbanken) direkt mit PHP zu erstellen ist sehr aufwendig (fehlerbehaftet). Gerade im Bereich Datenbanken ist die Rechteverwaltung sehr problematisch (Benutzer und Kennworte ablegen). Dabei können PHP-Frameworks sehr hilfreich sein. Als Beispiel sei hier das **yii-Framework** erwähnt. Frameworks können mittels Code-Generator einen Rahmen für gängige, häufig gewünschte Konfigurationen erzeugen.
-www.yiiframework.com
+Dynamische Seiten (Inhalt etwa aus Datenbanken) direkt mit PHP zu erstellen ist sehr aufwendig (fehlerbehaftet). Gerade im Bereich Datenbanken ist die Rechteverwaltung sehr problematisch (Benutzer und Kennworte ablegen). Dabei können PHP-Frameworks sehr hilfreich sein. Als Beispiel sei hier das **yii-Framework** erwähnt. Frameworks können mittels Code-Generator einen Rahmen für gängige, häufig gewünschte Konfigurationen erzeugen.  
+<www.yiiframework.com>
 
-### CSS-Frameworks
+## CSS-Frameworks
 
 In den oben gezeigten Darstellungen von Datenbankinhalten sieht die Tabellengestaltung sehr schlicht aus. Um das zu verbessern, wird nicht versucht mit HTML-Anweisungen die Darstellung zu verbessern (HTML-Inhalt und Design trennen!). Dadurch würde die HTML-Datei sehr schnell groß und unübersichtlich (schwer wartbar) werden. Ein weiterer großer Nachteil dieser Variante ist, dass die Gestaltung in jeder einzelnen HTML-Seite eines Webauftritts wiederholt werden muss. Soll das Design später geändert werden ist das eine aufwändige Sache. Daher wird das Design in eigene Dateien ausgelagert - den Cascading-Style-Sheets - CSS-Dateien.
 
@@ -365,11 +367,11 @@ Wir können im Header der HTML-Datei anführen:
 
 damit erhalten wir ein anderes Design für unsere Tabellen.
 
-## Referenzen
+# Referenzen
 
-- Sehr, sehr nettes HTML und dazu gehörendes Portal: w3school
-  https://www.w3schools.com/tags/tag_form.asp
-- PHP Allgemein
+- Sehr, sehr nettes HTML und dazu gehörendes Portal: w3school  
+  <https://www.w3schools.com/tags/tag_form.asp>
+- PHP Allgemein  
   <https://www.php.net/manual/de/index.php>
-- PHP-PDO-Manual aus erster Hand:
+- PHP-PDO-Manual aus erster Hand:  
   <https://www.php.net/manual/de/book.pdo.php>

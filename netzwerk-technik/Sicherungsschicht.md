@@ -5,6 +5,7 @@ subject: ["ksn"]
 source: ["Martin Aichriedler"]
 created: 4th April 2022
 ---
+
 # Sicherungsschicht (OSI-Layer 2)
 
 > [!hint] Um Übertragungsfehler zu erkennen (und zu beheben), wird eine Datenflusskontrolle und eine Fehlererkennung und -Behebung implementiert.
@@ -27,7 +28,6 @@ created: 4th April 2022
 	- Dabei wird mit einer Ziel-IP ein ARP-Request mit der unbekannten MAC Adresse 255.255.255.255 gesendet.
 	- Die betroffene Station antwortet mit seiner IP und der gesuchten MAC.
 	- Mit RARP wird umgekehrt die IP zu einer bekannten MAC-Adresse ermittelt. Unter Windows kann in der Konsole mittels `arp` auf die Zuordnungstabelle zugegriffen werden.
-
 
 # Tags
 

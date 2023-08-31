@@ -16,16 +16,13 @@ created: 30th November 2022
 > \end{align*}
 > $$
 > - $V(X)$ … [Varianz](Varianz.md)
-> - $p$ ... [Wahrscheinlichkeit](Wahrscheinlichkeit.md)
-> - $n$ ... Anzahl der [Ereignisse](Ereignis.md)
+> - $p$ … [Wahrscheinlichkeit](Wahrscheinlichkeit.md)
+> - $n$ … Anzahl der [Ereignisse](Ereignis.md)
 
-> [!important] Standardabweichung $\sigma$ und empirische Standardabweichung $s$
-> Die Standardabweichung $\sigma$ einer [Zufallsvariable](Zufallsvariable.md) $X$ ist näherungsweise gelich der empirischen Standardabweichung $s$ einer großen Stichprobe von $X$:
-> $\sigma\approx s$
+> [!important] Standardabweichung $\sigma$ und empirische Standardabweichung $s$  
+> Die Standardabweichung $\sigma$ einer [Zufallsvariable](Zufallsvariable.md) $X$ ist näherungsweise gelich der empirischen Standardabweichung $s$ einer großen Stichprobe von $X$:  
+> $\sigma\approx s$  
 > $\sigma$ ist daher bei großen Stichproben ein Prognosewert für die empirische Standardabweichung $s$
 > 
 
 # Tags
-
-
-

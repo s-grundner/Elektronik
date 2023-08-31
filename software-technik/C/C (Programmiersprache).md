@@ -14,7 +14,6 @@ sort name
 
 ```
 
-
 # Tags
 
 - [Algo_Skr_00_CWiederholung](../Algo/Algo_Skr_00_CWiederholung.md)

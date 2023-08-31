@@ -1,3 +1,5 @@
+# Cpp_Skr_09_STL
+
 ## 9 STL - Standard Template Library
 
 Häufig verwendete Funktionen wurden in dieser Bibliothek erstellt und, weil sinnvoll, in den ANSI/ISO Standard übernommen:
@@ -34,7 +36,7 @@ Container sind für das Speichern von Objekten mittels Templates implementiert. 
 
 > STL-Container: Klassen für die Sammlung von Daten.
 
-#### Allgemein
+### Allgemein
 
 Für die Verwendung wird ein passender Header (fast immer genau der Name des Containers) inkludiert. Definition am Beispiel einer *list*:
 
@@ -48,20 +50,20 @@ list<int> myList;       // noch leere Liste von int-Objekten
 
 Unterscheidung:
 
-- Sequentielle Container: Datenobjekte werden sequentiell abgelegt (Arrays und verknüpfte Listen), Zugriff über die Position (so etwas wie ein Index)
+- Sequentielle Container: Datenobjekte werden sequentiell abgelegt (Arrays und verknüpfte Listen), Zugriff über die Position (so etwas wie ein Index)  
   Beispiele: *array*, *vector*, *deque*, *list* und *forward_list*
-- Assoziative Containerklassen: Daten werden durch Schlüsselelemente referenziert
+- Assoziative Containerklassen: Daten werden durch Schlüsselelemente referenziert  
   Beispiele: *set* / *multiset* und *map* / *multimap*
-- nicht geordnete Container (Hash-Tables): das Einsortieren von Werten erfolgt mittels Schlüssel, welche wiederum über eine Hashfunktion zugeordnet werden. Über die Hash-Funktion ist die Lage eines beliebigen Elements berechenbar -> sehr effizient.
+- nicht geordnete Container (Hash-Tables): das Einsortieren von Werten erfolgt mittels Schlüssel, welche wiederum über eine Hashfunktion zugeordnet werden. Über die Hash-Funktion ist die Lage eines beliebigen Elements berechenbar -> sehr effizient.  
   Beispiele: *unordered set* / *multiset* und *unordered map* / *multimap*
-- Containeradapter: diese Container haben keine Iteratoren
+- Containeradapter: diese Container haben keine Iteratoren  
   Beispiele: *stack*, *queue* und *priority_queue*
 
 ![](assets/STL_Container.png)
 
 In den meisten Anwendungsfällen für einen sequentiellen Container sind *array* und *vector* die idealen Kandidaten. Gründe: schnellster Zugriff und kleinster Speicher-Overhead.
 
-#### Sequentielle Container
+### Sequentielle Container
 
 In diesen Containertypen werden die Daten in einer Reihenfolge abgelegt. Zu ihr gehören *array*, *vector*, *deque*, *list* und *forward_list*. Allgemein sind für diese Container (unter anderen) die folgenden Member verfügbar:
 
@@ -105,7 +107,7 @@ cont1.swap(cont2);		// kompletter Arr-Inhalt von myArr und myArr2 werden getausc
 
 > Sequentielle Container: Container-Elemente sind sequentiell (~nacheinander) abgelegt.
 
-#### Assoziative Container
+### Assoziative Container
 
 Diese Container ordnen einem Wert einem Schlüssel zu, mittels dem auf den Wert zugegriffen werden kann. Das bedeutet jedes Objekt in diesen Containern besteht aus einem Schlüssel und einem Wert. *set* ist die einfachste Form, in diesem ist der Schlüssel gleichzeitig der Wert.
 
@@ -137,7 +139,7 @@ it = myMap.find(2)		// Iterator auf den Wert des Elements mit Schluessel 2
 
 > Assoziative Container: Container-Werte sind mittels eigenem Schlüsselelement greifbar. 
 
-#### Containeradapter
+### Containeradapter
 
 Diese Templates sind keine eigenen Definitionen von Datenstrukturen, sondern setzen auf vorhandene Templates auf (z.B. *vector*) und adaptieren diese.
 
@@ -187,13 +189,13 @@ public:
 }
 ```
 
-Hier wird eine eigene Klasse definiert um die Reihung der Objekte zu definieren. Dazu muss der ()-Operator (*Funktor*) überladen werden. Die Parameter sind die beiden zu vergleichenden Elemente, der Rückgabewert ist *bool*. Hier werden die beiden Member-Attribute *.h* miteinander verglichen (die Klasse muss also *Friend* sein oder die Member *public* ...).
+Hier wird eine eigene Klasse definiert um die Reihung der Objekte zu definieren. Dazu muss der ()-Operator (*Funktor*) überladen werden. Die Parameter sind die beiden zu vergleichenden Elemente, der Rückgabewert ist *bool*. Hier werden die beiden Member-Attribute *.h* miteinander verglichen (die Klasse muss also *Friend* sein oder die Member *public* …).
 
 > Container-Adapter: Adaptieren vorhandene Container und erweitern die Funktionalität.
 
-#### Spezielle Container
+### Spezielle Container
 
-##### array
+#### array
 
 Die Klasse *array* ist ursprünglich nicht in der STL enthalten. Um für die STL-Funktionen auch für Standard-c-Arrays zu ermöglichen, wurde diese sogenannte *Wrapper*-Klasse eingeführt. Sie erweitert das Standard-c-Array mit für die STL notwendigen Funktionen und Iteratoren. 
 
@@ -244,7 +246,7 @@ Die erste Lösung definiert vorab die notwendige Größe, wenn das zu wenig gene
 
 > Allgemein: für einfache Arrays anstatt von *c-Arrays* immer *array* verwenden (wenn schon nicht *vector*).
 
-##### string
+#### string
 
 Die *string*-Klasse war nicht Bestandteil der STL. Nachdem STL-Elemente in den Standard kamen wurden in der *string*-Klasse Methoden zugefügt um Strings für die STL kompatibel zu machen. Damit können sich Strings sehr ähnlich wie Container verhalten.
 
@@ -274,7 +276,7 @@ liefert *CBA1*.
 
 ## 9.2 Iteratoren
 
-Um Container und Algorithmen möglichst flexibel (miteinander) einsetzen zu können, werden deren Schnittstellen üblicherweise als Iteratoren definiert. Beginnend kann vereinfacht ein Iterator als Zeiger auf die Teilelemente eines Containers verstanden werden. Mittels diesem kann durch die Struktur traversiert werden. Für diese Iteratoren sind unterschiedliche Operatoren verfügbar (++, * ...). Die Algorithmen der STL arbeiten nicht direkt mit Containern sondern über Iteratoren (viel einfacher, der Algorithmus muss nur für einen Iterator entwickelt werden und funktioniert für alle Container).
+Um Container und Algorithmen möglichst flexibel (miteinander) einsetzen zu können, werden deren Schnittstellen üblicherweise als Iteratoren definiert. Beginnend kann vereinfacht ein Iterator als Zeiger auf die Teilelemente eines Containers verstanden werden. Mittels diesem kann durch die Struktur traversiert werden. Für diese Iteratoren sind unterschiedliche Operatoren verfügbar (++, * …). Die Algorithmen der STL arbeiten nicht direkt mit Containern sondern über Iteratoren (viel einfacher, der Algorithmus muss nur für einen Iterator entwickelt werden und funktioniert für alle Container).
 
 >STL-Iteratoren: Referenz auf ein Container-Element. Bietet Zugriff in unterschiedliche Container auf einheitliche Weise.
 
@@ -284,9 +286,9 @@ Um Container und Algorithmen möglichst flexibel (miteinander) einsetzen zu kön
 
 Es werden Kategorien von Iteratoren unterschieden:
 
-1. Input-Iterator: für das sequenzielle Lesen von Daten (Container, Datei, ...). Ein Rückspringen (-- ...) ist nicht definiert. Beispiel: wird aus einer Datei sequentiell gelesen, dann kann das Einlesen einer Position nur einmal erfolgen. Bei erneutem Einlesen wird automatisch der nächste Wert eingelesen.
+1. Input-Iterator: für das sequenzielle Lesen von Daten (Container, Datei, …). Ein Rückspringen (-- …) ist nicht definiert. Beispiel: wird aus einer Datei sequentiell gelesen, dann kann das Einlesen einer Position nur einmal erfolgen. Bei erneutem Einlesen wird automatisch der nächste Wert eingelesen.
 
-2. Output-Iterator: für das sequenzielle Schreiben von Daten (Container, Datei, ...). Kein Rückspringen möglich. Zum Schreiben in diesen Iterator wird der Dereferenzierungsoperator * verwendet:
+2. Output-Iterator: für das sequenzielle Schreiben von Daten (Container, Datei, …). Kein Rückspringen möglich. Zum Schreiben in diesen Iterator wird der Dereferenzierungsoperator * verwendet:
 
    ```c++
    *output = Wert;
@@ -294,13 +296,13 @@ Es werden Kategorien von Iteratoren unterschieden:
 
    Beispiel: analog zum Lesen einer Datei ist das beim Schreiben einer Datei. Wird ein Wert geschrieben, schreibt dir folgende Schreibe-Operation automatisch auf die folgende Position.
 
-3. Forward-Iteratoren: kann sich nur vorwärts bewegen (kein -). Allerdings kann eine Position gespeichert werden (im Gegensatz zu In- und Output).
-   *forward_list*, ungeordnete assoziative Container (*unordered_set*, *unordered_...*)
+3. Forward-Iteratoren: kann sich nur vorwärts bewegen (kein -). Allerdings kann eine Position gespeichert werden (im Gegensatz zu Inund Output).  
+   *forward_list*, ungeordnete assoziative Container (*unordered_set*, *unordered_…*)
 
-4. Bidirektional-Iteratoren: wie Forward mit zusätzlichem Rückwärtsgehen.
+4. Bidirektional-Iteratoren: wie Forward mit zusätzlichem Rückwärtsgehen.  
    *list*, geordnete assoziative Container (*set*, *map*, *multiset*, *multimap*)
 
-5. Random-Access-Iterator: wie bidirektional, zusätzlich mit direkten Zugriff auf beliebige Stellen mittels []-Operator.
+5. Random-Access-Iterator: wie bidirektional, zusätzlich mit direkten Zugriff auf beliebige Stellen mittels []-Operator.  
    *array*, *vector*, *deque*, *string*
 
 6. (Reverse-Iterator)
@@ -447,7 +449,7 @@ So kann das Verhalten der angebotenen Algorithmen stark angepasst werden. Auch k
 
 #### Bibliothek
 
-In der Bibliothek sind bereits unterschiedliche Arten von Vergleichen verfügbar. Diese funktionieren allerdings nur für Objekt-Elemente für die der < Operator verfügbar ist. Beispiele (http://www.cplusplus.com/reference/functional/) für diese Funktionsobjekte sind (für *int*-Elemente):
+In der Bibliothek sind bereits unterschiedliche Arten von Vergleichen verfügbar. Diese funktionieren allerdings nur für Objekt-Elemente für die der < Operator verfügbar ist. Beispiele (<http://www.cplusplus.com/reference/functional/)> für diese Funktionsobjekte sind (für *int*-Elemente):
 
 ```c++
 less<int>				... Vergleich steigend
@@ -543,7 +545,7 @@ In den Standard-Bibliotheken sind neben den STL-Elementen (Container, Algorithme
 
 ### Pair
 
-Manchmal sollen zwei Werte immer miteinander geführt werden. Wesentlich schneller als mit einer Klasse oder Struktur geht das  mit einem *pair*:
+Manchmal sollen zwei Werte immer miteinander geführt werden. Wesentlich schneller als mit einer Klasse oder Struktur geht das mit einem *pair*:
 
 ```c++
 #include <utility>
@@ -620,12 +622,12 @@ Gleich wie in einer Struktur können in einem *Tupel* mehrere Elemente abgelegt 
 
 ## Referenzen
 
-- cppReferenz
+- cppReferenz  
   <https://en.cppreference.com/w/>
   
 - Erklärung und Beispiele:
 
-  http://www.ist.tugraz.at/_attach/Publish/Akswt04/STL_Robert_Fritz.pdf
+  <http://www.ist.tugraz.at/_attach/Publish/Akswt04/STL_Robert_Fritz.pdf>
 
-- Kurz und sehr gut:
-  https://www.codeproject.com/Articles/563/An-Introductory-STL-tutorial
+- Kurz und sehr gut:  
+  <https://www.codeproject.com/Articles/563/An-Introductory-STL-tutorial>

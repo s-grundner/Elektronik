@@ -7,16 +7,17 @@ created: 29th November 2022
 # 2 Datentypen
 
 ## Primitive Datentypen
+
 Variable sind Platzhalter, deren Inhalt (Daten) im Lauf der Programmausführung verändert werden kann. Um eine Variable benutzen zu können, muss sie zuvor **definiert** werden. Das bedeutet, man muss der Variable einen bestimmten Datentyp zuschreiben (und Speicherplatz fürs Merken des Werts bereithalten). Verfügbar sind in Java folgende primitive Datentypen:
 
 | Datentyp | Beschreibung               | Wertebereich / Beispiel                  |
 | -------- | -------------------------- | ---------------------------------------- |
 | boolean  | Boolescher Wert            | true, false                              |
-| char     | einzelnes Zeichen (16 Bit) | Unicode-Zeichen,  'a', '?', '1', 'æ' ... |
-| byte     | ganze Zahl (8 Bit)         | $-2^{7} ... 2^{7}-1$    (-128 ... 127)   |
-| short    | ganze Zahl (16 Bit)        | $-2^{15} ... 2^{15} - 1$    (-32.768 ... 32.767) |
-| int      | ganze Zahl (32 Bit)        | $-2^{31} ... 2^{31} - 1$    (-2.147.483.648 ... 2.147.483.647) |
-| long     | ganze Zahl (64 Bit)        | $-2^{63} ... 2^{63} - 1$    (-9.223.372.036.854.775.808 ... 9.223.372.036.854.775.807) |
+| char     | einzelnes Zeichen (16 Bit) | Unicode-Zeichen,  'a', '?', '1', 'æ' … |
+| byte     | ganze Zahl (8 Bit)         | $-2^{7} … 2^{7}-1$    (-128 … 127)   |
+| short    | ganze Zahl (16 Bit)        | $-2^{15} … 2^{15} - 1$    (-32.768 … 32.767) |
+| int      | ganze Zahl (32 Bit)        | $-2^{31} … 2^{31} - 1$    (-2.147.483.648 … 2.147.483.647) |
+| long     | ganze Zahl (64 Bit)        | $-2^{63} … 2^{63} - 1$    (-9.223.372.036.854.775.808 … 9.223.372.036.854.775.807) |
 | float    | Fließkommazahl (32 Bit)    | $+/-3.40282347 · 10^{38}$,    $3.14159f$ |
 | double   | Fließkommazahl (64 Bit)    | $+/-1.79769313486231570 · 10^{308}$,    $-1.79$ |
 
@@ -99,6 +100,7 @@ z = '\u0041';   // Zeichen 'A' (u für Unicode, Zahl wird hexadezimal interpreti
 ```
 
 ## Typumwandlung
+
 Ein Zuweisung von Variablen eines Datentyps in eine Variable eines verschiedenen Datentyps bedarf einer Typumwandlung (Typecast). Grundsätzlich gibt es die beiden Möglichkeiten:
 
 - explizite Typumwandlung
@@ -153,7 +155,7 @@ Wird der Datentyp nicht explizit umgewandelt, so versucht Java den Datentypen au
 
 ![Implizite Typumwandlung](assets/Datentypen_ImpliziterTypumwandlung.png)
 
-In Pfeilrichtung ist jede Art der Umwandlung zulässig, so zum Beispiel *byte* → *short*, *byte* → *float* oder  *char* → *long*. Entgegen Pfeilrichtung wird eine Zuweisung sofort als Syntax-Fehler interpretiert:
+In Pfeilrichtung ist jede Art der Umwandlung zulässig, so zum Beispiel *byte* → *short*, *byte* → *float* oder *char* → *long*. Entgegen Pfeilrichtung wird eine Zuweisung sofort als Syntax-Fehler interpretiert:
 
 ```java
 char zeichen = 'a';			// 2 Bytes im Speicher

@@ -1,6 +1,8 @@
+# Cpp_Skr_37_Ex_Literale
+
 ## Benutzerdefinierte Literale
 
-(https://www.linux-magazin.de/ausgaben/2014/12/c-11/)
+(<https://www.linux-magazin.de/ausgaben/2014/12/c-11/)>
 
 Seit C++11 können Literal-Typen selbst definiert werden. Dafür gibt es den **Literal-Operator**. Dieser kann überladen werden mit *operator "" _lit*. Beispielhaft:
 

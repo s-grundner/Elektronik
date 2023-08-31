@@ -18,8 +18,8 @@ string codeVerschiebeCh(string str, int shift);
 
 
 
-> [!example] Testen Sie die Funktion mittels dem Beispiel-Text:
-> In einem Raumgebiet befinde sich ein [Elektrisches Feld](../../hwe/Elektrisches%20Feld.md) (weil zum Beispiel gerade eine Gewitterwolke darueber schwebt). Stell dir vor, du moechtest jemandem mitteilen, wie viel und was fuer Feldstoff sich an einer bestimmten Stelle des Gebiets befindet. Du brauchst dazu ein Mass, eine physikalische Groesse. Ein solches Mass ist die elektrische Feldstaerke. Man wuerde wahrscheinlich zunaechst erwarten, dass die elektrische Feldstaerke einfach in der Naehe eines geladenen Koerpers einen grossen Wert hat und in groesserer Entfernung einen kleinen. Nun kann man aber das Feld so noch nicht eindeutig beschreiben. Wir hatten festgestellt, dass im elektrischen Feld sowohl Druck- als auch Zugspannungen herrschen koennen. Tatsaechlich ist es so, dass in einem Feld Zug und Druck an jedem Ort gleichzeitig herrschen. Wie ist das moeglich? Fuer jedes Stueckchen Feldstoff gibt es eine ausgezeichnete Richtung, in der das Feld unter Zugspannung steht. Wir nennen sie die Zugrichtung. In allen Richtungen quer dazu steht es unter Druckspannung. Abb. 1.42 zeigt einen kleinen Zylinder, den wir in Gedanken aus einem Feld herausgeschnitten haben, und zwar so, dass die Zylinderachse in der Zugrichtung des Feldes liegt. In den Richtungen quer dazu herrscht Druckspannung. (Dass ein Material an jeder Stelle eine ausgezeichnete Richtung hat, ist keine seltene Eigenschaft. So hat die Maserung eines Holzstuecks an jeder Stelle eine bestimmte Richtung.
+> [!example] Testen Sie die Funktion mittels dem Beispiel-Text:  
+> In einem Raumgebiet befinde sich ein [Elektrisches Feld](../../hwe/Elektrisches%20Feld.md) (weil zum Beispiel gerade eine Gewitterwolke darueber schwebt). Stell dir vor, du moechtest jemandem mitteilen, wie viel und was fuer Feldstoff sich an einer bestimmten Stelle des Gebiets befindet. Du brauchst dazu ein Mass, eine physikalische Groesse. Ein solches Mass ist die elektrische Feldstaerke. Man wuerde wahrscheinlich zunaechst erwarten, dass die elektrische Feldstaerke einfach in der Naehe eines geladenen Koerpers einen grossen Wert hat und in groesserer Entfernung einen kleinen. Nun kann man aber das Feld so noch nicht eindeutig beschreiben. Wir hatten festgestellt, dass im elektrischen Feld sowohl Druckals auch Zugspannungen herrschen koennen. Tatsaechlich ist es so, dass in einem Feld Zug und Druck an jedem Ort gleichzeitig herrschen. Wie ist das moeglich? Fuer jedes Stueckchen Feldstoff gibt es eine ausgezeichnete Richtung, in der das Feld unter Zugspannung steht. Wir nennen sie die Zugrichtung. In allen Richtungen quer dazu steht es unter Druckspannung. Abb. 1.42 zeigt einen kleinen Zylinder, den wir in Gedanken aus einem Feld herausgeschnitten haben, und zwar so, dass die Zylinderachse in der Zugrichtung des Feldes liegt. In den Richtungen quer dazu herrscht Druckspannung. (Dass ein Material an jeder Stelle eine ausgezeichnete Richtung hat, ist keine seltene Eigenschaft. So hat die Maserung eines Holzstuecks an jeder Stelle eine bestimmte Richtung.
 
 Ein gute Kontrolle ist möglich, wenn als Verschiebe-Spanne zweimal hintereinander 13 eingegeben wird, dann wird auf den ursprünglichen Text verschoben (*ROT13*).
 
@@ -322,9 +322,9 @@ Um Daten zwischen 2 Kommunikationsteilnehmern sicher (verschlüsselt) austausche
 
 - Ein solches **Schlüsselvereinbarungsprotokoll** geht auf Whitfield **Diffie** und Martin **Hellman** zurück. 
 
-- Ein **Trustcenter** veröffentlicht eine große Primzahl n und dazu eine kleinere Zahl g (Generator)  $g = [2, ..., n-2]$ mit der Eigenschaft, dass die Potenzen von g modulo n alle Zahlen zwischen 1 und n-1 durchlaufen. 
+- Ein **Trustcenter** veröffentlicht eine große Primzahl n und dazu eine kleinere Zahl g (Generator) $g = [2, …, n-2]$ mit der Eigenschaft, dass die Potenzen von g modulo n alle Zahlen zwischen 1 und n-1 durchlaufen. 
 
-- Jeder Kommunikationsteilnehmer veröffentlicht seinen Public Key p bei einem Trustcenter. Dafür wird eine **geheime Zahl s** (Secret Key) gewählt ($s = [1, ..., n-1]$) und berechnet den Public Key $p = g^s mod\ n$ und schickt diesen zur Veröffentlichung an das Trustcenter.  
+- Jeder Kommunikationsteilnehmer veröffentlicht seinen Public Key p bei einem Trustcenter. Dafür wird eine **geheime Zahl s** (Secret Key) gewählt ($s = [1, …, n-1]$) und berechnet den Public Key $p = g^s mod\ n$ und schickt diesen zur Veröffentlichung an das Trustcenter.  
 
 ![Kry_DHCipher_02](bilder/Kry_DHCipher_02.png)
 
@@ -334,11 +334,11 @@ Die von Bob und Alice unabhängig berechneten Schlüssel **k sind gleich** (ohne
 
 **Alice:** $k = p_B^{s_A} mod \ n$
 
-**Bob:**  $k = p_A^{s_B} mod \ n$
+**Bob:** $k = p_A^{s_B} mod \ n$
 
 Es gilt allgemein: $p= g^s mod\ n$
 
-$p_A = g^{s_A} mod\ n$      bzw.     $p_B = g^{s_B} mod\ n$
+$p_A = g^{s_A} mod\ n$ bzw. $p_B = g^{s_B} mod\ n$
 
 Bob: 	$k = p_A^{s_B} mod\ n  = (g^{s_A} mod\ n)^{s_B} mod\ n = g^{s_A\cdot s_B} mod\ n$
 
@@ -358,7 +358,7 @@ Die Methoden *encrypt(text, publicKey)* und *decrypt(text, publicKey)* berechnen
 
 $k = p^s mod\ n$. 
 
-Dieser dient zur Initialisierung der Stromchiffre (s. o.), mit der der übergebene Text ver- beziehungsweise entschlüsselt wird.
+Dieser dient zur Initialisierung der Stromchiffre (s. o.), mit der der übergebene Text verbeziehungsweise entschlüsselt wird.
 
 Das nachfolgende Testprogramm holt sich den Klartext und g und n von der Kommandozeile. Zur Vereinfachung kann auch mit festen Werten gearbeitet werden, wie zum Beispiel n = 23 und g = 5.
 
@@ -434,8 +434,8 @@ Algorithmus:
 
 - Auswahl zweier großer Primzahlen **p** und **q**
 - Berechnung **N** = p q
-- Ermitteln von $\varphi(N) = (p - 1)(q - 1)$                  (*Eulersche-Funktion*)
-  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, ... , \varphi-1\}$ und e und $\varphi$ sind prim zueinander (ggT ist 1) und größer 1
+- Ermitteln von $\varphi(N) = (p - 1)(q - 1)$ (*Eulersche-Funktion*)  
+  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, … , \varphi-1\}$ und e und $\varphi$ sind prim zueinander (ggT ist 1) und größer 1
 - Berechnung $d = (e\ mod\ \varphi)^{-1}$ mittels erweiterten Euklidischen Algorithmus.
 - Öffentlicher Schlüssel: **P** = (e, N), Verschlüsseln von m mit $c = m^e mod \ N$
 - Privater/Geheimer Schlüssel **S** = (d, N), Entschlüsseln von c mit $m = c^d mod \ N$
@@ -446,25 +446,25 @@ Die Nachricht wird geblockt codiert, die Blockgröße ist kleiner als N zu wähl
 
 #### Allgemeines Vorgehen
 
-- Wahl zweier unterschiedlicher Primzahlen
+- Wahl zweier unterschiedlicher Primzahlen  
   **p = 13, q = 7**
 
-- Berechnung RSA-Modul $N = p \cdot q$:
+- Berechnung RSA-Modul $N = p \cdot q$:  
   **N = 13*7 = 91**
 
-- Berechnung $\varphi(N)$                                      $\varphi(N)=\varphi(p\cdot q) =(p-1)\cdot (q-1) = 12 \cdot 6$
+- Berechnung $\varphi(N)$ $\varphi(N)=\varphi(p\cdot q) =(p-1)\cdot (q-1) = 12 \cdot 6$
 
-  $\varphi(N) = $ **72**      ( Anzahl der teilerfremden Zahlen von 91 )
+  $\varphi(N) = $ **72** ( Anzahl der teilerfremden Zahlen von 91 )
 
-- Verschlüsselungsexponent $1 < e < \varphi(N)$    und     $ggT(e, \varphi(N)) = 1$:
+- Verschlüsselungsexponent $1 < e < \varphi(N)$ und $ggT(e, \varphi(N)) = 1$:  
   **e = 5**
 
 - Entschlüsselungsexponent $e\cdot d \equiv 1\ mod\ \varphi(N) = 5\cdot d \equiv 1 \ mod\ 72$, Lösung durch Probieren (Excel?):
 
-  **d = 29**
+  **d = 29**  
   (Unten wird die Lösung mittels Euklidischen Algorithmus gezeigt)
 
-- Public-Key: (e,N) = (5, 91)
+- Public-Key: (e,N) = (5, 91)  
   Private-Key: (d,N) = (29, 91)
 
 praktisch wird e klein gewählt, häufig wird 65535 gewählt. Für die Sicherheit der Verschlüsselung ist entscheidend: nur e, N dürfen öffentlich bekannt sein. Die Zwischenergebnisse, sowie p und q dürfen nicht öffentlich sein.
@@ -472,16 +472,16 @@ praktisch wird e klein gewählt, häufig wird 65535 gewählt. Für die Sicherhei
 - Primzahlen: sind nur durch 1 und sich selbst teilbar
 
 - Zahlenbereich der zu verschlüsselnden Nachricht: N = 91. Daher können Zeichen/Zahlen im Bereich von 0-90 verschlüsselt werden (z.B. a-z, A-Z, 0-9 und Sonderzeichen, Achtung ASCII beinhaltet 128 Zeichenmöglichkeiten)
-- Die Chiffrat c für die Nachricht m = 66:
+- Die Chiffrat c für die Nachricht m = 66:  
   $c=m^e \mod N = 66^5 \mod 91 = 40$
-- Die Entschlüsselung von c = 40 (siehe Unten: Rechnen mit großen Zahlen):
+- Die Entschlüsselung von c = 40 (siehe Unten: Rechnen mit großen Zahlen):  
   $m=c^d \mod N = 40^{29} \mod 91 = 66$
 - N ist nicht prim, p ist prim, q ist prim
-- N=p*q ... warum sind p, q unbekannt wenn N öffentlich ist?
+- N=p*q … warum sind p, q unbekannt wenn N öffentlich ist?  
   Da die Zahlen sehr groß sind, ist die Berechnung zu aufwendig.
 - $ggt(e, \varphi(N))=1$
-- Was bedeutet $e\cdot d \equiv 1 \mod\ \varphi(N)$?
-  dass gelten muss      $e\cdot d \mod\ \varphi(N) = 1 $?
+- Was bedeutet $e\cdot d \equiv 1 \mod\ \varphi(N)$?  
+  dass gelten muss $e\cdot d \mod\ \varphi(N) = 1 $?
 - $\varphi(N)$ - Eulersche-Funktion - Anzahl der zu N teilerfremden Zahlen
 - $\varphi(N) = N-1$ für N ist eine Primzahl 
 
@@ -492,7 +492,7 @@ Berechnen Sie einen einfachen (3 stellig) privaten, geheimen Schlüssel und eine
 Zur Lösung der Gleichung $(d\cdot e)\mod \varphi = 1$:
 
 - Anwendung des Euklidischen Algorithmus zur Ermittlung des ggT zwischen $e$ und $\varphi$ (ist immer 1 weil e ja so gewählt wird).
-- Ausgehend von der vorletzten Gleichung ( 1=...) wird der erweiterte Euklidische Algorithmus angewendet. Dabei werden die Terme nicht einfach ausmultipliziert sondern, solange es Reste aus der vorhergehenden Gleichung sind, eingesetzt.
+- Ausgehend von der vorletzten Gleichung ( 1=…) wird der erweiterte Euklidische Algorithmus angewendet. Dabei werden die Terme nicht einfach ausmultipliziert sondern, solange es Reste aus der vorhergehenden Gleichung sind, eingesetzt.
 
 #### Variante 1
 
@@ -514,7 +514,7 @@ ggT(e, phi) = ggt(17, 120) -> wir wissen dieser muss 1 sein (wurde ja so gewähl
 -> da kein [Rest](Rest.md), Rechnung fertig, ggT ist der Multiplikator von 17 also 1
 ```
 
-Erweiterter euklidischer Algorithmus, Verwenden der vorletzten Zeile ( 1 = ...), und den Algorithmus von unten nach oben wieder durchgehen. Hier ein Sonderfall, weil die Rechnung so kurz ist:
+Erweiterter euklidischer Algorithmus, Verwenden der vorletzten Zeile ( 1 = …), und den Algorithmus von unten nach oben wieder durchgehen. Hier ein Sonderfall, weil die Rechnung so kurz ist:
 
 ```
 1 = 120 - 7 * 17
@@ -672,17 +672,17 @@ Gegeben ist das Chiffrat:
 c = "8 1 4 7 2 5 6"
 ```
 
-und der Public-Key(e, N):  (3, 10)
+und der Public-Key(e, N): (3, 10)
 
 Brechen Sie die Verschlüsselung mittels Brute Force und berechnen Sie den unverschlüsselten Plain-Text.
 
 Lösung:
 
-- Für die Entschlüsselung wird der Private-Key benötigt. Dieser muss ermittelt werden.
+- Für die Entschlüsselung wird der Private-Key benötigt. Dieser muss ermittelt werden.  
   Es gilt: $\varphi(N)$ ist die Anzahl der zu N teilerfremden Zahlen.
   
 
-In der Menge 1..N: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] sind zu N = 10 folgende **4** Zahlen teilerfremd:
+In der Menge 1..N: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] sind zu N = 10 folgende **4** Zahlen teilerfremd:  
   [1, 3, 7, 9] - alle anderen Zahlen haben einen ggT zusammen mit 10 ungleich 1.
 
 Damit gilt für die Eulersche Funktion: $\varphi(N) = \varphi(10) = 4$
@@ -701,7 +701,7 @@ d kann nun durch Probieren ermittelt werden:
 
 lediglich **d = 3** liefert den gesuchten Rest.
 
-- Entschlüsseln des Textes: $m = c^d \mod\ N$            mit               $d = 3$            $N = 10$            $\varphi(N) = 4$
+- Entschlüsseln des Textes: $m = c^d \mod\ N$ mit $d = 3$ $N = 10$ $\varphi(N) = 4$
 
   | c               | 8    | 1    | 4    | 7    | 2    | 5    | 6    |
   | --------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -709,7 +709,7 @@ lediglich **d = 3** liefert den gesuchten Rest.
   | $m= c^d \mod N$ | 2    | 1    | 4    | 3    | 8    | 5    | 6    |
   | Buchstabenfolge | B    | A    | D    | C    | H    | E    | F    |
 
-- Probe: Verschlüsseln: $c = m^e \mod N$              mit               $e = 3$            $N = 10$            $\varphi(N) = 4$
+- Probe: Verschlüsseln: $c = m^e \mod N$ mit $e = 3$ $N = 10$ $\varphi(N) = 4$
 
   | m                | 2    | 1    | 4    | 3    | 8    | 5    | 6    |
   | ---------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -720,7 +720,7 @@ lediglich **d = 3** liefert den gesuchten Rest.
 
 Wenden Sie die Schlüssel zur Verschlüsselung der Folge 0010020711 an
 
-Öffentlicher Schlüssel: P = (17, 143)
+Öffentlicher Schlüssel: P = (17, 143)  
 Privater Schlüssel: S = (113, 143)
 
 Verschlüsseln (Blockgröße kleiner als 143 wählen, also 3 stellig):
@@ -743,9 +743,9 @@ Entschlüsseln:
 001 002 071 100
 ```
 
-(große Potenzen bzw. Rechnen mit Modulo: https://medienwissenschaft.uni-bayreuth.de/inik/material/email_nur_fuer_dich/3_verschluesseln/3.3_asymmetrisch_verschluesseln/Modulares%20Potenzieren%20-%20AB.pdf
+(große Potenzen bzw. Rechnen mit Modulo: <https://medienwissenschaft.uni-bayreuth.de/inik/material/email_nur_fuer_dich/3_verschluesseln/3.3_asymmetrisch_verschluesseln/Modulares%20Potenzieren%20-%20AB.pdf>
 
-und https://www.geogebra.org/classic?lang=de-AT)
+und <https://www.geogebra.org/classic?lang=de-AT)>
 
 ## Java - RSA, AES
 
@@ -775,7 +775,7 @@ public class KryEinf_01 {
 
 ### Symmetrische Chiffre AES (j301)
 
-https://www.torsten-horn.de/techdocs/java-crypto.htm
+<https://www.torsten-horn.de/techdocs/java-crypto.htm>
 
 Beispiel zum symmetrischen Ver-/Entschlüsseln von Dateien.
 
@@ -911,7 +911,7 @@ public class CryptoSimple {
 
 Verschlüsselung mittels RSA:
 
-- Erzeugen eines Schlüsselpaares Privater- und Public-Key
+- Erzeugen eines Schlüsselpaares Privaterund Public-Key
 - Verschlüsseln einer Input-Datei (in.txt) mittels Public-Key in eine Zwischen-Datei (enc.txt)
 - Entschlüsseln der Zwischendatei (enc.txt) in eine Output-Datei (out.txt) mittels Private-Key
 - Da die Performance der RSA-Verschlüsselung schlecht ist, funktioniert das Programm nur für "kleine" Dateien (in.txt). Für größere Dateien empfiehlt sich eine hybride Verschlüsselung
@@ -1473,7 +1473,7 @@ Decodiert:
 
 ## Betriebsmodus ECB
 
-Eine sehr anschauliche Demonstration in der Sache Betriebsmodus wird hier gezeigt (Quelle: https://de.wikipedia.org/wiki/Electronic_Code_Book_Mode). Mittels durchaus sehr hochwertigem Algorithmus AES-256 (128 Bit mit 256Bit Schlüssel - zugelassen für höchste Geheimhaltung in USA) wird hier ein Bild verschlüsselt. Nicht optimal: es wird der ECB-Modus gewählt. Das Bild ist natürlich größer als die 128 Bit Blocklänge und wird daher auf 128 Blöcke zerlegt. Diese werden jeweils mit AES-256 verschlüsselt. Durch diesen Modus werden sämtlichen folgenden Blöcke auf die gleiche Art verschlüsselt und liefern die gleiche Chiffre. Für die Verschlüsselung:
+Eine sehr anschauliche Demonstration in der Sache Betriebsmodus wird hier gezeigt (Quelle: <https://de.wikipedia.org/wiki/Electronic_Code_Book_Mode).> Mittels durchaus sehr hochwertigem Algorithmus AES-256 (128 Bit mit 256Bit Schlüssel - zugelassen für höchste Geheimhaltung in USA) wird hier ein Bild verschlüsselt. Nicht optimal: es wird der ECB-Modus gewählt. Das Bild ist natürlich größer als die 128 Bit Blocklänge und wird daher auf 128 Blöcke zerlegt. Diese werden jeweils mit AES-256 verschlüsselt. Durch diesen Modus werden sämtlichen folgenden Blöcke auf die gleiche Art verschlüsselt und liefern die gleiche Chiffre. Für die Verschlüsselung:
 
 ```
 openssl.exe enc -aes-256-ecb -pass pass:"pw" -in Tux_origBody.ppm -out Tux_encBody.ppm
@@ -1489,11 +1489,11 @@ Abschließend wird das Bild auf die gleiche Art mit Modus CBC verschlüsselt (re
 openssl.exe enc -aes-256-cbc -pass pass:"pw" -in Tux_origBody.ppm -out Tux_encBody.ppm
 ```
 
-(Diese Prozedur ist allgemein bekannt: https://www.youtube.com/watch?v=k8zJh1tAcok, https://en.wikipedia.org/wiki/File:Tux.jpg, https://en.wikipedia.org/wiki/File:Tux_ecb.jpg)
+(Diese Prozedur ist allgemein bekannt: <https://www.youtube.com/watch?v=k8zJh1tAcok,> <https://en.wikipedia.org/wiki/File:Tux.jpg,> <https://en.wikipedia.org/wiki/File:Tux_ecb.jpg)>
 
 ![Kry_Tux](bilder/Kry_Tux_.png)
 
-Beim Zusammenfügen des Header- und Body-Teils muss ein Editor verwendet werden der wirklich sämtliche Zeichen korrekt mitkopiert. Alternativ via Kommandozeile (hier Windows):
+Beim Zusammenfügen des Headerund Body-Teils muss ein Editor verwendet werden der wirklich sämtliche Zeichen korrekt mitkopiert. Alternativ via Kommandozeile (hier Windows):
 
 ```
 type Tux_origHead.ppm > Tux_enc.ppm && type Tux_encBody.ppm >> Tux_enc.ppm
@@ -1521,9 +1521,9 @@ type Tux_origHead.ppm > Tux_enc.ppm && type Tux_encBody.ppm >> Tux_enc.ppm
 
 - Code::Blocks
 
-  - unter `Settings > Compiler... > Linker settings >  ` den Pfad zu `libcrypto.a` (64-Bit libcrypto.lib) Einstellen
-  - unter `Settings > Compiler... > Search directories > Compiler` den Include-Pfad hinzufügen (C:\Program Files (x86)\OpenSSL-Win32\include oder C:\OpenSSL-Win64\include)
-  - wird nicht benötigt: unter `Settings > Compiler... > Search directories > Linker` das Lib-Verzeichnis hinzufügen
+  - unter `Settings > Compiler… > Linker settings >  ` den Pfad zu `libcrypto.a` (64-Bit libcrypto.lib) Einstellen
+  - unter `Settings > Compiler… > Search directories > Compiler` den Include-Pfad hinzufügen (C:\Program Files (x86)\OpenSSL-Win32\include oder C:\OpenSSL-Win64\include)
+  - wird nicht benötigt: unter `Settings > Compiler… > Search directories > Linker` das Lib-Verzeichnis hinzufügen  
     (C:\Program Files (x86)\OpenSSL-Win32\lib)
   - Zum erstellten Programm wird die DLL `libcrypto.dll` kopiert. Diese kann von `C:\Program Files (x86)\OpenSSL-Win32\libcrypto-1_1.dll` kopiert werden.
 
@@ -1779,7 +1779,7 @@ openssl.exe rsautl -decrypt -inkey pri.pem -in data.enc -out data.txt -oaep
 
 ### openSSL - RSA (c++808)
 
-Einfaches Beispiel (https://shanetully.com/2012/04/simple-public-key-encryption-with-rsa-and-openssl/) zur
+Einfaches Beispiel (<https://shanetully.com/2012/04/simple-public-key-encryption-with-rsa-and-openssl/)> zur
 
 - RSA-Schlüsselerzeugung
 - Verschlüsseln eines Textes in eine Datei
@@ -1899,7 +1899,7 @@ int main(void) {
 
 ### openSSL - RSA - Signature/Verification (c++809)
 
-(https://gist.github.com/irbull/08339ddcd5686f509e9826964b17bb59)
+(<https://gist.github.com/irbull/08339ddcd5686f509e9826964b17bb59)>
 
 Programm zum Signieren einer Nachricht mit RSA-private-key und Verifikation mittels public-key (DLL libcrypto.dll in Verzeichnis kopieren):
 
@@ -2617,9 +2617,9 @@ Als zweite Vergleichsmöglichkeit mit Windows-Powershell:
 
 ### openSSL - AES (c++806)
 
-(https://wiki.openssl.org/index.php/EVP_Symmetric_Encryption_and_Decryption)
+(<https://wiki.openssl.org/index.php/EVP_Symmetric_Encryption_and_Decryption)>
 
-Hier wird ein Text mittels openSSL ver- und entschlüsselt (DLL libcrypto.dll in Verzeichnis kopieren):
+Hier wird ein Text mittels openSSL verund entschlüsselt (DLL libcrypto.dll in Verzeichnis kopieren):
 
 ```c++
 /**
@@ -2728,7 +2728,7 @@ int main()
 
 ### openSSL - DES (c++807)
 
-(https://blog.fpmurphy.com/2010/04/openssl-des-api.html)
+(<https://blog.fpmurphy.com/2010/04/openssl-des-api.html)>
 
 make:
 
@@ -2805,7 +2805,7 @@ int main(void)
 
 ## Windows-Powershell
 
-Außer der Signatur kann ein Hash geprüft werden (wenn er mit angegeben wird). Dazu wird der angegebener Hash kopiert. Für die heruntergeladene Datei wird der Hash berechnet (mit der gleichen Hash-Methode). Anschließend werden die Hash-Werte miteinander verglichen.
+Außer der Signatur kann ein Hash geprüft werden (wenn er mit angegeben wird). Dazu wird der angegebener Hash kopiert. Für die heruntergeladene Datei wird der Hash berechnet (mit der gleichen Hash-Methode). Anschließend werden die Hash-Werte miteinander verglichen.  
 Für die Ermittlung des Hash-Werts sind entsprechende Tools notwendig oder mittels Windows-Powershell:
 
 ```
@@ -2814,17 +2814,17 @@ Für die Ermittlung des Hash-Werts sind entsprechende Tools notwendig oder mitte
 
 - Einrichten des Mail-Programmes zur Verwendung der Software (siehe obige youtube-Links)
 
-- Test mit adele (https://www.privacy-handbuch.de/handbuch_32t.htm)
+- Test mit adele (<https://www.privacy-handbuch.de/handbuch_32t.htm)>  
   Mit adele können Test-Mails ausgetauscht werden (adele ist ein Programm das automatisch Mails beantwortet). Eventuell werden ihre Mails automatisch als Spam eingeordnet.
 
 ## openSSL - Tool
 
-openSSL liefert nicht nur Bibliotheken für die eigene Programmierung (siehe Unten), es ist auch ein Tool mit dem kryptographische Anforderungen aus der Kommandozeile (auch für Skripte ...) erledigt werden werden können.
+openSSL liefert nicht nur Bibliotheken für die eigene Programmierung (siehe Unten), es ist auch ein Tool mit dem kryptographische Anforderungen aus der Kommandozeile (auch für Skripte …) erledigt werden werden können.
 
 - Linux: `sudo apt-get install libssl-dev` 
 
-  Windows: https://slproweb.com/products/Win32OpenSSL.html
-  dort die volle Version *Win64 OpenSSL v1.1.1c*
+  Windows: <https://slproweb.com/products/Win32OpenSSL.html>  
+  dort die volle Version *Win64 OpenSSL v1.1.1c*  
   für Windows muss in der Kommandozeile entweder in den entsprechenden Pfad (C:\Program Files\OpenSSL-Win64\bin) gewechselt oder PATH angepasst werden.
 
 - Version (und Funktion) Prüfen `openssl version`
@@ -2836,7 +2836,7 @@ openSSL liefert nicht nur Bibliotheken für die eigene Programmierung (siehe Unt
   E2E3092B65466EE6883EF685166885CD808A48F5FB6B3EFFAD18118C00F78621A6B6FDE9CBF801F1857AC4D65F096407F0DE34CBF7D7DA12928E378C9D7402392FBCBED4FC668C826872FA5BF78965B95E8B1EBB4E8D3FC1A434445FD65D123A6DB5144F72EE80073B7846C5DECAD1F175826B68F2A36CD80DBAC6274D6D411ABD90F8900DB0CE4F5120F3290A18E11FD159E4DA532DF7AFA9D1E212BCF5262E9E96F2BA7ACA32388EA95BAA9BEA15592DE78B72681FEC0F961AB40D5EE7FD6E9B7AD78068E90808C6773179AC2735495A3A9EC71A731812586BC68A35C6979214434D43EE7541A78047729FF2A85505AD562C01C78EAF158B3C6BEEC618E863
   ```
 
-- Diffie-Hellman mit OpenSSL (https://sandilands.info/sgordon/diffie-hellman-secret-key-exchange-with-openssl):
+- Diffie-Hellman mit OpenSSL (<https://sandilands.info/sgordon/diffie-hellman-secret-key-exchange-with-openssl):>
 
   - Generieren der allgemeinen Parameter n (Primzahl) und g (Generator):
 
@@ -2939,14 +2939,14 @@ Um die Kommunikation verschlüsselt zu ermöglichen wurde SSH (Secure Shell) ent
 
 - Alice auf ihrem Rechner zu Hause ein RSA-Schlüsselpaar erzeugt werden (mit ssh_keygen - siehe Unten)
 - Alice Bringt und Speichert den öffentlichen Schlüssel auf Ihren entfernten Rechner (oder Raspi)
-- Auf dem eigenen Rechner ruft Alice nun `ssh 123.123.123.123` (entfernte-Rechner-IP) auf (samt Abfrage Benutzer ...). Dabei läuft folgendes Protokoll ab:
+- Auf dem eigenen Rechner ruft Alice nun `ssh 123.123.123.123` (entfernte-Rechner-IP) auf (samt Abfrage Benutzer …). Dabei läuft folgendes Protokoll ab:
   - der entfernte Rechner generiert eine Zufallszahl und sendet diese mit dem öffentlichen Schlüssel von Alice verschlüsselt an Alice.
   - der Rechner von Alice entschlüsselt die Sendung mit dem privaten Schlüssel und generiert aus der erhaltenen Zufallszahl einen Hash-Wert.
   - dieser Hash-Wert wird an den entfernten Rechner gesendet. Dieser hat ebenfalls den Hash aus der Zufallszahl generiert und vergleicht die beiden Werte
 
 Mit der Installation des SSH-Clients sind automatisch einige Werkzeuge mit verfügbar:
 
-Mittels *OpenSSH*-*ssh-keygen* können diverse Schlüssel erstellt werden. Seit Windows 10 (V1709) ist OpenSSH als App aktivierbar (Apps&Features->Optionale Features Verwalten->Features hinzufügen->OpenSSH Client/Server ...). Die Verwendung ist erläutert unter https://en.wikipedia.org/wiki/Ssh-keygen.
+Mittels *OpenSSH*-*ssh-keygen* können diverse Schlüssel erstellt werden. Seit Windows 10 (V1709) ist OpenSSH als App aktivierbar (Apps&Features->Optionale Features Verwalten->Features hinzufügen->OpenSSH Client/Server …). Die Verwendung ist erläutert unter <https://en.wikipedia.org/wiki/Ssh-keygen.>
 
 ## Hash
 
@@ -2964,31 +2964,31 @@ das klappt auch für **MACTripleDES, MD5, RIPEMD160, SHA1, SHA384, SHA512 **
 
 Grundregeln für die Modulo-Operation:
 
-- $(a\cdot b) \mod n = ((a \mod n)\cdot (b \mod n)) \mod n$ 
+- $(a\cdot b) \mod n = ((a \mod n)\cdot (b \mod n)) \mod n$  
   jeder Term und das Produkt ist Modulo zu rechnen
 
 - $x^{a+b} = x^a \cdot x^b$
 
-- $x^{a+b} \mod n= (x^a \cdot x^b) \mod n = ((x^a \mod n)\cdot (x^b \mod n)) \mod n$
+- $x^{a+b} \mod n= (x^a \cdot x^b) \mod n = ((x^a \mod n)\cdot (x^b \mod n)) \mod n$  
   Die Modulo-Operation darf "hineingezogen" werden - Damit können Summen von Potenzen in der Modulo-Rechnung zerlegt werden
 
 - $x^a \mod n = (x \mod n)^a \mod n$
 
   Die Modulo-Operation darf "hineingezogen" werden - Damit können Potenzen in der Modulo-Rechnung zerlegt werden
 
-- $x^{a\cdot b} = (x^a)^b = (x^a \mod n)^b \mod n$
+- $x^{a\cdot b} = (x^a)^b = (x^a \mod n)^b \mod n$  
   Die Modulo-Operation darf "hineingezogen" werden - Damit können Produkte von Potenzen in der Modulo-Rechnung zerlegt werden
 
 Das Rechnen mit großen Zahlen ist nicht immer einfach. Mit den gezeigten Regeln können zum Teil sehr starke Vereinfachungen erreicht werden.
 
-- $16^{31} \mod 71 = ?$                     $16^{31} = 83076749736717242056487941267521536$
-  Versuchen Sie das Beispiel mit dem Taschenrechner zu lösen ....
+- $16^{31} \mod 71 = ?$ $16^{31} = 83076749736717242056487941267521536$  
+  Versuchen Sie das Beispiel mit dem Taschenrechner zu lösen ….
 
   $ = 16^{(28+3)} \mod 71$
 
   $= ((16^{28} \mod 71)\cdot (16^3 \mod 71)) \mod 71$
 
-  $=((16^{4\cdot 7} \mod 71)\cdot (16^3 \mod 71)) \mod 71$
+  $=((16^{4\cdot 7} \mod 71)\cdot (16^3 \mod 71)) \mod 71$  
   $=(((16^4 \mod 71)^7 \mod 71)\cdot (16^3 \mod 71)) \mod 71$
 
   $=(((65535 \mod 71)^{7} \mod 71)\cdot (16^3 \mod 71)) \mod 71$
@@ -3009,5 +3009,5 @@ Lösungsansatz in einem Computerprogramm:
 
   $x^5 = x^1 \cdot x^4$ - eine darauf ausgeführte Modulo-Operation wird für jeden Term und das Produkt ausgeführt
 
-- Für geradzahlige Exponenten kann dieser als Quadrat der Basis mit der Exponent-Hälfte gebildet werden:
+- Für geradzahlige Exponenten kann dieser als Quadrat der Basis mit der Exponent-Hälfte gebildet werden:  
   $x^4 = (x^2)^2$ - eine darauf ausgeführte Modulo-Operation wird für die Klammer und das Ergebnis ausgeführt.

@@ -6,7 +6,9 @@ created: 19th August 2022
 ---
 
 # Map of Topics - Mathe
+
 ## 1. JG
+
  - [Mengenlehre](Mengenlehre)
  - Lineare Gleichungen
  - [Lineare Gleichungssysteme](mathe%20(3)/Lineare%20Gleichungssysteme.md)
@@ -20,6 +22,7 @@ created: 19th August 2022
  - Matrizen
 
 ## 2. JG
+
  - Umkehrfunktionen
  - [Binom'scher Lehrsatz](mathe%20(3)/Binom'scher%20Lehrsatz.md)
  - Wurzelfunktionen
@@ -30,6 +33,7 @@ created: 19th August 2022
  - [Logarithmus](Logarithmus)
 
 ## 3. JG
+
  - [Grenzwert](mathe%20(3)/Grenzwert.md)
  - [Geometrische Reihe](Geometrische%20Reihe)
  - [Arithmetische Reihe](Arithmetische%20Reihe)
@@ -43,6 +47,7 @@ created: 19th August 2022
  - [Partialbruchzerlegung](mathe%20(3)/Partialbruchzerlegung.md)
 
 ## 4. JG
+
  - [Konvergenzkriterien für Reihen](mathe%20(4)/Konvergenzkriterien%20für%20Reihen.md)
  - [Potenzreihe](mathe%20(4)/Potenzreihe.md)
  - [Taylorreihe](mathe%20(4)/Taylorreihe.md)
@@ -54,10 +59,12 @@ created: 19th August 2022
  - [Laplace Transformation](mathe%20(4)/Laplace%20Transformation.md)
 
 ## 5. JG
+
 - Statistik
 - Kombinatorik
 - [Wahrscheinlichkeit](mathe%20(5)/Wahrscheinlichkeit.md)
 - Wahrscheinlichkeitsverteilung
 
 ---
+
 # Tags

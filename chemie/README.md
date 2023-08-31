@@ -4,8 +4,11 @@ teacher: ["Fritz Struber"]
 inst: ["HTBLuVA Salzburg"]
 created: 19th August 2022
 ---
+
 # Map of Topics - Chemie
+
 ## Grundlagen (2. JG)
+
  - [Allgemein](Grundlagen%20%20der%20Chemie.md)
  - [Atommodelle](Atommodelle.md)
  - [Spektralanalyse](Spektralanalyse.md)
@@ -24,6 +27,7 @@ created: 19th August 2022
  - Korrosion
 
 ## Organische Chemie (3. JG)
+
  - Allgemein
  - Typische Reaktionsmechanismen
  - Arten von Strukturformen
@@ -40,6 +44,7 @@ created: 19th August 2022
  - Aromatische Verbindungen
 
 ## Organische Chemie (4. JG)
+
  - Halogenwasserstoffe
  - Alkohole
  - Ether
@@ -51,10 +56,10 @@ created: 19th August 2022
 
 ---
 
-
-
 # [Chemie](README.md) (RDP)
+
 ## 1. [Allgemein](Grundlagen%20%20der%20Chemie.md) und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
+
  - [Elektrochemie](Elektrochemie.md)
  - [Katalyse](Katalyse.md)
  - [Oxidation und Reduktion](Oxidation%20und%20Reduktion.md)
@@ -62,6 +67,7 @@ created: 19th August 2022
  - [Stöchiometrie](Stöchiometrie.md) und [Allgemeines Gasgesetz](../physik/Allgemeines%20Gasgesetz.md)
 
 ## 2. ~~Organische Chemie und Grundlagen lebendiger Systeme~~
+
  - ~~Alkohole und deren Reaktionsprodukte~~
  - Gesättigte Kohlenwasserstoffe
  - Kunststoffe
@@ -69,7 +75,9 @@ created: 19th August 2022
  - Ungesättigte Verbindungen und deren räumliche Anordnung
  - Aminosäuren und Proteine
  
+
 ## 3. Klassischer und quantenmechanischer Aufbau
+
  - [Chemische Bindungen](Chemische%20Bindungen.md)
  - ~~Chiralität~~
  - [PSE](Periodensystem%20der%20Elemente.md)
@@ -77,7 +85,9 @@ created: 19th August 2022
  - [Radioaktivität](Radioaktivität.md)
 
 ## Struber Leaks
+
 ### Zusammenfassung 5c 
+
 ![5c-matura-sum](assets/5c-matura-sum.pdf)
 
 # Tags

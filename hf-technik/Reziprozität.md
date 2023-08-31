@@ -6,9 +6,9 @@ created: 31st August 2023
 
 # Reziprozität
 
-> [!question] Begriffserklärung: Reziprozität / reziprok
-> `wechselseitig, gegenseitig, aufeinander bezüglich`
-> Die Strahlungseigenschaften und auch die [Impedanz](../../hwe/Impedanz.md) sind im Sende- und Empfangsfall gleich.
+> [!question] Begriffserklärung: Reziprozität / reziprok  
+> `wechselseitig, gegenseitig, aufeinander bezüglich`  
+> Die Strahlungseigenschaften und auch die [Impedanz](../../hwe/Impedanz.md) sind im Sendeund Empfangsfall gleich.
 > - Dieser Zusammenhang wird als Reziprozität bezeichnet.
 > #### Praktisch:
 >- Die [Antenne](Antenne.md) gibt im Sendefall ihre maximale Strahlungdichte in eine Richtung ab.

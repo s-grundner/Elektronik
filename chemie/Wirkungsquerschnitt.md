@@ -15,4 +15,5 @@ Der Wirkungsquerschnitt hängt vom jeweils interessierenden Vorgang ab, von Art 
 Insbesondere bei [Kernreaktionen](https://de.wikipedia.org/wiki/Kernreaktion "Kernreaktion") wird der Wirkungsquerschnitt, betrachtet als Funktion der Energie des einfallenden Teilchens/[Quants](https://de.wikipedia.org/wiki/Quant "Quant"), manchmal auch als **Anregungsfunktion** bezeichnet.
 
 ---
+
 # Tags

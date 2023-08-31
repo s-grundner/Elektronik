@@ -5,10 +5,13 @@ subject: [""]
 source: [""]
 created: 18th April 2022
 ---
+
 # Binary Search
 
 ## Python Code
+
 ### Normal Version
+
 ~~~ python
 def binary_search(list, target):
 	first = 0
@@ -28,7 +31,9 @@ def binary_search(list, target):
 	
 	return None
 ~~~
+
 ### Recursive Version
+
 ~~~ python
 def recursive_binary_search(list, target):
 	if len(list) == 0:
@@ -46,4 +51,5 @@ def recursive_binary_search(list, target):
 ~~~
 
 ---
+
 # Tags

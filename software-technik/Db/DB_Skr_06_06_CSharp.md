@@ -2,13 +2,13 @@
 
 ## Zugriff auf Datenbanken mittels C#
 
-Die Zugriffsinformation auf einen spezielle Datenbankserver kann getestet werden im Visual Studio mittels Menüleiste -> Projekt -> Neue Datenquelle hinzufügen -> ...
+Die Zugriffsinformation auf einen spezielle Datenbankserver kann getestet werden im Visual Studio mittels Menüleiste -> Projekt -> Neue Datenquelle hinzufügen -> …
 
 Wenn dann eine verbunden wird, kann man sich den Verbindungsstring anzeigen lassen.
 
-In modernen Applikationen wird oft eine lokale Kopie von entfernten Daten abgelegt. Der Vorteil dieser Art ist, dass nicht für jeden einzelnen Zugriff eine Verbindung zur entfernten Datenbank aufgebaut werden muss. Für sehr große Datenbanken oder nicht sehr häufige Zugriffe ist dieses Design allerdings nachteilhaft (viel Speicher notwendig, Zeit für das Kopieren):   **verbindungsloses <-> verbindungsorientiertes Arbeiten**
+In modernen Applikationen wird oft eine lokale Kopie von entfernten Daten abgelegt. Der Vorteil dieser Art ist, dass nicht für jeden einzelnen Zugriff eine Verbindung zur entfernten Datenbank aufgebaut werden muss. Für sehr große Datenbanken oder nicht sehr häufige Zugriffe ist dieses Design allerdings nachteilhaft (viel Speicher notwendig, Zeit für das Kopieren): **verbindungsloses <-> verbindungsorientiertes Arbeiten**
 
-Die Klassen die sich mit dem Zugriff auf DBs befassen sind im **ADO.NET** Framework. Für Verbindungsloses Arbeiten gibt es Klassen in diversen Namensräumen  in **System.Data** zu finden. Für verbindungsorientiertes Arbeiten gibt es die Provider, für MS-SQL-Server sind die in den Namensräumen **System.Data.SqlClient**. Für alternative Anbieter gibt es weitere Namensräume bzw. müssen zum Teil Erweiterungen von den Datenbankherstellern geladen werden.
+Die Klassen die sich mit dem Zugriff auf DBs befassen sind im **ADO.NET** Framework. Für Verbindungsloses Arbeiten gibt es Klassen in diversen Namensräumen in **System.Data** zu finden. Für verbindungsorientiertes Arbeiten gibt es die Provider, für MS-SQL-Server sind die in den Namensräumen **System.Data.SqlClient**. Für alternative Anbieter gibt es weitere Namensräume bzw. müssen zum Teil Erweiterungen von den Datenbankherstellern geladen werden.
 
 ### XAMPP-MariaDB-Datenbank (205)
 
@@ -27,7 +27,7 @@ Installation des Connectors (Download: <https://dev.mysql.com/downloads/windows/
 - Erstellen eines C#-Projekts. Für den ersten Test genügt eine Konsolenanwendung.
 - In C# wird ein sogenannter Connector benötigt um auf die Datenbank zugreifen zu können. Dazu:
   - Projektmappen-Explorer
-  - im Kontext-Menü des Projekts->Hinzufügen->Verweis...->MySql.Data ausgewählen (und anhackerln!) und mit OK bestätigen (für andere Datenbanktypen muss ein entsprechender Connector eingestellt werden).
+  - im Kontext-Menü des Projekts->Hinzufügen->Verweis…->MySql.Data ausgewählen (und anhackerln!) und mit OK bestätigen (für andere Datenbanktypen muss ein entsprechender Connector eingestellt werden).
 - Im Programm kann dann `using MySql.Data.MySqlClient;` eingefügt werden.
 
 #### Maria/MySQL-DB Verbinden
@@ -71,7 +71,7 @@ MySqlCommand sqlCmd = new MySqlCommand("DROP DATABASE myDb;", con);    // db loe
 sqlCmd.ExecuteNonQuery();
 ```
 
-Nach erfolgter Ausführung wird ein Integerwert zurückgeben der die Anzahl der erfolgreichen Operationen (eingefügte Zeilen ...) angibt oder -1 für nicht erfolgreiche Ausführung.
+Nach erfolgter Ausführung wird ein Integerwert zurückgeben der die Anzahl der erfolgreichen Operationen (eingefügte Zeilen …) angibt oder -1 für nicht erfolgreiche Ausführung.
 
 Zum Abfangen von Exceptions ist `cmd.ExecuteNonQuery()` in einen Try-Catch-Block einzubetten.
 
@@ -215,17 +215,17 @@ Die Daten werden im Textbox-Fenster tbAusgabe ausgegeben.
 
 ## Referenzen
 
-- Connection Strings für Datenbanken:
-  www.connectionstrings.com
+- Connection Strings für Datenbanken:  
+  <www.connectionstrings.com>
 
-- MySQL Befehls Referenz:
-  https://dev.mysql.com/doc/dev/connector-net/8.0/html/T_MySql_Data_MySqlClient_MySqlCommand.htm
+- MySQL Befehls Referenz:  
+  <https://dev.mysql.com/doc/dev/connector-net/8.0/html/T_MySql_Data_MySqlClient_MySqlCommand.htm>
 
-- Einführung in ADO.NET:
+- Einführung in ADO.NET:  
   <https://www.youtube.com/watch?v=aoFDyt8oG0k&list=PL6n9fhu94yhX5dzHunAI2t4kE0kOuv4D7>
 
-- Tiefgehende C#-Datenbank Einführung für SQL-Server (Bernhard Baltes-Götz C# Skriptum V4):
+- Tiefgehende C#-Datenbank Einführung für SQL-Server (Bernhard Baltes-Götz C# Skriptum V4):  
   <https://www.uni-trier.de/fileadmin/urt/doku/csharp/v40/csharp4.pdf>
 
-- MySQL-Namespace:
+- MySQL-Namespace:  
   <https://dev.mysql.com/doc/dev/connector-net/8.0/html/N_MySql_Data_MySqlClient.htm>

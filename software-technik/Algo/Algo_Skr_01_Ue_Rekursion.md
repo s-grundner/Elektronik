@@ -4,6 +4,8 @@ aliases: []
 created: 29th November 2022
 ---
 
+# Algo_Skr_01_Ue_Rekursion
+
 ## 1 Rekursion - Übungen
 
 ### Selbstaufruf ohne Abbruchbedingung (249)
@@ -76,7 +78,7 @@ Subtraktion rekursiv:
 
 In der Wahrscheinlichkeitsrechnung oder in Taylorreihen findet sich die Faktorielle (oder auch Fakultät) einer Zahl:
 
-​	n! = 1 * 2 * ... * (n-1) * (n)		mit		0! = 1, 1! = 1
+​	n! = 1 * 2 * … * (n-1) * (n)		mit		0! = 1, 1! = 1
 
 und mit:
 
@@ -121,17 +123,17 @@ ggT(49,14)
 
 Die Fibonacci-Zahlen ergeben sich als Summe der beiden nächst kleineren (vorhergehenden) Fibonaccizahlen:
 
-​	0, 1, 1, 2, 3, 5, 8, 13 ...
+​	0, 1, 1, 2, 3, 5, 8, 13 …
 
-​	0+1 = 1; 1+2 = 3; 2+3 = 5 ...
+​	0+1 = 1; 1+2 = 3; 2+3 = 5 …
 
-​	fib(n) = fib(n-1) + fib(n-2)  wobei  fib(0) = 0  und  fib(1) = 1
+​	fib(n) = fib(n-1) + fib(n-2) wobei fib(0) = 0 und fib(1) = 1
 
-Diese Folge von Zahlen findet sich in der Natur sehr häufig: in Wachstumsformen von Pflanzen (Blattanordnung ...), in Wachstumsraten von Kaninchenpopulationen ...
+Diese Folge von Zahlen findet sich in der Natur sehr häufig: in Wachstumsformen von Pflanzen (Blattanordnung …), in Wachstumsraten von Kaninchenpopulationen …
 
 ### Potenzieren (259)
 
-​	pow(x, n) = 1					wenn n = 0
+​	pow(x, n) = 1					wenn n = 0  
 ​	pow(x, n) = x * pow(x, n-1)		sonst
 
 ### Potenzieren Schnell (260)
@@ -216,7 +218,7 @@ Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschob
 
 In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann rekursiv eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
 
-Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
+Mehr Info: <http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi>
 
 ### Visuelle Lösung von "Die Türme von Hanoi"
 

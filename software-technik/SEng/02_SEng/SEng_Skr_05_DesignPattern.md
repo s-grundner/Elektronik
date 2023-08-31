@@ -38,8 +38,8 @@ Typische Anwendung:
 
 - die Klasse muss sich das eigene Objekt merken - statische Variable
   
-- zur Erzeugung des 1 Objekts wird die statische Methode `getInstance()` erstellt:
-  `public: static Singleton& getinstance(){...}`
+- zur Erzeugung des 1 Objekts wird die statische Methode `getInstance()` erstellt:  
+  `public: static Singleton& getinstance(){…}`
 
   diese gibt eine Referenz auf das einzige Objekt zurück
 
@@ -135,9 +135,9 @@ SomeObject o = SomeObjectFactory.createNewInstance();
 
 Ein Observer gehört zur Gruppe der **Verhaltensmuster**. Er wird verwendet um Veränderungen (an `mState`) an einem Objekt (Subject) an von diesem Objekt abhängige Objekte (`Observer`) weiter zu melden.
 
-- Ein Observer muss sich zu diesem Zweck bei dem Subject anmelden:
+- Ein Observer muss sich zu diesem Zweck bei dem Subject anmelden:  
   Subject: Methode `registerObserver()`: damit wird ein weiterer Observer in eine Observer-Liste `mObserver` eingefügt (Aggregationsbeziehung)
-- Ein Observer muss sich abmelden, wenn er nicht mehr informiert werden soll:
+- Ein Observer muss sich abmelden, wenn er nicht mehr informiert werden soll:  
   Subject: Methode `removeObserver()`: Entfernen eines Observer aus der Liste
 - Subject: Methode `notify()`: nach jeder Veränderung ruft Subject diese selber auf und ruft damit für jeden gelisteten Observer die Methode `update()` auf.
   - Das Subject sendet in der `update()` Funktion sich selbst als Parameter oder die gewünschte Informationen (push-Variante).
@@ -150,7 +150,7 @@ Ein Observer ist eine *Eins-zu-Viele-Abhängigkeit* (Ein Subject <-> Viele Obser
 
 c++-Beispiel:
 
-https://de.wikipedia.org/wiki/Beobachter_(Entwurfsmuster)
+<https://de.wikipedia.org/wiki/Beobachter_(Entwurfsmuster)>
 
 ## Iterator
 
@@ -162,9 +162,9 @@ Das MVC-Pattern ist Keines der GoF, allerdings hat es sich für GUI-Anwendungen 
 
  ![img](assets/Pattern_MVC.png) 
 
-Beispielhaft soll mittels einer Datenbankanwendung Listen in einer Applikation dargestellt werden. In einer ersten Implementierung würde das ein ständiges Wechselspiel von GUI-Events und Datenbankzugriffen zur Folge haben. Ein Problem entsteht, wenn die Anwendung auf einem anderem System (Linux, Windows, Mobil, Desktop ...) laufen soll, dann muss die komplette Anwendung neu erstellt werden. Aber genauso wenn die Daten eine andere Struktur aufweisen.
+Beispielhaft soll mittels einer Datenbankanwendung Listen in einer Applikation dargestellt werden. In einer ersten Implementierung würde das ein ständiges Wechselspiel von GUI-Events und Datenbankzugriffen zur Folge haben. Ein Problem entsteht, wenn die Anwendung auf einem anderem System (Linux, Windows, Mobil, Desktop …) laufen soll, dann muss die komplette Anwendung neu erstellt werden. Aber genauso wenn die Daten eine andere Struktur aufweisen.
 
-Aus diesem Grund wird der angezeigte Teil (**View**) komplett vom Datensatz (**Modell**) getrennt. Damit die Daten in der View und im Modell gleich sind wird ein **Controller** benötigt, der kümmert sich um das Kopieren der Daten View<->Modell. Das kann als Ursache eine Veränderung der Datenquelle für das Modell haben (Datenbankzugriff ...) oder ein Verändern der Daten auf der GUI-Seite (View) etwa durch eine Eingabe o.ä.
+Aus diesem Grund wird der angezeigte Teil (**View**) komplett vom Datensatz (**Modell**) getrennt. Damit die Daten in der View und im Modell gleich sind wird ein **Controller** benötigt, der kümmert sich um das Kopieren der Daten View<->Modell. Das kann als Ursache eine Veränderung der Datenquelle für das Modell haben (Datenbankzugriff …) oder ein Verändern der Daten auf der GUI-Seite (View) etwa durch eine Eingabe o.ä.
 
 Vorteile:
 
@@ -266,9 +266,9 @@ Stream-Klassen sind ungebuffert, für die gebufferte Anwendung werden sie in Buf
 
 ## Referenzen
 
-- Kompakte/Einfache Übersicht
-   http://www.inztitut.de/blog/glossar/software-pattern/ 
-- Sehr ausführliche und verständliche Ausführung
-   https://www.philipphauer.de/study/se/design-pattern.php
-- Brücke
-   https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm
+- Kompakte/Einfache Übersicht  
+   <http://www.inztitut.de/blog/glossar/software-pattern/> 
+- Sehr ausführliche und verständliche Ausführung  
+   <https://www.philipphauer.de/study/se/design-pattern.php>
+- Brücke  
+   <https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm>

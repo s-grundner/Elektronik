@@ -2,11 +2,11 @@
 
 ## Hilfsklassen
 
-#### Anzahl von Cores
+### Anzahl von Cores
 
 - Anzahl maximal möglicher (wirklich) paralleler Threads: ` std::thread::hardware_concurrency()` (= Anzahl an Cores), Ansonsten wird quasiparallel gearbeitet.
 
-#### Zeitmessung
+### Zeitmessung
 
 - Timer-Klasse:
 
@@ -45,7 +45,6 @@
   }
   cout << "Dauer: " << Timer::getTime() << endl;
   ```
-
 
 ## Funktion als Thread
 
@@ -268,7 +267,7 @@ int main(){
 
 Warum ist welche Variante Schneller/Langsamer?
 
-- Wechseln Sie beim Compilieren eventuell zwischen Debug- und Release Variante (Compiler-Switch -g).
+- Wechseln Sie beim Compilieren eventuell zwischen Debugund Release Variante (Compiler-Switch -g).
 - Ändern Sie das Programm ab indem Sie in den Thread-Funktionen die Zwischenergebnisse nicht direkt in der statischen Variable summieren sondern in einer lokalen und weisen Sie erst am Ende der Funktion das Ergebnis der statischen Variable zu
 - Prüfen Sie ob ein Aufteilen auf 4 Threads eine Verbesserung bringt
 

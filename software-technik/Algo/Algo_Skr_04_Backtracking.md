@@ -18,7 +18,7 @@ Wird die Lösung ohne gut durchdachte Lösungsstrategien gesucht, also einfach n
 
 ## Beispiel Labyrinth (2103)
 
-Gegeben ist ein Labyrinth mit einer Start- und einer End-Position auf einem 2 dimensionalen Raster.
+Gegeben ist ein Labyrinth mit einer Startund einer End-Position auf einem 2 dimensionalen Raster.
 
 1. Auf dem Raster gibt es begehbare Felder und nicht begehbare Felder (Mauer)
 
@@ -47,8 +47,8 @@ int findWay(int y, int x, int zy, int zx, int arr[MAXY][MAXX]) {
 }
 ```
 
-y, x		aktuelle Position im Labyrinth
-zy, zx	Position des Ziels im Labyrinth
+y, x		aktuelle Position im Labyrinth  
+zy, zx	Position des Ziels im Labyrinth  
 arr		Labyrinth: 0-freies Feld, 1-Mauer, 2-Feld wurde bereits begangen, 3-von diesem Feld aus kein Ziel erreichbar (schon versucht)
 
 Beispiel:
@@ -85,7 +85,6 @@ ______________________________________________________________
 - Erklärung und Beispiele:
 
   [https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf](https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf)
-
 
 ## Fragen
 

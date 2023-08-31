@@ -5,20 +5,22 @@ subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 created: 24th March 2022
 ---
+
 # Fourier Reihe
-Jede periodische Funktion kann aus einer Summe von Sinus- und/oder Cosinus Schwingungen zusammengesetzt werden.
+
+Jede periodische Funktion kann aus einer Summe von Sinusund/oder Cosinus Schwingungen zusammengesetzt werden.
 
 ![400](../assets/Fourreihe_zerlegung.png)
 
-
 ## Periodische Funktion
-$f(x)=f(x+a)$
+
+$f(x)=f(x+a)$  
 ![400](../assets/fourReihe.png)
 
 >[!summary] $$f(x) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot x)+b_{n}\cdot\sin(n\cdot x)\right]$$
 > - $a_{n}$, $b_{n}\dots$ **Fourier Koeffizienten**
 
-Sei $f$ einer $2\pi$-periodische Funktion.
+Sei $f$ einer $2\pi$-periodische Funktion.  
 Ist das Periodenintervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die Funktion in eine **Fourier Reihe** zerlegt werden.
 
 $f(x)\dots$**Trigonometrisches Polynom**
@@ -33,19 +35,18 @@ $f(x)\dots$**Trigonometrisches Polynom**
 - $A_{2}\cdot\sin(2x+\varphi)$: 2. Harmonische oder 1. Oberschwingung
 - $A_{3}\cdot\sin(3x+\varphi)$: 3. Harmonische oder 2. Oberschwingung
 
->[!example] Rechteckschwingung
-> ![Fourreihe_k](../assets/Fourreihe_k.png)
-> [Klirrfaktor](../../hwe/Klirrfaktor.md) ... $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
-
+>[!example] Rechteckschwingung  
+> ![Fourreihe_k](../assets/Fourreihe_k.png)  
+> [Klirrfaktor](../../hwe/Klirrfaktor.md) … $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
 
 ## Fourier Koeffizienten
+
 ![Pasted image 20230120081647](../assets/Pasted%20image%2020230120081647.png)
 
 ### Periode $T$
 
-
-
 ### Periode $T=2\pi$
+
 $$
 \begin{align*}
 f(t) &= \frac{a_{0}}{2}\sum\limits^\infty_{n=1}[a_{n}\cdot\cos(n\cdot\omega_{0}\cdot t) + b_{n}\cdot\sin(n\cdot\omega_{0}\cdot t)]
@@ -64,8 +65,8 @@ Gleichrichtwert $\dfrac{a_{0}}{2}$
 
 ## Güte der Näherung
 
-
 ---
 
 # Tags
+
 ![Fourierreihe](../assets/Fourierreihe.pdf)

@@ -5,6 +5,7 @@ created: 29th November 2022
 ---
 
 # Software Engineering - Übungen
+
 ## Grundlagen
 
 1. Bringen Sie die angegebenen Phasen in die richtige Reihenfolge:
@@ -18,17 +19,17 @@ created: 29th November 2022
    - Programmierung und Komponententest
    
    - Planung und Problemanalyse
-   - Entwurf: System- und Komponentenentwurf
+   - Entwurf: Systemund Komponentenentwurf
 
  
 
-2. Welche Entwicklungsphase einer Diplomarbeit liefert welches Ergebnis?
-   DA-Antrag
-   Systemtestprotokoll
-   Pflichtenheft
-   Programm-Module
-   Modultestprotokoll
-   UML-Diagramme
+2. Welche Entwicklungsphase einer Diplomarbeit liefert welches Ergebnis?  
+   DA-Antrag  
+   Systemtestprotokoll  
+   Pflichtenheft  
+   Programm-Module  
+   Modultestprotokoll  
+   UML-Diagramme  
    fertiges Produkt
    
    
@@ -41,8 +42,8 @@ created: 29th November 2022
 
    
 
-5. Nennen Sie die Charakteristika des
-   a. explorativen Prototypings und
+5. Nennen Sie die Charakteristika des  
+   a. explorativen Prototypings und  
    b. evolutionären Prototypings
 
    
@@ -59,7 +60,7 @@ created: 29th November 2022
 
    
 
-9. Aus welchen Personen/-Gruppen besteht ein XP-Programming-Team?
+9. Aus welchen Personen/-Gruppen besteht ein XP-Programming-Team?  
    a.
 
    b.
@@ -84,7 +85,7 @@ created: 29th November 2022
 
     
 
-14. Was ist der Zweck und Inhalt eines Lasten- bzw. Pflichtenheftes?
+14. Was ist der Zweck und Inhalt eines Lastenbzw. Pflichtenheftes?
 
     
 
@@ -92,7 +93,7 @@ created: 29th November 2022
 
     
 
-16. Was hat in folgenden Projektteilen zu stehen?
+16. Was hat in folgenden Projektteilen zu stehen?  
     a. Projekt-Tagebuch
 
     b. Besprechungsprotokoll
@@ -103,7 +104,7 @@ created: 29th November 2022
 
   ​    
 
-18. Was verstehen Sie als Programmierer unter dem Begriff ungarische Notation?
+1. Was verstehen Sie als Programmierer unter dem Begriff ungarische Notation?
 
   ​    
 

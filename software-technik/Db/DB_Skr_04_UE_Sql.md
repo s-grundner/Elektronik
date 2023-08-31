@@ -26,17 +26,17 @@ Erstellen Sie die Struktur mittels SQL in die Datenbank *is_fussball*.
 **GROUP BY**
 
 - Wieviele Zuschauer waren pro Spiel (MannschaftA, ManschaftB) durchschnittlich?
-- Wieviele Zuschauer waren pro Stadion (Stadt, AnzPlaetze, durchschnittl. Besucher)     durchschnittlich?
+- Wieviele Zuschauer waren pro Stadion (Stadt, AnzPlaetze, durchschnittl. Besucher) durchschnittlich?
 - In welchem(n) Spiel(en) vielen die meisten Tore?
 - Liste pro Spiel (MannschaftA, ManschaftB) die Tore (Spieler, Minute, Spielsituation).
 
 **VIEW**
 
-- Erzeuge die View v_spiel ( tag, stadion, zuschauer, MannschaftA, ManschaftB, ToreMannschaftA,     ToreMannschaftB, Kampfrichter)
+- Erzeuge die View v_spiel ( tag, stadion, zuschauer, MannschaftA, ManschaftB, ToreMannschaftA, ToreMannschaftB, Kampfrichter)
 
 **SQL-Stichworte:**
 
-- Tabelle Erstellen: `CREATE TABLE TabellenName (Spalte1 Datentyp Constraint, ...);`
+- Tabelle Erstellen: `CREATE TABLE TabellenName (Spalte1 Datentyp Constraint, …);`
 - Erstellen eines Suchindex: `CREATE INDEX IndexName ON TabellenName(Spaltenname, …);`
 - Tabellenauszug: `SELECT Spalten FROM Tabellen WHERE Join-Bedingung [AND|OR einfache Bedingung ] ORDER BY Spalten;`
 - Aufsummieren der Spalte2-Werte für Spalte1 Auswahl: `SELECT Spalte1, SUM(Spalte2) FROM Tabellen GROUP BY Spalte1 HAVING Bedingung;`
@@ -81,10 +81,10 @@ Nordwind ist eine sehr häufig referenzierte Beispiel-Datenbank für SQL-Beispie
 
 ![SQL_northwind-erd](assets/SQL_northwind-erd.png)
 
-#### Einfache SELECT
+### Einfache SELECT
 
-Auflistung sämtlicher Angestellten (Vor-/Nachname)
-SELECT First_Name, last_name
+Auflistung sämtlicher Angestellten (Vor-/Nachname)  
+SELECT First_Name, last_name  
 FROM employees;
 
 Auflistung sämtlicher Kunden (Firmenname, Nachname, Tätigkeit, Telefonnummer)
@@ -93,11 +93,11 @@ Auflistung sämtlicher Angestellten (PersNr, Tätigkeit, Vorname, Nachname, Regi
 
 Auflistung sämtlicher Zulieferer (Firmenname, Fax-Nummer, Tel-Nummer, Homepage)
 
-#### ORDER BY
+### ORDER BY
 
-Auflistung sämtlicher Mitarbeiter sortiert nach Nachname
-SELECT First_Name, Last_Name
-FROM Employees
+Auflistung sämtlicher Mitarbeiter sortiert nach Nachname  
+SELECT First_Name, Last_Name  
+FROM Employees  
 ORDER BY Last_Name, First_Name;
 
 Auflistung sämtlicher Mitarbeiter (Titel, Vor-/Nachname) sortiert nach Tätigkeit und Nachname
@@ -116,19 +116,19 @@ Auflistung sämtlicher Mitarbeiter (Tätigkeit, Vor-/Nachname) sortiert nach Tä
 
 Auflistung sämtlicher Produkte (Nummer, Name, Listenpreis in Dollar und in Euro)
 
-#### WHERE
+### WHERE
 
-Operatoren:
-=, <, >, >= ..., IS NULL, IS NOT NULL, BETWEEN 'A' and 'B', IN ('a','b','c'), LIKE 'M%', LIKE '%y%', LIKE 'N_'
+Operatoren:  
+=, <, >, >= …, IS NULL, IS NOT NULL, BETWEEN 'A' and 'B', IN ('a','b','c'), LIKE 'M%', LIKE '%y%', LIKE 'N_'
 
 Kombination der Operatoren:
 
 - Alle auch mit NOT: NOT LIKE '%y%'
 - AND, OR - in SQL: AND wird vor OR ausgeführt
 
-Auflistung der Verkaufs-Mitarbeiter (*Representatives*) (Vor-/Nachname)
-SELECT job_Title, First_Name, Last_Name
-FROM Employees
+Auflistung der Verkaufs-Mitarbeiter (*Representatives*) (Vor-/Nachname)  
+SELECT job_Title, First_Name, Last_Name  
+FROM Employees  
 WHERE job_title = 'Sales Representative';
 
 Auflistung der Mitarbeiter deren Nachname mit einem N oder Höher beginnt (Vor-/Nachname)
@@ -141,7 +141,7 @@ Auflistung der Mitarbeiter deren Nachname mit einem N oder Höher beginnt (Vor-/
 
 Auflistung der Kunden (Firma, Nachname) aus der Stadt Seattle
 
-Auflistung der Bestellungen (Bestelldatum, Lieferdatum, Kundennummer, Preis) mit Bestelldatum '5.6.2006' (ein Datum wird in vielen Datenbanken in unterschiedlichen Formaten akzeptiert ...)
+Auflistung der Bestellungen (Bestelldatum, Lieferdatum, Kundennummer, Preis) mit Bestelldatum '5.6.2006' (ein Datum wird in vielen Datenbanken in unterschiedlichen Formaten akzeptiert …)
 
 Auflistung der Mitarbeiter (Vor-/Nachname) die nicht aus den USA kommen
 
@@ -153,47 +153,47 @@ Auflistung der Mitarbeiter (Vor-/Nachname, Stadt) die aus Seattle oder Redmond k
 
 Auflistung der Kunden aus einem Bundesstaat der Form 'N_' (Nevada, New York)
 
-#### Funktionen
+### Funktionen
 
 COUNT(), SUM(), AVG(), MAX(), MIN() - diese Funktionen berechnen die Werte in den entsprechenden Spalten.
 
-Berechnung der gesamten Anzahl der bestellten Teile der Bestellung mit der Nummer 31
-SELECT SUM(quantity) AS GesamtMenge
-FROM order_details
+Berechnung der gesamten Anzahl der bestellten Teile der Bestellung mit der Nummer 31  
+SELECT SUM(quantity) AS GesamtMenge  
+FROM order_details  
 WHERE order_id=3;
 
 Berechnung des durchschnittlichen Listenpreises sämtlicher Produkte
 
 Berechnung des frühesten und spätesten Bezahldatum sämtlicher Bestellungen
 
-#### GROUP
+### GROUP
 
 Fast immer wird Group gemeinsam mit einer Zahlenauswertung gemeinsam gemacht. Mit Having kann zusätzlich gefiltert werden
 
-Ermitteln der Anzahl der Mitarbeiter pro Herkunft-Stadt
-SELECT city, COUNT(id) AS AnzMitarbeiter
-FROM employees
+Ermitteln der Anzahl der Mitarbeiter pro Herkunft-Stadt  
+SELECT city, COUNT(id) AS AnzMitarbeiter  
+FROM employees  
 GROUP BY city;
 
-Ermitteln der Anzahl der Mitarbeiter pro Herkunft-Stadt (nur wenn mehr als 2 Leut)
-SELECT city, COUNT(id) AS AnzMitarbeiter
-FROM employees
-GROUP BY city
+Ermitteln der Anzahl der Mitarbeiter pro Herkunft-Stadt (nur wenn mehr als 2 Leut)  
+SELECT city, COUNT(id) AS AnzMitarbeiter  
+FROM employees  
+GROUP BY city  
 HAVING (COUNT(id) > 2);
 
-#### Subqueries
+### Subqueries
 
 Query im Query.
 
-Ermitteln des Kunden der die Bestellung mit der Nummer 10290 aufgegeben hat (order und customer-Tabellen kombinieren)
-SELECT company FROM customers WHERE id =
+Ermitteln des Kunden der die Bestellung mit der Nummer 10290 aufgegeben hat (order und customer-Tabellen kombinieren)  
+SELECT company FROM customers WHERE id =  
 (SELECT customer_id FROM orders WHERE id=10290);
 
-Ermitteln der Kunden die im Jahr 1997 bestellt haben
-SELECT CompanyName FROM Customers WHERE CustomerID IN
+Ermitteln der Kunden die im Jahr 1997 bestellt haben  
+SELECT CompanyName FROM Customers WHERE CustomerID IN  
 (SELECT CustomerID FROM Orders WHERE OrderDate BETWEEN '1997-01-01' AND '1997-12-31');
 
-#### JOIN
+### JOIN
 
 Auflistung der Mitarbeiter die einer Bestellung zugeordnet sind, sortiert nach Bestelldatum
 
@@ -211,13 +211,13 @@ Auflistung der Anzahl von Bestellungen seit 31.12.2007 pro Kunde. Allerdings nur
 
 Auflösungen:
 
-https://www.webucator.com/tutorial/learn-sql/subqueries-joins-unions.cfm
+<https://www.webucator.com/tutorial/learn-sql/subqueries-joins-unions.cfm>
 
 ## Einkauf (06)
 
 ### Trigger
 
-Das Einkauf-Schema soll erweitert werden.
+Das Einkauf-Schema soll erweitert werden.  
 ![php_einkauf00](C:\Daten\Skripten\Informatik\DB\bilder\php_einkauf00.png)
 
 Dazu soll in der Kunden-Tabelle das Attribut *numbest* eingefügt werden. Es soll die Anzahl der Bestellungen beinhalten. Grundsätzlich soll im Entwurf darauf geachtet werden dass das Datenbanksystem selbstständig auf die Konsistenz/Integrität achtet. Die Zahl eines Kunden ist mit den Einträgen in der Tabelle *bestellungen* verknüpft. Soviele Bestellung-Tupel ein Kunde hat, so groß soll die *numbest*-Zahl sein. Um diese Zahl immer korrekt zu halten hat das Setzen durch einen Trigger zu erfolgen:
@@ -292,18 +292,18 @@ Pos.  ArtikelNr  Bezeichnung       Anzahl      E-Preis     G-Preis
  2    A003       Bildschirm VGA      9           500,00    4.500,00
 ```
 
-Die Geschäftsregeln der Miniwelt lassen sich wie folgt fassen: 
-       1. Eine Rechnung geht genau an einen Kunden und existiert ohne Kunden nicht. 
-     2. Ein Kunde kann keine, eine oder mehrere Rechnungen erhalten. 
-     3. Eine Rechnung enthält mindestens eine Rechnungsposition. 
+Die Geschäftsregeln der Miniwelt lassen sich wie folgt fassen:  
+       1. Eine Rechnung geht genau an einen Kunden und existiert ohne Kunden nicht.  
+     2. Ein Kunde kann keine, eine oder mehrere Rechnungen erhalten.  
+     3. Eine Rechnung enthält mindestens eine Rechnungsposition.  
      4. Eine Rechnungsposition bezieht sich auf genau eine Rechnung und 
 
     existiert ohne Rechnung nicht.
      5. Eine Rechnungsposition betrifft genau einen Artikel und existiert ohne Artikel nicht.
      6. Ein Artikel kann in keiner, einer oder mehreren Rechnungen auftauchen.
 
-Arbeitsanweisungen:
-       1. Aufgabe: Erstelle ein vollständiges ER-Diagramm (Papier)
+Arbeitsanweisungen:  
+       1. Aufgabe: Erstelle ein vollständiges ER-Diagramm (Papier)  
      2. Aufgabe: Erstelle ein vollständiges relationales Datenmodell in der Datei: is_invoice.sql
 
     (mit 1. create database, 2. create table, 3. Keys, 4. Constraints, 5. referentielle Integrität, 6. Testdaten).
@@ -313,28 +313,28 @@ Arbeitsanweisungen:
     
     gib Definitionen zur 1. , 2. und 3. Normalform.
 
--- file: : is_invoice.sql
--- author: N.N.
--- date: 2017
--- demo zu sql
--- db: is_invoice
--- user: is_invoice oder is_invoice@localhost
--- pwd: comein
+-- file: : is_invoice.sql  
+-- author: N.N.  
+-- date: 2017  
+-- demo zu sql  
+-- db: is_invoice  
+-- user: is_invoice oder is_invoice@localhost  
+-- pwd: comein  
 -- als root ausführen
 
-drop database if exists is_invoice;
+drop database if exists is_invoice;  
 create database if not exists is_invoice;
 
-grant create,drop, references, select,insert,update,delete 
+grant create,drop, references, select,insert,update,delete  
 on is_invoice.* to is_invoice@localhost identified by 'comein';
 
 use is_invoice;
 
-drop table if exists customer;
-create table customer(
-    id int  primary key,
-    name varchar(80) not null default 'Sepp Bastman',
-    address varchar(80) not null default 'address n/a'
+drop table if exists customer;  
+create table customer(  
+    id int primary key,  
+    name varchar(80) not null default 'Sepp Bastman',  
+    address varchar(80) not null default 'address n/a'  
 );
 
 is_invoice.sql

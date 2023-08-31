@@ -15,5 +15,7 @@ Stromversorgungseinheiten (Netzteile) dienen zur Erzeugung der von elektrischen 
 ## [Linearregler](Spannungsstabilisierung.md)
 
 ## [Schaltnetzteil](Schaltnetzteil.md)
+
 ---
+
 # Tags

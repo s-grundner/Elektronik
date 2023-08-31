@@ -21,7 +21,7 @@ Der Benutzer wird nach einem Namen gefragt und anschließend wird folgende Funkt
 
  Das folg. Programmfragment soll die Verwendung zeigen:
 
- ...
+ …
 
 ```c
 int main(){
@@ -69,7 +69,7 @@ Wieviel Speicher wird von der Struktur r belegt? Liegen die Struktur-Elemente im
 
 ## Termine
 
-Es ist ein Kalender zu implementieren. Das bedeutet, dass Temen in ein Feld gespeichert werden sollen unter Angabe eines Start- und Enddatums. Zum Beispie> [!success] Lösung
+Es ist ein Kalender zu implementieren. Das bedeutet, dass Temen in ein Feld gespeichert werden sollen unter Angabe eines Startund Enddatums. Zum Beispie> [!success] Lösung
 
 ```c
 5 
@@ -84,7 +84,7 @@ Gesucht ist ein Programm mit Hilfe dessen ein Termin eingelesen werden kann und 
 
 ## Das BeispWorteZaehlen
 
-Der Inhalt einer beliebigen Textdatei soll hinsichtlich der Häufigkeit der verwendeten Worte analysiert werden. 
+Der Inhalt einer beliebigen Textdatei soll hinsichtlich der Häufigkeit der verwendeten Worte analysiert werden.  
 Verwenden Sie zum Zählen ein großes Array (z.B. 5000 Elemente) vom folgenden Typ 
 
 ```c
@@ -94,7 +94,7 @@ struct WordCount {
 };
 ```
 
-Nach dem Programmstart:
+Nach dem Programmstart:  
 `./worthaeufigkeit.exe < daten.txt`
 
 soll zeilenweise eingelesen werden. Die Zerlegung einer Zeile in einzelne Worte soll mit der Funktion `zerlegeInWorte` aus der vorherigen Aufgabe geschehen. 
@@ -168,6 +168,7 @@ int main(){
 > [!success] Lösung
 
 ## Worin liegt der Unterschied zwischen:
+
 `*ptr + 2` und `*(ptr+2)`?
 > [!success] Lösung
 

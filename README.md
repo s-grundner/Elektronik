@@ -5,11 +5,12 @@ HTBLUVA Salzburg Lehrgang
 Evergreen-Skriptum des HEL-Lehrgangs, verfasst im Markdown Editor [Obsidian](https://obsidian.md/)
 
 ## Skriptum aktualisieren
+
 ```
 Ctrl+P //Öffnet die Befehlszeile
 'Obsidian Git: Pull' Ausführen
 ```
-Falls Änderungen vorgenommen worden sind, müssen diese vor jedem pull verworfen werden.
+Falls Änderungen vorgenommen worden sind, müssen diese vor jedem pull verworfen werden.  
 Dies erfolgt durch das Ausführen des Shell-Scripts `git_stash.sh`
 
 - [git_stash](git_stash.sh)
@@ -25,7 +26,7 @@ winget install --id Git.Git -e --source winget
 
 ## Disclaimer: Ohne 🔫
 
-Aufgrund der Evergreen Philosophie dieser Zusammentragung an Lehrmaterial, kann es durchaus provisorische bzw. unvollständige Dateien geben.
+Aufgrund der Evergreen Philosophie dieser Zusammentragung an Lehrmaterial, kann es durchaus provisorische bzw. unvollständige Dateien geben.  
 Der Fortschritt dieses Skriptums steht direkt im Zusammenhang mit der Fortbildung des Autors. 
 
 Ohne Push-Berechtigung sind Folgende Einstellungen (`Ctrl+,`) des Obsidian Git Plugins empfohlen:
@@ -36,8 +37,8 @@ Ohne Push-Berechtigung sind Folgende Einstellungen (`Ctrl+,`) des Obsidian Git P
 
 # Cheat-Sheets
 
-- http://tug.ctan.org/info/undergradmath/undergradmath.pdf
-- https://wch.github.io/latexsheet/latexsheet-a4.pdf
-- https://www.rexegg.com/regex-quickstart.html
-- https://regex101.com/
-- https://vim.rtorr.com/
+- <http://tug.ctan.org/info/undergradmath/undergradmath.pdf>
+- <https://wch.github.io/latexsheet/latexsheet-a4.pdf>
+- <https://www.rexegg.com/regex-quickstart.html>
+- <https://regex101.com/>
+- <https://vim.rtorr.com/>

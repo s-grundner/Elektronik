@@ -71,30 +71,30 @@ Hier wird die Liste durchsucht und das erste Element mit Inhalt "abc" wird gelö
 
 ## Methoden / Eigenschaften von ArrayListen
 
-`ArrayList alist`                      Definition einer ArrayList
+`ArrayList alist` Definition einer ArrayList
 
-`alist = new ArrayList()`      Erstellt eine neue ArrayList (Elemente undefiniert)
+`alist = new ArrayList()` Erstellt eine neue ArrayList (Elemente undefiniert)
 
-`ArrayList<String>`                   ArrayList in die nur String eingefügt werden können
+`ArrayList<String>` ArrayList in die nur String eingefügt werden können
 
-`ArrayList<Integer>`                 ArrayList in die nur Integer eingefügt werden können (int klappt nicht da es ein Datentyp und keine Klasse ist)
+`ArrayList<Integer>` ArrayList in die nur Integer eingefügt werden können (int klappt nicht da es ein Datentyp und keine Klasse ist)
 
-`new ArrayList<String>()`      Konstruktor dazu
+`new ArrayList<String>()` Konstruktor dazu
 
-`alist.size()`                       Gibt die Anzahl der Elemente im Feld arr zurück
+`alist.size()` Gibt die Anzahl der Elemente im Feld arr zurück
 
-`alist.add("abc")`               Fügt an der letzten Stelle ein Element ein (hier "abc")
+`alist.add("abc")` Fügt an der letzten Stelle ein Element ein (hier "abc")
 
-`alist.add(0, "abc")`        Fügt an der 1ten Stelle ein Element ein (hier "abc")
+`alist.add(0, "abc")` Fügt an der 1ten Stelle ein Element ein (hier "abc")
 
-`alist.remove(1)`                Löscht das 2te Element in der Liste (Zählung von 0 beginnend)
+`alist.remove(1)` Löscht das 2te Element in der Liste (Zählung von 0 beginnend)
 
-`alist.get(1)`                      Gibt das 2te Element in der Liste zurück (Zählung von 0 beginnend)
+`alist.get(1)` Gibt das 2te Element in der Liste zurück (Zählung von 0 beginnend)
 
-`alist.contains("abc")`    Gibt mit true/false zurück ob das Element enthalten ist
+`alist.contains("abc")` Gibt mit true/false zurück ob das Element enthalten ist
 
-`alist.clear("abc")`          Löscht die Liste
+`alist.clear("abc")` Löscht die Liste
 
-`alist.indexOf("abc")`      Gibt die Position zurück an welcher "abc" das erste mal gefunden wird
+`alist.indexOf("abc")` Gibt die Position zurück an welcher "abc" das erste mal gefunden wird
 
-`alist.toString() `              Gibt die Liste als Zeichenkette aus
+`alist.toString() ` Gibt die Liste als Zeichenkette aus

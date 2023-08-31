@@ -7,7 +7,8 @@ created: 19th April 2022
 ---
 
 # Ringbuffer
-Der Ringbuffer ist ein FIFO Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,
+
+Der Ringbuffer ist ein FIFO Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,  
 indem die zu übertragenden Daten nacheinander in einem Array geschrieben werden und bei bedarf gelesen werden können.
 
 ![](assets/Circular_Buffer_Animation.gif)
@@ -27,24 +28,27 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 ## Freier Speicher im Ringbuffer
 
-> [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden
-> Freie Größe im Ringbuffer (D... Daten, X ... Freier Platz)
-> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_write + p_read - 1` 
+> [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden  
+> Freie Größe im Ringbuffer (D… Daten, X … Freier Platz)
+> - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_write + p_read - 1`  
 > ![RB1](assets/RB1.png)
-> - Daraus folgt:  Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`
+> - Daraus folgt: Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`  
 > ![RB2](assets/RB2.png)
 > ---
-> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = p_read - p_write - 1` 
+> - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = p_read - p_write - 1`  
 > ![RB3](assets/RB3.png)
-> - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0` 
+> - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0`  
 > ![RB4](assets/RB4.png)
 
-> [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe
+> [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe  
 > Es muss eine Stelle im Puffer geben, bei der der Write Pointer stehenbleibt, diese 
 
 ## AVR Example
+
 Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [Schnittstelle]({MOC}%20Schnittstellen.md) `usart0` des µC [ATmega644p](AVR%20ATmega644p.md)
+
 ### Header
+
 ```c
 /// @file ringbuffer.h
 void ringbuffer_init();
@@ -52,7 +56,9 @@ void usart0_init();
 void send_serial_data();
 void print();
 ```
+
 ### Source
+
 Includes:
 ```c
 /// @file ringbuffer.c
@@ -68,14 +74,14 @@ Initialisieren der Ringbuffer variablen:
 #define RINGBUFFER_SIZE 30
 static unsigned char *p_read, *p_write, ringbuffer[RINGBUFFER_SIZE];
 ```
-Zum initialisieren des Ringbuffers werden `p_read` und `p_write` auf den Anfang  von `ringbuffer` gesetzt, damit der Ringbuffer zu Beginn leer ist.
+Zum initialisieren des Ringbuffers werden `p_read` und `p_write` auf den Anfang von `ringbuffer` gesetzt, damit der Ringbuffer zu Beginn leer ist.
 ```c
 void ringbuffer_init()
 {
 	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
 ```
-Anschließend muss die Serielle [Schnittstelle]({MOC}%20Schnittstellen.md) initialisiert werden.
+Anschließend muss die Serielle [Schnittstelle]({MOC}%20Schnittstellen.md) initialisiert werden.  
 Serielle [Schnittstelle]({MOC}%20Schnittstellen.md):
 
 | Baudrate |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |      Interrupt      |           Mode            |
@@ -92,7 +98,7 @@ void usart0_init()
 }
 ```
 
-Um den freien Speicherplatz zu ermitteln, müssen die Kriterien aus [Freier Speicher im Ringbuffer](#Freier%20Speicher%20im%20Ringbuffer) berücksichtigt werden.
+Um den freien Speicherplatz zu ermitteln, müssen die Kriterien aus [Freier Speicher im Ringbuffer](#Freier%20Speicher%20im%20Ringbuffer) berücksichtigt werden.  
 Da die Pointer `p_write` und `p_read` in der ISR verändert werden, könnte bei eintreten eines Interrupts die Falsche `free_size` berechnet werden, weshalb die Interrupts davor gecleared werden müssen.
 ```c
 void free_size(int* head, int* tail)
@@ -115,7 +121,7 @@ void free_size(int* head, int* tail)
 }
 ```
 
-In `send_serial_data()` werden die Daten in den Ringbuffer geschrieben und der UDRE Interrupt eingeschalten.
+In `send_serial_data()` werden die Daten in den Ringbuffer geschrieben und der UDRE Interrupt eingeschalten.  
 In dieser Funktion erfolgt das Beschreiben des Ringbuffers.
 ```c
 int send_serial_data(unsigned char *data, int len)
@@ -141,8 +147,8 @@ int send_serial_data(unsigned char *data, int len)
 }
 ```
 
-Nachdem die Funktion `send_serial_data()` den UDRE Interrupt eingeschalten hat, wird die ISR dieses Interrupt Vektors ausgelöst, sobald das RX Daten Register leer ist.
-In der ISR wird der Ringbuffer gelesen und die Daten an die Serielle gesendet.
+Nachdem die Funktion `send_serial_data()` den UDRE Interrupt eingeschalten hat, wird die ISR dieses Interrupt Vektors ausgelöst, sobald das RX Daten Register leer ist.  
+In der ISR wird der Ringbuffer gelesen und die Daten an die Serielle gesendet.  
 Ist der Ringbuffer leer, so wird der UDRE Interrupt wieder ausgeschalten, bis die Funktion `send_serial_data()` erneut aufgerufen wird.
 
 ```c
@@ -193,4 +199,5 @@ int main()
 ```
 
 ---
+
 # Tags

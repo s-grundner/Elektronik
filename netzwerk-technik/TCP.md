@@ -14,15 +14,15 @@ created: 6th May 2022
 > - Die Reihenfolge und Vollständigkeit wird damit gewährleistet.
 > - Der Empfänger muss Erhalt bestätigen ansonsten wird erneut gesendet.
 > - Endpunkte sind mittels IP-Adresse und Port definiert.
-> - Ein TCP-Segment besteht aus einem Header (beinhaltet Src- und Dst-Port) und der Payload.
+> - Ein TCP-Segment besteht aus einem Header (beinhaltet Srcund Dst-Port) und der Payload.
 
 
 ![TCPIP_im_Schichtenmodell.png](assets/TCPIP_im_Schichtenmodell.png)
 
 ## TCP Segmentierung
 
-Datenpakete werden *segmentiert*/aufgeteilt und nach der Übertragung wieder zusammengesetzt. Die Segmente werden mit einem **HEADER** versehen, indem wichtige Informationen, wie Steuer- und Kontrollelemente , enthalten sind.
-Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richtige Reihenfolge gebracht werden können. 
+Datenpakete werden *segmentiert*/aufgeteilt und nach der Übertragung wieder zusammengesetzt. Die Segmente werden mit einem **HEADER** versehen, indem wichtige Informationen, wie Steuerund Kontrollelemente , enthalten sind.  
+Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richtige Reihenfolge gebracht werden können.  
 **Fehlende werden neu gesendet und Doppelte aussortiert.**
 
 ## Aufbau des TCP Headers
@@ -74,4 +74,4 @@ Ursachen einer Überlasung
 1. Empfängerkapazität
 	- Empfangsbuffer voll $\rightarrow$ Daten können nicht schnell genug empfangen werden.
 	- Bereits durch die Flusskontrolle gelöst.
-1. Netzkapazität
+2. Netzkapazität

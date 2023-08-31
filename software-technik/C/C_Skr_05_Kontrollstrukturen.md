@@ -50,7 +50,7 @@ switch(x) {					// Merfachverzweigung: x=='a', x=='b', sonst
 }
 ```
 
-Mittels `break`-Anweisung können for-, while- und do-while-Schleifen sofort verlassen werden.
+Mittels `break`-Anweisung können for-, whileund do-while-Schleifen sofort verlassen werden.
 
 Mittels `continue`-Anweisung kann in Schleifen sofort zur Prüfung der Schleifenbedingung gesprungen werden, das gilt für sämtliche Schleifen: for, while und do-while.
 

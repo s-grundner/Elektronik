@@ -3,6 +3,7 @@ tags: ["MOT", "Matura"]
 aliases: []
 created: 19th August 2022
 ---
+
 # Map of Topics - Matura
 
 ## Physik (RDP)
@@ -21,7 +22,7 @@ created: 19th August 2022
 - [Newtonsche Kräfte](Newtonsche%20Kräfte)
 - [Welle-Teilchen-Dualismus](Welle-Teilchen-Dualismus.md)
 
-### 6. Elektrizität, Schwingungs- und Wellenphänomene in [Mechanik]({MOC}%20Mechanik.md), Optik und Akustik
+### 6. Elektrizität, Schwingungsund Wellenphänomene in [Mechanik]({MOC}%20Mechanik.md), Optik und Akustik
 
 - Akustik
 - [Elektromagnetische Wellen](Elektromagnetische%20Wellen.md)
@@ -37,12 +38,14 @@ created: 19th August 2022
 ---
 
 # Tags
+
 ## Physik Fragen
-Formeln:
-Energie 3-4 Klasse
+
+Formeln:  
+Energie 3-4 Klasse  
 Einheiten nicht zwingend in SI Einheiten Zerlegen können
 
-Gravitationskraft
+Gravitationskraft  
 Coulomb kraft
 $$
 \begin{align*}
@@ -54,10 +57,10 @@ F &= \frac{mv^{2}}{r}\\
 $$
 Konstanten:
 
-Alle im TR
-ausnahmen:
-masse von proton elektron?
-[TR-Konstanten](Konstanten%20Verzeichnis.md)
+Alle im TR  
+ausnahmen:  
+masse von proton elektron?  
+[TR-Konstanten](Konstanten%20Verzeichnis.md)  
 Energie dichte [Batterie](../chemie/Primärelement.md)
 
 $$

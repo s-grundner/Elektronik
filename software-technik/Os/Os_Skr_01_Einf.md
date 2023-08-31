@@ -5,7 +5,7 @@
 Ein [Betriebssystem](Operating%20Systems.md) ist die **Software**, die **den Betrieb Computers ermöglicht**.
 
 
-Es **verwaltet Betriebsmittel** wie Speicher, Ein- und Ausgabegeräte (und stellt sie somit zur Verfügung) und steuert die Ausführung von Programmen. 
+Es **verwaltet Betriebsmittel** wie Speicher, Einund Ausgabegeräte (und stellt sie somit zur Verfügung) und steuert die Ausführung von Programmen. 
 
 ### Aufgaben
 
@@ -20,7 +20,7 @@ Ein [Betriebssystem](Operating%20Systems.md) hat folgende grundlegende Aufgaben:
 
    - Peripheriegeräte (Terminal, Drucker, Plotter, etc.)  	
 
-   - Rechenzeit 
+   - Rechenzeit  
      Dispatcher: Laden/Starten/Stoppen von Programmen (Prozessen)  	
 
 2. Rechte
@@ -48,9 +48,9 @@ Ein [Betriebssystem](Operating%20Systems.md) hat folgende grundlegende Aufgaben:
 - Abstrakte Maschine = Reale Maschine + [Betriebssystem](Operating%20Systems.md)
 - Benutzermaschine = Abstrakte Maschine + Anwendungsprogramm  	
 
-###  Klassifizierung von Betriebssystemen
+### Klassifizierung von Betriebssystemen
 
-http://de.wikipedia.org/wiki/Liste_der_Betriebssysteme
+<http://de.wikipedia.org/wiki/Liste_der_Betriebssysteme>
 
 Je nach den verschiedenen Aufgabenbereichen entstanden verschiedene Arten von Betriebssystemen:
 
@@ -67,18 +67,18 @@ Je nach den verschiedenen Aufgabenbereichen entstanden verschiedene Arten von Be
 
 Im **PC-Bereich** sind derzeit die meist genutzten Betriebssysteme die verschiedenen Varianten von **Microsoft Windows, Apple Mac OS X, Linux** (GNU-Lizenz).
 
-Für spezielle Anwendungen (Beispiel: **industrielle Steuerung**) werden auch experimentelle Betriebssysteme für Forschung- und Lehrzwecke eingesetzt.
+Für spezielle Anwendungen (Beispiel: **industrielle Steuerung**) werden auch experimentelle Betriebssysteme für Forschungund Lehrzwecke eingesetzt.
 
-Bei bestimmten Betriebssystemen spielt die Verarbeitungszeit eine Rolle. Bei (Echtzeit-)Betriebssystemen für Steuerungs- und Regelungsaufgaben (sog. Prozessrechner) spielt die Antwortzeit eine Rolle. Informationen werden hier zum Teil von Sensoren gewonnen. Das Programm reagiert auf äußere Ereignisse in angemessen kurzer Zeit (Maschinenregelung: 1 - 10 ms, Prozessregelung: 10 - 100 ms, Prozesssteuerung: 0,1 - 1 s). Es wird spezielle Hard- und Software benötigt.  
+Bei bestimmten Betriebssystemen spielt die Verarbeitungszeit eine Rolle. Bei (Echtzeit-)Betriebssystemen für Steuerungsund Regelungsaufgaben (sog. Prozessrechner) spielt die Antwortzeit eine Rolle. Informationen werden hier zum Teil von Sensoren gewonnen. Das Programm reagiert auf äußere Ereignisse in angemessen kurzer Zeit (Maschinenregelung: 1 - 10 ms, Prozessregelung: 10 - 100 ms, Prozesssteuerung: 0,1 - 1 s). Es wird spezielle Hardund Software benötigt.  
 
-###  Schichtenmodell eines Betriebssystems
+### Schichtenmodell eines Betriebssystems
 
 Zur logischen Strukturierung wird das [Betriebssystem](Operating%20Systems.md) normalerweise in mehrere **Schichten** oder Schalen eingeteilt.  
 
-- Die unterste Schale beinhaltet alle **hardwareabhängigen** Teile des Betriebssystems, insbesondere auch die **Verarbeitung von** **Interrupts**. 
+- Die unterste Schale beinhaltet alle **hardwareabhängigen** Teile des Betriebssystems, insbesondere auch die **Verarbeitung von** **Interrupts**.  
   Auf diese Weise ist es möglich, das BS leicht an unterschiedliche Rechnerausstattungen anzupassen.  
 - Die nächste Schicht enthält die grundlegenden **Ein-/Ausgabe**-Dienste für Plattenspeicher und Peripheriegeräte. (**BIOS**)
-- Die darauf folgende Schicht behandelt **Kommunikations- und** **Netzwerkdienste**, **Dateien und** **Dateisysteme**. Weitere Schichten können je nach Anforderung folgen. Ein [Betriebssystem](Operating%20Systems.md) besitzt also drei oder mehr logische Schichten.
+- Die darauf folgende Schicht behandelt **Kommunikationsund** **Netzwerkdienste**, **Dateien und** **Dateisysteme**. Weitere Schichten können je nach Anforderung folgen. Ein [Betriebssystem](Operating%20Systems.md) besitzt also drei oder mehr logische Schichten.
 
 ![OS_Schalenmodell](assets/OS_Schalenmodell.png)
 
@@ -102,11 +102,11 @@ Durch die Programmierschnittstelle (**API**, Application Programmer Interface) d
 
 ![OS Schichtenmodell](assets/OS_Schichtenmodell.png)
 
-###  Multitasking
+### Multitasking
 
 Wenn mehrere Prozesse **quasiparallel/nebenläufig** nebeneinander laufen, dann benötigt das durch den zusätzlichen Aufwand durch die Aufteilung / Organisation der Mittel länger als wenn die Prozesse komplett hintereinander laufen.
 
-Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange kein weiterer ausstehender Prozess ausgeführt. Das passieren relativ häufig durch das Warten auf eine Benutzereingabe oder auf sonstige langsame Ereignisse (Festplattenzugriff, Drucker, Netzwerk ...). Für diese Fälle ist das quasiparallele Ausführen eine große Beschleunigung.
+Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange kein weiterer ausstehender Prozess ausgeführt. Das passieren relativ häufig durch das Warten auf eine Benutzereingabe oder auf sonstige langsame Ereignisse (Festplattenzugriff, Drucker, Netzwerk …). Für diese Fälle ist das quasiparallele Ausführen eine große Beschleunigung.
 
 ![Multitasking](assets/OS_Multitasking.png)
 
@@ -124,7 +124,7 @@ Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange
 
 - **Prozess**
 
-  Wird ein Programm/Prozedur in einem [Betriebssystem](Operating%20Systems.md) **ausgeführt**, so wird dieser Ablauf als **Prozess** (**Task**) bezeichnet. Bei der Ausführung von Prozessen entstehen Statusinformationen (Registerinhalte ...).
+  Wird ein Programm/Prozedur in einem [Betriebssystem](Operating%20Systems.md) **ausgeführt**, so wird dieser Ablauf als **Prozess** (**Task**) bezeichnet. Bei der Ausführung von Prozessen entstehen Statusinformationen (Registerinhalte …).
 
   **Prozess:**
 
@@ -175,21 +175,20 @@ Zusammenfassend:
 
 - In modernen Betriebssystemen können sich mehrere Prozesse gleichzeitig im Speicher befinden, es können jedoch nur so viele Prozesse gleichzeitig ausgeführt werden wie Rechnerkerne vorhanden sind
 
-  **parallel** = gleichzeitig (in eigenen CPUs) laufend
+  **parallel** = gleichzeitig (in eigenen CPUs) laufend  
   **quasiparallel** = gleichzeitig im Speicherbefindlich und abwechselnd in geteilter CPU ausgeführt
 
-- **Scheduler** = Teil des OS - weißt CPU einem Prozess zu
+- **Scheduler** = Teil des OS - weißt CPU einem Prozess zu  
   **Multitasking** = pseudo-parallele Prozesse - eine CPU wird eine *Zeitscheibe* lang zugeteilt
 
 - **Instanz** = Gesamtheit der Prozesszustände eines Prozesses - wird im OS in einer Prozesstabelle gespeichert
 
-- Prozesse können Prozesse erzeugen (fork) und mit anderen Prozessen kommunizieren (read, write)
+- Prozesse können Prozesse erzeugen (fork) und mit anderen Prozessen kommunizieren (read, write)  
   [Demo: pstree, forkdemo.c, pipe-fork.c, mkfifo] 
 
 - **Kooperierende Prozesse** = Prozesse die voneinander abhängen und **synchronisiert** sein müssen
 
 - **Priorität** = Dringlichkeit mit der ein Prozess CPU-Zeit zugeordnet wird
-
 
 ### Prozesszustände
 
@@ -200,7 +199,7 @@ Mögliche Zustände, die ein Prozess einnehmen kann (hier am Beispiel ein einfac
 - **blockiert**: Prozess ist noch nicht zur Ausführung durch die CPU bereit. Er wartet auf das Eintreten eines bestimmten Ereignisses (z. B. Drucker bereit, Benutzereingabe, etc.). Der Einfachheit halber wird hier ein Rechnersystem mit nur einer CPU angenommen, d. h. ein Prozess ist aktiv, alle anderen sind bereit oder blockiert.
 - Für **bereite** und **blockierte Prozesse** wird jeweils eine **eigene** **Warteliste** geführt.
 - Ein neu gestartetes Programm wird am Ende der Bereit-Liste eingetragen.
-- Ein spezieller Teil des Betriebssystems, der **Scheduler**, teilt den Prozessen die CPU zu. 
+- Ein spezieller Teil des Betriebssystems, der **Scheduler**, teilt den Prozessen die CPU zu.  
   Für die Zuteilung existieren unterschiedliche Algorithmen, die das Ziel haben, die CPU möglichst gerecht unter allen Prozessen aufzuteilen. Für die Steuerung der Zeitscheiben ist ein in regelmäßigen Zeitabständen auftretender Hardwareinterrupt notwendig --> der Scheduler wird regelmäßig aufgerufen. Die Situation in der Hardware stellt sich etwa folgendermaßen dar:
 
 Im Speicher liegen die einzelnen Instanzen der Prozesse.  
@@ -217,16 +216,16 @@ Jeweils einem Prozess wird die CPU zugeteilt. In der folgenden Abbildung sind 4 
 
 - **Dispatch**: bereit -> aktiv - Zuteilung der CPU an einen Prozess.
 - **Timerrunout**: aktiv -> bereit - Nach Ablauf einer Zeitscheibe wird dem Prozess die CPU wieder entzogen.
-- **Block**: aktiv -> blockiert  - ein aktiver Prozess wird durch eine Ressource blockiert (wartet auf Eingabe oder Ausgabe ...). Einziger Wechsel den ein Prozess selbst auslösen kann.
+- **Block**: aktiv -> blockiert - ein aktiver Prozess wird durch eine Ressource blockiert (wartet auf Eingabe oder Ausgabe …). Einziger Wechsel den ein Prozess selbst auslösen kann.
 - **Wakeup**: blockiert -> bereit - Das Ereignis, auf das der Prozess gewartet hat, ist eingetreten. Signal an den Prozess 	
 
-###  Process Control Block (PCB):  
+### Process Control Block (PCB):  
 
 Zu jedem Prozess legt das OS einen Prozesssteuerblock (**process control block = PCB**) in der Prozesstabelle ab, der alle notwendigen **Informationen über einen Prozess** enthält, z. B.: 
 
 - **PID**- dies ist eine eindeutige Zahl, über die der Prozess im System identifiziert wird
 - **Prozesszustand** (bereit, aktiv, blockierend)
-- **Blockadeursachen** bei einem schlafenden Prozess (z.B. anderer Prozess schreibt gerade in eine Log-Datei, Drucker, .... gemeinsames Betriebsmittel)
+- **Blockadeursachen** bei einem schlafenden Prozess (z.B. anderer Prozess schreibt gerade in eine Log-Datei, Drucker, …. gemeinsames Betriebsmittel)
 - Verweise auf die dem Prozess zugeteilten Speicherseiten (*Pages*)
 - Benutzerkennungen (bestimmen die *Rechte* des Prozesses)
 - Identifikation empfangener, aber noch nicht bearbeiteter *Signale*
@@ -249,9 +248,9 @@ In UNIX(-ähnliche) OS kann aus einem Prozess ein neuer Prozess gestartet werden
 
 ![](assets/OS_Prozesse_07.png)
 
-[Unix: pstree, ps aux,  top]
+[Unix: pstree, ps aux, top]
 
-###  Prozess-Operationen des BS
+### Prozess-Operationen des BS
 
 |          |                                                              |
 | -------- | ------------------------------------------------------------ |
@@ -268,7 +267,7 @@ Durch die Suspendierungsmöglichkeit erweitert sich das Diagramm der Prozesszust
 
 ![](assets/OS_Prozesse_08.png)
 
-##  3. Prozess-Synchronisation
+## 3. Prozess-Synchronisation
 
 In einigen Multitasking-Betriebssystemen teilen sich verschiedene Prozesse *gemeinsame Betriebsmittel* (Ressourcen). Bei gleichzeitigem Zugriff mehrerer Prozesse auf diese Betriebsmittel kann es zu Inkonsistenzen der Daten kommen, die oft sehr schwer aufzuspüren sind.  
 
@@ -277,27 +276,26 @@ Kooperierende nebenläufige Prozesse müssen daher wegen der zwischen ihnen vorh
 
 Prinzipiell lassen sich zwei Klassen von Abhängigkeiten unterscheiden:  
 
-- **Sperrsynchronisation**:
-  Die Prozesse konkurrieren um die Nutzung gemeinsamer, exklusiv nutzbarer Betriebsmittel 
+- **Sperrsynchronisation**:  
+  Die Prozesse konkurrieren um die Nutzung gemeinsamer, exklusiv nutzbarer Betriebsmittel  
   Beispiel: Zwei Prozesse greifen verändernd auf gemeinsame Daten zu. Der Zugriff zu den gemeinsamen Daten muss koordiniert werden, um eine Inkonsistenz der Daten zu vermeiden -> Sperrsynchronisation (gegenseitiger Ausschluss, *mutual exclusion*).
-- **Ereignissynchronisation**:
-  Die Prozesse sind voneinander datenabhängig. 
-  Beispiel: Ein Prozess erzeugt Daten, die von einem anderen Prozess weiter verarbeitet werden. Es muss eine bestimmte Abarbeitungsreihenfolge eingehalten werden -> Zustands- oder Ereignissynchronisation (z. B. Produzenten-Konsumenten-Synchronisation)  
+- **Ereignissynchronisation**:  
+  Die Prozesse sind voneinander datenabhängig.  
+  Beispiel: Ein Prozess erzeugt Daten, die von einem anderen Prozess weiter verarbeitet werden. Es muss eine bestimmte Abarbeitungsreihenfolge eingehalten werden -> Zustandsoder Ereignissynchronisation (z. B. Produzenten-Konsumenten-Synchronisation)  
 
 
 Ohne eine solche Sperrung entstehen Datenverluste: Problem des **Lost Update**.
 
+### Das *Lost Update*-Problem
 
-###  Das *Lost Update*-Problem
-
-- **Beispiel 1 für *Lost Update*-Problem:**
+- **Beispiel 1 für *Lost Update*-Problem:**  
   Thread1 und Thread2 greifen schreibend auf eine gemeinsame Variable namens `mCount` zu. Sie wollen jeweils die Variable `mCount` um 1 erhöhen. 
 
   Annahme beim Start: `mCount = 7`
 
   Das Erhöhen einer Variablen kann durch folgende Elementaroperationen realisiert werden:
   
-  ​	 read  -> inc -> write
+  ​	 read -> inc -> write
   
   Ein Thread kann zwischen jeden dieser Schritte vom Scheduler unterbrochen werden. Daraus kann sich folgendes Scenario ergeben:
   
@@ -320,7 +318,7 @@ Ohne eine solche Sperrung entstehen Datenverluste: Problem des **Lost Update**.
   - Prozess A erhält nun den Prozessor wieder zugeteilt und macht dort weiter, wo er unterbrochen wurde. Er kennt noch next_free_slot mit dem Wert 7 und trägt den Namen der von ihm auszugebenden Datei in Position 7 der Spooler-Warteschlange ein und erhöht die Variable next_free_slot ohne zu bemerken, dass der Wert 8 dort schon eingetragen war.
   - **Folge:** Prozess A überschreibt den Dateinamen, den Prozess B in der Spooler-Warteschlange auf Position 8 eingetragen hatte. Diese Datei wird vom Spooler *vergessen*.  
 
-###  Kritische Abschnitte / Wechselseitiger Ausschluss
+### Kritische Abschnitte / Wechselseitiger Ausschluss
 
 Die oben angeführten Situationen sind **zeitkritische Abläufe**.
 
@@ -340,22 +338,22 @@ Vier Bedingungen für eine gute Lösung (nach Tanenbaum):
 
 Die letzten beiden Punkte dienen der Stabilität, sie verhindern Prozessverklemmungen.
 
-###  Erzeuger-Verbraucher Problem: ein typ. Beispiel v. Kritischen Abläufen
+### Erzeuger-Verbraucher Problem: ein typ. Beispiel v. Kritischen Abläufen
 
-- **Das Erzeuger-Verbraucher-Problem:**
+- **Das Erzeuger-Verbraucher-Problem:**  
   Der Erzeuger E stellt ein Produkt her und stellt es in einen begrenzten Pufferspeicher. Verbraucher V entnimmt dem Puffer ein Stück des Produktes, um es zu verbrauchen. Beides geschieht zu zufälligen Zeitpunkten. Der **Puffer wird von beiden gemeinsam verwaltet**. Solche Erzeuger-Verbraucher-Probleme treten beispielsweise bei Pipes auf (ein Prozess erzeugt Daten, der andere verarbeitet sie weiter).
 
-- Der **Erzeuger** muss zuerst prüfen, **ob noch Platz** im Puffer ist, bevor er ein Produkt ablegen kann. 
+- Der **Erzeuger** muss zuerst prüfen, **ob noch Platz** im Puffer ist, bevor er ein Produkt ablegen kann.  
   Er muss dann auch den Produktzähler count erhöhen. 
 
   **Ist der Puffer voll, muss er schlafen gehen.**
 
-- Der **Verbraucher** muss prüfen, ob der Puffer nicht **leer** ist, bevor er etwas entnimmt. 
+- Der **Verbraucher** muss prüfen, ob der Puffer nicht **leer** ist, bevor er etwas entnimmt.  
   Er muss dann count dekrementieren. 
 
   **Ist der Puffer leer, muss er schlafen gehen.**
 
-- Wenn der **Erzeuger** ein Produkt in den Puffer stellt, **muss er den Verbraucher wecken**. 
+- Wenn der **Erzeuger** ein Produkt in den Puffer stellt, **muss er den Verbraucher wecken**.  
   Analog muss der **Verbraucher den Erzeuger wecken,** wenn er ein Produkt aus dem Puffer entnimmt.  
 
 
@@ -404,11 +402,11 @@ Umgekehrt schläft der Producer, wenn der Puffer voll ist. Während er schläft,
 
 Der Fehler tritt bei folgendem Szenario auf:  
 
-- **Verbraucher: **
-  Der Puffer ist LEER und der Verbraucher stellt das fest (count == 0) und möchte in den **SLEEP** wechseln.
+- **Verbraucher: **  
+  Der Puffer ist LEER und der Verbraucher stellt das fest (count == 0) und möchte in den **SLEEP** wechseln.  
   Genau zu diesem Zeitpunkt unterbricht der Scheduler den Verbraucher und startet den Produzenten.  
 
-- **Produzent:**
+- **Produzent:**  
   Dieser legt ein Produkt in den Puffer, setzt count auf 1 und startet **WAKEUP**. 
   
 - Wenn der **Verbraucher** vom Scheduler wieder die CPU zugeteilt bekommt, ist er gerade noch wach. Der **Weckruf** bleibt folgenlos, weil ja der Verbraucher noch wach ist. 
@@ -421,12 +419,12 @@ Der **Verbraucher** wechselt nun in den **SLEEP** Zustand.
   
 - eine **Prozessunterbrechung im kritischen Abschnitt** zwischen Erkennung der Bedingung, die zum Aufruf von SLEEP führt und dem SLEEP-Kommando selbst.   
 
-###  Lösungsversuche für das Problem der kritischen Abschnitte
+### Lösungsversuche für das Problem der kritischen Abschnitte
 
-1. Einfachste Lösung: Vor Eintritt in den kritischen Bereich alle Interrupts sperren und sie nach Verlassen des kritischen Bereichs wieder freigeben. Damit kann der Scheduler nicht während des kritischen Abschnitts den Prozess unterbrechen.
+1. Einfachste Lösung: Vor Eintritt in den kritischen Bereich alle Interrupts sperren und sie nach Verlassen des kritischen Bereichs wieder freigeben. Damit kann der Scheduler nicht während des kritischen Abschnitts den Prozess unterbrechen.  
    Nachteil: Kein verdrängendes Multitasking mehr. Der Anwender-Prozess kann den Scheduler blockieren (gewollt oder ungewollt durch einen Programmfehler).
 
-2. **Verfahren mit gegenseitigem Ausschluss**
+2. **Verfahren mit gegenseitigem Ausschluss**  
    Der Programmabschnitt, in dem ein Zugriff zu dem nur exklusiv nutzbaren Betriebsmittel (z. B. die gemeinsamen Daten) erfolgt, wird **kritischer Abschnitt** genannt. Es muss verhindert werden, dass sich zwei Prozesse gleichzeitig in ihren kritischen Abschnitten befinden.
 
    **Sperrvariable**: Es wird eine logische Variable geführt, die mit 0 den Eintritt in den kritischen Bereich erlaubt und mit 1 sperrt. Der in den kritischen Bereich eintretende Prozess muss dann  	
@@ -437,7 +435,7 @@ Der **Verbraucher** wechselt nun in den **SLEEP** Zustand.
 
    - nach Ende wieder freigeben.
 
-     Der Abschnitt von der Prüfung der Sperrvariablen bis zu ihrem Setzen ist selbst ein kritischer Abschnitt! Er ist zwar kürzer und damit die Konfliktwahrscheinlichkeit geringer, aber die Gefahr des Konfliktes ist nicht beseitigt! Es gibt bei vielen CPUs jedoch Befehle von der Form **Teste und Setze**, bei denen der kritische Abschnitt innerhalb eines Maschinenbefehls abgehandelt wird. 
+     Der Abschnitt von der Prüfung der Sperrvariablen bis zu ihrem Setzen ist selbst ein kritischer Abschnitt! Er ist zwar kürzer und damit die Konfliktwahrscheinlichkeit geringer, aber die Gefahr des Konfliktes ist nicht beseitigt! Es gibt bei vielen CPUs jedoch Befehle von der Form **Teste und Setze**, bei denen der kritische Abschnitt innerhalb eines Maschinenbefehls abgehandelt wird.  
      Damit ist folgende Lösung möglich:
 
    - Aktives Warten:
@@ -456,7 +454,7 @@ Der **Verbraucher** wechselt nun in den **SLEEP** Zustand.
      RV[i] = 0;
      ```
 
-     Die Ver- bzw. Entriegelung wird häufig mit den Funktionen LOCK und UNLOCK formuliert:
+     Die Verbzw. Entriegelung wird häufig mit den Funktionen LOCK und UNLOCK formuliert:
    
      ```c
      LOCK(RV[i]);
@@ -471,7 +469,6 @@ Der **Verbraucher** wechselt nun in den **SLEEP** Zustand.
 
      Eine bessere Lösung, weil das Betriebssystem selbständig die Synchronisation leisten kann, sind sogenannte Semaphore.
 
-
 ### Semaphore
 
 ![](assets/OS_Prozesse_09.png)
@@ -485,8 +482,8 @@ Im Zusammenhang mit Algol 68 entwickelte Dijkstra das Prinzip der Arbeit mit Sem
 
  Ein **Semaphor** (auch Sperrvariable genannt) besteht aus  
 
--  einem **Zähler** und  
--  einem **FIFO-Speicher**
+- einem **Zähler** und  
+- einem **FIFO-Speicher**
 
 ```c
 struct Semaphore{
@@ -499,14 +496,14 @@ struct Semaphore{
 
 Der Semaphor unterstützt zwei (nicht unterbrechbare) Operationen
 
--  **P() … Passieren** auch:
-  wait()  … Eintreten in den kritischen Abschnitt  
+- **P() … Passieren** auch:  
+  wait() … Eintreten in den kritischen Abschnitt  
   
--  **V() … verlassen** auch:
-  signal()  … Verlassen des kritischen Abschnittes 
+- **V() … verlassen** auch:  
+  signal() … Verlassen des kritischen Abschnittes 
   
--  Ein **Semaphor** ist mit einer Ampel vergleichbar.
-  Denn wenn ein Prozess in einen kritischen Abschnitt eintreten will, verwendet er wait(). Wenn der kritische Abschnitt frei ist, kann der Prozess eintreten, sonst muss der Prozess warten. Beim Verlassen des kritischen Abschnitts gibt der Prozess durch signal() bekannt, dass er den Abschnitt verlassen hat.
+- Ein **Semaphor** ist mit einer Ampel vergleichbar.  
+  Denn wenn ein Prozess in einen kritischen Abschnitt eintreten will, verwendet er wait(). Wenn der kritische Abschnitt frei ist, kann der Prozess eintreten, sonst muss der Prozess warten. Beim Verlassen des kritischen Abschnitts gibt der Prozess durch signal() bekannt, dass er den Abschnitt verlassen hat.  
   Sollte ein anderer Prozess auf den Eintritt in den kritischen Abschnitt warten, wird dieser darüber informiert.
 
 
@@ -538,21 +535,20 @@ Der Semaphor unterstützt zwei (nicht unterbrechbare) Operationen
 
 **Ein Semaphor**
 
--  **signalisiert einen Zustand** (Belegungszustand) und  
--  **gibt** (in Abhängigkeit von diesem Zustand) den Eintritt in den kritischen Abschnitt **frei** oder
--  versetzt den betreffenden **Prozess in den Wartezustand.**  
+- **signalisiert einen Zustand** (Belegungszustand) und  
+- **gibt** (in Abhängigkeit von diesem Zustand) den Eintritt in den kritischen Abschnitt **frei** oder
+- versetzt den betreffenden **Prozess in den Wartezustand.**  
 
 
 Die binären Semaphore werden auch **Mutexe** (von *Mutual Exclusion*) genannt, jene vom Typ Integer auch "Zähl-Semaphore". 
 
-- **Semaphore für die Sperr-Synchronistion (den gegenseitigen Ausschluss)**
+- **Semaphore für die Sperr-Synchronistion (den gegenseitigen Ausschluss)**  
   sind dem jeweiligen exklusiv nutzbaren Betriebsmittel zugeordnet und **verwalten eine Warteliste** für dieses Betriebsmittel. Sie sind allen Prozessen zugänglich. 
   
-- **Semaphore für die Ereignis-Synchronisation** 
+- **Semaphore für die Ereignis-Synchronisation**  
   zweier voneinander datenabhängiger Prozesse sind diesen Prozessen direkt zugeordnet. Sie dienen zur Übergabe einer Meldung über das Ereignis zwischen den Prozessen.  
 
-###  Semaphore für Erzeuger-Verbraucher-Synchronisation  
-
+### Semaphore für Erzeuger-Verbraucher-Synchronisation  
 
 Vorbesetzung der Semaphore: `start = 0; finish = 0`:   
 
@@ -560,8 +556,8 @@ Vorbesetzung der Semaphore: `start = 0; finish = 0`:
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | while (1)    {<br />  while (!buffer_full) <br />  write_into_buffer();<br />  **signal(start)**;   /* V-Oper. */ <br />  wait(finish);    /* P-Oper. */<br />} | while (1)    {<br />  **wait(start)**;  /* P-Operation */<br />     while(!buffer-empty) <br />     read_from_buffer();<br />    signal(finish);      /* V-Operation */<br />    } |
 
-Der Verbraucher wird gleich schlafend gelegt. Warum?
-Wenn der Erzeuger Daten abgelegt hat, signalisiert er dies durch signal(start).
+Der Verbraucher wird gleich schlafend gelegt. Warum?  
+Wenn der Erzeuger Daten abgelegt hat, signalisiert er dies durch signal(start).  
 Damit kann der Erzeuger nun loslegen.
 
 …
@@ -570,10 +566,10 @@ Damit kann der Erzeuger nun loslegen.
 
 Einige Möglichkeiten der Interprocess Communication (IPC):
 
-- Kommunikation über **gemeinsame Speicherbereiche**
+- Kommunikation über **gemeinsame Speicherbereiche**  
   Prozesse können gemeinsame Datenbereiche, Variablen etc. anlegen und gemeinsam nutzen.
 
-- Kommunikation über **gemeinsame Dateien**
+- Kommunikation über **gemeinsame Dateien**  
   Prozesse schreiben in Dateien, die von anderen Prozessen gelesen werden.
 
   Beispiel:
@@ -594,12 +590,12 @@ Einige Möglichkeiten der Interprocess Communication (IPC):
   shell2: logger "Dies ist ein Test f. syslog und named pipe /dev/xconsole"
   ```
   
-- Kommunikation über **Pipes**
+- Kommunikation über **Pipes**  
   Dies sind unidirektionale Datenkanäle zwischen zwei Prozessen. Ein Prozess schreibt Daten in den Kanal (Anfügen am Ende) und ein anderer Prozess liest die Daten in der gleichen Reihenfolge wieder aus (Entnahme am Anfang). Realisierung im Speicher oder als Dateien. Lebensdauer in der Regel solange beide Prozesse existieren.
 
   [Beispiel: POSIX: cat /etc/passwd | cut -d":" -f1 | sort > usernames.txt]  
 
-- Kommunikation über **Signale**
+- Kommunikation über **Signale**  
   Signale sind asynchron auftretende Ereignisse, die eine Unterbrechung bewirken (-> Software Interrupt). In der Regel zur Kommunikation zwischen BS und Benutzer-Prozess.
 
   [Beispiel: POSIX: selfalarm.c; id-code.c; control-c.c; kill-usr1-usr2.c]  
@@ -607,16 +603,16 @@ Einige Möglichkeiten der Interprocess Communication (IPC):
   - Auslösung vom Benutzer (z. B. Tastendruck)  	
   - Auslösung durch Programmfehler (z. B. Division durch 0)  	
   - Auslösung durch andere Prozesse (z. B. Plattenzugriff durch BS-Dienstroutine, "Daten sind 	bereit")  	
-  - ...
+  - …
 
-- Kommunikation über **Nachrichten** (Botschaften, Messages)
+- Kommunikation über **Nachrichten** (Botschaften, Messages)  
   Nachrichten werden vom BS verwaltet. Dieses stellt eine für die beteiligten Prozesse gemeinsam nutzbare Transportinstanz (z. B. "Mailbox") zur Verfügung. Auf diese greifen die Prozesse über bestimmte Transport-Funktionen des BS (Systemaufrufe) zu. Prozess A sendet z. B. eine Botschaft an Prozess B, indem er sie in der Mailbox ablegt (`send(message);`). Der Prozess B holt die Nachricht dann von der Mailbox ab (`receive(message);`).
 
-- Kommunikation über **Streams (Sockets)**
-  Streams ermöglichen die Kommunikation über Rechnernetze. Logisch gesehen haben Streams dieselbe Aufgabe wie die lokalen Pipes.
+- Kommunikation über **Streams (Sockets)**  
+  Streams ermöglichen die Kommunikation über Rechnernetze. Logisch gesehen haben Streams dieselbe Aufgabe wie die lokalen Pipes.  
   [Beispiel: Socket: t_fileclient.c/t_fileserver.c; t_fileclient.c/t_popenserver.c]  
 
-- Kommunikation über **Prozedurfernaufrufe** (remote procedure call)
+- Kommunikation über **Prozedurfernaufrufe** (remote procedure call)  
   Ein Prozess ruft eine in einem anderen Prozess angesiedelte Prozedur auf (also über seine Adressgrenzen hinweg). Besonders für Client-Server-Beziehungen geeignet.  
 
 Selbst bei sehr einfachen Betriebssystemen ist eine IPC notwendig, da zumindest eine Kommunikation zwischen einem Prozess und dem Scheduler möglich sein muss.  
@@ -636,7 +632,7 @@ In Multitasking-Betriebssystemen ist ein spezieller Prozess notwendig, der aus d
 
 Bei Multitasking-Betriebssystemen werden zwei Grundsysteme für das Scheduling unterschieden:  
 
-- **kooperatives Multitasking** (**non preemptive**) 
+- **kooperatives Multitasking** (**non preemptive**)  
   Der aktive Prozess gibt **von sich** aus die CPU zu einem geeigneten Zeitpunkt frei. Es ist nur ein geringer Verwaltungsaufwand nötig. Es besteht jedoch die Gefahr, dass ein "unkooperativer" oder fehlerhafter Prozess alle anderen Prozesse blockiert. 
 
 - **verdrängendes Multitasking** (**preemptive=unterbrechbar**) Der Scheduler kann einem Prozess die CPU entziehen (z. B. ausgelöst durch einen Timer-Interrupt). Dadurch kann die Bearbeitung dringlicherer Aufgaben jederzeit begonnen werden (z. B. bei Echtzeit-BS). Ein fehlerhafter Prozess kann das System nicht blockieren). 
@@ -645,24 +641,23 @@ Bei Multitasking-Betriebssystemen werden zwei Grundsysteme für das Scheduling u
 
   Anstoß für den Prozesswechsel durch Verdrängung:
 
-  - **Zeitgesteuerte** Strategien
+  - **Zeitgesteuerte** Strategien  
     Jeder Prozess erhält die CPU für eine bestimmte Zeitspanne (Zeitscheibe). Danach wird die CPU dem nächsten Prozess zugeteilt (**Zeitscheibenverfahren, round robin**).
 
-  - **Ereignisgesteuerte** Strategien
+  - **Ereignisgesteuerte** Strategien  
   	Ein Prozesswechsel findet statt, wenn ein Ereignis (z. B. ein Hardwareinterrupt) einen anderen Prozess benötigt. Hier werden allgemein den einzelnen Prozessen Prioritäten zugeordnet, die sich dynamisch ändern. Ein bestimmtes Ereignis verleiht *seinem* Prozess eine höhere Priorität.
 
-
-###  Scheduling-Strategien
+### Scheduling-Strategien
 
 Einige Strategien, die in der Praxis verwendet werden, sind:  
 
-- Wer zuerst kommt, wird zuerst bedient (**first come, first served**): 
+- Wer zuerst kommt, wird zuerst bedient (**first come, first served**):  
   Verteilung der Prioritäten nach Ankunftszeit, ohne Vorrechte. Kommen zwei Prozesse genau gleichzeitig, wird eine zufällige Auswahl getroffen. Gute Systemauslastung, aber schlechtes Antwortzeitverhalten (lang laufende Prozesse behindern Kurzläufer). Einfach zu implementieren.
 
-- **Zeitscheibenverfahren (round robin**):
+- **Zeitscheibenverfahren (round robin**):  
   Jeder Prozess erhält eine feste Zeitspanne (time slice) zugeordnet. Nach Ablauf dieser Zeitspanne wird er verdrängt und der nächste Prozess erhält die CPU -> zyklische Zuteilung. Alle Prozesse haben immer die gleiche Priorität. Die Zeitspanne kann konstant sein oder abhängig von der Prozessorbelastung variieren. Kurze Antwortzeiten bei kleinen Zeitscheiben, aber dann höhere Verluste durch die häufigen Prozesswechsel.
 
-- **Prioritätssteuerung:**
+- **Prioritätssteuerung:**  
   Jedem bereiten Prozess wird eine Priorität zugeordnet. Vergabe der CPU in absteigender Priorität. Ein Prozess niedrigerer Priorität kann die CPU erst erhalten, wenn alle Prozesse höherer Priorität abgearbeitet sind. 
 
   Ein **bereit werdender** Prozess höherer Priorität **verdrängt** einen aktiven Prozess niedrigerer Priorität. Alle Prozesse gleicher Priorität werden i. a. in jeweils einer eigenen Warteschlange geführt.
@@ -683,7 +678,7 @@ In **Dialogsystemen** wird normalerweise **Round Robin** verwendet, um den Benut
 
 Manche Singletasking-BS (z. B. MS-DOS) sind nicht reentrant und daher nicht oder nur schwer auf Multitaskingbetrieb erweiterbar.  
 
-##  6. Gemeinsame Nutzung von Betriebsmitteln/Deadlocks  
+## 6. Gemeinsame Nutzung von Betriebsmitteln/Deadlocks  
 
 Manche Betriebsmittel dürfen nicht gleichzeitig von mehreren Prozessen genutzt werden. Klassisches Beispiel ist hier der Drucker. Die Ausgaben mehrerer Prozesse würden vermischt. Abhilfe bietet hier die Nutzung des Druckers durch einen einzigen Prozess, den Druckerspooler. Alle Prozesse übergeben ihre Ausgaben an diesen Prozess, der die Druckaufträge in einer Warteschlange speichert und nacheinander abarbeitet.  
 
@@ -753,23 +748,23 @@ Oder bei einer Verkehrssteuerung, das Recht, eine Kreuzung zu passieren:
 
 - **Prozess A** fordert den **Drucker** an,  
 
-- ​                                                                **Prozess B** die **Bandstation.** 
+- ​ **Prozess B** die **Bandstation.** 
 
    
 
-- ​                             Beiden Anforderungen wird entsprochen.
+- ​ Beiden Anforderungen wird entsprochen.
 
    
 
-- Nun fordert A die **Bandstation** an, 
+- Nun fordert A die **Bandstation** an,  
   ohne den Drucker freizugeben.  
 
-- ​                                                               Prozess B fordert dagegen den **Drucker** an 
-  ​                                                               ohne die Bandstation freizugeben.
+- ​ Prozess B fordert dagegen den **Drucker** an  
+  ​ ohne die Bandstation freizugeben.
 
    
 
-- ​                            Folge: gegenseitige Blockierung 
+- ​ Folge: gegenseitige Blockierung 
 
   
 
@@ -788,22 +783,22 @@ Für das Auftreten einer Verklemmung müssen folgende Bedingungen erfüllt sein:
 
 Im allgemeinen werden vier **Strategien zur Behandlung von Verklemmungen** verwendet:  
 
-- **Ignorieren des Problems**
+- **Ignorieren des Problems**  
   Die Frage ist, wie oft eine Verklemmung auftritt. Bei durchschnittlich einer Verklemmung pro Monat kann das Problem durchaus ignoriert werden. Interaktiv arbeitende Benutzer werden sowieso bald die Geduld verlieren und den Prozess abbrechen. Bei Batch-Systemen wird die Verklemmung bei der täglichen oder wöchentlichen Systemwartung entdeckt.
 
-- **Entdecken und Beheben von Verklemmungen**
+- **Entdecken und Beheben von Verklemmungen**  
   Das BS hält Anforderungen und Freigaben von BM fest und stellt sie in Form eines BM-Grafen dar. Bei jeder Anforderung/Freigabe wird der Graf auf Zyklen untersucht. Billigere Methode: Zyklisch prüfen, ob ein Prozess längere Zeit (einige Stunden) blockiert ist und diesen dann entfernen. Nachteil: möglicherweise inkonsistente Daten.
 
 - **Verhindern von Verklemmungen durch Negation einer der 4 Bedingungen**
 
   Beispiel Drucker: Es wird ein Prozess eingeführt, der als einziger Prozess den Drucker exklusiv 		*besitzt*.
 
-- **Vermeiden der Verklemmungen durch sorgfältige BM-Vergabe**
+- **Vermeiden der Verklemmungen durch sorgfältige BM-Vergabe**  
   Durch geeignete BM-Zuweisung kann eine Verklemmung vermieden werden, wenn einige Informationen im voraus verfügbar sind.
 
- ## Ressourcen
+## Ressourcen
 
 - Andrew S. Tanenbaum: Moderne Betriebssysteme.
 - [www.netzmafia.de](http://www.netzmafia.de/) 	(Prof. Jürgen Plate)
-- http://openbook.galileocomputing.de/c_von_a_bis_z
-- http://de.wikipedia.org/wiki/Betriebssystem
+- <http://openbook.galileocomputing.de/c_von_a_bis_z>
+- <http://de.wikipedia.org/wiki/Betriebssystem>

@@ -1,5 +1,3 @@
-
-
 # EMail (SMTP, POP3, IMAP)
 
 ## Allgemeines
@@ -20,9 +18,9 @@ Entwickeln eines E-Mail Client. Viele E-Mail Provider bieten keinen Zugang mitte
 
 ### Direkter Test
 
-Bis vor einigen Jahren waren viele Mail-Provider direkt mittels der Protokolle erreichbar. Da die Protokolle SMTP, POP3 und IMAP auf [TCP](../../netzwerk-technik/TCP.md) aufsetzten, konnte so direkt mittels Telnet mit diesen Providern kommuniziert werden. Dadurch sind die übertragenen Daten von Dritten direkt lesbar. Aus diesem Grund wurden die Protokolle dafür zumindest auf SSL/TLS aufgesetzt. Das ist eine Schicht zwischen [TCP](../../netzwerk-technik/TCP.md) und den übergeordneten Schichten, die den gesamten Datenverkehr verschlüsselt. Dieser kann zwar ebenfalls mitgehört werden, für aktuell "gängige" Rechnerleistungen aber nur mit unverhältnismäßig hohen Aufwand zu entschlüsseln. Um verschlüsselt kommunizieren zu können ist Telnet nicht geeignet, dafür kann z.B. *OpenSSL* verwendet werden. OpenSSL beinhaltet einerseits Bibliotheken für die Entwicklung von kryptographischen Anwendungen (Zertifikat-, Schlüsselerzeugung, Ver-/Entschlüsseln ...) und andererseits Kommandozeilen-Tools die direkt verwendet werden können. Außerdem ist *OpenSSL*  für alle gängigen OS frei erhältlich.
+Bis vor einigen Jahren waren viele Mail-Provider direkt mittels der Protokolle erreichbar. Da die Protokolle SMTP, POP3 und IMAP auf [TCP](../../netzwerk-technik/TCP.md) aufsetzten, konnte so direkt mittels Telnet mit diesen Providern kommuniziert werden. Dadurch sind die übertragenen Daten von Dritten direkt lesbar. Aus diesem Grund wurden die Protokolle dafür zumindest auf SSL/TLS aufgesetzt. Das ist eine Schicht zwischen [TCP](../../netzwerk-technik/TCP.md) und den übergeordneten Schichten, die den gesamten Datenverkehr verschlüsselt. Dieser kann zwar ebenfalls mitgehört werden, für aktuell "gängige" Rechnerleistungen aber nur mit unverhältnismäßig hohen Aufwand zu entschlüsseln. Um verschlüsselt kommunizieren zu können ist Telnet nicht geeignet, dafür kann z.B. *OpenSSL* verwendet werden. OpenSSL beinhaltet einerseits Bibliotheken für die Entwicklung von kryptographischen Anwendungen (Zertifikat-, Schlüsselerzeugung, Ver-/Entschlüsseln …) und andererseits Kommandozeilen-Tools die direkt verwendet werden können. Außerdem ist *OpenSSL* für alle gängigen OS frei erhältlich.
 
-Verbindung auf Server (Servername und Port im Internet suchen, eine gute Übersicht bietet etwa https://www.pop3-imap-smtp.de/gmail/):
+Verbindung auf Server (Servername und Port im Internet suchen, eine gute Übersicht bietet etwa <https://www.pop3-imap-smtp.de/gmail/):>
 
 ```
 openssl s_client -connect smtp.gmail.com:465
@@ -39,13 +37,13 @@ User: lolahillbilly39@gmail
 PW: morgenistmontag1
 ```
 
-(klassisch `telnet -z ssl smtp.gmail.com 465` ...).
+(klassisch `telnet -z ssl smtp.gmail.com 465` …).
 
 ### Base64
 
-Beim Übertragen von Zeichen gibt's ein Problem mit der Darstellbarkeit in Editoren ... Aus diesem Grund werden die übertragenen Zeichen in 6Bit-Gruppen zusammengefasst (0-63) und dieser Zahl Zeichen zugeordnet: `A-Z, a-z, 0-9, +,/` diese Zeichen sind überall möglich.
+Beim Übertragen von Zeichen gibt's ein Problem mit der Darstellbarkeit in Editoren … Aus diesem Grund werden die übertragenen Zeichen in 6Bit-Gruppen zusammengefasst (0-63) und dieser Zahl Zeichen zugeordnet: `A-Z, a-z, 0-9, +,/` diese Zeichen sind überall möglich.
 
-https://de.wikipedia.org/wiki/Base64 beschreibt die Sache recht gut.
+<https://de.wikipedia.org/wiki/Base64> beschreibt die Sache recht gut.
 
 ### Qt mit Sicherheitsprotokollen (SSL/TLS)
 
@@ -53,7 +51,7 @@ Für Qt kann während der Installation bei der Auswahl der zu implementierenden 
 
 - die Bibliothek ist in *c:\windows\system32* (oder ähnlichem Verzeichnis) abgelegt
 
-- die Bibliothek ist direkt im Verzeichnis der erstellten Applikation abgelegt (build-Verzeichnis)
+- die Bibliothek ist direkt im Verzeichnis der erstellten Applikation abgelegt (build-Verzeichnis)  
   Nachdem das Build-Verzeichnis eventuell für eine komplette Neuerstellung geleert/gelöscht wird, kann in die Qt-Projekt-Datei (*.pro-Datei) am Ende der Datei eingefügt werden, dass die Dateien jedes mal neu (aus dem Source-Verzeichnis) einkopiert werden (dazu werden *libcrypto-1_1-x64.dll* und *libssl-1_1-x64.dll* im Source-Verzeichnis abgelegt) in den Ordner mit dem Source Code kopieren:
 
   ```
@@ -77,7 +75,7 @@ Grundsätzlich ist es nicht sehr aufwändig einen eigenen Mailserver zu betreibe
 
 Mails können mittels **SMTP** Protokoll versendet werden.
 
-1. Verbinden mit dem Mailserver. Für eine verschlüsselte Verbindung wird in Qt mittels *QSslSocket* verbunden (Ansonsten direkt mit *QTcpSocket*) (https://support.google.com/mail/answer/7104828):
+1. Verbinden mit dem Mailserver. Für eine verschlüsselte Verbindung wird in Qt mittels *QSslSocket* verbunden (Ansonsten direkt mit *QTcpSocket*) (<https://support.google.com/mail/answer/7104828):>
 
    ```c++
    QSslSocket *m_sock = new QSslSocket();
@@ -139,8 +137,8 @@ Mails können mittels **SMTP** Protokoll versendet werden.
    to:Roman Schragl<roman.schragl@htl-salzburg.ac.at>\r\n
    from:Jim Jones<lolahillbilly39@gmail.com>\r\n
    subject:MainHeader\r\nMailContent\r\n.\r\n
-250 2.0.0 OK  1588069347 r3sm25977716wrx.72 - gsmtp\r\n
-   quit\r\n
+250 2.0.0 OK 1588069347 r3sm25977716wrx.72 - gsmtp\r\n  
+   quit\r\n  
    221 2.0.0 closing connection r3sm25977716wrx.72 - gsmtp\r\n
    ```
    
@@ -167,7 +165,7 @@ Mails können mittels **SMTP** Protokoll versendet werden.
 
    Das erste Wort +OK bedeutet dass die Anmeldung in Ordnung ist.
 
-2. Authentifizierung
+5. Authentifizierung
 
    ```
    USER lolahillbilly39@gmail.com\r\n
@@ -176,7 +174,7 @@ Mails können mittels **SMTP** Protokoll versendet werden.
    +OK Welcome.\r\n
    ```
 
-3. Nun gibt es mehrere Optionen, hier werden einmal Beispielhaft:
+6. Nun gibt es mehrere Optionen, hier werden einmal Beispielhaft:
 
    - der Status abgefragt
    - die Liste der Mails abgefragt
@@ -190,7 +188,7 @@ Mails können mittels **SMTP** Protokoll versendet werden.
 
    Dabei wird mit *STAT* angezeigt, dass 1 Nachricht und 5504Bytes verfügbar sind. Mit *LIST* wird eine Liste der verfügbaren Mails angezeigt, hier ist nur 1 Mail da, daher ist die Liste sehr kurz: 1 mit 5504Bytes Größe.
 
-4. Abfrage von Mails (hier Mail Nr. 1):
+7. Abfrage von Mails (hier Mail Nr. 1):
 
    ```
    RETR 1\r\n
@@ -209,7 +207,7 @@ Mails können mittels **SMTP** Protokoll versendet werden.
 
 Auf GMail können E-Mails mittels POP3 oder IMAP Protokoll empfangen werden.
 
-1. Verbinden mit dem Mailserver wie mit SMTP. Dazu wird ein QSslSocket erzeugt und auf Port 993 verbunden (https://support.google.com/mail/answer/7104828):
+1. Verbinden mit dem Mailserver wie mit SMTP. Dazu wird ein QSslSocket erzeugt und auf Port 993 verbunden (<https://support.google.com/mail/answer/7104828):>
 
    ```c++
    QSslSocket *m_sock = new QSslSocket();
@@ -499,18 +497,18 @@ int main()
 
 ## Referenzen
 
-- RFC821 SMTP-Standard
-  https://tools.ietf.org/html/rfc821
-  RFC1869 ESMTP-Standard
-  https://tools.ietf.org/html/rfc1869
+- RFC821 SMTP-Standard  
+  <https://tools.ietf.org/html/rfc821>  
+  RFC1869 ESMTP-Standard  
+  <https://tools.ietf.org/html/rfc1869>  
   Es gibt mehrere SMTP-Standard-Erweiterungen, in Wikikpedia sind diese brauchbar verlinkt.
 
-- RFC1939 - POP3-Standard
-  https://tools.ietf.org/html/rfc1939
+- RFC1939 - POP3-Standard  
+  <https://tools.ietf.org/html/rfc1939>
 
-- Base64-Umwandlung
-  https://www.base64decode.org/
-- OpenSSL - Windows-Binaries 32 und 64 Bit, die Nicht-Light-Version beinhaltet neben Bibliotheken auch Tools
-  http://slproweb.com/products/Win32OpenSSL.html
-- Aufbau Mail Senden (Envelope ...)
-  https://www.msxfaq.de/internet/envelope.htm
+- Base64-Umwandlung  
+  <https://www.base64decode.org/>
+- OpenSSL - Windows-Binaries 32 und 64 Bit, die Nicht-Light-Version beinhaltet neben Bibliotheken auch Tools  
+  <http://slproweb.com/products/Win32OpenSSL.html>
+- Aufbau Mail Senden (Envelope …)  
+  <https://www.msxfaq.de/internet/envelope.htm>

@@ -7,8 +7,10 @@ created: 29th March 2022
 ---
 
 # Newtonsches Abkühlungsgesetz
+
 ## Beschreibung
-Das Newtonsche Abkühlungsgesetz besagt, dass die Temperaturänderung eines betrachteten Objekt proportional zur Temperaturdifferenz der Umgebungstemperatur und der [Temperatur](Temperatur%20und%20Teilchenmodell.md) des Objekts ist.
+
+Das Newtonsche Abkühlungsgesetz besagt, dass die Temperaturänderung eines betrachteten Objekt proportional zur Temperaturdifferenz der Umgebungstemperatur und der [Temperatur](Temperatur%20und%20Teilchenmodell.md) des Objekts ist.  
 Es gilt daher:
 $$
 \begin{align*}
@@ -18,6 +20,7 @@ $$
 Der Temperaturkoeffizient $k$ in $s^{-1}$ wird bei der Abkühlung des Objektes negativ, sonst positiv.
 
 ## Herleitung des Temperaturverlaufs $T(t)$
+
 Die [lineare DGL 1. Ordnung](../mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md) löst sich wiefolgt:
 $$
 \begin{align*}
@@ -32,4 +35,5 @@ $$
 \end{align*}
 $$
 Der Lösung der inhomogenen DGL wird anhand des [](../mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%201%20Ordnung|Störterms) $-k\cdot T_{umgebung}$ ermittelt:
+
 # Tags

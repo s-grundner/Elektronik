@@ -14,7 +14,7 @@ created: 26th April 2022
 Ist eine Funktion auf
 - $t\in\mathbb{R}$
 - definiert mit $f(t):[0,\infty[$
-- für $t<0$,
+- für $t<0$,  
 so heißt:
   
 >[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C}$$
@@ -22,8 +22,8 @@ so heißt:
 > [!summary] Frequenzparameter: $s = \delta+j\omega$
 > 
 
-[Fourier Transformation](Fourier%20Transformation.md) vs. Laplace Transformation
-$$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$
+[Fourier Transformation](Fourier%20Transformation.md) vs. Laplace Transformation  
+$$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$  
 für $s=j\omega$ ist dann $F(s)=F(\omega)$
 
 >[!example] Bsp.: Deltaimpuls
@@ -38,10 +38,8 @@ für $s=j\omega$ ist dann $F(s)=F(\omega)$
 > \end{align*}
 > $$
 
-
-
-
 ## Herleitung
+
 Woher: $f(t)\cdot e^{-\delta t}$ wird [fourier-transformiert](Fourier%20Transformation.md) $(f(t)=0 \forall t<0)$
 
 $$
@@ -51,17 +49,25 @@ F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
 \mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} \qquad f(t) = 0 \forall t<0
 \end{align*}
 $$
+
 ## Regeln der Laplace Transformation
+
 ### Linearitätssatz
+
 #### Summenregel
+
 $$
 \mathcal{L}\{f(t) + g(t)\} = \mathcal{L}\{f(t)\} + \mathcal{L}\{g(t)\} 
 $$
+
 #### Faktorregel
+
 $$
 \mathcal{L}\{c\cdot f(t)\} = c\cdot \mathcal{L}\{f(t)\} 
 $$
+
 ### Dämpfungssatz
+
 Aus einer [Dämpfung](../../hwe/Dämpfung.md) im [Zeitbereich](../mathe%20(3)/Komplexe%20Zahlen.md) wird eine Verschiebung im [Bildbereich](../mathe%20(3)/Komplexe%20Zahlen.md)
 
 $$
@@ -73,7 +79,9 @@ $$
 	f(t)\cdot e^{-at} &\multimap F(s+a)
 \end{align*}
 $$
+
 ### Zeitverschiebungs-Satz
+
 Ist $t \leq 0$ so gilt:
  $$
 \begin{align*}
@@ -82,7 +90,9 @@ Ist $t \leq 0$ so gilt:
 \end{align*}
 $$   
 ![Zeitverschiebungssatz](../assets/Zeitverschiebungssatz.png)
+
 #### Herleitung
+
 $$
 \begin{align*}
 	f(t-a) &\multimap F(s)\cdot e^{-a\cdot s}\\
@@ -103,7 +113,9 @@ $$
 	\mathcal{L}\{f(t)\} &=\underbrace{\mathcal{L}\{\sigma(t)\}}_{\frac{1}{s}} - \underbrace{\mathcal{L}\{\sigma(t-1)\}}_{e^{} ...}
 \end{align*}
 $$
+
 ### Ähnlichkeitssatz (Zeit Dehnung bzw. -Streckung)
+
 $$
 \begin{align*}
 	f(a\cdot t) &\multimap \frac{1}{a} \mathcal{F}(\frac{s}{a})
@@ -116,6 +128,7 @@ $$
 $$
 
 ### Differentationssatz
+
 $$
 \begin{align*}
 	\mathcal{L}\{f'(t)\} &= \int_{0}^{\infty}f'(t)\cdot e^{-st}dt = \lim_{b\rightarrow 0}f(t)\cdot e^{-st} \Bigg{|}_{0}^{b}-\int_{0}^{\infty}f(t)\cdot e^{-st}(-s)dt
@@ -129,7 +142,9 @@ $$
 	\mathcal{L}\{f'''(t)\} &= s^{3}\cdot F(s) - s^{2}\cdot f(0) - s\cdot f'(0) - f(0)''
 \end{align*}
 $$
+
 ### Integrationssatz
+
 $$
 \int_{0}^{t} f(\tau)d\tau \multimap \frac{1}{s}F(s)
 $$
@@ -146,7 +161,7 @@ Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lin
 
 Bei umfangreichen Netzwerken ist jedoch oft
  - das Aufstellen der [Differenzialgleichung(en)]({MOC}%20DGL.md) 
- - die Lösung
+ - die Lösung  
  mit beträchtlichen Schwierigkeiten verbunden.
 
 # Tags

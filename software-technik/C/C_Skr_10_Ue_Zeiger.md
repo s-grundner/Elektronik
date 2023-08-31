@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # Zeiger - Übungen
 
-##  Swap
+## Swap
 
 Erstellen Sie eine Funktion zum Vertauschen von zwei int-Werten swap(). Die Werte von den beiden Variablen x und y sollen innerhalb einer Funktion vertauscht werden. Dafür müssen zwei Werte aus der Funktion zurückgegeben werden --> Call-by-Reference.
 
@@ -33,7 +33,7 @@ void swap (int* a, int* b){
 }
 ```
 
-##  Ausgabe
+## Ausgabe
 
 Geben SIe Zeigervariablen (Adressen) mittels %p und %x aus und vergleichen das Ergebnis.
 
@@ -50,11 +50,11 @@ int main() {
 
 %p gibt Adressen in einem klar definierten Format aus: hexadezimal und immer genauso lange wie die Adresse sein kann (inkl. führender Nullen).
 
-##  Strcpy
+## Strcpy
 
 Erstellen Sie eine Funktion zum Kopieren einer Zeichenkette in eine zweite (siehe Bibliotheksversion strcpy()). Wichtig: Zielzeichenkette muss groß genug sein.
 
-##  Strncpy
+## Strncpy
 
 Erstellen Sie eine Funktion `strncpy()` zum Kopieren eines char-Felds in ein Zweites unter Angabe der Anzahl der Zeichen.
 
@@ -63,22 +63,26 @@ Erstellen Sie eine Funktion `strncpy()` zum Kopieren eines char-Felds in ein Zwe
 Erstellen Sie eine Funktion `strcmp()` zum Vergleichen zweier Zeichenketten. Bei Gleichheit soll die Funktion 0 zurückgeben, wenn das erste Zeichenkette kleiner ist, dann soll eine negative Zahl mit der char-Differenz zurückgegeben werden. Wenn das erste Zeichenkette größer ist, dann soll eine positive Zahl mit der char-Differenz zurückgegeben werden. Der Vergleich soll erfolgen bis in der ersten Zeichenkette ein \0 kommt.
 
 ## Strncmp
+
 Erstellen Sie eine Funktion `strncmp()` zum Vergleichen zweier Zeichenketten. Bei Gleichheit soll die Funktion 0 zurückgeben, wenn das erste Zeichenkette kleiner ist, dann soll eine negative Zahl mit der char-Differenz zurückgegeben werden. Wenn das erste Zeichenkette größer ist, dann soll eine positive Zahl mit der char-Differenz zurückgegeben werden. Die Anzahl der Zeichen die verglichen werden sollen, soll mit einem Parameter angegeben werden.
 
 ## Strcat
+
 Zeichenkette anhängen. Die Zielzeichenkette muss groß genug definiert sein um die resultierende Zeichenkette aufzunehmen.
 
 ## Strncat
+
 Zeichenkette anhängen mit Angabe wieviele Zeichen maximal angehängt werden dürfen. Die Zielzeichenkette muss groß genug definiert sein um die resultierende Zeichenkette aufzunehmen.
 
 ## Strlen
+
 Bestimmung der Länge einer Zeichenkette. Das Ende einer Zeichenkette kann erkannt werden durch ein EOS-Zeichen ('\0').
 
-##  FeldMinMax
+## FeldMinMax
 
 Die Funktion `find_max_min_pos()` soll von einem Integer-Array die Position des Maximums und die Position des Minimums liefern. Mit einem herkömmlichen return kann man ja nur einen Wert zurückgeben. Zur Lösung muss daher eine Call-by-Reference Funktion.
 
-##  TextData
+## TextData
 
 Gegeben sei ein Text, der das Zeichen '=' enthält. (Beispiel "nachname=meier").
 
@@ -94,7 +98,7 @@ Schreiben Sie die **Funktion `cgi()`**, die als Input (Funktionsparameter) den T
 - Programmieren Sie die Funktion `cgi()`
 - Erstellen Sie ein kleines Testprogramm
 
-##  CharReplace
+## CharReplace
 
 Schreiben Sie ein Testprogramm und die **Funktion `mystr_ersetze()`**. Sie soll als Input einen Text und ein durch ein zweites Zeichen zu ersetzendes Zeichen bekommen und folgendes zurückgeben:
 
@@ -112,7 +116,7 @@ Erstellen Sie:
 - Erstellen Sie ein kleines Testprogramm und
 - programmieren Sie die Funktion mystr_ersetze aus.
 
-##  DynSpeicher
+## DynSpeicher
 
 Über eine Tastatureingabe sollen solange Zahlen eingelesen werden bis 99 eingegeben wird. Die Zahlen sollen in ein dynamisches Feld gespeichert werden. Zu Beginn soll das Feld 10 Elemente haben. Wenn die 5te Zahl eingegeben wird, dann soll das Feld um 5 Elemente vergrößert werden. Bei Eingabe des 10ten Elements soll das Feld wieder um 5 Elemente vergrößert werden und so fort.
 
@@ -143,17 +147,17 @@ int main() {
 }
 ```
 
-##  Kommandozeile
+## Kommandozeile
 
 Erstellen Sie ein Programm zum addieren/subtrahieren/dividieren/multiplizieren von zwei Zahlen. Die Berechnung soll in der Kommandozeile folgende Eingaben ermöglichen:
 
-`rechne.exe 3 + 4`,  `rechne.exe 2.5 - 7.9`,  `rechne.exe 2.5 x 7.9`  und  `rechne.exe 2.5 / 7.9`
+`rechne.exe 3 + 4`, `rechne.exe 2.5 - 7.9`, `rechne.exe 2.5 x 7.9` und `rechne.exe 2.5 / 7.9`
 
-##  CallArg
+## CallArg
 
 Zeigen Sie sämtliche Aufrufparameter des Programms in der Kommandozeile an.
 
-##  Dynamischer Speicher
+## Dynamischer Speicher
 
 Erstellen Sie eine Funktion store() zum Speichern von Int-Zahlen in einem dynamischen Speicherbereich:
 
@@ -169,15 +173,15 @@ Hauptprogramm:
 
 Beispielausgabe:
 
-Eingabe von Daten, Ende mit "-1":
-1
-2
-3
-4
-5
-6
-7
-8
+Eingabe von Daten, Ende mit "-1":  
+1  
+2  
+3  
+4  
+5  
+6  
+7  
+8  
 -1
 
 Inhalt dyn. Speicher: [1, 2, 3, 4, 5, 6, 7, 8]
@@ -186,7 +190,7 @@ Verschieben Sie die Funktion store in ein eigenes Modul store.c/store.h
 
 Allgemein: Die Funktion `ptr = realloc(ptr, size)` passt die Größe eines Speichers so an, dass er dann die Größe size-Bytes hat.
 
-##  Higher/Lower
+## Higher/Lower
 
 Implementieren Sie ein Spiel HigherLower welches eine Zufällige Zahl zwischen 1 und 1000 generiert. Der Benutzer soll dann mit 10 Versuchen die richtige Zahl erraten. Das Spiel sagt dem Benutzer nach jedem Raten ob die gesuchte Zahl höher oder tiefer als sein Tipp ist. Das Spiel soll dann je nach Anzahl benötigter Versuche einen Wert zurück geben. Denken Sie daran, dass ein höherer Wert zurück gegeben wird, wenn der Spieler seine Sache gut macht.
 
@@ -201,7 +205,7 @@ Ihr Tipp: 697
 3. Tipp 697 ist Richtig! Sie gewinnen 800 Punkte!
 ```
 
-##  Siebzehn Und Vier
+## Siebzehn Und Vier
 
 Implementieren Sie das Spiel Siebzehn und Vier (Black Jack). Mischen Sie dazu 6 Pakete französischer Spielkarten zu 52 Blatt. Ziel des Spiels ist es mit zwei oder mehr Karten so nahe wie möglich an 21 Punkte heran zu kommen, diesen Wert aber nicht zu überschreiten. Das Spiel verläuft in Runden und eine Runde besteht aus folgenden Schritten:
 
@@ -209,13 +213,13 @@ Implementieren Sie das Spiel Siebzehn und Vier (Black Jack). Mischen Sie dazu 6 
 2. Der Spieler und der Croupier erhalten je eine offene Karte. Der Spieler erhält zusätzlich noch eine zweite Karte.
 3. Der Spieler kann nun beliebig oft eine nächste Karte verlangen.
 4. Will der Spieler keine weitere Karte mehr ist der Croupier an der Reihe. Der Croupier zieht genau solange eine Karte wie er weniger als 17 Punkte hat.
-5. Hat entweder der Croupier oder der Spieler den Wert 21 überschritten hat er sofort verloren. Ist der Croupier näher an 21 hat der Spieler verloren. Erreichen beide die gleiche Anzahl Punkte ist es ein Unentschieden.
+5. Hat entweder der Croupier oder der Spieler den Wert 21 überschritten hat er sofort verloren. Ist der Croupier näher an 21 hat der Spieler verloren. Erreichen beide die gleiche Anzahl Punkte ist es ein Unentschieden.  
     Dabei werden die Punkte wie folgt gezählt:
   - Augenkarten zählen entsprechend ihrer Augen. 
   - Bildkarten (Bube, Dame und König) zählen zehn Punkte. 
   - Ein Ass zählt nach Belieben ein oder elf Punkte, der Wert des Asses wird zu Ende der Runde vom Spieler gewählt. Für den Croupier gilt das Ass als elf Punkte, ausser er würde sich dabei überkaufen.
-6. Hat der Spieler verloren, geht sein Einsatz an die Bank. Bei einem Unentschieden erhält der Spieler seinen Einsatz zurück. Hat der Spieler gewonnen, erhält er den doppelten Einsatz zurück. Im Falle eines Black Jacks (Ass und Bildkarte) erhält der Spieler zweieinhalb mal seinen Einsatz ausbezahlt.
-7. Nach dem Auszahlen des Gewinns beginnt die nächste Runde.
+1. Hat der Spieler verloren, geht sein Einsatz an die Bank. Bei einem Unentschieden erhält der Spieler seinen Einsatz zurück. Hat der Spieler gewonnen, erhält er den doppelten Einsatz zurück. Im Falle eines Black Jacks (Ass und Bildkarte) erhält der Spieler zweieinhalb mal seinen Einsatz ausbezahlt.
+2. Nach dem Auszahlen des Gewinns beginnt die nächste Runde.
 
 Beispiel-Ausgabe:
 
@@ -233,13 +237,13 @@ Ihr Punktestand: 550
 Wollen Sie weiterspielen? j
 ```
 
-##  Casino
+## Casino
 
 Schreiben Sie ein Casino-Programm, dass eine Auswahl von Spielen (Hangman, 17und4, HigherLower, Rolett) ermöglicht. Bei Auswahl wird in das entsprechende Spiel verzweigt. Passen Sie die Spiele so an, dass ein Gewinn von einem Spiel in ein anderes mitgenommen werden kann.
 
-##  Schriftarten
+## Schriftarten
 
-Schreiben Sie ein Programm das einen einzugebenden Text in einem anderen (ASCII-Art-) Font darstellt. Wählen sie dazu einen von http://www.jave.de/figlet/fonts.html aus.
+Schreiben Sie ein Programm das einen einzugebenden Text in einem anderen (ASCII-Art-) Font darstellt. Wählen sie dazu einen von <http://www.jave.de/figlet/fonts.html> aus.
 
 Beispiel-Ausgabe:
 
@@ -252,7 +256,7 @@ _______  _    _   ______    ______    _    _  _____  ______  _    __
   |_|   |_|  |_| |_|____   \_|__|__\ \_|__|_| _|_|_ |_|____ |_|  \_\  
 ```
 
-##  4Gewinnt
+## 4Gewinnt
 
 Schreiben Sie ein 4-Gewinnt-Programm für zwei Spieler:
 
@@ -267,7 +271,7 @@ Schreiben Sie ein 4-Gewinnt-Programm für zwei Spieler:
 Spieler X:
 ```
 
-Abwechselnd setzen zwei Spieler einen Stein in eine der Reihen.  Als Eingabe ist eine Ziffer zwischen 1 und 7 einzulesen. Daraufhin wird für einen der Spieler automatisch ein X gesetzt für den zweiten der Spieler ein O. Wann immer einer der Spieler 4 Steine in einer Reihe (waagrecht, senkrecht oder diagonal) platzieren konnte wird das Spiel beendet.
+Abwechselnd setzen zwei Spieler einen Stein in eine der Reihen. Als Eingabe ist eine Ziffer zwischen 1 und 7 einzulesen. Daraufhin wird für einen der Spieler automatisch ein X gesetzt für den zweiten der Spieler ein O. Wann immer einer der Spieler 4 Steine in einer Reihe (waagrecht, senkrecht oder diagonal) platzieren konnte wird das Spiel beendet.
 
 Verbesserung: Merken Sie sich die Abfolge der Züge und bieten ein zurücknehmen von Zügen an.
 
@@ -290,7 +294,6 @@ int main(){
 ```
 
 >[!success] Lösung:
-
 
 ## Was gibt folgendes Programm aus
 

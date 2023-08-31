@@ -1,6 +1,6 @@
 # QString
 
- https://doc.qt.io/qt-5/qstring.html 
+ <https://doc.qt.io/qt-5/qstring.html> 
 
 ## Initialisierung
 
@@ -19,7 +19,7 @@ QString str(data, 4);
 
 Zugriff auf Zeichen
 
--  mittels **[]**-Operator:
+- mittels **[]**-Operator:
 
 ```c++
 QString str;

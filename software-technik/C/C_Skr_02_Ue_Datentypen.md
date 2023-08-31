@@ -7,7 +7,7 @@ created: 29th November 2022
 
 # Datentypen - Übungen
 
-### Literale Nummern
+## Literale Nummern
 
 Warum geben beide Ausgaben unterschiedliche Werte aus?
 
@@ -25,7 +25,7 @@ L: Das numerische Literal 0x10000000 ist klein genug um in einem Integer gespeic
 
 Mit der zweiten Folge wird bewusst die "kleine" Zahl 0x10000000 als LL, also Long-Long definiert. Mit der Multiplikation wird das Ergebnis wiederum als Long-Long interpretiert und somit genügend Platz für die Speicherung vorgehalten. Dann wird diese richtige Long-Long-Zahl in *bigNumber* zugewiesen.
 
-### Literale Character
+## Literale Character
 
 - Was ist der Unterschied zwischen den folgenden vier Zuweisungen?
   ```c
@@ -45,7 +45,7 @@ Mit der zweiten Folge wird bewusst die "kleine" Zahl 0x10000000 als LL, also Lon
   printf("\"ich hab einen ein \bfall \\ und das ist ein\x20fall\a\"");
   ```
 
-### TypeSize (004)
+## TypeSize (004)
 
 - In C haben Datentypen nicht immer gleichen Speicherbedarf. Bestimmen Sie für die folgenden Datentypen den Speicherbedarf.
 
@@ -77,7 +77,7 @@ Mit der zweiten Folge wird bewusst die "kleine" Zahl 0x10000000 als LL, also Lon
 
 Hilfreiche Formatspezifizierer: d, u, lld, llu, e
 
-- Aus *limits.h* können die Maximal- und Minimal-Werte der ganzzahligen Typen ermittelt werden. Aus *float.h* können die Maximal- und Minimal-Werte der Fließkommazahlen ermittelt werden.
+- Aus *limits.h* können die Maximalund Minimal-Werte der ganzzahligen Typen ermittelt werden. Aus *float.h* können die Maximalund Minimal-Werte der Fließkommazahlen ermittelt werden.
 
 - Für vorzeichenlose Typen (unsigned) kann der Maximalwert auch so ermittelt werden: 
 
@@ -86,8 +86,7 @@ Hilfreiche Formatspezifizierer: d, u, lld, llu, e
   num--;		// wird um 1 verkleinert, wird der groeste Wert
   ```
 
-
-### Wochentag-Enumerator
+## Wochentag-Enumerator
 
 - Was ist der Nachteil des folgenden Code-Fragments?
 
@@ -101,7 +100,7 @@ Hilfreiche Formatspezifizierer: d, u, lld, llu, e
 
 L: Grundsätzlich funktioniert dieses Code-Fragment, wenn im enum die Werte oder die Reihenfolge für die Elemente verändert wird, dann stimmt das enum-Inkrement (++) nicht mehr (In [C++](../Cpp/Cpp.md) kann dafür der ++ -Operator überladen werden).
 
-### Typedef
+## Typedef
 
 - Erstellen Sie den Typen TINT damit folgendes (schlechtes Beispiel funktioniert):
 

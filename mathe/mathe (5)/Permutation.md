@@ -10,21 +10,22 @@ created: 4th January 2023
 
 Unter einer **Permutation** versteht man in der [Kombinatorik](Kombinatorik.md) eine Anordnung von Objekten in einer bestimmten Reihenfolge.
 
-Die Anzahl der Permutationen ohne Wiederholung ergibt sich als [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik) "Fakultät (Mathematik)"),
+Die Anzahl der Permutationen ohne Wiederholung ergibt sich als [Fakultät](https://de.wikipedia.org/wiki/Fakult%C3%A4t_(Mathematik) "Fakultät (Mathematik)"),  
 während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffizienten](https://de.wikipedia.org/wiki/Multinomialkoeffizient "Multinomialkoeffizient") angegeben wird.
 
-### ohne Wiederholung
+## ohne Wiederholung
 
 ![Pasted image 20230104153716](../assets/Pasted%20image%2020230104153716.png)
 
->[!summary] Fakultät: 
+>[!summary] Fakultät:  
 > $$n!$$
 
-> [!example] Wv. Möglichkeiten gibt es, $4$ Schüler auf $4$ Plätze aufzuteilen?
+> [!example] Wv. Möglichkeiten gibt es, $4$ Schüler auf $4$ Plätze aufzuteilen?  
 > $$4\cdot3\cdot2\cdot1 = \frac{4!}{(4-4)!} = 4!$$
 
-### mit Wiederholung
->[!summary] Multinomialkoeffizient:
+## mit Wiederholung
+
+>[!summary] Multinomialkoeffizient:  
 >$$n! \choose {k_{1}!,\cdots, k_{n}!}$$
 
 

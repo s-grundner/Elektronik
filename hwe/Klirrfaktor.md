@@ -21,8 +21,8 @@ Der Klirrfaktor beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Ob
 
 
 
-Der Wert von $k_{ges}$ ist immer eine dimensionslose Größe $<1$. Sie wird in Prozent oder Promille angegeben.
-Im Englischsprachigen wird der Begriff der „*total harmonic distortion*" (THD) verwendet und verkörpert die nachfolgende Näherung, welche für Klirrfaktoren $<3\%$ anwendbar ist.
+Der Wert von $k_{ges}$ ist immer eine dimensionslose Größe $<1$. Sie wird in Prozent oder Promille angegeben.  
+Im Englischsprachigen wird der Begriff der „*total harmonic distortion*" (THD) verwendet und verkörpert die nachfolgende Näherung, welche für Klirrfaktoren $<3\%$ anwendbar ist.  
 $$k_{ges}=THD=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}}} = \sqrt{\frac{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}{u_{1}^{2}}}$$
 - Die Ermittlung des Klirrfaktors erfolgt in der Praxis durch eine *Spektralanalyse*, bzw. ein *Klirrfaktormessgerät*.
 - Bei einer Simulation mit SPICE (dh. LTSpice) kann der Klirrfaktor direkt über eine *.FOUR*-Anweisung bestimmt werden.
@@ -33,8 +33,8 @@ $$k_{ges}=THD=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}
 
 [Fourier Reihe](../mathe/mathe%20(4)/Fourier%20Reihe.md)
 
-LT-Spice Tutorial: http://eecs.oregonstate.edu/education/docs/ece323/Appendix.pdf
+LT-Spice Tutorial: <http://eecs.oregonstate.edu/education/docs/ece323/Appendix.pdf>
 
-http://www.audio-perfection.com/spice-ltspice/distortion-measurements-with-ltspice.html
+<http://www.audio-perfection.com/spice-ltspice/distortion-measurements-with-ltspice.html>
 
 ![00_Clock_und_Reset_Generierung_intro](assets/pdf/00_Clock_und_Reset_Generierung_intro.pdf)

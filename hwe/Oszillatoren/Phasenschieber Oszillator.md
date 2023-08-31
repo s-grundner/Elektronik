@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/Oszillator"]
+tags: ["Baugruppen/Oszillator", incomplete]
 aliases: ["PSO", "Phaseshift Oscillator"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -18,7 +18,6 @@ created: 7th November 2022
 	- min. 3x $60\degree$ Glieder um das [BHK](Barkhausen%20Kriterium.md) zu erfüllen ($\beta=180\degree$)
 - Verstärker kompensiert die Rückkopplungsdämpfung
 
-
 # Ungepufferter PSO
 
 > [!summary] $\omega_{0}=\dfrac{\sqrt{6}}{RC}\qquad v_{0}=|29|$
@@ -34,10 +33,10 @@ $$
 \frac{U_{2}}{U_{1}}= \dfrac{\dfrac{1}{j\omega C}}{R+\dfrac{1}{j\omega C}} =\dfrac{1}{1+j\omega\uptau}
 $$
 
-> [!summary] Phasenbedingung
-$\varphi=\dfrac{\beta}{3}=60\degree\rightarrow$ 180° auf 3 Tiefpässe geteilt (Tiefpass 3. Ordnung)
-$\varphi = \arctan\left(\dfrac{Im}{Re}\right)=\arctan(\omega RC)=60\degree$
-$\omega RC = \tan(60\degree) = \sqrt{3}\approx 1.73$
+> [!summary] Phasenbedingung  
+$\varphi=\dfrac{\beta}{3}=60\degree\rightarrow$ 180° auf 3 Tiefpässe geteilt (Tiefpass 3. Ordnung)  
+$\varphi = \arctan\left(\dfrac{Im}{Re}\right)=\arctan(\omega RC)=60\degree$  
+$\omega RC = \tan(60\degree) = \sqrt{3}\approx 1.73$  
 $$\omega=\dfrac{\sqrt{3}}{RC}\rightarrow\omega^{2}=\dfrac{3}{R^{2}C^{2}}$$
 $$
 \begin{align*}
@@ -52,12 +51,12 @@ $$
 \end{align*}
 $$
 
-> [!warning] Tiefpass 3. Ordnung
+> [!warning] Tiefpass 3. Ordnung  
 >3 Filterstufen mit $\left|\dfrac{U_{2}}{U_{1}}\right|=\dfrac{1}{2}\rightarrow\dfrac{1}{2}\cdot\dfrac{1}{2}\cdot\dfrac{1}{2} = \dfrac{1}{8}$ 
 
 ## Herleitung des gepufferten PSO
 
-> [!tip] [Kettenmatrizen](../Kettenmatrix.md) für die Herleitung
+> [!tip] [Kettenmatrizen](../Kettenmatrix.md) für die Herleitung  
 > ![975](../assets/PSO-kette.png)
 
 $$
@@ -72,7 +71,7 @@ j\omega C & 1
 &&A_{22}=1\\
 \end{align*}
 $$
-[Multiplikation der Matrizen:](../../mathe/mathe%20(4)/Matrixrechnung.md) $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$
+[Multiplikation der Matrizen:](../../mathe/mathe%20(4)/Matrixrechnung.md) $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$  
 Terme $A_{11}\dots A_{22}$ sind sehr lang
 
 $$
@@ -81,8 +80,7 @@ $$
 &= \dots
 \end{align*}
 $$
-$\sigma$ in unserem Fall meistens 0
-#incomplete 
+$\sigma$ in unserem Fall meistens 0  
 bei Resonanz: $\rightarrow \{Im\}=0:$
 $$
 \begin{align*}

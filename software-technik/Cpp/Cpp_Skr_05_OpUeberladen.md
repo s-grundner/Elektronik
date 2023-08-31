@@ -67,7 +67,7 @@ z = operator+(3,a);
 
 d.h. 3 wird automatisch auf 3/1 konvertiert.
 
-b)  Überladen mit Methodenaufruf: 
+b) Überladen mit Methodenaufruf: 
 
    ```c++
 z = 3.operator+(a);   // kann nicht klappen !!!!!!, wenn dann a.operator+(3)
@@ -95,7 +95,7 @@ public:
 
 - Friend-Funktionen werden vom Programmierer der Klasse in der Header-Datei mit dem **Schlüsselwort `friend`** deklariert.
 
-- Dadurch können Friend-Funktionen **auf den private-Bereich** einer Klasse zugreifen (... Echte Freunde dürfen das ...).
+- Dadurch können Friend-Funktionen **auf den private-Bereich** einer Klasse zugreifen (… Echte Freunde dürfen das …).
 
 > Überladen mittels Friends: Nachteil der globalen Variante behoben (Zugriff auf private Member) durch Definition der Funktion als Friend.
 
@@ -124,7 +124,7 @@ cout << abteilung << endl;
 ...
  ```
 
-Der Compiler macht aus dem Aufruf `cout << abteilung;`  folgendes:  `operator<<(cout, abteilung); `. Damit Ausgaben miteinander verkettet werden können, wird wiederum ein `ostream&` zurückgegeben.
+Der Compiler macht aus dem Aufruf `cout << abteilung;` folgendes: `operator<<(cout, abteilung); `. Damit Ausgaben miteinander verkettet werden können, wird wiederum ein `ostream&` zurückgegeben.
 
 Implementierung:
 
@@ -152,15 +152,15 @@ Da das nicht in der *ostream*-Klasse implementiert wird muss diese Funktion glob
 
 - Cast-Operator für bestehende Typen. `operator int() { return m_real; }` Der Aufruf kann erfolgen: `(int)x` oder nur `x` wenn sich ein int aus dem Kontext ergibt. Ein Cast-Operator kann auch für eigene Typen definiert werden.
 
-- [] Operator. `int myClass::operator[](int pos) { ... }`. Dieser Operator bezieht sich immer auf ein Objekt (genauso wie die Zuweisungs (=), Funktions- (), Ptr (->) Operatoren).
+- [] Operator. `int myClass::operator[](int pos) { … }`. Dieser Operator bezieht sich immer auf ein Objekt (genauso wie die Zuweisungs (=), Funktions- (), Ptr (->) Operatoren).
 
 - = Operator. Dieser Operator hat zwei Bedeutungen. Einerseits für Zuweisungen - Zuweisungsoperator. Wird dieser Operator jedoch verwendet um einen gerade erstelltes Objekt zu initialisieren ist es der Copy-Konstruktor.
 
-- () Operator. *Funktor* Damit können Funktionen überladen werden. `void operator()(int a){...}`. Mit einem Aufruf `myClass(3)` wird dieser Funktor aufgerufen.
+- () Operator. *Funktor* Damit können Funktionen überladen werden. `void operator()(int a){…}`. Mit einem Aufruf `myClass(3)` wird dieser Funktor aufgerufen.
 
 ## Referenzen
 
-- Gut zu lesende, deutsche Einführung
+- Gut zu lesende, deutsche Einführung  
   <http://public.beuth-hochschule.de/~kempfer/skript_cpp/Kap11.html>
-- Liste der überladbaren Operatoren
-  https://en.cppreference.com/w/cpp/language/operators
+- Liste der überladbaren Operatoren  
+  <https://en.cppreference.com/w/cpp/language/operators>

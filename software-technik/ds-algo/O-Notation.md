@@ -6,22 +6,22 @@ created: 17th April 2022
 
 # Big-[O-Notation](https://de.wikipedia.org/wiki/Landau-Symbole)
 
-Die Effizienz eines Algorithmus wird oft durch die Big-O-Notation ausgedrückt.
+Die Effizienz eines Algorithmus wird oft durch die Big-O-Notation ausgedrückt.  
 Ein effizienter Algorithmus ist hinsichtlich **Laufzeitbewertung** und **Speicherbewertung** ausbalanciert.
 
-Laufzeitbewertung beschreibt, wie **zeiteffizient** ein Algorithmus ist.
+Laufzeitbewertung beschreibt, wie **zeiteffizient** ein Algorithmus ist.  
 Speicherbewertung beschreibt, wie **speichereffizient** ein Algorithmus ist.
 
 Unter Speichereffizienz versteht man, wie viel Speicher ein Algorithmus *während* seiner Ausführung verbraucht
 
 ## Laufzeitbewertung
 
-Die Laufzeit von Algorithmen kann nicht eindeutig bestimmt werden.
-Sie hängt von vielen allgemeinen Faktoren (Hardware, [Betriebssystem](../Os/Operating%20Systems.md), Software ...) als auch von den speziellen Eigenheiten der Startwerte ab.
-Sortieren eines schon fast fertig sortierten Felds kann zum Beispiel sehr viel schneller ablaufen als ein vollständig durchmischtes Feld.
+Die Laufzeit von Algorithmen kann nicht eindeutig bestimmt werden.  
+Sie hängt von vielen allgemeinen Faktoren (Hardware, [Betriebssystem](../Os/Operating%20Systems.md), Software …) als auch von den speziellen Eigenheiten der Startwerte ab.  
+Sortieren eines schon fast fertig sortierten Felds kann zum Beispiel sehr viel schneller ablaufen als ein vollständig durchmischtes Feld.  
 Um die Laufzeit unterschiedlicher Algorithmen trotzdem vergleichen zu können wird ihr Zeitverhalten in Abhängigkeit der Anzahl der Elemente betrachtet.
 
-> [!example] 
+> [!example]  
 > Zum Beispiel ist für den [Selection-Sort](../Algo/Selection%20Sort.md) ersichtlich, dass sich die Sortierzeit mit dem Quadrat der Anzahl der Elemente verändern wird. Dargestellt wird das mittels der **O-Notation (O für Ordnung): der [Selection-Sort](../Algo/Selection%20Sort.md) hat ein Laufzeitverhalten **$O(n^2)$**, sprich sie hat ein Verhalten *in der Ordnung von $n^2$*.
 
 ### Polynom-Laufzeit✅
@@ -45,6 +45,6 @@ Ein Algorithmus mit der einer Polynom-Laufzeit ist effizient.
 
 ## Speicherbewertung
 
-
 ---
+
 # Tags

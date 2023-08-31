@@ -13,7 +13,7 @@ C &= F_{max}\\
 [C]&= \frac{1bit}{sym\cdot 1s}
 \end{align*}
 $$
-$C$ ist der maximale [Informationsfluss](Informationsfluss.md) der über einen gegebenen Nachrichtenkanal fehlerfrei übertragen werden kann.
+$C$ ist der maximale [Informationsfluss](Informationsfluss.md) der über einen gegebenen Nachrichtenkanal fehlerfrei übertragen werden kann.  
 Gilt als absolute Obergrenze für die Leistungsfähigkeit eines Nachrichtenkanals.
 
 | Bezeichnung    | Formel                                                      | Einheit     |

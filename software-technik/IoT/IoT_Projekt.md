@@ -22,7 +22,7 @@ Es ist eine Temperaturmessstation zu entwerfen:
 - VSCode
 - Python
 - Extension PlatformIO
-- Setup Environment https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/
+- Setup Environment <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/>
 - Setup Projekt, Flash-Programmieren, Serial Monitor
 - Blink-LED und einfache Projekte
 - BMP280 Sensor erfassen

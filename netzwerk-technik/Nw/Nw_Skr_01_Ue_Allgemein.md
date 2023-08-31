@@ -5,6 +5,7 @@ created: 29th November 2022
 ---
 
 # Nw_Skr_01_Ue_Allgemein
+
 # 1 Netzwerke - Übungen
 
 ## ARP
@@ -79,7 +80,7 @@ Ca. Zeitangaben in Millisek.:
     Minimum = 21ms, Maximum = 23ms, Mittelwert = 21ms
 ```
 
-Ermitteln Sie die IP-Adresse des DNS-Servers und der Seite www.orf.at.
+Ermitteln Sie die IP-Adresse des DNS-Servers und der Seite <www.orf.at.>
 
 Mit `nslookup` kann auch umgekehrt, der Name zu einer IP ermittelt werden.
 
@@ -87,7 +88,7 @@ Welcher DNS wird verwendet? Das kann ermittelt werden mit der Eingabe von `nsloo
 
 ## Namensauflösung (c++452)
 
-Namen können auf drei Arten angegeben werden: als 32Bit Zahl, als Text (www.google.at) oder als Nummernnotation ("192.1.1.2").
+Namen können auf drei Arten angegeben werden: als 32Bit Zahl, als Text (<www.google.at)> oder als Nummernnotation ("192.1.1.2").
 
 POSIX definiert Funktionen zum Umwandeln einer Form in die jeweils Andere:
 
@@ -98,7 +99,7 @@ POSIX definiert Funktionen zum Umwandeln einer Form in die jeweils Andere:
 
 ![NW_AdrAusloesung](assets/NW_AdrAufloesung.png)
 
-Die im folgenden Beispiel verwendete Struktur **hostent** beinhaltet Information über einen Host (Name, IP ...). Die Struktur **in_addr** speichert die NP-Adresse (Union - Byte und Wort-Weise).
+Die im folgenden Beispiel verwendete Struktur **hostent** beinhaltet Information über einen Host (Name, IP …). Die Struktur **in_addr** speichert die NP-Adresse (Union - Byte und Wort-Weise).
 
 Im folgenden C++ Beispiel werden sie Verwendet (MS-Windows) (c++452):
 
@@ -213,7 +214,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-In der Datei `%windir%\System32\drivers\etc\hosts` (Linux: `/etc/hosts`) können Namen-Nummern-Zuordnungen erfolgen. Mittlerweile erfolgt diese Zuordnung über einen DNS-Server. Die hosts-Datei hat allerdings eine höhere Priorität, damit können Namen-Adressen umgeleitet werden (Eigene Website auf lokalen Server ...).
+In der Datei `%windir%\System32\drivers\etc\hosts` (Linux: `/etc/hosts`) können Namen-Nummern-Zuordnungen erfolgen. Mittlerweile erfolgt diese Zuordnung über einen DNS-Server. Die hosts-Datei hat allerdings eine höhere Priorität, damit können Namen-Adressen umgeleitet werden (Eigene Website auf lokalen Server …).
 
 ## Namensauflösung Qt
 
@@ -270,7 +271,7 @@ Accept: image/gif, image/jpeg, */*
 Connection: Keep-Alive
 ```
 
-- Wie/Was/Wer - einfacher Abruf (Wie = GET, Was = *www.html-world.de*, Wer = Mozilla/5.0)
+- Wie/Was/Wer - einfacher Abruf (Wie = GET, Was = *<www.html-world.de*,> Wer = Mozilla/5.0)
 - ab der 2ten Zeile: Header (immer unterschiedlich)
 
 für einen Abruf von `http://www.html-world.de/index.html`

@@ -8,13 +8,13 @@ created: 29th November 2022
 
 **Grundsätzlicher Ablauf:**
 
-- Datei öffnen: dazu muss der Pfad/Name angegeben werden und auf welche Art auf die Datei zugegriffen werden soll (Schreiben, Lesen ...). Das [Betriebssystem](../Os/Operating%20Systems.md) reserviert die Datei für das Programm.
+- Datei öffnen: dazu muss der Pfad/Name angegeben werden und auf welche Art auf die Datei zugegriffen werden soll (Schreiben, Lesen …). Das [Betriebssystem](../Os/Operating%20Systems.md) reserviert die Datei für das Programm.
 - Datei bearbeiten: Lesen oder Schreiben
 - Datei schließen: das [Betriebssystem](../Os/Operating%20Systems.md) kann die Datei anderen Programmen zuteilen. Beim Schreibenden Zugriff auf die Datei werden die Daten zu diesen Zeitpunkt in die Datei geschrieben.
 
 **Grundsätzliche Dateitypen:**
 
-- Textdatei: Daten werden in die Datei ASCII kodiert. Das bedeutet die Zahl 5 steht in der Datei als "53". Primitve Texteditoren (notepad ...) interpretieren Dateien als ASCII-Kodiert und zeigen entsprechend den Text an.
+- Textdatei: Daten werden in die Datei ASCII kodiert. Das bedeutet die Zahl 5 steht in der Datei als "53". Primitve Texteditoren (notepad …) interpretieren Dateien als ASCII-Kodiert und zeigen entsprechend den Text an.
 - Binärdateien: Speichern Nummern direkt ab. Die Nummer 5 wird als 5 abgespeichert. Ein Texteditor interpretiert die Nummer 5 als ASCII-Kode und gibt dieses "Sonderzeichen" entsprechend aus - man erkennt nichts sinnvolles.
 
 **Zugriffsarten:**
@@ -22,7 +22,7 @@ created: 29th November 2022
 - Sequentiell: beim Lesen aus einer Datei wird ein Positionszeiger vom Dateianfang beginnend mit jedem Lesevorgang erhöht bis an das Ende der Datei. Die gleiche Stelle kann nicht zweimal gelesen werden.
 - Wahlfrei: ein Positionszeiger kann an eine beliebige Stelle in der Datei gesetzt werden. Dort kann gelesen/geschrieben werden.
 
-Sämtliche Ein-/Ausgaben aus einem Programm werden mittels Streams gepuffert übertragen. Das betrifft Bildschirm-, Tastatur und auch Dateizugriffe. Der Grund dafür ist die unterschiedliche Arbeitsgeschwindigkeit der beteiligten Komponenten die bei einem direkten Zugriff die Schnellere Komponente bremsen würde. Ein Vorteil der sich daraus ergibt ist, dass Aus- und Eingaben in ein Programm einfach umgeleitet werden können, indem die Zugriffe auf die entsprechenden Streams umkonfiguriert werden. Statt eines FILE*-Zeigers kann einfach der stream stdin zum Lesen von der Tastatur (anstatt von der Datei), stdout zum Schreiben in die Konsole bzw. stderr zum Schreiben eines Fehlers in die Konsole.
+Sämtliche Ein-/Ausgaben aus einem Programm werden mittels Streams gepuffert übertragen. Das betrifft Bildschirm-, Tastatur und auch Dateizugriffe. Der Grund dafür ist die unterschiedliche Arbeitsgeschwindigkeit der beteiligten Komponenten die bei einem direkten Zugriff die Schnellere Komponente bremsen würde. Ein Vorteil der sich daraus ergibt ist, dass Ausund Eingaben in ein Programm einfach umgeleitet werden können, indem die Zugriffe auf die entsprechenden Streams umkonfiguriert werden. Statt eines FILE*-Zeigers kann einfach der stream stdin zum Lesen von der Tastatur (anstatt von der Datei), stdout zum Schreiben in die Konsole bzw. stderr zum Schreiben eines Fehlers in die Konsole.
 
 ## Öffnen
 
@@ -82,8 +82,6 @@ while (feof(f) == 0) { 			// solange nicht Ende; f = Rueckgabewert von fOpen
 }
 ```
 
-
-
 ## Binärdateien
 
 ### Schreiben
@@ -131,5 +129,5 @@ Gibt die aktuelle Position in der Datei **stream** zurück. Der Wert ist bezogen
 - Warum wird in eine Datei mittels Stream also gepuffert gelesen und geschrieben?
 - Was für eine Bedeutung haben die Streams stdin, stderr und stdout?
 - Wie lautet die grundsätzliche Abfolge beim Arbeiten mit Dateien?
-- Erkläre den Unterschied zwischen einer Binär- und einer Textdatei?
+- Erkläre den Unterschied zwischen einer Binärund einer Textdatei?
 - Wodurch unterscheidet sich ein sequentieller Zugriff von einem wahlfreiem Zugriff auf eine Datei?

@@ -118,7 +118,7 @@ Cls(int r, int i) : m_re(r), m_im(i) {}		// m_... sind Member-Var
 Cls(int i) : m_re(3), m_im(i) {}
 ```
 
-Die Trennung erfolgt durch einen Doppelpunkt.
+Die Trennung erfolgt durch einen Doppelpunkt.  
 (Wann immer Member-Attribute nur auf einfache Werte gesetzt werden ist diese Schreibweise zu bevorzugen. Mit dieser Art wird keine lokale Variable angelegt - damit ist die Ausführung effizienter.)
 
 Auch Konstruktoren können beim Prototypen Default-Werte vorgegeben werden:
@@ -279,8 +279,8 @@ Ziel soll sein: einmal programmiert - so oft wie möglich verwenden. Die Vorteil
 
 Da eine vorhandene Klasse nicht immer ganz genau zu einem Problem passt, kann eine *ähnliche* Klasse *abgeleitet* und angepasst werden.
 
-- Die Klasse von der abgeleitet wird nennt man **Basisklasse** (Superklasse, Oberklasse, Elternklasse ...)
-- Die **abgeleitete Klasse** wird als Subklasse, Unterklasse, Kindklasse ... bezeichnet. Sie besteht aus allem was in der Basisklasse implementiert wurde. Zusätzlich können in ihr Member (Variable und/oder Methoden) überschrieben oder zugefügt werden.
+- Die Klasse von der abgeleitet wird nennt man **Basisklasse** (Superklasse, Oberklasse, Elternklasse …)
+- Die **abgeleitete Klasse** wird als Subklasse, Unterklasse, Kindklasse … bezeichnet. Sie besteht aus allem was in der Basisklasse implementiert wurde. Zusätzlich können in ihr Member (Variable und/oder Methoden) überschrieben oder zugefügt werden.
 
 ```c++
 class Figur {		// Basisklasse Figur
@@ -302,7 +302,7 @@ class Rectangle : public Figur {	 // Rectangle = abgeleitete Klasse (von Basiskl
 Mit dem Sichtbarkeitsmodifikator vor der Basisklasse wird angegeben wie die Elemente der Basisklasse an Klassen weitervererbt werden wenn die abgeleitete Klasse wiederum abgeleitet wird (*public*, *protected* oder *private*). Der angegebene Wert ist die freizügigst erlaubte Art. Beispiel:
 
 - *public* vor der Basisklasse: sämtliche Attribute werden von der Basisklasse genau gleich durchgereicht
-- *protected*: public-Member werden auf *protected* reduziert, andere bleiben
+- *protected*: public-Member werden auf *protected* reduziert, andere bleiben  
   *private*: *public* und *protected*-Member werden auf *private* reduziert, *private* bleibt
 
 ### Konstruktor
@@ -324,7 +324,7 @@ class Rectangle : public Figur {
 
 Im Kopf der abgeleiteten Klasse (nicht beim Prototypen) wird, getrennt durch einen Doppelpunkt, der Basisklassenkonstruktor mit dem entsprechenden Parameter angeführt.
 
-Wird mehrfach abgeleitet (abgeleitete Klasse wird wieder abgeleitet ...), gilt immer: der Konstruktor der Basisklasse wird vor dem Konstruktor der ersten Ableitung, dieser vor dem der zweiten Ableitung ausgeführt und so fort.
+Wird mehrfach abgeleitet (abgeleitete Klasse wird wieder abgeleitet …), gilt immer: der Konstruktor der Basisklasse wird vor dem Konstruktor der ersten Ableitung, dieser vor dem der zweiten Ableitung ausgeführt und so fort.
 
 ### Destruktor
 
@@ -528,7 +528,7 @@ Ein Friend muss zur Kompilierungszeit nicht bekannt sein, so kann eine noch nich
 
 - Sehr umfassende Einführung
 
-  http://www.cpp-tutor.de/cpp/le14/ableitung.html
+  <http://www.cpp-tutor.de/cpp/le14/ableitung.html>
   
-- Gute Erklärungen
-  https://www.informatikzentrale.de/
+- Gute Erklärungen  
+  <https://www.informatikzentrale.de/>

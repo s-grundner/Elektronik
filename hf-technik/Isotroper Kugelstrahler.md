@@ -18,7 +18,7 @@ $$
 \vec{S_{i}}= \frac{P}{4\pi r^{2}}\cdot\vec{e_{r}} = \frac{\vec{E_{i}^{2}}}{Z_{F0}}\cdot \vec{e_{r}}= H_{i}^{2}\cdot Z_{F0}\cdot \vec{e_{i}}
 $$
 
-> [!note] 
+> [!note]  
 > Bei einer allgemeinen [[Antenne](Antenne.md)](Antenne.md) stellt sich immer eine gewisse Richtwirkung ein, sodass hier die Strahlungsleistungsdichte im Fernfeld auch von den Winkeln $\varphi$ und $\vartheta$ abhängt.
 
 Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
@@ -28,4 +28,5 @@ Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
 > [!info] Der isotrope Kugelstrahler ist technisch nicht realisierbar (Zuführung der Antennenleitung), dient aber bei den Antennenkenngrößen als wichtigste Bezugsgröße.
 
 # Quellen
+
 ![Gustrau](../assets/Gustrau.pdf)

@@ -64,7 +64,7 @@ u.s.f.
 
 ## Is-A-Beziehung
 
-Es kommt vor, dass unterschiedliche Objekte sehr starke Ähnlichkeiten aufweisen. Beispielsweise gibt es in einer Firma einen Chef, einen Abteilungsleiter, einen Projektleiter, einen Assistenten, einen Einkäufer und viele weitere. Sie alle haben eine Personalnummer, einen Vor-/Nachnamen, eine Adresse ...
+Es kommt vor, dass unterschiedliche Objekte sehr starke Ähnlichkeiten aufweisen. Beispielsweise gibt es in einer Firma einen Chef, einen Abteilungsleiter, einen Projektleiter, einen Assistenten, einen Einkäufer und viele weitere. Sie alle haben eine Personalnummer, einen Vor-/Nachnamen, eine Adresse …  
 Sie alle sind eine Ausprägung von *Mitarbeiter*, daher: **Projektleiter Is A Mitarbeiter**.
 
 ![Is-A-Beziehung](assets/ERD_IsA.png)

@@ -14,17 +14,17 @@ Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](Halbleiter/Halbleiter.
 
 ### Grundlagen
 
-1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)
-[Halbleitermaterialien](Halbleiter/Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.
-$U_{g}= \frac{W_{g}}{e}$
+1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)  
+[Halbleitermaterialien](Halbleiter/Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
+$U_{g}= \frac{W_{g}}{e}$  
 wobei $e$ die [](../physik/Konstanten%20Verzeichnis.md#Elementar%20Ladung.md|Elementar%20Ladung) ist.
 
 ![Baendermodell](assets/Baendermodell.png)
 
-2. [Shockley Gleichung](../physik/Shockley%20Gleichung.md)
-$I_{c}= I_{s}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
-Näherung:
-$I_{c}=I_{s}\cdot e^{\frac{U_{BE}}{\eta \cdot U_{T}}}$
+1. [Shockley Gleichung](../physik/Shockley%20Gleichung.md)  
+$I_{c}= I_{s}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$  
+Näherung:  
+$I_{c}=I_{s}\cdot e^{\frac{U_{BE}}{\eta \cdot U_{T}}}$  
 $U_{BE}= U_{T}\cdot \ln(I_{c}/I_{s})$
 
 | Formelzeichen | Bezeichnung                                    | Formel                                                                  |
@@ -33,7 +33,7 @@ $U_{BE}= U_{T}\cdot \ln(I_{c}/I_{s})$
 | $U_{T}$       | Temperaturspannung                             | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](Konstanten%20Verzeichnis.md) |
 | $I_{s}$       | Sättigungssperrstrom                           |                                                                         |
 
-3. Temperaturabhängigkeit der Basis-Emitter-Spannung
+1. Temperaturabhängigkeit der Basis-Emitter-Spannung  
 $U_{BE}=U_{g}+D_{T}\cdot T +\underbrace{[(\eta -1)U_{T}\cdot(1-\ln(\frac{T}{T_{0}}))]}_{\text{vernachlässigbar}}$
 
 | Formelzeichen | Bezeichnung          | Formel          |
@@ -50,7 +50,7 @@ $U_{BE}$ wird mit steigender Erwärmung des Transistors kleiner, da $D_{T}$ *neg
 
 #### $U_{PTAT}$ Proportional to absolute temperature
 
-Mit den folgenden Schritten lässt sicht herleiten, dass $U_{ref}$ konstant bleibt.
+Mit den folgenden Schritten lässt sicht herleiten, dass $U_{ref}$ konstant bleibt.  
 Mit der folgenden [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) lässt sich auf die Spannung über die Kollektorwiderstände ermitteln:
 
 | Schritt | Herleitung                                                                                                                                                                                                                                                                                                                                        | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                   |

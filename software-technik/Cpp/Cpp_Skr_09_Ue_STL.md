@@ -419,7 +419,7 @@ int main() {
 }
 ```
 
-Die Funktion arbeiten wieder mit einem Beginn- und End-Iterator und einer Funktion (oder *Funktor*) der bei jeder Wiederholung ausgeführt wird.
+Die Funktion arbeiten wieder mit einem Beginnund End-Iterator und einer Funktion (oder *Funktor*) der bei jeder Wiederholung ausgeführt wird.
 
 Beispiel mit einem *Funktor*, hier werden nur die geradzahligen Werte ausgegeben:
 
@@ -697,7 +697,7 @@ In diesem Beispiel wird eine Suchfunktion *find* für ein klassisches *int*-Arra
 
    Bemerkenswert:
 
-   - der Suchalgorithmus kommt völlig ohne Kenntnis des Containers (*int*-Array) aus. Es wird lediglich ein Begin- und ein End-Pointer mitgegeben.
+   - der Suchalgorithmus kommt völlig ohne Kenntnis des Containers (*int*-Array) aus. Es wird lediglich ein Beginund ein End-Pointer mitgegeben.
    - Voraussetzung: für die Iteratoren müssen die Operatoren *++*, *!=* und \* so definiert sein, dass sie auf das nächste Element wechseln, zwei Elemente vergleichen und Dereferenzieren können. Dann funktioniert dieser sequenzielle Suchalgorithmus für jede Containerorganisation.
 
 2. Ändern Sie im nächsten Schritt die *find* Funktion so ab, dass sie für alle Datentypen funktioniert:
@@ -711,7 +711,7 @@ In diesem Beispiel wird eine Suchfunktion *find* für ein klassisches *int*-Arra
    }
    ```
 
-   und den Aufruf der Funktion:
+   und den Aufruf der Funktion:  
    `IteratorType position = find<const int ∗,int>(begin, end, zahl);`
 
 3. Das obige Programm wird nun abgeändert, sodass anstatt des eigenen *int*-Containers ein *vector* verwendet wird und der entsprechende vordefinierte Iterator:
@@ -773,7 +773,7 @@ Damit dieser Algorithmus funktioniert muss `++` das folgende Element liefern, `*
   const int* loc = ::find(first, last, 7);
   ```
 
-- Container-Iteratoren:
+- Container-Iteratoren:  
   Jeder Container aus der STL stellt einen Iterator zur Verfügung (die Möglichkeiten des Input-Iterators sind am Stärksten von allen eingeschränkt, daher funktioniert Jeder):
 
   ```c++
@@ -879,7 +879,7 @@ Füllen Sie die Liste mit Ganzzahlen von 0 .. 32 und zeigen Sie die Elemente der
 
 ## It - Random-Access-Iterator (077)
 
-Für manche Algorithmen sind Iteratoren notwendig für die nicht nur vor- oder rückwärts sequentiell zugegriffen werden kann sondern auch in größeren Schritten, ähnlich `arr[i+10]`. Auch eine Addition/Subtraktion von Iteratoren um die Anzahl der dazwischenliegenden Elemente zu ermitteln.
+Für manche Algorithmen sind Iteratoren notwendig für die nicht nur voroder rückwärts sequentiell zugegriffen werden kann sondern auch in größeren Schritten, ähnlich `arr[i+10]`. Auch eine Addition/Subtraktion von Iteratoren um die Anzahl der dazwischenliegenden Elemente zu ermitteln.
 
 Zum Beispiel für ein Umdrehen eines Containerinhaltes:
 
@@ -917,7 +917,7 @@ Schreiben Sie ein Programm, das von der Tastatur eine Folge von Gleitkomma-Zahle
 
 ## It - String Maniplation (116)
 
-Schreiben Sie ein Programm, das von einer Textdatei *input.txt* alle Wörter (Strings) einliest und in einen Listen-Container abspeichert. Dann sollen alle großgeschriebenen Wörter des Containers durch entsprechend kleingeschriebene ersetzt werden.
+Schreiben Sie ein Programm, das von einer Textdatei *input.txt* alle Wörter (Strings) einliest und in einen Listen-Container abspeichert. Dann sollen alle großgeschriebenen Wörter des Containers durch entsprechend kleingeschriebene ersetzt werden.  
 Anschließend soll der Container-Inhalt auf eine Datei *output.txt* geschrieben werden. Die Reihenfolge der Wörter ist beizubehalten. Sie können für das Einlesen und das Ausgeben geeignete Stream-Iteratoren verwenden.
 
 - Erstellen eines *istream-iterator* und Verknüpfen mit einem File-Stream-Iterator zum Lesen
@@ -935,7 +935,7 @@ vector<string> myContent((istream_iterator<string>(inFile)), istream_iterator<st
 inFile.close();
 ```
 
-in diesem Beispiel werden die Worte direkt als *string* in einen *vector* gelesen. Gleich funktioniert das natürlich auch in andere Container (*string*...) oder als *char*.
+in diesem Beispiel werden die Worte direkt als *string* in einen *vector* gelesen. Gleich funktioniert das natürlich auch in andere Container (*string*…) oder als *char*.
 
 ## It - Datei Kopieren (Stream-Iterator) (078)
 
@@ -970,7 +970,7 @@ int main() {
 
 ## Klein/Groß (079,080)
 
-Schreiben Sie ein Programm, das von einer Textdatei *input.txt* alle Wörter (Strings) einliest und in einen *vector*-Container kopiert. Verwenden Sie dazu einen Stream-Iterator.
+Schreiben Sie ein Programm, das von einer Textdatei *input.txt* alle Wörter (Strings) einliest und in einen *vector*-Container kopiert. Verwenden Sie dazu einen Stream-Iterator.  
 Dann sollen alle großgeschriebenen Wörter des Containers durch entsprechend kleingeschriebene ersetzt werden. Verwenden Sie dazu *transform*. Anschließend soll der Container-Inhalt in eine Datei *output.txt* geschrieben werden. Die Reihenfolge der Wörter ist beizubehalten. Verwenden Sie für das Einlesen und das Ausgeben geeignete Stream-Iteratoren.
 
 ## Personenregister (105)
@@ -1022,7 +1022,7 @@ Erweitern Sie die *person*-Klasse entsprechend:
 Schreiben Sie ein Programm, das jedes Wort *w* einer Textdatei *input.txt* auf korrekte Rechtschreibung prüft, indem festgestellt wird, ob *w* in einem Wörterbuch *woerterBuch.txt* vorkommt. Falsch geschriebene Wörter werden in die Datei *output.txt* abgespeichert.
 
 - Einlesen von *woerterBuch.txt* am Besten in ein *set*. Das wird automatisch sortiert und bietet einen effizienten Suchalgorithmus.
-- Nachdem lediglich eine Rechtschreib- und keine Gramatikprüfung gesucht ist, spielt die Groß-/Kleinschreibung keine Rolle.
+- Nachdem lediglich eine Rechtschreibund keine Gramatikprüfung gesucht ist, spielt die Groß-/Kleinschreibung keine Rolle.
 
 Einlesen aus der Wörterbuch-Datei und Ablegen im *set* (alphabetisch sortiert):
 
@@ -1107,7 +1107,7 @@ Der Functor ist eine abgekürzte Schreibweise für:
 
 Schreiben Sie ein Programm, das jedes Wort *w* einer Textdatei *input.txt* auf korrekte Rechtschreibung prüft, indem festgestellt wird, ob *w* in einem Wörterbuch *woerterBuch.txt* vorkommt. Falsch geschriebene Wörter werden in die Datei *output.txt* abgespeichert.
 
-Ein Wörterbuch: http://www.netzmafia.de/software/wordlists/deutsch.txt
+Ein Wörterbuch: <http://www.netzmafia.de/software/wordlists/deutsch.txt>
 
 Als Text kann aus dem Internet ein Text kopiert werden. Durchaus auch Texte aus dem Technischen Bereich, gespickt mit fremdsprachigen Fachbegriffen.
 
@@ -1334,7 +1334,7 @@ Creating ...
 
 Es wurden zwei Objekte erzeugt, daher leuchtet die Ausgabe ein. Überlegen Sie sich ob die Verwendung effizient erfolgt.
 
-Fügen Sie in die *test*-Klasse einen *Copy*-Konstruktor ein der, wie der Default-*Copy*-Konstruktor auch, einfach die Elemente kopiert. Geben Sie darin zusätzlich einen Text in der Kommandozeile aus ("Copying ..."). Wenn Sie das Programm ausführen sehen sie:
+Fügen Sie in die *test*-Klasse einen *Copy*-Konstruktor ein der, wie der Default-*Copy*-Konstruktor auch, einfach die Elemente kopiert. Geben Sie darin zusätzlich einen Text in der Kommandozeile aus ("Copying …"). Wenn Sie das Programm ausführen sehen sie:
 
 ```
 Creating ...
@@ -1423,7 +1423,7 @@ Johann-Sebastian
 Hinterhofholzner
 ```
 
-In Summe kann das die Laufzeit eines Programms entscheidend verlangsamen. Und das nur weil der Vor- oder Nachname gelesen werden soll. In C kann in C-Strings mittels Pointer auf eine beliebige Position gezeigt werden und die entsprechende Zeichenanzahl angezeigt werden. Es werden eigene Copy-Konstruktoren und dynamisches Erzeugen von Objekten vermieden.
+In Summe kann das die Laufzeit eines Programms entscheidend verlangsamen. Und das nur weil der Voroder Nachname gelesen werden soll. In C kann in C-Strings mittels Pointer auf eine beliebige Position gezeigt werden und die entsprechende Zeichenanzahl angezeigt werden. Es werden eigene Copy-Konstruktoren und dynamisches Erzeugen von Objekten vermieden.
 
 Ab C++17 ist gibt es *string_view*, damit kann mit Teilen von vorhandenen Strings gearbeitet werden (genau wie wenn direkt mit Zeigern gearbeitet wird):
 

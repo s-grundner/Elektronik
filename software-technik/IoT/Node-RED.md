@@ -18,7 +18,7 @@ Node-RED legt unter Windows die Flows unter `C:\Users\xxxxxxx\.node-red` ab.
 
 Der Umfang von Node-RED kann sehr einfach durch eine Vielzahl verfügbarer Module erweitert werden. Am Einfachsten mittels NPM.
 
-http-Endpoint: https://cookbook.nodered.org/http/create-an-http-endpoint
+http-Endpoint: <https://cookbook.nodered.org/http/create-an-http-endpoint>
 
 ### RaspberryPi
 
@@ -98,7 +98,7 @@ Als nächstes wird ein HTTP-Anforderung-Node (`http request`) dazwischen eingef�
 
 (Broker siehe Unten)
 
-- In Node-RED sind Nodes für Publish und Subscribe verfügbar. Im Node erfolgen die Einstellungen (Adresse ...)
+- In Node-RED sind Nodes für Publish und Subscribe verfügbar. Im Node erfolgen die Einstellungen (Adresse …)
 
 - auf dem Rechner läuft ein Mosquitto-Broker (alternative z.B. mosquitto.org)
 
@@ -110,7 +110,7 @@ Als nächstes wird ein HTTP-Anforderung-Node (`http request`) dazwischen eingef�
 
 ### [MQTT](MQTT.md)-Mosquitto
 
-[https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/](https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/)
+[https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/](https://tutorials-raspberrypi.de/datenaustausch-raspberry-pi-mqtt-broker-client/)  
 Um mit [MQTT](MQTT.md) arbeiten zu können wird am einfachsten Mosquitto installiert:
 
 ```
@@ -143,10 +143,10 @@ sudo systemctl enable mosquitto.service
 
 ## [MQTT](MQTT.md)-TLS
 
-(IoT-Hack ist ein Thema! https://www.youtube.com/watch?v=urnNfS6tWAY)
+(IoT-Hack ist ein Thema! <https://www.youtube.com/watch?v=urnNfS6tWAY)>
 
 - Für [MQTT](MQTT.md) wird ein Server/Broker benötigt, die Einstellungen erfolgen in den [MQTT](MQTT.md)-Nodes.
-- In Node-RED sind Nodes für Publish und Subscribe verfügbar. Im Node erfolgen die Einstellungen (Adresse ...)
+- In Node-RED sind Nodes für Publish und Subscribe verfügbar. Im Node erfolgen die Einstellungen (Adresse …)
 - Wenn der Broker SSL/TLS verwendet, dann muss die Einstellung des [MQTT](MQTT.md)-Nodes entsprechend angepasst werden (Adresse, Port). Für selbst ausgestellte Zertifikate wird der lokale Pfad angegeben unter dem die Dateien **ca.crt**, **ca.key** abgelegt sind. Für eigene Zertifikate muss weiters ein Zertifikat für die CA und evtl. eine Passphrase (Passwort) angegeben werden und wichtig Ausschalten von *Verifiy server certificate*.
 - Im Node kann ein Topic eingestellt werden (home/data)
 - Hier wird eine home/data-Botschaft subscribed:
@@ -212,11 +212,11 @@ Die DB **espdta** hat zwei Spalten: **DATA** und **DATE**.
 
 ## InfluxDB
 
-InfluxDB ist eine [Datenbank](../Db/Datenbank.md) die sich gut für Zeit-Abhängige Ablagen eignet. Um das InfluxDB-Addon Node-Red zu installieren: https://flows.nodered.org/node/node-red-contrib-influxdb.
+InfluxDB ist eine [Datenbank](../Db/Datenbank.md) die sich gut für Zeit-Abhängige Ablagen eignet. Um das InfluxDB-Addon Node-Red zu installieren: <https://flows.nodered.org/node/node-red-contrib-influxdb.>
 
 InfluxDB-[Datenbank](../Db/Datenbank.md) aufsetzen:
 
-https://www.bjoerns-techblog.de/2017/05/installation-von-influxdb-telegraf-und-grafana-auf-dem-raspberry-pi-3/
+<https://www.bjoerns-techblog.de/2017/05/installation-von-influxdb-telegraf-und-grafana-auf-dem-raspberry-pi-3/>
 
 ## Dashboard
 
@@ -243,7 +243,7 @@ Im Node-RED-Panel gibts jetzt eine neue Schaltfläche, in der können Grundeinst
 
 - openweathermap
 
-  - register at http://openweathermap.org/
+  - register at <http://openweathermap.org/>
   - get your API Key, we will use this key in Node RED.
   - `151179bfe65ddf849aba008d98d9b48c`
 
@@ -260,10 +260,10 @@ Im Node-RED-Panel gibts jetzt eine neue Schaltfläche, in der können Grundeinst
   - hint: use msg.payload.tempc
   - see: http://developers.sensetecnic.com/article/node-red-flow-using-freeboard/
 
-- example: node-red
+- example: node-red  
   ![image-20210603194549898](assets/NodeRed_OpenWeather05.png)
 
-- example: node-red-dashboard
+- example: node-red-dashboard  
   ![image-20210603194708236](assets/NodeRed_OpenWeather06.png)
 
 - hint: openweathermap widget (Generierung der Anzeige)
@@ -272,24 +272,24 @@ Im Node-RED-Panel gibts jetzt eine neue Schaltfläche, in der können Grundeinst
 
 Messung der aktuellen Temperature mittels [ESP32](ESP32.md) und Übertragen mittels [MQTT](MQTT.md) an Broker. In Node-RED [MQTT](MQTT.md) subscriben und die JSON-Nachricht aufbereiten und anzeigen:
 
-- result: node-red
+- result: node-red  
   ![image-20210603195042638](assets/NodeRed_OpenWeather03.png)
-- result: node-red-dashboard
+- result: node-red-dashboard  
   ![image-20210603195141597](assets/NodeRed_OpenWeather04.png)
 
 ## Referenzen
 
-- Node-RED Referenz
+- Node-RED Referenz  
   <https://nodered.org/docs/api/>
-- Node-RED HTTP
+- Node-RED HTTP  
   <https://cookbook.nodered.org/http/>
-- HTML-Stylesheets (CSS)
+- HTML-Stylesheets (CSS)  
   <https://flows.nodered.org/flow/1bffe6808d37bd96cce283939983e758>
-- Einführung
+- Einführung  
   <https://medium.com/@ankur.kus1/build-rest-api-using-flow-based-programming-node-red-4ed343228ba>
-- Node-RED mit REST-Api
+- Node-RED mit REST-Api  
   <https://medium.com/@ankur.kus1/build-rest-api-using-flow-based-programming-node-red-4ed343228ba>
-- Node-RED Dashboard
+- Node-RED Dashboard  
   <https://www.youtube.com/watch?v=X8ustpkAJ-U>
-- Node-RED [MQTT](MQTT.md)
+- Node-RED [MQTT](MQTT.md)  
   <https://www.youtube.com/watch?v=amA5OaXXCJo>

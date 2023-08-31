@@ -8,14 +8,14 @@ Ein wichtiges Konzept um dieses Problem zu behandeln ist die Sperrsynchronisatio
 
 ---
 
-**Lost Update-Beispiel von Oben:**
+**Lost Update-Beispiel von Oben:**  
 Thread1 und Thread2 greifen schreibend auf eine gemeinsame Variable namens `mCount` zu. Sie wollen jeweils die Variable `mCount` um 1 erhöhen. 
 
 Annahme beim Start: `mCount = 7`
 
 Das Erhöhen einer Variablen kann durch folgende Elementaroperationen realisiert werden:
 
-​	 read  -> inc -> write
+​	 read -> inc -> write
 
 Ein Thread kann zwischen jeden dieser Schritte vom Scheduler unterbrochen werden. Daraus kann sich folgendes Scenario ergeben:
 
@@ -40,7 +40,7 @@ In diesem Beispiel ist der gesamte Inkrementiervorgang (read, inc und write) ein
 
 - Daten die nur von Zugriffsroutinen aus bearbeitet werden können
 - Zugriffsroutinen
-- definierten Methoden für den Zugriff von Threads auf den Monitor (`wait()`, `notify()` ...)
+- definierten Methoden für den Zugriff von Threads auf den Monitor (`wait()`, `notify()` …)
 - Condition-Variable
 
 Der Monitor selber ist ein geschützter Bereich, in welchem sich zu einem Zeitpunkt maximal ein Thread befinden kann. Der Zugang ist nur über die definierten Zugangsroutinen möglich. Race-Condition sind damit von Haus aus unmöglich.
@@ -95,8 +95,8 @@ Probleme die typischerweise in der nebenläufigen Programmierung auftreten:
 
 ### 1. Producer-Consumer (Ereignissynchronisation) (708)
 
-- ein Thread erzeugt Daten (Laden aus dem Internet, aus Dateien, Langwierige Berechnung ...)
-- ein weiterer Thread verarbeitet die Daten weiter (Anzeige in einer GUI, weitere Berechnung, Speichern von Daten ...)
+- ein Thread erzeugt Daten (Laden aus dem Internet, aus Dateien, Langwierige Berechnung …)
+- ein weiterer Thread verarbeitet die Daten weiter (Anzeige in einer GUI, weitere Berechnung, Speichern von Daten …)
 
 Um sich nicht permanent gegenseitig zu blockieren (dann hätte Multi-Threading für diese Fälle keinen Sinn), kann als ersten Schritt mittels FiFo-Buffer (Queues) gearbeitet werden. Java bietet hierfür einige (Thread-Sichere) Strukturen an:
 
@@ -118,12 +118,12 @@ Beispiel **Producer-Consumer**:
 
 - Reale Probleme:
 
-  - der Produzent erzeugt zu viel Daten, der Buffer läuft über (eventuell entnimmt der Konsument die Daten zu langsam)  -> *Buffer-Overflow*
+  - der Produzent erzeugt zu viel Daten, der Buffer läuft über (eventuell entnimmt der Konsument die Daten zu langsam) -> *Buffer-Overflow*
   - der Konsument möchte Daten abholen, der Buffer ist allerdings schon leer -> *Buffer-Underflow*
 
   einfachste Lösung: Auslösen einer Exception für Buffer-Overflow/-Underflow
 
-FiFo-Buffer können einfach als [Ringbuffer](../../digital-technik/Ringbuffer.md) realisiert werden. Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden ...):
+FiFo-Buffer können einfach als [Ringbuffer](../../digital-technik/Ringbuffer.md) realisiert werden. Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
 
 ![OS_FiFo](assets/OS_FiFo.png)
 
@@ -289,9 +289,9 @@ public class ProdConsDemo {
 
 Der Vorteil: die Kommunikation läuft ohne Zutun synchronisiert.
 
-Im Beispiel werden PipedInput- und PipedOutput-Stream als Byte-Streams verwendet (siehe `pipe.write()` und `pipe.read()`). Mittels **PipedWriter** und **PipedReader** kann auch eine zeichenweise-Übertragung erfolgen (lediglich austauschen mit den Stream-Varianten).
+Im Beispiel werden PipedInputund PipedOutput-Stream als Byte-Streams verwendet (siehe `pipe.write()` und `pipe.read()`). Mittels **PipedWriter** und **PipedReader** kann auch eine zeichenweise-Übertragung erfolgen (lediglich austauschen mit den Stream-Varianten).
 
-### 2. Lost-Update  (707)
+### 2. Lost-Update (707)
 
 Referenz-Beispiel: 
 
@@ -511,9 +511,9 @@ Beherzigen Sie folgende Regeln bei der Synchronisierung von Threads:
 
 ## Referenzen
 
-- Java-Semaphore/Mutex
-  https://www.mkyong.com/java/java-thread-mutex-and-semaphore-example/
+- Java-Semaphore/Mutex  
+  <https://www.mkyong.com/java/java-thread-mutex-and-semaphore-example/>
 
 - Java -> Insel
 
-  http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_14_001.htm#mj8c6f381221d805dd6fbe480731ac0c58
+  <http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_14_001.htm#mj8c6f381221d805dd6fbe480731ac0c58>

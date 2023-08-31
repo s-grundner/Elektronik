@@ -33,7 +33,7 @@ Für die Array-Variante der Definition von Strings gilt: der *char*-Pointer auf 
 
 Die Zeigervariante der Definition ermöglicht im Gegensatz dazu, dass der Zeiger verändert werden kann. Allerdings wird kein Speicherplatz zum Verändern mit erzeugt, wodurch kein String einkopiert werden kann (außer es wird Speicher mit *malloc* mit reserviert). Korrekt müsste der Zeiger immer auf ein `const char` zeigen.
 
-String-Literale ("...") sind immer vom Typ Array aus *const char* und werden immer automatisch mit '\0' (*EndOfString*) erweitert.
+String-Literale ("…") sind immer vom Typ Array aus *const char* und werden immer automatisch mit '\0' (*EndOfString*) erweitert.
 
 ### Dynamische C-Strings, new-Operator
 
@@ -55,7 +55,7 @@ dynString[laenge-1] = '\0';  				// wenn vorh String zu Lange wird \0 nicht mitk
 delete [] dynString;								// Freigabe des reservierten Speichers
 ```
 
-Hinweis *strncpy*:
+Hinweis *strncpy*:  
 Wenn der vorhandene String länger als die maximale Länge ist, ist das letzte kopierte Zeichen kein 0-Byte, womit die Länge des Zielstrings nicht mehr bestimmt werden kann. Deshalb sollte nachträglich das letzte Byte des Zielstrings definiert auf 0 gesetzt werden.
 
 Beispielstrings:
@@ -291,7 +291,7 @@ std::cin >> str;								// Jemand gibt "Hey there" ein
 std::cout << str << std::endl;	// Ausgabe von "Hey"
 ```
 
-*cin* liest nur bis zu einem *Whitespace* (Leerzeichen, Tabulator, Enter ...) ein. Sollen Strings samt Whitespaces eingelesen werden, dann kann das mittels Schleife passieren (dann ist allerdings nicht klar ob ein Tabulator oder ein Leerzeichen eingegeben wurde).
+*cin* liest nur bis zu einem *Whitespace* (Leerzeichen, Tabulator, Enter …) ein. Sollen Strings samt Whitespaces eingelesen werden, dann kann das mittels Schleife passieren (dann ist allerdings nicht klar ob ein Tabulator oder ein Leerzeichen eingegeben wurde).
 
 #### getline - Zeile
 
@@ -313,7 +313,7 @@ Seit C++11 gibt's (unter anderen) das folgende **Raw-String**-Literal:
 std::string str = std::string(R"(C:\temp\data.txt)");   // Raw-String-Literal
 ```
 
-mit `R"(` und abschließenden `)"` wird eine Zeichenkette eingehüllt die nicht *interpretiert* werden soll - damit spielen Backslashes oder auch `"` innerhalb des Strings keine Rolle. Gerade für Reguläre Ausdrücke (später) erleichtern diese Literale die Lesbarkeit enorm. Wenn innerhalb des Strings zusätzlich noch etwa `)"` verwendbar sein soll, kann das auch angepasst werden, etwa so: `R"xyz(...")...)xyz"`.
+mit `R"(` und abschließenden `)"` wird eine Zeichenkette eingehüllt die nicht *interpretiert* werden soll - damit spielen Backslashes oder auch `"` innerhalb des Strings keine Rolle. Gerade für Reguläre Ausdrücke (später) erleichtern diese Literale die Lesbarkeit enorm. Wenn innerhalb des Strings zusätzlich noch etwa `)"` verwendbar sein soll, kann das auch angepasst werden, etwa so: `R"xyz(…")…)xyz"`.
 
 ## Wide-Character
 
@@ -361,7 +361,7 @@ Das End-Of-String-Zeichen ist dann ein *L'\0'*.
 
 ### Zeichensatztabellen
 
-Standard-Strings (und auch c-Strings) sind nicht nach einem Zeichensatz kodiert. Sie beinhalten lediglich Nummern. Eine Interpretation welche Nummer welchem Zeichen entspricht erfolgt in der Ausführung (Kommandozeile ...) beziehungsweise in der IDE. Da in allen gängigen Codierungen (z.B. in Konsolen in Windows/UNIX/MaxOS ...) der Zahlenbereich der ASCII-Tabelle gleich codiert ist gibt's damit auch keine Probleme.
+Standard-Strings (und auch c-Strings) sind nicht nach einem Zeichensatz kodiert. Sie beinhalten lediglich Nummern. Eine Interpretation welche Nummer welchem Zeichen entspricht erfolgt in der Ausführung (Kommandozeile …) beziehungsweise in der IDE. Da in allen gängigen Codierungen (z.B. in Konsolen in Windows/UNIX/MaxOS …) der Zahlenbereich der ASCII-Tabelle gleich codiert ist gibt's damit auch keine Probleme.
 
 Der klassische C/C++ String gibt jedem Zeichen ein Byte. Um einen größeren Zeichensatz verarbeiten zu können, gibt es in modernen C/C++-Varianten neue Datentypen wie etwa *wchar_t* (w=wide). Das sind Zeichen mit einer Codierung die der Ausführungsumgebung entspricht. Damit können String-Literale definiert werden wie:
 
@@ -379,7 +379,7 @@ std::wstring str = L"Hall\x94" "chen Welt";
 std::wcout << str << std::endl;
 ```
 
-(https://www.torsten-horn.de/techdocs/encoding.htm) für die Windows-Kommandozeile ist für ö 0x94 zu verwenden (die Windows-Kommandozeile ist üblicherweise auf Codepage 850 eingestellt - das ist ebenfalls ein 1Byte Zeichensatz). Die Aufteilung des Strings ist notwendig da nach dem Code ein Leerzeichen notwendig ist.
+(<https://www.torsten-horn.de/techdocs/encoding.htm)> für die Windows-Kommandozeile ist für ö 0x94 zu verwenden (die Windows-Kommandozeile ist üblicherweise auf Codepage 850 eingestellt - das ist ebenfalls ein 1Byte Zeichensatz). Die Aufteilung des Strings ist notwendig da nach dem Code ein Leerzeichen notwendig ist.
 
 ## STL
 
@@ -387,5 +387,5 @@ Strings sind komplett an die STL angepasst. Daher ist eine Fülle weiterer Funkt
 
 ## Referenzen
 
-- C++ String Literale
-  https://en.cppreference.com/w/cpp/language/string_literal
+- C++ String Literale  
+  <https://en.cppreference.com/w/cpp/language/string_literal>

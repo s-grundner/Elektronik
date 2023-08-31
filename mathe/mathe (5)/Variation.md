@@ -15,7 +15,7 @@ Eine *Variation* oder *geordnete Stichprobe* ist in der [Kombinatorik](Kombin
 
 Darf jedes Objekt nur einmal auftreten, spricht man von einer **Variation ohne Wiederholung**.
 
->[!summary] Formel
+>[!summary] Formel  
 > $$\frac{n!}{(n-k)!}$$
 
 
@@ -38,7 +38,7 @@ Darf jedes Objekt nur einmal auftreten, spricht man von einer **Variation ohne 
 
 Können Objekte dabei mehrfach ausgewählt werden, so spricht man von einer **Variation mit Wiederholung**.
 
-> [!summary] Formel:
+> [!summary] Formel:  
 > $$n^{k}$$
 
 
@@ -46,6 +46,5 @@ Können Objekte dabei mehrfach ausgewählt werden, so spricht man von einer **V
 > - Dezimal: Basis $10 \rightarrow 10$ verschiedene Symbole $(0-9)$ werden $k$-mal variiert $\rightarrow 10^{k}$ Variationen
 > - Binär: Basis $2 \rightarrow 2$ verschiedene Symbole $(0-1)$ werden $k$-mal variiert $\rightarrow 2^{k}$ Variationen
 > - Hex: Basis $16 \rightarrow 16$ verschiedene Symbole $(0-F)$ werden $k$-mal varriert $\rightarrow 16^{k}$ Variationen
-
 
 # Tags

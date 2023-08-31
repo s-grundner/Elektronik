@@ -28,10 +28,9 @@ created: 29th November 2022
 
 6. Sudoku. Es soll ein 9x9-Sudoku-Feld angelegt werden. In diesem gegebenen Array sind teilweise Nummern von 1-9 eingetragen. Andere Array-Elemente sind noch leer (mit 0 befüllt). Mittels Eingabeaufforderung können Werte eingetragen werden. Ein voll befülltes Feld soll auf richtige Lösung überprüft werden.
 
+## Beispiele
 
-### Beispiele
-
-1. Es soll ein Array angelegt werden mit 2x2 Ganzzahlen. Gib die Adresse des Arrays aus. Gib den Inhalt des Arrays (1te Dimension - Index 0) aus.
+1. Es soll ein Array angelegt werden mit 2x2 Ganzzahlen. Gib die Adresse des Arrays aus. Gib den Inhalt des Arrays (1te Dimension - Index 0) aus.  
    L:
 
    ```java
@@ -47,8 +46,8 @@ created: 29th November 2022
    [I@6d06d69c
    ```
 
-   Die erste Ausgabe zeigt: 2-dim.-Array (doppelte [-Klammer) bestehend aus Integer-Elementen unter der Adresse ... .
-   Die zweite Ausgabe zeigt: Array mit Integer-Werten unter der Adresse ... .
+   Die erste Ausgabe zeigt: 2-dim.-Array (doppelte [-Klammer) bestehend aus Integer-Elementen unter der Adresse … .  
+   Die zweite Ausgabe zeigt: Array mit Integer-Werten unter der Adresse … .
 
    
 
@@ -66,7 +65,7 @@ created: 29th November 2022
    }
    ```
 
-3. Lege ein einfaches Array an um alle Noten eines Schülers in den besuchten Gegenständen zu Speichern. Berechne anschliessend den arithmetischen Mittelwert um den Notenschnitt zu berechnen.
+3. Lege ein einfaches Array an um alle Noten eines Schülers in den besuchten Gegenständen zu Speichern. Berechne anschliessend den arithmetischen Mittelwert um den Notenschnitt zu berechnen.  
    L:
 
    ```java
@@ -76,7 +75,7 @@ created: 29th November 2022
    ...
    ```
 
-4. Das vorherige Beispiel soll erweitert werden um die Noten sämtlicher Fächer derSchülers einer Klasse abzulegen. Berechne anschliessend den Notenschnitt des Schülers und den Notenschnitt je Fach.
+4. Das vorherige Beispiel soll erweitert werden um die Noten sämtlicher Fächer derSchülers einer Klasse abzulegen. Berechne anschliessend den Notenschnitt des Schülers und den Notenschnitt je Fach.  
    L:
 
    ```java
@@ -87,7 +86,7 @@ created: 29th November 2022
    ```
    Wichtig: für das Array notenSchueler klar notieren, welche Dimension den Schüler und welche Dimension das Fach beinhaltet.
 
-5. Das vorherige Beispiel soll erweitert werden um die Noten der Klassen einer Abteilung abzulegen.
+5. Das vorherige Beispiel soll erweitert werden um die Noten der Klassen einer Abteilung abzulegen.  
    L:
 
    ```java

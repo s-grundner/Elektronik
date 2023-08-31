@@ -21,7 +21,7 @@ Diese Operationen bieten für Datenzugriffe den wichtigsten Teil der Zugriffe ab
 
 Im HTTP-Protokoll gibt es folgende Anfrage-Methoden: <https://wiki.selfhtml.org/wiki/HTTP/Anfragemethoden>. Diese werden können durch CRUD angewendet werden (zum Beispiel Create -> Post, Read -> Get, Update -> Put, Delete -> Delete ).
 
-Beispielhaft wird hier das Anlegen eines Datensatz in einer XAMPP/MariaDB angeführt (Das Beispiel ist auch auf: https://www.ionos.de/digitalguide/websites/web-entwicklung/crud-die-wichtigsten-datenbankoperationen/ hervorragend und weiterführend erklärt). Die Darstellung in diesem Beispiel erfolgt mittels *Bootstrap-Grids*. Das Beispiel kann einfach mit Hilfe einer installierten XAMPP-Umgebung probiert werden:
+Beispielhaft wird hier das Anlegen eines Datensatz in einer XAMPP/MariaDB angeführt (Das Beispiel ist auch auf: <https://www.ionos.de/digitalguide/websites/web-entwicklung/crud-die-wichtigsten-datenbankoperationen/> hervorragend und weiterführend erklärt). Die Darstellung in diesem Beispiel erfolgt mittels *Bootstrap-Grids*. Das Beispiel kann einfach mit Hilfe einer installierten XAMPP-Umgebung probiert werden:
 
 ### 1. Erstellen einer Beispieldatenbank
 
@@ -45,7 +45,7 @@ INSERT INTO `customers`	(`id`, `name`, `email`, `mobile`) VALUES (NULL, 'Hocee G
 INSERT INTO `customers`	(`id`, `name`, `email`, `mobile`) VALUES (NULL, 'Grome Maile', 'Maile@waalmart.com', '+53555123426');
 ```
 
-Die Beibehaltung der Bezeichnungen (Spaltennamen ...) ist für die folgenden Teile wichtig.
+Die Beibehaltung der Bezeichnungen (Spaltennamen …) ist für die folgenden Teile wichtig.
 
 ### 2. Herstellen der DB-Verbindung
 
@@ -264,7 +264,7 @@ Eigenschaften von REST-Architekturen:
 
 - Jede Ressource muss eindeutig (mittels URI - Uniform Resource Identification) adressierbar sein
 - Bei jeder Anfrage werden sämtliche notwendigen Informationen mitgeschickt (stateless)
-- Resourcen sind über gleichartige Methoden erreichbar (GET, PUT ...)
+- Resourcen sind über gleichartige Methoden erreichbar (GET, PUT …)
 - Resourcen sind von der Repräsentation unabhängig. Übliche Formate sind XML und JSON.
 
 ### 1. Installation
@@ -274,7 +274,7 @@ Eigenschaften von REST-Architekturen:
 ### 2. Vorbereitung
 
 - Für Firefox: Installation des RESTClient-Add-Ons; Add-On Starten, dann können relativ komfortabel CRUD-Requests abgesetzt werden.
-- Für Chrome: Installation der Restlet Client Erweiterung;  Starten (in der Adress-Leiste \<R\>-Icon anklicken), dann können relativ komfortabel CRUD-Requests abgesetzt werden.
+- Für Chrome: Installation der Restlet Client Erweiterung; Starten (in der Adress-Leiste \<R\>-Icon anklicken), dann können relativ komfortabel CRUD-Requests abgesetzt werden.
 - Verbindung entweder via Chrome/Firefox oder Alternativen (Postman) auf `http://192.168.62.104:3000/api` (Adresse unter welcher der Node.js-Server läuft, mit Port 3000).
 
 ### 3. Design des REST-API
@@ -306,7 +306,7 @@ app.get('/', function(req, res) {
 });
 ```
 
-Damit wird die HTTP-get-Anforderung weitergeleitet. Als Pfad wird der eigene Pfad angegeben.  Der Handler wird direkt codiert und gibt "Hello World" aus.
+Damit wird die HTTP-get-Anforderung weitergeleitet. Als Pfad wird der eigene Pfad angegeben. Der Handler wird direkt codiert und gibt "Hello World" aus.
 
 (<https://expressjs.com/de/starter/basic-routing.html>)
 
@@ -314,7 +314,7 @@ Damit wird die HTTP-get-Anforderung weitergeleitet. Als Pfad wird der eigene Pfa
 
 Um via Node.js auf eine MySQL-DB (für uns MariaDB) zuzugreifen zu können:
 
-(<https://www.npmjs.com/package/mysql>)
+(<https://www.npmjs.com/package/mysql>)  
 (<https://www.w3schools.com/nodejs/nodejs_mysql_select.asp>)
 
 Voraussetzung ist eine laufende DB (wenn sie nicht sowieso schon läuft: `sudo /etc/init.d/mysql start`). Einfaches, allgemeines Beispiel (Parameter anpassen) **server.js**:
@@ -452,13 +452,13 @@ Starten/Stoppen (enable/disable) eines Service:
 
 ![REST_SysOverview_03](assets/REST_SysOverview_03.png)
 
-https://www.youtube.com/watch?v=1VA0MPwFcyU
+<https://www.youtube.com/watch?v=1VA0MPwFcyU>
 
 Für dieses Beispiel ist eine lokale MongoDB-[Datenbank](../Db/Datenbank.md) notwendig. Der Server muss lokal laufen (zum Beispiel als Service) und eine *MyDB*-[Datenbank](../Db/Datenbank.md) beinhalten mit einer (beliebigen) *person*-Collection (siehe *NoSQL-Datenbanken-Skriptum*).
 
 ### 1. Installation
 
-- Download und Ausführen des msi von https://nodejs.org/de/. Dabei Auswahl für Installation der notwendigen Tools.
+- Download und Ausführen des msi von <https://nodejs.org/de/.> Dabei Auswahl für Installation der notwendigen Tools.
 
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
@@ -724,7 +724,7 @@ Für dieses Beispiel ist das vorherige PHP-Beispiel Voraussetzung.
   http://xxx.xxx.xxx.xxx:80/_rest/c
   ```
 
-  beide Zugriffe sind gleichwertig (das wird mittels .htaccess realisiert). Der Pfad-Teil _rest ergibt sich durch die entsprechende Ablage im XAMPP-htdocs-Ordner erreicht.
+  beide Zugriffe sind gleichwertig (das wird mittels .htaccess realisiert). Der Pfad-Teil _rest ergibt sich durch die entsprechende Ablage im XAMPP-htdocs-Ordner erreicht.  
   In functions.php sind Hilfsfunktionen für index.php abgelegt.
 
   (dieses Beispiel ist in *webWorkspace\_Rest_01_PhpServer* abgelegt)
@@ -904,31 +904,31 @@ http://localhost:1880/_rest?name=java
 
 - CRUD
 
-  - https://de.wikipedia.org/wiki/CRUD
-  - Schöne Anleitung zum Erstellen eines MySQL-Seite mit den CRUD-Operationen: https://www.ionos.de/digitalguide/websites/web-entwicklung/crud-die-wichtigsten-datenbankoperationen/
+  - <https://de.wikipedia.org/wiki/CRUD>
+  - Schöne Anleitung zum Erstellen eines MySQL-Seite mit den CRUD-Operationen: <https://www.ionos.de/digitalguide/websites/web-entwicklung/crud-die-wichtigsten-datenbankoperationen/>
 
 - REST
 
   - Einfach verständliche Einführung: <https://t3n.de/magazin/rest-web-services-einfuhrung-219976/>
-  - https://de.wikipedia.org/wiki/Representational_State_Transfer
-  - https://www.cloudcomputing-insider.de/was-ist-eine-rest-api-a-611116/
-  - https://www.datacenter-insider.de/was-ist-rest-api-a-714434/
+  - <https://de.wikipedia.org/wiki/Representational_State_Transfer>
+  - <https://www.cloudcomputing-insider.de/was-ist-eine-rest-api-a-611116/>
+  - <https://www.datacenter-insider.de/was-ist-rest-api-a-714434/>
   - <https://entwickler.de/online/web/restful-api-design-intro-579826380.html>
-  - Node.js mit Express
-    <https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4>
+  - Node.js mit Express  
+    <https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4>  
     <https://scotch.io/bar-talk/designing-a-restful-web-api>
 
 - Node.js - Serverseitige JavaScript-Laufzeitumgebung
 
-  - https://de.wikipedia.org/wiki/Node.js
-  - (!!!) https://www.w3schools.com/nodejs/default.asp
-  - Installation für div. OS: https://nodejs.org/en/download/
-  - Node.js für Raspian: https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
+  - <https://de.wikipedia.org/wiki/Node.js>
+  - (!!!) <https://www.w3schools.com/nodejs/default.asp>
+  - Installation für div. OS: <https://nodejs.org/en/download/>
+  - Node.js für Raspian: <https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp>
 
-  - [Node-Red](Node-RED.md)->[Datenbank](../Db/Datenbank.md): https://flows.nodered.org/node/node-red-node-mysql
-  - Node.js - Verwendung für MySQL-Datenbanken
-    <https://www.w3schools.com/nodejs/nodejs_mysql_select.asp>
+  - [Node-Red](Node-RED.md)->[Datenbank](../Db/Datenbank.md): <https://flows.nodered.org/node/node-red-node-mysql>
+  - Node.js - Verwendung für MySQL-Datenbanken  
+    <https://www.w3schools.com/nodejs/nodejs_mysql_select.asp>  
     (<https://www.npmjs.com/package/mysql>)
 
-- [Node-Red](Node-RED.md) mit Rest-API:
-  https://medium.com/@ankur.kus1/build-rest-api-using-flow-based-programming-node-red-4ed343228ba
+- [Node-Red](Node-RED.md) mit Rest-API:  
+  <https://medium.com/@ankur.kus1/build-rest-api-using-flow-based-programming-node-red-4ed343228ba>

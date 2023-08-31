@@ -3,6 +3,7 @@ tags: ["c++", "MOC"]
 aliases: ["c++"]
 created: 19th August 2023
 ---
+
 # Map of Content - Cpp
 
 - [Cpp_Skr_00_Zusammenfassung](Cpp_Skr_00_Zusammenfassung.md)

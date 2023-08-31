@@ -6,7 +6,7 @@ Schnittstelle Objekte <-> Datenbank für Java-Anwendungen. JPA ist eine Speziali
 
 Mittels JPA wird eine Zwischenschicht zwischen der Java-Anwendung und der Datenbank angeboten um objektorientiert mit Tabellen arbeiten zu können.
 
-### Beispiel anhand Uni-Datenbank:
+## Beispiel anhand Uni-Datenbank:
 
 1. Programm-Setup am Besten mit Maven, die Projektkonfiguration pom.xml:
    
@@ -46,7 +46,7 @@ Mittels JPA wird eine Zwischenschicht zwischen der Java-Anwendung und der Datenb
    </project>
    ```
    
-   Eingefügt werden hier die beiden Abhängigkeiten `hibernate` (zum DB unabhängigen arbeiten) und `mysql` für den Zugriff auf eine MySQL/MariaDB. Die Konfiguration kann aus dem Mavenrepositories gefunden werden:  https://mvnrepository.com/
+   Eingefügt werden hier die beiden Abhängigkeiten `hibernate` (zum DB unabhängigen arbeiten) und `mysql` für den Zugriff auf eine MySQL/MariaDB. Die Konfiguration kann aus dem Mavenrepositories gefunden werden: <https://mvnrepository.com/>
 
 2. Im Hauptprogramm wird mit den Klassen/Entitäten gearbeitet:
    
@@ -127,11 +127,11 @@ Mittels JPA wird eine Zwischenschicht zwischen der Java-Anwendung und der Datenb
    private Prof prof;
    ```
    
-   hier wird die `profid` mit der `id` des Profs verknüpft. Diese Verknüpfung ist Unidirektional, in der Prof-Tabelle ist der zugeordnete Assistent nicht bekannt. Für Bidirektionale Verknüpfungen muss ein entsprechendes Tag in beiden Tabellen eingebaut werden (@OneToOne ...).
+   hier wird die `profid` mit der `id` des Profs verknüpft. Diese Verknüpfung ist Unidirektional, in der Prof-Tabelle ist der zugeordnete Assistent nicht bekannt. Für Bidirektionale Verknüpfungen muss ein entsprechendes Tag in beiden Tabellen eingebaut werden (@OneToOne …).
 
 4. Persistence
    
-   Die Verknüpfung DB<->Code erfolgt mittels `.../src/main/resources/META-INF/persistence.xml`:
+   Die Verknüpfung DB<->Code erfolgt mittels `…/src/main/resources/META-INF/persistence.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -158,7 +158,7 @@ Mittels JPA wird eine Zwischenschicht zwischen der Java-Anwendung und der Datenb
 
    Achtung: Tippfehler im XML führen zu schwer interpretierbaren Fehlermeldungen. Der Name `my-pu` wird im main verwendet um auf die DB zuzugreifen.
 
-## Referenz
+# Referenz
 
 - Oracle-Einführung: [Introduction to the Java Persistence API - The Java EE 6 Tutorial](https://docs.oracle.com/javaee/6/tutorial/doc/bnbpz.html)
 

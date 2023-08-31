@@ -283,12 +283,12 @@ Ergänzen Sie minish.h, minish.c, strlist.h, strlist.h um obiges minish.c zum La
 
 ## Erweiterung MINISH
 
-Erweitern Sie das MINISHELL-Programm mit folgendem Befehl    `!sort  ........... sorts the list\n \`
+Erweitern Sie das MINISHELL-Programm mit folgendem Befehl `!sort  ……….. sorts the list\n \`
 
-Beschreibung:
+Beschreibung:  
 Wenn der Benutzer `!sort` eingibt, soll die Liste der Befehle sortiert werden. Der Anwender kann dies dann durch Eingabe des Befehles `hi` kontrollieren.
 
-Hinweis:
+Hinweis:  
 Auszug der Header-Datei für den Listen-Modul: _strlist.h_
 
 ```c
@@ -298,11 +298,11 @@ Auszug der Header-Datei für den Listen-Modul: _strlist.h_
 extern void sortList(THEADER*);
 ```
 
-Hinweis:
-Beim Sortieren der Liste genügt es, wenn bei zwei zu vergleichenden Listenknoten die dta-Komponenten  (sind ja char*) ausgetauscht werden (die verbindenden Zeiger können belassen werden).
+Hinweis:  
+Beim Sortieren der Liste genügt es, wenn bei zwei zu vergleichenden Listenknoten die dta-Komponenten (sind ja char*) ausgetauscht werden (die verbindenden Zeiger können belassen werden).
 
-Hinweis:
-Der Sortieralgorithmus wird lesbarer, wenn Sie für den Zugriff auf z.B. zwei benachbarte Listenknoten eine  **lokale** Hilfsfunktion schreiben.
+Hinweis:  
+Der Sortieralgorithmus wird lesbarer, wenn Sie für den Zugriff auf z.B. zwei benachbarte Listenknoten eine **lokale** Hilfsfunktion schreiben.
 
 ```c
 static TNODE* get_NodeList(THEADER* aList, int number){

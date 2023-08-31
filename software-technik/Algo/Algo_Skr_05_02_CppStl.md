@@ -8,7 +8,7 @@ created: 29th November 2022
 
 ## array
 
-array ist eine Hüllklasse (Wrapper) welche die C-Arrays verwendet und mit sinnvollen Methoden erweitert (begin, end, size ...). Diese Erweiterungen werden in den abgeleiteten Klassen (im Folgenden) verwendet.
+array ist eine Hüllklasse (Wrapper) welche die C-Arrays verwendet und mit sinnvollen Methoden erweitert (begin, end, size …). Diese Erweiterungen werden in den abgeleiteten Klassen (im Folgenden) verwendet.
 
 ```c++
 // include array, iostream		using std
@@ -198,7 +198,7 @@ int main() {
 
 ## Referenzen
 
-- deque
+- deque  
   [https://thispointer.com/what-is-stddeque-and-how-deque-works-internally/](https://thispointer.com/what-is-stddeque-and-how-deque-works-internally/)
 
 - für Java

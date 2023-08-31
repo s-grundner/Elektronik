@@ -6,26 +6,26 @@ created: 29th November 2022
 
 # Grafana
 
-(raspi: https://www.youtube.com/watch?v=b0Ors2hJJ5s)
+(raspi: <https://www.youtube.com/watch?v=b0Ors2hJJ5s)>
 
 ## Installation
 
-- Download:
-  https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1
+- Download:  
+  <https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1>  
   Installation ist einfach/gut beschrieben
 
 ## Konfiguration
 
-- Anschließend (wenn Service gestartet) im Browser:
-  http://localhost:3000
-  Standard-Login: admin|admin
+- Anschließend (wenn Service gestartet) im Browser:  
+  http://localhost:3000  
+  Standard-Login: admin|admin  
   Nach Login wird Passwortänderung gefordert admin|comein
-- Benutzerdaten anpassen (Logo links-unten -> Preferences)
+- Benutzerdaten anpassen (Logo links-unten -> Preferences)  
   Name, E-Mail, Usernam
 
 ## Datenquelle
 
-Add Database-Source - hier zB InfluxDB wählen, dann die Datenquelle (localhost:8086 wenn auf dem gleichen Rechner)
+Add Database-Source - hier zB InfluxDB wählen, dann die Datenquelle (localhost:8086 wenn auf dem gleichen Rechner)  
 (ttndb, fsst|comecomein) -> Save&Text -> OK
 
 ## Dashboard

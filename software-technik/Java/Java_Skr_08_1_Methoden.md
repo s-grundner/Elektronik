@@ -5,29 +5,30 @@ created: 29th November 2022
 ---
 
 # 8 Methoden / Funktionen
+
 (Funktionen/Unterprogramme/Prozeduren). Methoden dienen zur Kapselung von Programmteilen. Dadurch wird die Software besser lesbar. Methoden können wiederholt ausgeführte Progammteile beinhalten und damit das Programm vereinfachen. Eine Methode führt Operationen aus und benötigt dazu (eventuell) Informationen. Diese Information muss der Methode beim Aufruf mitgegeben werden (Aufrufparameter). Manche Methoden haben auch ein Ergebnis. Dieses Ergebnis kann als Rückgabewert der aufrufenden Hierarchie zurückgegeben werden.
 
-**<u>Beispiel:</u>** es soll innerhalb eines Programms eine Sinus-Funktion berechnet werden. Berechnet wird der Sinus z.B. mit einer Tabelle. Zwischen den angegebenen Punkten wird interpoliert. Wird diese Implementierung direkt ins Hauptprogramm eingebaut, wird das Programm sehr unübersichtlich für einen sehr einfachen Rechenschritt.
+**<u>Beispiel:</u>** es soll innerhalb eines Programms eine Sinus-Funktion berechnet werden. Berechnet wird der Sinus z.B. mit einer Tabelle. Zwischen den angegebenen Punkten wird interpoliert. Wird diese Implementierung direkt ins Hauptprogramm eingebaut, wird das Programm sehr unübersichtlich für einen sehr einfachen Rechenschritt.  
 Daher wird eine Methode erstellt mit dem Namen **sin**. Damit ein sin-Wert berechnet werden kann muss ein Winkel als Aufrufparameter mitgegeben werden. Sinnvoll wird ein Fließkommawert sein, also **sin(doubleWert)**. Diese Methode liefert auch ein Ergebnis. Dieses Ergebnis (der Sinus-Wert) wird ebenfalls ein Fließkommawert sein: **doubleWert = sin( doubleWert )**.
 
-**[Zugriffs-Modifikator] Rückgabetyp Methodenname([Aufrufparameter]) {**
-​	*Methoden-Körper*
-​	return *Rückgabewert*
+**[Zugriffs-Modifikator] Rückgabetyp Methodenname([Aufrufparameter]) {**  
+​	*Methoden-Körper*  
+​	return *Rückgabewert*  
 **}**
 
 Die erste Zeile ist der Kopf/die Deklaration der Methode.
 
 - Zugriffs-Modifikator (kommt später noch genauer):
-  - public static    Methode kann von überall aufgerufen werden (und benötigt kein Objekt) - ist dann eine Funktion.
-- Rückgabetyp:
-  Kann jeder Datentyp sein (int, String, double, Arrays ...). Wenn die Methode kein Ergebnis an den Aufrufer zurückgeben soll, so ist das mit dem Schlüsselwort **void** statt des Datentyps kennzuzeichnen. Dann entfällt die *return*-Anweisung.
-- Methodenname:
+  - public static Methode kann von überall aufgerufen werden (und benötigt kein Objekt) - ist dann eine Funktion.
+- Rückgabetyp:  
+  Kann jeder Datentyp sein (int, String, double, Arrays …). Wenn die Methode kein Ergebnis an den Aufrufer zurückgeben soll, so ist das mit dem Schlüsselwort **void** statt des Datentyps kennzuzeichnen. Dann entfällt die *return*-Anweisung.
+- Methodenname:  
   Eindeutige und aussagekräftige Bezeichnung der Methode. In Java beginnen Methodennamen mit einem Kleinbuchstaben.
-- Aufrufparameter:
+- Aufrufparameter:  
   Können beliebig viele Parameter mit jeweils beliebigen Datentypen sein.
-- Methoden-Körper:
+- Methoden-Körper:  
   Hier wird der Programmcode implementiert
-- *return*-Anweisung:
+- *return*-Anweisung:  
   mit diesem Befehl wird der Wert an die aufrufende Instanz zurück übergeben. Der Wert der zurückgegeben wird muss genau den gleichen Typ haben wie im Kopf als Rückgabetyp deklariert wurde (ansonsten meldet der Compiler einen Fehler).
 
 
@@ -93,7 +94,7 @@ String typ = "Herbert"
 gruesse(typ);
 ```
 
-Wenn die Programmausführung diese Zeile verarbeitet, wird in die Methode **gruesse(...)** verzweigt, und darin der Gruß "Hallo Herbert!" in der Konsole ausgegeben. Anschliessend wird das Programm in der folgenden Zeile fortgeführt.
+Wenn die Programmausführung diese Zeile verarbeitet, wird in die Methode **gruesse(…)** verzweigt, und darin der Gruß "Hallo Herbert!" in der Konsole ausgegeben. Anschliessend wird das Programm in der folgenden Zeile fortgeführt.
 
 **<u>Beispiel 4:</u>**
 
@@ -126,7 +127,7 @@ Aufruf:
 double[] cplxSumme = addiere(cplx1, cplx2);
 ```
 
-[Komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) beinhalten immer 2 Zahlen. Mit einem primitiven Rückgabewert könnte man lediglich den Real- oder Imaginärteil zurückgeben. Wird eine [komplexe Zahl](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) in ein Feld gekapselt, dann kann die komplette Zahl zurückgegeben werden.
+[Komplexe Zahlen](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) beinhalten immer 2 Zahlen. Mit einem primitiven Rückgabewert könnte man lediglich den Realoder Imaginärteil zurückgeben. Wird eine [komplexe Zahl](../../mathe/mathe%20(3)/Komplexe%20Zahlen.md) in ein Feld gekapselt, dann kann die komplette Zahl zurückgegeben werden.
 
 ## Mehrere Return-Anweisungen
 
@@ -292,7 +293,7 @@ Für was / wann sollen Methoden nun verwendet werden?
 
 - Das zweite wesentliche Argument für die Verwendung von Methoden ist die Möglichkeit Code wiederverwenden zu können. Dadurch wird der gleiche Code mehrmals verwendet. Eventuell implementierte Fehler werden so schneller gefunden (Grundsätzlich: Fehler gibt's in der Softwareentwicklung IMMER und bei JEDEM!). Außerdem greifen Verbesserungen in einer Methode sofort für sämtliche, die Methode verwendende Code-Teile (bessere Wartbarkeit). Wiederum kann obiges Beispiel herangezogen werden: soll der Sortieralgorithmus für das Feld optimiert werden, so ist klar, dass das in der Methode *feldSortieren* zu erfolgen hat.
 
-- Moderne Entwicklungsumgebungen (*Eclipse* ...) bieten zusätzlich sehr komfortable Hilfen an: die Methoden werden im Projektbaum (Paket-Explorer) dargestellt, bei jedem Aufruf einer Methode wird eine Hilfe zur Methode mit angezeigt.
+- Moderne Entwicklungsumgebungen (*Eclipse* …) bieten zusätzlich sehr komfortable Hilfen an: die Methoden werden im Projektbaum (Paket-Explorer) dargestellt, bei jedem Aufruf einer Methode wird eine Hilfe zur Methode mit angezeigt.
 
 Regel: so oft Methoden wie möglich.
 
@@ -300,7 +301,7 @@ Regel: so oft Methoden wie möglich.
 >
 > Es können beliebige und beliebig viele Aufrufparameter in einer Methode definiert werden.
 >
-> Für den letzten Aufrufparameter kann eine variable Anzahl mit dem Zusatz "..." nach dem Datentyp angegeben werden.
+> Für den letzten Aufrufparameter kann eine variable Anzahl mit dem Zusatz "…" nach dem Datentyp angegeben werden.
 >
 > Es kann entweder keinen oder nur einen einzigen Rückgabewert geben. Der Rückgabewert kann allerdings auch ein Feld sein in dem mehrere Werte abgelegt werden können. Die Ausführung einer Methode wird sofort mit einer return-Anweisung beendet.
 >
@@ -335,7 +336,7 @@ public static void main(String[] args) {		// die Methode Main hat den Aufrufpara
 }
 ```
 
-*args* sind die Argumente der Funktion. Da  das Programm selbst keinen Einfluss auf die Anzahl der Argumente hat, ist der Typ ein Feld von Strings. Eventuelle Parameter werden vom 1ten Feldelement beginnend in das Feld gefüllt. Die Parameter werden beim Aufruf durch *Whitespaces* (Leerzeichen, Tabulatoren ...) getrennt.
+*args* sind die Argumente der Funktion. Da das Programm selbst keinen Einfluss auf die Anzahl der Argumente hat, ist der Typ ein Feld von Strings. Eventuelle Parameter werden vom 1ten Feldelement beginnend in das Feld gefüllt. Die Parameter werden beim Aufruf durch *Whitespaces* (Leerzeichen, Tabulatoren …) getrennt.
 
 Ein Beispiel:
 

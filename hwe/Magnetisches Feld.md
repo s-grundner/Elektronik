@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [MS-2JG]
 aliases: ["M-Feld", "M-Feldstärke", "Magnetische Feldstärke"]
 subject: ["hwe"]
 source: ["Michael Offenhuber"]
@@ -8,15 +8,14 @@ created: 28th November 2022
 
 # Magnetisches Feld
 
-> [!info] Ein Magnet feld wird durch einen Strom (gleichmäßig bewegte Ladung) durch einen Leiter erzeugt
+> [!info] Ein Magnet feld wird durch einen Strom (gleichmäßig bewegte Ladung) durch einen Leiter erzeugt  
 > ![275](assets/magn_feld_leiter.png)
 
-> [!hint] Rechtsschraubenregel
+> [!hint] Rechtsschraubenregel  
 > ![300](assets/Rechtsschrauben_regel.png)
 
-> [!hint] Umfassungsregel
+> [!hint] Umfassungsregel  
 > ![375](assets/Umfassungs_regel.png)
-
 
 # Magnetische Grundgrößen
 
@@ -29,7 +28,6 @@ created: 28th November 2022
 | Induktivität einer Zylinderspule | $L=N^{2}\cdot \dfrac{\mu_{0}\cdot\mu_{r}\cdot A}{l}$ |          $[H]$           |
 | Induzierte Spannung              | $u = L\cdot \frac{di}{dt}$                           |          $[V]$           |
 
-
 # Quellen
 
-#MS-2JG 
+ 

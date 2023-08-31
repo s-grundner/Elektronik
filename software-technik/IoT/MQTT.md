@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # MQTT - Message Queuing Telemetry Transport
 
-https://de.wikipedia.org/wiki/MQTT
+<https://de.wikipedia.org/wiki/MQTT>
 
 **Publish-Subscribe-Architektur**
 
@@ -14,12 +14,12 @@ Schwachstelle von MQTT: ohne Broker geht gar nicht mehr.
 
 ## Installation Mosquitto
 
-Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige [Betriebssysteme](../Os/Operating%20Systems.md). Für Windows/Linux kann es einfach über die Seite https://mosquitto.org/download bezogen werden.
+Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige [Betriebssysteme](../Os/Operating%20Systems.md). Für Windows/Linux kann es einfach über die Seite <https://mosquitto.org/download> bezogen werden.
 
 Grundsätzlich ist zu unterscheiden:
 
 - Broker: Tool welches MQTT-Nachrichten annimmt, behält und weitergibt
-- Publisher: MQTT-Teilnehmer welcher Daten übermittelt/published (Messwerte/Aktuatorzustände ...) - die Daten werden an den Broker übermittelt
+- Publisher: MQTT-Teilnehmer welcher Daten übermittelt/published (Messwerte/Aktuatorzustände …) - die Daten werden an den Broker übermittelt
 - Subscriber: MQTT-Teilnehmer welcher auf Daten vom Broker wartet, dazu trägt er die Nachrichten ein welche für ihm relevant sind.
 
 Mit Mosquitto können sämtliche 3 Teilnehmer umgesetzt werden. Es kann ein Broker gestartet werden (oft als Service), in der Kommandozeile können Nachrichten an einen beliebigen Broker gesendet werden und es können auch Nachrichten von einem beliebigen Broker subskribiert werden.
@@ -105,7 +105,7 @@ Header mit 2 Bytes: Header-Flags und Message-Length (restliche Länge)
 
 Quality of Service
 
-0	Fire and Forget - es wird gesendet und nicht überwacht/bestätigt (wie TCP)
+0	Fire and Forget - es wird gesendet und nicht überwacht/bestätigt (wie TCP)  
 1,2	Eine Nachricht wird gesendet bist bestätigter Empfang erfolgt
 
 ### Topic
@@ -124,7 +124,7 @@ sport/tennis/player1/ranking
 sport/#
 ```
 
-​	gilt für `sport/tennis/...` aber auch `sport/soccer/...` 
+​	gilt für `sport/tennis/…` aber auch `sport/soccer/…` 
 
 - Als **Single-Level-Wildcard** funktioniert **+**:
 
@@ -142,7 +142,7 @@ sport/#
 
 TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die für die Richtigkeit der Daten bürgt. Falls wir unseren eigenen Zertifikaten trauen können wir diese selbst Erstellen (wie im Folgenden gezeigt).
 
-- Download **openssl**: <http://slproweb.com/products/Win32OpenSSL.html>  (Win64, Essentials genügt) und installieren (Standard-Settings). Die Installation erfolgt damit üblicherweise nach:
+- Download **openssl**: <http://slproweb.com/products/Win32OpenSSL.html> (Win64, Essentials genügt) und installieren (Standard-Settings). Die Installation erfolgt damit üblicherweise nach:  
   `C:\Program Files\OpenSSL-Win64\bin`
 
 1. Damit wird ein Schlüssel-Paar für CA in die Datei **ca_.key** generiert (Schlüssel eingeben):
@@ -158,7 +158,7 @@ TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die fü
   
   ```
 
-2. Erstellen eines Zertifikates mit dem eben erstellten Schlüssel (obiger Schlüssel muss eingegeben werden) - es wird **ca.crt** erstellt:
+1. Erstellen eines Zertifikates mit dem eben erstellten Schlüssel (obiger Schlüssel muss eingegeben werden) - es wird **ca.crt** erstellt:
 
   ```
   c:\temp>"c:\program files\openssl-win64\bin\openssl" req -new -x509 -days 1826 -key ca_.key -out ca.crt
@@ -182,7 +182,7 @@ TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die fü
 
   **WICHTIG: **als FQDN (FullQualifiedHostName) wird der Name des Broker-Rechners eingetragen, für Standard-Raspi ist das `raspberrypi`.
 
-3. Erstellen eines Server-Schlüssel-Paares - in die Datei **srv.key**:
+1. Erstellen eines Server-Schlüssel-Paares - in die Datei **srv.key**:
 
   ```
   c:\temp>"c:\program files\openssl-win64\bin\openssl" genrsa -out srv.key 2048
@@ -193,7 +193,7 @@ TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die fü
   
   ```
 
-4. Erstellen einer Zertifikatsanforderung:
+1. Erstellen einer Zertifikatsanforderung:
 
   ```
   c:\temp>"c:\Program Files\OpenSSL-Win64\bin\openssl" req -new -out srv.csr -key srv.key
@@ -221,9 +221,9 @@ TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die fü
 
   **WICHTIG: **Hier dürfen auf keinen Fall die gleichen Daten wie oben eingegeben werden. Die Zertifikate müssen sich unterscheiden (1 Buchstabe anders genügt).
 
-  Der letzte Absatz wird nicht ausgefüllt (auch kein password ...), wir sind selber die Authorisierungsstelle.
+  Der letzte Absatz wird nicht ausgefüllt (auch kein password …), wir sind selber die Authorisierungsstelle.
 
-5. Verifizieren und Unterzeichnen des Server-Zertifikates. Damit wird die Datei **srv.crt** erstellt:
+1. Verifizieren und Unterzeichnen des Server-Zertifikates. Damit wird die Datei **srv.crt** erstellt:
 
   ```
   c:\temp>"c:\program files\openssl-win64\bin\openssl" x509 -req -in srv.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out srv.crt -days 360
@@ -236,20 +236,20 @@ TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die fü
 
   Als Key wird der oben eingegebene Schlüssel (Erstellung des ca_.keys) eingegeben.
 
-6. Passphrase auf **ca_.key** entfernen -> **ca.key**:
+1. Passphrase auf **ca_.key** entfernen -> **ca.key**:
 
    ```
    c:\temp>"c:\program files\openssl-win64\bin\openssl" rsa -in ca_.key -out ca.key
    ```
 
-7. Auf dem Server (Broker) für **mosquitto** werden die folgenden Dateien verschoben:
+2. Auf dem Server (Broker) für **mosquitto** werden die folgenden Dateien verschoben:
 
   - auf Windows: in einen neuen Ordner im Mosquitto-Verzeichnis (certs) kopiert: **ca.crt**, **ca.key**, **srv.crt** und **srv.key**.
-  - Auf einem Linux-System werden **srv.key** und **srv.crt** in den schon vorhandenen Ordner  `/etc/mosquitto/certs/` verschoben und **ca.crt**, **ca.key** in den schon vorhandenen Ordner `/etc/mosquitto/ca_certificates` verschoben
+  - Auf einem Linux-System werden **srv.key** und **srv.crt** in den schon vorhandenen Ordner `/etc/mosquitto/certs/` verschoben und **ca.crt**, **ca.key** in den schon vorhandenen Ordner `/etc/mosquitto/ca_certificates` verschoben
 
-8. Auf dem Client wird die **ca.crt** und **ca.key** in diese Ordner kopiert.
+1. Auf dem Client wird die **ca.crt** und **ca.key** in diese Ordner kopiert.
 
-9. Auf dem Server/Broker anpassen der Mosquitto-Konfiguration in **mosquitto.conf**:
+2. Auf dem Server/Broker anpassen der Mosquitto-Konfiguration in **mosquitto.conf**:
 
   ```
   port 8883
@@ -274,7 +274,7 @@ TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die fü
 
   Hier wird `port 8883` ohne Kommentierung (#) von 1883 auf 8883 verändert. Für Linux gibt es das Verzeichnis `/etc/mosquitto/conf.d/` in welchem die Konfiguration eingefügt wird. Etwa indem eine **mosquitto.conf ** erstellt wird und nur der hier angeführte cfg-Auszug einkopiert wird. Damit diese Konfiguration verwendet wird muss so gestartet werden: `mosquitto -c /etc/mosquitto/mosquitto.conf`. Damit wird das Standard-Conf-File eingebunden aus welchem das eigene eingebunden wird. Für den service mosquitto.service wird üblicherweise automatisch mosquitto.conf eingebunden (liegt in inid.d).
 
-10. Hash erneuern für den oben erwähnten capath:
+1. Hash erneuern für den oben erwähnten capath:
 
     ```
     openssl rehash <path to capath>
@@ -335,12 +335,12 @@ Damit kann dann mit der cafile-Option der Ort des Zertifikats angegeben werden:
 ## Referenzen
 
 - <http://mqtt.org/>
-- Deutsche Einführung
+- Deutsche Einführung  
   <https://www.informatik-aktuell.de/betrieb/netzwerke/mqtt-leitfaden-zum-protokoll-fuer-das-internet-der-dinge.html>
 - <https://www.hivemq.com/mqtt-essentials/>
-- Broker Mosquitto
+- Broker Mosquitto  
   <https://mosquitto.org/>
-- Installation SSL für Mosquitto MQTT:
+- Installation SSL für Mosquitto MQTT:  
   <http://www.steves-internet-guide.com/mosquitto-tls/>
-- Vergleich MQTT <-> CoAP
+- Vergleich MQTT <-> CoAP  
   [<https://iotbyhvm.ooo/coap-vs-mqtt/>](<https://iotbyhvm.ooo/coap-vs-mqtt/>)

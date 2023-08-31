@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [MS-2JG]
 aliases: []
 subject: ["physik"]
 source: ["Michael Offenhuber"]
@@ -10,4 +10,4 @@ created: 28th November 2022
 
 # Quellen
 
-#MS-2JG 
+ 

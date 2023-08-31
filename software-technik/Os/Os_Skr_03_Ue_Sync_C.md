@@ -2,7 +2,6 @@
 
 ## Bank (c++707)
 
-
 [[http://www.dpunkt.de/java/Programmieren_mit_Java/Multithreading/3.html][Bank Aufgabenbeschreibung (original)]]
 
 Erstellen Sie auf der Grundlage des unten gezeigten Java-Programmes ein CPP-Programm mit der Verwendung von Threads.
@@ -75,13 +74,13 @@ int main(){
 }
 ```
 
-
 ### Java-Programm (J500)
-Ein Objekt Bank modelliert eine reale Bank, die Konten für verschiedene Personen verwaltet. 
+
+Ein Objekt Bank modelliert eine reale Bank, die Konten für verschiedene Personen verwaltet.  
 Die Bank hat Überweisungen durchzuführen. Die Überweisungen werden in parallelen Threads abgearbeitet. 
 
-
 #### Die Klasse SimpleBank
+
 - In diesem Beispiel wird die Bank durch eine Klasse SimpleBank realisiert. 
 - Diese Bank besitzt das Array konten, das die Stände der einzelnen Konten enthält. 
 - Der Array-Index soll als Kontonummer dienen. 
@@ -129,17 +128,17 @@ class SimpleBank {
 - Diese werden durch die Klasse Angestellter implementiert. 
 - Damit mehrere Angestellte gleichzeitig Transaktionen vornehmen können, werden sie von Thread abgeleitet. 
 
-
 #### Die Klasse Angestellter
-Jeder Angestellte gehört zu einer Bank. 
-Deshalb wird dem Konstruktor ein Verweis auf SimpleBank übergeben. 
-Über diesen Verweis wird die Methode ueberweisung() aufgerufen. 
-Die beiden beteiligten Kontonummern sowie der Betrag werden dem 
-Konstruktor übergeben und in entsprechenden Datenelementen 
+
+Jeder Angestellte gehört zu einer Bank.  
+Deshalb wird dem Konstruktor ein Verweis auf SimpleBank übergeben.  
+Über diesen Verweis wird die Methode ueberweisung() aufgerufen.  
+Die beiden beteiligten Kontonummern sowie der Betrag werden dem  
+Konstruktor übergeben und in entsprechenden Datenelementen  
 der Klasse gespeichert. 
 
-Diese Datenelemente werden dann in run() benutzt, um die Methode 
-ueberweisung() der Bank aufzurufen. Nachdem die Transaktion durchgeführt 
+Diese Datenelemente werden dann in run() benutzt, um die Methode  
+ueberweisung() der Bank aufzurufen. Nachdem die Transaktion durchgeführt  
 ist, wird eine aktuelle Kontenübersicht ausgegeben.
 
 
@@ -167,8 +166,8 @@ ist, wird eine aktuelle Kontenübersicht ausgegeben.
 }
 ```
 
-
 #### Das Main Programm 
+
 - vereinbart drei Verweise auf die Klasse Angestellter. Anschließend wird ein SimpleBank-Objekt erzeugt und eine Übersicht über den Anfangsstand der Konten gegeben. 
 - Dann werden die drei Thread-Objekte erzeugt. Die Konten werden hierbei so gewählt, dass sich eine ringförmige Überweisung ergibt. Wenn alles ordnungsgemäß verläuft, dann müsste also die Kontenübersicht am Ende genauso aussehen wie am Anfang. 
 - Schließlich werden die Threads durch Aufrufe ihrer start()-Methoden gestartet. In Java wird mittel Aufruf der *start*-Methode einer Thread-Klasse die Funtion *run()* in einem neuen Thread gestartet.
@@ -195,7 +194,7 @@ public class SimpleBankDemo {
 }
 ```
 
-Prinzipiell kann das Beispiel ohne Probleme funktionieren. Falls jedoch von beiden Threads zur gleichen Zeit der Kontostand von Konto A erniedrigt werden soll, so kann es vorkommen, dass beide den gleichen Ausgangskontostand lesen, in ihrer temporären Variablen speichern, davon subtrahieren und dann den neuen Wert schreiben. 
+Prinzipiell kann das Beispiel ohne Probleme funktionieren. Falls jedoch von beiden Threads zur gleichen Zeit der Kontostand von Konto A erniedrigt werden soll, so kann es vorkommen, dass beide den gleichen Ausgangskontostand lesen, in ihrer temporären Variablen speichern, davon subtrahieren und dann den neuen Wert schreiben.  
 Je nachdem, ob der erste oder der zweite Thread beim Schreiben schneller ist, wird der Kontostand von Konto A um 10 oder um 20 erniedrigt. Der korrekte Wert wäre jedoch die Summe der Einzelabbuchungen, also 30, gewesen. Die Ausgabe des Programms sieht so (oder ähnlich) aus:
 
 ```
@@ -218,10 +217,11 @@ Je nachdem, ob der erste oder der zweite Thread beim Schreiben schneller ist, wi
 ```
 
 #### Lost-Update-Problem
+
 - Wie man der letzten Kontenübersicht entnehmen kann, sind nach der letzten Überweisung 40 EUR »verschwunden«. 
 
-- Die Ursache des Problems liegt darin, dass der Vorgang der Abbuchung, also das Lesen, Subtrahieren und Schreiben in mehreren Schritten abläuft und so ein zweiter Thread mit einer eigentlich ungültigen Zahl arbeitet. Dieses Verhalten nennt man Race-Condition. 
-Generell sind Race-Conditions Programmfehler, die nur manchmal auftreten, nämlich genau dann, wenn zufällig zwei parallele Threads zur gleichen Zeit auf bestimmte Objekte zugreifen. 
+- Die Ursache des Problems liegt darin, dass der Vorgang der Abbuchung, also das Lesen, Subtrahieren und Schreiben in mehreren Schritten abläuft und so ein zweiter Thread mit einer eigentlich ungültigen Zahl arbeitet. Dieses Verhalten nennt man Race-Condition.  
+Generell sind Race-Conditions Programmfehler, die nur manchmal auftreten, nämlich genau dann, wenn zufällig zwei parallele Threads zur gleichen Zeit auf bestimmte Objekte zugreifen.  
 Derartige Fehler sind in der Praxis schwer zu lokalisieren. 
 
 
@@ -456,9 +456,9 @@ Zum Beispiel ist die folgende Datei aus einem Skriptum kopiert worden:
 86 }
 ```
 
-Im Skriptum wurden Zeilennummern mit angezeigt und werden mit kopiert. Verwenden Sie Notepad++ (oder einen ähnlichen Editor, versuchen Sie WinWord) zum Entfernen der Zeilennummern. Finden Sie einen einzigen *RegEx* zum Entfernen sämtlicher Zeilennummern (http://www.cplusplus.com/reference/regex/ECMAScript/).
+Im Skriptum wurden Zeilennummern mit angezeigt und werden mit kopiert. Verwenden Sie Notepad++ (oder einen ähnlichen Editor, versuchen Sie WinWord) zum Entfernen der Zeilennummern. Finden Sie einen einzigen *RegEx* zum Entfernen sämtlicher Zeilennummern (<http://www.cplusplus.com/reference/regex/ECMAScript/).>
 
-Lösung für Word (hilfreich z. B. https://www.lubasch.ch/office/word/word_tipps/word_platzhaltersuche.pdf):
+Lösung für Word (hilfreich z. B. <https://www.lubasch.ch/office/word/word_tipps/word_platzhaltersuche.pdf):>
 
 ```
 Einstellung "Platzhalter verwenden"
@@ -475,7 +475,7 @@ Großer Nachteil von *RegEx* (im Allgemeinen): vielfach werden diese *RegEx* abw
 
 ![Os_RegExMan](assets/Os_RegExMan.png)
 
-Beispiel für E-Mail-Adresse (RFC 5322 Official Standard): https://www.regular-expressions.info/email.html
+Beispiel für E-Mail-Adresse (RFC 5322 Official Standard): <https://www.regular-expressions.info/email.html>
 
 ## RegEx-Match (702)
 
@@ -495,11 +495,11 @@ Erstellen Sie ein Programm, welches sämtliche Zeilen von einer Datei in eine Zw
 
 Allgemein
 
-- Programm von http://marknelson.us/2012/05/23/c11-threading-made-easy/
+- Programm von <http://marknelson.us/2012/05/23/c11-threading-made-easy/>
 	
-- Übung zu STL (deque, vector), regex, async, mutex, ...
+- Übung zu STL (deque, vector), regex, async, mutex, …
 	
-- Überblick:
+- Überblick:  
   Das zu erstellende Programm *wordsearch.exe* soll eine große Textdatei *input.txt* einlesen und alle Worte aus der Textdatei ausgeben, die einem bestimmten Muster entsprechen (Kommandozeilen-Argument).
 
 - Beispiel:
@@ -537,9 +537,9 @@ clean:
 	rm *.exe
 ```
 
-###   1. Ein- und Ausgabe: wordsearch-read-only.cpp
+### 1. Einund Ausgabe: wordsearch-read-only.cpp
 
-- Erzeugen Sie die Datei *input.txt*. Windows-Benutzer können einen Inhalt etwa laden von: https://users.cs.duke.edu/~ola/ap/linuxwords. Linux: 
+- Erzeugen Sie die Datei *input.txt*. Windows-Benutzer können einen Inhalt etwa laden von: <https://users.cs.duke.edu/~ola/ap/linuxwords.> Linux: 
 
    ```
 cp /usr/share/dict/words input.txt
@@ -616,6 +616,7 @@ int main(int argc, char *argv[]) {
    ```
 
 #### regex: Die Funktion find_matches()
+
 Erzeuge die Funktion *find_matches*, die alle Strings im *backlog-deque* (*backlog*), die auf dem Aufruf-Parameter *pattern* passen, in einem *vector\<string\>* zurückgibt.
 
 
@@ -660,7 +661,7 @@ upturn
 
 #### Hinweise zu den regex-Funktionen
 
-- http://www.cplusplus.com/reference/regex/
+- <http://www.cplusplus.com/reference/regex/>
 
 
 - regex_match - Aufruf mit Iteratoren (von Begin nach End):
@@ -695,7 +696,7 @@ upturn
   }
   ```
 
-  (`__FILE__ und __LINE__ `  haben nichts mit RegEx zu tun, damit kann lediglich der Programmname und die Zeilennummer ermittelt werden)
+  (`__FILE__ und __LINE__ ` haben nichts mit RegEx zu tun, damit kann lediglich der Programmname und die Zeilennummer ermittelt werden)
 
 - regex_match - Suche in gegebenen String:
 
@@ -704,7 +705,7 @@ upturn
     std::cout << "string literal matched\n";
   ```
   
-- Zusatzfunktionen mit regex_search (http://www.cplusplus.com/reference/regex/match_results/suffix/):
+- Zusatzfunktionen mit regex_search (<http://www.cplusplus.com/reference/regex/match_results/suffix/):>
 
   ```c++
   // match_results::prefix/suffix
@@ -738,7 +739,6 @@ upturn
   suffix: [ in this haystack]
   */
   ```
-
 
 ### 2. wordsearch.cpp: mit regex (find_matches())
 
@@ -816,8 +816,8 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-
 ### 3. Multithreading
+
 Für die Multi-Threaded-Variante werden für den Aufruf von *find_match* der in C++11 vefügbare *async* wrapper verwendet:
 
 ```c++
@@ -831,6 +831,7 @@ vector<string> words = f1.get();
 ```
 
 #### async-wordsearch.cpp: find_matches () als async-thread
+
 a. Kopieren Sie das obige Programm *wordsearch.cpp* in *async-wordsearch.cpp*
 
 b. Es werden nun 2 Threads mit *find_matches()*-Aufrufen gestartet.
@@ -952,6 +953,7 @@ int main(int argc, char *argv[]) {
 ```
 
 ### 4. async-wordsearch-mutex.cpp: mutex verwenden
+
 Das vorherige Programm stürzt ab, weil Objekte aus der STL wie *deque* nicht *Thread-Safe* sind.
 
 a. Kopieren Sie *async-wordsearch.cpp* nach *async-wordsearch-mutex.cpp*.
@@ -1208,5 +1210,5 @@ die Funktion `queue.take()` blockiert bis ein Element in der Queue verfügbar is
 
 ## Referenzen
 
-- Sehr gut lesbares, deutsches Java-Skriptum
-  http://ssw.jku.at/Teaching/Lectures/Sem/2003/reports/Brueckl/Brueckl.pdf
+- Sehr gut lesbares, deutsches Java-Skriptum  
+  <http://ssw.jku.at/Teaching/Lectures/Sem/2003/reports/Brueckl/Brueckl.pdf>

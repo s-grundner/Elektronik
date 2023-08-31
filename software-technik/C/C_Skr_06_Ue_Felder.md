@@ -63,7 +63,7 @@ Umgedreht:  [3,2,1]
   printf("Der Text ohne Zeilenumbruch: _%s_", str);
   ```
 
-- Ändern Sie den obigen Code so ab, dass die Variable str nicht mehr mit einem Zeilenumbruch endet. strlen(...)  gibt die Länge einer Zeichenkette exklusiv '\0' zurück.
+- Ändern Sie den obigen Code so ab, dass die Variable str nicht mehr mit einem Zeilenumbruch endet. strlen(…) gibt die Länge einer Zeichenkette exklusiv '\0' zurück.
 
 - Beispiel-Ausgabe:
 
@@ -204,7 +204,6 @@ Deutsche Texte haben statistisch eine deutliche Häufung des Buchstaben "e". Wir
   sortiert:   [1,2,7,8,17,91]
   ```
 
-
 ## AstattO (057)
 
 - Lesen Sie einen Text ein
@@ -220,7 +219,6 @@ Deutsche Texte haben statistisch eine deutliche Häufung des Buchstaben "e". Wir
 
 - Tipp: Einlesen einer Zeichenkette mit `fgets(myString, 10, stdin)`, wobei 10 die Anzahl der maximalen Zeichen angibt und stdin den Stream von dem gelesen werden soll (stdin = Tastatur).
 
-
 ## StringTerm (058)
 
 - Initialisieren Sie str1 = "Hallo Du Da"
@@ -229,7 +227,6 @@ Deutsche Texte haben statistisch eine deutliche Häufung des Buchstaben "e". Wir
 - Geben Sie den String str1 aus
 - Führen Sie das Programm aus und geben "sowieso" ein.
 - Was wird ausgegeben und warum?
-
 
 ## IdxOverrun (059)
 
@@ -248,17 +245,16 @@ Deutsche Texte haben statistisch eine deutliche Häufung des Buchstaben "e". Wir
 
 ## ReplaceMax (060)
 
--   Gegeben ist ein int-Feld arr = [2, 7, 5, 3, 8, 5, 6, 4, 2, 5]. Ersetze den höchsten Wert durch 99.
+- Gegeben ist ein int-Feld arr = [2, 7, 5, 3, 8, 5, 6, 4, 2, 5]. Ersetze den höchsten Wert durch 99.
 
--   Geben Sie das resultierende Feld in der Form aus: **[2 7 5 3 99 5 6 4 2 5 ]**.
+- Geben Sie das resultierende Feld in der Form aus: **[2 7 5 3 99 5 6 4 2 5 ]**.
 
--   Beispiel-Ausgabe:
+- Beispiel-Ausgabe:
 
     ```
     Ursprungsfeld: [2, 7, 5, 3, 8, 5, 6, 4, 2, 5]
     Max->99:       [2, 7, 5, 3, 99, 5, 6, 4, 2, 5]
     ```
-
 
 ## ReplaceFieldCont (061)
 
@@ -275,7 +271,6 @@ Deutsche Texte haben statistisch eine deutliche Häufung des Buchstaben "e". Wir
   Codierung:                L**gt **n A*g* **f d*m Tr*s*n *st **n Z*mb** d*g*w*s*n
   ```
 
-
 ## ProfWarning (062)
 
 - Gegeben ist eine Zeichenkette str1 = 
@@ -284,7 +279,7 @@ Deutsche Texte haben statistisch eine deutliche Häufung des Buchstaben "e". Wir
 
 - In einer zweiten Zeichenkette str2 = **"Lehrer"** ist eine Zeichenfolge gegeben die in str1 gesucht und ersetzt werden muss. Und zwar durch **"*"** und eine Folge von Beeps.
 
-- Das Ergebnis soll so aussehen:
+- Das Ergebnis soll so aussehen:  
   *"\* sind immer nur am Schwaetzen tun den Eltern alles petzen. Besserwisser aus dem Buche immer nur auf Fehlersuche. Der Schulalltag ist gar nicht leicht wenn einen schon die Angst beschleicht. Das der \* mit den Eltern spricht dann ist man wieder Boesewicht."*
 
   Bei der "\*" Ausgabe wird gleichzeitig gebeept. Für einen Beep (Bell) gibt's einen ASCII Code.
@@ -334,7 +329,6 @@ Deutsche Texte haben statistisch eine deutliche Häufung des Buchstaben "e". Wir
   0 0 0
   _______________
   ```
-
 
 ## Passwort (064)
 

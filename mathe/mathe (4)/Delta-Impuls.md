@@ -7,7 +7,8 @@ created: 26th April 2022
 ---
 
 # Delta-Impuls $\delta(t)$ 
-Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.
+
+Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
 Zu seiner Einführung kann man von einem kurzen Rechtecksimpuls **$y=r(t)$** ausgehen:
 $$
 \begin{align*}
@@ -24,7 +25,7 @@ Zur Normierung der *Wirkung* einer solchen Impulsfunktion wurde gewählt, dass d
 $$
 A = \int_{-\infty}^{\infty}r(t)dt=\int_{0}^{h}r(t)dt = 1 
 $$
-Wird $h$ kleiner, so wird $r(t)$ wegen der konstanten "Impulsfläche" 1 während der Impulsdauer $h$ größer.
+Wird $h$ kleiner, so wird $r(t)$ wegen der konstanten "Impulsfläche" 1 während der Impulsdauer $h$ größer.  
 Man möchte nun den gesamten Impuls "auf einen Zeitpunkt konzentrieren", Dazu geht man zum Grenzfall $h\rightarrow 0$ über und erhält so die folgende Funktion:
 
 $$
@@ -35,13 +36,14 @@ $$
 	\end{cases} && \text{mit} && \int_{-\infty}^{\infty}\delta (t)dt = 1
 \end{align*}
 $$
-$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. [...]
-Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.
+$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. […]  
+Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.  
 ![d_impuls](../assets/d_impuls.png)
 
 $d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
 
 ## Ausblend-Eigenschaft des $\delta$-Impuls
+
 Wirkung des $\delta$-Impulses auf eine Zeit Funktion $f$:
 $$
 \begin{align*}
@@ -59,7 +61,7 @@ $$
 \end{align*}
 $$
 
-Allgemein:
+Allgemein:  
 ![delta_impuls](../assets/delta_impuls.png)
 $$
 \underline{\underline{

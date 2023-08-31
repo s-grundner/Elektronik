@@ -65,7 +65,7 @@ int main()
 }
 ```
 
-1.  `arr11 = (arr1 + arr2);`
+1. `arr11 = (arr1 + arr2);`
 
    - Rechts vom Gleichheitszeichen: + Operation. Dieser Klammerausdruck wird ausgewertet und gibt ein neu erzeugtes array-Objekt zurück.
 
@@ -99,7 +99,7 @@ int main()
 
    Beim Ausführen wird ersichtlich: der Destruktor mit den 99er Markierungen hat keine Auswirkung mehr.
 
-2. `array arr10 = arr1 + arr2;`
+1. `array arr10 = arr1 + arr2;`
 
    - Rechts vom Gleichheitszeichen ist eine *operator+*-Operation wie vorhin auch.
    - Links vom Gleichheitszeichen wird ein Objekt neu definiert. Dadurch hat der *=* Operator hier die Bedeutung des *Initialisierungs-Operators*.

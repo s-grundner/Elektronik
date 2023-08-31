@@ -139,7 +139,7 @@ c = (int)a;
 
 Schreiben Sie eine int-Stack-Klasse:
 
-- effizient (dynamisches Array), das Array  soll immer um mindestens 5 Plätze vergrößert werden (Effizienz)
+- effizient (dynamisches Array), das Array soll immer um mindestens 5 Plätze vergrößert werden (Effizienz)
 - Einfügen von int-Elementen mittels push
 - Lesen des letzten int-Elements mittels top
 - Entfernen des letzten Elements mittels pop
@@ -173,7 +173,7 @@ Die folgenden Operatoren sind notwendig:
 
   ganz wichtig: Standardmäßig ist dieser Operator verfügbar - allerdings nur als Shallow-Copy.
 
-- [] soll als Schreibender und auch als Lesender Operator funktionieren (ist zwar unüblich für Stack ...) 
+- [] soll als Schreibender und auch als Lesender Operator funktionieren (ist zwar unüblich für Stack …) 
 
 ## CString
 
@@ -242,7 +242,7 @@ Die folgenden Operatoren sind notwendig:
 
 ## Company
 
-Vergleichsoperator == ist möglich mit `bool operator==(typ1 a, typ2 b) ... `.
+Vergleichsoperator == ist möglich mit `bool operator==(typ1 a, typ2 b) … `.
 
 ```c++
 ...

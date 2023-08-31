@@ -4,6 +4,8 @@ aliases: []
 created: 29th November 2022
 ---
 
+# Java_Skr_11_3_OOP_Polymorphie
+
 11.3 Objekt Orientierte Programmierung - Polymorphie
 ===================
 
@@ -88,7 +90,7 @@ Creature bill = new Worm();		// Wurm ist auch eine Kreatur
 o1.essen("Doppelwopper");
 ```
 
-Da sämtliche von einer abstrakten Klasse die abstrakten Methode implementieren müssen und diese üblicherweise unterschiedlich sind (sonst wäre könnte die Methode direkt in die Superklasse eingebaut werden) ist deren Aufruf polymorph (immer unterschiedlich).  Im Gegensatz dazu steht ein *immergleicher* Methodenaufruf abgeleiteter Klassen ohne Überschreiben (monomorph).
+Da sämtliche von einer abstrakten Klasse die abstrakten Methode implementieren müssen und diese üblicherweise unterschiedlich sind (sonst wäre könnte die Methode direkt in die Superklasse eingebaut werden) ist deren Aufruf polymorph (immer unterschiedlich). Im Gegensatz dazu steht ein *immergleicher* Methodenaufruf abgeleiteter Klassen ohne Überschreiben (monomorph).
 
 ------
 

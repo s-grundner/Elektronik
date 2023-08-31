@@ -1,3 +1,5 @@
+# Cpp_Skr_33_Ex_OOPAssoziationen
+
 Objektorientierung - Assoziationen
 
 - Multiplizität: Mengenverhältnisse
@@ -27,9 +29,5 @@ Im UML wird obige Bezeichnung beim Ziel notiert:
   Beispiel: Gleiches Beispiel wie gerade eben, nur der Angestellte hat keine Funktion wie leseId, daher weiß er nicht in welcher Abteilung er sich befindet -> Kreuz bei der Abteilung.
 
 ## Rollen
-
-
-
-
 
 informatikzentrale.de/assoziationen.html

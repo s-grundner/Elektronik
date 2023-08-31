@@ -10,8 +10,8 @@ created: 17th April 2022
 
 A linked list is a list of any elements which additionally points somewhere in the memory to the next element.
 
-The first element is called **HEADER**, the last element is called **TAIL**.
-The links inbetween are often called **edges** or **branches**
+The first element is called **HEADER**, the last element is called **TAIL**.  
+The links inbetween are often called **edges** or **branches**  
 Unlike arrays, linked lists do not have to be a consistent memory-block and can *float* in the memory.
 
 If a new element is needed, it just needs to be **allocated one time** and then linked-up with the other elements.
@@ -65,4 +65,5 @@ int main(int argc, char const *argv[])
 > [!note] Output: 32 - 8 - 45 -
 
 ---
+
 # Tags

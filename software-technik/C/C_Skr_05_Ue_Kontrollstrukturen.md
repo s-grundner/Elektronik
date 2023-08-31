@@ -48,7 +48,7 @@ Lesen Sie eine Zahl ein und Prüfen Sie ob es sich um eine Primzahl handelt.
 - Primzahlen: nur durch sich selbst oder 1 teilbar.
 - Prüfen ob Zahl durch 2 teilbar, wenn ja -> Ende, keine Primzahl, sonst weiter
 - Prüfen ob Zahl durch 3 teilbar, wenn ja -> Ende, keine Primzahl, sonst weiter
-- ...
+- …
 - Wenn Teiler die zu untersuchende Zahl erreicht, dann handelt es sich um eine Primzahl
 
 - Beispiel-Ausgabe:
@@ -83,7 +83,6 @@ Lesen Sie eine Zahl ein und Prüfen Sie ob es sich um eine Primzahl handelt.
   Geben Sie den Exponenten ein: 4
   (3^4) = 81
   ```
-
 
 ## Prüfziffer (042)
 

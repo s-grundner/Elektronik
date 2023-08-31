@@ -8,22 +8,22 @@ Es werden die folgenden 5 Routes/Befehle unterstützt:
 
 - `GET`: `/employee` sämtliche Mitarbeiter anzeigen
 - `GET`: `/employee/1` Mitarbeiter mit `id=1` anzeigen
-- `POST`: `/employee`: `{"name":"Hans",...}` Einfügen Mitarbeiter mit den Daten im HTTP-Body
-- `PUT`: `/employee`: `{"id":"3",name":"Hans",...}` Ändern der Daten von Benutzer mit `id=3`
+- `POST`: `/employee`: `{"name":"Hans",…}` Einfügen Mitarbeiter mit den Daten im HTTP-Body
+- `PUT`: `/employee`: `{"id":"3",name":"Hans",…}` Ändern der Daten von Benutzer mit `id=3`
 - `DELETE`: `/employee/4` Löschen des Mitarbeiters mit `id=4`
 
 In den folgenden 7 Schritten wird die Anwendung entwickelt:
 
-### 1. Spring-Projekt Erstellen
+## 1. Spring-Projekt Erstellen
 
-- [start.spring.io](), Projekt konfigurieren mit Gradle oder Maven, Java
+- [start.spring.io](), Projekt konfigurieren mit Gradle oder Maven, Java  
   (für Unten: com.developer/employeemanagement)
 
 - Dependencies: Spring-Web, Spring-Data-JPA, PostgreSQL-Driver
 
 - Generate, Download, Entpacken und mit IntelliJ Öffnen
 
-### 2. Erstellen und Verbinden mit Datenbank
+## 2. Erstellen und Verbinden mit Datenbank
 
 - Installation von PostgreSQL, Anlegen eines Benutzers (bei der Installation wird für User postgres nach dem Passwort gefragt).
 
@@ -39,7 +39,7 @@ In den folgenden 7 Schritten wird die Anwendung entwickelt:
   spring.datasource.password=comein
   ```
   
-  Starten der Anwendung, es darf keine Fehlermeldung kommen. Die Zugangsdaten müssen korrekt sein (Port, Benutzer, Passwort) und die DB muss laufen (Dienste...).
+  Starten der Anwendung, es darf keine Fehlermeldung kommen. Die Zugangsdaten müssen korrekt sein (Port, Benutzer, Passwort) und die DB muss laufen (Dienste…).
   
   Der Standardport von Spring ist 8080, wenn ein anderer Port gewünscht ist kann der in den `application.properties` mit dieser Zeile angepasst werden:
   
@@ -47,7 +47,7 @@ In den folgenden 7 Schritten wird die Anwendung entwickelt:
   server.port=8081
   ```
 
-### 3. Erstellen Entity
+## 3. Erstellen Entity
 
 - Entity Package und Klasse erstellen: employee-management->src->main->java->com.developer.employeemanagement->entity->EmployeeEntity.java:
   
@@ -105,7 +105,7 @@ In den folgenden 7 Schritten wird die Anwendung entwickelt:
   
   Testen der Konfiguration durch Ausführen des Hauptprogramms (es darf kein Fehler kommen und es wird automatisch die employeedb-Tabelle erzeugt).
 
-### 4. Erstellen Repository
+## 4. Erstellen Repository
 
 - Erstellen des Packages und der Klasse Repository: employee-management->src->main->java->com.developer.employeemanagement->repository->EmployeeRepository:
   
@@ -123,7 +123,7 @@ In den folgenden 7 Schritten wird die Anwendung entwickelt:
   
   Typen von JpaRepository sind Klasse (EmployeeEntity) und der Schlüssel (id -> Long).
 
-### 5. Erstellen Service
+## 5. Erstellen Service
 
 - Service Package und Klasse erstellen: employee-management->src->main->java->com.developer.employeemanagement->service->EmployeeService.java:
   
@@ -174,7 +174,7 @@ In den folgenden 7 Schritten wird die Anwendung entwickelt:
   }
   ```
 
-### 6. Erstellen Controller
+## 6. Erstellen Controller
 
 - Erstellen Controller Package und Klasse: employee-management->src->main->com.developer.employeemanagement->controller->EmployeeController.java:
   
@@ -219,6 +219,6 @@ In den folgenden 7 Schritten wird die Anwendung entwickelt:
   }
   ```
 
-### 7. Test
+## 7. Test
 
 Mittels VSCode->ThunderClient -> localhost:8080/employee

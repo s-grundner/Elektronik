@@ -5,11 +5,12 @@ created: 29th November 2022
 ---
 
 # Socket
+
 # Sockets
 
 ## Client/Server - Sockets
 
-Der größte Teil der Kommunikation in Netzwerken findet zwischen Client- und Server-Prozessen statt.
+Der größte Teil der Kommunikation in Netzwerken findet zwischen Clientund Server-Prozessen statt.
 
 ![NW_ClientServerPrinzip](assets/NW_ClientServerPrinzip.png)
 
@@ -17,7 +18,7 @@ Das Client-Server-Paar kann grundsätzlich mittels verschiedener Protokolle komm
 
 Eine zentrale Frage im *Netzwerk*: *wie finden Client und Server zueinander?*
 
-In sehr vielen Internet-Anwendungen wird sowohl Server- als auch Clientseitig entweder *TCP* oder *UDP* als Transportprotokoll verwendet. Manchmal wird auch direkt/roh auf *IP* aufgesetzt, entweder wenn kein Transportdienst benötigt wird, oder ein Transportdienst Teil der Anwendung selbst ist.
+In sehr vielen Internet-Anwendungen wird sowohl Serverals auch Clientseitig entweder *TCP* oder *UDP* als Transportprotokoll verwendet. Manchmal wird auch direkt/roh auf *IP* aufgesetzt, entweder wenn kein Transportdienst benötigt wird, oder ein Transportdienst Teil der Anwendung selbst ist.
 
 Für *UDP* und *TCP* werden deren *Portnummern* zur Identifikation verwendet. Standardapplikationen wie *FTP* oder *SMTP* bekommen Serverseitig *well-known-ports* (RFC). Lokale Portnummern eines Knotens werden vom [Betriebssystem](../../software-technik/Os/Operating%20Systems.md) verwaltet.
 
@@ -44,8 +45,8 @@ Ein großer Unterschied zwischen Server und Client ist, dass ein Client für ein
 Mit *accept* wird ein neuer Socket erzeugt (und es kann auf eine weitere Anfrage gewartet werden).
 
 - Simple-Server: Ein einzelner Client kann sich auf einen Server verbinden.
-- Forking/Spawning-Server: nach einem erfolgreichem Verbindungsaufbau (nach accept) wird die eigentliche Kommunikation in einen eigenen Prozess ausgelagert. Dazu wird im POSIX mittels fork() Systemaufruf gearbeitet (Telnet, FTP ...).
-- Verbindungslose-Server: dieser Typ sendet nur eine einzige Nachricht bei einer Verbindungsanfrage durch einen Client. Typischerweise wird UDP verwendet (Beispiel Network-Time-Server...).
+- Forking/Spawning-Server: nach einem erfolgreichem Verbindungsaufbau (nach accept) wird die eigentliche Kommunikation in einen eigenen Prozess ausgelagert. Dazu wird im POSIX mittels fork() Systemaufruf gearbeitet (Telnet, FTP …).
+- Verbindungslose-Server: dieser Typ sendet nur eine einzige Nachricht bei einer Verbindungsanfrage durch einen Client. Typischerweise wird UDP verwendet (Beispiel Network-Time-Server…).
 
 #### Client
 
@@ -61,7 +62,7 @@ Ein Client ist einer der beiden Endpunkt einer Kommunikation. Der grundsätzlich
 
 Das UDP-Protokoll garantiert lediglich das Nachrichten korrekte Daten beinhalten. Es kann jedoch durchaus sein, dass nicht alle Pakete ankommen (oder die Reihenfolge nicht korrekt ist). UDP-Sockets sind *nicht verbindungsorientiert*. Bei UDP-Sockets wird nicht zuerst eine Verbindung mit einem Server hergestellt. Es wird ein Socket erstellt und anschließend ein Request direkt an einen Server geschickt. Da ja vorab keine Verbindung aufgebaut wurde, wird hier mit einer *sendto()* Funktion gearbeitet. Mit dieser Funktion wird der *Empfänger* mit angegeben. Analog dazu gibt es für den Empfang eine *recvfrom()* Funktion bei der nur Nachrichten eines bestimmten Empfängers angenommen werden. Auch bei UDP gilt es gibt Server und Clients. Der Server hat zusätzlich noch *bind()* mittels welchem der Port definiert wird.
 
-Der Vorteil gegenüber der TCP-Kommunikation ist, dass dadurch eine stark reduzierte Datenmenge übertragen werden muss (es erfolgt kein Handshake mittels Checksummen...). Verwendet werden Datagramme für Daten bei denen es nicht unbedingt notwendig ist, dass sie ihr Ziel erreichen und große Datenmengen übertragen werden: Multimedia-Streams (im schlimmsten Fall Aussetzer) oder Computerspiele (im schlimmsten Fall ruckelnde Bewegungen von Spielfiguren).
+Der Vorteil gegenüber der TCP-Kommunikation ist, dass dadurch eine stark reduzierte Datenmenge übertragen werden muss (es erfolgt kein Handshake mittels Checksummen…). Verwendet werden Datagramme für Daten bei denen es nicht unbedingt notwendig ist, dass sie ihr Ziel erreichen und große Datenmengen übertragen werden: Multimedia-Streams (im schlimmsten Fall Aussetzer) oder Computerspiele (im schlimmsten Fall ruckelnde Bewegungen von Spielfiguren).
 
 ![UDP](assets/NW_Socket_UDP.png)
 
@@ -81,7 +82,7 @@ Soll unterschiedlicher Code für verschiedene [Betriebssysteme](../../software-t
 #endif // _WIN32, _WIN64, __unix__
 ```
 
-Die hier angeführten, verfügbaren Makros hängen vom Compiler ab. Die Kommunikation via Netzwerk machte es notwendig, dass Programme auf unterschiedlichen OS miteinander Kommunizieren. In den Netzwerkstandards ist etwa die Netzwerk-Byte-Folge definiert (Network-Byte-Oder). Auf dem Client oder Server weicht die Reihenfolge oft davon ab. Daher werden Adressen, Ports etc. immer über Konvertierungsfunktionen übergeben. Beispiel: hton (Host-To-Network ...)
+Die hier angeführten, verfügbaren Makros hängen vom Compiler ab. Die Kommunikation via Netzwerk machte es notwendig, dass Programme auf unterschiedlichen OS miteinander Kommunizieren. In den Netzwerkstandards ist etwa die Netzwerk-Byte-Folge definiert (Network-Byte-Oder). Auf dem Client oder Server weicht die Reihenfolge oft davon ab. Daher werden Adressen, Ports etc. immer über Konvertierungsfunktionen übergeben. Beispiel: hton (Host-To-Network …)
 
 ### Windows
 
@@ -125,7 +126,7 @@ Für Windows muss eine Bibliothek mit eingebunden werden. Mittels dieser wird au
   int iResult = WSACleanup();    // Entladen Winsock-DLL, return 0 wenn OK
   ```
 
-- für Optimierung bietet MS Defines an, mittels derer der Kompiliervorgang beschleunigt werden kann. Es werden dann einige Header nicht mit eingebunden (Kryptographische ...). Am einfachsten einfach setzen und probieren:
+- für Optimierung bietet MS Defines an, mittels derer der Kompiliervorgang beschleunigt werden kann. Es werden dann einige Header nicht mit eingebunden (Kryptographische …). Am einfachsten einfach setzen und probieren:
 
   ```
   #define VC_EXTRALEAN
@@ -203,7 +204,7 @@ Grundsätzlich bieten alle bedeutenden Programmiersprachen Bibliotheken für die
   - *sin_addr*: wiederum eine Struktur - beinhaltet die (IPv4) Adresse
   - *sin_zero[]*: reserviert - auf Null Setzen
 
-- *in_addr*
+- *in_addr*  
   Struktur für die Spezifikation einer (IP-) Adresse.
 
   ```c++
@@ -325,9 +326,9 @@ Ein Socket kann einfach erstellt werden:
 int socket(int domain, int type, int protocol);
 ```
 
-(https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-socket)
+(<https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-socket)>
 
-- *domain*: *AF_UNSPEC*, *AF_INET* (IPv4), *AF_IPX*  und Anderen
+- *domain*: *AF_UNSPEC*, *AF_INET* (IPv4), *AF_IPX* und Anderen
 - *type*: *SOCK_STREAM*, *SOCK_DGRAM* und Andere
 - *protocol*: *IPPROTO_TCP* (TCP/IP), *IPPROTO_UDP* (UDP)
 - *return*: Socket-Deskriptor oder *INVALID_SOCKET*-Code (Fehler kann anschließend mittels *WSAGetLastError()* ermittelt werden).
@@ -391,7 +392,7 @@ int listen(int sock, int backlog)
 ```
 
 - *sock*: von *Socket()*
-- *backlog*: maximale Anzahl der Client-Anfragen die in einer Queue auf Antwort warten können (0 nur der erste kann rein). Für maximale Anzahl: SOMAXCONN. Defines siehe https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-listen
+- *backlog*: maximale Anzahl der Client-Anfragen die in einer Queue auf Antwort warten können (0 nur der erste kann rein). Für maximale Anzahl: SOMAXCONN. Defines siehe <https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-listen>
 - *return*: 0 wenn OK, *SOCKET_ERROR* (-1) sonst (kann mittels WSAGetLastError ermittelt werden)
 
 Beispiel:
@@ -559,35 +560,35 @@ für beide gilt:
 
 Um Daten im Netzwerk zu übertragen gibt es unterschiedliche Möglichkeiten:
 
-- Übertragung als Text (zum Beispiel mit sprintf aufbereiten) - 
+- Übertragung als Text (zum Beispiel mit sprintf aufbereiten) -  
   Problem: eventuell schwierige Daten-Interpretation
-- Übertragung der Rohdaten - Problem: wenn der Empfänger nicht exakt die gleiche Struktur verwendet ...
+- Übertragung der Rohdaten - Problem: wenn der Empfänger nicht exakt die gleiche Struktur verwendet …
 - Übertragung als Binärdaten
 
-C-Strings werden mit '\0'  terminiert. Soll 0 übertragen werden, dann ist der String schon zu Ende. Daher werden Strings als **binäre Strings** übertragen. Dabei wird zuerst als erstes Byte die Länge des Strings Übertragen und anschließend der String.
+C-Strings werden mit '\0' terminiert. Soll 0 übertragen werden, dann ist der String schon zu Ende. Daher werden Strings als **binäre Strings** übertragen. Dabei wird zuerst als erstes Byte die Länge des Strings Übertragen und anschließend der String.
 
 Zahlen werden je nach System in unterschiedlicher Byte-Reihenfolge verarbeitet (little/big endian). Für die eindeutige Interpretation werden Zahlen in die **Netzwerk-Byte-Reihenfolge** konvertiert. Dabei helfen die Funktionen:
 
-​	htons()	host to network short
-​	htonl()	host to network long
-​	ntohs()	network to host short
+​	htons()	host to network short  
+​	htonl()	host to network long  
+​	ntohs()	network to host short  
 ​	ntohl()	network to host long
 
 ## Referenzen
 
-- Einführung
-  www.beej.us/guide/bgnet/html
+- Einführung  
+  <www.beej.us/guide/bgnet/html>
   
-- Winsocket von MS
-  https://docs.microsoft.com/en-us/windows/win32/winsock/creating-a-basic-winsock-application
+- Winsocket von MS  
+  <https://docs.microsoft.com/en-us/windows/win32/winsock/creating-a-basic-winsock-application>
   
 - Gute Protokoll-Zusammenfassung:
 
-  https://kompendium.infotip.de/netzwerktechnologie2-referenzmodelle-und-protokolle.html
+  <https://kompendium.infotip.de/netzwerktechnologie2-referenzmodelle-und-protokolle.html>
 
-- Socket-Programmierung mit C#
+- Socket-Programmierung mit C#  
   <https://docs.microsoft.com/de-de/dotnet/framework/network-programming/sockets>
 
 - Windows-Tools:
   
-   https://kompendium.infotip.de/netzwerkbefehle-der-windows-kommandozeile.html
+   <https://kompendium.infotip.de/netzwerkbefehle-der-windows-kommandozeile.html>

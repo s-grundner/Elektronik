@@ -18,14 +18,14 @@ Neben diesen Relationalen Datenbanksystem gibt es natürlich eine große Zahl vo
 
 Access ist ein kleines relationales Datenbanksystem, das im Desktopbereich eingesetzt wird. Access wird als integrale Komponente der Suite *Microsoft Office* vermarktet. Das System bietet ein integriertes DBMS, wodurch MS-Office vertrauten Benutzern die Möglichkeit geboten ist, schnell kleine Anwendungen zu entwickeln. Microsofts ODBC (Open Database Connection), ein Standard zur Kommunikation mit relationalen Datenbanksystemen, macht es möglich, Access als Front-End zu Datenbanksystemen wie Oracle oder MySQL zu verwenden.
 
-**Einsatzbereich:**
+**Einsatzbereich:**  
 Kleine Datenbanken bis zu 2 GB. Es besteht die Möglichkeit, eine Datenbankdatei gleichzeitig zwischen 255 Benutzern zu teilen. Allerdings kann die gesamte Datenbank leicht kopiert werden (Sicherheitsproblem!), so dass sie praktisch nur im Umfeld vertrauter Mitarbeiter verwendet werden kann.
 
 Im Linux Bereich sind in der LibreOffice-Suite **LibreOffice Base** verfügbar, das einen analogen Bereich abdeckt.
 
 ## MariaDB
 
-MariaDB ist ein Fork vom Datenbanksystem MySQL. MariaDB wurde vom früheren MySQLHauptentwickler Ulf Michael Widenius gegründet, nachdem Sun Microsystems im Jahr 2012 von Oracle übernommen wurde.
+MariaDB ist ein Fork vom Datenbanksystem MySQL. MariaDB wurde vom früheren MySQLHauptentwickler Ulf Michael Widenius gegründet, nachdem Sun Microsystems im Jahr 2012 von Oracle übernommen wurde.  
 MariaDB ist ein relationales Datenbankverwaltungssystem, welches als sogenanntes „Drop-in-Replacement“ für MySQL entwickelt wurde, d.h. es soll nach der Installation eine bereits bestehende MySQL Instanz ohne Nachteile ersetzen können und sofort lauffähig sein. Dies hat dazu geführt, dass viele, auch teilweise große Unternehmen von MySQL auf MariaDB gewechselt sind. MariaDB wird, genauso wie MySQL, aufgrund der guten Kompatibilität zu PHP3 oftmals für die Unterstützung von Webanwendungen genutzt.
 
 MariaDB ist Teil von XAMPP (früher war MySQL Teil des Pakets).
@@ -67,7 +67,7 @@ raspiIp/phpmyadmin
 
 Relationale Datenbank aus dem Open-Source-Bereich. Viele Standardbefehle von SQL92 werden nicht unterstützt, um die Geschwindigkeit zu steigern.
 
-**Einsatzbereich:**
+**Einsatzbereich:**  
 Mittelgroße Datenbanken. Datenbanken mit einfachen Datenstrukturen, bei denen es vor allem auf die Zugriffsgeschwindigkeit ankommt. MySQL wird wie mSQL vorwiegend für Web-basierte Anwendungen verwendet. Diese Datenbank hat durch OpenSource eine sehr große Verbreitung erfahren.
 
 Linux:
@@ -80,7 +80,7 @@ sudo apt-get install mysql
 
 Ein von Microsoft vertriebenes Unternehmensdatenbanksystem. SQL Server zeichnet sich durch die enge Verbindung zu Microsofts [Betriebssystem](../Os/Operating%20Systems.md) Windows und Microsofts Entwicklungsumgebungen wie Visual Basic und Visual C++ aus. SQL Server beinhaltet Datenanalyse (OLAP) und Datenbankverwaltungswerkzeuge. Es erlaubt die Verwendung von bis zu 64GB RAM und bis zu 32 parallelen Prozessoren.
 
-**Einsatzbereich:**
+**Einsatzbereich:**  
 Große Unternehmensdatenbanken.
 
 ## MongoDB (MongoDB) - Nicht Relational
@@ -107,13 +107,13 @@ MongoDB arbeitet, anders als MySQL, dokumentenorientiert und verfolgt entspreche
 
 - Damit der Zugriff auf MS-AccDb funktioniert muss evtl. die "Microsoft Office Access database engine" installiert werden:
   
-  https://www.microsoft.com/de-de/download/confirmation.aspx?id=23734
+  <https://www.microsoft.com/de-de/download/confirmation.aspx?id=23734>
   
   Ob das notwendig ist zeigt sich beim ersten Versuch eine Verbindung herzustellen und der Fehlermeldung "Microsoft.ACE.OLEDB.12.0'-Provider ist nicht auf dem lokalen Computer registriert."
 
 ### Einrichten einer MySql-Datenbank
 
-- Download installer: https://dev.mysql.com/downloads/mysql (MySQL Server 8.0.12)
+- Download installer: <https://dev.mysql.com/downloads/mysql> (MySQL Server 8.0.12)
 - Config Type: Development Computer, Windows Service Name: MySQL80, localhost:3306, root, Passwort: passwort
 - Zum Prüfen der Installation: Ausführen von Dienste, darin den Service MySQL80 suchen, der muss auf "Wird ausgeführt" stehen.
 - Zum Ausführen von MySQL aus der Command-Line: Pfad setzen, dann mittels "mysql -u root -p" ausführen. Alternativ wird eine mySQL Command-Line mit installiert.
@@ -132,7 +132,7 @@ use mydb;
 
 Installation Microsoft SQL Server:
 
-- Download https://www.microsoft.com/de-de/sql-server/sql-server-downloads
+- Download <https://www.microsoft.com/de-de/sql-server/sql-server-downloads>
 - Starten und Auswahl "Benutzerdefiniert"
 - Sprachwahl "Deutsch" und Standardpfad "C:\SQLServer2017Media"
 - Die Installation benötigt zu diesem Zeitpunkt eine Internetverbindung, es wird ein relativ langer Download gestartet.
@@ -140,13 +140,13 @@ Installation Microsoft SQL Server:
 Im SQL Server Installation Center:
 
 - New SQL Server stand-alone installation or add features to an existing installation
-- ...
+- …
 - ServerName: MSSQLSERVER
 - Passwort: "passwort"
 
 Installation des "SQL Server Management Studio":
 
-- Download unter (https://docs.microsoft.com/de-de/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)
+- Download unter (<https://docs.microsoft.com/de-de/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)>
 - Installation
 
 #### SQL Server Management Studio
@@ -154,12 +154,12 @@ Installation des "SQL Server Management Studio":
 - Starten und Verbinden mit "SQL Server-Authentifizierung", Anmeldename "sa" (Serveradministrator) und obiges Kennwort ("passwort"). Damit kann mit dem Server mittels dieser Daten verbunden werden. Ansonsten kann mittels Windows-Authentifizierung gearbeitet werden.
 - Ab hier ist man mit dem Datenbanksystem verbunden. Sichtbar ist das links oben im Object-Explorer
 - Unter [Databases](Databases)/System [Databases](Databases) sind viele Systemdatenbanken vorhanden, darin werden die angemeldeten Benutzer und ähnlicher Kram abgelegt.
-- Erstellen einer neuen Datenbank: Object Explorer -> [Databases](Databases) -> New Database ...
+- Erstellen einer neuen Datenbank: Object Explorer -> [Databases](Databases) -> New Database …
 - Databasename: "Northwind".
-- Mit der Schaltfläche Script ganz oben kann ein Skript angezeigt werden, das die getroffenen Einstellungen vornimmt (der ganze Kram könnte auch via Skript erledigt werden).
+- Mit der Schaltfläche Script ganz oben kann ein Skript angezeigt werden, das die getroffenen Einstellungen vornimmt (der ganze Kram könnte auch via Skript erledigt werden).  
   Mit OK im Einstellungsfenster kann die Northwind-DB (ohne Skript) angelegt werden. Das Skript im Hauptfenster kann geschlossen werden. Die neue Datenbank ist im Object-Explorer zu finden.
 - In der Menüleiste kann mit New Query (neue Abfrage) ein Abfragefenster geöffnet werden.
-- Eingabe von "CREATE TABLE Testtabelle (zaehler int);" und Menüleiste -> Execute (Ausführen) -> Commands completed successfully. Nach Refresh (F5) ist die Tabelle im Baum von Northwind zu finden.
+- Eingabe von "CREATE TABLE Testtabelle (zaehler int);" und Menüleiste -> Execute (Ausführen) -> Commands completed successfully. Nach Refresh (F5) ist die Tabelle im Baum von Northwind zu finden.  
   Auf diese Art wurde via SQL eine Tabelle erzeugt. Das klappt auch via Kontextmenü im Object-Explorer ( auch dort kann ein Skript angezeigt werden).
 
 #### Verwaltung MS SQL Server
@@ -173,7 +173,7 @@ Sehr gute Beschreibung: [https://www.linglom.com/it-support/enable-remote-connec
 
 ### Einrichten einer SQLite-Datenbank
 
-- Download Bundle-Zip (für entsprechendes OS):  https://www.sqlite.org/download.html  (3.30.1)
+- Download Bundle-Zip (für entsprechendes OS): <https://www.sqlite.org/download.html> (3.30.1)
 
 - Entzippen in einem Ordner aus welchem die DB betrieben werden soll
 
@@ -181,8 +181,8 @@ Sehr gute Beschreibung: [https://www.linglom.com/it-support/enable-remote-connec
 
 - Erklärung und Beispiele:
   
-  http://www.datenbanken-verstehen.de/
+  <http://www.datenbanken-verstehen.de/>
 
 - MySQL
   
-  http://isticktoit.net/wp-content/uploads/2013/09/kurs_forts2.pdf
+  <http://isticktoit.net/wp-content/uploads/2013/09/kurs_forts2.pdf>

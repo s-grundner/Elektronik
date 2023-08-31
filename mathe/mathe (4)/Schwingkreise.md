@@ -8,16 +8,16 @@ subject: ["mathe", "hwe", "physik"]
 
 ## Zusammenhang mit [Differentialgleichungen]({MOC}%20DGL.md)
 
-Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.
+Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.  
 Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
 
 Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wie folgt:
-1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [homogenen Lösung der DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) 
+1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [homogenen Lösung der DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)  
 	$\rightarrow y_{h}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = 0$
-2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung|der%20inhomogenen%20DGL%202.%20Ordnung)
+2. die Funktion $y_{p}(t)$ des eingeschwungenen Zustandes ist eine partikuläre Lösung [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung|der%20inhomogenen%20DGL%202.%20Ordnung)  
 	$\rightarrow y_{p}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = s(x)$
 
-> [!summary] Die Funktion der Gesamten Schwingung ist somit:
+> [!summary] Die Funktion der Gesamten Schwingung ist somit:  
 > $y(t) = y_{p}(t) + y_{h}(t)$
 
 ## Mechanischer Schwingkreis
@@ -40,10 +40,10 @@ $$
 | $d$      | Dämpfungskonstante |
 | $k$      | Federkonstante     |
 
-Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md): 
+Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md):  
 $\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y = 0$
 
-Daraus ergibt sich durch die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) folgende Formel für $\lambda$:
+Daraus ergibt sich durch die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) folgende Formel für $\lambda$:  
 $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 ### Bezeichnungen
@@ -52,7 +52,6 @@ $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 | ------------------------------------------------------- | ------------------------------------------------------------------ |
 | $2\delta = \frac{d}{m} \rightarrow \frac{d}{2m}=\delta$ | [Abklingkonstante](https://de.wikipedia.org/wiki/Abklingkonstante) |
 | $\omega_{0} = \sqrt{\frac{k}{m}}$                      | Resonanzkreisfrequenz                                              |
-
 
 ## Freie Schwingungen im realen Serienschwingkreis
 
@@ -102,7 +101,6 @@ $$
 $$
 
 >[!summary] $$\lambda^{2}+ 2\delta\cdot\lambda + \omega_{0}^{2} = 0$$
-
 
 ### Bezeichnungen
 
@@ -162,13 +160,13 @@ Mit dem Auflösen der [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) ergibt
 
 Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\cdot \sin(\omega\cdot t+\varphi)$ und beschreibt nur die Funktion nach dem Einschwingvorgang.
 
-> [!example] 
+> [!example]  
 > Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
 > 
 > ![300](e_serien_schwingk_erzw.png)
 > 
-> Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$
-> Um den eingeschwungenen Zustand zu definieren, wird zunächst  $u_{h}$ - die homogene Lösung - ignoriert.
+> Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$  
+> Um den eingeschwungenen Zustand zu definieren, wird zunächst $u_{h}$ - die homogene Lösung - ignoriert.
 > $$
 > \omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t) = \ddot u_{c} + 2\delta\dot u_{c} + \omega^{2}_{0}\cdot u_{c}
 > $$

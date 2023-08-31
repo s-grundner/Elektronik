@@ -21,12 +21,12 @@ Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscom
 $\rightarrow$ Mechanische Translation. [Elektromagnet](../../physik/Elektromagnet.md) und [Spule](../../hwe/Induktivitäten.md) werden benötigt.
 
 ### Elektromotor
+
 - Stator mit Permanentmagneten verursacht ein statisches Magnetfeld.
 - Rotor mit [Elektromagnet](../../physik/Elektromagnet.md) der sich dreht.
 - Kommutator sorgt für die Umpolung des Rotor.
 
 **Funktionsweise:** Der Rotor dreht sich bis $+$ und $-$ bei einander sind, jetzt dreht der Kommutator die Polung um, sodass gleiche Pole beieinanderliegen uns sich abstoßen.
-
 
 ## Fl.-Druck-Aktoren: [Hydraulik](Hydraulik.md)
 

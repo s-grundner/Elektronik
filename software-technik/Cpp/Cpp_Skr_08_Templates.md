@@ -19,7 +19,7 @@ float Max(float x, float y){
 
 Mittels Überladen der Max-Funktion kann eine Funktion durch unterschiedliche Aufrufparameter unterschieden werden. 
 
-Mittels Templates (Vorlagen) kann das kürzer gelöst werden. Unterschieden werden Templates in Funktionen- und Klassen-Templates (siehe Unten). Verwendet werden Templates wenn Funktion oder Klassen mit Attributen für unterschiedliche Datentypen verwendet werden sollen (ohne sie für alle Datentypen neu schreiben zu müssen).
+Mittels Templates (Vorlagen) kann das kürzer gelöst werden. Unterschieden werden Templates in Funktionenund Klassen-Templates (siehe Unten). Verwendet werden Templates wenn Funktion oder Klassen mit Attributen für unterschiedliche Datentypen verwendet werden sollen (ohne sie für alle Datentypen neu schreiben zu müssen).
 
 > Mit Templates können Typen von Funktionen, Klassen oder Variablen parametrisiert werden.
 
@@ -120,7 +120,7 @@ Die Argumente die bei der Verwendung eines Templates mitzugeben sind (in den spi
 
 - Typen - *typename* oder *class* (siehe oben)
 
-- Werte
+- Werte  
   So wie Typen können einem Template auch Werte für die Erzeugung mitgegeben werden:
   
   ```c++
@@ -153,7 +153,6 @@ Die Argumente die bei der Verwendung eines Templates mitzugeben sind (in den spi
 - Templates - es wird nicht näher darauf eingegangen.
 
 Für Template-Parameter können Standard-Parameter definiert werden, ähnlich wie für Funktions-Parameter auch.
-
 
 ## Fragen
 

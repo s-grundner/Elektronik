@@ -1,12 +1,12 @@
 # 3 Os - Synchronisation - Java - Übungen
 
-
 ## Java-Programm (J500)
-Ein Objekt Bank modelliert eine reale Bank, die Konten für verschiedene Personen verwaltet. 
+
+Ein Objekt Bank modelliert eine reale Bank, die Konten für verschiedene Personen verwaltet.  
 Die Bank hat Überweisungen durchzuführen. Die Überweisungen werden in parallelen Threads abgearbeitet. 
 
-
 ### Die Klasse SimpleBank
+
 - In diesem Beispiel wird die Bank durch eine Klasse `SimpleBank` realisiert. 
 - Diese Bank besitzt das Array `mKonten`, das die Stände der einzelnen Konten enthält. 
 - Der Array-Index soll als Kontonummer dienen. 
@@ -54,13 +54,13 @@ class SimpleBank {
 - Diese werden durch die Klasse `Banker` implementiert. 
 - Damit mehrere Banker gleichzeitig Transaktionen vornehmen können, werden sie von Thread abgeleitet. 
 
-
 ### Die Klasse Banker
-Jeder Banker gehört zu einer Bank. 
-Deshalb wird dem Konstruktor ein Verweis auf `SimpleBank` übergeben. Über diesen Verweis wird die Methode `transfer()` aufgerufen. 
+
+Jeder Banker gehört zu einer Bank.  
+Deshalb wird dem Konstruktor ein Verweis auf `SimpleBank` übergeben. Über diesen Verweis wird die Methode `transfer()` aufgerufen.  
 Die beiden beteiligten Kontonummern sowie der Betrag werden dem Konstruktor übergeben und in entsprechenden Datenelementen der Klasse gespeichert. 
 
-Diese Datenelemente werden dann in `run()` benutzt, um die Methode `transfer()` der Bank aufzurufen. Nachdem die Transaktion durchgeführt 
+Diese Datenelemente werden dann in `run()` benutzt, um die Methode `transfer()` der Bank aufzurufen. Nachdem die Transaktion durchgeführt  
 ist, wird eine aktuelle Kontenübersicht ausgegeben.
 
 
@@ -87,8 +87,8 @@ ist, wird eine aktuelle Kontenübersicht ausgegeben.
 }
 ```
 
-
 ### Das Main Programm 
+
 - vereinbart drei Verweise auf die Klasse `Banker`. Anschließend wird ein `SimpleBank`-Objekt erzeugt und eine Übersicht über den Anfangsstand der Konten gegeben. 
 - Dann werden die drei Thread-Objekte erzeugt. Die Konten werden hierbei so gewählt, dass sich eine ringförmige Überweisung ergibt. Wenn alles ordnungsgemäß verläuft, dann müsste also die Kontenübersicht am Ende genauso aussehen wie am Anfang. 
 - Schließlich werden die Threads durch Aufrufe ihrer `start()`-Methoden gestartet. In Java wird mittel Aufruf der `start`-Methode einer Thread-Klasse die Funktion `run()` in einem neuen Thread gestartet.
@@ -115,7 +115,7 @@ public class SimpleBankDemo {
 }
 ```
 
-Prinzipiell kann das Beispiel ohne Probleme funktionieren. Falls jedoch von beiden Threads, zur gleichen Zeit der Kontostand von Konto A reduziert werden soll, dann kann es vorkommen, dass beide den gleichen Ausgangskontostand lesen, in ihrer temporären Variablen speichern, davon subtrahieren und dann den neuen Wert schreiben.
+Prinzipiell kann das Beispiel ohne Probleme funktionieren. Falls jedoch von beiden Threads, zur gleichen Zeit der Kontostand von Konto A reduziert werden soll, dann kann es vorkommen, dass beide den gleichen Ausgangskontostand lesen, in ihrer temporären Variablen speichern, davon subtrahieren und dann den neuen Wert schreiben.  
 Je nachdem, ob der erste oder der zweite Thread beim Schreiben schneller ist, wird der Kontostand von Konto A um 10 oder um 20 verringert. Der korrekte Wert wäre jedoch die Summe der Einzelabbuchungen, also 30, gewesen. Die Ausgabe des Programms sieht so (oder ähnlich) aus:
 
 ```
@@ -138,10 +138,11 @@ Je nachdem, ob der erste oder der zweite Thread beim Schreiben schneller ist, wi
 ```
 
 ### Lost-Update-Problem
+
 - Wie man der letzten Kontenübersicht entnehmen kann, sind nach der letzten Überweisung 40 EUR »verschwunden«. 
 
-- Die Ursache des Problems liegt darin, dass der Vorgang der Abbuchung, also das Lesen, Subtrahieren und Schreiben in mehreren Schritten abläuft und so ein zweiter Thread mit einer eigentlich ungültigen Zahl arbeitet. Dieses Verhalten nennt man Race-Condition. 
-Generell sind Race-Conditions Programmfehler, die nur manchmal auftreten, nämlich genau dann, wenn zufällig zwei parallele Threads zur gleichen Zeit auf bestimmte Objekte zugreifen. 
+- Die Ursache des Problems liegt darin, dass der Vorgang der Abbuchung, also das Lesen, Subtrahieren und Schreiben in mehreren Schritten abläuft und so ein zweiter Thread mit einer eigentlich ungültigen Zahl arbeitet. Dieses Verhalten nennt man Race-Condition.  
+Generell sind Race-Conditions Programmfehler, die nur manchmal auftreten, nämlich genau dann, wenn zufällig zwei parallele Threads zur gleichen Zeit auf bestimmte Objekte zugreifen.  
 Derartige Fehler sind in der Praxis schwer zu lokalisieren. 
 
 
@@ -748,5 +749,5 @@ THREAD1: WRITTEN: 9
 
 ## Referenzen
 
-- Sehr gut lesbares, deutsches Java-Skriptum
-  http://ssw.jku.at/Teaching/Lectures/Sem/2003/reports/Brueckl/Brueckl.pdfd
+- Sehr gut lesbares, deutsches Java-Skriptum  
+  <http://ssw.jku.at/Teaching/Lectures/Sem/2003/reports/Brueckl/Brueckl.pdfd>

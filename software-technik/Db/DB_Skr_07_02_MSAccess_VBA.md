@@ -46,7 +46,7 @@ Zuerst wird ein Formular erzeugt. Im einfachsten Fall beinhaltet es ein Text-Fel
   - Mit *BildPfad = objFiledialog.SelectedItems(1)* wird der ausgewählte Pfad in das Textfeld kopiert
   - Am Ende wird das Objekt wieder freigegeben (gelöscht)
 
-- Aktivieren von *Menü->Extras->Verweise...->Microsoft Office 16.0 Object Library*
+- Aktivieren von *Menü->Extras->Verweise…->Microsoft Office 16.0 Object Library*  
   FileDialog-Objekte können nur erzeugt werden wenn ein Verweis auf eine einzubindende Bibliothek gesetzt wird. In Visual-Studio-VBA erfolgt das im angeführten Menü.
 
 - Mit diesem Code kann mittels Schaltfläche ein Bild geladen werden, oder/und der ausgewählte Dateipfad ermittelt werden.
@@ -128,6 +128,6 @@ Next
 
 ## Referenzen
 
-- Microsoft-Office-FileDialog:
+- Microsoft-Office-FileDialog:  
   [https://docs.microsoft.com/de-de/office/vba/api/office.filedialog](https://docs.microsoft.com/de-de/office/vba/api/office.filedialog)
 

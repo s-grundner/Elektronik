@@ -8,7 +8,7 @@ created: 29th November 2022
 
 Das Java-Programm welches auf dem Rechner läuft, wird als **Prozess** bezeichnet. Ein Prozess erhält einen eigenen Speicherbereich in dem kein weiterer auf dem Rechner laufender Prozess Zugriff hat. Das wird vom [Betriebssystem](../Os/Operating%20Systems.md) sichergestellt. Weiters teilt das [Betriebssystem](../Os/Operating%20Systems.md) den Prozessen Rechnerzeit zu.
 
-Innerhalb eines Prozesses (unser Java-Programm) läuft im einfachsten Fall ein einzelner Ablauf ab. Dieser Ablauf wird als **Thread** bezeichnet. In einem Prozess können aber auch mehrere Threads parallel ablaufen. Diese teilen sich dann den gemeinsamen Speicher (Adressraum) des Prozesses. Wirklich parallel (gleichzeitig) können die Threads natürlich nur laufen wenn mehrere Rechnerkerne verfügbar sind, ansonsten laufen sie quasiparallel, d.h. es wird ständig zwischen ihnen "hin- und hergeschaltet". Durch eine gute Organisation bzw. eine entsprechend leistungsstarke Umgebung merkt der Anwender im Idealfall nichts davon. Die parallelen Threads können entweder durch das [Betriebssystem](../Os/Operating%20Systems.md) organisiert werden oder durch die JVM (je nach Anforderung).
+Innerhalb eines Prozesses (unser Java-Programm) läuft im einfachsten Fall ein einzelner Ablauf ab. Dieser Ablauf wird als **Thread** bezeichnet. In einem Prozess können aber auch mehrere Threads parallel ablaufen. Diese teilen sich dann den gemeinsamen Speicher (Adressraum) des Prozesses. Wirklich parallel (gleichzeitig) können die Threads natürlich nur laufen wenn mehrere Rechnerkerne verfügbar sind, ansonsten laufen sie quasiparallel, d.h. es wird ständig zwischen ihnen "hinund hergeschaltet". Durch eine gute Organisation bzw. eine entsprechend leistungsstarke Umgebung merkt der Anwender im Idealfall nichts davon. Die parallelen Threads können entweder durch das [Betriebssystem](../Os/Operating%20Systems.md) organisiert werden oder durch die JVM (je nach Anforderung).
 
 ## Thread-Klasse
 
@@ -22,7 +22,7 @@ public class MyThread extends Thread {
 }
 ```
 
-Der Thread *MyThread* wird von der Klasse Thread abgeleitet. Die Methode `run()`  wird beim Start eines Thread mit der Methode start() automatisch ausgeführt:
+Der Thread *MyThread* wird von der Klasse Thread abgeleitet. Die Methode `run()` wird beim Start eines Thread mit der Methode start() automatisch ausgeführt:
 
 ```java
 public static void main(String[] args) {
@@ -33,7 +33,7 @@ public static void main(String[] args) {
 
 ### Thread unterbrechen
 
-Mit der Methode `interrupt()`  kann in einem Thread ein Interrupt-Flag gesetzt werden. Dieses Flag kann im Thread zyklisch mit den Methoden  `interrupted()`  oder `isInterrupted()`  abgefragt werden. Wobei bei Abfrage von `interrupted()`  gleichzeitig das Flag gelöscht wird und bei `isInterrupted()`  das Flag weiter gesetzt bleibt. Wenn im Thread eine *InterruptedException* ausgelöst wird, dann wird das Flag ebenfalls gelöscht. Dann sollte im Catch-Block dieser Exception das Flag mit der Methode `interrupt()`  erneut gesetzt werden:
+Mit der Methode `interrupt()` kann in einem Thread ein Interrupt-Flag gesetzt werden. Dieses Flag kann im Thread zyklisch mit den Methoden `interrupted()` oder `isInterrupted()` abgefragt werden. Wobei bei Abfrage von `interrupted()` gleichzeitig das Flag gelöscht wird und bei `isInterrupted()` das Flag weiter gesetzt bleibt. Wenn im Thread eine *InterruptedException* ausgelöst wird, dann wird das Flag ebenfalls gelöscht. Dann sollte im Catch-Block dieser Exception das Flag mit der Methode `interrupt()` erneut gesetzt werden:
 
 ```java
 @Override public void run() {
@@ -53,15 +53,15 @@ Mit der Methode `interrupt()`  kann in einem Thread ein Interrupt-Flag gesetzt w
 
 Für Thread-Objekte gibt es folgende Instanzmethoden:
 
-`getName()`		Während der Erzeugung kann einem Thread ein Name gegeben werden. Der Name eines Threads kann in einem Thread-Konstruktor mit `super(threadName)`  gesetzt werden.
+`getName()`		Während der Erzeugung kann einem Thread ein Name gegeben werden. Der Name eines Threads kann in einem Thread-Konstruktor mit `super(threadName)` gesetzt werden.
 
-`setPriority(Thread.MAX_PRIORITY)`	setzt die entsprechende Priorität  (max = 10). Standardmäßig wird das 5 gesetzt. Die Auswirkung hängt vom [Betriebssystem](../Os/Operating%20Systems.md) ab.
+`setPriority(Thread.MAX_PRIORITY)`	setzt die entsprechende Priorität (max = 10). Standardmäßig wird das 5 gesetzt. Die Auswirkung hängt vom [Betriebssystem](../Os/Operating%20Systems.md) ab.
 
-`getPriority()`	liefert die Ausführungspriorität  zurück.
+`getPriority()`	liefert die Ausführungspriorität zurück.
 
 `getState()`		liefert den Zustand des Threads: NEW - vor .start(), RUNNABLE - läuft in der JVM, BLOCKED, WAITING, TIMED_WAITING, TERMINATED - Ausführung beendet (ausgelaufen oder stop()).
 
-`sleep(2000)`	hält den Thread für eine gewisse Zeit an. Statische Methode um den eigenen Thread  anzuhalten: `TimeUnit.SECONDS.sleep(2);`.
+`sleep(2000)`	hält den Thread für eine gewisse Zeit an. Statische Methode um den eigenen Thread anzuhalten: `TimeUnit.SECONDS.sleep(2);`.
 
 `setDaemon(true)`	wenn diese Methode vor dem Start des Threads ausgeführt wird, dann wird der Thread als Dämon gestartet. Dadurch läuft der Thread auch weiter, wenn der Haupt-Thread beendet wurde.
 
@@ -108,7 +108,7 @@ Die Methode setPt() legt die Koordinaten eines Punkts fest. Wird diese Methode a
 
 Es kann zu einer unzulässiges Mischen von Daten kommen. Gelöst werden kann dieses Dilema durch ein Sperren eines Code-Bereichs. Dieser Bereich kann immer nur von einem Thread gleichzeitig betrieben werden.
 
-Um gewisse Teile zu sperren, können sie ein einen synchronized-Block zusammengefasst werden bzw. können gesammte Methoden mit dem Schlüsselwort  synchronized versehen werden:
+Um gewisse Teile zu sperren, können sie ein einen synchronized-Block zusammengefasst werden bzw. können gesammte Methoden mit dem Schlüsselwort synchronized versehen werden:
 
 ``` java
 synchronized void foo() {

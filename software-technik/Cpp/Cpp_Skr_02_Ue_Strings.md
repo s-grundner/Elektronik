@@ -22,7 +22,7 @@ Zerlegen Sie einen QUERY_STRING, der von der Konsole eingelesen wird.
 
 Aufbau:
 
-Feldname=Wert&Feldname=Wert....
+Feldname=Wert&Feldname=Wert….
 
 Beispielhafte Ausgabe in der Konsole:
 
@@ -109,7 +109,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-Jedes Kommandozeilenargument wird als URL (http://www.bestsiteever.com:80/one/two/index.html) betrachtet und einzeln aufgetrennt.
+Jedes Kommandozeilenargument wird als URL (<http://www.bestsiteever.com:80/one/two/index.html)> betrachtet und einzeln aufgetrennt.
 
 ### String umkehren (006)
 
@@ -125,7 +125,7 @@ Prüfen Sie, ob ein String ein Palindrom ist. Ein Palindrom ergibt von vorn und 
 
 Bauen Sie einen ISBN-Prüfer. Lesen Sie dazu die ISBN als String ein (ohne Striche). Prüfsummenberechnung: 
 
-https://de.wikipedia.org/wiki/Internationale_Standardbuchnummer
+<https://de.wikipedia.org/wiki/Internationale_Standardbuchnummer>
 
 **Erweiterung:**
 
@@ -175,7 +175,7 @@ Mit *system* kann ein Befehl des Systems ausgeführt werden. Rückgaben des Befe
 system("chcp 850 > NUL");
 ```
 
-Inhalt der Codepage 850: https://de.wikipedia.org/wiki/Codepage_850
+Inhalt der Codepage 850: <https://de.wikipedia.org/wiki/Codepage_850>
 
 (Umschalten auf UTF-8:
 

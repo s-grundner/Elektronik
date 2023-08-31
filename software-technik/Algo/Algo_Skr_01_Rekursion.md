@@ -8,7 +8,7 @@ created: 29th November 2022
 
 **Iteration:** mehrmaliges/wiederholtes Ausführen einer Aktion.
 
-#### Beispiel:
+## Beispiel:
 
 	Pizzaessen():
 	vom Ersten bis zum letzten Stück:
@@ -37,8 +37,7 @@ Grundsätzlich gilt:
 
 ![Rekursion](assets/Rekursion.png)
 
-
-## Fragen
+# Fragen
 
 - Welche beiden grundsätzlichen Ansätze gibt es um sich wiederholende Probleme zu lösen?
 - Welche Bedingungen müssen erfüllt sein damit eine iterative Lösung rekursiv gelöst werden kann?

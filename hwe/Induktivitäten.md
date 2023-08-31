@@ -33,7 +33,7 @@ Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes 
 Durch das Anlegen einer Puls-förmigen Spannung an eine Induktivität folgt, dass sich **$i_{L}$ nicht linear verhält**.
 >![indu-pulse](assets/indu-pulse.png)
 
-Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren Ohm'schen Widerstands.
+Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren Ohm'schen Widerstands.  
 Daher gilt die folgende Näherung:
 $$
 \begin{align*}

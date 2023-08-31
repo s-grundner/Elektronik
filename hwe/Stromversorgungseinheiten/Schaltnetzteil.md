@@ -10,7 +10,7 @@ created: 6th April 2022
 
 Auch SMPS (Switched Mode Power Supply)
 
-## Vor- und Nachteile
+## Vorund Nachteile
 
 ### Vorteile
 
@@ -23,6 +23,7 @@ Auch SMPS (Switched Mode Power Supply)
 	- kleine Bauteilgrößen
 	- hohe Wirtschaftlichkeit (Herstellung und Betrieb)
  
+
 ### Nachteile
 
 - Aufwändige Schaltung
@@ -37,7 +38,7 @@ Prinzipiell unterscheidet man zwischen:
 
 ## Prinzipien der Schaltregler
 
-[Sekundär getaktete Schaltregler](Sekundär%20getaktete%20Schaltregler.md)
+[Sekundär getaktete Schaltregler](Sekundär%20getaktete%20Schaltregler.md)  
 [Primär getakteter Schaltregler](Primär%20getakteter%20Schaltregler.md)
 
 ## Layout von SMPS

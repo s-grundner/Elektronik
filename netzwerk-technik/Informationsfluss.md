@@ -6,6 +6,7 @@ source: ["Martin Aichriedler"]
 ---
 
 # Informationsfluss $F$
+
 $$
 \begin{align*}
 F=\frac{H}{t_{m}}

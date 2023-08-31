@@ -33,7 +33,7 @@ Stellen Sie das Labyrinth grafisch dar (es werden Wege und nicht Wände gezeichn
  ────┘ └─┴───────┘ └───┘ ────┴─┴─  └─┴──
 ```
 
-wobei (hier nicht darstellbar) die Lösung farbig eingezeichnet werden soll. In Windows wird üblicherweise in der Konsole, der Zeichensatz/die Codierung Codepage 850 verwendet (https://de.wikipedia.org/wiki/Codepage_850). Darin sind die dargestellten Zeichen für die Erstellung von Tabellen verfügbar. Als Übersetzung kann verwendet werden (4 Seiten mit je Weg oder nicht -> 2^4 Möglichkeiten):
+wobei (hier nicht darstellbar) die Lösung farbig eingezeichnet werden soll. In Windows wird üblicherweise in der Konsole, der Zeichensatz/die Codierung Codepage 850 verwendet (<https://de.wikipedia.org/wiki/Codepage_850).> Darin sind die dargestellten Zeichen für die Erstellung von Tabellen verfügbar. Als Übersetzung kann verwendet werden (4 Seiten mit je Weg oder nicht -> 2^4 Möglichkeiten):
 
 ```c++
 const wstring walls[16] = {
@@ -79,12 +79,12 @@ wcout << walls[m_area[r][c] & 0xF];             // Mask only lower 4 Bit-Positio
 
 Der Weg durch ein Labyrinth soll gefunden werden. Gestartet wird in der linken oberen Ecke, das Ziel ist die rechte untere Ecke. Das Vorgehen:
 
-- ...
+- …
 
 - von der aktuellen Position wird versucht eine beliebige Nachbarposition zu begehen (nicht erlaubt wenn eine Wand, Rand des Labyrinths, schon Besucht).
 - Wenn das möglich ist wird das Feld als gültig markiert (grün) und das Vorgehen wiederholt.
 - Wenn es nicht möglich ist eine Nachbarfeld zu begehen, dann wird von der aktuellen Position auf die vorherige zurückgesetzt und das aktuelle Feld als ungültig markiert (rot).
-- ...
+- …
 
 Bringen Sie das Java-Programm *GrfLabyrinth.java* zum Laufen.
 
@@ -229,8 +229,9 @@ Zu Beginn sind in manchen Feldern bereits Ziffern eingetragen. Die fehlenden Fel
 
 1. Im ersten freien Feld wird eine Ziffer eingetragen, es wird die erste Ziffer gewählt die weder im Teilfeld, noch in der Zeile und auch nicht in der Spalte vorkommt.
 2. Dieses Vorgehen wird für das nächste freie Feld wiederholt.
-3. Sollte sich in einem Feld keine Ziffer finden die noch nicht in der Spalte und Zeile vorkommt und im Teilfeld vorkommt, dann sind die bisherigen Annahmen nicht zulässig. Die zuletzt getroffene Annahme wird rückgängig gemacht und eine andere gültige Ziffer gewählt.
-4. ...
+3. Sollte sich in einem Feld keine Ziffer finden die noch nicht in der Spalte und Zeile vorkommt und im Teilfeld vorkommt, dann sind die bisherigen Annahmen nicht zulässig. Die zuletzt getroffene Annahme wird rückgängig gemacht und eine andere gültige Ziffer gewählt.  
+4….
+
 ## Visuelle Darstellung Sudoku
 
  Der Worker worker_sudoku.js muss so angepasst werden um den Sudoku-Löser lauffähig zu machen.
@@ -265,12 +266,12 @@ Lösung:
 1. Ausgehend von aktueller Brettposition Versuch "A": Weg 1 (siehe Bild oben)
    - wenn möglich (noch nie besucht und auf dem Brett): versuche von dort wiederum Weg 1
    - wenn nicht möglich: versuche Weg 2
-   - ...
+   - …
    - wenn keiner der 8 Wege möglich, dann ist der aktuelle Versuch "A" nicht zulässig und wird rückgängig gemacht
 
 2. Ausgehend von aktueller Brettposition Versuch "B": Weg 2
 
-3. ...
+3….
 
 ## Visualisierung Springer mit Backtracking (JS008)
 

@@ -35,13 +35,13 @@ Oft wird die Sprache C im hardwarenahen Bereich eingesetzt. Dadurch werden zusä
 
 ## Typische Aufgaben:
 
-- es soll das nte Bit eines Registers r auf 1 gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.
+- es soll das nte Bit eines Registers r auf 1 gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.  
   `r | (1 << (n-1))`	Eine 1 wird um (n-1) Stellen nach Links verschoben --> ntes Bit ist 1. Bitweise Veroderung mit Registerwert setzt das nte Bit auf 1.​
 
-- es soll das nte Bit eines Registers r invertiert gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.
+- es soll das nte Bit eines Registers r invertiert gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.  
   `r ^ (1 << (n-1))`	Eine 1 wird um (n-1) Stellen nach Links verschoben --> ntes Bit ist 1. Exor mit Registerwert: an allen Stellen von r in denen eine 0 steht bleibt eine 0 (0^0). An Stellen an denen eine 1 steht bleibt eine 1 (1^0). An der Stelle an der der Wert auf 0 gesetzt werden soll wird für r=1 mit 1^1=0 und für r=0 mit 0^1=1.
 
-- es soll das nte Bit eines Registers r auf 0 gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.
+- es soll das nte Bit eines Registers r auf 0 gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.  
   `r & ~(1 << (n-1))`	Eine 1 wird um (n-1) Stellen nach Links verschoben --> ntes Bit ist 1. Durch Bitweise invertierung werden sämtliche Werte auf 1 gesetzt bis auf die nte Stelle. Verundung mit Registerwert: an allen Stellen von r wird der Wert beibehalten bis auf die nte Stelle, dort wird eine 0 gesetzt.
 
 Sollen entsprechend mehrere Bitpositionen auf einmal gesetzt oder rückgesetzt werden, dann sind entsprechend mehrere Bits zu setzen.
@@ -50,15 +50,15 @@ Sollen entsprechend mehrere Bitpositionen auf einmal gesetzt oder rückgesetzt w
 
 In C wird auf logisch Wahr oder Falsch geprüft bei:
 
-- Verzweigungen `if (expr) {...`
-- Schleifen `when (expr) {...`, `for (i = 0; expr; i++) {...` ...
+- Verzweigungen `if (expr) {…`
+- Schleifen `when (expr) {…`, `for (i = 0; expr; i++) {…` …
 
 In C gibt's allerdings keinen Boolschen Datentyp. Dadurch ist zu klären was unter Wahr und Falsch zu verstehen ist:
 
 - Falsch = 0
 - Wahr = Nicht(Falsch)
 
-Für C ist alles Wahr was ungleich 0 ist. Das wirkt vieleicht kompliziert ist aber logisch: 0 ist immer Falsch (FALSE), alles Andere (1, 10, 50 ...) ist somit Wahr. Wann spielt das eine Rolle:
+Für C ist alles Wahr was ungleich 0 ist. Das wirkt vieleicht kompliziert ist aber logisch: 0 ist immer Falsch (FALSE), alles Andere (1, 10, 50 …) ist somit Wahr. Wann spielt das eine Rolle:
 
 ```c
 if (a == TRUE) {        // mit z.B. #define TRUE 1

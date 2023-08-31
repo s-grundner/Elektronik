@@ -36,26 +36,28 @@ Bei Positronen Strahler macht man sich zunutze, dass das emittierte Positron im 
 ![](assets/ABG_Strahlung.png)
 
 ## Halbwertszeit
+
 Zerfallskonstante und Zerfallsgesetz
 
-Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Wahrscheinlichkeit](../mathe/mathe%20(5)/Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.
-Deshalb lässt sich die Aktivität einer Probe von $N$ Atomen zum Zeitpunkt $t$ ausdrücken als:
+Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Wahrscheinlichkeit](../mathe/mathe%20(5)/Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.  
+Deshalb lässt sich die Aktivität einer Probe von $N$ Atomen zum Zeitpunkt $t$ ausdrücken als:  
 $A(t) = - \dfrac{\mathrm dN}{\mathrm dt}(t) = \lambda \cdot N(t)$
 
-Hieraus folgt das **Zerfallsgesetz**:
+Hieraus folgt das **Zerfallsgesetz**:  
 $N(t)= N_0 \cdot e^{-\lambda t}\,$
 
-Zwischen $\lambda$ und der Halbwertszeit $T_{1/2}$ besteht die Beziehung:
+Zwischen $\lambda$ und der Halbwertszeit $T_{1/2}$ besteht die Beziehung:  
 $\lambda = \dfrac {\ln 2}{T_{1/2}} \approx \dfrac {0{,}693}{T_{1/2}}$
 
 ![hwz.png](hwz.png)
 
 ### C-14 Methode der Altersbestimmung
-In der obersten Atmosphärenschicht trifft **kosmische Strahlung** auf die Erde, wodurch aus einem Stickstoffkern und einem Neutron das radioaktive **Kohlenstoffisotop** $^{14}C$ entsteht.
+
+In der obersten Atmosphärenschicht trifft **kosmische Strahlung** auf die Erde, wodurch aus einem Stickstoffkern und einem Neutron das radioaktive **Kohlenstoffisotop** $^{14}C$ entsteht.  
 Dieses hat eine Halbwertszeit von **5730** Jahren.
 
-Dieses Isotop mischt sich mit den anderen nicht radioaktiven Isotopen und wird von allem lebenden Organismen aufgenommen.
-Stirbt der Organismus wird kein neues $^{14}C$ mehr aufgenommen und der Anteil beginnt zu sinken.
+Dieses Isotop mischt sich mit den anderen nicht radioaktiven Isotopen und wird von allem lebenden Organismen aufgenommen.  
+Stirbt der Organismus wird kein neues $^{14}C$ mehr aufgenommen und der Anteil beginnt zu sinken.  
 Jetzt kann über das Verhältnis des heutigen Anteils von $^{14}C$ im organischen Material, zu dem in einen heute lebenden Organismus und über das Zerfallsgesetz das Alter bestimmt werden.
 
 $$
@@ -67,7 +69,7 @@ t=\frac{\ln{(\frac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)}
 \end{align*}
 $$
 
-> [!example] Ötzi altersbestimmung
+> [!example] Ötzi altersbestimmung  
 > Bei Ötzi zählt man N(t) = 2,3 * 105 dieser 14C-Atome,  
 > bei einer Vergleichsprobe zählte man N(0) = 4 * 105 dieser 14C -Atome.  
 > Vor wie vielen Jahren ist Ötzi verstorben?

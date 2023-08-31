@@ -36,7 +36,7 @@ Ein Use-Case-Diagramm ist eine stark reduzierte Darstellung, wichtig sind die Da
 
 ## Klassendiagramm
 
-Tool: ArgoUML - http://argouml.tigris.org
+Tool: ArgoUML - <http://argouml.tigris.org>
 
 ### Klasse
 
@@ -64,8 +64,8 @@ Virtuelle Funktionen in C++ werden ebenfalls kursiv dargestellt.
 - Assoziation: allgemeine Beziehung (keine nähere Information) - Linie, im allgemeinsten Fall ohne Pfeil
 
 - Aggregation: eine Klasse ist in einer anderen Klasse enthalten (*Ist-Teil-Von-Beziehung*) - unausgefüllte Raute (Raute auf der Seite der einbindenden Klasse)
-- Komposition: wie Aggregation aber zusätzlich: die Teilklasse kann nicht alleine existieren - ausgefüllte Raute (Raute auf der Seite der einbindenden Klasse)
-  Mannschaft <-> Person: Person kann auch ohne Mannschaft existieren -> Aggregation
+- Komposition: wie Aggregation aber zusätzlich: die Teilklasse kann nicht alleine existieren - ausgefüllte Raute (Raute auf der Seite der einbindenden Klasse)  
+  Mannschaft <-> Person: Person kann auch ohne Mannschaft existieren -> Aggregation  
   Bestellposten <-> Bestellung: Bestellposten kann nicht ohne Bestellung existieren -> Komposition
 
 - Realisierung: Implementierung eines Interfaces - gestrichelte Linie (siehe Oben)
@@ -81,10 +81,10 @@ Rollen: Die Rolle wird nahe der Klasse angegeben und beschreibt die Rolle der Kl
 
 ## Referenzen
 
-- Portal  https://www.uml.org/ 
-  *Der* Standard:  https://www.omg.org/spec/UML/2.5.1/PDF 
-- Assoziationen:
+- Portal <https://www.uml.org/>  
+  *Der* Standard: <https://www.omg.org/spec/UML/2.5.1/PDF> 
+- Assoziationen:  
 [informatikzentrale.de/assoziationen.html](informatikzentrale.de/assoziationen.html)
-- UML-Programm und Klassendoku:
-  https://www.softwareideas.net/uml-class-diagram#aggregation
-  https://www.softwareideas.net/en/download (frei für Non-Commercial-Use)
+- UML-Programm und Klassendoku:  
+  <https://www.softwareideas.net/uml-class-diagram#aggregation>  
+  <https://www.softwareideas.net/en/download> (frei für Non-Commercial-Use)

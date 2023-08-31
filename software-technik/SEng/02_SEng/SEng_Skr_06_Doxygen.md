@@ -6,23 +6,23 @@ created: 29th November 2022
 
 # 6 Doxygen
 
-Mit Doxygen kann direkt aus dem Code eine Dokumentation generiert werden. Vorteil: keine eigenen Dokumente, die eventuell in der Version nicht zusammenpassen ... Außerdem ist die Motivation größer, wenn direkt im Code mit kommentiert wird.
+Mit Doxygen kann direkt aus dem Code eine Dokumentation generiert werden. Vorteil: keine eigenen Dokumente, die eventuell in der Version nicht zusammenpassen … Außerdem ist die Motivation größer, wenn direkt im Code mit kommentiert wird.
 
-Youtube:   https://www.youtube.com/watch?v=mgVgZjaeNkw 
+Youtube: <https://www.youtube.com/watch?v=mgVgZjaeNkw> 
 
 ## Installation / Konfiguration
 
-- Doxygen ist in vielen IDEs schon integriert. Hier wird eine Standalone-Möglichkeit erläutert.
-  http://www.doxygen.nl/download.html
+- Doxygen ist in vielen IDEs schon integriert. Hier wird eine Standalone-Möglichkeit erläutert.  
+  <http://www.doxygen.nl/download.html>  
   Pfad eintragen in `PATH`
 
-- https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip	(Tool zum Erstellen der UML-Diagramme)
+- <https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip>	(Tool zum Erstellen der UML-Diagramme)  
   Pfad eintragen in `PATH`
-- VSCode
-  Doxygen-Plugin Schlosser
-  Datei->Einstellungen->Erweiterungen -> Name, Datum, Mail ...
+- VSCode  
+  Doxygen-Plugin Schlosser  
+  Datei->Einstellungen->Erweiterungen -> Name, Datum, Mail …
 
-- Sourcen in einen eigenen Ordner Legen und dokumentieren (`\**`...)
+- Sourcen in einen eigenen Ordner Legen und dokumentieren (`\**`…)
 
 - Doxygen mit doxyfile von Unten aus der Kommandozeile Starten (im Verzeichnis in welchem doxyfile liegt):
 
@@ -32,11 +32,11 @@ Youtube:   https://www.youtube.com/watch?v=mgVgZjaeNkw
 
   Alternativ: Doxywizard und Einstellungen setzen
 
-- *Step 1*: Pfad für das Arbeitsverzeichnis eingeben (Ablage Doxygen-Konfig ...)
+- *Step 1*: Pfad für das Arbeitsverzeichnis eingeben (Ablage Doxygen-Konfig …)
 
 Die Erstellung sollte nun durchlaufen. Wenn Fehler auftreten werden diese angeführt. Mittels \<Show HTML output\> kann das erstellte HTML direkt geöffnet werden.
 
-- LaTex-Doku: `make.bat` ausführen - dazu muss ein LaTex (MikTex ...) installiert sein.
+- LaTex-Doku: `make.bat` ausführen - dazu muss ein LaTex (MikTex …) installiert sein.
 
 ## Dokumentieren
 

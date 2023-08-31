@@ -2,7 +2,7 @@
 
 In C/C++ können Pointer auf Funktionen definiert und verwendet werden. Damit können Funktionen an Funktionen übergeben werden, von uns verwendet werden etwa die Library-Quicksort-Funktion für die eine Funktion übergeben wird.
 
-Für  solche Fälle werden Funktionen definiert die oft nur an einer Position im Programm verwendet werden. Häufig sind diese Funktionen auch noch sehr einfach und kurz. Durch die Definition der Funktion kann der Code dadurch schlechter lesbar werden. Mit dem Funktions-Header und dadurch dass die Funktion an einem anderem Ort definiert wird, sinkt die Verständlichkeit des Codes. Für diese Fälle gibt's die **Lambda**-Ausdrücke.
+Für solche Fälle werden Funktionen definiert die oft nur an einer Position im Programm verwendet werden. Häufig sind diese Funktionen auch noch sehr einfach und kurz. Durch die Definition der Funktion kann der Code dadurch schlechter lesbar werden. Mit dem Funktions-Header und dadurch dass die Funktion an einem anderem Ort definiert wird, sinkt die Verständlichkeit des Codes. Für diese Fälle gibt's die **Lambda**-Ausdrücke.
 
 Mit Lambda-Ausdrücken wird die Definition und Implementierung einer Funktion in einen kurzen Ausdruck gepackt. Da die Funktion (meistens) nur an einer Stelle aufgerufen wird, kann sie auch ohne Funktions-Namen auskommen.
 

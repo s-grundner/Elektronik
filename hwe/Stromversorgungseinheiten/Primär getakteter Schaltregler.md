@@ -22,7 +22,7 @@ created: 2nd October 2022
 
 ### Schalttransistor
 
-- Spannungsfestigkeit  $>800V$
+- Spannungsfestigkeit $>800V$
 - Schnelle Schaltzeiten
 
 ### [Diode](../Halbleiter/Diode.md)
@@ -31,6 +31,7 @@ created: 2nd October 2022
 - Sekundär Gleichrichter Diodn
 	- Schnelle Schottky Schaltdioden ($U_{Fo} \approx 0.4V$)
  
+
 ### Übertrager
 
 - Ferritkern

@@ -6,14 +6,14 @@ created: 29th November 2022
 
 # 1 Einführung
 
-Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vor Python und Java). Durch das Konzept der Java-Virtual-Machine lässt sich das kompilierte Programm auf allen gängigen Plattformen (Windows, Linux, Mac, Android ...) ausführen. Java ist sicher, objektorientiert und es gibt durch die große Verbreitung eine Vielzahl von verfügbaren Funktionen auf die zugegriffen werden kann. Es gibt eine große Community und damit eine Unzahl an verfügbaren Lösungen. Für das Android-[Betriebssystem](../Os/Operating%20Systems.md) werden sehr viele Anwendungen mittels Java erstellt (allerdings mit anderen Bibliotheken).
+Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vor Python und Java). Durch das Konzept der Java-Virtual-Machine lässt sich das kompilierte Programm auf allen gängigen Plattformen (Windows, Linux, Mac, Android …) ausführen. Java ist sicher, objektorientiert und es gibt durch die große Verbreitung eine Vielzahl von verfügbaren Funktionen auf die zugegriffen werden kann. Es gibt eine große Community und damit eine Unzahl an verfügbaren Lösungen. Für das Android-[Betriebssystem](../Os/Operating%20Systems.md) werden sehr viele Anwendungen mittels Java erstellt (allerdings mit anderen Bibliotheken).
 
 ## Begriffe
 
-- Entwicklungsumgebung (IDE):
+- Entwicklungsumgebung (IDE):  
   Programm das bei der Programmentwicklung unterstützt. Besteht zumindest aus einem Editor. Oft mit Syntax-Highlightning (Färbung von Code-Elementen), integriertem Debugger, Projektorganisation, Erstellen von Dokumentationen und vielem Anderen. Im einfachsten Fall würde auch ein einfacher Editor genügen.
 
-- Compiler: Programm welches den **Java-Quellcode** in den **Java-Bytecode** übersetzt. In vielen anderen Programmiersprachen (C, C++, C# ...) wird durch den Compiler direkt in ein ausführbares Programm (in Windows EXE) übersetzt.
+- Compiler: Programm welches den **Java-Quellcode** in den **Java-Bytecode** übersetzt. In vielen anderen Programmiersprachen (C, C++, C# …) wird durch den Compiler direkt in ein ausführbares Programm (in Windows EXE) übersetzt.
 
 - Java Virtuelle Maschine (JVM): Dieses Programm kann den Java-Bytecode auf dem Rechner ausführen.
 
@@ -55,7 +55,7 @@ C:\temp>java -cp .HelloWorld
 
 Der Parameter *-cp .* fügt den aktuellen Pfad (*c:/temp*) zum *ClassPath* dazu.
 
-Eine moderne Entwicklungsumgebung (IDE, z.B. Eclipse, IntelliJ IDEA)  führt diesen Weg automatisch aus, wenn immer das Programm gestartet wird.
+Eine moderne Entwicklungsumgebung (IDE, z.B. Eclipse, IntelliJ IDEA) führt diesen Weg automatisch aus, wenn immer das Programm gestartet wird.
 
 ## Packages
 

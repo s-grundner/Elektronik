@@ -27,10 +27,10 @@ Die Lastspannung $u_{L}$ erhält durch die magnetisch eingekoppelte Störspannun
 
 ## Modellierung 
 
-Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsquelle am Nutzkreis.
+Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsquelle am Nutzkreis.  
 ![700](assets/magn_koppl_modell.png)
 
-> [!info] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.
+> [!info] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.  
 > $u_{stör} = M\cdot \dfrac{di_{stör}}{dt}$
 
 > [!summary] Der Störanteil am Verbrauchereingang: 
@@ -42,7 +42,7 @@ Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsq
 > $$
 
 Die Höhe der induzierten Störspannug hängt ab von:
-1. Der Größe der Gegeninduktivität $M$, zwischen Nutz- und Störkreis
+1. Der Größe der Gegeninduktivität $M$, zwischen Nutzund Störkreis
 2. Änderungsgeschwindigkeit des Stromes $\frac{di_{stör}}{dt}$
 3. der Amplitude des Stromes $\hat{i}_{stör}$
 4. der Frequenz des Störstromes $\omega\cdot\underline{I}_{stör}$
@@ -59,12 +59,12 @@ M&= \frac{\mu_{0}\cdot l}{2\pi}\cdot\ln\left[1+\left(\frac{a}{d}\right)^{2}\righ
 \end{align*}
 $$
 
->[!example] Bsp.:
->$l=1m$
->$\cfrac{a}{d}=0.1$
-> ges.: $M$
-> $R_{i}<<R_{L}$ (Nutzkreis)
-> $\cfrac{di}{dt}=\frac{1000A}{\mu s}$
+>[!example] Bsp.:  
+>$l=1m$  
+>$\cfrac{a}{d}=0.1$  
+> ges.: $M$  
+> $R_{i}<<R_{L}$ (Nutzkreis)  
+> $\cfrac{di}{dt}=\frac{1000A}{\mu s}$  
 > ges.: $u_{L}$
 > $$
 > \begin{align*}
@@ -88,7 +88,7 @@ Zur Diagnose muss der Wechselanteil der Störgröße zu $0$ gemacht werden.
 Verringerung der Gegeninduktivität druch:
 - Vergrößern des Abstandes zwischen der gefährdete und gefährende Masche
 - Enge räumliche Anordung 
-- Verdrillen von Hin- und Rückleiter
+- Verdrillen von Hinund Rückleiter
 - Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
 - Herabsetzen der Flussänderungsgeschwindigkeit 
 

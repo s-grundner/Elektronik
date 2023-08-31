@@ -1,5 +1,5 @@
 ---
-tags: ["Software-Engineering"]
+tags: ["Software-Engineering", )]
 aliases: []
 created: 29th November 2022
 ---
@@ -12,16 +12,16 @@ created: 29th November 2022
 
  Erstellen Sie den Use-Case: Autovermietung. Berücksichtigen Sie folgende Anwendungsfälle 
 
--  Beraten, Auskunft
--  Reservieren
--  Mietvertrag abschließen
--  Mietwagen-Übergabe/-Abnahme
--  Mietwagen-Rücknahme/-Rückgabe
--  Rechnung
+- Beraten, Auskunft
+- Reservieren
+- Mietvertrag abschließen
+- Mietwagen-Übergabe/-Abnahme
+- Mietwagen-Rücknahme/-Rückgabe
+- Rechnung
 
 Auf der Kundenseite gibt es Interessenten, Kunden und Fahrer. Ein Interessent wird automatisch zu einem Kunden, wenn er einen Mietwagen reserviert oder einen Mietvertrag abschließt.  
 
-Auf der Unternehmerseite gibt es Reservierung-, Übergabe- und Rücknahmemitarbeiter.
+Auf der Unternehmerseite gibt es Reservierung-, Übergabeund Rücknahmemitarbeiter.
 
 ### Use-Case - Fehler
 
@@ -29,7 +29,7 @@ Finden Sie die Fehler im folgenden Use-Case-Diagramm und korrigieren sie diese. 
 
 ![1571684085148](assets/UML_UseCase2.png)
 
-Inverviewer und Personalchef sind nicht Teil der Bewerbung. Wer erhält das Bewerbungsschreiben/Absage/Einladung? Wer sendet die Einladung ... 
+Inverviewer und Personalchef sind nicht Teil der Bewerbung. Wer erhält das Bewerbungsschreiben/Absage/Einladung? Wer sendet die Einladung … 
 
 ### Use-Case - Elektronikbauteile
 
@@ -113,7 +113,7 @@ class CTriangle{
 }
 ```
 
-Der Figur-Member *m_pen* ist Protected (daher #).
+Der Figur-Member *m_pen* ist Protected (daher.
 
 ### Figuren - Virtuelle Funktionen, Interfaces, Abstrakte Klasse
 
@@ -314,7 +314,7 @@ Versuchen Sie die folgenden Beispiele in UML Diagrammen aufzuzeichnen:
    Aufgaben:
 
    1. Welche Objekte/Klassen lassen sich im obigen Problemfall identifizieren?
-   2. Welche Beziehungen bestehen zwischen den Klassen? 
+   2. Welche Beziehungen bestehen zwischen den Klassen?  
       Zeichnen Sie das entsprechende Klassendiagramm in der UML Notation
    3. Welche Attribute hat die Klasse Dokument?
    4. Ergänzen Sie das gezeichnete Klassendiagramm entsprechend.
@@ -333,7 +333,7 @@ Versuchen Sie die folgenden Beispiele in UML Diagrammen aufzuzeichnen:
    
    - Teilen Sie Ihre gefundenen Klassen in konkrete und abstrakte Klassen ein. Bezeichnen Sie konkrete Klassen mit "K", abstrakte Klassen mit "A".
    
-5. **+Map, Entry, Key, Value**
+6. **+Map, Entry, Key, Value**
 
    Erstellen Sie ein UML Klassendiagramm:
 
@@ -343,7 +343,7 @@ Versuchen Sie die folgenden Beispiele in UML Diagrammen aufzuzeichnen:
    - Der Schlüssel(**Key**) muss eindeutig sein, darf also nur einmal in der Map vorkommen. Das bedeutet der Key darf nur einmal in einem Schlüssel-Werte-Paar enthalten sein (Multiplizität 1–1). Anhand seines Schlüssels kann somit ein Wert-Objekt eindeutig in der Map gefunden werden.  
    - Das Schlüssel-Werte-Paar kann jeweils nur einen Schlüssel haben. Es kann aber sein das dem Schlüssel-Werte-Paar mehrere Werte zugeordnet sind.
 
-   - Ein Eintrag (Entry) gehört nur zu einer Map. Wird die Map zerstört, sind alle Einträge ebenfalls entsorgt. (Komposition)
+   - Ein Eintrag (Entry) gehört nur zu einer Map. Wird die Map zerstört, sind alle Einträge ebenfalls entsorgt. (Komposition)  
      Wird das Schlüssel-Werte-Paar (Entry) gelöscht, bleiben die eigentlichen Schlüssel (Key) und Werte (Values) – Objekte erhalten (Aggregation)
 
    **Lösung:**
@@ -356,7 +356,7 @@ Versuchen Sie die folgenden Beispiele in UML Diagrammen aufzuzeichnen:
    - Der Schlüssel(**Key**) muss eindeutig sein, darf also nur einmal in der Map vorkommen. Das bedeutet der Key darf nur einmal in einem Schlüssel-Werte-Paar enthalten sein (Multiplizität 1–1). Anhand seines Schlüssels kann somit ein Wert-Objekt eindeutig in der Map gefunden werden.  
    - Das Schlüssel-Werte-Paar kann jeweils nur einen Schlüssel haben. Es kann aber sein das dem Schlüssel-Werte-Paar mehrere Werte zugeordnet sind. 
 
-   - Ein Eintrag (Entry) gehört nur zu einer Map. Wird die Map zerstört, sind alle Einträge ebenfalls entsorgt. (Komposition)
+   - Ein Eintrag (Entry) gehört nur zu einer Map. Wird die Map zerstört, sind alle Einträge ebenfalls entsorgt. (Komposition)  
      Wird das Schlüssel-Werte-Paar (Entry) gelöscht, bleiben die eigentlichen Schlüssel (Key) und Werte (Values) – Objekte erhalten (Aggregation)
 
 ### Klassendiagramme II
@@ -409,7 +409,7 @@ In der Datenbankentwicklung werden oftmals Entity-Relationship-Diagramme (ERD) e
 
 ### Bibliothek
 
-Eine **Bibliothek** besitzt **Bücher** und **Zeitschriften**, die an **Studierende** ausgeliehen werden.
+Eine **Bibliothek** besitzt **Bücher** und **Zeitschriften**, die an **Studierende** ausgeliehen werden.  
 Um die Ausleihfrist zu überprüfen wird notiert, wann etwas ausgeliehen wird.
 
 **Aufgaben:**
@@ -419,40 +419,40 @@ Um die Ausleihfrist zu überprüfen wird notiert, wann etwas ausgeliehen wird.
 
 ### Videoverleih
 
-Es liegt folgender Projektauftrag für die Entwicklung eines Softwaresystems vor:
-**Projektauftrag**
-Es soll ein Softwaresystem entwickelt werden, um die Geschäftsabläufe eines Videoverleihs zu
-unterstützen. Das System soll die relevanten Informationen über Videos, Kunden und die
-Ausleihe von Videos an Kunden verwalten sowie Rechnung stellen.
-**Problem Beschreibung / Anforderungen**
-Folgende Informationen über die Geschäftsabläufe des Videoverleihs beziehungsweise Anforderungen an
+Es liegt folgender Projektauftrag für die Entwicklung eines Softwaresystems vor:  
+**Projektauftrag**  
+Es soll ein Softwaresystem entwickelt werden, um die Geschäftsabläufe eines Videoverleihs zu  
+unterstützen. Das System soll die relevanten Informationen über Videos, Kunden und die  
+Ausleihe von Videos an Kunden verwalten sowie Rechnung stellen.  
+**Problem Beschreibung / Anforderungen**  
+Folgende Informationen über die Geschäftsabläufe des Videoverleihs beziehungsweise Anforderungen an  
 das Softwaresystem liegen vor:
 
-- Von **Kunden** sind Namen und Adressen zu speichern. Sie werden bei der ersten Ausleihe
+- Von **Kunden** sind Namen und Adressen zu speichern. Sie werden bei der ersten Ausleihe  
   erfasst.
 - Der Videoverleih hat von einem **Titel** eine oder mehrere **Videokassetten** auf Lager.
-- Für jeden Titel soll der Name des Titels (zum Beispiel „Mission Impossible 2“) und ein
+- Für jeden Titel soll der Name des Titels (zum Beispiel „Mission Impossible 2“) und ein  
   Ausleihpreis pro Tag gespeichert werden.
 - Jede Videokassette wird durch einen Barcode identifiziert.
-- Bei einer **Ausleihe** kann ein Kunde eine oder mehrere Videokassetten mitnehmen. Er muss
-  angeben, ob er bar bezahlen will oder mit Kreditkarte. Bei **Barzahlung** wird eine Kaution
-  erhoben, die dann bei der Schlussabrechnung einer Ausleihe verrechnet wird. Bei einer
+- Bei einer **Ausleihe** kann ein Kunde eine oder mehrere Videokassetten mitnehmen. Er muss  
+  angeben, ob er bar bezahlen will oder mit Kreditkarte. Bei **Barzahlung** wird eine Kaution  
+  erhoben, die dann bei der Schlussabrechnung einer Ausleihe verrechnet wird. Bei einer  
   **Kreditkartenzahlung** muss der Kunde nur seine Kreditkartennummer angeben.
-- Der Kunde kann die zu einer Ausleihe gehörende Videokassette einzeln (an verschiedenen
-  Tagen) zurückbringen. Es wird das Rückgabedatum notiert. Dann steht die Videokassette
+- Der Kunde kann die zu einer Ausleihe gehörende Videokassette einzeln (an verschiedenen  
+  Tagen) zurückbringen. Es wird das Rückgabedatum notiert. Dann steht die Videokassette  
   wieder für andere Ausleihen zur Verfügung.
-- Die Schlussabrechnung für eine Ausleihe erfolgt, wenn die letzte zum Verleih gehörende
+- Die Schlussabrechnung für eine Ausleihe erfolgt, wenn die letzte zum Verleih gehörende  
   Videokassette zurückgebracht wird.
-- Will ein Kunde ein Video ausleihen, von dem gerade keine Kassette verfügbar ist, so kann er
+- Will ein Kunde ein Video ausleihen, von dem gerade keine Kassette verfügbar ist, so kann er  
   eine Reservation tätigen. Es wird das Reservationsdatum notiert.
 
 **Aufgabe**
 
-- Erstellen Sie das Modell (Problem-Domain) für ein Softwaresystem, das die Geschäftsabläufe
+- Erstellen Sie das Modell (Problem-Domain) für ein Softwaresystem, das die Geschäftsabläufe  
   des Videoverleihs unterstützen soll. Beachten Sie dabei folgende Hinweise:
 - Es soll nur ein Klassendiagramm erstellt werden.
 - Der Videoverleih ist das ganze System und wird nicht als Klasse dargestellt.
-- Modellieren Sie nur die im Abschnitt Problem-Beschreibung/Anforderungen verwendeten
+- Modellieren Sie nur die im Abschnitt Problem-Beschreibung/Anforderungen verwendeten  
   Angaben und halten Sie sich möglichst an die dort verwendeten Bezeichnungen.
 - Keine impliziten Methoden angeben.
 
@@ -462,14 +462,14 @@ Es soll nur ein Klassendiagramm erstellt werden.
 
 **Beschreibung:**
 
--  PacMan lässt sich mittels Tastatur steuern.
--  Er bewegt sich nur, wenn es im Labyrinth möglich ist.
--  Trifft er dabei auf einen Punkt, so erhöht sich sein Punktestand um 1.
--  Trifft er auf einen dicken Punkt, so erhöht sich sein Punktestand um 10 Punkte. Außerdem wird er für 20 Takte unverwundbar.
--  Trifft er auf einen Geist und ist verwundbar, so wird er gefressen und er hat ein Leben weniger. Ist er jedoch unverwundbar, so stirbt der Geist und der Punktestand erhöht sich um 100 Punkte.
--  PacMan bewegt sich gleich schnell wie die Geister
--  Die Geister verfolgen PacMan, solange er verwundbar ist und fliehen vor ihm, wenn er unverwundbar ist.
--  Die Geister können sich nur innerhalb des Labyrinth bewegen.
--  Das Spiel endet, wenn alle Punkte eingesammelt sind oder PacMan kein Leben mehr hat.
--  Die erreichte Punktezahl wird ausgegeben.
--  Am Ende des Spiels wird der Gewinner angegeben.
+- PacMan lässt sich mittels Tastatur steuern.
+- Er bewegt sich nur, wenn es im Labyrinth möglich ist.
+- Trifft er dabei auf einen Punkt, so erhöht sich sein Punktestand um 1.
+- Trifft er auf einen dicken Punkt, so erhöht sich sein Punktestand um 10 Punkte. Außerdem wird er für 20 Takte unverwundbar.
+- Trifft er auf einen Geist und ist verwundbar, so wird er gefressen und er hat ein Leben weniger. Ist er jedoch unverwundbar, so stirbt der Geist und der Punktestand erhöht sich um 100 Punkte.
+- PacMan bewegt sich gleich schnell wie die Geister
+- Die Geister verfolgen PacMan, solange er verwundbar ist und fliehen vor ihm, wenn er unverwundbar ist.
+- Die Geister können sich nur innerhalb des Labyrinth bewegen.
+- Das Spiel endet, wenn alle Punkte eingesammelt sind oder PacMan kein Leben mehr hat.
+- Die erreichte Punktezahl wird ausgegeben.
+- Am Ende des Spiels wird der Gewinner angegeben.

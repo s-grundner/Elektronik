@@ -8,7 +8,7 @@ created: 29th November 2022
 
 ## OpenData (152)
 
-- Laden Sie die Datei *parkscheinautomaten.csv* von https://www.data.gv.at/katalog/dataset/c3d494f6-ad43-4225-b3ec-3b2c86b11a01/resource/b78ab487-f7dc-485d-899b-2140517df042/download/cusers15960desktopparkscheinautomatenaz20161212.csv:
+- Laden Sie die Datei *parkscheinautomaten.csv* von <https://www.data.gv.at/katalog/dataset/c3d494f6-ad43-4225-b3ec-3b2c86b11a01/resource/b78ab487-f7dc-485d-899b-2140517df042/download/cusers15960desktopparkscheinautomatenaz20161212.csv:>
 
   ```java
   String sUrl= "https://www.data.gv.at/katalog/dataset/c3d494f6-ad43-4225-b3ec-3b2c86b11a01/resource/b78ab487-f7dc-485d-899b-2140517df042/download/cusers15960desktopparkscheinautomatenaz20161212.csv";
@@ -29,9 +29,9 @@ created: 29th November 2022
 
   In diesem Beispiel werden die Daten direkt in der Konsole ausgegeben.
 
-- Schreiben Sie die Daten in der Methode *writeCsvFile(...)* statt in die Konsole in die Datei *parkscheinautomaten.csv*.
+- Schreiben Sie die Daten in der Methode *writeCsvFile(…)* statt in die Konsole in die Datei *parkscheinautomaten.csv*.
 
-- Lesen Sie die Daten aus der Datei *parkscheinautomaten.csv* in der Methode *writeTxtFile(...)* und schreiben Sie die Daten in die Datei  *textfile.txt*. Dabei muss auf folgendes Format geachtet werden:
+- Lesen Sie die Daten aus der Datei *parkscheinautomaten.csv* in der Methode *writeTxtFile(…)* und schreiben Sie die Daten in die Datei *textfile.txt*. Dabei muss auf folgendes Format geachtet werden:
 
   ```
   lat	lon	title	description	icon	iconSize	iconOffset
@@ -43,20 +43,20 @@ created: 29th November 2022
 
 - Laden Sie mit Ihrem Webbrowser die Datei *index.html* und testen Sie die Funktionalität. Die Datei *textfile.txt* muss sich dabei im gleichen Ordner befinden.
 
-#### HINWEIS: textfile.txt, index.html, parkscheinautomaten.csv
+### HINWEIS: textfile.txt, index.html, parkscheinautomaten.csv
 
-- Studieren Sie: http://wiki.openstreetmap.org/wiki/Openlayers_POI_layer_example
-- Laden Sie die Dateien in einen eigenen Unterordner: 
-  index.html
-  textfile.txt
-  Ol_icon_blue_example.png
+- Studieren Sie: <http://wiki.openstreetmap.org/wiki/Openlayers_POI_layer_example>
+- Laden Sie die Dateien in einen eigenen Unterordner:  
+  index.html  
+  textfile.txt  
+  Ol_icon_blue_example.png  
   Ol_icon_red_example.png
-- Laden Sie mit Ihrem Webbrowser die Datei *index.html* und testen Sie die Funktionalität.
+- Laden Sie mit Ihrem Webbrowser die Datei *index.html* und testen Sie die Funktionalität.  
   Tipp: Achten Sie auf den richtigen Aufbau (Tabulator) der Datei *textfile.txt*.
 
 Häufig sperrt das [Betriebssystem](../Os/Operating%20Systems.md) den Aufruf von den Skripten. Um dieses Problem zu umgehen *XAMPP* installieren und die Dateien gemeinsam unter [c:\xampp\opendata]() ablegen.
 
-#### HINWEIS: (falls kein Netz vorhanden) parkautomaten.csv
+### HINWEIS: (falls kein Netz vorhanden) parkautomaten.csv
 
 ```
 Nr.;Parkscheinautomaten - Standorte;GPS Koordinaten;;GK Koordinaten;;Bemerkungen bzw. Korrekturen (Stand 12/16)
@@ -264,7 +264,7 @@ Nr.;Parkscheinautomaten - Standorte;GPS Koordinaten;;GK Koordinaten;;Bemerkungen
 
 ```
 
-#### Erweiterung:
+### Erweiterung:
 
 - Verändern Sie die Datei *index.html* dahingehend, dass beim Öffnen der Datei die Anzeige auf den Mittelwert der erstellten Längen-/Breitengrade zentriert wird. Dazu müssen die Koordinaten in der folgenden Zeile angepasst werden:
 
@@ -279,7 +279,7 @@ Nr.;Parkscheinautomaten - Standorte;GPS Koordinaten;;GK Koordinaten;;Bemerkungen
   - Einfügen eines neuen Layers in der Datei *index.html*.
   - Starten der Datei *index.html* im Browser.
 
-#### HINWEIS: (falls kein Netz vorhanden) wlanhotspot.csv
+### HINWEIS: (falls kein Netz vorhanden) wlanhotspot.csv
 
 ```
 FID,GEOMETRIE,STANDORTNAME,HOMEPAGE,BEMERKUNG
@@ -319,17 +319,17 @@ Anschließend fragen Sie nach Buchstaben. Sollten die Buchstaben im zu ratenden 
 
  Beispiel: Zu ratendes Wort:"Hangman" (verdeckt)
 
-\- - - - - - -     Eingabe (a)
+\- - - - - - - Eingabe (a)
 
-\- a - - - a -    Eingabe (g)
+\- a - - - a - Eingabe (g)
 
-\- a - g - a -    Eingabe (e)
+\- a - g - a - Eingabe (e)
 
-\- a - g - a -    Eingabe (n)
+\- a - g - a - Eingabe (n)
 
-\- a n g - a n   Eingabe (#) ~ Ende Buchstabenraten
+\- a n g - a n Eingabe (#) ~ Ende Buchstabenraten
 
-Eingabe: Hangman →  richtig geraten / bzw. Zurückkehren zum Buchstabenraten
+Eingabe: Hangman → richtig geraten / bzw. Zurückkehren zum Buchstabenraten
 
-Hinweis:
+Hinweis:  
 Sie können das Spiel abwechslungsreicher gestalten, wenn Sie sich eine Tabelle von zu ratenden Wörtern im Programm anlegen und aus dieser Tabelle zufällig einen Eintrag auswählen, anstatt diesen vorher einzugeben.

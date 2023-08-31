@@ -115,7 +115,7 @@ Die Model-View-Struktur hat den großen Vorteil, dass mittels Qt-Framework der g
 model->setEditStrategy(QSqlTableModel::OnManualSubmit);
 ```
 
-kann gesteuert werden wie sich Änderungen in der Tabelle auswirken. Mit dieser Einstellung werden die Änderungen im UI erst übernommen wenn `modell->submitAll()` aufgerufen wird.  Wird die Zeile weggelassen, dann wird bei einer Veränderung in der Tabelle (View) automatisch in der Datenbank angepasst.
+kann gesteuert werden wie sich Änderungen in der Tabelle auswirken. Mit dieser Einstellung werden die Änderungen im UI erst übernommen wenn `modell->submitAll()` aufgerufen wird. Wird die Zeile weggelassen, dann wird bei einer Veränderung in der Tabelle (View) automatisch in der Datenbank angepasst.
 
 Um die Daten in der dargestellten Tabelle aus der DB upzudaten muss `modell->select()` aufgerufen werden.
 

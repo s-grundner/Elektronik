@@ -7,29 +7,34 @@ created: 7th November 2022
 ---
 
 # Wien-Brücke Oszillator
+
 - $kHz-MHz$ Bereich
 - geringer [Klirrfaktor](../Klirrfaktor.md)
 - breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[Kondensator](../Kapazität.md). 
 
 ## Schaltung
+
 ![1000](assets/WB.png)
 
-> [!summary] 
-> Resonanzfrequenz: $\omega_{0}=\dfrac{1}{RC}$
+> [!summary]  
+> Resonanzfrequenz: $\omega_{0}=\dfrac{1}{RC}$  
 > Verstärkung: $v_{0}=3$
 
-
 ## Herleitung
-> [!summary] Grundregel:
+
+> [!summary] Grundregel:  
 > $g = k\cdot A \qquad A = \dfrac{U_{e}}{U_{a}},\quad k = \dfrac{U_{a}}{U_{e}}$
 
 ### Verstärkung $A$
+
 $$
 \begin{align*}
 A = \dfrac{U_{e}}{U_{a}} = \left(1+\dfrac{R_{2}}{R_{1}}\right)
 \end{align*}
 $$
+
 ### Rückkopplungsfaktor $k$
+
 $$
 \begin{align*}
 k= \dfrac{U_{a}}{U_{e}} &= \frac{\frac{1}{Y}}{Z+ \frac{1}{Y}}= \frac{1}{1+Z\cdot Y}\\
@@ -40,9 +45,9 @@ k= \dfrac{U_{a}}{U_{e}} &= \frac{\frac{1}{Y}}{Z+ \frac{1}{Y}}= \frac{1}{1+Z\cdot
 \end{align*}
 $$
 
->[!hint] [Barkhausen Kriterium](Barkhausen%20Kriterium.md)
-> $k\cdot v = 1$
-> $v = v_{0}= \dfrac{1}{k}=3+j\left(\omega\uptau- \dfrac{1}{\omega\uptau}\right)$
+>[!hint] [Barkhausen Kriterium](Barkhausen%20Kriterium.md)  
+> $k\cdot v = 1$  
+> $v = v_{0}= \dfrac{1}{k}=3+j\left(\omega\uptau- \dfrac{1}{\omega\uptau}\right)$  
 > für Resonanz $\rightarrow \mathcal{Im}\{v_{0}\}=0$
 > $$
 > \begin{align*}

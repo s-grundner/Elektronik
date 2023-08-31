@@ -5,6 +5,7 @@ subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 created: 30th November 2022
 ---
+
 # Wahrscheinlichkeitsverteilung
 
 - Wahrscheinlichkeitsverteilung beschreibt [Wahrscheinlichkeit](Wahrscheinlichkeit.md) von [Ereignissen](Ereignis.md)
@@ -19,13 +20,14 @@ G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
 $M_{x}\rightarrow [0;1]$
 
->[!example] [Erwartungswert](Erwartungswert.md) von 2 Würfeln
+>[!example] [Erwartungswert](Erwartungswert.md) von 2 Würfeln  
 > ![erw_wert_zfv](../assets/erw_wert_zfv.png)
 
 # Tags
-[Erwartungswert](Erwartungswert.md)
-[](Varianz.md#Varianz%20einer%20Zufallsvariable)
-[Binomialverteilung](Binomialverteilung.md)
+
+[Erwartungswert](Erwartungswert.md)  
+[](Varianz.md#Varianz%20einer%20Zufallsvariable)  
+[Binomialverteilung](Binomialverteilung.md)  
 [Normalverteilung](Normalverteilung.md)
 
 

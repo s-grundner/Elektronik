@@ -94,7 +94,7 @@ Datagramm-Header:
 
 - Version: 4 - 4
 - Header-Länge: 5 - 20 Bytes
-- ...
+- …
 - Protokoll: 6 - TCP
 - Source-IP: 0a000004 - 10.0.0.4
 - Destination-IP: 5f8e4ea0 - 95.142.78.160
@@ -115,7 +115,7 @@ c8 7a 00 50 0f 51 2e 96 80 aa ec 8d 50 18 02 01 bf 41 00 00
 - Acknowledgement-Nummer: 80aaec8d
 - Länge: 5 - 20 Bytes
 - Flags: 018
-- ...
+- …
 
 Nach diesem Header folgt direkt der HTTP-Inhalt.
 
@@ -165,7 +165,7 @@ Nachricht:
    http://deine-erste-homepage.com/muster1.htm
    ```
    
-   aktiviert. Der Browser wandelt diese Eingabe in eine 
+   aktiviert. Der Browser wandelt diese Eingabe in eine  
    Anfrage an *deine-erste-homepage.com* nach */muster1.html*. Diese Anfrage wird auf TCP mit dem http-Standardport 80 gesendet:
    
 ```
@@ -182,7 +182,7 @@ Accept-Language: de,en-US;q=0.7,en;q=0.3\r\n
    5. Es folgt der Header, das ist eine optionale Zusammenstellung von Informationen, das können unterschiedlich viele Angaben sein. Dieser Block wird mit einer leeren Zeile beendet.
    6. Nach dem Header kann ein Daten-Block folgen, für eine *GET*-Anfrage entfällt dieser Block (Für etwa einen *POST* wäre das Anders).
 
-- Antwort
+- Antwort  
   Auf die obige Frage kann folgende Antwort folgen:
 
   ```

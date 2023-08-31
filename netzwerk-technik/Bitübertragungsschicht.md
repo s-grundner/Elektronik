@@ -7,9 +7,8 @@ source: ["Martin Aichriedler, Christian Baun"]
 
 # Bitübertragungsschicht (OSI-Layer 1)
 
-> [!hint] Übertragung der Bits über physische Verbindung (HW-Definition).
+> [!hint] Übertragung der Bits über physische Verbindung (HW-Definition).  
 > Typisch: welche Spannung hat 1, welche Spannung hat 0, wie lange ist ein Bit, wie sieht ein Stecker aus.
-
 
 ## Aufgaben der Bitübertragungsschicht
 

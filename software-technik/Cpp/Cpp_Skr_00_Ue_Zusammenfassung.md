@@ -62,7 +62,7 @@ Tipp:
 
 ## Datei Verarbeitung
 
-...
+…
 
 ## Array Min/Max/Med
 

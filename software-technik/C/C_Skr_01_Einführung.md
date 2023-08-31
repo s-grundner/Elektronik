@@ -12,7 +12,7 @@ created: 29th November 2022
 - Implementierung vieler Unix-[Betriebssysteme](../Os/Operating%20Systems.md) in C
 - Viele Kompiler anderer Sprachen sind in C implementiert worden
 - Viele Sprachen übernahmen Teile der Syntax
-- Mehrfach standardisiert (ANSI-C ... C11, C18)
+- Mehrfach standardisiert (ANSI-C … C11, C18)
 - Imperativ/Prozedural (= keine OOP)
 
 ## Anwendungsgebiete
@@ -28,14 +28,14 @@ Merkmale:
 
 ## Compiler
 
-K&R	(Kernighan and Ritchie)
-C90
-C95
-C99
-C11
+K&R	(Kernighan and Ritchie)  
+C90  
+C95  
+C99  
+C11  
 C17
 
-...
+…
 
 Für den Embedded-Bereich: Cross-Compiler (auf PC wird ein Programm für eine andere Laufzeitumgebung erstellt)
 
@@ -55,15 +55,15 @@ Beispiel:
 
 mit gcc und der Option -c wird die Datei main.c kompiliert. Es wird eine main.o (Objekt-Datei) erzeugt.
 
-mit gcc ohne die -c Option wird der Linker aufgerufen. Damit werden sämtliche angeführte .o-Dateien (wenn's mehrere Dateien gibt ...) miteinander verlinkt und als test.exe (für Windows) erzeugt. In anderen (Linux ...) Betriebssystemen läuft das genau gleich.
+mit gcc ohne die -c Option wird der Linker aufgerufen. Damit werden sämtliche angeführte .o-Dateien (wenn's mehrere Dateien gibt …) miteinander verlinkt und als test.exe (für Windows) erzeugt. In anderen (Linux …) Betriebssystemen läuft das genau gleich.
 
 ## IDE
 
 Als Anfänger empfiehlt sich eine einfache IDE (Entwicklungsumgebung). Mächtigere mögen zwar "schöner" oder "professioneller" wirken. Sie sind auf alle Fälle immer schwieriger zu bedienen und setzen voraus, dass man sich länger mit ihnen beschäftigt.
 
-1. Code::Blocks - http://www.codeblocks.org/downloads
+1. Code::Blocks - <http://www.codeblocks.org/downloads>
 
-2. VisualStudio - https://www.visualstudio.com/de/downloads/
+2. VisualStudio - <https://www.visualstudio.com/de/downloads/>
 
    Visual Studio ist eine IDE für [C++](../Cpp/Cpp.md), für einfache C-Projekte sind einige Einstellungen zu tätigen:
 
@@ -74,11 +74,11 @@ Als Anfänger empfiehlt sich eine einfache IDE (Entwicklungsumgebung). Mächtige
    - --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Präprozessor --> Präprozessordefinitionen --> "_CRT_SECURE_NO_WARNINGS" einfügen
    - damit stdfx.h nicht eingebunden werden muss: --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Vorkompilierte Header --> Vorkompilierte Header nicht verwenden einstellen
 
-3. QtCreator - http://download.qt.io/official_releases/online_installers/qt-unified-windows-x86-online.exe (Open Source)
+3. QtCreator - <http://download.qt.io/official_releases/online_installers/qt-unified-windows-x86-online.exe> (Open Source)
 
-4. Eclipse - https://www.eclipse.org/
+4. Eclipse - <https://www.eclipse.org/>
 
-5. CLion - https://www.jetbrains.com/clion/  (als Schüler freie Benutzung)
+5. CLion - <https://www.jetbrains.com/clion/> (als Schüler freie Benutzung)
 
 6. Visual Studio Code - ist genau genommen ein Editor, mit entsprechenden Plugins kann ein wenig unterstützt werden.
 
@@ -86,7 +86,7 @@ Als Anfänger empfiehlt sich eine einfache IDE (Entwicklungsumgebung). Mächtige
 
 - C von A bis Z, Jürgen Wolf
 
-  http://openbook.rheinwerk-verlag.de/c_von_a_bis_z/
+  <http://openbook.rheinwerk-verlag.de/c_von_a_bis_z/>
 
 ## Fragen
 

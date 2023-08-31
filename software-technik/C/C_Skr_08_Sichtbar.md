@@ -49,7 +49,7 @@ int main(void) {
 
 Erzeugt eine Ausgabe 3-7-12. OBWOHL hier in der Methode mit i = 1 initialisiert wird! Diese Initialisierung der statischen Variable wird nur einmal aufgerufen - beim Ersten Mal.
 
-Statische Variable werden somit offensichtlich nicht im Stack mit der lokalen Bereich (Funktion ...) abgelegt.
+Statische Variable werden somit offensichtlich nicht im Stack mit der lokalen Bereich (Funktion …) abgelegt.
 
 ## Globale Variable
 
@@ -62,18 +62,21 @@ Grundsätzlich gilt auch für C: **so lokal wie möglich, so global wie nötig**
 Wenn eine Variable außerhalb von Funktionen (auch von main) als `static` definiert wird, dann sind diese Variable nicht mehr im gesamten Programm sichtbar, sondern nur mehr in der Datei in der sie sich befinden. Mit dem `static` Zusatz kann also verhindert werden, dass auf die Variable von außerhalb zugegriffen wird.
 
 # Weitere Spezifizierer, die Variablen-Verhalten beeinflussen:
+
 ## extern
+
 Mit `extern` wird kein Speicherplatz reserviert, es wird lediglich geklärt wie die Variable (oder Funktion) aussieht (Deklaration <-> Definition).
 
 ```c
 extern int num;      // irgendwo anders wurde fuer num als int Speicher reserviert
 ```
 
-Damit kann ab dieser Definition die Variable *num* verwendet werden. Allerdings nur wenn die Variable *num*  tatsächlich definiert wurde.
+Damit kann ab dieser Definition die Variable *num* verwendet werden. Allerdings nur wenn die Variable *num* tatsächlich definiert wurde.
 
 Wird bei der Deklaration einer Variable oder Funktion die Speicherklasse nicht angeben, ist diese *automatisch extern* wenn sie schon an anderer Stelle definiert wurde.
 
 Soll eine Variable/Funktion bewusst von einer anderen Stelle verwendet werden, dann immer das Schlüsselwort `extern` setzen. Damit kriegt man einen Fehler wenn die Variable/Funktion nicht existiert.
 
 ## volatile
+
 Viele Compiler optimieren selbstständig den Code. Dabei kann der Compiler entscheiden, dass eine Variable nicht im Speicher sondern einem Register zu liegen kommt (Optimierung). Wenn das eigene Programm eine solche Variable allerdings dazu verwenden soll um Daten von z.B. einem anderem Prozess zu erhalten funktioniert das durch die Optimierung nicht mehr. Mit `volatile` wird dem Compiler mitgeteilt, dass die Variable auch von anderer Stelle verändert werden kann. Das gilt auch für Funktionen. `volatile`-Funktionen werden bei jedem Aufruf neu aus dem Hauptspeicher gelesen werden.

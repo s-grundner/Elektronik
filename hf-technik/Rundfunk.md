@@ -7,35 +7,35 @@ created: 21st June 2022
 ---
 
 # Rundfunk
-Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.
+
+Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.  
 ![500](../hf-technik/assets/RadioBands.png)
 
 ## Radiowellen
 
 ### [Elektromagnetische Wellen](Elektromagnetische%20Wellen.md)
 
-Die Funkbänder im Rundfunkspektrum:
+Die Funkbänder im Rundfunkspektrum:  
 ![EM-Spektrum_Funk](assets/EM-Spektrum_Funk.png)
 
 ### Fortbewegung der Funkwelle
 
-Eine Radiowelle ist eine [EM-Welle](Elektromagnetische%20Wellen.md) und benötigt somit kein Medium, um sich Fortbewegen zu können. 
+Eine Radiowelle ist eine [EM-Welle](Elektromagnetische%20Wellen.md) und benötigt somit kein Medium, um sich Fortbewegen zu können.  
 ![475](Raum-Bodenwelle.png)
 
 ### Energie der Welle
 
-[EM-Wellen](Elektromagnetische%20Wellen.md) Transportieren Energie
+[EM-Wellen](Elektromagnetische%20Wellen.md) Transportieren Energie  
 $E=h\cdot f$ 
 
 ## Vom Sprachsignal zur Funkwelle
 
-Durch **[Modulation](Modulation.md)** wird ein Niederfrequentes Sprachsignal auf ein Hochfrequentes Trägersignal aufgemischt.
-Somit kann das Sprachsignal die Eigenschaften einer HF-[EM-Welle](Elektromagnetische%20Wellen.md) annehmen und zur Übertragung verwendet werden. 
+Durch **[Modulation](Modulation.md)** wird ein Niederfrequentes Sprachsignal auf ein Hochfrequentes Trägersignal aufgemischt.  
+Somit kann das Sprachsignal die Eigenschaften einer HF-[EM-Welle](Elektromagnetische%20Wellen.md) annehmen und zur Übertragung verwendet werden.  
 Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 
 - Verschieden Arten von [Modulation](Modulation.md)
 - Eine [Antenne](Antenne.md) 
-
 
 # Tags
 

@@ -10,12 +10,12 @@ Linz,Innsbruck,4,3
 Wien,St. Pölten,5,2 
 ```
 
-- Funktion `QString getDta(QString fName)`
+- Funktion `QString getDta(QString fName)`  
     zum Einlesen der Daten in einen String
-- Funktion `QList<GamesType> procDta(QString dta)`
-    zum Übertragen der Daten in eine Strukturen-Liste
+- Funktion `QList<GamesType> procDta(QString dta)`  
+    zum Übertragen der Daten in eine Strukturen-Liste  
     Reihenfolge der Teams: Sieger|Verlierer
-- Funktion `void printGames(QList<GamesType> g)`
+- Funktion `void printGames(QList<GamesType> g)`  
     zur Ausgabe der Spielergebnisse
 
 ## Raum-Temperatur
@@ -30,13 +30,13 @@ Kuns Dänlich: 38.2
 Fida Hunlika: 37.8
 ```
 
-- Funktion `QString getDta(QString fName)`
+- Funktion `QString getDta(QString fName)`  
     zum Einlesen der Daten in einen String
 
-- Funktion `QList<PersTempTypes> procDta(QString dta)`
+- Funktion `QList<PersTempTypes> procDta(QString dta)`  
     zum Übertragen der Daten in eine Strukturen-Liste
 
-- Funktion `void printAlert(QList<PersTempTypes> g)`
+- Funktion `void printAlert(QList<PersTempTypes> g)`  
     zur Ausgabe in der Form (Grenze 37,6):
 
     ```
@@ -55,24 +55,24 @@ Datei persons.txt:
 3  Gudrun Birne
 ```
 
-- Funktion `QString getDta(QString fName)`
+- Funktion `QString getDta(QString fName)`  
     zum Einlesen der Daten in einen String
-- Funktion `QList<PersonType> procDta(QString dta)`
+- Funktion `QList<PersonType> procDta(QString dta)`  
     zum Übertragen der Daten in eine Strukturen-Liste
-- Funktion `QList<PersonType> sortDta(QList<PersonType> l, int elem, int order)`
+- Funktion `QList<PersonType> sortDta(QList<PersonType> l, int elem, int order)`  
     zum Sortieren der Daten nach elem in der Reihenfolge order
-- Funktion `void printPresons(QList<PersonType> pers)`
+- Funktion `void printPresons(QList<PersonType> pers)`  
     zur Ausgabe der Personen
 
 ## wget - COV-Ampel
 
 Download der aktuellen Covid-Situation von:
 
-https://corona-ampel.gv.at/sites/corona-ampel.gv.at/files/assets/Warnstufen_Corona_Ampel_aktuell.json
+<https://corona-ampel.gv.at/sites/corona-ampel.gv.at/files/assets/Warnstufen_Corona_Ampel_aktuell.json>
 
 oder
 
-https://corona-ampel.gv.at/sites/corona-ampel.gv.at/files/assets/Warnstufen_Corona_Ampel_Gemeinden_aktuell.json
+<https://corona-ampel.gv.at/sites/corona-ampel.gv.at/files/assets/Warnstufen_Corona_Ampel_Gemeinden_aktuell.json>
 
 (Prüfen der Verfügbarkeit/Alternativen via Browser)
 
@@ -82,9 +82,9 @@ Automatisierter Download von entfernten Daten in die lokale Datei covdta.json:
 wget "..." -O ./covdta.json
 ```
 
-In Linux-Distributionen ist *wget* vorhanden. In Windows-Systemen muss es installiert werden. Eine Möglichkeit ist es die Compiler-Suite *MSYS2* zu installieren. Eventuell wird der enthaltene C/C++-Compiler sowieso benötigt (in Windows gäbe es neben wget auch andere Möglichkeiten ...)
+In Linux-Distributionen ist *wget* vorhanden. In Windows-Systemen muss es installiert werden. Eine Möglichkeit ist es die Compiler-Suite *MSYS2* zu installieren. Eventuell wird der enthaltene C/C++-Compiler sowieso benötigt (in Windows gäbe es neben wget auch andere Möglichkeiten …)
 
-Oft gibt es mit dem wget-Download noch Probleme, wenn etwa die SSL-Version nicht unterstützt wird. Für Ubuntu muss dafür eine Konfiguration angepasst werden (https://discourse.ubuntu.com/t/default-to-tls-v1-2-in-all-tls-libraries-in-20-04-lts/12464/7):
+Oft gibt es mit dem wget-Download noch Probleme, wenn etwa die SSL-Version nicht unterstützt wird. Für Ubuntu muss dafür eine Konfiguration angepasst werden (<https://discourse.ubuntu.com/t/default-to-tls-v1-2-in-all-tls-libraries-in-20-04-lts/12464/7):>
 
 Anpassen der Datei */etc/ssl/openssl.cnf* (die mit + markierten Zeilen werden eingefügt, die anderen Zeilen dienen zur Orientierung):
 
@@ -114,10 +114,6 @@ Nach dem Download der Datei kann die weitere Verarbeitung beginnen:
 - Verarbeiten der JSON-Datei -> Suchen der Heimatgemeinde und ermitteln des Ampelzustands (COV-Warnstufe)
 - Ausgabe der Warnstufe mitsamt des Datums der Einstufung und der Gemeinde in der Konsole
 - Erweitern des Programms mit einer GUI welche die Ampel grafisch darstellt.
-
-
-
-
 
 ## SignalSlots (652)
 
@@ -216,7 +212,7 @@ Tipps:
 
   `int num =  QMessageBox::warning(this, "Gruß", "Antwort?", QMessageBox::Ok | QMessageBox::Yes)`
 
-- `if (num == QMessageBox::Yes) {...}`
+- `if (num == QMessageBox::Yes) {…}`
 
 ## ComboBox (058)
 
@@ -270,10 +266,9 @@ Tipps:
   int tag = d.day();
   ```
 
-
 ## Editor (061)
 
-- Erstellen Sie einen Text-Editor. Platzieren Sie eine Textbox als Schreibbereich und fügen Sie in der Menüleiste *Datei* mit *Öffnen ...* und *Schließen ...* hinzu.
+- Erstellen Sie einen Text-Editor. Platzieren Sie eine Textbox als Schreibbereich und fügen Sie in der Menüleiste *Datei* mit *Öffnen …* und *Schließen …* hinzu.
 - Fügen Sie Öffnen und Schließen auch in der Tool-Bar ein.
 - Das Öffnen und Schließen ist mittels Datei-Dialog darzustellen.
 - Im Fenster-Titel wird der Dateiname der geladenen Datei angezeigt. Sobald der Text verändert wird, wird beim Dateinamen zusätzlich ein * angezeigt (Verhalten siehe zum Beispiel QTCreator).
@@ -402,10 +397,10 @@ Erstellen Sie eine GUI-Anwendung:
 
 - SerPort-Klasse mit:
 
-  - `QList<QString> getAvailPortNames()` erstellt eine Liste der Verfügbaren Ports. Der Treiber gibt die auf diese Art zurück:
-    `QList<QSerialPortInfo> ql = QSerialPortInfo::availablePorts()` 
+  - `QList<QString> getAvailPortNames()` erstellt eine Liste der Verfügbaren Ports. Der Treiber gibt die auf diese Art zurück:  
+    `QList<QSerialPortInfo> ql = QSerialPortInfo::availablePorts()`  
     (Listen-Umwandlung siehe Combo-Box)
-  - `QList<QString> SerPort::getAvailBaudRates()` erstellt eine Liste der Verfügbaren Baudrates. Vom Treiber:
+  - `QList<QString> SerPort::getAvailBaudRates()` erstellt eine Liste der Verfügbaren Baudrates. Vom Treiber:  
     `QList<qint32> ql = QSerialPortInfo::standardBaudRates()`
   - `bool SerPort::con(QString name, int baudRate)` - Verbinden mit Port, Rückgabe true = OK, false = Error
   - `void SerPort::close()`
@@ -498,11 +493,11 @@ Erstellen Sie eine GUI-Anwendung:
 
 - SerPort-Klasse mit:
 
-  - `QList<QString> getAvailPortNames()` erstellt eine Liste der Verfügbaren Ports. Der Treiber gibt die auf diese Art zurück:
-    `QList<QSerialPortInfo> ql = QSerialPortInfo::availablePorts()` 
+  - `QList<QString> getAvailPortNames()` erstellt eine Liste der Verfügbaren Ports. Der Treiber gibt die auf diese Art zurück:  
+    `QList<QSerialPortInfo> ql = QSerialPortInfo::availablePorts()`  
     (Listen-Umwandlung siehe Combo-Box)
 
-  - `QList<QString> SerPort::getAvailBaudRates()` erstellt eine Liste der Verfügbaren Baudrates. Vom Treiber:
+  - `QList<QString> SerPort::getAvailBaudRates()` erstellt eine Liste der Verfügbaren Baudrates. Vom Treiber:  
     `QList<qint32> ql = QSerialPortInfo::standardBaudRates()`
 
   - `bool SerPort::con(QString name, int baudRate)` - Verbinden mit Port, Rückgabe true = OK, false = Error

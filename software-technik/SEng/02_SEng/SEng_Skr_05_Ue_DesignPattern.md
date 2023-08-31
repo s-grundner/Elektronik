@@ -37,8 +37,8 @@ S2> Hi s1
 ... Closing File
 ```
 
-Sehen Sie sich Singleton an in:
-https://de.wikibooks.org/wiki/C%2B%2B-Programmierung:_Entwurfsmuster:_Singleton
+Sehen Sie sich Singleton an in:  
+<https://de.wikibooks.org/wiki/C%2B%2B-Programmierung:_Entwurfsmuster:_Singleton>
 
 ## Formen - Factory (c++158)
 
@@ -504,4 +504,4 @@ public class BridgePatternDemo {
 }
 ```
 
-(Beispiel von https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm)
+(Beispiel von <https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm)>

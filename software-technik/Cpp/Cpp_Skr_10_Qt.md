@@ -4,7 +4,7 @@ QT ist ein Framework für die Entwicklung von C++ Programmen. Es bietet eine Vie
 
 ## Signals/Sots (056)
 
-Für die Kommunikation zwischen Programm-Komponenten wird in Qt das Signal-Slot-Konzept umgesetzt (https://de.wikipedia.org/wiki/Signal-Slot-Konzept). Dabei können Signale den Aufruf von Funktionen (Slots) auslösen -> ereignisgesteuerter Programmfluss.
+Für die Kommunikation zwischen Programm-Komponenten wird in Qt das Signal-Slot-Konzept umgesetzt (<https://de.wikipedia.org/wiki/Signal-Slot-Konzept).> Dabei können Signale den Aufruf von Funktionen (Slots) auslösen -> ereignisgesteuerter Programmfluss.
 
 Um Signale/Slots verwenden zu können muss die entsprechende Klasse von *QObject* ableiten und als erstes das Makro *Q_OBJECT* aufrufen:
 
@@ -50,7 +50,7 @@ Um zu definieren welcher Slot durch welches Signal ausgelöst wird, müssen die 
 connect(myClass, SIGNAL(getPos()), otherClass, SLOT(setPos()));
 ```
 
-Gerade in der GUI-Implementierung wird dieses Konzept intensiv eingesetzt - wenn etwa eine Schaltfläche mit einer Funktion verbunden wird, dann wird diese Funktion in einen slot-Bereich definiert. Der Name für diese Slot-Funktionen ist vorgegeben. Für einen Push-Button etwa:
+Gerade in der GUI-Implementierung wird dieses Konzept intensiv eingesetzt - wenn etwa eine Schaltfläche mit einer Funktion verbunden wird, dann wird diese Funktion in einen slot-Bereich definiert. Der Name für diese Slot-Funktionen ist vorgegeben. Für einen Push-Button etwa:  
 on_myButton_clicked() -> *on* und *clicked* Sagen: wenn der Button geklickt wird. *myButton* muss genau so lauten wie der Name der Schaltfläche.
 
 ### Sender
@@ -152,7 +152,7 @@ ui->statusbar->showMessage("Daten werden gelesen", 1000);
 ## Schaltfläche/Button
 
 - Um einen Butten mit einem Ereignis zu verknüpfen, wird im QTCreator im UI-Designer im Kontext-Menü der Schaltfläche die Option *Slot anzeigen* ausgewählt. Im Fenster das sich dadurch öffnet kann das entsprechende Signal ausgewählt werden, im einfachsten Fall **clicked()** (für ein Ereignis durch ein einfaches Anklicken).
-- Im zugehörenden h- und cpp-Code wird damit eine Funktion angelegt mit dem Namen `on_pushButton_clicked()` angelegt. Der mittlere Teil *pushButton* entspricht dem Namen des Schaltflächenobjekts. Es empfiehlt sich daher sämtlichen Objekten direkt nach der Erzeugung einen bezeichnenden Namen zu geben. Soll der Name der Schaltfläche (und der Funktion) verändert werden, dann muss das in der cpp-, h, und ui-Datei erfolgen.
+- Im zugehörenden hund cpp-Code wird damit eine Funktion angelegt mit dem Namen `on_pushButton_clicked()` angelegt. Der mittlere Teil *pushButton* entspricht dem Namen des Schaltflächenobjekts. Es empfiehlt sich daher sämtlichen Objekten direkt nach der Erzeugung einen bezeichnenden Namen zu geben. Soll der Name der Schaltfläche (und der Funktion) verändert werden, dann muss das in der cpp-, h, und ui-Datei erfolgen.
 
 ## [Radio](../../hf-technik/Rundfunk.md) Button
 
@@ -297,7 +297,7 @@ ui->lvNames->takeItem(10);	// loeschen 10tes Element
 
 ## Bäume
 
-https://www.youtube.com/watch?v=TpkiVlOS3o4
+<https://www.youtube.com/watch?v=TpkiVlOS3o4>
 
 Tree Widget (nicht ModelView)
 
@@ -342,7 +342,7 @@ void MainWindow::AddChild(QTreeWidgetItem *parent, QString name, QString descrip
 
 ## List View (ModelView)
 
-(nett: https://www.youtube.com/watch?v=uDC9L4T59bM)
+(nett: <https://www.youtube.com/watch?v=uDC9L4T59bM)>
 
 Modern: Trennung von Code und GUI-Elemente. Daher ändert der Code eine darzustellende Liste lediglich in einem Model (nicht in der GUI direkt). Das GUI wird mittels einer eigenen Ebene upgedatet.
 
@@ -423,7 +423,7 @@ Soll ein Kontext-Menü erscheinen, dann muss:
 
 ## QDockWidget
 
-Um ein Fenster zu organisieren, können andockbar Fenster *QDockWidget* verwendet werden. Diese Fenster werden im *ui* eingefügt. Dieses Widget kann an einer Seite angedockt werden (es können die erlaubten Seiten angegeben werden). Zusätzlich kann angegeben werden ob das Fenster geschlossen, abgedockt ... werden kann. Wenn während der Laufzeit ein Fenster geschlossen wird, kann es mittels
+Um ein Fenster zu organisieren, können andockbar Fenster *QDockWidget* verwendet werden. Diese Fenster werden im *ui* eingefügt. Dieses Widget kann an einer Seite angedockt werden (es können die erlaubten Seiten angegeben werden). Zusätzlich kann angegeben werden ob das Fenster geschlossen, abgedockt … werden kann. Wenn während der Laufzeit ein Fenster geschlossen wird, kann es mittels
 
 ```c++
 ui->dockWidget->show();
@@ -500,8 +500,8 @@ void MainWindow::mousePressEvent(QMouseEvent *event) {
 
 Widgets sind Objekte auf der UI-Oberfläche. In Qt können sehr einfach eigene Widgets erzeugt und mit eigenen Funktionen hinterlegt werden. Der große Vorteil dadurch ist die saubere Trennung des Widget-Codes von der grundsätzlichen Fenster-Steuerung.
 
-- Eine neue C++ Klasse PaintAreaWidget zum Projekt hinzufügen: als Basisklasse `QWidget` einstellen
-  (erzeugt eine cpp- und eine h-Datei).
+- Eine neue C++ Klasse PaintAreaWidget zum Projekt hinzufügen: als Basisklasse `QWidget` einstellen  
+  (erzeugt eine cppund eine h-Datei).
 
 - Das Paint-Event wird überladen:
 
@@ -526,7 +526,7 @@ Widgets sind Objekte auf der UI-Oberfläche. In Qt können sehr einfach eigene W
   Containers->Widget
   ```
 
-  das wird platziert. Darauf rechte Maustaste -> "Platzhalter für benutzerdefinierte Widgets.."/"Promote to ..."
+  das wird platziert. Darauf rechte Maustaste -> "Platzhalter für benutzerdefinierte Widgets.."/"Promote to …"
 
   Darin das erzeugte Widget eintippen.
 
@@ -612,7 +612,7 @@ serPort.setBaudRate(QSerialPort::Baud9600);		// Alternativ: setBaudRate(9600)
 serPort.setPortName("COM1");
 ```
 
-**Öffnen** der Kommunikation mit Definition der Zugriffsart (ReadOnly/ReadWrite ...):
+**Öffnen** der Kommunikation mit Definition der Zugriffsart (ReadOnly/ReadWrite …):
 
 ```c++
 if (!serPort.open(QSerialPort::ReadWrite)) {
@@ -704,7 +704,7 @@ private slots:
     void replyFinished(QNetworkReply *) {qDebug() << "success.";};
 ```
 
-### Kopieren von Dateien aus Quell- ins Zielverzeichnis
+### Kopieren von Dateien aus Quellins Zielverzeichnis
 
 mittels QMAKE, kann in der Projektkonfiguration angefügt werden:
 

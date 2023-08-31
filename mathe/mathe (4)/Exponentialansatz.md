@@ -8,7 +8,7 @@ created: 30th August 2023
 
 Mit dem Exponentialansatz lassen sich lineare [DGL]({MOC}%20DGL.md) berechnen.
 
-> [!hint] Grundform des Exponentialansatzes mit nicht-konstantem Faktor $p(x)$:
+> [!hint] Grundform des Exponentialansatzes mit nicht-konstantem Faktor $p(x)$:  
 > $$y(x)=c\cdot e^{-\int p(x)dx}$$
 
 $$

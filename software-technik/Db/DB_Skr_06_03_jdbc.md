@@ -8,7 +8,7 @@ Um den Ablauf zu zeigen wird das am [MySQL](DB_Skr_04_Sql.md)-Treiber gezeigt.
 
 Java kann auf SQL-Datenbanken mittels eines Datenbankabhängigen Treibers zugreifen. Der Vorteil dieser Idee ist, dass bei Änderungen an der Datenbank oder einem Umstieg auf eine andere Datenbank nur auf einen passende Treiber umgestellt werden muss und das Programm gleich bleiben kann.
 
-Der Treiber muss im richtigen Verzeichnis liegen oder CLASSPATH muss entsprechend angepasst werden. In Eclipse: Projekt->Eigenschaften->Konfiguration Bearbeiten->Klassenpfad->Benutzereingänge->Externe JARs hinzufügen->C:\program files\java\jdk1.8.0_181\lib\mysql-connector...jar
+Der Treiber muss im richtigen Verzeichnis liegen oder CLASSPATH muss entsprechend angepasst werden. In Eclipse: Projekt->Eigenschaften->Konfiguration Bearbeiten->Klassenpfad->Benutzereingänge->Externe JARs hinzufügen->C:\program files\java\jdk1.8.0_181\lib\mysql-connector…jar
 
 Für ältere Treiber (beispielhaft **mysql-connector-java-5.1.35-bin.jar**) wird die DB-URL so angegeben:
 
@@ -23,15 +23,15 @@ String sZone = "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDat
 String sDbUrl="jdbc:mysql://localhost:3306/is_uni" + sZone;
 ```
 
-Für das entsprechende Projekt muss der gewählte Treiber (Connector) angegeben werden, in Eclipse: Project->Properties->Java Build Path->Add External JARs...->Auswahl der jar.
+Für das entsprechende Projekt muss der gewählte Treiber (Connector) angegeben werden, in Eclipse: Project->Properties->Java Build Path->Add External JARs…->Auswahl der jar.
 
 Ablage im Projekt-Verzeichnis oder im JDK-Verzeichnis.
 
 ## IntelliJ-IDEA
 
-In IntelliJ-IDEA ist es hilfreich das Database-Navigator-Plugin zu installieren (File->Settings->Plugins ...). Für die Ultimate-Variante gibt per JetBrain ein Plugin.
+In IntelliJ-IDEA ist es hilfreich das Database-Navigator-Plugin zu installieren (File->Settings->Plugins …). Für die Ultimate-Variante gibt per JetBrain ein Plugin.
 
-Download den letzten Treiber von https://mariadb.com -> Download -> Connector -> Java-Connector. Die Jar-Datei im Projekt ablegen und referenzieren:
+Download den letzten Treiber von <https://mariadb.com> -> Download -> Connector -> Java-Connector. Die Jar-Datei im Projekt ablegen und referenzieren:
 
 File->ProjectStructure->ProjectSettings->Modules->Dependencies->jar-Datei referenzieren.
 
@@ -129,7 +129,7 @@ st.executeUpdate();     // das "preparete" Statement wird ausgefuehrt
 
 Bis auf den Connector funktioniert der Zugriff auf eine SQLite-DB vollkommen identisch wie mit einer MySQL-DB.
 
-- Download Connector (gilt für sämtliche OS):  https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc  (hier sqlite-jdbc-3.39.3.0.jar).
+- Download Connector (gilt für sämtliche OS): <https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc> (hier sqlite-jdbc-3.39.3.0.jar).
 
 - Ablegen unter `C:\Program Files\Java\jdk1.8.0_181\lib` (oder wohin auch immer später konfiguriert wird, eventuell direkt im Projekt).
 

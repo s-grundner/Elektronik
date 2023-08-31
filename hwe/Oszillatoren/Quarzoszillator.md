@@ -8,14 +8,14 @@ created: 17th January 2023
 
 # Quarzoszillator
 
-> [!info] Schwingquarze beruhen auf dem Prinzip des [](../../mess-technik/Piezoelektrik.md#Piezoelektrischer%20Effekt|Piezoelektrischen%20Effekts)
+> [!info] Schwingquarze beruhen auf dem Prinzip des [](../../mess-technik/Piezoelektrik.md#Piezoelektrischer%20Effekt|Piezoelektrischen%20Effekts)  
 > Der Quarz ist daher ein Mechanisches Bauelement 
 
 ## Symbol
 
 ![500](../assets/quarz.png)
 
-> [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens
+> [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens  
 > ![500](../assets/elek_esb_quarz.png)
 
 ![400](../assets/quarz_mechschwing.png)

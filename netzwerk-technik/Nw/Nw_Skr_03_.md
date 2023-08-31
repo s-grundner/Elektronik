@@ -1,3 +1,5 @@
+# Nw_Skr_03_
+
 ## Basis-Strukturen
 
 - *hostent*-Struktur - diese Struktur beinhaltet Informationen über einen Host: 
@@ -45,7 +47,7 @@
   printf("Second Address: %s\n", myAddr);
   ```
 
-- *in_addr*
+- *in_addr*  
   Struktur für die Spezifikation einer (IP-) Adresse.
 
   ```c++
@@ -72,7 +74,7 @@
   ```
 
   - *sin_family*: meist *AF_INET* (IPv4)
-  - *sin_port*: Port des Transport Protokolls in Network-Byte-Order
+  - *sin_port*: Port des Transport Protokolls in Network-Byte-Order  
     mittels `htons(51234)`.
   - *sin_addr*: wiederum eine Struktur - beinhaltet die (IPv4) Adresse
   - *sin_zero[]*: reserviert - gesamte Struktur auf Null Setzen
@@ -92,7 +94,7 @@
   };
   ```
 
-  - *flags*: Optionen die kombiniert werden können (AI_PASSIVE, AI_CANONNAME ...)
+  - *flags*: Optionen die kombiniert werden können (AI_PASSIVE, AI_CANONNAME …)
   - *family*: gibt den Typ der Adresse an (*AF_INET*-IPv4, *AF_INET6*-IPv6, *AF_UNSPEC*-nicht näher definiert)
   - *socktype*: *SOCK_STREAM* oder *SOCK_DGRAM*
   - *protocol*: *IPPROT_UDP* oder *IPPROTO_TCP*
@@ -190,7 +192,7 @@ int inet_aton(const char *cp, struct in_addr *inp);
 in_addr_t inet_addr(const char *cp);
 ```
 
-n: Network-Byte-Order
+n: Network-Byte-Order  
 a: ASCII - IP als String der Form 123.123.123.123
 
 Für diese Funktionen gibt es oft neuere Versionen die auch IPv6 kompatibel sind.
@@ -204,8 +206,8 @@ uint32_t ntohl(uint32_t netlong);
 uint16_t ntohs(uint16_t netshort);
 ```
 
-n: Network-Byte-Order
-h: Host-Byte-Order
+n: Network-Byte-Order  
+h: Host-Byte-Order  
 s/l: short/long
 
 ### Peer-Name
@@ -215,8 +217,6 @@ int getpeername(int sockfd, struct sockaddr *addr, int *addrlen);
 ```
 
 Mit dieser Funktion kann der Host zu einer Socket-Deskriptor ermittelt werden. Die Information wird in addr eingetragen.
-
-
 
 ## TCP Three-Way-Handshake
 

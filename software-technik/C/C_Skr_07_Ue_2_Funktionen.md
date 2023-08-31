@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # Funktionen - Rekursionen - Übungen - Lösungen
 
-##  A01_Add
+## A01_Add
 
 - Rekursive Addition von zwei ganzen Zahlen. Wie beim Fingerzählen: solange 1 dazuzählen bis Zahl erreicht.
 - Pseudocode:
@@ -35,31 +35,31 @@ int add(int a, int b) {
 }
 ```
 
-##  A02_Sub
+## A02_Sub
 
 - Rekursive Subtraktion von zwei ganzen Zahlen.
 - Pseudocode:
   - Differenz = Minuend - Subtrahend = Minuend - (Subtrahend-1) - 1
   - Differenz von Minuend - 0 = Minuend
 
-##  A03_Mult
+## A03_Mult
 
 - Rekursive Multiplikation von zwei ganzen Zahlen: Multiplikant wird Multiplikator oft miteinander addiert.
 - Pseudocode:
   - Produkt = Multiplikant * Multiplikator = Multiplikant * (Multiplikator-1) + Multiplikant
   - Produkt von Multiplikant * 1 = Multiplikant
 
-##  A03_Fakultaet
+## A03_Fakultaet
 
-- Die Fakultät einer Zahl spielt in der Wahrscheinlichkeitsrechnung aber auch in Taylorreihen eine Rolle. Berechne die Fakultät einer ganzen Zahl:
-  n! = 1 * 2 * 3 * .... * n
+- Die Fakultät einer Zahl spielt in der Wahrscheinlichkeitsrechnung aber auch in Taylorreihen eine Rolle. Berechne die Fakultät einer ganzen Zahl:  
+  n! = 1 * 2 * 3 * …. * n
 - Pseudocode:
   - Fakultät(n) = Fakultät(n-1) * n
   - Fakultät(1) = 1
 
-##  A05_Fibonacci
+## A05_Fibonacci
 
-- In der Natur gibt es viele Wachstumsgesetze die sich nach einer bestimmten Folge berechnen lassen:
+- In der Natur gibt es viele Wachstumsgesetze die sich nach einer bestimmten Folge berechnen lassen:  
   n = (n-1) + (n-2). Wobei gilt: Fibo(1) = Fibo(2) = 1
 - Pseudocode:
   - Fico(n) = (n-1) + (n-2)

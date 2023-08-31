@@ -40,7 +40,7 @@ myInt ob1(12);
 myInt ob2();
 ```
 
-Bei der Verwendung des Objekts *ob2* bekommt man einen Fehler. Der Grund: die Zeile `myInt ob2()` wird als Funktionsdeklaration interpretiert. Dieses Verhalten ist als **Most Vexing Parse** (https://en.wikipedia.org/wiki/Most_vexing_parse) bekannt.
+Bei der Verwendung des Objekts *ob2* bekommt man einen Fehler. Der Grund: die Zeile `myInt ob2()` wird als Funktionsdeklaration interpretiert. Dieses Verhalten ist als **Most Vexing Parse** (<https://en.wikipedia.org/wiki/Most_vexing_parse)> bekannt.
 
 ## {}-Initialisierung
 
@@ -146,7 +146,7 @@ myCls c1 {1};			// explizit, sucht Konstruktor myCls(int)
 myCls c2 {1,2};	  // explizit, sucht Konstruktor myCls(int,int)
 ```
 
-Für diese Fälle sind passende Konstruktoren notwendig (auch mit Standardwerten möglich),  die Initialisierung erfolgt explizit (keine Kopierinitialisierung).
+Für diese Fälle sind passende Konstruktoren notwendig (auch mit Standardwerten möglich), die Initialisierung erfolgt explizit (keine Kopierinitialisierung).
 
 Diese Fälle wirken ein wenig konstruiert, für Funktionsaufrufe ist die Sache oft entscheidender:
 

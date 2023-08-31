@@ -68,13 +68,13 @@ Ab nun arbeiten zwei Entwickler am Projekt, der erste Entwickler implementiert e
 - Als Beispiel wird hier der Additions-Branch angeführt:
 
     ```
-git branch addition
+git branch addition  
     ```
   
     Es wird auf den Branch gewechselt:
 
     ```
-git checkout addition
+git checkout addition  
     ```
 
 - Einbau *add.c*, *add.h* und Anpassen von *main.c*.
@@ -82,8 +82,8 @@ git checkout addition
 - Aufnehmen ins lokale Repo und Branch auch auf dem Remote-Repo führen:
 
    ```
-git add .
-git commit -m "Implementation of Addition"
+git add .  
+git commit -m "Implementation of Addition"  
 git push origin addition
    ```
 
@@ -110,7 +110,7 @@ Anschließend sieht der Verlauf etwa so aus:
 3. Das *Mergen* erfolgt in diesem Beispiel direkt auf dem Remote-Repo. Die lokalen Repos werden dadurch nicht automatisch mitgezogen. Dafür muss auf dem *master*-Branch zurückgewechselt und das Repo heruntergezogen werden:
 
    ```
-   git checkout master
+   git checkout master  
    git pull origin master
    ```
 

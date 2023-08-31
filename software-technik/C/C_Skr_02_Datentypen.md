@@ -24,11 +24,11 @@ Idee der Maschinenabhängigen Länge: Berechnungen laufen unter optimaler Speich
 - [Betriebssystem](../Os/Operating%20Systems.md)
 - Compiler
 
-in \<limits.h\> sind die Wertebereiche der Ganzzahl-Datentypen abgelegt (UCHAR_MAX ...), in \<float.h\> sind die Wertebereiche der Fließkommatypen abgelegt (FLT_... DBL...).
+in \<limits.h\> sind die Wertebereiche der Ganzzahl-Datentypen abgelegt (UCHAR_MAX …), in \<float.h\> sind die Wertebereiche der Fließkommatypen abgelegt (FLT_… DBL…).
 
-Um eine definierte Breite zur Verfügung zu stellen gibt's in \<stdint.h\> klar definierte Typen: int32\_t, int16\_t, int8_t ... (ab Version C99)
+Um eine definierte Breite zur Verfügung zu stellen gibt's in \<stdint.h\> klar definierte Typen: int32\_t, int16\_t, int8_t … (ab Version C99)
 
-Für sämtliche Typen können die Vorsätze *signed* und *unsigned*  verwendet werden. Ohne Vorsatz ist die Art Implementationsabhängig (meist vorzeichenbehaftet).
+Für sämtliche Typen können die Vorsätze *signed* und *unsigned* verwendet werden. Ohne Vorsatz ist die Art Implementationsabhängig (meist vorzeichenbehaftet).
 
 ## Speicherbedarf
 
@@ -42,10 +42,10 @@ length = sizeof(unsigned char);      // 2. Moeglichkeit: Speicherbedarf einer "u
 
 ## Konstante Werte ("Literale")
 
-Für Nummern gilt: ohne Zusatz wird für Ganzzahlen, sofern es sich ausgeht der Typ *int* gewählt. Gesteuert werden kann mit den Suffix L (long) und U (unsigned). Mit vorangestellten 0 wird die Konstante als Oktale- und mit einem 0x als Hexadezimale-Zahl interpretiert. Fließkommazahlen werden als float interpretiert, außer die Konstante ist für float zu groß.
+Für Nummern gilt: ohne Zusatz wird für Ganzzahlen, sofern es sich ausgeht der Typ *int* gewählt. Gesteuert werden kann mit den Suffix L (long) und U (unsigned). Mit vorangestellten 0 wird die Konstante als Oktaleund mit einem 0x als Hexadezimale-Zahl interpretiert. Fließkommazahlen werden als float interpretiert, außer die Konstante ist für float zu groß.
 
-Charakter-Literale werden durch einfache Anführungsstriche dargestellt `'a'`. Charakter-Sonderzeichen können durch sogenannte *Escape-Sequenzen* ausgedrückt. Dafür wird ein *Back-Slash* vor ein weiteres Zeichen gestellt (\n, \t ...). Unter vielen anderen gibt's:
-​	\n für Zeilenumbruch, \t für Tabulator, \\" für doppeltes Anführungszeichen, \a akustisches Zeichen ...
+Charakter-Literale werden durch einfache Anführungsstriche dargestellt `'a'`. Charakter-Sonderzeichen können durch sogenannte *Escape-Sequenzen* ausgedrückt. Dafür wird ein *Back-Slash* vor ein weiteres Zeichen gestellt (\n, \t …). Unter vielen anderen gibt's:  
+​	\n für Zeilenumbruch, \t für Tabulator, \\" für doppeltes Anführungszeichen, \a akustisches Zeichen …  
 Zeichen können ebenfalls durch ihren hexadezimalen Code mit `'\xhh'` übergeben werden als Beispiel `'\x41'` für ein 'A' (dez. 65 = 0x41)
 
 Zeichenketten-Literale (Strings) haben doppelte Anführungsstriche `"Hallo"`.
@@ -106,7 +106,7 @@ c = c - 'A';		// in c steht 2 (3ter Buchstabe im Alphabeth)
 c = c + 'a';		// in c steht 2 + 97 (97 = 'a') und damit 99 ( = 'c')
 ```
 
-Genauso können auch Zahlen verwendet werden, die müssten der ASCII-Tabelle entnommen werden. Die ASCII-Tabelle definiert Zeichen für die Nummern von 0 bis 127 (eigentlich nur 7 Bit). Je nachdem in welchem [Betriebssystem](../Os/Operating%20Systems.md) das C-Programm die char-Zeichen ausgibt werden die verbleibenden 128 Zeichen verschieden kodiert. Um sämtliche 8 Bits (256 Zeichen) auszunutzen (und auch um dringend gewünschte Zeichen darzustellen) wird in eigenen Codierungen definiert, wie die verbleibenden 128 Zeichen codiert werden. In der Windows-Eingabeaufforderung kann die eingestellte Codepage mit `chcp`  angezeigt werden (oder auch verändert werden), häufig bei uns *Codepage 850*.  In UNIX kann das mit `cat /etc/default/locale`  angezeigt werden, häufig bei uns *utf-8*.
+Genauso können auch Zahlen verwendet werden, die müssten der ASCII-Tabelle entnommen werden. Die ASCII-Tabelle definiert Zeichen für die Nummern von 0 bis 127 (eigentlich nur 7 Bit). Je nachdem in welchem [Betriebssystem](../Os/Operating%20Systems.md) das C-Programm die char-Zeichen ausgibt werden die verbleibenden 128 Zeichen verschieden kodiert. Um sämtliche 8 Bits (256 Zeichen) auszunutzen (und auch um dringend gewünschte Zeichen darzustellen) wird in eigenen Codierungen definiert, wie die verbleibenden 128 Zeichen codiert werden. In der Windows-Eingabeaufforderung kann die eingestellte Codepage mit `chcp` angezeigt werden (oder auch verändert werden), häufig bei uns *Codepage 850*. In UNIX kann das mit `cat /etc/default/locale` angezeigt werden, häufig bei uns *utf-8*.
 
 ## Makros
 
@@ -141,7 +141,7 @@ day = FRI;
 
 > **wochentag** wird als Aufzählungstyp bezeichnet
 >
-> **MON**, **TUE** ... sind die Elemente des Aufzählungstyps.
+> **MON**, **TUE** … sind die Elemente des Aufzählungstyps.
 >
 > **day** ist eine Variable des Aufzählungstyps.
 
@@ -160,7 +160,7 @@ enum {FALSE, TRUE};
 
 Damit sind im Folgenden die Ausdrücke TRUE und FALSE verfügbar und sicher verschieden. Mit einem Makro (\#define) könnte TRUE und FALSE auf die gleichen Werte definiert werden (zum Beispiel beide auf 0).
 
-Die Enum-Elemente sind immer vom Typ Integer (4 Bytes) und bekommen automatisch eine numerische Entsprechung. Der erste Wert  entspricht 0, der zweite 1 und so fort. Die Werte können auch kontrolliert gesetzt werden:
+Die Enum-Elemente sind immer vom Typ Integer (4 Bytes) und bekommen automatisch eine numerische Entsprechung. Der erste Wert entspricht 0, der zweite 1 und so fort. Die Werte können auch kontrolliert gesetzt werden:
 
 ```c
 enum {FALSE=3, TRUE}
@@ -178,7 +178,7 @@ Weitere Variable werden so definiert:
 enum wochentag day;
 ```
 
-Die Bezeichnung enum muss immer mit angeführt werden (auch wenn enum als Funktionsparameter verwendet werden ...).
+Die Bezeichnung enum muss immer mit angeführt werden (auch wenn enum als Funktionsparameter verwendet werden …).
 
 Bei vielfacher Verwendung kann ein typdef sinnvoll sein:
 

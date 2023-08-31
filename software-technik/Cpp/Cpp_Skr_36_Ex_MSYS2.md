@@ -1,12 +1,14 @@
+# Cpp_Skr_36_Ex_MSYS2
+
 In MSYS2 wird nicht nur gcc/g++ installiert sondern eine Vielzahl hilfreicher Entwicklertools.
 
 
 
 
 
-(https://www.youtube.com/watch?v=uyDBoogrHww)
+(<https://www.youtube.com/watch?v=uyDBoogrHww)>
 
-- Download MSYS2 https://www.msys2.org
+- Download MSYS2 <https://www.msys2.org>
 
 - Ausführen des Installers, Empfehlung: Installation nach `C:\msys64`
 
@@ -83,10 +85,9 @@ In MSYS2 wird nicht nur gcc/g++ installiert sondern eine Vielzahl hilfreicher En
 
 - VSCode Starten
 
-  https://www.youtube.com/watch?v=C6yxoXFLOAs
+  <https://www.youtube.com/watch?v=C6yxoXFLOAs>
 
   
-
 
 ## Update
 
@@ -97,8 +98,6 @@ pacman -Syuu
 ```
 
 solange bis die Meldung kommt "nothing to do".
-
-
 
 ## Reparatur
 

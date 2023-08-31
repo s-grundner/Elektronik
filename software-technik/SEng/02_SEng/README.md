@@ -9,7 +9,7 @@ Grundsätzlich:
 
 Voraussetzung: git-for-windows ist installiert
 
-- Erstellen eines lokalen Upload-Ordners (Annahme c:\\....\\FSST_Upload)
+- Erstellen eines lokalen Upload-Ordners (Annahme c:\\….\\FSST_Upload)
   ```
   mkdir c:\.....\FSST_Upload
   ```
@@ -57,6 +57,7 @@ Damit ist dieser Ordner so konfiguriert, dass in diesem Ordner nur mehr auf dem 
   ```
   git push origin XyzA
   ```
+
 ## Update der ReadMe.md Datei
 
 Dieser Ablauf kann mittels Skript **updateReadme.bat** erfolgen. Vor dem ersten Ausführen muss in diesem Skript das Benutzerkürzel eingetragen werden.

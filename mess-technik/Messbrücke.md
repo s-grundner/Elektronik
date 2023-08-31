@@ -1,5 +1,5 @@
 ---
-tags: [""]
+tags: ["", incomplete]
 aliases: ["Messbrücken", "Auto-Balancing-Bridge"]
 subject: ["mtrs"]
 source: ["Norbert Irnleitner", "Harald Salhofer"]
@@ -7,9 +7,13 @@ created: 31st March 2022
 ---
 
 # Messbrücke
+
 ## Vorteile einer Messbrücke
-...
+
+…
+
 ## Messbrücken 
+
 | No. | Messbrücke              | $U_{0}$ gespeist                                      | $I_{0}$ gespeist |   Brückenart   |
 |:---:| ----------------------- | ----------------------------------------------------- | ---------------- |:--------------:|
 |  a  | ![150](assets/mb_a.png) | $$U_{d}=+\frac{U_{0}}{4}\cdot\frac{\Delta R}{R_{0}}$$ |                  | Viertel-Brücke |
@@ -24,5 +28,5 @@ created: 31st March 2022
 ## Auto-Balancing-Bridge
 
 ---
-# Tags
-#incomplete 
+
+# Tags 

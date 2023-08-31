@@ -101,8 +101,8 @@ printf("%i\n", num);
 
 ## Fakultaet
 
-- Die Fakultät einer Zahl spielt in der Wahrscheinlichkeitsrechnung aber auch in Taylorreihen eine Rolle. Berechne die Fakultät einer ganzen Zahl:
-  n! = 1 * 2 * 3 * .... * n
+- Die Fakultät einer Zahl spielt in der Wahrscheinlichkeitsrechnung aber auch in Taylorreihen eine Rolle. Berechne die Fakultät einer ganzen Zahl:  
+  n! = 1 * 2 * 3 * …. * n
 - Erstellen Sie die Funktion **int fact(int)** in einer eigenen Datei fact.c und binde Sie diese über eine Header-Datei ein.
 
 ## Power
@@ -125,7 +125,6 @@ printf("%i\n", num);
   - Falls auch eine Teilung durch 400 ganzzahlig möglich ist, dann ist es ein Schaltjahr (2000 ok)
 
   Die Regeln sind in dieser Reihenfolge anzuwenden. Daher ist 2000 ein Schaltjahr.
-
 
 ## Kreisfläche
 

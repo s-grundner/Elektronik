@@ -56,7 +56,7 @@ public void paintComponent(Graphics g) {
 }
 ```
 
-Mit `super.paintComponent(g);`  werden Elemente aufgefrischt die vom System sind. mit `drawImage` wird ein Bild dargestellt:
+Mit `super.paintComponent(g);` werden Elemente aufgefrischt die vom System sind. mit `drawImage` wird ein Bild dargestellt:
 
 - an der Position x=10, y=11
 - das Bild wird Skaliert mit den folgenden beiden Parametern

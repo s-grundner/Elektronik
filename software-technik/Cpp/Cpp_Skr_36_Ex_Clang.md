@@ -1,6 +1,8 @@
-(https://www.youtube.com/watch?v=uyDBoogrHww)
+# Cpp_Skr_36_Ex_Clang
 
-- Download MSYS2 https://www.msys2.org
+(<https://www.youtube.com/watch?v=uyDBoogrHww)>
+
+- Download MSYS2 <https://www.msys2.org>
 
 - Ausführen des Installers, Empfehlung: Installation nach `C:\msys64`
 
@@ -63,7 +65,7 @@
 
 - VSCode Starten
 
-  https://www.youtube.com/watch?v=C6yxoXFLOAs
+  <https://www.youtube.com/watch?v=C6yxoXFLOAs>
 
   
 
@@ -79,10 +81,10 @@
 
 Precompiled Version:
 
-Windows snapshot builds -> Windows installer (64-bit)
-([Windows installer (64-bit)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe) [(.sig)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe.sig),  based on Git commit [6923b0a7](https://github.com/llvm/llvm-project/commit/6923b0a7) (28 August 2020).)
+Windows snapshot builds -> Windows installer (64-bit)  
+([Windows installer (64-bit)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe) [(.sig)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe.sig), based on Git commit [6923b0a7](https://github.com/llvm/llvm-project/commit/6923b0a7) (28 August 2020).)
 
-https://llvm.org/builds/
+<https://llvm.org/builds/>
 
 
 

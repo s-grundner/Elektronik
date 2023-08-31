@@ -16,7 +16,7 @@ Jeder Knoten hat maximal 2 Sub-knoten
 
 ### Binary Search Tree
 
-Jeder Knoten im Linken Teilbaum ist kleiner als seine Wurzel.
+Jeder Knoten im Linken Teilbaum ist kleiner als seine Wurzel.  
 Jeder Knoten im rechten Teilbaum ist größer als seine Wurzel.
 
 > [!example] 

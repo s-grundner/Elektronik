@@ -8,17 +8,17 @@ created: 18th August 2022
 
 # Allgemeines Gasgesetz
 
-Das Gesetz von Boyle-Mariotte und das Gesetz von Gay-Lussac können zur allgemeinen Gasgleichung Zusammengefasst werden.
+Das Gesetz von Boyle-Mariotte und das Gesetz von Gay-Lussac können zur allgemeinen Gasgleichung Zusammengefasst werden.  
 Das Allgemeine Gasgesetz besagt: $\dfrac{p\cdot V}{T}$ **ist konstant**
 
-Insbesondere wenn zwei Zustände eines Gases vor- nach einer Veränderung beschreiben werden, ist häufig die Schreibweise:
-$\dfrac{V_{1}\cdot p_{1}}{T_{1}} = \dfrac{V_{2}\cdot p_{2}}{T_{2}}$
-**Gesetz von Boyle und Mariotte:**
-$V\propto \dfrac{1}{p}$ 
+Insbesondere wenn zwei Zustände eines Gases vornach einer Veränderung beschreiben werden, ist häufig die Schreibweise:  
+$\dfrac{V_{1}\cdot p_{1}}{T_{1}} = \dfrac{V_{2}\cdot p_{2}}{T_{2}}$  
+**Gesetz von Boyle und Mariotte:**  
+$V\propto \dfrac{1}{p}$  
 $V_{1}\cdot p_{1}=V_{2}\cdot p_{2}$
 
-**Gesetz von Gay-Lussac:**
-$V\propto T$
+**Gesetz von Gay-Lussac:**  
+$V\propto T$  
 $\dfrac{V_{1}}{V_{2}} = \dfrac{T_{1}}{T_{2}}$
 
 # Universelle Gasgleichung
@@ -41,7 +41,6 @@ $$
 | Avogadro Konstante                            | $N_{A}$       | $\frac{1}{mol}$        |
 | allgemeine Gaskonstante                       | $R$           | $\frac{J}{mol\cdot K}$ |
 | Boltzmann Konstante                           | $k_{B}$       | $\frac{J}{K}$          |
-
 
 # Ideales Gas und reales Gas
 

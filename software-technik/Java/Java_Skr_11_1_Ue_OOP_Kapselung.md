@@ -15,15 +15,15 @@ created: 29th November 2022
 
 ## Punkt (111, 008w)
 
-Erstellen Sie eine Klasse **Punkt** (grafisches Element). ...
+Erstellen Sie eine Klasse **Punkt** (grafisches Element)….
 
 ## Schulklasse (112, 009w)
 
 - Erstellen Sie die Klasse **Schueler** mit den Attributen **name** und **gebDat**.
-- Erstellen Sie einen Konstruktor, Getter- und Setter-Methoden und eine **toString()** Methode.
+- Erstellen Sie einen Konstruktor, Getterund Setter-Methoden und eine **toString()** Methode.
 
 - Erstellen Sie die Klasse **Jahrgang** mit den Attributen **name** und **schueler**.
-- Erstellen Sie einen Konstruktor, Getter- und Setter-Methoden, eine **toString()** Methode, eine **addSchueler()** und eine **delSchueler()**-Methode.
+- Erstellen Sie einen Konstruktor, Getterund Setter-Methoden, eine **toString()** Methode, eine **addSchueler()** und eine **delSchueler()**-Methode.
 
 ## Rechteck (113, 006w)
 

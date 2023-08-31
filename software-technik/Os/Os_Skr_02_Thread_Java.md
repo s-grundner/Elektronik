@@ -2,12 +2,12 @@
 
 Vielfach sollen mehrere Berechnungen parallel/gleichzeitig/quasiparallel Erfolgen. Mit Nebenläufigkeit bezeichnet man die Fähigkeit eines Systems, zwei oder mehr Vorgänge gleichzeitig oder quasi-gleichzeitig ausführen zu können. 
 
-- **Threads durch Java-Sprachkonstrukte**
+- **Threads durch Java-Sprachkonstrukte**  
   In Java sind **Threads direkt in die Sprache** integriert. 
-- **Ein Prozess kann mehrere Threads enthalten**
+- **Ein Prozess kann mehrere Threads enthalten**  
   Ein Prozess enthält zumindest einen aber eventuell mehrere nebenläufige Threads (Parallel oder Quasiparallel).
 
-- **Threads eines Prozesses haben einen gemeinsamen Adressraum**
+- **Threads eines Prozesses haben einen gemeinsamen Adressraum**  
   Sie können auf dieselben Variablen zugreifen
 
 Wichtige Anwendung: GUI-Anwendungen sollen möglichst akkurat auf Benutzeranwendungen reagieren aber gleichzeitig rechenintensive Teile effizient ausführen. Das Bedienen der GUI-Elemente und die verborgenen Rechnungen sind in nebenläufigen Threads zu führen.
@@ -19,7 +19,7 @@ Threads werden in Java durch die
 
 In beiden Fällen wird der nebenläufige Thread-Code, in der überlagerten **Methode run()** implementiert. 
 
-**Kommunikation** zwischen den Threads (Datenaustausch ...) kann mittels **Instanz- oder Klassenvariablen** oder durch Aufruf von **Methoden** erfolgen. 
+**Kommunikation** zwischen den Threads (Datenaustausch …) kann mittels **Instanzoder Klassenvariablen** oder durch Aufruf von **Methoden** erfolgen. 
 
 Zur **Synchronisation** stellt Java das aus der Betriebssystemtheorie bekannte Konzept des **Monitors** zur Verfügung, das es erlaubt, **kritische** **Abschnitte** innerhalb von Programmblöcken und **Methoden** zu kapseln und so den Zugriff auf gemeinsam benutzte Daten zu koordinieren. 
 
@@ -166,16 +166,16 @@ Das gleiche Verhalten ist notwendig für eine Unterbrechung mittels `join()` ode
 
 ## Funktionen (703)
 
-`public final boolean isAlive()`  prüft ob ein Thread noch läuft.
+`public final boolean isAlive()` prüft ob ein Thread noch läuft.
 
 ## Fragen
 
 - Unterschied Thread/Prozess
-- Wird eine Berechnung durch das Aufteilen auf mehrere Threads schneller (wodurch/warum/wann/wann nicht...)?
+- Wird eine Berechnung durch das Aufteilen auf mehrere Threads schneller (wodurch/warum/wann/wann nicht…)?
 - Unterschied Thread/Runnable
 - Wie kann ein Thread von außen beendet werden?
 
 ## Referenzen
 
-- Java->Insel
-  http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_14_001.htm#mj8c6f381221d805dd6fbe480731ac0c58
+- Java->Insel  
+  <http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_14_001.htm#mj8c6f381221d805dd6fbe480731ac0c58>

@@ -12,7 +12,7 @@ created: 29th November 2022
 
    
 
-3. Es sollen 100 Zufallszahlen abgespeichert werden. Jede der Zufallszahlen soll einen ganzzahligen Wertebereich 0 - 50 haben.
+3. Es sollen 100 Zufallszahlen abgespeichert werden. Jede der Zufallszahlen soll einen ganzzahligen Wertebereich 0 - 50 haben.  
    Tipp: `Math.random()` liefert eine double-Zufallszahl zwischen 0.0 und 1.0
 
    
@@ -49,15 +49,15 @@ created: 29th November 2022
 
    ​
 
-12. Sortiere ein Array aufsteigend/abfallend
+1. Sortiere ein Array aufsteigend/abfallend
 
 
 
-13. Drehe ein Array um
+2. Drehe ein Array um
 
    
 
-### Beispiele
+## Beispiele
 
 1. Es soll ein Array angelegt werde mit 5 Vornamen. Anschließend soll der Inhalt des Arrays in der Konsole ausgegeben werden und die "Adresse" unter der das Array abgelegt wird.
 
@@ -113,7 +113,7 @@ created: 29th November 2022
    ```
    Array -Variable sind Referenzdatentypen. Das bedeutet die Variable *name* und *name2* beinhalten Adressen auf die Arrays. Mit der Zuweisung *name2 = name* wird die Adresse des *name*-Arrays in die *name2*-Variable kopiert. Damit zeigen beide Variable auf das idente Array . Würde eines der beiden Arrays verändert, wird diese Änderung auch über die zweite Variable angezeigt.
 
-3. Es sollen 100 Zufallszahlen abgespeichert werden. Jede der Zufallszahlen soll einen ganzzahligen Wertebereich 0 - 50 haben.
+3. Es sollen 100 Zufallszahlen abgespeichert werden. Jede der Zufallszahlen soll einen ganzzahligen Wertebereich 0 - 50 haben.  
    Tipp: `Math.random()` liefert eine double-Zufallszahl zwischen 0.0 und 1.0
 
    L1: 
@@ -158,7 +158,7 @@ created: 29th November 2022
    System.out.println("3 wurde gefunden an Position: ", Arrays.binarySearch(arr, 3));
    ```
 
-5. Ermittle die größte Zahl aus einem Zufallszahlen-Array 
+5. Ermittle die größte Zahl aus einem Zufallszahlen-Array  
    L1:
 
    ```java
@@ -256,7 +256,7 @@ created: 29th November 2022
     ```
 
 
-11. Füge ein Element **99999** an Position **insPos** in ein Array ein (das vorher letzte Element geht verloren).
+11. Füge ein Element **99999** an Position **insPos** in ein Array ein (das vorher letzte Element geht verloren).  
     L:
 
     ```java
@@ -304,7 +304,7 @@ created: 29th November 2022
       Arrays.sort(arr);	// arr wird aufsteigend sortiert (absteigend aufwendiger)
     ```
 
-13.  Drehe ein Array um (1tes Element an letzter Stelle ...)
+13. Drehe ein Array um (1tes Element an letzter Stelle …)
 
     Bsp.: [0, 1, 2, 3] --> [3, 2, 1, 0]
 

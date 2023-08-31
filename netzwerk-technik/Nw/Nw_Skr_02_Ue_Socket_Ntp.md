@@ -1,5 +1,3 @@
-
-
 # Network Time Protocol (NTP)
 
 Das NTP kann wesentlich mehr als hier besprochen. Hier werden nur kleine Teile als Auszug präsentiert.
@@ -9,7 +7,7 @@ Das NTP liegt auf dem UDP-Layer. Der Port für NTP ist 123. Der Ablauf den wir v
 - Senden einer NTP-Client-Nachricht an einen NTP-Server
 - Empfangen einer NTP-Server-Nachricht vom NTP-Server
 
-In NTP gibt es nicht nur Client- und Server-Nachrichten wir verwenden allerdings nur diese. Vom NTP-Server erhalten wir (in der erwähnten Server-Nachricht) einen Sekunden-Zeitstempel (als Zeitstempel wird in der Informatik ein eindeutiger Zeitpunkt bezeichnet) gerechnet vom 1.1.1900.
+In NTP gibt es nicht nur Clientund Server-Nachrichten wir verwenden allerdings nur diese. Vom NTP-Server erhalten wir (in der erwähnten Server-Nachricht) einen Sekunden-Zeitstempel (als Zeitstempel wird in der Informatik ein eindeutiger Zeitpunkt bezeichnet) gerechnet vom 1.1.1900.
 
 Eine NTP-Nachricht ist so aufgebaut:
 
@@ -49,13 +47,13 @@ Darin:
 - im Element *li_vn_mode* ist der Mode 3 (Client) wenn wir als Client an den NTP-Server senden
 - im Element *li_vn_mode* ist der Mode 4 (Server) wenn der NTP-Server retourniert
 - im Element *li_vn_mode* ist die Version 4 (Version des NTP-Protokolls)
-- txTm_s vom NTP-Server gibt die Anzahl der Sekunden zu der die Nachricht den NTP-Server verläßt seit dem 1.1.1900. In der Norm (RFC...) ist weiter definiert, dass der Abstand zwischen 1.1.1900 und 1.1.1970 *2.208.988.800 Sekunden* beträgt. Der 1.1.1970 ist der Beginn der UNIX-Zeitrechnung, bezogen auf diesen Tag sind viele Zeit/Datum-Funktionen in C/C++.
+- txTm_s vom NTP-Server gibt die Anzahl der Sekunden zu der die Nachricht den NTP-Server verläßt seit dem 1.1.1900. In der Norm (RFC…) ist weiter definiert, dass der Abstand zwischen 1.1.1900 und 1.1.1970 *2.208.988.800 Sekunden* beträgt. Der 1.1.1970 ist der Beginn der UNIX-Zeitrechnung, bezogen auf diesen Tag sind viele Zeit/Datum-Funktionen in C/C++.
 
-### Umrechnung NTP-Zeit -> unsere Zeit
+## Umrechnung NTP-Zeit -> unsere Zeit
 
 Hier wir gezeigt wie die empfangene Sekunden-Zeit (Bruchteile werden vernachlässigt) umgerechnet wird.
 
-- Die Zeit wird aus dem Netzwerk empfangen. Dort gilt die *Network*-Byte Order. Je nach [Betriebssystem](../../software-technik/Os/Operating%20Systems.md) kann die Byte-Reihenfolge gleich oder anders sein. Die Funktion **ntohl** rechnet auf jedem System korrekt um (**N**etwork**T**o**H**ost  **L**ong).
+- Die Zeit wird aus dem Netzwerk empfangen. Dort gilt die *Network*-Byte Order. Je nach [Betriebssystem](../../software-technik/Os/Operating%20Systems.md) kann die Byte-Reihenfolge gleich oder anders sein. Die Funktion **ntohl** rechnet auf jedem System korrekt um (**N**etwork**T**o**H**ost **L**ong).
 - Diese 1900-Zeit wird auf 1970-Zeit umgerechnet
 - Mit ctime wird die Zeitzone und die Formatierung in einen String erledigt
 
@@ -71,9 +69,9 @@ time_t utcZeit = (time_t)(packet.txTm_s - 2208988800ull); // ull = unsigned long
 printf( "Time: %s", ctime( (const time_t*) &utcZeit ) );
 ```
 
-### UDP Übertragung
+## UDP Übertragung
 
-Hier für Windows (Linux, Treiber WSA... entfallen und closesocket->close)
+Hier für Windows (Linux, Treiber WSA… entfallen und closesocket->close)
 
 ```c++
 //Windows-Treiber laden
@@ -98,7 +96,7 @@ closesocket(s);
 WSACleanup();
 ```
 
-### Listing (C++486)
+## Listing (C++486)
 
 ```c++
 #include <unistd.h>     // uint8 ...
@@ -211,12 +209,12 @@ int main( int argc, char* argv[ ] ) {
 }
 ```
 
-### Server
+## Server
 
-Es gibt eine Vielzahl an Servern, etwa unter:
-http://www.metrologie.at/messtechnische-fachbereiche/zeit/zeitsynchronisation-ueber-internet/
+Es gibt eine Vielzahl an Servern, etwa unter:  
+<http://www.metrologie.at/messtechnische-fachbereiche/zeit/zeitsynchronisation-ueber-internet/>
 
-### Qt (485)
+## Qt (485)
 
 ```c++
 #include <QUdpSocket>
@@ -242,7 +240,7 @@ void MainWindow::readyRead() {
 }
 ```
 
-## NTP-Uhr (487)
+# NTP-Uhr (487)
 
 Erstellen Sie ein Programm das eine graphische Uhr darstellt. Beispielhaft:
 
@@ -253,7 +251,7 @@ Erstellen Sie ein Programm das eine graphische Uhr darstellt. Beispielhaft:
 
 Tipps:
 
-- Darstellung eines Bildes (PNG...) auf einem Widget:
+- Darstellung eines Bildes (PNG…) auf einem Widget:
 
   ```c++
   // QPainter p(this);
@@ -278,13 +276,13 @@ Tipps:
   p.translate(-100, -100);
   ```
 
-## Referenzen
+# Referenzen
 
-- RFC-NTP
-  https://tools.ietf.org/pdf/rfc5905.pdf
-- Programm zu einem großen Teil von dieser Quelle:
-  https://lettier.github.io/posts/2016-04-26-lets-make-a-ntp-client-in-c.html 
-- Österreichische NTP-Server
-  http://www.metrologie.at/messtechnische-fachbereiche/zeit/zeitsynchronisation-ueber-internet/
-- NTP-Debugging
-  https://weberblog.net/packet-capture-network-time-protocol-ntp/
+- RFC-NTP  
+  <https://tools.ietf.org/pdf/rfc5905.pdf>
+- Programm zu einem großen Teil von dieser Quelle:  
+  <https://lettier.github.io/posts/2016-04-26-lets-make-a-ntp-client-in-c.html> 
+- Österreichische NTP-Server  
+  <http://www.metrologie.at/messtechnische-fachbereiche/zeit/zeitsynchronisation-ueber-internet/>
+- NTP-Debugging  
+  <https://weberblog.net/packet-capture-network-time-protocol-ntp/>

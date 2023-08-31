@@ -100,7 +100,7 @@ const char* func() {
 
 Durch die static-Definition wird die Variable behalten und nicht am Ende der Funktion wieder gelöscht. Sie wird ja für den evtl. nächsten Aufruf der Funktion behalten.
 
-Vorteil: sehr einfache schnelle Lösung.
+Vorteil: sehr einfache schnelle Lösung.  
 Nachteil: Maximale Größe des Felds wird in der Funktion festgelegt. Die Funktion kann nur für ein Feld verwendet werden, Sollen weitere Felder erstellt werden, dann wird immer der gleiche Speicher benutzt (Daten werden überschrieben).
 
 ### b) Zielfeld mitgeben
@@ -124,7 +124,7 @@ if (func(x, 50) != NULL) {
 }
 ```
 
-so machen's viele Standard-Funktionen.
+so machen's viele Standard-Funktionen.  
 Vorteil: Größe des Felds wird außerhalb der Funktion festgelegt.
 
 ### c) Speicher reservieren
@@ -150,7 +150,7 @@ if (x != NULL) {
 }
 ```
 
-Vorteil: Größe des Felds muss vorher nicht bekannt sein.
+Vorteil: Größe des Felds muss vorher nicht bekannt sein.  
 Nachteil: Speicher muss wieder freigegeben werden. Ansonsten Gefahr von Speicherlecks.
 
 ## Verteilung auf mehrere Dateien
@@ -253,12 +253,12 @@ void funct(void) {      // Definition der Funktion
 
 Vorgangsweise für die Erstellung solcher Projekte:
 
--  Implementierung der Funktionen in der c-Datei schreiben
--  Überlegen, was von dieser Implementierung von aussen sichtbar sein soll.
--  Das kommt als Deklaration (Prototyp) in die h-Datei.
--  Für alles in der c-Datei, das woanders herkommt, gibt es einen `#include`, der die notwendige h-Datei einbindet.
--  Werden in der h-Datei Dinge von woanders benutzt, dann enthält die h-Datei einen entsprechenden `#include`.
--  Jede Datei, sowohl h-Datei als auch c-Datei ist in sich vollständig. Werden dort Dinge benutzt, dann müssen diese vor der Verwendung deklariert worden sein. Wie und wo diese Deklaration herkommt, ist dabei zweitrangig. Es kann sein, dass die Deklaration vor der Verwendung steht, es kann aber auch sein, dass die Deklaration über einen weiteren Include mit aufgenommen wird.
+- Implementierung der Funktionen in der c-Datei schreiben
+- Überlegen, was von dieser Implementierung von aussen sichtbar sein soll.
+- Das kommt als Deklaration (Prototyp) in die h-Datei.
+- Für alles in der c-Datei, das woanders herkommt, gibt es einen `#include`, der die notwendige h-Datei einbindet.
+- Werden in der h-Datei Dinge von woanders benutzt, dann enthält die h-Datei einen entsprechenden `#include`.
+- Jede Datei, sowohl h-Datei als auch c-Datei ist in sich vollständig. Werden dort Dinge benutzt, dann müssen diese vor der Verwendung deklariert worden sein. Wie und wo diese Deklaration herkommt, ist dabei zweitrangig. Es kann sein, dass die Deklaration vor der Verwendung steht, es kann aber auch sein, dass die Deklaration über einen weiteren Include mit aufgenommen wird.
 
 
 Sind von Modulen nur Objekt-Dateien verfügbar (siehe Standard-Bibliotheken), dann werden h-Dateien benötigt um die Schnittstellen in diesen Modulen offenzulegen.

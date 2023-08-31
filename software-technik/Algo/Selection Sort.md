@@ -12,7 +12,7 @@ Algorithmus zum aufsteigenden Sortieren:
 - Vertauschen des ersten Feld-Elements mit dem gefundenen kleinsten Element.
 - Wiederum Suchen des kleinsten Elements im Feld ohne das erste Element
 - Vertauschen des ersten Elements dieser neuen Menge (ohne erstem Element) mit dem gefundenen kleinsten Element (zweitkleinstes Element).
-- ...
+- …
 
 > [!example] Beispiel:
 >
@@ -31,7 +31,7 @@ Kennzeichen:
 - Benötigt keinen weiteren Speicherplatz (nur zum Vertauschen, ist von der Feldgröße unabhängig).
 - Jedes Feld wir maximal einmal vertauscht.
 - Laufzeit $O(n^2)$: das Feld wird in n-Schritten nach dem kleinsten Feld durchsucht und das wird n-mal gemacht.
-- Wenn sich an der ersten Stelle des Feldes der größte Wert befindet, dann müssen sämtliche kleineren Werte "vorbeigetauscht" werden.
+- Wenn sich an der ersten Stelle des Feldes der größte Wert befindet, dann müssen sämtliche kleineren Werte "vorbeigetauscht" werden.  
   Verbesserung: abwechselnd Maximum und Minimum suchen und an oberes beziehungsweise unteres Ende stellen.
 - Schon fertig sortierte Felder werden nicht erkannt.
 - Internes Sortieren, es werden Elemente an beliebigen Positionen miteinander verglichen.

@@ -7,6 +7,7 @@ created: 21st March 2022
 ---
 
 # AVR ATmega644p
+
 ## Memory
 
 | Storage Medium | Size  |
@@ -29,27 +30,29 @@ const int mydata[] PROGMEM = ...
 
 ## Assembly
 
-> [!example] 
-> ![AVR_Assembly1](assets/AVR_Assembly1.png)
-> Vor dem Start des Programms wurde das gesamte interne Datenmemory (insklusive der Register R0-R31) auf 0x5A initialisiert. Indirektes Register X=R27:R26
-> **Was steht nach der Ausführung des Programms (also von C:0x002B-letztem Befehl) auf folgender Adressen:**
-> D:0x0029 : `0x5A ` 
-> D:0x002A : `0x76 ` 
+> [!example]  
+> ![AVR_Assembly1](assets/AVR_Assembly1.png)  
+> Vor dem Start des Programms wurde das gesamte interne Datenmemory (insklusive der Register R0-R31) auf 0x5A initialisiert. Indirektes Register X=R27:R26  
+> **Was steht nach der Ausführung des Programms (also von C:0x002B-letztem Befehl) auf folgender Adressen:**  
+> D:0x0029 : `0x5A `  
+> D:0x002A : `0x76 `  
 > D:0x002B : `0x76`  
-> D:0x002C : `0x5A`
+> D:0x002C : `0x5A`  
 > R17 : `0x2D`  
 > R19 : `0x5A`  
 > R20 : `0x76`  
-> R26 : `0x2C ` 
+> R26 : `0x2C `  
 > R27 : `0x00`
 
 ## AVR-lib Basics
+
 - Bit setzen: `REG = REG | (1<<REG[n])`
 - Bit löschen: `REG = REG & ~(1<<REG[n])`
 - Bit toggeln: `REG = REG ^ (1<<REG[n])`
 - Bit abfragen: `BOOL = REG & (1<<REG[n])`
 
 ## PIN, PORT, DDR
+
 - `PORT` Register zum Beschreiben der Pin Ausgänge
 - `PIN` Register zum Abfragen des digitalen Wertes am Pin
 - `DDR` Register: `0 -> input`, `1 -> output`
@@ -58,11 +61,11 @@ const int mydata[] PROGMEM = ...
 
 ### Examples
 
-> [!info]  Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
+> [!info] Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
 > - Bei 1 mW/cm² misst man 0,1 V
 > - bei 10 mW/cm² 4 V.
 > 
-> Schreib eine Funktion `char check_sensor(void)`:
+> Schreib eine Funktion `char check_sensor(void)`:  
 > Returncode:
 > - -1 bei Energiedichte < als 3mW/cm²
 > - 0 Energiedichte zwischen 3 und 7 mW/cm²
@@ -207,6 +210,7 @@ int main()
 ## Protokolle
 
 ## [{MOC} Schnittstellen]({MOC}%20Schnittstellen.md)
+
 - [I2C](I2C.md)/[I2C](I2C.md)
 - [USART](USART.md)
 
@@ -215,6 +219,7 @@ int main()
 - [Ringbuffer](Ringbuffer.md)
 
 # Quellen
+
 - [AVR Tips and API](https://onlinedocs.microchip.com/pr/GUID-78362176-487F-41B9-95C7-B478A9A186EB-en-US-2/index.html?GUID-E8E50411-4A61-4C7B-A8FD-7E07E93F6DDE)
 - [Instruction_Set_8bit](datasheets/Instruction_Set_8bit.pdf)
 - [at644p](datasheets/at644p.pdf)

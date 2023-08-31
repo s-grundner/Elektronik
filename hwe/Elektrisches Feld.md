@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [MS-2JG]
 aliases: ["E-Feld", "E-Feldstärke", "Elektrische Feldstärke"]
 subject: ["hwe"]
 source: ["Michael Offenhuber"]
@@ -10,9 +10,7 @@ created: 28th November 2022
 
 - Ein Elektrisches Feld wird durhc eine stehende Ladung erzeugt
 - ![e-field](assets/e-field.png)
-- 
+
 # Elektrische Feldstärke
 
 # Quellen
-
-#MS-2JG

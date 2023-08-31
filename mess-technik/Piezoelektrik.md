@@ -7,6 +7,7 @@ created: 7th June 2022
 ---
 
 # Piezoelektrik
+
 > [!example] Ein [Quarz](../hwe/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
 > 
 > $$
@@ -26,9 +27,10 @@ created: 7th June 2022
 > $$
 
 ## Piezogeber
+
 ![650](assets/piezo_ions.png)
 
-In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.
+In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.  
 | Input       | Output |
 | ----------- | ------ |
 | Kraft/Druck | Spannung       |
@@ -38,7 +40,8 @@ In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei
 ![Piezo_effects.png](Piezo_effects.png)
 
 ## Piezoresistiver Geber
-Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus Silizium herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.
+
+Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus Silizium herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
 Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
 
 ![375](piezoresistivergeber.png)
@@ -47,17 +50,20 @@ Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehrer
  - Es muss Referenzdruck herrschen
 
 ## Piezoelektrischer Effekt
+
 >[!info] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische Ladungen aus.
 
 
-Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen
-Ladung die zugrunde liegende Deformation zu bestimmen.
-Der Effekt ist nur von der Längenänderung nicht von Geschwindigkeit
+Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  
+Ladung die zugrunde liegende Deformation zu bestimmen.  
+Der Effekt ist nur von der Längenänderung nicht von Geschwindigkeit  
 bzw. Beschleunigung der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
-Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.
+
+Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.  
 Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
 # Tags 
+
 [Quarz](../hwe/Oszillatoren/Quarzoszillator.md)

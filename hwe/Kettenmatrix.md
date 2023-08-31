@@ -5,6 +5,7 @@ subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 created: 14th November 2022
 ---
+
 # Ketten[matrix](../mathe/mathe%20(4)/Matrixrechnung.md)
 
 $$
@@ -32,7 +33,7 @@ $$
 
 # [Impedanz](Impedanz.md)[matrix](../mathe/mathe%20(4)/Matrixrechnung.md)
 
-$\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$
+$\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$  
 $\underline{U}_{2}= \underline{I}_{1}\cdot\underline{Z}_{21}+\underline{I}_{2}\cdot\underline{Z}_{22}$
 
 Als [Matrix](../mathe/mathe%20(4)/Matrixrechnung.md): (Zeile $\cdot$ Spalte)
@@ -63,10 +64,9 @@ $$
 | $\underline{Z}_{21}$ | Leerlauf Übertragungswiderstand |
 | $\underline{Z}_{22}$ | Leerlauf Ausgangswiderstand     | 
 
-
 # Admittanz[matrix](../mathe/mathe%20(4)/Matrixrechnung.md)
 
-$\underline{I}_{1}= \underline{U}_{1}\cdot\underline{Y}_{11}+\underline{U}_{2}\cdot\underline{Y}_{12}$
+$\underline{I}_{1}= \underline{U}_{1}\cdot\underline{Y}_{11}+\underline{U}_{2}\cdot\underline{Y}_{12}$  
 $\underline{I}_{2}= \underline{U}_{1}\cdot\underline{Y}_{21}+\underline{U}_{2}\cdot\underline{Y}_{22}$
 
 Als [Matrix](../mathe/mathe%20(4)/Matrixrechnung.md): (Zeile $\cdot$ Spalte)

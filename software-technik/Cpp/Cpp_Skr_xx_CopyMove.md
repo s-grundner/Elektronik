@@ -1,4 +1,4 @@
-# 6 Copy - Move - ...
+# 6 Copy - Move - …
 
 Ganz allgemein: viele der hier dargestellten Dinge hängen stark von der Compiler-Version ab.
 
@@ -418,7 +418,7 @@ int main() {
 
 ## weak_ptr
 
-*weak_ptr*-Objekte sind für Objekte gedacht, die bereits von *shared_ptr*-Objekten verwaltet
+*weak_ptr*-Objekte sind für Objekte gedacht, die bereits von *shared_ptr*-Objekten verwaltet  
 werden. Der Konstruktor:
 
 ```c++
@@ -448,14 +448,14 @@ int main() {
 }
 ```
 
-Der Destruktor wird für die Objekte *a1 und *a2 aufgerufen – es gibt kein Problem.
-Wenn aber die ***-markierte Zeile durch `shared_ptr<ZyklStruktur> nachbar;` ersetzt würde,
-blieben sie, wenn *main()* nicht beendet würde, unerreichbar auf dem Heap! *weak_ptr*
+Der Destruktor wird für die Objekte *a1 und *a2 aufgerufen – es gibt kein Problem.  
+Wenn aber die ***-markierte Zeile durch `shared_ptr<ZyklStruktur> nachbar;` ersetzt würde,  
+blieben sie, wenn *main()* nicht beendet würde, unerreichbar auf dem Heap! *weak_ptr*  
 besitzt die folgenden Methoden:
 
 - *long use_count()* gibt *sptr.use_count()* zurück, wobei sptr das bei der Konstruktion verwendete *shared_ptr*-Objekt ist. Falls *sptr == NULL* ist, wird 0 zurückgegeben.
 - *bool expired()* gibt *use_count() == 0* zurück.
-- *shared_ptr<T> lock()* gibt das zugeordnete *shared_ptr*-Objekt zurück, falls vorhanden,
+- *shared_ptr<T> lock()* gibt das zugeordnete *shared_ptr*-Objekt zurück, falls vorhanden,  
   andernfalls *shared_ptr()*.
 
 Wichtig: wenn auf einen *shared_ptr* nur mehr ein *weak_ptr* zeigt wird die Ressource zerstört.
@@ -481,12 +481,12 @@ public:
 
 - Das einzige Member-Attribut ist der einfache Zeiger *ptr*.
 - Der Konstruktor initialisiert diesen Zeiger definiert auf Null. Es kann somit keinen undefinierten Zustand geben. Das Schlüsselwort *explicit* unterbindet eine implizite Typumwandlung. Wird diese mit einem *auto_ptr* versucht, wird ein Fehler ausgelöst.
-- Der Destruktor stellt sicher, dass  das Obekt auf das der Zeiger zeigt gelöscht wird, wenn der Sichtbarkeitsbereich des Zeigers verlassen wird. Es kann kein unreferenziertes Objekt übrig bleiben.
+- Der Destruktor stellt sicher, dass das Obekt auf das der Zeiger zeigt gelöscht wird, wenn der Sichtbarkeitsbereich des Zeigers verlassen wird. Es kann kein unreferenziertes Objekt übrig bleiben.
 - Mit der Operator-Überladungen kann ein *auto_ptr* gleich wie ein Standard-Zeiger verwendet werden.
 
 Wird ein Smart-Pointer auf diese Weise implementiert gibt es auch Nachteile:
 
--  Es können nicht zwei Zeiger auf ein Objekt zeigen, das *Löschen* eines der Zeiger würde ein Zerstören des Objekts zur Folge haben.
+- Es können nicht zwei Zeiger auf ein Objekt zeigen, das *Löschen* eines der Zeiger würde ein Zerstören des Objekts zur Folge haben.
 - Dadurch kann ein Objekt auf dem so ein Zeiger zeigt nicht aus einer Funktion zurückgegeben werden. Dabei würde durch die Zerstörung des lokalen Zeigers das Objekt zerstört.
 
 Gerade für die Verwendung von STL-Containern sind diese Nachteile gravierend, werden dort doch Elemente kopiert (doppelte Verwendung von Objekten).
@@ -499,14 +499,14 @@ Smart Pointer verwalten ihre Ressourcen nach dem *RAII* Idiom. **RAII** = **R**e
 
 ## Referenz
 
-- Einfache Einführung
+- Einfache Einführung  
   [<https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Speicherverwaltung/_Smart_Pointer>](<https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Speicherverwaltung/_Smart_Pointer>)
 
-- Übersicht
+- Übersicht  
   [<https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Speicherverwaltung/_Zusammenfassung>](<https://de.wikibooks.org/wiki/C%2B%2B-Programmierung/_Speicherverwaltung/_Zusammenfassung>)
   
-- Schöne Einführung
-  https://www.grimm-jaud.de/index.php/blog/std-unique-ptr
+- Schöne Einführung  
+  <https://www.grimm-jaud.de/index.php/blog/std-unique-ptr>
   
-  https://www.grimm-jaud.de/index.php/blog/std-shared-ptr
+  <https://www.grimm-jaud.de/index.php/blog/std-shared-ptr>
 

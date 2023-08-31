@@ -22,10 +22,10 @@ void quick_sort(int* array, int left, int right) {
 }
 ```
 
-durch `quick_sort(arr, 0, n-1);`  wird das n-Elemente große Feld arr sortiert. Die Funktion `partition(int* array, int l, int r)`  liefert einen Teilungspunkt im Feld und ordnet das Feld array dabei so um, sodass gilt:
+durch `quick_sort(arr, 0, n-1);` wird das n-Elemente große Feld arr sortiert. Die Funktion `partition(int* array, int l, int r)` liefert einen Teilungspunkt im Feld und ordnet das Feld array dabei so um, sodass gilt:
 
--  array[left] .. array[p-1] sind kleiner als array[p]
--  array[p+1] .. array[right] sind größer als array[p]
+- array[left] .. array[p-1] sind kleiner als array[p]
+- array[p+1] .. array[right] sind größer als array[p]
 
  Wie gut der Algorithmus funktioniert hängt sehr stark von der partition-Funktion ab. Eine mögliche (einfache) Implementierung wird im Folgenden dargestellt:
 
@@ -161,4 +161,4 @@ für numerische Integer-Felder. Im Funktionsaufruf:
 # Referenzen
 
 - C-Bibliotheksfunktion qsort:
-	- https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm
+	- <https://www.tutorialspoint.com/c_standard_library/c_function_qsort.htm>

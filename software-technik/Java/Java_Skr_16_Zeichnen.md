@@ -42,7 +42,7 @@ public class Gfx extends JFrame {
 
 Ein Panel wird in einem Fenster erstellt und angezeigt. Mit EXIT_ON_CLOSE wird eingestellt was passieren soll wenn das Fenster-Schließen-X gedrückt wird.
 
-Eine Zeichnung muss bei jeder Veränderung der Oberfläche (einfügen von Elementen, Verändern der Fenstergröße ...) neu gezeichnet werden. Dafür wird für ein JFrame (für JPanel paintComponent()) automatisch die paint-Methode aufgerufen. Damit die eigenen Darstellungen dabei ebenfalls neu dargestellt werden, muss die paint-Methode überladen werden:
+Eine Zeichnung muss bei jeder Veränderung der Oberfläche (einfügen von Elementen, Verändern der Fenstergröße …) neu gezeichnet werden. Dafür wird für ein JFrame (für JPanel paintComponent()) automatisch die paint-Methode aufgerufen. Damit die eigenen Darstellungen dabei ebenfalls neu dargestellt werden, muss die paint-Methode überladen werden:
 
 ```java
 @Override
@@ -56,12 +56,13 @@ public void paint(Graphics g){
 
 ## Linien
 
-Um etwa die Linienstärke verändern zu können muss eine Linie über ein 2D-Objekt gezeichnet werden. Dafür wird obiges `Graphics g`  Element in ein Graphics2D gecastet:
+Um etwa die Linienstärke verändern zu können muss eine Linie über ein 2D-Objekt gezeichnet werden. Dafür wird obiges `Graphics g` Element in ein Graphics2D gecastet:
 
 ```java
 Graphics2D g2d = (Graphics2D)g;				// g ist Graphics von Oben
 g2d.drawLine(x1, y1, x2, y2);				
 ```
+
 ## Rechtecke
 
 ```java

@@ -86,10 +86,10 @@ Spielregeln:
 
 - verfügbar sind 21 Hölzchen, es spielen Spieler1 + Spieler2
 - Spieler1 beginnt, das Programm fragt: "Spieler1: "
-- der Spieler gibt ein wieviele Hölzchen er von den verfügbaren Hölzern nimmt (1,2 oder 3), dadurch wird die Anzahl der Hölzer reduziert und es erfolgt die Ausgabe:
+- der Spieler gibt ein wieviele Hölzchen er von den verfügbaren Hölzern nimmt (1,2 oder 3), dadurch wird die Anzahl der Hölzer reduziert und es erfolgt die Ausgabe:  
   "Anzahl der Hölzer: xx"
 - der nächste Spieler ist dran, das Programm fragt: "Spieler2:"
-- ...
+- …
 - wenn einer der beiden Spieler die Hölzer auf 0 reduziert ist er der Gewinner. Ausgabe: "Spieler x hat gewonnen, Gratulation"
 - entnimmt ein Spieler weniger als 1 oder mehr als 3 Hölzer (oder mehr als verbliebene Hölzer), wird die Frage wiederholt.
 
@@ -151,7 +151,7 @@ Geben Sie ein Zeichen ein: (
 ```
 
 - Fehlerprüfungen sind nicht notwendig (Eingabe von mehr als einem Zeichen)
-- Mit Zeichen kann "gerechnet" werden:    `zeichen > 'a'` oder `zeichen <= 'z'` oder `zeichen++`
+- Mit Zeichen kann "gerechnet" werden: `zeichen > 'a'` oder `zeichen <= 'z'` oder `zeichen++`
 
 ## Wort Groß/Klein
 
@@ -170,7 +170,7 @@ JAMESBOND007
 
 - Fehlerprüfungen sind nicht notwendig
 
-- Mit Zeichen kann "gerechnet" werden:    `zeichen > 'a'` oder `zeichen <= 'z'` oder `zeichen++`
+- Mit Zeichen kann "gerechnet" werden: `zeichen > 'a'` oder `zeichen <= 'z'` oder `zeichen++`
 
 - Ermitteln eines Zeichens des Worts:
 
@@ -201,7 +201,7 @@ Der Wert liegt im Normalbereich.
 
 ## Widerstandsnetzwerk
 
-Berechnen Sie den Ersatzwiderstand für die Schaltung:
+Berechnen Sie den Ersatzwiderstand für die Schaltung:  
 R1 in Serie mit der Parallelschaltung von (R2 parallel zu R3).
 
 ```
@@ -221,7 +221,7 @@ Gesamtwiderstand Rg = 3,07 kOhm
   // Gibt "Num: 1,2" aus
   ```
 
-  Damit wird auf die Deutsche Schreibweise umgeschaltet. printf ist  eine "formatierte Ausgabe". Das %f ist ein Platzhalter für einen Fließkommawert. Dieser wird an den String als Parameter mitgegeben.
+  Damit wird auf die Deutsche Schreibweise umgeschaltet. printf ist eine "formatierte Ausgabe". Das %f ist ein Platzhalter für einen Fließkommawert. Dieser wird an den String als Parameter mitgegeben.
 
   Alternativ kann komplett auf eine andere Lokalisierung umgeschaltet (Oben nur für die eine Ausgabe) werden:
 
@@ -246,7 +246,6 @@ Gesamtwiderstand Rg = 3,07 kOhm
   Number number = f.parse(str);
   double len = number.doubleValue(); // len = 1.333
   ```
-
 
 ## Mittelwert
 

@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 11.4 Objekt Orientierte Programmierung - Weiteres
 
-### Singleton-Objekte
+## Singleton-Objekte
 
 nur ein einziges Objekt der Logger-Klasse ist erlaubt (wenn innerhalb eines Programm Info geloggt werden soll auch sinnvoll wenn das nur an eine Stelle protokolliert wird):
 
@@ -40,7 +40,7 @@ Das ist ein Beispiel bei dem bewusst ein Konstruktor Private ist. Damit kann ein
 
 Mit dem Schlüsselwort *synchronized* kann sichergestellt werden, dass eine Methode nur einfach aufgerufen werden kann. Wenn diese Methode mehrfach, gleichzeitig angefordert wird, dann muss der zweite Aufrufer auf das Ende des ersten Warten.
 
-### Fabrikmethoden
+## Fabrikmethoden
 
 Falls Objekte nur über Methoden erzeugt werden können, dann werden diese Methoden als *Factory*-Methoden bezeichnet. Im folgenden Beispiel können maximal drei Objekte der Klasse *Fact* erstellt werden. Der Versuch ein viertes zu erstellen gibt null zurück:
 
@@ -63,7 +63,7 @@ public final class Fact {
 
 Die übliche Art ein Objekt zu erzeugen, über einen Konstruktor kann das nicht. Ein Konstruktor gibt immer ein Objekt zurück.
 
-### Abkürzung bei Überladungen
+## Abkürzung bei Überladungen
 
 ```java
 public class Car
@@ -86,7 +86,7 @@ Public class Garage
   ...
 ```
 
-### Instanceof
+## Instanceof
 
 Prüfung ob Objekt von einer bestimmten Klasse mit Operator *instanceof*
 
@@ -97,7 +97,7 @@ System.out.println(new Worm() instanceof Object);       // true
 System.out.println(new Worm() instanceof String);       // Compilerfehler
 ```
 
-### Object.getClass()
+## Object.getClass()
 
 getClass() ist eine Object-Methode, daher ist diese Methode für jedes Objekt verfügbar:
 
@@ -107,13 +107,13 @@ System.out.println(hugo.getClass().equals(Creature.class));       // false
 System.out.println(hugo.getClass().equals(Worm.class));           // true (hugo = Wurm)
 ```
 
-## Assoziation - Aggregation - Komposition
+# Assoziation - Aggregation - Komposition
 
-### Assoziation
+## Assoziation
 
 Zwei Klassen stehen in einer Beziehung (nicht näher definiert). Zwei Klassen stehen in (unidirektionalen) Beziehung zueinander, wenn eine Klasse eine zweite Klasse als Member-Variable beinhaltet ("part-of"-Beziehung). Bidirektionale Beziehungen problematisch – beide Seiten müssen Referenzen gleichzeitig erstellen/auflösen. Besser mit Methoden realisieren.
 
-### Aggregation (auch schwache Aggregation)
+## Aggregation (auch schwache Aggregation)
 
 Eine Klasse ist Teil einer anderen Klasse. Die Teilklasse existiert aber auch ohne die beinhaltende Klasse. Man gibt einer Klasse als Parameter des Konstruktors ein Objekt mit und weißt es dort einem Member-Objekt zu.
 
@@ -126,7 +126,7 @@ class OberKlasse {
 }
 ```
 
-### Komposition (auch starke Aggregation):
+## Komposition (auch starke Aggregation):
 
 Eine Klasse ist Teil einer anderen Klasse. Das Teilobjekt existiert nicht ohne das beinhaltende Objekt. Im Konstruktor wird ein Objekt neu angelegt und der Member-Variable zugewiesen:
 
@@ -139,7 +139,7 @@ class OberKlasse {
 }
 ```
 
-### Mehrfache Beziehungen
+## Mehrfache Beziehungen
 
 Ist die Anzahl der Beziehungen bekannt, kann ein Array verwendet werden. Sollte die Anzahl der Teilobjekte unbekannt sein wird mit ArrayLists (oder List) gearbeitet:
 

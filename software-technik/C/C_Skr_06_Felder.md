@@ -115,7 +115,7 @@ printf("mein String: %s\n", myString);
 printf(myString);
 ```
 
-Damit wird auch deutlich, für was das '\0' Zeichen notwendig ist - die Funktionen wie *printf*  könnten ja sonst nicht die Zeichen bis zum Stringende ausgeben. In Objektorientierten Sprachen kann ein String-Objekt die Länge-Eigenschaft besitzen, die ausgewertet werden kann.
+Damit wird auch deutlich, für was das '\0' Zeichen notwendig ist - die Funktionen wie *printf* könnten ja sonst nicht die Zeichen bis zum Stringende ausgeben. In Objektorientierten Sprachen kann ein String-Objekt die Länge-Eigenschaft besitzen, die ausgewertet werden kann.
 
 Wesentlich kritischer ist das Einlesen von Zeichenketten. Die Funktionen scanf(), getch() oder fgetc() funktionieren natürlich, allerdings sind diese Funktionen nicht für Zeichenketten entworfen worden und fügen daher nicht automatisch ein EOS ein. Wird auf diese Art in eine Zeichenkette eingelesen, muss man selbstständig nach dem Einlesen ein '\0' ans Ende setzen.
 
@@ -139,36 +139,36 @@ Die Länge eines Strings (ohne '\0') kann mit der **strlen()**-Funktion ermittel
 
 ### String-Funktionen
 
->[!summary] **Kopieren einer Zeichenkette** (Quell-String) in eine Andere (Ziel-String).
->Die Zielzeichenkette muss groß genug sein für die Quellzeichenkette (samt EOS):
->`strcpy(zielstr, quellstr)`
->Besser:
->`strncpy(zielstr, quellstr, n)`
+>[!summary] **Kopieren einer Zeichenkette** (Quell-String) in eine Andere (Ziel-String).  
+>Die Zielzeichenkette muss groß genug sein für die Quellzeichenkette (samt EOS):  
+>`strcpy(zielstr, quellstr)`  
+>Besser:  
+>`strncpy(zielstr, quellstr, n)`  
 > Damit werden maximal `n` Zeichen kopiert. `n` setzt man auf die Größe vom Ziel-String.
 
->[!summary] Vergleich zweier Zeichenketten
-> Sind beide Strings gleich, gibt diese Funktion 0 zurück.
-> Ist der String str1 kleiner (früher im Alphabet) als str2, ist der Rückgabewert kleiner als 0; und ist str1 größer (später im Alphabet) als str2, dann ist der Rückgabewert größer als 0 :
-> `int strcmp(str1, str2)`
-> Besser:
->`strncmp(str1, str2, n)`
+>[!summary] Vergleich zweier Zeichenketten  
+> Sind beide Strings gleich, gibt diese Funktion 0 zurück.  
+> Ist der String str1 kleiner (früher im Alphabet) als str2, ist der Rückgabewert kleiner als 0; und ist str1 größer (später im Alphabet) als str2, dann ist der Rückgabewert größer als 0 :  
+> `int strcmp(str1, str2)`  
+> Besser:  
+>`strncmp(str1, str2, n)`  
 > Damit werden maximal n Zeichen verglichen. `n` wird auf die Größe von str1 gesetzt.
 
->[!summary] **Typkonvertierungen** nach String
->genau wie für printf() kann mit sprintf() in eine Zeichenkette geschrieben werden:
->`sprintf(str, "Die Zahl %i ist größer als die Zahl %i", 7, 3)`
-> Das Ziel dieser Schreiboperation ist halt in diesem Fall anstatt eines Streams (Bildschirm...) die Zeichenkette `str`.
+>[!summary] **Typkonvertierungen** nach String  
+>genau wie für printf() kann mit sprintf() in eine Zeichenkette geschrieben werden:  
+>`sprintf(str, "Die Zahl %i ist größer als die Zahl %i", 7, 3)`  
+> Das Ziel dieser Schreiboperation ist halt in diesem Fall anstatt eines Streams (Bildschirm…) die Zeichenkette `str`.  
 > `str` muss natürlich zuvor so groß definiert werden, dass die Zeichenkette reinpasst.
 
->[!summary] nach Zahl: "**A**scii-**To**-**I**nteger"
+>[!summary] nach Zahl: "**A**scii-**To**-**I**nteger"  
 >`int atoi(str)`
 
->[!summary] "**A**scii-**To**-**F**lieskomma"
+>[!summary] "**A**scii-**To**-**F**lieskomma"  
 > `double atof(const char str)`
 
->[!summary] **Lesen aus einer Zeichenkette**
-> funktioniert wie einlesen von der Tastatur mit `scanf()`. 
-> Hier wird die Zahl aus der Zeichenkette `str` in die `int`-Variable `num` gelesen:
+>[!summary] **Lesen aus einer Zeichenkette**  
+> funktioniert wie einlesen von der Tastatur mit `scanf()`.  
+> Hier wird die Zahl aus der Zeichenkette `str` in die `int`-Variable `num` gelesen:  
 > `sscanf(str, "%i", &num);`
 
 ## Mehrdimensionale Felder

@@ -10,7 +10,6 @@ created: 16th August 2022
 
 # [Relativistischer](Relativitätstheorie.md) Dopplereffekt
 
-
-
 ---
+
 # Tags

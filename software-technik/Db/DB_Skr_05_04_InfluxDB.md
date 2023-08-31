@@ -14,13 +14,13 @@ In einem Measurement gibt's die folgenden Elemente:
 
 - **Timestamp**: gibt's in dieser DB immer - jeder Datensatz wird automatisch mit einem Zeitstempel (RFC3339 UTC) abgelegt. Alles Andere ist frei konfigurierbar.
 - **Field Key** und **Field Value**: entsprechen den Attributen in den relationalen DB. Der Key ist etwa die Überschrift (Spannung) und der Value der gemessene Wert (230).
-- **Tag Key** und **Tag Value**: erstmal das selbe wie die Field-Elemente. Der Unterschied: nach den Tag-Elementen kann effizient gesucht werden, nach den Field-Elementen muss die komplette Measurement durchsucht werden (Zeile für Zeile). Für die Tag-Elemente wird wohl ein eigener Index angelegt.
+- **Tag Key** und **Tag Value**: erstmal das selbe wie die Field-Elemente. Der Unterschied: nach den Tag-Elementen kann effizient gesucht werden, nach den Field-Elementen muss die komplette Measurement durchsucht werden (Zeile für Zeile). Für die Tag-Elemente wird wohl ein eigener Index angelegt.  
   In obigen Beispiel wurde beliebig der Entladestrom als Tag gewählt. Dadurch kann in dieser Tabelle sehr effizient nach einem bestimmten Entladestrom gefiltert werden. Die Aufteilung Tag<->Field kann beliebig erfolgen.
 - **Point**: als Point wird eine einzelne Messung bezeichnet, also wie ein Datensatz.
 
 ## InfluxQL
 
-Die Abfragen in einer InfluxDB erfolgen sehr ähnlich zu SQL. Die entsprechende Sprache ist in Anlehnung dazu InfluxQL (https://docs.influxdata.com/influxdb/v1.8/query_language/explore-data/#the-basic-select-statement).
+Die Abfragen in einer InfluxDB erfolgen sehr ähnlich zu SQL. Die entsprechende Sprache ist in Anlehnung dazu InfluxQL (<https://docs.influxdata.com/influxdb/v1.8/query_language/explore-data/#the-basic-select-statement).>
 
 Database erzeugen:
 
@@ -69,8 +69,8 @@ Eine **Where**-Clause analog zu jener in SQL gibt es ebenfalls.
 
 ## Installation InfluxDB
 
-- Windows - Download und Extract
-  https://portal.influxdata.com/downloads/  --> Windows-Binaries ... dort enweder den Link rauskopieren oder mittels Powershell:
+- Windows - Download und Extract  
+  <https://portal.influxdata.com/downloads/> --> Windows-Binaries … dort enweder den Link rauskopieren oder mittels Powershell:
   
   ```
   wget https://dl.influxdata.com/influxdb/releases/influxdb-1.8.5_windows_amd64.zip -UseBasicParsing -OutFile influxdb-1.8.5_windows_amd64.zip
@@ -84,7 +84,7 @@ Eine **Where**-Clause analog zu jener in SQL gibt es ebenfalls.
 
 - Erstkonfig - influxdb.conf editieren
   
-  Manuell anlegen die Ordner (wo auch immer ...):
+  Manuell anlegen die Ordner (wo auch immer …):
   
   ```
   C:\Users\roman\AppData\Roaming\influxdb\influx-data\data
@@ -119,7 +119,7 @@ Eine **Where**-Clause analog zu jener in SQL gibt es ebenfalls.
 
 ## Installation [Node-Red](../IoT/Node-RED.md) - InfluxDB - AddOn
 
-https://flows.nodered.org/node/node-red-contrib-influxdb
+<https://flows.nodered.org/node/node-red-contrib-influxdb>
 
 Im Ordner von Node-Red (unter Windows kann das im Verzeichnis `c:\users\xxxxx\.node-red\` sein):
 

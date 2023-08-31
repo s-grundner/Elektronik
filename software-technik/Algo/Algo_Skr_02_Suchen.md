@@ -90,7 +90,7 @@ int compare(const void * a, const void * b) {
 }
 ```
 
-Hier wird a als void*-Zeiger übergeben, das ist die Anforderung an die Funktion von bsearch. Um damit arbeiten zu können wird innerhalb der Funktion gecastet: `(int *)a` . Damit wird geklärt: a ist ein Zeiger auf einen Integer. Mit ` * (int * )a`  wird auf den Wert auf welchen der Int-Zeiger zeigt zurückgegeben.
+Hier wird a als void*-Zeiger übergeben, das ist die Anforderung an die Funktion von bsearch. Um damit arbeiten zu können wird innerhalb der Funktion gecastet: `(int *)a` . Damit wird geklärt: a ist ein Zeiger auf einen Integer. Mit ` * (int * )a` wird auf den Wert auf welchen der Int-Zeiger zeigt zurückgegeben.
 
 Im Funktionsaufruf:
 
@@ -148,15 +148,15 @@ der Zeiger auf die Funktion heißt *compare*. Dieser Name ist nur wichtig für d
 
 - Sequentielle Suche:
 
-  https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Lineare_Suche
+  <https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Lineare_Suche>
 
 - Binäre Suche:
 
-  https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Bin%C3%A4re_Suche
+  <https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Bin%C3%A4re_Suche>
 
 - C-Bibliotheksfunktion bsearch:
 
-  https://www.tutorialspoint.com/c_standard_library/c_function_bsearch.htm
+  <https://www.tutorialspoint.com/c_standard_library/c_function_bsearch.htm>
 
 ## Fragen
 

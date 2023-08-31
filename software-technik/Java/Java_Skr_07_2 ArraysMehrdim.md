@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 7.2 Mehrdimensionale Arrays
 
-Arrays bündeln gleichartige Daten (int ...)  in eine Array-Variable. Mit Arrays können nicht nur primitive Datentypen gebündelt werden sondern alle Arten von Variablen. Daher können auch Array-Variable in eine Array-Variable gebündelt werden. Dadurch entstehen mehrdimensionale Arrays. Zum Beispiel kann die Feldvariable: `int[] numArr` mit einer eckigen Klammer als neue Feldvariable definiert werden: `int[][] arrVonNumArr`.
+Arrays bündeln gleichartige Daten (int …) in eine Array-Variable. Mit Arrays können nicht nur primitive Datentypen gebündelt werden sondern alle Arten von Variablen. Daher können auch Array-Variable in eine Array-Variable gebündelt werden. Dadurch entstehen mehrdimensionale Arrays. Zum Beispiel kann die Feldvariable: `int[] numArr` mit einer eckigen Klammer als neue Feldvariable definiert werden: `int[][] arrVonNumArr`.
 
 Beispiel:
 
@@ -43,13 +43,13 @@ Um die Größe eines Felds zu bestimmen funktioniert auch hier:
 int anzElemente = r.length;
 ```
 
-Es wird die Anzahl der Elemente dieses Felds zurückgegeben, Für unser Beispiel 4 (r[0] ... r[3]). Um die Anzahl der Elemente im ersten Element zu bestimmen entsprechend:
+Es wird die Anzahl der Elemente dieses Felds zurückgegeben, Für unser Beispiel 4 (r[0] … r[3]). Um die Anzahl der Elemente im ersten Element zu bestimmen entsprechend:
 
 ```java
 int anzElemente = r[0].length;
 ```
 
-Für unser Beispiel 3 (r\[0\]\[0\] ... r\[0\]\[2\]). Zum einfachen Anzeigen von mehrdimensionalen Arrays funktioniert die toString()-Methode nicht, stattdessen gibt's die deepToString() Methode:
+Für unser Beispiel 3 (r\[0\]\[0\] … r\[0\]\[2\]). Zum einfachen Anzeigen von mehrdimensionalen Arrays funktioniert die toString()-Methode nicht, stattdessen gibt's die deepToString() Methode:
 
 ```java
 System.out.println(Arrays.deepToString(r));

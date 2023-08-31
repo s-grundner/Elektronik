@@ -4,7 +4,7 @@ Der Vorteil von Streams gegenüber den Ein-/Ausgabefunktionen von C ist die Typs
 
 ## String-Streams
 
-Zum Zusammensetzen von Strings aus gemischten Datentypen bieten sich die *stringstream*-Klassen aus *sstream.h* an, die wie ein Ein- beziehungsweise Ausgabestrom funktionieren und das Ergebnis in den Hauptspeicher schreiben. Out-Streams sind lediglich für das Schreiben in den Stream, In-Streams sind für das Lesen aus dem Stream. Statt dieser Streams können auch immer String-Streams für beidseitige Zugriffe verwendet werden.
+Zum Zusammensetzen von Strings aus gemischten Datentypen bieten sich die *stringstream*-Klassen aus *sstream.h* an, die wie ein Einbeziehungsweise Ausgabestrom funktionieren und das Ergebnis in den Hauptspeicher schreiben. Out-Streams sind lediglich für das Schreiben in den Stream, In-Streams sind für das Lesen aus dem Stream. Statt dieser Streams können auch immer String-Streams für beidseitige Zugriffe verwendet werden.
 
 ### ostringstream
 
@@ -125,7 +125,7 @@ int main(int argc, char *argv[]) {
 
 ### Lesen aus einer Datei
 
-Das Lesen aus einer Datei funktioniert analog zum Lesen aus dem Stream cin. Wird aus einem Stream ein String gelesen wird bis zum nächsten *Whitespace* gelesen. Unter Whitespaces versteht man die Gruppe der nicht sichtbaren Zeichen: Leerzeichen, Zeilenumbruch, Tabulator ...
+Das Lesen aus einer Datei funktioniert analog zum Lesen aus dem Stream cin. Wird aus einem Stream ein String gelesen wird bis zum nächsten *Whitespace* gelesen. Unter Whitespaces versteht man die Gruppe der nicht sichtbaren Zeichen: Leerzeichen, Zeilenumbruch, Tabulator …
 
 Beispiel: Zeilenweises Einlesen und manuelles Auftrennen der Strings.
 
@@ -172,11 +172,11 @@ Diese Funktionen liefern 0 im Fall, dass *eof()* gelesen wird (Strg-Z für Windo
 
 Zusätzlich werden diverse Flags gesetzt (*stream*.eof()):
 
-- *eofbit*: Ende des Streams (End of File ...)
+- *eofbit*: Ende des Streams (End of File …)
 - *failbit*: Wenn ein ungültiges Zeichen gelesen wird (wie auch End of File)
 - *badbit*: Ein sonstiger Fehler
 
-Typische Anwendung: zeilenweise Lesen aus einer Datei. Mittels Stream-Operator << wird nicht bis zum Zeilenumbruch sondern bis zum nächsten Whitespace (Leerzeichen, Tabulator, Zeilenumbruch ...) gelesen.
+Typische Anwendung: zeilenweise Lesen aus einer Datei. Mittels Stream-Operator << wird nicht bis zum Zeilenumbruch sondern bis zum nächsten Whitespace (Leerzeichen, Tabulator, Zeilenumbruch …) gelesen.
 
 ### Fehlerbehandlung
 
@@ -216,7 +216,7 @@ int main () {
 
 ### Binäre Datei
 
-Binärdatei: 0 wird als 0 geschrieben/gelesen.
+Binärdatei: 0 wird als 0 geschrieben/gelesen.  
 Textdatei: 0 wird ASCII kodiert als 48 geschrieben/gelesen.
 
 werden Dateien mit einem Editor geöffnet, dann konvertieren die meisten Editoren die gelesenen Bytes als ASCII kodierte Zeichen
@@ -306,13 +306,13 @@ cin >> str1;
 
 - Stream-Manipulatoren
 
-  http://www.cplusplus.com/reference/library/manipulators/
+  <http://www.cplusplus.com/reference/library/manipulators/>
 
   auf Deutsch:
 
-  http://www.willemer.de/informatik/cpp/iostream.htm
+  <http://www.willemer.de/informatik/cpp/iostream.htm>
 
 - fstreams
 
-  www.cplusplus.com/reference/fstream/
+  <www.cplusplus.com/reference/fstream/>
 

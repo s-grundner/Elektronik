@@ -1,19 +1,19 @@
 # 4 Os - POSIX
 
-Um Programme nicht für jedes Betriebssystem komplett neu entwickeln zu müssen wurde schon Früh, gewisse häufig notwendige Funktionen als Anwenderschnittstellen (**A**pplication **P**rogramming **I**nterface) , in ähnlicher Form von verschiedenen Betriebssystemen angeboten. Daraus wurde in Folge eine vom IEEE (und in Folge von ISO und IEC) standardisierte Schnittstelle die unter dem Namen **POSIX** (Portable Operating System Interface) (https://publications.opengroup.org/g101).
+Um Programme nicht für jedes Betriebssystem komplett neu entwickeln zu müssen wurde schon Früh, gewisse häufig notwendige Funktionen als Anwenderschnittstellen (**A**pplication **P**rogramming **I**nterface) , in ähnlicher Form von verschiedenen Betriebssystemen angeboten. Daraus wurde in Folge eine vom IEEE (und in Folge von ISO und IEC) standardisierte Schnittstelle die unter dem Namen **POSIX** (Portable Operating System Interface) (<https://publications.opengroup.org/g101).>
 
 Gerade im UNIX-Bereich halten sich sehr viele Derivate an (zumindest ältere Formen) den Standard.
 
 Der Standard setzt sich aus vier Teilen zusammen:
 
 - **Basis-Definitions**: Erklärung des Standards
-- **System-Interface**: Header-Dateien für C und Systemaufrufe (https://pubs.opengroup.org/onlinepubs/9699919799/idx/functions.html)
+- **System-Interface**: Header-Dateien für C und Systemaufrufe (<https://pubs.opengroup.org/onlinepubs/9699919799/idx/functions.html)>
 - **Hilfsprogramme und Kommandozeile (Shell & Utilities)**: Liste der verfügbaren Systemprogramme und ein Interpreter für die Kommandozeile
 - **Erläuterungen (Rationale)**: Details
 
 Zu einem guten Teil sind viele Linux-OS POSIX kompatibel. 
 
-In *MS-Windows NT*  wurde eine entsprechende Kompatibilität angestrebt, wohl vor allem, weil die US-Regierung für Software im offiziellen Einsatz POSIX-Kompatibilität forderte. Für neuere Versionen, kann mittels *Cygwin*, eine POSIX-kompatible Runtime-Umgebung installiert werden. Für Windows 10 wird mittlerweile von MS ein *Windows Subsystem für Linux (WSL)* angeboten, um mittels entsprechender Images, Kompatibilität zu Linux anzubieten.
+In *MS-Windows NT* wurde eine entsprechende Kompatibilität angestrebt, wohl vor allem, weil die US-Regierung für Software im offiziellen Einsatz POSIX-Kompatibilität forderte. Für neuere Versionen, kann mittels *Cygwin*, eine POSIX-kompatible Runtime-Umgebung installiert werden. Für Windows 10 wird mittlerweile von MS ein *Windows Subsystem für Linux (WSL)* angeboten, um mittels entsprechender Images, Kompatibilität zu Linux anzubieten.
 
 ## Signale
 

@@ -1,6 +1,6 @@
 # 2 Os - Threads - C
 
-https://www.heise.de/select/ix/2017/5/1492877730281965
+<https://www.heise.de/select/ix/2017/5/1492877730281965>
 
 
 
@@ -25,7 +25,7 @@ std::thread myThread(myFunc);
 - Kompilieren mit Option `-std=c++11` (oder später)
 - *include* von *thread*
 - Konstruktor des Objekts *myThread* mit der Funktion *myFunc*, die Funktion wird automatisch sofort gestartet
-- Mit dem Thread-Objekt kann der Thread dann gesteuert werden (gestoppt ...)
+- Mit dem Thread-Objekt kann der Thread dann gesteuert werden (gestoppt …)
 - Die Funktion muss statisch sein, sie wird ja unabhängig vom weiteren Hauptprogramm laufen.
 
 Mit *join()* kann ein Thread auf das Ende eines zweiten Threads warten:
@@ -34,7 +34,7 @@ Mit *join()* kann ein Thread auf das Ende eines zweiten Threads warten:
 myThread.join();
 ```
 
-Dadurch stoppt das Programm an dieser Stelle und wartet auf das Ende von *myThread*.
+Dadurch stoppt das Programm an dieser Stelle und wartet auf das Ende von *myThread*.  
 Wenn ein Thread-Objekt zerstört wird und dessen Ende nicht mittels *join()* überwacht wurde, dann wird das Thread-Objekt im Destruktor mittels *std::terminate* und einer Fehlermeldung beendet. Alternativ zu *join()* kann der Member *detach()* aufgerufen werden. Damit läuft der Thread unabhängig weiter. In jedem Fall werden beim Beenden eines Programms (Haupt-Thread) sämtliche Threads sofort beendet.
 
 ### Funktion mit Parametern
@@ -71,7 +71,7 @@ std::thread myThread([](){ <==code==> });
   std::thread myThread([](){ cout << "Hello World!"; });
   ```
 
-- in der runden Klammer () werden eventuelle Funktionsparameter angegeben (int start ...) und nach dem $\lambda$-Ausdruck mit dem Wert.
+- in der runden Klammer () werden eventuelle Funktionsparameter angegeben (int start …) und nach dem $\lambda$-Ausdruck mit dem Wert.
 - in der eckigen Klammer können gesammelt lokale Attribute durchgereicht werden.
 
 Es muss daher keine eigene Funktion geschrieben werden (wenn sie sonst nirgendwo Verwendung findet).
@@ -260,14 +260,14 @@ ist `jthread` nicht implementiert.
 ## Fragen
 
 - Unterschied Thread/Prozess
-- Wird eine Berechnung durch das Aufteilen auf mehrere Threads schneller (wodurch/warum/wann/wann nicht...)?
+- Wird eine Berechnung durch das Aufteilen auf mehrere Threads schneller (wodurch/warum/wann/wann nicht…)?
 - Unterschied Join/Detach
 - Unterschied Thread/Async
 
 ## Referenzen
 
-- Async/Future
-  https://solarianprogrammer.com/2012/10/17/cpp-11-async-tutorial/
+- Async/Future  
+  <https://solarianprogrammer.com/2012/10/17/cpp-11-async-tutorial/>
 
-- Video Async/Future/Promise:
-  https://www.youtube.com/watch?v=SZQ6-pf-5Us
+- Video Async/Future/Promise:  
+  <https://www.youtube.com/watch?v=SZQ6-pf-5Us>

@@ -10,13 +10,13 @@ Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32
 
 ![](assets/ESP32_nocase.png)
 
-Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../hwe/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../hf-technik/Antenne.md), PIF-[Antenne](../../hf-technik/Antenne.md)  oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
+Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../hwe/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../hf-technik/Antenne.md), PIF-[Antenne](../../hf-technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
 
 ![](assets/ESP32WROOM.png)
 
 ## Bootloader Brennen mit dem ESP-Tool
 
-Um den ESP32 programmieren zu können, muss zuerst die Firmware (ESP-AT) auf den Chip heruntergeladen werden. Dafür kommt das ESP Flash Download Tool  von Espressif  zum Einsatz. Dieses Tool wir dafür benötigt, die Binary-Files der Firmware über USB auf den [SPI](../../digital-technik/SPI.md)-Flash zu spielen. Im Nächsten muss zuerst das Tool heruntergeladen, entpackt und die .exe ausgeführt werden.
+Um den ESP32 programmieren zu können, muss zuerst die Firmware (ESP-AT) auf den Chip heruntergeladen werden. Dafür kommt das ESP Flash Download Tool von Espressif zum Einsatz. Dieses Tool wir dafür benötigt, die Binary-Files der Firmware über USB auf den [SPI](../../digital-technik/SPI.md)-Flash zu spielen. Im Nächsten muss zuerst das Tool heruntergeladen, entpackt und die .exe ausgeführt werden.
 
 ![](assets/Flash_DL_Tools.png)
 
@@ -24,8 +24,8 @@ Mit den gezeigten Einstellungen, kann nun das Aufsetzen der Firmware fortgesetzt
 
 ![](assets/FlashDL-Folder.png)
 
-Natürlich werden auch die ESP-AT Binaries selbst benötigt, welche man in den SDK-Downloads auf der Espressif Website findet.
-Von dem entsprechenden Modul (hier der ESP32-WROOM) muss nun die empfohlene Version der Firmware heruntergeladen werden.
+Natürlich werden auch die ESP-AT Binaries selbst benötigt, welche man in den SDK-Downloads auf der Espressif Website findet.  
+Von dem entsprechenden Modul (hier der ESP32-WROOM) muss nun die empfohlene Version der Firmware heruntergeladen werden.  
 ESP-AT beinhaltet die Binärdateien der Partitions-Tabelle, des Bootloaders, sowie Encryption-Keys und Certificate-Authorities (CA) von Netzwerkprotokollen wie [MQTT](MQTT.md).
 
 ![](assets/ESPATbins.png)
@@ -53,7 +53,7 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
     "0x2c000" : "customized_partitions/client_key.bin"
 },
 ```
-> [!info] Den Flasher-Arguments entsprechend, müssen die Pfade sowie deren Offset in das Flash-Download-Tool eingetragen werden.
+> [!info] Den Flasher-Arguments entsprechend, müssen die Pfade sowie deren Offset in das Flash-Download-Tool eingetragen werden.  
 > ![](assets/Pasted%20image%2020230818003454.png)
 
 > [!info] Auch die [SPI](../../digital-technik/SPI.md) Flash Konfigurationen werden aus den Flasher Arguments entsprechend übernommen:
@@ -66,10 +66,11 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
 >```
 >![](assets/Pasted%20image%2020230818003644.png)
 
-> [!info] Nun muss nur noch der richtige COM-Port selektiert werden und „Start“ ausgeführt werden.
+> [!info] Nun muss nur noch der richtige COM-Port selektiert werden und „Start“ ausgeführt werden.  
 > ![](assets/Pasted%20image%2020230818003709.png)
 
 > [!success] Der Bootloader sollte nun erfolgreich auf den ESP32 gebrannt worden sein
+
 # Firmware Entwicklung
 
 Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
@@ -78,7 +79,7 @@ Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter
 - für die Toolkette wird Python benötigt
 - für die Entwicklung von µController-Software gibt's die Extension [PlatformIO](../PlatformIO.md)
 
-(Beschreibung: https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)
+(Beschreibung: <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)>
 
 ## Allgemein
 
@@ -98,7 +99,7 @@ framework = arduino
 monitor_speed= 115200       ; Communication via Serial-Monitor
 ```
 
-Zum Hinzufügen zusätzlicher Libraries zum Projekt, können diese direkt in der Konfiguration `platfromio.ini` angegeben oder mittels [PlatformIO](../PlatformIO.md) eingefügt werden (VSCode -> Platfomio -> Libraries ->...).
+Zum Hinzufügen zusätzlicher Libraries zum Projekt, können diese direkt in der Konfiguration `platfromio.ini` angegeben oder mittels [PlatformIO](../PlatformIO.md) eingefügt werden (VSCode -> Platfomio -> Libraries ->…).
 
 PlatformIO speichert Bibliotheken und Konfigurationen üblicherweise unter `C:\Users\xxxxxxxx\.platformio` (Windows).
 
@@ -135,7 +136,7 @@ Im Folgenden sind ein paar Beispiel-Sourcen für notwendige Funktionalitäten.
 
 Einlesen der Schalterzustände und Aktivieren von LEDs.
 
-https://www.arduino.cc/reference/en/libraries/digitalio/
+<https://www.arduino.cc/reference/en/libraries/digitalio/>
 
 Grundsätzliche Struktur: 
 
@@ -172,7 +173,7 @@ void loop() {
 
 Einlesen der Schalterzustände mittels Interrupt und Aktivieren von LEDs.
 
-https://www.arduino.cc/reference/de/language/functions/external-interrupts/attachinterrupt/
+<https://www.arduino.cc/reference/de/language/functions/external-interrupts/attachinterrupt/>
 
 Grundsätzliche Struktur: 
 
@@ -210,7 +211,7 @@ void loop() {
 
 Verbinden als einfacher Endpunkt in einem WLAN.
 
-https://www.arduino.cc/en/Reference/WiFi
+<https://www.arduino.cc/en/Reference/WiFi>
 
 ```cpp
 #include <WiFi.h>
@@ -355,7 +356,7 @@ void loop() {
 
 ## 04_Bluetooth
 
-Mit diesem Beispiel kann mittels z.B. Mobiltelefon auf Bluetooth gepairt werden. Mit einem Bluetooth-Terminal (Serial Bluetooth ...) können anschließend Daten an den ESP gesendet werden und im Serial-Monitor angezeigt werden. Verändern Sie in den Bluetooth-Namen *_$$$$* auf das Namenskürzel.
+Mit diesem Beispiel kann mittels z.B. Mobiltelefon auf Bluetooth gepairt werden. Mit einem Bluetooth-Terminal (Serial Bluetooth …) können anschließend Daten an den ESP gesendet werden und im Serial-Monitor angezeigt werden. Verändern Sie in den Bluetooth-Namen *_$$$$* auf das Namenskürzel.
 
 ```cpp
 #include <Arduino.h>
@@ -474,7 +475,7 @@ pip install -U platformio
 platformio run --target uploadfs
 ```
 
-Im Projektverzeichnis wird ein Ordner data angelegt und die Datei wlan.txt darin abgelegt mit dem folgenden Inhalt:
+Im Projektverzeichnis wird ein Ordner data angelegt und die Datei wlan.txt darin abgelegt mit dem folgenden Inhalt:  
 **data/wlan.txt**:
 
 ```
@@ -942,7 +943,7 @@ double temp = doc["temp"].as<double>();         // 22.23
 
 ## 08_DeepSleepTimer
 
-(https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
+(<https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)>
 
 Um Energie zu sparen (Batterie-Lösungen) kann der ESP32 in einen Deep-Sleep versetzt werden. Aufgeweckt werden kann er mittels Timer oder externen Signals. Hier als Beispiel die Variante mittels Timer:
 
@@ -1007,12 +1008,12 @@ Nach dem Aufwecken startet die Arduino-SW wieder im `setup()`. Die Erkennung ob 
 
 Ablauf:
 
-- Setzen des Wakeup-Timers `esp_sleep_enable_timer_wakeup(  ...time...  )`
+- Setzen des Wakeup-Timers `esp_sleep_enable_timer_wakeup(  …time…  )`
 - Schlafen legen mit `esp_deep_sleep_start()` 
 
 # Troubleshooting
 
-- **Programmieren nicht möglich**. Es kann vorkommen, dass eine Kommunikation mit dem ESP32 via SerialMonitor möglich ist, ein Programmieren allerdings nicht. Dann muss während dem Start der Programmierung der Boot-Button gedrückt gehalten werden bis die Programmierung startet (siehe https://randomnerdtutorials.com/esp32-troubleshooting-guide/  Pkt. 4).
+- **Programmieren nicht möglich**. Es kann vorkommen, dass eine Kommunikation mit dem ESP32 via SerialMonitor möglich ist, ein Programmieren allerdings nicht. Dann muss während dem Start der Programmierung der Boot-Button gedrückt gehalten werden bis die Programmierung startet (siehe <https://randomnerdtutorials.com/esp32-troubleshooting-guide/> Pkt. 4).
 
 # Referenzen
 
@@ -1025,13 +1026,13 @@ Ablauf:
 
 
 Arduino-Framework
-- https://www.arduino.cc/reference/en/libraries/
+- <https://www.arduino.cc/reference/en/libraries/>
 
 
 Setup/Installation ESP32 Projekte mit Arduino-Framework auf PlatformIO
-- https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/
+- <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/>
 
 
 Setup/Installation ESP-IDF mit PlatformIO
-- https://docs.platformio.org/en/latest/tutorials/espressif32/espidf_debugging_unit_testing_analysis.html#tutorial-espressif32-espidf-debugging-unit-testing-analysis
-- https://docs.platformio.org/en/latest/frameworks/espidf.html
+- <https://docs.platformio.org/en/latest/tutorials/espressif32/espidf_debugging_unit_testing_analysis.html#tutorial-espressif32-espidf-debugging-unit-testing-analysis>
+- <https://docs.platformio.org/en/latest/frameworks/espidf.html>

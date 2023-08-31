@@ -6,8 +6,11 @@ source: ["Martin Aichriedler"]
 ---
 
 # Internet Protokoll
+
 ## IPv4
+
 ### Aufbau eines IPv4-Paketes
+
 ![400](../../mess-technik/IPv4.png)
 
 | Nummer | Segment             | Größe (bit) | Beschreibung / Funktion        |
@@ -27,7 +30,8 @@ source: ["Martin Aichriedler"]
 | 13.    | Optionen / Füllbits |             |                                |
 | 14.    | Datenbereich        |             | Daten der [Transportschicht](../Transportschicht.md) |
 
-
 ### Fragmentieren
+
 # Tags
+
 [Sockets](<https://de.wikipedia.org/wiki/Socket_(Software)>)

@@ -9,6 +9,7 @@ created: 26th April 2022
 # Komplexe Zahlen
 
 ## Zeitbereich vs. Bildbereich
+
 Vorraussetzungen:
 - Sinusförmig
 - gleiche Frequenz
@@ -22,4 +23,5 @@ Zusammenhang ist die [Eulersche Formel](Eulersche%20Formel.md)
 
 
 ---
+
 # Tags

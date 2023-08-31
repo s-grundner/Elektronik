@@ -151,9 +151,9 @@ Erweitert:
 
 - Insel (deutsch):
 
-  http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_04_001.htm
+  <http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_04_001.htm>
 
-- https://www.tutorialspoint.com/java/java_strings.htm
+- <https://www.tutorialspoint.com/java/java_strings.htm>
 
   
 

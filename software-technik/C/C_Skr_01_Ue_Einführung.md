@@ -9,9 +9,9 @@ created: 29th November 2022
 
 ## Installation - Codeblocks
 
-- Download und Installation Codeblocks-Entwicklungsumgebung. Es gibt Versionen die beinhalten einen Compiler (mingw). mingw ist eine MS-Windows-Version einer GNU-Compiler-Sammlung (c, [c++](../Cpp/Cpp.md) ...):
+- Download und Installation Codeblocks-Entwicklungsumgebung. Es gibt Versionen die beinhalten einen Compiler (mingw). mingw ist eine MS-Windows-Version einer GNU-Compiler-Sammlung (c, [c++](../Cpp/Cpp.md) …):
 
-  http://www.codeblocks.org/downloads/
+  <http://www.codeblocks.org/downloads/>
 
   Der C-Compiler ist als gcc.exe unter **\<codeblocksverzeichnis\>\\MinGW\\bin\\** verfügbar.
 
@@ -55,7 +55,7 @@ created: 29th November 2022
   ```
 
 
-Das erstellte Programm (*.exe) ist direkt in MS-Windows lauffähig (ohne VM ...).
+Das erstellte Programm (*.exe) ist direkt in MS-Windows lauffähig (ohne VM …).
 
 ## HelloWorld (002)
 
@@ -65,7 +65,7 @@ Das erstellte Programm (*.exe) ist direkt in MS-Windows lauffähig (ohne VM ...)
 
 - Eine Ausgabe in die Konsole kann mit `printf("Hello World")` angestoßen werden.
 
-- Im Speicher können nur Nummern abgelegt werden. Mit dem sogenannten ASCII-Code werden Zeichen (Buchstaben, Zahlen, Sonderzeichen ...) in eine entsprechende Nummer übersetzt. Der ASCII-Code definiert für 128 Zeichen eine Nummer zwischen 0 und 127 benötigt also 7 Bits, aus praktischen Gründen wird ein 8 Bit-Datentyp verwendet (CHAR = Charakter = Zeichen). Hexadezimal hat diese Nummer zwei Stellen 0x00 - 0x7F.
+- Im Speicher können nur Nummern abgelegt werden. Mit dem sogenannten ASCII-Code werden Zeichen (Buchstaben, Zahlen, Sonderzeichen …) in eine entsprechende Nummer übersetzt. Der ASCII-Code definiert für 128 Zeichen eine Nummer zwischen 0 und 127 benötigt also 7 Bits, aus praktischen Gründen wird ein 8 Bit-Datentyp verwendet (CHAR = Charakter = Zeichen). Hexadezimal hat diese Nummer zwei Stellen 0x00 - 0x7F.
 
 - Geben Sie in der Konsole eine ASCII-Tabelle aus. Als Spalten soll die niederwertigere Hex-Ziffer dienen. Als Zeile die höherwertigere Hex-Ziffer, zum Beispiel:
 

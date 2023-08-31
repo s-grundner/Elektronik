@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [incomplete]
 aliases: []
 subject: ["chemie"]
 source: ["Fritz Struber"]
@@ -7,6 +7,7 @@ created: 23rd August 2022
 ---
 
 # Lösungen
+
 Lösung = Lösungsmittel (LM) + gelöster Stoff
 
 Lösungen sind homogene Mischungen zwei oder mehreren Komponenten.
@@ -17,11 +18,11 @@ Lösungen sind homogene Mischungen zwei oder mehreren Komponenten.
 
 Die meisten Stoffe sind in einem LM nur begrenzt löslich.
 
-**Löslichkeit:** wie viele **$g$** von **$100g$** LM gelöst werden können.
-**Gesättigte Lösung**
+**Löslichkeit:** wie viele **$g$** von **$100g$** LM gelöst werden können.  
+**Gesättigte Lösung**  
 **Ungesättigte Lösung**
 
 
 ---
-# Tags
-#incomplete 
+
+# Tags 

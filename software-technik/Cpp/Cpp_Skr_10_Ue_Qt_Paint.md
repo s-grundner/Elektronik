@@ -13,8 +13,6 @@ MainWindow-Konstruktor:
 this->setMouseTracking(false);  // unbedingt vor dem GUI-Setup
 ```
 
-
-
 ## 
 
 ## MausMovement (055)

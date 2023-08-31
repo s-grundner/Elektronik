@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # Ein-/Ausgabe - Übungen
 
-##  Einführung scanf
+## Einführung scanf
 
 - Lesen Sie eine Zahl mittels scanf() ein und geben Sie diese wieder in der Konsole aus:
 
@@ -27,7 +27,7 @@ created: 29th November 2022
   printf("\nSie haben %d eingegeben!\n", num);
   ```
 
-##  Datum Einlesen (021)
+## Datum Einlesen (021)
 
 - Lesen Sie ein Datum in der Form TT.MM.JJJJ ein und geben es in der Form JJJJ-MM-TT wieder aus:
 
@@ -47,7 +47,7 @@ created: 29th November 2022
   printf("\nIhr Geburtsdatum: %04d-%02d-%02d\n", jahr, monat, tag);
   ```
 
-##  Mehrfach Einlesen (022)
+## Mehrfach Einlesen (022)
 
 - Lesen Sie mittels scanf() einen Buchstaben von der Tastatur ein.
 
@@ -93,11 +93,11 @@ created: 29th November 2022
 
   Eine andere Lösung ist für die erste Eingabe `scanf("%c\n" &a);` einzulesen, dann holt das scanf das eingegebene Zeichen UND die Eingabetaste ab. Für das nächste scanf ist der Stream dann leer.
 
-  Tipp: die gepufferten Streams können umgeleitet werden, siehe: https://de.wikibooks.org/wiki/Batch-Programmierung:_Batch-Operatoren
+  Tipp: die gepufferten Streams können umgeleitet werden, siehe: <https://de.wikibooks.org/wiki/Batch-Programmierung:_Batch-Operatoren>
 
-  also z.B. `xy.exe < c:\temp\in.txt` oder  `xy.exe < c:\temp\in.txt > c:\temp\out.txt` 
+  also z.B. `xy.exe < c:\temp\in.txt` oder `xy.exe < c:\temp\in.txt > c:\temp\out.txt` 
 
-##  Tastendruck (023)
+## Tastendruck (023)
 
 - Lesen Sie den Tastendruck mittels getch() solange ein bis die **z**-Taste gedrückt wird:
 
@@ -120,7 +120,7 @@ created: 29th November 2022
   } while (c != 'z');
   ```
 
-##  Pfeiltasten (024)
+## Pfeiltasten (024)
 
 - Lesen Sie den Tastendruck mittels getch() ein und geben nur Pfeiltasten aus:
 
@@ -151,7 +151,7 @@ created: 29th November 2022
   } while (c != 27);      // Esc
   ```
 
-##  BufferedReadWrite (025)
+## BufferedReadWrite (025)
 
 - Lesen Sie den Tastendruck mittels **fgetc(stdin)** ein und gebe das Zeichen direkt mittels **fputc(stdout)** aus. Beenden Sie die Eingabe mit **fgetc(stdin) = EOF**. EOF steht für EndOfFile.
 
@@ -174,7 +174,6 @@ created: 29th November 2022
   }
   ```
 
-
 ## Sterne 1 (026)
 
 - Lesen Sie eine Zahl num von der Tastatur ein
@@ -186,7 +185,7 @@ created: 29th November 2022
   ***************
   ```
 
-##  Sterne 2 (027)
+## Sterne 2 (027)
 
 - Lesen Sie eine Länge und eine Breite von der Tastatur ein
 
@@ -199,7 +198,7 @@ created: 29th November 2022
   *****
   ```
 
-##  Sterne 3 (028)
+## Sterne 3 (028)
 
 - Lesen Sie eine Zahl num von der Tastatur ein
 
@@ -215,7 +214,7 @@ created: 29th November 2022
   *
   ```
 
-##  Sterne 4 (029)
+## Sterne 4 (029)
 
 - Lesen Sie eine Zahl num von der Tastatur ein
 
@@ -231,7 +230,7 @@ created: 29th November 2022
   * ******
   ```
 
-##  Tabelle (030)
+## Tabelle (030)
 
 - Lesen Sie eine Länge und Breite einer Tabelle ein
 
@@ -247,13 +246,12 @@ created: 29th November 2022
    ---------------
   ```
 
-
-##  LowerUpperCase (031)
+## LowerUpperCase (031)
 
 - Ausgabe: "Geben Sie etwas ein (mit \<ENTER\> koennen Sie die Eingabe beenden): "
 - Lesen Sie ein Zeichen von der Tastatur ein unterdrücken Sie die Ausgabe.
-- Geben Sie eingegebene Kleinbuchstaben als Großbuchstaben aus, eingegebene Großbuchstaben als Kleinbuchstaben und Ziffern gestürzt:
-  0->9, 1->8 ... 8->1, 9->0. Sämtliche andere Zeichen sollen als Stern ausgegeben werden.
+- Geben Sie eingegebene Kleinbuchstaben als Großbuchstaben aus, eingegebene Großbuchstaben als Kleinbuchstaben und Ziffern gestürzt:  
+  0->9, 1->8 … 8->1, 9->0. Sämtliche andere Zeichen sollen als Stern ausgegeben werden.
 - Wiederholen Sie den Vorgang bis die Eingabetaste gedrückt wird.
 
 Hilfe:
@@ -268,15 +266,15 @@ Hilfe:
   Geben Sie etwas ein (mit <ENTER> koennen Sie die Eingabe beenden): hALLO*jAMES*bOND*992
   ```
 
-##  Kommentare (032)
+## Kommentare (032)
 
-- In einer c-Quellcode Datei sollen die Kommentare /* .... */ gelöscht werden.
+- In einer c-Quellcode Datei sollen die Kommentare /* …. */ gelöscht werden.
 - Dazu zeichenweise von der Tastatur einlesen und ausgeben.
 - Wenn ein /*-Tag kommt, dann wird begonnen nicht auszugeben. 
 - Wenn ein */- Tag kommt, dann wird aufgehört die Ausgabe zu unterdrücken.
 - Bei der Ausführung des Programms wird die Eingabe auf eine c-Quelldatei umgeleitet und die Ausgabe in eine Zweite
 
-##  Atoi (020, 033)
+## Atoi (020, 033)
 
 - Es gibt die Standard-Funktion atoi welche eine numerische Zeichenkette in eine Nummer umwandelt. Schreiben Sie diese Funktion.
 
@@ -304,7 +302,7 @@ Hilfe:
   Die doppelte Eingabe entspricht 2468
   ```
 
-##  Hex2dec (034)
+## Hex2dec (034)
 
 - Es gibt die Standard-Funktion hex2dec welche eine hexadezimale Zeichenkette in eine dezimale Nummer umwandelt. Schreiben Sie diese Funktion.
 

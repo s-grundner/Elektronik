@@ -22,15 +22,15 @@ Es wird unterschieden zwischen Befehlen zur Datenmanipulation einer DB (DML) (z.
 
 Auch die Datentypen können von Datenbank zu Datenbank unterschiedlich sein.
 
-- **character(n)**, **char(n)**    String fester Länge mit n Zeichen
-- **varchar2(n)**, **varchar(n)**    String variabler Länge mit bis zu n Zeichen (Anzahl der Zeichen dient lediglich der Anzeigelänge)
-- **integer**, **int**    ganze Zahl
-- **number(n,m)**, **decimal(n,m)**    Festkommazahl mit n Stellen, (m nach dem Komma)
-- **float(m)**    Gleitkommazahlen
-- **date**    Datum-/Zeitangabe
-- **long**    Zeichenkette bis zu 2 GByte
-- **raw**    Binärstrings bis zu 255 Bytes
-- **long raw**    Binärobjekte bis zu 2 GByte (Soundfiles, Videos, ...)
+- **character(n)**, **char(n)** String fester Länge mit n Zeichen
+- **varchar2(n)**, **varchar(n)** String variabler Länge mit bis zu n Zeichen (Anzahl der Zeichen dient lediglich der Anzeigelänge)
+- **integer**, **int** ganze Zahl
+- **number(n,m)**, **decimal(n,m)** Festkommazahl mit n Stellen, (m nach dem Komma)
+- **float(m)** Gleitkommazahlen
+- **date** Datum-/Zeitangabe
+- **long** Zeichenkette bis zu 2 GByte
+- **raw** Binärstrings bis zu 255 Bytes
+- **long raw** Binärobjekte bis zu 2 GByte (Soundfiles, Videos, …)
 
 ## DML - Data Manipulation Language
 
@@ -108,7 +108,7 @@ SELECT a.name1 AS name, a.persNr AS nummer FROM Angestellte a;
 SELECT teil FROM bestellungen WHERE gr=´OE´;
 ```
 
-Mit der *WHERE*-Klausel können Zeilen ausgewählt werden. Nur wenn in einer Zeile die angeführte Bedingung erfüllt wird (*gr*="OE"), dann wird die Zeile auch zurückgegeben. Als Operatoren gibt es NOT, AND, OR, <, <=, >, >=, =, <>, [NOT] BETWEEN ... AND, [NOT] in, [NOT] like, ALL, ANY, SOME, EXISTS, IS [NOT] NULL.
+Mit der *WHERE*-Klausel können Zeilen ausgewählt werden. Nur wenn in einer Zeile die angeführte Bedingung erfüllt wird (*gr*="OE"), dann wird die Zeile auch zurückgegeben. Als Operatoren gibt es NOT, AND, OR, <, <=, >, >=, =, <>, [NOT] BETWEEN … AND, [NOT] in, [NOT] like, ALL, ANY, SOME, EXISTS, IS [NOT] NULL.
 
 ```sql
 SELECT * FROM bestellungen WHERE bnr BETWEEN 72 AND 74;
@@ -131,7 +131,7 @@ Damit werden sämtliche gr-Gruppen der Bestellungen in eine Tabelle gelistet. Di
 | 71  | Milch | 1   | LM  |
 | 74  | Stift | 0   | OE  |
 
-Mit Gruppierung können einfach Aufstellungen von unterschiedlichen Elementen gemacht werden (welche gr gibt es ...). Mit den Mathematischen Funktionen können dabei auch sehr gut Teile gezählt werden:
+Mit Gruppierung können einfach Aufstellungen von unterschiedlichen Elementen gemacht werden (welche gr gibt es …). Mit den Mathematischen Funktionen können dabei auch sehr gut Teile gezählt werden:
 
 ```sql
 SELECT gr, COUNT(bnr) AS AnzTeile FROM bestellungen GROUP BY gr;
@@ -148,7 +148,7 @@ Damit werden nicht über die komplette Tabelle die Bestellnummern gezählt, sond
 
 Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. Für JOIN gibt es unterschiedliche Varianten - INNER, RIGHT/LEFT und OUTER.
 
-- INNER JOIN: für die Auswahl von Elementen die in beiden Teiltabellen vorhanden sind.
+- INNER JOIN: für die Auswahl von Elementen die in beiden Teiltabellen vorhanden sind.  
   Ermittlung nur jener Kunden die auch eine Bestellung getätigt haben:
   
   ![SQL_JOIN1](assets/SQL_JOIN1.png)
@@ -172,7 +172,7 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
   SELECT * FROM kunden, bestellungen WHERE bestellungen.knr=kunden.knr;
   ```
 
-- LEFT JOIN: Auswahl von sämtlichen Elementen aus der *linken* (erstgenannte) Tabelle. Wenn möglich werden die Datensätze mit Informationen der *rechten* Tabelle ergänzt.
+- LEFT JOIN: Auswahl von sämtlichen Elementen aus der *linken* (erstgenannte) Tabelle. Wenn möglich werden die Datensätze mit Informationen der *rechten* Tabelle ergänzt.  
   Auflistung sämtliche Kunden, vorhandene Bestellungen werden beim Kunden angeführt:
   
   ![SQL_JOIN1](assets/SQL_JOIN2.png)
@@ -192,7 +192,7 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
    5  Jenny  NULL   NULL   NULL
   ```
 
-- RIGHT JOIN: Analog zu LEFT JOIN, in manchen DB-Systemen gibt es nur einen der beiden, der jeweilig anderen kann ja durch vertauschen der Reihenfolge ermittelt werden.
+- RIGHT JOIN: Analog zu LEFT JOIN, in manchen DB-Systemen gibt es nur einen der beiden, der jeweilig anderen kann ja durch vertauschen der Reihenfolge ermittelt werden.  
   Sämtliche Bestellungen, wenn möglich komplettiert mit eventuell bestellenden Kunden (in diesem Beispiel gibt es interne Bestellungen - ohne Kunde):
   
   ![SQL_JOIN1](assets/SQL_JOIN3.png)
@@ -212,7 +212,7 @@ Mit JOIN im FROM eines SELECT können Tabellen miteinander kombiniert werden. F�
   NULL NULL  5    Tinte    0
   ```
 
-- OUTER JOIN: Für die Darstellung sämtlicher Datensätze beider Tabellen, wenn möglich werden die Sätze aus beiden Tabellen kombiniert.
+- OUTER JOIN: Für die Darstellung sämtlicher Datensätze beider Tabellen, wenn möglich werden die Sätze aus beiden Tabellen kombiniert.  
   Sämtliche Kunden und sämtliche Bestellungen, wenn Möglich mit Zuordnung:
 
 ![SQL_JOIN1](assets/SQL_JOIN4.png)
@@ -379,7 +379,7 @@ Verändern eines Interpreten-Namen (ist kein Schlüssel):
 UPDATE Kuenstler SET Interpret='Anasti' WHERE Interpret='Anastacia';
 ```
 
-Für Schlüsselelemente genau gleich, allerdings müssen sämtliche Fremdschlüssel eine Erlaubnis auf UPDATE beinhalten (kein RESTRICT ...).
+Für Schlüsselelemente genau gleich, allerdings müssen sämtliche Fremdschlüssel eine Erlaubnis auf UPDATE beinhalten (kein RESTRICT …).
 
 Löschen von Werten:
 
@@ -387,7 +387,7 @@ Löschen von Werten:
 DELETE FROM Kuenstler WHERE Interpret='Anastacia';
 ```
 
-Das funktioniert immer wenn der Interpret nicht verknüpft ist (noch keine CD hat ...). Wenn er verknüpft ist, dann muss für diese Verknüpfung zum Beispiel ON_DELETE=NULL gesetzt sein, dann zeigt die Verknüpfung eben ins Leere.
+Das funktioniert immer wenn der Interpret nicht verknüpft ist (noch keine CD hat …). Wenn er verknüpft ist, dann muss für diese Verknüpfung zum Beispiel ON_DELETE=NULL gesetzt sein, dann zeigt die Verknüpfung eben ins Leere.
 
 ## DDL - Data Definition Language
 
@@ -558,7 +558,7 @@ CREATE INDEX idx_pname
 ON Persons (LastName, FirstName); 
 ```
 
-Damit wird für die Tabelle *Persons* und die Spalten *LastName* und *FirstName* ein Index erzeugt. Wird nach einer Person mittels Vor- und Nachname gesucht, erfolgt anschließend die Suche schneller als ohne Index.
+Damit wird für die Tabelle *Persons* und die Spalten *LastName* und *FirstName* ein Index erzeugt. Wird nach einer Person mittels Vorund Nachname gesucht, erfolgt anschließend die Suche schneller als ohne Index.
 
 ### View
 

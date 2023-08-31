@@ -22,7 +22,7 @@
   nano wsl_init.sh
   ```
 
-  diesen Teil einfügen (https://github.com/JetBrains/clion-wsl/blob/master/ubuntu_setup_env.sh):
+  diesen Teil einfügen (<https://github.com/JetBrains/clion-wsl/blob/master/ubuntu_setup_env.sh):>
 
   ```
   #!/bin/bash
@@ -104,8 +104,8 @@
 
 ## CLion Config
 
-- CLion (Installieren + ) Starten
-  im Startmenü auf Configure->Edit Custom Properties...
+- CLion (Installieren + ) Starten  
+  im Startmenü auf Configure->Edit Custom Properties…  
   damit wird die Datei "C:\Users\roman\AppData\Roaming\JetBrains\CLion2020.2\idea.properties" editiert. Dort am Ende einfügen (Linux ist Case-Sensitiv):
 
   ```
@@ -116,24 +116,24 @@
 
 - Neues Projekt (WSL)
 
-  - File -> Settings...->Build, Exec...->Toolchains->+ (add Toolchain)
+  - File -> Settings…->Build, Exec…->Toolchains->+ (add Toolchain)
   - Environment *WSL*
-  - Credentials: *localhost*/*port:2222*/*ubuuser*/*comein* -> OK
+  - Credentials: *localhost*/*port:2222*/*ubuuser*/*comein* -> OK  
     muss auf *connected* schalten -> Settings beenden (OK)
 
 - Projekt Kompilieren, im CMake-Tab sollte CMAKE von */usr/bin/cmake* kommen. Eventuell ist es notwendig die konfigurierte Toolchain an erster Stelle zu plazieren, sonst klappts nicht immer.
 
-- Das Projekt wurde jetzt mittels Linux-Toolchain kompiliert und läuft daher nur dort ... (/mnt/c/temp/WSLN/cmake-build-debug$ ./WSL)
+- Das Projekt wurde jetzt mittels Linux-Toolchain kompiliert und läuft daher nur dort … (/mnt/c/temp/WSLN/cmake-build-debug$ ./WSL)
 
-https://www.jetbrains.com/clion/features/dynamic-analysis.html
+<https://www.jetbrains.com/clion/features/dynamic-analysis.html>
 
-https://www.youtube.com/watch?v=xnwoCuHeHuY
+<https://www.youtube.com/watch?v=xnwoCuHeHuY>
 
-https://docs.microsoft.com/de-de/windows/wsl/install-win10
+<https://docs.microsoft.com/de-de/windows/wsl/install-win10>
 
 ## Valgrind on WSL
 
-https://www.jetbrains.com/help/clion/memory-profiling-with-valgrind.html#start
+<https://www.jetbrains.com/help/clion/memory-profiling-with-valgrind.html#start>
 
 - Installation von valgrind in der WSL:
 
@@ -150,7 +150,7 @@ https://www.jetbrains.com/help/clion/memory-profiling-with-valgrind.html#start
 
 - Konfigurieren:
 
-  - File -> Settings...->Build, Exec...->Dynamic Analysis Tools->Valgrind
+  - File -> Settings…->Build, Exec…->Dynamic Analysis Tools->Valgrind  
     dort Valgrind executable:
 
     ``` 

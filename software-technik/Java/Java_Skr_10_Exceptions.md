@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 10 Ausnahmen / Exceptions
 
-In Software gibt's zum einen syntaktischen Fehler im Programm "Syntax Error". Diese können von einem Compiler gefunden werden (z.B. es fehlt eine Klammer, eine Variable wird verwendet, wurde aber nie definiert ...). Aufgrund dieser Art von Fehlern kann das Programm schon mal gar nicht kompiliert und ausgeführt werden.
+In Software gibt's zum einen syntaktischen Fehler im Programm "Syntax Error". Diese können von einem Compiler gefunden werden (z.B. es fehlt eine Klammer, eine Variable wird verwendet, wurde aber nie definiert …). Aufgrund dieser Art von Fehlern kann das Programm schon mal gar nicht kompiliert und ausgeführt werden.
 
 Wenn all diese syntaktischen Fehler ausgeräumt sind kann das Programm kompiliert und gestartet werden. Es können allerdings Fehler im Programm sein die erst während der Programmlaufzeit entstehen. Wird eine Division ausgeführt wobei der Divisor von der Tastatur eingelesen wird dann kann ja ein Benutzer eine 0 eingeben. Wenn das in der Programmlogik nicht geprüft wird, dann wird versucht eine Division durch 0 zu berechnen die allerdings nicht definiert ist. Fehler die erst zur Laufzeit auftreten - **Laufzeitfehler** - werden auch als Ausnahmen / Exception bezeichnet.
 
@@ -212,12 +212,12 @@ Der Catch-Block in Zeile 06 fängt keine IOException auf, wenn eine solche auftr
 
 - Oracle-Handbuch:
 
-  https://docs.oracle.com/javase/tutorial/essential/exceptions/
+  <https://docs.oracle.com/javase/tutorial/essential/exceptions/>
 
 - Insel (deutsch):
 
-  http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_06_001.htm
+  <http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_06_001.htm>
 
-- https://www.tutorialspoint.com/java/java_exceptions.htm
+- <https://www.tutorialspoint.com/java/java_exceptions.htm>
 
   

@@ -8,7 +8,7 @@ created: 29th November 2022
 
 ## Definition
 
-Daten können dauerhaft (*persistent* = bleiben nach Beendigung des Systems erhalten) in Dateien gespeichert werden. Die Entscheidung auf welche Art (binär, Text, XML-Formate ...) die Daten gespeichert werden, liegt bei einer Anwendung und kann mit Dateiendungen/Dateitypen (.txt, .xls ...) gekennzeichnet werden. Die Zugriffsart und der konkurrierende Zugriff mehrerer Anwendungen ist nicht geregelt (entscheidet das [Betriebssystem](../Os/Operating%20Systems.md)). Sollen:
+Daten können dauerhaft (*persistent* = bleiben nach Beendigung des Systems erhalten) in Dateien gespeichert werden. Die Entscheidung auf welche Art (binär, Text, XML-Formate …) die Daten gespeichert werden, liegt bei einer Anwendung und kann mit Dateiendungen/Dateitypen (.txt, .xls …) gekennzeichnet werden. Die Zugriffsart und der konkurrierende Zugriff mehrerer Anwendungen ist nicht geregelt (entscheidet das [Betriebssystem](../Os/Operating%20Systems.md)). Sollen:
 
 - große Datenmengen
 - von vielen Benutzern gleichzeitig
@@ -18,7 +18,7 @@ abgerufen oder abgelegt werden, dann ist der Einsatz von *Datenbanken* zweckmä�
 
 ## Software
 
-Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: ein *LAMP* [Stack](../ds-algo/Stack.md) ist ein Akronym für *LinuxApacheMysqlPhp*, das *X* steht für mehrere OS, das zweite *P* für Perl). Darin ist eine *MariaDB*-Datenbank verfügbar (https://www.apachefriends.org/de/index.html) auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. Für diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
+Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: ein *LAMP* [Stack](../ds-algo/Stack.md) ist ein Akronym für *LinuxApacheMysqlPhp*, das *X* steht für mehrere OS, das zweite *P* für Perl). Darin ist eine *MariaDB*-Datenbank verfügbar (<https://www.apachefriends.org/de/index.html)> auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. Für diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
 
 ![lampStack](assets/lampStack.png)
 
@@ -37,12 +37,12 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
 
 ## Begriffe
 
-- **Datenbanksystem DBS**:
+- **Datenbanksystem DBS**:  
   Beschreibung, Speicherung und Wiedergewinnung von Daten
 
 - Ein DBS setzt sich zusammen aus der **Datenbank DB** (die Sammlung sämtlicher Daten) und dem **Datenbank-Management-System DBMS** (ein Programmsystem welches die DB verwaltet, sie fortschreibt und den Zugriff regelt)
 
-- Abstraktionsebenen von Datenbanken. Datenbanken sind komplex. Ein einfacher Anwender der Daten aus einer Datenbank abfragt oder dort hineinschreibt, kennt oder sieht den inneren Aufbau (Dateiorganisation ...) einer Datenbank nicht (ist auch gut, dass das nicht notwendig ist). Er kennt nur eine externe Sicht auf die Datenbank via Browser- oder Anwendungsmasken.
+- Abstraktionsebenen von Datenbanken. Datenbanken sind komplex. Ein einfacher Anwender der Daten aus einer Datenbank abfragt oder dort hineinschreibt, kennt oder sieht den inneren Aufbau (Dateiorganisation …) einer Datenbank nicht (ist auch gut, dass das nicht notwendig ist). Er kennt nur eine externe Sicht auf die Datenbank via Browseroder Anwendungsmasken.
   
   Ein Datenbankadministrator kennt die dahinterliegende Schicht, ein Datenmodell und hat damit eine konzeptionelle Sicht. Diese Schicht ist oft einheitlich und unabhängig vom speziellen Produkt. 
   
@@ -50,17 +50,17 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
 
 ## Datenbankmodelle
 
-- **Hierarchische DB**
-  Ein Ursprungknoten von dem hierarchisch Abzweige erfolgen (ähnlich wie ein Dateisystem: Laufwerk->Verzeichnis->Verzeichnis...). Veraltetes Modell; eine kleine Veränderung in der DB Struktur, kann die komplette Struktur zerstören
+- **Hierarchische DB**  
+  Ein Ursprungknoten von dem hierarchisch Abzweige erfolgen (ähnlich wie ein Dateisystem: Laufwerk->Verzeichnis->Verzeichnis…). Veraltetes Modell; eine kleine Veränderung in der DB Struktur, kann die komplette Struktur zerstören
   
   ![](assets/DB_hierarchischesModell.png)
 
-- **Relationale DB**
+- **Relationale DB**  
   Organisation in Tabellen (Relationen) - sehr verbreitet, einfach, [redundant](../../netzwerk-technik/Redundanz.md) (siehe Unten)
 
 - **Objektorientiert** - sehr an Computerprogrammierung angepasst (Vertreter: db4o, PostgreSQL). Es können nicht nur Daten sondern auch Algorithmen abgelegt werden (~Methoden von Klassen)
 
-- **NoSql**
+- **NoSql**  
   explizit nicht-relationale Datenbank. SQL ist eine Sprache mit der üblicherweise mit relationalen Datenbanken gesprochen wird. Ursprünglich wurde häufig mit NoSql - kein SQL verbunden aktuell wird üblicherweise NoSql mit Not-Only-Sql beschrieben.
 
 ## Relationenmodell
@@ -76,7 +76,7 @@ In einer relationalen Datenbank sind die Daten in voneinander abhängigen Tabell
 - Schlüsselkandidat: ist eine Teilmenge der Superschlüssel und zwar diejenige die mit am wenigsten möglichen Attributen auskommt.
 - Primärschlüssel: Schlüssel mit eindeutiger Zuordnung. Mit dem Primärschlüssel ist die Zeile (Tupel) einer Tabelle bekannt. Ausgewählter Schlüsselkandidat. Kann in anderen Tabellen als Fremdschlüssel verwendet werden.
 - Fremdschlüssel: Schlüssel für Zuordnung zu anderer Tabelle (kann mehrfach vorkommen). In dieser anderen Tabelle ist dieser Schlüssel der Primärschlüssel
-- Relationsschema R(A1:D1, ..., Ak:Dk)  (Gesamtheit der Attribute einer Tabelle)
+- Relationsschema R(A1:D1, …, Ak:Dk) (Gesamtheit der Attribute einer Tabelle)
 - Relationale Datenbank: Menge der Teil-Relationsschemen mit zugehörigen Werten
 - [Redundanz](../../netzwerk-technik/Redundanz.md): Daten sind in einer Tabelle mehrfach abgelegt. Zum Beispiel kann in einer Rechnungstabelle ein Kunde öfter aufscheinen und ist damit [redundant](../../netzwerk-technik/Redundanz.md).
 - atomar: etwas nicht mehr weiter (sinnvoll) zerlegbares. Ein Name "Max Mustermann" lässt sic in die atomaren Teile "Max" und "Mustermann" zerlegen (es kann ja mehrere Max und mehrere Mustermann geben).
@@ -96,7 +96,7 @@ In einer relationalen Datenbank sind die Daten in voneinander abhängigen Tabell
 
 ## Referenzen
 
-- Allgemeine Einführung
+- Allgemeine Einführung  
   <http://www.datenbanken-verstehen.de/datenbank-grundlagen/datenbank/>
 
 ## Fragen

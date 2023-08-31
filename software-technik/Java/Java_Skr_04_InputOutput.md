@@ -4,6 +4,8 @@ aliases: []
 created: 29th November 2022
 ---
 
+# Java_Skr_04_InputOutput
+
 4 Ein-/Ausgabe
 ====================
 
@@ -41,7 +43,7 @@ created: 29th November 2022
 
   Die Möglichkeiten Variablen zu formatieren sind sehr umfangreich, für besondere Fälle daher:
 
-  https://docs.oracle.com/javase/10/docs/api/java/util/Formatter.html
+  <https://docs.oracle.com/javase/10/docs/api/java/util/Formatter.html>
 
 ## Eingabe
 

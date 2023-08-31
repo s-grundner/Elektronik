@@ -17,17 +17,18 @@
 
 ## Symbolische Konstante
 
-K&R-C kennt nur symbolische Konstanten, die mit Hilfe der Präprozessor-Direktive  *\#define* definiert werden können.
+K&R-C kennt nur symbolische Konstanten, die mit Hilfe der Präprozessor-Direktive *\#define* definiert werden können.
 
 ```c
 #define M 100
 #define N 2*M
 ```
 
-Im C-Quelltext, der dem Compiler übergeben wird, erscheinen an den Positionen,  an denen symbolische Konstanten standen, Literale (1, 0, 'a' ...). Symbolische Konstanten werden rein formal ersetzt, der Präprozessor ist nicht in der Lage, Typprüfungen durchzuführen.
+Im C-Quelltext, der dem Compiler übergeben wird, erscheinen an den Positionen, an denen symbolische Konstanten standen, Literale (1, 0, 'a' …). Symbolische Konstanten werden rein formal ersetzt, der Präprozessor ist nicht in der Lage, Typprüfungen durchzuführen.
 
 ### Der Typ-Modifizierer const
-Mit ANSI-C wurde das Schlüsselwort *const* als so genannter *Typ-Modifizierer* eingeführt: Einer Variablen-Definition kann das Schlüsselwort *const* vorangestellt werden.  Der Wert der derart deklarierten Variablen muss während der Definition zugewiesen werden und kann nicht durch direkte Zuweisungen verändert werden.
+
+Mit ANSI-C wurde das Schlüsselwort *const* als so genannter *Typ-Modifizierer* eingeführt: Einer Variablen-Definition kann das Schlüsselwort *const* vorangestellt werden. Der Wert der derart deklarierten Variablen muss während der Definition zugewiesen werden und kann nicht durch direkte Zuweisungen verändert werden.
 
 Beispiel:
 
@@ -107,7 +108,7 @@ test-const-ptr.c:15: error: assignment of read-only variable ‘const_buf_ptr’
 */
 ```
 
-Die Anwendungsmöglichkeiten von *const* in C und [C++](Cpp.md) unterscheiden sich ein wenig.
+Die Anwendungsmöglichkeiten von *const* in C und [C++](Cpp.md) unterscheiden sich ein wenig.  
 Beispiel:
 
 ```c
@@ -146,8 +147,6 @@ Hier wird deutlich: eine Zuweisung *p1 = 'A' verändert den ersten Buchstaben de
 
 Streichen Sie das Wort "*nicht*" an den richtigen Stellen durch:
 
-1) 
-
 ```c
 const struct s { int a, b; } x;             /*  x  nicht konstant  */
 struct s  y;                                /*  y  nicht konstant  */
@@ -156,7 +155,6 @@ typedef const struct s { int a, b; } stype;
 stype x;                                    /*  x  nicht konstant  */
 stype y;                                    /*  y  nicht konstant  */
 ```
-2)
 ```c
 int main(void){
 	char* const p1 = "John";	// p1 ist nicht const, wert ist nicht const
@@ -205,13 +203,14 @@ Mit *stream*s wird in [C++](Cpp.md) mittels Stream-Operator gearbeitet "<<" und 
 - hex - Ausgabe einer Zahl im Hexadezimalformat (cout << hex << 16;)
 - allgemein für cout [`std::cout.flags ( std::ios::right | std::ios::hex | std::ios::showbase );`]
 
-siehe Referenz, z.B. http://www.cplusplus.com/reference/ios/ios_base/flags/
+siehe Referenz, z.B. <http://www.cplusplus.com/reference/ios/ios_base/flags/>
 
 ```c++
 int var;
 cout << "Geben Sie eine Zahl ein: " << endl;
 cin >> var;
 ```
+
 ## Namespace
 
 für größere Projekte ist eine Organisationsstruktur (ähnlich *package* in JAVA) geschaffen worden. Es kann in einem Projekt mehrere gleichbenannte Funktionen geben. Um zwischen den unterschiedlichen Funktionen unterscheiden zu können werden sie in Namensräumen implementiert bzw. über diese aufgerufen:
@@ -287,6 +286,7 @@ void main() {
 	var = ::var;	// lokales var wird mit globalem var (3) überschrieben
 	...
 ```
+
 ## Inline-Funktionen
 
 Mit dem Attribut *inline* ersetzt eine Funktion bei der Kompilierung den Aufruf (kein Sprung zur Funktion):
@@ -295,7 +295,7 @@ Mit dem Attribut *inline* ersetzt eine Funktion bei der Kompilierung den Aufruf 
 inline int myFunc(int a, int b)
 ```
 
-Das ist ähnlich einem Makro. Vorteil gegenüber Makro: es findet eine Compiler-Überprüfung statt (im Makro nicht). Weiters kann eine inline-Funktion Laufzeitvorteile bringen (kein Stack-Kopieren ...). Achtung: inline ist eine Empfehlung an den Compiler, der muss sich nicht unbedingt daran halten.
+Das ist ähnlich einem Makro. Vorteil gegenüber Makro: es findet eine Compiler-Überprüfung statt (im Makro nicht). Weiters kann eine inline-Funktion Laufzeitvorteile bringen (kein Stack-Kopieren …). Achtung: inline ist eine Empfehlung an den Compiler, der muss sich nicht unbedingt daran halten.
 
 ## Funktionen überladen
 
@@ -318,6 +318,7 @@ extern "C" {
   }
 }
 ```
+
 ## Referenz-Operator
 
 - Mit *int &a = b;* kann eine Referenz auf *b* erzeugt werden. Mit *a++* wird gleichzeitig *b* erhöht. Eine Referenz muss immer initialisiert werden. Das ist wie ein anderer Name auf die gleiche Variable.
@@ -352,7 +353,7 @@ int *ptr{&num1};					 // ptr zeigt auf num1
 int myArr[] {1,2,3,4,5};	 // myArr ist ein Array mit definierten Werten
 ```
 
-In C++ ist ein "..."-String automatisch ein *const-char-C-String*. Um ihn als *C++ String* darzustellen wird ein *s* hinten angehängt "..."s.
+In C++ ist ein "…"-String automatisch ein *const-char-C-String*. Um ihn als *C++ String* darzustellen wird ein *s* hinten angehängt "…"s.
 
 Der Unterschied zwischen einer in C++ klassischen Initialisierung mittels Zuweisung und der {}-Initialisierung ist, das kein unbeabsichtigter Informationsverlust passieren kann:
 
@@ -397,10 +398,10 @@ Das implizite Casten wird mit ebendieser Variante gelöst.
 
 - Gute Referenz
 
-  http://www.cplusplus.com/
+  <http://www.cplusplus.com/>
   
-- Komplettes Referenzhandbuch
-  https://de.cppreference.com/w/
+- Komplettes Referenzhandbuch  
+  <https://de.cppreference.com/w/>
 
 ## Fragen
 

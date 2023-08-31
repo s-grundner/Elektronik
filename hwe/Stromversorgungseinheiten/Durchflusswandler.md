@@ -13,8 +13,9 @@ created: 13th October 2022
 
 ## Typen
 
-[Eintakt-Durchflusswandler](Eintakt-Durchflusswandler.md)
+[Eintakt-Durchflusswandler](Eintakt-Durchflusswandler.md)  
 [Halbbrücken-Durchflusswandler](Halbbrücken-Durchflusswandler.md)
 
 # Tags
+
 ![Schaltnetzteile_Schmidt-Walter](../assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)

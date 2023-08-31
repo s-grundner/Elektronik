@@ -10,7 +10,7 @@ Erstellen Sie für die Einkauf-DB (aus den SQL-Übungen) eine Anzeige der Kunden
   
   ![php_einkauf01](assets/php_einkauf01.png)
 
-- Nachdem die Zugangsdaten eingegeben werden, wird auf folgendes Fenster gewechselt:
+- Nachdem die Zugangsdaten eingegeben werden, wird auf folgendes Fenster gewechselt:  
   ![php_einkauf03](assets/php_einkauf03.png)
   
   Es werden sämtliche Spalten angezeigt `$stmt->columnCount()` und die Namen ermittelt `$stmt->getColumnMeta($i)['name']`.
@@ -25,7 +25,7 @@ Erstellen Sie für die Einkauf-DB eine Anzeige der Kunden-Tabelle.
   
    ![php_einkauf01](assets/php_einkauf01.png)
 
-- Nachdem die Zugangsdaten eingegeben werden, wird auf folgendes Fenster gewechselt:
+- Nachdem die Zugangsdaten eingegeben werden, wird auf folgendes Fenster gewechselt:  
    ![php_einkauf02](assets/php_einkauf02.png)
   
    Es werden sämtliche Spalten angezeigt `$stmt->columnCount()` und die Namen ermittelt `$stmt->getColumnMeta($i)['name']`.
@@ -34,16 +34,16 @@ Erstellen Sie für die Einkauf-DB eine Anzeige der Kunden-Tabelle.
 
 - Die Filter-Schaltfläche ruft die eigene Seite erneut auf, gibt allerdings diesmal den Filter-Parameter mit. Die Prüfung darauf erfolgt mit: `isset($_POST['filterName'])` -> liefert nur *true* wenn der Parameter existiert (leer oder auch nicht). Mit `empty($_POST['filterName'])` wird geprüft ob der Wert leer ist. 
 
-- Die DB-Zugangsdaten werden bei der Filterung mittels globaler Variable übergeben. Dafür wird im Skript `start_session()` eingebaut womit mittels `$_SESSION['...']` Parameter übergeben werden können.
+- Die DB-Zugangsdaten werden bei der Filterung mittels globaler Variable übergeben. Dafür wird im Skript `start_session()` eingebaut womit mittels `$_SESSION['…']` Parameter übergeben werden können.
 
-- Versuchen sie die Tabelle mittels SQL-Injection zu leeren. Je nach Implementierung kann das etwa so erfolgen:
+- Versuchen sie die Tabelle mittels SQL-Injection zu leeren. Je nach Implementierung kann das etwa so erfolgen:  
   `" OR "1"; DELETE FROM MY_EINKAUF.KUNDEN WHERE "1";COMMIT;"`
 
 ## Univerwaltungssystem
 
 Erstellen Sie mittels PHP und der Uni-Datenbank die folgenden Seiten:
 
-##### ![Uni-Verwaltung](assets/Php_Uni001.png)
+### ![Uni-Verwaltung](assets/Php_Uni001.png)
 
 ## Prüfungsanmeldung
 

@@ -42,9 +42,9 @@ A recursive function returns itself as a function call. A *Base-Case*(Stop condi
 
 To reduce [time complexity](O-Notation.md), it is recommended to save repeating patterns (in objects or structs).
 
-> [!example] fibonacci
-> non-optimized function, without memoization:
-> [time complexity](O-Notation.md): $O(2^{n})$❌
+> [!example] fibonacci  
+> non-optimized function, without memoization:  
+> [time complexity](O-Notation.md): $O(2^{n})$❌  
 > [space complexity](O-Notation.md): $O(n)$ ✅
 >
 > ``` js
@@ -54,8 +54,8 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 > }
 > ```
 >
-> optimized function, with memoization:
-> [time complexity](O-Notation.md): $O(n)$ ✅
+> optimized function, with memoization:  
+> [time complexity](O-Notation.md): $O(n)$ ✅  
 > [space complexity](O-Notation.md): $O(n)$ ✅
 >
 > ```js
@@ -67,7 +67,7 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 > }
 > ```
 > 
-> repeated patterns in the recursion tree are saved in the `memo` object.
+> repeated patterns in the recursion tree are saved in the `memo` object.  
 > ![650](fib_tree.svg)
 > 
 > ``` js
@@ -83,7 +83,7 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 > }
 > ```
 
-> [!example] gridTraveler
+> [!example] gridTraveler  
 > Say that you are a traveler on a 2D grid. You begin in the top-left corner and your goal is to travel to the bottom-right corner. You may only move down or right.
 > 
 > In how many ways can you travel to the goal on a grid with dimensions $m\cdot n$
@@ -96,7 +96,9 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 | 1. right, right, down<br> 2. right, down, right <br> 3. down, right, right<br>|![gridTraveler(2,3)](gridTraveler(2,3).svg) |
 
 ---
+
 # Tags
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oBt53YbR9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJDJ0kBx2LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

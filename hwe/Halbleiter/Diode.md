@@ -6,8 +6,7 @@ source: ["Roman Schragl", "Michael Offenhuber", "Robert Vogl"]
 created: 16th March 2022
 ---
 
-
-# [Silizium](Halbleiter/Halbleiter.md)-Diode (https://de.wikipedia.org/wiki/Diode)
+# [Silizium](Halbleiter/Halbleiter.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
 
 ## Grundlagen
 

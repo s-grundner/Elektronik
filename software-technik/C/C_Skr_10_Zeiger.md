@@ -13,7 +13,7 @@ Zeiger = Referenz = Pointer = Adresse auf einen Speicherbereich. Auf dieser Adre
 Das Programm und die Daten (Variable, Konstante) sind im Speicher abgelegt. Der Speicher kann als linear adressierbarer Bereich gesehen werden in dem jede Variable und jede Zeile Code (Maschinencode) eine Adresse hat. In modernen Betriebssystemen (wie Windows) wird einem Prozess der gestartet wird (Das erstellte Programm ist z.B. so ein Prozess) ein eigener Speicherbereich zugeteilt. In diesem liegen grundsätzlich immer:
 
 - der ausführbare Code - das Programm das ausgeführt wird und
-- Daten - globale/lokale Variable, Konstante ...
+- Daten - globale/lokale Variable, Konstante …
 
 Ein Bereich im Speicher kann mit einer Adresse angesprochen werden. Jedes Byte im Speicher hat eine eigene Adresse beginnend von 0x0000 0000 bis 0xFFFF FFFF (32 Bit).
 
@@ -49,7 +49,7 @@ int* ptr2;
 int * ptr3;
 ```
 
-Man bezeichnet Adressen häufig als Zeiger oder Pointer da Adressen auf Daten *zeigen* bzw. *auf diese referenzieren*.  Sämtliche oben angeführte Formen sind zulässig. Zu Empfehlen ist die erste Form. Damit ist am deutlichsten ersichtlich, dass es sich bei ptr1 um einen Zeiger handelt.
+Man bezeichnet Adressen häufig als Zeiger oder Pointer da Adressen auf Daten *zeigen* bzw. *auf diese referenzieren*. Sämtliche oben angeführte Formen sind zulässig. Zu Empfehlen ist die erste Form. Damit ist am deutlichsten ersichtlich, dass es sich bei ptr1 um einen Zeiger handelt.
 
 ```c
 int* ptr1, ptr2;
@@ -179,7 +179,7 @@ int *ptr;
 ptr = (int*) malloc(10 * sizeof(int));	// 10 int reservieren (40 Bytes)
 ```
 
-**void *malloc(size_t size):** (Memory Allocation)  Speicherplatz wird reserviert und die Adresse zurückgegeben. Als Parameter wird die *Größe in Bytes* angegeben. Der Rückgabewert ist vom Typ (void *) und wird auf den Typ gecastet für den der Speicher verwendet werden soll. **malloc()** initialisiert den Speicher nicht, d.h. was immer an dieser Speicher war bleibt dort, der Speicher wird lediglich reserviert.
+**void *malloc(size_t size):** (Memory Allocation) Speicherplatz wird reserviert und die Adresse zurückgegeben. Als Parameter wird die *Größe in Bytes* angegeben. Der Rückgabewert ist vom Typ (void *) und wird auf den Typ gecastet für den der Speicher verwendet werden soll. **malloc()** initialisiert den Speicher nicht, d.h. was immer an dieser Speicher war bleibt dort, der Speicher wird lediglich reserviert.
 
 **void *calloc(size_t anzahl, size_t groesse):** es wird Speicherplatz reserviert und dieser gleichzeitig auf 0 initialisiert:
 

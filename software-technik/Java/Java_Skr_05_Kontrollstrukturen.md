@@ -104,7 +104,7 @@ switch (Ausdruck) {
 }
 ```
 
-*Ausdruck* in der Mehrfachverzweigung muss vom gleichen Typ sein wie *Wert1* ... *WertN*. Damit *Anweisung1* ausgeführt wird, muss *Ausdruck* gleich *Wert1* sein. Damit *Anweisung2* ausgeführt wird muss *Ausdruck* gleich *Wert2* sein und so fort. Die *DefaultAnweisung* wird ausgeführt wenn *Ausdruck* keinem der Werte *Wert1* ... *WertN* entspricht.
+*Ausdruck* in der Mehrfachverzweigung muss vom gleichen Typ sein wie *Wert1* … *WertN*. Damit *Anweisung1* ausgeführt wird, muss *Ausdruck* gleich *Wert1* sein. Damit *Anweisung2* ausgeführt wird muss *Ausdruck* gleich *Wert2* sein und so fort. Die *DefaultAnweisung* wird ausgeführt wenn *Ausdruck* keinem der Werte *Wert1* … *WertN* entspricht.
 
 Der *default*-Fall ist optional, das bedeutet er darf entfallen.
 

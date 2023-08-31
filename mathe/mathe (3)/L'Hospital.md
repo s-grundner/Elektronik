@@ -8,14 +8,14 @@ created: 21st November 2022
 
 # L'Hospital
 
-> [!important] Führt ein [Grenzwert](Grenzwert.md) auf einen unbestimmten Ausdruck der Form "$\frac{0}{0}$" oder "$\frac{\infty}{\infty}$", wo gilt: 
+> [!important] Führt ein [Grenzwert](Grenzwert.md) auf einen unbestimmten Ausdruck der Form "$\frac{0}{0}$" oder "$\frac{\infty}{\infty}$", wo gilt:  
 > $$ \lim_{x\rightarrow x_{0}}\frac{f(x)}{g(x)} = \lim_{x\rightarrow x_{0}}\frac{f'(x)}{g'(x)} $$
 
 - $f(x)$ und $g(x)$ müssen dazu an der Stelle $x_{0}$ differenziert werden.
 - $f(x)$ und $g(x)$ müssen getrennt differenziert werden.
 - die Regel von *L'Hospital* kann mehrmals hintereinander angeordnet werden. 
 
-> [!example] Beispiel:
+> [!example] Beispiel:  
 > $$\lim_{x\rightarrow\infty} \frac{\sin(x)}{x}=\lim_{x\rightarrow\infty} \frac{\cos(x)}{1}=1$$
 
 > [!important] Jede Exponentialfunktion geht schneller gegen $\infty$ als jede Potenzfunktion, daher:

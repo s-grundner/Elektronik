@@ -24,10 +24,10 @@ created: 19th August 2023
 1. Dünnes Dielektrikum zwischen Signal-Layer und GND-Layer
 	- Verbessert die Kopplung zwischen Signal und GND
 	- verringert [Induktivität](Induktivitäten.md)
-	- erhöht [Kapazität](Kapazität.md) zwischen Flächen
+	- erhöht [Kapazität](Kapazität.md) zwischen Flächen  
 	$\Big(C=\dfrac{\varepsilon_{0}\cdot\varepsilon_{r}\cdot A}{d}\Big)$
 2. Mindestens 1x GND Layer über/unter einem Signal/Power Layer
-	- Grenzt E- und H-Felder ein
+	- Grenzt Eund H-Felder ein
 	- verringert [Induktivität](Induktivitäten.md)
 	- gute Stromrückfluss
 	- gute Leistungsverteilung
@@ -42,11 +42,11 @@ created: 19th August 2023
 4. Leiterbahnen am Rand der Platine vermeiden
 	- Niedriges [VSWR](../hf-technik/Stehwellenverhältnis.md)
 	- keine [Reflexionen](../hf-technik/Reflexionsfaktor.md)
-1. Leiterbahnen *niemals* über Referenzlücken routen
+5. Leiterbahnen *niemals* über Referenzlücken routen
 
 ### Durchkontaktierungen / Vias
 
-> [!hint] Induktivität wird mit der Distanz größer
+> [!hint] Induktivität wird mit der Distanz größer  
 > Vias in paaren Platzieren
 > - Power und GND Vias ==dicht== nebeneinander Platzieren
 > - Mit jedem Signal Via ein Referenz-Via ==dicht== daneben Platzieren 

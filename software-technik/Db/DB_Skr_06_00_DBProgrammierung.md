@@ -1,6 +1,6 @@
 # 6 Datenbankprogrammierung
 
-SQL ist als reine Zugriffs- und Verwaltungssprache entworfen worden. Anfänglich gab es in SQL keine Kontroll-, Schleifen- oder Verzweigungsanweisungen. Sie beschränkt sich auf die Beschreibung und den Zugriff auf die Datenbank.
+SQL ist als reine Zugriffsund Verwaltungssprache entworfen worden. Anfänglich gab es in SQL keine Kontroll-, Schleifenoder Verzweigungsanweisungen. Sie beschränkt sich auf die Beschreibung und den Zugriff auf die Datenbank.
 
 In modernen Programmen wird eine komfortable Oberfläche erwartet. Damit ergibt sich der Zwang sich an Programmierumgebungen außerhalb der Datenbank zu binden. Typische Anwendungsfälle:
 

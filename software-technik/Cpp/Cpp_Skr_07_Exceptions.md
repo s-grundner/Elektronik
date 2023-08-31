@@ -4,14 +4,14 @@
 
 Grundsätzlich gibt es zwei Arten von Fehlern:
 
-1. Fehler die durch entsprechend hochwertige Lösung (Design, Test, Review ...) vermieden werden
+1. Fehler die durch entsprechend hochwertige Lösung (Design, Test, Review …) vermieden werden
 2. Fehler, die im laufenden Betrieb jederzeit auftreten können
 
 Für den 2. Fall gibt es in C++ eine Möglichkeit auf ein Auftreten zu reagieren. Beispiele für derartige Fehler:
 
 - numerische Probleme (**Division durch 0**)  	
-- Dateiprobleme (**Datei nicht gefunden**, zu wenige Datensätze, Medium beim Schreiben voll, kein Zugriff auf Laufwerk, Datei verschoben ...)  	
-- Probleme mit Arrays (**zu kleine Dimensionierung**, Bereichsüberschreitung eines Index ...)  	
+- Dateiprobleme (**Datei nicht gefunden**, zu wenige Datensätze, Medium beim Schreiben voll, kein Zugriff auf Laufwerk, Datei verschoben …)  	
+- Probleme mit Arrays (**zu kleine Dimensionierung**, Bereichsüberschreitung eines Index …)  	
 - Speicherprobleme (**zu wenig Speicher bei Reservierung**)
 
 Diese Klasse von Fehlern wird in der Informatik als **Ausnahme** (Exception) bezeichnet. Im einfachsten Fall wird durch den Programmierer jede vorhersehbare Ausnahme berücksichtigt und entsprechend durch Fallunterscheidungen (Verzweigungen) reagiert.
@@ -62,7 +62,7 @@ int main(){
 }
 ```
 
-Mit *throw* kann ein beliebiges Datum (int Wert, ... Objekte oder Exception) mit übergeben werden. 
+Mit *throw* kann ein beliebiges Datum (int Wert, … Objekte oder Exception) mit übergeben werden. 
 
 Gleichbedeutend:
 
@@ -222,5 +222,5 @@ Für *static_assert* ist dieses Beispiel typisch - diese Assertion kann direkt i
 
 Eine effiziente Art und Weise auf Fehlersituationen in Programmen reagieren zu können.
 
-- http://www.cpp-entwicklung.de/cpplinux3/cpp_main/cpp_mainch4.html
+- <http://www.cpp-entwicklung.de/cpplinux3/cpp_main/cpp_mainch4.html>
 

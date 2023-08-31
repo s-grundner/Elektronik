@@ -40,16 +40,19 @@ B_{13} & B_{23}\\
 \end{pmatrix}
 \end{align*}
 $$
+
 ## Multiplikation
 
-> [!important] Größe des Produkts
+> [!important] Größe des Produkts  
 > ![525](../assets/Matrix_multiplication.png)
 
 
-> [!important] Berechnung der Werte
+> [!important] Berechnung der Werte  
 > ![400](../assets/Pasted%20image%2020230102212307.png)
 
 
 ---
+
 # Tags
-https://de.wikipedia.org/wiki/Matrizenmultiplikation
+
+<https://de.wikipedia.org/wiki/Matrizenmultiplikation>

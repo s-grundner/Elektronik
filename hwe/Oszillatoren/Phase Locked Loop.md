@@ -32,11 +32,11 @@ Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines ver�
 
 # Phasedetector (PD)
 
-Der Phasedetector vergleicht die ... sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, der Abweichung proportionales Signal, ausgegeben.
+Der Phasedetector vergleicht die … sind beide Frequenzen gleich, ist die PLL im *Locked*-Zustand, ansonsten (wenn ungleich) wird ein, der Abweichung proportionales Signal, ausgegeben.
 
 ## XOR Phase Detector
 
-Ein einfaches Modell für einen Phasendetektor ist ein XOR-Gatter.
+Ein einfaches Modell für einen Phasendetektor ist ein XOR-Gatter.  
 Je größer die Phasenabweichung, desto höher das "PWM" am Ausgang des XOR Gatters.
 
 ![625](../assets/XOR-PD.png)
@@ -51,10 +51,10 @@ siehe: [MT-086](../assets/pdf/MT-086.pdf)
 
 # Loop Filter
 
-Das rechteck-förmige Ausgangssignal des PD besteht aus einer Vielzahl von Frequenzen.
+Das rechteck-förmige Ausgangssignal des PD besteht aus einer Vielzahl von Frequenzen.  
 Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert.
 
-> [!warning] Der Filter hat daher eine Tiefpass-Charakteristik.
+> [!warning] Der Filter hat daher eine Tiefpass-Charakteristik.  
 > Tiefpass 1. Ordnung
 
 # [VCO](Voltage%20Controlled%20Oscillator.md)

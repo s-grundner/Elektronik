@@ -6,20 +6,20 @@ created: 29th November 2022
 
 # Wiederholung C
 
-### Datentypen
+## Datentypen
 
 - char, int, short, long, float, double
 - signed/unsigned
 
-### Arrays/Felder
+## Arrays/Felder
 
 - Definition *int arr[]*
-- Kann von jedem Typ gemacht werden (auch von Feldern, Strukturen ...)
+- Kann von jedem Typ gemacht werden (auch von Feldern, Strukturen …)
 - Index *0 .. n-1*
 - Keine Prüfung auf Bereichsüberschreitung (IndexOutOfBoundsException)
 - Sonderfall *Zeichen*-Feld (= String)
 
-### Zeichenketten
+## Zeichenketten
 
 - In C immer nur eine Folge von char-Zeichen
 
@@ -39,15 +39,15 @@ created: 29th November 2022
 
   - strtok() Ein Delimiter wird durch 0 ersetzt und ein Zeiger auf den Teilstring (token) zurückgegeben.
 
-### Funktionen
+## Funktionen
 
 - Funktionsdeklaration mittels Prototyp (Funktionskopf)
 - Call-by-Value: Werte werden in Funktionsparameter einkopiert
 - Call-by-Reference: Adressen von Variablen werden in Funktionsparameter einkopiert
-- Parameter als einfache Datentypen (int, char ...), als Zeiger, Strukturen und als Felder
+- Parameter als einfache Datentypen (int, char …), als Zeiger, Strukturen und als Felder
 - Feldparameter werden als Zeiger übergeben. Ein sizeof() auf diese Parameter liefert immer die Zeigergröße (4) und nicht die Feldgröße (weil ja Zeiger nicht Feld)
 
-### Zeiger
+## Zeiger
 
 - Zeiger = Pointer = Adresse = Referenz
 - Zeiger sind Adressen und daher immer gleich groß (4 Bytes), unabhängig worauf sie zeigen
@@ -57,17 +57,17 @@ created: 29th November 2022
 - Felder sind Zeiger. Eine Feldvariable zeigt auf die Adresse des 1ten Elements des Feldes
 - Dynamische Speicherreservierung und Freigabe *alloc/free*
 
-### Makros
+## Makros
 
 - Präprozessor-Direktive, werden vor der Übersetzung (Kompilierung) des Programms ersetzt (durch den Präprozessor)
-- Kann Parameter beinhalten *\#define       MAX(x,y)     (x > y ? x : y)*
+- Kann Parameter beinhalten *\#define MAX(x,y) (x > y ? x : y)*
 - Keine Typprüfung in Makros (Nachteil gegenüber inline-Funktionen)
 
-### Dateizugriff
+## Dateizugriff
 
 - Ablauf Öffnen - Lesen/Schreiben - Schließen
 
-### Module
+## Module
 
 - h-Dateien (Einbinden von Prototypen)
 - c-Dateien (Implementierung der Funktionen)

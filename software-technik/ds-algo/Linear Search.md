@@ -7,7 +7,9 @@ created: 17th April 2022
 ---
 
 # Linear Search
+
 ## Python Code
+
 ~~~ python
 def linear_search(list, target):
 	# Returns the index position of the target if found
@@ -20,4 +22,5 @@ def linear_search(list, target):
 ~~~
 
 ---
+
 # Tags

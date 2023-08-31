@@ -1,6 +1,6 @@
 # 2 Git - CI/CD - Pipelines
 
-CI = Continuous Integration
+CI = Continuous Integration  
 CD = Continuous Deployment/Delivery
 
 Mit *CI* lassen sich in *GitLab* automatische Abläufe (Pipelines) generieren. Beispielsweise kann ein *Push* auf ein Remote-Repo einen Build, einen Test oder die Erstellung einer Doku auslösen. Erstellen einer Pipeline:
@@ -9,7 +9,7 @@ Mit *CI* lassen sich in *GitLab* automatische Abläufe (Pipelines) generieren. B
 
 - Neue Datei erstellen *.gitlab-yi.yml*
 
-- Beispielhaft 2 Stages (2 Stufen in der Pipeline): Build-Stage und Test-Stage
+- Beispielhaft 2 Stages (2 Stufen in der Pipeline): Build-Stage und Test-Stage  
   .gitlab-ci.yml:
 
   ```
@@ -31,14 +31,14 @@ Mit *CI* lassen sich in *GitLab* automatische Abläufe (Pipelines) generieren. B
     - test -f "build/info.txt"
   ```
 
-  Achtung: es sind keine Tabs... erlaubt, Einrücken muss stimmen
+  Achtung: es sind keine Tabs… erlaubt, Einrücken muss stimmen
 
   **stages:** dieser Abschnitt zeigt GitLab vorab wie die Pipeline aussieht. Hier werden sämtliche Pipe-Stages eingetragen.
 
   **build:** erster Pipe-Stage - folgend werden Optionen zu diesem Stage gesetzt, hier etwa
   
   - der Name (*stage: build*) und 
-  - das Skript, das ausgeführt werden soll (script: ...)
+  - das Skript, das ausgeführt werden soll (script: …)
   
   Allgemein: jeder Stage läuft in einem *[Docker](../../Docker.md)-Image* (Vorstellbar wie eine virtuelle Maschine). Wird es nicht anders angegeben, dann wählt GitLab das verwendete Image - aktuell Standard: Ruby-image
   
@@ -190,5 +190,5 @@ Sinn der Sache: es kann sichergestellt werden, dass ein Projekt unter Umständen
 
 ## Referenz
 
-- Video:
-  https://www.youtube.com/watch?v=Jav4vbUrqII
+- Video:  
+  <https://www.youtube.com/watch?v=Jav4vbUrqII>

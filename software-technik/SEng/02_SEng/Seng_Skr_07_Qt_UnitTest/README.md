@@ -5,11 +5,12 @@ created: 29th November 2022
 ---
 
 # README
+
 ## Unit-Test mit QTCreator C++ (651)
 
-https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html
+<https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html>
 
-https://www.youtube.com/watch?v=MqI8jPFcSkE
+<https://www.youtube.com/watch?v=MqI8jPFcSkE>
 
 In diesem Beispiel wird die Addition eines Taschenrechners erstellt. Die Taschenrechner-Software ist in der Klasse *Calculator* zu finden. Der Test der Funktion dieser Klasse wird in die Klasse *TestCalculator* entwickelt.
 

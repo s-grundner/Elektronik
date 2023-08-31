@@ -8,16 +8,17 @@ created: 19th April 2022
 
 # Universal Asynchronous Receive and Transmit
 
-UART steht für Universal Asynchronous Receive and Transmit und ist, wie der Name bereits sagt, ein serielles, asynchrones Übertragungsprotokoll.
-Mit UART, welche Datenübertragungen im Vollduplex-Betrieb unterstützt, werden zwei Bauelemente miteinander verbunden.
-Die Bus-Teilnehmer sind hierbei gleichgestellt, was heißt, dass des keinen Mastercontroller gibt, welcher den Bus steuert.
-Die Daten werden einfach gesendet. Bei der Verdrahtung ist zu beachten, dass die Übertragungsleitungen überkreuzt angeschlossen werden müssen.
+UART steht für Universal Asynchronous Receive and Transmit und ist, wie der Name bereits sagt, ein serielles, asynchrones Übertragungsprotokoll.  
+Mit UART, welche Datenübertragungen im Vollduplex-Betrieb unterstützt, werden zwei Bauelemente miteinander verbunden.  
+Die Bus-Teilnehmer sind hierbei gleichgestellt, was heißt, dass des keinen Mastercontroller gibt, welcher den Bus steuert.  
+Die Daten werden einfach gesendet. Bei der Verdrahtung ist zu beachten, dass die Übertragungsleitungen überkreuzt angeschlossen werden müssen.  
 ![UART_Wiring](assets/UART_Wiring.png)
 
 UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft über eine USB-Bridge den Flashspeicher beschreiben. Die USB-Bridge spricht das System dabei mit UART an. Auch das Debuggen erfolgt meistens über diese serielle [Schnittstelle]({MOC}%20Schnittstellen.md).
 
 ## Die übertragenen Datenpakte haben folgendes Format
-![UART_Frame](assets/UART_Frame.png)
+
+![UART_Frame](assets/UART_Frame.png)  
 Ein Startbit signalisiert dem Empfänger, dass eine Übertragung beginnt. Das Potential auf der Übertragungsleitung ist _Normally-High_ und wird durch das Startbit auf _Low_ gezogen. Anschließend folgt das Datenframe, welches je nach Konfiguration fünf bis neun Bit lang ist. Eine Paritätsbit dient zur Validierung der Übertragung. Dieses Bit kann aber auch im Controller ausgeschalten werden. Am Ende der Übertragung setzt ein Stop Bit den Bus wieder auf den Idle-Zustand.
 
 # AVR Example
@@ -29,6 +30,7 @@ USART Parameters:
 | Tabelle<br>Datenblatt | RX<br>TX | 1 Bit <br> (Standard) | 8 Bit <br> (Standard) | Aus <br> (Standard) | UDRE, RXC, TXC | Asynchron <br> (Standard) |
 
 ## USART RXC Interrupt
+
 ```c
 void usart_init(void)
 {
@@ -38,11 +40,11 @@ void usart_init(void)
 }
 ```
 
-> [!info] LED mit USART Steuern
-> Unter Verwendung der obigen Funktion, schreib ein Programm,
-> welches bei der Eingabe über die serielle Schnittstelle bei `'e'` `PD7` auf *high* setzt und bei `'a'` auf *low*.
+> [!info] LED mit USART Steuern  
+> Unter Verwendung der obigen Funktion, schreib ein Programm,  
+> welches bei der Eingabe über die serielle Schnittstelle bei `'e'` `PD7` auf _high_ setzt und bei `'a'` auf _low_.
 > 
-> Verwende dazu die passende Interrupt Service Routine.
+> Verwende dazu die passende Interrupt Service Routine.  
 > Erstelle die komplette SW, das heißt die `main()` Routine und die Interrupt Service Routine.
 
 > [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()`aufrufen.
@@ -84,10 +86,10 @@ void usart_init(void)
 }
 ```
 
-> [!info] String via UART Senden
-> Unter Verwendung der obigen Funktion, schreibe ein Programm, welches den Text `„Hallo ich lebe“` einmal beim Einschalten auf die Serielle
-> Schnittstelle schickt.
-> Achtung, verwende dazu die Funktion: `ISR(USART0_UDRE_vect)`
+> [!info] String via UART Senden  
+> Unter Verwendung der obigen Funktion, schreibe ein Programm, welches den Text `„Hallo ich lebe“` einmal beim Einschalten auf die Serielle  
+> Schnittstelle schickt.  
+> Achtung, verwende dazu die Funktion: `ISR(USART0_UDRE_vect)`  
 > Erstelle die komplette SW, das heißt die `main()` Routine und die Interrupt Service Routine.
 
 > [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()` aufrufen.
@@ -116,6 +118,7 @@ int main(void)
 ```
 
 ---
+
 # Tags
 
 - [Ringbuffer](Ringbuffer.md)

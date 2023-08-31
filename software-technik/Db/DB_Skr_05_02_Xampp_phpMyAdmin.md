@@ -6,7 +6,7 @@ Die Installation ist sehr einfach:
 
 - Download: [https://www.apachefriends.org/de/index.html](https://www.apachefriends.org/de/index.html)
 - Installation: Installer mit Standardeinstellungen ausführen
-- XAMPP legt viele Konfigurationen innerhalb der Programmstruktur ab, daher wird bei der Installation empfohlen das ausserhalb der Ordner `c:\program...` zu machen, evtl. unter `c:\xampp`.
+- XAMPP legt viele Konfigurationen innerhalb der Programmstruktur ab, daher wird bei der Installation empfohlen das ausserhalb der Ordner `c:\program…` zu machen, evtl. unter `c:\xampp`.
 
 Ab nun ist das XAMPP-Control-Panel verfügbar:
 
@@ -17,14 +17,14 @@ Ab nun ist das XAMPP-Control-Panel verfügbar:
   - Apache - ein WebServer
   - MySQL - eine MariaDB-Datenbank (früher war's wohl eine MySQL-DB).
   
-  Mittels der Konfig-Schaltflächen können Einstellungen für das entstprechende Werkzeug getroffen werden.
+  Mittels der Konfig-Schaltflächen können Einstellungen für das entstprechende Werkzeug getroffen werden.  
   Mit den Starten-Schaltflächen können die Werkzeuge gestartet werden, ab diesem Zeitpunkt zeigen diese Schaltflächen *Stoppen*. Ab nun sind auch die Admin-Schaltflächen verfügbar. Mit diesen kann auf die Tools zugegriffen werden.
   
   Im unteren Bereich des Fensters werden Status-Meldungen ausgegeben. Solange die Meldungen schwarz/blau sind handelt es sich um Status-Information, erst wenn etwas rot geschrieben wird muss reagiert werden.
 
 Wenn Apache und MySQL gestartet ist, dann kann mittels Admin bei MySQL die Datenbank mittels phpMyAdmin bearbeitet werden. Sollte sich dabei kein Browser öffnen dann die Adresse (üblicherweise `localhost/phpmyadmin`) in einen anderen Browser kopieren.
 
-Das Programm funktioniert nur dann einwandfrei wenn es mit Admin-Rechten gestartet wird (sonst läßt es sich nicht richtig beenden, die Symbole funktionieren nicht immer ...)
+Das Programm funktioniert nur dann einwandfrei wenn es mit Admin-Rechten gestartet wird (sonst läßt es sich nicht richtig beenden, die Symbole funktionieren nicht immer …)
 
 ## Webserver Apache
 
@@ -70,7 +70,7 @@ Datenbank ist eigentlich nicht wirklich ein allgemein gleicher Begriff. Eigentli
 
 ### Anlegen einer neuen Tabelle
 
-- Wird eine neue/leere Tabelle  ausgewählt, dann wird nach einer neuen Tabelle gefragt. Wenn schon Tabellen in dieser Datenbank sind kann im Navigationsmenü auf **Neu** geklickt werden.
+- Wird eine neue/leere Tabelle ausgewählt, dann wird nach einer neuen Tabelle gefragt. Wenn schon Tabellen in dieser Datenbank sind kann im Navigationsmenü auf **Neu** geklickt werden.
 - **Name der Tabelle** eingeben und **Anzahl der Spalten** (kann später einfach verändert werden)
 - Dann **Spalten eingeben** - Name und Typ mit der Länge des Typs. Eventuell weitere Einstellungen treffen und bestätigen (sämtliche Einstellungen können später einfach verändert werden)
 
@@ -93,7 +93,7 @@ Ab jetzt wird bei dieser Spalte immer ein gelber Schlüssel dargestellt
 
 ### Fremdschlüssel / Beziehungen
 
-Verknüpfungen zwischen Spalten unterschiedlicher Tabellen. Eine Beziehung kann's nur geben wenn einer der beiden ein Schlüssel ist.
+Verknüpfungen zwischen Spalten unterschiedlicher Tabellen. Eine Beziehung kann's nur geben wenn einer der beiden ein Schlüssel ist.  
 Beispiel: in einer Tabelle gibt's eine Postleitzahl, in einer zweiten Tabelle soll zu der Postleitzahl der Ortname ermittelt werden. Das kann nur funktionieren, wenn in dieser zweiten Tabelle die Plz nur einmal vorkommen kann, ansonsten wäre es nicht klar welcher Ort gesucht ist.
 
 - Auswählen der betroffenen Tabelle im Navigationsbereich
@@ -102,7 +102,7 @@ Beispiel: in einer Tabelle gibt's eine Postleitzahl, in einer zweiten Tabelle so
 - **Name** der Beziehung eingeben (jede Verknüpfung bekommt einen Namen)
 - Die Spalte um die's geht aus der Tabelle in welcher man gerade ist auswählen.
 - Anschließend die Spalte auswählen mit der Verknüpft werden soll auswählen: Datenbank/Tabelle/Spalte (diese Spalte muss ein Schlüssel sein)
-- Auswählen was passieren soll wenn das Feld verändert/gelöscht werden soll: z.B. CASCADE bedeutet ebenfalls ändern/löschen ...
+- Auswählen was passieren soll wenn das Feld verändert/gelöscht werden soll: z.B. CASCADE bedeutet ebenfalls ändern/löschen …
 - Speichern Drücken
 
 Ab jetzt wird bei den beiden betroffenen Spalten immer ein grauer Schlüssel dargestellt (die Darstellung klappt manchmal nicht)
@@ -115,7 +115,7 @@ Ab jetzt wird bei den beiden betroffenen Spalten immer ein grauer Schlüssel dar
 
 ### Rechte
 
-Ganz wichtiges Thema: nicht Jeder soll alles dürfen, manche dürfen nur Lesen, andere zusätzlich Löschen wieder andere können ganze Tabellen löschen, Benutzer anlegen, Passwörter ändern ...
+Ganz wichtiges Thema: nicht Jeder soll alles dürfen, manche dürfen nur Lesen, andere zusätzlich Löschen wieder andere können ganze Tabellen löschen, Benutzer anlegen, Passwörter ändern …
 
 **Benutzer hinzufügen**
 

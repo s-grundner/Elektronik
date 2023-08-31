@@ -4,7 +4,7 @@ Die Sicherheit beginnt beim Datenbank-System-Design
 
 - Applikationen sollten sich mit der Datenbank nie als deren Eigentümer/Superuser (Root) verbinden/können. Dazu werden diese Administrator-Konten so angelegt, dass Sie nur Zugriff von localhost haben.
 - Legen Sie für Zugriffe aus Applikationen eigene Benutzer an, die auch nur dürfen was sie können müssen.
-- Datenbank- oder Geschäftslogik hat nichts in der Webapplikation verloren. Diese Logik gehört in die Datenbank selber in Form von Sichten, Triggern oder Regeln. Umso weniger die Datenbank nach außen von ihrem Aufbau verrät desto besser.
+- Datenbankoder Geschäftslogik hat nichts in der Webapplikation verloren. Diese Logik gehört in die Datenbank selber in Form von Sichten, Triggern oder Regeln. Umso weniger die Datenbank nach außen von ihrem Aufbau verrät desto besser.
 
 Datenbankverbindung
 
@@ -12,7 +12,7 @@ Datenbankverbindung
 
 Speichermodell
 
-- Die Art eine Datenbank zu speichern kann ebenfalls verschlüsselt werden (Mcrypt, Mhash... anstelle von etwa InnoDB).
+- Die Art eine Datenbank zu speichern kann ebenfalls verschlüsselt werden (Mcrypt, Mhash… anstelle von etwa InnoDB).
 
 ## SQL-Injection
 
@@ -118,10 +118,10 @@ XAMPP ist ein Werkzeug das eine sehr große Hilfe in der Entwicklung von Datenba
 
 ## Referenzen
 
-- SQL-Injection
+- SQL-Injection  
   <https://www.php.net/manual/de/security.database.sql-injection.php>
 
-- TLS für XAMPP
+- TLS für XAMPP  
   <https://florianbrinkmann.com/4837/https-virtual-hosts-xampp/>
 
   
@@ -132,4 +132,4 @@ XAMPP ist ein Werkzeug das eine sehr große Hilfe in der Entwicklung von Datenba
 
   
 
-  ## 
+## 

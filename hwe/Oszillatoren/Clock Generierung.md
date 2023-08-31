@@ -10,7 +10,7 @@ created: 17th October 2022
 
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
-> [!note] Blockschaltbild eines komplexen Taktsystems
+> [!note] Blockschaltbild eines komplexen Taktsystems  
 > ![komplex-dto](../assets/komplex-dto.png)
 > - [PGO](Pierce-Gate%20Oszillator.md)
 > - [PLL](Phase%20Locked%20Loop.md)

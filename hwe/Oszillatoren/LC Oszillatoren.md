@@ -10,15 +10,14 @@ created: 17th November 2022
 
 - Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md)
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
-- sowohl Serien- als auch Parallelschwingkreis möglich 
+- sowohl Serienals auch Parallelschwingkreis möglich 
 - Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
 - geeignet für hohe Frequenzen
-- 
+
 # Parallel [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
-> [!info] Schaltung
+> [!info] Schaltung  
 >![LC-osz](../assets/LC-osz.png)
-
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
 
@@ -65,9 +64,9 @@ $$
 > \end{align*}
 > $$
 
-> [!info] Anmerkung
-> Sowohl Real, als auch Imaginärteil sind Lösungen der Differentailgleichung
-> Das erkennt man durch Einsetzen
+> [!info] Anmerkung  
+> Sowohl Real, als auch Imaginärteil sind Lösungen der Differentailgleichung  
+> Das erkennt man durch Einsetzen  
 > Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
 
 
@@ -149,10 +148,9 @@ $$
 
 Bandbreite: Obere minus untere [Grenzfrequenz](../Grenzfrequenz.md)
 
-
 # Serien [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
-> [!info] Schaltung
+> [!info] Schaltung  
 > ![Pasted image 20221213082043](../assets/Pasted%20image%2020221213082043.png)
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)

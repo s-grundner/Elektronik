@@ -181,12 +181,12 @@ typedef struct postOrt{
   7563	Koenigsdorf
   ```
 
-- Erzeugen Sie eine komplette Liste. Untersuchen Sie wieviele Arrayelemente nicht belegt sind.
+- Erzeugen Sie eine komplette Liste. Untersuchen Sie wieviele Arrayelemente nicht belegt sind.  
   Quelle: <https://www.post.at/geschaeftlich_werben_produkte_und_services_adressen_postlexikon.php>
 
 ## PLZ-Assoc (c287)
 
-Beispiel für eine eigene assoziative Liste in C (keine Fehlerbehandlung (Array Voll ...!):
+Beispiel für eine eigene assoziative Liste in C (keine Fehlerbehandlung (Array Voll …!):
 
 ```c
 #include <stdio.h>

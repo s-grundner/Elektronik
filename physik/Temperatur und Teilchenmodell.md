@@ -11,11 +11,13 @@ created: 18th August 2022
 # Temperatur und Teilchenmodell
 
 ## Teilchenmodell
+
  - Alle Körper sind aus kleinen, sich ständig bewegenden Teilchen aufgebaut.
  - Im Festkörper haben alle Teilchen einen festen Platz, um den sie sich bewegen.
  - Je *mehr* ein Stoff *erwärmt* wird, desto *mehr* *bewegen* sich die Teilchen des Stoffes.
 
 ## Brown'sche Bewegung und Innere Energie
+
 - Die Atome eines Körpers sind auch ohne Krafteinwirkung von außen immer in Bewegung.
 - Einen Festkörper kannst du dir als *Feder-Kugel-Modell* vorstellen.
 - ![braunschebewegung](assets/braunschebewegung.png)

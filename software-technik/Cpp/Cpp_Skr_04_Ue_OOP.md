@@ -112,16 +112,16 @@ mYear = pt->tm_year + 1900;    // Jahr von 1900 aus gerechnet
 
 ## Pseudozufallsgenerator (013)
 
-Es soll ein sogenannter Pseudozufallszahlengenerator erstellt werden, der zur wiederholten Erzeugung von Zahlen im Intervall [0,1] dient. Lange Folgen von generierten Zufallszahlen sollen im Intervall [0,1]  möglichst gleichverteilt sein. Erfahrungen haben gezeigt, dass sich mit der Funktion 
+Es soll ein sogenannter Pseudozufallszahlengenerator erstellt werden, der zur wiederholten Erzeugung von Zahlen im Intervall [0,1] dient. Lange Folgen von generierten Zufallszahlen sollen im Intervall [0,1] möglichst gleichverteilt sein. Erfahrungen haben gezeigt, dass sich mit der Funktion 
 
 $f(x) = (a\cdot x) \% n$
 
 mit $a = 16807$ und $n= 2^{31} -1$ (= 2147483647) gute Zufallszahlen generieren lassen.
 
-**Algorithmus:**
-​	a) Start mit beliebigem $x_0 ϵ \{1, ..., n-1\}$ (der sogenannte seed) und
-​	b) erzeugen der nächsten Zufallszahl gemäß
-​		$x_{i+1} = f(x_i)$   also    $x_{i+1} = (a\cdot x_i) \% n$ 
+**Algorithmus:**  
+​	a) Start mit beliebigem $x_0 ϵ \{1, …, n-1\}$ (der sogenannte seed) und  
+​	b) erzeugen der nächsten Zufallszahl gemäß  
+​		$x_{i+1} = f(x_i)$ also $x_{i+1} = (a\cdot x_i) \% n$ 
 
 ​	c) Um die Zufallszahl im Intervall $[0,1]$ zu liefern, wird die Zufallszahl durch n dividiert
 
@@ -177,22 +177,22 @@ int main(){
 
 Zur Kennzeichnung von Waren verwendet man den sogenannten EAN-Code (Europäische Artikel-Nummerierung mit 13 Ziffern). Bei Büchern ist die ISBN-Nummer üblich. Bei der letzten Ziffer der Nummer handelt es sich um eine sogenannte Prüfziffer, sodass z.B. einfache Eingabefehler erkannt werden können. Die Prüfziffer berechnet sich aus den übrigen Ziffern.
 
-**ISBN-13**
-Zur Berechnung der Prüfziffer bei der ISBN-13 werden alle zwölf Ziffern der noch unvollständigen ISBN addiert, wobei die Ziffern mit gerader Position (also die 2., 4. usw.) den dreifachen Wert erhalten.
-Bsp: Eine 5 an 6. Stelle beispielsweise fließt als 15 in die Addition ein.
-Von dem Ergebnis dieser Addition wird die letzte Stelle bestimmt, die dann von 10 subtrahiert wird.
-Bsp: Also etwa 10 − 4 = 6 bei einem Additionsergebnis von 124.
-Dieses Endergebnis ist die Prüfziffer. Ist das Endergebnis indessen 10, ist die Prüfziffer 0.
-Formel zur Berechnung der Prüfziffer:
-​	$ z_{13}=10−\left(Σ^{n=12}_{i=1} z_i\cdot 3^{(i+1) mod 2}\right) mod 10$
-Das $(i+1) mod 2$ sorgt für die wechselnde Gewichtung von 1 und 3.
+**ISBN-13**  
+Zur Berechnung der Prüfziffer bei der ISBN-13 werden alle zwölf Ziffern der noch unvollständigen ISBN addiert, wobei die Ziffern mit gerader Position (also die 2., 4. usw.) den dreifachen Wert erhalten.  
+Bsp: Eine 5 an 6. Stelle beispielsweise fließt als 15 in die Addition ein.  
+Von dem Ergebnis dieser Addition wird die letzte Stelle bestimmt, die dann von 10 subtrahiert wird.  
+Bsp: Also etwa 10 − 4 = 6 bei einem Additionsergebnis von 124.  
+Dieses Endergebnis ist die Prüfziffer. Ist das Endergebnis indessen 10, ist die Prüfziffer 0.  
+Formel zur Berechnung der Prüfziffer:  
+​	$ z_{13}=10−\left(Σ^{n=12}_{i=1} z_i\cdot 3^{(i+1) mod 2}\right) mod 10$  
+Das $(i+1) mod 2$ sorgt für die wechselnde Gewichtung von 1 und 3.  
 Erstreckt man die Summierung auch auf die Prüfziffer (n = 13), so erhält man bei einer fehlerfreien ISBN als Ergebnis 0.
 
-Beispiel:
-​	978-3-7657-2781-?
+Beispiel:  
+​	978-3-7657-2781-?  
 Lösung:
 
-​	9 + 8 + 7 + 5 + 2 + 8 + 3 * (7 + 3 + 6 + 7 + 7 + 1) = 39 + 3 * 31 = 39 + 93 = 132
+​	9 + 8 + 7 + 5 + 2 + 8 + 3 * (7 + 3 + 6 + 7 + 7 + 1) = 39 + 3 * 31 = 39 + 93 = 132  
 ​	132 mod 10 = 2
 
 ​	10 − 2 mod 10 = 8	d.h. Die Prüfziffer ist 8
@@ -239,8 +239,8 @@ int main(){
 }
 ```
 
-Hinweis:
-double std::pow(double, int);
+Hinweis:  
+double std::pow(double, int);  
 int isdigit(int);
 
 ## Shapes (055)
@@ -264,7 +264,7 @@ Erstellen Sie die Klasse Account mit den Membern:
 - double mAccBalance
 - Konstruktor / Destruktor
 - Getter/Setter
-- toString() -> "kontonummer 10 Stellen       Kontoeigner 30 Stellen     Kontostand 10 Stellen "
+- toString() -> "kontonummer 10 Stellen Kontoeigner 30 Stellen Kontostand 10 Stellen "
 - withdraw() -> abheben
 - deposit() -> einlegen
 
@@ -517,11 +517,11 @@ int main(){
 
 **Hinweise zu *STL-vector*:**
 
-m_accounts.size - Anzahl der Elemente im *vector*.
-m_accounts[3] - 3tes Element des *vector*s. Achtung: keine Bereichsprüfung.
-m_accounts.push_back(new Konto(...)) - Fügt ein neues Element am Ende ein.
-m_accounts.back() - gibt das letzte Element des *vector*s zurück.
-m_accounts.erase(m_accounts.begin() + 3) - Löscht das 4te Element aus dem *vector*.
+m_accounts.size - Anzahl der Elemente im *vector*.  
+m_accounts[3] - 3tes Element des *vector*s. Achtung: keine Bereichsprüfung.  
+m_accounts.push_back(new Konto(…)) - Fügt ein neues Element am Ende ein.  
+m_accounts.back() - gibt das letzte Element des *vector*s zurück.  
+m_accounts.erase(m_accounts.begin() + 3) - Löscht das 4te Element aus dem *vector*.  
 Schleife über *vector*:
 
 ```c++

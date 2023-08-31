@@ -134,7 +134,7 @@ In einer SQL-Datei sollen:
 
 - In der gesamten Datei sollen nach jedem Beistrich genau ein Leerzeichen stehen und davor keines:
 
-   `abc,     def` -> `abc, def`
+   `abc,     def` -> `abc, def`  
    `abc,def` -> `abc, def`
 
    `abc ,def` -> `abc, def`

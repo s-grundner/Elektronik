@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # Module - Übungen
 
-##  Doppelt einbinden
+## Doppelt einbinden
 
 - Erstellen sie ein Projekt mit den beiden C-Dateien `main.c` und modul1.c.
 
@@ -31,9 +31,9 @@ created: 29th November 2022
 
 - Warum?
 
->[!success] Lösung:
-> beim Übersetzten wird `modul1.c` und `main.c` kompiliert. Beim Kompilieren von `main.c` wird wieder `modul1.c` eingebunden.
-> Damit wird der gleiche Code ein zweites mal kompiliert.
+>[!success] Lösung:  
+> beim Übersetzten wird `modul1.c` und `main.c` kompiliert. Beim Kompilieren von `main.c` wird wieder `modul1.c` eingebunden.  
+> Damit wird der gleiche Code ein zweites mal kompiliert.  
 > Damit wird eine zweite func-Funktion erstellt und das ist nicht erlaubt.
 
 Durch die (bessere) Verwendung einer h-Datei ändert sich dabei nichts. Erst wenn das Grüst:
@@ -49,19 +49,19 @@ Durch die (bessere) Verwendung einer h-Datei ändert sich dabei nichts. Erst wen
 
 um den Code gelegt wird, wird damit sichergestellt, dass ein Code-Teil nur einmal eingebunden wird.
 
-##  StringLib (321)
+## StringLib (321)
 
 Implementieren der folgenden String-Funktionen in ein eigenes Modul `string.h` und `string.c`.
 
-für Details siehe https://de.wikibooks.org/wiki/C-Programmierung:_Zeichenkettenfunktionen#strncat
+für Details siehe <https://de.wikibooks.org/wiki/C-Programmierung:_Zeichenkettenfunktionen#strncat>
 
 - Aneinanderhängen von Zeichenketten: `char* strcat(char* s1, char *s2)`
-- Aneinanderhängen von Zeichenketten: `strncat(...)`
-- Kopieren von Zeichenketten:  `strcpy(...)`
-- Kopieren von Zeichenketten:  `strncpy(...)`
-- Länge einer Zeichenketten:  `strlen(...)`
-- Vergleichen von Zeichenketten:  `strcmp(...)`
-- Vergleichen von Zeichenketten:  `strncmp(...)`
+- Aneinanderhängen von Zeichenketten: `strncat(…)`
+- Kopieren von Zeichenketten: `strcpy(…)`
+- Kopieren von Zeichenketten: `strncpy(…)`
+- Länge einer Zeichenketten: `strlen(…)`
+- Vergleichen von Zeichenketten: `strcmp(…)`
+- Vergleichen von Zeichenketten: `strncmp(…)`
 
 Testfunktionen:
 
@@ -74,7 +74,7 @@ printf("\"%s\" + \"%s\" = ", str1, str2);
 printf("\"%s\"\n", strcat(str1, str2));
 ```
 
-##  Hangman
+## Hangman
 
 Realisieren Sie das bekannte Wortratespiel auf dem Computer. Zeigen Sie zunächst von einem zu ratenden Wort für die einzelnen Zeichen jeweils nur Striche an. Anschließend fragt das Programm nach Buchstaben. Sollten die eingegebenen Buchstaben im zu ratenden Wort vorkommen, so werden die entsprechenden Positionen aufgedeckt, d.h. an dieser Stelle werden die tatsächlichen Zeichen angezeigt. Durch Eingabe eines \#-Zeichens kann das Raten abgebrochen werden und die Eingabe des vollständigen Worts ist nun möglich. Stimmt das eingegebene Wort mit dem verdeckten Wort überein, ist das Spiel zu Ende, ansonsten wird wieder in den obigen Buchstabenratemodus zurückgekehrt. Für die Programmerstellung sind folgende Dateien gegeben:
 
@@ -102,17 +102,17 @@ srand((unsigned) time(&t));	// Initialisierung
 num = rand()%WORDS;   // Zufallszahl zwischen 0 und WORDS
 ```
 
-##  Taschenrechner (323)
+## Taschenrechner (323)
 
 Ältere HP-Taschenrechner arbeiteten mit umgekehrt polnischer Notation (UPN). Dabei sind für eine Rechenopertation zuerst sämtliche notwendige Operanten einzugeben (diese werden auf einem Stapel abgelegt) und anschließend der Operator. Als Beispiel für eine Addition: 3, 2, + für eine Addition 3+2.
 
 Hier sind die Dateien test_taschenrechner.c, doubleStack.c und doubleStack.h gegeben. Sie sind in ein Projekt einzufügen und so anzupassen dass sie funktionieren.
 
-##  MyAlgo (324)
+## MyAlgo (324)
 
 Gegeben sind ein main-Programm und eine h-Datei mit Funktionen die in Main verwendet werden. Implementieren Sie die fehlenden Funktionen sodass das Programm funktioniert.
 
-##  Fakultät (325)
+## Fakultät (325)
 
 Erstellen Sie eine Funktion fakultaet() zur Berechnung der Fakultät (mathematische Funktion dargestellt durch !) einer Zahl:
 
@@ -129,25 +129,25 @@ Erstellen Sie ein Hauptprogramm:
 
 Beispielausgabe:
 
-Geben Sie die Zahl ein bis zu der Fakultaeten berechnet werden sollen: 16
-0! = 1
-1! = 1
-2! = 2
-3! = 6
-4! = 24
-5! = 120
-6! = 720
-7! = 5040
-8! = 40320
-9! = 362880
-10! = 3628800
-11! = 39916800
-12! = 479001600
+Geben Sie die Zahl ein bis zu der Fakultaeten berechnet werden sollen: 16  
+0! = 1  
+1! = 1  
+2! = 2  
+3! = 6  
+4! = 24  
+5! = 120  
+6! = 720  
+7! = 5040  
+8! = 40320  
+9! = 362880  
+10! = 3628800  
+11! = 39916800  
+12! = 479001600  
 13! = 6227020800
 
 Verschieben Sie die Funktion fakultaet in ein eigenes Modul faku.c/faku.h
 
-##  Multiplikation (326)
+## Multiplikation (326)
 
 Erstellen Sie eine Funktion mult() zur Berechnung eines Produktes.
 
@@ -161,24 +161,24 @@ Erstelle Sie ein Hauptprogramm:
 
 Beispielausgabe:
 
-num = 1
-Geben Sie eine Zahl ein: 3
-num x 3 = 3
-Geben Sie eine Zahl ein: 4
-num x 4 = 12
-Geben Sie eine Zahl ein: 2
-num x 2 = 24
-Geben Sie eine Zahl ein: 3
-num x 3 = 72
-Geben Sie eine Zahl ein: 1
-num x 1 = 72
+num = 1  
+Geben Sie eine Zahl ein: 3  
+num x 3 = 3  
+Geben Sie eine Zahl ein: 4  
+num x 4 = 12  
+Geben Sie eine Zahl ein: 2  
+num x 2 = 24  
+Geben Sie eine Zahl ein: 3  
+num x 3 = 72  
+Geben Sie eine Zahl ein: 1  
+num x 1 = 72  
 Geben Sie eine Zahl ein: 0
 
 Verschieben Sie die Funktion mult in ein eigenes Modul mult.c/mult.h
 
 - Die globale Variable soll nur mehr im Modul mult.c verfügbar sein
 
-##  Groß-/Kleinschreibung (327)
+## Groß-/Kleinschreibung (327)
 
 Erstellen Sie eine Funktion lowup() zum Verändern der Groß-/Kleinschreibung von Zeichenketten:
 
@@ -192,7 +192,7 @@ Hauptprogramm:
 
 Beispielausgabe:
 
-Geben Sie eine Zeichenkette ein: Das ist ein Beispielstring
+Geben Sie eine Zeichenkette ein: Das ist ein Beispielstring  
  Verdreht: dAS IST EIN bEISPIELSTRING
 
 Verschieben Sie die Funktion lowup in ein eigenes Modul lowup.c/lowup.h

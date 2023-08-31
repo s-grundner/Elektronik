@@ -7,12 +7,17 @@ created: 29th November 2022
 # Wiederholung C
 
 ## Arrays und Strings
+
 ### Primzahlen – Sieb des Eratosthenes (066)
 
 Primzahlberechnung nach dem Sieb-Verfahren: Schreiben Sie alle Zahlen (z.B. von 2 bis 100) in ein Array. Beginnend mit der kleinsten Zahl wird die Zahl als Primzahl auf dem Bildschirm ausgegeben und gleichzeitig alle Vielfachen dieser Zahl im Array auf 0 gesetzt d.h. aus der Liste gestrichen. Anschliessend wird die nächste Zahl ungleich 0 im Array bearbeitet.
+
 ### str2bin (011)
-Ein Integer in binärer Form dargestellt - also mit der Basis 2 – gibt den Wert als Bitmuster aus 0 und 1 wieder. Schreiben Sie die Funktion  **str2bin**, die einen String bestehend aus aneinander gereihten 0er und 1er entgegen nimmt und einen **vorzeichenlosen Integerwert** zurück liefert, der dem Wert des mit dem String beschriebenen Bitmusters entspricht. Schreiben Sie die Funktion so, dass sie sowohl auf 16, 32 oder 64 Bit-Systemen verwendet werden kann. Berücksichtigen Sie eine etwaige Fehlerbehandlung.
+
+Ein Integer in binärer Form dargestellt - also mit der Basis 2 – gibt den Wert als Bitmuster aus 0 und 1 wieder. Schreiben Sie die Funktion **str2bin**, die einen String bestehend aus aneinander gereihten 0er und 1er entgegen nimmt und einen **vorzeichenlosen Integerwert** zurück liefert, der dem Wert des mit dem String beschriebenen Bitmusters entspricht. Schreiben Sie die Funktion so, dass sie sowohl auf 16, 32 oder 64 Bit-Systemen verwendet werden kann. Berücksichtigen Sie eine etwaige Fehlerbehandlung.
+
 ### ArrAuth (067)
+
 gegeben sind:
 ```c
 int zahlen[] = {12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
@@ -33,7 +38,7 @@ char fragen\[\]\[81\] = {
 };
 ```
 
-1.  Erstellen Sie die Funktion
+1. Erstellen Sie die Funktion
 ```c
 /**
  * @param zahlen Array mit Zahlenwerten (s.o), 
@@ -43,7 +48,7 @@ char fragen\[\]\[81\] = {
  */
 int getAntwort(int zahlen[], int len, char frage[]);
 ```
-2.  Erstellen Sie ein Testprogramm, das die Lösungen der Fragen (im Array fragen) in folgendes Array schreibt.
+2. Erstellen Sie ein Testprogramm, das die Lösungen der Fragen (im Array fragen) in folgendes Array schreibt.  
 `int antwort[12];`
 
   Verwenden Sie die Funktion aus 1.
@@ -52,12 +57,12 @@ int getAntwort(int zahlen[], int len, char frage[]);
 
 Erkennen von Wörten mit Buchstabenmix
 
-Aus einer Email:
-------------- Begin Forwarded Message-------------
-Nach eienr Stidue der Cmabridge Uinverstiaet,ist es eagl in wlehcer Reiehnfogle die Bchustebaen in Woeretrn vokrmomen.Es ist nur withcig, dsas der ertse und lettze Bchusatbe an derricthgien Stlele snid. Der Rset knan total falcsh sein und man knan es onhe Porbelme leesn. Das ist, wiel das mneschilche Geihrn nciht jeden Bchustbaen liset sodnern das Wrod als gaznes. Krsas oedr?
+Aus einer Email:  
+------------- Begin Forwarded Message-------------  
+Nach eienr Stidue der Cmabridge Uinverstiaet,ist es eagl in wlehcer Reiehnfogle die Bchustebaen in Woeretrn vokrmomen.Es ist nur withcig, dsas der ertse und lettze Bchusatbe an derricthgien Stlele snid. Der Rset knan total falcsh sein und man knan es onhe Porbelme leesn. Das ist, wiel das mneschilche Geihrn nciht jeden Bchustbaen liset sodnern das Wrod als gaznes. Krsas oedr?  
 ------------- End Forwarded Message-------------
 
-Schreiben Sie Programm, das diesen Sachverhalt testet: ausgehend von einem Text mit mehreren Worten soll es einen neuen Text generieren, in dem Satzzeichen und die Anfangs- und Endbuchstaben aller Worte unverändert übernommen werden, während die Buchstaben im Wortinneren beliebig permutiert werden.
+Schreiben Sie Programm, das diesen Sachverhalt testet: ausgehend von einem Text mit mehreren Worten soll es einen neuen Text generieren, in dem Satzzeichen und die Anfangsund Endbuchstaben aller Worte unverändert übernommen werden, während die Buchstaben im Wortinneren beliebig permutiert werden.
 
 Entwerfen Sie für diesen Permutationsoperator eine Funktion, die diese Aufgabe für ein Wort leistet. Beachte dabei, dass auch Teilstrings mit \0 terminiert werden müssen.
 
@@ -67,7 +72,7 @@ Extraarbeit: Versehen Sie Ihr Programm mit einem kleinen DOS-Menü, dass den Tex
 
 ### Wörter kürzen - removeVovel (081)
 
-Sprachwissenschaftler sind der Ansicht, dass auch nach dem Entfernen von Vokalen der Text noch lesbar bleibt. Schreiben Sie eine Funktion  void removeVovel(char s[]), die aus einem Text s die Vokale entfernt. Stimmt es, was die Wissenschaftler sagen?
+Sprachwissenschaftler sind der Ansicht, dass auch nach dem Entfernen von Vokalen der Text noch lesbar bleibt. Schreiben Sie eine Funktion void removeVovel(char s[]), die aus einem Text s die Vokale entfernt. Stimmt es, was die Wissenschaftler sagen?
 
 ### Stringausgabe (082)
 
@@ -136,19 +141,19 @@ Anschließend fragen Sie nach Buchstaben. Sollten die Buchstaben im zu ratenden 
 
  Beispiel: Zu ratendes Wort:"Hangman" (verdeckt)
 
-\- - - - - - -     Eingabe (a)
+\- - - - - - - Eingabe (a)
 
-\- a - - - a -    Eingabe (g)
+\- a - - - a - Eingabe (g)
 
-\- a - g - a -    Eingabe (e)
+\- a - g - a - Eingabe (e)
 
-\- a - g - a -    Eingabe (n)
+\- a - g - a - Eingabe (n)
 
-\- a n g - a n   Eingabe (#) ~ Ende Buchstabenraten
+\- a n g - a n Eingabe (#) ~ Ende Buchstabenraten
 
-Eingabe: Hangman →  richtig geraten / bzw. Zurückkehren zum Buchstabenraten
+Eingabe: Hangman → richtig geraten / bzw. Zurückkehren zum Buchstabenraten
 
-Hinweis:
+Hinweis:  
 Sie können das Spiel abwechslungsreicher gestalten, wenn Sie sich eine Tabelle von zu ratenden Wörtern im Programm anlegen und aus dieser Tabelle zufällig einen Eintrag auswählen, anstatt diesen vorher einzugeben.
 
 ### Feld und Zeiger (090)
@@ -167,19 +172,20 @@ int y = *(p + 2);
 printf("x = %i y = %i", x, y);
 ```
 
-Ausgabe:
-x = <u>                                                                                                        .</u> 
+Ausgabe:  
+x = <u> .</u> 
 
-y = <u>                                                                                                        .</u> 
+y = <u> .</u> 
 
 ## Dateizugriff
 
 ### Passwörter (035)
-* Gegeben ist die Datei passwd (s.u.)
-* Lesen Sie die Datei ein und geben Sie die größte UID aus.
 
-Hinweis: UID
-Die UID ist das 3. Feld (Feldtrennzeichen ist der :)
+- Gegeben ist die Datei passwd (s.u.)
+- Lesen Sie die Datei ein und geben Sie die größte UID aus.
+
+Hinweis: UID  
+Die UID ist das 3. Feld (Feldtrennzeichen ist der :)  
 sync hat z.B.: die UID 4
 
 Hinweis:
@@ -255,28 +261,28 @@ real:barca:3:1
 
 PROGRAMM-NAME: opendata-salzburg-wlanhotspot-osm.c
 
-- Laden Sie die Datei *wlanhotspot.csv* aus Ihrem Programm von https://www.data.gv.at/katalog/dataset/salzburg-surft-hotspot-standorte/resource/70540bd6-1354-44bc-ac22-fc954766c640
-  Hinweis: Verwenden Sie bitsadmin (windows-tool), wget, curl bzw. ....
+- Laden Sie die Datei *wlanhotspot.csv* aus Ihrem Programm von <https://www.data.gv.at/katalog/dataset/salzburg-surft-hotspot-standorte/resource/70540bd6-1354-44bc-ac22-fc954766c640>  
+  Hinweis: Verwenden Sie bitsadmin (windows-tool), wget, curl bzw…..  
   z.B.:
 
   ```
   system("bitsadmin /transfer wcb /priority high "http://data.stadt-salzburg.at/geodaten/wfs?service=WFS&version=1.1.0&request=GetFeature&srsName=EPSG:4326&outputFormat=csv&typeName=ogdsbg:wlanhotspot" \"%cd%\\wlanhotspot.csv\"");
   ```
 
-  (wget gibts unter http://downloads.sourceforge.net/gnuwin32/wget-1.11.4-1-setup.exe)
+  (wget gibts unter <http://downloads.sourceforge.net/gnuwin32/wget-1.11.4-1-setup.exe)>
 
 - Lesen Sie die Datei *wlanhotspot.csv* ein und erstellen Sie die Datei *wlanhotspot.txt* (siehe Muster weiter unten).
 
-- Laden Sie mit Ihrem Webbrowser die Datei *index.html* und testen Sie die Funktionalität. Die Datei *wlanhotspot.txt* muss sich dabei im gleichen Ordner befinden.
-  Tipp: Achten Sie auf den richtigen Aufbau (Tabulator, Zeilenumbruch am Ende ...) der Datei *wlanhotspot.txt*.
+- Laden Sie mit Ihrem Webbrowser die Datei *index.html* und testen Sie die Funktionalität. Die Datei *wlanhotspot.txt* muss sich dabei im gleichen Ordner befinden.  
+  Tipp: Achten Sie auf den richtigen Aufbau (Tabulator, Zeilenumbruch am Ende …) der Datei *wlanhotspot.txt*.
 
 #### HINWEIS: wlanhotspot.txt, index.html, wlanhotspot.csv
 
-- Studieren Sie: http://wiki.openstreetmap.org/wiki/Openlayers_POI_layer_example
-- Laden Sie die Dateien in einen eigenen Unterordner: 
-  index.html
-  wlanhotspot.txt
-  Ol_icon_blue_example.png
+- Studieren Sie: <http://wiki.openstreetmap.org/wiki/Openlayers_POI_layer_example>
+- Laden Sie die Dateien in einen eigenen Unterordner:  
+  index.html  
+  wlanhotspot.txt  
+  Ol_icon_blue_example.png  
   Ol_icon_red_example.png
 
 wlanhotspot.csv (falls kein Internet)
@@ -662,13 +668,13 @@ index.html:
 </html>
 ```
 
-In dieser Datei muss der GPX-Track angegeben (...url: "./beispiel.gpx"). Es können auch mehrere Tracks eingefügt werden, dann muss ein weiterer Layer (map.addLayer) einkopiert werden.
+In dieser Datei muss der GPX-Track angegeben (…url: "./beispiel.gpx"). Es können auch mehrere Tracks eingefügt werden, dann muss ein weiterer Layer (map.addLayer) einkopiert werden.
 
 ## Funktionen, Felder
 
 ### Verschiedene (071)
 
-a) Programmieren Sie die folgenden Funktionen.
+a) Programmieren Sie die folgenden Funktionen.  
 b) Programmieren Sie ein Testprogramm für die folgenden Funktionen.
 
 ```c
@@ -867,20 +873,20 @@ void sort_persnr(TPERSON* p, int anzahl){
 
 ##Strukturen, Felder und Dateien
 
-###Body Mass Index (038)
+###Body Mass Index (038)  
 Das Programm soll:
-+ eine geeignete Datenstruktur definieren
-+ die Datei *input.txt* in ein Array laden
-+ die fehlenden Werte berechnen
-+ die Datei *output.txt* beschreiben
+- eine geeignete Datenstruktur definieren
+- die Datei *input.txt* in ein Array laden
+- die fehlenden Werte berechnen
+- die Datei *output.txt* beschreiben
 
-Beispiel: input.txt
-​	3
-​	4cheli,anton,hofmann,70,170
-​	4cheli,beta,hofmann,80,180
+Beispiel: input.txt  
+​	3  
+​	4cheli,anton,hofmann,70,170  
+​	4cheli,beta,hofmann,80,180  
 ​	4cheli,gamma,hofmann,90,190
 
-Inhalt der Datei output.txt:
+Inhalt der Datei output.txt:  
 klasse, maxgewicht, mingewicht, maxgroesse, mingroesse, maxbmi, minbmi, durchschnittsgewicht, durchschnittsgroesse, durchschnittsbmi
 
 Erweiterung:
@@ -913,8 +919,8 @@ Durchschnittstemperatur: 20 degC
 
 ### Traffic (095)
 
-* Definieren Sie einen geeignete Datenstruktur-Typ zur Verarbeitung der Daten aus der Datei *input.txt*.
-* Lesen Sie die Daten in ein mit *malloc()* zu alloziierendes Feld.
+- Definieren Sie einen geeignete Datenstruktur-Typ zur Verarbeitung der Daten aus der Datei *input.txt*.
+- Lesen Sie die Daten in ein mit *malloc()* zu alloziierendes Feld.
 
 Inhalte der Datei *input.txt*:
 
@@ -942,9 +948,9 @@ Erklärung für:
 
 Bewerten Sie die folgenden Fragen mit Wahr oder Falsch (inkl. Begründung):
 
-- char* p1; double* p2;  sizeof(p2) > sizeof(p1)   ....liefert true
+- char* p1; double* p2; sizeof(p2) > sizeof(p1) ….liefert true
 - int wert; scanf("%i", &wert);
 - Das letzte Zeichen löschen: str[strlen(str)]= '/0';
-- int x=5, y=2; float erg; erg= x/y;  printf("%.1f", erg); ... gibt 2.5 aus
+- int x=5, y=2; float erg; erg= x/y; printf("%.1f", erg); … gibt 2.5 aus
 
 Definieren Sie ein Feld mit Namen a mit 10 Zeigern auf char als Elemente.

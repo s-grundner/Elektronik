@@ -23,6 +23,7 @@ Die Ausgabe muss dann wie folgt aussehen:
 ```java
 c= [6.0 + 4.0 j]
 ```
+
 ## Ue_Komplex_2
 
 Benötigt wird ein Datentyp zum Speichern einer Komplexen Zahl.
@@ -73,7 +74,7 @@ c1 = new Komplex(1,3);     // durch new wird Objekt erstellt und Konstruktor auf
 Komplex c1 = new Komplex(1,3);
 ```
 
-2. auf die Member-Variablen soll nicht direkt zugegriffen werden können, ein Verändern soll durch eine Set-Methode gelöst werden. Dadurch kann die Member-Variable auf **private** gesetzt werden.
+1. auf die Member-Variablen soll nicht direkt zugegriffen werden können, ein Verändern soll durch eine Set-Methode gelöst werden. Dadurch kann die Member-Variable auf **private** gesetzt werden.
 
    L:
 ```java
@@ -124,6 +125,7 @@ Java Buch: www.javabuch.de
 C Buch: www.pronix.de
 Java Source: http://java-source.net/
 ```
+
 ## Ue_Roomtemp
 
 Gegeben ist die Datei: **room-temp.txt**:
@@ -134,11 +136,11 @@ Kueche:25
 Keller:15
 ```
 1. Lies die Daten in den Hauptspeicher ein 
-2. Für alle Zimmer mit einer Temperatur über 19 Grad soll 
-   der Text "Fenster öffnen" und der Raumname und die 
+2. Für alle Zimmer mit einer Temperatur über 19 Grad soll  
+   der Text "Fenster öffnen" und der Raumname und die  
    aktuelle Raumtemperatur auf die Konsole ausgegeben werden.
-3. Schreib die Funktion printDurchschnitt(), die von allen 
-   Räumen die Durchschnittstemperatur berechnet und diese auf 
+3. Schreib die Funktion printDurchschnitt(), die von allen  
+   Räumen die Durchschnittstemperatur berechnet und diese auf  
    die Konsole ausgibt.
 
 Beispiel für die Ausgabe zur obigen room-temp.txt:
@@ -149,6 +151,7 @@ Durschnittstemperatur: 20
 ```
 
 ## Ue_Traffic
+
 Gegeben ist die Datei **input.txt**:
 ```
 Maserati,1000 kg,2 Persons
@@ -309,7 +312,7 @@ Die Ausgabe soll folgendermaßen aussehen:
 
 ## Ue_Figuren
 
-Erstelle die Klassen Rechteck, Figur, Dreieck, Kreis, Quadrat, DreieckGleichseitig, als sinnvolle Super- und Subklassen:
+Erstelle die Klassen Rechteck, Figur, Dreieck, Kreis, Quadrat, DreieckGleichseitig, als sinnvolle Superund Subklassen:
 
 ```java
 ArrayList<Figur> lst = new ArrayList<Figur>();
@@ -479,12 +482,16 @@ public void Kreis(Mittelpunkt p, double angle) {
 ...
 Kreis(Punkt(1, 3), 270.0);
 ```
+
 ## Ue_Punkt_2
+
 Definieren Sie die Methode Punkt:
 ```java
 int x = Punkt(3, 4) + Punkt(1, 1);
 ```
+
 ## Ue_MaxValset
+
 Vervollständigen Sie die Definitionen:
 ```java
 private                       MaxValset(                                          ) {
@@ -495,6 +502,7 @@ private                       MaxValset(                                        
   return b.getLen(8);
 }
 ```
+
 ## Ue_Calc
 
 Ergänzen Sie die Definitionen der folgenden Methode:
@@ -517,6 +525,7 @@ Definieren Sie die Methode getAdcVal:
 Sensor pressSensLdf = new Sensor("Drucksensor", kennlinieLDF8);
 Status s = getAdcVal("P1.1", 0.0, 3.3, pressSensLdf);
 ```
+
 ## Ue_Schaltjahr
 
 Gegeben ist das folgende Programm:
@@ -576,15 +585,15 @@ Main.java
         }
     }
 ```
-Fragen:
-a) Die Klasse Objekt beinhaltet .......... (Anzahl) Membervariablen.
-b) Die Klasse Objekt beinhaltet .......... (Anzahl) Methoden.
-c) Der Konstruktor der Klasse Objekt trägt die Bezeichnung
-.....................
-d) Die Klasse Main beinhaltet .......... (Anzahl) Membervariablen.
-e) Die Klasse Main beinhaltet .......... (Anzahl) Methoden.
-f) Der Konstruktor der Klasse Main trägt die Bezeichnung
-.......................
+Fragen:  
+a) Die Klasse Objekt beinhaltet ………. (Anzahl) Membervariablen.  
+b) Die Klasse Objekt beinhaltet ………. (Anzahl) Methoden.  
+c) Der Konstruktor der Klasse Objekt trägt die Bezeichnung  
+…………………  
+d) Die Klasse Main beinhaltet ………. (Anzahl) Membervariablen.  
+e) Die Klasse Main beinhaltet ………. (Anzahl) Methoden.  
+f) Der Konstruktor der Klasse Main trägt die Bezeichnung  
+…………………..  
 g) Der Start von "java Main" führt zu folgender Ausgabe:
 
 

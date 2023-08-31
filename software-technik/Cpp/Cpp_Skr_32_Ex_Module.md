@@ -16,10 +16,10 @@ Dieses c/c++ Konzept kann seit C++20 durch Module ersetzt werden.
 
 Nachdem für Windows kein Binary von gcc für C++20 verfügbar ist wird hier mit clang gearbeitet. Dazu gibts precompilierte Binaries:
 
-https://llvm.org/builds/
+<https://llvm.org/builds/>
 
-Windows snapshot builds -> Windows installer (64-bit)
-([Windows installer (64-bit)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe) [(.sig)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe.sig),  based on Git commit [6923b0a7](https://github.com/llvm/llvm-project/commit/6923b0a7) (28 August 2020).)
+Windows snapshot builds -> Windows installer (64-bit)  
+([Windows installer (64-bit)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe) [(.sig)](https://prereleases.llvm.org/win-snapshots/LLVM-12.0.0-6923b0a7-win64.exe.sig), based on Git commit [6923b0a7](https://github.com/llvm/llvm-project/commit/6923b0a7) (28 August 2020).)
 
 ## Module-Einführungsbeispiel
 
@@ -58,7 +58,7 @@ Je nach Framework sind auch die klassischen Bibliotheken als Module verfügbar.
 
 ### Compilen
 
-https://clang.llvm.org/docs/Modules.html
+<https://clang.llvm.org/docs/Modules.html>
 
 Für das vorangegangene Beispiel:
 
@@ -73,9 +73,9 @@ clang++ -std=c++20 -fmodules-ts -fprebuilt-module-path=. main.cpp math.pcm -o ma
 
 ## 2tes Beispiel
 
-(https://vector-of-bool.github.io/2019/03/10/modules-1.html)
+(<https://vector-of-bool.github.io/2019/03/10/modules-1.html)>
 
-* Implementierung in ein einzelnes Modul (z.B. speech.cppm):
+- Implementierung in ein einzelnes Modul (z.B. speech.cppm):
 
   ```c++
   // speech.cppm
@@ -110,7 +110,7 @@ clang++ -std=c++20 -fmodules-ts -fprebuilt-module-path=. main.cpp math.pcm -o ma
 
 ### Module Partions are not yet Supported :-)
 
-* der Code im vorhergehenden Beispiel ist gigantisch, daher wird er gesplittet:
+- der Code im vorhergehenden Beispiel ist gigantisch, daher wird er gesplittet:
 
   ```c++
   // speech.cppm
@@ -156,7 +156,7 @@ clang++ -std=c++20 -fmodules-ts -fprebuilt-module-path=. main.cpp math.pcm -o ma
 
   Teile von Modulen werden als **Partitionen** bezeichnet.
 
-* das gezeigte Aufteilen kann auch anders erreicht werden (nur als Ausschnitt):
+- das gezeigte Aufteilen kann auch anders erreicht werden (nur als Ausschnitt):
 
   ```c++
   // speech.cpp
@@ -191,7 +191,7 @@ clang++ -std=c++20 -fmodules-ts -fprebuilt-module-path=. main.cpp math.pcm -o ma
   }
   ```
 
-* Modul-Implementierungs-Variante
+- Modul-Implementierungs-Variante
 
   ```c++
   // speech.cpp
@@ -247,11 +247,9 @@ clang++ -std=c++20 -fmodules-ts -fprebuilt-module-path=. main.cpp math.pcm -o ma
   }
   ```
 
-
-
 ### Übersetzen
 
-https://gcc.gnu.org/wiki/cxx-modules
+<https://gcc.gnu.org/wiki/cxx-modules>
 
 ```
 clang++ -std=c++20 -fmodules-ts --precompile math.cppm -o math.pcm
@@ -268,8 +266,8 @@ CB 20.3
 msys2.
 
 - im Terminal `pacman -Syu` für ein Update, am Ende des Updates Fenster schließen und neues Terminal aufmachen (msys2, 64Bit ..) und erneut update ausführen
-- CLANG installieren: `pacman -S mingw-w64-x86_64-clang`
-  https://www.youtube.com/watch?v=uyDBoogrHww
-- GCC installieren: `pacman --needed -S mingw-w64-x86_64-gcc`
-  `pacman --needed -S git mingw-w64-x86_64-gcc base-devel`
-  https://www.youtube.com/watch?v=pb6Yb819pF0
+- CLANG installieren: `pacman -S mingw-w64-x86_64-clang`  
+  <https://www.youtube.com/watch?v=uyDBoogrHww>
+- GCC installieren: `pacman --needed -S mingw-w64-x86_64-gcc`  
+  `pacman --needed -S git mingw-w64-x86_64-gcc base-devel`  
+  <https://www.youtube.com/watch?v=pb6Yb819pF0>

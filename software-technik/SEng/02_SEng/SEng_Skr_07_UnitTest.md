@@ -12,9 +12,9 @@ Damit findet der Test möglichst unabhängig von anderen Komponenten ab. In viel
 
 ## Unit-Test mit QTCreator C++ (651)
 
-https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html
+<https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html>
 
-https://www.youtube.com/watch?v=MqI8jPFcSkE
+<https://www.youtube.com/watch?v=MqI8jPFcSkE>
 
 In diesem Beispiel wird die Addition eines Taschenrechners erstellt. Die Taschenrechner-Software ist in der Klasse *Calculator* zu finden. Der Test der Funktion dieser Klasse wird in die Klasse *TestCalculator* entwickelt.
 
@@ -165,10 +165,10 @@ Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
 
 ## Java - JUnit (401)
 
- https://www.youtube.com/watch?v=v2F49zLLj-8 
+ <https://www.youtube.com/watch?v=v2F49zLLj-8> 
 
-- Neues Java-Projekt:
-  401_Calculator, mit Setting "Projektordner als Stammverzeichnis für Quellen- und Klassendateien verwenden"
+- Neues Java-Projekt:  
+  401_Calculator, mit Setting "Projektordner als Stammverzeichnis für Quellenund Klassendateien verwenden"
 
 - Neues Paket: calc
 
@@ -214,6 +214,6 @@ Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
   }
   ```
 
-- Ausführen dieses Tests:
+- Ausführen dieses Tests:  
   Liefert 1/1 Test fehlerfrei bestanden. Durch Verändern des Testobjekts/des Tests kann das Ergebnis geprüft werden.
 

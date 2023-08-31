@@ -4,7 +4,7 @@
 
 NoSQL = Not Only SQL. SQL wird als Sprache für die Kommunikation mit einer relationalen Datenbank verstanden. NoSQL-Datenbanken sind Nicht-Relationale-Datenbanken. Ursache für diese Entwicklung:
 
-- ab einer gewissen Datenmenge (etwa >PetaByte) sind relationale Datenbanken technisch nicht mehr handhabbar - für viele Webanwendungen wie Google, Amazon, Facebook oder auch Mustererkennungen (Bilderkennung ...) ist die Datenmenge derart groß, dass relationale Datenbanken auf einem Einzelsystem nicht mehr verwaltbar sind. Daher gab es den Wunsch, Datenbanken auf mehrere Rechner verteilen zu können (auch auf kleine Rechner also Standard-Desktop-PC-Systeme)
+- ab einer gewissen Datenmenge (etwa >PetaByte) sind relationale Datenbanken technisch nicht mehr handhabbar - für viele Webanwendungen wie Google, Amazon, Facebook oder auch Mustererkennungen (Bilderkennung …) ist die Datenmenge derart groß, dass relationale Datenbanken auf einem Einzelsystem nicht mehr verwaltbar sind. Daher gab es den Wunsch, Datenbanken auf mehrere Rechner verteilen zu können (auch auf kleine Rechner also Standard-Desktop-PC-Systeme)
 - um in großen Datenbeständen schneller arbeitet zu können, sollen mehrere Rechner parallel an der Datenbank arbeiten können. Das wird von relationalen Datenbanken sehr eingeschränkt ermöglicht. Um die Datenbestände konsistent halten zu können wird mit Sperren (Locks) gearbeitet. Dadurch blockieren sich parallele Datenbank-Clients.
 - relationale Datenbanken haben ein striktes Schema. Ein späteres Erweitern mit zusätzlicher Information ist unter Umständen mit sehr großen Aufwänden verbunden. In NoSQL-Datenbanken ist es kein Problem wenn unterschiedliche Datensätze unterschiedliche Attribute aufweisen.
 
@@ -38,39 +38,39 @@ Für *kleine Projekte* kann verkürzt sowieso ein beliebiger Typ (relational ode
 
 Für NoSQL-Datenbanken sind die folgenden Themen relevant (stark vom tatsächlichen Implementierung abhängig) - wobei manche der erwähnten Verfahren durchaus auch für relationale Datenbanken Anwendung finden:
 
-- Map / Reduce
+- Map / Reduce  
   Ganz Allgemein gibt es Funktionen die auf jedes Element einer Datenbank separat wirken (*Map*) und Funktionen die ein Ergebnis aufgrund mehrerer Elemente liefern sollen (*Reduce*). Beispielhaft sollen die Sternzeichen von Personen in einer DB ermittelt werden, diese werden unabhängig voneinander aus dem Geburtsdatum ermittelt. Soll ein Datensatz der Person mit Namen *Huber Hans* aus einer Datenbank ermittelt werden, dann wird durch den Datenbestand traversiert und der Name ermittelt und verglichen.
 
-  Daraus folgernd, wird versucht jede notwendige Funktion mittels dieser beiden Varianten abzubilden. Map-Funktionen können logischerweise beliebig parallelisiert werden. Für Reduce Funktionen gilt das je nach konkreter Funktion nicht beliebig aber eventuell partiell. Das Unternehmen *Google* hat auf diese Art ein Programmiermodell für die nebenläufige Programmierung entwickelt (siehe auch https://de.wikipedia.org/wiki/MapReduce). 
+  Daraus folgernd, wird versucht jede notwendige Funktion mittels dieser beiden Varianten abzubilden. Map-Funktionen können logischerweise beliebig parallelisiert werden. Für Reduce Funktionen gilt das je nach konkreter Funktion nicht beliebig aber eventuell partiell. Das Unternehmen *Google* hat auf diese Art ein Programmiermodell für die nebenläufige Programmierung entwickelt (siehe auch <https://de.wikipedia.org/wiki/MapReduce).> 
 
   > Map / Reduce: Ansatz zur nebenläufigen Programmierung mit Datenbanken
 
-- CAP-Theorem
-  C=Konsistenz A=Verfügbarkeit P=Ausfalltoleranz
+- CAP-Theorem  
+  C=Konsistenz A=Verfügbarkeit P=Ausfalltoleranz  
   Diese Aspekte sind für Datenbanken grundsätzlich wichtig. Wünschenswert: alle 3 sind maximal ausgeprägt. Man möchte möglichst sofort Daten verändern/lesen und bei einem technischen Fehler soll kein Schaden entstehen. Für relationale Datenbanken wurde der C-Aspekt als wichtigster Punkt gehandhabt. Logisch: Zugriff auf ein Bankkonto soll weltweit ohne Geld Verlust/Gewinn immer 100% Konsistent erfolgen. Für Web-Anwendungen (Facebook, Google) ist dieser Aspekt nicht so wichtig, beim Suchen mittels Google stört es den Anwender nicht, wenn eine gesuchte Seite in zwei gleichzeitigen Suche-Sessions einmal weiter vorne und ein zweites Mal weiter hinten aufscheint. Wesentlich wichtiger ist die Verfügbarkeit (Antwortgeschwindigkeit). Wenn auf eine Google-Anfrage 10 Minuten gewartet werden muss wird es schlicht nicht verwendet. Gleiches für Amazon: erhält ein Anwender innerhalb von 2 Sessions gleichzeitig zwei unterschiedliche Preise genannt (aufgrund etwa Parallel-Rechnens), dann wird das von Kunden akzeptiert. Wenn jeder Klick 1 Minute dauern würde, dann hätte sich Amazon nie auf dem Markt etabliert.
 
   In wissenschaftlichen Abhandlungen wurde dargestellt, dass es nie möglich sein kann sämtliche der drei genannten Aspekte gleichzeitig zu maximieren. Es können immer nur zwei Maximal sein, wohingegen der Dritte automatisch klein wird.
 
-  Das für NoSQL-Datenbanken verwendete **BASE**-Modell berücksichtigt diese Erkenntnis und erlaubt eine Verschiebung der Prioritäten etwa hin zur Verfügbarkeit. In relationalen Datenbanken wird üblicherweise nach dem **ACID**-Prinzip gearbeitet (https://de.wikipedia.org/wiki/ACID). In diesem wird die Konsistenz als höchste Maxime behandelt.
+  Das für NoSQL-Datenbanken verwendete **BASE**-Modell berücksichtigt diese Erkenntnis und erlaubt eine Verschiebung der Prioritäten etwa hin zur Verfügbarkeit. In relationalen Datenbanken wird üblicherweise nach dem **ACID**-Prinzip gearbeitet (<https://de.wikipedia.org/wiki/ACID).> In diesem wird die Konsistenz als höchste Maxime behandelt.
 
   > CAP-Theorem: nur Zwei von C-A-P können groß sein, der Dritte ist automatisch gering.
 
-- Consistant-Hashing
-  Mittels Hash-Maps können Daten schnellst möglich auffindbar abgelegt werden (konstante Abrufzeit  O(1)  !!!  ). Wenn die Server-Struktur umgebaut wird (Erweitern oder Reduzieren), dann muss die Daten-Ablage neu verteilt werden. Das führt zu einem erheblichen Kopieraufwand. Um diesen zu Vermeiden, gibt es die Strategie *Consistent-Hashing*. (https://wikis.gm.fh-koeln.de/Datenbanken/ConsistentHashing)
+- Consistant-Hashing  
+  Mittels Hash-Maps können Daten schnellst möglich auffindbar abgelegt werden (konstante Abrufzeit O(1) !!! ). Wenn die Server-Struktur umgebaut wird (Erweitern oder Reduzieren), dann muss die Daten-Ablage neu verteilt werden. Das führt zu einem erheblichen Kopieraufwand. Um diesen zu Vermeiden, gibt es die Strategie *Consistent-Hashing*. (<https://wikis.gm.fh-koeln.de/Datenbanken/ConsistentHashing)>
 
   > Consistant-Hashing: Erweiterung von *einfachen* Hash-Maps um Systemumbau (Server-Struktur) mit geringem Kopieraufwand zu realisieren.
 
-- Multiversion-Concurrency-Control (MVCC)
-  Beim parallelen Schreiben in den selben Daten von Datenbeständen blockiert klassisch einer der Teilnehmer den anderen. Um die Blockade zu Vermeiden wird mit *versionierten* Transaktionen (Versionsnummer) gearbeitet. (https://wikis.gm.fh-koeln.de/Datenbanken/MVCC)
+- Multiversion-Concurrency-Control (MVCC)  
+  Beim parallelen Schreiben in den selben Daten von Datenbeständen blockiert klassisch einer der Teilnehmer den anderen. Um die Blockade zu Vermeiden wird mit *versionierten* Transaktionen (Versionsnummer) gearbeitet. (<https://wikis.gm.fh-koeln.de/Datenbanken/MVCC)>
 
   > MVCC: Versionierung um Schreibkollisionen zu erkennen und Schreiben ohne Blockaden zu ermöglichen
 
-- Vector-Clocks
-  In verteilten Systemen kommt es vor, dass manche Teilnehmer Änderungen nicht erfahren. Bei Änderungen wird ein fortlaufender Zähler (Clock) mitgeführt. Damit kann aufgrund fehlender Zählerstände dieser Mangel erkannt werden und entsprechend letztgültige Stände übernommen werden. Der Name Vector rührt daher, dass die Zählerstände jedes einzelnen Clients behalten werden. (https://de.wikipedia.org/wiki/Vektoruhr)
+- Vector-Clocks  
+  In verteilten Systemen kommt es vor, dass manche Teilnehmer Änderungen nicht erfahren. Bei Änderungen wird ein fortlaufender Zähler (Clock) mitgeführt. Damit kann aufgrund fehlender Zählerstände dieser Mangel erkannt werden und entsprechend letztgültige Stände übernommen werden. Der Name Vector rührt daher, dass die Zählerstände jedes einzelnen Clients behalten werden. (<https://de.wikipedia.org/wiki/Vektoruhr)>
 
   > Vector-Clocks: Mitführen eines Zählers um Übertragungsunterbrechungen zu Erkennen
 
-- REST - Entwurfsmuster für verteilte Applikation (nicht nur Datenbanken). Üblicherweise wird REST mittels HTTP umgesetzt. (https://de.wikipedia.org/wiki/Representational_State_Transfer)
+- REST - Entwurfsmuster für verteilte Applikation (nicht nur Datenbanken). Üblicherweise wird REST mittels HTTP umgesetzt. (<https://de.wikipedia.org/wiki/Representational_State_Transfer)>
 
   > REST: API für die Kommunikation mit (zum Beispiel) einer Datenbank
 
@@ -107,7 +107,7 @@ Die *id*s sind natürlich unterschiedlich, sie werden von der Datenbank generier
 
 ### MongoDB-Kommandozeile
 
-https://www.youtube.com/watch?v=bKjH8WhSu_E
+<https://www.youtube.com/watch?v=bKjH8WhSu_E>
 
 Das Arbeiten mit der MongoDB-Kommandozeile ist relativ intuitiv:
 
@@ -152,7 +152,7 @@ Mit diesen beiden Anweisungen wird in der Datenbank gesucht. Die erste Anweisung
 
 Bischen Mehr:
 
-- Auflisten vorhandener Databases (https://docs.mongodb.com/manual/reference/command/listDatabases/):
+- Auflisten vorhandener Databases (<https://docs.mongodb.com/manual/reference/command/listDatabases/):>
 
   ```
   > db.adminCommand( {listDatabases:1})
@@ -184,7 +184,7 @@ Bischen Mehr:
   }
   ```
 
-- Auflisten vorhandener Collections (https://docs.mongodb.com/master/reference/command/listCollections/index.html):
+- Auflisten vorhandener Collections (<https://docs.mongodb.com/master/reference/command/listCollections/index.html):>
 
   ```
   > db.runCommand( { listCollections: 1 } )
@@ -230,11 +230,11 @@ Bischen Mehr:
 
 ### REST
 
-https://www.youtube.com/watch?v=1VA0MPwFcyU
+<https://www.youtube.com/watch?v=1VA0MPwFcyU>
 
 #### Installation Nodejs
 
-- Download und Ausführen des msi von https://nodejs.org/de/. Dabei Auswahl für Installation der notwendigen Tools.
+- Download und Ausführen des msi von <https://nodejs.org/de/.> Dabei Auswahl für Installation der notwendigen Tools.
 
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
@@ -382,11 +382,11 @@ int main()
 
 ### MongoDB Installation
 
-- Download letzte Community-Version von https://www.mongodb.com/try/download/community
+- Download letzte Community-Version von <https://www.mongodb.com/try/download/community>
 
 - Download der Datei (hier *mongodb-windows-x86_64-4.4.0-signed.msi*) in ein beliebiges Verzeichnis und Ausführen.
 
-- Dabei wird ein Service *MongoDB* installiert (kann im Task-Manager unter Dienste gefunden werden beziehungsweise mit *Dienste* konfiguriert werden). *Compass* muss nicht unbedingt installiert werden.
+- Dabei wird ein Service *MongoDB* installiert (kann im Task-Manager unter Dienste gefunden werden beziehungsweise mit *Dienste* konfiguriert werden). *Compass* muss nicht unbedingt installiert werden.  
   Wird die Service-Konfiguration geöffnet, dann ist dort ersichtlich mit welchen Parametern der Service gestartet wird. Standard: *C:\Program Files\MongoDB\Server\4.4\bin\mongod.cfg*. Darin ist zu finden: *dbPath: C:\Program Files\MongoDB\Server\4.4\data* . Mit dieser Angabe wird festgelegt wo die Datenbanken abgelegt werden.
 
   Unter der Dienste-Konfiguration ist es durchaus sinnvoll den Service auf *Manuell* zu setzten, ansonsten wird der Service immer automatisch mit Windows gestartet.
@@ -401,6 +401,6 @@ Zusammenfassend:
 
 ## Referenzen
 
-....
+….
 
 - [https://www.w3schools.com/sql/default.asp](https://www.w3schools.com/sql/default.asp)

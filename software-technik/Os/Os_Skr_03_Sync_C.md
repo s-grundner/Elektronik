@@ -177,7 +177,7 @@ Semaphore beinhalten:
 - einen Zähler, dieser signalisiert wieviel Zugänge noch möglich sind. Beim Eintritt wird der Zähler dekrementiert. Wenn der Zähler auf 0 steht, ist kein Eintritt möglich. Beim Verlassen wird der Zähler wiederum inkrementiert.
 - eine Queue, in dieser werden die Threads nach Ankunft gereiht wenn der Zähler 0 ist. Wird der Zähler wieder größer 0, dann wird einer der gequeueten Threads aktiviert.
 
-Im Gegensatz zu Mutex wird von C++ kein Semaphor-Mechanismus angeboten und muss daher, wenn  gewünscht, selbst implementiert werden:
+Im Gegensatz zu Mutex wird von C++ kein Semaphor-Mechanismus angeboten und muss daher, wenn gewünscht, selbst implementiert werden:
 
 ```c++
 struct Semaphor {
@@ -211,7 +211,7 @@ void notify(Semaphor *sema) {
 Typische Verwendungsfälle von Semaphore:
 
 - Aufteilung von Mehrfach vorhandenen Rechnerkernen (in modernen Betriebssystemen)
-- gepufferte Datenübertragung - in einem FIFO-Buffer kann ein Lese- und ein Schreib-Thread gleichzeitig zugreifen, solange der Buffer gefüllt ist (kann mit dem Counter ermöglicht werden)
+- gepufferte Datenübertragung - in einem FIFO-Buffer kann ein Leseund ein Schreib-Thread gleichzeitig zugreifen, solange der Buffer gefüllt ist (kann mit dem Counter ermöglicht werden)
 
 Alternativ kann aus C eine Semaphor-Variante verwendet werden, Abfolge:
 
@@ -285,12 +285,12 @@ Beispiel **Producer-Consumer**:
 
 - Reale Probleme:
 
-  - der Produzent erzeugt zu viel Daten, der Buffer läuft über (eventuell entnimmt der Konsument die Daten zu langsam)  -> *Buffer-Overflow*
+  - der Produzent erzeugt zu viel Daten, der Buffer läuft über (eventuell entnimmt der Konsument die Daten zu langsam) -> *Buffer-Overflow*
   - der Konsument möchte Daten abholen, der Buffer ist allerdings schon leer -> *Buffer-Underflow*
 
   einfachste Lösung: Auslösen einer Exception für Buffer-Overflow/-Underflow
 
-FiFo-Buffer, am Einfachsten realisiert als [Ringbuffer](../../digital-technik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden ...):
+FiFo-Buffer, am Einfachsten realisiert als [Ringbuffer](../../digital-technik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
 
 ![OS_FiFo](assets/OS_FiFo.png)
 
@@ -418,7 +418,7 @@ int main(){
 
 `assert(param)`: wenn `param == false` ist, dann wird eine Exception ausgelöst. Ein Assert wird üblicherweise eingebaut, wenn etwas nie passieren kann/soll - Erstens um den Leser zu zeigen, dass die angegebene Bedingung immer erfüllt wird und zweitens, damit dieser (weil nie vorkommend) nicht berücksichtigte Fehler abgefangen wird.
 
-Mit diesen Exceptions kann sichergestellt werden, dass der Buffer nie über- oder unterläuft. Allerdings gibt es Exceptions wenn Producer und Consumer nicht gleich schnell den Buffer füllen/entleeren.
+Mit diesen Exceptions kann sichergestellt werden, dass der Buffer nie überoder unterläuft. Allerdings gibt es Exceptions wenn Producer und Consumer nicht gleich schnell den Buffer füllen/entleeren.
 
 ### Thread-Sicher
 
@@ -607,5 +607,5 @@ Beherzigen Sie folgende Regeln bei der Synchronisierung von Threads:
 
 ## Referenzen
 
-- Java-Semaphore/Mutex
-  https://www.mkyong.com/java/java-thread-mutex-and-semaphore-example/
+- Java-Semaphore/Mutex  
+  <https://www.mkyong.com/java/java-thread-mutex-and-semaphore-example/>

@@ -21,4 +21,5 @@ Zweier Potenzen lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
 ![1150](../assets/c-div3.png)
 
 >[!warning] Unsymmetrscher Takt ($DC\neq 50\%$)
+
 # Tags

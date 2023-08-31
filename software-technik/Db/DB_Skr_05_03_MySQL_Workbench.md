@@ -28,7 +28,7 @@ Die Oberfläche:
 - ganz oben über der Menüleiste kann die DB-Verbindung beendet werden indem der entsprechende Reiter geschlossen wird
 - Unter den Reitern befindet sich die Menüleiste. Je nachdem was für Reiter gewählt sind verändern sich die Inhalte der Menüpunkte.
 - Im Navigator: zwei Seiten Administration und Schemas.
-  - Administration: Grundeinstellungen/Inforamtionen der DB (Benutzer, Rechte, Verbindung ...)
+  - Administration: Grundeinstellungen/Inforamtionen der DB (Benutzer, Rechte, Verbindung …)
   - Schemas: in MySQL-WB werden die myPhpAdmin-Datenbanken als Schema bezeichnet.
 
 ## Schemas Verwalten
@@ -43,9 +43,9 @@ Die Oberfläche:
 
 ### Tabellen
 
-- Erstellen eines neuen Navigator -> Schemas (~Datenbank) in der Symbolleiste **Create a new Schema...** -> Name eingeben und den zu verwendenden Zeichensatz auswählen. Mit **Apply** kann mit den dargestellten SQL-Anweisungen das Schema auch in der verbundenen Datenbank erstellt werden.
+- Erstellen eines neuen Navigator -> Schemas (~Datenbank) in der Symbolleiste **Create a new Schema…** -> Name eingeben und den zu verwendenden Zeichensatz auswählen. Mit **Apply** kann mit den dargestellten SQL-Anweisungen das Schema auch in der verbundenen Datenbank erstellt werden.
 
-- Erstellen einer neuen Tabelle: im Navigator -> Schema -> Tables -> Kontextmenü -> **Create new Table ...**
+- Erstellen einer neuen Tabelle: im Navigator -> Schema -> Tables -> Kontextmenü -> **Create new Table …**  
   Name eingeben und eventuell auch die Spalten eintragen - mit Datentyp und Attributen (Übersetzung rechts unten). Abschließend **Apply** und wieder Abfrage ob die Tabelle in der verbunden DB erstellt werden soll.
 
 - Das Bearbeiten / Hinzufügen / Löschen von Spalten/Tabellen/Schemas erfolgt jeweils über das Kontextmenü im Navigator.
@@ -56,13 +56,13 @@ Die Oberfläche:
   - Angabe in welche Tabelle referenziert werden soll
   - Angabe welche Spalte in der aktuellen Tabelle referenzieren soll
   - Angabe auf welche Spalte sich referenziert werden soll (muss ein Schlüssel sein)
-  - Auswahl wie bei einem Update/Delete verfahren werden soll (CASCADE...)
+  - Auswahl wie bei einem Update/Delete verfahren werden soll (CASCADE…)
   
   Damit wird eine Beziehung 1:n dargestellt.
 
 - Erzeugen eines ERM-Diagramms aus einem Schema:
   
-  - Menüleiste -> Database -> Reverse Engineer ... -> ... -> Schema auswählen -> ... beim Vorletzten Punkt wurde ein ERM-Diagramm erstellt, der Ablauf kann beendet werden.
+  - Menüleiste -> Database -> Reverse Engineer … -> … -> Schema auswählen -> … beim Vorletzten Punkt wurde ein ERM-Diagramm erstellt, der Ablauf kann beendet werden.
 
 ## ERD-Diagramm
 
@@ -70,7 +70,7 @@ In MySQL-WB werden diese Diagramm EER-Diagramme genannt.
 
 - Menüleiste -> File -> New Model -> Model Overview -> **Add Diagram**. Zeichenbereich öffnet sich. Mittels Tools in der Leiste können Tabellen neue plaziert werden (Kurzwahl T). Wenn im gewählten Schema schon Tabellen existieren können die aus dem Catalog Tree per Drag and Drop plaziert werden.
 
-- Doppelklick auf Tabelle -> Bereich mit Einstellungen öffnet sich: Tabelle benennen, Einfügen/Konfigurieren von Spalten ...
+- Doppelklick auf Tabelle -> Bereich mit Einstellungen öffnet sich: Tabelle benennen, Einfügen/Konfigurieren von Spalten …
 
 - Beziehungen von Tabellen:
   
@@ -84,5 +84,5 @@ In MySQL-WB werden diese Diagramm EER-Diagramme genannt.
 
 - Erzeugen der SQL-Anweisung zur Erstellung der erzeugten Struktur:
   
-  - Database -> Forward Engineer ... -> ... 
+  - Database -> Forward Engineer … -> … 
   - wenn der SQL-Code angezeigt wird, kann er kopiert werden und der Ablauf beendet werden.

@@ -4,14 +4,13 @@
 
 - Download (32 oder 64 Bit) von **Precompiled Binaries for Windows**:
 
-  https://www.sqlite.org/index.html
+  <https://www.sqlite.org/index.html>
 
   und die Command-Line-Tools
 
 - Der Download beinhaltet einfache ZIP-Dateien, es ist keine gesonderte Installation notwendig.
 
-- Zur Verwaltung hilfreich ist *SQLiteBrowser*, dieser kann von https://sqlitebrowser.org/ für jedes OS bezogen werden. Eine einfache Einleitung gibt's hier: https://www.youtube.com/watch?v=2pbL7gTHMRw
-
+- Zur Verwaltung hilfreich ist *SQLiteBrowser*, dieser kann von <https://sqlitebrowser.org/> für jedes OS bezogen werden. Eine einfache Einleitung gibt's hier: <https://www.youtube.com/watch?v=2pbL7gTHMRw>
 
 ## Anwendung
 
@@ -32,10 +31,10 @@ Mit dieser Folge wird ein Schema (Datenbank) **intro.db** erstellt (in eine glei
 
 Mittels einer ebenfalls verfügbaren dll kann via Programm (aus Windows) darauf zugegriffen werden. Alternativ sind selbstverständlich auch ODBC-Treiber erhältlich.
 
-- https://www.devart.com/odbc/sqlite/DevartODBCSQLite.exe
+- <https://www.devart.com/odbc/sqlite/DevartODBCSQLite.exe>  
   dieser Treiber ist frei allerdings nur für 30 Tage lizenziert.
-- Freie Alternative:
-  http://www.ch-werner.de/sqliteodbc/
+- Freie Alternative:  
+  <http://www.ch-werner.de/sqliteodbc/>
 
 
 

@@ -4,4 +4,6 @@ aliases: []
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ---
 
-# <%tp.file.title%>
+# Default_Header
+
+- [ ] # <%tp.file.title%>

@@ -163,17 +163,17 @@ typedef struct {
 } TPERSON;
 ```
 
-- Definieren Sie ein *anzahl* großes Array:
+- Definieren Sie ein *anzahl* großes Array:  
   `TPERSON wir[] = {{123, "Max Muster"}, {44, "Susi Wiese"}, {1, "Fritz Wald"}};`
 
 - definieren Sie zusätzlich das Array `TPERSON** p;` (dynamische Größe möglich) bzw. `TPERSON *p[anzahl]`.
 
-  das nach dem Einlesen der Daten folgenden Inhalt hat:
-  ​	p[0] zeigt auf wir[0]
-  ​	p[1] zeigt auf wir[1]
-  ​	...
+  das nach dem Einlesen der Daten folgenden Inhalt hat:  
+  ​	p[0] zeigt auf wir[0]  
+  ​	p[1] zeigt auf wir[1]  
+  ​	…
 
-- Sortieren (mit qsort()) Sie nun nicht die Daten (im Array wir), sondern das Array p.
+- Sortieren (mit qsort()) Sie nun nicht die Daten (im Array wir), sondern das Array p.  
   Das Array wir bleibt also unverändert!!!
 
 - Bei der sortierten Ausgabe verwenden Sie das Array p.
@@ -219,7 +219,7 @@ Die Vergleichsfunktionen sind so definiert:
 
 `int compare(const void *pa1, const void *pa2);`
 
-Die Funktion *myBubbleSort()*  ist folgendermaßen definiert:
+Die Funktion *myBubbleSort()* ist folgendermaßen definiert:
 
 `void myBubbleSort(void *arr, size_t numElem, size_t size, int (*compare)(const void *, const void *) );`
 
@@ -330,17 +330,17 @@ Ein Profiler ist ein eigenständiges Programm, welches Sie zur Laufzeitanalyse v
 
 Bei den kommerziellen Entwicklungsumgebungen ist der Profiler im Normalfall mit dabei. Es gibt aber auch einen kostenlosen Kommandozeilen-Profiler, den GNU-Profiler gprof, der für alle gängigen Systeme erhältlich ist.
 
-- Als Erstes benötigen Sie einen fehlerfreien Quellcode, den Sie analysieren wollen. Dann müssen Sie den Quellcode mit dem Compilerschalter -pg übersetzen:
+- Als Erstes benötigen Sie einen fehlerfreien Quellcode, den Sie analysieren wollen. Dann müssen Sie den Quellcode mit dem Compilerschalter -pg übersetzen:  
   `gcc -pg programmname.c`
 
--  Jetzt befindet sich im Verzeichnis eine Datei namens "a.out" (unter Windows/MS-DOS "a.exe"). Diese Datei ist die ausführbare Datei für Ihren Quellcode.
+- Jetzt befindet sich im Verzeichnis eine Datei namens "a.out" (unter Windows/MS-DOS "a.exe"). Diese Datei ist die ausführbare Datei für Ihren Quellcode.
 
-- Starten Sie jetzt das ausführbare Programm "a.out" ("a.exe").
+- Starten Sie jetzt das ausführbare Programm "a.out" ("a.exe").  
   `./a.out`
 
   Nun werden die Profiling-Informationen in die Datei "gmon.out" geschrieben, die sich jetzt ebenfalls im Verzeichnis befindet.
 
-- Nach Programmende können Sie gprof zur Auswertung der Datei"gmon.out" aufrufen. Die Ausgabe, welche häufig etwas länger ist, leiten Sie am besten in eine Datei um:
+- Nach Programmende können Sie gprof zur Auswertung der Datei"gmon.out" aufrufen. Die Ausgabe, welche häufig etwas länger ist, leiten Sie am besten in eine Datei um:  
   `gprof ./a.out > test_prof.txt`
 
   bzw. (gprof a.exe > test_prof.txt). Die Textdatei "test_prof.txt" können Sie jetzt mit einem Editor Ihrer Wahl öffnen. Diese Datei beinhaltet wiederum zwei Dateien. Der erste Teil nennt

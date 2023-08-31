@@ -26,7 +26,7 @@ char *str; str = "Hagen";								 // 6 Zeichen reserviert, initialisiert und kon
 
 Konstant bedeutet die Zeichen können zur Laufzeit nicht verändert werden. Werden Zeiger angelegt, dann wird ja damit nicht zwangsläufig Speicherplatz dort reserviert, wo der Zeiger hinzeigt. Mit `char *str = "Hagen"` wird ein Zeiger angelegt. Zusätzlich wird dabei ein konstantes Zeichenfeld (mit Inhalt *Hagen*) auf welches der Zeiger zeigt. Der Inhalt kann daher nicht verändert werden. Der Zeiger selbst kann allerdings seinen Wert (die Adresse) verändern und damit auch auf andere Zeichenketten zeigen.
 
-Werden Zeichenketten als Felder definiert `char str[...]`, dann kann der Inhalt des Felds verändert werden, eine Zuweisung `str1 = str2` funktioniert allerdings nicht.
+Werden Zeichenketten als Felder definiert `char str[…]`, dann kann der Inhalt des Felds verändert werden, eine Zuweisung `str1 = str2` funktioniert allerdings nicht.
 
 C prüft eine Zeichenkette nicht auf eine abschließende '\0', allergings benötigen String-Funktionen wie printf() diese Terminierung:
 

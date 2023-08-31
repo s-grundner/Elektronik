@@ -1,3 +1,5 @@
+# Cpp_Skr_04_Ue_OOP_Cipher
+
 ## C++ Cipher-Klasse
 
 Übung zum Erstellen von abstrakten Klassen und einfachen Chiffren.
@@ -23,7 +25,7 @@ Hallo -> Idoor
 
 Für die folgende Aufgabe ist diese Additive Substitution zu implementieren.
 
-Eine weitere Möglichkeit, die vor allem Hardwaretechnisch wesentlich einfacher zu realisieren ist, ist die Substitution mittels XOR. Während die Additive Ver- und Entschlüsselung aufwendig (naja) ist, weil fürs Ver- und Entschlüsseln ein anderer Algorithmus notwendig ist, kann für (bitweise) XOR der Gleiche verwendet werden.
+Eine weitere Möglichkeit, die vor allem Hardwaretechnisch wesentlich einfacher zu realisieren ist, ist die Substitution mittels XOR. Während die Additive Verund Entschlüsselung aufwendig (naja) ist, weil fürs Verund Entschlüsseln ein anderer Algorithmus notwendig ist, kann für (bitweise) XOR der Gleiche verwendet werden.
 
 Beispiel: es soll die Zahl 0001 mit dem Schlüssel 0101 ver-XOR t werden:
 

@@ -31,7 +31,7 @@ Die Geräte der Vermittlungsschicht unterbrechen die [Broadcastdomäne](Broadcas
 
 ### Router
 
-*siehe Wikipedia Eintrag zu [Router](https://de.wikipedia.org/wiki/Router)*
+*siehe Wikipedia Eintrag zu [Router](https://de.wikipedia.org/wiki/Router)*  
 Router leiten Datenpakete zwischen Netzen mit eigenen logischen Adressbereichen weiter.
 - Besitzt genau wie Hubs und Switche mehrere Schnittstellen
 - Ermöglichen die Verbindung des [LAN](Local%20Area%20Network.md) mit einem [WAN](Wide%20Area%20Network.md)
@@ -56,26 +56,30 @@ Auch VPN-[Gateways](Gateway.md) (Virtual Private Network) können auf der Vermit
 
 > [!note] Dienen zur Weiterleitung und Weg Bestimmung
 > - Distanz Vector-Routing-Protokolle
-> - Link-State-Routing- Protokolle
+> - Link-State-RoutingProtokolle
 
 1. **IP** - Internet Protocol:
 	- Versenden von Datenpaketen (Datagramm).
 	- IP ist verbindungslos (kein Öffnen/Schließen einer Verbindung notwendig), es wird weggesendet und darauf vertraut, dass es ankommen wird.
 	- IP garantiert kein Ankommen von Paketen oder die korrekte Reihenfolge von Paketen.
 	- IP läuft üblich über mehrere Zwischenstationen.
-	- Ein IP-Datagramm besteht aus einem Header (Version (IPv4...), Protokoll, Typ, Src-/Dst-Adressen, Checksumme, Länge ...) und einem Datenblock mit maximaler Länge (TCP liegt komplett im Datenblock).
+	- Ein IP-Datagramm besteht aus einem Header (Version (IPv4…), Protokoll, Typ, Src-/Dst-Adressen, Checksumme, Länge …) und einem Datenblock mit maximaler Länge (TCP liegt komplett im Datenblock).
 
-> [!warning]  Diese Schicht ist nicht für Anwendungen zugänglich. Zum Senden eines IP muss die MAC-Adresse bekannt sein, Die Schicht unter dieser Schicht verwendet ARP um diese MAC-Adressen zu ermitteln.
+> [!warning] Diese Schicht ist nicht für Anwendungen zugänglich. Zum Senden eines IP muss die MAC-Adresse bekannt sein, Die Schicht unter dieser Schicht verwendet ARP um diese MAC-Adressen zu ermitteln.
 
-2. **ICMP**	Internet Control Message Protocol: Austausch von Kontroll-/Fehlerpaketen. Ist Teil des IP. (ping verwendet Echo-Requests auf ICMP)
+1. **ICMP**	Internet Control Message Protocol: Austausch von Kontroll-/Fehlerpaketen. Ist Teil des IP. (ping verwendet Echo-Requests auf ICMP)
 
 
 
 
 
 ---
+
 # Tags
+
 ## [OSI-Modell](OSI-Modell.md)
+
 ## [Christian Baun](http://www.christianbaun.de/)
-![7-FS_ComputerNetze](../assets/Christian-Baun/7-FS_ComputerNetze.pdf)
+
+![7-FS_ComputerNetze](../assets/Christian-Baun/7-FS_ComputerNetze.pdf)  
 ![8-FS_ComputerNetze](../assets/Christian-Baun/8-FS_ComputerNetze.pdf)

@@ -27,7 +27,7 @@ closesocket(s);
 WSACleanup();
 ```
 
-Für *bind* muss eine Konfigurations-Struktur erzeugt werden, die beinhaltet: Protokoll (IPv4...), wer darf verbinden (IP ...) und auf welchem Port (Details hängen vom Protokoll ab). Da UDP ein Verbindungsloses Protokoll ist, wird in jedem *recvfrom* eine Struktur zurückgegeben mit der Information des verbindenden Clients.
+Für *bind* muss eine Konfigurations-Struktur erzeugt werden, die beinhaltet: Protokoll (IPv4…), wer darf verbinden (IP …) und auf welchem Port (Details hängen vom Protokoll ab). Da UDP ein Verbindungsloses Protokoll ist, wird in jedem *recvfrom* eine Struktur zurückgegeben mit der Information des verbindenden Clients.
 
 Im folgenden Beispiel wird konfiguriert:
 
@@ -94,7 +94,7 @@ closesocket(s);
 WSACleanup();
 ```
 
-Für *sendto* muss eine Konfigurations-Struktur erzeugt werden, die beinhaltet: Protokoll (IPv4...), an welchem Server gesendet werden soll (IP ...) und auf welchem Port (Details hängen vom Protokoll ab).
+Für *sendto* muss eine Konfigurations-Struktur erzeugt werden, die beinhaltet: Protokoll (IPv4…), an welchem Server gesendet werden soll (IP …) und auf welchem Port (Details hängen vom Protokoll ab).
 
 Im folgenden Beispiel wird konfiguriert:
 
@@ -146,7 +146,7 @@ Kompiliert wird mit der Linker-Option *-lws2_32*.
 
 Einfacher Zugriff (ohne irgendwelche Fehlerprüfungen und mit direkten Zugriff in die Struktur) auf den Windows-Socket-Treiber. Damit das klappt muss mit **-lws2_32** gelinkt werden.
 
-Für Server: socket()->bind()->listen()->accept()->...warten und kommunizieren ...->close()
+Für Server: socket()->bind()->listen()->accept()->…warten und kommunizieren …->close()
 
 ```c
 #define _WIN32_WINNT 0x0A00
@@ -192,7 +192,7 @@ int main() {
 }
 ```
 
-Mit *Accept* wird ein neuer Socket *comSock* zurückgegeben. Dieser kann anschließend für die Kommunikation mit dem Client verwendet werden. Der ursprüngliche Socket *s* kann weiterverwendet werden um auf einen weiteren Client zu warten, dazu muss wieder *accept*  aufgerufen werden (in einem parallelen Thread/Prozess).
+Mit *Accept* wird ein neuer Socket *comSock* zurückgegeben. Dieser kann anschließend für die Kommunikation mit dem Client verwendet werden. Der ursprüngliche Socket *s* kann weiterverwendet werden um auf einen weiteren Client zu warten, dazu muss wieder *accept* aufgerufen werden (in einem parallelen Thread/Prozess).
 
 Vor *close* wird in einer "sinnvollen" Anwendung kommuniziert (send/recv).
 
@@ -202,7 +202,7 @@ Vor *close* wird in einer "sinnvollen" Anwendung kommuniziert (send/recv).
 
 Einfacher Zugriff (ohne irgendwelche Fehlerprüfungen) auf den Windows-Socket-Treiber. Damit das klappt muss mit **-lws2_32** gelinkt werden.
 
-Für Client: socket()->connect()->...Senden/Empfangen...->close()
+Für Client: socket()->connect()->…Senden/Empfangen…->close()
 
 ```c
 #define _WIN32_WINNT 0x0A00
@@ -648,7 +648,7 @@ Besser weiterverwendet werden können die Klassen evtl. als UdpSocket-Klassen.
 
 ## C++ TCP OOP (c++458)
 
-Erstellung einer Server-Anwendung. Stream-Socket- Verbindung mit einem Client mittels IPv4 und Rücksenden der empfangenen Daten. Getestet kann die Anwendung mittels Telnet 127.0.0.1:51234.
+Erstellung einer Server-Anwendung. Stream-SocketVerbindung mit einem Client mittels IPv4 und Rücksenden der empfangenen Daten. Getestet kann die Anwendung mittels Telnet 127.0.0.1:51234.
 
 Der Ablauf allgemein:
 
@@ -656,7 +656,7 @@ Der Ablauf allgemein:
 
 In dieser Anwendung wird kein eigener Daemon und kein eigener Service-Prozess erzeugt. Nach dem Akzeptieren des Client-Requests (4) wird ein Connection-Socket erzeugt und der Well-Known-Socket geschlossen (es soll hier nur ein Client bedient werden).
 
-(Beispiel von http://tldp.org/LDP/LG/issue74/tougher.html)
+(Beispiel von <http://tldp.org/LDP/LG/issue74/tougher.html)>
 
 **Socket** ist die Basis Wrapper Klasse der Standard Socket API-Funktionen in C. Wie in anderen Beispielen gezeigt ist das Arbeiten mit den OS-APIs mühsam, daher wird die Struktur verbessert. Sehen sie sich dazu das Server und Client Beispiel im Anschluss an.
 
@@ -1080,7 +1080,7 @@ Implementieren Sie mittels dem C++OOP-Framework eine PingPong-Anwendung:
 - Start der Programms mittels Parameter *type*='s' (Server) oder 'c' (Client)
 - Nach Start eines Servers und eines Clients startet der Client mit der Übertragung eines "Ping"
 - Wenn der Server eine Nachricht empfängt antwortet er mit Pong (eventuell Sleep einbauen)
-- ...
+- …
 
 ## C++ Filetransfer (c++454)
 
@@ -1092,7 +1092,7 @@ Erstellen Sie einen einfachen Webserver.
 
 ## Qt Client/Server
 
-( https://www.bogotobogo.com/cplusplus/sockets_server_client_QT.php -> dort gibt es eine sehr gute Anleitung für Mutlithreaded Server-Komm.)
+( <https://www.bogotobogo.com/cplusplus/sockets_server_client_QT.php> -> dort gibt es eine sehr gute Anleitung für Mutlithreaded Server-Komm.)
 
 Einfacher wie in den vorherigen Beispielen mit den C-APIs des Betriebssystems, klappt die Verwendung von Sockets, mit entsprechenden Frameworks (OS-Unabhängig). Hier wird das mit den Bibliotheken von Qt gezeigt.
 
@@ -1244,7 +1244,7 @@ Dieser Server kann mittels `telnet 127.0.0.1 51234` kontaktiert werden. Oder mit
 
 Schreiben Sie einen Qt-Chat-Server.
 
-### Clientsoftware  (c++455)
+### Clientsoftware (c++455)
 
 wichtig in der Projektkonfiguration (pro-Datei): `QT += network` (damit die richtigen Bibliotheken dazu gelinkt werden).
 
@@ -1380,7 +1380,7 @@ Es wird ein Socket erzeugt. Mittels eines Ausgabe-Streams wird auf dem Socket ge
 
 **Beispiel**:
 
-Von https://de.wikibooks.org/wiki/Java_Standard:_Socket_und_ServerSocket_(java.net) ist das folgende einfache Beispiel für eine Client-/Server-Kommunikation.
+Von <https://de.wikibooks.org/wiki/Java_Standard:*Socket_und_ServerSocket*(java.net)> ist das folgende einfache Beispiel für eine Client-/Server-Kommunikation.
 
 **Der Server**:
 
@@ -1661,7 +1661,7 @@ wie im Flussdiagramm dargestellt müssen auf dem Server die folgenden Funktionen
   }
   ```
 
-  Hier werden die empfangenen Daten in einen internen Buffer kopiert (*Array.copy*).  Anschließend werden diese Daten an eine Funktion in einem anderen Thread gesendet (*Dispatcher.Invoke*) um dort angezeigt zu werden. Der Server sendet anschließend die empfangenen Daten weiter für den Fall das mehrere Clients verbunden sind. Dann wird der Server-Socket wieder auf Empfang geschaltet.
+  Hier werden die empfangenen Daten in einen internen Buffer kopiert (*Array.copy*). Anschließend werden diese Daten an eine Funktion in einem anderen Thread gesendet (*Dispatcher.Invoke*) um dort angezeigt zu werden. Der Server sendet anschließend die empfangenen Daten weiter für den Fall das mehrere Clients verbunden sind. Dann wird der Server-Socket wieder auf Empfang geschaltet.
 
 - für den Fall des Beendens der Verbindung müssen die Sockets beendet werden:
 

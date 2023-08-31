@@ -15,7 +15,7 @@ In größeren Projekten ist es unumgänglich Software in Teile aufzuteilen, die 
 
 In C werden Programme daher in sogenannte Module aufgeteilt.
 
-- Ein Modul besteht aus Daten und Funktionen (in einer h- und einer c-Datei)
+- Ein Modul besteht aus Daten und Funktionen (in einer hund einer c-Datei)
 - Eine Applikation (Programm) besteht aus den notwendigen Modulen.
 
 Um Funktionen verwenden zu können, muss ein Prototyp vor der Verwendung definiert werden. Ist die Funktion in einer anderen c-Datei (Modul). Um den Prototypen vor das aufrufende Programm zu setzen wird er in der *h-Datei* der Funktion definiert und über ein *include* eingebunden (Die `#include` Direktive kopiert die Datei einfach an der entsprechenden Zeile ein).
@@ -101,13 +101,13 @@ Anstatt der Object-Datei kann nun die Bibliothek zu unser main gebunden werden:
 >gcc main.o -L. -lfunc.a -o myProg.exe
 ```
 
-Der Parameter `-L `gibt den Suchpfad für die Bibliothek an (. = aktueller Pfad). `-lfunc.a` gibt den Bibliotheksnamen an (die UNIX- und die Windows-Varianten unterscheiden sich hier ein wenig, für die Libs müssen oft die Switches -l vor *func* eingefügt werden, dafür darf .a nicht dabeistehen). Das oben vorn angestellte *lib* kann entfallen, es wird vorausgesetzt.
+Der Parameter `-L `gibt den Suchpfad für die Bibliothek an (. = aktueller Pfad). `-lfunc.a` gibt den Bibliotheksnamen an (die UNIXund die Windows-Varianten unterscheiden sich hier ein wenig, für die Libs müssen oft die Switches -l vor *func* eingefügt werden, dafür darf .a nicht dabeistehen). Das oben vorn angestellte *lib* kann entfallen, es wird vorausgesetzt.
 
 ## Module
 
 ![Module](assets/Module.png)
 
-- C- und ein H-Quelldateien werden mittels Präprozessor und Compiler als Objekt-Dateien erstellt
+- Cund ein H-Quelldateien werden mittels Präprozessor und Compiler als Objekt-Dateien erstellt
 - Ein Linker erzeugt daraus das Binary - das ausführbare Programm
 - Der Weg über ein Assembler-Programm und den Assembler ist eine mögliche Variante, die vielfach nicht zur Anwendung kommt.
 - Der Linker bindet eventuell notwendige (statische) Bibliotheken zu den Objekt-Dateien. Wenn das Programm aus mehreren C-Dateien besteht, dann werden auch diese an dieser Stelle zusammengebunden.
@@ -163,7 +163,7 @@ gcc -c main.c -o main.o
 gcc -o out main.o -L. -lmylib
 ```
 
-mit dem Argument `-L` kann ein Suchpfad für eine Bibliothek angegeben werden (hier das aktuelle Verzeichnis) und mit `-l` wird der Name der Bibliothek angegeben, oben wurde ja die Bibliothek `mylib.dll` erzeugt.
+mit dem Argument `-L` kann ein Suchpfad für eine Bibliothek angegeben werden (hier das aktuelle Verzeichnis) und mit `-l` wird der Name der Bibliothek angegeben, oben wurde ja die Bibliothek `mylib.dll` erzeugt.  
 Zur Ausführung des erzeugten Programms, muss dann ebenfalls die DLL verfügbar sein.
 
 ## CMake
@@ -201,7 +201,7 @@ Um aus einem Source-Projekt ein ausführbares Modul zu erzeugen sind mehrere Sch
 
   Um die (vielen) erstellten Zwischenschritte nicht direkt im Src-Verzeichnis abzulegen, wird ein *build*-Verzeichnis erstellt. Aus diesem Verzeichnis wird *CMake* gestartet mit dem Verzeichnis, in welchem die Konfiguration *CMakeLists.txt* abgelegt ist (hier das übergeordnete Verzeichnis ..). Der zweite Parameter gibt an was erzeugt werden soll. Mit *MinGW Makefiles* wird ein *Makefile* erstellt, mittels welchem dann ein *Make* gestartet werden kann.
 
-Ref.: https://riptutorial.com/de/cmake
+Ref.: <https://riptutorial.com/de/cmake>
 
 ## Makefile
 

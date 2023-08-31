@@ -20,11 +20,11 @@ Software wird Schritt für Schritt fertiggestellt. Diese Schritte werden **Phase
 
 Trotz vielerlei Vorgehensweisen, werden im wesentlichen die folgenden Phasen unterscheiden:
 
-**1.** **Planung: Anforderungs- und Problemanalyse**
+**1.** **Planung: Anforderungsund Problemanalyse**
 
 **2.** **Analyse: (Pflichtenheft)**
 
-**3.** **Entwurf, System- und Komponentenentwurf**
+**3.** **Entwurf, Systemund Komponentenentwurf**
 
 **4.** **Programmierung und Komponententest**
 
@@ -45,25 +45,25 @@ Für jede der Phasen ist festgelegt, durch welches Ergebnis sie abgeschlossen wi
 
 Neben diesen Hauptphasen sind auch noch folgende Unterstützungsprozesse relevant:
 
-  -    **Projektmanagement**
+  - **Projektmanagement**
        - Risikomanagement
        - Projektplanung
        - Projektverfolgung und -steuerung
        - Management von Lieferantenvereinbarungen
--    **Konfigurationsmanagement**
-     -    Versionsverwaltung
-     -    Änderungsmanagement
-     -    Release Management
-     -    Application Management
--    **Dokumentation**
-     -    Software-Dokumentationswerkzeug
-     -    Systemdokumentation (Weiterentwicklung und Fehlerbehebung)
-     -    Betriebsdokumentation (Betreiber/Service)
-     -    Bedienungsanleitung (Anwender)
-     -    Geschäftsprozesse (Konzeptionierung der Weiterentwicklung)
-     -    Verfahrensdokumentation (Beschreibung rechtlich relevanter Softwareprozesse) 
+- **Konfigurationsmanagement**
+     - Versionsverwaltung
+     - Änderungsmanagement
+     - Release Management
+     - Application Management
+- **Dokumentation**
+     - Software-Dokumentationswerkzeug
+     - Systemdokumentation (Weiterentwicklung und Fehlerbehebung)
+     - Betriebsdokumentation (Betreiber/Service)
+     - Bedienungsanleitung (Anwender)
+     - Geschäftsprozesse (Konzeptionierung der Weiterentwicklung)
+     - Verfahrensdokumentation (Beschreibung rechtlich relevanter Softwareprozesse) 
 
-Die oben genannten Teilschritte der Softwareentwicklung werden nicht zwangsläufig bei jedem Projekt komplett durchlaufen. Vielmehr werden einzelne Prozesse spezifisch für die jeweilige Anforderung gewählt. Dies ist aus Sicht der Kosten- und Verwaltungsreduzierung notwendig.
+Die oben genannten Teilschritte der Softwareentwicklung werden nicht zwangsläufig bei jedem Projekt komplett durchlaufen. Vielmehr werden einzelne Prozesse spezifisch für die jeweilige Anforderung gewählt. Dies ist aus Sicht der Kostenund Verwaltungsreduzierung notwendig.
 
 ## 3 Das Wasserfallmodell
 
@@ -147,7 +147,6 @@ Ausgehend von einem funktionierenden Produkt-Teil, werden schrittweise Funktione
 
 Der experimentielle Prototyp wird verwendet um zu entwickelnde Teilkomponenten und deren Zusammenarbeiten zu prüfen. Abschließend wird der Prototyp verworfen. 
 
-
 ## 6 Das RUP Vorgehensmodell: Rational Unified Process
 
 Der Rational Unified Process (RUP) ist ein **objektorientiertes Vorgehensmodell** zur Softwareentwicklung der Firma IBM.
@@ -160,7 +159,7 @@ Der RUP **benutzt die Unified Modeling Language(UML)** als Notationssprache und 
 - Erstellung einer **System-Architektur** (**Klassendiagramme**)
 
 
-- inkrementelles und iteratives **Entwickeln** (**Sequenzdiagramme, Interaktionsdiagramme, Zustandsübergangsdiagramme**, ....)
+- inkrementelles und iteratives **Entwickeln** (**Sequenzdiagramme, Interaktionsdiagramme, Zustandsübergangsdiagramme**, ….)
 
 (UML-Diagramme werden in einer eigenen Lerneinheit bearbeitet.)
 
@@ -176,11 +175,11 @@ Der RUP legt grundlegende Arbeitsschritte fest:
 
 1. Geschäftsprozessmodellierung (*Business Modeling*)
 
-1. Anforderungsanalyse (*Requirements*)
-2. Analyse & Design (*Analysis & Design*)
-3. Implementierung (*Implementation*)
-4. Test (*Test*)
-5. Auslieferung (*Deployment*)
+2. Anforderungsanalyse (*Requirements*)
+3. Analyse & Design (*Analysis & Design*)
+4. Implementierung (*Implementation*)
+5. Test (*Test*)
+6. Auslieferung (*Deployment*)
 
 ### 6.2 Dynamische Aspekte
 
@@ -188,9 +187,9 @@ In jedem der obigen Arbeitsschritte werden folgende 4 Phasen mehr oder weniger i
 
 1. **Konzept**ionsphase (*Inception*)
 
-1. **Entwurf**sphase (*Elaboration*)
-2. **Konstruktion**sphase (*Construction*)
-3. **Übergabe**phase (*Transition*)
+2. **Entwurf**sphase (*Elaboration*)
+3. **Konstruktion**sphase (*Construction*)
+4. **Übergabe**phase (*Transition*)
 
  Jede dieser Phasen werden pro Arbeitsschritt mehrfach (Iteration) durchlaufen.
 
@@ -212,9 +211,9 @@ In jedem der obigen Arbeitsschritte werden folgende 4 Phasen mehr oder weniger i
 
 - schwerer messbar
 
- Weiteres siehe http://www.ibm.com/software/awdtools/rup.
+ Weiteres siehe <http://www.ibm.com/software/awdtools/rup.>
 
-Das absolute Einhalten der Iterationen (Rückkopplungen in den jeweiligen Phasen, Validierungsphasen, ...) kann zu Nachteilen führen. Aus diesem Grund wurden weitere Methoden entwickelt, die noch sehr jung sind. Dazu gehören die agile od. Adaptiven SW-Prozesse. 
+Das absolute Einhalten der Iterationen (Rückkopplungen in den jeweiligen Phasen, Validierungsphasen, …) kann zu Nachteilen führen. Aus diesem Grund wurden weitere Methoden entwickelt, die noch sehr jung sind. Dazu gehören die agile od. Adaptiven SW-Prozesse. 
 
 ## 7 Agile und adaptive Vorgehensmodelle
 
@@ -224,11 +223,11 @@ Charakteristikum: **kontinuierliche/permanente Anpassung an Änderungen/Änderun
 
 ### 7.1 EXE-KOOP-UPDATE-Prinzip
 
-- **EXE: Ausführbare SW**                                              VOR vollständiger **Dokumentation**
+- **EXE: Ausführbare SW** VOR vollständiger **Dokumentation**
 
-- **KOOP: Zusammenarbeit mit Kunden**                VOR **Vertrags**verhandlung
+- **KOOP: Zusammenarbeit mit Kunden** VOR **Vertrags**verhandlung
 
-- **UPDATE: Berücksichtigung von Änderungen**   VOR **Beharren auf Plan**
+- **UPDATE: Berücksichtigung von Änderungen** VOR **Beharren auf Plan**
 
  **Bekannte agile Vorgehensweisen:**
 
@@ -278,7 +277,7 @@ XP-UMGEBUNG/Ablauf:
 
   Typischerweise werden aus den Dingen, die, während dieser **Team-Reviews** zur Oberfläche kommen, **Regeln** generiert, vom Team akzeptiert, **auf Poster geschrieben** und im Projektraum zur Erinnerung an die Wand geheftet.
 
-  Ein- oder zweimal jährlich macht das Team für zwei Tage einen gemeinsamen Ausflug, um in einem Offsite-Meeting formal vor- und zurückzublicken.
+  Einoder zweimal jährlich macht das Team für zwei Tage einen gemeinsamen Ausflug, um in einem Offsite-Meeting formal vorund zurückzublicken.
 
 - **Tägliches Standup-Meeting** - Der Tag beginnt mit einem Meeting, das **im Stehen** gehalten wird, damit es kurz und lebendig bleibt.
 
@@ -288,10 +287,10 @@ XP-UMGEBUNG/Ablauf:
 
 Erstellung von User-Story-Karten und Akzeptanztests.
 
-- **Anforderungsdefinition im Dialog: Kunde ↔ Programmierer**
+- **Anforderungsdefinition im Dialog: Kunde ↔ Programmierer**  
   Das für die anstehenden Programmieraufgaben nötige Verständnis der Anforderungen wird fortlaufend in der Konversation mit den Kunden geprüft und vertieft. In kurzen Designsessions wird unter Umständen auf eine der Wandtafeln ein wenig UML gemalt. Während der gesamten Entwicklung dienen die **Kunden als direkte Ansprechpartner** zur Bewältigung fachlicher Fragen. Die verbleibende Zeit verbringen die Kunden mit dem Schreiben und Ergründen neuer Benutzergeschichten und Akzeptanztests.
 
-- **Benutzergeschichten (User-Story-Karte): Kunde**
+- **Benutzergeschichten (User-Story-Karte): Kunde**  
   Die Kunden halten ihre **Anforderungen in Form einfacher Geschichten(Story)** auf gewöhnlichen Karteikarten fest. Jeder geschriebenen Story-Karte kommt das Versprechen nach, den genauen Funktionsumfang zum rechten Zeitpunkt im Dialog mit den Programmierern zu verfeinern und zu verhandeln. 
 
   Zudem werden pro Story Akzeptanztests entwickelt. (siehe später Lerneinheit: Testen)
@@ -304,53 +303,53 @@ Erstellung von User-Story-Karten und Akzeptanztests.
   - Die Programmierer **schätzen** den **Aufwand** grob ab, den sie zur Entwicklung jeder einzelnen Geschichte benötigen werden.
   - Die **Programmierer** **zerlegen** die geplanten Geschichten am Flipchart in technische Aufgaben, **übernehmen Verantwortung** für einzelne Aufgaben und schätzen deren Aufwände vergleichend zu früher erledigten Aufgaben.
 
-- **Akzeptanztests**
+- **Akzeptanztests**  
   Die Kunden spezifizieren während der Iteration funktionale **Abnahmekriterien**. Typischerweise entwickeln die Programmierer ein kleines Werkzeug, um diese Tests zu kodieren und automatisch auszuführen. Spätestens zum Ende der Iteration müssen die Tests erfüllt sein, um die gewünschte Funktion des Systems zu sichern.
 
-- **Kurze Releasezyklen**
+- **Kurze Releasezyklen**  
   Nach **ein bis 3 Monaten** wird das System an die wirklichen Endanwender ausgeliefert, damit das Kundenteam wichtiges Feedback für die Weiterentwicklung erhält.
 
 ### 7.5 Techniken für die Programmierer
 
-- **Programmieren in Paaren**
+- **Programmieren in Paaren**  
   Die Programmierer arbeiten stets zu zweit am Code und diskutieren während der Entwicklung intensiv über Entwurfsalternativen. Sie wechseln sich **minütlich an der Tastatur ab** und **rotieren stündlich ihre Programmierpartner**. Das Ergebnis ist eine höhere Codequalität, größere Produktivität und bessere Wissensverbreitung.
 
-- **Gemeinsame Verantwortlichkeit**
+- **Gemeinsame Verantwortlichkeit**  
   Der gesamte Code gehört dem Team. Jedes Paar soll jede **Möglichkeit zur Codeverbesserung** jederzeit wahrnehmen. Das ist kein Recht, sondern eine **Pflicht**.
 
-- **Erst Testen**
+- **Erst Testen**  
   Gewöhnlich wird jede Zeile Code durch einen Testfall motiviert, der zunächst fehlschlägt. Die **Unit Tests werden gesammelt, gepflegt und nach jedem Kompilieren ausgeführt.** 
 
-- **Design für jetzt**
+- **Design für jetzt**  
   Jeder Testfall wird auf die einfachste denkbare Weise erfüllt. Es wird keine unnötig komplexe Funktionalität programmiert, die momentan nicht gefordert ist.
 
-- **Refactoring**
+- **Refactoring**  
   Das Design des Systems wird fortlaufend in kleinen, funktionserhaltenden Schritten verbessert. Finden zwei Programmierer Codeteile, die schwer verständlich sind oder unnötig kompliziert erscheinen, verbessern und vereinfachen sie den Code. Sie tun dies in disziplinierter Weise und führen **nach jedem Refactoring-Schritt die Unit Tests aus**, um keine bestehende Funktion zu zerstören.
 
-- **Fortlaufende Integration**
+- **Fortlaufende Integration**  
   Das System wird mehrmals **täglich** durch einen **automatisierten Build-Prozess** neu gebaut. Der entwickelte Code wird in kleinen Inkrementen und spätestens **am Ende des Tages in die Versionsverwaltung eingecheckt** und ins bestehende System integriert.
 
   Die **Unit Tests** müssen zur erfolgreichen Integration zu **100% laufen**.
 
 ### 7.6 Techniken für das Management
 
-- **Akzeptierte Verantwortung/ richtiges Delegieren**
+- **Akzeptierte Verantwortung/ richtiges Delegieren**  
   Das Management
   - **schreibt** einem XP-Team **niemals vor**, was es zu tun hat.
   - Stattdessen **zeigt** der Manager lediglich **Probleme auf** und
   - **läßt** die Kunden und Programmierer selbst **entscheiden**, was zu tun gilt.
 
-- **Information durch Metriken**
+- **Information durch Metriken**  
   Eine der Hauptaufgaben des Managements ist es, dem Team den Spiegel vorzuhalten und zu zeigen, wo es steht. Dazu gehört unter anderem das Erstellen einfacher Metriken, die den **Fortschritt** des Teams oder zu lösende Probleme **aufzeigen**. Es gehört auch dazu, den Teammitgliedern regelmäßig in die Augen zu schauen und **herauszufinden, wo Hilfe** von Nöten ist.
 
-- **Ausdauerndes Tempo**
+- **Ausdauerndes Tempo**  
   Softwareprojekte gleichen mehr einem Marathon als einem Sprint. Viele Teams werden immer langsamer bei dem Versuch, schneller zu entwickeln. **Überstunden sind keine Lösung** für zu viel Arbeit.
   - Wenn Refactorings und Akzeptanztests aufgeschoben werden, muss der Manager dem Team stärker den Rücken freihalten.
   - Wenn Teammitglieder müde und zerschlagen sind, muß der Manager sie nach Hause schicken.
 
 ### 7.7 Podcast zu XP
 
-http://chaosradio.ccc.de/cre028.html : 
+<http://chaosradio.ccc.de/cre028.html> : 
 
 "Extreme Programming (XP) ist eine seit einigen Jahren immer populärer werdende Methode zur Entwicklung von Software **in kleineren Teams** (3-6 Personen, Projektdauer. 6-12 Monate). Die teilweise radikalen Änderungen im Vergleich zur "traditionellen" Vorgehensweisen erfordern umfangreiches Umdenken in technischen und sozialen Prozessen, bieten aber die Möglichkeit der Beherrschung zuvor schwer zu bändigender Dynamiken.
 
@@ -360,14 +359,14 @@ Pavel berichtet aus seinen jahrelangen und mehrheitlich positiven Erfahrungen in
 
 ## 8 Übersicht über Phasenmodelle
 
-Einen ausführlichen Überblick bietet (neben den angesprochenen gibt es eine Vielzahl weiterer):
-http://de.wikipedia.org/wiki/Liste_von_Softwareentwicklungsprozessen
+Einen ausführlichen Überblick bietet (neben den angesprochenen gibt es eine Vielzahl weiterer):  
+<http://de.wikipedia.org/wiki/Liste_von_Softwareentwicklungsprozessen>
 
 ## 9 Dokumente
 
 ### 9.1 Lastenheft
 
-http://de.wikipedia.org/wiki/Lastenheft
+<http://de.wikipedia.org/wiki/Lastenheft>
 
  Ein **Lastenheft** beschreibt die unmittelbaren Anforderungen **durch den Besteller** eines Produktes.
 
@@ -409,7 +408,7 @@ Ein Lastenheft lässt sich auf verschiedene Weise gliedern. Folgende Angaben sol
 
 ### 9.3 Lastenheft: Beispiel
 
-http://www.stefan-baur.de/cs.se.lastenheft.html
+<http://www.stefan-baur.de/cs.se.lastenheft.html>
 
 ### 9.4 Pflichtenheft
 
@@ -427,7 +426,7 @@ http://www.stefan-baur.de/cs.se.lastenheft.html
 
 Im Gegensatz zum technischen Design (auch technische Spezifikation – Wie wird es umgesetzt?) beschreibt das Pflichtenheft die geplante technische Lösung – in unserem Beispiel die Software – als Black Box (**Was wird umgesetzt**?). Entsprechend enthält es in der Regel nicht die betriebliche Lösung der Aufgabenstellungen des Auftraggebers. Schon gar nicht beschreibt es die (hier beim Softwarebeispiel) Implementierungsprobleme, sondern allenfalls die Schnittstellen, deren sorgfältige Beschreibung solche Probleme vermeiden soll.
 
-Es ist bewährte Praxis, bei der Erstellung eines Pflichtenheftes das **Ein- und Ausschlussprinzip** zu verwenden, d. h., konkrete Fälle explizit ein- oder auszuschließen.
+Es ist bewährte Praxis, bei der Erstellung eines Pflichtenheftes das **Einund Ausschlussprinzip** zu verwenden, d. h., konkrete Fälle explizit einoder auszuschließen.
 
 Bei Lieferung der Software wird formell eine Abnahme vollzogen, die die Ausführung des Werkvertrages oder auch des Kaufvertrages beschließt. Diese Abnahme wird häufig über einen Akzeptanztest ausgeführt, der feststellt, ob die Software die Forderungen des Pflichtenheftes in dem Verständnis des Bestellers erfüllt. 
 
@@ -479,41 +478,41 @@ Ein Pflichtenheft sollte wie folgt gegliedert sein:
 
 ### 9.6 Pflichtenheft: Beispiel
 
-http://www.stefan-baur.de/cs.se.pflichtenheft.beispiel.html 
+<http://www.stefan-baur.de/cs.se.pflichtenheft.beispiel.html> 
 
-https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/MUSTER_PFLICHTENHEFT_V05.2015.docx?d=wbe5b156148604a53b08acbed023ca083&csf=1&web=1&e=C9QfU0
+<https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/MUSTER_PFLICHTENHEFT_V05.2015.docx?d=wbe5b156148604a53b08acbed023ca083&csf=1&web=1&e=C9QfU0>
 
 ### 9.7 RDP: Diplomarbeits-Antrag
 
-https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Antragsbeispiel%20-%20CARnected.pdf?csf=1&web=1&e=Qzydml
+<https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Antragsbeispiel%20-%20CARnected.pdf?csf=1&web=1&e=Qzydml>
 
 ### 9.8 RDP: Zitierrichtlinien
 
-- https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/AP_Broschuere_RDP_ab_2015_16_Version_10-02-2016.pdf?csf=1&web=1&e=BVyEIh --> 4.1.1 Regeln für Zitate und Quellenangaben
+- <https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/AP_Broschuere_RDP_ab_2015_16_Version_10-02-2016.pdf?csf=1&web=1&e=BVyEIh> --> 4.1.1 Regeln für Zitate und Quellenangaben
 
-- https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Richtlinien_Quellennachweise.pdf?csf=1&web=1&e=4OR5st
+- <https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Richtlinien_Quellennachweise.pdf?csf=1&web=1&e=4OR5st>
 
-https://www.zotero.org/
+<https://www.zotero.org/>
 
-http://www.citavi.com/
+<http://www.citavi.com/>
 
 ### 9.9 RDP: Projektmanagement
 
-http://www.projekthandbuch.de/it_model_pm.htm
+<http://www.projekthandbuch.de/it_model_pm.htm>
 
 ### 9.10 RDP: Muster_Diplomarbeit
 
-https://htlsalzburg.sharepoint.com/elektronikbiomed/Diplomarbeiten/Forms/AllItems.aspx
+<https://htlsalzburg.sharepoint.com/elektronikbiomed/Diplomarbeiten/Forms/AllItems.aspx>
 
 ### 9.11 RDP: Tagebuch
 
-https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Begleitprotokoll_Vorlage.docx?d=w82c2d0b25c3c42d180592a9eaeda52a7&csf=1&web=1&e=0jphaG
+<https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Begleitprotokoll_Vorlage.docx?d=w82c2d0b25c3c42d180592a9eaeda52a7&csf=1&web=1&e=0jphaG>
 
 Datum,von,bis, Wer, Tätigkeiten, Bemerkungen
 
 ### 9.12 RDP: Besprechungsprotokolle
 
-https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Besprechungsprotokoll_Vorlage.docx?d=wf33e29075bdf4ca6ac89abaaf4131d42&csf=1&web=1&e=D1xZGk
+<https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Besprechungsprotokoll_Vorlage.docx?d=wf33e29075bdf4ca6ac89abaaf4131d42&csf=1&web=1&e=D1xZGk>
 
 Datum, von,bis,
 
@@ -537,23 +536,23 @@ Beschlüsse
 
 JUNIT,… (siehe: SENG/testen)
 
-http://www.eclipse.org/tptp/ 
+<http://www.eclipse.org/tptp/> 
 
 ### 10.2 UML
 
-http://www.highscore.de/uml/
+<http://www.highscore.de/uml/>
 
 siehe Lerneinheit: SENG/uml
 
 ### 10.3 Versionsverwaltung
 
-https://git-scm.com/doc 
+<https://git-scm.com/doc> 
 
 ### 10.4 Programmdokumentation: Ungarische Notation, Doxygen
 
-**Zitat www.wikipedia.de**:
+**Zitat <www.wikipedia.de**:>
 
-Bei der ungarischen Notation handelt es sich um eine von Programmierern verwendete Konvention zur Benennung von Variablen. Die ungarische Notation wurde durch den Ungarn Charles Simonyi entwickelt und bekam aufgrund seiner Nationalität ihren Namen.
+Bei der ungarischen Notation handelt es sich um eine von Programmierern verwendete Konvention zur Benennung von Variablen. Die ungarische Notation wurde durch den Ungarn Charles Simonyi entwickelt und bekam aufgrund seiner Nationalität ihren Namen.  
  Kern der ungarischen Notation ist es, den Datentyp einer Variable im Variablennamen zu verdeutlichen. Hierzu werden verschiedene Präfixe definiert, die dem Variablennamen vorangestellt werden.
 
 **Präfixe für Variablensichtbarkeiten:**
@@ -587,7 +586,7 @@ Bei der ungarischen Notation handelt es sich um eine von Programmierern verwende
 
 - Die einzelnen Präfixe lassen sich auch kombinieren. So definiert paszTabelle einen Zeiger auf ein Array null-terminierter Strings.
 
-- Da enum's in C zu int's konvertiert werden können, ist es sinnvoll entsprechende Variablen auch so zu deklarieren. 
+- Da enum's in C zu int's konvertiert werden können, ist es sinnvoll entsprechende Variablen auch so zu deklarieren.  
   Beispiel:
 
   ```
@@ -669,7 +668,7 @@ Bei der ungarischen Notation handelt es sich um eine von Programmierern verwende
 
 ## 11 Programm Dokumentation: Doxygen
 
-http://www.cypax.net/tutorials/doxygen/index?language=de
+<http://www.cypax.net/tutorials/doxygen/index?language=de>
 
 Lerneinheit: doxygen und javadoc
 
@@ -679,7 +678,7 @@ Lerneinheit: doxygen-javadoc
 
 Quelle: [truetigger@chello.at](mailto:truetigger@chello.at)
 
-http://members.chello.at/truetigger/webstart/dokus/javadoc/javadoc7.html
+<http://members.chello.at/truetigger/webstart/dokus/javadoc/javadoc7.html>
 
 ### 12.1 Javadoc Übersicht
 
@@ -689,21 +688,21 @@ Jeder JavaDoc-Kommentar beginnt mit /** - nur in diesen Blöcken werden die soge
 
 ### 12.2 Wer profitiert von einer sauberen Dokumentation mittels JavaDoc?
 
-Der Programmierer selbst:
+Der Programmierer selbst:  
 Spätestens nach ein paar Monaten steckt man nicht mehr so tief im Code drin, und wenn man dann wieder mit dem selbstgeschriebenen Code zu tun hat, muss man sich fast ebenso mühsam einlesen wie in fremden Code. Hier hilft eine Dokumentation der Klassen, Methoden und Variablen.
 
-Das Team:
-Programmiert man im Team, ist eine ordentliche Dokumentation eine gewaltige Hilfe. So lässt sich viel Zeit sparen, weil es zu grossen Teilen entfällt, sich in fremden Code einlesen zu müssen. Übrigens ist es gerade im Team einfach, Code- und Dokumentations-Richtlinien durchzusetzen, die man sich allein aus Bequemlichkeit eher schenken würde.
+Das Team:  
+Programmiert man im Team, ist eine ordentliche Dokumentation eine gewaltige Hilfe. So lässt sich viel Zeit sparen, weil es zu grossen Teilen entfällt, sich in fremden Code einlesen zu müssen. Übrigens ist es gerade im Team einfach, Codeund Dokumentations-Richtlinien durchzusetzen, die man sich allein aus Bequemlichkeit eher schenken würde.
 
-Third-Party-Programmierer:
+Third-Party-Programmierer:  
 Egal ob Closed-Source oder Open-Source, egal ob ein kleines Programm oder ein mächtiges Framework - es kann immer passieren, dass sich aus einem winzigen Projekt eine riesige Sache entwickelt. Ob nun die eigenen Hilfs-Bibliotheken später kommerziell vertrieben werden, fremde Programmierer Erweiterungen oder Verbesserungen für das bestehende Produkt entwickeln wollen - ist eine durchgängige API-Dokumentation vorhanden, erleichtert es die Arbeit um Grössenordnungen.
 
-Code-Reviewer:
+Code-Reviewer:  
 Code altert. Selbst wenn keine Bugs als Notfälle repariert werden müssen, so kommt der Tag, an dem das Programm gegen neu erkannte Sicherheits-Schwachstellen geprüft oder in Sachen Geschwindigkeit optimiert werden muss. Zwar ist bei einem Code-Review im Gegensatz zu den drei anderen Fällen ein genauer Blick in den Source immer nötig, doch mit einer guten Dokumentation kommt man Programmierfehlern viel schneller auf die Schliche, als wenn man erst aufgrund von - möglicherweise fehlerhaftem - Code die Absichten des Programmierers erraten muss. 
 
 ### 12.3 Vorteil von Dokumentation im Quelltext
 
-Einen Teil der Programm-Dokumentation entsteht unweigerlich außerhalb vom Quelltext: Lasten- und Pflichtenhefte, verwendete Standards, Protokolle und Ideenpapiere. Auch die Beschreibung der API (der Programmierschnittstelle) kann in einem externen Arbeitsschritt erfolgen.
+Einen Teil der Programm-Dokumentation entsteht unweigerlich außerhalb vom Quelltext: Lastenund Pflichtenhefte, verwendete Standards, Protokolle und Ideenpapiere. Auch die Beschreibung der API (der Programmierschnittstelle) kann in einem externen Arbeitsschritt erfolgen.
 
 JavaDoc geht den Weg, bestimmte Kommentare innerhalb des Quelltextes auszulesen und zu verarbeiten. Dadurch ergeben sich einige Vorteile:
 
@@ -738,7 +737,7 @@ public class DateLib {
 }
 ```
 
-Wichtig: Der Klassenkommentar muß DIREKT über der Klasse stehen - etwaige import- und/oder package-Anweisungen gehören noch ÜBER den Klassenkommentar! Klafft zwischen Kommentar und Klassenbeginn eine Lücke, verliert der JavaDoc-Parser den Zusammenhang (siehe auch das Gesamt-Beispiel).
+Wichtig: Der Klassenkommentar muß DIREKT über der Klasse stehen - etwaige importund/oder package-Anweisungen gehören noch ÜBER den Klassenkommentar! Klafft zwischen Kommentar und Klassenbeginn eine Lücke, verliert der JavaDoc-Parser den Zusammenhang (siehe auch das Gesamt-Beispiel).
 
 Klassenkommentare sollten auf die folgende Klasse einstimmen, sollten die Motivation erklären, warum die Klasse entstanden ist, warum sie von einer bestimmten Klasse abhängig ist, warum welche Interfaces implementiert sind und so weiter.
 
@@ -777,7 +776,7 @@ Schließlich kann man mit *@deprecated* eine Methode als "veraltet" kennzeichnen
 
 ### 12.6 Variablen-Dokumentation
 
-Auch hier steht der Kommentar unmittelbar über der Variable. Es lassen sich Klassen- und Instanz-Variablen dokumentieren, lokale Variablen innerhalb von Methoden hingegen nicht. Die Kommentare für Variablen bestehen im allgemeinen aus nur einer Zeile.
+Auch hier steht der Kommentar unmittelbar über der Variable. Es lassen sich Klassenund Instanz-Variablen dokumentieren, lokale Variablen innerhalb von Methoden hingegen nicht. Die Kommentare für Variablen bestehen im allgemeinen aus nur einer Zeile.
 
 ```c++
 /** Farb-Konstante für Fehlermeldungen (hellrot) */
@@ -902,24 +901,24 @@ public class JavaDocExample {
 
 JavaDoc startet man in dem Wurzelverzeichnis seines Projekts und gibt den Namen des Packages an, für welches die Doku erzeugt werden soll. Zum Beispiel liegen die Java-Dateien unter C:\java\beispiel (gemäß des angegebenen Packages natürlich im Unterordner at\tigger\tutorial). Dann wechselt man in das Verzeichnis C:\java\beispiel und startet dort JavaDoc.
 
-`javadoc at.tigger.tutorial`
+`javadoc at.tigger.tutorial`  
  => erzeugt die komplette API für das Package mit Default-Werten.
 
-`javadoc -doctitle "JavaDoc-Beispiel" at.tigger.tutorial`
+`javadoc -doctitle "JavaDoc-Beispiel" at.tigger.tutorial`  
  => erzeugt die API mit einem eigenen Namen
 
-`javadoc -private at.tigger.tutorial`
+`javadoc -private at.tigger.tutorial`  
  => nimmt auch private Methoden/Felder mit in die Doku auf
 
-`javadoc -link http://java.sun.com/j2se/1.4/docs/api at.tigger.tutorial`
+`javadoc -link http://java.sun.com/j2se/1.4/docs/api at.tigger.tutorial`  
  => Referenzen auf die Java2-API werden sauber verlinkt
 
-`javadoc -d doc/api at.tigger.tutorial`
+`javadoc -d doc/api at.tigger.tutorial`  
  => Schreibt die Dateien in das angegebene Verzeichnis statt ins aktuelle
 
 Das abschließende Beispiel ist einmal mit allen Optionen zusammen erstellt worden:
 
-`javadoc -doctitle "JavaDoc-Beispiel" -private -link http://java.sun.com/j2se/1.4/docs/api -d doc/api at.tigger.tutorial`
+`javadoc -doctitle "JavaDoc-Beispiel" -private -link http://java.sun.com/j2se/1.4/docs/api -d doc/api at.tigger.tutorial`  
  => [generierte JavaDoc](http://members.chello.at/truetigger/webstart/dokus/javadoc/doc/api/index.html) 
 
 ### 12.9 Zusammenfassung: Javadoc und Eclipse
@@ -962,21 +961,21 @@ public class HalloWorld {
 
 Welche Tags es gibt kann man am besten auf der Sun Webseite nachlesen:
 
-\* @param    (classes, interfaces, methods and constructors only)
+\* @param (classes, interfaces, methods and constructors only)
 
-\* @return   (methods only)
+\* @return (methods only)
 
-\* @exception  (@throws is a synonym added in Javadoc 1.2)
+\* @exception (@throws is a synonym added in Javadoc 1.2)
 
-\* @author   (classes and interfaces only, required)
+\* @author (classes and interfaces only, required)
 
-\* @version   (classes and interfaces only, required.)
+\* @version (classes and interfaces only, required.)
 
 \* @see     
 
 \* @since    
 
-\* @serial   (or @serialField or @serialData)
+\* @serial (or @serialField or @serialData)
 
 \* @deprecated (see How and When To Deprecate APIs)
 
@@ -1014,7 +1013,7 @@ Siehe: u-seng-infobank.odt
 
 ### 17.1 Opensource Entwicklung und ihre Dynamik
 
-http://www.little-idiot.de/his/t1.htm
+<http://www.little-idiot.de/his/t1.htm>
 
  
 

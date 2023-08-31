@@ -30,7 +30,7 @@ struct datum heute;
 Mit *struct datum* wird wie mit einem Datentyp gearbeitet. Von diesem Typ können Felder angelegt werden, Funktionsparameter übergeben und zurückgegeben werden oder Zeiger definiert werden.
 
  - Man bezeichnet hier **datum** als den Strukturtyp.
- - Die Elemente der Struktur (**tag**...) werden die **Komponenten der Struktur** genannt.
+ - Die Elemente der Struktur (**tag**…) werden die **Komponenten der Struktur** genannt.
  - Die Variable **heute** wird als eine **Strukturvariable** bezeichnet.
 
 Variable können auch direkt nach der Struktur-Definition definiert werden:

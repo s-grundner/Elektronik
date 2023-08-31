@@ -1,5 +1,5 @@
 ---
-tags: ["SMPS"]
+tags: ["SMPS", incomplete]
 aliases: ["Stabilisierungsschaltung", "Stabilisierungsschaltungen", "Linearregler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -12,10 +12,10 @@ created: 16th March 2022
 
 1. Gleichrichterschaltung (inkl. Transformation)
 2. Siebschaltung zur Glättung der Gleichspannung
-3. Spannungsstabilisierung der Gleichspannung gegen Schwankungen ...
-	- ... der Eingangsspannung
-	- ... der Last
-	- ... der [Temperatur](../../physik/Temperatur%20und%20Teilchenmodell.md) 
+3. Spannungsstabilisierung der Gleichspannung gegen Schwankungen …
+	- … der Eingangsspannung
+	- … der Last
+	- … der [Temperatur](../../physik/Temperatur%20und%20Teilchenmodell.md) 
 4. Last
 	- bei der Last werden üblicherweise Analoge und Digitale Versorgung mittels einer Sternförmigen Masse getrennt.
 
@@ -28,6 +28,7 @@ Verlauf der Spannung:
 ![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
 
 ## Stabilisierung und Regelung von Spannung
+
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz
 2. Ausgangsspannung und Toleranz
@@ -36,7 +37,7 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 4. Belastungs-Regelung **(Load Regulation)**
 	- $\dfrac{\Delta U_{a}}{\Delta i_{a}}$
 5. [Temperatur](../../physik/Temperatur%20und%20Teilchenmodell.md) Koeffizienten
-6.  Ausregelzeit
+6. Ausregelzeit
 	- Wie lange eine Veränderung am Eingang zu einer Veränderung am Ausgang dauert.
 
 Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kategorien **geregelt** und **ungeregelt** vorgenommen werden.
@@ -94,8 +95,8 @@ $$
 
 #### Nachteil der Schlatung
 
-Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.
-Es gilt  $\Delta I_{L}=\Delta I_{Z}$
+Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.  
+Es gilt $\Delta I_{L}=\Delta I_{Z}$  
 Eine Längstransistorschaltung behebt diesen Nachteil
 
 ### Längstransistor mit [Zener-Diode](../Halbleiter/Zener-Diode.md)
@@ -113,6 +114,7 @@ Eine Längstransistorschaltung behebt diesen Nachteil
 ### Integrierter Spannungsregler
 
 ---
-# Tags
-#incomplete 
+
+# Tags 
+
 ![Linearregler](../assets/pdf/Linearregler.pdf)

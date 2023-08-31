@@ -8,6 +8,6 @@ created: 1st December 2022
 
 # RFID
 
-Durch eine [Nahfeld](Antenne.md) Kommunikation wird Energie zum RFID chip übertragen, wodurch der Leser ...
+Durch eine [Nahfeld](Antenne.md) Kommunikation wird Energie zum RFID chip übertragen, wodurch der Leser …
 
 # Tags

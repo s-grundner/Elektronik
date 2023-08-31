@@ -10,7 +10,7 @@ created: 29th November 2022
 
 Das folgende Video gibt einen ersten Eindruck
 
-http://www.youtube.com/watch?v=XU0llRltyFM
+<http://www.youtube.com/watch?v=XU0llRltyFM>
 
  Die vorliegende Arbeit beschäftigt sich mit einer neuen, innovativen Art der Softwareentwicklung und geht speziell auf eine Unterart davon, dem sogenannten Scrum ein.
 
@@ -18,7 +18,7 @@ Folgend werden die allgemeinen Prinzipien und Werte der **Agilen Softwareentwick
 
 Ausgestattet mit den Grundlagen kann dann auf **Scrum** eingegangen werden. 
 
-Anschließend folgt ein Vergleich mit konventionellen Entwicklungsmethoden, der Vor- und Nachteile dieser neuen Praktik abwägen und bewerten soll.
+Anschließend folgt ein Vergleich mit konventionellen Entwicklungsmethoden, der Vorund Nachteile dieser neuen Praktik abwägen und bewerten soll.
 
 # 2. Agile Softwareentwicklung
 
@@ -34,19 +34,19 @@ Die Agile Softwareentwicklung verfolgt das Ziel den Entwicklungsprozess effektiv
 
 - Auf Kundenwünsche, Änderungen und Problem Auslagerungen einzugehen
 - Den gesamten Entwicklungsprozess für jedes Projekt individuell zu gestalten
-- Eigene Entwicklungsverfahren und –Prinzipien in den Entwicklungsprozess zu   integrieren.
+- Eigene Entwicklungsverfahren und –Prinzipien in den Entwicklungsprozess zu integrieren.
 
  Trotz erster Ansätze in den 1990er Jahren konnte sich die Agile Softwareentwicklung erst 1999 durch das Werk *„Extreme Programming“* Gehör verschaffen. Kent Beck verfasste dieses Buch in Zusammenarbeit mit anderen Entwicklern und schrieb darin die Grundlagen der späteren Agilen Softwareentwicklung nieder.
 
- ***Agiles Manifest***
+ ***Agiles Manifest***  
  Im Jahr **2000** versammelten sich führende Vertreter verschiedener, dem Extreme-Programming-Konzept nahes Entwicklungs-Paradigma und gründeten die Agile Alliance. Ein Jahr darauf verfasste diese das Agile Manifest, welches die Grundwerte der Agilen Softwareentwicklung beinhaltet.
 
 > „Wir erschließen bessere Wege, Software zu entwickeln, indem wir es selbst tun und anderen dabei helfen. Durch diese Tätigkeit haben wir diese Werte zu schätzen gelernt:
 >
-> - **Individuen und Interaktionen**           mehr als Prozesse und Werkzeuge
-> - **Funktionierende Software**                 mehr als umfassende Dokumentation
-> - **Zusammenarbeit mit dem Kunden**  mehr als Vertragsverhandlung
-> - **Reagieren auf Veränderung**               mehr als das Befolgen eines Plans
+> - **Individuen und Interaktionen** mehr als Prozesse und Werkzeuge
+> - **Funktionierende Software** mehr als umfassende Dokumentation
+> - **Zusammenarbeit mit dem Kunden** mehr als Vertragsverhandlung
+> - **Reagieren auf Veränderung** mehr als das Befolgen eines Plans
 >
 > Das heißt, obwohl wir die Werte auf der rechten Seite wichtig finden, schätzen wir die Werte auf der linken Seite höher ein.“ (Agile Alliance)
 
@@ -78,7 +78,7 @@ So werden zum Beispiel *User Stories*, die für die Grundfunktionalität der Sof
 
  *User Stories* werden während der Realisierung wiederum in einzelne sogenannte *Tasks* zerlegt. Dies dient ausschließlich zur Trennung der für die Umsetzung der *User Story* notwendigen Aufgaben, um gezielter darauf eingehen zu können. 
 
-http://apropos-media.net/2010/11/03/der-einfache-weg-zu-guten-user-stories/
+<http://apropos-media.net/2010/11/03/der-einfache-weg-zu-guten-user-stories/>
 
 ### 3.1.2. Product-Backlog
 
@@ -88,7 +88,7 @@ Das *Product-Backlog* ist eine **dynamische Sammlung von Anforderungen (=User St
 
 ![image-20211028113508959]( assets/Scrum_ProductBacklog.png)
 
-Ein Product-Backlog http://winfwiki.wi-fom.de/index.php/Distributed_Scrums_-_Analyse_des_Softwaretools_Agilo
+Ein Product-Backlog <http://winfwiki.wi-fom.de/index.php/Distributed_Scrums_-_Analyse_des_Softwaretools_Agilo>
 
 ### 3.1.3. Sprint-Backlog
 
@@ -98,12 +98,12 @@ Das *Sprint-Backlog* **ist eine Zwischenlagerung der User Stories**, welche beim
 
 Es werden so viele hoch priorisierte User Stories in diesen Backlog aufgenommen, wie der **Project-Owner und das Team** für realisierbar halten.
 
-Der Umfang des *Sprint-Backlog*s wird während des **Sprint Planing Meeting** vom *Project-Owner* und dem *Team* festgelegt.
+Der Umfang des *Sprint-Backlog*s wird während des **Sprint Planing Meeting** vom *Project-Owner* und dem *Team* festgelegt.  
 Wurden zu viele *User Stories* ausgewählt und konnten nicht umgesetzt werden, so werden sie zurück in das *Product-Backlog* gelegt, neu priorisiert und beim nächsten *Sprint* berücksichtigt.
 
 ![image-20211028113555716]( assets/Scrum_SprintBacklog.png)
 
-​       http://winfwiki.wi-fom.de/index.php/Distributed_Scrums_-_Analyse_des_Softwaretools_Agilo
+​ <http://winfwiki.wi-fom.de/index.php/Distributed_Scrums_-_Analyse_des_Softwaretools_Agilo>
 
 ### 3.1.4. Sprint
 
@@ -141,7 +141,7 @@ So nimmt er beispielsweise jedes Mal **nach Beendigung eines Sprints** am sogena
 
  Als Kunde wird in Scrum allerdings nicht nur der Auftraggeber selbst, sondern all jene bezeichnet, welche später etwas mit dem entwickelten Projekt zu tun haben oder einfach nur Interesse am Projekt zeigen (Stakeholder).
 
-### 3.2.2.     Product Owner
+### 3.2.2. Product Owner
 
 ![img]( assets/Scrum_ProductOwner.png)
 
@@ -149,7 +149,7 @@ Der Product-Owner bildet die **Schnittstelle zwischen dem Kunden und dem Scrum-T
 
  Er legt die gemeinsamen Ziele fest, meist in Form von **User Stories, priorisiert** diese (aufgrund der Firmenphilosophie der auftraggebenden Firma) und legt sie **im Product-Backlog** ab.
 
- Der Product-Owner ist Dreh- und Angelpunkt des Projektes, **alles geht über ihn**. Er fällt wichtige Entscheidungen, verwaltet das Product-Backlog und ist **für den Erfolg des Projektes verantwortlich**.
+ Der Product-Owner ist Drehund Angelpunkt des Projektes, **alles geht über ihn**. Er fällt wichtige Entscheidungen, verwaltet das Product-Backlog und ist **für den Erfolg des Projektes verantwortlich**.
 
 ### 3.2.3. Scrum-Master
 
@@ -157,8 +157,8 @@ Der Product-Owner bildet die **Schnittstelle zwischen dem Kunden und dem Scrum-T
 | --------------------------------------- | ---------------------------------------- |
 |                                         |                                          |
 
-http://3back.com/scrum/certified-scrummaster-training/
-http://borisgloger.com/2009/04/24/3-secrets-of-a-good-scrummaster/
+<http://3back.com/scrum/certified-scrummaster-training/>  
+<http://borisgloger.com/2009/04/24/3-secrets-of-a-good-scrummaster/>
 
  Der Scrum-Master ist **für die Umsetzung von Scrum verantwortlich**. Dabei liegt seine Aufgabe erstens darin, darauf zu achten, dass die Scrum zugrunde liegenden Regeln und Prinzipien **eingehalten** werden, und zweitens für optimale **Arbeitsbedingungen** zu sorgen und Hindernisse, die sich dem Team in den Weg stellen, zu beseitigen.
 
@@ -166,7 +166,7 @@ http://borisgloger.com/2009/04/24/3-secrets-of-a-good-scrummaster/
 
  „Ein Scrum-Master führt, indem er anderen ihre Verantwortung nicht abnimmt, sondern darauf achtet, dass die anderen Rollen ihre Verantwortung annehmen und ihrer gerecht werden.“ (Wirdemann, 2011)
 
-### 3.2.4.     Team
+### 3.2.4. Team
 
 ![img]( assets/Scrum_Team.png)
 
@@ -178,7 +178,7 @@ Das Funktionieren von Scrum beruht auf der **Eigenverantwortung** der Teammitgli
 
 ![img]( assets/Scrum_Team2.png)
 
-http://www.holisticon.de/cms/AgileGlossar/Startseite
+<http://www.holisticon.de/cms/AgileGlossar/Startseite>
 
 ## 3.3. Zyklus
 
@@ -220,9 +220,9 @@ Die *Velocity* (engl. Geschwindigkeit) bezeichnet jene Geschwindigkeit, die beim
 
 Am Ende eines jeden *Sprints* werden das Ergebnis und der Prozess selbst einer genauen Betrachtung unterzogen. Die Dauer des *Sprints* wird auf keinen Fall verändert. Konnten *User Stories* nicht umgesetzt werden, so werden sie im nächsten *Sprint* berücksichtigt, ist nach der Abarbeitung des *Sprint-Backlogs* noch Zeit übrig, so werden zusätzliche *User* *Stories* behandelt. Beim Besprechen der Ergebnisse in einem sogenannten *Sprint* *Review* ist auch der *Kunde* anwesend. Ihm werden die Ziele des *Sprints* erläutert und die funktionierende Software präsentiert. Die Überprüfung des Prozesses enthüllt Fehler, die bei der Entwicklung gemacht wurden. Nicht etwa Programmierfehler, sondern Fehler im Zeitmanagement, in der Auswahl der Methoden, usw.
 
-### 3.3.6.     Verbesserung und Anpassung (RETROPERSPEKTIVE)
+### 3.3.6. Verbesserung und Anpassung (RETROPERSPEKTIVE)
 
-In der Verbesserungs- und Anpassungsphase des *Sprints*, auch *Sprint* *Retroperspektive* genannt, werden Verbesserungsmöglichkeiten diskutiert, die im nächsten *Sprint* mit einbezogen werden. Methoden werden optimiert, Zeitlücken ausgenutzt oder es wird auf *User Stories* verzichtet, um die Auslieferbarkeit nicht zu gefährden. Somit wird die Software im Idealfall schlanker und effektiver.
+In der Verbesserungsund Anpassungsphase des *Sprints*, auch *Sprint* *Retroperspektive* genannt, werden Verbesserungsmöglichkeiten diskutiert, die im nächsten *Sprint* mit einbezogen werden. Methoden werden optimiert, Zeitlücken ausgenutzt oder es wird auf *User Stories* verzichtet, um die Auslieferbarkeit nicht zu gefährden. Somit wird die Software im Idealfall schlanker und effektiver.
 
 # 4. Vergleich mit konventionellen Entwicklungsmethoden
 
@@ -272,13 +272,13 @@ Ist der Sprint am Ende angelangt, so kann erstmals ein fertiges, funktionierende
 
 ![img]( assets/Scrum_Zusammenfassung.png)
 
-http://www.stefan-nowaczynski.com/infos/scrum-video/
+<http://www.stefan-nowaczynski.com/infos/scrum-video/>
 
 # 6. Referenzen
 
-- AgileAlliance: Agiles Manifest. Internet: http://agilemanifesto.org/iso/de/ (07.04.2011)
+- AgileAlliance: Agiles Manifest. Internet: <http://agilemanifesto.org/iso/de/> (07.04.2011)
 
-- ScrumFibel: Scrum-Fibel. Internet: http://scrum-fibel.de/
+- ScrumFibel: Scrum-Fibel. Internet: <http://scrum-fibel.de/>
 
 (09.03.2011)
 

@@ -5,7 +5,9 @@ created: 29th November 2022
 ---
 
 # Kryptographie
+
 ## Allgemein
+
 Computer und Netzwerksicherheit gewinnen immer größere Bedeutung. Um eine sichere Kommunikation über Netzwerke zu gewährleisten, müssen folgende Aspekte erfüllt sein:
 
 - *Vertraulichkeit*: Sicherheit gegen unerlaubtes Abhören
@@ -26,18 +28,18 @@ In der Kryptographie wird zwischen zwei Verfahren unterschieden:
 
 ### Symmetrische Verfahren
 
-Als symmetrisch wird eine Verschlüsselung bezeichnet, wenn für die Ver- und Entschlüsselung der gleiche Schlüssel verwendet wird. 
+Als symmetrisch wird eine Verschlüsselung bezeichnet, wenn für die Verund Entschlüsselung der gleiche Schlüssel verwendet wird. 
 
 Schlüsseltauschproblem: wenn mittels symmetrischer Verschlüsselung gearbeitet wird, dann muss der Sender den Schlüssel, der zum Verschlüsseln verwendet wird, an dem Empfänger übertragen. Wenn kein sicherer Übertragungsweg existiert, dann kann der Schlüssel von einem Angreifer kopiert werden.
 
 Für beschreibende Beispiele werden häufig Alice und Bob als kommunizierende Teilnehmer verwendet (A und B). Als Angreifer kommt üblich Mallory (Malicious oder Man-in-the-Middle) oder Eve (nur lauschend) zum Einsatz. Für die Authentifikation Peggy (Prover - der zu Überprüfende) und Victor (Verifier - der Prüfende). Eine dritte, vertrauenswürdige Instanz ist Trent (Trusted Entity). Wird ein dritter Kommunikationsteilnehmer benötigt, dann ist das Carol (C).
 
-Diese Verfahren können wiederum in Zeichen, Strom- und Blockchiffre eingeteilt werden.
+Diese Verfahren können wiederum in Zeichen, Stromund Blockchiffre eingeteilt werden.
 
-- Bei der zeichenorientierten Chiffre wird jedes Zeichen anhand einer festen Regel durch ein anderes Zeichen ersetzt (Caesar ...).
+- Bei der zeichenorientierten Chiffre wird jedes Zeichen anhand einer festen Regel durch ein anderes Zeichen ersetzt (Caesar …).
 - bei der blockorientierten Chiffre werden Gruppen von Zeichen (Blöcke) mit jeweils dem gleichen Schlüssel substituiert oder transpositioniert.
-- In der Stromchiffre wird eine Funktion auf den Strom der Zeichen des Textes mit einem Schlüsselstrom verrechnet. Im extremsten Fall ist der Schlüsselstrom länger als der Textstrom (One-Time-Pad).
-  Anwendung VoIP ...
+- In der Stromchiffre wird eine Funktion auf den Strom der Zeichen des Textes mit einem Schlüsselstrom verrechnet. Im extremsten Fall ist der Schlüsselstrom länger als der Textstrom (One-Time-Pad).  
+  Anwendung VoIP …
 
 ### Asymmetrische Verfahren
 
@@ -82,7 +84,7 @@ Das kann auch abschnittweise erfolgen. Für bestimmte Abschnitte der Übertragun
 
 - Abhören: abgehört kann auch werden, wenn verschlüsselt wird, dabei wird der Datenverkehr nicht manipuliert.
 - Man in the Middle: dabei wird der Datenverkehr manipuliert. *Mallory* gibt sich *Alice* gegenüber als *Bob* aus und umgekehrt. Wenn *Mallory* die Pakete von den beiden Partnern annimmt mit den Schlüsseln des jeweils anderen verschlüsselt können diese vom Angriff nichts bemerken.
-- Replay: es werden abgehörte Pakete noch einmal gesendet. Eventuell mit leichten Änderungen. Erkannt werden kann das evtl. durch wiederholte Sequenznummern (TCP ...).
+- Replay: es werden abgehörte Pakete noch einmal gesendet. Eventuell mit leichten Änderungen. Erkannt werden kann das evtl. durch wiederholte Sequenznummern (TCP …).
 - Brute Force: Angriff mit *roher Gewalt*. Beispielhaft werden Rechner mit einer derartig großen Zahl von Anfragen überschwemmt, dass er für die eigentliche Aufgabe nicht mehr zur Verfügung steht (**Denial-of-Service**-Angriff).
 - Cyphertext Only: durch die Sammlung einer großen Menge nur an verschlüsselten Daten kann durch statistische Methode etwa eine Verschlüsselung gebrochen werden (üblicherweise viel Aufwand).
 - Known Plaintext: durch Beobachtung kann eventuell durch erraten ein vermutlicher Text dem verschlüsselten Text zugeordnet werden. Für das Brechen der Enigma-Verschlüsselung etwa hat sich in gewissen Bereichen gezeigt, dass jede Nachricht mit dem gleichen Gruß beendet wurde. Wenn die Nachricht sehr kurz war, war die Wahrscheinlichkeit sehr hoch, dass *KEINEBESONDERENVORKOMMNISSE* übertragen wurde.
@@ -108,7 +110,7 @@ E  N  I  K  I  H  E  W  R  E  D  R  A  T  N  A  N
 ENIKIHEWREDRATNAN IWRLCVRIRNEGREZU
 ```
 
-###  Substitution
+### Substitution
 
 > Substitution ist das Ersetzen eines Klartext-Zeichens durch ein anderes Zeichen.
 
@@ -142,7 +144,7 @@ Das Dechiffrieren erfolgt wiederum mit einer Multiplikation des Buchstaben-Index
 >
 > Nachteil: überhaupt nur 12 mögliche Schlüssel.
 
-Mathematisch: z -> (z * t) mod 26  (Klartext-Zeichen wird auf verschobenes Zeichen abgebildet und auf 26 begrenzt)
+Mathematisch: z -> (z * t) mod 26 (Klartext-Zeichen wird auf verschobenes Zeichen abgebildet und auf 26 begrenzt)
 
 
 
@@ -214,7 +216,7 @@ Ein Feistel-Netzwerk sieht wie folgt aus (L = Links, R = Rechts, K = Schlüssel)
 
 Für DES (64 Bit Block, 56 Bit Schlüssel) wird dieses Netzwerk etwa so ausgeführt:
 
-- Klartextblock: 64 Bit Block des Klartextes -> Zerteilen in einen Linken 32-Bit- und einen Rechten 32-Bit-Block.
+- Klartextblock: 64 Bit Block des Klartextes -> Zerteilen in einen Linken 32-Bitund einen Rechten 32-Bit-Block.
 - Der jeweils Rechte Block wird direkt als Linker Block der nächsten Runde übernommen.
 - Der jeweils Linke Block wird mit einem Teil des Schlüssels XOR-Verknüpft und zum Rechten Block der Folge-Runde. Für die XOR-Verknüpfung muss F() einen 32 Bit Wert liefern.
 - Diese Abfolge (Runden) erfolgt 16 mal.
@@ -228,7 +230,7 @@ Die Sicherheit kann relativ einfach gesteigert werden, so kann der Algorithmus z
 
 #### Advanced-Encription-Standard AES
 
-Amerikanische Behörden haben AES als Nachfolger von DES entwickeln lassen. Der große Vorteil ist unter anderem, dass für den dahinterstehenden Algorithmus (Rijndael-Algorithmus)m die Block- und damit Schlüssellänge verändert werden kann. Wenn eine Codierung durch technische Fortschritte relativ einfach gebrochen werden kann, dann kann dem mit einer Vergrößerung der Blockgröße entgegengewirkt werden. Der Algorithmus funktioniert ebenfalls als eine Abfolge von Mischen und Ersetzen.
+Amerikanische Behörden haben AES als Nachfolger von DES entwickeln lassen. Der große Vorteil ist unter anderem, dass für den dahinterstehenden Algorithmus (Rijndael-Algorithmus)m die Blockund damit Schlüssellänge verändert werden kann. Wenn eine Codierung durch technische Fortschritte relativ einfach gebrochen werden kann, dann kann dem mit einer Vergrößerung der Blockgröße entgegengewirkt werden. Der Algorithmus funktioniert ebenfalls als eine Abfolge von Mischen und Ersetzen.
 
 AES-256 ist aktuell für Verschlüsselung mit höchster Geheimhaltungsstufe zugelassen. Vorgeschlagene Strategien um sie zu Brechen sind bislang zu komplex um erfolgreich zu sein. Explizit bewiesen kann die Sicherheit nicht werden.
 
@@ -243,12 +245,12 @@ Dieser Standard findet für IEEE 802.11i-WLAN bzw. WPA2 Anwendung. Ebenso bei SS
 
 Nachrichte die länger als ein Block müssen in Blöcke unterteilt werden. Die Art auf welche diese Teilung erfolgt wird als Betriebsmodus bezeichnet.
 
-- Electronic Code Book Mode ECB: diese klassische Variante ist die einfachste (aber absolut nicht mehr zeitgemäß). Dabei wird die Nachricht direkt in Blöcke der Code-Größe aufgeteilt. Der große Nachteil dieser Variante ist, dass gleichartiger Text der verschlüsselt wird immer zum gleichen Ergebnis führt (Begrüßungsformeln, Mail-Signatur, einfarbige Flächen in Bildern ...).
+- Electronic Code Book Mode ECB: diese klassische Variante ist die einfachste (aber absolut nicht mehr zeitgemäß). Dabei wird die Nachricht direkt in Blöcke der Code-Größe aufgeteilt. Der große Nachteil dieser Variante ist, dass gleichartiger Text der verschlüsselt wird immer zum gleichen Ergebnis führt (Begrüßungsformeln, Mail-Signatur, einfarbige Flächen in Bildern …).
 - Andere Variante beziehen Teile aus benachbarten Blöcken in einen Block ein, dadurch erfolgt automatisch eine stärkere Vermischung über den gesamten Quell-Text.
 
 ## Asymmetrische Verfahren (Public-Key)
 
-Symmetrischen Verfahren haben allesamt ein Problem: es muss ein gemeinsamer Schlüssel bekannt (ausgetauscht) sein. Dieser Austausch/Abgleich eines gemeinsamen Schlüssels ist ein Sicherheitsrisiko. Diffie, Hellman und Merkle haben aus einer Überlegung geahnt, dass es besser klappen könnte: soll eine geheime Botschaft übermittelt werden, kann diese von Alice mit ihrem persönlichen Schlüssel in eine Truhe gesperrt werden und an Bob gesendet werden. Bob versperrt die Truhe (er kann sie nicht öffnen)  zusätzlich mit seinem eigenen Schloss und sendet sie an Alice zurück. Alice nimmt ihr Schloss ab und sendet die Truhe an Bob zurück. Bob kann nun das eigene Schloss entfernen und die Botschaft entnehmen. Die Truhe wird immer versperrt versendet, es gibt während der Übertragung keine Möglichkeit die Truhe zu öffnen. Aufgrund dieser Überlegung gingen sie davon aus, dass das mathematisch realisierbar sein müsste. Das mathematische Problem: die Schlösser müssen in umgekehrter Reihenfolge abnehmbar sein als anlegbar.
+Symmetrischen Verfahren haben allesamt ein Problem: es muss ein gemeinsamer Schlüssel bekannt (ausgetauscht) sein. Dieser Austausch/Abgleich eines gemeinsamen Schlüssels ist ein Sicherheitsrisiko. Diffie, Hellman und Merkle haben aus einer Überlegung geahnt, dass es besser klappen könnte: soll eine geheime Botschaft übermittelt werden, kann diese von Alice mit ihrem persönlichen Schlüssel in eine Truhe gesperrt werden und an Bob gesendet werden. Bob versperrt die Truhe (er kann sie nicht öffnen) zusätzlich mit seinem eigenen Schloss und sendet sie an Alice zurück. Alice nimmt ihr Schloss ab und sendet die Truhe an Bob zurück. Bob kann nun das eigene Schloss entfernen und die Botschaft entnehmen. Die Truhe wird immer versperrt versendet, es gibt während der Übertragung keine Möglichkeit die Truhe zu öffnen. Aufgrund dieser Überlegung gingen sie davon aus, dass das mathematisch realisierbar sein müsste. Das mathematische Problem: die Schlösser müssen in umgekehrter Reihenfolge abnehmbar sein als anlegbar.
 
 Die Lösung von diesen drei Herren ist als Diffie-Hellman-(Merkle-)Algorithmus bekannt:
 
@@ -260,7 +262,7 @@ Funktion:
 
 ![](bilder/Kry_DiffieHellman.png)
 
-mit $g = [2, ..., n-2]$ und $s = [1, ..., n-1]$. Durch Abhören der Übertragung, kann n (Modul - Primzahl), g, $p_A$ und $p_B$ erfahren werden. Zur Berechnung von k, wird allerdings noch entweder $s_A$ oder $s_B$ benötigt. Diese Werte können ermittelt werden durch Lösen der Gleichung $p_A = g^{s_A} mod\ n$ nach $s_A$. Diese Bestimmung wird *diskretes Logarithmus-Problem* bezeichnet. Für große n mit g und n teilerfremd ist diese Gleichung ähnlich aufwändig zu bestimmen, wie eine große Primfaktorenzerlegung. Mit große Primzahl ist aktuell etwa $2^{2048}$ gemeint (Standardbrowser). Aktuell geht die öffentliche Kryptologie-Meinung davon aus, dass von Geheimdiensten deutlich weniger als $2^{100}$ Berechnungen durch reines Probieren gelöst werden kann (je nach Algorithmus gibt es jedoch Effizienzsteigerungen).
+mit $g = [2, …, n-2]$ und $s = [1, …, n-1]$. Durch Abhören der Übertragung, kann n (Modul - Primzahl), g, $p_A$ und $p_B$ erfahren werden. Zur Berechnung von k, wird allerdings noch entweder $s_A$ oder $s_B$ benötigt. Diese Werte können ermittelt werden durch Lösen der Gleichung $p_A = g^{s_A} mod\ n$ nach $s_A$. Diese Bestimmung wird *diskretes Logarithmus-Problem* bezeichnet. Für große n mit g und n teilerfremd ist diese Gleichung ähnlich aufwändig zu bestimmen, wie eine große Primfaktorenzerlegung. Mit große Primzahl ist aktuell etwa $2^{2048}$ gemeint (Standardbrowser). Aktuell geht die öffentliche Kryptologie-Meinung davon aus, dass von Geheimdiensten deutlich weniger als $2^{100}$ Berechnungen durch reines Probieren gelöst werden kann (je nach Algorithmus gibt es jedoch Effizienzsteigerungen).
 
 Praktische Realisierung: g und n werden von einem Trustcenter veröffentlicht. $p_A$ und $p_B$ werden ebenfalls an das Trustcenter gesendet bzw. vom Gesprächspartner von dort bezogen ($p_A$ und $p_B$ sind Public-Keys).
 
@@ -268,7 +270,7 @@ Mittels eines Man-In-The-Middle Angriffs kann ein Schlüssel mit dem falschen Ge
 
 **Wichtig: Diffie-Hellman ist kein Verschlüsselungsverfahren sondern lediglich ein Schlüsselvereinbarungsprotokoll.**
 
-Um dieses Verfahren anzuwenden, müssen Alice und Bob mehrfach miteinander kommunizieren. Wenn Alice an Bob eine Botschaft übertragen möchte, dann muss sie für die Schlüsselbildung auf Bobs $p_B$ warten, um die Nachricht verschlüsseln zu können.
+Um dieses Verfahren anzuwenden, müssen Alice und Bob mehrfach miteinander kommunizieren. Wenn Alice an Bob eine Botschaft übertragen möchte, dann muss sie für die Schlüsselbildung auf Bobs $p_B$ warten, um die Nachricht verschlüsseln zu können.  
 Diffie-Hellman-Merkle haben sich daher eine Änderung überlegt: wenn Alice auf der ganzen Welt offene Vorhängeschlösser (ohne Schlüssel) verteilt, dann kann ihr jeder eine Truhe abgesperrt senden, zu der nur sie einen Schlüssel hat. Die Übertragung hat dabei nur einfach zu erfolgen. Das Konzept wurde als Public-Key bekannt. Mathematisch waren sie nicht in der Lage diese Idee umzusetzen. Aufgrund dieses Konzepts jedoch, wurden drei weitere Herren fündig:
 
 ### RSA
@@ -277,7 +279,7 @@ Diffie-Hellman-Merkle haben sich daher eine Änderung überlegt: wenn Alice auf 
 
 (Rivest-Shamir-Adleman - 1978) Der Algorithmus ist aufgrund ausgelaufener Patente frei verwendbar.
 
-Dabei wird mit unterschiedlichen Schlüsseln für das Ver- und Entschlüsseln gearbeitet. Der Schlüssel für das Verschlüsseln ist öffentlich, für jeden ersichtlich und verfügbar (Public-Key). Dadurch kann jeder eine Nachricht Verschlüsseln.
+Dabei wird mit unterschiedlichen Schlüsseln für das Verund Entschlüsseln gearbeitet. Der Schlüssel für das Verschlüsseln ist öffentlich, für jeden ersichtlich und verfügbar (Public-Key). Dadurch kann jeder eine Nachricht Verschlüsseln.
 
 Der zweite Schlüssel wird geheim gehalten, mit diesem kann eine Nachricht entschlüsselt werden. Dieser Schlüssel muss nie über unsichere Wege übertragen werden.
 
@@ -291,26 +293,26 @@ Algorithmus:
 
 - Auswahl zweier großer Primzahlen **p** und **q**
 
-- Berechnung des *RSA-Moduls*  $N = p\cdot q$
+- Berechnung des *RSA-Moduls* $N = p\cdot q$
 
-- Ermitteln von $\varphi(N) = (p - 1)(q - 1)$                  (*Eulersche-Funktion*)
-  $\varphi(N)$ ... Anzahl der teilerfremden natürlichen Zahlen von N (Zahlen die keinen gemeinsamen Teiler mit N haben)
-  Bsp.: $\varphi(6) = 2$  weil in der Menge {1,2,3,4,5,6} nur 1 und 5 teilerfremd sind; da 6 das Produkt von 2 und 3 ist liefert die Berechnung das gleiche Ergebnis (3-1)*(2-1)=2 
+- Ermitteln von $\varphi(N) = (p - 1)(q - 1)$ (*Eulersche-Funktion*)  
+  $\varphi(N)$ … Anzahl der teilerfremden natürlichen Zahlen von N (Zahlen die keinen gemeinsamen Teiler mit N haben)  
+  Bsp.: $\varphi(6) = 2$ weil in der Menge {1,2,3,4,5,6} nur 1 und 5 teilerfremd sind; da 6 das Produkt von 2 und 3 ist liefert die Berechnung das gleiche Ergebnis (3-1)*(2-1)=2 
   
 - Wahl einer kleinen natürlichen Zahl **e** für die gilt: e und $\varphi$ sind prim zueinander (ggT ist 1, bzw. sind teilerfremd) und größer 1
 
-- der Entschlüsselungsexponent muss multiplikativ invers bezüglich dem Modul sein:          $e\cdot d \equiv 1\ mod\ \varphi(N)$ 
+- der Entschlüsselungsexponent muss multiplikativ invers bezüglich dem Modul sein: $e\cdot d \equiv 1\ mod\ \varphi(N)$ 
   
-  (zur Schreibweise, gleichbedeutend mit:          $(e\cdot d) \mod \varphi(N) = 1$          )
+  (zur Schreibweise, gleichbedeutend mit: $(e\cdot d) \mod \varphi(N) = 1$ )  
   Berechnung $d = (e\ mod\ \varphi(N))^{-1}$ mittels erweiterten Euklidischen Algorithmus (siehe Übung).
-- Öffentlicher Schlüssel: **P** = (e, N), Verschlüsseln eines Klartextes m mit:                $c = m^e mod \ N$
+- Öffentlicher Schlüssel: **P** = (e, N), Verschlüsseln eines Klartextes m mit: $c = m^e mod \ N$  
   (m muss kleiner als N sein)
 
-- Privater/Geheimer Schlüssel **S** = (d, N), Entschlüsseln des Chiffrats c mit:             $m = c^d mod \ N$
+- Privater/Geheimer Schlüssel **S** = (d, N), Entschlüsseln des Chiffrats c mit: $m = c^d mod \ N$
 
-- Signieren eines Textes m:                         $s = m^d \ mod(N)$
+- Signieren eines Textes m: $s = m^d \ mod(N)$
 
-- Verifizieren des signierten Textes s:        $m = s^e \ mod(N)$
+- Verifizieren des signierten Textes s: $m = s^e \ mod(N)$
 
 Die Nachricht wird geblockt codiert, die Blockgröße ist (möglichst knapp) kleiner als N zu wählen.
 
@@ -322,7 +324,7 @@ Die Sicherheit dieser Verschlüsselung basiert darauf, dass keine effiziente Met
 
 **RSA als Blockchiffre**
 
-Definition der Anzahl der Zeichen/Alphabet in einer zu verschlüsselnder Nachricht. Als Beispiel wird hier einmal 27 Zeichen angeführt (nur klein und keine Zahlen, Sonderzeichen ...). Die Zahlenentsprechung sei: a=1, b=2 ... z=26, Leerzeichen=0. Damit kann der Text **hallo** in Zahlen umgerechnet werden:
+Definition der Anzahl der Zeichen/Alphabet in einer zu verschlüsselnder Nachricht. Als Beispiel wird hier einmal 27 Zeichen angeführt (nur klein und keine Zahlen, Sonderzeichen …). Die Zahlenentsprechung sei: a=1, b=2 … z=26, Leerzeichen=0. Damit kann der Text **hallo** in Zahlen umgerechnet werden:
 
 ```
 h=8
@@ -336,7 +338,7 @@ Diese Zahl entspricht dem Text **hallo**. Mit 5 Zeichen können 373.071.581 Vari
 
 ## Sicherungsprotokolle
 
-Es gibt eine Vielzahl von Protokollen die eine Sicheren Übertragung ermöglichen. Beginnend auf der Sicherungsschicht (PPTP, L2TP...), Vermittlungsschicht (IPsec...) und der Transportschicht.
+Es gibt eine Vielzahl von Protokollen die eine Sicheren Übertragung ermöglichen. Beginnend auf der Sicherungsschicht (PPTP, L2TP…), Vermittlungsschicht (IPsec…) und der Transportschicht.
 
 ### Transportschicht - SSL, TLS und HTTPS
 
@@ -379,7 +381,7 @@ Nach dem Ende einer Sitzung werden die Schlüssel auf beiden Seiten gelöscht. D
 
 S-HTTP (Secure HTTP) verschlüsselt die Daten jeder einzelne Anfrage. Der HTTP-Header hingegen nicht (Unterschied zu HTTPS). S-HTTP wird nicht so häufig wie HTTPS eingesetzt.
 
-SSH (Secure Shell). Mittels Shell kann auf ein Dateisystem zugegriffen werden. Programme wie Telnet oder rlogin sind unsicher, sie übertragen Passwörter im Klartext. Secure Shell ist ein Protokoll als auch entsprechende Programme. Für die Authentifizierung kann zum Beispiel RSA verwendet werden, anschließend wird für die Dauer einer Sitzung ein symmetrisches Verfahren (AES, IDEA ...) angewendet.
+SSH (Secure Shell). Mittels Shell kann auf ein Dateisystem zugegriffen werden. Programme wie Telnet oder rlogin sind unsicher, sie übertragen Passwörter im Klartext. Secure Shell ist ein Protokoll als auch entsprechende Programme. Für die Authentifizierung kann zum Beispiel RSA verwendet werden, anschließend wird für die Dauer einer Sitzung ein symmetrisches Verfahren (AES, IDEA …) angewendet.
 
 PGP (Pretty Good Privacy) zählt zu den meistgenutzten Verschlüsselungsprogrammen im Internet. Neben RSA und Diffie-Hellman kommen AES, DES, IDEA und weitere zum Einsatz. Bei der Verwendung der asymmetrischen Verschlüsselung bietet PGP zusätzlich die Möglichkeit ein **Web of Trust** aufzubauen. Das basiert auf die Verbindung mit vertrauenswürdigen Teilnehmern.
 
@@ -396,11 +398,11 @@ Hier sind besonders Tunnelprotokolle hervorzuheben:
 Symmetrische Verschlüsselungsverfahren sind aktuell die praktikabelste Möglichkeit um verschlüsselt größere Datenmengen auszutauschen. Um den symmetrischen Schlüssel zwischen den Teilnehmern auszutauschen, wird ein asymmetrisches Verfahren (Public-Key) eingesetzt:
 
 - Client: Erzeugen eines geheimen symmetrischen Schlüssels für eine Verschlüsselung + Verbindungsaufbau zum Server
-- Server: Senden seines Public-Key (Web-Site, Mail ...).
+- Server: Senden seines Public-Key (Web-Site, Mail …).
 - Client: Verschlüsseln des geheimen, symmetrischen Schlüssels für die später folgende Verschlüsselung mittels Public-Key des Servers und Senden an den Server.
 
 - Server: Entschlüsseln der Nachricht mittels seines passenden Private-Keys und damit Erhalt des symmetrischen Schlüssels. Damit könnte nun die symmetrische Verschlüsselungskommunikation beginnen.
-- Problem: Man-In-The-Middle kann sich in der Kommunikation eingeschaltet haben (gefälschter Public-Key ...).
+- Problem: Man-In-The-Middle kann sich in der Kommunikation eingeschaltet haben (gefälschter Public-Key …).
 - Lösung: **Zertifikate** die von einer Zertifizierungsstelle (CA = Certification Authorithies) ausgestellt wurden.
 
 > Zertifikate sind von einer CA beglaubigte Public-Keys (und Anderes)
@@ -408,7 +410,7 @@ Symmetrische Verschlüsselungsverfahren sind aktuell die praktikabelste Möglich
 **Lösung mittels Server-Zertifikaten:**
 
 - Client: Erzeugen eines geheimen symmetrischen Schlüssels für eine Verschlüsselung + Verbindungsaufbau zum Server
-- Server: Senden seines Public-Key (Web-Site, Mail ...) der mittels Server-Zertifikat beglaubigt ist (signiert mittels Private-Key der CA)
+- Server: Senden seines Public-Key (Web-Site, Mail …) der mittels Server-Zertifikat beglaubigt ist (signiert mittels Private-Key der CA)
 - Client prüft die Echtheit des Zertifikates mittels Public-Key der CA (diesen hat der Client schon immer). Falls authentisch, geht der Ablauf weiter.
 - Client: Verschlüsseln des geheimen, symmetrischen Schlüssels für die später folgende Verschlüsselung mittels (zuverlässig echtem) Public-Key des Servers und Senden an den Server.
 
@@ -447,17 +449,16 @@ Server-Zertifikat:
 
 ## Referenzen
 
-- Sehr Umfassende Referenz
+- Sehr Umfassende Referenz  
   [<http://kryptografie.de/kryptografie/chiffre/vigenere.htm>](<http://kryptografie.de/kryptografie/chiffre/vigenere.htm>)
-- Sehr gute TLS-Handshake-Beschreibung
-  https://www.youtube.com/watch?v=86cQJ0MMses
-
+- Sehr gute TLS-Handshake-Beschreibung  
+  <https://www.youtube.com/watch?v=86cQJ0MMses>
 
 ## Fragen
 
 - Erklären Sie den Unterschied symmetrische <-> asymmetrische Verschlüsselung
 - Was ist der Vorteil/Nachteil der symmetrischen gegenüber der asymmetrischen Verschlüsselung
-- Was versteht man unter Block- und Stromchiffre?
+- Was versteht man unter Blockund Stromchiffre?
 - Was ist mit dem Schlagwort Public-Key im Zusammenhang mit Kryptographie gemeint?
 - Erklären Sie den Diffie-Hellman-Algorithmus. Wofür kann/wird dieses Verfahren verwendet?
 - Erklären Sie das Prinzip der RSA-Verschlüsselung. Ist dieses Verfahren 100% sicher?

@@ -65,11 +65,11 @@ Anstatt sich das erste Listenelement zu merken, wird häufig ein **Listenkopf** 
 
 ![EinfList04](assets/EinfList04.png)
 
-2. Einfaches Löschen von Knoten am Beginn/Ende in der Mitte der Liste. Der Zeiger des vorhergehenden Knotens wird angepasst, dann wird (ein Zeiger auf) das Element freigegeben (free):
+1. Einfaches Löschen von Knoten am Beginn/Ende in der Mitte der Liste. Der Zeiger des vorhergehenden Knotens wird angepasst, dann wird (ein Zeiger auf) das Element freigegeben (free):
 
 ![EinfList05](assets/EinfList05.png)
 
-3. Einfaches Verschieben von Knoten innerhalb der Liste. Dazu müssen lediglich die Zeiger verändert werden:
+1. Einfaches Verschieben von Knoten innerhalb der Liste. Dazu müssen lediglich die Zeiger verändert werden:
 
 ![EinfList06](assets/EinfList06.png)
 
@@ -79,9 +79,9 @@ Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil vie
 
 Mit Traversieren ist das Durchlaufen von Listen oder ähnlichen Strukturen gemeint. Wie erfolgt das:
 
-- Begonnen wird das indem ein temporärer Zeiger `ptr` auf das erste Element gelegt wird - also dorthin wo `first`  vom Listenkopf zeigt:
+- Begonnen wird das indem ein temporärer Zeiger `ptr` auf das erste Element gelegt wird - also dorthin wo `first` vom Listenkopf zeigt:  
 ![EinfList08](assets/EinfList08.png)
-- Um auf das nächste Element zugreifen zu können, muss der Hilfs-Zeiger `ptr` auf das Element verschoben werden, welches durch das aktuelle Element mittels `next` erreicht werden kann:
+- Um auf das nächste Element zugreifen zu können, muss der Hilfs-Zeiger `ptr` auf das Element verschoben werden, welches durch das aktuelle Element mittels `next` erreicht werden kann:  
 ![EinfList09](assets/EinfList09.png)
 - Dieser Vorgang kann solange wiederholt werden, bis die Anzahl der Elemente `hdr.size` durchlaufen wurde, bis `ptr` auf `NULL` verschoben wird oder bis `ptr` auf `hdr.last` verschoben wird.
 
@@ -98,7 +98,7 @@ Für Bäumen gilt:
 
 ![baum_01](assets/baum_01.png)
 
-Haben Knoten in Bäumen maximal zwei Nachfolgeknoten werden diese als **binäre Bäume** bezeichnet. Sie  haben große Bedeutung für die Sortierung/Suche von Daten - **binäre Suchbäume**.
+Haben Knoten in Bäumen maximal zwei Nachfolgeknoten werden diese als **binäre Bäume** bezeichnet. Sie haben große Bedeutung für die Sortierung/Suche von Daten - **binäre Suchbäume**.
 
 ![baum_02](assets/baum_02.png)
 
@@ -252,10 +252,11 @@ Um solche Anordnungen zu vermeiden, gibt es balancierte/ausgeglichene Bäume. Um
 
 ## Referenzen
 
-- Erklärung und Beispiele:
+- Erklärung und Beispiele:  
   [https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf](https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf)
-- Schulungsmaterial Bäume
-  https://www.u-helmich.de/inf/BlueJ/kurs121/folge17/folge17.html
+- Schulungsmaterial Bäume  
+  <https://www.u-helmich.de/inf/BlueJ/kurs121/folge17/folge17.html>
+
 ## Fragen
 
 - Unterschied zwischen Array und dynamischer Liste

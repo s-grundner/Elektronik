@@ -28,6 +28,7 @@ $i\dots$Anzahl der Samplepoints
 $^{T}\dots$Matrix ist Transponiert
 
 # Beispiel
+
 $$
 \begin{array}{}
 P_{1}(1|10): y=0\\

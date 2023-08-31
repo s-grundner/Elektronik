@@ -23,7 +23,7 @@ Direkt einen Webserver mittels Node.js zu implementieren ist kein übliches Vorg
 
 ### Installation Node.js
 
-- Download und Ausführen des msi von https://nodejs.org/de/. Dabei Auswahl für Installation der notwendigen Tools.
+- Download und Ausführen des msi von <https://nodejs.org/de/.> Dabei Auswahl für Installation der notwendigen Tools.
 
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
@@ -65,7 +65,7 @@ Damit läuft die Anwendung (nodemon liefert mehr Rückmeldung als nur node). In 
 Alternativ kann mittels `node app.js` gestartet werden, dann werden keine Status-Nachrichten mit angezeigt.
 
 - require: lädt ein Modul (hier das Modul express)
-- Routes: darunter wird verstanden dass unterschiedliche Request unterschiedlich geroutet (behandelt) werden können. Die Requests können unterschiedlicher Art (Post, Get...) oder unterschiedlichem Pfad sein.
+- Routes: darunter wird verstanden dass unterschiedliche Request unterschiedlich geroutet (behandelt) werden können. Die Requests können unterschiedlicher Art (Post, Get…) oder unterschiedlichem Pfad sein.
 
 ### Webserver
 
@@ -87,13 +87,13 @@ app.get('/', (req, res) => {
 });
 ```
 
-Die Datei `index.html`  kann dazu im Ordner `public` im gleichen Pfad wie `app.js` abgelegt werden.
+Die Datei `index.html` kann dazu im Ordner `public` im gleichen Pfad wie `app.js` abgelegt werden.
 
 ## MySQL
 
 ### Installation Node.js
 
-- Download und Ausführen des msi von https://nodejs.org/de/. Dabei Auswahl für Installation der notwendigen Tools.
+- Download und Ausführen des msi von <https://nodejs.org/de/.> Dabei Auswahl für Installation der notwendigen Tools.
 
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
@@ -156,7 +156,7 @@ con.end();
 
 ### Installation Node.js
 
-- Download und Ausführen des msi von https://nodejs.org/de/. Dabei Auswahl für Installation der notwendigen Tools.
+- Download und Ausführen des msi von <https://nodejs.org/de/.> Dabei Auswahl für Installation der notwendigen Tools.
 
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
@@ -196,17 +196,17 @@ client.close();
 
 ## Referenzen
 
-- node.js
-  https://nodejs.org
+- node.js  
+  <https://nodejs.org>
 
-- Gute, ganz allgemeine Einführung
-  https://www.youtube.com/watch?v=6hcsrjooU0w
+- Gute, ganz allgemeine Einführung  
+  <https://www.youtube.com/watch?v=6hcsrjooU0w>
 
 - MySQL
   
-  https://github.com/mysqljs/mysql
+  <https://github.com/mysqljs/mysql>
 
 - Sehr "lesbare" Einführung auf w3schools für MySQL/MongoDB
   
-  https://www.w3schools.com/nodejs/nodejs_mysql.asp
-  https://www.w3schools.com/nodejs/nodejs_mongodb.asp
+  <https://www.w3schools.com/nodejs/nodejs_mysql.asp>  
+  <https://www.w3schools.com/nodejs/nodejs_mongodb.asp>

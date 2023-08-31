@@ -7,7 +7,9 @@ created: 24th October 2022
 ---
 
 # Machine Learning
+
 ## Lullifunktion
+
 $y=k\cdot x+d$
 
 ```functionplot
@@ -49,11 +51,12 @@ $$
 
 ## [Lineare Regression](Lineare%20Regression.md)
 
-![Overfit](../assets/Overfit.png)
-Hochgradige Kostenfunktion (nicht konvex)
+![Overfit](../assets/Overfit.png)  
+Hochgradige Kostenfunktion (nicht konvex)  
 man findet das Globale minimum sehr schwer
 
 ## [Logistische Regression](Logistische%20Regression.md)
+
 ```functionplot
 ---
 title: Konvexe Kostenfunktion
@@ -67,6 +70,7 @@ y=(1/10)*(x-7)^2
 ```
 
 # Matlab Simulations
+
 > [!example] Häuserpreis
 
 | $x_{0}$ | Size (feet$^{2}$)<br> $x_{1}$ | Number of Bedrooms <br> $x_{2}$ | Number of Floors <br> $x_3$ | Age of Home <br> $x_{4}$ | Price <br> $y$ |
@@ -103,7 +107,7 @@ Theta = [1;2;3;4;5];
 J = (1/(2*m)) * sum((Theta'*X_norm-y).^2);
 ```
 
-### Vereinfacht
+## Vereinfacht
 
 ```matlab
 X = [2104 1416 1534 852; % (4x4)
@@ -136,4 +140,5 @@ X' %Matrix X Transponieren
 ```
 
 ## Andrew Ng Course
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -6,7 +6,7 @@ Ein ODBC-Treiber bietet eine Programmierschnittstelle für Datenbanksysteme. Mit
 
 ### Treiber-Einstellung am Beispiel MySQL-DB
 
-Für die verwendete MySQL-Datenbank muss ein 32-Bit/64Bit-ODBC-Treiber installiert werden. Dieser kann einfach im Internet bezogen werden. Für *Windows/MySQL* etwa unter https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.31.0.msi.
+Für die verwendete MySQL-Datenbank muss ein 32-Bit/64Bit-ODBC-Treiber installiert werden. Dieser kann einfach im Internet bezogen werden. Für *Windows/MySQL* etwa unter <https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.31.0.msi.>
 
 Nach der Installation des notwendigen Treibers wird dieser mit `odcbad32.exe` gestartet (ODBC-Datenquellen-Administrator) für 32 Bit. Im Reiter *System-DSN* wird eine Datenquelle hinzugefügt. Es wird der entsprechende Treiber (MySQL ODBC 8.0 ANSI Driver) ausgewählt. Für die zu verbindende Datenbank werden nun die Einstellungen getätigt:
 
@@ -100,8 +100,8 @@ Mit obigen Einstellungen mittels Qt:
   QT += sql
   ```
 
-- Cpp:
-  es gibt viele Varianten via ODBC zuzugreifen: es wird die Treiberbezeichnung benötigt (*MySQL ODBC 8.0 ANSI Driver*)...
+- Cpp:  
+  es gibt viele Varianten via ODBC zuzugreifen: es wird die Treiberbezeichnung benötigt (*MySQL ODBC 8.0 ANSI Driver*)…
   
   ```c++
   #include <QCoreApplication>
@@ -192,13 +192,13 @@ Mit obigen Einstellungen mittels Qt:
 
 Für SQLite gibt es ebenfalls Treiber, beispielhaft für Windows:
 
-https://www.devart.com/odbc/sqlite/DevartODBCSQLite.exe
+<https://www.devart.com/odbc/sqlite/DevartODBCSQLite.exe>
 
 dieser Treiber ist frei allerdings nur für 30 Tage lizenziert.
 
 Freie Alternative:
 
-http://www.ch-werner.de/sqliteodbc/
+<http://www.ch-werner.de/sqliteodbc/>
 
 ### Qt-C++ / SQLite Beispiel (504)
 
@@ -228,7 +228,7 @@ Aus Qt ist wichtig, dass für 32Bit-Anwendungen ein 32Bit-ODBC-Treiber und für 
 
 Die Treiber können via:
 
-https://www.microsoft.com/de-at/download/details.aspx?id=13255
+<https://www.microsoft.com/de-at/download/details.aspx?id=13255>
 
 bezogen werden.
 
@@ -241,10 +241,10 @@ qDebug() << m_db.lastError();
 m_db.setDatabaseName("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:/temp/myDb.accdb;Uid=Admin;Pwd=;");
 ```
 
-Der *Connector-String* (letzte Zeile) kann bezogen werden:
-https://www.connectionstrings.com/microsoft-access-accdb-odbc-driver/
+Der *Connector-String* (letzte Zeile) kann bezogen werden:  
+<https://www.connectionstrings.com/microsoft-access-accdb-odbc-driver/>
 
 ## Referenz
 
-- https://www.easysoft.com/developer/languages/c/examples/index.html
-- https://docs.microsoft.com/de-de/sql/odbc/reference/syntax/odbc-reference?view=sql-server-2017
+- <https://www.easysoft.com/developer/languages/c/examples/index.html>
+- <https://docs.microsoft.com/de-de/sql/odbc/reference/syntax/odbc-reference?view=sql-server-2017>

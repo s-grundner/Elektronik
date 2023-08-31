@@ -1,7 +1,7 @@
 # 1 Netzwerke Allgemeines
 
 - Netzwerk mit unterschiedlichen Komponenten:
-  - Hersteller Windows(Linux/Unix ...)
+  - Hersteller Windows(Linux/Unix …)
   - Computer/Server/IoT-Devices/Smartphone
 - Kommunikation nur möglich wenn nicht nur eine Verbindung vorhanden ist, sondern zusätzlich Regeln eingehalten werden.
 
@@ -38,11 +38,11 @@ Um mittels WLAN kommunizieren zu können, wird ein Access Point verwendet. Diese
 
 ### Router
 
-Um Dienste im Internet in Anspruch nehmen zu können, ist ein Router notwendig. Dazu werden interne IP-Adressen in diejenige Adresse übersetzt, die zum Beispiel vom Internet-Provider zur Verfügung gestellt wird. Das kann entweder statisch (fest eingestellt) oder dynamisch (DHCP) erfolgen. Router haben vielfach noch zusätzliche Optionen - Firewall, Filterung ...
+Um Dienste im Internet in Anspruch nehmen zu können, ist ein Router notwendig. Dazu werden interne IP-Adressen in diejenige Adresse übersetzt, die zum Beispiel vom Internet-Provider zur Verfügung gestellt wird. Das kann entweder statisch (fest eingestellt) oder dynamisch (DHCP) erfolgen. Router haben vielfach noch zusätzliche Optionen - Firewall, Filterung …
 
 ![NW_Hub](assets/NW_Router.png)
 
-Wenn vom Datennetzanbieter kein Netzwerk angeboten wird sondern ein anderes Medium (Telefon, Fernsehkabel ...), dann ist zusätzlich zwischen Router und Internet ein **Modem** notwendig. Ein Modem (*Mod*ulator-*Dem*odulator) adaptiert zum Beispiel Ethernet auf eine Telefonleitung oder ein Fernsehkabel.
+Wenn vom Datennetzanbieter kein Netzwerk angeboten wird sondern ein anderes Medium (Telefon, Fernsehkabel …), dann ist zusätzlich zwischen Router und Internet ein **Modem** notwendig. Ein Modem (*Mod*ulator-*Dem*odulator) adaptiert zum Beispiel Ethernet auf eine Telefonleitung oder ein Fernsehkabel.
 
 Klassisch war es dann häufig auch notwendig, dass die Telefonleitung auf das Telefonsignal und Internetsignal aufgeteilt wurde (bevor es ins Modem kam), das erfolgte durch einen **Splitter**.
 
@@ -57,7 +57,7 @@ Beispiele für gängige Server-Anwendungen sind:
 - Mail-Server (der liefert meinem Client-Mailprogramm Mails wenn abgefragt wird)
 - Drucker-Server: wird etwas im Netzwerk gedruckt, dann sendet ein Druckertreiber (Client) an den Drucker-Server (eventuell Software nur im Drucker)
 - Web-Server: ein Browser (Client) fragt nach einer Seite (beim Web-Server)
-- [Datenbank](../../software-technik/Db/Datenbank.md): eine Datenbankanwendung (php, c# ...) kommuniziert mit einer [Datenbank](../../software-technik/Db/Datenbank.md) (DB-Server)
+- [Datenbank](../../software-technik/Db/Datenbank.md): eine Datenbankanwendung (php, c# …) kommuniziert mit einer [Datenbank](../../software-technik/Db/Datenbank.md) (DB-Server)
 - Applikation-Server: Anwendung laufen auf Server
 
 Ganz wichtig damit das funktionieren kann: die Sprache im Netzwerk muss geregelt sein. Der Anwender möchte sich nicht darum kümmern -> Protokolle.
@@ -106,7 +106,7 @@ Im medizinischen Bereich:
 
 - Netzwerkklasse A: allgemeine Computernetzwerke (Krankenhausinformationssysteme)
 
--  Netzwerkklasse B: Computernetzwerke im klinischen Einsatz (z.B. Vernetzung klinische Abteilung mit zentralen medizinischen Bildarchiv)
+- Netzwerkklasse B: Computernetzwerke im klinischen Einsatz (z.B. Vernetzung klinische Abteilung mit zentralen medizinischen Bildarchiv)
 - Netzwerkklasse C: hochsicherheitskritische klinische Bereiche, z.B. Monitoring in der Intesivmedizin. Diese Klasse ist (physisch) unabhängig von anderen Systemen zu verwirklichen.
 
 ## Anderes
@@ -122,7 +122,7 @@ Im medizinischen Bereich:
 - **NAT**	Network Address Translation. Erfolgt auf dem Router. Übersetzung lokaler Netzwerkadressen in eine ~globale. Damit weiß ein Router welcher lokale Host welchen Dienst im Internet verwendet und kann dementsprechend die Replys durch routen.
 - **Gateway**		Ein Gateway kann zwei Geräte bis in die Schicht 7 verbinden. Damit können Anwendungsprotokolle übersetzt werden. Zur Konvertierung eines TCP/IP in ein IBM-SNA wird ein MS-SNA-Server (Gateway) verwendet. Auf einem Host ist der Standard-Gateway diejenige Adresse an die Anfragen weitergeleitet werden, wenn sie nicht im lokalen Adressbereich liegen.
 - **CSMA/CD** 	Carrier Sense Multiple Access/Collision Detect: Dieses Verfahren wird in Ethernet (nur wenn nicht via Switch) und abgewandelt in WLAN Netzen eingesetzt. Dabei wartet ein Busteilnehmer der Senden möchte auf einen freien Bus. Wenn dieser frei ist beginnt er zu Senden und hört dabei gleichzeitig mit ob seine Daten auf dem Bus ankommen. Wenn nicht (etwa weil ein zweiter genau gleichzeitig zu Senden begonnen hat) wird die Sendung sofort beendet. Ein Zufallsgenerator ermittelt ab wann dieser Sender einen erneuten Sende-Versuch startet (mit Warten auf freien Bus). Dieses Verfahren wird im Ethernet verwendet (als IEEE 802.3). In Drahtlosen Netzen werden andere Verfahren eingesetzt. Ein Teilnehmer welcher sendet, kann nicht gleichzeitig hören ob ein zweiter Teilnehmer sendet, daher wird hier häufig ein CSMA/CA (A für Avoidance) eingesetzt. Dabei wird vor dem Senden Gehört.
-- **Ethernet**	Kombination gewisser Protokolle und Hardware für kabelgebundene Netze. Ethernet ist sowohl auf Layer 1 und Layer 2 festgelegt. Ethernet kann die Basis  für TCP/IP bilden.
+- **Ethernet**	Kombination gewisser Protokolle und Hardware für kabelgebundene Netze. Ethernet ist sowohl auf Layer 1 und Layer 2 festgelegt. Ethernet kann die Basis für TCP/IP bilden.
 - **PPP/PPPoE**	Point-to-Point Protocol: Verbindung über Wählleitung. oE bedeutet over Ethernet. Wird bei ADSL verwendet. Ist ein Übliches Protokoll für Internetprovider den Kunden gegenüber.
 - **Firewall**	Kann etwa auf einem Router aktiv sein. Damit wird jede Übertragung aus dem Heimnetzwerk in das Internet direkt ermöglicht, in die umgekehrte Richtung werden allerdings nur Antworten durchgelassen (einfachster Fall).
 
@@ -135,7 +135,7 @@ Eine IP-Adresse ist eine logische, wie bekommt ein Rechner eine IP-Adresse?
 - Manuell: es wird eine Adresse auf dem Gerät eingestellt.
 - Automatisch: die Adresse wird beim Start *dynamisch* zugewiesen (DHCP)
 
-Eine IP-Adresse setzt sich aus 2 Teilen zusammen: einem Netzwerkteil (für alle Rechner eines Subnetzes gleich) und einem Hostteil (damit werden die Rechner innerhalb eines Subnetzes unterschieden). Schreibweisen: `192.168.45.22/24`  damit wird festgelegt: die ersten 24 Bit sind Netzwerkteil und die verbleibenden 8 Bit sind Hostteil (bis zu 256 Rechner/Drucker ... möglich). Alternativ: Angabe einer Subnetzmaske für dieses Beispiel: `192.168.45.22` und `255.255.255.0` (=Subnetzmaske).
+Eine IP-Adresse setzt sich aus 2 Teilen zusammen: einem Netzwerkteil (für alle Rechner eines Subnetzes gleich) und einem Hostteil (damit werden die Rechner innerhalb eines Subnetzes unterschieden). Schreibweisen: `192.168.45.22/24` damit wird festgelegt: die ersten 24 Bit sind Netzwerkteil und die verbleibenden 8 Bit sind Hostteil (bis zu 256 Rechner/Drucker … möglich). Alternativ: Angabe einer Subnetzmaske für dieses Beispiel: `192.168.45.22` und `255.255.255.0` (=Subnetzmaske).
 
 Gängige/Reservierte IPs:
 
@@ -170,7 +170,7 @@ Wie findet ein IP Paket den Weg zum Zielrechner:
 
 # Windows
 
-Telnet aktivieren:  https://praxistipps.chip.de/windows-10-telnet-client-aktivieren-und-deaktivieren_92627 
+Telnet aktivieren: <https://praxistipps.chip.de/windows-10-telnet-client-aktivieren-und-deaktivieren_92627> 
 
 
 
@@ -180,17 +180,17 @@ Telnet aktivieren:  https://praxistipps.chip.de/windows-10-telnet-client-aktivie
 
 
 
-Poster:
+Poster:  
 ![img](assets/NW_Schichtenmodell_Poster.png)
 
 ## Referenzen
 
 - Gute Protokoll-Zusammenfassung:
 
-  https://kompendium.infotip.de/netzwerktechnologie2-referenzmodelle-und-protokolle.html
+  <https://kompendium.infotip.de/netzwerktechnologie2-referenzmodelle-und-protokolle.html>
 
-- Socket-Programmierung mit C#
+- Socket-Programmierung mit C#  
   <https://docs.microsoft.com/de-de/dotnet/framework/network-programming/sockets>
 
-- Windows-Tools:
-  https://kompendium.infotip.de/netzwerkbefehle-der-windows-kommandozeile.html
+- Windows-Tools:  
+  <https://kompendium.infotip.de/netzwerkbefehle-der-windows-kommandozeile.html>
