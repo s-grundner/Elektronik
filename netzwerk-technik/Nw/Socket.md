@@ -6,8 +6,6 @@ created: 29th November 2022
 
 # Socket
 
-# Sockets
-
 ## Client/Server - Sockets
 
 Der größte Teil der Kommunikation in Netzwerken findet zwischen Clientund Server-Prozessen statt.
