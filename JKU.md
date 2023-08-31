@@ -19,13 +19,3 @@
 > Liedtexte
 
 > Aktives Lernen
-
-![](assets/Pasted%20image%2020230831131239.png)
-
-#### Selbst Management
-
-> [!important] Das Lernen und sich selbst Steuern
-
-> [!important] Vor Ablenkungen Schützen
-
-> [!important] Für Pause und Erholung sorgen
