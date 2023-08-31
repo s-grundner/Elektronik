@@ -1,5 +1,6 @@
 ---
 tags: ["c", "Bitmath"]
+subject: fsst
 aliases: []
 created: 29th November 2022
 ---

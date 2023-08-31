@@ -48,7 +48,7 @@ Es wurde der *Name* in *Vor-* und *Nachname* aufgespaltet. Es kann ja einen *Mus
 
 ## 2. Normalform
 
-In der obigen 1.Normalform gibt es für die angeführte Rechnung *187* mehrere Rechnungspositionen (eventuell werden nicht nur die angeführten Bleistifte gekauft). Jeder der Rechnungsposition-Einträge hat dann den gleichen *Name*, *Adresse* und *Datum* oder auch *RNr*. Die Information wird daher mehrfach (redundant) gespeichert. Beim Ändern von Daten ist das problematisch. Um das zu Verbessern, wird in die 2. Normalform entwickelt. Dafür wird zuerst der Schlüssel der Relation ermittelt. Als Schlüssel zählen jene Spalten gemeinsam, deren Werte bekannt sein müssen, um eine Zeile eindeutig identifizieren zu können. Als Schlüssel kann die *RNr* gemeinsam mit dem *Artikel* gewählt werde.
+In der obigen 1.Normalform gibt es für die angeführte Rechnung *187* mehrere Rechnungspositionen (eventuell werden nicht nur die angeführten Bleistifte gekauft). Jeder der Rechnungsposition-Einträge hat dann den gleichen *Name*, *Adresse* und *Datum* oder auch *RNr*. Die Information wird daher mehrfach ([redundant](../../netzwerk-technik/Redundanz.md)) gespeichert. Beim Ändern von Daten ist das problematisch. Um das zu Verbessern, wird in die 2. Normalform entwickelt. Dafür wird zuerst der Schlüssel der Relation ermittelt. Als Schlüssel zählen jene Spalten gemeinsam, deren Werte bekannt sein müssen, um eine Zeile eindeutig identifizieren zu können. Als Schlüssel kann die *RNr* gemeinsam mit dem *Artikel* gewählt werde.
 
 ![img](assets/NF_Einf_03.png)
 

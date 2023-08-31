@@ -1,11 +1,12 @@
 ---
 tags: []
 aliases: []
-subject: ["ksn"]
+subject: ksn
 source: ["Martin Aichriedler"]
 ---
 
 # Kanalkapazität
+
 $$
 \begin{align*}
 C &= F_{max}\\

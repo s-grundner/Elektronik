@@ -1,4 +1,5 @@
 ---
+tags: [""]
 aliases: ["Aktor"]
 subject: ["mtrs"]
 source: ["Norbert Irnleitner"]
@@ -6,6 +7,7 @@ created: 31st March 2022
 ---
 
 # Aktorik
+
 Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscomputer) in mechanische Bewegung , bzw. in andere physikalische Größen um.
 
 ![Aktor_BSB](assets/Aktor_BSB.svg)
@@ -14,7 +16,7 @@ Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscom
 
 ## EM-Aktoren: [Elektromagnet](../../physik/Elektromagnet.md)
 
-[Elektromagnet](../../physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../../physik/Elektromagnetische%20Wellen.md)  mit Bewegung reagieren z.B. [Relais](Relais.md)
+[Elektromagnet](../../physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../../physik/Elektromagnetische%20Wellen.md) mit Bewegung reagieren z.B. [Relais](Relais.md)
 
 $\rightarrow$ Mechanische Translation. [Elektromagnet](../../physik/Elektromagnet.md) und [Spule](../../hwe/Induktivitäten.md) werden benötigt.
 
