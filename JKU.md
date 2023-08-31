@@ -15,11 +15,11 @@
 # [KUSS](https://www.kusss.jku.at/kusss/index.action) / [myJKU](https://my.jku.at/#/home)
 
 - Informationsquellen / [Studienhandbuch](https://studienhandbuch.jku.at/curr/986)
-- Login
+- Login (Links im Header)
 - [Mindeststudienleistung](https://www.jku.at/studium/studierende/mindeststudienleistung)  
 	- In den ersten 4. Semestern 16 ECTS
-- StEOP  
-	- 
+- [StEOP](https://www.kusss.jku.at/kusss/steopinfo.action)  
+	- Keine Weiteren LVAs bis StEOP abgeschlossen ist
 - Suchen und Finden  
 - Richtig anmelden  
 - Anmeldemodus  
