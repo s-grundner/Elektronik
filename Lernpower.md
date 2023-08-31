@@ -1,8 +1,12 @@
+---
+tags: ["Lernen"]
+aliases: []
+created: 31st August 2023
+---
+
 # Lernpower
 
-![|425](assets/Pasted%20image%2020230831131239.png)
-
-
+![|475](assets/Pasted%20image%2020230831131239.png)
 
 ## Selbst Management
 
@@ -17,7 +21,6 @@
 
 > [!important] Für Pause und Erholung sorgen
 
-
 ## Exploratives Lernen
 
 ## Aktives Lernen
@@ -27,7 +30,6 @@
 
 Wirkungsvolle methoden
 - Aktives Erarbeiten ermöglichen
-
 
 # 3-Runden-Lesestrategie
 
@@ -44,14 +46,15 @@ Ameisenrunde: Inhalte Lesen und Aktiv erarbeiten
 Eichhörnchenrunde: Nochmals überblicken, einprägen
 - Nach dem Lernen Rekapitulieren
 
-# Lern- und Gedächtnisstrategien Optimieren
+# Lernund Gedächtnisstrategien Optimieren
 
 - Fragen Stellen
 - sich beim Lernen sichtbar und Hörbar ausdrücken
 	- Je mehr 
-- Dinge Reduziern und Strukturieren
+- Dinge Reduzieren und Strukturieren
 	- Mindmap
 	- Zusammenfassung
-- Mit Phatasie memorieren
-	- Auswendiglernen mit dern 
-- WIek
+- Mit Phantasie memorieren
+	- Auswendiglernen mit 
+- Wirkungsvoll Repetieren
+	- Wiederholen
