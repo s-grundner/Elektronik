@@ -12,3 +12,13 @@
 # Möglichkeiten im Ausland
 
 # KUSS / myJKU
+
+Informationsquellen
+Login
+Mindeststudienleistung
+StEOP
+Suchen und Finden
+Richtig anmelden
+Anmeldemodus
+Stundenplan zusammenstellen
+Zuteilungsergebnisse
