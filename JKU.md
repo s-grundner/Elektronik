@@ -13,7 +13,9 @@
 
 # KUSS / myJKU
 
-Informationsquellen
+- Informationsquellen / [Studienhandbuch](https://studienhandbuch.jku.at/curr/986)
+
+
 Login
 Mindeststudienleistung
 StEOP
@@ -22,3 +24,4 @@ Richtig anmelden
 Anmeldemodus
 Stundenplan zusammenstellen
 Zuteilungsergebnisse
+Meine LVAs
