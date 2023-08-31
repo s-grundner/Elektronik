@@ -1,5 +1,6 @@
 ---
 tags: ["MOT"]
+subject: ["chemie"]
 teacher: ["Fritz Struber"]
 inst: ["HTBLuVA Salzburg"]
 created: 19th August 2022

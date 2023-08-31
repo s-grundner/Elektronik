@@ -1,7 +1,7 @@
 ---
 tags: ["MOT"]
 teacher: ["Angela Lindner"]
-inst: ["HTBLuVA Salzburg"]
+inst: HTBLuVA Salzburg
 created: 19th August 2022
 ---
 

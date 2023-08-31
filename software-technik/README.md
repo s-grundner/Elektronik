@@ -1,3 +1,22 @@
+---
+tags: ["MOT"]
+teacher: ["Roman Schragl"]
+inst: ["HTBLuVA Salzburg"]
+created: 29th November 2022
+---
+
+# Map of Topics - undefined
+
+## 1. JG
+
+## 2. JG
+
+## 3. JG
+
+## 4. JG
+
+## 5. JG
+
 # FSST
 
 Skripten für den FSST-Unterricht.
