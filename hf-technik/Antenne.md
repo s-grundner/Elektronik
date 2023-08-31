@@ -7,12 +7,15 @@ created: 23rd November 2022
 ---
 
 # Antennen
+
 ## Grundbegriffe und Kenngrößen
+
 Antennen erzeugen und empfangen [Elektromagnetische Wellen](../../physik/Elektromagnetische%20Wellen.md), die sich im freien Raum ausbreiten:
 - Im <mark style="background: #FFB86CA6;">Sendefall</mark>: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../../physik/Elektrische%20Leistung.md) möglichst effizient in eine [EM-Welle](../../physik/Elektromagnetische%20Wellen.md) um.
 - Im <mark style="background: #FFB86CA6;">Empfangsfall</mark>: Die Antenne nimmt aus einen [EM-Wellenfeld](../../physik/Elektromagnetische%20Wellen.md) [Leistung](../../physik/Elektrische%20Leistung.md) auf und stellt diese an ihrem [Netzwerktor](Streuparameter.md) zur Verfügung.
 
 ### Antennen als Wellentypwandler
+
 - Zumeist ist nur das ferne [EM-Feld](../../physik/Elektromagnetische%20Wellen.md) von technischem Interesse
 - Da jede Antenne in hinreichend großem Abstand als klein angesehen werden kann, ist eine Beschreibung in [Kugelkoordinaten](Kugelkoordinaten.md) zweckmäßig.
 - Die Antenne erzeugt ein Wellenfeld (Freiraumwelle), welches [Leistung](../../physik/Elektrische%20Leistung.md) von der Antenne fortführt (a).
@@ -21,17 +24,10 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../../physik/Elektro
 >[!summary] Sende- & Empfangsfall
 >![](../assets/ant_sende_empf.png)
 
-> [!info] Der Sende- und Empfangsfall sind reziprok.
-
-> [!question] Begriffserklärung: Reziprozität / reziprok
-> `wechselseitig, gegenseitig, aufeinander bezüglich`
-> Die Strahlungseigenschaften und auch die [Impedanz](../../hwe/Impedanz.md) sind im Sende- und Empfangsfall gleich.
-> - Dieser Zusammenhang wird als Reziprozität bezeichnet.
-> #### Praktisch:
->- Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtung ab.
->- Ebenso koppelt die Antenne im Empfangsfall die maximale [Leistung](../../physik/Elektrische%20Leistung.md) einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
+> [!info] Der Sende- und Empfangsfall sind [reziprok](Reziprozität.md).
 
 #### Feldkomponenten $\vec{E}$ und $\vec{H}$
+
 $\vec{E}\dots$ [E-Feldstärke](../../hwe/Elektrisches%20Feld.md#Elektrische%20Feldstärke)
 $\vec{H}\dots$ [H-Feldstärke](../../hwe/Magnetisches%20Feld.md#Magnetisches%20Feld)
 Das Kreuzprodukt beider [Vektoren](../../mathe/mathe%20(3)/Vektorrechung.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
@@ -50,6 +46,7 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 >![Ant_feldzonen](../assets/Ant_feldzonen.png)
 
 #### Vereinfachungen beim Übergang vom Nah- ins Fernfeld:
+
 - Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
 - Im Fernfeld dominiert hingegen der radial orientierte Leistungstransport.
 
@@ -63,6 +60,7 @@ Feldabstand bei:
 ### Kenngrößen für das Strahlungsfeld einer Antenne
 
 #### Richtcharakteristik $C_{i}$
+
 ![richtc_graph](../assets/richtc_graph.png)
 
 #### Richtfunktion $D$
@@ -72,10 +70,12 @@ Feldabstand bei:
 # Drahtantennen
 
 # Antennenbauformen
+
 [Richtantennen](Richtantennen.md)
 
 # Quellen
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qs2QcycggWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![Starlink und Richtantennen](https://www.youtube.com/embed/qs2QcycggWU)
 
 - Fringing Field -> Randfeld
 
