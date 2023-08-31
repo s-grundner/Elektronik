@@ -1,7 +1,7 @@
 # HTL
 
 ```dataview
-TABLE subject
+TABLE subject, teacher
 WHERE file.name = "README"
 ```
 

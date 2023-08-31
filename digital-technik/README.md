@@ -1,6 +1,7 @@
 ---
 tags: ["MOT"]
 teacher: ["Robert Vogl"]
+subject: ["dic"]
 inst: HTBLuVA Salzburg
 created: 10th December 2022
 ---

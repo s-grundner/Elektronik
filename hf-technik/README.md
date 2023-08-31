@@ -1,7 +1,9 @@
 ---
-tags: ["MOT", Netzwerke]
+tags: ["MOT", "Netzwerke"]
 teacher: ["Martin Aichriedler"]
-inst: HTBLuVA Salzburgated: 23rd November 2022
+subject: ["ksn"]
+inst: HTBLuVA Salzburg
+created: 23rd November 2022
 ---
 
 # Map of Topics - KSN

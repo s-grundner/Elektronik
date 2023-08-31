@@ -1,11 +1,11 @@
 ---
 tags: ["MOT"]
 teacher: ["Roman Schragl"]
-inst: ["HTBLuVA Salzburg"]
+inst: HTBLuVA Salzburg
 created: 29th November 2022
 ---
 
-# Map of Topics - undefined
+# Map of Topics - FSST
 
 ## 1. JG
 
@@ -16,8 +16,6 @@ created: 29th November 2022
 ## 4. JG
 
 ## 5. JG
-
-# FSST
 
 Skripten für den FSST-Unterricht.
 

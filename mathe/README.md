@@ -1,6 +1,7 @@
 ---
 tags: ["MOT"]
 teacher: ["Christa Sartorius", "Rudolf Frauenschuh"]
+subject: [mathe]
 inst: HTBLuVA Salzburg
 created: 19th August 2022
 ---
