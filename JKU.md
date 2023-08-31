@@ -25,6 +25,7 @@
 	- NICHT IMMANENT: Nur Vorlesung
 - [Satzung](https://www.jku.at/fileadmin/gruppen/61/Satzung___Co/Satzung/Studienrecht/2105_Satzungsteil_Studienrecht_V27_2023_05_10_1.pdf)
 - Unterschiedliche Institute pro LVA
+	- Haben Sekretariate an die man sich wenden kann 
 - Richtig anmelden
 	- Ränge: auf Rang 1 wird Anmeldung ersucht, wenn LVA voll dann auf nächsten Rang
 - Zuteilungen
