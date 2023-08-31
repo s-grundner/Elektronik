@@ -24,6 +24,7 @@
 	- IMMANENT: In der LVA werden Übungen abgehalten, Klausuren etc.
 	- NICHT IMMANENT: Nur Vorlesung und der Stoff wird über mehrere LVAs geprüft
 - [Satzung](https://www.jku.at/fileadmin/gruppen/61/Satzung___Co/Satzung/Studienrecht/2105_Satzungsteil_Studienrecht_V27_2023_05_10_1.pdf)
+- Unterschiedliche Institute pro LVA
 - Richtig anmelden  
 - Anmeldemodus  
 - Stundenplan zusammenstellen  
