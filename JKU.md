@@ -7,21 +7,22 @@
 > Peter Brandstetter - Referatsleiter KUSS/MyJKU
 
 - [Lernen](Lernen.md), [Lernpower](Lernpower.md)
+- [3-Runden-Lesestrategie](3-Runden-Lesestrategie.md)
 - [Zeit Management](Zeit%20Management.md)
 
 # Möglichkeiten im Ausland
 
-# KUSS / myJKU
+# [KUSS](https://www.kusss.jku.at/kusss/index.action) / [myJKU](https://my.jku.at/#/home)
 
 - Informationsquellen / [Studienhandbuch](https://studienhandbuch.jku.at/curr/986)
-
-
-Login
-Mindeststudienleistung
-StEOP
-Suchen und Finden
-Richtig anmelden
-Anmeldemodus
-Stundenplan zusammenstellen
-Zuteilungsergebnisse
-Meine LVAs
+- Login
+- [Mindeststudienleistung](https://www.jku.at/studium/studierende/mindeststudienleistung)  
+	- In den ersten 4. Semestern 16 ECTS
+- StEOP  
+	- 
+- Suchen und Finden  
+- Richtig anmelden  
+- Anmeldemodus  
+- Stundenplan zusammenstellen  
+- Zuteilungsergebnisse  
+- Meine LVAs
