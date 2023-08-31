@@ -28,10 +28,9 @@
 - Richtig anmelden
 	- Ränge: auf Rang 1 wird Anmeldung ersucht, wenn LVA voll dann auf nächsten Rang
 - Zuteilungen
-	- Zu
-	- Zuteilung nach Reihenfolge
-	- Direktzuteilung
-- Anmeldemodus  
+	- Zuteilung nach Vorrangzahl: $Platz = 5\cdot \text{Wartebonus}+\text{Teilzeit}+2\cdot \text{Zufallszahl}$
+	- Zuteilung nach Reihenfolge: Zeitpunkt der Anmeldung ist ausschlaggebend, ob man zugeteilt wird
+	- Direktzuteilung: Man ist sofort Zugeteilt
 - Stundenplan zusammenstellen  
 - Zuteilungsergebnisse  
 - Meine LVAs
