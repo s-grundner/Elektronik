@@ -11,7 +11,7 @@ source: ["Martin Aichriedler"]
 
 ### Aufbau eines IPv4-Paketes
 
-![400](../../mess-technik/IPv4.png)
+![400](../assets/IPv4.png)
 
 | Nummer | Segment             | Größe (bit) | Beschreibung / Funktion        |
 | ------ | ------------------- | ----------- | ------------------------------ |
