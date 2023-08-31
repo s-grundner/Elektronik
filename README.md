@@ -1,8 +1,6 @@
 # [Elektronik](https://github.com/s-grundner/Elektronik)
 
-HTBLUVA Salzburg Lehrgang
-
-Evergreen-Skriptum des HEL-Lehrgangs, verfasst im Markdown Editor [Obsidian](https://obsidian.md/)
+Evergreen-Skriptum meines Elektronik-Lehrgangs, verfasst im Markdown Editor [Obsidian](https://obsidian.md/)
 
 ## Skriptum aktualisieren
 

@@ -50,7 +50,7 @@ created: 10th December 2022
 - Zähler entwerfen
 - FlipFlops
 
-### [Transistor](../hwe/Halbleiter/{MOC}%20Transistor.md)als Schalter BSP
+### [Transistor](../hwe/Halbleiter/{MOC}%20Transistor.md) als Schalter BSP
 
 - Berechnungen (Schaltschwellen, Dimensionieren usw. 3. Klasse)
 - [Mosfets](../hwe/Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) (Logische Schaltung mit vielen [MOSFETs](../hwe/Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
@@ -65,9 +65,9 @@ created: 10th December 2022
 - ADC
 - Ext INT
 - Timer INT
-- Serielle [Schnittstelle]({MOC}%20Schnittstellen.md)]
+- Serielle [Schnittstelle]({MOC}%20Schnittstellen.md)
 
-### [Ringbuffer](Ringbuffer.md)]
+### [Ringbuffer](Ringbuffer.md)
 
 ### Zahlensysteme umrechnen
 
