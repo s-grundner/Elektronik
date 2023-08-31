@@ -9,16 +9,20 @@ created: 26th March 2022
 # Differenzialrechnung
 
 ## Ableitungsregeln
+
 ### Faktorregel
+
 ### Summenregel
+
 ### Produktregel
+
 ### Quotientenregel
+
 ### Kettenregel
 
 ## Implizit Differenzieren
 
-
----
 # Tags
-## [L'Hospital](L'Hospital.md)
-## [Linearisieren](Linearisieren)
+
+- [L'Hospital](L'Hospital.md)
+- [Linearisieren](Linearisieren)
