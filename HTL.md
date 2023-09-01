@@ -2,7 +2,7 @@
 
 ```dataview
 TABLE subject, teacher
-WHERE file.name = "{MOT}"
+WHERE file.name / "{MOT}" != 0
 ```
 
 
