@@ -1,6 +1,7 @@
 ---
 tags: ["MOT"]
 teacher: [""]
+subject: [""]
 inst: <% tp.system.prompt("Institut", "") %>
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ---

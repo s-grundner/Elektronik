@@ -1,7 +1,7 @@
 ---
-tags: ["MOT"]
+tags: ["MOT", "RDP"]
 teacher: ["Angela Lindner"]
-subject: [physik]
+subject: ["physik"]
 inst: HTBLuVA Salzburg
 created: 19th August 2022
 ---

@@ -1,6 +1,7 @@
 ---
 tags: ["MOT"]
 teacher: ["Roman Schragl"]
+subject: ["fsst"]
 inst: HTBLuVA Salzburg
 created: 29th November 2022
 ---
