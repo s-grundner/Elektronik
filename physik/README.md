@@ -1,4 +1,4 @@
-# Physik
+# physik
 
 ```dataview
 TABLE tags
