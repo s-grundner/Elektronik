@@ -2,7 +2,7 @@
 
 ```dataview
 TABLE subject, teacher
-WHERE file.name = "README"
+WHERE file.name = "{MOT}"
 ```
 
 

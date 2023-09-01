@@ -1,5 +1,5 @@
 ---
-tags: ["Netzwerke, "]
+tags: ["Netzwerke"]
 aliases: []
 subject: [""]
 source: [""]
