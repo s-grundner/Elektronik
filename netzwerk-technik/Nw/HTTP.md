@@ -47,7 +47,7 @@ Ein Response:
 
 ## Beispiel einer HTTP-Anfrage
 
-Es wird eine Anfrage mittels Browser an einen Web-Server getätigt, die Anfrage wird vom Browser in Form eines HTTP-Requests getätigt. In Folge wird der HTTP-Nachricht ein TCP-Header vorangestellt (TCP-Paket), diesem wiederum ein IP-Header (IP-Datagramm) und letztlich diesem ein Ethernet II-Header. Dieses Paket wird dann gesendet:
+Es wird eine Anfrage mittels Browser an einen Web-Server getätigt, die Anfrage wird vom Browser in Form eines HTTP-Requests getätigt. In Folge wird der HTTP-Nachricht ein TCP-Header vorangestellt (TCP-Paket), diesem wiederum ein IP-Header (IP-Datagramm) und letztlich diesem ein [Ethernet](../Ethernet.md) II-Header. Dieses Paket wird dann gesendet:
 
 ![NW_Schichten_HTTP](assets/NW_Schichten_HTTP.png)
 
@@ -59,7 +59,7 @@ In einem Browser wird der Link
 http://deine-erste-homepage.com/muster1.htm
 ```
 
-aktiviert. Die Aufzeichnung eines Ethernet II-Pakets:
+aktiviert. Die Aufzeichnung eines [Ethernet](../Ethernet.md) II-Pakets:
 
 ```
 3039f21b11c16057183a80090800
@@ -70,9 +70,9 @@ c87a00500f512e9680aaec8d50180201bf410000
 
 In diesem Paket wurden lediglich Zeilenumbrüche eingefügt.
 
-**Ethernet II**
+**[Ethernet](../Ethernet.md) II**
 
-Ethernet-Paket-Header:
+[Ethernet](../Ethernet.md)-Paket-Header:
 
 ```
 30 39 f2 1b 11 c1 60 57 18 3a 80 09 08 00

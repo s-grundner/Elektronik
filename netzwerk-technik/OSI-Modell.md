@@ -75,7 +75,7 @@ Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protok
 - **Transport Layer** OSI-Layer 4 und teilweise 5; Segment bestehend aus Header und Nachricht und 
 - **Application Layer** OSI-Layer 5,6, und 7; Nachricht bestehend aus Header und Daten.
 
-Die niedrigen Schichten beinhalten immer die kompletten oberen Schichten, erweitert um einen Schichtspezifischen Header. Der TCP-Header beinhaltet den Quell-/Ziel-Port, der IP-Header beinhaltet die Quell-/Ziel-IP-Adresse und die beiden Ethernet-Schichten darunter die Quell-/Ziel-MAC-Adressen (Achtung: Bild nicht maßstabgerecht):
+Die niedrigen Schichten beinhalten immer die kompletten oberen Schichten, erweitert um einen Schichtspezifischen Header. Der TCP-Header beinhaltet den Quell-/Ziel-Port, der IP-Header beinhaltet die Quell-/Ziel-IP-Adresse und die beiden [Ethernet](Ethernet.md)-Schichten darunter die Quell-/Ziel-MAC-Adressen (Achtung: Bild nicht maßstabgerecht):
 
 ![](assets/NW_Internetprotokollfam.png)
 
