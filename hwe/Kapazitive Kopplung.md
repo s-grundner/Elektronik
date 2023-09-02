@@ -31,6 +31,6 @@ $$
 > \end{align*}
 > $$
 
-> [!info] Eine [Schirmung](Schirmung.md) hilft gegen kapazitive Kopplung
+> [!INFO] Eine [Schirmung](Schirmung.md) hilft gegen kapazitive Kopplung
 
 # Tags

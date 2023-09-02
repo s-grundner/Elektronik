@@ -16,7 +16,7 @@ created: 17th November 2022
 
 # Parallel [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
-> [!info] Schaltung  
+> [!INFO] Schaltung  
 >![LC-osz](../assets/LC-osz.png)
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
@@ -64,7 +64,7 @@ $$
 > \end{align*}
 > $$
 
-> [!info] Anmerkung  
+> [!INFO] Anmerkung  
 > Sowohl Real, als auch Imaginärteil sind Lösungen der Differentailgleichung  
 > Das erkennt man durch Einsetzen  
 > Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
@@ -150,7 +150,7 @@ Bandbreite: Obere minus untere [Grenzfrequenz](../Grenzfrequenz.md)
 
 # Serien [Schwingkreis](../../mathe/mathe%20(4)/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
-> [!info] Schaltung  
+> [!INFO] Schaltung  
 > ![Pasted image 20221213082043](../assets/Pasted%20image%2020221213082043.png)
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)

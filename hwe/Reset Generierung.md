@@ -20,14 +20,14 @@ created: 31st January 2023
 
 ## Möglichkeiten zur Resetgenerierung
 
-> [!info] Bestimmende Faktoren der Resetdauer
+> [!INFO] Bestimmende Faktoren der Resetdauer
 > - Hochfahren der Systemkomponenten, [Schaltregler](Stromversorgungseinheiten/Schaltnetzteil.md), [PLL](Oszillatoren/Phase%20Locked%20Loop.md)
 > - Pipeline Strukturen im µC
 
 ### Power on Reset (POR)
 
 Reset bei Systemstart
-> [!note] Einfachster Aufbau  
+> [!NOTE] Einfachster Aufbau  
 > ![POR](assets/POR.png)
 
 #### Berechnung der Resetdauer
@@ -47,7 +47,7 @@ Dient zur Vermeidung von Setup/Hold-Time violations beim loslassen des Reset Sig
 
 Synchronisiert das loslassen des Reset Signals auf die Falling edge
 
-> [!note] Setuptime  
+> [!NOTE] Setuptime  
 > Wenn sich ein Signal um die Taktflanke ändert, sollte das Reset Signal nicht die änderung im Latch verhindern.
 > 
 

@@ -43,11 +43,11 @@ $$
 
 ## Multiplikation
 
-> [!important] Größe des Produkts  
+> [!IMPORTANT] Größe des Produkts  
 > ![525](../assets/Matrix_multiplication.png)
 
 
-> [!important] Berechnung der Werte  
+> [!IMPORTANT] Berechnung der Werte  
 > ![400](../assets/Pasted%20image%2020230102212307.png)
 
 

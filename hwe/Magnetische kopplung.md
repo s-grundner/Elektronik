@@ -10,7 +10,7 @@ created: 7th March 2023
 
 Bei der magnetischen Kopplung wird die Störgröße über das magnetische Feld in den Nutzkreis übertragen.
 
-> [!warning] Ursachen für magnetische beeinflussungen sind, die Magnetfelder stromdurchflossener Leiter, welche bei einer Stromänderung Spannungen in benachbarten Leiterschleifen induzieren.
+> [!WARNING] Ursachen für magnetische beeinflussungen sind, die Magnetfelder stromdurchflossener Leiter, welche bei einer Stromänderung Spannungen in benachbarten Leiterschleifen induzieren.
 
 ![1175](assets/magn_kopplung.png)
 
@@ -30,7 +30,7 @@ Die Lastspannung $u_{L}$ erhält durch die magnetisch eingekoppelte Störspannun
 Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsquelle am Nutzkreis.  
 ![700](assets/magn_koppl_modell.png)
 
-> [!info] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.  
+> [!INFO] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.  
 > $u_{stör} = M\cdot \dfrac{di_{stör}}{dt}$
 
 > [!summary] Der Störanteil am Verbrauchereingang: 
@@ -92,11 +92,11 @@ Verringerung der Gegeninduktivität druch:
 - Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
 - Herabsetzen der Flussänderungsgeschwindigkeit 
 
-> [!info] Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
+> [!INFO] Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
 > - Einsatz von Bauelementen mit niedriger Grenzfrequenz
 > - Einsatz von Tiefpassfiltern
 
-> [!info] Herabsetzen der Flussänderungsgeschwindigkeit 
+> [!INFO] Herabsetzen der Flussänderungsgeschwindigkeit 
 > - Ein Kurzschlussring mit ähnlicher magntischer Flussdichte wird zwischen Stör und Nutzkreis 
 
 # Tags

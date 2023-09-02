@@ -10,22 +10,22 @@ created: 31st August 2023
 
 ## Selbst Management
 
-> [!important] Das Lernen und sich selbst Steuern
+> [!IMPORTANT] Das Lernen und sich selbst Steuern
 
-> [!important] Vor Ablenkungen Schützen
+> [!IMPORTANT] Vor Ablenkungen Schützen
 > - Ziele setzen und erreichen 
 > - Prüfungsvorbereitungen planen
 > - Vorhaben umsetzen und kontrollieren
 > - sich zum Lernen überwinden
 > - Arbeitsplatz einrichten
 
-> [!important] Für Pause und Erholung sorgen
+> [!IMPORTANT] Für Pause und Erholung sorgen
 
 ## Exploratives Lernen
 
 ## Aktives Lernen
 
-> [!warning] Nicht gut: An der Vorlesung passiv teilnehemen
+> [!WARNING] Nicht gut: An der Vorlesung passiv teilnehemen
 > - Die Anwesenheit ist nicht das Ziel
 
 Wirkungsvolle Methoden

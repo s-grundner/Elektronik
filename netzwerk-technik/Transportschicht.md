@@ -24,7 +24,7 @@ Die Adressierung erfolgt in der Transportschicht mit [Sockets](Sockets)
 
 ## Protokolle der Transportschicht
 
-> [!note] Was wünschen wir uns von der Flusskontrolle
+> [!NOTE] Was wünschen wir uns von der Flusskontrolle
 > - Garantierte Datenübertragung
 > - Einhaltung der korrekten Reihenfolge
 > - Unterstützung beliebig großer Datenübertragungen

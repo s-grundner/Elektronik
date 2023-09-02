@@ -8,7 +8,7 @@ created: 29th November 2022
 
 Sortieren ist eine grundlegende Technologie der Informatik. Effiziente Sortieralgorithmen werden auch eingesetzt um in großen Datenmengen schneller Suchen zu können.
 
-> [!info] Definitionen:
+> [!INFO] Definitionen:
 > - **Internes Sortieren**: Daten werden in den Arbeitsspeicher (RAM) kopiert. Es kann wahlfrei auf die einzelnen Elemente zugegriffen werden.
 > - **Externes Sortieren**: Daten können nicht in den Arbeitsspeicher kopiert werden (zum Beispiel zu viel). Verarbeitung auf externer Quelle.
 > - **Vergleichendes Sortieren**: Verwendung eines Werts aus der Sortiermenge mit dem beim Sortieren verglichen wird ("Schlüssel").

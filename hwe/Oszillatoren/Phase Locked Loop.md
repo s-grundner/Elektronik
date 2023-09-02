@@ -54,7 +54,7 @@ siehe: [MT-086](../assets/pdf/MT-086.pdf)
 Das rechteck-förmige Ausgangssignal des PD besteht aus einer Vielzahl von Frequenzen.  
 Für den Regelkreis interessant ist jedoch nur sein DC-Anteil. Die übrigen Frequenzanteile werden durch den Loop-Filter eliminiert.
 
-> [!warning] Der Filter hat daher eine Tiefpass-Charakteristik.  
+> [!WARNING] Der Filter hat daher eine Tiefpass-Charakteristik.  
 > Tiefpass 1. Ordnung
 
 # [VCO](Voltage%20Controlled%20Oscillator.md)

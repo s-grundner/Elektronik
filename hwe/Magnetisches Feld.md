@@ -1,33 +1,54 @@
 ---
-tags: [MS-2JG]
-aliases: ["M-Feld", "M-Feldstärke", "Magnetische Feldstärke"]
+tags: ["Microcontroller", "Baugruppen/Oszillator"]
+aliases: ["Schwingquarz", "XTAL", "Crystaloscillator", "Quarz"]
 subject: ["hwe"]
-source: ["Michael Offenhuber"]
-created: 28th November 2022
+source: ["Siegbert Schrempf"]
+created: 17th January 2023
 ---
 
-# Magnetisches Feld
+# Quarzoszillator
 
-> [!info] Ein Magnet feld wird durch einen Strom (gleichmäßig bewegte Ladung) durch einen Leiter erzeugt  
-> ![275](assets/magn_feld_leiter.png)
+> [!INFO] Schwingquarze beruhen auf dem Prinzip des [](../../mess-technik/Piezoelektrik.md#Piezoelektrischer%20Effekt|Piezoelektrischen%20Effekts)  
+> Der Quarz ist daher ein Mechanisches Bauelement 
 
-> [!hint] Rechtsschraubenregel  
-> ![300](assets/Rechtsschrauben_regel.png)
+## Symbol
 
-> [!hint] Umfassungsregel  
-> ![375](assets/Umfassungs_regel.png)
+![500](../assets/quarz.png)
 
-# Magnetische Grundgrößen
+> [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens  
+> ![500](../assets/elek_esb_quarz.png)
 
-| Größe                            | Formel                                               |         Einheit          |
-| -------------------------------- | ---------------------------------------------------- |:------------------------:|
-| magn. Feldstärke                 | $H=\frac{I}{2\pi r}$                                 |     $[\frac{A}{m}]$      |
-| magn. Flussdichte                | $B=\mu \cdot H$                                      | $[\frac{Vs}{m^{2}}],[T]$ |
-| permeablität                     | $\mu$                                                |    $[\frac{Vs}{Am}]$     |
-| magn. Fluss                      | $\Phi=B\cdot A$                                      |       $[Vs],[Wb]$        |
-| Induktivität einer Zylinderspule | $L=N^{2}\cdot \dfrac{\mu_{0}\cdot\mu_{r}\cdot A}{l}$ |          $[H]$           |
-| Induzierte Spannung              | $u = L\cdot \frac{di}{dt}$                           |          $[V]$           |
+![400](../assets/quarz_mechschwing.png)
 
-# Quellen
+$L_{1}\dots$ Serien-[Induktivität](../Induktivitäten.md) (das Schwingen der Masse des Resonators)
 
- 
+$C_{1}\dots$ Serien-[Kapazität](../Kapazität.md) (Elektrizitätskonstante des Quarzes)
+
+$R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere Reibung/mechanische Verluste)
+
+$C_{0}\dots$ Streukapazität der Elektroden
+
+## [Ableitung](../../mathe/mathe%20(3)/Differenzialrechnung.md) der Resonanzfrequenz
+
+$R_{1}$ vernachlässigbar
+
+> [!NOTE] $s=\sigma+j\omega$
+
+$$
+\begin{align*}
+Z_{1} &= \frac{1}{sC_{1}}+sL_{1}= \frac{1+s^{2}L_{1}C_{1}}{sC1}\\
+Z_{2} &= \frac{1}{sC_{0}}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+Z_{g} &=\frac{1+s^{2}L_{1}C_{1}}{s(C_{0}+C_{1})+s^{2}C_{0}C_{1}L_{1}} = \frac{Z(s)}{N(s)} \rightarrow \frac{=0 \text{ bei Reihenresonanz}}{=0\text{ bei Parallelresonanz}}\\
+\end{align*}
+$$
+
+## Bauteileigenschaften
+
+# Tags
+
+[ST Application Note](https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf)

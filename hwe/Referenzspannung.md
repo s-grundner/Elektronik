@@ -61,7 +61,7 @@ Mit der folgenden [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) lässt sic
 |    4    | $$\begin{align*}\frac{dU_{ref}}{dT} &= 0\\U_{ref}&=U_{g2}+D_{T}\cdot T + U_{Ptat}\\\rightarrow \frac{dU_{ref}}{dT} &= D_{T} + \frac{k}{e}\cdot\ln(\frac{R_{C1}}{R_{C2}})\cdot \frac{R_{2}}{R_{1}}\cdot(1+\frac{R_{C1}}{R_{C2}})\end{align*}$$                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
 
-> [!info] Eine Günstige Annahme bei der Dimensionierung: $R_{C1} = 10\cdot R_{C2}$
+> [!INFO] Eine Günstige Annahme bei der Dimensionierung: $R_{C1} = 10\cdot R_{C2}$
 
 Es erfolgt eine Dimensionierung der Widerstände, sodass:
 $$

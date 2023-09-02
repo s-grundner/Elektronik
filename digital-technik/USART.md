@@ -47,7 +47,7 @@ void usart_init(void)
 > Verwende dazu die passende Interrupt Service Routine.  
 > Erstelle die komplette SW, das heißt die `main()` Routine und die Interrupt Service Routine.
 
-> [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()`aufrufen.
+> [!WARNING] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()`aufrufen.
 
 ```c
 #include <avr/io.h>
@@ -92,9 +92,9 @@ void usart_init(void)
 > Achtung, verwende dazu die Funktion: `ISR(USART0_UDRE_vect)`  
 > Erstelle die komplette SW, das heißt die `main()` Routine und die Interrupt Service Routine.
 
-> [!warning] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()` aufrufen.
+> [!WARNING] Die obige Funktion muss nicht mehr hingeschrieben werden, man kann sie einfach mit `usart_init()` aufrufen.
 
-> [!warning] Ein [Ringbuffer](Ringbuffer.md) ist nicht notwendig!
+> [!WARNING] Ein [Ringbuffer](Ringbuffer.md) ist nicht notwendig!
 
 ```c
 static char *message = "Hallo ich lebe";

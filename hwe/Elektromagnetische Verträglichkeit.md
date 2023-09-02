@@ -12,7 +12,7 @@ Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes ode
 
 ![700](assets/EMV-einfluesse.png)
 
-> [!info] EMV ist eine horizontale Disziplin  
+> [!INFO] EMV ist eine horizontale Disziplin  
 > … die sich durch alle Bereiche der Elektrotechnik zieht.
 > 
 > ![600](assets/EMV-horiz.png)

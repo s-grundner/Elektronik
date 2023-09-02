@@ -8,7 +8,7 @@ created: 1st March 2023
 
 # Telegraphengleichung
 
-> [!note] Telegraphengleichung  
+> [!NOTE] Telegraphengleichung  
 > Als Lösung der Telegraphengleichung ergibt sich die Überlagerung gegenläufiger, exponentiell gedämpfter Spannungswellen
 > - $U_{h}$ = Amplitude der hinlaufenden Welle
 > - $U_{r}$ = Amplitude der rücklaufenden Welle

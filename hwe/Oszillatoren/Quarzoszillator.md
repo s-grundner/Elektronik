@@ -8,7 +8,7 @@ created: 17th January 2023
 
 # Quarzoszillator
 
-> [!info] Schwingquarze beruhen auf dem Prinzip des [](../../mess-technik/Piezoelektrik.md#Piezoelektrischer%20Effekt|Piezoelektrischen%20Effekts)  
+> [!INFO] Schwingquarze beruhen auf dem Prinzip des [](../../mess-technik/Piezoelektrik.md#Piezoelektrischer%20Effekt|Piezoelektrischen%20Effekts)  
 > Der Quarz ist daher ein Mechanisches Bauelement 
 
 ## Symbol
@@ -32,7 +32,7 @@ $C_{0}\dots$ Streukapazität der Elektroden
 
 $R_{1}$ vernachlässigbar
 
-> [!note] $s=\sigma+j\omega$
+> [!NOTE] $s=\sigma+j\omega$
 
 $$
 \begin{align*}

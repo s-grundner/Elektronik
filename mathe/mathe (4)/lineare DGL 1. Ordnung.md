@@ -26,7 +26,7 @@ $$
 y'+\underbrace{p}_{\text{Koeffizient}} \cdot y=\underbrace{s(x)}_{\text{Störterm}}
 $$
 
-> [!warning] Ist der konstante Koeffizient $p$ positiv, so klingt die Lösung exponentiell ab, sie ist "flüchtig". 
+> [!WARNING] Ist der konstante Koeffizient $p$ positiv, so klingt die Lösung exponentiell ab, sie ist "flüchtig". 
 
 > [!example] Bsp.:  
 > $y'+x^{2}\cdot y=0\rightarrow$ **homogene lineare** [DGL]({MOC}%20DGL.md) 1. Ordnung mit **nicht konstantem** Koeffizienten  

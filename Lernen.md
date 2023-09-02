@@ -6,7 +6,7 @@ Siehe: [Lernpower](Lernpower.md)
 
 > Anita Kneil - psychologische studierende Beratung
 
-> [!important] Wichtig beim lernen
+> [!IMPORTANT] Wichtig beim lernen
 > - max 6 stunden Effizient Lernen
 > - Qualtität wichtiger als quantität
 
@@ -17,7 +17,7 @@ Siehe: [Lernpower](Lernpower.md)
 | Bsp. Liedtexte                                                         |     | Bsp. Stoff and der Uni |
 
 
-> [!info] Lerndrehbuch
+> [!INFO] Lerndrehbuch
 > 
 > ![500](assets/Pasted%20image%2020230831132836.png)
 > 

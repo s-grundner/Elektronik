@@ -62,7 +62,7 @@ int main(int argc, char const *argv[])
 }
 ```
 
-> [!note] Output: 32 - 8 - 45 -
+> [!NOTE] Output: 32 - 8 - 45 -
 
 ---
 

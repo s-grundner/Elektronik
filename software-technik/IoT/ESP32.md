@@ -53,10 +53,10 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
     "0x2c000" : "customized_partitions/client_key.bin"
 },
 ```
-> [!info] Den Flasher-Arguments entsprechend, müssen die Pfade sowie deren Offset in das Flash-Download-Tool eingetragen werden.  
+> [!INFO] Den Flasher-Arguments entsprechend, müssen die Pfade sowie deren Offset in das Flash-Download-Tool eingetragen werden.  
 > ![](assets/Pasted%20image%2020230818003454.png)
 
-> [!info] Auch die [SPI](../../digital-technik/SPI.md) Flash Konfigurationen werden aus den Flasher Arguments entsprechend übernommen:
+> [!INFO] Auch die [SPI](../../digital-technik/SPI.md) Flash Konfigurationen werden aus den Flasher Arguments entsprechend übernommen:
 > ```json
 >"flash_settings" : {
 >	"flash_mode": "dio",
@@ -66,7 +66,7 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
 >```
 >![](assets/Pasted%20image%2020230818003644.png)
 
-> [!info] Nun muss nur noch der richtige COM-Port selektiert werden und „Start“ ausgeführt werden.  
+> [!INFO] Nun muss nur noch der richtige COM-Port selektiert werden und „Start“ ausgeführt werden.  
 > ![](assets/Pasted%20image%2020230818003709.png)
 
 > [!success] Der Bootloader sollte nun erfolgreich auf den ESP32 gebrannt worden sein

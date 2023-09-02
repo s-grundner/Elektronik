@@ -27,7 +27,7 @@ Hochfrequenter Teil
 
 ## 3. Zu versorgende Schaltung
 
-> [!note] Es wird oft Analoge und Digitale Masse **Sternförmig** an die Masse des Netzteils geführt
+> [!NOTE] Es wird oft Analoge und Digitale Masse **Sternförmig** an die Masse des Netzteils geführt
 
 # Eigenschaften
 

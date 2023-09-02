@@ -235,7 +235,7 @@ $$
 \end{align*}
 $$
 
-> [!note] Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung.md) ermittelt.
+> [!NOTE] Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung.md) ermittelt.
 
 $$
 \begin{align*}

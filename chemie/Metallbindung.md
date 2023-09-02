@@ -21,7 +21,7 @@ Aus Gitteraufbau folgt:
 - sind duktil (mechanisch verformbar) $\rightarrow$ Gitterebenen gleiten übereinander
 - bilden **Legierungen** (Atome im Metallgitter können ausgetauscht werden)
 
->[!note] Legierung  
+>[!NOTE] Legierung  
 Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
 
 ---

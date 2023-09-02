@@ -51,7 +51,7 @@ Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehrer
 
 ## Piezoelektrischer Effekt
 
->[!info] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische Ladungen aus.
+>[!INFO] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische Ladungen aus.
 
 
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  

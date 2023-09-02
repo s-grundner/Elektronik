@@ -46,7 +46,7 @@ Eine [](Zufallsvariable.md#Stetige%20Zufallsvariablen|stetige%20Zufallsvariable)
 ## Näherung der [Binomialverteilung](Binomialverteilung.md)
 
 Wenn bei einer [Binomialverteilung](Binomialverteilung.md) $\sigma^{2}n\cdot p>9$ ist, kann man sie durch eine Normalverteilung annähern.
-> [!warning] Mit Taschenrechner nicht mehr nötig
+> [!WARNING] Mit Taschenrechner nicht mehr nötig
 
 ## Verteilung von Stichprobenkennwerte
 
@@ -70,7 +70,7 @@ Sei $X$ eine [Zufallsvariable](Zufallsvariable.md) für einen Merkmalswert eines
 
 Wenn $\sigma$ bekannt ist (z.B. aus langjähriger Erfahrung) und eine [Zufallsvariable](Zufallsvariable.md) $X\sim N(\mu;\sigma^{2})$, dann ist die Stichprobe $\overline{X}\sim N(\mu; \frac{\sigma^{2}}{n})$.  
 $\mu$ muss "in der Nähe" von $\overline{X}$ liegen.
-> [!important] Wir akzeptieren dabei eine Irrtumswahrscheinlichkeit $\alpha$  
+> [!IMPORTANT] Wir akzeptieren dabei eine Irrtumswahrscheinlichkeit $\alpha$  
 > $\rightarrow (1-\alpha)$ … Vertrauungsbereich
 
 | [Erwartungswert](Erwartungswert.md) | Stichprobe                                                  | Vertrauensbereich |

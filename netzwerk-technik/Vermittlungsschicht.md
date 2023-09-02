@@ -54,7 +54,7 @@ Auch VPN-[Gateways](Gateway.md) (Virtual Private Network) können auf der Vermit
 
 ## Protokolle der Vermittlungsschicht
 
-> [!note] Dienen zur Weiterleitung und Weg Bestimmung
+> [!NOTE] Dienen zur Weiterleitung und Weg Bestimmung
 > - Distanz Vector-Routing-Protokolle
 > - Link-State-RoutingProtokolle
 
@@ -65,7 +65,7 @@ Auch VPN-[Gateways](Gateway.md) (Virtual Private Network) können auf der Vermit
 	- IP läuft üblich über mehrere Zwischenstationen.
 	- Ein IP-Datagramm besteht aus einem Header (Version (IPv4…), Protokoll, Typ, Src-/Dst-Adressen, Checksumme, Länge …) und einem Datenblock mit maximaler Länge (TCP liegt komplett im Datenblock).
 
-> [!warning] Diese Schicht ist nicht für Anwendungen zugänglich. Zum Senden eines IP muss die MAC-Adresse bekannt sein, Die Schicht unter dieser Schicht verwendet ARP um diese MAC-Adressen zu ermitteln.
+> [!WARNING] Diese Schicht ist nicht für Anwendungen zugänglich. Zum Senden eines IP muss die MAC-Adresse bekannt sein, Die Schicht unter dieser Schicht verwendet ARP um diese MAC-Adressen zu ermitteln.
 
 1. **ICMP**	Internet Control Message Protocol: Austausch von Kontroll-/Fehlerpaketen. Ist Teil des IP. (ping verwendet Echo-Requests auf ICMP)
 

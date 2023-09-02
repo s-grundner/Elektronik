@@ -48,7 +48,7 @@ $\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$
 | 2. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q=0$ | $\lambda_{1}=\lambda_{2}=\lambda_0$ (reelle Doppellösung)                                    | $y_{h}=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}$                                             |
 | 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ (2 konjugiert [komplexe](Komplexe%20Zahlen.md) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
 
-> [!note] $C_{1}$ und $C_{2}$ werden durch die Anfangsbedingung festgelegt
+> [!NOTE] $C_{1}$ und $C_{2}$ werden durch die Anfangsbedingung festgelegt
 
 #### 1. Fall: Eindeutige Lösung
 
@@ -58,7 +58,7 @@ $\left.\begin{align*}y_{h1}&=C_{1}\cdot e^{\lambda_{1}x}\\y_{h2}&=C_{2}\cdot e^{
 
 $\begin{align*} \lambda_{1}&=\lambda_{2}=- \frac{p}{2} \\ y_{h}&=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}\end{align*}$
 
-> [!warning] ergibt nur eine Lösung … es fehlt also etwas  
+> [!WARNING] ergibt nur eine Lösung … es fehlt also etwas  
 > ![Pasted image 20220601193117](Pasted%20image%2020220601193117.png)
 
 #### 3. Fall: konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen
@@ -69,7 +69,7 @@ $\lambda_{2}=a-jb$
 $a = \sigma = -\frac{p}{2}$  
 $b = \omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
 
-> [!note] Man schreibt $\sigma$ statt $a$ und $\omega$ statt $b$.
+> [!NOTE] Man schreibt $\sigma$ statt $a$ und $\omega$ statt $b$.
 
 ---
 

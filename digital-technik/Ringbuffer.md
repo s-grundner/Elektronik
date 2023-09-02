@@ -40,7 +40,7 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 > - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0`  
 > ![RB4](assets/RB4.png)
 
-> [!warning] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe  
+> [!WARNING] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe  
 > Es muss eine Stelle im Puffer geben, bei der der Write Pointer stehenbleibt, diese 
 
 ## AVR Example

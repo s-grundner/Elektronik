@@ -14,7 +14,7 @@ created: 3rd January 2023
 - Als Buffer sollte ein weiteres Gatter hinter dem Oszillator nachgeschaltet werden.
 - Nachschalten eines T-FF zur Taktsymmetrierung.
 
-> [!warning] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):  
+> [!WARNING] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):  
 > ![500](../assets/Kippschalter-slew.png)
 
 # [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltung
