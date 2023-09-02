@@ -38,7 +38,7 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 
 # Komponenten und Konzepte zur Verbesserung
 
-> [!info] Von Leistungselektronik bis Mikroelektronik gibt es eine große breite, und in der technischen Umsetzung sehr unterschiedliche, Maßnahmen.
+> [!INFO] Von Leistungselektronik bis Mikroelektronik gibt es eine große breite, und in der technischen Umsetzung sehr unterschiedliche, Maßnahmen.
 > 
 > ![400](assets/EMV-horiz2.png)
 > 

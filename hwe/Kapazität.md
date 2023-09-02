@@ -28,7 +28,7 @@ f_{0} &= \frac{1}{2\pi}\cdot \frac{1}{\sqrt{LC}}
 \end{align*}
 $$
 
-> [!info] Wertebereich von der Bauform abhängig  
+> [!INFO] Wertebereich von der Bauform abhängig  
 > $C\approx1nF$  
 > $L\approx1\mu H$  
 > $R_{ESR}\approx0.1\Omega$

@@ -61,7 +61,7 @@ const int mydata[] PROGMEM = ...
 
 ### Examples
 
-> [!info] Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
+> [!INFO] Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
 > - Bei 1 mW/cm² misst man 0,1 V
 > - bei 10 mW/cm² 4 V.
 > 
@@ -153,7 +153,7 @@ int main()
 
 #### Example
 
-> [!info] Fast-PWM
+> [!INFO] Fast-PWM
 > - Timer2 8-Bit breit, zählt von 0-255
 > - fast pwm mode (non inverting)
 > 	- Bei OC2A = 0 -> Pin High

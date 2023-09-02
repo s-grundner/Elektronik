@@ -18,36 +18,36 @@ created: 28th March 2022
 
 ## Aufbau
 
-![lwl_aufbau](../assets/lwl_aufbau.png)
+![lwl_aufbau](assets/lwl_aufbau.png)
 
 ## Arten
 
 ### 1. Monomode Faser
 
->![monomode_faser](../assets/monomode_faser.png)
+>![monomode_faser](assets/monomode_faser.png)
 
 ### 2. Multimode Faser
 
 #### 1. Stufenprofil
 
->![multimode_stufenp](../assets/multimode_stufenp.png)
+>![multimode_stufenp](assets/multimode_stufenp.png)
 
 #### 1. Gradientenprofil
 
->![multimode_gradienten_p](../assets/multimode_gradienten_p.png)
+>![multimode_gradienten_p](assets/multimode_gradienten_p.png)
 
 Jede weitere Ausbreitungsmöglichkeit des Lichtes im Kern wird als **Mode** Bezeichnet  
 Die Fortplanzung der Lichtwelle, die im Leiter durch das Material mit unterschiedlichen Brechungsindizes strahlt, wird mit dem [Brechungsgesetz](../../physik/Snelliussches%20Brechungsgesetz.md) bestimmt.
 
 ## Kenngrößen (Stufenindexfaser)
 
-![Optic_fibre-numerical_aperture_diagram.svg](../assets/Optic_fibre-numerical_aperture_diagram.svg.png) 
+![Optic_fibre-numerical_aperture_diagram.svg](assets/Optic_fibre-numerical_aperture_diagram.svg.png) 
 
 ### 1. Lichtgeschwintigkeit in einer Mode
 
 ### 2. Akzeptanzwinkel $\theta_{max}$
 
- ![Optical-fibre.svg](../assets/Optical-fibre.svg.png)
+ ![Optical-fibre.svg](assets/Optical-fibre.svg.png)
 
 #### Totalreflexion
 

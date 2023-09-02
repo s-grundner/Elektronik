@@ -23,10 +23,10 @@ $$
 
 Es gilt: $\vec{S} = S(r,\vartheta,\varphi)\vec{e_{r}}$
 
-![Ant_Richtwirkung_iso](../assets/Ant_Richtwirkung_iso.png)
+![Ant_Richtwirkung_iso](assets/Ant_Richtwirkung_iso.png)
 
-> [!info] Der isotrope Kugelstrahler ist technisch nicht realisierbar (Zuführung der Antennenleitung), dient aber bei den Antennenkenngrößen als wichtigste Bezugsgröße.
+> [!INFO] Der isotrope Kugelstrahler ist technisch nicht realisierbar (Zuführung der Antennenleitung), dient aber bei den Antennenkenngrößen als wichtigste Bezugsgröße.
 
 # Quellen
 
-![Gustrau](../assets/Gustrau.pdf)
+![Gustrau](assets/Gustrau.pdf)

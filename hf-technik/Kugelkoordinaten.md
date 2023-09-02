@@ -18,8 +18,8 @@ z &=& r \cdot \cos \theta
 \end{array}
 $$
 
->[!info] $r,\theta,\varphi$ eines Punktes $P$ und kartesisches Koordinatensystem mit den Achsen $x,y,z$  
->![450](../assets/kugelkoordinaten.png)
+>[!INFO] $r,\theta,\varphi$ eines Punktes $P$ und kartesisches Koordinatensystem mit den Achsen $x,y,z$  
+>![450](assets/kugelkoordinaten.png)
 
 ## Anwendungen
 

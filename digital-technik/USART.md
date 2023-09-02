@@ -40,7 +40,7 @@ void usart_init(void)
 }
 ```
 
-> [!info] LED mit USART Steuern  
+> [!INFO] LED mit USART Steuern  
 > Unter Verwendung der obigen Funktion, schreib ein Programm,  
 > welches bei der Eingabe über die serielle Schnittstelle bei `'e'` `PD7` auf _high_ setzt und bei `'a'` auf _low_.
 > 
@@ -86,7 +86,7 @@ void usart_init(void)
 }
 ```
 
-> [!info] String via UART Senden  
+> [!INFO] String via UART Senden  
 > Unter Verwendung der obigen Funktion, schreibe ein Programm, welches den Text `„Hallo ich lebe“` einmal beim Einschalten auf die Serielle  
 > Schnittstelle schickt.  
 > Achtung, verwende dazu die Funktion: `ISR(USART0_UDRE_vect)`  

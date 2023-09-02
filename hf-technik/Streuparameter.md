@@ -20,7 +20,7 @@ created: 28th September 2022
 
 Ausgehend von der **[Impedanz](../../hwe/Impedanz.md)** $Z_\nu$ des **Messsystems** am Tor $\nu$ lassen sich die beiden Darstellungen nach folgenden Gleichungen, welche auch als **[Heaviside-Transformation](../../mathe/mathe%20(4)/Einheitssprungfunktion.md)** bezeichnet wird, in Bezug setzen (Wir setzen im Folgenden voraus, dass $Z_0$ positiv reell ist):
 
-![Eintor](../assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$  
+![Eintor](assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$  
 *Die Einheit der Streuparameter ist $\sqrt{W}$*
 
 und durch Umkehrung der Beziehungen:  
@@ -74,7 +74,7 @@ Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Zweitor](Zw
 - ==$b_{1}$== ist die vom Eingang (==Tor 1==) auslaufende Welle
 - ==$b_{2}$== ist die vom Ausgang (==Tor 2==) auslaufende Welle
   
-![MGL-Zweitor](../assets/MGL-Zweitor.png)
+![MGL-Zweitor](assets/MGL-Zweitor.png)
 
 $$
 \begin{pmatrix}
@@ -94,7 +94,7 @@ $$
 
 ### Darstellung der S-Parameter an einem [Zweitor](Zweitor.md)
 
-![Zweitor](../assets/Zweitor.png)
+![Zweitor](assets/Zweitor.png)
 
 ### Bedeutung der S-Parameter
 

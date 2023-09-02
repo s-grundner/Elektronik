@@ -8,7 +8,7 @@ created: 21st August 2022
 
 # Elektrochemie
 
-> [!info] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
+> [!INFO] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
 >Bei Kontakt unterschiedlicher Metalle mit einer Elektrolytlösung entsteht elektrische Spannung.  
 >Elektrolyte (oder elektrische Leiter 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
 >$\rightarrow$ sind Leitfähig
@@ -37,7 +37,6 @@ Die durch die Elektrolyte geflossene Ladung $Q$ (Elektrizitätsmenge) ist das Pr
 $Q=I\cdot t$  
 Faraday Konstante: $F = 96485 \frac{As}{mol}$
 
-
 > [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige Ladung  
 Wie viel Ladung benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
 $Cu^{2+} + 2e^{-}\longrightarrow Cu\downarrow$
@@ -48,10 +47,6 @@ $n = 15.78mol$
 ---
 $Q = 15.78mol\cdot F \cdot 2$  
 **$Q = 3.03\cdot 10^{3}As$**
-
-
-
-
 
 > [!EXAMPLE] Berechnung der bei einer Elektrolyse abgeschiedenen Masse  
 Wie viel Silber (Ag) kann ein Strom von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
@@ -65,9 +60,6 @@ $n=2.072\cdot10^{-3}mol$
 $107g\dots 1mol$  
 $m\ g\dots 2.072\cdot10^{-3}$  
 **$m = 0.2235g$**
-
-
-
 
 > [!EXAMPLE] Berechnung der für eine Elektrolyse erforderlichen Stromstärke  
 Welche Stromstärke benötigt man wenn man aus einer Silbersalzlösung in 30min 54g Ag abscheiden will?  

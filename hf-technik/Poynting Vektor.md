@@ -14,6 +14,6 @@ Der Begriff des Energieflusses ist identisch mit dem physikalischen Begriff der 
 
 ## Beim Koaxialleiter
 
-![poynting](../assets/poynting.png)
+![poynting](assets/poynting.png)
 
 # Quellen

@@ -6,7 +6,7 @@ created: 19th August 2023
 
 # Abblockkondensator
 
-> [!info] Resonanzverlauf  
+> [!INFO] Resonanzverlauf  
 > ![500](assets/EMV_impedanz.png)
 
 

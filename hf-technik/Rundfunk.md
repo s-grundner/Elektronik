@@ -9,7 +9,7 @@ created: 21st June 2022
 # Rundfunk
 
 Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.  
-![500](../hf-technik/assets/RadioBands.png)
+![500](assets/RadioBands.png)
 
 ## Radiowellen
 
@@ -39,7 +39,7 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 
 # Tags
 
->[!info] Fragen zur [Matura](../chemie/{MOT}%20Matura.md)
+>[!INFO] Fragen zur [Matura](../chemie/{MOT}%20Matura.md)
 > - EM-Spektrum – Frequenzbereich von Radiowellen
 >- FM4 – 104 MHz, so ist das im Spektrum der [EM-Wellen](Elektromagnetische%20Wellen.md) einzuordnen
 > - Zusammenhang: Frequenz, Wellenlänge, [Antenne](Antenne.md), Sender - [Schwingkreis](Schwingkreise.md)

@@ -22,9 +22,9 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../../physik/Elektro
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
 >[!summary] Sende- & Empfangsfall  
->![](../assets/ant_sende_empf.png)
+>![](assets/ant_sende_empf.png)
 
-> [!info] Der Sendeund Empfangsfall sind [reziprok](Reziprozität.md).
+> [!INFO] Der Sendeund Empfangsfall sind [reziprok](Reziprozität.md).
 
 #### Feldkomponenten $\vec{E}$ und $\vec{H}$
 
@@ -44,7 +44,7 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 
 
 >[!summary] Feldzonen  
->![Ant_feldzonen](../assets/Ant_feldzonen.png)
+>![Ant_feldzonen](assets/Ant_feldzonen.png)
 
 #### Vereinfachungen beim Übergang vom Nahins Fernfeld:
 
@@ -63,7 +63,7 @@ Feldabstand bei:
 
 #### Richtcharakteristik $C_{i}$
 
-![richtc_graph](../assets/richtc_graph.png)
+![richtc_graph](assets/richtc_graph.png)
 
 #### Richtfunktion $D$
 
@@ -90,4 +90,4 @@ Feldabstand bei:
 
 Quadratur Amplituden [Modulation](../Modulation.md) ([QAM](Quadratur%20Amplituden%20Modulation.md))
 
-![Gustrau](../assets/Gustrau.pdf)
+![Gustrau](assets/Gustrau.pdf)

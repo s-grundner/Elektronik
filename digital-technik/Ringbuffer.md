@@ -15,11 +15,11 @@ indem die zu übertragenden Daten nacheinander in einem Array geschrieben werden
 
 Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
-> [!info] `p_write` zeigt auf die Stelle im Buffer, auf die als nächstes geschrieben wird
+> [!INFO] `p_write` zeigt auf die Stelle im Buffer, auf die als nächstes geschrieben wird
 > - Wenn geschrieben wird. bewegt er sich auf die nächste Stelle
 > - Ist er am Ende des Ringbuffers, kehrt er auf die Anfangspoition zurück
 
-> [!info] `p_read` zeigt auf die Stelle im Buffer, von der als nächstes gelesen werden soll
+> [!INFO] `p_read` zeigt auf die Stelle im Buffer, von der als nächstes gelesen werden soll
 > - Wenn gelesen wird. bewegt er sich auf die nächste Stelle
 > - Ist er am Ende des Ringbuffers, kehrt er auf die Anfangspoition zurück
 
