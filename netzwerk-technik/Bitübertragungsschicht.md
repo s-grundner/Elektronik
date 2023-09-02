@@ -24,6 +24,6 @@ source: ["Martin Aichriedler, Christian Baun"]
 
 [Foliensätze](http://www.christianbaun.de/Netzwerke1718/index_de.html)
 
-![2-FS_ComputerNetze](../assets/Christian-Baun/2-FS_ComputerNetze.pdf)
+![2-FS_ComputerNetze](assets/Christian-Baun/2-FS_ComputerNetze.pdf)
 
-![3-FS_ComputerNetze](../assets/Christian-Baun/3-FS_ComputerNetze.pdf)
+![3-FS_ComputerNetze](assets/Christian-Baun/3-FS_ComputerNetze.pdf)

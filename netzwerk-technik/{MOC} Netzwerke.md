@@ -1,8 +1,14 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Networks", "Networking"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+  - MOC
+aliases:
+  - Networks
+  - Networking
+subject:
+  - ksn
+source:
+  - Martin Aichriedler
 ---
 
 # Map of Content - Netzwerke

@@ -1,8 +1,11 @@
 ---
 tags: []
-aliases: []
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+aliases:
+  - Polarkoordinaten
+subject:
+  - ksn
+source:
+  - Martin Aichriedler
 created: 24th November 2022
 ---
 

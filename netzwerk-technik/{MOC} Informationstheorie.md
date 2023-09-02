@@ -1,8 +1,12 @@
 ---
-tags: []
-aliases: ["Informationstheorie"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - MOC
+aliases:
+  - Informationstheorie
+subject:
+  - ksn
+source:
+  - Martin Aichriedler
 ---
 
 # Map of Content - Informationstheorie

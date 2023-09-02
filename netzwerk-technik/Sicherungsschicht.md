@@ -31,8 +31,8 @@ created: 4th April 2022
 
 # Tags
 
-![4-FS_ComputerNetze](../assets/Christian-Baun/4-FS_ComputerNetze.pdf)
+![4-FS_ComputerNetze](assets/Christian-Baun/4-FS_ComputerNetze.pdf)
 
-![5-FS_ComputerNetze](../assets/Christian-Baun/5-FS_ComputerNetze.pdf)
+![5-FS_ComputerNetze](assets/Christian-Baun/5-FS_ComputerNetze.pdf)
 
-![6-FS_ComputerNetze](../assets/Christian-Baun/6-FS_ComputerNetze.pdf)
+![6-FS_ComputerNetze](assets/Christian-Baun/6-FS_ComputerNetze.pdf)

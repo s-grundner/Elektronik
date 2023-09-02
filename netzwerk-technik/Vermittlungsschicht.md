@@ -81,5 +81,5 @@ Auch VPN-[Gateways](Gateway.md) (Virtual Private Network) können auf der Vermit
 
 ## [Christian Baun](http://www.christianbaun.de/)
 
-![7-FS_ComputerNetze](../assets/Christian-Baun/7-FS_ComputerNetze.pdf)  
-![8-FS_ComputerNetze](../assets/Christian-Baun/8-FS_ComputerNetze.pdf)
+![7-FS_ComputerNetze](assets/Christian-Baun/7-FS_ComputerNetze.pdf)  
+![8-FS_ComputerNetze](assets/Christian-Baun/8-FS_ComputerNetze.pdf)

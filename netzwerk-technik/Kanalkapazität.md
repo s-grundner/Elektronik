@@ -27,4 +27,4 @@ Gilt als absolute Obergrenze für die Leistungsfähigkeit eines Nachrichtenkanal
 | $P_{s}$    | Signalleistung |
 | $P_{n}$    | Rauschleistung |
 
-![400](../assets/Nachrichtenquader-Sprachübertragung.svg.png)
+![400](assets/Nachrichtenquader-Sprachübertragung.svg.png)
