@@ -25,7 +25,7 @@ $^{2}_{1}D + ^{3}_{1}T\longrightarrow ^{4}_{2}He + ^{1}_{0}n$
 - Schließlich verschmelzen zwei Helium-3-Kerne zu Helium-4, wobei zwei Protonen (Wasserstoffkerne) entstehen und wiederum Energie frei wird.
 
 **Sonne:** $15MK$ / $10^{16}Pa$ / $3.8\cdot 10^{26}\dfrac{J}{s}$
-> [!example] 1mol $D-T$ wird zu 1mol $He$ umgewandelt. W.v. Energie wird dabei frei?  
+> [!EXAMPLE] 1mol $D-T$ wird zu 1mol $He$ umgewandelt. W.v. Energie wird dabei frei?  
 > $\underbrace{^{2.1402u}_{1}D+^{3.016058u}_{1}T}_{5.03007u}\longrightarrow \underbrace{^{4.00260u}_{2}He + ^{1.00866u}_{0}n}_{5.01126u}$  
 > Massendefekt: $\Delta m = 5.03007u - 5.01126u = 0.01881u$  
 > $E = \Delta m\cdot c^{2}$  

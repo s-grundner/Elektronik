@@ -15,7 +15,7 @@ created: 21st November 2022
 - $f(x)$ und $g(x)$ müssen getrennt differenziert werden.
 - die Regel von *L'Hospital* kann mehrmals hintereinander angeordnet werden. 
 
-> [!example] Beispiel:  
+> [!EXAMPLE] Beispiel:  
 > $$\lim_{x\rightarrow\infty} \frac{\sin(x)}{x}=\lim_{x\rightarrow\infty} \frac{\cos(x)}{1}=1$$
 
 > [!IMPORTANT] Jede Exponentialfunktion geht schneller gegen $\infty$ als jede Potenzfunktion, daher:

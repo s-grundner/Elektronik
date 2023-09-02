@@ -20,7 +20,7 @@ G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
 $$
 $M_{x}\rightarrow [0;1]$
 
->[!example] [Erwartungswert](Erwartungswert.md) von 2 Würfeln  
+>[!EXAMPLE] [Erwartungswert](Erwartungswert.md) von 2 Würfeln  
 > ![erw_wert_zfv](../assets/erw_wert_zfv.png)
 
 # Tags

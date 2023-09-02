@@ -62,6 +62,6 @@ created: 23rd November 2022
 
 # Übungen
 
-> [!example] Lindner Elektroaufgaben Band 3
+> [!EXAMPLE] Lindner Elektroaufgaben Band 3
 
 # Tags

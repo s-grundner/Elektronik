@@ -62,7 +62,7 @@ Chemische Reaktionen mit $e^{-}$ Übertragungen (Oxidation und Reduktion laufen 
 
 Ob ein Stoff ein Oxidationsoder Reduktionsmittel, hängt von der Stellung im [PSE](Periodensystem%20der%20Elemente.md) ab und zwar von der [](Periodensystem%20der%20Elemente.md#Elektronegativität%20EN|Elektronegativität%20(EN)).
 
-> [!example] Reduktion von $CuO$ mit $H_{2}$
+> [!EXAMPLE] Reduktion von $CuO$ mit $H_{2}$
 > $$\begin{align*}
 > H_{2} &\longrightarrow H_{2}^{+2} + 2e^{-}\\
 > H_{2}^{+2} + CuO + 2e^{-} &\longrightarrow H_{2}^{+2}O^{-2} + Cu^{+2} + 2e^{-}\\
@@ -99,7 +99,7 @@ $$
 6. Wasserstoff: <mark style="background: #FF5582A6;">+1</mark>
 7. Sauerstoff: <mark style="background: #ADCCFFA6;">-2</mark>
 
- > [!example] Bestimme die Oxidationszahlen  
+ > [!EXAMPLE] Bestimme die Oxidationszahlen  
  > $H_{2}SO_{4}$, $H_{2}SO_{3}$, $KNO_{3}$, $K_{2}Cr_{2}O_{3}$, $KMnO_{4}$, $FeCl_{2}$, $H_{2}O_{2}$, $NaH$
  > > [!success] Lösungen  
  > > ![300](LSG-oxzahlen.png)

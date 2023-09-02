@@ -33,12 +33,12 @@ $$
 $p_{1};\dots ;p_{n}\in \mathbb{R}$ und $X_{1}; \dots X_{n}\dots$ [Zufallsvariable](Zufallsvariable.md)  
 $$E\left(\sum\limits^{n}_{i=1}p_{i}X_{i}\right) = \sum\limits_{i=1}^{h} p_{i}\cdot x_{i}$$  
 $$E(X_{1}+X_{2})=E(X_{1})+E(X_{2})$$
-> [!example] Bsp  
+> [!EXAMPLE] Bsp  
 > $X_{1}\dots$ Augensumme Würfeln mit 1 Würfel  
 > $X_{1}\dots$ Augensumme Würfeln mit 1 Würfel
 
 
-> [!example] Spiel mit Gewinnen von $X=\{-10,0,15,40\}$
+> [!EXAMPLE] Spiel mit Gewinnen von $X=\{-10,0,15,40\}$
 > $$
 > \begin{align*}
 > E(X) &= \sum\limits_{i=0}^{n}p_{i}\cdot x_{i}=\qquad X=\{-10,0,15,40\}\\

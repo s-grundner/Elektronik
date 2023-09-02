@@ -12,14 +12,14 @@ Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zuf
 
 >[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
 
-> [!example] Würfel: $P(1)=\dfrac{1}{6}$
+> [!EXAMPLE] Würfel: $P(1)=\dfrac{1}{6}$
 
 Ein Zufallsexperiment ist gekennzeichnet durch:
 - gleiche Ausgangsbedingungen
 - unsicheren Ausgang
 - beliebig wiederholbar
 
->[!example] Beispiele
+>[!EXAMPLE] Beispiele
 > - Würfeln mit einem Würfel
 > - ein Los ziehen
 > - eine Münze werfen
@@ -49,7 +49,7 @@ Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\
 > - $E\dots$ die Anzahl der günstigen [Ereignisse](Ereignis.md)
 > - $|\Omega|\dots$ die Anzahl der möglichen [Ereignisse](Ereignis.md) 
 
-> [!example] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
+> [!EXAMPLE] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
 
 ## Rechnen mit Wahrscheinlichkeiten
 
@@ -84,10 +84,10 @@ Ist $P(B)\neq 0$, so heißt der Wert $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die W
 öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) des Gegenereignisses ermittelt.  
 So gilt: <mark style="background: #FFB86CA6;">Mindestens eines = nicht keines</mark>
 
->[!example] gerade & ungerade Zahl beim Roulette  
+>[!EXAMPLE] gerade & ungerade Zahl beim Roulette  
 > $P(gerade) = 1-P(ungerade)$
 
- >[!example] 26 Schüler: 2 haben den selben Geburtstag  
+ >[!EXAMPLE] 26 Schüler: 2 haben den selben Geburtstag  
 > $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
 > 
 > $\dfrac{365}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$

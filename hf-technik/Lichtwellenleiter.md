@@ -68,7 +68,7 @@ Ist eine dimensionslose Größe zur beschreibung der Öffnungsweite als Zahl.
 Der Zahlenwert ist vom **Akzeptanzwinkel (Öffnungswinkel)**, sowie vom **Brechungsindex des umgebenden Mediums** Abhängig.  
 $$NA = \sin(\theta_{max})=\frac{1}{n_{0}}\cdot\sqrt{n_{1}^{2}-n_{2}^{2}}$$
 
->[!example] Aufgabe: Die Kernbrachzahl eines LWL beträgt $1.55$, die des Matels $1.51$. Einspeisung erfolgt durch *[Luft](../../physik/Lufthülle%20der%20Erde.md)*. Kerndurchmesser beträgt $50\mu m$, der LWL wird bei einer Wellenlänge von $0.8\mu m$ betrieben.
+>[!EXAMPLE] Aufgabe: Die Kernbrachzahl eines LWL beträgt $1.55$, die des Matels $1.51$. Einspeisung erfolgt durch *[Luft](../../physik/Lufthülle%20der%20Erde.md)*. Kerndurchmesser beträgt $50\mu m$, der LWL wird bei einer Wellenlänge von $0.8\mu m$ betrieben.
 > ##### 1. Lichtgeschwindigkeit im Kern:
 > $$c_{1}= \frac{c_{0}}{n_{1}}=\frac{3\cdot10^{8} \frac{m}{s}}{1.55}=1.94\cdot 10^{8} \frac{m}{s}$$
 > ##### 2. Grenzwinkel der Totalreflexion

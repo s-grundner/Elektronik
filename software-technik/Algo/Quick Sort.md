@@ -37,7 +37,7 @@ durch `quick_sort(arr, 0, n-1);` wird das n-Elemente große Feld arr sortiert. D
 6. Wiederholen von 2 beginnend
 7. Nun Vertauschen von k und l
 
-> [!example] Beispiel
+> [!EXAMPLE] Beispiel
 >
 >```txt
 > 10   7  16   4   9  18  -3   8  12

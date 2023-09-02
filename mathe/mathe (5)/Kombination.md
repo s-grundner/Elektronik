@@ -19,12 +19,12 @@ Darf jedes Objekt nur einmal auftreten, spricht man von einer **Kombination ohn
 >[!summary] $n$ über $k$:  
 > $$\frac{n \cdot (n - 1) \cdot (n - 2) \cdot \ldots \cdot (n - k + 1)}{k!} = \frac{n!}{(n - k)! \cdot k!} = \binom{n}{n - k} = \binom{n}{k}$$
 
-> [!example] 7 Personen: ABCEFG. Wv Möglchkeiten gibt es, eine 3er Gruppe zu bilden!  
+> [!EXAMPLE] 7 Personen: ABCEFG. Wv Möglchkeiten gibt es, eine 3er Gruppe zu bilden!  
 > Keine Person kommt in einer Gruppe doppelt vor, und die Reihenfolge ist unwichtig.  
 > ABC, ABE, ABF, BCF …
 
 
-> [!example] 30 Schüler auf 26 Plätze aufteilen  
+> [!EXAMPLE] 30 Schüler auf 26 Plätze aufteilen  
 > 4 auswählen, die keinen Platz bekommen:  
 > $$\binom{30}{4} = 27405$$  
 > [](Kombinatorik.md#Produktregel)  

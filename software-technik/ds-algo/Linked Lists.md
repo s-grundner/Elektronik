@@ -20,7 +20,7 @@ The order of the elements can easily be changed by changing the pointers to the 
 
 ![525](../assets/singly_linked_list.svg)
 
-> [!example] static allocated list
+> [!EXAMPLE] static allocated list
 
 ``` c
 #include <stdlib.h>

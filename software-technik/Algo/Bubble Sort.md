@@ -13,7 +13,7 @@ Algorithmus zum Aufsteigenden Sortieren:
 - Dieser Vorgang wird bis zum letzten Element wiederholt. Dadurch ist nach diesem Durchlauf das größte Element an der letzten Stelle (es ist wie ein Bubble aufgestiegen).
 - Die komplette Prozedur wird von vorne beginnend solange wiederholt bis bei einem kompletten Durchlauf keine Vertauschung mehr erfolgt.
 
-> [!example] Beispiel:
+> [!EXAMPLE] Beispiel:
 
 ```
  5   1   12   -5    2   12   14	// Vertauschen Element 0 und 1

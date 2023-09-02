@@ -35,7 +35,7 @@ $f(x)\dots$**Trigonometrisches Polynom**
 - $A_{2}\cdot\sin(2x+\varphi)$: 2. Harmonische oder 1. Oberschwingung
 - $A_{3}\cdot\sin(3x+\varphi)$: 3. Harmonische oder 2. Oberschwingung
 
->[!example] Rechteckschwingung  
+>[!EXAMPLE] Rechteckschwingung  
 > ![Fourreihe_k](../assets/Fourreihe_k.png)  
 > [Klirrfaktor](../../hwe/Klirrfaktor.md) … $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
 

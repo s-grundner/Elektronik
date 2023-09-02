@@ -109,7 +109,7 @@ $$
 
 Standard [Zweitor](Zweitor.md)
  
-> [!example] T-Gleid
+> [!EXAMPLE] T-Gleid
 
 ### [](../../hwe/Kettenmatrix.md#Admittanz%20Matrixrechnung%20Matrix|Admittanz%20Matrix)
 

@@ -11,7 +11,7 @@ created: 8th January 2023
 Oft interessiert uns nicht für die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften  
 Das Ereignis $E$ ist eine Teilmenge der [Grundmenge](Grundmenge.md) $\Omega$
 
->[!example] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
+>[!EXAMPLE] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
 
 ## Unvereinbare Ereignisse
 
@@ -22,7 +22,7 @@ Das Ereignis $E$ ist eine Teilmenge der [Grundmenge](Grundmenge.md) $\Omega$
 >$P(A\wedge B)=0$
 >
 
-> [!example] Zweimaliges Werfen eines Würfels
+> [!EXAMPLE] Zweimaliges Werfen eines Würfels
 > - $A$: Beim ersten Wurf "6" werfen;
 > - $B$: beim ersten Wurf eine ungerade Augenzahl werfen;
 > - $C$: beim zweiten Wurf "6" werfen;

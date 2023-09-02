@@ -23,7 +23,7 @@ Außer den Bruchstück-Kernen werden meist einige einzelne Neutronen freigesetzt
 Ebenfalls wird **Energie abgegeben**, da die Masse des Ausgangskerns **plus** des aufgenommenen Neutrons **größer** ist als die **Masse der entstehenden Kerne** einschließlich der **frei werdenden Neutronen**.  
 Durch die Änderung der [Bindungsenergie](Bindungsenergie.md) nimmt die Gesamtmasse entsprechend ab (Massendefekt).
 
-> [!example] Langsames Neutron trifft auf Uran-235 $\rightarrow$ Kernumwandlung in Uran-236 $\rightarrow$ zerfällt in Bruchteil von Sekunden in zwei mittelschwere Kerne, z.B. Krypton und Brom (über 200 Zerfallsprodukte bekannt)
+> [!EXAMPLE] Langsames Neutron trifft auf Uran-235 $\rightarrow$ Kernumwandlung in Uran-236 $\rightarrow$ zerfällt in Bruchteil von Sekunden in zwei mittelschwere Kerne, z.B. Krypton und Brom (über 200 Zerfallsprodukte bekannt)
 >
 > ${}^{1,00866u}_{0}n+^{235,04392}_{92}U\longrightarrow {}^{236.04556u}_{92}U\longrightarrow {}^{88.91783u}_{36}Kr + {}^{143,92295u}_{56}Ba + 3\cdot {}^{1.00866}_{0}n$
 >

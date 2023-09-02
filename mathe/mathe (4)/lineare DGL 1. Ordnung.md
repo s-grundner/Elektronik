@@ -28,7 +28,7 @@ $$
 
 > [!WARNING] Ist der konstante Koeffizient $p$ positiv, so klingt die Lösung exponentiell ab, sie ist "flüchtig". 
 
-> [!example] Bsp.:  
+> [!EXAMPLE] Bsp.:  
 > $y'+x^{2}\cdot y=0\rightarrow$ **homogene lineare** [DGL]({MOC}%20DGL.md) 1. Ordnung mit **nicht konstantem** Koeffizienten  
 > $y'+2\cdot y=1\rightarrow$ **inhomogene lineare** [DGL]({MOC}%20DGL.md) 1. Ordnung mit **konstantem** Koeffizienten
 

@@ -14,7 +14,7 @@ Algorithmus zum aufsteigenden Sortieren:
 - Vertauschen des ersten Elements dieser neuen Menge (ohne erstem Element) mit dem gefundenen kleinsten Element (zweitkleinstes Element).
 - …
 
-> [!example] Beispiel:
+> [!EXAMPLE] Beispiel:
 >
 > ```txt
 >  5   1   12   -5    2   12   14   // kleinstes Element an Index 3

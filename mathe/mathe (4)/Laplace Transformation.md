@@ -26,7 +26,7 @@ so heißt:
 $$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$  
 für $s=j\omega$ ist dann $F(s)=F(\omega)$
 
->[!example] Bsp.: Deltaimpuls
+>[!EXAMPLE] Bsp.: Deltaimpuls
 > $$
 > \begin{align*}
 > f(t) &= 1\\

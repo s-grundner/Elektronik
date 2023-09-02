@@ -71,7 +71,7 @@ y=(1/10)*(x-7)^2
 
 # Matlab Simulations
 
-> [!example] Häuserpreis
+> [!EXAMPLE] Häuserpreis
 
 | $x_{0}$ | Size (feet$^{2}$)<br> $x_{1}$ | Number of Bedrooms <br> $x_{2}$ | Number of Floors <br> $x_3$ | Age of Home <br> $x_{4}$ | Price <br> $y$ |
 |:-------:|:-----------------------------:|:-------------------------------:|:---------------------------:|:------------------------:|:--------------:|

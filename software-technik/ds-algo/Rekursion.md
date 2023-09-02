@@ -23,7 +23,7 @@ A recursive function returns itself as a function call. A *Base-Case*(Stop condi
 
 ### Basic Attempt / Tought Process
 
-> [!example] reverseString
+> [!EXAMPLE] reverseString
 >
 > ```java
 > public String reverseString(String input) {
@@ -42,7 +42,7 @@ A recursive function returns itself as a function call. A *Base-Case*(Stop condi
 
 To reduce [time complexity](O-Notation.md), it is recommended to save repeating patterns (in objects or structs).
 
-> [!example] fibonacci  
+> [!EXAMPLE] fibonacci  
 > non-optimized function, without memoization:  
 > [time complexity](O-Notation.md): $O(2^{n})$❌  
 > [space complexity](O-Notation.md): $O(n)$ ✅
@@ -83,7 +83,7 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 > }
 > ```
 
-> [!example] gridTraveler  
+> [!EXAMPLE] gridTraveler  
 > Say that you are a traveler on a 2D grid. You begin in the top-left corner and your goal is to travel to the bottom-right corner. You may only move down or right.
 > 
 > In how many ways can you travel to the goal on a grid with dimensions $m\cdot n$

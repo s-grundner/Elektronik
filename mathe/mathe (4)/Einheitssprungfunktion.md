@@ -19,7 +19,7 @@ Diese an der Stelle $t=0$ unstetige Funktion heißt auch **Heaviside**-Funktion 
 
 ![einheitssprung](../assets/einheitssprung.png)
 
-> [!example] $f(t) = (t-2)\cdot\sigma(t-2)$
+> [!EXAMPLE] $f(t) = (t-2)\cdot\sigma(t-2)$
 
 
 ---

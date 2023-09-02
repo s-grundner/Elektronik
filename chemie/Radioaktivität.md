@@ -69,7 +69,7 @@ t=\frac{\ln{(\frac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)}
 \end{align*}
 $$
 
-> [!example] Ötzi altersbestimmung  
+> [!EXAMPLE] Ötzi altersbestimmung  
 > Bei Ötzi zählt man N(t) = 2,3 * 105 dieser 14C-Atome,  
 > bei einer Vergleichsprobe zählte man N(0) = 4 * 105 dieser 14C -Atome.  
 > Vor wie vielen Jahren ist Ötzi verstorben?

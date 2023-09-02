@@ -30,7 +30,7 @@ Sei $X$ eine diskrete [Zufallsvariable](Zufallsvariable.md) mit $M_{x}=\{x_{1};\
 Die [Standardabweichung](Standardabweichung.md) oder Streuung $\sigma$ von $X$
 >[!summary] $\sigma(X)=\sqrt{V(X)}$
 
->[!example] Würfeln mit 1 Würfel  
+>[!EXAMPLE] Würfeln mit 1 Würfel  
 > $X\dots$ Augensumme  
 > $E(X)=3.5$  
 > $V(X)=\sum\limits_{i=0}^{6} \dfrac{1}{6}\dots(x_{i}-3.5)^{2}=2.92$  

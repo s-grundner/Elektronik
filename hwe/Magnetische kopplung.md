@@ -59,7 +59,7 @@ M&= \frac{\mu_{0}\cdot l}{2\pi}\cdot\ln\left[1+\left(\frac{a}{d}\right)^{2}\righ
 \end{align*}
 $$
 
->[!example] Bsp.:  
+>[!EXAMPLE] Bsp.:  
 >$l=1m$  
 >$\cfrac{a}{d}=0.1$  
 > ges.: $M$  

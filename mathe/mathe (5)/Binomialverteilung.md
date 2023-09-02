@@ -44,7 +44,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 
 ## unbekanntes $n$
 
-> [!example] Wie viele Tickets kann man verkaufen, sodass mit [WSK](Wahrscheinlichkeit.md)$=0.9$ der Flug nicht überbucht ist? 
+> [!EXAMPLE] Wie viele Tickets kann man verkaufen, sodass mit [WSK](Wahrscheinlichkeit.md)$=0.9$ der Flug nicht überbucht ist? 
 > - Fluglinie überbucht Flüge (200 Sitze)
 > - WSK, dass ein gebuchter Passagier erscheint, $p=0.93$  
 > $P(x\leq200)=P(x=0)+P(x=1)+\dots+P(x=200)\geq 0.9$
@@ -54,12 +54,12 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 
 ## unbekanntes $k$ bei gegebener [WSK](Wahrscheinlichkeit.md)
 
-> [!example] Bsp  
+> [!EXAMPLE] Bsp  
 > $n=6\qquad p=0.4$  
 > bei welchem $k$ gilt $P(x\leq k)>0.6$
 
 
-> [!example] Würfeln mit einem Würfel
+> [!EXAMPLE] Würfeln mit einem Würfel
 > - Entweder 6 oder nicht 6
 > - 4 Versuche
 > - 6er bei einem Würfel
@@ -78,13 +78,13 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 
 
 
-> [!example] Prüfe, ob folgende [Zufallsvariable](Zufallsvariablen) $X$ binomialverteilt ist  
+> [!EXAMPLE] Prüfe, ob folgende [Zufallsvariable](Zufallsvariablen) $X$ binomialverteilt ist  
 >![Pasted image 20221122111119](Pasted%20image%2020221122111119.png)
 > > [!success] Lösung  
 > > 2. Nein, das ziehen eines Asses ist davon abhängig, wie viele bereits gezogen wurden  
 > > 3. Ja: $P=\frac{1}{20}$
 
-> [!example] Prüflos  
+> [!EXAMPLE] Prüflos  
 > ![725](Pasted%20image%2020221122112926.png)
 > > [!success] Lösung
 

@@ -17,7 +17,7 @@ Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
 
 >[!hint] Jedem [Ereignis](Ereignis.md) wird ein Wert zugeordnet (Diskret)
 
->[!example] Werfen von 2 Würfeln  
+>[!EXAMPLE] Werfen von 2 Würfeln  
 >$\Omega=\{(1,1);(1,2);\dots;(6,6)\}$ Werte der einzelnen Würfel  
 >$X=\{2;3;\dots;12\}$ Augenzahl (einzelne Würfel sind unwichtig)
 
@@ -28,7 +28,7 @@ Eine Funktion $X$, die $X:\Omega\rightarrow\mathbb{R}$
 - $M_{x}=\{x_{1};\dots ;x_{n}\}$
 - $P_{i}=P(X=x_{i})=P(\{\omega|X(\omega)=x_{i}\})$
 
->[!example] Würfeln mit $2$ Würfeln  
+>[!EXAMPLE] Würfeln mit $2$ Würfeln  
 >$p_{7}=P(X=7)=P(\{\omega|X(\omega)=7\})=\sum\limits P(\omega)$  
 >$X(\omega)=7$
 

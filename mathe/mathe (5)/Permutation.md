@@ -20,7 +20,7 @@ während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffi
 >[!summary] Fakultät:  
 > $$n!$$
 
-> [!example] Wv. Möglichkeiten gibt es, $4$ Schüler auf $4$ Plätze aufzuteilen?  
+> [!EXAMPLE] Wv. Möglichkeiten gibt es, $4$ Schüler auf $4$ Plätze aufzuteilen?  
 > $$4\cdot3\cdot2\cdot1 = \frac{4!}{(4-4)!} = 4!$$
 
 ## mit Wiederholung
@@ -29,7 +29,7 @@ während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffi
 >$$n! \choose {k_{1}!,\cdots, k_{n}!}$$
 
 
-> [!example] "Teebeutel": Wv. Wörter kann man mit "EEEETTBUL" bilden? Alle Buchstaben Verschieden, dann: $9!$
+> [!EXAMPLE] "Teebeutel": Wv. Wörter kann man mit "EEEETTBUL" bilden? Alle Buchstaben Verschieden, dann: $9!$
 > $$
 > \begin{align*}
 > E_{1}E_{2}E_{3}E_{4}T_{1}T_{2}B_{1}U_{1}L_{1}\\

@@ -160,7 +160,7 @@ Mit dem Auflösen der [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) ergibt
 
 Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\cdot \sin(\omega\cdot t+\varphi)$ und beschreibt nur die Funktion nach dem Einschwingvorgang.
 
-> [!example]  
+> [!EXAMPLE]  
 > Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
 > 
 > ![300](e_serien_schwingk_erzw.png)

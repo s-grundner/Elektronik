@@ -40,7 +40,7 @@ $2 H_{2}(g)+O_{2}(g)\longrightarrow 2H_{2}O$
 Ein Katalysator setzt durch Bildung eines Zwischenproduktes (Delle im Energiediagramm) die AE herab und beschleunigt dadurch die Reaktion.  
 Er wird zuvor **vorübergehend verändert** aber **nicht verbraucht**
 
-> [!example] Auto Abgas Katalysator  
+> [!EXAMPLE] Auto Abgas Katalysator  
 > Nur für Benzinmotoren  
 > 💀$CO + \frac{1}{2}O_{2} \longrightarrow CO_{2}$  
 > $2CO + 2NO \longrightarrow 2CO_{2} + N_{2}$  
@@ -48,7 +48,7 @@ Er wird zuvor **vorübergehend verändert** aber **nicht verbraucht**
 > Umwandlung von $CO$, $NO$ und Kohlenwasserstoffe CxHy (90%)  
 > Enzyme = Biokatalysator
 
-> [!example] Gasschmelzschwießen  
+> [!EXAMPLE] Gasschmelzschwießen  
 > Beim Schweißen wird Ethin (Acetylen, $C_{2}H_{2}$) verbrannt.  
 > $10g$ Ethin liefern $500kJ$.  
 > Erstellen sie die Reaktionsgleichung und geben sie die Enthalpiedifferenz ($\Delta H$) der Reaktion an.  

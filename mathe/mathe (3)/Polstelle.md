@@ -8,5 +8,5 @@ created: 30th August 2023
 
 $x$-Wert an dem $f(x)$ unbestimmt ist.
 
->[!example] Beispiel:  
+>[!EXAMPLE] Beispiel:  
 > $f(x)=\dfrac{1}{x}\rightarrow x_{pol}=0$
