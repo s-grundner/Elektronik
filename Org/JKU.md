@@ -1,16 +1,16 @@
-# JKU
+---
+banner: "https://ecn.ac.at/sites/default/files/inline-images/Hauptlogo_de_schwarz_quer_jpg.jpg"
+---
 
-## Info zum Studienstart
+# [JKU](https://www.jku.at/)
 
-![](https://www.youtube.com/live/0R5LCo7kL2k?si=ZdB0263g9UZibnmc)
+## [Info Zum Studienstart](https://www.youtube.com/watch?v=0R5LCo7kL2k)
 
 > Peter Brandstetter - Referatsleiter KUSS/MyJKU
 
 - [Lernen](Lernen.md), [Lernpower](Lernpower.md)
 - [3-Runden-Lesestrategie](Org/3-Runden-Lesestrategie.md)
 - [Zeit Management](Zeit%20Management.md)
-
-# Möglichkeiten im Ausland
 
 # [KUSS](https://www.kusss.jku.at/kusss/index.action) / [myJKU](https://my.jku.at/#/home)
 
