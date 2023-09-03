@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Org/HTL.md",
-                "mode": "source",
+                "file": "Mathe/mathe (3)/Grenzwert.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -111,7 +111,7 @@
       {
         "id": "52acd4b768856ed7",
         "type": "tabs",
-        "dimension": 24.42528735632184,
+        "dimension": 29.82758620689655,
         "children": [
           {
             "id": "0e359560b151b2bc",
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Org/HTL.md",
+                "file": "Mathe/mathe (3)/Grenzwert.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Org/HTL.md",
+                "file": "Mathe/mathe (3)/Grenzwert.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
       {
         "id": "12ea1a7928151c39",
         "type": "tabs",
-        "dimension": 23.275862068965516,
+        "dimension": 28.01724137931034,
         "children": [
           {
             "id": "233b74ad1cb74d31",
@@ -175,7 +175,7 @@
       {
         "id": "fff7bfbeb1a84cbb",
         "type": "tabs",
-        "dimension": 52.298850574712645,
+        "dimension": 42.1551724137931,
         "children": [
           {
             "id": "79840337aa419a87",
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Org/HTL.md",
+                "file": "Mathe/mathe (3)/Grenzwert.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Org/HTL.md"
+                "file": "Mathe/mathe (3)/Grenzwert.md"
               }
             }
           }
@@ -260,10 +260,11 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "f8d091b085f3dad1",
+  "active": "28357795ff10b786",
   "lastOpenFiles": [
-    "Softwaretechnik/{MOC} FSST.md",
+    "Mathe/{MOC} Mathe.md",
     "Org/HTL.md",
+    "Softwaretechnik/{MOC} FSST.md",
     "Physik/{MOC} NW RDP.md",
     "Chemie/{MOC} Chemie.md",
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/obj/Debug/src/Wetterstation.o",
@@ -307,7 +308,6 @@
     "Softwaretechnik/SEng/02_SEng/README.md",
     "Softwaretechnik/Sec/Sec_Skr_02_Authentifikation.md",
     "Softwaretechnik/Sec/Sec_Skr_02_Ue_Authentification_KeySigning.md",
-    "Softwaretechnik/Sec/Sec_Skr_01_Ue_Kryptographie.md",
     "Org/Home.canvas",
     "Hardwareentwicklung/Stromversorgungseinheiten/{CNV} Stromversorgungseinheiten.canvas",
     "Projekte/RFID-Gwent.canvas",
