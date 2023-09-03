@@ -34,8 +34,6 @@ created: 1st September 2023
  - [Spektralanalyse](Spektralanalyse.md)
  - [Radioaktivität](Radioaktivität.md)
 
-## Struber Leaks
-
-### Zusammenfassung 5c
+## Zusammenfassung 5c
 
 ![5c-matura-sum](assets/5c-matura-sum.pdf)

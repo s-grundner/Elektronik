@@ -26,6 +26,7 @@ return (
 		<span data-unit="d">{formatDate[2]}. </span>
 		<span data-unit="mo">{formatDate[1]}</span>
 	</div>
+	
 	<button className="progress-clock__time-digit" data-unit="h" data-group="h" type="button">
 		{formatDate[3]}
 	</button>
