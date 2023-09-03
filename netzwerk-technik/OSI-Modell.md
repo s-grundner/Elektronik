@@ -48,7 +48,7 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 > 
 > - Schichten 5-7: **Anwendungssystem** - für dieses System ist eine komplette End-zu-End-Verbindung gewährleistet.
 > 
-> ![#right|Schichten modell](assets/NW_Schichtenmodell.png)
+> ![](assets/NW_Schichtenmodell.png)
 > 
 > Definition der Begriffe: Bits, Frames, Pakete, Segmente, Daten (siehe Bild): sind jeweils das Gleiche, kennzeichnen lediglich in welcher Schicht sie sich befinden. Zuordnung von (sehr gängigen) Protokollen zu den Schichten (siehe Bild).
 
@@ -66,8 +66,7 @@ Hier ist **Host A** mit **Router 1** verbunden. Dieser ist (via weiterer, hier n
 - über die Jahre haben sich leichter implementierbare Protokolle (daher preiswerter) etabliert.
 - das amerikanische Verteidigungsministerium hat eigene Lösungen erarbeitet
 
-Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:
-
+Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:  
 ![|inlineR](assets/NW_Schichtenmodell_IP.png)
 
 - **Application Layer** OSI-Layer 5,6, und 7; Nachricht bestehend aus Header und Daten.
