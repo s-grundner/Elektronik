@@ -1,5 +1,4 @@
 ---
-cssclasses: mytools
 defines-react-components: true
 ---
 
@@ -22,11 +21,11 @@ let dayProgress = (formatDate[2]) / 31
 
 return (
 <div id="clock" className="progress-clock">
-	<button className="progress-clock__time-date" data-group="d" type="button">
+	<div className="progress-clock__time-date">
 		<small data-unit="w">{formatDate[0]}</small><br/>
+		<span data-unit="d">{formatDate[2]}. </span>
 		<span data-unit="mo">{formatDate[1]}</span>
-		<span data-unit="d"> {formatDate[2]}</span>
-	</button>
+	</div>
 	<button className="progress-clock__time-digit" data-unit="h" data-group="h" type="button">
 		{formatDate[3]}
 	</button>
@@ -37,7 +36,7 @@ return (
 		{formatDate[4]}
 	</button>
 	
-	<span className="progress-clock__time-colo[[[[> [!]]]]]n">:</span>
+	<span className="progress-clock__time-colon">:</span>
 	
 	<button className="progress-clock__time-digit" data-unit="s" data-group="s" type="button">
 		{formatDate[5]}
