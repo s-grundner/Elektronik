@@ -1,1 +1,1 @@
-`jsx:<ColorfulClock></ColorfulClock>`
+`jsx:<ColorfulClock/>`

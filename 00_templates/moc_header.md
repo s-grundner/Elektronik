@@ -1,13 +1,11 @@
 ---
 tags: ["MOC"]
-aliases: ["<%tp.file.title.split ("{MOC} ")[1]%>"]
-subject: ["<% tp.system.suggester(
-	["dic", "ksn", "hwe", "mathe", "physik", "chemie", "fsst", "mtrs"],
-	["dic", "ksn", "hwe", "mathe", "physik", "chemie", "fsst", "mtrs"]) %>"]
-source: ["<% tp.system.prompt("Lehrperson(en)", "") %>"]
+aliases: ["<%tp.file.title%>"]
+subject: [""]
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ---
 
-# Map of Content - <%tp.file.title.split ("{MOC} ")[1]%>
+# Map of Content - <%tp.file.title%>
 
-<%tp.file.cursor(11)%>
+<%tp.file.rename("{MOC} " + tp.file.title)%>  
+<%tp.file.cursor(9)%>
