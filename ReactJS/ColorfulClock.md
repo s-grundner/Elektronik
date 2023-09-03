@@ -57,14 +57,17 @@ return (
 				<stop offset="100%" stopColor="hsl(263,90%,55%)" />
 			</linearGradient>
 		</defs>
+		
 		<g data-units="h">
 			<circle className="progress-clock__ring" cx="128" cy="128" r="90" fill="none" opacity="0.1" stroke="#e79742" strokeWidth="12" />
 			<circle className="progress-clock__ring-fill" data-ring="d" cx="128" cy="128" r="90" fill="none" stroke="#e79742" strokeWidth="12" strokeDasharray="565.5 565.5" strokeDashoffset={(1-hourProgress)*565.5} strokeLinecap="round" transform="rotate(-90,128,128)" />
 		</g>
+		
 		<g data-units="m">
 			<circle className="progress-clock__ring" cx="128" cy="128" r="106" fill="none" opacity="0.1" stroke="#4483ec" strokeWidth="12" />
 			<circle className="progress-clock__ring-fill" data-ring="h" cx="128" cy="128" r="106" fill="none" stroke="#4483ec" strokeWidth="12" strokeDasharray="666 666" strokeDashoffset={(1-minProgress)*666} strokeLinecap="round" transform="rotate(-90,128,128)" />
 		</g>
+		
 		<g data-units="s">
 			<circle className="progress-clock__ring" cx="128" cy="128" r="122" fill="none" opacity="0.1" stroke="#8f30eb" strokeWidth="12" />
 			<circle className="progress-clock__ring-fill" data-ring="m" cx="128" cy="128" r="122" fill="none" stroke="#8f30eb" strokeWidth="12" strokeDasharray="766.5 766.5" strokeDashoffset={(1-secProgress)*766.5} strokeLinecap="round" transform="rotate(-90,128,128)" />
