@@ -41,15 +41,9 @@ return (
 	<button className="progress-clock__time-digit" data-unit="s" data-group="s" type="button">
 		{formatDate[5]}
 	</button>
-	<span className="progress-clock__time-ampm" data-unit="ap">
-		{formatDate[6]}
-	</span>
+	
 	<svg className="progress-clock__rings" width="256" height="256" viewBox="0 0 256 256">
 		<defs>
-			<linearGradient id="pc-red" x1="1" y1="0.5" x2="0" y2="0.5">
-				<stop offset="0%" stopColor="hsl(343,90%,55%)" />
-				<stop offset="100%" stopColor="hsl(323,90%,55%)" />
-			</linearGradient>
 			<linearGradient id="pc-yellow" x1="1" y1="0.5" x2="0" y2="0.5">
 				<stop offset="0%" stopColor="hsl(43,90%,55%)" />
 				<stop offset="100%" stopColor="hsl(23,90%,55%)" />
@@ -63,10 +57,6 @@ return (
 				<stop offset="100%" stopColor="hsl(263,90%,55%)" />
 			</linearGradient>
 		</defs>
-		<g data-units="d">
-			<circle className="progress-clock__ring" cx="128" cy="128" r="74" fill="none" opacity="0.1" stroke="#e13e78" strokeWidth="12" />
-			<circle className="progress-clock__ring-fill" data-ring="mo" cx="128" cy="128" r="74" fill="none" stroke="#e13e78" strokeWidth="12" strokeDasharray="465 465" strokeDashoffset={(1-dayProgress)*465} strokeLinecap="round" transform="rotate(-90,128,128)" />
-		</g>
 		<g data-units="h">
 			<circle className="progress-clock__ring" cx="128" cy="128" r="90" fill="none" opacity="0.1" stroke="#e79742" strokeWidth="12" />
 			<circle className="progress-clock__ring-fill" data-ring="d" cx="128" cy="128" r="90" fill="none" stroke="#e79742" strokeWidth="12" strokeDasharray="565.5 565.5" strokeDashoffset={(1-hourProgress)*565.5} strokeLinecap="round" transform="rotate(-90,128,128)" />
