@@ -79,7 +79,7 @@ return (
 		</g>
 		<g data-units="s">
 			<circle className="progress-clock__ring" cx="128" cy="128" r="122" fill="none" opacity="0.1" stroke="#8f30eb" strokeWidth="12" />
-			<circle className="progress-clock__ring-fill" data-ring="m" cx="12" cy="128" r="122" fill="none" stroke="#8f30eb" strokeWidth="12" strokeDasharray="766.5 766.5" strokeDashoffset={(1-secProgress)*766.5} strokeLinecap="round" transform="rotate(-90,128,128)" />
+			<circle className="progress-clock__ring-fill" data-ring="m" cx="128" cy="128" r="122" fill="none" stroke="#8f30eb" strokeWidth="12" strokeDasharray="766.5 766.5" strokeDashoffset={(1-secProgress)*766.5} strokeLinecap="round" transform="rotate(-90,128,128)" />
 		</g>
 	</svg>
 </div>
