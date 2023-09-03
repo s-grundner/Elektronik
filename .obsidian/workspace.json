@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf79454ce7f1f08",
+        "id": "ecc862cbdd1b357d",
         "type": "tabs",
         "children": [
           {
-            "id": "a9ab7fe7349ded75",
+            "id": "d5693c1011a0182a",
             "type": "leaf",
             "state": {
               "type": "home-tab-view",
@@ -250,8 +250,9 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "a9ab7fe7349ded75",
+  "active": "d5693c1011a0182a",
   "lastOpenFiles": [
+    "Projekte/RFID-Gwent.canvas",
     "00_templates/sidebar_colorfulclock.md",
     "Physik/Allgemeines Gasgesetz.md",
     "Mathe/mathe (3)/Grenzwert.md",
@@ -297,10 +298,8 @@
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_02_Ue_Scrum.md",
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_02_Scrum.md",
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_01_Ue_SoftwareEngineering.md",
-    "Softwaretechnik/SEng/02_SEng/Seng_Skr_01_SoftwareEngineering.md",
     "Org/Home.canvas",
     "Hardwareentwicklung/Stromversorgungseinheiten/{CNV} Stromversorgungseinheiten.canvas",
-    "Projekte/RFID-Gwent.canvas",
     "Mathe/mathe (5)/{CNV} Wahrscheinlichkeit.canvas",
     "Untitled 1.canvas"
   ]
