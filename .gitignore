@@ -6,8 +6,4 @@ node_modules
 conflict-files-obsidian-git.md
 
 # Obsidian Plugins
-.obsidian/plugins/obsidian-completr
-.obsidian/plugins/better-word-count
-.obsidian/plugins/drawio-obsidian
-.obsidian/plugins/cmdr
-.obsidian/plugins/obsidian-icon-folder/icons
+.obsidian/plugins
