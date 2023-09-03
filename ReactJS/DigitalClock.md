@@ -1,9 +1,6 @@
 ---
 defines-react-components: true
 ---
-
-# DigitalClock
-
 ```jsx:component:DigitalClock
 const [date, setDate] = useState(new Date)
 useEffect(()=>{
@@ -34,7 +31,7 @@ return (
 )
 ```
 
-## Preview
+# Preview
 
 ```jsx:
 <DigitalClock></DigitalClock>
