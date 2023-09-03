@@ -1,5 +1,5 @@
 ---
-tags: ["MOT", "RDP"]
+tags: ["MOC", "RDP"]
 teacher: ["Angela Lindner"]
 subject: ["physik"]
 inst: HTBLuVA Salzburg
@@ -10,7 +10,7 @@ created: 19th August 2022
 
 ## Physik (RDP)
 
-### 4. Energie und ihre Bedeutung in Technik, Umwelt und Gesellschaft
+### 4. Energie Und Ihre Bedeutung in Technik, Umwelt Und Gesellschaft
 
 - [Thermodynamik](Thermodynamik.md)
 - [Kernfusion](Kernfusion.md)
@@ -18,13 +18,13 @@ created: 19th August 2022
 - [Gasgesetze](Allgemeines%20Gasgesetz.md)
 - Energieumwandlung, Energieformen und [Leistung](Elektrische%20Leistung.md)
 
-### 5. Newtonsche und Relativistische [Mechanik]({MOC}%20Mechanik.md)
+### 5. Newtonsche Und Relativistische [Mechanik]({MOC}%20Mechanik.md)
 
 - [Relativitätstheorie](Relativitätstheorie.md)
 - [Newtonsche Kräfte](Newtonsche%20Kräfte)
 - [Welle-Teilchen-Dualismus](Welle-Teilchen-Dualismus.md)
 
-### 6. Elektrizität, Schwingungsund Wellenphänomene in [Mechanik]({MOC}%20Mechanik.md), Optik und Akustik
+### 6. Elektrizität, Schwingungsund Wellenphänomene in [Mechanik]({MOC}%20Mechanik.md), Optik Und Akustik
 
 - Akustik
 - [Elektromagnetische Wellen](Elektromagnetische%20Wellen.md)

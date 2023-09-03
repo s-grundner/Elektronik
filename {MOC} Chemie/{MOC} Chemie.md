@@ -1,5 +1,5 @@
 ---
-tags: ["MOT"]
+tags: ["MOC"]
 subject: ["chemie"]
 teacher: ["Fritz Struber"]
 inst: HTBLuVA Salzburg
@@ -57,4 +57,4 @@ created: 19th August 2022
 
 ---
 
-[{MOT} Matura]({MOT}%20Matura.md)
+[{MOC} Matura]({MOC}%20Matura.md)

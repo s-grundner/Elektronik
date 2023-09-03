@@ -1,0 +1,317 @@
+{
+  "main": {
+    "id": "1d3d850054a48354",
+    "type": "split",
+    "children": [
+      {
+        "id": "91e6ea9d6e615477",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28357795ff10b786",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "{MOC} HTL/{MOC} HTL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63f8bcfa56482b41",
+    "type": "split",
+    "children": [
+      {
+        "id": "da9ee9248f7d305f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8d091b085f3dad1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd56dd99f1699a9e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f14c390514c004db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a22996cf2fd8af4",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "60fdbc1b2c4baa24",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "65d16913e90139e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7258ec243ec5fd41",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "8477e7e09a934947",
+    "type": "split",
+    "children": [
+      {
+        "id": "52acd4b768856ed7",
+        "type": "tabs",
+        "dimension": 24.42528735632184,
+        "children": [
+          {
+            "id": "0e359560b151b2bc",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "2ea7d30d2d370dd4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "{MOC} HTL/{MOC} HTL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "b28d50602b13ecf6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "{MOC} HTL/{MOC} HTL.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "12ea1a7928151c39",
+        "type": "tabs",
+        "dimension": 23.275862068965516,
+        "children": [
+          {
+            "id": "233b74ad1cb74d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_templates/sidebar_colorfulclock.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fff7bfbeb1a84cbb",
+        "type": "tabs",
+        "dimension": 52.29885057471264,
+        "children": [
+          {
+            "id": "79840337aa419a87",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "{MOC} HTL/{MOC} HTL.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.339603187836574,
+                  "repelStrength": 15.33,
+                  "linkStrength": 0.12,
+                  "linkDistance": 94,
+                  "scale": 0.36288736930121224,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "d600ef920ea978e1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "62e723d0b14a535e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "{MOC} HTL/{MOC} HTL.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "templater-obsidian:Templater": true,
+      "switcher:Open quick switcher": true,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "open-vscode:VSCode": false,
+      "homepage:Open homepage": false,
+      "obsidian-projects:Open projects": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-trash-explorer:Open trash explorer": false
+    }
+  },
+  "active": "28357795ff10b786",
+  "lastOpenFiles": [
+    "Org/HTL.md",
+    "{MOC} HTL/{MOC} HTL.md",
+    "Physik/{MOC} Matura.md",
+    "HF-Technik/{MOC} HTL.md",
+    "Mathe/{MOC} HTL.md",
+    "{MOC} Chemie/{MOC} Matura.md",
+    "Digitaltechnik/{MOC} HTL.md",
+    "{MOC} Chemie/{MOC} Chemie.md",
+    "Digitaltechnik/{MOC} Schnittstellen.md",
+    "ReactJS/ColorfulClock.md",
+    "00_templates/sidebar_colorfulclock.md",
+    "00_templates/moc_header.md",
+    "00_templates/mot_header.md",
+    "{MOC} Chemie/Chemische Reaktionen.md",
+    "00_templates/{MOC} HALLO.md",
+    "00_templates/htl_header.md",
+    "Digitaltechnik/Digitaltechnik.md",
+    "{MOC} Chemie/Chemische Bindungen.md",
+    "Org/Zeit Management.md",
+    "Netzwerktechnik/Informationstheorie.md",
+    "Org/JKU.md",
+    "Netzwerktechnik/Netzwerke.md",
+    "{MOC} HTL/Datenbank/Datenbank.md",
+    "{MOC} HTL/Datenbank/DB_Skr_01_Einfuehrung.md",
+    "{MOC} HTL/Datenbank/DB_Skr_04_UE_Sql.md",
+    "{MOC} HTL/Datenbank/DB_Skr_03_ERModellierung.md",
+    "assets/Hauptlogo_de_schwarz_quer_jpg.jpg.0.pdnSave",
+    "assets/Hauptlogo_de_schwarz_quer_jpg.jpg",
+    "assets/Hauptlogo_de_schwarz_quer_jpg.jpg.crdownload",
+    "Digitaltechnik/datasheets/at644p.pdf",
+    "Digitaltechnik/assets/docs-slides-Lecture6.pdf",
+    "Digitaltechnik/assets/docs-slides-Lecture5.pdf",
+    "Digitaltechnik/assets/docs-slides-Lecture4.pdf",
+    "{MOC} Chemie/assets/5c-matura-sum.pdf",
+    "ReactJS",
+    "Org/Home.canvas",
+    "assets/Atom-bnd.png",
+    "Mathe/assets/DGL-NOTES.pdf",
+    "Mathe/assets/e_serien_schwingk_frei.png",
+    "Projects - Demo Project",
+    "Netzwerktechnik/Nw/assets/NW_Schichtenmodell.png",
+    "assets/Pasted image 20230831135150.png",
+    "assets/Pasted image 20230831135106.png",
+    "assets/Pasted image 20230831135006.png",
+    "assets/Pasted image 20230831135000.png",
+    "assets/Pasted image 20230831134949.png",
+    "assets/Pasted image 20230831134946.png",
+    "Hardwareentwicklung/Stromversorgungseinheiten/{CNV} Stromversorgungseinheiten.canvas",
+    "Projekte/RFID-Gwent.canvas",
+    "Mathe/mathe (5)/{CNV} Wahrscheinlichkeit.canvas",
+    "Untitled 1.canvas"
+  ]
+}

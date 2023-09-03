@@ -1,7 +1,11 @@
 ---
-tags: ["MOT", "RDP"]
-teacher: ["Fritz Struber"]
-subject: ["chemie"]
+tags:
+  - RDP
+  - MOC
+teacher:
+  - Fritz Struber
+subject:
+  - chemie
 inst: HTBLuVA Salzburg
 created: 1st September 2023
 ---

@@ -1,5 +1,5 @@
 ---
-tags: ["MOT"]
+tags: ["MOC"]
 teacher: [""]
 subject: [""]
 inst: <% tp.system.prompt("Institut", "") %>

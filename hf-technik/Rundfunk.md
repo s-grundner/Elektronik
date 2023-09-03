@@ -39,7 +39,7 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 
 # Tags
 
->[!INFO] Fragen zur [Matura](../Chemie/{MOT}%20Matura.md)
+>[!INFO] Fragen zur [Matura](../{MOT}%20Chemie/{MOC}%20Matura.md)
 > - EM-Spektrum – Frequenzbereich von Radiowellen
 >- FM4 – 104 MHz, so ist das im Spektrum der [EM-Wellen](../Physik/Elektromagnetische%20Wellen.md) einzuordnen
 > - Zusammenhang: Frequenz, Wellenlänge, [Antenne](Antenne.md), Sender - [Schwingkreis](../Mathe/mathe%20(4)/Schwingkreise.md)

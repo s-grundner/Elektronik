@@ -1,0 +1,100 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#MOT",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "tag:#MOC",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "path:software-technik",
+      "color": {
+        "a": 1,
+        "rgb": 11861826
+      }
+    },
+    {
+      "query": "path:hwe",
+      "color": {
+        "a": 1,
+        "rgb": 1114367
+      }
+    },
+    {
+      "query": "path:hf-technik",
+      "color": {
+        "a": 1,
+        "rgb": 7667712
+      }
+    },
+    {
+      "query": "path:mathe",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:mtrs",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:physik",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:chemie",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:netzwerk-technik",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:digital-technik",
+      "color": {
+        "a": 1,
+        "rgb": 16762880
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0.6,
+  "nodeSizeMultiplier": 1.59224407278074,
+  "lineSizeMultiplier": 0.900606506156956,
+  "collapse-forces": false,
+  "centerStrength": 0.516640938561284,
+  "repelStrength": 20,
+  "linkStrength": 0.777462179685088,
+  "linkDistance": 141,
+  "scale": 0.0593261718750001,
+  "close": false
+}

@@ -1,0 +1,25 @@
+{
+  "showLineNumber": true,
+  "showFrontmatter": true,
+  "showUnsupportedFiles": true,
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 65
+  },
+  "promptDelete": true,
+  "trashOption": "local",
+  "spellcheckLanguages": null,
+  "spellcheck": true,
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "current",
+  "vimMode": false,
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
+  "showInlineTitle": false,
+  "showIndentGuide": true
+}

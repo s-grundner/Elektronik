@@ -2,5 +2,5 @@
 
 ```dataview
 TABLE subject, teacher
-WHERE contains(tags,"MOT") AND contains(inst, "HTBLuVA Salzburg")
+WHERE contains(tags,"MOC") AND contains(inst, "HTBLuVA Salzburg")
 ```

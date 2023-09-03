@@ -1,5 +1,5 @@
 ---
-tags: ["MOT"]
+tags: ["MOC"]
 teacher: ["Roman Schragl"]
 subject: ["fsst"]
 inst: HTBLuVA Salzburg

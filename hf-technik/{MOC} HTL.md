@@ -1,5 +1,5 @@
 ---
-tags: ["MOT", "Netzwerke"]
+tags: ["MOC", "Netzwerke"]
 teacher: ["Martin Aichriedler"]
 subject: ["ksn"]
 inst: HTBLuVA Salzburg
