@@ -48,7 +48,7 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 > 
 > - Schichten 5-7: **Anwendungssystem** - für dieses System ist eine komplette End-zu-End-Verbindung gewährleistet.
 > 
-> ![Schichtenmodell](assets/NW_Schichtenmodell.png)
+> ![#right|Schichten modell](assets/NW_Schichtenmodell.png)
 > 
 > Definition der Begriffe: Bits, Frames, Pakete, Segmente, Daten (siehe Bild): sind jeweils das Gleiche, kennzeichnen lediglich in welcher Schicht sie sich befinden. Zuordnung von (sehr gängigen) Protokollen zu den Schichten (siehe Bild).
 
@@ -68,12 +68,12 @@ Hier ist **Host A** mit **Router 1** verbunden. Dieser ist (via weiterer, hier n
 
 Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:
 
-![NW_Schichtenmodell_IP](assets/NW_Schichtenmodell_IP.png)
+![|inlineR](assets/NW_Schichtenmodell_IP.png)
 
-- **Network Access Layer** OSI-Layer 1, 2 und zum Teil 3; Frame bestehend aus Header und Paket
-- **Internet Layer** OSI-Layer 3; Paket bestehend aus Header und Segment
-- **Transport Layer** OSI-Layer 4 und teilweise 5; Segment bestehend aus Header und Nachricht und 
 - **Application Layer** OSI-Layer 5,6, und 7; Nachricht bestehend aus Header und Daten.
+- **Transport Layer** OSI-Layer 4 und teilweise 5; Segment bestehend aus Header und Nachricht und 
+- **Internet Layer** OSI-Layer 3; Paket bestehend aus Header und Segment
+- **Network Access Layer** OSI-Layer 1, 2 und zum Teil 3; Frame bestehend aus Header und Paket
 
 Die niedrigen Schichten beinhalten immer die kompletten oberen Schichten, erweitert um einen Schichtspezifischen Header. Der TCP-Header beinhaltet den Quell-/Ziel-Port, der IP-Header beinhaltet die Quell-/Ziel-IP-Adresse und die beiden [Ethernet](Ethernet.md)-Schichten darunter die Quell-/Ziel-MAC-Adressen (Achtung: Bild nicht maßstabgerecht):
 
