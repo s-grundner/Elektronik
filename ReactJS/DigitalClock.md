@@ -34,6 +34,4 @@ return (
 
 # Preview
 
-```jsx:
-<DigitalClock/>
-```
+`jsx:<DigitalClock/>`

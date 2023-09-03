@@ -2,7 +2,7 @@
 
 Evergreen-Skriptum meines Elektronik-Lehrgangs, verfasst im Markdown Editor [Obsidian](https://obsidian.md/)
 
-## Skriptum aktualisieren
+## Skriptum Aktualisieren
 
 ```
 Ctrl+P //Öffnet die Befehlszeile

@@ -77,6 +77,4 @@ return (
 
 # Preview
 
-```jsx:
-<ColorfulClock></ColorfulClock>
-```
+`jsx:<ColorfulClock/>`

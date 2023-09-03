@@ -11,7 +11,7 @@ created: 12th September 2022
 Ordnet man [Redoxpaare](Oxidation%20und%20Reduktion.md) (z.B.: $Zn_{(RED)}|Zn^{2+}_{(OX)}$) nach ihren Standardpotentialen E° beginnend mit der niedrigsten, so erhält man die Spannungsreihe  
 ![800](assets/redoxpaare.png)
 
-## Was lässt sich aus Tabelle ableiten? 
+## Was Lässt Sich Aus Tabelle Ableiten?
 
 - Ob [Metall](Metallbindung.md) edel oder unedel ist  **(Auflösung in Salzlösung)** 
 - Aus Differenz der E° kann Spannung jedes galvanischen Elementes berechnet  werden.
@@ -21,9 +21,3 @@ Ordnet man [Redoxpaare](Oxidation%20und%20Reduktion.md) (z.B.: $Zn_{(RED)}|Zn^{2
 - Ob ein [Metall](Metallbindung.md) (aber auch Element) *reduzierend* oder *oxidierend* wirkt.
 	- F2 + 2e- → 2F- (+2,87V)
 	- *[Redoxpaar](Oxidation%20und%20Reduktion.md):* 2F-| F2 → F2 wirkt oxidierend und greift jedes [Metall](Metallbindung.md) an
-
-
-
----
-
-# Tags
