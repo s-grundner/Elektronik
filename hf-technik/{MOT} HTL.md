@@ -27,7 +27,7 @@ created: 23rd November 2022
 
 # Matura
 
-## Grundlagen der [Informationstheorie](../Netzwerktechnik/Informationstheorie.md) und Übertragungstechnik
+## Grundlagen Der [Informationstheorie](../Netzwerktechnik/Informationstheorie.md) Und Übertragungstechnik
 
 - [Amplitudenmodulation](Amplitudenmodulation.md)
 - [Frequenzmodulation](Frequenzmodulation.md)

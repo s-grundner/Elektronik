@@ -1,12 +1,15 @@
 ---
-tags: ["MOT"]
-teacher: ["Robert Vogl"]
-subject: ["dic"]
+tags:
+  - MOC
+teacher:
+  - Robert Vogl
+subject:
+  - dic
 inst: HTBLuVA Salzburg
 created: 10th December 2022
 ---
 
-# Map of Topics - Digitale Systeme und Computer
+# Map of Topics - Digitale Systeme Und Computer
 
 ## 1. JG (EDT)
 
@@ -37,7 +40,7 @@ created: 10th December 2022
 - [Machine Learning](Machine%20Learning/Machine%20Learning.md)
 - [ESP32](../Softwaretechnik/IoT/ESP32.md)
 
-## Matura 
+## Matura
 
 ### Schaltungsentwurf
 
@@ -51,7 +54,7 @@ created: 10th December 2022
 - Zähler entwerfen
 - FlipFlops
 
-### [Transistor](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md) als Schalter BSP
+### [Transistor](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md) Als Schalter BSP
 
 - Berechnungen (Schaltschwellen, Dimensionieren usw. 3. Klasse)
 - [Mosfets](../Hardwareentwicklung/Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) (Logische Schaltung mit vielen [MOSFETs](../Hardwareentwicklung/Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md): was kommt am ende raus)
@@ -61,7 +64,7 @@ created: 10th December 2022
 
 - Große Tabelle: wo ist man am Ende, wie lang dauerts… 3.Klasse
 
-### [CrumbTL](AVR%20ATmega644p.md) 
+### [CrumbTL](AVR%20ATmega644p.md)
 
 - ADC
 - Ext INT
@@ -70,7 +73,7 @@ created: 10th December 2022
 
 ### [Ringbuffer](Ringbuffer.md)
 
-### Zahlensysteme umrechnen
+### Zahlensysteme Umrechnen
 
 - Dezimal
 - Binär
