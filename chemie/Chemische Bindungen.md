@@ -34,7 +34,7 @@ Metalle ($Na$) übertragen ihre [Valenzelektronen](Valenzelektronen.md) an Nicht
 
 Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 
-# Übergänge zwischen Bindungsarten
+# Übergänge Zwischen Bindungsarten
 
 ## Zwischenmolekulare Kräfte
 

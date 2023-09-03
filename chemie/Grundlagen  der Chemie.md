@@ -6,11 +6,11 @@ source: ["Fritz Struber"]
 created: 19th August 2022
 ---
 
-# Grundlagen der Chemie
+# Grundlagen Der Chemie
 
 Die Chemie ist die Lehre von Stoffen und deren Umwandlung
 
-## Einteilung der Materie
+## Einteilung Der Materie
 
 Gemisch $\longrightarrow$ physikalisches Verfahren $\longrightarrow$ Reinstoff  
 Reinstoff (Verbindung) $\longrightarrow$ chemisches Verfahren $\longrightarrow$ Element 
@@ -54,17 +54,17 @@ Ein Gemisch kann homogen (gleichartig) oder heter ogen (andersartig) sein:
 - _Moleküle:_ $H_2O$, $C_{3}H_{12}O_{6}$, $CO_{2}$
 - _Salze:_ $NaCl$, $\underbrace{AL_{2}O_{3}}_{Tonerde}$, $\underbrace{Na_{2}SO_{4}}_{\text{Natriumsulfat}}$, $\underbrace{CaSO_{4}}_{Gips}$
 
-## Reaktionsgleichungen 
+## Reaktionsgleichungen
 
-### Einrichten von Reaktionsgleichungen
+### Einrichten Von Reaktionsgleichungen
 
-## Gesetz von der Erhaltung der Masse
+## Gesetz Von Der Erhaltung Der Masse
 
 ## Ordnungszahl / Massenzahl
 
 ## Isotope
 
-## Massen und Mengenangaben
+## Massen Und Mengenangaben
 
 ## Chemische Umsatzberechnung
 

@@ -8,7 +8,7 @@ created: 19th August 2022
 
 # Atommodelle
 
-## Bohrsches Atommodell 
+## Bohrsches Atommodell
 
 Elektronen kreisen auf einer bestimmten Bahn ([Schalen](Orbitalmodell.md)) um den Atomkern (Planetenmodell).
 

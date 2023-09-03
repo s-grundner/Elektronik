@@ -8,7 +8,7 @@ created: 1st September 2023
 
 # [Chemie](README.md) (RDP)
 
-## 1. [Allgemein](Grundlagen%20%20der%20Chemie.md) und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
+## 1. [Allgemein](Grundlagen%20%20der%20Chemie.md) Und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
 
  - [Elektrochemie](Elektrochemie.md)
  - [Katalyse](Katalyse.md)
@@ -16,7 +16,7 @@ created: 1st September 2023
  - [pH-Wert](pH-Wert.md) ([Säuren und Basen](Säuren%20und%20Basen.md))
  - [Stöchiometrie](Stöchiometrie.md) und [Allgemeines Gasgesetz](../Physik/Allgemeines%20Gasgesetz.md)
 
-## 2. ~~Organische Chemie und Grundlagen lebendiger Systeme~~
+## 2. ~~Organische Chemie Und Grundlagen Lebendiger Systeme~~
 
  - ~~Alkohole und deren Reaktionsprodukte~~
  - Gesättigte Kohlenwasserstoffe
@@ -26,7 +26,7 @@ created: 1st September 2023
  - Aminosäuren und Proteine
  
 
-## 3. Klassischer und quantenmechanischer Aufbau
+## 3. Klassischer Und Quantenmechanischer Aufbau
 
  - [Chemische Bindungen](Chemische%20Bindungen.md)
  - ~~Chiralität~~
@@ -36,6 +36,6 @@ created: 1st September 2023
 
 ## Struber Leaks
 
-### Zusammenfassung 5c 
+### Zusammenfassung 5c
 
 ![5c-matura-sum](assets/5c-matura-sum.pdf)

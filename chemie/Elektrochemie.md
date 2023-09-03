@@ -31,7 +31,7 @@ Abscheidung von Stoffen durch Strom beziehungsweise Zerlegung mit Strom.
 - **Zersetzungsspannung:** Mindestspannung für der Elektrolyse
 - **Schmelzflusselektrolyse:** Elektrolyse von Schmelzen
 
-### Berechnung elektrolytischer Vorgänge
+### Berechnung Elektrolytischer Vorgänge
 
 Die durch die Elektrolyte geflossene Ladung $Q$ (Elektrizitätsmenge) ist das Produkt aus der Stromstärke $I$ und der Dauer des Stromflusses $t$:  
 $Q=I\cdot t$  
@@ -89,7 +89,7 @@ $Fe + Cu^{2+} \longrightarrow Fe^{2+} + Cu\downarrow$
 
 Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es.
 
-### [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) der Metalle
+### [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) Der Metalle
 
 - unedle Metalle in $HCl$ löslich
 - edle Metalle in $HCl$ unlöslich
@@ -100,7 +100,7 @@ elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Me
 ![675](assets/DaniellEL.png)  
 [](Primärelement.md#Daniell-Element)
 
-#### Beim Schließen des Stromkreises passiert folgendes
+#### Beim Schließen Des Stromkreises Passiert Folgendes
 
 1. Unedleres $Zn$ löst sich auf ([Oxidation](Oxidation%20und%20Reduktion.md))  
    $Zn\longrightarrow Zn^{2+}+2e^{-}$
@@ -113,7 +113,7 @@ elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Me
    
 4. Stromkreis ist geschlossen
 
-#### Welche Spannung entsteht
+#### Welche Spannung Entsteht
 
 Spannung bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
 Spannung $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
@@ -144,7 +144,7 @@ Edle Metalle: efließen von Wasserstoffhalbzelle zum edlen [Metall](Metallbindun
 
 Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektrochemische%20Spannungsreihe.md) aufstellen.
 
-## Technische nutzbare galvanische Elemente
+## Technische Nutzbare Galvanische Elemente
 
 ### [Primärelement](Primärelement.md)
 
