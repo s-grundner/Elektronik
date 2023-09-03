@@ -16,7 +16,7 @@ moment.locale('de');
 let formatDate = moment().format("dddd-MMMM-D-H-mm-ss-a").split("-")
 let secProgress = formatDate[5] / 60
 let minProgress = (formatDate[4]) / 60
-let hourProgress = (formatDate[3]) / 24
+let hourProgress = (formatDate[3]) / 12
 let dayProgress = (formatDate[2]) / 31
 
 return (
@@ -61,7 +61,7 @@ return (
 		
 		<g data-units="h">
 			<circle className="progress-clock__ring" cx="128" cy="128" r="90" fill="none" opacity="0.1" stroke="#e79742" strokeWidth="12" />
-			<circle className="progress-clock__ring-fill" data-ring="d" cx="128" cy="128" r="90" fill="none" stroke="#e79742" strokeWidth="12" strokeDasharray="565.5 565.5" strokeDashoffset={(1-hourProgress)*565.5} strokeLinecap="round" transform="rotate(-90,128,128)" />
+			<circle className="progress-clock__ring-fill" data-ring="d" cx="128" cy="128" r="90" fill="none" stroke="#e79742" strokeWidth="12" strokeDasharray="565.5 565.5" strokeDashoffset={1-(hourProgress)*565.5} strokeLinecap="round" transform="rotate(-90,128,128)" />
 		</g>
 		
 		<g data-units="m">
