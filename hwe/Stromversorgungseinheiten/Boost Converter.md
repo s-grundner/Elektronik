@@ -81,14 +81,14 @@ $1-DC = \frac{t_{aus}}{T_{S}}$
 Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 >![BuckBoostDisconID](../assets/BuckBoostDisconID.png)  
 >$\overline{I_{D}} = I_{a,min}$  
-><mark style="background: #FFB86CA6;">$A_{+}$</mark> = <mark style="background: #ADCCFFA6;">$A_{-}$</mark> (Fläche zwischen dem Stromverlauf von $\Delta I_{L}$ und $I_{a,min}$)
+>$A_{+}$ = $A_{-}$ (Fläche zwischen dem Stromverlauf von $\Delta I_{L}$ und $I_{a,min}$)
 
 >![BoostIminLmin](../assets/BoostIminLmin.png)
 
 ## [Kapazität](../Kapazität.md)
 
 >![BuckBoostDisconID](../assets/BuckBoostDisconID.png)  
-> <mark style="background: #FF5582A6;">$I_{a,min}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
+> $I_{a,min}$ = $\overline{I_{D}}$ 
 
 $Q=C\cdot U$  
 $C_{min}= \dfrac{\Delta Q}{\Delta U_{a}} = \dfrac{I_{a,max}-t_{ein}}{\Delta U_{a}}$  

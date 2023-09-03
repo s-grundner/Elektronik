@@ -11,8 +11,8 @@ created: 23rd November 2022
 ## Grundbegriffe und Kenngrößen
 
 Antennen erzeugen und empfangen [Elektromagnetische Wellen](../../physik/Elektromagnetische%20Wellen.md), die sich im freien Raum ausbreiten:
-- Im <mark style="background: #FFB86CA6;">Sendefall</mark>: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../../physik/Elektrische%20Leistung.md) möglichst effizient in eine [EM-Welle](../../physik/Elektromagnetische%20Wellen.md) um.
-- Im <mark style="background: #FFB86CA6;">Empfangsfall</mark>: Die Antenne nimmt aus einen [EM-Wellenfeld](../../physik/Elektromagnetische%20Wellen.md) [Leistung](../../physik/Elektrische%20Leistung.md) auf und stellt diese an ihrem [Netzwerktor](Streuparameter.md) zur Verfügung.
+- Im Sendefall: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../../physik/Elektrische%20Leistung.md) möglichst effizient in eine [EM-Welle](../../physik/Elektromagnetische%20Wellen.md) um.
+- Im Empfangsfall: Die Antenne nimmt aus einen [EM-Wellenfeld](../../physik/Elektromagnetische%20Wellen.md) [Leistung](../../physik/Elektrische%20Leistung.md) auf und stellt diese an ihrem [Netzwerktor](Streuparameter.md) zur Verfügung.
 
 ### Antennen als Wellentypwandler
 

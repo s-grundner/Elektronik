@@ -8,20 +8,20 @@ created: 19th August 2022
 
 # Oxidation und Reduktion
 
-<mark style="background: #FF5582A6;">Oxidation:</mark> 
+Oxidation: 
 - Ursprüngliche Aufnahme von Sauerstoff
 - gebildete Stoffe: **Oxide**
-- Reaktion ist <mark style="background: #FF5582A6;">exotherm</mark> ($\Delta H<0$)
-- <mark style="background: #FF5582A6;">Abgabe von $e^{-}$</mark> 
+- Reaktion ist exotherm ($\Delta H<0$)
+- Abgabe von $e^{-}$ 
 
 $C+O_{2}\longrightarrow CO_{2}$  
 $2Mg+O_{2} \longrightarrow 2MgO$
 
-<mark style="background: #ADCCFFA6;">Reduktion:</mark> 
+Reduktion: 
 - Ursprünglicher Entzug von Sauerstoff
 - Meistens Rückführung eines Metalloxids in das [Metall](Metallbindung.md)
-- Reaktion ist <mark style="background: #ADCCFFA6;">endotherm</mark> 
-- <mark style="background: #ADCCFFA6;">Aufnahme von $e^{-}$</mark> 
+- Reaktion ist endotherm 
+- Aufnahme von $e^{-}$ 
 
 $HgO \longrightarrow Hg + \frac{1}{2}O$  
 Oder unter Einsatz von Reduktionsmitteln (z.B. $C$):  
@@ -37,11 +37,11 @@ $\rightarrow$ Führt zu $MgO$ ([Salz](Ionenbindung.md))
 
 **RGL:**
 
-<mark style="background: #FF5582A6;">$Mg$ wird oxidiert</mark> $Mg \longrightarrow Mg^{2+}+2e^{-}$  
-<mark style="background: #FF5582A6;">OXIATION: Abgabe von $e^{-}$</mark> 
+$Mg$ wird oxidiert $Mg \longrightarrow Mg^{2+}+2e^{-}$  
+OXIATION: Abgabe von $e^{-}$ 
 
-<mark style="background: #ADCCFFA6;">$O$ wird reduziert</mark> $O+2e^{-}\longrightarrow O^{-2}$  
-<mark style="background: #ADCCFFA6;">REDUKTION: Aufnahme von $e^{-}$</mark> 
+$O$ wird reduziert $O+2e^{-}\longrightarrow O^{-2}$  
+REDUKTION: Aufnahme von $e^{-}$ 
 
 Oxidation und Reduktion laufen **immer** gekoppelt ab. Nur wenn ein Stoff $e^{-}$ aufnimmt, kann ein anderer welche abgeben.
 
@@ -49,16 +49,16 @@ Oxidation und Reduktion laufen **immer** gekoppelt ab. Nur wenn ein Stoff $e^{-}
 
 Chemische Reaktionen mit $e^{-}$ Übertragungen (Oxidation und Reduktion laufen gleichzeitig ab)
 
-<mark style="background: #ADCCFFA6;">Reduktionsmittel:</mark>
+Reduktionsmittel:
 - geben gerne $e^{-}$ ab und werden selbst oxidiert
 - Metalle mit geringer Elektronegativität (Alkalimetalle)
- - <mark style="background: #ADCCFFA6;">z.B.: $H_{2}, Mg, C$</mark> 
+ - z.B.: $H_{2}, Mg, C$ 
 
-<mark style="background: #FF5582A6;">Oxidationsmittel:</mark>
+Oxidationsmittel:
 - nehmen gerne $e^{-}$ auf und werden selbst reduziert.
 - Nichtmetalle mit hoher Elektronegativität (Halogene). 
 
-<mark style="background: #FF5582A6;">z.B.: $O_{2}, F_{2}$</mark> 
+z.B.: $O_{2}, F_{2}$ 
 
 Ob ein Stoff ein Oxidationsoder Reduktionsmittel, hängt von der Stellung im [PSE](Periodensystem%20der%20Elemente.md) ab und zwar von der [](Periodensystem%20der%20Elemente.md#Elektronegativität%20EN|Elektronegativität%20(EN)).
 
@@ -71,8 +71,8 @@ Ob ein Stoff ein Oxidationsoder Reduktionsmittel, hängt von der Stellung im [PS
 
 Redoxreaktionen können auch durch Zuund Abfuhr von $e^{-}$ an einer Gleichspannungsquelle erfolgen: [Elektrolyse](Elektrochemie.md)
 
-<mark style="background: #ADCCFFA6;">Kathode (-): Reduktion (Aufnahme von $e^{-}$)</mark>  
-<mark style="background: #FF5582A6;">Anode (+): Oxidation (Abgabe von $e^{-}$)</mark> 
+Kathode (-): Reduktion (Aufnahme von $e^{-}$)  
+Anode (+): Oxidation (Abgabe von $e^{-}$) 
 
 # Oxidationszahl
 
@@ -92,12 +92,12 @@ $$
 1. Elemente = 0
 2. Summe der Oxidationszahl einer Verbindung = 0
 3. Ionenladung = Oxidationszahl
-4. Metalle immer <mark style="background: #FF5582A6;">positiv:</mark>
-	- $\rightarrow$ Alkalimetalle <mark style="background: #FF5582A6;">+1</mark> 
-	- $\rightarrow$ Erdalkalimetalle <mark style="background: #FF5582A6;">+2</mark> 
-5. Halogene: <mark style="background: #ADCCFFA6;">-1</mark>
-6. Wasserstoff: <mark style="background: #FF5582A6;">+1</mark>
-7. Sauerstoff: <mark style="background: #ADCCFFA6;">-2</mark>
+4. Metalle immer positiv:
+	- $\rightarrow$ Alkalimetalle +1 
+	- $\rightarrow$ Erdalkalimetalle +2 
+5. Halogene: -1
+6. Wasserstoff: +1
+7. Sauerstoff: -2
 
  > [!EXAMPLE] Bestimme die Oxidationszahlen  
  > $H_{2}SO_{4}$, $H_{2}SO_{3}$, $KNO_{3}$, $K_{2}Cr_{2}O_{3}$, $KMnO_{4}$, $FeCl_{2}$, $H_{2}O_{2}$, $NaH$
@@ -116,8 +116,8 @@ $$
 | $\overset{+3}{Fe}\overset{-1}{Cl_{3}}$ | Eisen(**III**)-chlorid |
 
 1. Feststellen ob ein Element oxidiert oder reduziert wird  
-   <mark style="background: #FF5582A6;">Oxidation:</mark> Oxzahl nimmt zu.  
-   <mark style="background: #ADCCFFA6;">Reduktion:</mark> Oxzahl nimmt ab.
+   Oxidation: Oxzahl nimmt zu.  
+   Reduktion: Oxzahl nimmt ab.
 2. Einrichten komplizierter RGL
 
 ---

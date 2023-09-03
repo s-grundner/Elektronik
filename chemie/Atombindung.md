@@ -11,7 +11,7 @@ created: 23rd August 2022
 ![](assets/Atom-bnd.png)
 - Wichtigste Art der Bindung zwischen 2 Nichtmetallatomen
 - $\Delta EN < 1.7$
-- Elektronen-Wolken durchdringen einander $\rightarrow$ <mark style="background: #ADCCFFA6;">negative</mark> Ladungswolke hält <mark style="background: #FF5582A6;">positive</mark> Kerne zusammen $\rightarrow$ Neues Teilchen: **Molekül**
+- Elektronen-Wolken durchdringen einander $\rightarrow$ negative Ladungswolke hält positive Kerne zusammen $\rightarrow$ Neues Teilchen: **Molekül**
 - $H_{2}$ Molekül ist energieärmer als 2x $H$  
 ![molekuel2h](assets/molekuel2h.png)
 
@@ -72,8 +72,8 @@ Unpolare Stoffe zeigen nach außen keine Ladung und sind deshalb im Wasser schwe
 
 Bei Atomen mit unterschiedlicher Elektronegativität ($\Delta EN < 1.7$) liegt eine polare Atombindung vor.
 
-<mark style="background: #FF5582A6;">Atome mit unterschiedlicher Elektronennegativität und unsymmetrischem Aufbau bilden Polare Moleküle. 	 </mark>  
-<mark style="background: #ADCCFFA6;">$\rightarrow$ hydrophil (wasserliebend) </mark> 
+Atome mit unterschiedlicher Elektronennegativität und unsymmetrischem Aufbau bilden Polare Moleküle.  
+$\rightarrow$ hydrophil (wasserliebend)  
 
 Dipole heben sich auf $\rightarrow$ unpolar. 
 

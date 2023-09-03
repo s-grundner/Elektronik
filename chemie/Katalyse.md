@@ -25,13 +25,13 @@ Teilchen werden aufgebrochen und können dann reagieren.
 ## Aktivierungsenergie (EA)
 
 Das Vorhandensein einzelner Atome = **Aktivierter zustand**  
-Man braucht: <mark style="background: #FFB86CA6;">Aktivierungsenergie</mark>
+Man braucht: Aktivierungsenergie
 
 ### Energiediagramm bei Knallgasreaktion
 
 >![500](assets/AE.png)  
-><mark style="background: #FF5582A6;">EA ohne Katalysator</mark>  
-><mark style="background: #ADCCFFA6;">EA mit Katalysator</mark>
+>EA ohne Katalysator  
+>EA mit Katalysator
 
 $2 H_{2}(g)+O_{2}(g)\longrightarrow 2H_{2}O$
 - Exotherme Reaktion (durch anzünden Aktivieren)

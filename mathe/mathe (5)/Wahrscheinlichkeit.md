@@ -82,7 +82,7 @@ Ist $P(B)\neq 0$, so heißt der Wert $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die W
 > $P(\overline{A})=1-P(A)$
 
 öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) des Gegenereignisses ermittelt.  
-So gilt: <mark style="background: #FFB86CA6;">Mindestens eines = nicht keines</mark>
+So gilt: Mindestens eines = nicht keines
 
 >[!EXAMPLE] gerade & ungerade Zahl beim Roulette  
 > $P(gerade) = 1-P(ungerade)$

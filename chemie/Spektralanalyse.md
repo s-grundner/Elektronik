@@ -11,18 +11,18 @@ created: 25th August 2022
 ## Entstehung eines Spektrums
 
 Beim Zerlegen von Sonnenlicht oder dem Licht einer Glühlampe durch ein Glasprisma, erhält man ein **Spektrum**:  
-Ein Farbband von <mark style="background: #FF5582A6;">Rot</mark> nach <mark style="background: #D2B3FFA6;">Violett</mark>  
+Ein Farbband von Rot nach Violett  
 ![Refraction](../assets/Refraction.png)  
 Weißes Licht besteht aus der Mischung mehrerer Farben
 
 
-<mark style="background: #D2B3FFA6;">Kurzwelliges</mark> Licht wird im Prisma Stärker gebrochen als <mark style="background: #FF5582A6;">langwelliges</mark>.  
+Kurzwelliges Licht wird im Prisma Stärker gebrochen als langwelliges.  
 Daher kann Sonnenlicht in seine Wellenanteile zerlegt werden.
 
 Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **Energieinhalt**.
 
-<mark style="background: #FF5582A6;">Rotes Licht</mark> ist langwellig und <mark style="background: #FF5582A6;">energiearm</mark>.  
-<mark style="background: #D2B3FFA6;">Violettes/Blaues</mark> Licht ist kurzwellig und <mark style="background: #D2B3FFA6;">energiereich</mark>.
+Rotes Licht ist langwellig und energiearm.  
+Violettes/Blaues Licht ist kurzwellig und energiereich.
 
 ## Elektromagnetisches Spektrum
 
@@ -54,7 +54,7 @@ Jede Farbe entspricht einer bestimmten **Wellenlänge** und einem bestimmten **E
 Kirchhoff und Bunsen beobachteten, dass bestimmte chemische Elemente die Gasflammen eines Gasbrenners färben.  
 Sie konnten nachweisen, dass die von Fraunhofer beschriebenen schwarzen D-Linien im Sonnenspektrum bei etwa 589 Nanometer mit der von Natriumsalzen in der Flamme emittierten gelben Linie übereinstimmt.  
 Die beiden Chemiker entwickelten 1859 das erste spektralanalytische Verfahren.  
-Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente <mark style="background: #D2B3FFA6;">Rubidium</mark> und <mark style="background: #ADCCFFA6;">Cäsium</mark>.
+Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente Rubidium und Cäsium.
 
 ![450](assets/Pasted%20image%2020220825153403.png)
 
@@ -70,11 +70,11 @@ Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente <m
 ### Spektren Typen 
 
 ![Pasted image 20220825153839](assets/Pasted%20image%2020220825153839.png)  
-<mark style="background: #FFF3A3A6;">Kontinuierliches Spektrum:</mark> Enthält keine diskreten Linien (Banden), da es Licht aller Wellenlängen aufweist.
+Kontinuierliches Spektrum: Enthält keine diskreten Linien (Banden), da es Licht aller Wellenlängen aufweist.
 
-<mark style="background: #FF5582A6;">Emissionsspektrum:</mark> Enthält diskrete Linien (daher auch Linien-spektrum) , welche durch den Elektronenübergang von angeregten Atomen in den Grundzustand entstehen.
+Emissionsspektrum: Enthält diskrete Linien (daher auch Linien-spektrum) , welche durch den Elektronenübergang von angeregten Atomen in den Grundzustand entstehen.
 
-<mark style="background: #ADCCFFA6;">Absorptionsspektrum:</mark> Entsteht wenn Atome dem eingestrahlten Licht Energie entnehmen, um in den angeregten Zustand überzugehen. Die Farbe, deren Energie zur Anregung geeignet ist wird dabei geschwächt.
+Absorptionsspektrum: Entsteht wenn Atome dem eingestrahlten Licht Energie entnehmen, um in den angeregten Zustand überzugehen. Die Farbe, deren Energie zur Anregung geeignet ist wird dabei geschwächt.
 
 
 ---

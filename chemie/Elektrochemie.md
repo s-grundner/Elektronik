@@ -96,7 +96,7 @@ Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es
 
 ### Galvanisches Element
 
-<mark style="background: #FFB86CA6;">elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.</mark>  
+elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
 ![675](assets/DaniellEL.png)  
 [](Primärelement.md#Daniell-Element)
 
@@ -129,13 +129,13 @@ $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 
 - $p = 1 bar$ 
 - $T = 25°C$
 
-<mark style="background: #ADCCFFA6;">Unedle Metalle:</mark> $e^{-}$ fließen zur Wasserstoffhalbzelle; [Metall](Metallbindung.md) löst sich auf $E° < 0$  
-<mark style="background: #FF5582A6;">Edle Metalle:</mark> efließen von Wasserstoffhalbzelle zum edlen [Metall](Metallbindung.md); [Metall](Metallbindung.md) scheidet sich ab. $E° > 0$  
+Unedle Metalle: $e^{-}$ fließen zur Wasserstoffhalbzelle; [Metall](Metallbindung.md) löst sich auf $E° < 0$  
+Edle Metalle: efließen von Wasserstoffhalbzelle zum edlen [Metall](Metallbindung.md); [Metall](Metallbindung.md) scheidet sich ab. $E° > 0$  
 [(° = Standard)](Elektrochemische%20Spannungsreihe.md)
 
 **Standard-Wasserstoffelektrode:**
 
-| <mark style="background: #ADCCFFA6;">1. Halbelement $Zn\|ZnSO_{4}$ (Zinksulfat Lösung)</mark> | <mark style="background: #FF5582A6;">2. Halbelement $Cu\|CuSO_{4}$ (Kupfersulfat Lösung)</mark> | **Galvanisches Element** |  
+| 1. Halbelement $Zn\|ZnSO_{4}$ (Zinksulfat Lösung) | 2. Halbelement $Cu\|CuSO_{4}$ (Kupfersulfat Lösung) | **Galvanisches Element** |  
 | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------ |  
 | $Zn \longrightarrow Zn^{2+} + 2e^{-}$                                                         | $Cu^{2+} + 2e^{-} \longrightarrow Cu$                                                           | $Cu\|Zn$                 |  
 | $U = -0.76V$                                                                                  | $U = +0.35V$                                                                                    | $U = +1.11V$             | 
@@ -148,11 +148,11 @@ Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektroch
 
 ### [Primärelement](Primärelement.md)
 
-Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ <mark style="background: #FFF3A3A6;">[Batterie](Primärelement.md) </mark> 
+Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ [Batterie](Primärelement.md)  
 
 ### [Sekundärelement](Sekundärelement.md)
 
-Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ <mark style="background: #FFF3A3A6;">[Akkumulator](Sekundärelement.md)</mark> 
+Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ [Akkumulator](Sekundärelement.md) 
 
 # Tags
 

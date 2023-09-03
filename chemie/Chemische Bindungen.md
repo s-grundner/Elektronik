@@ -51,8 +51,8 @@ Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 # Elektrische Leitfähigkeit
 
 - Leiter, [Halbleiter](../hwe/Halbleiter/Halbleiter.md), Isolator (Nichtleiter)
-- Elektr. Leiter 1. Klasse (Metalle) $\rightarrow$ <mark style="background: #ADCCFFA6;">Elektronen</mark> als Ladungsträger
-- Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ <mark style="background: #FF5582A6;">Ionen</mark> als Ladungsträger
+- Elektr. Leiter 1. Klasse (Metalle) $\rightarrow$ Elektronen als Ladungsträger
+- Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ Ionen als Ladungsträger
 
 >![775](../hwe/assets/Baendermodell.png)
   

@@ -19,8 +19,8 @@ Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rig
 >![450](assets/Bleiakku.png)  
 >$H_{2}SO_4$ als **[Elektrolyt](Elektrochemie.md)** 
 
-<mark style="background: #ADCCFFA6;">Anode (-):</mark> $Pb\longrightarrow Pb^{2+}+2e^{-}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$  
-<mark style="background: #FF5582A6;">Kathode (+):</mark> $Pb^{4+}+2e^{-}\longrightarrow Pb^{2+}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$  
+Anode (-): $Pb\longrightarrow Pb^{2+}+2e^{-}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$  
+Kathode (+): $Pb^{4+}+2e^{-}\longrightarrow Pb^{2+}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$  
 $2O^{2-}+4H^{+}\longrightarrow 2H_{2}O$  
 **Gesamtgleichung:** $Pb+PbO_{2}+2H_{2}SO_{4}\longleftrightarrows 2PbSO_{4}+2H_{2}O$ 
 
@@ -40,8 +40,8 @@ $\overbracket{\underbracket{Cd}_{0}+2\underbracket{Ni(OH)_{3}}_{+3}}^{+6}\longle
 - Früher: Bei Überhitzung Kurzschluss zwischen Elektroden
 - Heute: Temperaturstabile 
 
-<mark style="background: #ADCCFFA6;">Anode (-):</mark> $Li\longrightarrow Li^{+}+e^{-}$ *(Lithiumgrafit)*  
-<mark style="background: #FF5582A6;">Kathode: (+):</mark> $\overset{+4}{MnO_{2}}+Li^{+}+e^{-}\longrightarrow \overset{+3}{LiMn} O_{2}$
+Anode (-): $Li\longrightarrow Li^{+}+e^{-}$ *(Lithiumgrafit)*  
+Kathode: (+): $\overset{+4}{MnO_{2}}+Li^{+}+e^{-}\longrightarrow \overset{+3}{LiMn} O_{2}$
 
 ## Lithium-Polymer-Akku (LiPo)
 

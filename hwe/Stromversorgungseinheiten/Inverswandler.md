@@ -21,18 +21,18 @@ Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 ## Lauf-Zeit-Diagramm
 
 ![BuckBoostLZD](../assets/BuckBoostLZD.png)
-> <mark style="background: #ABF7F7A6;">$\Delta I_{L1}$</mark>  
-> <mark style="background: #FFF3A3A6;">$\Delta I_{L2}$</mark> 
+> $\Delta I_{L1}$  
+> $\Delta I_{L2}$ 
 
 ### Kontinuierlicher Betrieb
 
 ![BuckBoostConID](../assets/BuckBoostConID.png)
-> <mark style="background: #FF5582A6;">$I_{a,max}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
+> $I_{a,max}$ = $\overline{I_{D}}$ 
 
 ### Diskontinuierlicher Betrieb
 
 ![BuckBoostDisconID](../assets/BuckBoostDisconID.png)
-> <mark style="background: #FF5582A6;">$I_{a,min}$</mark> = <mark style="background: #FFB86CA6;">$\overline{I_{D}}$</mark> 
+> $I_{a,min}$ = $\overline{I_{D}}$ 
 
 ## Schalter $S$ bzw. Transistor $T$
 

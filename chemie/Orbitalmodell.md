@@ -33,8 +33,8 @@ Unterschalen sind Orbitale
 | ---------------- | ---------------- | --------------- |
 | >![orb-px](assets/orb-px.png) | >![orb-py](assets/orb-py.png) | >![orb-pz](assets/orb-pz.png) |
  
-<mark style="background: #FFB86CA6;">Wellenberg</mark>  
-<mark style="background: #CACFD9A6;">Wellental</mark> 
+Wellenberg  
+Wellental 
 
 Es gibt 3 Stk.
 
@@ -70,9 +70,9 @@ Bsp.:
 ![Ne](assets/Ne.png)  
 $1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$
 >![150](assets/Ne-conf.png)  
-<mark style="background: #ADCCFFA6;">Anzahl der $e^{-}$ </mark>  
-<mark style="background: #FF5582A6;">Hauptquantenzahl</mark>  
-<mark style="background: #FFB86CA6;">Orbitaltyp</mark> 
+Anzahl der $e^{-}$  
+Hauptquantenzahl  
+Orbitaltyp 
 
 ## Regel für die Besetzung der Orbitalen mit Elektronen 
 

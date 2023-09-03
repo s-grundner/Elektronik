@@ -12,10 +12,10 @@ Die Chemie ist die Lehre von Stoffen und deren Umwandlung
 
 ## Einteilung der Materie
 
-<mark style="background: #FF5582A6;">Gemisch</mark> $\longrightarrow$ physikalisches Verfahren $\longrightarrow$ <mark style="background: #BBFABBA6;">Reinstoff</mark>  
-<mark style="background: #BBFABBA6;">Reinstoff (Verbindung)</mark> $\longrightarrow$ chemisches Verfahren $\longrightarrow$ <mark style="background: #ADCCFFA6;">Element</mark> 
+Gemisch $\longrightarrow$ physikalisches Verfahren $\longrightarrow$ Reinstoff  
+Reinstoff (Verbindung) $\longrightarrow$ chemisches Verfahren $\longrightarrow$ Element 
 
-Ein Gemisch kann <mark style="background: #D2B3FFA6;">homogen</mark> (gleichartig) oder <mark style="background: #D2B3FFA6;"><mark style="background: #D2B3FFA6;">heter</mark> <mark style="background: #ADCCFFA6;">ogen</mark> </mark> (andersartig) sein:
+Ein Gemisch kann homogen (gleichartig) oder heter ogen (andersartig) sein:
 
 | Homogen     | Heterogen                                                   |
 | ----------- | ----------------------------------------------------------- |

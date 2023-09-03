@@ -39,12 +39,12 @@ Protonenzahl (Kernladungszahl)
 
 Die Gruppen 1, 2, 13-18 nennt man Hauptgruppen.
 
-Bei den Elementen der <mark style="background: #FFF3A3A6;">Hauptgruppen</mark> (HG) (I-VIII) befinden sich die [Valenzelektronen](Valenzelektronen.md) in <mark style="background: #FFF3A3A6;">sund p-Orbitalen</mark>, die zusammen $8 e^{-}$ aufnehmen können.
+Bei den Elementen der Hauptgruppen (HG) (I-VIII) befinden sich die [Valenzelektronen](Valenzelektronen.md) in sund p-Orbitalen, die zusammen $8 e^{-}$ aufnehmen können.
 
-Diese Elemente der <mark style="background: #ADCCFFA6;">Nebengruppen (Übergansmetalle)</mark> werden <mark style="background: #ADCCFFA6;">d-Orbitale</mark> der <mark style="background: #ADCCFFA6;">2. äußersten</mark> [Schale](Orbitalmodell.md) aufgefüllt.  
+Diese Elemente der Nebengruppen (Übergansmetalle) werden d-Orbitale der 2. äußersten [Schale](Orbitalmodell.md) aufgefüllt.  
 Diese $d-e^{-}$ können ebenso wie die $s-e^{-}$ [Valenzelektronen](Valenzelektronen.md) sein.
 
-Bei den Elementen der <mark style="background: #D2B3FFA6;">Lanthanoide</mark> (seltene Erden) und <mark style="background: #D2B3FFA6;">Actinoide</mark> (Transurane) werden <mark style="background: #D2B3FFA6;">f-Orbitale</mark> der <mark style="background: #D2B3FFA6;">3. äußersten</mark> [Schale](Orbitalmodell.md) aufgefüllt.
+Bei den Elementen der Lanthanoide (seltene Erden) und Actinoide (Transurane) werden f-Orbitale der 3. äußersten [Schale](Orbitalmodell.md) aufgefüllt.
 
 >![850](assets/pse-orbs.png)
 
@@ -68,17 +68,17 @@ Bei den Elementen der <mark style="background: #D2B3FFA6;">Lanthanoide</mark> (s
 
 Aus dem Atombau lassen sich einige Eigenschaften der Elemente ableiten.
 1. Elemente mit 8 [Valenzelektronen](Valenzelektronen.md) (2 bei He) sind chem. besonders stabil. (Edelgase)
-2. Elemente sie nicht 8 [Valenzelektronen](Valenzelektronen.md) besitzen, haben das Bestreben einer Achterschale ("Edelgaskonfiguration"). <mark style="background: #BBFABBA6;">Oktettregel</mark> 
-3. Elemente mit <mark style="background: #ADCCFFA6;">wenigen [Valenzelektronen](Valenzelektronen.md)</mark> geben Elektronen ab.  
-   Neutrale Atome werden zu <mark style="background: #ADCCFFA6;">positiv geladenen [Kationen](Ionenbindung.md)</mark>  
+2. Elemente sie nicht 8 [Valenzelektronen](Valenzelektronen.md) besitzen, haben das Bestreben einer Achterschale ("Edelgaskonfiguration"). Oktettregel 
+3. Elemente mit wenigen [Valenzelektronen](Valenzelektronen.md) geben Elektronen ab.  
+   Neutrale Atome werden zu positiv geladenen [Kationen](Ionenbindung.md)  
    $Na\longrightarrow Na^{+}+e^{-}$  
    $Mg\longrightarrow Mg^{2+}+2e^{-}$  
    $Al\longrightarrow Al^{3+}+3e^{-}$  
-   Elemente die [Kationen](Ionenbindung.md) bilden sind <mark style="background: #ADCCFFA6;">Metalle</mark> und stehen <mark style="background: #ADCCFFA6;">links</mark> im PSE
+   Elemente die [Kationen](Ionenbindung.md) bilden sind Metalle und stehen links im PSE
 
 
-4. Elemente mit <mark style="background: #FF5582A6;">vielen [Valenzelektronen](Valenzelektronen.md)</mark> nehmen $e^{-}$ auf.  
-   Neutrale Atome werden zu <mark style="background: #FF5582A6;">negativ geladenen [Anionen](Ionenbindung.md)</mark>  
+4. Elemente mit vielen [Valenzelektronen](Valenzelektronen.md) nehmen $e^{-}$ auf.  
+   Neutrale Atome werden zu negativ geladenen [Anionen](Ionenbindung.md)  
 	$F+e^{-}\longrightarrow F^{-}$ (Fluoridion)  
 	$O+2e^{-}\longrightarrow O^{2-}$ (Oxidion)  
 	Elemente die [Anionen](Ionenbindung.md) bilden sind Nichtmetalle und stehen rechts im PSE.
@@ -94,7 +94,7 @@ Aus dem Atombau lassen sich einige Eigenschaften der Elemente ableiten.
 >![200](assets/x-ab_y-zu.png)
 - Atomradius nimmt von links nach rechts **ab**:  
 Innerhalb einer Periode werden Atome kleiner, weil die Anziehungskräfte zwischen Kern und $e^{-}$ Hülle immer Stärker werden.  
-  $\rightarrow$ <mark style="background: #BBFABBA6;">Orbitalkontraktion</mark>
+  $\rightarrow$ Orbitalkontraktion
    
 
 ## Metallcharakter

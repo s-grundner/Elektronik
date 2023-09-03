@@ -13,8 +13,8 @@ created: 22nd August 2022
 - $\Delta EN > 1.7$
 - Stoffe mit Ionenbindung nennt man **Salze**
 - Nichtmetall mit größerer EN entreißt [Metall](Metallbindung.md) [Valenzelektron](Valenzelektronen.md)
-- Metallatom: <mark style="background: #ADCCFFA6;">Kation</mark> ($Na\longrightarrow Na^{+}+e^{-}$)
-- Nichtmetallatom: <mark style="background: #FF5582A6;">Anion</mark> ($Cl+e^{-}\longrightarrow Cl^{-}$)
+- Metallatom: Kation ($Na\longrightarrow Na^{+}+e^{-}$)
+- Nichtmetallatom: Anion ($Cl+e^{-}\longrightarrow Cl^{-}$)
 
 ## Struktur
 
@@ -38,8 +38,8 @@ Ionenpaare bilden Ionengitter oder Kristallgitter:
 ## Binäre Ionenbindung (-id)
 
 Salze aus zwei Verbindungen heißen **binäre** Verbindungen:  
-<mark style="background: #ADCCFFA6;">[Metall](Metallbindung.md) steht an 1. Stelle</mark>  
-<mark style="background: #FFF3A3A6;">Nichtmetalle an 2. Stelle mit Endung</mark> <mark style="background: #FF5582A6;">-id</mark> 
+[Metall](Metallbindung.md) steht an 1. Stelle  
+Nichtmetalle an 2. Stelle mit Endung -id 
 
 | Ionenpaar        | Summenformel  | Name            | Bindung                                  |
 | ---------------- | ------------- | --------------- | ---------------------------------------- |
@@ -52,8 +52,8 @@ Salze aus zwei Verbindungen heißen **binäre** Verbindungen:
 ## Komplexe Ionenbindung (-at, -onium-)
 
 Salze aus mehr als 2 Elementen heißen **komplexe** Verbindungen:  
-<mark style="background: #ADCCFFA6;">[Metall](Metallbindung.md) steht an 1. Stelle</mark>  
-<mark style="background: #FFF3A3A6;">komplexes Anion an 2. Stelle mit Endung</mark> <mark style="background: #FF5582A6;">-at</mark> (kommt bei mehrfachem Vorkommen in Klammern)
+[Metall](Metallbindung.md) steht an 1. Stelle  
+komplexes Anion an 2. Stelle mit Endung -at (kommt bei mehrfachem Vorkommen in Klammern)
 
 | Ionenpaar             | Summenformel         | Name            | Beispiele            |
 | --------------------- | -------------------- | --------------- | -------------------- |
@@ -62,7 +62,7 @@ Salze aus mehr als 2 Elementen heißen **komplexe** Verbindungen:
 | $Al^{3+}/SO^{2-}_{4}$ | $Al_{2}(SO_{4})_{3}$ | Aluminiumsulfat |                      |
 | $Ka^{+}/PO_{4}$       | $K_{3}PO_{4}$        | Kaliumphosphat  |                      |
 
-<mark style="background: #ADCCFFA6;">Komplexes Kation:</mark> $NH_{4}^{+}$ Amm<mark style="background: #FF5582A6;">onium</mark>ion <mark style="background: #FF5582A6;">"+ Geladen"</mark>  
+Komplexes Kation: $NH_{4}^{+}$ Ammoniumion "+ Geladen"  
 $\rightarrow$ z.B.: $(NH_{4})_{2}SO_{4}$: Ammoniumsulfat
 
 ### Mehrfachvorkommende Atome oder Komplexionen

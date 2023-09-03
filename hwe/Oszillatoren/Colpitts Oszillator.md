@@ -10,7 +10,7 @@ created: 22nd November 2022
 
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
-| <mark style="background: #FFB86CA6;">Colpitts:</mark> [kapazitiv](../Kapazität.md) | <mark style="background: #FFB86CA6;">Hartley:</mark> [induktiv](../Induktivitäten.md) | <mark style="background: #FFB86CA6;">Meissner:</mark> transformatorisch |
+| Colpitts: [kapazitiv](../Kapazität.md) | Hartley: [induktiv](../Induktivitäten.md) | Meissner: transformatorisch |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
 
