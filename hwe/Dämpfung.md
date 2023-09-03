@@ -1,8 +1,11 @@
 ---
 tags: []
 aliases: []
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+subject:
+  - ksn
+  - hwe
+source:
+  - Martin Aichriedler
 created: 25th November 2022
 ---
 

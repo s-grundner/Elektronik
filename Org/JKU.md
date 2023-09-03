@@ -7,7 +7,7 @@
 > Peter Brandstetter - Referatsleiter KUSS/MyJKU
 
 - [Lernen](Lernen.md), [Lernpower](Lernpower.md)
-- [3-Runden-Lesestrategie](3-Runden-Lesestrategie.md)
+- [3-Runden-Lesestrategie](Org/3-Runden-Lesestrategie.md)
 - [Zeit Management](Zeit%20Management.md)
 
 # Möglichkeiten im Ausland
