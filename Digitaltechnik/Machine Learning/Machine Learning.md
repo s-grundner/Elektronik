@@ -23,6 +23,7 @@ grid: true
 ---
 y= -0.1*x+5
 ```
+
 $$
 \begin{align*}
 k &= \dfrac{\Delta y}{\Delta x} =\frac{-5}{50}\\
