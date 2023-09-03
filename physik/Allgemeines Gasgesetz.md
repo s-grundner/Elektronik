@@ -42,7 +42,7 @@ $$
 | allgemeine Gaskonstante                       | $R$           | $\frac{J}{mol\cdot K}$ |
 | Boltzmann Konstante                           | $k_{B}$       | $\frac{J}{K}$          |
 
-# Ideales Gas und reales Gas
+# Ideales Gas Und Reales Gas
 
 **Ideales Gas:**
 - nimmt den zu Verfügung stehenden Raum **zur Gänze** ein.

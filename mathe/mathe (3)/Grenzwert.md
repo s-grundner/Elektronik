@@ -6,7 +6,7 @@ source: ["Rudolf Frauenschuh"]
 created: 19th August 2022
 ---
 
-# Grenzwert einer unendlichen Folge   
+# Grenzwert Einer Unendlichen Folge
 
 > [!IMPORTANT] Eine Zahl $g$ heißt *Grenzwert* oder *Limes* einer unendlichen Folge ($c_{n}$), wenn sich ihre Glieder beliebig dieser Zahl nähern.  
 > Das bedeutet, dass fast alle (= alle bis auf endlich viele) Folgeglieder der Zahl $g$ so nahe kommen, wie man es nur wünscht.   

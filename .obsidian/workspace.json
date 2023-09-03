@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "91e6ea9d6e615477",
+        "id": "6cf79454ce7f1f08",
         "type": "tabs",
         "children": [
           {
-            "id": "28357795ff10b786",
+            "id": "a9ab7fe7349ded75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathe/mathe (3)/Grenzwert.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -127,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathe/mathe (3)/Grenzwert.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathe/mathe (3)/Grenzwert.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +176,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Mathe/mathe (3)/Grenzwert.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -228,9 +220,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mathe/mathe (3)/Grenzwert.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -260,8 +250,11 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "28357795ff10b786",
+  "active": "a9ab7fe7349ded75",
   "lastOpenFiles": [
+    "00_templates/sidebar_colorfulclock.md",
+    "Physik/Allgemeines Gasgesetz.md",
+    "Mathe/mathe (3)/Grenzwert.md",
     "Mathe/{MOC} Mathe.md",
     "Org/HTL.md",
     "Softwaretechnik/{MOC} FSST.md",
@@ -305,9 +298,6 @@
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_02_Scrum.md",
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_01_Ue_SoftwareEngineering.md",
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_01_SoftwareEngineering.md",
-    "Softwaretechnik/SEng/02_SEng/README.md",
-    "Softwaretechnik/Sec/Sec_Skr_02_Authentifikation.md",
-    "Softwaretechnik/Sec/Sec_Skr_02_Ue_Authentification_KeySigning.md",
     "Org/Home.canvas",
     "Hardwareentwicklung/Stromversorgungseinheiten/{CNV} Stromversorgungseinheiten.canvas",
     "Projekte/RFID-Gwent.canvas",
