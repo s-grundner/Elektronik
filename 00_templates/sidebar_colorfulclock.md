@@ -1,5 +1,2 @@
-<br>
 
-```jsx:
-<ColorfulClock/>
-```
+`jsx:<ColorfulClock></ColorfulClock>`

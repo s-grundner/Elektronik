@@ -1,4 +1,5 @@
 ---
+cssclasses: mytools
 defines-react-components: true
 ---
 
@@ -36,7 +37,7 @@ return (
 		{formatDate[4]}
 	</button>
 	
-	<span className="progress-clock__time-colon">:</span>
+	<span className="progress-clock__time-colo[[[[> [!]]]]]n">:</span>
 	
 	<button className="progress-clock__time-digit" data-unit="s" data-group="s" type="button">
 		{formatDate[5]}
