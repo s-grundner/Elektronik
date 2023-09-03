@@ -66,13 +66,15 @@ Hier ist **Host A** mit **Router 1** verbunden. Dieser ist (via weiterer, hier n
 - über die Jahre haben sich leichter implementierbare Protokolle (daher preiswerter) etabliert.
 - das amerikanische Verteidigungsministerium hat eigene Lösungen erarbeitet
 
-Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:  
-![|inlineR](Nw/assets/NW_Schichtenmodell_IP.png)
 
-- **Application Layer** OSI-Layer 5,6, und 7; Nachricht bestehend aus Header und Daten.
-- **Transport Layer** OSI-Layer 4 und teilweise 5; Segment bestehend aus Header und Nachricht und 
-- **Internet Layer** OSI-Layer 3; Paket bestehend aus Header und Segment
-- **Network Access Layer** OSI-Layer 1, 2 und zum Teil 3; Frame bestehend aus Header und Paket
+Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:  
+
+ ![|inlineR|450](Nw/assets/NW_Schichtenmodell_IP.png)
+
+> - **Application Layer** OSI-Layer 5,6, und 7; Nachricht bestehend aus Header und Daten.
+> - **Transport Layer** OSI-Layer 4 und teilweise 5; Segment bestehend aus Header und Nachricht und 
+> - **Internet Layer** OSI-Layer 3; Paket bestehend aus Header und Segment
+> - **Network Access Layer** OSI-Layer 1, 2 und zum Teil 3; Frame bestehend aus Header und Paket
 
 Die niedrigen Schichten beinhalten immer die kompletten oberen Schichten, erweitert um einen Schichtspezifischen Header. Der TCP-Header beinhaltet den Quell-/Ziel-Port, der IP-Header beinhaltet die Quell-/Ziel-IP-Adresse und die beiden [Ethernet](Ethernet.md)-Schichten darunter die Quell-/Ziel-MAC-Adressen (Achtung: Bild nicht maßstabgerecht):
 
