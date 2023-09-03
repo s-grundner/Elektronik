@@ -8,8 +8,8 @@ created: 28th November 2022
 
 # Schwarzkörperstrahlung
 
-absorbiert auftreffende elektromagnetische [Strahlung](../chemie/Radioaktivität.md) vollständig, somit auch [Licht](../chemie/Spektralanalyse.md).  
-Er lässt keine [Strahlung](../chemie/Radioaktivität.md) hindurch und spiegelt oder streut nichts.  
+absorbiert auftreffende elektromagnetische [Strahlung](../Chemie/Radioaktivität.md) vollständig, somit auch [Licht](../Chemie/Spektralanalyse.md).  
+Er lässt keine [Strahlung](../Chemie/Radioaktivität.md) hindurch und spiegelt oder streut nichts.  
 Besitz ein **Absorptionsvermögen** von **$\alpha=1$**
 
 ## Stefan-Boltzmann Verteilung

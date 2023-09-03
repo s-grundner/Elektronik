@@ -34,7 +34,7 @@ Hochfrequenter Teil
 ## Einsatzgebiete
 
 - Dort wo eine galvanische Trennung bereits vorhanden ist.
-- Bei [Akku](../../chemie/Sekundärelement.md) betrieben Geräten
+- Bei [Akku](../../Chemie/Sekundärelement.md) betrieben Geräten
 
 ## Prinzip 
 

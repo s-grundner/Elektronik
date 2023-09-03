@@ -24,13 +24,13 @@ Alle Körper sind aus kleinen, sich ständig bewegenden Teilchen aufgebaut.
 **Avogadro'sches Gesetz:**  
 $p\cdot V = n\cdot R\cdot T$
 
-### Molare Gaskonstante, [Molvolumen](../chemie/Molvolumen.md), Molare Masse
+### Molare Gaskonstante, [Molvolumen](../Chemie/Molvolumen.md), Molare Masse
 
 | Bezeichnung                                         | Formelzeichen | Einheit                                       |
 | --------------------------------------------------- | ------------- | --------------------------------------------- |
 | allgemeine Gaskonstante                             | $R$           | $\dfrac{J}{mol\cdot K}$                       |
-| [Molares Volumen](Molvolumen.md)                                     | $V$           | $\dfrac{dm^{3}}{mol}$ / $\dfrac{m^{3}}{kmol}$ |
-| Molare Masse ([PSE](Periodensystem%20der%20Elemente.md)) | $M$           | $\dfrac{g}{mol}$ / $\dfrac{kg}{kmol}$         |
+| [Molares Volumen](../Chemie/Molvolumen.md)                                     | $V$           | $\dfrac{dm^{3}}{mol}$ / $\dfrac{m^{3}}{kmol}$ |
+| Molare Masse ([PSE](../Chemie/Periodensystem%20der%20Elemente.md)) | $M$           | $\dfrac{g}{mol}$ / $\dfrac{kg}{kmol}$         |
 | [Temperatur](Temperatur%20und%20Teilchenmodell.md)       | $T$           | $K$                                           |
 | Stoffmenge (Molzahl)                                | $n$           | $mol$                                         |
 | Teilchenzahl                                        | $N$           | Anzahl                                        |
@@ -57,7 +57,7 @@ Grafik: maximale absolute Luftfeuchtigkeit in Abhängigkeit der [Temperatur](Tem
 ### Treibhauseffekt
 
 ![Treibhaus](assets/Treibhaus.png)  
-Sichtbares [Licht](../chemie/Spektralanalyse.md), UV-Strahlen und Infrarotstrahlen dringen leicht durch die Atmosphäre. Die Erdoberfläche erwärmt sich und gibt Wärmestrahlung in Form von langwelligen Infrarotewellen ab.
+Sichtbares [Licht](../Chemie/Spektralanalyse.md), UV-Strahlen und Infrarotstrahlen dringen leicht durch die Atmosphäre. Die Erdoberfläche erwärmt sich und gibt Wärmestrahlung in Form von langwelligen Infrarotewellen ab.
 
 Spurengase in der Atmosphäre reflektieren teilweise die ausgesendeten Infrarotstrahlen zurück.  
 Das ist der Natürliche Treibhauseffekt.

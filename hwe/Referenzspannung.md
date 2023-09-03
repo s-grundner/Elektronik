@@ -91,4 +91,4 @@ $$
 
 # Tags
 
-[Chemische Bindungen](../chemie/Chemische%20Bindungen.md)
+[Chemische Bindungen](../Chemie/Chemische%20Bindungen.md)

@@ -102,7 +102,7 @@ $$
  > [!EXAMPLE] Bestimme die Oxidationszahlen  
  > $H_{2}SO_{4}$, $H_{2}SO_{3}$, $KNO_{3}$, $K_{2}Cr_{2}O_{3}$, $KMnO_{4}$, $FeCl_{2}$, $H_{2}O_{2}$, $NaH$
  > > [!success] Lösungen  
- > > ![300](LSG-oxzahlen.png)
+ > > ![300](assets/LSG-oxzahlen.png)
 
 ## Anwendung von Oxidationszahlen
 

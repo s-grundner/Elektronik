@@ -34,7 +34,7 @@ $$
 | Bezeichnung                                   | Formelzeichen | Einheit                |
 | --------------------------------------------- | ------------- | ---------------------- |
 | Druck                                         | $p$           | $\frac{N}{m^{2}}=Pa$   |
-| [Gasvolumen](Molvolumen.md)                    | $V$           | $dm^{3}=l$             |
+| [Gasvolumen](../Chemie/Molvolumen.md)                    | $V$           | $dm^{3}=l$             |
 | [Temperatur](Temperatur%20und%20Teilchenmodell.md) | $T$           | $K$                    |
 | Stoffmenge (Molzahl)                          | $n$           | $mol$                  |
 | Teilchenzahl                                  | $N$           | Anzahl                 |
@@ -47,7 +47,7 @@ $$
 **Ideales Gas:**
 - nimmt den zu Verfügung stehenden Raum **zur Gänze** ein.
 - Erdanziehungskraft ist vernachlässigbar
-- Volumen der Gas Atome / [Moleküle](../chemie/Atombindung.md) ist Vernachlässigbar zum Gesamtvolumen
+- Volumen der Gas Atome / [Moleküle](../Chemie/Atombindung.md) ist Vernachlässigbar zum Gesamtvolumen
 - Anziehungskraft untereinander vernachlässigbar
 - Haben nur **eine** Molekülsorte
 

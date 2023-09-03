@@ -14,7 +14,7 @@ created: 19th August 2022
 
 - [Thermodynamik](Thermodynamik.md)
 - [Kernfusion](Kernfusion.md)
-- [Radioaktivität](../chemie/Radioaktivität.md)
+- [Radioaktivität](../Chemie/Radioaktivität.md)
 - [Gasgesetze](Allgemeines%20Gasgesetz.md)
 - Energieumwandlung, Energieformen und [Leistung](Elektrische%20Leistung.md)
 
@@ -61,7 +61,7 @@ Alle im TR
 ausnahmen:  
 masse von proton elektron?  
 [TR-Konstanten](Konstanten%20Verzeichnis.md)  
-Energie dichte [Batterie](../chemie/Primärelement.md)
+Energie dichte [Batterie](../Chemie/Primärelement.md)
 
 $$
 

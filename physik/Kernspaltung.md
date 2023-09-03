@@ -33,7 +33,7 @@ Man muss beachten, dass sich diese Energie auf einen Kernzerfall bezieht. Betrac
 
 ## Kettenreaktion
 
-![Kernspaltung](../chemie/assets/Kernspaltung.png)
+![Kernspaltung](../Chemie/assets/Kernspaltung.png)
 
 Treffen die bei einer Kernspaltung **frei werdenden Neutronen** auf weiteres **spaltbares Material** und haben sie darüber hinaus die "**richtige**" Geschwindigkeit, so können sie **weitere Kernspaltungen** hervorrufen.  
 Es kommt zu einer Reaktion, die sich **von selbst fortsetzt**, zu einer Kettenreaktion.
@@ -55,4 +55,4 @@ Carnot Prozesse
 
 # Tags
 
-[Radioaktivität](../chemie/Radioaktivität.md)
+[Radioaktivität](../Chemie/Radioaktivität.md)
