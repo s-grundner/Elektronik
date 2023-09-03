@@ -108,7 +108,7 @@ Date: Thu, 06 Feb ...
 
 ## Resource und Representation (Youtube6)
 
-Wird mittels URL ein Request abgesetzt, dann bereitet der Server Daten auf und sendet diese zurück. Das Aufbereiten kann sein: der Inhalt einer Datei wird kopiert und gesendet (z.B. .html) oder Daten aus einer [Datenbank](../Db/Datenbank.md) werden aufbereitet zurückgesendet oder das Ergebnis einer Skriptausführung. Allen ist jedoch gemeinsam: kaum sind die Daten des Responses empfangen, sind sie schon veraltet. Das bedeutet eine Repräsentation ist nichts anderes als eine Momentaufnahme zum Zeitpunkt der Abfrage. Dadurch können mehrere Clients gleichzeitig lose mit einem Server verbunden sein, durch das Kopieren sind Resourcen nicht blockiert.
+Wird mittels URL ein Request abgesetzt, dann bereitet der Server Daten auf und sendet diese zurück. Das Aufbereiten kann sein: der Inhalt einer Datei wird kopiert und gesendet (z.B. .html) oder Daten aus einer [Datenbank](../Datenbank/Datenbank.md) werden aufbereitet zurückgesendet oder das Ergebnis einer Skriptausführung. Allen ist jedoch gemeinsam: kaum sind die Daten des Responses empfangen, sind sie schon veraltet. Das bedeutet eine Repräsentation ist nichts anderes als eine Momentaufnahme zum Zeitpunkt der Abfrage. Dadurch können mehrere Clients gleichzeitig lose mit einem Server verbunden sein, durch das Kopieren sind Resourcen nicht blockiert.
 
 Zustandslosigkeit: ein Server speichert keine Information über den Client.
 

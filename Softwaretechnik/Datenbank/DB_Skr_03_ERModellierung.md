@@ -16,7 +16,7 @@ Beschreibung der realen Welt durch:
 - Relationship: Beziehungsmöglichkeit (dargestellt durch Rauten) zwischen den Entitäten
 - Eigenschaften: Eigenschaft (dargestellt durch Ovale) der Entität
 
-## Modellierung im ER-Diagramm
+## Modellierung Im ER-Diagramm
 
 Beispiel: ein Mitarbeiter kann an einem Kurs teilnehmen.
 
@@ -32,7 +32,7 @@ Vorgangsweise:
 - Eigenschaften definieren
 - Identifikationsschlüssel definieren (werden unterstrichen dargestellt)
 
-## Kardinalität der Beziehung (1:1, 1:n, n:m)
+## Kardinalität Der Beziehung (1:1, 1:n, n:m)
 
 Einzelne Objekte können zu einer Anzahl von gleichartigen Objekten eine Beziehung haben:
 
@@ -73,7 +73,7 @@ In den meisten Fällen sind diese isa-Beziehungen 1:n-Beziehungen - für dieses 
 
 Der Vorteil der Verwendung von isa-Strukturen ist, dass damit zum Beispiel einfach sichergestellt werden kann, dass die Personalnummer eindeutig ist.
 
-## Übertragung auf Relationen
+## Übertragung Auf Relationen
 
 Mit den so gefundenen Modellen können Relationen erzeugt werden:
 
@@ -89,11 +89,11 @@ Mit den so gefundenen Modellen können Relationen erzeugt werden:
 
 Wenn das Diagramm gut aufgebaut wurde, ergibt sich automatisch eine hohe Normalformnummer.
 
-## Praktische Umsetzung von Fremdschlüsseln
+## Praktische Umsetzung Von Fremdschlüsseln
 
 - In Werkzeugen zur Erstellung wird für Fremdschlüssel die Optionen **NO ACTION**, **CASCADE**, **RESTRICT**, **SET NULL** und **SET DEFAULT** angeboten. Damit wird festgelegt wie in der abhängigen Tabelle verfahren wird, wenn ein verknüpfter Schlüssel verändert wird. Eben nichts oder Änderung übernehmen usf.
 
-## Notation nach Barker
+## Notation Nach Barker
 
 Die Darstellung nach Peter Chen ist für das Zeichnen mit der Hand noch relativ gut möglich, die Darstellung nach Barker ist für größere Strukturen wesentlich komfortabler und übersichtlicher. Von dieser Notation kann einfach mittels UML-Darstellungen in Werkzeugen gearbeitet werden:
 

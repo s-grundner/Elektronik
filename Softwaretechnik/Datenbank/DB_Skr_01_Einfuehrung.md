@@ -22,7 +22,7 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
 
 ![lampStack](assets/lampStack.png)
 
-## Anforderung an eine Datenbank
+## Anforderung an Eine Datenbank
 
 - Sammlung logisch verbundener Daten
 - Speicherung der Daten mit möglichst wenig [Redundanz](../../Netzwerktechnik/Redundanz.md) (Mehrfachspeicherung)

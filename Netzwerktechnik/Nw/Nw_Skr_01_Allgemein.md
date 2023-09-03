@@ -57,7 +57,7 @@ Beispiele für gängige Server-Anwendungen sind:
 - Mail-Server (der liefert meinem Client-Mailprogramm Mails wenn abgefragt wird)
 - Drucker-Server: wird etwas im Netzwerk gedruckt, dann sendet ein Druckertreiber (Client) an den Drucker-Server (eventuell Software nur im Drucker)
 - Web-Server: ein Browser (Client) fragt nach einer Seite (beim Web-Server)
-- [Datenbank](../../Softwaretechnik/Db/Datenbank.md): eine Datenbankanwendung (php, c# …) kommuniziert mit einer [Datenbank](../../Softwaretechnik/Db/Datenbank.md) (DB-Server)
+- [Datenbank](../../Softwaretechnik/Datenbank/Datenbank.md): eine Datenbankanwendung (php, c# …) kommuniziert mit einer [Datenbank](../../Softwaretechnik/Datenbank/Datenbank.md) (DB-Server)
 - Applikation-Server: Anwendung laufen auf Server
 
 Ganz wichtig damit das funktionieren kann: die Sprache im Netzwerk muss geregelt sein. Der Anwender möchte sich nicht darum kümmern -> Protokolle.

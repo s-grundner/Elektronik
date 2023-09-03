@@ -1,8 +1,7 @@
 ---
 tags:
   - MOC
-aliases:
-  - Informationstheorie
+aliases: []
 subject:
   - ksn
 source:

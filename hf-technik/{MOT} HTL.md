@@ -27,12 +27,12 @@ created: 23rd November 2022
 
 # Matura
 
-## Grundlagen der [Informationstheorie](../Netzwerktechnik/{MOC}%20Informationstheorie.md) und Übertragungstechnik
+## Grundlagen der [Informationstheorie](../Netzwerktechnik/Informationstheorie.md) und Übertragungstechnik
 
 - [Amplitudenmodulation](Amplitudenmodulation.md)
 - [Frequenzmodulation](Frequenzmodulation.md)
 - Huffman-Codierung
-- Kenngrößen der [Informationstheorie](../Netzwerktechnik/{MOC}%20Informationstheorie.md)
+- Kenngrößen der [Informationstheorie](../Netzwerktechnik/Informationstheorie.md)
 - Hamming Abstand – Kodewürfel
 - [LWL](Lichtwellenleiter.md)
 

@@ -1,3 +1,4 @@
+
 ---
 banner: "/assets/Hauptlogo_de_schwarz_quer_jpg.jpg"
 banner_lock: "true"
