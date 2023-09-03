@@ -1,6 +1,7 @@
 ---
 defines-react-components: true
 ---
+
 ```jsx:component:ColorfulClock
 const [date, setDate] = useState(new Date)
 
