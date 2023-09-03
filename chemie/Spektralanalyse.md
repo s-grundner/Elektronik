@@ -26,7 +26,7 @@ Violettes/Blaues Licht ist kurzwellig und energiereich.
 
 ## Elektromagnetisches Spektrum
 
-![spectrum_20090210](../physik/assets/spectrum_20090210.pdf)
+![spectrum_20090210](../Physik/assets/spectrum_20090210.pdf)
 
 ## Spektrum des Sonnenlichts
 

@@ -17,7 +17,7 @@ created: 20th August 2022
 | Allgemeine <br> Zerfallsformel | ${}^{A}_{Z}X\rightarrow {}^{A-4}_{Z-2}Y + {}^{4}_{2}He$               | ${}^{A}_{Z}X\rightarrow {}^{A}_{Z+1}Y + {}^{0}_{-1}e^{-} + {}^{0}_{0}\overline{v_{e}}$                             | ${}^{A}_{Z}X\rightarrow {}^{A}_{Z-1}Y + {}^{0}_{1}e^{+} + {}^{0}_{0}v_{e}$                                      | ${}^{A}_{Z}X* \rightarrow {}^{A}_{Z}X+\gamma$                                                                   |
 | Zerfallsvorgang                | Es werden zwei Protonen und zwei <br> Neutronen als $\alpha$-Teilchen | in Neutron wandelt sich im Kern in ein Proton um. <br> Dabei wird ein Elektron und Elektron-Antineutrino emittiert | Ein Proton wandelt sich im Kern in ein Neutron um. <br> Dabei wird ein Positron und Elektron-Neutrino emittiert | Kern geht von energetisch angeregtem Zustand <br> in energetisch günstigeren über und emittiert Gammastrahlung. |
 | Ionisationsvermögen            | sehr hoch                                                             | mittel                                                                                                             | mittel                                                                                                          | gering                                                                                                          |
-| Reichweit in [Luft](../physik/Lufthülle%20der%20Erde.md)              | Einige Zentimeter                                                     | Einige Meter                                                                                                       | einige Meter                                                                                                    | Sehr weit                                                                                                       |
+| Reichweit in [Luft](../Physik/Lufthülle%20der%20Erde.md)              | Einige Zentimeter                                                     | Einige Meter                                                                                                       | einige Meter                                                                                                    | Sehr weit                                                                                                       |
 | Abschirmung durch              | Papier                                                                | Aluminium                                                                                                          | Aluminium                                                                                                       | Blei                                                                                                            | 
 
 ### Positronen Emissions-Tomographie (PET)
@@ -39,7 +39,7 @@ Bei Positronen Strahler macht man sich zunutze, dass das emittierte Positron im 
 
 Zerfallskonstante und Zerfallsgesetz
 
-Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Wahrscheinlichkeit](../mathe/mathe%20(5)/Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.  
+Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Wahrscheinlichkeit](../Mathe/mathe%20(5)/Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.  
 Deshalb lässt sich die Aktivität einer Probe von $N$ Atomen zum Zeitpunkt $t$ ausdrücken als:  
 $A(t) = - \dfrac{\mathrm dN}{\mathrm dt}(t) = \lambda \cdot N(t)$
 
@@ -78,10 +78,10 @@ $t=\dfrac{\ln{(\dfrac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)} = \dfrac{\ln{(\d
 
 ## Strahlenschäden
 
-## [Kernspaltung](../physik/Kernspaltung.md)
+## [Kernspaltung](../Physik/Kernspaltung.md)
 
 ---
 
 # Tags
 
-[Kernfusion](../physik/Kernfusion.md)
+[Kernfusion](../Physik/Kernfusion.md)

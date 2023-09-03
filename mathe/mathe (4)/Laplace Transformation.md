@@ -9,7 +9,7 @@ created: 26th April 2022
 # Laplace Transformation - Multiplizieren statt [Differenzieren](../mathe%20(3)/Differenzialrechnung.md)
 
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem Einschalten $(t=0)$ passiert.
-- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../hwe/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
+- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
 Ist eine Funktion auf
 - $t\in\mathbb{R}$
@@ -68,7 +68,7 @@ $$
 
 ### Dämpfungssatz
 
-Aus einer [Dämpfung](../../hwe/Dämpfung.md) im [Zeitbereich](../mathe%20(3)/Komplexe%20Zahlen.md) wird eine Verschiebung im [Bildbereich](../mathe%20(3)/Komplexe%20Zahlen.md)
+Aus einer [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) im [Zeitbereich](../mathe%20(3)/Komplexe%20Zahlen.md) wird eine Verschiebung im [Bildbereich](../mathe%20(3)/Komplexe%20Zahlen.md)
 
 $$
 \begin{align*}

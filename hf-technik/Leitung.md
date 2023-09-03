@@ -25,7 +25,7 @@ keinen konstanten Verlauf mehr:
 
 | Kennwert | Formelzeichen | Beschreibung |
 | -------- | ------------- | ------------ |
-| [Dämpfung](../../hwe/Dämpfung.md) |               |              |
+| [Dämpfung](../Hardwareentwicklung/Dämpfung.md) |               |              |
 |          |               |              |
 
 ## Leitermodell

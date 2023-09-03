@@ -23,8 +23,8 @@ $$
 
 > [!NOTE] Eine ebene Welle, die sich über eine Grenzfläche fortpflanzt. Hinter der Grenzfläche hat das Medium einen höheren Brechungsindex und die Welle eine geringere [Wellenlänge](https://de.wikipedia.org/wiki/Wellenl%C3%A4nge "Wellenlänge").
 > 
-> ![Wave_refraction](../hf-technik/assets/Wave_refraction.gif)
+> ![Wave_refraction](../HF-Technik/assets/Wave_refraction.gif)
 
 # Tags
 
-[LWL](../hf-technik/Lichtwellenleiter.md)
+[LWL](../HF-Technik/Lichtwellenleiter.md)

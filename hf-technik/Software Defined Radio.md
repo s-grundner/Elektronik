@@ -6,7 +6,7 @@ source: ["Martin Aichriedler"]
 created: 20th June 2022
 ---
 
-# Software Defined [Radio](../Rundfunk.md)
+# Software Defined [Radio](Rundfunk.md)
 
 ![SDR](assets/SDR.png)
 ---

@@ -10,7 +10,7 @@ created: 23rd November 2022
 
 ## 3. JG
 
-- [OSI-Modell](../netzwerk-technik/OSI-Modell.md)
+- [OSI-Modell](../Netzwerktechnik/OSI-Modell.md)
 - [Filter](Filter)
 
 ## 4. JG
@@ -27,12 +27,12 @@ created: 23rd November 2022
 
 # Matura
 
-## Grundlagen der [Informationstheorie](../netzwerk-technik/{MOC}%20Informationstheorie.md) und Übertragungstechnik
+## Grundlagen der [Informationstheorie](../Netzwerktechnik/{MOC}%20Informationstheorie.md) und Übertragungstechnik
 
 - [Amplitudenmodulation](Amplitudenmodulation.md)
 - [Frequenzmodulation](Frequenzmodulation.md)
 - Huffman-Codierung
-- Kenngrößen der [Informationstheorie](../netzwerk-technik/{MOC}%20Informationstheorie.md)
+- Kenngrößen der [Informationstheorie](../Netzwerktechnik/{MOC}%20Informationstheorie.md)
 - Hamming Abstand – Kodewürfel
 - [LWL](Lichtwellenleiter.md)
 
@@ -54,10 +54,10 @@ created: 23rd November 2022
 
 ## Netzwerktechnik
 
-- [Schichtenmodell](../netzwerk-technik/OSI-Modell.md)
-- [CIDR](../netzwerk-technik/CIDR.md)
-- [VLSM](../netzwerk-technik/VLSM.md)
-- [Kollisions-](../netzwerk-technik/Kollisionsdomäne.md), [Broadcastdomäne](../netzwerk-technik/Broadcastdomäne.md)
+- [Schichtenmodell](../Netzwerktechnik/OSI-Modell.md)
+- [CIDR](../Netzwerktechnik/CIDR.md)
+- [VLSM](../Netzwerktechnik/VLSM.md)
+- [Kollisions-](../Netzwerktechnik/Kollisionsdomäne.md), [Broadcastdomäne](../Netzwerktechnik/Broadcastdomäne.md)
 - Segmentierung
 
 # Übungen

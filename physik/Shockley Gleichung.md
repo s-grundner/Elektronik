@@ -12,7 +12,7 @@ Die Shockley-Gleichung, benannt nach William B. Shockley, beschreibt die Strom-S
 
 Sie lautet nach Wagner:
 
-## Bei der [Diode](../hwe/Halbleiter/Diode.md):
+## Bei der [Diode](../Hardwareentwicklung/Halbleiter/Diode.md):
 
 $I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
 

@@ -10,7 +10,7 @@ created: 28th September 2022
 
 **Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
-- Beschreiben z.B. [Filter](Filter), [Antenne](Antenne.md), [Mischer](../Mischer.md)
+- Beschreiben z.B. [Filter](Filter), [Antenne](Antenne.md), [Mischer](Mischer.md)
 - Wellenparameter = Teilspannungen 
 - Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende Spannung)
 - Widerstandsparameter bei Serienschaltung
@@ -18,7 +18,7 @@ created: 28th September 2022
 
 ## Allgemein
 
-Ausgehend von der **[Impedanz](../../hwe/Impedanz.md)** $Z_\nu$ des **Messsystems** am Tor $\nu$ lassen sich die beiden Darstellungen nach folgenden Gleichungen, welche auch als **[Heaviside-Transformation](../../mathe/mathe%20(4)/Einheitssprungfunktion.md)** bezeichnet wird, in Bezug setzen (Wir setzen im Folgenden voraus, dass $Z_0$ positiv reell ist):
+Ausgehend von der **[Impedanz](../Hardwareentwicklung/Impedanz.md)** $Z_\nu$ des **Messsystems** am Tor $\nu$ lassen sich die beiden Darstellungen nach folgenden Gleichungen, welche auch als **[Heaviside-Transformation](../Mathe/mathe%20(4)/Einheitssprungfunktion.md)** bezeichnet wird, in Bezug setzen (Wir setzen im Folgenden voraus, dass $Z_0$ positiv reell ist):
 
 ![Eintor](assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$  
 *Die Einheit der Streuparameter ist $\sqrt{W}$*
@@ -27,17 +27,17 @@ und durch Umkehrung der Beziehungen:
 $$U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu)$$  
 $$I_\nu = \dfrac{1}{\sqrt{Z_0}} \cdot (a_\nu - b_\nu)$$
 
-Die Spannung $U_\nu$ und der Strom $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../../hwe/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
+Die Spannung $U_\nu$ und der Strom $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Hardwareentwicklung/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
 $$Z_\nu = \dfrac{U_\nu}{I_\nu}$$
 
-womit sich mit der [Impedanz](../../hwe/Impedanz.md) $Z_{0}$ des Messsystems der [Reflexionsfaktor](../Reflexionsfaktor.md) $r_{\nu}$ beschreiben lässt als:  
+womit sich mit der [Impedanz](../Hardwareentwicklung/Impedanz.md) $Z_{0}$ des Messsystems der [Reflexionsfaktor](Reflexionsfaktor.md) $r_{\nu}$ beschreiben lässt als:  
 $$r_\nu = \dfrac{b_\nu}{a_\nu} = \dfrac{Z_\nu - Z_0}{Z_\nu + Z_0}, \qquad b_\nu = r_\nu \cdot a_\nu$$
 
-Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](../Reflexionsfaktor.md) $r$ gleich dem einen und **einzigen S-Parameter $S_{11}$**.
+Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexionsfaktor.md) $r$ gleich dem einen und **einzigen S-Parameter $S_{11}$**.
 
-Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../../mathe/mathe%20(4)/Matrixrechnung.md) in Form eines [linearen Gleichungssystems](Lineares%20Gleichungssystem) ausgedrückt.
+Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathe/mathe%20(4)/Matrixrechnung.md) in Form eines [linearen Gleichungssystems](Lineares%20Gleichungssystem) ausgedrückt.
 
-Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../../mathe/mathe%20(4)/Matrixrechnung.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../../mathe/mathe%20(3)/Vektorrechung.md) $a$ und $b$ als [Matrixgleichung](../../mathe/mathe%20(4)/Matrixrechnung.md) ausgedrückt:
+Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathe/mathe%20(4)/Matrixrechnung.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathe/mathe%20(3)/Vektorrechung.md) $a$ und $b$ als [Matrixgleichung](../Mathe/mathe%20(4)/Matrixrechnung.md) ausgedrückt:
 
 
 
@@ -105,12 +105,12 @@ $$
 | $S_{21}$ | Vorwärts-Transmissionsfaktor  | $S_{21}=\left. \dfrac{b_{2}}{a_{1}}\right._{a_{2}=0}$ | stellt die Vorwärts-Transmission ohne Anregung an Tor 2 dar  |
 | $S_{12}$ | Rückwärts-Transmissionsfaktor | $S_{12}=\left. \dfrac{b_{1}}{a_{2}}\right._{a_{1}=0}$ | stellt die Rückwärts-Transmission ohne Anregung an Tor 1 dar | 
 
-### [](../../hwe/Kettenmatrix.md#Impedanz%20Matrixrechnung%20Matrix|Impedanz%20Matrix)
+### [](../Hardwareentwicklung/Kettenmatrix.md#Impedanz%20Matrixrechnung%20Matrix|Impedanz%20Matrix)
 
 Standard [Zweitor](Zweitor.md)
  
 > [!EXAMPLE] T-Gleid
 
-### [](../../hwe/Kettenmatrix.md#Admittanz%20Matrixrechnung%20Matrix|Admittanz%20Matrix)
+### [](../Hardwareentwicklung/Kettenmatrix.md#Admittanz%20Matrixrechnung%20Matrix|Admittanz%20Matrix)
 
 # Einführung von Streuparametern und Wellengrößen

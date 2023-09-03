@@ -10,15 +10,15 @@ created: 23rd November 2022
 
 ## Grundbegriffe und Kenngrößen
 
-Antennen erzeugen und empfangen [Elektromagnetische Wellen](../../physik/Elektromagnetische%20Wellen.md), die sich im freien Raum ausbreiten:
-- Im Sendefall: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../../physik/Elektrische%20Leistung.md) möglichst effizient in eine [EM-Welle](../../physik/Elektromagnetische%20Wellen.md) um.
-- Im Empfangsfall: Die Antenne nimmt aus einen [EM-Wellenfeld](../../physik/Elektromagnetische%20Wellen.md) [Leistung](../../physik/Elektrische%20Leistung.md) auf und stellt diese an ihrem [Netzwerktor](Streuparameter.md) zur Verfügung.
+Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromagnetische%20Wellen.md), die sich im freien Raum ausbreiten:
+- Im Sendefall: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../Physik/Elektrische%20Leistung.md) möglichst effizient in eine [EM-Welle](../Physik/Elektromagnetische%20Wellen.md) um.
+- Im Empfangsfall: Die Antenne nimmt aus einen [EM-Wellenfeld](../Physik/Elektromagnetische%20Wellen.md) [Leistung](../Physik/Elektrische%20Leistung.md) auf und stellt diese an ihrem [Netzwerktor](Streuparameter.md) zur Verfügung.
 
 ### Antennen als Wellentypwandler
 
-- Zumeist ist nur das ferne [EM-Feld](../../physik/Elektromagnetische%20Wellen.md) von technischem Interesse
+- Zumeist ist nur das ferne [EM-Feld](../Physik/Elektromagnetische%20Wellen.md) von technischem Interesse
 - Da jede Antenne in hinreichend großem Abstand als klein angesehen werden kann, ist eine Beschreibung in [Kugelkoordinaten](Kugelkoordinaten.md) zweckmäßig.
-- Die Antenne erzeugt ein Wellenfeld (Freiraumwelle), welches [Leistung](../../physik/Elektrische%20Leistung.md) von der Antenne fortführt (a).
+- Die Antenne erzeugt ein Wellenfeld (Freiraumwelle), welches [Leistung](../Physik/Elektrische%20Leistung.md) von der Antenne fortführt (a).
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
 >[!summary] Sende- & Empfangsfall  
@@ -28,12 +28,12 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../../physik/Elektro
 
 #### Feldkomponenten $\vec{E}$ und $\vec{H}$
 
-$\vec{E}\dots$ [E-Feldstärke](../../hwe/Elektrisches%20Feld.md#Elektrische%20Feldstärke)  
-$\vec{H}\dots$ [H-Feldstärke](../../hwe/Magnetisches%20Feld.md#Magnetisches%20Feld)  
-Das Kreuzprodukt beider [Vektoren](../../mathe/mathe%20(3)/Vektorrechung.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
+$\vec{E}\dots$ [E-Feldstärke](../Hardwareentwicklung/Elektrisches%20Feld.md#Elektrische%20Feldstärke)  
+$\vec{H}\dots$ [H-Feldstärke](../Hardwareentwicklung/Magnetisches%20Feld.md#Magnetisches%20Feld)  
+Das Kreuzprodukt beider [Vektoren](../Mathe/mathe%20(3)/Vektorrechung.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
 
 $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$  
-[Transversale Elektromagnetische Welle](../Transversale%20Elektromagnetische%20Welle.md)
+[Transversale Elektromagnetische Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ### Nahfeld und Fernfeld
 
@@ -83,11 +83,11 @@ Feldabstand bei:
 
 ## 9:27:
 
-- [TEM-Welle](../Transversale%20Elektromagnetische%20Welle.md) -> Amplituden sind Normal zur Ausbreitungsrichtung
+- [TEM-Welle](Transversale%20Elektromagnetische%20Welle.md) -> Amplituden sind Normal zur Ausbreitungsrichtung
 - $\vec E\times\vec H$ visualisiert
 
 ## 25:30
 
-Quadratur Amplituden [Modulation](../Modulation.md) ([QAM](Quadratur%20Amplituden%20Modulation.md))
+Quadratur Amplituden [Modulation](Modulation.md) ([QAM](Quadratur%20Amplituden%20Modulation.md))
 
 ![Gustrau](assets/Gustrau.pdf)

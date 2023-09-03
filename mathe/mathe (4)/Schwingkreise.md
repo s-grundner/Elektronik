@@ -55,13 +55,13 @@ $\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
 
 ## Freie Schwingungen im realen Serienschwingkreis
 
-Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../hwe/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
+Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
 ![400](../assets/e_serien_schwingk_frei.png)
 
 Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
-| Einfluss der [Spule](Impedanz.md) | Einfluss des [Kondensator](Impedanz.md)      | Einfluss des [Widerstand](Impedanz.md) |
+| Einfluss der [Spule](../../Hardwareentwicklung/Impedanz.md) | Einfluss des [Kondensator](../../Hardwareentwicklung/Impedanz.md)      | Einfluss des [Widerstand](../../Hardwareentwicklung/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$    | $u_{C}(0) = U_{0}$                           | $u_{R}=i(t)\cdot R$                    |
 |                                   | $q(t)=C\cdot u_{C}(t)$                       |                                        |
@@ -131,7 +131,7 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 
 Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige [Spannung](https://de.wikipedia.org/wiki/Ohmsches_Gesetz) $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
-| Einfluss der [Spule](Impedanz.md) | Einfluss des [Kondensators](Impedanz.md)      | Einfluss des [Widerstands](Impedanz.md) |
+| Einfluss der [Spule](../../Hardwareentwicklung/Impedanz.md) | Einfluss des [Kondensators](../../Hardwareentwicklung/Impedanz.md)      | Einfluss des [Widerstands](../../Hardwareentwicklung/Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$   | $i(t)=C\cdot\frac{du_{c}}{dt}$               | $u_{R}=i(t)\cdot R$                    |
 |                                  | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |
@@ -163,7 +163,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > [!EXAMPLE]  
 > Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
 > 
-> ![300](e_serien_schwingk_erzw.png)
+> ![300](../assets/e_serien_schwingk_erzw.png)
 > 
 > Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$  
 > Um den eingeschwungenen Zustand zu definieren, wird zunächst $u_{h}$ - die homogene Lösung - ignoriert.
@@ -235,7 +235,7 @@ $$
 \end{align*}
 $$
 
-> [!NOTE] Das [globale Minimum](%7BMOC%7D%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung.md) ermittelt.
+> [!NOTE] Das [globale Minimum](../mathe%20(3)/{MOC}%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](../mathe%20(3)/Differenzialrechnung.md) ermittelt.
 
 $$
 \begin{align*}
@@ -260,7 +260,7 @@ $$
 
 # Hardware Implementationen
 
-- [LC Oszillatoren](../../hwe/Oszillatoren/LC%20Oszillatoren.md)
-- [Colpitts Oszillator](../../hwe/Oszillatoren/Colpitts%20Oszillator.md)
+- [LC Oszillatoren](../../Hardwareentwicklung/Oszillatoren/LC%20Oszillatoren.md)
+- [Colpitts Oszillator](../../Hardwareentwicklung/Oszillatoren/Colpitts%20Oszillator.md)
 
 # Tags

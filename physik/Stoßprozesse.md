@@ -36,7 +36,7 @@ v'_{2} = u_{2} &= 2\cdot v_{s} - v_{2}
 $$
 
 > [!EXAMPLE] Gummiball und Wand  
-![elastischer_stoss1](elastischer_stoss1.svg)
+![elastischer_stoss1](assets/elastischer_stoss1.svg)
 
 ---
 
