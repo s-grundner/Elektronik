@@ -15,9 +15,9 @@ created: 19th August 2023
 
 ## Hochfrequenz Leitungen
 
-## [Schirmung](Schirmung.md) von Leiterbahnen
+## [Schirmung](Schirmung.md) Von Leiterbahnen
 
-## Maßnahmen zur elektromagnetischen Verträglichkeit ([EMV](Elektromagnetische%20Verträglichkeit.md#Komponenten%20und%20Konzepte%20zur%20Verbesserung))
+## Maßnahmen Zur Elektromagnetischen Verträglichkeit ([EMV](Elektromagnetische%20Verträglichkeit.md#Komponenten%20und%20Konzepte%20zur%20Verbesserung))
 
 ### Stack-Up
 
@@ -33,7 +33,7 @@ created: 19th August 2023
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### Leiterbahnen und Anpassung
+### Leiterbahnen Und Anpassung
 
 1. Leiterbahnen kurz halten
 2. Wellenwiderstand / [Impedanz](Impedanz.md) Anpassen

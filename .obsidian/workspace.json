@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "{MOC} HTL/{MOC} HTL.md",
+                "file": "Chemie/{MOC} Chemie.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "{MOC} HTL/{MOC} HTL.md",
+                "file": "Chemie/{MOC} Chemie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "{MOC} HTL/{MOC} HTL.md",
+                "file": "Chemie/{MOC} Chemie.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "{MOC} HTL/{MOC} HTL.md",
+                "file": "Chemie/{MOC} Chemie.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "{MOC} HTL/{MOC} HTL.md"
+                "file": "Chemie/{MOC} Chemie.md"
               }
             }
           }
@@ -260,26 +260,27 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "28357795ff10b786",
+  "active": "f8d091b085f3dad1",
   "lastOpenFiles": [
+    "HF-Technik/{MOC} KSN.md",
     "Org/HTL.md",
     "{MOC} HTL/{MOC} HTL.md",
+    "Chemie/{MOC} NW RDP.md",
+    "Digitaltechnik/{MOC} DIC.md",
+    "Chemie/{MOC} Chemie.md",
+    "Hardwareentwicklung/PCB-Layout.md",
     "Physik/{MOC} Matura.md",
-    "HF-Technik/{MOC} HTL.md",
     "Mathe/{MOC} HTL.md",
-    "{MOC} Chemie/{MOC} Matura.md",
-    "Digitaltechnik/{MOC} HTL.md",
-    "{MOC} Chemie/{MOC} Chemie.md",
     "Digitaltechnik/{MOC} Schnittstellen.md",
     "ReactJS/ColorfulClock.md",
     "00_templates/sidebar_colorfulclock.md",
     "00_templates/moc_header.md",
     "00_templates/mot_header.md",
-    "{MOC} Chemie/Chemische Reaktionen.md",
+    "Chemie/Chemische Reaktionen.md",
     "00_templates/{MOC} HALLO.md",
     "00_templates/htl_header.md",
     "Digitaltechnik/Digitaltechnik.md",
-    "{MOC} Chemie/Chemische Bindungen.md",
+    "Chemie/Chemische Bindungen.md",
     "Org/Zeit Management.md",
     "Netzwerktechnik/Informationstheorie.md",
     "Org/JKU.md",
@@ -287,7 +288,6 @@
     "{MOC} HTL/Datenbank/Datenbank.md",
     "{MOC} HTL/Datenbank/DB_Skr_01_Einfuehrung.md",
     "{MOC} HTL/Datenbank/DB_Skr_04_UE_Sql.md",
-    "{MOC} HTL/Datenbank/DB_Skr_03_ERModellierung.md",
     "assets/Hauptlogo_de_schwarz_quer_jpg.jpg.0.pdnSave",
     "assets/Hauptlogo_de_schwarz_quer_jpg.jpg",
     "assets/Hauptlogo_de_schwarz_quer_jpg.jpg.crdownload",
@@ -295,7 +295,7 @@
     "Digitaltechnik/assets/docs-slides-Lecture6.pdf",
     "Digitaltechnik/assets/docs-slides-Lecture5.pdf",
     "Digitaltechnik/assets/docs-slides-Lecture4.pdf",
-    "{MOC} Chemie/assets/5c-matura-sum.pdf",
+    "Chemie/assets/5c-matura-sum.pdf",
     "ReactJS",
     "Org/Home.canvas",
     "assets/Atom-bnd.png",

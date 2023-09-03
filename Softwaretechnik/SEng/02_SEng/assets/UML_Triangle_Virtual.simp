@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp69b074bd22cc42c4b47a0564b2571d63">
+  <meta>
+    <name>UML_Rechteck</name>
+    <authors>Leno Bm</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>3</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>191</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>9</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-b55ca086fd7f4c19975b1b74ea18adb3" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Leno</first-name>
+        <last-name>Bm</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-f23d23eff5cd43c3b77dc90e2cef8433" />
+  <types default="C++">
+    <type-sets>
+      <type-set file="CppTypes.xml" />
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="int" tid="" name="int" description="" />
+      <type id="Qt::GlobalColor" tid="" name="Qt::GlobalColor" description="" />
+      <type id="GlobalColor" tid="" name="GlobalColor" description="" />
+      <type id="QPainter*" tid="" name="QPainter*" description="" />
+      <type id="QPoint" tid="" name="QPoint" description="" />
+      <type id="void" tid="" name="void" description="" />
+      <type id="~" tid="" name="~" description="" />
+    </custom-types>
+  </types>
+  <style-set name="Blue Accent">
+    <default-style>
+      <style-definition style-name="Default" shadow-type="flat" shadow-size="12,12" shadow-visible="true" shadow-color="#800080FF" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FF0080FF" glow-radius="5">
+        <text-style type="name" use-defaults="false" color="#FF002B55" font="Tahoma;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;10;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="forward-diagonal" colors="#FFFFFFFF,#FF80BFFF" />
+        <border color="#FF006AD5" width="2" dash-style="solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+      </style-definition>
+    </default-style>
+  </style-set>
+  <items>
+    <item id="4bb9523f675b45a79f26cd8e1335a10c" cid="PROP001" type="property" name="m_pt1" style-class="" owner="71d2e7bf0bea45fd89ea683ab87f1234" creator="" creation-date="12/20/2020 12:32:31" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+        <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+        <border color="#FF555555" width="2" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+            <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <background type="solid" colors="#FF203D85,#FF203D85" />
+            <border color="#FF203D85" width="2" dash-style="Solid" />
+            <label-connector color="#80000000" width="1" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <feature />
+      <structural-feature type="QPoint" type-id="QPoint" />
+      <property />
+    </item>
+    <item id="3e4623af81ee4f2b838bf5cf8f59b314" cid="PROP002" type="property" name="m_pt2" style-class="" owner="71d2e7bf0bea45fd89ea683ab87f1234" creator="" creation-date="12/20/2020 12:33:15" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+        <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="solid" colors="#FFF2F2F2,#FFF2F2F2" />
+        <border color="#FF555555" width="2" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+            <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <background type="solid" colors="#FF203D85,#FF203D85" />
+            <border color="#FF203D85" width="2" dash-style="Solid" />
+            <label-connector color="#80000000" width="1" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <feature />
+      <structural-feature type="QPoint" type-id="QPoint" />
+      <property />
+    </item>
+    <item id="4911bb23fc824706b5502970cc65097a" cid="PROP003" type="property" name="m_pen" style-class="" owner="8971ce5d54cd4a739336ae62edb057a9" creator="" creation-date="12/20/2020 13:34:25" visibility="protected">
+      <style style-name="Default" shadow-type="flat" shadow-size="12,12" shadow-visible="true" shadow-color="#800080FF" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FF0080FF" glow-radius="5">
+        <text-style type="name" use-defaults="false" color="#FF002B55" font="Tahoma;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;10;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="forward-diagonal" colors="#FFFFFFFF,#FF80BFFF" />
+        <border color="#FF006AD5" width="2" dash-style="solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+      </style>
+      <feature />
+      <structural-feature type="Qt::GlobalColor" type-id="Qt::GlobalColor" />
+      <property />
+    </item>
+    <item id="8b832a38dfc34572b6de0b3370c01dc8" cid="PROP004" type="property" name="m_pt3" style-class="" owner="71d2e7bf0bea45fd89ea683ab87f1234" creator="" creation-date="12/20/2020 13:38:38" visibility="private">
+      <style style-name="Default" shadow-type="flat" shadow-size="12,12" shadow-visible="true" shadow-color="#800080FF" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FF0080FF" glow-radius="5">
+        <text-style type="name" use-defaults="false" color="#FF002B55" font="Tahoma;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;10;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF002B55" font="Tahoma;9.75;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="forward-diagonal" colors="#FFFFFFFF,#FF80BFFF" />
+        <border color="#FF006AD5" width="2" dash-style="solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+      </style>
+      <feature />
+      <structural-feature type="QPoint" type-id="QPoint" />
+      <property />
+    </item>
+  </items>
+  <models>
+    <model id="p332b010b15ec4d7588f536adde35de3c_385179406" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author>Leno Bm</author>
+        </authors>
+        <description />
+        <creation-date>12/20/2020 12:32:14</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pe995056716284c738473104b13eb9414_645337930" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="193,-514" zoom="1.2">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author>Leno Bm</author>
+          </authors>
+          <description />
+          <creation-date>12/20/2020 12:32:14</creation-date>
+          <change-date>12/20/2020 12:55:21</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="71d2e7bf0bea45fd89ea683ab87f1234" cid="C001" type="class" name="CTriangle" style-class="" change-tracking-state="added" creator="" creation-date="12/20/2020 12:32:18" visibility="undefined" is-leaf="true">
+            <owned-items>
+              <owned-item ref="4bb9523f675b45a79f26cd8e1335a10c" />
+              <owned-item ref="3e4623af81ee4f2b838bf5cf8f59b314" />
+              <owned-item ref="8b832a38dfc34572b6de0b3370c01dc8" />
+            </owned-items>
+            <attributes>
+              <attribute id="a000bb00acdb441cd9cdb1238e2abdd48687" cid="PROP001" name="m_pt1" creation-date="12/20/2020 12:32:31" property-ref="4bb9523f675b45a79f26cd8e1335a10c" />
+              <attribute id="a8c1b8f46fa2b4f2cbe9fecdec1953e04582" cid="PROP002" name="m_pt2" creation-date="12/20/2020 12:33:15" property-ref="3e4623af81ee4f2b838bf5cf8f59b314" />
+              <attribute id="aa1b4c580a4c24da2ab88594313b4cb8c548" cid="PROP004" name="m_pt3" creation-date="12/20/2020 13:38:38" property-ref="8b832a38dfc34572b6de0b3370c01dc8" />
+            </attributes>
+            <operations>
+              <operation id="o0e96d06521a0469283d72603087bd6d8494" cid="ELEM003" name="CTriangle" creation-date="12/20/2020 12:40:21" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p4d66c6a0df2a442f88afe5eddcd6ac0e" name="Qt" type="GlobalColor" type-id="GlobalColor" />
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of64bc708ab1240bd9d203f69b7bc534b265" cid="ELEM007" name="~CTriangle" creation-date="12/20/2020 13:57:05" type="" type-id="" visibility="private" virtual="true">
+                <stereotypes>
+                  <stereotype>destructor</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5f64c2066d234288a15741f8bee5e9b6275" cid="ELEM002" name="draw" creation-date="12/20/2020 12:35:15" type="void" type-id="void" visibility="public">
+                <parameters>
+                  <parameter id="pdfa0a27ae4e64d19b003e8f582fbbcb0" name="p" type="QPainter*" type-id="QPainter*" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="a40cfd2ecf7c45d88425bdd59800e1c2" cid="GNR001" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="12/20/2020 12:42:16" to="71d2e7bf0bea45fd89ea683ab87f1234" visibility="package" />
+          <item id="da551d02199642fd8da28a9ff4b06fba" cid="C002" type="class" name="Class2" style-class="" change-tracking-state="added" creator="" creation-date="12/20/2020 12:42:16" />
+          <item id="8971ce5d54cd4a739336ae62edb057a9" cid="C003" type="class" name="CFigure" style-class="" change-tracking-state="added" creator="" creation-date="12/20/2020 12:55:21" visibility="undefined">
+            <owned-items>
+              <owned-item ref="4911bb23fc824706b5502970cc65097a" />
+            </owned-items>
+            <attributes>
+              <attribute id="a5e2503051d914176a93ff2894a2d7738713" cid="PROP003" name="m_pen" creation-date="12/20/2020 13:34:25" property-ref="4911bb23fc824706b5502970cc65097a" />
+            </attributes>
+            <operations>
+              <operation id="o94713754ee114121b9b1ae0eb86842d4848" cid="ELEM004" name="CFigure" creation-date="12/20/2020 13:35:44" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p983ab07a767a4da9ac267738c4e15c3e" name="mPen" type="Qt::GlobalColor" type-id="Qt::GlobalColor">
+                    <tagged-values>
+                      <tagged-value id="tv420bb58d0b954eccbb958cf1eb9634a5" name="set_mPen" type="reference" multiple="false" ref="4911bb23fc824706b5502970cc65097a" />
+                    </tagged-values>
+                  </parameter>
+                </parameters>
+                <stereotypes>
+                  <stereotype>create</stereotype>
+                </stereotypes>
+              </operation>
+              <operation id="of66f7c56ee77442b81f4d880b4bcf711769" cid="ELEM008" name="CFigure" creation-date="12/20/2020 14:25:32" type="" type-id="" visibility="public" virtual="true">
+                <stereotypes>
+                  <stereotype>destroy</stereotype>
+                </stereotypes>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o12aedcdeb46147ba99694b389f4237ec416" cid="ELEM005" name="draw" creation-date="12/20/2020 13:51:08" type="void" type-id="void" visibility="public" virtual="true">
+                <parameters>
+                  <parameter id="p67f24280aa1640c0a0cc2955a3d635e5" name="p" type="QPainter*" type-id="QPainter*" />
+                </parameters>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="8afdff97b9bb4a5680ddd7db6c20c22b" cid="GNR002" type="generalization" name="" style-class="" change-tracking-state="added" creator="" creation-date="12/20/2020 12:55:21" from="71d2e7bf0bea45fd89ea683ab87f1234" to="8971ce5d54cd4a739336ae62edb057a9" visibility="package" />
+        </abstract-items>
+        <layer id="8fc8c833674f44fab81754d16a34b10e" name="Default" visible="true" enabled="true" locked="false">
+          <item id="71d2e7bf0bea45fd89ea683ab87f1234" iid="7313a5c138a24c22ba4b98fab253c916" creation-date="12/20/2020 12:32:18" order-index="0" type="entity">
+            <layout ax="547" ay="-224.625" awidth="284" aheight="156.25" x="547" y="-224.625" width="284" height="156.25" rotation-center="-33,3.75" />
+            <class />
+          </item>
+          <item id="8971ce5d54cd4a739336ae62edb057a9" iid="62df36240f0a49d0af43f71f4b1f5589" creation-date="12/20/2020 12:55:21" order-index="1" type="entity">
+            <layout ax="142" ay="-211" awidth="284" aheight="129" x="50" y="50" width="140" height="93" rotation-center="0,39.75" />
+            <class />
+          </item>
+          <item id="8afdff97b9bb4a5680ddd7db6c20c22b" iid="7c8e37f4606e4a21890b9415cc285e19" creation-date="12/20/2020 12:55:21" order-index="2" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="547" y1="-146" x2="426" y2="-146" start-border-pos="0.8742" end-border-pos="0.375968992248062" name-position="0,20">
+              <points>
+                <point x="547" y="-146" />
+                <point x="426" y="-146" />
+              </points>
+            </layout>
+            <relation from="71d2e7bf0bea45fd89ea683ab87f1234" from-iid="7313a5c138a24c22ba4b98fab253c916" to="8971ce5d54cd4a739336ae62edb057a9" to-iid="62df36240f0a49d0af43f71f4b1f5589" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

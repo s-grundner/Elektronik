@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1571475221 source:c:\daten\skripten\cppworkspace\150_pattern_observer\main.cpp
+	<iostream>
+	"Wetterstation.h"
+	"Client.h"
+
+1571475221 c:\daten\skripten\cppworkspace\150_pattern_observer\include\wetterstation.h
+	<vector>
+	<algorithm>
+	<iostream>
+	"Subject.h"
+	"Observer.h"
+
+1571475221 c:\daten\skripten\cppworkspace\150_pattern_observer\include\subject.h
+	"Observer.h"
+
+1571472348 c:\daten\skripten\cppworkspace\150_pattern_observer\include\observer.h
+
+1571472549 c:\daten\skripten\cppworkspace\150_pattern_observer\include\client.h
+	<iostream>
+	"Observer.h"
+
+1571472585 source:c:\daten\skripten\cppworkspace\150_pattern_observer\src\client.cpp
+	"Client.h"
+
+1571476252 source:c:\daten\skripten\cppworkspace\150_pattern_observer\src\observer.cpp
+	"Observer.h"
+
+1571476258 source:c:\daten\skripten\cppworkspace\150_pattern_observer\src\subject.cpp
+	"Subject.h"
+
+1571475221 source:c:\daten\skripten\cppworkspace\150_pattern_observer\src\wetterstation.cpp
+	"Wetterstation.h"
+

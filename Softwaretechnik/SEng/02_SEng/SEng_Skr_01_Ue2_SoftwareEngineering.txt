@@ -1,0 +1,72 @@
+SICHERN/WISSEN: SOFTWAREENGINEERING-Einführung
+------------------------------------------------------------
+
+1. Sie kennen das all. Phasenmodell
+	Bringen Sie die Liste wieder in die richtige Reichenfolge
+	5.-> ____. Planung und Problemanalyse
+	3.-> ____. Analyse: (Pflichtenheft)
+	6.-> ____. Entwurf: System- und Komponentenentwurf 
+	4.-> ____. Programmierung und Komponententest 
+	1.-> ____. Systemtest 
+	2.-> ____. Betrieb und Wartung 
+
+2. Sie wissen, welche Phase welche Ergebnisse zu liefern hat
+	DA-Antrag				-> Phase: ______________________
+	Systemtestprotokoll:	-> Phase: ______________________
+	Pflichtenheft:			-> Phase: ______________________
+	ProgrammModule:			-> Phase: ______________________
+	Modultestprotokoll:		-> Phase: ______________________
+	UML-Diagramme:			-> Phase: ______________________
+	fertiges Produkt:		-> Phase: ______________________
+
+3. Worin liegt der Vorteil des V-Modells gegenüber dem klass. Wasserfallmodell?
+	
+4. Welche Tests kennt das V-Modell?
+
+5. Sie kennen die Charakteristika des
+	a) explorativen Prototypings
+	b) evolutionären Prototypings
+	
+6.Sie kennen die Einsatzgebiete des RUP und der agilen SW-Entw.Verfahrens
+
+7. Sie kennen die Prinzipien der agile Vorgehensweise
+	EXE-KOOP-UPDATE-Prinzipien
+
+8. Sie können die Charakteristika des XP-Programmings besprechen	
+	
+9. Ein XP-Team besteht 
+	a) aus folg. Personen		b) hat folg. Rollen
+	
+10. Sie treten als Kunde/Auftraggeber in einem XP-Progr. dominierten
+	Prozess auf. Was sind ihre Aufgaben/Tätigkeiten?
+	
+11. Sie treten als Programmierer in einem XP-Progr. dominierten
+	Prozess auf. Was sind ihre Aufgaben/Tätigkeiten?
+	
+12. Sie treten als Manager in einem XP-Progr. dominierten
+	Prozess auf. Was sind ihre Aufgaben/Tätigkeiten?
+	
+13. Wie wird bei XP mit dem Testen verfahren?
+
+14. Sie kennen Zweck und Inhalt eines Lasten/Pflichtenheftes
+	
+15. Sie kennen Produkte zur Programmdokumentation und können
+	diese anwenden bzw. kurz erklären.
+
+16. Sie wissen, was in folg. Dokumenten zu stehen hat:
+	a) Projekt-Tagebuch			b) Besprechungsprotokoll
+	
+17. Sie können Aufbau, Zweck und Vorgehensweise beim Umgang mit
+	Subversion erklären.
+
+18. Was versteht man als Programmierer unter dem Begriff
+	ungarische Notation?
+	
+19. Erklären Sie die Begriffe:
+    - Product Backlog
+    - Sprint
+    - Sprint Backlog
+    - Daily Scrum
+    - Velocity
+    - Review
+    - Retrospective

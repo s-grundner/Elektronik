@@ -1,0 +1,3 @@
+topsecret
+- für Makro
+- und für sperre von Blatt (kann via Makro gesperrt und geöffnet werden)
