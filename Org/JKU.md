@@ -1,5 +1,6 @@
 ---
-banner: "https://ecn.ac.at/sites/default/files/inline-images/Hauptlogo_de_schwarz_quer_jpg.jpg"
+banner: "/assets/Hauptlogo_de_schwarz_quer_jpg.jpg"
+banner_lock: "true"
 ---
 
 # [JKU](https://www.jku.at/)
