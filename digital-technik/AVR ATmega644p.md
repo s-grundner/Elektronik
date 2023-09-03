@@ -65,7 +65,7 @@ const int mydata[] PROGMEM = ...
 > - Bei 1 mW/cm² misst man 0,1 V
 > - bei 10 mW/cm² 4 V.
 > 
-> Schreib eine Funktion `char check_sensor(void)`:  
+> Schreibe eine Funktion `char check_sensor(void)`:  
 > Returncode:
 > - -1 bei Energiedichte < als 3mW/cm²
 > - 0 Energiedichte zwischen 3 und 7 mW/cm²
