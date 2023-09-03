@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chemie/{MOC} Chemie.md",
+                "file": "Org/HTL.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chemie/{MOC} Chemie.md",
+                "file": "Org/HTL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chemie/{MOC} Chemie.md",
+                "file": "Org/HTL.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Chemie/{MOC} Chemie.md",
+                "file": "Org/HTL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chemie/{MOC} Chemie.md"
+                "file": "Org/HTL.md"
               }
             }
           }
@@ -262,6 +262,10 @@
   },
   "active": "f8d091b085f3dad1",
   "lastOpenFiles": [
+    "Softwaretechnik/{MOC} FSST.md",
+    "Org/HTL.md",
+    "Physik/{MOC} NW RDP.md",
+    "Chemie/{MOC} Chemie.md",
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/obj/Debug/src/Wetterstation.o",
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/obj/Debug/src/Subject.o",
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/obj/Debug/src/Observer.o",
@@ -272,7 +276,6 @@
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/src/Wetterstation.cpp",
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/src/Subject.cpp",
     "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/src/Observer.cpp",
-    "Softwaretechnik/SEng/02_SEng/Seng_Skr_06_Docu/Pattern_Observer/src/Client.cpp",
     "Softwaretechnik/SEng/01_Git/assets/git_ver10.png",
     "Softwaretechnik/SEng/01_Git/assets/git_ver09.png",
     "Softwaretechnik/SEng/01_Git/assets/git_ver07.png",
@@ -305,9 +308,6 @@
     "Softwaretechnik/Sec/Sec_Skr_02_Authentifikation.md",
     "Softwaretechnik/Sec/Sec_Skr_02_Ue_Authentification_KeySigning.md",
     "Softwaretechnik/Sec/Sec_Skr_01_Ue_Kryptographie.md",
-    "Softwaretechnik/Sec/Sec_Skr_01_Kryptographie.md",
-    "Softwaretechnik/IoT/Rest.md",
-    "Softwaretechnik/IoT/Node-RED.md",
     "Org/Home.canvas",
     "Hardwareentwicklung/Stromversorgungseinheiten/{CNV} Stromversorgungseinheiten.canvas",
     "Projekte/RFID-Gwent.canvas",
