@@ -11,8 +11,13 @@
             "id": "d5693c1011a0182a",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ReactJS/ColorfulClock.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -106,7 +111,7 @@
       {
         "id": "52acd4b768856ed7",
         "type": "tabs",
-        "dimension": 29.82758620689655,
+        "dimension": 29.827586206896555,
         "children": [
           {
             "id": "0e359560b151b2bc",
@@ -122,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ReactJS/ColorfulClock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ReactJS/ColorfulClock.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +155,7 @@
       {
         "id": "12ea1a7928151c39",
         "type": "tabs",
-        "dimension": 28.01724137931034,
+        "dimension": 28.017241379310338,
         "children": [
           {
             "id": "233b74ad1cb74d31",
@@ -168,7 +175,7 @@
       {
         "id": "fff7bfbeb1a84cbb",
         "type": "tabs",
-        "dimension": 42.1551724137931,
+        "dimension": 42.15517241379311,
         "children": [
           {
             "id": "79840337aa419a87",
@@ -176,6 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "ReactJS/ColorfulClock.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,7 +228,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ReactJS/ColorfulClock.md"
+              }
             }
           }
         ],
@@ -250,10 +260,10 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "d5693c1011a0182a",
+  "active": "f8d091b085f3dad1",
   "lastOpenFiles": [
-    "Projekte/RFID-Gwent.canvas",
     "00_templates/sidebar_colorfulclock.md",
+    "Projekte/RFID-Gwent.canvas",
     "Physik/Allgemeines Gasgesetz.md",
     "Mathe/mathe (3)/Grenzwert.md",
     "Mathe/{MOC} Mathe.md",
