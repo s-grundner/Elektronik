@@ -16,7 +16,7 @@ moment.locale('de');
 let formatDate = moment().format("dddd-MMMM-D-H-mm-ss-a").split("-")
 let secProgress = formatDate[5] / 60
 let minProgress = (formatDate[4]) / 60
-let hourProgress = (-formatDate[3]%12) / 12
+let hourProgress = (-formatDate[3] % 12) / 12
 let dayProgress = (formatDate[2]) / 31
 
 return (

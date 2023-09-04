@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReactJS/ColorfulClock.md",
+                "file": "ReactJS/DigitalClock.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReactJS/ColorfulClock.md",
+                "file": "ReactJS/DigitalClock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReactJS/ColorfulClock.md",
+                "file": "ReactJS/DigitalClock.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ReactJS/ColorfulClock.md",
+                "file": "ReactJS/DigitalClock.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReactJS/ColorfulClock.md"
+                "file": "ReactJS/DigitalClock.md"
               }
             }
           }
@@ -262,6 +262,7 @@
   },
   "active": "f8d091b085f3dad1",
   "lastOpenFiles": [
+    "ReactJS/ColorfulClock.md",
     "00_templates/sidebar_colorfulclock.md",
     "Projekte/RFID-Gwent.canvas",
     "Physik/Allgemeines Gasgesetz.md",
