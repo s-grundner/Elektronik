@@ -13,10 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReactJS/DigitalClock.md",
+                "file": "ReactJS/ColorfulClock.md",
                 "mode": "source",
                 "backlinks": true,
-                "source": false
+                "source": true
               }
             }
           }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReactJS/DigitalClock.md",
+                "file": "ReactJS/ColorfulClock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReactJS/DigitalClock.md",
+                "file": "ReactJS/ColorfulClock.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ReactJS/DigitalClock.md",
+                "file": "ReactJS/ColorfulClock.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReactJS/DigitalClock.md"
+                "file": "ReactJS/ColorfulClock.md"
               }
             }
           }
@@ -260,10 +260,11 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "f8d091b085f3dad1",
+  "active": "d5693c1011a0182a",
   "lastOpenFiles": [
-    "ReactJS/ColorfulClock.md",
     "00_templates/sidebar_colorfulclock.md",
+    "ReactJS/DigitalClock.md",
+    "ReactJS/ColorfulClock.md",
     "Projekte/RFID-Gwent.canvas",
     "Physik/Allgemeines Gasgesetz.md",
     "Mathe/mathe (3)/Grenzwert.md",
@@ -308,7 +309,6 @@
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_04_Ue_UML.md",
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_02_Ue_Scrum.md",
     "Softwaretechnik/SEng/02_SEng/SEng_Skr_02_Scrum.md",
-    "Softwaretechnik/SEng/02_SEng/SEng_Skr_01_Ue_SoftwareEngineering.md",
     "Org/Home.canvas",
     "Hardwareentwicklung/Stromversorgungseinheiten/{CNV} Stromversorgungseinheiten.canvas",
     "Mathe/mathe (5)/{CNV} Wahrscheinlichkeit.canvas",
