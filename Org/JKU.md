@@ -1,6 +1,7 @@
 
 ---
 banner: "/assets/Hauptlogo_de_schwarz_quer_jpg.jpg"
+banner_x: -0
 banner_lock: "true"
 ---
 
@@ -37,3 +38,5 @@ banner_lock: "true"
 - Stundenplan zusammenstellen  
 - Zuteilungsergebnisse  
 - Meine LVAs
+
+![](assets/986_14_BS_ElektrInfoTech.pdf)

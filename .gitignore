@@ -8,3 +8,4 @@ conflict-files-obsidian-git.md
 # Obsidian Plugins
 .obsidian/plugins
 .obsidian/workspace.json
+.obsidian/appearance.json
