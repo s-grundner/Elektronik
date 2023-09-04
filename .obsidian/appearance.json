@@ -25,10 +25,11 @@
     "【日记】Time",
     "【自定义】myhome 样式",
     "【自定义】mytools 样式",
+    "【自定义】数字时钟",
+    "【自定义】表格样式TableStyles",
     "【自定义】多彩进度条",
     "【自定义】彩色时钟样式",
-    "【自定义】数字时钟",
-    "【自定义】表格样式TableStyles"
+    "colorful_clock"
   ],
   "accentColor": "",
   "nativeMenus": false,
