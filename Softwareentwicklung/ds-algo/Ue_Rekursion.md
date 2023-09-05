@@ -4,11 +4,9 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Algo_Ue_Rekursion
+# Rekursion - Übungen
 
-## 1 Rekursion - Übungen
-
-### Selbstaufruf Ohne Abbruchbedingung (249)
+## Selbstaufruf Ohne Abbruchbedingung
 
 Wenn sich eine Funktion selbst aufruft, dann ist es notwendig, dass eine Abbruchbedingung den Selbstaufruf beendet. Ansonsten läuft der Speicher (Stack) voll und das Programm wird aufgrund eines Speicherüberlaufs beendet (Stack-Overflow, Fehler-Code 0xC00000FD).
 
@@ -19,7 +17,7 @@ void cntup(int num) {
 }
 ```
 
-### Zaehlen (251)
+## Zaehlen
 
 Zählen von einer Zahl bis zu einer zweiten Zahl iterativ:
 
@@ -42,13 +40,13 @@ void cntup(int von, int bis) {
 
 Wird hier ein entsprechend großer Bereich eingeben, dann bricht auch hier das Programm aufgrund eines Stack-Overflow ab (Rekursiv häufig ineffizient).
 
-### Ganzzahlige Addition (250)
+## Ganzzahlige Addition
 
 ​	sum(a, b) = a					für b = 0
 
 ​	sum(a, b) = 1 + sum(a, b-1)		sonst
 
-### Ganzzahlige Multiplikation (252)
+## Ganzzahlige Multiplikation
 
 Rekursiv kann eine Multiplikation sehr einfach in eine Addition überführt werden (so machen wir das auch wenn wir im Kopf rechnen):
 
@@ -58,15 +56,14 @@ Rekursiv kann eine Multiplikation sehr einfach in eine Addition überführt werd
 
 Typischer Fehler: Abbruchbedingung wird nie erreicht wenn b<0 ist.
 
-### Ganzzahlige Division (261)
+## Ganzzahlige Division
 
 Auch eine Division kann durch eine Rekursion relativ einfach gelöst werden (ohne Verwendung von "%" und "/").
 
 ​	div(a, b) = 0					für b > a
-
 ​	div(a, b) = 1 + div(a-b, b)		sonst
 
-### Ganzzahlige Subtraktion (253)
+## Ganzzahlige Subtraktion
 
 Subtraktion rekursiv:
 
@@ -74,16 +71,12 @@ Subtraktion rekursiv:
 
 ​	sub(a, b) = sub(a, b-1) - 1		sonst
 
-### Faktorielle (254)
+## Faktorielle
 
-In der Wahrscheinlichkeitsrechnung oder in Taylorreihen findet sich die Faktorielle (oder auch Fakultät) einer Zahl:
-
-​	n! = 1 * 2 * … * (n-1) * (n)		mit		0! = 1, 1! = 1
-
+> [!EXAMPLE] In der Wahrscheinlichkeitsrechnung oder in Taylorreihen findet sich die Faktorielle (oder auch Fakultät) einer Zahl:
+​n! = 1 * 2 * … * (n-1) * (n)		mit		0! = 1, 1! = 1
 und mit:
-
-​	n! = (n-1)! * n
-
+​n! = (n-1)! * n
 eine typisch rekursive Formulierung.
 
 ```c
@@ -107,7 +100,7 @@ int fact(int n) {
 
 - [Mandelbrot](Mandelbrot.md)
 
-### Größter Gemeinsamer Teiler (ggT) (256)
+## Größter Gemeinsamer Teiler (ggT)
 
 Bereits Euklid erkannte: der ggT zweier Zahlen a und b (Voraussetzung a > b) ist der Gleiche wenn stattdessen das ggT aus (a-xb) und b ermittelt wird. x sei eine beliebige positive Ganzzahl. Da (a-xb) aber kleiner als b ist können damit die Parameter vertauscht werden und das Spiel wiederholt werden. Gefunden ist der ggT wenn einer der Parameter 0 ist, der ggT ist dann der jeweils andere Parameter. (Euklidscher Algorithmus)
 
@@ -119,7 +112,7 @@ ggT(49,14)
 14-7=7 ggT(7,7)=7 --> GGT=7
 ```
 
-### Fibonacci-Zahlen (257)
+## Fibonacci-Zahlen
 
 Die Fibonacci-Zahlen ergeben sich als Summe der beiden nächst kleineren (vorhergehenden) Fibonaccizahlen:
 
@@ -131,36 +124,29 @@ Die Fibonacci-Zahlen ergeben sich als Summe der beiden nächst kleineren (vorher
 
 Diese Folge von Zahlen findet sich in der Natur sehr häufig: in Wachstumsformen von Pflanzen (Blattanordnung …), in Wachstumsraten von Kaninchenpopulationen …
 
-### Potenzieren (259)
+## Potenzieren
 
 ​	pow(x, n) = 1					wenn n = 0  
 ​	pow(x, n) = x * pow(x, n-1)		sonst
 
-### Potenzieren Schnell (260)
+## Potenzieren Schnell
 
 ​	pow(x, n) = 1							wenn	n = 0
-
 ​	pow(x, n) = pow(x, n/2) * pow(x, n/2)	wenn n geradzahlig
-
 ​	pow(x, n) = x * pow(x, n/2) * pow(x, n/2)	sonst
 
-### Umrechnen Dezimale in Duale Zahlen (258)
+## Umrechnen Dezimale in Duale Zahlen
 
-Beispiel:
-
-​	13/2 = 6		Rest: 1
-
-​	6/2 = 3		Rest: 0
-
-​	3/2 = 1		Rest: 1
-
-​	1/2 = 0		Rest: 1
-
-Ergebnis: 1101
+> [!EXAMPLE] Beispiel:
+> 13/2 = 6		Rest: 1
+> 6/2 = 3		Rest: 0
+> 3/2 = 1		Rest: 1
+> 1/2 = 0		Rest: 1
+> Ergebnis: 1101
 
 Die Abbruchbedingung: wenn das Ergebnis der ganzzahligen Division 0 ergibt.
 
-### Linie (2106)
+## Linie
 
 In einer zweidimensionalen Ebene sollen zwei Punkte s und z (Start, Ziel) mittels einer Linie verbunden werden.
 
@@ -198,7 +184,7 @@ Lösungsstrategie:
 - Anschließend ruft sich die Funktion selbst auf um diesen Schritt zu wiederholen
 - Abgebrochen wird die Ausführung wenn das Ziel erreicht ist.
 
-### Die Türme Von Hanoi (2105)
+## Die Türme Von Hanoi
 
 Ein klassisches Beispiel für eine rekursive Problemlösung sind die Türme von Hanoi. Dabei sind n Scheiben mit Loch auf einer Stange A aufgesteckt. Die Scheiben sind auf eine 2te Stange B umzustecken. Dabei darf immer nur eine Scheibe nach der anderen bewegt werden und es darf keine größere auf eine kleinere Scheibe zum liegen kommen. Als Hilfe steht eine dritte Stange C zur Verfügung:
 
@@ -218,8 +204,8 @@ Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschob
 
 In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann rekursiv eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
 
-Mehr Info: <http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi>
+Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
 
-### Visuelle Lösung Von "Die Türme Von Hanoi"
+## Visuelle Lösung Von "Die Türme Von Hanoi"
 
 Bauen Sie die gefundene Lösung als JS-Worker in ein gegebenes Template ein um eine graphische Darstellung der Problemlösung zu erhalten.
