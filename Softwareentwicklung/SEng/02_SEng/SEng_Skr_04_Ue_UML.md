@@ -71,7 +71,7 @@ class CRectangle{
 
 Nur der Konstruktor ist Public (daher +) die anderen Attribute und Methoden sind Private (daher -). Der Detailierungsgrad ist variabel, hier wird für den Konstruktor kein Name für die Parameter angegeben, für die Funktion *scale* allerdings schon (*factor*). Der Konstruktor wird wie eine statische Funktion beschrieben (unterstrichen).
 
-### Figuren - CTriangle als abgeleitete Klasse
+### Figuren - CTriangle Als Abgeleitete Klasse
 
 Klasse CFigur und abgeleitete Klasse CTriangle in C++:
 
