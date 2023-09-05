@@ -1,5 +1,5 @@
 ---
-tags: ["Interface", "AVR"]
+tags: ["Interface/Serial/Async", "AVR"]
 aliases: ["UART"]
 subject: ["dic"]
 source: ["Robert Vogl"]
@@ -16,7 +16,7 @@ Die Daten werden einfach gesendet. Bei der Verdrahtung ist zu beachten, dass die
 
 UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft über eine USB-Bridge den Flashspeicher beschreiben. Die USB-Bridge spricht das System dabei mit UART an. Auch das Debuggen erfolgt meistens über diese serielle [Schnittstelle]({MOC}%20Schnittstellen.md).
 
-## Die übertragenen Datenpakte haben folgendes Format
+## Die Übertragenen Datenpakte Haben Folgendes Format
 
 ![UART_Frame](assets/UART_Frame.png)  
 Ein Startbit signalisiert dem Empfänger, dass eine Übertragung beginnt. Das Potential auf der Übertragungsleitung ist _Normally-High_ und wird durch das Startbit auf _Low_ gezogen. Anschließend folgt das Datenframe, welches je nach Konfiguration fünf bis neun Bit lang ist. Eine Paritätsbit dient zur Validierung der Übertragung. Dieses Bit kann aber auch im Controller ausgeschalten werden. Am Ende der Übertragung setzt ein Stop Bit den Bus wieder auf den Idle-Zustand.

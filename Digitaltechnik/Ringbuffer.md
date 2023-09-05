@@ -1,5 +1,5 @@
 ---
-tags: ["Algorithmus", "buffer", "AVR"]
+tags: ["DS", "buffer", "AVR"]
 aliases: ["Circular Buffer", "Circular Queue"]
 subject: ["dic", "fsst"]
 source: ["Robert Vogl"]
@@ -26,7 +26,7 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 ![buffer_anim](assets/buffer_anim.gif)
 
-## Freier Speicher im Ringbuffer
+## Freier Speicher Im Ringbuffer
 
 > [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden  
 > Freie Größe im Ringbuffer (D… Daten, X … Freier Platz)
@@ -179,7 +179,7 @@ void print(char* message)
 }
 ```
 
-### main
+### Main
 
 ```c
 /// file: main.c

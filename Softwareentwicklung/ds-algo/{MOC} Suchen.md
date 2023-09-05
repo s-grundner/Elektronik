@@ -1,18 +1,25 @@
 ---
 tags:
+  - MOC
   - Algorithmus
   - Suchen
-aliases: []
-created: 29th November 2022
+aliases:
+  - Suchen
+subject:
+  - ""
+inst:
+  - HTBLuVA Salzburg
+created: 29. November 2022
 ---
+  
 
-# Suchen in Feldern/Arrays
+# Suchen in Feldern / Arrays
 
 Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht. Dieser Wert wird als **Schlüssel** bezeichnet.
 
 ```dataview
-LIST
-FROM #Algorithmus AND #Suchen
+LIST FROM #Algorithmus AND #Suchen
+WHERE !contains(tags, "MOC")
 SORT file.name
 ```
 

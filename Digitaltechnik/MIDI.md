@@ -1,5 +1,5 @@
 ---
-tags: ["Interface"]
+tags: ["Interface/Serial/Sync]
 aliases: []
 created: 17th August 2023
 ---

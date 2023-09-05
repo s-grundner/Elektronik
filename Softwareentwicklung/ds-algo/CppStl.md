@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - DS
 aliases: []
 created: 29th November 2022
 ---
@@ -196,15 +197,8 @@ int main() {
 }
 ```
 
-## Referenzen
+# Referenzen
 
-- deque  
-  [https://thispointer.com/what-is-stddeque-and-how-deque-works-internally/](https://thispointer.com/what-is-stddeque-and-how-deque-works-internally/)
+- [De-Queue](https://thispointer.com/what-is-stddeque-and-how-deque-works-internally/)
+- [Für Java](http://www.vogella.com/tutorials/JavaDatastructures/article.html)
 
-- für Java
-
-  [http://www.vogella.com/tutorials/JavaDatastructures/article.html](http://www.vogella.com/tutorials/JavaDatastructures/article.html)
-
-## Fragen
-
-- ?

@@ -1,5 +1,5 @@
 ---
-tags: ["Interface"]
+tags: ["Interface/Serial/Sync"]
 aliases: ["Serial Peripheral Interface"]
 subject: ["dic"]
 source: ["Robert Vogl"]
