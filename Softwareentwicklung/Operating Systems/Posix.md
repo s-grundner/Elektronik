@@ -5,7 +5,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# 4 Os - POSIX
+# POSIX
 
 Um Programme nicht für jedes Betriebssystem komplett neu entwickeln zu müssen wurde schon Früh, gewisse häufig notwendige Funktionen als Anwenderschnittstellen (**A**pplication **P**rogramming **I**nterface) , in ähnlicher Form von verschiedenen Betriebssystemen angeboten. Daraus wurde in Folge eine vom IEEE (und in Folge von ISO und IEC) standardisierte Schnittstelle die unter dem Namen **POSIX** (Portable Operating System Interface) (<https://publications.opengroup.org/g101).>
 

@@ -1,42 +1,30 @@
 ---
 tags:
+  - MOC
   - Java
   - oop
-aliases: []
-created: 29th November 2022
+aliases:
+  - Java_OOP
+subject:
+  - ""
+inst:
+  - HTL
+created: 29. November 2022
 ---
+
+# Map of Content - Java_OOP
+
+```dataview
+LIST
+FROM #Java AND #oop
+SORT file.name
+ ```
 
 # Assoziation - Aggregation - Komposition
 
-## Assoziation
-
-Zwei Klassen stehen in einer Beziehung (nicht näher definiert). Zwei Klassen stehen in (unidirektionalen) Beziehung zueinander, wenn eine Klasse eine zweite Klasse als Member-Variable beinhaltet ("part-of"-Beziehung). Bidirektionale Beziehungen problematisch – beide Seiten müssen Referenzen gleichzeitig erstellen/auflösen. Besser mit Methoden realisieren.
-
-## Aggregation (auch Schwache Aggregation)
-
-Eine Klasse ist Teil einer anderen Klasse. Die Teilklasse existiert aber auch ohne die beinhaltende Klasse. Man gibt einer Klasse als Parameter des Konstruktors ein Objekt mit und weißt es dort einem Member-Objekt zu.
-
-```java
-class OberKlasse {
-  UnterKlasse uk;							// Member-Variable
-  public OberKlasse(UnterKlasse para) {		   // Konstruktor mit Objekt als Parameter
-    uk = para;							    // existierendes UnterKlassen-Objekt wird zugewiesen
-  }
-}
-```
-
-## Komposition (auch Starke Aggregation):
-
-Eine Klasse ist Teil einer anderen Klasse. Das Teilobjekt existiert nicht ohne das beinhaltende Objekt. Im Konstruktor wird ein Objekt neu angelegt und der Member-Variable zugewiesen:
-
-```java
-class OberKlasse {
-  UnterKlasse uk;				   // Member-Variable
-  public OberKlasse() {			    // Konstruktor
-    uk = new UnterKlasse(...);		// UnterKlassen-Objekt wird im Konstruktor erzeugt
-  }
-}
-```
+- [Assoziation](Assoziation.md)
+- [Aggregation](Aggregation.md)
+- [Komposition](Komposition.md)
 
 ## Mehrfache Beziehungen
 

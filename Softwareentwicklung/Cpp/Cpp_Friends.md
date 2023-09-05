@@ -8,8 +8,7 @@ In C++ gibt es davon eine dem widersprechende Ausnahme:
 >
 > Als Friend darf eine Funktion nur innerhalb der Daten-preisgebenden Klasse definiert sein.
 
->[!EXAMPLE] 
-
+> [!EXAMPLE] (Cls2 ist Friend von Cls1):
 ```cpp
 class Cls1 {
     friend class Cls2;

@@ -13,7 +13,7 @@ created: 25th August 2023
 - [DB_UE_ERModellierung](DB_UE_ERModellierung.md)
 - [DB_Sql](DB_Sql.md)
 - [DB_UE_Sql](DB_UE_Sql.md)
-- [DB_00_Anbieter](DB_00_Anbieter.md)
+- [DB_Anbieter](DB_Anbieter.md)
 - [DB_01_SQLite](DB_01_SQLite.md)
 - [DB_02_Xampp_phpMyAdmin](DB_02_Xampp_phpMyAdmin.md)
 - [DB_03_MySQL_Workbench](DB_03_MySQL_Workbench.md)

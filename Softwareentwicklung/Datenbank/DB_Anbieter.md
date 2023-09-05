@@ -1,4 +1,4 @@
-# 5.0 Unterschiedliche Anbieter
+# Unterschiedliche Anbieter
 
 Unterschiedliche Datenbank-Systeme:
 
@@ -36,7 +36,7 @@ Linux:
 sudo apt-get install mariadb-client mariadb-server
 ```
 
-### MariaDB auf dem RaspberryPi
+### MariaDB Auf Dem RaspberryPi
 
 Durch die OpenSource Strategie kann MariaDB auch auf einem RaspberryPi installiert werden:
 
@@ -97,9 +97,9 @@ MongoDB arbeitet, anders als MySQL, dokumentenorientiert und verfolgt entspreche
 
 - Ein MongoDB-Dokument ist also eine **Sammlung von Schlüssel-Werte-Paaren**, so wie prinzipiell auch die MySQL-Tabellenzeile.
 
-## Einrichten unterschiedlicher DB-Systeme
+## Einrichten Unterschiedlicher DB-Systeme
 
-### Einrichten einer Access-Datenbank
+### Einrichten Einer Access-Datenbank
 
 - Installation mittels Office-Installationstool.
 
@@ -111,7 +111,7 @@ MongoDB arbeitet, anders als MySQL, dokumentenorientiert und verfolgt entspreche
   
   Ob das notwendig ist zeigt sich beim ersten Versuch eine Verbindung herzustellen und der Fehlermeldung "Microsoft.ACE.OLEDB.12.0'-Provider ist nicht auf dem lokalen Computer registriert."
 
-### Einrichten einer MySql-Datenbank
+### Einrichten Einer MySql-Datenbank
 
 - Download installer: <https://dev.mysql.com/downloads/mysql> (MySQL Server 8.0.12)
 - Config Type: Development Computer, Windows Service Name: MySQL80, localhost:3306, root, Passwort: passwort
@@ -167,11 +167,11 @@ Installation des "SQL Server Management Studio":
 - Starten eines konfigurierten MS-SQL-Servers: Starten der Anwendung "Sql Server Configuration Managers". Unter SQL Server-Dienste gibts einen *SQL Server (MSSQLSERVER)* Dienst. Der muss laufen ansonsten mit Starten den Server starten.
 - Beendet kann der Server entweder vom gleichen Ort oder unter dem "Microsoft SQL Server Management Studio" mit Beenden.
 
-#### Remote-Zugriff auf SQL-Server einrichten
+#### Remote-Zugriff Auf SQL-Server Einrichten
 
 Sehr gute Beschreibung: [https://www.linglom.com/it-support/enable-remote-connection-on-sql-server-2008-express/](https://www.linglom.com/it-support/enable-remote-connection-on-sql-server-2008-express/)
 
-### Einrichten einer SQLite-Datenbank
+### Einrichten Einer SQLite-Datenbank
 
 - Download Bundle-Zip (für entsprechendes OS): <https://www.sqlite.org/download.html> (3.30.1)
 

@@ -1,10 +1,18 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - oop
 aliases: []
 created: 29th November 2022
 ---
 
-# 11.4 OOP - Weiteres - Übungen
+# OOP Übungen
+
+- [Java_Ue_OOP_Vererbung](Java_Ue_OOP_Vererbung.md)
+- [Java_Ue_OOP_Kapselung](Java_Ue_OOP_Kapselung.md)
+- [Java_Ue_OOP_Polymorphie](Java_Ue_OOP_Polymorphie.md)
+
+# Weitere Übungen
 
 ## Ue_[Komplex](../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md)
 

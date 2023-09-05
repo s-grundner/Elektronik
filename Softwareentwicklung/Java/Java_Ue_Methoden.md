@@ -54,15 +54,15 @@ created: 29th November 2022
 
    ​
 
-1. Umrechnung von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methoden convBin2Dec(), convBin2Hex(), convDec2Bin(), convDec2Hex(), convHex2Bin(), convHex2Dec().
+3. Umrechnung von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methoden convBin2Dec(), convBin2Hex(), convDec2Bin(), convDec2Hex(), convHex2Bin(), convHex2Dec().
 
     ​
 
-2. Ausgabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methode print() um binäre, dezimale und hexadezimale Zahlen auszugeben.
+4. Ausgabe von Zahlen unterschiedlicher Zahlensysteme. Erstelle die Methode print() um binäre, dezimale und hexadezimale Zahlen auszugeben.
 
     ​
 
-3. Definieren Sie für folgende Aufgaben die Methoden:
+5. Definieren Sie für folgende Aufgaben die Methoden:
 
     Berechnung Notendurchschnitt von 3 Noten
 
@@ -85,11 +85,11 @@ created: 29th November 2022
     Berechnung von Lottozahlen (6 aus 45)  
     ​
 
-4. 6 aus 45. Lese einen Tipp ein (readTipp() ). Berechne 6 Zufallslottozahlen (getRandNumArr() ). Sortiere das Tipp-Feld und das Feld mit den Zufallszahlen (sortArr() ). Vergleiche die beiden Felder und ermittle wieviele Werte im Tipp-Feld und im Zufallszahlen-Feld gleich sind (compArr() ). Erweiterung: wiederhole die Ziehungen bis ein Lotto-Sechser getippt wird. Berechne wie lang man Lotto spielen muss damit das passiert (2 Ziehungen pro Woche).
+6. 6 aus 45. Lese einen Tipp ein (readTipp() ). Berechne 6 Zufallslottozahlen (getRandNumArr() ). Sortiere das Tipp-Feld und das Feld mit den Zufallszahlen (sortArr() ). Vergleiche die beiden Felder und ermittle wieviele Werte im Tipp-Feld und im Zufallszahlen-Feld gleich sind (compArr() ). Erweiterung: wiederhole die Ziehungen bis ein Lotto-Sechser getippt wird. Berechne wie lang man Lotto spielen muss damit das passiert (2 Ziehungen pro Woche).
 
     ​
 
-5. Umrechnung römische Zahlen in dezimale Zahlen in klassischer Variante und Rückumrechnung.  
+7. Umrechnung römische Zahlen in dezimale Zahlen in klassischer Variante und Rückumrechnung.  
    1   = I  
     5   = V  
     10  = X  
@@ -100,7 +100,7 @@ created: 29th November 2022
     in der klassischen Variante bedeutet 4 -> IIII. Kleinere Ziffern dürfen nie links von größeren Ziffern stehen. Die Vielfachen von 5 können maximal einmal vorkommen.  
     ​
 
-6. Umrechnung römische Zahlen in dezimale Zahlen in moderner Variante und Rückumrechnung.  
+8. Umrechnung römische Zahlen in dezimale Zahlen in moderner Variante und Rückumrechnung.  
     1   = I  
     5   = V  
     10  = X  
