@@ -4,7 +4,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# Cpp_Skr_36_Ex_MSYS2
+# Cpp_Ex_MSYS2
 
 In MSYS2 wird nicht nur gcc/g++ installiert sondern eine Vielzahl hilfreicher Entwicklertools.
 

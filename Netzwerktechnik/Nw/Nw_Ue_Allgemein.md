@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Nw_Skr_01_Ue_Allgemein
+# Nw_Ue_Allgemein
 
 # 1 Netzwerke - Übungen
 
@@ -231,7 +231,7 @@ QHostInfo info = QHostInfo::fromName("www.google.at");
 qDebug() << info.addresses()[0].toString();
 ```
 
-## netsh / netstat
+## Netsh / Netstat
 
 Mit `netsh` kann vieles konfiguriert werden
 

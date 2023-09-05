@@ -30,7 +30,7 @@ Voraussetzung: git-for-windows ist installiert
 
 Damit ist dieser Ordner so konfiguriert, dass in diesem Ordner nur mehr auf dem persönlichen Branch gearbeitet wird.
 
-## Upload in diesen Ordner
+## Upload in Diesen Ordner
 
 - In Windows in diesem lokalen Verzeichnis ein entsprechendes Verzeichnis anlegen. Darin das Qt-Projekt hineinkopieren (oder darin Erstellen).
 
@@ -58,7 +58,7 @@ Damit ist dieser Ordner so konfiguriert, dass in diesem Ordner nur mehr auf dem 
   git push origin XyzA
   ```
 
-## Update der ReadMe.md Datei
+## Update Der ReadMe.md Datei
 
 Dieser Ablauf kann mittels Skript **updateReadme.bat** erfolgen. Vor dem ersten Ausführen muss in diesem Skript das Benutzerkürzel eingetragen werden.
 
@@ -108,15 +108,15 @@ Die ReadMe.md Datei liegt im master-Branch und kann ein Update erfahren. Dieses 
 
 ### 01 Design-Pattern Logger
 
-SEng_Skr_05_Ue_DesignPattern.md/Logger
+SEng_Ue_DesignPattern.md/Logger
 
 ### 02 Design-Pattern Observer
 
-Untersuchen Sie SEng_Skr_05_Ue_DesignPattern.md/Wetterstation
+Untersuchen Sie SEng_Ue_DesignPattern.md/Wetterstation
 
 ### 03 Design-Pattern MVC
 
-Ausgehend von *SEng_Skr_05_DesignPattern.md/Qt-ListView* ist ein Qt-Projekt zu Erstellen mit:
+Ausgehend von *SEng_DesignPattern.md/Qt-ListView* ist ein Qt-Projekt zu Erstellen mit:
 
 - Einem ListView
 - Einer ComboBox
@@ -126,51 +126,51 @@ Eine Eingabe in das Textfeld soll automatisch in das ListView und die ComboBox �
 
 ### 04 Design-Pattern Adapter
 
-*SEng_Skr_05_Ue_DesignPattern.md/Rechteck-Adapter*
+*SEng_Ue_DesignPattern.md/Rechteck-Adapter*
 
 ##Seng - Docu
 
-SEng_Skr_06_Doxygen.md
+SEng_Doxygen.md
 
 ## Seng - UnitTest
 
-SEng_Skr_07_UnitTest.md
+SEng_UnitTest.md
 
 ## Os - Threads
 
 Build mit `g++ -std=c++11 -lpthread -o out.exe *.cpp`
 
-### 01 Funktion als Thread
+### 01 Funktion Als Thread
 
-Ergänzen Sie die Lücken im Projekt (Os_Skr_02_Ue_Thread.md/Funktion als Thread)
+Ergänzen Sie die Lücken im Projekt (Os_Ue_Thread.md/Funktion als Thread)
 
-### 02 Thread aus Funkionen mit Parameter
+### 02 Thread Aus Funkionen Mit Parameter
 
-Ergänzen Sie die Lücken im Projekt (Os_Skr_02_Ue_Thread.md/Funktion mit Paramtern)
+Ergänzen Sie die Lücken im Projekt (Os_Ue_Thread.md/Funktion mit Paramtern)
 
-### 03 Thread mit Lambda-Ausdruck
+### 03 Thread Mit Lambda-Ausdruck
 
-Ergänzen Sie die Lücken im Projekt (Os_Skr_02_Ue_Thread.md/Funktion mit Lambda-Ausdruck)
+Ergänzen Sie die Lücken im Projekt (Os_Ue_Thread.md/Funktion mit Lambda-Ausdruck)
 
 ### 04 Klassen in Threads
 
-Ergänzen Sie die Lücken im Projekt (Os_Skr_02_Ue_Thread.md/Klassen in Threads)
+Ergänzen Sie die Lücken im Projekt (Os_Ue_Thread.md/Klassen in Threads)
 
 ### 05 Scheduling - Punktstrich
 
-Testen Sie Os_Skr_02_Ue_Thread.md/Scheduling - Punktstrich.
+Testen Sie Os_Ue_Thread.md/Scheduling - Punktstrich.
 
 In welcher Reihenfolge werden die Threadfunktionen aufgerufen?
 
 ### 06 Scheduling - Zeitaufwand
 
-Test Sie Os_Skr_02_Ue_Thread.md/Scheduling - Zeitaufwand
+Test Sie Os_Ue_Thread.md/Scheduling - Zeitaufwand
 
 Wieso ist welche Art schneller? Wann ist es sinnvoll Aufgaben so zu teilen?
 
 ### 07 Scheduling - Future/Async
 
-Test Sie Os_Skr_02_Ue_Thread.md/Scheduling - Zeitaufwand future/async
+Test Sie Os_Ue_Thread.md/Scheduling - Zeitaufwand future/async
 
 Wieso ist welche Art schneller? Wann ist es sinnvoll Aufgaben so zu teilen?
 

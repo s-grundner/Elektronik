@@ -4,7 +4,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# Cpp_Skr_09_STL
+# Cpp_STL
 
 ## 9 STL - Standard Template Library
 

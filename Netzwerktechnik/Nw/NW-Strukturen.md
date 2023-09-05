@@ -1,4 +1,4 @@
-# Nw_Skr_03_
+# Netz
 
 ## Basis-Strukturen
 
@@ -180,7 +180,7 @@ freeaddrinfo(servinfo);
 
 Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider variieren diese Funktionen je nach verwendeten [Betriebssystem](../../Softwareentwicklung/Operating%20Systems/Operating%20Systems.md).
 
-### Konvertierung zwischen Host-Adressen
+### Konvertierung Zwischen Host-Adressen
 
 Ein Host wird als Kanonischer-Host-Name, als IP-String (12.333.123.222) oder als 32-Bit IP dargestellt (für IPv4, analog für andere Protokolle).
 

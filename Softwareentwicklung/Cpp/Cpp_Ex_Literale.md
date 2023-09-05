@@ -4,7 +4,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# Cpp_Skr_37_Ex_Literale
+# Cpp_Ex_Literale
 
 ## Benutzerdefinierte Literale
 

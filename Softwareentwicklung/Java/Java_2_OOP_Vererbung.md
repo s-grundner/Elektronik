@@ -86,7 +86,7 @@ class Fahrrad extends Fahrzeug {
 
 >Subklassen sind Erweiterungen von Superklassen. Es gilt immer der Satz: *Subklasse __ist ein__ Superklasse* (Fahrrad ist ein Fahrzeug). Eine Superklasse ist etwas **generelleres** als eine Subklasse. Eine Subklasse ist etwas **spezielleres** als eine Superklasse. Zum Finden von Gemeinsamkeiten wird generalisiert.
 
-### Überladen von Methoden
+### Überladen Von Methoden
 
 Geerbte Methoden können auch überladen werden. Damit wird die geerbte Methode unsichtbar. Eventuell soll das Fahrrad ein anderes Fahrverhalten haben als andere Fahrzeuge. Auf die geerbte und überladene Methode kann mit **super** zugegriffen werden.
 

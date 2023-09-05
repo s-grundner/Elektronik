@@ -4,13 +4,9 @@ aliases: []
 created: 29. November 2022
 ---
 
-# Cpp_Skr_04_Ue_OOP_Cipher
+# Cpp_stellen Von Abstrakten Klassen Und Einfachen Chiffren.
 
-## C++ Cipher-Klasse
-
-Übung zum Erstellen von abstrakten Klassen und einfachen Chiffren.
-
-### Hintergrund
+## Hintergrund
 
 Ein Text soll verschlüsselt (chiffriert) werden. Der einfachste Ansatz dazu: jedes Zeichen eines Textes wird im Alphabet verschoben, zum Beispiel um 3 Stellen:
 
@@ -49,7 +45,7 @@ Diese Behauptung kann einfach mittels Wahrheitstabelle bestätigt werden.
 
 Mit diesen beiden Substitutionsvarianten sollen Polymorphe-Cipher (Chiffre)- Klassen erstellt werden.
 
-### Basis-Klasse
+## Basis-Klasse
 
 Erstellen Sie die abstrakte Klasse *Cipher*:
 
@@ -87,7 +83,7 @@ string Cipher::decrypt(string s, int key) {
 }
 ```
 
-### XorSubstitution (cpp802)
+## XorSubstitution (cpp802)
 
 Hier wird ein Schlüssel (int-Zahl) mit jedem Zeichen (char) XOR-Verknüpft. Dass der Schlüssel hier ein int ist spielt keine Rolle, es wird lediglich ein char zurückgegeben.
 
@@ -142,7 +138,7 @@ Hier wird ein Schlüssel (int-Zahl) mit jedem Zeichen (char) XOR-Verknüpft. Das
   }
   ```
 
-### AddSubstitution (cpp803)
+## AddSubstitution (cpp803)
 
 Hier wird der Schlüssel mit jedem Zeichen addiert. Überläufe können ignoriert werden, bei der Dekodierung gibt es entsprechende Unterläufe.
 

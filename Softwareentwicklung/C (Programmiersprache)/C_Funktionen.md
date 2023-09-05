@@ -52,12 +52,12 @@ int add(int a, int b) { .... }  // Implementierung der Funktion
 
 Diese separate Deklaration spielt eine ganz wichtige Rolle für die weitere Verwendung von Funktionen in anderen c-Modulen/Programmen und wird daher oft auch in die h-Datei ausgelagert. In den Prototypen ist es erlaubt den Variablennamen wegzulassen (also gilt für obiges Beispiel gleichwertig auch `int add(int, int)`.
 
-## [Sichtbarkeit](C_Skr_08_Sichtbar.md#8%20Sichtbarkeit,%20Lebensdauer%20und%20Gültigkeit) / Geltungsbereich von Variablen
+## [Sichtbarkeit](C_Sichtbar.md#8%20Sichtbarkeit,%20Lebensdauer%20und%20Gültigkeit) / Geltungsbereich Von Variablen
 
-- [Lokale Variable](C_Skr_08_Sichtbar.md#Lokale%20Variable)
-- [Lokal STATIC](C_Skr_08_Sichtbar.md#Lokal%20STATIC)
-- [Globale Variable](C_Skr_08_Sichtbar.md#Globale%20Variable)
-- [Global STATIC](C_Skr_08_Sichtbar.md#Global%20STATIC)
+- [Lokale Variable](C_Sichtbar.md#Lokale%20Variable)
+- [Lokal STATIC](C_Sichtbar.md#Lokal%20STATIC)
+- [Globale Variable](C_Sichtbar.md#Globale%20Variable)
+- [Global STATIC](C_Sichtbar.md#Global%20STATIC)
 
 ### Call-by-Value \<-\> Call-by-Reference
 
@@ -89,7 +89,7 @@ int main(void) {
 
 Das Zurückgeben von Feldern aus Funktionen ist problematisch. In C klappt nicht: `int[] sort(int[] arr);` (Die *Feldvariable* ist ja eigentlich ein Zeiger auf ein Feld.) Wird dieser zurückgegeben klappt das zwar, das Feld selber wird, da's lokal ist, gelöscht. Es gibt folgende Möglichkeiten:
 
-### a) statische Variable
+### a) Statische Variable
 
 ```c
 const char* func() {
@@ -103,7 +103,7 @@ Durch die static-Definition wird die Variable behalten und nicht am Ende der Fun
 Vorteil: sehr einfache schnelle Lösung.  
 Nachteil: Maximale Größe des Felds wird in der Funktion festgelegt. Die Funktion kann nur für ein Feld verwendet werden, Sollen weitere Felder erstellt werden, dann wird immer der gleiche Speicher benutzt (Daten werden überschrieben).
 
-### b) Zielfeld mitgeben
+### b) Zielfeld Mitgeben
 
 ```c
 char* func(char* out, int len) {
@@ -127,7 +127,7 @@ if (func(x, 50) != NULL) {
 so machen's viele Standard-Funktionen.  
 Vorteil: Größe des Felds wird außerhalb der Funktion festgelegt.
 
-### c) Speicher reservieren
+### c) Speicher Reservieren
 
 Siehe dazu Kapitel Zeiger.
 
@@ -153,7 +153,7 @@ if (x != NULL) {
 Vorteil: Größe des Felds muss vorher nicht bekannt sein.  
 Nachteil: Speicher muss wieder freigegeben werden. Ansonsten Gefahr von Speicherlecks.
 
-## Verteilung auf mehrere Dateien
+## Verteilung Auf Mehrere Dateien
 
 Häufig ist es sinnvoll Code auf mehrere Dateien (nennt man Module) zu verteilen:
 
@@ -265,9 +265,9 @@ Sind von Modulen nur Objekt-Dateien verfügbar (siehe Standard-Bibliotheken), da
 
 ## Spezifizierer
 
-- [extern](C_Skr_08_Sichtbar.md#extern)
-- [volatile](C_Skr_08_Sichtbar.md#volatile)
+- [extern](C_Sichtbar.md#extern)
+- [volatile](C_Sichtbar.md#volatile)
 
-### static
+### Static
 
 Wenn Sie einer Funktion das Schlüsselwort `static` zuweisen, können Sie diese Funktion nur innerhalb der Datei nutzen, in der sie definiert wurde.

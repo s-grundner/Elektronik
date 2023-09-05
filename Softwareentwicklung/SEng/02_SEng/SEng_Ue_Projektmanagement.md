@@ -9,9 +9,9 @@ created: 29th November 2022
 ## PJ-Management Übersicht
 
 Lesen Sie  
-`SEng_Skr_03_Projektmanagement.ppt`
+`SEng_Projektmanagement.ppt`
 
-## Projektstrukturpläne (PSP-I und PSP-II) erstellen
+## Projektstrukturpläne (PSP-I Und PSP-II) Erstellen
 
 Überprüfen Sie die folgende Zusammenfassung auf Fehler bzw. Vollständigkeit.
 
@@ -50,7 +50,7 @@ Lesen Sie
 		- Geschätzte Zeit
 		- Gebrauchte Zeit
 
-## AUFGABE: Projekt-Management und GANTT Diagramm
+## AUFGABE: Projekt-Management Und GANTT Diagramm
 
 1. Erstellen Sie ein GANTT-Diagramm für Ihre DA  
 	<https://info.htl-salzburg.ac.at/Lehre/elektronik/Diplomarbeiten/Vorlagen/Projektplan_MUSTERMANN.xlsx>

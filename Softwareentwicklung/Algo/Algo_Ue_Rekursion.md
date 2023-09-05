@@ -4,11 +4,11 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Algo_Skr_01_Ue_Rekursion
+# Algo_Ue_Rekursion
 
 ## 1 Rekursion - Übungen
 
-### Selbstaufruf ohne Abbruchbedingung (249)
+### Selbstaufruf Ohne Abbruchbedingung (249)
 
 Wenn sich eine Funktion selbst aufruft, dann ist es notwendig, dass eine Abbruchbedingung den Selbstaufruf beendet. Ansonsten läuft der Speicher (Stack) voll und das Programm wird aufgrund eines Speicherüberlaufs beendet (Stack-Overflow, Fehler-Code 0xC00000FD).
 
@@ -107,7 +107,7 @@ int fact(int n) {
 
 - [Mandelbrot](Mandelbrot.md)
 
-### Größter gemeinsamer Teiler (ggT) (256)
+### Größter Gemeinsamer Teiler (ggT) (256)
 
 Bereits Euklid erkannte: der ggT zweier Zahlen a und b (Voraussetzung a > b) ist der Gleiche wenn stattdessen das ggT aus (a-xb) und b ermittelt wird. x sei eine beliebige positive Ganzzahl. Da (a-xb) aber kleiner als b ist können damit die Parameter vertauscht werden und das Spiel wiederholt werden. Gefunden ist der ggT wenn einer der Parameter 0 ist, der ggT ist dann der jeweils andere Parameter. (Euklidscher Algorithmus)
 
@@ -198,7 +198,7 @@ Lösungsstrategie:
 - Anschließend ruft sich die Funktion selbst auf um diesen Schritt zu wiederholen
 - Abgebrochen wird die Ausführung wenn das Ziel erreicht ist.
 
-### Die Türme von Hanoi (2105)
+### Die Türme Von Hanoi (2105)
 
 Ein klassisches Beispiel für eine rekursive Problemlösung sind die Türme von Hanoi. Dabei sind n Scheiben mit Loch auf einer Stange A aufgesteckt. Die Scheiben sind auf eine 2te Stange B umzustecken. Dabei darf immer nur eine Scheibe nach der anderen bewegt werden und es darf keine größere auf eine kleinere Scheibe zum liegen kommen. Als Hilfe steht eine dritte Stange C zur Verfügung:
 
@@ -220,6 +220,6 @@ In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [
 
 Mehr Info: <http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi>
 
-### Visuelle Lösung von "Die Türme von Hanoi"
+### Visuelle Lösung Von "Die Türme Von Hanoi"
 
 Bauen Sie die gefundene Lösung als JS-Worker in ein gegebenes Template ein um eine graphische Darstellung der Problemlösung zu erhalten.

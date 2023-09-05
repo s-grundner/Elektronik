@@ -17,5 +17,5 @@ sort name
 
 # Tags
 
-- [Algo_Skr_00_CWiederholung](../Algo/Algo_Skr_00_CWiederholung.md)
-- [Algo_Skr_00_Ue_CWiederholung](../Algo/Algo_Skr_00_Ue_CWiederholung.md)
+- [Algo_holung](../Algo/Algo_CWiederholung.md)
+- [Algo_Ue_CWiederholung](../Algo/Algo_Ue_CWiederholung.md)

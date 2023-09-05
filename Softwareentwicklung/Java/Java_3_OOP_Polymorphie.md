@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Java_Skr_11_3_OOP_Polymorphie
+# Java_3_OOP_Polymorphie
 
 11.3 Objekt Orientierte Programmierung - Polymorphie
 ===================

@@ -1,4 +1,4 @@
-# DB_Skr_06_01_PHP
+# DB_01_PHP
 
 ## 6.1 PHP
 
@@ -156,7 +156,7 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 
 - Datentypen: int, bool, double, string, array, object
 
-- Variablen: Benennung von Variablen erfolgt IMMER mit führendem `$` -   `$Var`
+- Variablen: Benennung von Variablen erfolgt IMMER mit führendem `$` - `$Var`
 
 - Operatoren: zusätzlich zu den Bekannten gibt es `===` und `!==`
 
@@ -192,7 +192,7 @@ echo $feld[3];                <!-- 7 -->
 
 ## Datenbank
 
-### Aufbau der Verbindung
+### Aufbau Der Verbindung
 
 Es gibt viele verschieden Hersteller von Datenbanken. Um den Zugriff aus PHP trotzdem einheitlich zu gestalten, ist in PHP eine zusätzliche Abstraktionsebene verfügbar: **PHP Data Object (PDO)**. Damit kann Software unabhängig vom Datenbankhersteller entwickelt werden, es muss lediglich ein entsprechender Treiber verfügbar sein (zum Beispiel php_pdo_mysql.dll). Aktiviert wird der Treiber in der Serverumgebung (dort läuft ja das PHP) in der php.ini-Datei, dort wird diese Zeile eingefügt:
 
@@ -256,7 +256,7 @@ $anzahl = $conn->exec($sql);
 
 `exec` gibt die Anzahl der betroffenen Datensätze (etwa bei Delete) zurück.
 
-### Beenden der DB-Verbindung
+### Beenden Der DB-Verbindung
 
 ```php+HTML
 $conn->commit();    // Transaktion beenden (beginTransaction)
