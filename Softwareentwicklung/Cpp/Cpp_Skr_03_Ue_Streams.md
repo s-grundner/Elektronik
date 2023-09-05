@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 3 Streams - Übungen
 
 ## Wort-Zähler (018)

@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 9 STL - Übungen
 
 Die Übungen sind ein wenig gruppiert (es gibt Überlappungen)
@@ -73,7 +79,7 @@ Element 3:3
 
 Verwenden Sie anstatt eines *set* ein *multiset*.
 
-## Cont - *set* mit spezieller Sortierung (104)
+## Cont - *set* Mit Spezieller Sortierung (104)
 
 Laut Referenz (<https://de.cppreference.com/w/cpp/container/set>) ist Set so definiert:
 
@@ -295,7 +301,7 @@ liefert (sortiert/priorisiert nach dem nicht angezeigten Wert):
 11 13 15 12 14
 ```
 
-## Algo - sort
+## Algo - Sort
 
 Mit *sort* können Strukturen sortiert werden:
 
@@ -925,7 +931,7 @@ Anschließend soll der Container-Inhalt auf eine Datei *output.txt* geschrieben 
 - Durch die Liste kann mit einer *foreach* Schleife gegangen werden und dabei wird im String (ebenfalls ein Container) der erste Buchstabe (*.begin()*) mittels *tolower()* auf Kleinbuchstabe gesetzt
 - Erstellen eines *ostream-iterator* und Verknüpfen mit einem File-Stream-Iterator zum Schreiben. 
 
-## It - Einlesen einer Datei
+## It - Einlesen Einer Datei
 
 Das einlesen einer Datei kann am elegantesten mittels Iteratoren erfolgen:
 

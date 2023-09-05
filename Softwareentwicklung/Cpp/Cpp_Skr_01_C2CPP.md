@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 1 C2C++
 
 ## Compiler
@@ -26,7 +32,7 @@ K&R-C kennt nur symbolische Konstanten, die mit Hilfe der Präprozessor-Direktiv
 
 Im C-Quelltext, der dem Compiler übergeben wird, erscheinen an den Positionen, an denen symbolische Konstanten standen, Literale (1, 0, 'a' …). Symbolische Konstanten werden rein formal ersetzt, der Präprozessor ist nicht in der Lage, Typprüfungen durchzuführen.
 
-### Der Typ-Modifizierer const
+### Der Typ-Modifizierer Const
 
 Mit ANSI-C wurde das Schlüsselwort *const* als so genannter *Typ-Modifizierer* eingeführt: Einer Variablen-Definition kann das Schlüsselwort *const* vorangestellt werden. Der Wert der derart deklarierten Variablen muss während der Definition zugewiesen werden und kann nicht durch direkte Zuweisungen verändert werden.
 
@@ -169,7 +175,7 @@ int main(void){
 }
 ```
 
-## struct
+## Struct
 
 In C muss ein Strukturbezeichner immer mit dem Schlüsselwort *struct* zusammen verwendet werden:
 
@@ -189,7 +195,7 @@ myStruc myVar;	// myVar ist eine Struktur-Variable, struc MUSS NICHT angef. werd
 
 Weiterer großer Unterschied: in [C++](Cpp.md) ist *struct* nahezu gleichbedeutend mit *class* (einer Klasse). Es gibt nur einen sehr feinen Unterschied: die Standard-Sichtbarkeit in einer *struct* ist *public* und für *class* *private* (das gilt auch beim Ableiten).
 
-## Konsolenausgabe, Einlesen von Werten
+## Konsolenausgabe, Einlesen Von Werten
 
 Ausgabe in C: *printf*, Ein-/Ausgabe in [C++](Cpp.md): *cout*/*cin*
 
@@ -240,7 +246,7 @@ using namespace std;
 
 besser ist die Verwendung des Prefix *std::* weil es erstens die Zugehörigkeit einer Komponente besser darstellt und ein wichtiger Grund in größeren Projekten: wenn die *using* Variante in einem h-File verwendet wird ist sie automatisch in sämtlichen einbindenden Komponenten vorhanden und kann dort Funktionen unbemerkt überschreiben.
 
-## Funktionsaufruf mit Standardwerten
+## Funktionsaufruf Mit Standardwerten
 
 Im Prototyp von [C++](Cpp.md) Funktionen können Standardwerte vorgegeben werden:
 
@@ -275,7 +281,7 @@ for (int i = 0; i < size; i++) { ... }
 
 In *while*-Schleifen funktioniert das nicht.
 
-## Zugriff auf überladene, globale Variable
+## Zugriff Auf Überladene, Globale Variable
 
 funktioniert mit dem Geltungsbereichsoperator (Scope-Resolution-Operator / Bereichsauflöser):
 
@@ -297,11 +303,11 @@ inline int myFunc(int a, int b)
 
 Das ist ähnlich einem Makro. Vorteil gegenüber Makro: es findet eine Compiler-Überprüfung statt (im Makro nicht). Weiters kann eine inline-Funktion Laufzeitvorteile bringen (kein Stack-Kopieren …). Achtung: inline ist eine Empfehlung an den Compiler, der muss sich nicht unbedingt daran halten.
 
-## Funktionen überladen
+## Funktionen Überladen
 
 In C++ können Funktionen überladen werden.
 
-## Einbinden von C-Code:
+## Einbinden Von C-Code:
 
 Soll eine C-Funktion eingebunden werden, dann ist als Attribut *extern "C"* vor die Funktion zu setzen. Dadurch wird dieser Programmteil mit einem C-Compiler übersetzt. Prototyp:
 

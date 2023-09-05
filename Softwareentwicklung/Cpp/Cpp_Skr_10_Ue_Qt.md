@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # QT - Übungen
 
 ## GOALS
@@ -64,7 +70,7 @@ Datei persons.txt:
 - Funktion `void printPresons(QList<PersonType> pers)`  
     zur Ausgabe der Personen
 
-## wget - COV-Ampel
+## Wget - COV-Ampel
 
 Download der aktuellen Covid-Situation von:
 

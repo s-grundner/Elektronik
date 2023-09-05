@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 8 Templates
 
 Als Einführung in das Thema Templates als Beispiel die Berechnung des Maximum zweier Werte für unterschiedliche Datentypen:

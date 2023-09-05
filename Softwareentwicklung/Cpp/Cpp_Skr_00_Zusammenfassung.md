@@ -1,3 +1,9 @@
+---
+tags: []
+aliases: []
+created: 29. November 2022
+---
+
 # [C++](Cpp.md) Zusammenfassung
 
 ## Datentypen

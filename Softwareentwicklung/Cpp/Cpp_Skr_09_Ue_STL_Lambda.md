@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 11 Lambda
 
 In C/C++ können Pointer auf Funktionen definiert und verwendet werden. Damit können Funktionen an Funktionen übergeben werden, von uns verwendet werden etwa die Library-Quicksort-Funktion für die eine Funktion übergeben wird.

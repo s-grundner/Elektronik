@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 4 OOP - Übungen
 
 ## Rectangle (010)

@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # Cpp_Skr_09_STL
 
 ## 9 STL - Standard Template Library
@@ -195,7 +201,7 @@ Hier wird eine eigene Klasse definiert um die Reihung der Objekte zu definieren.
 
 ### Spezielle Container
 
-#### array
+#### Array
 
 Die Klasse *array* ist ursprünglich nicht in der STL enthalten. Um für die STL-Funktionen auch für Standard-c-Arrays zu ermöglichen, wurde diese sogenannte *Wrapper*-Klasse eingeführt. Sie erweitert das Standard-c-Array mit für die STL notwendigen Funktionen und Iteratoren. 
 
@@ -246,7 +252,7 @@ Die erste Lösung definiert vorab die notwendige Größe, wenn das zu wenig gene
 
 > Allgemein: für einfache Arrays anstatt von *c-Arrays* immer *array* verwenden (wenn schon nicht *vector*).
 
-#### string
+#### String
 
 Die *string*-Klasse war nicht Bestandteil der STL. Nachdem STL-Elemente in den Standard kamen wurden in der *string*-Klasse Methoden zugefügt um Strings für die STL kompatibel zu machen. Damit können sich Strings sehr ähnlich wie Container verhalten.
 

@@ -1,8 +1,14 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 2 Strings - Übungen
 
-## C++ mit C-Strings
+## C++ Mit C-Strings
 
-### URL aufsplitten (003)
+### URL Aufsplitten (003)
 
 Zerlegen Sie einen URL, der von der Konsole eingelesen wird, mit Hilfe der C-Funktionen in seine einzelnen Bestandteile Protokoll, Server und Pfad.
 
@@ -16,7 +22,7 @@ Server: rechner.org
 Pfad: /pfad1/pfad2/datei.html
 ```
 
-### String aufsplitten (004)
+### String Aufsplitten (004)
 
 Zerlegen Sie einen QUERY_STRING, der von der Konsole eingelesen wird.
 
@@ -49,13 +55,13 @@ char *str2 = "0123456789 123456789 123456789 123456789 123456789 123456789 ";
 
 verwenden Sie *strncpy* oder Zuweisungen dazu.
 
-## C++ mit Stringklasse
+## C++ Mit Stringklasse
 
 ### Read Text
 
 Lesen Sie von der Tastatur einen Text (der Text darf auch Leerzeichen enthalten) ein. Wiederholen sie das Einlesen solange bis *q* eingegeben wird. Hängen Sie die eingelesenen Teile aneinander in eine String-Variable und geben Sie in der Kommandozeile aus.
 
-### URL aufsplitten (005)
+### URL Aufsplitten (005)
 
 Beispiel: Auftrennen eines oder mehrerer URLs in ihre Bestandteile.
 
@@ -111,7 +117,7 @@ int main(int argc, char *argv[]) {
 
 Jedes Kommandozeilenargument wird als URL (<http://www.bestsiteever.com:80/one/two/index.html)> betrachtet und einzeln aufgetrennt.
 
-### String umkehren (006)
+### String Umkehren (006)
 
 Kehren Sie einen eingegebenen String um:
 

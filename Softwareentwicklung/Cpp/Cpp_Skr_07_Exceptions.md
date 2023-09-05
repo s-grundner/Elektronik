@@ -1,6 +1,12 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 7 Exception Handling
 
-## Behandlung von Fehlersituationen
+## Behandlung Von Fehlersituationen
 
 Grundsätzlich gibt es zwei Arten von Fehlern:
 
@@ -18,7 +24,7 @@ Diese Klasse von Fehlern wird in der Informatik als **Ausnahme** (Exception) bez
 
 Der Nachteil: es kann Übersehen werden auf ein mögliches Fehlverhalten zu reagieren. Mit dem Exception Handling kann für eine implementierte Funktion vorgeschrieben werden, dass eine Ausnahme zu behandeln ist.
 
-## Exception Handling: try, catch, throw
+## Exception Handling: Try, Catch, Throw
 
 Funktionen die ein Behandeln von Ausnahmen fordern können auf folgende Art eingebunden werden:
 
@@ -173,7 +179,7 @@ catch (...) {
 
 (behaupten) Um ein Programm zu beenden und Fehler bewusst aufzuzeigen können Assertion verwendet werden. Assertions sind *eher* für die Entwicklung gedacht. Während *produktiven* Betriebs sollten diese eigentlich nicht mehr auftreten und sind daher üblich deaktiviert oder ausgebaut.
 
-## assert
+## Assert
 
 Eingebaute *assert* sind nur aktiv, wenn das Programm im Debug-Mode Compiliert wird. Mit 
 

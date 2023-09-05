@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 4 OOP - Objektorientierung
 
 Beziehungen von Klassen zueinander:
@@ -157,7 +163,7 @@ Hat den gleichen Namen wie die Klasse mit vorangestellter Tilde; z.B. ~Rechteck(
 ~Cls() { ... }
 ```
 
-#### const
+#### Const
 
 Methoden die nur lesend auf Member zugreifen, sollen das Attribut *const* hinten anstellen:
 
@@ -181,7 +187,7 @@ char func(const int &param) {
 
 Damit wird beim Eintritt keine Kopie angefertigt, der Inhalt der Variable kann trotzdem nicht verändert werden.
 
-### this
+### This
 
 In Member-Methoden ist automatisch mit *this* ein Zeiger auf das eigene Objekt verfügbar:
 
@@ -191,7 +197,7 @@ this->val = 3;			// -> Operator weil this ein Zeiger ist
 
 Damit kann eine Member-Variable oder eine Member-Funktion referenziert werden. Notwendig ist das, wenn eine Membervariable überschrieben wurde (z.B. mit einer lokalen Variable).
 
-### static
+### Static
 
 Member-Variablen und Member-Methoden kann das Attribut *static* vorangestellt werden. Statische Member haben keinen Objektbezug, es sind **Klassenfelder** bzw. **Klassenmethoden**.
 
@@ -394,7 +400,7 @@ Der Vorteil dieser Konstruktion wird deutlich, wenn unterschiedliche Objekte in 
 
 Problem bislang: wird eine überschriebene Methode der Variable f1 aufgerufen, dann wird die Methode der Klasse Figur und nicht die Methode der Klasse Rechteck ausgeführt. Der Grund ist, dass der Compiler während der Programmerstellung noch nicht weiß, dass der Zeiger zur Laufzeit auf ein Rechteck-Objekt zeigt (statisches Binden). Mit dem Schlüsselwort *virtual* wird dem Compiler mitgeteilt, dass erst zur Laufzeit entschieden werden soll, welche Methode ausgeführt werden soll (spätes/dynamisches Binden).
 
-### virtual Methoden
+### Virtual Methoden
 
 Mit dem *virtual*-Schlüsselwort vor einer Member-Methode einer Basisklasse wird dem Compiler vorgeschrieben die Entscheidung der Methodenwahl erst zur Programmlaufzeit zu treffen:
 

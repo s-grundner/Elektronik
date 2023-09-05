@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # CLion - WSL - Valgrind
 
 ## WSL Installieren

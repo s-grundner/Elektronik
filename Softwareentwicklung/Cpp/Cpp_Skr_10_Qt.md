@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # QT <Cute>
 
 QT ist ein Framework für die Entwicklung von C++ Programmen. Es bietet eine Vielzahl an hilfreichen Bibliotheken und einen GUI-Builder QT-Creator der für viele [Betriebssysteme](../Os/Operating%20Systems.md) optimiert ist.
@@ -66,7 +72,7 @@ void otherClass::setPos() {
 
 Wenn der Auslöser von der Klasse *cls* ist, dann wird mit Sender ein *Object*-Pointer auf dieses Objekt zurückgegeben.
 
-## Unterdrücken von Kompiler-Warnungen
+## Unterdrücken Von Kompiler-Warnungen
 
 Wird beim Kompilieren eine Warnung erzeugt: **warning: unused parameter 'obj' -Wunused-parameter** dann kann diese Meldung unterdrückt werden indem in der Projekt-Konfiguration an beliebiger Stelle eingefügt wird:
 
@@ -192,7 +198,7 @@ ui->myComboBox->addItem("Mr. Smith");
   qDebug() << ui->myComboBox->currentIndex();	// Pos. der aktuellen Auswahl
   ```
 
-## ComboBox mit ModelView
+## ComboBox Mit ModelView
 
 Moderneres Konzept: ModelView - der Code verändert/liest nur an einem Model. Die Kommunikation zwischen dem Modell und dem View erfolgt separat.
 
@@ -704,7 +710,7 @@ private slots:
     void replyFinished(QNetworkReply *) {qDebug() << "success.";};
 ```
 
-### Kopieren von Dateien aus Quellins Zielverzeichnis
+### Kopieren Von Dateien Aus Quellins Zielverzeichnis
 
 mittels QMAKE, kann in der Projektkonfiguration angefügt werden:
 

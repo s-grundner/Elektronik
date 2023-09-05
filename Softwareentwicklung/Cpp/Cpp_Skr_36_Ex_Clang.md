@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # Cpp_Skr_36_Ex_Clang
 
 (<https://www.youtube.com/watch?v=uyDBoogrHww)>
@@ -77,7 +83,7 @@
   
   
 
-## direkt
+## Direkt
 
 Precompiled Version:
 

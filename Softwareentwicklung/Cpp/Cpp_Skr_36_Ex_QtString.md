@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # QString
 
  <https://doc.qt.io/qt-5/qstring.html> 

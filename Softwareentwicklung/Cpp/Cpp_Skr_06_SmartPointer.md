@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 6 Smart Pointer
 
 Zeiger sind kennzeichnend für C/C++. In vielen anderen Programmiersprachen ist dieses Konzept nicht vorhanden. Der Grund sind häufig auftretende Fehler die sehr aufwändig zu finden/beheben sind und damit die Vorteile von Zeigern häufig zu zunichte machen. Typische Fehler:
@@ -100,7 +106,7 @@ Damit kann ein Zeiger direkt in einen *unique_ptr* erzeugt werden (und mit diese
 
 Daher Empfehlung: unique_ptr immer mittels make_unique erzeugen.
 
-### unique_ptr und Arrays
+### unique_ptr Und Arrays
 
 *unique_ptr* können auch verwendet werden um mit Arrays zu arbeiten, für *make_unique* ist das Argument dann die Array-Größe:
 
@@ -229,7 +235,7 @@ int main() {
 } // p3 und p1 werden zerstört
 ```
 
-### shared_ptr und Arrays
+### shared_ptr Und Arrays
 
 *shared_ptr* und Arrays so wie bei den *unique_ptr* (funktioniert erst seit C++17).
 

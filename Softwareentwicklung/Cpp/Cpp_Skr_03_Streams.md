@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 3 Streams
 
 Der Vorteil von Streams gegenüber den Ein-/Ausgabefunktionen von C ist die Typsicherheit. Mit der Überladung der Stream-Operatoren entscheidet der Compiler welche überladene Funktion verwendet wird.
@@ -6,7 +12,7 @@ Der Vorteil von Streams gegenüber den Ein-/Ausgabefunktionen von C ist die Typs
 
 Zum Zusammensetzen von Strings aus gemischten Datentypen bieten sich die *stringstream*-Klassen aus *sstream.h* an, die wie ein Einbeziehungsweise Ausgabestrom funktionieren und das Ergebnis in den Hauptspeicher schreiben. Out-Streams sind lediglich für das Schreiben in den Stream, In-Streams sind für das Lesen aus dem Stream. Statt dieser Streams können auch immer String-Streams für beidseitige Zugriffe verwendet werden.
 
-### ostringstream
+### Ostringstream
 
 Streamen in einen String mittels *ostringstream*:
 
@@ -30,7 +36,7 @@ ostr << 10 << " = 0x" << hex << 10 << " = o"<< oct << 10;
 cout << ostr.str() << endl;		// fuer Ausgabe stream mit .str() konv.
 ```
 
-### istringstream
+### Istringstream
 
 Umgekehrt kann mit der Klasse *istringstream* ein String in eine Zahl konvertiert werden:
 
@@ -101,7 +107,7 @@ Geschlossen werden Datei-Streams mit der *close*-Methode:
 fileVariable.close();
 ```
 
-### Schreiben in eine Datei
+### Schreiben in Eine Datei
 
 Beispiel: Schreiben der Quadratzahlentabelle in eine Datei.
 
@@ -123,7 +129,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-### Lesen aus einer Datei
+### Lesen Aus Einer Datei
 
 Das Lesen aus einer Datei funktioniert analog zum Lesen aus dem Stream cin. Wird aus einem Stream ein String gelesen wird bis zum nächsten *Whitespace* gelesen. Unter Whitespaces versteht man die Gruppe der nicht sichtbaren Zeichen: Leerzeichen, Zeilenumbruch, Tabulator …
 

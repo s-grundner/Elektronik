@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 1 C++ Einführung - Übungen
 
 ## Ein-/Ausgabe Konsole (601)

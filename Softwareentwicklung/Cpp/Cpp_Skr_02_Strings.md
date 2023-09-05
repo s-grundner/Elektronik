@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # 2 Strings
 
 Neben der C++-String-Klasse können Strings in C++ gleich wie in C behandelt werden (sogenannte *C-Strings*).
@@ -144,7 +150,7 @@ std::string::size_type len = stringVar.size();		// Laenge des Strings
 
 Mit der *clear*-Methode kann eine Zeichenkette gelöscht werden.
 
-### size - Länge eines String
+### Size - Länge Eines String
 
 Für die Länge eines Strings gibt es den eigenen Typ *size_type* - der ist in aktuellen Implementierungen ein *unsigned Integer*. Alternativ gibt es dafür einen Define *size_t*.
 
@@ -152,7 +158,7 @@ Für die Länge eines Strings gibt es den eigenen Typ *size_type* - der ist in a
 std::string::size_type len = stringVar.size();		// Laenge des Strings
 ```
 
-### find - Suchen in einem String
+### Find - Suchen in Einem String
 
 Mittels *find*-Methode kann in einem String in ein String gesucht werden:
 
@@ -175,7 +181,7 @@ Antwort: *gefunden, an der Stelle: 2*
 
 Ähnlich funktioniert die *rfind*-Methode. Diese Sucht nach dem letzten Vorkommen von links beginnend bis zur eventuell angegebenen Position.
 
-### substr - Teilstring
+### Substr - Teilstring
 
 Zum Ermitteln eines Teilstrings kann die *substr*-Methode verwendet werden. Der erste Parameter gibt den Beginn und der optionale, zweite Parameter gibt die Länge des Teilstrings an (wenn nicht vorhanden, dann bis ans Ende).
 
@@ -185,7 +191,7 @@ string str19 = str18.substr(6,2);
 cout << str19 << endl; // "gh"
 ```
 
-### insert - Einfügen
+### Insert - Einfügen
 
 Mit der *insert*-Methode kann eine Zeichenkette an einer gewünschten Position in eine andere Zeichenkette eingefügt werden:
 
@@ -194,7 +200,7 @@ string s1 = "Hallo wie geht's?";
 s1.insert(5, ", Hans");			// Hallo, Hans wie geht's?
 ```
 
-### replace - Ersetzen
+### Replace - Ersetzen
 
 Mit der *replace*-Methode kann in einer Zeichenkette ein Teil durch eine weitere Zeichenkette ersetzt werden:
 
@@ -203,7 +209,7 @@ string s1 = "Hallo wie geht's?";
 s1.replace(2, 15, "Welt!");			// an Pos. 2 werden 15 Zeichen ersetzt durch "Welt!": Hallo Welt!
 ```
 
-### erase - Entfernen
+### Erase - Entfernen
 
 Mit der *erase*-Methode können Teile aus einer Zeichenkette herausgeschnitten werden:
 
@@ -281,9 +287,9 @@ str.at(100);				// loest eine "out_of_range" Ausnahme aus
 
 [] ist effizienter, .at() ist sicherer.
 
-### Einlesen von Strings
+### Einlesen Von Strings
 
-#### cin - Wort
+#### Cin - Wort
 
 ```c++
 std::string str;
@@ -293,7 +299,7 @@ std::cout << str << std::endl;	// Ausgabe von "Hey"
 
 *cin* liest nur bis zu einem *Whitespace* (Leerzeichen, Tabulator, Enter …) ein. Sollen Strings samt Whitespaces eingelesen werden, dann kann das mittels Schleife passieren (dann ist allerdings nicht klar ob ein Tabulator oder ein Leerzeichen eingegeben wurde).
 
-#### getline - Zeile
+#### Getline - Zeile
 
 Zum Einlesen von mehr als einem Wort, bzw. wenn auch Whitespaces mitgelesen werden sollen, kann das mittels der Funktion *getline* erreicht werden.
 

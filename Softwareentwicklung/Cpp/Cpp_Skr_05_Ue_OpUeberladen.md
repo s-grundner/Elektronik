@@ -1,4 +1,10 @@
-# 5 Überladen von Operatoren - Übungen
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
+# 5 Überladen Von Operatoren - Übungen
 
 ## Datum
 

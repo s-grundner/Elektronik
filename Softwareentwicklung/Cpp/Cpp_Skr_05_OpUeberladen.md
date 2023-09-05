@@ -1,4 +1,10 @@
-# 5 Überladen von Operatoren
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
+# 5 Überladen Von Operatoren
 
 In C++ können auch Operatoren überladen werden. Damit kann die Bedeutung von Operatoren für Objekte von eigenen Klassen definiert werden. Die Priorität von Operatoren kann nicht verändert werden.
 
@@ -17,7 +23,7 @@ Gesucht ist ein *+* Operator der zwei Brüche miteinander addieren kann in der g
 
 Es gibt grundsätzlich zwei Möglichkeiten das Überladen zu implementieren:
 
-## Überladen mit globaler Funktion
+## Überladen Mit Globaler Funktion
 
 In der Implementierung wird für `z = a + b` eine globale Funktion (nicht Teil der `Frac`-Klasse) mit 2 Parametern. Der *+* Operator hat zwei Operanden, er ist eine binäre (2 Parameter erforderlich) Operation:
 
@@ -39,7 +45,7 @@ bool operator+(int a, int b) {...}
 
 das klappt nur innerhalb einer Klasse.
 
-## Überladen mit Methodenaufruf
+## Überladen Mit Methodenaufruf
 
 Wird die Operator-Überladen-Methode innerhalb der Klasse `Frac` definiert, dann wird die binäre Operation *+* mit nur einem Aufrufparameter definiert (als erster Parameter wird immer die eigene Klasse angenommen): 
 
@@ -77,7 +83,7 @@ Grundsätzlich sind beide Varianten möglich. Allerdings gibt es Fälle (der ebe
 
 Daher gibt's eine weitere Lösung:
 
-## Überladen mittels Friend-Funktion
+## Überladen Mittels Friend-Funktion
 
 ```c++
 class Frac {
@@ -101,7 +107,7 @@ public:
 
 Als typisches Anwendungsbeispiel für Friend-Funktionen, gilt die Verwendung des Ausgabe-Operators `<<`. Der Grund: der *<<* -Operator für Ausgaben (in einen Stream) hat als ersten Parameter immer `ostream&` und kann daher nicht die eigene Klasse sein.
 
-### Die Ausgabe << für eigene Klassen
+### Die Ausgabe << Für Eigene Klassen
 
 Wir wollen das, aus den vorigen Kapiteln OOP-Klassen-Vererbung Projekt Firma/Company stammende `CAbteilung`s-Objekt namens `abteilung` auf `std::cout` ausgeben.
 

@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # Cpp_Skr_33_Ex_OOPAssoziationen
 
 Objektorientierung - Assoziationen

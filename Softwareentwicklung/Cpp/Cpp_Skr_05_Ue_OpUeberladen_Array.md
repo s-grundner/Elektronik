@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # Array-Klasse
 
 ## Op-Überladen
@@ -99,7 +105,7 @@ int main()
 
    Beim Ausführen wird ersichtlich: der Destruktor mit den 99er Markierungen hat keine Auswirkung mehr.
 
-1. `array arr10 = arr1 + arr2;`
+2. `array arr10 = arr1 + arr2;`
 
    - Rechts vom Gleichheitszeichen ist eine *operator+*-Operation wie vorhin auch.
    - Links vom Gleichheitszeichen wird ein Objekt neu definiert. Dadurch hat der *=* Operator hier die Bedeutung des *Initialisierungs-Operators*.

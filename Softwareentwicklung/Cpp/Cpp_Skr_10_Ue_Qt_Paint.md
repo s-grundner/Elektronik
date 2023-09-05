@@ -1,10 +1,16 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # QT Zeichenprogramm
 
 ## Icon (055)
 
 Für Symbole auf z.B. Buttons werden Grafiken am besten als Resource eingebunden. Dazu wird dem Projekt eine Resource hinzugefügt Qt->Qt Ressourcen-Datei. Dort eine existierende Datei hinzufügen. Ab hier ist die Grafik als Ressource verfügbar.
 
-## MausMovement auf Widget
+## MausMovement Auf Widget
 
 In vielen Fällen muss eine Mausbewegung nur über einem expliziten Widget erkannt werden. Dabei kann häufig die Movement-Erkennung über dem Fenster komplett deaktiviert werden und durch weitere Events über einem Widget ausgewertet werden:
 
@@ -13,7 +19,8 @@ MainWindow-Konstruktor:
 this->setMouseTracking(false);  // unbedingt vor dem GUI-Setup
 ```
 
-## 
+##
+
 
 ## MausMovement (055)
 

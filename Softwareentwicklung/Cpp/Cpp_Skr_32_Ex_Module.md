@@ -1,3 +1,9 @@
+---
+tags: ["cpp"]
+aliases: []
+created: 29. November 2022
+---
+
 # Module in C++
 
 ## Klassisches Header-Konzept
@@ -108,7 +114,7 @@ clang++ -std=c++20 -fmodules-ts -fprebuilt-module-path=. main.cpp math.pcm -o ma
   clang++ -std=c++20 -fmodules-ts --precompile speech.cppm -o speech.pcm && clang++ -std=c++20 -fmodules-ts -c speech.pcm -o speech.o && clang++ -std=c++20 -fmodules-ts -fprebuilt-module-path=. speech.o main.cpp -o speech.exe
   ```
 
-### Module Partions are not yet Supported :-)
+### Module Partions Are not yet Supported :-)
 
 - der Code im vorhergehenden Beispiel ist gigantisch, daher wird er gesplittet:
 
