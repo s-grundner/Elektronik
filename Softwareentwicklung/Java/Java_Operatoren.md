@@ -38,6 +38,6 @@ created: 29th November 2022
 |   *x*=   |        Rechenzuweisung (2)         |        x += 3;        |   x = x + 3;    |
 | (*type*) |         Typ-Umwandlung (3)         |     x = (int)3L;      |     x = 3;      |
 
-- \*: für die Operatoren UND und ODER gibt es jeweils auch sogenannte Short-Circuit-Varianten: dabei wird der zweite Term der Verknüpfung nur dann ausgeführt wenn der erste Term wahr ist.
-- \*\*: *x* kann einer der folgenden Operatoren sein +, -, *, /, %, |, &, ^, ~, <<, <<<, >>, >>>.
-- \*\*\*: *type* kann ein beliebiger primitiver Datentyp sein.
+- (1): für die Operatoren UND und ODER gibt es jeweils auch sogenannte Short-Circuit-Varianten: dabei wird der zweite Term der Verknüpfung nur dann ausgeführt wenn der erste Term wahr ist.
+- (2): *x* kann einer der folgenden Operatoren sein +, -, *, /, %, |, &, ^, ~, <<, <<<, >>, >>>.
+- (3): *type* kann ein beliebiger primitiver Datentyp sein.
