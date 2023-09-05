@@ -1,8 +1,6 @@
-
-
 # MS Access
 
-## Erstellen einer DB anhand eines Beispiels
+## Erstellen Einer DB Anhand Eines Beispiels
 
 - MSAccess starten (Office Tool) und eine neue *Leere Datenbank* anlegen. Dadurch wird eine .accdb-Datei erzeugt (**Acc**ess **D**aten**b**ank) (ältere Access-DB verwenden das Format .mdb).
 - Die Umgebung wirkt ähnlich wie Excel. Am Einfachsten in der Tabelle ein Telefonbuch (VName, NName, TelNr, Str, Nr, Plz, Ort, Staat) erzeugen - einen Beispiel-Eintrag eintippen. Kopfzeilen lassen sich editieren. Der Datentyp wird recht vernünftig vom Programm angenommen, es kann sein, dass er geändert werden muss. Im Menü gibt es dazu unter Menüleiste->Felder->Formatierung ein Pull-Down-Menü.
@@ -88,7 +86,7 @@ Abfragen dienen zur Auswahl spezieller Daten aus Tabellen (oder anderen Abfragen
 - Es wird ein Fenster dargestellt in dem das Ergebnis der Abfrage dargestellt wird
 - Bei einfacher Auswahl von Spalten wird die komplette Spalte angezeigt. In der Entwurfsansicht können Kriterien angegeben werden um die Auswahl einzuschränken.
 
-## Verküpfung von Tabellen miteinander
+## Verküpfung Von Tabellen Miteinander
 
 - unter Menüleiste->Entwurf->Beziehungen->Beziehungen öffnen
 - sämtliche Tabellen Öffnen die in Beziehung gesetzt werden sollen
