@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 2 Suchen in Feldern
+# Suchen in Feldern/Arrays
 
 Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht . Dieser Wert wird als **Schlüssel** bezeichnet.
 
@@ -63,7 +63,7 @@ int binsearch(int a[], int left, int right, int key) {
 
 Dieser Algorithmus kann noch verbessert werden: wenn wir im Telefonbuch suchen, dann beginnen wir wenn wir nach einem Namen suchen der mit Z beginnt wesentlich weiter hinten, als wenn wir nach einem Namen suchen der mit einem B beginnt. Man kann die Position eines Suchworts mittels Interpolation abschätzen und dort zu suchen beginnen. Diese Art der Suche wird dann als **Interpolationssuche** bezeichnet.
 
-## C-Standard-Bibliotheksfunktion bsearch
+## C-Standard-Bibliotheksfunktion Bsearch
 
 Die Binäre Suche ist auch als Funktion in der c-Standard-Bibliothek verfügbar:
 
@@ -98,7 +98,7 @@ Im Funktionsaufruf:
 ... bsearch(......., compare);
 ```
 
-## Pointer auf Funktionen
+## Pointer Auf Funktionen
 
 In C können nicht nur Variable durch Pointer angesprochen werden, sondern auf Funktionen. 
 

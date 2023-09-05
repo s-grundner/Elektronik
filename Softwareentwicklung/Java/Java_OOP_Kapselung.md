@@ -1,10 +1,12 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - oop
 aliases: []
 created: 29th November 2022
 ---
 
-# 11.1 Objekt Orientierte Programmierung - Kapselung
+# Objekt Orientierte Programmierung - Kapselung
 
 Das Objektorientierte Programmierparadigma basiert auf 3 Ideen:
 

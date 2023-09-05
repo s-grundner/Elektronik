@@ -1,10 +1,63 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - oop
 aliases: []
 created: 29th November 2022
 ---
 
-# 11.4 Objekt Orientierte Programmierung - Weiteres
+# Assoziation - Aggregation - Komposition
+
+## Assoziation
+
+Zwei Klassen stehen in einer Beziehung (nicht näher definiert). Zwei Klassen stehen in (unidirektionalen) Beziehung zueinander, wenn eine Klasse eine zweite Klasse als Member-Variable beinhaltet ("part-of"-Beziehung). Bidirektionale Beziehungen problematisch – beide Seiten müssen Referenzen gleichzeitig erstellen/auflösen. Besser mit Methoden realisieren.
+
+## Aggregation (auch Schwache Aggregation)
+
+Eine Klasse ist Teil einer anderen Klasse. Die Teilklasse existiert aber auch ohne die beinhaltende Klasse. Man gibt einer Klasse als Parameter des Konstruktors ein Objekt mit und weißt es dort einem Member-Objekt zu.
+
+```java
+class OberKlasse {
+  UnterKlasse uk;							// Member-Variable
+  public OberKlasse(UnterKlasse para) {		   // Konstruktor mit Objekt als Parameter
+    uk = para;							    // existierendes UnterKlassen-Objekt wird zugewiesen
+  }
+}
+```
+
+## Komposition (auch Starke Aggregation):
+
+Eine Klasse ist Teil einer anderen Klasse. Das Teilobjekt existiert nicht ohne das beinhaltende Objekt. Im Konstruktor wird ein Objekt neu angelegt und der Member-Variable zugewiesen:
+
+```java
+class OberKlasse {
+  UnterKlasse uk;				   // Member-Variable
+  public OberKlasse() {			    // Konstruktor
+    uk = new UnterKlasse(...);		// UnterKlassen-Objekt wird im Konstruktor erzeugt
+  }
+}
+```
+
+## Mehrfache Beziehungen
+
+Ist die Anzahl der Beziehungen bekannt, kann ein Array verwendet werden. Sollte die Anzahl der Teilobjekte unbekannt sein wird mit ArrayLists (oder List) gearbeitet:
+
+```java
+import java.util.ArrayList;
+
+class OberKlasse {
+  private ArrayList unterKlassenListe;
+
+  public OberKlasse() {
+    unterKlassenListe = new ArrayList();
+  }
+  
+  public void addUK() {
+    unterKlassenListe.add(new UnterKlasse());
+  }
+```
+
+# Objekt Orientierte Programmierung - Weiteres
 
 ## Singleton-Objekte
 
@@ -63,7 +116,7 @@ public final class Fact {
 
 Die übliche Art ein Objekt zu erzeugen, über einen Konstruktor kann das nicht. Ein Konstruktor gibt immer ein Objekt zurück.
 
-## Abkürzung bei Überladungen
+## Abkürzung Bei Überladungen
 
 ```java
 public class Car
@@ -106,55 +159,3 @@ System.out.println(hugo.getClass().equals(Object.class));         // fal
 System.out.println(hugo.getClass().equals(Creature.class));       // false
 System.out.println(hugo.getClass().equals(Worm.class));           // true (hugo = Wurm)
 ```
-
-# Assoziation - Aggregation - Komposition
-
-## Assoziation
-
-Zwei Klassen stehen in einer Beziehung (nicht näher definiert). Zwei Klassen stehen in (unidirektionalen) Beziehung zueinander, wenn eine Klasse eine zweite Klasse als Member-Variable beinhaltet ("part-of"-Beziehung). Bidirektionale Beziehungen problematisch – beide Seiten müssen Referenzen gleichzeitig erstellen/auflösen. Besser mit Methoden realisieren.
-
-## Aggregation (auch schwache Aggregation)
-
-Eine Klasse ist Teil einer anderen Klasse. Die Teilklasse existiert aber auch ohne die beinhaltende Klasse. Man gibt einer Klasse als Parameter des Konstruktors ein Objekt mit und weißt es dort einem Member-Objekt zu.
-
-```java
-class OberKlasse {
-  UnterKlasse uk;							// Member-Variable
-  public OberKlasse(UnterKlasse para) {		   // Konstruktor mit Objekt als Parameter
-    uk = para;							    // existierendes UnterKlassen-Objekt wird zugewiesen
-  }
-}
-```
-
-## Komposition (auch starke Aggregation):
-
-Eine Klasse ist Teil einer anderen Klasse. Das Teilobjekt existiert nicht ohne das beinhaltende Objekt. Im Konstruktor wird ein Objekt neu angelegt und der Member-Variable zugewiesen:
-
-```java
-class OberKlasse {
-  UnterKlasse uk;				   // Member-Variable
-  public OberKlasse() {			    // Konstruktor
-    uk = new UnterKlasse(...);		// UnterKlassen-Objekt wird im Konstruktor erzeugt
-  }
-}
-```
-
-## Mehrfache Beziehungen
-
-Ist die Anzahl der Beziehungen bekannt, kann ein Array verwendet werden. Sollte die Anzahl der Teilobjekte unbekannt sein wird mit ArrayLists (oder List) gearbeitet:
-
-```java
-import java.util.ArrayList;
-
-class OberKlasse {
-  private ArrayList unterKlassenListe;
-
-  public OberKlasse() {
-    unterKlassenListe = new ArrayList();
-  }
-  
-  public void addUK() {
-    unterKlassenListe.add(new UnterKlasse());
-  }
-```
-

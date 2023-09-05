@@ -64,7 +64,7 @@ In einer Beziehung kann auch die Anzahl der Verbindungen angegeben werden:
 
 ![Multiplizität](assets/Klassendiagr_02.gif "Multiplizität")
 
-### Rolle, Beziehungsname und Richtung
+### Rolle, Beziehungsname Und Richtung
 
 Die Rolle wird nahe der Klasse angegeben und beschreibt die Rolle der Klasse in der Beziehung. Der Beziehungsname wird mittig über die Beziehung geschrieben und mit einem Pfeil für die Leserichtung eingetragen.
 

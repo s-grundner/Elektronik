@@ -18,17 +18,17 @@ Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.
 Die Funkbänder im Rundfunkspektrum:  
 ![EM-Spektrum_Funk](../Physik/assets/EM-Spektrum_Funk.png)
 
-### Fortbewegung der Funkwelle
+### Fortbewegung Der Funkwelle
 
 Eine Radiowelle ist eine [EM-Welle](../Physik/Elektromagnetische%20Wellen.md) und benötigt somit kein Medium, um sich Fortbewegen zu können.  
 ![475](Raum-Bodenwelle.png)
 
-### Energie der Welle
+### Energie Der Welle
 
 [EM-Wellen](../Physik/Elektromagnetische%20Wellen.md) Transportieren Energie  
 $E=h\cdot f$ 
 
-## Vom Sprachsignal zur Funkwelle
+## Vom Sprachsignal Zur Funkwelle
 
 Durch **[Modulation](Modulation.md)** wird ein Niederfrequentes Sprachsignal auf ein Hochfrequentes Trägersignal aufgemischt.  
 Somit kann das Sprachsignal die Eigenschaften einer HF-[EM-Welle](../Physik/Elektromagnetische%20Wellen.md) annehmen und zur Übertragung verwendet werden.  

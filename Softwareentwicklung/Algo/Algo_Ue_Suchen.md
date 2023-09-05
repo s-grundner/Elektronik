@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 2 Suchen in Feldern - Übungen
 
-## Sequentielle Suche im Struktur-Array (2051)
+## Sequentielle Suche Im Struktur-Array (2051)
 
 - Es soll sequenziell in einem Array gesucht werden
 - Das Array besteht aus Person-Strukturelementen bestehend aus einer Personalnummer und einem Namen
@@ -105,7 +105,7 @@ int main() {
 }
 ```
 
-## Binäre Suche im Integer Feld (2052)
+## Binäre Suche Im Integer Feld (2052)
 
 - Es soll binär in einem Integer-Array gesucht werden
 - Eine erste Funktion sucht binär mittels iterativer Lösung
@@ -263,15 +263,15 @@ int main(){
 }
 ```
 
-## Binäre Suche in Struktur-Feld mittels bsearch() (2054)
+## Binäre Suche in Struktur-Feld Mittels bsearch() (2054)
 
 Lösen Sie das vorangegangene Beispiel unter Verwendung der C-Funktionen bsearch().
 
-## Visuelle Darstellung von Suchverfahren - Sequenzielle Suche
+## Visuelle Darstellung Von Suchverfahren - Sequenzielle Suche
 
 Erweitern Sie den js-Worker-Code so, dass die HTML-Datei VisuellSuchenSeq.html funktioniert (für Chrome funktioniert der Web-Worker nur wenn die Seite von einem Server geladen wird. In Internetexplorer/Firefox funktioniert der Web-Worker auch lokal).
 
-## Allgemeine Binäre Suche im Pointerfeld
+## Allgemeine Binäre Suche Im Pointerfeld
 
 Die Funktion soll unter folgenden Bedingungen funktionieren
 
@@ -329,7 +329,7 @@ int comp(const void *a, const void *b) {    // for usage with int-Arrays
 }
 ```
 
-## Visuelle Darstellung von Suchverfahren - Binäre Suche
+## Visuelle Darstellung Von Suchverfahren - Binäre Suche
 
 Erweitern Sie den js-Worker-Code so, dass die HTML-Datei VisuellSuchenBin.html funktioniert.
 
