@@ -1,5 +1,7 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - Java/stream
 aliases: []
 created: 29th November 2022
 ---
@@ -8,7 +10,7 @@ created: 29th November 2022
 
 ## Ausgabe
 
-- Unformatiert
+### Println (Syso)
 
   Zum Ausgeben von Zeichen in der Konsole:
 
@@ -18,7 +20,7 @@ created: 29th November 2022
 
   Die Methode *println* gibt einen Text in der Konsole aus. Mit dem + Operator können in Java einfach Strings (Text) verknüpft werden. Werden Strings und Nummern miteinander veraddiert, dann werden die Nummern zuvor in Texte umgewandelt.
 
-- Formatierte Ausgabe:
+### Format
 
   Zum Steuern wie Variablen-Werte in der Konsole ausgegeben werden sollen, eignet sich die *format*-Methode. Damit kann gesteuert werden ob eine Zahl etwa in hexadezimaler Schreibweise dargestellt werden soll. Für Fließkommazahlen kann damit auch die Anzahl der dargestellten Stellen vor/hinter dem Komma eingestellt werden.
 
@@ -44,7 +46,7 @@ created: 29th November 2022
 
 ## Eingabe
 
-- *Scanner*
+### Scanner
 
   Mit *next* wird die nächste Eingabe eingelesen:
 
@@ -54,7 +56,7 @@ created: 29th November 2022
   sc.close();
   ```
 
-- *BufferedReader*
+### BufferedReader
 
   Von der Tastatur kann genau wie aus einer Datei mittels *BufferedReader* gelesen werden (siehe später, dann wird das hier auch klarer):
 
@@ -70,7 +72,7 @@ created: 29th November 2022
   }
   ```
 
-- *JOptionPane*
+### JOptionPane
 
   Eine sehr kurze Art Daten vom Benutzer einzulesen ist mittels Fenster:
 

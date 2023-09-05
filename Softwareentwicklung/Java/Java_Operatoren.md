@@ -6,8 +6,6 @@ created: 29th November 2022
 
 # Operatoren
 
-In JAVA verfügbare Operatoren:
-
 | Operator |             Bedeutung              |       Beispiel        |    Ergebnis     |
 |:--------:|:----------------------------------:|:---------------------:|:---------------:|
 |    \+    |   Positive Vorzeichen / Addition   |  a = +1; x = 1 + 2;   |  a= 1; x = 3;   |
