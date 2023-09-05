@@ -1,15 +1,23 @@
-## Signal-Synchronisation - Semaphore
+---
+tags:
+  - OS
+aliases:
+  - Signal-Synchronisation
+created: 5. September 2023
+---
+
+# Signal-Synchronisation - Semaphore
 
 Eine weitere Möglichkeit der Synchronisation bieten die sogenannten Semaphore (Bahnsignal). Mit Semaphore kann auch mehrfache Vergabe von Ressourcen organisiert werden (sofern das zulässig ist).
 
 Semaphore beinhalten:
 
 - einen Zähler, dieser signalisiert wieviel Zugänge noch möglich sind. Beim Eintritt wird der Zähler dekrementiert. Wenn der Zähler auf 0 steht, ist kein Eintritt möglich. Beim Verlassen wird der Zähler wiederum inkrementiert.
-- eine Queue, in dieser werden die Threads nach Ankunft gereiht wenn der Zähler 0 ist. Wird der Zähler wieder größer 0, dann wird einer der gequeueten Threads aktiviert.
+- eine [Queue](../DS-Algo/FIFO%20Queue.md), in dieser werden die Threads nach Ankunft gereiht wenn der Zähler 0 ist. Wird der Zähler wieder größer 0, dann wird einer der gequeueten Threads aktiviert.
 
-Im Gegensatz zu Mutex wird von C++ kein Semaphor-Mechanismus angeboten und muss daher, wenn gewünscht, selbst implementiert werden:
+Im Gegensatz zu [Mutex](Mutex.md) wird von [C++](../Cpp/{MOC}%20Cpp.md) kein Semaphor-Mechanismus angeboten und muss daher, wenn gewünscht, selbst implementiert werden:
 
-```c++
+```cpp
 struct Semaphor {
     int counter;		// Zutritt-Zaehler
     Queue* queue;		// Warteschlange
@@ -47,7 +55,7 @@ Alternativ kann aus C eine Semaphor-Variante verwendet werden, Abfolge:
 
 Abfolge:
 
-```c++
+```cpp
 #include <semaphore.h>
 ...
 sem_t mySema;						    // Definition Semaphore
@@ -62,9 +70,9 @@ sem_init(&mySema, 0, 5);	   // Konfiguration: 5 duerfen gleichzeitig arbeiten
 sem_destroy(&mySema);
 ```
 
-Hier werden 6 mal Threads mit den gleichen Funktionen gleichzeitig gestartet. Es sind aber nur 5 gleichzeitig erlaubt. Beispiel (c++):
+Hier werden 6 mal Threads mit den gleichen Funktionen gleichzeitig gestartet. Es sind aber nur 5 gleichzeitig erlaubt. Beispiel (cpp):
 
-```c++
+```cpp
 #include <stdio.h>
 #include <thread>
 #include <semaphore.h>

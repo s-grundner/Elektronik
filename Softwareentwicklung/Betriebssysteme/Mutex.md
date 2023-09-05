@@ -1,9 +1,10 @@
 ---
 tags:
   - OS
+  - Cpp
 aliases:
-  - Mutually excluded
   - Sperr-Synchronisation
+  - Mutual Exclusion
 created: 5. September 2023
 ---
 
@@ -25,7 +26,7 @@ Referenz-Beispiel:
 
 Im Folgenden inkrementieren zwei Threads den Wert einer globalen Variable jeweils 10 Millionen mal (Beispiel DataRace):
 
-```c++
+```cpp
 #include <iostream>
 #include <thread>
 using namespace std;
@@ -73,7 +74,7 @@ Die Ursache: die Berechnung *count++* wird unterbrochen. Man bezeichnet Abschnit
 
 Aufbau:
 
-```c++
+```cpp
 #include <mutex>         // header
 ...
 std::mutex mu;           // Mutex definieren
@@ -84,7 +85,7 @@ mu.unlock();             // entsperren
 ```
 
 > [!EXAMPLE]
-```c++
+```cpp
 #include <iostream>
 #include <mutex>
 #include <thread>
@@ -138,7 +139,7 @@ Problem: wenn innerhalb des kritischen Bereichs eine Exception auftritt, wird un
 
 --> moderner Ansatz: Mutex sollen nicht direkt verwendet werden. Alternativ:
 
-```c++
+```cpp
 //mu.lock();         // so besser nicht
 std::lock_guard<std::mutex> guard(mu);	// besser so
 ...
@@ -147,7 +148,7 @@ std::lock_guard<std::mutex> guard(mu);	// besser so
 
 Mit dieser Variante, wird ein lokaler Mutex definiert, wenn dieser Bereich (Scope) verlassen wird (verlassen wird auch durch eine Exception), dann wird diese lokale Variable freigegeben und der Mutex entsperrt. Nochmal alternativ:
 
-```c++
+```cpp
 std::unique_lock<std::mutex> lck(mu);
 ```
 
