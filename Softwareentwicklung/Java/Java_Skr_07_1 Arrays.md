@@ -100,8 +100,7 @@ Ein Zugriff auf Elemente außerhalb der festgelegten Größe führt zu einem Feh
 
 ## Im Detail 🔎
 
-> [!WARNING] Arrays gehören nicht zu den primitiven Datentypen. Sie gehören zu den **Referenzdatentypen**. 
-
+> [!WARNING] Arrays gehören nicht zu den primitiven Datentypen. Sie gehören zu den **Referenzdatentypen**.  
 > Wie genau werden **primitive Datentypen**, z.B. `int num;`, im Rechner gespeichert?
 
 Der definierte Variablenname *num* ist ein Platzhalter für einen Platz im Arbeitsspeicher des Rechners. Für diese Integer Variable würden 32 Bit (bzw. 4 Byte) Speicherzellen im Rechner reserviert. Reserviert bedeutet, er wird für den Inhalt von *num* verwendet (und von sonst niemanden).
@@ -116,11 +115,16 @@ Diese *direkte* Art der Adressierung wird für sämtliche primitiven Datentypen 
 
 ![05_Felder01|500](assets/05_Felder01.png)
 
-Was versteht man nun unter **Referenzdatentypen**?
-
-Bei primitiven Datentypen wird der Wert einer Variable direkt unter der Adresse abgelegt für die der Variablenname steht. Bei Referenzdatentypen wird der Wert der Variable nicht direkt unter der Adresse abgelegt. Statt dessen wird unter der Adresse eine weitere Adresse (eine Referenz) auf den Wert abgelegt.
-
-Der Wert einer Referenzdatentyp-Variable ist also unter der Adresse abgelegt die an der Adresse der Variable liegt. Im folgenden Beispiel wird eine Referenzvariable (z.B. ein Feld) mit dem Namen r verwendet. An der Adresse (101) für die r steht ist nicht der Wert, sondern wieder eine Adresse (123). Unter dieser Adresse ist der eigentliche Wert der Referenzvariable abgelegt. Für eine Feldvariable also liegen ab dieser Adresse die Feldwerte.
+> [!QUESTION] Was versteht man nun unter **Referenzdatentypen**?  
+> Bei primitiven Datentypen wird der Wert einer Variable direkt unter der Adresse abgelegt für die der Variablenname steht.  
+> Bei Referenzdatentypen wird der Wert der Variable nicht direkt unter der Adresse abgelegt.  
+> Statt dessen wird unter der Adresse eine weitere Adresse (eine Referenz) auf den Wert abgelegt.
+> 
+> Der Wert einer Referenzdatentyp-Variable ist also unter der Adresse abgelegt die an der Adresse der Variable liegt.  
+> Im folgenden Beispiel wird eine Referenzvariable (z.B. ein Feld) mit dem Namen r verwendet.  
+> An der Adresse (101) für die r steht ist nicht der Wert, sondern wieder eine Adresse (123).  
+> Unter dieser Adresse ist der eigentliche Wert der Referenzvariable abgelegt.  
+> Für eine Feldvariable also liegen ab dieser Adresse die Feldwerte.
 
 
 ![05_Felder02|500](assets/05_Felder02.png)
