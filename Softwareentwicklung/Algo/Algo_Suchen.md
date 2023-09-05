@@ -8,60 +8,9 @@ created: 29th November 2022
 
 Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht . Dieser Wert wird als **Schlüssel** bezeichnet.
 
-## Sequentielles Suchen (2050)
+[Sequential Search](Sequential%20Search.md)
 
-In einem Feld kann ein Schlüssel gesucht werden, indem im Feld aufsteigend, vom ersten Element beginnend, mit dem Suchwert verglichen wird. Dieses **sequentielle Suchen** benötigt für N Elemente im Feld:
-
-- N Vergleiche wenn das gesuchte Element nicht enthalten ist
-- Im Durchschnitt N/2 Vergleiche für eine erfolgreiche Suche
-
-```c
-/*
- * seq_search(int a[], int n, int k) - durchsucht das Feld a[]
- *	(mit n Elementen) nach dem Schluessel k. Der
- *	Rueckgabewert ist die Position im Feld oder -1, wenn nicht
- *	vorhanden.
- */
-int seq_search(int a[], int n, int k){
-    int i;
-    for( i=0; i<n; i++ ) {
-        if( a[i] == k ) return i;    // Found
-    }
-    return -1;                       // Not Found
-}
-```
-
-## Binäre Suche
-
-Effizienter kann in einem bereits sortierten Feld mittels **Binärer Suche** gesucht werden:
-
-- Vergleich des Schlüssels mit dem Element in der Mitte der Liste. Wenn Gleichheit: Ende der Suche - Element gefunden
-- Falls der Schlüssel größer als der Wert des Elements in der Mitte ist: Wiederholen des Algorithmus mit der linken Feld-Hälfte
-- Falls der Schlüssel kleiner als der Wert des Elements in der Mitte ist: Wiederholen des Algorithmus mit der rechten Feld-Hälfte
-- Wenn das zu durchsuchende Feld kein Element mehr beinhaltet: Ende der Suche - Element nicht vorhanden.
-
-Dieser Algorithmus lässt sich sehr einfach rekursiv lösen. Im Ungünstigsten Fall benötigt die Binäre Suche lg(N) Vergleiche.
-
-```c
-/*
- * binsearch(int a[], int left, int right, int key) - durchsucht das
- *	Array a[] in den Grenzen left bis right nach dem Wert key.
- *	Die Position ist der Rueckgabewert, oder -1
- *	wenn key nicht gefunden wurde.
- */
-int binsearch(int a[], int left, int right, int key) {
-    int m;
-    if( left <= right ) {
-        m = (left+right)/2;
-        if( key == a[m] ) return m;
-        else if( key < a[m] ) return binsearch(a, left, m-1, key);
-        else return binsearch(a, m+1, right, key);
-    }
-    return -1;
-}
-```
-
-Dieser Algorithmus kann noch verbessert werden: wenn wir im Telefonbuch suchen, dann beginnen wir wenn wir nach einem Namen suchen der mit Z beginnt wesentlich weiter hinten, als wenn wir nach einem Namen suchen der mit einem B beginnt. Man kann die Position eines Suchworts mittels Interpolation abschätzen und dort zu suchen beginnen. Diese Art der Suche wird dann als **Interpolationssuche** bezeichnet.
+[Binary Search](../ds-algo/Binary%20Search.md)
 
 ## C-Standard-Bibliotheksfunktion Bsearch
 
@@ -144,23 +93,8 @@ void *bsearch(const void *key, const void *base, size_t nitems, size_t size, int
 
 der Zeiger auf die Funktion heißt *compare*. Dieser Name ist nur wichtig für den Progammierer der die bsearch-Funktion programmiert. Die Aufrufparameter der Funktionen die durch compare aufgerufen werden sind zweimal *const void \**. Der Rückgabewert ist ein *int*.
 
-## Referenzen
+# Referenzen
 
-- Sequentielle Suche:
-
-  <https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Lineare_Suche>
-
-- Binäre Suche:
-
-  <https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Bin%C3%A4re_Suche>
-
-- C-Bibliotheksfunktion bsearch:
-
-  <https://www.tutorialspoint.com/c_standard_library/c_function_bsearch.htm>
-
-## Fragen
-
-- Welche beiden grundsätzlichen Ansätze der Suche in Feldern kennen Sie?
-- Welche Bedingung muss erfüllt sein, damit die binäres Suche angewandt werden kann?
-- Wie groß ist die durchschnittliche und die maximale Suchdauer bei der sequentiellen Suche?
-
+- [Sequentielle Suche](https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Lineare_Suche)
+- [Binäre Suche](https://de.wikibooks.org/wiki/Algorithmen_und_Datenstrukturen_in_C/_Bin%C3%A4re_Suche)
+- C-Bibliotheksfunktion [bsearch](https://www.tutorialspoint.com/c_standard_library/c_function_bsearch.htm)

@@ -6,8 +6,8 @@ aliases:
 subject:
   - ""
 inst: [<%tp.system.suggester(
-	["HTBLuVA Salzburg", "Institut für Systemsoftware", "Institut für Industriemathematik"],
-	["HTL", "Systemsoftware", "Industriemathematik"])%>]
+	["HTL", "Systemsoftware", "Industriemathematik"],
+	["HTBLuVA Salzburg", "Institut für Systemsoftware", "Institut für Industriemathematik"])%>]
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ---
 

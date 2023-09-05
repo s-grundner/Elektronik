@@ -37,7 +37,7 @@ Kennzeichen:
 - Internes Sortieren, es werden Elemente an beliebigen Positionen miteinander verglichen.
 - Kann stabil oder instabile implementiert werden.
 
-Implementierung in C:
+## Implementierung in C
 
 ```c
 void selectionSort(int arr[], int len) {
