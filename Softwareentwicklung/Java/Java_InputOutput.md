@@ -4,10 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Java_Skr_04_InputOutput
-
-4 Ein-/Ausgabe
-====================
+# 4 Ein-/Ausgabe
 
 ## Ausgabe
 

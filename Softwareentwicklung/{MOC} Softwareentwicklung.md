@@ -12,7 +12,7 @@ inst: Institut für Systemsoftware
 # Map of Content - Softwareentwicklung
 
 ```dataview
-TABLE keywords, tags
+TABLE tags, keywords
 WHERE file.folder = "Softwareentwicklung" 
 WHERE !contains(file.name, "{MOC}")
 WHERE contains(subject, "Softwareentwicklung1")
