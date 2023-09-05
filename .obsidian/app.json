@@ -21,5 +21,6 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showInlineTitle": false,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "tabSize": 2
 }

@@ -18,7 +18,7 @@ created: 19th April 2022
 
 ### [Stack](Stack.md) ([LIFO](Stack.md))
 
-### [Queue](../C/Queue.md) ([FIFO](../C/Queue.md)
+### [Queue](../C%20(Programmiersprache)/Queue.md) ([FIFO](../C%20(Programmiersprache)/Queue.md)
 
 #### [Ringbuffer](../../Digitaltechnik/Ringbuffer.md)
 

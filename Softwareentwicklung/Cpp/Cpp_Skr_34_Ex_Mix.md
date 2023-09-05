@@ -1,6 +1,6 @@
 # Mix
 
-## decltype
+## Decltype
 
 C++11
 
@@ -26,7 +26,7 @@ mit dem Formular *decltype(auto)* wird für *const* automatisch auch *=123* mitk
 
 Die Bezeichnungen WPARAM und LPARAM stammen aus dem ersten 16-BitWindows. PARAM heißt Parameter und ist damit von der Funktion abhängig. W steht für WORD (unter 16 bit-Windows 16 bit), L steht für LONG (unter 16-bit Windows 32 bit). Das ist schon alles!
 
-## auto
+## Auto
 
 Es steht für einen unbekannten Datentyp, den der Compiler selbst bestimmt. Am einfachsten versteht man es anhand eines Beispiels.
 
@@ -34,7 +34,7 @@ Man sollte dieses Konzept nicht mit der dynamischen Datentypzuweisung, wie es si
 
 auto soll(!) durchaus verwendet werden, damit kann die Änderungsfähigkeit verbessert werden und Fehler vermieden werden. Die Effizienz eines Programms leidet NICHT, auto wird zur Compile-Zeit übersetzt.
 
-# lvalue, rvalue
+# Lvalue, Rvalue
 
 Die Bezeichnung könnte davon kommen:
 
@@ -54,7 +54,7 @@ int i = func();
 
 Hier liefert auch *func* einen *rvalue*, es gibt keinen Speicherplatz, der adressiert werden könnte. der 10er ist temporär.
 
-## Referenzen auf lvalue, rvalue
+## Referenzen Auf Lvalue, Rvalue
 
 Auf einen *lvalue* kann einfach eine Referenz erstellt werden:
 
@@ -90,4 +90,4 @@ Sehr gute Videos:
 <https://www.youtube.com/watch?v=ehMg6zvXuMY>  
 <https://www.youtube.com/watch?v=OWNeCTd7yQE>
 
-# 
+#

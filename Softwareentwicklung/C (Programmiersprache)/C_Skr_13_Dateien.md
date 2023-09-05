@@ -56,7 +56,7 @@ int fprintf(FILE *f, char* controlStr, ...optParameter...);
 
 Funktioniert gleich wie printf(). Zusätzlich wird die Datei mit **f** mit angegeben. Zurückgegeben wird die Anzahl der geschriebenen Zeichen oder wenn das Schreiben nicht erfolgreich war, dann -1.
 
-### Lesen eines Zeichens
+### Lesen Eines Zeichens
 
 ```c
 int fgetc(FILE *f);
@@ -64,7 +64,7 @@ int fgetc(FILE *f);
 
 Liest ein Zeichen aus der Datei **f**. Wenn ein Fehler beim Lesen auftritt (EOF), dann wird -1 zurückgegeben.
 
-### Lesen einer Zeichenkette
+### Lesen Einer Zeichenkette
 
 ```c
 char *fgets(char *s, int n, FILE *f);
@@ -100,7 +100,7 @@ size_t fread(void *ptr, size_t size, size_t n, FILE *stream);
 
 Liest aus der Datei **stream** die nächsten **n** Elemente der Größe **size** und legt sie an der Adresse ptr ab. Die Funktion gibt die Anzahl der gelesenen Elemente zurück. Wenn sich die Anzahl von **n** unterscheidet, dann hat was nicht geklappt.
 
-## Dateien mit wahlfreiem Zugriff
+## Dateien Mit Wahlfreiem Zugriff
 
 ### Position Setzen
 

@@ -178,7 +178,7 @@ for(addrinfo *p = servinfo;p != NULL; p = p->ai_next) {
 freeaddrinfo(servinfo);
 ```
 
-Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider variieren diese Funktionen je nach verwendeten [Betriebssystem](../../Softwaretechnik/Os/Operating%20Systems.md).
+Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider variieren diese Funktionen je nach verwendeten [Betriebssystem](../../Softwareentwicklung/Os/Operating%20Systems.md).
 
 ### Konvertierung zwischen Host-Adressen
 

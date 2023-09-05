@@ -53,7 +53,7 @@ Darin:
 
 Hier wir gezeigt wie die empfangene Sekunden-Zeit (Bruchteile werden vernachlässigt) umgerechnet wird.
 
-- Die Zeit wird aus dem Netzwerk empfangen. Dort gilt die *Network*-Byte Order. Je nach [Betriebssystem](../../Softwaretechnik/Os/Operating%20Systems.md) kann die Byte-Reihenfolge gleich oder anders sein. Die Funktion **ntohl** rechnet auf jedem System korrekt um (**N**etwork**T**o**H**ost **L**ong).
+- Die Zeit wird aus dem Netzwerk empfangen. Dort gilt die *Network*-Byte Order. Je nach [Betriebssystem](../../Softwareentwicklung/Os/Operating%20Systems.md) kann die Byte-Reihenfolge gleich oder anders sein. Die Funktion **ntohl** rechnet auf jedem System korrekt um (**N**etwork**T**o**H**ost **L**ong).
 - Diese 1900-Zeit wird auf 1970-Zeit umgerechnet
 - Mit ctime wird die Zeitzone und die Formatierung in einen String erledigt
 

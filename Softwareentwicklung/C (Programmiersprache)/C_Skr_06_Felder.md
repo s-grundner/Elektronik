@@ -64,7 +64,7 @@ int a[4] = {1, 2, 3}    // damit gilt a[0] = 1   a[1] = 2    a[2] = 3    a[3] = 
 
 Nach der obigen Definition und Initialisierung, werden die kompletten Felder initialisiert, nicht nur die erwähnten: `c = [0, 0, 0, 0]` und `a = [1, 2, 3, 0]`. Die nicht angeführten Elemente werden automatisch mit 0 initialisiert.
 
-## Größe des Feldes
+## Größe Des Feldes
 
 C ist nicht objektorientiert. Es kann daher kein `c.Length` oder Ähnliches geben. Um die Anzahl der Elemente in einem Feld zu bestimmen, kann die `sizeof()` Funktion verwendet werden. Diese Funktion gibt immer die **Größe** der Variable **in Bytes** an. Für Felder bedeutet das: Anzahl der Feldelemente mal Größe eines Elements:
 

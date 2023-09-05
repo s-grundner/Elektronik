@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # Module - Übungen
 
-## Doppelt einbinden
+## Doppelt Einbinden
 
 - Erstellen sie ein Projekt mit den beiden C-Dateien `main.c` und modul1.c.
 

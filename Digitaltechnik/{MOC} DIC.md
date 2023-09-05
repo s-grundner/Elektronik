@@ -38,7 +38,7 @@ created: 10th December 2022
 ## 5. JG
 
 - [Machine Learning](Machine%20Learning/Machine%20Learning.md)
-- [ESP32](../Softwaretechnik/IoT/ESP32.md)
+- [ESP32](../Softwareentwicklung/IoT/ESP32.md)
 
 ## Matura
 

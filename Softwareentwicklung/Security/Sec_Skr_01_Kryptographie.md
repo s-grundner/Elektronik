@@ -212,7 +212,7 @@ Wird die mögliche [Variation](../../Mathe/mathe%20(5)/Variation.md) eines (z. B
 
 Ein Feistel-Netzwerk sieht wie folgt aus (L = Links, R = Rechts, K = Schlüssel):
 
-![](bilder/Kry_FeistelNw01.png)
+![](assets/Kry_FeistelNw01.png)
 
 Für DES (64 Bit Block, 56 Bit Schlüssel) wird dieses Netzwerk etwa so ausgeführt:
 
@@ -260,7 +260,7 @@ Mittels Diffie-Hellman-Merkle können sich Alice und Bob den gleichen, geheimen 
 
 Funktion:
 
-![](bilder/Kry_DiffieHellman.png)
+![](assets/Kry_DiffieHellman.png)
 
 mit $g = [2, …, n-2]$ und $s = [1, …, n-1]$. Durch Abhören der Übertragung, kann n (Modul - Primzahl), g, $p_A$ und $p_B$ erfahren werden. Zur Berechnung von k, wird allerdings noch entweder $s_A$ oder $s_B$ benötigt. Diese Werte können ermittelt werden durch Lösen der Gleichung $p_A = g^{s_A} mod\ n$ nach $s_A$. Diese Bestimmung wird *diskretes Logarithmus-Problem* bezeichnet. Für große n mit g und n teilerfremd ist diese Gleichung ähnlich aufwändig zu bestimmen, wie eine große Primfaktorenzerlegung. Mit große Primzahl ist aktuell etwa $2^{2048}$ gemeint (Standardbrowser). Aktuell geht die öffentliche Kryptologie-Meinung davon aus, dass von Geheimdiensten deutlich weniger als $2^{100}$ Berechnungen durch reines Probieren gelöst werden kann (je nach Algorithmus gibt es jedoch Effizienzsteigerungen).
 
@@ -275,7 +275,7 @@ Diffie-Hellman-Merkle haben sich daher eine Änderung überlegt: wenn Alice auf 
 
 ### RSA
 
-![Kry_Rsa_Comic](bilder/Kry_Rsa_Comic.png)
+![Kry_Rsa_Comic](assets/Kry_Rsa_Comic.png)
 
 (Rivest-Shamir-Adleman - 1978) Der Algorithmus ist aufgrund ausgelaufener Patente frei verwendbar.
 
@@ -350,7 +350,7 @@ Mit TLS wird die **Vertraulichkeit ** (durch Verschlüsselung), die **Integritä
 
 TLS-Dienste im Schichtenmodell:
 
-![Kry_Tls](bilder/Kry_Tls.png)
+![Kry_Tls](assets/Kry_Tls.png)
 
 TLS setzt auf der TCP/UDP-Schicht auf und bietet mit dem Applikations-Protokoll Dienste für Anwendungen wie HTTP an. Damit liegt es zwischen dem Transport-Layer und dem Application-Layer. Das Record-Layer-Protocol stellt PDUs (Protocol-Data-Units) als Container zur Verfügung in welche die Applikationsdaten eingebettet werden (daher Record-Layer-Frames oder kurz Records)
 
@@ -358,7 +358,7 @@ Das Handshake-Protokoll wird durch die CipherSpec definiert. Die Auswahl der Cip
 
 Ein Verbindungsaufbau (**TLS-Handshake-Protokoll**) läuft oft wie folgt ab (vereinfachte Darstellung für die aktuelle Version 1.3). Bedingung ist eine bereits aufgebaute TCP-Verbindung (3-Wege-Handshake):
 
-![Kry_Tls](bilder/Kry_Tls_VerbdgAufbau.png)
+![Kry_Tls](assets/Kry_Tls_VerbdgAufbau.png)
 
 - *ClientHello*: ein Client meldet sich bei einem Server. Die Meldung beinhaltet (neben weiteren anderen Parametern):
   - Unterstützte Chiffre

@@ -146,7 +146,7 @@ Die Einleitung **%** und der Formatbezeichner **T** muss immer angeführt werden
 
 *Muss*. leitet Formatierungssymbol ein.
 
-## f
+## F
 
 *Optional*. Flag/Kennzeichnung:  
 | Kennzeichnung | Bedeutung                             |
@@ -169,7 +169,7 @@ ein # an dieser Stelle hat unterschiedliche Bedeutung:
 | %#g  | Dezimalpunkt wird immer angezeigt. Nullen nach Dezimalpunkt werden nicht gelöscht |
 | %#G  | Dezimalpunkt wird immer angezeigt. Nullen nach Dezimalpunkt werden nicht gelöscht |
 
-## m
+## M
 
 *Optional*. Nummer gibt die minimale Anzahl an Feldern an. Werte werden standardmäßig rechtsbündig eingefügt, ausser es wurde für f ein "-" angegeben.
 
