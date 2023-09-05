@@ -1,6 +1,12 @@
-# 8 NoSQL
 
-![](C:\Daten\Skripten\Informatik\DB\bilder\NoSQL_Comic.png)
+---
+tags: []  
+aliases: []  
+created: 29. November 2022  
+banner: "Softwareentwicklung/Datenbank/assets/NoSQL_Comic.png"
+---
+
+# NoSQL
 
 NoSQL = Not Only SQL. SQL wird als Sprache für die Kommunikation mit einer relationalen Datenbank verstanden. NoSQL-Datenbanken sind Nicht-Relationale-Datenbanken. Ursache für diese Entwicklung:
 
@@ -34,7 +40,7 @@ Wichtig: die hier angeführten Typen beziehungsweise Beispiele sind in keiner We
 
 Für *kleine Projekte* kann verkürzt sowieso ein beliebiger Typ (relational oder NoSQL) gewählt werden. Entscheidende Kriterien werden dann sowieso die Frage nach Lizenzgebühren oder die Erfahrung mit einem speziellen Typ sein.
 
-## Algorithmen und Protokolle
+## Algorithmen Und Protokolle
 
 Für NoSQL-Datenbanken sind die folgenden Themen relevant (stark vom tatsächlichen Implementierung abhängig) - wobei manche der erwähnten Verfahren durchaus auch für relationale Datenbanken Anwendung finden:
 

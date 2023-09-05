@@ -2,9 +2,9 @@
 
 Ähnlich der ODBC-Idee gibt es für Java eine Zwischenschicht - JDBC. Diese Schicht bietet ein einheitliche [Schnittstelle](../../Digitaltechnik/{MOC}%20Schnittstellen.md) für die Anwendungsentwicklung an, womit die Anwendung unabhängig von der konkreten DB wird.
 
-## [MySQL](DB_Sql.md) - Setup
+## [MySQL](SQL.md) - Setup
 
-Um den Ablauf zu zeigen wird das am [MySQL](DB_Sql.md)-Treiber gezeigt.
+Um den Ablauf zu zeigen wird das am [MySQL](SQL.md)-Treiber gezeigt.
 
 Java kann auf SQL-Datenbanken mittels eines Datenbankabhängigen Treibers zugreifen. Der Vorteil dieser Idee ist, dass bei Änderungen an der Datenbank oder einem Umstieg auf eine andere Datenbank nur auf einen passende Treiber umgestellt werden muss und das Programm gleich bleiben kann.
 
@@ -125,7 +125,7 @@ st.setString(1,"joe");
 st.executeUpdate();     // das "preparete" Statement wird ausgefuehrt
 ```
 
-## [SQLite](DB_Sql.md)
+## [SQLite](SQL.md)
 
 Bis auf den Connector funktioniert der Zugriff auf eine SQLite-DB vollkommen identisch wie mit einer MySQL-DB.
 
@@ -146,7 +146,7 @@ Bis auf den Connector funktioniert der Zugriff auf eine SQLite-DB vollkommen ide
   </dependency>
   ```
 
-- Anschließend kann für obige [MySQL](DB_Sql.md)-Beispiele der Connector angepasst werden:
+- Anschließend kann für obige [MySQL](SQL.md)-Beispiele der Connector angepasst werden:
   
   ```java
   String sDbUrl="jdbc:sqlite:c:\\myDir\\is_uni.db";

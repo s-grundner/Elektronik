@@ -1,4 +1,10 @@
-# 5.2 Tool - XAMPP
+---
+tags: ["DB"]
+aliases: ["phpmyadmin"]
+created: 29. November 2022
+---
+
+# XAMPP
 
 ## Installation (Windows)
 
@@ -59,7 +65,7 @@ Ist ein freies Datenbank-Management-Tool. Der große Vorteil dieses Tools ist, d
 
 Der linke Fensterteil beinhaltet die Datenbanken (Sammlung von Tabellen wird hier als Datenbank bezeichnet).
 
-### Anlegen einer neuen Datenbank
+### Anlegen Einer Neuen Datenbank
 
 Datenbank ist eigentlich nicht wirklich ein allgemein gleicher Begriff. Eigentlich ist die Gesamtheit der Datenbanken die Datenbank. Oft werden diese *Teildatenbanken* als Schema bezeichnet, um die Sache einfacher zu halten verwenden wir auch Datenbanken.
 
@@ -68,7 +74,7 @@ Datenbank ist eigentlich nicht wirklich ein allgemein gleicher Begriff. Eigentli
 - **Zeichensatz** angeben. Der ist vor allem für Vergleichoperationen/Suche in der Datenbank Entscheidend. Die Sortierung erfolgt in unterschiedlichen Zeichensätzen auch unterschiedlich. Am Besten immer utf8_general_ci angeben. Wichtig wird die Codierung wenn mittels Tools von aussen auf die Datenbank zugegriffen wird, dabei sollten sämtliche Werkzeuge die exakt gleiche Codierung verwenden.
 - Mit Anlegen wird die Datenbank erstellt und ist (eventuell nach Drücken der Refresh Schaltfläche) im Navigationsbereich verfügbar.
 
-### Anlegen einer neuen Tabelle
+### Anlegen Einer Neuen Tabelle
 
 - Wird eine neue/leere Tabelle ausgewählt, dann wird nach einer neuen Tabelle gefragt. Wenn schon Tabellen in dieser Datenbank sind kann im Navigationsmenü auf **Neu** geklickt werden.
 - **Name der Tabelle** eingeben und **Anzahl der Spalten** (kann später einfach verändert werden)
@@ -76,7 +82,7 @@ Datenbank ist eigentlich nicht wirklich ein allgemein gleicher Begriff. Eigentli
 
 Allgemein (nicht nur phpMyAdmin): es gibt reservierte Namen, diese werden nicht *empfohlen* zu verwenden. Da sind durchaus Begriffe wie Name oder Alter dabei.
 
-### Verändern von Tabellen/Attributen
+### Verändern Von Tabellen/Attributen
 
 - Auswählen der betroffenen Tabelle im Navigationsbereich
 - Im obigen Menü **Struktur** auswählen und für Änderungswünsche an der Tabelle anschließend wieder oben **Operationen** auswählen. Auf diese Weise können auch ganze Tabellen (samt Spalten UND Daten gelöscht werden).
@@ -107,7 +113,7 @@ Beispiel: in einer Tabelle gibt's eine Postleitzahl, in einer zweiten Tabelle so
 
 Ab jetzt wird bei den beiden betroffenen Spalten immer ein grauer Schlüssel dargestellt (die Darstellung klappt manchmal nicht)
 
-### Befüllen mit Daten
+### Befüllen Mit Daten
 
 - Auswählen der betroffenen Tabelle im Navigationsbereich
 - Im obigen Menü **Einfügen** auswählen

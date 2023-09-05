@@ -1,4 +1,15 @@
-# 6.2 Node.js
+---
+tags:
+  - npm
+  - Javascript
+  - DB
+aliases: []
+created: 29. November 2022
+---
+
+
+
+# Node.js
 
 - ist ein Interpreter für die Sprache Javascript der auf die Javascript-Runtime-V8 von Google-Chrome aufbaut - grundsätzlich können damit beliebige js-Dateien ausgeführt werden.
 

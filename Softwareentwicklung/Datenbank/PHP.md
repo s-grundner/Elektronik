@@ -1,6 +1,13 @@
-# DB_01_PHP
+---
+tags:
+  - DB
+aliases:
+  - Personal Home Page Tools
+  - Hypertext Preprocessor
+created: 29. November 2022
+---
 
-## 6.1 PHP
+# PHP
 
 Hypertext Preprocessor (vormals Personal Home Page Tools)
 

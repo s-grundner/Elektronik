@@ -1,4 +1,12 @@
-# 5.1 Tool - SQLite
+---
+tags:
+  - Tool
+  - DB
+aliases: []
+created: 29. November 2022
+---
+
+# SQLite
 
 ## Installation (Windows)
 

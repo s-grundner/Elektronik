@@ -1,12 +1,21 @@
 ---
-tags: ["DB", "DB"]
-aliases: ["SQL", "SQLite", "MySQL", "PostgreSQL", "Structured Query Language"]
-subject: ["fsst"]
-source: ["Roman Schragl", "https://gitlab.com/fosy/htbluva_sbg_fsst/"]
+tags:
+  - DB
+aliases:
+  - SQL
+  - SQLite
+  - MySQL
+  - PostgreSQL
+  - Structured Query Language
+subject:
+  - fsst
+source:
+  - Roman Schragl
+  - https://gitlab.com/fosy/htbluva_sbg_fsst/
 created: 21st November 2022
 ---
 
-# 4 SQL
+# SQL
 
 SQL (Structured Query Language) - ist eine Datenbanksprache zur Definition und zum Bearbeiten von Datenstrukturen und Beständen in relationalen Datenbanken. 
 
@@ -686,7 +695,7 @@ COMMIT;
 
 Der Bereich zwischen Start-Transaction und Commit wird als atomarer DB-Zugriff behandelt. Wenn eine solche Transaktion doch nicht durchgeführt werden soll, kann der komplette Zugriff innerhalb der Transaktion mit *ROLLBACK* rückgängig gemacht werden.
 
-### Fehlermeldung generieren
+### Fehlermeldung Generieren
 
 ```sql
 SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Custom error'

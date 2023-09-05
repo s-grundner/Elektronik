@@ -92,7 +92,7 @@ Variante:
 - Jedes Buch kann ggf. mehrere Autoren haben und ist eindeutig durch seine ISBN gekennzeichnet.
 - Die Bibliothek besitzt teilweise mehrere Exemplare eines Buches.
 - Zeitschriften dagegen sind jeweils nur einmal vorhanden. Sie erscheinen in einzelnen Heften und werden jahrgangsweise gebunden.
-- Die in Zeitschriften publizierten Artikel sind ebenso wie Bücher einem oder mehreren Fachgebieten (z.B. [Betriebssysteme](../Operating%20Systems/Operating%20Systems.md), Datenbanksysteme, Programmiersprachen) zugeordnet.
+- Die in Zeitschriften publizierten Artikel sind ebenso wie Bücher einem oder mehreren Fachgebieten (z.B. [Betriebssysteme](../../Operating%20Systems/Operating%20Systems.md), Datenbanksysteme, Programmiersprachen) zugeordnet.
 - Ausgeliehen werden können nur Bücher (keine Zeitschriften).
 
 > [!success] Lösung  
