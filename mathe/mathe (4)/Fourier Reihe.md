@@ -63,7 +63,7 @@ Gleichrichtwert $\dfrac{a_{0}}{2}$
 
 > [!hint] Das Integrationsintervall kann beliebig verschoben werden
 
-## Güte der Näherung
+## Güte Der Näherung
 
 ---
 

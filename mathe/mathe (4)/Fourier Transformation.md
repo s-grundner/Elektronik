@@ -23,7 +23,7 @@ F(\omega)=\mathcal{F}\{f(t)\} && \text{oder} && f(t) \multimap F(\omega)
 \end{align*}
 $$
 
-## $\mathcal{F}(f(t))\dots$ Fouriertransformation von $f(t)$
+## $\mathcal{F}(f(t))\dots$ Fouriertransformation Von $f(t)$
 
 $$
 \begin{align*}
@@ -49,7 +49,7 @@ $$
 \end{align*}
 $$
 
-### [Fourier Analyse](Fourier%20Reihe.md) - komplexe Form der [Fourier Reihe](Fourier%20Reihe.md)
+### [Fourier Analyse](Fourier%20Reihe.md) - Komplexe Form Der [Fourier Reihe](Fourier%20Reihe.md)
 
 >[!summary] $$f(t) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot\omega_{0} t)+b_{n}\cdot\sin(n\cdot\omega_{0} t)\right]$$
 
