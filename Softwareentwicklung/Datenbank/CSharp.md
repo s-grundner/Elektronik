@@ -1,6 +1,14 @@
-# 6.6 C#
+---
+tags:
+  - C#
+aliases:
+  - C#
+created: 29. November 2022
+---
 
-## Zugriff auf Datenbanken mittels C#
+# C\#
+
+## Zugriff Auf Datenbanken Mittels C#
 
 Die Zugriffsinformation auf einen spezielle Datenbankserver kann getestet werden im Visual Studio mittels Menüleiste -> Projekt -> Neue Datenquelle hinzufügen -> …
 
@@ -14,7 +22,7 @@ Die Klassen die sich mit dem Zugriff auf DBs befassen sind im **ADO.NET** Framew
 
 Aus Kompatibilitätsgründen funktioniert die hier angeführte MySQL-Vorgangsweise auch für MariaDB.
 
-#### Vorbereitung (in der DB)
+#### Vorbereitung (in Der DB)
 
 - Die MariaDB-Datenbank zeichnet sich durch eine sehr gute Kompatibilität zur MySQL-Datenbank aus, daher kann für diese DB in C# auf den MySQL-Connector zurückgegriffen werden.
 - Für den Zugriff auf die MariaDB-XAMPP-Datenbank muss die DB vorher gestartet werden. Dazu das XAMPP Control-Panel starten und die Module *Apache* und *MySQL* Starten (Apache wird nur benötigt zum begleitenden Steuern mittels phpMyAdmin).
@@ -61,7 +69,7 @@ Referenz: (<https://dev.mysql.com/doc/dev/connector-net/8.0/html/T_MySql_Data_My
 
 Wenn in C# Text mit Anführungsstrichen verwendet werden soll, so erfolgt das mittels einfacher Anführungsstriche `'`.
 
-#### SQL-Befehl ohne Query
+#### SQL-Befehl Ohne Query
 
 Zum Ausführen von SQL-Befehlen ohne Auswertung eines Querys bei geöffneter Verbindung:
 
@@ -75,7 +83,7 @@ Nach erfolgter Ausführung wird ein Integerwert zurückgeben der die Anzahl der 
 
 Zum Abfangen von Exceptions ist `cmd.ExecuteNonQuery()` in einen Try-Catch-Block einzubetten.
 
-#### SQL-Befehl mit Query
+#### SQL-Befehl Mit Query
 
 Für Querys wird folgende Anweisung verwendet:
 
@@ -122,7 +130,7 @@ con.Open();        // Verbinden
 con.Close();    // Trennen der Verbindung
 ```
 
-#### SQL-Befehl ohne Query
+#### SQL-Befehl Ohne Query
 
 ```cs
 con.Open();
@@ -134,7 +142,7 @@ sql.ExecuteNonQuery();
 con.Close();
 ```
 
-#### SQL-Befehl mit Query
+#### SQL-Befehl Mit Query
 
 ```cs
 con.Open();
@@ -176,7 +184,7 @@ con.Open();        // Verbinden
 con.Close();    // Trennen der Verbindung
 ```
 
-#### SQL-Befehl ohne Query
+#### SQL-Befehl Ohne Query
 
 Erstellen einer Tabelle:
 
@@ -190,7 +198,7 @@ sql.ExecuteNonQuery();
 con.Close();
 ```
 
-#### SQL-Befehl mit Query
+#### SQL-Befehl Mit Query
 
 Daten aus DB lesen:
 

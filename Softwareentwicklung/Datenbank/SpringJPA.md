@@ -1,4 +1,12 @@
-# 6.8 Spring-PostgreSQL
+---
+tags:
+  - DB
+aliases:
+  - PostgreSQL
+created: 29. November 2022
+---
+
+# Spring-PostgreSQL
 
 Spring: Web-Framework für Java.
 
@@ -23,7 +31,7 @@ In den folgenden 7 Schritten wird die Anwendung entwickelt:
 
 - Generate, Download, Entpacken und mit IntelliJ Öffnen
 
-## 2. Erstellen und Verbinden mit Datenbank
+## 2. Erstellen Und Verbinden Mit Datenbank
 
 - Installation von PostgreSQL, Anlegen eines Benutzers (bei der Installation wird für User postgres nach dem Passwort gefragt).
 

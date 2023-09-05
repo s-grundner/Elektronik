@@ -1,4 +1,10 @@
-# 6.3 Java Database Connectivity JDBC
+---
+tags: []
+aliases: []
+created: 29. November 2022
+---
+
+# Java Database Connectivity JDBC
 
 Ähnlich der ODBC-Idee gibt es für Java eine Zwischenschicht - JDBC. Diese Schicht bietet ein einheitliche [Schnittstelle](../../Digitaltechnik/{MOC}%20Schnittstellen.md) für die Anwendungsentwicklung an, womit die Anwendung unabhängig von der konkreten DB wird.
 

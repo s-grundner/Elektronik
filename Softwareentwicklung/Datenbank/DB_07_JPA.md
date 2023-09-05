@@ -1,4 +1,12 @@
-# 6.7 Jakarta Persistence API - JPA
+---
+tags:
+  - DB
+aliases:
+  - Jakarta Persistence API
+created: 29. November 2022
+---
+
+# Jakarta Persistence API - JPA
 
 (Java/Jakarta Persistence API)
 
@@ -6,7 +14,7 @@ Schnittstelle Objekte <-> Datenbank für Java-Anwendungen. JPA ist eine Speziali
 
 Mittels JPA wird eine Zwischenschicht zwischen der Java-Anwendung und der Datenbank angeboten um objektorientiert mit Tabellen arbeiten zu können.
 
-## Beispiel anhand Uni-Datenbank:
+## Beispiel Anhand Uni-Datenbank:
 
 1. Programm-Setup am Besten mit Maven, die Projektkonfiguration pom.xml:
    

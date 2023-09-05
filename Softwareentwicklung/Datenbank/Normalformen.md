@@ -1,3 +1,11 @@
+---
+tags:
+  - DB
+aliases:
+  - Normalform
+created: 29. November 2022
+---
+
 # Normalformen
 
 Vorweg: hier wird nur mehr über relationale Datenbanken geschrieben.
