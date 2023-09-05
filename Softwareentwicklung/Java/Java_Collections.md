@@ -69,7 +69,7 @@ al.remove("abc");
 
 Hier wird die Liste durchsucht und das erste Element mit Inhalt "abc" wird gelöscht. Eventuell weitere verbleiben im Feld. Gibt's kein Element mit der gesuchten Inhalt, dann wird kein Element gelöscht.
 
-## Methoden / Eigenschaften von ArrayListen
+## Methoden / Eigenschaften Von ArrayListen
 
 `ArrayList alist` Definition einer ArrayList
 

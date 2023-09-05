@@ -1,12 +1,12 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - Java/stream
 aliases: []
 created: 29th November 2022
 ---
 
-# 14 Tastatur- / Maus-Listener
-
-## KeyListener
+# KeyListener
 
 Für's Abfragen von Tastaturanschlägen kann ein KeyListener implementiert werden. Dafür muss dem entsprechenden Element ein `addKeyListener()` aufgerufen werden. Manchmal gibt's Probleme wenn der Listener an ein JPanel gehängt wird, eine Verknüpfung mit JFrame ist wohl stabiler:
 
@@ -43,7 +43,7 @@ public class PanelKeyListener extends JFrame implements KeyListener {	//<<<<
 }
 ```
 
-### MouseListener
+# MouseListener
 
 ```java
 public class MausListener extends JFrame  implements MouseListener {	// <<<<<<< MouseListener wird implementiert

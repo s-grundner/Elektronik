@@ -1,10 +1,12 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - Java/Graphics
 aliases: []
 created: 29th November 2022
 ---
 
-# 16 Zeichnen
+# Zeichnen
 
 ## Fenster Erzeugen
 

@@ -1,5 +1,9 @@
 ---
-tags: ["Java", "DB", "oop"]
+tags:
+  - Java
+  - DB
+  - oop
+  - cpp
 aliases: []
 created: 5. September 2023
 ---

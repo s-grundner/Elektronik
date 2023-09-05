@@ -22,9 +22,9 @@ SORT file.name
 
 # Assoziation - Aggregation - Komposition
 
-- [Assoziation](Assoziation.md)
-- [Aggregation](Aggregation.md)
-- [Komposition](Komposition.md)
+- [Assoziation](../Assoziation.md)
+- [Aggregation](../Aggregation.md)
+- [Komposition](../Komposition.md)
 
 ## Mehrfache Beziehungen
 

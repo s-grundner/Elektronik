@@ -6,11 +6,9 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 4 Ein-/Ausgabe
+# Ausgabe
 
-## Ausgabe
-
-### Println (Syso)
+## Println (Syso)
 
   Zum Ausgeben von Zeichen in der Konsole:
 
@@ -20,7 +18,7 @@ created: 29th November 2022
 
   Die Methode *println* gibt einen Text in der Konsole aus. Mit dem + Operator können in Java einfach Strings (Text) verknüpft werden. Werden Strings und Nummern miteinander veraddiert, dann werden die Nummern zuvor in Texte umgewandelt.
 
-### Format
+## Format
 
   Zum Steuern wie Variablen-Werte in der Konsole ausgegeben werden sollen, eignet sich die *format*-Methode. Damit kann gesteuert werden ob eine Zahl etwa in hexadezimaler Schreibweise dargestellt werden soll. Für Fließkommazahlen kann damit auch die Anzahl der dargestellten Stellen vor/hinter dem Komma eingestellt werden.
 
@@ -44,49 +42,4 @@ created: 29th November 2022
 
   <https://docs.oracle.com/javase/10/docs/api/java/util/Formatter.html>
 
-## Eingabe
-
-### Scanner
-
-  Mit *next* wird die nächste Eingabe eingelesen:
-
-  ```java
-  Scanner sc = new Scanner(System.in);
-  String eingabe = sc.next();
-  sc.close();
-  ```
-
-### BufferedReader
-
-  Von der Tastatur kann genau wie aus einer Datei mittels *BufferedReader* gelesen werden (siehe später, dann wird das hier auch klarer):
-
-  ```java
-  InputStreamReader isr = new InputStreamReader(System.in);
-  BufferedReader br = new BufferedReader(isr);
-  String eingabe = "";
-  try {
-    eingabe = br.readLine();
-  } catch (IOException e) {
-    // EingabeAbbruch
-    e.printStackTrace();
-  }
-  ```
-
-### JOptionPane
-
-  Eine sehr kurze Art Daten vom Benutzer einzulesen ist mittels Fenster:
-
-  ```java
-  String s1 = JOptionPane.showInputDialog("Bitte Zahl eingeben: ",45);
-  ```
-
-  Hier wird eine Fenster geöffnet zum Erfragen einer Zahl, als Default-Vorschlag erscheint schon 45.
-
-  Notwendig hier: `javax.swing.JOptionPane`.
-
-Für sämtliche Methoden gilt: es werden Zeichen (Text) von der Tastatur eingelesen. Sollen Zahlen eingelesen werden, dann müssen diese aus dem eingelesenen Text extrahiert werden, etwa mit:
-
-```java
-int num = Integer.parseInt(s1);
-```
-
+[Java_Input](Java_Input.md)

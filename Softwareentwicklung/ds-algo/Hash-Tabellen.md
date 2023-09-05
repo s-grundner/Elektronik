@@ -30,7 +30,7 @@ Zum Abspeichern steht ein $m$ Plätze großer Speicherbereich (**Behälter**) zu
 Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $m$ Speicherplätze ab.
 
 > Hashtabellen sind Arrays in welchen sich die Position im Array aus dem Schlüssel von Datenobjekten berechnet.  
-![HashTable_01](../../HashTable_01.png)
+![HashTable_01](../assets/HashTable_01.png)
 
 ## Beispiel
 
