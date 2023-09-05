@@ -174,7 +174,7 @@ addiere(1, 2, 3, 4);
 
 Diese Erweiterung funktioniert nur wenn der Parameter als Letzter in der Liste angeführt wird (ansonsten können die Parameter nicht eindeutig zugewiesen werden). Innerhalb des Methoden-Körpers kann auf die Parameter wie auf ein Feld zugegriffen werden.
 
-## Überladen von Methoden
+## Überladen Von Methoden
 
 Um Methoden voneinander unterscheiden zu können, müssen sich die Namen von Methoden voneinander unterscheiden. Häufig kommt es vor das ein und die selbe Funktionalität auf völlig unterschiedliche Aufrufparameter angewendet wird. In diesen Fällen ist es sinnvoll den Methoden den gleichen Namen zu geben. Welche der Methoden beim Aufruf ausgeführt wird, entscheidet sich anhand der Aufrufparameter. Im folgenden Beispiel wird zweimal die Methode addiere implementiert, der Methodenname ist gleich, die Aufrufparameter unterscheiden sich:
 

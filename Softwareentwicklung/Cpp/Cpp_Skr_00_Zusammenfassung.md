@@ -20,7 +20,7 @@ Grundsätzlich sind die Typen immer Vorzeichen behaftet, ansonsten können sie m
 
 **Ganzzahlen** gibt es in unterschiedlicher Form:
 
-- `int`	hat nicht auf jedem Rechner die gleiche Größe, das hängt von der Hardware/[Betriebssystem](../Os/Operating%20Systems.md) (Prozessorregister-Breite) und vor allem dem verwendeten Compiler ab.
+- `int`	hat nicht auf jedem Rechner die gleiche Größe, das hängt von der Hardware/[Betriebssystem](../Operating%20Systems/Operating%20Systems.md) (Prozessorregister-Breite) und vor allem dem verwendeten Compiler ab.
 
 - `short int`	auf jedem System 2 Bytes
 
@@ -139,7 +139,7 @@ Der c-Dateizugriff funktioniert nach dem Prinzip:
 
 ​	Datei Öffnen -> Datei Lesen/Schreiben -> Datei Schließen
 
-**Datei Öffnen**: Mit dem Öffnen wird eine Datei üblicherweise vom [Betriebssystem](../Os/Operating%20Systems.md) reserviert. Erst wenn ein Zugriff wieder geschlossen (Close) wird, kann die Datei vom [Betriebssystem](../Os/Operating%20Systems.md) freigegeben werden.
+**Datei Öffnen**: Mit dem Öffnen wird eine Datei üblicherweise vom [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) reserviert. Erst wenn ein Zugriff wieder geschlossen (Close) wird, kann die Datei vom [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) freigegeben werden.
 
 ```c++
 FILE *fhdl = fopen("c:/pfad/myFile.txt", "rt");

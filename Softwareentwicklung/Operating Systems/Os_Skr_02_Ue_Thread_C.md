@@ -1,8 +1,15 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 2 Os - Threads - C - Übungen
 
 ## Hilfsklassen
 
-### Anzahl von Cores
+### Anzahl Von Cores
 
 - Anzahl maximal möglicher (wirklich) paralleler Threads: ` std::thread::hardware_concurrency()` (= Anzahl an Cores), Ansonsten wird quasiparallel gearbeitet.
 
@@ -46,7 +53,7 @@
   cout << "Dauer: " << Timer::getTime() << endl;
   ```
 
-## Funktion als Thread
+## Funktion Als Thread
 
 Erstellen Sie eine Funktion `up` die eine statische Variable `mCtr` inkrementiert und in die Konsole ausgibt. Eine zweite Funktion `down` dekrementiert die selbe statische Variable `mCtr` und gibt sie ebenfalls in die Konsole aus. Führen Sie die beiden Funktionen in separaten Threads aus.
 
@@ -75,7 +82,7 @@ int main() {
 
 Was kann aus der ausgegebenen Folge geschlossen werden.
 
-## Funktion mit Parametern
+## Funktion Mit Parametern
 
 Erstellen Sie eine `countDown`-Funktion zum Zählen von einem gegebenen Wert bis auf 0. Geben Sie die Zahlen in der Konsole aus.
 
@@ -98,7 +105,7 @@ int main() {
 }
 ```
 
-## Funktion mit Lambda-Ausdruck
+## Funktion Mit Lambda-Ausdruck
 
 Erstellen Sie einen Countdown mittels Lambda-Ausdruck.
 

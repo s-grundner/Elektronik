@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 2 Os - Threads - C
 
 <https://www.heise.de/select/ix/2017/5/1492877730281965>
@@ -8,7 +15,7 @@ Seit C++11 gibt es von C++ Unterstützung durch *std::thread*. Davor war Multi-T
 
 Für *std::thread* muss zumindest mit C++11 Unterstützung kompiliert werden: `-std=c++11`
 
-## thread - Klasse
+## Thread - Klasse
 
 In C++ (seit C++11) gibt es die Klasse *thread*:
 
@@ -37,7 +44,7 @@ myThread.join();
 Dadurch stoppt das Programm an dieser Stelle und wartet auf das Ende von *myThread*.  
 Wenn ein Thread-Objekt zerstört wird und dessen Ende nicht mittels *join()* überwacht wurde, dann wird das Thread-Objekt im Destruktor mittels *std::terminate* und einer Fehlermeldung beendet. Alternativ zu *join()* kann der Member *detach()* aufgerufen werden. Damit läuft der Thread unabhängig weiter. In jedem Fall werden beim Beenden eines Programms (Haupt-Thread) sämtliche Threads sofort beendet.
 
-### Funktion mit Parametern
+### Funktion Mit Parametern
 
 Wenn die Funktion, die mittels Thread neu gestartet wird, Aufrufparameter hat, dann:
 
@@ -53,7 +60,7 @@ std::thread myThread(myFunc, 1, "Hellau");
 
 - die Parameter werden nach Angabe der Funktion in der richtigen Reihenfolge aufgelistet.
 
-### Funktion mit Lambda-Ausdruck
+### Funktion Mit Lambda-Ausdruck
 
 Wenn *nur* eine einfache Funktion laufen soll, kann die abgekürzt mittels Lambda-Ausdruck angegeben werden:
 
@@ -206,7 +213,7 @@ int main() {
 }
 ```
 
-## promise
+## Promise
 
 (ab C++11)
 
@@ -248,7 +255,7 @@ Dieser Ablauf hat dann Sinn wenn:
 - vor dem *in.get()* in der Funktion ein nennenswerter Aufwand abgearbeitet wird. Der parallele Thread kann dann schon Vorarbeit leisten bis aus dem Hauptprogramm ein Versprochener Wert eintrifft.
 - Für die Berechnung des versprochenen Werts (hier wird direkt nach der Konfiguration der konstante Wert 10 zugewiesen *prom.set_value(10)*) ein Aufwand notwendig ist.
 
-## jthread
+## Jthread
 
 ab C++20 sind `jthread` verfügbar, diese Threads beenden automatisch mit der aufrufenden Funktion und können unterbrochen werden. In den aktuellen Compiler-Versionen
 

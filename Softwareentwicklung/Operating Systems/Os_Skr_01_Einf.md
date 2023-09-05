@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # Betriebssysteme
 
 ## 1. Allgemein
@@ -48,7 +55,7 @@ Ein [Betriebssystem](Operating%20Systems.md) hat folgende grundlegende Aufgaben:
 - Abstrakte Maschine = Reale Maschine + [Betriebssystem](Operating%20Systems.md)
 - Benutzermaschine = Abstrakte Maschine + Anwendungsprogramm  	
 
-### Klassifizierung von Betriebssystemen
+### Klassifizierung Von Betriebssystemen
 
 <http://de.wikipedia.org/wiki/Liste_der_Betriebssysteme>
 
@@ -71,7 +78,7 @@ Für spezielle Anwendungen (Beispiel: **industrielle Steuerung**) werden auch ex
 
 Bei bestimmten Betriebssystemen spielt die Verarbeitungszeit eine Rolle. Bei (Echtzeit-)Betriebssystemen für Steuerungsund Regelungsaufgaben (sog. Prozessrechner) spielt die Antwortzeit eine Rolle. Informationen werden hier zum Teil von Sensoren gewonnen. Das Programm reagiert auf äußere Ereignisse in angemessen kurzer Zeit (Maschinenregelung: 1 - 10 ms, Prozessregelung: 10 - 100 ms, Prozesssteuerung: 0,1 - 1 s). Es wird spezielle Hardund Software benötigt.  
 
-### Schichtenmodell eines Betriebssystems
+### Schichtenmodell Eines Betriebssystems
 
 Zur logischen Strukturierung wird das [Betriebssystem](Operating%20Systems.md) normalerweise in mehrere **Schichten** oder Schalen eingeteilt.  
 
@@ -219,7 +226,7 @@ Jeweils einem Prozess wird die CPU zugeteilt. In der folgenden Abbildung sind 4 
 - **Block**: aktiv -> blockiert - ein aktiver Prozess wird durch eine Ressource blockiert (wartet auf Eingabe oder Ausgabe …). Einziger Wechsel den ein Prozess selbst auslösen kann.
 - **Wakeup**: blockiert -> bereit - Das Ereignis, auf das der Prozess gewartet hat, ist eingetreten. Signal an den Prozess 	
 
-### Process Control Block (PCB):  
+### Process Control Block (PCB):
 
 Zu jedem Prozess legt das OS einen Prozesssteuerblock (**process control block = PCB**) in der Prozesstabelle ab, der alle notwendigen **Informationen über einen Prozess** enthält, z. B.: 
 
@@ -250,7 +257,7 @@ In UNIX(-ähnliche) OS kann aus einem Prozess ein neuer Prozess gestartet werden
 
 [Unix: pstree, ps aux, top]
 
-### Prozess-Operationen des BS
+### Prozess-Operationen Des BS
 
 |          |                                                              |
 | -------- | ------------------------------------------------------------ |
@@ -338,7 +345,7 @@ Vier Bedingungen für eine gute Lösung (nach Tanenbaum):
 
 Die letzten beiden Punkte dienen der Stabilität, sie verhindern Prozessverklemmungen.
 
-### Erzeuger-Verbraucher Problem: ein typ. Beispiel v. Kritischen Abläufen
+### Erzeuger-Verbraucher Problem: Ein Typ. Beispiel v. Kritischen Abläufen
 
 - **Das Erzeuger-Verbraucher-Problem:**  
   Der Erzeuger E stellt ein Produkt her und stellt es in einen begrenzten Pufferspeicher. Verbraucher V entnimmt dem Puffer ein Stück des Produktes, um es zu verbrauchen. Beides geschieht zu zufälligen Zeitpunkten. Der **Puffer wird von beiden gemeinsam verwaltet**. Solche Erzeuger-Verbraucher-Probleme treten beispielsweise bei Pipes auf (ein Prozess erzeugt Daten, der andere verarbeitet sie weiter).
@@ -419,7 +426,7 @@ Der **Verbraucher** wechselt nun in den **SLEEP** Zustand.
   
 - eine **Prozessunterbrechung im kritischen Abschnitt** zwischen Erkennung der Bedingung, die zum Aufruf von SLEEP führt und dem SLEEP-Kommando selbst.   
 
-### Lösungsversuche für das Problem der kritischen Abschnitte
+### Lösungsversuche Für Das Problem Der Kritischen Abschnitte
 
 1. Einfachste Lösung: Vor Eintritt in den kritischen Bereich alle Interrupts sperren und sie nach Verlassen des kritischen Bereichs wieder freigeben. Damit kann der Scheduler nicht während des kritischen Abschnitts den Prozess unterbrechen.  
    Nachteil: Kein verdrängendes Multitasking mehr. Der Anwender-Prozess kann den Scheduler blockieren (gewollt oder ungewollt durch einen Programmfehler).
@@ -548,7 +555,7 @@ Die binären Semaphore werden auch **Mutexe** (von *Mutual Exclusion*) genannt, 
 - **Semaphore für die Ereignis-Synchronisation**  
   zweier voneinander datenabhängiger Prozesse sind diesen Prozessen direkt zugeordnet. Sie dienen zur Übergabe einer Meldung über das Ereignis zwischen den Prozessen.  
 
-### Semaphore für Erzeuger-Verbraucher-Synchronisation  
+### Semaphore Für Erzeuger-Verbraucher-Synchronisation
 
 Vorbesetzung der Semaphore: `start = 0; finish = 0`:   
 
@@ -678,7 +685,7 @@ In **Dialogsystemen** wird normalerweise **Round Robin** verwendet, um den Benut
 
 Manche Singletasking-BS (z. B. MS-DOS) sind nicht reentrant und daher nicht oder nur schwer auf Multitaskingbetrieb erweiterbar.  
 
-## 6. Gemeinsame Nutzung von Betriebsmitteln/Deadlocks  
+## 6. Gemeinsame Nutzung Von Betriebsmitteln/Deadlocks
 
 Manche Betriebsmittel dürfen nicht gleichzeitig von mehreren Prozessen genutzt werden. Klassisches Beispiel ist hier der Drucker. Die Ausgaben mehrerer Prozesse würden vermischt. Abhilfe bietet hier die Nutzung des Druckers durch einen einzigen Prozess, den Druckerspooler. Alle Prozesse übergeben ihre Ausgaben an diesen Prozess, der die Druckaufträge in einer Warteschlange speichert und nacheinander abarbeitet.  
 

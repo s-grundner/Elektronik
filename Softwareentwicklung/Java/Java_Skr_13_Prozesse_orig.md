@@ -6,9 +6,9 @@ created: 29th November 2022
 
 # 13 Prozesse / Threads
 
-Das Java-Programm welches auf dem Rechner läuft, wird als **Prozess** bezeichnet. Ein Prozess erhält einen eigenen Speicherbereich in dem kein weiterer auf dem Rechner laufender Prozess Zugriff hat. Das wird vom [Betriebssystem](../Os/Operating%20Systems.md) sichergestellt. Weiters teilt das [Betriebssystem](../Os/Operating%20Systems.md) den Prozessen Rechnerzeit zu.
+Das Java-Programm welches auf dem Rechner läuft, wird als **Prozess** bezeichnet. Ein Prozess erhält einen eigenen Speicherbereich in dem kein weiterer auf dem Rechner laufender Prozess Zugriff hat. Das wird vom [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) sichergestellt. Weiters teilt das [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) den Prozessen Rechnerzeit zu.
 
-Innerhalb eines Prozesses (unser Java-Programm) läuft im einfachsten Fall ein einzelner Ablauf ab. Dieser Ablauf wird als **Thread** bezeichnet. In einem Prozess können aber auch mehrere Threads parallel ablaufen. Diese teilen sich dann den gemeinsamen Speicher (Adressraum) des Prozesses. Wirklich parallel (gleichzeitig) können die Threads natürlich nur laufen wenn mehrere Rechnerkerne verfügbar sind, ansonsten laufen sie quasiparallel, d.h. es wird ständig zwischen ihnen "hinund hergeschaltet". Durch eine gute Organisation bzw. eine entsprechend leistungsstarke Umgebung merkt der Anwender im Idealfall nichts davon. Die parallelen Threads können entweder durch das [Betriebssystem](../Os/Operating%20Systems.md) organisiert werden oder durch die JVM (je nach Anforderung).
+Innerhalb eines Prozesses (unser Java-Programm) läuft im einfachsten Fall ein einzelner Ablauf ab. Dieser Ablauf wird als **Thread** bezeichnet. In einem Prozess können aber auch mehrere Threads parallel ablaufen. Diese teilen sich dann den gemeinsamen Speicher (Adressraum) des Prozesses. Wirklich parallel (gleichzeitig) können die Threads natürlich nur laufen wenn mehrere Rechnerkerne verfügbar sind, ansonsten laufen sie quasiparallel, d.h. es wird ständig zwischen ihnen "hinund hergeschaltet". Durch eine gute Organisation bzw. eine entsprechend leistungsstarke Umgebung merkt der Anwender im Idealfall nichts davon. Die parallelen Threads können entweder durch das [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) organisiert werden oder durch die JVM (je nach Anforderung).
 
 ## Thread-Objekt
 
@@ -55,7 +55,7 @@ Für Thread-Objekte gibt es folgende Instanzmethoden:
 
 `getName()`		Während der Erzeugung kann einem Thread ein Name gegeben werden. Der Name eines Threads kann in einem Thread-Konstruktor mit `super(threadName)` gesetzt werden.
 
-`setPriority(Thread.MAX_PRIORITY)`	setzt die entsprechende Priorität (max = 10). Standardmäßig wird das 5 gesetzt. Die Auswirkung hängt vom [Betriebssystem](../Os/Operating%20Systems.md) ab.
+`setPriority(Thread.MAX_PRIORITY)`	setzt die entsprechende Priorität (max = 10). Standardmäßig wird das 5 gesetzt. Die Auswirkung hängt vom [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) ab.
 
 `getPriority()`	liefert die Ausführungspriorität zurück.
 

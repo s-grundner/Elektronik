@@ -57,7 +57,7 @@ System.out.println(Arrays.deepToString(r));
 
 Auf die gleiche Weise kann jedem Element eines 2-dimensionalen Felds wiederum ein Array zugewiesen werden. Damit kann ein 3-dimensionales Array definiert werden. Logisch gibt es keine Begrenzung der Dimension eines Feldes.
 
-## Methoden / Eigenschaften von Arrays
+## Methoden / Eigenschaften Von Arrays
 
 `arr.length`					gibt die Anzahl der Elemente im Array arr zurück
 

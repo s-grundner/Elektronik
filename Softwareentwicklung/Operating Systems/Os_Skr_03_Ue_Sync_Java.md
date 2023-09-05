@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 3 Os - Synchronisation - Java - Übungen
 
 ## Java-Programm (J500)
@@ -87,7 +94,7 @@ ist, wird eine aktuelle Kontenübersicht ausgegeben.
 }
 ```
 
-### Das Main Programm 
+### Das Main Programm
 
 - vereinbart drei Verweise auf die Klasse `Banker`. Anschließend wird ein `SimpleBank`-Objekt erzeugt und eine Übersicht über den Anfangsstand der Konten gegeben. 
 - Dann werden die drei Thread-Objekte erzeugt. Die Konten werden hierbei so gewählt, dass sich eine ringförmige Überweisung ergibt. Wenn alles ordnungsgemäß verläuft, dann müsste also die Kontenübersicht am Ende genauso aussehen wie am Anfang. 
@@ -148,7 +155,7 @@ Derartige Fehler sind in der Praxis schwer zu lokalisieren.
 
 - Die Lösung: Sperrsynchronisation mittels Semaphore Um das Problem zu umgehen, sollte es eine Möglichkeit geben, diese Sequenz als unteilbare Operation zu definieren oder den Zugriff auf das Konto während der Operation zu sperren. 
 
-## Sieb des Eratosthenes (709)
+## Sieb Des Eratosthenes (709)
 
 (Producer-Consumer-Problem und Leser-Schreiber-Problem)
 

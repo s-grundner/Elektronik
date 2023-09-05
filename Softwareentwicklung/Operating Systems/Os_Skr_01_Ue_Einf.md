@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 1 Os Windows Tools - Übungen
 
 Windows: Liste aller laufenden Prozesse:

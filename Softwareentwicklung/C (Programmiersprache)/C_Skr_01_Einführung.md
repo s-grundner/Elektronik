@@ -9,7 +9,7 @@ created: 29th November 2022
 
 - Entwickelt ~1975 von Dennis Ritchie / Bell Laboratories als Nachfolger von B
 - Eine der am weitesten verbreiteten Sprachen
-- Implementierung vieler Unix-[Betriebssysteme](../Os/Operating%20Systems.md) in C
+- Implementierung vieler Unix-[Betriebssysteme](../Operating%20Systems/Operating%20Systems.md) in C
 - Viele Kompiler anderer Sprachen sind in C implementiert worden
 - Viele Sprachen übernahmen Teile der Syntax
 - Mehrfach standardisiert (ANSI-C … C11, C18)

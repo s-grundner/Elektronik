@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 3 Os - Synchronisation - Java
 
 Häufig müssen parallel laufende Threads miteinander synchronisiert werden (Ablauf aufeinander abgestimmt). Das kann durch die Nutzung gemeinsamer Betriebsmittel, Datenbereichen oder beim Austausch von Information notwendig sein. In vielen Fällen ist der gleichzeitige Zugriff auf Betriebsmittel nicht zulässig oder kann Fehler verursachen (siehe weiter unten).

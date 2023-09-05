@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 3 Os - Synchronisation - C - Übungen
 
 ## Bank (c++707)
@@ -166,7 +173,7 @@ ist, wird eine aktuelle Kontenübersicht ausgegeben.
 }
 ```
 
-#### Das Main Programm 
+#### Das Main Programm
 
 - vereinbart drei Verweise auf die Klasse Angestellter. Anschließend wird ein SimpleBank-Objekt erzeugt und eine Übersicht über den Anfangsstand der Konten gegeben. 
 - Dann werden die drei Thread-Objekte erzeugt. Die Konten werden hierbei so gewählt, dass sich eine ringförmige Überweisung ergibt. Wenn alles ordnungsgemäß verläuft, dann müsste also die Kontenübersicht am Ende genauso aussehen wie am Anfang. 
@@ -227,7 +234,7 @@ Derartige Fehler sind in der Praxis schwer zu lokalisieren.
 
 - Die Lösung: Sperrsynchronisation mittels Semaphore Um das Problem zu umgehen, sollte es eine Möglichkeit geben, diese Sequenz als unteilbare Operation zu definieren oder den Zugriff auf das Konto während der Operation zu sperren. 
 
-## Sieb des Eratosthenes (c++700)
+## Sieb Des Eratosthenes (c++700)
 
 - Primzahlenberechnung nach dem sog. "Sieb des Eratosthenes".
 - Grundprinzip dabei ist, dass jede ungerade Zahl der Reihe nach daraufhin untersucht wird, ob sie Vielfaches einer bereits erkannten Primzahl ist. Wenn das nicht der Fall ist, dann ist sie natürlich prim.
@@ -615,7 +622,7 @@ int main(int argc, char *argv[]) {
 }
    ```
 
-#### regex: Die Funktion find_matches()
+#### Regex: Die Funktion find_matches()
 
 Erzeuge die Funktion *find_matches*, die alle Strings im *backlog-deque* (*backlog*), die auf dem Aufruf-Parameter *pattern* passen, in einem *vector\<string\>* zurückgibt.
 
@@ -659,7 +666,7 @@ return
 upturn
 ```
 
-#### Hinweise zu den regex-Funktionen
+#### Hinweise Zu Den regex-Funktionen
 
 - <http://www.cplusplus.com/reference/regex/>
 
@@ -740,7 +747,7 @@ upturn
   */
   ```
 
-### 2. wordsearch.cpp: mit regex (find_matches())
+### 2. wordsearch.cpp: Mit Regex (find_matches())
 
 Sequentielle Variante mit Verwendung von regex:
 
@@ -830,7 +837,7 @@ Der *return*-Wert von *async* wird *future* genannt. f1 enthält bei der Ausfüh
 vector<string> words = f1.get(); 
 ```
 
-#### async-wordsearch.cpp: find_matches () als async-thread
+#### async-wordsearch.cpp: find_matches () Als Async-thread
 
 a. Kopieren Sie das obige Programm *wordsearch.cpp* in *async-wordsearch.cpp*
 
@@ -952,7 +959,7 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-### 4. async-wordsearch-mutex.cpp: mutex verwenden
+### 4. async-wordsearch-mutex.cpp: Mutex Verwenden
 
 Das vorherige Programm stürzt ab, weil Objekte aus der STL wie *deque* nicht *Thread-Safe* sind.
 

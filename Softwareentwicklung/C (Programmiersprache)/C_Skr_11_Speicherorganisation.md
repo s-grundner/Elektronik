@@ -12,7 +12,7 @@ Es wird nur eine stark vereinfachte Übersicht geboten. Diese Organisation ist B
 
 Einem C-Programm wird bei der Ausführung ein Speicherbereich zugewiesen der sich in verschiedene Teile gliedert.  
 Unter Windows wird dem Programm ein maximaler Speicherbereich von 2GB zugewiesen (in Linux ebenfalls).  
-Mehr kann vom Programm nicht verwaltet werden, das [Betriebssystem](../Os/Operating%20Systems.md) rückt nicht mehr raus (4GB können adressiert werden, 2GB, rund 50% des Speichers werden vom OS für Org. zurückgehalten).  
+Mehr kann vom Programm nicht verwaltet werden, das [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) rückt nicht mehr raus (4GB können adressiert werden, 2GB, rund 50% des Speichers werden vom OS für Org. zurückgehalten).  
 Aus Sicht des Programms ist es ein zusammenhängender Speicher. Aus Betriebssystemsicht kann dieser Speicher auf verschiedene Stellen verteilt sein oder sogar komplett oder zum Teil auf auf eine Festplatte ausgelagert sein. 
 
 Für unser Programm ist dieser Speicher virtuell, als linear adressierbar, zusammenhängender Speicher wahrnehmbar.
@@ -269,7 +269,7 @@ Hier wird Platz für 10x2 Integer-Werte reserviert aber nur der Speicher für 2 
 Es gibt zahlreiche Tools die unterstützen Speicherlecks zu finden. Ein sehr gutes und bei weitem das bekannteste ist *Valgrind*. Problem: das gibt's nicht für Windows.
 
 > [!success] Lösung:  
-> WSL ein Windows-Linux-Subsystem. Sehr ähnlich wie eine virtuelle Maschine ist das Linux-Subsystem. Allerdings ist es keine vollständig virtuell laufendes OS (samt Kernel) sondern lediglich ein auf [Betriebssystem](../Os/Operating%20Systems.md)-Schnittstellen aufgesetzte Kompatibilitätsschicht. Dadurch ist es sehr schnell und für Entwickler im MS-Bereich kann sehr einfach und effizient auf Linux-Tools zugegriffen werden und für Linux getestet werden.
+> WSL ein Windows-Linux-Subsystem. Sehr ähnlich wie eine virtuelle Maschine ist das Linux-Subsystem. Allerdings ist es keine vollständig virtuell laufendes OS (samt Kernel) sondern lediglich ein auf [Betriebssystem](../Operating%20Systems/Operating%20Systems.md)-Schnittstellen aufgesetzte Kompatibilitätsschicht. Dadurch ist es sehr schnell und für Entwickler im MS-Bereich kann sehr einfach und effizient auf Linux-Tools zugegriffen werden und für Linux getestet werden.
 
 (Howtos: install of WSL)
 

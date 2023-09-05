@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 2 Os - Threads - Java - Übungen
 
 ## Zeitmessung
@@ -29,7 +36,7 @@ Thread.currentThread().isInterrupted()
 
 Werden die Zeichen gleich oft / gleich gehäuft ausgegeben und warum / warum nicht? 
 
-## Beenden von Punktstrich (705)
+## Beenden Von Punktstrich (705)
 
 Erweitern Sie das vorhergehende Programm so, dass das sich das Hauptprogramm nach 10 Sekunden beendet. Beim Beenden sind vorerst die nebenläufigen Threads zu beenden und erst dann der Hauptthread.
 

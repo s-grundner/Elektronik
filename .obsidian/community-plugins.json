@@ -38,7 +38,6 @@
   "homepage",
   "waypoint",
   "editing-toolbar",
-  "folder-note-plugin",
   "obsidian-hide-sidebars-when-narrow",
   "obsidian-hover-editor",
   "obsidian-projects",
@@ -54,5 +53,6 @@
   "obsidian-style-settings",
   "obsidian-reveal-active-file",
   "drawio-obsidian",
-  "obsidian-react-components"
+  "obsidian-react-components",
+  "folder-note-plugin"
 ]

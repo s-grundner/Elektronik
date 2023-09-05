@@ -41,7 +41,7 @@ printf("%p", &a);
 
 ## Adressdatentyp
 
-Um mit Adressen arbeiten zu können gibt es den Adressdatentyp. Die Größe dieses Datentyps hängt von der verwendeten Rechnerarchitektur, dem [Betriebssystem](../Os/Operating%20Systems.md) und dem Compiler ab. Für uns gelten 32-Bit-Adressen (4 GB Adressraum). Von Windows werden uns 2 GB zur Verfügung gestellt (ist allgemein in Windows so).
+Um mit Adressen arbeiten zu können gibt es den Adressdatentyp. Die Größe dieses Datentyps hängt von der verwendeten Rechnerarchitektur, dem [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) und dem Compiler ab. Für uns gelten 32-Bit-Adressen (4 GB Adressraum). Von Windows werden uns 2 GB zur Verfügung gestellt (ist allgemein in Windows so).
 
 ```c
 int *ptr1;

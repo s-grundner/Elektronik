@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # 2 Os - Threads - Java
 
 Vielfach sollen mehrere Berechnungen parallel/gleichzeitig/quasiparallel Erfolgen. Mit Nebenläufigkeit bezeichnet man die Fähigkeit eines Systems, zwei oder mehr Vorgänge gleichzeitig oder quasi-gleichzeitig ausführen zu können. 

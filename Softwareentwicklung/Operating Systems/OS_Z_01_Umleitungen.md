@@ -1,3 +1,10 @@
+---
+tags:
+  - OS
+aliases: []
+created: 29. November 2022
+---
+
 # Umleitungen
 
 Streams/Kanäle der Konsole:
@@ -6,7 +13,7 @@ Streams/Kanäle der Konsole:
 - stdout: Ausgabe-Stream. "Normale" Ausgaben aus einem Programm werden in diesen Kanal geschrieben.
 - stderr: Fehler-Stream. Wenn Fehler in einem Programm auftreten kann eine entsprechende Meldung in diesen Kanal ausgegeben werden. Dadurch ist es möglich Fehlermeldungen und "normale" Ausgaben voneinander getrennt zu behandeln.
 
-## Umleiten der **stdout**-Ausgabe >
+## Umleiten Der **stdout**-Ausgabe >
 
 Um **stdout**-Ausgaben aus einem Programm in die Konsole in eine Datei umzuleiten wird der **>** Operator verwendet:
 
@@ -18,7 +25,7 @@ Existiert die Datei noch nicht wird sie angelegt. Wenn sie schon existiert wird 
 
 Werden aus dem Programm Ausgaben nach **stderr** ausgegeben, dann wird dieses Ausgabe nicht auch mit umgeleitet sondern wird weiter in der Konsole ausgegeben.
 
-## Umleiten der **stderr**-Ausgabe >
+## Umleiten Der **stderr**-Ausgabe >
 
 Um **stderr**-Ausgaben (Fehler-Ausgaben) aus einem Programm in die Konsole in eine Datei umzuleiten wird der **2>** Operator verwendet:
 
@@ -44,7 +51,7 @@ befehl >out.txt 2>&1
 
 Wird zweimal der gleiche Dateiname angegeben, dann klappt's nicht (Datei besetzt).
 
-## Umleiten von Ausgaben in Dateien und Anhängen >>
+## Umleiten Von Ausgaben in Dateien Und Anhängen >>
 
 Sollen die oben erwähnten Ausgabeumleitungen an eine Datei angehängt werden, dann wird anstatt eines einfachen **>** Zeichens ein doppeltes angegeben:
 
@@ -54,7 +61,7 @@ befehl >> datei
 
 Existiert die Datei, dann wird die Ausgabe an den Dateiinhalt angehängt. Wenn die Datei noch nicht existiert, dann wird sie erstellt.
 
-## Umleiten von Eingaben <
+## Umleiten Von Eingaben <
 
 Der Eingabe-Kanal **stdin** ist üblicherweise mit der Tastatur verbunden. Eingaben mittels Tastatur in der Konsole über **stdin** können mittels **<** auf Dateien umgeleitet werden:
 

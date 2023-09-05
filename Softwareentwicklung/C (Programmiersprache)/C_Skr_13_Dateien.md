@@ -8,9 +8,9 @@ created: 29th November 2022
 
 **Grundsätzlicher Ablauf:**
 
-- Datei öffnen: dazu muss der Pfad/Name angegeben werden und auf welche Art auf die Datei zugegriffen werden soll (Schreiben, Lesen …). Das [Betriebssystem](../Os/Operating%20Systems.md) reserviert die Datei für das Programm.
+- Datei öffnen: dazu muss der Pfad/Name angegeben werden und auf welche Art auf die Datei zugegriffen werden soll (Schreiben, Lesen …). Das [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) reserviert die Datei für das Programm.
 - Datei bearbeiten: Lesen oder Schreiben
-- Datei schließen: das [Betriebssystem](../Os/Operating%20Systems.md) kann die Datei anderen Programmen zuteilen. Beim Schreibenden Zugriff auf die Datei werden die Daten zu diesen Zeitpunkt in die Datei geschrieben.
+- Datei schließen: das [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) kann die Datei anderen Programmen zuteilen. Beim Schreibenden Zugriff auf die Datei werden die Daten zu diesen Zeitpunkt in die Datei geschrieben.
 
 **Grundsätzliche Dateitypen:**
 

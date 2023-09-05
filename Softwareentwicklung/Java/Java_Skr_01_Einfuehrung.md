@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 1 Einführung
 
-Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vor Python und Java). Durch das Konzept der Java-Virtual-Machine lässt sich das kompilierte Programm auf allen gängigen Plattformen (Windows, Linux, Mac, Android …) ausführen. Java ist sicher, objektorientiert und es gibt durch die große Verbreitung eine Vielzahl von verfügbaren Funktionen auf die zugegriffen werden kann. Es gibt eine große Community und damit eine Unzahl an verfügbaren Lösungen. Für das Android-[Betriebssystem](../Os/Operating%20Systems.md) werden sehr viele Anwendungen mittels Java erstellt (allerdings mit anderen Bibliotheken).
+Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vor Python und Java). Durch das Konzept der Java-Virtual-Machine lässt sich das kompilierte Programm auf allen gängigen Plattformen (Windows, Linux, Mac, Android …) ausführen. Java ist sicher, objektorientiert und es gibt durch die große Verbreitung eine Vielzahl von verfügbaren Funktionen auf die zugegriffen werden kann. Es gibt eine große Community und damit eine Unzahl an verfügbaren Lösungen. Für das Android-[Betriebssystem](../Operating%20Systems/Operating%20Systems.md) werden sehr viele Anwendungen mittels Java erstellt (allerdings mit anderen Bibliotheken).
 
 ## Begriffe
 
@@ -27,7 +27,7 @@ Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vo
 
 ## Programm-Erstellung/-Ausführung
 
-Nach Erstellung des Quellcodes muss das Programm in einen Byte-Code umgewandelt werden (**Kompiliert**) werden. Man benötigt dafür einen Java-Compiler (Teil der JDK). Der Java-Bytecode kann nicht alleine direkt auf dem [Betriebssystem](../Os/Operating%20Systems.md) ausgeführt werden. Man benötigt ein Programm das diesen Bytecode ausführt, die **Java-Virtuelle-Maschine**. Der Vorteil dieser Variante (im Vergleich zu anderen Programmiersprachen) ist, dass auf einem Rechnersystem mit einem verschiedenen [Betriebssystem](../Os/Operating%20Systems.md) der idente Bytecode unter Verwendung einer JVM ausgeführt werden kann.
+Nach Erstellung des Quellcodes muss das Programm in einen Byte-Code umgewandelt werden (**Kompiliert**) werden. Man benötigt dafür einen Java-Compiler (Teil der JDK). Der Java-Bytecode kann nicht alleine direkt auf dem [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) ausgeführt werden. Man benötigt ein Programm das diesen Bytecode ausführt, die **Java-Virtuelle-Maschine**. Der Vorteil dieser Variante (im Vergleich zu anderen Programmiersprachen) ist, dass auf einem Rechnersystem mit einem verschiedenen [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) der idente Bytecode unter Verwendung einer JVM ausgeführt werden kann.
 
 ![Programm-Erstellung](assets/01_Einführung_Erstellung.png "Programm-Erstellung")
 

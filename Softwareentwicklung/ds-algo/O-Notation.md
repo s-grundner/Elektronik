@@ -17,7 +17,7 @@ Unter Speichereffizienz versteht man, wie viel Speicher ein Algorithmus *währen
 ## Laufzeitbewertung
 
 Die Laufzeit von Algorithmen kann nicht eindeutig bestimmt werden.  
-Sie hängt von vielen allgemeinen Faktoren (Hardware, [Betriebssystem](../Os/Operating%20Systems.md), Software …) als auch von den speziellen Eigenheiten der Startwerte ab.  
+Sie hängt von vielen allgemeinen Faktoren (Hardware, [Betriebssystem](../Operating%20Systems/Operating%20Systems.md), Software …) als auch von den speziellen Eigenheiten der Startwerte ab.  
 Sortieren eines schon fast fertig sortierten Felds kann zum Beispiel sehr viel schneller ablaufen als ein vollständig durchmischtes Feld.  
 Um die Laufzeit unterschiedlicher Algorithmen trotzdem vergleichen zu können wird ihr Zeitverhalten in Abhängigkeit der Anzahl der Elemente betrachtet.
 

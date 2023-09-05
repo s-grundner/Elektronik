@@ -14,7 +14,7 @@ Schwachstelle von MQTT: ohne Broker geht gar nicht mehr.
 
 ## Installation Mosquitto
 
-Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige [Betriebssysteme](../Os/Operating%20Systems.md). Für Windows/Linux kann es einfach über die Seite <https://mosquitto.org/download> bezogen werden.
+Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige [Betriebssysteme](../Operating%20Systems/Operating%20Systems.md). Für Windows/Linux kann es einfach über die Seite <https://mosquitto.org/download> bezogen werden.
 
 Grundsätzlich ist zu unterscheiden:
 
