@@ -6,12 +6,14 @@ drawio-obsidian
 file-tree-alternative  
 folder-note-plugin  
 global-search-and-replace  
-homepage  
+obsidian-kanban  
 mousewheel-image-zoom  
 multi-column-markdown  
 multi-line-formatting  
+obsidian-quiet-outline  
 obsidian-admonition  
 obsidian-advanced-slides  
+remember-cursor-position  
 obsidian-banners  
 obsidian-better-codeblock  
 obsidian-charts  

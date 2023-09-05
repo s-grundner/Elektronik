@@ -8,7 +8,7 @@ plugins.forEach(async (p) => await app.plugins.enablePlugin(p))
 }, delayInSecond * 1000)  
 }  
 }  
-//await fastStart("FastStart-Plugins-simple", 2)  
+
 await fastStart("FastStart-Plugins-ShortDelay", 2)  
 await fastStart("FastStart-Plugins-LongDelay", 4)  
 %>
