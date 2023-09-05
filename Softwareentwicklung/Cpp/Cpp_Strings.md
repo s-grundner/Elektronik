@@ -387,9 +387,9 @@ std::wcout << str << std::endl;
 
 (<https://www.torsten-horn.de/techdocs/encoding.htm)> für die Windows-Kommandozeile ist für ö 0x94 zu verwenden (die Windows-Kommandozeile ist üblicherweise auf Codepage 850 eingestellt - das ist ebenfalls ein 1Byte Zeichensatz). Die Aufteilung des Strings ist notwendig da nach dem Code ein Leerzeichen notwendig ist.
 
-## STL
+## [STL](Cpp_STL.md)
 
-Strings sind komplett an die STL angepasst. Daher ist eine Fülle weiterer Funktionen zusätzlich verfügbar - siehe Kapitel STL.
+Strings sind komplett an die [STL](Cpp_STL.md) angepasst. Daher ist eine Fülle weiterer Funktionen zusätzlich verfügbar - siehe Kapitel [STL](Cpp_STL.md).
 
 ## Referenzen
 

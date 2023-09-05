@@ -495,7 +495,7 @@ Wird ein Smart-Pointer auf diese Weise implementiert gibt es auch Nachteile:
 - Es können nicht zwei Zeiger auf ein Objekt zeigen, das *Löschen* eines der Zeiger würde ein Zerstören des Objekts zur Folge haben.
 - Dadurch kann ein Objekt auf dem so ein Zeiger zeigt nicht aus einer Funktion zurückgegeben werden. Dabei würde durch die Zerstörung des lokalen Zeigers das Objekt zerstört.
 
-Gerade für die Verwendung von STL-Containern sind diese Nachteile gravierend, werden dort doch Elemente kopiert (doppelte Verwendung von Objekten).
+Gerade für die Verwendung von [STL](Cpp_STL.md)-Containern sind diese Nachteile gravierend, werden dort doch Elemente kopiert (doppelte Verwendung von Objekten).
 
 *auto_ptr* sind nur bis zum C++11 Standard empfohlen. Ab da sind bessere Klassen verfügbar.
 

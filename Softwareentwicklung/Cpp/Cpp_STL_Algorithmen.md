@@ -1,4 +1,12 @@
-# Algorithmen
+---
+tags:
+  - cpp/STL
+  - Algorithmus
+aliases: []
+created: 5. September 2023
+---
+
+# [STL](Cpp_STL.md) Algorithmen
 
 In Algorithmen wird eine Sammlung von Funktion zur Verfügung gestellt, optimiert für die Arbeit mit den angebotenen Containern: Befüllen, Transformieren, Sortieren, Suchen, gängige Array-Funktionen und Zerlegen von Containertyp-Typen.
 
@@ -30,19 +38,19 @@ In Algorithmen wird eine Sammlung von Funktion zur Verfügung gestellt, optimier
 
 Für das Verständnis wird hier die *find*-Funktion gezeigt. Sie ermöglicht das Suchen von Elementen in Containern, hier einer Liste:
 
-```c++
+```cpp
 list<int>::iterator result = find(myLst.begin(), myLst.end(), 7);
 ```
 
 Als Parameter wird ein Iterator auf das erste Element und auf das letzte (+1) Element mitgegeben. Auf diese Art kann *find* mit jedem Container arbeiten. Zurückgegeben wird ein Iterator mit der Position des gefundenen Elements oder auf das *end*-Element wenn die Suche nicht erfolgreich ist. Noch allgemeiner kann das mit *auto* geschrieben werden:
 
-```c++
+```cpp
 auto result = find(myCont.begin(), myCont.end(), contElem);
 ```
 
 Zur vereinfachten Schreibweise (gerade wenn kein so allgemeiner/generischer Code gewünscht ist) sind die Algorithmen oft als Member verfügbar:
 
-```c++
+```cpp
 auto res = myList.find(7);		// 7 Suchen mit Member-Funktion
 ```
 
@@ -52,7 +60,7 @@ auto res = myList.find(7);		// 7 Suchen mit Member-Funktion
 
 Da die Algorithmen mit allen Containern zusammenarbeiten können sollen, ist es manchmal notwendig Teile anpassen zu müssen. Um dieses Vorgehen zu erklären wird hier auf das Beispiel einer Sortierung eingegangen:
 
-```c++
+```cpp
 sort(myVec.begin(), myVec.end());	// sort(BeginIterator, EndIterator)
 ```
 
@@ -60,13 +68,13 @@ Wenn *myVec* ein *vector* mit Integer-Werten ist, dann ist die Sortierung trivia
 
 Die Algorithmen versuchen allgemein möglichst ähnliche Schnittstellen zu bedienen, damit kann eine Verallgemeinerung einfacher erfolgen. Für Algorithmen wie *sort* müssen zwangsläufig Elemente eines Containers verglichen werden. Dabei wird nach Möglichkeit immer der < Operator verwendet. Auf Gleichheit kann ja etwa geprüft werden:
 
-```c++
+```cpp
 (!(x < y) && !(y < x))		// Nicht Groesser und Nicht Kleiner
 ```
 
 Der folgende Aufruf verursacht einen Fehler (< Operator für *Complex* nicht definiert):
 
-```c++
+```cpp
 class Complex {
   ...
   float r;
@@ -83,7 +91,7 @@ Der Algorithmus kann [komplexe Zahlen](../../Mathe/mathe%20(3)/Komplexe%20Zahlen
 
 Wird in der Klasse *Complex* der Operator < definiert:
 
-```c++
+```cpp
 bool operator<(Complex c) {
   float abs1 = this->r*this->r + this->i*this->i;
   float abs2 = c->r*c->r + c->i*c->i;
@@ -101,16 +109,16 @@ So kann das Verhalten der angebotenen Algorithmen stark angepasst werden. Auch k
 
 In der Bibliothek sind bereits unterschiedliche Arten von Vergleichen verfügbar. Diese funktionieren allerdings nur für Objekt-Elemente für die der < Operator verfügbar ist. Beispiele (<http://www.cplusplus.com/reference/functional/)> für diese Funktionsobjekte sind (für *int*-Elemente):
 
-```c++
+```cpp
 less<int>				... Vergleich steigend
 greater<int>		... Vergleich fallend
 ```
 
 ### Funktionen
 
-Weil es nicht immer möglich oder erwünscht ist Operatoren einer Klasse für die Arbeitsweise mit einer STL-Funktion zu überladen, kann für manche Funktionen, wie für *sort*, eine *Funktion* mitgegeben werden:
+Weil es nicht immer möglich oder erwünscht ist Operatoren einer Klasse für die Arbeitsweise mit einer [STL](Cpp_STL.md)-Funktion zu überladen, kann für manche Funktionen, wie für *sort*, eine *Funktion* mitgegeben werden:
 
-```c++
+```cpp
 sort(myVec.begin(),     /* BeginIterator */
      myVec.end(),       /* EndIterator */
      myVecComp);        /* VergleichsFunktion */
@@ -118,7 +126,7 @@ sort(myVec.begin(),     /* BeginIterator */
 
 Für *sort* ist eine Funktion mit 2 Parametern vom Typ der Container-Elemente notwendig mit einem *bool*-Rückgabewert. Die Funktion für das oben skizzierte Beispiel kann so aussehen:
 
-```c++
+```cpp
 bool cplxCmp(Complex c1, Complex c2) {
   return (c2 < c1);
 }
@@ -126,7 +134,7 @@ bool cplxCmp(Complex c1, Complex c2) {
 
 Sie dreht die < Logik um, damit kann in umgekehrter Reihenfolge sortiert werden. Voraussetzung ist, dass wie oben, der < Operator definiert wurde. Damit kann Sortiert werden:
 
-```c++
+```cpp
 sort(myVec.begin, myVec.end(), cplxCmp);
 ```
 
@@ -136,13 +144,13 @@ sort(myVec.begin, myVec.end(), cplxCmp);
 
 Gerade für diese Anwendungen wirkt es oft als zu aufwendig eine eigene Funktion zu definieren (an entfernter Stelle im Code) um sie nur einmal für den Vergleich mitzugeben. Für solche Zwecke eignen sich, gerade wenn der Funktionskörper sehr kompakt ist, Lambda-Ausdrücke. Dabei werden komplette Funktionen in einem Ausdruck ausgedrückt, als Struktur:
 
-```c++
+```cpp
 [capture](parameter)->ret{body}
 ```
 
 in der eckigen Klammer (*capture*) können Umgebungsvariable für innerhalb der Funktion sichtbar gemacht werden. In der runden Klammer können der Funktion Parameter mitgegeben werden. Der Pfeil und *ret* geben den Typ des Rückgabewerts an, dieser kann einfach weggelassen werden, wenn aus dem *body* im return-Teil ersichtlich ist um welchen Typen es sich handelt. In *body* ist der Funktionskörper. Wenn der Member *v* von zwei Objekten der Klasse *cls* verglichen werden sollen würde der Lambda-Ausdruck so aussehen:
 
-```c++
+```cpp
 [](const cls &o1, const cls &o2){return (o1.v < o2.v);}
 ```
 
@@ -152,7 +160,7 @@ Der Nachteil von Funktionen ist, dass sie kein Erinnerungsvermögen besitzen. Wi
 
 Die letzte Möglichkeit ist, dass anstatt einer Funktion ein Funktionsobjekt mitgegeben wird. Ein Funktionsobjekt (Überladen des () Operators) kann so aussehen:
 
-```c++
+```cpp
 class CcplxCmp {
 public:
   bool operator()(Complex c1, Complex c2) {
@@ -165,7 +173,7 @@ Für den sort-Vergleich wird ein Funktionsobjekt benötigt, dass zwei Elemente d
 
 und der Aufruf:
 
-```c++
+```cpp
 sort(myVec.begin(), myVec.end(), CcplxCmp());
 ```
 
@@ -173,7 +181,7 @@ sort(myVec.begin(), myVec.end(), CcplxCmp());
 
 Der Vorteil der Funktor-Variante ist, dass dem Objekt Parameter mitgegeben werden können:
 
-```c++
+```cpp
 class CcplxCmp {
 public:
   CcplxCmp(bool up) : m_up(up) {};

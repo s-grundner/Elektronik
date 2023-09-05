@@ -4,7 +4,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# 9 STL - Übungen
+# 9 [STL](../Cpp_STL.md) - Übungen
 
 Die Übungen sind ein wenig gruppiert (es gibt Überlappungen)
 
@@ -14,7 +14,7 @@ Erzeugen Sie eine Stapel-Speicher-Klasse *CStack* zum Ablegen von Integer-Werten
 
 main.c
 
-```c++
+```cpp
 CStack s;
 
 s.push(1);
@@ -35,7 +35,7 @@ Die Ausgabe ist 9 .. 1.
 
 Erstellen Sie eine sortierte List von Schaltjahren seit 1900. Am einfachsten biete sich der Container *set* an. Geben Sie anschließend die Jahreszahlen in der Konsole aus:
 
-```c++
+```cpp
 set<int> mySet;		// wird automatisch aufwaerts sortiert
 mySet.insert(1);
 mySet.insert(5);
@@ -44,7 +44,7 @@ mySet.insert(10);
 
 Ändern Sie das Beispiel so ab, dass die Jahreszahlen fallend sortiert sind, das kann im Template-Parameter mit angegeben werden:
 
-```c++
+```cpp
 set<int, greater<>> mySet2;	// wird automatisch abwaerts sortiert
 ```
 
@@ -52,7 +52,7 @@ set<int, greater<>> mySet2;	// wird automatisch abwaerts sortiert
 
 Definition eines **set** Containers der lediglich int-Werte beinhaltet. Es werden doppelte Werte eingetragen (insert) und anschließend wird der komplette Inhalt ausgegeben:
 
-```c++
+```cpp
 #include <set>
 ...
 set<int> mySet;
@@ -83,7 +83,7 @@ Verwenden Sie anstatt eines *set* ein *multiset*.
 
 Laut Referenz (<https://de.cppreference.com/w/cpp/container/set>) ist Set so definiert:
 
-```c++
+```cpp
 template<
     class Key,
     class Compare = std::less<Key>,
@@ -95,7 +95,7 @@ Das bedeutet der *Compare*-Typ kann definiert werden. Er ist offensichtlich so d
 
 Schreiben Sie eine Funktion die *int-Set*-Elemente so sortiert, dass geradzahlige Elemente vor ungeradzahligen Elementen liegen. Innerhalt der geradzahligen bzw. ungeradzahligen Elemente wird von klein nach groß sortiert. Also liefert:
 
-```c++
+```cpp
 set<int,cmp> mySet;
 mySet.insert(10);
 mySet.insert(13);
@@ -115,7 +115,7 @@ for(auto &elem:mySet) {
 
 die Ausgabe:
 
-```c++
+```cpp
 10 12 14 16 20 11 13 15 17 19
 ```
 
@@ -123,13 +123,13 @@ die Ausgabe:
 
 Die Elemente einer *map* sind ein Schlüssel/Wert-Paar. Eine *map* ist nach dem Schlüssel sortiert. Definition:
 
-```c++
+```cpp
 map<int, string> myMap;
 ```
 
 Der erste Wert (hier ein *int*) ist der Schlüsseltyp, der zweite der Typ des zu speichernden Werts (hier *string*). Auch für die Sortierung einer *map* kann ein Vergleich mit definiert werden. Dazu kann der Funktionsoperator überladen werden. Er muss zwei Werte vom Typ des Schlüssels aufnehmen und einen *bool*-Wert zurückgeben:
 
-```c++
+```cpp
 class comp {
 public:
   bool operator()(const char* s1, const char* s2) const {
@@ -140,7 +140,7 @@ public:
 
 Damit kann er für eine *map*-Definition verwendet werden, Sortiert wird hier in der *map* nach dem c-String-Schlüssel:
 
-```c++
+```cpp
 ...
 map<const char*, int, comp> myMap;
 ...
@@ -151,7 +151,7 @@ myMap["abc"] = 123;
 
 Hier wird ein *map* von Versicherungsnummern/Personen erzeugt. Die Daten werden nicht sortiert eingetragen.
 
-```c++
+```cpp
 #include <map>
 ...
 map<int, string> versDaten;
@@ -184,7 +184,7 @@ Versicherter Nummer 7: Huber
 
 Hier wird ein *multimap* von Versicherungsnummern/Personen erzeugt (Kopie letztes Beispiel). Die Daten werden nicht sortiert und mit doppeltem Schlüssel eingetragen.
 
-```c++
+```cpp
 #include <map>
 ...
 multimap<int, string> versDaten;
@@ -218,13 +218,13 @@ Objekte unterschiedlicher Klassen können in einem *vector* gemeinsam gespeicher
 
 Beispiel: die Klassen *CAngestellte* und *CArbeiter* haben beide die Basisklasse *CPerson*. Im *vector*:
 
-```c++
+```cpp
 vector<CPerson> ma;
 ```
 
 können Objekte beider Klassen gespeichert werden. Um Objektmember polymorph verwenden zu können muss ein Base-Class-Pointer abgelegt werden:
 
-```c++
+```cpp
 vector<CPerson*> ma;
 ```
 
@@ -232,7 +232,7 @@ vector<CPerson*> ma;
 
 Ein *priority_queue*-Container legt im einfachsten Fall Elemente sortiert ab. Gereiht werden die größten Einträge an erster Stelle.
 
-```c++
+```cpp
 #include <queue>
 ...
 priority_queue<int> myQueue;
@@ -259,7 +259,7 @@ liefert:
 
 Zum Verändern der Reihung kann eine Vergleichs-Klasse mit angegeben werden. Wenn Objekte einer Klasse Elemente der Queue sind dann ist das in jedem Fall notwendig, weil ja ansonsten keine Reihung erfolgen kann.
 
-```c++
+```cpp
 class CmyCls {
 public:
   int m_p1;
@@ -305,7 +305,7 @@ liefert (sortiert/priorisiert nach dem nicht angezeigten Wert):
 
 Mit *sort* können Strukturen sortiert werden:
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -329,7 +329,7 @@ Sortiert werden die Elemente, die durch die Iteratoren *myVec.begin()* und *myVe
 
 Soll in umgekehrte Richtung sortiert werden, dann kann eine Funktion mitgegeben werden:
 
-```c++
+```cpp
 bool vergl(const int &a, const int &b) {
     return a < b;
 }
@@ -339,7 +339,7 @@ sort(myVec.begin(), myVec.end(), func);
 
 Diese Schreibweise kann mittels *Lambda*-Ausdrücken abgekürzt werden:
 
-```c++
+```cpp
 sort(myVec.begin(), myVec.end(),
      [](const int &a, const int &b)->bool{ return a<b; });
 ```
@@ -350,7 +350,7 @@ der Teil *->bool* darf weggelassen werden, durch die *return*-Anweisung ist der 
 
 Mit *binary_search* kann bestimmt werden ob ein Element existiert (Feld muss sortiert sein), mit *lower_bound* das erste Element, dass größer als eine Schranke ist:
 
-```c++
+```cpp
 bool vergl(char a, char b) {
   if (a >= 'a' && a <= 'z') a = a-'a'+'A';	// Klein- ->Grossbuchstaben
   if (b >= 'a' && b <= 'z') b = b-'a'+'A';	// Klein- ->Grossbuchstaben
@@ -370,7 +370,7 @@ hier wird mittels *binary_search* gesucht ob ein *c* in *myDeq* vorhanden ist. W
 
 *find_if* bietet zusätzlich die Möglichkeit eine Bedingung (ohne Parameter) für die Suche mit anzugeben. Etwa wenn in einer Liste nur Zahlen größer einem bestimmten Wert gefunden werden sollen. Hier ist *aList* eine Liste von Jahreszahlen und es wird nach dem ersten Schaltjahr gesucht:
 
-```c++
+```cpp
 struct isSchaltjahr {
   bool operator()(unsigned int year) const {
     if (0 == year % 400) return true;
@@ -387,13 +387,13 @@ list<int>::iterator firstSchJ = find_if(aList.begin(), aList.end(), isSchaltjahr
 
 In einer *int*-Liste soll ein Element gesucht werden, dass größer als 12 ist. Als Funktion eignet sich *find_if*:
 
-```c++
+```cpp
 find_if(BeginIterator, EndIterator, BedingungFunktor)
 ```
 
 Es wird in einem beliebigen Container von Begin nach End gesucht unter Prüfung der angegebenen Bedingung (*Funktor*).
 
-```c++
+```cpp
 class biggerThan {
   public:
     const int testValue;
@@ -413,7 +413,7 @@ Hier wird der *biggerThan*-Klasse im Konstruktor eine Zahl mitgegeben, wenn die 
 
 Manche Algorithmen erlauben Funktionen als Argumente, hier zum Beispiel die *for_each*-Funktion:
 
-```c++
+```cpp
 void printElement(int value) {
   std::cout << "The list contains " << value << std::endl;
 }
@@ -429,7 +429,7 @@ Die Funktion arbeiten wieder mit einem Beginnund End-Iterator und einer Funktion
 
 Beispiel mit einem *Funktor*, hier werden nur die geradzahligen Werte ausgegeben:
 
-```c++
+```cpp
 class CEven {
 public:
   void operator()(int& x) {
@@ -453,9 +453,9 @@ int main() {
 }
 ```
 
-Ab *C++11* ist eine wesentlich attraktivere Variante verfügbar (nicht-STL):
+Ab *cpp11* ist eine wesentlich attraktivere Variante verfügbar (nicht-[STL](../Cpp_STL.md)):
 
-```c++
+```cpp
 for(const int &elem : myList) { ... }
 ```
 
@@ -465,7 +465,7 @@ Damit wird aus einer Auflistung (*int*-Liste *myList*) von Elementen in jedem Du
 
 In einem String-*vector* ist ein String zu suchen:
 
-```c++
+```cpp
 int main() {
   vector<string> myStrings;
   myStrings.push_back("Hallo");
@@ -482,7 +482,7 @@ int main() {
 
 Die Ausgabe liefert das gefundene *wie*. Wen die Liste nicht nur aus Elementen mit einfachen Datentypen besteht, dann funktioniert die Suche nicht direkt. Auch für Strings kann gewünscht sein, dass gefunden wird, unabhängig von der Groß-/Kleinschreibung. Dazu werden die Elemente in eine eigene Klasse *CItem* gepackt:
 
-```c++
+```cpp
 class CItem {
 public:
   string m_str;
@@ -505,7 +505,7 @@ int main() {
 
 Dadurch wird eine Fehlermeldung ausgegeben: der == Operator ist für *CItem* nicht definiert. Es muss also der == Operator für *CItem* überladen werden. In *CItem* wird also der == Operator überladen:
 
-```c++
+```cpp
 bool operator==(const string &s2) {
   return (this->m_str == s2);
 }
@@ -517,13 +517,13 @@ Damit ist die Funktion die Gleiche wie zuvor. Um Unabhängig von der Groß-/Klei
 
 Wenn eine Liste schon sortiert ist (*set*, *map*, *priority_queue*), dann ist binäres Suchen wesentlich effizienter als sequenzielles Suchen. Diese Algorithmus-Suche gibt es mit unterschiedlichen Parametern, wir wollen wieder (siehe *find*) in einer Liste von Wörtern ein Wort suchen unabhängig von der Groß-/Kleinschreibung:
 
-```c++
+```cpp
  auto res = std::binary_search(woerter.begin(), woerter.end(), "HaLlO", praed);
 ```
 
 (*res* liefert nur *true*/*false*) Der letzte Parameter gibt eine Funktion für die Bedingung (Funktion oder *Funktor*) an, für Groß-/Kleinschreibung zum Beispiel:
 
-```c++
+```cpp
 bool praed(const string & ms1,const string & ms2) {
   string s1(ms1);
   for (auto & c: s1) c = toupper(c);
@@ -542,7 +542,7 @@ In Containern ist es oftmals notwendig Operationen mit allen Elementen auszufüh
 
 Gegeben ist eine Inkrement-Funktion:
 
-```c++
+```cpp
 int inc(int num) {
   return (num + 1);
 } 
@@ -550,14 +550,14 @@ int inc(int num) {
 
 und ein einfaches Array:
 
-```c++
+```cpp
 int myArr[] = {1, 2, 3, 4, 5}; 
 int len = sizeof(myArr)/sizeof(myArr[0]);
 ```
 
 Zum Addieren von 1 zu jedem Element des Arrays mittels *transform*:
 
-```c++
+```cpp
 std::transform(myArr, myArr + len, myArr, inc);
 ```
 
@@ -572,7 +572,7 @@ Die Parameter dieser Funktion:
 
 Es gibt die *transform* Funktion auch für binäre Operationen (Operationen mit 2 Operanten) . Im folgenden Beispiel sollen die Elemente von zwei Arrays miteinander addiert werden:
 
-```c++
+```cpp
 int myArr1[] = {1, 2, 3, 4}; 
 int myArr2[] = {5, 6, 7, 8}; 
 int len = sizeof(myArr1)/sizeof(myArr1[0]); 
@@ -581,7 +581,7 @@ int myArr[len];
 
 Die Addition wieder mittels *transform*:
 
-```c++
+```cpp
 std::transform(myArr1, myArr1 + len, myArr2, myArr, plus<int>());
 ```
 
@@ -605,7 +605,7 @@ Sortieren Sie einen *vector* mit Personen nach dem Alter mittels *Selection-Sort
 
 main.cpp:
 
-```c++
+```cpp
 void selSort(vector<CPerson *> &pers);
 void ausgabe(vector<CPerson *> pers);
 void loeschen(vector<CPerson *> &pers);
@@ -638,9 +638,9 @@ int main()
 
 ## It - Einführung
 
-STL-Iteratoren sollen es ermöglichen sämtliche Container-Objekte auf eine möglichst gleiche Art behandeln zu können. Ein einfaches Beispiel (es gibt viele Iterator-Funktionen):
+[STL](../Cpp_STL.md)-Iteratoren sollen es ermöglichen sämtliche Container-Objekte auf eine möglichst gleiche Art behandeln zu können. Ein einfaches Beispiel (es gibt viele Iterator-Funktionen):
 
-```c++
+```cpp
 #include<iostream> 
 #include<iterator>
 #include<vector>
@@ -668,7 +668,7 @@ In diesem Beispiel wird eine Suchfunktion *find* für ein klassisches *int*-Arra
 
 1. Dabei wird ein eigener Iterator (einfacher Zeiger auf ein Array-Element) verwendet:
 
-   ```c++
+   ```cpp
    #include <iostream>
    using namespace std;
    
@@ -722,7 +722,7 @@ In diesem Beispiel wird eine Suchfunktion *find* für ein klassisches *int*-Arra
 
 3. Das obige Programm wird nun abgeändert, sodass anstatt des eigenen *int*-Containers ein *vector* verwendet wird und der entsprechende vordefinierte Iterator:
 
-   ```c++
+   ```cpp
    #include <vector>
    #include <algorithm>	// fuer find()
    ...
@@ -735,7 +735,7 @@ In diesem Beispiel wird eine Suchfunktion *find* für ein klassisches *int*-Arra
    cout << "gefunden an Position " << (position - myContainer.begin()) << endl;
    ```
 
-Erkenntnis: auf diese Art kann eine eigene Funktion mit den STL-Containern über Iteratoren zusammenarbeiten. Mit Templates kann die Funktion sehr allgemein (generische Programmierung) erstellt werden.
+Erkenntnis: auf diese Art kann eine eigene Funktion mit den [STL](../Cpp_STL.md)-Containern über Iteratoren zusammenarbeiten. Mit Templates kann die Funktion sehr allgemein (generische Programmierung) erstellt werden.
 
 ## It - Input-Iterator (072)
 
@@ -753,7 +753,7 @@ Für was kann ein Input-Iterator verwendet werden? Mit *std::find* kann in einem
 
 Beispielhaft hier eine mögliche *Find*-Funktion:
 
-```c++
+```cpp
 template <typename InputIterator, typename T>
 InputIterator find(InputIterator first, InputIterator last, const T& value) {
   while (first != last && *first != value) 
@@ -766,23 +766,23 @@ Damit dieser Algorithmus funktioniert muss `++` das folgende Element liefern, `*
 
 - Einfacher Zeiger als Iterator:
 
-  ```c++
+  ```cpp
   int dta[33];
   int *loc = ::find(dta, dta+33, 3);  // :: fuer eigens find ansatt algorithm-find
   ```
 
   oder als Iterator (mit `const` können die Werte auf welche die Zeiger zeigen nicht verändert werden):
 
-  ```c++
+  ```cpp
   const int* first = dta;
   const int* last  = dta + 33;
   const int* loc = ::find(first, last, 7);
   ```
 
 - Container-Iteratoren:  
-  Jeder Container aus der STL stellt einen Iterator zur Verfügung (die Möglichkeiten des Input-Iterators sind am Stärksten von allen eingeschränkt, daher funktioniert Jeder):
+  Jeder Container aus der [STL](../Cpp_STL.md) stellt einen Iterator zur Verfügung (die Möglichkeiten des Input-Iterators sind am Stärksten von allen eingeschränkt, daher funktioniert Jeder):
 
-  ```c++
+  ```cpp
   std::vector<int>::iterator loc = std::find(myVec.begin(), myVec.end(), 3); 
   ```
 
@@ -790,7 +790,7 @@ Damit dieser Algorithmus funktioniert muss `++` das folgende Element liefern, `*
 
 Ein Output-Iterator wird verwendet um Daten sequentiell auszugeben. Beispielhaft hier ein Kopiervorgang:
 
-```c++
+```cpp
 template <typename InputIterator, typename OutputIterator>
 OutputIterator copy(InputIterator first, InputIterator last, OutputIterator result) {
   while (first != last) 
@@ -803,7 +803,7 @@ Der Output-Iterator ermöglicht das Schreiben. Vergleichende Operatoren (`==`,`!
 
 - Einfacher Zeiger als Iterator:
 
-  ```c++
+  ```cpp
   int dta[33];
   int newDta[33];
   ::copy(dta, dta+33, newDta);
@@ -811,13 +811,13 @@ Der Output-Iterator ermöglicht das Schreiben. Vergleichende Operatoren (`==`,`!
 
 - Container-Iteratoren:
 
-  ```c++
+  ```cpp
   std::copy(dta, dta+100, newDta.begin());
   ```
 
 - Output-Stream-Iterator. Beispiel:
 
-  ```c++
+  ```cpp
   #include <iostream>
   #include <fstream>
   #include <iterator>
@@ -852,7 +852,7 @@ void replace(FIterator first, FIterator last, const T& old_value, const T& new_v
 }
 ```
 
-Aufruf der analogen STL-Funktion (Ersetzen des Int 7 mit int 11 im int-Vektor):
+Aufruf der analogen [STL](../Cpp_STL.md)-Funktion (Ersetzen des Int 7 mit int 11 im int-Vektor):
 
 ```
 std::replace(myVector.begin(), myVector.end(), 7, 11);
@@ -863,7 +863,7 @@ std::replace(myVector.begin(), myVector.end(), 7, 11);
 
 Die Operatoren sind gleich wie beim Forward-Iterator. Zusätzlich gibt es den `--`-Operator mit dem sich Rückwärts bewegt werden kann.
 
-```c++
+```cpp
 template <class BidirectionalIterator, class OutputIterator>
 OutputIterator reverse_copy(BidIterator first, BidIterator last, OutputIterator result) {
   while (first != last) 
@@ -874,7 +874,7 @@ OutputIterator reverse_copy(BidIterator first, BidIterator last, OutputIterator 
 
 Aufruf der analogen STL-Funktion:
 
-```c++
+```cpp
 std::list<int> myList;
  ....
 std::vector<int> myVector(myList.size());
@@ -889,7 +889,7 @@ Für manche Algorithmen sind Iteratoren notwendig für die nicht nur voroder rü
 
 Zum Beispiel für ein Umdrehen eines Containerinhaltes:
 
-```c++
+```cpp
 template <typename RandomAccessIterator>
 void mixup(RandomAccessIterator first, RandomAccessIterator last) {
   while (first < last) {
@@ -901,7 +901,7 @@ void mixup(RandomAccessIterator first, RandomAccessIterator last) {
 
 Der verwendete Zufallsgenerator:
 
-```c++
+```cpp
 // return random integer greater than or equal to 0 and less than n
 unsigned int randomInteger(unsigned int n) {
   return std::rand() % n;
@@ -935,7 +935,7 @@ Anschließend soll der Container-Inhalt auf eine Datei *output.txt* geschrieben 
 
 Das einlesen einer Datei kann am elegantesten mittels Iteratoren erfolgen:
 
-```c++
+```cpp
 ifstream inFile("c:/temp/in.txt", ios::in);
 vector<string> myContent((istream_iterator<string>(inFile)), istream_iterator<string>());
 inFile.close();
@@ -949,7 +949,7 @@ Lesen Sie eine Text-Datei *input.txt* ein, Sortieren Sie die Elemente (Zeilen) u
 
 Datei Einlesen, Sortieren und wieder als Datei schreiben:
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 #include <iterator>
@@ -983,7 +983,7 @@ Dann sollen alle großgeschriebenen Wörter des Containers durch entsprechend kl
 
 Personen werden in einer einfachen Klasse dargestellt:
 
-```c++
+```cpp
 class person {
 public:
   person(int alter, string nname):m_alter(alter),m_nname(nname){};
@@ -995,7 +995,7 @@ private:
 
 Mit dem Aufruf in der *main*-Funktion:
 
-```c++
+```cpp
 int main() {
   set<person> persReg;
   persReg.insert(person(30,string("Jim")));
@@ -1032,7 +1032,7 @@ Schreiben Sie ein Programm, das jedes Wort *w* einer Textdatei *input.txt* auf k
 
 Einlesen aus der Wörterbuch-Datei und Ablegen im *set* (alphabetisch sortiert):
 
-```c++
+```cpp
 ifstream woerterbuch(wbPfad);
 istream_iterator<string> inIt(woerterbuch), end;
 while (inIt != end)
@@ -1041,7 +1041,7 @@ while (inIt != end)
 
 Das Suchen von Wörtern im Wörterbuch erfolgt mit der *find*-Methode. Um die Funktion`find()` so anzupassen, dass Groß-/Kleinschreibung keine Rolle spielt, wird der *<* Operator überladen:
 
-```c++
+```cpp
 struct MyStr { string val; };
 
 bool operator<(const MyStr & p1, const MyStr & p2) {
@@ -1060,15 +1060,15 @@ Für die *find*-Funktion wird der *<* Operator verwendet, daher muss dieser Übe
 
 
 
-Text: <http://www.reinhardt-verlag.de/_pdf_media/uebung022441.pdf>
+Text: http://www.reinhardt-verlag.de/_pdf_media/uebung022441.pdf
 
-Wörterbucher im Text-Format: <https://www.j3e.de/ispell/igerman98/dict/>. Es empfiehlt sich die Sonderzeichen rauszulöschen und die Umlaute anzupassen.
+Wörterbucher im Text-Format: https://www.j3e.de/ispell/igerman98/dict/. Es empfiehlt sich die Sonderzeichen rauszulöschen und die Umlaute anzupassen.
 
 ## Partition
 
 Ein gutes Beispiel für Partition kann hier gefunden werden:
 
-<https://www.geeksforgeeks.org/stdpartition-in-c-stl/>
+https://www.geeksforgeeks.org/stdpartition-in-c-/
 
 (das Beispiel zeigt außerdem den Sinn von Iteratoren auf)
 
@@ -1078,7 +1078,7 @@ Im Beispiel *Transform Unär* wurde jedes Element eines Feldes Inkrementiert. So
 
 Eine mögliche Lösung liefert das Überladen vom Funktionsoperator ():
 
-```c++
+```cpp
 class increment { 							// Der Functor 
 private: 
   int num; 
@@ -1158,7 +1158,7 @@ Diese Zeilenaufzählung kann mittels einem *vector* erfolgen oder wenn ganz einf
 
 Für einen Eintrag in ein Adressbuch kann die folgende Struktur verwendet werden:
 
-```c++
+```cpp
 class record {
 public:
     record(string nn="", string vn="", long long int num=0, string mail="") :
@@ -1181,7 +1181,7 @@ Die Daten sind klar: Name, TelNr und Mail Adresse. Konstruktoren weisen lediglic
 
 In einer einfachen Anwendung werden zuerst wenige Einträge eingefügt und ausgegeben:
 
-```c++
+```cpp
 // 1. Container map gewaehlt -> Schluessel/Wert-Paare
 typedef map<string,record> addrBookT;
 addrBookT myAdb;
@@ -1207,7 +1207,7 @@ anschließend wird nach einer Person gesucht. Das kann auf zwei Arten erfolgen:
 - *find*: Sequenzielle Suche - beginnt von vorne bis es gefunden wird
 - *lower_bound*: Binäre Suche - die funktioniert nur für bereits sortierte Felder - und genau sowas haben wir hier. *lower_bound* findet das Element welches an der Stelle liegt wo das gesuchte liegen sollte, wenn nicht vorhanden, dann ist es das nächste Element:
 
-```c++
+```cpp
 // 4.1 Suchen mittels find()
 //-------------------------------------------------------------------
 string suchStr("Kober");
@@ -1233,7 +1233,7 @@ else
 
 Der Zugriff im Adressbuch kann mittels *[]* Operator erfolgen. Und schlussendlich werden sämtliche Datensätze gelöscht:
 
-```c++
+```cpp
 // 5. Zugriff mittels [] moeglich
 //-------------------------------------------------------------------
 string kbr("Kober");
@@ -1257,7 +1257,7 @@ In einer *map* kann direkt nur nach dem *key* gesucht werden (nach dem ist das F
 
 Für ein Chat-Programm wird die Kommunikation in einem *map* angelegt, jede Chat-Gruppe bekommt einen Namen:
 
-```c++
+```cpp
 multimap<string,chat> whatsDown;
 
 whatsDown.insert({"dudes", chat("Joe","was los?")});
@@ -1292,7 +1292,7 @@ Chat ~DieFirma~:
 
 In der *chat*-Klasse wird die Kommunikation in einem *vector* abgelegt.:
 
-```c++
+```cpp
 class chat {
 friend ostream &operator<<(ostream &os, chat);
 public:
@@ -1308,7 +1308,7 @@ public:
 
 Grundsätzlich wird die Verwendung von *vector* empfohlen. Es ist eine bewährte und sehr kompakte Struktur. Betrachten wir folgendes Programm:
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 
@@ -1357,13 +1357,13 @@ Es wurden also 3 mal Objekte durch Kopieren erzeugt.
 
 Dieser Ablauf ist also aus zweierlei Gründen nicht optimal. Wenn immer ein *push_back* aufgerufen wird, dann wird ein neuer Speicher reserviert und umkopiert. Wenn vorab bekannt ist, dass wie in diesem Beispiel sofort 2 Elemente in den Vektor kommen, dann kann der Vektor von Beginn an auf Größe 2 initialisiert werden:
 
-```c++
+```cpp
 myList.reserve(2);
 ```
 
 Damit fällt die Notwendigkeit des Umkopierens weg. Allerdings müssen die beiden Objekte dann direkt auf die reservierten Plätze erstellt werden:
 
-```c++
+```cpp
 myList[0] = test{1,2};
 myList.emplace_back(3,4);		// OHNE test!
 ```
@@ -1376,7 +1376,7 @@ Die String-Klasse ist ein großer Vorteil, es gibt bereits eine große Menge an 
 
 Hier ein einfacher Programm-Ausschnitt:
 
-```c++
+```cpp
 void print(const std::string &str) {
   std::cout << str << std::endl;
 }
@@ -1393,7 +1393,7 @@ In diesem Programm wird ein String *name* angelegt und initialisiert. Dabei wird
 
 Dass der String eine dynamische Speicherreservierung beinhaltet kann gezeigt werden:
 
-```c++
+```cpp
 void* operator new(size_t size) {
   std::cout << "Allocating " << size << std::endl;
   return malloc(size);
@@ -1411,7 +1411,7 @@ Johann-Sebastian Hinterhofholzner
 
 werden im Weiteren noch Elemente aus dem String kopiert:
 
-```c++
+```cpp
 std::string fName = name.substr(0,16);
 std::string lName = name.substr(16+1,name.size()-1);
 print(fName);
@@ -1420,7 +1420,7 @@ print(lName);
 
 dann wird wiederum Speicher auf dem Heap reserviert:
 
-```c++
+```cpp
 Allocating 34
 Johann-Sebastian Hinterhofholzner
 Allocating 17
@@ -1431,9 +1431,9 @@ Hinterhofholzner
 
 In Summe kann das die Laufzeit eines Programms entscheidend verlangsamen. Und das nur weil der Voroder Nachname gelesen werden soll. In C kann in C-Strings mittels Pointer auf eine beliebige Position gezeigt werden und die entsprechende Zeichenanzahl angezeigt werden. Es werden eigene Copy-Konstruktoren und dynamisches Erzeugen von Objekten vermieden.
 
-Ab C++17 ist gibt es *string_view*, damit kann mit Teilen von vorhandenen Strings gearbeitet werden (genau wie wenn direkt mit Zeigern gearbeitet wird):
+Ab cpp17 ist gibt es *string_view*, damit kann mit Teilen von vorhandenen Strings gearbeitet werden (genau wie wenn direkt mit Zeigern gearbeitet wird):
 
-```c++
+```cpp
 std::string_view fName2(name.c_str(),16);
 ```
 

@@ -19,7 +19,7 @@ Container sind für das Speichern von Objekten mittels Templates implementiert. 
 8. *queue* - FIFO Speicher
 9. *stack* - Stapel
 
-> STL-Container: Klassen für die Sammlung von Daten.
+> [STL](Cpp_STL.md)-Container: Klassen für die Sammlung von Daten.
 
 ## Allgemein
 
@@ -182,7 +182,7 @@ Hier wird eine eigene Klasse definiert um die Reihung der Objekte zu definieren.
 
 ### Array
 
-Die Klasse *array* ist ursprünglich nicht in der STL enthalten. Um für die STL-Funktionen auch für Standard-c-Arrays zu ermöglichen, wurde diese sogenannte *Wrapper*-Klasse eingeführt. Sie erweitert das Standard-c-Array mit für die STL notwendigen Funktionen und Iteratoren. 
+Die Klasse *array* ist ursprünglich nicht in der [STL](Cpp_STL.md) enthalten. Um für die [STL](Cpp_STL.md)-Funktionen auch für Standard-c-Arrays zu ermöglichen, wurde diese sogenannte *Wrapper*-Klasse eingeführt. Sie erweitert das Standard-c-Array mit für die [STL](Cpp_STL.md) notwendigen Funktionen und Iteratoren. 
 
 ```c++
 array<int, 3> myArr2;
@@ -233,7 +233,7 @@ Die erste Lösung definiert vorab die notwendige Größe, wenn das zu wenig gene
 
 ### String
 
-Die *string*-Klasse war nicht Bestandteil der STL. Nachdem STL-Elemente in den Standard kamen wurden in der *string*-Klasse Methoden zugefügt um Strings für die STL kompatibel zu machen. Damit können sich Strings sehr ähnlich wie Container verhalten.
+Die *string*-Klasse war nicht Bestandteil der [STL](Cpp_STL.md). Nachdem [STL](Cpp_STL.md)-Elemente in den Standard kamen wurden in der *string*-Klasse Methoden zugefügt um Strings für die [STL](Cpp_STL.md) kompatibel zu machen. Damit können sich Strings sehr ähnlich wie Container verhalten.
 
 ```c++
 string myStr;
