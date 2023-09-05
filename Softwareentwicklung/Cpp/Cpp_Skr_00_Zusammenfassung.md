@@ -4,7 +4,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# [C++](Cpp.md) Zusammenfassung
+# [C++]({MOC}%20Cpp.md) Zusammenfassung
 
 ## Datentypen
 
@@ -120,7 +120,7 @@ Bei der Definition eines Arrays ist der wesentliche Unterschied zu Arrays in and
 
   In der technischen Realisierung eines Array kann daher der Index direkt zur Adresse des ersten Elements dazugezählt werden.
 
-- Umgekehrt kann in C/[C++](Cpp.md) daher auf Zeiger mittels des Index-Operators zugegriffen werden (so als ob sie Arrays wären):
+- Umgekehrt kann in C/[C++]({MOC}%20Cpp.md) daher auf Zeiger mittels des Index-Operators zugegriffen werden (so als ob sie Arrays wären):
 
   ```c++
   char *zeiger;
@@ -333,9 +333,9 @@ int add(int a, int b) {				// Implementierung
 
 Um Funktionen aufrufen zu können müssen sie darüber bekannt sein. Dafür kann ein Prototyp verwendet werden.
 
-Um Funktionen in anderen C/[C++](Cpp.md)-Dateien verwenden zu können werden die Prototypen in eigene Dateien ausgelagert. Diese eigenen Dateien können dann überall ohne die Implementierung eingebunden werden.
+Um Funktionen in anderen C/[C++]({MOC}%20Cpp.md)-Dateien verwenden zu können werden die Prototypen in eigene Dateien ausgelagert. Diese eigenen Dateien können dann überall ohne die Implementierung eingebunden werden.
 
-Diese Dateien mit den Deklarationen sind **Header**-Dateien mit der Erweiterung **.h**. Die Implementierung wird in gleichbenannte Dateien mit der Erweiterung **.[cpp](Cpp.md)** geschrieben. Für das Additionsbeispiel:
+Diese Dateien mit den Deklarationen sind **Header**-Dateien mit der Erweiterung **.h**. Die Implementierung wird in gleichbenannte Dateien mit der Erweiterung **.[cpp]({MOC}%20Cpp.md)** geschrieben. Für das Additionsbeispiel:
 
 add.h
 

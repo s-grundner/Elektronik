@@ -248,7 +248,7 @@ Im Watches-Fenster kann die Adresse einer Variable mit dem Adressoperator ermitt
 
 ## Speicherlecks - *Memory-Leakage*
 
-Speicherlecks sind DIE Fehler in C/[C++](../Cpp/Cpp.md) schlechthin. Diese Fehler sind der Grund warum viele andere Sprachen, trotz des enormen Potentials von Pointern auf dieses Konzept verzichten.
+Speicherlecks sind DIE Fehler in C/[C++](../Cpp/{MOC}%20Cpp.md) schlechthin. Diese Fehler sind der Grund warum viele andere Sprachen, trotz des enormen Potentials von Pointern auf dieses Konzept verzichten.
 
 Speicherleck: es wird Speicher reserviert und nie wieder frei gegeben. Dadurch ist Speicher reserviert (kann nicht verwendet werden) wird aber nicht mehr verwendet. Der Speicherbedarf der Anwendung ist größer als notwendig. Passiert das in Schleifen kann der Bedarf kontinuierlich wachsen. Für Programme wie sie in der Ausbildung entwickelt werden ist das nicht weiter problematisch. Auch das ist mit ein Problem, die Sache wird nicht wahrgenommen. Dadurch übt sich eine gewisse *Schlampigkeit* ein. In einer Anwendung die dann tatsächlich dauerhaft zur Anwendung kommt tritt der Fehler dann in Form von seltsamen Abstürzen auf. Ein typischer Fall ist eine Serveranwendung die ständig läuft. Der Ursache für den Absturz ist im nachhinein sehr schwer zu erkennen.
 

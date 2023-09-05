@@ -5,7 +5,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# [C++](Cpp.md) Zusammenfassung - Übungen
+# [C++]({MOC}%20Cpp.md) Zusammenfassung - Übungen
 
 ## Datentypen (610)
 

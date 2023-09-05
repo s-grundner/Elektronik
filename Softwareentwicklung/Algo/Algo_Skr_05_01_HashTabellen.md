@@ -83,7 +83,7 @@ Beispiel Telefonbuch:
 
   Telefonbuch["Huber"] --> "0662/737373"
 
-für [C++](../Cpp/Cpp.md):
+für [C++](../Cpp/{MOC}%20Cpp.md):
 
 ```c++
 map<string, string> telbuch;			// include map, using std
@@ -96,7 +96,7 @@ telbuch[ "Kaiser" ] = "0500/554432";
 cout << telbuch[ "Maier" ];
 ```
 
-Beispiel ([C++](../Cpp/Cpp.md)):
+Beispiel ([C++](../Cpp/{MOC}%20Cpp.md)):
 
 ```c++
 // include iostream, map, string, iterator
@@ -131,7 +131,7 @@ if(mapOfWords.find("Mars") == mapOfWords.end())
 ```
 
 - Elemente Einfügen: Zugriff mit eckiger Klammer, dabei wird ein bereits vorhandener Schlüssel einfach Überschrieben. Mittels *.insert* wird ein bestehendes Element nicht überschrieben. Mit *.second* kann gleichzeitig geprüft werden ob das Element eingefügt wurde.
-- Auch für maps in [c++](../Cpp/Cpp.md) gibt es Iteratoren: siehe Beispiel
+- Auch für maps in [c++](../Cpp/{MOC}%20Cpp.md) gibt es Iteratoren: siehe Beispiel
 
 Beispiel Java:
 

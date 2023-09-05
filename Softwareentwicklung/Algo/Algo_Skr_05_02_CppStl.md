@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 5.2 [C++](../Cpp/Cpp.md)/STL-Listen
+# 5.2 [C++](../Cpp/{MOC}%20Cpp.md)/STL-Listen
 
 ## array
 
@@ -32,7 +32,7 @@ cout << get<2>(tabelle) << endl;
 
 ## vector
 
-Siehe [C++](../Cpp/Cpp.md) Dokumentation. In der STL ist vector durch Arrays implementiert.
+Siehe [C++](../Cpp/{MOC}%20Cpp.md) Dokumentation. In der STL ist vector durch Arrays implementiert.
 
 ## list
 

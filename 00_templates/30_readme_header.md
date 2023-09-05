@@ -1,4 +1,4 @@
-# <%tp.file.folder(true).charAt(0).toUpperCase() + tp.file.folder(true).slice(1)%>
+# <%tp.file.folder(true)%>
 
 ```dataview
 TABLE tags

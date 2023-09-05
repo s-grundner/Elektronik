@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 4 Backtracking - Übungen
 
-## Labyrinth Erzeugung + grafische Darstellung in Windows ([C++](../Cpp/Cpp.md)350, C2104)
+## Labyrinth Erzeugung + grafische Darstellung in Windows ([C++](../Cpp/{MOC}%20Cpp.md)350, C2104)
 
 Stellen Sie das Labyrinth grafisch dar (es werden Wege und nicht Wände gezeichnet):
 

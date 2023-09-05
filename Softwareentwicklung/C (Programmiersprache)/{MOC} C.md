@@ -1,5 +1,6 @@
 ---
 tags: ["c", "MOC"]
+aliases: []
 subject: fsst
 source: []
 created: 17th August 2023

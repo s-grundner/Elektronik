@@ -65,14 +65,14 @@ Als Anfänger empfiehlt sich eine einfache IDE (Entwicklungsumgebung). Mächtige
 
 2. VisualStudio - <https://www.visualstudio.com/de/downloads/>
 
-   Visual Studio ist eine IDE für [C++](../Cpp/Cpp.md), für einfache C-Projekte sind einige Einstellungen zu tätigen:
+   Visual Studio ist eine IDE für [C++](../Cpp/{MOC}%20Cpp.md), für einfache C-Projekte sind einige Einstellungen zu tätigen:
 
-   [C++](../Cpp/Cpp.md) Projekt --> Konsolenapplikation
+   [C++](../Cpp/{MOC}%20Cpp.md) Projekt --> Konsolenapplikation
 
-   - Datei als *.c speichern (Standard ist [cpp](../Cpp/Cpp.md))
-   - -->Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Erweitert --> Kompilierungsart --> "Als C-Code kompilieren (/TC)"
-   - --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Präprozessor --> Präprozessordefinitionen --> "_CRT_SECURE_NO_WARNINGS" einfügen
-   - damit stdfx.h nicht eingebunden werden muss: --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/Cpp.md) --> Vorkompilierte Header --> Vorkompilierte Header nicht verwenden einstellen
+   - Datei als *.c speichern (Standard ist [cpp](../Cpp/{MOC}%20Cpp.md))
+   - -->Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/{MOC}%20Cpp.md) --> Erweitert --> Kompilierungsart --> "Als C-Code kompilieren (/TC)"
+   - --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/{MOC}%20Cpp.md) --> Präprozessor --> Präprozessordefinitionen --> "_CRT_SECURE_NO_WARNINGS" einfügen
+   - damit stdfx.h nicht eingebunden werden muss: --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/{MOC}%20Cpp.md) --> Vorkompilierte Header --> Vorkompilierte Header nicht verwenden einstellen
 
 3. QtCreator - <http://download.qt.io/official_releases/online_installers/qt-unified-windows-x86-online.exe> (Open Source)
 
