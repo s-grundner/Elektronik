@@ -1,18 +1,25 @@
 ---
-tags: []
-aliases: ["Reaktionsbeschleunigung", "Reaktionsgeschwindigkeit", "Kinetik", "Katalysator"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Reaktionsbeschleunigung
+  - Reaktionsgeschwindigkeit
+  - Kinetik
+  - Katalysator
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 23rd August 2022
 ---
 
-# Kinetik und Katalyse
+# Kinetik Und Katalyse
 
 ## Reaktionsgeschwindigkeit
 
 Reaktionsgeschwindigkeit (RG): $v=$ Stoffumsatz pro Zeiteinheit ($\frac{mol}{sek}$)
 
-### Einflüsse auf die RG
+### Einflüsse Auf Die RG
 
 **[Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) (RGT-Regel)**  
 **Druck bzw. Konzentration**  
@@ -27,7 +34,7 @@ Teilchen werden aufgebrochen und können dann reagieren.
 Das Vorhandensein einzelner Atome = **Aktivierter zustand**  
 Man braucht: Aktivierungsenergie
 
-### Energiediagramm bei Knallgasreaktion
+### Energiediagramm Bei Knallgasreaktion
 
 >![500](assets/AE.png)  
 >EA ohne Katalysator  

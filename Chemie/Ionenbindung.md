@@ -1,8 +1,17 @@
 ---
-tags: []
-aliases: ["Salz", "Salze", "Anion", "Kation", "Anionen", "Kationen"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Salz
+  - Salze
+  - Anion
+  - Kation
+  - Anionen
+  - Kationen
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 22nd August 2022
 ---
 
@@ -65,7 +74,7 @@ komplexes Anion an 2. Stelle mit Endung -at (kommt bei mehrfachem Vorkommen in K
 Komplexes Kation: $NH_{4}^{+}$ Ammoniumion "+ Geladen"  
 $\rightarrow$ z.B.: $(NH_{4})_{2}SO_{4}$: Ammoniumsulfat
 
-### Mehrfachvorkommende Atome oder Komplexionen
+### Mehrfachvorkommende Atome Oder Komplexionen
 
 **mono, di, tri, tetra, penta, hexa, octa, nona, deca …**
 
@@ -74,7 +83,7 @@ $\rightarrow$ z.B.: $(NH_{4})_{2}SO_{4}$: Ammoniumsulfat
 | $KH_{2}PO_{4}$          | Kaliumdihydrogenphosphat |
 | $CuSO_{4}\cdot 5H_{2}O$ | Kupfersulfat-pentahydra  |
 
-## Eigenschaften von Salzen
+## Eigenschaften Von Salzen
 
 Aus der starken Anziehungskraft zwischen Anionen und Kationen resultiert eine Gitterstruktur
 - sind bei Raumtemperatur **fest**

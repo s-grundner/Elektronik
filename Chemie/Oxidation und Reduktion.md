@@ -1,12 +1,24 @@
 ---
-tags: []
-aliases: ["Oxidation", "Reduktion", "endotherm", "exotherm", "Exotherm", "Endotherm", "Redoxreaktion", "Redoxpaare", "Redoxpaar"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Oxidation
+  - Reduktion
+  - endotherm
+  - exotherm
+  - Exotherm
+  - Endotherm
+  - Redoxreaktion
+  - Redoxpaare
+  - Redoxpaar
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 19th August 2022
 ---
 
-# Oxidation und Reduktion
+# Oxidation Und Reduktion
 
 Oxidation: 
 - Ursprüngliche Aufnahme von Sauerstoff
@@ -28,7 +40,7 @@ Oder unter Einsatz von Reduktionsmitteln (z.B. $C$):
 $MgO + C \longrightarrow Mg + CO_{2}$  
 $Fe_{2}O_{3} + 3C \longrightarrow 2Fe + 3CO$
 
-## Was passiert genau?
+## Was Passiert Genau?
 
 $2Mg+O_{2}\longrightarrow2MgO$
 
@@ -87,7 +99,7 @@ Cu^{2+}Cl^{-} &\rightarrow CuCl_{2}\\
 \end{dcases}
 $$
 
-## Regeln zur Bestimmung von Oxidationszahlen
+## Regeln Zur Bestimmung Von Oxidationszahlen
 
 1. Elemente = 0
 2. Summe der Oxidationszahl einer Verbindung = 0
@@ -104,7 +116,7 @@ $$
  > > [!success] Lösungen  
  > > ![300](assets/LSG-oxzahlen.png)
 
-## Anwendung von Oxidationszahlen
+## Anwendung Von Oxidationszahlen
 
 1. Benennen von Verbindungen
 

@@ -1,8 +1,16 @@
 ---
-tags: []
-aliases: ["Sekundärelemente", "Akkus", "Akku", "Akkumulator", "Akkumulatoren"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Sekundärelemente
+  - Akkus
+  - Akku
+  - Akkumulator
+  - Akkumulatoren
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 21st August 2022
 ---
 

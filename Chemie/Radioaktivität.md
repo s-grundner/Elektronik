@@ -1,14 +1,21 @@
 ---
-tags: []
-aliases: ["Positronen", "Strahlung", "Neutrino", "Antineutrino"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Positronen
+  - Strahlung
+  - Neutrino
+  - Antineutrino
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 20th August 2022
 ---
 
 # Radioaktivität
 
-## Arten der Strahlung / Zerfallsarten
+## Arten Der Strahlung / Zerfallsarten
 
 |                                | $\alpha$                                                              | $\beta^{-}$                                                                                                        | $\beta^{+}$                                                                                                     | $\gamma$                                                                                                        |
 | ------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -51,7 +58,7 @@ $\lambda = \dfrac {\ln 2}{T_{1/2}} \approx \dfrac {0{,}693}{T_{1/2}}$
 
 ![hwz.png](hwz.png)
 
-### C-14 Methode der Altersbestimmung
+### C-14 Methode Der Altersbestimmung
 
 In der obersten Atmosphärenschicht trifft **kosmische Strahlung** auf die Erde, wodurch aus einem Stickstoffkern und einem Neutron das radioaktive **Kohlenstoffisotop** $^{14}C$ entsteht.  
 Dieses hat eine Halbwertszeit von **5730** Jahren.

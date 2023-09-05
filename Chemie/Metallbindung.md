@@ -1,8 +1,12 @@
 ---
-tags: []
-aliases: ["Metall"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Metall
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 23rd August 2022
 ---
 

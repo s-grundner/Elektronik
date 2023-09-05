@@ -1,23 +1,29 @@
 ---
-tags: []
-aliases: ["PSE", "PSdE", "Periodensystem"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - PSE
+  - PSdE
+  - Periodensystem
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 20th August 2022
 ---
 
-# Periodensystem der Elemente (PSE)
+# Periodensystem Der Elemente (PSE)
 
 Das PSE ist eine Tabelle, in der die Symbole aller bekannten Elemente nach der Anzahl der Protonen geordnet sind.  
 ![PSE](assets/PSE.png)
 
-## Ordnungsprinzipien des PSE
+## Ordnungsprinzipien Des PSE
 
 ### 1. Ordnungszahl (OZ):
 
 Protonenzahl (Kernladungszahl)
 
-### 2. Perioden: **Zeilen** im PSE
+### 2. Perioden: **Zeilen** Im PSE
 
 - Elemente einer Periode weisen die gleiche Zahl von $e^{-}$ [Schalen](Orbitalmodell.md) auf.
 - Entsprechend den 7 [Schalen](Orbitalmodell.md) (K-Q), gibt es 7 Perioden.
@@ -87,7 +93,7 @@ Aus dem Atombau lassen sich einige Eigenschaften der Elemente ableiten.
 	z.B.: Diamant (Kristallin)  
 	Graphit (schichtweiser Aufbau)
 
-# Tendenzen im PSE
+# Tendenzen Im PSE
 
 ## Atomradius
 

@@ -1,8 +1,15 @@
 ---
-tags: []
-aliases: ["Außenelektronen", "Valenzen", "Valenzelektron", "Außenelektron"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Außenelektronen
+  - Valenzen
+  - Valenzelektron
+  - Außenelektron
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 20th August 2022
 ---
 
@@ -25,7 +32,7 @@ Atome mit **Vollständig** (8) besetzten [Schalen](Orbitalmodell.md) sind **Reak
 Alle anderen sind *mehr* oder *weniger* reaktiv.
 Wie zu sehen entspricht die Anzahl der Valenzelektronen einer Hauptgruppe im [PSE](Periodensystem%20der%20Elemente.md).
 
-## Schreibweise für Außenelektronen
+## Schreibweise Für Außenelektronen
 >![450](assets/psee-schreibw.png)
 
 ---

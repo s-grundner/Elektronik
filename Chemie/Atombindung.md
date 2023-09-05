@@ -1,8 +1,14 @@
 ---
-tags: [incomplete]
-aliases: ["Molekül", "Moleküle"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - incomplete
+  - Chemie/Anorganisch
+aliases:
+  - Molekül
+  - Moleküle
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 23rd August 2022
 ---
 
@@ -29,7 +35,7 @@ created: 23rd August 2022
 
 Durch Überlappung einfach besetzter Orbitale benachbarter Atome, entstehen Elektronenpaare mit entgegengesetztem Spin.
 
-## Nicht bindende Elektronenpaare
+## Nicht Bindende Elektronenpaare
 
 Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 
@@ -51,7 +57,7 @@ Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektron
 > Verzerrter Tetraeder ($NH_{3}$)  
 > gewinkeltes Molekül ($H_{2}O$)
 
-# Doppel und Dreifachbindungen
+# Doppel Und Dreifachbindungen
 
 ![Pasted image 20220901200104.png](assets/Pasted%20image%2020220901200104.png)
 

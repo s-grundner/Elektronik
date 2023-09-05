@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: ["Molares Volumen", "Gasvolumen"]
-subject: ["physik"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Molares Volumen
+  - Gasvolumen
+subject:
+  - physik
+source:
+  - Fritz Struber
 created: 10th September 2022
 ---
 

@@ -1,8 +1,16 @@
 ---
-tags: []
-aliases: ["Unterschale", "Unterschalen", "Hauptquantenzahl", "Schale", "Schalen"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Unterschale
+  - Unterschalen
+  - Hauptquantenzahl
+  - Schale
+  - Schalen
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 19th August 2022
 ---
 
@@ -59,12 +67,12 @@ Es gibt 7 Stk.
 | n = 3            | 3 (s, p, d)    | 3s, 3p, 3d                   | $1\cdot3s,3\cdot3p, 5\cdot3d=9$          |
 | n = 4            | 4 (s, p, d, f) | 4s, 4p, 4d, 4f               | $1\cdot4s,3\cdot4p,5\cdot4d,7\cdot4f=16$ | 
 
-## Energieniveauschema zur Orbitalbesetzung
+## Energieniveauschema Zur Orbitalbesetzung
 
 ![650](Pasted%20image%2020220826201819.png)  
 ![Pasted image 20220904112819.png](Pasted%20image%2020220904112819.png)
 
-## Schreibweise der Elektronen Konfiguration
+## Schreibweise Der Elektronen Konfiguration
 
 Bsp.:  
 ![Ne](assets/Ne.png)  
@@ -74,7 +82,7 @@ Anzahl der $e^{-}$
 Hauptquantenzahl  
 Orbitaltyp 
 
-## Regel für die Besetzung der Orbitalen mit Elektronen 
+## Regel Für Die Besetzung Der Orbitalen Mit Elektronen
 
 1. Maximale Anzahl $e^-$ für die Hauptquantenzahl $2n^{2}$
 2. Zustände **niederer Energie** werden **zuerst besetzt**.

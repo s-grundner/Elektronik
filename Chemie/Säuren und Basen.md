@@ -1,12 +1,20 @@
 ---
-tags: []
-aliases: ["Sauer", "Säure", "Base", "Säuren", "Basen"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Chemie/Anorganisch
+aliases:
+  - Sauer
+  - Säure
+  - Base
+  - Säuren
+  - Basen
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 25th August 2022
 ---
 
-# Säuren und Basen
+# Säuren Und Basen
 
 Typische Säuren 
 - $H$$Cl$ Salzsäure
@@ -53,7 +61,7 @@ Schwache Säuren sind mit Wasser unvollständig dissoziiert.
 Dissoziationsgrad $\alpha = \dfrac{\text{Konz. der dissoziierten Moleküle}}{\text{Gesamte Konz. der Säure}}=\dfrac{C(A^{-})}{C(HA)}$  
 $H\cdot A\leftrightarrows H^{+}+A^{-}$
 
-### Reaktion von Oxiden mit $H_{2}O$
+### Reaktion Von Oxiden Mit $H_{2}O$
 
 Nichtmetall-Oxide + $H_{2}O$ ergeben Säuren  
 $CO_{2}+H_{2}O\longrightarrow \underbrace{H_{2}CO_{3}}_{\text{Kohlensäure}}\longrightarrow 2H^{+}_{(aq.)}+CO_{3(aq.)}^{2-}$  
@@ -75,7 +83,7 @@ $\rightarrow$ Protonen Akzeptoren ($H^{+}$-Empfänger)
 Chemische Reaktion, bei der ein Proton ($H^{+}$) zwischen zwei Reaktionspartnern übertragen wird.  
 z.B. Reaktion einer Säure mit einer Base
 
-#### Einleiten von $HCl$-Gas in $H_{2}O$ (Säure + Wasser)
+#### Einleiten Von $HCl$-Gas in $H_{2}O$ (Säure + Wasser)
 
 $\underbrace{HCl}_{\text{Säure}}+\underbrace{H_{2}O}_{\text{wirkt als Base}}\leftrightarrows \underbrace{H_{3}O^{+}}_{\text{Oxonium-Ion}}+\underbrace{Cl^{-}}_{\text{Chlorid-Ion}}$
 
@@ -84,7 +92,7 @@ $\underbrace{HA}_{\text{Säure}}+H_{2}O\leftrightarrows \underbrace{H_{3}O^{+}}_
 
 Wasser wirkt als Protonenakzeptor, also als Base 
 
-#### Einleiten von $NH_{3}$ in $H_{2}O$ (Base + Wasser)
+#### Einleiten Von $NH_{3}$ in $H_{2}O$ (Base + Wasser)
 
 $\underbrace{NH_{3}}_{\text{wirkt als Base}}+\underbrace{H_{2}O}_{\text{wirkt als Säure}}\leftrightarrows \underbrace{NH_{4}^{+}}_{\text{Ammonium-Ion}}+\underbrace{OH^{-}}_{\text{Hydroxid-Ion}}$
 
