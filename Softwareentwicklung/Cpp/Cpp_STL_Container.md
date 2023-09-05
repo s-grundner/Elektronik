@@ -1,6 +1,6 @@
 ---
 tags:
-  - cpp/STL
+  - Cpp/STL
 aliases: []
 created: 5. September 2023
 ---

@@ -1,6 +1,6 @@
 ---
 tags:
-  - cpp/STL
+  - Cpp/STL
 aliases:
   - STL
   - Standard Template Library

@@ -1,5 +1,5 @@
 ---
-tags: ["cpp"]
+tags: ["Cpp"]
 aliases: []
 created: 29. November 2022
 ---

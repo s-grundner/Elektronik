@@ -1,7 +1,7 @@
 ---
 tags:
   - Java
-  - oop
+  - OOP
 aliases: []
 created: 29th November 2022
 ---

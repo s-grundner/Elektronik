@@ -1,6 +1,6 @@
 ---
 tags:
-  - npm
+  - NPM
   - Javascript
 aliases: []
 created: 29. November 2022

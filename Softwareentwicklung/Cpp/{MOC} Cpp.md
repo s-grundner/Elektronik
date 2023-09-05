@@ -1,7 +1,7 @@
 
 ---
 tags:
-  - cpp
+  - Cpp
   - MOC  
 aliases:
   - c++  

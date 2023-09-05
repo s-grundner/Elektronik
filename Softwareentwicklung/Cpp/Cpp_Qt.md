@@ -1,6 +1,6 @@
 ---
 tags:
-  - cpp
+  - Cpp
   - QT
 aliases: []
 created: 29. November 2022
@@ -8,7 +8,7 @@ created: 29. November 2022
 
 # QT <Cute>
 
-QT ist ein Framework für die Entwicklung von C++ Programmen. Es bietet eine Vielzahl an hilfreichen Bibliotheken und einen GUI-Builder QT-Creator der für viele [Betriebssysteme](../Operating%20Systems/Operating%20Systems.md) optimiert ist.
+QT ist ein Framework für die Entwicklung von C++ Programmen. Es bietet eine Vielzahl an hilfreichen Bibliotheken und einen GUI-Builder QT-Creator der für viele [Betriebssysteme](../Betriebssysteme/{MOC}%20Operating%20Systems.md) optimiert ist.
 
 ## Signals/Sots (056)
 

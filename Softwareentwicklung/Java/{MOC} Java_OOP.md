@@ -2,7 +2,7 @@
 tags:
   - MOC
   - Java
-  - oop
+  - OOP
 aliases:
   - Java_OOP
 subject:

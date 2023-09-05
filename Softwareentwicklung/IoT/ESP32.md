@@ -77,7 +77,7 @@ Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter
 
 - als Editor wird VSCode verwendet
 - für die Toolkette wird Python benötigt
-- für die Entwicklung von µController-Software gibt's die Extension [PlatformIO](../PlatformIO.md)
+- für die Entwicklung von µController-Software gibt's die Extension [PlatformIO](../../Digitaltechnik/PlatformIO.md)
 
 (Beschreibung: <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)>
 
@@ -85,7 +85,7 @@ Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter
 
 In VSCode kann ein Projekt gestartet werden:
 
-- VSCode -> [Platformio](../PlatformIO.md) -> Home-Open -> New Project
+- VSCode -> [Platformio](../../Digitaltechnik/PlatformIO.md) -> Home-Open -> New Project
 - Auswahl Board: **ESP32 Pico Kit (Espressif)**.
 - Framework: Arduino
 
@@ -99,7 +99,7 @@ framework = arduino
 monitor_speed= 115200       ; Communication via Serial-Monitor
 ```
 
-Zum Hinzufügen zusätzlicher Libraries zum Projekt, können diese direkt in der Konfiguration `platfromio.ini` angegeben oder mittels [PlatformIO](../PlatformIO.md) eingefügt werden (VSCode -> Platfomio -> Libraries ->…).
+Zum Hinzufügen zusätzlicher Libraries zum Projekt, können diese direkt in der Konfiguration `platfromio.ini` angegeben oder mittels [PlatformIO](../../Digitaltechnik/PlatformIO.md) eingefügt werden (VSCode -> Platfomio -> Libraries ->…).
 
 PlatformIO speichert Bibliotheken und Konfigurationen üblicherweise unter `C:\Users\xxxxxxxx\.platformio` (Windows).
 

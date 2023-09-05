@@ -40,7 +40,7 @@ Mit *CI* lassen sich in *GitLab* automatische Abläufe (Pipelines) generieren. B
   - der Name (*stage: build*) und 
   - das Skript, das ausgeführt werden soll (script: …)
   
-  Allgemein: jeder Stage läuft in einem *[Docker](../../Docker.md)-Image* (Vorstellbar wie eine virtuelle Maschine). Wird es nicht anders angegeben, dann wählt GitLab das verwendete Image - aktuell Standard: Ruby-image
+  Allgemein: jeder Stage läuft in einem *[Docker](../../Datenbanken/Docker.md)-Image* (Vorstellbar wie eine virtuelle Maschine). Wird es nicht anders angegeben, dann wählt GitLab das verwendete Image - aktuell Standard: Ruby-image
   
   **Ruby:** ist eine Skriptsprache (wird zur Laufzeit interpretiert)
   
@@ -90,7 +90,7 @@ Hier wird der gesamte im Stage erzeugte Ordner als Artefakt definiert (kann auch
 
 ## Images
 
-In GitLab sind verschiedene [Docker](../../Docker.md)-Images verfügbar. (Wird das Git-Repo lokal verwaltet, dann kann eine selbst definierte Umgebung geschaffen werden.)
+In GitLab sind verschiedene [Docker](../../Datenbanken/Docker.md)-Images verfügbar. (Wird das Git-Repo lokal verwaltet, dann kann eine selbst definierte Umgebung geschaffen werden.)
 
 ### gcc
 
@@ -186,7 +186,7 @@ deploy:
 
 
 
-Sinn der Sache: es kann sichergestellt werden, dass ein Projekt unter Umständen generiert wird, die für sämtliche Entwickler ident ist. Gerade durch die Verwendung unterschiedlicher [Betriebssysteme](../../Operating%20Systems/Operating%20Systems.md) / Entwicklungsumgebungen können gefundene Teillösungen für machen Entwickler funktionieren, für andere eventuell nicht (kann von einem Entwickler alleine nicht sichergestellt werden). Mit einer zentralen Gesamtprojekt-Überwachung kann dem entgegengewirkt werden. Eine Forderung der agilen Software-Entwicklung: Das Gesamt-Projekt muss immer lauffähig sein wird damit unterstützt.
+Sinn der Sache: es kann sichergestellt werden, dass ein Projekt unter Umständen generiert wird, die für sämtliche Entwickler ident ist. Gerade durch die Verwendung unterschiedlicher [Betriebssysteme](../../Betriebssysteme/{MOC}%20Operating%20Systems.md) / Entwicklungsumgebungen können gefundene Teillösungen für machen Entwickler funktionieren, für andere eventuell nicht (kann von einem Entwickler alleine nicht sichergestellt werden). Mit einer zentralen Gesamtprojekt-Überwachung kann dem entgegengewirkt werden. Eine Forderung der agilen Software-Entwicklung: Das Gesamt-Projekt muss immer lauffähig sein wird damit unterstützt.
 
 ## Referenz
 

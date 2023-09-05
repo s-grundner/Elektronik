@@ -78,7 +78,7 @@ sudo apt-get install mysql
 
 ## SQL Server (Microsoft)
 
-Ein von Microsoft vertriebenes Unternehmensdatenbanksystem. SQL Server zeichnet sich durch die enge Verbindung zu Microsofts [Betriebssystem](../Operating%20Systems/Operating%20Systems.md) Windows und Microsofts Entwicklungsumgebungen wie Visual Basic und Visual C++ aus. SQL Server beinhaltet Datenanalyse (OLAP) und Datenbankverwaltungswerkzeuge. Es erlaubt die Verwendung von bis zu 64GB RAM und bis zu 32 parallelen Prozessoren.
+Ein von Microsoft vertriebenes Unternehmensdatenbanksystem. SQL Server zeichnet sich durch die enge Verbindung zu Microsofts [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) Windows und Microsofts Entwicklungsumgebungen wie Visual Basic und Visual C++ aus. SQL Server beinhaltet Datenanalyse (OLAP) und Datenbankverwaltungswerkzeuge. Es erlaubt die Verwendung von bis zu 64GB RAM und bis zu 32 parallelen Prozessoren.
 
 **Einsatzbereich:**  
 Große Unternehmensdatenbanken.

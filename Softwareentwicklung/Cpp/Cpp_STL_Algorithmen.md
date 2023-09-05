@@ -1,6 +1,6 @@
 ---
 tags:
-  - cpp/STL
+  - Cpp/STL
   - Algorithmus
 aliases: []
 created: 5. September 2023
