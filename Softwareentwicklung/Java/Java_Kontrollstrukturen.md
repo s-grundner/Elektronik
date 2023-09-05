@@ -4,23 +4,27 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 5 Kontrollstrukturen
+# Java Kontrollstrukturen
 
-## Ausdruck/Anweisung/Sequenz/Block
+## Ausdruck
 
-**Ausdruck:** Berechnung die ein Ergebnis liefert/Nur wenn eine Rechnung ein Ergebnis liefert ist es ein Ausdruck.
+Berechnung die ein Ergebnis liefert/Nur wenn eine Rechnung ein Ergebnis liefert ist es ein Ausdruck.
 
 ```java
 2+3					// liefert das Ergebnis 5 - ist also ein Ausdruck
 ```
 
-**Anweisung:** einzelne Vorschrift die im Rahmen der Ausführung auszuführen ist. Eine Anweisung wird durch einen Strichpunkt (=Semikolon) abgeschlossen.
+## Anweisung
+
+einzelne Vorschrift die im Rahmen der Ausführung auszuführen ist. Eine Anweisung wird durch einen Strichpunkt (=Semikolon) abgeschlossen.
 
 ```java
 Anweisung1;
 ```
 
-**Sequenz:** mehrere Anweisungen hintereinander.
+## Sequenz
+
+mehrere Anweisungen hintereinander.
 
 ```java
 ...
@@ -30,7 +34,9 @@ Anweisung3;
 ...
 ```
 
-**Block:** Anweisungen/Sequenzen können zu einen Block zusammengefasst werden. In Java geschieht das durch geschwungene Klammern. Zur besseren Erkennbarkeit wird der Inhalt eines Blocks um einen Tabulator eingerückt.
+## Block
+
+Anweisungen/Sequenzen können zu einen Block zusammengefasst werden. In Java geschieht das durch geschwungene Klammern. Zur besseren Erkennbarkeit wird der Inhalt eines Blocks um einen Tabulator eingerückt.
 
 ```java
 {
@@ -66,16 +72,14 @@ else
 
 Zur Erinnerung: Anweisungen können durch Blöcke ersetzt werden.
 
-Beispiel:
-
+> [!EXAMPLE] Beispiel
 ```java
 if (monat == 2)
   System.out.println("Februar");
 ...
 ```
 
-Beispiel:
-
+> [!EXAMPLE] Beispiel
 ```java
 if (monat > 11)
   System.out.println("Dezember");
@@ -110,8 +114,7 @@ Der *default*-Fall ist optional, das bedeutet er darf entfallen.
 
 > Achtung: wird kein *break* gesetzt, dann werden die folgenden Fälle mit ausgeführt bis zur nächsten *break* Anweisung oder bis die Verzweigung zu Ende ist.
 
-Beispiel:
-
+> [!EXAMPLE] Beispiel
 ```java
 switch (num) {
   case 10: System.out.println("Zehn");

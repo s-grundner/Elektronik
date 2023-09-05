@@ -1,10 +1,10 @@
 ---
-tags: ["Java"]
+tags: ["Java", "Java/strings"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 6 Zeichenketten / Strings / Stringbuffer
+# Zeichenketten / Strings / Stringbuffer
 
 Strings sind Zeichenketten (Aneinanderreihung von Zeichen). Definieren von Stringvariablen:
 
@@ -40,8 +40,7 @@ static String valueOf(long l)
 static String valueOf(Object obj)
 ```
 
-Beispiel:
-
+> [!EXAMPLE] Beispiel
 ```java
 int x = 17;
 double pi = 3.14;

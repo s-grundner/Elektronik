@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 5 Kontrollstrukturen - Übungen
+# Java Kontrollstrukturen - Übungen
 
 ## Sterne
 
