@@ -4,7 +4,7 @@
   "translucency": true,
   "textFontFamily": "Bahnschrift,Century Gothic,Fira Code,Monocraft",
   "monospaceFontFamily": "Fira Code,Monocraft",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "【callout】Custom page preview",

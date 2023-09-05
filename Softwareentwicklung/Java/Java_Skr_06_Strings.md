@@ -58,7 +58,7 @@ iZahl = Integer.parseInt(ziffern);
 dblZahl = Double.parseDouble(dblString);
 ```
 
-## Häufig verwendete Methoden
+## Häufig Verwendete Methoden
 
 ```java
 String a = "abc" + "def";		// Verkettung (aneinanderhängen) von zwei Strings mit +

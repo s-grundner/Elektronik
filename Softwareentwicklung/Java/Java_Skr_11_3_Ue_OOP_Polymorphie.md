@@ -4,10 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Java_Skr_11_3_Ue_OOP_Polymorphie
-
-11.3 OOP - Polymorphie - Übungen
-===================
+# 11.3 OOP - Polymorphie - Übungen
 
 ## Polymorph / Nicht Polymorph (019)
 

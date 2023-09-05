@@ -198,7 +198,7 @@ for (int element : arr) {
 
 Das Schlüsselwort ist ebenfalls *for* (in anderen Programmiersprachen gibt's oft zur Unterscheidung ein *foreach*). Es folgt ein Parameter der vom gleichem Typ wie ein Element des Arrays sein muss und ein Name um den Wert verarbeiten zu können. In jedem Schleifendurchlauf wird mit der Variable *element* ein Element des Arrays *arr* zur Verfügung gestellt. Die Schreibweise ist ein wenig kürzer, der Nachteil dieser Abkürzung ist jedoch, dass kein Zähler zur Verfügung steht.
 
-## Methoden / Eigenschaften von Arrays
+## Methoden / Eigenschaften Von Arrays
 
 `arr.length`				gibt die Anzahl der Elemente im Array arr zurück
 
