@@ -1,12 +1,12 @@
 ---
-tags: ["Algorithmus"]
+tags: []
 aliases: []
 created: 29th November 2022
 ---
 
-# 4 Backtracking - Übungen
+# Backtracking - Übungen
 
-## Labyrinth Erzeugung + grafische Darstellung in Windows ([C++](../Cpp/{MOC}%20Cpp.md)350, C2104)
+## Labyrinth Erzeugung + Grafische Darstellung in Windows ([C++](../Cpp/{MOC}%20Cpp.md)350, C2104)
 
 Stellen Sie das Labyrinth grafisch dar (es werden Wege und nicht Wände gezeichnet):
 
@@ -75,7 +75,7 @@ if (m_area[r][c] & 0x10)
 wcout << walls[m_area[r][c] & 0xF];             // Mask only lower 4 Bit-Positions
 ```
 
-## Visualisierung Labyrinth mit Backtracking (Java 011)
+## Visualisierung Labyrinth Mit Backtracking (Java 011)
 
 Der Weg durch ein Labyrinth soll gefunden werden. Gestartet wird in der linken oberen Ecke, das Ziel ist die rechte untere Ecke. Das Vorgehen:
 
@@ -88,7 +88,7 @@ Der Weg durch ein Labyrinth soll gefunden werden. Gestartet wird in der linken o
 
 Bringen Sie das Java-Programm *GrfLabyrinth.java* zum Laufen.
 
-## Visualisierung Labyrinth mit Backtracking
+## Visualisierung Labyrinth Mit Backtracking
 
 Bringen Sie das Java-Programm *VisualLabyrinth.html* zum Laufen. Dazu muss die Suche des Wegs im Java-Skript-Code *worker_labyrinth.js* implementiert werden.
 
@@ -211,7 +211,7 @@ void printBoard(int board[DIM][DIM]) {
 }
 ```
 
-## Visuelle Darstellung des 8-Damen-Problems
+## Visuelle Darstellung Des 8-Damen-Problems
 
 Erweitern Sie den js-Code des 8-Damen-Problems so, dass die HTML-Datei Backtracking8Damen.html funktioniert (worker_ndamen.js).
 
@@ -273,6 +273,6 @@ Lösung:
 
 3….
 
-## Visualisierung Springer mit Backtracking (JS008)
+## Visualisierung Springer Mit Backtracking (JS008)
 
 Bringen Sie das Java-Programm *Springerproblem.html* zum Laufen. Dazu muss die Suche des Wegs im Java-Skript-Code *worker_springer.js* implementiert werden.

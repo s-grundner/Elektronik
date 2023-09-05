@@ -1,12 +1,12 @@
 ---
-tags: ["Algorithmus"]
+tags: []
 aliases: []
 created: 29th November 2022
 ---
 
 # 5.2 [C++](../Cpp/{MOC}%20Cpp.md)/STL-Listen
 
-## array
+## Array
 
 array ist eine Hüllklasse (Wrapper) welche die C-Arrays verwendet und mit sinnvollen Methoden erweitert (begin, end, size …). Diese Erweiterungen werden in den abgeleiteten Klassen (im Folgenden) verwendet.
 
@@ -30,11 +30,11 @@ cout << get<2>(tabelle) << endl;
 
 (eine `auto` Definition bewirkt, dass automatisch der Datentyp des Initialwertes angenommen wird.)
 
-## vector
+## Vector
 
 Siehe [C++](../Cpp/{MOC}%20Cpp.md) Dokumentation. In der STL ist vector durch Arrays implementiert.
 
-## list
+## List
 
 Der Datentyp *list* aus der STL ist eine doppelt-verkettete Liste. Sie erlaubt damit das Einfügen und Entnehmen von Elementen an jeder Stelle mit konstanter Zeit.
 
@@ -54,7 +54,7 @@ showSequence(L1); // 0 1 2 3 4 5 6 7 8 9
 showSequence(L2); // (leere Liste)
 ```
 
-## deque
+## Deque
 
 Abkürzung für *double ended [queue](../FIFO.md)*. Dieser Typ implementiert eine List an deren beiden Enden Elemente entnommen oder hinzugefügt werden können.
 
@@ -96,7 +96,7 @@ return 0;
 
 Der große Unterschied zum vector-Typ ist, dass hier an beiden Enden effizient gelöscht/gelesen werden kann.
 
-## stack
+## Stack
 
 Dieser Kontainer erlaubt Ablage und Entnahme nur von einer Seite aus (FILO, LIFO). Ein Stack verwendet in der Implementierung vector, list oder deque-Typen.
 
@@ -148,7 +148,7 @@ while(!eineQueue.empty()) {
 cout << endl;
 ```
 
-## map
+## Map
 
 Ein map speichert Paare von (Schlüsseln, zugehörige Daten). Der Schlüssel muss eindeutig sein (nie doppelt). Ein map ist ein assoziativer Kontainer (Hash-Map) - die Daten werden durch Berechnung aus dem Schlüssel gefunden.
 

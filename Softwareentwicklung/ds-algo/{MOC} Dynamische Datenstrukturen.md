@@ -1,91 +1,22 @@
 ---
-tags: ["Algorithmus"]
-aliases: []
-created: 29th November 2022
+tags:
+  - MOC
+aliases:
+  - Dynamische Datenstrukturen
+  - Data-Structures
+subject:
+  - ""
+inst:
+  - HTBLuVA Salzburg
+created: 29. November 2022
 ---
 
-# 5 Dynamische Datenstrukturen
+# Map of Content - Dynamische Datenstrukturen
 
-## Listen
-
-Das Sammeln von mehreren Objekten kann mittels Arrays erfolgen. Der große Nachteil von Arrays ist, dass ihre Größe während der gesamten Programmlaufzeit immer gleich bleibt. Einerseits kann das Array groß genug gemacht werden. Wenn nicht sämtliche Plätze verwendet werden, bedeutet das automatisch eine Speicherplatzverschwendung. Wird die Größe eines Arrays eher knapp bemessen, kann es vorkommen, dass der Platz während der Laufzeit zu knapp wird.
-
-Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten Liste beinhaltet:
-
-- das zu speichernde Datum (wie in einem Array auch) und zusätzlich
-- einen Zeiger auf ein folgendes Element.
-
-Die Elemente so einer Liste werden als **Knoten** bezeichnet. Für das Speichern von drei einfachen Nummern sieht das so aus:
-
-![EinfList02](assets/EinfList02.png)
-
-Der Vorteil von einer solchen Liste ist ersichtlich: sie kann beliebig erweitert werden, dazu muss ein neues Element erzeugt werden und entweder an einer beliebigen Stelle oder am Ende eingefügt werden.
-
-Da diese Art der Liste nur in eine Richtung durchgangen werden kann, wird sie als **einfach** verkettete Liste bezeichnet. Alternativ gibt es die **doppelt** verketteten Listen. Sie haben zusätzlich in jedem Knoten einen Zeiger der auf den vorhergehenden Knoten zeigt. Hier wiederum ein einfaches Beispiel dieses Typs:
-
-![EinfList03](assets/EinfList03.png)
-
-Diese Liste kann in beide Richtungen durchgangen werden. Sie haben allerdings einen höheren Speicherbedarf.
-
-**Listen-Knoten in C**
-
-Für die obige einfach verkettete Liste kann ein Knoten in C die folgende Struktur haben:
-
-```c
-struct SNODE {
-    int num;             // zu Speichernde Nummer
-    struct SNODE *next;  // Zeiger auf genau so ein Knoten-Element
-                         // (FolgeKnoten)
-};
-typedef struct SNODE TNODE;
+```dataview
+LIST
+FROM #DS 
 ```
-
-Für die doppelt verkettete Liste entsprechend:
-
-```c
-struct SNODE {
-    struct SNODE *prev; // Zeiger auf ein Knoten-Element (VorgaengerKnoten)
-    int num;            // zu Speichernde Nummer
-    struct SNODE *next; // Zeiger auf ein Knoten-Element (FolgeKnoten)
-};
-typedef struct SNODE TNODE;
-```
-
-Der Zeiger des letzten Knotens in **Zyklischen** Listen zeigt auf das erste Element der Liste.
-
-### Listenkopf
-
-Anstatt sich das erste Listenelement zu merken, wird häufig ein **Listenkopf** vorangestellt. Dieser beinhaltet zumindest einen Zeiger auf das erste Listenelement. Zusätzlich wird oft noch die Anzahl der Knoten in der Liste (Anzahl der Elemente) und/oder ein Zeiger auf das letzte Element angefügt.
-
-![EinfList07](assets/EinfList07.png)
-
-### Vorteile von Listen
-
-1. Einfaches Einfügen von Knoten am Beginn/Ende in der Mitte der Liste. Hier wird das Element 25 zwischen 99 und 37 eingefügt:
-
-![EinfList04](assets/EinfList04.png)
-
-1. Einfaches Löschen von Knoten am Beginn/Ende in der Mitte der Liste. Der Zeiger des vorhergehenden Knotens wird angepasst, dann wird (ein Zeiger auf) das Element freigegeben (free):
-
-![EinfList05](assets/EinfList05.png)
-
-1. Einfaches Verschieben von Knoten innerhalb der Liste. Dazu müssen lediglich die Zeiger verändert werden:
-
-![EinfList06](assets/EinfList06.png)
-
-Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil viele Elemente umkopiert werden. Hier werden lediglich einzelne, wenige Pointer angepasst.
-
-### Traversieren
-
-Mit Traversieren ist das Durchlaufen von Listen oder ähnlichen Strukturen gemeint. Wie erfolgt das:
-
-- Begonnen wird das indem ein temporärer Zeiger `ptr` auf das erste Element gelegt wird - also dorthin wo `first` vom Listenkopf zeigt:  
-![EinfList08](assets/EinfList08.png)
-- Um auf das nächste Element zugreifen zu können, muss der Hilfs-Zeiger `ptr` auf das Element verschoben werden, welches durch das aktuelle Element mittels `next` erreicht werden kann:  
-![EinfList09](assets/EinfList09.png)
-- Dieser Vorgang kann solange wiederholt werden, bis die Anzahl der Elemente `hdr.size` durchlaufen wurde, bis `ptr` auf `NULL` verschoben wird oder bis `ptr` auf `hdr.last` verschoben wird.
-
-In einer doppelt verketteten Liste kann entsprechend auch in die entgegengesetzte Richtung verschoben werden.
 
 ## Bäume
 
@@ -116,7 +47,7 @@ typedef struct SNODE {
 } TNODE;
 ```
 
-### Traversieren in binären Bäumen
+### Traversieren in Binären Bäumen
 
 Häufig ist es gewünscht durch einen Baum hindurch sämtliche Elemente genau einmal aufzusuchen, etwa bei der Ausgabe oder der Suche. Man nennt das das **Traversieren** in einem Baum. Es gibt grundsätzlich die Bewegungsmöglichkeiten:
 
@@ -161,7 +92,7 @@ Häufig ist es gewünscht durch einen Baum hindurch sämtliche Elemente genau ei
   // 12 3 2 17 14 19 18 21
   ```
 
-### Suche in binären Suchbäumen
+### Suche in Binären Suchbäumen
 
 In diesen Bäumen sind Elemente kleiner dem Knotenelement immer Links, die Suche ist daher mit wenig Aufwand möglich:
 
@@ -178,7 +109,7 @@ TNODE *search(int num, TNODE *root) {
 }
 ```
 
-### Einfügen in binären Suchbäumen
+### Einfügen in Binären Suchbäumen
 
 Das Einfügen erfolgt auf folgende Weise: im Baum wird solange verzweigt biss der Abzweig gefunden wird an der das Element zu finden sein müsste. Dort wird das Element eingefügt:
 
@@ -217,7 +148,7 @@ TNODE *insert (int num, TNODE **root) {
 
 Das macht das Arbeiten mit binären Bäumen so effizient, beim Einfügen muss nie ein Ersetzen/Verschieben erfolgen, jedes neue Element kann als Blatt sortiert eingefügt werden.
 
-### Löschen in binären Suchbäumen
+### Löschen in Binären Suchbäumen
 
 Für das Löschen eines Knotens in binären Suchbäumen müssen zwei Fälle unterschieden werden:
 
@@ -250,19 +181,10 @@ Um solche Anordnungen zu vermeiden, gibt es balancierte/ausgeglichene Bäume. Um
 
 (Medianwert ist jener Wert einer Zahlenzeihe zu dem es in der Zahlenreihe gleich viel größere als kleinere Werte gibt. Zum Beispiel: für die Zahlenreihe 1,2,1000 ist der Medianwert 2 - es gibt einen größeren und einen kleineren Wert)
 
-## Referenzen
+# Referenzen
 
 - Erklärung und Beispiele:  
   [https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf](https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf)
 - Schulungsmaterial Bäume  
   <https://www.u-helmich.de/inf/BlueJ/kurs121/folge17/folge17.html>
 
-## Fragen
-
-- Unterschied zwischen Array und dynamischer Liste
-- Einfach verkettete Liste <-> doppelt verkettete Liste
-- Wie kann ein Element aus einer Liste gelöscht werden?
-- Wie kann ein Element in eine Liste eingefügt werden?
-- Wie kann ein Element in einer Liste verschoben werden?
-- Welche Elemente beinhaltet ein Baum?
-- Was ist an einem binären Baum spezieller als bei einem *gewöhnlichen* Baum?

@@ -1,12 +1,12 @@
 ---
-tags: ["Algorithmus"]
+tags: []
 aliases: []
 created: 29th November 2022
 ---
 
 # 5 Dynamische Datenstrukturen - Übungen
 
-## Einfach verkettete Liste (c280)
+## Einfach Verkettete Liste (c280)
 
 Erstellen Sie eine einfach verkettete Liste ohne Listenkopf. Jedes Element der Liste kann eine Ganzzahl aufnehmen.
 
@@ -55,15 +55,15 @@ Die Knoten innerhalb der Liste können nur erreicht werden über Durchbewegen be
 - Erstellen Sie eine Funktion zum Verschieben eines Elements von einer gegebenen Stelle an eine gegebene Stelle `move(list, from, to)`
 - Erstellen Sie eine Funktion zum Sortieren der Liste `sort(list)`
 
-### Einfach verkettete Liste - Quersumme
+### Einfach Verkettete Liste - Quersumme
 
 Traversieren Sie durch die einfach verkettete List und ermitteln dabei die Summe sämtlicher Daten-Elemente.
 
-### Einfach verkettete Liste - Maximum
+### Einfach Verkettete Liste - Maximum
 
 Traversieren Sie durch die einfach verkettete List und ermitteln den maximalen Wert der Daten-Elemente.
 
-## Doppelt verkettete Liste (c283)
+## Doppelt Verkettete Liste (c283)
 
 Erstellen Sie eine doppelt verkettete Liste für int-Elemente. Die Header-Datei:
 
@@ -92,7 +92,7 @@ TNODE   *get(THEADER *lst, int pos);
 THEADER *swap(THEADER *lst, int pos1, int pos2);
 ```
 
-## Einfach verkettete Liste - MINISH (c281)
+## Einfach Verkettete Liste - MINISH (c281)
 
 - Bringen Sie das Programm **minish** zum Laufen.
 
@@ -310,7 +310,7 @@ static TNODE* get_NodeList(THEADER* aList, int number){
 }
 ```
 
-## Einfach verkettete Liste - STACK (c284 list, c288 array)
+## Einfach Verkettete Liste - STACK (c284 List, C288 array)
 
 - Erstellen Sie **stack.h/stack.c** unter Verwendung der einfach verketteten Liste. Der Stack soll int-Werte speichern.
 
@@ -318,7 +318,7 @@ static TNODE* get_NodeList(THEADER* aList, int number){
 
 - Erstellen Sie ein Testprogramm zum Testen Ihrer Funktionen.
 
-## Doppelt verkettete Liste - [QUEUE](../FIFO.md) (c289)
+## Doppelt Verkettete Liste - [QUEUE](../FIFO.md) (c289)
 
 - Erstellen Sie **queue.h/queue.c** unter Verwendung
 
