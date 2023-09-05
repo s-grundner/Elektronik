@@ -1,17 +1,12 @@
 ---
-tags: ["Algorithmus"]
+tags:
+  - DS
 aliases: []
-subject: ["fsst"]
-source: [""]
+subject:
+  - fsst
+source:
+  - ""
 created: 17th April 2022
 ---
 
 # Heap
-
-## Min Heap
-
-## Max Heap
-
----
-
-# Tags

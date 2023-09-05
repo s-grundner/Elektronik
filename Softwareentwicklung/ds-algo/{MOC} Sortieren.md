@@ -1,11 +1,13 @@
 ---
 tags:
   - MOC
+  - Sortieren
 aliases:
   - Algo_Sortieren
 subject:
   - ""
-inst: [HTBLuVA Salzburg]
+inst:
+  - HTBLuVA Salzburg
 created: 29. November 2022
 ---
 

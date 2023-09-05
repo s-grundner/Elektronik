@@ -318,11 +318,11 @@ static TNODE* get_NodeList(THEADER* aList, int number){
 
 - Erstellen Sie ein Testprogramm zum Testen Ihrer Funktionen.
 
-## Doppelt Verkettete Liste - [QUEUE](../FIFO.md) (c289)
+## Doppelt Verkettete Liste - [QUEUE](../FIFO%20Queue.md) (c289)
 
 - Erstellen Sie **queue.h/queue.c** unter Verwendung
 
-  der doppelt verketteten Liste. Die [Queue](../FIFO.md) ([FIFO](../FIFO.md)) soll
+  der doppelt verketteten Liste. Die [Queue](../FIFO%20Queue.md) ([FIFO Queue](../FIFO%20Queue.md)) soll
 
   int-Werte speichern. 
 

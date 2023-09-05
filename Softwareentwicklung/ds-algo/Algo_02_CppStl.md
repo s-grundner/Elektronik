@@ -36,7 +36,7 @@ Siehe [C++](../Cpp/{MOC}%20Cpp.md) Dokumentation. In der STL ist vector durch Ar
 
 ## List
 
-Der Datentyp *list* aus der STL ist eine doppelt-verkettete Liste. Sie erlaubt damit das Einfügen und Entnehmen von Elementen an jeder Stelle mit konstanter Zeit.
+Der Datentyp *list* aus der STL ist eine doppelt-[verkettete Liste](Linked%20Lists.md). Sie erlaubt damit das Einfügen und Entnehmen von Elementen an jeder Stelle mit konstanter Zeit.
 
 ```c++
 // include list, showSequence    using std
@@ -56,9 +56,9 @@ showSequence(L2); // (leere Liste)
 
 ## Deque
 
-Abkürzung für *double ended [queue](../FIFO.md)*. Dieser Typ implementiert eine List an deren beiden Enden Elemente entnommen oder hinzugefügt werden können.
+Abkürzung für *double ended [queue](../FIFO%20Queue.md)*. Dieser Typ implementiert eine List an deren beiden Enden Elemente entnommen oder hinzugefügt werden können.
 
-Implementiert wird eine deque als eine doppelt verkettete Liste von vectoren.
+Implementiert wird eine deque als eine doppelt [verkettete Liste](Linked%20Lists.md) von vectoren.
 
 ```c++
 // include deque	using std
@@ -96,9 +96,9 @@ return 0;
 
 Der große Unterschied zum vector-Typ ist, dass hier an beiden Enden effizient gelöscht/gelesen werden kann.
 
-## Stack
+## [Stack](LIFO%20Stack.md)
 
-Dieser Kontainer erlaubt Ablage und Entnahme nur von einer Seite aus (FILO, LIFO). Ein Stack verwendet in der Implementierung vector, list oder deque-Typen.
+Dieser Kontainer erlaubt Ablage und Entnahme nur von einer Seite aus (FILO, [LIFO](LIFO%20Stack.md)). Ein [Stack](LIFO%20Stack.md) verwendet in der Implementierung vector, list oder deque-Typen.
 
 ```c++
 // include stack, iostream		using std
@@ -121,9 +121,9 @@ while(!einStack.empty()) {
 cout << endl;
 ```
 
-## [queue](../FIFO.md)
+## [queue](../FIFO%20Queue.md)
 
-Warteschlange. Erlaubt die Ablage auf einer Seite und die Entnahme auf der anderen Seite ([FIFO](../FIFO.md)).
+Warteschlange. Erlaubt die Ablage auf einer Seite und die Entnahme auf der anderen Seite ([FIFO Queue](../FIFO%20Queue.md)).
 
 ```c++
 // include queue, iostream			using std

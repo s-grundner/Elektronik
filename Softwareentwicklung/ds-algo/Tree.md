@@ -1,6 +1,8 @@
 ---
-tags: []
-aliases: []
+tags:
+  - DS
+aliases:
+  - Baum
 subject:
   - fsst
 source:
@@ -10,45 +12,7 @@ created: 26th April 2022
 
 # Trees
 
-Roots (Wurzel): Hat keine 
-
-## Binary Tree
-
-Jeder Knoten hat maximal 2 Sub-knoten 
-
-### Binary Search Tree
-
-Jeder Knoten im Linken Teilbaum ist kleiner als seine Wurzel.  
-Jeder Knoten im rechten Teilbaum ist größer als seine Wurzel.
-
-> [!EXAMPLE] 
->
-> ![binary_Search_tree](../assets/binary_Search_tree.svg)
->
-> ``` c
-> struct node {
-> 	int data;
-> 	struct node *next;
-> 	struct node *last;
-> }
-> typedef struct node node_t;
-> ```
-
-### Durchqueren/Traversieren
-
-#### Depth-First-Search DFS
-
-Durch das Traversieren eines Binären Such Baumes mit depth first search, bekommt man eine Sortierte Liste zurück.
-
-#### Breadth First Search BFS
-
----
-
-# Tags
-
-## Bäume
-
-Für Bäumen gilt:
+Für Bäume gilt:
 
 - Bäume bestehen aus Knoten.
 - Jeder Knoten hat keine oder mehrere Nachfolgerknoten.
@@ -75,7 +39,7 @@ typedef struct SNODE {
 } TNODE;
 ```
 
-### Traversieren in Binären Bäumen
+## Traversieren in Binären Bäumen
 
 Häufig ist es gewünscht durch einen Baum hindurch sämtliche Elemente genau einmal aufzusuchen, etwa bei der Ausgabe oder der Suche. Man nennt das das **Traversieren** in einem Baum. Es gibt grundsätzlich die Bewegungsmöglichkeiten:
 
@@ -120,7 +84,7 @@ Häufig ist es gewünscht durch einen Baum hindurch sämtliche Elemente genau ei
   // 12 3 2 17 14 19 18 21
   ```
 
-### Suche in Binären Suchbäumen
+## Suche in Binären Suchbäumen
 
 In diesen Bäumen sind Elemente kleiner dem Knotenelement immer Links, die Suche ist daher mit wenig Aufwand möglich:
 
@@ -137,7 +101,7 @@ TNODE *search(int num, TNODE *root) {
 }
 ```
 
-### Einfügen in Binären Suchbäumen
+## Einfügen in Binären Suchbäumen
 
 Das Einfügen erfolgt auf folgende Weise: im Baum wird solange verzweigt biss der Abzweig gefunden wird an der das Element zu finden sein müsste. Dort wird das Element eingefügt:
 
@@ -176,7 +140,7 @@ TNODE *insert (int num, TNODE **root) {
 
 Das macht das Arbeiten mit binären Bäumen so effizient, beim Einfügen muss nie ein Ersetzen/Verschieben erfolgen, jedes neue Element kann als Blatt sortiert eingefügt werden.
 
-### Löschen in Binären Suchbäumen
+## Löschen in Binären Suchbäumen
 
 Für das Löschen eines Knotens in binären Suchbäumen müssen zwei Fälle unterschieden werden:
 
@@ -199,7 +163,7 @@ Für das Ersetzten von Knoten 12 durch Knoten 14 wird am einfachsten nur der Wer
 
 Die beschriebene Art kann völlig analog auch auf der anderen Seite erfolgen: 12 kann auch durch den Knoten ersetzt werden, der ganz rechts im linken Zweig liegt (hier 3).
 
-### Ungünstige Konfigurationen
+## Ungünstige Konfigurationen
 
 Der Grund für die Entwicklung der Bäume ist ja eine effiziente Suchstruktur. Je nachdem in welcher Reihenfolge ein Baum aufgebaut wird kann es zu ungünstigen Konstellationen kommen:
 

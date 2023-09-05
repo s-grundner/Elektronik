@@ -1,6 +1,6 @@
 ---
 tags:
-  - Algorithmus
+  - DS
 aliases:
   - Assoziative Listen
   - Hash Table

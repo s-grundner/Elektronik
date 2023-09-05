@@ -11,7 +11,7 @@ Ein-/Ausgabe-Streams: das Lesen und Schreiben von Daten aus oder in ein C-Progra
 
 ![Buffer](assets/Buffer.png)
 
-Der Buffer ist als [FIFO](../FIFO.md)-Buffer (First-In-First-Out) organisiert, also wird der erste Wert der in den Buffer reinkommt auch als Erster wieder ausgelesen. Die Reihenfolge der Eingabe entspricht der Reihenfolge der Ausgabe. Der stdio-Stream wird von der Tastatur befüllt und vom C-Programm wieder geleert.
+Der Buffer ist als [FIFO Queue](../FIFO%20Queue.md)-Buffer (First-In-First-Out) organisiert, also wird der erste Wert der in den Buffer reinkommt auch als Erster wieder ausgelesen. Die Reihenfolge der Eingabe entspricht der Reihenfolge der Ausgabe. Der stdio-Stream wird von der Tastatur befüllt und vom C-Programm wieder geleert.
 
 Für Ausgabe von Daten aus einem C-Programm (Text anzeigen, in Datei schreiben …) funktioniert das genau umgekehrt. Es gibt hier allerdings zwei Streams, stdout (normale Ausgaben) und stderr (Fehlermeldung-Ausgaben). Das C-Programm schreibt die auszugebenden Daten in die Ausgabestreams. Die Daten werden anschließend in gleicher Reihenfolge in der Konsole (Bildschirm) ausgegeben.
 
