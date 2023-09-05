@@ -212,7 +212,7 @@ int main()
 ## [{MOC} Schnittstellen]({MOC}%20Schnittstellen.md)
 
 - [I2C](I2C.md)/[I2C](I2C.md)
-- [USART](USART.md)
+- [UART](UART.md)
 
 # Algo
 

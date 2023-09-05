@@ -8,7 +8,23 @@ created: 11th April 2022
 
 # Map of Content - Schnittstellen
 
+## Serial
+
+### Synchron
+
 ```dataview
-TABLE tags
-FROM #Async
+LIST FROM #Interface/Serial/Sync 
+SORT file.name
+```
+
+### Asynchron
+
+```dataview
+LIST FROM #Interface/Serial/Async 
+```
+
+## Parallel
+
+```dataview
+LIST FROM #Interface/Parallel
 ```

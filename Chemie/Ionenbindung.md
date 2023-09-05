@@ -8,7 +8,7 @@ created: 22nd August 2022
 
 # Ionenbindung
 
->![475](assets/Ionen-bdn.png)
+>![475|650](assets/Ionen-bdn.png)
 - wichtigste Art der Bindung zwischen Metallen und Nichtmetallen
 - $\Delta EN > 1.7$
 - Stoffe mit Ionenbindung nennt man **Salze**

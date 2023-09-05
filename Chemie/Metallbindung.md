@@ -10,9 +10,9 @@ created: 23rd August 2022
 
 ![](assets/Metall-bnd.png)
 
-Starke Anziehungskräfte zwischen Kationen und Elektronengas halten das Metallgitter zusammen.
+Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas halten das Metallgitter zusammen.
 
-## Eigenschaften von Metallen
+## Eigenschaften Von Metallen
 
 Aus Gitteraufbau folgt:
 - bei Raumtemperatur sind diese fest (Ausnahmen: $Hg,Cs,Ga$)
@@ -23,7 +23,3 @@ Aus Gitteraufbau folgt:
 
 >[!NOTE] Legierung  
 Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
-
----
-
-# Tags

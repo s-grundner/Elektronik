@@ -1,8 +1,12 @@
 ---
-tags: []
-aliases: ["Kollektorschaltung"]
-subject: ["hwe"]
-source: ["Michael Offenhuber"]
+tags:
+  - Halbleiter
+aliases:
+  - Kollektorschaltung
+subject:
+  - hwe
+source:
+  - Michael Offenhuber
 created: 21st November 2022
 ---
 
@@ -14,7 +18,7 @@ created: 21st November 2022
 
 ![Pasted image 20221121145330](../assets/Pasted%20image%2020221121145330.png)
 
-## Kollektorschaltung als Impedanzwandler
+## Kollektorschaltung Als Impedanzwandler
 
 ![Pasted image 20221121145351](../assets/Pasted%20image%2020221121145351.png)
 
@@ -25,5 +29,3 @@ created: 21st November 2022
 ## Kleinsignalverhalten
 
 ![ksv_kollektorschaltung](../assets/ksv_kollektorschaltung.png)
-
-# Quellen

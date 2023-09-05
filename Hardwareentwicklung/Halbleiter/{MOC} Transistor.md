@@ -10,7 +10,7 @@ created: 21st March 2022
 
 ## [Bipolartransistor](Bipolartransistor.md) ([BJT](Bipolartransistor.md))
 
-## [Feldeffekttransistor](Feldeffekttransistor.md) ([FET](Feldeffekttransistor.md)) 
+## [Feldeffekttransistor](Feldeffekttransistor.md) ([FET](Feldeffekttransistor.md))
 
 ## [Sperrschicht-Feldeffekttransistor](../Sperrschicht-Feldeffekttransistor.md) ([JFET](../Sperrschicht-Feldeffekttransistor.md))
 

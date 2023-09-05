@@ -1,8 +1,13 @@
 ---
-tags: ["Interface/Serial/Async", "AVR"]
-aliases: ["UART"]
-subject: ["dic"]
-source: ["Robert Vogl"]
+tags:
+  - Interface/Serial/Async
+  - AVR
+aliases:
+  - USART
+subject:
+  - dic
+source:
+  - Robert Vogl
 created: 19th April 2022
 ---
 
