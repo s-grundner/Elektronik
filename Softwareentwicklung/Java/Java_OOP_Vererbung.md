@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 11.2 Objekt Orientierte Programmierung - Vererbung
+# Objekt Orientierte Programmierung - Vererbung
 
 ## Beispiel
 

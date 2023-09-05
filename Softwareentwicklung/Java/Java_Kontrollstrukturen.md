@@ -6,8 +6,8 @@ created: 29th November 2022
 
 # Java Kontrollstrukturen
 
-[Schleifen](../Schleifen.md)
-[Verzweigungen](Verzweigungen.md)
+[Schleifen](../Schleifen.md)  
+[Verzweigungen](../Verzweigungen.md)
 
 ## Ausdruck
 

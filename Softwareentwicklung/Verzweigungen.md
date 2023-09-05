@@ -1,8 +1,8 @@
-## Verzweigungen
+# Verzweigungen
 
 Verzweigung: bedingt ausführbarer Code (es muss eine Bedingung erfüllt sein damit ein Code ausgeführt wird). Wenn Programmteile nicht immer ausgeführt werden, dann müssen sie in einer Verzweigung stehen.
 
-### if-Verzweigung
+## if-Verzweigung
 
 Damit verzweigt werden kann, muss eine logische Bedingung erfüllt sein. Die logische Bedingung ist ein **Ausdruck**. Dieser muss immer *true* als Ergebnis liefern damit eine Anweisung ausgeführt wird.
 
@@ -22,14 +22,14 @@ else
 
 Zur Erinnerung: Anweisungen können durch Blöcke ersetzt werden.
 
-> [!EXAMPLE] Beispiel
+> [!EXAMPLE] Beispiel (Java)
 ```java
 if (monat == 2)
   System.out.println("Februar");
 ...
 ```
 
-> [!EXAMPLE] Beispiel
+> [!EXAMPLE] Beispiel (Java)
 ```java
 if (monat > 11)
   System.out.println("Dezember");
@@ -44,7 +44,7 @@ else
 
 Strukturen wie diese sind oft notwendig, sind jedoch sehr schnell unübersichtlich.
 
-### switch-Verzweigung
+## switch-Verzweigung
 
 Die *switch*-Verzweigung ist speziell für Mehrfachverzweigungen. Grundsätzlich kann sie immer durch geschachtelte *if*-Verzweigungen ersetzt werden:
 
@@ -64,7 +64,7 @@ Der *default*-Fall ist optional, das bedeutet er darf entfallen.
 
 > Achtung: wird kein *break* gesetzt, dann werden die folgenden Fälle mit ausgeführt bis zur nächsten *break* Anweisung oder bis die Verzweigung zu Ende ist.
 
-> [!EXAMPLE] Beispiel
+> [!EXAMPLE] Beispiel (Java)
 ```java
 switch (num) {
   case 10: System.out.println("Zehn");
@@ -86,5 +86,3 @@ Aufgrund der fehlenden *break* Anweisungen wird hier für `num = 5` ein Countdow
 > Switch-Case-Verzweigungen immer dann, wenn vielfach gleichartige Verzweigungen gesucht.
 >
 > If kann Switch-Case immer ersetzten --> kann übergeführt werden.
-
-[Schleifen](../Schleifen.md)

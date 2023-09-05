@@ -15,7 +15,7 @@ Erstellen Sie mit Hilfe eines Singletons eine Möglichkeit in ein Log-File zu Pr
 
 main.cpp:
 
-```c++
+```cpp
 int main() {
 	Singleton &s1= Singleton::getInstance();
 	Singleton &s2= Singleton::getInstance();
@@ -48,7 +48,7 @@ Eine einfache Form-Factory hat die folgende Struktur:
 
 Dabei ist die Fabrik nicht weiter abstrahiert sondern eine konkrete Klasse. Verwendet wird die Fabrik auf diese Art:
 
-```c++
+```cpp
 #include <list>
 #include "FormFactory.h"
 
@@ -87,7 +87,7 @@ Im folgenden Beispiel wird auch die Factory abstrahiert. Der Übersicht wegen wi
 
 main.cpp:
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 #include <memory>
@@ -308,7 +308,7 @@ Beispielhaft werden der Wetterstation hier in `main` die Wetterdaten per Tastatu
 
 main.cpp:
 
-```c++
+```cpp
 #include <iostream>
 #include "Wetterstation.h"
 #include "Client.h"
@@ -361,7 +361,7 @@ Ein Klient möchte eine myRectangle-Klasse erzeugen und dafür einen Punkt des R
 
 Verfügbar ist allerdings nur eine Rectangle-Klasse die Rechtecke mittels zweier, diagonaler Punkte definiert:
 
-```c++
+```cpp
 class myRectangle {		// Necessary-Interface: draw by use of draw()
 public:
     virtual void draw() = 0;

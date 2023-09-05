@@ -117,7 +117,7 @@ int main() {
 }
 ```
 
-## [Komplex](../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md)
+## [Komplex](../../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md)
 
 Folgender Ausschnitt aus einer `main()` soll (sinnvoll) funktionieren:
 

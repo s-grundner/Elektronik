@@ -10,8 +10,9 @@ created: 17th August 2023
 
 ```dataview
 
-list from #c
-sort name
+LIST FROM #c
+WHERE !contains(tags, "MOC")
+SORT file.name
 
 ```
 

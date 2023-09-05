@@ -14,7 +14,7 @@ Für die Kommunikation zwischen Programm-Komponenten wird in Qt das Signal-Slot-
 
 Um Signale/Slots verwenden zu können muss die entsprechende Klasse von *QObject* ableiten und als erstes das Makro *Q_OBJECT* aufrufen:
 
-```c++
+```cpp
 #include <QObject>
 
 class myClass : public QObject {
@@ -24,14 +24,14 @@ class myClass : public QObject {
 
 Eine Klasse die ein Signal auslöst muss in der Klassendefinition im Header eine *signals*-Sektion haben:
 
-```c++
+```cpp
 signals:
   void getPos();
 ```
 
 dieses Signal kann dann mittels *emit* ausgelöst werden:
 
-```c++
+```cpp
 emit getPos();
 ```
 

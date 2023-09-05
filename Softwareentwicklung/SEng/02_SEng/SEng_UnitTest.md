@@ -10,7 +10,7 @@ Ein Unit-Test testet eine kleine Einheit (Unit), noch bevor sie in das gesamte P
 
 Damit findet der Test möglichst unabhängig von anderen Komponenten ab. In vielen Entwicklungstools kann ein Unit-Test bereits während der Entwicklung mit integriert werden. Der große Vorteil gegenüber einem bloßen manuellen Testen ist, dass mit jeder späteren (auch kleinen) Änderung gleich eine ganze Reihe von Tests wieder gestartet werden kann. Der zweite große Vorteil ist, dass ein entsprechender Nachweis der Testung mitgeliefert werden kann.
 
-## Unit-Test mit QTCreator C++ (651)
+## Unit-Test Mit QTCreator C++ (651)
 
 <https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html>
 
@@ -46,7 +46,7 @@ HEADERS += \
 
 **tst_testcalculator.cpp** (Testsoftware):
 
-```c++
+```cpp
 #include "calculator.h"         // Klasse zum Testen
 #include <QtTest>
 
@@ -107,7 +107,7 @@ Das Testobjekt ist die Klasse *Calculator* ein einfacher Taschenrechner:
 
 **calculator.h:**
 
-```c++
+```cpp
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
@@ -127,7 +127,7 @@ private:
 
 **calculator.cpp:**
 
-```c++
+```cpp
 #include "calculator.h"
 
 Calculator::Calculator() {

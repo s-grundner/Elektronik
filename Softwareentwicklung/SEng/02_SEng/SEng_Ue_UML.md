@@ -43,7 +43,7 @@ Verwenden Sie die Akteure Kunde, Verkäufer, Registrierkassa.
 
 CRectangle-Klasse in C++:
 
-```c++
+```cpp
 class CRectangle {
 
 public:
@@ -75,7 +75,7 @@ Nur der Konstruktor ist Public (daher +) die anderen Attribute und Methoden sind
 
 Klasse CFigur und abgeleitete Klasse CTriangle in C++:
 
-```c++
+```cpp
 class CFigur {
 public:
     CFigur(Qt::GlobalColor pen);
@@ -119,7 +119,7 @@ Der Figur-Member *m_pen* ist Protected (daher.
 
 Dreieck-Klasse in C++:
 
-```c++
+```cpp
 class CFigur {
 public:
     CFigur(Qt::GlobalColor pen);
@@ -167,7 +167,7 @@ Hier sind die virtuellen Funktionen kursiv geschrieben (manchmal werden sie zur 
 
 Für den dargestellten Code, wenn die ***-Zeile angepasst wird:
 
-```c++
+```cpp
 virtual void draw(QPainter *p) = 0;
 ```
 
@@ -200,7 +200,7 @@ class CTriangle{
 
 In einem Hauptfenster werden die Zeichenobjekte in einer Liste abgelegt:
 
-```c++
+```cpp
 class MainWindow : public QMainWindow{
   ...
   Figur *list[10];
@@ -239,7 +239,7 @@ Hier ist *MainWindow* von *QMainWindow* abgeleitet. *CFigure* ist Teil von *Main
 
 Wenn eine *CFigur* wie hier eingebunden wird:
 
-```c++
+```cpp
 ...
 CFigur f;
 ...

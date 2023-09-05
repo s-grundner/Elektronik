@@ -42,7 +42,7 @@ Die Erstellung sollte nun durchlaufen. Wenn Fehler auftreten werden diese angef�
 
 Um direkt aus dem Code eine Dokumentation erstellen zu können, können spezielle Kommentare eingefügt werden:
 
-```c++
+```cpp
 /// Dreifache Slashes
 
 /** Doppelte Sterne für einen Kommentarblock
@@ -55,7 +55,7 @@ Schlüsselworte für Doxygen:
 
 als Schlüsselworte kann angegeben werden:
 
-```c++
+```cpp
 @brief       - kurze Beschreibung des folgenden Codes
 @param abc   - Beschreibung des Parameters abc einer Funktion
 @return      - Beschreibung des Rückgabewertes einer Funktion

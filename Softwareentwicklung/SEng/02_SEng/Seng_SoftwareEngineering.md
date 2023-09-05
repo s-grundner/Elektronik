@@ -12,7 +12,7 @@ Das Softwareengineering beschäftigt sich mit der Vorgehensweise bei der Herstel
 
 > **zielorientierte** und **systematische** Anwendung von **Prinzipien, Methoden** und **Werkzeugen** für die **ingenieurmäßige Entwicklung** von umfangreichen **Softwaresystemen**.
 
-## 2 Phasen in der SW-Entwicklung
+## 2 Phasen in Der SW-Entwicklung
 
 Software wird Schritt für Schritt fertiggestellt. Diese Schritte werden **Phasen** genannt und sind während des gesamten Entwicklungsprozesses eng miteinander verzahnt. 
 
@@ -215,7 +215,7 @@ In jedem der obigen Arbeitsschritte werden folgende 4 Phasen mehr oder weniger i
 
 Das absolute Einhalten der Iterationen (Rückkopplungen in den jeweiligen Phasen, Validierungsphasen, …) kann zu Nachteilen führen. Aus diesem Grund wurden weitere Methoden entwickelt, die noch sehr jung sind. Dazu gehören die agile od. Adaptiven SW-Prozesse. 
 
-## 7 Agile und adaptive Vorgehensmodelle
+## 7 Agile Und Adaptive Vorgehensmodelle
 
 Unter einem agilen/adaptiven Vorgehensmodell versteht man eine Weiterentwicklung des iterativen Paradigmas, bei der die Planung der Iterationen **dynamisch** erfolgt. 
 
@@ -235,7 +235,7 @@ Charakteristikum: **kontinuierliche/permanente Anpassung an Änderungen/Änderun
 
 - Scrum, Kanban: **Visualisierung des Projektverlaufes** (s. scrum.pdf)
 
-### 7.2 Extreme Programming: Einfachheit und Kommunikation
+### 7.2 Extreme Programming: Einfachheit Und Kommunikation
 
 Extreme Programming (XP) ist eine 
 
@@ -251,7 +251,7 @@ Im Kern beruht XP auf den Werten**, Einfachheit, Kommunikation, Feedback, Mut**,
 
 XP **erfordert Disziplin.** 
 
-### 7.3 Techniken für ein XP-TEAM
+### 7.3 Techniken Für Ein XP-TEAM
 
 XP-PERSONEN:
 
@@ -283,7 +283,7 @@ XP-UMGEBUNG/Ablauf:
 
   Jedes Teammitglied berichtet reihum, an welcher Aufgabe es **gestern** gearbeitet hat und was es **heute** machen wird. **Probleme werden genannt, aber nicht gelöst. Die meisten Teams treffen sich vor der Wandtafel ihrer Iterationsplanung**.
 
-### 7.4 Techniken für die Kunden
+### 7.4 Techniken Für Die Kunden
 
 Erstellung von User-Story-Karten und Akzeptanztests.
 
@@ -309,7 +309,7 @@ Erstellung von User-Story-Karten und Akzeptanztests.
 - **Kurze Releasezyklen**  
   Nach **ein bis 3 Monaten** wird das System an die wirklichen Endanwender ausgeliefert, damit das Kundenteam wichtiges Feedback für die Weiterentwicklung erhält.
 
-### 7.5 Techniken für die Programmierer
+### 7.5 Techniken Für Die Programmierer
 
 - **Programmieren in Paaren**  
   Die Programmierer arbeiten stets zu zweit am Code und diskutieren während der Entwicklung intensiv über Entwurfsalternativen. Sie wechseln sich **minütlich an der Tastatur ab** und **rotieren stündlich ihre Programmierpartner**. Das Ergebnis ist eine höhere Codequalität, größere Produktivität und bessere Wissensverbreitung.
@@ -331,7 +331,7 @@ Erstellung von User-Story-Karten und Akzeptanztests.
 
   Die **Unit Tests** müssen zur erfolgreichen Integration zu **100% laufen**.
 
-### 7.6 Techniken für das Management
+### 7.6 Techniken Für Das Management
 
 - **Akzeptierte Verantwortung/ richtiges Delegieren**  
   Das Management
@@ -347,7 +347,7 @@ Erstellung von User-Story-Karten und Akzeptanztests.
   - Wenn Refactorings und Akzeptanztests aufgeschoben werden, muss der Manager dem Team stärker den Rücken freihalten.
   - Wenn Teammitglieder müde und zerschlagen sind, muß der Manager sie nach Hause schicken.
 
-### 7.7 Podcast zu XP
+### 7.7 Podcast Zu XP
 
 <http://chaosradio.ccc.de/cre028.html> : 
 
@@ -357,7 +357,7 @@ Erstellung von User-Story-Karten und Akzeptanztests.
 
 Pavel berichtet aus seinen jahrelangen und mehrheitlich positiven Erfahrungen in der konkreten Anwendung von Extreme Programming im Unternehmen und erläutert, welche Schritte nötig waren, um diese Umstellung zu einem Erfolg zu führen, welche langfristigen Effekte das hatte."
 
-## 8 Übersicht über Phasenmodelle
+## 8 Übersicht Über Phasenmodelle
 
 Einen ausführlichen Überblick bietet (neben den angesprochenen gibt es eine Vielzahl weiterer):  
 <http://de.wikipedia.org/wiki/Liste_von_Softwareentwicklungsprozessen>
@@ -532,7 +532,7 @@ Beschlüsse
 
 ## 10 Werkzeuge
 
-### 10.1 Test, Verifikation und Validierung
+### 10.1 Test, Verifikation Und Validierung
 
 JUNIT,… (siehe: SENG/testen)
 
@@ -632,7 +632,7 @@ Bei der ungarischen Notation handelt es sich um eine von Programmierern verwende
 
   **MemoryManager.h:**
 
-  ```c++
+  ```cpp
   // **MemoryManager.h:**
   #ifndef MEMORY_MANAGER
   #define MEMORY_MANAGER
@@ -651,7 +651,7 @@ Bei der ungarischen Notation handelt es sich um eine von Programmierern verwende
 
   **MemoryManager.cpp**
 
-  ```c++
+  ```cpp
   #include "MemoryManager.h:"
   
   int MemoryManager::MEM_SIZE=100;
@@ -686,7 +686,7 @@ JavaDoc erkennt besondere Kommentare innerhalb von Java-Quelltexten und generier
 
 Jeder JavaDoc-Kommentar beginnt mit /** - nur in diesen Blöcken werden die sogenannten Tags ausgewertet wie Autor und Version einer Klasse, Variablen, Rückgabewerte und Ausnahmen bei Methoden. Aus den Beschreibungen und den Daten der Tags wird eine API-Dokumentation im HTML-Format generiert, die das Programm in Packages und Klassen unterteilt, einen Index bietet, einen Klassenbaum, zu jeder Klasse die Schnittstellen und noch vieles mehr.
 
-### 12.2 Wer profitiert von einer sauberen Dokumentation mittels JavaDoc?
+### 12.2 Wer Profitiert Von Einer Sauberen Dokumentation Mittels JavaDoc?
 
 Der Programmierer selbst:  
 Spätestens nach ein paar Monaten steckt man nicht mehr so tief im Code drin, und wenn man dann wieder mit dem selbstgeschriebenen Code zu tun hat, muss man sich fast ebenso mühsam einlesen wie in fremden Code. Hier hilft eine Dokumentation der Klassen, Methoden und Variablen.
@@ -700,7 +700,7 @@ Egal ob Closed-Source oder Open-Source, egal ob ein kleines Programm oder ein m�
 Code-Reviewer:  
 Code altert. Selbst wenn keine Bugs als Notfälle repariert werden müssen, so kommt der Tag, an dem das Programm gegen neu erkannte Sicherheits-Schwachstellen geprüft oder in Sachen Geschwindigkeit optimiert werden muss. Zwar ist bei einem Code-Review im Gegensatz zu den drei anderen Fällen ein genauer Blick in den Source immer nötig, doch mit einer guten Dokumentation kommt man Programmierfehlern viel schneller auf die Schliche, als wenn man erst aufgrund von - möglicherweise fehlerhaftem - Code die Absichten des Programmierers erraten muss. 
 
-### 12.3 Vorteil von Dokumentation im Quelltext
+### 12.3 Vorteil Von Dokumentation Im Quelltext
 
 Einen Teil der Programm-Dokumentation entsteht unweigerlich außerhalb vom Quelltext: Lastenund Pflichtenhefte, verwendete Standards, Protokolle und Ideenpapiere. Auch die Beschreibung der API (der Programmierschnittstelle) kann in einem externen Arbeitsschritt erfolgen.
 
@@ -722,7 +722,7 @@ Ein typischer Klassen-Doc-Kommentar steht direkt über der Zeile mit dem Schlüs
 
 Ein Klassenkommentar beschreibt die Klasse im Allgemeinen und geht kurz darauf ein, wofür diese Klasse benutzt wird, skizziert Besonderheiten für den Einsatz der Klasse als Beispiele und enthält Hinweise auf den Autor der Klasse sowie auf die Version. Sowohl die Angabe von Author wie auch Version ist optional und eigentlich erst bei der Arbeit in einem Programmierteam interessant: Dann kann es auch mehrere Autoren geben (wenn später noch wesentliche Funktionalitäten hinzugekommen sind), und die Version kann man sehr elegant mit einem Revision-Control-System wie z.B. CVS kombinieren, so dass bei jedem Einchecken die Versions-Nummer im Klassenfile angeglichen wird.
 
-```c++
+```cpp
 /**
  * Diese Bibliothek enthält statische Methoden zum Umformen von
  * Datumsangaben, so dass keine Instanziierung erforderlich ist.
@@ -747,7 +747,7 @@ Methoden-Doc-Kommentare sind fast die wichtigsten - sie beschreiben neben der Id
 
 So wie Klassenkommentare immer direkt über den Klassendefinitionen stehen, so stehen Methoden-Kommentare direkt über den entsprechenden Methoden.
 
-```c++
+```cpp
 /**
  * Berechnet das Tierkreiszeichen zu einem Geburtstags-Datum. Dabei
  * wird nur der Tag und der Monat betrachtet, das Jahr spielt bei dieser
@@ -778,7 +778,7 @@ Schließlich kann man mit *@deprecated* eine Methode als "veraltet" kennzeichnen
 
 Auch hier steht der Kommentar unmittelbar über der Variable. Es lassen sich Klassenund Instanz-Variablen dokumentieren, lokale Variablen innerhalb von Methoden hingegen nicht. Die Kommentare für Variablen bestehen im allgemeinen aus nur einer Zeile.
 
-```c++
+```cpp
 /** Farb-Konstante für Fehlermeldungen (hellrot) */
 public static final Color ERROR_COLOR = new Color(255, 127, 127);
 
@@ -793,7 +793,7 @@ private String errorMsg;
 protected Vector aVector;
 ```
 
-### 12.7 zusammenfassendes Beispiel
+### 12.7 Zusammenfassendes Beispiel
 
 => [JavaDocExample.java](http://members.chello.at/truetigger/webstart/dokus/javadoc/JavaDocExample.java)
 
@@ -897,7 +897,7 @@ public class JavaDocExample {
 }  
 ```
 
-### 12.8 Rendern als HTML-Seiten
+### 12.8 Rendern Als HTML-Seiten
 
 JavaDoc startet man in dem Wurzelverzeichnis seines Projekts und gibt den Namen des Packages an, für welches die Doku erzeugt werden soll. Zum Beispiel liegen die Java-Dateien unter C:\java\beispiel (gemäß des angegebenen Packages natürlich im Unterordner at\tigger\tutorial). Dann wechselt man in das Verzeichnis C:\java\beispiel und startet dort JavaDoc.
 
@@ -921,7 +921,7 @@ Das abschließende Beispiel ist einmal mit allen Optionen zusammen erstellt word
 `javadoc -doctitle "JavaDoc-Beispiel" -private -link http://java.sun.com/j2se/1.4/docs/api -d doc/api at.tigger.tutorial`  
  => [generierte JavaDoc](http://members.chello.at/truetigger/webstart/dokus/javadoc/doc/api/index.html) 
 
-### 12.9 Zusammenfassung: Javadoc und Eclipse
+### 12.9 Zusammenfassung: Javadoc Und Eclipse
 
 Javadoc ist ein Tool zur **Generierung von API Dokumentationen** aus den Kommentarzeilen im Quellcode. Es kann als ein Teil des Java 2 SDK heruntergeladen werden und stammt wie Java von Sun Microsystems.
 
@@ -1011,7 +1011,7 @@ Siehe: u-seng-infobank.odt
 
 ## 17 Zusammenfassung
 
-### 17.1 Opensource Entwicklung und ihre Dynamik
+### 17.1 Opensource Entwicklung Und Ihre Dynamik
 
 <http://www.little-idiot.de/his/t1.htm>
 

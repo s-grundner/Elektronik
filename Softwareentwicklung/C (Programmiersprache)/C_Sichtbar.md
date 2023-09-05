@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Sichtbarkeit, Lebensdauer und Gültigkeit
+# Sichtbarkeit, Lebensdauer Und Gültigkeit
 
 Von welchen Programmteilen aus kann auf welche Variable zugegriffen werden und wie lange werden Variable behalten? Grundsätzlich können die folgenden Typen unterschieden werden:
 
@@ -61,9 +61,9 @@ Grundsätzlich gilt auch für C: **so lokal wie möglich, so global wie nötig**
 
 Wenn eine Variable außerhalb von Funktionen (auch von main) als `static` definiert wird, dann sind diese Variable nicht mehr im gesamten Programm sichtbar, sondern nur mehr in der Datei in der sie sich befinden. Mit dem `static` Zusatz kann also verhindert werden, dass auf die Variable von außerhalb zugegriffen wird.
 
-# Weitere Spezifizierer, die Variablen-Verhalten beeinflussen:
+# Weitere Spezifizierer, Die Variablen-Verhalten Beeinflussen:
 
-## extern
+## Extern
 
 Mit `extern` wird kein Speicherplatz reserviert, es wird lediglich geklärt wie die Variable (oder Funktion) aussieht (Deklaration <-> Definition).
 
@@ -77,6 +77,6 @@ Wird bei der Deklaration einer Variable oder Funktion die Speicherklasse nicht a
 
 Soll eine Variable/Funktion bewusst von einer anderen Stelle verwendet werden, dann immer das Schlüsselwort `extern` setzen. Damit kriegt man einen Fehler wenn die Variable/Funktion nicht existiert.
 
-## volatile
+## Volatile
 
 Viele Compiler optimieren selbstständig den Code. Dabei kann der Compiler entscheiden, dass eine Variable nicht im Speicher sondern einem Register zu liegen kommt (Optimierung). Wenn das eigene Programm eine solche Variable allerdings dazu verwenden soll um Daten von z.B. einem anderem Prozess zu erhalten funktioniert das durch die Optimierung nicht mehr. Mit `volatile` wird dem Compiler mitgeteilt, dass die Variable auch von anderer Stelle verändert werden kann. Das gilt auch für Funktionen. `volatile`-Funktionen werden bei jedem Aufruf neu aus dem Hauptspeicher gelesen werden.

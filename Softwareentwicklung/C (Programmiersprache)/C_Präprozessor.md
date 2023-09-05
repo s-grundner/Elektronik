@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 15 Präprozessordirektiven
+# Präprozessordirektiven
 
 Präprozessordirektiven werden nicht vom Compiler übersetzt. Sie werden vor der Übersetzung vom Präkompiler verarbeitet, unter anderen gibt es:
 

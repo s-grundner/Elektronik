@@ -42,7 +42,7 @@ HEADERS += \
 
 **tst_testcalculator.cpp** (Testsoftware):
 
-```c++
+```cpp
 #include "calculator.h"         // Klasse zum Testen
 #include <QtTest>
 
@@ -103,7 +103,7 @@ Das Testobjekt ist die Klasse *Calculator* ein einfacher Taschenrechner:
 
 **calculator.h:**
 
-```c++
+```cpp
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
@@ -123,7 +123,7 @@ private:
 
 **calculator.cpp:**
 
-```c++
+```cpp
 #include "calculator.h"
 
 Calculator::Calculator() {

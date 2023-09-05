@@ -277,7 +277,7 @@ Verbesserung: Merken Sie sich die Abfolge der Züge und bieten ein zurücknehmen
 
 # Fragen
 
-## Was gibt folgendes Programm aus:
+## Was Gibt Folgendes Programm Aus:
 
 ```c
 int main(){
@@ -295,7 +295,7 @@ int main(){
 
 >[!success] Lösung:
 
-## Was gibt folgendes Programm aus
+## Was Gibt Folgendes Programm Aus
 
 ```c
 ...
@@ -316,13 +316,13 @@ printf("%p-", ptr);      //gibt Adresse von var aus
 
    
 
-## Kann man statt `ptr = &element[0]` auch `ptr = element;` schreiben?
+## Kann Man Statt `ptr = &element[0]` Auch `ptr = element;` Schreiben?
 
 >[!success] Lösung:
 
    
 
-## Was gibt folgendes Programm aus
+## Was Gibt Folgendes Programm Aus
 
    ```c
    int main(){
@@ -343,11 +343,11 @@ printf("%p-", ptr);      //gibt Adresse von var aus
 
    
 
-## Worin liegt der Unterschied zwischen `*ptr + 2` und `*(ptr+2)`?
+## Worin Liegt Der Unterschied Zwischen `*ptr + 2` Und `*(ptr+2)`?
 
    >[!success] Lösung:
 
-## Was passiert wenn man einen Zeiger inkrementiert?
+## Was Passiert Wenn Man Einen Zeiger Inkrementiert?
 
 ```c
 int element[8] = {1,2,4,8,16,32,64,128};
