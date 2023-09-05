@@ -82,5 +82,4 @@ ______________________________________________________________
 
 # Referenzen
 
-- Erklärung und Beispiele:
-  [https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf](https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf)
+- Erklärung und [Beispiele](https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf)
