@@ -1,6 +1,8 @@
 ---
-tags: ["DB"]
-aliases: []
+tags:
+  - DB
+aliases:
+  - Datenbank
 created: 29th November 2022
 ---
 

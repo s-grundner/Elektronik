@@ -2,7 +2,7 @@
 
 In C++ kann via ODBC (genau wie in C) auf eine DB zugegriffen werden. Es gibt für alle bedeutenden Datenbanken auch direkt C/C++-Treiber, diese weichen allerdings sehr stark voneinander ab. Aus diesem Grund ist eine ODBC Anbindung auf alle Fälle zu empfehlen.
 
-## Zugriff auf Datenbanken aus Qt-C++
+## Zugriff Auf Datenbanken Aus Qt-C++
 
 Der direkte Zugriff auf Datenbanken aus C++ ist stark von den verwendeten Treibern und der verwendeten Umgebung abhängig. Üblicherweise müssen dafür Treiberbibliotheken während der Laufzeit eingebunden werden.
 

@@ -4,7 +4,7 @@
 
 Erstellen Sie eine Telefon/Adressbuch-Datenbank:
 
-![Telefonbuch](assets/bsp_AccessTelbuch.png) 
+![Telefonbuch](../assets/bsp_AccessTelbuch.png) 
 
 ## Verbrecher-Datenbank
 

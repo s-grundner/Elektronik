@@ -1,10 +1,17 @@
-# 5.4 InfluxDB
+---
+tags:
+  - DB
+aliases: []
+created: 29. November 2022
+---
+
+# InfluxDB
 
 Die Datenbank **InfluxDB** ist eine Zeitreihendatenbank. Die Grundidee: es werden Daten zeitlich nach der Reihe in einer Datenbank abgelegt. Gerade für Messtechnische oder statistische Erhebung ist diese Art von Vorteil. Die InfluxDB ist keine relationale Datenbank.
 
 Die Elemente einer InfluxDB:
 
-![](C:\daten\Skripten\Informatik\DB\bilder\InfluxDB.png)
+![InfluxDB](assets/InfluxDB.png)
 
 - **Database**: Sammlung von zusammengehörenden Measurements
 - **Measurement**: ist eine Tabelle zusammengehörender Daten. Eine Database kann aus mehreren Measurements bestehen. Entspricht einer Tabelle in einer relationalen Datenbank.

@@ -8,7 +8,7 @@ created: 29. November 2022
 
 # C\#
 
-## Zugriff Auf Datenbanken Mittels C#
+## Zugriff Auf Datenbanken Mittels C\#
 
 Die Zugriffsinformation auf einen spezielle Datenbankserver kann getestet werden im Visual Studio mittels Menüleiste -> Projekt -> Neue Datenquelle hinzufügen -> …
 
@@ -221,10 +221,10 @@ con.Close();
 
 Die Daten werden im Textbox-Fenster tbAusgabe ausgegeben.
 
-## Referenzen
+# Referenzen
 
 - Connection Strings für Datenbanken:  
-  <www.connectionstrings.com>
+  www.connectionstrings.com
 
 - MySQL Befehls Referenz:  
   <https://dev.mysql.com/doc/dev/connector-net/8.0/html/T_MySql_Data_MySqlClient_MySqlCommand.htm>

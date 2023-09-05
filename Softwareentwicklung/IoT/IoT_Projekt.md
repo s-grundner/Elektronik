@@ -14,7 +14,7 @@ Es ist eine Temperaturmessstation zu entwerfen:
 - die Auswertung erfolgt mittels [ESP32](ESP32.md)
 - der [ESP32](ESP32.md) sendet die Messdaten mittels [MQTT](MQTT.md)-Protokoll an den MQTT-Broker Mosquitto
 - von diesem Broker wiederum werden die Daten von einem RaspberryPi abgerufen
-- der Raspi legt die Daten in einer internen influxDB-[Datenbank](../Datenbank/Datenbank.md) ab
+- der Raspi legt die Daten in einer internen influxDB-[Datenbank](../Datenbanken/Datenbank.md) ab
 - die Bedienerschnittstelle wird mittels Grafana realisiert
 
 ## 1. [ESP32](ESP32.md)

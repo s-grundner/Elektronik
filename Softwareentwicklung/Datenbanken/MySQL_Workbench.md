@@ -1,4 +1,12 @@
-# 5.3 Tool - MySQL Workbench
+---
+tags:
+  - Tool
+  - DB
+aliases: []
+created: 29. November 2022
+---
+
+# Tool - MySQL Workbench
 
 MySQL Workbench ist ein GPL-Oracle-Datenbank-Tool das für die MySQL-Datenbank entwickelt wurde. Es bietet eine sehr komfortable Oberfläche (ansprechender als myPhpAdmin). Allerdings ist es auch um einiges größer als myPhpAdmin. Da MariaDB (aus XAMPP) *sehr* kompatibel zu MySQL ist kann es direkt dafür verwendet werden.
 
