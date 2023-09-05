@@ -1,4 +1,4 @@
-# 2 Normalformen
+# Normalformen
 
 Vorweg: hier wird nur mehr über relationale Datenbanken geschrieben.
 

@@ -1,10 +1,16 @@
-# 6.4 Open Database Connectivity ODBC
+---
+tags: ["DB"]
+aliases: []
+created: 29. November 2022
+---
+
+# Open Database Connectivity ODBC
 
 Ein ODBC-Treiber bietet eine Programmierschnittstelle für Datenbanksysteme. Mit dieser standardisierten Schnittstelle kann mittels SQL auf unterstützte Datenbanken zugegriffen werden. Der Vorteil von dieser Lösung ist, dass eine DB-Anwendung unabhängig von der speziellen Datenbank entwickelt werden kann. Die Einstellung auf die spezifische Datenbank erfolgt im Treiber.
 
 ## MySQL-DB
 
-### Treiber-Einstellung am Beispiel MySQL-DB
+### Treiber-Einstellung Am Beispiel MySQL-DB
 
 Für die verwendete MySQL-Datenbank muss ein 32-Bit/64Bit-ODBC-Treiber installiert werden. Dieser kann einfach im Internet bezogen werden. Für *Windows/MySQL* etwa unter <https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.31.0.msi.>
 

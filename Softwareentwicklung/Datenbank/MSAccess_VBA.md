@@ -1,8 +1,14 @@
-# 7.2 VBA in Access
+---
+tags: ["MS". "VBA"]
+aliases: []
+created: 29. November 2022
+---
+
+# VBA in Access
 
 Wie in allen MS-Office-Produkten kann auch in Access VBA (Visual-Basic for Applications) eingebettet werden. Werden in einem Formular/Bericht spezielle Dinge benötigt müssen die mittels VBA-Code eingebunden werden.
 
-## VBA-Code mit Formularschaltfläche (02,03)
+## VBA-Code Mit Formularschaltfläche (02,03)
 
 Hier wird gezeigt wie in ein Formular mittels Schaltfläche eine Datei in einem Datei-Öffnen-Dialog ausgewählt und zurückgegeben werden kann. Das Erstellen einer Schaltfläche ist bereits in Access verfügbar, der Datei-Öffnen-Dialog allerdings nicht, er wird daher mittels VBA geöffnet.
 
@@ -51,7 +57,7 @@ Zuerst wird ein Formular erzeugt. Im einfachsten Fall beinhaltet es ein Text-Fel
 
 - Mit diesem Code kann mittels Schaltfläche ein Bild geladen werden, oder/und der ausgewählte Dateipfad ermittelt werden.
 
-## VBA-Code beim Formular-Öffnen
+## VBA-Code Beim Formular-Öffnen
 
 Wenn es erforderlich ist, ein Bild während dem Formularöffnen zu Laden:
 
@@ -83,7 +89,7 @@ Application.CurrentProject.Path
 
 ergänzt werden. Dieser Ausdruck liefert den Pfad unter welchem die Access-DB gespeichert ist.
 
-## VBA-Code im Bericht (02)
+## VBA-Code Im Bericht (02)
 
 Auf der Seitenansicht eines Berichts (für den Ausdruck) kann das Bild geladen werden.
 
@@ -103,7 +109,7 @@ Damit wird bei jedem Weiterblättern in der Seitenansicht (Druckansicht) das ent
 
 Für einen Bericht der nur Angesehen wird (Berichtansicht) wird das Bild direkt mit dem Tabellen-Feld verbunden: in der Daten-Eigenschaft *Bild->Eigenschaften->Daten->Steuerelementinhalt* wird *BildPfad* eintragen.
 
-## SQL-Befehle aus VBA
+## SQL-Befehle Aus VBA
 
 Um eine Access-Datenbank mittels SQL zu steuern:
 

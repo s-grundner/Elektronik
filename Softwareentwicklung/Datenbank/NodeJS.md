@@ -2,12 +2,9 @@
 tags:
   - npm
   - Javascript
-  - DB
 aliases: []
 created: 29. November 2022
 ---
-
-
 
 # Node.js
 
@@ -121,7 +118,7 @@ Die Datei `index.html` kann dazu im Ordner `public` im gleichen Pfad wie `app.js
   
   ab nun ist in nodejs MySQL verfügbar `var mysql = require('mysql');`
 
-### Verbinden mit der DB
+### Verbinden Mit Der DB
 
 ```javascript
 var mysql = require('mysql');
@@ -140,7 +137,7 @@ con.connect(function(err) {
 
 In aktuellen MySQL-Version muss für die Anmeldung als *Authentification Type=Standard* eingestellt sein.
 
-### Arbeiten in der DB
+### Arbeiten in Der DB
 
 Hier gibts die Tabelle *kurse* mit dem Attribut *Termin* darin (Groß-/Kleinschreibung muss stimmen):
 
@@ -157,7 +154,7 @@ con.connect(function(err) {
 });
 ```
 
-### Beenden der Verbindung
+### Beenden Der Verbindung
 
 ```javascript
 con.end();
@@ -184,7 +181,7 @@ con.end();
   
   ab nun ist in nodejs MongDB verfügbar `var mongo = require('mongodb');`
 
-### Verbinden mit der DB
+### Verbinden Mit Der DB
 
 ```javascript
 const MongoClient = require('mongodb').MongoClient;
@@ -199,7 +196,7 @@ client.connect(err => {
 });
 ```
 
-### Beenden der Verbindung
+### Beenden Der Verbindung
 
 ```javascript
 client.close();

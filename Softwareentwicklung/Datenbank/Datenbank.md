@@ -23,7 +23,7 @@ created: 25th August 2023
 - [UE_PHP](Ue/UE_PHP.md)
 - [NodeJS](NodeJS.md)
 - [DB_03_jdbc](DB_03_jdbc.md)
-- [DB_04_odbc](DB_04_odbc.md)
+- [ODBC](ODBC.md)
 - [DB_05_Cpp](DB_05_Cpp.md)
 - [DB_06_CSharp](DB_06_CSharp.md)
 - [DB_06_UE_CSharp](DB_06_UE_CSharp.md)
