@@ -39,4 +39,5 @@ Ohne Push-Berechtigung sind Folgende Einstellungen (`Ctrl+,`) des Obsidian Git P
 - <https://wch.github.io/latexsheet/latexsheet-a4.pdf>
 - <https://www.rexegg.com/regex-quickstart.html>
 - <https://regex101.com/>
-- <https://vim.rtorr.com/>
+- https://vim.rtorr.com/
+- https://blacksmithgu.github.io/obsidian-dataview/
