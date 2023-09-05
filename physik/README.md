@@ -1,6 +1,6 @@
-# physik
+# Physik
 
 ```dataview
 TABLE tags
-FROM "physik" AND #MOC
+FROM "Physik" AND #MOC
 ```

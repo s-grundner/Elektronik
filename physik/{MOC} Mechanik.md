@@ -10,13 +10,13 @@ created: 19th August 2022
 
 ## 1. JG
 
-### Masse, Volumen und Dichte
+### Masse, Volumen Und Dichte
 
-### Kraft und Kraftarten
+### Kraft Und Kraftarten
 
-### Kräfteaddition und -Zerlegung
+### Kräfteaddition Und -Zerlegung
 
-### Kraft und Masse - Ortsfaktor
+### Kraft Und Masse - Ortsfaktor
 
 ### Hooke'sches Gesetz
 
@@ -26,7 +26,7 @@ created: 19th August 2022
 
 ### Bewegungsänderung
 
-### Reibung und Fortbewegung
+### Reibung Und Fortbewegung
 
 ## [Keplersche Gesetze](Keplersche%20Gesetze)
 
