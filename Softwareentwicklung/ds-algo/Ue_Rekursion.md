@@ -48,36 +48,31 @@ Wird hier ein entsprechend großer Bereich eingeben, dann bricht auch hier das P
 
 ## Ganzzahlige Multiplikation
 
-Rekursiv kann eine Multiplikation sehr einfach in eine Addition überführt werden (so machen wir das auch wenn wir im Kopf rechnen):
-
-​	mult(a, b) = 0						für b = 0
-
-​	mult(a, b) = a + mult(a, b-1)		sonst
+> [!EXAMPLE] Rekursiv kann eine Multiplikation sehr einfach in eine Addition überführt werden (so machen wir das auch wenn wir im Kopf rechnen):  
+> mult(a, b) = 0						für b = 0  
+> mult(a, b) = a + mult(a, b-1)		sonst
 
 Typischer Fehler: Abbruchbedingung wird nie erreicht wenn b<0 ist.
 
 ## Ganzzahlige Division
 
-Auch eine Division kann durch eine Rekursion relativ einfach gelöst werden (ohne Verwendung von "%" und "/").
-
-​	div(a, b) = 0					für b > a
-​	div(a, b) = 1 + div(a-b, b)		sonst
+> [!EXAMPLE] Auch eine Division kann durch eine Rekursion relativ einfach gelöst werden (ohne Verwendung von "%" und "/").  
+> `div(a, b) = 0 //für b > a`  
+> `div(a, b) = 1 + div(a-b, b) //sonst`
 
 ## Ganzzahlige Subtraktion
 
-Subtraktion rekursiv:
-
-​	sub(a, b) = a					für b = 0
-
-​	sub(a, b) = sub(a, b-1) - 1		sonst
+> [!EXAMPLE] Subtraktion rekursiv:  
+> ​sub(a, b) = a					für b = 0  
+> sub(a, b) = sub(a, b-1) - 1		sonst
 
 ## Faktorielle
 
-> [!EXAMPLE] In der Wahrscheinlichkeitsrechnung oder in Taylorreihen findet sich die Faktorielle (oder auch Fakultät) einer Zahl:
-​n! = 1 * 2 * … * (n-1) * (n)		mit		0! = 1, 1! = 1
-und mit:
-​n! = (n-1)! * n
-eine typisch rekursive Formulierung.
+> [!EXAMPLE] In der Wahrscheinlichkeitsrechnung oder in Taylorreihen findet sich die Faktorielle (oder auch Fakultät) einer Zahl:  
+> ​n! = 1 * 2 * … * (n-1) * (n)		mit		0! = 1, 1! = 1  
+> und mit:  
+> ​n! = (n-1)! * n  
+> eine typisch rekursive Formulierung.
 
 ```c
 int fact(int n) {
@@ -131,17 +126,17 @@ Diese Folge von Zahlen findet sich in der Natur sehr häufig: in Wachstumsformen
 
 ## Potenzieren Schnell
 
-​	pow(x, n) = 1							wenn	n = 0
-​	pow(x, n) = pow(x, n/2) * pow(x, n/2)	wenn n geradzahlig
+​	pow(x, n) = 1							wenn	n = 0  
+​	pow(x, n) = pow(x, n/2) * pow(x, n/2)	wenn n geradzahlig  
 ​	pow(x, n) = x * pow(x, n/2) * pow(x, n/2)	sonst
 
 ## Umrechnen Dezimale in Duale Zahlen
 
-> [!EXAMPLE] Beispiel:
-> 13/2 = 6		Rest: 1
-> 6/2 = 3		Rest: 0
-> 3/2 = 1		Rest: 1
-> 1/2 = 0		Rest: 1
+> [!EXAMPLE] Beispiel:  
+> 13/2 = 6		Rest: 1  
+> 6/2 = 3		Rest: 0  
+> 3/2 = 1		Rest: 1  
+> 1/2 = 0		Rest: 1  
 > Ergebnis: 1101
 
 Die Abbruchbedingung: wenn das Ergebnis der ganzzahligen Division 0 ergibt.

@@ -1,16 +1,20 @@
 ---
-tags: ["Algorithmus"]
+tags:
+  - Algorithmus
+  - Suchen
 aliases: []
 created: 29th November 2022
 ---
 
 # Suchen in Feldern/Arrays
 
-Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht . Dieser Wert wird als **Schlüssel** bezeichnet.
+Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht. Dieser Wert wird als **Schlüssel** bezeichnet.
 
-[Sequential Search](Sequential%20Search.md)
-
-[Binary Search](Binary%20Search.md)
+```dataview
+LIST
+FROM #Algorithmus AND #Suchen
+SORT file.name
+```
 
 ## C-Standard-Bibliotheksfunktion Bsearch
 

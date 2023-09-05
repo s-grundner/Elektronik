@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 3 Sortieren - Übungen
 
-## [Bubble Sort](Bubble%20Sort.md) für int/txt/struct-Array (2006)
+## [Bubble Sort](Bubble%20Sort.md) Für int/txt/struct-Array (2006)
 
 Das folgende Programm soll:
 
@@ -227,7 +227,7 @@ und die Vergleichsfunktion kann in der Funktion so aufgerufen werden:
 
 `(*compare)(ptr, ptr+size)`
 
-## Laufzeitanalyse mit clock() (2009)
+## Laufzeitanalyse Mit clock() (2009)
 
 Um die Zeitdauer von Programmteilen zu untersuchen, kann im einfachsten Fall ein interner Timer verwendet werden:
 
@@ -255,7 +255,7 @@ int main() {
 }
 ```
 
-## Laufzeitanalyse von Sortieralgorithmen (2010)
+## Laufzeitanalyse Von Sortieralgorithmen (2010)
 
 Sie sollen unterschiedliche Sortieralgorithmen analysieren. Es soll ein Programm erstellt werden, mit dem drei verschiedene Zustände von Daten sortiert werden.
 
@@ -322,7 +322,7 @@ Folgende Tabelle soll ausgegeben werden:
 
 Mithilfe dieser Analyse können Sie sich ein detaillierteres Bild von der Effizienz der einzelnen Algorithmen machen. Natürlich sollten Sie diese Laufzeitmessung nicht allzu genau nehmen. Für eine exaktere und genauere Messung sollten Sie auf jeden Fall einen Profiler einsetzen. Denn das Programm zur Laufzeitmessung ist während der Ausführung sicherlich nicht das einzige Programm, welches gerade auf Ihrem System läuft.
 
-## Laufzeitanalyse mit Profiler
+## Laufzeitanalyse Mit Profiler
 
 Für kleinere Programme können Sie eine Laufzeitmessung mit der Funktion clock() vornehmen. Für größere und umfangreiche Projekte ist diese Funktion aber weniger geeignet. Bei solch speziellen Fällen sollten Sie extra Programme einsetzen, die für diese geschrieben wurden, so genannte Profiler.
 
@@ -350,7 +350,7 @@ Bei den kommerziellen Entwicklungsumgebungen ist der Profiler im Normalfall mit 
 
   Im zweiten Teil befindet sich die Verteilung der Rechenzeit von Funktionen, auf die von ihnen aufgerufenen Unterfunktionen. Mehr zum Werkzeug gprof erfahren Sie in der entsprechenden Dokumentation.
 
-## Visuelle Darstellung von Sortierverfahren
+## Visuelle Darstellung Von Sortierverfahren
 
 Erweitern Sie die js-Codes der einzelnen Sortieralgorithmen so, dass die HTML-Datei VisuellSort.html funktioniert.
 

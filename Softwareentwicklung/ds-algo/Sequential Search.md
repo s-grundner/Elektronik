@@ -1,4 +1,13 @@
-# Sequentielles Suchen (2050)
+---
+tags:
+  - Suchen
+  - Algorithmus
+aliases:
+  - Sequentielles Suchen
+created: 5. September 2023
+---
+
+# Sequentielles Suchen
 
 In einem Feld kann ein Schlüssel gesucht werden, indem im Feld aufsteigend, vom ersten Element beginnend, mit dem Suchwert verglichen wird. Dieses **sequentielle Suchen** benötigt für N Elemente im Feld:
 

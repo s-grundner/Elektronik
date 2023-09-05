@@ -6,9 +6,9 @@ created: 29th November 2022
 
 # Wiederholung C
 
-## Arrays und Strings
+## Arrays Und Strings
 
-### Primzahlen – Sieb des Eratosthenes (066)
+### Primzahlen – Sieb Des Eratosthenes (066)
 
 Primzahlberechnung nach dem Sieb-Verfahren: Schreiben Sie alle Zahlen (z.B. von 2 bis 100) in ein Array. Beginnend mit der kleinsten Zahl wird die Zahl als Primzahl auf dem Bildschirm ausgegeben und gleichzeitig alle Vielfachen dieser Zahl im Array auf 0 gesetzt d.h. aus der Liste gestrichen. Anschliessend wird die nächste Zahl ungleich 0 im Array bearbeitet.
 
@@ -70,7 +70,7 @@ Im obigen Beispiel wurden übrigens nur paarweise manchmal Buchstaben im Wort ve
 
 Extraarbeit: Versehen Sie Ihr Programm mit einem kleinen DOS-Menü, dass den Text (max. 500 Zeichen) einlesen und auf Wunsch in verschiedenen Varianten ausgibt.
 
-### Wörter kürzen - removeVovel (081)
+### Wörter Kürzen - removeVovel (081)
 
 Sprachwissenschaftler sind der Ansicht, dass auch nach dem Entfernen von Vokalen der Text noch lesbar bleibt. Schreiben Sie eine Funktion void removeVovel(char s[]), die aus einem Text s die Vokale entfernt. Stimmt es, was die Wissenschaftler sagen?
 
@@ -92,7 +92,7 @@ Welcher Text wird mit printf auf stdout ausgegeben?
 
 Schreiben Sie eine Funktion **minsumcol**, die eine 2-dimensionale Matrix mit der Dimension 8 Zeilen und 10 Spalten gefüllt mit positiven ganzzahligen Werten entgegennimmt. Berechnen Sie von allen Spalten die Summe. Die Funktion soll als Ergebnis den Index jener Spalte der kleinsten Spaltensumme liefern. Im Fehlerfall soll ein negativer Wert zurück gegeben werden. Sollten mehrere Spalten das Minimum bilden, so ist dies wie ein Fehler zu behandeln.
 
-### Teste auf Untere Dreiecksmatrix (069)
+### Teste Auf Untere Dreiecksmatrix (069)
 
 Schreiben Sie ein Programm, dass testet, ob eine Matrix eine untere Dreiecksmatrix ist. Das bedeutet, dass über der Hauptdiagonale nur 0en stehen dürfen. Der Rest ist beliebig. Die Matrix muss quadratisch sein.
 
@@ -156,7 +156,7 @@ Eingabe: Hangman → richtig geraten / bzw. Zurückkehren zum Buchstabenraten
 Hinweis:  
 Sie können das Spiel abwechslungsreicher gestalten, wenn Sie sich eine Tabelle von zu ratenden Wörtern im Programm anlegen und aus dieser Tabelle zufällig einen Eintrag auswählen, anstatt diesen vorher einzugeben.
 
-### Feld und Zeiger (090)
+### Feld Und Zeiger (090)
 
 Was gibt das folg. Programm aus?
 
@@ -257,7 +257,7 @@ gladbach:bayer:0:0
 real:barca:3:1
 ```
 
-### OPEN DATA und SALZBURG (wlanhotspots) (037)
+### OPEN DATA Und SALZBURG (wlanhotspots) (037)
 
 PROGRAMM-NAME: opendata-salzburg-wlanhotspot-osm.c
 

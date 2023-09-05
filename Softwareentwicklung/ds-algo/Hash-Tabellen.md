@@ -1,12 +1,13 @@
 ---
-tags: ["Algorithmus"]
-aliases: []
+tags:
+  - Algorithmus
+aliases:
+  - Assoziative Listen
+  - Hash Table
 created: 29th November 2022
 ---
 
-# 5.1 Hash-Tabellen / Assoziative Listen
-
-## Hash-Tabellen
+# Hash-Tabellen
 
 Nachteil von einfachen Listen/Bäumen: die Suche erfolgt sequentiell um ein Element zu finden. Einfügen und Löschen von Elementen ist mit einem erhöhtem Aufwand verbunden.
 
@@ -18,7 +19,7 @@ Von diesem Aspekt aus Verbesserung:
 
 Beispiel: Element Nummer 7 ist zu finden an Position 7: arr[7]
 
-### Hashfunktion
+## Hashfunktion
 
 Vor der Erstellung einer Hash-Tabelle muss ein Teil eines Datenobjekts (wenn nicht nur reine Nummern abgelegt werden) als **Schlüssel** definiert werden. 
 
@@ -27,12 +28,8 @@ Zum Abspeichern steht ein $m$ Plätze großer Speicherbereich (**Behälter**) zu
 Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $m$ Speicherplätze ab.
 
 > Hashtabellen sind Arrays in welchen sich die Position im Array aus dem Schlüssel von Datenobjekten berechnet.
-
-
-
-![](C:\daten\Skripten\Informatik\Algo\bilder\HashTable_01.png)
-
-### Beispiel
+![HashTable_01](../../HashTable_01.png)
+## Beispiel
 
 - Bankkunden sollen in einer Hashtabelle gespeichert werden. Ein Datenobjekt besteht aus Name, Adresse, Kontonummer, …
 - Als Schlüssel wird die Kontonummer ktoNr (Teil des Datenobjekts) gewählt
@@ -40,11 +37,11 @@ Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $
 
 Eine Hashfunktion muss sämtliche möglichen Kontonummern auf die Zahlen 0 … 999 abbilden.
 
-Eine einfache Hashfunktion (Modulo-Operation): *h(ktoNr) = ktoNr %  m​*
+Eine einfache Hashfunktion (Modulo-Operation): *h(ktoNr) = ktoNr % m​*
 
 Problem: Es kann mehr Kontonummern als Speicherplätze geben.
 
-### Gute Hashfunktion
+## Gute Hashfunktion
 
 - möglichst wenige Objekte werden auf eine Adresse abgebildet. Werden mehre Objekte auf eine Hashadresse abgebildet, spricht man von einer **Kollision**.
 - eine Hashfunktion wird als **perfekt** für eine Menge bezeichnet wenn sie ohne Kollision abbildet.
@@ -55,7 +52,7 @@ Ist die Hashfunktion nicht perfekt dann muss es möglich sein mit einer Hashadre
 - Dazu werden die Speicherplätze oft als Array von verketteten Listen definiert: **Hashverfahren mit Verkettung**. Kommt ein Eintrag auf einen Platz der schon besetzt ist, dann wird in der Liste auf diesem Platz ein neues Element eingefügt.
 - in **offenen Hashverfahren** werden Objekte die an der Hashadresse keinen Platz finden (**Überläufer**) in einem anderen Behälter gespeichert. Das Array muss dazu groß genug sein. Die Reihenfolge wie Überläufer verschoben wird muss ebenfalls berechnet werden (unterschiedliche Methoden).
 
-### Dynamische Hashverfahren
+## Dynamische Hashverfahren
 
 Mögliche Probleme einer Hashtabelle:
 
@@ -64,7 +61,7 @@ Mögliche Probleme einer Hashtabelle:
 
 Verbesserung durch Reorganisation: Tabellengröße dynamisch, Hashfunktion anpassen, Umspeichern von Elementen. Am einfachsten wenn eine Mehrfachbelegung auftritt eine neue, größere Tabelle erzeugen und die Daten umkopieren.
 
-## Assoziative Listen
+# Assoziative Listen
 
 - Assoziative Felder eignen sich dazu Elemente aus einer großen Menge an Daten zu ermitteln.
 
@@ -145,16 +142,9 @@ Integer n = numbers.get("two");		// To retrieve a number, use the following code
 if (n != null) System.out.println("two = " + n);
 ```
 
-## Referenzen
+# Referenzen
 
 - Einfache Einführung (für Java)  
   [http://www.codeadventurer.de/?p=2091](http://www.codeadventurer.de/?p=2091)
 - Gutes einführendes C-Beispiel  
   [https://www.tutorialspoint.com/data_structures_algorithms/hash_table_program_in_c.htm](https://www.tutorialspoint.com/data_structures_algorithms/hash_table_program_in_c.htm)
-
-## Fragen
-
-- Welche Vorteile haben Hash-Tabellen gegenüber Listen?
-- Was ist eine Voraussetzung für die Verwendung einer Hashtabelle?
-- Was ist eine Hashfunktion?
-- Was versteht man unter einer Kollision?
