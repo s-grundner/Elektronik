@@ -1,6 +1,8 @@
 ---
-tags: ["OS", "MOC"]
-aliases: ["Betriebsystem", "Betriebssysteme"]
+tags:
+  - OS
+  - MOC
+aliases: []
 created: 25th August 2023
 ---
 

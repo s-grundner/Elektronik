@@ -5,15 +5,13 @@ aliases: []
 created: 29. November 2022
 ---
 
-# 3 Os - Synchronisation - Java
+# Synchronisation - Java
 
 Häufig müssen parallel laufende Threads miteinander synchronisiert werden (Ablauf aufeinander abgestimmt). Das kann durch die Nutzung gemeinsamer Betriebsmittel, Datenbereichen oder beim Austausch von Information notwendig sein. In vielen Fällen ist der gleichzeitige Zugriff auf Betriebsmittel nicht zulässig oder kann Fehler verursachen (siehe weiter unten).
 
 Wenn der Zugriff nicht geregelt wird, dann kann es zur sogenannten **Race Condition** kommen. Damit ist gemeint, dass jeder Thread versucht, seine Operationen so schnell wie möglich zu erledigen, ohne die Organisation des Gesamt-Prozesses zu berücksichtigen. Damit können sich Threads ungünstig gegenseitig behindern. Da sich der Ablauf dadurch zwangsläufig "eher sporadisch" verhält, sollten Data-Races vermieden werden und der Zugriff auf geteilte Ressourcen (**gemeinsame Variable**) organisiert werden (Fehler durch Data-Races sind oft sehr schwer zu finden).
 
 Ein wichtiges Konzept um dieses Problem zu behandeln ist die Sperrsynchronisation - **Mutex**: (**Mut**ual **Ex**clusion): dieser Begriff fasst Verfahren mit wechselseitigem Ausschluss (im Bezug auf kritische Bereiche) zusammen. Im Allgemeinen wird dabei der Zugang zu einem kritischen Bereich für andere Threads gesperrt wann immer dieser Bereich betreten wird.
-
----
 
 **Lost Update-Beispiel von Oben:**  
 Thread1 und Thread2 greifen schreibend auf eine gemeinsame Variable namens `mCount` zu. Sie wollen jeweils die Variable `mCount` um 1 erhöhen. 
@@ -38,8 +36,6 @@ T1: write variable mCount (8)
 Eigentlich müsste `mCount` den Wert 9 haben, da `mCount` ja 2 mal erhöht wurde, es wurde jedoch einer der Updates verloren -> **Lost Update**
 
 In diesem Beispiel ist der gesamte Inkrementiervorgang (read, inc und write) ein **kritischer Abschnitt**. Der Zugriff auf die gemeinsame Variable muss synchronisiert werden.
-
----
 
 ## Monitor
 
@@ -521,6 +517,5 @@ Beherzigen Sie folgende Regeln bei der Synchronisierung von Threads:
 - Java-Semaphore/Mutex  
   <https://www.mkyong.com/java/java-thread-mutex-and-semaphore-example/>
 
-- Java -> Insel
-
+- Java -> Insel  
   <http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_14_001.htm#mj8c6f381221d805dd6fbe480731ac0c58>

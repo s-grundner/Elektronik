@@ -1,13 +1,16 @@
 ---
 tags:
   - OS
-aliases: []
+aliases:
+  - Betriebssystem
+  - Operating System
+  - Operating Systems
 created: 29. November 2022
 ---
 
 # Betriebssysteme
 
-## 1. Allgemein
+## Allgemein
 
 Ein [Betriebssystem]({MOC}%20Operating%20Systems.md) ist die **Software**, die **den Betrieb Computers ermöglicht**.
 
@@ -67,7 +70,7 @@ Je nach den verschiedenen Aufgabenbereichen entstanden verschiedene Arten von Be
 
 - Time-Sharing-Systeme,  
 
-- Real-Time-Systeme und  
+- Real-Time-Systeme ([RTOS](RTOS.md)) und  
 
 - Mobile- / Handheld-Systeme.
 
@@ -117,7 +120,7 @@ Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange
 
 ![Multitasking](assets/OS_Multitasking.png)
 
-## 2. Prozesse
+## Prozesse
 
 - **Programm**
 
@@ -274,7 +277,7 @@ Durch die Suspendierungsmöglichkeit erweitert sich das Diagramm der Prozesszust
 
 ![](assets/OS_Prozesse_08.png)
 
-## 3. Prozess-Synchronisation
+## Prozess-Synchronisation
 
 In einigen Multitasking-Betriebssystemen teilen sich verschiedene Prozesse *gemeinsame Betriebsmittel* (Ressourcen). Bei gleichzeitigem Zugriff mehrerer Prozesse auf diese Betriebsmittel kann es zu Inkonsistenzen der Daten kommen, die oft sehr schwer aufzuspüren sind.  
 
@@ -569,7 +572,7 @@ Damit kann der Erzeuger nun loslegen.
 
 …
 
-## 4. Prozess-Kommunikation
+## Prozess-Kommunikation
 
 Einige Möglichkeiten der Interprocess Communication (IPC):
 
@@ -624,7 +627,7 @@ Einige Möglichkeiten der Interprocess Communication (IPC):
 
 Selbst bei sehr einfachen Betriebssystemen ist eine IPC notwendig, da zumindest eine Kommunikation zwischen einem Prozess und dem Scheduler möglich sein muss.  
 
-## 5. Prozess-Scheduling
+## Prozess-Scheduling
 
 In Multitasking-Betriebssystemen ist ein spezieller Prozess notwendig, der aus den bereiten Prozessen den nächsten aktiven Prozess auswählt. Sobald mehr als ein Prozess den Zustand *bereit* besitzt, muss der Scheduler des Betriebssystems entscheiden, welcher Prozess die CPU erhält (wir gehen zur Vereinfachung von einem System mit nur einem Prozessor aus). Kriterien für einen guten Scheduler sind:
 
@@ -685,7 +688,7 @@ In **Dialogsystemen** wird normalerweise **Round Robin** verwendet, um den Benut
 
 Manche Singletasking-BS (z. B. MS-DOS) sind nicht reentrant und daher nicht oder nur schwer auf Multitaskingbetrieb erweiterbar.  
 
-## 6. Gemeinsame Nutzung Von Betriebsmitteln/Deadlocks
+## Gemeinsame Nutzung Von Betriebsmitteln/Deadlocks
 
 Manche Betriebsmittel dürfen nicht gleichzeitig von mehreren Prozessen genutzt werden. Klassisches Beispiel ist hier der Drucker. Die Ausgaben mehrerer Prozesse würden vermischt. Abhilfe bietet hier die Nutzung des Druckers durch einen einzigen Prozess, den Druckerspooler. Alle Prozesse übergeben ihre Ausgaben an diesen Prozess, der die Druckaufträge in einer Warteschlange speichert und nacheinander abarbeitet.  
 
