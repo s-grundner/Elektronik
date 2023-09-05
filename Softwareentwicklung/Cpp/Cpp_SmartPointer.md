@@ -4,7 +4,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# 6 Smart Pointer
+# Smart Pointer
 
 Zeiger sind kennzeichnend für C/C++. In vielen anderen Programmiersprachen ist dieses Konzept nicht vorhanden. Der Grund sind häufig auftretende Fehler die sehr aufwändig zu finden/beheben sind und damit die Vorteile von Zeigern häufig zu zunichte machen. Typische Fehler:
 

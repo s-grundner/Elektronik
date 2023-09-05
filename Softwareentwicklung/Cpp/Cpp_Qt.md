@@ -1,5 +1,7 @@
 ---
-tags: ["cpp"]
+tags:
+  - cpp
+  - QT
 aliases: []
 created: 29. November 2022
 ---

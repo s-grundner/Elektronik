@@ -1,5 +1,8 @@
 ---
-tags: ["c/c", "c/static", "c/extern", "c/volatile"]
+tags:
+  - c/static
+  - c/extern
+  - c/volatile
 aliases: []
 created: 29th November 2022
 ---

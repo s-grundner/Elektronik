@@ -1,5 +1,8 @@
 ---
-tags: ["c", "Stack", "Heap", "c/free", "c/malloc"]
+tags:
+  - c/free
+  - c/malloc
+  - DS
 aliases: []
 created: 29th November 2022
 ---
@@ -65,7 +68,7 @@ int main()
 }
 ```
 
-### stack
+### Stack
 
 Auf dem Stack (Stapel) werden sämtliche andere lokale Variable abgelegt. Weiters Parameter von Funktionen, Rücksprungadressen von Funktionen und Rücksprungadressen und ein Abbild der Register beim Aufruf von Interruptserviceroutinen. Ein Stack funktioniert wie ein LIFO-Speicher (Last-In-First-Out).
 
@@ -93,7 +96,7 @@ Beim Aufruf der Funktion **funct()** wird der aktuelle Instruction Pointer ([IP]
 
 Der Stack hat eine begrenzte Größe, wächst und schrumpft während dem Programmverlauf, der Zugriff ist sehr effizient (Zugriff ohne eigenen Zeiger) und muss nicht explizit freigegeben werden.
 
-### heap
+### Heap
 
 Auf dem Heap (Haufen) wird dynamisch angeforderter Speicher abgelegt:
 
