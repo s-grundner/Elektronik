@@ -1,10 +1,10 @@
 ---
-tags: ["Java"]
+tags: ["Java", "Java/array", "Java/methoden"]
 aliases: []
 created: 29th November 2022
 ---
 
-# 7.1 Arrays - Felder
+# Arrays - Felder
 
 ## Allgemein
 
@@ -53,10 +53,7 @@ primZahlen[4] = 7;
 
 > Grundsätzlich gilt: nach der Initialisierung kann die Anzahl der Elemente in einem Array nie mehr verändert werden 
 
-**Beispiele:**
-
-- Namensliste:
-
+> [!EXAMPLE] Namensliste:
   ```java
   String[] arrName = {"Sepp", "Franz", "Klaus", "Siegfried", "Herfried", "Sigmund"};
   System.out.println(arrName[3] + ", " + arrName[5]);			// Ausgabe: "Siegfried, Sigmund"
@@ -64,15 +61,13 @@ primZahlen[4] = 7;
   System.out.println(arrName[3] + ", " + arrName[5]);			// Ausgabe: "Hias, Sigmund"
   ```
 
-- Preisliste:
-
+> [!EXAMPLE] Preisliste:
   ```java
   double[] price = {1.2, 2.4, 1.1, 7.3};
   price[0] = price[3] - price[1];			// Ergebnis von (7.3-2.4) wird in das 1te Element geschrieben
   ```
 
-- Hexadezimale Ziffern (lange Form):
-
+> [!EXAMPLE] Hexadezimale Ziffern (lange Form):
   ```java
   char[] hexDigit = new char[16];
   hexDigit[0] = '0';
@@ -103,11 +98,11 @@ Ein Zugriff auf Elemente außerhalb der festgelegten Größe führt zu einem Feh
 >
 > Einmal festgelegt, kann die Größe eines Arrays nicht mehr verändert werden.
 
-## Im Detail
+## Im Detail 🔎
 
-Arrays gehören nicht zu den primitiven Datentypen. Sie gehören zu den **Referenzdatentypen**. 
+> [!WARNING] Arrays gehören nicht zu den primitiven Datentypen. Sie gehören zu den **Referenzdatentypen**. 
 
-Wie genau werden **primitive Datentypen**, z.B. `int num;`, im Rechner gespeichert?
+> Wie genau werden **primitive Datentypen**, z.B. `int num;`, im Rechner gespeichert?
 
 Der definierte Variablenname *num* ist ein Platzhalter für einen Platz im Arbeitsspeicher des Rechners. Für diese Integer Variable würden 32 Bit (bzw. 4 Byte) Speicherzellen im Rechner reserviert. Reserviert bedeutet, er wird für den Inhalt von *num* verwendet (und von sonst niemanden).
 
@@ -119,7 +114,7 @@ Für unsere Wohnorte machen wir das ähnlich: Sepp wohnt in der *Viehwaldstätte
 
 Diese *direkte* Art der Adressierung wird für sämtliche primitiven Datentypen verwendet. Im folgenden Beispiel ist eine Variable b = 107 gesetzt worden. Im Programm wird die Variable mit ihrem Namen b angesprochen, der Inhalt der Variable (107) liegt hier an der Adresse 94. 
 
-![05_Felder01](assets/05_Felder01.png)
+![05_Felder01|500](assets/05_Felder01.png)
 
 Was versteht man nun unter **Referenzdatentypen**?
 
@@ -128,7 +123,7 @@ Bei primitiven Datentypen wird der Wert einer Variable direkt unter der Adresse 
 Der Wert einer Referenzdatentyp-Variable ist also unter der Adresse abgelegt die an der Adresse der Variable liegt. Im folgenden Beispiel wird eine Referenzvariable (z.B. ein Feld) mit dem Namen r verwendet. An der Adresse (101) für die r steht ist nicht der Wert, sondern wieder eine Adresse (123). Unter dieser Adresse ist der eigentliche Wert der Referenzvariable abgelegt. Für eine Feldvariable also liegen ab dieser Adresse die Feldwerte.
 
 
-![05_Felder02](assets/05_Felder02.png)
+![05_Felder02|500](assets/05_Felder02.png)
 
 In vielen Fällen ist das Wissen über die Art der Adressierung unerheblich. In manchen Fällen erklärt es aber ansonsten seltsam anmutende Fälle:
 
@@ -198,16 +193,14 @@ for (int element : arr) {
 
 Das Schlüsselwort ist ebenfalls *for* (in anderen Programmiersprachen gibt's oft zur Unterscheidung ein *foreach*). Es folgt ein Parameter der vom gleichem Typ wie ein Element des Arrays sein muss und ein Name um den Wert verarbeiten zu können. In jedem Schleifendurchlauf wird mit der Variable *element* ein Element des Arrays *arr* zur Verfügung gestellt. Die Schreibweise ist ein wenig kürzer, der Nachteil dieser Abkürzung ist jedoch, dass kein Zähler zur Verfügung steht.
 
-## Methoden / Eigenschaften Von Arrays
+## Methoden Von Arrays
 
-`arr.length`				gibt die Anzahl der Elemente im Array arr zurück
-
-`Arrays.toString(arr)`	Wandelt das Array arr in einen String zur Ausgabe um
+| Methode                | Beschreibung                                                     |
+| ---------------------- | ---------------------------------------------------- |
+| `arr.length`           | gibt die Anzahl der Elemente im Array arr zurück     |
+| `Arrays.toString(arr)` | Wandelt das Array arr in einen String zur Ausgabe um |
+| `Arrays.sort()`        | Aufsteigend sortieren                                |
+| `Arrays.fill()`        | Array mit Daten füllen                               |
+| `Arrays.copyOfRange()` | Teile eines Felds kopieren                           |
 
 Neben `toString` bietet die Klasse `java.util.Arrays` eine Reihe hilfreicher Methoden zum Sortieren, Suchen, Kopieren (auch nur Teile) und Vergleichen an:
-
-`Arrays.sort()`			Aufsteigend sortieren
-
-`Arrays.fill()`			Array mit Daten füllen
-
-`Arrays.copyOfRange()`	Teile eines Felds kopieren

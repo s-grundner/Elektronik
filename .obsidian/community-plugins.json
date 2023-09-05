@@ -53,5 +53,7 @@
   "obsidian-style-settings",
   "obsidian-reveal-active-file",
   "drawio-obsidian",
-  "obsidian-react-components"
+  "obsidian-react-components",
+  "obsidian-admonition",
+  "mousewheel-image-zoom"
 ]
