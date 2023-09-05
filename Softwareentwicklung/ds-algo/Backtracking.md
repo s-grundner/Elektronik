@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 4 Backtracking
+# Backtracking
 
 Backtracking ist ein Problemlösungsverfahren nach dem *Trial-and-Error* (Versuch-und-Irrtum) Prinzip. Auf dem Weg zur Lösung wird ein möglicher Versuch angenommen und verfolgt bis er sich als richtig herausstellt oder ansonsten wird der Versuch zurückgenommen und ein alternativer Versuch unternommen.
 
@@ -16,9 +16,9 @@ Der ganz große Vorteil von Backtracking ist, dass keine spezielle Lösungsstrat
 
 Wird die Lösung ohne gut durchdachte Lösungsstrategien gesucht, also einfach nur durch Probieren sämtlicher Möglichkeiten, dann wird diese Lösungs-Art als *Lösen durch rohe Gewalt* bzw. *Brute Force* bezeichnet.
 
-## Beispiel Labyrinth (2103)
+## Beispiel Labyrinth
 
-Gegeben ist ein Labyrinth mit einer Startund einer End-Position auf einem 2 dimensionalen Raster.
+Gegeben ist ein Labyrinth mit einer Start und einer End-Position auf einem 2 dimensionalen Raster.
 
 1. Auf dem Raster gibt es begehbare Felder und nicht begehbare Felder (Mauer)
 
@@ -80,16 +80,7 @@ ______________________________________________________________
 |____________________________________________________________|
 ```
 
-## Referenzen
+# Referenzen
 
 - Erklärung und Beispiele:
-
   [https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf](https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf)
-
-## Fragen
-
-- Was versteht man unter Trial-and-Error (im Zusammenhang mit Backtracking)?
-- Kann mittels Backtracking *immer* eine Lösung gefunden werden?
-- Kann mittels Backtracking immer eine *optimale* Lösung gefunden werden?
-- Was ist der große Vorteil von Backtracking (muss ein mathematischer Lösungsansatz entwickelt werden)?
-

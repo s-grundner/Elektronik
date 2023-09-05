@@ -4,6 +4,8 @@ tags:
 aliases:
   - Assoziative Listen
   - Hash Table
+  - Hash Maps
+  - Hash Map
 created: 29th November 2022
 ---
 
@@ -27,8 +29,9 @@ Zum Abspeichern steht ein $m$ Plätze großer Speicherbereich (**Behälter**) zu
 
 Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $m$ Speicherplätze ab.
 
-> Hashtabellen sind Arrays in welchen sich die Position im Array aus dem Schlüssel von Datenobjekten berechnet.
+> Hashtabellen sind Arrays in welchen sich die Position im Array aus dem Schlüssel von Datenobjekten berechnet.  
 ![HashTable_01](../../HashTable_01.png)
+
 ## Beispiel
 
 - Bankkunden sollen in einer Hashtabelle gespeichert werden. Ein Datenobjekt besteht aus Name, Adresse, Kontonummer, …
@@ -93,8 +96,7 @@ telbuch[ "Kaiser" ] = "0500/554432";
 cout << telbuch[ "Maier" ];
 ```
 
-Beispiel ([C++](../Cpp/{MOC}%20Cpp.md)):
-
+> [!EXAMPLE] Beispiel ([C++](../Cpp/{MOC}%20Cpp.md)):
 ```c++
 // include iostream, map, string, iterator
 // using 
@@ -130,8 +132,7 @@ if(mapOfWords.find("Mars") == mapOfWords.end())
 - Elemente Einfügen: Zugriff mit eckiger Klammer, dabei wird ein bereits vorhandener Schlüssel einfach Überschrieben. Mittels *.insert* wird ein bestehendes Element nicht überschrieben. Mit *.second* kann gleichzeitig geprüft werden ob das Element eingefügt wurde.
 - Auch für maps in [c++](../Cpp/{MOC}%20Cpp.md) gibt es Iteratoren: siehe Beispiel
 
-Beispiel Java:
-
+> [!EXAMPLE] Beispiel Java:
 ```java
 Hashtable<String, Integer> numbers = new Hashtable<String, Integer>();
 numbers.put("one", 1);
