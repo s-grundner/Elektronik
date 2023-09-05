@@ -38,7 +38,7 @@ function merge(von1, bis1, von2, bis2) {
 
 Kennzeichen:
 
-- Das zu sortierende Feld kann beliebig aufgeteilt und sortiert werden, daher ist der Algorithmus zum Sortieren großer Datenmengen geeignet (einfach mittels [Rekursion](../ds-algo/Rekursion.md)).
+- Das zu sortierende Feld kann beliebig aufgeteilt und sortiert werden, daher ist der Algorithmus zum Sortieren großer Datenmengen geeignet (einfach mittels [Rekursion](Rekursion.md)).
 - Prinzip: Teile und Herrsche (Divide and Conquer)
 - Der Mischvorgang benötigt den doppelten Speicherplatz.
 - Durch die Teilung kann die Aufgabe parallelisiert werden

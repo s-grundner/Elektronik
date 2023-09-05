@@ -22,8 +22,6 @@ Effizienter kann in einem bereits sortierten Feld mittels **Binärer Suche** ges
 
 Dieser Algorithmus lässt sich sehr einfach rekursiv lösen. Im Ungünstigsten Fall benötigt die Binäre Suche lg(N) Vergleiche.
 
-## C (rekursiv)
-
 ```c
 /*
  * binsearch(int a[], int left, int right, int key) - durchsucht das

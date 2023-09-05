@@ -17,9 +17,46 @@ Die Anzahl mit der sich eine Funktion selbst aufruft nennt sich rekursive Tiefe.
 | Can Reduce [time complexity](O-Notation.md) easily with [Memoisation](Rekursion.md#Memoisation) | Can be unnecessarily complex if poorly constructed |
 | Works really well with recursive structures (Trees, Graphs)                                     |                                                    |
 
-## Principle
+
+
+**Iteration:** mehrmaliges/wiederholtes Ausführen einer Aktion.
+
+
+
+## Prinzip
+
+Eine rekursive Funktion returnt sich selbst als einen Funktionsaufruf
+Ein *Base-Case* (Stop kondition) wird daher ben
 
 A recursive function returns itself as a function call. A *Base-Case*(Stop condition) is required.
+
+
+	Pizzaessen():
+	vom Ersten bis zum letzten Stück:
+		schneide ein Stück ab und esse ihn auf
+	ENDE
+
+Iterationen werden in Programmiersprachen durch for, while, do-while o.ä. implementiert.
+
+**Rekursion:** mehrmalige Ausführung einer Aktion durch *Selbstaufrufen*.
+
+Beispiel:
+
+	Pizzaessen():
+	wenn Teller leer: ENDE
+	sonst:
+		schneide ein Stück ab und esse ihn auf
+		Pizzaessen()
+
+Wir Menschen denken "eher Rekursiv", häufig lassen sich Probleme anschaulich rekursiv lösen. Eine Rekursion vereinfacht ein komplexes Problem mit jedem Schritt. Nachteil: in den meisten Fällen ist eine iterative Lösung effizienter. Eine rekursive Lösung benötigt durch die vielmalige Funktionsaufrufe mehr Speicher (Stack).
+
+Grundsätzlich gilt:
+
+- eine rekursive Lösung benötigt eine geeignete Abbruchbedingung
+- jedes iterativ lösbare Problem lässt sich auch rekursiv lösen und umgekehrt (nicht immer trivial).
+  
+
+![Rekursion](assets/Rekursion.png)
 
 ### Basic Attempt / Tought Process
 

@@ -10,7 +10,7 @@ Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht . Di
 
 [Sequential Search](Sequential%20Search.md)
 
-[Binary Search](../ds-algo/Binary%20Search.md)
+[Binary Search](Binary%20Search.md)
 
 ## C-Standard-Bibliotheksfunktion Bsearch
 

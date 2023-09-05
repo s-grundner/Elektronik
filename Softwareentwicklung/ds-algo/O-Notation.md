@@ -22,7 +22,7 @@ Sortieren eines schon fast fertig sortierten Felds kann zum Beispiel sehr viel s
 Um die Laufzeit unterschiedlicher Algorithmen trotzdem vergleichen zu können wird ihr Zeitverhalten in Abhängigkeit der Anzahl der Elemente betrachtet.
 
 > [!EXAMPLE]  
-> Zum Beispiel ist für den [Selection-Sort](../Algo/Selection%20Sort.md) ersichtlich, dass sich die Sortierzeit mit dem Quadrat der Anzahl der Elemente verändern wird. Dargestellt wird das mittels der **O-Notation (O für Ordnung): der [Selection-Sort](../Algo/Selection%20Sort.md) hat ein Laufzeitverhalten **$O(n^2)$**, sprich sie hat ein Verhalten *in der Ordnung von $n^2$*.
+> Zum Beispiel ist für den [Selection-Sort](Selection%20Sort.md) ersichtlich, dass sich die Sortierzeit mit dem Quadrat der Anzahl der Elemente verändern wird. Dargestellt wird das mittels der **O-Notation (O für Ordnung): der [Selection-Sort](Selection%20Sort.md) hat ein Laufzeitverhalten **$O(n^2)$**, sprich sie hat ein Verhalten *in der Ordnung von $n^2$*.
 
 ### Polynom-Laufzeit✅
 

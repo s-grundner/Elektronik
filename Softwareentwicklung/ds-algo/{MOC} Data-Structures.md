@@ -1,8 +1,14 @@
+
 ---
-tags: ["MOC","Algorithmus"]
-aliases: ["Data-Structures"]
-subject: ["fsst"]
-source: ["Anton Hofmann"]
+tags:
+  - MOC
+  - Algorithmus  
+aliases:
+  - Data-Structures  
+subject:
+  - fsst  
+source:
+  - Anton Hofmann  
 created: 19th April 2022
 ---
 
@@ -12,7 +18,7 @@ created: 19th April 2022
 
 ### Arrays
 
-### [Hash Maps](Hash%20Maps.md)
+### [Hash Map](Hash%20Map.md)
 
 ### [Linked Lists](Linked%20Lists.md)
 
