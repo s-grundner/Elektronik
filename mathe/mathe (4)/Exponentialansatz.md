@@ -14,15 +14,10 @@ Mit dem Exponentialansatz lassen sich lineare [DGL]({MOC}%20DGL.md) berechnen.
 $$
 \begin{align*}
 	y'+p\cdot y &= 0\\
-	\frac{dy}{dx}+p\cdot y&= 0
-		&&\Big |-p\cdot y
-		\Big |:y
-		\Big |\cdot dx\\
-	\frac{1}{y}dy &= -p\cdot dx
-		&&\Big |\int\\
+	\frac{dy}{dx}+p\cdot y&= 0 &&\Big |-p\cdot y\Big |: \Big |\cdot dx\\
+	\frac{1}{y}dy &= -p\cdot dx &&\Big |\int\\
 	\int\frac{1}{y}dy &= -p\cdot \int 1\cdot dx\\
-	\ln(y)+c_{1} &= -p\cdot x+c_{2}
-		&&\Big |e\uparrow\\
+	\ln(y)+c_{1} &= -p\cdot x+c_{2}&&\Big |e\uparrow\\
 \end{align*}
 $$
 $$
