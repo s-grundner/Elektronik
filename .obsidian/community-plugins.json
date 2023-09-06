@@ -7,7 +7,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
   "url-into-selection",
-  "quick-latex",
   "darlal-switcher-plus",
   "table-extended",
   "tag-wrangler",
@@ -40,5 +39,6 @@
   "obsidian-style-settings",
   "obsidian-reveal-active-file",
   "obsidian-react-components",
-  "mousewheel-image-zoom"
+  "mousewheel-image-zoom",
+  "obsidian-latex-suite"
 ]

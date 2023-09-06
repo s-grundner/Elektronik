@@ -6,7 +6,7 @@ source: ["Rudolf Frauenschuh"]
 created: 26th April 2022
 ---
 
-# Delta-Impuls $\delta(t)$ 
+# Delta-Impuls $\delta(t)$
 
 Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
 Zu seiner Einführung kann man von einem kurzen Rechtecksimpuls **$y=r(t)$** ausgehen:
@@ -42,7 +42,7 @@ Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.
 
 $d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
 
-## Ausblend-Eigenschaft des $\delta$-Impuls
+## Ausblend-Eigenschaft Des $\delta$-Impuls
 
 Wirkung des $\delta$-Impulses auf eine Zeit Funktion $f$:
 $$
