@@ -22,17 +22,17 @@
       }
     },
     {
-      "query": "path:software-technik",
+      "query": "path:Softwareentwicklung  ",
       "color": {
         "a": 1,
-        "rgb": 11861826
+        "rgb": 16743204
       }
     },
     {
-      "query": "path:hwe",
+      "query": "path:Hardwareentwicklung  ",
       "color": {
         "a": 1,
-        "rgb": 1114367
+        "rgb": 659630
       }
     },
     {
@@ -89,12 +89,12 @@
   "showArrow": false,
   "textFadeMultiplier": 0.6,
   "nodeSizeMultiplier": 1.59224407278074,
-  "lineSizeMultiplier": 0.900606506156956,
+  "lineSizeMultiplier": 0.845103092783505,
   "collapse-forces": false,
   "centerStrength": 0.516640938561284,
   "repelStrength": 20,
   "linkStrength": 0.777462179685088,
   "linkDistance": 141,
-  "scale": 0.22920135941749414,
+  "scale": 0.05932617187500093,
   "close": false
 }

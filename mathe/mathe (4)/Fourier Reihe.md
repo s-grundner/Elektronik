@@ -52,11 +52,12 @@ $$
 f(t) &= \frac{a_{0}}{2}\sum\limits^\infty_{n=1}[a_{n}\cdot\cos(n\cdot\omega_{0}\cdot t) + b_{n}\cdot\sin(n\cdot\omega_{0}\cdot t)]
 \end{align*}
 $$
+
 $$
 \begin{align*}
 a_{n} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)\cdot\cos(n\cdot\omega_{0}\cdot t)dt\\
 b_{n} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)\cdot\sin(n\cdot\omega_{0}\cdot t)dt\\
-a_{0} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)dt
+a_{0} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)dt\\
 \end{align*}
 $$
 Gleichrichtwert $\dfrac{a_{0}}{2}$
@@ -68,5 +69,10 @@ Gleichrichtwert $\dfrac{a_{0}}{2}$
 ---
 
 # Tags
+
+$$
+\alpha \risingdotseq
+$$
+
 
 ![Fourierreihe](../assets/Fourierreihe.pdf)
