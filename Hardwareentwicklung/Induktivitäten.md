@@ -14,7 +14,7 @@ created: 8th April 2022
 | ------------- | --- |
 | ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png)    |
 
-## Induktivitäten als Bauelemente Leistungselektronischen Schaltungen
+## Induktivitäten Als Bauelemente Leistungselektronischen Schaltungen
 
 Unter **Vernachlässigung** von **$R_{L}$** und der **parasitären Parallelkapazität $C_{L}$**, gilt für lineare Materialien der folgende Zusammenhang der die Spannung an der Induktivität beschreibt:
 $$
@@ -49,11 +49,11 @@ $$
 $$
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
-### Einschaltvorgang einer Induktivität
+### Einschaltvorgang Einer Induktivität
 
 >![indu-einsch](assets/indu-einsch.png)
 
-### Abschaltvorgang einer Induktivität
+### Abschaltvorgang Einer Induktivität
 
 >![indu-aussch](assets/indu-aussch.png)
 
