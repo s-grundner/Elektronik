@@ -12,20 +12,14 @@ Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vo
 
 ## Begriffe
 
-- Entwicklungsumgebung (IDE):  
+- *Entwicklungsumgebung (IDE)*:  
   Programm das bei der Programmentwicklung unterstützt. Besteht zumindest aus einem Editor. Oft mit Syntax-Highlightning (Färbung von Code-Elementen), integriertem Debugger, Projektorganisation, Erstellen von Dokumentationen und vielem Anderen. Im einfachsten Fall würde auch ein einfacher Editor genügen.
-
-- Compiler: Programm welches den **Java-Quellcode** in den **Java-Bytecode** übersetzt. In vielen anderen Programmiersprachen (C, C++, C# …) wird durch den Compiler direkt in ein ausführbares Programm (in Windows EXE) übersetzt.
-
-- Java Virtuelle Maschine (JVM): Dieses Programm kann den Java-Bytecode auf dem Rechner ausführen.
-
-- Java Development Kit (JDK): Paket das unter Anderem den Compiler und die JRE beinhaltet.
-
-- Java Runtime Environment (JRE): Beinhaltet die JVM und Programmbibliotheken.
-
-- Quellcode: Code der "reingetippt" wird (.java-Datei).
-
-- Bytecode: Die Datei, die vom Java-Compiler aus dem Quellcode erstellt wird (.class-Datei).
+- *Compiler*: Programm welches den **Java-Quellcode** in den **Java-Bytecode** übersetzt. In vielen anderen Programmiersprachen (C, C++, C# …) wird durch den Compiler direkt in ein ausführbares Programm (in Windows EXE) übersetzt.
+- *Java Virtuelle Maschine (JVM)*: Dieses Programm kann den Java-Bytecode auf dem Rechner ausführen.
+- *Java Development Kit (JDK)*: Paket das unter Anderem den Compiler und die JRE beinhaltet.
+- *Java Runtime Environment (JRE)*: Beinhaltet die JVM und Programmbibliotheken.
+- *Quellcode*: Code der "reingetippt" wird (.java-Datei).
+- *Bytecode*: Die Datei, die vom Java-Compiler aus dem Quellcode erstellt wird (.class-Datei).
 
 ## Programm-Erstellung/-Ausführung
 
@@ -45,13 +39,13 @@ public class HelloWorld {
 
 Dieser **Quellcode** wird in die Datei *c:/temp/HelloWorld.java* gespeichert (Achtung auf Groß-/Kleinschreibung) - der Dateiname muss dem Klassennamen entsprechen. In einem Terminalfenster (Kommandozeile, DOS-Box) wird in das Verzeichnis *c:/temp/* gewechselt und der Quellcode kompiliert (Compiler: *javac.exe*):
 
-```
+```shell
 C:\temp>javac HelloWorld.java
 ```
 
 Dadurch wird in *c:/temp/* die Datei *HelloWorld.class* (der **Bytecode**) erstellt. Abschließend wird das Programm in der JVM (Aufruf durch *java.exe*) ausgeführt:
 
-```
+```shell
 C:\temp>java -cp .HelloWorld
 ```
 
@@ -76,13 +70,13 @@ public class HelloWorld {
 
 Das Source-File *HelloWorld.java* liegt hier in *helloPackage*, das Kompilieren funktioniert in diesem Fall analog:
 
-```
+```shell
 C:\temp>javac helloPackage\HelloWorld.java
 ```
 
 damit wird im Verzeichnis der Java-Source die Datei *HelloWorld.class* erstellt. Zum Ausführen (Wichtig: . statt \\):
 
-```
+```sh
 c:\temp\java helloPackage.HelloWorld
 ```
 
