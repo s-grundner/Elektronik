@@ -1,6 +1,6 @@
 # Lernen
 
-Siehe: [Lernpower](Org/Lernpower.md)
+Siehe: [Lernpower](Lernpower.md)
 
 ## Effizient Lernen
 

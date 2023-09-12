@@ -34,7 +34,7 @@ Wirkungsvolle Methoden
 
 
 
-- [3-Runden-Lesestrategie](Org/3-Runden-Lesestrategie.md)
+- [3-Runden-Lesestrategie](3-Runden-Lesestrategie.md)
 
 # Lern und Gedächtnisstrategien Optimieren
 
