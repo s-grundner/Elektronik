@@ -24,8 +24,8 @@ banner_lock: "true"
 - [StEOP](https://www.kusss.jku.at/kusss/steopinfo.action)  
 	- Keine Weiteren LVAs bis StEOP abgeschlossen ist
 - Suchen und Finden  
-	- IMMANENT: In der LVA werden Übungen abgehalten, Klausuren etc.
-	- NICHT IMMANENT: Nur Vorlesung
+	- IMMANENT: In der LVA werden Übungen abgehalten
+	- NICHT IMMANENT: Vorlesung und am ende eine des Semesters eine Klausur
 - [Satzung](https://www.jku.at/fileadmin/gruppen/61/Satzung___Co/Satzung/Studienrecht/2105_Satzungsteil_Studienrecht_V27_2023_05_10_1.pdf)
 - Unterschiedliche Institute pro LVA
 	- Haben Sekretariate an die man sich wenden kann 

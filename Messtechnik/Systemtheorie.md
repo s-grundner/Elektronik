@@ -8,11 +8,11 @@ created: 7th November 2022
 
 # Systemtheorie
 
-## [Übertragungsfunktion](%C3%9Cbertragungsfunktion)
+## Übertragungsfunktion
 
-Häufiger als Zeitabhängige Funktionen sind Frequenzabhängige Funktionen -> [Übertragungsfunktion](%C3%9Cbertragungsfunktion)
+Häufiger als Zeitabhängige Funktionen sind Frequenzabhängige Funktionen -> Übertragungsfunktion
 
-Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensität her verändern -> Ein System lässt sich nur im Eingeschwngen Zustand beschreiben: [Übertragungsfunktion](%C3%9Cbertragungsfunktion) nur im eingeschwungenen Zustand.
+Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensität her verändern -> Ein System lässt sich nur im Eingeschwngen Zustand beschreiben: Übertragungsfunktion nur im eingeschwungenen Zustand.
 
 ## [Fourier Reihe](../Mathe/mathe%20(4)/Fourier%20Reihe.md)
 

@@ -6,7 +6,7 @@ source: ["Norbert Irnleitner"]
 created: 31st March 2022
 ---
 
-# Messung von Temperatur
+# Messung Von Temperatur
 
 ## Thermoelement
 

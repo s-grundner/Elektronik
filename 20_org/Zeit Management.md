@@ -15,7 +15,7 @@
 
 ![|550](assets/Pasted%20image%2020230831134532.png)
 
-## Balance zwischen Bedürfnissen
+## Balance Zwischen Bedürfnissen
 
 ![](assets/Pasted%20image%2020230831134720.png)
 
@@ -23,7 +23,7 @@
 
 ![](assets/Pasted%20image%2020230831135006.png)
 
-## Bewertung der Zeit Verwaltung
+## Bewertung Der Zeit Verwaltung
 
 ![|500](assets/Pasted%20image%2020230831135150.png)
 
