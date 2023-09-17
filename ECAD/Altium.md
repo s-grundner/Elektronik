@@ -22,8 +22,12 @@ Throughout this course, you’ll have a chance to use Altium Designer, a popular
 
 ## 1.2 The Role of ECAD Tools
 
-[The Role of CAD Tools](The%20Role%20of%20CAD%20Tools.md)
+An important aspect of any engineering design course is learning to use CAD software, and PCB design is no different. PCB designers use specialized CAD tools to create the physical layout of a printed circuit board. When we say “physical layout”, we’re referring to the arrangement of components, pads, traces, vias, and any other component or physical element that will be placed on the PCB.
 
-[Common PCB Files](Common%20PCB%20Files.md)
+Technically, you could use any CAD program to create a physical layout of a PCB. However, the industry has developed specialized software, called _ECAD software_, that helps automate many of the tasks involved in creating drawings of a physical layout. Altium Designer is one such program, but there are many others that use similar workflows and have similar tool sets for creating PCB layouts.
 
-[Schematic Sheets](Schematic%20Sheets.md)
+The files you create in your ECAD software will store all the information needed to understand and manufacture a design. The PCB layout is most important because it is like a picture of the board that will be fabricated and assembled by a PCB manufacturer. However, a PCB layout is not the only document you’ll work on in your CAD tools. It is also important to understand the primary set of files you’ll need for a design. Different ECAD applications use different sets of files to store design information, but there are a few common file types that are used in every design.
+
+- [Common PCB Files](Common%20PCB%20Files.md)
+- [Schematic Sheets](Schematic%20Sheets.md)
+
