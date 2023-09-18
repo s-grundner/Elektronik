@@ -53,6 +53,8 @@ created: 19th August 2023
 
 # Tags
 
+[Altium Edu Courses](https://education.altium.com/courses)
+
 ![EM Field and High-Speed Routing Principles - Mike Creeden](https://www.youtube.com/watch?v=3Is7bra3tsc)
 
 ![How to Achieve Proper Grounding - Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)
