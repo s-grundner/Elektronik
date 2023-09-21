@@ -16,7 +16,6 @@
     "【卡片视图】cards",
     "【卡片视图】zettelkasten",
     "【图标】checkbox",
-    "【图标】iconfont",
     "【图标】预览网址加图标 - External Link Icons",
     "【天气】weather",
     "【日记】periodic日历",
@@ -28,7 +27,8 @@
     "【自定义】数字时钟",
     "【自定义】表格样式TableStyles",
     "【自定义】多彩进度条",
-    "【自定义】彩色时钟样式"
+    "【自定义】彩色时钟样式",
+    "colorful_clock"
   ],
   "accentColor": "",
   "nativeMenus": false,
