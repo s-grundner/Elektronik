@@ -16,7 +16,7 @@ created: 26th March 2022
 
 |                    |      |
 | ------------------ | ---- |
-| konstante Funktion |  |
+| konstante Funktion | $\frac{d}{dt}$ |
 |                   |      |
 
 
