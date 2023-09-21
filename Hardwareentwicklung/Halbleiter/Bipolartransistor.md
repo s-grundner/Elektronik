@@ -8,7 +8,7 @@ created: 24th March 2022
 
 # Grundlagen
 
-# [Transistor]({MOC}%20Transistor.md) als Schalter
+# [Transistor]({MOC}%20Transistor.md) Als Schalter
 
 ## NPN
 
@@ -22,7 +22,18 @@ created: 24th March 2022
 
 ## Stromgegenkopplung
 
-![Pasted image 20230420115746](../assets/Pasted%20image%2020230420115746.png)
+Die beste bzw. gebräuchlichste Variante der Temperaturstabilisierung des Arbeitspunktes ist die Stromgegenkopplung.
+
+> [!WARNING] Die AP Einstellung eines Transistors ist ein Regeltechnisches Problem
+
+![](assets/Pasted%20image%2020230921214010.png)
+> Wenn $I_{E}$ steigt, steigt $U_{BE}$ und $I_{C}$
+
+![](assets/Pasted%20image%2020230921213942.png)
+
+### Dimensionierung
+
+Je größer $R_{E}$ wird, desto stabiler wird der Arbeitspunkt, der auch die Spannungsverstärkung der Schaltung bestimmt.  
 
 ## [Emitterfolger](Emitterfolger.md)
 
