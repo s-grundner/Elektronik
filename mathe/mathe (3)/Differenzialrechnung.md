@@ -14,6 +14,8 @@ created: 26th March 2022
 
 # Differenzialrechnung
 
+
+
 ## Ableitungsregeln
 
 ### Faktorregel
@@ -27,6 +29,8 @@ created: 26th March 2022
 ### Kettenregel
 
 ## Implizit Differenzieren
+
+## partielle Ableitung
 
 # Tags
 
