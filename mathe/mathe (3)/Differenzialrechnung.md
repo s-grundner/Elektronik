@@ -15,6 +15,17 @@ created: 26th March 2022
 # Differenzialrechnung
 
 
+> [!QUESTION] Ableitung einer konstanten Funktion
+> 	$f(x)=c\rightarrow f'(x) = 0$
+
+> [!QUESTION] Ableitung einer Potenzfunktion
+> $f(x) = x^{n}, n\in\mathbb{R}\to f'(x)=n\cdot$
+
+> [!QUESTION] 
+
+> [!QUESTION] 
+
+
 
 ## Ableitungsregeln
 
