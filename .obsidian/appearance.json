@@ -30,7 +30,7 @@
     "【自定义】彩色时钟样式",
     "colorful_clock"
   ],
-  "accentColor": "",
+  "accentColor": "#19e1af",
   "nativeMenus": false,
   "showViewHeader": true
 }
