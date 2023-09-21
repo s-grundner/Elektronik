@@ -1,8 +1,14 @@
 ---
-tags: ["Infinitesimalrechnung"]
-aliases: ["Differenzieren", "Ableitung"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - Infinitesimalrechnung
+aliases:
+  - Differenzieren
+  - Ableitung
+  - ableiten
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 26th March 2022
 ---
 

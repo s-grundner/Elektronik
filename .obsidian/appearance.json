@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "",
   "baseFontSize": 21,
   "translucency": true,
   "textFontFamily": "Bahnschrift,Century Gothic,Fira Code,Monocraft",
-  "monospaceFontFamily": "Fira Code,Monocraft",
+  "monospaceFontFamily": "Fira Code Retina,Monocraft",
   "theme": "obsidian",
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
@@ -28,8 +28,7 @@
     "【自定义】数字时钟",
     "【自定义】表格样式TableStyles",
     "【自定义】多彩进度条",
-    "【自定义】彩色时钟样式",
-    "colorful_clock"
+    "【自定义】彩色时钟样式"
   ],
   "accentColor": "",
   "nativeMenus": false,

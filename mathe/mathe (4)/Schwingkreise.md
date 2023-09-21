@@ -6,7 +6,7 @@ subject: ["mathe", "hwe", "physik"]
 
 # Schwingungen
 
-## Zusammenhang mit [Differentialgleichungen]({MOC}%20DGL.md)
+## Zusammenhang mit [Differentialgleichungen](../{MOC}%20DGL.md)
 
 Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.  
 Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
@@ -92,7 +92,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [DGL]({MOC}%20DGL.md) die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) erzeugen
+Nun kann man aus einer der [DGL](../{MOC}%20DGL.md) die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) erzeugen
 
 $$
 \begin{align*}
@@ -235,7 +235,7 @@ $$
 \end{align*}
 $$
 
-> [!NOTE] Das [globale Minimum](../mathe%20(3)/{MOC}%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](../mathe%20(3)/Differenzialrechnung.md) ermittelt.
+> [!NOTE] Das [globale Minimum](../{MOC}%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](../mathe%20(3)/Differenzialrechnung.md) ermittelt.
 
 $$
 \begin{align*}

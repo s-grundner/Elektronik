@@ -11,13 +11,13 @@ source: ["Rudolf Frauenschuh"]
 
 # Lineare Differentialgleichungen 2. Ordnung
 
-## Lineare [DGL]({MOC}%20DGL.md) 2. Ordnung mit konstantem Koeffizienten
+## Lineare [DGL](../{MOC}%20DGL.md) 2. Ordnung mit konstantem Koeffizienten
 
 $$y'' + p\cdot y'+q\cdot y=s(x) $$
 
-### Lösung der *homogenen* [DGL]({MOC}%20DGL.md) 2. Ordnung
+### Lösung der *homogenen* [DGL](../{MOC}%20DGL.md) 2. Ordnung
 
-Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL]({MOC}%20DGL.md) 2. Ordnung erfolgt mit dem [Exponentialansatz](Exponentialansatz.md)
+Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL](../{MOC}%20DGL.md) 2. Ordnung erfolgt mit dem [Exponentialansatz](Exponentialansatz.md)
 
 $$
 \begin{align*}
@@ -73,13 +73,13 @@ $b = \omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
 
 ---
 
-### Lösung der *inhomogenen* [DGL]({MOC}%20DGL.md) 2. Ordnung
+### Lösung der *inhomogenen* [DGL](../{MOC}%20DGL.md) 2. Ordnung
 
-Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL]({MOC}%20DGL.md) hat. 
+Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](../{MOC}%20DGL.md) hat. 
 
 Die allgemeine Lösung $y$ der inhomogenen Gleichung ist die Summe *("Überlagerung")* der allgemeinen Lösung $y_{h}$ der zugehörigen homogenen Gleichung und irgendeiner partikulären *(speziellen)* Lösung $y_{p}$ der inhomogenen Gleichung: **$y=y_{p}+y_{h}$**. 
 
-Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL]({MOC}%20DGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist. 
+Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL](../{MOC}%20DGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist. 
 
 | Störterm                                                                                                       | Lösunsansatz                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

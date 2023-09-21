@@ -160,7 +160,7 @@ $$
 Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lineare Differentialgleichung mit konstanten Koeffizienten beschrieben. Diese Netzwerke werden als lineare Netzwerke bezeichnet.
 
 Bei umfangreichen Netzwerken ist jedoch oft
- - das Aufstellen der [Differenzialgleichung(en)]({MOC}%20DGL.md) 
+ - das Aufstellen der [Differenzialgleichung(en)](../{MOC}%20DGL.md) 
  - die Lösung  
  mit beträchtlichen Schwierigkeiten verbunden.
 

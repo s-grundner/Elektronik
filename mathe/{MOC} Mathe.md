@@ -44,7 +44,7 @@ created: 19th August 2022
  - [Arithmetische Reihe](Arithmetische%20Reihe)
  - [Polynomdivision](mathe%20(3)/Polynomdivision.md)
  - [Differenzialrechnung](mathe%20(3)/Differenzialrechnung.md)
- - [Kurvendiskussion](mathe%20(3)/{MOC}%20Kurvendiskussion.md)
+ - [Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
  - [Newton'sches Näherungsverfahren](mathe%20(3)/Newton'sches%20Näherungsverfahren.md)
  - [Regula Falsi Verfahren](mathe%20(3)/Regula%20Falsi%20Verfahren.md)
  - [Extremwertaufgaben](Extremwertaufgaben)

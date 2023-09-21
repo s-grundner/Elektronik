@@ -21,7 +21,7 @@ created: 17th November 2022
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
 
-## Herleitung mit [DGL](../../Mathe/mathe%20(4)/{MOC}%20DGL.md)
+## Herleitung mit [DGL](../../Mathe/{MOC}%20DGL.md)
 
 $$
 \frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A
@@ -38,7 +38,7 @@ $$
 \end{align*}
 $$
 
-Bildung einer [DGL](../../Mathe/mathe%20(4)/{MOC}%20DGL.md):
+Bildung einer [DGL](../../Mathe/{MOC}%20DGL.md):
 
 $$
 \begin{align*}
@@ -155,7 +155,7 @@ Bandbreite: Obere minus untere [Grenzfrequenz](../Grenzfrequenz.md)
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
 
-## Herleitung mit [DGL](../../Mathe/mathe%20(4)/{MOC}%20DGL.md)
+## Herleitung mit [DGL](../../Mathe/{MOC}%20DGL.md)
 
 man betrachtet den Fall der ungedämpften Schwingung mit $\delta = \frac{R}{2L}= 0$
 
