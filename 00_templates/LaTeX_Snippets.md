@@ -5,7 +5,7 @@
 	{trigger: "ssum", replacement: "\\sum\\limits_{ ${0:s \\in C} } }", options: "mA"},
 	{trigger: "bsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:m} } \\sum\\limits_{ ${2:j=1} }^{ ${3:n} }", options: "mA"},
 	{trigger: "lsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:n} }", options: "mA"},
-	{trigger: "bbR", replacement: "\\matbb{R}", options: "mA"},
+	{trigger: "bbR", replacement: "\\mathbb{R}", options: "mA"},
 
 	{trigger: "ddt", replacement: "\\frac{d$0}{dt}$1", options: "mA"},
 	{trigger: "ddx", replacement: "\\frac{d$0}{dx}$1", options: "mA"},
@@ -13,6 +13,8 @@
 	{trigger: "dft", replacement: "f'(t)=", options: "mA"},
 	{trigger: "fx", replacement: "f(x)=", options: "mA"},
 	{trigger: "ft", replacement: "f(t)=", options: "mA"},
+	{trigger: "cd", replacement: "\\cdot", options: "mA"},
+
 
 	// Math mode
 	{trigger: "mk", replacement: "$$0$", options: "tA"},

@@ -14,10 +14,11 @@ created: 26th March 2022
 
 # Differenzialrechnung
 
-| Art der Funktion   | Stammfunktion | Ableitung |
-| ------------------ | ------------- | --------- |
-| konstante Funktion | $f(x)=c$      | $f'(x)=0$ |
-| Potenzfunktion     | $f(x)=x^{n}$  |           |
+| Art der Funktion   | Stammfunktion               | Ableitung              |
+| ------------------ | --------------------------- | ---------------------- |
+| konstante Funktion | $f(x)=c$                    | $f'(x)=0$              |
+| Potenzfunktion     | $f(x)=x^{n},n\in\mathbb{R}$ | $f'(x)=n\cdot x^{n-1}$ |
+| Exponentialfunktion                    |                             |                        |
 
 
 > [!QUESTION] Ableitung einer konstanten Funktion
