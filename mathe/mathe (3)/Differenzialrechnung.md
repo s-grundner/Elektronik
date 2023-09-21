@@ -14,10 +14,10 @@ created: 26th March 2022
 
 # Differenzialrechnung
 
-|                    |      |
-| ------------------ | ---- |
-| konstante Funktion | $\frac{d}{dt}$ |
-|                   |      |
+| Art der Funktion   | Stammfunktion | Ableitung |
+| ------------------ | ------------- | --------- |
+| konstante Funktion | $f(x)=c$      | $f'(x)=0$ |
+| Potenzfunktion     | $f(x)=x^{n}$  |           |
 
 
 > [!QUESTION] Ableitung einer konstanten Funktion
