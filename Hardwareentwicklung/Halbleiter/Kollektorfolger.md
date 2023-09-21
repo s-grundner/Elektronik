@@ -10,6 +10,6 @@ source:
 created: 21st November 2022
 ---
 
-# Kollektorfolger / Emitterschaltung
+# Kollektorfolger
 
 # Quellen

@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "Blue Topaz",
   "baseFontSize": 21,
   "translucency": true,
   "textFontFamily": "Bahnschrift,Century Gothic,Fira Code,Monocraft",
@@ -28,7 +28,8 @@
     "【自定义】表格样式TableStyles",
     "【自定义】多彩进度条",
     "【自定义】彩色时钟样式",
-    "colorful_clock"
+    "colorful_clock",
+    "【图标】iconfont"
   ],
   "accentColor": "#19e1af",
   "nativeMenus": false,
