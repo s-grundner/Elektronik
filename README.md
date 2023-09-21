@@ -35,9 +35,9 @@ Ohne Push-Berechtigung sind Folgende Einstellungen (`Ctrl+,`) des Obsidian Git P
 
 # Cheat-Sheets
 
-- <http://tug.ctan.org/info/undergradmath/undergradmath.pdf>
-- <https://wch.github.io/latexsheet/latexsheet-a4.pdf>
-- <https://www.rexegg.com/regex-quickstart.html>
-- <https://regex101.com/>
-- https://vim.rtorr.com/
-- https://blacksmithgu.github.io/obsidian-dataview/
+- [LaTeX Cheatsheet A](http://tug.ctan.org/info/undergradmath/undergradmath.pdf)
+- [LaTeX Cheatsheet B](https://wch.github.io/latexsheet/latexsheet-a4.pdf)
+- [RexEgg ](https://www.rexegg.com/regex-quickstart.html)
+- [RegEx 101](https://regex101.com/)
+- [Vim Keybinds](https://vim.rtorr.com/)
+- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
