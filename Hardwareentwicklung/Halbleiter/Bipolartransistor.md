@@ -35,6 +35,7 @@ created: 24th March 2022
 
 Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
 
+> [!SUMMARY] Berechnung des Emitterwider
 
 [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
 [Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)

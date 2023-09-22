@@ -129,5 +129,13 @@
       "key": "A"
     }
   ],
-  "obsidian-completr:completr-blacklist-current-word": []
+  "obsidian-completr:completr-blacklist-current-word": [],
+  "text-snippets-obsidian:text-snippets": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ]
 }
