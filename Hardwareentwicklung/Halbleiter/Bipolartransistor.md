@@ -36,9 +36,6 @@ created: 24th March 2022
 
 # Tags
 
-[](https://de.wikipedia.org/wiki/Endstufe#A-Betrieb)
-
-
-[^2](https://www.elektronik-kompendium.de/sites/slt/0303311.htm)
-
-![Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
+- [Wikipedia - Endstufe](https://de.wikipedia.org/wiki/Endstufe)
+- [EK - BJT Betribsarten](https://www.elektronik-kompendium.de/sites/slt/0303311.htm)
+- [Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
