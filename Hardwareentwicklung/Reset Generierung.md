@@ -18,7 +18,7 @@ created: 31st January 2023
 > - zurücksetzen aller Systemkomponenten in einen definierten Anfangszustand
 > - bei Spannungseinbruch
 
-## Möglichkeiten zur Resetgenerierung
+## Möglichkeiten Zur Resetgenerierung
 
 > [!INFO] Bestimmende Faktoren der Resetdauer
 > - Hochfahren der Systemkomponenten, [Schaltregler](Stromversorgungseinheiten/Schaltnetzteil.md), [PLL](Oszillatoren/Phase%20Locked%20Loop.md)
@@ -30,7 +30,7 @@ Reset bei Systemstart
 > [!NOTE] Einfachster Aufbau  
 > ![POR](assets/POR.png)
 
-#### Berechnung der Resetdauer
+#### Berechnung Der Resetdauer
 
 $V_{IL,max}=0.8V$  
 $V_{IH,max}=2.4V$
@@ -51,7 +51,7 @@ Synchronisiert das loslassen des Reset Signals auf die Falling edge
 > Wenn sich ein Signal um die Taktflanke ändert, sollte das Reset Signal nicht die änderung im Latch verhindern.
 > 
 
-## Reset bei Spannungseinbruch
+## Reset Bei Spannungseinbruch
 
 ![725](assets/reset-spg-einbruch.png)
 
