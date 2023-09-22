@@ -26,28 +26,8 @@ created: 24th March 2022
 
 ![](assets/Pasted%20image%2020230922135134.png)
 
-### A-Betrieb
-
-Ein Transistor-Verstärker im A-Betrieb hat nur eine geringe Spitze-Spitze-Ausdehnung.
-Der Arbeitspunkt liegt in der Mitte der Kennlinie.
-Das wird durch die Aufteilung der Betriebsspannung bestimmt ($U_{B}= U_{C} + U_{CE}$).
-Dabei wird die Betriebsspannung zwischen Kollektorwiderstand und Transistor aufgeteilt. 
-Auf diese Weise fällt die Hälfte der Leistung, die vom Verstärker abgegeben wird, im Verstärker selbst ab und wird in Wärme umgesetzt.
-
-> [!important] Aus diesem Grund eignet sich ein Verstärker im A-Betrieb nur als Kleinsignal oder als Vorverstärker
-
-### B-Betrieb
-
-Im B-Betrieb liegt der Arbeitspunkt des Transistors am unteren Ende der Kennlinie.
-Damit ist es dem Verstärker möglich die Signalamplitude (im Vergleich zum A-Betrieb) zu verdoppeln. 
-Allerdings kann der Transistor dann nur eine Halbwelle verarbeiten.
-Die andere Halbwelle muss durch einen zweiten Transistor im Gegentakt-Betrieb verstärkt werden.
-
-> [!important] Bei dieser Schaltung handelt es sich dann um eine Gegentaktendstufe
-
-Der B-Betrieb wird bei Gegentaktendstufen durch den AB-Betrieb ersetzt, da sonst durch die fehlende Basisvorspannung am Transistor Übernahmeverzerrungen auftreten entstehen.
-
-
+- [A-Betrieb](A-Betrieb.md)
+- [B-Betrieb](B-Betrieb.md)
 
 ### AB-Betrieb
 
@@ -56,7 +36,6 @@ Der B-Betrieb wird bei Gegentaktendstufen durch den AB-Betrieb ersetzt, da sonst
 ---
 
 # Tags
-
 
 [](https://de.wikipedia.org/wiki/Endstufe#A-Betrieb)
 
