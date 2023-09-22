@@ -12,6 +12,6 @@ created: 22. September 2023
 
 ![Laengstransostor2](../assets/Laengstransostor2.png)
 
-## Längsregler
+# Längsregler
 
 ![Laengstransistor](../assets/Laengstransistor.png)

@@ -1,8 +1,13 @@
 ---
-tags: ["MOC"]
-aliases: ["netzteile", "Netzteil"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - MOC
+aliases:
+  - Netzteil
+  - Netzteile
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 6th April 2022
 ---
 
@@ -10,9 +15,9 @@ created: 6th April 2022
 
 Stromversorgungseinheiten (Netzteile) dienen zur Erzeugung der von elektrischen Schaltungen benötigten Gleichspannung.
 
-# Arten von Netzteilen
+# Arten Von Netzteilen
 
-## [Linearregler](Spannungsstabilisierung.md)
+## [Linearregler](Linearregler.md)
 
 ## [Schaltnetzteil](Schaltnetzteil.md)
 

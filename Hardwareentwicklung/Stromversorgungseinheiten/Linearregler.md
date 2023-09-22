@@ -1,13 +1,12 @@
 ---
 tags:
-  - SMPS
   - incomplete
   - Baugruppen/Leistung
 aliases:
   - Stabilisierungsschaltung
   - Stabilisierungsschaltungen
-  - Linearregler
   - LVR
+  - Spannungsstabilisierung
 subject:
   - hwe
 source:
@@ -15,7 +14,7 @@ source:
 created: 16th March 2022
 ---
 
-# Spannungsstabilisierung Mit Linearregler
+# Linearregler
 
 ## Typische Schaltung Eines Netzteils Mit Linearregler
 
@@ -27,6 +26,7 @@ created: 16th March 2022
 	- … der [Temperatur](../../Physik/Temperatur%20und%20Teilchenmodell.md) 
 4. Last
 	- bei der Last werden üblicherweise Analoge und Digitale Versorgung mittels einer Sternförmigen Masse getrennt.
+		- (Über dem Spalt in der Masse dürfen auf einer Platine keine Leiterbahnen Verlegt werden)
 
 ![Netzteil_sch](../assets/Netzteil_sch.png)
 
@@ -50,8 +50,6 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 	- Wie lange eine Veränderung am Eingang zu einer Veränderung am Ausgang dauert.
 
 Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kategorien **geregelt** und **ungeregelt** vorgenommen werden.
-
-# Linearregler
 
 ## Ungeregelte Spannungsstabilisierung
 
