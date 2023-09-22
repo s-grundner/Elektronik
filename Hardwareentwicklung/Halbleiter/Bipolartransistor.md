@@ -29,6 +29,8 @@ Im AB-Betrieb werden kleine Signale wie im A-Betrieb und große Signale wie im B
 
 > [!IMPORTANT] Der Gegentaktverstärker abreitet im AB-Betrieb besonders verzerrungsarm, aber mit schlechterem Wirkungsgrad.
 
+> [!summary] 
+
 ### C-Betrieb
 
 ---
