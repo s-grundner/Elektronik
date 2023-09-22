@@ -94,27 +94,13 @@ Für eine *optimale Stabilisierung* ist folgendes zu beachten:
 - *$I_{Z,min}$* darf *nicht unterschritten* werden.
 - *$R_{V}$* begrenzt *$I_{Z}$* bei *$U_{e,max}$* auf *$I_{Z,max}$* 
 
-#### Absoluter Stabilisierungsfaktor
+> [!SUMMARY] Absoluter Stabilisierungsfaktor  
+> $$S=\dfrac{\Delta U_{e}}{\Delta U_{a}}= \dfrac{\Delta U_{e}}{\Delta U_{Z}}$$ 
 
-$$
-\begin{align*}
-S=\frac{\Delta U_{e}}{\Delta U_{a}} = \frac{\Delta U_{e}}{\Delta U_{Z}}
-\end{align*}
-$$
-
-#### Nachteil Der Schlatung
-
-Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.  
-Es gilt $\Delta I_{L}=\Delta I_{Z}$  
-Eine Längstransistorschaltung behebt diesen Nachteil
-
-### Längstransistor Mit [Zener-Diode](../Halbleiter/Zener-Diode.md)
-
-![Laengstransostor2](../assets/Laengstransostor2.png)
-
-#### Längsregler
-
-![Laengstransistor](../assets/Laengstransistor.png)
+> [!WARNING] Nachteil Der Schaltung  
+> Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.  
+> Es gilt $\Delta I_{L}=\Delta I_{Z}$  
+> Eine [Längstransistorschaltung](Längsregler.md) behebt diesen Nachteil
 
 ## Geregelte Spannungsstabilisierung
 
