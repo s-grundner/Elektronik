@@ -51,9 +51,11 @@ $$
 
 > [!SUMMARY] Berechnung des Emitterwiderstands $R_{E}$  
 > $$R_{E} = \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{I_{C}+I_{B}}$$
+> > [!NOTE] $I_{B}$ quasi vernachlässigbar 
 
 > [!SUMMARY] Berechnung des Konstant-Stroms $I_{C}$  
 > $$I_{C}= \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{R_{E}}-I_{B}$$
+> > [!NOTE] $I_{B}$ quasi vernachlässigbar 
 
 > [!SUMMARY] Berechnung des maximalen Lastwiderstands  
 > $$R_{C,max}= \frac{U_{B}-U_{RE}}{I_{C}}\qquad U_{RE} = U_{D_{1}}+U_{D_{2}}-U_{BE}$$  
