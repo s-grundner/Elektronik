@@ -18,9 +18,9 @@ created: 24th March 2022
 
 # Bipolartransistor als Schalter
 
-| NPN                                | PNP                                |
-| ---------------------------------- | ---------------------------------- |
-| ![330](../assets/npn-schalter.png) | ![300](../assets/pnp-schalter.png) | 
+|                NPN                 |                PNP                 |
+|:----------------------------------:|:----------------------------------:|
+| ![330](assets/npn-schalter.png) | ![300](assets/pnp-schalter.png) |
 
 #
 # Bipolartransistor als Verstärker / Endstufe
@@ -33,7 +33,7 @@ created: 24th March 2022
 
 |         NPN         |         PNP         |
 |:-------------------:|:-------------------:|
-| ![](assets/NPN.png) | ![](assets/PNP.png) |
+| > ![500](assets/NPN.png) | > ![500](assets/PNP.png) |
 
 
 $$
