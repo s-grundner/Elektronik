@@ -8,25 +8,25 @@ created: 24th March 2022
 
 # Grundlagen
 
-# [Transistor]({MOC}%20Transistor.md) Als Schalter
+> [!SUMMARY] Transistorschaltungen
+> - [Stromgegenkopplung](Stromgegenkopplung.md)  
+> - [Emitterfolger](Emitterfolger.md)  
+> - [Kollektorfolger](Kollektorfolger.md)
 
-## NPN
+# Bipolartransistor Als Schalter
 
-![330](../assets/npn-schalter.png)
+| NPN                                | PNP                                |
+| ---------------------------------- | ---------------------------------- |
+| ![330](../assets/npn-schalter.png) | ![300](../assets/pnp-schalter.png) | 
 
-## PNP
+#
+# Bipolartransistor als Verstärker
 
-![300](../assets/pnp-schalter.png)
+## Betriebsarten
 
-# Transistorschaltungen
+![](assets/Pasted%20image%2020230922135134.png)
 
-[Stromgegenkopplung](Stromgegenkopplung.md)
-
-## [Emitterfolger](Emitterfolger.md)
-
-## [Kollektorfolger](Kollektorfolger.md)
-
-## Stabilisierung
+##
 
 ---
 

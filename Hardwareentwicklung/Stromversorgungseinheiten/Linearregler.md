@@ -51,9 +51,9 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 
 Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kategorien **geregelt** und **ungeregelt** vorgenommen werden.
 
-## Ungeregelte Spannungsstabilisierung
+# Ungeregelte Spannungsstabilisierung
 
-### Stabilisierungsschaltung Mit Einer [Zener-Diode](../Halbleiter/Zener-Diode.md)
+## Stabilisierungsschaltung Mit Einer [Zener-Diode](../Halbleiter/Zener-Diode.md)
 
 Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspannung in einem wieten Bereich konstant gehalten werden.
 
@@ -61,13 +61,13 @@ Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspann
 | ------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
 | $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden Strom<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](../assets/Z-diode-regler.png) |
 
-#### Kennlinie
+### Kennlinie
 
 | Kennwerte                                                                                                                                                                                      | Kennlinie                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
 | $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![600](../assets/z-d-kennlinie.png) |
 
-#### Dimensionierung
+### Dimensionierung
 
 $$
 \begin{align*}
@@ -100,11 +100,11 @@ Für eine *optimale Stabilisierung* ist folgendes zu beachten:
 > Es gilt $\Delta I_{L}=\Delta I_{Z}$  
 > Eine [Längstransistorschaltung](Längsregler.md) behebt diesen Nachteil
 
-## Geregelte Spannungsstabilisierung
+# Geregelte Spannungsstabilisierung
 
-### Kontinuierlicher Spannungsregler
+## Kontinuierlicher Spannungsregler
 
-### Integrierter Spannungsregler
+## Integrierter Spannungsregler
 
 ---
 
