@@ -8,10 +8,9 @@ created: 24th March 2022
 
 # Grundlagen
 
-> [!SUMMARY] Transistorschaltungen
-> - [Stromgegenkopplung](Stromgegenkopplung.md)  
-> - [Emitterfolger](Emitterfolger.md)  
-> - [Kollektorfolger](Kollektorfolger.md)
+```dataview
+
+```
 
 # Bipolartransistor Als Schalter
 
@@ -30,6 +29,8 @@ created: 24th March 2022
 - [B-Betrieb](B-Betrieb.md)
 
 ### AB-Betrieb
+
+Der AB-Betrieb 
 
 ### C-Betrieb
 
