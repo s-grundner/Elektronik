@@ -31,13 +31,15 @@ created: 24th March 2022
 
 # Bipolartransistor als Konstantstromquelle
 
-![L|600](assets/2023-09-22_16h42_12.png)
+![600](assets/2023-09-22_16h42_12.png)
 
 > - Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
 > - Die Dioden $D_{1}$ und $D_{2}$ erhöhen die Spannung zwischen Basis und Masse.
 > - Die Spannung teilt sich zwischen der Basis-Emitter-Strecke des Transistors und dem Emitterwiderstand $R_{E}$ auf. Dort liegt dann eine bestimme Spannung an.
 > - Über den Widerstand $R_{E}$ lässt sich der Konstantstrom einstellen
-> - D
+> - Dabei muss die Größe des Widerstands $R_{C }$ beachtet werden. Dieser darf nicht beliebig Groß sein
+
+> [!WARNING] Bis zu einem Konstant-Strom $I_{C}$ ist die Schaltung brauchbar
 
 
 > [!SUMMARY] Berechnung des Emitterwiderstands $R_{E}$  
@@ -51,9 +53,10 @@ created: 24th March 2022
 > Wird der Lastwiderstand größer, kann der Strom $I_{C}$ nicht konstant gehalten werden.  
 > Über die Betriebsspannung lässt sich evtl. der Konstant-Strom erhöhen
 
+## Weitere Konstantstrom Schaltungen  
 
-[Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
-[Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)
+- [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
+- [Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)
 
 # Tags
 
