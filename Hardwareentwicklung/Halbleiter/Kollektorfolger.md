@@ -18,8 +18,8 @@ created: 21st November 2022
 
 ### Basis-Spannungsteiler
 
-## Spannnungsgegenkopplung
+## Spannungs-Gegenkopplung
 
 # Quellen
 
-[Elektronik Tutor](https://www.elektronik-kompendium.de/sites/slt/0204302.htm)
+[Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/slt/0204302.htm)
