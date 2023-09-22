@@ -31,6 +31,9 @@ created: 24th March 2022
 
 # Bipolartransistor als Konstantstromquelle
 
+|         NPN         |         PNP         |
+|:-------------------:|:-------------------:|
+| ![](assets/NPN.png) | ![](assets/PNP.png) |
 
 
 $$
