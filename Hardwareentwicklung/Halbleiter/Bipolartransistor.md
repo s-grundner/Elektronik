@@ -76,3 +76,5 @@ $$
 - [Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
 - [Wikipedia - Endstufe](https://de.wikipedia.org/wiki/Endstufe)
 - [EK - BJT Betribsarten](https://www.elektronik-kompendium.de/sites/slt/0303311.htm)
+- [EK - Transistorstromquellen mit Silizium-Dioden](https://www.elektronik-kompendium.de/public/schaerer/currled.htm)
+- [EK - Konstantstromzweipol](https://www.elektronik-kompendium.de/public/schaerer/curr2pol.htm)
