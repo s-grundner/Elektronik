@@ -6,12 +6,6 @@ source: ["Michael Offenhuber", "Siegbert Schrempf"]
 created: 24th March 2022
 ---
 
-# Grundlagen
-
-```dataview
-
-```
-
 # Bipolartransistor Als Schalter
 
 | NPN                                | PNP                                |
@@ -30,7 +24,10 @@ created: 24th March 2022
 
 ### AB-Betrieb
 
-Der AB-Betrieb 
+Der AB-Betrieb wird bei Gegentakt-Endstufen verwendet, bei denen mit vorgeschalteter [Diode](Diode.md) eine Basisvorspannung erzeugt wird, welche auch bei Spannungen unter $0.7V$ leitend macht.  
+Im AB-Betrieb werden kleine Signale wie im A-Betrieb und große Signale wie im B-Betrieb verstärkt.
+
+> [!IMPORTANT] Der Gegentaktverstärker abreitet im AB-Betrieb besonders verzerrungsarm, aber mit schlechterem Wirkungsgrad.
 
 ### C-Betrieb
 
