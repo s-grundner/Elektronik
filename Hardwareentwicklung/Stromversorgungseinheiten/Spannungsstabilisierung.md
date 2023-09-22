@@ -1,14 +1,23 @@
 ---
-tags: ["SMPS", incomplete]
-aliases: ["Stabilisierungsschaltung", "Stabilisierungsschaltungen", "Linearregler"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - SMPS
+  - incomplete
+  - Baugruppen/Leistung
+aliases:
+  - Stabilisierungsschaltung
+  - Stabilisierungsschaltungen
+  - Linearregler
+  - LVR
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 16th March 2022
 ---
 
-# Typische Schaltung eines Netzteils mit Linearregler
+# Spannungsstabilisierung Mit Linearregler
 
-## Aufbau
+## Typische Schaltung Eines Netzteils Mit Linearregler
 
 1. Gleichrichterschaltung (inkl. Transformation)
 2. Siebschaltung zur Glättung der Gleichspannung
@@ -27,7 +36,7 @@ Verlauf der Spannung:
 
 ![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
 
-## Stabilisierung und Regelung von Spannung
+## Stabilisierung Und Regelung Von Spannung
 
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz
@@ -46,7 +55,7 @@ Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kat
 
 ## Ungeregelte Spannungsstabilisierung
 
-### Stabilisierungsschaltung mit einer [Zener-Diode](../Halbleiter/Zener-Diode.md)
+### Stabilisierungsschaltung Mit Einer [Zener-Diode](../Halbleiter/Zener-Diode.md)
 
 Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspannung in einem wieten Bereich konstant gehalten werden.
 
@@ -93,13 +102,13 @@ S=\frac{\Delta U_{e}}{\Delta U_{a}} = \frac{\Delta U_{e}}{\Delta U_{Z}}
 \end{align*}
 $$
 
-#### Nachteil der Schlatung
+#### Nachteil Der Schlatung
 
 Der **Regelbereich** für Laststrom ist **stark eingeschränkt**.  
 Es gilt $\Delta I_{L}=\Delta I_{Z}$  
 Eine Längstransistorschaltung behebt diesen Nachteil
 
-### Längstransistor mit [Zener-Diode](../Halbleiter/Zener-Diode.md)
+### Längstransistor Mit [Zener-Diode](../Halbleiter/Zener-Diode.md)
 
 ![Laengstransostor2](../assets/Laengstransostor2.png)
 
@@ -115,6 +124,6 @@ Eine Längstransistorschaltung behebt diesen Nachteil
 
 ---
 
-# Tags 
+# Tags
 
 ![Linearregler](../assets/pdf/Linearregler.pdf)

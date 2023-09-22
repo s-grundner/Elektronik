@@ -1,8 +1,13 @@
 ---
-tags: ["SMPS"]
-aliases: ["Flyback-Converter"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - SMPS
+  - Baugruppen/Leistung
+aliases:
+  - Flyback-Converter
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 2nd October 2022
 ---
 
@@ -26,7 +31,7 @@ $$
 - Es baut sich ein Magnetfeld mit der [](../Induktivitäten.md#Induktivitäten%20als%20Bauelemente%20Leistungselektronischen%20Schaltungen|Energie) $W = \dfrac{L_{1}\cdot Î_{1}}{2}$ auf.
 - $U_{DS}=0$, weil die [Diode](../Halbleiter/Diode.md) sperrt, $U_{2}$ ist zu $U_{1}$ entgegengesetzt gepolt.
 
-### $t_{1} < t < T_{S}$
+### $t_{1} < T < T_{S}$
 
 - $U_{DS} \neq 0$ (sperrt)
 - $I_{1}=0$
