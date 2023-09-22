@@ -16,26 +16,30 @@ source:
 created: 24th March 2022
 ---
 
-# Bipolartransistor Als Schalter
+# Bipolartransistor als Schalter
 
 | NPN                                | PNP                                |
 | ---------------------------------- | ---------------------------------- |
 | ![330](../assets/npn-schalter.png) | ![300](../assets/pnp-schalter.png) | 
 
 #
-# Bipolartransistor Als Verstärker / Endstufe
+# Bipolartransistor als Verstärker / Endstufe
 
-## Betriebsarten
+| Betriebsarten                                                                                                                       | Kennlinie                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| > [A-Betrieb](A-Betrieb.md)<br> [B-Betrieb](B-Betrieb.md)<br> [AB-Betrieb](AB-Betrieb.md)<br> [C-Betrieb](C-Betrieb.md) | ![](assets/Pasted%20image%2020230922135134.png) |
 
-![](assets/Pasted%20image%2020230922135134.png)
+# Bipolartransistor als Konstantstromquelle
 
-- [A-Betrieb](A-Betrieb.md)
-- [B-Betrieb](B-Betrieb.md)
-- [AB-Betrieb](AB-Betrieb.md)
-- [C-Betrieb](C-Betrieb.md)
+![](assets/Pasted%20image%2020230922160719.png)
+
+
+[Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
+[Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)
 
 # Tags
 
 - [Wikipedia - Endstufe](https://de.wikipedia.org/wiki/Endstufe)
 - [EK - BJT Betribsarten](https://www.elektronik-kompendium.de/sites/slt/0303311.htm)
 - [Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
+- [BJT-Stromquellen](../Stromversorgungseinheiten/BJT-Stromquellen.md)
