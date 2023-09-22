@@ -1,7 +1,7 @@
 ---
 tags:
-  - Halbleiter/Transistor
   - Baugruppen/Leistung
+  - Halbleiter/BJT
 aliases:
   - Längstransistor
   - Längstransistorschaltung

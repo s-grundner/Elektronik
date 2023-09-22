@@ -1,6 +1,6 @@
 ---
 tags:
-  - Halbleiter/Transistor
+  - Halbleiter/BJT
 aliases: 
 created: 21. September 2023
 ---

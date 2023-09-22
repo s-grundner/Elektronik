@@ -1,3 +1,10 @@
+---
+tags:
+  - Halbleiter/BJT
+aliases: 
+created: 22. September 2023
+---
+
 # A-Betrieb
 
 Ein Transistor-Verstärker im A-Betrieb hat nur eine geringe Spitze-Spitze-Ausdehnung.  

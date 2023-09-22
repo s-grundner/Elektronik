@@ -1,8 +1,18 @@
 ---
-tags: ["Baugruppen/Schalter", "Baugruppen/Verstärker"]
-aliases: ["Bipolartransistor", "Bipolar Transistor", "BJT", "bipolar junction transistor"]
-subject: ["hwe"]
-source: ["Michael Offenhuber", "Siegbert Schrempf"]
+tags:
+  - Baugruppen/Schalter
+  - Baugruppen/Verstärker
+  - Halbleiter/BJT
+aliases:
+  - Bipolartransistor
+  - Bipolar Transistor
+  - BJT
+  - bipolar junction transistor
+subject:
+  - hwe
+source:
+  - Michael Offenhuber
+  - Siegbert Schrempf
 created: 24th March 2022
 ---
 
@@ -21,19 +31,8 @@ created: 24th March 2022
 
 - [A-Betrieb](A-Betrieb.md)
 - [B-Betrieb](B-Betrieb.md)
-
-### AB-Betrieb
-
-Der AB-Betrieb wird bei Gegentakt-Endstufen verwendet, bei denen mit vorgeschalteter [Diode](Diode.md) eine Basisvorspannung erzeugt wird, welche auch bei Spannungen unter $0.7V$ leitend macht.  
-Im AB-Betrieb werden kleine Signale wie im A-Betrieb und große Signale wie im B-Betrieb verstärkt.
-
-> [!IMPORTANT] Der Gegentaktverstärker abreitet im AB-Betrieb besonders verzerrungsarm, aber mit schlechterem Wirkungsgrad.
-
-> [!summary] 
-
-### C-Betrieb
-
----
+- [AB-Betrieb](AB-Betrieb.md)
+- [C-Betrieb](C-Betrieb.md)
 
 # Tags
 

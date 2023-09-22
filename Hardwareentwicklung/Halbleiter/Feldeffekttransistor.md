@@ -2,7 +2,7 @@
 tags:
   - Baugruppen/Schalter
   - Baugruppen/Verstärker
-  - Halbleiter
+  - Halbleiter/FET
 aliases:
   - Feldeffekttransistoren
   - FET
@@ -16,7 +16,3 @@ created: 25th March 2022
 ---
 
 # Feldeffekttransistor (FET)
-
----
-
-# Tags

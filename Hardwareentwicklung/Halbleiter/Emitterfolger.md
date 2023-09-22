@@ -1,6 +1,6 @@
 ---
 tags:
-  - Halbleiter/Transistor
+  - Halbleiter/BJT
 aliases:
   - Kollektorschaltung
 subject:

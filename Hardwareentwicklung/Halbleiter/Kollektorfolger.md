@@ -1,7 +1,7 @@
 ---
 tags:
-  - Halbleiter/Transistor
   - Baugruppen/Verstärker
+  - Halbleiter/BJT
 aliases:
   - Emitterschaltung
 subject:

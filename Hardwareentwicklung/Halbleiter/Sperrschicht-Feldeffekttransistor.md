@@ -2,7 +2,7 @@
 tags:
   - Baugruppen/Schalter
   - Baugruppen/Verstärker
-  - Halbleiter/Transistor
+  - Halbleiter/FET
 aliases:
   - Sperrschicht-Feldeffekttransistoren
   - JFET

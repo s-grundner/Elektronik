@@ -1,8 +1,17 @@
 ---
-tags: ["Halbleiter"]
-aliases: ["Dioden", "1N4148"]
-subject: ["hwe", "chemie", "dic"]
-source: ["Roman Schragl", "Michael Offenhuber", "Robert Vogl"]
+tags:
+  - Halbleiter/Diode
+aliases:
+  - Dioden
+  - 1N4148
+subject:
+  - hwe
+  - chemie
+  - dic
+source:
+  - Roman Schragl
+  - Michael Offenhuber
+  - Robert Vogl
 created: 16th March 2022
 ---
 
