@@ -33,7 +33,11 @@ created: 24th March 2022
 
 ![500L](assets/2023-09-22_16h42_12.png)
 
-Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
+> - Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
+> - Die Dioden $D_{1}$ und $D_{2}$ erhöhen die Spannung zwischen Basis und Masse.
+> - Die Spannung teilt sich zwischen der Basis-Emitter-Strecke des Transistors und dem Emitterwiderstand $R_{E}$ auf.
+> 	- Dort liegt dann eine bestimme Spannung an.
+
 
 > [!SUMMARY] Berechnung des Emitterwiderstands $R_{E}$  
 > $$R_{E}\approx \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{I_{C}}$$
@@ -41,8 +45,11 @@ Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
 > [!SUMMARY] Berechnung des Konstant-Stroms $I_{C}$  
 > $$I_{C}\approx \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{R_{E}}$$
 
-> [!SUMMARY] Berechnung des maximalen Lastwiderstands
-> 		$$R_{C,max}= \frac{U_{B}-U_{RE}}{I_{C}}\qquad $$
+> [!SUMMARY] Berechnung des maximalen Lastwiderstands  
+> $$R_{C,max}= \frac{U_{B}-U_{RE}}{I_{C}}\qquad U_{RE} = U_{D_{1}}+U_{D_{2}}-U_{BE}$$  
+> Wird der Lastwiderstand größer, kann der Strom $I_{C}$ nicht konstant gehalten werden.  
+> Über die Betriebsspannung lässt sich evtl. der Konstant-Strom erhöhen
+
 
 [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
 [Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)
