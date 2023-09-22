@@ -15,7 +15,6 @@
 	{trigger: "ft", replacement: "f(t)=", options: "mA"},
 	{trigger: "cd", replacement: "\\cdot", options: "mA"},
 
-
 	// Math mode
 	{trigger: "mk", replacement: "$$0$", options: "tA"},
 	{trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},

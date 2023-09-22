@@ -31,10 +31,9 @@ created: 24th March 2022
 
 # Bipolartransistor als Konstantstromquelle
 
-![600L](assets/2023-09-22_16h42_12.png)
+![500L](assets/2023-09-22_16h42_12.png)
 
 Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
-
 
 
 [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
