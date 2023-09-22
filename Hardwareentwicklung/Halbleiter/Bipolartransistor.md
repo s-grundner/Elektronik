@@ -20,7 +20,7 @@ created: 24th March 2022
 | ![330](../assets/npn-schalter.png) | ![300](../assets/pnp-schalter.png) | 
 
 #
-# Bipolartransistor Als Verstärker
+# Bipolartransistor Als Verstärker / Endstufe
 
 ## Betriebsarten
 
@@ -45,7 +45,9 @@ Die andere Halbwelle muss durch einen zweiten Transistor im Gegentakt-Betrieb ve
 
 > [!important] Bei dieser Schaltung handelt es sich dann um eine Gegentaktendstufe
 
-Der B-Betrieb wird bei Gegentaktendstufen durch den AB-Betrieb ersetzt,  da sonst durch die fehlende 
+Der B-Betrieb wird bei Gegentaktendstufen durch den AB-Betrieb ersetzt, da sonst durch die fehlende Basisvorspannung am Transistor Übernahmeverzerrungen auftreten entstehen.
+
+
 
 ### AB-Betrieb
 
@@ -55,7 +57,10 @@ Der B-Betrieb wird bei Gegentaktendstufen durch den AB-Betrieb ersetzt,  da sons
 
 # Tags
 
+
 [](https://de.wikipedia.org/wiki/Endstufe#A-Betrieb)
+
+
 [^2](https://www.elektronik-kompendium.de/sites/slt/0303311.htm)
 
 ![Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
