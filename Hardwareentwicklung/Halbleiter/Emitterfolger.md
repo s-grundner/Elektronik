@@ -1,6 +1,6 @@
 ---
 tags:
-  - Halbleiter
+  - Halbleiter/Transistor
 aliases:
   - Kollektorschaltung
 subject:
@@ -23,6 +23,8 @@ created: 21st November 2022
 ![Pasted image 20221121145351](../assets/Pasted%20image%2020221121145351.png)
 
 ## Arbeitspunkt
+
+$R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch Stromgegenkopplung
 
 ![Pasted image 20221121145418](../assets/Pasted%20image%2020221121145418.png)
 
