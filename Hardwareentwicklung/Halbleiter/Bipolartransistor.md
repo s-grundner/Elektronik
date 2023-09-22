@@ -31,7 +31,10 @@ created: 24th March 2022
 
 # Bipolartransistor als Konstantstromquelle
 
-![](assets/Pasted%20image%2020230922160719.png)
+![InlineR](assets/Pasted%20image%2020230922160719.png)
+
+Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
+
 
 
 [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
@@ -39,7 +42,6 @@ created: 24th March 2022
 
 # Tags
 
+- [Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
 - [Wikipedia - Endstufe](https://de.wikipedia.org/wiki/Endstufe)
 - [EK - BJT Betribsarten](https://www.elektronik-kompendium.de/sites/slt/0303311.htm)
-- [Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
-- [BJT-Stromquellen](../Stromversorgungseinheiten/BJT-Stromquellen.md)
