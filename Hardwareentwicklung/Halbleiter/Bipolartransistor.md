@@ -31,7 +31,14 @@ created: 24th March 2022
 
 # Bipolartransistor als Konstantstromquelle
 
-![600](assets/2023-09-22_16h42_12.png)
+![600](assets/Pasted%20image%2020230922175753.png)
+$$
+\begin{align*}
+R_{V} &= 10k\Omega\\
+U_{D_{1} } &= 0.7V\\
+U_{D_{2}}&= 0.7V
+\end{align*}
+$$
 
 > - Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
 > - Die Dioden $D_{1}$ und $D_{2}$ erhöhen die Spannung zwischen Basis und Masse.
@@ -43,17 +50,17 @@ created: 24th March 2022
 
 
 > [!SUMMARY] Berechnung des Emitterwiderstands $R_{E}$  
-> $$R_{E}\approx \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{I_{C}}$$
+> $$R_{E} = \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{I_{C}+I_{B}}$$
 
 > [!SUMMARY] Berechnung des Konstant-Stroms $I_{C}$  
-> $$I_{C}\approx \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{R_{E}}$$
+> $$I_{C}= \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{R_{E}}-I_{B}$$
 
 > [!SUMMARY] Berechnung des maximalen Lastwiderstands  
 > $$R_{C,max}= \frac{U_{B}-U_{RE}}{I_{C}}\qquad U_{RE} = U_{D_{1}}+U_{D_{2}}-U_{BE}$$  
 > Wird der Lastwiderstand größer, kann der Strom $I_{C}$ nicht konstant gehalten werden.  
 > Über die Betriebsspannung lässt sich evtl. der Konstant-Strom erhöhen
 
-## Weitere Konstantstrom Schaltungen  
+## Weitere BJT Konstantstrom Schaltungen
 
 - [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
 - [Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)
