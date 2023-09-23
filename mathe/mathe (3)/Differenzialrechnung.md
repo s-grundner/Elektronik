@@ -24,7 +24,6 @@ $Q_{i}$ rückt immer näher zu $P$. Der Grenzwert der Sekanten-Steigung ist die 
 
 > [!SUCCESS] Differenzieren einer Funktion
 > Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der Grenzwert $\lim_{ \Delta x \to \infty } \frac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}$ existiert.
-> 
 > Diesen Grenzwert nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
 > 
 > Er wird mit $f(x_{0})$, $y'(x_{0})$  oder $\frac{dy}{dx}\Big|_{x=x_{0}}$ (gesprochen: $dy$ nach $dx$ für $x=x_{0}$) bezeichnet.
@@ -32,7 +31,11 @@ $Q_{i}$ rückt immer näher zu $P$. Der Grenzwert der Sekanten-Steigung ist die 
 > Das Bilden der Ableitung wird *ableiten* oder *differenzieren* genannt.
 
 > [!SUCCESS] Differenzieren heißt linear approximieren
-> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der Grenzwert des Differenzenquotienten: $f'(x_{0})=\lim_{ e \to \infty }$
+> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *Grenzwert des Differenzenquotienten*: $f'(x_{0})=\frac{\lim_{ \Delta x \to \infty }\Delta y}{\Delta x}$.
+> 2. Die Bezeichnung $\frac{dy}{dx}$ soll an die Verwandtschaft der Ableitung mit einem Differenzenquotient erinnern.
+> 	Differenzierbarkeit einer Funktion an der Stelle $x_{0}$ bedeutet geometrisch, dass es dort eine *Tangente* gibt.
+> 	Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.
+> 	In der Nähe von $x_{0}$ verlaufen der Funktionsgraph und die Tangente "praktisch" glech.
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
