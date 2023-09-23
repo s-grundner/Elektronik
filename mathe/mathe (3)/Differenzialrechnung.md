@@ -14,6 +14,9 @@ created: 26th March 2022
 
 # Differenzialrechnung
 
+Die Steigung der Tangente nimmt man als Steigung der Funktion im betreffenden Punkt.
+Die Ableitung $f'(x)$ ist die Steigung der Tangente am 
+
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | konstante Funktion                              | $f(x)=c$                                                     | $f'(x)=0$                                                                      |
