@@ -9,10 +9,10 @@
 
 	{trigger: "ddt", replacement: "\\frac{d$0}{dt}$1", options: "mA"},
 	{trigger: "ddx", replacement: "\\frac{d$0}{dx}$1", options: "mA"},
-	{trigger: "dfx", replacement: "f'(x)=", options: "mA"},
-	{trigger: "dft", replacement: "f'(t)=", options: "mA"},
-	{trigger: "fx", replacement: "f(x)=", options: "mA"},
-	{trigger: "ft", replacement: "f(t)=", options: "mA"},
+	{trigger: "dfx", replacement: "f'(x$0)=$1", options: "mA"},
+	{trigger: "dft", replacement: "f'(t$0)=$1", options: "mA"},
+	{trigger: "fx", replacement: "f(x$0)=$1", options: "mA"},
+	{trigger: "ft", replacement: "f(t$0)=$1", options: "mA"},
 	{trigger: "cd", replacement: "\\cdot", options: "mA"},
 
 	// Math mode

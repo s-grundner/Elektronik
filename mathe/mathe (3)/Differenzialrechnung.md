@@ -27,7 +27,12 @@ $Q_{i}$ rückt immer näher zu $P$. Der Grenzwert der Sekanten-Steigung ist die 
 > 
 > Diesen Grenzwert nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
 > 
-> Er wird mit $f(x_{0})$, $y'(x_{0})$  oder $\frac{dy}{dx}\Big|_{x=x_{0}}$ (gesprochen: $dy$ nach $dx$ für $x=x_{0}$) beziechnet
+> Er wird mit $f(x_{0})$, $y'(x_{0})$  oder $\frac{dy}{dx}\Big|_{x=x_{0}}$ (gesprochen: $dy$ nach $dx$ für $x=x_{0}$) bezeichnet.
+> 
+> Das Bilden der Ableitung wird *ableiten* oder *differenzieren* genannt.
+
+> [!SUCCESS] Differenzieren heißt linear approximieren
+> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der Grenzwert des Differenzenquotienten: $f'(x_{0})=\lim_{ e \to \infty }$
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
