@@ -37,6 +37,12 @@ $Q_{i}$ rückt immer näher zu $P$. Der Grenzwert der Sekanten-Steigung ist die 
 > 	Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.
 > 	In der Nähe von $x_{0}$ verlaufen der Funktionsgraph und die Tangente "praktisch" glech.
 
+![](assets/Pasted%20image%2020230923151105.png)
+
+
+
+
+
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | konstante Funktion                              | $f(x)=c$                                                     | $f'(x)=0$                                                                      |
