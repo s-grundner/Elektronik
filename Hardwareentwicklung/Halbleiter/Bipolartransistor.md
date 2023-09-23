@@ -62,7 +62,7 @@ $$
 > > [!NOTE] $I_{B}$ praktisch vernachlässigbar 
 
 > [!SUMMARY] Berechnung des maximalen Lastwiderstands  
-> $$R_{C,max}= \frac{U_{B}-U_{RE}}{I_{C}}\qquad U_{RE} = U_{D_{1}}+U_{D_{2}}-U_{BE}$$  
+> $$R_{C,max}= \frac{U_{VCC}-U_{RE}-U_{CE, min}}{I_{C}}\qquad U_{RE} = U_{D_{1}}+U_{D_{2}}-U_{BE} \qquad U_{CE, min}= 2\dots3V$$  
 > Wird der Lastwiderstand größer, kann der Strom $I_{C}$ nicht konstant gehalten werden.  
 > Über die Betriebsspannung lässt sich evtl. der Konstant-Strom erhöhen
 
@@ -79,4 +79,3 @@ $$
 - [EK - Transistorstromquellen mit Silizium-Dioden](https://www.elektronik-kompendium.de/public/schaerer/currled.htm)
 - [EK - Konstantstromzweipol](https://www.elektronik-kompendium.de/public/schaerer/curr2pol.htm)
 - [EK - Stromspoiegel](https://www.elektronik-kompendium.de/public/schaerer/currmr.htm)
-- 
