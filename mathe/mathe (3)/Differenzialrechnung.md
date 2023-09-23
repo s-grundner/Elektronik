@@ -19,9 +19,10 @@ Die Ableitung $f'(x)$ ist die Steigung der Tangente am Graphen der Funktion $f(x
 
 ![](assets/Pasted%20image%2020230923135814.png)
 
-Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta)-f(x_{0})}{\Delta x}$
+Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta)-f(x_{0})}{\Delta x}\to$ Differenzenquotient oder mittlere Steigung im Intervall.
+$Q_{i}$ rückt immer näher zu $P$. Der Grenzwert der Sekanten-Steigung ist die Ableitung. 
 
-Differenzenquotient oder mittlere Steigung im Intervall 
+
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
