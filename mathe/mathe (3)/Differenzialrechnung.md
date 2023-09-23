@@ -17,11 +17,11 @@ created: 26th March 2022
 Die Steigung der Tangente nimmt man als Steigung der Funktion im betreffenden Punkt.
 Die Ableitung $f'(x)$ ist die Steigung der Tangente am Graphen der Funktion $f(x)$ im Punkt $(x_{0}|f(x_{0}))$.
 
-![](assets/Pasted%20image%2020230923134255.png)
+![](assets/Pasted%20image%2020230923135814.png)
 
 Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta)-f(x_{0})}{\Delta x}$
 
-
+Differenzenquotient oder mittlere Steigung im Intervall 
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
