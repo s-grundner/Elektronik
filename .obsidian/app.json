@@ -22,5 +22,6 @@
   "newLinkFormat": "relative",
   "showInlineTitle": false,
   "showIndentGuide": true,
-  "tabSize": 2
+  "tabSize": 2,
+  "focusNewTab": false
 }

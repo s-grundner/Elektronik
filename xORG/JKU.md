@@ -1,10 +1,4 @@
 
----
-banner: "/assets/Hauptlogo_de_schwarz_quer_jpg.jpg"
-banner_x: -0
-banner_lock: "true"
----
-
 # [JKU](https://www.jku.at/)
 
 ## [Info Zum Studienstart](https://www.youtube.com/watch?v=0R5LCo7kL2k)
