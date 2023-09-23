@@ -78,3 +78,5 @@ $$
 - [EK - BJT Betribsarten](https://www.elektronik-kompendium.de/sites/slt/0303311.htm)
 - [EK - Transistorstromquellen mit Silizium-Dioden](https://www.elektronik-kompendium.de/public/schaerer/currled.htm)
 - [EK - Konstantstromzweipol](https://www.elektronik-kompendium.de/public/schaerer/curr2pol.htm)
+- [EK - Stromspoiegel](https://www.elektronik-kompendium.de/public/schaerer/currmr.htm)
+- 
