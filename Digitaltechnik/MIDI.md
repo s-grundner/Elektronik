@@ -1,7 +1,8 @@
 ---
-tags: ["Interface/Serial/Sync]
-aliases: []
-created: 17th August 2023
+tags:
+  - Interface/Serial/Sync
+aliases: 
+created: 4. September 2023
 ---
 
 # MIDI
@@ -31,7 +32,7 @@ Eine MIDI-Nachricht ist aus drei (manchmal zwei) Bytes aufgebaut:
 
 ### MIDI-Status
 
-Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Statusund Kanalnibble ein Byte. Mit dem Statusnibble wird dem Empfänger mitgeteilt, welche Funktion die darauffolgenden Datenbytes haben. Mit 16 verschiedenen Möglichkeiten, kann der Status mit vier Bit eindeutig codiert werden. Mögliche Statusnibble sind:
+Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status und Kanalnibble ein Byte. Mit dem Statusnibble wird dem Empfänger mitgeteilt, welche Funktion die darauffolgenden Datenbytes haben. Mit 16 verschiedenen Möglichkeiten, kann der Status mit vier Bit eindeutig codiert werden. Mögliche Statusnibble sind:
 
 | Status            | Hex-Wert | Funktion                                                                                                  |
 | ----------------- | -------- | --------------------------------------------------------------------------------------------------------- |
@@ -65,7 +66,7 @@ Für das Projekt sind nur die Funktionen _Note On_ und _Note Off_ relevant, wesh
 
 Im Datenbyte eins ist bei beiden Status die Adresse der Note gespeichert, während in Byte zwei die Anschlagstärke übertragen wird. Ungewöhnlicherweise wird auch beim Ausschalten einer Note die Anschlagstärke (Loslass-Geschwindigkeit) übertragen, welche je nach Empfänger beispielsweise als Nachklang interpretiert werden könnte. [1]
 
-Die Adresse der Note lässt sich wie folgt herausfinden: Die Note A0 entspricht der Adresse 21 (dezimal). Von dort aus zählt man linear aufwärts bis 127, welches der Note G9 entspricht. Noten unter A0 können auch übertragen werden, jedoch sind die Frequenzen, welcher sie entsprechen, nicht mehr im hörbaren Bereich. Die Anschlagstärke einer Note bestimmt die Initiale Lautstärke. Hat seine Note die Anschlagstärke 0, so wird sie automatisch als _Note Off_ interpretiert. [1] [2] [3] 
+Die Adresse der Note lässt sich wie folgt herausfinden: Die Note A0 entspricht der Adresse 21 (dezimal). Von dort aus zählt man linear aufwärts bis 127, welches der Note G9 entspricht. Noten unter A0 können auch übertragen werden, jedoch sind die Frequenzen, welcher sie entsprechen, nicht mehr im hörbaren Bereich. Die Anschlagstärke einer Note bestimmt die Initiale Lautstärke. Hat seine Note die Anschlagstärke 0, so wird sie automatisch als _Note Off_ interpretiert. [^1] [^2] [^3] 
 
 Soll beispielsweise die Note E2 mit einer Anschlagstärke von 64 auf Kanal 1 angeschaltet werden, sieht das übertragene Wort folgendermaßen aus:
 
@@ -80,8 +81,8 @@ Nach dieser Übertragung bleibt die Note so lange angeschaltet, bis ein _Note Of
 
 # Quellen
 
-[1] - [ZeM College MIDI Kompendium](https://www.zem-college.de/indexf.html)
+[^1]: - [ZeM College MIDI Kompendium](https://www.zem-college.de/indexf.html)
 
-[2] - [Expanded MIDI 1.0 Messages List (Status Bytes)](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes)
+[^2] - [Expanded MIDI 1.0 Messages List (Status Bytes)](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes)
 
 [3] - [MIDI note numbers and center frequencies](https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies)
