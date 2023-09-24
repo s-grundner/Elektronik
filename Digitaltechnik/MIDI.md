@@ -15,7 +15,7 @@ Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die 
 > 
 > ![750](assets/MIDI-DigiFilter.png)
 
-Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analogesnoch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [1]
+Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analogesnoch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [^1]
 
 Das MIDI-Protokoll beschreibt unter anderem die zu übertragenden Noten mit digitalen Wörtern, welche in einer genormten Tabelle festgehalten sind. Jede Note hat daher eine Adresse, durch welche dann ein anderes digitales Instrument weiß, mit welcher Tonhöhe es diese Note spielen muss.
 
@@ -64,7 +64,7 @@ Mit den Vier übrigen Bit wird der Kanal eingestellt, an den die Nachricht gesch
 
 Für das Projekt sind nur die Funktionen _Note On_ und _Note Off_ relevant, weshalb die Dokumentation der Datenbytes auf diese beiden Status-Worte beschränkt ist.
 
-Im Datenbyte eins ist bei beiden Status die Adresse der Note gespeichert, während in Byte zwei die Anschlagstärke übertragen wird. Ungewöhnlicherweise wird auch beim Ausschalten einer Note die Anschlagstärke (Loslass-Geschwindigkeit) übertragen, welche je nach Empfänger beispielsweise als Nachklang interpretiert werden könnte. [1]
+Im Datenbyte eins ist bei beiden Status die Adresse der Note gespeichert, während in Byte zwei die Anschlagstärke übertragen wird. Ungewöhnlicherweise wird auch beim Ausschalten einer Note die Anschlagstärke (Loslass-Geschwindigkeit) übertragen, welche je nach Empfänger beispielsweise als Nachklang interpretiert werden könnte. [^1]
 
 Die Adresse der Note lässt sich wie folgt herausfinden: Die Note A0 entspricht der Adresse 21 (dezimal). Von dort aus zählt man linear aufwärts bis 127, welches der Note G9 entspricht. Noten unter A0 können auch übertragen werden, jedoch sind die Frequenzen, welcher sie entsprechen, nicht mehr im hörbaren Bereich. Die Anschlagstärke einer Note bestimmt die Initiale Lautstärke. Hat seine Note die Anschlagstärke 0, so wird sie automatisch als _Note Off_ interpretiert. [^1] [^2] [^3] 
 
@@ -81,8 +81,8 @@ Nach dieser Übertragung bleibt die Note so lange angeschaltet, bis ein _Note Of
 
 # Quellen
 
-[^1]: - [ZeM College MIDI Kompendium](https://www.zem-college.de/indexf.html)
+[^1]: [ZeM College MIDI Kompendium](https://www.zem-college.de/indexf.html)
 
-[^2] - [Expanded MIDI 1.0 Messages List (Status Bytes)](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes)
+[^2]: [Expanded MIDI 1.0 Messages List (Status Bytes)](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes)
 
-[3] - [MIDI note numbers and center frequencies](https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies)
+[^3]: [MIDI note numbers and center frequencies](https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies)
