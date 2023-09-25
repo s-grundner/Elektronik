@@ -1,8 +1,11 @@
 ---
-tags: []
-aliases: []
-subject: ["dic"]
-source: ["Robert Vogl"]
+tags:
+  - incomplete
+aliases: 
+subject:
+  - dic
+source:
+  - Robert Vogl
 created: 3rd February 2023
 ---
 

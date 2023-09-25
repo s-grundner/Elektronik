@@ -27,8 +27,7 @@ $i\dots$Anzahl der Samplepoints
 
 $^{T}\dots$Matrix ist Transponiert
 
-# Beispiel
-
+> [!EXAMPLE]
 $$
 \begin{array}{}
 P_{1}(1|10): y=0\\
@@ -40,5 +39,3 @@ P_{5}(6|40): y=1\\
 P_{6}(6|150): y=1\\
 \end{array}
 $$
-
-# Tags
