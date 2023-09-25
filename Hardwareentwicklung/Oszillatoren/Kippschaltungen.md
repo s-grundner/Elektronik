@@ -35,55 +35,41 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > [!hint] Schaltung  
 > ![300](../assets/ST-Kippschalter.png)
 
-#### Formel
-
-> [!summary] Entladedauer
-> $$t_{E} =\uptau\ln\left(\dfrac{U_T^+}{U_T^-}\right)$$
-
+| Formeln      |     |
+| ------------ | --- |
+| Ladedauer    | $t_L = \uptau\cdot\ln\left(\dfrac{U_0U_T^+}{U_0-U_T^-}\right)$    |
+| Entladedauer | $t_{E} =\uptau\ln\left(\dfrac{U_T^+}{U_T^-}\right)$    |
 
 #### Herleitung
 
-|                              |     |                               |
-| ---------------------------- | --- | ----------------------------- |
-| Periodendauer $T$ <br> Ladedauer $t_L$ <br>  |     | ![500](../assets/ST-Diag.png) | 
-
-
-> [!summary] Periodendauer   
-> $T=(t_{3}-t_{2})+(t_{2}-t_{1})$
-
-> [!summary] Ladedauer 
-> $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$
-
-> [!summary] Entladedauer $t_E$  
-> $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$
-
+| ![500](../assets/ST-Diag.png) |                                                 | 
+| ----------------------------- | ----------------------------------------------- |
+| Periodendauer $T$             | $T=(t_{3}-t_{2})+(t_{2}-t_{1})$                 |
+| Ladedauer $t_L$               | $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$ |
+| Entladedauer $t_E$            | $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$    |
 
 > [!SUMMARY] Entladen
 > ![herl_te](../assets/herl_te.png)
 
-##### Laden
+> [!SUMMARY] Laden
+> ![Herl_tl](../assets/Herl_tl.png)
 
-![Herl_tl](../assets/Herl_tl.png)
+> [!SUMMARY] $T$ berechnen
+> ![herl_T|550](../assets/herl_T.png)
 
- > [!summary] $$t_L = \uptau\cdot\ln\left(\dfrac{U_0U_T^+}{U_0-U_T^-}\right)$$
+> [!EXAMPLE] Dimensionierung "Invertierenden [Schmitt Trigger](../Schmitt%20Trigger.md)" als Taktgenerator
+> $$
+> \begin{align*}
+> &U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz&&|&&\text{gesucht}\\
+> &U_{a,max}=15V=U_{B}^{+} && U_{T}^{+}=3V && T=10^{-3}s&&|&&\underbrace{R_{1}, R_{2}}_{U_{V}} , R_{3}, R_{4}\\
+> \\
+> \end{align*}
+> $$
+> ![invST-calc1](../assets/invST-calc1.png)
 
-##### $T$ berechnen
+## BJT-Kippschaltung
 
-![herl_T|550](../assets/herl_T.png)
- > [!summary] $$T = \uptau\ln\left(\frac{U_T^+}{U_T^-}\cdot\dfrac{U_0U_T^+}{U_0-U_T^-}\right)$$
-
-## Dimensionierung "Invertierenden [Schmitt Trigger](../Schmitt%20Trigger.md)" als Taktgenerator
-
-$$
-\begin{align*}
-&U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz&&|&&\text{gesucht}\\
-&U_{a,max}=15V=U_{B}^{+} && U_{T}^{+}=3V && T=10^{-3}s&&|&&\underbrace{R_{1}, R_{2}}_{U_{V}} , R_{3}, R_{4}\\
-\\
-\end{align*}
-$$
-![invST-calc1](../assets/invST-calc1.png)
-
-## BJT - Kippschaltung
+![](assets/Pasted%20image%2020230925152818.png)
 
 $$
 t_{1}=\ln 2 \cdot R_{1}\cdot C_{1}
