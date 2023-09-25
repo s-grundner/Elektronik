@@ -11,4 +11,4 @@ created: 19th August 2023
 
 # Tags
 
-[Differentielles Paar](../Hardwareentwicklung/Differentielles%20Paar.md)
+[Differenzielles Paar](../Hardwareentwicklung/Differenzielles%20Paar.md)
