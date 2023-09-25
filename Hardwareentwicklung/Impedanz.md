@@ -13,7 +13,6 @@ created: 11th April 2023
 
 # Abschlussimpedanz
 
-![](assets/Pasted%20image%2020230925093312.png)
 
 > [!IMPORTANT] Für hochfrequente Logik-Signale ([elektrisch kurz](../HF-Technik/Leitungstheorie.md) im vergleich zur Flankenanstiegszeit) führen Fehlanpassungen an einer der Impedanzen $Z_{S}$, $Z_{0}$ bzw. $Z_{L}$ zu [Reflexionen](../HF-Technik/Reflexionsfaktor.md).
 > Probleme:
