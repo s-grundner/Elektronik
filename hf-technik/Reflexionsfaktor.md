@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: []
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags: 
+aliases:
+  - Refelxion
+  - Reflexionskoeffizient
+  - Reflexionen
+subject:
+  - ksn
+source:
+  - Martin Aichriedler
 created: 28th September 2022
 ---
 
