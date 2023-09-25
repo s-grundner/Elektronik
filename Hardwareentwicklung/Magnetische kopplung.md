@@ -1,8 +1,11 @@
 ---
-tags: []
-aliases: []
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - EMV
+aliases: 
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 7th March 2023
 ---
 

@@ -1,8 +1,10 @@
 ---
-tags: []
-aliases: []
-source: ["Rick Hartley"]
-created: 20th August 2023 
+tags:
+  - incomplete
+aliases: 
+source:
+  - Rick Hartley
+created: 20th August 2023
 ---
 
 # Differenzielles Paar

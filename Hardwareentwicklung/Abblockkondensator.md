@@ -1,6 +1,8 @@
 ---
-tags: []
-aliases: []
+tags: 
+aliases:
+  - Entkopplungskondensator
+  - decoupling
 created: 19th August 2023
 ---
 
