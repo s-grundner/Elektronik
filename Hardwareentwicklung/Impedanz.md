@@ -13,7 +13,8 @@ created: 11th April 2023
 
 # Abschlussimpedanz
 
-![](assets/TL_QundS.png)
+![TL_QundS](../HF-Technik/assets/TL_QundS.png)
+
 > [!IMPORTANT] Für hochfrequente Logik-Signale ([elektrisch kurz](../HF-Technik/Leitungstheorie.md) im vergleich zur Flankenanstiegszeit) führen Fehlanpassungen an einer der Impedanzen $Z_{S}$, $Z_{0}$ bzw. $Z_{L}$ zu [Reflexionen](../HF-Technik/Reflexionsfaktor.md).
 > Probleme:
 > - Overshoot oder Undershoot durch [Reflexionen](../HF-Technik/Reflexionsfaktor.md)
@@ -23,7 +24,7 @@ created: 11th April 2023
 > [!INFO] Eine Anpassung der [Leitungstheorie](../HF-Technik/Leitungstheorie.md) unterdrückt diese Probleme
 > Leitungen können länger sein
 > Die Datenrate kann erhöht werden
-> Bessere [SI](Signalintegrität.md) und [[EMC]]
+> Bessere [SI](Signalintegrität.md) und [EMC](Elektromagnetische%20Verträglichkeit.md)
 
 > [!WARNING] Es gibt verschiedene Arten von Abschlussanpassung:
 > - Seriell (Widerstand am Ausgang der Quelle (Treiber))
