@@ -1,8 +1,13 @@
 ---
-tags: ["Baugruppen/Oszillator"]
-aliases: []
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppen/Oszillator
+aliases:
+  - Kippstufe
+  - astabil
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 3rd January 2023
 ---
 
@@ -17,7 +22,9 @@ created: 3rd January 2023
 > [!WARNING] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):  
 > ![500](../assets/Kippschalter-slew.png)
 
-# [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltung
+## Schaltungen von Kippstufen
+
+### Schmitttrigger
 
 Die Frequenz wird von durch folgende Parameter beeinflusst:
 - RC-Glied im Rückkoppelbereich ($\uptau$);
@@ -28,35 +35,41 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > [!hint] Schaltung  
 > ![300](../assets/ST-Kippschalter.png)
 
-## Herleitung
+#### Formel
 
-![500](../assets/ST-Diag.png)
-> [!summary] Periodendauer $T$  
+> [!summary] Entladedauer
+> $$t_{E} =\uptau\ln\left(\dfrac{U_T^+}{U_T^-}\right)$$
+
+
+#### Herleitung
+
+|                              |     |                               |
+| ---------------------------- | --- | ----------------------------- |
+| Periodendauer $T$ <br> Ladedauer $t_L$ <br>  |     | ![500](../assets/ST-Diag.png) | 
+
+
+> [!summary] Periodendauer   
 > $T=(t_{3}-t_{2})+(t_{2}-t_{1})$
- 
 
-> [!summary] Ladedauer $t_L$  
+> [!summary] Ladedauer 
 > $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$
-
 
 > [!summary] Entladedauer $t_E$  
 > $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$
 
-### Entladen
 
-![herl_te](../assets/herl_te.png)
+> [!SUMMARY] Entladen
+> ![herl_te](../assets/herl_te.png)
 
- > [!summary] $$t_{E} =\uptau\ln\left(\dfrac{U_T^+}{U_T^-}\right)$$
-
-### Laden
+##### Laden
 
 ![Herl_tl](../assets/Herl_tl.png)
 
  > [!summary] $$t_L = \uptau\cdot\ln\left(\dfrac{U_0U_T^+}{U_0-U_T^-}\right)$$
 
-### $T$ berechnen
+##### $T$ berechnen
 
-![herl_T](../assets/herl_T.png)
+![herl_T|550](../assets/herl_T.png)
  > [!summary] $$T = \uptau\ln\left(\frac{U_T^+}{U_T^-}\cdot\dfrac{U_0U_T^+}{U_0-U_T^-}\right)$$
 
 ## Dimensionierung "Invertierenden [Schmitt Trigger](../Schmitt%20Trigger.md)" als Taktgenerator
@@ -69,9 +82,6 @@ $$
 \end{align*}
 $$
 ![invST-calc1](../assets/invST-calc1.png)
-
-
-
 
 ## BJT - Kippschaltung
 

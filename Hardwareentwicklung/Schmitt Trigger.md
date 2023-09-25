@@ -24,6 +24,7 @@ created: 10th January 2023
 
 ![invST-calc2](assets/invST-calc2.png)
 
-# Tags
 
-[Kippschaltungen](Oszillatoren/Kippschaltungen.md)
+# Schaltungen mit Schmitttriggern
+
+- [e](Oszillatoren/Kippschaltungen.md#[Schmitt%20Trigger](../Schmitt%20Trigger.md)%20Kippschaltung)
