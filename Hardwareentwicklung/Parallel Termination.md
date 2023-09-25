@@ -26,6 +26,8 @@ created: 25. September 2023
 > - [CAN](../Digitaltechnik/CAN.md) (Split-Parallelabschluss)
 > - LVDS
 
+ ![](assets/Pasted%20image%2020230925143130.png)
+
 > [!BUG] Nachteile
 > - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Physik/Elektrische%20Leistung.md) an $R_{T}$  zu versorgen.
 > - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv Strom verbraucht.

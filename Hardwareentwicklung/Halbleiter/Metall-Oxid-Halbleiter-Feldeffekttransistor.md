@@ -18,7 +18,3 @@ created: 25th March 2022
 ---
 
 # [Metall](../../Chemie/Metallbindung.md)-Oxid-[Halbleiter](Halbleiter.md)-[Feldeffekttransistor](Feldeffekttransistor.md) (MOSFET)
-
----
-
-# Tags
