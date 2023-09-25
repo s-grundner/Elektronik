@@ -33,7 +33,16 @@ created: 11th April 2023
 
 ## Paralleler Abschlusswiderstand
 
+> [!INFO] Oft ist die Impedanz der Quelle und der Leitung niedrig ($10\Omega-100\Omega$) gegenüber der Abschlussimpedanz ($>1000\Omega$)
+> Ohne Maßnahmen treten Reflexionen in hohem Maße auf
 
+![](assets/ParallelTerm.png)
+
+> [!SOLUTION] TL wird an der Quell-Seite mit einem parallelen Abschlusswiderstand $R_{T}$ terminiert. 
+> Der Widerstand wird so gewählt dass: $Z_{A}\mid\mid R_{T} = Z_{0}$.
+> Aufgrund der hohen Impedanz der Last gilt: $R_{T}\approx Z_{0}$ (kleinere Widerstände 
+$$)
+> 
 
 ## Serieller Abschlusswiderstand
 
