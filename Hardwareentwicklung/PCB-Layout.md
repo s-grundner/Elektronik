@@ -33,7 +33,7 @@ created: 19th August 2023
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### [Leitung](../HF-Technik/Leitungstheorie.md) Und Anpassung
+### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) und [Anpassung](Impedanz.md)
 
 1. Leiterbahnen kurz halten
 2. Wellenwiderstand / [Impedanz](Impedanz.md) Anpassen

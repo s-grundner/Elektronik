@@ -52,7 +52,9 @@ created: 11th April 2023
 > - CAN (Split-Parallelabschluss)
 > - LVDS
 
-
+> [!BUG] Nachteile
+> - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende Leistung an $R_{T}$  zu versorgen.
+> - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird 
 
 ## Serieller Abschlusswiderstand
 

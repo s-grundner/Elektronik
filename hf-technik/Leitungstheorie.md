@@ -3,6 +3,8 @@ tags:
 aliases:
   - Leiterbahn
   - Leitung
+  - Leiterbahnen
+  - Leitungen
 created: 20th August 2023
 ---
 
