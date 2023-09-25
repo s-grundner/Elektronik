@@ -1,7 +1,14 @@
 ---
-tags: ["Halbleiter"]
-aliases: ["Silizium", "Germanium"]
-subject: ["hwe", "chemie", "dic"]
+tags:
+  - Halbleiter
+  - incomplete
+aliases:
+  - Silizium
+  - Germanium
+subject:
+  - hwe
+  - chemie
+  - dic
 ---
 
 # Halbleiter

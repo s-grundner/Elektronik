@@ -2,6 +2,7 @@
 tags:
   - Baugruppen/Schalter
   - Halbleiter
+  - incomplete
 aliases:
   - Metall-Oxid-Halbleiter-Feldeffekttransistoren
   - MOSFET

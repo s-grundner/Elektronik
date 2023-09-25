@@ -1,6 +1,7 @@
 ---
 tags:
   - Halbleiter/Diode
+  - "#incomplete"
 aliases:
   - Dioden
   - 1N4148

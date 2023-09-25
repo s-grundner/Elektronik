@@ -2,6 +2,7 @@
 tags:
   - Baugruppen/Verstärker
   - Halbleiter/BJT
+  - incomplete
 aliases:
   - Emitterschaltung
 subject:

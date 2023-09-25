@@ -22,7 +22,6 @@ created: 24th March 2022
 |:----------------------------------:|:----------------------------------:|
 | ![330](assets/npn-schalter.png) | ![300](assets/pnp-schalter.png) |
 
-#
 # Bipolartransistor als Verstärker / Endstufe
 
 | Betriebsarten                                                                                                                       | Kennlinie                                          |

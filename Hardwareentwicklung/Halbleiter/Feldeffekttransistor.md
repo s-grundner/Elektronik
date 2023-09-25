@@ -3,6 +3,7 @@ tags:
   - Baugruppen/Schalter
   - Baugruppen/Verstärker
   - Halbleiter/FET
+  - incomplete
 aliases:
   - Feldeffekttransistoren
   - FET

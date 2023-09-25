@@ -1,6 +1,7 @@
 ---
 tags:
   - Halbleiter/BJT
+  - incomplete
 aliases:
   - Kollektorschaltung
 subject:
