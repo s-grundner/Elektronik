@@ -29,4 +29,4 @@ Gemeinsam ist der technischen Sensorik, dass sie technische Produkte behandelt, 
 # Tags
 
 [Aktorik](Aktorik.md)  
-![MTRS23_02a_Sensorik](assets/MTRS23_02a_Sensorik.pdf)
+![MTRS23_02a_Sensorik](assets/pdf/MTRS23_02a_Sensorik%201.pdf)

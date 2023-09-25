@@ -37,7 +37,7 @@ created: 10th December 2022
 
 ## 5. JG
 
-- [Machine Learning](Machine%20Learning/Machine%20Learning.md)
+- [Machine Learning](Machine%20Learning.md)
 - [ESP32](../Softwareentwicklung/IoT/ESP32.md)
 
 ## Matura
@@ -81,7 +81,7 @@ created: 10th December 2022
 - Oktal
 - Alle in alle umrechnen können
 
-### [Machine Learning](Machine%20Learning/Machine%20Learning.md)
+### [Machine Learning](Machine%20Learning.md)
 
 - So wie beim Test
 

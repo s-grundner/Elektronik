@@ -83,6 +83,13 @@
         "a": 1,
         "rgb": 16762880
       }
+    },
+    {
+      "query": "path:ECAD  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
     }
   ],
   "collapse-display": false,
@@ -95,6 +102,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 421,
-  "scale": 0.0593261718750022,
+  "scale": 0.22920135941750167,
   "close": false
 }

@@ -32,9 +32,9 @@ Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 
 ## Timischl/Kaiser [Übungen](https://a.digi4school.at/ebook/5011/?page=164)
 
-- [UE-Kombinatorik](../assets/UE-Kombinatorik.pdf)
+- [UE-Kombinatorik](../assets/pdf/UE-Kombinatorik.pdf)
 
 ## Übungsaufgaben
 
-- [Kombinatorik](../assets/Kombinatorik.pdf)
-- [UEZ-Kombinatorik](../assets/UEZ-Kombinatorik.pdf) 
+- [Kombinatorik](../assets/pdf/Kombinatorik.pdf)
+- [UEZ-Kombinatorik](../assets/pdf/UEZ-Kombinatorik.pdf) 

@@ -33,7 +33,7 @@ Metalle ($Na$) übertragen ihre [Valenzelektronen](Valenzelektronen.md) an Nicht
 
 ## [Atombindung](Atombindung.md)
 
->![300](../assets/Atom-bnd.png)
+>![300](assets/Atom-bnd.png)
 
 Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 

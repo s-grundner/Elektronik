@@ -450,7 +450,7 @@ Starten/Stoppen (enable/disable) eines Service:
 
 ## Node.js / Desktop (JS/Node_01_MongoIntro)
 
-![REST_SysOverview_03](assets/REST_SysOverview_03.png)
+![REST_SysOverview_03](../assets/REST_SysOverview_03.png)
 
 <https://www.youtube.com/watch?v=1VA0MPwFcyU>
 
@@ -576,7 +576,7 @@ Es wurde ein zweiter GET implementiert, diesmal mit einem anderen Pfad (api/pers
 
 ## C (408)
 
-![REST_SysOverview_04](assets/REST_SysOverview_04.png)
+![REST_SysOverview_04](../assets/REST_SysOverview_04.png)
 
 Um mittels C-Programm auf das Node.js REST-API zuzugreifen:
 
@@ -621,7 +621,7 @@ int main()
 
 ## PHP (JS-_REST_01)
 
-![REST_SysOverview_02](assets/REST_SysOverview_02.png)
+![REST_SysOverview_02](../assets/REST_SysOverview_02.png)
 
 Mit diesem Beispiel wird ein REST-GET mittels php realisiert. Dabei wird der Einfachheit wegen lediglich auf ein Feld zugegriffen. Verwendet werden kann diese Struktur um zum Beispiel einen Datenbankzugriff mittels REST über php zu ermöglichen.
 
@@ -713,7 +713,7 @@ localhost/_rest/php
 
 ## Android (Andro-02)
 
-![REST_SysOverview_02](assets/REST_SysOverview_02.png)
+![REST_SysOverview_02](../assets/REST_SysOverview_02.png)
 
 Für dieses Beispiel ist das vorherige PHP-Beispiel Voraussetzung. 
 
