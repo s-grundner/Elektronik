@@ -26,5 +26,8 @@ created: 28th September 2022
 > 	$\to$ (Reflexion addiert sich zum Signal $\to$ Overshoot)
 > - wenn $Z_{A}<Z_{L}\to$ negative Reflexionen 😭 
 > 	$\to$ (reflektierter Anteil subtrahiert sich vom Signal $\to$ Undershoot)
+> 
+> ![InlineR|500](assets/OverUnderRefl.png)
+
 
 > [!INFO] Undershoot hat in modernen digitalen Schaltungen einen größeren Einfluss
