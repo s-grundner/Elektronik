@@ -25,5 +25,5 @@ created: 10th January 2023
 ![invST-calc2](assets/invST-calc2.png)
 
 
-# Schaltungen mit Schmitttriggern
+# Schaltungen mit Schmitt Triggern
 
