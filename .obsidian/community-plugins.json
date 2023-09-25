@@ -7,7 +7,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
   "url-into-selection",
-  "darlal-switcher-plus",
   "table-extended",
   "tag-wrangler",
   "templater-obsidian",
@@ -20,7 +19,6 @@
   "obsidian-kanban",
   "oz-clear-unused-images",
   "obsidian-link-converter",
-  "global-search-and-replace",
   "obsidian-trash-explorer",
   "cmdr",
   "obsidian-icon-folder",
@@ -41,5 +39,7 @@
   "obsidian-react-components",
   "mousewheel-image-zoom",
   "obsidian-latex-suite",
-  "text-snippets-obsidian"
+  "text-snippets-obsidian",
+  "settings-search",
+  "darlal-switcher-plus"
 ]
