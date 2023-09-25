@@ -54,8 +54,17 @@ created: 11th April 2023
 
 > [!BUG] Nachteile
 > - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende Leistung an $R_{T}$  zu versorgen.
-> - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird 
+> - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv Strom verbraucht.
+> - Große parallele Busse (z.B. DDR) die für jede Leitung einen $R_{T}$ benötigen:
+> 	- Obere Aspekte haben stärkeren Einfluss
+> 	- komplexes Routing
+> 	- benötigt viel Platz
 
+> [!TIP] Tips
+> - $V_{TT}$ wählen, dass wenig Leistung wie möglich verschwendet wird.
+> - Toleranz bei $Z_{0}$ ($5\%, 10\%$) beachten
+> - Toleranz bei $R_{T}$ ($1\%, 10\%$) beachten
+> - Um Undershoot ($R_{T}<Z_{0}$) zu vermeiden $\to$ *$R_{T}$ $10\%$ höher als $Z_{0}$ wählen*
 ## Serieller Abschlusswiderstand
 
 # Tags
