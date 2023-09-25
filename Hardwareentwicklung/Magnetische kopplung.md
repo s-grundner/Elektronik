@@ -47,7 +47,7 @@ Die Höhe der induzierten Störspannug hängt ab von:
 3. der Amplitude des Stromes $\hat{i}_{stör}$
 4. der Frequenz des Störstromes $\omega\cdot\underline{I}_{stör}$
 
-Die Gegeninduktivität wird durch die Topologie, bzw durch die [Leiterbahn](../HF-Technik/Leitung.md) anordnung bestimmt.
+Die Gegeninduktivität wird durch die Topologie, bzw durch die [Leiterbahn](../HF-Technik/Leitungstheorie.md) anordnung bestimmt.
 
 ## Gegeninduktivität $M$
 

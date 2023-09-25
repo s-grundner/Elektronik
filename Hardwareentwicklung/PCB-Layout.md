@@ -38,7 +38,7 @@ created: 19th August 2023
 1. Leiterbahnen kurz halten
 2. Wellenwiderstand / [Impedanz](Impedanz.md) Anpassen
 	- Abschlusswiderstand
-3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Leitung.md) an
+3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Leitungstheorie.md) an
 4. Leiterbahnen am Rand der Platine vermeiden
 	- Niedriges [VSWR](../HF-Technik/Stehwellenverhältnis.md)
 	- keine [Reflexionen](../HF-Technik/Reflexionsfaktor.md)
