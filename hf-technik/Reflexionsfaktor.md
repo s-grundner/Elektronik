@@ -31,3 +31,4 @@ created: 28th September 2022
 
 
 > [!INFO] Undershoot hat in modernen digitalen Schaltungen einen größeren Einfluss
+> Wegen niedrigen Logikpegel! 
