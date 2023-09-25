@@ -1,7 +1,14 @@
 ---
-tags: []
-aliases: ["Leiterplatte", "PCB", "Leiterplatten-Design", "PCB-Design"]
-source: ["Rick Hartley", "Mike Creeden"]
+tags:
+  - incomplete
+aliases:
+  - Leiterplatte
+  - PCB
+  - Leiterplatten-Design
+  - PCB-Design
+source:
+  - Rick Hartley
+  - Mike Creeden
 created: 19th August 2023
 ---
 
