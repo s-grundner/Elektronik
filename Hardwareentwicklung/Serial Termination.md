@@ -1,7 +1,8 @@
 ---
-tags: []
-aliases: []
+tags: 
+aliases:
+  - serieller Leitungsabschluss
 created: 25. September 2023
 ---
 
-# Serielle Abschlussimpedanz
+# Serieller Leitungsabschluss

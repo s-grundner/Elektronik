@@ -1,8 +1,11 @@
 ---
-tags: []
-aliases: []
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags: 
+aliases:
+  - Ausbreitungs
+subject:
+  - ksn
+source:
+  - Martin Aichriedler
 created: 1st March 2023
 ---
 
@@ -13,7 +16,7 @@ created: 1st March 2023
 > - $U_{h}$ = Amplitude der hinlaufenden Welle
 > - $U_{r}$ = Amplitude der rücklaufenden Welle
 > 
-> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die [Dämpfung](../Hardwareentwicklung/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
+> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die komplexe [Dämpfung](../Hardwareentwicklung/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
 
 ## Herleitung
 
