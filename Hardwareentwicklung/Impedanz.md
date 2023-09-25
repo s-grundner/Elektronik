@@ -17,7 +17,7 @@ created: 11th April 2023
 
 > [!IMPORTANT] Für hochfrequente Logik-Signale ([elektrisch kurz](../HF-Technik/Leitungstheorie.md) im vergleich zur Flankenanstiegszeit) führen Fehlanpassungen an einer der Impedanzen $Z_{S}$, $Z_{0}$ bzw. $Z_{L}$ zu [Reflexionen](../HF-Technik/Reflexionsfaktor.md).
 > Probleme:
-> - Overshoot oder Undershoot
+> - Overshoot oder Undershoot durch [Reflexionen](../HF-Technik/Reflexionsfaktor.md)
 > - Signalintegritätsprobleme ([SI](Signalintegrität.md)) (Logik-Schwellen, Überschreitung von maximum ratings)
 > - Probleme mit [EMV](Elektromagnetische%20Verträglichkeit.md) (erhöhte Frequenzanteile, Abstrahlungen)
 
@@ -29,7 +29,7 @@ created: 11th April 2023
 > [!WARNING] Es gibt verschiedene Arten von Abschlussanpassung:
 > - Seriell (Widerstand am Ausgang der Quelle (Treiber))
 > - Parallel (Widerstand parallel zur Senke, Verbunden mit einer *Terminationvoltage* oder Masse)
-> - weitere: AC parallel, Thevenin, Diode
+> - weitere: AC parallel, Thevenin, [Diode](Halbleiter/Diode.md)
 
 ## Paralleler Abschlusswiderstand
 
