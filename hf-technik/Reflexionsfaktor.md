@@ -20,7 +20,4 @@ $$
 r= \frac{Z_{A}-Z_{L}}{Z_{A}+Z_{L}}
 $$
 
-
----
-
-# Tags
+![](assets/Pasted%20image%2020230925093258.png)
