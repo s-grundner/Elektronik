@@ -9,9 +9,9 @@ created: 19th August 2023
 
 ![500](assets/Pasted%20image%2020230822172103.png)
 
-- **DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
-- **DFP - Performance/Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), Thermisch, Strom 
-- **DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil Versorgung/Verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
+- **Design For Solvability: DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
+- **Design For Performance: DFP - Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), Thermisch, Strom 
+- **Design For Manufacturability: DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil Versorgung/Verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
 
 ## Hochfrequenz Leitungen
 
@@ -33,7 +33,7 @@ created: 19th August 2023
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### Leiterbahnen Und Anpassung
+### [Leitung](../HF-Technik/Leitungstheorie.md) Und Anpassung
 
 1. Leiterbahnen kurz halten
 2. Wellenwiderstand / [Impedanz](Impedanz.md) Anpassen
