@@ -69,7 +69,7 @@ $$
 
 - [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
 - [Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)
-- [BJT-Kippschaltung](../Oszillatoren/Kippschaltungen.md#BJT-Kippschaltung)
+- [BJT-Kippschaltung](../Oszillatoren/Kippstufe.md#BJT-Kippschaltung)
 
 # Tags
 

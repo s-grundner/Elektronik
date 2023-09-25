@@ -27,4 +27,3 @@ created: 10th January 2023
 
 # Schaltungen mit Schmitttriggern
 
-- [e](Oszillatoren/Kippschaltungen.md#[Schmitt%20Trigger](../Schmitt%20Trigger.md)%20Kippschaltung)
