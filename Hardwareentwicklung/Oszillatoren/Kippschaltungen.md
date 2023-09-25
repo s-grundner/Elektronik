@@ -22,9 +22,10 @@ created: 3rd January 2023
 > [!WARNING] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):  
 > ![500](../assets/Kippschalter-slew.png)
 
-## Schaltungen von Kippstufen
+## Kippstufen Baugruppen
 
-### Schmitttrigger
+
+## Schmitt Trigger-Kippstufe
 
 Die Frequenz wird von durch folgende Parameter beeinflusst:
 - RC-Glied im Rückkoppelbereich ($\uptau$);
@@ -40,7 +41,7 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 | Ladedauer    | $t_L = \uptau\cdot\ln\left(\dfrac{U_0U_T^+}{U_0-U_T^-}\right)$    |
 | Entladedauer | $t_{E} =\uptau\ln\left(\dfrac{U_T^+}{U_T^-}\right)$    |
 
-#### Herleitung
+### Herleitung
 
 | ![500](../assets/ST-Diag.png) |                                                 | 
 | ----------------------------- | ----------------------------------------------- |
@@ -67,12 +68,17 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > $$
 > ![invST-calc1](../assets/invST-calc1.png)
 
-## BJT-Kippschaltung
+## BJT-Kippstufe
 
 ![](assets/Pasted%20image%2020230925152818.png)
 
 $$
-t_{1}=\ln 2 \cdot R_{1}\cdot C_{1}
+\begin{align}
+t_{1} & =\ln 2 \cdot R_{2}\cdot C_{1}\\
+t_{2} &= \ln 2\cdot R_{3}\cdot C_{2}
+\end{align}
 $$
 
+
 # Tags
+
