@@ -39,9 +39,9 @@ created: 25. September 2023
 > - Toleranz bei $R_{T}$ ($1\%, 10\%$) beachten
 > - Um Undershoot ($R_{T}<Z_{0}$) zu vermeiden $\to$ *$R_{T}$ $10\%$ höher als $Z_{0}$ wählen*
 
-## PCB Layout
+## PCB Layout Guidelines
 
-|            Routing            |                               |                                     |
-|:-----------------------------:|:-----------------------------:|:-----------------------------------:|
-| ![\|255](assets/ParTerm1.png) | ![\|249](assets/ParTerm2.png) | [](<![\|253](assets/ParTerm3.png)>) |
-|                               |                               |                                     |
+|            Routing            |                                                        |                               |
+|:-----------------------------:|:------------------------------------------------------:|:-----------------------------:|
+| ![\|255](assets/ParTerm1.png) |             ![\|249](assets/ParTerm2.png)              | ![\|228](assets/ParTerm3.png) |
+|         $\checkmark$          | $\approx\checkmark$  <br> nur elektrisch kurze Leitung |               x               |
