@@ -76,7 +76,7 @@ Lösung: mittels asymmetrischem Verfahren wird ein symmetrischer Schlüssel (kle
 
 ### Tunneln
 
-Unter Tunneln wird das mehrfache Verpacken von Paketen verstanden. Beispielhaft kann ein IPv6-Paket in ein IPv4-Paket verpackt werden (IP/[IP](../../Netzwerktechnik/protokolle/Internet%20Protocol.md) Tunneling).
+Unter Tunneln wird das mehrfache Verpacken von Paketen verstanden. Beispielhaft kann ein IPv6-Paket in ein IPv4-Paket verpackt werden (IP/[IP](../../Netzwerktechnik/Internet%20Protocol.md) Tunneling).
 
 Das kann auch abschnittweise erfolgen. Für bestimmte Abschnitte der Übertragung wird das Paket in ein Zweites verpackt.
 

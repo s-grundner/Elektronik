@@ -50,4 +50,4 @@ $$
 
 # Quellen
 
-![MTRS 4-5](assets/PDF/MTRS%204-5.pdf)
+![MTRS 4-5](assets/pdf/MTRS%204-5.pdf)

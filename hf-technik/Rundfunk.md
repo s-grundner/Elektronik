@@ -50,6 +50,6 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 > - Was transportieren Wellen? - Energie
 > - Was ist notwendig, damit Wellen Information transportieren können. - [Kodierung](../Netzwerktechnik/Kodierung.md)
 
-![Rundfunk](../Physik/assets/Rundfunk.pdf)
+![Rundfunk](../Physik/assets/pdf/Rundfunk.pdf)
 ```
 ![spectrum_20090210](spectrum_20090210.pdf)

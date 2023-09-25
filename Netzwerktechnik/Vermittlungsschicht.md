@@ -21,7 +21,7 @@ created: 4th April 2022
 | ---------- | ------------------------------------------------------------------------------------------------------ |
 | Sender     | Segmente der [Transportschicht](Transportschicht.md) werden in Pakete unterteilt                       |
 | Empfänger  | Pakete in den Rahmen der [Sicherungsschicht](Sicherungsschicht.md) erkennen                            |
-| IP         | Logische Adressen ([IP-Adressen](protokolle/Internet%20Protocol.md)) bereitstellen                     |
+| IP         | Logische Adressen ([IP-Adressen](Internet%20Protocol.md)) bereitstellen                     |
 | Routing    | Ermittlung des besten Weges                                                                            |
 | Forwarding | Weiterleitung der Pakete zwischen logischen Netzen, also über physische Übertragungsabschnitte hinweg. |
 
@@ -45,7 +45,7 @@ Router leiten Datenpakete zwischen Netzen mit eigenen logischen Adressbereichen 
 
 [Gateways](Gateway.md) die auf der Vermittlungsschicht arbeiten, heißen auch **Mehrprotokoll Router** oder **Multiprotololl Router**.
 
-Moderne Computernetze arbeiten fast ausschließlich mit dem [Internet Protocol](protokolle/Internet%20Protocol.md).
+Moderne Computernetze arbeiten fast ausschließlich mit dem [Internet Protocol](Internet%20Protocol.md).
 - Darum ist eine Protokollumsetzung auf der Vermittlungsschicht heute meist nicht nötig.
 
 Auch VPN-[Gateways](Gateway.md) (Virtual Private Network) können auf der Vermittlungsschicht arbeiten.
@@ -81,5 +81,5 @@ Auch VPN-[Gateways](Gateway.md) (Virtual Private Network) können auf der Vermit
 
 ## [Christian Baun](http://www.christianbaun.de/)
 
-![7-FS_ComputerNetze](assets/Christian-Baun/7-FS_ComputerNetze.pdf)  
-![8-FS_ComputerNetze](assets/Christian-Baun/8-FS_ComputerNetze.pdf)
+![7-FS_ComputerNetze](assets/Christian-Baun-pdf/7-FS_ComputerNetze.pdf)  
+![8-FS_ComputerNetze](assets/Christian-Baun-pdf/8-FS_ComputerNetze.pdf)

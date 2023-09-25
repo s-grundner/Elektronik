@@ -94,7 +94,7 @@ created: 10th December 2022
 - Fourier-Analyse (auch [komplex](../Mathe/mathe%20(3)/Komplexe%20Zahlen.md))
 - [Fouriertransformation](../Mathe/mathe%20(4)/Fourier%20Transformation.md)
 
-### [Faltung](../Hardwareentwicklung/assets/pdf/Faltung.md)
+### [Faltung](Faltung.md)
 
 - 2 Signale falten
 
