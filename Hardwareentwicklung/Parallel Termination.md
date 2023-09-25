@@ -26,7 +26,9 @@ created: 25. September 2023
 > - [CAN](../Digitaltechnik/CAN.md) (Split-Parallelabschluss)
 > - LVDS
 
- ![](assets/Pasted%20image%2020230925143130.png)
+ | Ohne Abschluss                                  | parallel Abschluss [^1] |
+ | ----------------------------------------------- | ------------------ |
+ | ![](assets/Pasted%20image%2020230925143246.png) | ![](assets/Pasted%20image%2020230925143254.png)                   |
 
 > [!BUG] Nachteile
 > - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Physik/Elektrische%20Leistung.md) an $R_{T}$  zu versorgen.
@@ -47,3 +49,8 @@ created: 25. September 2023
 |         $\checkmark$          | $\approx\checkmark$  <br> nur elektrisch kurze [Leitung](../HF-Technik/Leitungstheorie.md) |  x  |
 |:-----------------------------:|:------------------------------------------------------------------------------------------:|:---:|
 | ![\|255](assets/ParTerm1.png) |                               ![\|249](assets/ParTerm2.png)                                | ![\|228](assets/ParTerm3.png)    |
+
+
+# Quellen
+
+[^1]: [TI AN-903](https://www.ti.com/lit/an/snla034b/snla034b.pdf?ts=1695571735636&ref_url=https%253A%252F%252Fwww.google.com%252F)
