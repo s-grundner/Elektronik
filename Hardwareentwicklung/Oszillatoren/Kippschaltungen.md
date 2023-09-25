@@ -70,4 +70,13 @@ $$
 $$
 ![invST-calc1](../assets/invST-calc1.png)
 
+
+
+
+## BJT - Kippschaltung
+
+$$
+t_{1}=\ln 2 \cdot R_{1}\cdot C_{1}
+$$
+
 # Tags

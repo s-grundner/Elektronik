@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: ["OTA", "Operational-Transconductance-Amplifier"]
-subject: ["hwe"]
-source: ["Aaron Lanterman"]
+tags:
+  - incomplete
+aliases:
+  - OTA
+  - Operational-Transconductance-Amplifier
+subject:
+  - hwe
+source:
+  - Aaron Lanterman
 created: 8th June 2022
 ---
 

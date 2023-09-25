@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - incomplete
 aliases:
   - serieller Leitungsabschluss
 created: 25. September 2023
