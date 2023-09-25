@@ -1,7 +1,10 @@
-# Plug-Ins für Obsidian
+# Plug-Ins Für Obsidian
 
-## Spotify Panel mit Spotify API
+## Spotify Panel Mit Spotify API
 
+Panel zum steuern von Songs
+- [API](https://developer.spotify.com/documentation/web-api)
 
+## Recent iCloud Files
 
-## recent iCloud files
+Panel um files aus der Icloud in den Vault zu ziehen
