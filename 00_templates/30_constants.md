@@ -1,5 +1,5 @@
 ---
-tags: []
+tags:
 aliases: 
 symbol: $$
 value: $$
