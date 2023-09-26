@@ -33,7 +33,7 @@ $P=\sigma\cdot A\cdot T^{4}$
 $P\dots$ Strahlungsleistung  
 $A\dots$ Fläche  
 $T\dots$ [Temperatur](Temperatur%20und%20Teilchenmodell.md)  
-$\sigma\dots$ Stefan Boltzmann [Naturkonstante](Konstanten%20Verzeichnis.md) ($\sigma = \dfrac{2\pi^5 k_\mathrm{B}^4}{15h^3c^2} = 5{,}670\,374\,419… \,\cdot 10^{-8} \, \mathrm{\dfrac{W}{m^2 K^4}}$)
+$\sigma\dots$ Stefan Boltzmann Naturkonstante ($\sigma = \dfrac{2\pi^5 k_\mathrm{B}^4}{15h^3c^2} = 5{,}670\,374\,419… \,\cdot 10^{-8} \, \mathrm{\dfrac{W}{m^2 K^4}}$)
 
 **Wienisches Verschiebungsgesetz:**  
 $\lambda_{m} = \dfrac{2.898\cdot 10^{-3}mK}{T}$  
