@@ -23,10 +23,12 @@ Z = R+jX\\
 Y = G+jB
 \end{align}
 $$
-|     |          |
-| --- | -------- |
-| $Z$ | impedanz |
-| R   | Re         |
+
+|     |                                |     |     |                               |
+| --- | ------------------------------ | --- | --- | ----------------------------- |
+| $Z$ | Impedanz <br> Scheinwiderstand | $$    | $Y$ | Admittanz <br> Scheinleitwert |
+| $R$ | Resistanz <br> Wirkwiderstand  | //  | $G$ | <br> Wirkleitwert             |
+| $X$ | Reaktanz  <br> Blindwiderstand | //  | $B$ | Suszeptanz <br> Blindleitwert |
 
 ### Anpassnetzwerk
 
@@ -55,7 +57,6 @@ $$
 > - Seriell (Widerstand am Ausgang der Quelle (Treiber))
 > - [Parallel](Parallel%20Termination.md) (Widerstand parallel zur Senke, Verbunden mit einer *Terminationvoltage* oder Masse)
 > - weitere: AC parallel, Thevenin, [Diode](Halbleiter/Diode.md)
-
 
 # Tags
 

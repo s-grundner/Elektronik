@@ -1,4 +1,3 @@
-```LaTeX
 [
 
 	//User
@@ -15,10 +14,8 @@
 	{trigger: "fx", replacement: "f(x$0)=$1", options: "mA"},
 	{trigger: "ft", replacement: "f(t$0)=$1", options: "mA"},
 	{trigger: "cd", replacement: "\\cdot", options: "mA"},
+	{trigger: "<-", replacement: "\\leftarrow", options: "mA"},
 
-]
-
-[
 	// Default
 
 	// Math mode
@@ -308,4 +305,3 @@
 	{trigger: "tayl", replacement: "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3", options: "mA"},
 	
 ]
-```
