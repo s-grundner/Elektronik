@@ -1,10 +1,16 @@
 ---
-tags: []
-aliases: ["Luft", "Lufthülle"]
-subject: ["physik"]
-source: [""]
-created: 10th September 2022
+tags: 
+aliases: 
+material: 
+dielectric: 
+tan loss: "0"
+at: 
+stability: 
+formability: 
+price:
 ---
+
+
 
 # Lufthülle der Erde
 
