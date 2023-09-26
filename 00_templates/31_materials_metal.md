@@ -1,8 +1,8 @@
 ---
 tags: #Material/Substrate
 aliases:
-material: <%tp.system.promt("","")%>
-spec. resisitance $\rho$: $<%tp.system.promt("value","10^{-8}\Omega m")%>$ 
-spec. conductance $\vargamma$: $<%tp.system.promt("value","10^{8}\frac{S}{m}")%>$
-temperature coeff. $\alpha$: $<%tp.system.prompt("value","10^{-4}")%>$
+material: <% tp.system.prompt("Material Composition", "")%>
+spec. resisitance $\rho$: <% tp.system.prompt("Spezifischer Widerstand", "")%> $10^{-8}\Omega m$
+spec. conductance $\vargamma$: <% tp.system.prompt("Spezifischer Leiwert", "")%> $10^{8}\frac{S}{m}$
+temperature coeff. $\alpha$: <% tp.system.prompt("Temperatur Koeffizient", "")%> $10^{-4}\frac{1}{K}$
 ---
