@@ -31,16 +31,16 @@ p\cdot V &= N\cdot k_{B}\cdot T
 \end{align*}
 $$
 
-| Bezeichnung                                   | Formelzeichen | Einheit                |
-| --------------------------------------------- | ------------- | ---------------------- |
-| Druck                                         | $p$           | $\frac{N}{m^{2}}=Pa$   |
-| [Gasvolumen](../Chemie/Molvolumen.md)                    | $V$           | $dm^{3}=l$             |
+| Bezeichnung                                        | Formelzeichen | Einheit                |
+| -------------------------------------------------- | ------------- | ---------------------- |
+| Druck                                              | $p$           | $\frac{N}{m^{2}}=Pa$   |
+| [Gasvolumen](../Chemie/Molvolumen.md)              | $V$           | $dm^{3}=l$             |
 | [Temperatur](Temperatur%20und%20Teilchenmodell.md) | $T$           | $K$                    |
-| Stoffmenge (Molzahl)                          | $n$           | $mol$                  |
-| Teilchenzahl                                  | $N$           | Anzahl                 |
-| Avogadro Konstante                            | $N_{A}$       | $\frac{1}{mol}$        |
-| allgemeine Gaskonstante                       | $R$           | $\frac{J}{mol\cdot K}$ |
-| Boltzmann Konstante                           | $k_{B}$       | $\frac{J}{K}$          |
+| Stoffmenge (Molzahl)                               | $n$           | $mol$                  |
+| Teilchenzahl                                       | $N$           | Anzahl                 |
+| [Avogadrokonstante](Avogadrokonstante.md)                                  | $N_{A}$       | $\frac{1}{mol}$        |
+| allgemeine Gaskonstante                            | $R$           | $\frac{J}{mol\cdot K}$ |
+| [Boltzmannkonstante](../Boltzmannkonstante.md)     | $k_{B}$       | $\frac{J}{K}$          |
 
 # Ideales Gas Und Reales Gas
 
