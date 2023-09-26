@@ -22,7 +22,7 @@ created: 19th August 2022
  - [Geometrie](mathe%20(4)/Geometrie.md)
  - Funktionen
  - Lineare Funktionen
- - [Trigonometrie](Trigonometrie)
+ - [Trigonometrie](Trigonometrie.md)
  - [Vektorrechung](mathe%20(3)/Vektorrechung.md)
  - Matrizen
 
