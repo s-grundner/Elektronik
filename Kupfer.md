@@ -3,21 +3,20 @@ tags:
   - Material/Metal
 aliases: 
 material:
-  - Al
+  - Cu
 spec-resisitance:
-  - $\rho$
-  - "2.78"
+  - "1.72"
   - $10^{-8}\Omega m$
+  - $\rho$
 spec-conductance:
-  - 
-  - 
-  - 
+  - "58"
+  - $10^{8}\frac{S}{m}$
+  - $\gamma$
 temperature-coeff:
-  - $\alpha$
-  - 39
+  - "38"
   - $10^{-4}\frac{1}{K}$
+  - $\alpha$
 ---
 
-# Aluminium
+# Kupfer
 
-<% tp.file.cursor(23) %>
