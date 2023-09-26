@@ -1,16 +1,18 @@
 ---
-tags: 
-aliases: 
-material: 
-dielectric: 
-tan loss: "0"
-at: 
-stability: 
-formability: 
-price:
+tags:
+  - physik
+aliases:
+  - Luft
+material:
+  - C
+  - N
+  - O
+  - Ag
+  - CO2
+dielectric: "1"
+tan loss: 0
+at: 10GHz
 ---
-
-
 
 # Lufthülle der Erde
 
