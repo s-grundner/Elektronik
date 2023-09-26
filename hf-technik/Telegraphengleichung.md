@@ -8,7 +8,7 @@ source:
   - Martin Aichriedler
 created: 1st March 2023
 ---
-
+O
 # Telegraphengleichung
 
 > [!NOTE] Telegraphengleichung  
