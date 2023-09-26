@@ -1,6 +1,10 @@
 ---
-tags: 
-aliases: 
+tags:
+  - RF
+aliases:
+  - Anpassung
+  - anpassen
+  - Anpassnetzwerk
 subject:
   - hwe
   - ksn
@@ -10,7 +14,28 @@ created: 11th April 2023
 ---
 
 # Impedanz
- 
+
+## Impedanzanpassung
+
+$$
+\begin{align}
+Z = R+jX\\
+Y = G+jB
+\end{align}
+$$
+|     |          |
+| --- | -------- |
+| $Z$ | impedanz |
+| R   | Re         |
+
+### Anpassnetzwerk
+
+### $\frac{\lambda}{4}$-Transformator
+
+$$
+Z_{E}\cdot Z_{A}=Z_{L}^{2}
+$$
+
 ## Abschlussimpedanz
 
 ![TL_QundS](../HF-Technik/assets/TL_QundS.png)

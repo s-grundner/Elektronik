@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - incomplete
+  - RF
+  - Nachrichtentechnik
 aliases:
   - Leiterbahn
   - Leitung
@@ -26,11 +29,6 @@ keinen konstanten Verlauf mehr:
 > - und die [Ausbreitungskonstante](Telegraphengleichung.md) $\gamma$.
 > 
 > Im Schaltungsentwurf sind diese mit zu berücksichtigen!
-
-| Kennwert | Formelzeichen | Beschreibung |
-| -------- | ------------- | ------------ |
-| [Dämpfung](../Hardwareentwicklung/Dämpfung.md) |               |              |
-|          |               |              |
 
 ## Leitermodell
 
