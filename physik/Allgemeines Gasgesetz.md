@@ -38,9 +38,9 @@ $$
 | [Temperatur](Temperatur%20und%20Teilchenmodell.md) | $T$           | $K$                    |
 | Stoffmenge (Molzahl)                               | $n$           | $mol$                  |
 | Teilchenzahl                                       | $N$           | Anzahl                 |
-| [Avogadrokonstante](Avogadrokonstante.md)                                  | $N_{A}$       | $\frac{1}{mol}$        |
+| [Avogadrokonstante](Konstanten/Avogadrokonstante.md)                                  | $N_{A}$       | $\frac{1}{mol}$        |
 | allgemeine Gaskonstante                            | $R$           | $\frac{J}{mol\cdot K}$ |
-| [Boltzmannkonstante](../Boltzmannkonstante.md)     | $k_{B}$       | $\frac{J}{K}$          |
+| [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md)     | $k_{B}$       | $\frac{J}{K}$          |
 
 # Ideales Gas Und Reales Gas
 

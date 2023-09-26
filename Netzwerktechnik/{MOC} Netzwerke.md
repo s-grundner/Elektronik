@@ -5,6 +5,9 @@ tags:
 aliases:
   - Networks
   - Networking
+  - Netzwerke
+  - Netzwerk
+  - "#Netzwerke"
 subject:
   - ksn
 source:
