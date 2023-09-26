@@ -13,7 +13,6 @@ created: 26. September 2023
 
 > [!QUESTION] Die Kirchhoffschen Regeln stellen fast immer die Ausgangssituation bei der Analyse eines elektrischen Netzwerks dar [^1]
 
-
 ## Maschenregel
 
 ![InlineR](assets/Pasted%20image%2020230926161556.png)
@@ -27,10 +26,12 @@ created: 26. September 2023
 
 ## Knotenregel
 
-![](assets/Pasted%20image%2020230926162529.png)
+![InlineR](assets/Pasted%20image%2020230926162529.png)
 
-
-
+> [!SUMMARY] Die Summe der in einen Knoten fließenden Ströme muss gleich der Summe der aus dem Knoten herausfließenden Ströme sein.
+> $$K: I_{q}=I_{1}+I_{2}$$
+> Allgemein:
+> $$\sum_{\text{Knoten}}=0$$
 
 # Tags
 
