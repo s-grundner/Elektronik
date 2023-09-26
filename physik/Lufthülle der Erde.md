@@ -10,7 +10,7 @@ material:
   - Ag
   - CO2
 dielectric: "1"
-tan loss: 0
+tan loss: 
 at: 10GHz
 ---
 

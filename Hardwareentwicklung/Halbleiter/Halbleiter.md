@@ -1,24 +1,27 @@
 ---
 tags:
+  - Material/Substrate
   - Halbleiter
   - incomplete
 aliases:
   - Silizium
-  - Germanium
 subject:
+  - dic
   - hwe
   - chemie
-  - dic
+material:
+  - Si
+dielectric: 11.7
+tan loss: 0.005
+at: 10GHz
 ---
 
-# Halbleiter
 
-## [Diode](Diode.md)
-
-## [Transistoren]({MOC}%20Transistor.md)
 
 ---
 
 # Tags
 
+[Transistoren]({MOC}%20Transistor.md)
+[Diode](Diode.md)
 [Chemische Bindungen](../../Chemie/Chemische%20Bindungen.md)
