@@ -14,12 +14,12 @@ created: 6th April 2022
 
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
 
-Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](Halbleiter/Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
+Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](../Physik/Materialkunde/Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
 
 ### Grundlagen
 
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)  
-[Halbleitermaterialien](Halbleiter/Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
+[Halbleitermaterialien](../Physik/Materialkunde/Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
 $U_{g}= \frac{W_{g}}{e}$  
 wobei $e$ die [Elementarladung](../Physik/Konstanten/Elementarladung.md) ist.
 

@@ -8,7 +8,7 @@ created: 19th January 2023
 
 # Kapazitäts-[Diode](Halbleiter/Diode.md)
 
-Die Kapazitätsdiode oder Varicap, auch Varaktor oder Abstimmdiode genannt, ist ein elektronisches [Halbleiter](Halbleiter/Halbleiter.md)-Bauteil.  
+Die Kapazitätsdiode oder Varicap, auch Varaktor oder Abstimmdiode genannt, ist ein elektronisches [Halbleiter](../Physik/Materialkunde/Halbleiter.md)-Bauteil.  
 Durch Änderung der angelegten Spannung lässt sich eine Variation der [Kapazität](Kapazität.md) von 10:1 erreichen.  
 Somit steht eine elektrisch steuerbare [Kapazität](Kapazität.md) zur Verfügung, die die früher üblichen, erheblich größeren Drehkondensatoren weitgehend ersetzt hat.
 

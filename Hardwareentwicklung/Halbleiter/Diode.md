@@ -16,7 +16,7 @@ source:
 created: 16th March 2022
 ---
 
-# [Halbleiter](Halbleiter.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
+# [Halbleiter](../../Physik/Materialkunde/Halbleiter.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
 
 ## Grundlagen
 
