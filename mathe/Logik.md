@@ -3,9 +3,6 @@ tags:
   - Mathe
 aliases:
   - Axiome
-  - Junktoren
-  - Junktor
-  - "*junktion"
 keywords:
   - Grundbegriffe
   - zweiwertige Logik
@@ -39,15 +36,5 @@ Dazu benötigen wir einige Begriffe und Symbole:
 > Haben Aussagen $A$ und $B$ den gleichen Ausgangswert, so schreiben wir:
 > $A\equiv B$ oder $|A|=|B|$
 
-## Junktoren
 
-Aussagenlogik gestattet es, durch Verknüpfungen (sogenannte Junktoren) aus zwei Aussagen $A$ und $B$ neue, komplexere Aussagen zu bilden.
-
-> [!SUMMARY] Definition: Seien $A$ und $B$ Aussagen, dann heißen; 
-
-| $\neg A$             | lies: nicht $A$          | die *Negation* von $A$            |
-| -------------------- | ------------------------ | --------------------------------- |
-| $A\wedge B$          | lies: $A$ und $B$        | die *Konjunktion* von $A$ und $B$ |
-| $A\vee B$            | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
-| $A\Rightarrow B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
-| $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  | 
+Aussagenlogik gestattet es, durch Verknüpfungen (sogenannte [Junktoren](Junktor.md)) aus zwei Aussagen $A$ und $B$ neue, komplexere Aussagen zu bilden.
