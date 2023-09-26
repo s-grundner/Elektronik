@@ -33,15 +33,11 @@ $$
 
 ### $\frac{\lambda}{4}$-Transformator
 
-$$
-Z_{E}\cdot Z_{A}=Z_{L}^{2}
-$$
+> $$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
 
-$$
-\begin{align}
-Z_{E} = Z_{A}\cdot \frac{1+j \frac{Z_{L}}{Z_{A}}\tan(\beta \cdot l_{e})}{1+ j\frac{Z_{A}}{Z_{L}}\tan(\beta \cdot l_{e})} \qquad  \beta \cdot l_{e}=2 
-\end{align}
-$$
+> [!SUMMARY] Herleitung (Verlustlose Leitung)
+> $Z_{E} = Z_{A}\cdot \dfrac{1+j \frac{Z_{L}}{Z_{A}}\tan(\beta \cdot l_{e})}{1+ j\frac{Z_{A}}{Z_{L}}\tan(\beta \cdot l_{e})} \qquad  \beta \cdot l_{e} = \dfrac{2\pi}{\lambda}\cdot \dfrac{\lambda}{4}= \dfrac{\pi}{2}$
+> $\tan$ ist an der Stelle $\frac{\pi}{2}$ singulär $\to$ *$Z_{E}=\dfrac{Z_{L}^{2}}{Z_{A}}$* bzw. *$Z_{E} = Z_{A}\cdot Z_{L}^{2}$*
 
 ## Abschlussimpedanz
 
