@@ -14,12 +14,12 @@ created: 6th April 2022
 
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
 
-Man nutzt die **Bandabstand-Spannung** eines [Halbleiter](../Physik/Materialkunde/Halbleiter.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
+Man nutzt die **Bandabstand-Spannung** eines [Silizium](../Physik/Materialkunde/Silizium.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
 
 ### Grundlagen
 
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)  
-[Halbleitermaterialien](../Physik/Materialkunde/Halbleiter.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
+[Halbleitermaterialien](../Physik/Materialkunde/Silizium.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
 $U_{g}= \frac{W_{g}}{e}$  
 wobei $e$ die [Elementarladung](../Physik/Konstanten/Elementarladung.md) ist.
 
@@ -55,7 +55,7 @@ $U_{BE}$ wird mit steigender Erwärmung des Transistors kleiner, da $D_{T}$ *neg
 #### $U_{PTAT}$ Proportional to absolute temperature
 
 Mit den folgenden Schritten lässt sicht herleiten, dass $U_{ref}$ konstant bleibt.  
-Mit der folgenden [](Kirchhoffsche%20Regeln#Maschen%20Regel%7CMasche) lässt sich auf die Spannung über die Kollektorwiderstände ermitteln:
+Mit der folgenden [](Kirchhoffsche%20Regeln.md#Maschen%20Regel|Masche) lässt sich auf die Spannung über die Kollektorwiderstände ermitteln:
 
 | Schritt | Herleitung                                                                                                                                                                                                                                                                                                                                        | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:-------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -22,6 +22,6 @@ created: 26. September 2023
 
 ## Spannungsteiler
 
-### Belasteter
+### Belasteter Spannungsteiler
 
 ## Stromteiler

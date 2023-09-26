@@ -7,7 +7,7 @@ material:
   - Cu
   - Zn
   - Pb
-spec-resisitance:
+spec-resistance:
   - "5.9"
   - $10^{-8}\Omega m$
   - $\rho$

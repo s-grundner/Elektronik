@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Al
-spec-resisitance:
+spec-resistance:
   - "2.78"
   - $10^{-8}\Omega m$
   - $\rho$

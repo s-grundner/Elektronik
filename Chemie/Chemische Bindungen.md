@@ -53,7 +53,7 @@ Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 
 # Elektrische Leitfähigkeit
 
-- Leiter, [Halbleiter](../Physik/Materialkunde/Halbleiter.md), Isolator (Nichtleiter)
+- Leiter, [Silizium](../Physik/Materialkunde/Silizium.md), Isolator (Nichtleiter)
 - Elektr. Leiter 1. Klasse (Metalle) $\rightarrow$ Elektronen als Ladungsträger
 - Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ Ionen als Ladungsträger
 

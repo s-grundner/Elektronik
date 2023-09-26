@@ -5,6 +5,7 @@ tags:
   - incomplete
 aliases:
   - Silizium
+  - Halbleiter
 subject:
   - dic
   - hwe
@@ -12,10 +13,9 @@ subject:
 material:
   - Si
 dielectric: 11.7
-tan loss: 0.005
+tan-loss: 0.005
 at: 10GHz
 ---
-
 
 
 ---

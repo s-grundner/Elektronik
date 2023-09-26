@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Ni
-spec-resisitance:
+spec-resistance:
   - "8.7"
   - $10^{-8}\Omega m$
   - $\rho$

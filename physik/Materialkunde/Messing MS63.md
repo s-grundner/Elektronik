@@ -6,7 +6,7 @@ aliases:
 material:
   - Cu
   - Zn
-spec-resisitance:
+spec-resistance:
   - "7.1"
   - $10^{-8}\Omega m$
   - $\rho$

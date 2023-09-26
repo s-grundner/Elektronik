@@ -17,4 +17,4 @@ source:
 created: 25th March 2022
 ---
 
-# [Metall](../../Chemie/Metallbindung.md)-Oxid-[Halbleiter](../../Physik/Materialkunde/Halbleiter.md)-[Feldeffekttransistor]({MOC}%20Transistor.md)) (MOSFET)
+# [Metall](../../Chemie/Metallbindung.md)-Oxid-[Silizium](../../Physik/Materialkunde/Silizium.md)-[Feldeffekttransistor]({MOC}%20Transistor.md)) (MOSFET)

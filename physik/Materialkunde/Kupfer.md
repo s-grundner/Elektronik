@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Cu
-spec-resisitance:
+spec-resistance:
   - "1.72"
   - $10^{-8}\Omega m$
   - $\rho$

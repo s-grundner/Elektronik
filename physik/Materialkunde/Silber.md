@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Ag
-spec-resisitance:
+spec-resistance:
   - "1.6"
   - $10^{-8}\Omega m$
   - $\rho$

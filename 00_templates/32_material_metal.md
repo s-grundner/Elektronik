@@ -3,7 +3,7 @@ tags:
   - Material/Metal
 aliases: 
 material:
-spec-resisitance:
+spec-resistance:
   - "<%tp.system.prompt("Spezifischer Widerstand", "")%>"
   - $10^{-8}\Omega m$
   - $\rho$

@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Au
-spec-resisitance:
+spec-resistance:
   - "2.22"
   - $10^{-8}\Omega m$
   - $\rho$

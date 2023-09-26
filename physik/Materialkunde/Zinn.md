@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Sn
-spec-resisitance:
+spec-resistance:
   - "12"
   - $10^{-8}\Omega m$
   - $\rho$

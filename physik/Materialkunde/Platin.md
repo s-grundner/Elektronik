@@ -5,7 +5,7 @@ aliases:
   - Platinum
 material:
   - Pt
-spec-resisitance:
+spec-resistance:
   - "11.1"
   - $10^{-8}\Omega m$
   - $\rho$

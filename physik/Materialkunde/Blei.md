@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Pb
-spec-resisitance:
+spec-resistance:
   - "20.8"
   - $10^{-8}\Omega m$
   - $\rho$

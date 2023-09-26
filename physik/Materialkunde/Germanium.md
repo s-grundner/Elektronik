@@ -4,10 +4,9 @@ tags:
 aliases: 
 material:
   - Ge
-dielectric: 
-tan loss: 
+dielectric: 16
+tan-loss: 
 at: 10GHz
 ---
 
 # Germanium
-

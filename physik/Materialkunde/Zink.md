@@ -4,7 +4,7 @@ tags:
 aliases: 
 material:
   - Zn
-spec-resisitance:
+spec-resistance:
   - "6.1"
   - $10^{-8}\Omega m$
   - $\rho$
