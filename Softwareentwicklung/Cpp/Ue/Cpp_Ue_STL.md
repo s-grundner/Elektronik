@@ -511,7 +511,7 @@ bool operator==(const string &s2) {
 }
 ```
 
-Damit ist die Funktion die Gleiche wie zuvor. Um Unabhängig von der Groß-/Kleinschreibung zu sein muss in die entsprechende Logik in den überladenen Operator eingebaut werden.
+Damit ist die Funktion die Gleiche wie zuvor. Um Unabhängig von der Groß-/Kleinschreibung zu sein muss in die entsprechende [Logik](../../../Mathe/Logik.md) in den überladenen Operator eingebaut werden.
 
 ## Algo - *binary_search*
 

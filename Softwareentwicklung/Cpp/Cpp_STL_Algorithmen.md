@@ -132,7 +132,7 @@ bool cplxCmp(Complex c1, Complex c2) {
 }
 ```
 
-Sie dreht die < Logik um, damit kann in umgekehrter Reihenfolge sortiert werden. Voraussetzung ist, dass wie oben, der < Operator definiert wurde. Damit kann Sortiert werden:
+Sie dreht die < [Logik](../../Mathe/Logik.md) um, damit kann in umgekehrter Reihenfolge sortiert werden. Voraussetzung ist, dass wie oben, der < Operator definiert wurde. Damit kann Sortiert werden:
 
 ```cpp
 sort(myVec.begin, myVec.end(), cplxCmp);
