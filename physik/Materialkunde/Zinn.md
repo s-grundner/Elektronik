@@ -3,20 +3,19 @@ tags:
   - Material/Metal
 aliases: 
 material:
+  - Sn
 spec-resisitance:
-  - "<%tp.system.prompt("Spezifischer Widerstand", "")%>"
+  - "12"
   - $10^{-8}\Omega m$
   - $\rho$
 spec-conductance:
-  - "<%tp.system.prompt("Spezifischer Leitwert", "")%>"
+  - "8.3"
   - $10^{8}\frac{S}{m}$
   - $\gamma$
 temperature-coeff:
-  - "<%tp.system.prompt("Temperatur Koeffizient", "")%>"
+  - "42"
   - $10^{-4}\frac{1}{K}$
   - $\alpha$
 ---
 
-# <%tp.file.title%>
-
-<%tp.file.cursor(23)%>
+# Zinn

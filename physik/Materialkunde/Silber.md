@@ -3,20 +3,20 @@ tags:
   - Material/Metal
 aliases: 
 material:
+  - Ag
 spec-resisitance:
-  - "<%tp.system.prompt("Spezifischer Widerstand", "")%>"
+  - "1.6"
   - $10^{-8}\Omega m$
   - $\rho$
 spec-conductance:
-  - "<%tp.system.prompt("Spezifischer Leitwert", "")%>"
+  - "62.5"
   - $10^{8}\frac{S}{m}$
   - $\gamma$
 temperature-coeff:
-  - "<%tp.system.prompt("Temperatur Koeffizient", "")%>"
+  - "37.7"
   - $10^{-4}\frac{1}{K}$
   - $\alpha$
 ---
 
-# <%tp.file.title%>
+# Silber
 
-<%tp.file.cursor(23)%>

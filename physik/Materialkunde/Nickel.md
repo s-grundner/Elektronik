@@ -3,20 +3,20 @@ tags:
   - Material/Metal
 aliases: 
 material:
+  - Ni
 spec-resisitance:
-  - "<%tp.system.prompt("Spezifischer Widerstand", "")%>"
+  - "8.7"
   - $10^{-8}\Omega m$
   - $\rho$
 spec-conductance:
-  - "<%tp.system.prompt("Spezifischer Leitwert", "")%>"
+  - "11.5"
   - $10^{8}\frac{S}{m}$
   - $\gamma$
 temperature-coeff:
-  - "<%tp.system.prompt("Temperatur Koeffizient", "")%>"
+  - "47"
   - $10^{-4}\frac{1}{K}$
   - $\alpha$
 ---
 
-# <%tp.file.title%>
+# Nickel
 
-<%tp.file.cursor(23)%>

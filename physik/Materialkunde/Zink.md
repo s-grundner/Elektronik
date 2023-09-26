@@ -3,20 +3,19 @@ tags:
   - Material/Metal
 aliases: 
 material:
-  - Cu
+  - Zn
 spec-resisitance:
-  - "7.1"
+  - "6.1"
   - $10^{-8}\Omega m$
   - $\rho$
 spec-conductance:
-  - "14"
+  - "16.5"
   - $10^{8}\frac{S}{m}$
   - $\gamma$
 temperature-coeff:
-  - "15"
+  - "37"
   - $10^{-4}\frac{1}{K}$
   - $\alpha$
 ---
 
-# Messing MS63
-
+# Zink
