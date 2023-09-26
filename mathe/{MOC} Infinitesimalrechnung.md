@@ -1,8 +1,15 @@
 ---
-tags: ["MOC", "Infinitesimalrechnung"]
-aliases: ["Infinitesimalrechnung", "Calculus"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - MOC
+  - Infinitesimalrechnung
+aliases:
+  - Infinitesimalrechnung
+  - Calculus
+  - "#Infinitesimalrechnung"
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 26th March 2022
 ---
 

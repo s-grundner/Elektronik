@@ -1,6 +1,12 @@
 ---
-tags: ["DB", "MOC"]
-aliases: ["Datenbanken", "DB", "Database"]
+tags:
+  - DB
+  - MOC
+aliases:
+  - Datenbanken
+  - DB
+  - Database
+  - "#DB"
 created: 25th August 2023
 ---
 

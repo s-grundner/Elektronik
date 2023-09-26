@@ -1,8 +1,15 @@
 ---
-tags: ["SMPS"]
-aliases: ["SMPS", "Switched Mode Power Supply", "Schaltregler"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - SMPS
+aliases:
+  - SMPS
+  - Switched Mode Power Supply
+  - Schaltregler
+  - "#SMPS"
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 6th April 2022
 ---
 
