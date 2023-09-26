@@ -15,8 +15,6 @@ created: 11th April 2023
 
 # Impedanz
 
-## Impedanzanpassung
-
 $$
 \begin{align}
 Z = R+jX\\
@@ -24,11 +22,12 @@ Y = G+jB
 \end{align}
 $$
 
-|     |                                |     |     |                               |
-| --- | ------------------------------ | --- | --- | ----------------------------- |
-| $Z$ | Impedanz <br> Scheinwiderstand | $$    | $Y$ | Admittanz <br> Scheinleitwert |
-| $R$ | Resistanz <br> Wirkwiderstand  | //  | $G$ | <br> Wirkleitwert             |
-| $X$ | Reaktanz  <br> Blindwiderstand | //  | $B$ | Suszeptanz <br> Blindleitwert |
+| $Z$ | *Impedanz* <br> Scheinwiderstand | $\uparrow^{-1}$ | $Y$ | *Admittanz* <br> Scheinleitwert |
+| --- | -------------------------------- | --------------- | --- | ------------------------------- |
+| $R$ | *Resistanz* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
+| $X$ | *Reaktanz*  <br> Blindwiderstand | $\uparrow^{-1}$ | $B$ | *Suszeptanz* <br> Blindleitwert |
+
+## Impedanzanpassung
 
 ### Anpassnetzwerk
 
@@ -36,6 +35,12 @@ $$
 
 $$
 Z_{E}\cdot Z_{A}=Z_{L}^{2}
+$$
+
+$$
+\begin{align}
+Z_{E} = Z_{A}\cdot \frac{1+j \frac{Z_{L}}{Z_{A}}\tan(\beta \cdot l_{e})}{1+ j\frac{Z_{A}}{Z_{L}}\tan(\beta \cdot l_{e})} \qquad  \beta \cdot l_{e}=2 
+\end{align}
 $$
 
 ## Abschlussimpedanz
