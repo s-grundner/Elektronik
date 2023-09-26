@@ -1,8 +1,12 @@
 ---
-tags: ["Halbleiter"]
-aliases: []
-subject: ["physik"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Halbleiter
+aliases: 
+subject:
+  - physik
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 30th March 2022
 ---
 
@@ -16,7 +20,7 @@ Sie lautet nach Wagner:
 
 $I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
 
-| Bezeichnung | Beschreibung bei Transistor |
+| Bezeichnung | Beschreibung bei [Transistor](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md) |
 |:-----------:|:---------------------------:|
 |   $I_{D}$   |        [Dioden](Dioden.md)-Strom         |
 |   $I_{S}$   |         Sperrstrom          |
@@ -24,11 +28,11 @@ $I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
 |   $U_{T}$   |     Temperaturspannung      |
 |     $\eta$     |    Emissionskoeffizient     | 
 
-## Beim Transistor:
+## Beim [Transistor](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md):
 
 $I_{C} = I_{S}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
 
-| Bezeichnung | Beschreibung bei Transistor |
+| Bezeichnung | Beschreibung bei [Transistor](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md) |
 |:-----------:|:---------------------------:|
 |   $I_{C}$   |       Kollektor-Strom       |
 |   $I_{S}$   |       Sättigungsstrom       |

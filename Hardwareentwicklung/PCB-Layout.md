@@ -43,7 +43,7 @@ created: 19th August 2023
 ### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) und [Anpassung](Impedanz.md)
 
 1. Leiterbahnen kurz halten
-2. Wellenwiderstand / [Impedanz](Impedanz.md) Anpassen
+2. Wellenwiderstand / [Impedanz](Impedanz.md) [Anpassen](Impedanz.md)
 	- Abschlusswiderstand
 3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Leitungstheorie.md) an
 4. Leiterbahnen am Rand der Platine vermeiden

@@ -34,7 +34,7 @@ Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 ![BuckBoostDisconID](../assets/BuckBoostDisconID.png)
 > $I_{a,min}$ = $\overline{I_{D}}$ 
 
-## Schalter $S$ bzw. Transistor $T$
+## Schalter $S$ bzw. [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$
 
 ### Herleitung der Dimensionierung
 
