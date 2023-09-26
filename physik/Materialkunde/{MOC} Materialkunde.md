@@ -9,7 +9,7 @@ created: 26. September 2023
 # Leiter
 
 ```dataview
-TABLE spec-resistance[0], spec-resistance[1], spec-conductance[0]
+TABLE join(list(spec-resistance[0], spec-resistance[1])), spec-conductance[0]
 FROM #Material/Metal
 SORT file.name
 ```
