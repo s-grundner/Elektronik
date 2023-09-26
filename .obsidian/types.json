@@ -10,6 +10,7 @@
     "subject": "multitext",
     "material": "multitext",
     "spec-conductance": "multitext",
-    "spec-resisitance": "multitext"
+    "spec-resisitance": "multitext",
+    "semester": "number"
   }
 }

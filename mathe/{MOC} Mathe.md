@@ -14,7 +14,7 @@ created: 19th August 2022
 
 ## 1. JG
 
- - [Mengenlehre](Mengenlehre)
+ - [Mengenlehre](Mengenlehre.md)
  - Lineare Gleichungen
  - [Lineare Gleichungssysteme](mathe%20(3)/Lineare%20Gleichungssysteme.md)
  - Lineare Ungleichungen
