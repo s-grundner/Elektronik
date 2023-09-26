@@ -2,7 +2,8 @@
 tags:
   - Cpp
   - QT
-aliases: []
+aliases:
+  - "#QT"
 created: 29. November 2022
 ---
 

@@ -10,9 +10,9 @@ source:
 created: 19th August 2022
 ---
 
-# Grundlagen Der Chemie
+# Grundlagen Der [Chemie]({MOC}%20Chemie.md)
 
-Die Chemie ist die Lehre von Stoffen und deren Umwandlung
+Die [Chemie]({MOC}%20Chemie.md) ist die Lehre von Stoffen und deren Umwandlung
 
 ## Einteilung Der Materie
 
