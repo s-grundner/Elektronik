@@ -32,7 +32,10 @@ created: 26. September 2023
 > | $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
 >
 > Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
-
-| $A$ | $B$ | $\neg A$ | $A\wedge B$ | $A\vee B$ |$A\Le===$ 
-| --- | --- | -------- | ----------- | -------- |
-a
+> 
+> | $A$ | $B$ |     | $\neg A$ | $A\wedge B$ | $A\vee B$ | $A\Rightarrow B$ | $A\Leftrightarrow B$ |
+> |:---:|:---:| --- |:--------:|:-----------:|:---------:|:----------------:|:--------------------:|
+> | $W$ | $W$ |     |   $F$    |     $W$     |    $W$    |       $W$        |         $W$          |
+> | $W$ | $F$ |     |   $F$    |     $F$     |    $W$    |       $F$        |         $F$          |
+> | $F$ | $W$ |     |   $W$    |     $F$     |    $W$    |       $W$        |         $F$          |
+> | $F$ | $F$ |     |   $W$    |     $F$     |    $F$    |       $W$        |         $W$          |

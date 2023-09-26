@@ -15,6 +15,8 @@
 	{trigger: "ft=", replacement: "f(t$0)=$1", options: "mA"},
 	{trigger: "cd", replacement: "\\cdot", options: "mA"},
 	{trigger: "<-", replacement: "\\leftarrow", options: "mA"},
+	{trigger: "v", replacement: "\\vee", options: "m"},
+	{trigger: "we", replacement: "\\wedge", options: "m"},
 
 	// Default
 
