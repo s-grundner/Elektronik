@@ -37,9 +37,10 @@
   "obsidian-table-to-csv-exporter",
   "quickadd",
   "obsidian-style-settings",
-  "obsidian-reveal-active-file",
   "obsidian-react-components",
   "mousewheel-image-zoom",
   "obsidian-latex-suite",
-  "text-snippets-obsidian"
+  "text-snippets-obsidian",
+  "obsidian-day-planner",
+  "settings-search"
 ]
