@@ -22,7 +22,6 @@ created: 24th March 2022
 |:----------------------------------:|:----------------------------------:|
 | ![330](assets/npn-schalter.png) | ![300](assets/pnp-schalter.png) |
 
-#
 # Bipolartransistor als Verstärker / Endstufe
 
 | Betriebsarten                                                                                                                       | Kennlinie                                          |
@@ -66,10 +65,11 @@ $$
 > Wird der Lastwiderstand größer, kann der Strom $I_{C}$ nicht konstant gehalten werden.  
 > Über die Betriebsspannung lässt sich evtl. der Konstant-Strom erhöhen
 
-## Weitere BJT Konstantstrom Schaltungen
+## Weitere BJT Schaltungen
 
 - [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)  
 - [Konstantstrom-Zweipol](Konstantstrom-Zweipol.md)
+- [BJT-Kippschaltung](../Oszillatoren/Kippstufe.md#BJT-Kippschaltung)
 
 # Tags
 
@@ -79,3 +79,9 @@ $$
 - [EK - Transistorstromquellen mit Silizium-Dioden](https://www.elektronik-kompendium.de/public/schaerer/currled.htm)
 - [EK - Konstantstromzweipol](https://www.elektronik-kompendium.de/public/schaerer/curr2pol.htm)
 - [EK - Stromspoiegel](https://www.elektronik-kompendium.de/public/schaerer/currmr.htm)
+$$
+\begin{align}
+t_{1} & =\ln 2 \cdot R_{2}\cdot C_{1}\\
+t_{2} &= \ln 2\cdot R_{3}\cdot C_{2}
+\end{align}
+$$

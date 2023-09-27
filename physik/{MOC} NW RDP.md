@@ -34,7 +34,7 @@ created: 19th August 2022
 
 ### Zusammenfassung 5c
 
-![5c-matura-sum](assets/5c-matura-sum.pdf)
+![5c-matura-sum](assets/pdf/5c-matura-sum.pdf)
 
 
 ---
@@ -57,10 +57,9 @@ F &= \frac{mv^{2}}{r}\\
 $$
 Konstanten:
 
-Alle im TR  
+Alle im TR [Casio_fx-991dex_classwiz_Konstanten](assets/pdf/Casio_fx-991dex_classwiz_Konstanten.pdf)
 ausnahmen:  
 masse von proton elektron?  
-[TR-Konstanten](Konstanten%20Verzeichnis.md)  
 Energie dichte [Batterie](../Chemie/Primärelement.md)
 
 $$

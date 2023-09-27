@@ -158,7 +158,7 @@ Ein **Iterator** gehört zur Gruppe der Verhaltensmuster. Dieses Muster sei hier
 
 ## Model-View-Control MVC
 
-Das MVC-Pattern ist Keines der GoF, allerdings hat es sich für GUI-Anwendungen sehr bewährt. Dabei geht es darum graphische Kontrollelemente von der Logik zu trennen:
+Das MVC-Pattern ist Keines der GoF, allerdings hat es sich für GUI-Anwendungen sehr bewährt. Dabei geht es darum graphische Kontrollelemente von der [Logik](../../../Mathe/Logik.md) zu trennen:
 
  ![img](assets/Pattern_MVC.png) 
 
@@ -169,7 +169,7 @@ Aus diesem Grund wird der angezeigte Teil (**View**) komplett vom Datensatz (**M
 Vorteile:
 
 - Änderungen in der Programmlogik haben keine Auswirkung auf die graphische Darstellung und können unabhängig erfolgen.
-- Die Darstellung ist unabhängig von der (eventuell komplexen) Logik und kann unabhängig von den anderen Teilen verändert werden.
+- Die Darstellung ist unabhängig von der (eventuell komplexen) [Logik](../../../Mathe/Logik.md) und kann unabhängig von den anderen Teilen verändert werden.
 
 Dieses Konzept ist nach außen in Abwandlungen realisiert, so zum Beispiel in Qt-C++, Java-Swing oder C#-WPF (MVVM). Dort ist jeweils nur ein Modell für die GUI-Klasse (View) verfügbar, der Controller ist im View integriert.
 

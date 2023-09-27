@@ -1,6 +1,8 @@
 ---
-tags: []
-aliases: ["Lenz"]
+tags:
+  - incomplete
+aliases:
+  - Lenz
 created: 21st November 2022
 ---
 

@@ -3,6 +3,14 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "created": "text"
+    "created": "text",
+    "dielectric": "number",
+    "tan loss": "number",
+    "at": "text",
+    "subject": "multitext",
+    "material": "multitext",
+    "spec-conductance": "multitext",
+    "spec-resisitance": "multitext",
+    "semester": "number"
   }
 }

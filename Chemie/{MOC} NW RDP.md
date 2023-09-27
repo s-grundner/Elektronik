@@ -12,7 +12,7 @@ created: 1st September 2023
 
 # [Chemie](README.md) (RDP)
 
-## 1. [Allgemein](Grundlagen%20%20der%20Chemie.md) Und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
+## 1. [Allgemein](Grundlagen%20der%20Chemie.md) Und [anorganische Chemie](https://de.wikipedia.org/wiki/Anorganische_Chemie)
 
  - [Elektrochemie](Elektrochemie.md)
  - [Katalyse](Katalyse.md)

@@ -1,7 +1,13 @@
 ---
-tags: ["MOC"]
-subject: ["chemie"]
-teacher: ["Fritz Struber"]
+tags:
+  - MOC
+aliases:
+  - "#Chemie"
+  - Chemie
+subject:
+  - chemie
+teacher:
+  - Fritz Struber
 inst: HTBLuVA Salzburg
 created: 19th August 2022
 ---

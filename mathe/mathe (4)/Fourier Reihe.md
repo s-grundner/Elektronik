@@ -75,4 +75,4 @@ $$
 $$
 
 
-![Fourierreihe](../assets/Fourierreihe.pdf)
+![Fourierreihe](../assets/pdf/Fourierreihe.pdf)

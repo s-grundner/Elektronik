@@ -34,7 +34,7 @@ $p\cdot V = n\cdot R\cdot T$
 | [Temperatur](Temperatur%20und%20Teilchenmodell.md)       | $T$           | $K$                                           |
 | Stoffmenge (Molzahl)                                | $n$           | $mol$                                         |
 | Teilchenzahl                                        | $N$           | Anzahl                                        |
-| Avogadro Konstante                                  | $N_{A}$       | $\dfrac{1}{mol}$                              |
+| [Avogadro](Konstanten/Avogadrokonstante.md) Konstante                                  | $N_{A}$       | $\dfrac{1}{mol}$                              |
 	
 
 ## Wetter und Klima

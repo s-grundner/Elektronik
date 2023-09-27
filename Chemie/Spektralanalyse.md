@@ -16,7 +16,7 @@ created: 25th August 2022
 
 Beim Zerlegen von Sonnenlicht oder dem Licht einer Glühlampe durch ein Glasprisma, erhält man ein **Spektrum**:  
 Ein Farbband von Rot nach Violett  
-![Refraction](../assets/Refraction.png)  
+![Refraction](../Physik/assets/Refraction.png)  
 Weißes Licht besteht aus der Mischung mehrerer Farben
 
 
@@ -30,7 +30,7 @@ Violettes/Blaues Licht ist kurzwellig und energiereich.
 
 ## Elektromagnetisches Spektrum
 
-![spectrum_20090210](../Physik/assets/spectrum_20090210.pdf)
+[spectrum_20090210](../Physik/assets/pdf/spectrum_20090210.pdf)
 
 ## Spektrum Des Sonnenlichts
 
@@ -79,8 +79,3 @@ Kontinuierliches Spektrum: Enthält keine diskreten Linien (Banden), da es Licht
 Emissionsspektrum: Enthält diskrete Linien (daher auch Linien-spektrum) , welche durch den Elektronenübergang von angeregten Atomen in den Grundzustand entstehen.
 
 Absorptionsspektrum: Entsteht wenn Atome dem eingestrahlten Licht Energie entnehmen, um in den angeregten Zustand überzugehen. Die Farbe, deren Energie zur Anregung geeignet ist wird dabei geschwächt.
-
-
----
-
-# Tags

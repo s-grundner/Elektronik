@@ -39,8 +39,8 @@ created: 23rd November 2022
 ## [Hochfrequenztechnik](sRDP%20KSN%20-%20HF-Technik.md)
 
 - [Leitungstheorie](Leitungstheorie.md)
-- Rechteckimpuls auf [Leitung](Leitung.md)
-- Anpassung mit [Smith-Diagramm](Smith-Diagramm.md), Shunt, TL
+- Rechteckimpuls auf [Leitungstheorie](Leitungstheorie.md)
+- [Anpassung](../Hardwareentwicklung/Impedanz.md) mit [Smith-Diagramm](Smith-Diagramm.md), Shunt, TL
 - [Antennen](Antenne.md), Richtdiagramm
 
 ## Consumer Electronics

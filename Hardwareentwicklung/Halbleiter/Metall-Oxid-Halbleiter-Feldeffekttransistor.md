@@ -2,6 +2,7 @@
 tags:
   - Baugruppen/Schalter
   - Halbleiter
+  - incomplete
 aliases:
   - Metall-Oxid-Halbleiter-Feldeffekttransistoren
   - MOSFET
@@ -16,8 +17,4 @@ source:
 created: 25th March 2022
 ---
 
-# [Metall](../../Chemie/Metallbindung.md)-Oxid-[Halbleiter](Halbleiter.md)-[Feldeffekttransistor](Feldeffekttransistor.md) (MOSFET)
-
----
-
-# Tags
+# [Metall](../../Chemie/Metallbindung.md)-Oxid-[Silizium](../../Physik/Materialkunde/Silizium.md)-[Feldeffekttransistor]({MOC}%20Transistor.md)) (MOSFET)

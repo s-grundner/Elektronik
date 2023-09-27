@@ -1,6 +1,7 @@
 ---
 tags:
   - Halbleiter/Diode
+  - "#incomplete"
 aliases:
   - Dioden
   - 1N4148
@@ -15,7 +16,7 @@ source:
 created: 16th March 2022
 ---
 
-# [Silizium](Halbleiter.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
+# [Silizium](../../Physik/Materialkunde/Silizium.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
 
 ## Grundlagen
 

@@ -1,8 +1,14 @@
 ---
-tags: ["Grundschaltungen", "Schaltungsentwicklung", "Schaltungsanalyse"]
-aliases: ["Schmitttrigger"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf", "Michael Offenhuber"]
+tags:
+  - Grundschaltungen
+  - incomplete
+aliases:
+  - Schmitttrigger
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
+  - Michael Offenhuber
 created: 10th January 2023
 ---
 
@@ -18,6 +24,6 @@ created: 10th January 2023
 
 ![invST-calc2](assets/invST-calc2.png)
 
-# Tags
 
-[Kippschaltungen](Oszillatoren/Kippschaltungen.md)
+# Schaltungen mit Schmitt Triggern
+

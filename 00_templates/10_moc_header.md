@@ -4,7 +4,7 @@ tags:
 aliases:
   - <%tp.file.title%>
 subject:
-  - ""
+- ""
 inst: [<%tp.system.suggester(
 	["HTL", "Systemsoftware", "Industriemathematik"],
 	["HTBLuVA Salzburg", "Institut für Systemsoftware", "Institut für Industriemathematik"])%>]

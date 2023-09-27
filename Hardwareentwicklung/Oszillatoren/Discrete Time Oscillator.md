@@ -23,12 +23,6 @@ created: 30th January 2023
 > - Bit-Breite des Addierers
 > - Inkrement Wert
 
-$$
-\begin{align*}
-Z_\max
-\end{align*}
-$$
-
 # Tags
 
 [Clock Generierung](Clock%20Generierung.md)  

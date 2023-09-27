@@ -1,7 +1,14 @@
 ---
-tags: []
-aliases: ["Leiterplatte", "PCB", "Leiterplatten-Design", "PCB-Design"]
-source: ["Rick Hartley", "Mike Creeden"]
+tags:
+  - incomplete
+aliases:
+  - Leiterplatte
+  - PCB
+  - Leiterplatten-Design
+  - PCB-Design
+source:
+  - Rick Hartley
+  - Mike Creeden
 created: 19th August 2023
 ---
 
@@ -9,9 +16,9 @@ created: 19th August 2023
 
 ![500](assets/Pasted%20image%2020230822172103.png)
 
-- **DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
-- **DFP - Performance/Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), Thermisch, Strom 
-- **DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil Versorgung/Verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
+- **Design For Solvability: DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
+- **Design For Performance: DFP - Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), Thermisch, Strom 
+- **Design For Manufacturability: DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil Versorgung/Verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
 
 ## Hochfrequenz Leitungen
 
@@ -33,12 +40,12 @@ created: 19th August 2023
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### Leiterbahnen Und Anpassung
+### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) und [Anpassung](Impedanz.md)
 
 1. Leiterbahnen kurz halten
-2. Wellenwiderstand / [Impedanz](Impedanz.md) Anpassen
+2. Wellenwiderstand / [Impedanz](Impedanz.md) [Anpassen](Impedanz.md)
 	- Abschlusswiderstand
-3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Leitung.md) an
+3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Leitungstheorie.md) an
 4. Leiterbahnen am Rand der Platine vermeiden
 	- Niedriges [VSWR](../HF-Technik/Stehwellenverhältnis.md)
 	- keine [Reflexionen](../HF-Technik/Reflexionsfaktor.md)

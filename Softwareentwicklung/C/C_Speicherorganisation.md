@@ -22,7 +22,7 @@ Für unser Programm ist dieser Speicher virtuell, als linear adressierbar, zusam
 
 Dieser Speicherbereich wird folgendermaßen aufgeteilt:
 
-![Speicherorg1](assets/Speicherorg1.png)
+![Speicherorg1](../assets/Speicherorg1.png)
 
 Mit einer 32 Bit Adresse kann von 0x0 bis `0xFFFF FFFF` adressiert werden.
 
@@ -92,7 +92,7 @@ int funct(int param) {                    // funct: text, param: stack
 }
 ```
 
-Beim Aufruf der Funktion **funct()** wird der aktuelle Instruction Pointer ([IP](../../Netzwerktechnik/protokolle/Internet%20Protocol.md)) auf dem Stack gespeichert und die Funktion aufgerufen. Der Instruction Pointer ist die Adresse an der sich die Code-Ausführung gerade befindet und wird in einem eigenem Register gespeichert.
+Beim Aufruf der Funktion **funct()** wird der aktuelle Instruction Pointer ([IP](../../Netzwerktechnik/Internet%20Protocol.md)) auf dem Stack gespeichert und die Funktion aufgerufen. Der Instruction Pointer ist die Adresse an der sich die Code-Ausführung gerade befindet und wird in einem eigenem Register gespeichert.
 
 Der Stack hat eine begrenzte Größe, wächst und schrumpft während dem Programmverlauf, der Zugriff ist sehr effizient (Zugriff ohne eigenen Zeiger) und muss nicht explizit freigegeben werden.
 
@@ -245,7 +245,7 @@ Um die Adressen von Variablen zu ermitteln (<https://sourceware.org/binutils/doc
 
 In **Code::Blocks** gibts die Möglichkeiten (Debug -> Information -> Target&Files):
 
-![Speicherorg2](assets/Speicherorg2.png)
+![Speicherorg2](../assets/Speicherorg2.png)
 
 Im Watches-Fenster kann die Adresse einer Variable mit dem Adressoperator ermittelt werden.
 

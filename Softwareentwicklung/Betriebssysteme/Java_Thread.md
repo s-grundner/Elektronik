@@ -113,7 +113,7 @@ Ansonsten ist das Verhalten zur Ableitung von der Thread-Klasse gleich.
 
 ## Thread Abbrechen (703)
 
-Ein Thread kann nur aus dem Thread selber beendet werden. Dazu gibts die folgende Logik:
+Ein Thread kann nur aus dem Thread selber beendet werden. Dazu gibts die folgende [Logik](../../Mathe/Logik.md):
 
 - `public void interrupt()` ist eine Funktion mittels welcher ein Interrupt-Flag gesetzt werden kann (public -> auch von außerhalt)
 - `public boolean isInterrupted()` diese Funktion liefert den Status des Interrupt-Flags

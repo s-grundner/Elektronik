@@ -207,19 +207,9 @@ int main()
 }
 ```
 
-## Protokolle
+# Tags
 
-## [{MOC} Schnittstellen]({MOC}%20Schnittstellen.md)
-
-- [I2C](I2C.md)/[I2C](I2C.md)
-- [UART](UART.md)
-
-# Algo
-
-- [Ringbuffer](Ringbuffer.md)
-
-# Quellen
-
+- [Schnittstellen]({MOC}%20Schnittstellen.md)
 - [AVR Tips and API](https://onlinedocs.microchip.com/pr/GUID-78362176-487F-41B9-95C7-B478A9A186EB-en-US-2/index.html?GUID-E8E50411-4A61-4C7B-A8FD-7E07E93F6DDE)
-- [Instruction_Set_8bit](datasheets/Instruction_Set_8bit.pdf)
-- [at644p](datasheets/at644p.pdf)
+- [Instruction_Set_8bit](assets/pdf/Instruction_Set_8bit.pdf)
+- [at644p](assets/pdf/at644p.pdf)

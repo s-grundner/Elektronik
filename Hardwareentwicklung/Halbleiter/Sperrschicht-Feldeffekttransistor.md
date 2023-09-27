@@ -16,9 +16,10 @@ source:
 created: 25th March 2022
 ---
 
-# Sperrschicht-[Feldeffekttransistor](Halbleiter/Feldeffekttransistor.md) (JFET)
+# Sperrschicht-[Feldeffekttransistor]({MOC}%20Transistor.md) (JFET)
 
-![JFET als Verstärker](assets/JFET%20als%20Verstärker.pdf)
+- [JFET als Verstärker](../assets/pdf/JFET%20als%20Verstärker.pdf)
+- [JFET](../assets/pdf/JFET.pdf)
 
 ---
 

@@ -5,6 +5,7 @@ tags:
 aliases:
   - Dynamische Datenstrukturen
   - Data-Structures
+  - "#DS"
 subject:
   - ""
 inst:

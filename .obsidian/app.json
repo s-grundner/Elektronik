@@ -23,5 +23,10 @@
   "showInlineTitle": false,
   "showIndentGuide": true,
   "tabSize": 2,
-  "focusNewTab": false
+  "focusNewTab": false,
+  "userIgnoreFilters": [
+    "*.ini",
+    "Rubbish",
+    "xPN"
+  ]
 }

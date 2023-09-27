@@ -1,7 +1,11 @@
 ---
-tags: ["C", "MOC"]
-aliases: []
-subject: fsst
+tags:
+  - C
+  - MOC
+aliases:
+  - "#C"
+subject:
+  - fsst
 source: []
 created: 17th August 2023
 ---

@@ -4,14 +4,14 @@
 
 Erstellen Sie für die Einkauf-DB (aus den SQL-Übungen) eine Anzeige der Kunden-Tabelle.
 
-![php_einkauf00](assets/php_einkauf00.png)
+![php_einkauf00](../../assets/php_einkauf00.png)
 
 - In einem ersten Fenster werden die DB-Zugangsdaten eingegeben:
   
-  ![php_einkauf01](assets/php_einkauf01.png)
+  ![php_einkauf01](../../assets/php_einkauf01.png)
 
 - Nachdem die Zugangsdaten eingegeben werden, wird auf folgendes Fenster gewechselt:  
-  ![php_einkauf03](assets/php_einkauf03.png)
+  ![php_einkauf03](../../assets/php_einkauf03.png)
   
   Es werden sämtliche Spalten angezeigt `$stmt->columnCount()` und die Namen ermittelt `$stmt->getColumnMeta($i)['name']`.
 
@@ -19,14 +19,14 @@ Erstellen Sie für die Einkauf-DB (aus den SQL-Übungen) eine Anzeige der Kunden
 
 Erstellen Sie für die Einkauf-DB eine Anzeige der Kunden-Tabelle.
 
-![php_einkauf00](assets/php_einkauf00.png)
+![php_einkauf00](../../assets/php_einkauf00.png)
 
 - In einem ersten Fenster werden die DB-Zugangsdaten eingegeben:
   
-   ![php_einkauf01](assets/php_einkauf01.png)
+   ![php_einkauf01](../../assets/php_einkauf01.png)
 
 - Nachdem die Zugangsdaten eingegeben werden, wird auf folgendes Fenster gewechselt:  
-   ![php_einkauf02](assets/php_einkauf02.png)
+   ![php_einkauf02](../../assets/php_einkauf02.png)
   
    Es werden sämtliche Spalten angezeigt `$stmt->columnCount()` und die Namen ermittelt `$stmt->getColumnMeta($i)['name']`.
   

@@ -1,6 +1,7 @@
 ---
 tags:
   - Interface/Serial/Sync
+  - incomplete
 aliases:
   - TWI
   - Two-Wire Interface

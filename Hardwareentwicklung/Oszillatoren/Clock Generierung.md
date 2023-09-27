@@ -36,7 +36,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 - [LC Oszillatoren](LC%20Oszillatoren.md)
 	- [Colpitts Oszillator](Colpitts%20Oszillator.md)
 - [Relaxationsoszillator](Relaxationsoszillator.md)
-- [Kippschaltungen](Kippschaltungen.md)
+- [Kippstufe](Kippstufe.md)
 - [Quarzoszillator](Quarzoszillator.md)
 - [Pierce-Gate Oszillator](Pierce-Gate%20Oszillator.md)
 - [Phase Locked Loop](Phase%20Locked%20Loop.md)
@@ -47,10 +47,7 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 
 # Tags
 
-[Barkhausen Kriterium](Barkhausen%20Kriterium.md)
-
-[Reset Generierung](../Reset%20Generierung.md)
-
-[Klirrfaktor](../Klirrfaktor.md)
-
-![Clock_und_Reset_Generierung](../assets/pdf/Clock_und_Reset_Generierung.pdf)
+- [Barkhausen Kriterium](Barkhausen%20Kriterium.md)
+- [Reset Generierung](../Reset%20Generierung.md)
+- [Klirrfaktor](../Klirrfaktor.md)
+- [Clock_und_Reset_Generierung](../assets/pdf/Clock_und_Reset_Generierung.pdf)

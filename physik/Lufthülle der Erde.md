@@ -1,9 +1,17 @@
 ---
-tags: []
-aliases: ["Luft", "Lufthülle"]
-subject: ["physik"]
-source: [""]
-created: 10th September 2022
+tags:
+  - physik
+aliases:
+  - Luft
+material:
+  - C
+  - N
+  - O
+  - Ag
+  - CO2
+dielectric: "1"
+tan loss: 
+at: 10GHz
 ---
 
 # Lufthülle der Erde

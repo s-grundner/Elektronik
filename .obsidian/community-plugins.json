@@ -7,7 +7,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-git",
   "url-into-selection",
-  "darlal-switcher-plus",
   "table-extended",
   "tag-wrangler",
   "templater-obsidian",
@@ -20,7 +19,6 @@
   "obsidian-kanban",
   "oz-clear-unused-images",
   "obsidian-link-converter",
-  "global-search-and-replace",
   "obsidian-trash-explorer",
   "cmdr",
   "obsidian-icon-folder",
@@ -29,7 +27,6 @@
   "home-tab",
   "homepage",
   "editing-toolbar",
-  "obsidian-hover-editor",
   "obsidian-projects",
   "obsidian-quiet-outline",
   "remember-cursor-position",
@@ -43,4 +40,7 @@
   "text-snippets-obsidian",
   "settings-search",
   "obsidian-tasks-plugin"
+  "darlal-switcher-plus",
+  "global-search-and-replace",
+  "obsidian-day-planner"
 ]

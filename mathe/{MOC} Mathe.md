@@ -12,9 +12,13 @@ created: 19th August 2022
 
 # Map of Topics - Mathe
 
+
+
+# HTL
+
 ## 1. JG
 
- - [Mengenlehre](Mengenlehre)
+ - [Mengenlehre](Mengenlehre.md)
  - Lineare Gleichungen
  - [Lineare Gleichungssysteme](mathe%20(3)/Lineare%20Gleichungssysteme.md)
  - Lineare Ungleichungen
@@ -22,7 +26,7 @@ created: 19th August 2022
  - [Geometrie](mathe%20(4)/Geometrie.md)
  - Funktionen
  - Lineare Funktionen
- - [Trigonometrie](Trigonometrie)
+ - [Trigonometrie](Trigonometrie.md)
  - [Vektorrechung](mathe%20(3)/Vektorrechung.md)
  - Matrizen
 

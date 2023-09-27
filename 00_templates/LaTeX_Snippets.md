@@ -11,9 +11,14 @@
 	{trigger: "ddx", replacement: "\\frac{d$0}{dx}$1", options: "mA"},
 	{trigger: "dfx", replacement: "f'(x$0)=$1", options: "mA"},
 	{trigger: "dft", replacement: "f'(t$0)=$1", options: "mA"},
-	{trigger: "fx", replacement: "f(x$0)=$1", options: "mA"},
-	{trigger: "ft", replacement: "f(t$0)=$1", options: "mA"},
+	{trigger: "fx=", replacement: "f(x$0)=$1", options: "mA"},
+	{trigger: "ft=", replacement: "f(t$0)=$1", options: "mA"},
 	{trigger: "cd", replacement: "\\cdot", options: "mA"},
+	{trigger: "<-", replacement: "\\leftarrow", options: "mA"},
+	{trigger: "v", replacement: "\\vee", options: "m"},
+	{trigger: "we", replacement: "\\wedge", options: "m"},
+
+	// Default
 
 	// Math mode
 	{trigger: "mk", replacement: "$$0$", options: "tA"},
@@ -52,6 +57,8 @@
 	{trigger: "@L", replacement: "\\Lambda", options: "mA"},
 	{trigger: "@m", replacement: "\\mu", options: "mA"},
 	{trigger: "@M", replacement: "\\mu", options: "mA"},
+	{trigger: "@p", replacement: "\\pi", options: "mA"},
+	{trigger: "@P", replacement: "\\Pi", options: "mA"},
 	{trigger: "@r", replacement: "\\rho", options: "mA"},
 	{trigger: "@R", replacement: "\\rho", options: "mA"},
 	{trigger: "@s", replacement: "\\sigma", options: "mA"},
