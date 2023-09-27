@@ -3,7 +3,6 @@
   "obsidian-banners",
   "better-word-count",
   "buttons",
-  "calendar",
   "obsidian-completr",
   "dataview",
   "obsidian-discordrpc",
@@ -36,5 +35,6 @@
   "obsidian-table-to-csv-exporter",
   "table-extended",
   "surfing",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-full-calendar"
 ]
