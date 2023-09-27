@@ -28,5 +28,6 @@
     "*.ini",
     "Rubbish",
     "xPN"
-  ]
+  ],
+  "propertiesInDocument": "hidden"
 }
