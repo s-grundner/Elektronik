@@ -138,5 +138,21 @@
       "key": "Q"
     }
   ],
-  "workspace:close-window": []
+  "workspace:close-window": [],
+  "obsidian-markdown-formatting-assistant-plugin:open-command-selector": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "obsidian-full-calendar:full-calendar-open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Y"
+    }
+  ]
 }
