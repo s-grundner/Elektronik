@@ -95,7 +95,7 @@
 	{trigger: "sts", replacement: "_\\text{$0}", options: "rmA"},
 	{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
 	{trigger: "//", replacement: "\\frac{$0}{$1}$2", options: "mA"},
-	{trigger: "ee", replacement: "e^{ $0 }$1", options: "mA"},
+	{trigger: "ee", replacement: "e^{ $0 }$1", options: "m"},
 	{trigger: "rm", replacement: "\\mathrm{$0}$1", options: "mA"},
 	{trigger: "conj", replacement: "^{*}", options: "mA"},
 	{trigger: "trace", replacement: "\\mathrm{Tr}", options: "mA"},
