@@ -149,6 +149,7 @@ Die Einleitung **%** und der Formatbezeichner **T** muss immer angeführt werden
 ## F
 
 *Optional*. Flag/Kennzeichnung:  
+
 | Kennzeichnung | Bedeutung                             |
 | ------------- | ------------------------------------- |
 | -             | linksbündig ausrichten                |
@@ -158,6 +159,7 @@ Die Einleitung **%** und der Formatbezeichner **T** muss immer angeführt werden
 | #             | unterschiedliche Bedeutung            |
 
 ein # an dieser Stelle hat unterschiedliche Bedeutung:  
+
 | #    | Bedeutung                                |
 | ---- | ---------------------------------------- |
 | %#o  | Zahl wird mit Oktalen-Prefix 0 angezeigt |
