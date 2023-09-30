@@ -22,7 +22,7 @@ created: 26. September 2023
 
 # Junktoren
 
-> [!SUMMARY] Definition: Seien $A$ und $B$ Aussagen, dann heißen; 
+> Definition: Seien $A$ und $B$ Aussagen, dann heißen; 
 >
 > | $\neg A$             | lies: nicht $A$          | die *Negation* von $A$            |
 > | -------------------- | ------------------------ | --------------------------------- |
@@ -30,9 +30,9 @@ created: 26. September 2023
 > | $A\vee B$            | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
 > | $A\Rightarrow B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
 > | $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
->
+
 > Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
-> 
+>
 > | $A$ | $B$ |     | $\neg A$ | $A\wedge B$ | $A\vee B$ | $A\Rightarrow B$ | $A\Leftrightarrow B$ |
 > |:---:|:---:| --- |:--------:|:-----------:|:---------:|:----------------:|:--------------------:|
 > | $W$ | $W$ |     |   $F$    |     $W$     |    $W$    |       $W$        |         $W$          |

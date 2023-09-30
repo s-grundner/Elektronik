@@ -13,7 +13,9 @@ created: 24th March 2022
 
 ## [Arithmetische Reihe](Arithmetische%20Reihe)
 
-## [Konvergenzkriterien für Reihen](../mathe%20(4)/Konvergenzkriterien%20für%20Reihen.md)
+## Konvergenzkriterien für Reihen
+
+- [Leibnitz Kriterium](mathe%20(4)/Leibnitz%20Kriterium.md)
 
 ## Harmonische Reihe
 
