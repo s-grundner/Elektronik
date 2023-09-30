@@ -1,4 +1,4 @@
-## Some Basic Terms to Help You Get Started in This Course
+# Some Basic Terms to Help You Get Started in This Course
 
 There is some important terminology that is used to describe PCBs, and this terminology will be used throughout the course in various locations. All of the important terminology has been compiled into a [course glossary](https://edcamp.us/p/glossary), you should refer to this document periodically as you work through the course. Some of the important terms to help you get started and progress through the rest of this unit are listed here:
 
@@ -22,7 +22,7 @@ Like many industries, the electronics industry has developed its own terminology
 
 In the next section, we’ll see how CAD tools are used to create PCBs. These software packages are highly specialized for use in creating a PCB layout and manufacturing files, and using CAD tools will be a major focus in this course.
 
-### Further Reading:
+## Further Reading:
 
 - [How to Become a PCB Designer in Today’s World](https://www.google.com/url?q=https://resources.altium.com/p/how-to-become-a-pcb-designer-in-today-s-world&sa=D&source=editors&ust=1641275385623000&usg=AOvVaw3dN0BriZETnELu6xmrxS-H)
 - [Getting Started with PCB Design](https://www.google.com/url?q=https://resources.altium.com/p/getting-started-pcb-design&sa=D&source=editors&ust=1641275385623000&usg=AOvVaw02hjvQaNtcvj-Cd43yHWxK)
