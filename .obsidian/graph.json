@@ -92,10 +92,10 @@
       }
     },
     {
-      "query": "path:xPN/DailyNotes  ",
+      "query": "path:xPN  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 16711680
       }
     }
   ],
@@ -109,6 +109,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 421,
-  "scale": 0.08317427835927631,
-  "close": false
+  "scale": 0.042315902689759696,
+  "close": true
 }
