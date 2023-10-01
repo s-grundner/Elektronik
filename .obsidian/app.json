@@ -27,7 +27,8 @@
   "userIgnoreFilters": [
     "*.ini",
     "Rubbish",
-    "xPN"
+    "xEDU/",
+    "xPN/"
   ],
   "propertiesInDocument": "hidden"
 }
