@@ -18,6 +18,7 @@ Matrizen sind:
 ## Transponieren von Matrizen
 
 Werte werden um die Diagonale gespiegelt
+
 $$
 \begin{align*}
 &A = \begin{pmatrix}
@@ -46,10 +47,8 @@ $$
 > [!IMPORTANT] Größe des Produkts  
 > ![525](../assets/Matrix_multiplication.png)
 
-
 > [!IMPORTANT] Berechnung der Werte  
 > ![400](../assets/Pasted%20image%2020230102212307.png)
-
 
 ---
 
