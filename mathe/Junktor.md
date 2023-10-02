@@ -33,9 +33,9 @@ created: 26. September 2023
 
 > Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 >
-> | $A$ | $B$ |     | $\neg A$ | $A\wedge B$ | $A\vee B$ | $A\Rightarrow B$ | $A\Leftrightarrow B$ |
+> | $A$ | $B$ |  I   | $\neg A$ | $A\wedge B$ | $A\vee B$ | $A\Rightarrow B$ | $A\Leftrightarrow B$ |
 > |:---:|:---:| --- |:--------:|:-----------:|:---------:|:----------------:|:--------------------:|
-> | $W$ | $W$ |     |   $F$    |     $W$     |    $W$    |       $W$        |         $W$          |
-> | $W$ | $F$ |     |   $F$    |     $F$     |    $W$    |       $F$        |         $F$          |
-> | $F$ | $W$ |     |   $W$    |     $F$     |    $W$    |       $W$        |         $F$          |
-> | $F$ | $F$ |     |   $W$    |     $F$     |    $F$    |       $W$        |         $W$          |
+> | $W$ | $W$ |  I   |   $F$    |     $W$     |    $W$    |       $W$        |         $W$          |
+> | $W$ | $F$ |   I  |   $F$    |     $F$     |    $W$    |       $F$        |         $F$          |
+> | $F$ | $W$ |  I   |   $W$    |     $F$     |    $W$    |       $W$        |         $F$          |
+> | $F$ | $F$ |  I   |   $W$    |     $F$     |    $F$    |       $W$        |         $W$          |

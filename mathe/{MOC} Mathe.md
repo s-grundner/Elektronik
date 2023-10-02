@@ -15,6 +15,7 @@ created: 19th August 2022
 ```dataview
 TABLE keywords, semester
 WHERE contains(subject, "Mathematik1") AND file.name != "00_jku_header"
+SORT file.cdate
 ```
 
 # HTL
