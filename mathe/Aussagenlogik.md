@@ -8,7 +8,6 @@ aliases:
   - Tautologie
   - Kontradiktion
 keywords:
-  - Def 1.1
   - Aussage
   - Wahrheitswert
   - Tautologie
@@ -18,6 +17,10 @@ subject:
 semester: 1
 created: 26. September 2023
 professor: Andreas Neubauer
+ref:
+  - Def 1.1.
+  - Def 1.4.
+  - Bsp 1.2.
 ---
  
 
@@ -43,7 +46,7 @@ Dazu benötigen wir einige Begriffe und Symbole:
 > - $|A| = F$ genau dann, wenn $A$ *falsch* ist.
 > 
 > Haben Aussagen $A$ und $B$ den gleichen Ausgangswert, so schreiben wir:  
-> $A\equiv B$ oder $|A|=|B|$ $\quad\equiv\dots$ äquivalent
+> $A\equiv B$ oder $|A|=|B|$ $\quad\equiv\dots$ [äquivalent](Junktor.md)
 
 Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Junktoren](Junktor.md)) aus zwei Aussagen $A$ und $B$ neue, komplexere Aussagen zu bilden.
 

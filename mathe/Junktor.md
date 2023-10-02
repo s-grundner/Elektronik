@@ -25,10 +25,14 @@ subject:
 semester: 1
 created: 26. September 2023
 professor: Andreas Neubauer
+ref:
+  - Def 1.3.
 ---
  
 
 # Junktoren
+
+---
 
 > [!ABSTRACT] Definition 1.3 [^1] - Seien $A$ und $B$ Aussagen, dann heißen: 
 
@@ -39,7 +43,7 @@ professor: Andreas Neubauer
 | $A\Rightarrow B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
 | $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
 
-Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
+> Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 
 | $A$ | $B$ |  I  | $\neg A$ | $A\wedge B$ | $A\vee B$ | $A\Rightarrow B$ | $A\Leftrightarrow B$ |
 |:---:|:---:|:---:|:--------:|:-----------:|:---------:|:----------------:|:--------------------:|
@@ -47,3 +51,5 @@ Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 | $W$ | $F$ |  I  |   $F$    |     $F$     |    $W$    |       $F$        |         $F$          |
 | $F$ | $W$ |  I  |   $W$    |     $F$     |    $W$    |       $W$        |         $F$          |
 | $F$ | $F$ |  I  |   $W$    |     $F$     |    $F$    |       $W$        |         $W$          |
+
+---

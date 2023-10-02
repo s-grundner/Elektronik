@@ -13,7 +13,7 @@ created: 19th August 2022
 # Map of Topics - Mathe
 
 ```dataview
-TABLE keywords, semester, file.ctime AS "creation date"
+TABLE keywords, ref, file.cday AS "creation date"
 WHERE contains(subject, "Mathematik1") AND file.name != "00_jku_header"
 SORT file.cday DESC
 ```
