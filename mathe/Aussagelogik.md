@@ -47,5 +47,5 @@ Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Ju
 > ✅Eine Aussage ist: *Wien liegt in der Schweiz*  
 > ❌Keine Aussage ist: *Wie geht es dir*
 
- :[^1] Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf) - Seite 5  
- :[^2] Beispiel 2.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf) - Seite 5
+ [^1] Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf) - Seite 5  
+ [^2] Beispiel 2.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf) - Seite 5
