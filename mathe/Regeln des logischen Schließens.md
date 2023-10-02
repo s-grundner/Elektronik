@@ -35,11 +35,16 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > (a) $\neg(\neg A)\equiv A$  
 > 
 > (b) $\left.\begin{align}\neg (A\wedge B)\equiv \neg A\vee \neg B \\ \neg (A\vee B)\equiv \neg A \wedge \neg B\end{align}\quad\right\}\text{ De Morgansche Regeln}$  
+> 
 > (c) $A\implies B\equiv\neg(A\wedge \neg B) \equiv\neg A\vee B$  
 > (d) $A\implies B\equiv \neg B\implies \neg A\quad\}\text{ Kontrapositionsregel}$  
 > (e) $A\implies B\equiv A\wedge \neg B\implies K$  
-> (f) $(A\implies B)\wedge(B\implies C)\implies(A\implies C)\equiv T$
-> (g) $A \Leftrightarrow B\equiv(A\implies B)\wedge(B\implies A)$
-> (h) $(A\implies B)\wedge A\implies$	
+> (f) $(A\implies B)\wedge(B\implies C)\implies(A\implies C)\equiv T$  
+> (g) $A \Leftrightarrow B\equiv(A\implies B)\wedge(B\implies A)$  
+> (h) $(A\implies B)\wedge A\implies B\equiv T$
+> 
+> (i) $\left.\begin{align}A\wedge (B\vee C)\equiv (A\wedge B)\vee (A\wedge C)\\ A \vee (B\wedge C)\equiv (A\vee B)\wedge(A\vee C)\end{align}\quad\right\}\text{ Distributivgesetze}$
+> 
+> (j) $\left.\begin{align}(A \vee B) \vee C \equiv A \vee (B \vee C)\\\end{align}\quad\right\}\text{ Assoziativgesetze}$
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
