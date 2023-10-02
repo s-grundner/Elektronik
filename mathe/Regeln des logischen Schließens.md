@@ -33,13 +33,12 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 
 > [!ABSTRACT] *Satz 1.5*[^1] - Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine Tautologie und $K$ eine Kontradiktion, dann gilt:  
 > (a) $\neg(\neg A)\equiv A$  
-> (b) 
-> 
-$$
-\begin{cases} \\
 
-\end{cases}
 $$
-
+\left.
+\begin{align}
+\end{align}
+\}\text{ De Morgansches Gesetz}
+$$
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
