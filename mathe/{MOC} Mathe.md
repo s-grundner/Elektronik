@@ -12,6 +12,8 @@ created: 19th August 2022
 
 # Map of Topics - Mathe
 
+## JKU Mathematik 1
+
 ```dataview
 TABLE keywords, ref, file.cday AS "creation date"
 WHERE contains(subject, "Mathematik1") AND file.name != "00_jku_header"
