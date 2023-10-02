@@ -40,8 +40,8 @@ ref:
 | -------------------- | ------------------------ | --------------------------------- |
 | $A\wedge B$          | lies: $A$ und $B$        | die *Konjunktion* von $A$ und $B$ |
 | $A\vee B$            | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
-| $A\Rightarrow B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
-| $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
+| $A\implies B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
+| $A\equiv B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
 
 > Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 
@@ -53,3 +53,14 @@ ref:
 | $F$ | $F$ |  I  |   $W$    |     $F$     |    $F$    |       $W$        |         $W$          |
 
 ---
+
+## Disjunktion
+
+Wie die Tabelle aus der obigen Definition zeigt, ist $A \vee B$ genau dann *wahr*, wenn wenigstens eine der beiden Aussagen $A,B$ *wahr* ist. 
+
+Die *Disjunktion* $\vee$ entspricht also dem nichtauschließenden (exclusive) *Oder*.
+
+## Implikation
+
+Bie der Implikaton $A\implies B$ nennt man $A$ die *Prämisse* und $B$ die *Konklusion*. Die Implikation ist laut Wahrheitstabelle genau dann *falsch*, wenn $A$ *wahr* und $B$ *falsch* ist.
+
