@@ -25,7 +25,7 @@ Dazu benötigen wir einige Begriffe und Symbole:
 
 ## Wahrheitswert
 
-> [!abstract] Definition  
+> [!abstract] Definition  1.1
 > Eine *Aussage* ist ein sprachlicher Ausdruck, für den es einen Sinn hat zu fragen, ob es wahr oder falsch ist.  
 > Sie soll stets entweder wahr oder falsch sein (*zweiwertige Logik*).  
 > Symbole für Aussagen sind: $A, B, C\dots$  
