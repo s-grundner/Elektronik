@@ -511,7 +511,7 @@ bool operator==(const string &s2) {
 }
 ```
 
-Damit ist die Funktion die Gleiche wie zuvor. Um Unabhängig von der Groß-/Kleinschreibung zu sein muss in die entsprechende [Logik](../../../Mathe/Logik.md) in den überladenen Operator eingebaut werden.
+Damit ist die Funktion die Gleiche wie zuvor. Um Unabhängig von der Groß-/Kleinschreibung zu sein muss in die entsprechende [Logik](../../../Mathe/Aussagelogik.md) in den überladenen Operator eingebaut werden.
 
 ## Algo - *binary_search*
 
@@ -834,7 +834,6 @@ Der Output-Iterator ermöglicht das Schreiben. Vergleichende Operatoren (`==`,`!
   }
   ```
 
-  
   Damit wird aus der *input.txt*-Datei in die *output.txt*-Datei kopiert.
 
 ## It - Forward-Iterator (075)
@@ -857,6 +856,7 @@ Aufruf der analogen [STL](../Cpp_STL.md)-Funktion (Ersetzen des Int 7 mit int 11
 ```
 std::replace(myVector.begin(), myVector.end(), 7, 11);
 ```
+
 (Ein Forward-Iterator kann auch mittels Pointer realisiert werden)
 
 ## It - Bidirectional-Iterator (076)
@@ -1436,4 +1436,3 @@ Ab cpp17 ist gibt es *string_view*, damit kann mit Teilen von vorhandenen String
 ```cpp
 std::string_view fName2(name.c_str(),16);
 ```
-

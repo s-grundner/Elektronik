@@ -143,7 +143,7 @@ ostream& operator<<(ostream& ausgabe, const CAbteilung& a) {
 
 Da das nicht in der *ostream*-Klasse implementiert wird muss diese Funktion global sein (& Operator notwendig, weil Copy-Konstruktor private).
 
-> Das Überladen von Operatoren ermöglicht das Implementieren von einer eigenen [Logik](../../Mathe/Logik.md) für eigene Operanden.
+> Das Überladen von Operatoren ermöglicht das Implementieren von einer eigenen [Logik](../../Mathe/Aussagelogik.md) für eigene Operanden.
 
 ## Beispiele
 

@@ -4,7 +4,7 @@ Die Sicherheit beginnt beim Datenbank-System-Design
 
 - Applikationen sollten sich mit der Datenbank nie als deren Eigentümer/Superuser (Root) verbinden/können. Dazu werden diese Administrator-Konten so angelegt, dass Sie nur Zugriff von localhost haben.
 - Legen Sie für Zugriffe aus Applikationen eigene Benutzer an, die auch nur dürfen was sie können müssen.
-- Datenbankoder Geschäftslogik hat nichts in der Webapplikation verloren. Diese [Logik](../../Mathe/Logik.md) gehört in die Datenbank selber in Form von Sichten, Triggern oder Regeln. Umso weniger die Datenbank nach außen von ihrem Aufbau verrät desto besser.
+- Datenbankoder Geschäftslogik hat nichts in der Webapplikation verloren. Diese [Aussagelogik](../../Mathe/Aussagelogik.md) gehört in die Datenbank selber in Form von Sichten, Triggern oder Regeln. Umso weniger die Datenbank nach außen von ihrem Aufbau verrät desto besser.
 
 Datenbankverbindung
 

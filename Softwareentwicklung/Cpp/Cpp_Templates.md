@@ -45,7 +45,7 @@ In der ersten Zeile wird mit dem Schlüsselwort `template` festgelegt: die folge
 
 In vielen Fällen kann dieses Problem mit dem Überladen von Operatoren, für String hier etwa der "<" Operator gelöst werden.
 
-Soll für einen speziellen Datentyp in ein Template eine eigene [Logik](../../Mathe/Logik.md) eingebaut werden, funktioniert das mittels *Spezialisierung*:
+Soll für einen speziellen Datentyp in ein Template eine eigene [Logik](../../Mathe/Aussagelogik.md) eingebaut werden, funktioniert das mittels *Spezialisierung*:
 
 ```c++
 template<> char *Max<char *>(char *str1, char *str2){
@@ -128,7 +128,7 @@ Die Argumente die bei der Verwendung eines Templates mitzugeben sind (in den spi
 
 - Werte  
   So wie Typen können einem Template auch Werte für die Erzeugung mitgegeben werden:
-  
+
   ```c++
   template <typename T, int N>
   struct myStruc
@@ -136,13 +136,13 @@ Die Argumente die bei der Verwendung eines Templates mitzugeben sind (in den spi
       T type[N];
   };
   ```
-  
+
   Verwendung:
-  
+
   ```c++
   myStruc<char,3> ms;
   ```
-  
+
   Erzeugt eine Struktur mit einem 3 Elemente großen char-Array.
 
 - Funktionen - es wird nicht näher darauf eingegangen, nur ein einfaches Beispiel:
