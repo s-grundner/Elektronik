@@ -31,6 +31,15 @@ ref:
 
 Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die man *Regeln des logischen Schließens* nennt.
 
-> [!ABSTRACT] *Satz 1.5*[^1]
+> [!ABSTRACT] *Satz 1.5*[^1] - Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine Tautologie und $K$ eine Kontradiktion, dann gilt:  
+> (a) $\neg(\neg A)\equiv A$  
+> (b) 
+> 
+$$
+\begin{cases} \\
+
+\end{cases}
+$$
+
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
