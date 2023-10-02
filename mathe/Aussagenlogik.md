@@ -1,8 +1,8 @@
 ---
 tags:
   - Mathe
+  - Logik
 aliases:
-  - Axiome
   - Aussagelogik
   - zweiwertige Logik
   - Tautologie
@@ -23,11 +23,8 @@ professor: Andreas Neubauer
 
 # Aussagenlogik
 
-Grundlage jeder mathematischen Theorie sind gewisse Aussagen, von denen wir ausgehen wollen, sogenannte *Axiome*. Axiome sind Logische Schlussfolgerungen von denen wir ausgehen und nicht bewiesen werden müssen. 
-
-![](assets/AxiomeVis.png)
-
-Mathematische *Sätze* sind Aussagen, die sich aus diesen Axiomen durch logisches Erschließen herleiten lassen.
+> [!INFO]  
+>  ![Axiom](Axiom.md)
 
 Dazu benötigen wir einige Begriffe und Symbole:
 
