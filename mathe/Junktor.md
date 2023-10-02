@@ -1,6 +1,7 @@
 ---
 tags:
   - Mathe
+  - Logik
 aliases:
   - Junktoren
   - Konjunktion
@@ -11,8 +12,13 @@ aliases:
   - konjunktiv
   - disjunktiv
   - impliziert
+  - Junktion
 keywords:
-  - Logik
+  - Negation
+  - Konjunktion
+  - Disjunktion
+  - Implikation
+  - Äquivalenz
 subject:
   - Mathematik1
 semester: 1

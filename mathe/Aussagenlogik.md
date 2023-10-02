@@ -5,10 +5,14 @@ aliases:
   - Axiome
   - Aussagelogik
   - zweiwertige Logik
+  - Tautologie
+  - Kontradiktion
 keywords:
   - Def 1.1
   - Aussage
   - Wahrheitswert
+  - Tautologie
+  - Kontradiktion
 subject:
   - Mathematik1
 semester: 1
@@ -46,5 +50,9 @@ Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Ju
 > ✅Eine Aussage ist: *Wien liegt in der Schweiz*  
 > ❌Keine Aussage ist: *Wie geht es dir*
 
+> [!ABSTRACT] Definition 1.4 [^3] - Tautologie und Kontradiktion  
+> Eine Verknüpfung von Aussagen ([Junktion](Junktor.md)), die unabhängig
+
 [^1]: Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]  
-[^2]: Beispiel 2.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]
+[^2]: Beispiel 1.2 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]
+[^3]: Definition 1.4 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
