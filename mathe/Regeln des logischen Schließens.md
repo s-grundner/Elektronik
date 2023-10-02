@@ -36,7 +36,7 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > 
 > (b) $\left.\begin{align}\neg (A\wedge B)\equiv \neg A\vee \neg B \\ \neg (A\vee B)\equiv \neg A \wedge \neg B\end{align}\quad\right\}\text{ De Morgansche Regeln}$  
 > (c) $A\implies B\equiv\neg(A\wedge \neg B) \equiv\neg A\wedge B$  
-> (d) $A\implies B\equiv \neg B\implies \neg A\quad\}$ Kontrapositionsregel
-> (e) $$
+> (d) $A\implies B\equiv \neg B\implies \neg A\quad\}$ Kontrapositionsregel  
+> (e) $A\implies B\equiv A\wedge \neg B\implies K$
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
