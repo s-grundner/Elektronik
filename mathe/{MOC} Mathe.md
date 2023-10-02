@@ -1,9 +1,10 @@
 ---
 tags:
   - MOC
-teacher:
+professor:
   - Christa Sartorius
   - Rudolf Frauenschuh
+  - Andreas Neubauer
 subject:
   - mathe
 inst: HTBLuVA Salzburg

@@ -35,7 +35,7 @@ ref:
 
 ---
 
-> [!ABSTRACT] Definition 1.3 [^1] - Seien $A$ und $B$ Aussagen, dann heißen: 
+> [!ABSTRACT] *Definition 1.3* [^1] - Seien $A$ und $B$ Aussagen, dann heißen: 
 
 | $\neg A$             | lies: nicht $A$          | die *Negation* von $A$            |
 | -------------------- | ------------------------ | --------------------------------- |
@@ -82,7 +82,8 @@ $A \Leftrightarrow B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr
 > - $\neg$ bindet stärker als $\wedge, \vee,\implies$ und $\Leftrightarrow$
 > - $\wedge$ und $\vee$ binden stärker als $\implies$ und $\Leftrightarrow$
 >
-> > [!EXAMPLE] Wir schreiben demnach
-> > 		- $\neg A\wedge B$ statt $(\neg A)\wedge B$
+> > [!EXAMPLE] Wir schreiben demnach  
+> > 		- $\neg A\wedge B$ statt $(\neg A)\wedge B$  
 > > 		- $A\wedge B\implies C$ statt $(A\wedge B)\implies C$
-> 
+
+[^1]: Definition 1.3 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]

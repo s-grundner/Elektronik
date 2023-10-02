@@ -12,6 +12,7 @@
     "spec-conductance": "multitext",
     "spec-resisitance": "multitext",
     "semester": "number",
-    "ref": "multitext"
+    "ref": "multitext",
+    "professor": "multitext"
   }
 }
