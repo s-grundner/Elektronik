@@ -34,7 +34,9 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > [!ABSTRACT] *Satz 1.5*[^1] - Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine Tautologie und $K$ eine Kontradiktion, dann gilt:  
 > (a) $\neg(\neg A)\equiv A$  
 > 
-> (b) $\left.\begin{align}\neg (A\wedge B)\equiv \neg A\vee \neg B \\ \neg (A\vee B)\equiv \neg A \wedge \neg B\end{align}\right\}\text{ De Morgansche Regeln}$  
-> (c) $A\implies B\equiv\neg(A\wedge \neg B) \equiv\neg A\wedge B$
+> (b) $\left.\begin{align}\neg (A\wedge B)\equiv \neg A\vee \neg B \\ \neg (A\vee B)\equiv \neg A \wedge \neg B\end{align}\quad\right\}\text{ De Morgansche Regeln}$  
+> (c) $A\implies B\equiv\neg(A\wedge \neg B) \equiv\neg A\wedge B$  
+> (d) $A\implies B\equiv \neg B\implies \neg A\quad\}$ Kontrapositionsregel
+> (e) $$
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
