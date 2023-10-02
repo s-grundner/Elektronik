@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: []
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - Mathe
+  - Folgen
+  - Kurvendiskussion
+aliases: 
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 19th August 2022
 ---
 

@@ -16,6 +16,7 @@ created: 24th March 2022
 ## Konvergenzkriterien für Reihen
 
 - [Leibnitz Kriterium](mathe%20(4)/Leibnitz%20Kriterium.md)
+- [Quotientenkriterium](mathe%20(4)/Quotienten%20Kriterium.md)
 
 ## Harmonische Reihe
 

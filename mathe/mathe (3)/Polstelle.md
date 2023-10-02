@@ -1,6 +1,8 @@
 ---
-tags: []
-aliases: []
+tags:
+  - Mathe
+  - Kurvendiskussion
+aliases: 
 created: 30th August 2023
 ---
 
