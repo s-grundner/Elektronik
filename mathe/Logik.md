@@ -3,6 +3,9 @@ tags:
   - Mathe
 aliases:
   - Axiome
+  - Aussage
+  - Logische Aussage
+  - Aussagelogik
 keywords:
   - Grundbegriffe
   - zweiwertige Logik
@@ -15,9 +18,9 @@ created: 26. September 2023
 ---
  
 
-# Logik
+# Logik (Aussage)
 
-Grundlage jeder mathematischen Theorie sind gewisse Aussagen, von denen wir ausgehen wollen, sogenannte *Axiome*. Axiome sind Logische Schlussfolgerungen von de 
+Grundlage jeder mathematischen Theorie sind gewisse Aussagen, von denen wir ausgehen wollen, sogenannte *Axiome*. Axiome sind Logische Schlussfolgerungen von denen wir ausgehen und nicht bewiesen werden müssen. 
 
 ![](assets/Pasted%20image%2020231002124140.png)
 
@@ -25,11 +28,11 @@ Mathematische Sätze sind Aussagen, die sich aus diesen Axiomen durch logisches 
 
 Dazu benötigen wir einige Begriffe und Symbole:
 
-## Wahrheitswert
+## Wahrheitswert $\mid A\mid$
 
-> [!abstract] Definition  1.1
+> [!abstract] Definition 1.1  
 > Eine *Aussage* ist ein sprachlicher Ausdruck, für den es einen Sinn hat zu fragen, ob es wahr oder falsch ist.  
-> Sie soll stets entweder wahr oder falsch sein (*zweiwertige Logik*).  (Anders als Unschärfe/Fuzzy-Logik)
+> Sie soll stets entweder wahr oder falsch sein (*zweiwertige Logik*). (Anders als Unschärfe/Fuzzy-Logik)  
 > Symbole für Aussagen sind: $A, B, C\dots$  
 > Der *Wahrheitswert* $|A|$ von $A$ ist definiert wie folgt:
 > - $|A| = W$ genau dann, wenn $A$ *wahr* ist;
