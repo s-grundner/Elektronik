@@ -17,13 +17,13 @@ professor: Andreas Neubauer
 ---
  
 
-# Logik (Aussage)
+# Aussagenlogik
 
 Grundlage jeder mathematischen Theorie sind gewisse Aussagen, von denen wir ausgehen wollen, sogenannte *Axiome*. Axiome sind Logische Schlussfolgerungen von denen wir ausgehen und nicht bewiesen werden müssen. 
 
 ![](assets/AxiomeVis.png)
 
-Mathematische ==Sätze== sind Aussagen, die sich aus diesen Axiomen durch logisches Erschließen herleiten lassen.
+Mathematische *Sätze* sind Aussagen, die sich aus diesen Axiomen durch logisches Erschließen herleiten lassen.
 
 Dazu benötigen wir einige Begriffe und Symbole:
 
@@ -46,5 +46,5 @@ Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Ju
 > ✅Eine Aussage ist: *Wien liegt in der Schweiz*  
 > ❌Keine Aussage ist: *Wie geht es dir*
 
-[^1]: Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf) [S. 5]  
-[^2]: Beispiel 2.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf) - [S. 5]
+[^1]: Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]  
+[^2]: Beispiel 2.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]
