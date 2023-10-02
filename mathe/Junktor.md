@@ -20,6 +20,7 @@ keywords:
   - Implikation
   - Äquivalenz
   - Wahrheitstabelle
+  - Klammern
 subject:
   - Mathematik1
 semester: 1
@@ -57,7 +58,7 @@ ref:
 ## Disjunktion $\vee$
 
 Wie die Tabelle aus der obigen Definition zeigt, ist $A \vee B$ genau dann *wahr*, wenn wenigstens eine der beiden Aussagen $A,B$ *wahr* ist.  
-Die *Disjunktion* $\vee$ entspricht also dem nichtauschließenden (exclusive) *Oder*.
+Die *Disjunktion* $\vee$ entspricht also dem nichtausschließenden (exclusive) *Oder*.
 
 ## Implikation $\implies$
 
@@ -70,4 +71,18 @@ Die Implikation ist laut Wahrheitstabelle genau dann *falsch*, wenn $A$ *wahr* u
 
 ## Äquivalenz $\Leftrightarrow$
 
-$A \Leftrightarrow B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, 
+$A \Leftrightarrow B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$ *wahr* ist.
+
+> [!INFO] $A\Leftrightarrow B$:  
+> $A$ ist notwendig und hinreichend für $B$
+
+## Klammern bei Logischen Operatoren
+
+> [!SUMMARY] Um bei der Verknüpfung mehrerer logischer Aussagen Klammern zu sparen, vereinbaren wir:
+> - $\neg$ bindet stärker als $\wedge, \vee,\implies$ und $\Leftrightarrow$
+> - $\wedge$ und $\vee$ binden stärker als $\implies$ und $\Leftrightarrow$
+>
+> > [!EXAMPLE] Wir schreiben demnach
+> > 		- $\neg A\wedge B$ statt $(\neg A)\wedge B$
+> > 		- $A\wedge B\implies C$ statt $(A\wedge B)\implies C$
+> 
