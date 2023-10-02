@@ -4,21 +4,22 @@ tags:
   - Logik
 aliases:
   - Junktoren
+  - Junktion
   - Konjunktion
   - Disjunktion
   - Implikation
   - Äquivalenz
-  - äquivalent
   - konjunktiv
   - disjunktiv
   - impliziert
-  - Junktion
+  - äquivalent
 keywords:
   - Negation
   - Konjunktion
   - Disjunktion
   - Implikation
   - Äquivalenz
+  - Wahrheitstabelle
 subject:
   - Mathematik1
 semester: 1
@@ -29,20 +30,20 @@ professor: Andreas Neubauer
 
 # Junktoren
 
-> Definition: Seien $A$ und $B$ Aussagen, dann heißen; 
->
-> | $\neg A$             | lies: nicht $A$          | die *Negation* von $A$            |
-> | -------------------- | ------------------------ | --------------------------------- |
-> | $A\wedge B$          | lies: $A$ und $B$        | die *Konjunktion* von $A$ und $B$ |
-> | $A\vee B$            | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
-> | $A\Rightarrow B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
-> | $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
+> [!ABSTRACT] Definition 1.3 [^1] - Seien $A$ und $B$ Aussagen, dann heißen: 
 
-> Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
->
-> | $A$ | $B$ |  I   | $\neg A$ | $A\wedge B$ | $A\vee B$ | $A\Rightarrow B$ | $A\Leftrightarrow B$ |
-> |:---:|:---:| --- |:--------:|:-----------:|:---------:|:----------------:|:--------------------:|
-> | $W$ | $W$ |  I   |   $F$    |     $W$     |    $W$    |       $W$        |         $W$          |
-> | $W$ | $F$ |   I  |   $F$    |     $F$     |    $W$    |       $F$        |         $F$          |
-> | $F$ | $W$ |  I   |   $W$    |     $F$     |    $W$    |       $W$        |         $F$          |
-> | $F$ | $F$ |  I   |   $W$    |     $F$     |    $F$    |       $W$        |         $W$          |
+| $\neg A$             | lies: nicht $A$          | die *Negation* von $A$            |
+| -------------------- | ------------------------ | --------------------------------- |
+| $A\wedge B$          | lies: $A$ und $B$        | die *Konjunktion* von $A$ und $B$ |
+| $A\vee B$            | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
+| $A\Rightarrow B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
+| $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
+
+Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
+
+| $A$ | $B$ |  I  | $\neg A$ | $A\wedge B$ | $A\vee B$ | $A\Rightarrow B$ | $A\Leftrightarrow B$ |
+|:---:|:---:|:---:|:--------:|:-----------:|:---------:|:----------------:|:--------------------:|
+| $W$ | $W$ |  I  |   $F$    |     $W$     |    $W$    |       $W$        |         $W$          |
+| $W$ | $F$ |  I  |   $F$    |     $F$     |    $W$    |       $F$        |         $F$          |
+| $F$ | $W$ |  I  |   $W$    |     $F$     |    $W$    |       $W$        |         $F$          |
+| $F$ | $F$ |  I  |   $W$    |     $F$     |    $F$    |       $W$        |         $W$          |

@@ -31,10 +31,14 @@ Mathematische *Sätze* sind Aussagen, die sich aus diesen Axiomen durch logische
 
 Dazu benötigen wir einige Begriffe und Symbole:
 
+## Aussage
+
 > [!abstract] Definition 1.1 - Aussage [^1]  
 > Eine *Aussage* ist ein sprachlicher Ausdruck, für den es einen Sinn hat zu fragen, ob es wahr oder falsch ist.  
 > Sie soll stets entweder wahr oder falsch sein (*zweiwertige Logik*). (Anders als Unschärfe/Fuzzy-Logik)  
 > Symbole für Aussagen sind: $A, B, C\dots$  
+
+### Wahrheitswert einer Aussage
 
 > [!ABSTRACT] ff. Definition 1.1 - Wahrheitswert [^1]  
 > Der *Wahrheitswert* $|A|$ von $A$ ist definiert wie folgt:
@@ -50,8 +54,12 @@ Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Ju
 > ✅Eine Aussage ist: *Wien liegt in der Schweiz*  
 > ❌Keine Aussage ist: *Wie geht es dir*
 
+## Tautologie und Kontradiktion
+
 > [!ABSTRACT] Definition 1.4 [^3] - Tautologie und Kontradiktion  
-> Eine Verknüpfung von Aussagen ([Junktion](Junktor.md)), die unabhängig
+> Eine Verknüpfung von Aussagen ([Junktion](Junktor.md)), die unabhängig von den Wahrheitswerten dieser Aussagen stets wahr (falsch) ist, heißt *Tautologie $T$ (Kontradiktion $K$)*
+> - Tautologie $T$ $\to$ immer wahr: $|T| = W$
+> - Kontradiktion $K$ $\to$ immer falsch: $|K| = F$
 
 [^1]: Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]  
 [^2]: Beispiel 1.2 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]
