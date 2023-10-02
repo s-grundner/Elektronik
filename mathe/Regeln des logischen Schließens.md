@@ -38,6 +38,8 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > (c) $A\implies B\equiv\neg(A\wedge \neg B) \equiv\neg A\vee B$  
 > (d) $A\implies B\equiv \neg B\implies \neg A\quad\}\text{ Kontrapositionsregel}$  
 > (e) $A\implies B\equiv A\wedge \neg B\implies K$  
-> (f) $(A\implies B)\wedge()$
+> (f) $(A\implies B)\wedge(B\implies C)\implies(A\implies C)\equiv T$
+> (g) $A \Leftrightarrow B\equiv(A\implies B)\wedge(B\implies A)$
+> (h) $(A\implies B)\wedge A\implies$	
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
