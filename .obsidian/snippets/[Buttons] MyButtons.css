@@ -1,0 +1,20 @@
+.mybutton {
+
+	border: 1.0px solid var(--button-border);
+	border-radius: var(--button-border-radius, 8px);
+	background-color: #d4d4d4;
+	padding: 20px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: var(--button-size);
+	margin: 0 2px;
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	
+}
+
+.mybutton:hover {
+	z-index: 100;
+	border: 0.5px solid var(--button-border);
+	background-color: #0099ff;
+	color: #d4d4d4;
+}
