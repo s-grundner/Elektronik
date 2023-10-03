@@ -63,6 +63,8 @@ $\overline{N_{r}}=r^{n}-N_{r}$
 
 ## Boolesche Algebra
 
-Boolsche Algebra 
-besteht aus der Menge $B$ 
+Boolsche Algebra besteht aus der Menge $B$ und zwei Verknüpfungsoperationen $+$ und $\cdot$
+
+### Schaltalgebra
+
 ## Digitale Schaltungsentwicklung
