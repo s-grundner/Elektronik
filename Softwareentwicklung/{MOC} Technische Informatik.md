@@ -34,11 +34,24 @@ Polyadische Systeme ($1\cdot 10^1+1\cdot 10^2\dots$)
 - Sukzessive Multiplikation mit Addtion
 - Sukzessive Division mit Rest $\to$ Horner Schematic
 - Umwandlung von Zahlen mit gebrochenen Anteil, getrennte berechnung des ganzzahligen Anteils und des gebrochenen Anteils.
-	- ganzzahliger Anteil
-		- 
-	- gebrochener Anteil
 
-##
+> [!IMPORTANT] Multiplikation im Dualsystem ist schieben und addieren
+
+### Darstellung negativer Zahlen
+
+> [!INFO] Vorzeichen-Wert System Darstellung
+> $N=(s,a_{n-1}a_{n-2}\dots a_{1}a_{0}\dots a_{-1}a_{-2}\dots a_{-m})_{r}$
+
+> [!INFO] Komplement Darstellung
+> $\bar{N} = r^{n}-N_{r}$
+> $\bar{N}\dots$ Radix-Komplement
+> $N_{r}\dots$ Zahl
+> $r\dots$ Radix
+> $\to$ 2er Komplement im Dualsystem
+
+Berechnung des Radix-Komplement
+-> Ersetze Ziffer $a$ durch 
+
 
 ## Boolesche Algebra
 
