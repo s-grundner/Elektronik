@@ -18,6 +18,4 @@ TABLE keywords
 WHERE contains(subject, "Technische Informatik") AND file.name != "00_jku_header"
 ```
 
-[Boolesche Algebra](Boolesche%20Algebra.md)
-
 ## Digitale Schaltungsentwicklung
