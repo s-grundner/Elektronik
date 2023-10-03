@@ -3,7 +3,8 @@ tags:
 aliases: 
 keywords: []
 subject:
-  - Softwareentwicklung1
+  - "336.001"
+  - Technische Informatik
 semester: 1
 created: 3. Oktober 2023
 professor: Timm Ostermann
@@ -12,8 +13,7 @@ professor: Timm Ostermann
 
 # Technische Informatik
 
-```dataview
-TABLE 
-WHERE contains(subject, "Softwareentwicklung1")
+## Boolesche Algebra
 
-```
+## Digitale Schaltungsentwicklung
+
