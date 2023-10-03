@@ -45,6 +45,6 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > 
 > (i) $\left.\begin{align}A\wedge (B\vee C)\equiv (A\wedge B)\vee (A\wedge C)\\ A \vee (B\wedge C)\equiv (A\vee B)\wedge(A\vee C)\end{align}\quad\right\}\text{ Distributivgesetze}$
 > 
-> (j) $\left.\begin{align}(A \vee B) \vee C \equiv A \vee (B \vee C)\\\end{align}\quad\right\}\text{ Assoziativgesetze}$
+> (j) $\left.\begin{align}(A \vee B) \vee C \equiv A \vee (B \vee C)\quad(=: A\vee B\vee C)\\(A \wedge B) \wedge C \equiv A \wedge (B \wedge C)\quad(=: A\wedge B\wedge C)\end{align}\quad\right\}\text{ Assoziativgesetze}$
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
