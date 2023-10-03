@@ -1,7 +1,7 @@
 ```button
 name Moodle
 type link
-action https://moodle.jku.at/jku/?redirect=0
+action https://moodle.jku.at
 color default
 class mybutton
 ```
