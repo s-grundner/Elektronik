@@ -12,4 +12,8 @@ professor: Timm Ostermann
 
 # Technische Informatik
 
+```dataview
+TABLE 
+WHERE contains(subject, "Softwareentwicklung1")
 
+```
