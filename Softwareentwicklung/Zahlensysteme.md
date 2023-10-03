@@ -18,27 +18,27 @@ professor:
 
 # Zahlensysteme
 
-> [!INFO] Stellenwertsystem (Positionssystem)
-> Zahlen werden durch Ziffern dargestellt.
+> [!INFO] Stellenwertsystem (Positionssystem)  
+> Zahlen werden durch Ziffern dargestellt.  
 > Die Wertigkeit einer Ziffer hängt von der jeweiligen Stelle ab.
 
-> [!IMPORTANT] Wichtigste Stellenwertsysteme sind polyadische Systeme
-> Zahlen werden mit einer Potenzreihe dargestellt:
+> [!IMPORTANT] Wichtigste Stellenwertsysteme sind polyadische Systeme  
+> Zahlen werden mit einer Potenzreihe dargestellt:  
 > $1\cdot 10^1+1\cdot 10^2\dots$ (hier: Dezimalsystem)
 >
-> > [!EXAMPLE] Beispiele für nicht polyadische Zahlensysteme
-> > Zeit Skala - Stellenwertsystem aber nicht polyadisch
+> > [!EXAMPLE] Beispiele für nicht polyadische Zahlensysteme  
+> > Zeit Skala - Stellenwertsystem aber nicht polyadisch  
 > > röm. Zahlensystem - Additionssystem
 
-## Darstellung einer Zahl
+## Darstellung einer Zahl im polyadischen Stellenwertsystem
 
-$N=(a_{n-1}a_{n-2}\dots a_{1}a_{0}\dots a_{-1}a_{-2}\dots a_{-m})_{r}$  
-$N\dots$ 
-
-## Polyadisches Stellenwertsystem
+$N=(a_{n-1} a_{n-2}\dots  a_{1} a_{0},  a_{-1} a_{-2}\dots a_{-m})_{r}$  
+$a_{i}\dots$ Ziffern  
+$r\dots$ Radix, Basis (2 binär, 10 dezimal, 16 hexadezimal…)  
+$,\dots$ Komma/Radixpunkt - Trennung zwischen ganzzahligem und gebrochenem Teil
 
 > [!EXAMPLE] Beispiele
-> - Dezimalsystem
+> - Dezimalsystem $345 = 3\cdot 10^2+4\cdot 10^1+5\cdot$
 > - Dualsystem
 > - Oktalsystem
 > - Hexadezimal
