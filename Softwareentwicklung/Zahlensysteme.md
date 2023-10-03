@@ -14,7 +14,6 @@ professor:
 
 # Zahlensysteme
 
-
 Stellenwertsystem (Positionssystem)
 
 Polyadische Systeme ($1\cdot 10^1+1\cdot 10^2\dots$)

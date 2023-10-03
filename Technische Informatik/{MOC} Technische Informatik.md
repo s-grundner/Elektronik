@@ -13,12 +13,11 @@ professor: Timm Ostermann
 
 # Technische Informatik
 
-[Zahlensysteme](Zahlensysteme.md)
+```dataview
+TABLE keywords
+WHERE contains(subject, "Technische Informatik") AND file.name != "00_jku_header"
+```
 
-## Boolesche Algebra
-
-Boolsche Algebra besteht aus der Menge $B$ und zwei Verknüpfungsoperationen $+$ und $\cdot$
-
-### Schaltalgebra
+[Boolesche Algebra](Boolesche%20Algebra.md)
 
 ## Digitale Schaltungsentwicklung
