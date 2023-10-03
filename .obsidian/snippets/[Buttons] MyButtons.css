@@ -1,21 +1,22 @@
 .mybutton {
 
+	width: 300;
 	border: 1.0px solid var(--button-border);
 	border-radius: var(--button-border-radius, 8px);
 	background-color: #d4d4d4;
 	padding: 20px 20px;
-	font-weight: bold;
+	font-weight: normal;
 	text-decoration: none;
 	font-size: var(--button-size);
-	margin: 2 0px;
-	transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
-	width: 300;
+	margin: 0 2px;
+	transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+	cursor: pointer;
 
 }
 
 .mybutton:hover {
 	z-index: 100;
-	border: 0.5px solid var(--button-border);
+	border: 1px solid var(--button-border);
 	background-color: #0099ff;
 	color: #d4d4d4;
 }
