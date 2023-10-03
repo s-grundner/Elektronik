@@ -152,7 +152,7 @@
   align-items: center;
 }
 
-.workspace-tab-header[aria-label="Moodle"] .workspace-tab-header-status-container {
+.workspace-tab-header[aria-label="常用工具"] .workspace-tab-header-status-container {
   display: none;
 }
 

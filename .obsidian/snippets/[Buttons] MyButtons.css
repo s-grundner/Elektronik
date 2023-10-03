@@ -8,8 +8,8 @@
 	text-decoration: none;
 	font-size: var(--button-size);
 	margin: 0 2px;
-	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-	
+	transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+
 }
 
 .mybutton:hover {
