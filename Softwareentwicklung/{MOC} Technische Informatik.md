@@ -21,7 +21,7 @@ Polyadische Systeme ($1\cdot 10^1+1\cdot 10^2\dots$)
 
 > [!INFO] Darstellung einer Zahl
 > $N=(a_{n-1}a_{n-2}\dots a_{1}a_{0}\dots a_{-1}a_{-2})_{r}$
-> $n\dots$ 
+> $N\dots$ 
 
 > [!EXAMPLE] Beispiele
 > - Dezimalsystem
@@ -49,11 +49,20 @@ Polyadische Systeme ($1\cdot 10^1+1\cdot 10^2\dots$)
 > $r\dots$ Radix
 > $\to$ 2er Komplement im Dualsystem
 
-Berechnung des Radix-Komplement
--> Ersetze Ziffer $a$ durch 
+> [!INFO]
+> 2er Komplement schwieriger zu bilden aber leichter zu rechnen (einfach Übertrag entfernen)
+> 1er Komplement leichter zu nenbilden, schwieriger zu rechnen
 
+#### 1er Komplement 1K, r-1
+
+$\overline{N_{r-1}}=r^{n}-1-N_{r}$
+
+#### 2er Komplement 2K, r
+
+$\overline{N_{r}}=r^{n}-N_{r}$
 
 ## Boolesche Algebra
 
+Boolsche Algebra 
+besteht aus der Menge $B$ 
 ## Digitale Schaltungsentwicklung
-
