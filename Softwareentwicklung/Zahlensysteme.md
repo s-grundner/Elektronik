@@ -1,7 +1,11 @@
 ---
 tags: 
-aliases: 
-keywords: []
+aliases:
+  - Stellenwertsystem
+  - polyadisch
+keywords:
+  - Stellenwertsystem
+  - Polyadische Systeme
 subject:
   - Technische Informatik
   - "336.001"
@@ -14,19 +18,32 @@ professor:
 
 # Zahlensysteme
 
-Stellenwertsystem (Positionssystem)
+> [!INFO] Stellenwertsystem (Positionssystem)
+> Zahlen werden durch Ziffern dargestellt.
+> Die Wertigkeit einer Ziffer hängt von der jeweiligen Stelle ab.
 
-Polyadische Systeme ($1\cdot 10^1+1\cdot 10^2\dots$)
+> [!IMPORTANT] Wichtigste Stellenwertsysteme sind polyadische Systeme
+> Zahlen werden mit einer Potenzreihe dargestellt:
+> $1\cdot 10^1+1\cdot 10^2\dots$ (hier: Dezimalsystem)
+>
+> > [!EXAMPLE] Beispiele für nicht polyadische Zahlensysteme
+> > Zeit Skala - Stellenwertsystem aber nicht polyadisch
+> > röm. Zahlensystem - Additionssystem
 
-> [!INFO] Darstellung einer Zahl  
-> $N=(a_{n-1}a_{n-2}\dots a_{1}a_{0}\dots a_{-1}a_{-2})_{r}$  
-> $N\dots$ 
+## Darstellung einer Zahl
+
+$N=(a_{n-1}a_{n-2}\dots a_{1}a_{0}\dots a_{-1}a_{-2}\dots a_{-m})_{r}$  
+$N\dots$ 
+
+## Polyadisches Stellenwertsystem
 
 > [!EXAMPLE] Beispiele
 > - Dezimalsystem
 > - Dualsystem
 > - Oktalsystem
 > - Hexadezimal
+
+![](assets/Pasted%20image%2020231003162318.png)
 
 # Konvertieren in Zahlensysteme
 
