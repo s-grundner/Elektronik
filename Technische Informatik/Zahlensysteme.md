@@ -27,23 +27,25 @@ professor:
 > $1\cdot 10^1+1\cdot 10^2\dots$ (hier: Dezimalsystem)
 >
 > > [!EXAMPLE] Beispiele für nicht polyadische Zahlensysteme  
-> > Zeit Skala - Stellenwertsystem aber nicht polyadisch  
-> > röm. Zahlensystem - Additionssystem
+> > - Zeit Skala - Stellenwertsystem aber nicht polyadisch  
+> > - röm. Zahlensystem - Additionssystem
 
 ## Darstellung einer Zahl im polyadischen Stellenwertsystem
 
-$N=(a_{n-1} a_{n-2}\dots  a_{1} a_{0},  a_{-1} a_{-2}\dots a_{-m})_{r}$  
-$a_{i}\dots$ Ziffern  
-$r\dots$ Radix, Basis (2 binär, 10 dezimal, 16 hexadezimal…)  
-$,\dots$ Komma/Radixpunkt - Trennung zwischen ganzzahligem und gebrochenem Teil
+> [!QUESTION] $N=(a_{n-1} a_{n-2}\dots  a_{1} a_{0},  a_{-1} a_{-2}\dots a_{-m})_{r}$  
+> - $a_{i}\dots$ Ziffern  
+> - $r\dots$ Radix, Basis (2 binär, 10 dezimal, 16 hexadezimal…)  
+> - $,\dots$ Komma/Radixpunkt - Trennung zwischen ganzzahligem und gebrochenem Teil
+> - $a_{n-1}$ MSD - most significant digit
+> - $a_{-m}$ LSD - least significant digit
 
 > [!EXAMPLE] Beispiele
-> - Dezimalsystem $345 = 3\cdot 10^2+4\cdot 10^1+5\cdot$
-> - Dualsystem
-> - Oktalsystem
-> - Hexadezimal
+> - Dezimalsystem ($345 = 3\cdot 10^2+4\cdot 10^1+5\cdot$)
+> - Dualsystem ($10110=1\cdot 2^{4}+0\cdot 2^{3}+1\cdot 2^{2}+1\cdot 2^1 +0\cdot 2^0$)
+> - Oktalsystem (...)
+> - Hexadezimal (...)
 
-![](assets/Pasted%20image%2020231003162318.png)
+![|625](assets/Pasted%20image%2020231003162318.png)
 
 # Konvertieren in Zahlensysteme
 
@@ -53,7 +55,7 @@ $,\dots$ Komma/Radixpunkt - Trennung zwischen ganzzahligem und gebrochenem Teil
 
 > [!IMPORTANT] Multiplikation im Dualsystem ist schieben und addieren
 
-# Darstellung negativer Zahlen
+Darstellung negativer Zahlen
 
 > [!INFO] Vorzeichen-Wert System Darstellung  
 > $N=(s,a_{n-1}a_{n-2}\dots a_{1}a_{0}\dots a_{-1}a_{-2}\dots a_{-m})_{r}$
