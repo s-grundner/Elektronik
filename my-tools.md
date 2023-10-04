@@ -41,4 +41,5 @@ type link
 action https://studienhandbuch.jku.at/?lang=de
 class mybutton
 ```
+
 ^button-shb
