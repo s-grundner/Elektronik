@@ -25,3 +25,12 @@ class mybutton
 ```
 
 ^button-kusss
+
+```button
+name myJKU
+type link
+action https://my.jku.at/#/home
+class mybutton
+```
+
+^button-myjku
