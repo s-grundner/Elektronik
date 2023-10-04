@@ -34,3 +34,11 @@ class mybutton
 ```
 
 ^button-myjku
+
+```button
+name SHB
+type link
+action https://studienhandbuch.jku.at/?lang=de
+class mybutton
+```
+^button-shb
