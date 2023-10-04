@@ -1,11 +1,16 @@
 ---
-tags: 
+tags:
+  - IT
 aliases:
   - Stellenwertsystem
   - polyadisch
+  - binär
+  - hexadezimal
+  - dezimal
 keywords:
   - Stellenwertsystem
   - Polyadische Systeme
+  - Komplementär Darstellung
 subject:
   - Technische Informatik
   - "336.001"
@@ -33,6 +38,7 @@ professor:
 ## Darstellung einer Zahl im polyadischen Stellenwertsystem
 
 > [!QUESTION] $N=(a_{n-1} a_{n-2}\dots  a_{1} a_{0},  a_{-1} a_{-2}\dots a_{-m})_{r}$  
+> - $N\dots$ Zahl
 > - $a_{i}\dots$ Ziffern  
 > - $r\dots$ Radix, Basis (2 binär, 10 dezimal, 16 hexadezimal…)  
 > - $,\dots$ Komma/Radixpunkt - Trennung zwischen ganzzahligem und gebrochenem Teil
@@ -42,8 +48,8 @@ professor:
 > [!EXAMPLE] Beispiele
 > - Dezimalsystem ($345 = 3\cdot 10^2+4\cdot 10^1+5\cdot$)
 > - Dualsystem ($10110=1\cdot 2^{4}+0\cdot 2^{3}+1\cdot 2^{2}+1\cdot 2^1 +0\cdot 2^0$)
-> - Oktalsystem (...)
-> - Hexadezimal (...)
+> - Oktalsystem (…)
+> - Hexadezimal (…)
 
 ![|625](assets/Pasted%20image%2020231003162318.png)
 
@@ -55,7 +61,9 @@ professor:
 
 > [!IMPORTANT] Multiplikation im Dualsystem ist schieben und addieren
 
-Darstellung negativer Zahlen
+# Rechnen in Zahlensystemen
+
+# Darstellung negativer Zahlen
 
 > [!INFO] Vorzeichen-Wert System Darstellung  
 > $N=(s,a_{n-1}a_{n-2}\dots a_{1}a_{0}\dots a_{-1}a_{-2}\dots a_{-m})_{r}$
@@ -69,12 +77,12 @@ Darstellung negativer Zahlen
 
 > [!INFO]  
 > 2er Komplement schwieriger zu bilden aber leichter zu rechnen (einfach Übertrag entfernen)  
-> 1er Komplement leichter zu nenbilden, schwieriger zu rechnen
+> 1er Komplement leichter zu bilden, schwieriger zu rechnen
 
-## 1er Komplement 1K, r-1
+## 1er/r-1 Komplement (1K)
 
 $\overline{N_{r-1}}=r^{n}-1-N_{r}$
 
-## 2er Komplement 2K, r
+## 2er/r Komplement (2K)
 
 $\overline{N_{r}}=r^{n}-N_{r}$
