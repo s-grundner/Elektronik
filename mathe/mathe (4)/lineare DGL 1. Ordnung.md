@@ -11,6 +11,9 @@ source: ["Rudolf Frauenschuh"]
 
 $$y'+p\cdot y=s(x)$$
 
+oder 
+
+$$\frac{dy}{dx}+p\cdot y=s(x)$$
 
 > [!quote] Linear  
 > Eine [DGL](../{MOC}%20DGL.md) 1. Ordnung heißt **linear**, wenn sie in der Form $y'+p\cdot y=s(x)$ geschrieben werden kann.
@@ -22,6 +25,7 @@ $$y'+p\cdot y=s(x)$$
 > Die im Allgemeinen vom $x$ abhängige Funktion **$s(x)$** wird oft als **Störfunktion** bezeichnet.
 
 Ist **$s(x)=0$** für *alle* x, heißt die lineare [DGL](../{MOC}%20DGL.md) **homogen**, sonst **inhomogen**.
+
 $$
 y'+\underbrace{p}_{\text{Koeffizient}} \cdot y=\underbrace{s(x)}_{\text{Störterm}}
 $$
@@ -45,6 +49,7 @@ $$
 ### Lösung der *inhomogenen* [DGL](../{MOC}%20DGL.md) 1. Ordnung
 
 Die allgemeine Lösung $y$ einer inhomogenen linearen [DGL](../{MOC}%20DGL.md) 1. Ordnung ([oder auch einer höheren Ordnung](../{MOC}%20DGL.md)) ist als Summe der allgemeinen Lösung $y_{h}$ der **dazugehörigen homogenen [DGL](../{MOC}%20DGL.md)** und einer *beliebigen* **partikulären Lösung $y_{p}$** der **inhomogenen [DGL](../{MOC}%20DGL.md) **darstellbar:
+
 $$
 \begin{align*}
 	y = y_{h} + y_{p}
@@ -52,4 +57,4 @@ $$
 $$
 
 Eine partikuläre Lösung $y_{p}$ der inhomogenen lineare [DGL](../{MOC}%20DGL.md) kann, wenn der Koeffizient $p$ konstant ist, durch einen Lösungsansatz entsprechend dem Störterm $s(x)$ gesucht werden.  
-Ist der Koeffizient nicht 
+Ist der Koeffizient … (siehe: Timischl Kaiser 4)

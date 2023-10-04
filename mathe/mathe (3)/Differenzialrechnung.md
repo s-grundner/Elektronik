@@ -14,36 +14,33 @@ created: 26th March 2022
 
 # Differenzialrechnung
 
-Die Steigung der Tangente nimmt man als Steigung der Funktion im betreffenden Punkt.
+Die Steigung der Tangente nimmt man als Steigung der Funktion im betreffenden Punkt.  
 Die Ableitung $f'(x)$ ist die Steigung der Tangente am Graphen der Funktion $f(x)$ im Punkt $(x_{0}|f(x_{0}))$.
 
-Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.
+> [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
+> Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](../{MOC}%20DGL.md))
 
 ![](assets/Pasted%20image%2020230923135814.png)
 
-Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta)-f(x_{0})}{\Delta x}\to$ Differenzenquotient oder mittlere Steigung im Intervall.
-$Q_{i}$ rückt immer näher zu $P$. Der Grenzwert der Sekanten-Steigung ist die Ableitung. 
+Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta)-f(x_{0})}{\Delta x}\to$ Differenzenquotient oder mittlere Steigung im Intervall.  
+$Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-Steigung ist die Ableitung. 
 
-> [!SUCCESS] Differenzieren einer Funktion
-> Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der Grenzwert $\lim_{ \Delta x \to \infty } \frac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}$ existiert.
-> Diesen Grenzwert nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
+> [!SUCCESS] Differenzieren einer Funktion  
+> Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der [Grenzwert](Grenzwert.md) $\lim_{ \Delta x \to \infty } \frac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}$ existiert.  
+> Diesen [Grenzwert](Grenzwert.md) nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
 > 
-> Er wird mit $f(x_{0})$, $y'(x_{0})$  oder $\frac{dy}{dx}\Big|_{x=x_{0}}$ (gesprochen: $dy$ nach $dx$ für $x=x_{0}$) bezeichnet.
+> Er wird mit $f(x_{0})$, $y'(x_{0})$ oder $\frac{dy}{dx}\Big|_{x=x_{0}}$ (gesprochen: $dy$ nach $dx$ für $x=x_{0}$) bezeichnet.
 > 
 > Das Bilden der Ableitung wird *ableiten* oder *differenzieren* genannt.
 
 > [!SUCCESS] Differenzieren heißt linear approximieren
-> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *Grenzwert des Differenzenquotienten*: $f'(x_{0})=\frac{\lim_{ \Delta x \to \infty }\Delta y}{\Delta x}$.
-> 2. Die Bezeichnung $\frac{dy}{dx}$ soll an die Verwandtschaft der Ableitung mit einem Differenzenquotient erinnern.
-> 	Differenzierbarkeit einer Funktion an der Stelle $x_{0}$ bedeutet geometrisch, dass es dort eine *Tangente* gibt.
-> 	Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.
+> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *[Grenzwert](Grenzwert.md) des Differenzenquotienten*: $f'(x_{0})=\frac{\lim_{ \Delta x \to \infty }\Delta y}{\Delta x}$.
+> 2. Die Bezeichnung $\frac{dy}{dx}$ soll an die Verwandtschaft der Ableitung mit einem Differenzenquotient erinnern.  
+> 	Differenzierbarkeit einer Funktion an der Stelle $x_{0}$ bedeutet geometrisch, dass es dort eine *Tangente* gibt.  
+> 	Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.  
 > 	In der Nähe von $x_{0}$ verlaufen der Funktionsgraph und die Tangente "praktisch" glech.
 
 ![](assets/Pasted%20image%2020230923151105.png)
-
-
-
-
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
@@ -68,7 +65,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der Grenzwert der Sekanten-Steigung ist die 
 
 ## Implizit Differenzieren
 
-## partielle Ableitung
+## Partielle Ableitung
 
 # Tags
 
