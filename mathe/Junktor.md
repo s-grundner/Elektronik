@@ -73,9 +73,9 @@ Die Implikation ist laut Wahrheitstabelle genau dann *falsch*, wenn $A$ *wahr* u
 
 ## Äquivalenz $\iff$
 
-$A \Leftrightarrow B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$ *wahr* ist.
+$A \iff B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$ *wahr* ist.
 
-> [!INFO] $A\Leftrightarrow B$:  
+> [!INFO] $A\iff B$:  
 > $A$ ist notwendig und hinreichend für $B$
 
 ## Klammern bei Logischen Operatoren
