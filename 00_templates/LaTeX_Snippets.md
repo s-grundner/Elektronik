@@ -17,7 +17,7 @@
 	{trigger: "<-", replacement: "\\leftarrow", options: "mA"},
 	{trigger: "v", replacement: "\\vee", options: "m"},
 	{trigger: "we", replacement: "\\wedge", options: "m"},
-	{trigger: "<>", replacement: "\\Leftrightarrow", options: "mA"},
+	{trigger: "<>", replacement: "\\iff", options: "mA"},
 	{trigger: "==", replacement: "\\equiv", options: "mA"},
 	
 	// Default

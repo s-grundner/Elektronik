@@ -44,7 +44,7 @@ ref:
 | $A\wedge B$          | lies: $A$ und $B$        | die *Konjunktion* von $A$ und $B$ |
 | $A\vee B$            | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
 | $A\implies B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
-| $A\Leftrightarrow B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
+| $A\iff B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
 
 > Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 
@@ -71,7 +71,7 @@ Die Implikation ist laut Wahrheitstabelle genau dann *falsch*, wenn $A$ *wahr* u
 > - $A$ ist hinreichend für $B$
 > - $B$ ist notwendig für $A$
 
-## Äquivalenz $\Leftrightarrow$
+## Äquivalenz $\iff$
 
 $A \Leftrightarrow B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$ *wahr* ist.
 
@@ -81,8 +81,8 @@ $A \Leftrightarrow B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr
 ## Klammern bei Logischen Operatoren
 
 > [!SUMMARY] Um bei der Verknüpfung mehrerer logischer Aussagen Klammern zu sparen, vereinbaren wir:
-> - $\neg$ bindet stärker als $\wedge, \vee,\implies$ und $\Leftrightarrow$
-> - $\wedge$ und $\vee$ binden stärker als $\implies$ und $\Leftrightarrow$
+> - $\neg$ bindet stärker als $\wedge, \vee,\implies$ und $\iff$
+> - $\wedge$ und $\vee$ binden stärker als $\implies$ und $\iff$
 >
 > > [!EXAMPLE] Wir schreiben demnach  
 > > 		- $\neg A\wedge B$ statt $(\neg A)\wedge B$  

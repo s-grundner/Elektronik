@@ -42,7 +42,7 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > (d) $A\implies B\equiv \neg B\implies \neg A\quad\}\text{ Kontrapositionsregel}$  
 > (e) $A\implies B\equiv A\wedge \neg B\implies K$  
 > (f) $(A\implies B)\wedge(B\implies C)\implies(A\implies C)\equiv T$  
-> (g) $A \Leftrightarrow B\equiv(A\implies B)\wedge(B\implies A)$  
+> (g) $A \iff B\equiv(A\implies B)\wedge(B\implies A)$  
 > (h) $(A\implies B)\wedge A\implies B\equiv T$
 > 
 > (i) $\left.\begin{align}A\wedge (B\vee C)\equiv (A\wedge B)\vee (A\wedge C)\\ A \vee (B\wedge C)\equiv (A\vee B)\wedge(A\vee C)\end{align}\quad\right\}\text{ Distributivgesetze}$
