@@ -28,7 +28,7 @@ Die **Energie** die in einer **Induktivität** gespeichert werden kann ergibt si
 
 $$
 \begin{align*}
-W &= \frac{L\cdot I^{2}}{2} 
+E &= \frac{L\cdot I^{2}}{2} 
 \end{align*}
 $$
 
