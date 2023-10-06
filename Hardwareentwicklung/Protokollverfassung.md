@@ -14,7 +14,7 @@ professor:
 
 # Protokollverfassung
 
-Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
+> [!QUESTION] Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
 ## Grundlagen sauberer Protokolle
 
@@ -53,13 +53,6 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 ## Aufgabenstellungen
 
 ### IIC: Successive Approx. Register ADC (Wäge-Verfahren)
-
-```mermaid
-graph LR;
-id1((1000)) --> id2((0100));
-id2((0100)) --> id3((0010));
-id2((0100)) -- 
-```
 
 ![|525](assets/Pasted%20image%2020231006155455.png)
 
