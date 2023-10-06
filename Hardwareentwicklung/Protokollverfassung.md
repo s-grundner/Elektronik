@@ -52,10 +52,10 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
 ## Aufgabenstellungen
 
-### NTHFS: Finde die Kuh
-
-### NTHFS: RSSI Fingerprinting
-
 ### IIC: Successive Approx. Register ADC (Wägeverfahren)
 
 ### IME: Stylophone
+
+### NTHFS: Finde die Kuh
+
+### NTHFS: RSSI Fingerprinting
