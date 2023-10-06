@@ -1,10 +1,11 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Protokoll
 keywords: []
 subject:
-- ETT Praktikum
-- "382.050"
+  - ETT Praktikum
+  - "382.050"
 semester: 1
 created: 6. Oktober 2023
 professor:
@@ -15,12 +16,35 @@ professor:
 
 Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
-Möglicher Aufbau 
-- Aufgabenstellung
-- Aufbau, Messschaltungen
-- Berechnungen, Messergebnisse
-- Interpretation
+> [!SUMMARY] Möglicher Aufbau 
+> - Aufgabenstellung
+> - Aufbau, Messschaltungen
+> - Berechnungen, Messergebnisse
+> - Interpretation
 
-Formeln
-- Verwendete Formeln sind anzugeben
-- Variablen
+> [!SUMMARY] Formeln
+> - Verwendete Formeln sind anzugeben
+> - Variablen kursiv, Konstanten/Funktionen aufrecht
+> - Bsp ...
+
+> [!SUMMARY] Diagramme
+> - Achsenbeschriftung mit Einheiten
+> 	- $U/V$
+> 	- $U$ in $V$
+> 	- $U(V)$
+> - Verbindung von Messpunkten mit Geraden
+
+> [!SUMMARY] Erkenntnisse
+> - Sauber dokumentieren und interpretieren
+> - Unerwartete Messergebnis kommentieren
+
+
+> [!SUMMARY] Genauigkeit der Messergebnisse 
+> - Messgrößen auf signifikante Stellen runden und bekannte Fehler angeben
+> - Keine größere Genauigkeit vortäuschen
+
+> [!SUMMARY] Äußere Form 
+> - JKU verwenden (Name, Matr. Nr, Fach, etc)
+> - Am Computer schreiben
+> - Abgabe in Moodle
+> - Plagiate führen zu einer negativen Beurteilung
