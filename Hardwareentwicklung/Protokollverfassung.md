@@ -27,7 +27,7 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 > [!SUMMARY] Formeln
 > - Verwendete Formeln sind anzugeben
 > - Variablen kursiv, Konstanten/Funktionen aufrecht
-> - Bsp ...
+> - Bsp …
 
 > [!SUMMARY] Diagramme
 > - Achsenbeschriftung mit Einheiten
@@ -40,13 +40,12 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 > - Sauber dokumentieren und interpretieren
 > - Unerwartete Messergebnis kommentieren
 
-
 > [!SUMMARY] Genauigkeit der Messergebnisse 
 > - Messgrößen auf signifikante Stellen runden und bekannte Fehler angeben
 > - Keine größere Genauigkeit vortäuschen
 
 > [!SUMMARY] Äußere Form 
-> - JKU verwenden (Name, Matr. Nr, Fach, etc)
+> - JKU Vorlage verwenden (Name, Matr. Nr, Fach, etc)
 > - Am Computer schreiben
 > - Abgabe in Moodle
 > - Plagiate führen zu einer negativen Beurteilung
