@@ -67,7 +67,12 @@ id2((0100)) --
 
 ### NTHFS: Finde die Kuh
 
+![InlineR|500](assets/Pasted%20image%2020231006163827.png)
+
 - Echtzeitlokalisierung
-	- 
+	- Erklärung des Prinzips
+	- Aufbau und Test eines einfachen Lokalisierungssystems
+	- Mögliche Anwendungsfelder:
+		- Kuhortung in Ställen
 
 ### NTHFS: RSSI Fingerprinting
