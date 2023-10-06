@@ -54,8 +54,6 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
 ### IIC: Successive Approx. Register ADC (Wäge-Verfahren)
 
-
-
 ### IME: Stylophone
 
 ### NTHFS: Finde die Kuh
