@@ -12,7 +12,7 @@ Ctrl+P //Öffnet die Befehlszeile
 Falls Änderungen vorgenommen worden sind, müssen diese vor jedem pull verworfen werden.  
 Dies erfolgt durch das Ausführen des Shell-Scripts `git_stash.sh`
 
-- [git_stash](git_stash.sh)
+- [git_stash](10_tools/git_stash.sh)
 
 `Git for Windows` wird auf Windows Geräten benötigt:
 
