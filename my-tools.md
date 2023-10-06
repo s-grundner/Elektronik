@@ -43,3 +43,11 @@ class mybutton
 ```
 
 ^button-shb
+
+```button
+name GitHub
+type link
+action https://github.com/s-grundner
+class mybutton
+```
+^button-github
