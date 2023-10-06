@@ -16,6 +16,8 @@ professor:
 
 Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
+## Grundlagen sauberer Protokolle
+
 > [!SUMMARY] Möglicher Aufbau 
 > - Aufgabenstellung
 > - Aufbau, Messschaltungen
@@ -48,3 +50,13 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 > - Am Computer schreiben
 > - Abgabe in Moodle
 > - Plagiate führen zu einer negativen Beurteilung
+
+## Aufgabenstellungen
+
+### NTHFS: Finde die Kuh
+
+### NTHFS: RSSI Fingerprinting
+
+### IIC: Successive Approx. Register ADC (Wägeverfahren)
+
+### IME: Stylophone
