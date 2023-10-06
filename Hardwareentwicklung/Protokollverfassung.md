@@ -52,7 +52,7 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
 ## Aufgabenstellungen
 
-### IIC: Successive Approx. Register ADC (Wägeverfahren)
+### IIC: Successive Approx. Register ADC (Wäge-Verfahren)
 
 ### IME: Stylophone
 
