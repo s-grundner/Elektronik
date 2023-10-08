@@ -54,3 +54,9 @@ Aussagen können von Parametern abhängen. Dies führt uns zu *Prädikaten-* ode
 Ist $A(\cdot_{1},\cdot_{2})$ ins zweistelliges Prädikat für das gilt $M_{1}=M_{2}:=M$, dann schreibt man:  
 
 $$\forall a,b\in M:A(a,b)\qquad\text{statt}\qquad \forall a \in M\forall b \in M:A(a,b)$$
+  
+bzw.
+
+$$\exists a,b \in M : A(a,b)\qquad\text{statt}\qquad\exists b\in M\exists a\in M:A(a,b)$$
+
+> [!ABSTRACT] Satz 1.10. sei $A(\cdot_{1},\cdot_{2})$ ein zweistelliges prädikat
