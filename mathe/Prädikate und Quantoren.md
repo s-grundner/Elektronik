@@ -37,7 +37,7 @@ Aussagen können von Parametern abhängen. Dies führt uns zu *Prädikaten-* ode
 > Mithilfe des *Allquantors* $\forall$ und des *Existenzquantors* $\exists$, bildet man dies beiden Aussagen:  
 >
 > $$\forall a\in M : A(a) \qquad\text{und}\qquad\exists a\in M : A(a)$$
-
+>
 > deren Wahrheitswerte definieren sich durch:  
 > $|\forall a\in M:A(a)|=W:\iff$ für alle $a\in M$ ist $A(a)$ wahr,  
 > $|\exists a \in M:A(a) |=W\iff$ es existier ein $a \in M$, sodass $A(a)$ wahr ist
