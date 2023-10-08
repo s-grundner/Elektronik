@@ -59,4 +59,6 @@ bzw.
 
 $$\exists a,b \in M : A(a,b)\qquad\text{statt}\qquad\exists b\in M\exists a\in M:A(a,b)$$
 
-> [!ABSTRACT] Satz 1.10. sei $A(\cdot_{1},\cdot_{2})$ ein zweistelliges prädikat
+> [!ABSTRACT] Satz 1.10. sei $A(\cdot_{1},\cdot_{2})$ ein zweistelliges Prädikat mit Einsetzungsklassen $M_{1}$ und $M_{2}$. Dann gilt:
+> (a) $\forall a\in M_{1} \forall b\in M_{2} :A(a,b)\equiv \forall b\in M_{2}\forall a\in M_{1}:A(a,b)$
+> 
