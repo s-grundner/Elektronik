@@ -68,4 +68,3 @@ $$\exists a,b \in M : A(a,b)\qquad\text{statt}\qquad\exists b\in M\exists a\in M
 > (c) $\neg(\forall a\in M_{1}\forall b\in M_{2}:A(a,b))\equiv\exists \in M_{1}\exists b \in M_{2} :(\neg A(a,b))$  
 > 
 > (d) $\neg(\forall a\in M_{1}\exists b\in M_{2}:A(a,b))\equiv \exists a\in M_{1} \forall b \in M_{2}:(\neg A(a,b))$
-
