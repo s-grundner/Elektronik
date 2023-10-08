@@ -23,6 +23,7 @@ created: 8. Oktober 2023
 professor: 
 ref:
   - Def 1.7.
+  - Def 1.9.
 ---
  
 
@@ -36,7 +37,16 @@ Aussagen können von Parametern abhängen. Dies führt uns zu *Prädikaten-* ode
 > Mithilfe des *Allquantors* $\forall$ und des *Existenzquantors* $\exists$, bildet man dies beiden Aussagen:  
 >
 > $$\forall a\in M : A(a) \qquad\text{und}\qquad\exists a\in M : A(a)$$
-> deren Wahrheistwerte definieren sich durch:
-> $|\forall a\in M:A(a)$
->  
+  
+> deren Wahrheitswerte definieren sich durch:  
+> $|\forall a\in M:A(a)|=W:\iff$ für alle $a\in M$ ist $A(a)$ wahr,  
+> $|\exists a \in M:A(a) |=W\iff$ es existier ein $a \in M$, sodass $A(a)$ wahr ist
 > 
+> Ist $M$ eine leere Menge $\emptyset$, so definiert man  
+> $\forall a \in \emptyset:A(a)$ ist eine Tautologie  
+> $\exists a\in \emptyset:A(a)$ ist eine Kontradiktion 
+
+> [!ABSTRACT] Definition 1.9. Ein *zweistelliges Prädikat* $A(\cdot_{1}, \cdot_{2})$ ist ein sprachlicher Ausdruck mit **zwei** Leerstellen **zwei** Klassen $M_{1}$ und $M_{2}$ von Objekten, sodass gilt:  
+> Durch Einsetzen eines Objektes $a$ aus der Klasse $M_{1}$ in die erste Leerstelle von $A(\cdot_{1},\cdot_{2})$ entsteht ein *einstelliges Prädikat* $A(a, \cdot_{2})$, dessen Leerstelle die zweite Stelle von $A(\cdot_{1},\cdot_{2})$ ist und dessen Einsetzungsklasse $M_{2}$ ist.
+> 
+> Durch Einsetzen eines Objekts $b$ aus der Klasse $M_{2}$ in dei zweite l
