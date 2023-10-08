@@ -24,8 +24,8 @@ professor:
 ref:
   - Def 1.7.
   - Def 1.9.
+  - Satz 1.10.
 ---
- 
 
 # Prädikate und Quantoren
 
@@ -37,7 +37,7 @@ Aussagen können von Parametern abhängen. Dies führt uns zu *Prädikaten-* ode
 > Mithilfe des *Allquantors* $\forall$ und des *Existenzquantors* $\exists$, bildet man dies beiden Aussagen:  
 >
 > $$\forall a\in M : A(a) \qquad\text{und}\qquad\exists a\in M : A(a)$$
-  
+
 > deren Wahrheitswerte definieren sich durch:  
 > $|\forall a\in M:A(a)|=W:\iff$ für alle $a\in M$ ist $A(a)$ wahr,  
 > $|\exists a \in M:A(a) |=W\iff$ es existier ein $a \in M$, sodass $A(a)$ wahr ist
@@ -49,4 +49,8 @@ Aussagen können von Parametern abhängen. Dies führt uns zu *Prädikaten-* ode
 > [!ABSTRACT] Definition 1.9. Ein *zweistelliges Prädikat* $A(\cdot_{1}, \cdot_{2})$ ist ein sprachlicher Ausdruck mit **zwei** Leerstellen **zwei** Klassen $M_{1}$ und $M_{2}$ von Objekten, sodass gilt:  
 > Durch Einsetzen eines Objektes $a$ aus der Klasse $M_{1}$ in die erste Leerstelle von $A(\cdot_{1},\cdot_{2})$ entsteht ein *einstelliges Prädikat* $A(a, \cdot_{2})$, dessen Leerstelle die zweite Stelle von $A(\cdot_{1},\cdot_{2})$ ist und dessen Einsetzungsklasse $M_{2}$ ist.
 > 
-> Durch Einsetzen eines Objekts $b$ aus der Klasse $M_{2}$ in dei zweite l
+> Durch Einsetzen eines Objekts $b$ aus der Klasse $M_{2}$ in die zweite Leerstelle von $A(\cdot_{1}, \cdot_{2})$ entsteht ein *einstelliges Prädikat* $A(\cdot_{1},b)$, dessen Leerstelle die erste Stelle von $A(\cdot_{1},\cdot_{2})$ ist und dessen Einsetzungsklasse $M_{1}$ ist.
+
+Ist $A(\cdot_{1},\cdot_{2})$ ins zweistelliges Prädikat für das gilt $M_{1}=M_{2}:=M$, dann schreibt man:  
+
+$$\forall a,b\in M:A(a,b)\qquad\text{statt}\qquad \forall a \in M\forall b \in M:A(a,b)$$
