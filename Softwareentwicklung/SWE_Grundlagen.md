@@ -18,7 +18,11 @@ created: 5. September 2023
 
 ## Syntax
 
+Regeln
+
 ## Semantik
+
+Bedeutung des Syntax
 
 ## Grammatik
 
