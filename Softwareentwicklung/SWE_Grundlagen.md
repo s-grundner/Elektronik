@@ -26,16 +26,7 @@ Menge von Syntaxregeln:
 
 >[!EXAMPLE] Ziffer = "0", "1", "3"
 
-### EBNF (Erweiterte Backus Naur Form)
-
-
-| Metazeichen | Bedeutung             | Beispiel  | beschreibt |
-| ----------- | --------------------- | --------- | ---------- |
-| $=$         | trennt Regelseiten    | $A=xyz.$  |            |
-| $.$         | schließen Regeln ab   |           |            |
-| $\mid$      | trennt Alternativen   | $x\mid y$ |            |
-| $()$        | klammert Alternativen |           |            |
-| $[]$        | wahlweises Vorkommen  |           |            |
+[EBNF](EBNF.md)
 
 
 # Tags
