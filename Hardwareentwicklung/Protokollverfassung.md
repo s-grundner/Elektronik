@@ -40,7 +40,6 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 > - Sauber dokumentieren und interpretieren
 > - Unerwartete Messergebnis kommentieren
 
-
 > [!SUMMARY] Genauigkeit der Messergebnisse 
 > - Messgrößen auf signifikante Stellen runden und bekannte Fehler angeben
 > - Keine größere Genauigkeit vortäuschen
@@ -60,3 +59,8 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 ### IIC: Successive Approx. Register ADC (Wägeverfahren)
 
 ### IME: Stylophone
+
+### ISP: Audio Realtime DSP
+
+DTFM : Discrete Tone multiple Frequency
+
