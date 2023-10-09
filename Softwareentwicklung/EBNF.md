@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Compiler
 aliases: 
 keywords: []
 subject:
@@ -12,11 +13,11 @@ professor:
 
 # EBNF (Erweiterte Backus Naur Form)
 
-| Metazeichen | Bedeutung             | Beispiel     | beschreibt |
-| ----------- | --------------------- | ------------ | ---------- |
-| $=$         | trennt Regelseiten    | $A=xyz.$     |            |
-| $.$         | schließen Regeln ab   |              |            |
-| $\mid$      | trennt Alternativen   | $x\mid y$    | $x,y$      |
-| $()$        | klammert Alternativen | $(x\mid y)z$ | $xz,xy$    |
-| $[]$        | wahlweises Vorkommen  | $[x]y$       | $y,xy$     |
-| $\{\}$      | $0\dots n$-maliges                      |              |            |
+| Metazeichen | Bedeutung                    | Beispiel     | beschreibt |
+| ----------- | ---------------------------- | ------------ | ---------- |
+| $=$         | trennt Regelseiten           | $A=xyz.$     |            |
+| $.$         | schließen Regeln ab          |              |            |
+| $\mid$      | trennt Alternativen          | $x\mid y$    | $x,y$      |
+| $()$        | klammert Alternativen        | $(x\mid y)z$ | $xz,xy$    |
+| $[]$        | wahlweises Vorkommen         | $[x]y$       | $y,xy$     |
+| $\{\}$      | $0\dots n$-maliges Vorkommen | $\{x\}y$     | $y,x y,x x y, x x x x \dots$           |
