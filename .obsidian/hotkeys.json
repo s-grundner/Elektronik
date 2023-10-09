@@ -154,5 +154,13 @@
       ],
       "key": "Y"
     }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
   ]
 }

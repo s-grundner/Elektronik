@@ -14,7 +14,7 @@ professor:
 
 # Protokollverfassung
 
-Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
+> [!QUESTION] Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
 ## Grundlagen sauberer Protokolle
 
@@ -27,7 +27,7 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 > [!SUMMARY] Formeln
 > - Verwendete Formeln sind anzugeben
 > - Variablen kursiv, Konstanten/Funktionen aufrecht
-> - Bsp ...
+> - Bsp …
 
 > [!SUMMARY] Diagramme
 > - Achsenbeschriftung mit Einheiten
@@ -45,18 +45,28 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 > - Keine größere Genauigkeit vortäuschen
 
 > [!SUMMARY] Äußere Form 
-> - JKU verwenden (Name, Matr. Nr, Fach, etc)
+> - JKU Vorlage verwenden (Name, Matr. Nr, Fach, etc)
 > - Am Computer schreiben
 > - Abgabe in Moodle
 > - Plagiate führen zu einer negativen Beurteilung
 
 ## Aufgabenstellungen
 
+### IIC: Successive Approx. Register ADC (Wäge-Verfahren)
+
+![|525](assets/Pasted%20image%2020231006155455.png)
+
+### IME: Stylophone
+
 ### NTHFS: Finde die Kuh
 
-### NTHFS: RSSI Fingerprinting
+![InlineR|500](assets/Pasted%20image%2020231006163827.png)
 
-### IIC: Successive Approx. Register ADC (Wägeverfahren)
+- Echtzeitlokalisierung
+	- Erklärung des Prinzips
+	- Aufbau und Test eines einfachen Lokalisierungssystems
+	- Mögliche Anwendungsfelder:
+		- Kuhortung in Ställen
 
 ### IME: Stylophone
 
@@ -64,3 +74,4 @@ Jemand der sich fachlich auskennt, sollte die Übung nachvollziehen können.
 
 DTFM : Discrete Tone multiple Frequency
 
+### NTHFS: RSSI Fingerprinting

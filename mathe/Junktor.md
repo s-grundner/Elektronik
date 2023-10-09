@@ -88,4 +88,8 @@ $A \iff B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$
 > > 		- $\neg A\wedge B$ statt $(\neg A)\wedge B$  
 > > 		- $A\wedge B\implies C$ statt $(A\wedge B)\implies C$
 
+---
+
+https://www.youtube.com/watch?v=FG-Uaulcw_g
+
 [^1]: Definition 1.3 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]
