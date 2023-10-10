@@ -18,4 +18,10 @@ TABLE keywords
 WHERE contains(subject, "Technische Informatik") AND file.name != "00_jku_header"
 ```
 
-BJT: Stromfluss ohne 
+## BJT:
+
+Stromfluss ohne Feld sondern [Diffusionsstrom](https://de.wikipedia.org/wiki/Diffusionsstrom)
+
+## FET:
+
+primär Driftströme
