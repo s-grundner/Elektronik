@@ -17,3 +17,4 @@ professor: Timm Ostermann
 TABLE keywords
 WHERE contains(subject, "Technische Informatik") AND file.name != "00_jku_header"
 ```
+

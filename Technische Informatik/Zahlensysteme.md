@@ -63,6 +63,19 @@ professor:
 
 # Rechnen in Zahlensystemen
 
+## Addieren
+
+> [!INFO] Additionsmatrix
+> ![](assets/Pasted%20image%2020231010122745.png)
+
+## Multiplizieren 
+
+> [!INFO] Multiplikationsmatrix
+> ![](assets/Pasted%20image%2020231010122811.png)
+
+> [!QUESTION] Add and Shift
+> ![](assets/Pasted%20image%2020231010122432.png)
+
 # Darstellung negativer Zahlen
 
 > [!INFO] Vorzeichen-Wert System Darstellung  
