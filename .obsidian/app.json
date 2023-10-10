@@ -30,5 +30,6 @@
     "xEDU/",
     "xPN/"
   ],
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "defaultViewMode": "preview"
 }
