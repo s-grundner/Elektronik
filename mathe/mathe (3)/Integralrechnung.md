@@ -6,12 +6,12 @@ source: ["Rudolf Frauenschuh"]
 created: 26th March 2022
 ---
 
-
 # Integralrechnung
 
-
-
 ## Unbestimmtes Integral
+
+> [!INFO] Ermittlung der Stammfunktion
+> $F(x) = \int f(x) \, dx$
 
 ### Kettenregel
 
@@ -22,6 +22,8 @@ created: 26th March 2022
 ### Partielle Integration
 
 ## Bestimmtes Integral
+
+$\int_{a}^b  \, dx$ 
 
 ### Substitution bei bestimmten Integralen
 
