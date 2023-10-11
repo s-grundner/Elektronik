@@ -1,6 +1,6 @@
 ---
 tags:
-  - physik
+  - Physik
   - Konstante
 aliases:
   - Fallbeschleunigung

@@ -1,7 +1,7 @@
 ---
 tags:
   - Konstante
-  - physik
+  - Physik
 aliases:
   - Wellenwiderstand des Vakkum
 symbol: $Z_{F}$

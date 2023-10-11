@@ -1,7 +1,7 @@
 ---
 tags:
   - Konstante
-  - physik
+  - Physik
 aliases:
   - Induktionskonstante
   - Permeabilitätskonstante

@@ -1,6 +1,6 @@
 ---
 tags:
-  - physik
+  - Physik
 aliases:
   - Luft
 material:

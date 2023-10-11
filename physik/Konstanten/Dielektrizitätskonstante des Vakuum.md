@@ -1,7 +1,7 @@
 ---
 tags:
   - Konstante
-  - physik
+  - Physik
 aliases:
   - Dielektrizitätskonstante
 symbol: $\varepsilon_{0}$

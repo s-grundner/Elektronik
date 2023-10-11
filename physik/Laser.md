@@ -1,5 +1,5 @@
 ---
-tags: ["physik"]
+tags: ["Physik"]
 aliases: []
 created: 21st November 2022
 ---

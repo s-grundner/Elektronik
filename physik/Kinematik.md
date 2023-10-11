@@ -1,13 +1,20 @@
 ---
-tags: 
-aliases: 
-keywords: []
+tags:
+  - Physik
+aliases:
+  - Geschwindigkeit
+  - Beschleunigung
+keywords:
+  - x-t Diagramm
+  - v-t Diagramm
+  - a-t Diagramm
 subject:
   - Physik für TechnikerInnen
   - "322.005"
 semester: 1
 created: 11. Oktober 2023
-professor: Gunther Springholz
+professor:
+  - Gunther Springholz
 ---
  
 
@@ -39,10 +46,10 @@ Einheit: $[v] = \frac{m}{s}$
 $$
 \begin{align}
 &s(t) \\
-\frac{d}{dt}\downarrow &\qquad \uparrow \int  \, dt  \\
+\frac{d}{dt}\downarrow &\quad \uparrow \int  \, dt  \\
 v(t) &= \dot{s}(t) \\
-\frac{d}{dt}\downarrow &\qquad\uparrow \int  \, dt  \\
-a(t) &= \ddot{s}(t)
+\frac{d}{dt}\downarrow &\quad\uparrow \int  \, dt  \\
+a(t) &= \dot{s}(t)
 \end{align}
 $$
 
