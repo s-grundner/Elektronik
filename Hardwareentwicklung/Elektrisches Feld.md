@@ -26,10 +26,7 @@ $$
 |\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}
 $$
 
-Die Einheit der elektrischen Feldstärke ist 1V/m.
-
-- Ein Elektrisches Feld wird durch eine stehende Ladung erzeugt
-- ![e-field](assets/e-field.png)
+Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 # Tags
 
