@@ -23,6 +23,8 @@ professor:
 > [!INFO] Die *Kinematik* beschäftigt sich mit der Beschreibung der Bewegung von Körpern
 > Sie beschreibt *wie* sich Körper bewegen, ohne zu fragen *warum*
 
+## Bewegung in einer Dimension
+
 > [!INFO] Definition der Geschwindigkeit
 > Wie stark ändert sich der Weg über die Zeit.
 > Durchschnitts Geschwindigkeit: $\langle v \rangle=\frac{x_{2}-x_{1}}{t_{2}-t_{1}} = \frac{\Delta x}{\Delta t}$
@@ -42,7 +44,6 @@ Einheit: $[v] = \frac{m}{s}$
 >$v(t)=\frac{dx}{dt}=0+2At-3Ct^{2}+\omega\cos(\omega t)$
 > $a(t)=\frac{dv}{dt}=\frac{d^{2}x}{dt^{2}}=0+2A-6Ct-\omega^{2} \sin(\omega t)$
 
-
 $$
 \begin{align}
 &s(t) \\
@@ -52,5 +53,16 @@ v(t) &= \dot{s}(t) \\
 a(t) &= \dot{s}(t)
 \end{align}
 $$
+![InlineR|300](assets/Pasted%20image%2020231011131442.png)
 
 > [!WARNING] Bei Integrieren sind die Anfangswerte zu beachten ($+C$... Integrationskonstante)
+
+## Bewegung in 2/3-Dimensionen
+
+> [!TLDR] Vektorschreibweise
+> Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als Vektoren auffassen. Vektoren sind Größen, die sowohl einen Betrag als auch eine Richtung im Raum haben (Größen, die nur einen Betrag haben, heißen Skalare).
+
+
+
+![](assets/Pasted%20image%2020231011131936.png)
+$r_{i}$ sind Ortsvektoren
