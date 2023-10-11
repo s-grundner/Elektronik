@@ -34,3 +34,16 @@ Einheit: $[v] = \frac{m}{s}$
 >[!EXAMPLE] $x(t) = t_{0}+A t^{2}-C t^{3}+\sin(\omega t)$
 >$v(t)=\frac{dx}{dt}=0+2At-3Ct^{2}+\omega\cos(\omega t)$
 > $a(t)=\frac{dv}{dt}=\frac{d^{2}x}{dt^{2}}=0+2A-6Ct-\omega^{2} \sin(\omega t)$
+
+
+$$
+\begin{align}
+&s(t) \\
+\frac{d}{dt}\downarrow &\qquad \uparrow \int  \, dt  \\
+v(t) &= \dot{s}(t) \\
+\frac{d}{dt}\downarrow &\qquad\uparrow \int  \, dt  \\
+a(t) &= \ddot{s}(t)
+\end{align}
+$$
+
+> [!WARNING] Bei Integrieren sind die Anfangswerte zu beachten ($+C$... Integrationskonstante)
