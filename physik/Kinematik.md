@@ -62,7 +62,17 @@ $$
 > [!TLDR] Vektorschreibweise
 > Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als Vektoren auffassen. Vektoren sind Größen, die sowohl einen Betrag als auch eine Richtung im Raum haben (Größen, die nur einen Betrag haben, heißen Skalare).
 
-
+$$
+\vec{r} = x\cdot \vec{e_{x}} + y\cdot \vec{e_{y}}+ z\cdot \vec{e_{z}}
+$$
+bzw in Koordiantenschreibweise
+$$
+\vec{r}=\begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix}
+$$
 
 ![](assets/Pasted%20image%2020231011131936.png)
 $r_{i}$ sind Ortsvektoren
