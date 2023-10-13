@@ -162,5 +162,11 @@
       ],
       "key": "Q"
     }
+  ],
+  "vim-toggle:toggle-vim": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
   ]
 }

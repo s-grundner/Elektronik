@@ -39,5 +39,6 @@
   "calendar",
   "obsidian-hover-editor",
   "mermaid-tools",
-  "obsidian-plotly"
+  "obsidian-plotly",
+  "vim-toggle"
 ]
