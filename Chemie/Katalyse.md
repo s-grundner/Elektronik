@@ -60,7 +60,7 @@ Er wird zuvor **vorübergehend verändert** aber **nicht verbraucht**
 > $10g$ Ethin liefern $500kJ$.  
 > Erstellen sie die Reaktionsgleichung und geben sie die Enthalpiedifferenz ($\Delta H$) der Reaktion an.  
 > ![150](assets/C.png) ![150](assets/H.png)
-> 
+>
 > > [!success] Lösung  
 > > **RGL:**  
 > > $2C_{2}H_{2}+5O_{2}\longrightarrow 4CO_{2} + 2H_{2}O$  
