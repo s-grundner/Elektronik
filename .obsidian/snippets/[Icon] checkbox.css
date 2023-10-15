@@ -1,7 +1,3 @@
-.markdown-preview-view ul>li.task-list-item.is-checked {
-  display: none;
-}
-
 input[data-task="\""]:checked,
 input[data-task="“"]:checked,
 li[data-task="\""]>input:checked,
