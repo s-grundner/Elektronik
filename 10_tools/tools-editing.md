@@ -1,13 +1,3 @@
-
-```button
-name GitHub
-type link
-action https://github.com/s-grundner
-class mybutton
-```
-
-^button-github
-
 ```button
 name LaTeX Sheet A
 type link
