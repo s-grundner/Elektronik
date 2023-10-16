@@ -40,6 +40,8 @@ Einheit: $[v] = \frac{m}{s}$
 > $a(t)=\frac{dv}{dt} = \frac{d}{dt}\left( \frac{dx}{dt} \right)=\frac{d^{2}x}{dt^{2}}=\ddot{x}(t)$  
 > Einheit: $\frac{m}{s^{2}}$
 
+![InlineR|300](assets/Pasted%20image%2020231011131442.png)
+
 >[!EXAMPLE] $x(t) = t_{0}+A t^{2}-C t^{3}+\sin(\omega t)$  
 >$v(t)=\frac{dx}{dt}=0+2At-3Ct^{2}+\omega\cos(\omega t)$  
 > $a(t)=\frac{dv}{dt}=\frac{d^{2}x}{dt^{2}}=0+2A-6Ct-\omega^{2} \sin(\omega t)$
@@ -50,11 +52,9 @@ $$
 \frac{d}{dt}\downarrow &\quad \uparrow \int  \, dt  \\
 v(t) &= \dot{s}(t) \\
 \frac{d}{dt}\downarrow &\quad\uparrow \int  \, dt  \\
-a(t) &= \dot{s}(t)
+a(t) &= \ddot{s}(t)
 \end{align}
 $$
-
-![InlineR|300](assets/Pasted%20image%2020231011131442.png)
 
 > [!WARNING] Bei Integrieren sind die Anfangswerte zu beachten ($+C$… Integrationskonstante)
 
