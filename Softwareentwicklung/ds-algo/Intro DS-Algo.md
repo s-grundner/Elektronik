@@ -8,7 +8,7 @@ created: 18th April 2022
 
 # Intro DS-Algo
 
-## [{MOC} Algorithms]({MOC}%20Algorithms.md)
+## [{MOC} Algorithms](../{MOC}%20Algorithms.md)
 
 ## [{MOC} Data-Structures]({MOC}%20Data-Structures.md)
 
