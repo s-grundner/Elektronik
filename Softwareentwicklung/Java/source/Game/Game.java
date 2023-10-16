@@ -5,7 +5,6 @@ public class Game {
 		String name = In.readString();
 
 		Out.print("How old is your hero? ");
-
 		int age = In.readInt();
 
 		Out.print("How much can he/she carry? ");
