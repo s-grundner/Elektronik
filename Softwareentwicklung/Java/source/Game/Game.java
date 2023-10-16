@@ -6,9 +6,7 @@ public class Game {
 
 		Out.println("How old is your hero? ");
 
-		// int age = In.readInt();
-		int age = 0;
-
+		int age = In.readInt();
 
 		Out.println("How much can he/she carry? ");
 		double weight = In.readDouble();
