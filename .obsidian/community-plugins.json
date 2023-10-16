@@ -35,10 +35,10 @@
   "obsidian-table-to-csv-exporter",
   "table-extended",
   "obsidian-style-settings",
-  "obsidian-full-calendar",
   "calendar",
   "obsidian-hover-editor",
   "mermaid-tools",
   "obsidian-plotly",
-  "obsidian-shellcommands"
+  "obsidian-shellcommands",
+  "obsidian-full-calendar"
 ]
