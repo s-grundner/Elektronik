@@ -5,5 +5,3 @@ matr_nr: k12136610
 vorname: simon  
 nachname: grundner
 ---
-
-<%await tp.file.include(tp.file.find_tfile("./SWE_INIT_UE"))%>
