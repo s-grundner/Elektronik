@@ -11,3 +11,8 @@ professor:
  
 
 # {MOC} Algorithms
+
+> [!INFO] Sprachunabhängiger Ablauf an
+> 
+
+
