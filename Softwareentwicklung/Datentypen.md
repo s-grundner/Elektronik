@@ -10,16 +10,26 @@ professor:
 ---
  
 
-# Varaiblen
+# Ganzzahlige Datentypen
 
-
-
-# EBNF Grammatik
+## EBNF Grammatik
 
 ```EBNF
-
+VarDecl = Type Var {"," Var} ";".
+Var = ident [ "=" Expr ].
+Type = "byte" | "short" | "int" | "long" | ... .
 ```
 
+# Gleitkomma Datentypen
+
+## EBNF Grammatik
+
+```EBNF
+FloatConstant = [Digits] "." [Digits] [Exponent] [FloatSuffix].
+Digits = digit {digit}.
+Exponent = ("e" | "E") ["+" | "-"] Digits.
+FloatSuffix = "f" | "F" | "d" | "D".
+```
 
 # Tags
 
