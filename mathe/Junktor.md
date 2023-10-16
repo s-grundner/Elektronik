@@ -60,7 +60,7 @@ ref:
 ## Disjunktion $\vee$
 
 Wie die Tabelle aus der obigen Definition zeigt, ist $A \vee B$ genau dann *wahr*, wenn wenigstens eine der beiden Aussagen $A,B$ *wahr* ist.  
-Die *Disjunktion* $\vee$ entspricht also dem nichtausschließenden (exclusive) *Oder*.
+Die *Disjunktion* $\vee$ entspricht also dem nicht-ausschließenden (exclusive) *Oder*.
 
 ## Implikation $\implies$
 

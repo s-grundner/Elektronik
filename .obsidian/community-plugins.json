@@ -40,7 +40,5 @@
   "obsidian-hover-editor",
   "mermaid-tools",
   "obsidian-plotly",
-  "vim-toggle",
-  "drawio-obsidian",
-  "obsidian-advanced-slides"
+  "obsidian-shellcommands"
 ]
