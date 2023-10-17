@@ -96,6 +96,11 @@ professor:
 
 $\overline{N_{r-1}}=r^{n}-1-N_{r}$
 
+> [!INFO] Jede $1$ zu $0$, jede $0$ zur $1$
+
 ## 2er/r Komplement (2K)
 
 $\overline{N_{r}}=r^{n}-N_{r}$
+
+> [!INFO] Jede $1$ zu $0$, jede $0$ zur $1$ UND $+1$
+
