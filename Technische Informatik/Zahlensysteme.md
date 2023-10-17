@@ -104,3 +104,15 @@ $\overline{N_{r}}=r^{n}-N_{r}$
 
 > [!INFO] Jede $1$ zu $0$, jede $0$ zur $1$ UND $+1$
 
+>[!EXAMPLE] $9.5_{10}-4_{10}$
+>
+> $$
+> \begin{align}
+> 9.5_{10} &\hat{=} 1001.1_{2} \\
+> 4_{10} &\hat{=}0100_{2} \\
+> &\downarrow \\
+> r-1:-4_{10}&\hat{=}1011_{1K} \\
+> &\downarrow \\
+> r: -4_{10}&\hat{=}1100_{2K} \\
+> \end{align}
+> $$
