@@ -58,7 +58,7 @@ Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 - Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ Ionen als Ladungsträger
 
 >![775](../Hardwareentwicklung/assets/Baendermodell.png)
-  
+
 ---
 
 # Tags

@@ -53,6 +53,7 @@ Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 
 Durch gemeinsame Elektronenpaare erreichen all Atome Edelgaskonfiguration (8 [Valenzelektronen](Valenzelektronen.md)).  
 Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektronenpaare bestimmt:
+
 > Tetraeder ($CH_{4}$)  
 > Verzerrter Tetraeder ($NH_{3}$)  
 > gewinkeltes Molekül ($H_{2}O$)
@@ -70,6 +71,7 @@ Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektron
 | $Cl_2$ <br> $\Delta EN=0$ | >![VSF-Cl2](assets/VSF-Cl2.png) | >![unp](assets/unp.png) | 
 
 1. Bei Atomen unterschiedlicher $\Delta EN$, die sich zu einem **symmetrischen Molekül** verbinden $\rightarrow$ **unpolare Verbindung**
+
 >![unpch4.png](assets/unpch4.png)
 
 Unpolare Stoffe zeigen nach außen keine Ladung und sind deshalb im Wasser schwer löslich $\rightarrow$ **Hydrophob** (z.B.: Benzin).
@@ -91,6 +93,7 @@ Dipole heben sich auf $\rightarrow$ unpolar.
 
 Dipolpfeil zeigt zur negativen Ladung  
 Wichtigstes Dipolmolekül: $H_{2}O$
+
 >![dpl-h2o](assets/dpl-h2o.png)
 
 #### Dipolmoment
