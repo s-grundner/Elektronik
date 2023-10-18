@@ -2,7 +2,7 @@
   "showLineNumber": true,
   "showFrontmatter": true,
   "showUnsupportedFiles": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": true,
@@ -17,7 +17,7 @@
   "spellcheck": true,
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
-  "vimMode": true,
+  "vimMode": false,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showInlineTitle": false,
