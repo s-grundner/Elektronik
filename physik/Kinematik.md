@@ -48,7 +48,7 @@ Einheit: $[v] = \frac{m}{s}$
 
 $$
 \begin{align}
-&s(t) \\
+&s(t)\\
 \frac{d}{dt}\downarrow &\quad \uparrow \int  \, dt  \\
 v(t) &= \dot{s}(t) \\
 \frac{d}{dt}\downarrow &\quad\uparrow \int  \, dt  \\
