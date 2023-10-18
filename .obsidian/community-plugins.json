@@ -40,5 +40,6 @@
   "mermaid-tools",
   "obsidian-plotly",
   "obsidian-shellcommands",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "vim-toggle"
 ]
