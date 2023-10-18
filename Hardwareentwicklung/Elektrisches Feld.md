@@ -1,16 +1,17 @@
 ---
-tags:
-  - MS-2JG
+tags: 
 aliases:
   - E-Feld
   - E-Feldstärke
   - Elektrische Feldstärke
+keywords: 
 subject:
-  - hwe
-source:
-  - Michael Offenhuber
-created: 28th November 2022
+  - EET
+semester: 1
+created: 4. September 2023
+professor:
 ---
+ 
 
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 
