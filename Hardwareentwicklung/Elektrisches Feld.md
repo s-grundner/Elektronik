@@ -14,6 +14,8 @@ created: 28th November 2022
 
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 
+## statisches E-Feld
+
 Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $E$ zugeordnet werden. Die Kraft auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
 
 $$
