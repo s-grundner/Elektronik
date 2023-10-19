@@ -20,3 +20,7 @@ temperature-coeff:
 ---
 
 # Platin
+
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

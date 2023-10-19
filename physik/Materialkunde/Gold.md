@@ -20,3 +20,6 @@ temperature-coeff:
 
 # Gold
 
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

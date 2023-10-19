@@ -20,3 +20,6 @@ temperature-coeff:
 
 # Blei
 
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

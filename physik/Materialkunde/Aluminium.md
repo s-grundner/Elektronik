@@ -20,3 +20,6 @@ temperature-coeff:
 
 # Aluminium
 
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

@@ -20,3 +20,6 @@ temperature-coeff:
 
 # Nickel
 
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

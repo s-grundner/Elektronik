@@ -20,3 +20,6 @@ temperature-coeff:
 
 # Kupfer
 
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

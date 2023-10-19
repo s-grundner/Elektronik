@@ -14,7 +14,7 @@ created: 23rd August 2022
 
 # Metallbindung
 
-![metall_bdg_anim](assets/metall_bdg_anim.gif)
+![inlineR|340](assets/metall_bdg_anim.gif)
 
 Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas halten das Metallgitter zusammen.
 
@@ -41,4 +41,6 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 > [!WARNING]  
 > Das Metall ist an sich elektrisch neutral, wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.
 
-Die Leitungselektronen führen eine thermische Wimmelbewegung aus; der Betrag dieser Geschwindigkeit kann in der Größenordnung von 106 m/s sein (und liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen Strom verursacht werden, siehe später)!
+> [!HINT] Die Leitungselektronen führen eine thermische Wimmelbewegung aus.
+> Der Betrag dieser Geschwindigkeit kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
+> > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen Strom verursacht werden

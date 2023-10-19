@@ -20,3 +20,7 @@ temperature-coeff:
 
 # Silber
 
+---
+
+- [Metall](../../Chemie/Metallbindung.md)
+

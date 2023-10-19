@@ -19,3 +19,7 @@ temperature-coeff:
 ---
 
 # Zink
+
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

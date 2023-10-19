@@ -28,7 +28,12 @@ $$
 | $R$ | *Resistanz* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
 | $X$ | *Reaktanz*  <br> Blindwiderstand | $\uparrow^{-1}$ | $B$ | *Suszeptanz* <br> Blindleitwert |
 
-## Impedanzanpassung
+## Impedanz Anpassung
+
+> [!INFO] Mit Impedanz Anpassung erzielt man:
+> - Stromanpassung (Strom ist maximal, $R_{i}\gg R_{L}$) 
+> - Spannungsanpassung (Spannung ist maximal, $R_{i}\ll R_{L}$)
+> - Leistungsanpassung (Leistung ist maximal, $R_{i} = R_{L}$)
 
 ### Anpassnetzwerk
 
@@ -36,7 +41,7 @@ $$
 
 $$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
 
-> [!SUMMARY] Herleitung (Verlustlose [[Leitun](../HF-Technik/Leitungstheorie.md)g](../HF-Technik/Leitungstheorie.md))  
+> [!SUMMARY] Herleitung (Verlustlose [Leitung](../HF-Technik/Leitungstheorie.md))  
 > $Z_{E} = Z_{A}\cdot \dfrac{1+j \frac{Z_{L}}{Z_{A}}\tan(\beta \cdot l_{e})}{1+ j\frac{Z_{A}}{Z_{L}}\tan(\beta \cdot l_{e})} \qquad  \beta \cdot l_{e} = \dfrac{2\pi}{\lambda}\cdot \dfrac{\lambda}{4}= \dfrac{\pi}{2}$  
 > $\tan$ ist an der Stelle $\frac{\pi}{2}$ singulär $\to$ *$Z_{E}=\dfrac{Z_{L}^{2}}{Z_{A}}$* bzw. *$Z_{E} = Z_{A}\cdot Z_{L}^{2}$*
 
