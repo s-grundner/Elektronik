@@ -5,11 +5,15 @@ aliases:
   - Metall
   - elektrischer Leiter
   - elektrische Leiter
+keywords: 
 subject:
+  - EET
   - chemie
-source:
+semester: 1
+created: 31. August 2023
+professor:
+  - Bernhard Jakoby
   - Fritz Struber
-created: 23rd August 2022
 ---
 
 # Metallbindung
@@ -32,15 +36,16 @@ Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
 
 ## Elektrische Leitfähigkeit
 
-In elektrischen Leitern liegen bewegliche Ladungsträger vor.
+> [!QUESTION] In elektrischen Leitern liegen bewegliche Ladungsträger vor.
 
-Im Falle von Metallen arrangieren sich die Atome in einem Gitter wobei die äußeren Elektronen der Atome sich relativ frei zwischen den Gitterbausteinen (Atome ohne äußere Elektronen, also positiv geladene Ionen) bewegen können.
+Im Falle von Metallen arrangieren sich die Atome in einem Gitter wobei die äußeren Elektronen der Atome sich relativ *frei* zwischen den Gitterbausteinen (Atome ohne äußere Elektronen, also positiv geladene Ionen) bewegen können.
 
-Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie die von Molekülen eines Gases spricht von einem Elektronengas oder Fermi-Gas.
+Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie die von Molekülen eines Gases spricht von einem *Elektronengas* oder Fermi-[Gas](../Physik/Allgemeines%20Gasgesetz.md).
 
-> [!WARNING]  
-> Das Metall ist an sich elektrisch neutral, wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.
+> [!WARNING] Das Metall ist an sich elektrisch neutral,  
+>  wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.
 
-> [!HINT] Die Leitungselektronen führen eine thermische Wimmelbewegung aus.
-> Der Betrag dieser Geschwindigkeit kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
+> [!HINT] Die Leitungselektronen führen eine thermische Wimmelbewegung aus.  
+> Der Betrag dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
+>
 > > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen Strom verursacht werden
