@@ -32,7 +32,8 @@ $\vec{E}\dots$ [E-Feldstärke](../Elektrodynamik/Elektrisches%20Feld.md#Elektris
 $\vec{H}\dots$ [H-Feldstärke](../Hardwareentwicklung/Magnetisches%20Feld.md#Magnetisches%20Feld)  
 Das Kreuzprodukt beider [Vektoren](../Mathe/mathe%20(3)/Vektorrechung.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
 
-$$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$  
+$$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
+  
 [Transversale Elektromagnetische Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ### Nahfeld und Fernfeld
@@ -41,7 +42,6 @@ $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
 Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert
 
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
-
 
 >[!summary] Feldzonen  
 >![Ant_feldzonen](assets/Ant_feldzonen.png)
@@ -89,5 +89,3 @@ Feldabstand bei:
 ## 25:30
 
 Quadratur Amplituden [Modulation](Modulation.md) ([QAM](Quadratur%20Amplituden%20Modulation.md))
-
-![Gustrau](assets/Gustrau.pdf)
