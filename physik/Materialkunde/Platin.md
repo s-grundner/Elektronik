@@ -20,4 +20,3 @@ temperature-coeff:
 ---
 
 # Platin
-

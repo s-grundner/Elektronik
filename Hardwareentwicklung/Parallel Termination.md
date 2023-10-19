@@ -7,14 +7,14 @@ created: 25. September 2023
 
 # Paralleler Leitungsabschluss
 
-> [!INFO] Oft ist die [Impedanz](../Elektrotechnik/Impedanz.md) der Quelle und der [Leitung](../HF-Technik/Leitungstheorie.md) niedrig ($10\Omega-100\Omega$) gegenüber der Abschlussimpedanz ($>1000\Omega$)
+> [!INFO] Oft ist die [Impedanz](../Elektrodynamik/Impedanz.md) der Quelle und der [Leitung](../HF-Technik/Leitungstheorie.md) niedrig ($10\Omega-100\Omega$) gegenüber der Abschlussimpedanz ($>1000\Omega$)
 > Ohne Maßnahmen treten [Reflexionen](../HF-Technik/Reflexionsfaktor.md) in hohem Maße auf
 
 ![](assets/ParallelTerm.png)
 
 > [!CHECK] Transmissionline (TL) wird an der Quell-Seite mit einem parallelen Abschlusswiderstand $R_{T}$ terminiert. 
 > Der Widerstand wird so gewählt dass: $Z_{A}\mid\mid R_{T} = Z_{0}$.
-> Aufgrund der hohen [Impedanz](../Elektrotechnik/Impedanz.md) der Last gilt: $R_{T}\approx Z_{0}$ (kleinere Widerstände dominieren in Parallelschaltungen)
+> Aufgrund der hohen [Impedanz](../Elektrodynamik/Impedanz.md) der Last gilt: $R_{T}\approx Z_{0}$ (kleinere Widerstände dominieren in Parallelschaltungen)
 > Widerstand absorbiert die Reflektierte Energie
 > 
 

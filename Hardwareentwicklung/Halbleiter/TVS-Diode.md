@@ -34,11 +34,11 @@ Obwohl sie immer noch signifikant höher ist als die Betriebsspannung, ist sie a
 Einen genauen Wert dafür findet man nur sehr schwer.  
 Man sollte im Datenblatt der TVS-[Diode](Diode.md) auf Verweise für typische Applikationen achten.
 
-### Intrinsische [Kapazität](../../Elektrotechnik/Kapazität.md)
+### Intrinsische [Kapazität](../../Elektrodynamik/Kapazität.md)
 
-Wie bei jedem Bauteil, gibt es gewisse parasitäre Kenngrößen, die im Inneren präsent sind. Bei der TVS [Diode](Diode.md) ist die [Kapazität](../../Elektrotechnik/Kapazität.md) eine störende, dennoch unvermeidbare, Größe.  
-Bei TVS-[Dioden](Diode.md) mit hoher [Kapazität](../../Elektrotechnik/Kapazität.md) besteht die Gefahr, dass sehr kurze [ESD](../ESD.md)-Stöße nicht gefiltert werden können.  
-Abgesehen von der intrinsischen [Kapazität](../../Elektrotechnik/Kapazität.md), ist zu berücksichtigen, dass auch die [Leiterbahn](../../HF-Technik/Leitungstheorie.md) von der Buchse zur [Diode](Diode.md) keine eigene signifikante [Kapazität](../../Elektrotechnik/Kapazität.md) aufweisen darf. Dies wird durch eine möglichst kurze Leiterbahnführung sowie eine dünne Leiterbahnbreite realisiert.
+Wie bei jedem Bauteil, gibt es gewisse parasitäre Kenngrößen, die im Inneren präsent sind. Bei der TVS [Diode](Diode.md) ist die [Kapazität](../../Elektrodynamik/Kapazität.md) eine störende, dennoch unvermeidbare, Größe.  
+Bei TVS-[Dioden](Diode.md) mit hoher [Kapazität](../../Elektrodynamik/Kapazität.md) besteht die Gefahr, dass sehr kurze [ESD](../ESD.md)-Stöße nicht gefiltert werden können.  
+Abgesehen von der intrinsischen [Kapazität](../../Elektrodynamik/Kapazität.md), ist zu berücksichtigen, dass auch die [Leiterbahn](../../HF-Technik/Leitungstheorie.md) von der Buchse zur [Diode](Diode.md) keine eigene signifikante [Kapazität](../../Elektrodynamik/Kapazität.md) aufweisen darf. Dies wird durch eine möglichst kurze Leiterbahnführung sowie eine dünne Leiterbahnbreite realisiert.
 
 ### IEC61000−4−2 Rating
 

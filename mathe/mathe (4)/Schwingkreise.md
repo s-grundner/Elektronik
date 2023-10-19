@@ -61,7 +61,7 @@ Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer St�
 
 Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
-| Einfluss der [Spule](../../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensator](../../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstand](../../Elektrotechnik/Impedanz.md) |
+| Einfluss der [Spule](../../Elektrodynamik/Impedanz.md) | Einfluss des [Kondensator](../../Elektrodynamik/Impedanz.md)      | Einfluss des [Widerstand](../../Elektrodynamik/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$    | $u_{C}(0) = U_{0}$                           | $u_{R}=i(t)\cdot R$                    |
 |                                   | $q(t)=C\cdot u_{C}(t)$                       |                                        |
@@ -131,7 +131,7 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 
 Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige [Spannung](https://de.wikipedia.org/wiki/Ohmsches_Gesetz) $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
-| Einfluss der [Spule](../../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensators](../../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstands](../../Elektrotechnik/Impedanz.md) |
+| Einfluss der [Spule](../../Elektrodynamik/Impedanz.md) | Einfluss des [Kondensators](../../Elektrodynamik/Impedanz.md)      | Einfluss des [Widerstands](../../Elektrodynamik/Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$   | $i(t)=C\cdot\frac{du_{c}}{dt}$               | $u_{R}=i(t)\cdot R$                    |
 |                                  | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |

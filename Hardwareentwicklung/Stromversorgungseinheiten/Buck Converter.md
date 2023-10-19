@@ -23,11 +23,11 @@ Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle)
 
 ### $0<t<t_{1}$: $S_{geschlossen}$
 
-Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](../../Elektrotechnik/Induktivitäten.md) $L$ und versorgt den Lastwiderstand und den [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{L}$. Dabei speichert auch die [Spule](../../Elektrotechnik/Induktivitäten.md) $L$ Energie
+Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](../../Elektrodynamik/Induktivitäten.md) $L$ und versorgt den Lastwiderstand und den [Kondensator](../../Elektrodynamik/Kapazität.md) $C_{L}$. Dabei speichert auch die [Spule](../../Elektrodynamik/Induktivitäten.md) $L$ Energie
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-Die in der [Spule](../../Elektrotechnik/Induktivitäten.md) gespeicherten Energie liefert weiter Strom an den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../../Elektrotechnik/Induktivitäten.md), den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
+Die in der [Spule](../../Elektrodynamik/Induktivitäten.md) gespeicherten Energie liefert weiter Strom an den [Kondensator](../../Elektrodynamik/Kapazität.md) und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../../Elektrodynamik/Induktivitäten.md), den [Kondensator](../../Elektrodynamik/Kapazität.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
 
 ### Herleitung der Dimensionierung
 
@@ -64,7 +64,7 @@ $$
 
 Die Ausgangsspannung kann nur kleiner als $U_{e}$ sein und die Steuerung von $U_{a}$ erfolgt durch veränderung der **Duty-Cycle** bzw der **Schaltperiode**.
 
-## [Induktivität](../../Elektrotechnik/Induktivitäten.md)
+## [Induktivität](../../Elektrodynamik/Induktivitäten.md)
 
 Aus [](Buck%20Converter.md#t_%201%20t%20T_%20s%20S_%20geöffnet|(2)) folgt:
 $$
@@ -76,7 +76,7 @@ L_{\min} = \frac{(U_{a}-U_{e})\cdot t_{1}}{\Delta I_{L}}
 $$
 Es ist zu beachten, dass $I_{L}(t)$ in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, das heißt auf $0$ sinkt. Delta $I_{L}$ ist daher mit $0,2 - 0,4$ fachen von $\overline{I_{a}}$ als Richtwert anzunehmen.
 
-## [Kapazität](../../Elektrotechnik/Kapazität.md)
+## [Kapazität](../../Elektrodynamik/Kapazität.md)
 
 $$
 \begin{align*}
@@ -111,7 +111,7 @@ Zu Beachten:
 - Bauteilplatzierung Wichtig
 - Layout Guideline beachten (im Datasheet)
 
-| Groß     | [Kapazität](../../Elektrotechnik/Kapazität.md)      | Spule                  | Frequenz                |
+| Groß     | [Kapazität](../../Elektrodynamik/Kapazität.md)      | Spule                  | Frequenz                |
 | -------- | ----------------- | ---------------------- | ----------------------- |
 | Vorteil  | Stärkere Glättung | kleines $\Delta I_{L}$ | Spule kann kleiner sein |
 | Nachteil |                   | großes Package         | größere [EMV](../Elektromagnetische%20Verträglichkeit.md)            |
@@ -134,7 +134,7 @@ $$
 I_{Amin} = \frac{1}{2L_{min}}\cdot (U_{e}-U_{a})\cdot T_{s}
 $$
 
- - Für kleine [Induktivitäten](../../Elektrotechnik/Induktivitäten.md) ist eine große Schaltfrequenz zu wählen. 
+ - Für kleine [Induktivitäten](../../Elektrodynamik/Induktivitäten.md) ist eine große Schaltfrequenz zu wählen. 
  - Frequenz nicht beliebig wählbar, da sie ein steigen der dynamischen Verluste in der Drossel verursacht, wenn sie höher wird. Eine Hohe Schaltfrequenz bewirkt auch einen teureren Schalttransistor.
  - Daher erfolgt eine Begrenzung der Taktfrequenz bei $50-500kHz$ (Je nach Bauart)
 

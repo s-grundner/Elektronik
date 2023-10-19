@@ -1,7 +1,7 @@
 # Flyback Simulation
 
 > [!EXAMPLE] Bauteilwerte Bestimmen  
->Berechne die primäre [Induktivität](../../Elektrotechnik/Induktivitäten.md) sowie das Übersetzungsverhältnis, entsprechend der im Unterricht gezeigten online [Rechenhilfe](http://schmidt-walter-schaltnetzteile.de/smps/spw_smps.html):  
+>Berechne die primäre [Induktivität](../../Elektrodynamik/Induktivitäten.md) sowie das Übersetzungsverhältnis, entsprechend der im Unterricht gezeigten online [Rechenhilfe](http://schmidt-walter-schaltnetzteile.de/smps/spw_smps.html):  
 >Gib die Größen L1 und ü = N1:N2 in der Mitschrift an.  
 > ![575](../assets/SperrwandlerIMG2.png)
 >$$
@@ -32,7 +32,7 @@
 > Erkläre den Effekt.
  
 
-> [!EXAMPLE] Füge eine (realebenfalls existierende) parasitäre DS [Kapazität](../../Elektrotechnik/Kapazität.md) von 100pF über den Schalter hinweg ein  
+> [!EXAMPLE] Füge eine (realebenfalls existierende) parasitäre DS [Kapazität](../../Elektrodynamik/Kapazität.md) von 100pF über den Schalter hinweg ein  
 > Wie verändert sich UDS?  
 > ![Pasted image 20221013204923|500](Pasted%20image%2020221013204923.png)  
 > Erkläre den Effekt.

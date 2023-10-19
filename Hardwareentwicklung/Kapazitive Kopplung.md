@@ -16,8 +16,8 @@ elektrische Feld.
 Ursache für Kapazitive Beeinflussung sind parasitäre (d.h. nicht beabsichtigte)  
 Kapazitäten zwischen Leitern die zu verschiedenen Stromkreisen gehören.  
 ![600](assets/Pasted%20image%2020230316093012.png)  
-Für den (allgemeinen) Fall, dass die [Impedanz](../Elektrotechnik/Impedanz.md) der Koppelkapazität sehr viel  
-größer ist als die [Impedanz](../Elektrotechnik/Impedanz.md) des Nutzkreises folgt:
+Für den (allgemeinen) Fall, dass die [Impedanz](../Elektrodynamik/Impedanz.md) der Koppelkapazität sehr viel  
+größer ist als die [Impedanz](../Elektrodynamik/Impedanz.md) des Nutzkreises folgt:
 
 $$
 \begin{align*}

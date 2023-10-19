@@ -40,7 +40,7 @@ created: 23rd November 2022
 
 - [Leitungstheorie](Leitungstheorie.md)
 - Rechteckimpuls auf [Leitungstheorie](Leitungstheorie.md)
-- [Anpassung](../Elektrotechnik/Impedanz.md) mit [Smith-Diagramm](Smith-Diagramm.md), Shunt, TL
+- [Anpassung](../Elektrodynamik/Impedanz.md) mit [Smith-Diagramm](Smith-Diagramm.md), Shunt, TL
 - [Antennen](Antenne.md), Richtdiagramm
 
 ## Consumer Electronics

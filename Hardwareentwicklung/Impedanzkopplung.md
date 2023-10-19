@@ -6,7 +6,7 @@ source: ["Siegbert Schrempf"]
 created: 27th March 2023
 ---
 
-# [Impedanz](../Elektrotechnik/Impedanz.md) Kopplung
+# [Impedanz](../Elektrodynamik/Impedanz.md) Kopplung
 
 > [!INFO] Im Allgemeinen muss zur Impedanzkopplung die Leitungstheorie herangezogen werden.  
 > sind die Leitungslängen sehr viel geringer als die Wellenlänge, kann in erster Näherung mit einem RL-Leitungermodell gerechnet werden. 
