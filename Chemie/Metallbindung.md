@@ -3,6 +3,8 @@ tags:
   - Chemie/Anorganisch
 aliases:
   - Metall
+  - elektrischer Leiter
+  - elektrische Leiter
 subject:
   - chemie
 source:
@@ -12,7 +14,7 @@ created: 23rd August 2022
 
 # Metallbindung
 
-![](assets/Metall-bnd.png)
+![metall_bdg_anim](assets/metall_bdg_anim.gif)
 
 Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas halten das Metallgitter zusammen.
 
@@ -20,7 +22,7 @@ Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas 
 
 Aus Gitteraufbau folgt:
 - bei Raumtemperatur sind diese fest (Ausnahmen: $Hg,Cs,Ga$)
-- sehr gute [elektrische Leiter](../Physik/elektrische%20Leiter.md) (Leiter 1. Klasse)
+- sehr gute elektrische Leiter (Leiter 1. Klasse)
 - sind glänzend
 - sind duktil (mechanisch verformbar) $\rightarrow$ Gitterebenen gleiten übereinander
 - bilden **Legierungen** (Atome im Metallgitter können ausgetauscht werden)
@@ -28,6 +30,13 @@ Aus Gitteraufbau folgt:
 >[!NOTE] Legierung  
 Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
 
-# Tags
+## Elektrische Leitfähigkeit
 
-- [elektrische Leiter](../Physik/elektrische%20Leiter.md)
+In elektrischen Leitern liegen bewegliche Ladungsträger vor.
+
+Im Falle von Metallen arrangieren sich die Atome in einem Gitter wobei die äußeren Elektronen der Atome sich relativ frei zwischen den Gitterbausteinen (Atome ohne äußere Elektronen, also positiv geladene Ionen) bewegen können.
+
+Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie die von Molekülen eines Gases spricht von einem Elektronengas oder Fermi-Gas.
+
+> [!WARNING] 
+> Das Metall ist an sich elektrisch neutral, wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.

@@ -50,3 +50,5 @@ SORT file.name
 ---
 
 [{MOC} NW RDP]({MOC}%20NW%20RDP.md)
+
+[Chem Uni Erlangen](https://www2.chemie.uni-erlangen.de/projects/vsc/chemie-mediziner-neu/start.html)
