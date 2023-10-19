@@ -57,7 +57,7 @@ $$
 \frac{N_{2}}{N_{1}}=2\cdot \frac{U_{a}}{U_{e}}
 $$
 
-## [Induktivität](../Induktivitäten.md)
+## [Induktivität](../../Elektrotechnik/Induktivitäten.md)
 
 $\Delta I_{L}=\Delta I_{3} \approx 0.2\cdot I_{a}$  
 mit $DC=0.5$ wird:

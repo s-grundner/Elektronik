@@ -38,5 +38,7 @@ Im Falle von Metallen arrangieren sich die Atome in einem Gitter wobei die äuß
 
 Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie die von Molekülen eines Gases spricht von einem Elektronengas oder Fermi-Gas.
 
-> [!WARNING] 
+> [!WARNING]  
 > Das Metall ist an sich elektrisch neutral, wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.
+
+Die Leitungselektronen führen eine thermische Wimmelbewegung aus; der Betrag dieser Geschwindigkeit kann in der Größenordnung von 106 m/s sein (und liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen Strom verursacht werden, siehe später)!

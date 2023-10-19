@@ -66,11 +66,11 @@ $$
 \end{align*}
 $$
 
-## [Induktivität](../Induktivitäten.md)
+## [Induktivität](../../Elektrotechnik/Induktivitäten.md)
 
 Gleich wie beim Boost Converter: $\rightarrow$ [Induktivität](Boost%20Converter.md#[Induktivität](../Induktivitäten.md))
 
-## [Kapazität](../Kapazität.md)
+## [Kapazität](../../Elektrotechnik/Kapazität.md)
 
 Gleich wie beim Boost Converter: $\rightarrow$ [Kapazität](Boost%20Converter.md#[Kapazität](../Kapazität.md))
 

@@ -12,7 +12,6 @@ semester: 1
 created: 4. September 2023
 professor:
 ---
- 
 
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 

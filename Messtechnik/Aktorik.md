@@ -18,7 +18,7 @@ Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscom
 
 [Elektromagnet](../Physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../Physik/Elektromagnetische%20Wellen.md) mit Bewegung reagieren z.B. [Relais](Relais.md)
 
-$\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.md) und [Spule](../Hardwareentwicklung/Induktivitäten.md) werden benötigt.
+$\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.md) und [Spule](../Elektrotechnik/Induktivitäten.md) werden benötigt.
 
 ### Elektromotor
 
