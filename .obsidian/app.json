@@ -5,11 +5,11 @@
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
-    "includeName": true,
+    "includeName": false,
     "pageSize": "A4",
     "landscape": false,
     "margin": "2",
-    "downscalePercent": 70
+    "downscalePercent": 45
   },
   "promptDelete": false,
   "trashOption": "local",
