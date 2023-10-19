@@ -12,6 +12,3 @@ professor:
  
 
 # Elektrischer Leiter
-
-
-

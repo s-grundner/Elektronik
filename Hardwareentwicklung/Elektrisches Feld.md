@@ -4,6 +4,7 @@ aliases:
   - E-Feld
   - E-Feldstärke
   - Elektrische Feldstärke
+  - elektrisches Feld
 keywords: 
 subject:
   - EET
@@ -15,9 +16,9 @@ professor:
 
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 
-## statisches E-Feld
+## Statisches E-Feld
 
-> [!INFO] Statisch:
+> [!INFO] Statisch:  
 > es änderst sich nichts mehr (eingeschwungener Zustand)
 
 Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $E$ zugeordnet werden. Die Kraft auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
@@ -33,6 +34,8 @@ $$
 $$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
+
+### Potenzielle Energie im elektrischen Feld
 
 # Tags
 
