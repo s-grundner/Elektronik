@@ -168,5 +168,17 @@
       "modifiers": [],
       "key": "F3"
     }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [],
+      "key": "F7"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [],
+      "key": "F9"
+    }
   ]
 }
