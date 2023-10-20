@@ -1,8 +1,12 @@
 ---
-tags: ["SMPS"]
-aliases: ["Single transistor forward converter"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - SMPS
+aliases:
+  - Single transistor forward converter
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 13th October 2022
 ---
 
@@ -18,6 +22,7 @@ created: 13th October 2022
 ## Schaltbild
 
 ![ET_DFW](../assets/ET_DFW.png)
+
 $$
 U_{a}=U_{e}\cdot \frac{t_{1}}{T_{S}}\cdot \frac{N_{2}}{N_{1}}
 $$
@@ -49,10 +54,13 @@ Daher Liegt über $U_{DS}=2 \cdot U_{e}$
 ### Herleitung der Dimensionierung
 
 $\rightarrow$ siehe [Abwärtswandler](Buck%20Converter.md)
+
 $$
 U_{a}=U_{e}\cdot \frac{t_{1}}{T_{S}}\cdot \frac{N_{2}}{N_{1}}
 $$
+
 mit $DC=0.5$ ergibt sich:
+
 $$
 \frac{N_{2}}{N_{1}}=2\cdot \frac{U_{a}}{U_{e}}
 $$
@@ -61,6 +69,7 @@ $$
 
 $\Delta I_{L}=\Delta I_{3} \approx 0.2\cdot I_{a}$  
 mit $DC=0.5$ wird:
+
 $$
 L_{min}=\frac{U_{a}\cdot T_{S}}{2\cdot \Delta I_{3}}
 $$
@@ -70,3 +79,4 @@ $$
 # Tags
 
 ![Schaltnetzteile_Schmidt-Walter](../assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)
+
