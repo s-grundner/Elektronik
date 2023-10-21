@@ -34,6 +34,14 @@ $$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
+### Feldstärke in einem Leiter
+
+$$
+\begin{align}
+&\vec{E} = \frac{\vec{J}}{\sigma}
+\end{align}
+$$
+
 ### Potenzielle Energie im elektrischen Feld
 
 # Tags
