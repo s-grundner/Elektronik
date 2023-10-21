@@ -38,7 +38,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 $$
 \begin{align}
-&\vec{E} = \frac{\vec{J}}{\sigma}
+&\vec{E} = \frac{\vec{J}}{\sigma}=\vec{J}\cdot \rho
 \end{align}
 $$
 
