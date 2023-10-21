@@ -28,7 +28,7 @@ $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere Reibung/mechanische Verluste)
 
 $C_{0}\dots$ Streukapazität der Elektroden
 
-## [Ableitung](../../Mathe/mathe%20(3)/Differenzialrechnung.md) der Resonanzfrequenz
+## [Ableitung](../../Mathe/mathe%20(3)/Differenzialrechnung.md) Der Resonanzfrequenz
 
 $R_{1}$ vernachlässigbar
 
