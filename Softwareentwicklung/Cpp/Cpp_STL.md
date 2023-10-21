@@ -115,12 +115,6 @@ Gleich wie in einer Struktur können in einem *Tupel* mehrere Elemente abgelegt 
 
 # Referenzen
 
-- cppReferenz  
-  <https://en.cppreference.com/w/>
-  
-- Erklärung und Beispiele:
-
-  <http://www.ist.tugraz.at/_attach/Publish/Akswt04/STL_Robert_Fritz.pdf>
-
-- Kurz und sehr gut:  
-  <https://www.codeproject.com/Articles/563/An-Introductory-STL-tutorial>
+- [cppReferenz](https://en.cppreference.com/w/)
+- [Erklärung und Beispiele](http://www.ist.tugraz.at/_attach/Publish/Akswt04/STL_Robert_Fritz.pdf)
+- [Kurz und sehr gut](https://www.codeproject.com/Articles/563/An-Introductory-STL-tutorial)
