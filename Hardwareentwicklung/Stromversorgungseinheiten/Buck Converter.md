@@ -33,12 +33,15 @@ Die in der [Spule](../../Elektrodynamik/Induktivitäten.md) gespeicherten Energi
 
 Annahme: $U_{a}$ ist konstant über $T_{S}$  
 $0<t<t_{1}$: $S_{geschlossen}$
+
 $$
 \begin{align*}
 	\Delta I_{L1} &= \frac{1}{L}\int^{t_{1}}_{0} (U_{e}-U_{a})dt = \frac{1}{L}\cdot (U_{e}-U_{a})\cdot t_{1}
 \end{align*}
 $$
+
 $t_{1}<t<T_{s}$: $S_{geöffnet}$
+
 $$
 \begin{align*}
 	\Delta I_{L2} = \frac{1}{L}\int^{T_{S}}_{t_{1}} (U_{a}+U_{F_{0}})dt = \frac{1}{L}\cdot (U_{e}-U_{a})\cdot (T_{S}-t_{1})\\
@@ -57,7 +60,9 @@ U_{a} &= U_{e}\cdot \frac{t_{1}}{T_{S}}-U_{FO}(1-
  \frac{t_{1}}{T_{S}})
 \end{align*}
 $$
+
 Nach Vernachlässigung von $U_{FO}$
+
 $$
 U_{a} = U_{e} \cdot \frac{t_{1}}{T_{S}} = U_{e}\cdot DC
 $$
@@ -67,13 +72,17 @@ Die Ausgangsspannung kann nur kleiner als $U_{e}$ sein und die Steuerung von $U_
 ## [Induktivität](../../Elektrodynamik/Induktivitäten.md)
 
 Aus [](Buck%20Converter.md#t_%201%20t%20T_%20s%20S_%20geöffnet|(2)) folgt:
+
 $$
 L_{min} = \frac{(U_{a}+U_{FO})\cdot (T_{s}-t_{1})}{\Delta I_{L}(t)}
 $$
+
  Aus [](Buck%20Converter.md#0%20t%20t_%201%20S_%20geschlossen|(1)) folgt:
+
 $$
 L_{\min} = \frac{(U_{a}-U_{e})\cdot t_{1}}{\Delta I_{L}}
 $$
+
 Es ist zu beachten, dass $I_{L}(t)$ in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, das heißt auf $0$ sinkt. Delta $I_{L}$ ist daher mit $0,2 - 0,4$ fachen von $\overline{I_{a}}$ als Richtwert anzunehmen.
 
 ## [Kapazität](../../Elektrodynamik/Kapazität.md)
@@ -87,6 +96,7 @@ $$
 \Delta U_{a} &=  \frac{\Delta I_{L}\cdot T_{S}}{8\cdot C}
 \end{align*}
 $$
+
 Durch den Ladestrom $I_{L}$ wird auch eine Änderung der Kondensatorspannung bewirkt und somit auch der Ausgangsspannung.
 
 Die Annahme einer konstanten Ausgangsspannung bezieht sich daher auf den Mittelwert der zeitabhängigen Größe $U_{A} = U_{C}(\overline{t})$
@@ -121,6 +131,7 @@ Zu Beachten:
 ![Lückgrenze](../assets/Lückgrenze.svg)
 
 Damit der Spulenstrom in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, muss folgendes gelten:
+
 $$
 \begin{align*}
 	I_{Amin} = \frac{\Delta I_{L}}{2}\rightarrow R_{L,max} = \frac{U_{a}}{\frac{\Delta I_{L}}{2}} = \frac{2\cdot U_{a}}{\Delta I_{L}}
