@@ -10,6 +10,7 @@ created: 26th April 2022
 
 Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
 Zu seiner Einführung kann man von einem kurzen Rechtecksimpuls **$y=r(t)$** ausgehen:
+
 $$
 \begin{align*}
 	(h<0): r(t) = \begin{cases}
@@ -22,9 +23,11 @@ $$
 ![pseudo_d_impuls](../assets/pseudo_d_impuls.png)
 
 Zur Normierung der *Wirkung* einer solchen Impulsfunktion wurde gewählt, dass die **Impulsfläche 1 ist**:
+
 $$
 A = \int_{-\infty}^{\infty}r(t)dt=\int_{0}^{h}r(t)dt = 1 
 $$
+
 Wird $h$ kleiner, so wird $r(t)$ wegen der konstanten "Impulsfläche" 1 während der Impulsdauer $h$ größer.  
 Man möchte nun den gesamten Impuls "auf einen Zeitpunkt konzentrieren", Dazu geht man zum Grenzfall $h\rightarrow 0$ über und erhält so die folgende Funktion:
 
@@ -36,6 +39,7 @@ $$
 	\end{cases} && \text{mit} && \int_{-\infty}^{\infty}\delta (t)dt = 1
 \end{align*}
 $$
+
 $\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. […]  
 Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.  
 ![d_impuls](../assets/d_impuls.png)
@@ -45,6 +49,7 @@ $d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
 ## Ausblend-Eigenschaft Des $\delta$-Impuls
 
 Wirkung des $\delta$-Impulses auf eine Zeit Funktion $f$:
+
 $$
 \begin{align*}
 	\delta(t) &= \lim_{h\rightarrow 0}\begin{cases}
@@ -63,6 +68,7 @@ $$
 
 Allgemein:  
 ![delta_impuls](../assets/delta_impuls.png)
+
 $$
 \underline{\underline{
 	f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})dt
