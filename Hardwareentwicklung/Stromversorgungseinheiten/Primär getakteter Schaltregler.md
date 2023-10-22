@@ -63,4 +63,4 @@ created: 2nd October 2022
 
 ![SMPS_intro](../assets/pdf/SMPS_intro.pdf)
 
-![Schaltnetzteile_Schmidt-Walter](../assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)
+![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/Schaltnetzteile_Schmidt-Walter.pdf)

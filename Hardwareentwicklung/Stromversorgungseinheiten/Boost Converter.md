@@ -99,4 +99,4 @@ $C_{min}= \dfrac{\Delta Q}{\Delta U_{a}} = \dfrac{I_{a,max}-T_{S}}{\Delta U_{a}}
 
 # Tags
 
-![Schaltnetzteile_Schmidt-Walter](../assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)
+![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/Schaltnetzteile_Schmidt-Walter.pdf)

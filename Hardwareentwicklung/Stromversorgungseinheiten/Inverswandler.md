@@ -78,4 +78,4 @@ Gleich wie beim Boost Converter: $\rightarrow$ [Kapazität](Boost%20Converter.md
 
 # Tags
 
-![Schaltnetzteile_Schmidt-Walter](../assets/pdf/Schaltnetzteile_Schmidt-Walter.pdf)
+![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/Schaltnetzteile_Schmidt-Walter.pdf)
