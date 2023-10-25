@@ -35,9 +35,21 @@ professor:
 ## Zweites Newtonsches Gesetz
 
 > [!IMPORTANT] Zusammenhang zwischen Kraft und impuls
+> impuls $\vec{p}=m\cdot \vec{v}$
+> $[p]=\frac{kg\cdot m}{s}$
 
-> [!WARNING] impuls $\vec{p}$
-> 
+> [!WARNING] Die Impuls Veränderung eines Körpers ist proportional der resultierenden Kraft die auf den Körper wirkt
+>
+> $$
+> \vec{F}=\frac{d\vec{p}}{dt}=\frac{d m\vec{v}}{dt}
+> $$
+
+## Drittes Newtonsches Gesetz
+
+> [!IMPORTANT] Aktio = Reaktio
+
+> [!WARNING] Jede Kraftwirkung ruft eine gleichgroße Kraftwirkung hervorrufen
+> $\vec{F}_{12} =-\vec{F}_{21}$
 
 # Kräfte
 
