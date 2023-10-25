@@ -28,7 +28,7 @@ $$
 \begin{align*}
 	F_{feder} &= -k\cdot y & F_{a} &= F_{feder} + F_{reibung}\\
 	F_{reibung} &= -d \cdot \dot{y} & m \cdot \ddot{y}&=-k\cdot y + -d \cdot \dot{y}\\
-	F_{a} &= m \cdot \ddot{y} & \ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y &= 0\\
+	F_{a} &= m \cdot \ddot{y} & 0&=\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y\\
 \end{align*}
 $$
 
