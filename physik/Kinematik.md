@@ -80,3 +80,20 @@ $$
 ![](assets/Pasted%20image%2020231011131936.png)
 
 $r_{i}$ sind Ortsvektoren
+
+## Kreisbewegungen
+
+$$
+\begin{align}
+
+\end{align}
+$$
+
+$$
+\begin{align}
+\vec{a}(t) = \dot{\vec{v}}(t) = \begin{pmatrix}
+-r \omega^{2} \cos(\omega t) \\
+-r \omega^{2} \sin(\omega t)
+\end{pmatrix}
+\end{align}
+$$
