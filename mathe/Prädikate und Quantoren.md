@@ -69,7 +69,7 @@ $$\exists a,b \in M : A(a,b)\qquad\text{statt}\qquad\exists b\in M\exists a\in M
 > 
 > (d) $\neg(\forall a\in M_{1}\exists b\in M_{2}:A(a,b))\equiv \exists a\in M_{1} \forall b \in M_{2}:(\neg A(a,b))$
 
-> [!INFO] Zwei Allquantoren ($\forall$) die für das Gleiche Prädikat gelten sind mit sprachlich  einem *und*  verknüpft
+> [!INFO] Zwei Allquantoren ($\forall$) die für das Gleiche Prädikat gelten sind mit sprachlich einem *und* verknüpft
 
 > [!INFO] Zwei Existenzquantoren ($\exists$) die für das gleiche Prädikat gelten, sind sprachlich mit einem *sodass* verknüpft
 
@@ -83,9 +83,8 @@ $$\exists a,b \in M : A(a,b)\qquad\text{statt}\qquad\exists b\in M\exists a\in M
 > 
 > Diese beiden Aussagen sind logisch Äquivalent
 
-> [!WARNING] Aufpassen mit Beispielen
-> Eine Beispiel-Menge zu definieren und dann den Satz durch einsetzen der Menge in die Quantoren zu "Beweisen" zeigt nur, dass der Satz für diese Menge gilt und nicht für alle Mengen.
+> [!WARNING] Aufpassen mit Beispielen  
+> Eine Beispiel-Menge zu definieren und dann den Satz durch einsetzen der Menge in die Quantoren zu "Beweisen" zeigt nur, dass der Satz für diese Menge gilt und nicht für alle Mengen.  
 > *Testen* $\neq$ *Beweisen*
 
 > [!INFO] Für den Beweis einer Existenz-Aussage genügt es, eine Aussage zu beweisen
-

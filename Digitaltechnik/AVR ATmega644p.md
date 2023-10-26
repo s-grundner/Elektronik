@@ -94,6 +94,7 @@ void adc_init()
 ```
 
 > [!summary] Sensorgleichung
+>
 > $$
 > ed = k\cdot V_{adc} + d \quad\rightarrow \quad
 > \begin{align*}
@@ -101,6 +102,7 @@ void adc_init()
 > 1 &= \tfrac{3}{13} + d && d = \tfrac{10}{13}\\
 > \end{align*}
 > $$
+>
 > $$
 > \begin{align*}
 > \tfrac{V_{adc}}{5} &= \tfrac{ADC}{1024} \qquad V_{adc} = 5 \cdot\tfrac{ADC}{1024}\\\\
