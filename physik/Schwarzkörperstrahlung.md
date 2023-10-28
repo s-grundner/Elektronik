@@ -27,7 +27,7 @@ Durch das plancksche Strahlungsgesetz wird beschrieben, wie das Strahlungsspektr
 
 ## Stefan-Boltzmann-Gesetz
 
-Die Strahlungsleistung eines schwarzen Körpers ist proportional zur 4. Potenz der [Temperatur](Temperatur%20und%20Teilchenmodell.md).  
+Die Strahlungsleistung eines schwarzen Körpers ist proportional zur 4. [Potenz](../Mathe/Potenzen.md) der [Temperatur](Temperatur%20und%20Teilchenmodell.md).  
 $P=\sigma\cdot A\cdot T^{4}$ 
 
 $P\dots$ Strahlungsleistung  

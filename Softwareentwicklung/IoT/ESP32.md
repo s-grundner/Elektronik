@@ -53,10 +53,12 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
     "0x2c000" : "customized_partitions/client_key.bin"
 },
 ```
+
 > [!INFO] Den Flasher-Arguments entsprechend, müssen die Pfade sowie deren Offset in das Flash-Download-Tool eingetragen werden.  
 > ![](assets/Pasted%20image%2020230818003454.png)
 
 > [!INFO] Auch die [SPI](../../Digitaltechnik/SPI.md) Flash Konfigurationen werden aus den Flasher Arguments entsprechend übernommen:
+>
 > ```json
 >"flash_settings" : {
 >	"flash_mode": "dio",
@@ -64,6 +66,7 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
 >	"flash_freq": "40m"
 >},
 >```
+>
 >![](assets/Pasted%20image%2020230818003644.png)
 
 > [!INFO] Nun muss nur noch der richtige COM-Port selektiert werden und „Start“ ausgeführt werden.  
@@ -1034,5 +1037,5 @@ Setup/Installation ESP32 Projekte mit Arduino-Framework auf PlatformIO
 
 
 Setup/Installation ESP-IDF mit PlatformIO
-- <https://docs.platformio.org/en/latest/tutorials/espressif32/espidf_debugging_unit_testing_analysis.html#tutorial-espressif32-espidf-debugging-unit-testing-analysis>
-- <https://docs.platformio.org/en/latest/frameworks/espidf.html>
+- [PIO-Debugging](https://docs.platformio.org/en/latest/tutorials/espressif32/espidf_debugging_unit_testing_analysis.html#tutorial-espressif32-espidf-debugging-unit-testing-analysis)
+- [PIO-ESPIDF](https://docs.platformio.org/en/latest/frameworks/espidf.html)

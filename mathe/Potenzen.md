@@ -1,7 +1,9 @@
 ---
 tags: 
-aliases: 
-keywords: []
+aliases:
+  - Potenzregeln
+  - Potenz
+keywords: 
 subject:
   - Mathematik1
   - "357.100"
@@ -13,3 +15,4 @@ professor:
 
 # Potenzen
 
+## Potenzregeln
