@@ -41,5 +41,6 @@
   "obsidian-plotly",
   "obsidian-shellcommands",
   "obsidian-full-calendar",
-  "vim-toggle"
+  "vim-toggle",
+  "reference-map"
 ]
