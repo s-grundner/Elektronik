@@ -114,4 +114,3 @@ In der *For*-Schleife darf eine Folge von Anweisungen nicht in einen Block gesch
 > *Do-While*-Schleife: wenn Anzahl Durchläufe offen und Schleife auf alle Fälle einmal durchlaufen werden muss.
 >
 > *For*-Schleife: Zählschleifen, wenn Verpackung in Schleifenkopf die Übersicht steigert.
-
