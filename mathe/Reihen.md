@@ -1,13 +1,11 @@
 ---
-aliases: ["Reihen", "Folgen"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
-created: 24th March 2022
+tags: []
+aliases: []
+created: 30. Oktober 2023
 ---
 
-# Map of Content - Folgen und Reihen
+# Reihen
 
-- [Grenzwert](Grenzwert.md)
 - [Geometrische Reihe](Geometrische%20Reihe)
 - [Arithmetische Reihe](Arithmetische%20Reihe)
 - Harmonische Reihe
@@ -21,5 +19,3 @@ created: 24th March 2022
 - [Quotientenkriterium](mathe%20(4)/Quotienten%20Kriterium.md)
 
 ---
-
-# Tags
