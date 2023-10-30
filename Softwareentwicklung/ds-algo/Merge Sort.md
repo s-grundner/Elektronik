@@ -9,7 +9,7 @@ created: 19th August 2023
 - Zerteilen eines Feldes x[0] .. x[n-1] in zwei Teilfelder x[0] .. x[m-1] und x[m] .. x[n-1].
 - Die Teilfelder werden sortiert → y[0] .. y[m-1] und z[0] .. z[n-m-1].
 - Mischen der Teilfelder. Im ersten Schritt wird das kleinste Element ermittelt: x[0] = Min(y[0], z[0]), z.B. y[0]. Dann das zweit kleinste: x[1] = Min(y[1], z[0]) und so fort.
-- Rekursiv kann die Teilung bis zu einem 1 großen Feld zerlegt werden.
+- [Rekursiv](Rekursion.md) kann die Teilung bis zu einem 1 großen Feld zerlegt werden.
 
 Implementierung des Mischens (Merge) in JavaScript:
 

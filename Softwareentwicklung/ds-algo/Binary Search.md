@@ -20,7 +20,7 @@ Effizienter kann in einem bereits sortierten Feld mittels **Binärer Suche** ges
 - Falls der Schlüssel kleiner als der Wert des Elements in der Mitte ist: Wiederholen des Algorithmus mit der rechten Feld-Hälfte
 - Wenn das zu durchsuchende Feld kein Element mehr beinhaltet: Ende der Suche - Element nicht vorhanden.
 
-Dieser Algorithmus lässt sich sehr einfach rekursiv lösen. Im Ungünstigsten Fall benötigt die Binäre Suche lg(N) Vergleiche.
+Dieser Algorithmus lässt sich sehr einfach [rekursiv](Rekursion.md) lösen. Im Ungünstigsten Fall benötigt die Binäre Suche lg(N) Vergleiche.
 
 ```c
 /*
@@ -65,7 +65,7 @@ def binary_search(list, target):
 	return None
 ~~~
 
-## Python (rekursiv)
+## Python ([rekursiv](Rekursion.md))
 
 ~~~ python
 def recursive_binary_search(list, target):

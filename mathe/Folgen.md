@@ -13,12 +13,16 @@ created: 24th March 2022
 ## Darstellung von Folgen
 
 > [!INFO] *Term Darstellung* einer Folge:  
-> Angabe eines Terms (einer "Formel"), wie das Glied $a_{n}$ formelmäßig aus dem *index n* 
+> Angabe eines Terms (einer "Formel"), wie das Glied $a_{n}$ formelmäßig aus dem *index n* berechnet werden kann.  
+>
+> $$c_{n} = \frac{n}{n+1}$$
 
-> [!INFO] rekursive Darstellung
+> [!INFO] *rekursive Darstellung* einer Folge ([rekursiv](../Softwareentwicklung/DS-Algo/Rekursion.md) = zurücklaufend):
+> Angabe, wie das Glied $a_{n}$ aus dem *vorhergehenden* Folgegliedern berechnet werden kann.
+> $$x_{1} 1\qquad $$
 > 
 
-## [Konvergente Folgen](mathe%20(3)/Grenzwert.md)
+## Konvergente Folgen
 
 ![Grenzwert](Grenzwert.md)
 
@@ -42,7 +46,7 @@ created: 24th March 2022
 > [!EXAMPLE] $\langle \frac{n}{2n+1}; n \in \mathbb{N}\rangle \qquad g = ?$  
 > $\langle 0; \frac{1}{3}; \frac{2}{5}; \frac{3}{7}; \frac{4}{9}; \dots \frac{1000}{2001} \dots \rangle$
 > 
-> *Trick: jeden Summanden durch die höchste Potenz von $n$ dividieren*
+> *Trick: jeden Summanden durch die höchste [Potenz](Potenzen.md) von $n$ dividieren*
 >
 > $\lim_{ n \to \infty } \dfrac{n}{2n+1} = \lim_{ n \to \infty } \dfrac{\frac{n}{n}}{\frac{2n}{n}+\underset{\to 0}{\frac{1}{n} }} = \lim_{ n \to \infty } \dfrac{1}{2+0} =\dfrac{1}{2}$
 

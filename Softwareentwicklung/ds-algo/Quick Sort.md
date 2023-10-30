@@ -6,7 +6,7 @@ created: 19th August 2023
 
 # Quick Sort
 
-Ein sehr häufig verwendeter Sortieralgorithmus ist der Quick-Sort (1960 C.A.R. Hoare). Der zusätzliche Speicherbedarf und der Aufwand für das Mischen beim Merge-Sort wird beim Quick-Sort vermieden. Hier wird das Feld ebenfalls in zwei Teile zerlegt und für beide Teile der Algorithmus angewandt - am Einfachsten lässt sich Quick-Sort daher rekursiv implementieren:
+Ein sehr häufig verwendeter Sortieralgorithmus ist der Quick-Sort (1960 C.A.R. Hoare). Der zusätzliche Speicherbedarf und der Aufwand für das Mischen beim Merge-Sort wird beim Quick-Sort vermieden. Hier wird das Feld ebenfalls in zwei Teile zerlegt und für beide Teile der Algorithmus angewandt - am Einfachsten lässt sich Quick-Sort daher [rekursiv](Rekursion.md) implementieren:
 
 ```c
 int partition(int* array, int l, int r);

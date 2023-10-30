@@ -11,7 +11,7 @@ created: 29th November 2022
 - Es soll sequenziell in einem Array gesucht werden
 - Das Array besteht aus Person-Strukturelementen bestehend aus einer Personalnummer und einem Namen
 - Eine erste Suchfunktion sucht nach einem Namen wobei die Funktion iterativ implementiert werden soll.
-- Eine zweite Suchfunktion sucht nach einer Personalnummer. Hier soll die Funktion rekursiv implementiert werden.
+- Eine zweite Suchfunktion sucht nach einer Personalnummer. Hier soll die Funktion [rekursiv](../Rekursion.md) implementiert werden.
 
 Vervollständigen Sie das Programm **main.c**:
 

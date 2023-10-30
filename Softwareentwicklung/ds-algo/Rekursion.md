@@ -1,8 +1,13 @@
 ---
-tags: ["Algorithmus"]
-aliases: []
-subject: ["fsst"]
-source: ["Anton Hofmann", "freecodecamp.org"]
+tags:
+  - Algorithmus
+aliases:
+  - rekursiv
+subject:
+  - fsst
+source:
+  - Anton Hofmann
+  - freecodecamp.org
 created: 18th April 2022
 ---
 
@@ -13,11 +18,9 @@ Die Anzahl mit der sich eine Funktion selbst aufruft nennt sich rekursive Tiefe.
 | pros                                                                                            | cons                                               |
 | ----------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | Komplexe Aufgaben lassen sich elegant darstellen                                                | Langsam wegen CPU-Overhead                         |
-| Reduziert den Gebrauch von Schleifen und Hilfsdatentypen                                        | Kann zu Out-of-Memory/Stack Overflow führen        | 
+| Reduziert den Gebrauch von [Schleifen](../Schleifen.md) und Hilfsdatentypen                                        | Kann zu Out-of-Memory/[Stack](LIFO%20Stack.md) Overflow führen        | 
 | Can Reduce [time complexity](O-Notation.md) easily with [Memoisation](Rekursion.md#Memoisation) | Can be unnecessarily complex if poorly constructed |
 | Works really well with recursive structures (Trees, Graphs)                                     |                                                    |
-
-
 
 **Iteration:** mehrmaliges/wiederholtes Ausführen einer Aktion.
 
@@ -48,9 +51,7 @@ Pizzaessen():
 		Pizzaessen()
 ```
 
-
-
-Wir Menschen denken "eher Rekursiv", häufig lassen sich Probleme anschaulich rekursiv lösen. Eine Rekursion vereinfacht ein komplexes Problem mit jedem Schritt. Nachteil: in den meisten Fällen ist eine iterative Lösung effizienter. Eine rekursive Lösung benötigt durch die vielmalige Funktionsaufrufe mehr Speicher (Stack).
+Wir Menschen denken "eher Rekursiv", häufig lassen sich Probleme anschaulich rekursiv lösen. Eine Rekursion vereinfacht ein komplexes Problem mit jedem Schritt. Nachteil: in den meisten Fällen ist eine iterative Lösung effizienter. Eine rekursive Lösung benötigt durch die vielmalige Funktionsaufrufe mehr Speicher ([Stack](LIFO%20Stack.md)).
 
 Grundsätzlich gilt:
 
@@ -105,10 +106,10 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 > 	return memo[n];
 > }
 > ```
-> 
+>
 > repeated patterns in the recursion tree are saved in the `memo` object.  
 > ![650](fib_tree.svg)
-> 
+>
 > ``` js
 > memo = {
 > 	// memo contents
@@ -128,7 +129,6 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 > In how many ways can you travel to the goal on a grid with dimensions $m\cdot n$
 > 
 > Write a function `gridTraveler(m, n)` that calculates this.
-
 
 |**Example**|`gridTraveler(2,3)` $\rightarrow$ 3 |
 |-|-|

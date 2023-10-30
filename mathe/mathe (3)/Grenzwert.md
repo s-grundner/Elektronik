@@ -6,7 +6,6 @@ tags:
 aliases:
   - Konvergenz
   - konvergiert
-  - konvergente Folgen
   - limes
 subject:
   - mathe

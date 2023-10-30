@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# Rekursion - Übungen
+# [Rekursion](../Rekursion.md) - Übungen
 
 ## Selbstaufruf Ohne Abbruchbedingung
 
@@ -28,7 +28,7 @@ void cntup(int von, int bis) {
 }
 ```
 
-Zählen von einer Zahl bis zu einer zweiten Zahl rekursiv:
+Zählen von einer Zahl bis zu einer zweiten Zahl [rekursiv](../Rekursion.md):
 
 ```c
 void cntup(int von, int bis) {
@@ -38,7 +38,7 @@ void cntup(int von, int bis) {
 }
 ```
 
-Wird hier ein entsprechend großer Bereich eingeben, dann bricht auch hier das Programm aufgrund eines Stack-Overflow ab (Rekursiv häufig ineffizient).
+Wird hier ein entsprechend großer Bereich eingeben, dann bricht auch hier das Programm aufgrund eines Stack-Overflow ab ([Rekursiv](../Rekursion.md) häufig ineffizient).
 
 ## Ganzzahlige Addition
 
@@ -48,7 +48,7 @@ Wird hier ein entsprechend großer Bereich eingeben, dann bricht auch hier das P
 
 ## Ganzzahlige Multiplikation
 
-> [!EXAMPLE] Rekursiv kann eine Multiplikation sehr einfach in eine Addition überführt werden (so machen wir das auch wenn wir im Kopf rechnen):  
+> [!EXAMPLE] [Rekursiv](../Rekursion.md) kann eine Multiplikation sehr einfach in eine Addition überführt werden (so machen wir das auch wenn wir im Kopf rechnen):  
 > mult(a, b) = 0						für b = 0  
 > mult(a, b) = a + mult(a, b-1)		sonst
 
@@ -56,13 +56,13 @@ Typischer Fehler: Abbruchbedingung wird nie erreicht wenn b<0 ist.
 
 ## Ganzzahlige Division
 
-> [!EXAMPLE] Auch eine Division kann durch eine Rekursion relativ einfach gelöst werden (ohne Verwendung von "%" und "/").  
+> [!EXAMPLE] Auch eine Division kann durch eine [Rekursion](../Rekursion.md) relativ einfach gelöst werden (ohne Verwendung von "%" und "/").  
 > `div(a, b) = 0 //für b > a`  
 > `div(a, b) = 1 + div(a-b, b) //sonst`
 
 ## Ganzzahlige Subtraktion
 
-> [!EXAMPLE] Subtraktion rekursiv:  
+> [!EXAMPLE] Subtraktion [rekursiv](../Rekursion.md):  
 > ​sub(a, b) = a					für b = 0  
 > sub(a, b) = sub(a, b-1) - 1		sonst
 
@@ -197,7 +197,7 @@ Um zwei Scheiben von A auf B zu versetzen kann das Problem wiederum vereinfacht 
 
 Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschoben werden. Mit dieser Fähigkeit wiederum 3 Scheiben, mit dieser wiederum 4 Scheiben und so fort.
 
-In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann rekursiv eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
+In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann [rekursiv](../Rekursion.md) eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
 
 Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
 

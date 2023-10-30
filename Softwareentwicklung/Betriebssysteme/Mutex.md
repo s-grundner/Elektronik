@@ -154,6 +154,6 @@ std::unique_lock<std::mutex> lck(mu);
 
 (Verwendung siehe Unten: mit diesem sind weitere Funktionen verfügbar).
 
-Eine weitere **Deadlock** Situation (bleibende Sperre) kann erfolgen, wenn sich eine Funktion innerhalb dieses Bereichs selber rekursiv aufruft.
+Eine weitere **Deadlock** Situation (bleibende Sperre) kann erfolgen, wenn sich eine Funktion innerhalb dieses Bereichs selber [rekursiv](../DS-Algo/Rekursion.md) aufruft.
 
 Mutex arbeiten mit einer Sperre des kritischen Bereichs (daher mutual exclusion = gegenseitiges Ausschließen).

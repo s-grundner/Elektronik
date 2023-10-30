@@ -47,7 +47,7 @@ Allgemeines Beispiel für eine Einwegfunktion:
 
 Das Ausmultiplizieren dieses Terms ist trivial möglich. Umgekehrt, um von der Lösung auf diesen Term zurück zu schließen ist kein Verfahren existent (für Polynome mit Grad größer 5 ist das bewiesen!).
 
-Häufig werden diese Hash-Werte rekursiv berechnet, zum Beispiel:
+Häufig werden diese Hash-Werte [rekursiv](../DS-Algo/Rekursion.md) berechnet, zum Beispiel:
 
 - Klartext-Dokument *M* wird in *m*-lange Teile zerlegt, M = (M1, M2 … Mk)
 - Der Hash-Wert *h* hat eine Länge *n* (<*m*)

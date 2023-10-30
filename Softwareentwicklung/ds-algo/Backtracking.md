@@ -8,7 +8,7 @@ created: 29th November 2022
 
 Backtracking ist ein Problemlösungsverfahren nach dem *Trial-and-Error* (Versuch-und-Irrtum) Prinzip. Auf dem Weg zur Lösung wird ein möglicher Versuch angenommen und verfolgt bis er sich als richtig herausstellt oder ansonsten wird der Versuch zurückgenommen und ein alternativer Versuch unternommen.
 
-In vielen Fällen wird Backtracking rekursiv implementiert.
+In vielen Fällen wird Backtracking [rekursiv](Rekursion.md) implementiert.
 
 Wenn es eine Lösung gibt, dann wird diese mittels Backtracking immer gefunden. Wird keine Lösung gefunden, dann gibt es keine Lösung. Es wird nicht automatisch eine optimale Lösung gefunden.
 
@@ -26,7 +26,7 @@ Gegeben ist ein Labyrinth mit einer Start und einer End-Position auf einem 2 dim
 
 3. Ist das Ziel erreicht, dann Ende.
 
-4. Ist der Schritt möglich (keine Kollision mit einer Mauer), dann wird der Schritt beibehalten und der Algorithmus wiederholt sich beginnend mit Pkt. 1 (Selbstaufruf -> Rekursion).
+4. Ist der Schritt möglich (keine Kollision mit einer Mauer), dann wird der Schritt beibehalten und der Algorithmus wiederholt sich beginnend mit Pkt. 1 (Selbstaufruf -> [Rekursion](Rekursion.md)).
 
 5. Ist der Schritt nicht möglich und es wurden schon sämtliche andere Richtungen vom aktuellen Punkt versucht, dann wird das Feld als nicht zielführend markiert, der Schritt rückgängig gemacht und eine andere Option geprüft.
 
