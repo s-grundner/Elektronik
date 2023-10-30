@@ -17,7 +17,6 @@ professor:
 
 Zwei Polynomfunktionen $p(x) := \sum_{i=0}^n a_{i}x^i$ und 
 
-
 # Tags
 
 [Polynomdivision](Polynomdivision.md)
