@@ -27,4 +27,9 @@ created: 24th March 2022
 > - Man nennt $1$ den *Grenzwert* der Folge $\langle 1-\frac{1}{n}\rangle$ und sagt, dass die Folge gegen $1$ strebt.
 > - $x_{n} \to 1$ für $n\to \infty$
 
+> [!EXAMPLE] $\langle a_{n} = \frac{1}{n}, n \in \mathbb{N}^*$
+> $g = \lim_{ n \to \infty } a_{n} = 0\qquad \varepsilon \dots$ beliebig kleine Zahl $> 0$
+> 
+> 
+
 # Tags
