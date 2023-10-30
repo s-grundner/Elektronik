@@ -1,6 +1,7 @@
 ---
-tags: []
-aliases: []
+tags: 
+aliases:
+  - Reihe
 created: 30. Oktober 2023
 ---
 

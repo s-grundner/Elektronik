@@ -17,10 +17,10 @@ created: 24th March 2022
 >
 > $$c_{n} = \frac{n}{n+1}$$
 
-> [!INFO] *rekursive Darstellung* einer Folge ([rekursiv](../Softwareentwicklung/DS-Algo/Rekursion.md) = zurücklaufend):
-> Angabe, wie das Glied $a_{n}$ aus dem *vorhergehenden* Folgegliedern berechnet werden kann.
-> $$x_{1} 1\qquad $$
-> 
+> [!INFO] *rekursive Darstellung* einer Folge ([rekursiv](../Softwareentwicklung/DS-Algo/Rekursion.md) = zurücklaufend):  
+> Angabe, wie das Glied $a_{n}$ aus dem *vorhergehenden* Folgegliedern berechnet werden kann.  
+>
+> $$x_{1} = 1\qquad x_{n+1}=x_{n}+\frac{3}{x_{n}}$$
 
 ## Konvergente Folgen
 

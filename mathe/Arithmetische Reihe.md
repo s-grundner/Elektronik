@@ -15,3 +15,7 @@ s_{n} &= \frac{n}{2} \cdot (2\cdot a_{1}+(n-1)\cdot d) \\
 &=\frac{n}{2} \cdot (a_{1}+a_{n})
 \end{align}
 $$
+
+## Summe Arithmetischer Reihen
+
+![](assets/2023-10-30_15h04_06.png)
