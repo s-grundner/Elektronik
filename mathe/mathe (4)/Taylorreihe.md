@@ -10,7 +10,7 @@ created: 24th March 2022
 
 ## Entwicklung an der Stelle 0
 
-## [Differenzieren](../mathe%20(3)/Differenzialrechnung.md) & [Integrieren](../mathe%20(3)/Integralrechnung.md) von [Potenzreihen](Potenzreihe.md)
+## [Differenzieren](../mathe%20(3)/Differenzialrechnung.md) & [Integrieren](../mathe%20(3)/Integralrechnung.md) Von [Potenzreihen](Potenzreihe.md)
 
 > [!EXAMPLE] Beweis der Eulerschen Formel [Potenzreihe](Potenzreihe.md)
 
