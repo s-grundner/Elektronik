@@ -206,11 +206,11 @@
 	{trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
 	{trigger: "II", replacement: "\\mathbb{1}", options: "mA"},
+	{trigger: "DD", replacement: "\\mathbb{D}", options: "mA"},
 	{trigger: "\\mathbb{1}I", replacement: "\\hat{\\mathbb{1}}", options: "mA"},
 	{trigger: "AA", replacement: "\\mathcal{A}", options: "mA"},
 	{trigger: "BB", replacement: "\\mathbf{B}", options: "mA"},
 	{trigger: "EE", replacement: "\\mathbf{E}", options: "mA"},
-
 
 
 	// Unit vectors
