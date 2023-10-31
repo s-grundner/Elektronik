@@ -2,7 +2,8 @@
 tags:
   - Java
   - Java/stream
-aliases: []
+  - Software-Engineering
+aliases: 
 keywords:
   - Grundsymbole von Java
   - Deklarationen und Zahlentypen

@@ -10,7 +10,7 @@ Ein Unit-Test testet eine kleine Einheit (Unit), noch bevor sie in das gesamte P
 
 Damit findet der Test möglichst unabhängig von anderen Komponenten ab. In vielen Entwicklungstools kann ein Unit-Test bereits während der Entwicklung mit integriert werden. Der große Vorteil gegenüber einem bloßen manuellen Testen ist, dass mit jeder späteren (auch kleinen) Änderung gleich eine ganze Reihe von Tests wieder gestartet werden kann. Der zweite große Vorteil ist, dass ein entsprechender Nachweis der Testung mitgeliefert werden kann.
 
-## Unit-Test Mit QTCreator C++ (651)
+## Unit-Test Mit QTCreator [C++](../../Cpp/{MOC}%20Cpp.md) (651)
 
 <https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html>
 
@@ -26,7 +26,7 @@ Damit werden schon ein paar Makros integriert, zusätzlich auch noch ein paar Fu
 - ~TestCalculator();
 - void test_case1();
 
-**autotest.pro** (Qt-Projektkonfiguration):
+**autotest.pro** ([Qt](../../Cpp/Qt.md)-Projektkonfiguration):
 
 ```
 QT += testlib
@@ -163,11 +163,11 @@ Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
 17:14:42: ...Autotest.exe wurde mit dem Rückgabewert 0 beendet
 ```
 
-## Java - JUnit (401)
+## [Java](../../Java/{MOC}%20Java.md) - JUnit (401)
 
  <https://www.youtube.com/watch?v=v2F49zLLj-8> 
 
-- Neues Java-Projekt:  
+- Neues [Java](../../Java/{MOC}%20Java.md)-Projekt:  
   401_Calculator, mit Setting "Projektordner als Stammverzeichnis für Quellenund Klassendateien verwenden"
 
 - Neues Paket: calc
