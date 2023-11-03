@@ -23,7 +23,7 @@ Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 
 [Permutation](Permutation.md)
 
-## Stichprobe $k$ aus $n$ 
+## Stichprobe $k$ aus $n$
 
 [Variation](Variation.md)  
 [Kombination](Kombination.md)
