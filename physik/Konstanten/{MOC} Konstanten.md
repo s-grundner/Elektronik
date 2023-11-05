@@ -5,7 +5,7 @@ tags:
   - MOC
 ---
 
-# Physikalischen Konstanten
+# Physikalische Konstanten
 
 ```dataview
 TABLE symbol, value, unit
