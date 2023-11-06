@@ -38,18 +38,20 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > Das Bilden der Ableitung wird *ableiten* oder *differenzieren* genannt.
 
 > [!SUCCESS] Differenzieren heißt linear approximieren
-> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *[Grenzwert](Grenzwert.md) des Differenzenquotienten*: $f'(x_{0})=\frac{\lim_{ \Delta x \to \infty }\Delta y}{\Delta x}$.
+> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *[Grenzwert](Grenzwert.md) des Differenzenquotienten*: $f'(x_{0})=\frac{\lim_{ \Delta x \to 0}\Delta y}{\Delta x}$.
 > 2. Die Bezeichnung $\frac{dy}{dx}$ soll an die Verwandtschaft der Ableitung mit einem Differenzenquotient erinnern.  
 > 	Differenzierbarkeit einer Funktion an der Stelle $x_{0}$ bedeutet geometrisch, dass es dort eine *Tangente* gibt.  
 > 	Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.  
 > 	In der Nähe von $x_{0}$ verlaufen der Funktionsgraph und die Tangente "praktisch" glech.
 
-![](assets/Pasted%20image%2020230923151105.png)
+
+>[!EXAMPLE] $f(x) = x^{2}$
+> $\lim_{ \Delta x \to 0 } \frac{(x+\Delta x)^{2}-x^{2}}{\Delta x^{2}}$
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                      |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | konstante Funktion                              | $f(x)=c$                                                     | $f'(x)=0$                                                                      |
-| Potenzfunktion                                  | $f(x)=x^{n},n\in\mathbb{R}$                                  | $f'(x)=n\cdot x^{n-1}$                                                         |
+| Potenzfunktion                                  | $f(x)=a\cdot x^{n},n\in\mathbb{R}$                                  | $f'(x)=a\cdot n\cdot x^{n-1}$                                                         |
 | Exponentialfunktion                             | $f(x)=a^{x}$ <br> $f(x)=e^{x}$                               | $f'(x)=a^{x}\cdot \ln a$ <br> $f'(x)=e^{x}$                                    |
 | Logarithmusfunktion                             | $f(x)=\ln x$ <br> $f(x)=\log_{a}$                            | $f'(x)=\frac{1}{x}$ <br> $f'(x)=\frac{1}{x\cdot \ln a}$                        |
 | Kreisfunktionen <br> (*Winkel $x$ im Bogenmaß*) | $f(x)=\sin x$<br>$f(x)=\cos x$<br>$f(x)=\tan x$              | $f'(x)=\cos x$<br>$f'(x)=-\sin x$<br>$f'(x)=1+\tan ^{2}x=\frac{1}{\cos ^{2}x}$ |
@@ -59,9 +61,21 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ### Faktorregel
 
+$$
+[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}
+$$
+
 ### Summenregel
 
+$$
+[f(x) \pm g(x)]' =f'(x) \pm g'(x)
+$$
+
 ### Produktregel
+
+$$
+[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)
+$$
 
 ### Quotientenregel
 
