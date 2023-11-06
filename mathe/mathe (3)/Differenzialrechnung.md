@@ -72,16 +72,19 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Partielle Ableitung
 
-Oft hängen die untersuchten (physikalischen) Größen nicht nur von einer Variable ab, sondern sind i.A. Funktionen des Ortes x, der Zeit t, etc.
-
-Als Skalarfeld bezeichnet man eine Funktion, die jedem Punkt des Raumes (zu jedem Zeitpunkt) eine reelle Zahl zuordnet (z.B. Temperaturfeld):
-
 $$
-\begin{align}
- x &\in \mathbb{R}^{3}, t \in \mathbb{R} \\
-f&: \mathbb{R}^{3}\times \mathbb{R} \to \mathbb{R}^{3} 
-\end{align}
+\frac{\partial f}{\partial x}= f_{x}
 $$
+
+![](assets/Pasted%20image%2020231106143510.png)
+
+![](assets/Pasted%20image%2020231106143523.png)
+
+## Totales Differenzial
+
+![](assets/Pasted%20image%2020231106143654.png)
+
+![](assets/Pasted%20image%2020231106143725.png)
 
 # Tags
 
