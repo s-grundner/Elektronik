@@ -1,10 +1,20 @@
 ---
-tags: ["Java"]
-aliases: []
+tags:
+  - Java
+aliases:
+  - Vararg
+  - Funktionen
+  - Unterprogramme
+  - Prozeduren
+  - Methoden
 created: 29th November 2022
 ---
 
 # 8 Methoden / Funktionen
+
+> [!INFO] Funktion: Methode mit Rückgabewert
+
+> [!INFO] Prozedur: Methode ohne Rückgabewert
 
 (Funktionen/Unterprogramme/Prozeduren). Methoden dienen zur Kapselung von Programmteilen. Dadurch wird die Software besser lesbar. Methoden können wiederholt ausgeführte Progammteile beinhalten und damit das Programm vereinfachen. Eine Methode führt Operationen aus und benötigt dazu (eventuell) Informationen. Diese Information muss der Methode beim Aufruf mitgegeben werden (Aufrufparameter). Manche Methoden haben auch ein Ergebnis. Dieses Ergebnis kann als Rückgabewert der aufrufenden Hierarchie zurückgegeben werden.
 

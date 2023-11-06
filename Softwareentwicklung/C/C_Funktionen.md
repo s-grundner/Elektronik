@@ -1,6 +1,8 @@
 ---
-tags: ["C"]
-aliases: []
+tags:
+  - C
+aliases:
+  - Funktionen
 created: 29th November 2022
 ---
 
