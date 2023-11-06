@@ -13,6 +13,14 @@ professor:
 
 # Polynom
 
+## Polynomfunktionen
+
+> [!INFO] $f(x) = \sum_{i=0}^na_{i}x^{i}$ mit $a_{n}\neq 0$
+> über $\mathbb{R}$: $f\to$
+
+
+
+
 ## Koeffizientenvergleich
 
 Zwei Polynomfunktionen $p(x) := \sum_{i=0}^n a_{i}x^i$ und 
