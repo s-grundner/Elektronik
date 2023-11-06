@@ -10,11 +10,9 @@ created: 24th March 2022
 
 ## Entwicklung an der Stelle 0
 
-## [Differenzieren](../mathe%20(3)/Differenzialrechnung.md) & [Integrieren](../mathe%20(3)/Integralrechnung.md) Von [Potenzreihen](Potenzreihe.md)
+# Differenzieren von Taylorreihen
 
-> [!EXAMPLE] Beweis der Eulerschen Formel [Potenzreihe](Potenzreihe.md)
-
- > [!EXAMPLE] Darstellung des Sinuses mit einer Taylorreihe (unterschiedliche [Potenzreihen](Potenzreihe.md))
+# Integrieren von Taylorreihen
 
 ---
 
