@@ -20,7 +20,7 @@ Effizienter kann in einem bereits sortierten Feld mittels **Binärer Suche** ges
 - Falls der Schlüssel kleiner als der Wert des Elements in der Mitte ist: Wiederholen des Algorithmus mit der rechten Feld-Hälfte
 - Wenn das zu durchsuchende Feld kein Element mehr beinhaltet: Ende der Suche - Element nicht vorhanden.
 
-Dieser Algorithmus lässt sich sehr einfach [rekursiv](Rekursion.md) lösen. Im Ungünstigsten Fall benötigt die Binäre Suche lg(N) Vergleiche.
+Dieser Algorithmus lässt sich sehr einfach [rekursiv](Rekursion.md) lösen. Im Ungünstigsten Fall benötigt die Binäre Suche `O(log(n))` Vergleiche.
 
 ```c
 /*
@@ -31,11 +31,11 @@ Dieser Algorithmus lässt sich sehr einfach [rekursiv](Rekursion.md) lösen. Im 
  */
 int binsearch(int a[], int left, int right, int key) {
     int m;
-    if( left <= right ) {
-        m = (left+right)/2;
-        if( key == a[m] ) return m;
-        else if( key < a[m] ) return binsearch(a, left, m-1, key);
-        else return binsearch(a, m+1, right, key);
+    if(left <= right) {
+        m = (left + right) / 2;
+        if(key == a[m]) return m;
+        else if(key < a[m]) return binsearch(a, left, m - 1, key);
+        return binsearch(a, m + 1, right, key);
     }
     return -1;
 }
