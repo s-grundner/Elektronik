@@ -45,7 +45,7 @@ SORT file.cday DESC
  - [Quadratische Funktionen](Quadratische%20Funktionen)
  - [Polynomfunktion](Polynomfunktion)
  - [Komplexe Zahlen](mathe%20(3)/Komplexe%20Zahlen.md)
- - [Exponentialfunktionen](Exponentialfunktionen)
+ - [Exponentialfunktion](mathe%20(3)/Exponentialfunktion.md)
  - [Logarithmus](Logarithmus)
 
 ## 3. JG

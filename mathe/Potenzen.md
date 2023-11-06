@@ -16,3 +16,5 @@ professor:
 # Potenzen
 
 ## Potenzregeln
+
+## Potenzfunktion
