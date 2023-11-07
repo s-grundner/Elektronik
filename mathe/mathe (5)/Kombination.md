@@ -28,7 +28,7 @@ Darf jedes Objekt nur einmal auftreten, spricht man von einer **Kombination ohn
 > 4 auswählen, die keinen Platz bekommen:  
 >
 > $$\binom{30}{4} = 27405$$
-  
+
 > [](Kombinatorik.md#Produktregel)  
 >
 > $$\binom{30}{4}\cdot 26!$$

@@ -26,12 +26,12 @@ created: 8th January 2023
 sei $\omega\in\Omega$ (ein Ausgang)  
 $n$ Versuche
 
-### absolute Häufigkeit
+### Absolute Häufigkeit
 
 - $H(\omega)$ … Anzahl des Auftretens von $\omega$
 - $\sum\limits_{\omega\in\Omega}H(\omega)=n$
 
-### relative Häufigkeit
+### Relative Häufigkeit
 
 - $h(\omega)=\dfrac{H(\omega)}{n}$
 - $\sum\limits_{\omega\in\Omega}h(\omega)=1$
