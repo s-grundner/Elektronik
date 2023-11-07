@@ -92,4 +92,4 @@ $A \iff B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$
 
 https://www.youtube.com/watch?v=FG-Uaulcw_g
 
-[^1]: Definition 1.3 - [Skriptum - Andreas Neubauer](../xEDU/Mathe/mathematik.pdf), [S. 5]
+[^1]: Definition 1.3 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 5]

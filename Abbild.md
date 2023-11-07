@@ -11,7 +11,5 @@ semester: 1
 created: 7. November 2023
 professor:
 ---
- 
 
 # Abbild
-
