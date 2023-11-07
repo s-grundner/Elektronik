@@ -10,6 +10,10 @@ created: 24th October 2022
 
 ![700](../assets/Kombinatorik-formeln.PNG)
 
+>[!EXAMPLE] 6 Kugeln in den Eierkarton mit 10 Boxen
+> Kugeln nicht unterscheidbar: Kombination
+> Mehrere Kugeln in einer Box möglich: mit Wiederholung
+
 ## Produktregel
 
 Vorgang in $k$ Schritten
@@ -25,8 +29,10 @@ Es gibt insgesamt $n_{1}\cdot n_{2}\dots n_{k}$ Möglichkeiten
 
 ## Stichprobe $k$ aus $n$
 
-[Variation](Variation.md)  
-[Kombination](Kombination.md)
+Unterscheidbare Elemente: [Variation](Variation.md)  
+nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
+
+> [!WARNING] Mit Wiederholung: Bei Variation und Kombination mit Wiederholung darf $k>n$ 
 
 # Tags
 
