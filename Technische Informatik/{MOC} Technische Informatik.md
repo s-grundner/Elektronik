@@ -25,3 +25,5 @@ Stromfluss ohne Feld sondern [Diffusionsstrom](https://de.wikipedia.org/wiki/Dif
 ## FET:
 
 primär Driftströme
+
+![[../assets/Excalidraw/Drawing 2023-11-07 12.10.38.excalidraw]]
