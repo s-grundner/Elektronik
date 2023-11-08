@@ -17,11 +17,12 @@ professor:
 
 ![](assets/Pasted%20image%2020231107131209.png)
 
-PMOS: macht die 1
+> [!SUCCESS] PMOS: macht die 1
 
-NMOS: macht die 0
+> [!SUCCESS] NMOS: macht die 0
 
-> [!WARNING] Fehler wenn beide zustände gleichzeitig 
+> [!WARNING] Fehler wenn beide Zustände gleichzeitig gelten:
+> Also NMOS schaltet auf 0 und PMOS schaltet auf 1
 
 > [!tip] nur nmos zweig (unten) betrachten
 > Parallel: oder
