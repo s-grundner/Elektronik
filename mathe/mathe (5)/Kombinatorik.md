@@ -10,8 +10,8 @@ created: 24th October 2022
 
 ![700](../assets/Kombinatorik-formeln.PNG)
 
->[!EXAMPLE] 6 Kugeln in den Eierkarton mit 10 Boxen
-> Kugeln nicht unterscheidbar: Kombination
+>[!EXAMPLE] 6 Kugeln in den Eierkarton mit 10 Boxen  
+> Kugeln nicht unterscheidbar: Kombination  
 > Mehrere Kugeln in einer Box möglich: mit Wiederholung
 
 ## Produktregel
