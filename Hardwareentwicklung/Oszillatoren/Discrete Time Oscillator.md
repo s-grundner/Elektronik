@@ -8,6 +8,8 @@ created: 30th January 2023
 
 # Discrete Time Oscillator
 
+> [!INFO] Wird zum Zeitmessen am IC verwendet
+
 > [!IMPORTANT] Ausgangspunkt:  
 > 4 Bit Dualzähler betrieben mit $f_{0}$ betrachtet man das MSB
 
