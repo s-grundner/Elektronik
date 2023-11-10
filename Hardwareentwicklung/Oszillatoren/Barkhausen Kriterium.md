@@ -29,6 +29,7 @@ created: 2nd January 2023
 
 >[!summary] $U_{1}=U_{3}=k\cdot U_{2}=\underbracket{k\cdot A}_{g}\cdot U_{1}$  
 > $g$ … Schleifenverstärkung
+>
 > >[!IMPORTANT] $g=1$, wenn das BHK erfüllt ist
 
 # Tags
