@@ -44,5 +44,6 @@
   "vim-toggle",
   "reference-map",
   "obsidian-spaced-repetition",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-annotator"
 ]
