@@ -33,7 +33,7 @@ $\vec{H}\dots$ [H-Feldstärke](../Hardwareentwicklung/Magnetisches%20Feld.md#Mag
 Das Kreuzprodukt beider [Vektoren](../Mathe/mathe%20(3)/Vektorrechung.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
 
 $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
-  
+
 [Transversale Elektromagnetische Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ### Nahfeld und Fernfeld
@@ -55,7 +55,7 @@ Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und de
 
 Feldabstand bei:
 - elektrisch kleinen Antennen: $r\geq 2\uplambda$
-- elektrisch großen Antennen: $r\geq$
+- elektrisch großen Antennen: $r\dots$
 
  
 
