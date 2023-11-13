@@ -2,7 +2,10 @@
 tags:
   - Java
   - OOP
-aliases: []
+aliases:
+  - Kapselung
+  - "Java_Klasse"
+  - Java_Class
 created: 29th November 2022
 ---
 
@@ -87,8 +90,7 @@ a.printNum();	// Ausführen der Methode printNum des Objekts auf das a zeigt.
 > **Objekte** können als Variable vom Typ ihrer Klasse verstanden werden.
 
 
-Konstruktor
-------------
+## Konstruktor
 
 Der Konstruktor ist eine spezielle Methode die automatisch bei der Erzeugung eines Objekts ausgeführt wird (also während dem new-Aufruf). Der Konstruktor hat den gleichen Namen wie die Klasse und (im Gegensatz zu den Methoden) KEINEN Rückgabewert, also auch kein void:
 
