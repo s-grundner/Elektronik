@@ -124,11 +124,25 @@ Diese Folge von Zahlen findet sich in der Natur sehr häufig: in Wachstumsformen
 ​	pow(x, n) = 1					wenn n = 0  
 ​	pow(x, n) = x * pow(x, n-1)		sonst
 
+```java
+static int pow(int x, int n) {
+	
+}
+```
+
 ## Potenzieren Schnell
 
 ​	pow(x, n) = 1							wenn	n = 0  
 ​	pow(x, n) = pow(x, n/2) * pow(x, n/2)	wenn n geradzahlig  
 ​	pow(x, n) = x * pow(x, n/2) * pow(x, n/2)	sonst
+
+```java
+static int pow(int x, int n) {
+	if(n == 0) return 1;
+	if(n%2 == 0) return pow(x, n/2) * pow(x, n/2);
+	return x * pow(x, n/2) * pow(x, n/2);
+}
+```
 
 ## Umrechnen Dezimale in Duale Zahlen
 
@@ -187,22 +201,39 @@ Ein klassisches Beispiel für eine rekursive Problemlösung sind die Türme von 
 
 Für einen rekursiven Algorithmus macht man sich keine Gedanken über die umfassende Problemlösung. Man versucht das Problem um "einen Grad" zu vereinfachen:
 
-Für das dargestellte Problem - Verschieben von 4 Scheiben von Stange A nach Stange B:
-
-Man schichtet 3 Scheiben auf die Stange C um (wie ist noch unbekannt). Dann müsste ja die 4te Scheibe lediglich auf B gesteckt werden und anschließend die 3 Scheiben von C auf B. Als Problem bleibt: wie werden 3 Scheiben umgeschichtet.
-
-Dazu wird das Problem wieder vereinfacht: Es werden 2 Scheiben von A auf B umgeschichtet um dann die dritte Scheibe auf C zu stecken. Dann werden wieder die beiden Scheiben von B auf C gesteckt.
-
-Um zwei Scheiben von A auf B zu versetzen kann das Problem wiederum vereinfacht werden: Es wird eine Scheibe von A nach C gesteckt, anschließend die zweite Scheibe von A auf B und dann die erste Scheibe von C nach B.
-
-Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschoben werden. Mit dieser Fähigkeit wiederum 3 Scheiben, mit dieser wiederum 4 Scheiben und so fort.
+> [!INFO] Für das dargestellte Problem - Verschieben von 4 Scheiben von Stange A nach Stange B:
+>
+> Man schichtet 3 Scheiben auf die Stange C um (wie ist noch unbekannt). Dann müsste ja die 4te Scheibe lediglich auf B gesteckt werden und anschließend die 3 Scheiben von C auf B. Als Problem bleibt: wie werden 3 Scheiben umgeschichtet.
+> 
+> Dazu wird das Problem wieder vereinfacht: Es werden 2 Scheiben von A auf B umgeschichtet um dann die dritte Scheibe auf C zu stecken. Dann werden wieder die beiden Scheiben von B auf C gesteckt.
+> 
+> Um zwei Scheiben von A auf B zu versetzen kann das Problem wiederum vereinfacht werden: Es wird eine Scheibe von A nach C gesteckt, anschließend die zweite Scheibe von A auf B und dann die erste Scheibe von C nach B.
+>
+> Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschoben werden. Mit dieser Fähigkeit wiederum 3 Scheiben, mit dieser wiederum 4 Scheiben und so fort.
 
 In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann [rekursiv](../Rekursion.md) eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
 
 Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
 
 ```java
+static int A = 1, B = 2, C = 3;
+static void move(int n, int from, int to) {
+	if(n == 1) {
+		Out.println(from + "=>" + to);
+		return;
+	}
+	int other = A + B + C - (from + to);
+	move(n-1, from, other);
+	Out.println(from + "=>" + to);
+	move(n-1, other, to);
+}
+```
 
+```txt
+1 +  2 + 3  = 6
+6 - (1 + 2) = 3
+6 - (1 + 3) = 2
+6 - (2 + 3) = 1
 ```
 
 ## Visuelle Lösung Von "Die Türme Von Hanoi"
