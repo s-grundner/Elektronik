@@ -134,6 +134,10 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 |-|-|
 | 1. right, right, down<br> 2. right, down, right <br> 3. down, right, right<br>|![gridTraveler(2,3)](gridTraveler(2,3).svg) |
 
+# Beispiele
+
+>[!EXAMPLE] [Binary Search](Binary%20Search.md)
+
 ---
 
 # Tags
@@ -142,4 +146,4 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJDJ0kBx2LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## [Tail-Call-Optimisations (TCO)](https://stackoverflow.com/questions/310974/what-is-tail-call-optimization).
+## [Tail-Call-Optimizations (TCO)](https://stackoverflow.com/questions/310974/what-is-tail-call-optimization).

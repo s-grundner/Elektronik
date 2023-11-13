@@ -201,6 +201,10 @@ In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [
 
 Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
 
+```java
+
+```
+
 ## Visuelle Lösung Von "Die Türme Von Hanoi"
 
 Bauen Sie die gefundene Lösung als JS-Worker in ein gegebenes Template ein um eine graphische Darstellung der Problemlösung zu erhalten.

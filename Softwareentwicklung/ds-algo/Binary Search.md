@@ -31,13 +31,11 @@ Dieser Algorithmus lässt sich sehr einfach [rekursiv](Rekursion.md) lösen. Im 
  */
 int binsearch(int a[], int left, int right, int key) {
     int m;
-    if(left <= right) {
-        m = (left + right) / 2;
-        if(key == a[m]) return m;
-        else if(key < a[m]) return binsearch(a, left, m - 1, key);
-        return binsearch(a, m + 1, right, key);
-    }
-    return -1;
+    if(left > right) return -1;
+    m = (left + right) / 2;
+    if(key == a[m]) return m;
+    if(key < a[m]) return binsearch(a, left, m - 1, key);
+    return binsearch(a, m + 1, right, key);
 }
 ```
 
