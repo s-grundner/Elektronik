@@ -1,6 +1,7 @@
 ---
 tags:
   - OPV
+  - Baugruppen/Verstärker
 aliases:
   - OPV
 subject:
