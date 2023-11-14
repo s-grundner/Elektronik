@@ -6,7 +6,12 @@ source: ["Rudolf Frauenschuh"]
 created: 28th September 2022
 ---
 
-# Vektorrechung
+# Vektoren 
+
+- Vektorbasis
+- Linearkombination
+
+
 
 ---
 
