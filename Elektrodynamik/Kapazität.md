@@ -25,6 +25,18 @@ $$
 Q=C\cdot U
 $$
 
+## Energie im Kondensator
+
+$$
+\begin{align}
+W_m(t)-W_m(0)&=\int_0^t p(\tau) d \tau \\
+&=\int_0^t i(\tau) u(\tau) d \tau \\
+&=\int_0^t u C \frac{d u}{d \tau} d \tau \\
+&=\int_0^{u(t)} C\cdot u\cdot d u \\
+&=\frac{C u(t)^2}{2}
+\end{align}
+$$
+
 ## Idealer Kondensator
 
 $$

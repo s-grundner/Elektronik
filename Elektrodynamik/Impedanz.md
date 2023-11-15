@@ -6,6 +6,7 @@ aliases:
   - anpassen
   - Anpassnetzwerk
   - Admittanz
+  - Scheinwiderstand
 subject:
   - hwe
   - ksn
@@ -25,15 +26,15 @@ $$
 
 | $Z$ | *Impedanz* <br> Scheinwiderstand | $\uparrow^{-1}$ | $Y$ | *Admittanz* <br> Scheinleitwert |
 | --- | -------------------------------- | --------------- | --- | ------------------------------- |
-| $R$ | *Resistanz* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
+| $R$ | *[Resistanz](../Hardwareentwicklung/Ohmsches%20Gesetz.md)* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
 | $X$ | *Reaktanz*  <br> Blindwiderstand | $\uparrow^{-1}$ | $B$ | *Suszeptanz* <br> Blindleitwert |
 
 ## Impedanz Anpassung
 
 > [!INFO] Mit Impedanz Anpassung erzielt man:
 > - Stromanpassung (Strom ist maximal, $R_{i}\gg R_{L}$) 
-> - Spannungsanpassung (Spannung ist maximal, $R_{i}\ll R_{L}$)
-> - Leistungsanpassung (Leistung ist maximal, $R_{i} = R_{L}$)
+> - Spannungsanpassung ([Spannung](Spannung.md) ist maximal, $R_{i}\ll R_{L}$)
+> - Leistungsanpassung ([Leistung](../Physik/Elektrische%20Leistung.md) ist maximal, $R_{i} = R_{L}$)
 
 ### Anpassnetzwerk
 
@@ -61,8 +62,8 @@ $$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
 > Bessere [SI](Signalintegrität.md) und [EMC](Elektromagnetische%20Verträglichkeit.md)
 
 > [!WARNING] Es gibt verschiedene Arten von Abschlussanpassung:
-> - Seriell (Widerstand am Ausgang der Quelle (Treiber))
-> - [Parallel](Parallel%20Termination.md) (Widerstand parallel zur Senke, Verbunden mit einer *Terminationvoltage* oder Masse)
+> - Seriell ([Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) am Ausgang der Quelle (Treiber))
+> - [Parallel](Parallel%20Termination.md) ([Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) parallel zur Senke, Verbunden mit einer *Terminationvoltage* oder Masse)
 > - weitere: AC parallel, Thevenin, [Diode](Halbleiter/Diode.md)
 
 # Tags

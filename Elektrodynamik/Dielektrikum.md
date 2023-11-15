@@ -20,4 +20,4 @@ professor:
 
 # Tags
 
-Suszeptivität $$
+Suszeptivität $\chi$
