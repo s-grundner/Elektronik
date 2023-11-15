@@ -31,6 +31,7 @@ created: 7th June 2022
 ![650](assets/piezo_ions.png)
 
 In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.  
+
 | Input       | Output |
 | ----------- | ------ |
 | Kraft/Druck | Spannung       |
