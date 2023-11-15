@@ -6,6 +6,9 @@
 	{trigger: "bsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:m} } \\sum\\limits_{ ${2:j=1} }^{ ${3:n} }", options: "mA"},
 	{trigger: "lsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:n} }", options: "mA"},
 	{trigger: "bbR", replacement: "\\mathbb{R}", options: "mA"},
+  {trigger: "([.])\mid|([.])", replacement: "\frac{[[0]]}{}", options: "m"},
+
+
 
 	{trigger: "ddt", replacement: "\\frac{d$0}{dt}$1", options: "mA"},
 	{trigger: "ddx", replacement: "\\frac{d$0}{dx}$1", options: "mA"},

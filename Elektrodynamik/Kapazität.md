@@ -37,6 +37,7 @@ W_m(t)-W_m(0)&=\int_0^t p(\tau) d \tau \\
 \end{align}
 $$
 
+
 ## Idealer Kondensator
 
 $$
