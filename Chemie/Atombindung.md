@@ -43,13 +43,13 @@ Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 
 | Molekül  | VSF                    | Atome                                                                               |
 | -------- | ---------------------- | ----------------------------------------------------------------------------------- |
-| $Cl_{2}$ | >![125](assets/VSF-Cl2.png) | ![125](assets/Cl.png)                                           |
-| $O_{2}$  | >![125](assets/VSF-O2.png)  | ![125](assets/O.png)                                           |
-| $N_{2}$  | >![125](assets/VSF-N2.png)  | ![125](assets/N.png)                                           |
-| $HCl$    | >![125](assets/VSF-HCl.png) | ![125](assets/H.png) ![125](assets/Cl.png) |
-| $H_{2}O$ | >![125](assets/VSF-H2O.png) | ![125](assets/H.png) ![125](assets/O.png)                                                                                     |
-| $NH_{3}$ | >![125](assets/VSF-NH3.png) | ![125](assets/N.png) ![125](assets/H.png)                                                                                    |
-| $CH_{4}$ | >![125](assets/VSF-CH4.png) | ![125](assets/C.png) ![125](assets/H.png)                                                                                   |
+| $Cl_{2}$ | ![125](assets/VSF-Cl2.png) | ![125](assets/Cl.png)                                           |
+| $O_{2}$  | ![125](assets/VSF-O2.png)  | ![125](assets/O.png)                                           |
+| $N_{2}$  | ![125](assets/VSF-N2.png)  | ![125](assets/N.png)                                           |
+| $HCl$ | ![125](assets/VSF-HCl.png) | ![125](assets/H.png) ![125](assets/Cl.png) |
+| $H_{2}O$ | ![125](assets/VSF-H2O.png) | ![125](assets/H.png) ![125](assets/O.png)                                                                                     |
+| $NH_{3}$ | ![125](assets/VSF-NH3.png) | ![125](assets/N.png) ![125](assets/H.png)                                                                                    |
+| $CH_{4}$ | ![125](assets/VSF-CH4.png) | ![125](assets/C.png) ![125](assets/H.png)                                                                                   |
 
 Durch gemeinsame Elektronenpaare erreichen all Atome Edelgaskonfiguration (8 [Valenzelektronen](Valenzelektronen.md)).  
 Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektronenpaare bestimmt:
@@ -68,7 +68,7 @@ Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektron
 
 | Molekül                   | VSF                             | Ladungsverteilung       |
 | ------------------------- | ------------------------------- | ----------------------- |
-| $Cl_2$ <br> $\Delta EN=0$ | >![VSF-Cl2](assets/VSF-Cl2.png) | >![unp](assets/unp.png) | 
+| $Cl_2$ <br> $\Delta EN=0$ | ![VSF-Cl2](assets/VSF-Cl2.png) | ![unp](assets/unp.png) | 
 
 1. Bei Atomen unterschiedlicher $\Delta EN$, die sich zu einem **symmetrischen Molekül** verbinden $\rightarrow$ **unpolare Verbindung**
 
@@ -83,36 +83,8 @@ Bei Atomen mit unterschiedlicher Elektronegativität ($\Delta EN < 1.7$) liegt e
 Atome mit unterschiedlicher Elektronennegativität und unsymmetrischem Aufbau bilden Polare Moleküle.  
 $\rightarrow$ hydrophil (wasserliebend)  
 
-Dipole heben sich auf $\rightarrow$ unpolar. 
+[Dipol (Chemie)](Dipol%20(Chemie).md) heben sich auf $\rightarrow$ unpolar. 
 
-### Dipol
-
-| Molekül                    | VSF                    | Ladungsverteilung  |
-| -------------------------- | ---------------------- | ------------------ |
-| $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl\|250](assets/VSF-HCl.png) | >![dpl\|250](assets/dpl.png) |
-
-Dipolpfeil zeigt zur negativen Ladung  
-Wichtigstes Dipolmolekül: $H_{2}O$
-
->![dpl-h2o](assets/dpl-h2o.png)
-
-#### Dipolmoment
-
-Teilpole addieren sich zum Dipolmoment:  
-**Einheit:** D - Debey  
-$H_{2}O$: $1.9D$  
-$HCl$: $1.1D$  
-$H_{2}S$: $1.1D$
-
->![dpl-H2S](assets/dpl-H2S.png)
-
-Weil Dipole sich elektrisch anziehen, kondensieren diese leicht  
-$H_{2}O$ flüssig  
-$H_{2}S$ gasförmig (geringeres Dipolmoment)
-
- 
-
----
 
 # Tags
 
