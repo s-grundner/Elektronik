@@ -34,7 +34,7 @@ created: 26. September 2023
 > [!SUMMARY] Die Summe der in einen Knoten fließenden Ströme muss gleich der Summe der aus dem Knoten herausfließenden Ströme sein.  
 >
 > $$K: I_{q}=I_{1}+I_{2}$$
-  
+
 > Allgemein:  
 >
 > $$\sum_{\text{Knoten}}=0$$
