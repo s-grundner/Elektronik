@@ -9,8 +9,7 @@ semester: 1
 created: 18. Oktober 2023
 professor:
 ---
- 
+
 
 # potenzielle Energie
-
 
