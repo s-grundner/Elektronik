@@ -1,1 +1,0 @@
-$$\vec{v}=\left(\begin{matrix}v_{x} \\ v_{y} \\ v_{z}\end{matrix}\right)$$
