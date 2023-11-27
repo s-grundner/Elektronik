@@ -16,17 +16,20 @@ Ist eine Funktion auf
 - definiert mit $f(t):[0,\infty[$
 - für $t<0$,  
 so heißt:
-  
+
 >[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C}$$
 
 > [!summary] Frequenzparameter: $s = \delta+j\omega$
 > 
 
 [Fourier Transformation](Fourier%20Transformation.md) vs. Laplace Transformation  
-$$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$  
+
+$$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$
+
 für $s=j\omega$ ist dann $F(s)=F(\omega)$
 
 >[!EXAMPLE] Bsp.: Deltaimpuls
+>
 > $$
 > \begin{align*}
 > f(t) &= 1\\
@@ -83,12 +86,14 @@ $$
 ### Zeitverschiebungs-Satz
 
 Ist $t \leq 0$ so gilt:
+
  $$
 \begin{align*}
 	&{f(t)} &&\multimap &{F(s)}\\
 	&\downarrow &&&\downarrow
 \end{align*}
 $$   
+
 ![Zeitverschiebungssatz](../assets/Zeitverschiebungssatz.png)
 
 #### Herleitung
@@ -101,6 +106,7 @@ $$
 	\mathcal {L}\{f(t\cdot a\} &= \int_{0}^{\infty}f(u)\cdot e^{-s(u+a)}dt
 \end{align*}
 $$
+
 $$
 \begin{align*}
 	f(t) &= \begin{cases}
@@ -148,6 +154,7 @@ $$
 $$
 \int_{0}^{t} f(\tau)d\tau \multimap \frac{1}{s}F(s)
 $$
+
 $$
 \begin{align*}
 	\mathcal{L}\{\sin(t)\} &= \frac{1}{s^{2}+1}\\

@@ -21,7 +21,6 @@ Zusammenhang ist die [Eulersche Formel](Eulersche%20Formel.md)
 | $\hat{u}\cdot\sin(\omega\cdot t+\varphi)$ | $\hat{u}\cdot e^{j(\omega t+\varphi)}$ |
 | Mit Differentialgleichungen lösbar        | Normal berechenbar                                    |
 
-
 ---
 
 # Tags
