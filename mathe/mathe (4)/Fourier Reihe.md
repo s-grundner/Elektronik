@@ -18,6 +18,7 @@ $f(x)=f(x+a)$
 ![400](../assets/fourReihe.png)
 
 >[!summary] $$f(x) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot x)+b_{n}\cdot\sin(n\cdot x)\right]$$
+>
 > - $a_{n}$, $b_{n}\dots$ **Fourier Koeffizienten**
 
 Sei $f$ einer $2\pi$-periodische Funktion.  
@@ -28,6 +29,7 @@ $f(x)\dots$**Trigonometrisches Polynom**
 ## Amplituden-Phasenform
 
 > [!summary] $$A_{n}\sin(b\cdot x+\varphi_{n})=a_{n}\cdot cos(n \cdot x)+b_{n} \cdot\sin(n\cdot x)$$
+>
 > - $A_{n}=\sqrt{a_{n}^{2}+b_{n}^{2}}$
 > - $\varphi=\arctan\left(\dfrac{a_{n}}{b_{n}}\right)$
 
@@ -60,6 +62,7 @@ b_{n} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)\cdot\sin(n\cdot\omega_{0}\cdot t)dt\\
 a_{0} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)dt\\
 \end{align*}
 $$
+
 Gleichrichtwert $\dfrac{a_{0}}{2}$
 
 > [!hint] Das Integrationsintervall kann beliebig verschoben werden
@@ -73,6 +76,5 @@ Gleichrichtwert $\dfrac{a_{0}}{2}$
 $$
 \alpha \risingdotseq
 $$
-
 
 ![Fourierreihe](../assets/pdf/Fourierreihe.pdf)

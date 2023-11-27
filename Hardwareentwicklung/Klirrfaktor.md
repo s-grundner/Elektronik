@@ -9,7 +9,9 @@ created: 3rd January 2023
 # Klirrfaktor
 
 Der Klirrfaktor beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Oberwellen als Effektivwert.
+
 > [!summary] $$k_{ges}=\frac{\sqrt{A_{2}^{2}+A_{3}^{2}+A_{4}^{2}+\cdots}}{\sqrt{A_{1}^{2}+A_{2}^{2}+A_{3}^{2}+A_{4}^{2}+\cdots}}$$
+>
 > - $Z\dots$ einzelnen Oberschwingungen
 > - $N\dots$ Gesamtes Signals (Grundschwingung mit Oberwellen)
 > - $A_{n}\dots$ Amplituden der $n$-ten Komponente
@@ -23,7 +25,9 @@ Der Klirrfaktor beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Ob
 
 Der Wert von $k_{ges}$ ist immer eine dimensionslose Größe $<1$. Sie wird in Prozent oder Promille angegeben.  
 Im Englischsprachigen wird der Begriff der „*total harmonic distortion*" (THD) verwendet und verkörpert die nachfolgende Näherung, welche für Klirrfaktoren $<3\%$ anwendbar ist.  
+
 $$k_{ges}=THD=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}}} = \sqrt{\frac{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}{u_{1}^{2}}}$$
+
 - Die Ermittlung des Klirrfaktors erfolgt in der Praxis durch eine *Spektralanalyse*, bzw. ein *Klirrfaktormessgerät*.
 - Bei einer Simulation mit SPICE (dh. LTSpice) kann der Klirrfaktor direkt über eine *.FOUR*-Anweisung bestimmt werden.
 - Bei LTSpice ist dazu eine transienten Analyse mit eingeschalteter Fourier-Analyse durchzuführen.
