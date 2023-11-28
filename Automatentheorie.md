@@ -35,8 +35,13 @@ $$
 
 >[!EXAMPLE] Erkennung von Folge: abba $\to$ Lampe geht an
 > Input: ababbbaabbabbaaababbaabbb
-> ![](xEDU/TI/28B28D4B-69A8-4FF8-A8A5-E397C9017CF1.jpg)
+![](xEDU/TI/44F71D63-B1DA-4000-8279-F1822C12C817.jpg)
+> 
+> Erweitern mit Leerzeichen:
+![](xEDU/TI/9F3B1C0D-165D-48C5-9B14-A51017A7C833.jpg)
 
 ### Mealy-Moore Transformation
+
+![](xEDU/TI/523A72F9-E5B8-4447-BAD1-68D723394E4C.jpg)
 
 ## Moore Automat
