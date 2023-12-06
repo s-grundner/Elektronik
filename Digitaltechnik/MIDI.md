@@ -70,7 +70,6 @@ Die Adresse der Note lässt sich wie folgt herausfinden: Die Note A0 entspricht 
 
 Soll beispielsweise die Note E2 mit einer Anschlagstärke von 64 auf Kanal 1 angeschaltet werden, sieht das übertragene Wort folgendermaßen aus:
 
-
 |             | Status    | Kanal     | Byte 1<br>(Adresse) | Byte 2<br>(Anschlagstärke) |
 | ----------- | --------- | --------- | ------------------- | -------------------------- |
 | Dezimal     | 144       | 40        | 64                  |                            |
@@ -82,7 +81,5 @@ Nach dieser Übertragung bleibt die Note so lange angeschaltet, bis ein _Note Of
 # Quellen
 
 [^1]: [ZeM College MIDI Kompendium](https://www.zem-college.de/indexf.html)
-
 [^2]: [Expanded MIDI 1.0 Messages List (Status Bytes)](https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes)
-
 [^3]: [MIDI note numbers and center frequencies](https://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies)

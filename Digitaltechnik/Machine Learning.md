@@ -30,8 +30,10 @@ k &= \dfrac{\Delta y}{\Delta x} =\frac{-5}{50}\\
 d &= 5
 \end{align*}
 $$
+
 --- 
 $\theta_{0}+\theta_{1}\cdot x_{1}+ \theta_{2}\cdot x_{2}\rightarrow x_{2}=-\dfrac{\theta_{1}}{\theta_{2}}\cdot x_{1}-\dfrac{\theta_{0}}{\theta_{2}}$
+
 ```functionplot
 ---
 title: 
