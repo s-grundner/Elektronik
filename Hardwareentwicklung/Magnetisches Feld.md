@@ -9,8 +9,8 @@ created: 4. September 2023
 # Magnetisches Feld
 
 
-# Ruhe Induktion
+# Ruheinduktion
 
-# Bewegt-Induktion
+# Bewegungsinduktion
 
 

@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: ["Spule", "Spulen", "Induktivität"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf", "Michael Offenhuber"]
+tags: 
+aliases:
+  - Spule
+  - Spulen
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
+  - Michael Offenhuber
 created: 8th April 2022
 ---
 
