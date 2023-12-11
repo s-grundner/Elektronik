@@ -44,8 +44,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > 	Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.  
 > 	In der Nähe von $x_{0}$ verlaufen der Funktionsgraph und die Tangente "praktisch" glech.
 
-
->[!EXAMPLE] $f(x) = x^{2}$
+>[!EXAMPLE] $f(x) = x^{2}$  
 > $\lim_{ \Delta x \to 0 } \frac{(x+\Delta x)^{2}-x^{2}}{\Delta x^{2}}$
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                                         |
@@ -58,7 +57,6 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 | Arkusfunktionen                                 | $f(x)=\arcsin x$ <br> $f(x)=\arccos x$ <br> $f(x)=\arctan x$ | $f'(x)=\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ <br> $f'(x)=-\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ |
 
 ## Ableitungsregeln
-
 
 | Summenregel     | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$                                                                |
 | --------------- | -------------------------------------------------------------------------------------------------- |
