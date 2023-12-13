@@ -1,8 +1,16 @@
-
+---
+tags:
+  - Dipol
+aliases:
+  - Dipol
+created: 15. November 2023
+---
 
 # Dipol
 
-| Molekül                    | VSF                    | Ladungsverteilung  |
+> siehe auch:  Elektrischer [Dipol](../Elektrodynamik/Dipol.md)
+
+| [Molekül](Atombindung.md)                    | VSF                    | Ladungsverteilung  |
 | -------------------------- | ---------------------- | ------------------ |
 | $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl\|250](assets/VSF-HCl.png) | >![dpl\|250](assets/dpl.png) |
 

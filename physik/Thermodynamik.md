@@ -19,16 +19,16 @@ created: 16th August 2022
 
 Alle Körper sind aus kleinen, sich ständig bewegenden Teilchen aufgebaut.
 
-## [Gasgesetze](Allgemeines%20Gasgesetz.md) - [](Allgemeines%20Gasgesetz.md#Ideales%20Gas%20und%20reales%20Gas|ideales%20und%20reales%20Gas)
+## [Gasgesetze](Allgemeines%20Gasgesetz.md)
 
-**Avogadro'sches Gesetz:**  
+**[Avogadro](Konstanten/Avogadrokonstante.md)'sches Gesetz:**  
 $p\cdot V = n\cdot R\cdot T$
 
-### Molare Gaskonstante, [Molvolumen](../Chemie/Molvolumen.md), Molare Masse
+### Molare [Gaskonstante](Konstanten/Gaskonstante.md), [Molvolumen](../Chemie/Molvolumen.md), Molare Masse
 
 | Bezeichnung                                         | Formelzeichen | Einheit                                       |
 | --------------------------------------------------- | ------------- | --------------------------------------------- |
-| allgemeine Gaskonstante                             | $R$           | $\dfrac{J}{mol\cdot K}$                       |
+| allgemeine [Gaskonstante](Konstanten/Gaskonstante.md)                             | $R$           | $\dfrac{J}{mol\cdot K}$                       |
 | [Molares Volumen](../Chemie/Molvolumen.md)                                     | $V$           | $\dfrac{dm^{3}}{mol}$ / $\dfrac{m^{3}}{kmol}$ |
 | Molare Masse ([PSE](../Chemie/Periodensystem%20der%20Elemente.md)) | $M$           | $\dfrac{g}{mol}$ / $\dfrac{kg}{kmol}$         |
 | [Temperatur](Temperatur%20und%20Teilchenmodell.md)       | $T$           | $K$                                           |
@@ -43,10 +43,12 @@ $p\cdot V = n\cdot R\cdot T$
 
 durch größere Luftfeuchtigkeit bei höheren Temperaturen.
 
-Wasserdampfmoleküle, die in der [Luft](Lufthülle%20der%20Erde.md) liegen, werden von einem sogenannten **Dampfdruck** zusammengehalten.  
+Wasserdampfmoleküle, die in der [Luft](Lufthülle%20der%20Erde.md) liegen, werden von einem sogenannten **Dampfdruck** zusammengehalten. 
+
 In **kalter** [Luft](Lufthülle%20der%20Erde.md) ist der maximal mögliche Dampfdruck **geringer** als in warmer [Luft](Lufthülle%20der%20Erde.md), deshalb können in **warmer** [Luft](Lufthülle%20der%20Erde.md) **mehr** Wassermoleküle aufgenommen werden.
 
-Die **absolute Luftfeuchtigkeit** ist der Gehalt an **Wasserdampf pro Kubikmeter** ($\dfrac{g}{m^{3}}$), wird mit einem Absolutfeuchte-Fühler bestimmt und kann zwischen 0 und einem Maximalwert liegen. Dieser Maximalwert ist von der Lufttemperatur abhängig. 
+Die **absolute Luftfeuchtigkeit** ist der Gehalt an **Wasserdampf pro Kubikmeter** ($\dfrac{g}{m^{3}}$), wird mit einem Absolutfeuchte-Fühler bestimmt und kann zwischen 0 und einem Maximalwert liegen.
+Dieser Maximalwert ist von der Lufttemperatur abhängig. 
 
 Grafik: maximale absolute Luftfeuchtigkeit in Abhängigkeit der [Temperatur](Temperatur%20und%20Teilchenmodell.md)
 
@@ -64,7 +66,7 @@ Das ist der Natürliche Treibhauseffekt.
 
 Ohne Treibhauseffekt würde die global gemittelte [Temperatur](Temperatur%20und%20Teilchenmodell.md) -18°C betragen.
 
-Durch Ausstoß von Treibhausgasen (anthropogener Treibhauseffekt) verstärkt sich der Effekt, was zur Erderwärmung führt, welche zahlreiche negative Konsequenzen mit sich führt.
+Durch Ausstoß von Treibhausgasen (anthropogener[^1] Treibhauseffekt) verstärkt sich der Effekt, was zur Erderwärmung führt, welche zahlreiche negative Konsequenzen mit sich führt.
 
 *Radius der Erde:* 6370km  
 *Troposphäre:* 10km (Atembereich)  
@@ -106,3 +108,5 @@ In die von der aufsteigenden [Luft](Lufthülle%20der%20Erde.md) entstandene "Bla
 # Tags
 
 [LEIFIphysik](https://www.leifiphysik.de/waermelehre)
+
+[^1]: anthropogen: durch den Menschen herbeigeführt. 

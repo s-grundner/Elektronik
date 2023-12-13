@@ -72,7 +72,7 @@ Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektron
 
 1. Bei Atomen unterschiedlicher $\Delta EN$, die sich zu einem **symmetrischen Molekül** verbinden $\rightarrow$ **unpolare Verbindung**
 
->![unpch4.png](assets/unpch4.png)
+![unpch4.png|400](assets/unpch4.png)
 
 Unpolare Stoffe zeigen nach außen keine Ladung und sind deshalb im Wasser schwer löslich $\rightarrow$ **Hydrophob** (z.B.: Benzin).
 

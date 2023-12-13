@@ -1,8 +1,11 @@
 ---
-tags: []
-aliases: []
-subject: ["physik"]
-source: ["Norbert Irnleitner"]
+tags: 
+aliases:
+  - Wienisches Verschiebunsgesetz
+subject:
+  - physik
+source:
+  - Norbert Irnleitner
 created: 28th November 2022
 ---
 
@@ -12,7 +15,7 @@ absorbiert auftreffende elektromagnetische [Strahlung](../Chemie/Radioaktivität
 Er lässt keine [Strahlung](../Chemie/Radioaktivität.md) hindurch und spiegelt oder streut nichts.  
 Besitz ein **Absorptionsvermögen** von **$\alpha=1$**
 
-## Stefan-Boltzmann Verteilung
+## Stefan-[Boltzmann](Konstanten/Boltzmannkonstante.md) Verteilung
 
 $$
 \begin{align*}
@@ -25,7 +28,7 @@ $$
 
 Durch das plancksche Strahlungsgesetz wird beschrieben, wie das Strahlungsspektrum eines schwarzen Körpers in Abhängigkeit von seiner [Temperatur](Temperatur%20und%20Teilchenmodell.md) aussieht.
 
-## Stefan-Boltzmann-Gesetz
+## Stefan-[Boltzmann](Konstanten/Boltzmannkonstante.md)-Gesetz
 
 Die Strahlungsleistung eines schwarzen Körpers ist proportional zur 4. [Potenz](../Mathe/Potenzen.md) der [Temperatur](Temperatur%20und%20Teilchenmodell.md).  
 $P=\sigma\cdot A\cdot T^{4}$ 
