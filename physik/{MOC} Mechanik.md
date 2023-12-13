@@ -1,35 +1,50 @@
 ---
-tags: ["MOC"]
-aliases: ["Mechanik"]
-subject: ["physik"]
-source: ["Angela Lindner", "Rudolf Frauenschuh"]
-created: 19th August 2022
+tags:
+ ["MOC"]
+aliases:
+ ["Mechanik"]
+subject:
+ ["physik"]
+source:
+ ["Angela Lindner", "Rudolf Frauenschuh"]
+created:
+ 19th August 2022
 ---
 
 # Map of Content - Mechanik
 
-## 1. JG
+## 1. [Kinematik](Kinematik.md)
 
-### Masse, Volumen Und Dichte
+Bewegung von Massenpunkten, Beziehungen zwischen Ort, [Geschwindigkeit](Kinematik.md) und [Beschleunigung](Kinematik.md)
 
-### Kraft Und Kraftarten
+## 2. [Newton](Newtonsche%20Axiome.md)´sche [Axiome](../Mathe/Axiom.md)
 
-### Kräfteaddition Und -Zerlegung
+Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der Bewegung, Kräftegleichgewicht, Bewegungsgleichung, Intertialsysteme, Scheinkräfte
 
-### Kraft Und Masse - Ortsfaktor
+## 3. [Kräfte](Newtonsche%20Axiome.md) in der Natur
 
-### Hooke'sches Gesetz
+ Gewichtskraft, Auftrieb, Reibungskräfte, [Federkräfte](Federkraft.md), Gravitation, Satellitenbewegung
 
-### Gleichförmige Bewegung
+## 4. Energie
 
-### Beschleunigte Bewegung
+ [Arbeit](Mechanische%20Arbeit.md), kinetische und potentielle Energie, Erhaltungssätze, [Leistung](Elektrische%20Leistung.md) 
 
-### Bewegungsänderung
+## 5. impuls
 
-### Reibung Und Fortbewegung
+Impulserhaltung, Stoßgesetze
 
-## [Keplersche Gesetze](Keplersche%20Gesetze)
+## 6. Drehimpuls
+
+Dreimpulserhaltung, Drehmoment, Mehrkörpersysteme
+
+## 7. Dynamik starrer Körper
+
+ Schwerpunkt, Massenmittelpunkt, Drehbewegung, Rotationsenergie, Trägheitsmomente, Drehung um freie Achsen, [Moleküle](../Chemie/Atombindung.md) 
+
+## 8. Harmonische Schwingungen
+
+ Federschwinger, Pendel, gedämpfte und erzwungene Schwingungen, Resonanzen
 
 ---
 
-# Tags
+# Tagu
