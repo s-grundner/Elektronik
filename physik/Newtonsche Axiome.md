@@ -56,7 +56,7 @@ professor:
 > - Spannung in einem Seil
 > - Druck auf einer Fläche
 > - elastische Kraft in einer Feder
-> - Reibungskraft
+> - [Reibungskraft](Reibungskraft.md)
 >
 > Resultat molekularer Wechselwirkung
 
