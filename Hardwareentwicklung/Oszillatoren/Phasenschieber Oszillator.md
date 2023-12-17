@@ -51,7 +51,7 @@ Nach einsetzen der Phasenbedingung: $\omega^{2}=\dfrac{3}{R^{2}C^{2}}$
 
 $$
 \begin{align*}
-&=\frac{1}{\sqrt{1+3\cdot \dfrac{R^{2}C^{2}}{R^{2}C^{2}}}}=\frac{1}{\sqrt{4}}= \frac{1}{2}
+\left|\dfrac{U_{2}}{U_{1}}\right|&=\frac{1}{\sqrt{1+3\cdot \dfrac{R^{2}C^{2}}{R^{2}C^{2}}}}=\frac{1}{\sqrt{4}}= \frac{1}{2}
 \end{align*}
 $$
 
