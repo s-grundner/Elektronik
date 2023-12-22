@@ -38,7 +38,7 @@ $A\dots$ Fläche
 $T\dots$ [Temperatur](Temperatur%20und%20Teilchenmodell.md)  
 $\sigma\dots$ Stefan Boltzmann Naturkonstante ($\sigma = \dfrac{2\pi^5 k_\mathrm{B}^4}{15h^3c^2} = 5{,}670\,374\,419… \,\cdot 10^{-8} \, \mathrm{\dfrac{W}{m^2 K^4}}$)
 
-**Wienisches Verschiebungsgesetz:**  
+**[Wienisches Verschiebungsgesetz:](https://de.wikipedia.org/wiki/Wiensches_Verschiebungsgesetz)**  
 $\lambda_{m} = \dfrac{2.898\cdot 10^{-3}mK}{T}$  
 Mit Änderung der [Temperatur](Temperatur%20und%20Teilchenmodell.md) verändert sich auch das abgestrahlte Spektrum, insbesondere auch die Wellenlänge des Strahlungsmaximums.  
 Mit steigender [Temperatur](Temperatur%20und%20Teilchenmodell.md) T wird die Wellenlänge des Strahlungsmaximums somit kleiner.
