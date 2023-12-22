@@ -35,7 +35,6 @@ $p\cdot V = n\cdot R\cdot T$
 | Stoffmenge (Molzahl)                                | $n$           | $mol$                                         |
 | Teilchenzahl                                        | $N$           | Anzahl                                        |
 | [Avogadro](Konstanten/Avogadrokonstante.md) Konstante                                  | $N_{A}$       | $\dfrac{1}{mol}$                              |
-	
 
 ## Wetter und Klima
 
@@ -47,7 +46,7 @@ Wasserdampfmoleküle, die in der [Luft](Lufthülle%20der%20Erde.md) liegen, werd
 
 In **kalter** [Luft](Lufthülle%20der%20Erde.md) ist der maximal mögliche Dampfdruck **geringer** als in warmer [Luft](Lufthülle%20der%20Erde.md), deshalb können in **warmer** [Luft](Lufthülle%20der%20Erde.md) **mehr** Wassermoleküle aufgenommen werden.
 
-Die **absolute Luftfeuchtigkeit** ist der Gehalt an **Wasserdampf pro Kubikmeter** ($\dfrac{g}{m^{3}}$), wird mit einem Absolutfeuchte-Fühler bestimmt und kann zwischen 0 und einem Maximalwert liegen.
+Die **absolute Luftfeuchtigkeit** ist der Gehalt an **Wasserdampf pro Kubikmeter** ($\dfrac{g}{m^{3}}$), wird mit einem Absolutfeuchte-Fühler bestimmt und kann zwischen 0 und einem Maximalwert liegen.  
 Dieser Maximalwert ist von der Lufttemperatur abhängig. 
 
 Grafik: maximale absolute Luftfeuchtigkeit in Abhängigkeit der [Temperatur](Temperatur%20und%20Teilchenmodell.md)
@@ -93,7 +92,7 @@ Diese verschiedenen Luftdrücke kommen durch unterschiedliche Erwärmung u. dami
 
 [Luft](Lufthülle%20der%20Erde.md) strömt am Boden immer von Hochdruckgebieten in Tiefdruckgebiete.  
 Im TG steigt die vom HG abgeflossene [Luft](Lufthülle%20der%20Erde.md) nach oben, weil diese im HG sich erwärmt hat und Feuchtigkeit an der Erdoberfläche aufgenommen hat.  
-Es kommt dabei zur Abkühlung von [Luft](Lufthülle%20der%20Erde.md), zu Wolkenbildung und häufig zu Niederschlag.
+Es kommt dabei zur [Abkühlung](Newtonsches%20Abkühlungsgesetz.md) von [Luft](Lufthülle%20der%20Erde.md), zu Wolkenbildung und häufig zu Niederschlag.
 
 #### Wind
 

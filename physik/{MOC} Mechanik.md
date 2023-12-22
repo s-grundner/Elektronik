@@ -21,7 +21,7 @@ Bewegung von Massenpunkten, Beziehungen zwischen Ort, [Geschwindigkeit](Kinemati
 
 Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der Bewegung, Kräftegleichgewicht, Bewegungsgleichung, Intertialsysteme, Scheinkräfte
 
-## 3. [Kräfte](Newtonsche%20Axiome.md) in der Natur
+## 3. [Kräfte](Newtonsche%20Axiome.md) In der Natur
 
  Gewichtskraft, Auftrieb, Reibungskräfte, [Federkräfte](Federkraft.md), Gravitation, Satellitenbewegung
 
@@ -29,7 +29,7 @@ Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der Bewegung, Kräftegleichgewicht
 
  [Arbeit](Mechanische%20Arbeit.md), kinetische und potentielle Energie, Erhaltungssätze, [Leistung](Elektrische%20Leistung.md) 
 
-## 5. impuls
+## 5. Impuls
 
 Impulserhaltung, Stoßgesetze
 

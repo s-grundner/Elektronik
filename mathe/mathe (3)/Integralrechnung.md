@@ -10,7 +10,7 @@ created: 26th March 2022
 
 ## Unbestimmtes Integral
 
-> [!INFO] Ermittlung der Stammfunktion
+> [!INFO] Ermittlung der Stammfunktion  
 > $F(x) = \int f(x) \, dx$
 
 ### Kettenregel
