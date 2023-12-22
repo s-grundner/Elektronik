@@ -61,7 +61,7 @@ const int mydata[] PROGMEM = ...
 
 ### Examples
 
-> [!INFO] Eine Photodiode ist über einen Widerstand an PA3 angeschlossen. 
+> [!INFO] Eine Photodiode ist über einen [Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) an PA3 angeschlossen. 
 > - Bei 1 mW/cm² misst man 0,1 V
 > - bei 10 mW/cm² 4 V.
 > 
@@ -71,7 +71,7 @@ const int mydata[] PROGMEM = ...
 > - 0 Energiedichte zwischen 3 und 7 mW/cm²
 > - 1 Energiedichte > 7 mW/cm²
 
-> [!WARNING] Der AD Wandler wurde bereits initialisiert mit Single Konversion, Referenz Spannung = 5V, 10 Bit Auflösung und ADLAR = 0.
+> [!WARNING] Der AD Wandler ([SAR](SAR-ADC.md)-ADC) wurde bereits initialisiert mit Single Konversion, Referenz [Spannung](../Elektrodynamik/Spannung.md) = 5V, 10 Bit Auflösung und ADLAR = 0.
 
 ```c
 void adc_init()
