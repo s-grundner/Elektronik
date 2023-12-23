@@ -6,14 +6,13 @@ created: 22. Dezember 2023
 
 # Oszilloskop
 
-
 ## Kanäle
 
 ![InlineR|450](assets/Pasted%20image%2020231223004759.png) [^1]
 
-Das Oszilloskop verfügt über ein bis 4 Kanäle Kanäle, mit welchen jeweils verschiedene Signale gemessen werden können.
+Das Oszilloskop verfügt über ein bis 4 Kanäle Kanäle, mit welchen jeweils verschiedene Signale gemessen werden können. An die BNC-Stecker unterhalb der Kanal-Menü Tasten sind die Proben für die jeweiligen Signal anzustecken.
 
-### Kopplung (2)
+### Kopplung
 
 Mit der Kopplung eines Kanals lässt sich einstellen, mit welcher Referenz das Signal angezeigt wird. Bei der DC-Kopplung wird das Signal mit Bezug auf 0V dargestellt.
 
@@ -27,8 +26,9 @@ Die Bandbreitenbegrenzung wird durch einen Tiefpass im Oszilloskop realisiert, u
 
 ## Trigger
 
-## Probe
+## Kalibrierung
 
+### Probe
 
 # Tags
 
