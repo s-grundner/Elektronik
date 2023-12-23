@@ -27,7 +27,7 @@ Die Bandbreitenbegrenzung wird durch einen Tiefpass im Oszilloskop realisiert, u
 
 ## Trigger
 
-Der Einstellung des Triggers legt fest, wann das Oszilloskop eine neue Periode des Wechselsignals aufnimmt. Üblicherweise erfolgt dies über das Festlegen eines Schwellenwertes des Signals. Es ist aber auch möglich, das Trigger Signal extern einzuspeisen. Im Fall des Agilent 5441D ist es auch möglich den Trigger auf einen der 16 Digitalen Pins zu setzen. Im Trigger Menü  
+Der Einstellung des Triggers legt fest, wann das Oszilloskop eine neue Periode des Wechselsignals aufnimmt. Üblicherweise erfolgt dies über das Festlegen eines Schwellenwertes des Signals. Es ist aber auch möglich, das Trigger Signal extern einzuspeisen. Im Fall des Agilent 5441D ist es auch möglich den Trigger auf einen der 16 Digitalen Pins zu setzen.
 
 ## Kalibrierung
 
