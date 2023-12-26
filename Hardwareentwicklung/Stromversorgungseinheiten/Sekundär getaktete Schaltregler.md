@@ -1,5 +1,5 @@
 ---
-tags: ["SMPS"]
+tags: ["Baugruppen/SMPS"]
 aliases: ["Sekundär getakteter SMPS", "Sekundär getaktete SMPS"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -8,7 +8,7 @@ created: 2nd October 2022
 
 # Sekundär getaktete Schaltregle
 
->![SekGetaktSMPS](../assets/SekGetaktSMPS.png)
+![SekGetaktSMPS](../assets/SekGetaktSMPS.png)
 
 ## 1. Netztraffo/Gleichrichter
 

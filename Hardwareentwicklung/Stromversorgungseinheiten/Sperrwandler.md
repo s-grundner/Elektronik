@@ -1,6 +1,6 @@
 ---
 tags:
-  - SMPS
+  - Baugruppen/SMPS
   - Baugruppen/Leistung
 aliases:
   - Flyback-Converter

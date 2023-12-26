@@ -1,5 +1,5 @@
 ---
-tags: ["SMPS"]
+tags: ["Baugruppen/SMPS"]
 aliases: ["Buck-Boost-Converter", "Invertierender Wandler"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

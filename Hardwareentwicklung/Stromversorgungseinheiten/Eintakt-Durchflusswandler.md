@@ -1,6 +1,6 @@
 ---
 tags:
-  - SMPS
+  - Baugruppen/SMPS
 aliases:
   - Single transistor forward converter
 subject:

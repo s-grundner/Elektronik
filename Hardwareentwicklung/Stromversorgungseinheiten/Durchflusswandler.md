@@ -1,5 +1,5 @@
 ---
-tags: ["SMPS"]
+tags: ["Baugruppen/SMPS"]
 aliases: []
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

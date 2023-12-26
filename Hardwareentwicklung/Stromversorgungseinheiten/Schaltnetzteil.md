@@ -1,11 +1,11 @@
 ---
 tags:
-  - SMPS
+  - Baugruppen/SMPS
 aliases:
   - SMPS
   - Switched Mode Power Supply
   - Schaltregler
-  - "#SMPS"
+  - "#Baugruppen/SMPS"
 subject:
   - hwe
 source:
@@ -17,7 +17,7 @@ created: 6th April 2022
 
 Auch SMPS (Switched Mode Power Supply)
 
-## Vorund Nachteile
+## Vor und Nachteile
 
 ### Vorteile
 

@@ -1,5 +1,5 @@
 ---
-tags: ["SMPS"]
+tags: ["Baugruppen/SMPS"]
 aliases: ["Aufwärtswandler", "Step-Up", "Tiefsetzsteller"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
