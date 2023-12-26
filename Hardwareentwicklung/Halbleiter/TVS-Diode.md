@@ -24,12 +24,12 @@ Deshalb gibt es mehrere TVS-[Dioden](Diode.md) in einem einzigen Package.
 
 ### Arbeitsspannung
 
-Die Arbeitsspannung ist die maximale Spannung, welche im Normalbetrieb auf der [Leitungstheorie](../../HF-Technik/Leitungstheorie.md) vorkommt. z.B. 3.3V
+Die Arbeitsspannung ist die maximale [Spannung](../../Elektrodynamik/Spannung.md), welche im Normalbetrieb auf der [Leitung](../../HF-Technik/Leitungstheorie.md) vorkommt. z.B. 3.3V
 
 ### Klemmspannung
 
 Im Falle eines [ESD](../ESD.md)-Spikes, wirkt die TVS-[Diode](Diode.md) niederohmig gegen Masse.  
-Die Spannung, die dabei an der [Diode](Diode.md) abfällt, ist die Klemmspannung.  
+Die [Spannung](../../Elektrodynamik/Spannung.md), die dabei an der [Diode](Diode.md) abfällt, ist die Klemmspannung.  
 Obwohl sie immer noch signifikant höher ist als die Betriebsspannung, ist sie aufgrund der kurzen Dauer nicht weiter gefährlich, trotzdem sollte sie in jedem Anwendungsfall möglichst gering gewählt werden.  
 Einen genauen Wert dafür findet man nur sehr schwer.  
 Man sollte im Datenblatt der TVS-[Diode](Diode.md) auf Verweise für typische Applikationen achten.

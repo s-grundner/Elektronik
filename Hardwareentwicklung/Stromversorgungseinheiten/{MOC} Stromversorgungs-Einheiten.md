@@ -4,6 +4,7 @@ tags:
 aliases:
   - Netzteil
   - Netzteile
+  - Netzteils
 subject:
   - hwe
 source:

@@ -13,5 +13,5 @@ created: 26. Dezember 2023
 
 | Verfahren | Kunststoffe |
 | --------- | ----------- |
-| [FDM](../Physik/Materialkunde/FDM.md)       | [PLA](Polylactid.md),             |
+| [FDM](../Physik/Materialkunde/FDM.md)       | [PLA](../Physik/Materialkunde/Polylactid.md),             |
 | SLA       |             |

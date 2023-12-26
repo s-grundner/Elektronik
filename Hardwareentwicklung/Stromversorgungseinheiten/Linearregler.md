@@ -16,7 +16,7 @@ created: 16th March 2022
 
 # Linearregler
 
-## Typische Schaltung Eines Netzteils Mit Linearregler
+## Typische Schaltung Eines [Netzteils]({MOC}%20Stromversorgungs-Einheiten.md) Mit Linearregler
 
 1. Gleichrichterschaltung (inkl. Transformation)
 2. Siebschaltung zur Glättung der Gleichspannung
@@ -26,17 +26,17 @@ created: 16th March 2022
 	- … der [Temperatur](../../Physik/Temperatur%20und%20Teilchenmodell.md) 
 4. Last
 	- bei der Last werden üblicherweise Analoge und Digitale Versorgung mittels einer Sternförmigen Masse getrennt.
-		- (Über dem Spalt in der Masse dürfen auf einer Platine keine Leiterbahnen Verlegt werden)
+		- (Über dem Spalt in der Masse dürfen auf einer Platine keine [Leiterbahnen](../../HF-Technik/Leitungstheorie.md) Verlegt werden)
 
 ![Netzteil_sch](../assets/Netzteil_sch.png)
 
-Verlauf der Spannung:
+Verlauf der [Spannung](../../Elektrodynamik/Spannung.md):
 - Rot: vor der Stufe
 - Gelb: nach der Stufe
 
 ![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
 
-## Stabilisierung Und Regelung Von Spannung
+## Stabilisierung Und Regelung Von [Spannung](../../Elektrodynamik/Spannung.md)
 
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz

@@ -13,7 +13,7 @@ Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die 
 > 
 > Die [Grenzfrequenz](../Hardwareentwicklung/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
 > 
-> ![750](assets/MIDI-DigiFilter.png)
+> ![750|443](assets/MIDI-DigiFilter.png)
 
 Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analogesnoch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [^1]
 
