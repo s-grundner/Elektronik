@@ -1,30 +1,40 @@
 ---
-tags: []
-aliases: ["Fourierreihen", "Fourier Reihen", "Fourier-Reihe"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags: 
+aliases:
+  - Fourierreihen
+  - Fourier Reihen
+  - Fourier-Reihe
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
+  - Laurenz Hölzl
+  - Daniel Ch. v. Grüningen
 created: 24th March 2022
 ---
 
-# Fourier Reihe
+# Fourier [Reihe](../Reihen.md)
 
-Jede periodische Funktion kann aus einer Summe von Sinusund/oder Cosinus Schwingungen zusammengesetzt werden.
+1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](../Abbild.md) als eine Linearkombination von Sinus- und Cosinus-Schwingungen, eine so-genannte Fourier-[Reihe](../Reihen.md), ausdrücken lässt:
+
+$$
+	x_{p} = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(2\pi k f_{0} t) + b_{k}\cdot\sin (2\pi k f_{0} t)\Big]
+$$
+
+Jede periodische [Funktion](../Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
 ![400](../assets/Fourreihe_zerlegung.png)
 
-## Periodische Funktion
+## Periodische [Funktion](../Abbild.md)
 
 $f(x)=f(x+a)$  
 ![400](../assets/fourReihe.png)
 
->[!summary] $$f(x) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot x)+b_{n}\cdot\sin(n\cdot x)\right]$$
->
-> - $a_{n}$, $b_{n}\dots$ **Fourier Koeffizienten**
 
-Sei $f$ einer $2\pi$-periodische Funktion.  
-Ist das Periodenintervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die Funktion in eine **Fourier Reihe** zerlegt werden.
+> [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](../Abbild.md).  
+Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Abbild.md) in eine **Fourier [Reihe](../Reihen.md)** zerlegt werden.
 
-$f(x)\dots$**Trigonometrisches Polynom**
+$f(x)\dots$**Trigonometrisches [Polynom](../mathe%20(3)/Polynom.md)**
 
 ## Amplituden-Phasenform
 
@@ -45,36 +55,10 @@ $f(x)\dots$**Trigonometrisches Polynom**
 
 ![Pasted image 20230120081647](../assets/Pasted%20image%2020230120081647.png)
 
-### Periode $T$
-
-### Periode $T=2\pi$
-
-$$
-\begin{align*}
-f(t) &= \frac{a_{0}}{2}\sum\limits^\infty_{n=1}[a_{n}\cdot\cos(n\cdot\omega_{0}\cdot t) + b_{n}\cdot\sin(n\cdot\omega_{0}\cdot t)]
-\end{align*}
-$$
-
-$$
-\begin{align*}
-a_{n} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)\cdot\cos(n\cdot\omega_{0}\cdot t)dt\\
-b_{n} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)\cdot\sin(n\cdot\omega_{0}\cdot t)dt\\
-a_{0} &= \frac{2}{T}\cdot\int^{T}_{0}f(t)dt\\
-\end{align*}
-$$
-
-Gleichrichtwert $\dfrac{a_{0}}{2}$
-
 > [!hint] Das Integrationsintervall kann beliebig verschoben werden
-
-## Güte Der Näherung
 
 ---
 
 # Tags
-
-$$
-\alpha \risingdotseq
-$$
 
 ![Fourierreihe](../assets/pdf/Fourierreihe.pdf)
