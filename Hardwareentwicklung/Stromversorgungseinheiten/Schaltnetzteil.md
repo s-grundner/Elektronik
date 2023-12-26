@@ -5,6 +5,7 @@ aliases:
   - SMPS
   - Switched Mode Power Supply
   - Schaltregler
+  - Schaltreglern
   - "#Baugruppen/SMPS"
 subject:
   - hwe

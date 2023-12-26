@@ -14,3 +14,8 @@ LDOs werden verwendet, um das Rauschen in Versorgungsleitungen zu eliminieren ab
 
 ## Vorteil gegenüber [Schaltreglern](Schaltnetzteil.md)
 
+Gegenüber [Schaltreglern](Schaltnetzteil.md) haben sie den Vorteil, dass sie kompakt sind und kein Schaltrauschen verursachen. Auch der Wirkungsgrad ist aufgrund der niedrigen Dropout-[Spannung](../../Elektrodynamik/Spannung.md) hoch genug, jedoch geringer als bei [Schaltreglern](Schaltnetzteil.md).
+Mit einem maximalen Ausgangsstrom von 1 Ampere reicht er vollkommen aus, den Gitcon mit Strom zu versorgen. Jedoch ist zu beachten, dass, um die Stabilität zu gewährleisten, ein 22μF (Tantal/[Elektrolyt](../../Chemie/Elektrochemie.md)) [Kondensator](../../Elektrodynamik/Kapazität.md) am Ausgang angebracht werden sollte.
+C6 und C7 halten hier die Ein- und Ausgangsspannung bei Spannungseinbrüchen möglichst konstant. Außerdem leuchtet eine rote LED leuchtet auf, wenn das Gerät eingesteckt ist.
+
+![](assets/Pasted%20image%2020231227001552.png)
