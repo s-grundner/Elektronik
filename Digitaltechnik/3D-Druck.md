@@ -1,6 +1,9 @@
 ---
-tags: []
-aliases: []
+tags: 
+aliases:
+  - 3D-Printer
+  - 3D-Drucker
+  - 3D-Print
 created: 26. Dezember 2023
 ---
 
@@ -10,5 +13,5 @@ created: 26. Dezember 2023
 
 | Verfahren | Kunststoffe |
 | --------- | ----------- |
-| FDM       | PLA,             |
+| [FDM](../Physik/Materialkunde/FDM.md)       | [PLA](Polylactid.md),             |
 | SLA       |             |
