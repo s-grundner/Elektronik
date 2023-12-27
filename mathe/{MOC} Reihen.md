@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - MOC
 aliases:
   - Reihe
 created: 30. Oktober 2023

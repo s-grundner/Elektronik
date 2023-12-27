@@ -1,19 +1,26 @@
 ---
-tags: []
-aliases: ["Fouriertransformiert", "Fouriertransformation", "Fourier Analyse"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags: 
+aliases:
+  - Fouriertransformiert
+  - Fouriertransformation
+  - Fourier Analyse
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
+  - Laurenz Hölzl
+  - Daniel Ch. v. Grüningen
 created: 27th April 2022
 ---
 
 # Fourier Transformation
 
-Eine *periodische* Funktion $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
+Eine *periodische* [Funktion](../Abbild.md) $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
 
-Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* Funktionen die Aufgabe, diese als Überlagerung von **harmonischen Schwingungen** darzustellen.
+Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* [Funktionen](../Abbild.md) die Aufgabe, diese als Überlagerung von **harmonischen Schwingungen** darzustellen.
 
-Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der Funktion $f$.  
-Dadurch entsteht aus einer reellen Funktion $f$ eine [komplexwertige](../mathe%20(3)/Komplexe%20Zahlen.md) Funktion $F$.
+Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der [Funktion](../Abbild.md) $f$.  
+Dadurch entsteht aus einer reellen [Funktion](../Abbild.md) $f$ eine [komplexwertige](../mathe%20(3)/Komplexe%20Zahlen.md) [Funktion](../Abbild.md) $F$.
 
 Man sagt, dass die Zeitfunktion $f$ im **Original-** oder **[Zeitbereich](../mathe%20(3)/Komplexe%20Zahlen.md)** liegt, während ihre Fourier-Transformierte im **Frequenz-** oder **[Bildbereich](../mathe%20(3)/Komplexe%20Zahlen.md)** liegt.  
 Folgende Schreibweisen sind üblich:

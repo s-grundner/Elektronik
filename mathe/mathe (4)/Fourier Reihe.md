@@ -13,13 +13,17 @@ source:
 created: 24th March 2022
 ---
 
-# Fourier [Reihe](../Reihen.md)
+# Fourier [Reihe](../{MOC}%20Reihen.md)
 
-1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](../Abbild.md) als eine Linearkombination von Sinus- und Cosinus-Schwingungen, eine so-genannte Fourier-[Reihe](../Reihen.md), ausdrücken lässt:
+1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](../Abbild.md) als eine Linearkombination von Sinus- und Cosinus-Schwingungen, eine so-genannte Fourier-[Reihe](../{MOC}%20Reihen.md), ausdrücken lässt:
 
 $$
 	x_{p} = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(2\pi k f_{0} t) + b_{k}\cdot\sin (2\pi k f_{0} t)\Big]
 $$
+
+> [!INFO] Hierbei sind $a_{k}$ und $b_{k}$ sogenannte Fourier-Koeffizienten, welche den Amplituden der entsprechenden (also $k$-ten) Schwingungsanteile gleichkommen.
+
+> [!INFO] Für den Fall „$k=0$“ existiert das, den arithmetischen Mittelwert darstellende, zeitunabhängige Glied $\frac{a_{0}}{2}$. Die Grundfrequenz der Fourier-[Reihe](../{MOC}%20Reihen.md) ist über $f_{0}$ dargestellt.
 
 Jede periodische [Funktion](../Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
@@ -32,9 +36,9 @@ $f(x)=f(x+a)$
 
 
 > [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](../Abbild.md).  
-Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Abbild.md) in eine **Fourier [Reihe](../Reihen.md)** zerlegt werden.
-
-$f(x)\dots$**Trigonometrisches [Polynom](../mathe%20(3)/Polynom.md)**
+> Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Abbild.md) in eine **Fourier [Reihe](../{MOC}%20Reihen.md)** zerlegt werden.
+> 
+> $f(x)\dots$**Trigonometrisches [Polynom](../mathe%20(3)/Polynom.md)**
 
 ## Amplituden-Phasenform
 

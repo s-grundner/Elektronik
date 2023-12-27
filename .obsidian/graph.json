@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#Physik  ",
+  "search": "",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
@@ -109,6 +109,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 421,
-  "scale": 0.11660891579457655,
+  "scale": 0.08317427835927826,
   "close": false
 }
