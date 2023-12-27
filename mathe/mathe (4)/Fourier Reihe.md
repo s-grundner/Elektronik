@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - HTL-Diplomarbeit
 aliases:
   - Fourierreihen
   - Fourier Reihen

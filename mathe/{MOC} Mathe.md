@@ -34,7 +34,7 @@ SORT file.cday DESC
  - Funktionen
  - Lineare Funktionen
  - [Trigonometrie](Trigonometrie.md)
- - [Vektorrechung](mathe%20(3)/Vektorrechung.md)
+ - [Vektor](mathe%20(3)/Vektor.md)
  - Matrizen
 
 ## 2. JG

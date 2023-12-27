@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - HTL-Diplomarbeit
 aliases:
   - Diskrete Fourier Transformation
   - IDFT
@@ -52,6 +53,25 @@ Die inverse DFT (IDFT) (Synthesegleichung) ist definiert als:
 [8, p. 163 ff.] [^1]
 
 ## [Matrix](../../Mathe/mathe%20(4)/Matrix.md)-Interpretation der DFT
+
+Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
+
+$$
+\begin{align}
+X [k] &= \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn}\\
+x [n] &= \sum^{N-1}_{k=0} X[k]\cdot W_{N}^{-kn}
+\end{align}
+$$
+
+> [!QUESTION] Beide Sequenzen lassen sich in [Vektor](../../Mathe/mathe%20(3)/Vektor.md)form darstellen:
+> 
+
+## Eigenschaften der DFT
+
+- „Die DFT einer [Linearkombination](../../Mathe/mathe%20(3)/Linearkombination.md) von Signalen ist gleich der [Linearkombination](../../Mathe/mathe%20(3)/Linearkombination.md) ihrer DFTs.“ [8, p. 169]  [^1]
+- „Die DFT und die IDFT sind $N$-periodisch.“ [8, p. 169] [^1]
+- „Die Energie des Signals im Zeitbereich ist gleich der Energie des Signals im Frequenzbereich geteilt durch $N$.“ (Parceval-Theorem) [8, p. 170] [^1]
+- „Die DFT eines reellen Signals ist bezüglich dem Punkt $k= N/2$ symmetrisch.“ [8, p. 170] [^1]
 
 # Quellen
 

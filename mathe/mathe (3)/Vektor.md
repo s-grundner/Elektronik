@@ -1,6 +1,6 @@
 ---
 tags: []
-aliases: ["Vektor", "Vektoren"]
+aliases: ["Vektorrechnung", "Vektoren"]
 subject: ["mathe"]
 source: ["Rudolf Frauenschuh"]
 created: 28th September 2022

@@ -37,7 +37,7 @@ Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexi
 
 Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) in Form eines [linearen Gleichungssystems](Lineares%20Gleichungssystem) ausgedrückt.
 
-Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathe/mathe%20(4)/Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathe/mathe%20(3)/Vektorrechung.md) $a$ und $b$ als [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) ausgedrückt:
+Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathe/mathe%20(4)/Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathe/mathe%20(3)/Vektor.md) $a$ und $b$ als [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) ausgedrückt:
 
 
 

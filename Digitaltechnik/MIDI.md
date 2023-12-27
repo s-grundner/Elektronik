@@ -1,6 +1,7 @@
 ---
 tags:
   - Interface/Serial/Sync
+  - HTL-Diplomarbeit
 aliases: 
 created: 4. September 2023
 ---

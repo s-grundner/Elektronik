@@ -1,6 +1,7 @@
 ---
 tags:
   - Algorithmus
+  - HTL-Diplomarbeit
 aliases:
   - Fast Fourier Transform
 created: 26. Dezember 2023
@@ -15,6 +16,3 @@ source:
 > Eigentlich handelt es sich beim FFT-Algorithmus nur um eine Möglichkeit die [DFT](DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
 > Wiederentdeckung deshalb, weil Carl Friedrich Gauß den Algorithmus in seiner ersten Form bereits 1805 entdeckte und verwendete, diese aber nie publizierte.
 > Erst die durch diesen Algorithmus erreichte hohe Durchführungsgeschwindigkeit ermöglicht eine so breit gefächerte Anwendung.
-
-
-![](assets/Pasted%20image%2020231227003845.png)
