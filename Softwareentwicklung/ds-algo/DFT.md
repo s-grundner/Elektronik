@@ -54,12 +54,12 @@ Die inverse DFT (IDFT) (Synthesegleichung) ist definiert als:
 
 ## [Matrix](../../Mathe/mathe%20(4)/Matrix.md)-Interpretation der DFT
 
-> [!important]  Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
-> $$
+Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
+$$
 \begin{align}
 X [k] = \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_{k=0} X[k]\cdot W_{N}^{-kn}
 \end{align}
-> $$
+$$
 
 > [!important] Beide Sequenzen lassen sich in [Vektor](../../Mathe/mathe%20(3)/Vektor.md)form darstellen:
 > $$
@@ -70,7 +70,7 @@ X[1] \\
 \vdots \\
 X[N-1]
 \end{pmatrix} &&
-x_{N} = \begin{pmatrix}
+\mathbf{x}_{N} = \begin{pmatrix}
 x[0] \\
 x[1] \\
 \vdots \\
@@ -82,8 +82,11 @@ x[N-1]
 Definiert man nun noch die DFT-Matrix:
 
 $$
-\begin{pmatrix}
-
+\mathbf{W}_{N} = \begin{pmatrix}
+1 & 1 & \cdots & 1  \\
+1 & W_{N}^{1,1} & \cdots & W_{N}^{1,N-1}  \\
+\vdots  & \vdots & \ddots & \vdots \\
+1 & W^{N-1, 1} & \cdots & W_{N} ^{N-1, N-1}
 \end{pmatrix}
 $$
 
