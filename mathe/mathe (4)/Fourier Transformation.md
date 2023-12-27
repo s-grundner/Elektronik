@@ -22,9 +22,9 @@ created: 27th April 2022
 > 
 > - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](DFT.md) ([[DFT]]) und die Schnelle Fourier Transformation ([FFT](../../Softwareentwicklung/ds-algo/FFT.md)).
 
-## Unterschied zur Fourierreihe 
+## Unterschied zur [Fourierreihe](Fourier%20Reihe.md) 
 
-Der Ursprung der Fouriertransformation ist auf die Fourierreihe zurückzuführen:
+Der Ursprung der Fouriertransformation ist auf die [Fourierreihe](Fourier%20Reihe.md) zurückzuführen:
 
 > [!INFO] zur [Fourier-Reihe](Fourier%20Reihe.md):
 > Eine *periodische* [Funktion](../Abbild.md) $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
@@ -39,7 +39,9 @@ Der Ursprung der Fouriertransformation ist auf die Fourierreihe zurückzuführen
 >[!SUCCESS] Man sagt, dass die Zeitfunktion $f$ im **Original-** oder **[Zeitbereich](../mathe%20(3)/Komplexe%20Zahlen.md)** liegt, während ihre Fourier-Transformierte im **Frequenz-** oder **Bildbereich** liegt.  
 > Folgende Schreibweisen sind üblich: $F(\omega)=\mathcal{F}\{f(t)\}$ oder $f(t) \multimap F(\omega)$
 
-## $\mathcal{F}(f(t))\dots$ Fouriertransformation von $f(t)$
+## Fouriertransformierte
+
+$\mathcal{F}(f(t))\dots$ Fouriertransformation von $f(t)$
 
 $$
 \begin{align*}
@@ -55,13 +57,12 @@ $$
 
 ## Herleitung
 
-Durch Awendung der [Eulersche Formel](../mathe%20(3)/Eulersche%20Formel.md)
+Durch Anwendung der [Eulersche Formel](../mathe%20(3)/Eulersche%20Formel.md):
 
 $$
 \begin{align*}
 \cos(\varphi) &= \frac{1}{2}(e^{j\varphi}+e^{-j\varphi})\\
-\sin(\varphi) &= -j\frac{1}{2}(e^{j\varphi}-e^{-j\varphi})\\
-
+\sin(\varphi) &= -j\frac{1}{2}(e^{j\varphi}-e^{-j\varphi})
 \end{align*}
 $$
 
@@ -77,6 +78,7 @@ $$
 	f(t) &= \frac{a_{0}}{2} &&+ e^{j\omega_{0} t} \underbracket{(b_{1}\cdot \frac{1}{2j} + a_{1}\cdot \frac{1}{2})}_{C_{1}} &&+ e^{-j\omega_{0} t} \underbracket{(-b_{1}\cdot \frac{1}{2j} + a_{1}\cdot \frac{1}{2})}_{C_{-1}} &&+ e^{j\omega_{0}\cdot 2t} \underbracket{(b_{2}\cdot \frac{1}{2j} + a_{2}\cdot \frac{1}{2})}_{C_{2}} &&+ e^{-j\omega_{0}\cdot 2t} \underbracket{(-b_{2}\cdot \frac{1}{2j} + a_{2}\cdot \frac{1}{2})}_{C_{-2}}
 \end{align*}
 $$
+
 >[!tip] $$f(t) = \frac{a_{0}}{2} + \sum\limits^{\infty}_{n=-\infty} C_{n}\cdot e^{jn\omega_{0}t} \dots \text{komplexe Form der Fourierreihe}$$
 
 $$
@@ -98,12 +100,14 @@ $$
 	C_{n} &= \frac{1}{T}\int^{\frac{T}{2}}_{-\frac{T}{2}} f(t)\cdot e^{-jn\omega_{0}t} dt
 \end{align*}
 $$
+
 $$
 \begin{align*}
 \omega_{0} &= \frac{2\pi}{T}\\
 T &\rightarrow \infty\\
 n\omega_{0}&\rightarrow\omega
 \end{align*}
+
 $$
 $$
 \underline{\underline{F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt}}
