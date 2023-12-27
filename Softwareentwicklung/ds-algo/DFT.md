@@ -24,21 +24,35 @@ X_{s}(\omega) = \sum^{\infty}_{n = -\infty} = x(nT)\cdot e^{-j\omega nT} \cdot T
 $$
 
 Da eine unendliche Anzahl an Abtastwerten unmöglich zu berechnen ist, werden eine endliche Anzahl $N$ dieser herausgeschnitten/„gefenstert“ (engl: windowing).
+
 Außerdem kann der Faktor $T$ aus „Bequemlichkeit“ weggelassen werden.
 
 $$
 X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}}
 $$
 
-Dies [Funktion](../../Mathe/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen linear unabhängige Funktionswerte. Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
+Dies [Funktion](../../Mathe/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathe/mathe%20(3)/Linearkombination.md)e Funktionswerte.
+
+Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
+
 Werden der Einfachheit halber wieder einige Faktoren ($\frac{f_{s}}{N}, T$) und die Kennzeichnung $sw$ weggelassen ergibt sich die Definition (Analysegleichung) der DFT:
 
 > [!hint] Analysegleichung
+> $$
+> X[k] = \sum^{N-1}_{n=0} x[n]\cdot e^{-jkn \frac{2\pi}{N}}
+> $$
 
 Die inverse DFT (IDFT) (Synthesegleichung) ist definiert als:
 
 > [!hint] Synthesegleichung
+> $$
+> x[n] = \frac{1}{N}\sum^{N-1}_{k=0} X[k]\cdot e^{jkn \frac{2\pi}{N}}
+> $$
 
+[8, p. 163 ff.] [^1]
+
+## [Matrix](../../Mathe/mathe%20(4)/Matrix.md)-Interpretation der DFT
 
 # Quellen
 
+[^1]: Digitale Signalverarbeitung - Daniel ch. v. Grüningen

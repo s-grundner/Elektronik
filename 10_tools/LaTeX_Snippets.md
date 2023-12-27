@@ -7,8 +7,6 @@
 	{trigger: "lsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:n} }", options: "mA"},
 	{trigger: "bbR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: "\\mid\\mid([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
-  {trigger: "([A-Za-z])\\mid\|([.])", replacement: "\\frac{[[0]]+[[1]]}{[[0]]\\cdot [[1]]}", options: "rmA"},
-
 	{trigger: "ddt", replacement: "\\frac{d$0}{dt}$1", options: "mA"},
 	{trigger: "ddx", replacement: "\\frac{d$0}{dx}$1", options: "mA"},
 	{trigger: "dfx", replacement: "f'(x$0)=$1", options: "mA"},

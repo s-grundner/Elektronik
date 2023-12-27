@@ -12,8 +12,6 @@ created: 28th September 2022
 
 ## Skalar
 
-- Vektorbasis
-- Linearkombination
 
 
 
@@ -21,5 +19,7 @@ created: 28th September 2022
 
 # Tags
 
-- [Matrix](../mathe%20(4)/Matrixrechnung.md)
+- [Matrix](../mathe%20(4)/Matrix.md)
 - Tensor
+- Vektorbasis
+- [[Linearkombination]]

@@ -1,12 +1,17 @@
 ---
-tags: []
-aliases: ["Matrix", "Matrizen", "Matrixgleichung"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags: 
+aliases:
+  - Matrizen
+  - Matrixgleichung
+  - Matrixrechnung
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 28th September 2022
 ---
 
-# Matrixrechnung
+# Matrix
 
 Matrizen sind:
 - assoziativ $\rightarrow A \cdot (B \cdot C) = ( A \cdot B ) \cdot C$ 
@@ -50,8 +55,12 @@ $$
 > [!IMPORTANT] Berechnung der Werte  
 > ![400](../assets/Pasted%20image%2020230102212307.png)
 
----
+## Determinante
+
 
 # Tags
 
-<https://de.wikipedia.org/wiki/Matrizenmultiplikation>
+[Einheitsmatrix](Einheitsmatrix.md)
+
+[Matrixmultiplikation - Wikipedia](https://de.wikipedia.org/wiki/Matrizenmultiplikation)
+
