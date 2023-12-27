@@ -54,17 +54,39 @@ Die inverse DFT (IDFT) (Synthesegleichung) ist definiert als:
 
 ## [Matrix](../../Mathe/mathe%20(4)/Matrix.md)-Interpretation der DFT
 
-Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
-
-$$
+> [!important]  Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
+> $$
 \begin{align}
-X [k] &= \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn}\\
-x [n] &= \sum^{N-1}_{k=0} X[k]\cdot W_{N}^{-kn}
+X [k] = \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_{k=0} X[k]\cdot W_{N}^{-kn}
 \end{align}
+> $$
+
+> [!important] Beide Sequenzen lassen sich in [Vektor](../../Mathe/mathe%20(3)/Vektor.md)form darstellen:
+> $$
+\begin{align}
+\mathbf{X}_{N} = \begin{pmatrix}
+X[0] \\
+X[1] \\
+\vdots \\
+X[N-1]
+\end{pmatrix} &&
+x_{N} = \begin{pmatrix}
+x[0] \\
+x[1] \\
+\vdots \\
+x[N-1]
+\end{pmatrix}
+\end{align}
+> $$
+
+Definiert man nun noch die DFT-Matrix:
+
+$$
+\begin{pmatrix}
+
+\end{pmatrix}
 $$
 
-> [!QUESTION] Beide Sequenzen lassen sich in [Vektor](../../Mathe/mathe%20(3)/Vektor.md)form darstellen:
-> 
 
 ## Eigenschaften der DFT
 
