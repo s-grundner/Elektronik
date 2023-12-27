@@ -79,7 +79,7 @@ x[N-1]
 \end{align}
 > $$
 
-Definiert man nun noch die DFT-Matrix:
+Definiert man nun noch die DFT-[Matrix](../../Mathe/mathe%20(4)/Matrix.md):
 
 $$
 \mathbf{W}_{N} = \begin{pmatrix}
