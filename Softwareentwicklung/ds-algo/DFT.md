@@ -2,6 +2,9 @@
 tags: 
 aliases:
   - Diskrete Fourier Transformation
+  - IDFT
+  - Synthesegleichung
+  - Analysegleichung
 created: 27. Dezember 2023
 source:
   - Laurenz Hölzl
@@ -24,5 +27,18 @@ Da eine unendliche Anzahl an Abtastwerten unmöglich zu berechnen ist, werden ei
 Außerdem kann der Faktor $T$ aus „Bequemlichkeit“ weggelassen werden.
 
 $$
-X_{sw}(f) = \sum^{N-1}_{n=0} x(nT)
+X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}}
 $$
+
+Dies [Funktion](../../Mathe/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen linear unabhängige Funktionswerte. Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
+Werden der Einfachheit halber wieder einige Faktoren ($\frac{f_{s}}{N}, T$) und die Kennzeichnung $sw$ weggelassen ergibt sich die Definition (Analysegleichung) der DFT:
+
+> [!hint] Analysegleichung
+
+Die inverse DFT (IDFT) (Synthesegleichung) ist definiert als:
+
+> [!hint] Synthesegleichung
+
+
+# Quellen
+
