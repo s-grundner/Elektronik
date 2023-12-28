@@ -1,6 +1,7 @@
 ---
 tags:
   - HTL-Diplomarbeit
+  - incomplete
 aliases:
   - Diskrete Fourier Transformation
   - IDFT
