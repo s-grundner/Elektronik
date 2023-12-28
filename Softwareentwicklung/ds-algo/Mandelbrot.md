@@ -13,13 +13,12 @@ Das bedeutet es gibt [komplexe Zahlen](../../Mathe/mathe%20(3)/Komplexe%20Zahlen
 ```java
 int calc(int n, double xn, double yn, double a, double b)
 {
-	if ( ((xn*xn + yn*yn) > MAX) /*4: frei gewählte Schranke*/ || (n > MAXITER))
-		return n;
-		
-	double xm =  xn*xn - yn*yn + a;
-	double ym = 2*xn*yn + b;
-	n++;
-	return calc(n, xm, ym, a, b);
+  if ( ((xn*xn + yn*yn) > MAX) /*4: frei gewählte Schranke*/ || (n > MAXITER))
+    return n;
+  double xm = xn*xn - yn*yn + a;
+  double ym = 2*xn*yn + b;
+  n++;
+  return calc(n, xm, ym, a, b);
 }
 ```
 
@@ -27,4 +26,3 @@ Hier wurde die [komplexe Zahl](../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md) in 
 
 | ![C_RekursFraktal3](assets/C_RekursFraktal3.png) | ![C_RekursFraktal2](assets/C_RekursFraktal2.png) |
 | ------------------------------------------------ | ------------------------------------------------ |
-
