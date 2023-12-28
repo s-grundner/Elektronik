@@ -19,11 +19,11 @@ Bei der magnetischen Kopplung wird die Störgröße über das magnetische Feld i
 
 $$
 \begin{align*}
-H(i_{stör}) &= \frac{i_{stör}}{2\pi\cdot r}\\
-B(i_{stör}) &= \mu\cdot H(i_{stör})\\
-\Phi(i_{stör}) &= B(i_{stör})\cdot A\\
-u_{stör}&=N\cdot \frac{d\Phi}{dt}\\
-u_{stör} &= L\cdot \frac{di}{dt}
+H(i_{\text{stör}}) &= \frac{i_{stör}}{2\pi\cdot r}\\
+B(i_{\text{stör}}) &= \mu\cdot H(i_{\text{stör}})\\
+\Phi(i_{\text{stör}}) &= B(i_{\text{stör}})\cdot A\\
+u_{\text{stör}}&=N\cdot \frac{d\Phi}{dt}\\
+u_{\text{stör}} &= L\cdot \frac{di}{dt}
 \end{align*}
 $$
 Die Lastspannung $u_{L}$ erhält durch die magnetisch eingekoppelte Störspannung einen Störanteil.
@@ -34,23 +34,23 @@ Modellierung der induzierten Störspannung erfolgt durch eine weitere Spannungsq
 ![700](assets/magn_koppl_modell.png)
 
 > [!INFO] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.  
-> $u_{stör} = M\cdot \dfrac{di_{stör}}{dt}$
+> $u_{\text{stör}} = M\cdot \dfrac{di_{stör}}{dt}$
 
 > [!summary] Der Störanteil am Verbrauchereingang: 
 > $$
 > \begin{align*}
-> u_{L, stör} &= \frac{R_{L}}{R_{i}+ R_{L}}\cdot u_{stör} = \frac{R_{L}}{R_{i}+ R_{L}} \cdot M\cdot\frac{di_{stör}}{dt} \qquad&&\text{Zeitbereich}\\
-> U_{L, stör} &= \frac{R_{L}}{R_{i}+R_{L}}\cdot U_{stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot j\omega M \cdot \underline{I}_{stör}\qquad&&\text{Frequenzbereich}
+> u_{L, stör} &= \frac{R_{L}}{R_{i}+ R_{L}}\cdot u_{\text{stör}} = \frac{R_{L}}{R_{i}+ R_{L}} \cdot M\cdot\frac{di_{stör}}{dt} \qquad&&\text{Zeitbereich}\\
+> U_{L, stör}U(\omega) &= \frac{R_{L}}{R_{i}+R_{L}}\cdot U_{\text{stör}} (\omega) = \frac{R_{L}}{R_{i}+R_{L}}\cdot j\omega M \cdot \underline{I}_{stör}\qquad&&\text{Frequenzbereich}
 > \end{align*}
 > $$
 
-Die Höhe der induzierten Störspannug hängt ab von:
-1. Der Größe der Gegeninduktivität $M$, zwischen Nutzund Störkreis
-2. Änderungsgeschwindigkeit des Stromes $\frac{di_{stör}}{dt}$
-3. der Amplitude des Stromes $\hat{i}_{stör}$
-4. der Frequenz des Störstromes $\omega\cdot\underline{I}_{stör}$
+Die Höhe der induzierten Störspannung hängt ab von:
+1. Der Größe der Gegeninduktivität $M$, zwischen Nutz und Störkreis
+2. Änderungsgeschwindigkeit des Stromes $\frac{di_{\text{stör}}}{dt}$
+3. der Amplitude des Stromes $\hat{i}_{\text{stör}}$
+4. der Frequenz des Störstromes $\omega\cdot\underline{I}_{\text{stör}}$
 
-Die Gegeninduktivität wird durch die Topologie, bzw durch die [Leiterbahn](../HF-Technik/Leitungstheorie.md) anordnung bestimmt.
+Die Gegeninduktivität wird durch die Topologie, bzw durch die [Leiterbahn](../HF-Technik/Leitungstheorie.md) Anordnung bestimmt.
 
 ## Gegeninduktivität $M$
 
@@ -72,7 +72,7 @@ $$
 > $$
 > \begin{align*}
 > M&= \frac{4\pi\cdot10^{-7}\cdot 1m}{2\pi}\cdot\ln(1.01) = 2\cdot10^{-9}H = 2nH \\
-> u_{L}&=M\cdot \frac{di_{stör}}{dt}=2\cdot 10^{-9}H\cdot \frac{1000A}{10^{-6}s}
+> u_{L}&=M\cdot \frac{di_{\text{stör}}}{dt}=2\cdot 10^{-9}H\cdot \frac{1000A}{10^{-6}s}
 > \end{align*}
 > $$
 
@@ -80,7 +80,7 @@ $$
 
 $$
 \begin{align*}
-\ddot{u}_{L,stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot \ddot{u}_{stör} = \frac{R_{L}}{R_{i}+R_{L}\cdot}M\cdot \frac{di}{dt}
+\ddot{u}_{L,stör}= \frac{R_{L}}{R_{i}+R_{L}}\cdot \ddot{u}_{\text{stör}} = \frac{R_{L}}{R_{i}+R_{L}\cdot}M\cdot \frac{di}{dt}
 \end{align*}
 $$
 
