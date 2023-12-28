@@ -21,17 +21,13 @@ Hierbei wird die Formel für die [Fouriertransformierte](../../Mathe/mathe%20(4)
 
 Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:
 
-$$
-X_{s}(\omega) = \sum^{\infty}_{n = -\infty} = x(nT)\cdot e^{-j\omega nT} \cdot T 
-$$
+$$ X_{s}(\omega) = \sum^{\infty}_{n = -\infty} = x(nT)\cdot e^{-j\omega nT} \cdot T $$
 
 Da eine unendliche Anzahl an Abtastwerten unmöglich zu berechnen ist, werden eine endliche Anzahl $N$ dieser herausgeschnitten/„gefenstert“ (engl: windowing).
 
 Außerdem kann der Faktor $T$ aus „Bequemlichkeit“ weggelassen werden.
 
-$$
-X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}}
-$$
+$$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
 
 Dies [Funktion](../../Mathe/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathe/mathe%20(3)/Linearkombination.md)e Funktionswerte.
 
@@ -56,6 +52,7 @@ Die inverse DFT (IDFT) (Synthesegleichung) ist definiert als:
 ## [Matrix](../../Mathe/mathe%20(4)/Matrix.md)-Interpretation der DFT
 
 Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
+
 $$
 \begin{align}
 X [k] = \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_{k=0} X[k]\cdot W_{N}^{-kn}
@@ -90,7 +87,6 @@ $$
 1 & W^{N-1, 1} & \cdots & W_{N} ^{N-1, N-1}
 \end{pmatrix}
 $$
-
 
 ## Eigenschaften der DFT
 
