@@ -1,8 +1,7 @@
 ---
 tags: 
-aliases:
-  - Protokoll
-keywords: []
+aliases: []
+keywords: 
 subject:
   - ETT Praktikum
   - "382.050"
