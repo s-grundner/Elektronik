@@ -96,7 +96,7 @@ Verringerung der Gegeninduktivität druch:
 - Herabsetzen der Flussänderungsgeschwindigkeit 
 
 > [!INFO] Verändern der Änderungsgeschwindigkeit $\vec{v}$ des Störstromes
-> - Einsatz von Bauelementen mit niedriger Grenzfrequenz
+> - Einsatz von Bauelementen mit niedriger [Grenzfrequenz](Grenzfrequenz.md)
 > - Einsatz von Tiefpassfiltern
 
 > [!INFO] Herabsetzen der Flussänderungsgeschwindigkeit 

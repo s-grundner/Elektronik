@@ -16,7 +16,7 @@ created: 13th October 2022
 - [Leistung](../../Physik/Elektrische%20Leistung.md) bis einige $100W$
 - Transistorsperrspannung $U_{DS} \geq 2U_{e}$
 - Tastverhältnis $\frac{t_{ein}}{T} \leq 0.5$
-- Sehr gute magnetische Kopplung notwendig
+- Sehr gute [magnetische Kopplung](../Magnetische%20kopplung.md) notwendig
 - Kleiner Kern ohne Luftspalt
 
 ## Schaltbild
