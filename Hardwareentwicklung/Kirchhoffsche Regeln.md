@@ -15,7 +15,7 @@ created: 26. September 2023
 
 ## Maschenregel
 
-![InlineR](assets/Pasted%20image%2020230926161556.png)
+![InlineR|650](assets/Pasted%20image%2020230926161556.png)
 
 > [!SUMMARY] Spannungen, deren Zählrichtung mit der Umlaufrichtung der Masche übereinstimmt, haben ein positives Vorzeichen.  
 >
@@ -29,7 +29,7 @@ created: 26. September 2023
 
 ## Knotenregel
 
-![InlineR](assets/Pasted%20image%2020230926162529.png)
+![InlineR|352](assets/Pasted%20image%2020230926162529.png)
 
 > [!SUMMARY] Die Summe der in einen Knoten fließenden Ströme muss gleich der Summe der aus dem Knoten herausfließenden Ströme sein.  
 >
