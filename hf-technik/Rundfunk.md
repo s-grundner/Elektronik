@@ -21,8 +21,7 @@ Die Funkbänder im Rundfunkspektrum:
 ### Fortbewegung Der Funkwelle
 
 Eine Radiowelle ist eine [EM-Welle](../Physik/Elektromagnetische%20Wellen.md) und benötigt somit kein Medium, um sich Fortbewegen zu können.  
-![475](Raum-Bodenwelle.png)
-
+![Raum-Bodenwelle|475](assets/Raum-Bodenwelle.png)
 ### Energie Der Welle
 
 [EM-Wellen](../Physik/Elektromagnetische%20Wellen.md) Transportieren Energie  
@@ -51,5 +50,6 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 > - Was ist notwendig, damit Wellen Information transportieren können. - [Kodierung](../Netzwerktechnik/Kodierung.md)
 
 ![Rundfunk](../Physik/assets/pdf/Rundfunk.pdf)
-```
+
+
 ![spectrum_20090210](spectrum_20090210.pdf)
