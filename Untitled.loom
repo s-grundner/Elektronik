@@ -2,6 +2,54 @@
   "model": {
     "columns": [
       {
+        "id": "36ab8afb-877e-4e79-9fc3-bf233d3d7f1e",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "source",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Source",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "34330ac3-ba4d-437b-8240-9f129dc478b7",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "source-file",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Source File",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "count-unique",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
         "id": "f28c485f-a9a5-484e-86c6-442a19b8b0b8",
         "sortDir": "default",
         "isVisible": true,
@@ -24,6 +72,30 @@
         "horizontalPadding": "unset",
         "verticalPadding": "unset",
         "frontmatterKey": null
+      },
+      {
+        "id": "2af75e72-9b96-4514-a1e7-efad4dc7ec9a",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "New Column",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
       }
     ],
     "rows": [
@@ -39,12 +111,36 @@
             "columnId": "f28c485f-a9a5-484e-86c6-442a19b8b0b8",
             "content": "",
             "hasValidFrontmatter": null
+          },
+          {
+            "id": "a6826f43-afc6-49d8-91f5-53f167150209",
+            "columnId": "34330ac3-ba4d-437b-8240-9f129dc478b7",
+            "path": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5e052c6d-92c0-4b1c-8a79-12af9924733e",
+            "columnId": "36ab8afb-877e-4e79-9fc3-bf233d3d7f1e",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d2629767-e290-47a0-bbd8-0d769f493da4",
+            "columnId": "2af75e72-9b96-4514-a1e7-efad4dc7ec9a",
+            "content": "",
+            "hasValidFrontmatter": null
           }
         ]
       }
     ],
     "filters": [],
-    "sources": [],
+    "sources": [
+      {
+        "id": "038ee811-9fdd-45df-a279-ad586a897a9a",
+        "type": "folder",
+        "path": "Digitaltechnik",
+        "includeSubfolders": true
+      }
+    ],
     "settings": {
       "numFrozenColumns": 1,
       "showCalculationRow": true
