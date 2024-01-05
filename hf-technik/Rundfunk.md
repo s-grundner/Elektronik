@@ -22,6 +22,7 @@ Die Funkbänder im Rundfunkspektrum:
 
 Eine Radiowelle ist eine [EM-Welle](../Physik/Elektromagnetische%20Wellen.md) und benötigt somit kein Medium, um sich Fortbewegen zu können.  
 ![Raum-Bodenwelle|475](assets/Raum-Bodenwelle.png)
+
 ### Energie Der Welle
 
 [EM-Wellen](../Physik/Elektromagnetische%20Wellen.md) Transportieren Energie  
