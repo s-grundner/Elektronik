@@ -28,6 +28,7 @@ $$
 $$
 
 Daraus folgt:
+
 $$
 \begin{align*}
 	0 &= y'' + p\cdot y'+q\cdot y\\
@@ -36,16 +37,15 @@ $$
 \end{align*}
 $$
 
-
 Mit dem [Exponentialansatz](Exponentialansatz.md) gewinnt man die **charakteristische Gleichung**: $\lambda^{2}+\lambda\cdot p+q=0$.  
 Je nach Art der Lösungen $\lambda_{1}$ und $\lambda_{2}$ sind drei Fälle zu unterscheiden: 
 
 $\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$
 
-| Fall    | Bedingung                            | Art der Lösung                                                                               | Lösungsansatz für `y`                                                                    |
-| ------- | ------------------------------------ | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| 1. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q>0$ | $\lambda_1 \neq \lambda_2$ (2 reelle Lösungen)                                               | $y_{h}= C_{1}\cdot e^{\lambda_{1}}+C_{2}\cdot e^{\lambda_{2}x}$                          |
-| 2. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q=0$ | $\lambda_{1}=\lambda_{2}=\lambda_0$ (reelle Doppellösung)                                    | $y_{h}=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}$                                             |
+| Fall    | Bedingung                            | Art der Lösung                                                                                                 | Lösungsansatz für `y`                                                                    |
+| ------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| 1. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q>0$ | $\lambda_1 \neq \lambda_2$ (2 reelle Lösungen)                                                                 | $y_{h}= C_{1}\cdot e^{\lambda_{1}}+C_{2}\cdot e^{\lambda_{2}x}$                          |
+| 2. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q=0$ | $\lambda_{1}=\lambda_{2}=\lambda_0$ (reelle Doppellösung)                                                      | $y_{h}=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}$                                             |
 | 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ (2 konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
 
 > [!NOTE] $C_{1}$ und $C_{2}$ werden durch die Anfangsbedingung festgelegt
@@ -88,7 +88,6 @@ Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am E
 | $s(x)=A_{n}\cdot x^{n}+A_{n-1}\cdot x^{n-1}+\ldots+A_{1}\cdot x+A_{0}$                                         | $y_p=a_{n}\cdot x^{n}+a_{n-1}\cdot x^{n-1}+…+a_{1}\cdot x+a_{0}$                                                                                                                                                       |
 | $s(x)=A\cdot\sin(\omega x)$<br>$s(x)=A\cdot\cos(\omega x)$<br>$s(x)=A\cdot\sin(\omega x)+B\cdot\cos(\omega x)$ | $y_{p}=a\cdot\sin(\omega x)+b\cdot\cos(\omega x)$ oder $y_{p}=a\cdot\sin(\omega x+\varphi)$<br>Wenn $j\omega$ Lösung der charakteristischen Gleichung ist: <br>$y_{p}=x\cdot[a\cdot\sin(\omega x)+b\cdot\cos(\omega x)]$ |
 | $s(x)=A\cdot e^{bx}$                                                                                           | $y_{p}=a\cdot e^{bx}$ (wenn $b$ keine Lösung der charakteristischen Gleichung ist)                                                                                                                                       |
-
 
 ---
 
