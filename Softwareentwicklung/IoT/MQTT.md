@@ -33,26 +33,31 @@ Für den Raspi kann Mosquitto bezogen werden:
   ```
 sudo apt-get install -y mosquitto mosquitto-clients
   ```
+
 Damit wird automatisch anschließend ein Broker gestartet. Für einen Auto-Start während Boot:
 
 ```
 sudo systemctl enable mosquitto.service
 ```
+
 Subscribe eine `test_channel` Botschaft:
 
 ```
 mosquitto_sub -h localhost -v -t test_channel
 ```
+
 Pub eine `test_channel`-Boschaft:
 
 ```
 mosquitto_pub -h localhost -t test_channel -m "Hello Raspberry Pi"
 ```
+
 Starten/Stoppen (enable/disable) eines Service:
 
 ```
 sudo systemctl enable mosquitto.service
 ```
+
 Als einfacher Broker ist im Netz ebenfalls ein freier**Mosquitto**-Broker verfügbar ([https://mosquitto.org](https://mosquitto.org/)) verfügbar.
 
 - Start des Brokers (Windows oder auch Linux):
