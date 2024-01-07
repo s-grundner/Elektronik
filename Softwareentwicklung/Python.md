@@ -19,12 +19,10 @@ created: 7. Januar 2024
 """
 ```
 
-## Primitive Datentypen und Operatoren
+## Primitive [Datentypen](Datentypen.md) und Operatoren
 
 ```python
-#########################################
-## 1. Primitive Datentypen und Operatoren
-######################################### # Die Zahlen
+# Die Zahlen
 3 #=> 3
 
 # Mathematik funktioniert so, wie man das erwartet
@@ -98,9 +96,6 @@ False or True #=> True
 ## If
 
 ```python
-####################################################
-## 3. Kontrollstruktur und Iteratoren 3 ####################################################
-
 # Erstellen wir mal eine Variable
 some_var = 5
 
@@ -127,7 +122,94 @@ li.append(3) #li ist jetzt [1, 2, 4, 3]
 
 # Vom Ende der Liste mit pop entfernen
 li.pop() #=> 3 und li ist jetzt [1, 2, 4]
-# und dann wieder hinzufügen
-li.append(3) # li ist jetzt wieder [1, 2, 4, 3]. 5 6 # Greife auf Listen wie auf Arrays zu 7 li[0] #=> 1 8 # Das letzte Element ansehen 9 li[-1] #=> 3
 
+# und dann wieder hinzufügen
+li.append(3) # li ist jetzt wieder [1, 2, 4, 3].
+
+# Greife auf Listen wie auf Arrays zu
+li[0] #=> 1
+
+# Das letzte Element ansehen
+li[-1] #=> 3
+```
+
+## For-Schliefe
+
+```python
+"""
+For-Schleifen iterieren über Listen
+Ausgabe:
+	hund ist ein Säugetier
+	katze ist ein Säugetier
+	maus ist ein Säugetier
+"""
+for animal in ["hund", "katze", "maus"]:
+# Wir können Strings mit format() formatieren
+	print("{} ist ein Säugetier".format(animal))
+```
+
+### range()
+
+```python
+"""
+`range(Zahl)` gibt eine null-basierte Liste bis
+exklusive der angegebenen Zahl wieder
+Ausgabe: 5 0 6 1 7 2 8 3 9
+"""
+for i in range(4):
+	print(i)
+
+```
+
+## While-[Schleifen](Schleifen.md)
+
+```python
+"""
+While-Schleifen laufen, solange eine Bedingung erfüllt ist.
+Ausgabe:
+	0 5 1 6 2 7 3 8
+"""
+x = 0
+while x < 4:
+	print(x)
+	x += 1 # Kurzform für x = x + 1
+```
+
+## Funktionen
+
+```python
+
+# Mit def neue Funktionen erstellen
+def add(x, y):
+	print("x ist %s und y ist %s" % (x, y))
+	return x + y # Werte werden mit return zurückgegeben
+	
+# Funktionen mit Parametern aufrufen
+add(5, 6) #=> Ausgabe ist "x ist 5 und y ist 6" und gibt 11 zurück
+
+# Ein anderer Weg des Funktionsaufrufs sind Schlüsselwort-Argumente
+add(y=6, x=5) # Überg. v. Schlüsselw. in beliebiger Reihenf. mögl.
+```
+
+## Dictionary
+
+```python
+# Dictionaries (Wörterbucher) speichern Schlüssel-Werte-Paare
+empty_dict = {} 3 # Hier ein gefülltes Wörterbuch
+filled_dict = {"one": 1, "two": 2, "three": 3}
+
+# Wir können Einträge mit [] nachschlagen
+filled_dict["one"] #=> 1
+
+# So holen wir alle Keys (Schlüssel) als Liste
+list(filled_dict.keys()) #=> ["three", "two", "one"]
+
+# Hinweis - Die Reihenfolge von Schlüsseln in der Liste ist
+# nicht garantiert.
+# Einzelne Resultate können anders angeordnet sein.
+
+# Alle Values (Werte) als Liste
+list(filled_dict.values()) #=> [3, 2, 1]
+# Hinweis - Hier gelten dieselben Einschränkungen für die
+# Reihenfolge wie bei Schlüsseln.
 ```
