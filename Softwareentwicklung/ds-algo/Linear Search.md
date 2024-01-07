@@ -8,7 +8,7 @@ created: 17th April 2022
 
 # Linear Search
 
-## Python Code
+## [Python](../../Python.md) Code
 
 ~~~ python
 def linear_search(list, target):

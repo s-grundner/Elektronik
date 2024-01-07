@@ -20,7 +20,7 @@ Es ist eine Temperaturmessstation zu entwerfen:
 ## 1. [ESP32](ESP32.md)
 
 - VSCode
-- Python
+- [Python](../../Python.md)
 - Extension PlatformIO
 - Setup Environment <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/>
 - Setup Projekt, Flash-Programmieren, Serial Monitor
