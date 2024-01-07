@@ -14,6 +14,8 @@ Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Hardwareentwick
 
 ![](assets/ESP32WROOM.png)
 
+Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](ESP-AT.md)) auf den Chip heruntergeladen werden.
+
 # Firmware Entwicklung
 
 Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
@@ -337,7 +339,7 @@ In diesem Projekt wird mit einem WLAN-Accesspoint verbunden, anschließend auf d
 
 Passen Sie die WiFi-Einstellungen und die Topics entsprechend an (im Topic wird $$$$ durch das Namenskürzel ersetzt, das Gleiche gilt für die User-Id, diese muss eindeutig zuordenbar sein):
 
-```c++
+```cpp
 #include <WiFi.h>
 #include <PubSubClient.h>
 

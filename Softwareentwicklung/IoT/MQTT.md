@@ -10,7 +10,7 @@ created: 29th November 2022
 
 **Publish-Subscribe-Architektur**
 
-Schwachstelle von MQTT: ohne Broker geht gar nicht mehr.
+> [!warning] Schwachstelle von MQTT: ohne Broker geht gar nicht mehr.
 
 ## Installation Mosquitto
 
