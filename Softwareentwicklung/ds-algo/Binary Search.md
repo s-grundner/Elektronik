@@ -41,7 +41,7 @@ int binsearch(int a[], int left, int right, int key) {
 
 Dieser Algorithmus kann noch verbessert werden: wenn wir im Telefonbuch suchen, dann beginnen wir wenn wir nach einem Namen suchen der mit Z beginnt wesentlich weiter hinten, als wenn wir nach einem Namen suchen der mit einem B beginnt. Man kann die Position eines Suchworts mittels Interpolation abschätzen und dort zu suchen beginnen. Diese Art der Suche wird dann als **Interpolationssuche** bezeichnet.
 
-## [Python](../../Python.md)
+## [Python](../Python.md)
 
 ~~~ python
 def binary_search(list, target):
@@ -63,7 +63,7 @@ def binary_search(list, target):
 	return None
 ~~~
 
-## [Python](../../Python.md) ([rekursiv](Rekursion.md))
+## [Python](../Python.md) ([rekursiv](Rekursion.md))
 
 ~~~ python
 def recursive_binary_search(list, target):
