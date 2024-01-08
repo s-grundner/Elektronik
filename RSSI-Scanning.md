@@ -66,7 +66,7 @@ response = esp32.run_cmd('AT+GMR\r\n', timeout)
 print(response)
 
 ```
-  
+
 ```
 AT+GMR
 AT version:2.2.0.0(4bfff91 - ESP32 - Aug 19 2021 08:17:22)
