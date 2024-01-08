@@ -48,23 +48,14 @@ for cnt in range(100):
 
 ```python
 import umachine
-
 from esp32_at import ESP32_AT
-
 umachine.freq(int(50e6))  # reduce power consumption
 
-  
-
 timeout = 500 # timeout in ms
-
 uart = machine.UART(7)
-
 esp32 = ESP32_AT(uart)
-
 response = esp32.run_cmd('AT+GMR\r\n', timeout)
-
 print(response)
-
 ```
   
 ```
@@ -118,3 +109,40 @@ OK
 
 Duration: 2546 ms
 ```
+
+## Scan Accesspoints
+
+```python
+import umachine
+import utime
+from esp32_at import ESP32_AT
+umachine.freq(int(50e6))  # reduce power consumption
+timeout = 3000 # timeout in ms
+uart = umachine.UART(7)
+esp32 = ESP32_AT(uart)
+
+esp32.run_cmd('AT+CWMODE=1\r\n', timeout)  # act as station
+
+start_time = utime.ticks_ms()
+
+for cnt in range(100):
+    response = esp32.run_cmd('AT+CWLAP=,,10,,200,200\r\n', timeout)
+    result_list = esp32.proc_scan_res(response)
+    rssi1 = -150
+    rssi2 = -150
+    rssi3 = -150
+    for result in result_list:
+        if result['ssid'] == 'nthfs_esp1':
+            rssi1 = result['rssi']        
+        if result['ssid'] == 'nthfs_esp2':
+            rssi2 = result['rssi']            
+        if result['ssid'] == 'nthfs_esp3':
+            rssi3 = result['rssi']
+    print('esp1:, {}, esp2:, {}, esp3:, {}'.format(rssi1, rssi2, rssi3))
+stop_time = utime.ticks_ms()
+
+duration = utime.ticks_diff(stop_time, start_time)/100
+print('Duration: {} ms'.format(duration))
+```
+
+![](assets/Pasted%20image%2020240108135734.png)
