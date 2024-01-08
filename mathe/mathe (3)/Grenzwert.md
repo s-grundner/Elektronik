@@ -50,9 +50,9 @@ so kleine (negative) Zahl, so heißt die Folge ($c_{n}$) bestimmt divergent.
 > 1. $A \subset X$ heißt offen: $\Longleftrightarrow A=A^{\circ}$
 > $A \subset X$ heißt abgeschlossen: $\Longleftrightarrow A=\bar{A}$
 
-
-in $\mathbb{R}$
-- offen und abg
+> [!EXAMPLE] in $\mathbb{R}$:
+> - offen und abgeschlossen 
+> - kein isolierter Punkt
 
 # Tags
 
