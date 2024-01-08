@@ -67,28 +67,15 @@ print(response)
 
 ```
   
-
-'''
-
-Output:
-
-  
-
+```
 AT+GMR
-
 AT version:2.2.0.0(4bfff91 - ESP32 - Aug 19 2021 08:17:22)
 
 SDK version:v4.2.2-250-gf65845ef51
-
 compile time(a9ed205):Oct 29 2021 11:46:49
-
 Bin version:2.2.0(WROOM-32)
 
-  
-
 OK
-
-'''
 ```
 
 ## WIFI Full scan
