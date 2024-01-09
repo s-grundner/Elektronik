@@ -58,6 +58,7 @@ $$
 $$
 
 > [!check] Lösung
+>
 > $$
 > \begin{align*}
 > u_{c}(t)= \underbrace{\underbrace{(C_{1}+C_{2})}_{\tilde{C_{1}}}\cdot\cos(\omega t)}_{\mathcal{Re}} + j \underbrace{\underbrace{(C_{1}-C_{2})}_{\tilde{C_{2}}}\cdot\sin(\omega t)}_{\mathcal{Im}}
@@ -68,7 +69,6 @@ $$
 > Sowohl Real, als auch Imaginärteil sind Lösungen der Differentailgleichung  
 > Das erkennt man durch Einsetzen  
 > Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
-
 
 ![](../assets/Pasted%20image%2020221201121517.png)
 
@@ -82,8 +82,8 @@ $$
 
 - Damit die Schaltung ein [Selbstschwingendes](../../Mathe/mathe%20(4)/Schwingkreise.md) System sein kann, muss der [](../../Mathe/mathe%20(4)/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../Mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
 
-  
 > [!question] Lösungsansatz
+
 $$
 \begin{align*}
 u_{1}(t) &= C\cdot e^{\lambda t}\\

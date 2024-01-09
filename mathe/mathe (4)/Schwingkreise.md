@@ -78,6 +78,7 @@ $$
 	\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot \frac{R}{L}+u_{c}\cdot \frac{1}{LC} &= 0\\
 \end{align*}
 $$
+
 >[!summary] $$\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot 2\delta+u_{c}\cdot \omega^{2}_{0} = 0$$
 
 --- 
@@ -169,10 +170,13 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > 
 > Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$  
 > Um den eingeschwungenen Zustand zu definieren, wird zunächst $u_{h}$ - die homogene Lösung - ignoriert.
+>
 > $$
 > \omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t) = \ddot u_{c} + 2\delta\dot u_{c} + \omega^{2}_{0}\cdot u_{c}
 > $$
+>
 > Die [partikuläre Lösung](lineare%20DGL%202.%20Ordnung.md) wird daher ermittelt:
+>
 > $$
 > \begin{align*}
 > 	u_{cp} &= a\cdot\sin(\omega t)+b\cdot\cos(\omega t)\\
@@ -198,7 +202,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > \end{align*}
 > $$
 
-#### Koeffizienten $a$ und $b$ der partikulären Lösung 
+#### Koeffizienten $a$ und $b$ der partikulären Lösung
 
 Durch umformen erhält man einer Formel für $a$ und $b$, die sich allgemein für die Berechnung von Schwingungen, mit einer trigonometrischen Funktion als Störterm, anwenden lässt:
 
@@ -230,6 +234,7 @@ $$
 #### Frequenzgang der Amplitude:
 
 Die Amplitude ist maximal, wenn der Ausdruck unter der Wurzel minimal ist. $d$ ist der Ausdruck unter der Wurzel.
+
 $$
 \begin{align*}
 	d(\omega) &= (\omega^{2}_{0} - \omega^{2})^{2}+4\delta^{2}\omega^{2}\\
@@ -254,6 +259,7 @@ $$
 	D = \frac{\delta}{\omega_{0}} &\dots\text{Dämpfungsgrad}
 \end{align*}
 $$
+
  >![700](../assets/frequ_gang_e_serien_schwingk.png)
 
 ## Freie Schwingung im realen Parallelschwingkreis
