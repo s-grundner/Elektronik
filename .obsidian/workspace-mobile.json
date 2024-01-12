@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7ed2986fd57290e4",
+        "id": "70861dd5b2f1fc0e",
         "type": "tabs",
         "children": [
           {
-            "id": "7f5acc3ed770fdf1",
+            "id": "eb1a6b0ff1e3335a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technische Informatik/Automatentheorie.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bf0f0c5d631a686",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technische Informatik/Y-Diagramm.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13bac6b2e5fea67d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technische Informatik/Speicherzellen.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Technische Informatik/Speicherzellen.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -140,7 +107,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Technische Informatik/Speicherzellen.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -151,9 +117,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "Technische Informatik/Speicherzellen.md"
-          }
+          "state": {}
         }
       },
       {
@@ -177,14 +141,16 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "13bac6b2e5fea67d",
+  "active": "90124b7bba5e3d85",
   "lastOpenFiles": [
+    "10_tools/tools-jku.md",
+    "Technische Informatik/Automatentheorie.md",
     "Technische Informatik/Y-Diagramm.md",
     "Technische Informatik/Speicherzellen.md",
-    "Technische Informatik/Automatentheorie.md",
     "Netzwerktechnik/OSI-Modell.md",
     "00_templates/00_jku_header.md"
   ]
