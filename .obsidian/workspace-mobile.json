@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "70861dd5b2f1fc0e",
+        "id": "8a84d424f485c5c1",
         "type": "tabs",
         "children": [
           {
-            "id": "eb1a6b0ff1e3335a",
+            "id": "019c1f5aea0d2aee",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Elektrodynamik/Spannung.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -91,6 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Elektrodynamik/Spannung.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -107,6 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Elektrodynamik/Spannung.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -117,7 +124,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Elektrodynamik/Spannung.md"
+          }
         }
       },
       {
@@ -145,8 +154,13 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "90124b7bba5e3d85",
+  "active": "019c1f5aea0d2aee",
   "lastOpenFiles": [
+    "Elektrodynamik/Impedanz.md",
+    "Hardwareentwicklung/Ohmsches Gesetz.md",
+    "Hardwareentwicklung/Wechselstromtechnik.md",
+    "Softwareentwicklung/Vim.md",
+    "Hardwareentwicklung/Knotenpotentialverfahren.md",
     "physik/Wurfparabel.md",
     "mathe/Ebenen.md",
     "/mathe/Ebenen.md",
