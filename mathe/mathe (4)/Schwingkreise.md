@@ -120,9 +120,9 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 
 | Fall | Bedingung | Bezeichnung |  |
 | ---- | :--: | ---- | ---- |
-| [1. Fall Eindeutige Lösung\|Fall 1.](lineare%20DGL%202.%20Ordnung.md#1.%20Fall%20Eindeutige%20Lösung) | $\delta>\omega_{0}$ | Kriechfall |
-| [2. Fall Doppellösung\|Fall 2.](lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
-| [3. Fall konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen\|Fall 3.](lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
+| [Fall 1.](lineare%20DGL%202.%20Ordnung.md#1.%20Fall%20Eindeutige%20Lösung) | $\delta>\omega_{0}$ | Kriechfall |
+| [Fall 2.](lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
+| [Fall 3.](lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
 
 ![400](../assets/faelle_e_sk.png)
 
