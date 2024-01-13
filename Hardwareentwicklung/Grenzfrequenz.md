@@ -10,5 +10,5 @@ created: 30th November 2022
 > [!hint] Beim Verstärker
 > 
 
-> [!hint] Beim Filter (Dämpfer)
+> [!hint] Beim Filter (Dämpfer)  
 >  Bei einem Filter 1. Ordnung 
