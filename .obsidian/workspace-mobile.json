@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elektrodynamik/Spannung.md",
+                "file": "Hardwareentwicklung/Wechselstromtechnik.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Elektrodynamik/Spannung.md",
+            "file": "Hardwareentwicklung/Wechselstromtechnik.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Elektrodynamik/Spannung.md",
+            "file": "Hardwareentwicklung/Wechselstromtechnik.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Elektrodynamik/Spannung.md"
+            "file": "Hardwareentwicklung/Wechselstromtechnik.md"
           }
         }
       },
@@ -156,9 +156,12 @@
   },
   "active": "019c1f5aea0d2aee",
   "lastOpenFiles": [
-    "Elektrodynamik/Impedanz.md",
-    "Hardwareentwicklung/Ohmsches Gesetz.md",
+    "Excalidraw/Drawing 2024-01-14 16.30.18.excalidraw.md",
     "Hardwareentwicklung/Wechselstromtechnik.md",
+    "Excalidraw",
+    "Elektrodynamik/Impedanz.md",
+    "Elektrodynamik/Spannung.md",
+    "Hardwareentwicklung/Ohmsches Gesetz.md",
     "Softwareentwicklung/Vim.md",
     "Hardwareentwicklung/Knotenpotentialverfahren.md",
     "physik/Wurfparabel.md",
