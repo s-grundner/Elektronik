@@ -4,9 +4,9 @@ aliases: []
 created: 23. Dezember 2023
 ---
 
-# x86 Assembly
+# X86 Assembly
 
-## i386 Intel
+## I386 Intel
 
 [INSTRUCTION SET](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86-32_bit)
 
@@ -17,10 +17,7 @@ created: 23. Dezember 2023
 | `eax`                     | `esp` Pointer to Stacktop         |
 | `ebx`                     | `ebp` Pointer to Stackbase        |
 | `ecx`                     | `eip` Pointer to next instruction | 
-| ...                       |                                   |
-
-
-
+| …                       |                                   |
 
 ### Hello World
 
@@ -51,3 +48,6 @@ _start:
 
 ## AVR Machine Language
 
+# Tags
+
+![](https://www.youtube.com/watch?v=L1ung0wil9Y)

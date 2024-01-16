@@ -118,11 +118,11 @@ $\lambda_{1} = -\delta+\sqrt{\delta^{2}-\omega^{2}_{0}}$
 
 die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolgt
 
-| Fall                                                                                    |      Bedingung      | Bezeichnung                                                                      |
-| --------------------------------------------------------------------------------------- |:-------------------:| -------------------------------------------------------------------------------- |
-| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#1%20Fall%20Eindeutige%20Lösung.md|1.%20Fall)                            | $\delta>\omega_{0}$ | Kriechfall                                                                       |
-| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#2%20Fall%20Doppellösung.md|2.%20Fall)                                 | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
-| [](mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|3.%20Fall) | $\delta<\omega_{0}$ | Schwingfall                                                                      |
+| Fall | Bedingung | Bezeichnung |  |
+| ---- | :--: | ---- | ---- |
+| [Fall 1.](lineare%20DGL%202.%20Ordnung.md#1.%20Fall%20Eindeutige%20Lösung) | $\delta>\omega_{0}$ | Kriechfall |
+| [Fall 2.](lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
+| [Fall 3.](lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
 
 ![400](../assets/faelle_e_sk.png)
 
