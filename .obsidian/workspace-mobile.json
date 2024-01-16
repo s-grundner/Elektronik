@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8a84d424f485c5c1",
+        "id": "c2dbdf887c792b6e",
         "type": "tabs",
         "children": [
           {
-            "id": "019c1f5aea0d2aee",
+            "id": "596ee4378aa8862a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -96,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +107,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -124,9 +117,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md"
-          }
+          "state": {}
         }
       },
       {
@@ -137,7 +128,8 @@
           "state": {}
         }
       }
-    ]
+    ],
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,8 +146,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "019c1f5aea0d2aee",
+  "active": "90124b7bba5e3d85",
   "lastOpenFiles": [
+    "10_tools/tools-jku.md",
+    "xPN/DailyNotes/2024/01-January/2024-01-16-Tuesday.md",
+    "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
+    "xPN",
+    "xPN/DailyNotes",
+    "xPN/DailyNotes/2024",
+    "xPN/DailyNotes/2024/01-January",
     "Hardwareentwicklung/Wechselstromtechnik.md",
     "Untitled.canvas",
     "Excalidraw/Drawing 2024-01-14 16.30.18.excalidraw.md",
@@ -169,7 +168,6 @@
     "mathe/Ebenen.md",
     "/mathe/Ebenen.md",
     "/physik/Wurfparabel.md",
-    "10_tools/tools-jku.md",
     "Technische Informatik/Automatentheorie.md",
     "Technische Informatik/Y-Diagramm.md",
     "Technische Informatik/Speicherzellen.md",
