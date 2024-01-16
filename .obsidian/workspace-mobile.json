@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardwareentwicklung/Wechselstromtechnik.md",
+                "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Hardwareentwicklung/Wechselstromtechnik.md",
+            "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Hardwareentwicklung/Wechselstromtechnik.md",
+            "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -125,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Hardwareentwicklung/Wechselstromtechnik.md"
+            "file": "mathe/mathe (4)/lineare DGL 2. Ordnung.md"
           }
         }
       },
@@ -156,8 +156,9 @@
   },
   "active": "019c1f5aea0d2aee",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-01-14 16.30.18.excalidraw.md",
     "Hardwareentwicklung/Wechselstromtechnik.md",
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2024-01-14 16.30.18.excalidraw.md",
     "Excalidraw",
     "Elektrodynamik/Impedanz.md",
     "Elektrodynamik/Spannung.md",
