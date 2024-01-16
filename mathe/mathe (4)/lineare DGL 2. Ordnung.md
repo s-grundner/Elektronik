@@ -49,7 +49,7 @@ $$\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$$
 | 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ (2 konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
 
 > [!NOTE] $C_{1}$ und $C_{2}$ werden durch die Anfangsbedingung festgelegt
-> Es müssen immer 2 Lösungen existieren, da die Anfangsbedingungen der Differentialgleichung 2. Ordnung $y‘($
+> Es müssen immer 2 Lösungen existieren, da die Anfangsbedingungen der Differentialgleichung 2. Ordnung $dy(x_0)/dx$ und $y(x_0)$
 
 #### 1. Fall: Eindeutige Lösung
 
