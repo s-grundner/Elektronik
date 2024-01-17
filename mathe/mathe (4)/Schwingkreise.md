@@ -33,14 +33,15 @@ Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20
 > F_{reibung} = -d \cdot \dot{y}\\
 > \end{align}
 > $$
+>
 > ---
+>
 > $$
 > \begin{align}
 > 	 m \cdot \ddot{y}=-d \cdot \dot{y}-k\cdot y\\
 > 	 0=\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y\\
 > \end{align}
 > $$
-
 
 ### Bezeichnungen
 
