@@ -6,11 +6,10 @@ subject:
   - EET
   - "..."
 semester: 1
-created: 18. Oktober 2023
-professor: "Bernhard Jakoby"
+created: 12th January 2024
+professor:
 ---
  
 
-# Spannung
+# Wechselstromtechnik
 
-![[]]

@@ -1,9 +1,11 @@
 ---
 tags:
-  - Physik
+  - Physik/Kinematik
 aliases:
   - Geschwindigkeit
   - Beschleunigung
+  - "#Physik/Kinematik"
+  - Bewegung
 keywords:
   - x-t Diagramm
   - v-t Diagramm
@@ -56,12 +58,12 @@ a(t) &= \ddot{s}(t)
 \end{align}
 $$
 
-> [!WARNING] Bei Integrieren sind die Anfangswerte zu beachten ($+C$… Integrationskonstante)
+> [!WARNING] Bei [Integrieren](../mathe/mathe%20(3)/Integralrechnung.md) sind die Anfangswerte zu beachten ($+C$… Integrationskonstante)
 
 ## Bewegung in 2/3-Dimensionen
 
 > [!TLDR] Vektorschreibweise  
-> Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als Vektoren auffassen. Vektoren sind Größen, die sowohl einen Betrag als auch eine Richtung im Raum haben (Größen, die nur einen Betrag haben, heißen Skalare).
+> Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als [Vektoren](../mathe/mathe%20(3)/Vektor.md) auffassen. [Vektoren](../mathe/mathe%20(3)/Vektor.md) sind Größen, die sowohl einen Betrag als auch eine Richtung im Raum haben (Größen, die nur einen Betrag haben, heißen Skalare).
 
 $$
 \vec{r} = x\cdot \vec{e_{x}} + y\cdot \vec{e_{y}}+ z\cdot \vec{e_{z}}

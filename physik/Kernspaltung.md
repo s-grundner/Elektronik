@@ -35,7 +35,7 @@ Man muss beachten, dass sich diese Energie auf einen Kernzerfall bezieht. Betrac
 
 ![Kernspaltung](../Chemie/assets/Kernspaltung.png)
 
-Treffen die bei einer Kernspaltung **frei werdenden Neutronen** auf weiteres **spaltbares Material** und haben sie darüber hinaus die "**richtige**" Geschwindigkeit, so können sie **weitere Kernspaltungen** hervorrufen.  
+Treffen die bei einer Kernspaltung **frei werdenden Neutronen** auf weiteres **spaltbares Material** und haben sie darüber hinaus die "**richtige**" [Geschwindigkeit](Kinematik.md), so können sie **weitere Kernspaltungen** hervorrufen.  
 Es kommt zu einer Reaktion, die sich **von selbst fortsetzt**, zu einer Kettenreaktion.
 
 - Wird diese Kettenreaktion nicht beeinflusst, so spricht man von einer _ungesteuerten Kettenreaktion_.  

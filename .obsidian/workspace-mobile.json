@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "7ed2986fd57290e4",
+        "id": "35797ebcb267f977",
         "type": "tabs",
         "children": [
           {
-            "id": "7f5acc3ed770fdf1",
+            "id": "353fcde87f7b8a00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technische Informatik/Automatentheorie.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bf0f0c5d631a686",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technische Informatik/Y-Diagramm.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13bac6b2e5fea67d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technische Informatik/Speicherzellen.md",
+                "file": "physik/Impuls.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,14 +96,14 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Technische Informatik/Speicherzellen.md",
+            "file": "physik/Impuls.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
             "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+            "unlinkedCollapsed": false
           }
         }
       },
@@ -140,9 +113,9 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Technische Informatik/Speicherzellen.md",
+            "file": "physik/Impuls.md",
             "linksCollapsed": false,
-            "unlinkedCollapsed": true
+            "unlinkedCollapsed": false
           }
         }
       },
@@ -152,7 +125,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Technische Informatik/Speicherzellen.md"
+            "file": "physik/Impuls.md"
           }
         }
       },
@@ -164,7 +137,8 @@
           "state": {}
         }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,18 +148,53 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "templater-obsidian:Templater": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "13bac6b2e5fea67d",
+  "active": "353fcde87f7b8a00",
   "lastOpenFiles": [
-    "Technische Informatik/Y-Diagramm.md",
-    "Technische Informatik/Speicherzellen.md",
+    "physik/assets/Impuls 2024-01-17 13.10.36.excalidraw.md",
+    "physik/Impuls.md",
+    "hf-technik/Richtantennen.md",
+    "hf-technik/Antenne.md",
+    "Softwareentwicklung/ds-algo/Ue/Ue_Sortieren.md",
+    "physik/Kinematik.md",
+    "physik/{MOC} Mechanik.md",
+    "mathe/mathe (4)/Vielteilchen-Systeme.md",
+    "mathe/mathe (4)/assets/Impuls 2024-01-17 12.42.59.excalidraw.md",
+    "mathe/mathe (4)/assets/Pasted image 20240117123718.png",
+    "mathe/mathe (4)/assets/Impuls 2024-01-17 12.22.10.excalidraw.md",
+    "mathe/mathe (4)/assets/Impuls 2024-01-17 12.14.49.excalidraw.md",
+    "mathe/mathe (4)/Schwingkreise.md",
+    "mathe/mathe (4)/assets/Schwingkreise 2024-01-17 09.08.32.excalidraw.md",
+    "Hardwareentwicklung/Ortskurve.md",
+    "physik/Elektrische Leistung.md",
+    "Hardwareentwicklung/assets/Ortskurve 2024-01-17 09.24.11.excalidraw.md",
+    "physik/assets/Elektrische Leistung 2024-01-17 08.51.56.excalidraw.md",
+    "physik/assets/assets/Pasted Image 20240117085226_517.jpg",
+    "physik/assets/assets",
+    "physik/assets/Pasted image 20240117084805.png",
+    "Technische Informatik/assets/Zahlensysteme 2024-01-16 12.41.04.excalidraw.md",
+    "Technische Informatik/assets/Ansteuerlogik 2024-01-16 13.15.01.excalidraw.md",
+    "Technische Informatik/Ansteuerlogik.md",
+    "Technische Informatik/Boolesche Algebra.md",
     "Technische Informatik/Automatentheorie.md",
-    "Netzwerktechnik/OSI-Modell.md",
-    "00_templates/00_jku_header.md"
+    "Technische Informatik/Zahlensysteme.md",
+    "Untitled.canvas",
+    " .md",
+    "physik/Materialkunde/{MOC} Materialkunde.md",
+    "physik/Materialkunde/Silizium.md",
+    "physik/Materialkunde/assets/Pasted image 20240116122317.jpg",
+    "physik/Materialkunde/assets/Pasted image 20240116122217.jpg",
+    "physik/Materialkunde/assets",
+    "xPN",
+    "xPN/DailyNotes",
+    "xPN/DailyNotes/2024",
+    "xPN/DailyNotes/2024/01-January",
+    "Excalidraw"
   ]
 }

@@ -282,3 +282,5 @@ $$
 - [Colpitts Oszillator](../../Hardwareentwicklung/Oszillatoren/Colpitts%20Oszillator.md)
 
 # Tags
+
+![[assets/Schwingkreise 2024-01-17 09.08.32.excalidraw]]

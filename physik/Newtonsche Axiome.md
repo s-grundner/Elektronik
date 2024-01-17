@@ -18,18 +18,18 @@ professor:
 # Newtonsche Axiome und Kräfte
 
 > [!QUESTION] Definition  
->  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand (Geschwindigkeit und/oder) ändert.
+>  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md) und/oder) ändert.
 
 ## Erstes Newtonsche Gesetz
 
-> [!WARNING] Ein Körper bleibt im Zustand der Ruhe oder bewegt sich mit konstanter Geschwindigkeit, solange keine resultierenden äußere Kraft auf ihn einwirkt
+> [!WARNING] Ein Körper bleibt im Zustand der Ruhe oder bewegt sich mit konstanter [Geschwindigkeit](Kinematik.md), solange keine resultierenden äußere Kraft auf ihn einwirkt
 >
 > $$
 > \vec{F} = \sum \vec{F}_{i}=0 \implies \vec{a} = 0
 > $$
 
 > [!IMPORTANT] Trägheits Gesetz  
-> Wenn ein Körper sich nicht mit konstanter Geschwindigkeit bewegt, muss eine Kraft auf Ihn wirken.
+> Wenn ein Körper sich nicht mit konstanter [Geschwindigkeit](Kinematik.md) bewegt, muss eine Kraft auf Ihn wirken.
 
 ## Zweites Newtonsches Gesetz
 

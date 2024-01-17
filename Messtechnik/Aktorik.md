@@ -8,7 +8,7 @@ created: 31st March 2022
 
 # Aktorik
 
-Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscomputer) in mechanische Bewegung , bzw. in andere physikalische Größen um.
+Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscomputer) in mechanische [Bewegung](../physik/Kinematik.md) , bzw. in andere physikalische Größen um.
 
 ![Aktor_BSB](assets/Aktor_BSB.svg)
 
@@ -16,7 +16,7 @@ Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscom
 
 ## EM-Aktoren: [Elektromagnet](../Physik/Elektromagnet.md)
 
-[Elektromagnet](../Physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../Physik/Elektromagnetische%20Wellen.md) mit Bewegung reagieren z.B. [Relais](Relais.md)
+[Elektromagnet](../Physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../Physik/Elektromagnetische%20Wellen.md) mit [Bewegung](../physik/Kinematik.md) reagieren z.B. [Relais](Relais.md)
 
 $\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.md) und [Spule](../Elektrodynamik/Induktivitäten.md) werden benötigt.
 

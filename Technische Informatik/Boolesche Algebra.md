@@ -19,3 +19,4 @@ professor:
 Boolesche Algebra besteht aus der Menge $B$ und zwei Verknüpfungsoperationen $+$ und $\cdot$
 
 ## Schaltalgebra
+

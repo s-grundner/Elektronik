@@ -58,7 +58,7 @@ Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehrer
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  
 Ladung die zugrunde liegende Deformation zu bestimmen.  
 Der Effekt ist nur von der Längenänderung nicht von Geschwindigkeit  
-bzw. Beschleunigung der Deformation abhängig.
+bzw. [Beschleunigung](../physik/Kinematik.md) der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
 

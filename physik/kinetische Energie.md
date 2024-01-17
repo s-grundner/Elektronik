@@ -14,7 +14,7 @@ professor:
 # kinetische Energie
 
 > [!INFO] Eindimensionale Betrachtung:
-> Ein Körper befindet sich zur Zeit $t_{0}=0$ am Ort $s_{0}$ und bewegt sich mit der [Geschwindigkeit](Kinematik.md) $v_{0}$. Zur Zeit $t=0$ beginnt eine [Kraft](Newtonsche%20Axiome.md) $F$ zu wirken, wodurch es zu einer [Beschleunigung](Kinematik.md) der Bewegung kommt. Zu einer späteren Zeit $t_{1}$ hat dann der Körper die [Geschwindigkeit](Kinematik.md) $v_{1}$ und befindet sich am Ort $s_{1}$.
+> Ein Körper befindet sich zur Zeit $t_{0}=0$ am Ort $s_{0}$ und bewegt sich mit der [Geschwindigkeit](Kinematik.md) $v_{0}$. Zur Zeit $t=0$ beginnt eine [Kraft](Newtonsche%20Axiome.md) $F$ zu wirken, wodurch es zu einer [Beschleunigung](Kinematik.md) der [Bewegung](Kinematik.md) kommt. Zu einer späteren Zeit $t_{1}$ hat dann der Körper die [Geschwindigkeit](Kinematik.md) $v_{1}$ und befindet sich am Ort $s_{1}$.
 
 
 Wir berechnen die [Arbeit](Mechanische%20Arbeit.md) $W$, die die [Kraft](Newtonsche%20Axiome.md) $F$ entlang des Weges von $s_0$ bis $s_1$ verrichtet:
