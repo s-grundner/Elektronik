@@ -15,11 +15,11 @@ created:
 
 ## 1. [Kinematik](Kinematik.md)
 
-Bewegung von Massenpunkten, Beziehungen zwischen Ort, [Geschwindigkeit](Kinematik.md) und [Beschleunigung](Kinematik.md)
+[Bewegung](Kinematik.md) von Massenpunkten, Beziehungen zwischen Ort, [Geschwindigkeit](Kinematik.md) und [Beschleunigung](Kinematik.md)
 
 ## 2. [Newton](Newtonsche%20Axiome.md)´sche [Axiome](../Mathe/Axiom.md)
 
-Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der Bewegung, Kräftegleichgewicht, Bewegungsgleichung, Intertialsysteme, Scheinkräfte
+Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der [Bewegung](Kinematik.md), Kräftegleichgewicht, Bewegungsgleichung, Intertialsysteme, Scheinkräfte
 
 ## 3. [Kräfte](Newtonsche%20Axiome.md) In der Natur
 
@@ -29,7 +29,7 @@ Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der Bewegung, Kräftegleichgewicht
 
  [Arbeit](Mechanische%20Arbeit.md), kinetische und potentielle Energie, Erhaltungssätze, [Leistung](Elektrische%20Leistung.md) 
 
-## 5. Impuls
+## 5. [Impuls](Impuls.md)
 
 Impulserhaltung, Stoßgesetze
 
@@ -39,7 +39,7 @@ Dreimpulserhaltung, Drehmoment, Mehrkörpersysteme
 
 ## 7. Dynamik starrer Körper
 
- Schwerpunkt, Massenmittelpunkt, Drehbewegung, Rotationsenergie, Trägheitsmomente, Drehung um freie Achsen, [Moleküle](../Chemie/Atombindung.md) 
+ Schwerpunkt, [Massenmittelpunkt](../mathe/mathe%20(4)/Vielteilchen-Systeme.md), Drehbewegung, Rotationsenergie, Trägheitsmomente, Drehung um freie Achsen, [Moleküle](../Chemie/Atombindung.md) 
 
 ## 8. Harmonische Schwingungen
 

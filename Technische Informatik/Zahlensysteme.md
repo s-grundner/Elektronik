@@ -61,6 +61,9 @@ professor:
 
 > [!IMPORTANT] Multiplikation im Dualsystem ist schieben und addieren
 
+> [!example] 
+> ![[assets/Zahlensysteme 2024-01-16 12.41.04.excalidraw]]
+
 # Rechnen in Zahlensystemen
 
 ## Addieren
