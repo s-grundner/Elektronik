@@ -25,7 +25,7 @@
       "query": "path:Softwareentwicklung  ",
       "color": {
         "a": 1,
-        "rgb": 16743204
+        "rgb": 16631552
       }
     },
     {
@@ -109,6 +109,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 421,
-  "scale": 0.230765720436098,
+  "scale": 0.09311214232332442,
   "close": false
 }

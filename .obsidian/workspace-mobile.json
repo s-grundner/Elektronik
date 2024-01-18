@@ -4,23 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "35797ebcb267f977",
+        "id": "9fe35855f06fa5f2",
         "type": "tabs",
         "children": [
           {
-            "id": "353fcde87f7b8a00",
+            "id": "9c58f8ce84c0d9f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physik/Impuls.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f5d4e23a1d2e761",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +100,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "physik/Impuls.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -113,7 +116,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "physik/Impuls.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -124,9 +126,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "physik/Impuls.md"
-          }
+          "state": {}
         }
       },
       {
@@ -152,13 +152,15 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "cmdr:Excalidraw: Create new drawing - IN A NEW TAB - and embed into active document": false
     }
   },
-  "active": "353fcde87f7b8a00",
+  "active": "5f5d4e23a1d2e761",
   "lastOpenFiles": [
-    "physik/assets/Impuls 2024-01-17 13.10.36.excalidraw.md",
+    "Softwareentwicklung/Betriebssysteme/assets/OS_Schichtenmodell.png",
     "physik/Impuls.md",
+    "physik/assets/Impuls 2024-01-17 13.10.36.excalidraw.md",
     "hf-technik/Richtantennen.md",
     "hf-technik/Antenne.md",
     "Softwareentwicklung/ds-algo/Ue/Ue_Sortieren.md",
@@ -187,7 +189,6 @@
     "Untitled.canvas",
     " .md",
     "physik/Materialkunde/{MOC} Materialkunde.md",
-    "physik/Materialkunde/Silizium.md",
     "physik/Materialkunde/assets/Pasted image 20240116122317.jpg",
     "physik/Materialkunde/assets/Pasted image 20240116122217.jpg",
     "physik/Materialkunde/assets",
