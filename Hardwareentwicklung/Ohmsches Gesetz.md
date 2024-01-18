@@ -25,14 +25,9 @@ created: 26. September 2023
 
 ### Belasteter Spannungsteiler
 
+> [!EXAMPLE] Die konstante Eingangsspannung soll $Ue = 1 V$, die beiden Widerstände $R_{1} = 100\Omega$ und $R_{2} = 220\Omega$ gewählt werden. Der Lastwiderstand $R_{L}$ soll von $100\Omega$ bis $100k\Omega$ variiert werden  
+> (10 Widerstandswerte, siehe Stückliste der Bauteilbox)  
+> ![InlineR](assets/Pasted%20image%2020240118223017.png)  
+> ![[assets/Ohmsches Gesetz 2024-01-18 22.37.14.excalidraw]]
 
-## Stromteiler
-> [!EXAMPLE] Die konstante Eingangsspannung soll $Ue = 1 V$, die beiden Widerstände $R_{1} = 100\Omega$ und $R_{2} = 220\Omega$ gewählt werden. Der Lastwiderstand $R_{L}$ soll von $100\Omega$ bis $100k\Omega$ variiert werden
-> (10 Widerstandswerte, siehe Stückliste der Bauteilbox)
-> ![InlineR](assets/Pasted%20image%2020240118223017.png)
-> $U_{a} = U_{e} \cdot \frac{R_{2} | | R_{L}}{R_{1} + R_{2} | |R_{L}}$
-> $U_{a} = U_{e}\cdot$
-
-
-![[assets/Ohmsches Gesetz 2024-01-18 22.37.14.excalidraw]]
 ## Stromteiler
