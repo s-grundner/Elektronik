@@ -25,25 +25,23 @@ Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20
 ![400](../assets/m_schwingk.png)
 
 >[!info] Bewegungsgleichung: $F_{a} = F_{feder} + F_{reibung}$
+>
 > $$
-\begin{align}
-F_{a} = m \cdot \ddot{y}\\
-F_{feder} = -k\cdot y\\
-F_{reibung} = -d \cdot \dot{y}\\
-\end{align}
-$$ 
-$$
-\begin{align}
-	 m \cdot \ddot{y}=-d \cdot \dot{y}-k\cdot y\\
-	 0=\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y\\
-\end{align}
-$$
-$$
-
-
-
-$$
-
+> \begin{align}
+> F_{a} = m \cdot \ddot{y}\\
+> F_{feder} = -k\cdot y\\
+> F_{reibung} = -d \cdot \dot{y}\\
+> \end{align}
+> $$
+>
+> ---
+>
+> $$
+> \begin{align}
+> 	 m \cdot \ddot{y}=-d \cdot \dot{y}-k\cdot y\\
+> 	 0=\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y\\
+> \end{align}
+> $$
 
 ### Bezeichnungen
 
