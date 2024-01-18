@@ -11,20 +11,16 @@
             "id": "9c58f8ce84c0d9f8",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "5f5d4e23a1d2e761",
-            "type": "leaf",
-            "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Hardwareentwicklung/Ohmsches Gesetz.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,6 +96,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Hardwareentwicklung/Ohmsches Gesetz.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -116,6 +113,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Hardwareentwicklung/Ohmsches Gesetz.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -126,7 +124,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Hardwareentwicklung/Ohmsches Gesetz.md"
+          }
         }
       },
       {
@@ -147,17 +147,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "cmdr:Excalidraw: Create new drawing - IN A NEW TAB - and embed into active document": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "homepage:Open homepage": false,
-      "cmdr:Excalidraw: Create new drawing - IN A NEW TAB - and embed into active document": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "5f5d4e23a1d2e761",
+  "active": "9c58f8ce84c0d9f8",
   "lastOpenFiles": [
+    "Hardwareentwicklung/assets/Ohmsches Gesetz 2024-01-18 22.37.14.excalidraw.md",
+    "Hardwareentwicklung/Ohmsches Gesetz.md",
     "Softwareentwicklung/Betriebssysteme/assets/OS_Schichtenmodell.png",
     "physik/Impuls.md",
     "physik/assets/Impuls 2024-01-17 13.10.36.excalidraw.md",
@@ -188,7 +190,6 @@
     "Technische Informatik/Zahlensysteme.md",
     "Untitled.canvas",
     " .md",
-    "physik/Materialkunde/{MOC} Materialkunde.md",
     "physik/Materialkunde/assets/Pasted image 20240116122317.jpg",
     "physik/Materialkunde/assets/Pasted image 20240116122217.jpg",
     "physik/Materialkunde/assets",

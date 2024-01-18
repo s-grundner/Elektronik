@@ -25,4 +25,6 @@ created: 26. September 2023
 
 ### Belasteter Spannungsteiler
 
+![[assets/Ohmsches Gesetz 2024-01-18 22.37.14.excalidraw]]
+
 ## Stromteiler
