@@ -57,7 +57,6 @@ $$
 
 ## Determinante
 
-
 # Tags
 
 [Einheitsmatrix](Einheitsmatrix.md)
