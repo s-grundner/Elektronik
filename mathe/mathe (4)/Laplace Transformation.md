@@ -20,7 +20,6 @@ so heißt:
 >[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C}$$
 
 > [!summary] Frequenzparameter: $s = \delta+j\omega$
-> 
 
 [Fourier Transformation](Fourier%20Transformation.md) vs. Laplace Transformation  
 
