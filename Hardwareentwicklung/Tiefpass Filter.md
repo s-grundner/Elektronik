@@ -26,19 +26,7 @@ Die Ordnung eines Filters ist gegeben durch die Anzahl der in reihe-geschalteten
 > 
 > Bei der Auswahl der Bauteile sind Widerstände wesentlich flexibler, weshalb wir einen festen Wert für den Kondensator wählen. 
 > 
-> Mit dem gewählten [Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) von $150\Omega$ ergibt sich die eigentliche [Grenzfrequenz](../Hardwareentwicklung/Grenzfrequenz.md): $f_{g,ist} = \frac{1}{2\pi\cdot 150\Omega\cdot 1\mu F}=1061Hz$
-
-## 1.1     LT-Spice Simulation mit Rechteckförmiger Eingangsspannung
-
-|   |   |
-|---|---|
-|\|   \|<br>\|---\|<br>\|Abbildung 8: Schaltung Simulation mit Rechteck\||\|   \|<br>\|---\|<br>\|Abbildung 9: Konfiguration des Pulses\||
-
-In der Simulation wird überprüft, wie die Schaltung auf einen Puls/Einheitssprung reagiert. Hierfür wird an den Eingangsklemmen eine Spannungsquelle mit der _PULSE_ Funktion verwendet.
-
-Abbildung 10: Simulation Rechtecksignal
-
-In der Simulation ist zu erkennen, dass schnell ansteigende Flanken abgerundet werden. Die Oberwellen des Rechtecks, die über der Grenzfrequenz liegen, werden gedämpft.
+> Mit dem gewählten [Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) von $150\Omega$ (gemessen $148.5\Omega$) ergibt sich die eigentliche [Grenzfrequenz](../Hardwareentwicklung/Grenzfrequenz.md): $f_{g,ist} = \frac{1}{2\pi\cdot 150\Omega\cdot 1\mu F}=1061Hz$
 
 ## Zeitkonstante $\tau$
 
@@ -66,3 +54,28 @@ Da Flanken mit einer kleinen Anstiegszeit einer hohen Frequenz ( $\equiv$ hohes
 Wenn für $jX_{C}=\frac{1}{j\omega C}$ gilt, dass $\omega$ $\gg$ dann ist $jX$ $\ll$
 
 also vernachlässigbar in der Gesamtimpedanz.
+
+# SImulationen
+
+## LT-Spice Simulation mit Rechteckförmiger Eingangsspannung
+
+| ![Schaltung Simulation mit Rechteck](assets/Pasted%20image%2020240122233536.png) | ![Konfiguration des Pulses](assets/Pasted%20image%2020240122233541.png) |  
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |  
+| Schaltung Simulation mit Rechteck | Konfiguration des Pulses |
+
+In der Simulation wird überprüft, wie die Schaltung auf einen Puls/Einheitssprung reagiert. Hierfür wird an den Eingangsklemmen eine Spannungsquelle mit der _PULSE_ Funktion verwendet.
+
+![Simulation Rechtecksignal](assets/Pasted%20image%2020240122233616.png)
+
+In der Simulation ist zu erkennen, dass schnell ansteigende Flanken abgerundet werden. Die Oberwellen des Rechtecks, die über der Grenzfrequenz liegen, werden gedämpft.
+
+## LT-Spice Simulation mit Sinusförmiger Eingangsspannung
+
+![](assets/Pasted%20image%2020240122233851.png)
+
+Die Abgebildete Schaltung stellt den RC-Tiefpass 1. Ordnung mit einer Sinusförmigen Eingangsspannung dar. Mit der SPICE-Directive `.step param f list` wird für die Variable `f` eine Liste mit den zu simulierenden Frequenzen erzeugt und in der Spannungsquelle als Parameter eingesetzt.
+
+# Quellen
+
+![](../xEDU/ELIT_PR/AnalogeDigitaleST/ELIT-PR_AD-ST_k12136610_k12306171.pdf)
+
