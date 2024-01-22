@@ -11,7 +11,7 @@ created: 23rd November 2022
 ## 3. JG
 
 - [OSI-Modell](../Netzwerktechnik/OSI-Modell.md)
-- [Filter](Filter)
+- [Filter](../Hardwareentwicklung/Filter.md)
 
 ## 4. JG
 
