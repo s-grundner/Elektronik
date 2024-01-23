@@ -20,3 +20,7 @@
 
 > [!tldr] $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
 > für alle $x$ im $X$ Vektorraum und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
+
+# Tags
+
+[Homomorphismus ...](https://www.youtube.com/watch?v=0wKsFNLR15g)

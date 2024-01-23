@@ -16,8 +16,9 @@ professor:
 ---
 
 # Abbildungen
- 
-- Bijektivität surjektivität…
 
+- [Bijektivität surjektivität…](https://www.youtube.com/watch?v=xNxuAG9UDN8)
+- [Bild Urbild Kern](https://www.youtube.com/watch?v=Q52laFrARek)
+- [Sätze zu Bild und Kern](https://www.youtube.com/watch?v=ub4hx65xpHM)  
 
 [Lineare Abbildungen](Lineare%20Abbildungen.md)
