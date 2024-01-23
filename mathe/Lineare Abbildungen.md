@@ -21,6 +21,25 @@
 > [!tldr] $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
 > für alle $x$ im $X$ Vektorraum und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
 
+## Kern (kernel)
+
+Das Bild das auf die Null abbildet (*Urbild der $0$*) ist der *Kern* (oder *Nullraum*)
+
+$$
+\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})
+$$
+> [!INFO] $X$ ist ein $\mathbb{K}$ Vektorraum (also entweder $\mathbb{R}$ oder $\mathbb{C}$)
+
+## Bild
+
+$$
+\mathcal{R}(L)= L(X)
+$$
+
+> [!INFO] $X$ ist ein $\mathbb{K}$ Vektorraum (also entweder $\mathbb{R}$ oder $\mathbb{C}$)
+
+
+
 # Tags
 
 [Homomorphismus ...](https://www.youtube.com/watch?v=0wKsFNLR15g)
