@@ -23,10 +23,10 @@
 
 ## Kern (kernel) und Bild
 
-> [!INFO] sei $X$ und  $Y$ ein $\mathbb{K}$ Vektorraum (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
+> [!INFO] sei $X$ und $Y$ ein $\mathbb{K}$ Vektorraum (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
 > 
-> Das Bild das auf die Null abbildet (*Urbild der $0$*) ist der *Kern* (oder *Nullraum*)
-> Kern: $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$ oft auch $im(L)$
+> Das Bild das auf die Null abbildet (*Urbild der $0$*) ist der *Kern* (oder *Nullraum*)  
+> Kern: $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$ oft auch $im(L)$  
 > Bild: $\mathcal{R}(L)= L(X)$ oft auch $ker(L)$
 
 >[!important] Die Dimension des Kerns plus die Dimension des Bildes ist die Dimension des Defnitionsvektorraum $X$  
@@ -35,18 +35,15 @@
 ### Injektivität, Surjektivität und Bijektivität
 
 1. Nur wenn der Kern der Nullvektor ist, dann ist die Lineare Abbildung Injektiv.
+2. Wenn das Bild einer Linearen Abbildung dem Zielvektorraum ($Y$) entspricht, ist die Lineare Abbildung surjektiv.
+3. Trifft beides zu, ist die Lineare Abbildung *bijektiv* 
 
-Wenn das Bild einer Linearen Abbildung dem Zielvektorraum ($Y$) entspricht, ist die Lineare Abbildung surjektiv.
-
-
-
-> [!info] $L: X \to Y$
-> Injektiv: $ker(L) = 0$, $dim(ker(L)) = 0$
-> Surjektiv: $im(L) = Y$
-
-
+> [!info] $L: X \to Y$  
+> Injektiv: $ker(L) = \boldsymbol{0}$, $dim(ker(L)) = 0$  
+> Surjektiv: $im(L) = Y$  
+> Bijektiv: $ker(L) = \boldsymbol{0} \wedge im(L) = Y$
 
 # Tags
 
-[Homomorphismus ...](https://www.youtube.com/watch?v=0wKsFNLR15g)
+[Homomorphismus ...](https://www.youtube.com/watch?v=0wKsFNLR15g)  
 [Nützliche Sätze zu Bild und Kern](https://www.youtube.com/watch?v=ub4hx65xpHM)
