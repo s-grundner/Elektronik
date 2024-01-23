@@ -3,6 +3,9 @@ tags:
 aliases:
   - funktionen
   - funktion
+  - Abbildungen
+  - bijektiv
+  - surjektiv
 keywords: 
 subject:
   - Mathematik1
@@ -12,4 +15,9 @@ created: 7. November 2023
 professor:
 ---
 
-# Abbild
+# Abbildungen
+
+- Bijektivität surjektivität…
+
+
+[Lineare Abbildungen](Lineare%20Abbildungen.md)
