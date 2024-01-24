@@ -4,7 +4,6 @@ tags:
   - Baugruppen/Oszillator
 aliases:
   - Schwingkreis
-  - Harmonische Schwingungen
 subject:
   - mathe
   - hwe
@@ -29,9 +28,11 @@ Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20
 
 ## Arten von Schwingkreisen
 
-[Mechanischer Schwingkreis](../../Physik/Mechanischer%20Schwingkreis.md)
+- Allgemeine Betrachtung der [harmonischen Schwingungen](harmonische%20Schwingungen.md)
 
-[Elektrischer Schwingkreis](Elektrischer%20Schwingkreis.md)
+- [Mechanischer Schwingkreis](../../Physik/Mechanischer%20Schwingkreis.md)
+
+- [Elektrischer Schwingkreis](Elektrischer%20Schwingkreis.md)
 
 # Hardware Implementationen
 

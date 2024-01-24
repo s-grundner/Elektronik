@@ -25,7 +25,7 @@ Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer St�
 
 ![400](../assets/e_serien_schwingk_frei.png)
 
-Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
+Um die [Spannung](../Elektrodynamik/Spannung.md) der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
 | Einfluss der [Spule](../../Elektrodynamik/Impedanz.md) | Einfluss des [Kondensator](../../Elektrodynamik/Impedanz.md)      | Einfluss des [Widerstand](../../Elektrodynamik/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
@@ -59,7 +59,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [DGL](../{MOC}%20DGL.md) die charakteristische Gleichung erzeugen
+Nun kann man aus einer der [DGL](../{MOC}%20DGL.md) die [charakteristische Gleichung](../Mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) erzeugen
 
 $$
 \begin{align*}
