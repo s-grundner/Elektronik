@@ -58,7 +58,8 @@ $$
 
 ## Determinante
 
-[Mathematrick Determinante](https://www.youtube.com/watch?v=dJ7d9wwC2sw)
+[Mathematrick Determinante](https://www.youtube.com/watch?v=dJ7d9wwC2sw)  
+[Mathematrick Laplace Entwicklungssatz](https://www.youtube.com/watch?v=3cG0HWdmHLI)
 
 # Tags
 
