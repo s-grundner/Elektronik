@@ -20,10 +20,8 @@ $$
 
 ![700](assets/Pasted%20image%2020240117123718.png)
 
-
 # Tags
 
-
-[Stoßprozesse](Stoßprozesse.md)
-[Vielteilchen-Systeme](Vielteilchen-Systeme.md)
+[Stoßprozesse](Stoßprozesse.md)  
+[Vielteilchen-Systeme](Vielteilchen-Systeme.md)  
 [Drehimpuls](../Drehimpuls.md)

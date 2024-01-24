@@ -15,7 +15,7 @@ professor:
 ---
  
 
-# Newtonsche Axiome und Kräfte
+# Newtonsche [Axiome](../Mathe/Axiom.md) und Kräfte
 
 > [!QUESTION] Definition  
 >  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md) und/oder) ändert.
@@ -33,11 +33,11 @@ professor:
 
 ## Zweites Newtonsches Gesetz
 
-> [!IMPORTANT] Zusammenhang zwischen Kraft und impuls  
-> impuls $\vec{p}=m\cdot \vec{v}$  
+> [!IMPORTANT] Zusammenhang zwischen Kraft und [impuls](Impuls.md)  
+> [Impuls](Impuls.md) $\vec{p}=m\cdot \vec{v}$  
 > $[p]=\frac{kg\cdot m}{s}$
 
-> [!WARNING] Die Impuls Veränderung eines Körpers ist proportional der resultierenden Kraft die auf den Körper wirkt
+> [!WARNING] Die [Impuls](Impuls.md) Veränderung eines Körpers ist proportional der resultierenden Kraft die auf den Körper wirkt
 >
 > $$
 > \vec{F}=\frac{d\vec{p}}{dt}=\frac{d m\vec{v}}{dt}
@@ -55,12 +55,12 @@ professor:
 > [!INFO] Kontaktkräfte
 > - Spannung in einem Seil
 > - Druck auf einer Fläche
-> - elastische Kraft in einer Feder
+> - elastische Kraft in einer [Feder](Federkraft.md)
 > - [Reibungskraft](Reibungskraft.md)
 >
 > Resultat molekularer Wechselwirkung
 
 > [!INFO] Fernwirkungskräfte
 > - Magnetische Kraft
-> - Elektrische Kraft
+> - [Elektrische Kraft](../Elektrodynamik/Elektrische%20Kraft.md)
 > - Gravitationskraft

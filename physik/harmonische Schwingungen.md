@@ -12,7 +12,13 @@ created: 24. Januar 2024
 professor:
 ---
  
-# harmonische Schwingungen
 
-> [!INFO] die *harmonische Schwingung* ist ein wichtiger Spezialfall der periodischen Bewegung.
->  
+# Harmonische Schwingungen
+
+> [!INFO] die *harmonische Schwingung* ist ein wichtiger Spezialfall der periodischen [Bewegung](Kinematik.md).  
+> Sie entsteht immer dann, wenn bei der Auslenkung aus der Ruhelage eine rücktreibende [Kraft](Newtonsche%20Axiome.md) entsteht, welche direkt linear proportional zur Auslenkung ist.
+
+
+# Tags 
+
+[5 Methoden zum Lösen einer DGL](https://www.youtube.com/watch?v=0kY3Wpvutfs)
