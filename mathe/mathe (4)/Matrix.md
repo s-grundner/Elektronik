@@ -58,6 +58,8 @@ $$
 
 ## Determinante
 
+[Mathematrick Determinante](https://www.youtube.com/watch?v=dJ7d9wwC2sw)
+
 # Tags
 
 [Einheitsmatrix](Einheitsmatrix.md)  
