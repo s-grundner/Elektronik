@@ -4,6 +4,7 @@ aliases:
   - Matrizen
   - Matrixgleichung
   - Matrixrechnung
+  - Determinante
 subject:
   - mathe
 source:
