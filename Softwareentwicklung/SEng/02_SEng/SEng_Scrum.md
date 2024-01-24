@@ -258,7 +258,7 @@ Ganz anders ist es mit *Scrum*. Die in Zusammenarbeit mit dem Kunden erarbeitete
 
 Nach der Durchführung der geplanten Aufgaben folgt schließlich die Abnahme des Projektes.
 
-### 4.3.1. konventionelle Softwaremanagementsysteme nach der Durchführung
+### 4.3.1. Konventionelle Softwaremanagementsysteme nach der Durchführung
 
 Bei dieser Art der Entwicklung ist das gesamte Projekt mit der Abnahme abgeschlossen. Das fertige Programm enthält im Idealfall alle geplanten Features und läuft fehlerfrei. Doch ist das System, das der Kunde erhält, nicht jenes, das er gerne hätte, sondern das, was er vor sehr langer Zeit für brauchbar hielt. In der Zeit, in der das Projekt realisiert wurde haben sich technologische Standards verändert und weiterentwickelt, Anforderungen haben sich verlagert und die in Auftrag gegebene Software ist, obwohl sie ihren Zweck erfüllt, nicht mehr das Geld wert, das im Vertrag dafür vereinbart wurde.
 

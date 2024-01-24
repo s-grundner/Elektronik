@@ -20,7 +20,6 @@ so heißt:
 >[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C}$$
 
 > [!summary] Frequenzparameter: $s = \delta+j\omega$
-> 
 
 [Fourier Transformation](Fourier%20Transformation.md) vs. Laplace Transformation  
 
@@ -162,16 +161,10 @@ $$
 \end{align*}
 $$
 
-# Elektrische Netzwerke Im Laplace-[Bildbereich](../mathe%20(3)/Komplexe%20Zahlen.md) (s-Domäne)
-
-Ein RCL-Netzwerk wird für die gesuchte Größe (Spannung, Strom) durch eine Lineare Differentialgleichung mit konstanten Koeffizienten beschrieben. Diese Netzwerke werden als lineare Netzwerke bezeichnet.
-
-Bei umfangreichen Netzwerken ist jedoch oft
- - das Aufstellen der [Differenzialgleichung(en)](../{MOC}%20DGL.md) 
- - die Lösung  
- mit beträchtlichen Schwierigkeiten verbunden.
 
 # Tags
+
+[Laplace-Bildbereich](Laplace-Bildbereich.md)
 
 [Delta-Impuls](Delta-Impuls.md)
  

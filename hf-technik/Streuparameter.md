@@ -10,7 +10,7 @@ created: 28th September 2022
 
 **Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
-- Beschreiben z.B. [Filter](Filter), [Antenne](Antenne.md), [Mischer](Mischer.md)
+- Beschreiben z.B. [Filter](../Hardwareentwicklung/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
 - Wellenparameter = Teilspannungen 
 - Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende Spannung)
 - Widerstandsparameter bei Serienschaltung
@@ -20,17 +20,22 @@ created: 28th September 2022
 
 Ausgehend von der **[Impedanz](../Elektrodynamik/Impedanz.md)** $Z_\nu$ des **Messsystems** am Tor $\nu$ lassen sich die beiden Darstellungen nach folgenden Gleichungen, welche auch als **[Heaviside-Transformation](../Mathe/mathe%20(4)/Einheitssprungfunktion.md)** bezeichnet wird, in Bezug setzen (Wir setzen im Folgenden voraus, dass $Z_0$ positiv reell ist):
 
-![Eintor](assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$  
+![Eintor](assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$
+  
 *Die Einheit der Streuparameter ist $\sqrt{W}$*
 
 und durch Umkehrung der Beziehungen:  
-$$U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu)$$  
+
+$$U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu)$$
+
 $$I_\nu = \dfrac{1}{\sqrt{Z_0}} \cdot (a_\nu - b_\nu)$$
 
 Die Spannung $U_\nu$ und der Strom $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrodynamik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
+
 $$Z_\nu = \dfrac{U_\nu}{I_\nu}$$
 
 womit sich mit der [Impedanz](../Elektrodynamik/Impedanz.md) $Z_{0}$ des Messsystems der [Reflexionsfaktor](Reflexionsfaktor.md) $r_{\nu}$ beschreiben lässt als:  
+
 $$r_\nu = \dfrac{b_\nu}{a_\nu} = \dfrac{Z_\nu - Z_0}{Z_\nu + Z_0}, \qquad b_\nu = r_\nu \cdot a_\nu$$
 
 Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexionsfaktor.md) $r$ gleich dem einen und **einzigen S-Parameter $S_{11}$**.
@@ -38,8 +43,6 @@ Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexi
 Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) in Form eines [linearen Gleichungssystems](Lineares%20Gleichungssystem) ausgedrückt.
 
 Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathe/mathe%20(4)/Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathe/mathe%20(3)/Vektor.md) $a$ und $b$ als [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) ausgedrückt:
-
-
 
 $$\mathbf{b} = \mathbf{S} \times \mathbf{a}$$
 
@@ -108,7 +111,7 @@ $$
 ### [](../Hardwareentwicklung/Kettenmatrix.md#Impedanz%20Matrixrechnung%20Matrix|Impedanz%20Matrix)
 
 Standard [Zweitor](Zweitor.md)
- 
+
 > [!EXAMPLE] T-Gleid
 
 ### [](../Hardwareentwicklung/Kettenmatrix.md#Admittanz%20Matrixrechnung%20Matrix|Admittanz%20Matrix)

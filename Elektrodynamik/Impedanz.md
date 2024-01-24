@@ -68,6 +68,8 @@ $$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
 
 # Tags
 
+[Kettenmatrix](../Hardwareentwicklung/Kettenmatrix.md)
+
 [Induktivitäten](Induktivitäten.md)
 
 [Kapazität](Kapazität.md)
