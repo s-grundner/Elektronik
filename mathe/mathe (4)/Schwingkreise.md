@@ -1,7 +1,14 @@
 ---
-tags: ["DGL", "Baugruppen/Oszillator"]
-aliases: ["Schwingkreis"]
-subject: ["mathe", "hwe", "physik"]
+tags:
+  - DGL
+  - Baugruppen/Oszillator
+aliases:
+  - Schwingkreis
+  - Harmonische Schwingungen
+subject:
+  - mathe
+  - hwe
+  - physik
 ---
 
 # Schwingungen
