@@ -21,7 +21,6 @@ Bei symmetrischer Last ist der Strom $i_{N}$ im Neutralleiter 0
 
 ### Zeiger Diagramm
 
-
 ## Dreieck-Dreieck Schaltung
 
 ![450](assets/Pasted%20image%2020240124084937.png)
