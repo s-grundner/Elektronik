@@ -10,32 +10,34 @@ source:
 created: 31st May 2022
 ---
 
-
 # Stoß
 
-![[assets/Impuls 2024-01-17 13.10.36.excalidraw]]
+![](assets/Pasted%20image%2020240124235139.png)
 
 ## Impulserhaltung
 
-Gesamtimpuls: $\vec{p}_{ges} = \sum \vec{p}_{i}=const.$
+> [!info] Da keine äußeren Kräfte im Spiel sind, gilt die Erhaltung des Gesamtimpulses  
+> $$\vec{p}_{ges} = \sum \vec{p}_{i}=const. \implies m_{A}\vec{v}_{A_{1}}+m_{B}\vec{v}_{B_{1}}=m_{A}\vec{v}_{A_{2}}+m_{B}\vec{v}_{B_{2}}$$
+
+
+## Energiesatz
+
 $$
-\frac{m_{A}\cdot \vec{v}_{A_{1}}^2}{2}+\frac{m_{B}\cdot \vec{v}_{B_{1}}^2}{2} = \frac{m_{A}\cdot \vec{v}_{A_{2}}^2}{2}+\frac{m_{B_{2}}\cdot \vec{v}_{A_{2}}^2}{2}
-$$
-$$
-m_{A}\cdot \vec{v}_{A_{1}}^2+m_{B}\cdot \vec{v}_{B_{1}}^2 = m_{A}\cdot \vec{v}_{A_{2}}^2 +m_{B_{2}}\cdot \vec{v}_{A_{2}}^2
+\frac{m_{A}\cdot \vec{v}_{A_{1}}^2}{2}+\frac{m_{B}\cdot \vec{v}_{B_{1}}^2}{2} = \frac{m_{A}\cdot \vec{v}_{A_{2}}^2}{2}+\frac{m_{B}\cdot \vec{v}_{B_{2}}^2}{2}
 $$
 
-$A_{1}, B_{1}$ … Vor dem Stoß
+$$
+m_{A}\cdot \vec{v}_{A_{1}}^2+m_{B}\cdot \vec{v}_{B_{1}}^2 = m_{A}\cdot \vec{v}_{A_{2}}^2 +m_{B}\cdot \vec{v}_{B_{2}}^2
+$$
+
+$A_{1}, B_{1}$ … Vor dem Stoß  
 $A_{2}, B_{2}$ … Nach dem Stoß
 
-### Energieerhaltung
+### Elastischer Stoß
 
-#### Elastischer Stoß
-
-#### Inelastischer Stoß
+### Inelastischer Stoß
 
 # Rückstoß
-
 
 # Tags
 
@@ -71,4 +73,3 @@ $$
 
 > [!EXAMPLE] Gummiball und Wand  
 ![elastischer_stoss1](assets/elastischer_stoss1.svg)
-
