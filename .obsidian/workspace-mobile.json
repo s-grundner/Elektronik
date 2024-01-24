@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9fe35855f06fa5f2",
+        "id": "028123741b91a6ad",
         "type": "tabs",
         "children": [
           {
-            "id": "9c58f8ce84c0d9f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Transformator.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5193408ba7c608ac",
+            "id": "b51b43b7308c5273",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "ruheind",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -97,7 +84,8 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0,
+    "pinned": true
   },
   "right": {
     "id": "09a03fc326765419",
@@ -109,7 +97,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Transformator.md",
+            "file": "Maxwell.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Transformator.md",
+            "file": "Maxwell.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -138,7 +126,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Transformator.md"
+            "file": "Maxwell.md"
           }
         }
       },
@@ -149,9 +137,17 @@
           "type": "calendar",
           "state": {}
         }
+      },
+      {
+        "id": "31d414a54c38bf18",
+        "type": "leaf",
+        "state": {
+          "type": "side-panel-control-view",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,30 +162,39 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "homepage:Open homepage": false,
-      "cmdr:Excalidraw: Create new drawing - IN A NEW TAB - and embed into active document": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "9c58f8ce84c0d9f8",
+  "active": "b51b43b7308c5273",
   "lastOpenFiles": [
-    "assets/Pasted image 20240124095307.png",
-    "assets/Pasted image 20240124095233.png",
-    "Maxwell.md",
     "Transformator.md",
-    "assets/Pasted image 20240124092616.png",
-    "assets/Pasted image 20240124091021.png",
-    "assets/Pasted image 20240124090631.png",
+    "TODO.md",
+    "Digitaltechnik/assets/Pasted image 20240122233536.png",
+    "Digitaltechnik/assets/Pasted image 20240122233008.png",
+    "Digitaltechnik/assets/Pasted image 20240122233541.png",
+    "Digitaltechnik/assets/Pasted image 20240122233616.png",
+    "Digitaltechnik/assets/Pasted image 20240122233013.png",
+    "Digitaltechnik/assets/Pasted image 20240122233851.png",
+    "mathe/Lineare Abbildungen.md",
+    "mathe/mathe (4)/Rotationsmatrix.md",
+    "mathe/mathe (4)/Laplace-Bildbereich.md",
+    "Elektrodynamik/assets/Pasted image 20240121134105.png",
+    "Elektrodynamik/assets/Pasted image 20240121140049.png",
+    "Elektrodynamik/assets/UE01_k12136610-1.jpg",
+    "Elektrodynamik/assets/UE01_k12136610-2.jpg",
+    "Elektrodynamik/Statisches E-Feld.md",
+    "Hardwareentwicklung/Filter.md",
+    "Hardwareentwicklung/Tiefpass Filter.md",
+    "Hardwareentwicklung/Scheitelfaktor.md",
+    "Maxwell.md",
     "Hardwareentwicklung/Magnetisches Feld.md",
     "Elektrodynamik/Induktivitäten.md",
     "physik/Lenzsche Regel.md",
     "Dreiphasensysteme.md",
     "assets/Dreiphasensysteme 2024-01-24 08.49.51.excalidraw.md",
-    "assets/Pasted image 20240124084937.png",
-    "assets/Pasted image 20240124084846.png",
     "Hardwareentwicklung/Grenzfrequenz.md",
     "Hardwareentwicklung/Ohmsches Gesetz.md",
     "Hardwareentwicklung/assets/Ohmsches Gesetz 2024-01-18 22.37.14.excalidraw.md",
-    "Softwareentwicklung/Betriebssysteme/assets/OS_Schichtenmodell.png",
     "physik/Impuls.md",
     "physik/assets/Impuls 2024-01-17 13.10.36.excalidraw.md",
     "hf-technik/Richtantennen.md",
@@ -198,17 +203,7 @@
     "physik/Kinematik.md",
     "physik/{MOC} Mechanik.md",
     "mathe/mathe (4)/Vielteilchen-Systeme.md",
-    "mathe/mathe (4)/assets/Impuls 2024-01-17 12.42.59.excalidraw.md",
-    "mathe/mathe (4)/assets/Pasted image 20240117123718.png",
-    "mathe/mathe (4)/assets/Impuls 2024-01-17 12.22.10.excalidraw.md",
-    "mathe/mathe (4)/assets/Impuls 2024-01-17 12.14.49.excalidraw.md",
-    "mathe/mathe (4)/Schwingkreise.md",
-    "mathe/mathe (4)/assets/Schwingkreise 2024-01-17 09.08.32.excalidraw.md",
-    "Hardwareentwicklung/Ortskurve.md",
-    "physik/Elektrische Leistung.md",
-    "physik/assets/assets/Pasted Image 20240117085226_517.jpg",
     "physik/assets/assets",
-    "physik/assets/Pasted image 20240117084805.png",
     "Untitled.canvas",
     "physik/Materialkunde/assets",
     "xPN",
