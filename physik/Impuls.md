@@ -24,4 +24,4 @@ $$
 
 [Stoßprozesse](Stoßprozesse.md)  
 [Vielteilchen-Systeme](Vielteilchen-Systeme.md)  
-[Drehimpuls](../Drehimpuls.md)
+[Drehimpuls](Drehimpuls.md)
