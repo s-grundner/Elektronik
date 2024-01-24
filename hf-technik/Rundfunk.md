@@ -42,7 +42,7 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 >[!INFO] Fragen zur [Matura](../{MOT}%20Chemie/{MOC}%20Matura.md)
 > - EM-Spektrum – Frequenzbereich von Radiowellen
 >- FM4 – 104 MHz, so ist das im Spektrum der [EM-Wellen](../Physik/Elektromagnetische%20Wellen.md) einzuordnen
-> - Zusammenhang: Frequenz, Wellenlänge, [Antenne](Antenne.md), Sender - [Schwingkreis](../Mathe/mathe%20(4)/Schwingkreise.md)
+> - Zusammenhang: Frequenz, Wellenlänge, [Antenne](Antenne.md), Sender - [Schwingkreis](../Physik/Schwingkreise.md)
 > - Energie, Energieübertragung durch Wellen
 > - [Kodierung](../Netzwerktechnik/Kodierung.md) / Dekodierung, Mikrophon, Lautsprecher Fernsehen – schätze ab wie viele Informationen pro Sekunde gesendet werden müssen:
 >	- Du willst mit deinem Freund mit dem Handy telefonieren – was muss da alles geschehen und funktionieren….
