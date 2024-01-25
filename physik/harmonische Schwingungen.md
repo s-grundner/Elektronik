@@ -3,6 +3,7 @@ tags:
 aliases:
   - harmonische Schwingung
   - harmonischen Schwingungen
+  - harmonischer Oszillator
 keywords: 
 subject:
   - Physik für TechnikerInnen
@@ -17,6 +18,21 @@ professor:
 
 > [!INFO] die *harmonische Schwingung* ist ein wichtiger Spezialfall der periodischen [Bewegung](Kinematik.md).  
 > Sie entsteht immer dann, wenn bei der Auslenkung aus der Ruhelage eine rücktreibende [Kraft](Newtonsche%20Axiome.md) entsteht, welche direkt linear proportional zur Auslenkung ist.
+>
+> - Ein System das diese Bedingung erfüllt wird als *harmonischer Oszillator* bezeichnet.
+> - Die resultierende Bewegung folgt einem Sinus- bzw. Cosinus förmigen Zeitverlauf.
+
+> [!important] Besonderheiten
+> - einfache mathematische Beschreibung mit DGL aus der  Bewegungsgleichung
+
+> [!info] Modell vieler physikalischer Systeme:
+>- Mechanische Schwingkreise
+>	- Pendel
+>	- Masse-Feder-Schwingkreis
+>	- Elektrische Schwingkreis
+
+
+
 
 # Tags
 

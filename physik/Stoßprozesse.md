@@ -47,10 +47,12 @@ $A_{2}, B_{2}$ … Nach dem Stoß
 
 #### Energieverlust beim Stoß
 
-Die kinetische Energie vor dem Stoß ist: $E_{K_{1}}= \frac{1}{2}m_{A}v_{A_{1}}^2+\frac{1}{2}m_{B}v_{B_{1}}^2$
+Die kinetische Energie vor dem Stoß ist: $E_{K_{1}}= \dfrac{1}{2}m_{A}v_{A_{1}}^2+\dfrac{1}{2}m_{B}v_{B_{1}}^2$
 
-Nach dem Stoß ist sie kleiner: $E_{K_{2}}=\frac{1}{2}(m_{A}+m_{B})v_{2}^2= \frac{(m_{A}\vec{v}_{A_{1}}+m_{B}\vec{v}_{B_{1}})^2}{2(m_{A}+m_{B})}$
+Nach dem Stoß ist sie kleiner: $E_{K_{2}}=\dfrac{1}{2}(m_{A}+m_{B})v_{2}^2= \dfrac{(m_{A}\vec{v}_{A_{1}}+m_{B}\vec{v}_{B_{1}})^2}{2(m_{A}+m_{B})}$
 
 # Rückstoß
+
+
 
 # Tags

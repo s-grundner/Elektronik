@@ -4,18 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "28ceaf4e02872696",
+        "id": "3d23d17e7c41d795",
         "type": "tabs",
         "children": [
           {
-            "id": "fbb5155759ad1e4a",
+            "id": "af2b5fe681f95176",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "588b40ef89a95976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physik/Stoßprozesse.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +98,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "09a03fc326765419",
@@ -91,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Keplerschen Gesetze.md",
+            "file": "physik/Stoßprozesse.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -108,7 +127,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Keplerschen Gesetze.md",
+            "file": "physik/Stoßprozesse.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -120,7 +139,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Keplerschen Gesetze.md"
+            "file": "physik/Stoßprozesse.md"
           }
         }
       },
@@ -159,18 +178,29 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fbb5155759ad1e4a",
+  "active": "588b40ef89a95976",
   "lastOpenFiles": [
+    "Home.md",
+    "physik/Stoßprozesse.md",
+    "physik/harmonische Schwingungen.md",
+    "Hardwareentwicklung/Oszillatoren/Clock Generierung.md",
+    "10_tools/tools-jku.md",
+    "physik/Impuls.md",
+    "physik/assets/Pasted image 20240125000536.png",
+    "physik/assets/Pasted image 20240124235139.png",
+    "physik/Keplerschen Gesetze.md",
+    "physik/Drehimpuls.md",
+    "physik/Elektrischer Schwingkreis.md",
+    "physik/Schwingkreise.md",
+    "physik/Mechanischer Schwingkreis.md",
+    "physik/Drehmoment.md",
+    "mathe/Eigenvektor.md",
     "Drehimpuls.md",
     "Keplerschen Gesetze.md",
     "assets/Drehmoment 2024-01-24 13.13.30.excalidraw.md",
     "Drehmoment.md",
     "assets/Drehimpuls 2024-01-24 12.48.27.excalidraw.md",
-    "physik/Impuls.md",
-    "10_tools/tools-jku.md",
     "physik/Raketengleichung.md",
-    "physik/Stoßprozesse.md",
-    "Home.md",
     "Transformator.md",
     "TODO.md",
     "Digitaltechnik/assets/Pasted image 20240122233536.png",
@@ -184,19 +214,8 @@
     "mathe/mathe (4)/Laplace-Bildbereich.md",
     "Elektrodynamik/assets/Pasted image 20240121134105.png",
     "Elektrodynamik/assets/Pasted image 20240121140049.png",
-    "Elektrodynamik/assets/UE01_k12136610-1.jpg",
-    "Elektrodynamik/assets/UE01_k12136610-2.jpg",
     "Elektrodynamik/Statisches E-Feld.md",
     "Hardwareentwicklung/Filter.md",
-    "Hardwareentwicklung/Tiefpass Filter.md",
-    "Hardwareentwicklung/Scheitelfaktor.md",
-    "Maxwell.md",
-    "Hardwareentwicklung/Magnetisches Feld.md",
-    "Elektrodynamik/Induktivitäten.md",
-    "physik/Lenzsche Regel.md",
-    "Dreiphasensysteme.md",
-    "assets/Dreiphasensysteme 2024-01-24 08.49.51.excalidraw.md",
-    "Hardwareentwicklung/Grenzfrequenz.md",
     "physik/assets/assets",
     "Untitled.canvas",
     "physik/Materialkunde/assets",
