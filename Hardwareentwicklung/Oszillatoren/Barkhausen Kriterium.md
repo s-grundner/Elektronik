@@ -24,7 +24,7 @@ created: 2nd January 2023
 | Verstärker                                                        | Rückkoppler                                            |
 | ----------------------------------------------------------------- | ------------------------------------------------------ |
 | - $U_{2}=A\cdot U_{1}$                                            | - $U_{3}= k\cdot U_{2}$                                |
-| - parasitäre Phasenverschiebung $\alpha$ von $U_{2}$ nach $U_{1}$ | - Rückkoppelnetzwerk (z.B. [Schwingkreise](../../Mathe/mathe%20(4)/Schwingkreise.md))          |
+| - parasitäre Phasenverschiebung $\alpha$ von $U_{2}$ nach $U_{1}$ | - Rückkoppelnetzwerk (z.B. [Schwingkreise](../../Physik/Schwingkreise.md))          |
 |                                                                   | - Phasenverschiebung $\beta$ <br> $U_{2}$ nach $U_{3}$ |
 
 >[!summary] $U_{1}=U_{3}=k\cdot U_{2}=\underbracket{k\cdot A}_{g}\cdot U_{1}$  

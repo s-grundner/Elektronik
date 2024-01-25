@@ -41,7 +41,7 @@ Dreimpulserhaltung, Drehmoment, Mehrkörpersysteme
 
  Schwerpunkt, [Massenmittelpunkt](../mathe/mathe%20(4)/Vielteilchen-Systeme.md), Drehbewegung, Rotationsenergie, Trägheitsmomente, Drehung um freie Achsen, [Moleküle](../Chemie/Atombindung.md) 
 
-## 8. Harmonische Schwingungen
+## 8. [Harmonische Schwingungen](harmonische%20Schwingungen.md)
 
  Federschwinger, Pendel, gedämpfte und erzwungene Schwingungen, Resonanzen
 

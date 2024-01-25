@@ -4,6 +4,7 @@ aliases:
   - Matrizen
   - Matrixgleichung
   - Matrixrechnung
+  - Determinante
 subject:
   - mathe
 source:
@@ -56,6 +57,9 @@ $$
 > ![400](../assets/Pasted%20image%2020230102212307.png)
 
 ## Determinante
+
+[Mathematrick Determinante](https://www.youtube.com/watch?v=dJ7d9wwC2sw)  
+[Mathematrick Laplace Entwicklungssatz](https://www.youtube.com/watch?v=3cG0HWdmHLI)
 
 # Tags
 

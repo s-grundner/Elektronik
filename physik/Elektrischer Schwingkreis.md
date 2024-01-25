@@ -1,70 +1,23 @@
 ---
-tags: ["DGL", "Baugruppen/Oszillator"]
-aliases: ["Schwingkreis"]
-subject: ["mathe", "hwe", "physik"]
+tags: 
+aliases: 
+keywords: []
+subject:
+  - EET
+  - "..."
+semester: 1
+created: 24. Januar 2024
+professor:
 ---
-
-# Schwingungen
-
-## Zusammenhang mit [Differentialgleichungen](../{MOC}%20DGL.md)
-
-Jede Schwingung besteht aus einem Einschwingvorgang und einem eingeschwungenen Zustand.  
-Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
-
-Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wie folgt:
-1. Die Funktion $y_{h}(t)$ des Einschwingvorganges ist die [homogenen Lösung der DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)  
-	$\rightarrow y_{h}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = 0$
-2. die Funktion $y_{p}(t)$ des Eingeschwungenen Zustandes ist eine partikuläre Lösung [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung|der%20inhomogenen%20DGL%202.%20Ordnung)  
-	$\rightarrow y_{p}$ aus $\ddot y + 2\delta\cdot\dot y + \omega_{0}^{2}\cdot y = s(x)$
-
-> [!summary] Die Funktion der Gesamten Schwingung ist somit:  
-> $y(t) = y_{p}(t) + y_{h}(t)$
-
-## Mechanischer Schwingkreis
-
-![400](../assets/m_schwingk.png)
-
->[!info] Bewegungsgleichung: $F_{a} = F_{feder} + F_{reibung}$
->
-> $$
-> \begin{align}
-> F_{a} = m \cdot \ddot{y}\\
-> F_{feder} = -k\cdot y\\
-> F_{reibung} = -d \cdot \dot{y}\\
-> \end{align}
-> $$
->
-> ---
->
-> $$
-> \begin{align}
-> 	 m \cdot \ddot{y}=-d \cdot \dot{y}-k\cdot y\\
-> 	 0=\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y\\
-> \end{align}
-> $$
-
-### Bezeichnungen
-
-| Ausdruck | Bezeichnung        |
-| -------- | ------------------ |
-| $m$      | Masse              |
-| $d$      | Dämpfungskonstante |
-| $k$      | Federkonstante     |
-
-Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md):  
-$\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y = 0$
-
-Daraus ergibt sich durch die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) folgende Formel für $\lambda$:  
-$\lambda_{1,2}=- \frac{d}{2m}\pm\sqrt{(\frac{d}{2m})^{2}- \frac{k}{m}}$
-
-### Bezeichnungen
-
-| Ausdruck                                                | Bezeichnung                                                        |
-| ------------------------------------------------------- | ------------------------------------------------------------------ |
-| $2\delta = \frac{d}{m} \rightarrow \frac{d}{2m}=\delta$ | [Abklingkonstante](https://de.wikipedia.org/wiki/Abklingkonstante) |
-| $\omega_{0} = \sqrt{\frac{k}{m}}$                      | Resonanzkreisfrequenz                                              |
+ 
 
 # Elektrische Schwingungen
+
+> [!info] Arten von elektrischen Schwingkreisen
+> - Freie Schwingung im realen Serienschwingkreis
+> - Freie Schwingung im realen Parallelschwingkreis
+> - Erzwungen / Angeregte Schwingung im realen Serienschwingkreis
+> - Erzwungen / Angeregte Schwingung im realen Parallelschwingkreis
 
 ## Freie Schwingungen im realen Serienschwingkreis
 
@@ -72,7 +25,7 @@ Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer St�
 
 ![400](../assets/e_serien_schwingk_frei.png)
 
-Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
+Um die [Spannung](../Elektrodynamik/Spannung.md) der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
 | Einfluss der [Spule](../../Elektrodynamik/Impedanz.md) | Einfluss des [Kondensator](../../Elektrodynamik/Impedanz.md)      | Einfluss des [Widerstand](../../Elektrodynamik/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
@@ -106,7 +59,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [DGL](../{MOC}%20DGL.md) die [](lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20homogenen%20DGL%202%20Ordnung|charakteristische%20Gleichung) erzeugen
+Nun kann man aus einer der [DGL](../{MOC}%20DGL.md) die [charakteristische Gleichung](../Mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) erzeugen
 
 $$
 \begin{align*}
@@ -276,11 +229,6 @@ $$
 ## Freie Schwingung im realen Parallelschwingkreis
 
 ![Pasted image 20221201122606](../assets/Pasted%20image%2020221201122606.png)
-
-# Hardware Implementationen
-
-- [LC Oszillatoren](../../Hardwareentwicklung/Oszillatoren/LC%20Oszillatoren.md)
-- [Colpitts Oszillator](../../Hardwareentwicklung/Oszillatoren/Colpitts%20Oszillator.md)
 
 # Tags
 

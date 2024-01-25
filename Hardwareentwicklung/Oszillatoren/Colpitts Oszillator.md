@@ -43,6 +43,6 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ### Kapazitive 3-Punktschaltung
 
-Ein Teil der [Schwingkreis](../../Mathe/mathe%20(4)/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.  
+Ein Teil der [Schwingkreis](../../Physik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.  
 ![500](../assets/ColpittsCalc.png)  
 ![Pasted image 20221128104421](../assets/ColpittsCalc2.png)
