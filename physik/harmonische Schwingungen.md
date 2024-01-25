@@ -29,8 +29,10 @@ professor:
 > [!info] Modell vieler physikalischer Systeme:
 >- Mechanische [Schwingkreise](Schwingkreise.md)
 >	- Pendel
->	- Masse-[Feder](Federkraft.md)-[Schwingkreis](Schwingkreise.md)
+>	- [Feder](Federkraft.md)-Schwinger
 > - Elektrische [Schwingkreise](Schwingkreise.md) ([Oszillatoren](../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md))
+
+## Masse an einer Feder
 
 # Tags
 

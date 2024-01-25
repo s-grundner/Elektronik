@@ -29,8 +29,12 @@ Durch die Anziehung der Atome in der Feder entsteht nun eine rückwirkende elast
 > [!INFO] Im Fall einer *idealen elastischen* Feder ist die rückwirkende Federkraft linear proportional zur Auslenkung $x$:  
 > *Hooke'sches Gesetz:* $\vec{F_{F}} = -k\cdot \vec{x}$
 
-Das Hooke'sche gilt ganz Allgemein immer nur für kleine Auslenkungen bzw. Dehnungen der Feder, da diese sonst *bleibend plastisch* verformt wird.
+Das Hooke'sche Gesetz gilt ganz Allgemein immer nur für kleine Auslenkungen bzw. Dehnungen der Feder, da diese sonst *bleibend plastisch* verformt wird.
 
 Die Proportionalitätskonstante $k$ heißt Federkonstante und hat die Einheit $\frac{N}{m}$.
 
 Die Federkonstante charakterisiert die Stärke einer Feder und hängt von den Materialeigenschaften aber auch der [Geometrie](../Mathe/mathe%20(4)/Geometrie.md), Länge, Dicke, etc. der Feder ab.
+
+# Tags
+
+[Feder-Schwinger](Feder-Schwinger.md)
