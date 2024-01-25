@@ -3,6 +3,7 @@ tags:
 aliases:
   - Masse an einer Feder
   - Federschwinger
+  - Federpendel
 keywords: 
 subject:
   - Physik für TechnikerInnen
@@ -22,10 +23,21 @@ In der Gleichgewichtslage bei $x = 0$ übt die [Feder](Federkraft.md) keine [Kra
 
 ## Bewegungsgleichung
 
-Wird der Körper um den Betrag x aus der Ruhelage aus- gelenkt, erfährt er nach dem Hookeschen Gesetz eine rücktreibende Federkraft, die gegeben ist durch:
+Wird der Körper um den Betrag x aus der Ruhelage ausgelenkt, erfährt er nach dem Hookeschen Gesetz eine rücktreibende [Federkraft](Federkraft.md), die gegeben ist durch:  
+
 $$F_{r}(x)=-k\cdot x$$
 
-Mit dem 2. Newtonschen Gesetz ($\sum F=0$) ergibt sich die Bewegungsgleichung:
-$$
-F_{körper} = 
-$$
+> [!info] Mit dem 2. Newtonschen Gesetz ($\sum F=0$) ergibt sich die Bewegungsgleichung:  
+>
+> $$m\cdot a=m\cdot \frac{d^2x}{dt^2}=-k\cdot x$$
+>
+> oder
+>
+> $$\frac{d^2x}{dt^2}=- \frac{k}{m}\cdot x\quad \text{bzw.}\quad \ddot{x}(t)=- \frac{k}{m}\cdot x(t)$$
+
+> [!success] Die [Beschleunigung](Kinematik.md) $a = \ddot{x}$ des Körpers ist also entgegengesetzt und linear proportional zur Auslenkung $x$.  
+> $\implies$ Je weiter der Punkt $x$ vom Gleichgewichts-Punkt entfernt ist, desto kleiner ist die [Beschleunigung](Kinematik.md). Am Umkehrpunkt ist die [Beschleunigung](Kinematik.md) minimal.
+
+> Diese Gleichung ist die Bewegungsgleichung des harmonischen Oszillators. Sie ist eine [Differentialgleichung 2. Ordnung](../Mathe/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) da sie die 2. [Ableitung](../Mathe/mathe%20(3)/Differenzialrechnung.md) von $x$ enthält.
+
+> Gesucht ist die [Funktion](../Mathe/Abbild.md) $x(t)$, die diese [Differentialgleichung](../Mathe/{MOC}%20DGL.md) erfüllt und damit die [Bewegung](Kinematik.md) beschreibt.
