@@ -14,6 +14,8 @@ created: 31st May 2022
 
 ![](assets/Pasted%20image%2020240124235139.png)
 
+Während des gesamten Stoßprozesses befindet sich der Massenmittelpunkt innerhalb der strichlierten Linie.
+
 ## Impulserhaltung
 
 > [!info] Da keine äußeren Kräfte im Spiel sind, gilt die Erhaltung des Gesamtimpulses  
@@ -52,7 +54,5 @@ Die kinetische Energie vor dem Stoß ist: $E_{K_{1}}= \dfrac{1}{2}m_{A}v_{A_{1}}
 Nach dem Stoß ist sie kleiner: $E_{K_{2}}=\dfrac{1}{2}(m_{A}+m_{B})v_{2}^2= \dfrac{(m_{A}\vec{v}_{A_{1}}+m_{B}\vec{v}_{B_{1}})^2}{2(m_{A}+m_{B})}$
 
 # Rückstoß
-
-
 
 # Tags
