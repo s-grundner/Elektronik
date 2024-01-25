@@ -44,12 +44,12 @@ $$\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$$
 
 | Fall    | Bedingung                            | Art der Lösung                                                                                                 | Lösungsansatz für `y`                                                                    |
 | ------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| 1. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q>0$ | $\lambda_1 \neq \lambda_2$ (2 reelle Lösungen)                                                                 | $y_{h}= C_{1}\cdot e^{\lambda_{1}}+C_{2}\cdot e^{\lambda_{2}x}$                          |
-| 2. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q=0$ | $\lambda_{1}=\lambda_{2}=\lambda_0$ (reelle Doppellösung)                                                      | $y_{h}=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}$                                             |
-| 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ (2 konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
+| 1. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q>0$ | $\lambda_1 \neq \lambda_2$ <br>(2 reelle Lösungen)                                                                 | $y_{h}= C_{1}\cdot e^{\lambda_{1}}+C_{2}\cdot e^{\lambda_{2}x}$                          |
+| 2. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q=0$ | $\lambda_{1}=\lambda_{2}=\lambda_0$ <br>(reelle Doppellösung)                                                      | $y_{h}=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}$                                             |
+| 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ <br>(2 konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
 
 > [!NOTE] $C_{1}$ und $C_{2}$ werden durch die Anfangsbedingung festgelegt  
-> Es müssen immer 2 Lösungen existieren, da die Anfangsbedingungen der Differentialgleichung 2. Ordnung $\frac{dy(x_0)}{dx}$ und $y(x_0)$ sind. Um eine eindeutige Lösung erhalten benötigen wir also 
+> Es müssen immer 2 Lösungen existieren, da die Anfangsbedingungen der Differentialgleichung 2. Ordnung $\frac{dy(x_0)}{dx}$ und $y(x_0)$ sind. Um eine eindeutige Lösung erhalten benötigen wir also 2 Anfangsbedingungen. (z.B. Bei Bewegungsgleichung: Start-[Geschwindigkeit](../../Physik/Kinematik.md) und Startpunkt)
 
 #### 1. Fall: Eindeutige Lösung
 
@@ -60,7 +60,8 @@ y_{h1}&=C_{1}\cdot e^{\lambda_{1}x}\\y_{h2}&=C_{2}\cdot e^{\lambda_{2}x}\\
 y_{h}=C_{1}\cdot e^{\lambda_{1}x} + C_{2}\cdot e^{\lambda_{2}x}
 $$
 
-> [!SUCCESS] Diese Lösung ist eindeutig, da 2 Lösungen existieren
+> [!SUCCESS] Diese Lösung ist eindeutig, da 2 Lösungen existieren  
+> Die Summe der beiden Lösungen der homogenen DGL ist auch eine Lösung, da die Differenzialgleichung *linear* ist.
 
 #### 2. Fall: Doppellösung
 
@@ -72,12 +73,10 @@ $\begin{align*} \lambda_{1}&=\lambda_{2}=- \frac{p}{2} \\ y_{h}&=(C_{1}+C_{2}x)\
 #### 3. Fall: konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen
 
 $\left( \frac{p}{2} \right)^{2}-q<0$  
-$\lambda_{1}=a+jb$  
-$\lambda_{2}=a-jb$  
-$a = \sigma = -\frac{p}{2}$  
-$b = \omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
-
-> [!NOTE] Man schreibt $\sigma$ statt $a$ und $\omega$ statt $b$.
+$\lambda_{1}=\sigma+j\omega$  
+$\lambda_{2}=\sigma-j\omega$  
+$\sigma = -\frac{p}{2}$  
+$\omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
 
 ---
 
