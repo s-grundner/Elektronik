@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d32c27eb97d699e1",
+        "id": "28ceaf4e02872696",
         "type": "tabs",
         "children": [
           {
-            "id": "7b750c9b424b4d93",
+            "id": "fbb5155759ad1e4a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Keplerschen Gesetze.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -164,7 +159,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "7b750c9b424b4d93",
+  "active": "fbb5155759ad1e4a",
   "lastOpenFiles": [
     "Drehimpuls.md",
     "Keplerschen Gesetze.md",
