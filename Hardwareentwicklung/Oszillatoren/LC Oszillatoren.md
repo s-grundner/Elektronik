@@ -1,8 +1,15 @@
 ---
-tags: ["Baugruppen/Oszillator"]
-aliases: ["LC-Oszillator", "LC-Oszillatoren", "LC Oszillator"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppen/Oszillator
+aliases:
+  - LC-Oszillator
+  - LC-Oszillatoren
+  - LC Oszillator
+  - LC-Glied
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 17th November 2022
 ---
 

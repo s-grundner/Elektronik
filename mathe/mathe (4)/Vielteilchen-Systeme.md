@@ -11,6 +11,7 @@ subject:
 semester: 1
 created: 17th January 2024
 professor:
+  - Gunther Springholz
 ---
 
 # Vielteilchen-Systeme
@@ -19,9 +20,7 @@ professor:
 
 ## Massenmittelpunkt von Mehrteilchen-Systeme
 
-$$
-r_{S} = \frac{1}{m_{ges}}\cdot \sum_{i}m_{i}\cdot r_{i}
-$$
+$$\vec{r}_{S} = \frac{1}{m_{ges}}\cdot \sum_{i}m_{i}\cdot \vec{r}_{i}$$
 
 ![[assets/Impuls 2024-01-17 12.22.10.excalidraw]]
 

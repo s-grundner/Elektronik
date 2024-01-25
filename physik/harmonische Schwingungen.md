@@ -11,6 +11,7 @@ subject:
 semester: 1
 created: 24. Januar 2024
 professor:
+  - Gunther Springholz
 ---
  
 
@@ -20,19 +21,16 @@ professor:
 > Sie entsteht immer dann, wenn bei der Auslenkung aus der Ruhelage eine rücktreibende [Kraft](Newtonsche%20Axiome.md) entsteht, welche direkt linear proportional zur Auslenkung ist.
 >
 > - Ein System das diese Bedingung erfüllt wird als *harmonischer Oszillator* bezeichnet.
-> - Die resultierende Bewegung folgt einem Sinus- bzw. Cosinus förmigen Zeitverlauf.
+> - Die resultierende [Bewegung](Kinematik.md) folgt einem Sinusbzw. Cosinus förmigen Zeitverlauf.
 
 > [!important] Besonderheiten
-> - einfache mathematische Beschreibung mit DGL aus der  Bewegungsgleichung
+> - einfache mathematische Beschreibung mit [DGL](../Mathe/{MOC}%20DGL.md) aus der Bewegungsgleichung
 
 > [!info] Modell vieler physikalischer Systeme:
->- Mechanische Schwingkreise
+>- Mechanische [Schwingkreise](Schwingkreise.md)
 >	- Pendel
->	- Masse-Feder-Schwingkreis
->	- Elektrische Schwingkreis
-
-
-
+>	- Masse-[Feder](Federkraft.md)-[Schwingkreis](Schwingkreise.md)
+> - Elektrische [Schwingkreise](Schwingkreise.md) ([Oszillatoren](../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md))
 
 # Tags
 
