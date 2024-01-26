@@ -13,3 +13,6 @@ professor:
 
 # Wechselstromtechnik
 
+## Parallelschaltung zu Serienschaltung
+
+## Serienschaltung zu Parallelschaltung

@@ -29,6 +29,7 @@ $$
 | $R$ | *[Resistanz](../Hardwareentwicklung/Ohmsches%20Gesetz.md)* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
 | $X$ | *Reaktanz*  <br> Blindwiderstand | $\uparrow^{-1}$ | $B$ | *Suszeptanz* <br> Blindleitwert |
 
+Für Berechnungen gilt: $Z=\frac{Z_{Z}}{Z_{N}}$ -> $\mid Z\mid=\frac{\mid Z_{Z}\mid}{\mid Z_{N}\mid}$
 ## Impedanz Anpassung
 
 > [!INFO] Mit Impedanz Anpassung erzielt man:
