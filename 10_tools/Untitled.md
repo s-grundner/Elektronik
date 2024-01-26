@@ -1,0 +1,1 @@
+Die Funktion f(x) besitzt globale Extrema, da sie auf jedem Abschnitt stetig und differenzierbar ist. Die kritischen Punkte liegen an den Übergängen zwischen den Abschnitten, jedoch können Extremstellen trotz Unstetigkeiten auftreten. Daher hat f(x) globale Extrema an den Stellen x=−1, x=1 und x=2.
