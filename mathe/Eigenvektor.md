@@ -36,7 +36,7 @@ professor:
 
 # Beispiele
 
-> [!example] reelle Eigenwerte
+## Reelle Eigenwerte
 
 $$
 A= \begin{pmatrix}
@@ -94,7 +94,9 @@ A\vec{x}-(\lambda \cdot I)\cdot\vec{x} &= \vec{0} \\
 \end{align}
 $$
 
-Eigenvektoren sind also alle Vektoren $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$ die diese Gleichung erfüllen.
+Eigenvektoren sind also alle Vektoren $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
+
+### charakteristisches Polynom
 
 > [!important] Die Eigenwerte werden durch Nullstellen im charakteristischen Polynom berechnet. 
 
@@ -121,6 +123,56 @@ Die Gleichung wird nun zu einem Polynom aufgelöst:
 > $$\lambda_{1} = 0 \qquad \lambda_{2} = 6 \qquad \lambda_{3} = 9$$
 > 
 
+### Eigenvektoren 
+
+Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das LGS eingesetzt und gelöst werden.
+
+$\lambda_{1}$:
+
+$$
+\begin{align}
+\left[\begin{array}{ccc|c}
+-2 & -2 & 1 & 0 \\
+-2 & -8 & -2 & 0 \\
+1 & -2 & -2 & 0
+\end{array}\right] &\to
+\left[\begin{array}{ccc|c}
+-2 & -2 & 1 & 0 \\
+-2 & -8 & -2 & 0 \\
+2 & -4 & -4 & 0
+\end{array}\right]
+\begin{aligned}
+\\
+S_{2}'=S_{2}-S_{1}\\
+S_{3}'=S_{3}+S_{1}
+\end{aligned}
+\\
+\left[\begin{array}{ccc|c}
+-2 & -2 & 1 & 0 \\
+0 & -6 & -3 & 0 \\
+0 & -6 & -3 & 0
+\end{array}\right] &\to
+\left[\begin{array}{ccc|c}
+-2 & -2 & 1 & 0 \\
+0 & -6 & 3 & 0 \\
+0 & 0 & 0 & 0
+\end{array}\right]
+\end{align}
+$$
+
+Mit dem Eliminieren der linearen Abhängigkeiten kann nun das LGS gelöst werden. Pro Lineare Abhängigkeit kann ein Parameter frei gewählt werden:
+
+$$
+0x_{1}+0x_{2}+0x_{3} = 0 \to x_{3} = s, s\in \mathbb{R}
+$$
+
+$s$ ist ein für $x_{3}$ frei gewählter Parameter.
+
+$$0x_{1}-6x_{2}+3s =0\to x_{2} = \frac{s}{2}$$
+
+$$
+-2x_{1} -2\cdot \frac{s}{2}+1\cdot s
+$$
 
 # Tags
 
