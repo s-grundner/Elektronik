@@ -19,14 +19,7 @@ at: 10GHz
 
 # Silizium
 
-![InlineR|300](assets/Pasted%20image%2020240116122317.jpg)
-
-
-
-
-
-
----
+![300](assets/Pasted%20image%2020240116122317.jpg)
 
 # Tags
 
