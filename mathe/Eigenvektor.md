@@ -46,8 +46,55 @@ A= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ die unter der linearen Abbildung $Lx = A^{L}\vec{x}$
-$A\vec{x}=\lambda \vec{x}$
+Alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ die unter der linearen Abbildung $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche Vektor mit einer Anderen länge)
+
+$$A\vec{x}=\lambda \vec{x}$$
+
+
+
+Die Gleichung beinhaltet nun auf der einen Seite eine Matrix multipliziert mit einem Vektor und auf der anderen ein Skalar multipliziert mit einem Vektor.
+
+Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der Einheitsmatrix anschreiben:
+
+$$
+\begin{align}
+\lambda \vec{x} &= (\lambda \cdot I)\vec{x} = \lambda \cdot\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 1 & 0 \\
+0 & 0 & 1
+\end{pmatrix}\cdot \vec{x} =\begin{pmatrix}
+\lambda & 0 & 0 \\
+0 & \lambda & 0 \\
+0 & 0 & \lambda
+\end{pmatrix}\cdot \vec{x}
+\end{align}
+$$
+
+Durch Umformen und Einsetzen ergibt sich:
+
+$$
+\begin{align}
+A\vec{x}&=\lambda \vec{x} \quad|-\lambda \vec{x} \\
+A\vec{x}-\lambda \vec{x} &=\vec{0} \quad \text{(Nullvektor)} \\
+A\vec{x}-(\lambda \cdot I)\vec{x} &= \vec{0} \\
+(A-\lambda \cdot I)\vec{x} &= \vec{0} \\
+\left[\begin{pmatrix}
+7 & -2 & 1\\
+-2 & 1 & -2 \\
+1 & -2 & 7
+\end{pmatrix}-\begin{pmatrix}
+\lambda & 0 & 0 \\
+0 & \lambda & 0 \\
+0 & 0 & \lambda
+\end{pmatrix}\right]\vec{x}&=\vec{0} \\
+\begin{pmatrix}
+7 & -2 & 1\\
+-2 & 1 & -2 \\
+1 & -2 & 7
+\end{pmatrix} &= \vec{0}
+\end{align}
+$$
+
 
 # Tags
 
