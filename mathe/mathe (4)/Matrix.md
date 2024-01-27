@@ -59,15 +59,17 @@ $$
 \vec{z_k}=\left\{\begin{array}{ll}
 \lambda \vec{e_i} & \text { falls } k=i, \\
 \vec{e_k} & \text { falls } k \neq i,
-\end{array} \quad \text { also } S_i(\lambda):=\begin{pmatrix}
-1 &&&&& \cdots & 0 \\
-0 & \ddots &&&&& \vdots \\
-&& 1\\
-&&&\lambda\\
-&&&& 1 \\
-\vdots &&&&& \ddots & 0 \\
-0 & \cdots &&&& 0 & 1
-\end{pmatrix} \leftarrow i\right. \text {-te Zeile }
+\end{array} \quad \text { also } S_i(\lambda):=
+\begin{pmatrix}
+1 & & & & & \cdots & 0 \\
+0 & \ddots & & & & & \vdots \\
+& & 1\\
+& & & \lambda\\
+& & & & 1 \\
+\vdots & & & & & \ddots & 0 \\
+0 & \cdots & & & & 0 & 1
+\end{pmatrix}
+\leftarrow i\right. \text {-te Zeile }
 $$
 
 (3) Additionsmatrix $R_{i, j}(\lambda)$ mit $i \neq j$ und $\lambda \neq 0$ (Linearkombination): für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt
@@ -76,16 +78,19 @@ $$
 \vec{z_k}=\left\{\begin{array}{ll}
 \vec{e_i}+\lambda \vec{e_j} & \text { falls } k=i, \\
 \vec{e_k} & \text { falls } k \neq i,
-\end{array} \quad \text { also } R_{i, j}(\lambda):=\left(\begin{array}{ccccccc}
-1 & 0 & & & & \cdots & 0 \\
-0 & \ddots & & & & & \vdots \\
-& & 1 & 0 & \cdots & \lambda & \\
-& & \ddots & & \vdots & \\
-& & & \ddots & 0 & \\
-& & & & 1 & \\
-\vdots & & & & & \ddots & 0 \\
-0 & \cdots & & & & 0 & 1
-\end{array}\right) \leftarrow i\right. \text {-te Zeile }
+\end{array} \quad \text { also } R_{i, j}(\lambda):=\begin{pmatrix}
+1 & 0 &  &  &  & &  \cdots  & 0 \\
+0 & \ddots  &  &  &  &  &  & \vdots\\
+ &  & 1  & 0 & \cdots  & \lambda\\
+ &  &  & \ddots  &  & \vdots \\
+ &  &  &  & \ddots  & 0 \\
+ &  &  &  &  & 1\\
+ \vdots&  &  &  &  &  & \ddots & 0 \\
+0 & \cdots &  &  &  &  &   0 & 1
+\end{pmatrix}\right.
+\begin{aligned}
+
+\end{aligned}
 $$
 
 ## Besondere Matrizen
