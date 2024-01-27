@@ -19,4 +19,4 @@ created: 28th September 2022
 - [Matrix](../mathe%20(4)/Matrix.md)
 - Tensor
 - Vektorbasis
-- [[Linearkombination]]
+- [[../mathe (4)/Lineare Hülle]]

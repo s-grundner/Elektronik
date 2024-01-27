@@ -29,7 +29,7 @@ Außerdem kann der Faktor $T$ aus „Bequemlichkeit“ weggelassen werden.
 
 $$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
 
-Dies [Funktion](../../Mathe/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathe/mathe%20(3)/Linearkombination.md)e Funktionswerte.
+Dies [Funktion](../../Mathe/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathe/mathe%20(4)/Lineare%20Hülle.md)e Funktionswerte.
 
 Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
 
@@ -95,7 +95,7 @@ $$
 
 ## Eigenschaften der DFT
 
-- „Die DFT einer [Linearkombination](../../Mathe/mathe%20(3)/Linearkombination.md) von Signalen ist gleich der [Linearkombination](../../Mathe/mathe%20(3)/Linearkombination.md) ihrer DFTs.“ [8, p. 169] [^1]
+- „Die DFT einer [Lineare Hülle](../../Mathe/mathe%20(4)/Lineare%20Hülle.md) von Signalen ist gleich der [Lineare Hülle](../../Mathe/mathe%20(4)/Lineare%20Hülle.md) ihrer DFTs.“ [8, p. 169] [^1]
 - „Die DFT und die IDFT sind $N$-periodisch.“ [8, p. 169] [^1]
 - „Die Energie des Signals im Zeitbereich ist gleich der Energie des Signals im Frequenzbereich geteilt durch $N$.“ (Parceval-Theorem) [8, p. 170] [^1]
 - „Die DFT eines reellen Signals ist bezüglich dem Punkt $k= N/2$ symmetrisch.“ [8, p. 170] [^1]

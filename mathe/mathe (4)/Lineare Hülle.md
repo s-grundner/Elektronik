@@ -2,13 +2,16 @@
 tags: 
 aliases:
   - linearen Hüllen
+  - linear kombination
+  - linear abhängig
+  - linear unabhängig
 keywords: 
 subject:
   - Mathematik1
   - "357.100"
 semester:
   - WS23
-created: 27. Januar 2024
+created: 27. Dezember 2023
 professor:
 ---
  

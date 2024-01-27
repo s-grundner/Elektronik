@@ -1,3 +1,19 @@
+---
+tags: 
+aliases:
+  - linearen Abbildung
+  - lineare Abbildung
+keywords: 
+subject:
+  - Mathematik1
+  - "357.100"
+semester:
+  - WS23
+created: 23. Januar 2024
+professor:
+---
+ 
+
 # Lineare Abbildungen
 
 > [!important] Definition 10.1. Seien $X$ und $Y$ $\mathbb{K}$-Vektorräume. Eine Abbildung $L: X \rightarrow Y$ heißt linear: $\Longleftrightarrow$
