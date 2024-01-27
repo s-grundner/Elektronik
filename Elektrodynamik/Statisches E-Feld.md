@@ -22,7 +22,7 @@ $$
 \vec{F}=q\cdot \vec{E}
 $$
 
-Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein Betrag reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
+Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathe/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
 $$
 |\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}

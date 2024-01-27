@@ -23,7 +23,7 @@ In der Gleichgewichtslage bei $x = 0$ übt die [Feder](Federkraft.md) keine [Kra
 
 ## Bewegungsgleichung
 
-Wird der Körper um den Betrag x aus der Ruhelage ausgelenkt, erfährt er nach dem Hookeschen Gesetz eine rücktreibende [Federkraft](Federkraft.md), die gegeben ist durch:  
+Wird der Körper um den [Betrag](../Mathe/Betrag.md) x aus der Ruhelage ausgelenkt, erfährt er nach dem Hookeschen Gesetz eine rücktreibende [Federkraft](Federkraft.md), die gegeben ist durch:  
 
 $$F_{r}(x)=-k\cdot x$$
 

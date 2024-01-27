@@ -95,9 +95,9 @@ int fact(int n) {
 
 - [Mandelbrot](Mandelbrot.md)
 
-## Größter Gemeinsamer Teiler (ggT)
+## Größter Gemeinsamer Teiler ([ggT](../../../Mathe/Teilbarkeit.md))
 
-Bereits Euklid erkannte: der ggT zweier Zahlen a und b (Voraussetzung a > b) ist der Gleiche wenn stattdessen das ggT aus (a-xb) und b ermittelt wird. x sei eine beliebige positive Ganzzahl. Da (a-xb) aber kleiner als b ist können damit die Parameter vertauscht werden und das Spiel wiederholt werden. Gefunden ist der ggT wenn einer der Parameter 0 ist, der ggT ist dann der jeweils andere Parameter. (Euklidscher Algorithmus)
+Bereits Euklid erkannte: der [ggT](../../../Mathe/Teilbarkeit.md) zweier Zahlen a und b (Voraussetzung a > b) ist der Gleiche wenn stattdessen das [ggT](../../../Mathe/Teilbarkeit.md) aus (a-xb) und b ermittelt wird. x sei eine beliebige positive Ganzzahl. Da (a-xb) aber kleiner als b ist können damit die Parameter vertauscht werden und das Spiel wiederholt werden. Gefunden ist der [ggT](../../../Mathe/Teilbarkeit.md) wenn einer der Parameter 0 ist, der [ggT](../../../Mathe/Teilbarkeit.md) ist dann der jeweils andere Parameter. (Euklidscher Algorithmus)
 
 Beispiel:
 

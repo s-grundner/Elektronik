@@ -263,7 +263,7 @@ Der Notendurchschnitt beträgt:
 
 Mit der Eingabe von "e" wird erkannt, dass Eingabe zu Ende ist
 
-## ggT
+## [ggT](../../../Mathe/Teilbarkeit.md)
 
 Ermitteln Sie den größten gemeinsamen Teiler von 2 ganzen Zahlen:
 
@@ -274,7 +274,7 @@ ggT(14,77) = 7
 
 Stellen Sie sicher, dass die Berechnung auch für negative Zahlen funktioniert.
 
-## kgV
+## [kgV](../../../Mathe/Teilbarkeit.md)
 
 Ermitteln Sie das kleinste gemeinsame Vielfache von 2 ganzen Zahlen:
 
@@ -294,4 +294,3 @@ Addition von 2 Brüchen
 Geben Sie Z1 N1 Z2 N2 ein: 13 5 27 10
 13/5 + 27/10 = 53/10
 ```
-

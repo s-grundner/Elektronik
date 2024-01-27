@@ -16,8 +16,6 @@ Erstellen Sie eine C++ Funktion zur Kodierung eines Texts mittels Caesar-Chiffre
 string codeVerschiebeCh(string str, int shift);
 ```
 
-
-
 > [!EXAMPLE] Testen Sie die Funktion mittels dem Beispiel-Text:  
 > In einem Raumgebiet befinde sich ein [Elektrisches Feld](../../Elektrodynamik/Elektrisches%20Feld.md) (weil zum Beispiel gerade eine Gewitterwolke darueber schwebt). Stell dir vor, du moechtest jemandem mitteilen, wie viel und was fuer Feldstoff sich an einer bestimmten Stelle des Gebiets befindet. Du brauchst dazu ein Mass, eine physikalische Groesse. Ein solches Mass ist die elektrische Feldstaerke. Man wuerde wahrscheinlich zunaechst erwarten, dass die elektrische Feldstaerke einfach in der Naehe eines geladenen Koerpers einen grossen Wert hat und in groesserer Entfernung einen kleinen. Nun kann man aber das Feld so noch nicht eindeutig beschreiben. Wir hatten festgestellt, dass im elektrischen Feld sowohl Druckals auch Zugspannungen herrschen koennen. Tatsaechlich ist es so, dass in einem Feld Zug und Druck an jedem Ort gleichzeitig herrschen. Wie ist das moeglich? Fuer jedes Stueckchen Feldstoff gibt es eine ausgezeichnete Richtung, in der das Feld unter Zugspannung steht. Wir nennen sie die Zugrichtung. In allen Richtungen quer dazu steht es unter Druckspannung. Abb. 1.42 zeigt einen kleinen Zylinder, den wir in Gedanken aus einem Feld herausgeschnitten haben, und zwar so, dass die Zylinderachse in der Zugrichtung des Feldes liegt. In den Richtungen quer dazu herrscht Druckspannung. (Dass ein Material an jeder Stelle eine ausgezeichnete Richtung hat, ist keine seltene Eigenschaft. So hat die Maserung eines Holzstuecks an jeder Stelle eine bestimmte Richtung.
 
@@ -30,7 +28,6 @@ In deutschsprachigen Texten kommen die Buchstaben mit etwa folgender Häufigkeit
 | a    | b    | c    | d    | e     | f    | g    | h    | i    | j    | k    | l    | m    |
 | ---- | ---- | ---- | ---- | ----- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 6,51 | 1,89 | 3,06 | 5,08 | 17,40 | 1,66 | 3,01 | 4,76 | 7,55 | 0,27 | 1,21 | 3,44 | 2,53 |
-
 
 | n    | o    | p    | q    | r    | s    | t    | u    | v    | w    | x    | y    | z    |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -432,10 +429,10 @@ public:
 
 Algorithmus:
 
-- Auswahl zweier großer Primzahlen **p** und **q**
+- Auswahl zweier großer [Primzahlen](../../Mathe/Primzahlen.md) **p** und **q**
 - Berechnung **N** = p q
 - Ermitteln von $\varphi(N) = (p - 1)(q - 1)$ (*Eulersche-Funktion*)  
-  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, … , \varphi-1\}$ und e und $\varphi$ sind prim zueinander (ggT ist 1) und größer 1
+  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, … , \varphi-1\}$ und e und $\varphi$ sind prim zueinander ([ggT](../../Mathe/Teilbarkeit.md) ist 1) und größer 1
 - Berechnung $d = (e\ mod\ \varphi)^{-1}$ mittels erweiterten Euklidischen Algorithmus.
 - Öffentlicher Schlüssel: **P** = (e, N), Verschlüsseln von m mit $c = m^e mod \ N$
 - Privater/Geheimer Schlüssel **S** = (d, N), Entschlüsseln von c mit $m = c^d mod \ N$
@@ -446,7 +443,7 @@ Die Nachricht wird geblockt codiert, die Blockgröße ist kleiner als N zu wähl
 
 #### Allgemeines Vorgehen
 
-- Wahl zweier unterschiedlicher Primzahlen  
+- Wahl zweier unterschiedlicher [Primzahlen](../../Mathe/Primzahlen.md)  
   **p = 13, q = 7**
 
 - Berechnung RSA-Modul $N = p \cdot q$:  
@@ -469,7 +466,7 @@ Die Nachricht wird geblockt codiert, die Blockgröße ist kleiner als N zu wähl
 
 praktisch wird e klein gewählt, häufig wird 65535 gewählt. Für die Sicherheit der Verschlüsselung ist entscheidend: nur e, N dürfen öffentlich bekannt sein. Die Zwischenergebnisse, sowie p und q dürfen nicht öffentlich sein.
 
-- Primzahlen: sind nur durch 1 und sich selbst teilbar
+- [Primzahlen](../../Mathe/Primzahlen.md): sind nur durch 1 und sich selbst teilbar
 
 - Zahlenbereich der zu verschlüsselnden Nachricht: N = 91. Daher können Zeichen/Zahlen im Bereich von 0-90 verschlüsselt werden (z.B. a-z, A-Z, 0-9 und Sonderzeichen, Achtung ASCII beinhaltet 128 Zeichenmöglichkeiten)
 - Die Chiffrat c für die Nachricht m = 66:  
@@ -491,7 +488,7 @@ Berechnen Sie einen einfachen (3 stellig) privaten, geheimen Schlüssel und eine
 
 Zur Lösung der Gleichung $(d\cdot e)\mod \varphi = 1$:
 
-- Anwendung des Euklidischen Algorithmus zur Ermittlung des ggT zwischen $e$ und $\varphi$ (ist immer 1 weil e ja so gewählt wird).
+- Anwendung des Euklidischen Algorithmus zur Ermittlung des [ggT](../../Mathe/Teilbarkeit.md) zwischen $e$ und $\varphi$ (ist immer 1 weil e ja so gewählt wird).
 - Ausgehend von der vorletzten Gleichung ( 1=…) wird der erweiterte Euklidische Algorithmus angewendet. Dabei werden die Terme nicht einfach ausmultipliziert sondern, solange es Reste aus der vorhergehenden Gleichung sind, eingesetzt.
 
 #### Variante 1
@@ -505,7 +502,7 @@ Lösung der Gleichung    d * e mod phi = 1
 nach d
 ```
 
-Euklidischer Algorithmus (ggT Berechnung) (<https://www.mathe-online.at/materialien/Franz.Embacher/files/RSA/Euklid.html>):
+Euklidischer Algorithmus ([ggT](../../Mathe/Teilbarkeit.md) Berechnung) (<https://www.mathe-online.at/materialien/Franz.Embacher/files/RSA/Euklid.html>):
 
 ```
 ggT(e, phi) = ggt(17, 120) -> wir wissen dieser muss 1 sein (wurde ja so gewählt)
@@ -1379,7 +1376,7 @@ public class CryptoRsaAes
 }
 ```
 
-## C/C++ eigener RSA (c++810)
+## C/C++ Eigener RSA (c++810)
 
 Schreiben Sie ein Programm zum Berechnen eines RSA-Public/Private-Key Paares und Verschlüsseln/Entschlüsseln Sie eine Nachricht damit:
 
@@ -2889,7 +2886,7 @@ openSSL liefert nicht nur Bibliotheken für die eigene Programmierung (siehe Unt
   openssl genrsa -out priv.pem 2048
   openssl rsa -in priv.pem -pubout > pub.pem
   ```
-  
+
 - Mit RSA verschlüsseln/entschlüsseln:
 
   ```

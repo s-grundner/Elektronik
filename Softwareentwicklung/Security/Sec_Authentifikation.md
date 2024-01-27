@@ -52,7 +52,7 @@ Häufig werden diese Hash-Werte [rekursiv](../DS-Algo/Rekursion.md) berechnet, z
 - Klartext-Dokument *M* wird in *m*-lange Teile zerlegt, M = (M1, M2 … Mk)
 - Der Hash-Wert *h* hat eine Länge *n* (<*m*)
 - h0 = 0 (Startwert)
-- hi = f( Mi, h(i-1) )       (Berechnung aus iten Klartextanteil und vorhergehender Hash-Stelle)
+- hi = f( Mi, h(i-1) ) (Berechnung aus iten Klartextanteil und vorhergehender Hash-Stelle)
 
 - h = hk (letzte Iteration liefert den Hash-Wert)
 
@@ -108,7 +108,7 @@ Das **Fiat-Shamir-Protokoll** ist kein echtes Zero-Knowledge-Protokoll:
 
 1. Peggy besitzt einen geheimen Schlüssel (Passwort)
 
-2. Peggy wählt einen Modul $m = p\cdot q$ (p, q sind Primzahlen) und gibt diesen öffentlich bekannt (dieser Modul wird von einer vertrauenswürdigen dritten Partei bekannt gegeben)
+2. Peggy wählt einen Modul $m = p\cdot q$ (p, q sind [Primzahlen](../../Mathe/Primzahlen.md)) und gibt diesen öffentlich bekannt (dieser Modul wird von einer vertrauenswürdigen dritten Partei bekannt gegeben)
 
 3. Peggy berechnet $v = s^2\ mod\ m$ und gibt es öffentlich bekannt. (m, v) ist der öffentliche Schlüssel
 

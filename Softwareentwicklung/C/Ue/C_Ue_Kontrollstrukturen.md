@@ -45,7 +45,7 @@ created: 29th November 2022
 Lesen Sie eine Zahl ein und Prüfen Sie ob es sich um eine Primzahl handelt.
 
 - Zahl Einlesen
-- Primzahlen: nur durch sich selbst oder 1 teilbar.
+- [Primzahlen](../../../Mathe/Primzahlen.md): nur durch sich selbst oder 1 teilbar.
 - Prüfen ob Zahl durch 2 teilbar, wenn ja -> Ende, keine Primzahl, sonst weiter
 - Prüfen ob Zahl durch 3 teilbar, wenn ja -> Ende, keine Primzahl, sonst weiter
 - …
@@ -61,7 +61,7 @@ Lesen Sie eine Zahl ein und Prüfen Sie ob es sich um eine Primzahl handelt.
 
 ## CalcPrimzahlen (040)
 
-- Lesen Sie eine Zahl ein und geben Sie sämtliche Primzahlen bis zu dieser Zahl aus
+- Lesen Sie eine Zahl ein und geben Sie sämtliche [Primzahlen](../../../Mathe/Primzahlen.md) bis zu dieser Zahl aus
 
 - Beispiel-Ausgabe:
 

@@ -94,7 +94,7 @@ Die Bank hat Überweisungen durchzuführen. Die Überweisungen werden in paralle
 
 - Für Transaktionen zwischen zwei Konten stellt SimpleBank die Methode ueberweisung() zur Verfügung. 
 
-- Ihr werden die beiden beteiligten Kontonummern sowie der Betrag der Überweisung übergeben. 
+- Ihr werden die beiden beteiligten Kontonummern sowie der [Betrag](../../../Mathe/Betrag.md) der Überweisung übergeben. 
 
 - Zu Demonstrationszwecken wird die Ausführung der Überweisung zwischen der Berechnung des neuen Kontostands und dessen Zurückschreiben unterbrochen. Hierzu wird auf die bekannte Methode sleep() verwendet.
 

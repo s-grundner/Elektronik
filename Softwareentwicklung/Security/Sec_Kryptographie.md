@@ -291,7 +291,7 @@ Der Nachteil der Public-Key Verschlüsselung ist, dass sie rechentechnisch wesen
 
 Algorithmus:
 
-- Auswahl zweier großer Primzahlen **p** und **q**
+- Auswahl zweier großer [Primzahlen](../../Mathe/Primzahlen.md) **p** und **q**
 
 - Berechnung des *RSA-Moduls* $N = p\cdot q$
 
@@ -299,7 +299,7 @@ Algorithmus:
   $\varphi(N)$ … Anzahl der teilerfremden natürlichen Zahlen von N (Zahlen die keinen gemeinsamen Teiler mit N haben)  
   Bsp.: $\varphi(6) = 2$ weil in der Menge {1,2,3,4,5,6} nur 1 und 5 teilerfremd sind; da 6 das Produkt von 2 und 3 ist liefert die Berechnung das gleiche Ergebnis (3-1)*(2-1)=2 
   
-- Wahl einer kleinen natürlichen Zahl **e** für die gilt: e und $\varphi$ sind prim zueinander (ggT ist 1, bzw. sind teilerfremd) und größer 1
+- Wahl einer kleinen natürlichen Zahl **e** für die gilt: e und $\varphi$ sind prim zueinander ([ggT](../../Mathe/Teilbarkeit.md) ist 1, bzw. sind teilerfremd) und größer 1
 
 - der Entschlüsselungsexponent muss multiplikativ invers bezüglich dem Modul sein: $e\cdot d \equiv 1\ mod\ \varphi(N)$ 
   
@@ -318,9 +318,9 @@ Die Nachricht wird geblockt codiert, die Blockgröße ist (möglichst knapp) kle
 
 Das besondere: dieses Verfahren kann auch für die Authentifizierung verwendet werden. Dazu verschlüsselt Bob mit seinem geheimen Schlüssel eine zu signierende Information. Entschlüsselt werden kann dieser Geheimtext von jedem mittels dem öffentlichen Schlüssel von Bob (und nur mit diesem). Damit ist für jeden Ersichtlich, dass der gesendete Text nur von Bob geschickt worden sein kann.
 
-Die Gültigkeit der Prozedur ist mathematisch belegt. Der geheime Schlüssel kann ermittelt werden indem die im öffentlichen Schlüssel vorhandene Zahl N in ihre Primfaktoren zerlegt wird. Für große Zahlen ist diese Aufgabe sehr aufwendig. Für das Erzeugen der Schlüssel müssen große Primzahlen gefunden werden. Von diesen gibt es beliebig viele. Das Prüfen ob eine gewählte Zahl eine Primzahl ist, funktioniert hingegen sehr effizient.
+Die Gültigkeit der Prozedur ist mathematisch belegt. Der geheime Schlüssel kann ermittelt werden indem die im öffentlichen Schlüssel vorhandene Zahl N in ihre [Primfaktoren](../../Mathe/Primzahlen.md) zerlegt wird. Für große Zahlen ist diese Aufgabe sehr aufwendig. Für das Erzeugen der Schlüssel müssen große [Primzahlen](../../Mathe/Primzahlen.md) gefunden werden. Von diesen gibt es beliebig viele. Das Prüfen ob eine gewählte Zahl eine Primzahl ist, funktioniert hingegen sehr effizient.
 
-Die Sicherheit dieser Verschlüsselung basiert darauf, dass keine effiziente Methode bekannt ist um Primfaktoren zu bestimmen. Allgemeine Ansätze wie das Probieren mittels gefundener Primzahlen dauert (aktuell) so lange, dass RSA durch die Wahl entsprechend große Zahlen als Sicher erachtet wird. Mittels Quanten-Computer könnte die Berechnung so schnell werden, dass das Verfahren nicht mehr sicher ist.
+Die Sicherheit dieser Verschlüsselung basiert darauf, dass keine effiziente Methode bekannt ist um [Primfaktoren](../../Mathe/Primzahlen.md) zu bestimmen. Allgemeine Ansätze wie das Probieren mittels gefundener [Primzahlen](../../Mathe/Primzahlen.md) dauert (aktuell) so lange, dass RSA durch die Wahl entsprechend große Zahlen als Sicher erachtet wird. Mittels Quanten-Computer könnte die Berechnung so schnell werden, dass das Verfahren nicht mehr sicher ist.
 
 **RSA als Blockchiffre**
 
@@ -334,7 +334,7 @@ o=15
 8*27^4 + 1*27^3 + 12*27^2 + 12 *27^1 + 15*27^0 = 3681823‬
 ```
 
-Diese Zahl entspricht dem Text **hallo**. Mit 5 Zeichen können 373.071.581 Varianten übertragen werden (27^5 - 1). Mit den beiden Primzahlen p=18059 und q=20663 kann ein Zahlenraum von 373.153.117 ($N = p \cdot q$) verschlüsselt werden.
+Diese Zahl entspricht dem Text **hallo**. Mit 5 Zeichen können 373.071.581 Varianten übertragen werden (27^5 - 1). Mit den beiden [Primzahlen](../../Mathe/Primzahlen.md) p=18059 und q=20663 kann ein Zahlenraum von 373.153.117 ($N = p \cdot q$) verschlüsselt werden.
 
 ## Sicherungsprotokolle
 

@@ -14,3 +14,7 @@ professor:
  
 
 # Induktion (Beweisführung)
+
+# Beispiele
+
+![](assets/Pasted%20image%2020240127134214.png)

@@ -70,7 +70,7 @@ created: 29th November 2022
 
     Sortieren von 10 Zahlen der Größe nach
 
-    Berechnung der 10 kleinsten Primzahlen
+    Berechnung der 10 kleinsten [Primzahlen](../../../Mathe/Primzahlen.md)
 
     Allgemein: Berechnung einer ganzzahligenZufallszahl, Vorgabe des Wertebereichs Min/Max
 
@@ -328,7 +328,7 @@ created: 29th November 2022
 
     Sortieren von 10 Zahlen der Größe nach
 
-    Berechnung der 10 kleinsten Primzahlen
+    Berechnung der 10 kleinsten [Primzahlen](../../../Mathe/Primzahlen.md)
 
     Allgemein: Berechnung einer ganzzahligenZufallszahl, Vorgabe des Wertebereichs Min/Max
 

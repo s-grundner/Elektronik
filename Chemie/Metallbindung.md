@@ -46,6 +46,6 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 >  wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.
 
 > [!HINT] Die Leitungselektronen führen eine thermische Wimmelbewegung aus.  
-> Der Betrag dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
+> Der [Betrag](../Mathe/Betrag.md) dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
 >
 > > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen Strom verursacht werden

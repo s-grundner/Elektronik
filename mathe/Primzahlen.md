@@ -1,7 +1,8 @@
 ---
 tags: 
-aliases: 
-keywords: []
+aliases:
+  - Primfaktoren
+keywords: 
 subject:
   - Mathematik1
   - "357.100"
