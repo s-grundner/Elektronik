@@ -25,7 +25,7 @@ professor:
 > - ob ein lineares Gleichungssystem eindeutig lösbar ist.
 
 > [!important] Definition der Determinante: $\det A$ oder $|A|$  
-> Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist rekursiv definiert:
+> Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DS-Algo/Rekursion.md) definiert:
 > - ist $A=(a_{11}\in \mathbb{R}^{1\times 1})$, so ist $\det A$ definiert als:  
 >
 > $$\det A:=a_{11}$$
@@ -34,7 +34,7 @@ professor:
 >
 > $$\det A:=\sum_{i=1}^{n} (-1)^{i+1}a_{i 1}\cdot\det A_{i 1}$$
 >
-> wobei $A_{ij} \in \mathbb{R}^{(n-1)\times(n-1)}$ jene Matrix bezeichnet, die aus $A$ durch Streichen der $i$-ten Zeile und der $j$-ten Spalte hervorgeht. siehe Laplace-Entwicklungssatz.
+> wobei $A_{ij} \in \mathbb{R}^{(n-1)\times(n-1)}$ jene [Matrix](Matrix.md) bezeichnet, die aus $A$ durch Streichen der $i$-ten Zeile und der $j$-ten Spalte hervorgeht. siehe Laplace-Entwicklungssatz.
 
 ## $n=1$: $A \in \mathbb{R}^{1\times 1}$
 
@@ -88,6 +88,30 @@ $$
 ## $n\geq 4$: Laplace Entwicklungssatz
 
 # Sonderfälle
+
+## Determinante einer oberen Dreiecksmatrix:
+
+$$
+\left|\begin{array}{ccccc}
+a_{11} & * & * & \ldots & * \\
+0 & a_{22} & * & \ldots & * \\
+0 & 0 & a_{33} & \ldots & * \\
+\vdots & \vdots & & \ddots & \vdots \\
+0 & 0 & 0 & \ldots & a_{n n}
+\end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n} .
+$$
+
+## Determinante einer Diagonalmatrix:
+
+$$
+\operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
+$$
+
+## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $I_n$ :
+
+$$
+\operatorname{det}\left(E_n\right)=1 \text {. }
+$$
 
 # Tags
 

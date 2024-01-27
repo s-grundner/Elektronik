@@ -13,6 +13,7 @@
     "spec-resisitance": "multitext",
     "semester": "multitext",
     "ref": "multitext",
-    "professor": "multitext"
+    "professor": "multitext",
+    "keywords": "multitext"
   }
 }
