@@ -1,7 +1,8 @@
 ---
 tags:
   - Algorithmus
-aliases: 
+aliases:
+  - Gaußsches Eliminationsverfahren
 keywords: 
 subject:
   - Mathematik1
@@ -12,7 +13,6 @@ created: 27. Januar 2024
 professor:
   - Andreas Neubauer
 ---
- 
 
 # Gauss-Algorithmus
 
@@ -92,7 +92,7 @@ S_{4}''=2S_{2}'-S_{4}'
 \end{align}
 $$
 
-Mit der unteren linken Stufenform kann das LGS von unten nach oben gelöst werden
+Mit der oberen Dreiecksmatrix kann das LGS von unten nach oben gelöst werden
 
 $$
 \begin{align}

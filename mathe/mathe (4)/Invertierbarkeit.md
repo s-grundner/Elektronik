@@ -1,6 +1,9 @@
 ---
-tags: 
-aliases: []
+tags:
+  - Algorithmus
+aliases:
+  - Gauß-Jordan-Verfahren
+  - Inverse
 keywords: 
 subject:
   - Mathematik1

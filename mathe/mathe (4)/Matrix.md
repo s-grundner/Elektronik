@@ -13,12 +13,14 @@ created: 28th September 2022
 
 # Matrix
 
-Matrizen sind:
-- assoziativ $\rightarrow A \cdot (B \cdot C) = ( A \cdot B ) \cdot C$ 
-- distributiv
-	- für $C \in R^{m \times n}\rightarrow (A + B) \cdot C = A \cdot C + B \cdot C$
-	- für $C \in R^{n \times l}\rightarrow C \cdot (A + B) = C \cdot A + C \cdot B$
-- *Nicht* kommutativ $\rightarrow A \cdot B \neq B \cdot A$
+> [!info] Seine $A,A_{1}, A_{2}\in $
+
+(a) Assoziativgesetze: $A \cdot(B \cdot C)=(A \cdot B) \cdot C$ und $\lambda(A \cdot B)=(\lambda A) \cdot B=A \cdot(\lambda B)$  
+(b) Distributivgesetze: $\left(A_1+A_2\right) \cdot B=A_1 \cdot B+A_2 \cdot B$ und $A \cdot\left(B_1+B_2\right)=A \cdot B_1+A \cdot B_2$  
+(c) Neutrale Elemente: $I_m \cdot A=A \cdot I_n=A$
+
+> [!warning] Achtung: Auch für $m=n=p$ gilt i.a. 
+> nicht: $A B=B A$, die Matrixmultiplikation ist also *nicht kommutativ*.
 
 ## Rang einer Matrix
 

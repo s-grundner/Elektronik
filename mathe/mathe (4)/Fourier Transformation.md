@@ -16,21 +16,21 @@ created: 27th April 2022
 
 # Fourier Transformation
 
-> [!INFO] Trivia 
-> Die [Fourier Transformation](../../Mathe/mathe%20(4)/Fourier%20Transformation.md) ist eine Integraltransformation, welche 1822 von Jean Baptiste Fourier eingeführt wurde und genutzt wird, um das diskrete Frequenzspektrum aperiodischer Signale zu ermitteln.
-> Ihr gegenüber steht die [Fourier Reihe](../../Mathe/mathe%20(4)/Fourier%20Reihe.md), mit welcher sich das Spektrum periodischer [Funktionen](../../Mathe/Abbild.md) berechnen lässt.
+> [!INFO] Trivia  
+> Die [Fourier Transformation](../../Mathe/mathe%20(4)/Fourier%20Transformation.md) ist eine Integraltransformation, welche 1822 von Jean Baptiste Fourier eingeführt wurde und genutzt wird, um das diskrete Frequenzspektrum aperiodischer Signale zu ermitteln.  
+> Ihr gegenüber steht die [Fourier Reihe](../../Mathe/mathe%20(4)/Fourier%20Reihe.md), mit welcher sich das Spektrum periodischer [Funktionen](../../Mathe/Abbild.md) berechnen lässt.  
 > Sie ist in vielen Bereichen von Wissenschaft und Technik unerlässlich.
 > 
 > - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](DFT.md) ([[DFT]]) und die Schnelle Fourier Transformation ([FFT](../../Softwareentwicklung/ds-algo/FFT.md)).
 
-## Unterschied zur [Fourierreihe](Fourier%20Reihe.md) 
+## Unterschied zur [Fourierreihe](Fourier%20Reihe.md)
 
 Der Ursprung der Fouriertransformation ist auf die [Fourierreihe](Fourier%20Reihe.md) zurückzuführen:
 
-> [!INFO] zur [Fourier-Reihe](Fourier%20Reihe.md):
+> [!INFO] zur [Fourier-Reihe](Fourier%20Reihe.md):  
 > Eine *periodische* [Funktion](../Abbild.md) $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
 
-> [!INFO] zur Fouriertransformation (auch Fourier-Analyse)
+> [!INFO] zur Fouriertransformation (auch Fourier-Analyse)  
 > Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* [Funktionen](../Abbild.md) die Aufgabe, diese als Überlagerung von **[harmonischen Schwingungen](../../Physik/harmonische%20Schwingungen.md)** darzustellen.
 > 
 > - Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der [Funktion](../Abbild.md) $f$.  
@@ -67,7 +67,8 @@ $$
 \end{align*}
 $$
 
->[!summary] [Fourier Analyse](Fourier%20Reihe.md) - Komplexe Form Der [Fourier Reihe](Fourier%20Reihe.md)
+>[!summary] [Fourier Analyse](Fourier%20Reihe.md) - Komplexe Form Der [Fourier Reihe](Fourier%20Reihe.md)  
+>
 >$$f(t) = \frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left[a_{n}\cdot\cos(n\cdot\omega_{0} t)+b_{n}\cdot\sin(n\cdot\omega_{0} t)\right]$$
 
 $$
@@ -110,6 +111,7 @@ n\omega_{0}&\rightarrow\omega
 \end{align*}
 
 $$
+
 $$
 \underline{\underline{F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt}}
 $$
