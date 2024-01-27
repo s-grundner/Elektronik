@@ -31,7 +31,7 @@ so kleine (negative) Zahl, so heißt die Folge ($c_{n}$) bestimmt divergent.
 >[!summary] Man schreibt:  
 > $\lim_{n\rightarrow\infty} c_{n}=\infty$ bzw. $\lim_{n\rightarrow\infty} c_{n}=-\infty$ 
 
-## topologische Begriffe von Mengen
+## Topologische Begriffe von Mengen
 
 > [!info] Def. 9.8 Sei $A\subset X$
 >
@@ -47,7 +47,7 @@ so kleine (negative) Zahl, so heißt die Folge ($c_{n}$) bestimmt divergent.
 > 	- $\bar{A}:=A \cup\{x \in X: x$ Häufungspunkt von $A\}$ heißt *Abschluss* von $A$.
 > 	- $\partial A:=\bar{A} \backslash A^{\circ}$ heißt Rand von $A$.
 > 
-> 1. $A \subset X$ heißt offen: $\Longleftrightarrow A=A^{\circ}$
+> 1. $A \subset X$ heißt offen: $\Longleftrightarrow A=A^{\circ}$  
 > $A \subset X$ heißt abgeschlossen: $\Longleftrightarrow A=\bar{A}$
 
 > [!EXAMPLE] in $\mathbb{R}$:
