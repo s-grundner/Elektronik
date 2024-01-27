@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:mathe",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -109,6 +109,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 421,
-  "scale": 0.09006929406487454,
+  "scale": 0.06424421739220035,
   "close": false
 }
