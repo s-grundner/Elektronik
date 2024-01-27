@@ -8,7 +8,8 @@ keywords:
 subject:
   - Mathematik1
   - "357.100"
-semester: 1
+semester:
+  - WS23
 created: 24. Januar 2024
 professor:
 ---

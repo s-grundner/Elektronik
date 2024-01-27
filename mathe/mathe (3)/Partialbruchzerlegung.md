@@ -97,7 +97,7 @@ A \\ B \\ C \\ D
 \end{pmatrix}
 $$
 
-Lässt sich nun leicht mit dem Gauss-Algorithmus Lösen:
+Lässt sich nun leicht mit dem [Gauss-Algorithmus](../Gauss-Algorithmus.md) Lösen:
 
 $$
 \begin{align}

@@ -58,12 +58,22 @@ $$
 
 ## Determinante
 
+
+
 [Mathematrick Determinante](https://www.youtube.com/watch?v=dJ7d9wwC2sw)  
 [Mathematrick Laplace Entwicklungssatz](https://www.youtube.com/watch?v=3cG0HWdmHLI)
+
+## Rang einer Matrix
+
+## Invertieren einer Matrix
+
+Eine quadratische Matrix ($A \in \mathbb{R}^{n\times n}$) ist genau dann invertierbar, wenn ihr Rang gleich $n$ ist.
 
 # Tags
 
 [Einheitsmatrix](Einheitsmatrix.md)  
 [[Rotationsmatrix]]  
 [Matrixmultiplikation - Wikipedia](https://de.wikipedia.org/wiki/Matrizenmultiplikation)
+
+
 
