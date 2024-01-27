@@ -106,7 +106,7 @@ $$
 4 & -7 &  4 &  0 &  1 \\
 6 & -2 & -4 &  0 &  4 \\
 4 & -4 &  0 & -4 & 10  
-\end{array}\right] \begin{aligned}
+\end{array}\right] &\quad\begin{aligned}
 \\
 S_{2}'=4S_{1}-S_{2}\\
 S_{3}'=6S_{1}-S_{3}\\
@@ -114,15 +114,41 @@ S_{4}'=4 S_{1}-S_{4}
 \end{aligned} \\ \\
 
 \left[\begin{array}{cccc|c}
-1 &  1 &  1 &  0 &  0 \\
-4 & -7 &  4 &  0 &  1 \\
-6 & -2 & -4 &  0 &  4 \\
-4 & -4 &  0 & -4 & 10  
-\end{array}\right] \begin{aligned}
-\\
-S_{2}'=4S_{1}-S_{2}\\
-S_{3}''=6S_{1}-S_{3}\\
-S_{4}'=4 S_{1}-S_{4}
+1 & 1 & 1 & 0 &  0 \\
+0 & 4 & 4 & -1 &  -1 \\
+0 & 8 & 8 & 0 &  -4 \\
+0 & 8 & 4 & 4 & -10  
+\end{array}\right] &\quad\begin{aligned}
+\\ \\
+S_{3}''=2S_{2}'-S_{3}'\\
+S_{4}''=2S_{2}'-S_{4}'
+\end{aligned} \\ \\
+\begin{aligned}
+\\ \\
+\downarrow\uparrow
 \end{aligned}
+\left[\begin{array}{cccc|c}
+1 & 1 & 1 & 0 &  0 \\
+0 & 4 & 4 & -1 &  -1 \\
+0 & 0 & 0 & -2 &  2 \\
+0 & 0 & 4 & -6 & 8  
+\end{array}\right] 
+&\to
+\left[\begin{array}{cccc|c}
+1 & 1 & 1 & 0 &  0 \\
+0 & 4 & 4 & -1 &  -1 \\
+0 & 0 & 4 & -6 & 8 \\ 
+0 & 0 & 0 & -2 &  2
+\end{array}\right]
+\end{align}
+$$
+
+Mit der unteren linken Stufenform kann das LGS von unten nach oben gelöst werden
+
+$$
+\begin{align}
+-2D&=2 \to D=-1\\
+4C-6\cdot(-1) &= 8 \to C=\frac{1}{2} \\
+4B
 \end{align}
 $$
