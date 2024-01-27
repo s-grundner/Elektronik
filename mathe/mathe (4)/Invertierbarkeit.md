@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Invertieren
+aliases: []
 keywords: 
 subject:
   - Mathematik1

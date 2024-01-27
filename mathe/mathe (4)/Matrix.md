@@ -22,8 +22,11 @@ Matrizen sind:
 
 ## Rang einer Matrix
 
-> [!important] Sei $A\in \mathbb{R}^{m\times n}$:  
-> Dann ist der Rang von $A$ [Äquivalent](../Junktor.md) zu $Rg(A) \leq min\{m,n\}$
+> [!important] Sei $A\in \mathbb{R}^{m\times n}$,  
+> dann ist der Rang von $A$: $Rg(A) \leq min\{m,n\}$
+>
+> Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
+> Man könnte auch sagen, $Rg(A)$ ist die Dimension der [linearen Hüllen](Lineare%20Hülle.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
 
 ## Operationen auf eine Matrix
 
