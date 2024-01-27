@@ -1,4 +1,4 @@
-## Transponieren von Matrizen
+# Transponieren von [Matrizen](Matrix.md)
 
 Werte werden um die Diagonale gespiegelt:
 
