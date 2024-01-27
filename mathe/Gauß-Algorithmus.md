@@ -18,7 +18,7 @@ professor:
 
 # Beispiel
 
-Gegeben ist ein Lineares Gleichungssystem
+Gegeben ist ein [Lineares Gleichungssystem](mathe%20(3)/Lineare%20Gleichungssysteme.md)
 
 $$
 \begin{align}
@@ -29,7 +29,7 @@ $$
 \end{align}
 $$
 
-Das LGS lässt sich als Matrix anschreiben:
+Das [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) lässt sich als Matrix anschreiben:
 
 $$
 \begin{pmatrix}
@@ -92,7 +92,7 @@ S_{4}''=2S_{2}'-S_{4}'
 \end{align}
 $$
 
-Mit der oberen Dreiecksmatrix kann das LGS von unten nach oben gelöst werden
+Mit der oberen Dreiecksmatrix kann das [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) von unten nach oben gelöst werden
 
 $$
 \begin{align}

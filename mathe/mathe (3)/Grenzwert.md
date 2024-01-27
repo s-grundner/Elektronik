@@ -22,7 +22,7 @@ created: 19th August 2022
 > [!summary] Man sagt, dass die Folge ($c_n$) gegen $g$ konvergiert und schreibt:  
 > $c_{n}\rightarrow g$ für $n\rightarrow \infty$ oder $\lim_{n\rightarrow\infty}c_{n}=g$.
 
-Eine Folge, die einen Grenzwert besitzt, heißt ==konvergent==, andernfalls heißt sie ==divergent==.
+Eine Folge, die einen Grenzwert besitzt, heißt *konvergent*, andernfalls heißt sie *divergent*.
 
 Besitzt eine konvergente Folge den Grenzwert $0$, so heißt sie *Nullfolge*.  
 Übersteigen fast alle Folgeglieder jede noch so große Zahl bzw. unterschreiten sie jede noch  

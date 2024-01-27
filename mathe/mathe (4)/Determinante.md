@@ -22,7 +22,7 @@ professor:
 > [!info] Die Determinante ist eine wichtige Kenngröße einer [Matrix](Matrix.md).  
 > Sie gibt z.B. Auskunft darüber
 > - ob eine [Matrix](Matrix.md) invertierbar ist bzw.
-> - ob ein lineares Gleichungssystem eindeutig lösbar ist.
+> - ob ein [lineares Gleichungssystem](../mathe%20(3)/Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
 > [!important] Definition der Determinante: $\det A$ oder $|A|$  
 > Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DS-Algo/Rekursion.md) definiert:

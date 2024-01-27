@@ -13,14 +13,23 @@ created: 28th September 2022
 
 # Matrix
 
-> [!info] Seine $A,A_{1}, A_{2}\in $
+> [!info] Axiome für Matrizen  
+> $A,A_{1}, A_{2}\in \mathbb{K}^{m\times n}$  
+> $B,B_{1}, B_{2}\in \mathbb{K}^{n\times p}$  
+> $C\in \mathbb{K}^{p\times q}$  
+> $\lambda \in \mathbb{K}$
+> 
+> (a) *Assoziativgesetze*: 
+> - $A \cdot(B \cdot C)=(A \cdot B) \cdot C$ 
+> - $\lambda(A \cdot B)=(\lambda A) \cdot B=A \cdot(\lambda B)$  
+> (b) *Distributivgesetze*:
+> - $(A_1+A_2) \cdot B=A_1 \cdot B+A_2 \cdot B$ 
+> - $A \cdot(B_1+B_2)=A \cdot B_1+A \cdot B_2$  
+> (c) *Neutrale Elemente*:
+> - $I_m \cdot A=A \cdot I_n=A$
 
-(a) Assoziativgesetze: $A \cdot(B \cdot C)=(A \cdot B) \cdot C$ und $\lambda(A \cdot B)=(\lambda A) \cdot B=A \cdot(\lambda B)$  
-(b) Distributivgesetze: $\left(A_1+A_2\right) \cdot B=A_1 \cdot B+A_2 \cdot B$ und $A \cdot\left(B_1+B_2\right)=A \cdot B_1+A \cdot B_2$  
-(c) Neutrale Elemente: $I_m \cdot A=A \cdot I_n=A$
-
-> [!warning] Achtung: Auch für $m=n=p$ gilt i.a. 
-> nicht: $A B=B A$, die Matrixmultiplikation ist also *nicht kommutativ*.
+> [!warning] Achtung: Auch für $m=n=p$ gilt i.a. nicht: $A B=B A$  
+> die Matrixmultiplikation ist also *nicht kommutativ*.
 
 ## Rang einer Matrix
 
