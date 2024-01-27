@@ -57,18 +57,20 @@ y(x) &= x^{2}+4x+10\\
 \end{align}
 $$
 
-Polynom Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln
+Polynom Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer Potenz sortiert:
+
+$$y(x) = (a) + (b) + (c)$$
 
 $$
 \begin{align}
-(a)\quad Ax^{3}+&\\
-(b)\quad &\\
-(c)\quad &
+(a)\quad Ax^{3}&+A\cdot4 x^{2}+ A\cdot 6x + A\cdot 4\\
+(b)\quad Bx^{3}& -B \cdot2 x -B\cdot 4\\
+(c)\quad Cx^{3}&+D\cdot x^{2}-C\cdot 4 x -D\cdot 4
 \end{align}
 $$
 
-![](assets/Pasted%20image%2020240127141009.png)
 
----
+
+![](assets/Pasted%20image%2020240127141009.png)
 
 # Tags
