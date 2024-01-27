@@ -47,6 +47,7 @@ y(x) &= x^{2}+4x+10 = \\
 $$
 
 Mit den gekürzten Termen ergibt sich:
+
 $$
 \begin{align}
 y(x) &= x^{2}+4x+10\\
@@ -59,7 +60,6 @@ $$
 $$y(x) =x^{2}+4x+10 = (a) + (b) + (c)$$
 
 Polynom Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer Potenz sortiert:
-
 
 $$
 \begin{align}
@@ -98,3 +98,4 @@ A \\ B \\ C \\ D
 $$
 
 Lässt sich nun leicht mit dem Gauss Algorithmus Lösen:
+
