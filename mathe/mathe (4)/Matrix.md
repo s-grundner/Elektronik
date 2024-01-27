@@ -51,7 +51,9 @@ created: 28th September 2022
 Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix durch eine elementare Zeilenumformung hervorgeht.  
 Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\times n}$):
 
-(1) Vertauschungsmatrix $T_{i, j}$ : für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt
+- [[Vertauschungsmatrix]] $T_{i, j}$
+- [[Skalierungsmatrix]] $S_i(\lambda)$
+- [Additionsmatrix](Additionsmatrix.md) $R_{i, j}(\lambda)$
 
 (2) Skalierungsmatrix $S_i(\lambda)$ mit $\lambda \neq 0$ : für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt
 
@@ -59,7 +61,11 @@ $$
 \vec{z_k}=\left\{\begin{array}{ll}
 \lambda \vec{e_i} & \text { falls } k=i, \\
 \vec{e_k} & \text { falls } k \neq i,
-\end{array} \quad \text { also } S_i(\lambda):=
+\end{array} \right.
+$$
+
+$$
+S_i(\lambda):=
 \begin{pmatrix}
 1 & & & & & \cdots & 0 \\
 0 & \ddots & & & & & \vdots \\
@@ -69,28 +75,7 @@ $$
 \vdots & & & & & \ddots & 0 \\
 0 & \cdots & & & & 0 & 1
 \end{pmatrix}
-\leftarrow i\right. \text {-te Zeile }
-$$
-
-(3) Additionsmatrix $R_{i, j}(\lambda)$ mit $i \neq j$ und $\lambda \neq 0$ (Linearkombination): für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt
-
-$$
-\vec{z_k}=\left\{\begin{array}{ll}
-\vec{e_i}+\lambda \vec{e_j} & \text { falls } k=i, \\
-\vec{e_k} & \text { falls } k \neq i,
-\end{array} \quad \text { also } R_{i, j}(\lambda):=\begin{pmatrix}
-1 & 0 &  &  &  & &  \cdots  & 0 \\
-0 & \ddots  &  &  &  &  &  & \vdots\\
- &  & 1  & 0 & \cdots  & \lambda\\
- &  &  & \ddots  &  & \vdots \\
- &  &  &  & \ddots  & 0 \\
- &  &  &  &  & 1\\
- \vdots&  &  &  &  &  & \ddots & 0 \\
-0 & \cdots &  &  &  &  &   0 & 1
-\end{pmatrix}\right.
-\begin{aligned}
-
-\end{aligned}
+\leftarrow i\text {-te Zeile }
 $$
 
 ## Besondere Matrizen
