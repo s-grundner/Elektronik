@@ -33,8 +33,11 @@ Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$
 
 ## $n = 3$:
 
-![InlR](assets/Pasted%20image%2020240127170055.png)
-Man rechnet also ”Hauptdiagonalen minus Gegendiagonalen“ und erh¨alt, dass die Deter- minante von A = () gleich dem Spatprodukt $[\vec{s_{1}},\vec{} }]$ ist. Die geometrische In- terpretation der Determinante ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds (siehe Abb. 7.3)
+![InlR](assets/Pasted%20image%2020240127170055.png) Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ und erhält, dass die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$ ist.  
+
+Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds:
+
+![Left|400](assets/Pasted%20image%2020240127172108.png) 
 
 ### Regel von Sarrus
 
@@ -66,4 +69,4 @@ $$
 
 [Mathematrick Determinante](https://www.youtube.com/watch?v=dJ7d9wwC2sw)  
 [Mathematrick Laplace Entwicklungssatz](https://www.youtube.com/watch?v=3cG0HWdmHLI)  
-Spatprodukt
+[Spatprodukt](Spatprodukt.md)
