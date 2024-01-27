@@ -9,6 +9,8 @@ conflict-files-obsidian-git.md
 .obsidian/plugins
 .obsidian/workspace.json
 .obsidian/appearance.json
+.obsidian/community-plugins.json
+.obsidian/core-plugins.json
 
 xPN
 xEDU

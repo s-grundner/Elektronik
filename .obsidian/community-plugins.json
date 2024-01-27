@@ -25,5 +25,18 @@
   "notion-like-tables",
   "editing-toolbar",
   "obsidian-discordrpc",
-  "obsidian-full-calendar"
+  "obsidian-full-calendar",
+  "obsidian-hide-sidebars-when-narrow",
+  "mousewheel-image-zoom",
+  "open-vscode",
+  "url-into-selection",
+  "quick-latex",
+  "quickadd",
+  "remember-cursor-position",
+  "settings-search",
+  "obsidian-spaced-repetition",
+  "tag-wrangler",
+  "text-snippets-obsidian",
+  "obsidian-trash-explorer",
+  "vim-toggle"
 ]
