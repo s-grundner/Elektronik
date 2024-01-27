@@ -47,7 +47,6 @@ y(x) &= x^{2}+4x+10 = \\
 $$
 
 Mit den gekürzten Termen ergibt sich:
-
 $$
 \begin{align}
 y(x) &= x^{2}+4x+10\\
@@ -57,9 +56,10 @@ y(x) &= x^{2}+4x+10\\
 \end{align}
 $$
 
+$$y(x) =x^{2}+4x+10 = (a) + (b) + (c)$$
+
 Polynom Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer Potenz sortiert:
 
-$$y(x) = (a) + (b) + (c)$$
 
 $$
 \begin{align}
@@ -69,8 +69,32 @@ $$
 \end{align}
 $$
 
+da jeder Faktor vor einer Potenz in einer Polynomgleichung übereinstimmen muss, lässt sich ein lineares Gleichungssystem aufstellen.
 
+$$
+\begin{align}
+x^{3}:\quad &0=A+B+C\\
+x^{2}:\quad &1=4A+D\\
+x:\quad &4=6A-2B-4C\\
+1:\quad &10=4A-4B-4D
+\end{align}
+$$
 
-![](assets/Pasted%20image%2020240127141009.png)
+Das LGS lässt sich als Matrix anschreiben:
 
-# Tags
+$$
+\begin{pmatrix}
+1 & 1 & 1 & 0 \\
+4 & 0 & 0 & 1 \\
+6 & -2 & -4 & 0 \\
+4 & -4 & 0 & -4
+\end{pmatrix} \cdot
+\begin{pmatrix}
+A \\ B \\ C \\ D
+\end{pmatrix} =
+\begin{pmatrix}
+0 \\ 1 \\ 4 \\ 10
+\end{pmatrix}
+$$
+
+Lässt sich nun leicht mit dem Gauss Algorithmus Lösen:
