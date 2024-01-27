@@ -47,7 +47,7 @@ $$
 
 ## Beispiel in Wolfram Mathematica
 
-Probieren Sie zuerst aus, wie eine Matrix `B2` aussehen muss, damit nach Ausführung der Matrixmultiplikation `B2.A ` zur zweiten Zeile Ihrer Matrix A das Doppelte der dritten Zeile hinzugefügt wurde.
+Probieren Sie zuerst aus, wie eine Matrix `B2 aussehen muss, damit nach Ausführung der Matrixmultiplikation `B.A ` zur zweiten Zeile Ihrer Matrix A das Doppelte der dritten Zeile hinzugefügt wurde.
 
 ``` mathematica
 Clear[A]
@@ -59,25 +59,37 @@ A = ({
   });
 ```
 
+$$
+A=\left(
+\begin{array}{cccccccc}
+ 1 & 2 & 1 & 3 & 6 & 6 & 1 & 0 \\
+ 1 & 2 & 2 & 2 & 2 & 2 & 2 & 1 \\
+ 1 & 2 & 3 & 1 & 7 & 1 & 5 & 8 \\
+ 1 & 1 & 9 & 2 & 6 & 2 & 9 & 5 \\
+\end{array}
+\right)
+$$
+
 ```mathematica
-Clear[B2]
-B2 = ({
+Clear[B]
+B = ({
     {1, 0, 0, 0},
     {0, 1, 2, 0},
     {0, 0, 1, 0},
     {0, 0, 0, 1}
    });
-B2.A //MatrixForm
+B.A //MatrixForm
 ```
 
 > [!success] Output
->$$
-\left(
-\begin{array}{cccccccc}
- 1 & 2 & 1 & 3 & 6 & 6 & 1 & 0 \\
- 3 & 6 & 8 & 4 & 16 & 4 & 12 & 17 \\
- 1 & 2 & 3 & 1 & 7 & 1 & 5 & 8 \\
- 1 & 1 & 9 & 2 & 6 & 2 & 9 & 5 \\
-\end{array}
+
+$$
+\left(  
+\begin{array}{cccccccc}  
+ 1 & 2 & 1 & 3 & 6 & 6 & 1 & 0 \\  
+ 3 & 6 & 8 & 4 & 16 & 4 & 12 & 17 \\  
+ 1 & 2 & 3 & 1 & 7 & 1 & 5 & 8 \\  
+ 1 & 1 & 9 & 2 & 6 & 2 & 9 & 5 \\  
+\end{array}  
 \right)
 $$
