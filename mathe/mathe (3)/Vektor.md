@@ -6,14 +6,11 @@ source: ["Rudolf Frauenschuh"]
 created: 28th September 2022
 ---
 
-# Vektoren 
+# Vektoren
 
 ![](assets/Pasted%20image%2020231226163830.png)
 
 ## Skalar
-
-
-
 
 ---
 
