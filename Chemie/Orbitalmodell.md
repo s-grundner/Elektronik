@@ -31,6 +31,7 @@ Unterschalen sind Orbitale
 ### s-Orbitale
 
 **Kugelsymmetrisch:**
+
 >![orb-s](assets/orb-s.png)
 
 ### p-Orbitale
@@ -40,7 +41,7 @@ Unterschalen sind Orbitale
 | px               | py               | pz              |
 | ---------------- | ---------------- | --------------- |
 | >![orb-px](assets/orb-px.png) | >![orb-py](assets/orb-py.png) | >![orb-pz](assets/orb-pz.png) |
- 
+
 Wellenberg  
 Wellental 
 
@@ -49,6 +50,7 @@ Es gibt 3 Stk.
 ### d-Orbitale
 
 **Rosettenförmig:**
+
 >![orb-d](assets/orb-d.png)
 
 Es gibt 5 Stk.
@@ -56,6 +58,7 @@ Es gibt 5 Stk.
 ### f-Orbitale
 
 **Komplexere Form:**
+
 >![orb-f](assets/orb-f.png)
 
 Es gibt 7 Stk.
@@ -74,13 +77,13 @@ Es gibt 7 Stk.
 
 ## Schreibweise Der Elektronen Konfiguration
 
-Bsp.:  
-![Ne](assets/Ne.png)  
-$1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$
+> [!example]  
+> ![Ne](assets/Ne.png)  
+> $1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$  
 >![150](assets/Ne-conf.png)  
-Anzahl der $e^{-}$  
-Hauptquantenzahl  
-Orbitaltyp 
+> Anzahl der $e^{-}$  
+> Hauptquantenzahl  
+> Orbitaltyp 
 
 ## Regel Für Die Besetzung Der Orbitalen Mit Elektronen
 
