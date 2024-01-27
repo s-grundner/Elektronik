@@ -46,11 +46,8 @@ A= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ die unter der linearen Abbildung $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche Vektor mit einer Anderen länge)
-
-$$A\vec{x}=\lambda \vec{x}$$
-
-
+> [!hint] Alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ die unter der linearen Abbildung $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche Vektor mit einer Anderen länge)
+> $$A\vec{x}=\lambda \vec{x}$$
 
 Die Gleichung beinhaltet nun auf der einen Seite eine Matrix multipliziert mit einem Vektor und auf der anderen ein Skalar multipliziert mit einem Vektor.
 
@@ -76,24 +73,53 @@ $$
 \begin{align}
 A\vec{x}&=\lambda \vec{x} \quad|-\lambda \vec{x} \\
 A\vec{x}-\lambda \vec{x} &=\vec{0} \quad \text{(Nullvektor)} \\
-A\vec{x}-(\lambda \cdot I)\vec{x} &= \vec{0} \\
-(A-\lambda \cdot I)\vec{x} &= \vec{0} \\
+A\vec{x}-(\lambda \cdot I)\cdot\vec{x} &= \vec{0} \\
+(A-\lambda \cdot I)\cdot\vec{x} &= \vec{0} \quad \text{Assotziativgesetz}\\
+
 \left[\begin{pmatrix}
 7 & -2 & 1\\
 -2 & 1 & -2 \\
 1 & -2 & 7
-\end{pmatrix}-\begin{pmatrix}
+\end{pmatrix} - \begin{pmatrix}
 \lambda & 0 & 0 \\
 0 & \lambda & 0 \\
 0 & 0 & \lambda
-\end{pmatrix}\right]\vec{x}&=\vec{0} \\
+\end{pmatrix}\right]\cdot\vec{x}&=\vec{0} \\
+
 \begin{pmatrix}
-7 & -2 & 1\\
--2 & 1 & -2 \\
-1 & -2 & 7
-\end{pmatrix} &= \vec{0}
+7 -\lambda & -2 & 1\\
+-2 & 1-\lambda & -2 \\
+1 & -2 & 7-\lambda
+\end{pmatrix}\cdot \vec{x}&= \vec{0}
 \end{align}
 $$
+
+Eigenvektoren sind also alle Vektoren $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$ die diese Gleichung erfüllen.
+
+> [!important] Die Eigenwerte werden durch Nullstellen im charakteristischen Polynom berechnet. 
+
+Die Determinante für muss für $A-\lambda \cdot I$ gleich null sein:
+
+$$
+\begin{align}
+&\det \begin{pmatrix}
+7 -\lambda & -2 & 1\\
+-2 & 1-\lambda & -2 \\
+1 & -2 & 7-\lambda
+\end{pmatrix} = 0 \\ \\
+
+0&= (7-\lambda)(7-\lambda)(7-\lambda) + (-2)(-2)\cdot 2 \\
+&- (1-\lambda)- (-2)(-2)(7- \lambda)\cdot 2 \\
+\end{align}
+$$
+
+Die Gleichung wird nun zu einem Polynom aufgelöst:
+
+> [!success] charakteristisches Polynom 
+> $$-\lambda^{3}+15\lambda^{2}-54\lambda= 0$$
+> Die Nullstellen, also die *Eigenwerte*, dieses Polynoms sind:
+> $$\lambda_{1} = 0 \qquad \lambda_{2} = 6 \qquad \lambda_{3} = 9$$
+> 
 
 
 # Tags
