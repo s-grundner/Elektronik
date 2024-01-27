@@ -62,6 +62,6 @@ Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Ju
 > - Tautologie $T$ $\to$ immer wahr: $|T| = W$
 > - Kontradiktion $K$ $\to$ immer falsch: $|K| = F$
 
-[^1]: Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]  
-[^2]: Beispiel 1.2 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 5]
-[^3]: Definition 1.4 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
+[^1]: Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 5]  
+[^2]: Beispiel 1.2 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 5]
+[^3]: Definition 1.4 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 6]
