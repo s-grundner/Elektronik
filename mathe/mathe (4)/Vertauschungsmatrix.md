@@ -24,9 +24,14 @@ $$
 \vec{e_k} & \text { sonst} \\
 \end{array} \right.
 $$
+
 also
 
+$$
+T_{i,j} := \begin{pmatrix}dA1 & 0 &  & \cdots \\
 
+\end{pmatrix}
+$$
 
 ## Beispiel in Wolfram Mathematica
 

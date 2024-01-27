@@ -14,9 +14,9 @@ professor:
 
 # Additionsmatrix
 
-> [!info] Mit einer Multiplikation mit der Additionsmatrix wird 
+> [!info] Wenn eine Matrixmultiplikation mit einer Additionsmatrix durchgeführt wird, wird ein vielfaches $\lambda$ des Zeilenvektors in der $j$-ten Zeile (Zahl der Spalte in der sich $\lambda$ befindet) auf den Zeilenvektor der $i$-ten Zeile (Zahl der Zeile in der sich $\lambda$) addiert.
 
- Additionsmatrix $R_{i, j}(\lambda)$ mit $i \neq j$ und $\lambda \neq 0$ (Linearkombination): für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt:
+ Additionsmatrix $R_{i, j}(\lambda)$ mit $i \neq j$ und $\lambda \neq 0$ ([Linearkombination](../mathe%20(3)/Linearkombination.md)): für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt:
 
 $$
 \vec{z_k}=\left\{\begin{array}{ll}
@@ -47,7 +47,7 @@ $$
 
 ## Beispiel in Wolfram Mathematica
 
-Probieren Sie zuerst aus, wie eine Matrix `B2 aussehen muss, damit nach Ausführung der Matrixmultiplikation `B.A ` zur zweiten Zeile Ihrer Matrix A das Doppelte der dritten Zeile hinzugefügt wurde.
+Probieren Sie zuerst aus, wie eine [Matrix](Matrix.md) `B2` aussehen muss, damit nach Ausführung der Matrixmultiplikation `B.A ` zur zweiten Zeile Ihrer [Matrix](Matrix.md) A das Doppelte der dritten Zeile hinzugefügt wurde.
 
 ``` mathematica
 Clear[A]
