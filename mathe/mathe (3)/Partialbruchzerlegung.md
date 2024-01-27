@@ -97,5 +97,32 @@ A \\ B \\ C \\ D
 \end{pmatrix}
 $$
 
-Lässt sich nun leicht mit dem Gauss Algorithmus Lösen:
+Lässt sich nun leicht mit dem Gauss-Algorithmus Lösen:
 
+$$
+\begin{align}
+\left[\begin{array}{cccc|c}
+1 &  1 &  1 &  0 &  0 \\
+4 & -7 &  4 &  0 &  1 \\
+6 & -2 & -4 &  0 &  4 \\
+4 & -4 &  0 & -4 & 10  
+\end{array}\right] \begin{aligned}
+\\
+S_{2}'=4S_{1}-S_{2}\\
+S_{3}'=6S_{1}-S_{3}\\
+S_{4}'=4 S_{1}-S_{4}
+\end{aligned} \\ \\
+
+\left[\begin{array}{cccc|c}
+1 &  1 &  1 &  0 &  0 \\
+4 & -7 &  4 &  0 &  1 \\
+6 & -2 & -4 &  0 &  4 \\
+4 & -4 &  0 & -4 & 10  
+\end{array}\right] \begin{aligned}
+\\
+S_{2}'=4S_{1}-S_{2}\\
+S_{3}''=6S_{1}-S_{3}\\
+S_{4}'=4 S_{1}-S_{4}
+\end{aligned}
+\end{align}
+$$
