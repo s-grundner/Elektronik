@@ -147,8 +147,9 @@ Mit der unteren linken Stufenform kann das LGS von unten nach oben gelöst werde
 
 $$
 \begin{align}
--2D&=2 \to D=-1\\
-4C-6\cdot(-1) &= 8 \to C=\frac{1}{2} \\
-4B
+-2D&=2 &&\to D=-1\\
+4C-6\cdot(-1) &= 8 &&\to C=\frac{1}{2} \\
+4B+4\cdot \frac{1}{2}-1\cdot(-1) &= -1 &&\to B=-1\\
+A+1\cdot(-1)+1\cdot \frac{1}{2}+0\cdot(-1) &=0 &&\to A=-2
 \end{align}
 $$
