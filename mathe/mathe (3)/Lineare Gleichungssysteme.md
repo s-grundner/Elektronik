@@ -31,4 +31,13 @@ a_{m 1} x_1+a_{m 2} x_2+\ldots+a_{m n} x_n & =b_m
 \end{aligned}
 $$
 
+> [!info] Lösbarkeit:  
+> Das LGS heißt $\begin{cases}\text { unlösbar, } & \text { falls }|L(A, \vec{b})|=0, \\ \text { eindeutig lösbar, } & \text { falls }|L(A, \vec{b})|=1 \\ \text { mehrdeutig lösbar, } & \text { falls }|L(A, \vec{b})|>1\end{cases}$
+
+> [!info] Anzahl der Gleichungen:  
+> Das LGS heißt $\begin{cases}\text { bestimmt, } & \text { falls } m=n, \\ \text { überbestimmt, } & \text { falls } m>n, \\ \text { unterbestimmt, } & \text { falls } m<n\end{cases}$
+
+> [!info] Art des Störvektors:  
+> Das LGS heißt $\begin{cases}\text { homogen, } & \text { falls } \vec{b}=\overrightarrow{0} \\ \text { inhomogen, } & \text { sonst. }\end{cases}$
+
 # Tags
