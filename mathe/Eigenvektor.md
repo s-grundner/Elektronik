@@ -46,12 +46,13 @@ A= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-> [!hint] Alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ die unter der linearen Abbildung $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche Vektor mit einer Anderen länge)
+> [!hint] Alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](mathe%20(3)/Vektor.md) mit einer Anderen länge)  
+>
 > $$A\vec{x}=\lambda \vec{x}$$
 
-Die Gleichung beinhaltet nun auf der einen Seite eine Matrix multipliziert mit einem Vektor und auf der anderen ein Skalar multipliziert mit einem Vektor.
+Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](mathe%20(4)/Matrix.md) multipliziert mit einem [Vektor](mathe%20(3)/Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](mathe%20(3)/Vektor.md).
 
-Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der Einheitsmatrix anschreiben:
+Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der [Einheitsmatrix](mathe%20(4)/Einheitsmatrix.md) anschreiben:
 
 $$
 \begin{align}
@@ -94,13 +95,13 @@ A\vec{x}-(\lambda \cdot I)\cdot\vec{x} &= \vec{0} \\
 \end{align}
 $$
 
-Eigenvektoren sind also alle Vektoren $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
+Eigenvektoren sind also alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
 
-### charakteristisches Polynom
+### Charakteristisches [Polynom](mathe%20(3)/Polynom.md)
 
-> [!important] Die Eigenwerte werden durch Nullstellen im charakteristischen Polynom berechnet. 
+> [!important] Die Eigenwerte werden durch [Nullstellen](mathe%20(3)/Nullstelle.md) im charakteristischen [Polynom](mathe%20(3)/Polynom.md) berechnet. 
 
-Die Determinante für muss für $A-\lambda \cdot I$ gleich null sein:
+Die [Determinante](mathe%20(4)/Determinante.md) für muss für $A-\lambda \cdot I$ gleich null sein:
 
 $$
 \begin{align}
@@ -115,19 +116,21 @@ $$
 \end{align}
 $$
 
-Die Gleichung wird nun zu einem Polynom aufgelöst:
+Die Gleichung wird nun zu einem [Polynom](mathe%20(3)/Polynom.md) aufgelöst:
 
-> [!success] charakteristisches Polynom 
+> [!success] charakteristisches [Polynom](mathe%20(3)/Polynom.md)  
+>
 > $$-\lambda^{3}+15\lambda^{2}-54\lambda= 0$$
-> Die Nullstellen, also die *Eigenwerte*, dieses Polynoms sind:
+>
+> Die [Nullstellen](mathe%20(3)/Nullstelle.md), also die *Eigenwerte*, dieses Polynoms sind:  
+>
 > $$\lambda_{1} = 0 \qquad \lambda_{2} = 6 \qquad \lambda_{3} = 9$$
-> 
 
-### Eigenvektoren 
+### Eigenvektoren
 
-Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das LGS eingesetzt und gelöst werden.
+Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) eingesetzt und gelöst werden.
 
-$\lambda_{1}$:
+$\lambda_{3}$:
 
 $$
 \begin{align}
@@ -160,7 +163,7 @@ S_{3}'=S_{3}+S_{1}
 \end{align}
 $$
 
-Mit dem Eliminieren der linearen Abhängigkeiten kann nun das LGS gelöst werden. Pro Lineare Abhängigkeit kann ein Parameter frei gewählt werden:
+Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) gelöst werden. Pro Lineare Abhängigkeit kann ein Parameter frei gewählt werden:
 
 $$
 0x_{1}+0x_{2}+0x_{3} = 0 \to x_{3} = s, s\in \mathbb{R}
@@ -171,7 +174,33 @@ $s$ ist ein für $x_{3}$ frei gewählter Parameter.
 $$0x_{1}-6x_{2}+3s =0\to x_{2} = \frac{s}{2}$$
 
 $$
--2x_{1} -2\cdot \frac{s}{2}+1\cdot s
+-2x_{1} -2\cdot \frac{s}{2}+1\cdot s = 0 \to x_{1} = 0
+$$
+
+Mit der Lösung des [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) ergibt sich der Eigenvektor für $\lambda_{3} = 9$ als folgender:
+
+$$
+x_{\lambda_{3}}=s\cdot \begin{pmatrix}
+0 \\
+\frac{1}{2} \\
+1
+\end{pmatrix} = s\cdot \begin{pmatrix}
+0 \\
+1 \\
+2
+\end{pmatrix}, s\in \mathbb{R}
+$$
+
+der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Lineare Hülle](mathe%20(4)/Lineare%20Hülle.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
+
+$$
+\begin{align}
+E_{\lambda_{3}} &= \left\{s\cdot \begin{pmatrix}
+0 \\ 1 \\ 2 \end{pmatrix}, s \in \mathbb{R}\right\} \\
+&= lin \begin{pmatrix}
+0 \\ 1 \\ 2
+\end{pmatrix}
+\end{align}
 $$
 
 # Tags
