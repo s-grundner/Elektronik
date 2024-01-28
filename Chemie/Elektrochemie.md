@@ -20,7 +20,6 @@ Abscheidung von Stoffen durch Strom beziehungsweise Zerlegung mit Strom.
 >[!EXAMPLE] Elektrolyse von $CuCl_{2}$ (Kupfer(II)-chlorid Lösung)  
 >![350](assets/Cucl.png)
 
-
 | [Reduktion](Oxidation%20und%20Reduktion.md) (Aufnahme von $e^{-}$) | [Oxidation](Oxidation%20und%20Reduktion.md) (Abgabe von $e^{-}$) |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | $Cu^{2+}+2e^{-}\longrightarrow Cu$                                           | $2Cl^{-}\longrightarrow Cl_{2}+2e^{-}$                                                                           |
@@ -40,6 +39,7 @@ Faraday Konstante: $F = 96485 \frac{As}{mol}$
 > [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige Ladung  
 Wie viel Ladung benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
 $Cu^{2+} + 2e^{-}\longrightarrow Cu\downarrow$
+
 ---
 $1mol\dots63.5g$
 $n\ mol\dots1000g$
@@ -52,6 +52,7 @@ $Q = 15.78mol\cdot F \cdot 2$
 Wie viel Silber (Ag) kann ein Strom von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
 $Ag^{+} + e^{-} \longrightarrow Ag$  
 $Q=I\cdot t = 200As$
+
 ---
 $1mol\dots 96485As$
 $n\ mol\dots 200As$
@@ -65,6 +66,7 @@ $m\ g\dots 2.072\cdot10^{-3}$
 Welche Stromstärke benötigt man wenn man aus einer Silbersalzlösung in 30min 54g Ag abscheiden will?  
 $Ag^{+}+e^{-}\longrightarrow Ag$  
 $30min = 1800s$
+
 ---
 $107g\dots 1mol$
 $54g\dots n mol$
