@@ -16,13 +16,13 @@ professor:
 
 # Lineare Abbildungen
 
-> [!important] Definition 10.1. Seien $X$ und $Y$ $\mathbb{K}$-Vektorräume. Eine Abbildung $L: X \rightarrow Y$ heißt linear: $\Longleftrightarrow$
+> [!important] Definition 10.1. Seien $X$ und $Y$ $\mathbb{K}$-Vektorräume. Eine Abbildung $L: X \rightarrow Y$ heißt linear $\Longleftrightarrow$ (wenn sie)
 >
-> $$\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$$
+> $$\text{Additiv: }\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$$
 >
 > $$\wedge$$
 >
-> $$\forall x \in X ,\forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$$
+> $$\text{Homomorph: }\forall x \in X ,\forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$$
 >
 > - Bei linearen Abbildungen schreibt man statt $L(x)$ meist $L x$.
 > - Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
