@@ -25,14 +25,19 @@ created: 11th April 2023
 
 ## Kenngrößen im Kondensator
 
-### Geometrie 
+### Geometrie
 
 - Plattenkondensator
 - Zylinderkondensator
+- Drehkondensator
+- Vielschichtkondensator
 
 ### Dielektrikum
 
-
+Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
+- MLCC - Multilayer Ceramic Capacitor
+- ELKO - Elektrolytkondensator
+- TALKO - Tantalelektrolytkondensator
 
 ### Ladung und Kapazität im Kondensator
 
@@ -61,24 +66,27 @@ $$
 =\frac{C u(t)^2}{2}
 $$
 
+# Kondensator in der Wechselstromtechnik und Impedanz
+
 ## Idealer Kondensator
 
 $$
-jX_{C}=\frac{1}{j\omega C}\qquad Z\approx \frac{1}{f}
+jX_{C}=\frac{1}{j\omega C}
 $$
 
 ## Realer Kondensator
 
 > [!summary] ESB  
-> ![InlineL|500](assets/cap_esb.png)
+> ![InlineL|400](assets/cap_esb.png)
+> 
 > - $R_{ESR}$: dielektrische und elektrische Verluste
 > - $ESR$: equivalent series resistance
-> - $L$: intrinsische parasitäre [Induktivität](Induktivitäten.md)
+> - $L$: intrinsische parasitäre [Induktivität](Induktivitäten.md) durch Anschlusskontakte
 
 $$
 \begin{align*}
 \underline{Z} &= R_{ESR}+j\omega L+ \frac{1}{j\omega C}\\
-\text{bei } f_{r}:X&=0\\
+X&=0\quad\text{bei } f_{r}\\
 f_{0} &= \frac{1}{2\pi}\cdot \frac{1}{\sqrt{LC}}
 \end{align*}
 $$
