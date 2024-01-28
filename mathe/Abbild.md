@@ -6,6 +6,7 @@ aliases:
   - Abbildungen
   - bijektiv
   - surjektiv
+  - injektiv
 keywords: 
 subject:
   - Mathematik1

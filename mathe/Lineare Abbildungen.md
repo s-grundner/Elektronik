@@ -22,7 +22,7 @@ professor:
 >
 > $$\wedge$$
 >
-> $$\text{Homomorph: }\forall x \in X ,\forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$$
+> $$\text{Homogen: }\forall x \in X ,\forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$$
 >
 > - Bei linearen Abbildungen schreibt man statt $L(x)$ meist $L x$.
 > - Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
@@ -31,10 +31,10 @@ professor:
 > - Die Menge aller linearen Abbildungen von $X$ nach $Y$ bezeichnen wir mit $L(X, Y)$.
 > 	- Für $L(X, X)$ schreiben wir kurz: $L(X)$
 
-> [!tldr] $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
+> [!tldr] Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
 > für alle $x_{1}$ und alle $x_{2}$ im $X$-Vektorraum gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
 
-> [!tldr] $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
+> [!tldr] Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
 > für alle $x$ im $X$ Vektorraum und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
 
 ## Kern (kernel) und Bild
