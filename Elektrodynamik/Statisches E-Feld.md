@@ -13,17 +13,19 @@ professor:
 
 # Statisches E-Feld
 
+> [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
+
 > [!INFO] Statisch:  
 > es änderst sich nichts mehr (eingeschwungener Zustand)
 
-Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $E$ zugeordnet werden.
+Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $E$ zugeordnet werden.  
 Die Kraft auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
 
 $$
 \vec{F}=q\cdot \vec{E}
 $$
 
-> [!success] Die Kraft auf eine Ladung $Q$ in einem externen Elektrischen Feld ist proportional zu Q und $E$  
+> [!success] Die Kraft auf eine Ladung $Q$ in einem externen Elektrischen Feld ist proportional zu $Q$ und $E$  
 
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathe/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
@@ -32,6 +34,9 @@ $$
 $$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
+
+> [!success] Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.  
+> ![[../assets/Excalidraw/Drawing 2024-01-28 14.24.08.excalidraw]]
 
 ## Feldstärke in einem Leiter
 
