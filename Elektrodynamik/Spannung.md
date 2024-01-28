@@ -1,16 +1,16 @@
 ---
 tags: 
 aliases: 
-keywords: []
+keywords: 
 subject:
   - EET
-  - "..."
-semester: 1
+  - ...
+semester:
+  - WS23
 created: 18. Oktober 2023
-professor: "Bernhard Jakoby"
+professor:
+  - Bernhard Jakoby
 ---
  
 
 # Spannung
-
-![[]]

@@ -10,7 +10,7 @@ created: 31st March 2022
 
 ## Thermoelement
 
-## PTC-Temperatur Sensoren (Kaltleiter)
+## [PTC](../Hardwareentwicklung/Temperatur%20abhängiger%20Widerstand.md)-Temperatur Sensoren (Kaltleiter)
 
 ---
 
