@@ -9,7 +9,11 @@ created: 11th April 2023
 # Der Kondensator - ein Ladungsspeicher
 
 > [!INFO] Der Kondensator – ein Ladungsspeicher
->  Ein Kondensator ist eine Anordnung von zwei Elektroden, bei der durch räumliche Nähe eine elektrostatische Beeinflussung der Ladungen auf den beiden Elektroden stimuliert oder ausgenützt wird. Die entsprechende Kenngröße heißt Kapazität. Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
+>  Ein Kondensator ist eine Anordnung von zwei Elektroden, bei der durch räumliche Nähe eine elektrostatische Beeinflussung der Ladungen auf den beiden Elektroden stimuliert oder ausgenützt wird.
+>  Die entsprechende Kenngröße heißt *Kapazität*.
+
+> [!warning] parasitäre Kapazität
+>  Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
 
 ![InlineL|450](assets/Pasted%20image%2020231115091143.png)
 
@@ -29,10 +33,10 @@ $$
 
 $$
 \begin{align}
-W_m(t)-W_m(0)&=\int_0^t p(\tau) d \tau \\
-&=\int_0^t i(\tau) u(\tau) d \tau \\
-&=\int_0^t u C \frac{d u}{d \tau} d \tau \\
-&=\int_0^{u(t)} C\cdot u\cdot d u \\
+W_m(t)-W_m(0)&=\int_{0}^{t} p(\uptau) \, d \uptau \\
+&=\int_{0}^{t} i(\uptau) u(\uptau) \,d \uptau \\
+&=\int_{0}^{t} C \frac{d u}{d \uptau}\cdot u \,d \uptau \\
+&=\int_{0}^{u(t)} C\cdot u\cdot \, d u \\
 &=\frac{C u(t)^2}{2}
 \end{align}
 $$
