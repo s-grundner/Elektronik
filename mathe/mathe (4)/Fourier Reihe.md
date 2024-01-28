@@ -1,6 +1,7 @@
 ---
 tags:
   - HTL-Diplomarbeit
+  - Mathe/Reihen
 aliases:
   - Fourierreihen
   - Fourier Reihen
@@ -17,7 +18,7 @@ created: 24th March 2022
 
 # Fourierreihe
 
-1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](../Abbild.md) als eine [Lineare Hülle](Lineare%20Hülle.md) von Sinus- und Cosinus-Schwingungen, eine so-genannte Fourierreihe, ausdrücken lässt:
+1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](../Abbild.md) als eine [Lineare Hülle](Lineare%20Hülle.md) von Sinusund Cosinus-Schwingungen, eine so-genannte Fourierreihe, ausdrücken lässt:
 
 $$
 	x_{p} = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(2\pi k f_{0} t) + b_{k}\cdot\sin (2\pi k f_{0} t)\Big]
@@ -35,7 +36,6 @@ Jede periodische [Funktion](../Abbild.md) kann als aus einer Summe von Sinus und
 
 $f(x)=f(x+a)$  
 ![400](../assets/fourReihe.png)
-
 
 > [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](../Abbild.md).  
 > Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Abbild.md) in eine **Fourierreihe** zerlegt werden.

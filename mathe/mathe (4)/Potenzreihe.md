@@ -1,7 +1,7 @@
 ---
 tags:
   - Mathe
-  - Reihen
+  - Mathe/Reihen
 aliases: 
 subject:
   - mathe

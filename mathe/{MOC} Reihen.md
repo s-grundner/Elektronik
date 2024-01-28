@@ -1,8 +1,10 @@
 ---
 tags:
   - MOC
+  - Mathe/Reihen
 aliases:
   - Reihe
+  - "#mathe/Reihen"
 created: 30. Oktober 2023
 ---
 

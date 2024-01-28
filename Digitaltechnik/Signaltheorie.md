@@ -10,7 +10,7 @@ created: 23rd January 2023
 
 ## Signaldarstellung
 
-### Darstellung Mit Einer Fourier Reihe
+### Darstellung Mit Einer [Fourier Reihe](../Mathe/mathe%20(4)/Fourier%20Reihe.md)
 
 >[!Help]  
 ![Periodische Funktion](../Mathe/mathe%20(4)/Fourier%20Reihe.md#Periodische%20Funktion)
