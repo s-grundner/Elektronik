@@ -18,4 +18,3 @@ professor:
  
 
 # Lineare Hülle
-
