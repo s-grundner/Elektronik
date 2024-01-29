@@ -5,6 +5,7 @@ aliases:
   - linear kombination
   - linear abhängig
   - linear unabhängig
+  - erzeugendensystem
 keywords: 
 subject:
   - Mathematik1
@@ -17,3 +18,4 @@ professor:
  
 
 # Lineare Hülle
+
