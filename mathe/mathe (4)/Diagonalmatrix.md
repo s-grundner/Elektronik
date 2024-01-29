@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Diagonalmatrizen
 keywords: 
 subject:
   - Mathematik1
@@ -14,11 +15,13 @@ professor:
 
 # Diagonalmatrix
 
+$(4\times 4)$-Diagonalmatrix
+
 $$
 \begin{pmatrix}
 * & 0 & 0 & 0 \\
 0 & * & 0 & 0 \\
 0 & 0 & * & 0 \\
-
+0 & 0 & 0 & *
 \end{pmatrix}
 $$
