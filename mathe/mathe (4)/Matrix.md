@@ -44,7 +44,7 @@ created: 28th September 2022
 - [Invertierbarkeit](Invertierbarkeit.md)  
 - [Transponieren](Transponieren.md)  
 - [Determinante](Determinante.md)  
-- [[Matrixmultiplikation]]
+- [[../Matrixmultiplikation]]
 
 ## Elementare Umformungen
 

@@ -41,7 +41,7 @@ Werden der Einfachheit halber wieder einige Faktoren ($\frac{f_{s}}{N}, T$) und 
 > X[k] = \sum^{N-1}_{n=0} x[n]\cdot e^{-jkn \frac{2\pi}{N}}
 > $$
 
-Die inverse DFT (IDFT) (Synthesegleichung) ist definiert als:
+Die [inverse](../../Mathe/mathe%20(4)/Invertierbarkeit.md) DFT (IDFT) (Synthesegleichung) ist definiert als:
 
 > [!hint] Synthesegleichung
 >
