@@ -59,6 +59,7 @@ Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\ti
 
 - [Einheitsmatrix](Einheitsmatrix.md)  
 - [[Rotationsmatrix]]  
-
+- [[Dreiecksmatrix]]
+- [[Diagonalmatrix]]
 
 

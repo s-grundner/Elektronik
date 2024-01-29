@@ -89,7 +89,7 @@ $$
 
 # Sonderfälle
 
-## Determinante einer oberen Dreiecksmatrix:
+## Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md):
 
 $$
 \left|\begin{array}{ccccc}
