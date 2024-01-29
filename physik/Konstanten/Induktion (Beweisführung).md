@@ -19,7 +19,7 @@ professor:
 
 ## Aufgabe 1: Gleichung
 
-Beweise mittels Vollständiger Induktion dass der Folgende Ausdruck erfüllt ist:
+Mittels der Vollständigen Induktion lässt sich Beweisen, dass Folgende Aussage Wahr ist: 
 
 $$
 \forall n \in\mathbb{N}: \sum_{k=1}^{n}(4k^{3}+3k^{2}-k) = n^{2}(n-1)(n-2) 
@@ -38,9 +38,32 @@ $$
 > [!info] $n$ geht über auf $n+1$  
 > Voraussetzen dass die Formel für $n$ stimmt und überprüfen, ob die Formel für $n+1$ stimmt.
 
+Nun gilt:
 $$
-n\to n+1: \quad
+n\to n+1: \quad \sum_{k=1}^{n+1}(4k^{3}+3k^{2}-k)
 $$
+ Man kann nun das letzte Element ($n+1$) herausnehmen und manuell dazu summieren. So ergibt sich:
+ $$
+\begin{align}
+&\sum_{k=1}^{n+1}(4k^{3}+3k^{2}-k) =\\
+&\sum_{k=1}^{n}(4k^{3}+3k^{2}-k) + (4(n+1)^{3}+(n+1)^{2}-(n+1))
+\end{align}
+$$
+
+### Induktionsvoraussetzung
+
+Wir nehmen an, die Formel aus der Angabe Stimmt. So setzen wir ein den Ausdruck aus dem Induktionsschluss ein: 
+
+$$
+\begin{align}
+\sum_{k=1}^{n}(4k^{3}+3k^{2}-k) &= n^{2}(n-1)(n-2) \\
+\sum_{k=1}^{n}(4k^{3}+3k^{2}-k) &+ (4(n+1)^{3}+(n+1)^{2}-(n+1))\\
+&\downarrow \\
+n^{2}(n-1)(n-2) &+ (4(n+1)^{3}+(n+1)^{2}-(n+1))
+\end{align}
+$$
+
+
 
 ## Aufgabe 2: Ungleichung
 
