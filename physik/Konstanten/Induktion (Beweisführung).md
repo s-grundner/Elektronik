@@ -22,7 +22,7 @@ professor:
 Mittels der Vollständigen Induktion lässt sich Beweisen, dass Folgende Aussage Wahr ist: 
 
 $$
-\forall n \in\mathbb{N}: \sum_{k=1}^{n}(4k^{3}+3k^{2}-k) = n^{2}(n-1)(n-2) 
+\forall n \in\mathbb{N}: \sum_{k=1}^{n}(4k^{3}+3k^{2}-k) = n^{2}(n+1)(n+2) 
 $$
 
 ### Induktionsanfang (IA)
@@ -50,20 +50,41 @@ $$
 \end{align}
 $$
 
+Dieser Ausdruck muss auch mit der Hypothese übereinstimmen:
+$$
+=(n+1)^{2}(n+2)(n+3)
+$$
+
+
+$$
+
+$$
+
 ### Induktionsvoraussetzung
 
 Wir nehmen an, die Formel aus der Angabe Stimmt. So setzen wir ein den Ausdruck aus dem Induktionsschluss ein: 
 
 $$
 \begin{align}
-\sum_{k=1}^{n}(4k^{3}+3k^{2}-k) &= n^{2}(n-1)(n-2) \\
-\sum_{k=1}^{n}(4k^{3}+3k^{2}-k) &+ (4(n+1)^{3}+(n+1)^{2}-(n+1))\\
+\sum_{k=1}^{n}(4k^{3}+3k^{2}-k) &= n^{2}(n+1)(n+2)\\
+\text{Rechte Seite}&\text{ wird nun eingesetzt}\\
+\sum_{k=1}^{n}(4k^{3}+3k^{2}-k) &+ (4(n+1)^{3}+(n+1)^{2}-(n+1))  \\
 &\downarrow \\
-n^{2}(n-1)(n-2) &+ (4(n+1)^{3}+(n+1)^{2}-(n+1))
+n^{2}(n+1)(n+2) &+ (4(n+1)^{3}+(n+1)^{2}-(n+1))
 \end{align}
 $$
 
+Der eingesetzte Ausdruck muss wieder dem zweiten Term aus der Hypothese entsprechen:
 
+$$
+n^{2}(n+1)(n+2) + (4(n+1)^{3}+(n+1)^{2}-(n+1)) = (n+1)^{2}(n+2)(n+3)
+$$
+
+Nun können die Beiden Terme durch umrechnen auf die gleiche Form gebracht werden:
+
+Entweder man multiplizie
+
+---
 
 ## Aufgabe 2: Ungleichung
 
