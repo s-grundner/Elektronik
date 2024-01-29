@@ -60,7 +60,7 @@ $$
 
 $$
 
-### Induktionsvoraussetzung
+### Induktionsvoraussetzung (IV)
 
 Wir nehmen an, die Formel aus der Angabe Stimmt. So setzen wir ein den Ausdruck aus dem Induktionsschluss ein: 
 
