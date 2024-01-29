@@ -44,8 +44,8 @@ $$
 
 > [!example] Beispiel.  
 > Überprüfen Sie, ob die drei Zeilenvektoren $(1,2,1),(3,1,5),(3,-4,7)$, welche Elemente des $\mathbb{R}$-Vektorraumes $\left(\mathbb{R}_n,+, \cdot\right)$ sind, linear unabhängig sind.
-> Aufgabe 16.17. Überprüfen Sie, ob die drei Zeilenvektoren $(1,2,1),(3,1,5),(3,-4,7)$, welche Elemente des $\mathbb{R}$-Vektorraumes $\left(\mathbb{R}_n,+, \cdot\right)$ sind, linear unabhängig sind.
-> Lösung: Wir setzen an
+> 
+> *Lösung: Wir setzen an*
 > $$
 \begin{aligned}
 \vec{0} & =\lambda_1 \cdot \vec{z_1}+\lambda_2 \cdot \vec{z_2}+\lambda_3 \cdot \vec{z_3} \\
@@ -57,27 +57,35 @@ $$
 > [!success] Lösung
 
 $$
+\begin{align}
 \left(\begin{array}{ccc|c}
-1 & 2 & 1 & 0\\
-3 & 1 & 5 & 0\\
-3 & -4 & 7 & 0
+1 & 3 & 3 & 0 \\
+2 & 1 & -4 & 0 \\
+1 & 5 & 7 & 0
 \end{array}\right)
-$$
-
-$$
+\begin{aligned}
+\cdot 2 \\ \\ \cdot 2 \\
+\end{aligned}&\to
 \left(\begin{array}{ccc|c}
-3 & 6 & 3 & 0\\
-3 & 1 & 5 & 0\\
-3 & -4 & 7 & 0
+2 & 6 & 6 & 0 \\
+2 & 1 & -4 & 0 \\
+2 & 10 & 14 & 0
 \end{array}\right)
-$$
 
-$$
+\\
+
 \left(\begin{array}{ccc|c}
-3 & 6 & 3 & 0\\
-0 & 5 & -2 & 0\\
-0 & 10 & -4 & 0
-\end{array}
-
-\right)
+2 & 6 & 6 & 0 \\
+0 & 5 & 10 & 0 \\
+0 & 4 & 8 & 0
+\end{array}\right)
+\begin{aligned}
+\\ \cdot 4 \\ \cdot 5
+\end{aligned}&\to
+\left(\begin{array}{ccc|c}
+2 & 6 & 6 & 0 \\
+0 & 20 & 40 & 0 \\
+0 & 20 & 40 & 0
+\end{array}\right)
+\end{align}
 $$
