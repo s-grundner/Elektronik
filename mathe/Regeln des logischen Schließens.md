@@ -11,6 +11,7 @@ aliases:
   - Assoziativgesetze
   - Distributivgesetz
   - Distributivgesetze
+  - Beweis
 keywords:
   - De Morgan
   - Kontrapositionsregel
@@ -53,5 +54,15 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > (i) $\left.\begin{align}A\wedge (B\vee C)\equiv (A\wedge B)\vee (A\wedge C)\\ A \vee (B\wedge C)\equiv (A\vee B)\wedge(A\vee C)\end{align}\quad\right\}\text{ Distributivgesetze}$
 > 
 > (j) $\left.\begin{align}(A \vee B) \vee C \equiv A \vee (B \vee C)\quad(=: A\vee B\vee C)\\(A \wedge B) \wedge C \equiv A \wedge (B \wedge C)\quad(=: A\wedge B\wedge C)\end{align}\quad\right\}\text{ Assoziativgesetze}$
+
+## Methoden zur mathematischen Beweisführung
+
+![](assets/Pasted%20image%2020240129163115.png)
+
+![](assets/Pasted%20image%2020240129163127.png)
+
+![](assets/Pasted%20image%2020240129163136.png)
+
+![](assets/Pasted%20image%2020240129163146.png)
 
 [^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]

@@ -88,3 +88,5 @@ $$\exists a,b \in M : A(a,b)\qquad\text{statt}\qquad\exists b\in M\exists a\in M
 > *Testen* $\neq$ *Beweisen*
 
 > [!INFO] Für den Beweis einer Existenz-Aussage genügt es, eine Aussage zu beweisen
+
+![](assets/Pasted%20image%2020240129163227.png)
