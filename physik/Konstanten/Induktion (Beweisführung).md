@@ -52,7 +52,7 @@ $$
 
 Dieser Ausdruck muss auch mit der Hypothese übereinstimmen:
 $$
-=(n+1)^{2}(n+2)(n+3)
+\overset! =(n+1)^{2}(n+2)(n+3)
 $$
 
 
@@ -76,13 +76,32 @@ $$
 
 Der eingesetzte Ausdruck muss wieder dem zweiten Term aus der Hypothese entsprechen:
 
-$$
-n^{2}(n+1)(n+2) + (4(n+1)^{3}+(n+1)^{2}-(n+1)) = (n+1)^{2}(n+2)(n+3)
-$$
+$$n^{2}(n+1)(n+2) + 4(n+1)^{3}+(n+1)^{2}-(n+1) $$
+$$\overset! = (n+1)^{2}(n+2)(n+3)$$
+
 
 Nun können die Beiden Terme durch umrechnen auf die gleiche Form gebracht werden:
 
-Entweder man multiplizie
+Eine Möglichkeit ist es, alles aus zu multiplizieren. Das funktioniert zwar immer, ist aber Aufwändig. Die Termen können einfach auf den gleichen Ausdruck umgeformt werden. auch wenn noch klammern enthalten sind:
+
+Zur Vereinfachung wird $n+1$ herausgehoben:
+$$
+\cancel{ (n+1) }\cdot(n^{2}(n+2)+4(n+1)^{2}+(n+1)-1) \overset! = \cancel{ (n+1) }\cdot(n+1)(n+2)(n+3)
+$$
+
+Nun muss nur noch folgende Bedingung erfüllt sein, da aus dem zweiten Ausdruck auch $n+1$ herausgehoben werden kann:
+
+$$n^{2}(n+2)+4(n+1)^{2}+(n+1)-1  \overset! = (n+1)(n+2)(n+3)$$
+
+Nun den vereinfachten Ausdruck ausmultiplizieren:
+$$
+\begin{align}
+n^{3}+6n^{2}+11n+6  &\overset! = (n+1)(n+2)(n+3) \\
+n^{3}+6n^{2}+11n+6  & = n^{3}+6n^{2}+11n+6 \quad✅
+\end{align}
+$$
+
+
 
 ---
 
