@@ -39,10 +39,13 @@ $$
 > Voraussetzen dass die Formel für $n$ stimmt und überprüfen, ob die Formel für $n+1$ stimmt.
 
 Nun gilt:
+
 $$
 n\to n+1: \quad \sum_{k=1}^{n+1}(4k^{3}+3k^{2}-k)
 $$
+
  Man kann nun das letzte Element ($n+1$) herausnehmen und manuell dazu summieren. So ergibt sich:
+
  $$
 \begin{align}
 &\sum_{k=1}^{n+1}(4k^{3}+3k^{2}-k) =\\
@@ -51,10 +54,10 @@ $$
 $$
 
 Dieser Ausdruck muss auch mit der Hypothese übereinstimmen:
+
 $$
 \overset! =(n+1)^{2}(n+2)(n+3)
 $$
-
 
 $$
 
@@ -77,14 +80,14 @@ $$
 Der eingesetzte Ausdruck muss wieder dem zweiten Term aus der Hypothese entsprechen:
 
 $$n^{2}(n+1)(n+2) + 4(n+1)^{3}+(n+1)^{2}-(n+1) $$
+
 $$\overset! = (n+1)^{2}(n+2)(n+3)$$
 
-
-Nun können die Beiden Terme durch umrechnen auf die gleiche Form gebracht werden:
-
-Eine Möglichkeit ist es, alles aus zu multiplizieren. Das funktioniert zwar immer, ist aber Aufwändig. Die Termen können einfach auf den gleichen Ausdruck umgeformt werden. auch wenn noch klammern enthalten sind:
+> [!info] Nun können die Beiden Terme durch umrechnen auf die gleiche Form gebracht werden:  
+> Eine Möglichkeit ist es, alles aus zu multiplizieren. Das funktioniert zwar immer, ist aber Aufwändig. Die Termen können einfach auf den gleichen Ausdruck umgeformt werden. auch wenn noch klammern enthalten sind:
 
 Zur Vereinfachung wird $n+1$ herausgehoben:
+
 $$
 \cancel{ (n+1) }\cdot(n^{2}(n+2)+4(n+1)^{2}+(n+1)-1) \overset! = \cancel{ (n+1) }\cdot(n+1)(n+2)(n+3)
 $$
@@ -94,14 +97,13 @@ Nun muss nur noch folgende Bedingung erfüllt sein, da aus dem zweiten Ausdruck 
 $$n^{2}(n+2)+4(n+1)^{2}+(n+1)-1  \overset! = (n+1)(n+2)(n+3)$$
 
 Nun den vereinfachten Ausdruck ausmultiplizieren:
+
 $$
 \begin{align}
 n^{3}+6n^{2}+11n+6  &\overset! = (n+1)(n+2)(n+3) \\
 n^{3}+6n^{2}+11n+6  & = n^{3}+6n^{2}+11n+6 \quad✅
 \end{align}
 $$
-
-
 
 ---
 
