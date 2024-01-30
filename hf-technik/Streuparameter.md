@@ -12,7 +12,7 @@ created: 28th September 2022
 
 - Beschreiben z.B. [Filter](../Hardwareentwicklung/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
 - Wellenparameter = Teilspannungen 
-- Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende Spannung)
+- Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende [Spannung](../Elektrodynamik/Spannung.md))
 - Widerstandsparameter bei Serienschaltung
 - Leitwert bei Parallelschaltungen
 
@@ -30,7 +30,7 @@ $$U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu)$$
 
 $$I_\nu = \dfrac{1}{\sqrt{Z_0}} \cdot (a_\nu - b_\nu)$$
 
-Die Spannung $U_\nu$ und der Strom $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrodynamik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
+Die [Spannung](../Elektrodynamik/Spannung.md) $U_\nu$ und der Strom $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrodynamik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
 
 $$Z_\nu = \dfrac{U_\nu}{I_\nu}$$
 
@@ -40,7 +40,7 @@ $$r_\nu = \dfrac{b_\nu}{a_\nu} = \dfrac{Z_\nu - Z_0}{Z_\nu + Z_0}, \qquad b_\nu 
 
 Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexionsfaktor.md) $r$ gleich dem einen und **einzigen S-Parameter $S_{11}$**.
 
-Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) in Form eines [linearen Gleichungssystems](Lineares%20Gleichungssystem) ausgedrückt.
+Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) in Form eines [LGS](../Mathe/mathe%20(3)/Lineare%20Gleichungssysteme.md) ausgedrückt.
 
 Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathe/mathe%20(4)/Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathe/mathe%20(3)/Vektor.md) $a$ und $b$ als [Matrixgleichung](../Mathe/mathe%20(4)/Matrix.md) ausgedrückt:
 
