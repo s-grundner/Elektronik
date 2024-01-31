@@ -23,7 +23,7 @@ $$
 
 # Quellen
 
-# komplexe Leistung
+# Komplexe Leistung
 
 ## Wirkleistung
 
@@ -39,7 +39,6 @@ Einheit: VAR - Volt Ampere Reaktiv
 
 $S=\sqrt{ P^2+Q^2 } = \mid S\mid$
 Einheit: VA - Volt-Ampere
-
 
 ## Blindleistungskompensation
 
