@@ -32,18 +32,18 @@ professor:
 > 	- Für $L(X, X)$ schreiben wir kurz: $L(X)$
 
 > [!tldr]- Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
-> für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](../xEDU/Mathematik1/Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
+> für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](../Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
 
 > [!tldr]- Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
 > für alle $x$ im $X$ [Vektorraum](../xEDU/Mathematik1/Vektorraum.md) und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
 
 ## Kern (kernel) und Bild
 
-> [!INFO] sei $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](../xEDU/Mathematik1/Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
+> [!INFO] sei $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](../Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$e
 > 
 > Das Bild das auf die Null abbildet (*Urbild der $0$*) ist der *Kern* (oder *Nullraum*)  
-> Kern: $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$ oft auch $im(L)$  
-> Bild: $\mathcal{R}(L)= L(X)$ oft auch $ker(L)$
+> Kern: $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$ oft auch $ker(L)$
+> Bild: $\mathcal{R}(L)= L(X)$ oft auch $im(L)$
 
 >[!important] Die Dimension des Kerns plus die Dimension des Bildes ist die Dimension des Defnitionsvektorraum $X$  
 > $dim(\mathcal{R}(L))+dim(\mathcal{N}(L))=dim(X)$  
