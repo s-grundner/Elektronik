@@ -27,7 +27,7 @@ professor:
 
 ## Unterraum
 
-![](assets/Pasted%20image%2020240129165401.png)
+![](assets%202/Pasted%20image%2020240129165401.png)
 
 > [!example] Beispiele von Unterräumen
 > - Die Menge der oberen (bzw. unteren) $(n\times n)$-[Dreiecksmatrizen](../../Mathe/mathe%20(4)/Dreiecksmatrix.md) ist Unterraum von $\mathbb{R}^{n\times n}$
