@@ -35,7 +35,8 @@ professor:
 > für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](../Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
 
 > [!tldr]- Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
-> für alle $x$ im $X$ [Vektorraum](../xEDU/Mathematik1/Vektorraum.md) und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
+> für alle $x$ im $X$ [Vektorraum](../Vektorraum.md) und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
+i
 
 ## Kern (kernel) und Bild
 
