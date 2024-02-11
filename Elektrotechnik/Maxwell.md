@@ -5,8 +5,10 @@ aliases:
 keywords: 
 subject:
   - EET
-  - ...
-semester: 1
+  - "335.005"
+semester:
+  - WS23
+  - "1"
 created: 24th January 2024
 professor:
 ---
@@ -25,4 +27,4 @@ $$
 und wird als *Durchflutungssatz* bezeichnet.
 
 > [!tldr]  
-> In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen Feldstärke H entlang einer geschlossenen Kontur C (siehe auch Einschub: Linienintegral) gleich dem Integral der Stromdichte J über die Fläche A (siehe auch Einschub: Flächenintegral) ist, wobei die Fläche A von der geschlossenen Kontur C umrandet wird
+> In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *Stromdichte* $J$ über die *Fläche* $A$ (siehe auch Einschub: Flächenintegral) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird

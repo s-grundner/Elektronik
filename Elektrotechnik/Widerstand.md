@@ -4,7 +4,7 @@ aliases:
 keywords: 
 subject:
   - EET
-  - "..."
+  - "335.005"
 semester:
   - WS23
 created: 11. Februar 2024
@@ -21,7 +21,7 @@ professor:
 
 ## Kenngrößen
 
-| Widerstand    | [Ohm](../Hardwareentwicklung/Ohmsches%20Gesetz.md) ($\Omega$) |
+| Widerstand    | [Ohm](Ohmsches%20Gesetz.md) ($\Omega$) |
 | ------------- | -------------- |
 | Toleranz      | Prozent (%)    |
 | Belastbarkeit | [Leistung](../Physik/Elektrische%20Leistung.md) (W)               |

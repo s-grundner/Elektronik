@@ -121,7 +121,7 @@ $$
 }}
 $$
 
-Mit dem Auflösen der [](../../Hardwareentwicklung/Kirchhoffsche%20Regeln.md#Maschen%20Regel|Masche) ergibt sich eine [](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20Störterm|lineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
+Mit dem Auflösen der [](../Elektrotechnik/Kirchhoffsche%20Regeln.md#Maschen%20Regel|Masche) ergibt sich eine [](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20Störterm|lineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
 
 ### Bestimmung der Amplituden-Phasen-Form
 

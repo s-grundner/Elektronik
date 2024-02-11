@@ -26,7 +26,7 @@ $$
 
 | $Z$ | *Impedanz* <br> Scheinwiderstand | $\uparrow^{-1}$ | $Y$ | *Admittanz* <br> Scheinleitwert |
 | --- | -------------------------------- | --------------- | --- | ------------------------------- |
-| $R$ | *[Resistanz](../Hardwareentwicklung/Ohmsches%20Gesetz.md)* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
+| $R$ | *[Resistanz](Ohmsches%20Gesetz.md)* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
 | $X$ | *Reaktanz*  <br> Blindwiderstand | $\uparrow^{-1}$ | $B$ | *Suszeptanz* <br> Blindleitwert |
 
 Für Berechnungen gilt: $Z=\frac{Z_{Z}}{Z_{N}}$ -> $\mid Z\mid=\frac{\mid Z_{Z}\mid}{\mid Z_{N}\mid}$
@@ -64,8 +64,8 @@ $$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
 > Bessere [SI](Signalintegrität.md) und [EMC](Elektromagnetische%20Verträglichkeit.md)
 
 > [!WARNING] Es gibt verschiedene Arten von Abschlussanpassung:
-> - Seriell ([Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) am Ausgang der Quelle (Treiber))
-> - [Parallel](Parallel%20Termination.md) ([Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) parallel zur Senke, Verbunden mit einer *Terminationvoltage* oder Masse)
+> - Seriell ([Widerstand](Ohmsches%20Gesetz.md) am Ausgang der Quelle (Treiber))
+> - [Parallel](Parallel%20Termination.md) ([Widerstand](Ohmsches%20Gesetz.md) parallel zur Senke, Verbunden mit einer *Terminationvoltage* oder Masse)
 > - weitere: AC parallel, Thevenin, [Diode](Halbleiter/Diode.md)
 
 # Tags

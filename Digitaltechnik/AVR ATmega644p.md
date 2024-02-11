@@ -61,7 +61,7 @@ const int mydata[] PROGMEM = ...
 
 ### Examples
 
-> [!INFO] Eine Photodiode ist über einen [Widerstand](../Hardwareentwicklung/Ohmsches%20Gesetz.md) an PA3 angeschlossen. 
+> [!INFO] Eine Photodiode ist über einen [Widerstand](../Elektrotechnik/Ohmsches%20Gesetz.md) an PA3 angeschlossen. 
 > - Bei 1 mW/cm² misst man 0,1 V
 > - bei 10 mW/cm² 4 V.
 > 
