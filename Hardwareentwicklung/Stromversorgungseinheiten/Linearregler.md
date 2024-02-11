@@ -1,6 +1,5 @@
 ---
 tags:
-  - incomplete
   - Baugruppen/Leistung
 aliases:
   - Stabilisierungsschaltung
@@ -49,7 +48,7 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 6. Ausregelzeit
 	- Wie lange eine Veränderung am Eingang zu einer Veränderung am Ausgang dauert.
 
-Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kategorien [geregelt](Ungeregelte%20Spannungsstabilisierung.md) und  [ungeregelt](Geregelte%20Spannungsstabilisierung.md)vorgenommen werden.
+Die Klassifizierung von Schaltungen zur Spannungsstabilisierung, kann in die Kategorien [geregelt](Ungeregelte%20Spannungsstabilisierung.md) und [ungeregelt](Geregelte%20Spannungsstabilisierung.md)vorgenommen werden.
 
 # Tags
 

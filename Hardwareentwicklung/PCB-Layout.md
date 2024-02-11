@@ -1,6 +1,5 @@
 ---
-tags:
-  - incomplete
+tags: []
 aliases:
   - Leiterplatte
   - PCB
@@ -40,7 +39,7 @@ created: 19th August 2023
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) und [Anpassung](../Elektrodynamik/Impedanz.md)
+### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) Und [Anpassung](../Elektrodynamik/Impedanz.md)
 
 1. Leiterbahnen kurz halten
 2. Wellenwiderstand / [Impedanz](../Elektrodynamik/Impedanz.md) [Anpassen](../Elektrodynamik/Impedanz.md)
