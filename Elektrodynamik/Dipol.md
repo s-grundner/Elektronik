@@ -12,7 +12,7 @@ created: 1st December 2022
 
 # Dipol
 
-![](../HF_Technik/assets/Pasted%20image%2020231115092719.png)
+![](../HF-Technik/assets/Pasted%20image%2020231115092719.png)
 
 > [!INFO] Dipol Moment
 > $\mid\vec{p}\mid=Q\cdot d$
@@ -20,5 +20,5 @@ created: 1st December 2022
 
 # Tags
 
-- [Halbwellen Dipol](../HF_Technik/Halbwellen%20Dipol.md)
+- [Halbwellen Dipol](../HF-Technik/Halbwellen%20Dipol.md)
 - [Dipol (Chemie)](../Chemie/Dipol%20(Chemie).md)

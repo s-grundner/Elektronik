@@ -12,7 +12,7 @@ created: 17th August 2023
 
 ### Unioder Bidirektional
 
-Je nachdem ob die zu schützende [Leitungstheorie](../../HF_Technik/Leitungstheorie.md) über oder unter dem Massepotential liegt, muss man bei unidirektionalen TVS-[Dioden](Diode.md) die Polung beachten.  
+Je nachdem ob die zu schützende [Leitungstheorie](../../HF-Technik/Leitungstheorie.md) über oder unter dem Massepotential liegt, muss man bei unidirektionalen TVS-[Dioden](Diode.md) die Polung beachten.  
 Bidirektionale arbeiten in beide Richtungen.  
 ![](../../Digitaltechnik/assets/TVS-Diode.png)
 
@@ -24,7 +24,7 @@ Deshalb gibt es mehrere TVS-[Dioden](Diode.md) in einem einzigen Package.
 
 ### Arbeitsspannung
 
-Die Arbeitsspannung ist die maximale [Spannung](../../Elektrodynamik/Spannung.md), welche im Normalbetrieb auf der [Leitung](../../HF_Technik/Leitungstheorie.md) vorkommt. z.B. 3.3V
+Die Arbeitsspannung ist die maximale [Spannung](../../Elektrodynamik/Spannung.md), welche im Normalbetrieb auf der [Leitung](../../HF-Technik/Leitungstheorie.md) vorkommt. z.B. 3.3V
 
 ### Klemmspannung
 
@@ -38,7 +38,7 @@ Man sollte im Datenblatt der TVS-[Diode](Diode.md) auf Verweise für typische Ap
 
 Wie bei jedem Bauteil, gibt es gewisse parasitäre Kenngrößen, die im Inneren präsent sind. Bei der TVS [Diode](Diode.md) ist die [Kapazität](../../Elektrodynamik/Kapazität.md) eine störende, dennoch unvermeidbare, Größe.  
 Bei TVS-[Dioden](Diode.md) mit hoher [Kapazität](../../Elektrodynamik/Kapazität.md) besteht die Gefahr, dass sehr kurze [ESD](../ESD.md)-Stöße nicht gefiltert werden können.  
-Abgesehen von der intrinsischen [Kapazität](../../Elektrodynamik/Kapazität.md), ist zu berücksichtigen, dass auch die [Leiterbahn](../../HF_Technik/Leitungstheorie.md) von der Buchse zur [Diode](Diode.md) keine eigene signifikante [Kapazität](../../Elektrodynamik/Kapazität.md) aufweisen darf. Dies wird durch eine möglichst kurze Leiterbahnführung sowie eine dünne Leiterbahnbreite realisiert.
+Abgesehen von der intrinsischen [Kapazität](../../Elektrodynamik/Kapazität.md), ist zu berücksichtigen, dass auch die [Leiterbahn](../../HF-Technik/Leitungstheorie.md) von der Buchse zur [Diode](Diode.md) keine eigene signifikante [Kapazität](../../Elektrodynamik/Kapazität.md) aufweisen darf. Dies wird durch eine möglichst kurze Leiterbahnführung sowie eine dünne Leiterbahnbreite realisiert.
 
 ### IEC61000−4−2 Rating
 

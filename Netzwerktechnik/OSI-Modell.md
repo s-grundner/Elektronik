@@ -18,7 +18,7 @@ Das ISO/OSI-Referenzmodell (englisch Open Systems Interconnection model) ist ein
 > - jeder Teilschritt wird als Schicht ausgedrückt (-> 7 Schichten)
 > - es werden Schnittstellen zwischen den Schichten definiert um erfolgreich zu kommunizieren. Zur Übertragung: Protokolle (=Definition der Regelwerke)
 > - Datenübertragungen können grob in 3 Teile unterteilt werden:
-> 	- Übertragungsweg (Kabel/[Funk](../HF_Technik/Rundfunk.md) …)
+> 	- Übertragungsweg (Kabel/[Funk](../HF-Technik/Rundfunk.md) …)
 > 	- Protokoll: Definition wie der Übertragungsweg genutzt wird
 > - Anwendung: stellt die Daten zur Verfügung/nimmt sie wieder entgegen
 > - Beim Senden werden 7 Schichten von Oben (Anwendung) beginnend durchlaufen, beim Empfang werden ebenfalls 7 Schichten in umgekehrter Richtung durchlaufen

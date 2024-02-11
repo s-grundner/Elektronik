@@ -26,7 +26,7 @@ Bezogen auf $1mW$
 
 # dBi
 
-[Isotroper Kugelstrahler](../HF_Technik/Isotroper%20Kugelstrahler.md)
+[Isotroper Kugelstrahler](../HF-Technik/Isotroper%20Kugelstrahler.md)
 
 # Np
 

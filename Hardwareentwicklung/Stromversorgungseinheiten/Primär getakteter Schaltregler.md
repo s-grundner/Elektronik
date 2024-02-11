@@ -36,7 +36,7 @@ created: 2nd October 2022
 
 - Ferritkern
 - Speichertransformator
-- geringer [Streuverlust](../../HF_Technik/Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
+- geringer [Streuverlust](../../HF-Technik/Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
 
 ![325](../assets/Trafo-Streuung.png)
 

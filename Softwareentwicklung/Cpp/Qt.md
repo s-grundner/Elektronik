@@ -163,7 +163,7 @@ ui->statusbar->showMessage("Daten werden gelesen", 1000);
 - Um einen Butten mit einem Ereignis zu verknüpfen, wird im QTCreator im UI-Designer im Kontext-Menü der Schaltfläche die Option *Slot anzeigen* ausgewählt. Im Fenster das sich dadurch öffnet kann das entsprechende Signal ausgewählt werden, im einfachsten Fall **clicked()** (für ein Ereignis durch ein einfaches Anklicken).
 - Im zugehörenden hund cpp-Code wird damit eine Funktion angelegt mit dem Namen `on_pushButton_clicked()` angelegt. Der mittlere Teil *pushButton* entspricht dem Namen des Schaltflächenobjekts. Es empfiehlt sich daher sämtlichen Objekten direkt nach der Erzeugung einen bezeichnenden Namen zu geben. Soll der Name der Schaltfläche (und der Funktion) verändert werden, dann muss das in der cpp-, h, und ui-Datei erfolgen.
 
-## [Radio](../../HF_Technik/Rundfunk.md) Button
+## [Radio](../../HF-Technik/Rundfunk.md) Button
 
 Zusammengehörende Radiobutton können in eine Gruppe zusammengefasst werden: dazu werden sie gemeinsam ausgewählt und im Kontextmenü Gruppiert.
 

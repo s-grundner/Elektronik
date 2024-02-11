@@ -19,7 +19,7 @@ Für die HF-Störung: [Kapazität](../Elektrodynamik/Kapazität.md) ist ein Kurz
 
 - Die HF Störung kann nicht in die Schaltungsteil eindringen bzw diesen verlassen.
 - Störungen werden reflektiert, nicht absorbiert
-	- [Reflexionsfaktor](../HF_Technik/Reflexionsfaktor.md) im Kurzschluss: $r_{KS}=-1$
+	- [Reflexionsfaktor](../HF-Technik/Reflexionsfaktor.md) im Kurzschluss: $r_{KS}=-1$
 	- ggf. gibt es Probleme mit Resonanzen innerhalb der Schaltung
 - Versorgungsleitungen kurz halten (siehe 4-Pol [Kondensator](../Elektrodynamik/Kapazität.md) [a])
 - 3-Leiter Anordnung mit 3 Kondensatoren zum KS gleich und Gegentaktsignalen [b])

@@ -33,7 +33,7 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 - [Barkhausen Kriterium](Barkhausen%20Kriterium.md) ist erfüllt
 - [Emitterschaltung](../Halbleiter/Kollektorfolger.md) mit Basisspannungs-Teiler
 - $R_{E}$ zur Temperaturkompensation
-- RFC ([Radio](../../HF_Technik/Rundfunk.md) Frequency Choke) dt. Drosselspule
+- RFC ([Radio](../../HF-Technik/Rundfunk.md) Frequency Choke) dt. Drosselspule
 	- hebt den Massebezug des Oszillatorsignal zur Betriebsspannung auf
 - Analyse der Schleifenverstärkung bringt …
 	- … einerseits $\mathcal{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
