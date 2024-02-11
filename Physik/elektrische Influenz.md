@@ -4,6 +4,7 @@ tags:
 aliases:
   - Faraday Käfig
   - Faradayscher Käfig
+  - Influenz
 keywords:
   - Elektrisches Feld
 subject:

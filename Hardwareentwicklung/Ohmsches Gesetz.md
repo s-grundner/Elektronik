@@ -6,8 +6,6 @@ aliases:
   - Ohm
   - Spannungsteiler
   - Stromteiler
-  - Widerstand
-  - Resistanz
 created: 26. September 2023
 ---
 
