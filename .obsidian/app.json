@@ -28,7 +28,8 @@
     "*.ini",
     "Rubbish",
     "xEDU/",
-    "xPN/"
+    "xPN/",
+    "desktop.ini"
   ],
   "propertiesInDocument": "hidden",
   "defaultViewMode": "preview"
