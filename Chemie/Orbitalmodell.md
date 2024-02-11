@@ -59,7 +59,7 @@ Es gibt 5 Stk.
 
 **Komplexere Form:**
 
->![orb-f](assets/orb-f.png)
+![orb-f](assets/orb-f.png)
 
 Es gibt 7 Stk.
 
