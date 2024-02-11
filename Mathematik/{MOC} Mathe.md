@@ -70,7 +70,7 @@ SORT file.cday DESC
  - [Fourier Reihe](mathe%20(4)/Fourier%20Reihe.md)
  - [lineare DGL 1. Ordnung](mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
  - [lineare DGL 2. Ordnung](mathe%20(4)/lineare%20DGL%202.%20Ordnung.md)
- - [Schwingkreise](../Physikw/Schwingkreise.md)
+ - [Schwingkreise](../Physik/Schwingkreise.md)
  - [Fourier Transformation](mathe%20(4)/Fourier%20Transformation.md)
  - [Laplace Transformation](mathe%20(4)/Laplace%20Transformation.md)
 

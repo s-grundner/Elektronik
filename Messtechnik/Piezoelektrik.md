@@ -42,7 +42,7 @@ In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei
 
 ## Piezoresistiver Geber
 
-Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physikw/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
+Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
 Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
 
 ![375](piezoresistivergeber.png)
@@ -58,7 +58,7 @@ Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehrer
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  
 Ladung die zugrunde liegende Deformation zu bestimmen.  
 Der Effekt ist nur von der Längenänderung nicht von Geschwindigkeit  
-bzw. [Beschleunigung](../Physikw/Kinematik.md) der Deformation abhängig.
+bzw. [Beschleunigung](../Physik/Kinematik.md) der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
 

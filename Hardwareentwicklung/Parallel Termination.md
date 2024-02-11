@@ -31,7 +31,7 @@ created: 25. September 2023
  | ![](assets/Pasted%20image%2020230925143246.png) | ![](assets/Pasted%20image%2020230925143254.png)                   |
 
 > [!BUG] Nachteile
-> - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Physikw/Elektrische%20Leistung.md) an $R_{T}$  zu versorgen.
+> - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Physik/Elektrische%20Leistung.md) an $R_{T}$  zu versorgen.
 > - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv Strom verbraucht.
 > - Große parallele Busse (z.B. DDR) die für jede [Leitung](../HF-Technik/Leitungstheorie.md) einen $R_{T}$ benötigen:
 > 	- Obere Aspekte haben stärkeren Einfluss
@@ -39,7 +39,7 @@ created: 25. September 2023
 > 	- benötigt viel Platz
 
 > [!TIP] Tips
-> - $V_{TT}$ wählen, dass wenig [Leistung](../Physikw/Elektrische%20Leistung.md) wie möglich verschwendet wird.
+> - $V_{TT}$ wählen, dass wenig [Leistung](../Physik/Elektrische%20Leistung.md) wie möglich verschwendet wird.
 > - Toleranz bei $Z_{0}$ ($5\%, 10\%$) beachten
 > - Toleranz bei $R_{T}$ ($1\%, 10\%$) beachten
 > - Um Undershoot ($R_{T}<Z_{0}$) zu vermeiden $\to$ *$R_{T}$ $10\%$ höher als $Z_{0}$ wählen*

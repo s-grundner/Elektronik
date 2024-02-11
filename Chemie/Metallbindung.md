@@ -40,12 +40,12 @@ Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
 
 Im Falle von Metallen arrangieren sich die Atome in einem Gitter wobei die äußeren Elektronen der Atome sich relativ *frei* zwischen den Gitterbausteinen (Atome ohne äußere Elektronen, also positiv geladene Ionen) bewegen können.
 
-Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie die von Molekülen eines Gases spricht von einem *Elektronengas* oder Fermi-[Gas](../Physikw/Allgemeines%20Gasgesetz.md).
+Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie die von Molekülen eines Gases spricht von einem *Elektronengas* oder Fermi-[Gas](../Physik/Allgemeines%20Gasgesetz.md).
 
 > [!WARNING] Das Metall ist an sich elektrisch neutral,  
 >  wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.
 
 > [!HINT] Die Leitungselektronen führen eine thermische Wimmelbewegung aus.  
-> Der [Betrag](../Mathematik/Betrag.md) dieser [Geschwindigkeit](../Physikw/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
+> Der [Betrag](../Mathematik/Betrag.md) dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
 >
 > > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen Strom verursacht werden

@@ -31,7 +31,7 @@ Der Ursprung der Fouriertransformation ist auf die [Fourierreihe](Fourier%20Reih
 > Eine *periodische* [Funktion](../Abbild.md) $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
 
 > [!INFO] zur Fouriertransformation (auch Fourier-Analyse)  
-> Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* [Funktionen](../Abbild.md) die Aufgabe, diese als Überlagerung von **[harmonischen Schwingungen](../../Physikw/harmonische%20Schwingungen.md)** darzustellen.
+> Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* [Funktionen](../Abbild.md) die Aufgabe, diese als Überlagerung von **[harmonischen Schwingungen](../../Physik/harmonische%20Schwingungen.md)** darzustellen.
 > 
 > - Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der [Funktion](../Abbild.md) $f$.  
 >

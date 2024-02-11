@@ -34,7 +34,7 @@ $$
 $$
 - $\mathcal{F\{f(t)\}}= F(\omega)$ ist das Spektrum von $f(t)$
 
-Bsp.: [Stefan-Boltzmann](../Physikw/Schwarzkörperstrahlung.md) Spektrum 
+Bsp.: [Stefan-Boltzmann](../Physik/Schwarzkörperstrahlung.md) Spektrum 
 
 ## [Laplace Transformation](../Mathematik/mathe%20(4)/Laplace%20Transformation.md)
 

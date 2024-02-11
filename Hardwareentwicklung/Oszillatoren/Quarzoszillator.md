@@ -24,7 +24,7 @@ $L_{1}\dots$ Serien-[Induktivität](../../Elektrodynamik/Induktivitäten.md) (da
 
 $C_{1}\dots$ Serien-[Kapazität](../../Elektrodynamik/Kapazität.md) (Elektrizitätskonstante des Quarzes)
 
-$R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physikw/Reibungskraft.md)/mechanische Verluste)
+$R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Reibungskraft.md)/mechanische Verluste)
 
 $C_{0}\dots$ Streukapazität der Elektroden
 

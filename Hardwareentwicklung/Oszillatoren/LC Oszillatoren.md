@@ -15,13 +15,13 @@ created: 17th November 2022
 
 # LC [Oszillatoren](Clock%20Generierung.md)
 
-- Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](../../Physikw/Schwingkreise.md)
+- Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](../../Physik/Schwingkreise.md)
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
 - sowohl Serienals auch Parallelschwingkreis möglich 
 - Steiler Phasengang $\rightarrow$ hohe Frequenzstabilität
 - geeignet für hohe Frequenzen
 
-# Parallel [Schwingkreis](../../Physikw/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
+# Parallel [Schwingkreis](../../Physik/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
 > [!INFO] Schaltung  
 >![LC-osz](../assets/LC-osz.png)
@@ -87,7 +87,7 @@ u_{c}(t)&= \tilde{C_{1}}\cdot\cos(\omega t)+\tilde{C_{2}}\sin(\omega t)\\
 \end{align*}
 $$
 
-- Damit die Schaltung ein [Selbstschwingendes](../../Physikw/Schwingkreise.md) System sein kann, muss der [](../../Physikw/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
+- Damit die Schaltung ein [Selbstschwingendes](../../Physik/Schwingkreise.md) System sein kann, muss der [](../../Physik/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
 
 > [!question] Lösungsansatz
 
@@ -155,7 +155,7 @@ $$
 
 Bandbreite: Obere minus untere [Grenzfrequenz](../Grenzfrequenz.md)
 
-# Serien [Schwingkreis](../../Physikw/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
+# Serien [Schwingkreis](../../Physik/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
 > [!INFO] Schaltung  
 > ![Pasted image 20221213082043](../assets/Pasted%20image%2020221213082043.png)

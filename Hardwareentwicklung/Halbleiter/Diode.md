@@ -16,7 +16,7 @@ source:
 created: 16th March 2022
 ---
 
-# [Silizium](../../Physikw/Materialkunde/Silizium.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
+# [Silizium](../../Physik/Materialkunde/Silizium.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
 
 ## Grundlagen
 

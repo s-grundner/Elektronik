@@ -95,4 +95,4 @@ Magnetischer widerstand <-> elektrischer Widerstand
 
 $R_{m} = \frac{l}{\mu A}$ aber $R_{m}$ ist im Gegensatz zum elektrischen Widerstand stark nichtlinear vom Magnetischen Fluss Abhängig.
 
-[Elektrische Leistung](../Physikw/Elektrische%20Leistung.md)
+[Elektrische Leistung](../Physik/Elektrische%20Leistung.md)

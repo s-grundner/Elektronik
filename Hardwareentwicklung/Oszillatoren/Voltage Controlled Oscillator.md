@@ -8,7 +8,7 @@ created: 31st January 2023
 
 # Voltage Controlled Oscillator (VCO)
 
-Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physikw/Schwingkreise.md), bestehend aus einer [Induktivität](../../Elektrodynamik/Induktivitäten.md) und einer [Kapazität](../../Elektrodynamik/Kapazität.md) verwendet. Mittels Kapazitätsdioden, ist die Resonanzfrequenz durch eine Steuerspannung einstellbar.
+Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/Schwingkreise.md), bestehend aus einer [Induktivität](../../Elektrodynamik/Induktivitäten.md) und einer [Kapazität](../../Elektrodynamik/Kapazität.md) verwendet. Mittels Kapazitätsdioden, ist die Resonanzfrequenz durch eine Steuerspannung einstellbar.
 
 >[!NOTE] [Colpitts](Colpitts%20Oszillator.md)-Ostillator in [Emitterfolger](../Halbleiter/Emitterfolger.md)  
 > ![675](../assets/VCO_KapD.png)

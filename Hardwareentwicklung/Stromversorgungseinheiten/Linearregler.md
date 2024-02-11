@@ -23,7 +23,7 @@ created: 16th March 2022
 3. Spannungsstabilisierung der Gleichspannung gegen Schwankungen …
 	- … der Eingangsspannung
 	- … der Last
-	- … der [Temperatur](../../Physikw/Temperatur%20und%20Teilchenmodell.md) 
+	- … der [Temperatur](../../Physik/Temperatur%20und%20Teilchenmodell.md) 
 4. Last
 	- bei der Last werden üblicherweise Analoge und Digitale Versorgung mittels einer Sternförmigen Masse getrennt.
 		- (Über dem Spalt in der Masse dürfen auf einer Platine keine [Leiterbahnen](../../HF-Technik/Leitungstheorie.md) Verlegt werden)
@@ -45,7 +45,7 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 	- $\dfrac{\Delta U_{a}}{\Delta U_{e}}$
 4. Belastungs-Regelung **(Load Regulation)**
 	- $\dfrac{\Delta U_{a}}{\Delta i_{a}}$
-5. [Temperatur](../../Physikw/Temperatur%20und%20Teilchenmodell.md) Koeffizienten
+5. [Temperatur](../../Physik/Temperatur%20und%20Teilchenmodell.md) Koeffizienten
 6. Ausregelzeit
 	- Wie lange eine Veränderung am Eingang zu einer Veränderung am Ausgang dauert.
 
