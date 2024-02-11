@@ -16,7 +16,7 @@ $$
 U_{a}\approx U_{e} \cdot \frac{1}{1-DC}
 $$
 Während der Einschaltphase des [Transistors](../Halbleiter/{MOC}%20Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.  
-Schaltet der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $(T)$ ab, so fließt der Strom $I_{L}$ über die [Diode](../Halbleiter/Diode.md) (D) weiter und lädt den [Kondensator](../../Elektrodynamik/Kapazität.md) $C_{a}$.
+Schaltet der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $(T)$ ab, so fließt der Strom $I_{L}$ über die [Diode](../Halbleiter/Diode.md) (D) weiter und lädt den [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{a}$.
 
 ## Impuls-Zeit Diagramm
 
@@ -26,17 +26,17 @@ Schaltet der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $(T)$ ab, so flie
 
 ### $0<t<t_{1}$: $S_{geschlossen}$
 
-Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](../../Elektrodynamik/Induktivitäten.md).
- - Dabei *speichert die [Spule](../../Elektrodynamik/Induktivitäten.md) Energie*.
+Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](../../Elektrotechnik/Induktivitäten.md).
+ - Dabei *speichert die [Spule](../../Elektrotechnik/Induktivitäten.md) Energie*.
  - Die [Diode](../Halbleiter/Diode.md) sperrt in dieser Zeit.
- - Der [Kondensator](../../Elektrodynamik/Kapazität.md) $C_{A}$ liefert den Strom für den Verbraucher.
+ - Der [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{A}$ liefert den Strom für den Verbraucher.
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../../Elektrodynamik/Induktivitäten.md), aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
+Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../../Elektrotechnik/Induktivitäten.md), aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
 
-Ein Teil der in der [Spule](../../Elektrodynamik/Induktivitäten.md) gespeicherten Energie, wird in der Sperrphase auf den [Kondensator](../../Elektrodynamik/Kapazität.md) übertragen.  
-$\rightarrow$ **[Sperrwandler](Sperrwandler.md)**, Da die [Spule](../../Elektrodynamik/Induktivitäten.md) dem [Kondensator](../../Elektrodynamik/Kapazität.md) nur in dieser Phase Strom liefert.
+Ein Teil der in der [Spule](../../Elektrotechnik/Induktivitäten.md) gespeicherten Energie, wird in der Sperrphase auf den [Kondensator](../../Elektrotechnik/Kapazität.md) übertragen.  
+$\rightarrow$ **[Sperrwandler](Sperrwandler.md)**, Da die [Spule](../../Elektrotechnik/Induktivitäten.md) dem [Kondensator](../../Elektrotechnik/Kapazität.md) nur in dieser Phase Strom liefert.
 
 ### Herleitung der Dimensionierung
 
@@ -76,7 +76,7 @@ $t_{aus}= T_{S} - t_{1}$
 $DC = \frac{t_{ein}}{T_{S}}$  
 $1-DC = \frac{t_{aus}}{T_{S}}$
 
-## [Induktivität](../../Elektrodynamik/Induktivitäten.md)
+## [Induktivität](../../Elektrotechnik/Induktivitäten.md)
 
 Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 >![BuckBoostDisconID](../assets/BuckBoostDisconID.png)  
@@ -85,7 +85,7 @@ Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 
 >![BoostIminLmin](../assets/BoostIminLmin.png)
 
-## [Kapazität](../../Elektrodynamik/Kapazität.md)
+## [Kapazität](../../Elektrotechnik/Kapazität.md)
 
 >![BuckBoostDisconID](../assets/BuckBoostDisconID.png)  
 > $I_{a,min}$ = $\overline{I_{D}}$ 

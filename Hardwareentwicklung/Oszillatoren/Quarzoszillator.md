@@ -20,9 +20,9 @@ created: 17th January 2023
 
 ![400](../assets/quarz_mechschwing.png)
 
-$L_{1}\dots$ Serien-[Induktivität](../../Elektrodynamik/Induktivitäten.md) (das Schwingen der Masse des Resonators)
+$L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivitäten.md) (das Schwingen der Masse des Resonators)
 
-$C_{1}\dots$ Serien-[Kapazität](../../Elektrodynamik/Kapazität.md) (Elektrizitätskonstante des Quarzes)
+$C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quarzes)
 
 $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Reibungskraft.md)/mechanische Verluste)
 

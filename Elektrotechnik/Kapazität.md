@@ -15,7 +15,7 @@ created: 11th April 2023
 > [!warning] parasitäre Kapazität  
 >  Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
 
-![InlineL|450](assets/Pasted%20image%2020231115091143.png)
+![InlineL|450](assets/KondensatorBatterie.png)
 
 > [!TIP] Ladungen verschieben sich solange, bis das E-Feld in den Leitern verschwindet und im Kondensator verteilt ist:
 > 1. Spannungsquelle von elektrischem Feld umgeben

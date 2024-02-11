@@ -49,8 +49,8 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 3. Hochfrequente bzw. hochenergetische Leiterbahnen so kurz wie möglich halten
 4. Leistungsabgabe verbessern
 	- Entkopplung/[Abblockkondensator](Abblockkondensator.md)
-	- [Induktivität](../Elektrodynamik/Induktivitäten.md) minimieren
-	- [Kapazität](../Elektrodynamik/Kapazität.md) maximieren
+	- [Induktivität](../Elektrotechnik/Induktivitäten.md) minimieren
+	- [Kapazität](../Elektrotechnik/Kapazität.md) maximieren
 		- Dünne Dielektrika mit hoher Dielektrizitätszahl
 		- $\Big(C=\dfrac{\varepsilon_{0}\cdot\varepsilon_{r}\cdot A}{d}\Big)$
 5. Gutes [PCB-Layout](PCB-Layout.md)/Stack-Up

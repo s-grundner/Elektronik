@@ -10,7 +10,7 @@ created: 7th November 2022
 
 - $kHz-MHz$ Bereich
 - geringer [Klirrfaktor](../Klirrfaktor.md)
-- breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[Kondensator](../../Elektrodynamik/Kapazität.md). 
+- breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[Kondensator](../../Elektrotechnik/Kapazität.md). 
 
 ## Schaltung
 

@@ -29,20 +29,20 @@ created: 19th August 2023
 
 1. Dünnes Dielektrikum zwischen Signal-Layer und GND-Layer
 	- Verbessert die Kopplung zwischen Signal und GND
-	- verringert [Induktivität](../Elektrodynamik/Induktivitäten.md)
-	- erhöht [Kapazität](../Elektrodynamik/Kapazität.md) zwischen Flächen  
+	- verringert [Induktivität](../Elektrotechnik/Induktivitäten.md)
+	- erhöht [Kapazität](../Elektrotechnik/Kapazität.md) zwischen Flächen  
 	$\Big(C=\dfrac{\varepsilon_{0}\cdot\varepsilon_{r}\cdot A}{d}\Big)$
 2. Mindestens 1x GND Layer über/unter einem Signal/Power Layer
 	- Grenzt Eund H-Felder ein
-	- verringert [Induktivität](../Elektrodynamik/Induktivitäten.md)
+	- verringert [Induktivität](../Elektrotechnik/Induktivitäten.md)
 	- gute Stromrückfluss
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) Und [Anpassung](../Elektrodynamik/Impedanz.md)
+### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) Und [Anpassung](../Elektrotechnik/Impedanz.md)
 
 1. Leiterbahnen kurz halten
-2. Wellenwiderstand / [Impedanz](../Elektrodynamik/Impedanz.md) [Anpassen](../Elektrodynamik/Impedanz.md)
+2. Wellenwiderstand / [Impedanz](../Elektrotechnik/Impedanz.md) [Anpassen](../Elektrotechnik/Impedanz.md)
 	- Abschlusswiderstand
 3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Leitungstheorie.md) an
 4. Leiterbahnen am Rand der Platine vermeiden

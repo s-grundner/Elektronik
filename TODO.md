@@ -22,9 +22,9 @@ created: 19. Januar 2024
 
 # HTL Ordner Mitschrift
 
-- [ ] Widerstand als Bauelement
-- [ ] 
+- [x] Widerstand als Bauelement
+- [ ] Ersatzschaltbilder (Aus EinfET Skriptum)
 
 # HTL OneNote Mitschrift
 
-# HTL GoodNotes Mtschrift 
+# HTL GoodNotes Mtschrift

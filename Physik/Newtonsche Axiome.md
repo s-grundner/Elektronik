@@ -62,5 +62,5 @@ professor:
 
 > [!INFO] Fernwirkungskräfte
 > - Magnetische Kraft
-> - [Elektrische Kraft](../Elektrodynamik/Elektrische%20Kraft.md)
+> - [Elektrische Kraft](../Elektrotechnik/Elektrische%20Kraft.md)
 > - Gravitationskraft

@@ -71,7 +71,7 @@ const int mydata[] PROGMEM = ...
 > - 0 Energiedichte zwischen 3 und 7 mW/cm²
 > - 1 Energiedichte > 7 mW/cm²
 
-> [!WARNING] Der AD Wandler ([SAR](SAR-ADC.md)-ADC) wurde bereits initialisiert mit Single Konversion, Referenz [Spannung](../Elektrodynamik/Spannung.md) = 5V, 10 Bit Auflösung und ADLAR = 0.
+> [!WARNING] Der AD Wandler ([SAR](SAR-ADC.md)-ADC) wurde bereits initialisiert mit Single Konversion, Referenz [Spannung](../Elektrotechnik/Spannung.md) = 5V, 10 Bit Auflösung und ADLAR = 0.
 
 ```c
 void adc_init()

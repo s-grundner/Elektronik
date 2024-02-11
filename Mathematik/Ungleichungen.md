@@ -13,4 +13,4 @@ professor:
 
 # Ungleichungen
 
-![](assets%201/Pasted%20image%2020240127140127.png)![](assets%201/Pasted%20image%2020240127140155.png)
+![](assets/Pasted%20image%2020240127140127.png)![](assets/Pasted%20image%2020240127140155.png)

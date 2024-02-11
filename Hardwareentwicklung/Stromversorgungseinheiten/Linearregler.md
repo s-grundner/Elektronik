@@ -29,13 +29,13 @@ created: 16th March 2022
 
 ![Netzteil_sch](../assets/Netzteil_sch.png)
 
-Verlauf der [Spannung](../../Elektrodynamik/Spannung.md):
+Verlauf der [Spannung](../../Elektrotechnik/Spannung.md):
 - Rot: vor der Stufe
 - Gelb: nach der Stufe
 
 ![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
 
-## Stabilisierung Und Regelung Von [Spannung](../../Elektrodynamik/Spannung.md)
+## Stabilisierung Und Regelung Von [Spannung](../../Elektrotechnik/Spannung.md)
 
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz

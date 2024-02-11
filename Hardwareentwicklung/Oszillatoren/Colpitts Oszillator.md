@@ -10,14 +10,14 @@ created: 22nd November 2022
 
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
-| Colpitts: [kapazitiv](../../Elektrodynamik/Kapazität.md) | Hartley: [induktiv](../../Elektrodynamik/Induktivitäten.md) | Meissner: transformatorisch |
+| Colpitts: [kapazitiv](../../Elektrotechnik/Kapazität.md) | Hartley: [induktiv](../../Elektrotechnik/Induktivitäten.md) | Meissner: transformatorisch |
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
 
 Häufigste [Kombination](../../Mathematik/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
 - einfache Kapazitäten
-- nur eine [Induktivität](../../Elektrodynamik/Induktivitäten.md)  
+- nur eine [Induktivität](../../Elektrotechnik/Induktivitäten.md)  
 Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 
 $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$

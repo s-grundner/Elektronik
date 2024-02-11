@@ -8,7 +8,7 @@ created: 15. November 2023
 
 # Dipol
 
-> siehe auch:  Elektrischer [Dipol](../Elektrodynamik/Dipol.md)
+> siehe auch:  Elektrischer [Dipol](../Elektrotechnik/Dipol.md)
 
 | [Molekül](Atombindung.md)                    | VSF                    | Ladungsverteilung  |
 | -------------------------- | ---------------------- | ------------------ |

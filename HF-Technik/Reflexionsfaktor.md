@@ -17,8 +17,8 @@ created: 28th September 2022
 
 > [!SUMMARY] $\quad r= \dfrac{Z_{A}-Z_{L}}{Z_{A}+Z_{L}}$
 > $$ r = \frac{U_{r}}{U_{h}} = \frac{\frac{1}{2}(U_{0}-I_{0}\cdot Z_{L})}{\frac{1}{2}(U_{0}+I_{0}\cdot Z_{L})} = \frac{\frac{U_{0}}{I_{0}}-Z_{L}}{\frac{U_{0}}{I_{0}}+Z_{L}}$$
-> $Z_{L}\dots$ Leitungswellenwiderstand ([Impedanz](../Elektrodynamik/Impedanz.md) der [Leitung](Leitungstheorie.md))
-> $Z_{A}\dots$ Abschlussimpedanz ([Impedanz](../Elektrodynamik/Impedanz.md) der Senke)
+> $Z_{L}\dots$ Leitungswellenwiderstand ([Impedanz](../Elektrotechnik/Impedanz.md) der [Leitung](Leitungstheorie.md))
+> $Z_{A}\dots$ Abschlussimpedanz ([Impedanz](../Elektrotechnik/Impedanz.md) der Senke)
 
 > [!HINT] Szenarien:
 > - wenn $Z_{A}=Z_{L}\to$ keine Reflexionen 😊

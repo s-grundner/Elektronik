@@ -51,13 +51,13 @@ $$
 # Beispiele
 
 > [!EXAMPLE]- Stromfluss in Leitern  
-> ![](assets/Pasted%20image%2020240121134105.png)
+> ![](assets/AufgabeLeitfaehigkeit.png)
 >
 > > [!SUCCESS]- Lösung  
 > > ![](assets/UE01_k12136610-1.jpg)
 
 > [!EXAMPLE]- Stromfluss in Leitern 2  
-> ![](assets/Pasted%20image%2020240121140049.png)
+> ![](assets/AufgabeLeitfähigkeit2.png)
 >
 > > [!SUCCESS]- Lösung  
 > > ![](assets/UE01_k12136610-2.jpg)
