@@ -1,11 +1,13 @@
 ---
 tags: 
 aliases: 
-keywords: []
+keywords: 
 subject:
-  - EET
-  - "..."
-semester: 1
+  - Einf. ET
+  - "335.005"
+semester:
+  - WS23
+  - "1"
 created: 24. Januar 2024
 professor:
 ---

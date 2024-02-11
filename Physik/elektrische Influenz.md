@@ -8,8 +8,11 @@ aliases:
 keywords:
   - Elektrisches Feld
 subject:
-  - EET
-semester: 1
+  - Einf. ET
+  - "335.005"
+semester:
+  - "1"
+  - WS23
 created: 19. Oktober 2023
 professor:
   - Bernhard Jakoby

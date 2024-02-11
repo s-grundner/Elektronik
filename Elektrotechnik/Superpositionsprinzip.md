@@ -7,10 +7,9 @@ subject:
   - "335.005"
 semester:
   - WS23
-created: 18. Oktober 2023
+created: 11. Februar 2024
 professor:
-  - Bernhard Jakoby
 ---
  
 
-# Spannung
+# Superpositionsprinzip

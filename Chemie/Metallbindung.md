@@ -5,14 +5,10 @@ aliases:
   - Metall
   - elektrischer Leiter
   - elektrische Leiter
-keywords: 
 subject:
-  - EET
   - chemie
-semester: 1
 created: 31. August 2023
 professor:
-  - Bernhard Jakoby
   - Fritz Struber
 ---
 

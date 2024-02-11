@@ -3,7 +3,7 @@ tags:
 aliases: 
 keywords: []
 subject:
-  - EET
+  - Einf. ET
   - "..."
 semester: 1
 created: 12th January 2024

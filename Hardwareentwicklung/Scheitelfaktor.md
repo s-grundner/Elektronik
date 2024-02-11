@@ -6,8 +6,8 @@ aliases:
   - Crestfaktor
 keywords: 
 subject:
-  - EET
-  - ...
+  - Einf. ET
+  - "335.011"
 semester: 1
 created: 18. Januar 2024
 professor:

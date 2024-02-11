@@ -5,7 +5,8 @@ aliases:
   - PTC
 keywords: 
 subject:
-  - EET
+  - Einf. ET
+  - "335.021"
 semester:
   - WS23
 created: 28. Januar 2024

@@ -4,13 +4,14 @@ aliases:
   - Durchflutungssatz
 keywords: 
 subject:
-  - EET
+  - Einf. ET
   - "335.005"
 semester:
   - WS23
   - "1"
 created: 24th January 2024
 professor:
+  - Bernhard Jakoby
 ---
  
 

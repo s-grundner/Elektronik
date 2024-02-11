@@ -3,7 +3,7 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - EET
+  - Einf. ET
   - "335.005"
 semester:
   - WS23

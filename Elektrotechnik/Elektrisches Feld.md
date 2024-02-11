@@ -7,8 +7,11 @@ aliases:
   - elektrisches Feld
 keywords: 
 subject:
-  - EET
-semester: 1
+  - Einf. ET
+  - "335.005"
+semester:
+  - WS23
+  - "1"
 created: 4. September 2023
 professor:
 ---
