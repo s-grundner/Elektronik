@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Helmholtz
+  - Überlagerungsprinzip
 keywords: 
 subject:
   - Einf. ET
