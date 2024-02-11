@@ -64,7 +64,6 @@ $$
 > [!important] Beide Sequenzen lassen sich in [Vektor](../../Mathematik/mathe%20(3)/Vektor.md)form darstellen:
 >
 > $$
-
 \begin{align}  
 \mathbf{X}_{N} = \begin{pmatrix}  
 X[0] \\  
@@ -79,7 +78,6 @@ x[1] \\
 x[N-1]  
 \end{pmatrix}  
 \end{align}
-
 > $$
 
 Definiert man nun noch die DFT-[Matrix](../../Mathematik/mathe%20(4)/Matrix.md):

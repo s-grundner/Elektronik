@@ -1,6 +1,5 @@
 ---
 tags:
-  - incomplete
   - Chemie/Anorganisch
 aliases:
   - Molekül
@@ -84,7 +83,6 @@ Atome mit unterschiedlicher Elektronennegativität und unsymmetrischem Aufbau bi
 $\rightarrow$ hydrophil (wasserliebend)  
 
 [Dipol (Chemie)](Dipol%20(Chemie).md) heben sich auf $\rightarrow$ unpolar. 
-
 
 # Tags
 

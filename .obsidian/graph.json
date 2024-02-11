@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Mathe",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -103,12 +103,12 @@
   "showArrow": false,
   "textFadeMultiplier": 0.6,
   "nodeSizeMultiplier": 1.59224407278074,
-  "lineSizeMultiplier": 1.70386597938144,
-  "collapse-forces": false,
+  "lineSizeMultiplier": 0.842042196574285,
+  "collapse-forces": true,
   "centerStrength": 0.516640938561284,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 421,
-  "scale": 0.12627560989372158,
+  "scale": 0.09006929406487559,
   "close": false
 }

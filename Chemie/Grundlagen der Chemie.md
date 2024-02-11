@@ -1,8 +1,7 @@
 ---
 tags:
-  - incomplete
   - Chemie/Anorganisch
-aliases: []
+aliases: 
 subject:
   - chemie
 source:

@@ -31,6 +31,7 @@
     "xPN/",
     "desktop.ini"
   ],
-  "propertiesInDocument": "hidden",
-  "defaultViewMode": "preview"
+  "propertiesInDocument": "visible",
+  "defaultViewMode": "preview",
+  "foldHeading": true
 }
