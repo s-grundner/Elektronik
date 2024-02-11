@@ -37,7 +37,7 @@ E &= \frac{L\cdot I^{2}}{2}
 \end{align*}
 $$
 
-Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physik/Lenzsche%20Regel.md)).
+Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physikw/Lenzsche%20Regel.md)).
 
 Durch das Anlegen einer Puls-förmigen Spannung an eine Induktivität folgt, dass sich **$i_{L}$ nicht linear verhält**.
 
@@ -52,7 +52,7 @@ i \approx \frac{1}{L}\cdot u_{L}\cdot t
 \end{align*}
 $$
 
-Der nicht lineare reale Wert ergibt sich durch das Lösen der [homogenen linearen DGL 1. Ordnung](../Mathe/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
+Der nicht lineare reale Wert ergibt sich durch das Lösen der [homogenen linearen DGL 1. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
 
 $$
 \begin{align*}

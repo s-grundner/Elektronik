@@ -33,7 +33,7 @@ In deutschsprachigen Texten kommen die Buchstaben mit etwa folgender Häufigkeit
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 9,78 | 2,51 | 0,79 | 0,02 | 7,00 | 7,27 | 6,15 | 4,35 | 0,67 | 1,89 | 0,03 | 0,04 | 1,13 |
 
-Der Buchstabe *e* kommt demzufolge mit etwa 17%i[ger Wahrscheinlich](../../Mathe/mathe%20(5)/Wahrscheinlichkeit.md)keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
+Der Buchstabe *e* kommt demzufolge mit etwa 17%i[ger Wahrscheinlich](../../Mathematik/mathe%20(5)/Wahrscheinlichkeit.md)keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
 
 ### Homophone Chiffre
 
@@ -319,7 +319,7 @@ Um Daten zwischen 2 Kommunikationsteilnehmern sicher (verschlüsselt) austausche
 
 - Ein solches **Schlüsselvereinbarungsprotokoll** geht auf Whitfield **Diffie** und Martin **Hellman** zurück. 
 
-- Ein **Trustcenter** veröffentlicht eine große Primzahl n und dazu eine kleinere Zahl g (Generator) $g = [2, …, n-2]$ mit der Eigenschaft, dass die [Potenzen](../../Mathe/Potenzen.md) von g modulo n alle Zahlen zwischen 1 und n-1 durchlaufen. 
+- Ein **Trustcenter** veröffentlicht eine große Primzahl n und dazu eine kleinere Zahl g (Generator) $g = [2, …, n-2]$ mit der Eigenschaft, dass die [Potenzen](../../Mathematik/Potenzen.md) von g modulo n alle Zahlen zwischen 1 und n-1 durchlaufen. 
 
 - Jeder Kommunikationsteilnehmer veröffentlicht seinen Public Key p bei einem Trustcenter. Dafür wird eine **geheime Zahl s** (Secret Key) gewählt ($s = [1, …, n-1]$) und berechnet den Public Key $p = g^s mod\ n$ und schickt diesen zur Veröffentlichung an das Trustcenter.  
 
@@ -429,10 +429,10 @@ public:
 
 Algorithmus:
 
-- Auswahl zweier großer [Primzahlen](../../Mathe/Primzahlen.md) **p** und **q**
+- Auswahl zweier großer [Primzahlen](../../Mathematik/Primzahlen.md) **p** und **q**
 - Berechnung **N** = p q
 - Ermitteln von $\varphi(N) = (p - 1)(q - 1)$ (*Eulersche-Funktion*)  
-  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, … , \varphi-1\}$ und e und $\varphi$ sind prim zueinander ([ggT](../../Mathe/Teilbarkeit.md) ist 1) und größer 1
+  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, … , \varphi-1\}$ und e und $\varphi$ sind prim zueinander ([ggT](../../Mathematik/Teilbarkeit.md) ist 1) und größer 1
 - Berechnung $d = (e\ mod\ \varphi)^{-1}$ mittels erweiterten Euklidischen Algorithmus.
 - Öffentlicher Schlüssel: **P** = (e, N), Verschlüsseln von m mit $c = m^e mod \ N$
 - Privater/Geheimer Schlüssel **S** = (d, N), Entschlüsseln von c mit $m = c^d mod \ N$
@@ -443,7 +443,7 @@ Die Nachricht wird geblockt codiert, die Blockgröße ist kleiner als N zu wähl
 
 #### Allgemeines Vorgehen
 
-- Wahl zweier unterschiedlicher [Primzahlen](../../Mathe/Primzahlen.md)  
+- Wahl zweier unterschiedlicher [Primzahlen](../../Mathematik/Primzahlen.md)  
   **p = 13, q = 7**
 
 - Berechnung RSA-Modul $N = p \cdot q$:  
@@ -466,7 +466,7 @@ Die Nachricht wird geblockt codiert, die Blockgröße ist kleiner als N zu wähl
 
 praktisch wird e klein gewählt, häufig wird 65535 gewählt. Für die Sicherheit der Verschlüsselung ist entscheidend: nur e, N dürfen öffentlich bekannt sein. Die Zwischenergebnisse, sowie p und q dürfen nicht öffentlich sein.
 
-- [Primzahlen](../../Mathe/Primzahlen.md): sind nur durch 1 und sich selbst teilbar
+- [Primzahlen](../../Mathematik/Primzahlen.md): sind nur durch 1 und sich selbst teilbar
 
 - Zahlenbereich der zu verschlüsselnden Nachricht: N = 91. Daher können Zeichen/Zahlen im Bereich von 0-90 verschlüsselt werden (z.B. a-z, A-Z, 0-9 und Sonderzeichen, Achtung ASCII beinhaltet 128 Zeichenmöglichkeiten)
 - Die Chiffrat c für die Nachricht m = 66:  
@@ -488,7 +488,7 @@ Berechnen Sie einen einfachen (3 stellig) privaten, geheimen Schlüssel und eine
 
 Zur Lösung der Gleichung $(d\cdot e)\mod \varphi = 1$:
 
-- Anwendung des Euklidischen Algorithmus zur Ermittlung des [ggT](../../Mathe/Teilbarkeit.md) zwischen $e$ und $\varphi$ (ist immer 1 weil e ja so gewählt wird).
+- Anwendung des Euklidischen Algorithmus zur Ermittlung des [ggT](../../Mathematik/Teilbarkeit.md) zwischen $e$ und $\varphi$ (ist immer 1 weil e ja so gewählt wird).
 - Ausgehend von der vorletzten Gleichung ( 1=…) wird der erweiterte Euklidische Algorithmus angewendet. Dabei werden die Terme nicht einfach ausmultipliziert sondern, solange es Reste aus der vorhergehenden Gleichung sind, eingesetzt.
 
 #### Variante 1
@@ -502,7 +502,7 @@ Lösung der Gleichung    d * e mod phi = 1
 nach d
 ```
 
-Euklidischer Algorithmus ([ggT](../../Mathe/Teilbarkeit.md) Berechnung) (<https://www.mathe-online.at/materialien/Franz.Embacher/files/RSA/Euklid.html>):
+Euklidischer Algorithmus ([ggT](../../Mathematik/Teilbarkeit.md) Berechnung) (<https://www.mathe-online.at/materialien/Franz.Embacher/files/RSA/Euklid.html>):
 
 ```
 ggT(e, phi) = ggt(17, 120) -> wir wissen dieser muss 1 sein (wurde ja so gewählt)
@@ -740,7 +740,7 @@ Entschlüsseln:
 001 002 071 100
 ```
 
-(große [Potenzen](../../Mathe/Potenzen.md) bzw. Rechnen mit Modulo: <https://medienwissenschaft.uni-bayreuth.de/inik/material/email_nur_fuer_dich/3_verschluesseln/3.3_asymmetrisch_verschluesseln/Modulares%20Potenzieren%20-%20AB.pdf>
+(große [Potenzen](../../Mathematik/Potenzen.md) bzw. Rechnen mit Modulo: <https://medienwissenschaft.uni-bayreuth.de/inik/material/email_nur_fuer_dich/3_verschluesseln/3.3_asymmetrisch_verschluesseln/Modulares%20Potenzieren%20-%20AB.pdf>
 
 und <https://www.geogebra.org/classic?lang=de-AT)>
 
@@ -2967,14 +2967,14 @@ Grundregeln für die Modulo-Operation:
 - $x^{a+b} = x^a \cdot x^b$
 
 - $x^{a+b} \mod n= (x^a \cdot x^b) \mod n = ((x^a \mod n)\cdot (x^b \mod n)) \mod n$  
-  Die Modulo-Operation darf "hineingezogen" werden - Damit können Summen von [Potenzen](../../Mathe/Potenzen.md) in der Modulo-Rechnung zerlegt werden
+  Die Modulo-Operation darf "hineingezogen" werden - Damit können Summen von [Potenzen](../../Mathematik/Potenzen.md) in der Modulo-Rechnung zerlegt werden
 
 - $x^a \mod n = (x \mod n)^a \mod n$
 
-  Die Modulo-Operation darf "hineingezogen" werden - Damit können [Potenzen](../../Mathe/Potenzen.md) in der Modulo-Rechnung zerlegt werden
+  Die Modulo-Operation darf "hineingezogen" werden - Damit können [Potenzen](../../Mathematik/Potenzen.md) in der Modulo-Rechnung zerlegt werden
 
 - $x^{a\cdot b} = (x^a)^b = (x^a \mod n)^b \mod n$  
-  Die Modulo-Operation darf "hineingezogen" werden - Damit können Produkte von [Potenzen](../../Mathe/Potenzen.md) in der Modulo-Rechnung zerlegt werden
+  Die Modulo-Operation darf "hineingezogen" werden - Damit können Produkte von [Potenzen](../../Mathematik/Potenzen.md) in der Modulo-Rechnung zerlegt werden
 
 Das Rechnen mit großen Zahlen ist nicht immer einfach. Mit den gezeigten Regeln können zum Teil sehr starke Vereinfachungen erreicht werden.
 

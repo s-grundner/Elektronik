@@ -51,7 +51,7 @@ In diesem Beispiel werden mit Drücken des Start-Buttons die Daten der vier Feld
 
 - **form** Erstellt im HTML einen Formular-Bereich. Als Attribut ist hier **action** angeführt. Damit wird eine URL angegeben an welche die Daten des Forms gesendet werden sobald ein *submit* erfolgt. Als **method** gibt es post und get. Das beschreibt die Methode auf welche die Daten gesendet werden.
 - **input**-Tags: Felder für Benutzer-Eingaben.
-  - Mit **type** wird die Art der Eingabe angegeben. Es gibt: text (Textfelder), submit (Button zum Senden von Daten), [radio](../../HF-Technik/Rundfunk.md) (Radiobutton), checkbox (Checkboxen), password (wie Textfeld, Text wird nicht angezeigt), hidden (nur Übertragung von Daten)
+  - Mit **type** wird die Art der Eingabe angegeben. Es gibt: text (Textfelder), submit (Button zum Senden von Daten), [radio](../../HF_Technik/Rundfunk.md) (Radiobutton), checkbox (Checkboxen), password (wie Textfeld, Text wird nicht angezeigt), hidden (nur Übertragung von Daten)
   - Mit **value** können vorgegebene Werte mitgegeben werden
   - Mit **name** wird jedes Feld bezeichnet. Damit können gesendete Daten zugeordnet werden
 

@@ -16,7 +16,7 @@ created: 25th August 2022
 
 Beim Zerlegen von Sonnenlicht oder dem Licht einer Glühlampe durch ein Glasprisma, erhält man ein **Spektrum**:  
 Ein Farbband von Rot nach Violett  
-![Refraction](../Physik/assets/Refraction.png)  
+![Refraction](../Physikw/assets/Refraction.png)  
 Weißes Licht besteht aus der Mischung mehrerer Farben
 
 
@@ -30,7 +30,7 @@ Violettes/Blaues Licht ist kurzwellig und energiereich.
 
 ## Elektromagnetisches Spektrum
 
-[spectrum_20090210](../Physik/assets/pdf/spectrum_20090210.pdf)
+[spectrum_20090210](../Physikw/assets/pdf/spectrum_20090210.pdf)
 
 ## Spektrum Des Sonnenlichts
 

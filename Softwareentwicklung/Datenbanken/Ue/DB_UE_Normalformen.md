@@ -29,7 +29,7 @@ Fragen die vorab überlegt werden müssen (Expertenwissen)
 - Können an einem Tag mehrere Reparaturen am gleichen Fahrrad, für den gleichen Kunden stattfinden?
 
 > [!success] Lösung  
-> ![Pasted image 20221123110050](../../../Mathe/assets/Pasted%20image%2020221123110050.png)
+> ![Pasted image 20221123110050](../../../Mathematik/assets/Pasted%20image%2020221123110050.png)
 
 ## CD-Lieder
 

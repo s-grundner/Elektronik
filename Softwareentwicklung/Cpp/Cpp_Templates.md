@@ -45,7 +45,7 @@ In der ersten Zeile wird mit dem Schlüsselwort `template` festgelegt: die folge
 
 In vielen Fällen kann dieses Problem mit dem Überladen von Operatoren, für String hier etwa der "<" Operator gelöst werden.
 
-Soll für einen speziellen Datentyp in ein Template eine eigene [Logik](../../Mathe/Aussagenlogik.md) eingebaut werden, funktioniert das mittels *Spezialisierung*:
+Soll für einen speziellen Datentyp in ein Template eine eigene [Logik](../../Mathematik/Aussagenlogik.md) eingebaut werden, funktioniert das mittels *Spezialisierung*:
 
 ```c++
 template<> char *Max<char *>(char *str1, char *str2){

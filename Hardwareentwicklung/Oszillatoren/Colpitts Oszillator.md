@@ -14,7 +14,7 @@ Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
 
-Häufigste [Kombination](../../Mathe/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
+Häufigste [Kombination](../../Mathematik/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
 - einfache Kapazitäten
 - nur eine [Induktivität](../../Elektrodynamik/Induktivitäten.md)  
@@ -33,7 +33,7 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 - [Barkhausen Kriterium](Barkhausen%20Kriterium.md) ist erfüllt
 - [Emitterschaltung](../Halbleiter/Kollektorfolger.md) mit Basisspannungs-Teiler
 - $R_{E}$ zur Temperaturkompensation
-- RFC ([Radio](../../HF-Technik/Rundfunk.md) Frequency Choke) dt. Drosselspule
+- RFC ([Radio](../../HF_Technik/Rundfunk.md) Frequency Choke) dt. Drosselspule
 	- hebt den Massebezug des Oszillatorsignal zur Betriebsspannung auf
 - Analyse der Schleifenverstärkung bringt …
 	- … einerseits $\mathcal{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
@@ -43,6 +43,6 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ### Kapazitive 3-Punktschaltung
 
-Ein Teil der [Schwingkreis](../../Physik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.  
+Ein Teil der [Schwingkreis](../../Physikw/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.  
 ![500](../assets/ColpittsCalc.png)  
 ![Pasted image 20221128104421](../assets/ColpittsCalc2.png)

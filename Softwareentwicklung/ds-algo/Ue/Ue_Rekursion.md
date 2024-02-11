@@ -95,9 +95,9 @@ int fact(int n) {
 
 - [Mandelbrot](Mandelbrot.md)
 
-## Größter Gemeinsamer Teiler ([ggT](../../../Mathe/Teilbarkeit.md))
+## Größter Gemeinsamer Teiler ([ggT](../../../Mathematik/Teilbarkeit.md))
 
-Bereits Euklid erkannte: der [ggT](../../../Mathe/Teilbarkeit.md) zweier Zahlen a und b (Voraussetzung a > b) ist der Gleiche wenn stattdessen das [ggT](../../../Mathe/Teilbarkeit.md) aus (a-xb) und b ermittelt wird. x sei eine beliebige positive Ganzzahl. Da (a-xb) aber kleiner als b ist können damit die Parameter vertauscht werden und das Spiel wiederholt werden. Gefunden ist der [ggT](../../../Mathe/Teilbarkeit.md) wenn einer der Parameter 0 ist, der [ggT](../../../Mathe/Teilbarkeit.md) ist dann der jeweils andere Parameter. (Euklidscher Algorithmus)
+Bereits Euklid erkannte: der [ggT](../../../Mathematik/Teilbarkeit.md) zweier Zahlen a und b (Voraussetzung a > b) ist der Gleiche wenn stattdessen das [ggT](../../../Mathematik/Teilbarkeit.md) aus (a-xb) und b ermittelt wird. x sei eine beliebige positive Ganzzahl. Da (a-xb) aber kleiner als b ist können damit die Parameter vertauscht werden und das Spiel wiederholt werden. Gefunden ist der [ggT](../../../Mathematik/Teilbarkeit.md) wenn einer der Parameter 0 ist, der [ggT](../../../Mathematik/Teilbarkeit.md) ist dann der jeweils andere Parameter. (Euklidscher Algorithmus)
 
 Beispiel:
 
@@ -212,7 +212,7 @@ Für einen rekursiven Algorithmus macht man sich keine Gedanken über die umfass
 >
 > Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschoben werden. Mit dieser Fähigkeit wiederum 3 Scheiben, mit dieser wiederum 4 Scheiben und so fort.
 
-In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../../Mathe/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann [rekursiv](../Rekursion.md) eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
+In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../../Mathematik/mathe%20(3)/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann [rekursiv](../Rekursion.md) eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
 
 Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
 

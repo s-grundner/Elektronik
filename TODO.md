@@ -12,7 +12,7 @@ created: 19. Januar 2024
 	- [ ] Alte Übungen (wie Kondensator usw)
 - [ ] Physik Übungsaufgaben in entsprechnedes File eintragen
 	- [ ] Hauptsächlich kinematik
-	- [ ] Differentialgleichungen von [Harmonische Schwingungen](Physik/harmonische%20Schwingungen.md)
+	- [ ] Differentialgleichungen von [Harmonische Schwingungen](Physikw/harmonische%20Schwingungen.md)
 - [ ] Differentialgleichungs-Einträge Aktualisieren
 	- Besser Hierarchisch unterteilen
 	- zu den verschiedenen Arten von DGL hinführen

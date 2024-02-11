@@ -13,11 +13,11 @@ source:
   - Daniel Ch. v. Grüningen
 ---
 
-# Diskrete [Fourier Transformation](../../Mathe/mathe%20(4)/Fourier%20Transformation.md)
+# Diskrete [Fourier Transformation](../../Mathematik/mathe%20(4)/Fourier%20Transformation.md)
 
 > [!INFO]  
-> Tatsächlich handelt es sich bei der Diskreten [Fourier Transformation](../../Mathe/mathe%20(4)/Fourier%20Transformation.md) (DFT) um eine Annäherung der [Fourier Transformation](../../Mathe/mathe%20(4)/Fourier%20Transformation.md), welche es ermöglicht sie effizient von einem digitalen Rechner berechnen zu lassen.  
-Hierbei wird die Formel für die [Fouriertransformierte](../../Mathe/mathe%20(4)/Fourier%20Transformation.md#Fouriertransformierte) als Ausgangspunkt genutzt.
+> Tatsächlich handelt es sich bei der Diskreten [Fourier Transformation](../../Mathematik/mathe%20(4)/Fourier%20Transformation.md) (DFT) um eine Annäherung der [Fourier Transformation](../../Mathematik/mathe%20(4)/Fourier%20Transformation.md), welche es ermöglicht sie effizient von einem digitalen Rechner berechnen zu lassen.  
+Hierbei wird die Formel für die [Fouriertransformierte](../../Mathematik/mathe%20(4)/Fourier%20Transformation.md#Fouriertransformierte) als Ausgangspunkt genutzt.
 
 Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:
 
@@ -29,7 +29,7 @@ Außerdem kann der Faktor $T$ aus „Bequemlichkeit“ weggelassen werden.
 
 $$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
 
-Dies [Funktion](../../Mathe/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathe/mathe%20(4)/Lineare%20Hülle.md)e Funktionswerte.
+Dies [Funktion](../../Mathematik/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathematik/mathe%20(4)/Lineare%20Hülle.md)e Funktionswerte.
 
 Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
 
@@ -41,7 +41,7 @@ Werden der Einfachheit halber wieder einige Faktoren ($\frac{f_{s}}{N}, T$) und 
 > X[k] = \sum^{N-1}_{n=0} x[n]\cdot e^{-jkn \frac{2\pi}{N}}
 > $$
 
-Die [inverse](../../Mathe/mathe%20(4)/Invertierbarkeit.md) DFT (IDFT) (Synthesegleichung) ist definiert als:
+Die [inverse](../../Mathematik/mathe%20(4)/Invertierbarkeit.md) DFT (IDFT) (Synthesegleichung) ist definiert als:
 
 > [!hint] Synthesegleichung
 >
@@ -51,7 +51,7 @@ Die [inverse](../../Mathe/mathe%20(4)/Invertierbarkeit.md) DFT (IDFT) (Syntheseg
 
 [8, p. 163 ff.] [^1]
 
-## [Matrix](../../Mathe/mathe%20(4)/Matrix.md)-Interpretation Der DFT
+## [Matrix](../../Mathematik/mathe%20(4)/Matrix.md)-Interpretation Der DFT
 
 Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
 
@@ -61,7 +61,7 @@ X [k] = \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_{k=0} X[k]\c
 \end{align}
 $$
 
-> [!important] Beide Sequenzen lassen sich in [Vektor](../../Mathe/mathe%20(3)/Vektor.md)form darstellen:
+> [!important] Beide Sequenzen lassen sich in [Vektor](../../Mathematik/mathe%20(3)/Vektor.md)form darstellen:
 >
 > $$
 
@@ -82,7 +82,7 @@ x[N-1]
 
 > $$
 
-Definiert man nun noch die DFT-[Matrix](../../Mathe/mathe%20(4)/Matrix.md):
+Definiert man nun noch die DFT-[Matrix](../../Mathematik/mathe%20(4)/Matrix.md):
 
 $$
 \mathbf{W}_{N} = \begin{pmatrix}
@@ -95,7 +95,7 @@ $$
 
 ## Eigenschaften der DFT
 
-- „Die DFT einer [Lineare Hülle](../../Mathe/mathe%20(4)/Lineare%20Hülle.md) von Signalen ist gleich der [Lineare Hülle](../../Mathe/mathe%20(4)/Lineare%20Hülle.md) ihrer DFTs.“ [8, p. 169] [^1]
+- „Die DFT einer [Lineare Hülle](../../Mathematik/mathe%20(4)/Lineare%20Hülle.md) von Signalen ist gleich der [Lineare Hülle](../../Mathematik/mathe%20(4)/Lineare%20Hülle.md) ihrer DFTs.“ [8, p. 169] [^1]
 - „Die DFT und die IDFT sind $N$-periodisch.“ [8, p. 169] [^1]
 - „Die Energie des Signals im Zeitbereich ist gleich der Energie des Signals im Frequenzbereich geteilt durch $N$.“ (Parceval-Theorem) [8, p. 170] [^1]
 - „Die DFT eines reellen Signals ist bezüglich dem Punkt $k= N/2$ symmetrisch.“ [8, p. 170] [^1]
