@@ -19,3 +19,12 @@ created: 19. Januar 2024
 	- im übergeordneten kapitel beschreiben was die art von DGL ausmacht
 	- Leichteres suchen von lösungsansätzen
 - [ ] Laborprotokolle und messübungen gleich in ein file eintragen
+
+# HTL Ordner Mitschrift
+
+- [ ] Widerstand als Bauelement
+- [ ] 
+
+# HTL OneNote Mitschrift
+
+# HTL GoodNotes Mtschrift 
