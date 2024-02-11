@@ -38,7 +38,7 @@ class mybutton
 ```button
 name SHB
 type link
-action https://studienhandbuch.jku.at/?lang=de
+action https://studienhandbuch.jku.at/curr/986
 class mybutton
 ```
 
