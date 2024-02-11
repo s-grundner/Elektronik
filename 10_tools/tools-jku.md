@@ -11,7 +11,7 @@ class mybutton
 ```button
 name ÖH JKU
 type link
-action https://oeh.jku.at/
+action https://new.oeh.jku.at/
 class mybutton
 ```
 
