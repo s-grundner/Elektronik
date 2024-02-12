@@ -17,7 +17,7 @@ SORT file.name
 # Substrate
 
 ```dataview
-TABLE dielectric AS "Dielektrizitätskonstante $\varepsilon_r$", tan-loss AS "$\tan\delta$ Verlustwinkel", at AS "@", material AS "Komposition"
+TABLE dielectric AS "Dielektrizitätskonstante $\varepsilon_r$", tan-loss AS "Verlustwinkel $\tan\delta$", at AS "@", material AS "Komposition"
 FROM #Material/Substrate
 SORT file.name
 ```
