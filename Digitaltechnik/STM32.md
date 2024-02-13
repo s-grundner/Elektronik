@@ -1,13 +1,21 @@
 ---
 tags:
   - Microcontroller
+  - STM32
+  - STM32/HAL
+  - STM32/LL
 aliases:
   - STMCubeIDE
-  - HAL
 created: 18th August 2023
 ---
 
 # STM32
+
+## Hardware Abstraction Layer (HAL)
+
+## Low Level Layer (LL)
+
+# Getting Started
 
 ## Projekt Setup in STMCubeIDE
 
