@@ -6,6 +6,9 @@ tags:
   - STM32/LL
 aliases:
   - STMCubeIDE
+  - "#STM32"
+  - "#STM32/HAL"
+  - STMicroelectronics
 created: 18th August 2023
 ---
 
