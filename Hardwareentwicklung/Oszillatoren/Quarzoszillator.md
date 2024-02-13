@@ -8,25 +8,22 @@ created: 17th January 2023
 
 # Quarzoszillator
 
-> [!INFO] Schwingquarze beruhen auf dem Prinzip des [](../../Messtechnik/Piezoelektrik.md#Piezoelektrischer%20Effekt|Piezoelektrischen%20Effekts)  
+> [!INFO] Schwingquarze beruhen auf dem Prinzip des Piezoelektrischen Effekts
 > Der Quarz ist daher ein Mechanisches Bauelement 
 
 ## Symbol
 
-![500](../assets/quarz.png)
+![500|325](../assets/quarz.png)
 
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens  
-> ![500](../assets/elek_esb_quarz.png)
-
-![400](../assets/quarz_mechschwing.png)
-
-$L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivitäten.md) (das Schwingen der Masse des Resonators)
-
-$C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quarzes)
-
-$R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Reibungskraft.md)/mechanische Verluste)
-
-$C_{0}\dots$ Streukapazität der Elektroden
+> ![500|325](../assets/elek_esb_quarz.png)
+> 
+> ![400|350](../assets/quarz_mechschwing.png)
+> 
+> $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivitäten.md) (das Schwingen der Masse des Resonators)
+> $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quarzes)
+> $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Reibungskraft.md)/mechanische Verluste)
+> $C_{0}\dots$ Streukapazität der Elektroden
 
 ## [Ableitung](../../Mathematik/mathe%20(3)/Differenzialrechnung.md) Der Resonanzfrequenz
 
@@ -50,7 +47,7 @@ Z_{g} &=\frac{1+s^{2}L_{1}C_{1}}{s(C_{0}+C_{1})+s^{2}C_{0}C_{1}L_{1}} = \frac{Z(
 
 Reale Wellenform des Schwingquarz
 
-| ![](assets/Pasted%20image%2020240213171603.png) | ![](assets/Pasted%20image%2020240213171613.png) |     
+| ![](assets/WAVXTAL1.png) | ![](assets/WAVXTAL2.png) |     
 | ----------------------------------------------- | ----------------------------------------------- |
 
 # Tags

@@ -4,6 +4,9 @@ tags:
   - incomplete
 aliases:
   - Schmitttrigger
+  - Schmitt-Trigger
+  - Schmittriggers
+  - Schmitt-Triggers
 subject:
   - hwe
 source:
@@ -24,6 +27,4 @@ created: 10th January 2023
 
 ![invST-calc2](assets/invST-calc2.png)
 
-
 # Schaltungen mit Schmitt Triggern
-

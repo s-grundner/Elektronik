@@ -65,6 +65,6 @@ bzw. [Beschleunigung](../Physik/Kinematik.md) der Deformation abhängig.
 Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.  
 Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
-# Tags 
+# Tags
 
 [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md)
