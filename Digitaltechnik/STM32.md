@@ -10,6 +10,10 @@ created: 18th August 2023
 
 ![](assets/CreateNewProjSTM32.png)
 
+Select MCU
+
+![](assets/Pasted%20image%2020240213150203.png)
+
 ## Requirements
 
 STMCubeIDE
