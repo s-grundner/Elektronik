@@ -8,15 +8,17 @@ created: 29. November 2022
 
 Als Einführung in das Thema Templates als Beispiel die Berechnung des Maximum zweier Werte für unterschiedliche Datentypen:
 
-```c++
+```cpp
 short Max(short x, short y){
 	if (x < y) return y;
 	else return x;
 }
+
 long Max(long x, long y){
 	if (x < y) return y;
 	else return x;
 }
+
 float Max(float x, float y){
 	if (x < y) return y;
 	else return x;
@@ -33,7 +35,7 @@ Mittels Templates (Vorlagen) kann das kürzer gelöst werden. Unterschieden werd
 
 Für das obige Beispiel:
 
-```c++
+```cpp
 template <typename T>
 T Max(T x, T y){
   if (x < y) return y;
@@ -47,7 +49,7 @@ In vielen Fällen kann dieses Problem mit dem Überladen von Operatoren, für St
 
 Soll für einen speziellen Datentyp in ein Template eine eigene [Logik](../../Mathematik/Aussagenlogik.md) eingebaut werden, funktioniert das mittels *Spezialisierung*:
 
-```c++
+```cpp
 template<> char *Max<char *>(char *str1, char *str2){
     if (strcmp(str1,str2) > 0) return str1;
     else return str2;
@@ -58,7 +60,7 @@ Diese Max-Funktion ist nur für c-String-Zeichenketten also T=char* gültig. Ach
 
 Die Verwendung von Template-Funktionen:
 
-```c++
+```cpp
 int m = Max<int>(3, 4);					// <int> waere hier nicht notwendig
 float num = Max<float>(1.2, 7);	// <float> notwendig, dann wird 7 umgewandelt
 float fl = Max(1.2, 4.5);
@@ -72,7 +74,7 @@ Welcher Typ verwendet werden soll, kann explizit mit `<float>` erzwungen werden.
 
 Analog zu Funktion-Templates können auch für Klassen Templates erstellt werden:
 
-```c++
+```cpp
 template <typename T> 		// absolut gleichwertig: template <class T>
 class CStack{
     T *m_data;
@@ -91,13 +93,13 @@ In diesem Beispiel wird eine Stack-Klasse für einen Stapelspeicher erstellt. De
 
 Verwendung dieser Klasse etwa für das Erzeugen eines *char*-Stacks:
 
-```c++
+```cpp
 CStack<char> charStack(50);
 ```
 
 In der C++ Standardbibliothek sind eine Vielzahl solcher *Container* verfügbar. Häufig verwendet wird zum Beispiel eine verkettete Liste:
 
-```c++
+```cpp
 #include <list>
 
 list<int> lst;
@@ -105,7 +107,7 @@ list<int> lst;
 
 Werden Funktionen innerhalb der Klassendefinition implementiert (Header-Datei), dann wird das wie gewohnt gelöst, für eine äußere Implementierung muss das so aussehen (T muss explizit erneut bekannt gemacht werden):
 
-```c++
+```cpp
 template <typename T>
 bool CStack<T>::Push(const T& val) {
   if (sIndex >= size) return false;
@@ -129,7 +131,7 @@ Die Argumente die bei der Verwendung eines Templates mitzugeben sind (in den spi
 - Werte  
   So wie Typen können einem Template auch Werte für die Erzeugung mitgegeben werden:
 
-  ```c++
+  ```cpp
   template <typename T, int N>
   struct myStruc
   {
@@ -139,7 +141,7 @@ Die Argumente die bei der Verwendung eines Templates mitzugeben sind (in den spi
 
   Verwendung:
 
-  ```c++
+  ```cpp
   myStruc<char,3> ms;
   ```
 
@@ -147,7 +149,7 @@ Die Argumente die bei der Verwendung eines Templates mitzugeben sind (in den spi
 
 - Funktionen - es wird nicht näher darauf eingegangen, nur ein einfaches Beispiel:
 
-  ```c++
+  ```cpp
   template <typename Key, typename V, bool(*cmp)(const Key&)>
   class map { ... };
   

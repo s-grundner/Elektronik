@@ -9,14 +9,27 @@ created: 18th August 2023
 ## Projekt Setup in STMCubeIDE
 
 > [!info]- Projektdatei Erstellen
-![](assets/CreateNewProjSTM32.png)
+> 
+> ![](assets/CreateNewProjSTM32.png)
 
 > [!info]- MCU Auswählen (Hier *STM32F405RGT6*)
 > Nach dem Erstellen der Projektdatei öffnet sich der ***MCU-Selector***
-> ![](assets/Pasted%20image%2020240213150203.png)
+> 
+> ![](assets/MCU-Sel-STM32.png)
+> 
 > Hier kann entweder direkt nach einer Part-Nummer gesucht werden, oder nach Eigenschaften und Peripherien gefiltert werden.
 
-> Pr
+> [!info]- Projektoptionen und Fertigstellung
+> 
+> ![InlineR|381](assets/STM32-Proj_Opt.png)
+> 
+> Für den Einstig können hier die Standardeinstellungen verwendet werden.
+>
+> *Targeted Language:* Grundsätzlich ist für STM32 Projekte die Programmiersprache C empfohlen. Habe ich zwar nicht selbst ausprobiert, aber für C++ soll es anscheinend Probleme mit dem HAL geben.
+> 
+> *Executable:* Das Programm ist auf dem MCU Ausführbar.
+> 
+> Anschließend mit *Finish* das Projekt Setup beenden.
 
 ## Requirements
 
