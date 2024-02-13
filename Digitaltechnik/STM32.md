@@ -6,13 +6,14 @@ created: 18th August 2023
 
 # STM32
 
-## Set up a Project
+## Projekt Setup in STMCubeIDE
 
+> [!info]- Projektdatei Erstellen
 ![](assets/CreateNewProjSTM32.png)
 
-Select MCU
-
-![](assets/Pasted%20image%2020240213150203.png)
+> [!info]- MCU Auswählen (Hier *STM32F405RGT6*)
+> Nach dem Erstellen der Projektdatei öffnet sich der ***MCU-Selector***
+> ![](assets/Pasted%20image%2020240213150203.png)
 
 ## Requirements
 
