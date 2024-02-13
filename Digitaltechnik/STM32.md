@@ -13,7 +13,9 @@ created: 18th August 2023
 
 > [!info]- MCU Auswählen (Hier *STM32F405RGT6*)
 > Nach dem Erstellen der Projektdatei öffnet sich der ***MCU-Selector***
+> Hier kann entweder direkt nach einer 
 > ![](assets/Pasted%20image%2020240213150203.png)
+
 
 ## Requirements
 
