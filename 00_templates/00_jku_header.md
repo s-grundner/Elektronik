@@ -3,7 +3,8 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - <% tp.system.suggester(["Name1", "Name2", "Name", "EET", "PH"], ["\n  - \"\"", "\n  - \"\"", "Technische Informatik\n  - \"336.001\"", "Einf. ET\n  - \"335.005\"", "Physik für TechnikerInnen\n  - \"322.005\"",])%>
+  - <% tp.system.suggester(["VL", "UE", "KV", "PR"],["VL", "UE", "KV", "PR"])%>
+  - <% tp.system.suggester(["Mathe 2", "ET", "SWE 2", "DS-Algo", "VHDL", "NES"], ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"])%>
 semester:
   - SS24
   - B2
