@@ -8,6 +8,7 @@ subject:
   - "335.011"
 semester:
   - WS23
+  - B1
 created: 11. Februar 2024
 professor:
 ---

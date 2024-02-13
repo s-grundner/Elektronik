@@ -10,6 +10,7 @@ subject:
   - "357.100"
 semester:
   - WS23
+  - B1
 created: 27. Januar 2024
 professor:
 ---

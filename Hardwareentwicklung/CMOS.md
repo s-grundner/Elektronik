@@ -1,11 +1,13 @@
 ---
 tags: 
 aliases: 
-keywords: []
+keywords: 
 subject:
   - Technische Informatik
   - "336.001"
-semester: 1
+semester:
+  - WS23
+  - B1
 created: 10. Oktober 2023
 professor:
 ---

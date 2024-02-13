@@ -7,7 +7,9 @@ keywords:
 subject:
   - Technische Informatik
   - "336.001"
-semester: 1
+semester:
+  - WS23
+  - B1
 created: 3. Oktober 2023
 professor:
   - Timm Ostermann
@@ -19,4 +21,3 @@ professor:
 Boolesche Algebra besteht aus der Menge $B$ und zwei Verknüpfungsoperationen $+$ und $\cdot$
 
 ## Schaltalgebra
-

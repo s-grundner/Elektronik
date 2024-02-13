@@ -14,7 +14,9 @@ keywords:
 subject:
   - Technische Informatik
   - "336.001"
-semester: 1
+semester:
+  - WS23
+  - B1
 created: 3. Oktober 2023
 professor:
   - Timm Ostermann
@@ -71,7 +73,7 @@ professor:
 > [!INFO] Additionsmatrix
 > ![](assets/Pasted%20image%2020231010122745.png)
 
-## Multiplizieren 
+## Multiplizieren
 
 > [!INFO] Multiplikationsmatrix
 > ![](assets/Pasted%20image%2020231010122811.png)

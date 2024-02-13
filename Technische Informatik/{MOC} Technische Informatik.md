@@ -1,13 +1,16 @@
 ---
 tags: 
 aliases: 
-keywords: []
+keywords: 
 subject:
   - Technische Informatik
   - "336.001"
-semester: 1
+semester:
+  - WS23
+  - B1
 created: 3. Oktober 2023
-professor: Timm Ostermann
+professor:
+  - Timm Ostermann
 ---
   
 

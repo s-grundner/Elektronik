@@ -12,15 +12,15 @@ created: 1st February 2023
 > - Der Inverter treibt den [Schwingquarz](Quarzoszillator.md).
 > - Der [Schmitt Trigger](../Schmitt%20Trigger.md) am Ausgang dient als Ausgangstreiber und sorgt dafür, dass die Flanken mit der Slewrate des [Schmitt-Triggers](../Schmitt%20Trigger.md) am Ausgang ansteigen und der [Quarz](Quarzoszillator.md) nicht Belastet wird.
 
-
 | ![](assets/WAVXTAL2.png)     |
 | :----------------------------: |
 | Reale Wellenform des Quarzes | 
 
+## Schaltbild des PGO
 
-![600](../assets/PGO.png)
+ ![600](../assets/PGO.png)
 
-
+## Passive Bauteile
 
 > [!summary] $C_{L}= \dfrac{(C_{1}+C_{in})\cdot(C_{2}+C_{out})}{C_{1}+C_{in}+C_{2}+C_{out}} +C_{streu}$
 > 

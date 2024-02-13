@@ -23,8 +23,10 @@ created: 10th January 2023
 
 ## Hysterese
 
-## Helmholz'sches Überlagerungsprinzip
+## Helmholz'sches [Überlagerungsprinzip](../Elektrotechnik/Superpositionsprinzip.md)
 
 ![invST-calc2](assets/invST-calc2.png)
 
 # Schaltungen mit Schmitt Triggern
+
+- [PGO](Oszillatoren/Pierce-Gate%20Oszillator.md)
