@@ -8,7 +8,7 @@ created: 18th August 2023
 
 ## Set up a Project
 
-
+![](assets/CreateNewProjSTM32.png)
 
 ## Requirements
 
