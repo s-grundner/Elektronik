@@ -33,21 +33,25 @@ $C_{0}\dots$ Streukapazität der Elektroden
 $R_{1}$ vernachlässigbar
 
 > [!NOTE] $s=\sigma+j\omega$
-
-$$
+> $$
 \begin{align*}
 Z_{1} &= \frac{1}{sC_{1}}+sL_{1}= \frac{1+s^{2}L_{1}C_{1}}{sC1}\\
 Z_{2} &= \frac{1}{sC_{0}}
 \end{align*}
-$$
-
-$$
+> $$
+>
+>$$
 \begin{align*}
 Z_{g} &=\frac{1+s^{2}L_{1}C_{1}}{s(C_{0}+C_{1})+s^{2}C_{0}C_{1}L_{1}} = \frac{Z(s)}{N(s)} \rightarrow \frac{=0 \text{ bei Reihenresonanz}}{=0\text{ bei Parallelresonanz}}\\
 \end{align*}
-$$
+> $$
 
 ## Bauteileigenschaften
+
+Reale Wellenform des Schwingquarz
+
+| ![](assets/Pasted%20image%2020240213171603.png) | ![](assets/Pasted%20image%2020240213171613.png) |     
+| ----------------------------------------------- | ----------------------------------------------- |
 
 # Tags
 
