@@ -1,6 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+  - "#LineareAlgebra"
+aliases:
+  - "#LineareAlgebra"
 keywords: 
 subject:
   - VL
@@ -16,5 +18,12 @@ professor:
 # Lineare Algebra
 
 ```dataview
+LIST FROM #LineareAlgebra
+```
 
+---
+
+```dataview 
+LIST
+WHERE contains(file.name, "linear") OR contains(file.name, "Linear") 
 ```

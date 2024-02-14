@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - LineareAlgebra
 aliases:
   - linearen Abbildung
   - lineare Abbildung
@@ -64,3 +65,4 @@ i
 
 [Homomorphismus ...](https://www.youtube.com/watch?v=0wKsFNLR15g)  
 [Nützliche Sätze zu Bild und Kern](https://www.youtube.com/watch?v=ub4hx65xpHM)
+[3b1b](https://www.youtube.com/watch?v=v8VSDg_WQlA)
