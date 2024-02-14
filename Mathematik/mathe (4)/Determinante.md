@@ -26,7 +26,12 @@ professor:
 
 >[!important] Bedeutung der Determinante
 > Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
-> $\det = 0$: Transformation bewirkt eine 
+
+
+> [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
+> Eine Inverse der Transformation ist daher nicht bildbar, da man aus einer niedrigeren Dimension nicht auf eine eindeutige Lösung in einer höheren Dimension kommt.
+
+> [!info] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
 
 > [!important] Definition der Determinante: $\det A$ oder $|A|$  
 > Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DS-Algo/Rekursion.md) definiert:
@@ -105,7 +110,7 @@ a_{11} & * & * & \ldots & * \\
 \end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n} .
 $$
 
-## Determinante einer Diagonalmatrix:
+## Determinante einer [Diagonalmatrix](Diagonalmatrix.md):
 
 $$
 \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
