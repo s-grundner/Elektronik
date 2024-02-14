@@ -24,6 +24,10 @@ professor:
 > - ob eine [Matrix](Matrix.md) invertierbar ist bzw.
 > - ob ein [lineares Gleichungssystem](../mathe%20(3)/Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
+>[!important] Bedeutung der Determinante
+> Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+> $\det = 0$: Transformation bewirkt eine 
+
 > [!important] Definition der Determinante: $\det A$ oder $|A|$  
 > Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DS-Algo/Rekursion.md) definiert:
 > - ist $A=(a_{11}\in \mathbb{R}^{1\times 1})$, so ist $\det A$ definiert als:  
