@@ -69,3 +69,7 @@ $$
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ j\frac{Z_{L}}{Z_{A}}\cdot\tan(\gamma\cdot l)}{1+ j\frac{Z_{A}}{Z_{L}}\cdot\tan(\gamma\cdot l)}
 $$
+
+# Tags
+
+[Veritasium](https://www.youtube.com/watch?v=oI_X2cMHNe0)

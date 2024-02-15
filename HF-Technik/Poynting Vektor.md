@@ -16,4 +16,5 @@ Der Begriff des Energieflusses ist identisch mit dem physikalischen Begriff der 
 
 ![poynting](assets/poynting.png)
 
-# Quellen
+
+https://www.youtube.com/watch?v=oI_X2cMHNe0
