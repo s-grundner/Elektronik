@@ -7,8 +7,7 @@ aliases:
   - Java_OOP
 subject:
   - ""
-inst:
-  - HTL
+inst: 
 created: 29. November 2022
 ---
 
