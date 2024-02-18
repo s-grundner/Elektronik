@@ -27,10 +27,10 @@
   "userIgnoreFilters": [
     "*.ini",
     "Rubbish",
-    "xEDU/",
-    "xPN/",
     "desktop.ini",
-    "xORG/"
+    "xEDU/",
+    "xORG/",
+    "xPN/"
   ],
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",
