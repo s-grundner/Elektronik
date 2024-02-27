@@ -44,7 +44,7 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 > 
 > Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 
-1. Eund H-Felder Eindämmen ([Schirmung](Schirmung.md))
+1. E und H-Felder Eindämmen ([Schirmung](Schirmung.md))
 2. ICs verwenden, welche die Anwendungen mit den langsamsten Anstiegsund Abfallzeiten betreiben können
 3. Hochfrequente bzw. hochenergetische Leiterbahnen so kurz wie möglich halten
 4. Leistungsabgabe verbessern
