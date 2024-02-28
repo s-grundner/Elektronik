@@ -24,11 +24,11 @@ professor:
 Die moderne Physik kennt *4* Kräfte:
 
 - Gravitationskraft
-- Elektromagnetische Kraft (in der Elektrotechnik separat als elektrischeund magnetische Kraft)
+- Elektromagnetische Kraft (in der Elektrotechnik separat als elektrische und magnetische Kraft)
 - Starke Kernkraft
 - Schwache Kernkraft
 
-> [!question]- Wie kommen "andere" z.B. Kräfte in Chemische Reaktionen zustande?
+> [!question]- Wie kommen "andere" z.B. Kräfte in [Chemische Reaktionen](../Chemie/Chemische%20Reaktionen.md) zustande?
 > Wechselwirkung dieser Kräfte 
 
 ## Erstes Newtonsche Gesetz

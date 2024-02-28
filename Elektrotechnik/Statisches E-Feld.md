@@ -72,4 +72,8 @@ $$
 
 Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
 
+In welchem Verhältnis steht die Coulomb Kraft zum Abstand?
+? Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
+? 
+
 [ESD](../Hardwareentwicklung/ESD.md)
