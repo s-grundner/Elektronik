@@ -1,6 +1,6 @@
 ---
 tags:
-  - flashcards/deck1
+  - E-Feld
 aliases: 
 keywords: 
 subject:
@@ -67,5 +67,9 @@ $$
 > > ![](assets/UE01_k12136610-2.jpg)
 
 # Tags
+
+## Flashcards
+
+Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
 
 [ESD](../Hardwareentwicklung/ESD.md)
