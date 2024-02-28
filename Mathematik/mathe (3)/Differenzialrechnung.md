@@ -70,39 +70,9 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 | Kettenregel     | <br>$(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'$                                                 |
 | Umkehrregel     |                                                                                                    |
 
-## Implizit Differenzieren
-
-## Partielle Ableitung
-
-$$\frac{\partial f}{\partial x}= f_{x}$$
-
-Für Funktionen mit mehreren Argumenten benötigt man einen zusätzlichen Ableitungsbegriff: Die *Partielle Abeitung*
-
-> [!important] Definition
-Sei $f$ eine Funktion (skalar-, vektoroder tensorwertig) z.B.
-> $$
-\begin{aligned}
-f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
-\left(x_1, \ldots, x_n\right) &\mapsto f\left(x_1, \ldots, x_n\right)
-\end{aligned}
-> $$
-> dann bezeichnet man den Grenzwert
-> $$
-\frac{\partial f}{\partial x_i}(a)=\lim _{h \rightarrow 0} \frac{f\left(a_1, \ldots, a_i+h, \ldots, a_n\right)-f\left(a_1, \ldots, a_i, \ldots, a_n\right)}{h}
-> $$
-> als die *partielle Ableitung* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
-> Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
-
-
-![](assets/Pasted%20image%2020231106143523.png)
-
-## Totales Differenzial
-
-![](assets/Pasted%20image%2020231106143654.png)
-
-![](assets/Pasted%20image%2020231106143725.png)
-
 # Tags
 
+- [Partielle Ableitung](Partielle%20Ableitung.md)
+- [Totales Differenzial](Totales%20Differenzial.md)
 - [L'Hospital](L'Hospital.md)
 - [Linearisieren](Linearisieren)
