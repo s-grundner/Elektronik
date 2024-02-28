@@ -19,10 +19,10 @@ professor:
 
 $$|\vec{F}|=F = \frac{Q_{1}Q_{2}}{4\pi\varepsilon_{0}r^{2}}$$
 
-Eine weitere Kraft, die sich sehr ähnlich wie die Gravitationskraft verhält, ist die elektrische Kraft.  
+Eine weitere [Kraft](../Physik/Newtonsche%20Axiome.md), die sich sehr ähnlich wie die Gravitationskraft verhält, ist die elektrische [Kraft](../Physik/Newtonsche%20Axiome.md).  
 An Stelle *der Masse* tritt hier eine weitere Materialeigenschaft, die *elektrische Ladung* $Q$.
 
-Elementarteilchen tragen Ladungen in Vielfachen einer so genannten Elementarladung $e=1,6 \cdot 10^{-19} \mathrm{As}$. (Die Einheit 1As wird auch $1 \mathrm{C}$ - Coulomb - bezeichnet.) Ein Elektron trägt eine negative [Elementarladung](../Physik/Konstanten/Elementarladung.md) $-e$.
+Elementarteilchen tragen Ladungen in Vielfachen einer so genannten [Elementarladung](../Physik/Konstanten/Elementarladung.md). Ein Elektron trägt eine negative [Elementarladung](../Physik/Konstanten/Elementarladung.md) $-e$.
 
 Ein wichtiger Unterschied zur Masse ist, dass die Ladung positiv und auch negativ sein kann - dies entspricht dem Verhalten, dass Ladungen einander sowohl abstoßen, als auch anziehen können!
 

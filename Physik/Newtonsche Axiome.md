@@ -53,7 +53,7 @@ Die moderne Physik kennt *4* Kräfte:
 > $$
 > \vec{F}=\frac{d\vec{p}}{dt}=m\frac{d \vec{v}}{dt}
 > $$
-> Kraft ist also die Ursache für eine Bewegung. Eine Bewegung mit konstanter Geschwindigkeit (gleichförmige Bewegung) ist jedoch auch ohne Kraft Einwirkung möglich. *Eine Kraft ändert also nur die Form der Bewegung.* 
+> Kraft ist also die Ursache für eine [Bewegung](Kinematik.md). Eine [Bewegung](Kinematik.md) mit konstanter [Geschwindigkeit](Kinematik.md) (gleichförmige [Bewegung](Kinematik.md)) ist jedoch auch ohne Kraft Einwirkung möglich. *Eine Kraft ändert also nur die Form der [Bewegung](Kinematik.md).* 
 
 ## Drittes Newtonsches Gesetz
 

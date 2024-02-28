@@ -25,9 +25,7 @@ professor:
 Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $E$ zugeordnet werden.  
 Die Kraft auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
 
-$$
-\vec{F}=q\cdot \vec{E}
-$$
+$$\vec{F}=q\cdot \vec{E}$$
 
 > [!success] Die Kraft auf eine Ladung $Q$ in einem externen Elektrischen Feld ist proportional zu $Q$ und $E$  
 
@@ -68,12 +66,14 @@ $$
 
 # Tags
 
+[ESD](../Hardwareentwicklung/ESD.md)
+
 ## Flashcards
 
 Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
 
 In welchem Verhältnis steht die Coulomb Kraft zum Abstand?
-? Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
-? 
+?
+Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
+$$|\vec{F}|=F = \frac{Q_{1}Q_{2}}{4\pi\varepsilon_{0}r^{2}}$$
 
-[ESD](../Hardwareentwicklung/ESD.md)

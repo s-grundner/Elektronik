@@ -163,8 +163,8 @@ typedef struct {
 } TPERSON;
 ```
 
-- Definieren Sie ein *anzahl* großes Array:  
-  `TPERSON wir[] = {{123, "Max Muster"}, {44, "Susi Wiese"}, {1, "Fritz Wald"}};`
+- Definieren Sie ein *anzahl* großes Array:
+  `TPERSON wir[] = { {123, "Max Muster"}, {44, "Susi Wiese"}, {1, "Fritz Wald"} };`
 
 - definieren Sie zusätzlich das Array `TPERSON** p;` (dynamische Größe möglich) bzw. `TPERSON *p[anzahl]`.
 
