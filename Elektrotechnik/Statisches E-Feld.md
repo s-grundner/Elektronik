@@ -21,6 +21,8 @@ professor:
 
 > [!INFO] Statisch:  
 > es änderst sich nichts mehr (eingeschwungener Zustand)
+> Keine ruckartigen/schnelle Änderungen
+> in der HF Technik sind einige Phänomene der Elektrostatik nicht mehr gültig
 
 Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $E$ zugeordnet werden.  
 Die Kraft auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
