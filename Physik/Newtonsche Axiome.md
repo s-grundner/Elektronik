@@ -76,3 +76,7 @@ Die moderne Physik kennt *4* Kräfte:
 > - Magnetische Kraft
 > - [Elektrische Kraft](../Elektrotechnik/Elektrische%20Kraft.md)
 > - Gravitationskraft
+
+## Kraftfeld
+
+Ein Raum auf dem in jedem Punkt ein Kraftvektor zugeteilt ist (Vektorfeld).
