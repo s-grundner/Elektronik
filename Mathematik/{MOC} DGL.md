@@ -23,7 +23,7 @@ LIST FROM #DGL
 Arten von Differentialgleichungen
 
 - Linear/ Nichtlinear
-- Ordunung (1, 2, ... n)
+- Ordunung (1, 2, … n)
 - homogen / inhomogen
 - konstanter / nicht-konstanter Koeffizient
 
@@ -33,10 +33,6 @@ Hierarchisch
 - [lineare DGL 2. Ordnung](mathe%20(4)/lineare%20DGL%202.%20Ordnung.md)
 
 ## Wozu Differenzialgleichungen?
-
-
-
----
 
 # Tags
 
