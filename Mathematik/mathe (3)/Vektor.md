@@ -8,7 +8,7 @@ created: 28th September 2022
 
 # Vektoren
 
-![](assets/Pasted%20image%2020231226163830.png)
+![](assets/VectorMatrixTensor.png)
 
 ## Skalar
 
@@ -19,4 +19,4 @@ created: 28th September 2022
 - [Matrix](../mathe%20(4)/Matrix.md)
 - Tensor
 - Vektorbasis
-- [[../mathe (4)/Lineare Hülle]]
+- [Lineare Hülle](../mathe%20(4)/Lineare%20Hülle.md)

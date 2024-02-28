@@ -1,16 +1,40 @@
 ---
-tags: ["MOC"]
-aliases: ["DGL", "Differenzialgleichungen"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - MOC
+  - Infinitesimalrechnung
+  - DGL
+aliases:
+  - DGL
+  - Differenzialgleichungen
+  - "#DGL"
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 14th March 2022
 ---
 
 # Map of Content - Differentialgleichungen (DGL)
 
-## [lineare DGL 1. Ordnung](mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
+```dataview
+LIST FROM #DGL
+```
 
-## [lineare DGL 2. Ordnung](mathe%20(4)/lineare%20DGL%202.%20Ordnung.md)
+Arten von Differentialgleichungen
+
+- Linear/ Nichtlinear
+- Ordunung (1, 2, ... n)
+- homogen / inhomogen
+- konstanter / nicht-konstanter Koeffizient
+
+Hierarchisch
+
+- [lineare DGL 1. Ordnung](mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
+- [lineare DGL 2. Ordnung](mathe%20(4)/lineare%20DGL%202.%20Ordnung.md)
+
+## Wozu Differenzialgleichungen?
+
+
 
 ---
 

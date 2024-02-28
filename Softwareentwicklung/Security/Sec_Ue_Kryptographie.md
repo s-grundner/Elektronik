@@ -1480,7 +1480,7 @@ Wichtig dabei das Bildformat. PPM wird gewählt weil es ein Bitmap-Format ist. V
 
 Dem verschlüsselten Bild wird anschließend der ursprüngliche Header wieder vorne eingefügt. Das Bild kann anschließend mit einem Bildbetrachter wieder geöffnet werden (mittlere Abbildung). Es ist klar ersichtlich, dass trotz der zeitgemäßen Verschlüsselung die Figur nach wie vor erkennbar ist. Der Grund ist klar - hintereinander folgende Blöcke mit gleichem Inhalt (Farbe) liefern die gleiche Chiffre. Daher ist dieser ECB-Modus auch zu vermeiden.
 
-Abschließend wird das Bild auf die gleiche Art mit Modus CBC verschlüsselt (rechte Abbildung). Hier sieht es wesentlich besser auf - das Bild sieht zufällig durchmischt aus (kein Umriss erkennbar). CBC ist ein Mechanismus mit welchem ein Teil des vorhergehenden Blockes in den nächsten mitgenommen wird. Für den ersten Block wird ein Initial-Vektor eingebaut.
+Abschließend wird das Bild auf die gleiche Art mit Modus CBC verschlüsselt (rechte Abbildung). Hier sieht es wesentlich besser auf - das Bild sieht zufällig durchmischt aus (kein Umriss erkennbar). CBC ist ein Mechanismus mit welchem ein Teil des vorhergehenden Blockes in den nächsten mitgenommen wird. Für den ersten Block wird ein Initial-[Vektor](../../Mathematik/mathe%20(3)/Vektor.md) eingebaut.
 
 ```
 openssl.exe enc -aes-256-cbc -pass pass:"pw" -in Tux_origBody.ppm -out Tux_encBody.ppm
