@@ -19,6 +19,8 @@ created: 26th March 2022
 LIST FROM #Infinitesimalrechnung
 ```
 
+## Anwendungsbeispiel: ein Fallbeispiel für ein Naturgesetz
+
 ---
 
 # Tags

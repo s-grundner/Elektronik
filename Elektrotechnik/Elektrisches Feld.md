@@ -20,6 +20,9 @@ professor:
 
 - [Statisches E-Feld](Statisches%20E-Feld.md)
 
+> [!info] Elektrodynamik
+> die Theorie des 
+
 # Tags
 
 - [Elektrische Kraft](Elektrische%20Kraft.md)

@@ -17,8 +17,19 @@ professor:
 
 # Newtonsche [Axiome](../Mathematik/Axiom.md) und Kräfte
 
-> [!QUESTION] Definition  
+> [!QUESTION] Was ist die Kraft?  
 >  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md) und/oder) ändert.
+>  - Interessante Diskussion in Einf. ET Skriptum Teil 1 von Bernhard Jakoby 
+
+Die moderne Physik kennt *4* Kräfte:
+
+- Gravitationskraft
+- Elektromagnetische Kraft (in der Elektrotechnik separat als elektrischeund magnetische Kraft)
+- Starke Kernkraft
+- Schwache Kernkraft
+
+> [!question]- Wie kommen "andere" z.B. Kräfte in Chemische Reaktionen zustande?
+> Wechselwirkung dieser Kräfte 
 
 ## Erstes Newtonsche Gesetz
 
@@ -42,7 +53,7 @@ professor:
 > $$
 > \vec{F}=\frac{d\vec{p}}{dt}=m\frac{d \vec{v}}{dt}
 > $$
-> Kraft ist also die Ursache für eine Bewegung. Eine Bewegung mit onstanter Geschwindigkeit ist jedoch auch ohn
+> Kraft ist also die Ursache für eine Bewegung. Eine Bewegung mit konstanter Geschwindigkeit (gleichförmige Bewegung) ist jedoch auch ohne Kraft Einwirkung möglich. *Eine Kraft ändert also nur die Form der Bewegung.* 
 
 ## Drittes Newtonsches Gesetz
 
