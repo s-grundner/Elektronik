@@ -80,3 +80,5 @@ Die moderne Physik kennt *4* Kräfte:
 ## Kraftfeld
 
 Ein Raum auf dem in jedem Punkt ein Kraftvektor zugeteilt ist (Vektorfeld).
+
+Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunigen.
