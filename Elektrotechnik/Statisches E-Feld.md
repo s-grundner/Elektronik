@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - flashcards/deck1
 aliases: 
 keywords: 
 subject:
