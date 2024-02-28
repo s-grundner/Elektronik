@@ -1,6 +1,7 @@
 ---
 tags:
   - Felder
+  - E-Feld
 aliases:
   - Faraday Käfig
   - Faradayscher Käfig
@@ -35,3 +36,7 @@ professor:
 ## Faraday Käfig
 
 ![Faraday_cage](assets/Faraday_cage.gif)
+
+## Flashcards
+
+*Influenz* beschreibt...;; die Verschiebung von Ladungen in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden. 

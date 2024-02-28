@@ -71,9 +71,4 @@ $$
 ## Flashcards
 
 Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
-
-In welchem Verhältnis steht die Coulomb Kraft zum Abstand?
-?
-Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
-$$|\vec{F}|=F = \frac{Q_{1}Q_{2}}{4\pi\varepsilon_{0}r^{2}}$$
-
+Wie verhält sich ein *Elektron* (kinematisch), welches in ein *in x-Richtung orientiertes* homogenes elektrisches Feld eingebracht wird?;;es beschleunigt in negative x-Richtung. 

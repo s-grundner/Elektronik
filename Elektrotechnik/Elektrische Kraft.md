@@ -27,3 +27,10 @@ Elementarteilchen tragen Ladungen in Vielfachen einer so genannten [Elementarlad
 Ein wichtiger Unterschied zur Masse ist, dass die Ladung positiv und auch negativ sein kann - dies entspricht dem Verhalten, dass Ladungen einander sowohl abstoßen, als auch anziehen können!
 
 ![](assets/Pasted%20image%2020240228202848.png)
+
+## Flashcards
+
+In welchem Verhältnis steht die Coulomb Kraft zum Abstand?
+?
+Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
+$$|\vec{F}|=F = \frac{Q_{1}Q_{2}}{4\pi\varepsilon_{0}r^{2}}$$
