@@ -16,8 +16,3 @@ professor:
  
 
 # Superpositionsprinzip
-
-```dataview
-LIST ""
-WHERE contains(subject, "1") AND !contains(subject, "B1")
-```
