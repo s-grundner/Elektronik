@@ -37,11 +37,12 @@ professor:
 > [Impuls](Impuls.md) $\vec{p}=m\cdot \vec{v}$  
 > $[p]=\frac{kg\cdot m}{s}$
 
-> [!WARNING] Die [Impuls](Impuls.md) Veränderung eines Körpers ist proportional der resultierenden Kraft die auf den Körper wirkt
+> [!WARNING] Die Änderungsrate des mechanischen Impulses eines Körpers entspricht der auf ihn einwirkenden Kraft.
 >
 > $$
-> \vec{F}=\frac{d\vec{p}}{dt}=\frac{d m\vec{v}}{dt}
+> \vec{F}=\frac{d\vec{p}}{dt}=m\frac{d \vec{v}}{dt}
 > $$
+> Kraft ist also die Ursache für eine Bewegung. Eine Bewegung mit onstanter Geschwindigkeit ist jedoch auch ohn
 
 ## Drittes Newtonsches Gesetz
 
