@@ -39,4 +39,5 @@ professor:
 
 ## Flashcards
 
-*Influenz* beschreibt...;; die Verschiebung von Ladungen in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden. 
+*Influenz* beschreibt...;; die Verschiebung von Ladungen in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden.
+<!--SR:!2024-02-29,1,230-->

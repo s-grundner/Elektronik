@@ -34,3 +34,4 @@ In welchem Verhältnis steht die Coulomb Kraft zum Abstand?
 ?
 Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
 $$|\vec{F}|=F = \frac{Q_{1}Q_{2}}{4\pi\varepsilon_{0}r^{2}}$$
+<!--SR:!2024-03-02,3,250-->
