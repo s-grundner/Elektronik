@@ -29,7 +29,7 @@ Die Kraft auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich 
 
 $$\vec{F}=q\cdot \vec{E}$$
 
-> [!success] Die Kraft auf eine Ladung $Q$ in einem externen Elektrischen Feld ist proportional zu $Q$ und $E$  
+> [!success] Die Kraft auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $E$  
 
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
