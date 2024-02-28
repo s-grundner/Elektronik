@@ -18,7 +18,8 @@ created: 26th March 2022
 Die Steigung der Tangente nimmt man als Steigung der Funktion im betreffenden Punkt.  
 Die Ableitung $f'(x)$ ist die Steigung der Tangente am Graphen der Funktion $f(x)$ im Punkt $(x_{0}|f(x_{0}))$.
 
-****
+**Der Differenzialquotient hat aber eine viel Weitreichendere Bedeutung**
+Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar die *Beste Näherung*.
 
 
 > [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
@@ -73,11 +74,25 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Partielle Ableitung
 
-$$
-\frac{\partial f}{\partial x}= f_{x}
-$$
+$$\frac{\partial f}{\partial x}= f_{x}$$
 
-![](assets/Pasted%20image%2020231106143510.png)
+Für Funktionen mit mehreren Argumenten benötigt man einen zusätzlichen Ableitungsbegriff: Die *Partielle Abeitung*
+
+> [!important] Definition
+Sei $f$ eine Funktion (skalar-, vektoroder tensorwertig) z.B.
+> $$
+\begin{aligned}
+f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
+\left(x_1, \ldots, x_n\right) &\mapsto f\left(x_1, \ldots, x_n\right)
+\end{aligned}
+> $$
+> dann bezeichnet man den Grenzwert
+> $$
+\frac{\partial f}{\partial x_i}(a)=\lim _{h \rightarrow 0} \frac{f\left(a_1, \ldots, a_i+h, \ldots, a_n\right)-f\left(a_1, \ldots, a_i, \ldots, a_n\right)}{h}
+> $$
+> als die *partielle Ableitung* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
+> Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
+
 
 ![](assets/Pasted%20image%2020231106143523.png)
 
