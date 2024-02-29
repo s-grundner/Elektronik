@@ -20,7 +20,7 @@ Die Kernfusion bewirkt, dass die Sonne bzw. alle hellen Sterne Energie aussenden
 $^{2}_{1}D + ^{3}_{1}T\longrightarrow ^{4}_{2}He + ^{1}_{0}n$
 
 - Zwei Wasserstoffkerne verschmelzen zu **Deuterium**.
-- Dabei wird Energie freigesetzt und es werden **[Positronen](../Chemie/Radioaktivität.md)**([$\beta^{+}$-[Strahlung](../Chemie/Radioaktivität.md)](<https://de.wikipedia.org/wiki/Betastrahlung))> abgestrahlt.
+- Dabei wird Energie freigesetzt und es werden **[Positronen](../Chemie/Radioaktivität.md)** ([$\beta^{+}$-Strahlung](https://de.wikipedia.org/wiki/Betastrahlung) abgestrahlt.
 - Anschließend erfolgt die Verschmelzung zu einem Helium-3-Kern, wobei wieder Energie frei wird.
 - Schließlich verschmelzen zwei Helium-3-Kerne zu Helium-4, wobei zwei Protonen (Wasserstoffkerne) entstehen und wiederum Energie frei wird.
 

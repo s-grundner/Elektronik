@@ -51,9 +51,7 @@ professor:
 
 ## Aufgabenstellungen
 
-### IIC: Successive Approx. Register ADC (Wäge-Verfahren)
-
-![|525](assets/Pasted%20image%2020231006155455.png)
+### IIC:
 
 ### IME: Stylophone
 

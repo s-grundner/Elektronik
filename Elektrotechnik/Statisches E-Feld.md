@@ -26,14 +26,16 @@ professor:
 > Keine ruckartigen/schnelle Änderungen
 > in der HF Technik sind einige Vereinfachungen der Elektrostatik nicht mehr gültig
 
-Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](Elektrisches%20Feld.md) $E$ zugeordnet werden.  
-Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
+> [!info] [Coulomb-Kraft](Elektrische%20Kraft.md)
+>Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](Elektrisches%20Feld.md) $E$ zugeordnet werden.  
+> Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
+> $$\vec{F}=q\cdot \vec{E}$$
+> 
+>> [!success] Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $E$  
 
-$$\vec{F}=q\cdot \vec{E}$$
-
-> [!success] Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $E$  
-
+![inlineR|250](EFeld.png)
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
+
 
 $$|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
 
@@ -47,10 +49,10 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$ |
 |          ![\|400](assets/GravKraft.png)          |    ![\|525](assets/EKraft.png)                                                                 |
 
-|               Gravitationsfeld der Erde mit der Masse $M$               |       Elektrisches Feld einer Ladung $Q$        |
-|:-----------------------------------------------------------------------:|:-----------------------------------------------:|
-| $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ | $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$                                               |
-|                      ![\|425](assets/GravFeld.png)                      | ![\|425](assets/EFeld.png) | 
+|               Gravitationsfeld der Erde mit der Masse $M$                |           Elektrisches Feld einer Ladung $Q$            |
+| :----------------------------------------------------------------------: | :-----------------------------------------------------: |
+| $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ | $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$ |
+|                      ![\|425](assets/GravFeld.png)                       |               ![\|400](assets/EFeld.png)                |
 
 | $F_{G}$                                                                                 | $F_{E}$                                                                                  |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |

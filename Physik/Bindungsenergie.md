@@ -1,8 +1,10 @@
 ---
-tags: []
-aliases: []
-subject: ["physik"]
-source: []
+tags:
+  - Chemie/Anorganisch
+aliases: 
+subject:
+  - physik
+source: 
 created: 10th September 2022
 ---
 
