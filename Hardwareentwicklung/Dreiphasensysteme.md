@@ -7,7 +7,7 @@ subject:
   - "335.005"
 semester:
   - WS23
-  - "1"
+  - B1
 created: 24th January 2024
 professor:
   - Andreas Springer

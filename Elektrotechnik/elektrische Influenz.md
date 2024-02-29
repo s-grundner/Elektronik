@@ -12,8 +12,8 @@ subject:
   - Einf. ET
   - "335.005"
 semester:
-  - "1"
   - WS23
+  - B1
 created: 19. Oktober 2023
 professor:
   - Bernhard Jakoby

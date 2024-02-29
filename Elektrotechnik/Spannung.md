@@ -1,16 +1,11 @@
 ---
-tags: 
+tags:
+  - redirect
 aliases: 
-keywords: 
-subject:
-  - Einf. ET
-  - "335.005"
-semester:
-  - WS23
-created: 18. Oktober 2023
-professor:
-  - Bernhard Jakoby
+created: 29. Februar 2024
 ---
- 
 
-# Spannung
+# Weiterleitungen
+
+- [elektrische Spannung](elektrische%20Spannung.md)
+- Oberflächenspannung

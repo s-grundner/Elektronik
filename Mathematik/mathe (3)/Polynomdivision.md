@@ -6,8 +6,8 @@ subject:
   - Mathematik1
   - "357.100"
 semester:
-  - "1"
   - WS23
+  - B1
 created: 30. August 2023
 professor:
 ---

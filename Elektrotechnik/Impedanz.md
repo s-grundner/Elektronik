@@ -35,7 +35,7 @@ Für Berechnungen gilt: $Z=\frac{Z_{Z}}{Z_{N}}$ -> $\mid Z\mid=\frac{\mid Z_{Z}\
 
 > [!INFO] Mit Impedanz Anpassung erzielt man:
 > - Stromanpassung (Strom ist maximal, $R_{i}\gg R_{L}$) 
-> - Spannungsanpassung ([Spannung](Spannung.md) ist maximal, $R_{i}\ll R_{L}$)
+> - Spannungsanpassung ([elektrische Spannung](elektrische%20Spannung.md) ist maximal, $R_{i}\ll R_{L}$)
 > - Leistungsanpassung ([Leistung](../Physik/Elektrische%20Leistung.md) ist maximal, $R_{i} = R_{L}$)
 
 ### Anpassnetzwerk

@@ -7,7 +7,7 @@ subject:
   - "335.005"
 semester:
   - WS23
-  - "1"
+  - B1
 created: 15. November 2023
 professor:
 ---

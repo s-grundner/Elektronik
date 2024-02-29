@@ -1,6 +1,7 @@
 ---
 tags:
   - E-Feld
+  - redirect
 aliases:
   - E-Feld
   - E-Feldstärke
@@ -13,7 +14,7 @@ subject:
   - "335.005"
 semester:
   - WS23
-  - "1"
+  - B1
 created: 4. September 2023
 professor:
 ---

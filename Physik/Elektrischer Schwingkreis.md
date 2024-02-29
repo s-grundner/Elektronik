@@ -7,7 +7,7 @@ subject:
   - "335.005"
 semester:
   - WS23
-  - "1"
+  - B1
 created: 24. Januar 2024
 professor:
 ---
@@ -27,7 +27,7 @@ Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer St�
 
 ![400](../Mathematik/assets/e_serien_schwingk_frei.png)
 
-Um die [Spannung](../Elektrotechnik/Spannung.md) der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
+Um die [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
 | Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensator](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstand](../Elektrotechnik/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |

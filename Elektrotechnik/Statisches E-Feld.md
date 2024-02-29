@@ -12,7 +12,7 @@ subject:
   - "335.005"
 semester:
   - WS23
-  - "1"
+  - B1
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
@@ -34,7 +34,7 @@ professor:
 >> [!success] Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen [Elektrischen Feld](Elektrisches%20Feld.md) ist proportional zu $q$ und $E$  
 >
 
-![inlineR|250](EFeld.png)
+![inlineR\|445](EFeld.png)
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
 $$|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
@@ -43,7 +43,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 Wie im Schwerefeld der Erde gilt auch im [Elektrischen Feld](Elektrisches%20Feld.md) der Energie-Erhaltungssatz 
 
-Die Arbeit und das Potenzial (von Potentielle Energie) im Statischen E-Feld führt uns zur elektrischen Spannung
+Die [Arbeit](../Physik/Mechanische%20Arbeit.md) und das Potenzial (von Potentielle Energie) im Statischen E-Feld führt uns zur elektrischen Spannung
 
 ## Statisches [E-Feld](Elektrisches%20Feld.md) $\iff$ Gravitationsfeld
 

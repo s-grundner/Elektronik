@@ -12,7 +12,7 @@ created: 28th September 2022
 
 - Beschreiben z.B. [Filter](../Hardwareentwicklung/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
 - Wellenparameter = Teilspannungen 
-- Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende [Spannung](../Elektrotechnik/Spannung.md))
+- Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md))
 - Widerstandsparameter bei Serienschaltung
 - Leitwert bei Parallelschaltungen
 
@@ -30,7 +30,7 @@ $$U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu)$$
 
 $$I_\nu = \dfrac{1}{\sqrt{Z_0}} \cdot (a_\nu - b_\nu)$$
 
-Die [Spannung](../Elektrotechnik/Spannung.md) $U_\nu$ und der Strom $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrotechnik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
+Die [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U_\nu$ und der Strom $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrotechnik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
 
 $$Z_\nu = \dfrac{U_\nu}{I_\nu}$$
 
