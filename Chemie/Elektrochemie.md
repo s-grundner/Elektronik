@@ -9,7 +9,7 @@ created: 21st August 2022
 # Elektrochemie
 
 > [!INFO] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
->Bei Kontakt unterschiedlicher Metalle mit einer Elektrolytlösung entsteht elektrische Spannung.  
+>Bei Kontakt unterschiedlicher Metalle mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
 >Elektrolyte (oder elektrische Leiter 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
 >$\rightarrow$ sind Leitfähig
 

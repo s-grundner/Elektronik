@@ -72,10 +72,10 @@ $$
 
 Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Zweitor](Zweitor.md) -> 4 S-Parameter.
 
-- ==$a_{1}$== ist die am ==Tor 1== einlaufende Welle
-- ==$a_{2}$== ist dei am ==Tor 2== einlaufende Welle
-- ==$b_{1}$== ist die vom Eingang (==Tor 1==) auslaufende Welle
-- ==$b_{2}$== ist die vom Ausgang (==Tor 2==) auslaufende Welle
+- ==$a_{1}$== ist die am *Tor 1* einlaufende Welle
+- ==$a_{2}$== ist dei am *Tor 2* einlaufende Welle
+- ==$b_{1}$== ist die vom Eingang (*Tor 1*) auslaufende Welle
+- ==$b_{2}$== ist die vom Ausgang (*Tor 2*) auslaufende Welle
   
 ![MGL-Zweitor](assets/MGL-Zweitor.png)
 

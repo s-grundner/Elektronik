@@ -90,12 +90,16 @@ Trotz der Last ist das Übersetzungsverhältis gleich wie im Unbelasteten Fall (
 
 ### Analogie zum Ohm‘schen Gesetz
 
-Magnetische Spannung <-> elektrische Spannung
-
-Magnetischer Strom <-> elektrischer Strom
-
-Magnetischer widerstand <-> elektrischer Widerstand
+| Magnetisch              | Elektrisch                                                          |
+| ----------------------- | ------------------------------------------------------------------- |
+| Magnetische Spannung    | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
+| Magnetischer Strom      | elektrischer Strom                                                  |
+| Magnetischer widerstand | elektrischer Widerstand                                             |
 
 $R_{m} = \frac{l}{\mu A}$ aber $R_{m}$ ist im Gegensatz zum elektrischen Widerstand stark nichtlinear vom Magnetischen Fluss Abhängig.
 
 [Elektrische Leistung](../Physik/Elektrische%20Leistung.md)
+
+```dataview
+LIST WHERE contains(subject, "...")
+```

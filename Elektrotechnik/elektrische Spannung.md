@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: []
+aliases:
+  - elektrischen Spannung
 keywords: 
 subject:
   - Einf. ET
@@ -13,4 +14,4 @@ professor:
 ---
  
 
-# Spannung
+# Elektrische Spannung

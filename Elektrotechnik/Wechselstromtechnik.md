@@ -1,11 +1,14 @@
 ---
 tags: 
 aliases: 
-keywords: []
+keywords: 
 subject:
   - Einf. ET
-  - "..."
-semester: 1
+  - "335.005"
+  - VL
+semester:
+  - WS23
+  - B1
 created: 12th January 2024
 professor:
 ---

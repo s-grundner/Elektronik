@@ -34,16 +34,15 @@ professor:
 >> [!success] Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen [Elektrischen Feld](Elektrisches%20Feld.md) ist proportional zu $q$ und $E$  
 >
 
-![inlineR\|445](EFeld.png)
+![inlineR\|395](EFeld.png)
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
 $$|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
-Wie im Schwerefeld der Erde gilt auch im [Elektrischen Feld](Elektrisches%20Feld.md) der Energie-Erhaltungssatz 
-
-Die [Arbeit](../Physik/Mechanische%20Arbeit.md) und das Potenzial (von Potentielle Energie) im Statischen E-Feld führt uns zur elektrischen Spannung
+> [!important] Wie im Schwerefeld der Erde gilt auch im [Elektrischen Feld](Elektrisches%20Feld.md) der Energie-Erhaltungssatz 
+> Die [Arbeit](../Physik/Mechanische%20Arbeit.md) und das Potenzial (von Potentielle Energie) im Statischen E-Feld führt uns zur [elektrischen Spannung](elektrische%20Spannung.md)
 
 ## Statisches [E-Feld](Elektrisches%20Feld.md) $\iff$ Gravitationsfeld
 
@@ -53,10 +52,10 @@ Die [Arbeit](../Physik/Mechanische%20Arbeit.md) und das Potenzial (von Potentiel
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$ |
 |          ![\|400](assets/GravKraft.png)          |    ![\|525](assets/EKraft.png)                                                                 |
 
-|               Gravitationsfeld der Erde mit der Masse $M$                |           [Elektrisches Feld](Elektrisches%20Feld.md) einer Ladung $Q$            |
-| :----------------------------------------------------------------------: | :-----------------------------------------------------: |
-| $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ | $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$ |
-|                      ![\|425](assets/GravFeld.png)                       |               ![\|400](assets/EFeld.png)                |
+|               Gravitationsfeld der Erde mit der Masse $M$                | [Elektrisches Feld](Elektrisches%20Feld.md) einer Ladung $Q$ |
+| :----------------------------------------------------------------------: | :----------------------------------------------------------: |
+| $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ |   $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$    |
+|                      ![\|425](assets/GravFeld.png)                       |                  ![\|500](assets/EFeld.png)                  |
 
 | $F_{G}$                                                                                 | $F_{E}$                                                                                  |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
