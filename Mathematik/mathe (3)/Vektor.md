@@ -23,19 +23,21 @@ created: 28th September 2022
 ![InlineR](assets/Skalarprodukt.png)
 Das innere Produkt zweier Vektoren liefert den Anteil der in die Selbe Richtung zeigt immer als Skalar.
 (bzw. den Anteil der auf den Anderen Vektor projiziert wird)
-Es hängt deshalb mit dem $\cos$ zusammen.
-- $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen Vektor projiziert)
-- $\cos(90°) = 0$: Der projizierte Anteil ist $0$
+> [!info] Es hängt deshalb mit dem $\cos$ zusammen.
+> - $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen Vektor projiziert)
+> - $\cos(90°) = 0$: Der projizierte Anteil ist $0$
 
 ## Kreuzprodukt / äußeres Produkt
 
 ![InlineR](assets/Kreuzprodukt.png)
 Das äußere Produkt zweier Vektoren liefert den Normalanteil zweier Vektoren.
-Es hängt deshalb mit dem $\sin$ zusammen, da:
-- $\sin(0°) = 0$: Vektoren mit der Winkeldifferenz $0°$ zeigen in die selbe Richtung.
-- $\sin(90°) = 1$: Vektoren mit der Winkeldifferenz $90°$ sind *Normal* aufeinander.
 
-Form des äußeren Produkts welche ein Skalar (länge des Normalvektors) liefert
+> [!info] Es hängt deshalb mit dem $\sin$ zusammen, da:
+> - $\sin(0°) = 0$: Vektoren mit der Winkeldifferenz $0°$ zeigen in die selbe Richtung.
+> - $\sin(90°) = 1$: Vektoren mit der Winkeldifferenz $90°$ sind *Normal* aufeinander.
+
+Form des äußeren Produkts welche ein Skalar (länge des Normalvektors) liefert:
+
 $\lvert \vec{C} \rvert = \lvert \vec{A}\times \vec{B} \rvert = \lvert \vec{A} \rvert\cdot \lvert \vec{B} \rvert\cdot \sin(\alpha)$
 
 Vektorform:

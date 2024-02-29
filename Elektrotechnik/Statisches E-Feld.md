@@ -96,6 +96,6 @@ $$
 ## Flashcards
 
 Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
-<!--SR:!2024-02-29,1,230-->
+<!--SR:!2024-03-01,1,210-->
 Wie verhält sich ein *Elektron* (kinematisch), welches in ein *in x-Richtung orientiertes* homogenes [elektrisches Feld](Elektrisches%20Feld.md) eingebracht wird?;;es beschleunigt in negative x-Richtung.
 <!--SR:!2024-03-02,3,250-->
