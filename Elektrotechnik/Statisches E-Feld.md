@@ -46,6 +46,16 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 > [!success] Die [Coulomb-Kraft](Elektrische%20Kraft.md) sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.  
 > ![[../assets/Excalidraw/Drawing 2024-01-28 14.24.08.excalidraw]]
 
+## statisches E-Feld $\iff$ Gravitationsfeld
+
+| Gravitationskraft                              | Elektrische Kraft / Coulomb-Kraft |
+| ---------------------------------------------- | --------------------------------- |
+| $\vec{F} = m\cdot \vec{g}$                     | $\vec{F} = q \cdot \vec{E}$       |
+| $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$                         | 
+
+| Gravitationsfeld der Erde mit der Masse $M$ | Elektrisches Feld einer Ladung $Q$
+| ------------------------- |
+
 ## Feldstärke in einem Leiter
 
 $$

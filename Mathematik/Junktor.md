@@ -40,12 +40,12 @@ ref:
 
 > [!ABSTRACT] *Definition 1.3* [^1] - Seien $A$ und $B$ [Aussagen](Aussagenlogik.md) , dann heißen: 
 
-| $\neg A$             | lies: nicht $A$          | die *Negation* von $A$            |
-| -------------------- | ------------------------ | --------------------------------- |
-| $A\wedge B$          | lies: $A$ und $B$        | die *Konjunktion* von $A$ und $B$ |
-| $A\vee B$            | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
-| $A\implies B$     | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
-| $A\iff B$ | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
+| $\neg A$      | lies: nicht $A$          | die *Negation* von $A$            |
+| ------------- | ------------------------ | --------------------------------- |
+| $A\wedge B$   | lies: $A$ und $B$        | die *Konjunktion* von $A$ und $B$ |
+| $A\vee B$     | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
+| $A\implies B$ | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
+| $A\iff B$     | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
 
 > Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 
