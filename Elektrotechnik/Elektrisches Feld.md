@@ -18,11 +18,9 @@ professor:
 
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 
-- [Statisches E-Feld](Statisches%20E-Feld.md)
-
-> [!info] Elektrodynamik
-> die Theorie des 
+> [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
 
 # Tags
 
+- [Statisches E-Feld](Statisches%20E-Feld.md)
 - [Elektrische Kraft](Elektrische%20Kraft.md)

@@ -21,12 +21,10 @@ professor:
 
 # Statisches [E-Feld](Elektrisches%20Feld.md)
 
-> [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
-
 > [!INFO] Statisch:  
-> es änderst sich nichts mehr (eingeschwungener Zustand)
+> es ändert sich nichts mehr (eingeschwungener Zustand)
 > Keine ruckartigen/schnelle Änderungen
-> in der HF Technik sind einige Phänomene der Elektrostatik nicht mehr gültig
+> in der HF Technik sind einige Vereinfachungen der Elektrostatik nicht mehr gültig
 
 Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](Elektrisches%20Feld.md) $E$ zugeordnet werden.  
 Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
@@ -53,6 +51,13 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 |:-----------------------------------------------------------------------:|:-----------------------------------------------:|
 | $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ | $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$                                               |
 |                      ![\|425](assets/GravFeld.png)                      | ![\|425](assets/EFeld.png) | 
+
+| $F_{G}$                                                                                 | $F_{E}$                                                                                  |
+| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine Kraft $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene E-Feld $\vec{E}$ eine Kraft |
+
+> [!warning] Unterschied zum G-Feld
+> Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.
 
 ## Feldstärke in einem Leiter
 
