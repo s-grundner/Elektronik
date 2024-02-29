@@ -1,6 +1,5 @@
 ---
-tags:
-  - incomplete
+tags: []
 aliases:
   - H-Feld
   - Ruheinduktion
@@ -11,9 +10,6 @@ created: 4. September 2023
 
 # Magnetisches Feld
 
-
 # Ruheinduktion
 
 # Bewegungsinduktion
-
-

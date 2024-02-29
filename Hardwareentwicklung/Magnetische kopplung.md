@@ -104,4 +104,4 @@ Verringerung der Gegeninduktivität druch:
 
 # Tags
 
-[](Magnetisches%20Feld.md#Magnetische%20Grundgrößen)
+[](../Elektrotechnik/Magnetisches%20Feld.md#Magnetische%20Grundgrößen)
