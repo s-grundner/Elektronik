@@ -41,7 +41,6 @@ $$
 > eines Körpers ist:
 > $$E_{kin} = \frac{1}{2}mv^{2}$$
 
-
 # Potenzielle Energie
 
 ## Weiterleitung
