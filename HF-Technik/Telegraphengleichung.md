@@ -8,7 +8,7 @@ source:
   - Martin Aichriedler
 created: 1st March 2023
 ---
-O
+
 # Telegraphengleichung
 
 > [!NOTE] Telegraphengleichung  
@@ -20,8 +20,8 @@ O
 
 ## Herleitung
 
-> [!summary] Kirchhoff'sche Gesetze in der Leitungstheorie
-> 1. Knotenregel
-> 2. Maschenregel
+> [!summary] [Kirchhoff](../Elektrotechnik/Kirchhoffsche%20Regeln.md)'sche Gesetze in der Leitungstheorie
+> 1. [Knotenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
+> 2. [Maschenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
 
 # Tags
