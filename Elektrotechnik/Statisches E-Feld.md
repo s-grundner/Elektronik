@@ -43,18 +43,18 @@ $$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
-> [!success] Die [Coulomb-Kraft](Elektrische%20Kraft.md) sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.  
-> ![[../assets/Excalidraw/Drawing 2024-01-28 14.24.08.excalidraw]]
+## Statisches E-Feld $\iff$ Gravitationsfeld
 
-## statisches E-Feld $\iff$ Gravitationsfeld
+|                Gravitationskraft                 |                  Elektrische Kraft / Coulomb-Kraft                  |
+|:------------------------------------------------:|:-------------------------------------------------------------------:|
+|            $\vec{F} = m\cdot \vec{g}$            |                     $\vec{F} = q \cdot \vec{E}$                     |
+| $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$ |
+|          ![\|400](assets/GravKraft.png)          |    ![\|400](assets/EKraft.png)                                                                 |
 
-| Gravitationskraft                              | Elektrische Kraft / Coulomb-Kraft |
-| ---------------------------------------------- | --------------------------------- |
-| $\vec{F} = m\cdot \vec{g}$                     | $\vec{F} = q \cdot \vec{E}$       |
-| $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$                         | 
-
-| Gravitationsfeld der Erde mit der Masse $M$ | Elektrisches Feld einer Ladung $Q$
-| ------------------------- |
+|               Gravitationsfeld der Erde mit der Masse $M$               |       Elektrisches Feld einer Ladung $Q$        |
+|:-----------------------------------------------------------------------:|:-----------------------------------------------:|
+| $\vec{g} = -G\cdot M\cdot \frac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ |                                                 |
+|                      ![\|425](assets/GravFeld.png)                      | ![\|425](assets/EFeld.png) | 
 
 ## Feldstärke in einem Leiter
 

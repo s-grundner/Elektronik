@@ -3,6 +3,7 @@ tags:
   - E-Feld
 aliases:
   - Coulomb-Kraft
+  - Coulomb
 keywords: 
 subject:
   - Einf. ET

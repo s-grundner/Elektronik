@@ -39,6 +39,7 @@ Ionenpaare bilden Ionengitter oder Kristallgitter:
 | $Na^{+}$             | $Fe^{3+}$    | $F^{-}$               |
 | $Mg^{2+}$            | $Fe^{2+}$    | $Cl^{-}$              |
 | $Al^{3+}$            |              | $O^{2-}$              |
+
 - Wechselnde [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) bei Nebengruppen
 - Die Summenformel beschreibt das Atomzahlverhältnis im Kristall.
 - **Die Ladungszahl ($^{+/-}$)** (= Ionenwertigkeit) gibt an, w.v. positive oder Negative [Ladungen](../Elektrotechnik/Statisches%20E-Feld.md) ein Ion Trägt
