@@ -39,7 +39,7 @@ Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - ELKO - Elektrolytkondensator
 - TALKO - Tantalelektrolytkondensator
 
-### [Ladung](Statisches%20E-Feld.md) und Kapazität im Kondensator
+### [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
 
 $$
 Q=C\cdot U

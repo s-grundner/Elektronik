@@ -30,7 +30,15 @@
     "desktop.ini",
     "xEDU/",
     "xORG/",
-    "xPN/"
+    "xPN/",
+    "Hardwareentwicklung/Uebung/",
+    "Softwareentwicklung/Cpp/Ue/",
+    "Softwareentwicklung/Betriebssysteme/Ue/",
+    "Softwareentwicklung/C/Ue/",
+    "Softwareentwicklung/Datenbanken/Ue/",
+    "Softwareentwicklung/DS-Algo/Ue/",
+    "Softwareentwicklung/Java/Ue/",
+    "Ue"
   ],
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",

@@ -151,4 +151,3 @@ QString qstr1 = qstr.left(len);
 QString qstr2 = qstr.mid(pos, len);
 QString qstr3 = qstr.right(len);
 ```
-

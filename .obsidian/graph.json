@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
@@ -25,14 +25,14 @@
       "query": "path:Softwareentwicklung  ",
       "color": {
         "a": 1,
-        "rgb": 16631552
+        "rgb": 16741120
       }
     },
     {
       "query": "path:Hardwareentwicklung  ",
       "color": {
         "a": 1,
-        "rgb": 659630
+        "rgb": 6548
       }
     },
     {
@@ -46,7 +46,7 @@
       "query": "path:Mathe  ",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 16711705
       }
     },
     {
@@ -60,14 +60,14 @@
       "query": "path:physik",
       "color": {
         "a": 1,
-        "rgb": 11621088
+        "rgb": 13730041
       }
     },
     {
       "query": "path:chemie",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 9576556
       }
     },
     {
@@ -92,10 +92,10 @@
       }
     },
     {
-      "query": "path:xPN  ",
+      "query": "path:Elektrotechnik  ",
       "color": {
         "a": 1,
-        "rgb": 16711680
+        "rgb": 5431378
       }
     }
   ],
@@ -109,6 +109,6 @@
   "repelStrength": 14.5730416372618,
   "linkStrength": 0.666549047282992,
   "linkDistance": 78,
-  "scale": 0.09006929406487701,
+  "scale": 0.05932617187500011,
   "close": false
 }

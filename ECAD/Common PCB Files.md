@@ -1,4 +1,4 @@
-## Common [PCB](../Hardwareentwicklung/PCB-Layout.md) Files
+# Common [PCB](../Hardwareentwicklung/PCB-Layout.md) Files
 
 When designing a [PCB](../Hardwareentwicklung/PCB-Layout.md), there are four major types of documents you will need to create a design:
 
