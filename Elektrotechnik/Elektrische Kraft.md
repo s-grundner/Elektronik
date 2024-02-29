@@ -29,6 +29,10 @@ Ein wichtiger Unterschied zur Masse ist, dass die [Ladung](Statisches%20E-Feld.m
 
 ![](assets/EKraft.png)
 
+Auf eine Ladung $q$ in einem elektrischen Feld Wirkt die Kraft:
+
+$$\vec{F} = q\cdot \vec{E}$$
+
 ## Flashcards
 
 In welchem Verhältnis steht die Coulomb Kraft zum Abstand?

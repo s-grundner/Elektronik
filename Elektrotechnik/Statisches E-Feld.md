@@ -41,7 +41,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 ## Statisches E-Feld $\iff$ Gravitationsfeld
 
-|                Gravitationskraft                 |                  Elektrische Kraft / Coulomb-Kraft                  |
+|                Gravitationskraft                 |                  [Elektrische Kraft](Elektrische%20Kraft.md) / [Coulomb-Kraft](Elektrische%20Kraft.md)                  |
 |:------------------------------------------------:|:-------------------------------------------------------------------:|
 |            $\vec{F} = m\cdot \vec{g}$            |                     $\vec{F} = q \cdot \vec{E}$                     |
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$ |
