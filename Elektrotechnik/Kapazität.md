@@ -17,7 +17,7 @@ created: 11th April 2023
 
 ![InlineL|450](assets/KondensatorBatterie.png)
 
-> [!TIP] [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das E-Feld in den Leitern verschwindet und im Kondensator verteilt ist:
+> [!TIP] [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das [E-Feld](Elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
 > 1. Spannungsquelle von elektrischem Feld umgeben
 > 2. Feld wirkt auf bewegliche Elektronen im eingebrachten Kondensator und Anschlussdrähten
 > 3. Die [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.

@@ -62,7 +62,7 @@ bzw. [Beschleunigung](../Physik/Kinematik.md) der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
 
-Wird ein **elektrisches Feld** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.  
+Wird ein **[elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md)** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.  
 Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
 # Tags

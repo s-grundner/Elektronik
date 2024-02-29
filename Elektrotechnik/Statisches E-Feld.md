@@ -31,17 +31,20 @@ professor:
 > Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
 > $$\vec{F}=q\cdot \vec{E}$$
 > 
->> [!success] Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $E$  
+>> [!success] Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen [Elektrischen Feld](Elektrisches%20Feld.md) ist proportional zu $q$ und $E$  
 
 ![inlineR|250](EFeld.png)
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
-
 
 $$|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
-## Statisches E-Feld $\iff$ Gravitationsfeld
+Wie im Schwerefeld der Erde gilt auch im [Elektrischen Feld](Elektrisches%20Feld.md) der Energie-Erhaltungssatz 
+
+Die Arbeit und das Potenzial (von Potentielle Energie) im Statischen E-Feld führt uns zur elektrischen Spannung
+
+## Statisches [E-Feld](Elektrisches%20Feld.md) $\iff$ Gravitationsfeld
 
 |                Gravitationskraft                 |                  [Elektrische Kraft](Elektrische%20Kraft.md) / [Coulomb-Kraft](Elektrische%20Kraft.md)                  |
 |:------------------------------------------------:|:-------------------------------------------------------------------:|
@@ -49,14 +52,14 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$ |
 |          ![\|400](assets/GravKraft.png)          |    ![\|525](assets/EKraft.png)                                                                 |
 
-|               Gravitationsfeld der Erde mit der Masse $M$                |           Elektrisches Feld einer Ladung $Q$            |
+|               Gravitationsfeld der Erde mit der Masse $M$                |           [Elektrisches Feld](Elektrisches%20Feld.md) einer Ladung $Q$            |
 | :----------------------------------------------------------------------: | :-----------------------------------------------------: |
 | $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ | $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$ |
 |                      ![\|425](assets/GravFeld.png)                       |               ![\|400](assets/EFeld.png)                |
 
 | $F_{G}$                                                                                 | $F_{E}$                                                                                  |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine Kraft $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene E-Feld $\vec{E}$ eine Kraft |
+| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine [Kraft](../Physik/Newtonsche%20Axiome.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene [E-Feld](Elektrisches%20Feld.md) $\vec{E}$ eine [Kraft](../Physik/Newtonsche%20Axiome.md) |
 
 > [!warning] Unterschied zum G-Feld
 > Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.
@@ -69,9 +72,10 @@ $$
 \end{align}
 $$
 
-## [Potenzielle Energie](../Physik/potenzielle%20Energie.md) Im elektrischen Feld
-
 # Beispiele
+
+- Überlegung zu [Linienladung](Linienladung.md)
+- Überlegung zu [Flächenladung](Flächenladung.md)
 
 > [!EXAMPLE]- Stromfluss in Leitern  
 > ![](assets/AufgabeLeitfaehigkeit.png)

@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - E-Feld
 aliases:
   - E-Feld
   - E-Feldstärke
   - Elektrische Feldstärke
   - elektrisches Feld
+  - elektrischen Feld
 keywords: 
 subject:
   - Einf. ET
@@ -18,7 +20,7 @@ professor:
 
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 
-> [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
+> [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische [Ladung](Statisches%20E-Feld.md) tragen.
 
 # Tags
 
