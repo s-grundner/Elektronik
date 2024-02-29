@@ -43,7 +43,7 @@ Für das Arbeiten mit Zeichenketten gibt es eine Vielzahl von hilfreichen Funkti
 
 | Funktion                                                 | Beschreibung                                                                                                                                        |
 | -------------------------------------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `char *strcpy(s,ct)`                                     | Zeichenkette **ct** in Vektor **s** kopieren, inklusive **'\0'**; liefert **s.**                                                                    |
+| `char *strcpy(s,ct)`                                     | Zeichenkette **ct** in [Vektor](../../Mathematik/mathe%20(3)/Vektor.md) **s** kopieren, inklusive **'\0'**; liefert **s.**                                                                    |
 | `char *strncpy(s,ct,n)`                                  | höchstens **n** Zeichen aus **ct** in **s** kopieren; liefert **s**. Mit **'\0'** auffüllen, wenn **ct** weniger als **n** Zeichen hat.             |
 | `char *strcat(s,ct)`                                     | Zeichenkette **ct** hinten an die Zeichenkette **s** anfügen; liefert **s**.                                                                        |
 | `char *strncat(s,ct,n)`                                  | höchstens **n** Zeichen von **ct** hinten an die Zeichenkette **s** anfügen und **s** mit **'\0'** abschließen; liefert **s**.                      |
