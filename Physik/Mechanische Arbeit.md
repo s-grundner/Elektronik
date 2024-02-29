@@ -31,9 +31,14 @@ Die Arbeit (*Energieumsatz*) einer Kraft $\vec{F}$ bei Verschiebung um ein belie
 $$
 \begin{align*}
 dW &= \vec{F}\cdot d\vec{s}\\
-W &= \vec{F} \cdot d\vec{s} = |\vec{F}| \cdot|\vec{s}| \cdot \cos(\theta)
+W &= \int_{\vec{s_{0}}} \vec{F} \cdot d\vec{s} = |\vec{F}| \cdot|\vec{s_{0}}| \cdot \cos(\theta)
 \end{align*}
 $$
+
+Das Gravitationsfeld ist ein so genanntes *konservatives* Kraftfeld – die Arbeit die bei der Verschiebung zwischen zwei Punkten geleistet werden muss ist unabhängig vom gewählten Weg zwischen diesen beiden Punkten!
+
+> [!tl;dr] Es ist also egal ob man sich normal zu den Feldlinien bewegt und es wird keine Arbeit verrichtet.
+> Die potentielle Energie (das *Potenzial*) bleibt gleich.
 
 ## Flashcards
 
