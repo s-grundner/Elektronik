@@ -27,7 +27,7 @@ Elementarteilchen tragen [Ladungen](Statisches%20E-Feld.md) in Vielfachen einer 
 
 Ein wichtiger Unterschied zur Masse ist, dass die [Ladung](Statisches%20E-Feld.md) positiv und auch negativ sein kann - dies entspricht dem Verhalten, dass [Ladungen](Statisches%20E-Feld.md) einander sowohl abstoßen, als auch anziehen können!
 
-![](assets/Pasted%20image%2020240228202848.png)
+![](assets/EKraft.png)
 
 ## Flashcards
 

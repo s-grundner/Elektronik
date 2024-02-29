@@ -37,9 +37,7 @@ $$\vec{F}=q\cdot \vec{E}$$
 
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
-$$
-|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}
-$$
+$$|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
@@ -49,11 +47,11 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 |:------------------------------------------------:|:-------------------------------------------------------------------:|
 |            $\vec{F} = m\cdot \vec{g}$            |                     $\vec{F} = q \cdot \vec{E}$                     |
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ | $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$ |
-|          ![\|400](assets/GravKraft.png)          |    ![\|400](assets/EKraft.png)                                                                 |
+|          ![\|400](assets/GravKraft.png)          |    ![\|525](assets/EKraft.png)                                                                 |
 
 |               Gravitationsfeld der Erde mit der Masse $M$               |       Elektrisches Feld einer Ladung $Q$        |
 |:-----------------------------------------------------------------------:|:-----------------------------------------------:|
-| $\vec{g} = -G\cdot M\cdot \frac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ |                                                 |
+| $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ | $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$                                               |
 |                      ![\|425](assets/GravFeld.png)                      | ![\|425](assets/EFeld.png) | 
 
 ## Feldstärke in einem Leiter
