@@ -22,10 +22,10 @@ professor:
 # Elektrische Influenz
 
 > [!INFO] Bei Einbringung eines neutralen Leiters in ein *externes* (bestehendes) [elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) verschieben sich die beweglichen Leitungselektronen zunächst durch die auf sie wirkenden feldbedingten Kräfte.  
-> Die Influenz beschreibt die Verschiebung von Ladungen in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden.
+> Die Influenz beschreibt die Verschiebung von [Ladungen](Statisches%20E-Feld.md) in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden.
 
-> [!WARNING] Der Leiter bleibt insgesamt aber elektrisch neutral solange keine Ladungen hinzugefügt oder entfernt werden.  
-> Dadurch entsteht ein *lokales Ungleichgewicht* an Ladungen wodurch ein elektrisches Zusatzfeld erzeugt wird.
+> [!WARNING] Der Leiter bleibt insgesamt aber elektrisch neutral solange keine [Ladungen](Statisches%20E-Feld.md) hinzugefügt oder entfernt werden.  
+> Dadurch entsteht ein *lokales Ungleichgewicht* an [Ladungen](Statisches%20E-Feld.md) wodurch ein elektrisches Zusatzfeld erzeugt wird.
 > - dieses Zusatzfeld wirkt dem äußeren Feld entgegen
 
 ![](assets/elektrInfluenz.png)
@@ -39,5 +39,5 @@ professor:
 
 ## Flashcards
 
-*Influenz* beschreibt…;; die Verschiebung von Ladungen in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden.
+*Influenz* beschreibt…;; die Verschiebung von [Ladungen](Statisches%20E-Feld.md) in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden.
 <!--SR:!2024-02-29,1,230-->

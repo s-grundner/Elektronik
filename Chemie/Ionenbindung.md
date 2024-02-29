@@ -39,10 +39,10 @@ Ionenpaare bilden Ionengitter oder Kristallgitter:
 | $Na^{+}$             | $Fe^{3+}$    | $F^{-}$               |
 | $Mg^{2+}$            | $Fe^{2+}$    | $Cl^{-}$              |
 | $Al^{3+}$            |              | $O^{2-}$              |
-- Wechselnde Ladung bei Nebengruppen
+- Wechselnde [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) bei Nebengruppen
 - Die Summenformel beschreibt das Atomzahlverhältnis im Kristall.
-- **Die Ladungszahl ($^{+/-}$)** (= Ionenwertigkeit) gibt an, w.v. positive oder Negative Ladungen ein Ion Trägt
-- In einem Salz entsprechen eine bestimmte Anzahl positiver Ladungen **gleich viele** negative Ladungen $\rightarrow$ Die Verbindung ist *elektrisch neutral*
+- **Die Ladungszahl ($^{+/-}$)** (= Ionenwertigkeit) gibt an, w.v. positive oder Negative [Ladungen](../Elektrotechnik/Statisches%20E-Feld.md) ein Ion Trägt
+- In einem Salz entsprechen eine bestimmte Anzahl positiver [Ladungen](../Elektrotechnik/Statisches%20E-Feld.md) **gleich viele** negative [Ladungen](../Elektrotechnik/Statisches%20E-Feld.md) $\rightarrow$ Die Verbindung ist *elektrisch neutral*
 
 ## Binäre Ionenbindung (-id)
 
@@ -71,7 +71,7 @@ komplexes Anion an 2. Stelle mit Endung -at (kommt bei mehrfachem Vorkommen in K
 | $Al^{3+}/SO^{2-}_{4}$ | $Al_{2}(SO_{4})_{3}$ | Aluminiumsulfat |                      |
 | $Ka^{+}/PO_{4}$       | $K_{3}PO_{4}$        | Kaliumphosphat  |                      |
 
-Komplexes Kation: $NH_{4}^{+}$ Ammoniumion "+ Geladen"  
+Komplexes Kation: $NH_{4}^{+}$ Ammoniumion "+ [Geladen](../Elektrotechnik/Statisches%20E-Feld.md)"  
 $\rightarrow$ z.B.: $(NH_{4})_{2}SO_{4}$: Ammoniumsulfat
 
 ### Mehrfachvorkommende Atome Oder Komplexionen

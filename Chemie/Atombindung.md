@@ -73,7 +73,7 @@ Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektron
 
 ![unpch4.png|400](assets/unpch4.png)
 
-Unpolare Stoffe zeigen nach außen keine Ladung und sind deshalb im Wasser schwer löslich $\rightarrow$ **Hydrophob** (z.B.: Benzin).
+Unpolare Stoffe zeigen nach außen keine [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) und sind deshalb im Wasser schwer löslich $\rightarrow$ **Hydrophob** (z.B.: Benzin).
 
 ## Polare Atombindungen
 

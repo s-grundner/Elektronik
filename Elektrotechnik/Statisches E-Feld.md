@@ -1,7 +1,11 @@
 ---
 tags:
   - E-Feld
-aliases: 
+aliases:
+  - Ladung
+  - elektrisch geladen
+  - geladen
+  - Ladungen
 keywords: 
 subject:
   - Einf. ET
@@ -15,7 +19,7 @@ professor:
 ---
  
 
-# Statisches E-Feld
+# Statisches [E-Feld](Elektrisches%20Feld.md)
 
 > [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
 
@@ -24,12 +28,12 @@ professor:
 > Keine ruckartigen/schnelle Änderungen
 > in der HF Technik sind einige Phänomene der Elektrostatik nicht mehr gültig
 
-Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $E$ zugeordnet werden.  
-Die Kraft auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
+Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](Elektrisches%20Feld.md) $E$ zugeordnet werden.  
+Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus
 
 $$\vec{F}=q\cdot \vec{E}$$
 
-> [!success] Die Kraft auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $E$  
+> [!success] Die [Kraft](../Physik/Newtonsche%20Axiome.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $E$  
 
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
@@ -39,7 +43,7 @@ $$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
-> [!success] Die Coulomb-Kraft sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.  
+> [!success] Die [Coulomb-Kraft](Elektrische%20Kraft.md) sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.  
 > ![[../assets/Excalidraw/Drawing 2024-01-28 14.24.08.excalidraw]]
 
 ## Feldstärke in einem Leiter
@@ -50,7 +54,7 @@ $$
 \end{align}
 $$
 
-## Potenzielle Energie im elektrischen Feld
+## [Potenzielle Energie](../Physik/potenzielle%20Energie.md) Im elektrischen Feld
 
 # Beispiele
 
@@ -74,5 +78,5 @@ $$
 
 Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische Ladung tragen.
 <!--SR:!2024-02-29,1,230-->
-Wie verhält sich ein *Elektron* (kinematisch), welches in ein *in x-Richtung orientiertes* homogenes elektrisches Feld eingebracht wird?;;es beschleunigt in negative x-Richtung.
+Wie verhält sich ein *Elektron* (kinematisch), welches in ein *in x-Richtung orientiertes* homogenes [elektrisches Feld](Elektrisches%20Feld.md) eingebracht wird?;;es beschleunigt in negative x-Richtung.
 <!--SR:!2024-03-02,3,250-->

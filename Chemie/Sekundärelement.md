@@ -60,7 +60,7 @@ Kathode: (+): $\overset{+4}{MnO_{2}}+Li^{+}+e^{-}\longrightarrow \overset{+3}{Li
 | Pro                                      | Kontra                                   |
 | ---------------------------------------- | ---------------------------------------- |
 | hohe Energiedichte ($140 \frac{Wh}{kg}$) | Geringe Ströme                           |
-|                                          | Empfindlich gegenüber Ladung             |
+|                                          | Empfindlich gegenüber [Ladung](../Elektrotechnik/Statisches%20E-Feld.md)             |
 |                                          | Empfindlich gegenüber Temperatur Extrema |
 |                                          | Empfindlich gegenüber höhe Ströme        | 
 

@@ -49,7 +49,7 @@ $$
 
 --- 
 
-Ebenfalls kann die Ladung über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentialgleichung kommt.
+Ebenfalls kann die [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentialgleichung kommt.
 
 $$
 \begin{align*}

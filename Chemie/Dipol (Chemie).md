@@ -14,7 +14,7 @@ created: 15. November 2023
 | -------------------------- | ---------------------- | ------------------ |
 | $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl\|250](assets/VSF-HCl.png) | >![dpl\|250](assets/dpl.png) |
 
-Dipolpfeil zeigt zur negativen Ladung  
+Dipolpfeil zeigt zur negativen [Ladung](../Elektrotechnik/Statisches%20E-Feld.md)  
 Wichtigstes Dipolmolekül: $H_{2}O$
 
 ![dpl-h2o](assets/dpl-h2o.png)

@@ -8,7 +8,7 @@ created: 7th June 2022
 
 # Piezoelektrik
 
-> [!EXAMPLE] Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die Ladung abgeklungen?
+> [!EXAMPLE] Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) abgeklungen?
 > 
 > $$
 > \begin{align*}
@@ -52,11 +52,11 @@ Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehrer
 
 ## Piezoelektrischer Effekt
 
->[!INFO] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische Ladungen aus.
+>[!INFO] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische [Ladungen](../Elektrotechnik/Statisches%20E-Feld.md) aus.
 
 
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  
-Ladung die zugrunde liegende Deformation zu bestimmen.  
+[Ladung](../Elektrotechnik/Statisches%20E-Feld.md) die zugrunde liegende Deformation zu bestimmen.  
 Der Effekt ist nur von der Längenänderung nicht von Geschwindigkeit  
 bzw. [Beschleunigung](../Physik/Kinematik.md) der Deformation abhängig.
 
