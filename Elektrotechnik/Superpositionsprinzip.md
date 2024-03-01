@@ -23,9 +23,9 @@ Das Überlagerungsprinzip ist auf die *Linearität* der Schaltung zurückzuführ
 
 Mit dem Superpositionsprinzip lassen sich linear
 
-## Helmholtz
+## 1 Helmholtz
 
-## Elektrische [Ladungen](Statisches%20E-Feld.md)
+## 2 Elektrische [Ladungen](Statisches%20E-Feld.md)
 
 Durch die Linearität elektrischer Punktladungen lassen sich komplexere Ladungs-Geometrien leicht berechnen. 
 
