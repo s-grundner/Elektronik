@@ -12,7 +12,6 @@
   "obsidian-icon-folder",
   "homepage",
   "home-tab",
-  "obsidian-better-codeblock",
   "calendar",
   "buttons",
   "cmdr",
@@ -39,5 +38,8 @@
   "obsidian-trash-explorer",
   "vim-toggle",
   "table-editor-obsidian",
-  "global-search-and-replace"
+  "obsidian-auto-link-title",
+  "math-in-callout",
+  "obsidian-advanced-codeblock",
+  "header-enhancer"
 ]
