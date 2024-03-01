@@ -6,7 +6,7 @@ created: 23. September 2023
 
 # Subtrahierer
 
-## Helmholzsches Überlagerungsprinzip
+## Helmholzsches [Überlagerungsprinzip](../Elektrotechnik/Superpositionsprinzip.md)
 
 1. $U_{e1},U_{e2}=0, U_{a}1$
 2. $U_{e1}=0, U_{e2}, U_{a}2$

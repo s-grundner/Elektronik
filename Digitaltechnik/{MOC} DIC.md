@@ -50,7 +50,7 @@ created: 10th December 2022
 	- Dividierer
 	- Addierer
 	- Multiplizier
-	- Subtrahierer
+	- [Subtrahierer](../Hardwareentwicklung/OPV-Subtrahierer.md)
 - Zähler entwerfen
 - FlipFlops
 

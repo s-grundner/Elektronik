@@ -11,3 +11,5 @@ created: 31st January 2023
 ![450](assets/open-drain.png)
 
 # Tags
+
+[Phils Lab](https://www.youtube.com/watch?v=sCHK3P5tn7s)
