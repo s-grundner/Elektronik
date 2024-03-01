@@ -31,7 +31,7 @@ created: 28th September 2022
 > [!warning] Achtung: Auch für $m=n=p$ gilt i.a. nicht: $A B=B A$  
 > die Matrixmultiplikation ist also *nicht kommutativ*.
 
-## Rang einer Matrix
+## 1 Rang einer Matrix
 
 > [!important] Sei $A\in \mathbb{R}^{m\times n}$,  
 > dann ist der Rang von $A$: $Rg(A) \leq min\{m,n\}$
@@ -39,14 +39,14 @@ created: 28th September 2022
 > Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
 > Man könnte auch sagen, $Rg(A)$ ist die Dimension der [linearen Hüllen](Lineare%20Hülle.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
 
-## Operationen auf eine Matrix
+## 2 Operationen auf eine Matrix
 
 - [Invertierbarkeit](Invertierbarkeit.md)  
 - [Transponieren](Transponieren.md)  
 - [Determinante](Determinante.md)  
 - [[Matrixmultiplikation]]
 
-## Elementare Umformungen
+## 3 Elementare Umformungen
 
 Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix durch eine elementare Zeilenumformung hervorgeht.  
 Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\times n}$):
@@ -55,7 +55,7 @@ Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\ti
 - [[Skalierungsmatrix]] $S_i(\lambda)$
 - [Additionsmatrix](Additionsmatrix.md) $R_{i, j}(\lambda)$
 
-## Besondere Matrizen
+## 4 Besondere Matrizen
 
 - [Einheitsmatrix](Einheitsmatrix.md)  
 - [[Rotationsmatrix]]  

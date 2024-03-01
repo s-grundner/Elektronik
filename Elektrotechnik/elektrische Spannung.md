@@ -20,3 +20,11 @@ professor:
  
 
 # Elektrische Spannung
+
+> [!info] Die elektrische Spannung ist die Differenz des Potentials zweier Ladungen in einem Elektrischen Feld.
+> Potential: Wir erinnern uns an die Potentielle Energie.
+> Arbeit: $dW = \vec{F}\cdot d\vec{s}$
+> Im Schwerefeld der Erde: $dW_{p} = m\cdot g\cdot dh$
+> 
+
+> [!hint] Wir erinnern uns an die Potentielle Energie
