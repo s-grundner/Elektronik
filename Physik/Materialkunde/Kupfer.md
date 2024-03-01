@@ -20,6 +20,8 @@ temperature-coeff:
 
 # Kupfer
 
+## 1 Chemische Eigenschaften
+
 ---
 
 - [Metall](../../Chemie/Metallbindung.md)

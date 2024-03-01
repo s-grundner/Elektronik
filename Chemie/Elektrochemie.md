@@ -10,14 +10,14 @@ created: 21st August 2022
 
 > [!INFO] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
 >Bei Kontakt unterschiedlicher Metalle mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
->Elektrolyte (oder elektrische Leiter 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
+>Elektrolyte (oder [elektrische Leiter](Metallbindung.md) 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
 >$\rightarrow$ sind Leitfähig
 
-## Elektrolyse
+## 1 Elektrolyse
 
-Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit Strom.
+Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit [Strom](../Elektrotechnik/elektrischer%20Strom.md).
 
->[!EXAMPLE] Elektrolyse von $CuCl_{2}$ (Kupfer(II)-chlorid Lösung)  
+>[!EXAMPLE] Elektrolyse von $CuCl_{2}$ ([Kupfer](../Physik/Materialkunde/Kupfer.md)(II)-chlorid Lösung)  
 >![350](assets/Cucl.png)
 
 | [Reduktion](Oxidation%20und%20Reduktion.md) (Aufnahme von $e^{-}$) | [Oxidation](Oxidation%20und%20Reduktion.md) (Abgabe von $e^{-}$) |
@@ -30,7 +30,7 @@ Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 - **Zersetzungsspannung:** Mindestspannung für der Elektrolyse
 - **Schmelzflusselektrolyse:** Elektrolyse von Schmelzen
 
-### Berechnung Elektrolytischer Vorgänge
+### 1.1 Berechnung Elektrolytischer Vorgänge
 
 Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der Stromstärke $I$ und der Dauer des Stromflusses $t$:  
 $Q=I\cdot t$  
@@ -49,7 +49,7 @@ $Q = 15.78mol\cdot F \cdot 2$
 **$Q = 3.03\cdot 10^{3}As$**
 
 > [!EXAMPLE] Berechnung der bei einer Elektrolyse abgeschiedenen Masse  
-Wie viel Silber (Ag) kann ein Strom von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
+Wie viel [Silber](../Physik/Materialkunde/Silber.md) (Ag) kann ein [Strom](../Elektrotechnik/elektrischer%20Strom.md) von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
 $Ag^{+} + e^{-} \longrightarrow Ag$  
 $Q=I\cdot t = 200As$
 
@@ -76,12 +76,12 @@ $Q=I\cdot t = 0.5\cdot F$
 $I = \dfrac{0.5\cdot F}{1800}$  
 **$I = 26.801A$**
 
-## Spannungsreihe
+## 2 Spannungsreihe
 
 ![ElektrolyseNagel](assets/ElektrolyseNagel.png)
 
-**Eisennagel in Kupferlösung:** Kupfer scheidet sich ab und Eisen löst sich.  
-**Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und Kupfer bleibt Metallisch.  
+**Eisennagel in Kupferlösung:** [Kupfer](../Physik/Materialkunde/Kupfer.md) scheidet sich ab und Eisen löst sich.  
+**Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und [Kupfer](../Physik/Materialkunde/Kupfer.md) bleibt Metallisch.  
 unedles Fe geht gerne in Lösung! → Lösung wird grün  
 edleres Cu bleibt gerne metallisch oder scheidet sich ab!
 
@@ -91,18 +91,18 @@ $Fe + Cu^{2+} \longrightarrow Fe^{2+} + Cu\downarrow$
 
 Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es.
 
-### [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) Der Metalle
+### 2.1 [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) Der Metalle
 
 - unedle Metalle in $HCl$ löslich
 - edle Metalle in $HCl$ unlöslich
 
-### Galvanisches Element
+### 2.2 Galvanisches Element
 
 elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
 ![675](assets/DaniellEL.png)  
 [](Primärelement.md#Daniell-Element)
 
-#### Beim Schließen Des Stromkreises Passiert Folgendes
+#### 2.2.1 Beim Schließen Des Stromkreises Passiert Folgendes
 
 1. Unedleres $Zn$ löst sich auf ([Oxidation](Oxidation%20und%20Reduktion.md))  
    $Zn\longrightarrow Zn^{2+}+2e^{-}$
@@ -115,14 +115,14 @@ elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Me
    
 4. Stromkreis ist geschlossen
 
-#### Welche Spannung Entsteht
+#### 2.2.2 Welche [Spannung](../Elektrotechnik/Spannung.md) Entsteht
 
-Spannung bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
-Spannung $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
+[Spannung](../Elektrotechnik/Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
+[Spannung](../Elektrotechnik/Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
 
-### Standard-Wasserstoffelektrode
+### 2.3 Standard-Wasserstoffelektrode
 
-Spannung eines einzelnen Metalls kann nicht angegeben werden.  
+[Spannung](../Elektrotechnik/Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
 Vermessung gegen eine Bezugselektrode ist notwendig.  
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$  
 ![DaniellEL2](assets/DaniellEL2.png)  
@@ -146,13 +146,13 @@ Edle Metalle: efließen von Wasserstoffhalbzelle zum edlen [Metall](Metallbindun
 
 Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektrochemische%20Spannungsreihe.md) aufstellen.
 
-## Technische Nutzbare Galvanische Elemente
+## 3 Technische Nutzbare Galvanische Elemente
 
-### [Primärelement](Primärelement.md)
+### 3.1 [Primärelement](Primärelement.md)
 
 Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ [Batterie](Primärelement.md)  
 
-### [Sekundärelement](Sekundärelement.md)
+### 3.2 [Sekundärelement](Sekundärelement.md)
 
 Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ [Akkumulator](Sekundärelement.md) 
 

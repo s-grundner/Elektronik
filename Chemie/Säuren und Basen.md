@@ -67,7 +67,7 @@ Nichtmetall-Oxide + $H_{2}O$ ergeben Säuren
 $CO_{2}+H_{2}O\longrightarrow \underbrace{H_{2}CO_{3}}_{\text{Kohlensäure}}\longrightarrow 2H^{+}_{(aq.)}+CO_{3(aq.)}^{2-}$  
 $SO_{2}+H_{2}O\longrightarrow \underbrace{H_{2}SO_{3}}_{\text{schwefelige Säure}}\longrightarrow 2H^{+}_{(aq.)}+SO_{3(aq.)}^{2-}$
 
-Metall-Oxide + $H_{2}O$ ergeben Basen  
+[Metall](Metallbindung.md)-Oxide + $H_{2}O$ ergeben Basen  
 $Li_{2}O+H_{2}O\longrightarrow2LiOH\longrightarrow 2Li^{+}_{(aq.)} + 2OH^{-}_{(aq.)}$  
 $MgO+H_{2}O\longrightarrow Mg(OH)_{2}\longrightarrow Mg^{2+}_{(aq.)}+2OH^{-}_{(aq.)}$
 

@@ -3,8 +3,6 @@ tags:
   - Chemie/Anorganisch
 aliases:
   - Metall
-  - elektrischer Leiter
-  - elektrische Leiter
   - Drude
 subject:
   - chemie
@@ -24,7 +22,7 @@ Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas 
 
 Aus Gitteraufbau folgt:
 - bei Raumtemperatur sind diese fest (Ausnahmen: $Hg,Cs,Ga$)
-- sehr gute elektrische Leiter (Leiter 1. Klasse)
+- sehr gute [elektrische Leiter](elektrischer%20Leiter.md) (Leiter 1. Klasse)
 - sind glänzend
 - sind duktil (mechanisch verformbar) $\rightarrow$ Gitterebenen gleiten übereinander
 - bilden **Legierungen** (Atome im Metallgitter können ausgetauscht werden)
@@ -49,6 +47,6 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 > > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md) verursacht werden
 > 
 
-### 2.1 Drude-Modell
+### 2.1 Drude-Modell - Modell für den elektrischen Strom
 
 ![|600](assets/Drude.png)
