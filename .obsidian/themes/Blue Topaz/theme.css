@@ -4950,12 +4950,12 @@ body {
   --radius-l: 15px;
 
   --background-settings-workplace-theme-light-custom: url("https://");
-  --background-settings-workplace-theme-dark-custom: url("https://");
+  --background-settings-workplace-theme-dark-custom: url("https://github.com/s-grundner/Elektronik/blob/d127a14e0ef43aee89984e8678358f1e508b2356/assets/banner/NotesBG.jpg");
   --background-command-palette-theme-light-custom: url("https://");
-  --background-command-palette-theme-dark-custom: url("https://");
-  --background-panel-page-theme-dark-custom: url("https://");
+  --background-command-palette-theme-dark-custom: url("https://github.com/s-grundner/Elektronik/blob/d127a14e0ef43aee89984e8678358f1e508b2356/assets/banner/NotesBG.jpg");
+  --background-panel-page-theme-dark-custom: url("https://github.com/s-grundner/Elektronik/blob/d127a14e0ef43aee89984e8678358f1e508b2356/assets/banner/NotesBG.jpg");
   --background-panel-page-theme-light-custom: url("https://");
-  --background-markdown-page-theme-dark-custom: url("https://");
+  --background-markdown-page-theme-dark-custom: url("https://github.com/s-grundner/Elektronik/blob/d127a14e0ef43aee89984e8678358f1e508b2356/assets/banner/NotesBG.jpg");
   --background-markdown-page-theme-light-custom: url("https://");
   --blur-depth: 10px;
   --blur-depth-cp: 10px;
