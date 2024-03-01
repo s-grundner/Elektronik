@@ -9,7 +9,7 @@ created: 21st August 2022
 # Elektrochemie
 
 > [!INFO] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
->Bei Kontakt unterschiedlicher Metalle mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
+>Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
 >Elektrolyte (oder [elektrische Leiter](Metallbindung.md) 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
 >$\rightarrow$ sind Leitfähig
 
@@ -91,10 +91,10 @@ $Fe + Cu^{2+} \longrightarrow Fe^{2+} + Cu\downarrow$
 
 Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es.
 
-### 2.1 [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) Der Metalle
+### 2.1 [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) Der [Metalle](Metallbindung.md)
 
-- unedle Metalle in $HCl$ löslich
-- edle Metalle in $HCl$ unlöslich
+- unedle [Metalle](Metallbindung.md) in $HCl$ löslich
+- edle [Metalle](Metallbindung.md) in $HCl$ unlöslich
 
 ### 2.2 Galvanisches Element
 
@@ -131,8 +131,8 @@ $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 
 - $p = 1 bar$ 
 - $T = 25°C$
 
-Unedle Metalle: $e^{-}$ fließen zur Wasserstoffhalbzelle; [Metall](Metallbindung.md) löst sich auf $E° < 0$  
-Edle Metalle: efließen von Wasserstoffhalbzelle zum edlen [Metall](Metallbindung.md); [Metall](Metallbindung.md) scheidet sich ab. $E° > 0$  
+Unedle [Metalle](Metallbindung.md): $e^{-}$ fließen zur Wasserstoffhalbzelle; [Metall](Metallbindung.md) löst sich auf $E° < 0$  
+Edle [Metalle](Metallbindung.md): efließen von Wasserstoffhalbzelle zum edlen [Metall](Metallbindung.md); [Metall](Metallbindung.md) scheidet sich ab. $E° > 0$  
 [(° = Standard)](Elektrochemische%20Spannungsreihe.md)
 
 **Standard-Wasserstoffelektrode:**

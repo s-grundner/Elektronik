@@ -4,6 +4,7 @@ tags:
 aliases:
   - Metall
   - Drude
+  - Metalle
 subject:
   - chemie
 created: 31. August 2023
@@ -16,7 +17,7 @@ professor:
 
 ![inlineR|340](assets/metall_bdg_anim.gif)
 
-Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas (auch Fermi-Gas) halten das Metallgitter zusammen.
+Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas (auch Fermi-[Gas](../Physik/Allgemeines%20Gasgesetz.md)) halten das Metallgitter zusammen.
 
 ## 1 Eigenschaften Von Metallen
 
@@ -30,7 +31,7 @@ Aus Gitteraufbau folgt:
 >[!NOTE] Legierung  
 Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
 
-## 2 Elektrische Leitfähigkeit
+## 2 [Elektrische Leitfähigkeit](elektrischer%20Leiter.md)
 
 > [!QUESTION] In elektrischen Leitern liegen bewegliche Ladungsträger vor.
 
@@ -47,6 +48,6 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 > > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md) verursacht werden
 > 
 
-### 2.1 Drude-Modell - Modell für den elektrischen Strom
+### 2.1 Drude-Modell - Modell für den elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
 ![|600](assets/Drude.png)

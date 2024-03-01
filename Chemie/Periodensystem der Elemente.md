@@ -58,7 +58,7 @@ Bei den Elementen der Lanthanoide (seltene Erden) und Actinoide (Transurane) wer
 
 - Gruppen (I-VIII)
 - zuletzt eingebaute $e^{-}$ befinden sich sich soder p-Orbitale-
-- links Metalle
+- links [Metalle](Metallbindung.md)
 - rechts Nichtmetalle / Halbmetalle (siehe oben)
 
 | Hauptgruppe | Name                          |
@@ -80,7 +80,7 @@ Aus dem Atombau lassen sich einige Eigenschaften der Elemente ableiten.
    $Na\longrightarrow Na^{+}+e^{-}$  
    $Mg\longrightarrow Mg^{2+}+2e^{-}$  
    $Al\longrightarrow Al^{3+}+3e^{-}$  
-   Elemente die [Kationen](Ionenbindung.md) bilden sind Metalle und stehen links im PSE
+   Elemente die [Kationen](Ionenbindung.md) bilden sind [Metalle](Metallbindung.md) und stehen links im PSE
 
 
 4. Elemente mit vielen [Valenzelektronen](Valenzelektronen.md) nehmen $e^{-}$ auf.  
@@ -106,7 +106,7 @@ Innerhalb einer Periode werden Atome kleiner, weil die Anziehungskräfte zwische
 ## Metallcharakter
 
 >![200](assets/x-ab_y-zu.png)
-- Metalle sind Elemente mit hoher Leitfähigkeit.
+- [Metalle](Metallbindung.md) sind Elemente mit hoher Leitfähigkeit.
 - $e^{-}$ müssen locker sitzen.
 - Dies ist bei größeren Atomen der Fall: stehen links und weiter unten im PSE.
 
@@ -116,7 +116,7 @@ Innerhalb einer Periode werden Atome kleiner, weil die Anziehungskräfte zwische
 
 >![200](assets/x-zu_y-ab.png)
 - Jene Energie die notwendig ist, um ein $e^{-}$ vom Atom abzutrennen.
-- Metalle (große Atome) sind leichter Ionisierbar.
+- [Metalle](Metallbindung.md) (große Atome) sind leichter Ionisierbar.
 - $Cs$ braucht weniger *IE* als $Li$.
 
 ## Elektronenaffinität (EA)

@@ -135,7 +135,7 @@ $H_{2}SO_{4}\longrightarrow H^{+}+HSO_{4}^{-}\longrightarrow 2H^{+}+SO_{4}^{2-}$
 
 ## Wichtige Basen
 
-Oxide der Metalle reagieren mit $H_{2}O$ zu basischen Lösungen.  
+Oxide der [Metalle](Metallbindung.md) reagieren mit $H_{2}O$ zu basischen Lösungen.  
 $Na_{2}O+H_{2}O\longrightarrow 2NaOH\longrightarrow 2Na^{+}_{(aq.)}+2OH^{-}_{(aq.)}$
 
 | Name(n)                                                | Formel       |

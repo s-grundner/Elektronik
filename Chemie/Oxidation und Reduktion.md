@@ -63,7 +63,7 @@ Chemische Reaktionen mit $e^{-}$ Übertragungen (Oxidation und Reduktion laufen 
 
 Reduktionsmittel:
 - geben gerne $e^{-}$ ab und werden selbst oxidiert
-- Metalle mit geringer Elektronegativität (Alkalimetalle)
+- [Metalle](Metallbindung.md) mit geringer Elektronegativität (Alkalimetalle)
  - z.B.: $H_{2}, Mg, C$ 
 
 Oxidationsmittel:
@@ -104,7 +104,7 @@ $$
 1. Elemente = 0
 2. Summe der Oxidationszahl einer Verbindung = 0
 3. Ionenladung = Oxidationszahl
-4. Metalle immer positiv:
+4. [Metalle](Metallbindung.md) immer positiv:
 	- $\rightarrow$ Alkalimetalle +1 
 	- $\rightarrow$ Erdalkalimetalle +2 
 5. Halogene: -1
