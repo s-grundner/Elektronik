@@ -12,5 +12,4 @@ professor:
 ---
  
 
-# elektrischer Strom
-
+# Elektrischer Strom
