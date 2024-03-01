@@ -37,4 +37,4 @@ professor:
 > Aus dem bestimmten Integral ergibt sich mit den Grenzen $A$ $B$ die Potenzialdifferenz von $\varphi(B)$ und $\varphi(A)$ und somit die Spannung.
 > Mit dem zusätzlichen Faktor der Ladung muss für die Spannung auch *Arbeit pro Ladung* gelten ($U = \frac{W}{q}$)
 
-## Wie kommt das E-Feld in den Leiter?
+## 1 Wie kommt das E-Feld in den Leiter?
