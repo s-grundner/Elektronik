@@ -15,7 +15,7 @@ created: 21st August 2022
 
 ## Elektrolyse
 
-Abscheidung von Stoffen durch Strom beziehungsweise Zerlegung mit Strom.
+Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit Strom.
 
 >[!EXAMPLE] Elektrolyse von $CuCl_{2}$ (Kupfer(II)-chlorid Lösung)  
 >![350](assets/Cucl.png)

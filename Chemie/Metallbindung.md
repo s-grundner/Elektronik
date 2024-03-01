@@ -5,20 +5,22 @@ aliases:
   - Metall
   - elektrischer Leiter
   - elektrische Leiter
+  - Drude
 subject:
   - chemie
 created: 31. August 2023
 professor:
   - Fritz Struber
+  - Bernhard Jakoby
 ---
 
 # Metallbindung
 
 ![inlineR|340](assets/metall_bdg_anim.gif)
 
-Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas halten das Metallgitter zusammen.
+Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas (auch Fermi-Gas) halten das Metallgitter zusammen.
 
-## Eigenschaften Von Metallen
+## 1 Eigenschaften Von Metallen
 
 Aus Gitteraufbau folgt:
 - bei Raumtemperatur sind diese fest (Ausnahmen: $Hg,Cs,Ga$)
@@ -30,7 +32,7 @@ Aus Gitteraufbau folgt:
 >[!NOTE] Legierung  
 Mischung von min. zwei Metallen (oder Metalle und Nichtmetalle)
 
-## Elektrische Leitfähigkeit
+## 2 Elektrische Leitfähigkeit
 
 > [!QUESTION] In elektrischen Leitern liegen bewegliche Ladungsträger vor.
 
@@ -44,4 +46,9 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 > [!HINT] Die Leitungselektronen führen eine thermische Wimmelbewegung aus.  
 > Der [Betrag](../Mathematik/Betrag.md) dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
 >
-> > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen Strom verursacht werden
+> > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md) verursacht werden
+> 
+
+### 2.1 Drude-Modell
+
+![|600](assets/Drude.png)

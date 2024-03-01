@@ -2,7 +2,7 @@
 
 Evergreen-Skriptum meines Elektronik-Lehrgangs, verfasst im Markdown Editor [Obsidian](https://obsidian.md/)
 
-## Skriptum Aktualisieren
+## 1	Skriptum Aktualisieren
 
 ```
 Ctrl+P //Öffnet die Befehlszeile
@@ -23,7 +23,10 @@ oder mit dem winget Tool:
 winget install --id Git.Git -e --source winget
 ```
 
-## Disclaimer: Ohne 🔫
+## 2	Disclaimer: Ohne 🔫
+
+Die in den Notizen verfassten Fakten dienen ausschließlich zur Weiterbildung des Autors und werden nicht mit Quellen bestätigt. 
+Daher ist es dem Leser überlassen, ob er diese Fakten als glaubwürdig erachtet.
 
 Aufgrund der Evergreen Philosophie dieser Zusammentragung an Lehrmaterial, kann es durchaus provisorische bzw. unvollständige Dateien geben.  
 Der Fortschritt dieses Skriptums steht direkt im Zusammenhang mit der Fortbildung des Autors. 

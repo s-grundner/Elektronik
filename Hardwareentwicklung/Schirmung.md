@@ -8,7 +8,7 @@
 > [!IMPORTANT] ESB  
 > ![500](assets/Pasted%20image%2020230316091915.png)
 
-Der Schirm muss jeweils aus gut leitendem Material bestehen, damit der über ihn abfließende Strom keinen nennenswerten Spannungsabfall über der Schirmimpedanz $Z_{s} = R_{s}+j\omega L_{s}$ erzeugt.
+Der Schirm muss jeweils aus gut leitendem Material bestehen, damit der über ihn abfließende [Strom](../Elektrotechnik/elektrischer%20Strom.md) keinen nennenswerten Spannungsabfall über der Schirmimpedanz $Z_{s} = R_{s}+j\omega L_{s}$ erzeugt.
 
 ![700](assets/SchirmLeiterbahn.png)
 
