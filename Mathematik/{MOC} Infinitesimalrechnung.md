@@ -6,6 +6,8 @@ aliases:
   - Infinitesimalrechnung
   - Calculus
   - "#Infinitesimalrechnung"
+  - infinitesimal
+  - infinitesimalen
 subject:
   - mathe
 source:
@@ -21,4 +23,5 @@ LIST FROM #Infinitesimalrechnung
 
 ## Wozu die Infinitesimalrechnung
 
- Die Infinitesimalrechnung befasst sich mit beliebig kleinen Änderungen.
+ Die Infinitesimalrechnung befasst sich mit beliebig kleinen Änderungen/Inkrementen.
+ 

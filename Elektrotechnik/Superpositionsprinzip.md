@@ -21,10 +21,9 @@ professor:
 
 Das Überlagerungsprinzip ist auf die *Linearität* der Schaltung zurückzuführen.
 
-Das Superpositionsprinzip
+Mit dem Superpositionsprinzip lassen sich linear
 
 ## Helmholtz
-
 
 ## Elektrische [Ladungen](Statisches%20E-Feld.md)
 
@@ -32,6 +31,7 @@ Durch die Linearität elektrischer Punktladungen lassen sich komplexere Ladungs-
 
 > [!hint] Zur Erinnerung:
 > Superponieren heißt: Gesamtergebnis ist die Summe der einzelnen Teilergebnisse
-> Aneinanderreihung von Punktladungen: *Pub*   
+> 
+> Aneinanderreihung von Punktladungen: *Punkte* sind beliebig klein $\to$ Summieren von [infinitesimalen](../Mathematik/{MOC}%20Infinitesimalrechnung.md) Punkten ist *[Integrieren](../Mathematik/mathe%20(3)/Integralrechnung.md)*   
 
 ![Linienladung](Linienladung.md)
