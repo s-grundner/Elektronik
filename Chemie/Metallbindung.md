@@ -4,6 +4,7 @@ tags:
 aliases:
   - Metall
   - Metalle
+  - Metallen
 subject:
   - chemie
 created: 31. August 2023

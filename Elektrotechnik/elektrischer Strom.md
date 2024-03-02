@@ -49,6 +49,9 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 > *==Positive==* [Ladung](Statisches%20E-Feld.md) *in* die definierte **Stromrichtung** sowie ***==negative==*** [Ladung](Statisches%20E-Feld.md) in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
 > Dies entspricht der sogenannten ***technischen Stromrichtung***
 
- > [!hint] In Metallen tragen **nur** negativ geladene Elektronen zum Storm bei!
+ > [!hint] In [Metallen](../Chemie/Metallbindung.md) tragen **nur** negativ geladene Elektronen zum Storm bei!
  > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
- 
+
+## 1 Joule'sche Wärme
+
+d
