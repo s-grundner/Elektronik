@@ -96,14 +96,6 @@
       "key": "ArrowUp"
     }
   ],
-  "workspace:move-to-new-window": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "W"
-    }
-  ],
   "editor:set-heading": [
     {
       "modifiers": [

@@ -16,17 +16,17 @@ professor:
 ---
  
 
-# Temperatur abhängiger Widerstand
+# [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) abhängiger Widerstand
 
 ## NTC - Heißleiter
 
 > [!info] Der NTC (negative temperature coefficient) weist bei *höheren* Temperaturen einen *niedrigeren* Widerstand auf.  
-> Der Widerstand ist also *indirekt* proportional zur Temperatur 
+> Der Widerstand ist also *indirekt* proportional zur [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) 
 
 ## PTC - Kaltleiter
 
 > [!info] Der PTC (positive temperature coefficient) wiest bei *höheren* Temperaturen einen *höheren* Widerstand  
-> Der Widerstand ist also *direkt* proportional zur Temperatur.
+> Der Widerstand ist also *direkt* proportional zur [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md).
 
 # Beispiele
 

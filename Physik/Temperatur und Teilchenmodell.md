@@ -4,12 +4,13 @@ aliases:
   - Temperatur
   - Brown'sche Bewegung
   - thermisch
+  - thermische
 subject:
   - physik
 source:
   - Angela Lindner
 created: 18th August 2022
-banner: Physik/assets/thermodynamik2.png
+banner: "Physik/assets/thermodynamik2.png"
 banner_x: 1
 ---
 
@@ -24,7 +25,7 @@ banner_x: 1
 ## 2 Brown'sche [Bewegung](Kinematik.md) und Innere Energie
 
 - Die Atome eines Körpers sind auch ohne Krafteinwirkung von außen immer in [Bewegung](Kinematik.md).
-- Einen Festkörper kannst du dir als *Feder-Kugel-Modell* vorstellen.
+- Einen Festkörper kannst du dir als *[Feder](Federkraft.md)-Kugel-Modell* vorstellen.
 - ![braunschebewegung](assets/braunschebewegung.png)
 - Die Summe aller kinetischen und potentiellen Energien der Atome eines Körpers wird als **innere Energie** bezeichnet.
 
