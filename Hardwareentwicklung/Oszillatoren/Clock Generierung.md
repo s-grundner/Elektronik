@@ -1,5 +1,5 @@
 ---
-tags: ["Microcontroller", "Baugruppen/Oszillator"]
+tags: ["MCU", "Baugruppen/Oszillator"]
 aliases: ["Clock", "Oszillatoren"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

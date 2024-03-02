@@ -1,5 +1,5 @@
 ---
-tags: ["Microcontroller", "Baugruppen/Oszillator"]
+tags: ["MCU", "Baugruppen/Oszillator"]
 aliases: ["Schwingquarz", "XTAL", "Crystaloscillator", "Quarz"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

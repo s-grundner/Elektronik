@@ -1,29 +1,36 @@
 ---
-tags: ["MOC"]
-aliases: ["Schnittstellen", "Schnittstelle"]
-subject: ["dic"]
-source: ["Robert Vogl"]
+tags:
+  - MOC
+  - Interface
+aliases:
+  - Schnittstellen
+  - Schnittstelle
+  - Interface
+subject:
+  - dic
+source:
+  - Robert Vogl
 created: 11th April 2022
 ---
 
 # Map of Content - Schnittstellen
 
-## Serial
+## 1 Serial
 
-### Synchron
+### 1.1 Synchron
 
 ```dataview
 LIST FROM #Interface/Serial/Sync 
 SORT file.name
 ```
 
-### Asynchron
+### 1.2 Asynchron
 
 ```dataview
 LIST FROM #Interface/Serial/Async 
 ```
 
-## Parallel
+## 2 Parallel
 
 ```dataview
 LIST FROM #Interface/Parallel

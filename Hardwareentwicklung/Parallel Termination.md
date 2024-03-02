@@ -23,7 +23,7 @@ created: 25. September 2023
 > Ist die [Leitung](../HF-Technik/Leitungstheorie.md) elektrisch lang?
 > Anwendungen:
 > - DDR ($V_{TT}$ Abschluss)
-> - [CAN](../Digitaltechnik/CAN.md) (Split-Parallelabschluss)
+> - [CAN](../Digitaltechnik/Interfaces/CAN.md) (Split-Parallelabschluss)
 > - LVDS
 
  | Ohne Abschluss                                  | parallel Abschluss [^1] |

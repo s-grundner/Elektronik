@@ -1,8 +1,15 @@
 ---
-tags: ["AVR"]
-aliases: ["CrumbTL", "CrumTL", "ATmega644p", "at644p"]
-subject: ["dic"]
-source: ["Robert Vogl"]
+tags:
+  - MCU/AVR
+aliases:
+  - CrumbTL
+  - CrumTL
+  - ATmega644p
+  - at644p
+subject:
+  - dic
+source:
+  - Robert Vogl
 created: 21st March 2022
 ---
 
@@ -211,7 +218,7 @@ int main()
 
 # Tags
 
-- [Schnittstellen]({MOC}%20Schnittstellen.md)
+- [Schnittstellen](Interfaces/{MOC}%20Schnittstellen.md)
 - [AVR Tips and API](https://onlinedocs.microchip.com/pr/GUID-78362176-487F-41B9-95C7-B478A9A186EB-en-US-2/index.html?GUID-E8E50411-4A61-4C7B-A8FD-7E07E93F6DDE)
 - [Instruction_Set_8bit](assets/pdf/Instruction_Set_8bit.pdf)
 - [at644p](assets/pdf/at644p.pdf)

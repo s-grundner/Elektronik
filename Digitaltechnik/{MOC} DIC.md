@@ -32,7 +32,7 @@ created: 10th December 2022
 
 - Microcontroller
 - AVR ([ATmega644p](AVR%20ATmega644p.md))
-- Digitale [Schnittstellen]({MOC}%20Schnittstellen.md)
+- Digitale [Schnittstellen](Interfaces/{MOC}%20Schnittstellen.md)
 - Embedded [Algorithms](../software-technik/ds-algo/{MOC}%20Algorithms.md)
 
 ## 5. JG
@@ -69,7 +69,7 @@ created: 10th December 2022
 - ADC
 - Ext INT
 - Timer INT
-- Serielle [Schnittstelle]({MOC}%20Schnittstellen.md)
+- Serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md)
 
 ### [Ringbuffer](Ringbuffer.md)
 

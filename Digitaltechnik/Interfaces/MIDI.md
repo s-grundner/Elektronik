@@ -12,7 +12,7 @@ Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die 
 
 > [!EXAMPLE] Beispiel
 > 
-> Die [Grenzfrequenz](../Hardwareentwicklung/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
+> Die [Grenzfrequenz](../../Hardwareentwicklung/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
 > 
 > ![750|443](assets/MIDI-DigiFilter.png)
 
@@ -44,7 +44,7 @@ Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status und Kana
 | Program Change    | 0xC      | Wechselt zwischen verschiedene Klänge und Instrumente                                                     |
 | Channel Pressure  | 0xD      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für alle Noten auf dem Kanal)                        |
 | Pitch Bend        | 0xE      | Ändert die Tonhöhe des gesamten Kanals in feinen Schritten.                                               |
-| System Messages   | 0xF      | MIDI [Clock](../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](../Hardwareentwicklung/Reset%20Generierung.md), Active Sensing |
+| System Messages   | 0xF      | MIDI [Clock](../../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](../../Hardwareentwicklung/Reset%20Generierung.md), Active Sensing |
 
 ### MIDI Kanal
 
@@ -67,15 +67,15 @@ Für das Projekt sind nur die Funktionen _Note On_ und _Note Off_ relevant, wesh
 
 Im Datenbyte eins ist bei beiden Status die Adresse der Note gespeichert, während in Byte zwei die Anschlagstärke übertragen wird. Ungewöhnlicherweise wird auch beim Ausschalten einer Note die Anschlagstärke (Loslass-Geschwindigkeit) übertragen, welche je nach Empfänger beispielsweise als Nachklang interpretiert werden könnte. [^1]
 
-Die Adresse der Note lässt sich wie folgt herausfinden: Die Note A0 entspricht der Adresse 21 ([dezimal](../Technische%20Informatik/Zahlensysteme.md)). Von dort aus zählt man linear aufwärts bis 127, welches der Note G9 entspricht. Noten unter A0 können auch übertragen werden, jedoch sind die Frequenzen, welcher sie entsprechen, nicht mehr im hörbaren Bereich. Die Anschlagstärke einer Note bestimmt die Initiale Lautstärke. Hat seine Note die Anschlagstärke 0, so wird sie automatisch als _Note Off_ interpretiert. [^1] [^2] [^3] 
+Die Adresse der Note lässt sich wie folgt herausfinden: Die Note A0 entspricht der Adresse 21 ([dezimal](../../Technische%20Informatik/Zahlensysteme.md)). Von dort aus zählt man linear aufwärts bis 127, welches der Note G9 entspricht. Noten unter A0 können auch übertragen werden, jedoch sind die Frequenzen, welcher sie entsprechen, nicht mehr im hörbaren Bereich. Die Anschlagstärke einer Note bestimmt die Initiale Lautstärke. Hat seine Note die Anschlagstärke 0, so wird sie automatisch als _Note Off_ interpretiert. [^1] [^2] [^3] 
 
 Soll beispielsweise die Note E2 mit einer Anschlagstärke von 64 auf Kanal 1 angeschaltet werden, sieht das übertragene Wort folgendermaßen aus:
 
 |             | Status    | Kanal     | Byte 1<br>(Adresse) | Byte 2<br>(Anschlagstärke) |
 | ----------- | --------- | --------- | ------------------- | -------------------------- |
-| [Dezimal](../Technische%20Informatik/Zahlensysteme.md)     | 144       | 40        | 64                  |                            |
-| [Hexadezimal](../Technische%20Informatik/Zahlensysteme.md) | 0x90      | 0x28      | 0x40                |                            |
-| [Binär](../Technische%20Informatik/Zahlensysteme.md)       | 1001 0000 | 0010 1000 | 0100 0000           |                            |
+| [Dezimal](../../Technische%20Informatik/Zahlensysteme.md)     | 144       | 40        | 64                  |                            |
+| [Hexadezimal](../../Technische%20Informatik/Zahlensysteme.md) | 0x90      | 0x28      | 0x40                |                            |
+| [Binär](../../Technische%20Informatik/Zahlensysteme.md)       | 1001 0000 | 0010 1000 | 0100 0000           |                            |
 
 Nach dieser Übertragung bleibt die Note so lange angeschaltet, bis ein _Note Off_ Signal auf dieselbe Adresse und denselben Kanal gesendet wird.
 

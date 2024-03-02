@@ -1,7 +1,7 @@
 ---
 tags:
   - Interface/Serial/Async
-  - AVR
+  - MCU/AVR
 aliases:
   - USART
 subject:
@@ -19,9 +19,9 @@ Die Bus-Teilnehmer sind hierbei gleichgestellt, was heißt, dass des keinen Mast
 Die Daten werden einfach gesendet. Bei der Verdrahtung ist zu beachten, dass die Übertragungsleitungen überkreuzt angeschlossen werden müssen.  
 ![UART_Wiring](assets/UART_Wiring.png)
 
-UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft über eine USB-Bridge den Flashspeicher beschreiben. Die USB-Bridge spricht das System dabei mit UART an. Auch das Debuggen erfolgt meistens über diese serielle [Schnittstelle]({MOC}%20Schnittstellen.md).
+UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft über eine USB-Bridge den Flashspeicher beschreiben. Die USB-Bridge spricht das System dabei mit UART an. Auch das Debuggen erfolgt meistens über diese serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md).
 
-## Die Übertragenen Datenpakte Haben Folgendes Format
+## 1 Die Übertragenen Datenpakte Haben Folgendes Format
 
 ![UART_Frame](assets/UART_Frame.png)  
 Ein Startbit signalisiert dem Empfänger, dass eine Übertragung beginnt. Das Potential auf der Übertragungsleitung ist _Normally-High_ und wird durch das Startbit auf _Low_ gezogen. Anschließend folgt das Datenframe, welches je nach Konfiguration fünf bis neun Bit lang ist. Eine Paritätsbit dient zur Validierung der Übertragung. Dieses Bit kann aber auch im Controller ausgeschalten werden. Am Ende der Übertragung setzt ein Stop Bit den Bus wieder auf den Idle-Zustand.
@@ -34,7 +34,7 @@ USART Parameters:
 |:---------------------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:--------------:|:-------------------------:|
 | Tabelle<br>Datenblatt | RX<br>TX | 1 Bit <br> (Standard) | 8 Bit <br> (Standard) | Aus <br> (Standard) | UDRE, RXC, TXC | Asynchron <br> (Standard) |
 
-## USART RXC Interrupt
+## 2 USART RXC Interrupt
 
 ```c
 void usart_init(void)
@@ -77,7 +77,7 @@ int main(void)
 
 ---
 
-## USART UDRE Interrupt
+## 3 USART UDRE Interrupt
 
 ```c
 void usart_init(void)

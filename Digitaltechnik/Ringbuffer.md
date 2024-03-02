@@ -1,5 +1,5 @@
 ---
-tags: ["DS", "buffer", "AVR"]
+tags: ["DS", "buffer", "MCU/AVR"]
 aliases: ["Circular Buffer", "Circular Queue"]
 subject: ["dic", "fsst"]
 source: ["Robert Vogl"]
@@ -45,7 +45,7 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 ## AVR Example
 
-Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [Schnittstelle]({MOC}%20Schnittstellen.md) `usart0` des µC [ATmega644p](AVR%20ATmega644p.md)
+Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md) `usart0` des µC [ATmega644p](AVR%20ATmega644p.md)
 
 ### Header
 
@@ -81,8 +81,8 @@ void ringbuffer_init()
 	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
 ```
-Anschließend muss die Serielle [Schnittstelle]({MOC}%20Schnittstellen.md) initialisiert werden.  
-Serielle [Schnittstelle]({MOC}%20Schnittstellen.md):
+Anschließend muss die Serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md) initialisiert werden.  
+Serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md):
 
 | Baudrate |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |      Interrupt      |           Mode            |
 |:--------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:-------------------:|:-------------------------:|

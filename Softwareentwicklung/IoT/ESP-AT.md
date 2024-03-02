@@ -8,7 +8,7 @@ created: 7. Januar 2024
 
 ## ESP-AT Flash
 
-Um den [ESP32](ESP32.md) programmieren zu können, muss zuerst die Firmware (ESP-AT) auf den Chip heruntergeladen werden. Dafür kommt das ESP Flash Download Tool von Espressif zum Einsatz. Dieses Tool wir dafür benötigt, die Binary-Files der Firmware über USB auf den [SPI](../../Digitaltechnik/SPI.md)-Flash zu spielen. Im Nächsten muss zuerst das Tool heruntergeladen, entpackt und die .exe ausgeführt werden.
+Um den [ESP32](ESP32.md) programmieren zu können, muss zuerst die Firmware (ESP-AT) auf den Chip heruntergeladen werden. Dafür kommt das ESP Flash Download Tool von Espressif zum Einsatz. Dieses Tool wir dafür benötigt, die Binary-Files der Firmware über USB auf den [SPI](../../Digitaltechnik/Interfaces/SPI.md)-Flash zu spielen. Im Nächsten muss zuerst das Tool heruntergeladen, entpackt und die .exe ausgeführt werden.
 
 ![](assets/Flash_DL_Tools.png)
 
@@ -22,7 +22,7 @@ ESP-AT beinhaltet die Binärdateien der Partitions-Tabelle, des Bootloaders, sow
 
 ![](assets/ESPATbins.png)
 
-Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_args.json` File, in welchem man die Pfade zu den Binärdateien findet, sowie den Offset, welcher bestimmt an welcher Stelle im [SPI](../../Digitaltechnik/SPI.md)-Flash die Binary installiert werden soll.
+Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_args.json` File, in welchem man die Pfade zu den Binärdateien findet, sowie den Offset, welcher bestimmt an welcher Stelle im [SPI](../../Digitaltechnik/Interfaces/SPI.md)-Flash die Binary installiert werden soll.
 
 ```json
 "flash_files" : {
@@ -49,7 +49,7 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
 > [!INFO] Den Flasher-Arguments entsprechend, müssen die Pfade sowie deren Offset in das Flash-Download-Tool eingetragen werden.  
 > ![](assets/Pasted%20image%2020230818003454.png)
 
-> [!INFO] Auch die [SPI](../../Digitaltechnik/SPI.md) Flash Konfigurationen werden aus den Flasher Arguments entsprechend übernommen:
+> [!INFO] Auch die [SPI](../../Digitaltechnik/Interfaces/SPI.md) Flash Konfigurationen werden aus den Flasher Arguments entsprechend übernommen:
 >
 > ```json
 >"flash_settings" : {
