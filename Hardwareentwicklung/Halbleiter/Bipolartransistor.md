@@ -55,7 +55,7 @@ $$
 > $$R_{E} = \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{I_{C}+I_{B}}$$
 > > [!NOTE] $I_{B}$ praktisch vernachlässigbar 
 
-> [!SUMMARY] Berechnung des Konstant-Stroms $I_{C}$  
+> [!SUMMARY] Berechnung des Konstant-[Stroms](../../Elektrotechnik/elektrischer%20Strom.md) $I_{C}$  
 > $$I_{C}= \frac{U_{D_{1}}+U_{D_{2}}-U_{BE}}{R_{E}}-I_{B}$$
 > > [!NOTE] $I_{B}$ praktisch vernachlässigbar 
 

@@ -3,6 +3,7 @@ tags:
 aliases:
   - Strom
   - Stromstärke
+  - Stroms
 keywords: 
 subject:
   - VL
@@ -33,11 +34,16 @@ $$
 > es entspricht einer [Ladung](Statisches%20E-Feld.md) von einem [Coulomb](Elektrische%20Kraft.md) ($C$) pro Sekunde ($s$).
 > (Daher ist auch $1C=1As$)
 
+---
+
 Während bei der [Influenz](../Elektrotechnik/elektrische%20Influenz.md) die Ladungsträgerbewegung relativ rasch wieder zum Erliegen kommt (typischerweise Pikosekunden!), wird im Falle eines kontinuierlichen elektrischen Stromflusses das treibende Feld aufrecht erhalten indem man die Elektronen am einen Ende aufnimmt und am anderen einspeist.
 
 Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bewerkstelligt werden – dadurch bleibt das treibende elektrische Feld trotz der Elektronenbewegung aufrecht.
 
-![](assets/Pasted%20image%2020240302173839.png)
+
+ > [!info] Mit dem [Drude-Modell](../Chemie/Drude-Modell.md) lässt sich die Elektronenbewegung statistisch Auswerten 
+
+---
 
 > [!info] Technische Stromrichtung
 > *==Positive==* [Ladung](Statisches%20E-Feld.md) *in* die definierte **Stromrichtung** sowie ***==negative==*** [Ladung](Statisches%20E-Feld.md) in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
@@ -46,4 +52,3 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
  > [!hint] In Metallen tragen **nur** negativ geladene Elektronen zum Storm bei!
  > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
  
- > [!info] Mit dem [Drude](../Chemie/Metallbindung.md)-Modell lässt sich die Elektronenbewegung statistisch Auswerten 
