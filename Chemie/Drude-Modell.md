@@ -27,4 +27,11 @@ Da in einem konstanten [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld
 
 ![](assets/V_Therm_Und_EFeld.png)
 
-Die Mittlere Driftgeschwindigkeit $\langle v\rangle$ der Elektronen im [Metall](../Chemie/Metallbindung.md) ist ohne einem [elektrischen Feld](Elektrisches%20Feld.md) im Mittel Null. Obwohl sich die Elektronen individuell betrachtet durch die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung **sehr** schnell bewegen.
+Die Mittlere Driftgeschwindigkeit $\langle v\rangle$ der Elektronen im [Metall](../Chemie/Metallbindung.md) ist ohne einem [elektrischen Feld](Elektrisches%20Feld.md) im Mittel Null.
+Obwohl sich die Elektronen individuell betrachtet durch die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung **sehr** schnell bewegen.
+
+## 1 1 Beweglichkeit - Zusammenhang mit mittlerer Flugzeit
+
+- Thermische Bewegung eines Elektrons in x-Richtung (ohne elektrisches Feld). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der Geschwindigkeit=0
+
+![](assets/DrudeStosszeiten.png)

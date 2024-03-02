@@ -66,7 +66,7 @@ Die moderne Physik kennt *4* Kräfte:
 # Kräfte
 
 > [!INFO] Kontaktkräfte
-> - Spannung in einem Seil
+> - [Spannung](../Elektrotechnik/Spannung.md) in einem Seil
 > - Druck auf einer Fläche
 > - elastische Kraft in einer [Feder](Federkraft.md)
 > - [Reibungskraft](Reibungskraft.md)
