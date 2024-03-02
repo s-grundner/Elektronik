@@ -18,7 +18,7 @@ created: 21st August 2022
 
 Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ Akkumulator 
 
-## Blei-Akku
+## 1 Blei-Akku
 
 - Der Ladezustand kann mittels der **Dichte** der **Akkusäure** festgestellt werden.  
 	$\rightarrow$ Aräometer
@@ -32,7 +32,7 @@ Kathode (+): $Pb^{4+}+2e^{-}\longrightarrow Pb^{2+}(Pb^{2+}+SO_{4}^{2-}\rightarr
 $2O^{2-}+4H^{+}\longrightarrow 2H_{2}O$  
 **Gesamtgleichung:** $Pb+PbO_{2}+2H_{2}SO_{4}\longleftrightarrows 2PbSO_{4}+2H_{2}O$ 
 
-## Nickel-Cadmium-Akku
+## 2 Nickel-Cadmium-Akku
 
 - Für unregelmäßigen Gebrauch besser geeignet.
 - leichter und wartungsfrei.
@@ -40,7 +40,7 @@ $2O^{2-}+4H^{+}\longrightarrow 2H_{2}O$
 
 $\overbracket{\underbracket{Cd}_{0}+2\underbracket{Ni(OH)_{3}}_{+3}}^{+6}\longleftrightarrows\overbracket{\underbracket{Cd(OH)_{2}}_{+2} + 2\underbracket{Ni(OH)_{2}}_{+2}}^{+6}$
 
-## Lithium-Ionen-Akku
+## 3 Lithium-Ionen-Akku
 
 - Müssen völlig Wasserfrei sein. ($Li$ +💧=🔥)
 - **[Elektrolyt](Elektrochemie.md):** organische Lösungsmittel mit $Li^{+}$-Salzen
@@ -51,7 +51,7 @@ $\overbracket{\underbracket{Cd}_{0}+2\underbracket{Ni(OH)_{3}}_{+3}}^{+6}\longle
 Anode (-): $Li\longrightarrow Li^{+}+e^{-}$ *(Lithiumgrafit)*  
 Kathode: (+): $\overset{+4}{MnO_{2}}+Li^{+}+e^{-}\longrightarrow \overset{+3}{LiMn} O_{2}$
 
-## Lithium-Polymer-Akku (LiPo)
+## 4 Lithium-Polymer-Akku (LiPo)
 
 - $U=3,7V$
 - Weiterentwicklung des LiPos
@@ -64,8 +64,10 @@ Kathode: (+): $\overset{+4}{MnO_{2}}+Li^{+}+e^{-}\longrightarrow \overset{+3}{Li
 |                                          | Empfindlich gegenüber Temperatur Extrema |
 |                                          | Empfindlich gegenüber höhe Ströme        | 
 
-## Brennstoffzelle
+## 5 Brennstoffzelle
 
 ---
 
 # Tags
+
+[Batterie](Primärelement.md)

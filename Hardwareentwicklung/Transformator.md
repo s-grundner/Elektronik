@@ -16,7 +16,7 @@ professor:
 
 # Transformator
 
-- Transformatoren dienen dazu, Spannungen, Ströme und/oder Impedanzen zu transformieren und Leistungen zwischen galvanisch getrennten Netzwerken zu übertragen.
+- Transformatoren dienen dazu, Spannungen, Ströme und/oder Impedanzen zu transformieren und Leistungen zwischen [galvanisch](../Chemie/Elektrochemie.md) getrennten Netzwerken zu übertragen.
 - Transformatoren bestehen aus magnetisch gekoppelten Induktivitäten
 - Die Transformation von Spannungen, Ströme und/oder Impedanzen ist nur für *zeitlich veränderliche* Spannungen/Ströme möglich, da diese auf dem Prinzip der [Ruheinduktion](../Elektrotechnik/Magnetisches%20Feld.md) beruht -> gekoppelte Induktivitäten.
 

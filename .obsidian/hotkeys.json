@@ -146,14 +146,6 @@
       "key": "Y"
     }
   ],
-  "workspace:close": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
-    }
-  ],
   "vim-toggle:toggle-vim": [
     {
       "modifiers": [],
@@ -170,6 +162,23 @@
     {
       "modifiers": [],
       "key": "F9"
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "obsidian-full-calendar:full-calendar-open-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "Y"
     }
   ]
 }

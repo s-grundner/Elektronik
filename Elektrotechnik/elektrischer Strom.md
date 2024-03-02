@@ -30,12 +30,14 @@ I = \lim_{ \Delta t\to 0 } \frac{\Delta Q}{\Delta t} = \frac{dQ}{dt}
 $$
 
 > [!success] Die Einheit der Stromdichte ist das *Ampere* ($A$);
-> es entspricht einer Ladung von einem Coulomb ($C$) pro Sekunde ($s$).
+> es entspricht einer [Ladung](Statisches%20E-Feld.md) von einem [Coulomb](Elektrische%20Kraft.md) ($C$) pro Sekunde ($s$).
 > (Daher ist auch $1C=1As$)
 
 > [!info] Technische Stromrichtung
-> *==Positive==* Ladung *in* die definierte **Stromrichtung** sowie ***==negative==*** Ladung in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
+> *==Positive==* [Ladung](Statisches%20E-Feld.md) *in* die definierte **Stromrichtung** sowie ***==negative==*** [Ladung](Statisches%20E-Feld.md) in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
 > Dies entspricht der sogenannten ***technischen Stromrichtung***
 
  > [!hint] In Metallen tragen **nur** negativ geladene Elektronen zum Storm bei!
  > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
+ 
+ > [!info] Mit dem [Drude](../Chemie/Metallbindung.md)-Modell kann man den Strom im mikroskopischen veranschaulichen

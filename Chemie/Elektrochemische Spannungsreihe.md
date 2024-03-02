@@ -6,7 +6,7 @@ source: ["Fritz Struber"]
 created: 12th September 2022
 ---
 
-# Elektrochemische Spannungsreihe
+# Elektrochemische [Spannungs](../Elektrotechnik/elektrische%20Spannung.md)reihe
 
 Ordnet man [Redoxpaare](Oxidation%20und%20Reduktion.md) (z.B.: $Zn_{(RED)}|Zn^{2+}_{(OX)}$) nach ihren Standardpotentialen E° beginnend mit der niedrigsten, so erhält man die Spannungsreihe  
 ![800](assets/redoxpaare.png)

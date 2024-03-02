@@ -1,12 +1,18 @@
 ---
-tags: ["Matura"]
-aliases: ["Elektrolyt", "Elektrolyse"]
-subject: ["chemie"]
-source: ["Fritz Struber"]
+tags:
+  - Matura
+aliases:
+  - Elektrolyt
+  - Elektrolyse
+  - Galvanisch
+subject:
+  - chemie
+source:
+  - Fritz Struber
 created: 21st August 2022
 ---
 
-# Elektrochemie
+# ElektungSrochemie
 
 > [!INFO] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
 >Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
@@ -142,7 +148,7 @@ Edle [Metalle](Metallbindung.md): efließen von Wasserstoffhalbzelle zum edlen [
 | $Zn \longrightarrow Zn^{2+} + 2e^{-}$                                                         | $Cu^{2+} + 2e^{-} \longrightarrow Cu$                                                           | $Cu\|Zn$                 |  
 | $U = -0.76V$                                                                                  | $U = +0.35V$                                                                                    | $U = +1.11V$             | 
 
-![Pasted image 20220912200913.png](Pasted%20image%2020220912200913.png)
+![Standard-Wasserstoffelektrode](Pasted%20image%2020220912200913.png)
 
 Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektrochemische%20Spannungsreihe.md) aufstellen.
 
@@ -154,7 +160,7 @@ Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *
 
 ### 3.2 [Sekundärelement](Sekundärelement.md)
 
-Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ [Akkumulator](Sekundärelement.md) 
+Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ [Akkumulator](Sekundärelement.md) pannann
 
 # Tags
 

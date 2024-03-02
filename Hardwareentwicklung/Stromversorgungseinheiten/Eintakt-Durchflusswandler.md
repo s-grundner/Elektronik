@@ -12,7 +12,7 @@ created: 13th October 2022
 
 # Eintakt-[Durchflusswandler](Durchflusswandler.md)
 
-- Eine galvanisch getrennte, regelbare Ausgangsspannung
+- Eine [galvanisch](../../Chemie/Elektrochemie.md) getrennte, regelbare Ausgangsspannung
 - [Leistung](../../Physik/Elektrische%20Leistung.md) bis einige $100W$
 - Transistorsperrspannung $U_{DS} \geq 2U_{e}$
 - Tastverhältnis $\frac{t_{ein}}{T} \leq 0.5$
