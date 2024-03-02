@@ -8,7 +8,7 @@ created: 15. November 2023
 
 # Dipol
 
-> siehe auch: Elektrischer [Dipol](../Elektrotechnik/Dipol.md)
+> siehe auch: Elektrischer [elektrischer Dipol](../Elektrotechnik/elektrischer%20Dipol.md)
 
 | [Molekül](Atombindung.md)                    | VSF                    | Ladungsverteilung  |
 | -------------------------- | ---------------------- | ------------------ |
@@ -33,6 +33,9 @@ Weil Dipole sich elektrisch anziehen, kondensieren diese leicht
 $H_{2}O$ flüssig  
 $H_{2}S$ gasförmig (geringeres Dipolmoment)
 
- 
+ ![](../HF-Technik/assets/Pasted%20image%2020231115092719.png)
+
+> [!INFO] Dipolmoment
+> $\mid\vec{p}\mid=Q\cdot d$
 
 ---

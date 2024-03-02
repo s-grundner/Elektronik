@@ -18,13 +18,14 @@ professor:
 # Newtonsche [Axiome](../Mathematik/Axiom.md) und Kräfte
 
 > [!QUESTION] Was ist die Kraft?  
->  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md) und/oder) ändert.
+>  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md)) ändert.
 >  - Interessante Diskussion in Einf. ET Skriptum Teil 1 von Bernhard Jakoby 
 
 Die moderne Physik kennt *4* Kräfte:
 
 - Gravitationskraft
-- Elektromagnetische Kraft (in der Elektrotechnik separat als elektrische und magnetische Kraft)
+- Elektromagnetische Kraft
+  - (in der Elektrotechnik separat als elektrische und magnetische Kraft)
 - Starke Kernkraft
 - Schwache Kernkraft
 

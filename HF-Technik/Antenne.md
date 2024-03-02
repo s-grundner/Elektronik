@@ -67,7 +67,7 @@ Feldabstand bei:
 
 #### Richtfunktion $D$
 
-## Hertzscher [Dipol](../Elektrotechnik/Dipol.md)
+## Hertzscher [elektrischer Dipol](../Elektrotechnik/elektrischer%20Dipol.md)
 
 # Drahtantennen
 
