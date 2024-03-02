@@ -49,7 +49,7 @@ $$
 > - Über den Widerstand $R_{E}$ lässt sich der Konstantstrom einstellen
 > - Dabei muss die Größe des Widerstands $R_{C }$ beachtet werden. Dieser darf nicht beliebig Groß sein
 
-> [!WARNING] Bis zu einem Konstant-Strom $I_{C}$ ist die Schaltung brauchbar
+> [!WARNING] Bis zu einem Konstant-[Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{C}$ ist die Schaltung brauchbar
 
 
 > [!SUMMARY] Berechnung des Emitterwiderstands $R_{E}$  
@@ -63,7 +63,7 @@ $$
 > [!SUMMARY] Berechnung des maximalen Lastwiderstands  
 > $$R_{C,max}= \frac{U_{VCC}-U_{RE}-U_{CE, min}}{I_{C}}\qquad U_{RE} = U_{D_{1}}+U_{D_{2}}-U_{BE} \qquad U_{CE, min}= 2\dots3V$$  
 > Wird der Lastwiderstand größer, kann der Strom $I_{C}$ nicht konstant gehalten werden.  
-> Über die Betriebsspannung lässt sich evtl. der Konstant-Strom erhöhen
+> Über die Betriebsspannung lässt sich evtl. der Konstant-[Strom](../../Elektrotechnik/elektrischer%20Strom.md) erhöhen
 
 ## Weitere BJT Schaltungen
 

@@ -19,7 +19,7 @@ professor:
 
 ## Durchflutungssatz
 
-Die erste Maxwell-Gleichung beschreibt den Zusammenhang zwischen Strom(dichte) I bzw. J und magnetischer Flussdichte B:
+Die erste Maxwell-Gleichung beschreibt den Zusammenhang zwischen [Strom](elektrischer%20Strom.md)(dichte) I bzw. J und magnetischer Flussdichte B:
 
 $$
 \oint_{C} \vec{H} \cdot ds = \int_{A} \vec{J}\cdot d \vec{A} 

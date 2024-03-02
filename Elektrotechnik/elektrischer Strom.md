@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - Strom
+  - Stromstärke
 keywords: 
 subject:
   - VL
@@ -17,3 +18,5 @@ professor:
  
 
 # Elektrischer Strom
+
+Die Stromstärke $I$ gibt an, wie viel Ladung $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen *bestimmten Querschnitt*

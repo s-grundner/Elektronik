@@ -52,6 +52,6 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 
 Da im Elektrischen Feld auf ein Elektron die elektrische Kraft $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer Kraft beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen. 
 
-Dies würde bedeuten, dass der Strom mit der Zeit ansteigt. Wir wissen aber dass dem nicht so ist und der Strom in einem Leiter bei konstanter Spannung ebenfalls Konstant ist (Ohm'sches Gesetz) ist. Das lässt sich mit dem Drude-Modell zeigen.
+Dies würde bedeuten, dass der [Strom](../Elektrotechnik/elektrischer%20Strom.md) mit der Zeit ansteigt. Wir wissen aber dass dem nicht so ist und der Strom in einem Leiter bei konstanter Spannung ebenfalls Konstant ist (Ohm'sches Gesetz) ist. Das lässt sich mit dem Drude-Modell zeigen.
 
 ![|600](assets/Drude.png)

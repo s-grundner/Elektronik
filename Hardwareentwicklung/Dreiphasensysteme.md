@@ -20,7 +20,7 @@ professor:
 
 ![450](assets/Pasted%20image%2020240124084846.png)
 
-Bei symmetrischer Last ist der Strom $i_{N}$ im Neutralleiter 0
+Bei symmetrischer Last ist der [Strom](../Elektrotechnik/elektrischer%20Strom.md) $i_{N}$ im Neutralleiter 0
 
 ### Zeiger Diagramm
 

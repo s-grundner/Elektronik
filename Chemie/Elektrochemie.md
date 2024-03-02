@@ -32,7 +32,7 @@ Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
 ### 1.1 Berechnung Elektrolytischer Vorgänge
 
-Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der Stromstärke $I$ und der Dauer des Stromflusses $t$:  
+Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
 $Q=I\cdot t$  
 Faraday Konstante: $F = 96485 \frac{As}{mol}$
 

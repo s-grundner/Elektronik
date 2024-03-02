@@ -46,7 +46,7 @@ $$
 
 ![](assets/Thevenin.png)
 
-> [!important] Bei $R_{a} = 0$ ist der der Strom $I_{K} = \frac{U_{L}}{R_{i}}$ der Quellstrom des Norton ESB
+> [!important] Bei $R_{a} = 0$ ist der der [Strom](elektrischer%20Strom.md) $I_{K} = \frac{U_{L}}{R_{i}}$ der Quellstrom des Norton ESB
 
 ## Beispiel
 

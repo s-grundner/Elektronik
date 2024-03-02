@@ -12,7 +12,7 @@ created: 30th March 2022
 
 # [Shockley Gleichung](https://de.wikipedia.org/wiki/Shockley-Gleichung)
 
-Die Shockley-Gleichung, benannt nach William B. Shockley, beschreibt die Strom-Spannungs-Kennlinie einer Halbleiterdiode.
+Die Shockley-Gleichung, benannt nach William B. Shockley, beschreibt die [Strom](../Elektrotechnik/elektrischer%20Strom.md)-Spannungs-Kennlinie einer Halbleiterdiode.
 
 Sie lautet nach Wagner:
 

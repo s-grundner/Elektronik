@@ -26,7 +26,7 @@ professor:
 Sehr hohe *relative permeabilität* $\mu_{r}$ des Kerns.
 
 > [!info] Betrachtung als Zweitor/Vierpol -> Vierpoltheorie  
-> Torbedingung: Strom $i_{1}$ der oben hinein fließt, muss unten (als $i_{2}$) wieder herausfließen.
+> Torbedingung: [Strom](../Elektrotechnik/elektrischer%20Strom.md) $i_{1}$ der oben hinein fließt, muss unten (als $i_{2}$) wieder herausfließen.
 
 > [!warning] Vereinfachungen  
 > kein [magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) außerhalb des Eisenkerns
@@ -93,7 +93,7 @@ Trotz der Last ist das Übersetzungsverhältis gleich wie im Unbelasteten Fall (
 | Magnetisch              | Elektrisch                                                          |
 | ----------------------- | ------------------------------------------------------------------- |
 | Magnetische Spannung    | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
-| Magnetischer Strom      | elektrischer Strom                                                  |
+| Magnetischer Strom      | [elektrischer Strom](../Elektrotechnik/elektrischer%20Strom.md)                                                  |
 | Magnetischer widerstand | elektrischer Widerstand                                             |
 
 $R_{m} = \frac{l}{\mu A}$ aber $R_{m}$ ist im Gegensatz zum elektrischen Widerstand stark nichtlinear vom Magnetischen Fluss Abhängig.

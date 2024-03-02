@@ -6,7 +6,7 @@ Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspann
 
 | Kennwerte                                                                                                           | Schaltung                    |
 | ------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden Strom<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](../assets/Z-diode-regler.png) |
+| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden [Strom](../../Elektrotechnik/elektrischer%20Strom.md)<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](../assets/Z-diode-regler.png) |
 
 ### Kennlinie
 

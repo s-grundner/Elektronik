@@ -32,7 +32,7 @@ created: 25. September 2023
 
 > [!BUG] Nachteile
 > - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Physik/Elektrische%20Leistung.md) an $R_{T}$  zu versorgen.
-> - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv Strom verbraucht.
+> - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv [Strom](../Elektrotechnik/elektrischer%20Strom.md) verbraucht.
 > - Große parallele Busse (z.B. DDR) die für jede [Leitung](../HF-Technik/Leitungstheorie.md) einen $R_{T}$ benötigen:
 > 	- Obere Aspekte haben stärkeren Einfluss
 > 	- komplexes Routing

@@ -37,7 +37,7 @@ $$
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-In dieser Phase wird dieser Fluss im Trafokern abgebaut ($I_{1}=0$, $I_{2} = 0$) und der Strom $I_{3}$ wird von der Speicherdrossel getrieben.  
+In dieser Phase wird dieser Fluss im Trafokern abgebaut ($I_{1}=0$, $I_{2} = 0$) und der [Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{3}$ wird von der Speicherdrossel getrieben.  
 $N_{1} = N_{1}'\rightarrow$ Dadurch dauert die Ent-Magnetisierung wie die Auf-Magnetisierung.  
 Der Maximale $DC$ beträgt $0.5$  
 Während der Sperrphase liegt an $N_{1}$ Spannung $U_{e}$, welche an $N_{1}$ zu $U_{1}=-U_{e}$ wird.  
