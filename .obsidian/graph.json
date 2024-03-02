@@ -32,7 +32,7 @@
       "query": "path:Hardwareentwicklung  ",
       "color": {
         "a": 1,
-        "rgb": 12255487
+        "rgb": 2097095
       }
     },
     {
@@ -81,21 +81,21 @@
       "query": "path:Digitaltechnik ",
       "color": {
         "a": 1,
-        "rgb": 16740464
+        "rgb": 31743
       }
     },
     {
       "query": "path:Elektrotechnik  ",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 6150458
       }
     },
     {
       "query": "path:xPN  ",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 5396192
       }
     }
   ],
@@ -109,6 +109,6 @@
   "repelStrength": 15.7216494845361,
   "linkStrength": 0.822164948453608,
   "linkDistance": 500,
-  "scale": 0.04231590268975956,
+  "scale": 0.030182895067324616,
   "close": false
 }

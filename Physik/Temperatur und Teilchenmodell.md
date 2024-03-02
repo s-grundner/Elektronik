@@ -3,6 +3,7 @@ tags:
 aliases:
   - Temperatur
   - Brown'sche Bewegung
+  - thermisch
 subject:
   - physik
 source:

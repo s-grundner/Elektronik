@@ -34,7 +34,6 @@ created: 24th March 2022
 |:-------------------:|:-------------------:|
 | > ![500](assets/NPN.png) | > ![500](assets/PNP.png) |
 
-
 $$
 \begin{align*}
 R_{V} &= 10k\Omega\\
