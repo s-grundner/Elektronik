@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - SI-Einheit
 aliases:
   - Strom
   - Stromstärke
@@ -51,7 +52,3 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 
  > [!hint] In [Metallen](../Chemie/Metallbindung.md) tragen **nur** negativ geladene Elektronen zum Storm bei!
  > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
-
-## 1 Joule'sche Wärme
-
-d
