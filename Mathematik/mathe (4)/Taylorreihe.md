@@ -26,7 +26,7 @@ created: 24th March 2022
 
 ![](assets/Pasted%20image%2020231106142554.png)
 
-# Differenzieren von Taylorreihen
+# [Differenzieren](../mathe%20(3)/Differenzialrechnung.md) von Taylorreihen
 
 # Integrieren von Taylorreihen
 

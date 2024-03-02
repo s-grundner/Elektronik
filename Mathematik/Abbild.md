@@ -1,8 +1,6 @@
 ---
 tags: 
 aliases:
-  - funktionen
-  - funktion
   - Abbildungen
   - bijektiv
   - surjektiv

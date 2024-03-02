@@ -16,16 +16,16 @@ professor:
 ---
  
 
-# Partielle Ableitung
+# Partielle [Ableitung](Differenzialrechnung.md)
 
 Für Funktionen mit mehreren Argumenten benötigt man einen zusätzlichen Ableitungsbegriff: Die *Partielle Abeitung*
 
-Für die partielle Ableitung wird zur Unterscheidung das Symbol $\partial$ verwendet, alternativ wird auch die Variable, nach der abgeleitet wird als Index geschrieben:
+Für die partielle [Ableitung](Differenzialrechnung.md) wird zur Unterscheidung das Symbol $\partial$ verwendet, alternativ wird auch die Variable, nach der abgeleitet wird als Index geschrieben:
 $$
 \frac{\partial f}{\partial x}=f_x=f_{, x}
 $$
 
-Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle Ableitung nach diesen die jeweilige Änderung in diese Raumrichtung an.
+Die partielle [Ableitung](Differenzialrechnung.md) gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle [Ableitung](Differenzialrechnung.md) nach diesen die jeweilige Änderung in diese Raumrichtung an.
 
 > [!info] Satz von Schwarz
 > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar:
@@ -46,7 +46,7 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > $$
 \frac{\partial f}{\partial x_i}(a)=\lim _{h \rightarrow 0} \frac{f\left(a_1, \ldots, a_i+h, \ldots, a_n\right)-f\left(a_1, \ldots, a_i, \ldots, a_n\right)}{h}
 > $$
-> als die *partielle Ableitung* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
+> als die *partielle [Ableitung](Differenzialrechnung.md)* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
 > Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
 
 

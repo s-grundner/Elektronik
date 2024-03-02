@@ -53,7 +53,7 @@ class Rectangle : public Figur {
 
 Im Kopf der abgeleiteten Klasse (nicht beim Prototypen) wird, getrennt durch einen Doppelpunkt, der Basisklassenkonstruktor mit dem entsprechenden Parameter angeführt.
 
-Wird mehrfach abgeleitet (abgeleitete Klasse wird wieder abgeleitet …), gilt immer: der Konstruktor der Basisklasse wird vor dem Konstruktor der ersten Ableitung, dieser vor dem der zweiten Ableitung ausgeführt und so fort.
+Wird mehrfach abgeleitet (abgeleitete Klasse wird wieder abgeleitet …), gilt immer: der Konstruktor der Basisklasse wird vor dem Konstruktor der ersten Ableitung, dieser vor dem der zweiten [Ableitung](../../Mathematik/mathe%20(3)/Differenzialrechnung.md) ausgeführt und so fort.
 
 ### Destruktor
 
