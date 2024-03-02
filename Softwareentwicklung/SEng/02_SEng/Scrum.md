@@ -1,6 +1,8 @@
 ---
-tags: ["Software-Engineering"]
-aliases: []
+tags:
+  - Software-Engineering/Agile
+aliases:
+  - Agile Softwareentwicklung
 created: 29th November 2022
 ---
 
