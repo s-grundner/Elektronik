@@ -104,15 +104,6 @@
       "key": "W"
     }
   ],
-  "file-explorer:move-file": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "M"
-    }
-  ],
   "editor:set-heading": [
     {
       "modifiers": [

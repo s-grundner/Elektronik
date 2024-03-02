@@ -60,27 +60,33 @@ void print();
 ### Source
 
 Includes:
+
 ```c
 /// @file ringbuffer.c
 #include <avr/common.h>    // für Statusregister SREG
 #include <avr/io.h>        // für Pin-Definitionen des Prozessors
 #include <avr/interrupt.h> // für UART Interrupt Vektoren
 ```
+
 Initialisieren der Ringbuffer variablen:
 - Da Interrupts verwendet werden, müssen die variablen global angelegt werden, weil keine Parameter in eine ISR übergeben werden können.
 - Der verwendete Datentyp ist `unsigned char`
 - Die Größe des Ringbuffers wird als Makro definiert.
+
 ```c
 #define RINGBUFFER_SIZE 30
 static unsigned char *p_read, *p_write, ringbuffer[RINGBUFFER_SIZE];
 ```
+
 Zum initialisieren des Ringbuffers werden `p_read` und `p_write` auf den Anfang von `ringbuffer` gesetzt, damit der Ringbuffer zu Beginn leer ist.
+
 ```c
 void ringbuffer_init()
 {
 	p_read = p_write = ringbuffer // oder p_read = p_write = &ringbuffer[0]
 }
 ```
+
 Anschließend muss die Serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md) initialisiert werden.  
 Serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md):
 
@@ -100,6 +106,7 @@ void usart0_init()
 
 Um den freien Speicherplatz zu ermitteln, müssen die Kriterien aus [Freier Speicher im Ringbuffer](#Freier%20Speicher%20im%20Ringbuffer) berücksichtigt werden.  
 Da die Pointer `p_write` und `p_read` in der ISR verändert werden, könnte bei eintreten eines Interrupts die Falsche `free_size` berechnet werden, weshalb die Interrupts davor gecleared werden müssen.
+
 ```c
 void free_size(int* head, int* tail)
 {
@@ -123,6 +130,7 @@ void free_size(int* head, int* tail)
 
 In `send_serial_data()` werden die Daten in den Ringbuffer geschrieben und der UDRE Interrupt eingeschalten.  
 In dieser Funktion erfolgt das Beschreiben des Ringbuffers.
+
 ```c
 int send_serial_data(unsigned char *data, int len)
 {
@@ -169,6 +177,7 @@ ISR(USART0_UDRE_vect)
 ```
 
 Um automatisch die länge des Datensatzes zu ermitteln, wird die Wrapperfunktion `print()` erstellt
+
 ```c
 void print(char* message)
 {

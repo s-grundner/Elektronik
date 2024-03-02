@@ -13,13 +13,13 @@ created: 18th August 2023
 
 # STM32
 
-## 1	Hardware Abstraction Layer (HAL)
+## 1 Hardware Abstraction Layer (HAL)
 
-## 2	Low Level Layer (LL)
+## 2 Low Level Layer (LL)
 
 # Getting Started
 
-## 3	Projekt Setup in STMCubeIDE
+## 3 Projekt Setup in STMCubeIDE
 
 > [!info]- Projektdatei Erstellen
 > 
@@ -44,7 +44,7 @@ created: 18th August 2023
 > 
 > Anschließend mit *Finish* das Projekt Setup beenden.
 
-## 4	Requirements
+## 4 Requirements
 
 STMCubeIDE
 [STLink Server](https://www.st.com/en/development-tools/st-link-server.html)
