@@ -46,5 +46,5 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 > Der [Betrag](../Mathematik/Betrag.md) dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
 >
 > > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md) verursacht werden
-> > Diese Eigenschaft führt zum [Drude-Modell](Drude-Modell.md). 
+> > Diese Eigenschaft führt zum [Drude-Modell](../Elektrotechnik/Drude-Modell.md). 
 > 

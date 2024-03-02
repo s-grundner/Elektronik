@@ -42,7 +42,7 @@ Während bei der [Influenz](../Elektrotechnik/elektrische%20Influenz.md) die Lad
 Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bewerkstelligt werden – dadurch bleibt das treibende elektrische Feld trotz der Elektronenbewegung aufrecht.
 
 
- > [!info] Mit dem [Drude-Modell](../Chemie/Drude-Modell.md) lässt sich die Elektronenbewegung statistisch Auswerten 
+ > [!info] Mit dem [Drude-Modell](Drude-Modell.md) lässt sich die Elektronenbewegung statistisch Auswerten 
 
 ---
 
