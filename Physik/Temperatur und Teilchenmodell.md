@@ -1,22 +1,26 @@
 ---
-tags: []
-aliases: ["Temperatur", "Brown'sche Bewegung"]
-subject: ["physik"]
-source: ["Angela Lindner"]
+tags: 
+aliases:
+  - Temperatur
+  - Brown'sche Bewegung
+subject:
+  - physik
+source:
+  - Angela Lindner
 created: 18th August 2022
+banner: Physik/assets/thermodynamik2.png
+banner_x: 1
 ---
-
-![thermodynamik2](assets/thermodynamik2.png)
 
 # Temperatur und Teilchenmodell
 
-## Teilchenmodell
+## 1 Teilchenmodell
 
  - Alle Körper sind aus kleinen, sich ständig bewegenden Teilchen aufgebaut.
  - Im Festkörper haben alle Teilchen einen festen Platz, um den sie sich bewegen.
  - Je *mehr* ein Stoff *erwärmt* wird, desto *mehr* *bewegen* sich die Teilchen des Stoffes.
 
-## Brown'sche [Bewegung](Kinematik.md) und Innere Energie
+## 2 Brown'sche [Bewegung](Kinematik.md) und Innere Energie
 
 - Die Atome eines Körpers sind auch ohne Krafteinwirkung von außen immer in [Bewegung](Kinematik.md).
 - Einen Festkörper kannst du dir als *Feder-Kugel-Modell* vorstellen.

@@ -1,4 +1,11 @@
-## Leclanché-Element
+---
+tags:
+  - Elektrochemie/Primärelement
+aliases: 
+created: 2. März 2024
+---
+
+# Leclanché-Element
 
 - Zink-Kohle-Batterie (Taschenlampenbatterie)
 - $U=1.5V$

@@ -37,4 +37,7 @@ $$
 > \end{align}
 > $$
 
-![](assets/Pasted%20image%2020240127135219.png)
+> [!example]- Beispiele
+> ![](assets/Pasted%20image%2020240127135219.png)
+
+## Betrag eines Vektors (Norm)

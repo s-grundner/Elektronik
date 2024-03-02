@@ -1,4 +1,11 @@
-## Alkali-Mangan-Batterie
+---
+tags:
+  - Elektrochemie/Primärelement
+aliases: 
+created: 2. März 2024
+---
+
+# Alkali-Mangan-[Batterie](Primärelement.md)
 
 - Stahlbecher statt Zinkbecher
 - Zinkpulver als Gel im Inneren

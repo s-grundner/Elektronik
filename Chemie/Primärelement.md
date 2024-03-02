@@ -21,10 +21,10 @@ Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *
 - [Voltasche Säule](Voltasche%20Säule.md)
 - [Daniell-Element](Daniell-Element.md)
 - [Leclanché-Element](Leclanché-Element.md)
-[Alkali-Mangan-Batterie](Alkali-Mangan-Batterie.md)
-
-[Knopfzelle](Knopfzelle.md)
+- [Alkali-Mangan-Batterie](Alkali-Mangan-Batterie.md)
+- [Knopfzelle](Knopfzelle.md)
 
 # Tags
 
 [Elektrochemie](Elektrochemie.md)
+[Sekundärelement](Sekundärelement.md)
