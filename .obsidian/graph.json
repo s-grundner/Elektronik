@@ -1,7 +1,7 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -97,6 +97,20 @@
         "a": 1,
         "rgb": 5431378
       }
+    },
+    {
+      "query": "path:xEDU  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:xPN  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
     }
   ],
   "collapse-display": false,
@@ -109,6 +123,6 @@
   "repelStrength": 15.7216494845361,
   "linkStrength": 0.822164948453608,
   "linkDistance": 500,
-  "scale": 0.03018289506732504,
-  "close": true
+  "scale": 0.1634837056722055,
+  "close": false
 }
