@@ -29,14 +29,14 @@ Schaltet der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $(T)$ ab, so flie
 Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](../../Elektrotechnik/Induktivitäten.md).
  - Dabei *speichert die [Spule](../../Elektrotechnik/Induktivitäten.md) Energie*.
  - Die [Diode](../Halbleiter/Diode.md) sperrt in dieser Zeit.
- - Der [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{A}$ liefert den Strom für den Verbraucher.
+ - Der [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{A}$ liefert den [Strom](../../Elektrotechnik/elektrischer%20Strom.md) für den Verbraucher.
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../../Elektrotechnik/Induktivitäten.md), aufgrund der in ihr gespeicherten Energie den Strom $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
+Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../../Elektrotechnik/Induktivitäten.md), aufgrund der in ihr gespeicherten Energie den [Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
 
 Ein Teil der in der [Spule](../../Elektrotechnik/Induktivitäten.md) gespeicherten Energie, wird in der Sperrphase auf den [Kondensator](../../Elektrotechnik/Kapazität.md) übertragen.  
-$\rightarrow$ **[Sperrwandler](Sperrwandler.md)**, Da die [Spule](../../Elektrotechnik/Induktivitäten.md) dem [Kondensator](../../Elektrotechnik/Kapazität.md) nur in dieser Phase Strom liefert.
+$\rightarrow$ **[Sperrwandler](Sperrwandler.md)**, Da die [Spule](../../Elektrotechnik/Induktivitäten.md) dem [Kondensator](../../Elektrotechnik/Kapazität.md) nur in dieser Phase [Strom](../../Elektrotechnik/elektrischer%20Strom.md) liefert.
 
 ### Herleitung der Dimensionierung
 

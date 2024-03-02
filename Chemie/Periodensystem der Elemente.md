@@ -114,14 +114,14 @@ Innerhalb einer Periode werden Atome kleiner, weil die Anziehungskräfte zwische
 
 ## Ionisierungsenergie (IE)
 
->![200](assets/x-zu_y-ab.png)
+![InlineR|200](assets/x-zu_y-ab.png)
 - Jene Energie die notwendig ist, um ein $e^{-}$ vom Atom abzutrennen.
 - [Metalle](Metallbindung.md) (große Atome) sind leichter Ionisierbar.
 - $Cs$ braucht weniger *IE* als $Li$.
 
 ## Elektronenaffinität (EA)
 
->![200](assets/x-zu_y-ab.png)
+![INlineR|200](assets/x-zu_y-ab.png)
 - Jene Energie die man benötigt$_{1)}$ oder erhält$_{2)}$, sodass ein $e^{-}$ hinzugefügt wird.
 1. $Na$
 2. $F$  

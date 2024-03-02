@@ -27,7 +27,7 @@ Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](../.
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-Die in der [Spule](../../Elektrotechnik/Induktivitäten.md) gespeicherten Energie liefert weiter [Strom](../../Elektrotechnik/elektrischer%20Strom.md) an den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../../Elektrotechnik/Induktivitäten.md), den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Verbraucher mit Strom versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
+Die in der [Spule](../../Elektrotechnik/Induktivitäten.md) gespeicherten Energie liefert weiter [Strom](../../Elektrotechnik/elektrischer%20Strom.md) an den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../../Elektrotechnik/Induktivitäten.md), den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Verbraucher mit [Strom](../../Elektrotechnik/elektrischer%20Strom.md) versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
 
 ### Herleitung der Dimensionierung
 

@@ -17,7 +17,9 @@ created: 21st August 2022
 Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ Batterie 
 
 ## Voltasche Säule
-![](assets/volt-saeule.png)
+
+![350](assets/volt-saeule.png)
+
 $Zn$ - Zink  
 $H_{2}SO_{4}$ - Salzsäure  
 $Cu$ - Kupfer

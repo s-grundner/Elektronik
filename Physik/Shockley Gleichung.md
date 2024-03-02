@@ -22,7 +22,7 @@ $I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
 
 | Bezeichnung | Beschreibung bei [Transistor](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md) |
 |:-----------:|:---------------------------:|
-|   $I_{D}$   |        [Dioden](Dioden.md)-Strom         |
+|   $I_{D}$   |        [Dioden](Dioden.md)-[Strom](../Elektrotechnik/elektrischer%20Strom.md)         |
 |   $I_{S}$   |         Sperrstrom          |
 |   $U_{F}$   |        Flussspannung        |
 |   $U_{T}$   |     Temperaturspannung      |
@@ -34,7 +34,7 @@ $I_{C} = I_{S}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
 
 | Bezeichnung | Beschreibung bei [Transistor](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md) |
 |:-----------:|:---------------------------:|
-|   $I_{C}$   |       Kollektor-Strom       |
+|   $I_{C}$   |       Kollektor-[Strom](../Elektrotechnik/elektrischer%20Strom.md)       |
 |   $I_{S}$   |       Sättigungsstrom       |
 |  $U_{BE}$   |   Basis-Emitter-Spannung    |
 |   $U_{T}$   |     Temperaturspannung      | 

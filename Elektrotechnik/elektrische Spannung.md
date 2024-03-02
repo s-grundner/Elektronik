@@ -39,6 +39,7 @@ professor:
 > Aus dem bestimmten [Integral](../Mathematik/mathe%20(3)/Integralrechnung.md) ergibt sich mit den Grenzen $A$ $B$ die Potenzialdifferenz von $\varphi(B)$ und $\varphi(A)$ und somit die Spannung.
 > Mit dem zusätzlichen Faktor der [Ladung](Statisches%20E-Feld.md) muss für die Spannung auch *[Arbeit](../Physik/Mechanische%20Arbeit.md) pro [Ladung](Statisches%20E-Feld.md)* gelten ($U = \frac{W}{q}$)
 
-## 1 1 Spannungsquellen
+## 1 Spannungsquellen
 
-> [!question] Chemisch lassen sich Spannung
+> [!question] Chemisch lassen sich Spannungsquellen durch [Akkus](../Chemie/Sekundärelement.md) und [Batterien](../Chemie/Primärelement.md) auf Basis der [Elektrochemie](../Chemie/Elektrochemie.md) realisieren.
+> Man spricht von einer *elektrochemischen Spannungsquelle*

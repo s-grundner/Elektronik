@@ -36,7 +36,7 @@ Sehr hohe *relative permeabilität* $\mu_{r}$ des Kerns.
 ![](assets/Pasted%20image%2020240124091021.png)
 
 Wenn ein teil des Flusses der erzeugenden Spule eine Andere durchsetzt, wird ein Fluss in dieser Spule erzeugt.  
-Strom muss seiner Ursache entgegenwirken
+[Strom](../Elektrotechnik/elektrischer%20Strom.md) muss seiner Ursache entgegenwirken
 
 ### Koppelfaktor
 
@@ -85,7 +85,7 @@ Trotz der Last ist das Übersetzungsverhältis gleich wie im Unbelasteten Fall (
 
 > [!warning] verlustfreier Transformator -> Die Leistung am eingangs Tor ist gleich die Leistung am Ausgangstor
 > - Es wird *nicht* die Leistung Transformiert
-> - Wird die Spannung um einen Faktor nach oben Transformiert, wird der Strom um den selben Faktor verringert
+> - Wird die Spannung um einen Faktor nach oben Transformiert, wird der [Strom](../Elektrotechnik/elektrischer%20Strom.md) um den selben Faktor verringert
 > 	- $P=U\cdot I$
 
 ### Analogie zum Ohm‘schen Gesetz

@@ -33,6 +33,12 @@ $$
 > es entspricht einer [Ladung](Statisches%20E-Feld.md) von einem [Coulomb](Elektrische%20Kraft.md) ($C$) pro Sekunde ($s$).
 > (Daher ist auch $1C=1As$)
 
+Während bei der [Influenz](../Elektrotechnik/elektrische%20Influenz.md) die Ladungsträgerbewegung relativ rasch wieder zum Erliegen kommt (typischerweise Pikosekunden!), wird im Falle eines kontinuierlichen elektrischen Stromflusses das treibende Feld aufrecht erhalten indem man die Elektronen am einen Ende aufnimmt und am anderen einspeist.
+
+Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bewerkstelligt werden – dadurch bleibt das treibende elektrische Feld trotz der Elektronenbewegung aufrecht.
+
+
+
 > [!info] Technische Stromrichtung
 > *==Positive==* [Ladung](Statisches%20E-Feld.md) *in* die definierte **Stromrichtung** sowie ***==negative==*** [Ladung](Statisches%20E-Feld.md) in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
 > Dies entspricht der sogenannten ***technischen Stromrichtung***

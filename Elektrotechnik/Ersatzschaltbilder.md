@@ -42,7 +42,7 @@ $$
 
 > [!important] Bei $R_{a}\to\infty$ ist $U_{a} = U_{L} = I_{K}\cdot R_{i}$ die Quellspannung des Thevenin ESB 
 
-## Thevenin ESB: Spannungsquelle
+## Thevenin ESB: [Spannungsquelle](elektrische%20Spannung.md)
 
 ![](assets/Thevenin.png)
 

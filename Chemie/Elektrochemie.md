@@ -68,8 +68,8 @@ $107g\dots 1mol$
 $m\ g\dots 2.072\cdot10^{-3}$  
 **$m = 0.2235g$**
 
-> [!EXAMPLE] Berechnung der für eine Elektrolyse erforderlichen Stromstärke  
-Welche Stromstärke benötigt man wenn man aus einer Silbersalzlösung in 30min 54g Ag abscheiden will?  
+> [!EXAMPLE] Berechnung der für eine Elektrolyse erforderlichen [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md)  
+Welche [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) benötigt man wenn man aus einer Silbersalzlösung in 30min 54g Ag abscheiden will?  
 $Ag^{+}+e^{-}\longrightarrow Ag$  
 $30min = 1800s$
 
@@ -104,7 +104,7 @@ Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es
 
 ### 2.2 Galvanisches Element
 
-elektrochemische Spannungsquelle bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
+elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
 ![675](assets/DaniellEL.png)  
 [](Primärelement.md#Daniell-Element)
 

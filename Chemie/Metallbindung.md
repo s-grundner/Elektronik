@@ -50,14 +50,8 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 
 ### 2.1 Drude-Modell - Modell für den elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
-Da im [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld.md) auf ein Elektron die [elektrische Kraft](../Elektrotechnik/Elektrische%20Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../Physik/Newtonsche%20Axiome.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen. 
+Da in einem konstanten [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld.md) auf ein Elektron die [elektrische Kraft](../Elektrotechnik/Elektrische%20Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../Physik/Newtonsche%20Axiome.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen. 
 
-Dies würde bedeuten, dass der [Strom](../Elektrotechnik/elektrischer%20Strom.md) mit der Zeit ansteigt. Wir wissen aber dass dem nicht so ist und der [Strom](../Elektrotechnik/elektrischer%20Strom.md) in einem Leiter bei konstanter [Spannung](../Elektrotechnik/Spannung.md) ebenfalls Konstant ist ([Ohm'sches Gesetz](../Elektrotechnik/Ohmsches%20Gesetz.md)) ist. Das lässt sich mit dem Drude-Modell zeigen.
-
-![|600](assets/Drude.png)
-
-Während bei der [Influenz](../Elektrotechnik/elektrische%20Influenz.md) die Ladungsträgerbewegung relativ rasch wieder zum Erliegen kommt (typischerweise Picosekunden!) wird im Falle eines kontinuierlichen elektrischen Stromflusses das treibende Feld aufrecht erhalten indem man die Elektronen am einen Ende aufnimmt und am anderen einspeist.
-Dies kann durch eine elektrische Spannungsquelle bewerkstelligt werden – dadurch bleibt das treibende elektrische Feld trotz der Elektronenbewegung aufrecht.
 
 > [!warning] Unter Annahme eines konstanten Feldes 𝐄 würde ein Elektron mit der [Kraft](../Physik/Newtonsche%20Axiome.md) −𝑒𝐄 beschleunigt.
 > Tatsächlich stellt sich aber eine mittlere Driftgeschwindigkeit 𝐯 ein, die in erster Näherung proportional zu 𝐄 ist.
