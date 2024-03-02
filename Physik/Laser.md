@@ -6,7 +6,7 @@ created: 21st November 2022
 
 # Laser
 
-Light Amplification by Stimulated Emission
+> [!info] Akronym ***LASER***: ***L***ight ***A***mplification by ***S***timulated ***E***mission of ***R***adiation
 
 ## Eigenschaften
 

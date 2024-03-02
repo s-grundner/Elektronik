@@ -160,14 +160,14 @@ Nachricht:
 - Anfrage
 
    In einem Browser wird der Link
-   
+
    ```
    http://deine-erste-homepage.com/muster1.htm
    ```
-   
+
    aktiviert. Der Browser wandelt diese Eingabe in eine  
    Anfrage an *deine-erste-homepage.com* nach */muster1.html*. Diese Anfrage wird auf TCP mit dem http-Standardport 80 gesendet:
-   
+
 ```
 GET /muster1.htm HTTP/1.1\r\n
 Host: deine-erste-homepage.com\r\n

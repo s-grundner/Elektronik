@@ -107,7 +107,7 @@ Für Windows muss eine Bibliothek mit eingebunden werden. Mittels dieser wird au
   #include <winsock2.h>
   #include <ws2tcpip.h>
   ```
-  
+
 - für Winsock muss ein WSADATA-Objekt (Struktur) erstellt werden und *WSAStartup()* aufgerufen werden:
 
   ```c++
@@ -196,7 +196,7 @@ Grundsätzlich bieten alle bedeutenden Programmiersprachen Bibliotheken für die
       char sin_zero[8]
   };
   ```
-  
+
   - *sin_family*: meist *AF_INET* (AdressFamily-InternetProtocol)
   - *sin_port*: Port des Transport Protokolls
   - *sin_addr*: wiederum eine Struktur - beinhaltet die (IPv4) Adresse

@@ -1,7 +1,6 @@
-# Netzwerk-technik
+# Netzwerktechnik
 
 ```dataview
 TABLE tags
-FROM "netzwerk-technik" AND #MOC
+FROM "Netzwerktechnik" AND #MOC
 ```
-

@@ -36,6 +36,6 @@ Da in einem konstanten [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld
 
 ## 1 Beweglichkeit - Zusammenhang mit mittlerer Flugzeit
 
-- Thermische Bewegung eines Elektrons in x-Richtung (ohne elektrisches Feld). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der Geschwindigkeit $\langle\rangle$=0
+- Thermische Bewegung eines Elektrons in x-Richtung (ohne elektrisches Feld). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der Geschwindigkeit $\langle v_{e,x} \rangle = 0$
 
 ![](assets/DrudeStosszeiten.png)

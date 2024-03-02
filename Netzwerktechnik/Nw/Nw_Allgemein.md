@@ -98,7 +98,7 @@ Liste der Ports: <https://de.wikipedia.org/wiki/Liste_der_standardisierten_Ports
 - Der Router ermittelt wiederum mittels **ARP** die MAC-Adresse des Zielrechners und sendet die **IP**-Pakete dorthin. Die Teil-Pakete können dabei unterschiedliche Wege nehmen und in anderer Reihenfolge am Ziel ankommen. Wenn sie nicht vollständig ankommen wird das erkannt. Wenn die Pakete angekommen sind werden sie zum ursprünglichen **TCP**-Segment zusammengesetzt.
 - Im Fall von Kommunikationsproblemen können Fehlermeldungen mittels **ICMP** übermittelt werden.
 
-[HTTP](HTTP.md)
+[HTTP](../HTTP.md)
 
 ## Medizintechnische Netzwerk-Klassen
 
