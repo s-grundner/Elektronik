@@ -17,19 +17,19 @@ created: 20th August 2022
 Das PSE ist eine Tabelle, in der die Symbole aller bekannten Elemente nach der Anzahl der Protonen geordnet sind.  
 ![PSE](assets/PSE.png)
 
-## Ordnungsprinzipien Des PSE
+## 1 Ordnungsprinzipien Des PSE
 
-### 1. Ordnungszahl (OZ):
+### 1.1 1. Ordnungszahl (OZ):
 
 Protonenzahl (Kernladungszahl)
 
-### 2. Perioden: **Zeilen** Im PSE
+### 1.2 2. Perioden: **Zeilen** Im PSE
 
 - Elemente einer Periode weisen die gleiche Zahl von $e^{-}$ [Schalen](Orbitalmodell.md) auf.
 - Entsprechend den 7 [Schalen](Orbitalmodell.md) (K-Q), gibt es 7 Perioden.
 - $e^{-}$ sind nach dem Aufbauprinzip ([Orbitalmodell](Orbitalmodell.md)) auf die energieärmsten Orbitale verteilt.
 
-### 3. Gruppen
+### 1.3 3. Gruppen
 
 - Elemente die **untereinander stehen** (senkrechte Spalten)
 - Elemente einer Gruppe haben **gleiche [Valenzelektronen](Valenzelektronen.md)**
@@ -54,7 +54,7 @@ Bei den Elementen der Lanthanoide (seltene Erden) und Actinoide (Transurane) wer
 
 >![850](assets/pse-orbs.png)
 
-## Hauptgruppen
+## 2 Hauptgruppen
 
 - Gruppen (I-VIII)
 - zuletzt eingebaute $e^{-}$ befinden sich sich soder p-Orbitale-
@@ -93,51 +93,34 @@ Aus dem Atombau lassen sich einige Eigenschaften der Elemente ableiten.
 	z.B.: Diamant (Kristallin)  
 	Graphit (schichtweiser Aufbau)
 
-# Tendenzen Im PSE
+---
 
-## Atomradius
+## 3 Tendenzen Im PSE
 
->![200](assets/x-ab_y-zu.png)
-- Atomradius nimmt von links nach rechts **ab**:  
-Innerhalb einer Periode werden Atome kleiner, weil die Anziehungskräfte zwischen Kern und $e^{-}$ Hülle immer Stärker werden.  
-  $\rightarrow$ Orbitalkontraktion
-   
+![Atomradius](Atomradius.md)
 
-## Metallcharakter
+[Metallcharakter](Metallcharakter.md)
 
->![200](assets/x-ab_y-zu.png)
-- [Metalle](Metallbindung.md) sind Elemente mit hoher Leitfähigkeit.
-- $e^{-}$ müssen locker sitzen.
-- Dies ist bei größeren Atomen der Fall: stehen links und weiter unten im PSE.
+[Ionisierungsenergie](Ionisierungsenergie.md)
 
->![400](assets/LiCsAtome.png)
+### 3.4 Elektronenaffinität (EA)
 
-## Ionisierungsenergie (IE)
+> [!important] ![InlineR|200](assets/x-zu_y-ab.png) Jene Energie die man benötigt$_{1)}$ oder erhält$_{2)}$, sodass ein $e^{-}$ hinzugefügt wird…
+> 1. $Na$
+> 2. $F$)
 
-![InlineR|200](assets/x-zu_y-ab.png)
-- Jene Energie die notwendig ist, um ein $e^{-}$ vom Atom abzutrennen.
-- [Metalle](Metallbindung.md) (große Atome) sind leichter Ionisierbar.
-- $Cs$ braucht weniger *IE* als $Li$.
 
-## Elektronenaffinität (EA)
-
-![INlineR|200](assets/x-zu_y-ab.png)
-- Jene Energie die man benötigt$_{1)}$ oder erhält$_{2)}$, sodass ein $e^{-}$ hinzugefügt wird.
-1. $Na$
-2. $F$  
 Die höchste *EA* hat Fluor.  
 Edelgase haben keine Tendenz, $e^{-}$ aufzunehmen.
 
-## Elektronegativität (EN)
+### 3.5 Elektronegativität (EN)
 
-Die EN kennzeichnet das Bestreben der Atome, $e^{-}$ **in einer Bindung** anzuziehen
->![200](assets/x-zu_y-ab.png)
+> [!important] ![InlineR|200](assets/x-zu_y-ab.png) Die EN kennzeichnet das Bestreben der Atome, $e^{-}$ **in einer Bindung** anzuziehen. Die Elektronegativität…
 
 *EN*-Skala nach [Linus Pauling](https://de.wikipedia.org/wiki/Periodensystem#Elektronegativit%C3%A4t) (S. 218 NW-Buch)
 - Die EN von $F=4.0$
 - $F_{2}$ ist das elektronegativste Element
 - $Cs$ ist das elektropositivste Element
-
 
 ---
 
