@@ -8,8 +8,9 @@ created: 7th June 2022
 
 # Piezoelektrik
 
-> [!EXAMPLE] Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen Widerstand $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer Kraft von $F=1kN$ belastet. Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) abgeklungen?
-> 
+> [!example]- Rechenbeispiel
+> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Newtonsche%20Axiome.md) von $F=1kN$ belastet.
+> Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) abgeklungen?
 > $$
 > \begin{align*}
 > R_{q} &= \frac{\rho\cdot l}{A} &&= \frac{10^{12}\cdot 10^{-3}}{10\cdot 10^{-4}} = 10^{12}\Omega
@@ -30,11 +31,12 @@ created: 7th June 2022
 
 ![650](assets/piezo_ions.png)
 
-In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet. Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.  
+In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet.
+Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten Polarisation**.  
 
 | Input       | Output |
 | ----------- | ------ |
-| Kraft/Druck | Spannung       |
+| [Kraft](../Physik/Newtonsche%20Axiome.md)/Druck | [Spannung](../Elektrotechnik/Spannung.md)       |
 
 ![piezo_esb](assets/piezo_esb.png)
 
@@ -54,10 +56,9 @@ Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehrer
 
 >[!INFO] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische [Ladungen](../Elektrotechnik/Statisches%20E-Feld.md) aus.
 
-
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  
 [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) die zugrunde liegende Deformation zu bestimmen.  
-Der Effekt ist nur von der Längenänderung nicht von Geschwindigkeit  
+Der Effekt ist nur von der Längenänderung nicht von [Geschwindigkeit](../Physik/Kinematik.md)  
 bzw. [Beschleunigung](../Physik/Kinematik.md) der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
