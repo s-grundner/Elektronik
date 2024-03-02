@@ -32,7 +32,7 @@
       "query": "path:Hardwareentwicklung  ",
       "color": {
         "a": 1,
-        "rgb": 6548
+        "rgb": 12255487
       }
     },
     {
@@ -46,7 +46,7 @@
       "query": "path:Mathe  ",
       "color": {
         "a": 1,
-        "rgb": 16711705
+        "rgb": 16762880
       }
     },
     {
@@ -74,21 +74,14 @@
       "query": "path:Netzwerktechnik ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 16711680
       }
     },
     {
       "query": "path:Digitaltechnik ",
       "color": {
         "a": 1,
-        "rgb": 16762880
-      }
-    },
-    {
-      "query": "path:ECAD  ",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
+        "rgb": 16740464
       }
     },
     {
@@ -96,13 +89,6 @@
       "color": {
         "a": 1,
         "rgb": 5431378
-      }
-    },
-    {
-      "query": "path:xEDU  ",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
       }
     },
     {
@@ -123,6 +109,6 @@
   "repelStrength": 15.7216494845361,
   "linkStrength": 0.822164948453608,
   "linkDistance": 500,
-  "scale": 0.1634837056722055,
+  "scale": 0.04231590268975956,
   "close": false
 }

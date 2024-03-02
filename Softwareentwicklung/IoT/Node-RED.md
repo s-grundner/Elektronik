@@ -270,7 +270,7 @@ Im Node-RED-Panel gibts jetzt eine neue Schaltfläche, in der können Grundeinst
 
 ## [MQTT](MQTT.md), JSON - BMP280
 
-Messung der aktuellen Temperature mittels [ESP32](ESP32.md) und Übertragen mittels [MQTT](MQTT.md) an Broker. In Node-RED [MQTT](MQTT.md) subscriben und die JSON-Nachricht aufbereiten und anzeigen:
+Messung der aktuellen Temperature mittels [ESP32](../../Digitaltechnik/ESP32.md) und Übertragen mittels [MQTT](MQTT.md) an Broker. In Node-RED [MQTT](MQTT.md) subscriben und die JSON-Nachricht aufbereiten und anzeigen:
 
 - result: node-red  
   ![image-20210603195042638](assets/NodeRed_OpenWeather03.png)

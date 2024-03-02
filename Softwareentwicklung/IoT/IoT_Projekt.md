@@ -11,13 +11,13 @@ Es ist eine Temperaturmessstation zu entwerfen:
 ![Config](assets/Config.png)
 
 - erfasst wird mittels Sensor die Lufttemperatur, der Luftdruck und die Luftfeuchtigkeit
-- die Auswertung erfolgt mittels [ESP32](ESP32.md)
-- der [ESP32](ESP32.md) sendet die Messdaten mittels [MQTT](MQTT.md)-Protokoll an den MQTT-Broker Mosquitto
+- die Auswertung erfolgt mittels [ESP32](../../Digitaltechnik/ESP32.md)
+- der [ESP32](../../Digitaltechnik/ESP32.md) sendet die Messdaten mittels [MQTT](MQTT.md)-Protokoll an den MQTT-Broker Mosquitto
 - von diesem Broker wiederum werden die Daten von einem RaspberryPi abgerufen
 - der Raspi legt die Daten in einer internen influxDB-[Datenbank](../Datenbanken/Datenbank.md) ab
 - die Bedienerschnittstelle wird mittels Grafana realisiert
 
-## 1. [ESP32](ESP32.md)
+## 1. [ESP32](../../Digitaltechnik/ESP32.md)
 
 - VSCode
 - [Python](../Python.md)

@@ -8,7 +8,7 @@ created: 7. Januar 2024
 
 ## ESP-AT Flash
 
-Um den [ESP32](ESP32.md) programmieren zu können, muss zuerst die Firmware (ESP-AT) auf den Chip heruntergeladen werden. Dafür kommt das ESP Flash Download Tool von Espressif zum Einsatz. Dieses Tool wir dafür benötigt, die Binary-Files der Firmware über USB auf den [SPI](../../Digitaltechnik/Interfaces/SPI.md)-Flash zu spielen. Im Nächsten muss zuerst das Tool heruntergeladen, entpackt und die .exe ausgeführt werden.
+Um den [ESP32](../../Digitaltechnik/ESP32.md) programmieren zu können, muss zuerst die Firmware (ESP-AT) auf den Chip heruntergeladen werden. Dafür kommt das ESP Flash Download Tool von Espressif zum Einsatz. Dieses Tool wir dafür benötigt, die Binary-Files der Firmware über USB auf den [SPI](../../Digitaltechnik/Interfaces/SPI.md)-Flash zu spielen. Im Nächsten muss zuerst das Tool heruntergeladen, entpackt und die .exe ausgeführt werden.
 
 ![](assets/Flash_DL_Tools.png)
 
@@ -17,7 +17,7 @@ Mit den gezeigten Einstellungen, kann nun das Aufsetzen der Firmware fortgesetzt
 ![](assets/FlashDL-Folder.png)
 
 Natürlich werden auch die ESP-AT Binaries selbst benötigt, welche man in den SDK-Downloads auf der Espressif Website findet.  
-Von dem entsprechenden Modul (hier der [ESP32](ESP32.md)-WROOM) muss nun die empfohlene Version der Firmware heruntergeladen werden.  
+Von dem entsprechenden Modul (hier der [ESP32](../../Digitaltechnik/ESP32.md)-WROOM) muss nun die empfohlene Version der Firmware heruntergeladen werden.  
 ESP-AT beinhaltet die Binärdateien der Partitions-Tabelle, des Bootloaders, sowie Encryption-Keys und Certificate-Authorities (CA) von Netzwerkprotokollen wie [MQTT](MQTT.md).
 
 ![](assets/ESPATbins.png)
@@ -64,4 +64,4 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
 > [!INFO] Nun muss nur noch der richtige COM-Port selektiert werden und „Start“ ausgeführt werden.  
 > ![](assets/Pasted%20image%2020230818003709.png)
 
-> [!success] Der Bootloader sollte nun erfolgreich auf den [ESP32](ESP32.md) gebrannt worden sein
+> [!success] Der Bootloader sollte nun erfolgreich auf den [ESP32](../../Digitaltechnik/ESP32.md) gebrannt worden sein
