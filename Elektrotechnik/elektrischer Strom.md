@@ -41,7 +41,6 @@ Während bei der [Influenz](../Elektrotechnik/elektrische%20Influenz.md) die Lad
 
 Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bewerkstelligt werden – dadurch bleibt das treibende elektrische Feld trotz der Elektronenbewegung aufrecht.
 
-
  > [!info] Mit dem [Drude-Modell](Drude-Modell.md) lässt sich die Elektronenbewegung statistisch Auswerten 
 
 ---
@@ -60,15 +59,19 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 
 ![inlineR](assets/BspVekFlaecheStromdichte.png)
 
-> [!question] Vektorielles Flächenelements $\Delta \mathbf{A}$ 
+> [!question] Vektorielles Flächenelements $\Delta \vec{A}$ 
 > Zeigt in Richtung der Flächennormale & der Betrag entspricht der Fläche.
 
 Die Stromdichte ist ebenfalls eine vektorielle Größe und zeigt in Richtung der lokalen Stromrichtung (Richtung der mittleren Geschwindigkeit bei positiven Ladungsträgern bzw. entgegengesetzt bei negativen).
-$\Delta I$ durch eine Fläche $\Delta \mathbf{A}$ daher: $\Delta I=\mathbf{J} \cdot \Delta \mathbf{A}$
+
+$\Delta I$ durch eine Fläche $\Delta \vec{}{A}$ daher: $\Delta I=\vec{J} \cdot \Delta \vec{A}$
+
 Da die Stromdichte lokal variieren kann, ist die exakte Definition eine differenzielle bzw. muss für einen endlichen Bereich integriert werden:
 $$
-d I=\mathbf{J} \cdot d \mathbf{A} \quad \Rightarrow \quad I=\int_A \mathbf{J} \cdot d \mathbf{A}
+d I=\vec{J} \cdot d \vec{A} \quad \Rightarrow \quad I=\int_A \vec{J} \cdot d \vec{A}
 $$
+
+> [!success] Hier kommt das Flächenintegral ($\int _{A}$) zum Einsatz.
 
 ---
 
