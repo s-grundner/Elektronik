@@ -55,11 +55,6 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 
 ## 1 Stromdichte
 
-> [!warning] Begriff Dichte
-> Dicht kann alle mögliche bedeuten:
-> - x pro Volumen
-> - x pro Fläche (wie hier)
-
 > [!info] Die Stromdichte J gibt die Stromanteil $\Delta I$ pro Fläche $\Delta A$ an.
 > Dabei ist die Orientierung (Ausrichtung) der Fläche in Bezug auf die lokale Stromrichtung natürlich wesentlich.
 
@@ -74,3 +69,10 @@ Da die Stromdichte lokal variieren kann, ist die exakte Definition eine differen
 $$
 d I=\mathbf{J} \cdot d \mathbf{A} \quad \Rightarrow \quad I=\int_A \mathbf{J} \cdot d \mathbf{A}
 $$
+
+---
+
+> [!warning] Begriff Dichte
+> Dicht kann alle mögliche bedeuten:
+> - x pro Volumen
+> - x pro Fläche (wie hier)
