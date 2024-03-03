@@ -88,7 +88,7 @@ Trotz der Last ist das Übersetzungsverhältis gleich wie im Unbelasteten Fall (
 > - Wird die Spannung um einen Faktor nach oben Transformiert, wird der [Strom](../Elektrotechnik/elektrischer%20Strom.md) um den selben Faktor verringert
 > 	- $P=U\cdot I$
 
-### Analogie zum Ohm‘schen Gesetz
+### Analogie zum [Ohm](../Elektrotechnik/Ohmsches%20Gesetz.md)‘schen Gesetz
 
 | Magnetisch              | Elektrisch                                                          |
 | ----------------------- | ------------------------------------------------------------------- |

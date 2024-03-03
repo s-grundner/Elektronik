@@ -43,7 +43,7 @@ Durch das Anlegen einer Puls-förmigen Spannung an eine Induktivität folgt, das
 
 ![indu-pulse](assets/indu-pulse.png)
 
-Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren Ohm'schen Widerstands.  
+Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren [Ohm](Ohmsches%20Gesetz.md)'schen Widerstands.  
 Daher gilt die folgende Näherung:
 
 $$
