@@ -5,6 +5,7 @@ keywords:
 subject:
   - UE
   - VL
+  - PR
   - Einf. ET
 semester:
   - B1
