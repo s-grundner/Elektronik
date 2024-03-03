@@ -28,4 +28,4 @@ $$
 und wird als *Durchflutungssatz* bezeichnet.
 
 > [!tldr]  
-> In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *Stromdichte* $J$ über die *Fläche* $A$ (siehe auch Einschub: Flächenintegral) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird
+> In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *[Stromdichte](Stromdichte.md)* $J$ über die *Fläche* $A$ (siehe auch Einschub: [Flächenintegral](Flächenintegral.md)) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird

@@ -17,7 +17,7 @@ professor:
 
 # Drude-Modell - Modell für den elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
-> [!info] Das [Drude-Modell](Drude-Modell.md) beschäftigt sich mit dem Ladungstransport in einem Leiter (elektrischer Strom) der durch ein elektrisches Feld hervorgerufen wird.
+> [!info] Das [Drude-Modell](Drude-Modell.md) beschäftigt sich mit dem Ladungstransport in einem Leiter ([elektrischer Strom](elektrischer%20Strom.md)) der durch ein elektrisches Feld hervorgerufen wird.
 
 Die Mittlere Driftgeschwindigkeit $\langle v\rangle$ der Elektronen im [Metall](../Chemie/Metallbindung.md) ist ohne einem [elektrischen Feld](Elektrisches%20Feld.md) im Mittel Null.
 Obwohl sich die Elektronen individuell betrachtet durch die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung **sehr** schnell bewegen. Die Streuung der Elektronen ist *isotrop*.

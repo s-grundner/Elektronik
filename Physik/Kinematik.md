@@ -27,7 +27,7 @@ professor:
 
 ![](assets/Pasted%20image%2020231015233140.png)
 
-## Bewegung in einer Dimension
+## 1 Bewegung in einer Dimension
 
 > [!INFO] Definition der Geschwindigkeit  
 > Wie stark ändert sich der Weg über die Zeit.  
@@ -42,11 +42,7 @@ Einheit: $[v] = \frac{m}{s}$
 > $a(t)=\frac{dv}{dt} = \frac{d}{dt}\left( \frac{dx}{dt} \right)=\frac{d^{2}x}{dt^{2}}=\ddot{x}(t)$  
 > Einheit: $\frac{m}{s^{2}}$
 
-![InlineR|300](assets/Pasted%20image%2020231011131442.png)
-
->[!EXAMPLE] $x(t) = t_{0}+A t^{2}-C t^{3}+\sin(\omega t)$  
->$v(t)=\frac{dx}{dt}=0+2At-3Ct^{2}+\omega\cos(\omega t)$  
-> $a(t)=\frac{dv}{dt}=\frac{d^{2}x}{dt^{2}}=0+2A-6Ct-\omega^{2} \sin(\omega t)$
+![InlineR|200](assets/Pasted%20image%2020231011131442.png)
 
 $$
 \begin{align}
@@ -60,11 +56,12 @@ $$
 
 > [!WARNING] Bei [Integrieren](../Mathematik/mathe%20(3)/Integralrechnung.md) sind die Anfangswerte zu beachten ($+C$… Integrationskonstante)
 
-## Bewegung in 2/3-Dimensionen
+## 2 Bewegung in 2/3-Dimensionen
 
 > [!TLDR] Vektorschreibweise  
 > Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als [Vektoren](../Mathematik/mathe%20(3)/Vektor.md) auffassen. [Vektoren](../Mathematik/mathe%20(3)/Vektor.md) sind Größen, die sowohl einen [Betrag](../Mathematik/Betrag.md) als auch eine Richtung im Raum haben (Größen, die nur einen [Betrag](../Mathematik/Betrag.md) haben, heißen Skalare).
 
+![InlineR|310](assets/Raumbewegung.png)
 $$
 \vec{r} = x\cdot \vec{e_{x}} + y\cdot \vec{e_{y}}+ z\cdot \vec{e_{z}}
 $$
@@ -73,17 +70,14 @@ bzw in Koordiantenschreibweise
 
 $$
 \vec{r}=\begin{pmatrix}
-x \\
-y \\
-z
+x \\ y \\ z
 \end{pmatrix}
 $$
 
-![](assets/Pasted%20image%2020231011131936.png)
 
 $r_{i}$ sind Ortsvektoren
 
-## Kreisbewegungen
+## 3 Kreisbewegungen
 
 $$
 \begin{align}
