@@ -52,3 +52,25 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 
  > [!hint] In [Metallen](../Chemie/Metallbindung.md) tragen **nur** negativ geladene Elektronen zum Storm bei!
  > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
+
+## 1 Stromdichte
+
+> [!warning] Begriff Dichte
+> Dicht kann alle mögliche bedeuten:
+> - x pro Volumen
+> - x pro Fläche (wie hier)
+
+> [!info] Die Stromdichte J gibt die Stromanteil $\Delta I$ pro Fläche $\Delta A$ an.
+> Dabei ist die Orientierung (Ausrichtung) der Fläche in Bezug auf die lokale Stromrichtung natürlich wesentlich.
+
+![inlineR](assets/BspVekFlaecheStromdichte.png)
+
+> [!question] Vektorielles Flächenelements $\Delta \mathbf{A}$ 
+> Zeigt in Richtung der Flächennormale & der Betrag entspricht der Fläche.
+
+Die Stromdichte ist ebenfalls eine vektorielle Größe und zeigt in Richtung der lokalen Stromrichtung (Richtung der mittleren Geschwindigkeit bei positiven Ladungsträgern bzw. entgegengesetzt bei negativen).
+$\Delta I$ durch eine Fläche $\Delta \mathbf{A}$ daher: $\Delta I=\mathbf{J} \cdot \Delta \mathbf{A}$
+Da die Stromdichte lokal variieren kann, ist die exakte Definition eine differenzielle bzw. muss für einen endlichen Bereich integriert werden:
+$$
+d I=\mathbf{J} \cdot d \mathbf{A} \quad \Rightarrow \quad I=\int_A \mathbf{J} \cdot d \mathbf{A}
+$$
