@@ -54,7 +54,11 @@ a(t) &= \ddot{s}(t)
 \end{align}
 $$
 
-> [!WARNING] Bei [Integrieren](../Mathematik/mathe%20(3)/Integralrechnung.md) sind die Anfangswerte zu beachten ($+C$… Integrationskonstante)
+
+<br><br>
+
+> [!WARNING] Bei [Integrieren](../Mathematik/mathe%20(3)/Integralrechnung.md) sind die Anfangswerte zu beachten
+> ($+C$… Integrationskonstante)
 
 ## 2 Bewegung in 2/3-Dimensionen
 

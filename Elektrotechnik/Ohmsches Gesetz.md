@@ -9,19 +9,19 @@ aliases:
 created: 26. September 2023
 ---
 
-# Ohm'sches Gesetz
+# Das Ohm'sche "Gesetz" - ein Modell
 
-## Serienschaltung von Widerständen
+## 1 Serienschaltung von Widerständen
 
 ![](assets/Pasted%20image%2020230926163508.png)
 
-## Parallelschaltung von Widerständen
+## 2 Parallelschaltung von Widerständen
 
 ![](assets/Pasted%20image%2020230926163531.png)
 
-## Spannungsteiler
+## 3 Spannungsteiler
 
-### Belasteter Spannungsteiler
+### 3.1 Belasteter Spannungsteiler
 
 | Schaltung                                       | Rechung                                                    |
 | ----------------------------------------------- | ---------------------------------------------------------- |
