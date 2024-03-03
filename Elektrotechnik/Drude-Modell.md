@@ -36,18 +36,23 @@ Da in einem konstanten [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld
 
 ## 1 Beweglichkeit - Zusammenhang mit mittlerer Flugzeit
 
-- Thermische Bewegung eines Elektrons in x-Richtung (ohne elektrisches Feld). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der Geschwindigkeit $\langle v_{e,x} \rangle = 0$
+- Thermische Bewegung eines Elektrons in x-Richtung (ohne elektrisches Feld). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der [Geschwindigkeit](../Physik/Kinematik.md) $\langle v_{e,x} \rangle = 0$
 
 Die Gesamtheit der Stöße der Elektronen wird als *Streuung* bezeichnet
 
 ![](assets/DrudeStosszeiten.png)
 
-Die thermische Wimmelbewegung wird mit der Beschleunigung durch das E-Feld überlagert 
+Die thermische Wimmelbewegung wird mit der Beschleunigung durch das E-Feld überlagert.
+
 Da die thermische Wimmelbewegung der Elektronen *sehr viel größer* ist als die Geschwindigkeitszunahme durch das elektrische Feld, kann man die Thermische Bewegung immer noch als *isotrop* Betrachten.
 
-$$
-\left\langle\mathbf{v}_e\right\rangle=-\frac{e \tau}{m_e} \mathbf{E}=-\mu_e \mathbf{E}
-$$
+> [!success] $$\left\langle\vec{v}_e\right\rangle=-\frac{e \uptau}{m_e} \vec{E}=-\mu_e \vec{E} $$
+> 
+> $\langle v_{e} \rangle$ ... Mittlere Geschwindigkeit der Elektronen
+> $-e$ ... Ladung eines Elektrons (negative [Elementarladung](../Physik/Konstanten/Elementarladung.md))
+> $\uptau$ ... Mittlere Stoßzeit
+> $m_{e}$ ... Masse eines elektrons
+> 
 
 ![](assets/MittlGeschwE.png)
 
