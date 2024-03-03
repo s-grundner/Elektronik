@@ -38,7 +38,18 @@ Da in einem konstanten [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld
 
 - Thermische Bewegung eines Elektrons in x-Richtung (ohne elektrisches Feld). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der Geschwindigkeit $\langle v_{e,x} \rangle = 0$
 
+Die Gesamtheit der Stöße der Elektronen wird als *Streuung* bezeichnet
+
 ![](assets/DrudeStosszeiten.png)
 
 Die thermische Wimmelbewegung wird mit der Beschleunigung durch das E-Feld überlagert 
-Da die thermische Wimmelbewegung der Elektronen ist *sehr viel größer* als die Geschwindigkeitszunahme durch das elektrische Feld. 
+Da die thermische Wimmelbewegung der Elektronen *sehr viel größer* ist als die Geschwindigkeitszunahme durch das elektrische Feld, kann man die Thermische Bewegung immer noch als *isotrop* Betrachten.
+
+$$
+\left\langle\mathbf{v}_e\right\rangle=-\frac{e \tau}{m_e} \mathbf{E}=-\mu_e \mathbf{E}
+$$
+
+![](assets/MittlGeschwE.png)
+
+> [!info] Isotrop
+> Liefert keinen Betrag zum Mittelwert und ist im Mittel $0$.
