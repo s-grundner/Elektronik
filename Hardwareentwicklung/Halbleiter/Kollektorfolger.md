@@ -18,7 +18,7 @@ created: 21st November 2022
 
 ### Basis-Vorwiderstand
 
-### Basis-Spannungsteiler
+### Basis-[Spannungsteiler](../../Elektrotechnik/Spannungsteiler.md)
 
 ## Spannungs-Gegenkopplung
 

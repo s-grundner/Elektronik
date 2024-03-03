@@ -16,7 +16,7 @@ professor:
 ---
  
 
-# [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) abhängiger Widerstand
+# [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) Abhängiger Widerstand
 
 ## NTC - Heißleiter
 

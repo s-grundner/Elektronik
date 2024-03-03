@@ -2,10 +2,7 @@
 tags:
   - Physik/Kinematik
 aliases:
-  - Geschwindigkeit
-  - Beschleunigung
   - "#Physik/Kinematik"
-  - Bewegung
 keywords:
   - x-t Diagramm
   - v-t Diagramm

@@ -6,6 +6,7 @@ aliases:
   - elektrisch geladen
   - geladen
   - Ladungen
+  - statischen E-Feld
 keywords: 
 subject:
   - Einf. ET
@@ -42,7 +43,7 @@ $$|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 > [!important] Wie im Schwerefeld der Erde gilt auch im [Elektrischen Feld](Elektrisches%20Feld.md) der Energie-Erhaltungssatz 
-> Die [Arbeit](../Physik/Mechanische%20Arbeit.md) und das Potenzial (von Potentielle Energie) im Statischen E-Feld führt uns zur [elektrischen Spannung](elektrische%20Spannung.md)
+> Die [Arbeit](../Physik/Mechanische%20Arbeit.md) und das Potenzial (von [Potentielle Energie](../Physik/Energieerhaltung.md)) im Statischen [E-Feld](Elektrisches%20Feld.md) führt uns zur [elektrischen Spannung](elektrische%20Spannung.md)
 
 ## Statisches [E-Feld](Elektrisches%20Feld.md) $\iff$ Gravitationsfeld
 
@@ -100,7 +101,7 @@ Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirku
 <!--SR:!2024-03-03,1,190-->
 Wie verhält sich ein *Elektron* (kinematisch), welches in ein *in x-Richtung orientiertes* homogenes [elektrisches Feld](Elektrisches%20Feld.md) eingebracht wird?;;es beschleunigt in negative x-Richtung.
 <!--SR:!2024-03-09,7,250-->
-Ein leifähiger elliptischer Zylinder wird in ein homogenes E-Feld eingebracht: ![](assets/Pasted%20image%2020240229202733.png) welches sind die Feldlinien und welches die Äquipotentiallinien
+Ein leifähiger elliptischer Zylinder wird in ein homogenes [E-Feld](Elektrisches%20Feld.md) eingebracht: ![](assets/Pasted%20image%2020240229202733.png) welches sind die Feldlinien und welches die Äquipotentiallinien
 ?
 Normal zur Ellipse: Feldlinien
 Tangential zur Ellipse: Äquipotentiallinien
