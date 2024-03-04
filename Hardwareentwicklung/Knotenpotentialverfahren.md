@@ -1,10 +1,22 @@
 ---
-tags: []
-aliases: []
-created: 2. Januar 2024
+tags: 
+aliases:
+  - Knotenpotential
+  - Knotenspannung
+keywords: 
+subject:
+  - VL
+  - Elektrotechnik
+semester:
+  - SS24
+  - B2
+created: 8. Januar 2024
+professor:
+  - Andreas Springer
 ---
+ 
 
-# Knotenpotentialverfahren
+# Knotenpotential Verfahren
 
 ![](assets/Pasted%20image%2020240102163326.png)
 
