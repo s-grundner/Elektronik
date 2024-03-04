@@ -1,7 +1,7 @@
 ---
 tags:
   - Algorithmus
-  - Suchen
+  - Algorithmus/Suchen
 aliases:
   - Binäre Suche
 subject:

@@ -277,8 +277,6 @@ Es ist nur die Ausgabe des Programms von Interesse. Leiten Sie die Standardausga
 
 freopen("benchmark.txt","a+",stdout);
 
-
-
 ```c
 #define MAX 10000
 

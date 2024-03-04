@@ -1,9 +1,9 @@
 ---
 tags:
   - MOC
-  - Sortieren
+  - Algorithmus/Sortieren
 aliases:
-  - Algo_Sortieren
+  - "#Algorithmus/Sortieren"
 subject:
   - ""
 inst:
@@ -14,10 +14,9 @@ created: 29. November 2022
 # Map of Content - Sortieren
 
 ```dataview
-LIST
-FROM #Algorithmus AND #Sortieren
+LIST FROM #Algorithmus/Sortieren
+WHERE !contains(file.name, "MOC")
 ```
-
 
 Sortieren ist eine grundlegende Technologie der Informatik. Effiziente Sortieralgorithmen werden auch eingesetzt um in großen Datenmengen schneller Suchen zu können.
 
@@ -28,7 +27,7 @@ Sortieren ist eine grundlegende Technologie der Informatik. Effiziente Sortieral
 > - **Stabiles Sortieren**: Sortierung die einen zusammengesetzten Datensatz richtig sortiert.
 > 	- Beispiel: eine *alphabetisch sortierte* Personenliste wird *nach Geburtsdatum* neu sortiert, dann bleibt die alphabetische Sortierung für Personen mit gleichem Geburtsdatum erhalten (bei stabilen Sortieralgorithmen). 
 > 
-> Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler Algorithmus garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
+> Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler [Algorithmus](../{MOC}%20Algorithms.md) garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
 
 ## Sortierung Über Referenzen
 
@@ -36,8 +35,8 @@ Es gibt häufig die Forderung ein Array zu sortieren in welchem die Elemente gro
 
 ## Referenzen
 
-- Viele Sortieralgorithmen mit JS Implementierung:
-	- <http://khan4019.github.io/front-end-Interview-Questions/sort.html>
+- [Viele Sortieralgorithmen mit JS Implementierung](http://khan4019.github.io/front-end-Interview-Questions/sort.html)
+- [Ue_Sortieren](Ue/Ue_Sortieren.md)
 
 ## Fragen
 

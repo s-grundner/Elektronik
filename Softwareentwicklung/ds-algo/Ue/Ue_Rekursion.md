@@ -1,6 +1,6 @@
 ---
-tags: ["Algorithmus"]
-aliases: []
+tags: []
+aliases: 
 created: 29th November 2022
 ---
 
@@ -8,7 +8,7 @@ created: 29th November 2022
 
 ## Selbstaufruf Ohne Abbruchbedingung
 
-Wenn sich eine Funktion selbst aufruft, dann ist es notwendig, dass eine Abbruchbedingung den Selbstaufruf beendet. Ansonsten läuft der Speicher (Stack) voll und das Programm wird aufgrund eines Speicherüberlaufs beendet (Stack-Overflow, Fehler-Code 0xC00000FD).
+Wenn sich eine Funktion selbst aufruft, dann ist es notwendig, dass eine Abbruchbedingung den Selbstaufruf beendet. Ansonsten läuft der Speicher ([Stack](../LIFO%20Stack.md)) voll und das Programm wird aufgrund eines Speicherüberlaufs beendet (Stack-Overflow, Fehler-Code 0xC00000FD).
 
 ```c
 void cntup(int num) {
@@ -68,7 +68,7 @@ Typischer Fehler: Abbruchbedingung wird nie erreicht wenn b<0 ist.
 
 ## Faktorielle
 
-> [!EXAMPLE] In der Wahrscheinlichkeitsrechnung oder in Taylorreihen findet sich die Faktorielle (oder auch Fakultät) einer Zahl:  
+> [!EXAMPLE] In der Wahrscheinlichkeitsrechnung oder in [Taylorreihen](../../../Mathematik/mathe%20(4)/Taylorreihe.md) findet sich die Faktorielle (oder auch Fakultät) einer Zahl:  
 > ​n! = 1 * 2 * … * (n-1) * (n)		mit		0! = 1, 1! = 1  
 > und mit:  
 > ​n! = (n-1)! * n  

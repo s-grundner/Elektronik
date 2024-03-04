@@ -1,6 +1,6 @@
 ---
 tags:
-  - Suchen
+  - Algorithmus/Suchen
   - Algorithmus
 aliases:
   - Sequentielles Suchen

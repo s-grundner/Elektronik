@@ -3,6 +3,8 @@ tags:
   - "#Algorithmus"
 aliases:
   - "#Algorithmus"
+  - Algorithmus
+  - Algorithmen
 keywords: 
 subject: 
 semester: 
@@ -13,6 +15,16 @@ professor:
 
 # {MOC} Algorithmen
 
-> [!INFO] Sprachunabhängiger Ablauf an Operationen, welche in Summe einen  
+> [!INFO] Sprachunabhängiger Ablauf an Operationen, welche in ihrer Gesamtheit eine Funktion beschreiben 
 
+## 1 Mathematik
 
+```dataview
+LIST FROM #Algorithmus 
+```
+
+## 2 Informatik
+
+- Such-Algorithmen
+
+## 3 Elektrotechnik

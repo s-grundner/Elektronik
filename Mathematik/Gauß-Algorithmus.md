@@ -1,6 +1,6 @@
 ---
 tags:
-  - Algorithmus
+  - Algorithmus/Mathe
 aliases:
   - Gaußsches Eliminationsverfahren
 keywords: 

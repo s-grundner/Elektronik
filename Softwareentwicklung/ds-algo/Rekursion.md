@@ -136,7 +136,8 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 
 # Beispiele
 
->[!EXAMPLE] [Binary Search](Binary%20Search.md)
+- [Binary Search](Binary%20Search.md)
+- [Ue_Rekursion](Ue/Ue_Rekursion.md)
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Algorithmus
+  - Algorithmus/Mathe
 aliases: 
 keywords: 
 subject:

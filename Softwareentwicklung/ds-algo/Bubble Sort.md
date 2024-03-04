@@ -1,5 +1,5 @@
 ---
-tags: ["Sortieren", "Algorithmus"]
+tags: ["Algorithmus/Sortieren", "Algorithmus"]
 aliases: ["Bubbel-Sort"]
 created: 19th August 2023
 ---

@@ -1,5 +1,5 @@
 ---
-tags: ["Sortieren", "Algorithmus"]
+tags: ["Algorithmus/Sortieren", "Algorithmus"]
 aliases: ["Qsort", "Quick-Sort"]
 created: 19th August 2023
 ---
