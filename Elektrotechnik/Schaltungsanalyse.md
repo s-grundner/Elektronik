@@ -27,14 +27,7 @@ professor:
 > - Aufstellen der [Maschen und Knotengleichungen](Kirchhoffsche%20Regeln.md)
 > - Anwendung des (verallgemeinerten[^1]) Ohm'schen Gesetzes
 
-
-> [!info] Ein Netzwerk besteht im allgemeinen aus $n$-Polen ($n\geq 2$)
-> Da sich $n$-Pole durch Zweipole modellieren lassen, betrachten wir **Nur aus Zweipolen bestehende Netzwerke**
-> - z.B lassen sich für [Transistoren](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md), die in der Regel drei Anschlüsse haben, Ersatzschaltbilder angeben, die Ausschließlich aus Zweipolen bestehen.
-
-Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass das Netzwerk aus $k$ Knoten und $z$ Zweigen.
-
-## 1 Systematische Analyse [linearer](lineare%20Systeme.md) Netzwerken
+## Systematische Analyse [linearer](lineare%20Systeme.md) Netzwerken
 
 > [!hint] Lineare elektrische Netzwerke bestehen ausschließlich aus:
 > - linearen Widerständen
@@ -46,14 +39,21 @@ Lineare Widerstände, [Induktivitäten](Induktivitäten.md) und [Kapazitäten](K
 
 Ideale Quellen mit Innenwiderstand werden als “reale Quellen” oder besser als [lineare Quellen](lineare%20Quellen.md) bezeichnet.
 
-
 > [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 
+### Aufbau eines Netzwerks
+
+> [!info] Ein Netzwerk besteht im allgemeinen aus $n$-Polen ($n\geq 2$)
+> Da sich $n$-Pole durch Zweipole modellieren lassen, betrachten wir **Nur aus Zweipolen bestehende Netzwerke**
+> - z.B lassen sich für [Transistoren](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md), die in der Regel drei Anschlüsse haben, Ersatzschaltbilder angeben, die Ausschließlich aus Zweipolen bestehen.
+
+Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass das Netzwerk aus $k$ Knoten und $z$ Zweigen.
+
 ### Topologien
 
-### 1.1 Verfahren für die Analyse
+### Verfahren Für die Analyse
 
 - [Knotenpotentialverfahren](../Hardwareentwicklung/Knotenpotentialverfahren.md)
 
