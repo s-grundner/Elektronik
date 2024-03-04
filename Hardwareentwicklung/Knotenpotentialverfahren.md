@@ -3,6 +3,7 @@ tags:
 aliases:
   - Knotenpotential
   - Knotenspannung
+  - Knotenspannungs
 keywords: 
 subject:
   - VL
