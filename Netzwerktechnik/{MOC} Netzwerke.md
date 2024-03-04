@@ -15,7 +15,7 @@ source:
 
 # Map of Content - Netzwerke
 
-> siehe: elektrische Netzwerke aus der [Schaltungsanalyse](../Elektrotechnik/Schaltungsanalyse.md)
+> siehe: [elektrische Netzwerke](../Elektrotechnik/Schaltungsanalyse.md) aus der [Schaltungsanalyse](../Elektrotechnik/Schaltungsanalyse.md)
 
 ```dataview
 LIST FROM #Netzwerke 

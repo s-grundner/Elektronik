@@ -1,18 +1,18 @@
 ---
-tags: 
-aliases: 
-keywords: []
-subject:
-  - Softwareentwicklung1
-semester: 1
+tags:
+  - "#Algorithmus"
+aliases:
+  - "#Algorithmus"
+keywords: 
+subject: 
+semester: 
 created: 9. Oktober 2023
 professor:
 ---
  
 
-# {MOC} Algorithms
+# {MOC} Algorithmen
 
-> [!INFO] Sprachunabhängiger Ablauf an
-> 
+> [!INFO] Sprachunabhängiger Ablauf an Operationen, welche in Summe einen  
 
 

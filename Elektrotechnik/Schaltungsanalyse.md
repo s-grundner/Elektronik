@@ -27,7 +27,7 @@ professor:
 > [!important] Für *[lineare Systeme](lineare%20Systeme.md)* gilt das [Superpositionsprinzip](Superpositionsprinzip.md) 
 > 
 
-> [!info] Eine systematisches Verfahren für die Analyse ist notwendig für:
+> [!info] Eine systematisches Verfahren (Algorithmus) für die Analyse ist notwendig für:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 
