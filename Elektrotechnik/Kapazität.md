@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: ["Kondensator"]
-subject: ["hwe"]
-source: ["Michael Offenhuber", "Siegbert Schrempf"]
+tags: 
+aliases:
+  - Kondensator
+  - Kapazitäten
+subject:
+  - hwe
+source:
+  - Michael Offenhuber
+  - Siegbert Schrempf
 created: 11th April 2023
 ---
 
@@ -25,14 +30,14 @@ created: 11th April 2023
 
 ## Kenngrößen im Kondensator
 
-### Geometrie
+### [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md)
 
 - Plattenkondensator
 - Zylinderkondensator
 - Drehkondensator
 - Vielschichtkondensator
 
-### Dielektrikum
+### [Dielektrikum](Dielektrikum.md)
 
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - MLCC - Multilayer Ceramic Capacitor
@@ -47,14 +52,14 @@ $$
 
 ### Energie im Kondensator
 
-Die Energie im Kondensator lässt sich durch die eingespeiste Leistung berechnen:  
+Die Energie im Kondensator lässt sich durch die eingespeiste [Leistung](../Physik/Elektrische%20Leistung.md) berechnen:  
 Die integrationsvariable $\uptau$ dient zur Unterscheidung zur Laufzeivariable $t$: 
 
 $$
 W_m(t)-W_{m(0)}=\int_{0}^{t} p(\uptau) \, d \uptau =\int_{0}^{t} i(\uptau) \cdot u(\uptau) \,d \uptau \\
 $$
 
-Der [Strom](elektrischer%20Strom.md) im Kondensator ist Abhängig von der Änderungsrate der angelegten Spannung und der Kapazität, also folglich: $i(t) = C\cdot \frac{du}{dt}$  
+Der [Strom](elektrischer%20Strom.md) im Kondensator ist Abhängig von der Änderungsrate der angelegten [Spannung](Spannung.md) und der Kapazität, also folglich: $i(t) = C\cdot \frac{du}{dt}$  
 
 $$=\int_{0}^{t} C \frac{d u}{d \uptau}\cdot u(\uptau) \,d \uptau$$
 
@@ -66,7 +71,7 @@ $$
 =\frac{C u(t)^2}{2}
 $$
 
-# Kondensator in der Wechselstromtechnik und Impedanz
+# Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
 
 ## Idealer Kondensator
 

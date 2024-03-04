@@ -22,10 +22,11 @@ professor:
 > [!info] 
 > Eine beliebige lineare Quelle (Spannungsund Stromquellen in einem Netzwerk aus Widerständen) kann zwischen zwei Klemmen als Theveninoder Norton-Ersatzbild dargestellt werden.
 
-Das Netzwerk kann dabei durch zwei Parameter (oder Messungen) vollständig identifiziert werden:
-- Die *Leerlaufspannung* $U_{L}$: Jene [elektrische Spannung](elektrische%20Spannung.md) die im Leerlauf an den Klemmen anliegt
-- Den *Kurzschlussstrom* $I_{K}$: Der [Strom](elektrischer%20Strom.md) der bei Kurzschluss zwischen den Klemmen fließt
+> [!question] Das Netzwerk kann dabei durch zwei Parameter (oder Messungen) vollständig identifiziert werden:
+> - Die *Leerlaufspannung* $U_{L}$: Jene [elektrische Spannung](elektrische%20Spannung.md) die im Leerlauf an den Klemmen anliegt
+> - Den *Kurzschlussstrom* $I_{K}$: Der [Strom](elektrischer%20Strom.md) der bei Kurzschluss zwischen den Klemmen fließt
 
+![InlineR|375](assets/ESB_Innenwiderstandsgerade.png)
 
 $$
 \begin{aligned}
@@ -33,8 +34,6 @@ R_i & =\frac{U_L}{I_K} \\
 U_a & =U_L \frac{R_a}{R_a+R_i}=I_K \frac{R_i R_a}{R_i+R_a}
 \end{aligned}
 $$
-
-![|500](assets/ESB_Innenwiderstandsgerade.png)
 
 ## Norton ESB: Stromquelle
 
