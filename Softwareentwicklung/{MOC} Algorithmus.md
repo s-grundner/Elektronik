@@ -17,7 +17,7 @@ professor:
 
 > [!INFO] Sprachunabhängiger Ablauf an Operationen, welche in ihrer Gesamtheit eine Funktion oder Verfahren beschreiben 
 
-## 1	Mathematik
+## 1 Mathematik
 
 ```dataview
 LIST FROM #Algorithmus/Mathe 
