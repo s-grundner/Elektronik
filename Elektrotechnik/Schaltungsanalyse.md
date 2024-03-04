@@ -4,6 +4,7 @@ tags:
 aliases:
   - Netzwerkanalyse
   - "#Schaltungsanalyse"
+  - elektrische Netzwerke
 keywords: 
 subject:
   - VL
@@ -19,11 +20,12 @@ professor:
 
 # Schaltungsanalyse
 
-> [!info] Berechnungen von Strömen und Spannungen erfolgen elementarer weise durch:
-> - (optionale) Vereinfachung des Netzwerks
-> - Aufstellen der Maschen- und Knotengleichungen
-> - Anwendung des [Ohm'schen Gesetz](Ohmsches%20Gesetz.md)
-
+> siehe: Netzwerke aus der [Netzwerktechnik](../Netzwerktechnik/{MOC}%20Netzwerke.md) 
 ## Systematische Analyse von Netzwerken
 
+> [!info] Eine systematische Analyse ist notwendig für:
+> - Analyse komplexerer Netzwerke
+> - Computer gestützte Verfahren
 
+
+  

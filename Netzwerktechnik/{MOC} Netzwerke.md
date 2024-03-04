@@ -5,9 +5,8 @@ tags:
 aliases:
   - Networks
   - Networking
-  - Netzwerke
-  - Netzwerk
   - "#Netzwerke"
+  - Netzwerktechnik
 subject:
   - ksn
 source:
@@ -16,12 +15,17 @@ source:
 
 # Map of Content - Netzwerke
 
-## [Netzwerktopologien](Netzwerktopologien.md)
+> siehe: elektrische Netzwerke aus der [Schaltungsanalyse](../Elektrotechnik/Schaltungsanalyse.md)
 
-## [Paketbildung / Framing](Paketbildung%20/%20Framing)
+```dataview
+LIST FROM #Netzwerke 
+SORT file.name ASC
+```
 
-## [CSMA/CD](CSMA/CD)
+---
 
-## [CSMA/CA](CSMA/CA)
-
-## [CRC Prüfsumme](CRC%20Pr%C3%BCfsumme)
+- [Netzwerktopologien](Netzwerktopologien.md)
+- [Paketbildung / Framing](Paketbildung%20/%20Framing)
+- [CSMA/CD](CSMA/CD)
+- [CSMA/CA](CSMA/CA)
+- [CRC Prüfsumme](CRC%20Pr%C3%BCfsumme)
