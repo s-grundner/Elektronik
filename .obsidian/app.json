@@ -26,7 +26,6 @@
   "focusNewTab": false,
   "userIgnoreFilters": [
     "*.ini",
-    "Rubbish",
     "desktop.ini",
     "xORG/",
     "Hardwareentwicklung/Uebung/",
@@ -36,7 +35,9 @@
     "Softwareentwicklung/Datenbanken/Ue/",
     "Softwareentwicklung/DS-Algo/Ue/",
     "Softwareentwicklung/Java/Ue/",
-    "Ue"
+    "Ue",
+    "xPN/Rubbish/",
+    "xEDU/Rubbish/"
   ],
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",

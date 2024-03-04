@@ -22,7 +22,12 @@ professor:
 
 > siehe: Netzwerke aus der [Netzwerktechnik](../Netzwerktechnik/{MOC}%20Netzwerke.md) 
 
-## Systematische Analyse [linearer](lineare%20Systeme.md) Netzwerken
+Berechnungen von Strömen und Spannungen von Netzwerken erfolgen auf elementare Weise durch:
+- (optionale) Vereinfachung des Netzwerkes
+- Aufstellen der [Maschen und Knotengleichungen](Kirchhoffsche%20Regeln.md)
+- Anwendung des (verallgemeinerten) Ohm'schen Gesetzes
+
+## 1 Systematische Analyse [linearer](lineare%20Systeme.md) Netzwerken
 
 > [!important] Für *[lineare Systeme](lineare%20Systeme.md)* gilt das [Superpositionsprinzip](Superpositionsprinzip.md) 
 > 
@@ -31,5 +36,6 @@ professor:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 
+### 1.1 Verfahren für die Analyse
 
-  
+- [Knotenpotentialverfahren](../Hardwareentwicklung/Knotenpotentialverfahren.md)
