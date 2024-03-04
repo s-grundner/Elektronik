@@ -1,8 +1,14 @@
 ---
-tags: []
-aliases: ["Varicap", "Varaktor", "Abstimmdiode"]
-subject: ["hwe"]
-source: ["Siegbert SChrempf"]
+tags:
+  - Halbleiter/Diode
+aliases:
+  - Varicap
+  - Varaktor
+  - Abstimmdiode
+subject:
+  - hwe
+source:
+  - Siegbert SChrempf
 created: 19th January 2023
 ---
 
@@ -28,5 +34,5 @@ Die Breite der RLZ ist eine Funktion der Spannung.
 
 # Tags
 
-[VCO](Oszillatoren/Voltage%20Controlled%20Oscillator.md)  
-[PLL](Oszillatoren/Phase%20Locked%20Loop.md)
+- [VCO](Oszillatoren/Voltage%20Controlled%20Oscillator.md)  
+- [PLL](Oszillatoren/Phase%20Locked%20Loop.md)

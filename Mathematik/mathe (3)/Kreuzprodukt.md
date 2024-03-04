@@ -6,7 +6,6 @@ aliases:
 keywords: 
 subject:
   - VL
-  - Einf. ET
   - Mathematik1
 semester: 
 created: 3. März 2024

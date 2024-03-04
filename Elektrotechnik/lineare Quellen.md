@@ -6,7 +6,8 @@ aliases:
 keywords: 
 subject:
   - Einf. ET
-  - "335.005"
+  - VL
+  - Elektrotechnik
 semester:
   - WS23
 created: 11. Februar 2024
