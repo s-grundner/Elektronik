@@ -33,9 +33,7 @@ LIST FROM #Halbleiter/BJT
 ## FET
 
 primär Driftströme
-
 Enhancement MOSFET: siehe Kennlinie
-
 Depletion MOSFET: Leitet ohne Spannung (siehe Kennlinien)
 
 ```dataview

@@ -3,9 +3,6 @@ tags:
 aliases:
   - Thevenin
   - Norton
-  - ESB
-  - Ersatzschaltbild
-  - Ersatzbaldschild
 keywords: 
 subject:
   - Einf. ET
@@ -26,7 +23,9 @@ professor:
 > - Die *Leerlaufspannung* $U_{L}$: Jene [elektrische Spannung](elektrische%20Spannung.md) die im Leerlauf an den Klemmen anliegt
 > - Den *Kurzschlussstrom* $I_{K}$: Der [Strom](elektrischer%20Strom.md) der bei Kurzschluss zwischen den Klemmen fließt
 
-![InlineR|375](assets/ESB_Innenwiderstandsgerade.png)
+![|425](assets/KlemmenverhaltenLinQuell.png)
+
+Die Steigung des Graphen ist: $-\frac{1}{R_{i}} = - \frac{I_{K}}{U_{L}}$
 
 $$
 \begin{aligned}

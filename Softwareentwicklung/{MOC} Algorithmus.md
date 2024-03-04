@@ -13,7 +13,7 @@ professor:
 ---
  
 
-# {MOC} Algorithmen
+# Algorithmen
 
 > [!INFO] Sprachunabhängiger Ablauf an Operationen, welche in ihrer Gesamtheit eine Funktion oder Verfahren beschreiben 
 
