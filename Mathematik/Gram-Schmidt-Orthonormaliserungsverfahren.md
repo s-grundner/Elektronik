@@ -1,7 +1,10 @@
 ---
 tags:
   - Algorithmus/Mathe
-aliases: 
+aliases:
+  - Gram-Schmidt
+  - Orthogonalisierung
+  - Orthonormalisierung
 keywords: 
 subject:
   - Mathematik1

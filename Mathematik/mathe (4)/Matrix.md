@@ -41,7 +41,7 @@ created: 28th September 2022
 
 ## 2 Operationen auf eine Matrix
 
-- [Invertierbarkeit](Invertierbarkeit.md)  
+- [Gauß-Jordan-Verfahren](Gauß-Jordan-Verfahren.md)  
 - [Transponieren](Transponieren.md)  
 - [Determinante](Determinante.md)  
 - [[Matrixmultiplikation]]

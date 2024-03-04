@@ -4,10 +4,10 @@ tags:
   - Algorithmus/Suchen
 aliases:
   - "#Algorithmus/Suchen"
-subject:
-  - ""
-inst:
-  - HTBLuVA Salzburg
+  - Such-Algorithmus
+  - Such-Algorithmen
+subject: 
+inst: HTBLuVA Salzburg
 created: 29. November 2022
 ---
   
@@ -24,13 +24,13 @@ SORT file.name
 
 ## C-Standard-Bibliotheksfunktion Bsearch
 
-Die Binäre Suche ist auch als Funktion in der c-Standard-Bibliothek verfügbar:
+Die [Binäre Suche](Binary%20Search.md) ist auch als Funktion in der c-Standard-Bibliothek verfügbar:
 
 ```c
 void *bsearch(const void *key, const void *base, size_t nitems, size_t size, int (*compare)(const void *, const void *))
 ```
 
-Die Funktion bietet eine binäre Suche für beliebige Feldtypen, daher sind die Felder (sind ja Zeiger) vom Typ `void *`. Die Parameter der Funktion:
+Die Funktion bietet eine [binäre Suche](Binary%20Search.md) für beliebige Feldtypen, daher sind die Felder (sind ja Zeiger) vom Typ `void *`. Die Parameter der Funktion:
 
 - key: ein Zeiger auf den Schlüssel nach dem gesucht wird.
 - base: Zeiger auf das erste Element im Feld in dem gesucht wird.

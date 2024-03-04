@@ -1,8 +1,10 @@
 ---
-tags: ["Algorithmus"]
-aliases: []
-subject: ["null"]
-source: [""]
+tags:
+  - Algorithmus/Suchen
+aliases: 
+subject: []
+source:
+  - ""
 created: 17th April 2022
 ---
 

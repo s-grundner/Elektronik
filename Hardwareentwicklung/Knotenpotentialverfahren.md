@@ -1,6 +1,7 @@
 ---
 tags:
   - Schaltungsanalyse
+  - Algorithmus/Elektrotechnik
 aliases:
   - Knotenpotential
   - Knotenspannung

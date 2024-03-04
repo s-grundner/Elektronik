@@ -2,8 +2,9 @@
 tags:
   - Algorithmus/Mathe
 aliases:
-  - Gauß-Jordan-Verfahren
   - Inverse
+  - Invertierbarkeit
+  - Gauß-Jordan
 keywords: 
 subject:
   - Mathematik1
@@ -19,3 +20,5 @@ professor:
 # Invertieren einer [Matrix](Matrix.md)
 
 Eine quadratische [Matrix](Matrix.md) ($A \in \mathbb{R}^{n\times n}$) ist genau dann invertierbar, wenn ihr Rang gleich $n$ ist.
+
+Systematisch lässt sich eine [Matrix](Matrix.md) mit dem Gauß-Jordan-Verfahren Invertieren

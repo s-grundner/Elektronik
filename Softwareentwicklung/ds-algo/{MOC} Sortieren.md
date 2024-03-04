@@ -4,10 +4,10 @@ tags:
   - Algorithmus/Sortieren
 aliases:
   - "#Algorithmus/Sortieren"
-subject:
-  - ""
-inst:
-  - HTBLuVA Salzburg
+  - Sortier-Algorithmus
+  - Sortier-Algorithmen
+subject: 
+inst: HTBLuVA Salzburg
 created: 29. November 2022
 ---
 
@@ -21,13 +21,13 @@ WHERE !contains(file.name, "MOC")
 Sortieren ist eine grundlegende Technologie der Informatik. Effiziente Sortieralgorithmen werden auch eingesetzt um in großen Datenmengen schneller Suchen zu können.
 
 > [!INFO] Definitionen:
-> - **Internes Sortieren**: Daten werden in den Arbeitsspeicher (RAM) kopiert. Es kann wahlfrei auf die einzelnen Elemente zugegriffen werden.
+> - **Internes Sortieren**: Daten werden in den Arbeitsspeicher ([RAM](../../Technische%20Informatik/Speicherzellen.md)) kopiert. Es kann wahlfrei auf die einzelnen Elemente zugegriffen werden.
 > - **Externes Sortieren**: Daten können nicht in den Arbeitsspeicher kopiert werden (zum Beispiel zu viel). Verarbeitung auf externer Quelle.
 > - **Vergleichendes Sortieren**: Verwendung eines Werts aus der Sortiermenge mit dem beim Sortieren verglichen wird ("Schlüssel").
 > - **Stabiles Sortieren**: Sortierung die einen zusammengesetzten Datensatz richtig sortiert.
 > 	- Beispiel: eine *alphabetisch sortierte* Personenliste wird *nach Geburtsdatum* neu sortiert, dann bleibt die alphabetische Sortierung für Personen mit gleichem Geburtsdatum erhalten (bei stabilen Sortieralgorithmen). 
 > 
-> Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler [Algorithmus](../{MOC}%20Algorithms.md) garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
+> Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler [Algorithmus](../{MOC}%20Algorithmus.md) garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
 
 ## Sortierung Über Referenzen
 
@@ -40,7 +40,7 @@ Es gibt häufig die Forderung ein Array zu sortieren in welchem die Elemente gro
 
 ## Fragen
 
-- Welche Such-Algorithmen kennen Sie?
+- Welche [Such-Algorithmen]({MOC}%20Suchen.md) kennen Sie?
 - Wodurch unterscheiden sich die unterschiedlichen Sortieralgorithmen?
-- Wie kann die Sortierdauer unterschiedlicher Algorithmen verglichen werden?
+- Wie kann die Sortierdauer unterschiedlicher [Algorithmen](../{MOC}%20Algorithmus.md) verglichen werden?
 - Wie kann die Sortierung von Struktur-Feldern beschleunigt werden?

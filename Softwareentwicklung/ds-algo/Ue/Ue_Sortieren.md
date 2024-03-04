@@ -1,6 +1,6 @@
 ---
-tags: ["Algorithmus"]
-aliases: []
+tags: []
+aliases: 
 created: 29th November 2022
 ---
 
