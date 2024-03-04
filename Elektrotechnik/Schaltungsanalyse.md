@@ -22,14 +22,12 @@ professor:
 
 > siehe: Netzwerke aus der [Netzwerktechnik](../Netzwerktechnik/{MOC}%20Netzwerke.md) 
 
-Bisher werden nur [lineare Netzwerke](lineare%20Systeme.md) behandelt
-
 ## Systematische Analyse [linearer](lineare%20Systeme.md) Netzwerken
 
 > [!important] Für *[lineare Systeme](lineare%20Systeme.md)* gilt das [Superpositionsprinzip](Superpositionsprinzip.md) 
 > 
 
-> [!info] Eine systematische Analyse ist notwendig für:
+> [!info] Eine systematisches Verfahren für die Analyse ist notwendig für:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 

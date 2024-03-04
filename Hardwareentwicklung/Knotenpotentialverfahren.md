@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Schaltungsanalyse
 aliases:
   - Knotenpotential
   - Knotenspannung
