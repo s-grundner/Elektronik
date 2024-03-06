@@ -27,7 +27,7 @@ Die moderne Physik kennt *4* Kräfte:
 - Schwache Kernkraft
 
 
-> [!question]- Wie kommen "andere" Arten z.B. Kräfte in [Chemische Reaktionen](../Chemie/Chemische%20Reaktionen.md) zustande?
+> [!question]- Wie kommen "andere" Arten z.B. Kräfte in Chemische Reaktionen zustande?
 > Wechselwirkung dieser Kräfte
 
 ## Arten von Kräften
@@ -54,9 +54,13 @@ Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunig
 | Feld                                                          | Wird hervorgerufen durch  | Wirkt auf |
 | ------------------------------------------------------------- | ------------------------- | --------- |
 | Gravitationsfeld                                              | Eine Masse                | Massen    |
-| [Elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) | Eine ruhende Ladung       | Ladungen  |
-| [Magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) | Eine bewegte Ladung       | Ladungen  |
-| [Elektro-Magnetisches Feld](Elektromagnetische%20Wellen.md)   | Eine beschleunigte Ladung | Ladungen  |
+| [Elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) | Eine ruhende [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
+| [Magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) | Eine bewegte [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
+| [Elektro-Magnetisches Feld](Elektromagnetische%20Wellen.md)   | Eine beschleunigte [Ladung](../Elektrotechnik/elektrische%20Ladung.md) | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
+
+> [!hint] Begriff: Konservatives Kraftfeld
+> In einem Konservativen Kraftfeld trägt nur der Anteil der Bewegung in die *gleiche* Richtung der Kraftvektoren zur [Arbeit](Mechanische%20Arbeit.md) und alle der daraus folgenden Größen bei.  
+> - [Skalarprodukt](../Mathematik/mathe%20(3)/Skalarprodukt.md) 
 
 # Tags
 
