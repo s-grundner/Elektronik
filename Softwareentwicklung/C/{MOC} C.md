@@ -29,5 +29,7 @@ SORT file.name
 
 # Tags
 
+[[C-Algo]]
+
 - [Algo_holung](../DS-Algo/Algo_CWiederholung.md)
 - [Algo_Ue_CWiederholung](../DS-Algo/Algo_Ue_CWiederholung.md)
