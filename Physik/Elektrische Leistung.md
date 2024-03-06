@@ -22,10 +22,10 @@ $$
 
 ## Verlustleistung in einem Widerstand
 
-> [!info] Energieumsatz im Widerstand:
-> Ein Elektron verliert beim Durchlaufen der Potenzialdifferenz die potentielle Energie
+> [!info] Energieumsatz im [Widerstand](../Elektrotechnik/Widerstand.md):
+> Ein Elektron verliert beim Durchlaufen der [Potenzialdifferenz](../Elektrotechnik/elektrische%20Spannung.md) die potenzielle Energie
 > $$W_{e}=e\cdot(\varphi_{1}-\varphi_{2}) = e\cdot U$$
-> Pro Zeiteinheit strömen $\frac{I}{e}$ Elektronen in den Widerstand bzw. Verlassen den Widerstand (Da: $I=\frac{Q}{t}\implies \frac{Q}{te}$)
+> Pro Zeiteinheit strömen $n = \frac{I}{e}$ Elektronen in den Widerstand bzw. Verlassen den Widerstand (Da: $I=\frac{Q}{t}=\frac{n\cdot e}{t}$)
 > 
 > 
 
@@ -56,6 +56,7 @@ $S=\frac{P}{\cos \varphi_{k}}$
 
 ### Beispiele
 
+> [!example]- 
 ![450](assets/Pasted%20image%2020240126111442.png)
 
 

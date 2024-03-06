@@ -2,10 +2,6 @@
 tags:
   - E-Feld
 aliases:
-  - Ladung
-  - elektrisch geladen
-  - geladen
-  - Ladungen
   - statischen E-Feld
 keywords: 
 subject:
@@ -18,7 +14,7 @@ created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
 ---
- 
+
 
 # Statisches [E-Feld](Elektrisches%20Feld.md)
 

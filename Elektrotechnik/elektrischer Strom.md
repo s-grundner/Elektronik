@@ -5,6 +5,7 @@ aliases:
   - Strom
   - Stromstärke
   - Stroms
+  - elektrischen Stroms
 keywords: 
 subject:
   - VL

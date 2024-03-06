@@ -3,7 +3,6 @@ tags:
 aliases:
   - Arbeit
   - Joule
-  - Energieumsatz
 keywords: 
 subject:
   - Physik für TechnikerInnen
