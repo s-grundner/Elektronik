@@ -25,7 +25,8 @@ $$
 > [!info] Energieumsatz im [Widerstand](../Elektrotechnik/Widerstand.md):
 > Ein Elektron verliert beim Durchlaufen der [Potenzialdifferenz](../Elektrotechnik/elektrische%20Spannung.md) die potenzielle Energie
 > $$W_{e}=e\cdot(\varphi_{1}-\varphi_{2}) = e\cdot U$$
-> Pro Zeiteinheit strömen $n = \frac{I}{e}$ Elektronen in den Widerstand bzw. Verlassen den Widerstand (Da: $I=\frac{Q}{t}=\frac{n\cdot e}{t}$)
+> Pro Zeiteinheit strömen $\frac{I}{e}$ Elektronen in den Widerstand bzw. Verlassen den Widerstand
+> Diese Behauptung wird durch die Definition der Ladung gezeigt: $\underbrace{ \frac{n}{t}= \frac{I}{e} }_{ \text{Behauptung} }\implies n=\frac{I}{e}\cdot t\impliedby Q=n\cdot e$
 > 
 > 
 
@@ -54,18 +55,15 @@ $S=\frac{P}{\cos \varphi_{k}}$
 
 ![[assets/Elektrische Leistung 2024-01-26 10.52.55.excalidraw]]
 
-### Beispiele
-
 > [!example]- 
 ![450](assets/Pasted%20image%2020240126111442.png)
-
-
-$$
-\begin{align}
-Y &= \frac{1}{R}+\frac{1}{X_{L}}+\frac{1}{X_{C}} \\
-&=\frac{1}{R}+\frac{1}{j\omega L}+j\omega C \\
-Z&=\frac{1}{Y} \\
-arg(Z) &= \varphi = \arccos(0.95) =-18.19°\\
-arg(Z) &= \varphi =\arctan()
-\end{align}
-$$
+>
+> $$
+> \begin{align}
+> Y &= \frac{1}{R}+\frac{1}{X_{L}}+\frac{1}{X_{C}} \\
+> &=\frac{1}{R}+\frac{1}{j\omega L}+j\omega C \\
+> Z&=\frac{1}{Y} \\
+> arg(Z) &= \varphi = \arccos(0.95) =-18.19°\\
+> arg(Z) &= \varphi =\arctan\left( \frac{\mathrm{Im}}{\mathrm{Re}} \right)
+> \end{align}
+> $$

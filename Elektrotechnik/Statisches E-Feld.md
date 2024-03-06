@@ -15,7 +15,6 @@ professor:
   - Bernhard Jakoby
 ---
 
-
 # Statisches [E-Feld](Elektrisches%20Feld.md)
 
 > [!INFO] Statisch:  
