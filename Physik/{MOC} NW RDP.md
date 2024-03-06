@@ -16,7 +16,7 @@ created: 19th August 2022
 - [Kernfusion](Kernfusion.md)
 - [Radioaktivität](../Chemie/Radioaktivität.md)
 - [Gasgesetze](Allgemeines%20Gasgesetz.md)
-- Energieumwandlung, Energieformen und [Leistung](Elektrische%20Leistung.md)
+- Energieumwandlung, Energieformen und [Leistung](elektrische%20Leistung.md)
 
 ### 5. Newtonsche Und Relativistische [Mechanik]({MOC}%20Mechanik.md)
 

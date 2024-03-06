@@ -27,7 +27,7 @@ Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der [Bewegung](Kinematik.md), Krä
 
 ## 4. Energie
 
- [Arbeit](Mechanische%20Arbeit.md), kinetische und potentielle Energie, Erhaltungssätze, [Leistung](Elektrische%20Leistung.md) 
+ [Arbeit](Mechanische%20Arbeit.md), kinetische und potentielle Energie, Erhaltungssätze, [Leistung](elektrische%20Leistung.md) 
 
 ## 5. [Impuls](Impuls.md)
 
