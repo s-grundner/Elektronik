@@ -17,7 +17,6 @@ professor:
 
 Bei der Leistungsanpassung eines [elektrischen Netzwerks](Schaltungsanalyse.md), werden die Bauteile so gewählt, dass die [Leistung](elektrische%20Leistung.md) an der Last maximal ist.
 
-
 ## Beim Zweipol
 
 ![InlineL|256](assets/Pasted%20image%2020240306190447.png)
@@ -34,7 +33,7 @@ $R_{a} = 0$: Kurzschluss $\to$ es fällt keine Spannung ab, $P=U_{a}\cdot I$: $U
 $R_{a} = \infty$: Leerlauf $\to$ es fließt kein [Strom](elektrischer%20Strom.md), $P = U_{a}\cdot I$: $I = 0 \implies P=0$
 
 > [!question] Ermittlung des Maximums zwischen dieser beiden Extremfällen
-> Der Abschlusswiderstand $R_{a}$ an dem die maximale Leistung umgesetzt wird, lässt sich mit einem Satz aus der Kurvendiskussion ermitteln. Dieser besagt, dass wenn die erste Ableitung an einem Wert der Funktion 0 ergibt, dieser Punkt ein lokales Maximum oder Minimum ist.
+> Der Abschlusswiderstand $R_{a}$ an dem die maximale [Leistung](elektrische%20Leistung.md) umgesetzt wird, lässt sich mit einem Satz aus der [Kurvendiskussion](../Mathematik/{MOC}%20Kurvendiskussion.md) ermitteln. Dieser besagt, dass wenn die erste [Ableitung](../Mathematik/mathe%20(3)/Differenzialrechnung.md) an einem Wert der Funktion 0 ergibt, dieser Punkt ein lokales [Maximum](../Mathematik/mathe%20(3)/Extremwert.md) oder [Minimum](../Mathematik/mathe%20(3)/Extremwert.md) ist.
 
 $$
 \begin{aligned}
