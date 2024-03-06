@@ -29,7 +29,18 @@ professor:
 > - ausführbar
 > - endlich (statisch und dynamisch)
 
-## 2	Informatikturm
+## Darstellungsarten von Algorithmen
+
+| Darstellungsart              | Benutzungsszenario                                                                                            |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Stilisierte Prosa            | grobe Skizze einer Idee oder für menschlichen Prozessor (z.B. Kochbuch, Wegbeschreibung, Bedienungsanleitung) |
+| Ablaufdiagramm, Struktogramm | für visuell orientierte Menschen, Überblick über Ablaufstrukturen                                             |
+| Pseudocode                   | halbformal, kurz, präzise und doch sprachunabhängig; Ausformulierung in wählbarer Detailliertheit             |
+| Programmier-sprache          | eindeutig, ausführbar; zur Übersetzung und Ausführung auf einem Computer                                      |
+
+
+> [!info] alias: NASSI/Shneidermann-Diagramm
+## 6	Informatikturm
 
 |            | Anwendung           | Installation, Konfiguration, Betrieb           |     |
 | ---------- | ------------------- | ---------------------------------------------- | --- |
