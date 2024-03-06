@@ -43,11 +43,11 @@ $$
 <br>
 
 $$
-\begin{aligned}
-\frac{d P\left(R_L\right)}{d R_L}=U^2 \cdot \frac{d}{d R_L}\left(\frac{R_L}{\left(R_i+R_L\right)^2}\right)&=0 \\
-\left(R_L+R_i\right)^{-2}-\frac{2 R_L}{\left(R_L+R_i\right)^3}&=0 \\
-\frac{1}{\left(R_L+R_i\right)^2}&=\frac{2 R_L}{\left(R_i+R_L\right)^3} \\
-R_i+R_L&=2 R_L \\
-R_i&=R_L
-\end{aligned}
+\begin{gathered}
+\frac{d P\left(R_L\right)}{d R_L}=U^2 \cdot \frac{d}{d R_L}\left(\frac{R_L}{\left(R_i+R_L\right)^2}\right)=0 \\
+\left(R_L+R_i\right)^{-2}-\frac{2 R_L}{\left(R_L+R_i\right)^3}=0 \\
+\frac{1}{\left(R_L+R_i\right)^2}=\frac{2 R_L}{\left(R_i+R_L\right)^3} \\
+R_i+R_L=2 R_L \\
+R_i=R_L
+\end{gathered}
 $$
