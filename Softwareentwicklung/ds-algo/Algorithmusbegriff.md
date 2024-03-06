@@ -15,7 +15,12 @@ professor:
 
 # Algorithmusbegriff
 
-> [!info]- Algorithmus $\subset$ Programm
+
+> [!INFO] Ein Algorithmus ist ein schrittweises, endliches, eindeutig ausführbares Verfahren zur Berechnung gesuchter aus gegebenen Größen.
+> Verfahrensvorschrift zur Lösung eines Problems
+> - *nicht* die Lösung selbst, sondern eine an jemand andere gerichtete Erklärung.
+
+> [!info]- [Algorithmus]({MOC}%20Algorithmus.md) $\subset$ Programm
 > (lese als: Algorithmen sind ein Teilmenge von Programmen)
 > - Jeder Algorithmus nach unserer Definition kann als Programm formuliert und von einem Computer ausgeführt werden
 > - aber: Nicht jedes Programm ist ein Algorithmus
@@ -29,7 +34,7 @@ professor:
 > - ausführbar
 > - endlich (statisch und dynamisch)
 
-## Darstellungsarten von Algorithmen
+## 2	Darstellungsarten von Algorithmen
 
 | Darstellungsart              | Benutzungsszenario                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -38,9 +43,9 @@ professor:
 | Pseudocode                   | halbformal, kurz, präzise und doch sprachunabhängig; Ausformulierung in wählbarer Detailliertheit             |
 | Programmier-sprache          | eindeutig, ausführbar; zur Übersetzung und Ausführung auf einem Computer                                      |
 
+Bausteine von Ablaufdiagrammen: D-Diagramme
 
-> [!info] alias: NASSI/Shneidermann-Diagramm
-## 6	Informatikturm
+## 3	Informatikturm
 
 |            | Anwendung           | Installation, Konfiguration, Betrieb           |     |
 | ---------- | ------------------- | ---------------------------------------------- | --- |
@@ -48,6 +53,7 @@ professor:
 | $\uparrow$ | Programmierung      |                                                |     |
 | $\uparrow$ | Algorithmen         | Entwurf, Abläufe, Datenstrukturen, Komplexität |     |
 | $\uparrow$ | Theorie             | abstrakt, mathematisch, Allgemein              |     |
+
 # Tags
 
 [What's an algorithm? - David J. Malan - YouTube](https://youtu.be/6hfOvs8pY1k)

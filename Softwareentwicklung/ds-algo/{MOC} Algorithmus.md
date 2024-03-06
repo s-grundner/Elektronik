@@ -20,20 +20,15 @@ professor:
 
 # Algorithmen
 
-> [!INFO] Ein Algorithmus ist ein schrittweises, endliches, eindeutig ausführbares Verfahren zur Berechnung gesuchter aus gegebenen Größen.
-> Verfahrensvorschrift zur Lösung eines Problems
-> - *nicht* die Lösung selbst, sondern eine an jemand andere gerichtete Erklärung.
-> - [Algorithmusbegriff](ds-algo/Algorithmusbegriff.md)
+> siehe: [Algorithmusbegriff](ds-algo/Algorithmusbegriff.md)
 
-
-
-## Mathematik
+## 1	Mathematik
 
 ```dataview
 LIST FROM #Algorithmus/Mathe 
 ```
 
-## Informatik / Digitaltechnik
+## 2	Informatik / Digitaltechnik
 
 - [Such-Algorithmen](DS-Algo/{MOC}%20Suchen.md)
 - [Sortier-Algorithmen](DS-Algo/{MOC}%20Sortieren.md)
@@ -46,7 +41,7 @@ AND !contains(tags, "Mathe")
 AND !contains(file.name, "MOC")
 ```
 
-## Elektrotechnik
+## 3	Elektrotechnik
 
 ```dataview
 LIST FROM #Algorithmus/Elektrotechnik 
