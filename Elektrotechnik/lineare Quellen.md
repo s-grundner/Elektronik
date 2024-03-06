@@ -35,6 +35,8 @@ U_a & =U_L \frac{R_a}{R_a+R_i}=I_K \frac{R_i R_a}{R_i+R_a}
 \end{aligned}
 $$
 
+> [!hint] Der Innenwiderstand $R_{i}$
+
 ## Norton ESB: Stromquelle
 
 ![](assets/Norton.png)
