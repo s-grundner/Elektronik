@@ -16,6 +16,28 @@ professor:
 # Algorithmen
 
 > [!INFO] Sprachunabhängiger Ablauf an Operationen, welche in ihrer Gesamtheit eine Funktion oder Verfahren beschreiben 
+> Verfahrensvorschrift zur Lösung eines Problems
+> - *nicht* die Lösung selbst, sondern eine an jemand andere gerichtete Erklärung.
+
+
+## Algorithmusbegriff
+
+
+> [!info] Algorithmus = Problemlösungsverfahren mit folgenden Eigenschaften
+> - 
+
+### Berechnung
+
+### Informatikturm
+
+|            | Anwendung           | Installation, Konfiguration, Betrieb           |
+| ---------- | ------------------- | ---------------------------------------------- |
+|            | System-Realisierung | Entwicklung von vollständigen Systemen         |
+| $\uparrow$ | Programmierung      |                                                |
+| $\uparrow$ | Algorithmen         | Entwurf, Abläufe, Datenstrukturen, Komplexität |
+| $\uparrow$ | Theorie             | abstrakt, mathematisch, Allgemein              |
+
+
 
 ## 1 Mathematik
 
