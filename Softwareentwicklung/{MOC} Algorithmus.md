@@ -6,46 +6,59 @@ aliases:
   - Algorithmus
   - Algorithmen
 keywords: 
-subject: 
-semester: 
-created: 9. Oktober 2023
+subject:
+  - VL
+  - Algorithmen und Datenstrukturen
+semester:
+  - SS24
+  - B2
+created: 6. März 2024
 professor:
 ---
  
 
 # Algorithmen
 
-> [!INFO] Sprachunabhängiger Ablauf an Operationen, welche in ihrer Gesamtheit eine Funktion oder Verfahren beschreiben 
+> [!INFO] Ein Algorithmus ist ein schrittweises, endliches, eindeutig ausführbares Verfahren zur Berechnung gesuchter aus gegebenen Größen.
 > Verfahrensvorschrift zur Lösung eines Problems
 > - *nicht* die Lösung selbst, sondern eine an jemand andere gerichtete Erklärung.
 
 
 ## Algorithmusbegriff
 
+> [!info] Algorithmus $\subset$ Programm
+> (lese als: Algorithmen sind ein Teilmenge von Programmen)
+> - Jeder Algorithmus nach unserer Definition kann als Programm formuliert und von einem Computer ausgeführt werden
+> - aber: Nicht jedes Programm ist ein Algorithmus
+
+### Eigenschaften
 
 > [!info] Algorithmus = Problemlösungsverfahren mit folgenden Eigenschaften
-> - 
+> - berechnet gesuchte aus gegebenen Größen
+> - schrittweise
+> - eindeutig
+> - ausführbar
+> - endlich (statisch und dynamisch)
 
-### Berechnung
 
 ### Informatikturm
 
 |            | Anwendung           | Installation, Konfiguration, Betrieb           |
 | ---------- | ------------------- | ---------------------------------------------- |
 |            | System-Realisierung | Entwicklung von vollständigen Systemen         |
-| $\uparrow$ | Programmierung      |                                                |
+| $\uparrow$ | Programmierung      |                                                | 
 | $\uparrow$ | Algorithmen         | Entwurf, Abläufe, Datenstrukturen, Komplexität |
 | $\uparrow$ | Theorie             | abstrakt, mathematisch, Allgemein              |
 
 
 
-## 1 Mathematik
+## Mathematik
 
 ```dataview
 LIST FROM #Algorithmus/Mathe 
 ```
 
-## 2 Informatik / Digitaltechnik
+## Informatik / Digitaltechnik
 
 - [Such-Algorithmen](DS-Algo/{MOC}%20Suchen.md)
 - [Sortier-Algorithmen](DS-Algo/{MOC}%20Sortieren.md)
@@ -58,7 +71,7 @@ AND !contains(tags, "Mathe")
 AND !contains(file.name, "MOC")
 ```
 
-## 3 Elektrotechnik
+## Elektrotechnik
 
 ```dataview
 LIST FROM #Algorithmus/Elektrotechnik 
