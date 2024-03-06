@@ -36,11 +36,11 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 
 | Input       | Output |
 | ----------- | ------ |
-| [Kraft](../Physik/Newtonsche%20Axiome.md)/Druck | [Spannung](../Elektrotechnik/Spannung.md)       |
+| [Kraft](../Physik/Newtonsche%20Axiome.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md)       |
 
 ![piezo_esb](assets/piezo_esb.png)
 
-![Piezo_effects.png](Piezo_effects.png)
+![Piezo_effects.png](assets/Piezo_effects.png)
 
 ## Piezoresistiver Geber
 

@@ -121,14 +121,14 @@ elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) 
    
 4. Stromkreis ist geschlossen
 
-#### 2.2.2 Welche [Spannung](../Elektrotechnik/Spannung.md) Entsteht
+#### 2.2.2 Welche [Spannung](../Elektrotechnik/elektrische%20Spannung.md) Entsteht
 
-[Spannung](../Elektrotechnik/Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
-[Spannung](../Elektrotechnik/Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
+[Spannung](../Elektrotechnik/elektrische%20Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
+[Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
 
 ### 2.3 Standard-Wasserstoffelektrode
 
-[Spannung](../Elektrotechnik/Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
+[Spannung](../Elektrotechnik/elektrische%20Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
 Vermessung gegen eine Bezugselektrode ist notwendig.  
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$  
 ![DaniellEL2](assets/DaniellEL2.png)  

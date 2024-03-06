@@ -23,27 +23,24 @@ $$
 ## Verlustleistung in einem Widerstand
 
 > [!info] Energieumsatz im [Widerstand](../Elektrotechnik/Widerstand.md):
-> Ein Elektron verliert beim Durchlaufen der [Potenzialdifferenz](../Elektrotechnik/elektrische%20Spannung.md) die potenzielle Energie
+> ![InlineR|333](assets/EnergieumsatzWiderstand.png) Ein Elektron verliert beim Durchlaufen der [Potenzialdifferenz](../Elektrotechnik/elektrische%20Spannung.md) die potenzielle Energie
 > $$W_{e}=e\cdot(\varphi_{1}-\varphi_{2}) = e\cdot U$$
-> Pro Zeiteinheit strömen $\frac{I}{e}$ Elektronen in den Widerstand bzw. Verlassen den Widerstand
+> Pro Zeiteinheit ($\frac{1}{t}$) strömen $\frac{I}{e}$ Elektronen ($n$) in den Widerstand bzw. Verlassen den Widerstand
 > Diese Behauptung wird durch die Definition der Ladung gezeigt: $\underbrace{ \frac{n}{t}= \frac{I}{e} }_{ \text{Behauptung} }\implies n=\frac{I}{e}\cdot t\impliedby Q=n\cdot e$
-> 
-> 
-
-![](assets/Pasted%20image%2020240306130211.png)
+> Energieverlust/Zeiteinheit = Verlustleistung:
+> $$\frac{dW}{dt}=P_{V}=\cancel{ e }\cdot U\cdot \frac{I}{\cancel{ e }} = U\cdot I$$
 
 # Komplexe Leistung
 
-*Wirkleistung:*
-$P=U \cdot I \cdot \cos \varphi$ -> $\varphi = \varphi_{u} - \varphi_{i}$ 
+*Wirkleistung:* $P=U \cdot I \cdot \cos \varphi$ -> $\varphi = \varphi_{u} - \varphi_{i}$ 
 Einheit: Watt
 
-*Bildleistung:*
-$Q=U\cdot I\cdot \sin \varphi$
+*Bildleistung:* $Q=U\cdot I\cdot \sin \varphi$
+
 Einheit: VAR - Volt Ampere Reaktiv
 
-*Scheinleistung:*
-$S=\sqrt{ P^2+Q^2 } = \mid S\mid$
+*Scheinleistung:* $S=\sqrt{ P^2+Q^2 } = \mid S\mid$
+
 Einheit: VA - Volt-Ampere
 
 ## Blindleistungskompensation

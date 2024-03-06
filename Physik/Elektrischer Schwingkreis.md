@@ -27,7 +27,7 @@ Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer St�
 
 ![400](../Mathematik/assets/e_serien_schwingk_frei.png)
 
-Um die [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
+Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
 | Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensator](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstand](../Elektrotechnik/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
@@ -98,7 +98,7 @@ die 3. Fälle der [DGL 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%
 
 ![400](../Mathematik/assets/e_serien_schwingk_erzw.png)
 
-Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige [Spannung](https://de.wikipedia.org/wiki/Ohmsches_Gesetz) $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
+Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
 | Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensators](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstands](../Elektrotechnik/Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
