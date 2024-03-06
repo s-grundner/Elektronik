@@ -20,20 +20,28 @@ $$
 P=U\cdot I=I^{2}\cdot R=\frac{U^{2}}{R}
 $$
 
+## Verlustleistung in einem Widerstand
+
+> [!info] Energieumsatz im Widerstand:
+> Ein Elektron verliert beim Durchlaufen der Potenzialdifferenz die potentielle Energie
+> $$W_{e}=e\cdot(\varphi_{1}-\varphi_{2}) = e\cdot U$$
+> Pro Zeiteinheit strömen $\frac{I}{e}$ Elektronen in den Widerstand bzw. Verlassen den Widerstand (Da: $I=\frac{Q}{t}\implies \frac{Q}{te}$)
+> 
+> 
+
+![](assets/Pasted%20image%2020240306130211.png)
+
 # Komplexe Leistung
 
-## Wirkleistung
-
+*Wirkleistung:*
 $P=U \cdot I \cdot \cos \varphi$ -> $\varphi = \varphi_{u} - \varphi_{i}$ 
 Einheit: Watt
 
-## Bildleistung
-
+*Bildleistung:*
 $Q=U\cdot I\cdot \sin \varphi$
 Einheit: VAR - Volt Ampere Reaktiv
 
-## Scheinleistung
-
+*Scheinleistung:*
 $S=\sqrt{ P^2+Q^2 } = \mid S\mid$
 Einheit: VA - Volt-Ampere
 

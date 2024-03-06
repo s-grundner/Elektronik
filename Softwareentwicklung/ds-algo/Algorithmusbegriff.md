@@ -15,7 +15,6 @@ professor:
 
 # Algorithmusbegriff
 
-
 > [!INFO] Ein Algorithmus ist ein schrittweises, endliches, eindeutig ausführbares Verfahren zur Berechnung gesuchter aus gegebenen Größen.
 > Verfahrensvorschrift zur Lösung eines Problems
 > - *nicht* die Lösung selbst, sondern eine an jemand andere gerichtete Erklärung.
@@ -25,7 +24,7 @@ professor:
 > - Jeder Algorithmus nach unserer Definition kann als Programm formuliert und von einem Computer ausgeführt werden
 > - aber: Nicht jedes Programm ist ein Algorithmus
 
-## 1	Eigenschaften
+## 1 Eigenschaften
 
 > [!info] Algorithmus = Problemlösungsverfahren mit folgenden Eigenschaften
 > - berechnet gesuchte aus gegebenen Größen
@@ -34,7 +33,7 @@ professor:
 > - ausführbar
 > - endlich (statisch und dynamisch)
 
-## 2	Darstellungsarten von Algorithmen
+## 2 Darstellungsarten von Algorithmen
 
 | Darstellungsart              | Benutzungsszenario                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -45,7 +44,7 @@ professor:
 
 Bausteine von Ablaufdiagrammen: D-Diagramme
 
-## 3	Informatikturm
+## 3 Informatikturm
 
 |            | Anwendung           | Installation, Konfiguration, Betrieb           |     |
 | ---------- | ------------------- | ---------------------------------------------- | --- |
