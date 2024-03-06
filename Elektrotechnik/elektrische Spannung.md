@@ -41,7 +41,7 @@ professor:
 
 ## 1 Spannungsquellen
 
-Spannungsquellen beruhen darauf, dass eine Kraft, welche *nicht elektrisch* ist, das treibende [elektrische Feld](Statisches%20E-Feld.md) innerhalb der Quelle aufrecht erhält und somit den [Stromfluss](elektrischer%20Strom.md) aufrecht erhalten
+Spannungsquellen beruhen darauf, dass eine [Kraft](../Physik/Newtonsche%20Axiome.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](Statisches%20E-Feld.md) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
 
 > [!question] Chemisch lassen sich Spannungsquellen durch [Akkus](../Chemie/Sekundärelement.md) und [Batterien](../Chemie/Primärelement.md) auf Basis der [Elektrochemie](../Chemie/Elektrochemie.md) realisieren.
 > Man spricht von einer *elektrochemischen Spannungsquelle*

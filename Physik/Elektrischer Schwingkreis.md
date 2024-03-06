@@ -98,7 +98,7 @@ die 3. Fälle der [DGL 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%
 
 ![400](../Mathematik/assets/e_serien_schwingk_erzw.png)
 
-Bei einem erzwungenen Schwingkreis leigt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
+Bei einem erzwungenen [Schwingkreis](Schwingkreise.md) leigt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
 
 | Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensators](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstands](../Elektrotechnik/Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
