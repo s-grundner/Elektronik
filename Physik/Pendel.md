@@ -36,8 +36,8 @@ professor:
 ### Bewegungsgleichung
 
 Auf die Masse $m$ wirkt die Gewichtskraft $mg$ und die Zugkraft $T$ im Faden.  
-Die Komponente $mg\cos\theta$ und $T$ heben sich auf und es bleibt die senkrechte Komponente *$F_{r}=-mg\sin\theta$* als rücktreibende [Kraft](Newtonsche%20Axiome.md) übrig.
+Die Komponente $mg\cos\theta$ und $T$ heben sich auf und es bleibt die senkrechte Komponente *$F_{r}=-mg\sin\theta$* als rücktreibende [Kraft](Kraft.md) übrig.
 
-> [!info] Durch Anwendung des [2. Newtonschen Gesetzes](Newtonsche%20Axiome.md) ($\sum F=0$) erhalten wir die Bewegungsgleichung:  
+> [!info] Durch Anwendung des [2. Newtonschen Gesetzes](Kraft.md) ($\sum F=0$) erhalten wir die Bewegungsgleichung:  
 >
 > $$F_{r}=m\cdot a=m\cdot l\cdot\ddot{\theta}=-m\cdot g\cdot \sin\theta$$

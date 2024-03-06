@@ -18,7 +18,7 @@ professor:
 # Harmonische Schwingungen
 
 > [!INFO] die *harmonische Schwingung* ist ein wichtiger Spezialfall der periodischen [Bewegung](Kinematik.md).  
-> Sie entsteht immer dann, wenn bei der Auslenkung aus der Ruhelage eine rücktreibende [Kraft](Newtonsche%20Axiome.md) entsteht, welche direkt linear proportional zur Auslenkung ist.
+> Sie entsteht immer dann, wenn bei der Auslenkung aus der Ruhelage eine rücktreibende [Kraft](Kraft.md) entsteht, welche direkt linear proportional zur Auslenkung ist.
 >
 > - Ein System das diese Bedingung erfüllt wird als *harmonischer Oszillator* bezeichnet.
 > - Die resultierende [Bewegung](Kinematik.md) folgt einem Sinusbzw. Cosinus förmigen Zeitverlauf.

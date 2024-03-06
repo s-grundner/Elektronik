@@ -17,7 +17,7 @@
   "spellcheck": true,
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
-  "vimMode": false,
+  "vimMode": true,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showInlineTitle": false,
@@ -37,7 +37,8 @@
     "Softwareentwicklung/Java/Ue/",
     "Ue",
     "xPN/Rubbish/",
-    "xEDU/Rubbish/"
+    "xEDU/Rubbish/",
+    "xEDU/"
   ],
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",

@@ -52,7 +52,7 @@ $$
 
 ### Energie im Kondensator
 
-Die Energie im Kondensator lässt sich durch die eingespeiste [Leistung](../Physik/elektrische%20Leistung.md) berechnen:  
+Die Energie im Kondensator lässt sich durch die eingespeiste [Leistung](elektrische%20Leistung.md) berechnen:  
 Die integrationsvariable $\uptau$ dient zur Unterscheidung zur Laufzeivariable $t$: 
 
 $$

@@ -98,7 +98,7 @@ Trotz der Last ist das Übersetzungsverhältis gleich wie im Unbelasteten Fall (
 
 $R_{m} = \frac{l}{\mu A}$ aber $R_{m}$ ist im Gegensatz zum elektrischen Widerstand stark nichtlinear vom Magnetischen Fluss Abhängig.
 
-[elektrische Leistung](../Physik/elektrische%20Leistung.md)
+[elektrische Leistung](../Elektrotechnik/elektrische%20Leistung.md)
 
 ```dataview
 LIST WHERE contains(subject, "...")

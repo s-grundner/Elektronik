@@ -36,11 +36,9 @@ $$
 Einheit: Watt
 
 *Bildleistung:* $Q=U\cdot I\cdot \sin \varphi$
-
 Einheit: VAR - Volt Ampere Reaktiv
 
 *Scheinleistung:* $S=\sqrt{ P^2+Q^2 } = \mid S\mid$
-
 Einheit: VA - Volt-Ampere
 
 ## Blindleistungskompensation

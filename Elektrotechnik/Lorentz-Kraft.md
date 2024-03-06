@@ -15,4 +15,4 @@ professor:
 ---
  
 
-# Lorentz-[Kraft](../Physik/Newtonsche%20Axiome.md)
+# Lorentz-[Kraft](../Physik/Kraft.md)

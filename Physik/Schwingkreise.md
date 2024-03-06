@@ -29,7 +29,7 @@ Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](../Mathema
 
 - Allgemeine Betrachtung der [harmonischen Schwingungen](harmonische%20Schwingungen.md)
 - [Mechanischer Schwingkreis](Mechanischer%20Schwingkreis.md)
-- [Elektrischer Schwingkreis](Elektrischer%20Schwingkreis.md)
+- [Elektrischer Schwingkreis](../Elektrotechnik/Elektrischer%20Schwingkreis.md)
 
 # Hardware Implementationen
 

@@ -16,11 +16,11 @@ professor:
 ---
  
 
-# Elektrische [Kraft](../Physik/Newtonsche%20Axiome.md)
+# Elektrische [Kraft](../Physik/Kraft.md)
 
 $$|\vec{F}|=F = \frac{Q_{1}Q_{2}}{4\pi\varepsilon_{0}r^{2}}$$
 
-Eine weitere [Kraft](../Physik/Newtonsche%20Axiome.md), die sich sehr ähnlich wie die Gravitationskraft verhält, ist die elektrische [Kraft](../Physik/Newtonsche%20Axiome.md).  
+Eine weitere [Kraft](../Physik/Kraft.md), die sich sehr ähnlich wie die Gravitationskraft verhält, ist die elektrische [Kraft](../Physik/Kraft.md).  
 An Stelle *der Masse* tritt hier eine weitere Materialeigenschaft, die *elektrische [Ladung](Statisches%20E-Feld.md)* $Q$.
 
 Elementarteilchen tragen [Ladungen](Statisches%20E-Feld.md) in Vielfachen einer so genannten [Elementarladung](../Physik/Konstanten/Elementarladung.md). Ein Elektron trägt eine negative [Elementarladung](../Physik/Konstanten/Elementarladung.md) $-e$.
@@ -29,7 +29,7 @@ Ein wichtiger Unterschied zur Masse ist, dass die [Ladung](Statisches%20E-Feld.m
 
 ![](assets/EKraft.png)
 
-Auf eine [Ladung](Statisches%20E-Feld.md) $q$ in einem [elektrischen Feld](Elektrisches%20Feld.md) Wirkt die [Kraft](../Physik/Newtonsche%20Axiome.md):
+Auf eine [Ladung](Statisches%20E-Feld.md) $q$ in einem [elektrischen Feld](Elektrisches%20Feld.md) Wirkt die [Kraft](../Physik/Kraft.md):
 
 $$\vec{F} = q\cdot \vec{E}$$
 
@@ -37,9 +37,9 @@ $$\vec{F} = q\cdot \vec{E}$$
 
 ---
 
-In welchem Verhältnis steht die Coulomb [Kraft](../Physik/Newtonsche%20Axiome.md) zum Abstand?
+In welchem Verhältnis steht die Coulomb [Kraft](../Physik/Kraft.md) zum Abstand?
 ?
-Die Coulomb-[Kraft](../Physik/Newtonsche%20Axiome.md) sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
+Die Coulomb-[Kraft](../Physik/Kraft.md) sinkt Betragsmäßig mit dem Quadrat der Entfernung des betreffenden Teilchens.
 $$|\vec{F}|=F = \frac{Q_{1}Q_{2}}{4\pi\varepsilon_{0}r^{2}}$$
 <!--SR:!2024-03-08,6,250-->
 

@@ -9,7 +9,7 @@ created: 7th June 2022
 # Piezoelektrik
 
 > [!example]- Rechenbeispiel
-> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Newtonsche%20Axiome.md) von $F=1kN$ belastet.
+> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kraft.md) von $F=1kN$ belastet.
 > Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) abgeklungen?
 > $$
 > \begin{align*}
@@ -36,7 +36,7 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 
 | Input       | Output |
 | ----------- | ------ |
-| [Kraft](../Physik/Newtonsche%20Axiome.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md)       |
+| [Kraft](../Physik/Kraft.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md)       |
 
 ![piezo_esb](assets/piezo_esb.png)
 
