@@ -33,7 +33,7 @@ Die moderne Physik kennt *4* Kräfte:
 ## Arten von Kräften
 
 > [!INFO] Kontaktkräfte
-> - [Spannung](../Elektrotechnik/elektrische%20Spannung.md) in einem Seil
+> - Spannung in einem Seil
 > - Druck auf einer Fläche
 > - elastische Kraft in einer [Feder](Federkraft.md)
 > - [Reibungskraft](Reibungskraft.md)
@@ -50,6 +50,13 @@ Die moderne Physik kennt *4* Kräfte:
 Ein Raum auf dem in jedem Punkt ein Kraftvektor zugeteilt ist (Vektorfeld).
 
 Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunigen.
+
+| Feld                                                          | Wird hervorgerufen durch  | Wirkt auf |
+| ------------------------------------------------------------- | ------------------------- | --------- |
+| Gravitationsfeld                                              | Eine Masse                | Massen    |
+| [Elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) | Eine ruhende Ladung       | Ladungen  |
+| [Magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) | Eine bewegte Ladung       | Ladungen  |
+| [Elektro-Magnetisches Feld](Elektromagnetische%20Wellen.md)   | Eine beschleunigte Ladung | Ladungen  |
 
 # Tags
 

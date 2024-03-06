@@ -1,10 +1,10 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Newton
 keywords: 
 subject:
   - VL
-  - null
 semester:
   - SS24
   - B2

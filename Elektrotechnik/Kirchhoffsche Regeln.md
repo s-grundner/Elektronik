@@ -11,34 +11,27 @@ created: 26. September 2023
 
 # Kirchhoff'sche Regeln
 
-> [!QUESTION] Die Kirchhoffschen Regeln stellen fast immer die Ausgangssituation bei der Analyse eines elektrischen Netzwerks dar [^1]
+> [!QUESTION] Die Kirchhoff'schen Regeln stellen fast immer die Ausgangssituation bei der Analyse eines elektrischen Netzwerks dar
 
 ## Maschenregel
 
-![InlineR|650](../assets/Masche.png)
+
 
 > [!SUMMARY] Spannungen, deren Zählrichtung mit der Umlaufrichtung der Masche übereinstimmt, haben ein positives Vorzeichen.  
->
+> ![InlineR|300](../assets/Masche.png)
 > $$M: -U_{q}+U_{1}+U_{2} = 0$$
 >
 > $$\Rightarrow U_{1}+U_{2} = U_{q}$$
->
-> Allgemein:  
->
->$$\sum_{\text{Masche}}=0$$
+
+Allgemein: $\sum_{\text{Masche}}=0$
 
 ## Knotenregel
 
-![InlineR|352](../assets/Knoten.png)
 
-> [!SUMMARY] Die Summe der in einen Knoten fließenden Ströme muss gleich der Summe der aus dem Knoten herausfließenden Ströme sein.  
->
+> [!SUMMARY] Die Summe der in einen Knoten fließenden Ströme muss gleich der Summe der aus dem Knoten herausfließenden Ströme sein. 
+> ![InlineR|352](../assets/Knoten.png)
 > $$K: I_{q}=I_{1}+I_{2}$$
 
-> Allgemein:  
->
-> $$\sum_{\text{Knoten}}=0$$
+Allgemein: $\sum_{\text{Knoten}}=0$
 
 # Tags
-
-[^1]: [Leitfaden ELIT](https://oeh.jku.at/sites/default/files/documents/pdfs/leitfaden_elit_2020.pdf)
