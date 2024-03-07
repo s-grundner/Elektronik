@@ -26,10 +26,3 @@ SORT file.name
 
 - [Law Of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
 - [Handle](<https://en.wikipedia.org/wiki/Handle_(computing)>)
-
-# Tags
-
-[[C-Algo]]
-
-- [Algo_holung](../DS-Algo/Algo_CWiederholung.md)
-- [Algo_Ue_CWiederholung](../DS-Algo/Algo_Ue_CWiederholung.md)
