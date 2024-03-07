@@ -23,4 +23,7 @@ Aus dem Hashcode der public final Felder werden diese Methoden genereiert:
 - Equals
 - toString
 
-Eine Datenklasse die unveränderliche Felder hat.
+Eigenschaften von Records
+- Eine Datenklasse die unveränderliche Felder hat.
+- Keine Instance Fields
+- Keine Vererbung
