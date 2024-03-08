@@ -22,6 +22,7 @@ professor:
 # [Elektrisches Feld](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 
 > [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische [Ladung](Statisches%20E-Feld.md) tragen.
+> - Die Ursache elektrischen Felder sind selbst Ladungen.
 
 # Tags
 
