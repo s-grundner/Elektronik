@@ -40,4 +40,4 @@ professor:
 ## Flashcards
 
 *Influenz* beschreibt…;; die Verschiebung von [Ladungen](Statisches%20E-Feld.md) in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden.
-<!--SR:!2024-03-04,2,210-->
+<!--SR:!2024-03-12,4,210-->

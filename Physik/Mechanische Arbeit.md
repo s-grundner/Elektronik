@@ -42,4 +42,4 @@ Das Gravitationsfeld ist ein so genanntes *konservatives* Kraftfeld – die Arbe
 ## Flashcards
 
 Welche Auswirkung hat das [innere Produkt](../Mathematik/mathe%20(3)/Skalarprodukt.md) im Ausdruck $\vec{F}\cdot d\vec{s}$ ?;;Um eine Arbeit zu verrichten, muss die Kraft $\vec{F}$ in die selbe Richtung wie $d\vec{s}$ zeigen. Da diese aber beliebige Vektoren sein können, wird mit dem inneren Produkt nur der Anteil der in die selbe Richtung zeigt berücksichtigt.
-<!--SR:!2024-03-04,2,230-->
+<!--SR:!2024-03-14,6,250-->
