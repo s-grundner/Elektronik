@@ -17,19 +17,17 @@ professor:
 
 # Drude-Modell - Modell für den elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
-> [!info] Das [Drude-Modell](Drude-Modell.md) beschäftigt sich mit dem [Ladungstransport in einem Leiter](elektrischer%20Strom.md), der durch ein [elektrisches Feld](Elektrisches%20Feld.md) hervorgerufen wird.
+> [!info] Das Drude-Modell beschäftigt sich mit dem [Ladungstransport in einem Leiter](elektrischer%20Strom.md), der durch ein [elektrisches Feld](Elektrisches%20Feld.md) hervorgerufen wird.
 > Gemäß einer statistischen Betrachtung, kann die mittlere Geschwindigkeit von Ladungsträgern in einem Leiter unter Einfluss eines Feldes durch die materialund temperaturabhängige Beweglichkeit 𝜇𝑒 beschrieben werden:
 
 $$\left\langle\vec{v}_e\right\rangle=-\frac{e \uptau}{m_e} \vec{E}=-\mu_e \vec{E} $$
 
 ---
 
-![InlineR|307](../Elektrotechnik/assets/V_Therm.png) Die Mittlere Driftgeschwindigkeit $\langle v\rangle$ der Elektronen im [Metall](../Chemie/Metallbindung.md) ist ohne einem [elektrischen Feld](Elektrisches%20Feld.md) im Mittel Null.
+![InlineR|282](../Elektrotechnik/assets/V_Therm.png) Die Mittlere Driftgeschwindigkeit $\langle v\rangle$ der Elektronen im [Metall](../Chemie/Metallbindung.md) ist ohne einem [elektrischen Feld](Elektrisches%20Feld.md) im Mittel Null.
 Obwohl sich die Elektronen individuell betrachtet durch die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung **sehr** schnell bewegen. Die Streuung der Elektronen ist *isotrop*.
 
-
-
-![InlineL|387](../Elektrotechnik/assets/V_ThermEFeld.png) Da in einem konstanten [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld.md) auf ein Elektron die [elektrische Kraft](../Elektrotechnik/Elektrische%20Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../Physik/Kraft.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen.
+![InlineL|287](../Elektrotechnik/assets/V_ThermEFeld.png) Da in einem konstanten [Elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld.md) auf ein Elektron die [elektrische Kraft](../Elektrotechnik/Elektrische%20Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../Physik/Kraft.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen.
 
 
 
