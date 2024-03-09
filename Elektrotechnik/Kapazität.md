@@ -17,15 +17,6 @@ created: 11th April 2023
 >  Ein Kondensator ist eine Anordnung zweier Elektroden mit unterschiedlichem [Potenzial](elektrische%20Spannung.md), bei der durch räumliche Nähe ein elektrostatisches Feld entsteht.  
 >  Die entsprechende Kenngröße heißt *Kapazität*.
 
-Die Kapazität ist die Proportionalitätskonstante zwischen Ladung und Spannung im Kondensator:
-
-$$Q = CU$$
-
-Die Kapazität ist auch von der Geometrie abhängig
-
-
-
-
 
 > [!warning] parasitäre Kapazität  
 >  Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
@@ -35,13 +26,26 @@ Die Kapazität ist auch von der Geometrie abhängig
 > [!TIP] [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das [E-Feld](Elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
 > ![InlineR|350](assets/KondensatorBatterie.png)
 > 1. Feld wirkt auf bewegliche Elektronen im eingebrachten Kondensator und Anschlussdrähten
-> 1. Die [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
-> 1. Im Zuge dieser Verschiebungen wurden die Platten [geladen](Statisches%20E-Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](Statisches%20E-Feld.md) auf dem Platten.
+> 2. Die [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
+> 3. Im Zuge dieser Verschiebungen wurden die Platten [geladen](Statisches%20E-Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](Statisches%20E-Feld.md) auf dem Platten.
 
+## Die Kapazität
 
-## Strom und Spannung im Kondensator
+Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20Ladung.md) und Spannung im Kondensator:
+$$Q = CU$$
 
+![](assets/Plattenkondensator.png)
 
+Aus der Überlegung zur [Flächenladung](Flächenladung.md) kennen wir, dass für die beiden Platten gilt:
+
+$$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon_{0}}  $$
+
+> [!hint] Das Feld der jeweiligen Seite der Platte das zur anderen zeigt, verläuft in die selbe Richtung, wird also [überlagert](Superpositionsprinzip.md). (wobei sich die äußeren Felder aufheben).
+> für das Feld im Kondensator ergibt sich:  $\lvert \vec{E} \rvert = \frac{Q}{2A\cdot \varepsilon_{0}} + \frac{Q}{2A\cdot \varepsilon_{0}} = \frac{Q}{A\cdot \varepsilon_{0}}$
+> Mit der [elektrischen Spannung](elektrische%20Spannung.md) im [E-Feld](Elektrisches%20Feld.md): $U = \lvert \vec{E} \rvert \cdot d$
+> 
+
+## [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 
 ## Kenngrößen im Kondensator
 
