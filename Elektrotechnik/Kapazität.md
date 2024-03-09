@@ -14,19 +14,34 @@ created: 11th April 2023
 # Der Kondensator - ein Ladungsspeicher
 
 > [!INFO] Der Kondensator – ein Ladungsspeicher  
->  Ein Kondensator ist eine Anordnung von zwei Elektroden, bei der durch räumliche Nähe eine elektrostatische Beeinflussung der [Ladungen](Statisches%20E-Feld.md) auf den beiden Elektroden stimuliert oder ausgenützt wird.  
+>  Ein Kondensator ist eine Anordnung zweier Elektroden mit unterschiedlichem [Potenzial](elektrische%20Spannung.md), bei der durch räumliche Nähe ein elektrostatisches Feld entsteht.  
 >  Die entsprechende Kenngröße heißt *Kapazität*.
+
+Die Kapazität ist die Proportionalitätskonstante zwischen Ladung und Spannung im Kondensator:
+
+$$Q = CU$$
+
+Die Kapazität ist auch von der Geometrie abhängig
+
+
+
+
 
 > [!warning] parasitäre Kapazität  
 >  Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
 
-![InlineL|450](assets/KondensatorBatterie.png)
+
 
 > [!TIP] [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das [E-Feld](Elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
-> 1. [Spannungsquelle](elektrische%20Spannung.md) von elektrischem Feld umgeben
-> 2. Feld wirkt auf bewegliche Elektronen im eingebrachten Kondensator und Anschlussdrähten
-> 3. Die [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
-> 4. Im Zuge dieser Verschiebungen wurden die Platten [geladen](Statisches%20E-Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](Statisches%20E-Feld.md) auf dem Platten.
+> ![InlineR|350](assets/KondensatorBatterie.png)
+> 1. Feld wirkt auf bewegliche Elektronen im eingebrachten Kondensator und Anschlussdrähten
+> 1. Die [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
+> 1. Im Zuge dieser Verschiebungen wurden die Platten [geladen](Statisches%20E-Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](Statisches%20E-Feld.md) auf dem Platten.
+
+
+## Strom und Spannung im Kondensator
+
+
 
 ## Kenngrößen im Kondensator
 
@@ -42,7 +57,7 @@ created: 11th April 2023
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - MLCC - Multilayer Ceramic Capacitor
 - ELKO - Elektrolytkondensator
-- TALKO - Tantalelektrolytkondensator
+- TALKO - Tantal Elektrolytkondensator
 
 ### [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
 
