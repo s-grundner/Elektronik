@@ -43,6 +43,7 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon_{0}}  $$
 > [!hint] Das Feld der jeweiligen Seite der Platte das zur anderen zeigt, verläuft in die selbe Richtung, wird also [überlagert](Superpositionsprinzip.md). (wobei sich die äußeren Felder aufheben).
 > für das Feld im Kondensator ergibt sich:  $\lvert \vec{E} \rvert = \frac{Q}{2A\cdot \varepsilon_{0}} + \frac{Q}{2A\cdot \varepsilon_{0}} = \frac{Q}{A\cdot \varepsilon_{0}}$
 > Mit der [elektrischen Spannung](elektrische%20Spannung.md) im [E-Feld](Elektrisches%20Feld.md): $U = \lvert \vec{E} \rvert \cdot d$
+> $\frac{U}{d} = $
 > 
 
 ## [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
