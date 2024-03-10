@@ -214,7 +214,7 @@ int main( int argc, char* argv[ ] ) {
 Es gibt eine Vielzahl an Servern, etwa unter:  
 <http://www.metrologie.at/messtechnische-fachbereiche/zeit/zeitsynchronisation-ueber-internet/>
 
-## Qt (485)
+## [Qt](../../Softwareentwicklung/Cpp/Qt.md) (485)
 
 ```c++
 #include <QUdpSocket>

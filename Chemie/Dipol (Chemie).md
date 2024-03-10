@@ -34,7 +34,7 @@ Weil Dipole sich elektrisch anziehen, kondensieren diese leicht
 $H_{2}O$ flüssig  
 $H_{2}S$ gasförmig (geringeres Dipolmoment)
 
- ![](../HF-Technik/assets/Pasted%20image%2020231115092719.png)
+ ![invert_dark](assets/Dipolmoment.png)
 
 > [!INFO] Dipolmoment
 > $\mid\vec{p}\mid=Q\cdot d$

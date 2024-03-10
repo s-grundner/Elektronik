@@ -45,14 +45,14 @@ Beim Übertragen von Zeichen gibt's ein Problem mit der Darstellbarkeit in Edito
 
 <https://de.wikipedia.org/wiki/Base64> beschreibt die Sache recht gut.
 
-### Qt mit Sicherheitsprotokollen (SSL/TLS)
+### [Qt](../../Softwareentwicklung/Cpp/Qt.md) mit Sicherheitsprotokollen (SSL/TLS)
 
-Für Qt kann während der Installation bei der Auswahl der zu implementierenden Toolkits die Installation von OpenSSL mit ausgewählt werden. OpenSSL ist notwendig damit von Qt aus mittels SSL/TLS kommuniziert werden kann. Alternativ kann OpenSSL separat installiert werden (siehe Oben). Die Verschlüsselungssoftware wird dynamisch gelinkt. Dafür müssen die notwendigen Bibliotheken (libcrypto, libssl) abschließend für die erstellte Applikation verfügbar sein. Dazu gibt es zwei Möglichkeiten:
+Für [Qt](../../Softwareentwicklung/Cpp/Qt.md) kann während der Installation bei der Auswahl der zu implementierenden Toolkits die Installation von OpenSSL mit ausgewählt werden. OpenSSL ist notwendig damit von [Qt](../../Softwareentwicklung/Cpp/Qt.md) aus mittels SSL/TLS kommuniziert werden kann. Alternativ kann OpenSSL separat installiert werden (siehe Oben). Die Verschlüsselungssoftware wird dynamisch gelinkt. Dafür müssen die notwendigen Bibliotheken (libcrypto, libssl) abschließend für die erstellte Applikation verfügbar sein. Dazu gibt es zwei Möglichkeiten:
 
 - die Bibliothek ist in *c:\windows\system32* (oder ähnlichem Verzeichnis) abgelegt
 
 - die Bibliothek ist direkt im Verzeichnis der erstellten Applikation abgelegt (build-Verzeichnis)  
-  Nachdem das Build-Verzeichnis eventuell für eine komplette Neuerstellung geleert/gelöscht wird, kann in die Qt-Projekt-Datei (*.pro-Datei) am Ende der Datei eingefügt werden, dass die Dateien jedes mal neu (aus dem Source-Verzeichnis) einkopiert werden (dazu werden *libcrypto-1_1-x64.dll* und *libssl-1_1-x64.dll* im Source-Verzeichnis abgelegt) in den Ordner mit dem Source Code kopieren:
+  Nachdem das Build-Verzeichnis eventuell für eine komplette Neuerstellung geleert/gelöscht wird, kann in die [Qt](../../Softwareentwicklung/Cpp/Qt.md)-Projekt-Datei (*.pro-Datei) am Ende der Datei eingefügt werden, dass die Dateien jedes mal neu (aus dem Source-Verzeichnis) einkopiert werden (dazu werden *libcrypto-1_1-x64.dll* und *libssl-1_1-x64.dll* im Source-Verzeichnis abgelegt) in den Ordner mit dem Source Code kopieren:
 
   ```
   # Copy the dynamic library.
@@ -75,7 +75,7 @@ Grundsätzlich ist es nicht sehr aufwändig einen eigenen Mailserver zu betreibe
 
 Mails können mittels **SMTP** Protokoll versendet werden.
 
-1. Verbinden mit dem Mailserver. Für eine verschlüsselte Verbindung wird in Qt mittels *QSslSocket* verbunden (Ansonsten direkt mit *QTcpSocket*) (<https://support.google.com/mail/answer/7104828):>
+1. Verbinden mit dem Mailserver. Für eine verschlüsselte Verbindung wird in [Qt](../../Softwareentwicklung/Cpp/Qt.md) mittels *QSslSocket* verbunden (Ansonsten direkt mit *QTcpSocket*) (<https://support.google.com/mail/answer/7104828):>
 
    ```c++
    QSslSocket *m_sock = new QSslSocket();

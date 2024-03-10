@@ -34,7 +34,7 @@ I = \lim_{ \Delta t\to 0 } \frac{\Delta Q}{\Delta t} = \frac{dQ}{dt}
 $$
 
 > [!success] Die Einheit des Stromflusses ist das *Ampere* ($A$);
-> es entspricht einer [Ladung](elektrisches%20Feld.md) von einem [Coulomb](Elektrische%20Kraft.md) ($C$) pro Sekunde ($s$).
+> es entspricht einer [Ladung](elektrisches%20Feld.md) von einem [Coulomb](elektrische%20Kraft.md) ($C$) pro Sekunde ($s$).
 > (Daher ist auch $1C=1As$)
 
 ---

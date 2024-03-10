@@ -18,7 +18,7 @@ professor:
 
 - Transformatoren dienen dazu, Spannungen, Ströme und/oder Impedanzen zu transformieren und Leistungen zwischen [galvanisch](../Chemie/Elektrochemie.md) getrennten Netzwerken zu übertragen.
 - Transformatoren bestehen aus magnetisch gekoppelten Induktivitäten
-- Die Transformation von Spannungen, Ströme und/oder Impedanzen ist nur für *zeitlich veränderliche* Spannungen/Ströme möglich, da diese auf dem Prinzip der [Ruheinduktion](../Elektrotechnik/Magnetisches%20Feld.md) beruht -> gekoppelte Induktivitäten.
+- Die Transformation von Spannungen, Ströme und/oder Impedanzen ist nur für *zeitlich veränderliche* Spannungen/Ströme möglich, da diese auf dem Prinzip der [Ruheinduktion](../Elektrotechnik/magnetisches%20Feld.md) beruht -> gekoppelte Induktivitäten.
 
 
 ![600](assets/Pasted%20image%2020240124090631.png)
@@ -29,7 +29,7 @@ Sehr hohe *relative permeabilität* $\mu_{r}$ des Kerns.
 > Torbedingung: [Strom](../Elektrotechnik/elektrischer%20Strom.md) $i_{1}$ der oben hinein fließt, muss unten (als $i_{2}$) wieder herausfließen.
 
 > [!warning] Vereinfachungen  
-> kein [magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) außerhalb des Eisenkerns
+> kein [magnetisches Feld](../Elektrotechnik/magnetisches%20Feld.md) außerhalb des Eisenkerns
 
 ## Gekoppelte Induktivitäten
 

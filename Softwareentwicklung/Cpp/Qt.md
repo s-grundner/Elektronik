@@ -1,9 +1,9 @@
 ---
 tags:
   - Cpp
-  - QT
+  - Tool/QT
 aliases:
-  - "#QT"
+  - "#Tool/QT"
 created: 29. November 2022
 ---
 
@@ -178,7 +178,9 @@ Häufig Button-Kombinationen sind in Dialog-Button-Box zusammengefasst. In den E
 - Im Code können ebenfalls einzelne Elemente eingefügt werden:
 
    ```c++
+
 ui->myComboBox->addItem("Mr. Smith");
+
    ```
 
 - Alternativ kann eine komplette Liste eingefügt werden:
@@ -193,7 +195,7 @@ ui->myComboBox->addItem("Mr. Smith");
   
   ui->myComboBox->addItems(myList);	// Liste komplett an ComboBox
   ```
-  
+
 - Ausgabe des aktuell ausgewählten Elements
 
   ```c++

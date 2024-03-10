@@ -216,9 +216,9 @@ int main(int argc, char **argv) {
 
 In der Datei `%windir%\System32\drivers\etc\hosts` (Linux: `/etc/hosts`) können Namen-Nummern-Zuordnungen erfolgen. Mittlerweile erfolgt diese Zuordnung über einen DNS-Server. Die hosts-Datei hat allerdings eine höhere Priorität, damit können Namen-Adressen umgeleitet werden (Eigene Website auf lokalen Server …).
 
-## Namensauflösung Qt
+## Namensauflösung [Qt](../../Softwareentwicklung/Cpp/Qt.md)
 
-In Frameworks wie Qt sind viele Sachen komfortabler verfügbar (in der pro-Datei: `Qt += network`):
+In Frameworks wie [Qt](../../Softwareentwicklung/Cpp/Qt.md) sind viele Sachen komfortabler verfügbar (in der pro-Datei: `Qt += network`):
 
 ```c++
 #include <QHostInfo>
@@ -367,9 +367,9 @@ HOST: www.orf.at
 ....
 ```
 
-## HTTP-Abfrage Qt (c++476)
+## HTTP-Abfrage [Qt](../../Softwareentwicklung/Cpp/Qt.md) (c++476)
 
-In neuen Qt-Versionen werden HTTP-Requests nicht mehr direkt abgesetzt sondern über den **Networkmanager**:
+In neuen [Qt](../../Softwareentwicklung/Cpp/Qt.md)-Versionen werden HTTP-Requests nicht mehr direkt abgesetzt sondern über den **Networkmanager**:
 
 ```c++
 #include "mainwindow.h"

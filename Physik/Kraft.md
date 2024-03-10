@@ -22,7 +22,7 @@ Die moderne Physik kennt *4* Kräfte:
 
 - Gravitationskraft
 - Elektromagnetische Kraft
-  - (in der Elektrotechnik separat als elektrische und magnetische Kraft)
+  - (in der Elektrotechnik separat als [elektrische Kraft](../Elektrotechnik/elektrische%20Kraft.md) und [magnetische Kraft](../Elektrotechnik/Laplace-Kraft.md))
 - Starke Kernkraft
 - Schwache Kernkraft
 
@@ -41,8 +41,8 @@ Die moderne Physik kennt *4* Kräfte:
 > Resultat molekularer Wechselwirkung
 
 > [!INFO] Fernwirkungskräfte
-> - Magnetische Kraft
-> - [Elektrische Kraft](../Elektrotechnik/Elektrische%20Kraft.md)
+> - [Magnetische Kraft](../Elektrotechnik/Laplace-Kraft.md)
+> - [elektrische Kraft](../Elektrotechnik/elektrische%20Kraft.md)
 > - Gravitationskraft
 
 ## Kraftfeld
@@ -55,7 +55,7 @@ Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunig
 | ------------------------------------------------------------- | ------------------------- | --------- |
 | Gravitationsfeld                                              | Eine Masse                | Massen    |
 | [elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md) | Eine ruhende [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
-| [Magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) | Eine bewegte [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
+| [magnetisches Feld](../Elektrotechnik/magnetisches%20Feld.md) | Eine bewegte [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
 | [Elektro-Magnetisches Feld](Elektromagnetische%20Wellen.md)   | Eine beschleunigte [Ladung](../Elektrotechnik/elektrische%20Ladung.md) | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
 
 > [!hint] Begriff: Konservatives Kraftfeld

@@ -1,10 +1,9 @@
 ---
-tags: []
+tags: 
 aliases:
   - H-Feld
-  - Ruheinduktion
-  - Bewegungsinduktion
-  - Bewegtinduktion
+  - Magnetfeld
+  - magnetische Feld
 created: 4. September 2023
 ---
 

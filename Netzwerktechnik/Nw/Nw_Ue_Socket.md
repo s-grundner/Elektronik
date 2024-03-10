@@ -1090,11 +1090,11 @@ Erstellen Sie eine Client-Server-Anwendung. Der Server wartet auf einen Client. 
 
 Erstellen Sie einen einfachen Webserver.
 
-## Qt Client/Server
+## [Qt](../../Softwareentwicklung/Cpp/Qt.md) Client/Server
 
 ( <https://www.bogotobogo.com/cplusplus/sockets_server_client_QT.php> -> dort gibt es eine sehr gute Anleitung für Mutlithreaded Server-Komm.)
 
-Einfacher wie in den vorherigen Beispielen mit den C-APIs des Betriebssystems, klappt die Verwendung von Sockets, mit entsprechenden Frameworks (OS-Unabhängig). Hier wird das mit den Bibliotheken von Qt gezeigt.
+Einfacher wie in den vorherigen Beispielen mit den C-APIs des Betriebssystems, klappt die Verwendung von Sockets, mit entsprechenden Frameworks (OS-Unabhängig). Hier wird das mit den Bibliotheken von [Qt](../../Softwareentwicklung/Cpp/Qt.md) gezeigt.
 
 Grundsätzlich ist der Ablauf gleich wie im rohen Socket-Programmieren:
 
@@ -1240,9 +1240,9 @@ void Server::myNewConnection() {
 
 Dieser Server kann mittels `telnet 127.0.0.1 51234` kontaktiert werden. Oder mit dem folgenden Client.
 
-## Qt ChatServer (c++473)
+## [Qt](../../Softwareentwicklung/Cpp/Qt.md) ChatServer (c++473)
 
-Schreiben Sie einen Qt-Chat-Server.
+Schreiben Sie einen [Qt](../../Softwareentwicklung/Cpp/Qt.md)-Chat-Server.
 
 ### Clientsoftware (c++455)
 

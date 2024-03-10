@@ -1,0 +1,17 @@
+---
+tags: 
+aliases:
+  - magnetische Kraft
+keywords: 
+subject:
+  - VL
+semester:
+  - B1
+  - WS23
+created: 10. März 2024
+professor:
+  - Bernhard Jakoby
+---
+ 
+
+# Laplace-Kraft
