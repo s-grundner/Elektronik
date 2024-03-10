@@ -16,37 +16,11 @@ Grundsätzlich zwei Möglichkeiten ein Netzwerk zu gestalten:
 
 Es gibt unterschiedliche Formen der Architektur, welche verwendet wird, hängt von der konkreten Anwendung ab.
 
-### Peer-to-Peer
-
-In einem Peer-to-Peer-Netzwerk ist jeder Teilnehmer gleichberechtigt. Jeder teilnehmende Computer stellt seine Ressourcen zur Verfügung. Das können Drucker, Scanner oder Kommunikationswege (weitere Netzwerke) sein. Der Vorteil dieser Struktur ist der einfache und kostengünstige Aufbau. Der Aufbau wird aber schon mit relativ wenigen Teilnehmern (<10) praktisch nicht mehr organisierbar.
-
-![NW_PeerPeer](assets/NW_PeerPeer.png)
-
-### Hub
-
-Mittels Hub können mehrere Geräte miteinander verbunden werden. Wenn ein Rechner Daten versendet, dann erhalten sämtliche am Hub angeschlossene Rechner die Nachricht. Derjenige Rechner der die Nachricht erhalten soll (Zieladresse der Nachricht) behält die Nachricht, alle anderen Teilnehmer verwerfen sie. Daher ist ein Hub nur für sehr kleine Netzwerke sinnvoll (nicht mehr wirklich zeitgemäß, Preisvorteil gegenüber Switch marginal).
-
-![NW_Hub](assets/NW_Hub.png)
-
-### Switch
-
-Ein Switch funktioniert ähnlich wie ein Hub, er agiert ein wenig intelligenter - er kennt die MAC-Adressen sämtlicher angeschlossener Geräte und übermittelt die Daten nur an denjenigen Teilnehmer an welchem das Datum adressiert ist.
-
-### Access Point
-
-Um mittels WLAN kommunizieren zu können, wird ein Access Point verwendet. Dieser kann mittels Hub oder Switch in ein Netzwerk eingebunden werden.
-
-### Router
-
-Um Dienste im Internet in Anspruch nehmen zu können, ist ein Router notwendig. Dazu werden interne IP-Adressen in diejenige Adresse übersetzt, die zum Beispiel vom Internet-Provider zur Verfügung gestellt wird. Das kann entweder statisch (fest eingestellt) oder dynamisch (DHCP) erfolgen. Router haben vielfach noch zusätzliche Optionen - Firewall, Filterung …
-
-![NW_Hub](assets/NW_Router.png)
-
-Wenn vom Datennetzanbieter kein Netzwerk angeboten wird sondern ein anderes Medium (Telefon, Fernsehkabel …), dann ist zusätzlich zwischen Router und Internet ein **Modem** notwendig. Ein Modem (*Mod*ulator-*Dem*odulator) adaptiert zum Beispiel [Ethernet](../Ethernet.md) auf eine Telefonleitung oder ein Fernsehkabel.
-
-Klassisch war es dann häufig auch notwendig, dass die Telefonleitung auf das Telefonsignal und Internetsignal aufgeteilt wurde (bevor es ins Modem kam), das erfolgte durch einen **Splitter**.
-
-Im Privat-Bereich sieht die Gerätestruktur oft viel einfacher aus, das liegt daran, dass die oben erwähnten Komponenten komplett in ein einzelnes Gerät zusammengefasst werden, diese Geräte werden dann oft als **I**ntegrated **A**ccess **D**evice (IAD) bezeichnet. Oft ist aber in einen Access Point direkt ein Switch integriert. Ebenfalls auch in einem Router, dann haben diese Geräte gleich mehr als nur die beiden gezeigten Anschlüsse.
+- [Peer-to-Peer](Peer-to-Peer.md)
+- [Hub](Hub.md)
+- [Switch](Switch.md)
+- [Access Point](Access%20Point.md)
+- [Router](Router.md)
 
 ### Client-Server-Architektur
 
@@ -75,10 +49,10 @@ Die Server-Client-Struktur hat sich für sehr viele Anwendungen durchgesetzt. De
 
 ### Protokolle der Anwendungsschicht (OSI5+)
 
-- **DHCP**	Dynamic Host Configuration Protocol: für die Kommunikation benötigt jeder Rechner eine eigene, eindeutige IP-Adresse. In großen Netzwerken und mit wechselnden Teilnehmern ist das sehr aufwendig, daher gibt's DHCP: einer Station können dynamische IPs zugeordnet werden. DHCP-Server verwalten den Adresspool und protokollieren alle Vergaben. DHCP basiert auf UDP, Ports für IPv4 67/68 und für IPv6 547/546
-- **DNS**	Domain Name System: um mit einer zweiten Station kommunizieren zu können wird seine IP-Adresse benötigt. Ein DNS-Server gibt zu einer URL (Uniform Resource Locator) eine IP-Adresse zurück. Eine URL ist hierarchisch aufgebaut. Der DNS-Server kann automatisch bezogen werden oder manuell eingestellt werden (kann schneller und/oder sicherer sein). UDP oder TCP, beide Port 53.
-- **FTP**		File Transfer Protocol: Protokoll zur Datei-Übertragung im Netzwerk. Dabei sind mehrere Ports gleichzeitig eingebunden (Steuerports 20, 21, Datenports 1023+n). Klassisch läuft FTP völlig unverschlüsselt, daher neuer FTPS. FTP basiert auf den TCP Ports 20 und 21.
-- **HTTP**	Hypertext Transfer Protocol: wird hauptsächlich zur Übertragung von Webseiten eingesetzt (Browser) neuerdings aber auch zum Austausch beliebiger Daten (IoT). HTTP baut auf TCP auf mit Port 80. - <https://www.a-coding-project.de/ratgeber/http/einfuehrung>. Die Kommunikation wird immer vom Client ausgehend aufgebaut.
+- [DHCP](DHCP.md)
+- [DNS](../DNS.md)
+- [[FTP]]
+- HTTP
 - **NTP**	Network Time Protocol: Protokoll zur Synchronisierung von Uhren. Baut auf UDP, Port 123 auf.
 - **POP3**	Postoffice Protocol Version 3: E-Mail-Protokoll zur Kommunikation zwischen E-Mail-Server und Client. Sehr einfach (ASCII) und eingeschränkt (Gegenstück: SMTP). TCP Port 110.
 - **SMTP**	Simple Mail Transfer Protocol: E-Mail-Protokoll zur Kommunikation zwischen E-Mail-Server und Client. Kommunikation muss immer vom Sender initiiert werden (kann nicht vom Server starten). TCP, Port 25.

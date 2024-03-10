@@ -173,9 +173,9 @@ Vorteile:
 
 Dieses Konzept ist nach außen in Abwandlungen realisiert, so zum Beispiel in Qt-C++, Java-Swing oder C#-WPF (MVVM). Dort ist jeweils nur ein Modell für die GUI-Klasse (View) verfügbar, der Controller ist im View integriert.
 
-### Qt-ListView (156)
+### [Qt](../../Cpp/Qt.md)-ListView (156)
 
-Allgemein hat es ja nicht viel Sinn dieses Konzept für ein einfaches Textfeld zu verwenden. Der Vorteil ist erst dann gegeben wenn es sich um größere Datenmengen handelt, für Qt gibt es so etwa ein List-View (*QListView*) für die Darstellung einer Liste von Daten:
+Allgemein hat es ja nicht viel Sinn dieses Konzept für ein einfaches Textfeld zu verwenden. Der Vorteil ist erst dann gegeben wenn es sich um größere Datenmengen handelt, für [Qt](../../Cpp/Qt.md) gibt es so etwa ein List-View (*QListView*) für die Darstellung einer Liste von Daten:
 
 - Zuerst wird auf einem UI ein *View* *QListView* mit Namen *lstNamen* erstellt
 
@@ -203,7 +203,7 @@ Allgemein hat es ja nicht viel Sinn dieses Konzept für ein einfaches Textfeld z
 
   Diese Veränderungen werden automatisch im GUI in der verknüpften Liste angezeigt.
 
-In Qt gibt es einige Elemente bei denen das möglich ist wie etwa auch in einer ComboBox. Nicht alle Elemente lassen es zu dass ein Modell verknüpft wird (sind dann private).
+In [Qt](../../Cpp/Qt.md) gibt es einige Elemente bei denen das möglich ist wie etwa auch in einer ComboBox. Nicht alle Elemente lassen es zu dass ein Modell verknüpft wird (sind dann private).
 
 Vorteil: im Programm muss man sich nur um das Modell kümmern, dargestellt werden die Daten automatisch.
 

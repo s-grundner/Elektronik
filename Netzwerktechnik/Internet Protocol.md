@@ -1,8 +1,13 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["IP", "IP-Adresse", "IP-Adressen"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - IP-Adresse
+  - IP-Adressen
+subject:
+  - ksn
+source:
+  - Martin Aichriedler
 ---
 
 # Internet Protokoll

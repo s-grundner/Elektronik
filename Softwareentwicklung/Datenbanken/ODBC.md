@@ -101,14 +101,14 @@ LINK_LIBRARIES(odbc32)
 Mit obigen Einstellungen mittels [Qt](../Cpp/Qt.md):
 
 - das [Qt](../Cpp/Qt.md)-Projekt (pro-Datei) muss sql laden:
-  
+
 ```
   QT += sql
   ```
 
 - Cpp:  
   es gibt viele Varianten via ODBC zuzugreifen: es wird die Treiberbezeichnung benötigt (*MySQL ODBC 8.0 ANSI Driver*)…
-  
+
 ```c++
   #include <QCoreApplication>
   #include <QDebug>
@@ -156,7 +156,7 @@ Mit obigen Einstellungen mittels [Qt](../Cpp/Qt.md):
   ```
 
 - Alternativ:
-  
+
   ```c++
   #include <QCoreApplication>
   #include <QDebug>

@@ -41,7 +41,7 @@ Router leiten Datenpakete zwischen Netzen mit eigenen logischen Adressbereichen 
 
 (Router ohne [Wide Area Network](Wide%20Area%20Network.md)-Schnittstelle)
 
-### [Gateways](Gateway.md) in der Vermittlungsschicht
+### [Gateways](Gateway.md) In der Vermittlungsschicht
 
 [Gateways](Gateway.md) die auf der Vermittlungsschicht arbeiten, heißen auch **Mehrprotokoll Router** oder **Multiprotololl Router**.
 

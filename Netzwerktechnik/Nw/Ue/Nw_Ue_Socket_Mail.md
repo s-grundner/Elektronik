@@ -18,7 +18,7 @@ Entwickeln eines E-Mail Client. Viele E-Mail Provider bieten keinen Zugang mitte
 
 ### Direkter Test
 
-Bis vor einigen Jahren waren viele Mail-Provider direkt mittels der Protokolle erreichbar. Da die Protokolle SMTP, POP3 und IMAP auf [TCP](../TCP.md) aufsetzten, konnte so direkt mittels Telnet mit diesen Providern kommuniziert werden. Dadurch sind die übertragenen Daten von Dritten direkt lesbar. Aus diesem Grund wurden die Protokolle dafür zumindest auf SSL/TLS aufgesetzt. Das ist eine Schicht zwischen [TCP](../TCP.md) und den übergeordneten Schichten, die den gesamten Datenverkehr verschlüsselt. Dieser kann zwar ebenfalls mitgehört werden, für aktuell "gängige" Rechnerleistungen aber nur mit unverhältnismäßig hohen Aufwand zu entschlüsseln. Um verschlüsselt kommunizieren zu können ist Telnet nicht geeignet, dafür kann z.B. *OpenSSL* verwendet werden. OpenSSL beinhaltet einerseits Bibliotheken für die Entwicklung von kryptographischen Anwendungen (Zertifikat-, Schlüsselerzeugung, Ver-/Entschlüsseln …) und andererseits Kommandozeilen-Tools die direkt verwendet werden können. Außerdem ist *OpenSSL* für alle gängigen OS frei erhältlich.
+Bis vor einigen Jahren waren viele Mail-Provider direkt mittels der Protokolle erreichbar. Da die Protokolle SMTP, POP3 und IMAP auf [TCP](../../TCP.md) aufsetzten, konnte so direkt mittels Telnet mit diesen Providern kommuniziert werden. Dadurch sind die übertragenen Daten von Dritten direkt lesbar. Aus diesem Grund wurden die Protokolle dafür zumindest auf SSL/TLS aufgesetzt. Das ist eine Schicht zwischen [TCP](../../TCP.md) und den übergeordneten Schichten, die den gesamten Datenverkehr verschlüsselt. Dieser kann zwar ebenfalls mitgehört werden, für aktuell "gängige" Rechnerleistungen aber nur mit unverhältnismäßig hohen Aufwand zu entschlüsseln. Um verschlüsselt kommunizieren zu können ist Telnet nicht geeignet, dafür kann z.B. *OpenSSL* verwendet werden. OpenSSL beinhaltet einerseits Bibliotheken für die Entwicklung von kryptographischen Anwendungen (Zertifikat-, Schlüsselerzeugung, Ver-/Entschlüsseln …) und andererseits Kommandozeilen-Tools die direkt verwendet werden können. Außerdem ist *OpenSSL* für alle gängigen OS frei erhältlich.
 
 Verbindung auf Server (Servername und Port im Internet suchen, eine gute Übersicht bietet etwa <https://www.pop3-imap-smtp.de/gmail/):>
 
@@ -45,14 +45,14 @@ Beim Übertragen von Zeichen gibt's ein Problem mit der Darstellbarkeit in Edito
 
 <https://de.wikipedia.org/wiki/Base64> beschreibt die Sache recht gut.
 
-### [Qt](../../Softwareentwicklung/Cpp/Qt.md) mit Sicherheitsprotokollen (SSL/TLS)
+### [Qt](../../../Softwareentwicklung/Cpp/Qt.md) mit Sicherheitsprotokollen (SSL/TLS)
 
-Für [Qt](../../Softwareentwicklung/Cpp/Qt.md) kann während der Installation bei der Auswahl der zu implementierenden Toolkits die Installation von OpenSSL mit ausgewählt werden. OpenSSL ist notwendig damit von [Qt](../../Softwareentwicklung/Cpp/Qt.md) aus mittels SSL/TLS kommuniziert werden kann. Alternativ kann OpenSSL separat installiert werden (siehe Oben). Die Verschlüsselungssoftware wird dynamisch gelinkt. Dafür müssen die notwendigen Bibliotheken (libcrypto, libssl) abschließend für die erstellte Applikation verfügbar sein. Dazu gibt es zwei Möglichkeiten:
+Für [Qt](../../../Softwareentwicklung/Cpp/Qt.md) kann während der Installation bei der Auswahl der zu implementierenden Toolkits die Installation von OpenSSL mit ausgewählt werden. OpenSSL ist notwendig damit von [Qt](../../../Softwareentwicklung/Cpp/Qt.md) aus mittels SSL/TLS kommuniziert werden kann. Alternativ kann OpenSSL separat installiert werden (siehe Oben). Die Verschlüsselungssoftware wird dynamisch gelinkt. Dafür müssen die notwendigen Bibliotheken (libcrypto, libssl) abschließend für die erstellte Applikation verfügbar sein. Dazu gibt es zwei Möglichkeiten:
 
 - die Bibliothek ist in *c:\windows\system32* (oder ähnlichem Verzeichnis) abgelegt
 
 - die Bibliothek ist direkt im Verzeichnis der erstellten Applikation abgelegt (build-Verzeichnis)  
-  Nachdem das Build-Verzeichnis eventuell für eine komplette Neuerstellung geleert/gelöscht wird, kann in die [Qt](../../Softwareentwicklung/Cpp/Qt.md)-Projekt-Datei (*.pro-Datei) am Ende der Datei eingefügt werden, dass die Dateien jedes mal neu (aus dem Source-Verzeichnis) einkopiert werden (dazu werden *libcrypto-1_1-x64.dll* und *libssl-1_1-x64.dll* im Source-Verzeichnis abgelegt) in den Ordner mit dem Source Code kopieren:
+  Nachdem das Build-Verzeichnis eventuell für eine komplette Neuerstellung geleert/gelöscht wird, kann in die [Qt](../../../Softwareentwicklung/Cpp/Qt.md)-Projekt-Datei (*.pro-Datei) am Ende der Datei eingefügt werden, dass die Dateien jedes mal neu (aus dem Source-Verzeichnis) einkopiert werden (dazu werden *libcrypto-1_1-x64.dll* und *libssl-1_1-x64.dll* im Source-Verzeichnis abgelegt) in den Ordner mit dem Source Code kopieren:
 
   ```
   # Copy the dynamic library.
@@ -75,7 +75,7 @@ Grundsätzlich ist es nicht sehr aufwändig einen eigenen Mailserver zu betreibe
 
 Mails können mittels **SMTP** Protokoll versendet werden.
 
-1. Verbinden mit dem Mailserver. Für eine verschlüsselte Verbindung wird in [Qt](../../Softwareentwicklung/Cpp/Qt.md) mittels *QSslSocket* verbunden (Ansonsten direkt mit *QTcpSocket*) (<https://support.google.com/mail/answer/7104828):>
+1. Verbinden mit dem Mailserver. Für eine verschlüsselte Verbindung wird in [Qt](../../../Softwareentwicklung/Cpp/Qt.md) mittels *QSslSocket* verbunden (Ansonsten direkt mit *QTcpSocket*) (<https://support.google.com/mail/answer/7104828):>
 
    ```c++
    QSslSocket *m_sock = new QSslSocket();
