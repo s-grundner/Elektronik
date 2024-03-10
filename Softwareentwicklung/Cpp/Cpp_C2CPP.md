@@ -34,7 +34,7 @@ Im C-Quelltext, der dem Compiler übergeben wird, erscheinen an den Positionen, 
 
 ### Der Typ-Modifizierer Const
 
-Mit ANSI-C wurde das Schlüsselwort *const* als so genannter *Typ-Modifizierer* eingeführt: Einer Variablen-Definition kann das Schlüsselwort *const* vorangestellt werden. Der Wert der derart deklarierten Variablen muss während der Definition zugewiesen werden und kann nicht durch direkte Zuweisungen verändert werden.
+Mit [ANSI-C](../C/{MOC}%20C.md) wurde das Schlüsselwort *const* als so genannter *Typ-Modifizierer* eingeführt: Einer Variablen-Definition kann das Schlüsselwort *const* vorangestellt werden. Der Wert der derart deklarierten Variablen muss während der Definition zugewiesen werden und kann nicht durch direkte Zuweisungen verändert werden.
 
 Beispiel:
 
@@ -124,7 +124,7 @@ int array[max];       /* Erlaubt in C++,
                          ausser C99 Standard */
 ```
 
-In ANSI-C kann in dieser Situation nur mit Makros gearbeitet werden:
+In [ANSI-C](../C/{MOC}%20C.md) kann in dieser Situation nur mit Makros gearbeitet werden:
 
 ```c
 #define max 255

@@ -4,12 +4,12 @@ tags:
   - MOC
 aliases:
   - "#C"
-  - C99
   - C (Programmiersprache)
+  - ANSI-C
   - C89
+  - C99
   - C11
   - C18
-  - ANSI-C
 subject:
   - fsst
 source: 
