@@ -21,9 +21,9 @@ professor:
 
 > [!important] Polarisation: Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](../Elektrotechnik/elektrisches%20Feld.md) aus
 
-In der Regel erzeugen Atomgebundene [Moleküle](Atombindung.md) trotz Ladungsdifferenz kein [elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md). Das liegt daran dass diese [Ladungen](../Elektrotechnik/elektrische%20Ladung.md) nicht gerichtet sind.
+In der Regel erzeugen Atomgebundene [Moleküle](Atombindung.md) trotz Ladungsdifferenz eines Dipols kein [elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md). Das liegt daran dass diese [Ladungen](../Elektrotechnik/elektrische%20Ladung.md) nicht gerichtet sind.
 
-![](assets/Polarisation.png)
+![invert_dark](assets/Polarisation.png)
 Zeigt der [Vektor](../Mathematik/mathe%20(3)/Vektor.md) des [Dipolmoments](Dipol%20(Chemie).md) im Stoff überwiegend in die selbe Richtung (durch Einbringen in ein [statisches E-Feld](../Elektrotechnik/elektrisches%20Feld.md)), ist der Stoff Polarisiert. Dieses [E-Feld](../Elektrotechnik/elektrisches%20Feld.md) wird durch die ausgerichteten ladungsschwerpunkte Abgeschwächt. Das Ausmaß dieser Abschwächung hängt von der [Permittivität](../Elektrotechnik/Dielektrikum.md) des [Dielektrikums](../Elektrotechnik/Dielektrikum.md) ab.
 
 Dies ist nützlich für:

@@ -24,11 +24,13 @@ professor:
 
 > [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische [Ladung](elektrisches%20Feld.md) tragen.
 > - Die Ursache elektrischen Felder sind selbst Ladungen.
+> - Die Ladungen können ruhen oder in Bewegung sein
 
-> [!INFO] Statisch:  
-> es ändert sich nichts mehr (eingeschwungener Zustand)
-> Keine ruckartigen/schnelle Änderungen
-> in der HF Technik sind einige Vereinfachungen der Elektrostatik nicht mehr gültig
+> [!hint]- Folgende Behandlung des E-Feld gilt nur in der Elektrostatik und näherungsweise bei langsamen Änderungen.
+> Statisch: 
+> - es ändert sich nichts mehr (eingeschwungener Zustand)
+> - Keine ruckartigen/schnelle Änderungen
+> - in der HF Technik sind einige Vereinfachungen der Elektrostatik nicht mehr gültig
 
 > [!info] [Coulomb-Kraft](Elektrische%20Kraft.md)
 >Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](Elektrisches%20Feld.md) $E$ zugeordnet werden.  
