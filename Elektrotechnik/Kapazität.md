@@ -111,6 +111,8 @@ Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 
 # Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
 
+> [!summary] Video 6. 30 min
+
 ## 1 Idealer Kondensator
 
 $$
