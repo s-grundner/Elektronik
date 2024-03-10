@@ -16,12 +16,18 @@ professor:
 
 # Lorentz-Kraft
 
-![InlineR](assets/JakobyFotoLeiden.png)
+![InlineR|409](assets/JakobyFotoLeiden.png)
 
-Ruhende Ladungen:
+Ruhende [Ladungen](elektrische%20Ladung.md):
 - erzeugen $\vec{E}$
-- erfahren Kraft in Anwesenheit von $\vec{E}$
+- erfahren eine [elektrische Kraft](Coulomb-Kraft.md) in Anwesenheit von $\vec{E}$
 
-Bewegte Ladungen:
+Bewegte [Ladungen](elektrische%20Ladung.md):
 - erzeugen $\vec{B}$
-- erfahren Kraft in Anwesenheit von $\vec{B}$
+- erfahren eine [magnetische Kraft](Laplace-Kraft.md) in Anwesenheit von $\vec{B}$
+
+Die Allgemeine Kraft auf [Ladungen](elektrische%20Ladung.md) (bei Anwesenheit beider Felder) ist die ***Lorentz-Kraft***
+
+$$
+\vec{F} = Q\cdot \vec{E}+Q\cdot \vec{v}\times \vec{B}
+$$

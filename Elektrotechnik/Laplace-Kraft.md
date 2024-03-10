@@ -15,6 +15,6 @@ professor:
 ---
  
 
-# Laplace-Kraft
+# Magnetische Kraft (Laplace Kraft)
 
 ![invert_dark](assets/LaplaceKraft.png)

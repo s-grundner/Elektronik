@@ -32,7 +32,7 @@ professor:
 > - Keine ruckartigen/schnelle Änderungen
 > - in der HF Technik sind einige Vereinfachungen der Elektrostatik nicht mehr gültig
 
-> [!info] [Coulomb-Kraft](elektrische%20Kraft.md)
+> [!info] [Coulomb-Kraft](Coulomb-Kraft.md)
 >Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](elektrisches%20Feld.md) $E$ zugeordnet werden.  
 > Die [Kraft](../Physik/Kraft.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
 > $$\vec{F}=q\cdot \vec{E}$$
@@ -52,7 +52,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 ## Statisches [E-Feld](elektrisches%20Feld.md) $\iff$ Gravitationsfeld
 
-|                Gravitationskraft                 | [elektrische Kraft](elektrische%20Kraft.md) / [Coulomb-Kraft](elektrische%20Kraft.md) |
+|                Gravitationskraft                 | [Coulomb-Kraft](Coulomb-Kraft.md) / [Coulomb-Kraft](Coulomb-Kraft.md) |
 | :----------------------------------------------: | :-----------------------------------------------------------------------------------: |
 |            $\vec{F} = m\cdot \vec{g}$            |                              $\vec{F} = q \cdot \vec{E}$                              |
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ |          $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$          |
@@ -65,7 +65,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 | $F_{G}$                                                                                 | $F_{E}$                                                                                  |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine [Kraft](../Physik/Kraft.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene [E-Feld](elektrisches%20Feld.md) $\vec{E}$ eine [Kraft](elektrische%20Kraft.md) |
+| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine [Kraft](../Physik/Kraft.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene [E-Feld](elektrisches%20Feld.md) $\vec{E}$ eine [Kraft](Coulomb-Kraft.md) |
 
 > [!warning] Unterschied zum G-Feld
 > Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.
@@ -99,7 +99,7 @@ $$
 # Tags
 
 - [ESD](../Hardwareentwicklung/ESD.md)
-- [elektrische Kraft](elektrische%20Kraft.md)
+- [Coulomb-Kraft](Coulomb-Kraft.md)
 - [Elektrisches Feld – Wikipedia](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 
 # Flashcards

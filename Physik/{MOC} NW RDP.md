@@ -46,7 +46,7 @@ Energie 3-4 Klasse
 Einheiten nicht zwingend in SI Einheiten Zerlegen können
 
 Gravitationskraft  
-[Coulomb](../Elektrotechnik/elektrische%20Kraft.md) kraft
+[Coulomb](../Elektrotechnik/Coulomb-Kraft.md) kraft
 $$
 \begin{align*}
 F &= m\cdot v \\

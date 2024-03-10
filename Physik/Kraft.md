@@ -22,7 +22,7 @@ Die moderne Physik kennt *4* Kräfte:
 
 - Gravitationskraft
 - Elektromagnetische Kraft
-  - (in der Elektrotechnik separat als [elektrische Kraft](../Elektrotechnik/elektrische%20Kraft.md) und [magnetische Kraft](../Elektrotechnik/Laplace-Kraft.md))
+  - (in der Elektrotechnik separat als [Coulomb-Kraft](../Elektrotechnik/Coulomb-Kraft.md) und [magnetische Kraft](../Elektrotechnik/Laplace-Kraft.md))
 - Starke Kernkraft
 - Schwache Kernkraft
 
@@ -42,7 +42,7 @@ Die moderne Physik kennt *4* Kräfte:
 
 > [!INFO] Fernwirkungskräfte
 > - [Magnetische Kraft](../Elektrotechnik/Laplace-Kraft.md)
-> - [elektrische Kraft](../Elektrotechnik/elektrische%20Kraft.md)
+> - [Coulomb-Kraft](../Elektrotechnik/Coulomb-Kraft.md)
 > - Gravitationskraft
 
 ## Kraftfeld
