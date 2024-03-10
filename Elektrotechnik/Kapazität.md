@@ -52,7 +52,6 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > $\varepsilon_{r}$ … Relative [Permittivität](Dielektrikum.md) des [Dielektrikums](Dielektrikum.md)
 >   
 
-
 ## Kenngrößen im Kondensator
 
 ### [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
@@ -85,13 +84,17 @@ Der [Strom](elektrischer%20Strom.md) im Kondensator ist Abhängig von der Änder
 
 $$=\int_{0}^{t} C \frac{d u}{d \uptau}\cdot u(\uptau) \,d \uptau$$
 
-Das beliebig kleine Zeit Intervall $d\uptau$ kürzt sich aus der Gleichung
+Das beliebig kleine Zeit Intervall $d\uptau$ kürzt sich aus der Gleichung (Achtung Integrationsgrenzen ändern sich)
 
 $$
 =\int_{0}^{t} C \frac{d u}{\cancel{ d \uptau }}\cdot u \,\cancel{ d \uptau }
 =\int_{0}^{u(t)} C\cdot u\cdot \, d u
 =\frac{C u(t)^2}{2}
 $$
+
+> [!info]- Aus diesem Ausdruck für die Energie kann eine Sprungbedingung abgeleitet werden:
+> Die Spannung an einer Kapazität kann sich nicht sprunghaft ändern, da eine solche Änderung auch einen Sprung in der gespeicherten Energie $W$ bedeuten würde.
+> Um einen solchen zu realisieren, müsste zum Zeitpunkt des Sprungs vom angeschlossenen Netzwerk unendliche Leistung $p(t)=d W / d t$ geliefert oder aufgenommen werden.
 
 ### [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md)
 
@@ -106,7 +109,6 @@ Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - MLCC - Multilayer Ceramic Capacitor
 - ELKO - Elektrolytkondensator
 - TALKO - Tantal Elektrolytkondensator
-
 
 # Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
 
