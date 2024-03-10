@@ -34,7 +34,11 @@ professor:
 Die Materialeigenschaft, wie ein Dielektrikum mit dem [Elektrischen Feld](Elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\varepsilon$ (Dielektrizitätszahl) bezeichnet:
 
 $$
-\varepsilon = \varepsilon_{0} \cdot\varepsilon_{r}
+\begin{gather}
+\varepsilon = \varepsilon_{0} \cdot\varepsilon_{r}\\
+[\varepsilon] = \frac{A\cdot s}{V\cdot m}
+
+\end{gather}
 $$
 
 Die Permittivität ist in der Regel indirekt Proportional zur elektrischen Feldstärke.
