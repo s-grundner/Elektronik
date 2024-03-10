@@ -16,3 +16,5 @@ professor:
  
 
 # Laplace-Kraft
+
+![invert_dark](assets/LaplaceKraft.png)

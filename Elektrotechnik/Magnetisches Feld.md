@@ -16,7 +16,8 @@ created: 4. September 2023
 >   - z.B elektrische Ströme
 
 > [!info] [Laplace-Kraft](Laplace-Kraft.md): Magentische Kraft
-> Die Kraft $F$
+> Die Kraft $\vec{F}$ auf eine mit der Geschwindigkeit $\vec{v}$ bewegte [Ladung](elektrische%20Ladung.md) $Q$ in einem Magnetfeld, welches durch die sogenannte Induktion $\vec{B}$ (auch: "magnetische Flussdichte") beschrieben wird, ist gegeben durch:
+> $$ \vec{F} = Q\cdot \vec{v}\times \vec{B}$$
 
 > [!info] [Lorentz-Kraft](Lorentz-Kraft.md)
 > Die [Laplace Kraft](Laplace-Kraft.md) ist nur die Kraft welche aus der Bewegung der [Ladungen](elektrische%20Ladung.md) folgt.
