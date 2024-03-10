@@ -19,7 +19,7 @@ Bei der Leistungsanpassung eines [elektrischen Netzwerks](Schaltungsanalyse.md),
 
 ## Beim Zweipol
 
-![InlineL|256](assets/Pasted%20image%2020240306190447.png)
+![InlineL|256](assets/realeSpgQuelle.png)
 
 $$
 \begin{gathered}

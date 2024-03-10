@@ -96,7 +96,7 @@ Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirku
 <!--SR:!2024-03-10,2,190-->
 Wie verhält sich ein *Elektron* (kinematisch), welches in ein *in x-Richtung orientiertes* homogenes [elektrisches Feld](Elektrisches%20Feld.md) eingebracht wird?;;es beschleunigt in negative x-Richtung.
 <!--SR:!2024-03-09,7,250-->
-Ein leifähiger elliptischer Zylinder wird in ein homogenes [E-Feld](Elektrisches%20Feld.md) eingebracht: ![](assets/Pasted%20image%2020240229202733.png) welches sind die Feldlinien und welches die Äquipotentiallinien
+Ein leifähiger elliptischer Zylinder wird in ein homogenes [E-Feld](Elektrisches%20Feld.md) eingebracht: ![](assets/feldAequiPotLinien.png) welches sind die Feldlinien und welches die Äquipotentiallinien
 ?
 Normal zur Ellipse: Feldlinien
 Tangential zur Ellipse: Äquipotentiallinien

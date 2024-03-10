@@ -30,8 +30,16 @@ professor:
 
 # Beispiele
 
-> [!example]- Temperaturabhängiger Widerstand  
-> ![](assets/Pasted%20image%2020240128131742.png)
+> [!example] Gegeben sei ein temperaturabhängiger Widerstand $R_{\vartheta}=R_{20}(1+\alpha \Delta \vartheta)$ mit:
 >
+> - $\alpha$ : Temperaturbeiwert des Materials in $\frac{1}{{ }^{\circ} \mathrm{C}}$.
+> - $\Delta \vartheta$ : Temperaturänderung zum Bezugswert.
+> - $R_{20}$ : Widerstand bei $20^{\circ} \mathrm{C}$ in $\Omega$.
+> 
+> *a)* Berechnen Sie die Temperatur des Widerstandes für $R_{20}=1000, R_{\vartheta}=1100$ und $\alpha=3.91 \cdot 10^{-3} \frac{1}{{ }^{\circ} \mathrm{C}}$.
+> *b)* Bei welcher Temperatur verdoppelt sich der Widerstand?
+> *c)* Skizzieren Sie die beiden qualitativen Widerstandsverläufe $R(T)$ für $R_{20}=$ $100 \Omega, \alpha_1=3.91 \cdot 10^{-3} \frac{1}{{ }^{\circ} \mathrm{C}}$ und $\alpha_2=-40 \cdot 10^{-3} \frac{1}{{ }^{\circ} \mathrm{C}}$.
+> Welcher der Widerstände ist ein Heißleiter, welcher ein Kaltleiter?
+> 
 > > [!success]- Lösung  
-> > ![](assets/Pasted%20image%2020240128131726.png)
+> > ![](assets/TDRExample.png)

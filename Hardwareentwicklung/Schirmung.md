@@ -3,7 +3,7 @@
 >[!INFO] Die Koppelkapazität teilt sich auf:  
 >Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die [Kapazität](../Elektrotechnik/Kapazität.md) $C_{S2}$ zwischen Schrim und Nutzkreis.  
 >Bei gleicher Amplitude und $\frac{d}{dt}$ der [Störquelle](Störquelle.md) verringert sich damit die eingekoppelte Störspannung.  
->![Pasted image 20230316091847](assets/Pasted%20image%2020230316091847.png)
+>![Pasted image 20230316091847](assets/Schirmung.png)
 
 > [!IMPORTANT] ESB  
 > ![500](assets/Pasted%20image%2020230316091915.png)

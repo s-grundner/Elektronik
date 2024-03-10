@@ -21,7 +21,7 @@ professor:
 
 # Knotenpotential Verfahren
 
-![](assets/Pasted%20image%2020240102163326.png)
+![](assets/Knotenpotential.png)
 
 # Quellen
 

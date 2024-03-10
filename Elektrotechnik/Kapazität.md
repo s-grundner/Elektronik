@@ -31,9 +31,6 @@ created: 11th April 2023
 
 ## Die Kapazität
 
-Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20Ladung.md) und Spannung im Kondensator:
-$$Q = CU$$
-
 ![](assets/Plattenkondensator.png)
 
 Aus der Überlegung zur [Flächenladung](Flächenladung.md) kennen wir, dass für die beiden Platten gilt:
@@ -45,7 +42,7 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > 
 > Mit der [elektrischen Spannung](elektrische%20Spannung.md) im [E-Feld](Elektrisches%20Feld.md): $U = \lvert \vec{E} \rvert \cdot d$
 > 
-> $\frac{U}{d} = \frac{Q}{A\cdot \varepsilon}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U\implies C = \varepsilon \cdot \frac{A}{d}$
+> $\frac{U}{d} = \frac{Q}{A\cdot \varepsilon}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U = C\cdot U\implies C = \varepsilon \cdot \frac{A}{d}$
 >
 > $\varepsilon = \varepsilon_{0}\cdot\varepsilon_{r}$
 > $\varepsilon_{0}$ … [Dielektrizitätskonstante](../Physik/Konstanten/Dielektrizitätskonstante%20des%20Vakuum.md)
@@ -55,6 +52,8 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 ## Kenngrößen im Kondensator
 
 ### [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
+
+Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20Ladung.md) und Spannung im Kondensator:
 
 $$
 Q=C\cdot U

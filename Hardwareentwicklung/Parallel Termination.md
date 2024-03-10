@@ -28,7 +28,7 @@ created: 25. September 2023
 
  | Ohne Abschluss                                  | parallel Abschluss [^1] |
  | ----------------------------------------------- | ------------------ |
- | ![](assets/Pasted%20image%2020230925143246.png) | ![](assets/Pasted%20image%2020230925143254.png)                   |
+ | ![](assets/SignalIntegritätReflexionSchlecht.png) | ![](assets/SignalIntegritätReflexion.png)                   |
 
 > [!BUG] Nachteile
 > - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Elektrotechnik/elektrische%20Leistung.md) an $R_{T}$  zu versorgen.
