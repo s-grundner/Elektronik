@@ -9,7 +9,7 @@ created: 7th June 2022
 # Piezoelektrik
 
 > [!example]- Rechenbeispiel
-> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kräfte](../Physik/Kräfte.md) von $F=1kN$ belastet.
+> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quarzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/{MOC}%20Kräfte.md) von $F=1kN$ belastet.
 > Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/elektrisches%20Feld.md) abgeklungen?
 > $$
 > \begin{align*}
@@ -34,9 +34,9 @@ created: 7th June 2022
 In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet.
 Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten [Polarisation](../Chemie/Polarisation.md)**.  
 
-| Input       | Output |
-| ----------- | ------ |
-| [Kräfte](../Physik/Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md)       |
+| Input                              | Output                                                              |
+| ---------------------------------- | ------------------------------------------------------------------- |
+| [Kraft](../Physik/{MOC}%20Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
 
 ![piezo_esb](assets/piezo_esb.png)
 
@@ -44,10 +44,8 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 
 ## Piezoresistiver Geber
 
-Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
+![InlineR|425](piezoresistivergeber.png) Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
 Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
-
-![375](piezoresistivergeber.png)
 
  - Die Membrane muss gasdicht sein.
  - Es muss Referenzdruck herrschen

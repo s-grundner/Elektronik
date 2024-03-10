@@ -21,7 +21,7 @@ created: 19th August 2022
 ### 5. Newtonsche Und Relativistische [Mechanik]({MOC}%20Mechanik.md)
 
 - [Relativitätstheorie](Relativitätstheorie.md)
-- [Kräfte](Kräfte.md)
+- [{MOC} Kräfte]({MOC}%20Kräfte.md)
 - [Welle-Teilchen-Dualismus](Welle-Teilchen-Dualismus.md)
 
 ### 6. Elektrizität, Schwingungsund Wellenphänomene in [Mechanik]({MOC}%20Mechanik.md), Optik Und Akustik
