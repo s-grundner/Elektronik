@@ -15,3 +15,13 @@ professor:
  
 
 # Lorentz-Kraft
+
+![InlineR](assets/JakobyFotoLeiden.png)
+
+Ruhende Ladungen:
+- erzeugen $\vec{E}$
+- erfahren Kraft in Anwesenheit von $\vec{E}$
+
+Bewegte Ladungen:
+- erzeugen $\vec{B}$
+- erfahren Kraft in Anwesenheit von $\vec{B}$
