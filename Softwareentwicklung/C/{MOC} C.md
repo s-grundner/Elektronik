@@ -6,6 +6,10 @@ aliases:
   - "#C"
   - C99
   - C (Programmiersprache)
+  - C89
+  - C11
+  - C18
+  - ANSI-C
 subject:
   - fsst
 source: 
