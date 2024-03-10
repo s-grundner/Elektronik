@@ -13,4 +13,4 @@ unit: $\frac{As}{Vm}$
 
 # Tags
 
-- Dielektrikum
+- [Dielektrikum](../../Elektrotechnik/Dielektrikum.md)

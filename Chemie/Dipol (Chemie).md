@@ -15,7 +15,7 @@ created: 15. November 2023
 | -------------------------- | ---------------------- | ------------------ |
 | $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl\|250](assets/VSF-HCl.png) | >![dpl\|250](assets/dpl.png) |
 
-Dipolpfeil zeigt zur negativen [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) (Vektor des Dipolmoments)
+Dipolpfeil zeigt zur negativen [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) ([Vektor](../Mathematik/mathe%20(3)/Vektor.md) des Dipolmoments)
 > [!info] Wichtigstes Dipolmolekül: $H_{2}O$
 
 ![dpl-h2o](assets/dpl-h2o.png)
@@ -45,4 +45,4 @@ $H_{2}S$ gasförmig (geringeres Dipolmoment)
 
 # Tags
 
-[Polarisierung](Polarisierung.md)
+[Polarisation](Polarisation.md)

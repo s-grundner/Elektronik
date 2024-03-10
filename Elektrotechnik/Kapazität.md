@@ -38,15 +38,17 @@ $$Q = CU$$
 
 Aus der Überlegung zur [Flächenladung](Flächenladung.md) kennen wir, dass für die beiden Platten gilt:
 
-$$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon_{0}}  $$
+$$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 
 > [!hint] Das Feld der jeweiligen Seite der Platte das zur anderen zeigt, verläuft in die selbe Richtung, wird also [überlagert](Superpositionsprinzip.md). (wobei sich die äußeren Felder aufheben).
-> für das Feld im Kondensator ergibt sich: $\lvert \vec{E} \rvert = \frac{Q}{2A\cdot \varepsilon_{0}} + \frac{Q}{2A\cdot \varepsilon_{0}} = \frac{Q}{A\cdot \varepsilon_{0}}$
+> für das Feld im Kondensator ergibt sich: $\lvert \vec{E} \rvert = \frac{Q}{2A\cdot \varepsilon} + \frac{Q}{2A\cdot \varepsilon} = \frac{Q}{A\cdot \varepsilon}$
 > 
 > Mit der [elektrischen Spannung](elektrische%20Spannung.md) im [E-Feld](Elektrisches%20Feld.md): $U = \lvert \vec{E} \rvert \cdot d$
 > 
-> $\frac{U}{d} = \frac{Q}{A\cdot \varepsilon_{0}}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U\implies C = \varepsilon_{0} \cdot \frac{A}{d}$
-> 
+> $\frac{U}{d} = \frac{Q}{A\cdot \varepsilon}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U\implies C = \varepsilon \cdot \frac{A}{d}$
+>
+> $\varepsilon = \varepsilon_{0}\cdot\varepsilon_{r}$
+> $\varepsilon_{0}$  
 
 ## [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 
