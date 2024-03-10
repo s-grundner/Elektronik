@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - magnetische Kraft
+  - Laplace Kraft
 keywords: 
 subject:
   - VL

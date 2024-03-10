@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Lorentz
+aliases: []
 keywords: 
 subject:
   - VL
@@ -15,4 +14,4 @@ professor:
 ---
  
 
-# Lorentz-[Kraft](../Physik/Kraft.md)
+# Lorentz-Kraft
