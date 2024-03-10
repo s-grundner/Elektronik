@@ -13,16 +13,16 @@ created: 15. November 2023
 
 | [Molekül](Atombindung.md)                    | VSF                    | Ladungsverteilung  |
 | -------------------------- | ---------------------- | ------------------ |
-| $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl\|250](assets/VSF-HCl.png) | >![dpl\|250](assets/dpl.png) |
+| $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl#invert_light\|250](assets/VSF-HCl.png) | >![dpl#invert_light\|250](assets/dpl.png) |
 
 Dipolpfeil zeigt zur negativen [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) ([Vektor](../Mathematik/mathe%20(3)/Vektor.md) des Dipolmoments)
 > [!info] Wichtigstes Dipolmolekül: $H_{2}O$
 
-![dpl-h2o](assets/dpl-h2o.png)
+![#invert_light](assets/dpl-h2o.png)
 
 ## Dipolmoment
 
-![InlineR](assets/dpl-H2S.png)
+![InlineR#invert_light](assets/dpl-H2S.png)
 Teilpole addieren sich zum Dipolmoment:  
 **Einheit:** D - Debey  
 $H_{2}O$: $1.9D$  

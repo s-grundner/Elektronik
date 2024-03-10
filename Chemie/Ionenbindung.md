@@ -17,7 +17,7 @@ created: 22nd August 2022
 
 # Ionenbindung
 
->![475|650](assets/Ionen-bdn.png)
+>![#invert_light|650](assets/Ionen-bdn.png)
 - wichtigste Art der Bindung zwischen [Metallen](Metallbindung.md) und Nichtmetallen
 - $\Delta EN > 1.7$
 - Stoffe mit Ionenbindung nennt man **Salze**
@@ -28,7 +28,7 @@ created: 22nd August 2022
 ## Struktur
 
 Ionenpaare bilden Ionengitter oder Kristallgitter:
->![300](assets/IonAnord.png)
+>![#invert_light|300](assets/IonAnord.png)
 > - $e^{-} \rightarrow$ Übertragungsreaktion
 > - z.B.: $Na^{+}Cl^{-}$ sind ein Ionenpaar
 

@@ -32,15 +32,15 @@ Unterschalen sind Orbitale
 
 **Kugelsymmetrisch:**
 
->![orb-s](assets/orb-s.png)
+>![orb-s#invert_light](assets/orb-s.png)
 
 ### p-Orbitale
 
 **Mantelförmig:** 
 
-| px               | py               | pz              |
-| ---------------- | ---------------- | --------------- |
-| >![orb-px](assets/orb-px.png) | >![orb-py](assets/orb-py.png) | >![orb-pz](assets/orb-pz.png) |
+| px                           | py                           | pz                            |
+| ---------------------------- | ---------------------------- | ----------------------------- |
+| ![orb-px#invert_light](assets/orb-px.png) | ![orb-py#invert_light](assets/orb-py.png) | ![orb-pz#invert_light](assets/orb-pz.png) |
 
 Wellenberg  
 Wellental 

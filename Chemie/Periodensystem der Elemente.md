@@ -97,32 +97,11 @@ Aus dem Atombau lassen sich einige Eigenschaften der Elemente ableiten.
 
 ## 3 Tendenzen Im PSE
 
-![Atomradius](Atomradius.md)
-
-[Metallcharakter](Metallcharakter.md)
-
-[Ionisierungsenergie](Ionisierungsenergie.md)
-
-### 3.4 Elektronenaffinität (EA)
-
-> [!important] ![InlineR|200](assets/x-zu_y-ab.png) Jene Energie die man benötigt$_{1)}$ oder erhält$_{2)}$, sodass ein $e^{-}$ hinzugefügt wird…
-> 1. $Na$
-> 2. $F$)
-
-
-Die höchste *EA* hat Fluor.  
-Edelgase haben keine Tendenz, $e^{-}$ aufzunehmen.
-
-### 3.5 Elektronegativität (EN)
-
-> [!important] ![InlineR|200](assets/x-zu_y-ab.png) Die EN kennzeichnet das Bestreben der Atome, $e^{-}$ **in einer Bindung** anzuziehen. Die Elektronegativität…
-
-*EN*-Skala nach [Linus Pauling](https://de.wikipedia.org/wiki/Periodensystem#Elektronegativit%C3%A4t) (S. 218 NW-Buch)
-- Die EN von $F=4.0$
-- $F_{2}$ ist das elektronegativste Element
-- $Cs$ ist das elektropositivste Element
-
----
+- [Atomradius](Atomradius.md)
+- [Metallcharakter](Metallcharakter.md)
+- [Ionisierungsenergie](Ionisierungsenergie.md)
+- [Elektronenaffinität](Elektronenaffinität.md)
+- [Elektronegativität](Elektronegativität.md)
 
 # Tags
 
