@@ -2,7 +2,6 @@
 tags: 
 aliases:
   - vollständige Induktion
-  - Induktionsbeweis
 keywords: 
 subject:
   - Mathematik1

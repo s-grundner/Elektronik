@@ -13,8 +13,7 @@ created: 4. September 2023
 > siehe: [elektrisches Feld](Elektrisches%20Feld.md) 
 
 > [!info] Magnetisches Feld
-> - Es zeigt sich, dass auf *bewegte Ladungen* (also auch auf Ladungen die einen elektrischen Strom darstellen) *zusätzliche Kräfte* auftrete.
-> - 
+> - Es zeigt sich, dass auf *bewegte [Ladungen](elektrische%20Ladung.md)* (also auch auf [Ladungen](elektrische%20Ladung.md) die einen [elektrischen Strom](elektrischer%20Strom.md) darstellen) *zusätzliche Kräfte* auftreten, falls sogenannte *magnetische Felder* vorliegen.
 
 # Ruheinduktion
 
