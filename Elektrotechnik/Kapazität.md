@@ -49,31 +49,27 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 >
 > $\varepsilon = \varepsilon_{0}\cdot\varepsilon_{r}$
 > $\varepsilon_{0}$ … [Dielektrizitätskonstante](../Physik/Konstanten/Dielektrizitätskonstante%20des%20Vakuum.md)
-> $\varepsilon_{r}$ Relative [Permittivität](Dielektrikum.md) des Dielektrikums
+> $\varepsilon_{r}$ … Relative [Permittivität](Dielektrikum.md) des [Dielektrikums](Dielektrikum.md)
 >   
 
-## [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 
 ## Kenngrößen im Kondensator
-
-### [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md)
-
-- Plattenkondensator
-- Zylinderkondensator
-- Drehkondensator
-- Vielschichtkondensator
-
-### [Dielektrikum](Dielektrikum.md)
-
-Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
-- MLCC - Multilayer Ceramic Capacitor
-- ELKO - Elektrolytkondensator
-- TALKO - Tantal Elektrolytkondensator
 
 ### [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
 
 $$
 Q=C\cdot U
+$$
+
+### [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
+
+$$
+\begin{gather}
+dQ = i\cdot dt \\
+Q = C\cdot U \implies dq = C\cdot du \\
+i\cdot dt = C\cdot du \\
+i = C\cdot \frac{du}{dt}
+\end{gather}
 $$
 
 ### Energie im Kondensator
@@ -96,6 +92,21 @@ $$
 =\int_{0}^{u(t)} C\cdot u\cdot \, d u
 =\frac{C u(t)^2}{2}
 $$
+
+### [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md)
+
+- Plattenkondensator
+- Zylinderkondensator
+- Drehkondensator
+- Vielschichtkondensator
+
+### [Dielektrikum](Dielektrikum.md)
+
+Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
+- MLCC - Multilayer Ceramic Capacitor
+- ELKO - Elektrolytkondensator
+- TALKO - Tantal Elektrolytkondensator
+
 
 # Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
 

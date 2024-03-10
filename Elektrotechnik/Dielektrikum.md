@@ -3,6 +3,7 @@ tags:
 aliases:
   - Permittivität
   - Dielektrikums
+  - relative Dielektrizitätszahl
 keywords: 
 subject:
   - Einf. ET
@@ -24,12 +25,22 @@ professor:
 
 
 > [!important] [Polarisation](../Chemie/Polarisation.md): Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](Elektrisches%20Feld.md) aus
-> Dielektrika, die man in ein [elektrisches Feld](Elektrisches%20Feld.md) einbringt [Polarisieren](../Chemie/Polarisation.md) sich, wodurch das [E-Feld](Elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nichtleiter sind
+> Dielektrika, die man in ein [elektrisches Feld](Elektrisches%20Feld.md) einbringt [Polarisieren](../Chemie/Polarisation.md) sich, wodurch das [E-Feld](Elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nicht Leitfähigkeit sind.
 
 ![](assets/Pasted%20image%2020240310011251.png)
 
 ## Permittivität
 
-Die Materialeigenschaft, wie ein Dielektrikum mit dem [Elektrischen Feld](Elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\varepsilon$ bezeichnet  
+Die Materialeigenschaft, wie ein Dielektrikum mit dem [Elektrischen Feld](Elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\varepsilon$ (Dielektrizitätszahl) bezeichnet:
+
+$$
+\varepsilon = \varepsilon_{0} \cdot\varepsilon_{r}
+$$
+
+Die Permittivität ist in der Regel indirekt Proportional zur elektrischen Feldstärke.
+Je nachdem wie stark ein Dielektrikum Polarisierbar ist, wird das Feld dementsprechend abgeschwächt.  
 
 # Tags
+
+[Permittivität – Wikipedia](https://de.wikipedia.org/wiki/Permittivit%C3%A4t)
+[Dielektrikum – Wikipedia](https://de.wikipedia.org/wiki/Dielektrikum)
