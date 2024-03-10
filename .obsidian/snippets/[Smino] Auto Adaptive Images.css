@@ -35,27 +35,35 @@
 }
 
 /* Image dynamic colors inversion */
-
-.theme-dark span[src$="invert_B"] img {
+/* 
+.theme-dark img[alt$="invert_B"] img {
 	filter: invert(1) hue-rotate(180deg);
 }
 
-.theme-light span[src$="#invert_W"] img {
+.theme-light img[alt$="invert_W"] img {
 	filter: invert(1) hue-rotate(180deg);
 }
 
-.theme-dark span[src$="invert_B_C"] img {
+.theme-dark img[alt$="invert_B_C"] img {
 	filter: invert(1) hue-rotate(180deg) contrast(1.5);
 }
 
-.theme-light span[src$="#invert_W_C"] img {
+.theme-light img[alt$="invert_W_C"] img {
 	filter: invert(1) hue-rotate(180deg) contrast(1.45);
-}
+} */
 
 .theme-dark img[alt$="invert_dark"] {
 	filter: invert(1);
 }
 
-.theme-light img[alt$="#invert_light"] {
+.theme-light img[alt$="invert_light"] {
 	filter: invert(1);
+}
+
+.theme-light img[alt$="invert_light_hue"] {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+.theme-dark img[alt$="invert_dark_hue"] {
+	filter: invert(1) hue-rotate(180deg);
 }
