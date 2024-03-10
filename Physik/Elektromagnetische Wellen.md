@@ -8,7 +8,7 @@ created: 6th September 2022
 
 # Elektromagnetische Wellen
 
-- Ein EM-Feld wird durch beschleunigte [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) erzeugt
+- Ein EM-Feld wird durch beschleunigte [Ladung](../Elektrotechnik/elektrisches%20Feld.md) erzeugt
 
 ---
 

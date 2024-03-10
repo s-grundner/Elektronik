@@ -20,18 +20,18 @@ professor:
 
 > [!INFO] Medien die elektrisch [Polarisierbar](../Chemie/Polarisation.md) sind, heißen Dielektrika
 > Auch nicht leitfähige Materialien können auf elektrische Felder durch interne Ladungsverschiebungen reagieren – dabei wird keine Nettoladung generiert aber lokal können positive und anderswo gegengleiche negative Ladungsüberschüsse entstehen.
-> Man modelliert diesen Effekt durch so genannte [Dipole](elektrischer%20Dipol.md) – das ist im Modell eine positive [Ladung](Statisches%20E-Feld.md) die in einem bestimmten Abstand einer gegengleichen negativen [Ladung](Statisches%20E-Feld.md) gegenüber steht.
+> Man modelliert diesen Effekt durch so genannte [Dipole](elektrischer%20Dipol.md) – das ist im Modell eine positive [Ladung](elektrisches%20Feld.md) die in einem bestimmten Abstand einer gegengleichen negativen [Ladung](elektrisches%20Feld.md) gegenüber steht.
 > Den Effekt nennt man elektrische *[Polarisation](../Chemie/Polarisation.md)*. 
 
 
-> [!important] [Polarisation](../Chemie/Polarisation.md): Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](Elektrisches%20Feld.md) aus
-> Dielektrika, die man in ein [elektrisches Feld](Elektrisches%20Feld.md) einbringt [Polarisieren](../Chemie/Polarisation.md) sich, wodurch das [E-Feld](Elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nicht Leitfähigkeit sind.
+> [!important] [Polarisation](../Chemie/Polarisation.md): Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](elektrisches%20Feld.md) aus
+> Dielektrika, die man in ein [elektrisches Feld](elektrisches%20Feld.md) einbringt [Polarisieren](../Chemie/Polarisation.md) sich, wodurch das [E-Feld](elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nicht Leitfähigkeit sind.
 
 ![](assets/Pasted%20image%2020240310011251.png)
 
 ## Permittivität
 
-Die Materialeigenschaft, wie ein Dielektrikum mit dem [Elektrischen Feld](Elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\varepsilon$ (Dielektrizitätszahl) bezeichnet:
+Die Materialeigenschaft, wie ein Dielektrikum mit dem [Elektrischen Feld](elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\varepsilon$ (Dielektrizitätszahl) bezeichnet:
 
 $$
 \begin{gather}

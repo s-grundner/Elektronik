@@ -23,11 +23,11 @@ created: 11th April 2023
 
 
 
-> [!TIP] [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das [E-Feld](Elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
+> [!TIP] [Ladungen](elektrisches%20Feld.md) verschieben sich solange, bis das [E-Feld](elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
 > ![InlineR|350](assets/KondensatorBatterie.png)
 > 1. Feld wirkt auf bewegliche Elektronen im eingebrachten Kondensator und Anschlussdrähten
-> 2. Die [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
-> 3. Im Zuge dieser Verschiebungen wurden die Platten [geladen](Statisches%20E-Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](Statisches%20E-Feld.md) auf dem Platten.
+> 2. Die [Ladungen](elektrisches%20Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
+> 3. Im Zuge dieser Verschiebungen wurden die Platten [geladen](elektrisches%20Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](elektrisches%20Feld.md) auf dem Platten.
 
 ## 1 Die Kapazität
 
@@ -40,7 +40,7 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > [!hint] Das Feld der jeweiligen Seite der Platte das zur anderen zeigt, verläuft in die selbe Richtung, wird also [überlagert](Superpositionsprinzip.md). (wobei sich die äußeren Felder aufheben).
 > für das Feld im Kondensator ergibt sich: $\lvert \vec{E} \rvert = \frac{Q}{2A\cdot \varepsilon} + \frac{Q}{2A\cdot \varepsilon} = \frac{Q}{A\cdot \varepsilon}$
 > 
-> Mit der [elektrischen Spannung](elektrische%20Spannung.md) im [E-Feld](Elektrisches%20Feld.md): $U = \lvert \vec{E} \rvert \cdot d$
+> Mit der [elektrischen Spannung](elektrische%20Spannung.md) im [E-Feld](elektrisches%20Feld.md): $U = \lvert \vec{E} \rvert \cdot d$
 > 
 > $\frac{U}{d} = \frac{Q}{A\cdot \varepsilon}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U = C\cdot U\implies C = \varepsilon \cdot \frac{A}{d}$
 >
@@ -51,7 +51,7 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 
 ## 2 Kenngrößen im Kondensator
 
-### 2.1 [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
+### 2.1 [Ladung](elektrisches%20Feld.md) Und Kapazität im Kondensator
 
 Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20Ladung.md) und Spannung im Kondensator:
 

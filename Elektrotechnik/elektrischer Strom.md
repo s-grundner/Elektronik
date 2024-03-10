@@ -25,7 +25,7 @@ professor:
 
 ![InlineR](assets/elekStrom.png)
 
-Die Stromstärke $I$ gibt an, wie viel [Ladung](Statisches%20E-Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen *bestimmten Querschnitt* (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](Skineffekt.md)) fließt.
+Die Stromstärke $I$ gibt an, wie viel [Ladung](elektrisches%20Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen *bestimmten Querschnitt* (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](Skineffekt.md)) fließt.
 
 Da die Stromstärke natürlich auch *zeitlich variieren* kann, definiert man (wie üblich) diese Änderungsrate [differenziell](../Mathematik/mathe%20(3)/Differenzialrechnung.md):
 
@@ -34,7 +34,7 @@ I = \lim_{ \Delta t\to 0 } \frac{\Delta Q}{\Delta t} = \frac{dQ}{dt}
 $$
 
 > [!success] Die Einheit des Stromflusses ist das *Ampere* ($A$);
-> es entspricht einer [Ladung](Statisches%20E-Feld.md) von einem [Coulomb](Elektrische%20Kraft.md) ($C$) pro Sekunde ($s$).
+> es entspricht einer [Ladung](elektrisches%20Feld.md) von einem [Coulomb](Elektrische%20Kraft.md) ($C$) pro Sekunde ($s$).
 > (Daher ist auch $1C=1As$)
 
 ---
@@ -48,7 +48,7 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 ---
 
 > [!info] Technische Stromrichtung
-> *==Positive==* [Ladung](Statisches%20E-Feld.md) *in* die definierte **Stromrichtung** sowie ***==negative==*** [Ladung](Statisches%20E-Feld.md) in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
+> *==Positive==* [Ladung](elektrisches%20Feld.md) *in* die definierte **Stromrichtung** sowie ***==negative==*** [Ladung](elektrisches%20Feld.md) in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
 > Dies entspricht der sogenannten ***technischen Stromrichtung***
 
  > [!hint] In [Metallen](../Chemie/Metallbindung.md) tragen **nur** negativ geladene Elektronen zum Storm bei!

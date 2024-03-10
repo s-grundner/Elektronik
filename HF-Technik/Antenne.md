@@ -28,7 +28,7 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 
 #### Feldkomponenten $\vec{E}$ und $\vec{H}$
 
-$\vec{E}\dots$ [E-Feldstärke](../Elektrotechnik/Elektrisches%20Feld.md#Elektrische%20Feldstärke)  
+$\vec{E}\dots$ [E-Feldstärke](../Elektrotechnik/elektrisches%20Feld.md#Elektrische%20Feldstärke)  
 $\vec{H}\dots$ [H-Feldstärke](../Elektrotechnik/Magnetisches%20Feld.md#Magnetisches%20Feld)  
 Das [Kreuzprodukt](../Mathematik/mathe%20(3)/Vektor.md) beider [Vektoren](../Mathematik/mathe%20(3)/Vektor.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
 

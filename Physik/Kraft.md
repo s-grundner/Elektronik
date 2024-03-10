@@ -54,7 +54,7 @@ Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunig
 | Feld                                                          | Wird hervorgerufen durch  | Wirkt auf |
 | ------------------------------------------------------------- | ------------------------- | --------- |
 | Gravitationsfeld                                              | Eine Masse                | Massen    |
-| [Elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) | Eine ruhende [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
+| [elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md) | Eine ruhende [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
 | [Magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) | Eine bewegte [Ladung](../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
 | [Elektro-Magnetisches Feld](Elektromagnetische%20Wellen.md)   | Eine beschleunigte [Ladung](../Elektrotechnik/elektrische%20Ladung.md) | [Ladungen](../Elektrotechnik/elektrische%20Ladung.md)  |
 

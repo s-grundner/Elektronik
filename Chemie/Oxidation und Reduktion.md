@@ -88,7 +88,7 @@ Anode (+): Oxidation (Abgabe von $e^{-}$)
 
 # Oxidationszahl
 
-Ist die formale [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) eines Atoms in einem [Molekül](Atombindung.md) zur tatsächlichen [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) einatomiger Ionen
+Ist die formale [Ladung](../Elektrotechnik/elektrisches%20Feld.md) eines Atoms in einem [Molekül](Atombindung.md) zur tatsächlichen [Ladung](../Elektrotechnik/elektrisches%20Feld.md) einatomiger Ionen
 
 $$
 \text{Ionen}\begin{dcases}

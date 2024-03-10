@@ -45,4 +45,4 @@ $$
 
 ## Weiterleitung
 
-- potenzielle Energie im [elektrischen Feld](../Elektrotechnik/Elektrisches%20Feld.md): [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md)
+- potenzielle Energie im [elektrischen Feld](../Elektrotechnik/elektrisches%20Feld.md): [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md)

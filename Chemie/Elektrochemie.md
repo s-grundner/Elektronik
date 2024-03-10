@@ -38,12 +38,12 @@ Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
 ### 1.1 Berechnung Elektrolytischer Vorgänge
 
-Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
+Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/elektrisches%20Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
 $Q=I\cdot t$  
 Faraday Konstante: $F = 96485 \frac{As}{mol}$
 
-> [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige [Ladung](../Elektrotechnik/Statisches%20E-Feld.md)  
-Wie viel [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
+> [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige [Ladung](../Elektrotechnik/elektrisches%20Feld.md)  
+Wie viel [Ladung](../Elektrotechnik/elektrisches%20Feld.md) benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
 $Cu^{2+} + 2e^{-}\longrightarrow Cu\downarrow$
 
 ---

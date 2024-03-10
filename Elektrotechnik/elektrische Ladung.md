@@ -20,7 +20,7 @@ professor:
 
 # Elektrische Ladung
 
-Elementarteilchen tragen [Ladungen](../../Elektrotechnik/Statisches%20E-Feld.md) in Vielfachen einer so genannten [Elementarladung](../Physik/Konstanten/Elementarladung.md).
+Elementarteilchen tragen [Ladungen](elektrisches%20Feld.md) in Vielfachen einer so genannten [Elementarladung](../Physik/Konstanten/Elementarladung.md).
 
 > [!info] Ladung
 > $Q=I\cdot t$ (siehe Definition des [elektrischen Stroms](elektrischer%20Strom.md))

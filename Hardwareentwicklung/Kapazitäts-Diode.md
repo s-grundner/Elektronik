@@ -28,7 +28,7 @@ Die Breite der RLZ ist eine Funktion der Spannung.
 ## Funktionsweise
 
 - Der p-n-Übergang einer [Diode](Halbleiter/Diode.md) hat eine [Kapazität](../Elektrotechnik/Kapazität.md), die von der Breite der Raumladungszone abhängig ist.
-- Wird eine [Diode](Halbleiter/Diode.md) in Sperrrichtung betrieben, so entsteht am p-n-Übergang eine Ladungsträgerverarmungszone, an der sich auch ein [Elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md), bedingt durch die fehlenden Ladungsträger, aufbaut.
+- Wird eine [Diode](Halbleiter/Diode.md) in Sperrrichtung betrieben, so entsteht am p-n-Übergang eine Ladungsträgerverarmungszone, an der sich auch ein [elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md), bedingt durch die fehlenden Ladungsträger, aufbaut.
 - Mit steigender Spannung vergrößert sich die Breite der ladungsfreien Zone, damit nimmt die [Kapazität](../Elektrotechnik/Kapazität.md) ab.
 - Durch geeignete Dotierung können [Kapazitäten](../Elektrotechnik/Kapazität.md) im Bereich von 3 pF bis 300 pF erreicht werden.
 
