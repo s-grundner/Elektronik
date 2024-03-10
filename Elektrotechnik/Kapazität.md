@@ -29,7 +29,7 @@ created: 11th April 2023
 > 2. Die [Ladungen](Statisches%20E-Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
 > 3. Im Zuge dieser Verschiebungen wurden die Platten [geladen](Statisches%20E-Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](Statisches%20E-Feld.md) auf dem Platten.
 
-## Die Kapazität
+## 1 Die Kapazität
 
 ![](assets/Plattenkondensator.png)
 
@@ -49,9 +49,9 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > $\varepsilon_{r}$ … Relative [Permittivität](Dielektrikum.md) des [Dielektrikums](Dielektrikum.md)
 >   
 
-## Kenngrößen im Kondensator
+## 2 Kenngrößen im Kondensator
 
-### [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
+### 2.1 [Ladung](Statisches%20E-Feld.md) Und Kapazität im Kondensator
 
 Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20Ladung.md) und Spannung im Kondensator:
 
@@ -59,7 +59,7 @@ $$
 Q=C\cdot U
 $$
 
-### [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
+### 2.2 [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 
 $$
 \begin{gather}
@@ -70,7 +70,7 @@ i = C\cdot \frac{du}{dt}
 \end{gather}
 $$
 
-### Energie im Kondensator
+### 2.3 Energie im Kondensator
 
 Die Energie im Kondensator lässt sich durch die eingespeiste [Leistung](elektrische%20Leistung.md) berechnen:  
 Die integrationsvariable $\uptau$ dient zur Unterscheidung zur Laufzeivariable $t$: 
@@ -95,14 +95,14 @@ $$
 > Die Spannung an einer Kapazität kann sich nicht sprunghaft ändern, da eine solche Änderung auch einen Sprung in der gespeicherten Energie $W$ bedeuten würde.
 > Um einen solchen zu realisieren, müsste zum Zeitpunkt des Sprungs vom angeschlossenen Netzwerk unendliche Leistung $p(t)=d W / d t$ geliefert oder aufgenommen werden.
 
-### [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md)
+### 2.4 [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md)
 
 - Plattenkondensator
 - Zylinderkondensator
 - Drehkondensator
 - Vielschichtkondensator
 
-### [Dielektrikum](Dielektrikum.md)
+### 2.5 [Dielektrikum](Dielektrikum.md)
 
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - MLCC - Multilayer Ceramic Capacitor
@@ -111,13 +111,13 @@ Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 
 # Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
 
-## Idealer Kondensator
+## 1 Idealer Kondensator
 
 $$
 jX_{C}=\frac{1}{j\omega C}
 $$
 
-## Realer Kondensator
+## 2 Realer Kondensator
 
 > [!summary] ESB  
 > ![InlineL|400](assets/cap_esb.png)
