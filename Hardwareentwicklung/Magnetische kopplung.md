@@ -11,7 +11,7 @@ created: 7th March 2023
 
 # Magnetische Kopplung
 
-Bei der magnetischen Kopplung wird die Störgröße über das magnetische Feld in den Nutzkreis übertragen.
+Bei der magnetischen Kopplung wird die Störgröße über das [magnetische Feld](../Elektrotechnik/magnetisches%20Feld.md) in den Nutzkreis übertragen.
 
 > [!WARNING] Ursachen für magnetische beeinflussungen sind, die Magnetfelder stromdurchflossener Leiter, welche bei einer Stromänderung Spannungen in benachbarten Leiterschleifen induzieren.
 

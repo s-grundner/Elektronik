@@ -1,6 +1,12 @@
-### Router
+---
+tags: []
+aliases: []
+created: 10. März 2024
+---
 
-Um Dienste im Internet in Anspruch nehmen zu können, ist ein Router notwendig. Dazu werden interne IP-Adressen in diejenige Adresse übersetzt, die zum Beispiel vom Internet-Provider zur Verfügung gestellt wird. Das kann entweder statisch (fest eingestellt) oder dynamisch (DHCP) erfolgen. Router haben vielfach noch zusätzliche Optionen - Firewall, Filterung …
+# Router
+
+Um Dienste im Internet in Anspruch nehmen zu können, ist ein Router notwendig. Dazu werden interne IP-Adressen in diejenige Adresse übersetzt, die zum Beispiel vom Internet-Provider zur Verfügung gestellt wird. Das kann entweder statisch (fest eingestellt) oder dynamisch ([DHCP](../Protokolle/DHCP.md)) erfolgen. Router haben vielfach noch zusätzliche Optionen - Firewall, Filterung …
 
 ![NW_Hub](assets/NW_Router.png)
 

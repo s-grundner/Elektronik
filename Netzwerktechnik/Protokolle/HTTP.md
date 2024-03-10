@@ -6,7 +6,18 @@ created: 30th August 2023
 
 # Hypertext Transfer Protocol
 
-Für einen HTTP-Request und -Response wird zuerst einmal ein bestätigter TCP-Verbindungsaufbau benötigt. Ein Request besteht aus:
+> [!info] Hypertext Transfer Protocol:
+> wird hauptsächlich zur Übertragung von Webseiten eingesetzt (Browser) neuerdings aber auch zum Austausch beliebiger Daten (IoT).
+> 
+> - HTTP baut auf [TCP](TCP.md) auf mit Port 80.
+>
+> Die Kommunikation wird immer vom Client ausgehend aufgebaut.
+> 
+[Das HTTP-Protokoll kurz und verständlich erklärt | a coding project](https://www.a-coding-project.de/ratgeber/http/einfuehrung)
+
+## Anwendung
+
+Für einen HTTP-Request und -Response wird zuerst einmal ein bestätigter [TCP](TCP.md)-Verbindungsaufbau benötigt. Ein Request besteht aus:
 
 - Anfangszeile, zum Beispiel
 
@@ -47,7 +58,7 @@ Ein Response:
 
 ## Beispiel einer HTTP-Anfrage
 
-Es wird eine Anfrage mittels Browser an einen Web-Server getätigt, die Anfrage wird vom Browser in Form eines HTTP-Requests getätigt. In Folge wird der HTTP-Nachricht ein TCP-Header vorangestellt (TCP-Paket), diesem wiederum ein IP-Header (IP-Datagramm) und letztlich diesem ein [Ethernet](../Ethernet.md) II-Header. Dieses Paket wird dann gesendet:
+Es wird eine Anfrage mittels Browser an einen Web-Server getätigt, die Anfrage wird vom Browser in Form eines HTTP-Requests getätigt. In Folge wird der HTTP-Nachricht ein [TCP](TCP.md)-Header vorangestellt ([TCP](TCP.md)-Paket), diesem wiederum ein IP-Header (IP-Datagramm) und letztlich diesem ein [Ethernet](../Ethernet.md) II-Header. Dieses Paket wird dann gesendet:
 
 ![NW_Schichten_HTTP](assets/NW_Schichten_HTTP.png)
 

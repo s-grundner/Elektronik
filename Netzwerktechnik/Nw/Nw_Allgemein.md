@@ -49,11 +49,11 @@ Die Server-Client-Struktur hat sich für sehr viele Anwendungen durchgesetzt. De
 
 ### Protokolle der Anwendungsschicht (OSI5+)
 
-- [DHCP](DHCP.md)
+- [DHCP](../Protokolle/DHCP.md)
 - [DNS](../DNS.md)
-- [[FTP]]
-- HTTP
-- **NTP**	Network Time Protocol: Protokoll zur Synchronisierung von Uhren. Baut auf UDP, Port 123 auf.
+- [FTP](../Protokolle/FTP.md)
+- [HTTP](../Protokolle/HTTP.md)
+- **NTP**	Network Time Protocol: Protokoll zur Synchronisierung von Uhren. Baut auf UDP, Port 123 auf.w
 - **POP3**	Postoffice Protocol Version 3: E-Mail-Protokoll zur Kommunikation zwischen E-Mail-Server und Client. Sehr einfach (ASCII) und eingeschränkt (Gegenstück: SMTP). TCP Port 110.
 - **SMTP**	Simple Mail Transfer Protocol: E-Mail-Protokoll zur Kommunikation zwischen E-Mail-Server und Client. Kommunikation muss immer vom Sender initiiert werden (kann nicht vom Server starten). TCP, Port 25.
 - **SSH**		Secure Shell: Sichere Verbindung zur Remote-Ausführung von Programmen. UDP und TCP auf Port 22. Gibt's mittlerweile in Windows als App inkludiert.
@@ -63,7 +63,7 @@ Liste der Ports: <https://de.wikipedia.org/wiki/Liste_der_standardisierten_Ports
 
 **Ein möglicher/vereinfachter Ablauf beim Zugriff auf eine Webseite:**
 
-- Ein Client-Rechner meldet sich in Netzwerk an: mittels **DHCP**-Discover wird nach einem DHCP-Server gefragt. DHCP-Server offerieren einen Lease (IP Adresse+Subnetz+Gateway) an. Der schnellste gewinnt und stellt die Daten zur Verfügung. Damit hat der Client eine Adresse.
+- Ein Client-Rechner meldet sich in Netzwerk an: mittels **[DHCP](../Protokolle/DHCP.md)**-Discover wird nach einem [DHCP](../Protokolle/DHCP.md)-Server gefragt. [DHCP](../Protokolle/DHCP.md)-Server offerieren einen Lease (IP Adresse+Subnetz+Gateway) an. Der schnellste gewinnt und stellt die Daten zur Verfügung. Damit hat der Client eine Adresse.
 - Auf dem Client-Rechner wird mittels Browser eine Webseite mittels **URL** ausgewählt.
 - Der Client fragt bei seinem **DNS**-Server nach der zur URL gehörenden IP-Adresse.
 - Mittels dieser IP-Adresse des Zielrechners Dadurch kann ein **HTTP**-Request geformt werden.
@@ -71,8 +71,6 @@ Liste der Ports: <https://de.wikipedia.org/wiki/Liste_der_standardisierten_Ports
 - Der HTTP-Request wird in einem **TCP**-Segment an den Ziel-Webserver gesendet. TCP garantiert die Ankunft. Dafür wird das TCP in ein **IP**-Paket verpackt und mittels **[Ethernet](../Ethernet.md)** und der vorher ermittelten **MAC**-Adresse an den Router gesendet.
 - Der Router ermittelt wiederum mittels **ARP** die MAC-Adresse des Zielrechners und sendet die **IP**-Pakete dorthin. Die Teil-Pakete können dabei unterschiedliche Wege nehmen und in anderer Reihenfolge am Ziel ankommen. Wenn sie nicht vollständig ankommen wird das erkannt. Wenn die Pakete angekommen sind werden sie zum ursprünglichen **TCP**-Segment zusammengesetzt.
 - Im Fall von Kommunikationsproblemen können Fehlermeldungen mittels **ICMP** übermittelt werden.
-
-[HTTP](../HTTP.md)
 
 ## Medizintechnische Netzwerk-Klassen
 
@@ -85,14 +83,14 @@ Im medizinischen Bereich:
 
 ## Anderes
 
-- **MAC**	**M**edia\_**A**ccess\_**C**ontrol-Adresse: Eindeutige Adresse einer Netzwerk-Adapters (wird in der Produktion vergeben). Ist 48 Bit lang (6 Byte). Schreibweise entweder mit : oder mit -: `01:80:42:ae:fd:7e`. Mit Hilfe dieser Adresse kann eine Kommunikation eindeutig erfolgen (es ist schon vorgekommen, dass MAC doppelt vorkommen, manchmal ist die MAC-Adresse auch SW-konfigurierbar). Dargestellt wird üblich in der *kanonischen* Form - LSB zuerst. Die MAC-Adresse `ff:ff:ff:ff:ff:ff` ist ein *Broadcast*-Adresse.
+- [[MAC]]	
 - **Port**	Ports werden in Transport-Protokollen (TCP, UDP) verwendet um mehrere Kommunikationskanäle zur Verfügung zu stellen und grob zu zeigen um welchen Dienst es sich handelt (siehe oben).
 - **Socket**	Ein durch eine RFC definierter Begriff (Socket ~ Steckdose). Ein Socket ist ein Bündel aus Quell-/Ziel-IP und -Port. Zusätzlich noch mit dem verwendeten Protokoll. Es ist damit ein API zwischen Transport und Anwendungsebene für die Anbindung mittels TCP/IP oder IrDA (praktisch).
 - **Repeater**	Verbinden von Netzwerksegmenten auf OSI1. Verbundene Netze dürfen keine Zyklen haben (ansonsten können Pakete kreisen). Sie dienen als Verstärker, mit ihnen können daher Netzwerke räumlich vergrößert werden.
 - **Bridge**	Eine Bridge arbeitet auf OSI2 (MAC-Schicht). Eine Bridge puffert Pakete und wirkt damit als Buffer bei Kollisionen. Sie übermittelt den Datenverkehr der von einem Netzwerk-Segment in das benachbarte muss und blockiert die anderen. Damit können Kollisionen reduziert werden und räumlich Netzwerke vergrößert werden.
 - **Hub**	*einfachste* Komponente an Schnittstellen in einem Netzwerk. Ein Hub leitet Pakete an sämtliche an ihm angeschlossene Hosts weiter. Dadurch müssen sich an einen Hub angeschlossene Geräte die verfügbare Bandbreite immer teilen und sind nur für den Anschluss von wenigen Geräten sinnvoll. 
 - **Switch**	Ähnlich wie ein Hub. Im Gegensatz zu diesem kann ein Switch aber mehrere Geräte zur gleichen Zeit miteinander verbinden. Ein Switch kommuniziert nur mit der adressierten Komponente, er kann aber auch an mehrere gleichzeitig übertragen.
-- **Router**	Ein Router verbindet zwei oder mehrere logische Netze. Er arbeitet auf OSI3. In TCP/IP Übertragungen sind in Schicht 3 die Adressen enthalten womit der Router das Paket lenkt. Dazu bedient er sich einer Routing-Tabelle. Ein Router kann unterschiedliche Wege aufgrund Laufzeit auswählen und damit auch Redundanzen oder Lastverteilung durchführen. Router können DHCP (dynamisches Zuweisen von IP-Adressen an angeschlossene Komponenten) und NAT. Häufig können sie auch MAC oder IP Adressen filtern und haben eine Firewall integriert.
+- **Router**	Ein Router verbindet zwei oder mehrere logische Netze. Er arbeitet auf OSI3. In TCP/IP Übertragungen sind in Schicht 3 die Adressen enthalten womit der Router das Paket lenkt. Dazu bedient er sich einer Routing-Tabelle. Ein Router kann unterschiedliche Wege aufgrund Laufzeit auswählen und damit auch Redundanzen oder Lastverteilung durchführen. Router können [DHCP](../Protokolle/DHCP.md) (dynamisches Zuweisen von IP-Adressen an angeschlossene Komponenten) und NAT. Häufig können sie auch MAC oder IP Adressen filtern und haben eine Firewall integriert.
 - **NAT**	Network Address Translation. Erfolgt auf dem Router. Übersetzung lokaler Netzwerkadressen in eine ~globale. Damit weiß ein Router welcher lokale Host welchen Dienst im Internet verwendet und kann dementsprechend die Replys durch routen.
 - **Gateway**		Ein Gateway kann zwei Geräte bis in die Schicht 7 verbinden. Damit können Anwendungsprotokolle übersetzt werden. Zur Konvertierung eines TCP/IP in ein IBM-SNA wird ein MS-SNA-Server (Gateway) verwendet. Auf einem Host ist der Standard-Gateway diejenige Adresse an die Anfragen weitergeleitet werden, wenn sie nicht im lokalen Adressbereich liegen.
 - **CSMA/CD** 	Carrier Sense Multiple Access/Collision Detect: Dieses Verfahren wird in [Ethernet](../Ethernet.md) (nur wenn nicht via Switch) und abgewandelt in WLAN Netzen eingesetzt. Dabei wartet ein Busteilnehmer der Senden möchte auf einen freien Bus. Wenn dieser frei ist beginnt er zu Senden und hört dabei gleichzeitig mit ob seine Daten auf dem Bus ankommen. Wenn nicht (etwa weil ein zweiter genau gleichzeitig zu Senden begonnen hat) wird die Sendung sofort beendet. Ein Zufallsgenerator ermittelt ab wann dieser Sender einen erneuten Sende-Versuch startet (mit Warten auf freien Bus). Dieses Verfahren wird im [Ethernet](../Ethernet.md) verwendet (als IEEE 802.3). In Drahtlosen Netzen werden andere Verfahren eingesetzt. Ein Teilnehmer welcher sendet, kann nicht gleichzeitig hören ob ein zweiter Teilnehmer sendet, daher wird hier häufig ein CSMA/CA (A für Avoidance) eingesetzt. Dabei wird vor dem Senden Gehört.
@@ -107,7 +105,7 @@ Um Geräte in einem IP-Netzwerk eindeutig adressieren zu können wird jedem Ger�
 Eine IP-Adresse ist eine logische, wie bekommt ein Rechner eine IP-Adresse?
 
 - Manuell: es wird eine Adresse auf dem Gerät eingestellt.
-- Automatisch: die Adresse wird beim Start *dynamisch* zugewiesen (DHCP)
+- Automatisch: die Adresse wird beim Start *dynamisch* zugewiesen ([DHCP](../Protokolle/DHCP.md))
 
 Eine IP-Adresse setzt sich aus 2 Teilen zusammen: einem Netzwerkteil (für alle Rechner eines Subnetzes gleich) und einem Hostteil (damit werden die Rechner innerhalb eines Subnetzes unterschieden). Schreibweisen: `192.168.45.22/24` damit wird festgelegt: die ersten 24 Bit sind Netzwerkteil und die verbleibenden 8 Bit sind Hostteil (bis zu 256 Rechner/Drucker … möglich). Alternativ: Angabe einer Subnetzmaske für dieses Beispiel: `192.168.45.22` und `255.255.255.0` (=Subnetzmaske).
 
