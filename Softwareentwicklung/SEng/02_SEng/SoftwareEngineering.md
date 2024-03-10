@@ -437,7 +437,7 @@ Ein Pflichtenheft sollte wie folgt gegliedert sein:
 1. Zielbestimmung
    1. Musskriterien: für das Produkt unabdingbare Leistungen, die in jedem Fall erfüllt werden müssen
    2. Sollkriterien: die Erfüllung dieser Kriterien wird angestrebt
-   3. Kannkriterien: die Erfüllung ist nicht unbedingt notwendig, sollten nur angestrebt werden, wenn noch ausreichend Kapazitäten vorhanden sind.
+   3. Kannkriterien: die Erfüllung ist nicht unbedingt notwendig, sollten nur angestrebt werden, wenn noch ausreichend [Kapazitäten](../../../Elektrotechnik/Kapazität.md) vorhanden sind.
    4. Abgrenzungskriterien: diese Kriterien sollen bewusst nicht erreicht werden
 
 2. Produkteinsatz

@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Permittivität
+  - Dielektrikums
 keywords: 
 subject:
   - Einf. ET
@@ -22,7 +24,12 @@ professor:
 
 
 > [!important] [Polarisation](../Chemie/Polarisation.md): Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](Elektrisches%20Feld.md) aus
+> Dielektrika, die man in ein [elektrisches Feld](Elektrisches%20Feld.md) einbringt [Polarisieren](../Chemie/Polarisation.md) sich, wodurch das [E-Feld](Elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nichtleiter sind
+
+![](assets/Pasted%20image%2020240310011251.png)
+
+## Permittivität
+
+Die Materialeigenschaft, wie ein Dielektrikum mit dem [Elektrischen Feld](Elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\varepsilon$ bezeichnet  
 
 # Tags
-
-Suszeptivität $\chi$

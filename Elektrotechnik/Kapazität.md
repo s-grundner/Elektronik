@@ -48,7 +48,9 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > $\frac{U}{d} = \frac{Q}{A\cdot \varepsilon}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U\implies C = \varepsilon \cdot \frac{A}{d}$
 >
 > $\varepsilon = \varepsilon_{0}\cdot\varepsilon_{r}$
-> $\varepsilon_{0}$  
+> $\varepsilon_{0}$ … [Dielektrizitätskonstante](../Physik/Konstanten/Dielektrizitätskonstante%20des%20Vakuum.md)
+> $\varepsilon_{r}$ Relative [Permittivität](Dielektrikum.md) des Dielektrikums
+>   
 
 ## [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 

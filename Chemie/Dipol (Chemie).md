@@ -46,3 +46,4 @@ $H_{2}S$ gasförmig (geringeres Dipolmoment)
 # Tags
 
 [Polarisation](Polarisation.md)
+[Elektrisches Dipolmoment – Wikipedia](https://de.wikipedia.org/wiki/Elektrisches_Dipolmoment)
