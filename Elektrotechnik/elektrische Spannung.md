@@ -41,7 +41,7 @@ professor:
 
 ## 1 Spannungsquellen
 
-> [!info] Spannungsquellen beruhen darauf, dass eine [Kraft](../Physik/Kraft.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](elektrisches%20Feld.md) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
+> [!info] Spannungsquellen beruhen darauf, dass eine [Kräfte](../Physik/Kräfte.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](elektrisches%20Feld.md) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
 
 > [!question] Chemisch lassen sich Spannungsquellen durch [Akkus](../Chemie/Sekundärelement.md) und [Batterien](../Chemie/Primärelement.md) auf Basis der [Elektrochemie](../Chemie/Elektrochemie.md) realisieren.
 > Man spricht von einer *elektrochemischen Spannungsquelle*

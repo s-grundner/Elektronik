@@ -34,10 +34,10 @@ professor:
 
 > [!info] [Coulomb-Kraft](Coulomb-Kraft.md)
 >Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](elektrisches%20Feld.md) $E$ zugeordnet werden.  
-> Die [Kraft](../Physik/Kraft.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
+> Die [Kräfte](../Physik/Kräfte.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
 > $$\vec{F}=q\cdot \vec{E}$$
 > 
->> [!success] Die [Kraft](../Physik/Kraft.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen [Elektrischen Feld](elektrisches%20Feld.md) ist proportional zu $q$ und $E$  
+>> [!success] Die [Kräfte](../Physik/Kräfte.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen [Elektrischen Feld](elektrisches%20Feld.md) ist proportional zu $q$ und $E$  
 >
 
 ![inlineR\|395](EFeld.png)
@@ -65,7 +65,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 | $F_{G}$                                                                                 | $F_{E}$                                                                                  |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine [Kraft](../Physik/Kraft.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene [E-Feld](elektrisches%20Feld.md) $\vec{E}$ eine [Kraft](Coulomb-Kraft.md) |
+| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine [Kräfte](../Physik/Kräfte.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene [E-Feld](elektrisches%20Feld.md) $\vec{E}$ eine [Kraft](Coulomb-Kraft.md) |
 
 > [!warning] Unterschied zum G-Feld
 > Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.

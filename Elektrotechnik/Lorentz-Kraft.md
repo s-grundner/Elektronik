@@ -29,5 +29,5 @@ Bewegte [Ladungen](elektrische%20Ladung.md):
 Die Allgemeine Kraft auf [Ladungen](elektrische%20Ladung.md) (bei Anwesenheit beider Felder) ist die ***Lorentz-Kraft***
 
 $$
-\vec{F} = Q\cdot \vec{E}+Q\cdot \vec{v}\times \vec{B}
+\vec{F} = \underbrace{ Q\cdot \vec{E} }_{ \text{Coulomb Kraft} }+\underbrace{ Q\cdot \vec{v}\times \vec{B} }_{ \text{Laplace Kraft} } = Q\cdot(\vec{E}+\vec{v}\times \vec{B})
 $$
