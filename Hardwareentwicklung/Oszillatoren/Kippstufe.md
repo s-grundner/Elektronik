@@ -27,7 +27,7 @@ created: 3rd January 2023
 
 ## [BJT](../Halbleiter/Bipolartransistor.md)-Kippstufe
 
-![](assets/Pasted%20image%2020230925152818.png)
+![](assets/BJT-Kippstufe.png)
 
 $$
 \begin{align}
@@ -56,11 +56,11 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 
 ### Herleitung
 
-| ![500](../assets/ST-Diag.png) |                                                 | 
+| ![500](../assets/ST-Diag.png) | | 
 | ----------------------------- | ----------------------------------------------- |
-| Periodendauer $T$             | $T=(t_{3}-t_{2})+(t_{2}-t_{1})$                 |
-| Ladedauer $t_L$               | $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$ |
-| Entladedauer $t_E$            | $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$    |
+| Periodendauer $T$ | $T=(t_{3}-t_{2})+(t_{2}-t_{1})$ |
+| Ladedauer $t_L$ | $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$ |
+| Entladedauer $t_E$ | $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$ |
 
 > [!SUMMARY] Entladen
 > ![herl_te](../assets/herl_te.png)
@@ -81,7 +81,4 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > $$
 > ![invST-calc1](../assets/invST-calc1.png)
 
-
-
 # Tags
-
