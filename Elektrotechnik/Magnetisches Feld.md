@@ -23,3 +23,4 @@ created: 4. September 2023
 > Wie wir wissen erzeugen Ladungsträger unabhängig von ihrem kinematischen Zustand ein [elektrisches Feld](elektrisches%20Feld.md) welches eine Kraft auf andere Ladungsträger Verursacht.
 > Diese Kraft [überlagert](Superpositionsprinzip.md) sich mit der [Laplace Kraft](Laplace-Kraft.md) und wird als [Laplace-Kraft](Laplace-Kraft.md) bezeichnet.
 
+## Magnetfeld im Leiter
