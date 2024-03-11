@@ -49,3 +49,17 @@ $$\Phi = \int_{A}\vec{B} \cdot d\vec{A} \qquad [\Phi] = Vs = Wb\dots \text{Weber
 Durch die Geometrie der Wicklung der Spule wird ein Magnetfeld erzeugt, das äquivalent wäre zu $N$ Mal der Drahtfläche mit $N$ mal dem Stromfluss. Daher kann der Fluss vervielfacht werden. Es ergibt sich der Verkettete Fluss $\Psi$:
 
 $$\Psi = N\cdot\Phi$$
+
+## Induktionsphänomene
+
+Induktionsphänomene kamen bisher nicht vor, weil wir und nicht um Zeit Abhängigkeiten des Feldes gekümmert haben. Diese Phänomene treten nämlich nur in *Wechselfeldern* auf.
+
+### Ruheinduktion
+
+Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, dass geschlossene elektrische Feldlinien auftauchen!
+Diese "umwirbeln" die Feldlinien
+
+> [!info] Ein sich zeitliches wechselndes Magnetfeld wird von einem elektrischen Feld umwirbelt 
+
+
+![invert_dark](assets/Wechselfelder.png)
