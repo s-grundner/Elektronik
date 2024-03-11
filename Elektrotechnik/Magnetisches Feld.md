@@ -38,4 +38,10 @@ $\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabi
 
 Anstelle der lokalen Feldstärke B beschreibt man das Feld auch gerne durch einen so genannten magnetischen Fluss $\Phi$, der eine bestimmte Fläche (z.B. die Querschnittsfläche eines Stabmagneten) durchsetzt.
 
-> [!info]- V Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom I und elektrischer Stromdichte J (obwohl im Magnetfeld nichts fließt):
+> [!question]- Vergleich zur Stromstärke und Stromdichte:
+>  Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom $I$ und elektrischer Stromdichte $J$
+>  (obwohl im Magnetfeld nichts fließt)
+
+$$$$
+
+![invert_dark](assets/FeldSpule.png)
