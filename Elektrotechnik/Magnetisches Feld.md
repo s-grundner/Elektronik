@@ -24,3 +24,19 @@ created: 4. September 2023
 > Diese Kraft [überlagert](Superpositionsprinzip.md) sich mit der [Laplace Kraft](Laplace-Kraft.md) und wird als [Laplace-Kraft](Laplace-Kraft.md) bezeichnet.
 
 ## Magnetfeld im Leiter
+
+> [!info] Rechte Hand Regel
+> Feld um einen (unendlich ausgedehnten) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
+> ![InlineR](assets/rechteHandLeiterMagnFeld.png) Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. 
+
+Der Betrag des Feldes im Abstand 𝑟 der Leiterachse ist gegeben durch.
+
+$$
+\begin{align}
+B(r) &= \frac{\mu_{0}\cdot I}{2\pi r} \\
+[B] &= \frac{Vs}{m^{2}} = T \dots \text{Tesla}
+\end{align}
+$$
+
+
+$\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabilität](../Physik/Konstanten/Permeablitätskonstante%20des%20Vakuum.md) des freien Raumes, Naturkonstante
