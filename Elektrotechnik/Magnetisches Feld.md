@@ -23,7 +23,7 @@ created: 4. September 2023
 ## Magnetfeld im Leiter
 
 > [!info] Rechte Hand Regel
-> Feld um einen (unendlich ausgedehnten) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
+> Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
 > ![InlineR](assets/rechteHandLeiterMagnFeld.png) Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. 
 
 Der Betrag des magnetischen Flusses $\vec{B}$ im Abstand 𝑟 der Leiterachse ist gegeben durch.
@@ -42,7 +42,7 @@ Anstelle der lokalen Feldstärke B beschreibt man das Feld auch gerne durch eine
 >  Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom $I$ und elektrischer Stromdichte $J$
 >  (obwohl im Magnetfeld nichts fließt)
 
-$$\Phi = \int_{A}\vec{B} \cdot d\vec{A} $$
+$$\Phi = \int_{A}\vec{B} \cdot d\vec{A} \qquad [\Phi] = Vs = Wb\dots \text{Weber}$$
 
 ![invert_dark](assets/FeldSpule.png)
 
