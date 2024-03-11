@@ -57,9 +57,19 @@ Induktionsphänomene kamen bisher nicht vor, weil wir und nicht um Zeit Abhängi
 ### Ruheinduktion
 
 Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, dass geschlossene elektrische Feldlinien auftauchen!
-Diese "umwirbeln" die Feldlinien
 
 > [!info] Ein sich zeitliches wechselndes Magnetfeld wird von einem elektrischen Feld umwirbelt 
+> Es wird also nicht durch Ladungen erzeugt, sondern durch die Änderung des magnetischen Feldes. (Warum wissen wir nicht -> Naturgesetz)
 
+Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht ein [Potenzialdifferenz](elektrische%20Spannung.md).
 
 ![invert_dark](assets/Wechselfelder.png)
+
+es ergibt sich die *induzierte* Spannung:
+
+$$u_{ind}=\frac{d\Phi}{dt}$$
+
+> [!hint]- zweite Maxwell-Gleichung 
+> $$\oint \vec{E} \cdot d \vec{s}=-\int \frac{\partial \vec{B}}{\partial t} \cdot d \vec{A}$$
+
+Die Fläche ist jene die der Leiter Aufspannt.
