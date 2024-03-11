@@ -58,10 +58,11 @@ Induktionsphänomene kamen bisher nicht vor, weil wir und nicht um Zeit Abhängi
 
 Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, dass geschlossene elektrische Feldlinien auftauchen!
 
-> [!info] Ein sich zeitliches wechselndes Magnetfeld wird von einem elektrischen Feld umwirbelt 
+> [!info] Ein sich zeitliches wechselndes Magnetfeld wird von einem elektrischen Feld *linkswendig* umwirbelt 
 > Es wird also nicht durch Ladungen erzeugt, sondern durch die Änderung des magnetischen Feldes. (Warum wissen wir nicht -> Naturgesetz)
 
 Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht ein [Potenzialdifferenz](elektrische%20Spannung.md).
+
 
 ![invert_dark](assets/Wechselfelder.png)
 
@@ -70,6 +71,10 @@ es ergibt sich die *induzierte* Spannung:
 $$u_{ind}=\frac{d\Phi}{dt}$$
 
 > [!hint]- zweite Maxwell-Gleichung 
+> Diese Wirbelfelder werden durch das Faraday'sche Gesetz (2. MWG) beschrieben:
 > $$\oint \vec{E} \cdot d \vec{s}=-\int \frac{\partial \vec{B}}{\partial t} \cdot d \vec{A}$$
+> In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds.
+> Die Fläche ist jene die der Leiter Aufspannt.
+> Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint \vec{E}\cdot d\vec{s} = 0$
 
-Die Fläche ist jene die der Leiter Aufspannt.
+### Bewegungsinduktion
