@@ -51,7 +51,7 @@
 	{trigger: ":E", replacement: "\\varepsilon", options: "mA"},
 	{trigger: "@f", replacement: "\\phi", options: "mA"},
 	{trigger: ":f", replacement: "\\varphi", options: "mA"},
-	{trigger: "@F", replacement: "\\Phiko", options: "mA"},
+	{trigger: "@F", replacement: "\\Phi", options: "mA"},
 	{trigger: "@z", replacement: "\\zeta", options: "mA"},
 	{trigger: "@Z", replacement: "\\zeta", options: "mA"},
 	{trigger: "@t", replacement: "\\theta", options: "mA"},

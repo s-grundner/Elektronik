@@ -42,6 +42,10 @@ Anstelle der lokalen Feldstärke B beschreibt man das Feld auch gerne durch eine
 >  Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom $I$ und elektrischer Stromdichte $J$
 >  (obwohl im Magnetfeld nichts fließt)
 
-$$$$
+$$\Phi = \int_{A}\vec{B} \cdot d\vec{A} $$
 
 ![invert_dark](assets/FeldSpule.png)
+
+Durch die Geometrie der Wicklung der Spule wird ein Magnetfeld erzeugt, das äquivalent wäre zu $N$ Mal der Drahtfläche mit $N$ mal dem Stromfluss. Daher kann der Fluss vervielfacht werden. Es ergibt sich der Verkettete Fluss $\Psi$:
+
+$$\Psi = N\cdot\Phi$$
