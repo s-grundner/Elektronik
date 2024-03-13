@@ -22,6 +22,10 @@ professor:
 
 > siehe: [Algorithmusbegriff](ds-algo/Algorithmusbegriff.md)
 
+## Spezifikation
+
+
+
 ## 1 Mathematik
 
 ```dataview

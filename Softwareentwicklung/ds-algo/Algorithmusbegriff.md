@@ -42,7 +42,7 @@ professor:
 | Pseudocode                   | halbformal, kurz, präzise und doch sprachunabhängig; Ausformulierung in wählbarer Detailliertheit             |
 | Programmier-sprache          | eindeutig, ausführbar; zur Übersetzung und Ausführung auf einem Computer                                      |
 
-Bausteine von Ablaufdiagrammen: D-Diagramme
+Bausteine von Ablaufdiagrammen: [D-Diagramm](Ablaufdiagramm.md)
 
 ## 3 Informatikturm
 

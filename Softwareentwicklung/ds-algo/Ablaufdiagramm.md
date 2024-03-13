@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - D-Diagramm
 keywords: 
 subject:
   - UE
@@ -25,4 +26,5 @@ professor:
 ## 1	D-Diagramm
 
 > [!info]- Es muss für jedes Statement ein eigener Block benutzt werden
-> - Für jede Initialisierung einen eigenen BL
+> - Für jede Initialisierung einen eigenen Block
+> - if-Statement hat immer *true* und *false* zweig
