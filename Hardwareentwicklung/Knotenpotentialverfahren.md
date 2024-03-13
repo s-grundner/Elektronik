@@ -30,8 +30,10 @@ Wenn wir ein [elektrisches Netzwerk](../Elektrotechnik/Schaltungsanalyse.md) vor
 Die Verwendung des Leitwertes erleichtert die Berechnung.
 
 > [!success] Allgemeines Ergebnis:
-> mit der *Knotenadmittanzmatrix* $\mathbf{G}$, dem *Vektor* $\mathbf{U}$ der unbekannten *Knotenspannungen* und dem Vektor der Quellströme $\mathbf{I}_{q}$
-> ![[../assets/Excalidraw/Knotenpotentialverfahren 2024-03-13 21.34.50.excalidraw]]
+> - mit der *Knotenadmittanzmatrix* $\mathbf{G}$,
+> - dem *Vektor* $\mathbf{U}$ der unbekannten *Knotenspannungen*
+> - und dem Vektor der Quellströme $\mathbf{I}_{q}$
+> ![[../assets/Excalidraw/Knotenpotentialverfahren 2024-03-13 21.34.50.excalidraw|1200]]
 
 ![](assets/Knotenpotential.png)
 
