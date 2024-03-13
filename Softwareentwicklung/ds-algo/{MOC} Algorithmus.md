@@ -22,13 +22,13 @@ professor:
 
 > siehe: [Algorithmusbegriff](ds-algo/Algorithmusbegriff.md)
 
-## 1	Mathematik
+## 1 Mathematik
 
 ```dataview
 LIST FROM #Algorithmus/Mathe 
 ```
 
-## 2	Informatik / Digitaltechnik
+## 2 Informatik / Digitaltechnik
 
 - [Such-Algorithmen](DS-Algo/{MOC}%20Suchen.md)
 - [Sortier-Algorithmen](DS-Algo/{MOC}%20Sortieren.md)
@@ -41,7 +41,7 @@ AND !contains(tags, "Mathe")
 AND !contains(file.name, "MOC")
 ```
 
-## 3	Elektrotechnik
+## 3 Elektrotechnik
 
 ```dataview
 LIST FROM #Algorithmus/Elektrotechnik 

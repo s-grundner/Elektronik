@@ -78,3 +78,5 @@ $$u_{ind}=\frac{d\Phi}{dt}$$
 > Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint \vec{E}\cdot d\vec{s} = 0$
 
 ### Bewegungsinduktion
+
+![invert_dark](assets/BewegterLeiter.png)
