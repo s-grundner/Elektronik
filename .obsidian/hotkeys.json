@@ -190,5 +190,13 @@
       ],
       "key": "ArrowUp"
     }
+  ],
+  "obsidian-excalidraw-plugin:insert-LaTeX-symbol": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
   ]
 }

@@ -79,4 +79,6 @@ $$u_{ind}=\frac{d\Phi}{dt}$$
 
 ### Bewegungsinduktion
 
+![[../assets/Excalidraw/Drawing 2024-03-13 10.24.40.excalidraw]]
+
 ![invert_dark](assets/BewegterLeiter.png)
