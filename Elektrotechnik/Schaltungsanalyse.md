@@ -5,6 +5,7 @@ aliases:
   - Netzwerkanalyse
   - "#Schaltungsanalyse"
   - elektrische Netzwerke
+  - elektrisches Netzwerk
 keywords: 
 subject:
   - VL
