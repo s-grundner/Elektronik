@@ -31,9 +31,18 @@ Die Verwendung des Leitwertes erleichtert die Berechnung.
 
 > [!success] Allgemeines Ergebnis:
 > - mit der *Knotenadmittanzmatrix* $\mathbf{G}$,
-> - dem *Vektor* $\mathbf{U}$ der unbekannten *Knotenspannungen*
-> - und dem Vektor der Quellströme $\mathbf{I}_{q}$
-> ![[../assets/Excalidraw/Knotenpotentialverfahren 2024-03-13 21.34.50.excalidraw|1200]]
+> - dem *[Vektor](../Mathematik/mathe%20(3)/Vektor.md)* $\mathbf{U}$ der unbekannten *Knotenspannungen*
+> - und dem [Vektor](../Mathematik/mathe%20(3)/Vektor.md) der Quellströme $\mathbf{I}_{q}$
+> ![1200](../assets/Excalidraw/Knotenpotentialverfahren%202024-03-13%2021.34.50.excalidraw)
+
+
+## Spannugsquellen-Umwandlung
+
+Wenn eine Lineare Spannungsquelle vorliegt kann diese einfach in das Norton ESB umgewandelt werden
+
+> [!warning] Ist die Spannungsquelle aber ideal, kann man sie nicht in eine (ideale) Stromquelle umwandeln.
+> - Wir wählen die Spannung als Bezugsknoten. $U_{q} = U_{10}$ aber nicht immer möglich.
+>   - wenn mehrere ideale Spannungsquelle existieren
 
 ![](assets/Knotenpotential.png)
 
