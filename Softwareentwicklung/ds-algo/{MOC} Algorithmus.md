@@ -24,8 +24,6 @@ professor:
 
 ## Spezifikation
 
-
-
 ## 1 Mathematik
 
 ```dataview
