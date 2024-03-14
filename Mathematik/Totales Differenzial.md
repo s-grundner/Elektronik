@@ -1,3 +1,19 @@
+---
+tags: 
+aliases:
+  - Fréchet
+keywords: 
+subject:
+  - VL
+  - Mathematik 2
+semester:
+  - SS24
+  - B2
+created: 28. Februar 2024
+professor:
+---
+ 
+
 # Totales Differenzial
 
 Das totale Differential einer Funktion $f$ in $n$ Variablen erhält man folgendermaßen:
