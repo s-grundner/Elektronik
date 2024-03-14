@@ -92,3 +92,12 @@ $$u_{ind}=\frac{d\Phi}{dt}$$
 ![[../assets/Excalidraw/Drawing 2024-03-13 10.24.40.excalidraw]]
 
 ![invert_dark](assets/BewegterLeiter.png)
+
+# Flashcards
+
+Was beschreibt der magnetische Fluss
+?
+Genau wie beim elektrischen Strom kann der Strom nur durch eine Fläche definiert werden.
+Um die Größe des Magnetfelds darzustellen 
+$\vec{J}\iff \vec{B}$
+$I\iff \Phi$
