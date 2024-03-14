@@ -98,6 +98,6 @@ $$u_{ind}=\frac{d\Phi}{dt}$$
 Was beschreibt der magnetische Fluss
 ?
 Genau wie beim elektrischen Strom kann der Strom nur durch eine Fläche definiert werden.
-Um die Größe des Magnetfelds darzustellen kann der Fluss durch eine
+Um die Größe des Magnetfelds darzustellen kann der Fluss durch eine Fläche bestimmt werden (z.B. Der Querschnitt einer Spule)
 $\vec{J}\iff \vec{B}$
 $I\iff \Phi$
