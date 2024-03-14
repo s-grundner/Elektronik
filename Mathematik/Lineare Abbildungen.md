@@ -17,19 +17,12 @@ professor:
 
 # Lineare [Abbildungen](Abbild.md)
 
-> [!important]- Definition 10.1. Seien $X$ und $Y$ $\mathbb{K}$-Vektorräume. Eine Abbildung $L: X \rightarrow Y$ heißt linear $\Longleftrightarrow$ (wenn sie)
->
-> $$\text{Additiv: }\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$$
->
-> $$\wedge$$
->
-> $$\text{Homogen: }\forall x \in X ,\forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$$
->
-> - Bei linearen [Abbildungen](Abbild.md) schreibt man statt $L(x)$ meist $L x$.
-> - Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
+> [!important]- Definition: Seien $X$ und $Y$ $\mathbb{K}$-Vektorräume. Eine Abbildung $L: X \rightarrow Y$ heißt linear, wenn sie *Additivität* und *Homogenität* erfüllen.
+> 1. Bei linearen [Abbildungen](Abbild.md) schreibt man statt $L(x)$ meist $L x$.
+> 2. Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
 > 	- Ist die Abbildung zusätzlich [bijektiv](Abbild.md), so nennt man sie *Isomorphismus*.
-> - Gilt $X=Y$, so heißt eine lineare Abbildung auch *Endomorphismus*.
-> - Die Menge aller linearen [Abbildungen](Abbild.md) von $X$ nach $Y$ bezeichnen wir mit $L(X, Y)$.
+> 1. Gilt $X=Y$, so heißt eine lineare Abbildung auch *Endomorphismus*.
+> 2. Die Menge aller linearen [Abbildungen](Abbild.md) von $X$ nach $Y$ bezeichnen wir mit $L(X, Y)$.
 > 	- Für $L(X, X)$ schreiben wir kurz: $L(X)$
 
 > [!tldr]- Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
@@ -37,7 +30,6 @@ professor:
 
 > [!tldr]- Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
 > für alle $x$ im $X$ [Vektorraum](Vektorraum.md) und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
-i
 
 ## Kern (kernel) und Bild
 

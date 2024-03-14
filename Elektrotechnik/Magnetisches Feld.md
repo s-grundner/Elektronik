@@ -3,8 +3,18 @@ tags:
 aliases:
   - Magnetfeld
   - magnetische Feld
-created: 4. September 2023
+keywords: 
+subject:
+  - VL
+  - Einf. ET
+semester:
+  - B1
+  - WS23
+created: 31. August 2023
+professor:
+  - Bernhard Jakoby
 ---
+ 
 
 # Magnetisches Feld
 
