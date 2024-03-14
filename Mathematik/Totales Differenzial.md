@@ -33,7 +33,7 @@ $$
 > > eine Lineare Abbildung $L$ aus der Menge aller Linearen Abbildungen von $\mathbb{R}^n$ nach $\mathbb{R}^m$ existiert, sowohl ein *Rest* $r(h)$ existiert, der von $\mathbb{R}^n$ nach $\mathbb{R}^m$ abbildet.
 > > (Also im Raum der linearen Abbildung bleibt $\to$ sonst ist der Rest unstetig im Raum)
 > $$
-\left(\forall h \in \mathbb{R}^n, x_0+h \in A: f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h) \wedge \lim _{h \rightarrow 0} \frac{\|r(h)\|}{\|h\|}=0\right)
+\forall h \in \mathbb{R}^n, x_0+h \in A: f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h) \wedge \lim _{h \rightarrow 0} \frac{\|r(h)\|}{\|h\|}=0
 > $$
 > $L$ heißt *Fréchet*-Ableitung oder *totale* Ableitung von $f$ in $x_0$,
 > - Symbol: $L=f^{\prime}(x_{0})$.
