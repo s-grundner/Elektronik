@@ -24,7 +24,7 @@ banner_y: "0.3"
 
 # Elektrisches Feld
 
-> [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische [Ladung](elektrisches%20Feld.md) tragen.
+> [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische [Ladung](elektrisches%20Feld.md) tragen. (Intensitätsgröße des E-Feld)
 > - Die Ursache elektrischen Felder sind selbst Ladungen.
 > - Die Ladungen können ruhen oder in Bewegung sein
 
@@ -79,6 +79,11 @@ $$
 &\vec{E} = \frac{\vec{J}}{\sigma}=\vec{J}\cdot \rho
 \end{align}
 $$
+
+## Elektrische Flussdichte
+
+- Das elektrische Feld $\vec{E}$ ist die Intensitätsgröße des elektrischen Feldes, weil $\vec{E}$ die Kraftwirkung des elektrischen Feldes auf Ladungen beschreibt
+- Die elektrische Flussdichte $\vec{D}$ ist die Quantitätsgröße des elektrischen Feldes, weil $\vec{D}$ ein Maß für die Ursache des Feldes (die elektrische Ladung) ist
 
 # Beispiele
 
