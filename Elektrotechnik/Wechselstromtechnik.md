@@ -25,7 +25,6 @@ Quasistationäre Betrachtung:
   - Größen dürfen sich nur entsprechend langsam verändern
 - Ausbreitungsgeschwindigkeit von Wellen wird vernachlässigt
 - Das gesamte Netzwerk wird mit der selben Kreisfrequenz betrieben
-![[../assets/Excalidraw/Wechselstromtechnik 2024-03-18 23.04.08.excalidraw]]
 
 ## Parallelschaltung zu Serienschaltung
 

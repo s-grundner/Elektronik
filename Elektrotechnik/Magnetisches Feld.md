@@ -101,3 +101,7 @@ Genau wie beim elektrischen Strom kann der Strom nur durch eine Fläche definier
 Um die Größe des Magnetfelds darzustellen kann der Fluss durch eine Fläche bestimmt werden (z.B. Der Querschnitt einer [Spule](Induktivitäten.md))
 $I = \int  \vec{J}\cdot d\vec{A} \iff \Phi = \int \vec{B}\cdot d\vec{A}$
 <!--SR:!2024-03-16,1,230-->
+
+# Übung
+
+![[../assets/Excalidraw/magnetisches Feld 2024-03-18 23.46.01.excalidraw]]
