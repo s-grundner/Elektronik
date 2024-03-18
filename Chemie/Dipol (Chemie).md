@@ -41,6 +41,12 @@ $H_{2}S$ gasförmig (geringeres Dipolmoment)
 > $+Q$ und $-Q$ sind die Ladungsschwerpunkte des Moleküls
 > $Q$ wird ist da selbe wie $\delta$ bisher
 
+# Magnetischer Dipol
+
+rotierende Ladungen im Molekül
+
+Sind alle
+
 ---
 
 # Tags
