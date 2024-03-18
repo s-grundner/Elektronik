@@ -145,6 +145,12 @@ $$
 
 [Abblockkondensator](Abblockkondensator.md)
 
-# Übung
+# Übung & Flashcards
 
+Warum ist im Kondensator $Q$ proportional zu $U$?
+?
+$U \propto E $, da U proportional zu E ist ($U=\int \vec{E}d\vec{s}$) und $E$ 
 ![[../assets/Excalidraw/Kapazität 2024-03-18 20.03.45.excalidraw]]
+Außerdem gilt:
+$i = \frac{dq}{dt} = C\cdot \frac{du}{dt}$
+$dq = C\cdot du\implies Q=C\cdot U$
