@@ -144,3 +144,7 @@ $$
 # Tags
 
 [Abblockkondensator](Abblockkondensator.md)
+
+# Übung
+
+![[../assets/Excalidraw/Kapazität 2024-03-18 20.03.45.excalidraw]]
