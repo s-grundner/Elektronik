@@ -16,6 +16,14 @@ professor:
 
 # Wechselstromtechnik
 
+## Vorraussetzung
+
+Quasistationäre Betrachtung:
+- Netzwerk ist linear
+- Argument der Winkelfunktionen ist konstant
+- 
+![[../assets/Excalidraw/Wechselstromtechnik 2024-03-18 23.04.08.excalidraw]]
+
 ## Parallelschaltung zu Serienschaltung
 
 ## Serienschaltung zu Parallelschaltung
