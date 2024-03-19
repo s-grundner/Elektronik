@@ -16,7 +16,7 @@ Neben diesen Relationalen Datenbanksystem gibt es natürlich eine große Zahl vo
 
 ## Microsoft Access (Microsoft)
 
-Access ist ein kleines relationales Datenbanksystem, das im Desktopbereich eingesetzt wird. Access wird als integrale Komponente der Suite *Microsoft Office* vermarktet. Das System bietet ein integriertes DBMS, wodurch MS-Office vertrauten Benutzern die Möglichkeit geboten ist, schnell kleine Anwendungen zu entwickeln. Microsofts ODBC (Open Database Connection), ein Standard zur Kommunikation mit relationalen Datenbanksystemen, macht es möglich, Access als Front-End zu Datenbanksystemen wie Oracle oder MySQL zu verwenden.
+Access ist ein kleines relationales Datenbanksystem, das im Desktopbereich eingesetzt wird. Access wird als integrale Komponente der Suite *Microsoft Office* vermarktet. Das System bietet ein integriertes DBMS, wodurch MS-Office vertrauten Benutzern die Möglichkeit geboten ist, schnell kleine Anwendungen zu entwickeln. Microsofts [ODBC](ODBC.md) (Open Database Connection), ein Standard zur Kommunikation mit relationalen Datenbanksystemen, macht es möglich, Access als Front-End zu Datenbanksystemen wie Oracle oder MySQL zu verwenden.
 
 **Einsatzbereich:**  
 Kleine Datenbanken bis zu 2 GB. Es besteht die Möglichkeit, eine Datenbankdatei gleichzeitig zwischen 255 Benutzern zu teilen. Allerdings kann die gesamte Datenbank leicht kopiert werden (Sicherheitsproblem!), so dass sie praktisch nur im Umfeld vertrauter Mitarbeiter verwendet werden kann.

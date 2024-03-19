@@ -26,7 +26,7 @@ professor:
 | Widerstand    | [Ohm](Ohmsches%20Gesetz.md) ($\Omega$) |
 | ------------- | -------------- |
 | Toleranz      | Prozent (%)    |
-| Belastbarkeit | [Leistung](../Physik/Elektrische%20Leistung.md) (W)               |
+| Belastbarkeit | [Leistung](elektrische%20Leistung.md) (W)               |
 
 ## Farbkennzeichnung
 

@@ -14,6 +14,6 @@ created: 1. März 2024
 
 ## 1 Valenz und Leitungsband
 
-![775](../Hardwareentwicklung/assets/Baendermodell.png)
+![#invert_light|775](../Hardwareentwicklung/assets/Baendermodell.png)
 
 [Why It Was Almost Impossible to Make the Blue LED - YouTube](https://www.youtube.com/watch?v=AF8d72mA41M)

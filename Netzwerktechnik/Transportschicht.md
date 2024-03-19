@@ -30,8 +30,8 @@ Die Adressierung erfolgt in der Transportschicht mit [Sockets](Sockets)
 > - Unterstützung beliebig großer Datenübertragungen
 > - Der Sender soll das Netzwerk nicht überlassen
 
-1. [**UDP**](UDP.md) [User Datagram Protocol](UDP.md)
-2. [**TCP**](TCP.md) [Transmission Control Protocol](TCP.md)
+1. [**UDP**](Protokolle/UDP.md) [User Datagram Protocol](Protokolle/UDP.md)
+2. [**TCP**](Protokolle/TCP.md) [Transmission Control Protocol](Protokolle/TCP.md)
 3. **TLS/SSL** Secure Sockets Layer (neu **T**ransport **L**ayer **S**ecurity):
 	- Ende-zu-Ende-Verschlüsselung mittels symmetrischer Verschlüsselung (DES, AES…) und kryptografische Prüfsumme (SHA-1, MD5). TLS wird heute (unter Anderem) mit HTTPS, POP3S, SMTPS, FTPS eingesetzt (SSL wurde durch TLS ersetzt, die Abkürzung wird aber noch sehr häufig verwendet).
 	- Das TLS besteht wiederum aus zwei Schichten und wird häufig eher der 5ten Schicht zugerechnet. Es wird grundsätzlich über TCP gesehen (aber unter etwa HTTP).

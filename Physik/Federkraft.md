@@ -24,7 +24,7 @@ Federkräfte sind Rückwirkungskräfte, die entstehen wenn ein Festkörper (z.B.
 
 Der einfachste Fall ist der einer Feder, die um einen gewissen [Betrag](../Mathematik/Betrag.md) $x$ aus der entspannten Ruhelage ($x=0$) gedehnt wird.
 
-Durch die Anziehung der Atome in der Feder entsteht nun eine rückwirkende elastische [Kraft](Newtonsche%20Axiome.md) $F_{F}$, die dieser Dehnung entgegen wirkt.
+Durch die Anziehung der Atome in der Feder entsteht nun eine rückwirkende elastische [Kraft]({MOC}%20Kräfte.md) $F_{F}$, die dieser Dehnung entgegen wirkt.
 
 > [!INFO] Im Fall einer *idealen elastischen* Feder ist die rückwirkende Federkraft linear proportional zur Auslenkung $x$:  
 > *Hooke'sches Gesetz:* $\vec{F_{F}} = -k\cdot \vec{x}$

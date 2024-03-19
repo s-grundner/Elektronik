@@ -7,10 +7,10 @@ created: 4. März 2024
 
 # [Impedanz](Impedanz.md) Anpassung
 
-> [!INFO] Mit Impedanz Anpassung erzielt man:
+> [!INFO] Mit [Impedanz](Impedanz.md) Anpassung erzielt man:
 > - Stromanpassung ([Strom](elektrischer%20Strom.md) ist maximal, $R_{i}\gg R_{L}$) 
 > - Spannungsanpassung ([elektrische Spannung](elektrische%20Spannung.md) ist maximal, $R_{i}\ll R_{L}$)
-> - Leistungsanpassung ([Leistung](../Physik/Elektrische%20Leistung.md) ist maximal, $R_{i} = R_{L}$)
+> - Leistungsanpassung ([Leistung](elektrische%20Leistung.md) ist maximal, $R_{i} = R_{L}$)
 
 ## 1 Anpassnetzwerk
 

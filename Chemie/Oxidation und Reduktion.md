@@ -88,7 +88,7 @@ Anode (+): Oxidation (Abgabe von $e^{-}$)
 
 # Oxidationszahl
 
-Ist die formale [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) eines Atoms in einem [Molekül](Atombindung.md) zur tatsächlichen [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) einatomiger Ionen
+Ist die formale [Ladung](../Elektrotechnik/elektrisches%20Feld.md) eines Atoms in einem [Molekül](Atombindung.md) zur tatsächlichen [Ladung](../Elektrotechnik/elektrisches%20Feld.md) einatomiger Ionen
 
 $$
 \text{Ionen}\begin{dcases}
@@ -114,7 +114,7 @@ $$
  > [!EXAMPLE] Bestimme die Oxidationszahlen  
  > $H_{2}SO_{4}$, $H_{2}SO_{3}$, $KNO_{3}$, $K_{2}Cr_{2}O_{3}$, $KMnO_{4}$, $FeCl_{2}$, $H_{2}O_{2}$, $NaH$
  > > [!success] Lösungen  
- > > ![300](assets/LSG-oxzahlen.png)
+ > > ![#invert_light|300](assets/LSG-oxzahlen.png)
 
 ## Anwendung Von Oxidationszahlen
 

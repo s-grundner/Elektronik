@@ -17,17 +17,17 @@ created:
 
 [Bewegung](Kinematik.md) von Massenpunkten, Beziehungen zwischen Ort, [Geschwindigkeit](Kinematik.md) und [Beschleunigung](Kinematik.md)
 
-## 2. [Newton](Newtonsche%20Axiome.md)´sche [Axiome](../Mathematik/Axiom.md)
+## 2. [Newton]({MOC}%20Kräfte.md)´sche [Axiome](../Mathematik/Axiom.md)
 
-Ursachen (=[Kräfte](Newtonsche%20Axiome.md)) der [Bewegung](Kinematik.md), Kräftegleichgewicht, Bewegungsgleichung, Intertialsysteme, Scheinkräfte
+Ursachen (=[{MOC} Kräfte]({MOC}%20Kräfte.md)) der [Bewegung](Kinematik.md), Kräftegleichgewicht, Bewegungsgleichung, Intertialsysteme, Scheinkräfte
 
-## 3. [Kräfte](Newtonsche%20Axiome.md) In der Natur
+## 3. [{MOC} Kräfte]({MOC}%20Kräfte.md) In der Natur
 
  Gewichtskraft, Auftrieb, Reibungskräfte, [Federkräfte](Federkraft.md), Gravitation, Satellitenbewegung
 
 ## 4. Energie
 
- [Arbeit](Mechanische%20Arbeit.md), kinetische und potentielle Energie, Erhaltungssätze, [Leistung](Elektrische%20Leistung.md) 
+ [Arbeit](Mechanische%20Arbeit.md), kinetische und potentielle Energie, Erhaltungssätze, [Leistung](../Elektrotechnik/elektrische%20Leistung.md) 
 
 ## 5. [Impuls](Impuls.md)
 

@@ -17,3 +17,7 @@ professor:
  
 
 # Linienladung
+
+![4000](../assets/Excalidraw/Linienladung%202024-03-18%2021.53.17.excalidraw)
+
+- [Flächenladung](Flächenladung.md)

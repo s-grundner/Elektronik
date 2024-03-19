@@ -48,7 +48,7 @@ Reaktion einer Säure mit einer Base, in deren Verlauf ein [Salz](Ionenbindung.m
 $HCl+NaOH\longrightarrow NaCl+H_{2}O$  
 exotherme Reaktion: es entsteht Neutralisationswärme
 
-### Säurenund Basenstärke
+### Säuren und Basenstärke
 
 Die Stärke einer Säure wird durch die $H^{+}$-Konzentration ausgedrückt, die sich in wässriger Lösung der Säure bei gegebener Konzentration einstellt.
 

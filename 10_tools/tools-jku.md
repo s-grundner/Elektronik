@@ -43,3 +43,11 @@ class mybutton
 ```
 
 ^button-shb
+
+```button
+name inside
+type link
+action https://moodle.jku.at
+color default
+class mybutton
+```

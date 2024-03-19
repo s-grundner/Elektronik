@@ -4,7 +4,6 @@ aliases:
 keywords: 
 subject:
   - Einf. ET
-  - "335.005"
 semester:
   - WS23
   - B1
@@ -18,8 +17,8 @@ professor:
 
 - Transformatoren dienen dazu, Spannungen, Ströme und/oder Impedanzen zu transformieren und Leistungen zwischen [galvanisch](../Chemie/Elektrochemie.md) getrennten Netzwerken zu übertragen.
 - Transformatoren bestehen aus magnetisch gekoppelten Induktivitäten
-- Die Transformation von Spannungen, Ströme und/oder Impedanzen ist nur für *zeitlich veränderliche* Spannungen/Ströme möglich, da diese auf dem Prinzip der [Ruheinduktion](../Elektrotechnik/Magnetisches%20Feld.md) beruht -> gekoppelte Induktivitäten.
-
+- Die Transformation von Spannungen, Ströme und/oder Impedanzen ist nur für *zeitlich veränderliche* Spannungen/Ströme möglich, da diese auf dem Prinzip der [Ruheinduktion](../Elektrotechnik/magnetisches%20Feld.md) beruht -> gekoppelte Induktivitäten.
+- Der (Eisen) Kern im Transformator dient zum richten des Magnetischen Flusses
 
 ![600](assets/Pasted%20image%2020240124090631.png)
 
@@ -29,7 +28,7 @@ Sehr hohe *relative permeabilität* $\mu_{r}$ des Kerns.
 > Torbedingung: [Strom](../Elektrotechnik/elektrischer%20Strom.md) $i_{1}$ der oben hinein fließt, muss unten (als $i_{2}$) wieder herausfließen.
 
 > [!warning] Vereinfachungen  
-> kein [magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md) außerhalb des Eisenkerns
+> kein [magnetisches Feld](../Elektrotechnik/magnetisches%20Feld.md) außerhalb des Eisenkerns
 
 ## Gekoppelte Induktivitäten
 
@@ -49,7 +48,7 @@ Wenn die Punkte am selben Ende der beiden Wicklungen sind, addieren sich die Fl�
 $$
 \begin{align}
 u_{1} = \frac{d}{dt}(\phi_{11}+\phi_{12}) = L_{11} \frac{di_{1}}{dt} + M \frac{di_{2}}{dt}\\
-u_{2} = \frac{d}{dt}(\phi_{21}+\phi_{22}) = M \frac{di_{1}}{dt} + L_{11} \frac{di_{2}}{dt}
+u_{2} = \frac{d}{dt}(\phi_{21}+\phi_{22}) = M \frac{di_{1}}{dt} + L_{22} \frac{di_{2}}{dt}
 \end{align}
 $$
 
@@ -98,8 +97,8 @@ Trotz der Last ist das Übersetzungsverhältis gleich wie im Unbelasteten Fall (
 
 $R_{m} = \frac{l}{\mu A}$ aber $R_{m}$ ist im Gegensatz zum elektrischen Widerstand stark nichtlinear vom Magnetischen Fluss Abhängig.
 
-[Elektrische Leistung](../Physik/Elektrische%20Leistung.md)
+[elektrische Leistung](../Elektrotechnik/elektrische%20Leistung.md)
 
-```dataview
-LIST WHERE contains(subject, "...")
-```
+# Übung
+
+![[../assets/Excalidraw/Transformator 2024-03-19 00.29.11.excalidraw]]

@@ -57,7 +57,7 @@ professor:
 
 ### NTHFS: Finde die Kuh
 
-![InlineR|500](assets/Pasted%20image%2020231006163827.png)
+![InlineR|500](assets/KuhAmDach.png)
 
 - Echtzeitlokalisierung
 	- Erklärung des Prinzips

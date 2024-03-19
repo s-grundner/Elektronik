@@ -27,7 +27,7 @@ $\Delta EN < 1.7$ polare [Atombindung](Atombindung.md)
 
 ## 2 [Ionenbindung](Ionenbindung.md)
 
-> ![700](assets/Ionen-bdn.png)
+> ![#invert_light|700](assets/Ionen-bdn.png)
 
 [Metalle](Metallbindung.md) ($Na$) übertragen ihre [Valenzelektronen](Valenzelektronen.md) an Nichtmetalle ($Cl$)
 

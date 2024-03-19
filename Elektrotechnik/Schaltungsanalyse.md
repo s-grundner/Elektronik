@@ -5,6 +5,7 @@ aliases:
   - Netzwerkanalyse
   - "#Schaltungsanalyse"
   - elektrische Netzwerke
+  - elektrisches Netzwerk
 keywords: 
 subject:
   - VL
@@ -39,7 +40,7 @@ Lineare Widerstände, [Induktivitäten](Induktivitäten.md) und [Kapazitäten](K
 
 Ideale Quellen mit Innenwiderstand werden als “reale Quellen” oder besser als [lineare Quellen](lineare%20Quellen.md) bezeichnet.
 
-> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
+> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/ds-algo/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 

@@ -27,7 +27,7 @@ Sortieren ist eine grundlegende Technologie der Informatik. Effiziente Sortieral
 > - **Stabiles Sortieren**: Sortierung die einen zusammengesetzten Datensatz richtig sortiert.
 > 	- Beispiel: eine *alphabetisch sortierte* Personenliste wird *nach Geburtsdatum* neu sortiert, dann bleibt die alphabetische Sortierung für Personen mit gleichem Geburtsdatum erhalten (bei stabilen Sortieralgorithmen). 
 > 
-> Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler [Algorithmus](../{MOC}%20Algorithmus.md) garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
+> Sortiert ergibt für sich für die Menge 2, 1, 1, 3 -> 1, 1, 2, 3. Ein stabiler [Algorithmus]({MOC}%20Algorithmus.md) garantiert, dass in beiden Sätzen der erste 1er der gleiche 1er ist.
 
 ## Sortierung Über Referenzen
 
@@ -42,5 +42,5 @@ Es gibt häufig die Forderung ein Array zu sortieren in welchem die Elemente gro
 
 - Welche [Such-Algorithmen]({MOC}%20Suchen.md) kennen Sie?
 - Wodurch unterscheiden sich die unterschiedlichen Sortieralgorithmen?
-- Wie kann die Sortierdauer unterschiedlicher [Algorithmen](../{MOC}%20Algorithmus.md) verglichen werden?
+- Wie kann die Sortierdauer unterschiedlicher [Algorithmen]({MOC}%20Algorithmus.md) verglichen werden?
 - Wie kann die Sortierung von Struktur-Feldern beschleunigt werden?

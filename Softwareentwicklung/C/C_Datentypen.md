@@ -26,7 +26,7 @@ Idee der Maschinenabhängigen Länge: Berechnungen laufen unter optimaler Speich
 
 in \<limits.h\> sind die Wertebereiche der Ganzzahl-Datentypen abgelegt (UCHAR_MAX …), in \<float.h\> sind die Wertebereiche der Fließkommatypen abgelegt (FLT_… DBL…).
 
-Um eine definierte Breite zur Verfügung zu stellen gibt's in \<stdint.h\> klar definierte Typen: int32\_t, int16\_t, int8_t … (ab Version C99)
+Um eine definierte Breite zur Verfügung zu stellen gibt's in \<stdint.h\> klar definierte Typen: int32\_t, int16\_t, int8_t … (ab Version [C99]({MOC}%20C.md))
 
 Für sämtliche Typen können die Vorsätze *signed* und *unsigned* verwendet werden. Ohne Vorsatz ist die Art Implementationsabhängig (meist vorzeichenbehaftet).
 

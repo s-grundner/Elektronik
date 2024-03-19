@@ -1,5 +1,5 @@
 ---
-tags: ["QT", "Cpp"]
+tags: ["Tool/QT", "Cpp"]
 aliases: []
 created: 29th November 2022
 ---

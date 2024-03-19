@@ -13,10 +13,10 @@ created: 13th October 2022
 # Eintakt-[Durchflusswandler](Durchflusswandler.md)
 
 - Eine [galvanisch](../../Chemie/Elektrochemie.md) getrennte, regelbare Ausgangsspannung
-- [Leistung](../../Physik/Elektrische%20Leistung.md) bis einige $100W$
+- [Leistung](../../Elektrotechnik/elektrische%20Leistung.md) bis einige $100W$
 - Transistorsperrspannung $U_{DS} \geq 2U_{e}$
 - Tastverhältnis $\frac{t_{ein}}{T} \leq 0.5$
-- Sehr gute [magnetische Kopplung](../Magnetische%20kopplung.md) notwendig
+- Sehr gute [magnetische Kopplung](../magnetische%20Kopplung.md) notwendig
 - Kleiner Kern ohne Luftspalt
 
 ## Schaltbild

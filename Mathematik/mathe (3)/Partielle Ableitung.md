@@ -50,5 +50,3 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
 
 
-![](assets/Pasted%20image%2020231106143523.png)
-

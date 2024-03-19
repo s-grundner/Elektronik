@@ -16,12 +16,12 @@ created: 19th August 2022
 - [Kernfusion](Kernfusion.md)
 - [Radioaktivität](../Chemie/Radioaktivität.md)
 - [Gasgesetze](Allgemeines%20Gasgesetz.md)
-- Energieumwandlung, Energieformen und [Leistung](Elektrische%20Leistung.md)
+- Energieumwandlung, Energieformen und [Leistung](../Elektrotechnik/elektrische%20Leistung.md)
 
 ### 5. Newtonsche Und Relativistische [Mechanik]({MOC}%20Mechanik.md)
 
 - [Relativitätstheorie](Relativitätstheorie.md)
-- [Newtonsche Axiome](Newtonsche%20Axiome.md)
+- [{MOC} Kräfte]({MOC}%20Kräfte.md)
 - [Welle-Teilchen-Dualismus](Welle-Teilchen-Dualismus.md)
 
 ### 6. Elektrizität, Schwingungsund Wellenphänomene in [Mechanik]({MOC}%20Mechanik.md), Optik Und Akustik
@@ -46,7 +46,7 @@ Energie 3-4 Klasse
 Einheiten nicht zwingend in SI Einheiten Zerlegen können
 
 Gravitationskraft  
-[Coulomb](../Elektrotechnik/Elektrische%20Kraft.md) kraft
+[Coulomb](../Elektrotechnik/Coulomb-Kraft.md) kraft
 $$
 \begin{align*}
 F &= m\cdot v \\

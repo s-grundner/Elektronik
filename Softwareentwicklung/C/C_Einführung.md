@@ -12,7 +12,7 @@ created: 29th November 2022
 - Implementierung vieler Unix-[Betriebssysteme](../Betriebssysteme/{MOC}%20Operating%20Systems.md) in C
 - Viele Kompiler anderer Sprachen sind in C implementiert worden
 - Viele Sprachen übernahmen Teile der Syntax
-- Mehrfach standardisiert (ANSI-C … C11, C18)
+- Mehrfach standardisiert ([ANSI-C]({MOC}%20C.md) … [C11]({MOC}%20C.md), [C18]({MOC}%20C.md))
 - Imperativ/Prozedural (= keine OOP)
 
 ## Anwendungsgebiete
@@ -31,8 +31,8 @@ Merkmale:
 K&R	(Kernighan and Ritchie)  
 C90  
 C95  
-C99  
-C11  
+[C99]({MOC}%20C.md)  
+[C11]({MOC}%20C.md)  
 C17
 
 …

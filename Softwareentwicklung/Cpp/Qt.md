@@ -1,13 +1,13 @@
 ---
 tags:
   - Cpp
-  - QT
+  - Tool/QT
 aliases:
-  - "#QT"
+  - "#Tool/QT"
 created: 29. November 2022
 ---
 
-# QT <Cute>
+# QT (Cute)
 
 QT ist ein Framework für die Entwicklung von C++ Programmen. Es bietet eine Vielzahl an hilfreichen Bibliotheken und einen GUI-Builder QT-Creator der für viele [Betriebssysteme](../Betriebssysteme/{MOC}%20Operating%20Systems.md) optimiert ist.
 
@@ -178,7 +178,12 @@ Häufig Button-Kombinationen sind in Dialog-Button-Box zusammengefasst. In den E
 - Im Code können ebenfalls einzelne Elemente eingefügt werden:
 
    ```c++
+
+
+
+
 ui->myComboBox->addItem("Mr. Smith");
+
    ```
 
 - Alternativ kann eine komplette Liste eingefügt werden:
@@ -193,7 +198,7 @@ ui->myComboBox->addItem("Mr. Smith");
   
   ui->myComboBox->addItems(myList);	// Liste komplett an ComboBox
   ```
-  
+
 - Ausgabe des aktuell ausgewählten Elements
 
   ```c++

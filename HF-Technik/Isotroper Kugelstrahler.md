@@ -8,9 +8,9 @@ created: 24th November 2022
 
 # Isotroper Kugelstrahler
 
-Der Isotrope Kugelstrahler ist eine theoretische [Antenne](Antenne.md), die die ihr zugeführte [Leistung](../Physik/Elektrische%20Leistung.md) gleichmäßiges in alle Richtungen abstrahlt.
+Der Isotrope Kugelstrahler ist eine theoretische [Antenne](Antenne.md), die die ihr zugeführte [Leistung](../Elektrotechnik/elektrische%20Leistung.md) gleichmäßiges in alle Richtungen abstrahlt.
 
-Die *Strahlungsdichte* $\vec{S_{i}}$ des isotropen Kugelstrahlers im *Abstand* $r$ kann aus der zugeführten *[Leistung](../Physik/Elektrische%20Leistung.md)* $P$ und der *Kugeloberfläche* $O = 4\pi r^{2}$, auf die sich die [Leistung](../Physik/Elektrische%20Leistung.md) verteilt, berechnet werden.
+Die *Strahlungsdichte* $\vec{S_{i}}$ des isotropen Kugelstrahlers im *Abstand* $r$ kann aus der zugeführten *[Leistung](../Elektrotechnik/elektrische%20Leistung.md)* $P$ und der *Kugeloberfläche* $O = 4\pi r^{2}$, auf die sich die [Leistung](../Elektrotechnik/elektrische%20Leistung.md) verteilt, berechnet werden.
 
 Die Strahlungsleistungsdichte ist unabhängig von den Winkeln $\varphi$ und $\vartheta$.
 

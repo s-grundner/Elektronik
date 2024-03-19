@@ -32,7 +32,7 @@ Damit ist dieser Ordner so konfiguriert, dass in diesem Ordner nur mehr auf dem 
 
 ## Upload in Diesen Ordner
 
-- In Windows in diesem lokalen Verzeichnis ein entsprechendes Verzeichnis anlegen. Darin das Qt-Projekt hineinkopieren (oder darin Erstellen).
+- In Windows in diesem lokalen Verzeichnis ein entsprechendes Verzeichnis anlegen. Darin das [Qt](../../Cpp/Qt.md)-Projekt hineinkopieren (oder darin Erstellen).
 
 - In der Kommandozeile in den Upload-Ordner wechseln
 
@@ -116,7 +116,7 @@ Untersuchen Sie SEng_Ue_DesignPattern.md/Wetterstation
 
 ### 03 Design-Pattern MVC
 
-Ausgehend von *SEng_DesignPattern.md/Qt-ListView* ist ein Qt-Projekt zu Erstellen mit:
+Ausgehend von *SEng_DesignPattern.md/Qt-ListView* ist ein [Qt](../../Cpp/Qt.md)-Projekt zu Erstellen mit:
 
 - Einem ListView
 - Einer ComboBox

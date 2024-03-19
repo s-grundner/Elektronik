@@ -16,7 +16,7 @@ Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
 Häufigste [Kombination](../../Mathematik/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
-- einfache Kapazitäten
+- einfache [Kapazitäten](../../Elektrotechnik/Kapazität.md)
 - nur eine [Induktivität](../../Elektrotechnik/Induktivitäten.md)  
 Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 

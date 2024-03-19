@@ -37,7 +37,7 @@ sqlite> .quit
 
 Mit dieser Folge wird ein Schema (Datenbank) **intro.db** erstellt (in eine gleichlautende Datei in diesem Verzeichnis). Wenn es dieses Schema schon gibt wird es geöffnet, ansonsten erstellt.
 
-Mittels einer ebenfalls verfügbaren dll kann via Programm (aus Windows) darauf zugegriffen werden. Alternativ sind selbstverständlich auch ODBC-Treiber erhältlich.
+Mittels einer ebenfalls verfügbaren dll kann via Programm (aus Windows) darauf zugegriffen werden. Alternativ sind selbstverständlich auch [ODBC](ODBC.md)-Treiber erhältlich.
 
 - <https://www.devart.com/odbc/sqlite/DevartODBCSQLite.exe>  
   dieser Treiber ist frei allerdings nur für 30 Tage lizenziert.

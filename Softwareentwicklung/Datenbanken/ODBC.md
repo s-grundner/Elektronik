@@ -96,20 +96,20 @@ Alternativ im CMake folgende Zeile einfügen:
 LINK_LIBRARIES(odbc32)
 ```
 
-### Qt-C++ Beispiel (503)
+### [Qt](../Cpp/Qt.md)-C++ Beispiel (503)
 
-Mit obigen Einstellungen mittels Qt:
+Mit obigen Einstellungen mittels [Qt](../Cpp/Qt.md):
 
-- das Qt-Projekt (pro-Datei) muss sql laden:
-  
-  ```
+- das [Qt](../Cpp/Qt.md)-Projekt (pro-Datei) muss sql laden:
+
+```
   QT += sql
   ```
 
 - Cpp:  
   es gibt viele Varianten via ODBC zuzugreifen: es wird die Treiberbezeichnung benötigt (*MySQL ODBC 8.0 ANSI Driver*)…
-  
-  ```c++
+
+```c++
   #include <QCoreApplication>
   #include <QDebug>
   
@@ -156,7 +156,7 @@ Mit obigen Einstellungen mittels Qt:
   ```
 
 - Alternativ:
-  
+
   ```c++
   #include <QCoreApplication>
   #include <QDebug>

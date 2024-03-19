@@ -20,6 +20,10 @@ temperature-coeff:
 
 # Nickel
 
+## Eigenschaften
+
+- Nickel ist [Ferromagnetisch](../../Chemie/Dipol%20(Chemie).md)
+
 ---
 
 - [Metall](../../Chemie/Metallbindung.md)

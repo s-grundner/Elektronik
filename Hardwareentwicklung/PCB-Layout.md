@@ -1,10 +1,12 @@
 ---
-tags: []
+tags: 
 aliases:
   - Leiterplatte
   - PCB
   - Leiterplatten-Design
   - PCB-Design
+  - DFM
+  - Design for Manufacturability
 source:
   - Rick Hartley
   - Mike Creeden
@@ -13,7 +15,7 @@ created: 19th August 2023
 
 # PCB-Layout
 
-![500](assets/Pasted%20image%2020230822172103.png)
+![500](assets/DFM.png)
 
 - **Design For Solvability: DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
 - **Design For Performance: DFP - Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), [Thermisch](../Physik/Temperatur%20und%20Teilchenmodell.md), [Strom](../Elektrotechnik/elektrischer%20Strom.md) 
@@ -27,7 +29,7 @@ created: 19th August 2023
 
 ### Stack-Up
 
-1. Dünnes Dielektrikum zwischen Signal-Layer und GND-Layer
+1. Dünnes [Dielektrikum](../Elektrotechnik/Dielektrikum.md) zwischen Signal-Layer und GND-Layer
 	- Verbessert die Kopplung zwischen Signal und GND
 	- verringert [Induktivität](../Elektrotechnik/Induktivitäten.md)
 	- erhöht [Kapazität](../Elektrotechnik/Kapazität.md) zwischen Flächen  

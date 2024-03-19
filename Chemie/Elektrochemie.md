@@ -24,7 +24,7 @@ created: 21st August 2022
 Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit [Strom](../Elektrotechnik/elektrischer%20Strom.md).
 
 >[!EXAMPLE] Elektrolyse von $CuCl_{2}$ ([Kupfer](../Physik/Materialkunde/Kupfer.md)(II)-chlorid Lösung)  
->![350](assets/Cucl.png)
+>![#invert_light|350](assets/Cucl.png)
 
 | [Reduktion](Oxidation%20und%20Reduktion.md) (Aufnahme von $e^{-}$) | [Oxidation](Oxidation%20und%20Reduktion.md) (Abgabe von $e^{-}$) |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -38,12 +38,12 @@ Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
 ### 1.1 Berechnung Elektrolytischer Vorgänge
 
-Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
+Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/elektrisches%20Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
 $Q=I\cdot t$  
 Faraday Konstante: $F = 96485 \frac{As}{mol}$
 
-> [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige [Ladung](../Elektrotechnik/Statisches%20E-Feld.md)  
-Wie viel [Ladung](../Elektrotechnik/Statisches%20E-Feld.md) benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
+> [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige [Ladung](../Elektrotechnik/elektrisches%20Feld.md)  
+Wie viel [Ladung](../Elektrotechnik/elektrisches%20Feld.md) benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
 $Cu^{2+} + 2e^{-}\longrightarrow Cu\downarrow$
 
 ---
@@ -121,14 +121,14 @@ elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) 
    
 4. Stromkreis ist geschlossen
 
-#### 2.2.2 Welche [Spannung](../Elektrotechnik/Spannung.md) Entsteht
+#### 2.2.2 Welche [Spannung](../Elektrotechnik/elektrische%20Spannung.md) Entsteht
 
-[Spannung](../Elektrotechnik/Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
-[Spannung](../Elektrotechnik/Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
+[Spannung](../Elektrotechnik/elektrische%20Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
+[Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
 
 ### 2.3 Standard-Wasserstoffelektrode
 
-[Spannung](../Elektrotechnik/Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
+[Spannung](../Elektrotechnik/elektrische%20Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
 Vermessung gegen eine Bezugselektrode ist notwendig.  
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$  
 ![DaniellEL2](assets/DaniellEL2.png)  

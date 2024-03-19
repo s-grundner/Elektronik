@@ -77,7 +77,7 @@ $$
 > Das erkennt man durch Einsetzen  
 > Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
 
-![](../assets/Pasted%20image%2020221201121517.png)
+![](../assets/Skizze1.png)
 
 $$
 \begin{align*}
@@ -137,7 +137,7 @@ B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}\\
 \end{align*}
 $$
 
-![600](../assets/Pasted%20image%2020221212102110.png)
+![600](../assets/Skizze2.png)
 
 $$
 \begin{align*}
@@ -158,7 +158,7 @@ Bandbreite: Obere minus untere [Grenzfrequenz](../Grenzfrequenz.md)
 # Serien [Schwingkreis](../../Physik/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
 > [!INFO] Schaltung  
-> ![Pasted image 20221213082043](../assets/Pasted%20image%2020221213082043.png)
+> ![Pasted image 20221213082043](../assets/Skizze3.png)
 
 ## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
 

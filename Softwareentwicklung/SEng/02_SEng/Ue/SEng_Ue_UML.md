@@ -1,6 +1,7 @@
 ---
-tags: ["Software-Engineering", )]
-aliases: []
+tags:
+  - Software-Engineering
+aliases: 
 created: 29th November 2022
 ---
 
@@ -210,7 +211,6 @@ class MainWindow : public QMainWindow{
 
 ![UML-Klasse](assets/UML_Ue_Einf_04.png)
 
-
 ```mermaid
 classDiagram
    %% mermaid: https://mermaid-js.github.io/mermaid/#/classDiagram
@@ -232,8 +232,6 @@ class CDreieck{
 	+draw(QPainter *):void
 }
 ```
-
-
 
 Hier ist *MainWindow* von *QMainWindow* abgeleitet. *CFigure* ist Teil von *MainWindow* (Aggregation). Grundsätzlich kann *CFigure* auch ohne diese Beziehung sein, daher keine Komposition. In der obigen Implementierung ist *list* eine Sammlung von Zeigern auf *CFigure*. Daher sind die *CFigure*-Objekte eigentlich außerhalb der Klasse und mittels Zeiger in die Klasse verbunden (daher Aggregation).
 

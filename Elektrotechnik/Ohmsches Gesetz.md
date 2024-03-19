@@ -20,13 +20,9 @@ U&=\int_l E d s=E \int_l d s=E l=\frac{J}{\sigma} l=I \frac{1}{\sigma A} l\\
 \end{align}
 $$
 
-## 1 Serienschaltung von Widerständen
+# Übung
 
-![|400](assets/Pasted%20image%2020230926163508.png)
-
-## 2 Parallelschaltung von Widerständen
-
-![|400](assets/Pasted%20image%2020230926163531.png)
+![[../assets/Excalidraw/Ohmsches Gesetz 2024-03-18 22.31.23.excalidraw]]
 
 # Tags
 

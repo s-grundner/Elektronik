@@ -22,7 +22,7 @@ $\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.m
 
 ### Elektromotor
 
-- Stator mit Permanentmagneten verursacht ein statisches Magnetfeld.
+- Stator mit Permanentmagneten verursacht ein statisches [Magnetfeld](../Elektrotechnik/magnetisches%20Feld.md).
 - Rotor mit [Elektromagnet](../Physik/Elektromagnet.md) der sich dreht.
 - Kommutator sorgt für die Umpolung des Rotor.
 
