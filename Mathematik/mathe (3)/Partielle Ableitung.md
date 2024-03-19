@@ -53,7 +53,7 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 
 ## Hesse Matrix
 
-![[../../assets/Excalidraw/Partielle Ableitung 2024-03-19 17.40.01.excalidraw]]
+![4000](../../assets/Excalidraw/Partielle%20Ableitung%202024-03-19%2017.40.01.excalidraw)
 
 # Tags
 
