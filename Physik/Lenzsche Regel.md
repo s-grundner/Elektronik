@@ -1,11 +1,21 @@
 ---
-tags:
-  - incomplete
+tags: 
 aliases:
   - Lenz
   - Lenz'sche Regel
-created: 21st November 2022
+keywords: 
+subject:
+  - VL
+  - Einf. E
+semester:
+  - B1
+  - WS23
+created: 21. November 2022
+professor:
+  - Bernhard Jakoby
+  - Michale Offenhuber
 ---
+ 
 
 # Lenz'sche Regel
 
