@@ -26,6 +26,17 @@ Quasistationäre Betrachtung:
 - Ausbreitungsgeschwindigkeit von Wellen wird vernachlässigt
 - Das gesamte Netzwerk wird mit der selben Kreisfrequenz betrieben
 
+### Linearität
+
+![[../assets/Excalidraw/Wechselstromtechnik 2024-03-19 01.08.27.excalidraw]]
+### Zeiger
+
+Sinusförmige Zeitfunktionen werden zu komplexen Zeigern
+- Erleichtern das Rechnen
+- 
+
+$u(t) = \hat{u}\cos(\omega t+\varphi_{u})$ wird zu $u(t) = $
+
 ## Parallelschaltung zu Serienschaltung
 
 Ersatzbild ist nur für *eine* Frequenz gültig
