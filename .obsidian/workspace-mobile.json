@@ -4,23 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "461f9a6cba8a7b9b",
+        "id": "ff8b471bba604906",
         "type": "tabs",
         "children": [
           {
-            "id": "b12d103b01437556",
+            "id": "e239edc5bc5bac8b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e433603a6c2d49c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Maschenstromverfahren.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "c50c3ddf886f2c15",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-03-19 12.31.14.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +117,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Home.md",
+            "file": "Maschenstromverfahren.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +134,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Home.md",
+            "file": "Maschenstromverfahren.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -127,7 +146,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Home.md"
+            "file": "Maschenstromverfahren.md"
           }
         }
       },
@@ -162,58 +181,57 @@
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "homepage:Open homepage": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "b12d103b01437556",
+  "active": "3e433603a6c2d49c",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-03-19 12.31.14.excalidraw.md",
+    "Maschenstromverfahren.md",
+    "Excalidraw",
+    "Elektrotechnik/Coulomb-Kraft.md",
+    "Physik/Konstanten/{MOC} Konstanten.md",
+    "Physik/Konstanten/Elementarladung.md",
+    "Elektrotechnik/elektrische Ladung.md",
+    "Elektrotechnik/Elektrisches Feld.md",
+    "Elektrotechnik/Linienladung.md",
     "Home.md",
-    "Mathematik/mathe (3)/Partielle Ableitung.md",
-    "Softwareentwicklung/{MOC} Algorithmus.md",
-    "Softwareentwicklung/ds-algo/Wavefunction-Collapse.md",
-    "Mathematik/mathe (4)/Gauß-Jordan-Verfahren.md",
-    "Elektrotechnik/lineare Quellen.md",
-    "Elektrotechnik/assets/KlemmenverhaltenLinQuell.png",
-    "Elektrotechnik/Impedanz Anpassung.md",
-    "Elektrotechnik/lineare Systeme.md",
-    "Elektrotechnik/Schaltungsanalyse.md",
-    "Mathematik/mathe (3)/Differenzialrechnung.md",
-    "Digitaltechnik/Interfaces/SPI.md",
-    "Digitaltechnik/Interfaces/CAN.md",
-    "Digitaltechnik/Interfaces/UART.md",
-    "Digitaltechnik/Interfaces/{MOC} Schnittstellen.md",
-    "Digitaltechnik/Interfaces/MIDI.md",
-    "Digitaltechnik/Interfaces/I2C.md",
+    "Hardwareentwicklung/assets/Skizze3.png",
+    "Elektrotechnik/assets/Wechselfelder.png",
+    "Technische Informatik/assets/y_diag.png",
+    "Chemie/assets/Dipolmoment.png",
+    "Chemie/assets/Pasted image 20240310011251.png",
+    "Elektrotechnik/assets/mast.png",
+    "Hardwareentwicklung/assets/SignalIntegritätReflexion.png",
+    "Elektrotechnik/assets/elekStrom.png",
+    "assets/Excalidraw/Ohmsches Gesetz 2024-03-18 22.31.23.excalidraw.md",
+    "Chemie/assets/Pasted image 20240310010157.png",
+    "Hardwareentwicklung/assets/SignalIntegritätReflexionSchlecht.png",
+    "Elektrotechnik/Laplace-Kraft.md",
+    "assets/Excalidraw/Flächenladung 2024-03-18 22.06.01.excalidraw.md",
+    "Softwareentwicklung/ds-algo/{MOC} Algorithmus.md",
+    "Netzwerktechnik/Protokolle",
+    "Netzwerktechnik/Nw/Router.md",
+    "assets/Excalidraw/Linienladung 2024-03-18 21.53.17.excalidraw.md",
+    "Netzwerktechnik/Protokolle/HTTP.md",
+    "assets/Excalidraw/Drawing 2024-03-14 20.20.50.excalidraw.md",
+    "assets/Excalidraw/Wechselstromtechnik 2024-03-18 23.04.08.excalidraw.md",
+    "Softwareentwicklung/C/assets/pdf",
+    "Softwareentwicklung/ds-algo/Algorithmusbegriff.md",
+    "Netzwerktechnik/Protokolle/FTP.md",
+    "Softwareentwicklung/ds-algo/Ablaufdiagramm.md",
+    "Softwareentwicklung/C/assets/pdf/C.CheatSheet.pdf",
+    "assets/Excalidraw/Drawing 2024-03-13 10.24.40.excalidraw.md",
+    "Elektrotechnik/Leistungsanpassung.md",
+    "assets/Excalidraw/Knotenpotentialverfahren 2024-03-13 21.34.50.excalidraw.md",
+    "Elektrotechnik/Zählpfeilsysteme.md",
+    "Chemie/Polarisation.md",
+    "Softwareentwicklung/C/assets/pdf/cheat_sheet_c.pdf",
+    "Netzwerktechnik/Nw/Ue",
     "Digitaltechnik/Interfaces",
-    "Digitaltechnik/ESP32.md",
-    "Netzwerktechnik/HTTP.md",
-    "Netzwerktechnik/Socket.md",
-    "assets/banner/NotesBG.jpg",
-    "assets/Masche.png",
-    "assets/Knoten.png",
-    "assets/Excalidraw/ExcalidrawStartup.md",
-    "Chemie/assets/DrudeStosszeiten.png",
-    "Chemie/assets/Drude.png",
-    "Chemie/assets/volt-saeule.png",
-    "Chemie/Leclanché-Element.md",
-    "Chemie/Nickel-Cadmium-Akku.md",
-    "Chemie/elektrischer Leiter.md",
-    "Chemie/Daniell-Element.md",
-    "Chemie/Ionisierungsenergie.md",
-    "Chemie/Atomradius.md",
     "Softwareentwicklung/SEng/02_SEng/Ue/SEng_Ue2_SoftwareEngineering.txt",
     "Softwareentwicklung/SEng/02_SEng/Ue",
     "Softwareentwicklung/SEng/02_SEng/pdf/SEng_UML_Plakat_UML_Plakat-2018web.pdf",
-    "Softwareentwicklung/SEng/02_SEng/pdf/SoftwareEngineering.pdf",
-    "Softwareentwicklung/SEng/02_SEng/pdf/SEng_Scrum_Plakat_Agiler_Kern_RE-Plakat_V2_SOPHIST.pdf",
-    "Softwareentwicklung/SEng/02_SEng/pdf/SEng_UML_Plakat_Notationsübersicht-2.5.pdf",
-    "Softwareentwicklung/SEng/02_SEng/pdf",
-    "Mathematik/mathe (3)/assets/VectorMatrixTensor.png",
-    "Mathematik/mathe (3)/assets/Kreuzprodukt.png",
-    "Mathematik/mathe (3)/assets/Skalarprodukt.png",
-    "Digitaltechnik/assets/pdf/dm00173145-description-of-stm32l4l4-hal-and-lowlayer-drivers-stmicroelectronics.pdf",
-    "00_templates/FastStart",
     "Mathematik/mathe (5)/{CNV} Wahrscheinlichkeit.canvas",
     "Untitled.canvas"
   ]
