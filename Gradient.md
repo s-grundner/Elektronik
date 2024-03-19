@@ -15,4 +15,11 @@ professor:
 
 # Gradient
 
-![[assets/Excalidraw/Gradient 2024-03-19 17.18.35.excalidraw]]
+![4000](assets/Excalidraw/Gradient%202024-03-19%2017.18.35.excalidraw.md)
+
+$$
+\begin{align}
+\nabla f\cdot \vec{e} &= 100\% \\
+\nabla f=\left( \frac{\partial f}{\partial x},  \right)
+\end{align}
+$$
