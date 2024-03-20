@@ -9,15 +9,6 @@ class mybutton
 ^button-jku-moodle
 
 ```button
-name ÖH JKU
-type link
-action https://new.oeh.jku.at/
-class mybutton
-```
-
-^button-oeh
-
-```button
 name KUSSS
 type link
 action https://kusss.jku.at/kusss/index.action
@@ -47,7 +38,18 @@ class mybutton
 ```button
 name inside
 type link
-action https://moodle.jku.at
+action https://inside.oeh.jku.at/
 color default
 class mybutton
 ```
+
+^button-inside
+
+```button
+name ÖH JKU
+type link
+action https://new.oeh.jku.at/
+class mybutton
+```
+
+^button-oeh
