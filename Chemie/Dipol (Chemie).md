@@ -41,6 +41,15 @@ $H_{2}S$ gasförmig (geringeres Dipolmoment)
 > $+Q$ und $-Q$ sind die Ladungsschwerpunkte des Moleküls
 > $Q$ wird ist da selbe wie $\delta$ bisher
 
+# Magnetischer Dipol
+
+rotierende Ladungen im Molekül
+
+Sind alle Magnetischen Dipole im Material in die Selbe Richtung gerichtet, hat man einen Permanent Magneten
+
+
+Man kann diese Dipole auch künstlich richten. Wenn man ein Magnetfeld durch einen Leiter Legt, richten sich die Dipole. Das Material wird mit hysteresem Verlauf Magnetisiert. Funktioniert nur mit Ferromagnetischen Materialien (Fe, [Ni](../Physik/Materialkunde/Nickel.md), Co).
+
 ---
 
 # Tags

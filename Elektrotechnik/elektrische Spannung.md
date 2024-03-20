@@ -41,9 +41,13 @@ professor:
 
 ## 1 Spannungsquellen
 
-> [!info] Spannungsquellen beruhen darauf, dass eine [Kraft](../Physik/{MOC}%20Kräfte.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](elektrisches%20Feld.md) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
+> [!info] Spannungsquellen beruhen darauf, dass eine [Kraft](../Physik/{MOC}%20Kräfte.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](elektrisches%20Feld.md) (externe Kräfte) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
+
+### Externe Kräfte
 
 > [!question] Chemisch lassen sich Spannungsquellen durch [Akkus](../Chemie/Sekundärelement.md) und [Batterien](../Chemie/Primärelement.md) auf Basis der [Elektrochemie](../Chemie/Elektrochemie.md) realisieren.
 > Man spricht von einer *elektrochemischen Spannungsquelle*
 
-Der Spannungseinbruch der Entsteht wenn eine Last an die Quelle angehängt wird, kann durch den Innenwiderstand modelliert werden
+> [!question] Lorentz Kraft
+
+Der Spannungseinbruch der Entsteht wenn eine Last an die Quelle angehängt wird, kann durch den Innenwiderstand modelliert werden. Aufgrund von Material eigenschaften werden Kräfte benötigt um die Elektronen aus der Quelle abzuführen. Diese Kraft verringert das E-Feld und somit die Spannung. Wir betrachten es immer als Spannungsabfall im Innenwiderstand

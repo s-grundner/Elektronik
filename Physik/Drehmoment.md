@@ -20,4 +20,4 @@ professor:
 
 Beispiel Drehstuhl:
 
-![[assets/Drehmoment 2024-01-24 13.13.30.excalidraw]]
+![[../assets/Excalidraw/Drehmoment 2024-01-24 13.13.30.excalidraw]]

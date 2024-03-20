@@ -35,6 +35,6 @@ Unterschied zur Stern Schaltung
 
 ### Zeiger Diagramm
 
-![[assets/Dreiphasensysteme 2024-01-24 08.49.51.excalidraw]]
+![[../assets/Excalidraw/Dreiphasensysteme 2024-01-24 08.49.51.excalidraw]]
 
 ## Leistung

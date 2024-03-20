@@ -58,6 +58,13 @@ Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20
 $$
 Q=C\cdot U
 $$
+> [!important]- Begründung
+> $$
+> \left.\begin{align}
+> U = \int \vec{E}\cdot d\vec{s} \implies U \propto E \\
+> E = Q \cdot \frac{1}{4\pi\varepsilon_{0}r^{2} }\implies E \propto Q
+> \end{align}\right\} \implies U \propto Q
+> $$
 
 ### 2.2 [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 
@@ -144,3 +151,17 @@ $$
 # Tags
 
 [Abblockkondensator](Abblockkondensator.md)
+
+# Übung & Flashcards
+
+Warum ist im Kondensator $Q$ proportional zu $U$?
+?
+$$
+\left.\begin{align}
+U = \int \vec{E}\cdot d\vec{s} \implies U \propto E \\
+E = Q \cdot \frac{1}{4\pi\varepsilon_{0}r^{2} }\implies E \propto Q
+\end{align}\right\} \implies U \propto Q
+$$
+Außerdem gilt:
+$i = \frac{dq}{dt} = C\cdot \frac{du}{dt}$
+$dq = C\cdot du\implies Q=C\cdot U$
