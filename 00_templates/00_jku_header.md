@@ -3,8 +3,12 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - <% tp.system.suggester(["VL", "UE", "KV", "PR"],["VL", "UE", "KV", "PR"])%>
-  - <% tp.system.suggester(["Mathe 2", "ET", "SWE 2", "DS-Algo", "VHDL", "NES"], ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"])%>
+  - <%* const type = ["VL", "UE", "KV", "PR"]
+    let paste_type = await tp.system.suggester(type, type, true, "LVA Type")
+    tR += paste_type %>
+  - <%* const subs = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"]
+    let paste_lva = await tp.system.suggester(subs, subs, true, "LVA Name") 
+    tR += paste_lva %>
 semester:
   - SS24
   - B2
