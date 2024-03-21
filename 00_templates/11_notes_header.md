@@ -15,10 +15,28 @@ professor:
 
 # <%* tR += lva %>
 
-<%* tp.file.rename("{NOTES} " + lva) _%> 
+<%* tp.file.rename(["{NOTES} ", lva].join()) _%> 
+
+## Vorlesung
 
 ```dataview
 TABLE keywords, file.cday AS "creation date"
-WHERE contains(subject, "<%* lva %>") AND !contains(file.name, "jku_header") AND !contains(file.name, "{NOTES}") AND !contains(file.folder, "Rubbish")
+WHERE contains(subject, "<%* tR += lva _%>")
+AND contains(subject, ["VL" , "VO", "KV"])
+AND !contains(file.name, "jku_header")
+AND !contains(file.name, "{NOTES}")
+AND !contains(file.folder, "Rubbish")
+SORT file.cday ASC
+```
+
+## Übung
+
+```dataview
+TABLE keywords, file.cday AS "creation date"
+WHERE contains(subject, "<%* tR += lva _%>")
+AND contains(subject, "UE") 
+AND !contains(file.name, "jku_header")
+AND !contains(file.name, "{NOTES}")
+AND !contains(file.folder, "Rubbish")
 SORT file.cday ASC
 ```
