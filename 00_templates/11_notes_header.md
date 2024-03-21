@@ -15,7 +15,7 @@ professor:
 
 # <%* tR += lva %>
 
-<%* tp.file.rename(["{NOTES} "\, lva].join()) _%> 
+<%* tp.file.rename("{NOTES} ".concat(lva)) _%> 
 
 ## Vorlesung
 
