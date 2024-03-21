@@ -65,4 +65,4 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 
 ![](assets/Pasted%20image%2020240129163146.png)
 
-[^1]: Satz 1.5 - [Skriptum - Andreas Neubauer](../xEDU/JKU/Mathe/mathematik.pdf), [S. 6]
+[^1]: Satz 1.5 - Skriptum - Andreas Neubauer, [S. 6]

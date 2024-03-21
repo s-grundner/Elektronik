@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: ["Taylorreihen", "McLaurenreihe"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags: 
+aliases:
+  - Taylorreihen
+  - McLaurenreihe
+  - Taylorpolynom
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 24th March 2022
 ---
 
@@ -25,6 +30,8 @@ created: 24th March 2022
 > Für den Fall, dass $a=0$ sprich man von einer *McLaurin-Reihe*
 
 ![](assets/Pasted%20image%2020231106142554.png)
+
+
 
 # [Differenzieren](../mathe%20(3)/Differenzialrechnung.md) von Taylorreihen
 
