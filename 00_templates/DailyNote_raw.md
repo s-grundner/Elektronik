@@ -4,9 +4,9 @@ created: 2023-10-16 08:37
 banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 ---
 
-# <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
-⬅️ [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd') %>|Gestern]] | [[<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>|Morgen]] ➡️
+<center> <h1> <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %> </h1> </center>
+<center> ⬅️ <a href="<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd') %>.md" class="internal-link">Gestern</a> | <a href="<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>.md" class="internal-link">Morgen</a> ➡️ </center>
 
 ---
 

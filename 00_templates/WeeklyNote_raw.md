@@ -1,4 +1,7 @@
 ---
+banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
+---
+---
 tags: DailyNotes
 created: 2023-10-16 08:37
 banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
