@@ -29,14 +29,4 @@ created: 24th March 2022
 > [!INFO] Entwicklung an der Stelle 0 (McLaurin-Reihe)  
 > Für den Fall, dass $a=0$ sprich man von einer *McLaurin-Reihe*
 
-![](assets/Pasted%20image%2020231106142554.png)
-
-
-
-# [Differenzieren](../mathe%20(3)/Differenzialrechnung.md) von Taylorreihen
-
-# Integrieren von Taylorreihen
-
----
-
-# Tags
+![#invert_dark](assets/taylor.png)
