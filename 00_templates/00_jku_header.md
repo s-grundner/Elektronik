@@ -1,11 +1,10 @@
-<%* await tp.file.include(tp.file.find_tfile("LVASWS23")) _%>
 ---
 tags: 
 aliases: 
 keywords: 
 subject:
-  - <%* tR += paste_type _%>
-  - <%* tR += paste_lva _%>
+  - <% tp.user.get_lva_type()%>
+  - <% tp.user.get_lva_from("SS24")%>
 semester:
   - SS24
   - B2
