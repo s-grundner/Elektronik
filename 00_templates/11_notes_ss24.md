@@ -38,11 +38,3 @@ AND !contains(file.name, "{NOTES}")
 AND !contains(file.folder, "Rubbish")
 SORT file.cday ASC
 ```
-
-## Sources
-
-```dataview
-LIST
-WHERE contains(file.folder, ".\*")
-AND contains(file.name, ".pdf")
-```

@@ -1,14 +1,11 @@
+<%* await tp.file.include(tp.file.find_tfile("LVASWS23")) _%>
 ---
 tags: 
 aliases: 
 keywords: 
 subject:
-  - <%* const type = ["VL", "UE", "KV", "PR"]
-    let paste_type = await tp.system.suggester(type, type, true, "LVA Type")
-    tR += paste_type %>
-  - <%* const subs = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"]
-    let paste_lva = await tp.system.suggester(subs, subs, true, "LVA Name") 
-    tR += paste_lva %>
+  - <%* tR += paste_type _%>
+  - <%* tR += paste_lva _%>
 semester:
   - SS24
   - B2
