@@ -4,8 +4,8 @@ aliases:
   - D-Diagramm
 keywords: 
 subject:
-  - UE
   - Algorithmen und Datenstrukturen
+  - VL
 semester:
   - SS24
   - B2
@@ -21,7 +21,7 @@ professor:
 | if | ![100](assets/Pasted%20image%2020240313130056.png) |
 | while | ![150](assets/Pasted%20image%2020240313130246.png) |
 | end while | ![50](assets/Pasted%20image%2020240313130517.png) |
-| return |                                                    |
+| return | |
 
 ## 1 D-Diagramm
 
