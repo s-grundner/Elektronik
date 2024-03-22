@@ -1,6 +1,5 @@
 <%* const subs = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"]
 let lva = await tp.system.suggester(subs, subs, true, "LVA") -%>
-
 ---
 tags: NOTES
 subject:
@@ -21,7 +20,7 @@ professor:
 ```dataview
 TABLE keywords, file.cday AS "creation date"
 WHERE contains(subject, "<%* tR += lva _%>")
-AND contains(subject, ["VL" , "VO", "KV"])
+AND (contains(subject, "VL") OR contains(subject, "KV"))
 AND !contains(file.name, "jku_header")
 AND !contains(file.name, "{NOTES}")
 AND !contains(file.folder, "Rubbish")
@@ -38,4 +37,12 @@ AND !contains(file.name, "jku_header")
 AND !contains(file.name, "{NOTES}")
 AND !contains(file.folder, "Rubbish")
 SORT file.cday ASC
+```
+
+## Sources
+
+```dataview
+LIST
+WHERE contains(file.folder, ".\*")
+AND contains(file.name, ".pdf")
 ```
