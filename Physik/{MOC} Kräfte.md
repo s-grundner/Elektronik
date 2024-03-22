@@ -17,7 +17,7 @@ professor:
 
 > [!QUESTION] Was ist die Kraft?  
 >  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md)) ändert.
->  - Interessante Diskussion in [Einf. ET](../xEDU/(SemB1)-WS23/Einführung%20Elektrotechnik/{NOTES}%20Einführung%20Elektrotechnik.md) Skriptum Teil 1 von Bernhard Jakoby
+>  - Interessante Diskussion in [Einf. ET](../xEDU/(SemB1)-WS23/Einführung%20Elektrotechnik/{NOTES}%20Mathematik%202.md) Skriptum Teil 1 von Bernhard Jakoby
 
 Die moderne Physik kennt *4* Kräfte:
 
