@@ -3,8 +3,7 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - <% tp.user.get_lva_type()%>
-  - <% tp.user.get_lva_from("SS24")%>
+  - <%* tp.user.get_lva() %>
 semester:
   - SS24
   - B2
