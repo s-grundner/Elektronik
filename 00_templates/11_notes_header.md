@@ -1,11 +1,10 @@
+<%* const subs = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"]
+let lva = await tp.system.suggester(subs, subs, true, "LVA") -%>
+
 ---
 tags: NOTES
 subject:
-  - <%* 
-const subs = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"]
-let lva = await tp.system.suggester(subs, subs, true, "LVA") 
-tR += lva 
-%>
+  - <%* tR += lva %>
 semester:
   - SS24
   - B2
