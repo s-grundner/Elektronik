@@ -17,9 +17,10 @@ professor:
 
 # Bitoperatoren
 
-Oft wird die Sprache C im hardwarenahen Bereich eingesetzt. Dadurch werden zusätzlich zu den üblichen Operatoren gerade die Bit-Operatoren häufig verwendet.
+Oft wird die Sprache C im hardwarenahen Bereich eingesetzt.
+Dadurch werden zusätzlich zu den üblichen Operatoren gerade die Bit-Operatoren häufig verwendet.
 
-## Links Schieben <<
+## Links Schieben `<<`
 
 > [!important] Jede Verschiebung um 1 Bit nach Links entspricht einer Multiplikation mit 2
 > - *linker* Operand als Binärzahl betrachten
@@ -32,7 +33,7 @@ $1<<4 \equiv 2^{4} \equiv b 0010000$
 > b11 ($=3$) verschoben ergibt b**1100** ($=12$). 
 > $3\cdot 2 \cdot 2 = 12$
 
-## Rechts Schieben >>
+## Rechts Schieben `>>`
 
 > [!important] Jede Verschiebung um 1 Bit nach Rechts entspricht einer Division durch 2.
 > - *linker* Operand als Binärzahl betrachten
@@ -42,27 +43,26 @@ $1<<4 \equiv 2^{4} \equiv b 0010000$
 > b**111** ($=7$) um 2 verschoben ergibt **1bin** (= 1dez). 
 > $7 / 2 / 2 = 1$
 
-## Bitweise Verundung &
+## Bitweise Verundung `&`
 
 > [!info]- Die *Verundung* ist die "Multiplikation" in der Booleschen Algebra:
 > $$A\wedge B = Y\qquad A\cdot B = Y\qquad A \& B = Y$$
-> 
-> |  A  |  B  |  Y  |
-> |:---:|:---:|:---:|
-> |  0  |  0  |  0  |
-> |  0  |  1  |  0  |
-> |  1  |  0  |  0  |
-> |  1  |  1  |  1  | 
-
+>
+> > |  A  |  B  |  Y  |
+> > |:---:|:---:|:---:|
+> > |  0  |  0  |  0  |
+> > |  0  |  1  |  0  |
+> > |  1  |  0  |  0  |
+> > |  1  |  1  |  1  | 
 
 > [!example] `7 & 5`	 	(**111bin** & **101bin**)	ergibt	**101bin**.
 > 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verundet usf.
 
-## Bitweise Veroderung |
+## Bitweise Veroderung `|`
 
-> [!info]- Die *Veroderung* ist die "Addition" in der Booleschen Algebra: $A + B = Y$
-> $$A \vee B = Y\qquad A + B = Y\qquad A | B = Y$$
-> > 
+> [!info]- Die *Veroderung* ist die "Addition" in der Booleschen Algebra
+> $$A \vee B = Y\qquad A + B = Y\qquad A \mid B = Y$$
+>
 > > |  A  |  B  |  Y  |
 > > |:---:|:---:|:---:|
 > > |  0  |  0  |  0  |

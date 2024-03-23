@@ -53,10 +53,11 @@ const int mydata[] PROGMEM = ...
 
 ## AVR-lib Basics
 
-- Bit setzen: `REG = REG | (1<<REG[n])`
-- Bit löschen: `REG = REG & ~(1<<REG[n])`
-- Bit toggeln: `REG = REG ^ (1<<REG[n])`
-- Bit abfragen: `BOOL = REG & (1<<REG[n])`
+
+- Bit im Register setzen: `REG = REG | (1<<REG[n])`
+- Bit im Register löschen: `REG = REG & ~(1<<REG[n])`
+- Bit im Register toggeln: `REG = REG ^ (1<<REG[n])`
+- Bit aus Registerabfragen: `BOOL = REG & (1<<REG[n])`
 
 ## PIN, PORT, DDR
 
