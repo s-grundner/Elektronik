@@ -85,12 +85,12 @@ $1<<(5 - 1) \equiv 2^{4} \equiv b 0010000$
 > > |  1  |  0  |  1  |
 > > |  1  |  1  |  0  |
 
-> [!example] `0x34 ^ 0x22`	 	(**0110bin** ^ **0010bin**)	ergibt	**0100bin**.
+> [!example] `0x34 ^ 0x22`	 	(b**0110** ^ b**0010**)	ergibt	b**0100**.
 > 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verexort usf.
 
 ## Bitweise Negation `~`
 
-> [!example] `~0x22`	 	(**\~0010 0010bin**)	ergibt	**1101 1101bin**.
+> [!example] `~0x22`	 	(b**~0010 0010**)	ergibt	b**1101 1101**.
 > An jeder Stelle wird aus 1 -> 0 und aus 0 -> 1.
 
 ---
