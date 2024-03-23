@@ -11,14 +11,14 @@ aliases:
 keywords: 
 subject:
   - Einf. ET
-  - "335.005"
+  - VL
 semester:
   - WS23
   - B1
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
-banner: "/Elektrotechnik/assets/mast.png"
+banner: /Elektrotechnik/assets/mast.png
 banner_y: "0.3"
 ---
 

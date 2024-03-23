@@ -4,8 +4,7 @@ aliases:
 keywords: 
 subject:
   - Einf. ET
-  - "335.005"
-  - "335.011"
+  - PR
 semester:
   - WS23
   - B1

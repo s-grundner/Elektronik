@@ -6,8 +6,7 @@ aliases:
 keywords: 
 subject:
   - Einf. ET
-  - "335.021"
-  - "335.005"
+  - UE
 semester:
   - WS23
 created: 28. Januar 2024

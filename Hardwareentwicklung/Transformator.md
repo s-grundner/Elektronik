@@ -4,6 +4,7 @@ aliases:
 keywords: 
 subject:
   - Einf. ET
+  - VL
 semester:
   - WS23
   - B1
