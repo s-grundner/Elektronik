@@ -93,6 +93,8 @@ $1<<(5 - 1) \equiv 2^{4} \equiv b 0010000$
 > [!example] `~0x22`	 	(**\~0010 0010bin**)	ergibt	**1101 1101bin**.
 > An jeder Stelle wird aus 1 -> 0 und aus 0 -> 1.
 
+---
+
 # Typische Anwendungen:
 
 - es soll das nte Bit eines Registers r auf 1 gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.  
