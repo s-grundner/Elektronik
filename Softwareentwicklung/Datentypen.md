@@ -1,18 +1,23 @@
 ---
 tags: 
 aliases: 
-keywords: []
+keywords: 
 subject:
-  - Softwareentwicklung1
-semester: 1
+  - VL
+  - Softwareentwicklung 1
+semester:
+  - WS23
+  - B1
 created: 16. Oktober 2023
 professor:
 ---
  
 
-# Ganzzahlige Datentypen
+# Datentypen
 
-## EBNF Grammatik
+## Ganzzahlige Datentypen
+
+### EBNF Grammatik
 
 ```EBNF
 VarDecl = Type Var {"," Var} ";".
@@ -20,9 +25,9 @@ Var = ident [ "=" Expr ].
 Type = "byte" | "short" | "int" | "long" | ... .
 ```
 
-# Gleitkomma Datentypen
+## Gleitkomma Datentypen
 
-## EBNF Grammatik
+### EBNF Grammatik
 
 ```EBNF
 FloatConstant = [Digits] "." [Digits] [Exponent] [FloatSuffix].

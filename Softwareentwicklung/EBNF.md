@@ -1,15 +1,18 @@
 ---
-tags:
-  - Compiler
-aliases: 
-keywords: []
+tags: 
+aliases:
+  - Backus Naur
+  - Backus-Naur
+keywords: 
 subject:
-  - Softwareentwicklung1
-semester: 1
+  - VL
+  - Softwareentwicklung 1
+semester:
+  - WS23
+  - B1
 created: 9. Oktober 2023
 professor:
 ---
- 
 
 # EBNF (Erweiterte Backus Naur Form)
 

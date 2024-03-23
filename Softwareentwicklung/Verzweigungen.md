@@ -1,3 +1,18 @@
+---
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Softwareentwicklung 1
+semester:
+  - WS23
+  - B1
+created: 5. September 2023
+professor:
+---
+ 
+
 # Verzweigungen
 
 Verzweigung: bedingt ausführbarer Code (es muss eine Bedingung erfüllt sein damit ein Code ausgeführt wird). Wenn Programmteile nicht immer ausgeführt werden, dann müssen sie in einer Verzweigung stehen.
@@ -23,6 +38,7 @@ else
 Zur Erinnerung: Anweisungen können durch Blöcke ersetzt werden.
 
 > [!EXAMPLE] Beispiel (Java)
+
 ```java
 if (monat == 2)
   System.out.println("Februar");
@@ -30,6 +46,7 @@ if (monat == 2)
 ```
 
 > [!EXAMPLE] Beispiel (Java)
+
 ```java
 if (monat > 11)
   System.out.println("Dezember");
@@ -65,6 +82,7 @@ Der *default*-Fall ist optional, das bedeutet er darf entfallen.
 > Achtung: wird kein *break* gesetzt, dann werden die folgenden Fälle mit ausgeführt bis zur nächsten *break* Anweisung oder bis die Verzweigung zu Ende ist.
 
 > [!EXAMPLE] Beispiel (Java)
+
 ```java
 switch (num) {
   case 10: System.out.println("Zehn");

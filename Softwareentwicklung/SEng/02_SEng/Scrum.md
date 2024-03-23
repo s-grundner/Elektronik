@@ -159,8 +159,8 @@ Der Product-Owner bildet die **Schnittstelle zwischen dem Kunden und dem Scrum-T
 | --------------------------------------- | ---------------------------------------- |
 |                                         |                                          |
 
-<http://3back.com/scrum/certified-scrummaster-training/>  
-<http://borisgloger.com/2009/04/24/3-secrets-of-a-good-scrummaster/>
+- [Certified ScrumMaster (CSM) Training- 3Back](http://3back.com/scrum/certified-scrummaster-training/)
+- [borisgloger consulting | Transforming into sustainable excellence](http://borisgloger.com/2009/04/24/3-secrets-of-a-good-scrummaster/)
 
  Der Scrum-Master ist **für die Umsetzung von Scrum verantwortlich**. Dabei liegt seine Aufgabe erstens darin, darauf zu achten, dass die Scrum zugrunde liegenden Regeln und Prinzipien **eingehalten** werden, und zweitens für optimale **Arbeitsbedingungen** zu sorgen und Hindernisse, die sich dem Team in den Weg stellen, zu beseitigen.
 
@@ -273,8 +273,6 @@ Ist der Sprint am Ende angelangt, so kann erstmals ein fertiges, funktionierende
 # 5. Zusammenfassung
 
 ![img]( assets/Scrum_Zusammenfassung.png)
-
-<http://www.stefan-nowaczynski.com/infos/scrum-video/>
 
 # 6. Referenzen
 

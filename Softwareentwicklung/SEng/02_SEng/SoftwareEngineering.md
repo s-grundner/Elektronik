@@ -22,17 +22,12 @@ Software wird Schritt für Schritt fertiggestellt. Diese Schritte werden **Phase
 
 Trotz vielerlei Vorgehensweisen, werden im wesentlichen die folgenden Phasen unterscheiden:
 
-**1.** **Planung: Anforderungsund Problemanalyse**
-
-**2.** **Analyse: (Pflichtenheft)**
-
-**3.** **Entwurf, Systemund Komponentenentwurf**
-
-**4.** **Programmierung und Komponententest**
-
-**5.** **Systemtest**
-
-**6.** **Betrieb und Wartung**
+1. **Planung: Anforderungsund Problemanalyse**
+2. **Analyse: (Pflichtenheft)**
+3. **Entwurf, Systemund Komponentenentwurf**
+4. **Programmierung und Komponententest**
+5. **Systemtest**
+6. **Betrieb und Wartung**
 
 Für jede der Phasen ist festgelegt, durch welches Ergebnis sie abgeschlossen wird. 
 
@@ -71,11 +66,11 @@ Die oben genannten Teilschritte der Softwareentwicklung werden nicht zwangsläuf
 
 Eines der ältesten Modelle ist das Wasserfallmodell, das eine starre Abfolge der einzelnen Phasen annimmt. Während dem Entwurf gibt es keine Überlegung wie das Endprodukt auf bestimmte Tests reagieren wird (wie gewisse Funktionen getestet werden). Ein nachträgliches Ändern des Systems ist nicht eingeplant.
 
-![invert](assets/Seng_Wasserfall1.png)
+![invert_dark](assets/Seng_Wasserfall1.png)
 
 Bei besonders innovativen oder einfach noch nicht hinreichend gut verstandenen Systemen, ist das Wasserfallmodell ungeeignet. Eine frühe, naheliegende Anpassung ist das modifizierte Wasserfallmodell. Es beinhaltet Rückkopplungen für den Fall das Fehler auftreten:
 
-![Modifiziertes Wasserfall-Modell](assets/Seng_Wasserfall2.png) 
+![invert_dark](assets/Seng_Wasserfall2.png) 
 
 ## 4 Das V-Modell
 
@@ -97,7 +92,7 @@ Wird in einer Testphase ein Fehler (Entwurfsfehler) erkannt, macht das in der en
 
  Die folgende Abbildung zeigt eine vereinfachte schematische Darstellung des V-Modells:
 
- ![V-Modell](assets/Seng_VModell.png)
+ ![invert_dark](assets/Seng_VModell.png)
 
 ## 5 Prototypenbasierte Modelle
 
@@ -123,7 +118,7 @@ Die prototypenbasierten Prozeßmodelle unterstützen auf systematische Weise die
 
 Die folgende Abbildung zeigt den Ablauf dieser Prozessmodelle:
 
-![Prototypen Prozessmodell](assets/Seng_PrototypeProzess.png)
+![invert_dark](assets/Seng_PrototypeProzess.png)
 
 **Vorteile**
 
@@ -213,7 +208,7 @@ In jedem der obigen Arbeitsschritte werden folgende 4 Phasen mehr oder weniger i
 
 - schwerer messbar
 
- Weiteres siehe <http://www.ibm.com/software/awdtools/rup.>
+ Weiteres siehe [IBM Products](http://www.ibm.com/software/awdtools/rup)
 
 Das absolute Einhalten der Iterationen (Rückkopplungen in den jeweiligen Phasen, Validierungsphasen, …) kann zu Nachteilen führen. Aus diesem Grund wurden weitere Methoden entwickelt, die noch sehr jung sind. Dazu gehören die agile od. Adaptiven SW-Prozesse. 
 
@@ -226,15 +221,12 @@ Charakteristikum: **kontinuierliche/permanente Anpassung an Änderungen/Änderun
 ### 7.1 EXE-KOOP-UPDATE-Prinzip
 
 - **EXE: Ausführbare SW** VOR vollständiger **Dokumentation**
-
 - **KOOP: Zusammenarbeit mit Kunden** VOR **Vertrags**verhandlung
-
 - **UPDATE: Berücksichtigung von Änderungen** VOR **Beharren auf Plan**
 
  **Bekannte agile Vorgehensweisen:**
 
 - XP: Extreme Programmierung - **Einfachheit**, **Kommunikation**, Mut, Feedback
-
 - Scrum, Kanban: **Visualisierung des Projektverlaufes** (s. scrum.pdf)
 
 ### 7.2 Extreme Programming: Einfachheit Und Kommunikation
@@ -242,10 +234,9 @@ Charakteristikum: **kontinuierliche/permanente Anpassung an Änderungen/Änderun
 Extreme Programming (XP) ist eine 
 
 - agile (EXE-KOOP-UPDATE) Vorgehensweise zur SW-Entwicklung
-
 - für kleine Teams (< 15 Personen).
 
- Der Prozess ermöglicht, **langlebige Software zu erstellen** und während der Entwicklung auf vage und sich **rasch ändernde Anforderungen zu reagieren**.
+Der Prozess ermöglicht, **langlebige Software zu erstellen** und während der Entwicklung auf vage und sich **rasch ändernde Anforderungen zu reagieren**.
 
 XP-Projekte schaffen **ab Tag 1 Geschäftswert** für den Kunden und lassen sich fortlaufend und außergewöhnlich stark durch den Kunden steuern.
 
@@ -441,80 +432,65 @@ Ein Pflichtenheft sollte wie folgt gegliedert sein:
    2. Sollkriterien: die Erfüllung dieser Kriterien wird angestrebt
    3. Kannkriterien: die Erfüllung ist nicht unbedingt notwendig, sollten nur angestrebt werden, wenn noch ausreichend [Kapazitäten](../../../Elektrotechnik/Kapazität.md) vorhanden sind.
    4. Abgrenzungskriterien: diese Kriterien sollen bewusst nicht erreicht werden
-
 2. Produkteinsatz
    1. Anwendungsbereiche
    2. Zielgruppen
    3. Betriebsbedingungen: physikalische Umgebung des Systems, tägliche Betriebszeit, ständige Beobachtung des Systems durch Bediener oder unbeaufsichtigter Betrieb
 3. Produktübersicht: kurze Übersicht über das Produkt
-
 4. Produktfunktionen: genaue und detaillierte Beschreibung der einzelnen Produktfunktionen
-
 5. Produktdaten: langfristig zu speichernde Daten aus Benutzersicht
-
 6. Produktleistungen: Anforderungen bezüglich Zeit und Genauigkeit
-
 7. Qualitätsanforderungen
-
 8. Benutzungsoberfläche: grundlegende Anforderungen, Zugriffsrechte
-
 9. Nichtfunktionale Anforderungen: einzuhaltende Gesetze und Normen, Sicherheitsanforderungen, Plattformabhängigkeiten
-
 10. Technische Produktumgebung
     1. Software: für Server und Client, falls vorhanden
     2. Hardware: für Server und Client getrennt
     3. Orgware: organisatorische Rahmenbedingungen
     4. Produktschnittstellen
-
 11. Spezielle Anforderungen an die Entwicklungsumgebung
     1. Software
     2. Hardware
     3. Orgware
     4. Entwicklungsschnittstellen
-
 12. Gliederung in Teilprodukte
-
 13. Globale Testszenarien, Abnahmekriterien
-
 14. Glossar: In dem eventuelle Fachausdrücke für Laien erläutert werden.
 
 ### 9.6 Pflichtenheft: Beispiel
 
-<http://www.stefan-baur.de/cs.se.pflichtenheft.beispiel.html> 
+[Stefan-baur.de – Auf www.stefan-baur.de Schauen Sie sich den neuesten Blog an](http://www.stefan-baur.de/cs.se.pflichtenheft.beispiel.html)
 
-<https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/MUSTER_PFLICHTENHEFT_V05.2015.docx?d=wbe5b156148604a53b08acbed023ca083&csf=1&web=1&e=C9QfU0>
+[Bei Ihrem Konto anmelden](https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/MUSTER_PFLICHTENHEFT_V05.2015.docx?d=wbe5b156148604a53b08acbed023ca083&csf=1&web=1&e=C9QfU0)
 
 ### 9.7 RDP: Diplomarbeits-Antrag
 
-<https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Antragsbeispiel%20-%20CARnected.pdf?csf=1&web=1&e=Qzydml>
+[Bei Ihrem Konto anmelden](https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Antragsbeispiel%20-%20CARnected.pdf?csf=1&web=1&e=Qzydml)
 
 ### 9.8 RDP: Zitierrichtlinien
 
-- <https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/AP_Broschuere_RDP_ab_2015_16_Version_10-02-2016.pdf?csf=1&web=1&e=BVyEIh> --> 4.1.1 Regeln für Zitate und Quellenangaben
-
-- <https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Richtlinien_Quellennachweise.pdf?csf=1&web=1&e=4OR5st>
-
-<https://www.zotero.org/>
-
-<http://www.citavi.com/>
+- [Bei Ihrem Konto anmelden](https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/AP_Broschuere_RDP_ab_2015_16_Version_10-02-2016.pdf?csf=1&web=1&e=BVyEIh) --> 4.1.1 Regeln für Zitate und Quellenangaben
+- [Bei Ihrem Konto anmelden](https://htlsalzburg.sharepoint.com/:b:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Richtlinien_Quellennachweise.pdf?csf=1&web=1&e=4OR5st)
+- [Zotero | Your personal research assistant](https://www.zotero.org/)
+- [Citavi - Literaturverwaltung und Wissensorganisation](http://www.citavi.com/)
 
 ### 9.9 RDP: Projektmanagement
 
-<http://www.projekthandbuch.de/it_model_pm.htm>
+[projekthandbuch.de - Diese Website steht zum Verkauf! - Informationen zum Thema projekthandbuch.](http://www.projekthandbuch.de/it_model_pm.htm)
 
 ### 9.10 RDP: Muster_Diplomarbeit
 
-<https://htlsalzburg.sharepoint.com/elektronikbiomed/Diplomarbeiten/Forms/AllItems.aspx>
+[Bei Ihrem Konto anmelden](https://htlsalzburg.sharepoint.com/elektronikbiomed/Diplomarbeiten/Forms/AllItems.aspx)
 
 ### 9.11 RDP: Tagebuch
 
-<https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Begleitprotokoll_Vorlage.docx?d=w82c2d0b25c3c42d180592a9eaeda52a7&csf=1&web=1&e=0jphaG>
+[Bei Ihrem Konto anmelden](https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Begleitprotokoll_Vorlage.docx?d=w82c2d0b25c3c42d180592a9eaeda52a7&csf=1&web=1&e=0jphaG)
 
 Datum,von,bis, Wer, Tätigkeiten, Bemerkungen
 
 ### 9.12 RDP: Besprechungsprotokolle
 
-<https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Besprechungsprotokoll_Vorlage.docx?d=wf33e29075bdf4ca6ac89abaaf4131d42&csf=1&web=1&e=D1xZGk>
+[Bei Ihrem Konto anmelden](https://htlsalzburg.sharepoint.com/:w:/r/elektronikbiomed/Diplomarbeiten/Richtlinien/Besprechungsprotokoll_Vorlage.docx?d=wf33e29075bdf4ca6ac89abaaf4131d42&csf=1&web=1&e=D1xZGk)
 
 Datum, von,bis,
 
