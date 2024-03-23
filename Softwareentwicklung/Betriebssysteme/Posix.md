@@ -80,4 +80,3 @@ Auslösen von Signalen (hier SIGINT):
 ...
 raise(SIGINT);
 ```
-

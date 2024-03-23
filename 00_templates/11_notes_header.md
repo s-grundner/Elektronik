@@ -1,4 +1,4 @@
-<%* let lva = await tp.user.get_lva().ws23(tp) _%>
+<%* let lva = await tp.user.get_lva().ss24(tp) _%>
 
 ---
 tags: NOTES
