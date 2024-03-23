@@ -44,7 +44,8 @@ $1<<4 \equiv 2^{4} \equiv b 0010000$
 
 ## Bitweise Verundung &
 
-> [!info]- Die *Verundung* ist die "Multiplikation" in der Booleschen Algebra: A & B = Y
+> [!info]- Die *Verundung* ist die "Multiplikation" in der Booleschen Algebra:
+> $$A\wedge B = Y\qquad A\cdot B = Y\qquad A \& B = Y$$
 > 
 > |  A  |  B  |  Y  |
 > |:---:|:---:|:---:|
@@ -58,6 +59,16 @@ $1<<4 \equiv 2^{4} \equiv b 0010000$
 > 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verundet usf.
 
 ## Bitweise Veroderung |
+
+> [!info]- Die *Veroderung* ist die "Addition" in der Booleschen Algebra: $A + B = Y$
+> $$A \vee B = Y\qquad A + B = Y\qquad A | B = Y$$
+> > 
+> > |  A  |  B  |  Y  |
+> > |:---:|:---:|:---:|
+> > |  0  |  0  |  0  |
+> > |  0  |  1  |  0  |
+> > |  1  |  0  |  0  |
+> > |  1  |  1  |  1  |
 
 > [!example] `0x34 | 0x22`	 	(b**0011 0100** | b**0010 0010**)	ergibt	b**0011 0110**.
 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl *verodert* usf.
