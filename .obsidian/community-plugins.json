@@ -2,7 +2,6 @@
   "templater-obsidian",
   "obsidian-table-to-csv-exporter",
   "obsidian-style-settings",
-  "obsidian-react-components",
   "obsidian-quiet-outline",
   "darlal-switcher-plus",
   "obsidian-git",
@@ -12,7 +11,6 @@
   "calendar",
   "buttons",
   "cmdr",
-  "dataview",
   "obsidian-excalidraw-plugin",
   "obsidian-annotator",
   "editing-toolbar",
@@ -43,5 +41,6 @@
   "home-tab",
   "pseudocode-in-obs",
   "code-styler",
-  "obsidian-hover-editor"
+  "obsidian-hover-editor",
+  "dataview"
 ]
