@@ -1,32 +1,23 @@
-async function my_function(msg) {
-	await tp.system.prompt;
-	return `Message from my script: ${msg}`;
-}
-module.exports = my_function;
-
-async function get_lva() {
+async function type(tp) {
 	const type = ["VL", "UE", "KV", "PR"];
 	let paste_type = await tp.system.suggester(type, type, true, "LVA Type");
-	tR += paste_type;
+	return paste_type;
 }
 
-async function from(semester) {
-	let lva;
-	switch (semester) {
-		case "WS23":
-			lva = ["Mathematik 1", "Einf. ET", "Softwareentwicklung 1", "Technisch Informatik", "Physik für TechnikerInnen"];
-			break;
-		case "SS24":
-			lva = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"];
-			break;
-		default:
-			lva = []
-			break;
-	}
+async function ws23(tp) {
+	const lva = ["Mathematik 1", "Einf. ET", "Softwareentwicklung 1", "Technisch Informatik", "Physik für TechnikerInnen"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
-	tR += paste_lva;
+	return paste_lva;
 }
 
-function dsds() {
-	return { from, type }
+async function ss24(tp) {
+	const lva = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"];
+	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
+	return paste_lva;
 }
+
+function get_lva() {
+	return { type, ws23, ss24 }
+}
+
+module.exports = get_lva

@@ -1,9 +1,7 @@
-<%* const subs = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"]
-let lva = await tp.system.suggester(subs, subs, true, "LVA") -%>
 ---
 tags: NOTES
 subject:
-  - <%* tR += lva %>
+  - <% tp.user.get_lva().ss24(tp) %>
 semester:
   - SS24
   - B2
@@ -11,7 +9,7 @@ created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
 ---
 
-# <%* tR += lva %>
+# <% tp.frontmatter.subject[0] %>
 
 <%* tp.file.rename("{NOTES} ".concat(lva)) _%> 
 
