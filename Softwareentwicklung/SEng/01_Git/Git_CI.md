@@ -1,4 +1,14 @@
-# 2 Git - CI/CD - Pipelines
+---
+tags:
+  - Git
+aliases:
+  - Continuous Integration
+  - Continuous Deployment
+  - CI/CD-Pipelines
+created: 29. November 2022
+---
+
+# Git - CI/CD - Pipelines
 
 CI = Continuous Integration  
 CD = Continuous Deployment/Delivery
@@ -6,9 +16,7 @@ CD = Continuous Deployment/Delivery
 Mit *CI* lassen sich in *GitLab* automatische Abläufe (Pipelines) generieren. Beispielsweise kann ein *Push* auf ein Remote-Repo einen Build, einen Test oder die Erstellung einer Doku auslösen. Erstellen einer Pipeline:
 
 - In einem Git-Projekt, in der obersten Verzeichnis-Hierarchie
-
 - Neue Datei erstellen *.gitlab-yi.yml*
-
 - Beispielhaft 2 Stages (2 Stufen in der Pipeline): Build-Stage und Test-Stage  
   .gitlab-ci.yml:
 
@@ -92,7 +100,7 @@ Hier wird der gesamte im Stage erzeugte Ordner als Artefakt definiert (kann auch
 
 In GitLab sind verschiedene [Docker](../../Datenbanken/Docker.md)-Images verfügbar. (Wird das Git-Repo lokal verwaltet, dann kann eine selbst definierte Umgebung geschaffen werden.)
 
-### gcc
+### Gcc
 
 Um gcc ausführen zu können muss **ruby:2.5** (eines von mehreren) geladen werden. Beispiel:
 
@@ -109,7 +117,7 @@ build:
    - build/
 ```
 
-### doxygen
+### Doxygen
 
 Doxygen kann zum Beispiel mit dem Image **alpine:3.7** ausgeführt werden:
 

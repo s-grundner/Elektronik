@@ -68,6 +68,7 @@ Ab nun arbeiten zwei Entwickler am Projekt, der erste Entwickler implementiert e
 - Als Beispiel wird hier der Additions-Branch angeführt:
 
     ```
+
 git branch addition  
     ```
   
@@ -82,9 +83,11 @@ git checkout addition
 - Aufnehmen ins lokale Repo und Branch auch auf dem Remote-Repo führen:
 
    ```
+
 git add .  
 git commit -m "Implementation of Addition"  
 git push origin addition
+
    ```
 
 Analog kann die Division eingebaut werden. Damit sieht der Verlauf so aus (in der Addition wurde ein zweiter *push* getätigt um einen Fehler zu korrigieren):
@@ -110,8 +113,10 @@ Anschließend sieht der Verlauf etwa so aus:
 3. Das *Mergen* erfolgt in diesem Beispiel direkt auf dem Remote-Repo. Die lokalen Repos werden dadurch nicht automatisch mitgezogen. Dafür muss auf dem *master*-Branch zurückgewechselt und das Repo heruntergezogen werden:
 
    ```
+
    git checkout master  
    git pull origin master
+
    ```
 
    

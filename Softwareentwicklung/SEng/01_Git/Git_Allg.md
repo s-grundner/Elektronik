@@ -116,11 +116,10 @@ Ein Projekt kann auf *GitLab* einfach (menügeführt) erstellt werden. Beim Eins
   Mit `git add .` werden sämtliche im Verzeichnis befindliche Dateien in den *Index* *gestagt*, mit `git commit -m "…"` ins lokale Repo *commitet*. Diese Schritte sind natürlich nur dann notwendig, wenn vorhandene Dateien mitgenommen werden sollen.
 
 - Alternativ kann ein schon vorhandenes Remote-Repo als Start für ein lokales Repo verwendet werden (gerade wenn Remote schon Dateien gehostet sind). Dazu wird lokal ein Verzeichnis erstellt und darin ausgeführt:
+
    ```
    git clone https://gitlab.com/usr/myProj ./
    ```
-
-
 
 Mit `git add .` wird der aktuelle Inhalt des lokalen Arbeitsverzeichnisses ins Repo mitgenommen. Die oben (in der Abbildung) angeführte Option `-u` (update) kopiert geänderte Dateien und entfernt gelöschte Elemente. Allerdings fügt es dann nicht neue Elemente dazu. Um nicht sämtliche Dateien eines Verzeichnisses in ein Repo mitzunehmen können diese exkludiert werden (eine IDE generiert oft temporäre Arbeitsdateien):
 
@@ -166,7 +165,7 @@ Mit `git add .` wird der aktuelle Inhalt des lokalen Arbeitsverzeichnisses ins R
    ```
   git clone https://gitlab.com/usr/gitintro_counter ./
   ```
-  
+
    Mit ./ wird direkt ins aktuelle Verzeichnis geklont. Anschließend ein Checkout:
   
       git checkout 983e5ca
@@ -226,8 +225,6 @@ Erstellen eines Zweigs (branch) mit Namen *testing*:
 git branch testing
    ```
 
-
-
 ![img](assets/git_ver02.png)
 
 Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkenswert ist, dass *Head* trotzdem noch auf *main* zeigt (im Hauptpfad). Erst mit *checkout* wechselt *Head* auf den *testing*-Pfad:
@@ -235,8 +232,6 @@ Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkensw
 ```
 git checkout testing 
 ```
-
-
 
 ![img](assets/git_ver03.png)
 
@@ -247,8 +242,6 @@ Mit einem weiteren *Commit* verändert sich der Baum wie folgt:
    ```
 git commit -m "Änderung auf c2b9e"
    ```
-
-
 
 ![img](assets/git_ver04.png)
 
@@ -266,8 +259,6 @@ Erst mit einem erneutem *Checkout* kann in den Hauptpfad gewechselt werden:
 git checkout main
    ```
 
-
-
 ![img](assets/git_ver05.png)
 
 Ein weiterer *Commit* in diesem Hauptpfad verursacht:
@@ -275,8 +266,6 @@ Ein weiterer *Commit* in diesem Hauptpfad verursacht:
    ```
 git commit -m "Änderung auf 87ab2"
    ```
-
-   
 
    ![img](assets/git_ver06.png)
 
@@ -480,7 +469,7 @@ Für Linux (inklusive Setup für SSH-Verbindung):
 
    *fetch* holt *main* von *origin* als *FETCH_HEAD*.
 
-1. Umschalten auf den *FETCH_HEAD* Status:
+8. Umschalten auf den *FETCH_HEAD* Status:
 
     ``` 
     > git fetch origin main
@@ -496,14 +485,14 @@ Für Linux (inklusive Setup für SSH-Verbindung):
     git checkout main
     ```
 
-2. Ein Lokales Repo zurücksetzen (alle lokalen Änderungen gehen verloren):
+9. Ein Lokales Repo zurücksetzen (alle lokalen Änderungen gehen verloren):
 
     ```
     git fetch --all
     git reset --hard origin/main
     ```
 
-3. Wechsel zwischen unterschiedlicher Remote-Versionen:
+10. Wechsel zwischen unterschiedlicher Remote-Versionen:
 
     ```
     git checkout origin/main

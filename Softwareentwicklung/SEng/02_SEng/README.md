@@ -10,18 +10,25 @@ Grundsätzlich:
 Voraussetzung: git-for-windows ist installiert
 
 - Erstellen eines lokalen Upload-Ordners (Annahme c:\\….\\FSST_Upload)
+
   ```
   mkdir c:\.....\FSST_Upload
   ```
+
 - In der Kommandozeile in diesen Ordner wechseln
+
   ```
   cd c:\......\FSST_Upload
   ```
+
 - Verbinden des lokalen Upload-Ordners mit dem Remote-Repo:
+
   ```
   git clone https://gitlab.com/htbluva-salzburg-5ahel/fsst_5ahel_upload ./
   ```
+
 - Erstellen eines persönlichen Branches (Annahme eigenes Kürzel XyzA):
+
   ```
   git branch XyzA
   git checkout XyzA

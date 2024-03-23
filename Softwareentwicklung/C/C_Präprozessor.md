@@ -1,6 +1,8 @@
 ---
-tags: ["C"]
-aliases: []
+tags:
+  - C
+  - C/makros
+aliases: 
 created: 29th November 2022
 ---
 

@@ -1,9 +1,20 @@
 ---
-tags: ["C", "Bitmath"]
-subject: fsst
-aliases: []
-created: 29th November 2022
+tags:
+  - C
+  - Bitmath
+aliases:
+  - Bitmath
+keywords: 
+subject:
+  - PR
+  - Networked Embedded Systems
+semester:
+  - SS24
+  - B2
+created: 29. November 2022
+professor:
 ---
+ 
 
 # Bitoperatoren
 
@@ -72,11 +83,13 @@ if (a != FALSE) {       // mit z.B. #define FALSE 0 : alles was nicht 0 ist ist 
 
 Sonst hat man keine reine 2-Wertigkeit sondern 0, 1 und alles Andere (undefiniert).
 
-# Fragen
+# Flashcards
 
-- Setzen Sie das nte Bit der Variable reg auf 1. Belassen Sie sämtliche anderen Bits gleich.
-- Setzen Sie das nte Bit der Variable reg auf 0. Belassen Sie sämtliche anderen Bits gleich.
-- Setzen Sie das nte Bit der Variable reg auf 1. Setzen Sie sämtliche anderen Bits auf 0.
-- Invertieren Sie den Wert des nten Bits der Variable reg (0->1 bzw 1->0) und belassen Sie sämtliche anderen Bitwerde gleich.
-- Setzten Sie sämtliche Bits der Variable reg auf 1 ausgenommen das nte Bit, das soll den Wert 0 erhalten.
-- Ermitteln Sie den Zustand des nten Bits der Variable reg.
+Setzen Sie das $n$-te Bit der Variable reg auf 1. Belassen Sie sämtliche anderen Bits gleich.
+? 
+
+- Setzen Sie das $n$-te Bit der Variable reg auf 0. Belassen Sie sämtliche anderen Bits gleich.
+- Setzen Sie das $n$-te Bit der Variable reg auf 1. Setzen Sie sämtliche anderen Bits auf 0.
+- Invertieren Sie den Wert des $n$-ten Bits der Variable `reg` (0->1 bzw 1->0) und belassen Sie sämtliche anderen Bitwerte gleich.
+- Setzten Sie sämtliche Bits der Variable `reg` auf `1` ausgenommen das $n$-te Bit, das soll den Wert `0` erhalten.
+- Ermitteln Sie den Zustand des $n$-ten Bits der Variable `reg`.
