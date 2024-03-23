@@ -1,6 +1,7 @@
 ---
 tags:
   - MCU/AVR
+  - Bitoperatoren
 aliases:
   - CrumbTL
   - CrumTL
@@ -53,11 +54,10 @@ const int mydata[] PROGMEM = ...
 
 ## AVR-lib Basics
 
-
 - Bit im Register setzen: `REG = REG | (1<<REG[n])`
 - Bit im Register löschen: `REG = REG & ~(1<<REG[n])`
 - Bit im Register toggeln: `REG = REG ^ (1<<REG[n])`
-- Bit aus Registerabfragen: `BOOL = REG & (1<<REG[n])`
+- Bit aus Register abfragen: `BOOL = REG & (1<<REG[n])`
 
 ## PIN, PORT, DDR
 

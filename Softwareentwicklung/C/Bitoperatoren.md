@@ -1,7 +1,7 @@
 ---
 tags:
   - C
-  - Bitmath
+  - Bitoperatoren
 aliases:
   - Bitmath
 keywords: 
@@ -66,22 +66,34 @@ $1<<4 \equiv 2^{4} \equiv b 0010000$
 > > |  A  |  B  |  Y  |
 > > |:---:|:---:|:---:|
 > > |  0  |  0  |  0  |
-> > |  0  |  1  |  0  |
-> > |  1  |  0  |  0  |
+> > |  0  |  1  |  1  |
+> > |  1  |  0  |  1  |
 > > |  1  |  1  |  1  |
 
 > [!example] `0x34 | 0x22`	 	(b**0011 0100** | b**0010 0010**)	ergibt	b**0011 0110**.
 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl *verodert* usf.
 
-## Bitweise Exor ^
+## Bitweise Exor `^`
 
-`0x34 ^ 0x22`	 	(**0110bin** ^ **0010bin**)	ergibt	**0100bin**. 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verexort usf.
+> [!info]- Die *Veroderung* ist die "Addition" in der Booleschen Algebra
+> $$A \oplus B = Y\qquad A \hat{\text{ }} B = Y$$
+>
+> > |  A  |  B  |  Y  |
+> > |:---:|:---:|:---:|
+> > |  0  |  0  |  0  |
+> > |  0  |  1  |  1  |
+> > |  1  |  0  |  1  |
+> > |  1  |  1  |  0  |
 
-## Bitweise Negation ~
+> [!example] `0x34 ^ 0x22`	 	(**0110bin** ^ **0010bin**)	ergibt	**0100bin**.
+> 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verexort usf.
 
-`~0x22`	 	(**\~0010 0010bin**)	ergibt	**1101 1101bin**. An jeder Stelle wird aus 1 -> 0 und aus 0 -> 1.
+## Bitweise Negation `~`
 
-## Typische Aufgaben:
+> [!example] `~0x22`	 	(**\~0010 0010bin**)	ergibt	**1101 1101bin**.
+> An jeder Stelle wird aus 1 -> 0 und aus 0 -> 1.
+
+# Typische Anwendungen:
 
 - es soll das nte Bit eines Registers r auf 1 gesetzt werden. Die verbleibenden Stellen sollen ihren Wert beibehalten.  
   `r | (1 << (n-1))`	Eine 1 wird um (n-1) Stellen nach Links verschoben --> ntes Bit ist 1. Bitweise Veroderung mit Registerwert setzt das nte Bit auf 1.​
@@ -94,7 +106,7 @@ $1<<4 \equiv 2^{4} \equiv b 0010000$
 
 Sollen entsprechend mehrere Bitpositionen auf einmal gesetzt oder rückgesetzt werden, dann sind entsprechend mehrere Bits zu setzen.
 
-### Boolsche Ausdrücke
+## Boolsche Ausdrücke
 
 In C wird auf logisch Wahr oder Falsch geprüft bei:
 
@@ -122,21 +134,25 @@ Sonst hat man keine reine 2-Wertigkeit sondern 0, 1 und alles Andere (undefinier
 
 # Flashcards
 
-Setzen Sie das $n$-te Bit der Variable reg auf 1.
+Setzen Sie das $n$-te Bit der Variable `reg` auf `1`.
 Belassen Sie sämtliche anderen Bits gleich.
 ? 
+`reg = reg | (1 << (n-1))`
 
 Setzen Sie das $n$-te Bit der Variable `reg` auf `0`.
 Belassen Sie sämtliche anderen Bits gleich.
 ? 
+`reg = reg & ~(1 << (n-1))`
 
-Setzen Sie das $n$-te Bit der Variable reg auf `1`.
+Setzen Sie das $n$-te Bit der Variable `reg` auf `1`.
 Setzen Sie sämtliche anderen Bits auf `0`.
 ?
+`reg = 1 << (n-1)`
 
 Invertieren Sie den Wert des $n$-ten Bits der Variable `reg` (0->1 bzw 1->0)
 Belassen Sie sämtliche anderen Bitwerte gleich.
 ?
+`reg = reg `
 
 Setzten Sie sämtliche Bits der Variable `reg` auf `1` ausgenommen dem $n$-te Bit, welches den Wert `0` erhalten soll.
 ?

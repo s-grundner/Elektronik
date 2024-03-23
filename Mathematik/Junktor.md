@@ -46,6 +46,7 @@ ref:
 | $A\vee B$     | lies: $A$ oder $B$       | die *Disjunktion* von $A$ und $B$ |
 | $A\implies B$ | lies: $A$ impliziert $B$ | die *Implikation* von $A$ und $B$ |
 | $A\iff B$     | lies: $A$ äquivalent $B$ | die *Äquivalenz* von $A$ und $B$  |
+| $A\oplus B$   | lies: $A$ kontra $B$     | die *Kontra-* oder *Antivalenz* vom $A$ und $B$                                   |
 
 > Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 
