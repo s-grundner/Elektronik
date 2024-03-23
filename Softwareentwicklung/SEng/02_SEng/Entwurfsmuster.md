@@ -1,24 +1,33 @@
 ---
-tags: ["Software-Engineering"]
-aliases: []
-created: 29th November 2022
+tags: 
+aliases:
+  - Design Patterns
+keywords: 
+subject:
+  - VL
+  - Softwareentwicklung 2
+semester:
+  - SS24
+  - B2
+created: 29. November 2022
+professor:
 ---
+ 
 
-# 5 Entwurfsmuster
+# Entwurfsmuster (Design-Patterns)
 
-(Design Pattern)
+![InlineR|450](assets/GoF.png)
 
-![GoF](assets/GoF.png)
+> [!info] Viele Probleme wurden schon gelöst, daher naheliegend: diese Lösungen für die Lösung eigener Probleme verwenden.
+> Als Entwurfsmuster bereitgestellte Lösungsstrukturen sind **nicht auf Code-Ebene**.
+> - Das Muster soll von der Sprache unabhängig einsetzbar sein $\gets$ *Softwaredesign*
 
-Viele Probleme wurden schon gelöst, daher naheliegend: diese Lösungen für die Lösung eigener Probleme verwenden.
 
-Als Entwurfsmuster bereitgestellte Lösungsstrukturen sind **nicht auf Code-Ebene**. Das Muster soll von der Sprache unabhängig einsetzbar sein -> Softwaredesign
-
-Eine sehr bekannte Sammlung von Mustern ist von der **Gang of 4** (**GOF**). Sie haben in einem Klassiker 23 Muster definiert. Die von ihnen gesammelten Muster wurden Gruppiert:
-
-- Erzeugungsmuster: Singleton, Factory
-- Strukturmuster: Adapter, Decorator, Fassade
-- Verhaltensmuster: Observer, Strategie, Iterator
+> [!hint] Eine sehr bekannte Sammlung von Mustern ist von der **Gang of 4** (**GOF**).
+> Sie haben in einem Klassiker 23 Muster definiert. Die von ihnen gesammelten Muster wurden Gruppiert:
+> - *Erzeugungsmuster*: Singleton, Factory
+> - *Strukturmuster*: Adapter, Decorator, Fassade
+> - *Verhaltensmuster*: Observer, Strategie, Iterator
 
 ## Singleton
 

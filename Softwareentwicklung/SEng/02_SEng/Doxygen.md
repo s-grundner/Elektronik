@@ -163,10 +163,6 @@ Direkt vor der Funktion:
     int tschdi(Boing *boing) override;
 ```
 
-
-
-
-
 Es gibt eine sehr große, weitere Vielzahl an Parametern die angeführt werden können.
 
 Beispiel doxyfile (Pfade anpassen:
@@ -510,4 +506,3 @@ DOT_MULTI_TARGETS      = NO
 GENERATE_LEGEND        = YES
 DOT_CLEANUP            = YES
 ```
-
