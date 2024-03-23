@@ -14,7 +14,6 @@ semester:
 created: 29. November 2022
 professor:
 ---
- 
 
 # Bitoperatoren
 
@@ -22,19 +21,35 @@ Oft wird die Sprache C im hardwarenahen Bereich eingesetzt. Dadurch werden zusä
 
 ## Links Schieben <<
 
-`3 << 2` 	bedeutet 3 um 2 Bit Positionen nach Links schieben. 3dez (= 11bin) verschoben ergibt **1100bin** (= 12dez). Jede Verschiebung um 1 Bit nach Links entspricht einer Multiplikation mit 2 (3x2x2 = 12).
+> [!important] Jede Verschiebung um 1 Bit nach Links entspricht einer Multiplikation mit 2
+> - *linker* Operand als Binärzahl betrachten
+> - *rechter* Operand als Integer (Dezimalzahl) betrachten.
+
+
+
+> [!example] `3 << 2` 	bedeutet 3 um 2 Bit Positionen nach Links schieben.
+> b11 ($=3$) verschoben ergibt b**1100** ($=12$). 
+> $3\cdot 2 \cdot 2 = 12$
 
 ## Rechts Schieben >>
 
-`7 >> 2` 	bedeutet 7 um 2 Bit Positionen nach Links schieben. 7dez (= 111bin) verschoben ergibt **1bin** (= 1dez). Jede Verschiebung um 1 Bit nach Rechts entspricht einer Division durch 2 (7 / 2 / 2 = 1).
+> [!important] Jede Verschiebung um 1 Bit nach Rechts entspricht einer Division durch 2.
+> - *linker* Operand als Binärzahl betrachten
+> - *rechter* Operand als Integer (Dezimalzahl) betrachten.
+
+> [!example] `7 >> 2` 	bedeutet 7 um 2 Bit Positionen nach Links schieben.
+> b**111** ($=7$) um 2 verschoben ergibt **1bin** (= 1dez). 
+> $7 / 2 / 2 = 1$
 
 ## Bitweise Verundung &
 
-`7 & 5`	 	(**111bin** & **101bin**)	ergibt	**101bin**. 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verundet usf.
+> [!example] `7 & 5`	 	(**111bin** & **101bin**)	ergibt	**101bin**.
+> 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verundet usf.
 
 ## Bitweise Veroderung |
 
-`0x34 | 0x22`	 	(**0011 0100bin** | **0010 0010bin**)	ergibt	**0011 0110bin**. 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verodert usf.
+> [!example] `0x34 | 0x22`	 	(b**0011 0100** | b**0010 0010**)	ergibt	b**0011 0110**.
+1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl *verodert* usf.
 
 ## Bitweise Exor ^
 
@@ -85,11 +100,24 @@ Sonst hat man keine reine 2-Wertigkeit sondern 0, 1 und alles Andere (undefinier
 
 # Flashcards
 
-Setzen Sie das $n$-te Bit der Variable reg auf 1. Belassen Sie sämtliche anderen Bits gleich.
+Setzen Sie das $n$-te Bit der Variable reg auf 1.
+Belassen Sie sämtliche anderen Bits gleich.
 ? 
 
-- Setzen Sie das $n$-te Bit der Variable reg auf 0. Belassen Sie sämtliche anderen Bits gleich.
-- Setzen Sie das $n$-te Bit der Variable reg auf 1. Setzen Sie sämtliche anderen Bits auf 0.
-- Invertieren Sie den Wert des $n$-ten Bits der Variable `reg` (0->1 bzw 1->0) und belassen Sie sämtliche anderen Bitwerte gleich.
-- Setzten Sie sämtliche Bits der Variable `reg` auf `1` ausgenommen das $n$-te Bit, das soll den Wert `0` erhalten.
-- Ermitteln Sie den Zustand des $n$-ten Bits der Variable `reg`.
+Setzen Sie das $n$-te Bit der Variable `reg` auf `0`.
+Belassen Sie sämtliche anderen Bits gleich.
+? 
+
+Setzen Sie das $n$-te Bit der Variable reg auf `1`.
+Setzen Sie sämtliche anderen Bits auf `0`.
+?
+
+Invertieren Sie den Wert des $n$-ten Bits der Variable `reg` (0->1 bzw 1->0)
+Belassen Sie sämtliche anderen Bitwerte gleich.
+?
+
+Setzten Sie sämtliche Bits der Variable `reg` auf `1` ausgenommen dem $n$-te Bit, welches den Wert `0` erhalten soll.
+?
+
+Ermitteln Sie den Zustand des $n$-ten Bits der Variable `reg`.
+?
