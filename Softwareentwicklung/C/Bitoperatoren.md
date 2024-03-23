@@ -26,8 +26,8 @@ Dadurch werden zusätzlich zu den üblichen Operatoren gerade die Bit-Operatoren
 > - *linker* Operand als Binärzahl betrachten
 > - *rechter* Operand als Integer (Dezimalzahl) betrachten.
 
-Nützlich für die Erzeugung von Bitmasken:
-$1<<4 \equiv 2^{4} \equiv b 0010000$
+Nützlich für die Erzeugung von Bitmasken (hier - Bit an der 5ten Stelle):
+$1<<(5 - 1) \equiv 2^{4} \equiv b 0010000$
 
 > [!example] `3 << 2` 	bedeutet 3 um 2 Bit Positionen nach Links schieben.
 > b11 ($=3$) verschoben ergibt b**1100** ($=12$). 
@@ -75,7 +75,7 @@ $1<<4 \equiv 2^{4} \equiv b 0010000$
 
 ## Bitweise Exor `^`
 
-> [!info]- Die *Veroderung* ist die "Addition" in der Booleschen Algebra
+> [!info]- Die exklusive *Veroderung* ist die "Addition" in der Booleschen Algebra, wobei die beiden Operanden Unterschiedlich sein müssen
 > $$A \oplus B = Y\qquad A \hat{\text{ }} B = Y$$
 >
 > > |  A  |  B  |  Y  |
@@ -152,10 +152,13 @@ Setzen Sie sämtliche anderen Bits auf `0`.
 Invertieren Sie den Wert des $n$-ten Bits der Variable `reg` (0->1 bzw 1->0)
 Belassen Sie sämtliche anderen Bitwerte gleich.
 ?
-`reg = reg `
+`reg = reg ^ (1 << (n-1))`
+<!--SR:!2024-03-24,1,230-->
 
 Setzten Sie sämtliche Bits der Variable `reg` auf `1` ausgenommen dem $n$-te Bit, welches den Wert `0` erhalten soll.
 ?
+`reg = ~(1 << (n-1))`
 
 Ermitteln Sie den Zustand des $n$-ten Bits der Variable `reg`.
 ?
+`zustand = reg & (1 << (n-1))`
