@@ -21,4 +21,3 @@ professor:
 | $()$        | klammert Alternativen        | $(x\mid y)z$ | $xz,xy$                      | Gruppierung       |
 | $[]$        | wahlweises Vorkommen         | $[x]y$       | $y,xy$                       | Optional 0 oder 1 |
 | $\{\}$      | $0\dots n$-maliges Vorkommen | $\{x\}y$     | $y,x y,x x y, x x x x \dots$ | Iteration $0-\ast$    |
-

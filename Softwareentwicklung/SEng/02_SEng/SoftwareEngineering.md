@@ -1,6 +1,8 @@
 ---
-tags: ["Software-Engineering"]
-aliases: []
+tags:
+  - Software-Engineering
+  - MOC
+aliases: 
 created: 29th November 2022
 ---
 
@@ -69,7 +71,7 @@ Die oben genannten Teilschritte der Softwareentwicklung werden nicht zwangsläuf
 
 Eines der ältesten Modelle ist das Wasserfallmodell, das eine starre Abfolge der einzelnen Phasen annimmt. Während dem Entwurf gibt es keine Überlegung wie das Endprodukt auf bestimmte Tests reagieren wird (wie gewisse Funktionen getestet werden). Ein nachträgliches Ändern des Systems ist nicht eingeplant.
 
-![Wasserfall-Modell](assets/Seng_Wasserfall1.png)
+![invert](assets/Seng_Wasserfall1.png)
 
 Bei besonders innovativen oder einfach noch nicht hinreichend gut verstandenen Systemen, ist das Wasserfallmodell ungeeignet. Eine frühe, naheliegende Anpassung ist das modifizierte Wasserfallmodell. Es beinhaltet Rückkopplungen für den Fall das Fehler auftreten:
 

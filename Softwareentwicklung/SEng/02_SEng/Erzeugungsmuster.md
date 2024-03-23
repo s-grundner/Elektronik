@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Software-Engineering/DesignPattern
 aliases: 
 keywords: 
 subject:
@@ -43,8 +44,6 @@ Vorteile gegenüber globalen Variablen:
 Oft wird dieses Pattern vereinfacht implementiert, dabei wird das eine Objekt als Attribut gespeichert und bei der Erstellung mittels If überprüft. Da dieser Vorgang kein einzelner Schritt ist, kann er im Fall von Multi-Threading zur Erstellung eines zweiten Objekts führen (Nicht-Thread-Sicher).
 
 Allgemeine Lösung: die Funktion `getInstance` muss Thread-Sicher ausgeführt werden.
-
- ![Singleton UML class diagram](Singleton%20UML%20class%20diagram)
 
 c++ Beispiel:
 
@@ -109,7 +108,7 @@ Auto *meins = new Bmw();
 - Auto soll verwendet werden um flexibel zu bleiben
 - auf der rechten Seite müsse wir ganz konkret ein Produkt angeben, wenn der Typ hier unterschiedlich sein kann, dann muss eine vielfache Verzweigung eingebaut werden. Gelöst werden kann diese starre Verbindung mittels Factory.
 
- ![Klassendiagramm der am Muster beteiligten Rollen.](assets/UML_Pattern_Factory.png) 
+ ![invert_dark](assets/UML_Pattern_Factory.png) 
 
 Die hier dargestellte Factory ist eine vereinfachte Form für eine einzelne Fabrik. Erweitert wird dieses Pattern indem unterschiedliche Fabriken die gleichen Produktlinien erzeugen.
 
