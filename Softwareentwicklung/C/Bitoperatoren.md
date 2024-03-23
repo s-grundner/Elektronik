@@ -25,7 +25,8 @@ Oft wird die Sprache C im hardwarenahen Bereich eingesetzt. Dadurch werden zusä
 > - *linker* Operand als Binärzahl betrachten
 > - *rechter* Operand als Integer (Dezimalzahl) betrachten.
 
-
+Nützlich für die Erzeugung von Bitmasken:
+$1<<4 \equiv 2^{4} \equiv b 0010000$
 
 > [!example] `3 << 2` 	bedeutet 3 um 2 Bit Positionen nach Links schieben.
 > b11 ($=3$) verschoben ergibt b**1100** ($=12$). 
@@ -42,6 +43,16 @@ Oft wird die Sprache C im hardwarenahen Bereich eingesetzt. Dadurch werden zusä
 > $7 / 2 / 2 = 1$
 
 ## Bitweise Verundung &
+
+> [!info]- Die *Verundung* ist die "Multiplikation" in der Booleschen Algebra: A & B = Y
+> 
+> |  A  |  B  |  Y  |
+> |:---:|:---:|:---:|
+> |  0  |  0  |  0  |
+> |  0  |  1  |  0  |
+> |  1  |  0  |  0  |
+> |  1  |  1  |  1  | 
+
 
 > [!example] `7 & 5`	 	(**111bin** & **101bin**)	ergibt	**101bin**.
 > 1te Stelle der 1ten Zahl mit 1ter Stelle der 2ten Zahl verundet usf.
