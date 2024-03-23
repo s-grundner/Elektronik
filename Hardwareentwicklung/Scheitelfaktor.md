@@ -7,7 +7,7 @@ aliases:
 keywords: 
 subject:
   - Einf. ET
-  - "335.011"
+  - PR
 semester: 1
 created: 18. Januar 2024
 professor:

@@ -4,7 +4,7 @@ aliases:
 keywords: 
 subject:
   - <% tp.user.get_lva().type(tp) %>
-  - <% tp.user.get_lva().from(tp, "WS23")%>
+  - <% tp.user.get_lva().ss24(tp) %>
 semester:
   - SS24
   - B2
