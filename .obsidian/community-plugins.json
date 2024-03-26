@@ -42,5 +42,6 @@
   "pseudocode-in-obs",
   "code-styler",
   "obsidian-hover-editor",
-  "dataview"
+  "dataview",
+  "obsidian-react-components"
 ]
