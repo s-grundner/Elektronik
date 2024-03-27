@@ -8,13 +8,11 @@ created: 29th November 2022
 
 # ESP32
 
-Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../Digitaltechnik/Interfaces/UART.md), [SPI](../../Digitaltechnik/Interfaces/SPI.md), CAN, [I2C](../../Digitaltechnik/Interfaces/I2C.md), I2S, WLAN und Bluetooth.
+![InlineR](assets/ESP32_nocase.png) Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../Digitaltechnik/Interfaces/UART.md), [SPI](../../Digitaltechnik/Interfaces/SPI.md), CAN, [I2C](../../Digitaltechnik/Interfaces/I2C.md), I2S, WLAN und Bluetooth.
 
-![](assets/ESP32_nocase.png)
 
-Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Hardwareentwicklung/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
+![InlineL](assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Hardwareentwicklung/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
 
-![](assets/ESP32WROOM.png)
 
 Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](ESP-AT.md)) auf den Chip heruntergeladen werden.
 

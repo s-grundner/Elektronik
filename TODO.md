@@ -32,5 +32,10 @@ created: 19. Januar 2024
 # Quellen Zitieren
 
 ```dataview
-LIST FROM #cited
+TABLE file.folder
+WHERE !contains(tags, cited)
+AND !contains(file.folder, "00")
+AND !contains(file.folder, "assets")
+AND !contains(file.folder, "xEDU")
+AND !contains(file.folder, "xPN")
 ```
