@@ -29,16 +29,10 @@
     "desktop.ini",
     "xORG/",
     "Hardwareentwicklung/Uebung/",
-    "Softwareentwicklung/Cpp/Ue/",
-    "Softwareentwicklung/Betriebssysteme/Ue/",
-    "Softwareentwicklung/C/Ue/",
-    "Softwareentwicklung/Datenbanken/Ue/",
-    "Softwareentwicklung/DS-Algo/Ue/",
-    "Softwareentwicklung/Java/Ue/",
-    "Ue",
     "xPN/Rubbish/",
     "xEDU/Rubbish/",
-    "xEDU/"
+    "xEDU/",
+    "\"/Uebung/\""
   ],
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",

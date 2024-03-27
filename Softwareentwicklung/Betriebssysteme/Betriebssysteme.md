@@ -308,7 +308,7 @@ Ohne eine solche Sperrung entstehen Datenverluste: Problem des **Lost Update**.
   ​	 read -> inc -> write
   
   Ein Thread kann zwischen jeden dieser Schritte vom Scheduler unterbrochen werden. Daraus kann sich folgendes Scenario ergeben:
-  
+
   ```
   T1: read variable mCount (7)
 							T2: read variable mCount (7)
@@ -317,8 +317,7 @@ Ohne eine solche Sperrung entstehen Datenverluste: Problem des **Lost Update**.
   T1: inc variable mCount (8)
   T1: write variable mCount (8)
   ```
-  
-  
+
   Eigentlich müsste `mCount` den Wert 9 haben, da `mCount` ja 2 mal erhöht wurde, es wurde jedoch einer der Updates verloren -> **Lost Update**
 
 - **Beispiel 2:**  
@@ -465,7 +464,7 @@ Der **Verbraucher** wechselt nun in den **SLEEP** Zustand.
      ```
 
      Die Verbzw. Entriegelung wird häufig mit den Funktionen LOCK und UNLOCK formuliert:
-   
+
      ```c
      LOCK(RV[i]);
      ...
@@ -502,7 +501,6 @@ struct Semaphore{
     FIFO queue;
 }
 ```
-
 
 Der Semaphor unterstützt zwei (nicht unterbrechbare) Operationen
 
@@ -583,15 +581,15 @@ Einige Möglichkeiten der Interprocess Communication (IPC):
   Prozesse schreiben in Dateien, die von anderen Prozessen gelesen werden.
 
   Beispiel:
-  
+
   ```
   mkfifo /tmp/bla; ls -l /tmp/bla
   shell2: cat /tmp/bla 
   shell1: cat /etc/passwd > /tmp/bla
   ```
-  
+
   Beispiel:
-  
+
   ```
   sudo vi /etc/syslog.conf .... . |/dev/xconsole
   sudo /etc/init.d/sysklogd restart
@@ -599,7 +597,7 @@ Einige Möglichkeiten der Interprocess Communication (IPC):
   shell2: su - 
   shell2: logger "Dies ist ein Test f. syslog und named pipe /dev/xconsole"
   ```
-  
+
 - Kommunikation über **Pipes**  
   Dies sind unidirektionale Datenkanäle zwischen zwei Prozessen. Ein Prozess schreibt Daten in den Kanal (Anfügen am Ende) und ein anderer Prozess liest die Daten in der gleichen Reihenfolge wieder aus (Entnahme am Anfang). Realisierung im Speicher oder als Dateien. Lebensdauer in der Regel solange beide Prozesse existieren.
 
@@ -743,7 +741,6 @@ Jeder wartet anschließend auf das Freiwerden der anderen Gabel.
 ```
             NimmGabel(rechts);
 ```
-
 
 Keiner kann essen, keiner wird die reservierte Gabel wieder freigeben, das Programm muss von außen abgebrochen werden.
 

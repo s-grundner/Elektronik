@@ -23,7 +23,7 @@ created: 19. Januar 2024
 # HTL Ordner Mitschrift
 
 - [x] Widerstand als Bauelement
-- [ ] Ersatzschaltbilder (Aus EinfET Skriptum)
+- [x] Ersatzschaltbilder (Aus EinfET Skriptum)
 
 # HTL OneNote Mitschrift
 
@@ -33,9 +33,11 @@ created: 19. Januar 2024
 
 ```dataview
 TABLE file.folder
-WHERE !contains(tags, cited)
-AND !contains(file.folder, "00")
+WHERE cited!=true
+AND !contains(file.folder, "00") 
+AND !contains(file.folder, "10")
 AND !contains(file.folder, "assets")
 AND !contains(file.folder, "xEDU")
 AND !contains(file.folder, "xPN")
+AND file.folder!="Ue"
 ```

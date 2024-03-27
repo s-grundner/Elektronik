@@ -36,7 +36,7 @@ Es gibt häufig die Forderung ein Array zu sortieren in welchem die Elemente gro
 ## Referenzen
 
 - [Viele Sortieralgorithmen mit JS Implementierung](http://khan4019.github.io/front-end-Interview-Questions/sort.html)
-- [Ue_Sortieren](Ue/Ue_Sortieren.md)
+- [Ue_Sortieren](Uebung/Ue_Sortieren.md)
 
 ## Fragen
 
