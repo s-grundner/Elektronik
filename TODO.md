@@ -39,5 +39,7 @@ AND !contains(file.folder, "10")
 AND !contains(file.folder, "assets")
 AND !contains(file.folder, "xEDU")
 AND !contains(file.folder, "xPN")
-AND file.folder!="Ue"
+AND !contains(file.folder, "xORG")
+AND !contains(file.folder, "Uebung")
+AND !contains(file.name, "{")
 ```

@@ -1,6 +1,5 @@
 ---
 tags:
-  - Grundschaltungen
   - incomplete
 aliases:
   - Schmitttrigger

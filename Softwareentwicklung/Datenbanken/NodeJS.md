@@ -36,7 +36,7 @@ Direkt einen Webserver mittels Node.js zu implementieren ist kein übliches Vorg
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
 - Dann wird ein Verzeichnis angelegt (in diesem Verzeichnis folgt die Entwicklung) und hineingewechselt
-  
+
   ```
   mkdir c:\temp\myNode
   cd c:\temp\myNode
@@ -44,7 +44,7 @@ Direkt einen Webserver mittels Node.js zu implementieren ist kein übliches Vorg
   npm install express
   npm install -g nodemon
   ```
-  
+
   ab nun ist in Node.js Express verfügbar `var express = require('express');`
 
 ### Erstes Skript
@@ -106,7 +106,7 @@ Die Datei `index.html` kann dazu im Ordner `public` im gleichen Pfad wie `app.js
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
 - Dann wird ein Verzeichnis angelegt (in diesem Verzeichnis folgt die Entwicklung) und hineingewechselt
-  
+
   ```
   mkdir c:\temp\nodemysql
   cd c:\temp\nodemysql
@@ -115,7 +115,7 @@ Die Datei `index.html` kann dazu im Ordner `public` im gleichen Pfad wie `app.js
   npm install mysql
   npm install -g nodemon
   ```
-  
+
   ab nun ist in nodejs MySQL verfügbar `var mysql = require('mysql');`
 
 ### Verbinden Mit Der DB
@@ -169,7 +169,7 @@ con.end();
 - In einer Kommandozeile sollte nun *npm* (Package-Manager für die weitere Installation) funktionieren
 
 - Dann wird ein Verzeichnis angelegt (in diesem Verzeichnis folgt die Entwicklung) und hineingewechselt
-  
+
   ```
   mkdir c:\temp\node-mongo
   cd c:\temp\node-mongo
@@ -178,7 +178,7 @@ con.end();
   npm install mongodb
   npm install -g nodemon
   ```
-  
+
   ab nun ist in nodejs MongDB verfügbar `var mongo = require('mongodb');`
 
 ### Verbinden Mit Der DB

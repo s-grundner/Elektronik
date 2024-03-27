@@ -11,6 +11,7 @@ created: 27. Dezember 2023
 source:
   - Laurenz Hölzl
   - Daniel Ch. v. Grüningen
+cited: true
 ---
 
 # Diskrete [Fourier Transformation](../../Mathematik/mathe%20(4)/Fourier%20Transformation.md)

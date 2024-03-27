@@ -9,7 +9,8 @@ semester:
   - WS23
   - B1
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
-professor:
+professor: 
+cited:
 ---
  
 

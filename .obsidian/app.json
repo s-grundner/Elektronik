@@ -32,7 +32,17 @@
     "xPN/Rubbish/",
     "xEDU/Rubbish/",
     "xEDU/",
-    "\"/Uebung/\""
+    "Softwareentwicklung/Betriebssysteme/Uebung/",
+    "Softwareentwicklung/C/Uebung/",
+    "Softwareentwicklung/Cpp/Uebung/",
+    "Softwareentwicklung/Datenbanken/Uebung/",
+    "Softwareentwicklung/DS-Algo/Uebung/",
+    "Softwareentwicklung/Java/Uebung/",
+    "Softwareentwicklung/Security/Uebung/",
+    "Softwareentwicklung/SEng/02_SEng/Uebung/",
+    "Softwareentwicklung/SEng/01_Git/Uebung/",
+    "Netzwerktechnik/Nw/Uebung/",
+    "assets/Excalidraw/"
   ],
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",

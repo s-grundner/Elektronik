@@ -1,8 +1,15 @@
 ---
-tags: ["DS", "buffer", "MCU/AVR"]
-aliases: ["Circular Buffer", "Circular Queue"]
-subject: ["dic", "fsst"]
-source: ["Robert Vogl"]
+tags:
+  - DS
+  - MCU/AVR
+aliases:
+  - Circular Buffer
+  - Circular Queue
+subject:
+  - dic
+  - fsst
+source:
+  - Robert Vogl
 created: 19th April 2022
 ---
 
