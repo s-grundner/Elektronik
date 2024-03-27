@@ -28,3 +28,9 @@ created: 19. Januar 2024
 # HTL OneNote Mitschrift
 
 # HTL GoodNotes Mtschrift
+
+# Quellen Zitieren
+
+```dataview
+LIST FROM #cited
+```
