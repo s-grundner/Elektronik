@@ -45,7 +45,7 @@ out.write("I like JAVA\r\n");	  // \r\n: Windows-Zeilenumbruch
 out.close();
 ```
 
-Durch eine gebufferte Verbindung kann die Datenquelle (das Programm) die Daten schnellstmöglich in den Buffer schreiben. Der langsamere Strom) zum Datenziel (die Datei) wird mit der ihr möglichen Geschwindigkeit beschrieben bzw. erst dann wenn eine gewisse Datenmenge aufgelaufen ist. Die schnelle Quelle wird dadurch nicht von einem langsamen Ziel gebremst und die Anzahl der Zugriffe wird reduziert.
+Durch eine gebufferte Verbindung kann die Datenquelle (das Programm) die Daten schnellstmöglich in den Buffer schreiben. Der langsamere Strom zum Datenziel (die Datei) wird mit der ihr möglichen Geschwindigkeit beschrieben bzw. erst dann wenn eine gewisse Datenmenge aufgelaufen ist. Die schnelle Quelle wird dadurch nicht von einem langsamen Ziel gebremst und die Anzahl der Zugriffe wird reduziert.
 
 Mit der Methode `flush()` können die Daten bewusst zu diesem Zeitpunkt in den Datenstrom geschrieben werden.
 
