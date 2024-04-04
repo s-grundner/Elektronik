@@ -6,9 +6,13 @@ keywords:
 subject:
   - Mathematik1
   - "357.100"
-semester: 1
+semester:
+  - B1
+  - WS23
 created: 27. Januar 2024
-professor:
+professor: 
+source:
+  - Sophie Öttl
 ---
  
 
@@ -16,7 +20,7 @@ professor:
 
 # Beispiele
 
-## Aufgabe 1: Gleichung
+## Gleichung
 
 Mittels der Vollständigen Induktion lässt sich Beweisen, dass Folgende Aussage Wahr ist: 
 
@@ -106,8 +110,15 @@ $$
 
 ---
 
-## Aufgabe 2: Ungleichung
+## Ungleichung
 
 ![](assets/Pasted%20image%2020240127134214.png)
 
-## Aufgabe 3: Teilbarkeit
+## Teilbarkeit
+
+## Rekursion
+
+Guess:
+T(n) = 100T(n/10)+ n^2
+T(1)=1
+T(n)=O(n^2+lg⁡(n)⋅n^2 )=O(lg⁡(n)⋅n^2) Proof: Induction Assumption: T(n)=n^2+lg⁡(n)⋅n^2 Induction base: T(1)=1^2+lg⁡(1)_1^2=1 Induction step: T(n)= 100T(n/10)+ n^2 T(n)=100⋅((n/10)^2+lg⁡(n/10)_(n/10)^2 ) + n^2 T(n)=100⋅((n/10)^2⋅(1+lg⁡(n/10) )) + n^2 T(n)=100⋅((n/10)^2⋅(1+lg⁡〖(n)-1〗 )) + n^2 T(n)=100⋅(n^2/100⋅lg⁡(n)) + n^2 T(n)=n^2⋅ lg⁡(n)+ n^2

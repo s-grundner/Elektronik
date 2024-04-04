@@ -1,13 +1,15 @@
 ---
-tags: []
-aliases: []
-subject: ["physik"]
-source: ["Sophie öttl"]
+tags: 
+aliases: 
+subject:
+  - physik
+source:
+  - Sophie Öttl
 created: 15th September 2022
 ---
 
 # Welle-Teilchen-Dualismus
 
-[Laser](Laser.md)
-
 # Tags
+
+[Laser](Laser.md)
