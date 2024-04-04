@@ -62,10 +62,6 @@ $$
 \overset! =(n+1)^{2}(n+2)(n+3)
 $$
 
-$$
-
-$$
-
 ### Induktionsvoraussetzung (IV)
 
 Wir nehmen an, die Formel aus der Angabe Stimmt. So setzen wir ein den Ausdruck aus dem Induktionsschluss ein: 
@@ -118,7 +114,20 @@ $$
 
 ## Rekursion
 
-Guess:
-T(n) = 100T(n/10)+ n^2
-T(1)=1
-T(n)=O(n^2+lg⁡(n)⋅n^2 )=O(lg⁡(n)⋅n^2) Proof: Induction Assumption: T(n)=n^2+lg⁡(n)⋅n^2 Induction base: T(1)=1^2+lg⁡(1)_1^2=1 Induction step: T(n)= 100T(n/10)+ n^2 T(n)=100⋅((n/10)^2+lg⁡(n/10)_(n/10)^2 ) + n^2 T(n)=100⋅((n/10)^2⋅(1+lg⁡(n/10) )) + n^2 T(n)=100⋅((n/10)^2⋅(1+lg⁡〖(n)-1〗 )) + n^2 T(n)=100⋅(n^2/100⋅lg⁡(n)) + n^2 T(n)=n^2⋅ lg⁡(n)+ n^2
+Angabe:
+$T(n) = 100T(n/10)+ n^2$
+$T(1)=1$
+
+Annahme: $T(n)=n^2+\lg⁡(n)\cdot n^2$
+Induktions Anfang: $T(1)=1^2+\lg⁡(1)\cdot 1^2=1$
+Induktionsschritt $n \to \frac{n}{10}$:
+$$
+\begin{align}
+T(n) &= 100\cdot T\left( \frac{n}{10} \right)+ n^2 \\
+T(n) &= 100\cdot \left( \left( \frac{n}{10} \right)^2+\lg⁡\left( \frac{n}{10} \right)\cdot\left( \frac{n}{10} \right)^2  \right) + n^2 \\
+T(n) &= 100\cdot \left( \left( \frac{n}{10} \right)^2\cdot \left( 1+\lg⁡\left( \frac{n}{10} \right)  \right) \right) + n^2 \\
+T(n) &= 100\cdot \left( \left( \frac{n}{10} \right)^2\cdot (1+\lg⁡(n)-1 ) \right) + n^2 \\
+T(n) &= 100\cdot \left( \frac{n^2}{100} \cdot \lg⁡(n) \right) + n^2 \\
+T(n) &= n^2\cdot  \lg⁡(n)+ n^2
+\end{align}
+$$
