@@ -1,7 +1,8 @@
 ---
 tags:
   - Baugruppen/Oszillator
-aliases: 
+aliases:
+  - Reihenschwingkreis
 keywords: 
 subject:
   - VL
