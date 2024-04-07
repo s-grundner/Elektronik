@@ -22,11 +22,24 @@ cited:
 ## Resonanz
 
 > [!info] Bei *Resonanz* $\underline{Z}$ minimal
-> das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z} = R$
+> das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
+> Die Frequenz welche diese Bedingung erfüllt, heißt Resonanzfrequenz.
 
-### Resonanzfrequenz
+Resonanzkreisfrequenz:
 
+$$
+\begin{align}
+\omega_{r}L-\frac{1}{\omega_{r}C} = 0 \\
+\omega_{r}^{2}LC-1 = 0 \\
+\omega_{r} = \frac{1}{\sqrt{ LC }}
+\end{align}
+$$
 
+## Zeiger Diagramm
+
+| $\underline{Z}$-Zeigerdiagramm | $U$-$I$-Zeigerdiagramm |
+| ------------------------------ | ---------------------- |
+| ![](assets/ZZeigerDiag.png)    | ![](assets/Pasted%20image%2020240408011845.png)                       |
 
 # Freie Schwingungen im realen Serienschwingkreis
 
