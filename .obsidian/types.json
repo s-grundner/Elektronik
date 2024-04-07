@@ -11,7 +11,7 @@
     "material": "multitext",
     "spec-conductance": "multitext",
     "spec-resisitance": "multitext",
-    "semester": "multitext",
+    "semester": "text",
     "ref": "multitext",
     "professor": "multitext",
     "keywords": "multitext",
