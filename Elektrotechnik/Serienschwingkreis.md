@@ -16,9 +16,17 @@ cited:
 # Serienschwingkreis
 
 > [!info] Der elementare Serienschwingkreis (oder Reihenschwingkreis) besteht aus der Serienschaltung von $R$, $L$ und $C$ mit der Impedanz
+> ![invert_dark](assets/RLC-SerienSK.png)
 > $$\underline{Z} = R + j\omega L+\frac{1}{j\omega C} = R+ j\left( \omega L-\frac{1}{\omega C} \right)$$
 
 ## Resonanz
+
+> [!info] Bei *Resonanz* $\underline{Z}$ minimal
+> das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z} = R$
+
+### Resonanzfrequenz
+
+
 
 # Freie Schwingungen im realen Serienschwingkreis
 
