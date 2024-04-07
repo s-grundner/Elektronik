@@ -37,20 +37,22 @@ $$
 
 ## Zeiger Diagramm
 
-|     $\underline{Z}$-Zeigerdiagramm     |                        $U$-$I$-Zeigerdiagramm                         |
-|:--------------------------------------:|:---------------------------------------------------------------------:|
-| ![invert_dark](assets/ZZeigerDiag.png) |                ![invert_dark](assets/UIZeigerDiag.png)                |
-| Die Impedanz-Zeiger rotieren **nicht** | Die Zeigerdiagramme sind eine Momentaufnahme des Roteierenden Zeigers |
-|                                        |   Die Zeiger können also      |
-|                                        |   Wir Zeichnen sie, sodass ein Zeigerauf der Realen Achse liegt.                                                                    |
+|                      $\underline{Z}$-Zeigerdiagramm                       |                $U$-$I$-Zeigerdiagramm                |
+|:-------------------------------------------------------------------------:|:----------------------------------------------------:|
+|                  ![invert_dark](assets/ZZeigerDiag.png)                   |       ![invert_dark](assets/UIZeigerDiag.png)        |
+|                  Die Impedanz-Zeiger rotieren **nicht**                   |       Momentaufnahme des roteierenden Zeigers        |
+| Die Zeiger können **nicht** beliebig in das Diagramm eingezeichnet werden | Die Zeiger können beliebig gedreht gezeichnet werden. <br>(Wir Zeichnen sie, sodass ein Zeigerauf der Realen Achse liegt -> Einfachheit) |
+|                              Absoluter Winkel von Bedeutung                          |                   Relative Winkel von Bedeutung                    |
 
-Im eingeschwungenen Zustand haben alle Zeiger einen konstanten Phasenwinkel zueinander
+> [!question] Überlegungen zum Zeigerdiagramm
+> - Wie sieht das Zeigerdiagramm beim Resonanzfall aus
+> - Ist das oben gezeigte Diagramm oberhalb oder unterhalb der Resonanzfrequenz.
 
 # Freie Schwingungen im realen Serienschwingkreis
 
 Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
-![400](../Mathematik/assets/e_serien_schwingk_frei.png)
+![invert_dark|400](../Mathematik/assets/e_serien_schwingk_frei.png)
 
 Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
