@@ -4,10 +4,10 @@ aliases:
 keywords: 
 subject:
   - VL
-  - Einf. ET
+  - Elektrotechnik
 semester:
-  - WS23
-  - B1
+  - B2
+  - SS24
 created: 7. April 2024
 professor: 
 cited:
@@ -53,12 +53,16 @@ Statt dem Spitzenwert wird der Effektivwert verwendet
 Diese Konvention kommt aus der Energietechnik
 - Die Länge der Zeiger ist um den Faktor $\sqrt{ 2 }$ kürzer
 
+$$
+\underline{U}=\frac{\underline{\hat{u}}}{\sqrt{2}} \quad \underline{I}=\frac{\hat{\hat{i}}}{\sqrt{2}}
+$$
+
 > [!info] Quadratischer Mittelwert
 > Physikalische Interpretation des Quadratischen Mittelwertes in der Elektrotechnik:
 > - Periodische Spannung an einem Widerstand -> ein Strom fließ
 > - Produkt aus Strom und Spannung ist Leistung
 > 
-> Wenn man eine Gleichspannung äquivalent zum Effektivwert an einen Widerstand ang  Diese Mittler Leistung ist genauso groß wie der effektivwert 
+> Wenn man eine Gleichspannung äquivalent zum Effektivwert an einen Widerstand anhängt Ist die Leistung des Gleichstromnetzwerks genauso groß wie die Mittlere Leistung des Wechselstromnetzwerks. 
 
 # Rechnen ohne Zeiger
 

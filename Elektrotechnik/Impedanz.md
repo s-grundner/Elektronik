@@ -1,16 +1,18 @@
 ---
-tags:
-  - RF
-aliases:
-  - Admittanz
-  - Scheinwiderstand
+tags: 
+aliases: 
+keywords: 
 subject:
-  - hwe
-  - ksn
-source:
-  - ""
-created: 11th April 2023
+  - VL
+  - Elektrotechnik
+semester:
+  - WS23
+  - B1
+created: 18. April 2023
+professor: 
+cited:
 ---
+ 
 
 # Impedanz
 
@@ -27,6 +29,14 @@ $$
 | $X$ | *Reaktanz*  <br> Blindwiderstand | $\uparrow^{-1}$ | $B$ | *Suszeptanz* <br> Blindleitwert |
 
 Für Berechnungen gilt: $Z=\frac{Z_{Z}}{Z_{N}}$ -> $\mid Z\mid=\frac{\mid Z_{Z}\mid}{\mid Z_{N}\mid}$
+
+## Bauelemente
+
+|    Bauelement    |                   Impedanz                    |                   Admittanz                   |
+| :--------------: | :-------------------------------------------: | :-------------------------------------------: |
+| Widerstand $R$  |               $\underline{Z}=R$               |             $\underline{Y}=1 / R$             |
+| Kapazität $C$   | $\underline{Z}=\frac{1}{\mathrm{j} \omega C}$ |      $\underline{Y}=\mathrm{j} \omega C$      |
+| Induktivität $L$ |      $\underline{Z}=\mathrm{j} \omega L$      | $\underline{Y}=\frac{1}{\mathrm{j} \omega L}$ |
 
 # Tags
 

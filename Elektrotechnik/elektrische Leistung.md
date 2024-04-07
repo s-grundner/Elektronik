@@ -40,6 +40,13 @@ Einheit: VAR - Volt Ampere Reaktiv
 
 *Scheinleistung:* $S=\sqrt{ P^2+Q^2 } = \mid S\mid$
 Einheit: VA - Volt-Ampere
+keine Physikalische Interpretation möglich -> nur zum Rechnen
+
+*Komplexe Leistung*: $\underline{S} = \underline{U} \cdot \underline{I}^{*}$
+keine Physikalische Interpretation möglich -> nur zum Rechnen
+Strom ist konjugiert komplex, damit der Phasenwinkel $\varphi_{u} - \varphi_{i}$ ergibt (wie bei der Wirkleistung)
+
+> [!warning] dabei sind $U$ und $I$ *Effektivwerte*
 
 ## Blindleistungskompensation
 
