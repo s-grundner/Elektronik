@@ -22,27 +22,16 @@ cited:
 > - keine Einschalt-/Umschaltvorgänge
 > - Kreisfrequenz aller Ströme und Spannungen ist konstant
 
-> [!success] erleichtert das Rechnen
+$$u(t) = \hat{u}\cdot(\cos(\omega t+ \varphi) + \underbrace{ j\sin(\omega t+ \varphi) }_{ \text{wird eingeführt} }) = \hat{u}a\cdot e^{ j(\omega t + \varphi)}$$
 
-Sinusförmige Zeit Funktionen werden zu komplexen Zeigern
-- Erleichtern das Rechnen
-
-$u(t) = \hat{u}\cos(\omega t+\varphi_{u})$ wird zu $u(t) = u_{eff}\cdot e^{ j(\omega t+ \varphi) }$
-
-realer Anteil ist nur der Cosinus: [Eulersche Formel](../Mathematik/mathe%20(3)/Eulersche%20Formel.md)
-
-$u(t) = u\cdot(\cos(\omega t+ \varphi) + \underbrace{ j\sin(\omega t+ \varphi) }_{ \text{wird eingeführt} }) = u\cdot e^{ j(\omega t + \varphi)}$
-
-$$
-\underline{u}(t) = \hat{u}\cdot e^{ j(\omega t+\varphi_{u}) }
-$$
 … Zurückzuführen auf die [Eulersche Formel](../Mathematik/mathe%20(3)/Eulersche%20Formel.md)
-
 
 > [!warning] Physikalisch vorhanden und Messbar ist nur der Realteil
 > $$
 > u(t) = \mathrm{Re}(\underline{u}(t)) = \hat{u}\cos(\omega t+\varphi_{u})
 > $$
+
+> [!success] erleichtert das Rechnen
 
 ## Notation
 
@@ -61,9 +50,19 @@ $$
 
 Statt dem Spitzenwert wird der Effektivwert verwendet
 
+Diese Konvention kommt aus der Energietechnik
+- Die Länge der Zeiger ist um den Faktor $\sqrt{ 2 }$ kürzer
+
+> [!info] Quadratischer Mittelwert
+> Physikalische Interpretation des Quadratischen Mittelwertes in der Elektrotechnik:
+> - Periodische Spannung an einem Widerstand -> ein Strom fließ
+> - Produkt aus Strom und Spannung ist Leistung
+> 
+> Wenn man eine Gleichspannung äquivalent zum Effektivwert an einen Widerstand ang  Diese Mittler Leistung ist genauso groß wie der effektivwert 
+
 # Rechnen ohne Zeiger
 
-[Widerstand](Widerstand.md) $R$
+## [Widerstand](Widerstand.md) $R$
 
 $$
 \begin{aligned}
@@ -73,7 +72,7 @@ i(t) & =\hat{i} \cos \left(\omega t+\varphi_i\right) \\
 \end{aligned}
 $$
 
-[Kondensator](Kapazität.md) $C$
+## [Kondensator](Kapazität.md) $C$
 
 $$
 \begin{align}
