@@ -15,10 +15,11 @@ cited:
 # Serienschwingkreis
 
 > [!info] Der elementare Serienschwingkreis (oder Reihenschwingkreis) besteht aus der Serienschaltung von $R$, $L$ und $C$ mit der Impedanz
-> $$\underline{Z} = R + j\omega L+\frac{1}{j\omega C}$$
+> $$\underline{Z} = R + j\omega L+\frac{1}{j\omega C} = R+ j\left( \omega L-\frac{1}{\omega C} \right)$$
 
+## Resonanz
 
-## Freie Schwingungen im realen Serienschwingkreis
+# Freie Schwingungen im realen Serienschwingkreis
 
 Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
@@ -68,14 +69,14 @@ $$
 
 >[!summary] $$\lambda^{2}+ 2\delta\cdot\lambda + \omega_{0}^{2} = 0$$
 
-### Bezeichnungen
+## Bezeichnungen
 
 | Ausdruck                                                | Bezeichnung                                                        |
 | ------------------------------------------------------- | ------------------------------------------------------------------ |
 | $2\delta = \frac{R}{L} \rightarrow \frac{R}{2L}=\delta$ | [Abklingkonstante](https://de.wikipedia.org/wiki/Abklingkonstante) |
 | $\omega_{0} = \frac{1}{\sqrt{LC}}$                      | Resonanzkreisfrequenz                                              |
 
-### Lösung der Gleichung
+## Lösung der Gleichung
 
 $\lambda_{1} = -\delta+\sqrt{\delta^{2}-\omega^{2}_{0}}$
 
@@ -91,11 +92,11 @@ die 3. Fälle der [DGL 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%
 
 ![Federpendel_verschiedene_Dämpfungen](../Mathematik/assets/Federpendel_verschiedene_Dämpfungen.gif)
 
-## Erzwungene Schwingung im realen Serienschwingkreis
+# Erzwungene Schwingung im realen Serienschwingkreis
 
 ![400](../Mathematik/assets/e_serien_schwingk_erzw.png)
 
-Bei einem erzwungenen [Schwingkreis](Schwingkreise.md) leigt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine funktion der Spannung $U_{e}(t)$ an.
+Bei einem erzwungenen [Schwingkreis](Schwingkreise.md) liegt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine Funktion der Spannung $U_{e}(t)$ an.
 
 | Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensators](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstands](../Elektrotechnik/Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
@@ -122,7 +123,7 @@ $$
 
 Mit dem Auflösen der [](../Elektrotechnik/Kirchhoffsche%20Regeln.md#Maschen%20Regel|Masche) ergibt sich eine [](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20Störterm|lineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
 
-### Bestimmung der Amplituden-Phasen-Form
+## Bestimmung der Amplituden-Phasen-Form
 
 Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\cdot \sin(\omega\cdot t+\varphi)$ und beschreibt nur die Funktion nach dem Einschwingvorgang.
 
@@ -165,7 +166,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > \end{align*}
 > $$
 
-#### Koeffizienten $a$ und $b$ der partikulären Lösung
+### Koeffizienten $a$ und $b$ der partikulären Lösung
 
 Durch umformen erhält man einer Formel für $a$ und $b$, die sich allgemein für die Berechnung von Schwingungen, mit einer trigonometrischen Funktion als Störterm, anwenden lässt:
 
@@ -176,7 +177,7 @@ $$
 \end{align*}
 $$
 
-#### Amplitude von $u_{cp}$ (Allgemein auch als $A(\omega)$)
+### Amplitude von $u_{cp}$ (Allgemein auch als $A(\omega)$)
 
 $$
 \begin{align*}
@@ -185,7 +186,7 @@ $$
 \end{align*}
 $$
 
-#### Phase von $u_{cp}$
+### Phase von $u_{cp}$
 
 $$
 \begin{align*}
@@ -194,7 +195,7 @@ $$
 \end{align*}
 $$
 
-#### Frequenzgang der Amplitude:
+### Frequenzgang der Amplitude:
 
 Die Amplitude ist maximal, wenn der Ausdruck unter der Wurzel minimal ist. $d$ ist der Ausdruck unter der Wurzel.
 
