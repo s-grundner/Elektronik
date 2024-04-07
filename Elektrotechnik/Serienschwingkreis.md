@@ -37,9 +37,14 @@ $$
 
 ## Zeiger Diagramm
 
-| $\underline{Z}$-Zeigerdiagramm | $U$-$I$-Zeigerdiagramm |
-| ------------------------------ | ---------------------- |
-| ![](assets/ZZeigerDiag.png)    | ![](assets/Pasted%20image%2020240408011845.png)                       |
+|     $\underline{Z}$-Zeigerdiagramm     |                        $U$-$I$-Zeigerdiagramm                         |
+|:--------------------------------------:|:---------------------------------------------------------------------:|
+| ![invert_dark](assets/ZZeigerDiag.png) |                ![invert_dark](assets/UIZeigerDiag.png)                |
+| Die Impedanz-Zeiger rotieren **nicht** | Die Zeigerdiagramme sind eine Momentaufnahme des Roteierenden Zeigers |
+|                                        |   Die Zeiger können also      |
+|                                        |   Wir Zeichnen sie, sodass ein Zeigerauf der Realen Achse liegt.                                                                    |
+
+Im eingeschwungenen Zustand haben alle Zeiger einen konstanten Phasenwinkel zueinander
 
 # Freie Schwingungen im realen Serienschwingkreis
 
