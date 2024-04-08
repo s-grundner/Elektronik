@@ -158,7 +158,7 @@ $$
 }}
 $$
 
-Mit dem Auflösen der [](../Elektrotechnik/Kirchhoffsche%20Regeln.md#Maschen%20Regel|Masche) ergibt sich eine [[lineare DGL 2. Ordnung#Lösung der *inhomogenen* [DGL](../{MOC}%20DGL.md) 2. Ordnung]] $(R,L,C)$.
+Mit dem Auflösen der Masche ergibt sich eine inhomogene DGL 2. Ordnung $(R,L,C)$.
 
 ## Bestimmung der Amplituden-Phasen-Form
 

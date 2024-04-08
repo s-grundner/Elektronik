@@ -19,7 +19,7 @@ Beispiel nicht elementarer SK:
 technischer Parallelschwingkreis
 
 
-![](assets/Pasted%20image%2020240408102500.png)
+![invert_dark](ParallelSK.png)
 
 
 Admittanz 

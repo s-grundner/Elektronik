@@ -24,7 +24,6 @@ cited:
 
 ![invert_dark](assets/dualZP_SK.png)
 
-
 # Tags
 
 ![4000](../Mathematik/mathe%20(4)/assets/Schwingkreise%202024-01-17%2009.08.32.excalidraw)
