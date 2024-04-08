@@ -20,6 +20,8 @@ cited:
 > Serienschwingkreis
 > [Parallelschwingkreis](Parallelschwingkreis.md)
 
+## Schwingkreise als duale Zweipole
+
 
 
 

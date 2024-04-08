@@ -10,12 +10,8 @@ created: 29th November 2022
 
 Beschreibt, wie stark das Resonanzverhalten ausgeprägt ist.
 
-Verhältnis der Teilspannungen zur Gesamtspannung $\underline{U}$ bei Resonanz
+Güte vom [Kondensator](../Elektrotechnik/Kapazität.md): dünnes [Dielektrikum](../Elektrotechnik/Dielektrikum.md) $\to$ hohe Güte
 
-$$
-\begin{align*}
-	Q&=\frac{U_{L,res}}{U}=\frac{I\cdot X_{L,res}}{I\cdot R}=\frac{\omega_{0}\cdot L}{R}\\
-	
-    Q &= \frac{U_{C,res}}{U} = \frac{I\cdot X_{C,res}}{I\cdot R} =\frac{1}{\omega_{0}\cdot C\cdot R}
-\end{align*}
-$$
+Güte der [Spule](../Elektrotechnik/Induktivitäten.md): geringer Serienwiderstand $\to$ hohe Güte
+
+Bauelement mit der geringsten Güte dominiert die Gesamtgüte.
