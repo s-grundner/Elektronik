@@ -113,14 +113,6 @@
     }
   ],
   "obsidian-completr:completr-blacklist-current-word": [],
-  "text-snippets-obsidian:text-snippets": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Q"
-    }
-  ],
   "workspace:close-window": [],
   "obsidian-markdown-formatting-assistant-plugin:open-command-selector": [
     {
@@ -197,6 +189,14 @@
         "Alt"
       ],
       "key": "L"
+    }
+  ],
+  "text-snippets-obsidian:text-snippets": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
     }
   ]
 }

@@ -24,7 +24,7 @@ Zeigt den Frequenzgang bestehend aus
 - Amplitudengang
 - Phasengang
 
-es werden zwei diagramme benötigt da mit komplexer WST grechnet wird
+es werden zwei Diagramme benötigt, da mit komplexer Wechselstromtechnik gerechnet wird
 
 Allgemein wird die [[Dämpfung]] des Filters mit logarithmischem verhältnis dargestellt -> dezibel
 - Dezibel ist die Pseudo einheit zur darstellung von logarithmischen Leistungsverhältnissen
