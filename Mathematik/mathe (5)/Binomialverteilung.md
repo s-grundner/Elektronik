@@ -42,7 +42,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 
 ![binom_tree](assets/binom_tree.png)
 
-## unbekanntes $n$
+## Unbekanntes $n$
 
 > [!EXAMPLE] Wie viele Tickets kann man verkaufen, sodass mit [WSK](Wahrscheinlichkeit.md)$=0.9$ der Flug nicht überbucht ist? 
 > - Fluglinie überbucht Flüge (200 Sitze)
@@ -52,7 +52,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > > ausprobieren mit Taschenrechner: binomial CD kumulierte Binomialverteilung  
 > > $n=210$
 
-## unbekanntes $k$ bei gegebener [WSK](Wahrscheinlichkeit.md)
+## Unbekanntes $k$ bei gegebener [WSK](Wahrscheinlichkeit.md)
 
 > [!EXAMPLE] Bsp  
 > $n=6\qquad p=0.4$  
