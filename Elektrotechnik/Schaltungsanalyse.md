@@ -56,7 +56,8 @@ Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass
 
 ### Verfahren Für die Analyse
 
-- [Knotenpotentialverfahren](../Hardwareentwicklung/Knotenpotentialverfahren.md)
+- [[Knotenpotentialverfahren]]
+- [[Maschenstromverfahren]]
 
 ### Grafische Netzwerkanalyse
 
