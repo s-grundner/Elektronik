@@ -21,7 +21,7 @@ cited:
 
 ## Resonanz
 
-> [!info] Bei *Resonanz* $\underline{Z}$ minimal
+> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal
 > das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
 > Die Frequenz welche diese Bedingung erfüllt, heißt Resonanzfrequenz.
 
@@ -125,7 +125,7 @@ die 3. Fälle der [DGL 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%
 | [Fall 2.](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
 | [Fall 3.](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
 
-![400](../Mathematik/assets/faelle_e_sk.png)
+![invert_dark|400](../Mathematik/assets/faelle_e_sk.png)
 
 ![Federpendel_verschiedene_Dämpfungen](../Mathematik/assets/Federpendel_verschiedene_Dämpfungen.gif)
 
@@ -158,7 +158,7 @@ $$
 }}
 $$
 
-Mit dem Auflösen der [](../Elektrotechnik/Kirchhoffsche%20Regeln.md#Maschen%20Regel|Masche) ergibt sich eine [](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%202%20Ordnung%20mit%20Störterm|lineare%20inhomogene%20DGL%202.%20Ordnung%20mit%20konstanten%20koeffizienten)$(R,L,C)$.
+Mit dem Auflösen der [](../Elektrotechnik/Kirchhoffsche%20Regeln.md#Maschen%20Regel|Masche) ergibt sich eine [[lineare DGL 2. Ordnung#Lösung der *inhomogenen* [DGL](../{MOC}%20DGL.md) 2. Ordnung]] $(R,L,C)$.
 
 ## Bestimmung der Amplituden-Phasen-Form
 
@@ -261,4 +261,4 @@ $$
 \end{align*}
 $$
 
- >![700](../Mathematik/assets/frequ_gang_e_serien_schwingk.png)
+ >![invert_dark|700](../Mathematik/assets/frequ_gang_e_serien_schwingk.png)

@@ -11,11 +11,11 @@ source: ["Rudolf Frauenschuh"]
 
 # Lineare Differentialgleichungen 2. Ordnung
 
-## Lineare [DGL](../{MOC}%20DGL.md) 2. Ordnung mit konstantem Koeffizienten
+## Lineare DGL 2. Ordnung mit konstantem Koeffizienten
 
 $$y'' + p\cdot y'+q\cdot y=s(x) $$
 
-### Lösung der *homogenen* [DGL](../{MOC}%20DGL.md) 2. Ordnung
+### Lösung der *homogenen* DGL 2. Ordnung
 
 Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL](../{MOC}%20DGL.md) 2. Ordnung erfolgt mit dem [Exponentialansatz](Exponentialansatz.md)
 
@@ -70,7 +70,7 @@ $\begin{align*} \lambda_{1}&=\lambda_{2}=- \frac{p}{2} \\ y_{h}&=(C_{1}+C_{2}x)\
 > [!WARNING] ergibt nur eine Lösung … es fehlt also etwas  
 > ![Pasted image 20220601193117](../assets/Pasted%20image%2020220601193117.png)
 
-#### 3. Fall: konjugiert [komplexe](../mathe%20(3)/Komplexe%20Zahlen.md) Lösungen
+#### 3. Fall: konjugiert komplexe Lösungen
 
 $\left( \frac{p}{2} \right)^{2}-q<0$  
 $\lambda_{1}=\sigma+j\omega$  
@@ -80,7 +80,7 @@ $\omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
 
 ---
 
-### Lösung der *inhomogenen* [DGL](../{MOC}%20DGL.md) 2. Ordnung
+### Lösung der *inhomogenen* DGL 2. Ordnung
 
 Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](../{MOC}%20DGL.md) hat. 
 
