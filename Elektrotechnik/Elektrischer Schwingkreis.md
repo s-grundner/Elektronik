@@ -16,15 +16,12 @@ cited:
 
 # Elektrische Schwingungen
 
-> [!info] Arten von elektrischen Schwingkreisen
-> - Freie Schwingung im realen [Serienschwingkreis](Serienschwingkreis.md)
-> - Freie Schwingung im realen Parallelschwingkreis
-> - Erzwungen / Angeregte Schwingung im realen [Serienschwingkreis](Serienschwingkreis.md)
-> - Erzwungen / Angeregte Schwingung im realen Parallelschwingkreis
+> [!info] elementare [Schwingkreise](../Physik/Schwingkreise.md)
+> Serienschwingkreis
+> [Parallelschwingkreis](Parallelschwingkreis.md)
 
-## Freie Schwingung im realen Parallelschwingkreis
 
-![Pasted image 20221201122606](../Mathematik/assets/Pasted%20image%2020221201122606.png)
+
 
 # Tags
 
