@@ -261,4 +261,4 @@ $$
 \end{align*}
 $$
 
- >![invert_dark|700](../Mathematik/assets/frequ_gang_e_serien_schwingk.png)
+ > ![invert_dark|700](../Mathematik/assets/frequ_gang_e_serien_schwingk.png)
