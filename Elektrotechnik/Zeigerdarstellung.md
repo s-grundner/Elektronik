@@ -1,13 +1,13 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - komplexer Zeiger
+  - Zeigerdiagramme
 keywords: 
 subject:
   - VL
   - Elektrotechnik
-semester:
-  - B2
-  - SS24
+semester: SS24
 created: 7. April 2024
 professor: 
 cited:
@@ -57,12 +57,16 @@ $$
 \underline{U}=\frac{\underline{\hat{u}}}{\sqrt{2}} \quad \underline{I}=\frac{\hat{\hat{i}}}{\sqrt{2}}
 $$
 
-> [!info] Quadratischer Mittelwert
+> [!info] [Quadratischer Mittelwert](Quadratischer%20Mittelwert.md)
 > Physikalische Interpretation des Quadratischen Mittelwertes in der Elektrotechnik:
-> - Periodische Spannung an einem Widerstand -> ein Strom fließ
+> - Periodische Spannung an einem [Widerstand](Widerstand.md) -> ein Strom fließ
 > - Produkt aus Strom und Spannung ist Leistung
 > 
 > Wenn man eine Gleichspannung äquivalent zum Effektivwert an einen Widerstand anhängt Ist die Leistung des Gleichstromnetzwerks genauso groß wie die Mittlere Leistung des Wechselstromnetzwerks. 
+
+## Inversion von Zeigern
+
+Nützlich für die grafische Netzwerkanaly
 
 # Rechnen ohne Zeiger
 

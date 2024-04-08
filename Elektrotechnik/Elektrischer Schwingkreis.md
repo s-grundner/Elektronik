@@ -22,7 +22,7 @@ cited:
 
 ## Schwingkreise als duale Zweipole
 
-
+![invert_dark](assets/dualZP_SK.png)
 
 
 # Tags
