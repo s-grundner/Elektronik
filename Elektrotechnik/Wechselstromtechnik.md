@@ -1,14 +1,13 @@
 ---
-tags: 
-aliases: 
+tags:
+  - Schaltungsanalyse
+aliases:
+  - Wechselstrom
 keywords: 
 subject:
   - Einf. ET
-  - "335.005"
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 12th January 2024
 professor:
 ---

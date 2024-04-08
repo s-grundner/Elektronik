@@ -58,6 +58,13 @@ Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass
 
 - [Knotenpotentialverfahren](../Hardwareentwicklung/Knotenpotentialverfahren.md)
 
+### Grafische Netzwerkanalyse
+
+Grafisch Hilfsmittel wie [Zeigerdiagramme](../Elektrotechnik/Zeigerdarstellung.md) und [Ortskurven](../Hardwareentwicklung/Ortskurve.md) erlauben ein rasches Verständnis des Verhaltens eines Wechselstrom netzwerks
+
+Im Zusammenhang mit den Zeigerdiagrammen werden wir uns noch mit der [Inversion von Zeigern](../Elektrotechnik/Zeigerdarstellung.md#Inversion%20von%20Zeigern) beschäftigen
+  - um z.B. Z- oder Y-[Zeigerdiagramme](../Elektrotechnik/Zeigerdarstellung.md) von Schaltungen zeichnen zu können, die eine Mischung aus Bauelementen in Serien- und Parallelschaltung enthalten
+
 # Tags
 
 [1^]: Für den Fall der [Wechselstromtechnik](Wechselstromtechnik.md)

@@ -48,6 +48,14 @@ $$
 > - Wie sieht das Zeigerdiagramm beim Resonanzfall aus
 > - Ist das oben gezeigte Diagramm oberhalb oder unterhalb der Resonanzfrequenz.
 
+## Ortskurve
+
+![invert_dark](assets/Ortskurve_SSK.png)
+
+$$
+Z = R + j\omega L + \frac{1}{j\omega C}
+$$
+
 # Freie Schwingungen im realen Serienschwingkreis
 
 Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.

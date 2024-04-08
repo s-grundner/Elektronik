@@ -4,6 +4,7 @@ tags:
   - Baugruppen/Oszillator
 aliases:
   - Schwingkreis
+  - Schwingungen
 subject:
   - mathe
   - hwe

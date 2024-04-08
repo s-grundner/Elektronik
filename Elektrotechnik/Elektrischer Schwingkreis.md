@@ -16,8 +16,8 @@ cited:
 
 # Elektrische Schwingungen
 
-> [!info] elementare [Schwingkreise](../Physik/Schwingkreise.md)
-> Serienschwingkreis
+> [!info] elementare Schwingkreise
+> [Serienschwingkreis](Serienschwingkreis.md)
 > [Parallelschwingkreis](Parallelschwingkreis.md)
 
 ## Schwingkreise als duale Zweipole
