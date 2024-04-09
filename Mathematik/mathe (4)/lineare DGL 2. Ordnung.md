@@ -100,4 +100,4 @@ Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am E
 
 # Tags
 
-[Quadratische Gleichung](Quadratische%20Gleichung)
+[Quadratische Gleichung](Quadratische%20Gleichung.md)
