@@ -13,8 +13,6 @@ created: 26th March 2022
 > [!INFO] Ermittlung der Stammfunktion  
 > $F(x) = \int f(x) \, dx$
 
-### Kettenregel
-
 ### Integration durch Substitution
 
 ### Nichtlineare Substitution
@@ -22,8 +20,6 @@ created: 26th March 2022
 ### Partielle Integration
 
 ## Bestimmtes Integral
-
-$\int_{a}^b  \, dx$ 
 
 ### Substitution bei bestimmten Integralen
 
