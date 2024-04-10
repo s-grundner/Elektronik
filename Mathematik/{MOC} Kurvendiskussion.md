@@ -6,8 +6,7 @@ aliases:
   - Kurvendiskussion
 subject:
   - mathe
-source:
-  - Rudolf Frauenschuh
+source: []
 created: 18th April 2022
 ---
 
@@ -15,6 +14,7 @@ created: 18th April 2022
 
 ```dataview
 LIST FROM #Kurvendiskussion 
+SORT file.name ASC
 ```
 
 ---
