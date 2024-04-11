@@ -22,7 +22,7 @@ professor:
 > \end{matrix}\right)
 > $$
 >
-> Die Multiplikation der Matrix $A_{\varphi}$ auf einen [Vektor](../mathe%20(3)/Vektor.md) bewirkt eine *Drehung* um den Winkel $\varphi$ gegen den Uhrzeigersinn. 
+> Die Multiplikation der Matrix $A_{\varphi}$ auf einen [Vektor](Vektor.md) bewirkt eine *Drehung* um den Winkel $\varphi$ gegen den Uhrzeigersinn. 
 
 > [!tip] Sei $B_{\varphi}$ jene orthogonale 2x2 Matrix, die eine Spiegelung an einer Geraden mit dem Neigungswinkel $\frac{\varphi}{2}$ zur x-Achse durchführt.
 >

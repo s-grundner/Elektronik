@@ -17,7 +17,7 @@ professor:
 
 # Skalarprodukt / Inneres Produkt
 
-![InlineR](assets/Skalarprodukt.png)
+![InlineR](Skalarprodukt.png)
 Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Selbe Richtung zeigt immer als Skalar.
 (bzw. den Anteil der auf den Anderen [Vektor](Vektor.md) projiziert wird)
 > [!info] Es hängt deshalb mit dem $\cos$ zusammen.

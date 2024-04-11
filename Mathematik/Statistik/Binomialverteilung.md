@@ -40,7 +40,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 >[!summary] [Standardabweichung](Standardabweichung.md)  
 > $\sigma(X)=\sqrt{n\cdot p\cdot (1-p)}$
 
-![binom_tree](assets/binom_tree.png)
+![binom_tree](binom_tree.png)
 
 ## Unbekanntes $n$
 

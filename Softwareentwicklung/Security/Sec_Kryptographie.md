@@ -204,7 +204,7 @@ Um eine hohe Sicherheit zu erreichen muss der **Schlüsselraum** (Anzahl möglic
 
 Für Block-Chiffre ist es wichtig, dass die Länge des Klartextes ein Vielfaches der Block-Länge ist. Ansonsten werden die fehlenden Zeichen aufgefüllt (wenn schlecht gelöst, Ansatz für Brechen des Algorithmus).
 
-Wird die mögliche [Variation](../../Mathematik/mathe%20(5)/Variation.md) eines (z. B. 64 Bit) Blocks als Alphabet (mit $2^{64}$ Buchstaben!) verstanden, dann erfolgt die Verschlüsselung jedes Blocks wiederum nach dem gleichen Verfahren. Wenn der Klartext-Block gleich ist, dann ist auch die Chiffre gleich. Auf dieser Ebene kann damit die Verschlüsselung als Monoalphabetisch und brechbar betrachtet werden. Dafür ist "lediglich" eine entsprechend große Datenmenge (und damit Zeit) notwendig.
+Wird die mögliche [Variation](Variation.md) eines (z. B. 64 Bit) Blocks als Alphabet (mit $2^{64}$ Buchstaben!) verstanden, dann erfolgt die Verschlüsselung jedes Blocks wiederum nach dem gleichen Verfahren. Wenn der Klartext-Block gleich ist, dann ist auch die Chiffre gleich. Auf dieser Ebene kann damit die Verschlüsselung als Monoalphabetisch und brechbar betrachtet werden. Dafür ist "lediglich" eine entsprechend große Datenmenge (und damit Zeit) notwendig.
 
 #### Data-Encription-Standard DES
 

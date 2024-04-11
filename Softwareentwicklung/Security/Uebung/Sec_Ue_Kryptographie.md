@@ -33,7 +33,7 @@ In deutschsprachigen Texten kommen die Buchstaben mit etwa folgender Häufigkeit
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 9,78 | 2,51 | 0,79 | 0,02 | 7,00 | 7,27 | 6,15 | 4,35 | 0,67 | 1,89 | 0,03 | 0,04 | 1,13 |
 
-Der Buchstabe *e* kommt demzufolge mit etwa 17%i[ger Wahrscheinlich](../../../Mathematik/mathe%20(5)/Wahrscheinlichkeit.md)keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
+Der Buchstabe *e* kommt demzufolge mit etwa 17%i[ger Wahrscheinlich](Wahrscheinlichkeit.md)keit vor. Schreiben Sie eine C++ Funktion die die Häufigkeit von Buchstaben in einem verschlüsselten Text ermittelt und demzufolge den Text decodiert. Die einfachste Art ist es lediglich das am häufigsten auftretende Zeichen zu ermitteln.
 
 ### Homophone Chiffre
 

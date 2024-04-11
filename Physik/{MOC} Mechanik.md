@@ -39,7 +39,7 @@ Dreimpulserhaltung, Drehmoment, Mehrkörpersysteme
 
 ## 7. Dynamik starrer Körper
 
- Schwerpunkt, [Massenmittelpunkt](../Mathematik/mathe%20(4)/Vielteilchen-Systeme.md), Drehbewegung, Rotationsenergie, Trägheitsmomente, Drehung um freie Achsen, [Moleküle](../Chemie/Atombindung.md) 
+ Schwerpunkt, [Massenmittelpunkt](Vielteilchen-Systeme.md), Drehbewegung, Rotationsenergie, Trägheitsmomente, Drehung um freie Achsen, [Moleküle](../Chemie/Atombindung.md) 
 
 ## 8. [Harmonische Schwingungen](harmonische%20Schwingungen.md)
 

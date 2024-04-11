@@ -40,7 +40,7 @@ $f(x)=f(x+a)$
 > [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](../Abbild.md).  
 > Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Abbild.md) in eine **Fourierreihe** zerlegt werden.
 > 
-> $f(x)\dots$**Trigonometrisches [Polynom](../mathe%20(3)/Polynom.md)**
+> $f(x)\dots$**Trigonometrisches [Polynom](Polynom.md)**
 
 ## Amplituden-Phasenform
 

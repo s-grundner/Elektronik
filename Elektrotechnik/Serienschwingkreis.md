@@ -243,7 +243,7 @@ $$
 \end{align*}
 $$
 
-> [!NOTE] Das [globale Minimum](../Mathematik/{MOC}%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](../Mathematik/mathe%20(3)/Differenzialrechnung.md) ermittelt.
+> [!NOTE] Das [globale Minimum](../Mathematik/{MOC}%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](Differenzialrechnung.md) ermittelt.
 
 $$
 \begin{align*}

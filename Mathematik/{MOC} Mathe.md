@@ -27,40 +27,40 @@ SORT file.cday DESC
 
  - [Mengenlehre](Mengenlehre.md)
  - Lineare Gleichungen
- - [Lineare Gleichungssysteme](mathe%20(3)/Lineare%20Gleichungssysteme.md)
+ - [Lineare Gleichungssysteme](Lineare%20Gleichungssysteme.md)
  - Lineare Ungleichungen
- - [Numerisches Rechnen](mathe%20(3)/Numerisches%20Rechnen.md)
+ - [Numerisches Rechnen](Numerisches%20Rechnen.md)
  - [Geometrie](mathe%20(4)/Geometrie.md)
  - [Funktionen](Abbild.md)
  - Lineare Funktionen
  - [Trigonometrie](Trigonometrie.md)
- - [Vektor](mathe%20(3)/Vektor.md)
+ - [Vektor](Vektor.md)
  - [Matrizen](mathe%20(4)/Matrix.md)
 
 ## 2. JG
 
  - Umkehrfunktionen
- - [Binom'scher Lehrsatz](mathe%20(3)/Binom'scher%20Lehrsatz.md)
+ - [Binom'scher Lehrsatz](Binom'scher%20Lehrsatz.md)
  - Wurzelfunktionen
  - [Quadratische Funktionen](Quadratische%20Funktionen)
  - [Polynomfunktion](Polynomfunktion)
- - [Komplexe Zahlen](mathe%20(3)/Komplexe%20Zahlen.md)
- - [Exponentialfunktion](mathe%20(3)/Exponentialfunktion.md)
+ - [Komplexe Zahlen](Komplexe%20Zahlen.md)
+ - [Exponentialfunktion](Exponentialfunktion.md)
  - [Logarithmus](Logarithmus)
 
 ## 3. JG
 
- - [Grenzwert](mathe%20(3)/Grenzwert.md)
+ - [Grenzwert](Grenzwert.md)
  - [Geometrische Reihe](Geometrische%20Reihe.md)
  - [Arithmetische Reihe](Arithmetische%20Reihe.md)
- - [Polynomdivision](mathe%20(3)/Polynomdivision.md)
- - [Differenzialrechnung](mathe%20(3)/Differenzialrechnung.md)
+ - [Polynomdivision](Polynomdivision.md)
+ - [Differenzialrechnung](Differenzialrechnung.md)
  - [Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
- - [Newton'sches Näherungsverfahren](mathe%20(3)/Newton'sches%20Näherungsverfahren.md)
- - [Regula Falsi Verfahren](mathe%20(3)/Regula%20Falsi%20Verfahren.md)
+ - [Newton'sches Näherungsverfahren](Newton'sches%20Näherungsverfahren.md)
+ - [Regula Falsi Verfahren](Regula%20Falsi%20Verfahren.md)
  - [Extremwertaufgaben](Extremwertaufgaben)
- - [Integralrechnung](mathe%20(3)/Integralrechnung.md)
- - [Partialbruchzerlegung](mathe%20(3)/Partialbruchzerlegung.md)
+ - [Integralrechnung](Integralrechnung.md)
+ - [Partialbruchzerlegung](Partialbruchzerlegung.md)
 
 ## 4. JG
 
@@ -78,7 +78,7 @@ SORT file.cday DESC
 
 - Statistik
 - Kombinatorik
-- [Wahrscheinlichkeit](mathe%20(5)/Wahrscheinlichkeit.md)
+- [Wahrscheinlichkeit](Wahrscheinlichkeit.md)
 - Wahrscheinlichkeitsverteilung
 
 ---

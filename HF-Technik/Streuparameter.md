@@ -40,9 +40,9 @@ $$r_\nu = \dfrac{b_\nu}{a_\nu} = \dfrac{Z_\nu - Z_0}{Z_\nu + Z_0}, \qquad b_\nu 
 
 Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexionsfaktor.md) $r$ gleich dem einen und **einzigen S-Parameter $S_{11}$**.
 
-Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathematik/mathe%20(4)/Matrix.md) in Form eines [LGS](../Mathematik/mathe%20(3)/Lineare%20Gleichungssysteme.md) ausgedrückt.
+Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathematik/mathe%20(4)/Matrix.md) in Form eines [LGS](Lineare%20Gleichungssysteme.md) ausgedrückt.
 
-Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathematik/mathe%20(4)/Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathematik/mathe%20(3)/Vektor.md) $a$ und $b$ als [Matrixgleichung](../Mathematik/mathe%20(4)/Matrix.md) ausgedrückt:
+Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathematik/mathe%20(4)/Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](Vektor.md) $a$ und $b$ als [Matrixgleichung](../Mathematik/mathe%20(4)/Matrix.md) ausgedrückt:
 
 $$\mathbf{b} = \mathbf{S} \times \mathbf{a}$$
 

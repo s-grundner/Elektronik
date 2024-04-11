@@ -23,7 +23,7 @@ professor:
 > [!info] Die Determinante ist eine wichtige Kenngröße einer [Matrix](Matrix.md).  
 > Sie gibt z.B. Auskunft darüber
 > - ob eine [Matrix](Matrix.md) invertierbar ist bzw.
-> - ob ein [lineares Gleichungssystem](../mathe%20(3)/Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
+> - ob ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
 >[!important] Bedeutung der Determinante
 > Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.

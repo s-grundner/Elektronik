@@ -23,5 +23,5 @@ $$
 # Tags
 
 [Stoßprozesse](Stoßprozesse.md)  
-[Vielteilchen-Systeme](../Mathematik/mathe%20(4)/Vielteilchen-Systeme.md)  
+[Vielteilchen-Systeme](Vielteilchen-Systeme.md)  
 [Drehimpuls](Drehimpuls.md)

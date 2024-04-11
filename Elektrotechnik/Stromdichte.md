@@ -22,7 +22,7 @@ professor:
 > [!question] Vektorielles Flächenelements $\Delta \vec{A}$ 
 > Zeigt in Richtung der Flächennormale & der [Betrag](../Mathematik/Betrag.md) entspricht der Fläche.
 
-> [!question] Die Stromdichte ist ebenfalls eine [vektorielle](../Mathematik/mathe%20(3)/Vektor.md) Größe
+> [!question] Die Stromdichte ist ebenfalls eine [vektorielle](Vektor.md) Größe
 > und zeigt in Richtung der lokalen Stromrichtung
 > - (Richtung der mittleren [Geschwindigkeit](../Physik/Kinematik.md) bei positiven Ladungsträgern bzw. entgegengesetzt bei negativen).
 

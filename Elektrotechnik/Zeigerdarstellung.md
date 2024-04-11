@@ -24,7 +24,7 @@ cited:
 
 $$u(t) = \hat{u}\cdot(\cos(\omega t+ \varphi) + \underbrace{ j\sin(\omega t+ \varphi) }_{ \text{wird eingeführt} }) = \hat{u}a\cdot e^{ j(\omega t + \varphi)}$$
 
-… Zurückzuführen auf die [Eulersche Formel](../Mathematik/mathe%20(3)/Eulersche%20Formel.md)
+… Zurückzuführen auf die [Eulersche Formel](Eulersche%20Formel.md)
 
 > [!warning] Physikalisch vorhanden und Messbar ist nur der Realteil
 > $$

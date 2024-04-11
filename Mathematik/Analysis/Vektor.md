@@ -12,7 +12,7 @@ created: 28th September 2022
 
 # Vektoren
 
-![](assets/VectorMatrixTensor.png)
+![](VectorMatrixTensor.png)
 
 ![Skalarprodukt](Skalarprodukt.md)
 

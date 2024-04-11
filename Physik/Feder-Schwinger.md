@@ -38,6 +38,6 @@ $$F_{r}(x)=-k\cdot x$$
 > [!success] Die [Beschleunigung](Kinematik.md) $a = \ddot{x}$ des Körpers ist also entgegengesetzt und linear proportional zur Auslenkung $x$.  
 > $\implies$ Je weiter der Punkt $x$ vom Gleichgewichts-Punkt entfernt ist, desto kleiner ist die [Beschleunigung](Kinematik.md). Am Umkehrpunkt ist die [Beschleunigung](Kinematik.md) minimal.
 
-> Diese Gleichung ist die Bewegungsgleichung des harmonischen Oszillators. Sie ist eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) da sie die 2. [Ableitung](../Mathematik/mathe%20(3)/Differenzialrechnung.md) von $x$ enthält.
+> Diese Gleichung ist die Bewegungsgleichung des harmonischen Oszillators. Sie ist eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) da sie die 2. [Ableitung](Differenzialrechnung.md) von $x$ enthält.
 
 > Gesucht ist die [Funktion](../Mathematik/Abbild.md) $x(t)$, die diese [Differentialgleichung](../Mathematik/{MOC}%20DGL.md) erfüllt und damit die [Bewegung](Kinematik.md) beschreibt.

@@ -10,7 +10,7 @@ created: 10th January 2023
 
 $F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
 
-Ist $F$ differenzierbar, so nennt man die [Ableitung](../mathe%20(3)/Differenzialrechnung.md) von $F$ die Dichtefunktion von $X$, kurz Dichte.
+Ist $F$ differenzierbar, so nennt man die [Ableitung](Differenzialrechnung.md) von $F$ die Dichtefunktion von $X$, kurz Dichte.
 
 Anstelle von $F'$ schreibt man sie als $f$
 
@@ -22,7 +22,7 @@ $$
 F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
 
-![PNG-Bild](assets/PNG-Bild.png)
+![PNG-Bild](PNG-Bild.png)
 
 
 - Bisher waren [Wahrscheinlichkeitsverteilungen](Wahrscheinlichkeitsverteilung.md) gegeben (z.B. [Binomialverteilung](Binomialverteilung.md)).
@@ -31,7 +31,7 @@ $$
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
 
 >[!EXAMPLE] Lebensdauer  
->![1175](assets/PNG-Bild%201.png)
+>![1175](PNG-Bild%201.png)
 
 ## Eigenschaften
 

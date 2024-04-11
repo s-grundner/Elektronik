@@ -36,7 +36,7 @@ professor:
 > &= q\cdot(\underbrace{ \lvert \vec{E} \rvert \cdot B }_{ \varphi(B) } - \underbrace{ \lvert \vec{E} \rvert \cdot A }_{ \varphi(A) })
 > \end{align}
 > $$
-> Aus dem bestimmten [Integral](../Mathematik/mathe%20(3)/Integralrechnung.md) ergibt sich mit den Grenzen $A$ $B$ die Potenzialdifferenz von $\varphi(B)$ und $\varphi(A)$ und somit die Spannung.
+> Aus dem bestimmten [Integral](Integralrechnung.md) ergibt sich mit den Grenzen $A$ $B$ die Potenzialdifferenz von $\varphi(B)$ und $\varphi(A)$ und somit die Spannung.
 > Mit dem zusätzlichen Faktor der [Ladung](elektrisches%20Feld.md) muss für die Spannung auch *[Arbeit](../Physik/Mechanische%20Arbeit.md) pro [Ladung](elektrisches%20Feld.md)* gelten ($U = \frac{W}{q}$)
 
 ## 1 Spannungsquellen

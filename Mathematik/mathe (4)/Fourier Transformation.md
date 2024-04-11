@@ -35,9 +35,9 @@ Der Ursprung der Fouriertransformation ist auf die [Fourierreihe](Fourier%20Reih
 > 
 > - Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der [Funktion](../Abbild.md) $f$.  
 >
-> - Dadurch entsteht aus einer reellen [Funktion](../Abbild.md) $f$ eine [komplexwertige](../mathe%20(3)/Komplexe%20Zahlen.md) [Funktion](../Abbild.md) $F$.
+> - Dadurch entsteht aus einer reellen [Funktion](../Abbild.md) $f$ eine [komplexwertige](Komplexe%20Zahlen.md) [Funktion](../Abbild.md) $F$.
 
->[!SUCCESS] Man sagt, dass die Zeitfunktion $f$ im **Original-** oder **[Zeitbereich](../mathe%20(3)/Komplexe%20Zahlen.md)** liegt, während ihre Fourier-Transformierte im **Frequenz-** oder **Bildbereich** liegt.  
+>[!SUCCESS] Man sagt, dass die Zeitfunktion $f$ im **Original-** oder **[Zeitbereich](Komplexe%20Zahlen.md)** liegt, während ihre Fourier-Transformierte im **Frequenz-** oder **Bildbereich** liegt.  
 > Folgende Schreibweisen sind üblich: $F(\omega)=\mathcal{F}\{f(t)\}$ oder $f(t) \multimap F(\omega)$
 
 ## Fouriertransformierte
@@ -58,7 +58,7 @@ $$
 
 ## Herleitung
 
-Durch Anwendung der [Eulersche Formel](../mathe%20(3)/Eulersche%20Formel.md):
+Durch Anwendung der [Eulersche Formel](Eulersche%20Formel.md):
 
 $$
 \begin{align*}

@@ -15,7 +15,7 @@ Das Ereignis $E$ ist eine Teilmenge der [Grundmenge](Grundmenge.md) $\Omega$
 
 ## Unvereinbare Ereignisse
 
-![Pasted image 20230107220855](assets/Pasted%20image%2020230107220855.png)
+![Pasted image 20230107220855](Pasted%20image%2020230107220855.png)
 
 >[!summary] Wenn die Ereignisse $A$ & $B$ unvereinbar sind, dann gilt  
 >$P(A\vee B)=P(A)+P(B)$  
@@ -33,7 +33,7 @@ Das Ereignis $E$ ist eine Teilmenge der [Grundmenge](Grundmenge.md) $\Omega$
 
 ## Unabhängige Ereignisse
 
-![Pasted image 20230108002929](assets/Pasted%20image%2020230108002929.png)
+![Pasted image 20230108002929](Pasted%20image%2020230108002929.png)
 
 # Tags
 

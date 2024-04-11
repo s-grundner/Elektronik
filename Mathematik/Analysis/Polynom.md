@@ -25,7 +25,7 @@ Komplexe Nullstellen treten bei Polynomen mit reellen Koeffizienten $\left(a_i \
 > [!example] Beispiel:
 > - $n$-te Wurzel aus $y$ berechnen (siehe Vorlesungseinheit zu den komplexen Zahlen) $\Leftrightarrow x^n=y$ lösen $\Leftrightarrow$ Nullstellen des Polynoms $f(x)=-y+x^n$ berechnen
 
-![](assets/Pasted%20image%2020231106130524.png)
+![](Pasted%20image%2020231106130524.png)
 
 ## Rationale Funktion
 
@@ -36,7 +36,7 @@ $f: \mathbb{R}(\mathbb{C}) \backslash N_q \rightarrow \mathbb{R}(\mathbb{C})$
 > - an den Nullstellen des Polynoms im Nenner $(q(x))$ muss das asymptotische Verhalten von $f(x)$ untersucht werden
 > - weitere Details siehe Mathematik-Vorlesung
 
-![](assets/Pasted%20image%2020231106130805.png)
+![](Pasted%20image%2020231106130805.png)
 
 ## Koeffizientenvergleich
 

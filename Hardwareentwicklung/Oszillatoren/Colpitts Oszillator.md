@@ -14,7 +14,7 @@ Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
 
-Häufigste [Kombination](../../Mathematik/mathe%20(5)/Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
+Häufigste [Kombination](Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
 - einfache [Kapazitäten](../../Elektrotechnik/Kapazität.md)
 - nur eine [Induktivität](../../Elektrotechnik/Induktivitäten.md)  

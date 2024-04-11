@@ -31,8 +31,8 @@ Die Verwendung des Leitwertes erleichtert die Berechnung.
 
 > [!success] Allgemeines Ergebnis:
 > - mit der *Knotenadmittanzmatrix* $\mathbf{G}$,
-> - dem *[Vektor](../Mathematik/mathe%20(3)/Vektor.md)* $\mathbf{U}$ der unbekannten *Knotenspannungen*
-> - und dem [Vektor](../Mathematik/mathe%20(3)/Vektor.md) der Quellströme $\mathbf{I}_{q}$
+> - dem *[Vektor](Vektor.md)* $\mathbf{U}$ der unbekannten *Knotenspannungen*
+> - und dem [Vektor](Vektor.md) der Quellströme $\mathbf{I}_{q}$
 > ![1200](../assets/Excalidraw/Knotenpotentialverfahren%202024-03-13%2021.34.50.excalidraw)
 
 ## Spannugsquellen-Umwandlung

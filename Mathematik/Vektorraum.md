@@ -15,7 +15,7 @@ professor:
 # Vektorraum
 
 > [!info] Bekannte Vektorräume:  
-> Menge aller ***[Vektoren](mathe%20(3)/Vektor.md)*** im $\mathbb{R}^{3}$
+> Menge aller ***[Vektoren](Vektor.md)*** im $\mathbb{R}^{3}$
 > - Mit der Vektoraddition: $\vec{u}+\vec{v}$
 > - und der skalaren Multiplikation: $\lambda \cdot \vec{u}$
 > 

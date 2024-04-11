@@ -15,7 +15,7 @@ professor:
 
 # Kreuzprodukt / äußeres Produkt
 
-![InlineR](assets/Kreuzprodukt.png)
+![InlineR](Kreuzprodukt.png)
 Das äußere Produkt zweier Vektoren liefert den Normalanteil zweier Vektoren.
 
 > [!info] Es hängt deshalb mit dem $\sin$ zusammen, da:

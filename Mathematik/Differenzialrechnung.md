@@ -77,3 +77,4 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 - [Totales Differenzial](../Totales%20Differenzial.md)
 - [L'Hospital](L'Hospital.md)
 - [Linearisieren](Linearisieren)
+- [[Mittelwertsatz der Differenzialrechnung]]

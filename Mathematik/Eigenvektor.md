@@ -20,7 +20,7 @@ professor:
 
 > [!info]  
 > Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Lineare%20Abbildungen.md) aussagen.  
-> Eigenvektoren sind [Vektoren](mathe%20(3)/Vektor.md), die unter der [linearen Abbildung](Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
+> Eigenvektoren sind [Vektoren](Vektor.md), die unter der [linearen Abbildung](Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
 > diesen Skalierungsfaktor nennt man *Eigenwert*.
 
 > [!hint] Anwendungen  
@@ -46,11 +46,11 @@ A= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-> [!hint] Alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](mathe%20(3)/Vektor.md) mit einer Anderen länge)  
+> [!hint] Alle [Vektoren](Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](Vektor.md) mit einer Anderen länge)  
 >
 > $$A\vec{x}=\lambda \vec{x}$$
 
-Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](mathe%20(4)/Matrix.md) multipliziert mit einem [Vektor](mathe%20(3)/Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](mathe%20(3)/Vektor.md).
+Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](mathe%20(4)/Matrix.md) multipliziert mit einem [Vektor](Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](Vektor.md).
 
 Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der [Einheitsmatrix](mathe%20(4)/Einheitsmatrix.md) anschreiben:
 
@@ -95,11 +95,11 @@ A\vec{x}-(\lambda \cdot I)\cdot\vec{x} &= \vec{0} \\
 \end{align}
 $$
 
-Eigenvektoren sind also alle [Vektoren](mathe%20(3)/Vektor.md) $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
+Eigenvektoren sind also alle [Vektoren](Vektor.md) $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
 
-### Charakteristisches [Polynom](mathe%20(3)/Polynom.md)
+### Charakteristisches [Polynom](Polynom.md)
 
-> [!important] Die Eigenwerte werden durch [Nullstellen](mathe%20(3)/Nullstelle.md) im charakteristischen [Polynom](mathe%20(3)/Polynom.md) berechnet. 
+> [!important] Die Eigenwerte werden durch [Nullstellen](Nullstelle.md) im charakteristischen [Polynom](Polynom.md) berechnet. 
 
 Die [Determinante](mathe%20(4)/Determinante.md) für muss für $A-\lambda \cdot I$ gleich null sein:
 
@@ -116,19 +116,19 @@ $$
 \end{align}
 $$
 
-Die Gleichung wird nun zu einem [Polynom](mathe%20(3)/Polynom.md) aufgelöst:
+Die Gleichung wird nun zu einem [Polynom](Polynom.md) aufgelöst:
 
-> [!success] charakteristisches [Polynom](mathe%20(3)/Polynom.md)  
+> [!success] charakteristisches [Polynom](Polynom.md)  
 >
 > $$-\lambda^{3}+15\lambda^{2}-54\lambda= 0$$
 >
-> Die [Nullstellen](mathe%20(3)/Nullstelle.md), also die *Eigenwerte*, dieses Polynoms sind:  
+> Die [Nullstellen](Nullstelle.md), also die *Eigenwerte*, dieses Polynoms sind:  
 >
 > $$\lambda_{1} = 0 \qquad \lambda_{2} = 6 \qquad \lambda_{3} = 9$$
 
 ### Eigenvektoren
 
-Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) eingesetzt und gelöst werden.
+Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das [LGS](Lineare%20Gleichungssysteme.md) eingesetzt und gelöst werden.
 
 $\lambda_{3}$:
 
@@ -163,7 +163,7 @@ S_{3}'=S_{3}+S_{1}
 \end{align}
 $$
 
-Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) gelöst werden. Pro Lineare Abhängigkeit kann ein Parameter frei gewählt werden:
+Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](Lineare%20Gleichungssysteme.md) gelöst werden. Pro Lineare Abhängigkeit kann ein Parameter frei gewählt werden:
 
 $$
 0x_{1}+0x_{2}+0x_{3} = 0 \to x_{3} = s, s\in \mathbb{R}
@@ -177,7 +177,7 @@ $$
 -2x_{1} -2\cdot \frac{s}{2}+1\cdot s = 0 \to x_{1} = 0
 $$
 
-Mit der Lösung des [LGS](mathe%20(3)/Lineare%20Gleichungssysteme.md) ergibt sich der Eigenvektor für $\lambda_{3} = 9$ als folgender:
+Mit der Lösung des [LGS](Lineare%20Gleichungssysteme.md) ergibt sich der Eigenvektor für $\lambda_{3} = 9$ als folgender:
 
 $$
 x_{\lambda_{3}}=s\cdot \begin{pmatrix}

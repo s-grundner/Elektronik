@@ -30,7 +30,7 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 
 $\vec{E}\dots$ [E-Feldstärke](../Elektrotechnik/elektrisches%20Feld.md#Elektrische%20Feldstärke)  
 $\vec{H}\dots$ [H-Feldstärke](../Elektrotechnik/magnetisches%20Feld.md#Magnetisches%20Feld)  
-Das [Kreuzprodukt](../Mathematik/mathe%20(3)/Vektor.md) beider [Vektoren](../Mathematik/mathe%20(3)/Vektor.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
+Das [Kreuzprodukt](Vektor.md) beider [Vektoren](Vektor.md) ergibt den [Poynting Vektor](Poynting%20Vektor.md):
 
 $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
 

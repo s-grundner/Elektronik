@@ -103,11 +103,11 @@ So gilt: Mindestens eines = nicht keines
 
 ### Pfadregeln
 
-![Pasted image 20230108013030](assets/Pasted%20image%2020230108013030.png)
+![Pasted image 20230108013030](Pasted%20image%2020230108013030.png)
 
-![Pasted image 20230108013044](assets/Pasted%20image%2020230108013044.png)
+![Pasted image 20230108013044](Pasted%20image%2020230108013044.png)
 
-![Pasted image 20230108013054](assets/Pasted%20image%2020230108013054.png)
+![Pasted image 20230108013054](Pasted%20image%2020230108013054.png)
 
 # Tags
 
