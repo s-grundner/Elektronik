@@ -7,12 +7,13 @@ aliases:
   - linear abhängig
   - linear unabhängig
   - erzeugendensystem
+  - Spann
+  - Span
 keywords: 
 subject:
   - Mathematik1
   - "357.100"
-semester:
-  - WS23
+semester: WS23
 created: 27. Dezember 2023
 professor:
 ---
@@ -20,8 +21,9 @@ professor:
 
 # Lineare Hülle
 
+
 > [!important]+ Definition: Linearkombination, lineare Hülle
-Sei $(V,+, \cdot)$ ein Vektorraum über einem Körper $K$.
+Sei $(V,+, \cdot)$ ein [[Vektorraum]] über einem Körper $K$.
 (i) Jede aus endlich vielen [Vektoren](Vektor.md) $v_1, v_2, \ldots, v_n \in V$ gebildete Summe
 > $$
 \lambda_1 \cdot v_1+\lambda_2 \cdot v_2+\ldots+\lambda_n \cdot v_n=\sum_{i=1}^n \lambda_i \cdot v_i
@@ -33,8 +35,10 @@ Sei $(V,+, \cdot)$ ein Vektorraum über einem Körper $K$.
 > $$
 > heißt lineare Hülle von $v_1, v_2, \ldots, v_n$. Ergänzend wird noch $\operatorname{Lin}(\emptyset):=\{o\}$ festgelegt.
 
+![[linHuelle.jpg|250]]
+
 > [!important]+ Definition: Lineare (Un)abhängigkeit
-> Sei $(V,+, \cdot)$ ein Vektorraum über einem Körper $K$ und seien $v_1, v_2, \ldots, v_n \in V$ endlich viele [Vektoren](Vektor.md).
+> Sei $(V,+, \cdot)$ ein [[Vektorraum]] über einem Körper $K$ und seien $v_1, v_2, \ldots, v_n \in V$ endlich viele [Vektoren](Vektor.md).
 > (i) Die [Vektoren](Vektor.md) $v_1, \ldots, v_n$ heißen linear abhängig, wenn es $\lambda_1, \lambda_2, \ldots, \lambda_n \in K$ gibt, die nicht alle gleich Null sind, sodass gilt
 > $$
 \lambda_1 \cdot v_1+\lambda_2 \cdot v_2+\ldots+\lambda_n \cdot v_n=o
