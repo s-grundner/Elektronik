@@ -16,3 +16,12 @@ class mybutton
 ```
 
 ^button-gmail
+
+```button
+name Whatsapp
+type link
+action https://web.whatsapp.com/
+class mybutton
+```
+
+^button-whatsapp
