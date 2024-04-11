@@ -92,7 +92,7 @@ S_{4}''=2S_{2}'-S_{4}'
 \end{align}
 $$
 
-Mit der oberen [Dreiecksmatrix](mathe%20(4)/Dreiecksmatrix.md) kann das [LGS](Lineare%20Gleichungssysteme.md) von unten nach oben gelöst werden
+Mit der oberen [Dreiecksmatrix](Dreiecksmatrix.md) kann das [LGS](Lineare%20Gleichungssysteme.md) von unten nach oben gelöst werden
 
 $$
 \begin{align}

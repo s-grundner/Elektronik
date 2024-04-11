@@ -30,12 +30,12 @@ SORT file.cday DESC
  - [Lineare Gleichungssysteme](Lineare%20Gleichungssysteme.md)
  - Lineare Ungleichungen
  - [Numerisches Rechnen](Numerisches%20Rechnen.md)
- - [Geometrie](mathe%20(4)/Geometrie.md)
+ - [Geometrie](Geometrie.md)
  - [Funktionen](Abbild.md)
  - Lineare Funktionen
  - [Trigonometrie](Trigonometrie.md)
  - [Vektor](Vektor.md)
- - [Matrizen](mathe%20(4)/Matrix.md)
+ - [Matrizen](Matrix.md)
 
 ## 2. JG
 
@@ -65,14 +65,14 @@ SORT file.cday DESC
 ## 4. JG
 
  - [Konvergenzkriterien für Reihen](mathe%20(4)/Konvergenzkriterien%20für%20Reihen.md)
- - [Potenzreihe](mathe%20(4)/Potenzreihe.md)
- - [Taylorreihe](mathe%20(4)/Taylorreihe.md)
- - [Fourier Reihe](mathe%20(4)/Fourier%20Reihe.md)
- - [lineare DGL 1. Ordnung](mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
- - [lineare DGL 2. Ordnung](mathe%20(4)/lineare%20DGL%202.%20Ordnung.md)
+ - [Potenzreihe](Potenzreihe.md)
+ - [Taylorreihe](Taylorreihe.md)
+ - [Fourier Reihe](Fourier%20Reihe.md)
+ - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
+ - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
  - [Schwingkreise](../Physik/Schwingkreise.md)
- - [Fourier Transformation](mathe%20(4)/Fourier%20Transformation.md)
- - [Laplace Transformation](mathe%20(4)/Laplace%20Transformation.md)
+ - [Fourier Transformation](Fourier%20Transformation.md)
+ - [Laplace Transformation](Laplace%20Transformation.md)
 
 ## 5. JG
 

@@ -20,7 +20,7 @@ created: 28th September 2022
 
 # Tags
 
-- [Matrix](../mathe%20(4)/Matrix.md)
+- [Matrix](Matrix.md)
 - Tensor
 - Vektorbasis
-- [Lineare Hülle](../mathe%20(4)/Lineare%20Hülle.md)
+- [Lineare Hülle](Lineare%20Hülle.md)

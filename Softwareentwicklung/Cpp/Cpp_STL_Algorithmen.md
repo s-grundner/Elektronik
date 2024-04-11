@@ -87,7 +87,7 @@ vector<Complex> myVec;
 sort(myVec.begin, myVec.end());
 ```
 
-Der Algorithmus kann [komplexe Zahlen](../../Mathematik/mathe%20(3)/Komplexe%20Zahlen.md) nicht sortieren weil der < Operator dafür nicht definiert ist.
+Der Algorithmus kann [komplexe Zahlen](Komplexe%20Zahlen.md) nicht sortieren weil der < Operator dafür nicht definiert ist.
 
 Wird in der Klasse *Complex* der Operator < definiert:
 

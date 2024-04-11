@@ -5,4 +5,4 @@ aliases:
 created: 23. September 2023
 ---
 
-# Konstantstrom-[Zweipol](../../Zweipol.md)
+# Konstantstrom-[Zweipol](Zweipol.md)

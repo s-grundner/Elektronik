@@ -33,7 +33,7 @@ Das Hooke'sche Gesetz gilt ganz Allgemein immer nur für kleine Auslenkungen bzw
 
 Die Proportionalitätskonstante $k$ heißt Federkonstante und hat die Einheit $\frac{N}{m}$.
 
-Die Federkonstante charakterisiert die Stärke einer Feder und hängt von den Materialeigenschaften aber auch der [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md), Länge, Dicke, etc. der Feder ab.
+Die Federkonstante charakterisiert die Stärke einer Feder und hängt von den Materialeigenschaften aber auch der [Geometrie](Geometrie.md), Länge, Dicke, etc. der Feder ab.
 
 # Tags
 

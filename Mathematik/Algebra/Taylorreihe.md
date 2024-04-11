@@ -29,4 +29,4 @@ created: 24th March 2022
 > [!INFO] Entwicklung an der Stelle 0 (McLaurin-Reihe)  
 > Für den Fall, dass $a=0$ sprich man von einer *McLaurin-Reihe*
 
-![#invert_dark](assets/taylor.png)
+![#invert_dark](taylor.png)

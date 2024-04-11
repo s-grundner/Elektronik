@@ -26,4 +26,4 @@ cited:
 
 # Tags
 
-![4000](../Mathematik/mathe%20(4)/assets/Schwingkreise%202024-01-17%2009.08.32.excalidraw)
+![4000](Schwingkreise%202024-01-17%2009.08.32.excalidraw.md)

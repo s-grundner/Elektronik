@@ -95,7 +95,7 @@ Damit wird eine Tabelle mit nur den beiden Spalten *teil* und *gr* zurückgegebe
 SELECT kunden.knr, bestellungen.bnr FROM bestellungen, kunden;
 ```
 
-Hier wird eine Tabelle mit den Spalten *knr* und *bnr* generiert. Durch die zweite Tabelle wird jede knr aus *kunden* sooft ausgegeben wie *bestellungen* Zeilen hat ([Kreuzprodukt](../../Mathematik/mathe%20(3)/Vektor.md)).
+Hier wird eine Tabelle mit den Spalten *knr* und *bnr* generiert. Durch die zweite Tabelle wird jede knr aus *kunden* sooft ausgegeben wie *bestellungen* Zeilen hat ([Kreuzprodukt](Vektor.md)).
 
 ![SQL_DML_02](assets/SQL_DML_02.png)
 

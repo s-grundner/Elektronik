@@ -56,5 +56,5 @@ so kleine (negative) Zahl, so heißt die Folge ($c_{n}$) bestimmt divergent.
 
 # Tags
 
-- [Leibnitzkriterium](../mathe%20(4)/Leibnitz%20Kriterium.md)
-- [Quotientenkriterium](../mathe%20(4)/Quotienten%20Kriterium.md)
+- [Leibnitzkriterium](Leibnitz%20Kriterium.md)
+- [Quotientenkriterium](Quotienten%20Kriterium.md)

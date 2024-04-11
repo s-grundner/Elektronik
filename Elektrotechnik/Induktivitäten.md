@@ -52,7 +52,7 @@ i \approx \frac{1}{L}\cdot u_{L}\cdot t
 \end{align*}
 $$
 
-Der nicht lineare reale Wert ergibt sich durch das Lösen der [homogenen linearen DGL 1. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%201.%20Ordnung.md)
+Der nicht lineare reale Wert ergibt sich durch das Lösen der [homogenen linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
 
 $$
 \begin{align*}

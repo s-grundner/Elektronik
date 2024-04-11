@@ -62,7 +62,7 @@ Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer St�
 
 ![invert_dark|400](../Mathematik/assets/e_serien_schwingk_frei.png)
 
-Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
+Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
 | Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensator](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstand](../Elektrotechnik/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
@@ -96,7 +96,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [DGL](../Mathematik/{MOC}%20DGL.md) die [charakteristische Gleichung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) erzeugen
+Nun kann man aus einer der [DGL](../Mathematik/{MOC}%20DGL.md) die [charakteristische Gleichung](lineare%20DGL%202.%20Ordnung.md) erzeugen
 
 $$
 \begin{align*}
@@ -117,13 +117,13 @@ $$
 
 $\lambda_{1} = -\delta+\sqrt{\delta^{2}-\omega^{2}_{0}}$
 
-die 3. Fälle der [DGL 2. Ordnung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) sind wiefolgt
+die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolgt
 
 | Fall | Bedingung | Bezeichnung |  |
 | ---- | :--: | ---- | ---- |
-| [Fall 1.](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#1.%20Fall%20Eindeutige%20Lösung) | $\delta>\omega_{0}$ | Kriechfall |
-| [Fall 2.](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
-| [Fall 3.](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
+| [Fall 1.](lineare%20DGL%202.%20Ordnung.md#1.%20Fall%20Eindeutige%20Lösung) | $\delta>\omega_{0}$ | Kriechfall |
+| [Fall 2.](lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
+| [Fall 3.](lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
 
 ![invert_dark|400](../Mathematik/assets/faelle_e_sk.png)
 
@@ -176,7 +176,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > \omega^{2}_{0}\cdot\hat{u}_{e}\sin(\omega\cdot t) = \ddot u_{c} + 2\delta\dot u_{c} + \omega^{2}_{0}\cdot u_{c}
 > $$
 >
-> Die [partikuläre Lösung](../Mathematik/mathe%20(4)/lineare%20DGL%202.%20Ordnung.md) wird daher ermittelt:
+> Die [partikuläre Lösung](lineare%20DGL%202.%20Ordnung.md) wird daher ermittelt:
 >
 > $$
 > \begin{align*}

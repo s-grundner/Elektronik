@@ -50,9 +50,9 @@ $$
 >
 > $$A\vec{x}=\lambda \vec{x}$$
 
-Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](mathe%20(4)/Matrix.md) multipliziert mit einem [Vektor](Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](Vektor.md).
+Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](Matrix.md) multipliziert mit einem [Vektor](Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](Vektor.md).
 
-Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der [Einheitsmatrix](mathe%20(4)/Einheitsmatrix.md) anschreiben:
+Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der [Einheitsmatrix](Einheitsmatrix.md) anschreiben:
 
 $$
 \begin{align}
@@ -101,7 +101,7 @@ Eigenvektoren sind also alle [Vektoren](Vektor.md) $\vec{x}$ mit den dazugehöri
 
 > [!important] Die Eigenwerte werden durch [Nullstellen](Nullstelle.md) im charakteristischen [Polynom](Polynom.md) berechnet. 
 
-Die [Determinante](mathe%20(4)/Determinante.md) für muss für $A-\lambda \cdot I$ gleich null sein:
+Die [Determinante](Determinante.md) für muss für $A-\lambda \cdot I$ gleich null sein:
 
 $$
 \begin{align}
@@ -191,7 +191,7 @@ x_{\lambda_{3}}=s\cdot \begin{pmatrix}
 \end{pmatrix}, s\in \mathbb{R}
 $$
 
-der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Lineare Hülle](mathe%20(4)/Lineare%20Hülle.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
+der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Lineare Hülle](Lineare%20Hülle.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
 
 $$
 \begin{align}

@@ -14,7 +14,7 @@ Häufiger als Zeitabhängige Funktionen sind Frequenzabhängige Funktionen -> Ü
 
 Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensität her verändern -> Ein System lässt sich nur im eingeschwungen Zustand beschreiben: Übertragungsfunktion nur im eingeschwungenen Zustand.
 
-## [Fourier Reihe](../Mathematik/mathe%20(4)/Fourier%20Reihe.md)
+## [Fourier Reihe](Fourier%20Reihe.md)
 
 $$
 \begin{align*}
@@ -23,10 +23,10 @@ f(\omega) &= \sum\limits_{i=1}^{n}a_{i}\cdot \cos(\omega_{i}\cdot t) &&\qquad \t
 \end{align*}
 $$
 
-## [Fourier Transformation](../Mathematik/mathe%20(4)/Fourier%20Transformation.md)
+## [Fourier Transformation](Fourier%20Transformation.md)
 
 wenn zeitabhängige funktionen mit zunehmender frequenz nicht konvergieren, kann keine fouriertranformation angewandt werden:
-- Hohe Frequenzen müssen gegen 0 gehen -> Lösung: [Laplace Transformation](../Mathematik/mathe%20(4)/Laplace%20Transformation.md)
+- Hohe Frequenzen müssen gegen 0 gehen -> Lösung: [Laplace Transformation](Laplace%20Transformation.md)
 $$
 \begin{align*}
 \mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt && t \in \mathbb{R}\qquad 
@@ -36,7 +36,7 @@ $$
 
 Bsp.: [Stefan-Boltzmann](../Physik/Schwarzkörperstrahlung.md) Spektrum 
 
-## [Laplace Transformation](../Mathematik/mathe%20(4)/Laplace%20Transformation.md)
+## [Laplace Transformation](Laplace%20Transformation.md)
 
 $$
 \begin{align*}

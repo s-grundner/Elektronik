@@ -17,7 +17,7 @@ professor:
 
 Bei der Leistungsanpassung eines [elektrischen Netzwerks](Schaltungsanalyse.md), werden die Bauteile so gewählt, dass die [Leistung](elektrische%20Leistung.md) an der Last maximal ist.
 
-## Beim [Zweipol](../Zweipol.md)
+## Beim [Zweipol](Zweipol.md)
 
 ![InlineL|256](assets/realeSpgQuelle.png)
 

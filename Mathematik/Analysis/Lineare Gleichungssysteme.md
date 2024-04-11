@@ -19,7 +19,7 @@ $$
 A x=b
 $$
 
-Dabei sind die [Matrix](../mathe%20(4)/Matrix.md) $A \in \mathbb{K}^{m \times n}$ und der *Störvektor* $b \in \mathbb{K}^m$ gegeben und $x \in \mathbb{K}^n$ gesucht. Sowohl $x$ als auch $b$ werden hier als Spaltenvektoren aufgefasst. Ist $b=0$, so spricht man von einem *homogenen* Gleichungssystem, ansonsten von einem *inhomogenen*.  
+Dabei sind die [Matrix](Matrix.md) $A \in \mathbb{K}^{m \times n}$ und der *Störvektor* $b \in \mathbb{K}^m$ gegeben und $x \in \mathbb{K}^n$ gesucht. Sowohl $x$ als auch $b$ werden hier als Spaltenvektoren aufgefasst. Ist $b=0$, so spricht man von einem *homogenen* Gleichungssystem, ansonsten von einem *inhomogenen*.  
 
 Ist $A=\left(a_{i j}\right)$, so lautet das System aus multipliziert wie folgt:
 

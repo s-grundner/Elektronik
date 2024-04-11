@@ -92,7 +92,7 @@ created: 10th December 2022
 ### [Signaltheorie](Signaltheorie.md)
 
 - Fourier-Analyse (auch [komplex](Komplexe%20Zahlen.md))
-- [Fouriertransformation](../Mathematik/mathe%20(4)/Fourier%20Transformation.md)
+- [Fouriertransformation](Fourier%20Transformation.md)
 
 ### [Faltung](Faltung.md)
 

@@ -102,7 +102,7 @@ $$
 > Die Spannung an einer Kapazität kann sich nicht sprunghaft ändern, da eine solche Änderung auch einen Sprung in der gespeicherten Energie $W$ bedeuten würde.
 > Um einen solchen zu realisieren, müsste zum Zeitpunkt des Sprungs vom angeschlossenen Netzwerk unendliche Leistung $p(t)=d W / d t$ geliefert oder aufgenommen werden.
 
-### 2.4 [Geometrie](../Mathematik/mathe%20(4)/Geometrie.md)
+### 2.4 [Geometrie](Geometrie.md)
 
 - Plattenkondensator
 - Zylinderkondensator
