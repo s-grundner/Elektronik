@@ -2,6 +2,7 @@
 tags:
   - Software-Engineering/DesignPattern
 aliases:
+  - Composite
   - Kompositum
 keywords: 
 subject:
@@ -15,10 +16,14 @@ cited:
 ---
  
 
-# Compositepattern
+# Composite-Pattern
 
 > [!info] Aufbau einer hierarchischen Objektstruktur
 > ... bestehend aus atomaren Komponenten und zusammengesetzten Komponenten
 > 
 
 
+>[!example] Preis von zusammengesetzter Ressourcen
+> [[Tree|Baum]]-Graphen zur Zusammensetzung von Gegenständen
+> - atomare Ressourcen geben einen Preis vor.
+> - Zutaten fragen bis zu ihren Blattknoten den Preis ab.

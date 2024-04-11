@@ -11,7 +11,7 @@ semester: SS24
 created: 29. November 2022
 professor:
   - Markus Weninger
-banner: Softwareentwicklung/SEng/02_SEng/assets/GoF.png
+banner: "Softwareentwicklung/SEng/02_SEng/assets/GoF.png"
 banner_y: "0.3"
 ---
  
@@ -28,7 +28,7 @@ banner_y: "0.3"
 > - [Erzeugungsmuster](Erzeugungsmuster.md): Singleton, Factory
 > - [[Verhaltensmuster]]: Observer, Strategie, Iterator
 > - [[Strukturmuster]]: Adapter, Decorator, Fassade
-> - [[Compositepattern]]
+> - [[Kompositmuster]]: hierarchische Zusammensetzung aus atomaren Elementen
 > 
 > Andere:
 > - [Model-View-Control](Model-View-Control.md)
