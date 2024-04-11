@@ -9,7 +9,6 @@ subject:
   - Mathematik1
 semester:
   - WS23
-  - B1
 created: 28. Februar 2024
 professor:
   - Tina Mitteramskogler
