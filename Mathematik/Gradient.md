@@ -47,6 +47,21 @@ professor:
 > 
 > *Jacobi-[[Matrix]]* (oder *Funktionalmatrix*) von $f$ an der Stelle $x$; Symbole: $D f(x)$ oder $J_f(x)$.
 
+## Hesse [[Matrix]]
+
+> [!info] Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte Hessematrix
+> $$
+> H_f(x):=\left(\begin{array}{ccc}
+\frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
+\vdots & \vdots & \vdots \\
+\frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
+\end{array}\right)
+> $$
+> symmetrisch.
+
+![4000](../../assets/Excalidraw/Partielle%20Ableitung%202024-03-19%2017.40.01.excalidraw)
+
+
 # Beispiele
 
 ![4000](assets/Excalidraw/Gradient%202024-03-19%2017.18.35.excalidraw.md)
