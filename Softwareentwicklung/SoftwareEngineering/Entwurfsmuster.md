@@ -11,7 +11,7 @@ semester: SS24
 created: 29. November 2022
 professor:
   - Markus Weninger
-banner: "Softwareentwicklung/SEng/02_SEng/assets/GoF.png"
+banner: Softwareentwicklung/SoftwareEngineering/assets/GoF.png
 banner_y: "0.3"
 ---
  
