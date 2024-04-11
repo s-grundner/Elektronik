@@ -1,4 +1,6 @@
 ---
+banner: "Softwareentwicklung/SoftwareEngineering/assets/GoF.png"
+banner_y: "0.3"
 tags:
   - Software-Engineering/DesignPattern
 aliases:
@@ -11,8 +13,6 @@ semester: SS24
 created: 29. November 2022
 professor:
   - Markus Weninger
-banner: Softwareentwicklung/SoftwareEngineering/assets/GoF.png
-banner_y: "0.3"
 ---
  
 
