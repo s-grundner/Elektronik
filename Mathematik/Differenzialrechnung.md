@@ -1,6 +1,6 @@
 ---
 tags:
-  - Infinitesimalrechnung
+  - Infinitesimalrechnung/Differenzieren
 aliases:
   - Differenzieren
   - Ableitung
@@ -71,10 +71,16 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 | Kettenregel     | <br>$(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'$                                                 |
 | Umkehrregel     |                                                                                                    |
 
+## Sätze und Folgerungen
+
+![[FolgerungenMittelwertsatz.svg|invert_dark]]
+
+- [[Satz von Rolle]]
+- [[Mittelwertsatz der Differenzialrechnung]]
+- [L'Hospital](L'Hospital.md)
+
 # Tags
 
 - [Partielle Ableitung](Partielle%20Ableitung.md)
 - [Totales Differenzial](../Totales%20Differenzial.md)
-- [L'Hospital](L'Hospital.md)
 - [Linearisieren](Linearisieren)
-- [[Mittelwertsatz der Differenzialrechnung]]

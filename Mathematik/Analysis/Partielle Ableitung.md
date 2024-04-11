@@ -48,12 +48,7 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > als die *partielle [Ableitung](Differenzialrechnung.md)* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
 > Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
 
-## Jacobi Matrix
-
-## Hesse Matrix
-
-![4000](../../assets/Excalidraw/Partielle%20Ableitung%202024-03-19%2017.40.01.excalidraw)
 
 # Tags
 
-- Gradient
+- [[Gradient]]
