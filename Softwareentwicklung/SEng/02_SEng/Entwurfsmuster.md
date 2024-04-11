@@ -7,17 +7,16 @@ keywords:
 subject:
   - VL
   - Softwareentwicklung 2
-semester:
-  - SS24
-  - B2
+semester: SS24
 created: 29. November 2022
 professor:
+  - Markus Weninger
+banner: Softwareentwicklung/SEng/02_SEng/assets/GoF.png
+banner_y: "0.3"
 ---
  
 
 # Entwurfsmuster (Design-Patterns)
-
-![InlineR|450](assets/GoF.png)
 
 > [!info] Viele Probleme wurden schon gelöst, daher naheliegend: diese Lösungen für die Lösung eigener Probleme verwenden.
 > Als Entwurfsmuster bereitgestellte Lösungsstrukturen sind **nicht auf Code-Ebene**.
@@ -29,6 +28,7 @@ professor:
 > - [Erzeugungsmuster](Erzeugungsmuster.md): Singleton, Factory
 > - [[Verhaltensmuster]]: Observer, Strategie, Iterator
 > - [[Strukturmuster]]: Adapter, Decorator, Fassade
+> - [[Compositepattern]]
 > 
 > Andere:
 > - [Model-View-Control](Model-View-Control.md)
