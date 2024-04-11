@@ -25,7 +25,7 @@ Problemstellung:
 - Ein Dienst (Adaptee) bietet die Schnittstelle in einer anderen Form an `specificRequest()`
 - Beide, Client und Dienst sollen nicht angepasst werden, der Zugriff trotzdem möglich sein
 
-![invert_dark](assets/UML_Pattern_adapter.png)
+![invert_dark](UML_Pattern_adapter.png)
 
 Ein Client greift auf `request()` von `Target` zu. Verfügbar für diese Anforderung ist lediglich `specificRequest` von `Adaptee`. Es wird eine *Adapter*-Klasse erstellt: 
 

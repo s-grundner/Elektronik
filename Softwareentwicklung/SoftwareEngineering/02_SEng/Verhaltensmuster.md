@@ -32,7 +32,7 @@ Ein Observer gehört zur Gruppe der **Verhaltensmuster**. Er wird verwendet um V
 
 Ein Observer ist eine *Eins-zu-Viele-Abhängigkeit* (Ein Subject <-> Viele Observer).
 
-![invert_dark](assets/UML_Pattern_Observer.png)
+![invert_dark](UML_Pattern_Observer.png)
 
 ## Iterator
 

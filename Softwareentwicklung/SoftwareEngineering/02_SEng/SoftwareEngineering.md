@@ -66,11 +66,11 @@ Die oben genannten Teilschritte der Softwareentwicklung werden nicht zwangsläuf
 
 Eines der ältesten Modelle ist das Wasserfallmodell, das eine starre Abfolge der einzelnen Phasen annimmt. Während dem Entwurf gibt es keine Überlegung wie das Endprodukt auf bestimmte Tests reagieren wird (wie gewisse Funktionen getestet werden). Ein nachträgliches Ändern des Systems ist nicht eingeplant.
 
-![invert_dark](assets/Seng_Wasserfall1.png)
+![invert_dark](Seng_Wasserfall1.png)
 
 Bei besonders innovativen oder einfach noch nicht hinreichend gut verstandenen Systemen, ist das Wasserfallmodell ungeeignet. Eine frühe, naheliegende Anpassung ist das modifizierte Wasserfallmodell. Es beinhaltet Rückkopplungen für den Fall das Fehler auftreten:
 
-![invert_dark](assets/Seng_Wasserfall2.png) 
+![invert_dark](Seng_Wasserfall2.png) 
 
 ## 4 Das V-Modell
 
@@ -92,7 +92,7 @@ Wird in einer Testphase ein Fehler (Entwurfsfehler) erkannt, macht das in der en
 
  Die folgende Abbildung zeigt eine vereinfachte schematische Darstellung des V-Modells:
 
- ![invert_dark](assets/Seng_VModell.png)
+ ![invert_dark](Seng_VModell.png)
 
 ## 5 Prototypenbasierte Modelle
 
@@ -118,7 +118,7 @@ Die prototypenbasierten Prozeßmodelle unterstützen auf systematische Weise die
 
 Die folgende Abbildung zeigt den Ablauf dieser Prozessmodelle:
 
-![invert_dark](assets/Seng_PrototypeProzess.png)
+![invert_dark](Seng_PrototypeProzess.png)
 
 **Vorteile**
 

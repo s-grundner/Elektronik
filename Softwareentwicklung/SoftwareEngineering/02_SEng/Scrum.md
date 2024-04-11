@@ -72,7 +72,7 @@ Sie dienen einerseits zur Beschreibung der Ziele und andererseits als Rahmen die
 
 - vom **Product Owner** **erfasst** (ins **Product-Backlog**) und **priorisiert**
 
-![image-20211028113423622]( assets/Scrum_UserStory.png)
+![image-20211028113423622]( Scrum_UserStory.png)
 
 *User Stories* sind einfache, vom **Kunden** formulierte **Anforderungen an das System**. Sie werden vom **Product-Owner** verfasst und **priorisiert**.
 
@@ -88,7 +88,7 @@ Wie bereits zuvor erwähnt werden die User Stories in *das Product-Backlog* gele
 
 Das *Product-Backlog* ist eine **dynamische Sammlung von Anforderungen (=User Stories)** und dient als Grundlage der gesamten Entwicklung. Es kann während des Entwicklungsprozesses erweitert, verändert oder komprimiert werden, jedoch nur vom **Product Owner**.
 
-![image-20211028113508959]( assets/Scrum_ProductBacklog.png)
+![image-20211028113508959]( Scrum_ProductBacklog.png)
 
 Ein Product-Backlog <http://winfwiki.wi-fom.de/index.php/Distributed_Scrums_-_Analyse_des_Softwaretools_Agilo>
 
@@ -103,7 +103,7 @@ Es werden so viele hoch priorisierte User Stories in diesen Backlog aufgenommen,
 Der Umfang des *Sprint-Backlog*s wird während des **Sprint Planing Meeting** vom *Project-Owner* und dem *Team* festgelegt.  
 Wurden zu viele *User Stories* ausgewählt und konnten nicht umgesetzt werden, so werden sie zurück in das *Product-Backlog* gelegt, neu priorisiert und beim nächsten *Sprint* berücksichtigt.
 
-![image-20211028113555716]( assets/Scrum_SprintBacklog.png)
+![image-20211028113555716]( Scrum_SprintBacklog.png)
 
 ​ <http://winfwiki.wi-fom.de/index.php/Distributed_Scrums_-_Analyse_des_Softwaretools_Agilo>
 
@@ -113,13 +113,13 @@ Der Sprint ist das zentrale Element des Scrum. Er bildet einen geschützten Raum
 
  Dafür wird gewöhnlich ein Zeitraum von etwa einem **Monat** vorgesehen, in dem Tag für Tag Ergebnisse besprochen und neue Ziele gesetzt werden, im sogenannten **Daily-Scrum**. Zur permanenten Darstellung des Sprint-Fortschritts werden bestimmte Tools wie zum Beispiel ein White Board verwendet.
 
-![image-20211028113624890]( assets/Scrum_Sprint.png)
+![image-20211028113624890]( Scrum_Sprint.png)
 
 ### 3.1.5. White Board
 
 Das White Board ist eine Weiterentwicklung der herkömmlichen Schultafel und kann mit speziellen Filz-Markern beschrieben werden.
 
-![Scrum_WhiteBoard]( assets/Scrum_WhiteBoard.png)
+![Scrum_WhiteBoard]( Scrum_WhiteBoard.png)
 
 In *Scrum* wird das White Board dazu verwendet **Backlogs zu verwalten** und User Stories bestimmten *Stati* zu unterstellen. (to do, in progress, done, usw.)
 
@@ -145,7 +145,7 @@ So nimmt er beispielsweise jedes Mal **nach Beendigung eines Sprints** am sogena
 
 ### 3.2.2. Product Owner
 
-![img]( assets/Scrum_ProductOwner.png)
+![img]( Scrum_ProductOwner.png)
 
 Der Product-Owner bildet die **Schnittstelle zwischen dem Kunden und dem Scrum-Team**.
 
@@ -155,7 +155,7 @@ Der Product-Owner bildet die **Schnittstelle zwischen dem Kunden und dem Scrum-T
 
 ### 3.2.3. Scrum-Master
 
-| ![img]( assets/Scrum_ScrumMaster.png) | ![img]( assets/Scrum_ScrumMaster2.png) |
+| ![img]( Scrum_ScrumMaster.png) | ![img]( Scrum_ScrumMaster2.png) |
 | --------------------------------------- | ---------------------------------------- |
 |                                         |                                          |
 
@@ -170,7 +170,7 @@ Der Product-Owner bildet die **Schnittstelle zwischen dem Kunden und dem Scrum-T
 
 ### 3.2.4. Team
 
-![img]( assets/Scrum_Team.png)
+![img]( Scrum_Team.png)
 
 Das Team hat die Aufgabe die vorliegenden **User Stories erfolgreich umzusetzen**.
 
@@ -178,7 +178,7 @@ Es organisiert sich im geschützten Raum des Sprints eigenständig und **teilt s
 
 Das Funktionieren von Scrum beruht auf der **Eigenverantwortung** der Teammitglieder. Ohne das Übernehmen von Verantwortung kann es nicht umgesetzt werden!
 
-![img]( assets/Scrum_Team2.png)
+![img]( Scrum_Team2.png)
 
 <http://www.holisticon.de/cms/AgileGlossar/Startseite>
 
@@ -186,7 +186,7 @@ Das Funktionieren von Scrum beruht auf der **Eigenverantwortung** der Teammitgli
 
 Da *Scrum* ein Agiler Prozess/Framework ist, bietet es einen Rahmen, der gewisse Vorgehensweisen und Methoden bereitstellt, um die Agilität der Softwareentwicklung zu wahren.
 
-![img]( assets/Scrum_Zyklus.png)
+![img]( Scrum_Zyklus.png)
 
  
 
@@ -196,7 +196,7 @@ Abbildung : Scrum Zyklus
 
 Jeder *Sprint* beginnt mit einem eintägigen *Sprint-Planning-Meeting*. In diesem 2-teiligen Meeting präsentiert der *Project-Owner* all jene *User Stories*, die er im nächsten *Sprint* bearbeitet sehen möchte, das sogenannte *Selected Backlog,* und damit ein *Sprint Ziel*, welches es zu erreichen gilt. Als nächstes wird mit dem Entwicklungsteam besprochen, welche und wie viele der vorliegenden *User Stories* es für realisierbar und sinnvoll hält. Im zweiten Teil des *Sprint-Planning-Meetings* schlägt das Thema von „Was wird bearbeitet“ in „Wie werden die Ziele realisiert“ um. Ist eine Übereinkunft zwischen dem *Team* und dem *Project-Owner* getroffen, so wird das nun komprimierte *Selected Backlog* zum *Sprint-Backlog.* Mit Abschluss der *Sprint-Planung* steht also ein *Sprint Ziel* und ein *Sprint-Backlog* fest.
 
-![img]( assets/Scrum_SprintPlanung.png)
+![img]( Scrum_SprintPlanung.png)
 
 ### 3.3.2. Sprint-Durchführung
 
@@ -268,11 +268,11 @@ Bei dieser Art der Entwicklung ist das gesamte Projekt mit der Abnahme abgeschlo
 
 Ist der Sprint am Ende angelangt, so kann erstmals ein fertiges, funktionierendes Stück Programmcode ausgeliefert werden. Doch dies ist erst der Anfang der Entwicklung. Dem Kunden wird der Prototyp vorgeführt und alle Features, die bis zu diesem Zeitpunkt vorhanden sind, werden vorgestellt. Ein Feedback vom Kunden und allen Beteiligten des Projektes ist die Folge. Daraus leiten sich neue User Stories, Verbesserungsvorschläge und weitere Ideen ab, die das Projekt immer mehr in eine Richtung drängen. Es steht also nicht von Beginn an fest welche Aufgaben und in welchem Ausmaß die Software diese bewältigen soll, sondern es entwickelt sich im Laufe des Entwicklungsprozesses selbst zu der Anwendung, die der Kunde braucht. 
 
-![img]( assets/Scrum_NachDurchfuehrung.png)
+![img]( Scrum_NachDurchfuehrung.png)
 
 # 5. Zusammenfassung
 
-![img]( assets/Scrum_Zusammenfassung.png)
+![img]( Scrum_Zusammenfassung.png)
 
 # 6. Referenzen
 

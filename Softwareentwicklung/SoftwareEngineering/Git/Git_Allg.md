@@ -70,7 +70,7 @@ Ein **Remote Repo** ist eines, von welchem lokale Repos kopiert werden können, 
 
    Vom lokalen Repo aus wird das Remote Repo als **origin** (Ursprung) bezeichnet.
 
-   ![Git-transport](assets/Git-transport.png)
+   ![Git-transport](Git-transport.png)
 
 2. Im einfachsten (üblichen) Fall hat ein lokales Repo genau ein Remote-Repo. Das Remote-Repo ist über seine Adresse erreichbar. Um einfacher darauf zugegriffen werden kann, wird dem Remote-Repo ein kurzer Name gegeben. Für den erwähnten, einfachen, üblichen Fall wird dieses Repo **Origin** (Ursprung) genannt.  
    Jeder Pfad der Versionierung hat eine Bezeichnung. Der Hauptpfad heißt **main**. Die Idee: die Entwicklung verläuft linear auf dem *main*-Pfad. Dieser Hauptpfad wird bei der Erstellung eines Repos automatisch erstellt. Wenn immer eine parallele Entwicklung (gleichzeitig unterschiedliche Features) gewünscht ist, wird ein **branch** (Zweig) mit einem gewählten Namen erzeugt. Um zwischen branches umzuschalten: `checkout myBranch` oder zurück `checkout main`
@@ -188,7 +188,7 @@ Im Nächsten Schritt wird die Datei in den Head übernommen (*commiten*)
 
 Mit jedem Commit wird eine neue Version erstellt und **main** um Eins weiter geschoben. Zur Unterscheidung von Versionen wird jedem Element ein Hash zugeordnet:
 
-![img](assets/git_ver01.png)
+![img](git_ver01.png)
 
 Gleichzeitig zeigt ein zweiter Zeiger ebenfalls auf dieses letzte Element, der **Head**-Zeiger. Die in der Übersicht angeführte Parameter `-a` inkludiert den Add-Schritt, fügt aber keine neu eingefügten Dateien ein.
 
@@ -225,7 +225,7 @@ Erstellen eines Zweigs (branch) mit Namen *testing*:
 git branch testing
    ```
 
-![img](assets/git_ver02.png)
+![img](git_ver02.png)
 
 Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkenswert ist, dass *Head* trotzdem noch auf *main* zeigt (im Hauptpfad). Erst mit *checkout* wechselt *Head* auf den *testing*-Pfad:
 
@@ -233,7 +233,7 @@ Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkensw
 git checkout testing 
 ```
 
-![img](assets/git_ver03.png)
+![img](git_ver03.png)
 
 Dadurch wird erkennbar: *main* ist immer im Hauptpfad, *Head* ist der letzte Commit, der kann auch in einem Abzweig sein.
 
@@ -243,7 +243,7 @@ Mit einem weiteren *Commit* verändert sich der Baum wie folgt:
 git commit -m "Änderung auf c2b9e"
    ```
 
-![img](assets/git_ver04.png)
+![img](git_ver04.png)
 
 Head bewegt sich im aktiven Pfad (durch *Checkout* auf *testing*) weiter. *main* bleibt im Hauptpfad. Für das *Pushen* eines *Commits* (damit die Teilversionen auch auf dem Remote-Repo landen):
 
@@ -259,7 +259,7 @@ Erst mit einem erneutem *Checkout* kann in den Hauptpfad gewechselt werden:
 git checkout main
    ```
 
-![img](assets/git_ver05.png)
+![img](git_ver05.png)
 
 Ein weiterer *Commit* in diesem Hauptpfad verursacht:
 
@@ -267,7 +267,7 @@ Ein weiterer *Commit* in diesem Hauptpfad verursacht:
 git commit -m "Änderung auf 87ab2"
    ```
 
-   ![img](assets/git_ver06.png)
+   ![img](git_ver06.png)
 
    Mit einem **merge** von *testing* ist die Folgeversion des *testing*-Pfades wieder im Hauptpfad.
 
@@ -275,7 +275,7 @@ git commit -m "Änderung auf 87ab2"
 git merge testing
    ```
 
-   ![img](assets/git_ver07.png)
+   ![img](git_ver07.png)
 
 ## Geteiltes Arbeiten
 
