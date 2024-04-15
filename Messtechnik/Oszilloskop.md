@@ -36,6 +36,8 @@ Das besondere an den Tastköpfen des Oszilloskops ist, dass sie frequenzkompensi
 
 ![[OszTastkopfSpgTeiler.png]]
 
+10:1 Tastkopf kann verwendet werden, damit der gesamtwiderstand größer ist und weniger Strom in das Messgerät fließt -> genauere Ergebnisse bei kleinstromigen Schaltungen
+
 # Tags
 
 [^1]: Agilent 5441D
