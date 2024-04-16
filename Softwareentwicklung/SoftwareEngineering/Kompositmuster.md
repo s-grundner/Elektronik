@@ -23,10 +23,10 @@ cited:
 > 
 
 
->[!example] Preis von zusammengesetzter Ressourcen
+>[!example]- Preis von zusammengesetzter Ressourcen
 > [[Tree|Baum]]-Graphen zur Zusammensetzung von Gegenständen
 > - atomare Ressourcen geben einen Preis vor.
 > - Zutaten fragen bis zu ihren Blattknoten den Preis ab.
 > 
 > > [!note] Graph
-> > ![[Pasted image 20240411144015.png]]
+> > ![[CompositMC.png]]
