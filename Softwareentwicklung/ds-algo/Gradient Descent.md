@@ -6,7 +6,7 @@ source: ["Robert Vogl"]
 created: 7th November 2022
 ---
 
-# Gradient Descent
+# [[Gradient]] Descent
 
 Der Gradient Descent ist ein Algorithmus zur Annäherung von der Kostenfunktion $J$ der [Lineare-](Lineare%20Regression.md) oder [Logistische](Logistische%20Regression.md) Regression.
 
