@@ -1,7 +1,8 @@
 ---
 tags:
   - Messgerät
-aliases: 
+aliases:
+  - Oszilloskops
 created: 22. Dezember 2023
 ---
 
@@ -29,9 +30,13 @@ Die Bandbreitenbegrenzung wird durch einen Tiefpass im Oszilloskop realisiert, u
 
 Der Einstellung des Triggers legt fest, wann das Oszilloskop eine neue Periode des Wechselsignals aufnimmt. Üblicherweise erfolgt dies über das Festlegen eines Schwellenwertes des Signals. Es ist aber auch möglich, das Trigger Signal extern einzuspeisen. Im Fall des Agilent 5441D ist es auch möglich den Trigger auf einen der 16 Digitalen Pins zu setzen.
 
-## Kalibrierung
+## Tastköpfe
 
-### Probe
+Das besondere an den Tastköpfen des Oszilloskops ist, dass sie frequenzkompensierte [[Spannungsteiler]] sind.
+
+![[OszTastkopfSpgTeiler.png]]
+
+10:1 Tastkopf kann verwendet werden, damit der gesamtwiderstand größer ist und weniger Strom in das Messgerät fließt -> genauere Ergebnisse bei kleinstromigen Schaltungen
 
 # Tags
 

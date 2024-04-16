@@ -1,18 +1,18 @@
 ---
-tags: ["", incomplete]
-aliases: ["Messbrücken", "Auto-Balancing-Bridge"]
-subject: ["mtrs"]
-source: ["Norbert Irnleitner", "Harald Salhofer"]
-created: 31st March 2022
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Elektrotechnik
+semester: SS24
+created: 31. August 2023
+professor: 
+cited:
 ---
+ 
 
 # Messbrücke
-
-## Vorteile einer Messbrücke
-
-…
-
-## Messbrücken
 
 | No. | Messbrücke | $U_{0}$ gespeist | $I_{0}$ gespeist | Brückenart |
 | :--: | ---- | ---- | ---- | :--: |
@@ -25,8 +25,9 @@ created: 31st March 2022
 | g | ![150](assets/mb_g.png) |  |  | Halb-Brücke |
 | h | ![150](assets/mb_h.png) |  |  | Voll-Brücke |
 
-## Auto-Balancing-Bridge
-
 ---
 
 # Tags
+
+- Auto-Balancing-Bridge
+- [[Maxwell-Wien-Brücke]]

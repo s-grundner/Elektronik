@@ -19,7 +19,7 @@ cited:
 # Composite-Pattern
 
 > [!info] Aufbau einer hierarchischen Objektstruktur
-> ... bestehend aus atomaren Komponenten und zusammengesetzten Komponenten
+> … bestehend aus atomaren Komponenten und zusammengesetzten Komponenten
 > 
 
 

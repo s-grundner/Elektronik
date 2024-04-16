@@ -1,15 +1,19 @@
 ---
 tags: 
-aliases:
+aliases: 
   - Matrizen
   - Matrixgleichung
   - Matrixrechnung
+keywords: 
 subject:
-  - mathe
-source:
-  - Rudolf Frauenschuh
-created: 28th September 2022
+  - VL
+  - Mathematik 1
+semester: WS23
+created: 11. April 2024
+professor: 
+cited:
 ---
+ 
 
 # Matrix
 
