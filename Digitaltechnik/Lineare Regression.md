@@ -33,7 +33,8 @@ $$
 a:=\sum_{k=1}^n x_k^2, \quad b:=\sum_{k=1}^n x_k, \quad e:=\sum_{k=1}^n y_k \quad \text { und } \quad f:=\sum_{k=1}^n x_k y_k .
 $$
 
-Man beachte, dass wegen der Cauchy-Schwarzschen Ungleichungung (siehe Satz 6.15 (a)) gilt, dass $n a-b^2 \geq 0$. Eine einfache Überlegung zeigt, dass sogar $n a-b^2>0$ gilt, weil alle $x_k$ verschieden sind. Wir zeigen nun noch, dass in diesem Punkt $(c, d)$ tatsächlich das globale [[Extremwert|Minimum]] angenommen wird. Dazu berechnen wir die Hessematrix:
+Man beachte, dass wegen der Cauchy-Schwarzschen Ungleichungung (siehe Satz 6.15 (a)) gilt,
+dass $n a-b^2 \geq 0$. Eine einfache Überlegung zeigt, dass sogar $n a-b^2>0$ gilt, weil alle $x_k$ verschieden sind. Wir zeigen nun noch, dass in diesem Punkt $(c, d)$ tatsächlich das globale [[Extremwert|Minimum]] angenommen wird. Dazu berechnen wir die Hessematrix:
 $$
 H_f(c, d)=\frac{2}{n}\left(\begin{array}{ll}
 a & b \\
