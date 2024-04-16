@@ -61,7 +61,6 @@ professor:
 
 ![4000](../../assets/Excalidraw/Partielle%20Ableitung%202024-03-19%2017.40.01.excalidraw)
 
-
 # Beispiele
 
 ![4000](assets/Excalidraw/Gradient%202024-03-19%2017.18.35.excalidraw.md)
