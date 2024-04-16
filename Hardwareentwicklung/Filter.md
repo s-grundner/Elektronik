@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Baugruppen/Filter
 aliases:
   - RC-Glied
   - RL-Glied
@@ -30,3 +31,7 @@ Allgemein wird die [[Dämpfung]] des Filters mit logarithmischem verhältnis dar
 - Dezibel ist die Pseudo einheit zur darstellung von logarithmischen Leistungsverhältnissen
 
 ![[../assets/Excalidraw/Filter 2024-03-18 22.46.50.excalidraw]]
+## Digitale Filter
+
+- IIR
+- FIR

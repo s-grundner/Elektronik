@@ -5,9 +5,7 @@ keywords:
 subject:
   - Mathematik1
   - "357.100"
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 30. August 2023
 professor:
 ---
