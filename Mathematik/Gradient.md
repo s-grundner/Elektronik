@@ -5,6 +5,7 @@ aliases:
   - Nabla
   - Jacobi-Matrix
   - Funktionalmatrix
+  - Gradienten
 keywords: 
 subject:
   - VL
