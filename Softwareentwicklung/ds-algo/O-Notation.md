@@ -26,11 +26,43 @@ Unter Speichereffizienz versteht man, wie viel Speicher ein Algorithmus *währen
 
 ## Rechenregeln für Komplexitäten
 
+$$ T(n) = 106.4\cdot n^{2} + 8.9\cdot n + 4.8 $$
+
+Konstanten werden eliminiert :
 $$
-T(n) = 106.4\cdot n^{2} + 8.9\cdot n + 4.8
+\begin{align}
+T(n) &= \cancel{ 106.4 }\cdot n^{2} + \cancel{ 8.9 }\cdot n + \cancel{ 4.8 } \\
+T(n) &= n^{2} + n \qquad t_{1}(n) + t_{2}(n) = O(max(t_{1}(n), t_{2}(n)))
+\end{align}
 $$
 
-Konsanten werden eliminiert
+```c
+int a(int n) {
+  r = 0;
+  for(int i = 0 .. n-1) {
+    for(int j = 0 .. n/2) {
+      r = r+1;
+    }
+  }
+}
+```
+
+$O(a) = n\cdot n\cdot \frac{1}{2} = n^{2}$
+
+```c
+int a(int n) {
+  r = 0;
+  for(int i = 0 .. n-1) { // n
+    j=n;
+    while (j > 0) { // ld(n)
+      r = r+1;
+      j /= 2;
+    }
+  }
+}
+```
+
+$O(a) = n\cdot\log(n)$
 
 
 ## Laufzeitbewertung
