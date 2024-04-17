@@ -27,22 +27,16 @@ professor:
 ## 1 Mathematik
 
 ```dataview
-TABLE FROM #Algorithmus/Mathe 
-complexity
+TABLE complexity
+FROM #Algorithmus/Mathe
 
 ```
 
 ## 2 Informatik / Digitaltechnik
 
-- [Such-Algorithmen](DS-Algo/{MOC}%20Suchen.md)
-- [Sortier-Algorithmen](DS-Algo/{MOC}%20Sortieren.md)
-
 ```dataview
-LIST FROM #Algorithmus 
-WHERE !contains(tags, "Sortieren")
-AND !contains(tags, "Suchen")
-AND !contains(tags, "Mathe")
-AND !contains(file.name, "MOC")
+TABLE complexity
+FROM #Algorithmus/Informatik 
 ```
 
 ## 3 Elektrotechnik

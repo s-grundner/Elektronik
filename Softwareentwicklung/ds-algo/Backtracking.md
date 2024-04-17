@@ -13,7 +13,7 @@ In vielen Fällen wird Backtracking [rekursiv](Rekursion.md) implementiert.
 
 Wenn es eine Lösung gibt, dann wird diese mittels Backtracking immer gefunden. Wird keine Lösung gefunden, dann gibt es keine Lösung. Es wird nicht automatisch eine optimale Lösung gefunden.
 
-Der ganz große Vorteil von Backtracking ist, dass keine spezielle Lösungsstrategie ermittelt werden muss. Durch einfaches Versuchen kann eine Lösung gefunden werden. Der Vorteil wird durch die hohe Geschwindigkeit von modernen Rechensystemen unterstützt. Durch zusätzliches Berücksichtigen von Detailkenntnissen kann der Algorithmus eine wesentlich höhere Effizienz erreichen.
+Der ganz große Vorteil von Backtracking ist, dass keine spezielle Lösungsstrategie ermittelt werden muss. Durch einfaches Versuchen kann eine Lösung gefunden werden. Der Vorteil wird durch die hohe Geschwindigkeit von modernen Rechensystemen unterstützt. Durch zusätzliches Berücksichtigen von Detailkenntnissen kann der [[{MOC} Algorithmus|Algorithmus]] eine wesentlich höhere Effizienz erreichen.
 
 Wird die Lösung ohne gut durchdachte Lösungsstrategien gesucht, also einfach nur durch Probieren sämtlicher Möglichkeiten, dann wird diese Lösungs-Art als *Lösen durch rohe Gewalt* bzw. *Brute Force* bezeichnet.
 

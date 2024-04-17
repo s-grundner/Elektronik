@@ -2,6 +2,7 @@
 tags:
   - MOC
   - Algorithmus/Sortieren
+  - Algorithmus/Informatik
 aliases:
   - "#Algorithmus/Sortieren"
   - Sortier-Algorithmus
@@ -14,7 +15,8 @@ created: 29. November 2022
 # Map of Content - Sortieren
 
 ```dataview
-LIST FROM #Algorithmus/Sortieren
+TABLE complexity
+FROM #Algorithmus/Sortieren
 WHERE !contains(file.name, "MOC")
 ```
 

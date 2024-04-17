@@ -2,6 +2,7 @@
 tags:
   - MOC
   - Algorithmus/Suchen
+  - Algorithmus/Informatik
 aliases:
   - "#Algorithmus/Suchen"
   - Such-Algorithmus
@@ -17,7 +18,8 @@ created: 29. November 2022
 Bei der Suche nach einem Element wird in einem Feld nach einem Wert gesucht. Dieser Wert wird als **Schlüssel** bezeichnet.
 
 ```dataview
-LIST FROM #Algorithmus/Suchen
+TABLE complexity
+FROM #Algorithmus/Suchen
 WHERE !contains(tags, "MOC")
 SORT file.name
 ```

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Algorithmus
+  - Algorithmus/Informatik
   - HTL-Diplomarbeit
 aliases:
   - Fast Fourier Transform
