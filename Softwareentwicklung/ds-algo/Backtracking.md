@@ -1,5 +1,5 @@
 ---
-tags: ["Algorithmus"]
+tags: ["Algorithmus/Informatik"]
 aliases: []
 created: 29th November 2022
 ---

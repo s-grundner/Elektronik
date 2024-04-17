@@ -27,7 +27,9 @@ professor:
 ## 1 Mathematik
 
 ```dataview
-LIST FROM #Algorithmus/Mathe 
+TABLE FROM #Algorithmus/Mathe 
+complexity
+
 ```
 
 ## 2 Informatik / Digitaltechnik
