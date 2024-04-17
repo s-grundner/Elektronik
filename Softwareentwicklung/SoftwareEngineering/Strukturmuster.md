@@ -69,3 +69,5 @@ In `main` (Client) wird ein `Target` erstellt mittels `Adapter`. Der Client erh�
 Beispielhaft gibt es in Java die Wrapper-Klasse *Integer* für den Datentypen `int`. Diese Klasse Kapselt (wrappt) den Datentyp in eine Klasse um etwa eine Liste erstellen zu können (Adapter-Funktion) und um zusätzliche Features anbieten zu können (Decorator).
 
 Stream-Klassen sind ungebuffert, für die gebufferte Anwendung werden sie in Buffered-Stream-Klassen eingebettet.
+
+

@@ -27,7 +27,7 @@ professor:
 > Sie haben in einem Klassiker 23 Muster definiert. Die von ihnen gesammelten Muster wurden Gruppiert:
 > - [Erzeugungsmuster](Erzeugungsmuster.md): Singleton, Factory
 > - [[Verhaltensmuster]]: Observer, Strategie, Iterator
-> - [[Strukturmuster]]: Adapter, Decorator, Fassade
+> - [[Strukturmuster]]: Adapter, Decorator, Fassade, Wrapper
 > - [[Kompositmuster]]: hierarchische Zusammensetzung aus atomaren Elementen
 > 
 > Andere:
