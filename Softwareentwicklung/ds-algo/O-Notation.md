@@ -24,6 +24,15 @@ Unter Speichereffizienz versteht man, wie viel Speicher ein Algorithmus *währen
 
 ![[Pasted image 20240417112017.png]]
 
+## Rechenregeln für Komplexitäten
+
+$$
+T(n) = 106.4\cdot n^{2} + 8.9\cdot n + 4.8
+$$
+
+Konsanten werden eliminiert
+
+
 ## Laufzeitbewertung
 
 Die Laufzeit von Algorithmen kann nicht eindeutig bestimmt werden.  
