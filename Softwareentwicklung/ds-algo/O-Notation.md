@@ -1,6 +1,14 @@
 ---
-tags: ["Algorithmus"]
-aliases: ["time complexity", "space complexity", "Big-O", "big-O", "Speicherbewertung", "Laufzeitbewertung"]
+tags:
+  - Algorithmus
+aliases:
+  - time complexity
+  - space complexity
+  - Big-O
+  - big-O
+  - Speicherbewertung
+  - Laufzeitbewertung
+  - Komplexität
 created: 17th April 2022
 ---
 
@@ -13,6 +21,8 @@ Laufzeitbewertung beschreibt, wie **zeiteffizient** ein Algorithmus ist.
 Speicherbewertung beschreibt, wie **speichereffizient** ein Algorithmus ist.
 
 Unter Speichereffizienz versteht man, wie viel Speicher ein Algorithmus *während* seiner Ausführung verbraucht
+
+![[Pasted image 20240417112017.png]]
 
 ## Laufzeitbewertung
 
