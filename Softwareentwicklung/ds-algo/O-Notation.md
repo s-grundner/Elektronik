@@ -32,9 +32,13 @@ Konstanten werden eliminiert :
 $$
 \begin{align}
 T(n) &= \cancel{ 106.4 }\cdot n^{2} + \cancel{ 8.9 }\cdot n + \cancel{ 4.8 } \\
-T(n) &= n^{2} + n \qquad t_{1}(n) + t_{2}(n) = O(max(t_{1}(n), t_{2}(n)))
+T(n) &= n^{2} + n  \\
+t_{1}(n) + t_{2}(n) &= O(max(t_{1}(n), t_{2}(n))) \\
+O(T(n)) &= n^{2}
 \end{align}
 $$
+
+---
 
 ```c
 int a(int n) {
@@ -48,6 +52,8 @@ int a(int n) {
 ```
 
 $O(a) = n\cdot n\cdot \frac{1}{2} = n^{2}$
+
+---
 
 ```c
 int a(int n) {
@@ -63,7 +69,6 @@ int a(int n) {
 ```
 
 $O(a) = n\cdot\log(n)$
-
 
 ## Laufzeitbewertung
 
