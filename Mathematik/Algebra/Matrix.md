@@ -49,6 +49,7 @@ cited:
 - [Transponieren](Transponieren.md)  
 - [Determinante](Determinante.md)  
 - [[Matrixmultiplikation]]
+- [[Definitheit]]
 
 ## 3 Elementare Umformungen
 
