@@ -1,7 +1,9 @@
 ---
 tags:
   - Infinitesimalrechnung/Integrieren
-aliases: 
+aliases:
+  - Riemannsche Summe
+  - Riemann
 keywords:
   - Fläche unter Kurve
 subject:
@@ -35,3 +37,25 @@ cited:
 > $$
 
 > [!warning] Betragsstriche dienen nur zur notation
+
+> [!important] Riemann-Summe
+> Sei $I \subset \mathbb{R}^n$ ein abgeschlossenes Intervall, $Z$ eine Zerlegung von $I$ mit Teilintervallen $I_1, \ldots, I_m$. Für $j \in\{1, \ldots, m\}$ sei $\xi_j \in I_j$.
+> $\sigma:=\left\{\xi_1, \ldots, \xi_m\right\}$ heißt ein zu $Z$ gehöriges System von Zwischenpunkten.
+> Sei $f: I \rightarrow \mathbb{R}$. Dann heißt
+> $$
+> S(f, Z, \sigma):=\sum_{j=1}^m f\left(\xi_j\right)\left|I_j\right|
+> $$
+> die zu $(f, Z, \sigma)$ gehörige Riemannsche Summe (Zwischensumme).
+> $f$ heißt Riemann-integrierbar ( $\mathrm{R}$-integrierbar), wenn:
+> > [!tldr]- $\exists A \in \mathbb{R} \forall \varepsilon>0 \exists \delta>0 \forall Z:(|Z|<\delta \Longrightarrow \forall \sigma:|S(f, Z, \sigma)-A|<\varepsilon)$
+> > Wenn es eine Zahl $A$ aus $\mathbb{R}$ ein $\varepsilon > 0$ und eine $\delta>0$ gibt, sodass für alle Zerlegungen in $Z$ gilt wenn die Feinheit kleiner ist als $\delta$, gilt für alle Zwischenpunkte $\sigma$ die Differenz der Riemann-Summe und der Zahl $A$ kleiner als $\varepsilon$
+> 
+> Dabei handelt es sich bei $Z$ und $\sigma$ um Zerlegungen von $I$ bzw. Systeme von Zwischenpunkten zu $Z$.
+
+> [!important] Riemann-Integral
+> Die Zahl $A$ heißt (bestimmtes, Riemann-)Integral von $f$ über $I$, Symbole:
+> $$ \int_I f d x \text { oder } \int_I f(x) d x \text { oder } \int_I f\left(x_1, \ldots, x_n\right) d\left(x_1, \ldots, x_n\right) $$
+> 
+> Ist $n=1$ und $I=[a, b]$, so schreiben wir statt $\int_I f d x$ auch $\int_a^b f d x$ und definieren:
+> $$ \int_b^a f d x:=-\int_a^b f d x $$
+ 
