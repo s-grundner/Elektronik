@@ -40,9 +40,9 @@ f&: \mathbb{R}^{n}\to \mathbb{R}^{m}\implies \frac{ \partial f }{ \partial x } \
 $$
 
 - [Jacobi-Matrix](Gradient.md)
-- [Determinante](Determinante.md) der Jacobi-Matrix
+- [Determinante](Determinante.md) der [Jacobi-Matrix](Gradient.md)
 - Ist matrix überall regulär (außer 0,0)?
   - Ja $\to$ Funktion ist Lokal invertierbar
-- Ist die Funktion bijektiv?
+- Ist die Funktion [bijektiv](Abbild.md)?
   - Ja $\to$ Funktion ist Global invertierbar
 - Sonst nicht invertierbar
