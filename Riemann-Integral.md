@@ -16,7 +16,7 @@ cited:
 ---
  
 
-# Riemann-Integral
+# Riemann-[Integral](Integralrechnung.md)
 
 > [!important] Inhalt
 > (a) Seien $a_i, b_i \in \mathbb{R}$ mit $a_i<b_i$ für $i=1, \ldots, n$. Ein *abgeschlossenes* $n$-*dimensionales* Intervall ist eine Menge $I:=\left[a_1, b_1\right] \times \ldots \times\left[a_n, b_n\right]$. Der *Inhalt* von $I$ ist definiert als:

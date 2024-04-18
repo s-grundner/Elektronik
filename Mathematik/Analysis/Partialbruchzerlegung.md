@@ -1,10 +1,16 @@
 ---
-tags: []
-aliases: []
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
-created: 30th May 2022
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Mathematik 1
+semester: WS23
+created: 4. März 2024
+professor: 
+cited:
 ---
+ 
 
 # Partialbruchzerlegung
 
@@ -27,7 +33,7 @@ y(x) &= \frac{x^2+4x+10}{(x^2-4)\underbrace{ (x^2+2x+2) }_{ \text{irreduzibler T
 \end{align}
 $$
 
-Ansatz für Partialbruch mit dem rationalen Polynom Gleichsetzen.
+Ansatz für Partialbruch mit dem rationalen [Polynom](Polynom.md) Gleichsetzen.
 
 $$
 \begin{align}
@@ -59,7 +65,7 @@ $$
 
 $$y(x) =x^{2}+4x+10 = (a) + (b) + (c)$$
 
-Polynom Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer Potenz sortiert:
+[Polynom](Polynom.md) Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer [Potenz](Potenzen.md) sortiert:
 
 $$
 \begin{align}
@@ -69,7 +75,7 @@ $$
 \end{align}
 $$
 
-da jeder Faktor vor einer Potenz in einer Polynomgleichung übereinstimmen muss, lässt sich ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) aufstellen.
+da jeder Faktor vor einer [Potenz](Potenzen.md) in einer Polynomgleichung übereinstimmen muss, lässt sich ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) aufstellen.
 
 $$
 \begin{align}
@@ -80,7 +86,7 @@ x:\quad &4=6A-2B-4C\\
 \end{align}
 $$
 
-Das [LGS](Lineare%20Gleichungssysteme.md) lässt sich als Matrix anschreiben:
+Das [LGS](Lineare%20Gleichungssysteme.md) lässt sich als [Matrix](Matrix.md) anschreiben:
 
 $$
 \begin{pmatrix}
