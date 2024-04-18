@@ -48,7 +48,7 @@ cited:
 > die zu $(f, Z, \sigma)$ gehörige Riemannsche Summe (Zwischensumme).
 > $f$ heißt Riemann-integrierbar ( $\mathrm{R}$-integrierbar), wenn:
 > > [!tldr]- $\exists A \in \mathbb{R} \forall \varepsilon>0 \exists \delta>0 \forall Z:(|Z|<\delta \Longrightarrow \forall \sigma:|S(f, Z, \sigma)-A|<\varepsilon)$
-> > Wenn es eine Zahl $A$ aus $\mathbb{R}$ ein $\varepsilon > 0$ und eine $\delta>0$ gibt, sodass für alle Zerlegungen in $Z$ gilt wenn die Feinheit kleiner ist als $\delta$, gilt für alle Zwischenpunkte $\sigma$ die Differenz der Riemann-Summe und der Zahl $A$ kleiner als $\varepsilon$
+> > Wenn es eine Zahl $A$ aus $\mathbb{R}$ ein $\varepsilon > 0$ und eine $\delta>0$ gibt, sodass für alle Zerlegungen $Z$ gilt wenn die Feinheit kleiner ist als $\delta$, gilt für alle Zwischenpunkte $\sigma$ die Differenz der Riemann-Summe und der Zahl $A$ kleiner als $\varepsilon$
 > 
 > Dabei handelt es sich bei $Z$ und $\sigma$ um Zerlegungen von $I$ bzw. Systeme von Zwischenpunkten zu $Z$.
 
@@ -58,4 +58,9 @@ cited:
 > 
 > Ist $n=1$ und $I=[a, b]$, so schreiben wir statt $\int_I f d x$ auch $\int_a^b f d x$ und definieren:
 > $$ \int_b^a f d x:=-\int_a^b f d x $$
+
+| ![invert_dark\|400](ZerlegungR2.png) |   ![invert_dark\|400](RiemannSum.png)   | 
+|:------------------------------------:|:---------------------------------------:|
+|  Zerlegung $Z$ in $\mathbb{R}^{2}$   | Visualisierung einer Riemannschen Summe |
+
  

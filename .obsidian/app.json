@@ -18,7 +18,7 @@
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
   "vimMode": false,
-  "useMarkdownLinks": false,
+  "useMarkdownLinks": true,
   "newLinkFormat": "shortest",
   "showInlineTitle": false,
   "showIndentGuide": true,
