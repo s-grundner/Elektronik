@@ -12,7 +12,7 @@ cited:
 ---
  
 
-# Hauptsatz der inversen Funktionen
+# Hauptsatz über inverse Funktionen
 
 $$
 f(x,y) = \begin{bmatrix}
@@ -38,3 +38,11 @@ f&: \mathbb{R}^{n}\to \mathbb{R}^{m}\implies \frac{ \partial f }{ \partial x } \
 \end{bmatrix}
 \end{align}
 $$
+
+- [Jacobi-Matrix](Gradient.md)
+- [Determinante](Determinante.md) der Jacobi-Matrix
+- Ist matrix überall regulär (außer 0,0)?
+  - Ja $\to$ Funktion ist Lokal invertierbar
+- Ist die Funktion bijektiv?
+  - Ja $\to$ Funktion ist Global invertierbar
+- Sonst nicht invertierbar
