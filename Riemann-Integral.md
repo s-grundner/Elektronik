@@ -54,10 +54,10 @@ cited:
 
 > [!important] Riemann-Integral
 > Die Zahl $A$ heißt (bestimmtes, Riemann-)Integral von $f$ über $I$, Symbole:
-> $$ \int_I f d x \text { oder } \int_I f(x) d x \text { oder } \int_I f\left(x_1, \ldots, x_n\right) d\left(x_1, \ldots, x_n\right) $$
+> $$ \int_I f \,dx \text { oder } \int_I f(x) \,dx \text { oder } \int_I f\left(x_1, \ldots, x_n\right) \,d\left(x_1, \ldots, x_n\right) $$
 > 
 > Ist $n=1$ und $I=[a, b]$, so schreiben wir statt $\int_I f d x$ auch $\int_a^b f d x$ und definieren:
-> $$ \int_b^a f d x:=-\int_a^b f d x $$
+> $$ \int_b^a f\,dx:=-\int_a^b f \,dx $$
 
 | ![invert_dark\|400](ZerlegungR2.png) |   ![invert_dark\|400](RiemannSum.png)   | 
 |:------------------------------------:|:---------------------------------------:|

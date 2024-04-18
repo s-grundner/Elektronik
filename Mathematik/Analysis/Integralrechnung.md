@@ -13,6 +13,9 @@ created: 26th March 2022
 > [!INFO] Ermittlung der Stammfunktion  
 > $F(x) = \int f(x) \, dx$
 
+- Trigonometrische Substitution
+- Integrieren von rationalen Polynomen $\to$ anwendung der [Partialbruchzerlegung](Partialbruchzerlegung.md)
+
 ### Integration durch Substitution
 
 ### Nichtlineare Substitution
@@ -21,10 +24,9 @@ created: 26th March 2022
 
 ## Bestimmtes Integral
 
-### Substitution bei bestimmten Integralen
+- [Riemann-Integral](Riemann-Integral.md)
 
 ---
 
 # Tags
 
-[Partialbruchzerlegung](Partialbruchzerlegung.md) 
