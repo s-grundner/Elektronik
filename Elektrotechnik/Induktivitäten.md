@@ -3,6 +3,7 @@ tags:
 aliases:
   - Spule
   - Spulen
+  - Induktivität
 subject:
   - hwe
 source:
@@ -13,23 +14,15 @@ created: 8th April 2022
 
 # Induktivitäten
 
-## Schaltzeichen
+## Schaltsymbol
 
-| Symbol        | ESB |
-| ------------- | --- |
-| ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png)    |
+| Symbol                   | ESB                              |
+| ------------------------ | -------------------------------- |
+| ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png) |
+## Kenngrößen der Induktivität
+### Strom-Spannungsbeziehung
 
 ## Induktivitäten Als Bauelemente Leistungselektronischen Schaltungen
-
-Unter **Vernachlässigung** von **$R_{L}$** und der **parasitären Parallelkapazität $C_{L}$**, gilt für lineare Materialien der folgende Zusammenhang der die Spannung an der Induktivität beschreibt:
-
-$$
-\begin{align*}
-	u_{L} = L\cdot \frac{di}{dt}
-\end{align*}
-$$
-$$i(t)=i\left(t_0\right)+\frac{1}{L} \int_{t_0}^t u(\tau) \mathrm{d} \tau$$
-
 
 Die **Energie** die in einer **Induktivität** gespeichert werden kann ergibt sich aus:
 
