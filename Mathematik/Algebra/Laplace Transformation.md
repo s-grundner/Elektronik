@@ -8,7 +8,7 @@ created: 26th April 2022
 
 # Laplace Transformation - Multiplizieren Statt [Differenzieren](Differenzialrechnung.md)
 
-- Bei Einschaltvorgängen interessiert uns nur, was nach dem Einschalten $(t=0)$ passiert.
+- Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
 Ist eine Funktion auf
