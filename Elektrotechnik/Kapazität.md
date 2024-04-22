@@ -1,14 +1,20 @@
 ---
-tags: 
+tags:
+  - Baugruppen/Komponente
 aliases:
   - Kondensator
   - Kapazitäten
+keywords:
 subject:
-  - hwe
-source:
+  - VL
+  - Einf. ET
+semester: WS23
+created: 11th April 2023
+professor:
   - Michael Offenhuber
   - Siegbert Schrempf
-created: 11th April 2023
+  - Bernhard Jakoby
+cited: 
 ---
 
 # Der Kondensator - ein Ladungsspeicher

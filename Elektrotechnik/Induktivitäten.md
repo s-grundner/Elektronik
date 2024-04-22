@@ -1,16 +1,21 @@
 ---
-tags: 
+tags:
+  - Baugruppen/Komponente
 aliases:
   - Spule
   - Spulen
   - Induktivität
+keywords: 
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
-  - Michael Offenhuber
+  - VL
+  - Elektrotechnik
+semester: WS23
 created: 8th April 2022
+professor:
+  - Bernhard Jakoby
+cited:
 ---
+ 
 
 # Induktivitäten
 
@@ -19,10 +24,12 @@ created: 8th April 2022
 | Symbol                   | ESB                              |
 | ------------------------ | -------------------------------- |
 | ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png) |
+
 ## Kenngrößen der Induktivität
+
 ### Strom-Spannungsbeziehung
 
-## Induktivitäten Als Bauelemente Leistungselektronischen Schaltungen
+### Energie in der Spule
 
 Die **Energie** die in einer **Induktivität** gespeichert werden kann ergibt sich aus:
 
