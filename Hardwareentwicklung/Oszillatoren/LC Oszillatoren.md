@@ -170,7 +170,8 @@ Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
 # Typen
 
-[Colpitts Oszillator](Colpitts%20Oszillator.md)
+- [Colpitts Oszillator](Colpitts%20Oszillator.md)
+- [Wien-Brücke](Wien-Brücke%20Oszillator.md) Oszillator
 
 # Quellen
 
