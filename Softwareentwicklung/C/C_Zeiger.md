@@ -279,3 +279,10 @@ Ausgabe:
 3 hoch 3: 27
 ```
 
+# Interessante Ausdrücke 🤔
+
+> [!example] `int (*x())[20];`
+> `x` ist eine Funktion die einen Zeiger auf ein Array mit 20 Integern zurück gibt.#
+
+> [!example] `int (*(*x)[])();`
+> Pointer auf ein Array aus Pointer auf Funktionen (Funktions-Pointer), welche einen integer retournieren
