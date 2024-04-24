@@ -4,7 +4,7 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 12 Collections
+# Collections
 
 Collections sind Sammlungen. Sie sind geeignet Mengen von Daten aufzunehmen. Das kann eigentlich schon mit Hilfe von Feldern gemacht werden. Die haben allerdings einen gravierenden Nachteil: die Größe kann während der Laufzeit nicht verändert werden. Neben diesem großen Unterschied gibt es in Java sehr viele unterschiedliche Collection-Typen. Wir werden uns nur mit einer Art beschäftigen - den ArrayLists (der Unterschied der vielen Collection-Typen wird dann relevant wenn richtig viele Daten verarbeitet werden. Dann sind z.B. einige Typen schneller). Sie gehört zu den Listen.
 
@@ -35,9 +35,9 @@ Soll der Typ strikt vorgegeben werden, so kann das in spitzen Klammern erfolgen:
 ArrayList<String> alStr = new ArrayList<String>();
 ```
 
-Für diese ArrayList führt das Einfügen eines Integers zu einem Fehler. Wenn Listen nur für einen Typen verwendet werden sollen, dann ist es Sinnvoll das auch anzugeben. Primitive Datentypen können nicht direkt angeführt werden, für diese Zwecke gibt's Wrapper-Klassen, also ArrayList\<Integer\> an Stelle von ArrayList\<int\>.
+Für diese `ArrayList` führt das Einfügen eines Integers zu einem Fehler. Wenn Listen nur für einen Typen verwendet werden sollen, dann ist es Sinnvoll das auch anzugeben. Primitive Datentypen können nicht direkt angeführt werden, für diese Zwecke gibt's Wrapper-Klassen, also `ArrayList<Integer>` an Stelle von `ArrayList<int>`.
 
-Wieviele Elemente in einer ArrayList abgelegt sind kann mit Hilfe der size-Methode ermittelt werden (wie für Felder mit der length-Eigenschaft):
+Wie viele Elemente in einer `ArrayList` abgelegt sind kann mit Hilfe der `size`-Methode ermittelt werden (wie für Felder mit der `length`-Eigenschaft):
 
 ```java
 int anzElemente al.size(); 	// liefert für obiges Beispiel 4

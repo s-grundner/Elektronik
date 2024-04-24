@@ -1,14 +1,16 @@
 ---
-tags: ["Java"]
-aliases: []
+tags:
+  - Java
+  - OS
+aliases: 
 created: 29th November 2022
 ---
 
-# 13 Prozesse / Threads
+# Prozesse / Threads
 
 Das Java-Programm welches auf dem Rechner läuft, wird als **Prozess** bezeichnet. Ein Prozess erhält einen eigenen Speicherbereich in dem kein weiterer auf dem Rechner laufender Prozess Zugriff hat. Das wird vom [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) sichergestellt. Weiters teilt das [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) den Prozessen Rechnerzeit zu.
 
-Innerhalb eines Prozesses (unser Java-Programm) läuft im einfachsten Fall ein einzelner Ablauf ab. Dieser Ablauf wird als **Thread** bezeichnet. In einem Prozess können aber auch mehrere Threads parallel ablaufen. Diese teilen sich dann den gemeinsamen Speicher (Adressraum) des Prozesses. Wirklich parallel (gleichzeitig) können die Threads natürlich nur laufen wenn mehrere Rechnerkerne verfügbar sind, ansonsten laufen sie quasiparallel, d.h. es wird ständig zwischen ihnen "hinund hergeschaltet". Durch eine gute Organisation bzw. eine entsprechend leistungsstarke Umgebung merkt der Anwender im Idealfall nichts davon. Die parallelen Threads können entweder durch das [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) organisiert werden oder durch die JVM (je nach Anforderung).
+Innerhalb eines Prozesses (unser Java-Programm) läuft im einfachsten Fall ein einzelner Ablauf ab. Dieser Ablauf wird als **Thread** bezeichnet. In einem Prozess können aber auch mehrere Threads parallel ablaufen. Diese teilen sich dann den gemeinsamen Speicher (Adressraum) des Prozesses. Wirklich parallel (gleichzeitig) können die Threads natürlich nur laufen wenn mehrere Rechnerkerne verfügbar sind, ansonsten laufen sie quasiparallel, d.h. es wird ständig zwischen ihnen "hin und hergeschalten". Durch eine gute Organisation bzw. eine entsprechend leistungsstarke Umgebung merkt der Anwender im Idealfall nichts davon. Die parallelen Threads können entweder durch das [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) organisiert werden oder durch die JVM (je nach Anforderung).
 
 ## Thread-Klasse
 
@@ -49,6 +51,7 @@ Mit der Methode `interrupt()` kann in einem Thread ein Interrupt-Flag gesetzt we
   }
 }
 ```
+
 ###Thread Methoden
 
 Für Thread-Objekte gibt es folgende Instanzmethoden:

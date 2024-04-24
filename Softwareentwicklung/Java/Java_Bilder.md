@@ -4,11 +4,11 @@ aliases: []
 created: 29th November 2022
 ---
 
-# 15 Bilder
+# Bilder
 
 ## Fenster Erzeugen
 
-Um Bilder in einem Fenster darzustellen wird ein JFrame und JPanel benötigt:
+Um Bilder in einem Fenster darzustellen wird ein `JFrame` und `JPanel` benötigt:
 
 ```java
 public class MyPanel extends JPanel {

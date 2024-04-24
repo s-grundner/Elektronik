@@ -23,7 +23,7 @@ Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten 
 
 > [!error] Nachteil gegenüber Arrays
 > Listenknoten sind nicht indexiert, man muss also durch die gesamte Liste iterieren um ein Element zu finden.
-> - Lösung in Java ist die `ArrayList<T>` (siehe [[Generics]]) welche für jedes Element einen Index mitführt.
+> - Lösung in [Java]({MOC}%20Java.md) ist die `ArrayList<T>` (siehe [[Generics]]) welche für jedes Element einen Index mitführt.
 > 
 > Brauchen mehr Speicherplatz
 
@@ -31,6 +31,9 @@ Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten 
 
 - [[Lineare Liste]]
 - [[Ringliste]]
+- Doppelt Verkettete Liste
+- [LIFO](LIFO%20Stack.md)
+- [FIFO](FIFO%20Queue.md) 
 
 ## Listenknoten
 
@@ -46,7 +49,7 @@ Da diese Art der Liste nur in eine Richtung durchgangen werden kann, wird sie al
 
 Diese Liste kann in beide Richtungen durchgangen werden. Sie haben allerdings einen höheren Speicherbedarf.
 
-**Listen-Knoten in C**
+### Listen-Knoten in C
 
 Für die obige einfach verkettete Liste kann ein Knoten in C die folgende Struktur haben:
 
@@ -84,7 +87,7 @@ Anstatt sich das erste Listenelement zu merken, wird häufig ein **Listenkopf** 
 
 ![invert_dark](assets/EinfList04.png)
 
-1. Einfaches Löschen von Knoten am Beginn/Ende in der Mitte der Liste. Der Zeiger des vorhergehenden Knotens wird angepasst, dann wird (ein Zeiger auf) das Element freigegeben (free):
+1. Einfaches Löschen von Knoten am Beginn/Ende in der Mitte der Liste. Der Zeiger des vorhergehenden Knotens wird angepasst, dann wird (ein Zeiger auf) das Element freigegeben (`free`):
 
 ![invert_dark](assets/EinfList05.png)
 
@@ -92,7 +95,7 @@ Anstatt sich das erste Listenelement zu merken, wird häufig ein **Listenkopf** 
 
 ![invert_dark](assets/EinfList06.png)
 
-Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil viele Elemente umkopiert werden. Hier werden lediglich einzelne, wenige Pointer angepasst.
+Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil viele Elemente umkopiert werden. Hier werden lediglich einzelne, wenige [Pointer](C_Zeiger.md) angepasst.
 
 ## Traversieren
 
@@ -105,3 +108,7 @@ Mit Traversieren ist das Durchlaufen von Listen oder ähnlichen Strukturen gemei
 - Dieser Vorgang kann solange wiederholt werden, bis die Anzahl der Elemente `hdr.size` durchlaufen wurde, bis `ptr` auf `NULL` verschoben wird oder bis `ptr` auf `hdr.last` verschoben wird.
 
 In einer doppelt verketteten Liste kann entsprechend auch in die entgegengesetzte Richtung verschoben werden.
+
+# Quellen
+
+- [Data Structures: Linked Lists - YouTube](https://www.youtube.com/watch?v=njTh_OwMljA)
