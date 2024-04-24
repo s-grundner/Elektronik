@@ -15,3 +15,5 @@ complexity: $\mathcal{O}(n)$
  
 
 # Hornerschema
+
+> [!info] Complexity: `$=dv.current().complexity`

@@ -2,13 +2,16 @@
 tags:
   - Algorithmus/Suchen
 aliases: 
-subject: []
+subject: 
 source:
   - ""
 created: 17th April 2022
+complexity: $\mathcal{O}(n)$
 ---
 
 # Linear Search
+
+> [!info] Complexity: `$=dv.current().complexity`
 
 ## [Python](../Python.md) Code
 

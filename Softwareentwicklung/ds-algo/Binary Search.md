@@ -12,6 +12,8 @@ complexity: $\mathcal{O}(\log(n))$
 
 # Binary Search
 
+> [!info] Complexity: `$=dv.current().complexity`
+
 Effizienter kann in einem bereits sortierten Feld mittels **Binärer Suche** gesucht werden:
 
 - Vergleich des Schlüssels mit dem Element in der Mitte der Liste. Wenn Gleichheit: Ende der Suche - Element gefunden

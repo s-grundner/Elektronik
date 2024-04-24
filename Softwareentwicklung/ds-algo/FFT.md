@@ -13,6 +13,8 @@ complexity: $\mathcal{O}(n\cdot\log(n))$
 
 # Fast Fourier Transform
 
+> [!info] Complexity: `$=dv.current().complexity`
+
 > [!HINT] FFT <=> [DFT](DFT.md)
 > Eigentlich handelt es sich beim FFT-Algorithmus nur um eine Möglichkeit die [DFT](DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
 > Wiederentdeckung deshalb, weil Carl Friedrich Gauß den Algorithmus in seiner ersten Form bereits 1805 entdeckte und verwendete, diese aber nie publizierte.

@@ -13,3 +13,5 @@ complexity: $\mathcal{O}(n^{3})$
  
 
 # Matrixmultiplikation
+
+> [!info] Complexity: `$=dv.current().complexity`

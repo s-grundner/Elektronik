@@ -29,7 +29,7 @@ professor:
 ```dataview
 TABLE complexity
 FROM #Algorithmus/Mathe
-
+SORT file.name ASC
 ```
 
 ## 2 Informatik / Digitaltechnik

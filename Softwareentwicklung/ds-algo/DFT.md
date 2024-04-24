@@ -18,6 +18,8 @@ complexity: $\mathcal{O}(n^{2})$
 
 # Diskrete [Fourier Transformation](Fourier%20Transformation.md)
 
+> [!info] Complexity: `$=dv.current().complexity`
+
 > [!INFO]  
 > Tatsächlich handelt es sich bei der Diskreten [Fourier Transformation](Fourier%20Transformation.md) (DFT) um eine Annäherung der [Fourier Transformation](Fourier%20Transformation.md), welche es ermöglicht sie effizient von einem digitalen Rechner berechnen zu lassen.  
 Hierbei wird die Formel für die [Fouriertransformierte](Fourier%20Transformation.md#Fouriertransformierte) als Ausgangspunkt genutzt.

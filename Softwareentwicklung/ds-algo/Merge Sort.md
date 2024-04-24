@@ -1,10 +1,15 @@
 ---
-tags: ["Algorithmus/Sortieren", "Algorithmus"]
-aliases: ["Merge-Sort"]
+tags:
+  - Algorithmus/Sortieren
+aliases:
+  - Merge-Sort
 created: 19th August 2023
+complexity: $\mathcal{O}(n\cdot\log(n))$
 ---
 
 # Merge Sort
+
+> [!info] Complexity: `$=dv.current().complexity`
 
 - Zerteilen eines Feldes x[0] .. x[n-1] in zwei Teilfelder x[0] .. x[m-1] und x[m] .. x[n-1].
 - Die Teilfelder werden sortiert → y[0] .. y[m-1] und z[0] .. z[n-m-1].
