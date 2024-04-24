@@ -38,15 +38,3 @@ AND !contains(file.name, "{NOTES}")
 AND !contains(file.folder, "Rubbish")
 SORT file.cday ASC
 ```
-
-## Sonstiges
-
-```dataview
-TABLE keywords, subject, file.cday AS "creation date"
-WHERE contains(subject, "<%* tR += lva _%>")
-AND !(contains(subject, "UE") OR contains(subject, "VL"))
-AND !contains(file.name, "jku_header")
-AND !contains(file.name, "{NOTES}")
-AND !contains(file.folder, "Rubbish")
-SORT file.cday ASC
-```
