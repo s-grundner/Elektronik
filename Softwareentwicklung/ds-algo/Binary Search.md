@@ -4,11 +4,10 @@ tags:
   - Algorithmus/Suchen
 aliases:
   - Binäre Suche
-subject:
-  - ""
-source:
-  - ""
+subject: 
+source: 
 created: 18th April 2022
+complexity: $\mathcal{O}(\log(n))$
 ---
 
 # Binary Search
@@ -16,11 +15,11 @@ created: 18th April 2022
 Effizienter kann in einem bereits sortierten Feld mittels **Binärer Suche** gesucht werden:
 
 - Vergleich des Schlüssels mit dem Element in der Mitte der Liste. Wenn Gleichheit: Ende der Suche - Element gefunden
-- Falls der Schlüssel größer als der Wert des Elements in der Mitte ist: Wiederholen des Algorithmus mit der linken Feld-Hälfte
-- Falls der Schlüssel kleiner als der Wert des Elements in der Mitte ist: Wiederholen des Algorithmus mit der rechten Feld-Hälfte
+- Falls der Schlüssel größer als der Wert des Elements in der Mitte ist: Wiederholen des [Algorithmus]({MOC}%20Algorithmus.md) mit der linken Feld-Hälfte
+- Falls der Schlüssel kleiner als der Wert des Elements in der Mitte ist: Wiederholen des [Algorithmus]({MOC}%20Algorithmus.md) mit der rechten Feld-Hälfte
 - Wenn das zu durchsuchende Feld kein Element mehr beinhaltet: Ende der Suche - Element nicht vorhanden.
 
-Dieser Algorithmus lässt sich sehr einfach [rekursiv](Rekursion.md) lösen. Im Ungünstigsten Fall benötigt die Binäre Suche `O(log(n))` Vergleiche.
+Dieser [Algorithmus]({MOC}%20Algorithmus.md) lässt sich sehr einfach [rekursiv](Rekursion.md) lösen. Im Ungünstigsten Fall benötigt die Binäre Suche `O(log(n))` Vergleiche.
 
 ```c
 /*
@@ -39,7 +38,7 @@ int binsearch(int a[], int left, int right, int key) {
 }
 ```
 
-Dieser Algorithmus kann noch verbessert werden: wenn wir im Telefonbuch suchen, dann beginnen wir wenn wir nach einem Namen suchen der mit Z beginnt wesentlich weiter hinten, als wenn wir nach einem Namen suchen der mit einem B beginnt. Man kann die Position eines Suchworts mittels Interpolation abschätzen und dort zu suchen beginnen. Diese Art der Suche wird dann als **Interpolationssuche** bezeichnet.
+Dieser [Algorithmus]({MOC}%20Algorithmus.md) kann noch verbessert werden: wenn wir im Telefonbuch suchen, dann beginnen wir wenn wir nach einem Namen suchen der mit Z beginnt wesentlich weiter hinten, als wenn wir nach einem Namen suchen der mit einem B beginnt. Man kann die Position eines Suchworts mittels Interpolation abschätzen und dort zu suchen beginnen. Diese Art der Suche wird dann als **Interpolationssuche** bezeichnet.
 
 ## [Python](../Python.md)
 
@@ -50,7 +49,7 @@ def binary_search(list, target):
 	
 	while first <= last:
 		midpoint = (first + last) // 2
-		
+
 		if list[midpoint] == target:
 			return midpoint
 			
@@ -59,7 +58,7 @@ def binary_search(list, target):
 			
 		else:
 			last = midpoint - 1
-	
+
 	return None
 ~~~
 
