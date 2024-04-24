@@ -1,6 +1,10 @@
 ---
-tags: ["C", "Pointer", "Heap"]
-aliases: []
+tags:
+  - C
+  - Pointer
+  - Heap
+aliases:
+  - Pointer
 created: 29th November 2022
 ---
 

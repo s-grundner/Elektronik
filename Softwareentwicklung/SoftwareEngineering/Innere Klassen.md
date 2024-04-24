@@ -14,8 +14,8 @@ cited:
 
 # Innere Klassen
 
-
 >[!example]
+
 ```Java
 
 ```
