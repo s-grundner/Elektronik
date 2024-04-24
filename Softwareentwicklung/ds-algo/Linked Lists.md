@@ -29,7 +29,9 @@ Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten 
 
 ## Listentypen
 
+- [[Lineare Liste]]
 
+## Listenknoten
 
 Die Elemente so einer Liste werden als **Knoten** bezeichnet. Für das Speichern von drei einfachen Nummern sieht das so aus:
 
