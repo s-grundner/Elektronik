@@ -13,7 +13,7 @@ source:
   - Laurenz Hölzl
   - Daniel Ch. v. Grüningen
 cited: true
-complexity:
+complexity: $\mathcal{O}(n^{2})$
 ---
 
 # Diskrete [Fourier Transformation](Fourier%20Transformation.md)
