@@ -21,15 +21,15 @@ Elemente werden zur Laufzeit (dynamisch) angelegt (`new, malloc()`)
 
 | ![](Pasted%20image%2020240424104819.png) | ![](Pasted%20image%2020240424104823.png) | ![](Pasted%20image%2020240424104827.png) |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| Liste                                    | [Baum](Tree.md)                          | Graph                                    |
-| - Linear                                 |                                          |                                          |
+| [Linked List](Linked%20Lists.md)                                    | [Baum](Tree.md)                          | Graph                                    |
+| - Linear                                 | - Binär                                         |                                          |
+| - doppelt verkettet                      |                                          |                                          |
 | - Ringliste                              |                                          |                                          |
-| - einfach verkettet                      |                                          |                                          |
-| -                                          |                                          |                                          |
 
 Bestehen aus *Knoten* (dynamische Objekte) die über *Kanten* (Zeiger / Pointer) verbunden sind.
 
 ```dataview
 LIST FROM #DS
 WHERE !contains(tags, "MOC") 
+SORT file.name ASC
 ```

@@ -28,7 +28,7 @@ cited:
 
 ### Sortierte Liste
 
-```java title:"Einfügen"
+```Java title:"Einfügen"
 void insert (int val) {
   Node p = head;
   Node prev = null;

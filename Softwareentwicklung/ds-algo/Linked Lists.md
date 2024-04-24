@@ -53,7 +53,7 @@ Diese Liste kann in beide Richtungen durchgangen werden. Sie haben allerdings ei
 
 Für die obige einfach verkettete Liste kann ein Knoten in C die folgende Struktur haben:
 
-```c
+```c title:"singly linked list"
 struct SNODE {
     int num;             // zu Speichernde Nummer
     struct SNODE *next;  // Zeiger auf genau so ein Knoten-Element
@@ -64,7 +64,7 @@ typedef struct SNODE TNODE;
 
 Für die doppelt verkettete Liste entsprechend:
 
-```c
+```c title:"doubly linked list"
 struct SNODE {
     struct SNODE *prev; // Zeiger auf ein Knoten-Element (VorgaengerKnoten)
     int num;            // zu Speichernde Nummer
