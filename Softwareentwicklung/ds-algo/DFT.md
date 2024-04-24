@@ -2,6 +2,7 @@
 tags:
   - HTL-Diplomarbeit
   - incomplete
+  - Algorithmus/Informatik
 aliases:
   - Diskrete Fourier Transformation
   - IDFT
@@ -12,6 +13,7 @@ source:
   - Laurenz Hölzl
   - Daniel Ch. v. Grüningen
 cited: true
+complexity:
 ---
 
 # Diskrete [Fourier Transformation](Fourier%20Transformation.md)
