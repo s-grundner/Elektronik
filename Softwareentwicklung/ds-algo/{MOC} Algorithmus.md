@@ -37,6 +37,7 @@ FROM #Algorithmus/Mathe
 ```dataview
 TABLE complexity
 FROM #Algorithmus/Informatik 
+SORT file.name ASC
 ```
 
 ## 3 Elektrotechnik
