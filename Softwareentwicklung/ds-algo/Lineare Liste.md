@@ -15,6 +15,9 @@ cited:
 
 # Lineare [Liste](Linked%20Lists.md)
 
+> [!question] Rick Rabiser
+> Laut seiner Erfahrung lohnt es sich nicht eine Liste zu sortieren. Man findet die zufällig angeordneten Elemente im durch schnitt genauso schnell. 
+
 ## Listen Operationen
 
 - Löschen
@@ -23,7 +26,7 @@ cited:
 
 ### Unsortierte Liste
 
-###  Sortierte Liste
+### Sortierte Liste
 
 ```java title:"Einfügen"
 void insert (int val) {
@@ -38,11 +41,10 @@ void insert (int val) {
   // val not found
   // found: (p != null) && (p.val == val)
   Node q = new Node(val) q.next = p
-    if (p == head)
-      head = q
-    else prev.next = q
-    }
+    if (p == head) head = q;
+    else prev.next = q;
   }
+}
 ```
 
 ```java title:"Löschen"

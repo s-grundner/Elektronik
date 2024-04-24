@@ -4,8 +4,9 @@ tags:
 aliases:
   - Stack
   - LIFO
-subject: []
-source: []
+  - Kellerspeicher
+subject: 
+source: 
 created: 20th April 2022
 ---
 
@@ -25,3 +26,5 @@ class GeneralStack {
 	}
 }
 ```
+
+## Stack als dynamische Datenstruktur

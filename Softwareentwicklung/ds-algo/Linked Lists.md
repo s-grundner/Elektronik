@@ -30,6 +30,7 @@ Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten 
 ## Listentypen
 
 - [[Lineare Liste]]
+- [[Ringliste]]
 
 ## Listenknoten
 
