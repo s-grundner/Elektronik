@@ -58,7 +58,7 @@ class List {
 
 #### Suchen
 
-```Java title:"Suchen eines Schlüssels val
+```Java title:"Suchen eines Knoten mit dem Schlüsse6l val"
 Node search (int val) {
   Node p = head;
   while (p != null && p.val != val) p = p.next
@@ -84,19 +84,21 @@ Node remove() {
 Node delete (int val) {
   Node p = head;
   Node prev = null;
-  while (p!=null && p.val!=val) {
+  while (p != null && p.val != val) {
     prev = p;
     p = p.next;
   }
   // Assertion: p == null || p.val == val
   if (p != null) { // p.val == val
-  if (p == head)
-    head = head.next;
-  else // prev.next == p
-  prev.next = p.next;
+    if (p == head)
+      head = head.next;
+    else // prev.next == p
+      prev.next = p.next;
   
-  p.next = null;
-} return p;
+    p.next = null;
+  }
+  return p;
+}
 ```
 
 ### Sortierte Liste
