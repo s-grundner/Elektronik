@@ -10,8 +10,8 @@ tp.file.rename("UE" + nr)
 ---
 
 🔎 [Aufgaben Sammlung](Aufgabensammlung.pdf)
-📝 [Angabe](./Angaben/Uebungsblatt<%* tR += nr%>.pdf)
-✅ [Lösung](./Loesungen/UE<%* tR += nr%>-k12136610.pdf)
+📝 [Angabe](Angaben/Uebungsblatt<%* tR += nr%>.pdf)
+✅ [Lösung](Loesungen/UE<%* tR += nr%>-k12136610.pdf)
 
 ---
 
