@@ -11,10 +11,7 @@ tp.file.rename("UE" + nr)
 
 ---
 
-📝 [Angabe](./<%* tR += folder%>/Angabe/Übung<%* tR += nr%>.pdf)
-✅ [Lösung](./<%* tR += folder%>/Abgabe/UE<%* tR += nr%>_k12136610.pdf)
+📝 [Angabe](<%* tR += folder%>/Angabe/Übung<%* tR += nr%>.pdf)
+✅ [Lösung](<%* tR += folder%>/Abgabe/UE<%* tR += nr%>_k12136610.pdf)
 
 ---
-
-<%tp.file.cursor(20)%>
-

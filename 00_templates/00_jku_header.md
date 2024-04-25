@@ -11,5 +11,3 @@ professor:
 cited:
 ---
  
-
-<%tp.file.cursor(11)%>
