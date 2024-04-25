@@ -1,5 +1,8 @@
-<%* let nr = await tp.system.prompt("Übungsnummer","",true) %>
-<%* let topic = await tp.system.prompt("Thema","[Ordnername]",true)%>
+<%*
+let nr = await tp.system.prompt("Übungsnummer","",true) 
+let topic = await tp.system.prompt("Thema","[Ordnername]",true)
+let folder = "UE"+ nr + "_" + topic
+%>
 
 # UE<%* tR += nr%>
 
@@ -7,8 +10,8 @@
 
 ---
 
-📝 [Angabe]("UE<%* tR += nr%>_<%* tR += Thema%>/Angabe/")
-✅ [Lösung]("")
+📝 [Angabe](<%* tR += folder%>/Angabe/Übung<%* tR += nr%>.pdf)
+✅ [Lösung](<%* tR += folder%>/Abgabe/UE<%* tR += nr%>_k12136610.pdf)
 
 ---
 
