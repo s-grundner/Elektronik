@@ -1,9 +1,6 @@
 ---
-banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
----
----
 tags: DailyNotes
-created: 2023-10-16 08:37
+created: <% tp.file.creation_date("Do MMMM YYYY")%>
 banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 ---
 
@@ -13,12 +10,12 @@ banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 
 ---
 
-# 🚩 Weekly Goals
+## 🚩 Weekly Goals
 
 ---
 
-# 🛒 Einkaufen
+## 🛒 Einkaufen
 
-# 🍎Mampfen
+## 🍎Mampfen
 
 ---

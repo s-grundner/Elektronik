@@ -11,7 +11,7 @@ async function ws23(tp) {
 }
 
 async function ss24(tp) {
-	const lva = ["Mathematik 2", "Elektrotechnik", "Softwareentwicklung 2", "Algorithmen und Datenstrukturen", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"];
+	const lva = ["Mathematik 2", "Elektrotechnik", "Algorithmen und Datenstrukturen", "Softwareentwicklung 2", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
