@@ -12,6 +12,4 @@ cited:
 ---
  
 
-# <%tp.file.title%>
-
 <%tp.file.cursor(11)%>

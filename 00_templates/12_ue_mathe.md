@@ -1,4 +1,7 @@
-<%* let nr = await tp.system.prompt("Übungsnummer","",true) %>
+<%*
+let nr = await tp.system.prompt("Übungsnummer","",true)
+tp.file.rename("UE" + nr
+%>
 
 # UE<%* tR += nr%>
 
