@@ -13,11 +13,12 @@ keywords:
   - Tautologie
   - Kontradiktion
 subject:
-  - Mathematik1
-  - "357.100"
-semester: 1
+  - VL
+  - Mathematik 1
+semester: WS23
 created: 26. September 2023
-professor: Andreas Neubauer
+professor:
+  - Andreas Neubauer
 ref:
   - Def 1.1.
   - Def 1.4.

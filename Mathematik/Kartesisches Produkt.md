@@ -4,11 +4,11 @@ tags:
   - Mathe
 aliases:
   - Tupel
-keywords: []
+keywords:
 subject:
-  - Mathematik1
-  - "357.100"
-semester: 1
+  - Mathematik 1
+  - VL
+semester: WS23
 created: 12. Oktober 2023
 professor:
   - Andreas Neubauer

@@ -16,15 +16,12 @@ keywords:
   - einstelliges Prädikat
   - mehrstelliges Prädikat
 subject:
-  - Mathematik1
-  - "357.100"
-semester: 1
+  - Mathematik 1
+  - VL
+semester: WS23
 created: 8. Oktober 2023
-professor: 
-ref:
-  - Def 1.7.
-  - Def 1.9.
-  - Satz 1.10.
+professor:
+  - Andreas Neubauer
 ---
 
 # Prädikate und Quantoren

@@ -22,17 +22,12 @@ keywords:
   - Wahrheitstabelle
   - Klammern
 subject:
-  - Mathematik1
-  - "357.100"
-  - "357.106"
-semester:
-  - WS23
+  - Mathematik 1
+  - VL
+semester: WS23
 created: 26. September 2023
 professor:
   - Andreas Neubauer
-ref:
-  - Def 1.3.
-  - UE01
 ---
  
 
