@@ -6,16 +6,27 @@ created: 19. Januar 2024
 
 # TODO
 
-Elektrotechnische Bauteile bzgl DGL neu strukturieren
+Elektrotechnische Bauteile bzgl [DGL]({MOC}%20DGL.md) neu strukturieren
+- [Filter](Filter.md)
+- [Schaltvorgänge](Schaltvorgänge.md)
+- [Schwingkreise](Schwingkreise.md)
+
+Wrapper Notes für Übungsaufgaben (Template)
+- [x] Mathe
+- [ ] DSAlgo
+- [ ] Elektrotechnik
+- [ ] (software?)
+
+--- 
 
 - [ ] Elektrotechnik Übungsbeispiele in entsprechendes File Eintragen
-	- [ ] Filter
-	- [ ] ZeigerDiagramme / Wechselstromtechnik
-	- [ ] Alte Übungen (wie Kondensator usw)
+	- [ ] [Filter](Filter.md)
+	- [ ] [ZeigerDiagramme](Zeigerdarstellung.md) / [Wechselstromtechnik](Wechselstromtechnik.md)
+	- [x] Alte Übungen (wie [Kondensator](Kapazität.md) usw)
 - [ ] Differentialgleichungs-Einträge Aktualisieren
 	- Besser Hierarchisch unterteilen
-	- zu den verschiedenen Arten von DGL hinführen
-	- im übergeordneten kapitel beschreiben was die art von DGL ausmacht
+	- zu den verschiedenen Arten von [DGL]({MOC}%20DGL.md) hinführen
+	- im übergeordneten kapitel beschreiben was die art von [DGL]({MOC}%20DGL.md) ausmacht
 	- Leichteres suchen von lösungsansätzen
 
 # Quellen Zitieren
