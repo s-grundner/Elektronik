@@ -5,7 +5,7 @@ async function type(tp) {
 }
 
 async function ws23(tp) {
-	const lva = ["Mathematik 1", "Einf. ET", "Softwareentwicklung 1", "Technisch Informatik", "Physik für TechnikerInnen"];
+	const lva = ["Mathematik 1", "Einf. ET", "Softwareentwicklung 1", "Technische Informatik", "Physik für TechnikerInnen"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
