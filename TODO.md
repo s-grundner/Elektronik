@@ -13,7 +13,7 @@ Elektrotechnische Bauteile bzgl [DGL]({MOC}%20DGL.md) neu strukturieren
 
 Wrapper Notes für Übungsaufgaben (Template)
 - [x] Mathe
-- [ ] DSAlgo
+- [x] DSAlgo
 - [ ] Elektrotechnik
 - [ ] (software?)
 
