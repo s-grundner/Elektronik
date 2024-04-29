@@ -59,8 +59,8 @@ cited:
 > Ist $n=1$ und $I=[a, b]$, so schreiben wir statt $\int_I f d x$ auch $\int_a^b f d x$ und definieren:
 > $$ \int_b^a f\,dx:=-\int_a^b f \,dx $$
 
-| ![invert_dark\|400](ZerlegungR2.png) |   ![invert_dark\|400](RiemannSum.png)   | 
+| ![invert_dark\|400](ZerlegungR2.png) | ![invert_dark\|400](RiemannSum.png) | 
 |:------------------------------------:|:---------------------------------------:|
-|  Zerlegung $Z$ in $\mathbb{R}^{2}$   | Visualisierung einer Riemannschen Summe |
+| Zerlegung $Z$ in $\mathbb{R}^{2}$ | Visualisierung einer Riemannschen Summe |
 
  
