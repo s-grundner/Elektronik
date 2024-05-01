@@ -4,9 +4,17 @@ body {
 	--pdf-thumbnail-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 8px transparent;
 }
 
+/* body.theme-dark .pdf-viewer .canvasWrapper,
+body.theme-dark .pdf-thumbnail-view .thumbnailImage {
+	filter: invert(1) hue-rotate(180deg);
+	mix-blend-mode: screen;
+} */
+
+/* Darken instead of inverting */
+
 body.theme-dark .pdf-viewer .canvasWrapper,
 body.theme-dark .pdf-thumbnail-view .thumbnailImage {
-	filter: invert(1) hue-rotate(90deg);
+	filter: brightness(80%);
 	mix-blend-mode: screen;
 }
 
