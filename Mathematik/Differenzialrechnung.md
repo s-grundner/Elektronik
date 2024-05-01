@@ -63,13 +63,13 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Ableitungsregeln
 
-| Summenregel     | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$                                                                |
-| --------------- | -------------------------------------------------------------------------------------------------- |
-| Faktorregel     | <br>$[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>            |
-| Produktregel    | <br>$[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                               |
-| Quotientenregel | <br>$\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br> |
-| Kettenregel     | <br>$(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'$                                                 |
-| Umkehrregel     |                                                                                                    |
+| Summenregel     | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Faktorregel     | $[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>                             |
+| Produktregel    | $[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                                                |
+| Quotientenregel | $\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br>                  |
+| Kettenregel     | $(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'$ <br>folgt aus $\frac{df}{dx} = \frac{df}{dg}\cdot \frac{dg}{dx}$<br> |
+| Umkehrregel     |                                                                                                                     |
 
 ## Sätze und Folgerungen
 
