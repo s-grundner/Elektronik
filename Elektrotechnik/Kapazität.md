@@ -60,7 +60,7 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > $\varepsilon_{r}$ … Relative [Permittivität](Dielektrikum.md) des [Dielektrikums](Dielektrikum.md)
 >   
 
-### [Ladung](elektrisches%20Feld.md) und Kapazität im Kondensator
+### [Ladung](elektrisches%20Feld.md) Und Kapazität im Kondensator
 
 Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20Ladung.md) und Spannung im Kondensator:
 
@@ -75,7 +75,7 @@ $$
 > \end{align}\right\} \implies U \propto Q
 > $$
 
-### [Strom](elektrischer%20Strom.md) und Spannung im Kondensator
+### [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 
 $$
 \begin{gather}
