@@ -29,7 +29,7 @@ professor:
 ```dataview
 TABLE complexity
 FROM #Algorithmus/Mathe
-
+SORT file.name ASC
 ```
 
 ## 2 Informatik / Digitaltechnik
@@ -37,6 +37,7 @@ FROM #Algorithmus/Mathe
 ```dataview
 TABLE complexity
 FROM #Algorithmus/Informatik 
+SORT file.name ASC
 ```
 
 ## 3 Elektrotechnik

@@ -1,10 +1,15 @@
 ---
-tags: ["Algorithmus/Sortieren", "Algorithmus"]
-aliases: ["Bubbel-Sort"]
+tags:
+  - Algorithmus/Sortieren
+aliases:
+  - Bubbel-Sort
 created: 19th August 2023
+complexity: $\mathcal{O}(n^{2})$
 ---
 
 # Bubble Sort
+
+> [!info] Complexity: `$=dv.current().complexity`
 
 Algorithmus zum Aufsteigenden Sortieren:
 

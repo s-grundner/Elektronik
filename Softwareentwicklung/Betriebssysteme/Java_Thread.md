@@ -5,7 +5,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# 2 Os - Threads - Java
+# Os - Threads - Java
 
 Vielfach sollen mehrere Berechnungen parallel/gleichzeitig/quasiparallel Erfolgen. Mit Nebenläufigkeit bezeichnet man die Fähigkeit eines Systems, zwei oder mehr Vorgänge gleichzeitig oder quasi-gleichzeitig ausführen zu können. 
 
@@ -30,7 +30,7 @@ In beiden Fällen wird der nebenläufige Thread-Code, in der überlagerten **Met
 
 Zur **Synchronisation** stellt Java das aus der Betriebssystemtheorie bekannte Konzept des **Monitors** zur Verfügung, das es erlaubt, **kritische** **Abschnitte** innerhalb von Programmblöcken und **Methoden** zu kapseln und so den Zugriff auf gemeinsam benutzte Daten zu koordinieren. 
 
-## Thread-Klasse (701)
+## Thread-Klasse
 
 Um einen neuen Thread zu erzeugen wird eine Klasse von der Thread-Klasse abgeleitet. In dieser Klasse wird die `run()`-Methode überschrieben:
 
@@ -85,7 +85,7 @@ Wird das Hauptprogramm beendet bevor ein nebenläufiger Thread beendet wurde, da
 > - Die `run()`-Funktion wird automatisch nebenläufig gestartet, wenn die `start()`-Funktion aufgerufen wird.
 > - Der so erstellte nebenläufige Thread läuft auch weiter wenn `main()` beendet wird.
 
-## Runnable (702)
+## Runnable
 
 In Java gibt es keine Mehrfach-Ableitung, ist für eine bereits abgeleitete Klasse eine Thread-Funktion notwendig, kann das Interface `Runnable` verwendet werden.
 
@@ -111,7 +111,7 @@ Ansonsten ist das Verhalten zur Ableitung von der Thread-Klasse gleich.
 > - Erzeugt werden muss der Thread mit der `Thread`-Klasse direkt.
 > - Das übrige Verhalten ist gleich wie in der `Thread`-Klasse.
 
-## Thread Abbrechen (703)
+## Thread Abbrechen
 
 Ein Thread kann nur aus dem Thread selber beendet werden. Dazu gibts die folgende Logik:
 
@@ -169,9 +169,9 @@ Das gleiche Verhalten ist notwendig für eine Unterbrechung mittels `join()` ode
 
 > - Abbrechen eines Threads durch Anfordern mittels `interrupt()`.
 > - Prüfen auf Unterbrechung durch Prüfen mittels `isInterrupted()`.
-> - Sicherstellen ob das Flag nicht durch eine `InterruptedException` in `sleep()`, `join()` oder `wait()` übersehen wird durch erneutes Setzen des Flags.
+> - Sicherstellen ob das *Flag* nicht durch eine `InterruptedException` in `sleep()`, `join()` oder `wait()` übersehen wird durch erneutes Setzen des Flags.
 
-## Funktionen (703)
+## Funktionen
 
 `public final boolean isAlive()` prüft ob ein Thread noch läuft.
 
@@ -181,8 +181,3 @@ Das gleiche Verhalten ist notwendig für eine Unterbrechung mittels `join()` ode
 - Wird eine Berechnung durch das Aufteilen auf mehrere Threads schneller (wodurch/warum/wann/wann nicht…)?
 - Unterschied Thread/Runnable
 - Wie kann ein Thread von außen beendet werden?
-
-## Referenzen
-
-- Java->Insel  
-  <http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_14_001.htm#mj8c6f381221d805dd6fbe480731ac0c58>

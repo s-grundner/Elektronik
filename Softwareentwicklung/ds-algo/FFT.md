@@ -8,9 +8,12 @@ created: 26. Dezember 2023
 source:
   - Laurenz Hölzl
   - Daniel Ch. v. Grüningen
+complexity: $\mathcal{O}(n\cdot\log(n))$
 ---
 
 # Fast Fourier Transform
+
+> [!info] Complexity: `$=dv.current().complexity`
 
 > [!HINT] FFT <=> [DFT](DFT.md)
 > Eigentlich handelt es sich beim FFT-Algorithmus nur um eine Möglichkeit die [DFT](DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.

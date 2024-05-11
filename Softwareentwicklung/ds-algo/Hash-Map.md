@@ -1,6 +1,6 @@
 ---
 tags:
-  - DS
+  - DS/Map
 aliases:
   - Assoziative Listen
   - Hash Table
@@ -30,7 +30,7 @@ Zum Abspeichern steht ein $m$ Plätze großer Speicherbereich (**Behälter**) zu
 Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $m$ Speicherplätze ab.
 
 > Hashtabellen sind Arrays in welchen sich die Position im Array aus dem Schlüssel von Datenobjekten berechnet.  
-![HashTable_01](../assets/HashTable_01.png)
+![invert_dark](../assets/HashTable_01.png)
 
 ## Beispiel
 
@@ -71,7 +71,7 @@ Verbesserung durch Reorganisation: Tabellengröße dynamisch, Hashfunktion anpas
 - Jedes Element wird durch einen eindeutigen **Schlüssel** identifiziert.
 
 
-  ![AssocList](assets/AssocList.png)
+  ![invert_dark](assets/AssocList.png)
 
 Beispiel Telefonbuch:
 

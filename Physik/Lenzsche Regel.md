@@ -1,15 +1,14 @@
 ---
-tags: 
+tags:
+  - Maxwell
 aliases:
   - Lenz
   - Lenz'sche Regel
 keywords: 
 subject:
   - VL
-  - Einf. E
-semester:
-  - B1
-  - WS23
+  - Einf. ET
+semester: WS23
 created: 21. November 2022
 professor:
   - Bernhard Jakoby

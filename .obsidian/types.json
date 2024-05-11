@@ -34,6 +34,7 @@
     "excalidraw-autoexport": "text",
     "excalidraw-iframe-theme": "text",
     "cited": "checkbox",
-    "excalidraw-open-md": "checkbox"
+    "excalidraw-open-md": "checkbox",
+    "excalidraw-export-embed-scene": "checkbox"
   }
 }

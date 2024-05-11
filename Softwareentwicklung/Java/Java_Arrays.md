@@ -54,6 +54,7 @@ primZahlen[4] = 7;
 > Grundsätzlich gilt: nach der Initialisierung kann die Anzahl der Elemente in einem Array nie mehr verändert werden 
 
 > [!EXAMPLE] Namensliste:
+
   ```java
   String[] arrName = {"Sepp", "Franz", "Klaus", "Siegfried", "Herfried", "Sigmund"};
   System.out.println(arrName[3] + ", " + arrName[5]);			// Ausgabe: "Siegfried, Sigmund"
@@ -62,12 +63,14 @@ primZahlen[4] = 7;
   ```
 
 > [!EXAMPLE] Preisliste:
+
   ```java
   double[] price = {1.2, 2.4, 1.1, 7.3};
   price[0] = price[3] - price[1];			// Ergebnis von (7.3-2.4) wird in das 1te Element geschrieben
   ```
 
 > [!EXAMPLE] Hexadezimale Ziffern (lange Form):
+
   ```java
   char[] hexDigit = new char[16];
   hexDigit[0] = '0';

@@ -10,8 +10,10 @@ semester: WS23
 created: 17. April 2024
 professor: 
 cited: 
-complexity: O(n)
+complexity: $\mathcal{O}(n)$
 ---
  
 
 # Hornerschema
+
+> [!info] Complexity: `$=dv.current().complexity`

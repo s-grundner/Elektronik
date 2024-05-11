@@ -172,3 +172,7 @@ Der Grund für die Entwicklung der Bäume ist ja eine effiziente Suchstruktur. J
 Um solche Anordnungen zu vermeiden, gibt es balancierte/ausgeglichene Bäume. Um einen Baum auszubalancieren wird der Medianwert ermittelt und als Wurzel gesetzt. Für jede Seite des Baums wird dieser Vorgang wiederholt.
 
 (Medianwert ist jener Wert einer Zahlenzeihe zu dem es in der Zahlenreihe gleich viel größere als kleinere Werte gibt. Zum Beispiel: für die Zahlenreihe 1,2,1000 ist der Medianwert 2 - es gibt einen größeren und einen kleineren Wert)
+
+# Quellen
+
+- Erklärung und Beispiele: [Bäume und Backtracking](https://www.ethz.ch/content/dam/ethz/special-interest/dual/educeth-dam/documents/Unterrichtsmaterialien/informatik/B%C3%A4ume%20und%20Backtracking%20(Leitprogramm)/Backtracking.pdf)

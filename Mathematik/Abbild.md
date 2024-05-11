@@ -7,10 +7,8 @@ aliases:
   - injektiv
 keywords: 
 subject:
-  - Mathematik1
-  - "357.100"
-semester:
-  - WS23
+  - Mathematik 1
+semester: WS23
 created: 7. November 2023
 professor:
 ---

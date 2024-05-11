@@ -1,14 +1,20 @@
 ---
-tags: 
+tags:
+  - Baugruppen/Komponente
 aliases:
   - Kondensator
   - Kapazitäten
+keywords:
 subject:
-  - hwe
-source:
+  - VL
+  - Einf. ET
+semester: WS23
+created: 11th April 2023
+professor:
   - Michael Offenhuber
   - Siegbert Schrempf
-created: 11th April 2023
+  - Bernhard Jakoby
+cited: 
 ---
 
 # Der Kondensator - ein Ladungsspeicher
@@ -17,11 +23,8 @@ created: 11th April 2023
 >  Ein Kondensator ist eine Anordnung zweier Elektroden mit unterschiedlichem [Potenzial](elektrische%20Spannung.md), bei der durch räumliche Nähe ein elektrostatisches Feld entsteht.  
 >  Die entsprechende Kenngröße heißt *Kapazität*.
 
-
 > [!warning] parasitäre Kapazität  
 >  Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
-
-
 
 > [!TIP] [Ladungen](elektrisches%20Feld.md) verschieben sich solange, bis das [E-Feld](elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
 > ![InlineR|350](assets/KondensatorBatterie.png)
@@ -29,7 +32,15 @@ created: 11th April 2023
 > 2. Die [Ladungen](elektrisches%20Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
 > 3. Im Zuge dieser Verschiebungen wurden die Platten [geladen](elektrisches%20Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](elektrisches%20Feld.md) auf dem Platten.
 
-## 1 Die Kapazität
+## Schaltsymbol
+
+| Symbol | ESB                     |
+| ------ | ----------------------- |
+|        | ![cap_esb](cap_esb.png) |
+
+## Kenngrößen im Kondensator
+
+### Die Kapazität
 
 ![](assets/Plattenkondensator.png)
 
@@ -49,16 +60,14 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > $\varepsilon_{r}$ … Relative [Permittivität](Dielektrikum.md) des [Dielektrikums](Dielektrikum.md)
 >   
 
-## 2 Kenngrößen im Kondensator
-
-### 2.1 [Ladung](elektrisches%20Feld.md) Und Kapazität im Kondensator
+### [Ladung](elektrisches%20Feld.md) Und Kapazität im Kondensator
 
 Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](elektrische%20Ladung.md) und Spannung im Kondensator:
 
 $$
 Q=C\cdot U
 $$
-> [!important]- Begründung
+> [!important]- Begründung der proportionalität
 > $$
 > \left.\begin{align}
 > U = \int \vec{E}\cdot d\vec{s} \implies U \propto E \\
@@ -66,7 +75,7 @@ $$
 > \end{align}\right\} \implies U \propto Q
 > $$
 
-### 2.2 [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
+### [Strom](elektrischer%20Strom.md) Und Spannung im Kondensator
 
 $$
 \begin{gather}
@@ -77,10 +86,14 @@ i = C\cdot \frac{du}{dt}
 \end{gather}
 $$
 
-### 2.3 Energie im Kondensator
+Integrieren beider seiten liefert die Kondensator-Spannung:
+
+$$ u(t)=u\left(t_0\right)+\frac{1}{C} \int_{t_0}^t i(\tau) \mathrm{d} \tau $$
+
+### Energie im Kondensator
 
 Die Energie im Kondensator lässt sich durch die eingespeiste [Leistung](elektrische%20Leistung.md) berechnen:  
-Die integrationsvariable $\uptau$ dient zur Unterscheidung zur Laufzeivariable $t$: 
+Die Integrationsvariable $\uptau$ dient zur Unterscheidung zur Laufzeit variable $t$: 
 
 $$
 W_m(t)-W_{m(0)}=\int_{0}^{t} p(\uptau) \, d \uptau =\int_{0}^{t} i(\uptau) \cdot u(\uptau) \,d \uptau \\
@@ -102,14 +115,14 @@ $$
 > Die Spannung an einer Kapazität kann sich nicht sprunghaft ändern, da eine solche Änderung auch einen Sprung in der gespeicherten Energie $W$ bedeuten würde.
 > Um einen solchen zu realisieren, müsste zum Zeitpunkt des Sprungs vom angeschlossenen Netzwerk unendliche Leistung $p(t)=d W / d t$ geliefert oder aufgenommen werden.
 
-### 2.4 [Geometrie](Geometrie.md)
+### [Geometrie](Geometrie.md)
 
 - Plattenkondensator
 - Zylinderkondensator
 - Drehkondensator
 - Vielschichtkondensator
 
-### 2.5 [Dielektrikum](Dielektrikum.md)
+### [Dielektrikum](Dielektrikum.md)
 
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - MLCC - Multilayer Ceramic Capacitor
@@ -120,13 +133,13 @@ Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 
 > [!summary] Video 6. 30 min
 
-## 1 Idealer Kondensator
+## Idealer Kondensator
 
 $$
 jX_{C}=\frac{1}{j\omega C}
 $$
 
-## 2 Realer Kondensator
+## Realer Kondensator
 
 > [!summary] ESB  
 > ![InlineL|400](assets/cap_esb.png)

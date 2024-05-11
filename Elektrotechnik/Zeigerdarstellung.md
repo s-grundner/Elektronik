@@ -19,7 +19,7 @@ cited:
 > [!info] *rotierende* komplexe Zeiger dienen zur Darstellung von Wechselspannungen und -strömen.
 > Voraussetzungen:
 > - [Netzwerk](Schaltungsanalyse.md) ist linear
-> - keine Einschalt-/Umschaltvorgänge
+> - keine Einschalt-/[Umschaltvorgänge](Schaltvorgänge.md)
 > - Kreisfrequenz aller Ströme und Spannungen ist konstant
 
 $$u(t) = \hat{u}\cdot(\cos(\omega t+ \varphi) + \underbrace{ j\sin(\omega t+ \varphi) }_{ \text{wird eingeführt} }) = \hat{u}a\cdot e^{ j(\omega t + \varphi)}$$

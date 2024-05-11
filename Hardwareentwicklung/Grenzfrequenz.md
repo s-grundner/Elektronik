@@ -8,7 +8,7 @@ created: 30th November 2022
 
 # Grenzfrequenz
 
-> [!hint] Beim Verstärker
+Jene Frequenz bei der das [maximum](Extremwert.md) der Übertragungsfunktion um $3dB$ (Faktor $\frac{1}{\sqrt{ 2 }}$) gedämpft ist.
 
-> [!hint] Beim [Filter](Filter.md) (Dämpfer)  
->  Bei einem [Filter](Filter.md) 1. Ordnung ist die Grenzfrequenz jede Frequenz, in der Übertragungsfunktion, bei der die [Dämpfung](Dämpfung.md) $-3dB$ beträgt.
+$$\mid \underline{ T }(\omega_{g}) \mid = \frac{T_{\text{max}}}{\sqrt{ 2 }}$$
+

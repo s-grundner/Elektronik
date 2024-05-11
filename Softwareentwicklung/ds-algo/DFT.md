@@ -2,6 +2,7 @@
 tags:
   - HTL-Diplomarbeit
   - incomplete
+  - Algorithmus/Informatik
 aliases:
   - Diskrete Fourier Transformation
   - IDFT
@@ -12,9 +13,12 @@ source:
   - Laurenz Hölzl
   - Daniel Ch. v. Grüningen
 cited: true
+complexity: $\mathcal{O}(n^{2})$
 ---
 
 # Diskrete [Fourier Transformation](Fourier%20Transformation.md)
+
+> [!info] Complexity: `$=dv.current().complexity`
 
 > [!INFO]  
 > Tatsächlich handelt es sich bei der Diskreten [Fourier Transformation](Fourier%20Transformation.md) (DFT) um eine Annäherung der [Fourier Transformation](Fourier%20Transformation.md), welche es ermöglicht sie effizient von einem digitalen Rechner berechnen zu lassen.  

@@ -1,33 +1,35 @@
 ---
-tags: 
+tags:
+  - Baugruppen/Komponente
 aliases:
   - Spule
   - Spulen
+  - Induktivität
+keywords: 
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
-  - Michael Offenhuber
+  - VL
+  - Elektrotechnik
+semester: WS23
 created: 8th April 2022
+professor:
+  - Bernhard Jakoby
+cited:
 ---
+ 
 
 # Induktivitäten
 
-## Schaltzeichen
+## Schaltsymbol
 
-| Symbol        | ESB |
-| ------------- | --- |
-| ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png)    |
+| Symbol                   | ESB                              |
+| ------------------------ | -------------------------------- |
+| ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png) |
 
-## Induktivitäten Als Bauelemente Leistungselektronischen Schaltungen
+## Kenngrößen der Induktivität
 
-Unter **Vernachlässigung** von **$R_{L}$** und der **parasitären Parallelkapazität $C_{L}$**, gilt für lineare Materialien der folgende Zusammenhang der die Spannung an der Induktivität beschreibt:
+### Strom-Spannungsbeziehung
 
-$$
-\begin{align*}
-	u_{L} = L\cdot \frac{di}{dt}
-\end{align*}
-$$
+### Energie in der Spule
 
 Die **Energie** die in einer **Induktivität** gespeichert werden kann ergibt sich aus:
 
@@ -39,27 +41,9 @@ $$
 
 Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physik/Lenzsche%20Regel.md)).
 
-Durch das Anlegen einer Puls-förmigen Spannung an eine Induktivität folgt, dass sich **$i_{L}$ nicht linear verhält**.
 
 ![indu-pulse](assets/indu-pulse.png)
 
-Der in der Leistungselektronik relevante Fall ist jener einer Zeitkonstante, die viel größer ist als die Pulsfrequenz, sowie eines vernachlässigbaren [Ohm](Ohmsches%20Gesetz.md)'schen Widerstands.  
-Daher gilt die folgende Näherung:
-
-$$
-\begin{align*}
-i \approx \frac{1}{L}\cdot u_{L}\cdot t
-\end{align*}
-$$
-
-Der nicht lineare reale Wert ergibt sich durch das Lösen der [homogenen linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
-
-$$
-\begin{align*}
-	u_{L} &= L\cdot \frac{di}{dt}\\
-	i_{L} &= \frac{u_{L}}{R}\cdot\left(1-e^{\frac{-t}{\tau}}\right)\rightarrow \tau=\frac{L}{R}
-\end{align*}
-$$
 
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 

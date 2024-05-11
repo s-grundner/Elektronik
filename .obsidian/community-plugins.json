@@ -7,7 +7,6 @@
   "obsidian-latex-suite",
   "cmdr",
   "obsidian-annotator",
-  "obsidian-discordrpc",
   "obsidian-hide-sidebars-when-narrow",
   "mousewheel-image-zoom",
   "open-vscode",
@@ -27,7 +26,6 @@
   "home-tab",
   "pseudocode-in-obs",
   "obsidian-hover-editor",
-  "obsidian-react-components",
   "code-styler",
   "dataview",
   "editing-toolbar",
@@ -43,5 +41,6 @@
   "obsidian-advanced-codeblock",
   "calendar",
   "buttons",
-  "obsidian-icon-folder"
+  "obsidian-icon-folder",
+  "obsidian-react-components"
 ]

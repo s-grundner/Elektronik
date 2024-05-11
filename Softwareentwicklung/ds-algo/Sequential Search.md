@@ -5,9 +5,12 @@ tags:
 aliases:
   - Sequentielles Suchen
 created: 5. September 2023
+complexity: $\mathcal{O}(n)$
 ---
 
 # Sequentielles Suchen
+
+> [!info] Complexity: `$=dv.current().complexity`
 
 In einem Feld kann ein Schlüssel gesucht werden, indem im Feld aufsteigend, vom ersten Element beginnend, mit dem Suchwert verglichen wird. Dieses **sequentielle Suchen** benötigt für N Elemente im Feld:
 

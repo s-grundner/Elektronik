@@ -5,9 +5,8 @@ aliases:
   - Potenz
 keywords: 
 subject:
-  - Mathematik1
-  - "357.100"
-semester: 1
+  - Mathematik 1
+semester: WS23
 created: 23. Oktober 2023
 professor:
 ---

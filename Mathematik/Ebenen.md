@@ -4,8 +4,7 @@ aliases:
 keywords: []
 subject:
   - Mathematik1
-  - "357.100"
-semester: 1
+semester: WS23
 created: 29. November 2023
 professor:
 ---

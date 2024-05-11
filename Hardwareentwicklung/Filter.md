@@ -1,21 +1,30 @@
 ---
 tags:
   - Baugruppen/Filter
-aliases:
-  - RC-Glied
-  - RL-Glied
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Elektrotechnik
+semester: SS24
 created: 22. Januar 2024
+professor:
+  - Andreas Springer
+cited:
 ---
+ 
 
 # Filter
 
 - Ordnung
-- Steilheit (20dB/Dekade)
+- [Grenzfrequenz](Grenzfrequenz.md)
 - [[Güte]] (Resonanzverhalten)
 - Topologie
-  - Tiefpass Filter
-  - Hochpass Filter
+  - [[Tiefpass]] Filter
+  - [[Hochpass]] Filter
   - Andere (Kombinationen)
+- Aktiv/Passiv
+- Steilheit
 
 ## Bodé Diagramm
 
@@ -25,12 +34,13 @@ Zeigt den Frequenzgang bestehend aus
 - Amplitudengang
 - Phasengang
 
-es werden zwei Diagramme benötigt, da mit komplexer Wechselstromtechnik gerechnet wird
+es werden zwei Diagramme benötigt, da mit komplexer [Wechselstromtechnik](Wechselstromtechnik.md) gerechnet wird
 
-Allgemein wird die [[Dämpfung]] des Filters mit logarithmischem verhältnis dargestellt -> dezibel
-- Dezibel ist die Pseudo einheit zur darstellung von logarithmischen Leistungsverhältnissen
+Allgemein wird die [[Dämpfung]] des Filters mit logarithmischem Verhältnis dargestellt -> dezibel
+- Dezibel ist die Pseudo einheit zur Darstellung von logarithmischen Leistungsverhältnissen
 
 ![[../assets/Excalidraw/Filter 2024-03-18 22.46.50.excalidraw]]
+
 ## Digitale Filter
 
 - IIR

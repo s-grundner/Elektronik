@@ -11,7 +11,7 @@ Man unterscheidet wiederum;
 | ==Natürliche Störquellen==                                                | ==Künstliche Störquellen==                                                            |
 | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | Elektrostatische Entladungen ([ESD](ESD.md)) (z.B. Reibungselektrizität) | Vorhergesehene und unvorhergesehene elektromagnetische Vorgänge                   |
-| Atmosphärische Entladungen (Blitz)                                       | In der Energieerzeugung und Verteilung → elektrische Schaltvorgänge               |
+| Atmosphärische Entladungen (Blitz)                                       | In der Energieerzeugung und Verteilung → elektrische [Schaltvorgänge](Schaltvorgänge.md)               |
 |                                                                          | [Schaltnetzteil](Stromversorgungseinheiten/Schaltnetzteil.md)e, Leuchtstoffröhren |
 |                                                                          | Zündsysteme von Motoren                                                           |
 |                                                                          | Fernseh-/Radiosender, Mobilfunk                                                   |
@@ -21,4 +21,4 @@ Man unterscheidet wiederum;
 - Lade- & Entladevorgänge von L, C
 - Takterzeugung und Verteilung
 - Signalwechsel auf Leitungen
-- Schaltvorgänge von [Transistoren](Halbleiter/{MOC}%20Transistor.md)
+- [Schaltvorgänge](Schaltvorgänge.md) von [Transistoren](Halbleiter/{MOC}%20Transistor.md)

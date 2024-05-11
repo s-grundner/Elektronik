@@ -4,13 +4,12 @@ aliases:
   - Norm
 keywords: 
 subject:
-  - Mathematik1
-  - "357.100"
-semester:
-  - WS23
-  - B1
+  - Mathematik 1
+  - VL
+semester: WS23
 created: 23. Oktober 2023
 professor:
+  - Andreas Neubauer
 ---
  
 

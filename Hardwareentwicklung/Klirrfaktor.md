@@ -1,8 +1,12 @@
 ---
-tags: []
-aliases: ["THD"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags: 
+aliases:
+  - THD
+  - Total Harmonic Distortion
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 3rd January 2023
 ---
 
