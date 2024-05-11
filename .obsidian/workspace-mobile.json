@@ -4,24 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff8b471bba604906",
+        "id": "9017436c706f4a7c",
         "type": "tabs",
         "children": [
           {
-            "id": "e239edc5bc5bac8b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "3e433603a6c2d49c",
+            "id": "3400ddd1f3ee8646",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maschenstromverfahren.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -29,13 +21,11 @@
             }
           },
           {
-            "id": "c50c3ddf886f2c15",
+            "id": "49a49f5da851af16",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-03-19 12.31.14.excalidraw.md"
-              }
+              "type": "full-calendar-view",
+              "state": {}
             }
           }
         ],
@@ -117,7 +107,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Maschenstromverfahren.md",
+            "file": "TODO.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -134,7 +124,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Maschenstromverfahren.md",
+            "file": "TODO.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -146,7 +136,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Maschenstromverfahren.md"
+            "file": "TODO.md"
           }
         }
       },
@@ -159,10 +149,10 @@
         }
       },
       {
-        "id": "31d414a54c38bf18",
+        "id": "7ba7b440c0cb0e78",
         "type": "leaf",
         "state": {
-          "type": "side-panel-control-view",
+          "type": "quiet-outline",
           "state": {}
         }
       }
@@ -184,8 +174,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "3e433603a6c2d49c",
+  "active": "49a49f5da851af16",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Softwareentwicklung/SoftwareEngineering/Generics.md",
+    "Mathematik/Analysis/Integralrechnung.md",
+    "00_templates/10_moc_header.md",
+    "10_tools/sidebar_colorfulclock.md",
+    "Softwareentwicklung/SoftwareEngineering/Innere Klassen.md",
+    "00_templates/00_jku_header.md",
     "Excalidraw/Drawing 2024-03-19 12.31.14.excalidraw.md",
     "Maschenstromverfahren.md",
     "Excalidraw",
@@ -218,14 +215,7 @@
     "assets/Excalidraw/Wechselstromtechnik 2024-03-18 23.04.08.excalidraw.md",
     "Softwareentwicklung/C/assets/pdf",
     "Softwareentwicklung/ds-algo/Algorithmusbegriff.md",
-    "Netzwerktechnik/Protokolle/FTP.md",
-    "Softwareentwicklung/ds-algo/Ablaufdiagramm.md",
     "Softwareentwicklung/C/assets/pdf/C.CheatSheet.pdf",
-    "assets/Excalidraw/Drawing 2024-03-13 10.24.40.excalidraw.md",
-    "Elektrotechnik/Leistungsanpassung.md",
-    "assets/Excalidraw/Knotenpotentialverfahren 2024-03-13 21.34.50.excalidraw.md",
-    "Elektrotechnik/Zählpfeilsysteme.md",
-    "Chemie/Polarisation.md",
     "Softwareentwicklung/C/assets/pdf/cheat_sheet_c.pdf",
     "Netzwerktechnik/Nw/Ue",
     "Digitaltechnik/Interfaces",
