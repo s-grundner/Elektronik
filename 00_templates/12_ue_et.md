@@ -11,7 +11,7 @@ _%>
 
 ---
 
-📝 [Angabe](2024S-Elektrotechnik-UE.pdf)
+📝 [Aufgabensammlung](2024S-Elektrotechnik-UE.pdf)
 ✅ [Lösung](Abgabe/<%* tR += folder %>.pdf)
 
 ---
