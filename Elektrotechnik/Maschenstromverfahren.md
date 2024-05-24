@@ -5,8 +5,8 @@ aliases:
   - Maschenstrom
 keywords: 
 subject:
-  - UE
   - Elektrotechnik
+  - VL
 semester:
   - SS24
   - B2

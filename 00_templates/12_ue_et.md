@@ -12,6 +12,6 @@ _%>
 ---
 
 📝 [Angabe](2024S-Elektrotechnik-UE.pdf)
-✅ [Lösung](Abgabe/UE<%* tR += nr%>_<%* tR += folder %>.pdf)
+✅ [Lösung](Abgabe/<%* tR += folder %>.pdf)
 
 ---
