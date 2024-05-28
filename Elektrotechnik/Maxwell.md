@@ -15,7 +15,17 @@ professor:
 ---
  
 
-# Maxwell
+# Maxwell Gleichungen
+
+> [!important] Kenngrößen
+>
+> | $\mathbf{E}$ | elektrische Feldstärke | $\mathrm{V} / \mathrm{m}$ |
+> | :---: | :--- | :---: |
+> | $\mathbf{H}$ | magnetische Feldstärke | $\mathrm{A} / \mathrm{m}$ |
+> | $\mathbf{D}$ | elektrische Flussdichte | $\mathrm{As} / \mathrm{m}^2$ |
+> | $\mathbf{B}$ | magnetische Flussdichte | $\mathrm{Vs} / \mathrm{m}^2$ |
+> | $\mathbf{J}$ | elektrische Stromdichte | $\mathrm{A} / \mathrm{m}^2$ |
+> | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
 
 ## Durchflutungssatz
 
@@ -29,6 +39,12 @@ und wird als *Durchflutungssatz* bezeichnet.
 
 > [!tldr]  
 > In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *[Stromdichte](Stromdichte.md)* $J$ über die *Fläche* $A$ (siehe auch Einschub: [Flächenintegral](Flächenintegral.md)) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird
+
+## Differenzialform
+
+$$
+
+$$
 
 ## Integralform
 
@@ -53,14 +69,6 @@ $$
 
 ## Mathematische Grundbegriffe
 
-Der Nabla-Operator ist (hier für das kartesische Koordinatensystem) definiert als
-$$
-\nabla:=\left(\begin{array}{c}
-\frac{\partial}{\partial x} \\
-\frac{\partial}{\partial y} \\
-\frac{\partial}{\partial z}
-\end{array}\right)=\frac{\partial}{\partial x} \mathbf{e}_x+\frac{\partial}{\partial y} \mathbf{e}_y+\frac{\partial}{\partial z} \mathbf{e}_z,
-$$
-wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind
-Der Nabla-Operator ist Operator und Vektor in einem, d.h. mit inm lässt sich wie mit einem Vektor rechnen
-Der Nabla-Operator lässt sich sowohl auf partiell differenzierbare Skalarfelder als auch auf partiell differenzierbare Vektorfelder anwenden
+gradient
+divergenz
+rotation

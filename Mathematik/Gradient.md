@@ -2,7 +2,6 @@
 tags:
   - Infinitesimalrechnung/Differenzieren
 aliases:
-  - Nabla
   - Jacobi-Matrix
   - Funktionalmatrix
   - Gradienten
