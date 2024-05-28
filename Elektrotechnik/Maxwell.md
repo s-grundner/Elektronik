@@ -19,7 +19,7 @@ professor:
 
 > [!important] Kenngrößen
 >
-> | $\mathbf{E}$ | elektrische Feldstärke | $\mathrm{V} / \mathrm{m}$ |
+> | $\mathbf{E}$ | elektrische Feldstärke | $\operatorname{V} / \mathrm{m}$ |
 > | :---: | :--- | :---: |
 > | $\mathbf{H}$ | magnetische Feldstärke | $\mathrm{A} / \mathrm{m}$ |
 > | $\mathbf{D}$ | elektrische Flussdichte | $\mathrm{As} / \mathrm{m}^2$ |
@@ -27,23 +27,15 @@ professor:
 > | $\mathbf{J}$ | elektrische Stromdichte | $\mathrm{A} / \mathrm{m}^2$ |
 > | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
 
-## Durchflutungssatz
-
-Die erste Maxwell-Gleichung beschreibt den Zusammenhang zwischen [Strom](elektrischer%20Strom.md)(dichte) I bzw. J und magnetischer Flussdichte B:
-
-$$
-\oint_{C} \vec{H} \cdot ds = \int_{A} \vec{J}\cdot d \vec{A} 
-$$
-
-und wird als *Durchflutungssatz* bezeichnet.
-
-> [!tldr]  
-> In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *[Stromdichte](Stromdichte.md)* $J$ über die *Fläche* $A$ (siehe auch Einschub: [Flächenintegral](Flächenintegral.md)) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird
-
 ## Differenzialform
 
 $$
-
+\begin{aligned}
+\operatorname{rot} \mathbf{H} & =\boldsymbol{\nabla} \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t} \\
+\operatorname{rot} \mathbf{E} & =\boldsymbol{\nabla} \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t} \\
+\operatorname{div} \mathbf{D} & =\boldsymbol{\nabla} \cdot \mathbf{D}=\rho \\
+\operatorname{div} \mathbf{B} & =\boldsymbol{\nabla} \cdot \mathbf{B}=0
+\end{aligned}
 $$
 
 ## Integralform
@@ -71,5 +63,20 @@ $$
 
 - Nabla Operator: $\nabla$
 - Gradient: $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
-- Divergenz: $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
-- Rotation: $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+- Divergenz: $\operatorname{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
+- Rotation: $\operatorname{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+
+# Tags
+
+## Durchflutungssatz (old)
+
+Die erste Maxwell-Gleichung beschreibt den Zusammenhang zwischen [Strom](elektrischer%20Strom.md)(dichte) I bzw. J und magnetischer Flussdichte B:
+
+$$
+\oint_{C} \vec{H} \cdot ds = \int_{A} \vec{J}\cdot d \vec{A} 
+$$
+
+und wird als *Durchflutungssatz* bezeichnet.
+
+> [!tldr]  
+> In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *[Stromdichte](Stromdichte.md)* $J$ über die *Fläche* $A$ (siehe auch Einschub: [Flächenintegral](Flächenintegral.md)) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird
