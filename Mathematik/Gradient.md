@@ -29,7 +29,7 @@ professor:
 > $$
 > \operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)
 > $$
-> der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch das Symbol $\nabla f(x)$ (lies: *Nabla* $f$ ).
+> der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch das Symbol $\nabla f(x)$ (lies: *[Nabla](Nabla%20Operator.md)* $f$ ).
 
 ## Jacobi [[Matrix]]
 

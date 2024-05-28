@@ -69,6 +69,7 @@ $$
 
 ## Mathematische Grundbegriffe
 
-gradient
-divergenz
-rotation
+- Nabla Operator: $\nabla$
+- Gradient: $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
+- Divergenz: $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
+- Rotation: $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
