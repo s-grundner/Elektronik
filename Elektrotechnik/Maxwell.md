@@ -17,6 +17,8 @@ professor:
 
 # Maxwell Gleichungen
 
+## Übersicht
+
 > [!important] Kenngrößen
 >
 > | $\mathbf{E}$ | elektrische Feldstärke | $\operatorname{V} / \mathrm{m}$ |
@@ -27,18 +29,18 @@ professor:
 > | $\mathbf{J}$ | elektrische Stromdichte | $\mathrm{A} / \mathrm{m}^2$ |
 > | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
 
-## Differenzialform
+### Differenzialform
 
 $$
 \begin{aligned}
-\operatorname{rot} \mathbf{H} & =\boldsymbol{\nabla} \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t} \\
-\operatorname{rot} \mathbf{E} & =\boldsymbol{\nabla} \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t} \\
-\operatorname{div} \mathbf{D} & =\boldsymbol{\nabla} \cdot \mathbf{D}=\rho \\
-\operatorname{div} \mathbf{B} & =\boldsymbol{\nabla} \cdot \mathbf{B}=0
+\operatorname{rot} \mathbf{H} & = \nabla \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t} \\
+\operatorname{rot} \mathbf{E} & = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t} \\
+\operatorname{div} \mathbf{D} & = \nabla \cdot \mathbf{D}=\rho \\
+\operatorname{div} \mathbf{B} & = \nabla \cdot \mathbf{B}=0
 \end{aligned}
 $$
 
-## Integralform
+### Integralform
 
 $$
 \begin{aligned}
@@ -49,7 +51,7 @@ $$
 \end{aligned}
 $$
 
-## Materialgleichungen
+### Materialgleichungen
 
 $$
 \begin{aligned}
@@ -59,10 +61,10 @@ $$
 \end{aligned}
 $$
 
-## Mathematische Grundbegriffe
+### Mathematische Grundbegriffe
 
 - Nabla Operator: $\nabla$
-- Gradient: $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
+- Gradient: $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 - Divergenz: $\operatorname{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 - Rotation: $\operatorname{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
 
