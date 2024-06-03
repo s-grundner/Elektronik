@@ -12,9 +12,7 @@ subject:
   - Einf. ET
   - "335.005"
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 18. Oktober 2023
 professor:
   - Bernhard Jakoby
@@ -33,13 +31,13 @@ professor:
 >   $$
 > \begin{align}
 > W_{A\to B} &= \int_{A}^{B} q\cdot\vec{E} \cdot d\vec{s} =q\cdot\underbrace{ \int_{A}^{B} \vec{E} \cdot d\vec{s} }_{ \text{Spannung }U_{A\to B} } \\
-> &= q\cdot(\underbrace{ \lvert \vec{E} \rvert \cdot B }_{ \varphi(B) } - \underbrace{ \lvert \vec{E} \rvert \cdot A }_{ \varphi(A) })
+> &= q\cdot(\underbrace{ \lvert \vec{E} \rvert \cdot B }_{ \varphi(B) } - \underbrace{ \lvert \vec{E} \rvert \cdot A }_{ \varphi(A) }) = q\cdot U_{A\to B}
 > \end{align}
 > $$
 > Aus dem bestimmten [Integral](Integralrechnung.md) ergibt sich mit den Grenzen $A$ $B$ die Potenzialdifferenz von $\varphi(B)$ und $\varphi(A)$ und somit die Spannung.
 > Mit dem zusätzlichen Faktor der [Ladung](elektrisches%20Feld.md) muss für die Spannung auch *[Arbeit](../Physik/Mechanische%20Arbeit.md) pro [Ladung](elektrisches%20Feld.md)* gelten ($U = \frac{W}{q}$)
 
-## 1 Spannungsquellen
+## Spannungsquellen
 
 > [!info] Spannungsquellen beruhen darauf, dass eine [Kraft](../Physik/{MOC}%20Kräfte.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](elektrisches%20Feld.md) (externe Kräfte) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
 
