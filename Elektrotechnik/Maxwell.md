@@ -2,13 +2,12 @@
 tags: 
 aliases:
   - Durchflutungssatz
+  - MWG
 keywords: 
 subject:
   - Einf. ET
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 24th January 2024
 professor:
   - Bernhard Jakoby
@@ -26,7 +25,7 @@ professor:
 > | $\mathbf{H}$ | magnetische Feldstärke | $\mathrm{A} / \mathrm{m}$ |
 > | $\mathbf{D}$ | elektrische Flussdichte | $\mathrm{As} / \mathrm{m}^2$ |
 > | $\mathbf{B}$ | magnetische Flussdichte | $\mathrm{Vs} / \mathrm{m}^2$ |
-> | $\mathbf{J}$ | elektrische Stromdichte | $\mathrm{A} / \mathrm{m}^2$ |
+> | $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md) | $\mathrm{A} / \mathrm{m}^2$ |
 > | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
 
 ### Differenzialform
@@ -63,10 +62,16 @@ $$
 
 ### Mathematische Grundbegriffe
 
-- Nabla Operator: $\nabla$
-- Gradient: $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$
+- [Nabla Operator](../Mathematik/Nabla%20Operator.md): $\nabla$
+- [Gradient](../Mathematik/Gradient.md): $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 - Divergenz: $\operatorname{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 - Rotation: $\operatorname{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+
+## Durchflutungssatz
+
+## Kontinuitätsgleichung
+
+### Verschiebungsstrom
 
 # Tags
 
