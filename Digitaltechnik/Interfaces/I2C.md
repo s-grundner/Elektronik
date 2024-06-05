@@ -17,6 +17,10 @@ created: 11th April 2022
 
 [Open Collector](../../Hardwareentwicklung/Open%20Collector.md)
 
+$$
+
+$$
+
 ---
 
 # Tags
