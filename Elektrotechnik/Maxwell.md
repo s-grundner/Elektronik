@@ -69,7 +69,7 @@ $$
 
 ## Durchflutungssatz
 
-## Kontinuitätsgleichung
+## Kontinuitätsgleichungc
 
 ### Verschiebungsstrom
 
