@@ -43,5 +43,6 @@
   "buttons",
   "obsidian-icon-folder",
   "obsidian-react-components",
-  "excel"
+  "excel",
+  "obsidian-tasks-plugin"
 ]
