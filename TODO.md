@@ -14,7 +14,7 @@ Elektrotechnische Bauteile bzgl [DGL]({MOC}%20DGL.md) neu strukturieren
 Wrapper Notes für Übungsaufgaben (Template)
 - [x] Mathe
 - [x] DSAlgo
-- [ ] Elektrotechnik
+- [x] Elektrotechnik ✅ 2024-06-07
 - [ ] (software?)
 
 --- 
@@ -46,7 +46,6 @@ Wrapper Notes für Übungsaufgaben (Template)
 - Anonyme Klassen
 - Iterator
 
-
 # HTL Ordner Mitschrift
 
 - [x] Widerstand als Bauelement
@@ -55,6 +54,7 @@ Wrapper Notes für Übungsaufgaben (Template)
 # HTL OneNote Mitschrift
 
 # HTL GoodNotes Mtschrift
+
 >>>>>>>+main
 origin/main
 

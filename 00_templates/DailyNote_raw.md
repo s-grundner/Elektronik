@@ -21,6 +21,15 @@ banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 
 # 📅 Kalender
 
+## Todo
+
+```tasks
+not done
+path includes DailyNotes
+short mode
+limit 100
+```
+
 ---
 
 > [!SUMMARY] 😎 Erstellte Notizen
