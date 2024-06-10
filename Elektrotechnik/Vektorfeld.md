@@ -3,6 +3,7 @@ tags:
 aliases:
   - Divergenz
   - Rotation
+  - Vektoranalysis
 keywords: 
 subject:
   - VL
@@ -24,14 +25,18 @@ $$
 > [!info] Bedeutung
 > Die Divergenz eines Vektorfeld ist ein Skalarfeld und gibt an, wie stark dass Feld *auseinander strebt*.
 
-## Rotation
+## Rotation im $\mathbb{R}^{3}$
 
 $$
 \operatorname{rot} \vec{F}\left(\vec{r}\right) = \nabla \times \vec{F}\left(\vec{r}\right) =
 \begin{pmatrix}
 \frac{\partial}{\partial r_{1}} \\
 \frac{\partial}{\partial r_{2}} \\
-\vdots\\
-\frac{\partial}{\partial r_{n}}  
+\frac{\partial}{\partial r_{3}}  
+\end{pmatrix} \times
+\begin{pmatrix}
+F_{1} \\
+F_{2} \\
+F_3  
 \end{pmatrix}
 $$
