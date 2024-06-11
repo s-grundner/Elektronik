@@ -47,3 +47,45 @@ y_{2} \\
 y_{3}
 \end{pmatrix}
 $$
+
+Diese Matrix lässt sich durch elementare Umformungen nu aufstellen.
+
+
+$$
+\left(\begin{array}{c}
+c_0 \\
+c_2 \\
+c_1 \\
+c_3
+\end{array}\right)=\left(\begin{array}{cc|cc}
+1 & 1 & 1 & 1 \\
+1 & w^2 & 1 & w^2 \\
+\hline 1 & w & w^2 & w^3 \\
+1 & w^3 & w^2 & w
+\end{array}\right)\left(\begin{array}{l}
+y_0 \\
+y_1 \\
+y_2 \\
+y_3
+\end{array}\right)=\left(\begin{array}{cc|cc}
+1 & 1 & 0 & 0 \\
+1 & w^2 & 0 & 0 \\
+\hline 0 & 0 & 1 & 1 \\
+0 & 0 & 1 & w^2
+\end{array}\right)\left(\begin{array}{cc|cc}
+1 & 0 & 1 & 0 \\
+0 & 1 & 0 & 1 \\
+\hline 1 & 0 & w^2 & 0 \\
+0 & w & 0 & w^3
+\end{array}\right)\left(\begin{array}{l}
+y_0 \\
+y_1 \\
+y_2 \\
+y_3
+\end{array}\right)
+$$
+
+
+> [!important] Die DFT der Ordnung 4 kann man mit 2 DFT der Ordnung 2 berechnen.
+> Ist N eine zweierpotenz, kann dieses verfahren für höhere Ordnungen rekursiv angewandt werden.
+> *Dieses Verfahren heißt FFT - Fast Fourier Transform*
