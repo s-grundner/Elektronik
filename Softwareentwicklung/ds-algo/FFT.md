@@ -19,3 +19,31 @@ complexity: $\mathcal{O}(n\cdot\log(n))$
 > Eigentlich handelt es sich beim FFT-Algorithmus nur um eine Möglichkeit die [DFT](DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
 > Wiederentdeckung deshalb, weil Carl Friedrich Gauß den Algorithmus in seiner ersten Form bereits 1805 entdeckte und verwendete, diese aber nie publizierte.
 > Erst die durch diesen Algorithmus erreichte hohe Durchführungsgeschwindigkeit ermöglicht eine so breit gefächerte Anwendung.
+
+
+## Vereinfachung der DFT Matrix
+
+Beispiel in einer kleinen Dimension
+
+$$
+\begin{pmatrix}
+c_{0} \\
+c_{1} \\
+c_{2} \\
+c_{3}
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 1 & 1 & 1 \\
+1 & w & w^{2} & w^{3} \\
+1 & w^{2} & 1 & w^{2} \\
+1 & w^{3} & w^{2} & w
+\end{pmatrix}
+=
+\begin{pmatrix}
+y_{0} \\
+y_{1} \\
+y_{2} \\
+y_{3}
+\end{pmatrix}
+$$

@@ -96,6 +96,8 @@ $$
 \end{pmatrix}
 $$
 
+Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechnet werden. Dies führt uns zur [FFT](FFT.md).
+
 ## Eigenschaften der DFT
 
 - „Die DFT einer [Lineare Hülle](Lineare%20Hülle.md) von Signalen ist gleich der [Lineare Hülle](Lineare%20Hülle.md) ihrer DFTs.“ [8, p. 169] [^1]
