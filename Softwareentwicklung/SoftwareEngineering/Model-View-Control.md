@@ -66,3 +66,11 @@ model->setData(model->index(2), "Klaus");
 In [Qt](../../Cpp/Qt.md) gibt es einige Elemente bei denen das möglich ist wie etwa auch in einer ComboBox. Nicht alle Elemente lassen es zu dass ein Modell verknüpft wird (sind dann private).
 
 Vorteil: im Programm muss man sich nur um das Modell kümmern, dargestellt werden die Daten automatisch.
+
+## Java Swing
+
+```java
+JFrame window = new JFrame();
+
+window.setDefaultCloseOperation(WindowConstants.)
+```
