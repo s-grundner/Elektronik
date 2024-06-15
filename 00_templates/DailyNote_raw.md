@@ -1,12 +1,8 @@
 ---
-banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
----
----
 tags: DailyNotes
 created: 2023-10-16 08:37
 banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 ---
-
 
 <center> <h1> <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %> </h1> </center>
 <center> ⬅️ <a href="<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd') %>.md" class="internal-link">Gestern</a> | <a href="<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>.md" class="internal-link">Morgen</a> ➡️ </center>
@@ -25,7 +21,7 @@ banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 
 ```tasks
 not done
-path includes DailyNotes
+(path includes DailyNotes) AND NOT (path includes Rubbish)
 short mode
 limit 100
 ```
