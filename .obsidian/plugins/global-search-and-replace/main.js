@@ -1047,7 +1047,7 @@ var require_react_development = __commonJS({
           }
           return false;
         }
-        function memo(type, compare) {
+        function memo2(type, compare) {
           {
             if (!isValidElementType(type)) {
               error("memo: The first argument must be a component. Instead received: %s", type === null ? "null" : typeof type);
@@ -1099,19 +1099,19 @@ var require_react_development = __commonJS({
           }
           return dispatcher.useContext(Context);
         }
-        function useState2(initialState) {
+        function useState(initialState) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useState(initialState);
         }
-        function useReducer(reducer, initialArg, init) {
+        function useReducer2(reducer2, initialArg, init) {
           var dispatcher = resolveDispatcher();
-          return dispatcher.useReducer(reducer, initialArg, init);
+          return dispatcher.useReducer(reducer2, initialArg, init);
         }
         function useRef(initialValue) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useRef(initialValue);
         }
-        function useEffect2(create, deps) {
+        function useEffect4(create, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useEffect(create, deps);
         }
@@ -1123,7 +1123,7 @@ var require_react_development = __commonJS({
           var dispatcher = resolveDispatcher();
           return dispatcher.useLayoutEffect(create, deps);
         }
-        function useCallback2(callback, deps) {
+        function useCallback5(callback, deps) {
           var dispatcher = resolveDispatcher();
           return dispatcher.useCallback(callback, deps);
         }
@@ -1886,22 +1886,22 @@ var require_react_development = __commonJS({
         exports.forwardRef = forwardRef;
         exports.isValidElement = isValidElement;
         exports.lazy = lazy;
-        exports.memo = memo;
+        exports.memo = memo2;
         exports.startTransition = startTransition;
         exports.unstable_act = act;
-        exports.useCallback = useCallback2;
+        exports.useCallback = useCallback5;
         exports.useContext = useContext;
         exports.useDebugValue = useDebugValue;
         exports.useDeferredValue = useDeferredValue;
-        exports.useEffect = useEffect2;
+        exports.useEffect = useEffect4;
         exports.useId = useId;
         exports.useImperativeHandle = useImperativeHandle;
         exports.useInsertionEffect = useInsertionEffect;
         exports.useLayoutEffect = useLayoutEffect;
         exports.useMemo = useMemo2;
-        exports.useReducer = useReducer;
+        exports.useReducer = useReducer2;
         exports.useRef = useRef;
-        exports.useState = useState2;
+        exports.useState = useState;
         exports.useSyncExternalStore = useSyncExternalStore;
         exports.useTransition = useTransition;
         exports.version = ReactVersion;
@@ -14245,7 +14245,7 @@ var require_react_dom_development = __commonJS({
         function basicStateReducer(state, action) {
           return typeof action === "function" ? action(state) : action;
         }
-        function mountReducer(reducer, initialArg, init) {
+        function mountReducer(reducer2, initialArg, init) {
           var hook = mountWorkInProgressHook();
           var initialState;
           if (init !== void 0) {
@@ -14259,20 +14259,20 @@ var require_react_dom_development = __commonJS({
             interleaved: null,
             lanes: NoLanes,
             dispatch: null,
-            lastRenderedReducer: reducer,
+            lastRenderedReducer: reducer2,
             lastRenderedState: initialState
           };
           hook.queue = queue;
           var dispatch = queue.dispatch = dispatchReducerAction.bind(null, currentlyRenderingFiber$1, queue);
           return [hook.memoizedState, dispatch];
         }
-        function updateReducer(reducer, initialArg, init) {
+        function updateReducer(reducer2, initialArg, init) {
           var hook = updateWorkInProgressHook();
           var queue = hook.queue;
           if (queue === null) {
             throw new Error("Should have a queue. This is likely a bug in React. Please file an issue.");
           }
-          queue.lastRenderedReducer = reducer;
+          queue.lastRenderedReducer = reducer2;
           var current2 = currentHook;
           var baseQueue = current2.baseQueue;
           var pendingQueue = queue.pending;
@@ -14334,7 +14334,7 @@ var require_react_dom_development = __commonJS({
                   newState = update.eagerState;
                 } else {
                   var action = update.action;
-                  newState = reducer(newState, action);
+                  newState = reducer2(newState, action);
                 }
               }
               update = update.next;
@@ -14367,13 +14367,13 @@ var require_react_dom_development = __commonJS({
           var dispatch = queue.dispatch;
           return [hook.memoizedState, dispatch];
         }
-        function rerenderReducer(reducer, initialArg, init) {
+        function rerenderReducer(reducer2, initialArg, init) {
           var hook = updateWorkInProgressHook();
           var queue = hook.queue;
           if (queue === null) {
             throw new Error("Should have a queue. This is likely a bug in React. Please file an issue.");
           }
-          queue.lastRenderedReducer = reducer;
+          queue.lastRenderedReducer = reducer2;
           var dispatch = queue.dispatch;
           var lastRenderPhaseUpdate = queue.pending;
           var newState = hook.memoizedState;
@@ -14383,7 +14383,7 @@ var require_react_dom_development = __commonJS({
             var update = firstRenderPhaseUpdate;
             do {
               var action = update.action;
-              newState = reducer(newState, action);
+              newState = reducer2(newState, action);
               update = update.next;
             } while (update !== firstRenderPhaseUpdate);
             if (!objectIs(newState, hook.memoizedState)) {
@@ -15063,13 +15063,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               mountHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnMountInDEV;
               try {
-                return mountReducer(reducer, initialArg, init);
+                return mountReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15167,13 +15167,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnMountInDEV;
               try {
-                return mountReducer(reducer, initialArg, init);
+                return mountReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15271,13 +15271,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnUpdateInDEV;
               try {
-                return updateReducer(reducer, initialArg, init);
+                return updateReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15375,13 +15375,13 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnRerenderInDEV;
               try {
-                return rerenderReducer(reducer, initialArg, init);
+                return rerenderReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15487,14 +15487,14 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               warnInvalidHookAccess();
               mountHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnMountInDEV;
               try {
-                return mountReducer(reducer, initialArg, init);
+                return mountReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15608,14 +15608,14 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               warnInvalidHookAccess();
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnUpdateInDEV;
               try {
-                return updateReducer(reducer, initialArg, init);
+                return updateReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -15729,14 +15729,14 @@ var require_react_dom_development = __commonJS({
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
             },
-            useReducer: function(reducer, initialArg, init) {
+            useReducer: function(reducer2, initialArg, init) {
               currentHookNameInDev = "useReducer";
               warnInvalidHookAccess();
               updateHookTypesDev();
               var prevDispatcher = ReactCurrentDispatcher$1.current;
               ReactCurrentDispatcher$1.current = InvalidNestedHooksDispatcherOnUpdateInDEV;
               try {
-                return rerenderReducer(reducer, initialArg, init);
+                return rerenderReducer(reducer2, initialArg, init);
               } finally {
                 ReactCurrentDispatcher$1.current = prevDispatcher;
               }
@@ -23538,11 +23538,13 @@ var React10 = __toESM(require_react());
 
 // src/react-components/SearchAndReplace.tsx
 var React9 = __toESM(require_react());
-var import_react = __toESM(require_react());
+var import_react6 = __toESM(require_react());
 
 // src/react-components/PromptInstructions.tsx
 var React = __toESM(require_react());
-var PromptInstructions = () => /* @__PURE__ */ React.createElement("div", { className: "prompt-instructions" }, /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2191\u2193"), /* @__PURE__ */ React.createElement("span", null, "to navigate")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to replace")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2318\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to open")));
+function PromptInstructions() {
+  return /* @__PURE__ */ React.createElement("div", { className: "prompt-instructions" }, /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2191\u2193"), /* @__PURE__ */ React.createElement("span", null, "to navigate")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to replace")), /* @__PURE__ */ React.createElement("div", { className: "prompt-instruction" }, /* @__PURE__ */ React.createElement("span", { className: "prompt-instruction-command" }, "\u2318\u21B5"), /* @__PURE__ */ React.createElement("span", null, "to open")));
+}
 
 // src/react-components/SearchInput.tsx
 var React4 = __toESM(require_react());
@@ -23551,7 +23553,7 @@ var React4 = __toESM(require_react());
 var React2 = __toESM(require_react());
 function EnableRegexButton({
   regexEnabled,
-  onEnableRegexButtonClick
+  onToggleRegexSearch
 }) {
   return /* @__PURE__ */ React2.createElement(
     "div",
@@ -23564,7 +23566,7 @@ function EnableRegexButton({
       "div",
       {
         className: `workspace-tab-header-inner snr-workspace-tab-header-inner snr-regex-button ${regexEnabled ? "snr-workspace-tab-header-inner-icon-active" : ""}`,
-        onClick: onEnableRegexButtonClick
+        onClick: onToggleRegexSearch
       },
       /* @__PURE__ */ React2.createElement("div", { className: "workspace-tab-header-inner-icon" }, /* @__PURE__ */ React2.createElement(
         "svg",
@@ -23593,7 +23595,7 @@ function EnableRegexButton({
 var React3 = __toESM(require_react());
 function EnableCaseSensitivityButton({
   caseSensitivityEnabled,
-  onEnableCaseSensitivityButtonClick
+  onToggleCaseSensitiveSearch
 }) {
   return /* @__PURE__ */ React3.createElement(
     "div",
@@ -23606,7 +23608,7 @@ function EnableCaseSensitivityButton({
       "div",
       {
         className: `workspace-tab-header-inner snr-workspace-tab-header-inner ${caseSensitivityEnabled ? "snr-workspace-tab-header-inner-icon-active" : ""}`,
-        onClick: onEnableCaseSensitivityButtonClick
+        onClick: onToggleCaseSensitiveSearch
       },
       /* @__PURE__ */ React3.createElement("div", { className: "workspace-tab-header-inner-icon" }, /* @__PURE__ */ React3.createElement(
         "svg",
@@ -23633,11 +23635,11 @@ function EnableCaseSensitivityButton({
 
 // src/react-components/SearchInput.tsx
 function SearchInput({
-  searchInputValue,
-  onSearchInputChange,
+  value,
+  onChange,
   regexEnabled,
-  onEnableRegexButtonClick,
-  onEnableCaseSensitivityButtonClick,
+  onToggleRegexSearch,
+  onToggleCaseSensitiveSearch,
   caseSensitivityEnabled
 }) {
   return /* @__PURE__ */ React4.createElement("div", { className: "snr-input-icon-wrapper" }, /* @__PURE__ */ React4.createElement(
@@ -23648,20 +23650,20 @@ function SearchInput({
       type: "text",
       placeholder: "Search",
       autoFocus: true,
-      value: searchInputValue,
-      onChange: onSearchInputChange
+      value,
+      onChange
     }
   ), /* @__PURE__ */ React4.createElement(
     EnableCaseSensitivityButton,
     {
       caseSensitivityEnabled,
-      onEnableCaseSensitivityButtonClick
+      onToggleCaseSensitiveSearch
     }
   ), /* @__PURE__ */ React4.createElement(
     EnableRegexButton,
     {
       regexEnabled,
-      onEnableRegexButtonClick
+      onToggleRegexSearch
     }
   ));
 }
@@ -23687,26 +23689,26 @@ var React7 = __toESM(require_react());
 
 // src/react-components/SearchResultDisplay.tsx
 var React6 = __toESM(require_react());
-var SearchResultDisplay = ({
+function SearchResultDisplay({
   isSelected,
   searchResult,
   index,
-  selectedIndexChangeHandler,
-  searchResultChosenHandler
-}) => {
+  onSelectedIndexChanged,
+  onSearchResultChosen
+}) {
   return /* @__PURE__ */ React6.createElement(
     "div",
     {
-      onPointerMove: () => selectedIndexChangeHandler(index),
-      onPointerDown: () => selectedIndexChangeHandler(index),
-      onPointerUp: searchResultChosenHandler,
+      onPointerMove: () => onSelectedIndexChanged(index),
+      onPointerDown: () => onSelectedIndexChanged(index),
+      onPointerUp: onSearchResultChosen,
       "data-search-result-index": index,
       className: `suggestion-item mod-complex ${isSelected ? "is-selected" : ""}`
     },
     /* @__PURE__ */ React6.createElement("div", { className: "suggestion-content snr-suggestion-content" }, /* @__PURE__ */ React6.createElement("div", { className: "suggestion-title" }, searchResult.getBeforeMatchSubstring(), /* @__PURE__ */ React6.createElement("span", { className: "snr-highlight" }, searchResult.getMatchSubstring()), searchResult.getAfterMatchSubstring())),
     /* @__PURE__ */ React6.createElement("div", { className: "suggestion-aux snr-suggestion-aux" }, /* @__PURE__ */ React6.createElement("span", { className: "suggestion-flair snr-suggestion-flair" }, searchResult.filePath), /* @__PURE__ */ React6.createElement("span", { className: "snr-line-number" }, searchResult.lineNumber))
   );
-};
+}
 
 // src/react-components/SearchResultsContainer.tsx
 function createKey(searchResult) {
@@ -23716,9 +23718,9 @@ function SearchResultsContainer({
   searchResults,
   selectedIndex,
   numberOfResultsToDisplay,
-  selectedIndexChangedHandler,
-  scrollThresholdExceededHandler,
-  searchResultChosenHandler
+  onSelectedIndexChanged,
+  onScrollThresholdExceeded,
+  onSearchResultChosen
 }) {
   const resultsMarkup = searchResults.map((searchResult, index) => {
     const key = createKey(searchResult);
@@ -23731,8 +23733,8 @@ function SearchResultsContainer({
         index,
         isSelected: index == selectedIndex,
         searchResult,
-        selectedIndexChangeHandler: selectedIndexChangedHandler,
-        searchResultChosenHandler
+        onSelectedIndexChanged,
+        onSearchResultChosen
       }
     );
   });
@@ -23743,23 +23745,12 @@ function SearchResultsContainer({
     const scrollOffsetFromTop = promptResultsDiv.scrollTop;
     const scrollPercentage = (scrollOffsetFromTop + elementActualHeight) / elementTotalHeightWithOverflow;
     if (scrollPercentage >= 0.95) {
-      scrollThresholdExceededHandler();
+      onScrollThresholdExceeded();
     }
   }
   return /* @__PURE__ */ React7.createElement("div", { onScroll: handleScroll, className: "prompt-results" }, resultsMarkup);
 }
-
-// src/infrastructure/event-bridge.ts
-var EventBridge = class {
-  constructor() {
-    __publicField(this, "onArrowUp");
-    __publicField(this, "onArrowDown");
-    __publicField(this, "onEnter");
-    __publicField(this, "onCommandEnter");
-  }
-};
-var eventBridge = new EventBridge();
-var event_bridge_default = eventBridge;
+var SearchResultsContainer_default = React7.memo(SearchResultsContainer);
 
 // src/util/utils.ts
 function isBlank(str) {
@@ -23783,219 +23774,38 @@ function ResultsNumberSummary({
   return /* @__PURE__ */ React8.createElement("div", { className: "snr-result-summary" }, numberOfResults, " matches found in ", numberOfFilesWithMatches, " files");
 }
 
-// src/react-components/SearchAndReplace.tsx
-var import_obsidian = require("obsidian");
-var INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER = 20;
-function SearchAndReplace({
-  fileOperator
-}) {
-  const [searchText, setSearchText] = (0, import_react.useState)("");
-  const [replaceText, setReplaceText] = (0, import_react.useState)("");
-  const [selectedIndex, setSelectedIndex] = (0, import_react.useState)(0);
-  const [searchResults, setSearchResults] = (0, import_react.useState)([]);
-  const [numberOfResultsToDisplay, setNumberOfResultsToDisplay] = (0, import_react.useState)(
-    INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
-  );
-  const [regexEnabled, setRegexEnabled] = (0, import_react.useState)(false);
-  const [caseSensitivityEnabled, setCaseSensitivityEnabled] = (0, import_react.useState)(false);
-  const [numberOfFilesWithMatches, setNumberOfFilesWithMatches] = (0, import_react.useState)(0);
-  const moveSelectionUp = (0, import_react.useCallback)(() => {
-    setSelectedIndex((i) => {
-      let newIndex;
-      if (i === 0) {
-        newIndex = i;
-      } else {
-        newIndex = i - 1;
-      }
-      scrollIntoView(newIndex);
-      return newIndex;
-    });
-  }, []);
-  const moveSelectionDown = (0, import_react.useCallback)(() => {
-    setSelectedIndex((i) => {
-      let newIndex;
-      if (i === searchResults.length - 1) {
-        newIndex = i;
-      } else {
-        newIndex = i + 1;
-      }
-      scrollIntoView(newIndex);
-      return newIndex;
-    });
-  }, [searchResults]);
-  const replaceSelection = (0, import_react.useCallback)(async () => {
-    if (searchResults.length === 0)
+// src/react-components/use-replace-selection.ts
+var import_react = __toESM(require_react());
+function useReplaceSelection(state, dispatch, fileOperator) {
+  return (0, import_react.useCallback)(async () => {
+    if (state.searchResults.length === 0)
       return;
     const replaceOperationResult = await fileOperator.replace(
-      searchResults[selectedIndex],
-      replaceText,
-      searchText,
-      regexEnabled,
-      caseSensitivityEnabled
+      state.searchResults[state.selectedIndex],
+      state.replacementText,
+      state.searchQuery,
+      state.regexEnabled,
+      state.caseSensitivityEnabled
     );
-    if (!replaceOperationResult) {
-      setSearchResults((previousResults) => {
-        return previousResults.filter((r, i) => i !== selectedIndex);
-      });
-    } else {
-      setSearchResults((previousResults) => {
-        const hasSameFilePathAndLineNumber = (r) => {
-          const samePath = r.filePath === replaceOperationResult.filePath;
-          const sameLineNumber = r.lineNumber === replaceOperationResult.lineNumber;
-          return samePath && sameLineNumber;
-        };
-        const firstIndexOfSamePathAndLineNumber = previousResults.findIndex(hasSameFilePathAndLineNumber);
-        const lastIndexOfSamePathAndLineNumber = findLastIndex(
-          previousResults,
-          hasSameFilePathAndLineNumber
-        );
-        if (selectedIndex > searchResults.length - 2) {
-          setSelectedIndex((s) => s - 1);
-        }
-        return [
-          ...previousResults.slice(
-            0,
-            firstIndexOfSamePathAndLineNumber
-          ),
-          ...replaceOperationResult.lineSearchResults,
-          ...previousResults.slice(
-            lastIndexOfSamePathAndLineNumber + 1
-          )
-        ];
-      });
-    }
+    dispatch({ type: "replace", replaceOperationResult });
   }, [
-    searchResults,
+    dispatch,
     fileOperator,
-    selectedIndex,
-    replaceText,
-    searchText,
-    regexEnabled,
-    caseSensitivityEnabled
+    state.caseSensitivityEnabled,
+    state.regexEnabled,
+    state.replacementText,
+    state.searchQuery,
+    state.searchResults,
+    state.selectedIndex
   ]);
-  const openSelectionInEditor = (0, import_react.useCallback)(async () => {
-    await fileOperator.open(searchResults[selectedIndex]);
-  }, [fileOperator, searchResults, selectedIndex]);
-  (0, import_react.useEffect)(() => {
-    event_bridge_default.onArrowUp = moveSelectionUp;
-    event_bridge_default.onArrowDown = moveSelectionDown;
-    event_bridge_default.onEnter = replaceSelection;
-    event_bridge_default.onCommandEnter = openSelectionInEditor;
-  }, [
-    moveSelectionUp,
-    moveSelectionDown,
-    replaceSelection,
-    openSelectionInEditor
-  ]);
-  const handleReplaceInputChanged = (event) => {
-    setReplaceText(event.target.value);
-  };
-  const search = (0, import_react.useCallback)(
-    async (query, withRegex, withCaseSensitivity) => {
-      const { searchResults: searchResults2, numberOfFilesWithMatches: numberOfFilesWithMatches2 } = await fileOperator.search(
-        query,
-        withRegex,
-        withCaseSensitivity
-      );
-      setNumberOfFilesWithMatches(numberOfFilesWithMatches2);
-      setSearchResults(searchResults2);
-      setSelectedIndex(0);
-      scrollIntoView(0);
-      setNumberOfResultsToDisplay(
-        INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
-      );
-    },
-    [fileOperator, regexEnabled]
-  );
-  const debouncedSearch = (0, import_react.useMemo)(
-    () => (0, import_obsidian.debounce)(
-      (query, withRegex, withCaseSensitivity) => search(query, withRegex, withCaseSensitivity),
-      500,
-      false
-    ),
-    [search]
-  );
-  const clearResults = (0, import_react.useCallback)(() => {
-    setSearchResults([]);
-    setNumberOfFilesWithMatches(0);
-  }, []);
-  const doSearch = (0, import_react.useCallback)(
-    (query, withRegex, withCaseSensitivity) => {
-      setSearchText(query);
-      if (isBlank(query)) {
-        clearResults();
-        return;
-      }
-      debouncedSearch(query, withRegex, withCaseSensitivity);
-    },
-    [clearResults, debouncedSearch]
-  );
-  const handleSearchInputChanged = (0, import_react.useCallback)(
-    async (event) => {
-      const query = event.target.value;
-      doSearch(query, regexEnabled, caseSensitivityEnabled);
-    },
-    [caseSensitivityEnabled, doSearch, regexEnabled]
-  );
-  const scrollThresholdExceededHandler = (0, import_react.useCallback)(
-    () => setNumberOfResultsToDisplay(
-      (n) => n + INITIAL_NUMBER_OF_RESULTS_TO_DISPLAY_PER_RENDER
-    ),
-    []
-  );
-  const selectedIndexChangedHandler = (0, import_react.useCallback)((i) => {
-    setSelectedIndex(i);
-    scrollIntoView(i);
-  }, []);
-  const regexButtonClickedHandler = (0, import_react.useCallback)(() => {
-    clearResults();
-    setRegexEnabled((p) => {
-      const newRegexEnabled = !p;
-      doSearch(searchText, newRegexEnabled, caseSensitivityEnabled);
-      return newRegexEnabled;
-    });
-  }, [caseSensitivityEnabled, clearResults, doSearch, searchText]);
-  const caseSensitivityButtonClickedHandler = (0, import_react.useCallback)(() => {
-    clearResults();
-    setCaseSensitivityEnabled((p) => {
-      const newCaseSensitivityEnabled = !p;
-      doSearch(searchText, regexEnabled, newCaseSensitivityEnabled);
-      return newCaseSensitivityEnabled;
-    });
-  }, [clearResults, doSearch, regexEnabled, searchText]);
-  return /* @__PURE__ */ React9.createElement(React9.Fragment, null, /* @__PURE__ */ React9.createElement(
-    SearchInput,
-    {
-      searchInputValue: searchText,
-      onSearchInputChange: handleSearchInputChanged,
-      onEnableRegexButtonClick: regexButtonClickedHandler,
-      regexEnabled,
-      onEnableCaseSensitivityButtonClick: caseSensitivityButtonClickedHandler,
-      caseSensitivityEnabled
-    }
-  ), /* @__PURE__ */ React9.createElement(
-    ReplaceInput,
-    {
-      value: replaceText,
-      onChange: handleReplaceInputChanged
-    }
-  ), /* @__PURE__ */ React9.createElement(
-    SearchResultsContainer,
-    {
-      selectedIndex,
-      selectedIndexChangedHandler,
-      numberOfResultsToDisplay,
-      searchResults,
-      scrollThresholdExceededHandler,
-      searchResultChosenHandler: replaceSelection
-    }
-  ), /* @__PURE__ */ React9.createElement(
-    ResultsNumberSummary,
-    {
-      numberOfResults: searchResults.length,
-      numberOfFilesWithMatches
-    }
-  ), /* @__PURE__ */ React9.createElement(PromptInstructions, null));
+}
+
+// src/react-components/use-scroll-selected-search-result-into-view.ts
+var import_react2 = __toESM(require_react());
+function useScrollSelectedSearchResultIntoView(selectedSearchResultIndex) {
+  (0, import_react2.useEffect)(() => {
+    scrollIntoView(selectedSearchResultIndex);
+  }, [selectedSearchResultIndex]);
 }
 function scrollIntoView(selectedIndex) {
   const searchResultElement = document.querySelector(
@@ -24004,14 +23814,249 @@ function scrollIntoView(selectedIndex) {
   searchResultElement == null ? void 0 : searchResultElement.scrollIntoView({ behavior: "auto", block: "nearest" });
 }
 
+// src/react-components/use-open-selection-in-editor.ts
+var import_react3 = __toESM(require_react());
+function useOpenSelectionInEditor(fileOperator, state) {
+  return (0, import_react3.useCallback)(async () => {
+    await fileOperator.open(state.searchResults[state.selectedIndex]);
+  }, [fileOperator, state.searchResults, state.selectedIndex]);
+}
+
+// src/react-components/use-bind-obsidian-event-handlers.ts
+var import_react4 = __toESM(require_react());
+
+// src/infrastructure/event-bridge.ts
+var EventBridge = class {
+  constructor() {
+    __publicField(this, "onArrowUp");
+    __publicField(this, "onArrowDown");
+    __publicField(this, "onEnter");
+    __publicField(this, "onCommandEnter");
+  }
+};
+var eventBridge = new EventBridge();
+var event_bridge_default = eventBridge;
+
+// src/react-components/use-bind-obsidian-event-handlers.ts
+function useBindObsidianEventHandlers(dispatch, replaceSelection, openSelectionInEditor) {
+  (0, import_react4.useEffect)(() => {
+    event_bridge_default.onArrowUp = () => dispatch({ type: "move_selection_up" });
+    event_bridge_default.onArrowDown = () => dispatch({ type: "move_selection_down" });
+    event_bridge_default.onEnter = replaceSelection;
+    event_bridge_default.onCommandEnter = openSelectionInEditor;
+  }, [replaceSelection, openSelectionInEditor, dispatch]);
+}
+
+// src/react-components/use-search.ts
+var import_react5 = __toESM(require_react());
+var import_obsidian = require("obsidian");
+function useSearch(state, dispatch, fileOperator) {
+  const search = (0, import_react5.useCallback)(
+    async (query, withRegex, withCaseSensitivity) => {
+      const { searchResults, numberOfFilesWithMatches } = await fileOperator.search(
+        query,
+        withRegex,
+        withCaseSensitivity
+      );
+      dispatch({
+        type: "search",
+        payload: {
+          nextNumberOfFilesWithMatches: numberOfFilesWithMatches,
+          nextSearchResults: searchResults
+        }
+      });
+    },
+    [dispatch, fileOperator]
+  );
+  const debouncedSearch = (0, import_react5.useMemo)(
+    () => (0, import_obsidian.debounce)(
+      (query, withRegex, withCaseSensitivity) => search(query, withRegex, withCaseSensitivity),
+      300,
+      true
+    ),
+    [search]
+  );
+  (0, import_react5.useEffect)(() => {
+    if (isBlank(state.searchQuery)) {
+      dispatch({ type: "clear" });
+      return;
+    }
+    debouncedSearch(state.searchQuery, state.regexEnabled, state.caseSensitivityEnabled);
+  }, [
+    state.searchQuery,
+    state.regexEnabled,
+    state.caseSensitivityEnabled,
+    debouncedSearch,
+    dispatch
+  ]);
+}
+
+// src/react-components/SearchAndReplace.tsx
+var NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH = 20;
+function reducer(state, action) {
+  switch (action.type) {
+    case "clear": {
+      return {
+        ...state,
+        searchResults: [],
+        numberOfFilesWithMatches: 0
+      };
+    }
+    case "move_selection_up": {
+      const { selectedIndex } = state;
+      const nextSelectedIndex = selectedIndex === 0 ? selectedIndex : selectedIndex - 1;
+      return { ...state, selectedIndex: nextSelectedIndex };
+    }
+    case "move_selection_down": {
+      const { selectedIndex, searchResults } = state;
+      const nextSelectedIndex = selectedIndex === searchResults.length - 1 ? selectedIndex : selectedIndex + 1;
+      return { ...state, selectedIndex: nextSelectedIndex };
+    }
+    case "update_replacement_text": {
+      const { nextReplacementText } = action;
+      return { ...state, replacementText: nextReplacementText };
+    }
+    case "update_selected_index": {
+      const { nextSelectedIndex } = action;
+      return { ...state, selectedIndex: nextSelectedIndex };
+    }
+    case "toggle_regex_enabled": {
+      const { regexEnabled } = state;
+      return { ...state, regexEnabled: !regexEnabled };
+    }
+    case "toggle_case_sensitivity_enabled": {
+      const { caseSensitivityEnabled } = state;
+      return { ...state, caseSensitivityEnabled: !caseSensitivityEnabled };
+    }
+    case "scroll_threshold_exceeded": {
+      const { numberOfResultsToDisplay } = state;
+      const nextNumberOfResultsToDisplay = numberOfResultsToDisplay + NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH;
+      return { ...state, numberOfResultsToDisplay: nextNumberOfResultsToDisplay };
+    }
+    case "search": {
+      const { nextSearchResults, nextNumberOfFilesWithMatches } = action.payload;
+      return {
+        ...state,
+        searchResults: nextSearchResults,
+        numberOfFilesWithMatches: nextNumberOfFilesWithMatches,
+        selectedIndex: 0,
+        numberOfResultsToDisplay: NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH
+      };
+    }
+    case "update_search_query": {
+      const { nextSearchQuery } = action;
+      return { ...state, searchQuery: nextSearchQuery };
+    }
+    case "replace": {
+      const { replaceOperationResult } = action;
+      const { searchResults, selectedIndex } = state;
+      if (!replaceOperationResult) {
+        const nextSearchResults2 = searchResults.filter((_, i) => i !== selectedIndex);
+        return { ...state, searchResults: nextSearchResults2 };
+      }
+      const hasSameFilePathAndLineNumber = (r) => {
+        const samePath = r.filePath === replaceOperationResult.filePath;
+        const sameLineNumber = r.lineNumber === replaceOperationResult.lineNumber;
+        return samePath && sameLineNumber;
+      };
+      const firstIndexOfSamePathAndLineNumber = searchResults.findIndex(
+        hasSameFilePathAndLineNumber
+      );
+      const lastIndexOfSamePathAndLineNumber = findLastIndex(
+        searchResults,
+        hasSameFilePathAndLineNumber
+      );
+      const outOfBounds = selectedIndex > searchResults.length - 2;
+      const nextSelectedIndex = outOfBounds ? selectedIndex - 1 : selectedIndex;
+      const nextSearchResults = [
+        ...searchResults.slice(0, firstIndexOfSamePathAndLineNumber),
+        ...replaceOperationResult.lineSearchResults,
+        ...searchResults.slice(lastIndexOfSamePathAndLineNumber + 1)
+      ];
+      return {
+        ...state,
+        searchResults: nextSearchResults,
+        selectedIndex: nextSelectedIndex
+      };
+    }
+    default: {
+      throw new Error(`Unhandled action type: ${action}`);
+    }
+  }
+}
+function SearchAndReplace({ fileOperator }) {
+  const [state, dispatch] = (0, import_react6.useReducer)(reducer, {
+    searchQuery: "",
+    replacementText: "",
+    selectedIndex: 0,
+    numberOfResultsToDisplay: NUMBER_OF_RESULTS_TO_DISPLAY_PER_BATCH,
+    regexEnabled: false,
+    caseSensitivityEnabled: false,
+    searchResults: [],
+    numberOfFilesWithMatches: 0
+  });
+  useSearch(state, dispatch, fileOperator);
+  useScrollSelectedSearchResultIntoView(state.selectedIndex);
+  const replaceSelection = useReplaceSelection(state, dispatch, fileOperator);
+  const openSelectionInEditor = useOpenSelectionInEditor(fileOperator, state);
+  useBindObsidianEventHandlers(dispatch, replaceSelection, openSelectionInEditor);
+  const handleReplaceInputChanged = (0, import_react6.useCallback)((event) => {
+    dispatch({ type: "update_replacement_text", nextReplacementText: event.target.value });
+  }, []);
+  const handleSearchInputChanged = (0, import_react6.useCallback)((event) => {
+    dispatch({ type: "update_search_query", nextSearchQuery: event.target.value });
+  }, []);
+  const handleScrollThresholdExceeded = (0, import_react6.useCallback)(() => {
+    dispatch({ type: "scroll_threshold_exceeded" });
+  }, []);
+  const handleSelectedIndexChanged = (0, import_react6.useCallback)((i) => {
+    dispatch({ type: "update_selected_index", nextSelectedIndex: i });
+  }, []);
+  const handleToggleRegexSearch = (0, import_react6.useCallback)(() => {
+    dispatch({ type: "clear" });
+    dispatch({ type: "toggle_regex_enabled" });
+  }, []);
+  const handleToggleCaseSensitiveSearch = (0, import_react6.useCallback)(() => {
+    dispatch({ type: "clear" });
+    dispatch({ type: "toggle_case_sensitivity_enabled" });
+  }, []);
+  return /* @__PURE__ */ React9.createElement(React9.Fragment, null, /* @__PURE__ */ React9.createElement(
+    SearchInput,
+    {
+      value: state.searchQuery,
+      onChange: handleSearchInputChanged,
+      regexEnabled: state.regexEnabled,
+      onToggleRegexSearch: handleToggleRegexSearch,
+      caseSensitivityEnabled: state.caseSensitivityEnabled,
+      onToggleCaseSensitiveSearch: handleToggleCaseSensitiveSearch
+    }
+  ), /* @__PURE__ */ React9.createElement(ReplaceInput, { value: state.replacementText, onChange: handleReplaceInputChanged }), /* @__PURE__ */ React9.createElement(
+    SearchResultsContainer_default,
+    {
+      searchResults: state.searchResults,
+      selectedIndex: state.selectedIndex,
+      numberOfResultsToDisplay: state.numberOfResultsToDisplay,
+      onSelectedIndexChanged: handleSelectedIndexChanged,
+      onScrollThresholdExceeded: handleScrollThresholdExceeded,
+      onSearchResultChosen: replaceSelection
+    }
+  ), /* @__PURE__ */ React9.createElement(
+    ResultsNumberSummary,
+    {
+      numberOfResults: state.searchResults.length,
+      numberOfFilesWithMatches: state.numberOfFilesWithMatches
+    }
+  ), /* @__PURE__ */ React9.createElement(PromptInstructions, null));
+}
+
 // src/obsidian-components/search-and-replace-modal.tsx
 var SearchAndReplaceModal = class extends import_obsidian2.Modal {
   constructor(app, fileOperator) {
     super(app);
-    __publicField(this, "root");
+    __publicField(this, "reactRoot");
     __publicField(this, "fileOperator");
     this.prepareModalEl();
-    this.initReactRoot();
+    this.reactRoot = (0, import_client.createRoot)(this.modalEl);
     this.registerEventListeners();
     this.fileOperator = fileOperator;
   }
@@ -24019,9 +24064,6 @@ var SearchAndReplaceModal = class extends import_obsidian2.Modal {
     this.modalEl.replaceChildren();
     this.modalEl.addClass("prompt");
     this.modalEl.removeClass("modal");
-  }
-  initReactRoot() {
-    this.root = (0, import_client.createRoot)(this.modalEl);
   }
   registerEventListeners() {
     this.scope.register([], "ArrowUp", (e, ctx) => {
@@ -24051,16 +24093,12 @@ var SearchAndReplaceModal = class extends import_obsidian2.Modal {
     });
   }
   onOpen() {
-    if (!this.root)
-      return;
-    this.root.render(
-      /* @__PURE__ */ React10.createElement(React10.StrictMode, null, /* @__PURE__ */ React10.createElement(SearchAndReplace, { fileOperator: this.fileOperator }))
+    this.reactRoot.render(
+      /* @__PURE__ */ React10.createElement(SearchAndReplace, { fileOperator: this.fileOperator })
     );
   }
   onClose() {
-    if (!this.root)
-      return;
-    this.root.unmount();
+    this.reactRoot.unmount();
   }
 };
 
@@ -24109,11 +24147,7 @@ var FileOperator = class {
     if (isBlank(query)) {
       return EMPTY_SEARCH_OPERATION_RESULT;
     }
-    const queryRegex = this.createQueryRegex(
-      query,
-      regexEnabled,
-      caseSensitivityEnabled
-    );
+    const queryRegex = this.createQueryRegex(query, regexEnabled, caseSensitivityEnabled);
     const markdownFiles = this.app.vault.getMarkdownFiles();
     const searchResults = [];
     let numberOfFilesWithMatches = 0;
@@ -24152,9 +24186,7 @@ var FileOperator = class {
     const matches = line.matchAll(queryRegex);
     return [...matches].map((match) => {
       if (match.index === void 0)
-        throw new Error(
-          "Regex match index was undefined. This should never happen."
-        );
+        throw new Error("Regex match index was undefined. This should never happen.");
       return new SearchResult(
         line,
         lineNumber,
@@ -24190,13 +24222,13 @@ var FileOperator = class {
         ch: searchResult.matchEndIndex + 1
       }
     );
-    editor.replaceSelection(replacementText);
+    const queryRegex = this.createQueryRegex(query, regexEnabled, caseSensitivityEnabled);
+    if (regexEnabled) {
+      editor.replaceSelection(editor.getSelection().replaceAll(queryRegex, replacementText));
+    } else {
+      editor.replaceSelection(replacementText);
+    }
     await this.app.vault.modify(file, editor.getValue());
-    const queryRegex = this.createQueryRegex(
-      query,
-      regexEnabled,
-      caseSensitivityEnabled
-    );
     const lineSearchResults = this.searchInLine(
       editor.getLine(searchResult.lineNumber - 1),
       searchResult.lineNumber,
@@ -24249,9 +24281,9 @@ var SearchAndReplacePlugin = class extends import_obsidian3.Plugin {
   }
   async onload() {
     await this.loadSettings();
-    this.thisAddPluginCommand();
+    this.addPluginCommand();
   }
-  thisAddPluginCommand() {
+  addPluginCommand() {
     this.addCommand({
       id: "search-and-replace",
       name: "Search and Replace in all files",

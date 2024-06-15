@@ -69,7 +69,7 @@ Vorteil: im Programm muss man sich nur um das Modell kümmern, dargestellt werde
 
 ## Java Swing
 
-```java
+```java title='Java Swing Application'
 JFrame window = new JFrame();
 
 window.setDefaultCloseOperation(WindowConstants.)

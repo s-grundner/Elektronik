@@ -20,11 +20,9 @@
   "obsidian-trash-explorer",
   "vim-toggle",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-embedded-code-title",
   "wikilinks-to-mdlinks-obsidian",
   "obsidian-hider",
   "home-tab",
-  "pseudocode-in-obs",
   "obsidian-hover-editor",
   "code-styler",
   "dataview",
@@ -38,11 +36,12 @@
   "obsidian-banners",
   "obsidian-auto-link-title",
   "table-editor-obsidian",
-  "obsidian-advanced-codeblock",
   "calendar",
   "buttons",
   "obsidian-icon-folder",
   "obsidian-react-components",
   "excel",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-embedded-code-title",
+  "pseudocode-in-obs"
 ]
