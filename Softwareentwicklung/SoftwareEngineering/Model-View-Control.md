@@ -72,5 +72,6 @@ Vorteil: im Programm muss man sich nur um das Modell kümmern, dargestellt werde
 ```java
 JFrame window = new JFrame();
 
-window.setDefaultCloseOperation(WindowConstants.)
+window.setDefaultCloseOperation(WindowConstants.);
+
 ```
