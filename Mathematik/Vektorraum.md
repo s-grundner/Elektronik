@@ -27,7 +27,10 @@ professor:
 
 ## Unterraum
 
-![](assets/Pasted%20image%2020240129165401.png)
+> [!important] Sei $(V,+, \cdot)$ ein Vektoraum über einem Körper $K$.
+> Eine nichtleere Teilmenge $U \subseteq V$ heißt Unterraum des Vektorraumes, wenn $U$ bzgl. „+“ und ,.“ abgeschlossen ist.
+> Wenn also für alle $u, v \in U$ und alle $\lambda, \mu \in K$ gilt:
+> $$\lambda \cdot u+\mu \cdot v \in U $$
 
 > [!example] Beispiele von Unterräumen
 > - Die Menge der oberen (bzw. unteren) $(n\times n)$-[Dreiecksmatrizen](Dreiecksmatrix.md) ist Unterraum von $\mathbb{R}^{n\times n}$

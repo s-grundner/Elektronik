@@ -13,6 +13,7 @@ professor:
 cited:
 ---
  
+
 # Funktionenfolge
 
 > [!info] Definition 15.1. Für $n \in \mathbb{N}$ seien $f_n: A \rightarrow B$ und $f: A \rightarrow B$ Funktionen.

@@ -19,3 +19,17 @@ banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 ## 🍎Mampfen
 
 ---
+
+> [!important] Due this week
+>
+> ``` tasks
+> due this week
+> ```
+
+> [!success] Done this week
+>
+> ```tasks
+> done this week
+> short form
+> limit 100
+> ```
