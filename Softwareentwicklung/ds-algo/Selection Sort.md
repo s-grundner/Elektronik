@@ -1,10 +1,18 @@
 ---
-tags: ["Algorithmus/Sortieren", "Algorithmus"]
-aliases: ["Selection-Sort"]
+tags:
+  - Algorithmus/Sortieren
+  - Algorithmus
+aliases:
+  - Selection-Sort
 created: 19th August 2023
+complexity: $\mathcal{O}(n^{2})$
 ---
 
 # Selection Sort
+
+
+> [!info] Complexity: `$=dv.current().complexity`
+
 
 Algorithmus zum aufsteigenden Sortieren:
 
@@ -30,7 +38,7 @@ Kennzeichen:
 
 - Benötigt keinen weiteren Speicherplatz (nur zum Vertauschen, ist von der Feldgröße unabhängig).
 - Jedes Feld wir maximal einmal vertauscht.
-- Laufzeit $O(n^2)$: das Feld wird in n-Schritten nach dem kleinsten Feld durchsucht und das wird n-mal gemacht.
+- Laufzeit `$=dv.current().complexity`: das Feld wird in n-Schritten nach dem kleinsten Feld durchsucht und das wird n-mal gemacht.
 - Wenn sich an der ersten Stelle des Feldes der größte Wert befindet, dann müssen sämtliche kleineren Werte "vorbeigetauscht" werden.  
   Verbesserung: abwechselnd Maximum und Minimum suchen und an oberes beziehungsweise unteres Ende stellen.
 - Schon fertig sortierte Felder werden nicht erkannt.
