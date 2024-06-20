@@ -39,6 +39,8 @@ public class DigitInStringIterator implements Iterator<Integer> {
 
   @Override
   public Integer next() {
+    idx++;
+    return str.charAt()
   }
 
 }
