@@ -11,6 +11,7 @@ professor:
 cited:
 ---
  
+
 # Iterator
 
 Eine Klasse die das Iterator Interface implementiert
@@ -40,12 +41,11 @@ public class DigitInStringIterator implements Iterator<Integer> {
   @Override
   public Integer next() {
     idx++;
-    return str.charAt()
+    return str.charAt(idx - 1);
   }
 
 }
 ```
-
 
 ## Mit Innerer Klasse
 
@@ -73,7 +73,6 @@ public class Test {
 
 ```
 
-
 ## Iterator vs Iterable
 
 ```java
@@ -90,3 +89,5 @@ while(iterator.hasNext()) {
   iterator.next()
 }
 ```
+
+How to make an object iterable.
