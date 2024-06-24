@@ -1,13 +1,17 @@
 ---
-tags: []
-aliases:
+tags: 
+aliases: 
   - Polarkoordinaten
+keywords: 
 subject:
-  - ksn
-source:
-  - Martin Aichriedler
-created: 24th November 2022
+  - VL
+  - Mathematik 2
+semester: SS24
+created: 31. August 2023
+professor:
+cited:
 ---
+ 
 
 # Kugelkoordinaten
 
