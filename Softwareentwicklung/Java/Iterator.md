@@ -67,10 +67,6 @@ public class Test {
     } 
   }
 }
-
-
-
-
 ```
 
 ## Iterator vs Iterable
