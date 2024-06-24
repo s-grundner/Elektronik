@@ -305,3 +305,52 @@ Das Attribut `final` bei Objektfeldern bedeutet, dass der Wert des Feldes nach s
 Wann und wo müssen Objektfelder, die final deklariert sind, gesetzt werden?
 ?
 Final deklarierte Objektfelder müssen entweder direkt bei der Deklaration oder im Konstruktor der Klasse gesetzt werden. Es ist erforderlich, dass sie spätestens beim Abschluss der Initialisierung des Objekts einen Wert erhalten haben.
+
+---
+
+Erläutern Sie das Schema zur Implementierung von Getter und Setter-Methoden.
+?
+Mit Getter und Setter sollen private Felder kontrollierter über öffentliche Methoden Zugänglich gemacht werden. Anstatt das Feld `public` zu deklarieren 
+
+---
+
+Schreiben Sie für ein privates Feld `private String name;` Getter und Setter-Methoden.
+?
+
+```java
+private String name;
+
+public String getName() { return name; }
+public void setName(String name) { this.name = name; }
+
+```
+
+---
+
+Record-Klassen sind spezielle Klassen in Java. Wie werden Record-Klassen definiert und welche Eigenschaften sind damit verbunden?
+?
+Mit Record Klassen werden unveränderliche Datenträger definiert.
+Es werden automatisch für die private final Felder,
+- öffentliche Getter-Methoden,
+- ein Konstruktor,
+- `equals()`,
+- `hashCode()`
+- und `toString()` Methoden generiert.
+
+---
+Record-Klassen definiert man Komponenten.
+?
+
+---
+
+Was ist bei Record-Klassen erlaubt und was ist nicht erlaubt?
+?
+
+---
+
+Enumerationsklassen sind spezielle Klassen in Java. Wie werden Enumerationsklassen definiert und welche Eigenschaften sind damit verbunden?
+?
+
+---
+
+Was ist bei Enumerationsklassen erlaubt und was ist nicht erlaubt?
