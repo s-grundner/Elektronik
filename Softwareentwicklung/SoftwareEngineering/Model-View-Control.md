@@ -75,3 +75,6 @@ JFrame window = new JFrame();
 window.setDefaultCloseOperation(WindowConstants.);
 
 ```
+
+# Theorie Fragen
+
