@@ -318,7 +318,6 @@ Mit Getter und Setter sollen private Felder kontrollierter über öffentliche Me
 
 Schreiben Sie für ein privates Feld `private String name;` Getter und Setter-Methoden.
 ?
-
 ```java
 private String name;
 
@@ -352,6 +351,7 @@ Was ist bei Record-Klassen erlaubt und was ist nicht erlaubt?
 - Erben von anderen Klassen (Records sind final).
 - Ändern der automatisch generierten Methoden `equals()`, `hashCode()` und `toString()` in einer Weise, die gegen die Vertragsbedingungen verstößt.
 - Manuell definierte Felder, die nicht in der Komponentenliste enthalten sind.
+
 ---
 
 Enumerationsklassen sind spezielle Klassen in Java. Wie werden Enumerationsklassen definiert und welche Eigenschaften sind damit verbunden?
