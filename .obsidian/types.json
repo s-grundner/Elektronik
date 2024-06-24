@@ -36,7 +36,6 @@
     "cited": "checkbox",
     "excalidraw-open-md": "checkbox",
     "excalidraw-export-embed-scene": "checkbox",
-    "excalidraw-embeddable-theme": "text",
-    "Number": "number"
+    "excalidraw-embeddable-theme": "text"
   }
 }

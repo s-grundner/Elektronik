@@ -286,13 +286,15 @@ Welche Sichtbarkeitsattribute gibt es in Java? Welche Sichtbarkeit ist mit den u
 ---
 
 Geben Sie an, in welchem Bereich ein Programmelement, bei dem kein Sichtbarkeitsattribut angegeben ist, sichtbar ist. Kreuzen Sie an:
-- in Klasse
+- in der Klasse
 - im gleichen Package
 - in Subklassen im gleichen Package
 - in allen Subklassen
 - in Klassen von anderen Packages
 ?
 im gleichen Package.
+in der Klasse
+in Subklassen im gleichen Package
 
 ---
 
