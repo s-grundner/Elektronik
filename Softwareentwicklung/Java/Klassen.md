@@ -329,7 +329,7 @@ public void setName(String name) { this.name = name; }
 
 Record-Klassen sind spezielle Klassen in Java. Wie werden Record-Klassen definiert und welche Eigenschaften sind damit verbunden?
 ?
-Mit Record Klassen werden unveränderliche Datenträger definiert.
+Mit Record Klassen werden unveränderliche Datenträger definiert: `public record Person(String name, int age) {}`
 Es werden automatisch für die private final Felder,
 - öffentliche Getter-Methoden,
 - ein Konstruktor,
@@ -338,19 +338,36 @@ Es werden automatisch für die private final Felder,
 - und `toString()` Methoden generiert.
 
 ---
-Record-Klassen definiert man Komponenten.
-?
-
----
 
 Was ist bei Record-Klassen erlaubt und was ist nicht erlaubt?
 ?
-
+**Erlaubt:**
+- Definieren von zusätzlichen Methoden.
+- Implementieren von Interfaces.
+- Hinzufügen von statischen Feldern und Methoden.
+- Schreiben eines benutzerdefinierten Konstruktors.
+**Nicht erlaubt:**
+- Erben von anderen Klassen (Records sind final).
+- Ändern der automatisch generierten Methoden `equals()`, `hashCode()` und `toString()` in einer Weise, die gegen die Vertragsbedingungen verstößt.
+- Manuell definierte Felder, die nicht in der Komponentenliste enthalten sind.
 ---
 
 Enumerationsklassen sind spezielle Klassen in Java. Wie werden Enumerationsklassen definiert und welche Eigenschaften sind damit verbunden?
 ?
+Enums werden mit dem Schlüsselwort `enum` definiert.
+Jede Instanz eines Enums ist ein `public static final` Objekt.
+Enums können Konstruktoren, Methoden und Felder enthalten, aber die Instanzen sind vordefiniert und unveränderlich.
 
 ---
 
 Was ist bei Enumerationsklassen erlaubt und was ist nicht erlaubt?
+?
+**Erlaubt:**
+- Definieren von Konstruktoren, Methoden und Feldern.
+- Implementieren von Interfaces.
+- Hinzufügen von benutzerdefinierten Methoden für spezielle Funktionalitäten.
+- Verwenden von Enums in `switch`-Statements.
+**Nicht erlaubt:**
+- Erben von anderen Klassen (Enums sind final und können nicht erweitert werden).
+- Manuelles Erstellen von Enum-Instanzen außerhalb der definierten Konstanten.
+- Verändern der Enum-Konstanten zur Laufzeit (sie sind unveränderlich)
