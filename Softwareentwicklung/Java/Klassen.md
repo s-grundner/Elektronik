@@ -4,10 +4,17 @@ tags:
   - OOP
 aliases:
   - Kapselung
-  - "Java_Klasse"
-  - Java_Class
-created: 29th November 2022
+keywords: 
+subject:
+  - VL
+  - Softwareentwicklung 2
+semester: SS24
+created: 29. November 2022
+professor:
+  - Herbert Prähofer
+cited:
 ---
+ 
 
 # Objekt Orientierte Programmierung - Kapselung
 
@@ -88,7 +95,6 @@ a.printNum();	// Ausführen der Methode printNum des Objekts auf das a zeigt.
 ```
 
 > **Objekte** können als Variable vom Typ ihrer Klasse verstanden werden.
-
 
 ## Konstruktor
 
@@ -232,7 +238,7 @@ Die Variable **pi** kann verwendet werden ohne das ein ein Objekt der Klasse Kre
 
 > **static:** das Element bezieht sich nicht auf eine Instanz/Objekt der Klasse. Daher ist auch kein Objekt notwendig um auf das Attribut/die Methode zugreifen zu können.
 >
-> *<leer>* **:** das Element bezieht sich auf ein Objekt. Daher ist auch ein Objekt notwendig um auf das Attribut/die Methode zugreifen zu können.
+> *\<leer\>* **:** das Element bezieht sich auf ein Objekt. Daher ist auch ein Objekt notwendig um auf das Attribut/die Methode zugreifen zu können.
 
 ## Kapselung
 
@@ -248,3 +254,54 @@ Den gibt es in Java nicht, der Garbage-Collector (GC) zerstört Objekte automati
 ref = null;   // GC loescht das Objekt auf dem die Referenz ref zeigte
 ```
 
+# Theorie Fragen - 01 Klassen
+
+Erklären Sie den Unterschied zwischen Wertesemantik und Referenzsemantik.
+?
+Der unterschied ist die Art des Zugriffs der Variablen auf die Daten. 
+- **Wertesemantik**: Es wird der Wert der Variable Kopiert. Änderungen an der Kopie haben keinen Einfluss auf das Original.
+- **Referenzsemantik**: Hier werden Referenzen bzw. Zeiger auf die Daten verwendet. Änderungen an der Referenz beeinfluss das Original und umgekehrt.
+
+---
+
+In Java können Methoden überladen werden. Was bedeutet Überladen von Methoden?
+?
+Hier hat eine Klasse mehrere Methoden mit dem selben Namen und dem selben Rückgabewert. Die Anzahl bzw. der Typ der Parameter muss sich jedoch von allen anderen gleichnamigen Methoden unterscheiden
+
+---
+
+Bei überladenen Methoden wird bei einem Aufruf wird eine Methode aus den überladenen Methoden ausgewählt. Wie erfolgt die Auswahl?
+?
+Die Auswahl erfolgt anhand der Signatur der Methode. Die Signatur umfasst den Methodennamen und die Parameterliste. Der Compiler wählt die Methode, deren Parameterliste am besten zu den beim Aufruf übergebenen Argumenten passt. D
+
+---
+
+Welche Sichtbarkeitsattribute gibt es in Java? Welche Sichtbarkeit ist mit den unterschiedlichen Attributen definiert?
+?
+- **public**: Die Methode oder das Feld ist überall sichtbar, d.h., in allen Klassen.
+- **protected**: Die Methode oder das Feld ist in der gleichen Klasse, im gleichen Package und in Subklassen sichtbar.
+- **default** (keine Modifikatoren, auch package-private genannt): Die Methode oder das Feld ist nur im gleichen Package sichtbar.
+- **private**: Die Methode oder das Feld ist nur innerhalb der gleichen Klasse sichtbar.
+
+---
+
+Geben Sie an, in welchem Bereich ein Programmelement, bei dem kein Sichtbarkeitsattribut angegeben ist, sichtbar ist. Kreuzen Sie an:
+- in Klasse
+- im gleichen Package
+- in Subklassen im gleichen Package
+- in allen Subklassen
+- in Klassen von anderen Packages
+?
+im gleichen Package.
+
+---
+
+Was bedeutet das Attribut final bei Objektfeldern?
+?
+Das Attribut `final` bei Objektfeldern bedeutet, dass der Wert des Feldes nach seiner Initialisierung nicht mehr geändert werden kann. Das Feld muss also genau einmal einen Wert zugewiesen bekommen und bleibt danach konstant.
+
+---
+
+Wann und wo müssen Objektfelder, die final deklariert sind, gesetzt werden?
+?
+Final deklarierte Objektfelder müssen entweder direkt bei der Deklaration oder im Konstruktor der Klasse gesetzt werden. Es ist erforderlich, dass sie spätestens beim Abschluss der Initialisierung des Objekts einen Wert erhalten haben.
