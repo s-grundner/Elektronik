@@ -78,3 +78,45 @@ window.setDefaultCloseOperation(WindowConstants.);
 
 # Theorie Fragen
 
+Was versteht man unter einem objekt-orientiertem Framework?
+?
+
+---
+
+Erläutern Sie den Unterschied zwischen einer Klassenbibliothek und einem objekt-orientiertem Framework.
+?
+
+---
+
+Charakerisieren Sie die Aufgaben der drei Teile der MVC-Architektur:
+- Model
+- View
+- Controller
+?
+
+---
+
+Was will man mit dem Entwurfsmuster Beobachter (Observer Pattern) erreichen?
+?
+
+---
+
+Beschreiben Sie das allgemeine Schema des Entwurfsmusters Beobachter (Observer Pattern) umgesetzt. Erläutern Sie kurz diese drei Teile des MVC-Musters
+?
+
+---
+
+In Java werden Ereignisse durch drei Elemente implementiert:
+- Listener
+- Event-Objekt
+- Ereignisquelle.
+Beschreiben Sie kurz, wie diese drei Elemente in Java implementiert werden müssen.
+?
+
+---
+
+Das MVC-Muster wird bei Swing-Applikationen
+- durch eine Implementierung eines Modells
+- durch ein Listener-Interface und
+- durch eine EventObject-Klasse
+?
