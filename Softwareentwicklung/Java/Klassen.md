@@ -2,6 +2,7 @@
 tags:
   - Java
   - OOP
+  - flashcards/SWE2
 aliases:
   - Kapselung
 keywords: 
