@@ -158,8 +158,6 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > 
 > > double cool = res.apply(49); // (49 + 1) * 10.5 = 525.0
 > >```
-> > 
-
 
 
 > [!question] Was ist eine Methodenreferenz?
@@ -168,7 +166,9 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > [!success]- Lösung
 > > Methodenreferenzen snid Kurzformen für Lambda Ausdrücke
 
+
 > [!question] Geben Sie für folgende Methodenreferenzen die äquivalenten Lambda-Ausdrücke an:
+>
 > - `String::length`
 > - `"Ann"::equals`
 > - `LinkedList< String >::new`
@@ -177,9 +177,10 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > [!success]- Lösung 
 > > `(a) -> String.length(a)`
 > > `(a) -> "Ann".equals(a)`
-> > ``
+> > `() -> new LinkedList< String >(a)` 
 
 > [!question] Lokale Variablen, die in Lambda-Ausdrücken verwendet werden, müssen welche Eigenschaft haben?
 >
 ?
 > > [!success]- Lösung
+> > Müssen final deklariert sein oder wie final verwendet werden (effectively final -> werden nur einmal eingesetzt)

@@ -16,96 +16,122 @@ cited:
 
 # Theoriefragen
 
-Wozu dient die Klasse Optional in Java?
+> [!question] Wozu dient die Klasse Optional in Java?
+?
+> > [!success]- Lösung
+> > Um mit null-Werte umzugehen 
+> > Statt Null bekommt man ein Optional zurück welches den zustand`Empty` annehmen kann.
+> > Vorteil: weniger Nullchecks. Daher bessere Verwendung in Functional Programming / Streams 
+
+---
+
+> [!question] Erklären Sie mit wenigen Worten das Prinzip der Bedarfsauswertung (lazy evaluation) bei Streams.
+?
+> > [!success]- Lösung
+> > 
+
+---
+
+> [!question] Bei Streams unterscheidet man
+> - erzeugende Operationen
+> - Zwischenoperationen
+> - Terminaloperationen
+> 
 ?
 
 ---
 
-Erklären Sie mit wenigen Worten das Prinzip der Bedarfsauswertung (lazy evaluation) bei Streams.
+> [!question] Charakterisieren Sie diese drei Arten von Operationen. Geben Sie jeweils ein Beispiel.
+> Was machen folgende Methoden von Stream<T>
+> ```java
+> Stream<T> limit(long maxSize)
+> Stream<T> skip(long maxSize)
+> Stream<T> takeWhile(Predicate<? super T > predicate)
+> Stream<T> dropWhile(Predicate<? super T > predicate)
+> Stream<T> distinct()
+> ```
 ?
+> > [!success]- Lösung
 
----
-
-Bei Streams unterscheidet man
-- erzeugende Operationen
-- Zwischenoperationen
-- Terminaloperationen
-?
-
----
-
-Charakterisieren Sie diese drei Arten von Operationen. Geben Sie jeweils ein Beispiel.
-Was machen folgende Methoden von Stream<T>
-```java
-Stream<T> limit(long maxSize)
-Stream<T> skip(long maxSize)
-Stream<T> takeWhile(Predicate<? super T > predicate)
-Stream<T> dropWhile(Predicate<? super T > predicate)
-Stream<T> distinct()
-```
-?
 
 ---
 
 
-Die Methode `flatMap` von Stream<T> hat folgende Signatur:
-```java
-<R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper)
-```
-Erläutern Sie die Methode, indem Sie den Parameter und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
+> [!question] Die Methode `flatMap` von Stream<T> hat folgende Signatur:
+> 
+> ```java
+> <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper)
+> ```
+> Erläutern Sie die Methode, indem Sie den Parameter und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
 ?
+> > [!success]- Lösung
+
 
 --- 
 
-Die Methode `reduce` von `Stream <T>` hat folgende Signatur:
-```java
-<U> U reduce(U identity, BiFunction<U, ? super T, U> accumulator, Binaryoperator<U> combiner)
-```
-Erläutern Sie die Methode, indem Sie den Parameter accumulator und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
+> [!question] Die Methode `reduce` von `Stream <T>` hat folgende Signatur:
+> 
+> ```java
+> <U> U reduce(U identity, BiFunction<U, ? super T, U> accumulator, Binaryoperator<U> combiner)
+> ```
+> Erläutern Sie die Methode, indem Sie den Parameter accumulator und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
 ?
+> > [!success]- Lösung
+
 
 ---
 
-Die Methode `collect` von `Stream <T>` hat folgende Signatur:
-```java
-<R> R collect(Supplier<R> supplier,
-  BiConsumer<R, ? super T> accumulator,
-  BiConsumer<R, R> combiner)
-```
-Erläutern Sie die Methode, indem Sie den Parameter `accumulator` und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
+> [!question] Die Methode `collect` von `Stream <T>` hat folgende Signatur:
+> 
+> ```java
+> <R> R collect(Supplier<R> supplier,
+>   BiConsumer<R, ? super T> accumulator,
+>   BiConsumer<R, R> combiner)
+> ```
+> Erläutern Sie die Methode, indem Sie den Parameter `accumulator` und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
 ?
+> > [!success]- Lösung
+
 
 ---
 
-Was ist ein Collector?
+> [!question] Was ist ein Collector?
 ?
+> > [!success]- Lösung
+
 
 ---
 
-Die statische Methode partitioningBy von Collectors erzeugt einen Collector und hat folgende Signatur
-```java
-static <T> Collector<T, ?, Map<Boolean, List<T>>> partitioningBy(Predicate<? super T> predicate)
-```
-Erläutern Sie die Funktionsweise des erzeugten Collectors.
+> [!question] Die statische Methode partitioningBy von Collectors erzeugt einen Collector und hat folgende Signatur
+> 
+> ```java
+> static <T> Collector<T, ?, Map<Boolean, List<T>>> partitioningBy(Predicate<? super T> predicate)
+> ```
+> Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
+> > [!success]- Lösung
+
 
 --- 
 
-Die statische Methode groupingBy von Collectors erzeugt einen Collector und hat folgende Signatur
-```java
-static <T, K> Collector<T, ?, Map<K, List<T>>> groupingBy(Function<? super T, ? extends K> classifier)
-```
-Erläutern Sie die Funktionsweise des erzeugten Collectors.
+> [!question] Die statische Methode groupingBy von Collectors erzeugt einen Collector und hat folgende Signatur
+> ```java
+> static <T, K> Collector<T, ?, Map<K, List<T>>> groupingBy(Function<? super T, ? extends K> classifier)
+> ```
+> Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
+> > [!success]- Lösung
 
 --- 
 
-Die statische Methode joining von Collectors erzeugt einen Collector und hat folgende Signatur
-```java
-static Collector<CharSequence, ?, String> joining(
-  CharSequence delimiter,
-  CharSequence prefix,
-  CharSequence suffix)
-```
-Erläutern Sie die Funktionsweise des erzeugten Collectors.
+> [!question] Die statische Methode joining von Collectors erzeugt einen Collector und hat folgende Signatur
+> 
+> ```java
+> static Collector<CharSequence, ?, String> joining(
+>   CharSequence delimiter,
+>   CharSequence prefix,
+>   CharSequence suffix)
+> ```
+> Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
+> > [!success]- Lösung
