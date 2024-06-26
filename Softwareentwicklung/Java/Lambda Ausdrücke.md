@@ -10,8 +10,12 @@ created: 24. Juni 2024
 professor:
 cited:
 ---
- 
+
 # Lambdas
 
+
+
 # Theorie Frage 07-Lambdas
+
+
 
