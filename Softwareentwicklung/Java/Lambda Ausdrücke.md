@@ -28,24 +28,69 @@ Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kon
 > - **Consumer**: Verarbeiten von Werten
 > - **Supplier**: Erzeugen von Werten
 
-
-
 # Theorie Fragen
 
-Was zeichnet Funktionale Interfaces aus? Kreuzen Sie an:
-Haben nur eine Methode
-Haben nur Default-Methoden
-Haben nur statische Methoden
-Haben nur eine abstrakte Methode
+> [!question] Was zeichnet Funktionale Interfaces aus? Kreuzen Sie an:
+> - Haben nur eine Methode
+> - Haben nur Default-Methoden
+> - Haben nur statische Methoden
+> - Haben nur eine abstrakte Methode
+>
+?
+> > [!success]- Lösung
 
-Man unterscheidet folgende 4 Arten von funktionalen Interfaces in Java.
-Function <T, R>
-Predicate <T>
-Consumer<T>
-Supplier <T>
-Erläutern Sie den Einsatzbereich dieser 4 Arten von funktionalen Interfaces.
-Ein Lambda-Ausdruck erzeugt ein Objekt eines funktionalen Interfaces. Dieses durch den
-Lambda-Ausdruck erzeugte Objekt kann (kreuzen Sie an):
-in einer Liste gespeichert werden
-als Parameter einer Methode übergeben werden
-Rückgabewert einer Methode sein
+
+> [!question] Man unterscheidet folgende 4 Arten von funktionalen Interfaces in Java.
+> - `Function<T, R>`
+> - `Predicate<T>`
+> - `Consumer<T>`
+> - `Supplier<T>`
+> 
+> Erläutern Sie den Einsatzbereich dieser 4 Arten von funktionalen Interfaces.
+?
+> > [!success]- Lösung
+
+
+> [!question] Ein Lambda-Ausdruck erzeugt ein Objekt eines funktionalen Interfaces. Dieses durch den Lambda-Ausdruck erzeugte Objekt kann.
+> kreuzen Sie an:
+> - in einer Liste gespeichert werden
+> - als Parameter einer Methode übergeben werden
+> - Rückgabewert einer Methode sein
+> 
+?
+> > [!success]- Lösung
+
+> [!question] Beim Rumpf von Lambda-Ausdrücken unterscheidet man Statement-Rumpf und Expression-Rumpf.
+> Was ist der Unterschied? Wie wird bei diesen der Rückgabewert bestimmt?
+?
+> > [!success]- Lösung
+
+> [!question] Was versteht man unter „Target Typing"?
+?
+> > [!success]- Lösung
+
+> [!question] Was ist ein SAM-Typ?
+?
+> > [!success]- Lösung
+
+> [!question] Warum gibt es neben den generischen funktionalen Interfaces auch Interfaces für die Basisdatentypen, wie z.B. `IntToDoubleFunktion`?
+>
+?
+> > [!success]- Lösung
+
+> [!question] Was versteht man unter Funktionskomposition?
+?
+> > [!success]- Lösung
+
+> [!question] Erläutern Sie die Funktionsweise der Methode `andThen` beim funktionalen Interface Function:
+> ```java
+> public interface Function {
+> ...
+>    default Function andThen(Function after) { 
+>        return (T t) -> after.apply(this.apply(t));
+>    }
+> }
+> ```
+?
+> > [!success]- Lösung
+
