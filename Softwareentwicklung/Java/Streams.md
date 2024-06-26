@@ -49,10 +49,10 @@ cited:
 > > - meistens gefilterte Teilstreams
 > > - `limit(size)` es werden die ersten `size` werte in den Stream aufgenommen
 > > - `filter()` filtert die werte die durch den Stream fließen anhand eines predicates
-> > - map
 > > 
 > > **Terminaloperationen**
-> > 
+> > Operationen die den Stream abschließen
+> > `toList`
 
 ---
 
@@ -83,6 +83,7 @@ cited:
 
 
 --- 
+
 
 > [!question] Die Methode `reduce` von `Stream <T>` hat folgende Signatur:
 > 

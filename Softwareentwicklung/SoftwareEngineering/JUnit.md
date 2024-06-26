@@ -16,9 +16,23 @@
 > > - Quellcode wird ignoriert
 > > - Testfälle werden nur aus der Schnittstelle bzw. der Spezifikation abgeleitet.
 > > White-Box:
-> > - 
+> > - Quellcode der zu testenden Einheit (z.B. Methode) wird analysiert
+> > - Testfälle müssen alle Abdeckungsarten erfülle
+
 
 > [!question] Erklären Sie in einer kurzen Beschreibung die Prinzipien von JUnit-Tests. 
+> 
+?
+> > [!success]- Lösung
+> > Testprogramm, muss folgendes erfüllen:
+> > - Ausführung aller Operationen
+> > - Zugriff auf verschiedene Programmzustände
+> > - überprüfen auf korrekte Resultate mit `assert`
 
 
 > [!question] Welche Abdeckungsarten beim White-Box Testen kennen Sie?
+?
+> > [!success]- Lösung
+> > - **Anweisungsabdeckung**
+> > - **Bedingungsabdeckung**
+> > - **Pfadabdeckung**
