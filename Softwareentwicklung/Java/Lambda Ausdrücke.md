@@ -23,11 +23,16 @@ cited:
 
 Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kontext** bestimmt (*Target Typing*)
 
-> [!info] Von der Bibliothek bereitgestellte funktionale Interfaces:
-> - **Function**: Abbildung von Wert auf Resultat
-> - **Predicate**: Testen von Werten
-> - **Consumer**: Verarbeiten von Werten
-> - **Supplier**: Erzeugen von Werten
+## Funktionale Interfaces
+
+Von der Bibliothek bereitgestellte funktionale Interfaces:
+
+| Interface      | Abstrakte Methode   | Anwendung                                            |
+| :------------- | :------------------ | :--------------------------------------------------- |
+| Function<T, R> | `R apply(T t)`      | Abbildung von Argument(en) auf Wert                  |
+| Predicate<T\>  | `boolean test(T t)` | Test von Argument(en) (mit Ergebnis true oder false) |
+| Consumer<T\>   | `void accept(T t)`  | Aktion auf Argument(e) ohne Rückgabewert             |
+| Supplier<T\>   | `T get()`           | Kein Argument; für Erzeugen von Objekten (Factory)   |
 
 # Theorie Fragen
 
@@ -39,8 +44,14 @@ Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kon
 >
 ?
 > > [!success]- Lösung
-> 4
-> Beispiel für ein funktionales 
+> > **4** - Beispiel für ein funktionales Interface
+> >```java
+> > @FunctionalInterface
+> > public interface Function<T, R> {
+> >   R apply(T t);
+> >   ...
+> > }
+> > ```
 
 
 > [!question] Man unterscheidet folgende 4 Arten von funktionalen Interfaces in Java.
