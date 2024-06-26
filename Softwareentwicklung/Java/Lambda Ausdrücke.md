@@ -140,7 +140,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > ``` java
 > public interface Function< T, R > {
 >   ...
->   default Function andThen(Function< ? super R, ? extends V > after) { 
+>   default < V > Function < T, V > andThen(Function< ? super R, ? extends V > after) { 
 >     return (T t) -> after.apply(this.apply(t));
 >   }
 > }
@@ -149,9 +149,15 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > [!success]- Lösung
 
 ```java
+Function<T, R> fn = s -> s + 1;
+Function<T, R> fn2 = w -> w - 1;
+fn.andThen(after);
 
+Function res = (t) -> fn2.apply()
 
 ```
+
+
 
 > [!question] Was ist eine Methodenreferenz?
 >
