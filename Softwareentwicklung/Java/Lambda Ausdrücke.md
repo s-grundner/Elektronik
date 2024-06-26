@@ -145,19 +145,20 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 >   }
 > }
 > ```
+> 
 ?
 > > [!success]- Lösung
+> >
+> >``` java
+> > Function< T, R > fn = s -> s + 1; // T and R are Integers
+> > Function< R, V > fn2 = w -> w * 10.5; // V is a Double
 > > 
+> > Function< T, V > res = fn.andThen(fn2); // this is equal to the line below
+> > Function< T, V > res = (t) -> fn2.apply(fn.apply(t))
 > > 
-> > ```java
-> > Function<T, R> fn = s -> s + 1;
-> > Function<R, V> fn2 = w -> w * 10.5;
+> > double cool = res.apply(49); // (49 + 1) * 10.5 = 525.0
+> >```
 > > 
-> > Function<T, V> res = fn.andThen(fn2); // this is equal to the line below
-> > Function<T, V> res = (t) -> fn2.apply(fn.apply(t))
-> > 
-> > double cool = res.apply(49); // (49 +1 ) * 10.5 = 525.0
-> > ```
 
 
 
@@ -165,6 +166,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 >
 ?
 > > [!success]- Lösung
+> > Methodenreferenzen snid Kurzformen für Lambda Ausdrücke
 
 > [!question] Geben Sie für folgende Methodenreferenzen die äquivalenten Lambda-Ausdrücke an:
 > - `String::length`
@@ -173,6 +175,9 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 >
 ?
 > > [!success]- Lösung 
+> > `(a) -> String.length(a)`
+> > `(a) -> "Ann".equals(a)`
+> > ``
 
 > [!question] Lokale Variablen, die in Lambda-Ausdrücken verwendet werden, müssen welche Eigenschaft haben?
 >
