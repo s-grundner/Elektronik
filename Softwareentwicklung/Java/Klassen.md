@@ -273,7 +273,8 @@ Hier hat eine Klasse mehrere Methoden mit dem selben Namen und dem selben Rückg
 
 Bei überladenen Methoden wird bei einem Aufruf wird eine Methode aus den überladenen Methoden ausgewählt. Wie erfolgt die Auswahl?
 ?
-Die Auswahl erfolgt anhand der Signatur der Methode. Die Signatur umfasst den Methodennamen und die Parameterliste. Der Compiler wählt die Methode, deren Parameterliste am besten zu den beim Aufruf übergebenen Argumenten passt. D
+Die Auswahl erfolgt anhand der Signatur der Methode. Die Signatur umfasst den Methodennamen und die Parameterliste. Der Compiler wählt die Methode, deren Parameterliste am besten zu den beim Aufruf übergebenen Argumenten passt.
+<!--SR:!2024-06-30,4,270-->
 
 ---
 
@@ -365,12 +366,12 @@ Enums können Konstruktoren, Methoden und Felder enthalten, aber die Instanzen s
 
 Was ist bei Enumerationsklassen erlaubt und was ist nicht erlaubt?
 ?
-**Erlaubt:**
-- Definieren von Konstruktoren, Methoden und Feldern.
-- Implementieren von Interfaces.
-- Hinzufügen von benutzerdefinierten Methoden für spezielle Funktionalitäten.
-- Verwenden von Enums in `switch`-Statements.
-**Nicht erlaubt:**
-- Erben von anderen Klassen (Enums sind final und können nicht erweitert werden).
-- Manuelles Erstellen von Enum-Instanzen außerhalb der definierten Konstanten.
-- Verändern der Enum-Konstanten zur Laufzeit (sie sind unveränderlich)
+- **Erlaubt:**
+  - Definieren von Konstruktoren, Methoden und Feldern.
+  - Implementieren von Interfaces.
+  - Hinzufügen von benutzerdefinierten Methoden für spezielle Funktionalitäten.
+  - Verwenden von Enums in `switch`-Statements.
+- **Nicht erlaubt:**
+  - Erben von anderen Klassen (Enums sind final und können nicht erweitert werden).
+  - Manuelles Erstellen von Enum-Instanzen außerhalb der definierten Konstanten.
+  - Verändern der Enum-Konstanten zur Laufzeit (sie sind unveränderlich)

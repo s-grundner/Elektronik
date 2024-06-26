@@ -54,18 +54,18 @@ cited:
 > > **Terminaloperationen**
 > > Operationen die den Stream abschließen
 > > `toList` konvertiert den Stream zu einer *immutable* Liste
-> > `toArray`
 > > `collect`
+> > `reduce`
+> > `forEach`
 
 ---
 
-> [!question] Charakterisieren Sie diese drei Arten von Operationen. Geben Sie jeweils ein Beispiel.
-> Was machen folgende Methoden von Stream<T>
+> [!question] Was machen folgende Methoden von Stream<T>
 > ```java
 > Stream<T> limit(long maxSize)
 > Stream<T> skip(long maxSize)
-> Stream<T> takeWhile(Predicate<? super T > predicate)
-> Stream<T> dropWhile(Predicate<? super T > predicate)
+> Stream<T> takeWhile(Predicate<? super T> predicate)
+> Stream<T> dropWhile(Predicate<? super T> predicate)
 > Stream<T> distinct()
 > ```
 ?
