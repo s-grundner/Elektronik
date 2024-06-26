@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - flashcards/SWE2
 aliases: 
 keywords: 
 subject:
@@ -7,7 +8,7 @@ subject:
   - Softwareentwicklung 2
 semester: SS24
 created: 21. September 2023
-professor:
+professor: 
 cited:
 ---
  
@@ -52,7 +53,9 @@ cited:
 > > 
 > > **Terminaloperationen**
 > > Operationen die den Stream abschließen
-> > `toList`
+> > `toList` konvertiert den Stream zu einer *immutable* Liste
+> > `toArray`
+> > `collect`
 
 ---
 
@@ -67,6 +70,7 @@ cited:
 > ```
 ?
 > > [!success]- Lösung
+<!--SR:!2024-06-30,4,270-->
 
 
 ---
@@ -118,7 +122,7 @@ cited:
 
 ---
 
-> [!question] Die statische Methode partitioningBy von Collectors erzeugt einen Collector und hat folgende Signatur
+> [!question] Die statische Methode `partitioningBy` von Collectors erzeugt einen Collector und hat folgende Signatur
 > 
 > ```java
 > static <T> Collector<T, ?, Map<Boolean, List<T>>> partitioningBy(Predicate<? super T> predicate)
@@ -130,7 +134,7 @@ cited:
 
 --- 
 
-> [!question] Die statische Methode groupingBy von Collectors erzeugt einen Collector und hat folgende Signatur
+> [!question] Die statische Methode `groupingBy` von Collectors erzeugt einen Collector und hat folgende Signatur
 > ```java
 > static <T, K> Collector<T, ?, Map<K, List<T>>> groupingBy(Function<? super T, ? extends K> classifier)
 > ```

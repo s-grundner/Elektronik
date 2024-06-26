@@ -27,12 +27,12 @@ Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kon
 
 Von der Bibliothek bereitgestellte funktionale Interfaces:
 
-| Interface      | Abstrakte Methode   | Anwendung                                            | 
-|:-------------- |:------------------- |:---------------------------------------------------- |
-| Function<T, R> | `R apply(T t)`      | Abbildung von Argument(en) auf Wert                  |
-| Predicate<T\>  | `boolean test(T t)` | Test von Argument(en) (mit Ergebnis true oder false) |
-| Consumer<T\>   | `void accept(T t)`  | Aktion auf Argument(e) ohne Rückgabewert             |
-| Supplier<T\>   | `T get()`           | Kein Argument; für Erzeugen von Objekten (Factory)   |
+| Interface      | Abstrakte Methode   | Anwendung                                            |     |
+| :------------- | :------------------ | :--------------------------------------------------- | --- |
+| Function<T, R> | `R apply(T t)`      | Abbildung von Argument(en) auf Wert                  |     |
+| Predicate<T\>  | `boolean test(T t)` | Test von Argument(en) (mit Ergebnis true oder false) |     |
+| Consumer<T\>   | `void accept(T t)`  | Aktion auf Argument(e) ohne Rückgabewert             |     |
+| Supplier<T\>   | `T get()`           | Kein Argument; für Erzeugen von Objekten (Factory)   |     |
 
 # Theorie Fragen
 

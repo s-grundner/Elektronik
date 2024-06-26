@@ -302,6 +302,7 @@ in Subklassen im gleichen Package
 Was bedeutet das Attribut final bei Objektfeldern?
 ?
 Das Attribut `final` bei Objektfeldern bedeutet, dass der Wert des Feldes nach seiner Initialisierung nicht mehr geändert werden kann. Das Feld muss also genau einmal einen Wert zugewiesen bekommen und bleibt danach konstant.
+<!--SR:!2024-06-29,3,250-->
 
 ---
 
