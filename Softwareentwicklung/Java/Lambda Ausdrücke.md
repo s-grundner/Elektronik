@@ -147,15 +147,17 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > ```
 ?
 > > [!success]- Lösung
-
-```java
-Function<T, R> fn = s -> s + 1;
-Function<T, R> fn2 = w -> w - 1;
-fn.andThen(after);
-
-Function res = (t) -> fn2.apply()
-
-```
+> > 
+> > 
+> > ```java
+> > Function<T, R> fn = s -> s + 1;
+> > Function<R, V> fn2 = w -> w * 10.5;
+> > 
+> > Function<T, V> res = fn.andThen(fn2); // this is equal to the line below
+> > Function<T, V> res = (t) -> fn2.apply(fn.apply(t))
+> > 
+> > double cool = res.apply(49); // (49 +1 ) * 10.5 = 525.0
+> > ```
 
 
 
