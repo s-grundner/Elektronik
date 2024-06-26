@@ -50,7 +50,6 @@ cited:
 > > - `limit(size)` es werden die ersten `size` werte in den Stream aufgenommen
 > > - `filter()` filtert die werte die durch den Stream fließen anhand eines predicates
 > > - map
-> > - flatMap
 > > 
 > > **Terminaloperationen**
 > > 
