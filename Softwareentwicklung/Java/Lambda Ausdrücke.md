@@ -175,9 +175,9 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 >
 ?
 > > [!success]- Lösung 
-> > `(a) -> String.length(a)`
+> > `(a) -> a.length()`
 > > `(a) -> "Ann".equals(a)`
-> > `() -> new LinkedList< String >(a)` 
+> > `() -> new LinkedList< String >()` 
 
 > [!question] Lokale Variablen, die in Lambda-Ausdrücken verwendet werden, müssen welche Eigenschaft haben?
 >
