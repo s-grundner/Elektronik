@@ -27,8 +27,8 @@ Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kon
 
 Von der Bibliothek bereitgestellte funktionale Interfaces:
 
-| Interface      | Abstrakte Methode   | Anwendung                                            |
-| :------------- | :------------------ | :--------------------------------------------------- |
+| Interface      | Abstrakte Methode   | Anwendung                                            | 
+|:-------------- |:------------------- |:---------------------------------------------------- |
 | Function<T, R> | `R apply(T t)`      | Abbildung von Argument(en) auf Wert                  |
 | Predicate<T\>  | `boolean test(T t)` | Test von Argument(en) (mit Ergebnis true oder false) |
 | Consumer<T\>   | `void accept(T t)`  | Aktion auf Argument(e) ohne Rückgabewert             |
@@ -63,6 +63,17 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > Erläutern Sie den Einsatzbereich dieser 4 Arten von funktionalen Interfaces.
 ?
 > > [!success]- Lösung
+> > 1. `Function<T, R>`: Funktion mit einem Argument von generischem Typ `T` und Resultat von Typ `R`
+> >     - Typischer Anwendungsfall: Abbilden von Elementen (mapping)
+> > 
+> > 1. `Predicate<T>`: Funktion mit Argument von Typ `T` und Boolesches Resultat
+> >     - Typischer Anwendungsfall: Filtern von Elementen
+> > 
+> > 1. `Consumer<T>`: Funktion mit Argument von Typ `T` und **kein Rückgabewert** 
+> >     - Typischer Anwendungsfall: Iteration mit Seiteneffekt
+> >
+> > 1. `Supplier<T>`: Funktion mit **keinem Argument** und Rückgabewert von Typ `T`
+> >     - Typischer Anwendungsfall: Objekterzeugung (Factory)
 
 
 > [!question] Ein Lambda-Ausdruck erzeugt ein Objekt eines funktionalen Interfaces. Dieses durch den Lambda-Ausdruck erzeugte Objekt kann.
@@ -73,6 +84,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > 
 ?
 > > [!success]- Lösung
+
 
 > [!question] Beim Rumpf von Lambda-Ausdrücken unterscheidet man Statement-Rumpf und Expression-Rumpf.
 > Was ist der Unterschied? Wie wird bei diesen der Rückgabewert bestimmt?
