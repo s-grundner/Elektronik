@@ -28,7 +28,7 @@ cited:
 > [!question] Erklären Sie mit wenigen Worten das Prinzip der Bedarfsauswertung (lazy evaluation) bei Streams.
 ?
 > > [!success]- Lösung
-> > Der Stream wird erst evaluiert 
+> > Ohne Anforderung des Ergebnisses werden keine Elemente verarbeitet.
 
 ---
 
@@ -37,7 +37,10 @@ cited:
 > - Zwischenoperationen
 > - Terminaloperationen
 > 
+> Charakterisieren Sie diese drei Arten von Operationen. Geben Sie jeweils ein Beispiel.
 ?
+> > [!success]- Lösung
+> > 
 
 ---
 
