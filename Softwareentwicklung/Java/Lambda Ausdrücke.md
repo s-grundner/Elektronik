@@ -72,16 +72,16 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > Erläutern Sie den Einsatzbereich dieser 4 Arten von funktionalen Interfaces.
 ?
 > > [!success]- Lösung
-> > 1. `Function<T, R>`: Funktion mit einem Argument von generischem Typ `T` und Resultat von Typ `R`
+> > 1. :TiMapShare:`Function<T, R>`: Funktion mit einem Argument von generischem Typ `T` und Resultat von Typ `R`
 > >     - Typischer Anwendungsfall: Abbilden von Elementen (mapping)
 > > 
-> > 1. `Predicate<T>`: Funktion mit Argument von Typ `T` und Boolesches Resultat
+> > 1. :LiFilter:`Predicate<T>`: Funktion mit Argument von Typ `T` und Boolesches Resultat
 > >     - Typischer Anwendungsfall: Filtern von Elementen
 > > 
-> > 1. `Consumer<T>`: Funktion mit Argument von Typ `T` und **kein Rückgabewert** 
+> > 1. :FasGears:`Consumer<T>`: Funktion mit Argument von Typ `T` und **kein Rückgabewert** 
 > >     - Typischer Anwendungsfall: Iteration mit Seiteneffekt
 > >
-> > 1. `Supplier<T>`: Funktion mit **keinem Argument** und Rückgabewert von Typ `T`
+> > 1. 🏭`Supplier<T>`: Funktion mit **keinem Argument** und Rückgabewert von Typ `T` 
 > >     - Typischer Anwendungsfall: Objekterzeugung (Factory)
 
 
@@ -93,7 +93,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > 
 ?
 > > [!success]- Lösung
-> > **1, 2 und 3**
+> > **1, 2 und 3** 🤯
 
 
 > [!question] Beim Rumpf von Lambda-Ausdrücken unterscheidet man Statement-Rumpf und Expression-Rumpf.
@@ -111,6 +111,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 ?
 > > [!success]- Lösung
 > > **Target Typing**:  Der Typ ist durch den Kontext bestimmt 
+> >
 > > Ein Lambda Ausdruck hat keinen eindeutigen Typ, daher:
 > > - Aus dem Kontext wird bestimmt, welches funktionale Interface implementiert wird 
 > > - Aus dem Kontext werden die Typen für die generischen Typparameter bestimmt
@@ -119,10 +120,12 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 ?
 > > [!success]- Lösung
 > > Interfaces mit mit nur einer abstrakten Methode werden als *Single Abstract Method (SAM) Typen* bezeichnet.
-> > SAM-Typen können für die Erzeugung von *Funktionsobjekten*  
+> > SAM-Typen können für die Erzeugung von *Funktionsobjekten* aus Lambda-Ausdrücken verwendet werden.
+> > - Runnable::run
+> > - Comparator::compare
 
 > [!question] Warum gibt es neben den generischen funktionalen Interfaces auch Interfaces für die Basisdatentypen, wie z.B. `IntToDoubleFunktion`?
->
+> Basisdatentypen (int, char, double, ...) können ohne Wrapperklassen (Integer, Character, Double) nicht als generische
 ?
 > > [!success]- Lösung
 
