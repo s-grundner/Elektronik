@@ -45,10 +45,17 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 ?
 > > [!success]- Lösung
 > > **4** - Beispiel für ein funktionales Interface
+> > (**2** - und beliebig viele weitere Default Methoden)
 > >```java
 > > @FunctionalInterface
-> > public interface Function<T, R> {
-> >   R apply(T t);
+> > public interface Comparator {
+> >  int compare(T o1, T o2);
+> >  
+> >  default Comparator<T> reversed() {
+> >    return Collections.reverseOrder(this);
+> >  }
+> >  
+> >  default Comparator thenComparing(Comparator<? super T> other) { ... }
 > >   ...
 > > }
 > > ```
@@ -76,20 +83,27 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > >     - Typischer Anwendungsfall: Objekterzeugung (Factory)
 
 
-> [!question] Ein Lambda-Ausdruck erzeugt ein Objekt eines funktionalen Interfaces. Dieses durch den Lambda-Ausdruck erzeugte Objekt kann.
-> kreuzen Sie an:
-> - in einer Liste gespeichert werden
-> - als Parameter einer Methode übergeben werden
-> - Rückgabewert einer Methode sein
+> [!question] Ein Lambda-Ausdruck erzeugt ein Objekt eines funktionalen Interfaces.
+> Dieses durch den Lambda-Ausdruck erzeugte Objekt kann: (kreuzen Sie an)
+> 1. in einer Liste gespeichert werden
+> 2. als Parameter einer Methode übergeben werden
+> 3. Rückgabewert einer Methode sein
 > 
 ?
 > > [!success]- Lösung
+> > **1, 2 und 3**
 
 
 > [!question] Beim Rumpf von Lambda-Ausdrücken unterscheidet man Statement-Rumpf und Expression-Rumpf.
 > Was ist der Unterschied? Wie wird bei diesen der Rückgabewert bestimmt?
 ?
 > > [!success]- Lösung
+> > 1. Statement Rumpf
+> >     - Rumpf ist ein Block (mit `{...}`)
+> >     - `return` gefordert (außer bei `void`) 
+> > 1. Expression-Rumpf
+> >     - Rumpf ist ein einziger Ausdruck
+> >     - Resultat durch Ausdruck bestimmt (kein `return`)
 
 > [!question] Was versteht man unter „Target Typing"?
 ?
