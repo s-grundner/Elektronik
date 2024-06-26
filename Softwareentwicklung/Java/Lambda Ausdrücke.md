@@ -51,14 +51,16 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > public interface Comparator {
 > >  int compare(T o1, T o2);
 > >  
-> >  default Comparator<T> reversed() {
+> >  default Comparator< T > reversed() {
 > >    return Collections.reverseOrder(this);
 > >  }
 > >  
-> >  default Comparator thenComparing(Comparator<? super T> other) { ... }
+> >  default Comparator thenComparing(Comparator< ? super T > other) { ... }
 > >   ...
 > > }
 > > ```
+> > 
+> >
 
 
 > [!question] Man unterscheidet folgende 4 Arten von funktionalen Interfaces in Java.
@@ -108,15 +110,22 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > [!question] Was versteht man unter „Target Typing"?
 ?
 > > [!success]- Lösung
+> > **Target Typing**:  Der Typ ist durch den Kontext bestimmt 
+> > Ein Lambda Ausdruck hat keinen eindeutigen Typ, daher:
+> > - Aus dem Kontext wird bestimmt, welches funktionale Interface implementiert wird 
+> > - Aus dem Kontext werden die Typen für die generischen Typparameter bestimmt
 
 > [!question] Was ist ein SAM-Typ?
 ?
 > > [!success]- Lösung
+> > Interfaces mit mit nur einer abstrakten Methode werden als *Single Abstract Method (SAM) Typen* bezeichnet.
+> > SAM-Typen können für die Erzeugung von *Funktionsobjekten*  
 
 > [!question] Warum gibt es neben den generischen funktionalen Interfaces auch Interfaces für die Basisdatentypen, wie z.B. `IntToDoubleFunktion`?
 >
 ?
 > > [!success]- Lösung
+
 
 > [!question] Was versteht man unter Funktionskomposition?
 ?
@@ -125,9 +134,9 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > [!question] Erläutern Sie die Funktionsweise der Methode `andThen` beim funktionalen Interface Function:
 > 
 > ``` java
-> public interface Function<T, R> {
+> public interface Function< T, R > {
 >   ...
->   default Function andThen(Function<? super R, ? extends V> after) { 
+>   default Function andThen(Function< ? super R, ? extends V > after) { 
 >     return (T t) -> after.apply(this.apply(t));
 >   }
 > }
@@ -141,9 +150,9 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > [!success]- Lösung
 
 > [!question] Geben Sie für folgende Methodenreferenzen die äquivalenten Lambda-Ausdrücke an:
-> - String::length
-> - "Ann"::equals
-> - LinkedList<String>::new
+> - `String::length`
+> - `"Ann"::equals`
+> - `LinkedList< String >::new`
 >
 ?
 > > [!success]- Lösung 
