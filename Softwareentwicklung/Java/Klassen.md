@@ -255,7 +255,7 @@ Den gibt es in Java nicht, der Garbage-Collector (GC) zerstört Objekte automati
 ref = null;   // GC loescht das Objekt auf dem die Referenz ref zeigte
 ```
 
-# Theorie Fragen - 01 Klassen
+# Theorie Fragen
 
 Erklären Sie den Unterschied zwischen Wertesemantik und Referenzsemantik.
 ?

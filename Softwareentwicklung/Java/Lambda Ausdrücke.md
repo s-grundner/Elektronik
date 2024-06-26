@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - flashcards/SWE2
 aliases: 
 keywords: 
 subject:
@@ -7,7 +8,7 @@ subject:
   - Softwareentwicklung 2
 semester: SS24
 created: 24. Juni 2024
-professor:
+professor: 
 cited:
 ---
 
@@ -31,13 +32,15 @@ Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kon
 # Theorie Fragen
 
 > [!question] Was zeichnet Funktionale Interfaces aus? Kreuzen Sie an:
-> - Haben nur eine Methode
-> - Haben nur Default-Methoden
-> - Haben nur statische Methoden
-> - Haben nur eine abstrakte Methode
+> 1. Haben nur eine Methode
+> 2. Haben nur Default-Methoden
+> 3. Haben nur statische Methoden
+> 4. Haben nur eine abstrakte Methode
 >
 ?
 > > [!success]- Lösung
+> 4
+> Beispiel für ein funktionales 
 
 
 > [!question] Man unterscheidet folgende 4 Arten von funktionalen Interfaces in Java.
@@ -83,14 +86,32 @@ Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kon
 > > [!success]- Lösung
 
 > [!question] Erläutern Sie die Funktionsweise der Methode `andThen` beim funktionalen Interface Function:
-> ```java
-> public interface Function {
-> ...
->    default Function andThen(Function after) { 
->        return (T t) -> after.apply(this.apply(t));
->    }
+> 
+> ``` java
+> public interface Function<T, R> {
+>   ...
+>   default Function andThen(Function<? super R, ? extends V> after) { 
+>     return (T t) -> after.apply(this.apply(t));
+>   }
 > }
 > ```
 ?
 > > [!success]- Lösung
 
+> [!question] Was ist eine Methodenreferenz?
+>
+?
+> > [!success]- Lösung
+
+> [!question] Geben Sie für folgende Methodenreferenzen die äquivalenten Lambda-Ausdrücke an:
+> - String::length
+> - "Ann"::equals
+> - LinkedList<String>::new
+>
+?
+> > [!success]- Lösung 
+
+> [!question] Lokale Variablen, die in Lambda-Ausdrücken verwendet werden, müssen welche Eigenschaft haben?
+>
+?
+> > [!success]- Lösung
