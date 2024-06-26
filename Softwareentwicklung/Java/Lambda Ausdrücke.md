@@ -125,14 +125,15 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > - Comparator::compare
 
 > [!question] Warum gibt es neben den generischen funktionalen Interfaces auch Interfaces für die Basisdatentypen, wie z.B. `IntToDoubleFunktion`?
-> Basisdatentypen (int, char, double, ...) können ohne Wrapperklassen (Integer, Character, Double) nicht als generische
 ?
 > > [!success]- Lösung
+> > Basisdatentypen (int, char, double, ...) können ohne Wrapperklassen (Integer, Character, Double) nicht als generische Typen verwendet werden.
 
 
 > [!question] Was versteht man unter Funktionskomposition?
 ?
 > > [!success]- Lösung
+> > Default-Methoden in Funktionalen Interfaces dienen zur Hinternanderausführung von Funktionen
 
 > [!question] Erläutern Sie die Funktionsweise der Methode `andThen` beim funktionalen Interface Function:
 > 
@@ -146,6 +147,11 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > ```
 ?
 > > [!success]- Lösung
+
+```java
+
+
+```
 
 > [!question] Was ist eine Methodenreferenz?
 >
