@@ -70,33 +70,36 @@ cited:
 > ```
 ?
 > > [!success]- Lösung
+> > **limit**: lässt nur `size` elemente durch, danach nix mehr
+> > **skip**: überspringt die ersten `size` elemente
+> > **takeWhile**: lässt nur solange durch, bis ein prädikat erfüllt ist
+> > **dropWhile**: lässt nichts durch bis ein prädikat erfüllt ist
+> > **distinct**: lässt keine duplikate durch
 <!--SR:!2024-06-30,4,270-->
-
 
 ---
 
-
-> [!question] Die Methode `flatMap` von Stream<T> hat folgende Signatur:
+> [!question] Die Methode `flatMap` von Stream< T > hat folgende Signatur:
 > 
 > ```java
-> < R > Stream< R > flatMap(Function< ? super T, ? extends Stream<? extends R>> mapper)
+> < R > Stream< R > flatMap(Function< ? super T, ? extends Stream< ? extends R > > mapper)
 > ```
 > Erläutern Sie die Methode, indem Sie den Parameter und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
 ?
 > > [!success]- Lösung
 
-
 --- 
-
 
 > [!question] Die Methode `reduce` von `Stream <T>` hat folgende Signatur:
 > 
 > ```java
-> <U> U reduce(U identity, BiFunction<U, ? super T, U> accumulator, Binaryoperator<U> combiner)
+> < U > U reduce(U identity, BiFunction< U, ? super T, U > accumulator, Binaryoperator< U > combiner)
 > ```
 > Erläutern Sie die Methode, indem Sie den Parameter accumulator und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
 ?
 > > [!success]- Lösung
+> > startet bei dem wert von identity und führt eine BIFunction aus, welche eine operation mit den einkommenten werten ausführt. (z.B. Aufsummiert)
+> > Am ende hat man dann einen einzigen wert, daher `reduce`
 
 
 ---
@@ -104,13 +107,17 @@ cited:
 > [!question] Die Methode `collect` von `Stream <T>` hat folgende Signatur:
 > 
 > ```java
-> <R> R collect(Supplier<R> supplier,
->   BiConsumer<R, ? super T> accumulator,
->   BiConsumer<R, R> combiner)
+> < R > R collect(Supplier< R > supplier,
+>   BiConsumer< R, ? super T > accumulator,
+>   BiConsumer< R, R > combiner)
 > ```
 > Erläutern Sie die Methode, indem Sie den Parameter `accumulator` und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
 ?
 > > [!success]- Lösung
+> > collect ist eine spezielle variante von Reduce
+> > hier liefert ein Supplier den start wert.
+> > Ein Consumer fügt das supplierte element und das element aus dem Stream zusammen
+> > 
 
 
 ---
@@ -118,6 +125,7 @@ cited:
 > [!question] Was ist ein Collector?
 ?
 > > [!success]- Lösung
+> > Kombiniert die Elemente Supplier-, Akkumlator- und Combiner-Funktion
 
 
 ---
@@ -125,11 +133,13 @@ cited:
 > [!question] Die statische Methode `partitioningBy` von Collectors erzeugt einen Collector und hat folgende Signatur
 > 
 > ```java
-> static <T> Collector<T, ?, Map<Boolean, List<T>>> partitioningBy(Predicate<? super T> predicate)
+> static < T > Collector< T, ?, Map<Boolean, List< T >>> partitioningBy(Predicate< ? super T > predicate)
 > ```
 > Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
 > > [!success]- Lösung
+> > Teilt werte anhand eines prädikats in True oder False ein. Der Boolsche Wert ist der Key einer Map. Das Value ist die Liste, in der die Partitionierten Elemente chillen.
+> > Eine Liste wird daher mit True und die andere mit False Assoziiert
 > > ![](assets/Pasted%20image%2020240626194355.png)
 
 
@@ -137,11 +147,12 @@ cited:
 
 > [!question] Die statische Methode `groupingBy` von Collectors erzeugt einen Collector und hat folgende Signatur
 > ```java
-> static <T, K> Collector<T, ?, Map<K, List<T>>> groupingBy(Function<? super T, ? extends K> classifier)
+> static < T, K > Collector< T, ?, Map< K, List< T > > > groupingBy(Function< ? super T, ? extends K > classifier)
 > ```
 > Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
 > > [!success]- Lösung
+> > ähnlich wie partitioningBy. Statt boolesche Wert
 
 --- 
 
