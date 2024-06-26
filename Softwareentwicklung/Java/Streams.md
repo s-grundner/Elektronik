@@ -60,13 +60,13 @@ cited:
 
 ---
 
-> [!question] Was machen folgende Methoden von Stream<T>
+> [!question] Was machen folgende Methoden von Stream< T >
 > ```java
-> Stream<T> limit(long maxSize)
-> Stream<T> skip(long maxSize)
-> Stream<T> takeWhile(Predicate<? super T> predicate)
-> Stream<T> dropWhile(Predicate<? super T> predicate)
-> Stream<T> distinct()
+> Stream< T > limit(long maxSize)
+> Stream< T > skip(long maxSize)
+> Stream< T > takeWhile(Predicate< ? super T > predicate)
+> Stream< T > dropWhile(Predicate< ? super T > predicate)
+> Stream< T > distinct()
 > ```
 ?
 > > [!success]- Lösung
@@ -79,7 +79,7 @@ cited:
 > [!question] Die Methode `flatMap` von Stream<T> hat folgende Signatur:
 > 
 > ```java
-> <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper)
+> < R > Stream< R > flatMap(Function< ? super T, ? extends Stream<? extends R>> mapper)
 > ```
 > Erläutern Sie die Methode, indem Sie den Parameter und den Rückgabewert erklären und die Arbeitsweise charakterisieren.
 ?
@@ -130,6 +130,7 @@ cited:
 > Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
 > > [!success]- Lösung
+> > ![](assets/Pasted%20image%2020240626194355.png)
 
 
 --- 
