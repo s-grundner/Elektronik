@@ -28,7 +28,7 @@ cited:
 > [!question] Erklären Sie mit wenigen Worten das Prinzip der Bedarfsauswertung (lazy evaluation) bei Streams.
 ?
 > > [!success]- Lösung
-> > Ohne Anforderung des Ergebnisses werden keine Elemente verarbeitet.
+> > Ohne Anforderung des Ergebnisses werden keine Elemente verarbeitet. Auf den Stream muss eine Terminaloperation angewandt werden, dann wird die verarbeitung gestartet
 
 ---
 
@@ -40,7 +40,15 @@ cited:
 > Charakterisieren Sie diese drei Arten von Operationen. Geben Sie jeweils ein Beispiel.
 ?
 > > [!success]- Lösung
+> > **erzeugende Operation**: 
+> > - Erzeugt einen stream aus einer Collection / Arrays
+> > - `T.stream(a)`, `Stream.of(1, 2, 3...)`
 > > 
+> > **Zwischenoperationen**
+> > - Operationen die wieder eine Stream zurückliefern
+> > - meistens gefilterte Teilstreams
+> > 
+> > **Terminaloperationen**
 
 ---
 
