@@ -152,14 +152,14 @@ cited:
 > Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
 > > [!success]- Lösung
-> > ähnlich wie partitioningBy. Statt boolesche Wert
+> > ähnlich wie partitioningBy. Statt boolesche Werte werden die elemente des Streams nach einer definierten Klasse gruppiert z.B. Stream an wörtern nach anfangsbuchstabe gruppieren.
 
 --- 
 
-> [!question] Die statische Methode joining von Collectors erzeugt einen Collector und hat folgende Signatur
+> [!question] Die statische Methode `joining` von Collectors erzeugt einen Collector und hat folgende Signatur
 > 
 > ```java
-> static Collector<CharSequence, ?, String> joining(
+> static Collector< CharSequence, ?, String > joining(
 >   CharSequence delimiter,
 >   CharSequence prefix,
 >   CharSequence suffix)
@@ -167,3 +167,6 @@ cited:
 > Erläutern Sie die Funktionsweise des erzeugten Collectors.
 ?
 > > [!success]- Lösung
+> > der collector sammelt alle Elemente und fügt sie zusammen. Hier kann das das voranstehende, das nachstehende und die Trennelemente bestimmt werde,
+> 
+> 
