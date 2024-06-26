@@ -28,7 +28,7 @@ cited:
 > [!question] Erklären Sie mit wenigen Worten das Prinzip der Bedarfsauswertung (lazy evaluation) bei Streams.
 ?
 > > [!success]- Lösung
-> > 
+> > Der Stream wird erst evaluiert 
 
 ---
 
