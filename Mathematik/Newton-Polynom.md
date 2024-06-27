@@ -1,7 +1,8 @@
 ---
 tags:
   - Numerik
-aliases: 
+aliases:
+  - dividierte Differenz
 keywords: 
 subject:
   - VL
