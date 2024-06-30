@@ -14,12 +14,12 @@ cited:
 
 # Lambdas
 
-> [!important] Lambda Ausdrücke ...
-> - ... sind **Literale für die Erzeugung von Funktionsobjekten**
-> - ... Ausdrücke **instantiieren funktionale Interfaces** mit nur **einer abstrakten Methode**
-> - ... können als **Parameter** und **Rückgabewerte** vom Methoden verwendet werden
+> [!important] Lambda Ausdrücke …
+> - … sind **Literale für die Erzeugung von Funktionsobjekten**
+> - … Ausdrücke **instantiieren funktionale Interfaces** mit nur **einer abstrakten Methode**
+> - … können als **Parameter** und **Rückgabewerte** vom Methoden verwendet werden
 >     - Funktionen Höherer Ordnung
-> - ... werden von der VM effizient ausgeführt
+> - … werden von der VM effizient ausgeführt
 
 Der **Typ** des durch den Lambda-Ausdruck erzeugten Objekts wird durch den **Kontext** bestimmt (*Target Typing*)
 
@@ -46,6 +46,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > [!success]- Lösung
 > > **4** - Beispiel für ein funktionales Interface
 > > (**2** - und beliebig viele weitere Default Methoden)
+> >
 > >```java
 > > @FunctionalInterface
 > > public interface Comparator {
@@ -59,9 +60,6 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > >   ...
 > > }
 > > ```
-> > 
-> >
-
 
 > [!question] Man unterscheidet folgende 4 Arten von funktionalen Interfaces in Java.
 > - `Function<T, R>`
@@ -73,16 +71,16 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 ?
 > > [!success]- Lösung
 > > 1. :TiMapShare:`Function<T, R>`: Funktion mit einem Argument von generischem Typ `T` und Resultat von Typ `R`
-> >     - Typischer Anwendungsfall: Abbilden von Elementen (mapping)
+> > - Typischer Anwendungsfall: Abbilden von Elementen (mapping)
 > > 
-> > 1. :LiFilter:`Predicate<T>`: Funktion mit Argument von Typ `T` und Boolesches Resultat
-> >     - Typischer Anwendungsfall: Filtern von Elementen
+> > 2. :LiFilter:`Predicate<T>`: Funktion mit Argument von Typ `T` und Boolesches Resultat
+> > - Typischer Anwendungsfall: Filtern von Elementen
 > > 
-> > 1. :FasGears:`Consumer<T>`: Funktion mit Argument von Typ `T` und **kein Rückgabewert** 
-> >     - Typischer Anwendungsfall: Iteration mit Seiteneffekt
+> > 3. :FasGears:`Consumer<T>`: Funktion mit Argument von Typ `T` und **kein Rückgabewert** 
+> > - Typischer Anwendungsfall: Iteration mit Seiteneffekt
 > >
-> > 1. 🏭`Supplier<T>`: Funktion mit **keinem Argument** und Rückgabewert von Typ `T` 
-> >     - Typischer Anwendungsfall: Objekterzeugung (Factory)
+> > 4. 🏭`Supplier<T>`: Funktion mit **keinem Argument** und Rückgabewert von Typ `T` 
+> > - Typischer Anwendungsfall: Objekterzeugung (Factory)
 
 
 > [!question] Ein Lambda-Ausdruck erzeugt ein Objekt eines funktionalen Interfaces.
@@ -101,16 +99,16 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 ?
 > > [!success]- Lösung
 > > 1. Statement Rumpf
-> >     - Rumpf ist ein Block (mit `{...}`)
-> >     - `return` gefordert (außer bei `void`) 
-> > 1. Expression-Rumpf
-> >     - Rumpf ist ein einziger Ausdruck
-> >     - Resultat durch Ausdruck bestimmt (kein `return`)
+> > - Rumpf ist ein Block (mit `{…}`)
+> > - `return` gefordert (außer bei `void`) 
+> > 2. Expression-Rumpf
+> > - Rumpf ist ein einziger Ausdruck
+> > - Resultat durch Ausdruck bestimmt (kein `return`)
 
 > [!question] Was versteht man unter „Target Typing"?
 ?
 > > [!success]- Lösung
-> > **Target Typing**:  Der Typ ist durch den Kontext bestimmt 
+> > **Target Typing**: Der Typ ist durch den Kontext bestimmt 
 > >
 > > Ein Lambda Ausdruck hat keinen eindeutigen Typ, daher:
 > > - Aus dem Kontext wird bestimmt, welches funktionale Interface implementiert wird 
@@ -127,7 +125,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > [!question] Warum gibt es neben den generischen funktionalen Interfaces auch Interfaces für die Basisdatentypen, wie z.B. `IntToDoubleFunktion`?
 ?
 > > [!success]- Lösung
-> > Basisdatentypen (int, char, double, ...) können ohne Wrapperklassen (Integer, Character, Double) nicht als generische Typen verwendet werden.
+> > Basisdatentypen (int, char, double, …) können ohne Wrapperklassen (Integer, Character, Double) nicht als generische Typen verwendet werden.
 
 
 > [!question] Was versteht man unter Funktionskomposition?
@@ -136,7 +134,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > Default-Methoden in Funktionalen Interfaces dienen zur Hinternanderausführung von Funktionen
 
 > [!question] Erläutern Sie die Funktionsweise der Methode `andThen` beim funktionalen Interface Function:
-> 
+>
 > ``` java
 > public interface Function< T, R > {
 >   ...
@@ -145,7 +143,7 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 >   }
 > }
 > ```
-> 
+
 ?
 > > [!success]- Lösung
 > >
@@ -158,7 +156,6 @@ Von der Bibliothek bereitgestellte funktionale Interfaces:
 > > 
 > > double cool = res.apply(49); // (49 + 1) * 10.5 = 525.0
 > >```
-
 
 > [!question] Was ist eine Methodenreferenz?
 >
