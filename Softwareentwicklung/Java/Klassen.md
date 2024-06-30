@@ -2,6 +2,7 @@
 tags:
   - Java
   - OOP
+  - flashcards/SWE2
 aliases:
   - Kapselung
 keywords: 
@@ -254,7 +255,7 @@ Den gibt es in Java nicht, der Garbage-Collector (GC) zerstört Objekte automati
 ref = null;   // GC loescht das Objekt auf dem die Referenz ref zeigte
 ```
 
-# Theorie Fragen - 01 Klassen
+# Theorie Fragen
 
 Erklären Sie den Unterschied zwischen Wertesemantik und Referenzsemantik.
 ?
@@ -272,7 +273,8 @@ Hier hat eine Klasse mehrere Methoden mit dem selben Namen und dem selben Rückg
 
 Bei überladenen Methoden wird bei einem Aufruf wird eine Methode aus den überladenen Methoden ausgewählt. Wie erfolgt die Auswahl?
 ?
-Die Auswahl erfolgt anhand der Signatur der Methode. Die Signatur umfasst den Methodennamen und die Parameterliste. Der Compiler wählt die Methode, deren Parameterliste am besten zu den beim Aufruf übergebenen Argumenten passt. D
+Die Auswahl erfolgt anhand der Signatur der Methode. Die Signatur umfasst den Methodennamen und die Parameterliste. Der Compiler wählt die Methode, deren Parameterliste am besten zu den beim Aufruf übergebenen Argumenten passt.
+<!--SR:!2024-06-30,4,270-->
 
 ---
 
@@ -286,19 +288,22 @@ Welche Sichtbarkeitsattribute gibt es in Java? Welche Sichtbarkeit ist mit den u
 ---
 
 Geben Sie an, in welchem Bereich ein Programmelement, bei dem kein Sichtbarkeitsattribut angegeben ist, sichtbar ist. Kreuzen Sie an:
-- in Klasse
+- in der Klasse
 - im gleichen Package
 - in Subklassen im gleichen Package
 - in allen Subklassen
 - in Klassen von anderen Packages
 ?
 im gleichen Package.
+in der Klasse
+in Subklassen im gleichen Package
 
 ---
 
 Was bedeutet das Attribut final bei Objektfeldern?
 ?
 Das Attribut `final` bei Objektfeldern bedeutet, dass der Wert des Feldes nach seiner Initialisierung nicht mehr geändert werden kann. Das Feld muss also genau einmal einen Wert zugewiesen bekommen und bleibt danach konstant.
+<!--SR:!2024-06-29,3,250-->
 
 ---
 
@@ -316,13 +321,11 @@ Mit Getter und Setter sollen private Felder kontrollierter über öffentliche Me
 
 Schreiben Sie für ein privates Feld `private String name;` Getter und Setter-Methoden.
 ?
-
 ```java
 private String name;
 
 public String getName() { return name; }
 public void setName(String name) { this.name = name; }
-
 ```
 
 ---
@@ -350,6 +353,7 @@ Was ist bei Record-Klassen erlaubt und was ist nicht erlaubt?
 - Erben von anderen Klassen (Records sind final).
 - Ändern der automatisch generierten Methoden `equals()`, `hashCode()` und `toString()` in einer Weise, die gegen die Vertragsbedingungen verstößt.
 - Manuell definierte Felder, die nicht in der Komponentenliste enthalten sind.
+
 ---
 
 Enumerationsklassen sind spezielle Klassen in Java. Wie werden Enumerationsklassen definiert und welche Eigenschaften sind damit verbunden?
@@ -362,12 +366,12 @@ Enums können Konstruktoren, Methoden und Felder enthalten, aber die Instanzen s
 
 Was ist bei Enumerationsklassen erlaubt und was ist nicht erlaubt?
 ?
-**Erlaubt:**
-- Definieren von Konstruktoren, Methoden und Feldern.
-- Implementieren von Interfaces.
-- Hinzufügen von benutzerdefinierten Methoden für spezielle Funktionalitäten.
-- Verwenden von Enums in `switch`-Statements.
-**Nicht erlaubt:**
-- Erben von anderen Klassen (Enums sind final und können nicht erweitert werden).
-- Manuelles Erstellen von Enum-Instanzen außerhalb der definierten Konstanten.
-- Verändern der Enum-Konstanten zur Laufzeit (sie sind unveränderlich)
+- **Erlaubt:**
+  - Definieren von Konstruktoren, Methoden und Feldern.
+  - Implementieren von Interfaces.
+  - Hinzufügen von benutzerdefinierten Methoden für spezielle Funktionalitäten.
+  - Verwenden von Enums in `switch`-Statements.
+- **Nicht erlaubt:**
+  - Erben von anderen Klassen (Enums sind final und können nicht erweitert werden).
+  - Manuelles Erstellen von Enum-Instanzen außerhalb der definierten Konstanten.
+  - Verändern der Enum-Konstanten zur Laufzeit (sie sind unveränderlich)

@@ -35,15 +35,6 @@
       "key": "Y"
     }
   ],
-  "canvas:new-file": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "L"
-    }
-  ],
   "obsidian-advanced-slides:open-advanced-slides-preview": [],
   "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links": [
     {
@@ -197,6 +188,33 @@
         "Alt"
       ],
       "key": "Q"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-numbered-list": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "B"
     }
   ]
 }
