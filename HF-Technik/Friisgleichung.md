@@ -5,6 +5,7 @@ aliases:
   - Freiraumdämpfung
   - Friis
   - Übertragungsgleichung
+  - Richtfaktor
 keywords: 
 subject:
   - ELIT Praktikum
