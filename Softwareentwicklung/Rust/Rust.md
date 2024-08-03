@@ -14,3 +14,16 @@ fn main() {
     println!("Hello, world!");
 }
 ```
+
+**VS-Code Extensions:**
+- rust-analyzer
+- crate
+- rust-syntax
+
+# Embedded Rust
+
+Test Device: **STM32f405CCU6**
+Core: **ARM Cortex M4 mit FPU**
+Architecture: **Armv7E-M**
+
+## Cross compiling
