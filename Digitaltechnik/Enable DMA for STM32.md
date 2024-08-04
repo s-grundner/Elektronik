@@ -1,3 +1,11 @@
+---
+tags:
+  - linker
+aliases: 
+created: 22. Juni 2024
+cited:
+---
+
 # Enable DMA for STM32
 
 The DTCM and ITCM (data and instruction tightly coupled RAMs) are connected through dedicated TCM buses directly to the Cortex-M7 core.
@@ -22,31 +30,33 @@ Replace DTCMRAM with RAM_D1 for the following sections in STM32H743XIHx_FLASH.Id
 - .bss
 - .\_user_heap_stack
 
-```ld title='Example: Before'
-.data : 
-{
-  . = ALIGN(4);
-  _sdata = .;        /* create a global symbol at data start */
-  *(.data)           /* .data sections */
-  *(.data*)          /* .data* sections */
-
-  . = ALIGN(4);
-  _edata = .;        /* define a global symbol at data end */
-} >DTCMRAM AT> FLASH
-```
-
-```ld title='Example: After'
-.data : 
-{
-  . = ALIGN(4);
-  _sdata = .;        /* create a global symbol at data start */
-  *(.data)           /* .data sections */
-  *(.data*)          /* .data* sections */
-
-  . = ALIGN(4);
-  _edata = .;        /* define a global symbol at data end */
-} >RAM_D1 AT> FLASH
-```
+> [!multi-column]
+>
+> ```ld title='Example: Before'
+> .data : 
+> {
+>   . = ALIGN(4);
+>   _sdata = .;        /* create a global symbol at data start */
+>   *(.data)           /* .data sections */
+>   *(.data*)          /* .data* sections */
+> 
+>   . = ALIGN(4);
+>   _edata = .;        /* define a global symbol at data end */
+> } >DTCMRAM AT> FLASH
+> ```
+>
+> ```ld title='Example: After'
+> .data : 
+> {
+>   . = ALIGN(4);
+>   _sdata = .;        /* create a global symbol at data start */
+>   *(.data)           /* .data sections */
+>   *(.data*)          /* .data* sections */
+> 
+>   . = ALIGN(4);
+>   _edata = .;        /* define a global symbol at data end */
+> } >RAM_D1 AT> FLASH
+> ```
 
 > [!question]- Explanation
 > 
