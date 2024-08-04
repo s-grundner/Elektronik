@@ -12,7 +12,6 @@
   "quick-latex",
   "quickadd",
   "remember-cursor-position",
-  "obsidian-spaced-repetition",
   "tag-wrangler",
   "obsidian-trash-explorer",
   "vim-toggle",
@@ -23,7 +22,6 @@
   "obsidian-hover-editor",
   "code-styler",
   "dataview",
-  "editing-toolbar",
   "obsidian-full-calendar",
   "text-snippets-obsidian",
   "templater-obsidian",
@@ -36,6 +34,5 @@
   "obsidian-icon-folder",
   "obsidian-react-components",
   "obsidian-tasks-plugin",
-  "obsidian-embedded-code-title",
-  "obsidian-excalidraw-plugin"
+  "obsidian-embedded-code-title"
 ]
