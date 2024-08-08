@@ -39,4 +39,4 @@ Memory Leaks vermeiden:
 ## Code Style
 
 - [Law Of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
-- [Handle](<https://en.wikipedia.org/wiki/Handle_(computing)>)
+- [Handle](https://en.wikipedia.org/wiki/Handle_(computing))
