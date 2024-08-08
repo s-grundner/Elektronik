@@ -6,7 +6,8 @@
 
 > [!example] String Beispiel
 > `String::new` erzeugt neuen Heap allocated String
-> ``
+> `push()` Fügt einen `char` oder `&str` *hinten* an
+> `split_whitespace()`
 
 ```Rust
 fn main() {
