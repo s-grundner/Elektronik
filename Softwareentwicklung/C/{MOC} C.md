@@ -19,12 +19,16 @@ created: 17th August 2023
 # Map of Content - C (Programmiersprache)
 
 ```dataview
-
 LIST FROM #c
 WHERE !contains(tags, "MOC")
 SORT file.name
-
 ```
+
+## Memory Safety
+
+Memory Leaks vermeiden:
+
+- Return Out of Scope Variable
 
 ## Code Style
 
