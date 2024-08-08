@@ -29,6 +29,12 @@ SORT file.name
 Memory Leaks vermeiden:
 
 - Return Out of Scope Variable
+- Insufficent bound checks -> Buffer Overflows
+- Integer errors
+- Uncontrolled format-strings
+- Use After free()
+- Use of unitialized variables
+- Double free()
 
 ## Code Style
 
