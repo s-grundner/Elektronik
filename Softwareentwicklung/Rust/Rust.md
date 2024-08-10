@@ -4,7 +4,7 @@ aliases:
 created: 2. August 2024
 cited:
 ---
-
+w
 # Rust Programming Language
 
 > [!info] [Introduction - The Embedded Rust Book](https://docs.rust-embedded.org/book/index.html)
