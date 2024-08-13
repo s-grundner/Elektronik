@@ -24,5 +24,10 @@
   "obsidian-icon-folder",
   "obsidian-react-components",
   "obsidian-tasks-plugin",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "math-in-callout",
+  "code-styler",
+  "dataview",
+  "obsidian-latex-suite",
+  "obsidian-linter"
 ]
