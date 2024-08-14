@@ -16,14 +16,14 @@ async function ss24(tp) {
 	return paste_lva;
 }
 
-async function ws25(tp) {
+async function ws24(tp) {
 	const lva = ["Mathematik 3", "Einführung Elektronik", "EMV und SI", "Signale und Systeme", "Hardwaredesign", "Systems Programming", "HF-Systemtechnik 1"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
 
 function get_lva() {
-	return { type, ws23, ss24, ws25 }
+	return { type, ws23, ss24, ws24 }
 }
 
 module.exports = get_lva

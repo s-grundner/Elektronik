@@ -6,7 +6,6 @@
   "open-vscode",
   "url-into-selection",
   "quick-latex",
-  "quickadd",
   "remember-cursor-position",
   "tag-wrangler",
   "vim-toggle",
@@ -18,18 +17,13 @@
   "text-snippets-obsidian",
   "templater-obsidian",
   "obsidian-banners",
-  "obsidian-auto-link-title",
   "calendar",
   "buttons",
-  "obsidian-icon-folder",
   "obsidian-react-components",
   "obsidian-tasks-plugin",
-  "obsidian-style-settings",
-  "math-in-callout",
   "code-styler",
   "dataview",
-  "obsidian-latex-suite",
   "obsidian-linter",
   "table-editor-obsidian",
-  "settings-search"
+  "obsidian-icon-folder"
 ]
