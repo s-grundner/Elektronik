@@ -4,7 +4,6 @@ aliases:
 keywords: []
 subject:
   - Technische Informatik
-  - "336.001"
 semester: 1
 created: 16. Januar 2024
 professor:

@@ -6,11 +6,9 @@ aliases:
   - relative Dielektrizitätszahl
 keywords: 
 subject:
-  - Einf. ET
+  - Einführung Elektrotechnik
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 15. November 2023
 professor:
 ---
