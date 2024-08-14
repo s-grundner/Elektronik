@@ -20,7 +20,6 @@ complexity: $\mathcal{O}(n\cdot\log(n))$
 > Wiederentdeckung deshalb, weil Carl Friedrich Gauß den Algorithmus in seiner ersten Form bereits 1805 entdeckte und verwendete, diese aber nie publizierte.
 > Erst die durch diesen Algorithmus erreichte hohe Durchführungsgeschwindigkeit ermöglicht eine so breit gefächerte Anwendung.
 
-
 ## Vereinfachung der DFT Matrix
 
 Beispiel in einer kleinen Dimension
