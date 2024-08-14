@@ -23,4 +23,4 @@ Wie in Abbildung 1 zu sehen ist, wird für den Aufbau des SAR-ADCs eine [Filter]
 
 # Quellen
 
-![](../xEDU/(SemB1)-WS23/ELIT%20PR/AnalogeDigitaleST/ELIT-PR_AD-ST_k12136610_k12306171.pdf)
+![](../xEDU/(SemB1)-WS23/ELIT%20PR/AnalogeDigitaleST/Protokoll_ELIT-PR_ADST_k12136610.pdf)
