@@ -4,7 +4,7 @@
 tags: NOTES
 subject:
   - <%* tR += lva %>
-semester: ws25
+semester: WS25
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
 done:
