@@ -1,7 +1,7 @@
 {
   "showLineNumber": true,
   "showFrontmatter": true,
-  "showUnsupportedFiles": true,
+  "showUnsupportedFiles": false,
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
