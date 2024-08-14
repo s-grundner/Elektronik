@@ -6,7 +6,7 @@ subject:
   - UE
   - VL
   - PR
-  - Einf. ET
+  - Einführung Elektrotechnik
 semester: WS23
 created: 3. März 2024
 professor:

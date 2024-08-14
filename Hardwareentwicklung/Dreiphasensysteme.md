@@ -3,11 +3,10 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - Einf. ET
+  - Elektrotechnik
   - VL
 semester:
-  - WS23
-  - B1
+  - SS24
 created: 24th January 2024
 professor:
   - Andreas Springer

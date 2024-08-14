@@ -5,9 +5,9 @@ aliases:
   - MWG
 keywords: 
 subject:
-  - Einf. ET
+  - Elektrotechnik
   - VL
-semester: WS23
+semester: SS24
 created: 24th January 2024
 professor:
   - Bernhard Jakoby
