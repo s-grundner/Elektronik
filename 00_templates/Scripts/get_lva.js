@@ -5,19 +5,19 @@ async function type(tp) {
 }
 
 async function ws23(tp) {
-	const lva = ["Mathematik 1", "Einf. ET", "Softwareentwicklung 1", "Technische Informatik", "Physik für TechnikerInnen"];
+	const lva = ["Mathematik 1", "Einführung Elektrotechnik", "Softwareentwicklung 1", "Technische Informatik", "Physik 1 für TechnikerInnen"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
 
 async function ss24(tp) {
-	const lva = ["Mathematik 2", "Elektrotechnik", "Algorithmen und Datenstrukturen", "Softwareentwicklung 2", "Hardwareentwurf mit VHDL", "Networked Embedded Systems"];
+	const lva = ["Mathematik 2", "Elektrotechnik", "Algorithmen und Datenstrukturen", "Softwareentwicklung 2", "Hardwaredesign", "Networked Embedded Systems"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
 
 function get_lva() {
-	return { type, ws23, ss24 }
+	return { type, ws23, ss24, ws25 }
 }
 
 module.exports = get_lva
