@@ -5,7 +5,6 @@
   "mousewheel-image-zoom",
   "open-vscode",
   "url-into-selection",
-  "quick-latex",
   "remember-cursor-position",
   "tag-wrangler",
   "vim-toggle",
@@ -26,5 +25,6 @@
   "obsidian-linter",
   "table-editor-obsidian",
   "obsidian-icon-folder",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "settings-search"
 ]
