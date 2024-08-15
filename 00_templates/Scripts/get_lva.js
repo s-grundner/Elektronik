@@ -22,8 +22,20 @@ async function ws24(tp) {
 	return paste_lva;
 }
 
+async function ss25(tp) {
+	const lva = ["Technische Elektronik", "Elektrische Maschinen und Antriebselektronik", "Elektrische Messtechnik und Sensorik", "Regelungstechnik", "Signalverarbeitung"];
+	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
+	return paste_lva;
+}
+
+async function ws25(tp) {
+	const lva = ["Wahrscheinlichkeitstheorie und stochastische Prozesse", "Analoge Schaltungstechnik", "Elektrische Messtechnik und Sensorik", "Übertragungstechnik", "Networked Embedded Systems"];
+	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
+	return paste_lva;
+}
+
 function get_lva() {
-	return { type, ws23, ss24, ws24 }
+	return { type, ws23, ss24, ws24, ss25, ws25 }
 }
 
 module.exports = get_lva
