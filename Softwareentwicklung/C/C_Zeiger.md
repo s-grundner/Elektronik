@@ -10,6 +10,8 @@ created: 29th November 2022
 
 # Zeiger
 
+
+
 ## Allgemein
 
 Zeiger = Referenz = Pointer = Adresse auf einen Speicherbereich. Auf dieser Adresse können Daten aber auch Code abgelegt sein.
@@ -32,7 +34,7 @@ printf("%X", &a);
 
 Hier wird die Adresse unter welcher der Wert der Variable abgelegt ist in hexadezimaler Form ausgegeben, zum Beispiel so:
 
-```sh
+```
 60FF0C
 ```
 
@@ -132,10 +134,6 @@ printf("%x", *ptr);
 die Adresse wird um 8 erhöht. Wird eine Adressvariable inkrementiert, dann wird der Wert immer um die Größe des Inhalts erhöht.
 
 ![Zeiger1](../assets/Zeiger1.png)
-
-## Call-By-Value/Reference
-
-Wiederhole das Unterkapitel im Kapitel Funktionen.
 
 ## Felder
 
@@ -286,7 +284,7 @@ Ausgabe:
 # Interessante Ausdrücke 🤔
 
 > [!example] `int (*x())[20];`
-> `x` ist eine Funktion die einen Zeiger auf ein Array mit 20 Integern zurück gibt.#
+> `x` ist eine Funktion die einen Zeiger auf ein Array mit 20 Integern zurück gibt.
 
 > [!example] `int (*(*x)[])();`
 > Pointer auf ein Array aus Pointer auf Funktionen (Funktions-Pointer), welche einen integer retournieren
