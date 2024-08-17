@@ -40,6 +40,7 @@
     "Number": "number",
     "done": "checkbox",
     "ects": "number",
-    "max_credits": "number"
+    "max_credits": "number",
+    "links": "text"
   }
 }
