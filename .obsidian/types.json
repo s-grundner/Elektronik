@@ -39,7 +39,7 @@
     "excalidraw-embeddable-theme": "text",
     "Number": "number",
     "done": "checkbox",
-    "ects": "number",
+    "ects": "text",
     "max_credits": "number",
     "links": "text"
   }
