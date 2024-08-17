@@ -10,8 +10,6 @@ created: 29th November 2022
 
 # Zeiger
 
-
-
 ## Allgemein
 
 Zeiger = Referenz = Pointer = Adresse auf einen Speicherbereich. Auf dieser Adresse können Daten aber auch Code abgelegt sein.
