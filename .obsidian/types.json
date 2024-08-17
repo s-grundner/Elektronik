@@ -38,9 +38,9 @@
     "excalidraw-export-embed-scene": "checkbox",
     "excalidraw-embeddable-theme": "text",
     "Number": "number",
-    "done": "multitext",
+    "done": "checkbox",
     "ects": "number",
     "max_credits": "number",
-    "links": "text"
+    "links": "multitext"
   }
 }
