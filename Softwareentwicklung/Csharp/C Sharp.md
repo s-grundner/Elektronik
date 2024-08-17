@@ -7,8 +7,8 @@
 ```cs
 static void Foo(ref int num) { num = 5;}
 
-int num = 0;
-Bar(out num); // num == 5 ✅
+int num = 0; // muss initialisiert werden
+Foo(ref num); // num == 5 ✅
 
 ```
 
@@ -17,7 +17,7 @@ Bar(out num); // num == 5 ✅
 ```cs
 static void Bar(out int num) { num = 5;}
 
-int num = 0;
+int num; // muss nicht initialisiert werden
 Bar(out num); // num == 5 ✅
 
 ```
