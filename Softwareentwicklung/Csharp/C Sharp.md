@@ -6,9 +6,7 @@
 > `string path = "C:\\Users\\Smon\\source"` $\iff$
 > `string path = @"C:\Users\Smon\source"` String mit @ Operator: Es müssen keine Zeichen escaped werden
 
-> [!info] Empty String:
-> 
-
+> [!info] Empty String: `""` $\iff$ `string.Empty`
 ### Formatting
 
 ```cs
