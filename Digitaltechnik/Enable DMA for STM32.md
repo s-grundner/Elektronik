@@ -14,7 +14,7 @@ Only the Master DMA controller can access the DTCM and ITCM through AHBS but **n
 
 The connection could still be achieved through a detour over the Inter-Domain Bus D1-to-D2 AHB Bus but introduces undesired latency. The memory for DMA-Controlled Operations is therefore Outsourced to the SRAM1. 
 
-![](assets/Pasted%20image%2020240618232740.png)
+![](../xEDU/(SemB2)-SS24/Networked%20Embedded%20Systems%20PR/assets/Pasted%20image%2020240618232740.png)
 
 ---
 
