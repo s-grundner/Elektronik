@@ -1,4 +1,13 @@
 ```button
+name Perplexity
+type link
+action https://www.perplexity.ai/
+class mybutton
+```
+
+^button-perplexity
+
+```button
 name Overleaf
 type link
 action https://de.overleaf.com/project
