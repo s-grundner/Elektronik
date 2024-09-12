@@ -35,7 +35,7 @@ async function ws25(tp) { // WS25
 }
 
 async function ss26(tp) { // SS26
-	const lva = ["Theoretische Elektrotechnik", "Machine Learning and Pattern Classification", "Rechnerarchitektur"];
+	const lva = ["Theoretische Elektrotechnik", "Machine Learning and Pattern Classification", "Rechnerarchitektur", "HLST"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
