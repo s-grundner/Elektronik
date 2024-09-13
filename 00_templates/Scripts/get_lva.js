@@ -23,7 +23,7 @@ async function ws24(tp) { // WS24
 }
 
 async function ss25(tp) { // SS25
-	const lva = ["Technische Elektronik", "Elektrische Maschinen und Antriebselektronik", "Elektrische Messtechnik und Sensorik", "Regelungstechnik", "Signalverarbeitung", "Halbleiterschaltungstechnik", "Computergestützter Entwurf analoger Schaltungen"];
+	const lva = ["Technische Elektronik", "Elektrische Maschinen und Antriebselektronik", "Elektrische Messtechnik und Sensorik", "Regelungstechnik", "Signalverarbeitung", "Halbleiterschaltungstechnik", "Computergestützter Entwurf analoger Schaltungen", "HLST"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
@@ -35,7 +35,7 @@ async function ws25(tp) { // WS25
 }
 
 async function ss26(tp) { // SS26
-	const lva = ["Theoretische Elektrotechnik", "Machine Learning and Pattern Classification", "Rechnerarchitektur", "HLST"];
+	const lva = ["Theoretische Elektrotechnik", "Machine Learning and Pattern Classification", "Rechnerarchitektur"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
