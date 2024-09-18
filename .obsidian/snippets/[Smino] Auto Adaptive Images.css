@@ -53,7 +53,7 @@
 } */
 
 .theme-dark img[alt$="invert_dark"] {
-	filter: invert(1) hue-rotate(180deg);
+	filter: invert(1) hue-rotate(180deg) contrast(1.5);
 }
 
 .theme-light img[alt$="invert_light"] {

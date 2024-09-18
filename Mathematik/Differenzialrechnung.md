@@ -36,7 +36,10 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > [!success] Differenzieren einer Funktion  
 > Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der [Grenzwert](Grenzwert.md)
 > 
-> $$f'(x_{0}) = \lim_{ \Delta x \to 0 } \dfrac{\Delta f}{\Delta x}= \lim_{ \Delta x \to 0 }\frac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}$$ existiert.  
+> $$
+>f'(x_{0}) := \lim_{ \Delta x \to 0 } \dfrac{\Delta f}{\Delta x}= \lim_{ \Delta x \to 0 }\frac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}
+>$$
+>  existiert.  
 > 
 > Diesen [Grenzwert](Grenzwert.md) nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
 > 
@@ -56,8 +59,11 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 $$
 \begin{align}
-f'(x_{0}) &= \lim_{ \Delta x \to 0 } \frac{(x+\Delta x)^{2}-x^{2}}{\Delta x^{2}} \\
-&= \lim_{ \Delta x \to 0 } \frac{(x^{2}+2+\Delta x^{2})-x^{2}}{\Delta x^{2}}
+f'(x_{0}) &= \lim_{ \Delta x \to 0 } \frac{(x+\Delta x)^{2}-x^{2}}{\Delta x} \\
+&= \lim_{ \Delta x \to 0 } \frac{(x^{2}+2\cdot x\cdot\Delta x+\Delta x^{2})-x^{2}}{\Delta x} \\
+&= \lim_{ \Delta x \to 0 } \frac{2\cdot x\cdot\Delta x+\Delta x^{2}}{\Delta x} \\
+&= \lim_{ \Delta x \to 0 } 2\cdot x+\underbrace{ \Delta x }_{ \to 0 } \\
+&= 2x
 \end{align}
 $$
 
