@@ -26,7 +26,9 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 > [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
 > Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](../{MOC}%20DGL.md))
 
-![](Pasted%20image%2020230923135814.png)
+![invert_dark](assets/Differenzial1.png)
+
+![invert_dark](assets/Differenzial2.png)
 
 Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}\to$ Differenzenquotient oder mittlere Steigung im Intervall.  
 $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-Steigung ist die Ableitung. 
