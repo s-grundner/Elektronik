@@ -26,8 +26,8 @@ created: 26th March 2022
 - [Integralrechnung](Analysis/Integralrechnung.md)
     - [Riemann-Integral](Riemann-Integral.md)
     - Mittelwertsatz der Integralrechnung
-- [Differenzialgleichungen]({MOC}%20DGL.md)
-- [Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
+- 🗺️[Differenzialgleichungen]({MOC}%20DGL.md)
+- 🗺️[Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
 
 ## Wozu die Infinitesimalrechnung
 
