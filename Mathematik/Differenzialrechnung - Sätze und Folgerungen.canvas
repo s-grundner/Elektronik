@@ -1,13 +1,29 @@
 {
 	"nodes":[
-		{"id":"3344ce1e4dd2a20f","type":"text","text":"[[Satz von Rolle]]","x":-243,"y":-240,"width":303,"height":60,"color":"6"},
-		{"id":"0419c86f0252f5db","type":"text","text":"[[Mittelwertsatz der Differenzialrechnung]]","x":-243,"y":-80,"width":303,"height":80,"color":"6"},
-		{"id":"22d53e55b52682d3","x":160,"y":-240,"width":250,"height":60,"type":"text","text":"Schrankensatz"},
-		{"id":"5ec2840ec8bcf39d","type":"text","text":"Zweiter Mittelwertsatz","x":-243,"y":120,"width":303,"height":60,"color":"6"},
-		{"id":"3512198a12d222e0","x":70,"y":-73,"width":250,"height":60,"type":"text","text":"Kri"}
+		{"id":"3344ce1e4dd2a20f","type":"text","text":"[[Satz von Rolle]]","x":-243,"y":-260,"width":303,"height":80,"color":"6"},
+		{"id":"0419c86f0252f5db","type":"text","text":"[[Mittelwertsatz der Differenzialrechnung]]","x":-243,"y":-80,"width":303,"height":100,"color":"6"},
+		{"id":"22d53e55b52682d3","type":"text","text":"Schrankensatz","x":160,"y":-260,"width":320,"height":80,"color":"4"},
+		{"id":"3512198a12d222e0","type":"text","text":"Kriterium für Konstanz","x":160,"y":-80,"width":320,"height":100,"color":"4"},
+		{"id":"b4bf563d16077a82","type":"text","text":"(Lipschitz-) Stetigkeit von Funktionen","x":580,"y":-260,"width":440,"height":80,"color":"4"},
+		{"id":"97bc3982ea2f40d5","type":"text","text":"Charakterisierung der Exponentialfunktion","x":580,"y":100,"width":440,"height":100,"color":"4"},
+		{"id":"3e509c585363faa8","type":"text","text":"Identitätssatz der Differnezialrechnung (Teil des HDI)","x":580,"y":-80,"width":440,"height":100,"color":"4"},
+		{"id":"c4f766ca8aa10931","type":"text","text":"[L'Hospital](Mathematik/Analysis/L'Hospital.md)","x":160,"y":540,"width":320,"height":60,"color":"4"},
+		{"id":"5ec2840ec8bcf39d","type":"text","text":"Zweiter Mittelwertsatz","x":-243,"y":540,"width":303,"height":60,"color":"6"},
+		{"id":"87825faf3766946c","type":"text","text":"Monotoniekriterium für Funktionen","x":160,"y":300,"width":320,"height":100,"color":"4"},
+		{"id":"fbfead3081cfc7c3","type":"text","text":"Hinreichendes Kriterium für Extrema","x":580,"y":300,"width":440,"height":100,"color":"4"},
+		{"id":"340df02fafdf726c","type":"text","text":"Bestimmung von Funktionsgrenzwerten","x":580,"y":515,"width":440,"height":110,"color":"4"}
 	],
 	"edges":[
 		{"id":"0d48d5ec63467a00","fromNode":"3344ce1e4dd2a20f","fromSide":"bottom","toNode":"0419c86f0252f5db","toSide":"top","fromEnd":"arrow"},
-		{"id":"07b376eeda41cdad","fromNode":"0419c86f0252f5db","fromSide":"bottom","toNode":"5ec2840ec8bcf39d","toSide":"top","fromEnd":"arrow"}
+		{"id":"07b376eeda41cdad","fromNode":"0419c86f0252f5db","fromSide":"bottom","toNode":"5ec2840ec8bcf39d","toSide":"top","fromEnd":"arrow"},
+		{"id":"204701d794bc25d5","fromNode":"0419c86f0252f5db","fromSide":"right","toNode":"22d53e55b52682d3","toSide":"left"},
+		{"id":"9941fa6669a70818","fromNode":"5ec2840ec8bcf39d","fromSide":"right","toNode":"c4f766ca8aa10931","toSide":"left"},
+		{"id":"1bb465d017bf4c10","fromNode":"0419c86f0252f5db","fromSide":"right","toNode":"3512198a12d222e0","toSide":"left"},
+		{"id":"522daff24b8a3cc8","fromNode":"0419c86f0252f5db","fromSide":"right","toNode":"87825faf3766946c","toSide":"left"},
+		{"id":"f0f6c5cfe0039701","fromNode":"22d53e55b52682d3","fromSide":"right","toNode":"b4bf563d16077a82","toSide":"left"},
+		{"id":"3f84b6ca76dfb4ed","fromNode":"3512198a12d222e0","fromSide":"right","toNode":"3e509c585363faa8","toSide":"left"},
+		{"id":"bf55d966f1a4f913","fromNode":"3512198a12d222e0","fromSide":"right","toNode":"97bc3982ea2f40d5","toSide":"left"},
+		{"id":"88f7b8ae3141c1b8","fromNode":"87825faf3766946c","fromSide":"right","toNode":"fbfead3081cfc7c3","toSide":"left"},
+		{"id":"09a01b3502eeec40","fromNode":"c4f766ca8aa10931","fromSide":"right","toNode":"340df02fafdf726c","toSide":"left"}
 	]
 }

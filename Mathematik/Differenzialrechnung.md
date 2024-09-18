@@ -90,9 +90,6 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ![Sätze und Folgerungen](Differenzialrechnung%20-%20Sätze%20und%20Folgerungen.canvas)
 
-![[FolgerungenMittelwertsatz.svg|invert_dark]]
-- [L'Hospital](L'Hospital.md)
-
 # Tags
 
 - [Partielle Ableitung](Partielle%20Ableitung.md)
