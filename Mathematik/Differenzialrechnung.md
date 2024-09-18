@@ -54,18 +54,18 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 >     - Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.  
 >     - In der Nähe von $x_{0}$ verlaufen der Funktionsgraph und die Tangente gleich.
 
+---
+
 >[!example] $f(x) = x^{2}$  
-
-
-$$
-\begin{align}
-f'(x_{0}) &= \lim_{ \Delta x \to 0 } \frac{(x+\Delta x)^{2}-x^{2}}{\Delta x} \\
-&= \lim_{ \Delta x \to 0 } \frac{(x^{2}+2\cdot x\cdot\Delta x+\Delta x^{2})-x^{2}}{\Delta x} \\
-&= \lim_{ \Delta x \to 0 } \frac{2\cdot x\cdot\Delta x+\Delta x^{2}}{\Delta x} \\
-&= \lim_{ \Delta x \to 0 } 2\cdot x+\underbrace{ \Delta x }_{ \to 0 } \\
-&= 2x
-\end{align}
-$$
+> $$
+> \begin{align}
+> f'(x_{0}) &= \lim_{ \Delta x \to 0 } \frac{(x+\Delta x)^{2}-x^{2}}{\Delta x} \\
+> &= \lim_{ \Delta x \to 0 } \frac{(x^{2}+2\cdot x\cdot\Delta x+\Delta x^{2})-x^{2}}{\Delta x} \\
+> &= \lim_{ \Delta x \to 0 } \frac{2\cdot x\cdot\Delta x+\Delta x^{2}}{\Delta x} \\
+> &= \lim_{ \Delta x \to 0 } 2\cdot x+\underbrace{ \Delta x }_{ \to 0 } \\
+> &= 2x
+> \end{align}
+> $$
 
 | Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                                         |
 | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
@@ -78,13 +78,13 @@ $$
 
 ## Ableitungsregeln
 
-| Summenregel     | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                                |
-| --------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Faktorregel     | $[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>                             |
-| Produktregel    | $[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                                                |
-| Quotientenregel | $\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br>                  |
-| Kettenregel     | $(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'$ <br>folgt aus $\frac{df}{dx} = \frac{df}{dg}\cdot \frac{dg}{dx}$<br> |
-| Umkehrregel     |                                                                                                                     |
+| Summenregel     | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                               |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Faktorregel     | $[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>                                       |
+| Produktregel    | $[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                                                          |
+| Quotientenregel | $\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br>                            |
+| Kettenregel     | $(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'\qquad$ folgt aus $\dfrac{df}{dx} = \dfrac{df}{dg}\cdot \dfrac{dg}{dx}$<br><br> | 
+| [[Umkehrregel]] | $\left(f^{-1}\right)^{\prime}(y)=\dfrac{1}{f^{\prime}\left(f^{-1}(y)\right)}$                                             |
 
 ## Sätze und Folgerungen
 
