@@ -61,7 +61,8 @@ created: 19th August 2023
 
 # Tags
 
-[Altium Edu Courses](https://education.altium.com/courses)
+- [Altium Edu Courses](https://education.altium.com/courses)
+- Produkt [Zertifizieren](Certification.md)
 
 ![EM Field and High-Speed Routing Principles - Mike Creeden](https://www.youtube.com/watch?v=3Is7bra3tsc)
 

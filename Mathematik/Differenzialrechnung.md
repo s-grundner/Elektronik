@@ -88,10 +88,9 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Sätze und Folgerungen
 
-![[FolgerungenMittelwertsatz.svg|invert_dark]]
+![Sätze und Folgerungen](Differenzialrechnung%20-%20Sätze%20und%20Folgerungen.canvas)
 
-- [[Satz von Rolle]]
-- [[Mittelwertsatz der Differenzialrechnung]]
+![[FolgerungenMittelwertsatz.svg|invert_dark]]
 - [L'Hospital](L'Hospital.md)
 
 # Tags
