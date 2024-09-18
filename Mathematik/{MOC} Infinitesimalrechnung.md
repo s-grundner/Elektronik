@@ -17,6 +17,18 @@ created: 26th March 2022
 
 # Map of Content - Infinitesimalrechnung
 
+- [Differenzialrechnung](Differenzialrechnung.md)
+    - [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)
+        - Satz von Schwarz
+    - [Satz von Rolle](Satz%20von%20Rolle.md)
+    - Gradient
+    - Mittelwertsart der Differenzialrechnung
+- Integralrechnung
+    - Riemann Integral
+    - Mittelwertsatz der Integralrechnung
+- Differenzialgleichungen
+- Kurvendiskussi
+
 ```dataview
 LIST FROM #Infinitesimalrechnung
 ```
