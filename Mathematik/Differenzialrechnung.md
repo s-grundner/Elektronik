@@ -33,7 +33,7 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}\to$ Differenzenquotient oder mittlere Steigung im Intervall.  
 $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-Steigung ist die Ableitung. 
 
-> [!success] Differenzieren einer Funktion  
+> [!important] Differenzieren einer Funktion  
 > Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der [Grenzwert](Grenzwert.md)
 > 
 > $$
