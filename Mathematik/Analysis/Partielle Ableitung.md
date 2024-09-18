@@ -52,7 +52,6 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > als die *partielle [Ableitung](Differenzialrechnung.md)* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
 > Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
 
-
 # Tags
 
 - [[Gradient]]
