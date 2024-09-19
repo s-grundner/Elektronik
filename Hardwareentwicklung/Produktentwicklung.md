@@ -45,44 +45,40 @@ cited:
 
 #### Packaging
 
-> ![InlineR|300](assets/PackAmmo.png) 
-> ### Ammo Packaging***
-> 
-> - Papier Tape
-> - nur für THT
-> 
-> > [!warning] Leads **Abzwicken**
-> > - Sonst verbleiben Klebereste auf den Mounting Holes
-> > - Verursacht Kalte Lötstellen und verschmutzung
-> >
-> 
+![InlineR|300](assets/PackAmmo.png) ***Ammo Packaging***
 
-![InlineL|300](assets/PackBulk.png) &nbsp **Bulk Packaging**
+- Papier Tape
+- nur für THT
 
-<br><br><br><br><br><br><br><br>
+> [!warning] Leads **Abzwicken**
+> - Sonst verbleiben Klebereste auf den Mounting Holes
+> - Verursacht Kalte Lötstellen und verschmutzung
 
-![InlineR|300](assets/PackTapeReel.png) **Cut Tape & Reel Packaging**
+![InlineR|300](assets/PackBulk.png) ***Bulk Packaging***
 
-<br><br><br><br><br><br><br><br>
+- Sackal 
+- Nicht [ESD](ESD.md) geeignet
+- Typischerweise THT und Prototyp komponenten
 
----
+<br> <br> <br>
 
-![InlineL|300](assets/PackTube.png) &nbsp **Tube**
+![InlineR|300](assets/PackTapeReel.png) ***Cut Tape & Reel Packaging***
 
 <br><br><br><br><br><br><br><br>
 
----
 
-![InlineR|300](assets/PackTray.png) **Tray**
-
-<br><br><br><br><br><br><br><br>
-
----
-
-![InlineL|300](assets/PackESD.png) &nbsp **ESD Sackal** 
+> ![InlineR|300](assets/PackTube.png) ***Tube***
 
 <br><br><br><br><br><br><br><br>
 
----
+> ![InlineR|300](assets/PackTray.png) ***Tray***
 
-![InlineR|300](assets/PackMSL.png) **MSL**
+<br><br><br><br><br><br><br><br>
+
+
+
+> ![InlineR|300](assets/PackESD.png) ***[ESD](ESD.md) Sackal** *
+
+<br><br><br><br><br><br><br><br>
+
+> ![InlineR|300](assets/PackMSL.png) ***MSL***
