@@ -24,7 +24,7 @@ cited:
 
 1. **MRP - Material Requirements Planning**: Software zur Verwaltung von Inventar und Einkauf von Parts 
 2. **BOM - Bill of Materials (Stückliste)**: [Beschreibeung, Part NR, Designator, Preis, Distributor]
-    - Mouser Forte
+    - [Mouser Forte](https:/www.mouser.com/bomtool/)
 3. **PO**: Purchase Order (Generiert vom MRP)
 
 ### Händler / Vendor / Distributor / Supplier
@@ -32,6 +32,7 @@ cited:
 1. **AVL - Approved Vendor List:** Liste im MRP
 2. **P&A - Price and Availability:** Quote, Info auf der Website des Händlers
 3. **ATS - Available to Ship**
+4. **AOO - Available On Order**
 
 ### Part
 
@@ -50,32 +51,55 @@ cited:
 - Papier Tape
 - nur für THT
 
-> [!warning] Leads **Abzwicken**
-> - Sonst verbleiben Klebereste auf den Mounting Holes
-> - Verursacht Kalte Lötstellen und verschmutzung
+==Leads **Abzwicken**==
+- Sonst verbleiben Klebereste auf den Mounting Holes
+- Verursacht Kalte Lötstellen und verschmutzung
+
+<br>
 
 ![InlineR|300](assets/PackBulk.png) ***Bulk Packaging***
 
 - Sackal 
 - Nicht [ESD](ESD.md) geeignet
 - Typischerweise THT und Prototyp komponenten
+- Nur für Manuelle Bestückung
 
-<br> <br> <br>
+<br> <br>
 
 ![InlineR|300](assets/PackTapeReel.png) ***Cut Tape & Reel Packaging***
 
-<br><br><br><br><br><br><br><br>
+- SMD
+- für PnP (Pick and Place) geeignet
+- Automatische Bestückung möglich
+- ESD Sicher
+- Cut Tape: abgeschnittenes Stück eines Reels 
+
+<br><br>
 
 ![InlineR|300](assets/PackTube.png) ***Tube***
 
-<br><br><br><br><br><br><br><br>
+- THT und SMD
+- PnP möglich
+- ESD Sicher
+
+<br><br><br>
 
 ![InlineR|300](assets/PackTray.png) ***Tray***
 
-<br><br><br><br><br><br><br><br>
+- Bevorzugt zur Lagerung
+- PnP möglich
+- für Größere Module
+- ESD Sicher (meistens)
+
+<br><br>
 
 ![InlineR|300](assets/PackESD.png) ***[ESD](ESD.md) Sackal***
 
-<br><br><br><br><br><br><br><br>
+- Einzeilteile in ESD Sackerl
+
+<br><br><br><br><br>
 
 ![InlineR|300](assets/PackMSL.png) ***MSL***
+
+- Für Feuchtigkeitsempfindliche komponenten
+- Feuchtigkeits indikator enthalten
