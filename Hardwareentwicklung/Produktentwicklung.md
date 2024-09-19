@@ -33,6 +33,8 @@ cited:
 2. **P&A - Price and Availability:** Quote, Info auf der Website des Händlers
 3. **ATS - Available to Ship**
 
+### Part
+
 #### Life Cycle
 
 1. **==Active==**
@@ -40,3 +42,20 @@ cited:
 3. *==EOL==* - End of Life
 4. *==Obsolete==* - Ersetzt durch neueres Produkt
 5. ==NPI== - New Product Introduction
+
+#### Packaging
+
+![InlineR|500](assets/PackAmmo.png) **Ammo Packaging** 
+
+
+Bulk Packaging 
+
+| | | 
+| --------------------------- | --------------------------- |
+| |  | ![500](assets/PackTapeReel.png) |
+| | | |
+| | | |
+
+| Cut Tape & Reel Packaging | Tube | 
+| ------------------------------- | ---- |
+| ![500](assets/PackTapeReel.png) | |
