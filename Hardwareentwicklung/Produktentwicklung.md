@@ -66,19 +66,16 @@ cited:
 
 <br><br><br><br><br><br><br><br>
 
-
-> ![InlineR|300](assets/PackTube.png) ***Tube***
-
-<br><br><br><br><br><br><br><br>
-
-> ![InlineR|300](assets/PackTray.png) ***Tray***
+![InlineR|300](assets/PackTube.png) ***Tube***
 
 <br><br><br><br><br><br><br><br>
 
-
-
-> ![InlineR|300](assets/PackESD.png) ***[ESD](ESD.md) Sackal** *
+![InlineR|300](assets/PackTray.png) ***Tray***
 
 <br><br><br><br><br><br><br><br>
 
-> ![InlineR|300](assets/PackMSL.png) ***MSL***
+![InlineR|300](assets/PackESD.png) ***[ESD](ESD.md) Sackal***
+
+<br><br><br><br><br><br><br><br>
+
+![InlineR|300](assets/PackMSL.png) ***MSL***
