@@ -41,6 +41,8 @@
     "done": "checkbox",
     "ects": "number",
     "max_credits": "number",
-    "kusss": "multitext"
+    "kusss": "multitext",
+    "ez": "date",
+    "Lack": "multitext"
   }
 }
