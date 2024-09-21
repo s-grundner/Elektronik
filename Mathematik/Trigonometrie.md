@@ -45,19 +45,18 @@ $$
 
 > [!important] Die trigonometrischen Funktionen sind definiert wie:
 > 
+> $$
+> \begin{align}
+> \text{Sinus} &\quad \sin : \mathbb{R} \rightarrow[-1,1] \\
+> \text{Cosinus} &\quad \cos : \mathbb{R} \rightarrow[-1,1]  \\
+> \text{Tangens} &\quad \tan : \mathbb{R} \backslash D_1 \rightarrow \mathbb{R}, \quad x \mapsto \frac{\sin x}{\cos x} \\
+> \text{Cotangens:} &\quad \cot:\mathbb{R} \backslash D_2 \rightarrow \mathbb{R}, \quad x \mapsto \frac{\cos x}{\sin x}
+> \end{align}
+> $$
+> 
 > mit $D_1:=\left\{\frac{\pi}{2}+k \pi: k \in \mathbb{Z}\right\}$ und $D_2:=\{k \pi: k \in \mathbb{Z}\}$.
-> Das Argument $x \in \mathbb{R}$ entspricht dabei dem Winkel in Radiant (rad), also der Länge des Bogens am Einheitskreis. $\pi$ bezeichnet die halbe Länge des Einheitskreises.
-
-$$
-\begin{align}
-\text{Sinus} \quad \sin : \mathbb{R} \rightarrow[-1,1] \\
-\text{Cosinus} 
-\end{align}
-$$
-
-Cosinus: $\quad \cos : \mathbb{R} \rightarrow[-1,1]$,
-Tangens: $\quad \tan : \mathbb{R} \backslash D_1 \rightarrow \mathbb{R}, \quad x \mapsto \frac{\sin x}{\cos x}$
-Cotangens: $\quad \cot:\mathbb{R} \backslash D_2 \rightarrow \mathbb{R}, \quad x \mapsto \frac{\cos x}{\sin x}$
+> Das Argument $x \in \mathbb{R}$ entspricht dabei dem Winkel in Radiant (rad), also der Länge des Bogens am Einheitskreis.
+> > [!important] $\pi$ bezeichnet die halbe Länge des Einheitskreises.
 
 ![invert_dark](assets/Einheitskreis.png)
 
