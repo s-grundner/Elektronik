@@ -15,6 +15,17 @@ professor:
 
 ## Hyperbolische Funktionen
 
+> [!important] Die hyperbolischen Funktionen sind wie folgt definiert:
+> 
+> $$
+> \begin{align}
+> \text{Sinus hyperbolicus:} &\quad\sinh : \mathbb{R} \rightarrow \mathbb{R} x \mapsto \frac{e^x-e^{-x}}{2}\\
+> \text{Cosinus hyperbolicus:} &\quad\cosh : \mathbb{R} \rightarrow \mathbb{R}, x \mapsto \frac{e^x+e^{-x}}{2}\\
+> \text{Tangens hyperbolicus:} &\quad \tanh : \mathbb{R} \rightarrow \mathbb{R}, \quad x \mapsto \frac{\sinh x}{\cosh x}\\
+> \text{Cotangens hyperbolicus:} &\quad \coth : \mathbb{R} \backslash\{0\} \rightarrow \mathbb{R}, \quad x \mapsto \frac{\cosh x}{\sinh x}\\
+> \end{align}
+> $$
+
 > $$
 > \begin{aligned}
 > \cosh ^2 x-\sinh ^2 x & =1, \quad \cosh (0)=1, \quad \sinh (0)=0 \\

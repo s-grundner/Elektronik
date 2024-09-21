@@ -149,7 +149,7 @@
 	{trigger: "C", replacement: "\\cancel{ ${VISUAL} }", options: "mA"},
 	{trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
-
+	{trigger: "T", replacement: "\\text{ ${VISUAL} }", options: "mA"},
 
 
 	// Symbols
