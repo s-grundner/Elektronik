@@ -56,9 +56,54 @@ $$
 > 
 > mit $D_1:=\left\{\frac{\pi}{2}+k \pi: k \in \mathbb{Z}\right\}$ und $D_2:=\{k \pi: k \in \mathbb{Z}\}$.
 > Das Argument $x \in \mathbb{R}$ entspricht dabei dem Winkel in Radiant (rad), also der Länge des Bogens am Einheitskreis.
-> > [!important] $\pi$ bezeichnet die halbe Länge des Einheitskreises.
+> > [!info] **==$\pi$==** bezeichnet die halbe Länge des Einheitskreises.
 
 ![invert_dark](assets/Einheitskreis.png)
+
+$$
+\sin (k \pi)= 0 =\cos \left(\frac{\pi}{2}+k \pi\right),\qquad k \in \mathbb{Z}
+$$
+
+---
+
+$$
+\begin{aligned}
+\sin (-x)= & -\sin x & \cos (-x) & =\cos x \\
+\sin \left(x+\frac{\pi}{2}\right)= & \cos x & \cos \left(x+\frac{\pi}{2}\right) & =-\sin x \\
+\sin (x+\pi)= & -\sin x & \cos (x+\pi) & =-\cos x \\
+\sin (x+2 \pi)= & \sin x & \cos (x+2 \pi) & =\cos x \\
+\end{aligned}
+$$
+
+---
+
+$$
+\sin ^2 x+\cos ^2 x=1
+$$
+
+---
+
+$$
+\begin{aligned}
+\sin (x+y) & =\sin x \cos y+\cos x \sin y \\
+\cos (x+y) & =\cos x \cos y-\sin x \sin y \\
+\sin x-\sin y & =2 \cos \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
+\sin x+\sin y & =2 \sin \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right) \\
+\cos x-\cos y & =-2 \sin \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
+\cos x+\cos y & =2 \cos \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right)
+\end{aligned}
+$$
+
+---
+
+$$
+\begin{aligned}
+\cos (0) & =\sin \left(\frac{\pi}{2}\right)=1 & \cos (\pi) & =\sin \left(\frac{3 \pi}{2}\right)=-1 \\
+\cos (2 x) & =\cos ^2(x)-\sin ^2(x) & \sin (2 x) & =2 \sin (x) \cos (x) \\
+1+\cos (2 x) & =2 \cos ^2(x) & 1+\sin (2 x) & =(\sin (x)+\cos (x))^2 \\
+1-\cos (2 x) & =2 \sin ^2(x) & 1-\sin (2 x) & =(\sin (x)-\cos (x))^2
+\end{aligned}
+$$
 
 ### Arkusfunktionen
 
