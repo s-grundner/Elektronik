@@ -50,7 +50,7 @@ $$
 > \text{Sinus} &\quad \sin : \mathbb{R} \rightarrow[-1,1] \\
 > \text{Cosinus} &\quad \cos : \mathbb{R} \rightarrow[-1,1]  \\
 > \text{Tangens} &\quad \tan : \mathbb{R} \backslash D_1 \rightarrow \mathbb{R}, \quad x \mapsto \frac{\sin x}{\cos x} \\
-> \text{Cotangens:} &\quad \cot:\mathbb{R} \backslash D_2 \rightarrow \mathbb{R}, \quad x \mapsto \frac{\cos x}{\sin x}
+> \text{Cotangens} &\quad \cot:\mathbb{R} \backslash D_2 \rightarrow \mathbb{R}, \quad x \mapsto \frac{\cos x}{\sin x}
 > \end{align}
 > $$
 > 
@@ -98,12 +98,16 @@ $$
 - Die Funktion $\sin(x)$ eingeschränkt auf das Intervall $\left[-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right]$ streng monoton wachsend
 - und die Funktion $\cos (x)$ eingeschränkt auf das Intervall $[0, \pi]$ streng monoton fallend, jeweils mit Bild $[-1,1]$. 
 
-- Analog gilt, dass die Funktion $\tan (x)$ das Intervall $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$ streng monoton wachsend und bijektiv nach $\mathbb{R}$ abbildet.
+- Analog gilt, dass die Funktion $\tan (x)$ das Intervall $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$ streng monoton wachsend und [bijektiv](Abbild.md) nach $\mathbb{R}$ abbildet.
 
 ### Arkusfunktionen
 
 Es gibt daher jeweils Umkehrfunktionen, genannt Arkusfunktionen:
 
 $$
-\arcsin :[-1,1] \rightarrow\left[-\frac{\pi}{2}, \frac{\pi}{2}\right] \quad \arccos :[-1,1] \rightarrow[0, \pi] \quad \arctan : \mathbb{R} \rightarrow\left(-\frac{\pi}{2}, \frac{\pi}{2}\right)
+\begin{align}
+\text{Arkussinus}&\quad \arcsin :[-1,1] \rightarrow\left[-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right] \\
+\text{Arkuscosinus}&\quad\arccos :[-1,1] \rightarrow[0, \pi]\\
+\text{Arkustangens}&\quad\arctan : \mathbb{R} \rightarrow\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)
+\end{align}
 $$
