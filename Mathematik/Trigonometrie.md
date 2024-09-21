@@ -1,13 +1,17 @@
 ---
-tags: []
-aliases: []
-created: 26. September 2023
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Mathematik 2
+semester: SS24
+created: 27. September 2023
+professor:
 ---
+ 
 
 # Trigonometrie
 
-| Trigonometrische Formel  |
-| ------------------------ |
-| $\sin ^{2}x+\cos ^{2}x=$ |
+## Winkelsätze
 
-## Trigonometrische Funktionen
