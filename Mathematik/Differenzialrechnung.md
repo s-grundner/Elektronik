@@ -67,24 +67,24 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > \end{align}
 > $$
 
-| Art der Funktion                                | Stammfunktion                                                | Ableitung                                                                                         |
-| ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| konstante Funktion                              | $f(x)=c$                                                     | $f'(x)=0$                                                                                         |
-| Potenzfunktion                                  | $f(x)=a\cdot x^{n},n\in\mathbb{R}$                           | $f'(x)=a\cdot n\cdot x^{n-1}$                                                                     |
-| [Exponentialfunktion](Exponentialfunktion.md)   | $f(x)=a^{x}$ <br> $f(x)=e^{x}$                               | $f'(x)=a^{x}\cdot \ln a$ <br> $f'(x)=e^{x}$                                                       |
-| Logarithmusfunktion                             | $f(x)=\ln x$ <br> $f(x)=\log_{a}$                            | $f'(x)=\frac{1}{x}$ <br> $f'(x)=\frac{1}{x\cdot \ln a}$                                           |
-| Kreisfunktionen <br> (*Winkel $x$ im Bogenmaß*) | $f(x)=\sin x$<br>$f(x)=\cos x$<br>$f(x)=\tan x$              | $f'(x)=\cos x$<br>$f'(x)=-\sin x$<br>$f'(x)=1+\tan ^{2}x=\frac{1}{\cos ^{2}x}$                    |
-| Arkusfunktionen                                 | $f(x)=\arcsin x$ <br> $f(x)=\arccos x$ <br> $f(x)=\arctan x$ | $f'(x)=\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ <br> $f'(x)=-\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ |
+| Art der Funktion                                | Stammfunktion                                              | Ableitung                                                                                        |
+| ----------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| konstante Funktion                              | $f(x)=c$                                                   | $f'(x)=0$                                                                                        |
+| Potenzfunktion                                  | $f(x)=a\cdot x^{n},n\in\mathbb{R}$                         | $f'(x)=a\cdot n\cdot x^{n-1}$                                                                    |
+| [Exponentialfunktion](Exponentialfunktion.md)   | $f(x)=a^{x}$ <br>$f(x)=e^{x}$                              | $f'(x)=a^{x}\cdot \ln a$ <br>$f'(x)=e^{x}$                                                       |
+| Logarithmusfunktion                             | $f(x)=\ln x$ <br>$f(x)=\log_{a}$                           | $f'(x)=\frac{1}{x}$ <br>$f'(x)=\frac{1}{x\cdot \ln a}$                                           |
+| Kreisfunktionen <br> (*Winkel $x$ im Bogenmaß*) | $f(x)=\sin x$<br>$f(x)=\cos x$<br>$f(x)=\tan x$            | $f'(x)=\cos x$<br>$f'(x)=-\sin x$<br>$f'(x)=1+\tan ^{2}x=\frac{1}{\cos ^{2}x}$                   |
+| Arkusfunktionen                                 | $f(x)=\arcsin x$ <br>$f(x)=\arccos x$ <br>$f(x)=\arctan x$ | $f'(x)=\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ <br>$f'(x)=-\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ |
 
 ## Ableitungsregeln
 
-| Summenregel     | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                               |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Faktorregel     | $[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>                                       |
-| Produktregel    | $[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                                                          |
-| Quotientenregel | $\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br>                            |
-| Kettenregel     | $(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'\qquad$ folgt aus $\dfrac{df}{dx} = \dfrac{df}{dg}\cdot \dfrac{dg}{dx}$<br><br> | 
-| [[Umkehrregel]] | $\left(f^{-1}\right)^{\prime}(y)=\dfrac{1}{f^{\prime}\left(f^{-1}(y)\right)}$                                             |
+| Summenregel     | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                                  |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Faktorregel     | $[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>                                          |
+| Produktregel    | $[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                                                             |
+| Quotientenregel | $\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br>                               |
+| Kettenregel     | $(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'\qquad$ folgt aus $\dfrac{df}{dx} = \dfrac{df}{dg}\cdot \dfrac{dg}{dx}$<br><br> |
+| [[Umkehrregel]] | $\left(f^{-1}\right)^{\prime}(y)=\dfrac{1}{f^{\prime}\left(f^{-1}(y)\right)}$                                                |
 
 ## Sätze und Folgerungen
 
