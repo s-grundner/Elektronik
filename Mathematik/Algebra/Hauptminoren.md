@@ -25,7 +25,7 @@ professor:
 > 
 > (Also $M_1:=a_{11}$ und $M_n:=\operatorname{det} A$.)
 
-Für eine symmetrische $n \times n$-Matrix $A$ definieren wir die führenden Hauptminoren $M_{1}, M_{2}, \ldots, M_{n}$ durch
+Für eine symmetrische $n \times n$-[Matrix](Matrix.md) $A$ definieren wir die führenden Hauptminoren $M_{1}, M_{2}, \ldots, M_{n}$ durch
 
 $$
 M_{1}=a_{11}, \quad M_{2}=\left|\begin{array}{ll}
