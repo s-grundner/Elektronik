@@ -6,6 +6,8 @@ aliases:
   - Extrema
   - Minimum
   - Maximum
+  - Konvex
+  - Konkav
 keywords: 
 subject:
   - VL
@@ -23,7 +25,13 @@ Maximum: $\dfrac{df(x_{0})}{dx} = 0 \wedge \dfrac{d^{2}f(x_{0})}{dx^{2}} < 0$
 
 Minimum: $\dfrac{df(x_{0})}{dx} = 0 \wedge \dfrac{d^{2}f(x_{0})}{dx^{2}} > 0$
 
-## KO
+![](assets/{57564D68-F66E-47AA-99A0-CC52039EE091}.png)
+
+## Konvex / Konkav
+
+![](assets/{F6039E57-8507-4287-AE4D-B1B0BE7989DD}.png)
+
+![](assets/{83657E46-E605-4AC2-AD43-84EE74C58D15}.png)
 
 # Beispiele
 
