@@ -1,4 +1,4 @@
-### Partielle Integration
+# Partielle Integration
 
 $$
 \int f(x)\cdot g(x) \, dx = F(x)\cdot g(x) - \int F(x)\cdot g'(x) \, dx 
