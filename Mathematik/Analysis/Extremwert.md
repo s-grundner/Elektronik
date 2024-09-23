@@ -23,6 +23,8 @@ Maximum: $\dfrac{df(x_{0})}{dx} = 0 \wedge \dfrac{d^{2}f(x_{0})}{dx^{2}} < 0$
 
 Minimum: $\dfrac{df(x_{0})}{dx} = 0 \wedge \dfrac{d^{2}f(x_{0})}{dx^{2}} > 0$
 
+## KO
+
 # Beispiele
 
 > [!example]- Bezeichne $c(t)$ die Konzentration eines Wirkstoffes im Blut $t$ Stunden nach der Injektion und gilt $c(t)=\frac{16 t}{(10 t+20)^2}$.
