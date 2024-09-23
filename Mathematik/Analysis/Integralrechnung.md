@@ -8,6 +8,9 @@ created: 26th March 2022
 
 # Integralrechnung
 
+- [Partielle Integration](Partielle%20Integration.md)
+- [Integration durch Substitution](Integration%20durch%20Substitution.md)
+
 ## Unbestimmtes Integral
 
 > [!INFO] Ermittlung der Stammfunktion  
@@ -16,27 +19,13 @@ created: 26th March 2022
 - Trigonometrische Substitution
 - Integrieren von rationalen Polynomen $\to$ anwendung der [Partialbruchzerlegung](Partialbruchzerlegung.md)
 
-### Integration durch Substitution
+![](assets/{22125BB9-7A2F-4E52-B917-2AAB734F94BE}.png)
 
-$$
-\begin{aligned}
-\int \sin^{n}(t) \cos (t) \,dt=\frac{1}{n+1} \sin^{n+1}(t)\qquad g(x):= \sin(t)\\
-\int \cos^{n}(t) \sin (t) \,dt=-\frac{1}{n+1} \cos^{n+1}(t)\qquad g(x):= \cos(t)
-\end{aligned}
-$$
+> [!example]- Beispiel
+> ![700](assets/{6D49E5CF-85D6-4795-8682-52CF8B41ED90}.png)
+> ![|700](assets/{6F9D05DC-946D-4881-A94B-8DBE6019B92A}.png)
 
 ### Nichtlineare Substitution
-
-### Partielle Integration
-
-$$
-\int f(x)\cdot g(x) \, dx = F(x)\cdot g(x) - \int F(x)\cdot g'(x) \, dx 
-$$
-- für $g$ wird jene Funktion gewählt die durch Differezation verschwindet
-- Es gibt eine einfach anzuwendende tabellarische Methode der partiellen Integration
-- Partielle integration kann mehrmals hintereinander 
-
-
 
 ## Bestimmtes Integral
 
