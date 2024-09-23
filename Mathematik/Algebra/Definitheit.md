@@ -35,4 +35,6 @@ Ermittlung mittels [Hauptminoren](Hauptminoren.md)
 (a) $A$ ist **positiv** definit $\Longleftrightarrow \forall i \in\{1, \ldots, n\}: M_i>0$
 (b) $A$ ist **negativ** definit $\Longleftrightarrow \forall i \in\{1, \ldots, n\}:(-1)^i M_i>0$
 
-![[definitheit.pdf]]
+---
+
+[[definitheit.pdf]]
