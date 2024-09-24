@@ -9,6 +9,9 @@ aliases:
   - differenziell
 subject:
   - mathe
+  - Mathematik 1
+  - Mathematik 2
+  - VL
 source:
   - Rudolf Frauenschuh
 created: 26th March 2022
