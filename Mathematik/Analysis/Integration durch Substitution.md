@@ -1,4 +1,4 @@
-### Integration durch Substitution
+# Integration durch Substitution
 
 > [!important] **Substitutionsregel**: Seien $I_0, I \subset \mathbb{R}$ Intervalle, $g: I_0 \rightarrow I$ differenzierbar und $f: I \rightarrow \mathbb{R}$.
 > **(a)** $F$ sei Stammfunktion von $f$. Dann ist $F \circ g$ eine Stammfunktion von $(f \circ g) g^{\prime}$, also:
@@ -21,8 +21,8 @@
 > $$
 
 ![](assets/{9B42AEE1-F75C-4D02-BCF4-136A79659403}.png)
-#### Nützliche Folgerungen
 
+## Nützliche Folgerungen
 
 $$
 \begin{aligned}
