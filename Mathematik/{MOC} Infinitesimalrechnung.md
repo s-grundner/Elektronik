@@ -24,7 +24,7 @@ created: 26th March 2022
     - [Gradient](Gradient.md)
     - [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md)
 - [Integralrechnung](Analysis/Integralrechnung.md)
-    - [Riemann-Integral](Riemann-Integral.md)
+    - [Riemann-Integral](Analysis/Riemann-Integral.md)
     - Mittelwertsatz der Integralrechnung
 - 🗺️[Differenzialgleichungen]({MOC}%20DGL.md)
 - 🗺️[Kurvendiskussion]({MOC}%20Kurvendiskussion.md)

@@ -6,9 +6,7 @@ keywords:
 subject:
   - Physik für TechnikerInnen
   - "322.005"
-semester:
-  - B1
-  - WS23
+semester: WS23
 created: 25. Oktober 2023
 professor:
 ---
@@ -62,6 +60,7 @@ Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunig
 > [!hint] Begriff: Konservatives Kraftfeld
 > In einem Konservativen Kraftfeld trägt nur der Anteil der Bewegung in die *gleiche* Richtung der Kraftvektoren zur [Arbeit](Mechanische%20Arbeit.md) und alle der daraus folgenden Größen bei.  
 > - [Skalarprodukt](Skalarprodukt.md) 
+> - Konservativ $\iff$ [Wegunabhängig](../Mathematik/Analysis/Wegunabhängig.md)
 
 # Tags
 

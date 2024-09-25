@@ -74,4 +74,4 @@ Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\ti
 
 # Tags
 
-[Vektorraum](../Vektorraum.md)
+[Vektorraum](Vektorraum.md)

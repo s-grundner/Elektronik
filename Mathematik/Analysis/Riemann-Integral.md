@@ -18,11 +18,15 @@ cited:
 
 # Riemann-[Integral](Integralrechnung.md)
 
+## Inhalt einer Menge
+
 > [!important] Inhalt
 > (a) Seien $a_i, b_i \in \mathbb{R}$ mit $a_i<b_i$ für $i=1, \ldots, n$. Ein *abgeschlossenes* $n$-*dimensionales* Intervall ist eine Menge $I:=\left[a_1, b_1\right] \times \ldots \times\left[a_n, b_n\right]$. Der *Inhalt* von $I$ ist definiert als:
 > $$
 > |I|:=\prod_{i=1}^n\left(b_i-a_i\right)
 > $$
+
+### Feinheit
 
 > [!important] Feinheit, Zerlegung von $[a,b]$
 > (b) Sei $[a, b] \subset \mathbb{R}$ ein abgeschlossenes Intervall und $a=x_0<\ldots<x_k=b$. Die Menge $Z:=\left\{x_0, \ldots, x_k\right\}$ heißt *Zerlegung* von $[a, b]$ mit *Feinheit*:
@@ -38,6 +42,8 @@ cited:
 
 > [!warning] Betragsstriche dienen nur zur notation
 
+## Riemann Summe
+
 > [!important] Riemann-Summe
 > Sei $I \subset \mathbb{R}^n$ ein abgeschlossenes Intervall, $Z$ eine Zerlegung von $I$ mit Teilintervallen $I_1, \ldots, I_m$. Für $j \in\{1, \ldots, m\}$ sei $\xi_j \in I_j$.
 > $\sigma:=\left\{\xi_1, \ldots, \xi_m\right\}$ heißt ein zu $Z$ gehöriges System von Zwischenpunkten.
@@ -52,6 +58,8 @@ cited:
 > 
 > Dabei handelt es sich bei $Z$ und $\sigma$ um Zerlegungen von $I$ bzw. Systeme von Zwischenpunkten zu $Z$.
 
+## Riemann Integral
+
 > [!important] Riemann-Integral
 > Die Zahl $A$ heißt (bestimmtes, Riemann-)Integral von $f$ über $I$, Symbole:
 > $$ \int_I f \,dx \text { oder } \int_I f(x) \,dx \text { oder } \int_I f\left(x_1, \ldots, x_n\right) \,d\left(x_1, \ldots, x_n\right) $$
@@ -59,8 +67,6 @@ cited:
 > Ist $n=1$ und $I=[a, b]$, so schreiben wir statt $\int_I f d x$ auch $\int_a^b f d x$ und definieren:
 > $$ \int_b^a f\,dx:=-\int_a^b f \,dx $$
 
-| ![invert_dark\|400](ZerlegungR2.png) | ![invert_dark\|400](RiemannSum.png) | 
-|:------------------------------------:|:---------------------------------------:|
-| Zerlegung $Z$ in $\mathbb{R}^{2}$ | Visualisierung einer Riemannschen Summe |
-
- 
+| ![invert_dark\|400](ZerlegungR2.png) |   ![invert_dark\|400](RiemannSum.png)   |     |
+| :----------------------------------: | :-------------------------------------: | --- |
+|  Zerlegung $Z$ in $\mathbb{R}^{2}$   | Visualisierung einer Riemannschen Summe |     |
