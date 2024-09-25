@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - konservativ
+  - Wegunabhängigkeit
 keywords: 
 subject:
   - VL
