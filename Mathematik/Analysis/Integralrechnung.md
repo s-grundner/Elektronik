@@ -25,11 +25,13 @@ created: 26th March 2022
 > ![700](assets/{6D49E5CF-85D6-4795-8682-52CF8B41ED90}.png)
 > ![|700](assets/{6F9D05DC-946D-4881-A94B-8DBE6019B92A}.png)
 
-### Nichtlineare Substitution
-
 ## Bestimmtes Integral
 
 - [Riemann-Integral](Riemann-Integral.md)
+
+## Sätze und Folgerungen
+
+- [Wegunabhängig](Wegunabhängig.md)
 
 ---
 
