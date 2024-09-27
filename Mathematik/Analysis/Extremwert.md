@@ -27,6 +27,8 @@ Minimum: $\dfrac{df(x_{0})}{dx} = 0 \wedge \dfrac{d^{2}f(x_{0})}{dx^{2}} > 0$
 
 ![](assets/{57564D68-F66E-47AA-99A0-CC52039EE091}.png)
 
+![](assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
+
 ## Konvex / Konkav
 
 ![](assets/{F6039E57-8507-4287-AE4D-B1B0BE7989DD}.png)

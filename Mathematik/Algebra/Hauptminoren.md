@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Satz 10.24
 keywords: 
 subject:
   - VL
@@ -37,3 +38,7 @@ a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33}
 \end{array}\right|, \ldots, \quad M_n=\operatorname{det} A
 $$
+
+--- 
+
+- [Determinante](Determinante.md)

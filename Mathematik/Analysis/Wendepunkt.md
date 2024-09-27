@@ -4,6 +4,7 @@ tags:
   - Mathe
 aliases:
   - Sattelpunkt
+  - Satz 11.55
 subject:
   - mathe
 source:
