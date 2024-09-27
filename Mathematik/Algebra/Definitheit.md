@@ -20,15 +20,15 @@ Ermittlung mittels [Eigenwerte](../Eigenvektor.md)
 
 > [!important] Definition 10.23. Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. $A$ hei $B \mathrm{t}$
 > 
-> (a) **positiv semidefinit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ nicht negativ sind. ($\geq 0$)
+> (a) **positiv semidefinit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ nicht negativ sind. *==($\geq 0$)==*
 > 
-> (b) **positiv definit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ positiv sind. ($>0$)
+> (b) **positiv definit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ positiv sind. *==($>0$)==*
 > 
-> (c) **negativ semidefinit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ nicht positiv sind. ($\leq 0$)
+> (c) **negativ semidefinit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ nicht positiv sind. *==($\leq 0$)==*
 > 
-> (d) **negativ definit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ negativ sind. ($<0$)
+> (d) **negativ definit**, wenn alle [Eigenwerte](../Eigenvektor.md) von $A$ negativ sind. *==($<0$)==*
 > 
-> (e) **indefinit** sonst. (Es gibt positive und negative Eigenwerte)
+> (e) **indefinit** sonst. *==(Es gibt positive und negative Eigenwerte)==*
 > 
 
 Ermittlung mittels [Hauptminoren](Hauptminoren.md)
