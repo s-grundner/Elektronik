@@ -31,12 +31,14 @@ $$
 > > eine [[Lineare Abbildungen|Lineare Abbildung]] $L$ aus der Menge aller Linearen Abbildungen von $\mathbb{R}^n$ nach $\mathbb{R}^m$ existiert, sowohl ein *Rest* $r(h)$ existiert, der von $\mathbb{R}^n$ nach $\mathbb{R}^m$ abbildet.
 > > (Also im Raum der linearen Abbildung bleibt $\to$ sonst ist der Rest unstetig im Raum)
 > $$
-\forall h \in \mathbb{R}^n, x_0+h \in A: f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h) \wedge \lim _{h \rightarrow 0} \frac{\|r(h)\|}{\|h\|}=0
+\forall h \in \mathbb{R}^n, x_0+h \in A: f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h) \wedge \lim _{h \rightarrow 0} \frac{\mid r(h)\mid}{\mid h \mid}=0
 > $$
 > $L$ heißt *Fréchet*-Ableitung oder *totale* Ableitung von $f$ in $x_0$,
 > - Symbol: $L=f^{\prime}(x_{0})$.
 > 
 > Für $n=m=1$ ist die $1 \times 1$-Matrix $L$ gleich $f^{\prime}\left(x_0\right)$ aus Definition 11.1. Für $n=1$ kann auch $f: I \rightarrow \mathbb{R}^m$ mit $I$ Intervall behandelt werden.
+
+
 
 > [!info] Ist die Jakobi-Matrix stetig, ist diese die Fréchet Ableitung
 > ![](assets/{733DBA99-ECBB-4208-8740-4BB2A98D829C}.png)
