@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Satz 11.6
+aliases: []
 keywords: 
 subject:
   - VL
@@ -14,7 +13,8 @@ professor:
 
 # Satz 11.6
 
-> [!important] Satz 11.6. Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ differenzierbar in $x_0$. Dann ist $f$ stetig in $x_0$.
+> [!important] Satz 11.6. Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ differenzierbar in $x_0$.
+> Dann ist $f$ stetig in $x_0$.
 
 ## Beweis
 

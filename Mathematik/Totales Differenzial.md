@@ -40,5 +40,3 @@ $$
 
 > [!info] Ist die Jakobi-Matrix stetig, ist diese die Fréchet Ableitung
 > ![](assets/{733DBA99-ECBB-4208-8740-4BB2A98D829C}.png)
-
-[](Satz%2011-18)

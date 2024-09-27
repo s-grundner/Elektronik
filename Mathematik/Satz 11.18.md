@@ -1,10 +1,11 @@
 ---
 tags: 
 aliases:
-  - Satz 11.18
   - Bemerkung 11.9
 keywords:
   - Fréchet Differenzierbarkeit
+  - Partielle Ableitung
+  - Zusammenhang
 subject:
   - VL
   - Mathematik 2
@@ -66,5 +67,5 @@ $$
 > $$
 > 
 > 
-> Dann gilt: $\frac{\partial f}{\partial x}(0,0)=\frac{\partial f}{\partial y}(0,0)=0$. Da $f$ aber in $(0,0)$ offensichtlich nicht stetig ist, ist $f$ nach [Satz 11.6](Satz%2011-6.md) in $(0,0)$ auch nicht Fréchet-differenzierbar.
+> Dann gilt: $\frac{\partial f}{\partial x}(0,0)=\frac{\partial f}{\partial y}(0,0)=0$. Da $f$ aber in $(0,0)$ offensichtlich nicht stetig ist, ist $f$ nach [Satz 11.6](Satz%2011.6.md) in $(0,0)$ auch nicht Fréchet-differenzierbar.
 > Man sieht an diesem Beispiel auch, dass die Existenz der partiellen Ableitungen nicht die Stetigkeit impliziert.

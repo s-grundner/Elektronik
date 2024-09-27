@@ -5,6 +5,7 @@ aliases:
   - Jacobi-Matrix
   - Funktionalmatrix
   - Gradienten
+  - Definition 11.7
 keywords: 
 subject:
   - VL
@@ -14,12 +15,11 @@ created: 19. März 2024
 professor:
   - Andreas Neubauer
 ---
- 
 
 # Gradient
 
-> [!important] Sei $A \subset \mathbb{R}^n$ offen.
-> (a) Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$. $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Grenzwert]] existiert:
+> [!important] **Definition 11.7 (a)** Sei $A \subset \mathbb{R}^n$ offen.
+> Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$. $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Grenzwert]] existiert:
 > $$
 > \lim _{t \rightarrow 0} \frac{f\left(x_1, \ldots, x_{j-1}, x_j+t, x_{j+1}, \ldots, x_n\right)-f(x)}{t}=: \frac{\partial f}{\partial x_j}(x)
 > $$
@@ -33,7 +33,7 @@ professor:
 
 ## Jacobi [[Matrix]]
 
-> [!important] Sei $A \subset \mathbb{R}^n$ offen.
+> [!important] **Definition 11.7 (b)** Sei $A \subset \mathbb{R}^n$ offen.
 >  (b) Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
 > Falls $\frac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[Matrix]]
 > 
