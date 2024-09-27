@@ -7,7 +7,7 @@ aliases:
 keywords:
 subject:
   - VL
-  - Einf. ET
+  - Einführung Elektrotechnik
 semester: WS23
 created: 11th April 2023
 professor:

@@ -5,13 +5,10 @@ aliases:
   - Joule
 keywords: 
 subject:
-  - Physik für TechnikerInnen
-  - "322.005"
   - VL
-  - Einf. ET
-semester:
-  - B1
-  - WS23
+  - Physik für TechnikerInnen
+  - Einführung Elektrotechnik
+semester: WS23
 created: 22. November 2023
 professor:
   - Gunther Springholz

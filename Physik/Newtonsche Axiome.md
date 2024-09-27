@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Newton
+aliases: []
 keywords: 
 subject:
   - VL

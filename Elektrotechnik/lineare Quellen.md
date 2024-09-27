@@ -5,11 +5,10 @@ aliases:
   - Norton
 keywords: 
 subject:
-  - Einf. ET
   - VL
   - Elektrotechnik
-semester:
-  - WS23
+  - Einführung Elektrotechnik
+semester: SS24
 created: 11. Februar 2024
 professor:
 ---

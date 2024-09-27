@@ -321,6 +321,7 @@ Mit Getter und Setter sollen private Felder kontrollierter über öffentliche Me
 
 Schreiben Sie für ein privates Feld `private String name;` Getter und Setter-Methoden.
 ?
+
 ```java
 private String name;
 

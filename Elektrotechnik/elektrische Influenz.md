@@ -9,11 +9,9 @@ aliases:
 keywords:
   - Elektrisches Feld
 subject:
-  - Einf. ET
+  - Einführung Elektrotechnik
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 19. Oktober 2023
 professor:
   - Bernhard Jakoby

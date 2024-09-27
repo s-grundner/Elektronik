@@ -5,7 +5,7 @@ aliases:
   - Wechselstrom
 keywords: 
 subject:
-  - Einf. ET
+  - Einführung Elektrotechnik
   - VL
 semester: WS23
 created: 12th January 2024

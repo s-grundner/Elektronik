@@ -5,10 +5,8 @@ aliases:
 keywords: 
 subject:
   - VL
-  - "335.005"
-  - Einf. ET
-semester:
-  - SS24
+  - Einführung Elektrotechnik
+semester: WS23
 created: 29. Februar 2024
 professor:
   - Bernhard Jakoby

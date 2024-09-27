@@ -37,3 +37,6 @@ $$
 > - Symbol: $L=f^{\prime}(x_{0})$.
 > 
 > Für $n=m=1$ ist die $1 \times 1$-Matrix $L$ gleich $f^{\prime}\left(x_0\right)$ aus Definition 11.1. Für $n=1$ kann auch $f: I \rightarrow \mathbb{R}^m$ mit $I$ Intervall behandelt werden.
+
+> [!info] Ist die Jakobi-Matrix stetig, ist diese die Fréchet Ableitung
+> ![](assets/{733DBA99-ECBB-4208-8740-4BB2A98D829C}.png)

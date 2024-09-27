@@ -7,9 +7,7 @@ keywords:
 subject:
   - Elektrotechnik
   - VL
-semester:
-  - SS24
-  - B2
+semester: SS24
 created: 19th March 2024
 professor:
   - Michael Gattringer

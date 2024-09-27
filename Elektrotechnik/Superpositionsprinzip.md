@@ -7,11 +7,9 @@ aliases:
   - Superposition
 keywords: 
 subject:
-  - Einf. ET
+  - Einführung Elektrotechnik
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 11. Februar 2024
 professor:
 ---

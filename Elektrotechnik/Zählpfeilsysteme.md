@@ -4,10 +4,8 @@ aliases:
 keywords: 
 subject:
   - VL
-  - Einf. ET
-semester:
-  - SS24
-  - B2
+  - Einführung Elektrotechnik
+semester: WS23
 created: 6. März 2024
 professor:
 ---

@@ -54,7 +54,9 @@ so kleine (negative) Zahl, so heißt die Folge ($c_{n}$) bestimmt divergent.
 > - offen und abgeschlossen 
 > - kein isolierter Punkt
 
-# Tags
+# Konvergenzkriterien
 
+- [[Wurzelkriterium]]
+- Vergleichskriterium
 - [Leibnitzkriterium](Leibnitz%20Kriterium.md)
 - [Quotientenkriterium](Quotienten%20Kriterium.md)

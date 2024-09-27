@@ -3,11 +3,9 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - Einf. ET
+  - Einführung Elektrotechnik
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 24th January 2024
 professor:
   - Andreas Springer

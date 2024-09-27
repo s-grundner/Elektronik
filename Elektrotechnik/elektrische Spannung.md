@@ -9,8 +9,7 @@ aliases:
 keywords:
   - Potenzial
 subject:
-  - Einf. ET
-  - "335.005"
+  - Einführung Elektrotechnik
   - VL
 semester: WS23
 created: 18. Oktober 2023

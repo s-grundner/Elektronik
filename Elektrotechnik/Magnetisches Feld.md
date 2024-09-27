@@ -6,10 +6,8 @@ aliases:
 keywords: 
 subject:
   - VL
-  - Einf. ET
-semester:
-  - B1
-  - WS23
+  - Einführung Elektrotechnik
+semester: WS23
 created: 31. August 2023
 professor:
   - Bernhard Jakoby

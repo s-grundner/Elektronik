@@ -1,20 +1,25 @@
 ---
-tags: []
-aliases: []
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags: 
+aliases:
+  - LHospital
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 21st November 2022
 ---
 
 # L'Hospital
 
-> [!IMPORTANT] Führt ein [Grenzwert](Grenzwert.md) auf einen unbestimmten Ausdruck der Form "$\frac{0}{0}$" oder "$\frac{\infty}{\infty}$", wo gilt:  
+> [!IMPORTANT] Führt ein [Grenzwert](Grenzwert.md) auf *einen unbestimmten Ausdruck* der Form "$\frac{0}{0}$" oder "$\frac{\infty}{\infty}$", wo gilt:  
 >
-> $$ \lim_{x\rightarrow x_{0}}\frac{f(x)}{g(x)} = \lim_{x\rightarrow x_{0}}\frac{f'(x)}{g'(x)} $$
+> $$ \lim_{x\rightarrow a^{+}}\frac{f(x)}{g(x)} = \lim_{x\rightarrow a^{+}}\frac{f'(x)}{g'(x)}, \quad g'(x) \neq 0 $$
 
 - $f(x)$ und $g(x)$ müssen dazu an der Stelle $x_{0}$ differenziert werden.
 - $f(x)$ und $g(x)$ müssen getrennt differenziert werden.
 - die Regel von *L'Hospital* kann mehrmals hintereinander angeordnet werden. 
+
+## Beispiel
 
 > [!EXAMPLE] Beispiel:  
 >

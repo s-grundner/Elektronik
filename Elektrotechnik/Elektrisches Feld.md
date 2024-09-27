@@ -1,10 +1,4 @@
 ---
-banner: "/Elektrotechnik/assets/mast.png"
----
----
-banner: "/Elektrotechnik/assets/mast.png"
----
----
 tags:
   - E-Feld
 aliases:

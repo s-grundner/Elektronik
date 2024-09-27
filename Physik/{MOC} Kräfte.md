@@ -6,9 +6,7 @@ keywords:
 subject:
   - Physik für TechnikerInnen
   - "322.005"
-semester:
-  - B1
-  - WS23
+semester: WS23
 created: 25. Oktober 2023
 professor:
 ---
@@ -17,7 +15,7 @@ professor:
 
 > [!QUESTION] Was ist die Kraft?  
 >  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md)) ändert.
->  - Interessante Diskussion in [Einf. ET](../xEDU/(SemB1)-WS23/Einführung%20Elektrotechnik/{NOTES}%20Einf.%20ET.md) Skriptum Teil 1 von Bernhard Jakoby
+>  - Interessante Diskussion in [Einf. ET](../xEDU/(SemB1)-WS23/Einführung%20Elektrotechnik/{NOTES}%20Einführung%20Elektrotechnik.md) Skriptum Teil 1 von Bernhard Jakoby
 
 Die moderne Physik kennt *4* Kräfte:
 
@@ -62,6 +60,7 @@ Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunig
 > [!hint] Begriff: Konservatives Kraftfeld
 > In einem Konservativen Kraftfeld trägt nur der Anteil der Bewegung in die *gleiche* Richtung der Kraftvektoren zur [Arbeit](Mechanische%20Arbeit.md) und alle der daraus folgenden Größen bei.  
 > - [Skalarprodukt](Skalarprodukt.md) 
+> - Konservativ $\iff$ [Wegunabhängig](../Mathematik/Analysis/Wegunabhängig.md)
 
 # Tags
 

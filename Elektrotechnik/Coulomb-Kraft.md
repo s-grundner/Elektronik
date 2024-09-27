@@ -5,11 +5,9 @@ aliases:
   - Coulomb-Kraft
 keywords: 
 subject:
-  - Einf. ET
+  - Einführung Elektrotechnik
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 11. Oktober 2023
 professor:
   - Bernhard Jakoby

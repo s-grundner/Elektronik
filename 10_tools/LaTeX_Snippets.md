@@ -6,6 +6,9 @@
 	{trigger: "bsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:m} } \\sum\\limits_{ ${2:j=1} }^{ ${3:n} }", options: "mA"},
 	{trigger: "lsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:n} }", options: "mA"},
 	{trigger: "\\mid\\mid([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
+	{trigger: "partt", replacement: "\\frac{\\partial $0}{\\partial t}$1", options: "mA"},
+	{trigger: "partx", replacement: "\\frac{\\partial $0}{\\partial x}$1", options: "mA"},
+	{trigger: "ppart", replacement: "\\frac{\\partial $0}{\\partial $1}$2", options: "mA"},
 	{trigger: "ddt", replacement: "\\frac{d$0}{dt}$1", options: "mA"},
 	{trigger: "ddx", replacement: "\\frac{d$0}{dx}$1", options: "mA"},
 	{trigger: "dfx", replacement: "f'(x$0)=$1", options: "mA"},
@@ -146,7 +149,7 @@
 	{trigger: "C", replacement: "\\cancel{ ${VISUAL} }", options: "mA"},
 	{trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
-
+	{trigger: "T", replacement: "\\text{ ${VISUAL} }", options: "mA"},
 
 
 	// Symbols

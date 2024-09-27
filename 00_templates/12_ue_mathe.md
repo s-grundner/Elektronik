@@ -5,11 +5,11 @@ tp.file.rename("UE" + nr)
 
 # UE<%* tR += nr%>
 
-⬅️ <a href="UE<%* tR += (parseInt(nr) - 1) %>.md" class="internal-link">letzte Übung</a> | <a href="UE<%* tR += (parseInt(nr) + 1) %>.md" class="internal-link">nächste Übung</a> ➡️ 
+⬅️ <a href="./UE<%* tR += (parseInt(nr) - 1) %>.md" class="internal-link">letzte Übung</a> | <a href="./UE<%* tR += (parseInt(nr) + 1) %>.md" class="internal-link">nächste Übung</a> ➡️ 
 
 ---
 
-🔎 [Aufgaben Sammlung](Aufgabensammlung.pdf)
+🔎 [Aufgaben Sammlung](../xEDU/(SemB2)-SS24/Mathematik%202/UE/Aufgabensammlung.pdf)
 📝 [Angabe](Angaben/Uebungsblatt<%* tR += nr%>.pdf)
 ✅ [Lösung](Loesungen/UE<%* tR += nr%>-k12136610.pdf)
 

@@ -24,12 +24,17 @@ cited:
 > $\lambda \in \mathbb{K}$
 > 
 > (a) *Assoziativgesetze*: 
+> 
 > - $A \cdot(B \cdot C)=(A \cdot B) \cdot C$ 
 > - $\lambda(A \cdot B)=(\lambda A) \cdot B=A \cdot(\lambda B)$  
+> 
 > (b) *Distributivgesetze*:
+> 
 > - $(A_1+A_2) \cdot B=A_1 \cdot B+A_2 \cdot B$ 
 > - $A \cdot(B_1+B_2)=A \cdot B_1+A \cdot B_2$  
+> 
 > (c) *Neutrale Elemente*:
+>
 > - $I_m \cdot A=A \cdot I_n=A$
 
 > [!warning] Achtung: Auch für $m=n=p$ gilt i.a. nicht: $A B=B A$  
@@ -69,4 +74,4 @@ Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\ti
 
 # Tags
 
-[Vektorraum](../Vektorraum.md)
+[Vektorraum](Vektorraum.md)

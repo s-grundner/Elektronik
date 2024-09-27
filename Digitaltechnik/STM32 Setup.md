@@ -38,7 +38,13 @@ created: 18th August 2023
 > 
 > Anschließend mit *Finish* das Projekt Setup beenden.
 
+## STLink Programmer
+
+[STLink V2](https://www.st.com/resource/en/user_manual/um1075-stlinkv2-incircuit-debuggerprogrammer-for-stm8-and-stm32-stmicroelectronics.pdf)
+
 ## Requirements
 
 STMCubeIDE
 [STLink Server](https://www.st.com/en/development-tools/st-link-server.html)
+
+## Guide

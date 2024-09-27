@@ -1,12 +1,14 @@
-<%* let lva = await tp.user.get_lva().ws23(tp) _%>
+<%* let lva = await tp.user.get_lva().ss25(tp) _%>
 
 ---
 tags: NOTES
 subject:
   - <%* tR += lva %>
-semester: WS23
+semester: SS25
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
+done:
+ects:
 ---
 
 # <%* tR += lva %>
