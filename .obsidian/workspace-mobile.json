@@ -27,9 +27,22 @@
               "type": "full-calendar-view",
               "state": {}
             }
+          },
+          {
+            "id": "2303133bf5a13976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physik/Shockley Gleichung.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +120,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "TODO.md",
+            "file": "Physik/Shockley Gleichung.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -124,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "TODO.md",
+            "file": "Physik/Shockley Gleichung.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -136,7 +149,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "TODO.md"
+            "file": "Physik/Shockley Gleichung.md"
           }
         }
       },
@@ -170,12 +183,12 @@
       "templater-obsidian:Templater": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "49a49f5da851af16",
+  "active": "2303133bf5a13976",
   "lastOpenFiles": [
+    "TODO.md",
     "Untitled.md",
     "Softwareentwicklung/SoftwareEngineering/Generics.md",
     "Mathematik/Analysis/Integralrechnung.md",
@@ -214,7 +227,6 @@
     "assets/Excalidraw/Drawing 2024-03-14 20.20.50.excalidraw.md",
     "assets/Excalidraw/Wechselstromtechnik 2024-03-18 23.04.08.excalidraw.md",
     "Softwareentwicklung/C/assets/pdf",
-    "Softwareentwicklung/ds-algo/Algorithmusbegriff.md",
     "Softwareentwicklung/C/assets/pdf/C.CheatSheet.pdf",
     "Softwareentwicklung/C/assets/pdf/cheat_sheet_c.pdf",
     "Netzwerktechnik/Nw/Ue",
