@@ -3,7 +3,6 @@ tags:
   - Java
 aliases:
   - Vararg
-  - Funktionen
   - Unterprogramme
   - Prozeduren
   - Methoden

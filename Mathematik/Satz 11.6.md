@@ -1,6 +1,6 @@
 ---
 tags: 
-aliases: []
+aliases: 
 keywords: 
 subject:
   - VL
@@ -8,6 +8,7 @@ subject:
 semester: SS24
 created: 27. September 2024
 professor:
+  - Andreas Neubauer
 ---
  
 
