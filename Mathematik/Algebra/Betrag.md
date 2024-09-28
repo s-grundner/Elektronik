@@ -40,4 +40,4 @@ $$
 
 ---
 
-[[Norm]]
+[[Algebra/Norm]]

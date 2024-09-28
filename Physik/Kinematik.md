@@ -60,7 +60,7 @@ $$
 ## 2 Bewegung in 2/3-Dimensionen
 
 > [!TLDR] Vektorschreibweise  
-> Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als [Vektoren](Vektor.md) auffassen. [Vektoren](Vektor.md) sind Größen, die sowohl einen [Betrag](../Mathematik/Betrag.md) als auch eine Richtung im Raum haben (Größen, die nur einen [Betrag](../Mathematik/Betrag.md) haben, heißen Skalare).
+> Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als [Vektoren](Vektor.md) auffassen. [Vektoren](Vektor.md) sind Größen, die sowohl einen [Betrag](../Mathematik/Algebra/Betrag.md) als auch eine Richtung im Raum haben (Größen, die nur einen [Betrag](../Mathematik/Algebra/Betrag.md) haben, heißen Skalare).
 
 ![InlineR|310](assets/Raumbewegung.png)
 $$

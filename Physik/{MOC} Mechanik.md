@@ -17,7 +17,7 @@ created:
 
 [Bewegung](Kinematik.md) von Massenpunkten, Beziehungen zwischen Ort, [Geschwindigkeit](Kinematik.md) und [Beschleunigung](Kinematik.md)
 
-## 2. [Newton]({MOC}%20Kräfte.md)´sche [Axiome](../Mathematik/Axiom.md)
+## 2. [Newton]({MOC}%20Kräfte.md)´sche [Axiome](../Mathematik/Logik/Axiom.md)
 
 Ursachen (=[{MOC} Kräfte]({MOC}%20Kräfte.md)) der [Bewegung](Kinematik.md), Kräftegleichgewicht, Bewegungsgleichung, Intertialsysteme, Scheinkräfte
 

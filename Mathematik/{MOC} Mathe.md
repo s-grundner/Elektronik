@@ -31,7 +31,7 @@ SORT file.cday DESC
  - Lineare Ungleichungen
  - [Numerisches Rechnen](Numerisches%20Rechnen.md)
  - [Geometrie](Geometrie.md)
- - [Funktionen](Abbild.md)
+ - [Funktionen](Algebra/Abbild.md)
  - Lineare Funktionen
  - [Trigonometrie](Trigonometrie.md)
  - [Vektor](Vektor.md)

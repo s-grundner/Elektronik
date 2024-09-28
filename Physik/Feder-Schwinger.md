@@ -23,7 +23,7 @@ In der Gleichgewichtslage bei $x = 0$ übt die [Feder](Federkraft.md) keine [Kra
 
 ## Bewegungsgleichung
 
-Wird der Körper um den [Betrag](../Mathematik/Betrag.md) x aus der Ruhelage ausgelenkt, erfährt er nach dem Hookeschen Gesetz eine rücktreibende [Federkraft](Federkraft.md), die gegeben ist durch:  
+Wird der Körper um den [Betrag](../Mathematik/Algebra/Betrag.md) x aus der Ruhelage ausgelenkt, erfährt er nach dem Hookeschen Gesetz eine rücktreibende [Federkraft](Federkraft.md), die gegeben ist durch:  
 
 $$F_{r}(x)=-k\cdot x$$
 
@@ -40,4 +40,4 @@ $$F_{r}(x)=-k\cdot x$$
 
 > Diese Gleichung ist die Bewegungsgleichung des harmonischen Oszillators. Sie ist eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) da sie die 2. [Ableitung](Differenzialrechnung.md) von $x$ enthält.
 
-> Gesucht ist die [Funktion](../Mathematik/Abbild.md) $x(t)$, die diese [Differentialgleichung](../Mathematik/{MOC}%20DGL.md) erfüllt und damit die [Bewegung](Kinematik.md) beschreibt.
+> Gesucht ist die [Funktion](../Mathematik/Algebra/Abbild.md) $x(t)$, die diese [Differentialgleichung](../Mathematik/{MOC}%20DGL.md) erfüllt und damit die [Bewegung](Kinematik.md) beschreibt.

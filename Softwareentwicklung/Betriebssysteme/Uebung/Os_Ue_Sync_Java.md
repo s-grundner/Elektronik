@@ -20,7 +20,7 @@ Die Bank hat Überweisungen durchzuführen. Die Überweisungen werden in paralle
 
 - Für Transaktionen zwischen zwei Konten stellt `SimpleBank` die Methode `transfer()` zur Verfügung. 
 
-- Ihr werden die beiden beteiligten Kontonummern sowie der [Betrag](../../../Mathematik/Betrag.md) der Überweisung übergeben. 
+- Ihr werden die beiden beteiligten Kontonummern sowie der [Betrag](../../../Mathematik/Algebra/Betrag.md) der Überweisung übergeben. 
 
 - Zu Demonstrationszwecken wird die Ausführung der Überweisung zwischen der Berechnung des neuen Kontostands und dessen Zurückschreiben unterbrochen. Hierzu wird auf die bekannte Methode `sleep()` verwendet.
 
@@ -65,7 +65,7 @@ class SimpleBank {
 
 Jeder Banker gehört zu einer Bank.  
 Deshalb wird dem Konstruktor ein Verweis auf `SimpleBank` übergeben. Über diesen Verweis wird die Methode `transfer()` aufgerufen.  
-Die beiden beteiligten Kontonummern sowie der [Betrag](../../../Mathematik/Betrag.md) werden dem Konstruktor übergeben und in entsprechenden Datenelementen der Klasse gespeichert. 
+Die beiden beteiligten Kontonummern sowie der [Betrag](../../../Mathematik/Algebra/Betrag.md) werden dem Konstruktor übergeben und in entsprechenden Datenelementen der Klasse gespeichert. 
 
 Diese Datenelemente werden dann in `run()` benutzt, um die Methode `transfer()` der Bank aufzurufen. Nachdem die Transaktion durchgeführt  
 ist, wird eine aktuelle Kontenübersicht ausgegeben.

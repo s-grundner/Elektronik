@@ -18,7 +18,7 @@ created: 27th April 2022
 
 > [!INFO] Trivia  
 > Die [Fourier Transformation](Fourier%20Transformation.md) ist eine Integraltransformation, welche 1822 von Jean Baptiste Fourier eingeführt wurde und genutzt wird, um das diskrete Frequenzspektrum aperiodischer Signale zu ermitteln.  
-> Ihr gegenüber steht die [Fourier Reihe](Fourier%20Reihe.md), mit welcher sich das Spektrum periodischer [Funktionen](../Abbild.md) berechnen lässt.  
+> Ihr gegenüber steht die [Fourier Reihe](Fourier%20Reihe.md), mit welcher sich das Spektrum periodischer [Funktionen](Abbild.md) berechnen lässt.  
 > Sie ist in vielen Bereichen von Wissenschaft und Technik unerlässlich.
 > 
 > - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](DFT.md) ([[DFT]]) und die Schnelle Fourier Transformation ([FFT](../../Softwareentwicklung/ds-algo/FFT.md)).
@@ -28,14 +28,14 @@ created: 27th April 2022
 Der Ursprung der Fouriertransformation ist auf die [Fourierreihe](Fourier%20Reihe.md) zurückzuführen:
 
 > [!INFO] zur [Fourier-Reihe](Fourier%20Reihe.md):  
-> Eine *periodische* [Funktion](../Abbild.md) $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
+> Eine *periodische* [Funktion](Abbild.md) $f$ lässt sich in Form der [Fourier-Reihe](Fourier%20Reihe.md) als Summe unendlich vieler **Sinusschwingungen** darstellen.
 
 > [!INFO] zur Fouriertransformation (auch Fourier-Analyse)  
-> Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* [Funktionen](../Abbild.md) die Aufgabe, diese als Überlagerung von **[harmonischen Schwingungen](../../Physik/harmonische%20Schwingungen.md)** darzustellen.
+> Die nun zu besprechenden **Fourier-Transformation** löst (auch) bei *nicht-periodischen* [Funktionen](Abbild.md) die Aufgabe, diese als Überlagerung von **[harmonischen Schwingungen](../../Physik/harmonische%20Schwingungen.md)** darzustellen.
 > 
-> - Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der [Funktion](../Abbild.md) $f$.  
+> - Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der [Funktion](Abbild.md) $f$.  
 >
-> - Dadurch entsteht aus einer reellen [Funktion](../Abbild.md) $f$ eine [komplexwertige](Komplexe%20Zahlen.md) [Funktion](../Abbild.md) $F$.
+> - Dadurch entsteht aus einer reellen [Funktion](Abbild.md) $f$ eine [komplexwertige](Komplexe%20Zahlen.md) [Funktion](Abbild.md) $F$.
 
 >[!SUCCESS] Man sagt, dass die Zeitfunktion $f$ im **Original-** oder **[Zeitbereich](Komplexe%20Zahlen.md)** liegt, während ihre Fourier-Transformierte im **Frequenz-** oder **Bildbereich** liegt.  
 > Folgende Schreibweisen sind üblich: $F(\omega)=\mathcal{F}\{f(t)\}$ oder $f(t) \multimap F(\omega)$

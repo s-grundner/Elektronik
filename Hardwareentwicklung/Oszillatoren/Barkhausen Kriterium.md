@@ -12,8 +12,8 @@ created: 2nd January 2023
 
 - Die vom Rückkoppelnetzwerk hervorgerufene [Dämpfung](../Dämpfung.md) muss vom Verstärker kompensiert werden 
 - Die Eingekoppelte Spannung $\overline{U_{1}}$ und die Rückgekoppelte Spannung $\overline{U_{3}}$
-- Ist [Betrag](../../Mathematik/Betrag.md) von $|g|=|k|\cdot|A|< 1$, kann keine Schwingung entstehen
-- Ist [Betrag](../../Mathematik/Betrag.md) von $|g|=|k|\cdot|A|> 1$, wächst die Amplitude an, bis sie durch nichtlineare Bauelemente begrenzt wird.
+- Ist [Betrag](../../Mathematik/Algebra/Betrag.md) von $|g|=|k|\cdot|A|< 1$, kann keine Schwingung entstehen
+- Ist [Betrag](../../Mathematik/Algebra/Betrag.md) von $|g|=|k|\cdot|A|> 1$, wächst die Amplitude an, bis sie durch nichtlineare Bauelemente begrenzt wird.
 - Das Rückkoppelnetzwerk ist Frequenzselektiv
 - Die Anregung der Schwingung erfolgt aus dem Rauschen oder aus einer Störung heraus
 

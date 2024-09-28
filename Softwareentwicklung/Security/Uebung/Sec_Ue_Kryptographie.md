@@ -432,7 +432,7 @@ Algorithmus:
 - Auswahl zweier großer [Primzahlen](../../../Mathematik/Primzahlen.md) **p** und **q**
 - Berechnung **N** = p q
 - Ermitteln von $\varphi(N) = (p - 1)(q - 1)$ (*Eulersche-Funktion*)  
-  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, … , \varphi-1\}$ und e und $\varphi$ sind prim zueinander ([ggT](../../../Mathematik/Teilbarkeit.md) ist 1) und größer 1
+  Wahl einer natürlichen Zahl **e** für die gilt: $e \in \{1, … , \varphi-1\}$ und e und $\varphi$ sind prim zueinander ([ggT](../../../Mathematik/Logik/Teilbarkeit.md) ist 1) und größer 1
 - Berechnung $d = (e\ mod\ \varphi)^{-1}$ mittels erweiterten Euklidischen Algorithmus.
 - Öffentlicher Schlüssel: **P** = (e, N), Verschlüsseln von m mit $c = m^e mod \ N$
 - Privater/Geheimer Schlüssel **S** = (d, N), Entschlüsseln von c mit $m = c^d mod \ N$
@@ -488,7 +488,7 @@ Berechnen Sie einen einfachen (3 stellig) privaten, geheimen Schlüssel und eine
 
 Zur Lösung der Gleichung $(d\cdot e)\mod \varphi = 1$:
 
-- Anwendung des Euklidischen Algorithmus zur Ermittlung des [ggT](../../../Mathematik/Teilbarkeit.md) zwischen $e$ und $\varphi$ (ist immer 1 weil e ja so gewählt wird).
+- Anwendung des Euklidischen Algorithmus zur Ermittlung des [ggT](../../../Mathematik/Logik/Teilbarkeit.md) zwischen $e$ und $\varphi$ (ist immer 1 weil e ja so gewählt wird).
 - Ausgehend von der vorletzten Gleichung ( 1=…) wird der erweiterte Euklidische Algorithmus angewendet. Dabei werden die Terme nicht einfach ausmultipliziert sondern, solange es Reste aus der vorhergehenden Gleichung sind, eingesetzt.
 
 #### Variante 1
@@ -502,7 +502,7 @@ Lösung der Gleichung    d * e mod phi = 1
 nach d
 ```
 
-Euklidischer Algorithmus ([ggT](../../../Mathematik/Teilbarkeit.md) Berechnung) (<https://www.mathe-online.at/materialien/Franz.Embacher/files/RSA/Euklid.html>):
+Euklidischer Algorithmus ([ggT](../../../Mathematik/Logik/Teilbarkeit.md) Berechnung) (<https://www.mathe-online.at/materialien/Franz.Embacher/files/RSA/Euklid.html>):
 
 ```
 ggT(e, phi) = ggt(17, 120) -> wir wissen dieser muss 1 sein (wurde ja so gewählt)

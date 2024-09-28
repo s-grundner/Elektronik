@@ -22,7 +22,7 @@ professor:
 Federkräfte sind Rückwirkungskräfte, die entstehen wenn ein Festkörper (z.B. ein Stab oder eine Feder) zusammengedrückt oder auseinandergezogen wird, oder wenn der Körper seitlich geschert wird.  
 ![InlineR|300](assets/Pasted%20image%2020231213122701.png)
 
-Der einfachste Fall ist der einer Feder, die um einen gewissen [Betrag](../Mathematik/Betrag.md) $x$ aus der entspannten Ruhelage ($x=0$) gedehnt wird.
+Der einfachste Fall ist der einer Feder, die um einen gewissen [Betrag](../Mathematik/Algebra/Betrag.md) $x$ aus der entspannten Ruhelage ($x=0$) gedehnt wird.
 
 Durch die Anziehung der Atome in der Feder entsteht nun eine rückwirkende elastische [Kraft]({MOC}%20Kräfte.md) $F_{F}$, die dieser Dehnung entgegen wirkt.
 

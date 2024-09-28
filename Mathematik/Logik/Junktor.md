@@ -28,7 +28,7 @@ professor:
 
 # Junktoren
 
-> [!ABSTRACT] *Definition 1.3* [^1] - Seien $A$ und $B$ [Aussagen](Aussagenlogik.md) , dann heißen: 
+> [!ABSTRACT] *Definition 1.3* [^1] - Seien $A$ und $B$ [Aussagen](Logik/Aussagenlogik.md) , dann heißen: 
 
 | $\neg A$      | lies: nicht $A$          | die *Negation* von $A$            |
 | ------------- | ------------------------ | --------------------------------- |

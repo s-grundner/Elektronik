@@ -4,7 +4,6 @@ tags:
 aliases:
   - inneres Produkt
   - innere Produkt
-  - Bemerkung 10.11
   - Satz 10.10
   - Definition 6.13
 keywords: 
@@ -47,8 +46,8 @@ Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdi
 > $$
 > 
 > ein Skalarprodukt auf $X$.
-> Weiters gilt: Alle Normen auf $X$ sind äquivalent.
-> Sind also $\|\cdot\|_1$ und $\|\cdot\|_2$ Normen auf $X$, dann gilt:
+> Weiters gilt: Alle [Normen](Norm.md) auf $X$ sind äquivalent.
+> Sind also $\|\cdot\|_1$ und $\|\cdot\|_2$ [Normen](Norm.md) auf $X$, dann gilt:
 > 
 > $$
 > \exists m, M>0 \forall x \in X: m\|x\|_1 \leq\|x\|_2 \leq M\|x\|_1
@@ -57,14 +56,14 @@ Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdi
 ### Beweis
 
 Laut Satz 6.6 ist die Abbildung $L: \mathbb{K}^n \rightarrow X$ mit $L x:=\sum_{i=1}^n x_i b_i$ ein Isomorphismus (vgl. Bemerkung 6.7). Damit folgt mit Beispiel 6.16 (a), dass (10.1) ein Skalarprodukt auf $X$ darstellt.
-Wir zeigen nun die Äquivalenz zweier Normen auf $X$. Auf $\mathbb{K}^n$ verwenden wir die [Norm](../Norm.md):
+Wir zeigen nun die Äquivalenz zweier Normen auf $X$. Auf $\mathbb{K}^n$ verwenden wir die [Norm](Norm.md):
 
 $$
 \|x\|:=\sqrt{\sum_{i=1}^n\left|x_i\right|^2}
 $$
 
 
-Sei $f: \mathbb{K}^n \rightarrow \mathbb{R}$ definiert durch $f(x):=\|L x\|_1$. Dann folgt mit der 2. [Dreiecksungleichung](../Betrag.md) (siehe Beispiel 6.12 (b)), der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)) und der Normeigenschaften:
+Sei $f: \mathbb{K}^n \rightarrow \mathbb{R}$ definiert durch $f(x):=\|L x\|_1$. Dann folgt mit der 2. [Dreiecksungleichung](Betrag.md) (siehe Beispiel 6.12 (b)), der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)) und der Normeigenschaften:
 
 $$
 |f(x)-f(y)| \leq\|L(x-y)\|_1 \leq \sum_{i=1}^n\left|x_i-y_i\right|\left\|b_i\right\|_1 \leq c\|x-y\|

@@ -26,10 +26,10 @@ $$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
 
 ![TL_QundS](../HF-Technik/assets/TL_QundS.png)
 
-> [!IMPORTANT] Für hochfrequente [Logik](../Mathematik/Aussagenlogik.md)-Signale ([elektrisch kurz](../HF-Technik/Leitungstheorie.md) im vergleich zur Flankenanstiegszeit) führen Fehlanpassungen an einer der Impedanzen $Z_{S}$, $Z_{0}$ bzw. $Z_{L}$ zu [Reflexionen](../HF-Technik/Reflexionsfaktor.md).  
+> [!IMPORTANT] Für hochfrequente [Logik](../Mathematik/Logik/Aussagenlogik.md)-Signale ([elektrisch kurz](../HF-Technik/Leitungstheorie.md) im vergleich zur Flankenanstiegszeit) führen Fehlanpassungen an einer der Impedanzen $Z_{S}$, $Z_{0}$ bzw. $Z_{L}$ zu [Reflexionen](../HF-Technik/Reflexionsfaktor.md).  
 > Probleme:
 > - Overshoot oder Undershoot durch [Reflexionen](../HF-Technik/Reflexionsfaktor.md)
-> - Signalintegritätsprobleme ([SI](Signalintegrität.md)) ([Logik](../Mathematik/Aussagenlogik.md)-Schwellen, Überschreitung von maximum ratings)
+> - Signalintegritätsprobleme ([SI](Signalintegrität.md)) ([Logik](../Mathematik/Logik/Aussagenlogik.md)-Schwellen, Überschreitung von maximum ratings)
 > - Probleme mit [EMV](Elektromagnetische%20Verträglichkeit.md) (erhöhte Frequenzanteile, Abstrahlungen)
 
 > [!INFO] Eine Anpassung der [Leitungstheorie](../HF-Technik/Leitungstheorie.md) unterdrückt diese Probleme  

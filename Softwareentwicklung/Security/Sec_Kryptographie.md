@@ -299,7 +299,7 @@ Algorithmus:
   $\varphi(N)$ … Anzahl der teilerfremden natürlichen Zahlen von N (Zahlen die keinen gemeinsamen Teiler mit N haben)  
   Bsp.: $\varphi(6) = 2$ weil in der Menge {1,2,3,4,5,6} nur 1 und 5 teilerfremd sind; da 6 das Produkt von 2 und 3 ist liefert die Berechnung das gleiche Ergebnis (3-1)*(2-1)=2 
   
-- Wahl einer kleinen natürlichen Zahl **e** für die gilt: e und $\varphi$ sind prim zueinander ([ggT](../../Mathematik/Teilbarkeit.md) ist 1, bzw. sind teilerfremd) und größer 1
+- Wahl einer kleinen natürlichen Zahl **e** für die gilt: e und $\varphi$ sind prim zueinander ([ggT](../../Mathematik/Logik/Teilbarkeit.md) ist 1, bzw. sind teilerfremd) und größer 1
 
 - der Entschlüsselungsexponent muss multiplikativ invers bezüglich dem Modul sein: $e\cdot d \equiv 1\ mod\ \varphi(N)$ 
   

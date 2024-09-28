@@ -64,7 +64,7 @@ Da die Algorithmen mit allen Containern zusammenarbeiten können sollen, ist es 
 sort(myVec.begin(), myVec.end());	// sort(BeginIterator, EndIterator)
 ```
 
-Wenn *myVec* ein *vector* mit Integer-Werten ist, dann ist die Sortierung trivial. Die Reihenfolge in welcher eine aufsteigende Sortierung zu erfolgen hat ist klar. Nicht eindeutig ist die Sache wenn die *vector*-Elemente Objekte einer Klasse sind. Es könnte eine Klasse *complex* bestehend aus den Membern *m_real* und *m_imag* sein. Die Sortierung könnte dann nach der Größe des Real-Teils oder des Imaginär-Teils sein. Genauso gut kann es auch der [Betrag](../../Mathematik/Betrag.md) der Zahl sein.
+Wenn *myVec* ein *vector* mit Integer-Werten ist, dann ist die Sortierung trivial. Die Reihenfolge in welcher eine aufsteigende Sortierung zu erfolgen hat ist klar. Nicht eindeutig ist die Sache wenn die *vector*-Elemente Objekte einer Klasse sind. Es könnte eine Klasse *complex* bestehend aus den Membern *m_real* und *m_imag* sein. Die Sortierung könnte dann nach der Größe des Real-Teils oder des Imaginär-Teils sein. Genauso gut kann es auch der [Betrag](../../Mathematik/Algebra/Betrag.md) der Zahl sein.
 
 Die Algorithmen versuchen allgemein möglichst ähnliche Schnittstellen zu bedienen, damit kann eine Verallgemeinerung einfacher erfolgen. Für Algorithmen wie *sort* müssen zwangsläufig Elemente eines Containers verglichen werden. Dabei wird nach Möglichkeit immer der < Operator verwendet. Auf Gleichheit kann ja etwa geprüft werden:
 
@@ -132,7 +132,7 @@ bool cplxCmp(Complex c1, Complex c2) {
 }
 ```
 
-Sie dreht die < [Logik](../../Mathematik/Aussagenlogik.md) um, damit kann in umgekehrter Reihenfolge sortiert werden. Voraussetzung ist, dass wie oben, der < Operator definiert wurde. Damit kann Sortiert werden:
+Sie dreht die < [Logik](../../Mathematik/Logik/Aussagenlogik.md) um, damit kann in umgekehrter Reihenfolge sortiert werden. Voraussetzung ist, dass wie oben, der < Operator definiert wurde. Damit kann Sortiert werden:
 
 ```cpp
 sort(myVec.begin, myVec.end(), cplxCmp);

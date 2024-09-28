@@ -78,7 +78,7 @@ $$\exists a,b \in M : A(a,b)\qquad\text{statt}\qquad\exists b\in M\exists a\in M
 > - $\neg (\forall a \in M:A(a))$: Nicht für alle $a$ in $M$ gilt $A(a)$
 > - $\exists a \in M:(\neg A(a))$: Es existiert ein $a$ aus $M$ sodass $A(a)$ falsch ist.
 > 
-> Diese beiden Aussagen sind logisch [Äquivalent](Junktor.md)
+> Diese beiden Aussagen sind logisch [Äquivalent](Logik/Junktor.md)
 
 > [!WARNING] Aufpassen mit Beispielen  
 > Eine Beispiel-Menge zu definieren und dann den Satz durch einsetzen der Menge in die Quantoren zu "Beweisen" zeigt nur, dass der Satz für diese Menge gilt und nicht für alle Mengen.  

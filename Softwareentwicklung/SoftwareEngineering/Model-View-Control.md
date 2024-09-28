@@ -18,7 +18,7 @@ professor:
 # Model-View-Control MVC
 
 Das MVC-Pattern ist kein [Design Patterns](Entwurfsmuster.md) der GoF, allerdings hat es sich für GUI-Anwendungen sehr bewährt.
-Dabei geht es darum graphische Kontrollelemente von der [Logik](../../../Mathematik/Aussagenlogik.md) zu trennen:
+Dabei geht es darum graphische Kontrollelemente von der [Logik](../../Mathematik/Logik/Aussagenlogik.md) zu trennen:
 
  ![invert_dark](Pattern_MVC.png) 
 
@@ -29,7 +29,7 @@ Aus diesem Grund wird der angezeigte Teil (**View**) komplett vom Datensatz (**M
 Vorteile:
 
 - Änderungen in der Programmlogik haben keine Auswirkung auf die graphische Darstellung und können unabhängig erfolgen.
-- Die Darstellung ist unabhängig von der (eventuell komplexen) [Logik](../../../Mathematik/Aussagenlogik.md) und kann unabhängig von den anderen Teilen verändert werden.
+- Die Darstellung ist unabhängig von der (eventuell komplexen) [Logik](../../Mathematik/Logik/Aussagenlogik.md) und kann unabhängig von den anderen Teilen verändert werden.
 
 Dieses Konzept ist nach außen in Abwandlungen realisiert, so zum Beispiel in Qt-C++, Java-Swing oder C#-WPF (MVVM). Dort ist jeweils nur ein Modell für die GUI-Klasse (View) verfügbar, der Controller ist im View integriert.
 

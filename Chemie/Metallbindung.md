@@ -43,7 +43,7 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 >  wenn die Leitungselektronen sich aber ungleichmäßig verteilen, dann kann es zu lokalen positiven oder negativen Ladungsüberschüssen kommen.
 
 > [!HINT] Die Leitungselektronen führen eine [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung aus.  
-> Der [Betrag](../Mathematik/Betrag.md) dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
+> Der [Betrag](../Mathematik/Algebra/Betrag.md) dieser [Geschwindigkeit](../Physik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
 >
 > > [!INFO] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md) verursacht werden
 > > Diese Eigenschaft führt zum [Drude-Modell](../Elektrotechnik/Drude-Modell.md). 

@@ -10,7 +10,7 @@ created: 10th September 2022
 
 # Bindungsenergie im Atomkern
 
-Je stärker die Bindungskräfte zwischen den zum Kern zusammengefügten Nukleonen ist, desto kleiner wird der [Betrag](../Mathematik/Betrag.md) von $E_{nach}$ ausfallen.  
+Je stärker die Bindungskräfte zwischen den zum Kern zusammengefügten Nukleonen ist, desto kleiner wird der [Betrag](../Mathematik/Algebra/Betrag.md) von $E_{nach}$ ausfallen.  
 Die Energiedifferenz $E_{vor}$ - $E_{nach}$ wird als Bindungsenergie B des Kerns bezeichnet. 
 
 $B=\Delta m\cdot c^{2}$

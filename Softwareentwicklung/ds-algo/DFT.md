@@ -34,7 +34,7 @@ Außerdem kann der Faktor $T$ aus „Bequemlichkeit“ weggelassen werden.
 
 $$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
 
-Dies [Funktion](../../Mathematik/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathematik/Algebra/Basis,%20Dimension%20und%20Teilräume.md)e Funktionswerte.
+Dies [Funktion](../../Mathematik/Algebra/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathematik/Algebra/Basis,%20Dimension%20und%20Teilräume.md)e Funktionswerte.
 
 Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
 

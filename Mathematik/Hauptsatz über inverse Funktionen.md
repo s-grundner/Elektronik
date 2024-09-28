@@ -43,6 +43,6 @@ $$
 - [Determinante](Determinante.md) der [Jacobi-Matrix](Gradient.md)
 - Ist matrix überall regulär (außer 0,0)?
   - Ja $\to$ Funktion ist Lokal invertierbar
-- Ist die Funktion [bijektiv](Abbild.md)?
+- Ist die Funktion [bijektiv](Algebra/Abbild.md)?
   - Ja $\to$ Funktion ist Global invertierbar
 - Sonst nicht invertierbar

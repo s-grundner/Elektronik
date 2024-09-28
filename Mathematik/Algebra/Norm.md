@@ -2,6 +2,9 @@
 tags: 
 aliases:
   - Definition 6.11
+  - Satz 6.15
+  - Parallelogrammgleichung
+  - Cauchy-Schwarzsche Ungleichung
 keywords: 
 subject:
   - VL
@@ -24,3 +27,10 @@ Es stellt sich nun die Frage, ob man auf allgmeinen Vektorräumen auch so einen 
 > **(N3)** $\forall x, y \in X:\|x+y\| \leq\|x\|+\|y\|\quad$ (**Dreiecksungleichung**)
 > 
 > $(X,\|\cdot\|)$ heißt **normierter Raum**.
+
+Der nächste Satz besagt, dass jeder Prähilbertraum auch ein normierter Raum ist:
+
+> [!important] **Satz 6.15** Sei $(X,\langle\cdot, \cdot\rangle)$ ein Prähilbertraum. Dann ist $\|x\|:=\sqrt{\langle x, x\rangle}$ eine Norm auf $X$ und für alle $x, y \in X$ gilt:
+> **(a)** Cauchy-Schwarzsche Ungleichung: $|\langle x, y\rangle| \leq\|x\| \cdot\|y\|$
+> **(b)** Parallelogrammgleichung: $\|x+y\|^2+\|x-y\|^2=2\left(\|x\|^2+\|y\|^2\right)$
+> - $\langle\cdot,\cdot \rangle$: [[Skalarprodukt]]
