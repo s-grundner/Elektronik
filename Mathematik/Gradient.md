@@ -59,7 +59,26 @@ professor:
 > $$
 > symmetrisch.
 
-![4000](../../assets/Excalidraw/Partielle%20Ableitung%202024-03-19%2017.40.01.excalidraw)
+
+$f: \mathbb{R}^{n}\mapsto \mathbb{R}, \quad \vec{x}=(x,y)$
+
+$$
+\begin{align}
+f(x,y)&:=x^{2}y+3x^{2}-\sin(xy) \\
+\downarrow &\frac{\partial }{\partial \vec{x}}\\
+\nabla f(x,y) &= J_{f} = \begin{pmatrix}
+2 x y+6 x-\cos (x y) \cdot y \\
+x^2-x \cdot \cos (x y) \\
+\end{pmatrix} \\
+\downarrow &\frac{\partial }{\partial \vec{x}}\\
+H_{f(x, y)} &= \begin{pmatrix}
+2 y+6+\sin (x y) y^2 & 2 x+\sin (x y) \cdot y^2 \\
+x-(\cos (x y)+x \cdot \sin (x y) \cdot y & \sin (x y) x^2
+\end{pmatrix}
+\end{align}
+$$
+
+
 
 # Beispiele
 

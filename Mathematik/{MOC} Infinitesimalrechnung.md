@@ -18,6 +18,7 @@ created: 26th March 2022
 # Map of Content - Infinitesimalrechnung
 
 - [Differenzialrechnung](Differenzialrechnung.md)
+    - [Totale Ableitung](Analysis/Total%20Differenzierbar.md)
     - [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)
         - Satz von Schwarz
     - [Satz von Rolle](Satz%20von%20Rolle.md)

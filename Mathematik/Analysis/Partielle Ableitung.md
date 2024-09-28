@@ -3,6 +3,7 @@ tags:
   - Infinitesimalrechnung/Differenzieren
 aliases:
   - Satz von Schwarz
+  - Satz 11.28
 keywords: 
 subject:
   - KV
@@ -29,7 +30,7 @@ $$
 Die partielle [Ableitung](Differenzialrechnung.md) gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle [Ableitung](Differenzialrechnung.md) nach diesen die jeweilige Änderung in diese Raumrichtung an.
 
 > [!info] Satz von Schwarz: 
-> > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar
+> > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn sie stetig differenzierbar ist
 > 
 > Sei $A \subset \mathbb{R}^2$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}$ besitzt in $A$ die partiellen Ableitungen $\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$ und $\frac{\partial^2 f}{\partial x \partial y}$. 
 > 
