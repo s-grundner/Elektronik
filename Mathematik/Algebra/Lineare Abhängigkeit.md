@@ -16,8 +16,8 @@ professor:
 
 # Lineare Abhängigkeit
 
-> [!important] [Definition 6.5](Basis,%20Dimension%20und%20Teilräume.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-Vektorraum:
-> **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele Vektoren), heißen **linear unabhängig**, falls gilt:
+> [!important] [Definition 6.5](Basis,%20Dimension%20und%20Teilräume.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md):
+> **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](../Analysis/Vektor.md)), heißen **linear unabhängig**, falls gilt:
 > 
 > $$
 > \left.\sum_{i=1}^k \lambda_i v_i=0 \quad \Longleftrightarrow \quad \forall i \in\{1, \ldots, k\}\right\}: \lambda_i=0
@@ -28,15 +28,58 @@ professor:
 > 
 > **(d)** Eine (auch möglicherweise unendliche) Menge $M \subset X$ heißt linear unabhängig, wenn jede endliche Auswahl von Elementen aus $M$ linear unabhängig ist.
 
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}
+% Linear Abhängigkeit
+\begin{axis}[
+    axis lines=middle, 
+    grid=both,
+    xmin=-1, xmax=4, ymin=-1, ymax=4,
+    title={Linear Anhängig},
+]
 
-> [!important]+ Definition: Lineare (Un)abhängigkeit
-> (i) Die [Vektoren](Vektor.md) $v_1, \ldots, v_n$ heißen linear abhängig, wenn es $\lambda_1, \lambda_2, \ldots, \lambda_n \in K$ gibt, die nicht alle gleich Null sind, sodass gilt
+% Vektor 1
+\addplot[->, thick, color=cyan] coordinates {(0,0) (2,1)};
+\node at (axis cs: 2.2, 1.2) {$\mathbf{v_1}$};
+
+% Vektor 2 (lineare Kombination von v1)
+\addplot[->, thick, color=orange] coordinates {(0,0) (4,2)};
+\node at (axis cs: 4.2, 2.2) {$\mathbf{v_2} = 2\mathbf{v_1}$};
+
+\end{axis}
+\end{tikzpicture}
+\begin{tikzpicture}
+% Linear Unabhängigkeit
+\begin{axis}[
+    axis lines=middle, 
+    grid=both,
+    xmin=-1, xmax=4, ymin=-1, ymax=4,
+    title={"Lineare Unabhängigkeit"}
+]
+
+% Vektor 1
+\addplot[->, thick, color=blue] coordinates {(0,0) (2,1)};
+\node at (axis cs: 2.2, 1.2) {$\mathbf{v_1}$};
+
+% Vektor 2 (nicht lineare Kombination von v1)
+\addplot[->, thick, color=red] coordinates {(0,0) (1,2)};
+\node at (axis cs: 1.2, 2.2) {$\mathbf{v_2}$};
+
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
+> [!importent] Lineare (Un)abhängigkeit
+> (i) Die [Vektoren](Vektor.md) $v_{1}, \ldots, v_{n}$ heißen **linear abhängig**, wenn es $\lambda_1, \lambda_{2}, \ldots, \lambda_{n} \in K$ gibt, die nicht alle gleich Null sind, sodass gilt
 > $$
-\lambda_1 \cdot v_1+\lambda_2 \cdot v_2+\ldots+\lambda_n \cdot v_n=o
+\lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\vec{o}
 > $$
-> (ii) Die [Vektoren](Vektor.md) $v_1, \ldots, v_n$ heißen linear unabhängig, wenn sie nicht linear abhängig sind, wenn also gilt
+> (ii) Die [Vektoren](Vektor.md) $v_1, \ldots, v_n$ heißen **linear unabhängig**, wenn sie nicht linear abhängig sind, wenn also gilt
 > $$
-\lambda_1 \cdot v_1+\lambda_2 \cdot v_2+\ldots+\lambda_n \cdot v_n=o \quad \Rightarrow \quad \lambda_1=\lambda_2=\ldots=\lambda_n=0
+\lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\vec{o} \quad \Rightarrow \quad \lambda_{1}=\lambda_{2}=\ldots=\lambda_{n}=0
 > $$
 
 Um die [Vektoren](Vektor.md) $v_{1},v_{2},\dots,v_{n}\in X$ auf lineare Abhängigkeit bzw. lineare Unabhängigkeit zu Prüfen, ist die Gleichung (bzw. das daraus resultierende [LGS](Lineare%20Gleichungssysteme.md))

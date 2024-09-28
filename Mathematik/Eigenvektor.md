@@ -163,7 +163,7 @@ S_{3}'=S_{3}+S_{1}
 \end{align}
 $$
 
-Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](Lineare%20Gleichungssysteme.md) gelöst werden. Pro Lineare Abhängigkeit kann ein Parameter frei gewählt werden:
+Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](Lineare%20Gleichungssysteme.md) gelöst werden. Pro [Lineare Abhängigkeit](Algebra/Lineare%20Abhängigkeit.md) kann ein Parameter frei gewählt werden:
 
 $$
 0x_{1}+0x_{2}+0x_{3} = 0 \to x_{3} = s, s\in \mathbb{R}
