@@ -31,32 +31,43 @@ professor:
 ```tikz
 \usepackage{pgfplots}
 \begin{document}
-\begin{tikzpicture}
+
 % Linear Abhängigkeit
+\begin{tikzpicture}
 \begin{axis}[
+    
     axis lines=middle, 
     grid=both,
-    xmin=-1, xmax=4, ymin=-1, ymax=4,
-    title={Linear Anhängig},
+    xmin=-1, xmax=3, ymin=-1, ymax=3,
+    xlabel={$x$}, ylabel={$y$},
+    xtick={-1,0,1,2,3},
+    ytick={-1,0,1,2,3},
+    title={\textbf{Linear Abhängig}},
+    scale=2.0
 ]
 
 % Vektor 1
-\addplot[->, thick, color=cyan] coordinates {(0,0) (2,1)};
-\node at (axis cs: 2.2, 1.2) {$\mathbf{v_1}$};
+\addplot[->, thick, color=blue] coordinates {(0,0) (1,1)};
+\node at (axis cs: 1.2, 1.0) {$\mathbf{v_1}$};
 
 % Vektor 2 (lineare Kombination von v1)
-\addplot[->, thick, color=orange] coordinates {(0,0) (4,2)};
-\node at (axis cs: 4.2, 2.2) {$\mathbf{v_2} = 2\mathbf{v_1}$};
+\addplot[->, thick, color=red] coordinates {(0,0) (2,2)};
+\node at (axis cs: 2.4, 2.0) {$\mathbf{v_2} = 2\mathbf{v_1}$};
 
 \end{axis}
 \end{tikzpicture}
-\begin{tikzpicture}
+
 % Linear Unabhängigkeit
+\begin{tikzpicture}
 \begin{axis}[
     axis lines=middle, 
     grid=both,
-    xmin=-1, xmax=4, ymin=-1, ymax=4,
-    title={"Lineare Unabhängigkeit"}
+    xmin=-1, xmax=3, ymin=-1, ymax=3,
+    xlabel={$x$}, ylabel={$y$},
+    xtick={-1,0,1,2,3},
+    ytick={-1,0,1,2,3},
+    title={\textbf{Linear Unabhängig}},
+    scale=2.0
 ]
 
 % Vektor 1
@@ -69,10 +80,11 @@ professor:
 
 \end{axis}
 \end{tikzpicture}
+
 \end{document}
 ```
 
-> [!importent] Lineare (Un)abhängigkeit
+> [!important] Lineare (Un)abhängigkeit
 > (i) Die [Vektoren](Vektor.md) $v_{1}, \ldots, v_{n}$ heißen **linear abhängig**, wenn es $\lambda_1, \lambda_{2}, \ldots, \lambda_{n} \in K$ gibt, die nicht alle gleich Null sind, sodass gilt
 > $$
 \lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\vec{o}
