@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Nabla
+aliases: []
 keywords: 
 subject:
   - VL
@@ -12,6 +11,7 @@ professor:
 cited:
 ---
  
+
 # Nabla Operator
 
 > [!success] Nabla Operator

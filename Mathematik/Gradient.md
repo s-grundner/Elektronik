@@ -21,7 +21,7 @@ professor:
 > [!important] **Definition 11.7 (a)** Sei $A \subset \mathbb{R}^n$ offen.
 > Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$. $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Grenzwert]] existiert:
 > $$
-> \lim _{t \rightarrow 0} \frac{f\left(x_1, \ldots, x_{j-1}, x_j+t, x_{j+1}, \ldots, x_n\right)-f(x)}{t}=: \frac{\partial f}{\partial x_j}(x)
+> \lim _{t \rightarrow 0} \frac{f\left((x_1, \ldots, x_{j-1}, x_j+t), (x_{j+1}, \ldots, x_n)\right)-f(x)}{t}=: \frac{\partial f}{\partial x_j}(x)
 > $$
 > 
 > Dieser heißt dann [[partielle Ableitung]] von $f$ nach $x_j$ (auch bezeichnet mit $f_{x_j}(x)$ ). Falls in $x$ alle partiellen Ableitungen existieren, so heißt $f$ partiell differenzierbar in $x$ und
@@ -31,7 +31,7 @@ professor:
 > $$
 > der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch das Symbol $\nabla f(x)$ (lies: *[Nabla](Nabla%20Operator.md)* $f$ ).
 
-## Jacobi [[Matrix]]
+## Jakobi [Matrix](Algebra/Matrix.md)
 
 > [!important] **Definition 11.7 (b)** Sei $A \subset \mathbb{R}^n$ offen.
 >  (b) Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
@@ -47,7 +47,7 @@ professor:
 > 
 > *Jacobi-[[Matrix]]* (oder *Funktionalmatrix*) von $f$ an der Stelle $x$; Symbole: $D f(x)$ oder $J_f(x)$.
 
-## Hesse [[Matrix]]
+## Hesse [Matrix](Algebra/Matrix.md)
 
 > [!info] Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte Hessematrix
 > $$
@@ -59,26 +59,21 @@ professor:
 > $$
 > symmetrisch.
 
-
-$f: \mathbb{R}^{n}\mapsto \mathbb{R}, \quad \vec{x}=(x,y)$
-
-$$
-\begin{align}
-f(x,y)&:=x^{2}y+3x^{2}-\sin(xy) \\
-\downarrow &\frac{\partial }{\partial \vec{x}}\\
-\nabla f(x,y) &= J_{f} = \begin{pmatrix}
-2 x y+6 x-\cos (x y) \cdot y \\
-x^2-x \cdot \cos (x y) \\
-\end{pmatrix} \\
-\downarrow &\frac{\partial }{\partial \vec{x}}\\
-H_{f(x, y)} &= \begin{pmatrix}
-2 y+6+\sin (x y) y^2 & 2 x+\sin (x y) \cdot y^2 \\
-x-(\cos (x y)+x \cdot \sin (x y) \cdot y & \sin (x y) x^2
-\end{pmatrix}
-\end{align}
-$$
-
-
+> [!example] $f: \mathbb{R}^{n}\mapsto \mathbb{R}, \quad \vec{x}=(x,y)$
+> 
+> 
+> $$f(x,y):=x^{2}y+3x^{2}-\sin(xy)$$
+> $$\downarrow \frac{\partial }{\partial \vec{x}}$$
+> $$\nabla f(x,y) = J_{f} = \begin{pmatrix}
+> 2 x y+6 x-\cos (x y) \cdot y \\
+> x^2-x \cdot \cos (x y) \\
+> \end{pmatrix} $$
+> $$\downarrow \frac{\partial }{\partial \vec{x}}$$
+> $$H_{f(x, y)} = \begin{pmatrix}
+> 2 y+6+\sin (x y) y^2 & 2 x+\sin (x y) \cdot y^2 \\
+> x-(\cos (x y)+x \cdot \sin (x y) \cdot y & \sin (x y) x^2
+> \end{pmatrix}$$
+>
 
 # Beispiele
 
