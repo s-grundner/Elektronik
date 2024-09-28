@@ -191,7 +191,7 @@ x_{\lambda_{3}}=s\cdot \begin{pmatrix}
 \end{pmatrix}, s\in \mathbb{R}
 $$
 
-der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Lineare Hülle](Lineare%20Hülle.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
+der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Basis, Dimension und Teilräume](Algebra/Basis,%20Dimension%20und%20Teilräume.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
 
 $$
 \begin{align}

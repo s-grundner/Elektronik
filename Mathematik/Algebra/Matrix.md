@@ -47,7 +47,7 @@ cited:
 > dann ist der Rang von $A$: $Rg(A) \leq min\{m,n\}$
 >
 > Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
-> Man könnte auch sagen, $Rg(A)$ ist die Dimension der [linearen Hüllen](Lineare%20Hülle.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
+> Man könnte auch sagen, $Rg(A)$ ist die Dimension der [linearen Hüllen](Basis,%20Dimension%20und%20Teilräume.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
 
 ## 2 Operationen auf eine Matrix
 
