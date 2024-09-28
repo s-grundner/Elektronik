@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases:
-  - Fréchet
+  - totale Differenzierbarkeit
 keywords: 
 subject:
   - VL
@@ -12,7 +12,9 @@ professor:
 ---
  
 
-# Totales Differenzial
+# # Fréchet-Ableitung
+
+> [!info] Die **Fréchet-Ableitung** verallgemeinert den Befgriff der Ableitung
 
 Das totale Differential einer Funktion $f$ in $n$ Variablen erhält man folgendermaßen:
 $$

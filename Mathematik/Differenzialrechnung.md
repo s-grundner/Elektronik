@@ -5,17 +5,18 @@ aliases:
   - Differenzieren
   - Ableitung
   - ableiten
-  - Differenzialquotient
-  - differenziell
 subject:
-  - mathe
   - Mathematik 1
   - Mathematik 2
   - VL
-source:
+keywords: 
+semester: SS24
+created: 11. April 2024
+professor:
+  - Andreas Neubauer
   - Rudolf Frauenschuh
-created: 26th March 2022
 ---
+ 
 
 # Differenzialrechnung
 
@@ -40,8 +41,10 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der [Grenzwert](Grenzwert.md)
 > 
 > $$
->f'(x_{0}) := \lim_{ \Delta x \to 0 } \dfrac{\Delta f}{\Delta x}= \lim_{ \Delta x \to 0 }\frac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}
->$$
+> \boxed{
+> f^{\prime}\left(x_0\right)=\lim _{x \rightarrow x_0} \frac{f(x)-f\left(x_0\right)}{x-x_0}=\lim _{h \rightarrow 0} \frac{f\left(x_0+h\right)-f\left(x_0\right)}{h}
+> } = \lim_{ \Delta x \to 0 }
+> $$
 >  existiert.  
 > 
 > Diesen [Grenzwert](Grenzwert.md) nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
@@ -49,6 +52,8 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > Er wird mit $f(x_{0})$, $y'(x_{0})$ oder $\frac{dy}{dx}\Big|_{x=x_{0}}$ (gesprochen: $dy$ nach $dx$ für $x=x_{0}$) bezeichnet.
 > 
 > Das Bilden der Ableitung wird *ableiten* oder *differenzieren* genannt.
+
+
 
 > [!success] Differenzieren heißt linear approximieren
 > 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *[Grenzwert](Grenzwert.md) des Differenzenquotienten*: $f'(x_{0})=\lim_{ \Delta x \to 0}\frac{\Delta y}{\Delta x}$.
@@ -102,5 +107,5 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 # Tags
 
 - [Partielle Ableitung](Partielle%20Ableitung.md)
-- [Totales Differenzial](../Totales%20Differenzial.md)
+- [Fréchet-Ableitung](Analysis/Fréchet-Ableitung.md)
 - [Linearisieren](Linearisieren)
