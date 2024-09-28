@@ -5,7 +5,9 @@ aliases:
   - inneres Produkt
   - innere Produkt
   - Bemerkung 10.11
-keywords: []
+  - Satz 10.10
+  - Definition 6.13
+keywords: 
 subject:
   - VL
   - Mathematik1
@@ -26,13 +28,19 @@ Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Se
 > - $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen [Vektor](Vektor.md) projiziert)
 > - $\cos(90°) = 0$: Der projizierte Anteil ist $0$
 
-
-
 ## Skalarprodukt im Vektorraum
+
+> [!important] Definition 6.13. Sei $X$ ein $\mathbb{K}$-Vektorraum. Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
+> 
+(S1) $\forall x \in X:\langle x, x\rangle \geq 0 \wedge(\langle x, x\rangle=0 \Longleftrightarrow x=0)\quad$ ([positive Definitheit](Definitheit.md))
+(S2) $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ (Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ )
+(S3) $\forall x, y, z \in X \forall \lambda, \mu \in \mathbb{K}:\langle\lambda x+\mu y, z\rangle=\lambda\langle x, z\rangle+\mu\langle y, z\rangle$ (Linearität bzgl. 1. Argument)
+> 
+> $(X,\langle\cdot, \cdot\rangle)$ heißt Prähilbertraum.
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
-> [!important] Satz 10.10. Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Basis, Dimension und Teilräume](Algebra/Basis,%20Dimension%20und%20Teilräume.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
+> [!important] Satz 10.10. Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Basis](Algebra/Basis,%20Dimension%20und%20Teilräume.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
 > 
 > $$
 > \boxed{ \langle x, y\rangle:=\sum_{i=1}^n x_i \overline{y_i} \quad \text { mit } \quad x=\sum_{i=1}^n x_i b_i \quad \text { und } \quad y=\sum_{i=1}^n y_i b_i }
@@ -46,7 +54,7 @@ Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdi
 > \exists m, M>0 \forall x \in X: m\|x\|_1 \leq\|x\|_2 \leq M\|x\|_1
 > $$
 
-### Beweis   
+### Beweis
 
 Laut Satz 6.6 ist die Abbildung $L: \mathbb{K}^n \rightarrow X$ mit $L x:=\sum_{i=1}^n x_i b_i$ ein Isomorphismus (vgl. Bemerkung 6.7). Damit folgt mit Beispiel 6.16 (a), dass (10.1) ein Skalarprodukt auf $X$ darstellt.
 Wir zeigen nun die Äquivalenz zweier Normen auf $X$. Auf $\mathbb{K}^n$ verwenden wir die Norm:
@@ -59,12 +67,19 @@ $$
 Sei $f: \mathbb{K}^n \rightarrow \mathbb{R}$ definiert durch $f(x):=\|L x\|_1$. Dann folgt mit der 2. Dreiecksungleichung (siehe Beispiel 6.12 (b)), der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)) und der Normeigenschaften:
 
 $$
-|f(x)-f(y)| \leq\|L(x-y)\|_1 \leq \sum_{i=1}^n\left|x_i-y_i\right|\left\|b_i\right\|_1 \leq c\|x-y\| \quad \text { mit } \quad c:=\sqrt{\sum_{i=1}^n\left\|b_i\right\|_1^2}
+|f(x)-f(y)| \leq\|L(x-y)\|_1 \leq \sum_{i=1}^n\left|x_i-y_i\right|\left\|b_i\right\|_1 \leq c\|x-y\|
 $$
 
+mit
+$$
+c:=\sqrt{\sum_{i=1}^n\left\|b_i\right\|_1^2}
+$$
 
 Die Funktion $f$ ist also Lipschitz-stetig.
-Da die Menge $S:=\left\{x \in \mathbb{K}^n:\|x\|=1\right\}$ offensichtlich kompakt ist, nimmt die Funktion $f$ auf $S$ ihr Minimum und Maximum an (siehe Satz 9.22). Sei $m_1:=\min _{x \in S} f(x)$ und $M_1:=\max _{x \in S} f(x)$. Dann gilt offensichtlich für $z:=\frac{x}{\|x\|}, x \neq 0$ :
+
+Da die Menge $S:=\left\{x \in \mathbb{K}^n:\|x\|=1\right\}$ offensichtlich kompakt ist, nimmt die Funktion $f$ auf $S$ ihr Minimum und Maximum an (siehe Satz 9.22).
+
+Sei $m_1:=\min _{x \in S} f(x)$ und $M_1:=\max _{x \in S} f(x)$. Dann gilt offensichtlich für $z:=\frac{x}{\|x\|}, x \neq 0$ :
 
 $$
 0<m_1 \leq\|L z\|_1 \leq M_1 \quad \Longleftrightarrow \quad m_1\|x\| \leq\|L x\|_1 \leq M_1\|x\|

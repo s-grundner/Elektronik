@@ -2,7 +2,8 @@
 tags:
   - Mathe
   - Kurvendiskussion
-aliases: 
+aliases:
+  - Lipschitz-Stetig
 subject:
   - mathe
 source:
@@ -23,6 +24,8 @@ Liste Stetiger Funktionsarten
 - Rationale Funktionen
 
 ## Definitionslücke
+
+## Lipschitz-Stetigkeit
 
 ---
 

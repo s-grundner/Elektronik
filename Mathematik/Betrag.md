@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases:
-  - Norm
+  - Dreiecksungleichung
 keywords: 
 subject:
   - Mathematik 1
@@ -26,17 +26,18 @@ $$
 >
 > $$
 > \begin{align}
-> & |x| \geq 0 &&\wedge (|x|=0 \iff x=0) \\
-> & |x|&&=c \iff x=c \vee x=-c \\
-> & |x-y|&&=|y-x| \\
-> & |x y|&&=|x||y| \\
-> & |x+y| &&\leq|x|+|y|&\text { (Dreiecksungleichung) } \\
-> & || x|-| y|| &&\leq|x-y| &\text { (2. Dreiecksungleichung) } \\
-> & |x| \leq c &&\iff-c \leq x \leq c
+> |x| \geq 0 &\wedge (|x|=0 \iff x=0) \\
+> |x| &=c \iff x=c \vee x=-c \\
+> |x-y|&=|y-x| \\
+> |x y|&=|x||y| \\
+> |x+y| &\leq|x|+|y| \quad^{(1)} \\
+> || x|-| y|| &\leq|x-y| \quad^{(2)} \\
+> |x| \leq c &\iff-c \leq x \leq c
 > \end{align}
 > $$
 
+(1): 1. Dreiecksungleichung
+(2): 2. Dreiecksungleichung
+
 > [!example]- Beispiele
 > ![](assets/Pasted%20image%2020240127135219.png)
-
-## Betrag eines Vektors (Norm)
