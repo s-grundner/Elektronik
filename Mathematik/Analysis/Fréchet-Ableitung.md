@@ -22,7 +22,7 @@ professor:
 > $f$ heißt Fréchet-differenzierbar, [Total Differenzierbar](Total%20Differenzierbar.md) (oder kurz: differenzierbar) in $x_{0}$ wenn: 
 > > [!tldr]- $\exists L \in L\left(\mathbb{R}^n, \mathbb{R}^m\right) \exists r: \mathbb{R}^n \rightarrow \mathbb{R}^m$
 > > eine [[Lineare Abbildungen|Lineare Abbildung]] $L$ aus der Menge aller Linearen Abbildungen von $\mathbb{R}^n$ nach $\mathbb{R}^m$ existiert, sowohl ein *Rest* $r(h)$ existiert, der von $\mathbb{R}^n$ nach $\mathbb{R}^m$ abbildet.
-> > (Also im Raum der linearen Abbildung bleibt $\to$ sonst ist der Rest unstetig im Raum)
+> > (Also im Raum der [linearen Abbildung](../Lineare%20Abbildungen.md) bleibt $\to$ sonst ist der Rest unstetig im Raum)
 > $$
 \forall h \in \mathbb{R}^n, x_0+h \in A: f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h) \wedge \lim _{h \rightarrow 0} \frac{\mid r(h)\mid}{\mid h \mid}=0
 > $$
@@ -33,5 +33,7 @@ professor:
 
 
 
-> [!info] Ist die Jakobi-Matrix stetig, ist diese die Fréchet Ableitung
+> [!info] Ist die Jacobi-Matrix stetig, ist diese die Fréchet Ableitung
 > ![](assets/{733DBA99-ECBB-4208-8740-4BB2A98D829C}.png)
+
+Der Zusammenhang zwischen der Fréchet Ableitung und der partiellen Ableitung ist durch [Satz 11.18](../Satz%2011.18.md) gegeben 

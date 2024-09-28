@@ -150,6 +150,7 @@
 	{trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
 	{trigger: "T", replacement: "\\text{ ${VISUAL} }", options: "mA"},
+    {trigger: "X", replacement: "\\boxed{ ${VISUAL} }", options: "mA"},
 
 
 	// Symbols

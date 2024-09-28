@@ -27,10 +27,11 @@ $$
 \frac{\partial f}{\partial x}=f_x=f_{, x}
 $$
 
-Die partielle [Ableitung](Differenzialrechnung.md) gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle [Ableitung](Differenzialrechnung.md) nach diesen die jeweilige Änderung in diese Raumrichtung an.
+Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle Ableitung nach diesen die jeweilige Änderung in diese Raumrichtung an.
 
-> [!info] Satz von Schwarz: 
-> > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn sie stetig differenzierbar ist
+> [!info] Satz 11.28: Satz von Schwarz
+> 
+> > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn diese stetig differenzierbar ist
 > 
 > Sei $A \subset \mathbb{R}^2$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}$ besitzt in $A$ die partiellen Ableitungen $\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$ und $\frac{\partial^2 f}{\partial x \partial y}$. 
 > 

@@ -31,14 +31,14 @@ professor:
 > $$
 > der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch das Symbol $\nabla f(x)$ (lies: *[Nabla](Nabla%20Operator.md)* $f$ ).
 
-## Jakobi [Matrix](Algebra/Matrix.md)
+## Jacobi [Matrix](Algebra/Matrix.md)
 
 > [!important] **Definition 11.7 (b)** Sei $A \subset \mathbb{R}^n$ offen.
 >  (b) Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
 > Falls $\frac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[Matrix]]
 > 
 > $$
-> \begin{pmatrix}
+> J_{f}(x):=\begin{pmatrix}
 > \frac{\partial f_1}{\partial x_1}(x) & \ldots & \frac{\partial f_1}{\partial x_n}(x) \\
 > \vdots & & \vdots \\
 > \frac{\partial f_m}{\partial x_1}(x) & \ldots & \frac{\partial f_m}{\partial x_n}(x)
@@ -53,7 +53,7 @@ professor:
 > $$
 > H_f(x):=\left(\begin{array}{ccc}
 \frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
-\vdots & \vdots & \vdots \\
+\vdots & \ddots & \vdots \\
 \frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
 \end{array}\right)
 > $$
@@ -69,10 +69,10 @@ professor:
 > x^2-x \cdot \cos (x y) \\
 > \end{pmatrix} $$
 > $$\downarrow \frac{\partial }{\partial \vec{x}}$$
-> $$H_{f(x, y)} = \begin{pmatrix}
+> $$\boxed{ H_{f(x, y)} = \begin{pmatrix}
 > 2 y+6+\sin (x y) y^2 & 2 x+\sin (x y) \cdot y^2 \\
 > x-(\cos (x y)+x \cdot \sin (x y) \cdot y & \sin (x y) x^2
-> \end{pmatrix}$$
+> \end{pmatrix} }$$
 >
 
 # Beispiele
