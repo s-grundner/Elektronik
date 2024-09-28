@@ -9,7 +9,6 @@ aliases:
 keywords: 
 subject:
   - VL
-  - Mathematik1
   - Mathematik 1
 semester: WS23
 created: 28. September 2024
@@ -20,7 +19,42 @@ professor:
 
 # Skalarprodukt / Inneres Produkt
 
-![invert_dark](Skalarprodukt.png)
+```tikz
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines=middle,
+        grid=major,
+        xlabel={$x$},
+        ylabel={$y$},
+        xmin=-1, xmax=4,
+        ymin=-1, ymax=4,
+        xlabel style={below right},
+        ylabel style={above left},
+        scale=2.0
+    ]
+    
+    % Define two vectors u and v
+    \addplot[->, very thick, cyan] coordinates {(0, 0) (3, 1)} node[pos=1, above] {$\vec{u}$};
+    \addplot[->, very thick, red] coordinates {(0, 0) (2, 3)} node[pos=1, right] {$\vec{v}$};
+    
+    % Add a label to show the scalar product (u dot v)
+    \node at (axis cs: 1, 3.3) {Skalarprodukt: $\vec{u} \cdot \vec{v}$};
+    
+    % Das Skalarprodukt kann als eine Projektion verstanden werden:
+    % Projektion des Vektors v auf u (grün)
+    \draw[dashed, green] (axis cs: 2, 3) -- (axis cs: 3, 1);
+    
+    \end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
 Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Selbe Richtung zeigt immer als Skalar.
 (bzw. den Anteil der auf den Anderen [Vektor](Vektor.md) projiziert wird)
 > [!info] Es hängt deshalb mit dem $\cos$ zusammen.

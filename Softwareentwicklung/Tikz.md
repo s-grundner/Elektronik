@@ -12,7 +12,7 @@
 \begin{axis}[colormap/viridis]
 \addplot3[
 	surf,
-	samples=18,
+	samples=16,
 	domain=-3:3
 ]
 {exp(-x^2-y^2)*x};

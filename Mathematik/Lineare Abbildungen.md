@@ -19,7 +19,7 @@ professor:
 
 # Lineare [Abbildungen](Algebra/Abbild.md)
 
-> [!important] Definition 10.1: Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine [Abbildung](Algebra/Abbild.md) $L: X \rightarrow Y$ heißt linear
+> [!important] **Definition 10.1**: Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine [Abbildung](Algebra/Abbild.md) $L: X \rightarrow Y$ heißt linear
 > 
 > wenn sie **(a)** *Additivität* und **(b)** *Homogenität* erfüllen.
 > 
