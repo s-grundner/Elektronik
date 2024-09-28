@@ -22,7 +22,7 @@ Ausgehend von der **[Impedanz](../Elektrotechnik/Impedanz.md)** $Z_\nu$ des **Me
 
 ![Eintor](assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$
   
-*Die Einheit der Streuparameter ist $\sqrt{W}$*
+> [!hint] *Die Einheit der Streuparameter ist $\sqrt{W}$*
 
 und durch Umkehrung der Beziehungen:  
 
