@@ -11,7 +11,7 @@ aliases:
   - Assoziativgesetze
   - Distributivgesetz
   - Distributivgesetze
-  - Beweis
+  - Beweismathematik
 keywords:
   - De Morgan
   - Kontrapositionsregel
@@ -55,7 +55,8 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 
 ## Methoden zur mathematischen Beweisführung
 
-![](assets/Pasted%20image%2020240129163115.png)
+- [Direkter Beweis](Modus%20Ponens.md)
+- [[Indirekter Beweis]]
 
 ![](assets/Pasted%20image%2020240129163127.png)
 

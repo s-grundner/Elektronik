@@ -90,7 +90,7 @@ $$
 $$
 
 
-Nach Satz 11.8 lässt sich die Fréchet-Ableitung durch die Jacobi-Matrix ausdrücken. Damit ergibt sich, falls $f$ Fréchet-differenzierbar ist, laut Satz 11.12 für die partiellen Ableitungen:
+Nach [Fréchet-Ableitung](Analysis/Fréchet-Ableitung.md) lässt sich die Fréchet-Ableitung durch die Jacobi-Matrix ausdrücken. Damit ergibt sich, falls $f$ Fréchet-differenzierbar ist, laut Satz 11.12 für die partiellen Ableitungen:
 
 $$
 \forall i \in\{1, \ldots, k\}, j \in\{1, \ldots, n\}: \frac{\partial\left(f_i \circ g\right)}{\partial x_j}(x)=\sum_{l=1}^m \frac{\partial f_i}{\partial g_l}(g(x)) \frac{\partial g_l}{\partial x_j}(x)
