@@ -47,6 +47,10 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 \addplot[very thick, blue,domain=0:4]{-x^2+4*x};
 \draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
 \draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
+\draw[dashed, very thick] (axis cs: 0, 3) -- (axis cs: 1, 3);
+\draw[dashed, very thick] (axis cs: 1, 0) -- (axis cs: 1, 3);
+\draw[dashed, very thick] (axis cs: 0, 1.75) -- (axis cs: 0.5, 1.75);
+\draw[dashed, very thick] (axis cs: 0.5, 0) -- (axis cs: 0.5, 1.75);
 \end{axis}
 \end{tikzpicture}
 
