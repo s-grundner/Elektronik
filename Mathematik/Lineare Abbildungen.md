@@ -17,7 +17,7 @@ professor:
 
 # Lineare [Abbildungen](Abbild.md)
 
-> [!important]- Definition: Seien $X$ und $Y$ $\mathbb{K}$-Vektorräume. Eine Abbildung $L: X \rightarrow Y$ heißt linear, wenn sie *Additivität* und *Homogenität* erfüllen.
+> [!important]- Definition: Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine Abbildung $L: X \rightarrow Y$ heißt linear, wenn sie *Additivität* und *Homogenität* erfüllen.
 > 1. Bei linearen [Abbildungen](Abbild.md) schreibt man statt $L(x)$ meist $L x$.
 > 2. Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
 > 	- Ist die Abbildung zusätzlich [bijektiv](Abbild.md), so nennt man sie *Isomorphismus*.

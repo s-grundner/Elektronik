@@ -18,7 +18,7 @@ Throughout this course, you’ll have a chance to use Altium Designer, a popular
 
 - [What is Printed Circuit Board Design](What%20is%20Printed%20Circuit%20Board%20Design.md)
 - [PCB Design Software](PCB%20Design%20Software.md)
-- [Some Basic Terms to Help You Get Started in This Course](Some%20Basic%20Terms%20to%20Help%20You%20Get%20Started%20in%20This%20Course.md)
+- [Getting Started PCB Design](Getting%20Started%20PCB%20Design.md)
 
 ## 1.2 The Role of ECAD Tools
 

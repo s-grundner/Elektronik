@@ -9,18 +9,47 @@ aliases:
   - erzeugendensystem
   - Spann
   - Span
+  - Definition 6.5
 keywords: 
 subject:
-  - Mathematik1
-  - "357.100"
+  - Mathematik 1
+  - VL
 semester: WS23
 created: 27. Dezember 2023
 professor:
+  - Andreas Neubauer
 ---
  
 
-# Lineare Hülle
+# Basis Dimension und Teilräume
 
+> [!important] Definition 6.5. Sei $X$ ein $\mathbb{K}$-Vektorraum.
+
+
+**(a)** Ein Element $x \in X$ heißt Linearkombination der $n$ Elemente $v_i \in X$, falls es $\lambda_i \in \mathbb{K}, i=1, \ldots, n$, gibt mit:
+
+$$
+x=\sum_{i=1}^k \lambda_i v_i
+$$
+
+**(b)** Sei $M \subset X, M \neq \emptyset$. Die Menge aller endlichen Linearkombinationen von Elementen aus $M$ heißt lineare Hülle von $M$ bezeichnet mit:
+
+$$
+\operatorname{lin}(M):=\left\{\sum_{i=1}^n \lambda_i v_i: n \in \mathbb{N}, \lambda_i \in \mathbb{K}, v_i \in M, i=1, \ldots, n\right\}
+$$
+
+
+Dazu legen wir noch fest: $\operatorname{lin}(\emptyset):=\{0\}$
+**(c)** Die Elemente $v_i \in X, i=1, \ldots, n$, heißen linear unabhängig, falls gilt:
+
+$$
+\sum_{i=1}^k \lambda_i v_i=0 \quad \Longleftrightarrow \quad \forall i \in\{1, \ldots, k\}: \lambda_i=0
+$$
+
+
+Ansonsten heißen sie **linear abhängig**.
+
+**(d)** Eine (auch möglicherweise unendliche) Menge $M \subset X$ heißt linear unabhängig, wenn jede endliche Auswahl von Elementen aus $M$ linear unabhängig ist.
 
 > [!important]+ Definition: Linearkombination, lineare Hülle
 Sei $(V,+, \cdot)$ ein [[Vektorraum]] über einem Körper $K$.

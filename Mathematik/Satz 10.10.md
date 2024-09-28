@@ -19,7 +19,7 @@ professor:
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
-> [!important] Satz 10.10. Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-Vektorraum mit Basis $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
+> [!important] Satz 10.10. Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Basis](Algebra/Basis.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
 > 
 > $$
 > \langle x, y\rangle:=\sum_{i=1}^n x_i \overline{y_i} \quad \text { mit } \quad x=\sum_{i=1}^n x_i b_i \quad \text { und } \quad y=\sum_{i=1}^n y_i b_i

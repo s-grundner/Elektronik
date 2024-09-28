@@ -26,7 +26,7 @@ professor:
 > - ob ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
 >[!important] Bedeutung der Determinante
-> Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+> Mit der [Basistransformation](Basis.md) eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
 
 
 > [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
