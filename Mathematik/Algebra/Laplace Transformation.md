@@ -11,13 +11,9 @@ created: 26th April 2022
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
-Ist eine Funktion auf
-- $t\in\mathbb{R}$
-- definiert mit $f(t):[0,\infty[$
-- für $t<0$,  
-so heißt:
+Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t<0$, so heißt:
 
->[!summary] $$F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C}$$
+$$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }$$
 
 > [!summary] Frequenzparameter: $s = \delta+j\omega$
 
@@ -160,7 +156,6 @@ $$
 	\mathcal{L}\{\cos(t)\} &= s\cdot F(s) - f(0) = s\cdot \frac{1}{s^{2} + 1} - \sin(0) = \frac{s}{s^{2}}
 \end{align*}
 $$
-
 
 # Tags
 

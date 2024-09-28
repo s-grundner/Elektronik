@@ -108,7 +108,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Stetigkeit
 
-> [!important] Satz 11.6. Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ differenzierbar in $x_0$.
+> [!important] **Satz 11.6**. Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ differenzierbar in $x_0$.
 > Dann ist $f$ stetig in $x_0$.
 
 > [!success] Beweis Satz 11.6
@@ -116,7 +116,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > 
 > $f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h)$ und $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$, insbesondere: $\lim _{h \rightarrow 0} r(h)=0$.
 > 
-> Da die lineare Abbildung $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
+> Da die [lineare Abbildung](Lineare%20Abbildungen.md) $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
 > 
 > Umgekehrt impliziert [Stetigkeit](Analysis/Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die Betragsfunktion in $x=0$ stetig, aber nicht differenzierbar.
 > 

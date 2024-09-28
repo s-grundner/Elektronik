@@ -30,12 +30,12 @@ $$
 
 Jede periodische [Funktion](Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
-![400](../assets/Fourreihe_zerlegung.png)
+![invert_light|400](../assets/Fourreihe_zerlegung.png)
 
 ## Periodische [Funktion](Abbild.md)
 
 $f(x)=f(x+a)$  
-![400](../assets/fourReihe.png)
+![invert_light|400](../assets/fourReihe.png)
 
 > [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](Abbild.md).  
 > Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](Abbild.md) in eine **Fourierreihe** zerlegt werden.
