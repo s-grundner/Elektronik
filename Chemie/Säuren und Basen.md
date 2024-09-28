@@ -4,9 +4,8 @@ tags:
 aliases:
   - Sauer
   - Säure
-  - Base
   - Säuren
-  - Basen
+  - basisch
 subject:
   - chemie
 source:

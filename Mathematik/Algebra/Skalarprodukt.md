@@ -30,11 +30,11 @@ Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Se
 
 ## Skalarprodukt im Vektorraum
 
-> [!important] Definition 6.13. Sei $X$ ein $\mathbb{K}$-Vektorraum. Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
+> [!important] Definition 6.13. Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
 > 
-(S1) $\forall x \in X:\langle x, x\rangle \geq 0 \wedge(\langle x, x\rangle=0 \Longleftrightarrow x=0)\quad$ ([positive Definitheit](Definitheit.md))
-(S2) $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ (Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ )
-(S3) $\forall x, y, z \in X \forall \lambda, \mu \in \mathbb{K}:\langle\lambda x+\mu y, z\rangle=\lambda\langle x, z\rangle+\mu\langle y, z\rangle$ (Linearität bzgl. 1. Argument)
+> **(S1)** $\forall x \in X:\langle x, x\rangle \geq 0 \wedge(\langle x, x\rangle=0 \Longleftrightarrow x=0)\quad$ ([positive Definitheit](Definitheit.md))
+> **(S2)** $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ (Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ )
+> **(S3)** $\forall x, y, z \in X \forall \lambda, \mu \in \mathbb{K}:\langle\lambda x+\mu y, z\rangle=\lambda\langle x, z\rangle+\mu\langle y, z\rangle$ (Linearität bzgl. 1. Argument)
 > 
 > $(X,\langle\cdot, \cdot\rangle)$ heißt Prähilbertraum.
 
@@ -94,22 +94,3 @@ $$
 
 
 Mit $m:=\frac{m_2}{M_1}>0$ und $M:=\frac{M_2}{m_1}>0$ folgt nun die Behauptung.
-
-### Bemerkung 10.11
-
-Aus den Sätzen 10.6 und 10.10 folgt übrigens, dass jede lineare Abbildung $L: X \rightarrow Y$ Lipschitz-stetig ist, wenn $X, Y$ endlich-dimensional sind:
-Seien $B, C$ irgendwelche Basen für $X$ bzw. $Y$ und seien $n$ bzw. $m$ die Dimensionen von $X$ bzw. $Y$.
-
-Dann folgt mit dem jeweiligen Skalarprodukt und der davon induzierten Norm aus Satz 10.10 sowie der Koordinatenmatrix $A_L$ unter Verwendung der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)):
-
-$$
-\|L x\|^2=\sum_{i=1}^m\left(\sum_{j=1}^n a_{i j}^L x_j\right)^2 \leq \sum_{i=1}^m\left(\sum_{j=1}^n\left(a_{i j}^L\right)^2\right)\left(\sum_{j=1}^n x_j^2\right)=\left(\sum_{i=1}^m \sum_{j=1}^n\left(a_{i j}^L\right)^2\right)\|x\|^2
-$$
-
-Also:
-
-$$
-\|L x\| \leq c\|x\| \quad \text { mit } \quad c:=\left(\sum_{i=1}^m \sum_{j=1}^n\left(a_{i j}^L\right)^2\right)^{\frac{1}{2}}
-$$
-
-Diese Zahl hängt natürlich von den gewählten Basen ab, existiert aber für jede Wahl.
