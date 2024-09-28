@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - Dreiecksungleichung
+  - Satz 3.30
 keywords: 
 subject:
   - Mathematik 1
@@ -22,22 +23,21 @@ x &\text{falls } x \geq 0 \\
 \end{cases}
 $$
 
-> [!INFO] Seien $x,y,z \in \mathbb{R}, c\geq 0$, dann gilt:
+> [!info] Satz 3.30: Seien $x,y,z \in \mathbb{R}, c\geq 0$, dann gilt:
 >
-> $$
-> \begin{align}
-> |x| \geq 0 &\wedge (|x|=0 \iff x=0) \\
-> |x| &=c \iff x=c \vee x=-c \\
-> |x-y|&=|y-x| \\
-> |x y|&=|x||y| \\
-> |x+y| &\leq|x|+|y| \quad^{(1)} \\
-> || x|-| y|| &\leq|x-y| \quad^{(2)} \\
-> |x| \leq c &\iff-c \leq x \leq c
-> \end{align}
-> $$
-
-(1): 1. Dreiecksungleichung
-(2): 2. Dreiecksungleichung
+> 
+> **(a)** $|x| \geq 0 \wedge (|x|=0 \iff x=0)$ 
+> **(b)** $|x| =c \iff x=c \vee x=-c$
+> **(c)** $|x-y|=|y-x|$
+> **(d)** $|x y|=|x||y|$
+> **(e)** $|x+y| \leq|x|+|y|\quad$ **1. Dreiecksungleichung**
+> **(f)** $|| x|-| y|| \leq|x-y| \quad$ **2. Dreiecksungleichung**
+> **(g)** $|x| \leq c \iff-c \leq x \leq c$
+> 
 
 > [!example]- Beispiele
 > ![](assets/Pasted%20image%2020240127135219.png)
+
+---
+
+[[Norm]]

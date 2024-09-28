@@ -36,7 +36,7 @@ Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Se
 > **(S2)** $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ (Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ )
 > **(S3)** $\forall x, y, z \in X \forall \lambda, \mu \in \mathbb{K}:\langle\lambda x+\mu y, z\rangle=\lambda\langle x, z\rangle+\mu\langle y, z\rangle$ (Linearität bzgl. 1. Argument)
 > 
-> $(X,\langle\cdot, \cdot\rangle)$ heißt Prähilbertraum.
+> $(X,\langle\cdot, \cdot\rangle)$ heißt **Prähilbertraum**.
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
@@ -57,14 +57,14 @@ Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdi
 ### Beweis
 
 Laut Satz 6.6 ist die Abbildung $L: \mathbb{K}^n \rightarrow X$ mit $L x:=\sum_{i=1}^n x_i b_i$ ein Isomorphismus (vgl. Bemerkung 6.7). Damit folgt mit Beispiel 6.16 (a), dass (10.1) ein Skalarprodukt auf $X$ darstellt.
-Wir zeigen nun die Äquivalenz zweier Normen auf $X$. Auf $\mathbb{K}^n$ verwenden wir die Norm:
+Wir zeigen nun die Äquivalenz zweier Normen auf $X$. Auf $\mathbb{K}^n$ verwenden wir die [Norm](../Norm.md):
 
 $$
 \|x\|:=\sqrt{\sum_{i=1}^n\left|x_i\right|^2}
 $$
 
 
-Sei $f: \mathbb{K}^n \rightarrow \mathbb{R}$ definiert durch $f(x):=\|L x\|_1$. Dann folgt mit der 2. Dreiecksungleichung (siehe Beispiel 6.12 (b)), der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)) und der Normeigenschaften:
+Sei $f: \mathbb{K}^n \rightarrow \mathbb{R}$ definiert durch $f(x):=\|L x\|_1$. Dann folgt mit der 2. [Dreiecksungleichung](../Betrag.md) (siehe Beispiel 6.12 (b)), der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)) und der Normeigenschaften:
 
 $$
 |f(x)-f(y)| \leq\|L(x-y)\|_1 \leq \sum_{i=1}^n\left|x_i-y_i\right|\left\|b_i\right\|_1 \leq c\|x-y\|

@@ -9,10 +9,6 @@ aliases:
   - Disjunktion
   - Implikation
   - Äquivalenz
-  - konjunktiv
-  - disjunktiv
-  - impliziert
-  - äquivalent
 keywords:
   - Negation
   - Konjunktion
@@ -20,7 +16,6 @@ keywords:
   - Implikation
   - Äquivalenz
   - Wahrheitstabelle
-  - Klammern
 subject:
   - Mathematik 1
   - VL
