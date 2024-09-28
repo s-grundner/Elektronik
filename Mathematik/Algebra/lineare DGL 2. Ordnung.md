@@ -40,7 +40,9 @@ $$
 Mit dem [Exponentialansatz](Exponentialansatz.md) gewinnt man die **charakteristische Gleichung**: $\lambda^{2}+\lambda\cdot p+q=0$.  
 Je nach Art der Lösungen $\lambda_{1}$ und $\lambda_{2}$ sind drei Fälle zu unterscheiden: 
 
-$$\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$$
+$$\boxed{\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}}$$
+
+- [P-Q-Formel](../Quadratische%20Gleichung.md)
 
 | Fall    | Bedingung                            | Art der Lösung                                                                                                 | Lösungsansatz für `y`                                                                    |
 | ------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -56,7 +58,7 @@ $$\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}$$
 $$
 \left.\begin{align*}
 y_{h1}&=C_{1}\cdot e^{\lambda_{1}x}\\y_{h2}&=C_{2}\cdot e^{\lambda_{2}x}\\
-\end{align*}\right\{
+\end{align*}\quad\right\}\quad
 y_{h}=C_{1}\cdot e^{\lambda_{1}x} + C_{2}\cdot e^{\lambda_{2}x}
 $$
 
@@ -95,9 +97,3 @@ Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am E
 | $s(x)=A_{n}\cdot x^{n}+A_{n-1}\cdot x^{n-1}+\ldots+A_{1}\cdot x+A_{0}$                                         | $y_p=a_{n}\cdot x^{n}+a_{n-1}\cdot x^{n-1}+…+a_{1}\cdot x+a_{0}$                                                                                                                                                       |
 | $s(x)=A\cdot\sin(\omega x)$<br>$s(x)=A\cdot\cos(\omega x)$<br>$s(x)=A\cdot\sin(\omega x)+B\cdot\cos(\omega x)$ | $y_{p}=a\cdot\sin(\omega x)+b\cdot\cos(\omega x)$ oder $y_{p}=a\cdot\sin(\omega x+\varphi)$<br>Wenn $j\omega$ Lösung der charakteristischen Gleichung ist: <br>$y_{p}=x\cdot[a\cdot\sin(\omega x)+b\cdot\cos(\omega x)]$ |
 | $s(x)=A\cdot e^{bx}$                                                                                           | $y_{p}=a\cdot e^{bx}$ (wenn $b$ keine Lösung der charakteristischen Gleichung ist)                                                                                                                                       |
-
----
-
-# Tags
-
-[Quadratische Gleichung](Quadratische%20Gleichung.md)

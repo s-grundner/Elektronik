@@ -16,19 +16,10 @@ professor:
 
 > [!info] Die **Fréchet-Ableitung** verallgemeinert den Befgriff der Ableitung
 
-Das totale Differential einer Funktion $f$ in $n$ Variablen erhält man folgendermaßen:
-$$
-\mathrm{d} f=\frac{\partial f}{\partial x_1} \mathrm{~d} x_1+\ldots+\frac{\partial f}{\partial x_n} \mathrm{~d} x_n=\sum_{i=1}^n \frac{\partial f}{\partial x_i} \mathrm{~d} x_i .
-$$
-
-Die totale [Ableitung](Differenzialrechnung.md) einer Funktion nach einer Variable $x_i$ erhält man somit als
-$$
-\frac{\mathrm{d} f}{\mathrm{~d} x_i}=\frac{\partial f}{\partial x_1} \frac{\mathrm{d} x_1}{\mathrm{~d} x_i}+\ldots+\frac{\partial f}{\partial x_i}+\ldots+\frac{\partial f}{\partial x_n} \frac{\mathrm{d} x_n}{\mathrm{~d} x_i}
-$$
 
 
 > [!important] Sei $A \subset \mathbb{R}^n$ offen, $f: A \rightarrow \mathbb{R}^m$ und $x_0 \in A$.
-> $f$ heißt Fréchet-differenzierbar, total differenzierbar (oder kurz: differenzierbar) in $x_{0}$ wenn: 
+> $f$ heißt Fréchet-differenzierbar, [Total Differenzierbar](Total%20Differenzierbar.md) (oder kurz: differenzierbar) in $x_{0}$ wenn: 
 > > [!tldr]- $\exists L \in L\left(\mathbb{R}^n, \mathbb{R}^m\right) \exists r: \mathbb{R}^n \rightarrow \mathbb{R}^m$
 > > eine [[Lineare Abbildungen|Lineare Abbildung]] $L$ aus der Menge aller Linearen Abbildungen von $\mathbb{R}^n$ nach $\mathbb{R}^m$ existiert, sowohl ein *Rest* $r(h)$ existiert, der von $\mathbb{R}^n$ nach $\mathbb{R}^m$ abbildet.
 > > (Also im Raum der linearen Abbildung bleibt $\to$ sonst ist der Rest unstetig im Raum)

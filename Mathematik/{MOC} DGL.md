@@ -16,23 +16,21 @@ created: 14th March 2022
 
 # Map of Content - Differentialgleichungen (DGL)
 
-```dataview
-LIST FROM #DGL
-```
+> [!info] Arten von Differentialgleichungen
+> 
+> - Linear / Nichtlinear
+> - Ordunung (1, 2, … n)
+> - homogen / inhomogen
+> - konstanter / nicht-konstanter Koeffizient
 
-Arten von Differentialgleichungen
-
-- Linear/ Nichtlinear
-- Ordunung (1, 2, … n)
-- homogen / inhomogen
-- konstanter / nicht-konstanter Koeffizient
-
-Hierarchisch
+## Map of Content
 
 - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
 - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
 
-## Wozu Differenzialgleichungen?
+## Anwendungen von Differenzialgleichungen
+
+- [Schwingkreise](../Physik/Schwingkreise.md)
 
 # Tags
 

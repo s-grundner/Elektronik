@@ -30,7 +30,6 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 > [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
 > Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](../{MOC}%20DGL.md))
 
-
 | ![invert_dark](assets/Differenzial1.png) | ![invert_dark](assets/Differenzial2.png) |
 | ---------------------------------------- | ---------------------------------------- |
 |                                          |                                          |
@@ -46,7 +45,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > f^{\prime}\left(x_0\right)=\lim _{x \rightarrow x_0} \frac{f(x)-f\left(x_0\right)}{x-x_0}=\lim _{h \rightarrow 0} \frac{f\left(x_0+h\right)-f\left(x_0\right)}{h}
 > }
 > $$
->  existiert.  $h = x-x_{0}$ bzw. 
+>  existiert. $h = x-x_{0}$ bzw. $x = x_{0}+h$
 > 
 > Diesen [Grenzwert](Grenzwert.md) nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
 > 
@@ -108,5 +107,6 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 # Tags
 
 - [Partielle Ableitung](Partielle%20Ableitung.md)
+- [Totale Ableitung](Analysis/Total%20Differenzierbar.md)
 - [Fréchet-Ableitung](Analysis/Fréchet-Ableitung.md)
 - [Linearisieren](Linearisieren)
