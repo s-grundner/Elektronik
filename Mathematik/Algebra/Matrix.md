@@ -1,6 +1,7 @@
 ---
-tags: 
-aliases: 
+tags:
+  - LineareAlgebra
+aliases:
   - Matrizen
   - Matrixgleichung
   - Matrixrechnung

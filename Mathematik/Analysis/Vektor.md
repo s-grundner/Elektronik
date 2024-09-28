@@ -14,9 +14,8 @@ created: 28th September 2022
 
 ![](VectorMatrixTensor.png)
 
-![Skalarprodukt](Skalarprodukt.md)
-
-![Kreuzprodukt](Kreuzprodukt.md)
+- [Skalarprodukt](Skalarprodukt.md)
+- [Kreuzprodukt](Kreuzprodukt.md)
 
 # Tags
 
