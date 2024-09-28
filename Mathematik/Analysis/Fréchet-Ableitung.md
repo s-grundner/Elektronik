@@ -33,7 +33,8 @@ professor:
 
 
 
-> [!info] Ist die Jacobi-Matrix stetig, ist diese die Fréchet Ableitung
-> ![](assets/{733DBA99-ECBB-4208-8740-4BB2A98D829C}.png)
+> [!important] **Satz 11.10.** Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ in $x_0$ stetig differenzierbar. Dann ist $f$ in $x_0$ Fréchet-differenzierbar.
+> 
+> Es gilt also: $f \in C^1\left(A, \mathbb{R}^m\right) \Longrightarrow f$ Fréchet-differenzierbar $\Longrightarrow$ alle partiellen Ableitungen von $f$ existieren; es gilt keine der möglichen Umkehrungen. Die Fréchetableitung ist, falls sie existiert, durch die [Jacobi-Matrix](../Gradient.md) gegeben.
 
 Der Zusammenhang zwischen der Fréchet Ableitung und der partiellen Ableitung ist durch [Satz 11.18](../Satz%2011.18.md) gegeben 

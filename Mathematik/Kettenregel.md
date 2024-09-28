@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Satz 11.12
 keywords: 
 subject:
   - VL
@@ -13,7 +14,7 @@ professor:
 
 # Kettenregel
 
-> [!important] Satz 11.12 (Kettenregel). Sei $A \subset \mathbb{R}^n$ offen, $g: A \rightarrow \mathbb{R}^m$ differenzierbar in $x \in A$, $B \supset g(A)$ offen und $f: B \rightarrow \mathbb{R}^k$ differenzierbar in $g(x)$. Dann ist $f \circ g$ differenzierbar in $x$, und es gilt:
+> [!important] **Satz 11.12**: Sei $A \subset \mathbb{R}^n$ offen, $g: A \rightarrow \mathbb{R}^m$ differenzierbar in $x \in A$, $B \supset g(A)$ offen und $f: B \rightarrow \mathbb{R}^k$ differenzierbar in $g(x)$. Dann ist $f \circ g$ differenzierbar in $x$, und es gilt:
 > 
 > $$
 > (f \circ g)^{\prime}(x)=f^{\prime}(g(x)) g^{\prime}(x) \quad \text { (als Produkt von Matrizen) }
@@ -79,3 +80,26 @@ $$
 
 
 Insgesamt folgt: $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$.
+
+## Bemerkung 11.13
+
+Für $n=m=1$ ergibt sich die eindimensionale Kettenregel:
+
+$$
+\frac{d(f \circ g)}{d x}\left(x_0\right)=\frac{d f}{d x}\left(g\left(x_0\right)\right) \frac{d g}{d x}\left(x_0\right)
+$$
+
+
+Nach Satz 11.8 lässt sich die Fréchet-Ableitung durch die Jacobi-Matrix ausdrücken. Damit ergibt sich, falls $f$ Fréchet-differenzierbar ist, laut Satz 11.12 für die partiellen Ableitungen:
+
+$$
+\forall i \in\{1, \ldots, k\}, j \in\{1, \ldots, n\}: \frac{\partial\left(f_i \circ g\right)}{\partial x_j}(x)=\sum_{l=1}^m \frac{\partial f_i}{\partial g_l}(g(x)) \frac{\partial g_l}{\partial x_j}(x)
+$$
+
+
+Achtung: Die Kettenregel gilt i.A. nicht, wenn $f$ nur partiell differenzierbar ist.
+
+Die Differentiationsregeln für Produkte und Quotienten von Funktionen (die nur für einen eindimensionalen Bildraum bildbar sind) ergeben sich nun als Spezialfälle der Kettenregel:
+
+- Produktregel
+- Quotientenregel
