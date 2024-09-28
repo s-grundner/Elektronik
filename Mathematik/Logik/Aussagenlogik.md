@@ -28,8 +28,7 @@ ref:
 
 # Aussagenlogik
 
-> [!INFO]  
->  ![Axiom](Axiom.md)
+- [Axiom](Axiom.md)
 
 Dazu benötigen wir einige Begriffe und Symbole:
 

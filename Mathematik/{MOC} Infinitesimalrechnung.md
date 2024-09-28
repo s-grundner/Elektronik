@@ -23,7 +23,7 @@ created: 26th March 2022
         - Satz von Schwarz
     - [Satz von Rolle](Satz%20von%20Rolle.md)
     - [Gradient](Gradient.md)
-    - [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md)
+    - [Mittelwertsatz](Mittelwertsatz.md)
 - [Integralrechnung](Analysis/Integralrechnung.md)
     - [Riemann-Integral](Analysis/Riemann-Integral.md)
     - Mittelwertsatz der Integralrechnung

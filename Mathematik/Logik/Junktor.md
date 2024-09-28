@@ -77,11 +77,11 @@ $A \iff B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$
 > - $\wedge$ und $\vee$ binden stärker als $\implies$ und $\iff$
 >
 > > [!EXAMPLE] Wir schreiben demnach  
-> > 		- $\neg A\wedge B$ statt $(\neg A)\wedge B$  
-> > 		- $A\wedge B\implies C$ statt $(A\wedge B)\implies C$
+> > - $\neg A\wedge B$ statt $(\neg A)\wedge B$  
+> > - $A\wedge B\implies C$ statt $(A\wedge B)\implies C$
 
 ---
 
 https://www.youtube.com/watch?v=FG-Uaulcw_g
 
-[^1]: Definition 1.3 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 5]
+[^1]: Definition 1.3 - [Skriptum - Andreas Neubauer, S. 5]

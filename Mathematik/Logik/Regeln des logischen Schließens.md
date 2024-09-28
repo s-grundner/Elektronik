@@ -6,16 +6,15 @@ aliases:
   - Kontrapositionsregel
   - De Morgansche Regel
   - De Morgan
-  - reduction ad absurdum
   - Assoziativgesetz
   - Assoziativgesetze
   - Distributivgesetz
   - Distributivgesetze
   - Beweismathematik
+  - Satz 1.5
 keywords:
   - De Morgan
   - Kontrapositionsregel
-  - reduction ad absurdum
   - Distributivgesetze
   - Assoziativgesetze
 subject:
@@ -32,7 +31,7 @@ professor:
 
 Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die man *Regeln des logischen Schließens* nennt.
 
-> [!ABSTRACT] *Satz 1.5*[^1] - Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine Tautologie und $K$ eine Kontradiktion, dann gilt:  
+> [!important] **Satz 1.5**. Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine [Tautologie](Aussagenlogik.md) und $K$ eine [Kontradiktion](Aussagenlogik.md), dann gilt:  
 > (a) $\neg(\neg A)\equiv A$  
 > 
 > (b) $\left.\begin{align}\neg (A\wedge B)\equiv \neg A\vee \neg B \\ \neg (A\vee B)\equiv \neg A \wedge \neg B\end{align}\quad\right\}\text{ De Morgansche Regeln}$  
@@ -56,12 +55,6 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 ## Methoden zur mathematischen Beweisführung
 
 - [Direkter Beweis](Modus%20Ponens.md)
-- [[Indirekter Beweis]]
-
-![](assets/Pasted%20image%2020240129163127.png)
-
-![](assets/Pasted%20image%2020240129163136.png)
-
-![](assets/Pasted%20image%2020240129163146.png)
-
-[^1]: Satz 1.5 - Skriptum - Andreas Neubauer, [S. 6]
+- [Indirekter Beweis](Indirekter%20Beweis.md)
+- [Widerspruchsbeweis](Widerspruchsbeweis.md)
+- [Vollständige Induktion](Induktionsbeweis.md)

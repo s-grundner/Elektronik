@@ -5,13 +5,15 @@ aliases:
   - Differenzieren
   - Ableitung
   - ableiten
+  - Satz 11.6
 subject:
-  - Mathematik 1
   - Mathematik 2
   - VL
-keywords: 
+keywords:
+  - Differenzierbarkeit
+  - Stetigkeit
 semester: SS24
-created: 11. April 2024
+created: 27. September 2024
 professor:
   - Andreas Neubauer
   - Rudolf Frauenschuh
@@ -97,16 +99,33 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 ## Sätze und Folgerungen
 
 - [Satz von Rolle](Satz%20von%20Rolle.md)
-- [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md)
+- [Mittelwertsatz](Mittelwertsatz.md)
     - Schrankensatz
         - Lipschitzstetigkeit
     - [L'Hospital](Analysis/L'Hospital.md)
 
 ![Sätze und Folgerungen](Differenzialrechnung%20-%20Sätze%20und%20Folgerungen.canvas)
 
+## Stetigkeit
+
+> [!important] Satz 11.6. Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ differenzierbar in $x_0$.
+> Dann ist $f$ stetig in $x_0$.
+
+> [!success] Beweis Satz 11.6
+> Da $f$ differenzierbar ist, gilt nach Definition 11.4 für alle $h \in \mathbb{R}^n$ mit $x_0+h \in A$ : 
+> 
+> $f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h)$ und $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$, insbesondere: $\lim _{h \rightarrow 0} r(h)=0$.
+> 
+> Da die lineare Abbildung $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
+> 
+> Umgekehrt impliziert [Stetigkeit](Analysis/Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die Betragsfunktion in $x=0$ stetig, aber nicht differenzierbar.
+> 
+> Aus dem Beweis von Satz 11.6 geht hervor, dass für $n=1$ die Aussage auch gilt, falls $I$ ein Intervall und $x_0 \in I$ ein Randpunkt ist.
+> 
+> Es gibt auch eine andere Möglichkeit, den Ableitungsbegriff auf Funktionen zwischen mehrdimensionalen Räumen zu übertragen, den Begriff der [partiellen Ableitung](Analysis/Partielle%20Ableitung.md), dabei lässt man nun alle Variablen bis auf eine fest und betrachtet die Funktion als Funktion der einen restlichen Variablen.
+
 # Tags
 
 - [Partielle Ableitung](Partielle%20Ableitung.md)
 - [Totale Ableitung](Analysis/Total%20Differenzierbar.md)
 - [Fréchet-Ableitung](Analysis/Fréchet-Ableitung.md)
-- [Linearisieren](Linearisieren)

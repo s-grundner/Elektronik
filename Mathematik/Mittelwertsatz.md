@@ -1,8 +1,9 @@
 ---
 tags:
   - Infinitesimalrechnung
-aliases: 
-keywords: []
+aliases:
+  - MWS
+keywords: 
 subject:
   - VL
   - Mathematik 2

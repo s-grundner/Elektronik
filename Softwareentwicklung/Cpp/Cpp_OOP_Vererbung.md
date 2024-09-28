@@ -1,4 +1,4 @@
-## Vererbung
+# Vererbung
 
 Ziel soll sein: einmal programmiert - so oft wie möglich verwenden. Die Vorteile sind klar:
 
@@ -34,7 +34,7 @@ Mit dem Sichtbarkeitsmodifikator vor der Basisklasse wird angegeben wie die Elem
 - *protected*: public-Member werden auf *protected* reduziert, andere bleiben  
   *private*: *public* und *protected*-Member werden auf *private* reduziert, *private* bleibt
 
-### Konstruktor
+## Konstruktor
 
 In abgeleiteten Klassen wird der Konstruktor der Basisklasse automatisch vor dem Konstruktor der abgeleiteten aufgerufen. Wenn in der Basisklasse kein Konstruktor ohne Parameter vorhanden ist, dann muss der Konstruktor mit entsprechenden Parametern aufgerufen werden:
 
@@ -53,13 +53,13 @@ class Rectangle : public Figur {
 
 Im Kopf der abgeleiteten Klasse (nicht beim Prototypen) wird, getrennt durch einen Doppelpunkt, der Basisklassenkonstruktor mit dem entsprechenden Parameter angeführt.
 
-Wird mehrfach abgeleitet (abgeleitete Klasse wird wieder abgeleitet …), gilt immer: der Konstruktor der Basisklasse wird vor dem Konstruktor der ersten Ableitung, dieser vor dem der zweiten [Ableitung](Differenzialrechnung.md) ausgeführt und so fort.
+Wird mehrfach abgeleitet (abgeleitete Klasse wird wieder abgeleitet …), gilt immer: der Konstruktor der Basisklasse wird vor dem Konstruktor der ersten Ableitung, dieser vor dem der zweiten Ableitung ausgeführt und so fort.
 
-### Destruktor
+## Destruktor
 
 Beim Aufruf des Destruktors einer abgeleiteten Klasse wird anschließend automatisch der Destruktor der Basisklasse mit aufgerufen. Da Destruktoren keinen Aufrufparameter haben können, ist hier kein explizites Aufrufen notwendig (oder möglich).
 
-### Verdeckte Member
+## Verdeckte Member
 
 Soll auf verdeckte Member (siehe Beispiel) der Basisklasse zugegriffen werden, so ist der Klassenname gefolgt vom Bereichsoperator :: vor den Membernamen zu setzen:
 

@@ -2,17 +2,16 @@
 tags: 
 aliases:
   - vollständige Induktion
-keywords: 
+keywords:
+  - Teilbarkeit
+  - Rekursion
 subject:
-  - Mathematik1
-  - "357.100"
-semester:
-  - B1
-  - WS23
+  - Mathematik 1
+  - VL
+semester: WS23
 created: 27. Januar 2024
-professor: 
-source:
-  - Sophie Öttl
+professor:
+  - Andreas Neubauer
 ---
  
 
