@@ -34,30 +34,34 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 
 ```tikz
 \usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
 
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]
-\addplot[
-    
-]
-{-x^2+3};
+\begin{axis}[
+    xmin=-1, xmax=5,
+    ymin=-1, ymax=5,
+    axis lines=middle, grid=major,
+    width=12cm, height=12cm,
+    ]
+\addplot[very thick, blue,domain=0:4]{-x^2+4*x};
+\draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
+\draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
 \end{axis}
 \end{tikzpicture}
 
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]
-\addplot3[
-	surf,
-	samples=16,
-	domain=-3:3
-]
-{exp(-x^2-y^2)*x};
+\begin{axis}[
+    xmin=-1, xmax=5,
+    ymin=-1, ymax=5,
+    axis lines=middle, grid=major,
+    width=12cm, height=12cm,
+    ]
+\addplot[very thick, blue,domain=0:4]{-x^2+4*x};
+\draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
+\draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
 \end{axis}
 \end{tikzpicture}
-
 \end{document}
 ```
 
