@@ -1,7 +1,9 @@
 ---
 tags: 
 aliases: 
-keywords: 
+keywords:
+  - Differenzierbarkeit
+  - Stetigkeit
 subject:
   - VL
   - Mathematik 2
