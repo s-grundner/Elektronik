@@ -29,7 +29,7 @@ Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Se
 
 ## Skalarprodukt im Vektorraum
 
-> [!important] Definition 6.13. Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
+> [!important] **Definition 6.13**. Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
 > 
 > **(S1)** $\forall x \in X:\langle x, x\rangle \geq 0 \wedge(\langle x, x\rangle=0 \Longleftrightarrow x=0)\quad$ ([positive Definitheit](Definitheit.md))
 > **(S2)** $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ (Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ )
@@ -39,7 +39,7 @@ Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Se
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
-> [!important] Satz 10.10. Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Basis](Algebra/Basis,%20Dimension%20und%20Teilräume.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
+> [!important] **Satz 10.10**. Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Basis](Algebra/Basis,%20Dimension%20und%20Teilräume.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
 > 
 > $$
 > \boxed{ \langle x, y\rangle:=\sum_{i=1}^n x_i \overline{y_i} \quad \text { mit } \quad x=\sum_{i=1}^n x_i b_i \quad \text { und } \quad y=\sum_{i=1}^n y_i b_i }
@@ -63,7 +63,7 @@ $$
 $$
 
 
-Sei $f: \mathbb{K}^n \rightarrow \mathbb{R}$ definiert durch $f(x):=\|L x\|_1$. Dann folgt mit der 2. [Dreiecksungleichung](Betrag.md) (siehe Beispiel 6.12 (b)), der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)) und der Normeigenschaften:
+Sei $f: \mathbb{K}^n \rightarrow \mathbb{R}$ definiert durch $f(x):=\|L x\|_1$. Dann folgt mit der 2. [Dreiecksungleichung](Betrag.md) (siehe Beispiel 6.12 (b)), der Cauchy-Schwarzschen Ungleichung (siehe [Satz 6.15](Norm.md) (a)) und der Normeigenschaften:
 
 $$
 |f(x)-f(y)| \leq\|L(x-y)\|_1 \leq \sum_{i=1}^n\left|x_i-y_i\right|\left\|b_i\right\|_1 \leq c\|x-y\|
@@ -74,7 +74,7 @@ $$
 c:=\sqrt{\sum_{i=1}^n\left\|b_i\right\|_1^2}
 $$
 
-Die Funktion $f$ ist also Lipschitz-stetig.
+Die Funktion $f$ ist also [Lipschitz-stetig](../Analysis/Stetigkeit.md).
 
 Da die Menge $S:=\left\{x \in \mathbb{K}^n:\|x\|=1\right\}$ offensichtlich kompakt ist, nimmt die Funktion $f$ auf $S$ ihr Minimum und Maximum an (siehe Satz 9.22).
 

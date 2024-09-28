@@ -24,7 +24,7 @@ Für Funktionen mit mehreren Argumenten benötigt man einen zusätzlichen Ableit
 
 Für die partielle [Ableitung](Differenzialrechnung.md) wird zur Unterscheidung das Symbol $\partial$ verwendet, alternativ wird auch die Variable, nach der abgeleitet wird als Index geschrieben:
 $$
-\frac{\partial f}{\partial x}=f_x=f_{, x}
+\frac{\partial f}{\partial x}=f_{x}
 $$
 
 Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle Ableitung nach diesen die jeweilige Änderung in diese Raumrichtung an.
