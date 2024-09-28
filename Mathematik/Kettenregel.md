@@ -37,13 +37,45 @@ g(x+h)-g(x)=g^{\prime}(x) h+r_g(h) \quad \text { mit } \quad \lim _{h \rightarro
 $$
 
 
-Damit gilt insgesamt:
+**Damit gilt insgesamt:**
 
 $$
-\begin{align}
-&(f \circ g)(x+h)-(f \circ g)(x) &= f^{\prime}(g(x))\left[g^{\prime}(x) h+r_g(h)\right]
-+\left\|g^{\prime}(x) h+r_g(h)\right\| \rho\left(g^{\prime}(x) h+r_g(h)\right) \\
-&= {\left[f^{\prime}(g(x)) g^{\prime}(x)\right] h+r(h) \quad \mathrm{mit} } \\
-& r(h):=f^{\prime}(g(x)) r_g(h)+\left\|g^{\prime}(x) h+r_g(h)\right\| \rho\left(g^{\prime}(x) h+r_g(h)\right)
-\end{align}
+\begin{aligned}
+&(f \circ g)(x+h)-(f \circ g)(x) =
+\\
+&= f^{\prime}(g(x))\left[g^{\prime}(x) h+r_g(h)\right] +\left\|g^{\prime}(x) h+r_g(h)\right\| \rho\left(g^{\prime}(x) h+r_g(h)\right)
+\\
+&= {\left[f^{\prime}(g(x)) g^{\prime}(x)\right] h+r(h)}
+\end{aligned}
 $$
+
+mit
+$$
+r(h):=f^{\prime}(g(x)) r_g(h)+\left\|g^{\prime}(x) h+r_g(h)\right\| \rho\left(g^{\prime}(x) h+r_g(h)\right)
+$$
+
+
+**Es genügt zu zeigen:** $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$.
+
+Da $f^{\prime}(g(x))$ eine fixe lineare Abbildung ist, gilt zunächst:
+
+$$
+\lim _{h \rightarrow 0}\left[\frac{f^{\prime}(g(x)) r_g(h)}{\|h\|}\right]=f^{\prime}(g(x)) \lim _{h \rightarrow 0} \frac{r_g(h)}{\|h\|}=0
+$$
+
+
+Nach Bemerkung 10.11 existiert ein $c>0$ mit $\left\|g^{\prime}(x) h\right\| \leq c\|h\|$ für alle $h \in \mathbb{R}^n$. Damit folgt die Abschätzung $\left\|g^{\prime}(x) h+r_g(h)\right\| \leq c\|h\|+\left\|r_g(h)\right\|$, also für hinreichend kleines $\|h\| \neq 0$ gilt:
+
+$$
+\frac{\left\|g^{\prime}(x) h+r_g(h)\right\|}{\|h\|} \leq c+1, \quad \text { da } \quad \lim _{h \rightarrow 0} \frac{\left\|r_g(h)\right\|}{\|h\|}=0
+$$
+
+
+Da $\lim _{h \rightarrow 0}\left(g^{\prime}(x) h+r_g(h)\right)=0$ und $\lim _{s \rightarrow 0} \rho(s)=0$, ist auch $\lim _{h \rightarrow 0} \rho\left(g^{\prime}(x) h+r_g(h)\right)=0$. Damit erhalten wir nun die Abschätzung:
+
+$$
+\lim _{h \rightarrow 0}\left[\frac{\left\|g^{\prime}(x) h+r_g(h)\right\| \rho\left(g^{\prime}(x) h+r_g(h)\right)}{\|h\|}\right] \leq(c+1) \lim _{h \rightarrow 0} \rho\left(g^{\prime}(x) h+r_g(h)\right)=0
+$$
+
+
+Insgesamt folgt: $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$.
