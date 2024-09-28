@@ -33,5 +33,6 @@
   "obsidian-auto-link-title",
   "quick-latex",
   "obsidian-excalidraw-plugin",
-  "obsidian-react-components"
+  "obsidian-react-components",
+  "obsidian-tikzjax"
 ]
