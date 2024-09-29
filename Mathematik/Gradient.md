@@ -52,7 +52,7 @@ professor:
 
 ## Hesse [Matrix](Algebra/Matrix.md)
 
-> [!info] Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte Hessematrix
+> [!info] Die Matrix die sich bei der zweiten partiellen Ableitung ergibt ist die Hessematrix
 > $$
 > H_f(x):=\left(\begin{array}{ccc}
 \frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
@@ -60,7 +60,7 @@ professor:
 \frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
 \end{array}\right)
 > $$
-> symmetrisch.
+> Die Symmetrie der Hessematrix ist durch den [Satz von Schwarz](Analysis/Partielle%20Ableitung.md) gegeben.
 
 > [!example] $f: \mathbb{R}^{n}\mapsto \mathbb{R}, \quad \vec{x}=(x,y)$
 > 
