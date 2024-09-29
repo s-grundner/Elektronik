@@ -4,6 +4,8 @@ tags:
 aliases:
   - Satz von Schwarz
   - Satz 11.28
+  - Korollar 11.29
+  - Bemerkung 11.30
 keywords: 
 subject:
   - KV
@@ -29,16 +31,6 @@ $$
 
 Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle Ableitung nach diesen die jeweilige Änderung in diese Raumrichtung an.
 
-> [!info] Satz 11.28: Satz von Schwarz
-> 
-> > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn diese stetig differenzierbar ist
-> 
-> Sei $A \subset \mathbb{R}^2$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}$ besitzt in $A$ die partiellen Ableitungen $\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$ und $\frac{\partial^2 f}{\partial x \partial y}$. 
-> 
-> Ist $\frac{\partial^2 f}{\partial x \partial y}$ in $x_0$ stetig, so existiert auch $\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)$ und es gilt:
-> $$\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)=\frac{\partial^2 f}{\partial x \partial y}\left(x_0\right)$$
-
-
 > [!important] Definition
 Sei $f$ eine Funktion (skalar-, [[vektor]]- oder tensorwertig) z.B.
 > $$
@@ -53,6 +45,31 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > $$
 > als die *partielle [Ableitung](Differenzialrechnung.md)* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
 > Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
+
+> [!info] **Satz 11.28**: Satz von Schwarz
+> 
+> > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn diese stetig differenzierbar ist
+> 
+> Sei $A \subset \mathbb{R}^2$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}$ besitzt in $A$ die partiellen Ableitungen $\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$ und $\frac{\partial^2 f}{\partial x \partial y}$. 
+> 
+> Ist $\frac{\partial^2 f}{\partial x \partial y}$ in $x_0$ stetig, so existiert auch $\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)$ und es gilt:
+> $$\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)=\frac{\partial^2 f}{\partial x \partial y}\left(x_0\right)$$
+
+**Korollar 11.29**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. Dann existieren alle möglichen partiellen Ableitungen von $f$ bis zur $k$-ten Ordnung (mit beliebiger Differentiationsreihenfolge). Je zwei Ableitungen derselben Ordnung, bei denen nach denselben Variablen gleich oft differenziert wird, stimmen überein.
+
+**Bemerkung 11.30**. Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte Hesse-Matrix symmetrisch.
+
+$$
+H_f(x):=\left(\begin{array}{ccc}
+\frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
+\vdots & \vdots & \vdots \\
+\frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
+\end{array}\right)
+$$
+
+
+
+Aus den Rechenregeln für erste Ableitungen kann man (i.a. durch Induktion) Rechenregeln für höhere Ableitungen herleiten. Wir geben nur eindimensionale Beispiele dafür an, aus denen sich bei Bedarf natürlich Regeln für höhere partielle Ableitungen herleiten lassen.
 
 # Tags
 

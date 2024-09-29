@@ -6,6 +6,9 @@ aliases:
   - Funktionalmatrix
   - Gradienten
   - Definition 11.7
+  - Hessematrix
+  - Hessian
+  - Hesse-Matrix
 keywords: 
 subject:
   - VL
