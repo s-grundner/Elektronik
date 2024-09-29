@@ -44,12 +44,14 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
     width=12cm, height=12cm,
     ]
 \addplot[very thick, blue,domain=0:4]{-x^2+4*x};
+\addplot[very thick, red,domain=0:2]{2*x+1};
+\node[] (P) at (0,0) {};
 \draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
 \draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
 \draw[dashed, very thick] (axis cs: 0, 3) -- (axis cs: 1, 3);
 \draw[dashed, very thick] (axis cs: 1, 0) -- (axis cs: 1, 3);
-\draw[dashed, very thick] (axis cs: 0, 1.75) -- (axis cs: 0.5, 1.75);
-\draw[dashed, very thick] (axis cs: 0.5, 0) -- (axis cs: 0.5, 1.75);
+\draw[dashed, very thick] (axis cs: 0, 3.75) -- (axis cs: 1.5, 3.75);
+\draw[dashed, very thick] (axis cs: 1.5, 0) -- (axis cs: 1.5, 3.75);
 \end{axis}
 \end{tikzpicture}
 
