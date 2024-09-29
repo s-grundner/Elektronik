@@ -40,12 +40,13 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 \begin{axis}[
     xmin=-1, xmax=5,
     ymin=-1, ymax=5,
+    ytick= {},
     axis lines=middle, grid=major,
     width=12cm, height=12cm,
     ]
 \addplot[very thick, blue,domain=0:4]{-x^2+4*x};
-\addplot[very thick, red,domain=0:2]{2*x+1};
-\node[] (P) at (0,0) {};
+\addplot[very thick, red,domain=0:2]{1.5*x+1.5};
+\addplot[very thick, red,domain=0:3]{x+2};
 \draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
 \draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
 \draw[dashed, very thick] (axis cs: 0, 3) -- (axis cs: 1, 3);
@@ -63,8 +64,9 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
     width=12cm, height=12cm,
     ]
 \addplot[very thick, blue,domain=0:4]{-x^2+4*x};
-\draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
-\draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
+\addplot[very thick, red,domain=0:2]{2*x+1};
+\draw[dashed, very thick] (axis cs: 0, 3) -- (axis cs: 1, 3);
+\draw[dashed, very thick] (axis cs: 1, 0) -- (axis cs: 1, 3);
 \end{axis}
 \end{tikzpicture}
 \end{document}
