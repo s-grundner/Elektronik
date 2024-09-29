@@ -40,6 +40,7 @@ professor:
 
 \begin{tikzpicture}
 \begin{axis}[
+    colormap/viridis,
     height=7cm,
     width=20cm,
     domain=0:25.13,
@@ -58,18 +59,18 @@ professor:
     ylabel=,
     every axis/.append style={axis line style={line width=0.75pt}}
 ]
-\addplot[smooth, thick] {0.5+(0.2*sin(deg(0.125*((x)))};
-\addplot[smooth, thick] {0.5+(0.2*sin(deg(0.125*(x-3.14*8)))};
+\addplot[smooth, very thick, surf] {0.5+(0.2*sin(deg(0.125*((x)))};
+\addplot[smooth, very thick, surf] {0.5+(0.2*sin(deg(0.125*(x-3.14*8)))};
 
-\addplot[smooth, thick] {0+(0.2*sin(deg(0.25*((x)))};
-\addplot[smooth, thick] {0+(0.2*sin(deg(0.25*(x-3.14*4)))};
+\addplot[smooth, very thick, surf] {0+(0.2*sin(deg(0.25*((x)))};
+\addplot[smooth, very thick, surf] {0+(0.2*sin(deg(0.25*(x-3.14*4)))};
 
 
-\addplot[smooth, thick] {-0.5+(0.2*sin(deg((0.375*x)-9.42477))))};
-\addplot[smooth, thick] {-0.5+(0.2*sin(deg((0.375*x)))))};
+\addplot[smooth, very thick, surf] {-0.5+(0.2*sin(deg((0.375*x)-9.42477))))};
+\addplot[smooth, very thick, surf] {-0.5+(0.2*sin(deg((0.375*x)))))};
 
-\addplot[smooth, thick] {-1+(0.2*sin(deg((0.5*x)-3.14))))};
-\addplot[smooth, thick] {-1+(0.2*sin(deg((0.5*x)))))};
+\addplot[smooth, very thick, surf] {-1+(0.2*sin(deg((0.5*x)-3.14))))};
+\addplot[smooth, very thick, surf] {-1+(0.2*sin(deg((0.5*x)))))};
 
 \end{axis}
 \end{tikzpicture}

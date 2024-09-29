@@ -9,7 +9,7 @@
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]*di*
+\begin{axis}[colormap/viridis]
 \addplot3[
 	surf,
 	samples=16,
