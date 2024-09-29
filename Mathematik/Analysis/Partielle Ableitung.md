@@ -55,14 +55,14 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > Ist $\frac{\partial^2 f}{\partial x \partial y}$ in $x_0$ stetig, so existiert auch $\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)$ und es gilt:
 > $$\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)=\frac{\partial^2 f}{\partial x \partial y}\left(x_0\right)$$
 
-**Korollar 11.29**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. Dann existieren alle möglichen partiellen Ableitungen von $f$ bis zur $k$-ten Ordnung (mit beliebiger Differentiationsreihenfolge). Je zwei Ableitungen derselben Ordnung, bei denen nach denselben Variablen gleich oft differenziert wird, stimmen überein.
+**Korollar 11.29**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. ==Dann existieren alle möglichen partiellen Ableitungen von $f$ bis zur $k$-ten Ordnung (mit beliebiger Differentiationsreihenfolge)==. Je zwei Ableitungen derselben Ordnung, bei denen nach denselben Variablen gleich oft differenziert wird, stimmen überein.
 
 **Bemerkung 11.30**. Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte Hesse-Matrix symmetrisch.
 
 $$
 H_f(x):=\left(\begin{array}{ccc}
 \frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
-\vdots & \vdots & \vdots \\
+\vdots & \ddots & \vdots \\
 \frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
 \end{array}\right)
 $$
