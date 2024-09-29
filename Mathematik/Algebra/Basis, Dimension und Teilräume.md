@@ -28,9 +28,6 @@ professor:
 > - **(b)** [[Lineare Hülle]]
 > - **(c)**, **(d)** [[Lineare Abhängigkeit]]
 
-
-![[linHuelle.jpg|250]]
-
 # Koordinatenmatrix und Basis
 
 > [!important] Definition 10.5. Seien $X$ und $Y$ endlich-dimensionale $\mathbb{K}$-[Vektorräume](Vektorraum.md) mit zugehörigen Basen $B:=\left(b_1, \ldots, b_n\right)$ und $C:=\left(c_1, \ldots, c_m\right)$. Weiters sei $L \in L(X, Y)$.

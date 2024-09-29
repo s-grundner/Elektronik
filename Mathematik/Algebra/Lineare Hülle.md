@@ -1,7 +1,10 @@
 ---
 tags: 
-aliases: 
-keywords: 
+aliases:
+  - Span
+  - Spann
+keywords:
+  - Menge aller Linearkombinationen
 subject:
   - VL
   - Mathematik 1
@@ -15,6 +18,7 @@ professor:
 # Lineare Hülle
 
 > [!important] [Definition 6.5](Basis,%20Dimension%20und%20Teilräume.md) **(b)** Sei $X$ ein $\mathbb{K}$-Vektorraum:
+> ![InlineR|250](../assets/linHuelle.jpg)
 > Sei $M \subset X, M \neq \emptyset$. Die Menge aller endlichen Linearkombinationen von Elementen aus $M$ heißt **lineare Hülle** von $M$ bezeichnet mit:
 > $$
 > \operatorname{lin}(M):=\left\{\sum_{i=1}^n \lambda_i v_i: n \in \mathbb{N}, \lambda_i \in \mathbb{K}, v_i \in M, i=1, \ldots, n\right\}
