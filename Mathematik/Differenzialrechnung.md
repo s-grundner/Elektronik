@@ -44,9 +44,9 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
     axis lines=middle, grid=major,
     width=12cm, height=12cm,
     ]
-\addplot[very thick, blue,domain=0:4]{-x^2+4*x};
-\addplot[very thick, red,domain=0:2]{1.5*x+1.5};
-\addplot[very thick, red,domain=0:3]{x+2};
+\addplot[very thick, blue, domain=0:4]{-x^2+4*x};
+\addplot[very thick, red, domain=-0.5:2]{1.5*x+1.5};
+\addplot[very thick, orange, domain=0:3]{x+2};
 \draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
 \draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
 \draw[dashed, very thick] (axis cs: 0, 3) -- (axis cs: 1, 3);
