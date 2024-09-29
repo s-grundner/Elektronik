@@ -42,3 +42,9 @@ to[R=$R_2$, i>_=$i_2$]
 ```
 
 [Circuitikz Manual](https://ctan.dcc.uchile.cl/graphics/pgf/contrib/circuitikz/doc/circuitikzmanual.pdf)
+
+# Convert to Tikz Pic
+
+```dataview
+LIST FROM #tikz
+```

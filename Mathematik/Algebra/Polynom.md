@@ -1,5 +1,5 @@
 ---
-tags: 
+tags: [tikz]
 aliases:
   - Fundamentalsatz der Algebra
 keywords: 
@@ -41,8 +41,6 @@ $f: \mathbb{R}(\mathbb{C}) \backslash N_q \rightarrow \mathbb{R}(\mathbb{C})$
 ## Koeffizientenvergleich
 
 Zwei Polynomfunktionen $p(x) := \sum_{i=0}^n a_{i}x^i$ und 
-
-
 
 # Tags
 

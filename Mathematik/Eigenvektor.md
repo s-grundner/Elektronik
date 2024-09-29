@@ -19,8 +19,8 @@ professor:
 # Eigenwerte, Eigenvektoren, Eigenräume
 
 > [!info]  
-> Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Lineare%20Abbildungen.md) aussagen.  
-> Eigenvektoren sind [Vektoren](Vektor.md), die unter der [linearen Abbildung](Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
+> Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
+> Eigenvektoren sind [Vektoren](Vektor.md), die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
 > diesen Skalierungsfaktor nennt man *Eigenwert*.
 
 > [!hint] Anwendungen  
@@ -46,7 +46,7 @@ A= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-> [!hint] Alle [Vektoren](Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](Vektor.md) mit einer Anderen länge)  
+> [!hint] Alle [Vektoren](Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](Vektor.md) mit einer Anderen länge)  
 >
 > $$A\vec{x}=\lambda \vec{x}$$
 

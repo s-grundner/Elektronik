@@ -1,7 +1,10 @@
 ---
-aliases: []
-subject: ["chemie"]
-source: ["Angela Lindner"]
+aliases:
+  - Ottomotor
+subject:
+  - chemie
+source:
+  - Angela Lindner
 created: 10th September 2022
 ---
 
@@ -21,7 +24,8 @@ Ziel ist, dass immer ein Zylinder gerade im Arbeitstakt ist.
 Der Wirkungsgrad eines Ottomotors liegt im Idealfall bei η=35%, meist jedoch deutlich darunter.
 
 ![Pasted image 20220910205102.png](Pasted%20image%2020220910205102.png)  
-**Carnot Prozess (Vier Takte)**:
+**Carnot Prozess (Vier Takte)**
+
 1.	Ansaugtakt (Suck)  
 Ansaugen des Benzin-Luftgemisches des Vergasers durch das Einlassventil bei geschlossenem Auslassventil. Der Kolben bewegt sich nach unten. 
 2.	Verdichtungstakt (Squeeze)  

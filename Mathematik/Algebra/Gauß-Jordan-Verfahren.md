@@ -7,13 +7,12 @@ aliases:
   - Gauß-Jordan
 keywords: 
 subject:
-  - Mathematik1
-  - "357.100"
-semester:
-  - WS23
-  - B1
+  - Mathematik 1
+  - VL
+semester: WS23
 created: 27. Januar 2024
 professor:
+  - Andreas Neubauer
 ---
  
 

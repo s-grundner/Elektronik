@@ -5,7 +5,7 @@ tags:
 aliases:
   - Avogadro
 symbol: $N_{0}$
-value: $6.0221367(36)$
+value: $6.0221367(36)\cdot 10^{23}$
 unit: $\dfrac{1}{mol}$
 ---
 

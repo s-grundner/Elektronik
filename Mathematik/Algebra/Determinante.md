@@ -7,7 +7,8 @@ aliases:
   - Determinanten
 keywords: 
 subject:
-  - Mathematik1
+  - Mathematik 1
+  - VL
 semester: WS23
 created: 27. Januar 2024
 professor:
@@ -24,7 +25,7 @@ professor:
 > - ob ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
 >[!important] Bedeutung der Determinante
-> Mit der [Basistransformation](Basis,%20Dimension%20und%20Teilräume.md) eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+> Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
 
 
 > [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat

@@ -5,7 +5,7 @@ tags:
 aliases:
   - Boltzmann
 symbol: $k_{B}$
-value: $1.38054$
+value: $1.38054 \cdot 10^{-23}$
 unit: $\dfrac{Ws}{K}$
 ---
 

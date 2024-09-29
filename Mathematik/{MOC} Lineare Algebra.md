@@ -1,6 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+  - LineareAlgebra
+aliases:
+  - "#LineareAlgebra"
 keywords: 
 subject:
   - VL
@@ -17,5 +19,5 @@ professor:
 - [Vektorraum](Algebra/Vektorraum.md)
 - [Basis, Dimension und Teilräume](Algebra/Basis,%20Dimension%20und%20Teilräume.md)
     - [Lineare Hülle](Algebra/Lineare%20Hülle.md)
-    - [Lineare Abbildung](../../../Mathematik/Lineare%20Abbildungen.md)
+    - [Lineare Abbildung](Algebra/Lineare%20Abbildungen.md)
     - [Lineare Abhängigkeit](../../../Mathematik/Algebra/Lineare%20Abhängigkeit.md)
