@@ -57,3 +57,16 @@ $$
 ## Ableitung Hyperbolischer Funktionen
 
 #incomplete 
+
+$$
+\begin{align}
+(\sinh t)' &= \cosh t \\
+(\cosh t)' &= \sinh t \\
+(\tanh t )' &= \frac{1}{\cosh ^{2}(t)} = 1 - \tanh ^{2}(t)  \\
+ \\
+(\operatorname{arsinh})' &= \frac{1}{\sqrt{ 1+x^{2} }}\\
+(\operatorname{arcosh})' &= \frac{1}{\sqrt{ x^{2}-1 }}\\
+(\operatorname{artanh})' &=
+
+\end{align}
+$$
