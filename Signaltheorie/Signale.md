@@ -54,4 +54,6 @@ Ein Leistungssignal liegt vor, wenn gilt:
 $$
 0 \leq P<\infty
 $$
-[Korrelation](Korrelation.md)
+---
+
+- [Korrelation](Signaltheorie/Korrelation.md)

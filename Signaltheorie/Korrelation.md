@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - DSP
 aliases:
   - Autokorrelation
   - Kreuzkorrelation
