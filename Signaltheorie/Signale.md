@@ -15,6 +15,9 @@ professor:
  
 
 # Signale
+## Klassifizierung von Signalen
+
+## 
 
 ```tikz
 \usepackage{amsmath}
@@ -30,7 +33,7 @@ professor:
     \draw[very thick, color=red,domain=0:3,samples=100,smooth] 
         plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
         
-    \node at (1.5,-2) {Zeitkontinuierliches Signal};
+    \node at (1.5,-2) {\huge \textbf{Zeitkontinuierliches\, Signal}};
 \end{scope}
 
 % Zeitdiskretes Signal (rechts)
@@ -44,13 +47,15 @@ professor:
         \draw[dotted, very thick] (\n*0.5,0) -- (\n*0.5,{0.5*sin(2*\n*0.5 r) + 0.7*sin(4*\n*0.5 r)});
     }
 
-    \node at (1.5,-2) {Zeitdiskretes Signal};
+    \node at (1.5,-2) {\huge \textbf{Zeitdiskretes\, Signal}};
 \end{scope}
 
 \end{tikzpicture}
 \end{document}
 
 ```
+
+### 
 
 ```tikz
 \usepackage{amsmath}
@@ -67,7 +72,7 @@ professor:
     \draw[red, very thick, domain=0:3, samples=100,smooth] 
         plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
         
-    \node at (1.5,-2) {Wertkontinuierliches Signal};
+    \node at (1.5,-2) {\text{\huge Wertkontinuierliches\, Signal}};
 \end{scope}
 
 % Wertdiskretes Signal (rechts)
@@ -85,7 +90,7 @@ professor:
                  -- (1.5, -1) -- (1.5, -0.5) -- (2, -0.5) -- (2, 0.5) 
                  -- (2.5, 0.5) -- (2.5, 0) -- (3, 0);
 
-    \node at (1.5,-2) {Wertdiskretes Signal};
+    \node at (1.5,-2) {\huge\text{Wertdiskretes\, Signal}};
 \end{scope}
 
 \end{tikzpicture}
@@ -93,7 +98,8 @@ professor:
 
 ```
 
-## Klassifizierung von Signalen
+Ein wertkontinuierliches Signal kann beliebige Funktionswerte annehmen, wohingegen ein wertdiskretes Signal nur diskrete Signalstufen besitzt. Die Diskretisierung (Quantisierung) der Amplitudenwerte geschieht i.d.R. in linearen Stufen, mit $N$-Bits ergeben sich $2^N$ mögliche Funktionswerte.
+
 
 ### Energiesignal
 
