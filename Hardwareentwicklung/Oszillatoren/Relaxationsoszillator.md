@@ -1,8 +1,11 @@
 ---
-tags: ["Baugruppen/Oszillator"]
+tags:
+  - Baugruppen/Oszillator
 aliases: []
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 20th December 2022
 ---
 

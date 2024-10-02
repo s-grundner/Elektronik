@@ -54,7 +54,4 @@ Ein Leistungssignal liegt vor, wenn gilt:
 $$
 0 \leq P<\infty
 $$
-
-## Korrelation
-
-> [!info] Die Korrelation ist ein Maß zur ähnlichkeit zweier Signale
+[Korrelation](Korrelation.md)
