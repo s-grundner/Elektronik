@@ -16,7 +16,6 @@ created: 14th March 2022
 
 # Map of Content - Differentialgleichungen (DGL)
 
-
 > [!info] Arten von Differentialgleichungen
 > 
 > | gewöhnlich             | partiell                     |
@@ -32,6 +31,12 @@ created: 14th March 2022
 > $m\cdot x''(t) = F$
 > - ... ist ein Beipsiel einer *gewöhnlichen* DGL zweiter Ordnung, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
 > - Anderfalls heit die gleichung *partielle* DGL
+
+## Allgemeine Form 
+
+$$
+F(t,x,x)
+$$
 
 ## Map of Content
 

@@ -31,3 +31,7 @@ cited:
 > - [Gradient](Gradient.md) - $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 > - Divergenz - $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - Rotation - $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+
+---
+
+- [[Laplace Operator]]

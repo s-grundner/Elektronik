@@ -193,6 +193,8 @@
 	{trigger: "xx", replacement: "\\times", options: "mA"},
 	{trigger: "**", replacement: "\\cdot", options: "mA"},
 	{trigger: "para", replacement: "\\parallel", options: "mA"},
+	{trigger: "laplac", replacement: "\\Delta", options: "mA"},
+    
 
 
 	{trigger: "xnn", replacement: "x_{n}", options: "mA"},
