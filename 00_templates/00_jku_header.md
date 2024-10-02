@@ -4,8 +4,8 @@ aliases:
 keywords: 
 subject:
   - <% tp.user.get_lva().type(tp) %>
-  - <% tp.user.get_lva().ss24(tp) %>
-semester: SS24
+  - <% tp.user.get_lva().ws24(tp) %>
+semester: WS24
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
 ---
