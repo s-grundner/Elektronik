@@ -18,7 +18,7 @@ created: 20th August 2023
 >
 > $$\lambda = \frac{c_{0}}{f}\gg l \qquad \text{oder} \qquad \uptau = \frac{\text{Strecke}}{\text{Geschwindigkeit}} = \frac{l}{c_{0}} \ll T = \frac{1}{f}$$
 
-> [!NOTE] nicht elektrisch kurz ($l>\frac{\lambda}{10}$)  
+> [!NOTE] nicht elektrisch kurz ($l>\frac{\lambda}{10}$) 
 > Ist die Leitung ==nicht== als elektrisch ==kurz== anzusehen, so zeigt die Spannung längs der Leitung  
 keinen konstanten Verlauf mehr:
 > - In dem sinusförmigen Verlauf ist die Wellennatur der elektromagnetischen Erscheinungen zu erkennen.
@@ -60,6 +60,7 @@ keinen konstanten Verlauf mehr:
 
 ## Allgemein
 
+Eingangswiderstand $Z_{E}$
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ \frac{Z_{L}}{Z_{A}}\cdot\tanh(\gamma\cdot l)}{1+ \frac{Z_{A}}{Z_{L}}\cdot\tanh(\gamma\cdot l)}
 $$
