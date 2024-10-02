@@ -16,6 +16,43 @@ professor:
 
 # Signale
 
+```tikz
+\usepackage{amsmath}
+
+\begin{document}[scale=2]
+\begin{tikzpicture}
+
+% Zeitkontinuierliches Signal (links)
+\begin{scope}
+    \draw[->] (-0.2,0) -- (3.5,0) node[right] {$t$};
+    \draw[->] (0,-1.5) -- (0,2) node[above] {$x(t)$};
+    
+    % Das kontinuierliche Signal
+    \draw[thick,domain=0:3,samples=100,smooth] 
+        plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
+        
+    \node at (1.5,-2) {Zeitkontinuierliches Signal};
+\end{scope}
+
+% Zeitdiskretes Signal (rechts)
+\begin{scope}[xshift=5cm]
+    \draw[->] (-0.2,0) -- (3.5,0) node[right] {$n$};
+    \draw[->] (0,-1.5) -- (0,2) node[above] {$x[n]$};
+    
+    % Das diskrete Signal (gepunktet)
+    \foreach \n in {0,...,6} {
+        \filldraw[black] (\n*0.5,{0.5*sin(2*\n*0.5 r) + 0.7*sin(4*\n*0.5 r)}) circle (2pt);
+        \draw[dotted] (\n*0.5,0) -- (\n*0.5,{0.5*sin(2*\n*0.5 r) + 0.7*sin(4*\n*0.5 r)});
+    }
+
+    \node at (1.5,-2) {Zeitdiskretes Signal};
+\end{scope}
+
+\end{tikzpicture}
+\end{document}
+
+```
+
 ## Klassifizierung von Signalen
 
 ### Energiesignal
