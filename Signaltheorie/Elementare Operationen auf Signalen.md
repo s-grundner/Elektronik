@@ -12,7 +12,7 @@ professor:
  
 # Elementare Operationen
 
-- Amplituden Verschiebung (Erhöhung, Erniedrigung) - keine echte Elementare operation
+- Amplituden Verschiebung (Erhöhung, Erniedrigung) - keine echte Elementare operation, da außerhalb des Argumentes
 - Zeitverschieung (Verzögerung, Voreilung)
 - Spiegelung
 - Skalierung
