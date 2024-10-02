@@ -16,12 +16,22 @@ created: 14th March 2022
 
 # Map of Content - Differentialgleichungen (DGL)
 
+
 > [!info] Arten von Differentialgleichungen
 > 
-> - Linear / Nichtlinear
-> - Ordunung (1, 2, … n)
-> - homogen / inhomogen
-> - konstanter / nicht-konstanter Koeffizient
+> | gewöhnlich             | partiell                     |
+> | --------------------- | ---------------------------- |
+> | Linear                | Nichtlinear                  |
+> | homogen               | inhomogen                    |
+> | konstaner Koeffizient | nicht-konstanter Koeffizient | 
+> 
+> > [!info] Ordunung
+> >  Die höchste Vorkommende Ableitung in einer DGL nennen wir deren Ordnung
+
+>[!example] Beispiel 2. Newtonsche Axiom: 
+> $m\cdot x''(t) = F$
+> - ... ist ein Beipsiel einer *gewöhnlichen* DGL, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
+> - Anderfalls heit die gleichung *partielle* DGL
 
 ## Map of Content
 
