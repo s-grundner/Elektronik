@@ -15,25 +15,20 @@ professor:
  
 
 # Signale
+
 ## Klassifizierung von Signalen
-
-| 1.  | Zeitkontinuierlich  | Zeitdiskret           |
-| --- | ------------------- | --------------------- |
-| 2.  | Wertkontinuierlich  | Wertdiskret           |
-| 3.  | Reellwertig         | Komplex               |
-| 4.  | (konjugiert) Gerade | (konjugiert) Ungerade |
-| 5.  |                     |                       |
-| 6.  |                     |                       |
-|     |                     |                       |
-
 
 1. Zeitkontinuität
 2. Wertkontinuität
 3. Reell / Komplexe Signale
 4. Gerade / Ungerade Signale
     - komplexe Signale
-5. Leistungs- / Energiesignal
-6. 
+6. Zeitliche Ausdehnung
+7. Kausalität
+8. Beschränktheit
+9. Periodizität
+10. Deterministische und Stochastische Signale
+11. Leistungs- / Energiesignal
 
 ### Zeitkontinuität 
 
@@ -44,20 +39,20 @@ professor:
 
 % Zeitkontinuierliches Signal (links)
 \begin{scope}
-    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {$t$};
-    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {$x(t)$};
+    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {\Large $t$};
+    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {\Large $x(t)$};
     
     % Das kontinuierliche Signal
     \draw[very thick, color=red,domain=0:3,samples=100,smooth] 
         plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
         
-    \node at (1.5,-2) {\huge \textbf{Zeitkontinuierliches\, Signal}};
+    \node at (1.5,-2) {\huge \text{Zeitkontinuierliches\, Signal}};
 \end{scope}
 
 % Zeitdiskretes Signal (rechts)
 \begin{scope}[xshift=5cm]
-    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {$n$};
-    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {$x[n]$};
+    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {\Large $n$};
+    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {\Large $x[n]$};
     
     % Das diskrete Signal (gepunktet)
     \foreach \n in {0,...,6} {
@@ -65,7 +60,7 @@ professor:
         \draw[dotted, very thick] (\n*0.5,0) -- (\n*0.5,{0.5*sin(2*\n*0.5 r) + 0.7*sin(4*\n*0.5 r)});
     }
 
-    \node at (1.5,-2) {\huge \textbf{Zeitdiskretes\, Signal}};
+    \node at (1.5,-2) {\huge \text{Zeitdiskretes\, Signal}};
 \end{scope}
 
 \end{tikzpicture}
@@ -87,8 +82,8 @@ Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem era
 
 % Wertkontinuierliches Signal (links)
 \begin{scope}
-    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {$t$};
-    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {$x(t)$};
+    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {\Large $t$};
+    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {\Large $x(t)$};
     
     % Das kontinuierliche Signal
     \draw[red, very thick, domain=0:3, samples=100,smooth] 
@@ -99,8 +94,8 @@ Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem era
 
 % Wertdiskretes Signal (rechts)
 \begin{scope}[xshift=5cm]
-    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {$t$};
-    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {$x(t)$};
+    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {\Large $t$};
+    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {\Large $x(t)$};
     
     % Die horizontalen Linien für das Quantisierungsgitter
     \foreach \y in {-1,-0.5,0,0.5,1,1.5} {
@@ -121,7 +116,6 @@ Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem era
 ```
 
 Ein wertkontinuierliches Signal kann beliebige Funktionswerte annehmen, wohingegen ein wertdiskretes Signal nur diskrete Signalstufen besitzt. Die Diskretisierung (Quantisierung) der Amplitudenwerte geschieht i.d.R. in linearen Stufen, mit $N$-Bits ergeben sich $2^N$ mögliche Funktionswerte.
-
 
 ### Energiesignal
 
