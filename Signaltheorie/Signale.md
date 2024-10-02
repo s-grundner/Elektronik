@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Energiesignal
+  - Leistungssignal
 keywords: 
 subject:
   - VL
@@ -8,6 +10,7 @@ subject:
 semester: WS24
 created: 2. Oktober 2024
 professor:
+  - Andreas Stelzer
 ---
  
 
