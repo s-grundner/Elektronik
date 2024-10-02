@@ -37,6 +37,7 @@ Das Korrelationsprodukt $\varphi_{x y}(\tau)$ zweier Funktionen $x(t)$ und $y(t)
 > \varphi_{x y}^E[\kappa]=\sum_{k=-\infty}^{\infty} x^*[k]\cdot y[k+\kappa]=\langle x[k], y[k+\kappa]\rangle
 > $$
 > 
+
 ## Autokorrelation von deterministischen Signalen
 
 Bei zwei unterschiedlichen Signalen $x(t) \neq y(t)$ spricht man von Kreuzkorrelation. Im Speziallfall gleicher Funktionen $x(t)=y(t)$, d.h. der Korrelation mit sich selbst, spricht man von Autokorrelation.
@@ -55,7 +56,6 @@ Bei zwei unterschiedlichen Signalen $x(t) \neq y(t)$ spricht man von Kreuzkorrel
 > \varphi_{x x}^E[\kappa]=\sum_{k=-\infty}^{\infty} x^*[k] x[k+\kappa]=\langle x[k], x[k+\kappa]\rangle
 > $$
 
-
 ## Eigenschaften der Korrelationsfunktion
 
 Für die Korrelationsfunktion gilt
@@ -72,25 +72,19 @@ $$
 $$
 
 
-### Spezielle Ergebnisse der Autokorrelation ohne Verschiebung, d.h. $\tau=0$
+Spezielle Ergebnisse der Autokorrelation ohne Verschiebung, d.h. $\tau=0$
 
-Energie
+1. Energie: $\quad E_x=\varphi_{x x}^E(0)$
+2. Leistung $\quad P_x=\varphi_{x x}^P(0)$
 
-$$
-E_x=\varphi_{x x}^E(0)
-$$
-
-
-Leistung
-
-$$
-P_x=\varphi_{x x}^P(0)
-$$
-
-- Für die AKF gilt immer
+Für die AKF gilt immer
 
 $$
 \left|\varphi_{x x}(\tau)\right| \leq \varphi_{x x}(0)
 $$
 
 d.h. der Wert bei Null ist ein Maximum!
+
+---
+
+- [[Barker Code]]
