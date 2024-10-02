@@ -53,3 +53,7 @@ $$
 > \operatorname{artanh}(x) & =\frac{1}{2} \ln \left(\frac{x+1}{x-1}\right)
 > \end{aligned}
 > $$
+
+## Ableitung Hyperbolischer Funktionen
+
+#incomplete 

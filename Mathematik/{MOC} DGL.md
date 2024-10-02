@@ -30,7 +30,7 @@ created: 14th March 2022
 
 >[!example] Beispiel 2. Newtonsche Axiom: 
 > $m\cdot x''(t) = F$
-> - ... ist ein Beipsiel einer *gewöhnlichen* DGL, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
+> - ... ist ein Beipsiel einer *gewöhnlichen* DGL zweiter Ordnung, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
 > - Anderfalls heit die gleichung *partielle* DGL
 
 ## Map of Content
