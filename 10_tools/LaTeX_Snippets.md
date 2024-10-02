@@ -17,12 +17,13 @@
 	{trigger: "ft=", replacement: "f(t$0)=$1", options: "mA"},
 	{trigger: "cd", replacement: "\\cdot", options: "mA"},
 	{trigger: "<-", replacement: "\\gets", options: "mA"},
-	{trigger: "v", replacement: "\\vee", options: "m"},
+	{trigger: "ve", replacement: "\\vee", options: "m"},
 	{trigger: "we", replacement: "\\wedge", options: "m"},
 	{trigger: "<>", replacement: "\\iff", options: "mA"},
 	{trigger: "==", replacement: "\\equiv", options: "mA"},
 	{trigger: "ex", replacement: "\\exists", options: "m"},
 	{trigger: "fora \\ll", replacement: "\\forall", options: "mA", priority: 1},
+	{trigger: "opname", replacement: "\\operatorname{$0}$1", options: "mA", priority: 1},
 	// Default
 
 	// Math mode

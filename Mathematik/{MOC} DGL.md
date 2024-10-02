@@ -8,9 +8,11 @@ aliases:
   - Differenzialgleichungen
   - "#DGL"
 subject:
-  - mathe
-source:
-  - Rudolf Frauenschuh
+  - Mathematik 3
+  - VL
+semester: WS24
+professor:
+  - Markus Passenbrunner
 created: 14th March 2022
 ---
 
@@ -34,8 +36,27 @@ created: 14th March 2022
 
 ## Allgemeine Form 
 
+Implizite Differenzialgleichung:
+
+$$F(t,x,x',\dots,x^{(n)}) = 0$$
+Explizite Differenzialgleichung:
+
 $$
-F(t,x,x)
+x^{(n)}= f(t,x,x',\dots,x^{(n-1)})
+$$
+$\implies$
+$$
+F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)}) 
+$$
+
+Jede DGL $n$-ter Ordnung lässt sich in ein System überführen
+$$
+F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
+x_{1}=x' \\
+x_{2}=x_{1}'' \\
+\quad\vdots  \\
+x_{n-1} = x_{n-1}'
+\end{cases}
 $$
 
 ## Map of Content
