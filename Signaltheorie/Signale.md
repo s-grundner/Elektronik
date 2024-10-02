@@ -60,8 +60,8 @@ professor:
 
 % Wertkontinuierliches Signal (links)
 \begin{scope}
-    \draw[->] (-0.2,0) -- (3.5,0) node[right] {$t$};
-    \draw[->] (0,-1.5) -- (0,2) node[above] {$x(t)$};
+    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {$t$};
+    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {$x(t)$};
     
     % Das kontinuierliche Signal
     \draw[red, very thick, domain=0:3, samples=100,smooth] 
@@ -72,8 +72,8 @@ professor:
 
 % Wertdiskretes Signal (rechts)
 \begin{scope}[xshift=5cm]
-    \draw[->] (-0.2,0) -- (3.5,0) node[right] {$t$};
-    \draw[->] (0,-1.5) -- (0,2) node[above] {$x(t)$};
+    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {$t$};
+    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {$x(t)$};
     
     % Die horizontalen Linien für das Quantisierungsgitter
     \foreach \y in {-1,-0.5,0,0.5,1,1.5} {
