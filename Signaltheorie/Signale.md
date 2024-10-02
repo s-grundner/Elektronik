@@ -17,7 +17,25 @@ professor:
 # Signale
 ## Klassifizierung von Signalen
 
-## 
+| 1.  | Zeitkontinuierlich  | Zeitdiskret           |
+| --- | ------------------- | --------------------- |
+| 2.  | Wertkontinuierlich  | Wertdiskret           |
+| 3.  | Reellwertig         | Komplex               |
+| 4.  | (konjugiert) Gerade | (konjugiert) Ungerade |
+| 5.  |                     |                       |
+| 6.  |                     |                       |
+|     |                     |                       |
+
+
+1. Zeitkontinuität
+2. Wertkontinuität
+3. Reell / Komplexe Signale
+4. Gerade / Ungerade Signale
+    - komplexe Signale
+5. Leistungs- / Energiesignal
+6. 
+
+### Zeitkontinuität 
 
 ```tikz
 \usepackage{amsmath}
@@ -55,7 +73,11 @@ professor:
 
 ```
 
-### 
+Ein zeitkontinuierliches Signal ist für alle Zeitpunkte definiert, ein zeitdiskretes Signal nur zu gewissen Zeitpunkten.
+
+Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem erarbeitet.
+
+### Wertkontinuität
 
 ```tikz
 \usepackage{amsmath}
