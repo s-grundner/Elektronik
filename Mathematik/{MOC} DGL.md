@@ -16,7 +16,7 @@ professor:
 created: 14th March 2022
 ---
 
-# Map of Content - Differentialgleichungen (DGL)
+# Differentialgleichungen (DGL)
 
 > [!info] Arten von Differentialgleichungen
 > 
@@ -55,7 +55,7 @@ F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
 x_{1}=x' \\
 x_{2}=x_{1}'' \\
 \quad\vdots  \\
-x_{n-1} = x_{n-1}'
+x_{n-1} = x_{n-1}' \\
 \end{cases}
 $$
 
@@ -64,12 +64,15 @@ $$
 - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
 - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
 
-## Anwendungen von Differenzialgleichungen
+## Anwendungen und Beispiele
 
 - [Schwingkreise](../Physik/Schwingkreise.md)
+- Wärmeleitungsgleichung
+- Schaltungsberechnung mit Induktoren und Kondensatoren
+- exponentielles Wachstum
 
 # Tags
 
-<iframe width="1012" height="630" src="https://www.youtube.com/embed/p_di4Zn4wz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://www.youtube.com/embed/p_di4Zn4wz4)
 
 ![DGL-NOTES](assets/pdf/DGL-NOTES.pdf)
