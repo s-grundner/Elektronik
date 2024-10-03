@@ -34,42 +34,43 @@ $$
 
 >[!example] Beispiel mit Anfangswerten
 > **Links:** Das Wachstum steigt erst schnell an und flacht bei der Maximalbevölkerung ab
-> **Rechts:** Die Anfangspopulation ist größer als die maximal population und sinkt exponentiell
-> ```tikz
-> \usepackage{pgfplots}
-> \pgfplotsset{compat=1.16}
-> 
-> \begin{document}
-> 
-> \begin{tikzpicture}[scale=2]
-> \begin{axis}[
->     title={$K=100$\quad $P_{0}=2$\quad $\lambda=0.01$}
-> ]
-> \newcommand\K{100};
-> \newcommand\Pz{2};
-> \newcommand\Lamb{0.05};
-> \addplot[
-> 	domain=0:2
-> ]
-> {\K / (1+((\K/\Pz)-1) * exp(-\Lamb*\K*x))};
-> \end{axis}
-> 
-> \end{tikzpicture}
-> 
-> \begin{tikzpicture}[scale=2]
-> \begin{axis}[
->     title={$K=90$\quad $P_{0}=100$\quad $\lambda=0.05$}
-> ]
-> \newcommand\K{90};
-> \newcommand\Pz{100};
-> \newcommand\Lamb{0.05};
-> \addplot[
-> 	domain=0:2
-> ]
-> {\K / (1+((\K/\Pz)-1) * exp(-\Lamb*\K*x))};
-> \end{axis}
-> 
-> \end{tikzpicture}
-> 
-> \end{document}
-> ```
+> **Rechts:** Die Anfangspopulation ist größer als die maximal Population und sinkt exponentiell
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=2]
+\begin{axis}[
+    title={$K=100$\quad $P_{0}=2$\quad $\lambda=0.01$}
+]
+\newcommand\K{100};
+\newcommand\Pz{2};
+\newcommand\Lamb{0.05};
+\addplot[
+	domain=0:2
+]
+{\K / (1+((\K/\Pz)-1) * exp(-\Lamb*\K*x))}[thick, cyan];
+\draw[dotted, very thick] (0,\K) -- (2,\K);
+\end{axis}
+\end{tikzpicture}
+
+\begin{tikzpicture}[scale=2]
+\begin{axis}[
+    title={$K=90$\quad $P_{0}=100$\quad $\lambda=0.05$},
+]
+\newcommand\K{90};
+\newcommand\Pz{100};
+\newcommand\Lamb{0.05};
+\addplot[
+	domain=0:2
+]
+{\K / (1+((\K/\Pz)-1) * exp(-\Lamb*\K*x))}[thick, red];
+\draw[dotted, very thick] (0,\K) -- (2,\K);
+\end{axis}
+
+\end{tikzpicture}
+
+\end{document}
+```
