@@ -4,6 +4,8 @@ tags:
 aliases:
   - Autokorrelation
   - Kreuzkorrelation
+  - AKF
+  - KKF
 keywords:
   - Ähnlichkeit zweier Signale
 subject:
@@ -18,9 +20,9 @@ professor:
 
 # Korrelation
 
-> [!info] Die Korrelation ist ein Maß zur ähnlichkeit zweier Signale
+> [!info] Die Korrelation ist ein Maß zur ähnlichkeit zweier [Signale](Signale.md)
 
-## Korrelation von deterministischen Signalen
+## Kreuzkorrelation von deterministischen Signalen
 
 Das Korrelationsprodukt $\varphi_{x y}(\tau)$ zweier Funktionen $x(t)$ und $y(t)$, kurz Korrelation oder auch Kreuzkorrelation genannt, ist ein Maß für die Ähnlichkeit von Signalen und spielt besonders bei stochastischen Signalen eine wichtige Rolle, ist aber auch für deterministische Signale definiert. Als Parameter tritt die zeitliche Verschiebung $\tau$ zwischen den Funktionen auf.
 
@@ -38,6 +40,44 @@ Das Korrelationsprodukt $\varphi_{x y}(\tau)$ zweier Funktionen $x(t)$ und $y(t)
 > \varphi_{x y}^E[\kappa]=\sum_{k=-\infty}^{\infty} x^*[k]\cdot y[k+\kappa]=\langle x[k], y[k+\kappa]\rangle
 > $$
 > 
+
+> [!important] Kreuzkorrelation von Leistungssignalen
+> Bei Leistungssignalen konvergieren vorige Ausdrücke nicht, sodass die Berechnung wie bei der Definition für Leistungssignale angepasst wird.
+> 
+> Kreuzkorrelation für Leistungssignale:
+> - kontinuierlich
+> 
+> $$
+> \varphi_{x y}^P(\tau)=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T x^*(t) y(t+\tau) \mathrm{d} t
+> $$
+> 
+> - diskret
+> 
+> $$
+> \varphi_{x y}^P[\kappa]=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{k=-N}^N x^*[k] y[k+\kappa]
+> $$
+> 
+> 
+> Die Autokorrelation $\varphi_{x x}^P$ ergibt sich für $y=x$.
+
+> [!important] Kreuzkorrelation von **periodischen** Leistungssignalen
+> Bei periodischen Signalen und gleicher Periode wiederholt sich die Korrelation ebenso, weshalb die Berechnung über eine Periode ausreicht.
+> 
+> Kreuzkorrelation für periodische Signale:
+> - kontinuierlich
+> 
+> $$
+> \varphi_{x y}^P(\tau)=\frac{1}{T_p} \int_{t_0}^{t_0+T_p} x^*(t) y(t+\tau) \mathrm{d} t
+> $$
+> 
+> - diskret
+> 
+> $$
+> \varphi_{x y}^P[\kappa]=\frac{1}{N_p} \sum_{k=k_0}^{k_0+N_p-1} x^*[k] y[k+\kappa]
+> $$
+> 
+> 
+> Die Autokorrelation $\varphi_{x x}^P$ ergibt sich wieder für $y=x$.
 
 ## Autokorrelation von deterministischen Signalen
 
