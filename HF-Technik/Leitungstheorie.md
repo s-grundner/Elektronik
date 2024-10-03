@@ -3,11 +3,7 @@ tags:
   - incomplete
   - RF
   - Nachrichtentechnik
-aliases:
-  - Leiterbahn
-  - Leitung
-  - Leiterbahnen
-  - Leitungen
+aliases: []
 created: 20th August 2023
 ---
 

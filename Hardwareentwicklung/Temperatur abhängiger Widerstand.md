@@ -5,10 +5,9 @@ aliases:
   - PTC
 keywords: 
 subject:
-  - Einf. ET
   - UE
-semester:
-  - WS23
+  - Einführung Elektrotechnik
+semester: WS23
 created: 28. Januar 2024
 professor:
   - Rafael Ecker
