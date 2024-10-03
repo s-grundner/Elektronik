@@ -12,9 +12,7 @@ keywords:
 subject:
   - Einf. ET
   - VL
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby

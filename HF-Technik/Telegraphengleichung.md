@@ -18,6 +18,13 @@ created: 1st March 2023
 > 
 > Die Ausbreitungskonstante $\gamma$ beschreibt dabei die komplexe [Dämpfung](../Hardwareentwicklung/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
 
+> [!summary] Lösung der Telegraphengleichung
+>
+> $$
+> u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}
+> $$
+
+
 ## Herleitung
 
 > [!summary] [Kirchhoff](../Elektrotechnik/Kirchhoffsche%20Regeln.md)'sche Gesetze in der Leitungstheorie
