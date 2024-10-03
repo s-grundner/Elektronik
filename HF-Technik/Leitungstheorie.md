@@ -3,8 +3,14 @@ tags:
   - incomplete
   - RF
   - Nachrichtentechnik
-aliases: []
+aliases: 
 created: 20th August 2023
+semester: WS25
+professor:
+  - Reinhard Feger
+subject:
+  - HF-Systemtechnik 1
+  - KV
 ---
 
 # Leitungstheorie
