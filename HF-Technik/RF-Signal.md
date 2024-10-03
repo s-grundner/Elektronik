@@ -34,9 +34,11 @@ professor:
 
 
 > [!NOTE] nicht elektrisch kurz ($l>\frac{\lambda}{10}$) (engl. [Transmission Line](Transmission%20Line.md))
->  Zeigt die Spannung längs der Leitung **keinen** konstanten Verlauf mehr, so ist die Leitung ==nicht== als elektrisch ==kurz== anzusehen. In der Praxis geht man davon aus, dass ab einer Leitungslänge von einem Zehntel der Wellenlänge= der Effekt bedeutsam wird.
+>  Zeigt die Spannung längs der Leitung **keinen** konstanten Verlauf mehr, so ist die Leitung ==nicht== als elektrisch ==kurz== anzusehen. In der Praxis geht man davon aus, dass der Effekt ab einer Leitungslänge von **einem Zehntel der Wellenlänge** bedeutsam wird.
+>  $$\boxed{ l > \frac{\lambda}{10} }$$
 > - Bei digitalen Signalen gilt dies für die Flankenanstiegszeit von 10% bis 90% des Pegels
-> - **Alternative:** 9x die Frequenz des schnellsten digitalen Hignals, da ab der 9ten Harmonischen das Hignal als Rechecksignal gilt (Überschlagsrechnung) 
+> - *Alternativ:* 9x die Frequenz des schnellsten digitalen Signals
+>     - da ab der 9ten Harmonischen kann das Signal als Rechecksignal klassifiziert werden.
 > - Auf elektrisch kurzen Leitungen ist die [Leitungstheorie](Leitungstheorie.md) anzuwenden
 
  > [!warning] Variation über ort und zeit

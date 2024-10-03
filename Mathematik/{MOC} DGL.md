@@ -19,22 +19,22 @@ created: 14th March 2022
 # Differentialgleichungen (DGL)
 
 > [!info] Arten von Differentialgleichungen
-> 
+>
 > | gewöhnlich             | partiell                     |
 > | --------------------- | ---------------------------- |
 > | Linear                | Nichtlinear                  |
 > | homogen               | inhomogen                    |
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
-> 
+> >
 > > [!info] Ordunung
-> >  Die höchste Vorkommende [Ableitung](Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
+> > Die höchste Vorkommende [Ableitung](Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
 >[!example] Beispiel 2. Newtonsche Axiom: 
 > $m\cdot x''(t) = F$
-> - ... ist ein Beispiel einer *gewöhnlichen* DGL zweiter Ordnung, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
+> - … ist ein Beispiel einer *gewöhnlichen* DGL zweiter Ordnung, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
 > - Anderfalls heit die gleichung *partielle* DGL
 
-## Allgemeine Form 
+## Allgemeine Form
 
 Implizite Differenzialgleichung:
 
@@ -59,6 +59,7 @@ $$
 > \end{cases}
 > $$
 > 
+
 ## Map of Content
 
 - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)

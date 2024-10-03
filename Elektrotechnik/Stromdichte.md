@@ -14,11 +14,11 @@ professor:
 
 # Stromdichte
 
-> [!info] Die Stromdichte J gibt die [Stromanteil](elektrischer%20Strom.md) $\Delta I$ pro Fläche $\Delta A$ an.
+> [!info] Die Stromdichte $J$ gibt die [Stromanteil](elektrischer%20Strom.md) $\Delta I$ pro Fläche $\Delta A$ an.
 > ![InlineR|242](assets/BspVekFlaecheStromdichte.png) Dabei ist die Orientierung (Ausrichtung) der Fläche in Bezug auf die lokale Stromrichtung natürlich wesentlich.
 
 > [!question] Vektorielles Flächenelements $\Delta \vec{A}$ 
-> Zeigt in Richtung der Flächennormale & der [Betrag](../Mathematik/Algebra/Betrag.md) entspricht der Fläche.
+> Zeigt in Richtung der Flächennormale und der [Betrag](../Mathematik/Algebra/Betrag.md) entspricht der Fläche.
 
 > [!question] Die Stromdichte ist ebenfalls eine [vektorielle](Vektor.md) Größe
 > und zeigt in Richtung der lokalen Stromrichtung

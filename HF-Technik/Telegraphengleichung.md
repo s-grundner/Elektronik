@@ -11,19 +11,24 @@ created: 1st March 2023
 
 # Telegraphengleichung
 
-> [!NOTE] Telegraphengleichung  
-> Als Lösung der Telegraphengleichung ergibt sich die Überlagerung gegenläufiger, exponentiell gedämpfter Spannungswellen
-> - $U_{h}$ = Amplitude der hinlaufenden Welle
-> - $U_{r}$ = Amplitude der rücklaufenden Welle
-> 
-> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die komplexe [Dämpfung](../Hardwareentwicklung/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
+Die Telegraphengleichung beschreibt 
+
+> [!summary] Telegraphengleichung
+>
+> $$ \boxed{ \frac{d^{2}u}{dz^{2}}=u(z)\cdot\gamma^{2} }$$
 
 > [!summary] Lösung der Telegraphengleichung
 >
-> $$
-> u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}
-> $$
+> $$ u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}X $$
+> 
+> Als Lösung der Telegraphengleichung ergibt sich die Überlagerung gegenläufiger, exponentiell gedämpfter Spannungswellen
+> 
+> - $U_{h}$ = Amplitude der hinlaufenden Welle
+> - $U_{r}$ = Amplitude der rücklaufenden Welle
 
+> [!summary] komplexer Ausbreitungskoeffizient
+> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die komplexe [Dämpfung](../Hardwareentwicklung/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
+> $$ \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')} = \boxed{ \alpha + j\beta } $$
 
 ## Herleitung
 

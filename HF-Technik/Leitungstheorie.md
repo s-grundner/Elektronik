@@ -27,24 +27,6 @@ Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md)
 | Induktivitätsbelag | $L'=\frac{L}{l}$ | $[L']=\frac{1H}{m}$      |
 | Kapazitätsbelag    | $C'=\frac{C}{l}$ | $[C']=\frac{1C}{m}$      | 
 
-> [!summary] [Telegraphengleichung](Telegraphengleichung.md)
->
-> $$
-> \frac{d^{2}u}{dz^{2}}=u(z)\cdot\gamma^{2}\\
-> $$
-
-> [!summary] komplexer Ausbreitungskoeffizient
->
-> $$
-> \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')} = \alpha + j\beta
-> $$
-
-> [!summary] Lösung der [Telegraphengleichung](Telegraphengleichung.md)
->
-> $$
-> u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}
-> $$
-
 ## Allgemein
 
 Eingangswiderstand $Z_{E}$
