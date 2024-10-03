@@ -1,4 +1,5 @@
 ---
+banner: "/Elektrotechnik/assets/mast.png"
 tags:
   - E-Feld
 aliases:
@@ -10,13 +11,12 @@ aliases:
   - elektrischen Feld
 keywords: 
 subject:
-  - Einf. ET
+  - Einführung Elektrotechnik
   - VL
 semester: WS23
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
-banner: "/Elektrotechnik/assets/mast.png"
 banner_y: "0.3"
 ---
 
