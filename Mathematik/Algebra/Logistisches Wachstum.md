@@ -35,6 +35,7 @@ $$
 >[!example] Beispiel mit Anfangswerten
 > **Links:** Das Wachstum steigt erst schnell an und flacht bei der Maximalbevölkerung ab
 > **Rechts:** Die Anfangspopulation ist größer als die maximal Population und sinkt exponentiell
+> 
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
@@ -74,3 +75,4 @@ $$
 
 \end{document}
 ```
+
