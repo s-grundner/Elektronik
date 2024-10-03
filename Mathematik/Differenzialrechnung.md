@@ -31,6 +31,7 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 > [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
 > Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](../{MOC}%20DGL.md))
 
+<!---
 ```tikz
 \usepackage{pgfplots}
 
@@ -71,6 +72,7 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 \end{tikzpicture}
 \end{document}
 ```
+ -->
 
 | ![invert_dark](assets/Differenzial1.png) | ![invert_dark](assets/Differenzial2.png) |
 | ---------------------------------------- | ---------------------------------------- |
@@ -128,13 +130,13 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Ableitungsregeln
 
-| Summenregel      | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                                  |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| [[Faktorregel]]  | $[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>                                          |
-| [[Produktregel]] | $[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                                                             |
-| [Quotientenregel](Produktregel.md)  | $\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br>                               |
-| [[Kettenregel]]  | $(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'\qquad$ folgt aus $\dfrac{df}{dx} = \dfrac{df}{dg}\cdot \dfrac{dg}{dx}$<br><br> |
-| [[Umkehrregel]]  | $\left(f^{-1}\right)^{\prime}(y)=\dfrac{1}{f^{\prime}\left(f^{-1}(y)\right)}$                                                |
+| Summenregel                        | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                                  |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| [[Faktorregel]]                    | $[\lambda \cdot f(x)]' = \lambda \cdot f'(x)\qquad \lambda \in \mathbb{R}$ <br><br>                                          |
+| [[Produktregel]]                   | $[f(x)\cdot g(x)]' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$ <br><br>                                                             |
+| [Quotientenregel](Produktregel.md) | $\left[\dfrac{f(x)}{g(x)}\right]'=\dfrac{f(x)'\cdot g(x)- f(x)\cdot g(x)'}{g(x)^{2}}$ <br><br>                               |
+| [[Kettenregel]]                    | $(f\circ g)'(x)= f(g(x))'=f'(g(x))\cdot g(x)'\qquad$ folgt aus $\dfrac{df}{dx} = \dfrac{df}{dg}\cdot \dfrac{dg}{dx}$<br><br> |
+| [[Umkehrregel]]                    | $\left(f^{-1}\right)^{\prime}(y)=\dfrac{1}{f^{\prime}\left(f^{-1}(y)\right)}$                                                |
 
 ## Sätze und Folgerungen
 

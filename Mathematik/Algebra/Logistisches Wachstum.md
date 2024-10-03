@@ -14,45 +14,62 @@ semester: WS24
 
 Reales Populationswachstum ist nicht Aufgrund von Sterberaten nicht Exponenziell und kann durch Logistisches Wachtum Modelliert werden.
 
-> [!important] Mit der DGL
+> [!important] Differenzialgleichung zur Beschreibung des Logistischen Wachstums 
 > 
 > $$
-> \frac{dP}{dt}=\lambda \cdot P\cdot(K-P)
+> \boxed{ \frac{dP}{dt}=\lambda \cdot P\cdot(K-P) }
 > $$
-> wird das Logistische Wachstum beschrieben
->
+> 
+>$\lambda$: Koeffizient wie schnell sich das Wachstum ändert
+>$K$: Maximalbevölkerung
+>$P_{0}$: Startpopulation
 
-Die Lösung dieser DGL ist:
+Die Lösung dieser [DGL](../{MOC}%20DGL.md) ist:
 
 $$
 P(t)=\frac{K}{1+\left( \frac{K}{P_{0}}-1 \right)e^{ -\lambda \cdot K\cdot t }}
 $$
 
-$K=100$, $P_{0}=2$, $\lambda=0.05$
+
 
 >[!example] Beispiel mit Anfangswerten
-
-```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-
-\begin{document}
-
-\begin{tikzpicture}[scale=2.5]
-\begin{axis}[
-    colormap/viridis,
-    title=$K=100$, $P_{0}=2$, $\lambda=0.05$
-]
-\newcommand\K{100};
-\newcommand\Pz{2};
-\newcommand\Lamb{0.05};
-\addplot[
-	domain=0:2
-]
-{\K / (1+((\K/\Pz)-1) * exp(-\Lamb*\K*x))};
-\end{axis}
-
-\end{tikzpicture}
-
-\end{document}
-```
+> **Links:** Das Wachstum steigt erst schnell an und flacht bei der Maximalbevölkerung ab
+> **Rechts:** Die Anfangspopulation ist größer als die maximal population und sinkt exponentiell
+> ```tikz
+> \usepackage{pgfplots}
+> \pgfplotsset{compat=1.16}
+> 
+> \begin{document}
+> 
+> \begin{tikzpicture}[scale=2]
+> \begin{axis}[
+>     title={$K=100$\quad $P_{0}=2$\quad $\lambda=0.01$}
+> ]
+> \newcommand\K{100};
+> \newcommand\Pz{2};
+> \newcommand\Lamb{0.05};
+> \addplot[
+> 	domain=0:2
+> ]
+> {\K / (1+((\K/\Pz)-1) * exp(-\Lamb*\K*x))};
+> \end{axis}
+> 
+> \end{tikzpicture}
+> 
+> \begin{tikzpicture}[scale=2]
+> \begin{axis}[
+>     title={$K=90$\quad $P_{0}=100$\quad $\lambda=0.05$}
+> ]
+> \newcommand\K{90};
+> \newcommand\Pz{100};
+> \newcommand\Lamb{0.05};
+> \addplot[
+> 	domain=0:2
+> ]
+> {\K / (1+((\K/\Pz)-1) * exp(-\Lamb*\K*x))};
+> \end{axis}
+> 
+> \end{tikzpicture}
+> 
+> \end{document}
+> ```

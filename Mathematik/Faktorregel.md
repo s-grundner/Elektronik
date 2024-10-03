@@ -22,6 +22,8 @@ professor:
 
 ## Beweis
 
+Die differenzation 
+
 Es gilt für alle $h \in \mathbb{R}^n$ mit $x_0+h \in A$ :
 
 $$

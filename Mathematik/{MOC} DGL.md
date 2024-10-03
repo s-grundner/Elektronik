@@ -27,11 +27,11 @@ created: 14th March 2022
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
 > 
 > > [!info] Ordunung
-> >  Die höchste Vorkommende Ableitung in einer DGL nennen wir deren Ordnung
+> >  Die höchste Vorkommende [Ableitung](Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
 >[!example] Beispiel 2. Newtonsche Axiom: 
 > $m\cdot x''(t) = F$
-> - ... ist ein Beipsiel einer *gewöhnlichen* DGL zweiter Ordnung, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
+> - ... ist ein Beispiel einer *gewöhnlichen* DGL zweiter Ordnung, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
 > - Anderfalls heit die gleichung *partielle* DGL
 
 ## Allgemeine Form 
@@ -49,16 +49,16 @@ $$
 F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)}) 
 $$
 
-Jede DGL $n$-ter Ordnung lässt sich in ein System überführen
-$$
-F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
-x_{1}=x' \\
-x_{2}=x_{1}'' \\
-\quad\vdots  \\
-x_{n-1} = x_{n-1}' \\
-\end{cases}
-$$
-
+> [!info] Jede DGL $n$-ter Ordnung lässt sich in ein System überführen
+> $$
+> F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
+> x_{1}=x' \\
+> x_{2}=x_{1}'' \\
+> \quad\vdots  \\
+> x_{n-1} = x_{n-1}' \\
+> \end{cases}
+> $$
+> 
 ## Map of Content
 
 - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
