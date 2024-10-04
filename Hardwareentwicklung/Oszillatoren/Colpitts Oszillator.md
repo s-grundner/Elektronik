@@ -36,7 +36,7 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 - RFC ([Radio](../../HF-Technik/Rundfunk.md) Frequency Choke) dt. Drosselspule
 	- hebt den Massebezug des Oszillatorsignal zur Betriebsspannung auf
 - Analyse der Schleifenverstärkung bringt …
-	- … einerseits $\mathcal{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
+	- … einerseits $\mathrm{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
 	- … andererseits $\frac{C_{2}}{C_{1}}=S\cdot R_{L}$ -> Steilheit $S=\frac{\Delta I_{C}}{\Delta U_{BE}}$
 
 ## Herleitung
