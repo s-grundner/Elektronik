@@ -13,7 +13,7 @@ Die beste bzw. gebräuchlichste Variante der Temperaturstabilisierung des Arbeit
 > Wenn $I_{E}$ steigt, steigt $U_{BE}$ und $I_{C}$ wird begrenzt.
 
 ```tikz
-\usepackage[european]{circuitikz}
+\usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
 
 \begin{document}
@@ -26,10 +26,10 @@ Die beste bzw. gebräuchlichste Variante der Temperaturstabilisierung des Arbeit
 
 \node[npn] at (2, 3) {};
 
-\draw (0, 2) to[R=$R_{2}$] (0, 0);
-\draw (0, 6) to[R=$R_{1}$, i>_=$I_{q} + I_{B}$] (0, 4);
+\draw (0, 2) to[R, l^=$R_{2}$] (0, 0);
+\draw (0, 6) to[R=$R_{1}$, i>^=$I_{q} + I_{B}$] (0, 4);
 \draw (2, 6) to[R=$R_{C}$] (2, 4);
-\draw (2, 2) to[R=$R_{E}$, color=red, v=$U_{E}$ ] (2, 0);
+\draw (2, 2) to[R=$R_{E}$, v=$U_{E}$] (2, 0);
 
 \node[vcc] at (0, 6) {$+12V$};
 \node[vcc] at (2, 6) {$+12V$};
