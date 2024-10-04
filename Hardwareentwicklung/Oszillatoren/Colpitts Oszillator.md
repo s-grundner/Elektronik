@@ -14,7 +14,7 @@ Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
 
-Häufigste [Kombination](Kombination.md): Colpitts Oszillator (mit kapazitiver Rückkopplung)  
+Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
 - einfache [Kapazitäten](../../Elektrotechnik/Kapazität.md)
 - nur eine [Induktivität](../../Elektrotechnik/Induktivitäten.md)  
@@ -24,7 +24,81 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ## Schaltung
 
-![colp-sch](../assets/colp-sch.png)
+```tikz
+\usepackage[european]{circuitikz}
+\usepackage{amsmath}
+\begin{document}
+
+\begin{circuitikz}[thick]
+
+\node[circ] at (3, 6) {};
+\node[circ] at (9, 7) {};
+\node[circ] at (11, 7) {};
+\node[circ] at (11, 5) {};
+\node[circ] at (9, 2) {};
+\node[circ] at (5, 5.25) {};
+\node[circ] at (5, 6.75) {};
+
+\end{circuitikz}
+
+\end{document}
+```
+
+```tikz
+\usepackage[european]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{circuitikz}
+
+% Paths, nodes and wires:
+\draw (0, 6) to[capacitor, l={$C_B$}] (3, 6);
+\draw (3, 6) to[resistor, l={$R_1$}] (3, 9);
+\draw (3, 3) to[resistor, l={$R_2$}] (3, 6);
+\node[tlground] at (3, 3) {};
+\node[npn] at (5, 6) {};
+\draw (5, 3.75) to[resistor, l={$R_E$}] (5, 5.23);
+\node[tlground] at (5, 3) {};
+\draw (5, 6.77) to[inductor, l={$L_{\text{RF-Choke}}$}] (5, 8.25);
+\draw (7, 3.75) to[capacitor, l={$C_E$}] (7, 5.25);
+\node[tlground] at (7, 3) {};
+\draw (5, 3) -- (5, 3.75);
+\draw (7, 5.25) -- (5, 5.25);
+\draw (4.16, 6) -- (3, 6);
+\draw (3, 9) -- (5, 9) -- (5, 8.25);
+\draw (7, 3) -- (7, 3.75);
+\draw (11, 5) to[capacitor, l={$C_1$}] (11, 7);
+\draw (11, 3) to[capacitor, l={$C_2$}] (11, 5);
+\draw (12, 7) to[capacitor, l={$C_{\text{out}}$}] (14, 7);
+\draw (5, 6.75) -- (7, 6.75) -- (7, 7) -- (11, 7) -- (12, 7);
+\draw (0, 6) -- (0, 2) -- (11, 2) -- (11, 3);
+\node[tlground] at (12, 4.5) {};
+\node[tlground] at (14, 4.5) {};
+\draw (11, 5) -- (12, 5) -- (12, 4.5);
+\draw (14, 4.5) -- (14, 5);
+\node[ocirc] at (14, 7) {};
+\node[ocirc] at (14, 5) {};
+\draw (9, 2) to[inductor, l={$L$}] (9, 7);
+\node[circ] at (3, 6) {};
+\node[circ] at (9, 7) {};
+\node[circ] at (11, 7) {};
+\node[circ] at (11, 5) {};
+\node[circ] at (9, 2) {};
+\node[circ] at (5, 5.25) {};
+\node[circ] at (5, 6.75) {};
+
+\end{circuitikz}
+
+\end{document}
+```
+
+$$
+\begin{gathered}
+C_{r} = \frac{C_{1}\cdot C_{2}}{C_{1}+C_{2}} \\
+f_{r} = \frac{1}{2\pi \cdot \sqrt{ L\cdot C_{r} }}
+\end{gathered}
+$$
 
 ## Funktionsweise
 

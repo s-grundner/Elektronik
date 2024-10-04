@@ -228,7 +228,8 @@
             "y": -264.56692913385825
         },
         "mirror": false,
-        "invert": false
+        "invert": false,
+        "label": "C_1"
     },
     {
         "type": "path",
@@ -242,7 +243,8 @@
             "y": -188.97637795275588
         },
         "mirror": false,
-        "invert": false
+        "invert": false,
+        "label": "C_2"
     },
     {
         "type": "path",
@@ -256,7 +258,8 @@
             "y": -264.56692913385825
         },
         "mirror": false,
-        "invert": false
+        "invert": false,
+        "label": "C_{\\text{out}}"
     },
     {
         "type": "wire",
@@ -408,7 +411,8 @@
             "y": -264.56692913385825
         },
         "mirror": false,
-        "invert": false
+        "invert": false,
+        "label": "L"
     },
     {
         "type": "node",
