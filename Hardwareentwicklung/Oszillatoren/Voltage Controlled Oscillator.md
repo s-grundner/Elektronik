@@ -13,6 +13,8 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 >[!NOTE] [Colpitts](Colpitts%20Oszillator.md)-Ostillator in [Emitterfolger](../Halbleiter/Emitterfolger.md)  
 > ![675](../assets/VCO_KapD.png)
 
+![invert_dark|700](../../assets/Circuitikz/VCO.svg)
+
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}

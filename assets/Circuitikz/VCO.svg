@@ -1,0 +1,394 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-15.874083518981934 -387.9527587890625 549.0533317866975 365.42884209614925">
+  <defs id="backgroundDefs">
+    <symbol id="node_circ">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".53134">
+        <path d="M6.16161 4.04545c0-1.16874-.94743-2.11617-2.11617-2.11617s-2.11617.94743-2.11617 2.11617.94743 2.11617 2.11617 2.11617 2.11617-.94744 2.11617-2.11617Zm-2.11617 0" fill="#000"></path>
+      </g>
+    </symbol>
+    <symbol id="node_ocirc">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".53134">
+        <path fill="#fff" d="M6.16161 4.04545c0-1.16874-.94743-2.11617-2.11617-2.11617s-2.11617.94743-2.11617 2.11617.94743 2.11617 2.11617 2.11617 2.11617-.94744 2.11617-2.11617Zm-2.11617 0"></path>
+      </g>
+    </symbol>
+    <symbol id="path_european-resistor">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="M.53135.53135h42.33062v15.87407h-42.33062Z"></path>
+      </g>
+    </symbol>
+    <symbol id="path_capacitor">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="M.53137.53136v31.74816m10.58244-31.74816v31.74816"></path>
+      </g>
+    </symbol>
+    <symbol id="node_sground">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width=".53134" d="M8.46839 4.04543v13.22829"></path>
+        <path stroke-width="1.06267" d="M.53135 17.27372h15.87407l-7.93703 10.58264Z"></path>
+      </g>
+    </symbol>
+    <symbol id="node_npn">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path fill="none" stroke-width=".53134" d="M32.27954.26569v17.72729l-15.87408 7.27558"></path>
+        <path fill="none" stroke-width="1.06267" d="M16.40546 17.99298v23.28149"></path>
+        <path fill="none" stroke-width=".53134" d="m16.40546 33.99889 15.87408 7.27558v17.72729"></path>
+        <path stroke="none" d="m21.99668 36.56154 1.27031-2.77167 4.92354 5.61043-7.46418-.06708Z" fill="#000"></path>
+        <path fill="none" stroke-width=".53134" d="M16.40546 29.63372h-16.13977"></path>
+      </g>
+    </symbol>
+    <symbol id="path_european-inductor">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="M.53135.53135h42.33062v15.87407h-42.33062Z" fill="#000"></path>
+      </g>
+    </symbol>
+    <symbol id="path_stroke-varcap">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="m22.21675 13.75964-21.6854-13.22828v26.45657Zm0 13.22829v-26.45657m2.12534 26.45657v-26.45657"></path>
+        <path stroke-width=".53134" d="M.53136 13.75964h23.81073"></path>
+      </g>
+    </symbol>
+    <symbol id="path_european-voltage-source">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="M16.40544.53136c-8.7671 0-15.87408 7.10697-15.87408 15.87408s7.10697 15.87408 15.87408 15.87408 15.87408-7.10697 15.87408-15.87408-7.10697-15.87408-15.87408-15.87408Zm-15.87408 15.87408h31.74816"></path>
+      </g>
+    </symbol>
+    <symbol id="node_tlground">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="M.53135 4.04544h15.87407m-13.22826 2.64561h10.58245m-8.59829 2.64561h6.61413"></path>
+      </g>
+    </symbol>
+  </defs>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="184.93093795275604" y="-41.84072559055093" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="298.3167647244094" y="-41.840725590550875" stroke="#000000"></use>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="-4.04543999999983" y="-155.22655236220447" stroke="#000000"></use>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="-4.04543999999983" y="-41.84072559055093" stroke="#000000"></use>
+  <g style="" class="">
+    <use xlink:href="#path_european-resistor" class="draggable" x="431.8466370866142" y="-102.9565689763777" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,548.0314960629919,359.05511811023644)"></use>
+    <line x1="453.54330708661416" y1="-37.79527559055093" x2="453.54330708661416" y2="-73.32286897637769" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="453.54330708661416" y1="-115.65350897637771" x2="453.54330708661416" y2="-151.18110236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_capacitor" class="draggable" x="372.1301659055117" y="-110.89362897637783" transform="matrix(-6.049014748177263e-16,-1,1,-6.049014748177263e-16,472.4409448818898,283.4645669291338)"></use>
+    <line x1="377.95275590551176" y1="-37.79527559055118" x2="377.9527559055117" y2="-89.19696897637783" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="377.9527559055117" y1="-99.77940897637782" x2="377.9527559055117" y2="-151.18110236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_capacitor" class="draggable" x="372.1301659055117" y="-224.27945574803118" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,585.8267716535429,170.07874015748052)"></use>
+    <line x1="377.9527559055117" y1="-151.18110236220446" x2="377.9527559055117" y2="-202.58279574803117" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="377.9527559055117" y1="-213.1652357480312" x2="377.9527559055117" y2="-264.5669291338579" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <use xlink:href="#node_sground" transform="matrix(1,0,0,1,0,0)" class="draggable" x="369.4843659055117" y="-306.4076347244094" stroke="#000000"></use>
+  <g style="">
+    <use xlink:href="#path_capacitor" class="draggable" x="239.8467013385827" y="-280.9723691338579" transform="matrix(1,0,0,1,0,0)"></use>
+    <line x1="188.97637795275602" y1="-264.5669291338579" x2="240.37807133858269" y2="-264.5669291338579" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="250.9605113385827" y1="-264.5669291338579" x2="302.36220472440937" y2="-264.5669291338579" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_european-resistor" class="draggable" x="431.8466370866142" y="-348.6258603149605" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,793.7007874015746,113.38582677165368)"></use>
+    <line x1="453.54330708661416" y1="-302.3622047244093" x2="453.54330708661416" y2="-318.9921603149605" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="453.54330708661416" y1="-361.3228003149605" x2="453.54330708661416" y2="-377.95275590551165" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <use xlink:href="#node_npn" transform="matrix(1,0,0,1,0,0)" class="draggable" x="421.26376708661417" y="-294.2006491338579" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="373.9073159055117" y="-381.9982059055117" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="373.9073159055118" y="-155.2265523622047" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="373.9073159055117" y="-268.6123791338579" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="449.4978670866142" y="-155.2265523622047" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="373.9073159055117" y="-41.84072559055093" stroke="#000000"></use>
+  <g style="">
+    <use xlink:href="#path_european-resistor" class="draggable" x="34.99624338582694" y="-159.64948236220448" transform="matrix(1,0,0,1,0,0)"></use>
+    <line x1="1.7053025658242404e-13" y1="-151.18110236220448" x2="35.52759338582694" y2="-151.18110236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="77.85823338582695" y1="-151.18110236220448" x2="113.38582677165371" y2="-151.18110236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_european-resistor" class="draggable" x="280.6655347244094" y="-159.64948236220448" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,453.5433070866138,151.18110236220488)"></use>
+    <line x1="302.36220472440937" y1="-37.79527559055093" x2="302.36220472440937" y2="-130.01578236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="302.36220472440937" y1="-172.3464223622045" x2="302.36220472440937" y2="-264.566929133858" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_european-inductor" class="draggable" x="167.27970795275604" y="-159.64948236220448" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,340.15748031496054,37.79527559055157)"></use>
+    <line x1="188.97637795275605" y1="-37.79527559055093" x2="188.97637795275605" y2="-130.01578236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="188.97637795275605" y1="-172.3464223622045" x2="188.97637795275605" y2="-264.566929133858" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_stroke-varcap" class="draggable" x="100.9491067716537" y="-221.63365574803117" transform="matrix(-6.123233995736766e-17,1,1,6.123233995736766e-17,321.25984251968487,-321.25984251968487)"></use>
+    <line x1="113.38582677165371" y1="-151.18110236220446" x2="113.38582677165371" y2="-195.96865574803118" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="113.38582677165371" y1="-219.7793857480312" x2="113.38582677165371" y2="-264.5669291338579" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_stroke-varcap" class="draggable" x="100.9491067716537" y="-108.2478289763777" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,207.8740157480314,18.89763779527601)"></use>
+    <line x1="113.38582677165371" y1="-37.79527559055093" x2="113.38582677165371" y2="-82.5828289763777" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="113.38582677165371" y1="-106.3935589763777" x2="113.38582677165371" y2="-151.18110236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_capacitor" class="draggable" x="372.1301659055117" y="-356.5629203149605" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,718.1102362204722,37.79527559055123)"></use>
+    <line x1="377.9527559055117" y1="-302.3622047244093" x2="377.9527559055117" y2="-334.86626031496047" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="377.9527559055117" y1="-345.4487003149605" x2="377.9527559055117" y2="-377.95275590551165" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="" class="">
+    <use xlink:href="#path_european-resistor" class="draggable" x="280.6655347244094" y="-348.6258603149605" transform="matrix(6.123233995736766e-17,-1,1,6.123233995736766e-17,642.5196850393698,-37.795275590551114)"></use>
+    <line x1="302.36220472440937" y1="-302.3622047244093" x2="302.36220472440937" y2="-318.9921603149605" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="302.36220472440937" y1="-361.3228003149605" x2="302.36220472440937" y2="-377.95275590551165" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="184.93093795275604" y="-268.6123791338579" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="298.3167647244094" y="-268.6123791338579" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="109.34038677165371" y="-155.22655236220447" stroke="#000000"></use>
+  <g style="" class="">
+    <use xlink:href="#path_european-voltage-source" class="draggable" x="-16.405439999999913" y="-110.89362897637783" transform="matrix(1.3934999695075554e-15,-1,1,1.3934999695075554e-15,94.48818897637791,-94.48818897637761)"></use>
+    <line x1="0" y1="-37.79527559055118" x2="6.314459829525153e-14" y2="-78.61410897637782" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="1.0738565828717252e-13" y1="-110.36226897637783" x2="1.7053025658242404e-13" y2="-151.18110236220448" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="525.0884182677156" y="-155.22655236220447" stroke="#000000"></use>
+  <use xlink:href="#node_tlground" transform="matrix(1,0,0,1,0,0)" class="draggable" x="-8.46839" y="-32.391896692913384" stroke="#000000"></use>
+  <use xlink:href="#node_tlground" transform="matrix(1,0,0,1,0,0)" class="draggable" x="293.8938147244095" y="-32.39189669291324" stroke="#000000"></use>
+  <foreignObject class="pointerNone" width="17.634999999999998pt" height="11.425pt" x="421.56159281232215" y="-102.10485577020094" transform="matrix(1,0,0,1,0,0)"><svg width="17.634999999999998pt" height="11.425pt" role="img" focusable="false" viewBox="0 -683 1382.2 833" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-17-TEX-I-1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"></path>
+        <path id="MJX-17-TEX-I-1D438" d="M492 213Q472 213 472 226Q472 230 477 250T482 285Q482 316 461 323T364 330H312Q311 328 277 192T243 52Q243 48 254 48T334 46Q428 46 458 48T518 61Q567 77 599 117T670 248Q680 270 683 272Q690 274 698 274Q718 274 718 261Q613 7 608 2Q605 0 322 0H133Q31 0 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H757Q764 676 764 669Q764 664 751 557T737 447Q735 440 717 440H705Q698 445 698 453L701 476Q704 500 704 528Q704 558 697 578T678 609T643 625T596 632T532 634H485Q397 633 392 631Q388 629 386 622Q385 619 355 499T324 377Q347 376 372 376H398Q464 376 489 391T534 472Q538 488 540 490T557 493Q562 493 565 493T570 492T572 491T574 487T577 483L544 351Q511 218 508 216Q505 213 492 213Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D445" xlink:href="#MJX-17-TEX-I-1D445"></use>
+            </g>
+            <g data-mml-node="mi" transform="translate(792,-150) scale(0.707)">
+              <use data-c="1D438" xlink:href="#MJX-17-TEX-I-1D438"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="15pt" height="11.67pt" x="341.5473159055117" y="-99.77940916451868" transform="matrix(1,0,0,1,0,0)"><svg width="15pt" height="11.67pt" role="img" focusable="false" viewBox="0 -705 1151.6 855" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-18-TEX-I-1D436" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+        <path id="MJX-18-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D436" xlink:href="#MJX-18-TEX-I-1D436"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(748,-150) scale(0.707)">
+              <use data-c="34" xlink:href="#MJX-18-TEX-N-34"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="15pt" height="11.850000000000001pt" x="341.5473159055117" y="-213.16523593617205" transform="matrix(1,0,0,1,0,0)"><svg width="15pt" height="11.850000000000001pt" role="img" focusable="false" viewBox="0 -705 1151.6 870.6" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-19-TEX-I-1D436" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+        <path id="MJX-19-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D436" xlink:href="#MJX-19-TEX-I-1D436"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(748,-150) scale(0.707)">
+              <use data-c="33" xlink:href="#MJX-19-TEX-N-33"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="15pt" height="11.67pt" x="235.6692913385827" y="-296.5323695534746" transform="matrix(1,0,0,1,0,0)"><svg width="15pt" height="11.67pt" role="img" focusable="false" viewBox="0 -705 1151.6 855" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-20-TEX-I-1D436" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+        <path id="MJX-20-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D436" xlink:href="#MJX-20-TEX-I-1D436"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(748,-150) scale(0.707)">
+              <use data-c="32" xlink:href="#MJX-20-TEX-N-32"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="17.605pt" height="11.6pt" x="421.6015937278495" y="-347.8908134257698" transform="matrix(1,0,0,1,0,0)"><svg width="17.605pt" height="11.6pt" role="img" focusable="false" viewBox="0 -683 1379.4 848.6" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-21-TEX-I-1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"></path>
+        <path id="MJX-21-TEX-I-1D436" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D445" xlink:href="#MJX-21-TEX-I-1D445"></use>
+            </g>
+            <g data-mml-node="mi" transform="translate(792,-150) scale(0.707)">
+              <use data-c="1D436" xlink:href="#MJX-21-TEX-I-1D436"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="18.195pt" height="11.425pt" x="44.56291327138602" y="-174.88281594985096" transform="matrix(1,0,0,1,0,0)"><svg width="18.195pt" height="11.425pt" role="img" focusable="false" viewBox="0 -683 1431.7 833" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-22-TEX-I-1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"></path>
+        <path id="MJX-22-TEX-N-69" d="M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z"></path>
+        <path id="MJX-22-TEX-N-6E" d="M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q450 438 463 329Q464 322 464 190V104Q464 66 466 59T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D445" xlink:href="#MJX-22-TEX-I-1D445"></use>
+            </g>
+            <g data-mml-node="TeXAtom" transform="translate(792,-150) scale(0.707)" data-mjx-texclass="ORD">
+              <g data-mml-node="mtext">
+                <use data-c="69" xlink:href="#MJX-22-TEX-N-69"></use>
+                <use data-c="6E" xlink:href="#MJX-22-TEX-N-6E" transform="translate(278,0)"></use>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="15.5pt" height="11.425pt" x="273.22715869352555" y="-158.79776915602773" transform="matrix(1,0,0,1,0,0)"><svg width="15.5pt" height="11.425pt" role="img" focusable="false" viewBox="0 -683 1195.6 833" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-23-TEX-I-1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"></path>
+        <path id="MJX-23-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D445" xlink:href="#MJX-23-TEX-I-1D445"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(792,-150) scale(0.707)">
+              <use data-c="32" xlink:href="#MJX-23-TEX-N-32"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="9.704999999999998pt" height="9.725pt" x="167.56799837237276" y="-157.6644354730138" transform="matrix(1,0,0,1,0,0)"><svg width="9.704999999999998pt" height="9.725pt" role="img" focusable="false" viewBox="0 -683 681 683" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-24-TEX-I-1D43F" d="M228 637Q194 637 192 641Q191 643 191 649Q191 673 202 682Q204 683 217 683Q271 680 344 680Q485 680 506 683H518Q524 677 524 674T522 656Q517 641 513 637H475Q406 636 394 628Q387 624 380 600T313 336Q297 271 279 198T252 88L243 52Q243 48 252 48T311 46H328Q360 46 379 47T428 54T478 72T522 106T564 161Q580 191 594 228T611 270Q616 273 628 273H641Q647 264 647 262T627 203T583 83T557 9Q555 4 553 3T537 0T494 -1Q483 -1 418 -1T294 0H116Q32 0 32 10Q32 17 34 24Q39 43 44 45Q48 46 59 46H65Q92 46 125 49Q139 52 144 61Q147 65 216 339T285 628Q285 635 228 637Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="mi">
+            <use data-c="1D43F" xlink:href="#MJX-24-TEX-I-1D43F"></use>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="16.305pt" height="11.425pt" x="77.88618700053554" y="-215.49068254185443" transform="matrix(1,0,0,1,0,0)"><svg width="16.305pt" height="11.425pt" role="img" focusable="false" viewBox="0 -683 1264.6 833" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-25-TEX-I-1D437" d="M287 628Q287 635 230 637Q207 637 200 638T193 647Q193 655 197 667T204 682Q206 683 403 683Q570 682 590 682T630 676Q702 659 752 597T803 431Q803 275 696 151T444 3L430 1L236 0H125H72Q48 0 41 2T33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM703 469Q703 507 692 537T666 584T629 613T590 629T555 636Q553 636 541 636T512 636T479 637H436Q392 637 386 627Q384 623 313 339T242 52Q242 48 253 48T330 47Q335 47 349 47T373 46Q499 46 581 128Q617 164 640 212T683 339T703 469Z"></path>
+        <path id="MJX-25-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D437" xlink:href="#MJX-25-TEX-I-1D437"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(861,-150) scale(0.707)">
+              <use data-c="31" xlink:href="#MJX-25-TEX-N-31"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="16.305pt" height="11.425pt" x="77.88618700053554" y="-102.10485577020094" transform="matrix(1,0,0,1,0,0)"><svg width="16.305pt" height="11.425pt" role="img" focusable="false" viewBox="0 -683 1264.6 833" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-26-TEX-I-1D437" d="M287 628Q287 635 230 637Q207 637 200 638T193 647Q193 655 197 667T204 682Q206 683 403 683Q570 682 590 682T630 676Q702 659 752 597T803 431Q803 275 696 151T444 3L430 1L236 0H125H72Q48 0 41 2T33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM703 469Q703 507 692 537T666 584T629 613T590 629T555 636Q553 636 541 636T512 636T479 637H436Q392 637 386 627Q384 623 313 339T242 52Q242 48 253 48T330 47Q335 47 349 47T373 46Q499 46 581 128Q617 164 640 212T683 339T703 469Z"></path>
+        <path id="MJX-26-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D437" xlink:href="#MJX-26-TEX-I-1D437"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(861,-150) scale(0.707)">
+              <use data-c="32" xlink:href="#MJX-26-TEX-N-32"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="15pt" height="11.67pt" x="341.5473159055117" y="-345.44870050310135" transform="matrix(1,0,0,1,0,0)"><svg width="15pt" height="11.67pt" role="img" focusable="false" viewBox="0 -705 1151.6 855" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-27-TEX-I-1D436" d="M50 252Q50 367 117 473T286 641T490 704Q580 704 633 653Q642 643 648 636T656 626L657 623Q660 623 684 649Q691 655 699 663T715 679T725 690L740 705H746Q760 705 760 698Q760 694 728 561Q692 422 692 421Q690 416 687 415T669 413H653Q647 419 647 422Q647 423 648 429T650 449T651 481Q651 552 619 605T510 659Q484 659 454 652T382 628T299 572T226 479Q194 422 175 346T156 222Q156 108 232 58Q280 24 350 24Q441 24 512 92T606 240Q610 253 612 255T628 257Q648 257 648 248Q648 243 647 239Q618 132 523 55T319 -22Q206 -22 128 53T50 252Z"></path>
+        <path id="MJX-27-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D436" xlink:href="#MJX-27-TEX-I-1D436"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(748,-150) scale(0.707)">
+              <use data-c="31" xlink:href="#MJX-27-TEX-N-31"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="15.5pt" height="11.425pt" x="273.22715869352555" y="-347.7741471087837" transform="matrix(1,0,0,1,0,0)"><svg width="15.5pt" height="11.425pt" role="img" focusable="false" viewBox="0 -683 1195.6 833" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-28-TEX-I-1D445" d="M230 637Q203 637 198 638T193 649Q193 676 204 682Q206 683 378 683Q550 682 564 680Q620 672 658 652T712 606T733 563T739 529Q739 484 710 445T643 385T576 351T538 338L545 333Q612 295 612 223Q612 212 607 162T602 80V71Q602 53 603 43T614 25T640 16Q668 16 686 38T712 85Q717 99 720 102T735 105Q755 105 755 93Q755 75 731 36Q693 -21 641 -21H632Q571 -21 531 4T487 82Q487 109 502 166T517 239Q517 290 474 313Q459 320 449 321T378 323H309L277 193Q244 61 244 59Q244 55 245 54T252 50T269 48T302 46H333Q339 38 339 37T336 19Q332 6 326 0H311Q275 2 180 2Q146 2 117 2T71 2T50 1Q33 1 33 10Q33 12 36 24Q41 43 46 45Q50 46 61 46H67Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628Q287 635 230 637ZM630 554Q630 586 609 608T523 636Q521 636 500 636T462 637H440Q393 637 386 627Q385 624 352 494T319 361Q319 360 388 360Q466 361 492 367Q556 377 592 426Q608 449 619 486T630 554Z"></path>
+        <path id="MJX-28-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D445" xlink:href="#MJX-28-TEX-I-1D445"></use>
+            </g>
+            <g data-mml-node="mn" transform="translate(792,-150) scale(0.707)">
+              <use data-c="31" xlink:href="#MJX-28-TEX-N-31"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <foreignObject class="pointerNone" width="22.69pt" height="11.5pt" x="-46.65877404541007" y="-102.1548554840988" transform="matrix(1,0,0,1,0,0)"><svg width="22.69pt" height="11.5pt" role="img" focusable="false" viewBox="0 -683 1828.8 840.8" aria-hidden="true" style="vertical-align: top;padding: 0.2ex;" overflow="visible" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="MJX-29-TEX-I-1D448" d="M107 637Q73 637 71 641Q70 643 70 649Q70 673 81 682Q83 683 98 683Q139 681 234 681Q268 681 297 681T342 682T362 682Q378 682 378 672Q378 670 376 658Q371 641 366 638H364Q362 638 359 638T352 638T343 637T334 637Q295 636 284 634T266 623Q265 621 238 518T184 302T154 169Q152 155 152 140Q152 86 183 55T269 24Q336 24 403 69T501 205L552 406Q599 598 599 606Q599 633 535 637Q511 637 511 648Q511 650 513 660Q517 676 519 679T529 683Q532 683 561 682T645 680Q696 680 723 681T752 682Q767 682 767 672Q767 650 759 642Q756 637 737 637Q666 633 648 597Q646 592 598 404Q557 235 548 205Q515 105 433 42T263 -22Q171 -22 116 34T60 167V183Q60 201 115 421Q164 622 164 628Q164 635 107 637Z"></path>
+        <path id="MJX-29-TEX-N-63" d="M370 305T349 305T313 320T297 358Q297 381 312 396Q317 401 317 402T307 404Q281 408 258 408Q209 408 178 376Q131 329 131 219Q131 137 162 90Q203 29 272 29Q313 29 338 55T374 117Q376 125 379 127T395 129H409Q415 123 415 120Q415 116 411 104T395 71T366 33T318 2T249 -11Q163 -11 99 53T34 214Q34 318 99 383T250 448T370 421T404 357Q404 334 387 320Z"></path>
+        <path id="MJX-29-TEX-N-74" d="M27 422Q80 426 109 478T141 600V615H181V431H316V385H181V241Q182 116 182 100T189 68Q203 29 238 29Q282 29 292 100Q293 108 293 146V181H333V146V134Q333 57 291 17Q264 -10 221 -10Q187 -10 162 2T124 33T105 68T98 100Q97 107 97 248V385H18V422H27Z"></path>
+        <path id="MJX-29-TEX-N-72" d="M36 46H50Q89 46 97 60V68Q97 77 97 91T98 122T98 161T98 203Q98 234 98 269T98 328L97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 60 434T96 436Q112 437 131 438T160 441T171 442H174V373Q213 441 271 441H277Q322 441 343 419T364 373Q364 352 351 337T313 322Q288 322 276 338T263 372Q263 381 265 388T270 400T273 405Q271 407 250 401Q234 393 226 386Q179 341 179 207V154Q179 141 179 127T179 101T180 81T180 66V61Q181 59 183 57T188 54T193 51T200 49T207 48T216 47T225 47T235 46T245 46H276V0H267Q249 3 140 3Q37 3 28 0H20V46H36Z"></path>
+        <path id="MJX-29-TEX-N-6C" d="M42 46H56Q95 46 103 60V68Q103 77 103 91T103 124T104 167T104 217T104 272T104 329Q104 366 104 407T104 482T104 542T103 586T103 603Q100 622 89 628T44 637H26V660Q26 683 28 683L38 684Q48 685 67 686T104 688Q121 689 141 690T171 693T182 694H185V379Q185 62 186 60Q190 52 198 49Q219 46 247 46H263V0H255L232 1Q209 2 183 2T145 3T107 3T57 1L34 0H26V46H42Z"></path>
+      </defs>
+      <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+        <g data-mml-node="math">
+          <g data-mml-node="msub">
+            <g data-mml-node="mi">
+              <use data-c="1D448" xlink:href="#MJX-29-TEX-I-1D448"></use>
+            </g>
+            <g data-mml-node="TeXAtom" transform="translate(716,-150) scale(0.707)" data-mjx-texclass="ORD">
+              <g data-mml-node="mtext">
+                <use data-c="63" xlink:href="#MJX-29-TEX-N-63"></use>
+                <use data-c="74" xlink:href="#MJX-29-TEX-N-74" transform="translate(444,0)"></use>
+                <use data-c="72" xlink:href="#MJX-29-TEX-N-72" transform="translate(833,0)"></use>
+                <use data-c="6C" xlink:href="#MJX-29-TEX-N-6C" transform="translate(1225,0)"></use>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg></foreignObject>
+  <polyline points="302.3622047244095,-28.346456692913243 302.3622047244095,-37.795275590551036 302.36220472440937,-37.795275590551036 302.36220472440937,-37.795275590550894" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="113.38582677165371,-37.79527559055093 188.97637795275605,-37.79527559055093 188.97637795275605,-37.79527559055093 302.36220472440937,-37.79527559055093 302.36220472440937,-37.79527559055093 453.54330708661416,-37.79527559055093 453.54330708661416,-37.79527559055093" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="377.9527559055117,-151.18110236220446 453.54330708661416,-151.18110236220446 453.54330708661416,-151.1811023622047 529.1338582677165,-151.1811023622047 529.1338582677165,-151.1811023622047" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="453.54330708661416,-235.4645591338579 453.54330708661416,-151.1811023622047 453.54330708661416,-151.1811023622047" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="302.36220472440937,-264.5669291338579 377.9527559055117,-264.5669291338579 377.9527559055117,-264.5669291338579" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="377.9527559055117,-264.5669291338579 421.79511708661414,-264.5669291338579 421.79511708661414,-264.5669291338579" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="302.36220472440937,-302.3622047244093 302.36220472440937,-264.56692913385825 311.81102362204723,-264.56692913385825" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="188.97637795275602,-264.5669291338579 122.83464566929133,-264.5669291338579 122.83464566929133,-264.56692913385825 113.38582677165371,-264.56692913385825 113.38582677165371,-264.5669291338579" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="302.3622047244094,-377.95275590551176 302.3622047244094,-377.95275590551176 377.95275590551176,-377.95275590551176" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="377.95275590551176,-377.95275590551176 377.95275590551176,-377.95275590551165 453.54330708661416,-377.95275590551165" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="453.54330708661416,-302.3622047244093 453.54330708661416,-293.6692891338579 453.54330708661416,-293.6692891338579" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="0,-37.79527559055118 0,-28.346456692913385 0,-28.346456692913385" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+</svg>
