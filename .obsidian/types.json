@@ -43,6 +43,7 @@
     "max_credits": "number",
     "kusss": "multitext",
     "ez": "date",
-    "Lack": "multitext"
+    "Lack": "multitext",
+    "grade": "multitext"
   }
 }
