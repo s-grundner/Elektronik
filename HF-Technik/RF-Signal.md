@@ -29,7 +29,7 @@ professor:
 >     - RF Signale breiten sich nicht nur auf Leitern aus sondern auch in Substraten aus (in allen achsen xyz)
 
 > [!warning] Variation über ort und zeit
-> ![600](assets/Pasted%20image%2020241003145606.png)
+>![invert_dark|1000](assets/RF-sign.svg)
 
 ## Frequenz vs. Leitungslänge
 

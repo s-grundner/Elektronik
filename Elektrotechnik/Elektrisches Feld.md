@@ -56,12 +56,12 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 | :----------------------------------------------: | :-----------------------------------------------------------------------------------: |
 |            $\vec{F} = m\cdot \vec{g}$            |                              $\vec{F} = q \cdot \vec{E}$                              |
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ |          $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$          |
-|          ![invert_light\|400](assets/GravKraft.png)          |                        ![invert_light\|525](assets/EKraft.png)                        |
+|          ![invert_light\|325](assets/GravKraft.png)          |                        ![invert_light\|375](assets/EKraft.png)                        |
 
 |               Gravitationsfeld der Erde mit der Masse $M$                | [elektrisches Feld](elektrisches%20Feld.md) einer Ladung $Q$ |
 |:------------------------------------------------------------------------:|:------------------------------------------------------------:|
 | $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ |   $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$    |
-|                ![invert_light\|425](assets/GravFeld.png)                 |                  ![\|500](assets/EFeld.png)                  |
+|                ![invert_light\|275](assets/GravFeld.png)                 |                  ![\|500](assets/EFeld.png)                  |
 
 | $F_{G}$                                                                                 | $F_{E}$                                                                                  |
 | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
