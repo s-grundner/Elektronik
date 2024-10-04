@@ -17,19 +17,42 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 
 ```tikz
 \usepackage[european]{circuitikz}
-
 \begin{document}
 
-\begin{circuitikz}
-	% Paths, nodes and wires:
-	
+\begin{circuitikz}[scale=2.0]
+\node[circ] at (5, 1) {};
+\node[circ] at (8, 1) {};
+\node[ocirc] at (0, 4) {};
+\node[ocirc] at (0, 1) {};
+\draw (12, 1) to[european resistor, l={$R_E$}] (12, 4);
+\draw (10, 1) to[capacitor, l={$C_4$}] (10, 4);
+\draw (10, 4) to[capacitor, l={$C_3$}] (10, 7);
+\node[sground] at (10, 8) {};
+\draw (5, 7) to[capacitor, l={$C_2$}] (8, 7);
+\draw (12, 8) to[european resistor, l={$R_C$}] (12, 10);
+\node[npn] at (12, 7) {};
+\node[circ] at (10, 10) {};
+\node[circ] at (10, 4) {};
+\node[circ] at (10, 7) {};
+\node[circ] at (12, 4) {};
+\node[circ] at (10, 1) {};
+\draw (0, 4) to[european resistor, l={$R_{in}$}] (3, 4);
+\draw (8, 1) to[european resistor, l={$R_2$}] (8, 7);
+\draw (5, 1) to[european inductor, l={$L$}] (5, 7);
+\draw (3, 4) to[stroke varcap, l={$D_1$}, invert] (3, 7);
+\draw (3, 1) to[stroke varcap, l={$D_2$}] (3, 4);
+\draw (10, 8) to[capacitor, l={$C_1$}] (10, 10);
+\draw (8, 8) to[european resistor, l={$R_1$}] (8, 10);
+\node[circ] at (5, 7) {};
+\node[circ] at (8, 7) {};
+\node[circ] at (3, 4) {};
+\draw (0, 1) to[european voltage source, l={$U_{ctrl}$}] (0, 4);
+\node[ocirc] at (14, 4) {};
+\node[tlground] at (0, 1) {};
+\node[tlground] at (8, 0.75) {};
 \end{circuitikz}
 
 \end{document}
-```
-
-```tikz
-
 ```
 
 # Tags
