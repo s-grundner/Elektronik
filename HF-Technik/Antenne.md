@@ -17,7 +17,7 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 ### Antennen als Wellentypwandler
 
 - Zumeist ist nur das ferne [EM-Feld](../Physik/Elektromagnetische%20Wellen.md) von technischem Interesse
-- Da jede Antenne in hinreichend großem Abstand als klein angesehen werden kann, ist eine Beschreibung in [Kugelkoordinaten](Kugelkoordinaten.md) zweckmäßig.
+- Da jede Antenne in hinreichend großem Abstand als klein angesehen werden kann, ist eine Beschreibung in Kugelkoordinaten zweckmäßig.
 - Die Antenne erzeugt ein Wellenfeld (Freiraumwelle), welches [Leistung](../Elektrotechnik/elektrische%20Leistung.md) von der Antenne fortführt (a).
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 

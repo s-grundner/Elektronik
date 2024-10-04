@@ -6,7 +6,7 @@ source: ["Martin Aichriedler"]
 created: 28th November 2022
 ---
 
-# Poynting [Vektor](Vektor.md)
+# Poynting Vektor
 
 Der Poynting-[Vektor](Vektor.md) $\vec S$ kennzeichnet in der Elektrodynamik die Dichte und die Richtung des Energietransportes (Energieflussdichte) eines elektromagnetischen Felds $(\vec E,\vec H)$.
 
