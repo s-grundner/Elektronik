@@ -13,7 +13,10 @@ created: 21st November 2022
 
 # Emitterfolger / Kollektorschaltung
 
-> [!warning] Anders als bei der Emitterschaltung gibt es 
+> [!warning] Anders als bei der [Emitterschaltung](Kollektorfolger.md) gibt es **keine** Phasenverschiebung.
+
+**Kollektorschaltung bedeutet:** Der Kollektor ist der Gemeinsame Pin zum Ein und Ausgang
+
 
 ![Pasted image 20221121145313](../assets/1NoteEmittSCh.png)
 
@@ -27,7 +30,7 @@ created: 21st November 2022
 
 ## Arbeitspunkt
 
-$R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch Stromgegenkopplung.
+$R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch [Stromgegenkopplung](Stromgegenkopplung.md).
 
 > [!WARNING] Für stabilen Arbeitspunkt soll $U_{RE}>1V$
 

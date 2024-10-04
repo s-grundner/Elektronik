@@ -35,9 +35,9 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 % Paths, nodes and wires:
 \node[npn] at (5, 6) {};
 
-\draw (3, 6) to[resistor, l={$R_1$}] (3, 9);
-\draw (3, 3) to[resistor, l={$R_2$}] (3, 6);
-\draw (5, 3.75) to[resistor, l={$R_E$}] (5, 5.23);
+\draw (3, 6) to[R={$R_1$}] (3, 9);
+\draw (3, 3) to[R={$R_2$}] (3, 6);
+\draw (5, 3.75) to[R={$R_E$}] (5, 5.23);
 
 \draw (0, 6) to[capacitor, l={$C_B$}] (3, 6);
 \draw (7, 3.75) to[capacitor, l={$C_E$}] (7, 5.25);
