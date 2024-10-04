@@ -48,3 +48,7 @@ to[R=$R_2$, i>_=$i_2$]
 ```dataview
 LIST FROM #tikz
 ```
+
+
+```
+```
