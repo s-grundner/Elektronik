@@ -3,9 +3,10 @@
 \usepackage{amsmath}
 
 \begin{document}
-
 \begin{circuitikz}[thick]
-\end{circuitikz}
+% Begin Schematic
 
+
+\end{circuitikz}
 \end{document}
 ```

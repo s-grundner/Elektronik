@@ -15,8 +15,6 @@ created: 21st November 2022
 
 > [!warning] Anders als bei der [Emitterschaltung](Kollektorfolger.md) gibt es **keine** Phasenverschiebung.
 
-**Kollektorschaltung bedeutet:** Der Kollektor ist der Gemeinsame Pin zum Ein und Ausgang
-
 
 ![Pasted image 20221121145313](../assets/1NoteEmittSCh.png)
 

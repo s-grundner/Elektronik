@@ -16,14 +16,20 @@ professor:
 > [!question] Was ist ein RF Signal?
 > 
 > - Hauptsächlich von Komponentengrößen und Verbindungslängen abhängig.
-> - Ist am Ende der Leitung der **==gleiche pegel==** wie am Anfang?
+> - Ist am Ende der Leitung der **gleiche pegel** wie am Anfang?
 >     - Beim RF-Signalen nicht trivial.
 > - Ist die Leitungslänge viel größer als die Wellenlänge ist spricht man von einem RF-Signal
+
+> [!success] Besonderheiten bei RF-Signalen
 > - [Leitungstheorie](../../../HF-Technik/Leitungstheorie.md) muss beachtet werden.
 >     - Leitungen auf denen RF-Signale übertragen werden müssen als [Transmission Lines](Transmission%20Line.md) (TLs) behandelt werden.
-> - Auf einer [TL](Transmission%20Line.md) müssen nicht nur zeitliche sondern auch *örtliche* Änderungen berücksichtigtwerden
->     - Abhängig vom [Leiter](../../../Physik/Materialkunde/{MOC}%20Materialkunde.md#Leiter),
+> - Auf einer [TL](Transmission%20Line.md) müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigtwerden
+>     - Abhängig vom [Leiter](../../../Physik/Materialkunde/{MOC}%20Materialkunde.md#Leiter)
 >     - In [Dielektrika](../../../Physik/Materialkunde/{MOC}%20Materialkunde.md#Substrate) wandert das Signal unterschiedlich schnell
+>     - RF Signale breiten sich nicht nur auf Leitern aus sondern auch in Substraten aus (in allen achsen xyz)
+
+> [!warning] Variation über ort und zeit
+> ![600](assets/Pasted%20image%2020241003145606.png)
 
 ## Frequenz vs. Leitungslänge
 
@@ -40,8 +46,3 @@ professor:
 > - *Alternativ:* 9x die Frequenz des schnellsten digitalen Signals
 >     - da ab der 9ten Harmonischen kann das Signal als Rechecksignal klassifiziert werden.
 > - Auf elektrisch kurzen Leitungen ist die [Leitungstheorie](Leitungstheorie.md) anzuwenden
-
- > [!warning] Variation über ort und zeit
-> ![600](assets/Pasted%20image%2020241003145606.png)
-
-RF Signale breiten sich nicht nur auf Leitern aus sondern auch in Substraten aus (in allen achsen xyz)

@@ -28,8 +28,8 @@ Die beste bzw. gebräuchlichste Variante der Temperaturstabilisierung des Arbeit
 
 \draw (0, 2) to[R, l^=$R_{2}$] (0, 0);
 \draw (0, 6) to[R=$R_{1}$, i>^=$I_{q} + I_{B}$] (0, 4);
-\draw (2, 6) to[R=$R_{C}$] (2, 4);
-\draw (2, 2) to[R=$R_{E}$, v=$U_{E}$] (2, 0);
+\draw (2, 6) to[R=$R_{C}$, v=$U_{E}$] (2, 4);
+\draw (2, 2) to[R=$R_{E}$, v=$U_{E}$, color=red] (2, 0);
 
 \node[vcc] at (0, 6) {$+12V$};
 \node[vcc] at (2, 6) {$+12V$};
@@ -44,5 +44,3 @@ Die beste bzw. gebräuchlichste Variante der Temperaturstabilisierung des Arbeit
 ```
 
 ![](assets/Pasted%20image%2020230921213942.png)
-
-## Dimensionierung
