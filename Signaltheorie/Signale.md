@@ -23,14 +23,14 @@ professor:
 3. Reell / Komplexe Signale
 4. Gerade / Ungerade Signale
     - komplexe Signale
-6. Zeitliche Ausdehnung
-7. Kausalität
-8. Beschränktheit
-9. Periodizität
-10. Deterministische und Stochastische Signale
-11. Leistungs- / Energiesignal
+5. Zeitliche Ausdehnung
+6. Kausalität
+7. Beschränktheit
+8. Periodizität
+9. Deterministische und Stochastische Signale
+10. Leistungs- / Energiesignal
 
-### Zeitkontinuität 
+### Zeitkontinuität
 
 ```tikz
 \usepackage{amsmath}
