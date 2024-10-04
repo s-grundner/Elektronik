@@ -39,14 +39,14 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 \draw (3, 3) to[R={$R_2$}] (3, 6);
 \draw (5, 3.75) to[R={$R_E$}] (5, 5.23);
 
-\draw (0, 6) to[capacitor, l={$C_B$}] (3, 6);
-\draw (7, 3.75) to[capacitor, l={$C_E$}] (7, 5.25);
-\draw (11, 5) to[capacitor, l={$C_1$}] (11, 7);
-\draw (11, 3) to[capacitor, l={$C_2$}] (11, 5);
-\draw (12, 7) to[capacitor, l={$C_{\text{out}}$}] (14, 7);
+\draw (0, 6) to[C={$C_B$}] (3, 6);
+\draw (7, 3.75) to[C={$C_E$}] (7, 5.25);
+\draw (11, 5) to[C={$C_1$}] (11, 7);
+\draw (11, 3) to[C={$C_2$}] (11, 5);
+\draw (12, 7) to[C={$C_{\text{out}}$}] (14, 7);
 
-\draw (5, 6.77) to[inductor, l={$L_{\text{RFC}}$}] (5, 8.25);
-\draw (9, 2) to[inductor, l={$L$}] (9, 7);
+\draw (5, 6.77) to[L={$L_{\text{RFC}}$}] (5, 8.25);
+\draw (9, 2) to[L={$L$}] (9, 7);
 
 \draw (5, 3) -- (5, 3.75);
 \draw (7, 5.25) -- (5, 5.25);

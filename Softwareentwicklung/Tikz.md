@@ -28,7 +28,8 @@
 \usepackage[european]{circuitikz}
 \begin{document}
 
-\begin{circuitikz}[scale=2.0]
+circuitikz/voltage=straight
+\begin{circuitikz}
 \draw (0,0)
 to[isource, l=$I_0$, v=$V_0$] (0,3)
 to[short, -*, i=$I_0$] (2,3)
