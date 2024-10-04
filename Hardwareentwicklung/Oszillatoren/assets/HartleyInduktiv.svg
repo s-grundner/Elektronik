@@ -1,0 +1,42 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-15.874080657958984 -123.38582611083984 171.1005730201637 133.38583374023438">
+  <defs id="backgroundDefs">
+    <symbol id="node_ocirc">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".53134">
+        <path fill="#fff" d="M6.16161 4.04545c0-1.16874-.94743-2.11617-2.11617-2.11617s-2.11617.94743-2.11617 2.11617.94743 2.11617 2.11617 2.11617 2.11617-.94744 2.11617-2.11617Zm-2.11617 0"></path>
+      </g>
+    </symbol>
+    <symbol id="node_circ">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".53134">
+        <path d="M6.16161 4.04545c0-1.16874-.94743-2.11617-2.11617-2.11617s-2.11617.94743-2.11617 2.11617.94743 2.11617 2.11617 2.11617 2.11617-.94744 2.11617-2.11617Zm-2.11617 0" fill="#000"></path>
+      </g>
+    </symbol>
+    <symbol id="path_american-inductor">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-linejoin="bevel" stroke-width="1.06267" d="M.53136 8.46801c0-4.38335 2.42845-7.93665 5.42415-7.93665 2.99571 0 5.42416 3.5533 5.42416 7.93665 0-4.38335 2.42844-7.93665 5.42416-7.93665 2.9957 0 5.42415 3.5533 5.42415 7.93665 0-4.38335 2.42846-7.93665 5.42416-7.93665s5.42415 3.5533 5.42415 7.93665c0-4.38335 2.42846-7.93665 5.42415-7.93665 2.99572 0 5.42417 3.5533 5.42417 7.93665"></path>
+      </g>
+    </symbol>
+    <symbol id="path_capacitor">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="M.53137.53136v31.74816m10.58244-31.74816v31.74816"></path>
+      </g>
+    </symbol>
+  </defs>
+  <polyline points="6.039613253960852e-14,2.7000623958883807e-13 75.59055118110241,2.7000623958883807e-13 151.1811023622047,2.7000623958883807e-13" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="6.039613253960852e-14,-113.38582677165319 151.1811023622047,-113.38582677165319" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="75.59055118110241,-56.692913385826515 151.1811023622047,-56.692913385826515" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="147.1356623622047" y="-117.43127677165319" stroke="#000000"></use>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="147.1356623622047" y="-60.73836338582652" stroke="#000000"></use>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="147.1356623622047" y="-4.04544999999973" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="71.54511118110241" y="-117.43127677165319" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="71.54511118110241" y="-4.04544999999973" stroke="#000000"></use>
+  <g style="" class="">
+    <use xlink:href="#path_american-inductor" class="draggable" x="53.362551181102354" y="-64.94840338582677" transform="matrix(6.123233995736766e-17,1,1,-6.123233995736766e-17,132.28346456692913,-132.28346456692913)"></use>
+    <line x1="75.59055118110236" y1="-113.38582677165354" x2="75.59055118110236" y2="-77.85822338582678" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="75.59055118110236" y1="-35.52759338582677" x2="75.59055118110236" y2="0" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <g style="">
+    <use xlink:href="#path_capacitor" class="draggable" x="-5.82259" y="-73.09835338582677" transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,-56.69291338582677,-56.69291338582677)"></use>
+    <line x1="0" y1="-113.38582677165354" x2="-3.239937818292229e-16" y2="-61.98413338582677" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="3.2399378182922297e-16" y1="-51.40169338582677" x2="0" y2="0" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+</svg>

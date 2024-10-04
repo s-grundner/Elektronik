@@ -1,0 +1,41 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-0.7438800000000008 -126.88009566929134 118.17509677165354 136.88009566929134">
+  <defs id="backgroundDefs">
+    <symbol id="node_transformer_american_circuitikz-quadpoles-style-inline">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-linejoin="bevel" stroke-width="1.06267" d="M.53136 18.2539c4.38334 0 7.93664 2.42845 7.93664 5.42414 0 2.99572-3.5533 5.42417-7.93664 5.42417 4.38334 0 7.93664 2.42844 7.93664 5.42415 0 2.9957-3.5533 5.42415-7.93664 5.42415 4.38334 0 7.93664 2.42847 7.93664 5.42417s-3.5533 5.42415-7.93664 5.42415c4.38334 0 7.93664 2.42845 7.93664 5.42415 0 2.99571-3.5533 5.42416-7.93664 5.42416m32.1732.00004c-4.38334 0-7.93664-2.42845-7.93664-5.42415 0-2.99571 3.5533-5.42416 7.93664-5.42416-4.38334 0-7.93664-2.42844-7.93664-5.42415 0-2.9957 3.5533-5.42416 7.93664-5.42416-4.38334 0-7.93664-2.42846-7.93664-5.42416s3.5533-5.42415 7.93664-5.42415c-4.38334 0-7.93664-2.42845-7.93664-5.42415 0-2.99571 3.5533-5.42417 7.93664-5.42417"></path>
+        <path stroke-width=".53134" d="M.74388.26569v18.51953m0 42.33064v18.51953m31.74816-79.3697v18.51953m0 42.33064v18.51953"></path>
+      </g>
+    </symbol>
+    <symbol id="path_capacitor">
+      <g fill="none" stroke="#000" stroke-miterlimit="10" stroke-width=".4">
+        <path stroke-width="1.06267" d="M.53137.53136v31.74816m10.58244-31.74816v31.74816"></path>
+      </g>
+    </symbol>
+    <symbol id="node_ocirc">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".53134">
+        <path fill="#fff" d="M6.16161 4.04545c0-1.16874-.94743-2.11617-2.11617-2.11617s-2.11617.94743-2.11617 2.11617.94743 2.11617 2.11617 2.11617 2.11617-.94744 2.11617-2.11617Zm-2.11617 0"></path>
+      </g>
+    </symbol>
+    <symbol id="node_circ">
+      <g stroke="#000" stroke-miterlimit="10" stroke-width=".53134">
+        <path d="M6.16161 4.04545c0-1.16874-.94743-2.11617-2.11617-2.11617s-2.11617.94743-2.11617 2.11617.94743 2.11617 2.11617 2.11617 2.11617-.94744 2.11617-2.11617Zm-2.11617 0" fill="#000"></path>
+      </g>
+    </symbol>
+  </defs>
+  <use xlink:href="#node_transformer_american_circuitikz-quadpoles-style-inline" transform="matrix(1,0,0,1,0,0)" class="draggable" x="-0.7438800000000008" y="-79.63539" stroke="#000000"></use>
+  <g style="" class="">
+    <use xlink:href="#path_capacitor" class="draggable" x="69.76796118110235" y="-54.20071559055118" transform="matrix(6.123233995736766e-17,1,-1,6.123233995736766e-17,37.79527559055117,-113.38582677165354)"></use>
+    <line x1="75.59055118110236" y1="-75.59055118110236" x2="75.59055118110236" y2="-43.08649559055118" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+    <line x1="75.59055118110236" y1="-32.504055590551175" x2="75.59055118110236" y2="0" fill="none" stroke="#000000" stroke-width="0.4pt"></line>
+  </g>
+  <polyline points="0,0 0,0 31.748160000000002,0 31.748160000000002,0 75.59055118110236,0 75.59055118110236,0 113.38582677165354,0" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="31.748160000000002,-79.3697 31.748160000000002,-85.03937007874015 37.79527559055118,-85.03937007874015 37.79527559055118,-85.03937007874015 75.59055118110236,-85.03937007874015" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="75.59055118110236,-75.59055118110236 75.59055118110236,-75.59055118110236 75.59055118110236,-85.03937007874015 113.38582677165354,-85.03937007874015 113.38582677165354,-85.03937007874015" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <polyline points="0,-79.3697 0,-122.83464566929133 9.448818897637794,-122.83464566929133 9.448818897637794,-122.83464566929133 113.38582677165354,-122.83464566929133" fill="none" stroke="#000000" stroke-width="0.4pt"></polyline>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="109.34038677165354" y="-126.88009566929134" stroke="#000000"></use>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="109.34038677165354" y="-89.08482007874015" stroke="#000000"></use>
+  <use xlink:href="#node_ocirc" transform="matrix(1,0,0,1,0,0)" class="draggable" x="109.34038677165354" y="-4.04545" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="71.54511118110236" y="-89.08482007874015" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="71.54511118110236" y="-4.04545" stroke="#000000"></use>
+  <use xlink:href="#node_circ" transform="matrix(1,0,0,1,0,0)" class="draggable" x="27.702720000000003" y="-4.04545" stroke="#000000"></use>
+</svg>

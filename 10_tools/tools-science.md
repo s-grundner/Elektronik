@@ -17,13 +17,13 @@ class mybutton
 ^button-simpletex
 
 ```button
-name Perplexity
+name CircuiTikz
 type link
-action https://www.perplexity.ai/
+action https://circuit2tikz.tf.fau.de/designer/
 class mybutton
 ```
 
-^button-perplexity
+^button-circuitikz
 
 ```button
 name Overleaf

@@ -10,9 +10,11 @@ created: 22nd November 2022
 
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
-| Colpitts: [kapazitiv](../../Elektrotechnik/Kapazität.md) | Hartley: [induktiv](../../Elektrotechnik/Induktivitäten.md) | Meissner: transformatorisch |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| ![colpitts1](../assets/colpitts1.png)                                              | ![](../assets/Hartley.png)                                                            | ![](../assets/Meissner.png)                                             |
+| Colpitts: [kapazitiv](../../Elektrotechnik/Kapazität.md) | Hartley: [induktiv](../../Elektrotechnik/Induktivitäten.md) | Meissner: transformatorisch                              |
+| -------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+| ![invert_dark\|300](assets/ColpittsKapazitiv.svg)        | ![invert_dark\|300](assets/HartleyInduktiv.svg)             | ![invert_dark\|200](assets/meissnerTransfomatorisch.svg) |
+
+
 
 Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
