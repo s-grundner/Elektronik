@@ -11,7 +11,9 @@ source:
 created: 21st November 2022
 ---
 
-# Emitterfolger
+# Emitterfolger / Kollektorschaltung
+
+> [!warning] Anders als bei der Emitterschaltung gibt es 
 
 ![Pasted image 20221121145313](../assets/1NoteEmittSCh.png)
 
@@ -28,7 +30,6 @@ created: 21st November 2022
 $R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch Stromgegenkopplung.
 
 > [!WARNING] Für stabilen Arbeitspunkt soll $U_{RE}>1V$
-
 
 ## Kleinsignalverhalten
 

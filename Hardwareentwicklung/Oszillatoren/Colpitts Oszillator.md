@@ -14,8 +14,6 @@ Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 | -------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
 | ![invert_dark\|300](assets/ColpittsKapazitiv.svg)        | ![invert_dark\|300](assets/HartleyInduktiv.svg)             | ![invert_dark\|200](assets/meissnerTransfomatorisch.svg) |
 
-
-
 Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
 - einfache [Kapazitäten](../../Elektrotechnik/Kapazität.md)
@@ -32,7 +30,7 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 \begin{document}
 
-\begin{circuitikz}
+\begin{circuitikz}[thick]
 
 % Paths, nodes and wires:
 \node[npn] at (5, 6) {};
