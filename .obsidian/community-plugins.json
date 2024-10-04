@@ -33,5 +33,6 @@
   "quick-latex",
   "obsidian-excalidraw-plugin",
   "obsidian-react-components",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "obsidian-contextual-typography"
 ]
