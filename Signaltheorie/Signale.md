@@ -35,7 +35,7 @@ professor:
 ```tikz
 \usepackage{amsmath}
 \begin{document}
-\begin{tikzpicture}[scale=2.5]
+\begin{tikzpicture}[scale=1.5]
 
 % Zeitkontinuierliches Signal (links)
 \begin{scope}
@@ -46,7 +46,7 @@ professor:
     \draw[very thick, color=red,domain=0:3,samples=100,smooth] 
         plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
         
-    \node at (1.5,-2) {\huge \text{Zeitkontinuierliches\, Signal}};
+    \node at (1.5,-2) {\Large \text{Zeitkontinuierliches\, Signal}};
 \end{scope}
 
 % Zeitdiskretes Signal (rechts)
@@ -60,7 +60,7 @@ professor:
         \draw[dotted, very thick] (\n*0.5,0) -- (\n*0.5,{0.5*sin(2*\n*0.5 r) + 0.7*sin(4*\n*0.5 r)});
     }
 
-    \node at (1.5,-2) {\huge \text{Zeitdiskretes\, Signal}};
+    \node at (1.5,-2) {\Large \text{Zeitdiskretes\, Signal}};
 \end{scope}
 
 \end{tikzpicture}
@@ -78,7 +78,7 @@ Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem era
 \usepackage{amsmath}
 
 \begin{document}
-\begin{tikzpicture}[scale=2.5]
+\begin{tikzpicture}[scale=1.5]
 
 % Wertkontinuierliches Signal (links)
 \begin{scope}
@@ -89,7 +89,7 @@ Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem era
     \draw[red, very thick, domain=0:3, samples=100,smooth] 
         plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
         
-    \node at (1.5,-2) {\text{\huge Wertkontinuierliches\, Signal}};
+    \node at (1.5,-2) {\text{\Large Wertkontinuierliches\, Signal}};
 \end{scope}
 
 % Wertdiskretes Signal (rechts)
@@ -107,7 +107,7 @@ Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem era
                  -- (1.5, -1) -- (1.5, -0.5) -- (2, -0.5) -- (2, 0.5) 
                  -- (2.5, 0.5) -- (2.5, 0) -- (3, 0);
 
-    \node at (1.5,-2) {\huge\text{Wertdiskretes\, Signal}};
+    \node at (1.5,-2) {\Large\text{Wertdiskretes\, Signal}};
 \end{scope}
 
 \end{tikzpicture}
@@ -169,21 +169,69 @@ Ein wertkontinuierliches Signal kann beliebige Funktionswerte annehmen, wohingeg
 
 ```
 
+### 4. Gerade und Ungerade Signale
 
+- für gerade Signale gilt
+
+$$
+x_{\mathrm{g}}(t)=x_{\mathrm{g}}(-t)
+$$
+
+- für ungerade Signale gilt
+
+$$
+x_{\mathrm{u}}(t)=-x_{\mathrm{u}}(-t)
+$$
+
+- Zerlegung eines beliebigen Signals $x(t)$ in einen geraden Anteil $x_{\mathrm{g}}(t)$ und einen ungeraden Anteil $x_{\mathrm{u}}(t)$ :
+
+$$
+\begin{aligned}
+x(t)=\frac{x(t)}{2}+\frac{x(t)}{2}+\frac{x(-t)}{2} & -\frac{x(-t)}{2}=\underbrace{\frac{x(t)}{2}+\frac{x(-t)}{2}}_{x_{\mathrm{g}}(t)}+\underbrace{\frac{x(t)}{2}-\frac{x(-t)}{2}}_{x_{\mathrm{u}}(t)} \\
+x_{\mathrm{g}}(t) & =\frac{1}{2}(x(t)+x(-t)) \\
+x_{\mathrm{u}}(t) & =\frac{1}{2}(x(t)-x(-t))
+\end{aligned}
+$$
+
+
+
+#### 4.1 Konjugiert gerade und konjugiert ungerade Signale
+
+Für komplexe Signale gelten folgenden zusätzliche Definitionen
+- für konjugiert gerade Signale gilt
+
+$$
+x_{\mathrm{g}^*}(t)=x_{\mathrm{g}^*}^*(-t)
+$$
+
+- für konjugiert ungerade Signale gilt
+
+$$
+x_{\mathrm{u}^*}(t)=-x_{\mathrm{u}^*}^*(-t)
+$$
+
+- Zerlegung eines komplexen Signals $x(t)$ in einen konjugiert geraden $x_{\mathrm{g}^*}(t)$ und ungeraden Anteil $x_{\mathrm{u}^*}(t)$ mit
+
+$$
+\begin{aligned}
+& x_{\mathrm{g}^*}(t)=\frac{1}{2}\left(x(t)+x^*(-t)\right) \\
+& x_{\mathrm{u}^*}(t)=\frac{1}{2}\left(x(t)-x^*(-t)\right)
+\end{aligned}
+$$
 
 ### Energiesignal
 
-**Kontinuierlich:**
-$$
-\int_{-\infty}^\infty \mid x(t)\mid^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
-$$
-$x^*$: Konjugation von $x$ (quadrat unabh. von der Phase)
+> [!info] **Kontinuierlich:**
+> $$
+> \int_{-\infty}^\infty \mid x(t)\mid^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
+> $$
+> $x^*$: Konjugation von $x$ (quadrat unabh. von der Phase)
 
-**Diskret**
-
-$$
-E=\sum_{n=-\infty}^{\infty}|x[n]|^2=\sum_{n=-\infty}^{\infty} x[n] x^*[n]
-$$
+> [!info] **Diskret**
+> 
+> $$
+> E=\sum_{n=-\infty}^{\infty}|x[n]|^2=\sum_{n=-\infty}^{\infty} x[n] x^*[n]
+> $$
 
 Ein periodisches Signal kann kein Energiesignal sein, da:
 - Integrationsbereich ist $-\infty$ bis $\infty$
@@ -192,18 +240,18 @@ Ein periodisches Signal kann kein Energiesignal sein, da:
 
 Die Leistung $P$ eines Signals berechnet sich zu:
 
-**Kontinuierlich**
+> [!info] **Kontinuierlich**
+> 
+> $$
+> P=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T|x(t)|^2 \mathrm{~d} t=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T x(t) x^*(t) \mathrm{d} t
+> $$
 
-$$
-P=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T|x(t)|^2 \mathrm{~d} t=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T x(t) x^*(t) \mathrm{d} t
-$$
-
-**Diskret**
-
-$$
-P=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N|x[n]|^2=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N x[n] x^*[n]
-$$
-
+> [!info] **Diskret**
+> 
+> $$
+> P=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N|x[n]|^2=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N x[n] x^*[n]
+> $$
+> 
 
 Ein Leistungssignal liegt vor, wenn gilt:
 
