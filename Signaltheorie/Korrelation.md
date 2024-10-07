@@ -163,6 +163,25 @@ $$
 
 > [!quote] (1) [Satz - Trig. Produkte:](../Mathematik/Trigonometrische%20Funktionen.md#Produkte%20von%20Winkelfunktionen) $\sin(\alpha)\cdot \cos(\beta)=\frac{1}{2}\cdot\left[\sin(\alpha-\beta)+\sin(\alpha+\beta)\right]$
 
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=2]
+\begin{axis}[smooth]
+\newcommand\Om{1};
+\addplot[
+	domain=0:4*pi
+]
+{(1/(8 * pi * \Om))*(4*pi*sin(deg(\Om * x)) + cos(deg(\Om * x)) - cos(deg(\Om*(4*pi + x))))};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
 ---
 
 - [[Barker Code]]
