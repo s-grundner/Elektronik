@@ -119,6 +119,9 @@ Ein wertkontinuierliches Signal kann beliebige Funktionswerte annehmen, wohingeg
 
 ### 3. Reelle und Komplexe Signale
 
+> [!info] Auteilung nach Betrag und Phase (Polardarstellung)
+> $x(t)=|x(t)| \cdot e^{\mathrm{j} \angle x(t)}=\operatorname{abs}(x(t)) \cdot e^{\mathrm{j} \arg (x(t))}$
+
 ```tikz
 \usepackage{tikz}
 \usepackage{amsmath}
@@ -126,44 +129,47 @@ Ein wertkontinuierliches Signal kann beliebige Funktionswerte annehmen, wohingeg
 
 \begin{document}
 
-\begin{tikzpicture}[scale=2, thick]
+\begin{tikzpicture}[scale=4, very thick]
 
     % Draw the unit circle
-    \draw[thick] (0,0) circle(2);
+    \draw[thick] (0,0) circle(1);
     
     % Draw the axes
-    \draw[->] (-2.5, 0) -- (2.5, 0) node[anchor=west] {$\text{Re}\{x(t)\}$};
-    \draw[->] (0, -2.5) -- (0, 2.5) node[anchor=south] {$\text{Im}\{x(t)\}$};
+    \draw[->] (-1.3, 0) -- (1.3, 0) node[anchor=west] {\Large$\text{Re}\{x(t)\}$};
+    \draw[->] (0, -1.3) -- (0, 1.3) node[anchor=south] {\Large$\text{Im}\{x(t)\}$};
     
     % Mark 1 on both axes
-    \draw (2.2, 0.1) node[anchor=south] {1};
-    \draw (0.1, 2.2) node[anchor=west] {1};
+    \draw (1.1, 0) node[anchor=south] {\Large 1};
+    \draw (0, 1.1) node[anchor=west] {\Large 1};
     
     % Draw the vector for x(t) = e^(j phi(t))
-    \draw[thick, ->] (0, 0) -- (1.414, 1.414) node[midway, anchor=south east] {};
+    \draw[thick, red, ->] (0, 0) -- (0.707, 0.707) node[midway, anchor=south east] {};
     
     % Label x(t)
-    \node at (2, 1.5) {$x(t) = e^{j \varphi(t)}$};
+    \node at (1.2, 0.8) {\Large$x(t) = e^{j \varphi(t)}$};
     
     % Draw the angle arc
-    \draw[thick] (1, 0) arc(0:45:1);
+    \draw[->, thick] (0.3, 0) arc(0:45:0.3);
     
     % Label the angle
-    \node at (0.7, 0.3) {$\varphi(t)$};
+    \node at (0.5, 0.2) {\Large$\varphi(t)$};
     
     % Mark projection onto real axis
-    \draw[dashed] (1.5, 1.5) -- (1.5, 0);
-    \draw[dashed] (1.5, 1.5) -- (0, 1.5);
-    
-    % Label real and imaginary components
-    \node at (0.75, -0.2) {Re};
-    \node at (-0.25, 1.75) {Im};
+    \draw[dashed] (0.707, 0.707) -- (0.707, 0);
+    \draw[dashed] (0.707, 0.707) -- (0, 0.707);
+
+    \draw[->, cyan] (0, 0) -- (0.707, 0) node[anchor=north] {\Large$\text{Re}\{x(t)\}$};
+    \draw[->, cyan] (0, 0) -- (0, 0.707) node[anchor=east] {\Large$\text{Im}\{x(t)\}$};
+
+    \draw (2.5, 0) node[anchor=center] {\Huge\boxed{ e^{j \pi}+1=0 }};
 
 \end{tikzpicture}
 
 \end{document}
 
 ```
+
+
 
 ### Energiesignal
 
