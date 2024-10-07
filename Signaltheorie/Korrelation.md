@@ -175,7 +175,7 @@ $$
 \addplot[
 	domain=0:4*pi
 ]
-{(1/(8 * pi * \Om))*(4*pi*sin(deg(\Om * x)) + cos(deg(\Om * x)) - cos(deg(\Om*(4*pi + x))))};
+{(1/(8 * pi * \Om)) * (4*pi*\Om * sin(deg(\Om * x)) + cos(deg(\Om * x)) - cos(deg(\Om*(4*pi + x))))};
 \end{axis}
 \end{tikzpicture}
 
