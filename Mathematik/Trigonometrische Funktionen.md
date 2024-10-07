@@ -32,47 +32,78 @@ professor:
 
 ![invert_dark|500](assets/Einheitskreis.png)
 
-## Winkelsätze
-
-Bemerkung 4.32
-
-> $$ \sin (k \pi)= 0 =\cos \left(\frac{\pi}{2}+k \pi\right),\qquad k \in \mathbb{Z} $$
-
-> $$
-> \begin{aligned}
-> \sin (-x)= & -\sin x & \cos (-x) & =\cos x \\
-> \sin \left(x+\frac{\pi}{2}\right)= & \cos x & \cos \left(x+\frac{\pi}{2}\right) & =-\sin x \\
-> \sin (x+\pi)= & -\sin x & \cos (x+\pi) & =-\cos x \\
-> \sin (x+2 \pi)= & \sin x & \cos (x+2 \pi) & =\cos x \\
-> \end{aligned}
-> $$
-
-> $$ \sin ^{2} x+\cos ^{2} x=1$$
-
-> $$
-> \begin{aligned}
-> \sin (x+y) & =\sin x \cos y+\cos x \sin y \\
-> \cos (x+y) & =\cos x \cos y-\sin x \sin y \\
-> \sin x-\sin y & =2 \cos \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
-> \sin x+\sin y & =2 \sin \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right) \\
-> \cos x-\cos y & =-2 \sin \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
-> \cos x+\cos y & =2 \cos \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right)
-> \end{aligned}
-> $$
-
-> $$
-> \begin{aligned}
-> \cos (0) & =\sin \left(\frac{\pi}{2}\right)=1 & \cos (\pi) & =\sin \left(\frac{3 \pi}{2}\right)=-1 \\
-> \cos (2 x) & =\cos ^2(x)-\sin ^2(x) & \sin (2 x) & =2 \sin (x) \cos (x) \\
-> 1+\cos (2 x) & =2 \cos ^2(x) & 1+\sin (2 x) & =(\sin (x)+\cos (x))^2 \\
-> 1-\cos (2 x) & =2 \sin ^2(x) & 1-\sin (2 x) & =(\sin (x)-\cos (x))^2
-> \end{aligned}
-> $$
-
 - Die Funktion $\sin(x)$ eingeschränkt auf das Intervall $\left[-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right]$ streng monoton wachsend
 - und die Funktion $\cos (x)$ eingeschränkt auf das Intervall $[0, \pi]$ streng monoton fallend, jeweils mit Bild $[-1,1]$. 
 
 - Analog gilt, dass die Funktion $\tan (x)$ das Intervall $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$ streng monoton wachsend und [bijektiv](Algebra/Abbild.md) nach $\mathbb{R}$ abbildet.
+
+
+## Winkelsätze
+
+> Bemerkung 4.32
+
+$$
+\begin{gather}
+
+\sin (k \pi)= 0 =\cos \left(\frac{\pi}{2}+k \pi\right),\qquad k \in \mathbb{Z} \\
+\cos (0) =\sin \left(\frac{\pi}{2}\right)=1 \qquad\cos (\pi) = \sin \left(\frac{3 \pi}{2}\right)=-1 \\
+\end{gather}
+$$
+
+### Symmetrie
+
+$$
+\begin{aligned}
+\sin (-x)= & -\sin x & \cos (-x) & =\cos x \\
+\sin \left(x+\frac{\pi}{2}\right)= & \cos x & \cos \left(x+\frac{\pi}{2}\right) & =-\sin x \\
+\sin (x+\pi)= & -\sin x & \cos (x+\pi) & =-\cos x \\
+\sin (x+2 \pi)= & \sin x & \cos (x+2 \pi) & =\cos x \\
+\end{aligned}
+$$
+### Pythagoras
+
+$$
+\sin ^{2} x+\cos ^{2} x=1
+$$
+
+$$
+\begin{align} 
+\cos (2 x) & =\cos ^2(x)-\sin ^2(x) & \sin (2 x) & =2 \sin (x) \cos (x) \\
+1+\cos (2 x) & =2 \cos ^2(x) & 1+\sin (2 x) & =(\sin (x)+\cos (x))^2 \\
+1-\cos (2 x) & =2 \sin ^2(x) & 1-\sin (2 x) & =(\sin (x)-\cos (x))^2
+\end{align} 
+$$
+### Summensätze
+$$
+\begin{aligned}
+\sin (x+y) & =\sin x \cos y+\cos x \sin y \\
+\cos (x+y) & =\cos x \cos y-\sin x \sin y \\
+\end{aligned}
+$$
+### Additionstheoreme
+
+$$
+\begin{align}
+\sin x-\sin y & =2 \cos \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
+\sin x+\sin y & =2 \sin \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right) \\
+\cos x-\cos y & =-2 \sin \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
+\cos x+\cos y & =2 \cos \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right)
+\end{align}
+$$
+
+### Produkte von Winkelfunktionen
+
+$$
+\begin{aligned}
+& \sin x \sin y=\frac{1}{2}(\cos (x-y)-\cos (x+y)) \\
+& \cos x \cos y=\frac{1}{2}(\cos (x-y)+\cos (x+y)) \\
+& \sin x \cos y=\frac{1}{2}(\sin (x-y)+\sin (x+y)) \\
+& \tan x \tan y=\frac{\tan x+\tan y}{\cot x+\cot y}=-\frac{\tan x-\tan y}{\cot x-\cot y} \\
+& \cot x \cot y=\frac{\cot x+\cot y}{\tan x+\tan y}=-\frac{\cot x-\cot y}{\tan x-\tan y} \\
+& \tan x \cot y=\frac{\tan x+\cot y}{\cot x+\tan y}=-\frac{\tan x-\cot y}{\cot x-\tan y}
+\end{aligned}
+$$
+
 
 ## Arkusfunktionen
 
