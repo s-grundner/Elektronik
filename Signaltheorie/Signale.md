@@ -30,7 +30,7 @@ professor:
 9. Deterministische und Stochastische Signale
 10. Leistungs- / Energiesignal
 
-### Zeitkontinuität
+### 1. Zeitkontinuität
 
 ```tikz
 \usepackage{amsmath}
@@ -72,7 +72,7 @@ Ein zeitkontinuierliches Signal ist für alle Zeitpunkte definiert, ein zeitdisk
 
 Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem erarbeitet.
 
-### Wertkontinuität
+### 2. Wertkontinuität
 
 ```tikz
 \usepackage{amsmath}
@@ -116,6 +116,54 @@ Voraussetzungen zur Äquivalenz beider Darstellungen werden im Abtasttheorem era
 ```
 
 Ein wertkontinuierliches Signal kann beliebige Funktionswerte annehmen, wohingegen ein wertdiskretes Signal nur diskrete Signalstufen besitzt. Die Diskretisierung (Quantisierung) der Amplitudenwerte geschieht i.d.R. in linearen Stufen, mit $N$-Bits ergeben sich $2^N$ mögliche Funktionswerte.
+
+### 3. Reelle und Komplexe Signale
+
+```tikz
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=2, thick]
+
+    % Draw the unit circle
+    \draw[thick] (0,0) circle(2);
+    
+    % Draw the axes
+    \draw[->] (-2.5, 0) -- (2.5, 0) node[anchor=west] {$\text{Re}\{x(t)\}$};
+    \draw[->] (0, -2.5) -- (0, 2.5) node[anchor=south] {$\text{Im}\{x(t)\}$};
+    
+    % Mark 1 on both axes
+    \draw (2.2, 0.1) node[anchor=south] {1};
+    \draw (0.1, 2.2) node[anchor=west] {1};
+    
+    % Draw the vector for x(t) = e^(j phi(t))
+    \draw[thick, ->] (0, 0) -- (1.414, 1.414) node[midway, anchor=south east] {};
+    
+    % Label x(t)
+    \node at (2, 1.5) {$x(t) = e^{j \varphi(t)}$};
+    
+    % Draw the angle arc
+    \draw[thick] (1, 0) arc(0:45:1);
+    
+    % Label the angle
+    \node at (0.7, 0.3) {$\varphi(t)$};
+    
+    % Mark projection onto real axis
+    \draw[dashed] (1.5, 1.5) -- (1.5, 0);
+    \draw[dashed] (1.5, 1.5) -- (0, 1.5);
+    
+    % Label real and imaginary components
+    \node at (0.75, -0.2) {Re};
+    \node at (-0.25, 1.75) {Im};
+
+\end{tikzpicture}
+
+\end{document}
+
+```
 
 ### Energiesignal
 
