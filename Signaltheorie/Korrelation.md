@@ -139,9 +139,9 @@ Die Kreuzkorrelation ist identisch mit der komplex konjugierten [Faltung](../Dig
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]
-\addplot[domain=-2*pi:0] {sin(deg(x))};
-\addplot[domain=0:2*pi, label=$x(t)$] {cos(deg(x))};
+\begin{axis}[colormap/viridis, thick]
+\addplot[domain=-2*pi:0, red] {sin(deg(x))};
+\addplot[domain=0:2*pi, cyan] {cos(deg(x))};
 \end{axis}
 \end{tikzpicture}
 
@@ -151,15 +151,18 @@ Die Kreuzkorrelation ist identisch mit der komplex konjugierten [Faltung](../Dig
 $$
 \begin{align}
 \varphi ^{P}_{xy}(\uptau) &= \frac{1}{T_{p}}\cdot \int _{t_{0}}^{t_{0}+T_{P}} x(t)\cdot y(t)\, dt \qquad T_{P}=2\pi, \quad t_{0}=0\\
-&= \frac{1}{2\pi}\cdot \int _{0}^{2\pi}\cos(\underbrace{ \omega_{0}\cdot t }_{ \alpha })\cdot \sin(\underbrace{ \omega_{0}\cdot(t+\uptau) }_{ \beta }) \, dx 
+&= \frac{1}{2\pi}\cdot \int _{0}^{2\pi}\cos(\underbrace{ \omega_{0}\cdot t }_{ \beta })\cdot \sin(\underbrace{ \omega_{0}\cdot(t+\uptau) }_{ \alpha }) \, dx 
 \end{align}
 $$
 
-[Trig. Produkte:](../Mathematik/Trigonometrische%20Funktionen.md#Produkte%20von%20Winkelfunktionen) $\sin(\alpha)\cdot \cos(\beta)=\frac{1}{2}\cdot\left[\sin(\alpha-\beta)+\sin(\alpha+\beta)\right]$
+[Satz - Trig. Produkte:](../Mathematik/Trigonometrische%20Funktionen.md#Produkte%20von%20Winkelfunktionen) $\sin(\alpha)\cdot \cos(\beta)=\frac{1}{2}\cdot\left[\sin(\alpha-\beta)+\sin(\alpha+\beta)\right]$
 
 $$
 \begin{align}
-\frac{1}{4\pi}\cdot \int _{0} \, dx 
+&=\frac{1}{4\pi}\cdot \int _{0}^{2\pi} \left[\sin(\omega_{0}\cdot(t+\uptau)-\omega_{0}\cdot t) + \sin(\omega_{0}\cdot(t+\uptau)+\omega_{0}\cdot t)\right]\, dt \\
+&=\frac{1}{4\pi}\cdot \int _{0}^{2\pi} \left[\sin(\omega_{0}\uptau) + \sin(\omega_{0}\cdot(2t+\uptau))\right]\, dt \\
+&=\frac{1}{4\pi}\cdot \left[\int _{0}^{2\pi} \sin(\omega_{0}\uptau)\,dt + \int _{0}^{2\pi} \sin(\omega_{0}\cdot(2t+\uptau))\, dt\right] \\
+&=\frac{1}{4\pi}\cdot \left[ \sin(\omega_{0}\uptau)\cdot t \Bigg| + \int _{0}^{2\pi} \sin(\omega_{0}\cdot(2t+\uptau))\, dt\right]
 \end{align}
 $$
 ---
