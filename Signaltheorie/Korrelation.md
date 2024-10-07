@@ -151,20 +151,18 @@ Die Kreuzkorrelation ist identisch mit der komplex konjugierten [Faltung](../Dig
 $$
 \begin{align}
 \varphi ^{P}_{xy}(\uptau) &= \frac{1}{T_{p}}\cdot \int _{t_{0}}^{t_{0}+T_{P}} x(t)\cdot y(t)\, dt \qquad T_{P}=2\pi, \quad t_{0}=0\\
-&= \frac{1}{2\pi}\cdot \int _{0}^{2\pi}\cos(\underbrace{ \omega_{0}\cdot t }_{ \beta })\cdot \sin(\underbrace{ \omega_{0}\cdot(t+\uptau) }_{ \alpha }) \, dx 
-\end{align}
-$$
-
-[Satz - Trig. Produkte:](../Mathematik/Trigonometrische%20Funktionen.md#Produkte%20von%20Winkelfunktionen) $\sin(\alpha)\cdot \cos(\beta)=\frac{1}{2}\cdot\left[\sin(\alpha-\beta)+\sin(\alpha+\beta)\right]$
-
-$$
-\begin{align}
+&= \frac{1}{2\pi}\cdot \int _{0}^{2\pi}\cos(\underbrace{ \omega_{0}\cdot t }_{ \beta })\cdot \sin(\underbrace{ \omega_{0}\cdot(t+\uptau) }_{ \alpha }) \, dx \qquad \text{(1)} \\
 &=\frac{1}{4\pi}\cdot \int _{0}^{2\pi} \left[\sin(\omega_{0}\cdot(t+\uptau)-\omega_{0}\cdot t) + \sin(\omega_{0}\cdot(t+\uptau)+\omega_{0}\cdot t)\right]\, dt \\
 &=\frac{1}{4\pi}\cdot \int _{0}^{2\pi} \left[\sin(\omega_{0}\uptau) + \sin(\omega_{0}\cdot(2t+\uptau))\right]\, dt \\
 &=\frac{1}{4\pi}\cdot \left[\int _{0}^{2\pi} \sin(\omega_{0}\uptau)\,dt + \int _{0}^{2\pi} \sin(\omega_{0}\cdot(2t+\uptau))\, dt\right] \\
-&=\frac{1}{4\pi}\cdot \left[ \sin(\omega_{0}\uptau)\cdot t \Bigg| + \int _{0}^{2\pi} \sin(\omega_{0}\cdot(2t+\uptau))\, dt\right]
+&=\frac{1}{4\pi}\cdot \left[  \sin(\omega_{0}\uptau)\cdot t \Big|_{0}^{2\pi}  - \cos(\omega_{0}\cdot(2t+\uptau))\cdot \frac{1}{2\omega_{0}} \Big|_{0}^{2\pi} \right] \\
+&=\frac{1}{4\pi}\cdot \left[  2\pi \cdot\sin(\omega_{0}\uptau) + \frac{\cos(\omega_{0}\cdot\uptau)-\cos(\omega_{0}\cdot(4\pi+\uptau))}{2\omega_{0}} \right] \\
+&\boxed{ =\frac{1}{8\pi \cdot\omega_{0}}\cdot \left[4\pi \cdot\omega_{0} \cdot\sin(\omega_{0}\uptau) + \cos(\omega_{0}\cdot\uptau)-\cos(\omega_{0}\cdot(4\pi+\uptau))\right] } \\
 \end{align}
 $$
+
+> [!quote] (1) [Satz - Trig. Produkte:](../Mathematik/Trigonometrische%20Funktionen.md#Produkte%20von%20Winkelfunktionen) $\sin(\alpha)\cdot \cos(\beta)=\frac{1}{2}\cdot\left[\sin(\alpha-\beta)+\sin(\alpha+\beta)\right]$
+
 ---
 
 - [[Barker Code]]
