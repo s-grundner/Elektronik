@@ -1,0 +1,24 @@
+
+|                                                             Ititel                                                             |          Note           | Typ | ECIS | swst |
+| :----------------------------------------------------------------------------------------------------------------------------: | :---------------------: | :-: | :--: | :--: |
+|    Mathematik 2 (357120,2024S) f. Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Eng, Masch.-Bau     |        sehr gut         | VL  | 7,50 | 5,00 |
+|                                          Networked Embedded Systems ( 510220,20245 )                                           |        sehr gut         | PR  | 3,00 | 2,00 |
+|                                                 Elektrotechnik (335006,2024S)                                                  |           gut           | UE  | 1,50 | 1,00 |
+|            Studienbezogene Praxiserfahrung ( $\mathbf{( 7 0 0 3 0 0 , 2 0 2 4 S )}$ Studienbezogene Praxiserfahrung            | mit Erfolg teilgenommen | ks  | 3,00 | 0,50 |
+| Mathematik 2 (357124,2024S) Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Engineering, Maschinenbau |      befriedigend       | uE  | 1,50 | 1,00 |
+|                                              Softwareentwicklung 2 (339191,2024S)                                              |           gut           | vo  | 3,00 | 2,00 |
+|                                             Softwareentwicklung $2(339193,20245)$                                              |        sehr gut         | UE  | 3,00 | 2,00 |
+|                                         Algorithmen und Datenstrukturen (510212,2024S)                                         |        sehr gut         | VL  | 3,00 | 2,00 |
+|                                         Algorithmen und Datenstrukturen (510214,2024S)                                         |           gut           | UE  | 1,50 | 1,00 |
+|                       Einführung in die Elektrotechnik ( $\mathbf{3 3 5 0 0 5 , 2 0 2 3 W \text { ) }}$                        |           gut           | VL  | 3,00 | 2,00 |
+|                                           Physik I für TechnikerInnen (32005,2023W)                                            |           gut           | VL  | 3,00 | 2,00 |
+|                                              Softwareentwicklung 1 (339161,2023W)                                              |        sehr gut         | UE  | 3,00 | 2,00 |
+|    Mathematik 1 (357100,2023W) f. Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Eng, Masch.-Bau     |           gut           | VL  | 6,00 | 4,00 |
+|    Mathematik 1 (357106,2023W) f. Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Eng, Masch.-Bau     |      befriedigend       | UE  | 3,00 | 2,00 |
+|                                           Physik I für TechnikerInnen (32006,2023W)                                            |        sehr gut         | UE  | 1,50 | 1,00 |
+|                                       Einführung in die Elektrotechnik ( 335021,2023 W)                                        |           gut           | UE  | 2,00 | 1,00 |
+|                       Einführung in die Elektrotechnik ( $\mathbf{3 3 5 0 1 1 , 2 0 2 3 W \text { ) }}$                        |        sehr gut         | PR  | 1,00 | 1,00 |
+|                                              Softwareentwicklung 1 (339160,2023W)                                              |           gut           | vo  | 3,00 | 2,00 |
+|                                   Einführungspraktikum ELIT Teil $\mathbf{1}$ (382050,2023W)                                   | mit Erfolg teilgenommen | PR  | 1,50 | 1,00 |
+|                                        Einführungspraktikum ELIT Teil 2 (382052,2023W)                                         | mit Erfolg teilgenommen | PR  | 1,50 | 1,00 |
+|                                             Mathematik Intensivkurs (331004,2023W)                                             |        sehr gut         | KV  | 3,00 | 2,00 |

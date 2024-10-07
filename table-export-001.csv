@@ -1,11 +1,22 @@
-;Simon;Luca;Aufteilung
-Tanken Hin 1 (HR);;x (~75);
-Tanken Rück 2 (HR);;x (~50);
-Tanken Rück 3 (DE);47,44;;Sonja, Sophie, Simon
-Vignette Slo;32;;Sonja, Simon
-Maut HR Hin;13,30;;Sonja, Simon
-Maut HR Rück;;13,30;
-Karawanken rück;;8,20;
-FLEX: Karaw Hin;8,20;;Sonja, Simon
-FLEX: Tauern Hin;13,50;;Sonja, Simon
-FLEX: Tauern Rück;13,50;;Sonja, Sophie, Simon
+Ititel;Note;Typ;ECIS;swst
+Mathematik 2 (357120,2024S) f. Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Eng, Masch.-Bau;sehr gut;VL;7,50;5,00
+Networked Embedded Systems ( 510220,20245 );sehr gut;PR;3,00;2,00
+Elektrotechnik (335006,2024S);gut;UE;1,50;1,00
+Studienbezogene Praxiserfahrung (  Studienbezogene Praxiserfahrung;mit Erfolg teilgenommen;ks;3,00;0,50
+Mathematik 2 (357124,2024S) Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Engineering, Maschinenbau;befriedigend;uE;1,50;1,00
+Softwareentwicklung 2 (339191,2024S);gut;vo;3,00;2,00
+Softwareentwicklung ;sehr gut;UE;3,00;2,00
+Algorithmen und Datenstrukturen (510212,2024S);sehr gut;VL;3,00;2,00
+Algorithmen und Datenstrukturen (510214,2024S);gut;UE;1,50;1,00
+Einführung in die Elektrotechnik ( ;gut;VL;3,00;2,00
+Physik I für TechnikerInnen (32005,2023W);gut;VL;3,00;2,00
+Softwareentwicklung 1 (339161,2023W);sehr gut;UE;3,00;2,00
+Mathematik 1 (357100,2023W) f. Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Eng, Masch.-Bau;gut;VL;6,00;4,00
+Mathematik 1 (357106,2023W) f. Mechatronik, Kunststofftechnik, Elektronik und Informationstechnik, Med. Eng, Masch.-Bau;befriedigend;UE;3,00;2,00
+Physik I für TechnikerInnen (32006,2023W);sehr gut;UE;1,50;1,00
+Einführung in die Elektrotechnik ( 335021,2023 W);gut;UE;2,00;1,00
+Einführung in die Elektrotechnik ( ;sehr gut;PR;1,00;1,00
+Softwareentwicklung 1 (339160,2023W);gut;vo;3,00;2,00
+Einführungspraktikum ELIT Teil  (382050,2023W);mit Erfolg teilgenommen;PR;1,50;1,00
+Einführungspraktikum ELIT Teil 2 (382052,2023W);mit Erfolg teilgenommen;PR;1,50;1,00
+Mathematik Intensivkurs (331004,2023W);sehr gut;KV;3,00;2,00
