@@ -128,8 +128,40 @@ d.h. der Wert bei Null ist ein Maximum!
 
 Die Kreuzkorrelation ist identisch mit der komplex konjugierten [Faltung](../Digitaltechnik/Faltung.md) $\overline{ f(-\uptau) }_{  }$
 
->[!example] Kreuz
+---
 
+>[!example] Bestimmen und skizzieren Sie die Kreuzkorrelation $\varphi_{x y}^P$ der beiden Signale $x(t)=\cos \left(\omega_0 t\right)$ und $y(t)=\sin \left(\omega_0 t\right)$.
+
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[colormap/viridis]
+\addplot[domain=-2*pi:0] {sin(deg(x))};
+\addplot[domain=0:2*pi, label=$x(t)$] {cos(deg(x))};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+$$
+\begin{align}
+\varphi ^{P}_{xy}(\uptau) &= \frac{1}{T_{p}}\cdot \int _{t_{0}}^{t_{0}+T_{P}} x(t)\cdot y(t)\, dt \qquad T_{P}=2\pi, \quad t_{0}=0\\
+&= \frac{1}{2\pi}\cdot \int _{0}^{2\pi}\cos(\underbrace{ \omega_{0}\cdot t }_{ \alpha })\cdot \sin(\underbrace{ \omega_{0}\cdot(t+\uptau) }_{ \beta }) \, dx 
+\end{align}
+$$
+
+[Trig. Produkte:](../Mathematik/Trigonometrische%20Funktionen.md#Produkte%20von%20Winkelfunktionen) $\sin(\alpha)\cdot \cos(\beta)=\frac{1}{2}\cdot\left[\sin(\alpha-\beta)+\sin(\alpha+\beta)\right]$
+
+$$
+\begin{align}
+\frac{1}{4\pi}\cdot \int _{0} \, dx 
+\end{align}
+$$
 ---
 
 - [[Barker Code]]
