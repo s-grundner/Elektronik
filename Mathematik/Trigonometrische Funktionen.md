@@ -85,3 +85,9 @@ $$
 \text{Arkustangens}&\quad\arctan : \mathbb{R} \rightarrow\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)
 \end{align}
 $$
+
+## Integrale
+
+$$
+
+$$
