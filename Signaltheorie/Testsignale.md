@@ -289,7 +289,32 @@ $$
 \int_{-\infty}^{\infty} \operatorname{si}(t) \mathrm{d} t  =\pi && \int_{-\infty}^{\infty} \mathrm{si}^2(t) \mathrm{d} t =\pi
 \end{aligned}
 $$
-![](assets/si_func.png)
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1.5]
+\begin{axis}[
+    axis lines=middle,
+    title={Kontinuierliche si-Funktion}]
+\addplot[
+smooth,
+domain=-10:10,
+red,
+samples=60
+]
+{sin(deg(x))/(x)};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+
 
 ## Dirac-Distribution
 
