@@ -67,6 +67,7 @@
 	{trigger: "@m", replacement: "\\mu", options: "mA"},
 	{trigger: "@M", replacement: "\\mu", options: "mA"},
 	{trigger: "@p", replacement: "\\pi", options: "mA"},
+    {trigger: ":p", replacement: "\\psi", options: "mA"},
 	{trigger: "@P", replacement: "\\Pi", options: "mA"},
 	{trigger: "@r", replacement: "\\rho", options: "mA"},
 	{trigger: "@R", replacement: "\\rho", options: "mA"},
