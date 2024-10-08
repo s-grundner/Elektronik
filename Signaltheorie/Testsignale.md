@@ -134,6 +134,8 @@ $$
 
 Die Rampenfunktion $\rho(t)$ steigt für $t>0$ linear mit der Zeit an.
 
+![](assets/ramp_func.png)
+
 ## reelle Exponentialfunktion
 
 Die reelle Exponentialfunktion $x(t)=e^{\alpha t}=e^{\dfrac{t}{T}}$ besitzt die Zeitkonstante $T=\frac{1}{\alpha}$, welche die Länge der Subtangente, bzw. den Abfall auf $\dfrac{1}{e}=36,8 \%$ beschreibt.
@@ -250,7 +252,27 @@ $$
 \operatorname{sinc}(t)=\frac{\sin (\pi t)}{\pi t}
 $$
 
-![](assets/sinc.png)
+```tikz
+\usepackage{pgfplots}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=2]
+\begin{axis}[axis lines=middle, title={\Large\text{Kontinuierliche } \opeartorname{sinc}-\text{Funktion}}]
+\addplot[
+smooth,
+domain=-10:10,
+red
+]
+{sin(deg(pi*x))/(pi*x)};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
 ## si-Funktion
 
 Die si-Funktion, oder auch nichtnormierte Version der sinc-Funktion, welche manchmal aber ebenso als sinc-Funktion bezeichnet wird...
@@ -266,3 +288,22 @@ $$
 \end{aligned}
 $$
 ![](assets/si_func.png)
+
+## Dirac-Distribution
+
+Die Impuls- oder Dirac-Distribution $\delta(t)$ ist keine gewöhnliche Funktion und nur als Distribution oder verallgemeinerte Funktion darstellbar.
+
+$$
+\delta(t)=\left\{\begin{array}{lll}
+\infty & \text { für } t=0 \\
+0 & \text { für } t \neq 0
+\end{array} \quad \delta[n]=\left\{\begin{array}{lll}
+1 & \text { für } & n=0 \\
+0 & \text { für } & n \neq 0
+\end{array}\right.\right.
+$$
+
+![](assets/dirac_func.png)
+
+### Verschoberner Dirac-Impuls
+
