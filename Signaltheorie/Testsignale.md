@@ -177,7 +177,6 @@ $$
     \addplot[dashed] coordinates {(0,1) (-1,1)};
     \node at (axis cs: -1,0.7) {$|T|$};
     % Label for 1
-    \node at (axis cs: 0.2,1.1) {1};
     \node at (axis cs: 0.2,2.5) {$e^{\alpha t}$};
     \node at (axis cs: 0.8,2.1) {($\alpha > 0$)};
 \end{axis}
@@ -207,7 +206,6 @@ $$
     \addplot[dashed] coordinates {(0,1) (1,1)};
     \node at (axis cs: 1,0.7) {$|T|$};
     % Label for 1
-    \node at (axis cs: 0.2,1.1) {1};
     \node at (axis cs: 0.2,2.5) {$e^{\alpha t}$};
     \node at (axis cs: 0.8,2.1) {($\alpha < 0$)};
 \end{axis}
@@ -221,3 +219,50 @@ $$
 
 ## Sinusfunktion
 
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines=middle,
+    ytick=\empty,
+    xtick=\empty,
+    smooth
+]
+\addplot[
+	domain=-2*pi:2*pi
+]
+{sin(deg(x+1))};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+## sinc-Funktion
+
+Der Sinus cardinalis, auch sinc-Funktion, Kardinalsinus oder Spaltfunktion genannt, ist in der normierten Form folgendermaßen definiert
+
+$$
+\operatorname{sinc}(t)=\frac{\sin (\pi t)}{\pi t}
+$$
+
+![](assets/sinc.png)
+## si-Funktion
+
+Die si-Funktion, oder auch nichtnormierte Version der sinc-Funktion, welche manchmal aber ebenso als sinc-Funktion bezeichnet wird...
+> [!important] ... definieren wir als
+> 
+> $$ \mathrm{si}(t)=\frac{\sin (t)}{t} $$
+ 
+mit folgenden Eigenschaften:
+
+$$
+\begin{aligned}
+\int_{-\infty}^{\infty} \operatorname{si}(t) \mathrm{d} t  =\pi && \int_{-\infty}^{\infty} \mathrm{si}^2(t) \mathrm{d} t =\pi
+\end{aligned}
+$$
+![](assets/si_func.png)
