@@ -260,7 +260,9 @@ $$
 \begin{document}
 
 \begin{tikzpicture}[scale=2]
-\begin{axis}[axis lines=middle, title={\Large\text{Kontinuierliche } \opeartorname{sinc}-\text{Funktion}}]
+\begin{axis}[
+    axis lines=middle,
+    title={Kontinuierliche sinc-Funktion}]
 \addplot[
 smooth,
 domain=-10:10,
