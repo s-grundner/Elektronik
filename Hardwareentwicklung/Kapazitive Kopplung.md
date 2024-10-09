@@ -2,12 +2,16 @@
 tags:
   - EMV
 aliases: 
+keywords: 
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
-created: 6th March 2023
+  - VL
+  - EMV und SI
+semester: WS24
+created: 4. September 2023
+professor:
+  - Timm Ostermann
 ---
+ 
 
 # Kapazitive Kopplung
 

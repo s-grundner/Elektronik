@@ -25,23 +25,23 @@ Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes ode
 
 ## EMV-Beeinflussungsmodell
 
-> [!hint] 1. [Störquelle](Störquelle.md)
+> [!hint] (1) [Störquelle](Störquelle.md)
 > EME: Electromagnetic Emission - gesamte Ausstrahlung der Einrichtung
 > - CE: Conducted Emission - Leitungsgeführte Ausstrahlung
 > - RE: Radiated Emission - Abgestrahlte Ausstrahlung
 
 $$\Downarrow$$
 
-> [!hint] Kopplungsmechanismus  
+> [!hint] (2) Kopplungsmechanismus  
 > Der Kopplungsmechanismus ist der physikalische Zusammenhang über den eine von der [Störquelle](Störquelle.md) ausgehende Störung auf die Senke einwirkt.  
 > Kopplungsarten
-> 1. [kapazitiv](Kapazitive%20Kopplung.md)
-> 2. induktiv
-> 3. galvanisch
+> 1. [Kapazitive Kopplung](Kapazitive%20Kopplung.md) (über **gemeinsames** E-Feld)
+> 2. Induktive Kopplung (über **gemeinsames** H-Feld)
+> 3. [Galvanische Kopplung](Galvanische%20Kopplung.md) (über **gemeinsame** Impedanz)
 
 $$\Downarrow$$
 
-> [!hint] Störsenke  
+> [!hint] (3) Störsenke  
 > Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtigt werden kann.
 > 
 > EMS: Electromagnetic Suscetibility - Störfestigkeit, Empfindlichkeit
