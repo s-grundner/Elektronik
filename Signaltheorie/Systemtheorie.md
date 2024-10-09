@@ -8,6 +8,10 @@ created: 7th November 2022
 
 # Systemtheorie
 
+
+
+--- 
+
 ## Übertragungsfunktion
 
 Häufiger als Zeitabhängige Funktionen sind Frequenzabhängige Funktionen -> Übertragungsfunktion
