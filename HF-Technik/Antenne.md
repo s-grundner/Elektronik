@@ -46,7 +46,7 @@ Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sic
 >[!summary] Feldzonen  
 >![Ant_feldzonen](assets/Ant_feldzonen.png)
 
-#### Vereinfachungen beim Übergang vom Nahins Fernfeld:
+#### Vereinfachungen beim Übergang vom Nah ins Fernfeld:
 
 - Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
 - Im Fernfeld dominiert hingegen der radial orientierte Leistungstransport.

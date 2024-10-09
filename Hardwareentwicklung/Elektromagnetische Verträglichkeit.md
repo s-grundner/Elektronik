@@ -17,9 +17,9 @@ Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes ode
 > 
 > ![600](assets/EMV-horiz.png)
 
-## Grundlagen und Begriffe
 
-Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werden.
+
+## Kopplungsmechanismus
 
 > [!hint] Kopplungsmechanismus  
 > Der Kopplungsmechanismus ist der physikalische Zusammenhang über den eine von der [Störquelle](Störquelle.md) ausgehende Störung auf die Senke einwirkt.  
@@ -28,7 +28,12 @@ Prinzipiell kann die EMV an jedem der 3 Blöcke durch Maßnahmen verbessert werd
 > 2. induktiv
 > 3. galvanisch
 
+## EMV-Einteilung
+
 > [!hint] [Störquelle](Störquelle.md)
+> EME: Electromagnetic Emission
+> - CE: Conducted Emission
+> - RE: Radiated Emission
 
 > [!hint] Störsenke  
 > Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtigt werden kann.
