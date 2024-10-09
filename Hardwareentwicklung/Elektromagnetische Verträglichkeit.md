@@ -1,10 +1,16 @@
 ---
-tags: []
-aliases: ["EMV", "EMI", "EMC"]
-subject: ["hwe"]
-source: ["Siebgert Schrempf", "Rick Hartley"]
-created: 21st February 2023
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - EMV und SI
+semester: WS24
+created: 4. September 2023
+professor:
+  - Timm Ostermann
 ---
+ 
 
 # Elektromagnetische Verträglichkeit
 
@@ -17,9 +23,14 @@ Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes ode
 > 
 > ![600](assets/EMV-horiz.png)
 
+## EMV-Beeinflussungsmodell
 
+> [!hint] 1. [Störquelle](Störquelle.md)
+> EME: Electromagnetic Emission - gesamte Ausstrahlung der Einrichtung
+> - CE: Conducted Emission - Leitungsgeführte Ausstrahlung
+> - RE: Radiated Emission - Abgestrahlte Ausstrahlung
 
-## Kopplungsmechanismus
+$$\Downarrow$$
 
 > [!hint] Kopplungsmechanismus  
 > Der Kopplungsmechanismus ist der physikalische Zusammenhang über den eine von der [Störquelle](Störquelle.md) ausgehende Störung auf die Senke einwirkt.  
@@ -28,15 +39,16 @@ Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes ode
 > 2. induktiv
 > 3. galvanisch
 
-## EMV-Einteilung
-
-> [!hint] [Störquelle](Störquelle.md)
-> EME: Electromagnetic Emission
-> - CE: Conducted Emission
-> - RE: Radiated Emission
+$$\Downarrow$$
 
 > [!hint] Störsenke  
 > Elektronische Einrichtung, deren Funktion durch die Störgrößen beeinträchtigt werden kann.
+> 
+> EMS: Electromagnetic Suscetibility - Störfestigkeit, Empfindlichkeit
+> - CS: Conducted Susceptibility
+> - RS: Radiated Susceptibility
+
+---
 
 > [!hint] Störgröße  
 > Eine elektromagnetische Größe (Spannung-/ Stromfeldstärke) die eine unerwünschte Beeinflussung erzeugt.

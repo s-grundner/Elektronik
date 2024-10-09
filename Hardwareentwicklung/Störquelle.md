@@ -1,18 +1,32 @@
-# Störquelle
+---
+tags: 
+aliases:
+  - Störquellen
+keywords: 
+subject:
+  - VL
+  - EMV und SI
+semester: WS24
+created: 4. September 2023
+professor:
+  - Timm Ostermann
+---
+ 
 
-Eine Störquelle ist ein Objekt, von dem eine [EMV](Elektromagnetische%20Verträglichkeit.md)-Störung ausgeht.
+# Störquellen
 
-Grundsätzlich kann zwischen externen und internen Störquellen unterschieden werden.
+> [!info] Eine Störquelle ist ein Objekt, von dem eine [EMV](Elektromagnetische%20Verträglichkeit.md)-Störung ausgeht.
+> Grundsätzlich kann zwischen externen und internen Störquellen unterschieden werden.
 
 ## Externe Störquellen
 
 Man unterscheidet wiederum;
 
-| ==Natürliche Störquellen==                                                | ==Künstliche Störquellen==                                                            |
+| **Natürliche Störquellen**                                               | **Künstliche Störquellen**                                                        |
 | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | Elektrostatische Entladungen ([ESD](ESD.md)) (z.B. Reibungselektrizität) | Vorhergesehene und unvorhergesehene elektromagnetische Vorgänge                   |
-| Atmosphärische Entladungen (Blitz)                                       | In der Energieerzeugung und Verteilung → elektrische [Schaltvorgänge](Schaltvorgänge.md)               |
-|                                                                          | [Schaltnetzteil](Stromversorgungseinheiten/Schaltnetzteil.md)e, Leuchtstoffröhren |
+| Atmosphärische Entladungen (Blitz)                                       | [Schaltvorgänge](Schaltvorgänge.md)                                               |
+| Nuklearer EM-Puls                                                        | [Schaltnetzteile](Stromversorgungseinheiten/Schaltnetzteil.md), Leuchtstoffröhren |
 |                                                                          | Zündsysteme von Motoren                                                           |
 |                                                                          | Fernseh-/Radiosender, Mobilfunk                                                   |
 
