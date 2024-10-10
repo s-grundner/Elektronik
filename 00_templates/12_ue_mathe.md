@@ -9,8 +9,7 @@ tp.file.rename("UE" + nr)
 
 ---
 
-🔎 [Aufgaben Sammlung](../xEDU/(SemB2)-SS24/Mathematik%202/UE/Aufgabensammlung.pdf)
-📝 [Angabe](Angaben/Uebungsblatt<%* tR += nr%>.pdf)
+📝 [Angabe](Angaben/Uebung<%* tR += nr%>.pdf)
 ✅ [Lösung](Loesungen/UE<%* tR += nr%>-k12136610.pdf)
 
 ---
