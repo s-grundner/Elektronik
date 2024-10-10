@@ -24,13 +24,7 @@
 
 ## Circuitikz Examples
 
-```tikz
-\usepackage[european]{circuitikz}
-\begin{document}
-
-\begin{circuitikz}[straight voltages]
-\end{circuitikz}
-\end{document}
+```dataview 
 ```
 
 [Circuitikz Manual](https://ctan.dcc.uchile.cl/graphics/pgf/contrib/circuitikz/doc/circuitikzmanual.pdf)
