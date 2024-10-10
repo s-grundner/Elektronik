@@ -27,7 +27,7 @@ Hier kann die Verbindung zwischen Toren/Komponenten nicht mehr Vernachlässigt w
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, scale=2]
 	% Paths, nodes and wires:
 	\draw (3, 5) to[sinusoidal voltage source, l={$V_{\text{in}}(t)$}] (3, 7);
 	\node[ocirc] at (4, 7) {};
@@ -68,30 +68,30 @@ Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Le
 	% Paths, nodes and wires:
 	\draw (6, 5) to[C, v^=$V(z.\, t)$] (6, 2);
 	\draw (8, 5) to[L] (11, 5);
-	\draw (11, 5) to[C, v^=$V(z.\, t)$] (11, 2);
-	\draw (13, 5) to[L] (16, 5);
-	\draw (16, 2) to[C] (16, 5);
+	\draw (11, 5) to[C, v^=$V(z+\Delta z.\, t)$] (11, 2);
+	\draw (15, 5) to[L] (18, 5);
+	\draw (18, 2) to[C] (18, 5);
 	\node[ground] at (4, 2) {};
-	\draw (3, 5) to[european inductor] (6, 5);
+	\draw (3, 5) to[L] (6, 5);
 	\node[circ] at (6, 5) {};
 	\node[circ] at (11, 5) {};
-	\node[circ] at (16, 5) {};
-	\node[circ] at (16, 2) {};
+	\node[circ] at (18, 5) {};
+	\node[circ] at (18, 2) {};
 	\node[circ] at (11, 2) {};
 	\node[circ] at (6, 2) {};
 	\node[circ] at (4, 2) {};
 	\node[ocirc] at (3, 5) {};
 	\node[ocirc] at (3, 2) {};
-	\node[ocirc] at (17, 5) {};
-	\node[ocirc] at (17, 2) {};
+	\node[ocirc] at (19, 5) {};
+	\node[ocirc] at (19, 2) {};
 	\draw (3, 2) -- (4, 2);
-	\draw (4, 2) -- (6, 2) -- (10.75, 2) -- (16, 2) -- (17, 2);
-	\draw (17, 5) -- (16, 5);
-	\draw (11, 5) -- (13, 5);
+	\draw (4, 2) -- (6, 2) -- (10.75, 2) -- (18, 2) -- (19, 2);
+	\draw (19, 5) -- (18, 5);
+	\draw (11, 5) to[short, i>^=$I(z+\Delta z.\, t)$] (15, 5);
 	\draw (6, 5) to[short, i>^=$I(z.\, t)$] (8, 5);
 	\draw[dashed] (8, 6) -- (8, 1);
-	\draw[dashed] (13, 6) -- (13, 1);
-
+	\draw[dashed] (15, 6) -- (15, 1);
+	\draw (15, 1) node[label={$z+\Delta z$}] {};
 \end{circuitikz}
 \end{document}
 ```
