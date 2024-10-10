@@ -59,3 +59,39 @@ Eine TL ist elektrisch kurz: ${ l > \dfrac{\lambda}{10} }$
 
 Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Leitermodell)
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick]
+	% Paths, nodes and wires:
+	\draw (6, 2) to[C, v=$V(z,t)$] (6, 5);
+	\draw (8, 5) to[L] (11, 5);
+	\draw (11, 2) to[C] (11, 5);
+	\draw (13, 5) to[L] (16, 5);
+	\draw (16, 2) to[C] (16, 5);
+	\node[ground] at (4, 2) {};
+	\draw (3, 5) to[european inductor] (6, 5);
+	\node[circ] at (6, 5) {};
+	\node[circ] at (11, 5) {};
+	\node[circ] at (16, 5) {};
+	\node[circ] at (16, 2) {};
+	\node[circ] at (11, 2) {};
+	\node[circ] at (6, 2) {};
+	\node[circ] at (4, 2) {};
+	\node[ocirc] at (3, 5) {};
+	\node[ocirc] at (3, 2) {};
+	\node[ocirc] at (17, 5) {};
+	\node[ocirc] at (17, 2) {};
+	\draw (3, 2) -- (4, 2);
+	\draw (4, 2) -- (6, 2) -- (10.75, 2) -- (16, 2) -- (17, 2);
+	\draw (17, 5) -- (16, 5);
+	\draw (13, 5) -- (11, 5);
+	\draw (8, 5) -- (6, 5);
+	\draw[dashed] (8, 6) -- (8, 1);
+	\draw[dashed] (13, 6) -- (13, 1);
+
+\end{circuitikz}
+\end{document}
+```

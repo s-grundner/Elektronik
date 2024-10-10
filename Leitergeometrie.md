@@ -4,6 +4,7 @@ aliases:
 keywords:
   - Herleitung Leitermodell
   - MWG
+  - Herleitung Beläge
 subject:
   - KV
   - HF-Systemtechnik 1
