@@ -91,7 +91,8 @@ Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Le
 	\draw (6, 5) to[short, i>^=$I(z.\, t)$] (8, 5);
 	\draw[dashed] (8, 6) -- (8, 1);
 	\draw[dashed] (15, 6) -- (15, 1);
-	\draw (15, 1) node[label={$z+\Delta z$}] {};
+	\draw (8.2, 1) node[label={$z$}] {};
+	\draw (15.6, 1) node[label={$z+\Delta z$}] {};
 \end{circuitikz}
 \end{document}
 ```
