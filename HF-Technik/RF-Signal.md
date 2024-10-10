@@ -46,3 +46,7 @@ professor:
 > - *Alternativ:* 9x die Frequenz des schnellsten digitalen Signals
 >     - da ab der 9ten Harmonischen kann das Signal als Rechecksignal klassifiziert werden.
 > - Auf elektrisch kurzen Leitungen ist die [Leitungstheorie](Leitungstheorie.md) anzuwenden
+
+## Herleitung zu RF-Line Modelle
+
+
