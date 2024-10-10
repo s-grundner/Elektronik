@@ -1,6 +1,7 @@
 ---
 tags:
   - RF
+  - tikz/circuitikz
 aliases:
   - HF-Übertragungsleitung
   - Leitungstheorie

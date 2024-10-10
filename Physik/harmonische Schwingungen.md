@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - tikz/pgfplot
 aliases:
   - harmonische Schwingung
   - harmonischen Schwingungen

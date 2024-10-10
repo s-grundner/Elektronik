@@ -22,9 +22,14 @@
 \end{document}
 ```
 
+```dataview 
+LIST FROM #tikz/pgfplot
+```
+
 ## Circuitikz Examples
 
 ```dataview 
+LIST FROM #tikz/circuitikz 
 ```
 
 [Circuitikz Manual](https://ctan.dcc.uchile.cl/graphics/pgf/contrib/circuitikz/doc/circuitikzmanual.pdf)
@@ -33,10 +38,4 @@
 
 ```dataview
 LIST FROM #tikz
-```
-
-```
-	
-	
-	
 ```
