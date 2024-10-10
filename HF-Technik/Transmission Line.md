@@ -3,6 +3,8 @@ tags:
   - RF
 aliases:
   - HF-Übertragungsleitung
+  - Leitungstheorie
+  - Leitermodell
 keywords: 
 subject:
   - KV

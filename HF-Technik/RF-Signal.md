@@ -21,7 +21,7 @@ professor:
 > - Ist die Leitungslänge viel größer als die Wellenlänge ist spricht man von einem RF-Signal
 
 > [!success] Besonderheiten bei RF-Signalen
-> - [Leitungstheorie](../../../HF-Technik/Leitungstheorie.md) muss beachtet werden.
+> - [Eingangsimpedanz](Eingangsimpedanz.md) muss beachtet werden.
 >     - Leitungen auf denen RF-Signale übertragen werden müssen als [Transmission Lines](Transmission%20Line.md) (TLs) behandelt werden.
 > - Auf einer [TL](Transmission%20Line.md) müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigtwerden
 >     - Abhängig vom [Leiter](../../../Physik/Materialkunde/{MOC}%20Materialkunde.md#Leiter)
@@ -45,4 +45,4 @@ professor:
 > - Bei digitalen Signalen gilt dies für die Flankenanstiegszeit von 10% bis 90% des Pegels
 > - *Alternativ:* 9x die Frequenz des schnellsten digitalen Signals
 >     - da ab der 9ten Harmonischen kann das Signal als Rechecksignal klassifiziert werden.
-> - Auf elektrisch kurzen Leitungen ist die [Leitungstheorie](Leitungstheorie.md) anzuwenden
+> - Auf elektrisch kurzen Leitungen ist die [Eingangsimpedanz](Eingangsimpedanz.md) anzuwenden

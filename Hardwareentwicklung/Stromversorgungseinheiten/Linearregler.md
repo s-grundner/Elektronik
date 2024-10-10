@@ -25,7 +25,7 @@ created: 16th March 2022
 	- … der [Temperatur](../../Physik/Temperatur%20und%20Teilchenmodell.md) 
 4. Last
 	- bei der Last werden üblicherweise Analoge und Digitale Versorgung mittels einer Sternförmigen Masse getrennt.
-		- (Über dem Spalt in der Masse dürfen auf einer Platine keine [Leiterbahnen](../../HF-Technik/Leitungstheorie.md) Verlegt werden)
+		- (Über dem Spalt in der Masse dürfen auf einer Platine keine [Leiterbahnen](../../HF-Technik/Eingangsimpedanz.md) Verlegt werden)
 
 ![Netzteil_sch](../assets/Netzteil_sch.png)
 

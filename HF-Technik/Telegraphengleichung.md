@@ -35,13 +35,13 @@ Die Telegraphengleichung ist eine gewöhnliche [DGL 2. Ordnung](../Mathematik/Al
 > 
 > $$ \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')} = \alpha + j\beta  $$
 > 
-> $(\,\cdot\,)'\,$: **Leitungsbeläge** nach der [Leitungstheorie](Leitungstheorie.md)
+> $(\,\cdot\,)'\,$: **Leitungsbeläge** nach der [Eingangsimpedanz](Eingangsimpedanz.md)
 > $\alpha\,$: **Dämpfungsbelag** (Dämpfung der Signalamplitude)
 > $\beta\,$: **Phasenbelag** (Verzögerung der Ausbreitungsgeschwindigkeit)
 
 ## Herleitung
 
-> [!summary] [Kirchhoff](../Elektrotechnik/Kirchhoffsche%20Regeln.md)'sche Gesetze in der [Leitungstheorie](Leitungstheorie.md)
+> [!summary] [Kirchhoff](../Elektrotechnik/Kirchhoffsche%20Regeln.md)'sche Gesetze in der [Eingangsimpedanz](Eingangsimpedanz.md)
 > 1. [Knotenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
 > 2. [Maschenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
 

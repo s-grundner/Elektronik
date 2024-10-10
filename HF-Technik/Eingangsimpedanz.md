@@ -15,7 +15,7 @@ keywords:
   - MWG
 ---
 
-# Leitungstheorie
+# Eingangsimpedanz
 
 Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md) Angewandt, also wenn es sich auf der Leitung um ein [RF-Signal](RF-Signal.md) Handelt.
 

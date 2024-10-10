@@ -41,12 +41,12 @@ created: 19th August 2023
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### [Leiterbahnen](../HF-Technik/Leitungstheorie.md) Und [Anpassung](../Elektrotechnik/Impedanz.md)
+### [Leiterbahnen](../HF-Technik/Eingangsimpedanz.md) Und [Anpassung](../Elektrotechnik/Impedanz.md)
 
 1. Leiterbahnen kurz halten
 2. Wellenwiderstand / [Impedanz](../Elektrotechnik/Impedanz.md) [Anpassen](../Elektrotechnik/Impedanz.md)
 	- Abschlusswiderstand
-3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Leitungstheorie.md) an
+3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Eingangsimpedanz.md) an
 4. Leiterbahnen am Rand der Platine vermeiden
 	- Niedriges [VSWR](../HF-Technik/Stehwellenverhältnis.md)
 	- keine [Reflexionen](../HF-Technik/Reflexionsfaktor.md)

@@ -33,5 +33,6 @@
   "obsidian-excalidraw-plugin",
   "obsidian-react-components",
   "obsidian-tikzjax",
-  "obsidian-contextual-typography"
+  "obsidian-contextual-typography",
+  "obsidian-text-format"
 ]
