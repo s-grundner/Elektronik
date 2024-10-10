@@ -59,6 +59,7 @@ Vorraussetzung für TEM-Moden:
  
 Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösungen)
 
+
 ##### Kontur des Leitermodell-Querschnitts
 
 Konturintegral über dem Modellquerschnitt
@@ -66,11 +67,14 @@ Konturintegral über dem Modellquerschnitt
 ![invert_dark](assets/ContourINt.png)
 
 
-> [!warning] Projektion der Feld-Komponenten
-> - Nur Feldkomponenten die auf die Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
-> - 
+> [!warning] Projektion der Feld-Komponenten: Nur Feldkomponenten die auf die..
+> 
+> - ... Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
+> - ... [Flächennormale](Elektrotechnik/Flächenvektor.md) Projiziert werden, Tragen zum [Flächenintegral](Elektrotechnik/Flächenintegral.md) $\iint_{S}$ bei 
 
 ### Andere Moden
+
+
 
 HF-Leitungen höherer ordnung
 
