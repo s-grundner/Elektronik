@@ -64,7 +64,7 @@ Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösun
 
 Konturintegral über dem Modellquerschnitt
 
-Stokessche Integralsatz
+Mit dem [Satz von Stokes](Satz%20von%20Stokes.md) folgt:
 $$
 \nabla \times \mathbf{E}=-\frac{\partial}{\partial t} \mathbf{B} \implies \oint_C \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=-\frac{\partial}{\partial t} \iint_S \mu \mathbf{H} \cdot \mathrm{~d} \mathbf{s}
 $$
@@ -76,6 +76,24 @@ $$
 > 
 > - ... Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
 > - ... [Flächennormale](Elektrotechnik/Flächenvektor.md) Projiziert werden, Tragen zum [Flächenintegral](Elektrotechnik/Flächenintegral.md) $\iint_{S}$ bei 
+
+Kontur im Modell:
+
+![invert_dark](assets/KonturInPlatengeometrie.png)
+
+Mit dem [inneren Produkt](Mathematik/Algebra/Skalarprodukt.md) fallen nur die $x$-$y$-Komponenten ins Gewicht:
+
+$$
+\begin{aligned}
+\oint_{C_0} \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=\int_0^d E_y\left(x_0, y, z_0, t\right) \mathrm{d} y & +\int_{x_0}^{x_1} E_x\left(x, d, z_0, t\right) \mathrm{d} x -\int_0^d E_y\left(x_1, y, z_0, t\right) \mathrm{d} y-\int_{x_0}^{x_1} E_x\left(x, 0, z_0, t\right) \mathrm{d} x
+\end{aligned}
+$$
+
+Unter den Annahmen des Feldverlaufts ist $\mathbf{E}_{x}=\mathbf{0}$. Tangentiale Feldanteile bei $y=0$ und $y=d$ fallen aber sowieso weg.
+
+$$
+\oint_{C_0} \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=\int_0^d E_y\left(x_0, y, z_0, t\right) \mathrm{d} y-\int_0^d E_y\left(x_1, y, z_0, t\right) \mathrm{d} y
+$$
 
 ## Andere Moden
 
