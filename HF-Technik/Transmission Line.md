@@ -66,9 +66,9 @@ Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Le
 \begin{document}
 \begin{circuitikz}[thick]
 	% Paths, nodes and wires:
-	\draw (6, 5) to[C, v^=$V(z\, t)$] (6, 2);
+	\draw (6, 5) to[C, v^=$V(z.\, t)$] (6, 2);
 	\draw (8, 5) to[L] (11, 5);
-	\draw (11, 2) to[C] (11, 5);
+	\draw (11, 5) to[C, v^=$V(z.\, t)$] (11, 2);
 	\draw (13, 5) to[L] (16, 5);
 	\draw (16, 2) to[C] (16, 5);
 	\node[ground] at (4, 2) {};
@@ -87,8 +87,8 @@ Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Le
 	\draw (3, 2) -- (4, 2);
 	\draw (4, 2) -- (6, 2) -- (10.75, 2) -- (16, 2) -- (17, 2);
 	\draw (17, 5) -- (16, 5);
-	\draw (13, 5) -- (11, 5);
-	\draw (8, 5) -- (6, 5);
+	\draw (11, 5) -- (13, 5);
+	\draw (6, 5) to[short, i>^=$I(z.\, t)$] (8, 5);
 	\draw[dashed] (8, 6) -- (8, 1);
 	\draw[dashed] (13, 6) -- (13, 1);
 
