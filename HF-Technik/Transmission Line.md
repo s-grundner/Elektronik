@@ -68,6 +68,36 @@ siehe: [Transversale EM-Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ![invert_dark](assets/TEM-Moden.png)
 
+#### Herleitung zu HF-Leitermodelle
+
+> [!warning] Herleitung der Parallelplattenleitung mittels der Maxwellgleichungen
+> Jedoch ist das verfahren gleich für andere geometrien
+> 1. Annahmen zum Feldverlauf
+> 2. Kontur Wählen
+> 
+> 
+
+![](../xEDU/(SemB3)-WS24/HF-Systemtechnik%201/assets/TEM-Plattenleitung.png)
+
+Vorraussetzung für TEM-Moden:
+
+> [!info] E-Feld
+> - E-Feld hat keine komponente die in $z$-Richtung zeigt
+> - wir nehmen an dass die E-Feld Komponente in $x$-Richtung 0 ist
+> 
+> $$\mathbf{E} = \begin{bmatrix} 0 \\ E_{y}(x,y,z,t) \\ 0 \end{bmatrix} = E_{y}(x,y,z,t)\cdot \mathbf{e}_{y}\quad \text{für} \quad 0 < y < d$$
+> 
+
+
+ > [!info] H-Feld
+ > - H-Feld hat auch keine komponente in $z$-Richtung
+ > - wir nehmen an dass das H-Feld nur in $x$-Richtung zeigt (gegensatz zum E-Feld)
+ >
+ > $$\mathbf{H}=\begin{bmatrix} H_{x}(x,y,z,t) \\ 0 \\ 0\end{bmatrix} = H_{x}(x,y,z,t)\cdot e_{x} \quad \text{für} \quad 0<y<d$$
+ 
+Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösungen)
+
+
 ### Andere Moden
 
 HF-Leitungen höherer ordnung

@@ -1,9 +1,8 @@
 ---
 tags:
-  - incomplete
   - RF
   - Nachrichtentechnik
-aliases: 
+aliases:
 created: 20th August 2023
 semester: WS25
 professor:
@@ -11,6 +10,9 @@ professor:
 subject:
   - HF-Systemtechnik 1
   - KV
+keywords:
+  - Herleitung des Leitermodells
+  - MWG
 ---
 
 # Leitungstheorie
@@ -33,18 +35,19 @@ Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md)
 | Induktivitätsbelag | $L'=\frac{L}{l}$ | $[L']=\frac{1H}{m}$      |
 | Kapazitätsbelag    | $C'=\frac{C}{l}$ | $[C']=\frac{1C}{m}$      | 
 
-## Allgemein
+### Allgemein
 
 Eingangswiderstand $Z_{E}$
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ \frac{Z_{L}}{Z_{A}}\cdot\tanh(\gamma\cdot l)}{1+ \frac{Z_{A}}{Z_{L}}\cdot\tanh(\gamma\cdot l)}
 $$
 
-## Verlustlos
+### Verlustlos
 
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ j\frac{Z_{L}}{Z_{A}}\cdot\tan(\gamma\cdot l)}{1+ j\frac{Z_{A}}{Z_{L}}\cdot\tan(\gamma\cdot l)}
 $$
+
 
 # Tags
 

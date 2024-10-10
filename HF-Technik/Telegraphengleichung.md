@@ -45,4 +45,6 @@ Die Telegraphengleichung ist eine gewöhnliche [DGL 2. Ordnung](../Mathematik/Al
 > 1. [Knotenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
 > 2. [Maschenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
 
+
+
 # Tags
