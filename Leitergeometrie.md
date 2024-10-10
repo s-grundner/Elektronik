@@ -37,7 +37,7 @@ siehe: [Transversale EM-Welle](Transversale%20Elektromagnetische%20Welle.md)
 > 
 > 
 
-![](../xEDU/(SemB3)-WS24/HF-Systemtechnik%201/assets/TEM-Plattenleitung.png)
+![](HF-Technik/assets/TEM-Plattenleitung.png)
 
 Vorraussetzung für TEM-Moden:
 
@@ -57,6 +57,11 @@ Vorraussetzung für TEM-Moden:
  
 Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösungen)
 
+Konturintegral über dem Modellquerschnitt
+
+![invert_dark](assets/ContourINt.png)
+
+
 
 ### Andere Moden
 
@@ -69,3 +74,5 @@ HF-Leitungen höherer ordnung
 - Rectangular Waveguide (Rechteck Hohlleiter)
 - [LWL](Lichtwellenleiter.md) - Dielektrischer Wellenleiter Licht Als EM-Welle durch nicht leitendes Dielektrikum
 - Coplanarer Microstrip
+
+
