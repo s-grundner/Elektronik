@@ -14,12 +14,13 @@ professor:
   - Reinhard Feger
 ---
  
+
 # Leitergeometrien von HF-Leitungen
 
 > [!success] Die charakteristische Impedanz $Z_{0}$ beschreibt unter anderem die Geometrie einer Leitung
 > Man muss daher nicht immer die Maxwellgleichungen für eine Leitungsgeometrie lösen, sondern kann mit der charateristischen Impedanz 
 
-### TEM-Moden
+## TEM-Moden
 
 siehe: [Transversale EM-Welle](Transversale%20Elektromagnetische%20Welle.md)
 
@@ -28,7 +29,7 @@ siehe: [Transversale EM-Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ![invert_dark](assets/TEM-Moden.png)
 
-#### Herleitung zu HF-Leitermodelle
+### Herleitung zu HF-Leitermodelle
 
 > [!warning] Herleitung der Parallelplattenleitung mittels der Maxwellgleichungen
 > Jedoch ist das verfahren gleich für andere geometrien
@@ -39,7 +40,7 @@ siehe: [Transversale EM-Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ![invert_dark](HF-Technik/assets/TEM-Plattenleitung.png)
 
-##### Annahmen zum Feldverlauf
+#### Annahmen zum Feldverlauf
 
 Vorraussetzung für TEM-Moden:
 
@@ -59,10 +60,14 @@ Vorraussetzung für TEM-Moden:
  
 Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösungen)
 
-
-##### Kontur des Leitermodell-Querschnitts
+#### Kontur des Leitermodell-Querschnitts
 
 Konturintegral über dem Modellquerschnitt
+
+Stokessche Integralsatz
+$$
+\nabla \times \mathbf{E}=-\frac{\partial}{\partial t} \mathbf{B} \implies \oint_C \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=-\frac{\partial}{\partial t} \iint_S \mu \mathbf{H} \cdot \mathrm{~d} \mathbf{s}
+$$
 
 ![invert_dark](assets/ContourINt.png)
 
@@ -72,9 +77,7 @@ Konturintegral über dem Modellquerschnitt
 > - ... Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
 > - ... [Flächennormale](Elektrotechnik/Flächenvektor.md) Projiziert werden, Tragen zum [Flächenintegral](Elektrotechnik/Flächenintegral.md) $\iint_{S}$ bei 
 
-### Andere Moden
-
-
+## Andere Moden
 
 HF-Leitungen höherer ordnung
 
