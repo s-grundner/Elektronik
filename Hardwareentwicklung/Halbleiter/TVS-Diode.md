@@ -12,7 +12,7 @@ created: 17th August 2023
 
 ### Unioder Bidirektional
 
-Je nachdem ob die zu schützende [Eingangsimpedanz](../../HF-Technik/Eingangsimpedanz.md) über oder unter dem Massepotential liegt, muss man bei unidirektionalen TVS-[Dioden](Diode.md) die Polung beachten.  
+Je nachdem ob die zu schützende Leitung über oder unter dem Massepotential liegt, muss man bei unidirektionalen TVS-[Dioden](Diode.md) die Polung beachten.  
 Bidirektionale arbeiten in beide Richtungen.  
 ![](../../Digitaltechnik/assets/TVS-Diode.png)
 

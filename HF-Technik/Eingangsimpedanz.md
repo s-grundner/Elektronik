@@ -2,17 +2,12 @@
 tags:
   - RF
   - Nachrichtentechnik
-aliases:
+aliases: 
 created: 20th August 2023
-semester: WS25
-professor:
-  - Reinhard Feger
-subject:
-  - HF-Systemtechnik 1
-  - KV
+semester: 
+professor: 
+subject: 
 keywords:
-  - Herleitung des Leitermodells
-  - MWG
 ---
 
 # Eingangsimpedanz
@@ -21,19 +16,11 @@ Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md)
 
 > [!NOTE] Kenngrößen  
 > Zur vollständigen Beschreibung der Leitungseinflüsse muss die Leitung neben ihrer Länge $l$ durch zwei zusätzliche Kenngrößen charakterisiert werden:
-> - den Leitungswellenwiderstand $Z_{L}$
-> - und die [Ausbreitungskonstante](Telegraphengleichung.md) $\gamma$.
+> - Leitungswellenwiderstand $Z_{L}$
+> - [Ausbreitungskonstante](Telegraphengleichung.md) $\gamma$.
+> - Abschlussimpedanz $Z_{A}$
 > 
 > Im Schaltungsentwurf sind diese mit zu berücksichtigen!
-
-## Leitermodell
-
-| Bezeichnung        | Formel           | Einheit                  |
-| ------------------ | ---------------- | ------------------------ |
-| Widerstandsbelag   | $R'=\frac{R}{l}$ | $[R']=\frac{1\Omega}{m}$ |
-| Leitwertsbelag     | $G'=\frac{G}{l}$ | $[G']=\frac{1S}{m}$      |
-| Induktivitätsbelag | $L'=\frac{L}{l}$ | $[L']=\frac{1H}{m}$      |
-| Kapazitätsbelag    | $C'=\frac{C}{l}$ | $[C']=\frac{1C}{m}$      | 
 
 ### Allgemein
 
