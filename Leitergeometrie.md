@@ -37,7 +37,9 @@ siehe: [Transversale EM-Welle](Transversale%20Elektromagnetische%20Welle.md)
 > 
 > 
 
-![](HF-Technik/assets/TEM-Plattenleitung.png)
+![invert_dark](HF-Technik/assets/TEM-Plattenleitung.png)
+
+##### Annahmen zum Feldverlauf
 
 Vorraussetzung für TEM-Moden:
 
@@ -57,11 +59,16 @@ Vorraussetzung für TEM-Moden:
  
 Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösungen)
 
+##### Kontur des Leitermodell-Querschnitts
+
 Konturintegral über dem Modellquerschnitt
 
 ![invert_dark](assets/ContourINt.png)
 
 
+> [!warning] Projektion der Feld-Komponenten
+> - Nur Feldkomponenten die auf die Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
+> - 
 
 ### Andere Moden
 
