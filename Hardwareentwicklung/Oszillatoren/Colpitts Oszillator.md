@@ -1,8 +1,13 @@
 ---
-tags: ["Baugruppen/Oszillator"]
-aliases: ["Colpitts"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppen/Oszillator
+  - tikz/circuitikz
+aliases:
+  - Colpitts
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 22nd November 2022
 ---
 

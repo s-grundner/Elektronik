@@ -1,8 +1,13 @@
 ---
-tags: ["Baugruppen/Oszillator"]
-aliases: ["VCO"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppen/Oszillator
+  - tikz/circuitikz
+aliases:
+  - VCO
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 31st January 2023
 ---
 
