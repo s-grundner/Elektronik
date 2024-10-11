@@ -26,17 +26,28 @@ $$
 
 \begin{tikzpicture}[thick, scale=2]
 \draw[very thick] (\MX,\MY) circle(\RC);
-\draw[->] (-1, 0) -- (6, 0) node[anchor=west] {\Large$x$};
-\draw[->] (0, -1) -- (0, 6) node[anchor=south] {\Large$y$};
+\draw[->] (-1, 0) -- (6, 0) node[anchor=west] {\Huge$x$};
+\draw[->] (0, -1) -- (0, 6) node[anchor=south] {\Huge$y$};
 \draw[dashed] (0, \MY) -- (\MX, \MY);
 \draw[dashed] (\MX, 0) -- (\MX, \MY);
 \filldraw (\MX, \MY) circle (1pt);
-\draw (\MX, \MY) node[right] {\Large $(M_{x}, M_{y})$};
+\draw (\MX, \MY) node[right] {\Huge $(M_{x}, M_{y})$};
 \draw[->, red] (\MX, \MY) -- (\MX+\RC*0.707, \MY+\RC*0.707);
-\draw (\MX+\RC*0.707, \MY+\RC*0.707) node[above right] {\Large $r$};
+\draw (\MX+\RC*0.707, \MY+\RC*0.707) node[above right] {\Huge $r$};
 \end{tikzpicture}
 
 \end{document}
 ```
 
+Die Kreisgleichung ist oft eine Lösung komplexer Gleichungen und Ungleichungen
+
 ## Kreis durch 3 Punkte
+
+Durch umformen der Kreisgleichung erhält man ein Lineares Gleichungssystem 3. Ordnung
+
+$$
+\begin{align}
+r^{2}=(x-M_{x})^{2}+(y-M_{y})^{2} \\
+
+\end{align}
+$$
