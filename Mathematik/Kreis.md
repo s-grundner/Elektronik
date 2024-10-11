@@ -8,6 +8,12 @@ cited:
 
 # Kreis
 
+Gleichung zum Ursprungskreis
+
+$$
+r^{2}= x^{2}+y^{2}
+$$
+
 Gleichung zum Verschobenen Kreis mit radius $r$ und Mittelpunkt $(M_{x}, M_{y})$
 $$
 r^{2}=(x-M_{x})^{2}+(y-M_{y})^{2}
@@ -47,7 +53,38 @@ Durch umformen der Kreisgleichung erhält man ein Lineares Gleichungssystem 3. O
 
 $$
 \begin{align}
-r^{2}=(x-M_{x})^{2}+(y-M_{y})^{2} \\
+r^{2}&=(x-M_{x})^{2}+(y-M_{y})^{2} \\
+&=x^{2}-2M_{x}x+M_{x}^{2} + y^{2}-2M_{y}y+M_{y}^{2} \quad \Bigg| -(x^{2}+y^{2})-r^{2} \\
+-(x^{2}+y^{2})&=M_{x}^{2}+M_{y}^{2}-r^{2}-2M_{x}x-2M_{y}y
+\end{align}
+$$
 
+Nun kann man ein LGS mit dem Lösungsvektor $(A,B,C)$ aufstellen, indem man Substituiert:
+
+$$
+\begin{align}
+A &:= M_{x}^{2}+M_{y}^{2}-r^{2} \\
+B &:= 2M_{x} \\
+C &:= 2M_{y}
+\end{align}
+$$
+
+Das LGS Lautet:
+
+$$
+\begin{align}
+A-B\cdot x_{1}-C\cdot y_{1} &= -(x_{1}^{2}+y_{1}^{2}) \\
+A-B\cdot x_{2}-C\cdot y_{2} &= -(x_{2}^{2}+y_{2}^{2}) \\
+A-B\cdot x_{3}-C\cdot y_{3} &= -(x_{3}^{2}+y_{3}^{2}) \\
+&\Downarrow \\
+\begin{pmatrix}
+1 & x_{1} & y_{2}\\
+1 & x_{2} & y_{2}\\
+1 & x_{3} & y_{3}
+\end{pmatrix} \cdot \begin{pmatrix}
+A \\
+B \\
+C
+\end{pmatrix}&=
 \end{align}
 $$
