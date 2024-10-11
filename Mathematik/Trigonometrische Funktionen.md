@@ -3,6 +3,7 @@ tags:
 aliases:
   - Definition 4.31
   - Bemerkung 4.32
+  - Trigonometrie
 keywords: 
 subject:
   - VL
@@ -30,6 +31,7 @@ professor:
 > Das Argument $x \in \mathbb{R}$ entspricht dabei dem Winkel in Radiant (rad), also der Länge des Bogens am Einheitskreis.
 > > [!info] **==$\pi$==** bezeichnet die halbe Länge des Einheitskreises.
 
+**Trignometrische Funktionen im Einheitskreis**
 ![invert_dark|500](assets/Einheitskreis.png)
 
 - Die Funktion $\sin(x)$ eingeschränkt auf das Intervall $\left[-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right]$ streng monoton wachsend
