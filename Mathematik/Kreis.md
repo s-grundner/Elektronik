@@ -78,13 +78,25 @@ A-B\cdot x_{2}-C\cdot y_{2} &= -(x_{2}^{2}+y_{2}^{2}) \\
 A-B\cdot x_{3}-C\cdot y_{3} &= -(x_{3}^{2}+y_{3}^{2}) \\
 &\Downarrow \\
 \begin{pmatrix}
-1 & x_{1} & y_{2}\\
-1 & x_{2} & y_{2}\\
-1 & x_{3} & y_{3}
+-1 & x_{1} & y_{2}\\
+-1 & x_{2} & y_{2}\\
+-1 & x_{3} & y_{3}
 \end{pmatrix} \cdot \begin{pmatrix}
-A \\
-B \\
-C
-\end{pmatrix}&=
+A \\ B \\ C
+\end{pmatrix} &= \begin{pmatrix}
+x_{1}^{2}+y_{1}^{2} \\
+x_{2}^{2}+y_{2}^{2} \\
+x_{3}^{2}+y_{3}^{2}
+\end{pmatrix}
 \end{align}
 $$
+
+Mit dem Lösen des Gleichungssystems folgt:
+
+$$
+\begin{gathered}
+M_{y} = \frac{C}{2},\quad M_{x} = \frac{B}{2} \\
+r^{2} = \frac{C^{2}}{4}+\frac{B^{2}}{4}-A\quad\text{bzw} \quad r = \sqrt{ M_{y}^{2}+M_{x}^{2}-{A} }
+\end{gathered}
+$$
+
