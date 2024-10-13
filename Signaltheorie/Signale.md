@@ -193,8 +193,6 @@ x_{\mathrm{u}}(t) & =\frac{1}{2}(x(t)-x(-t))
 \end{aligned}
 $$
 
-
-
 #### 4.1 Konjugiert gerade und konjugiert ungerade Signale
 
 Für komplexe Signale gelten folgenden zusätzliche Definitionen
