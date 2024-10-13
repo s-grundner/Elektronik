@@ -95,6 +95,17 @@ $$
 \oint_{C_0} \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=\int_0^d E_y\left(x_0, y, z_0, t\right) \mathrm{d} y-\int_0^d E_y\left(x_1, y, z_0, t\right) \mathrm{d} y
 $$
 
+> [!important] Da das Flächenintegral über $S_{0}$ (Fläche der Kontur $C_{0}$) verschwindet (da kein H-Feld in $z$-Richtung vorhanden ist) erhält man:
+>
+
+$$
+\begin{align}
+\oint_{C_0} \mathbf{E} \cdot \mathrm{~d} \mathbf{l} &= \int_0^d E_y\left(x_0, y, z_0, t\right) \mathrm{d} y-\int_0^d E_y\left(x_1, y, z_0, t\right) \mathrm{d} y \\
+&=-\frac{\partial }{\partial t} \int _{0}^{d}\int _{x_{0}}^{x_{1}} \mu \mathbf{H}_{z}(x,y,z,t) \, dxdy=0 
+
+\end{align}
+$$
+
 ## Andere Moden
 
 HF-Leitungen höherer ordnung
