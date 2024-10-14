@@ -44,3 +44,10 @@ nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
 
 - [Kombinatorik](../assets/pdf/Kombinatorik.pdf)
 - [UEZ-Kombinatorik](../assets/pdf/UEZ-Kombinatorik.pdf) 
+
+
+---
+
+# Tags
+
+- [[../../Technische Informatik/Kombinatorische Logik]]

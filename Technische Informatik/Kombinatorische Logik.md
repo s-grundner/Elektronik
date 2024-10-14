@@ -1,0 +1,31 @@
+---
+tags: 
+aliases: 
+keywords: 
+subject:
+  - PR
+  - Hardwaredesign
+semester: WS24
+created: 14. Oktober 2024
+professor:
+---
+ 
+# Kombinatorische Logik
+
+Kombinatorische Logik bildet eine Bitm!imp enge am Eingang auf eine Bitmenge am Ausgang ab.
+
+- mathematische Funktion die immer das selbe liefert
+
+$$
+\mathbb{B}_{\{0,1\}}^{\text{in}} \mapsto \mathbb{B}_{\{0,1\}}^{\text{out}}
+$$
+
+> [!info] Propagation Delay: Zeit die die Kombinatorik benötigt um fertig zu werden
+> Wärend dieser Zeit kann der zustand des Ausgangs prellen
+> - Unterschiedliche Laufzeit der inneren Gatter
+
+---
+
+# Tags
+
+- [[Sequenzielle Logik]]
