@@ -12,10 +12,10 @@ professor:
  
 # Kombinatorische Logik
 
-> [!important] Kombinatorische Logik bildet eine Bitmenge am Eingang auf eine Bitmenge am Ausgang ab.
+> [!important] Kombinatorische Logik bildet eine Bitmenge $\mathbb{B}$ am Eingang auf eine Bitmenge am Ausgang ab.
 > 
 > - mathematische Funktion die immer das selbe liefert
-> $$ \mathbb{B}_{\{0,1\}}^{\text{in}} \mapsto \mathbb{B}_{\{0,1\}}^{\text{out}} $$
+> $$ \mathbb{B}:\{0,1\}\quad \mathbb{B}_{\text{in}} \mapsto \mathbb{B}_{\text{out}} $$
 
 > [!info] Propagation Delay: Zeit die die Kombinatorik benötigt um fertig zu werden
 > Wärend dieser Zeit kann der zustand des Ausgangs prellen
