@@ -29,6 +29,15 @@ entity ...
 
 ```
 
+## Clock Generierung
+
+```vhdl
+clk_gen :  process(tb_clk) is
+begin
+    tb_clk <= not tb_clk after 1 ns; -- 500MHz Clock
+end process clk_gen
+```
+
 ## FSM in VHDL
 
 ```vhdl title="Finite State Machine"

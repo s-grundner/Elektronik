@@ -14,12 +14,14 @@ professor:
 
 ## Do-File
 
-```do
+```do title="sim.do"
 vlib work
 vmap work work
 
 vcom -work work [*.vhd]
-vsim work.[TestBench.vhd]
+vsim work.[TestBench entity]
+
+add wave * -r
 
 
 ```
