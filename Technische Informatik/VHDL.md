@@ -12,8 +12,6 @@ professor:
  
 # VHDL
 
-
-
 > [!important] Register- und Kombinatorikprozesse trennen!
 > 
 > - **Kombinatorik:**  *alle* inputs außer `clk_i` und `reset_i` in der Sensitivity List
@@ -21,9 +19,19 @@ professor:
 
 > [!warning] Niemals benötigt man `clk_i` und `reset_i` in einem kombinatorischen Prozess
 
+## Entity / Architecture
+
+```vhdl title="entity"
+entity ...
+```
+
+```vhdl title="architecture"
+
+```
+
 ## FSM in VHDL
 
-```vhdl
+```vhdl title="Finite State Machine"
 fsm_combinatoric : process (start_button_i, counter_value_i, blink_fsm_state) is
 begin
     next_blink_fsm_state <= blink_fsm_state; -- Standard zuweisung: alten State übernehmen
@@ -48,8 +56,4 @@ begin
     end case;
 end process;
 ```
-
-## Strobe Sigale
-
-Sind nur für eine Clock Periode 1
 
