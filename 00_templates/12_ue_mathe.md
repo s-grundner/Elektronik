@@ -10,7 +10,7 @@ tp.file.rename("UE" + nr)
 ---
 
 📝 [Angabe](Angaben/Uebung<%* tR += nr%>.pdf)
-✅ [Lösung](Loesungen/UE<%* tR += nr%>-k12136610.pdf)
+✅ [Lösung](Abgaben/UE<%* tR += nr%>-k12136610.pdf)
 
 ---
 
