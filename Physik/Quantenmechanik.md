@@ -96,20 +96,23 @@ $$
 
 ```tikz
 \usepackage{amsmath}
-
 \begin{document}
-\begin{tikzpicture}[scale=2]
+\begin{tikzpicture}[scale=1.5]
 
-\newcommand\OFS{0};
+% Zeitkontinuierliches Signal (links)
+\begin{scope}
+    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {\Large $t$};
+    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {\Large $x(t)$};
+    
+    % Das kontinuierliche Signal
+    \draw[very thick, color=red,domain=0:3,samples=100,smooth] 
+        plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
+        
+    \node at (1.5,-2) {\Large \text{Zeitkontinuierliches\, Signal}};
+\end{scope}
 
-\begin{axis}
-\addplot[
-samples=16,
-domain=-10:10
-]
-{exp(-(x)^2)};
-\end{axis}
+
 \end{tikzpicture}
 \end{document}
-```
 
+```

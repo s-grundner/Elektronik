@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - tikz/pgfplot
 aliases:
   - Energiesignal
   - Leistungssignal
