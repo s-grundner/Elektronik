@@ -2,11 +2,10 @@
 tags:
   - Konstante
   - Physik
-aliases:
-  - Planck'sches Wirkungsquantum
+aliases: []
 symbol: $h$
 value: $6.625\cdot 10^{-34}$
 unit: $\dfrac{W}{s}$
 ---
 
-> [!question] $h = 6.625\cdot 10^{-34} Js$
+> [!QUESTION] $\hbar r = 6.625\cdot 10^{-34} Js$
