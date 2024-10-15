@@ -12,7 +12,7 @@ created: 1. März 2024
 - Elektr. Leiter 1. Klasse ([Metalle](Metallbindung.md)) $\rightarrow$ Elektronen als Ladungsträger
 - Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ Ionen als Ladungsträger
 
-## 1 Valenz und Leitungsband
+## Valenz und Leitungsband
 
 ![#invert_light|775](../Hardwareentwicklung/assets/Baendermodell.png)
 

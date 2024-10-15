@@ -7,19 +7,25 @@ aliases:
   - Silizium
   - Halbleiter
 subject:
-  - dic
-  - hwe
-  - chemie
+  - VL
+  - Einführung Elektronik
 material:
   - Si
 dielectric: 11.7
 tan-loss: 0.005
 at: 10GHz
+semester: WS24
 ---
 
 # Silizium
 
-![300](assets/Pasted%20image%2020240116122317.jpg)
+![InlineR|200](assets/Pasted%20image%2020240116122317.jpg)
+
+Bandstruktur: Aufpreizung der Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen
+
+![invert_dark](assets/SiLeitungsValenzband.png)
+
+
 
 # Tags
 

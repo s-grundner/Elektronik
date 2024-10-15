@@ -6,6 +6,7 @@ aliases:
   - Valenzen
   - Valenzelektron
   - Außenelektron
+  - Valenzband
 subject:
   - chemie
 source:
@@ -15,7 +16,7 @@ created: 20th August 2022
 
 # Valenzelektronen
 
-- Elektronen der äußersten [Schale](Orbitalmodell.md) (**Außenelektronen**) eines Atoms.
+- Elektronen der äußersten [Schale](Orbitalmodell.md) (**Außenelektronen**, Valenzband) eines Atoms.
 - Sind für **chem. Verhalten** verantwortlich.
 - Diese Elektronen können **Bindungen** (Valenzen) ausbilden. 
 - Die zusammengezählten Hochzahlen der höchsten [Hauptquantenzahl](Orbitalmodell.md) ergeben die Anzahl an Valenzelektronen  
@@ -33,7 +34,7 @@ Alle anderen sind *mehr* oder *weniger* reaktiv.
 Wie zu sehen entspricht die Anzahl der Valenzelektronen einer Hauptgruppe im [PSE](Periodensystem%20der%20Elemente.md).
 
 ## Schreibweise Für Außenelektronen
->![450](assets/psee-schreibw.png)
+>![invert_light|450](assets/psee-schreibw.png)
 
 ---
 # Tags
