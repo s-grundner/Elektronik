@@ -15,20 +15,31 @@ dielectric: 11.7
 tan-loss: 0.005
 at: 10GHz
 semester: WS24
+professor:
+  - Bernhard Jakoby
 ---
 
-# Silizium
+# Halbleiter (Silizium)
 
 ![InlineR|200](assets/Pasted%20image%2020240116122317.jpg)
 
-Bandstruktur: Aufpreizung der Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen
+[Bandstruktur](../../Chemie/elektrischer%20Leiter.md): Aufpreizung der Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen
 
-![invert_dark](assets/SiLeitungsValenzband.png)
+![invert_dark|700](assets/SiLeitungsValenzband.png)
 
 ## Valenz und Leitungsband
 
-![](assets/HalbleiterValenzLeitungsband.png)
+![500](assets/HalbleiterValenzLeitungsband.png)
 Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“). Dichte der erzeugten Ladungsträger:
+
+
+$$
+n_i^2=C \cdot e^{\left(-\tfrac{W_G}{k_b T}\right)}
+$$
+
+Dadurch können auch im Valenzband wieder Elektronen verschoben werden.
+
+Statt der Bewegung dieser Valenzelektronen kann man auch das Wandern des Loches betrachten das sich wie ein positiv geladener Ladungsträger verhält. Die Löcher bewegen sich unabhängig von den „zugehörigen“ Elektronen.
 
 # Tags
 

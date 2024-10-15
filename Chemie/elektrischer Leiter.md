@@ -4,15 +4,23 @@ aliases:
   - elektrische Leiter
   - elektrische Leitfähigkeit
 created: 1. März 2024
+subject:
+  - Einführung Elektronik
+  - VL
+professor:
+  - Bernhard Jakoby
+semester: WS25
 ---
 
 # Elektrische Leitfähigkeit
 
-- Leiter, [Silizium](../Physik/Materialkunde/Silizium.md), Isolator (Nichtleiter)
+- Leiter, [Silizium](../Physik/Materialkunde/Silizium.md), Isolator (prof)
 - Elektr. Leiter 1. Klasse ([Metalle](Metallbindung.md)) $\rightarrow$ Elektronen als Ladungsträger
 - Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ Ionen als Ladungsträger
 
-## Valenz und Leitungsband
+## Bandstruktur
+
+> [!success] Valenz (VB) und Leitungsband (LB)
 
 ![#invert_light|775](../Hardwareentwicklung/assets/Baendermodell.png)
 
