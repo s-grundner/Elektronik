@@ -102,20 +102,14 @@ $$
 
 \newcommand\OFS{0};
 
-\begin{axis}[colormap/viridis]
-\addplot3[
-surf,
+\begin{axis}
+\addplot[
 samples=16,
-domain=-3:3
+domain=-10:10
 ]
-{exp(-(x-\O))};
+{exp(-(x)^2)};
 \end{axis}
-    
-% Weitere Punkte auf der Kurve (optional)
-\foreach \x in {-1, 1} {
-    \draw[dashed] (\x, 0) -- (\x, {exp(-\x*\x)});
-    \fill (\x, {exp(-\x*\x)}) circle (1pt);
-}
 \end{tikzpicture}
 \end{document}
-`
+```
+
