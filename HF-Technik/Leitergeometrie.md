@@ -64,7 +64,7 @@ Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösun
 
 Konturintegral über dem Modellquerschnitt
 
-Mit dem [Satz von Stokes](Satz%20von%20Stokes.md) folgt:
+Mit dem [Satz von Stokes](Mathematik/Satz%20von%20Stokes.md) folgt:
 $$
 \nabla \times \mathbf{E}=-\frac{\partial}{\partial t} \mathbf{B} \implies \oint_C \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=-\frac{\partial}{\partial t} \iint_S \mu \mathbf{H} \cdot \mathrm{~d} \mathbf{s}
 $$

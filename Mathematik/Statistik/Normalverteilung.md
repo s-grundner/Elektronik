@@ -5,7 +5,6 @@ aliases:
   - Dichtefunktion
 subject:
   - mathe
-  - Einführung Elektronik
 source: 
 created: 10th January 2023
 semester: 

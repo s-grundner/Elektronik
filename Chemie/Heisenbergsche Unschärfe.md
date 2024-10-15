@@ -15,7 +15,7 @@ professor:
 $$
 \Delta x\cdot \Delta p = \hbar 
 $$
-Ist der Ort $x$ genau bekannt, so ist der Impuls verstreut
-Ist der Impuls $p$ genau bekannt, so ist der Ort verstreut
+Ist der Ort $x$ genau bekannt, so ist der [Impuls](../Physik/Impuls.md) verstreut
+Ist der [Impuls](../Physik/Impuls.md) $p$ genau bekannt, so ist der Ort verstreut
 
-Das Produkt ist die reduzierte Planck Konstante
+Das Produkt ist die [reduzierte Planck Konstante](../Physik/Konstanten/reduzierte%20Planck%20Konstante.md)

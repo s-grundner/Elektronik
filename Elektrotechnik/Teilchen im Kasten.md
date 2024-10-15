@@ -20,7 +20,7 @@ $$
 \psi(x)= \sqrt{ \frac{2}{L} }\cdot \sin\left( \frac{n\pi}{L}\cdot x \right)
 $$
 
-Für stationäre Zustände sind nur diskrete Energieniveaus möglich
+Für stationäre Zustände sind nur diskrete Energieniveaus $n$ möglich
 $$
 E_{n}=\frac{\hbar^{2}n^{2}}{8mL^{2}}
 $$
