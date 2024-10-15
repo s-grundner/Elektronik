@@ -21,7 +21,7 @@ vmap work work
 vcom -work work [*.vhd]
 vsim work.[TestBench entity]
 
-add wave * -r
+add wave -r *
 
-
+run 1000 ns
 ```

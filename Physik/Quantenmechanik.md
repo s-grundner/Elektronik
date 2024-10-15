@@ -95,24 +95,21 @@ $$
 ## Erwartungswerte
 
 ```tikz
-\usepackage{amsmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
 \begin{document}
-\begin{tikzpicture}[scale=1.5]
 
-% Zeitkontinuierliches Signal (links)
-\begin{scope}
-    \draw[->, very thick] (-0.2,0) -- (3.5,0) node[right] {\Large $t$};
-    \draw[->, very thick] (0,-1.5) -- (0,2) node[above] {\Large $x(t)$};
-    
-    % Das kontinuierliche Signal
-    \draw[very thick, color=red,domain=0:3,samples=100,smooth] 
-        plot(\x,{0.5*sin(2*\x r) + 0.7*sin(4*\x r)});
-        
-    \node at (1.5,-2) {\Large \text{Zeitkontinuierliches\, Signal}};
-\end{scope}
-
-
+\begin{tikzpicture}
+\begin{axis}[colormap/viridis]
+\addplot3[
+	surf,
+	samples=16,
+	domain=-3:3
+]
+{exp(-x^2-y^2)};
+\end{axis}
 \end{tikzpicture}
-\end{document}
 
+\end{document}
 ```
