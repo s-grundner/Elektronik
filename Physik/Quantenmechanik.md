@@ -96,14 +96,14 @@ $$
 
 ```tikz
 \usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]
-\addplot[]{x};
+
+\begin{axis}
+\addplot{x};
 \end{axis}
+
 \end{tikzpicture}
 
 \end{document}
