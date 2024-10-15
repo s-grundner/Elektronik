@@ -25,7 +25,10 @@ Bandstruktur: Aufpreizung der Energieniveaus (siehe [Teilchen im Kasten](../../E
 
 ![invert_dark](assets/SiLeitungsValenzband.png)
 
+## Valenz und Leitungsband
 
+![](assets/HalbleiterValenzLeitungsband.png)
+Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“). Dichte der erzeugten Ladungsträger:
 
 # Tags
 

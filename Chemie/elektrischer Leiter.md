@@ -16,4 +16,9 @@ created: 1. März 2024
 
 ![#invert_light|775](../Hardwareentwicklung/assets/Baendermodell.png)
 
+Energieabstände
+- Nichtleiter: $W_{g}>3eV$
+- Halbleiter: $W_{g}\approx1.12$
+- Leiter: $W_{g} = 0$
+
 [Why It Was Almost Impossible to Make the Blue LED - YouTube](https://www.youtube.com/watch?v=AF8d72mA41M)
