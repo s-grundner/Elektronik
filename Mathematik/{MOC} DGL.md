@@ -25,7 +25,7 @@ created: 14th March 2022
 > | Linear                | Nichtlinear                  |
 > | homogen               | inhomogen                    |
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
-> >
+> 
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
