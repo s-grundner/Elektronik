@@ -40,6 +40,12 @@ Für Berechnungen gilt: $Z=\frac{Z_{Z}}{Z_{N}}$ -> $\mid Z\mid=\frac{\mid Z_{Z}\
 
 # Tags
 
+> [!info] Warum werden $50\Omega$ oft benutzt
+> - Impedanz mit der besten Empfangsleitung: $77\Omega$
+> - Impedanz mit der besten Sendeleisung: $33\Omega$
+> 
+> MIttelwert ist $50\Omega$
+
 - [Impedanz Anpassung](Impedanz%20Anpassung.md)
 - [Kettenmatrix](../Hardwareentwicklung/Kettenmatrix.md)
 - [Induktivitäten](Induktivitäten.md)

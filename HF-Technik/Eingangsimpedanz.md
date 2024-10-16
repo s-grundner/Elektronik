@@ -24,12 +24,14 @@ Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md)
 
 ### Allgemein
 
-Eingangswiderstand $Z_{E}$
+Eingangswiderstand $Z_{E}$ einer allgemeinen, verlustbehafteten [HF-Übertragungsleitung](Transmission%20Line.md):
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ \frac{Z_{L}}{Z_{A}}\cdot\tanh(\gamma\cdot l)}{1+ \frac{Z_{A}}{Z_{L}}\cdot\tanh(\gamma\cdot l)}
 $$
 
 ### Verlustlos
+
+Eingangswiderstand $Z_{E}$ einer Verlustlosen [HF-Übertragungsleitung](Transmission%20Line.md)
 
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ j\frac{Z_{L}}{Z_{A}}\cdot\tan(\gamma\cdot l)}{1+ j\frac{Z_{A}}{Z_{L}}\cdot\tan(\gamma\cdot l)}

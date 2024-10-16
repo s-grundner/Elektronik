@@ -10,6 +10,8 @@ keywords:
 subject:
   - KV
   - HF-Systemtechnik 1
+  - EMV und SI
+  - VL
 semester: WS24
 created: 4. Oktober 2024
 professor:
@@ -97,3 +99,16 @@ Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Le
 \end{circuitikz}
 \end{document}
 ```
+
+## TL in LTSpice
+
+T. Lossless Transmission Line
+
+Symbol Name: `TLINE`
+Syntax: `Txxx L+ L- R+ R- Zo=<value> Td=<value>`
+$L+$ and $L-$ are the nodes at one port.
+$R+$ and $R-$ are the nodes for the other port.
+Zo is the characteristic impedance.
+The length of the line is given by the propagation delay Td.
+
+In diesem Zusammenhang wird das propagation delay $\operatorname{Td}\left(t_d\right.$ oder $t_p$ ) als die Zeit definiert, die ein Signal benötigt sich auf einer Transmission Line eine Länge I auszubreiten (vgl. „ähnliche" Definition von propagtion delay $\mathrm{t}_{\mathrm{pLH}}, \mathrm{t}_{\mathrm{pHL}}$ bei Digital Schaltungen/Gattern).
