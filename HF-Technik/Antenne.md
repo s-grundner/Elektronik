@@ -26,6 +26,8 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 
 > [!INFO] Der Sendeund Empfangsfall sind [reziprok](Reziprozität.md).
 
+- [[Fernfeld und Nahfeld]]
+
 #### Feldkomponenten $\vec{E}$ und $\vec{H}$
 
 $\vec{E}\dots$ [E-Feldstärke](../Elektrotechnik/elektrisches%20Feld.md#Elektrische%20Feldstärke)  
@@ -34,36 +36,13 @@ Das [Kreuzprodukt](Vektor.md) beider [Vektoren](Vektor.md) ergibt den [Poynting 
 
 $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
 
-[Transversale Elektromagnetische Welle](Transversale%20Elektromagnetische%20Welle.md)
-
-### Nahfeld und Fernfeld
-
- 
-Bei der Beschreibung von Antennen macht es einen großen Unterschied, ob man sich für die Feldverteilung im unmittelbaren Umfeld der Antenne (==Nahfeld==) oder nur für Beobachtungspunkte in größerer Entfernung (==Fernfeld==) interessiert
-
-> [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
-
->[!summary] Feldzonen  
->![Ant_feldzonen](assets/Ant_feldzonen.png)
-
-#### Vereinfachungen beim Übergang vom Nah ins Fernfeld:
-
-- Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
-- Im Fernfeld dominiert hingegen der radial orientierte Leistungstransport.
-
-Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und den geometrischen Abmessungen der Antenne ab.
-
-Feldabstand bei:
-- elektrisch kleinen Antennen: $r\geq 2\uplambda$
-- elektrisch großen Antennen: $r\dots$
-
- 
+- [Transversale Elektromagnetische Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ### Kenngrößen für das Strahlungsfeld einer Antenne
 
 #### Richtcharakteristik $C_{i}$
 
-![richtc_graph](assets/richtc_graph.png)
+![invert_dark](assets/richtc_graph.png)
 
 #### Richtfunktion $D$
 
@@ -81,7 +60,7 @@ Feldabstand bei:
 
 - Fringing Field -> Randfeld
 
-## 9:27:
+## 9:27
 
 - [TEM-Welle](Transversale%20Elektromagnetische%20Welle.md) -> Amplituden sind Normal zur Ausbreitungsrichtung
 - $\vec E\times\vec H$ visualisiert

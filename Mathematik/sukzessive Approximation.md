@@ -47,7 +47,7 @@ $$
 \boxed{ \lvert \lvert \varphi_{n}^{(t)}-x^{(t)}  \rvert  \rvert \leq \underbrace{ M \cdot L^{n} \cdot \frac{\alpha^{n+1}}{(n+1)!} }_{ \to 0 \text{ mit } n\to \infty \quad(1)} \quad \text{für alle}\quad t\in[t_{0}-\alpha,t_{0}+\alpha] }
 $$
 
-siehe Satz von [Peano](../Peano.md) zur Maximumsnorm
+siehe Satz von [Peano](Peano.md) zur Maximumsnorm
 
 
 > [!success]- Beweis (1):
