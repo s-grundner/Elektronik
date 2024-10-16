@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Differenzialgleichungssystem
 keywords: 
 subject:
   - VL
@@ -36,5 +37,9 @@ x_{k}'&=x_{k+1}, \quad  k=1, \dots,n-1 \\
 F(t,x_{1},\dots,x_{n},x_{n}') & =0
 \end{align}
 $$
+
+
+
+---
 
 [Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
