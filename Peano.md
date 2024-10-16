@@ -42,8 +42,8 @@ Quader $Q_{v,u}$
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[axis lines=middle, xmin=0, xmax=6, ymin=-6, ymax=6]
-\draw (0, 1) -- (1, 1) -- (1, 0) -- (5, -5) -- (-5, -5) -- (-5, 5);
+\begin{axis}[xmin=-0.1, xmax=1.1, ymin=-0.1, ymax=1.1]
+\draw (0, 1) -- (1, 1) -- (1, 0) -- (0, 0) -- (0, 1);
 \end{axis}
 \end{tikzpicture}
 
@@ -66,7 +66,7 @@ Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der
 
 \begin{tikzpicture}
 \begin{axis}[axis lines=middle, xmin=-6, xmax=6, ymin=-6, ymax=6]
-\draw (-5, 5) -- (5, 5) -- (5, 5) -- (5, -5) -- (5, -5) -- (-5, -5) -- (-5, -5) -- (-5, 5);
+\draw (-5, 5) -- (5, 5) -- (5, -5) -- (-5, -5) -- (-5, 5);
 \end{axis}
 \end{tikzpicture}
 

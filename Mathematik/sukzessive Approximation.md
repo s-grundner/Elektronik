@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Fixpunkt-Iteration
 keywords: 
 subject:
   - VL
@@ -66,3 +67,46 @@ $$
 $$
 
 $X$ hat keine Löcher bzw. $x$ ist vollständig $\to$   ist ein [Barnachraum](Barnachscher%20Fixpunktsatz.md)
+
+>[!example] Nichtlineares AWP: (Riccati DGL)
+Beispiel 4.11. Wir betrachten das nichtlineare AWP (Riccati-DGL)
+
+$$
+x^{\prime}=x^2-t, \quad x(0)=0
+$$
+
+
+Die Funktion $f(t, x):=x^2-t$ ist auf ganz $\mathbb{R}^2$ definiert. Im Hinblick auf die Fehlerabschätzung betrachten wir die Einschränkung der rechten Seite der DGL auf das Quadrat
+
+$$
+Q_{\frac{1}{2}, \frac{1}{2}}=\left\{(t, x) \in \mathbb{R}^2:|t| \leq \frac{1}{2},|x| \leq \frac{1}{2}\right\}=\left[-\frac{1}{2}, \frac{1}{2}\right] \times\left[-\frac{1}{2}, \frac{1}{2}\right] .
+$$
+
+
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[xmin=-0.7, xmax=0.7, ymin=-0.7, ymax=0.7]
+
+\end{tikzpicture}
+
+\end{document}
+```
+
+Dort gilt die Abschätzung
+
+$$
+|f(t, x)-f(t, y)|=\left|\left(x^2-t\right)-\left(y^2-t\right)\right|=|x+y||x-y| \leq|x-y| .
+$$
+
+
+Also ist eine Lipschitzbedingung erfüllt mit $L=1$.
+Um die Größe des Existenzintervalls zu bekommen, schätzen wir $f$ auf der Menge $Q_{\frac{1}{2}, \frac{1}{2}}$ ab:
+
+$$
+\left|x^2-t\right| \leq x^2+|t| \leq \frac{3}{4}
+$$
