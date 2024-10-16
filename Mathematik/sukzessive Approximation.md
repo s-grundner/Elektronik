@@ -90,8 +90,9 @@ $$
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[xmin=-0.7, xmax=0.7, ymin=-0.7, ymax=0.7]
-
+\begin{axis}[dashed, axis lines=middle, xmin=-0.7, xmax=0.7, ymin=-0.7, ymax=0.7]
+\draw[solid] (-0.5, -0.5) -- (-0.5, 0.5) -- (0.5, 0.5) -- (0.5, -0.5) -- (-0.5, -0.5);
+\end{axis}
 \end{tikzpicture}
 
 \end{document}
@@ -110,3 +111,27 @@ Um die Größe des Existenzintervalls zu bekommen, schätzen wir $f$ auf der Men
 $$
 \left|x^2-t\right| \leq x^2+|t| \leq \frac{3}{4}
 $$
+
+Wegen $\alpha=\min \left\{\frac{1}{2}, \frac{1}{2} \frac{4}{3}\right\}=\frac{1}{2}$, liefert der Satz 4.9 die eindeutige Existenz der Lösung auf dem Intervall $I=\left[-\frac{1}{2}, \frac{1}{2}\right]$.
+
+Die ersten drei Iterationen der sukzessiven Approximation (4.6) liefern dann:
+
+$$
+\begin{aligned}
+& \varphi_1(t)=-\frac{t^2}{2} \\
+& \varphi_2(t)=-\frac{t^2}{2}+\frac{t^5}{20} \\
+& \varphi_3(t)=-\frac{t^2}{2}+\frac{t^5}{20}-\frac{t^8}{160}+\frac{t^{11}}{4400}
+\end{aligned}
+$$
+
+
+Für einen Mathematica- bzw. Python-Code zur Berechnung der Polynome siehe A. 2 bzw. B.2.
+
+Die Fehlerabschätzung (4.7) liefert für $\varphi_3$ die Abschätzung
+
+$$
+\frac{3}{4}\left(\frac{1}{2}\right)^4 \frac{1}{4!}=\frac{3}{1536} \approx 2 \cdot 10^{-3}
+$$
+
+
+In der Praxis ist allerdings der Fehler meist viel kleiner als die Schranke.
