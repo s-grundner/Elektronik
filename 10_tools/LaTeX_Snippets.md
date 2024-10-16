@@ -306,7 +306,7 @@
 
 	// Brackets
 	{trigger: "avg", replacement: "\\langle $0 \\rangle $1", options: "mA"},
-	{trigger: "norm", replacement: "\\lvert $0 \\rvert $1", options: "mA", priority: 1},
+	{trigger: "norm", replacement: "\\lvert\\lvert $0 \\rvert\\rvert $1", options: "mA", priority: 1},
 	{trigger: "mod", replacement: "|$0|$1", options: "mA"},
 	{trigger: "(", replacement: "(${VISUAL})", options: "mA"},
 	{trigger: "[", replacement: "[${VISUAL}]", options: "mA"},
