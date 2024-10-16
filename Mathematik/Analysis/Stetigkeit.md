@@ -23,10 +23,6 @@ Liste Stetiger Funktionsarten
 - Kreisfunktionen $\sin \cos \tan \left( \mathbb{R}\setminus \left\{  k\cdot \pi+\frac{\pi}{2}  \right\} \right)$
 - Rationale Funktionen
 
-## Definitionslücke
-
-## Lipschitz-Stetigkeit
-
----
-
 # Tags
+
+[Lipschitz-Stetigkeit](Lipschitz-Stetigkeit.md)
