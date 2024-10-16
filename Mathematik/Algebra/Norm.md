@@ -5,6 +5,8 @@ aliases:
   - Satz 6.15
   - Parallelogrammgleichung
   - Cauchy-Schwarzsche Ungleichung
+  - euklidsche Norm
+  - euklidschen Norm
 keywords: 
 subject:
   - VL
