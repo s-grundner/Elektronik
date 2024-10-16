@@ -55,6 +55,10 @@ siehe Satz von [Peano](../Peano.md)
 > e^{ L\alpha } = \sum_{n=0}^{\infty} \frac{(L\alpha)^n}{n!} \implies \frac{(L\alpha)^n}{n!}\to 0\implies n \to \infty
 > $$
 
-$x:=$ stetige Funktion
+$X:=$ Raum stetiger Funktion von $[t_{0}-\alpha, t_{0}+\alpha]$ nach $\mathbb{R}^m$
 
-$x$ hat keine Löcher bzw. $x$ ist vollständig $\to$ x ist ein [[]]
+$$
+g \in X\quad \lvert\lvert g \rvert\rvert _{\infty}:= \underset{t \in[t_0 - \alpha, t_0 + \alpha]}{\operatorname{max} \lvert\lvert g(t) \rvert\rvert } = \underset{}{\operatorname{}}
+$$ 
+
+$X$ hat keine Löcher bzw. $x$ ist vollständig $\to$ ist ein [Barnachraum](Barnachscher%20Fixpunktsatz.md)
