@@ -49,21 +49,11 @@ $$
 F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)}) 
 $$
 
-> [!info] Jede DGL $n$-ter Ordnung lässt sich in ein System überführen
-> $$
-> F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
-> x_{1}=x' \\
-> x_{2}=x_{1}'' \\
-> \quad\vdots  \\
-> x_{n-1} = x_{n-1}' \\
-> \end{cases}
-> $$
-> 
-
 ## Map of Content
 
 - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
 - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
+- [DGL-System](DGL-System.md)
 
 ## Anwendungen und Beispiele
 
