@@ -43,10 +43,10 @@ $$
 Für eine Lösung $x$ von dem AWP bzw einen Fixpunkt $x$ von $A$ gilt:
 
 $$
-\lvert \lvert \varphi_{n}^{(t)}-x^{(t)}  \rvert  \rvert \leq \underbrace{ M \cdot L^{n} \cdot \frac{\alpha^{n+1}}{(n+1)!} }_{ \to 0 \text{ mit } n\to \infty \quad(1)} \quad \text{für alle}\quad t\in[t_{0}-\alpha,t_{0}+\alpha]
+\boxed{ \lvert \lvert \varphi_{n}^{(t)}-x^{(t)}  \rvert  \rvert \leq \underbrace{ M \cdot L^{n} \cdot \frac{\alpha^{n+1}}{(n+1)!} }_{ \to 0 \text{ mit } n\to \infty \quad(1)} \quad \text{für alle}\quad t\in[t_{0}-\alpha,t_{0}+\alpha] }
 $$
 
-siehe Satz von [Peano](../Peano.md)
+siehe Satz von [Peano](../Peano.md) zur Maximumsnorm
 
 
 > [!success]- Beweis (1):
@@ -58,7 +58,11 @@ siehe Satz von [Peano](../Peano.md)
 $X:=$ Raum stetiger Funktion von $[t_{0}-\alpha, t_{0}+\alpha]$ nach $\mathbb{R}^m$
 
 $$
-g \in X\quad \lvert\lvert g \rvert\rvert _{\infty}:= \underset{t \in[t_0 - \alpha, t_0 + \alpha]}{\operatorname{max} \lvert\lvert g(t) \rvert\rvert } = \underset{}{\operatorname{}}
-$$ 
+g \in X\quad \lvert\lvert g \rvert\rvert _{\infty}:= \underset{t \in[t_0 - \alpha, t_0 + \alpha]}{\operatorname{max} \lvert\lvert g(t) \rvert\rvert_{\infty} } = \underset{t \in[t_0 - \alpha, t_0 + \alpha]}{\operatorname{max}}\underset{1\leq i\leq m}{\operatorname{max}} | g_{i}(t)|
+$$
 
-$X$ hat keine Löcher bzw. $x$ ist vollständig $\to$ ist ein [Barnachraum](Barnachscher%20Fixpunktsatz.md)
+$$
+\boxed{ \lvert\lvert g \rvert\rvert _{w}:= \underset{ t \in[t_0 - \alpha, t_0 + \alpha] }{ \operatorname{max} } e^{ -2Lt } \cdot \lvert\lvert g \rvert\rvert _{\infty} }
+$$
+
+$X$ hat keine Löcher bzw. $x$ ist vollständig $\to$   ist ein [Barnachraum](Barnachscher%20Fixpunktsatz.md)

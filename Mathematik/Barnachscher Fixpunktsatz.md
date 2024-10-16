@@ -16,6 +16,7 @@ professor:
 
 > [!important] Barnachscher Fixpunktsatz
 > Sei $A: x \to x$ mit $\lvert\lvert Ag-Ah \rvert\rvert \leq \rho\lvert\lvert g-h \rvert\rvert$ mit $\rho<1$ für alle $g,h \in x$
+> dann existiert genau ein Fixpunkt von $A$ in $X$
 
 > [!info] Operator $A$ ist eine Abbildung von dem Raum der Stetigen funktionen in sich selbst.
 > $A$ nimmt eine stetige Funktion und produziert wieder eine solche

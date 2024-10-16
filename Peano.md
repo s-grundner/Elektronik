@@ -34,6 +34,23 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 > Diese Aussage gilt auch, wenn man in (4.3) das Intervall $\left[t_0, t_0+u\right]$ durch $\left[t_0-u, t_0\right.$ ] oder $\left[t_0-u, t_0+u\right]$ ersetzt, wobei sich dann das Existenzintervall zu $\left[t_0-\alpha, t_0\right]$ bzw. $\left[t_0-\alpha, t_0+\alpha\right]$ ändert.
 
 
+Quader $Q_{v,u}$
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[axis lines=middle, xmin=0, xmax=6, ymin=-6, ymax=6]
+\draw (0, 1) -- (1, 1) -- (1, 0) -- (5, -5) -- (-5, -5) -- (-5, 5);
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+
 ## Maximumsnorm
 
 >[!example] $x := \{-1, -5, 3, 4\}$
@@ -49,10 +66,7 @@ Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der
 
 \begin{tikzpicture}
 \begin{axis}[axis lines=middle, xmin=-6, xmax=6, ymin=-6, ymax=6]
-\draw (-5, 5) -- (5, 5);
-\draw (5, 5) -- (5, -5);
-\draw (5, -5) -- (-5, -5);
-\draw (-5, -5) -- (-5, 5);
+\draw (-5, 5) -- (5, 5) -- (5, 5) -- (5, -5) -- (5, -5) -- (-5, -5) -- (-5, -5) -- (-5, 5);
 \end{axis}
 \end{tikzpicture}
 
