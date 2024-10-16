@@ -11,7 +11,25 @@ created: 16. Oktober 2024
 professor:
 ---
  
+
 # Satz von Peano
+
+Global:
+
+ist $f:[c,d] \times \mathbb{R}^m \to \mathbb{R}$ stetig, dann hat das AWP for $t_{0} \in [c,d]$ eine Lösung $x$, die auf $[c,d]$ definiert ist.
+
+Der satz von Peano sagt uns die existenz mindestens einer Lösung.
+
+> [!important] Satz 17.7 (Peano)
+> Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$. Weiters sei die Funktion $f$ stetig auf dem Quader
+> 
+> $$ Q_{u, v}:=\left\{(t, x) \in \mathbb{R}^{m+1}: t \in\left[t_0, t_0+u\right],\left\|x-x_0\right\| \leq v\right\} \subset D $$
+> 
+> Dann besitzt das AWP (4.1) eine Lösung im Intervall $\left[t_0, t_0+\alpha\right]$, wobei
+> 
+> $$ \alpha:=\min \left\{u, \frac{v}{M}\right\}, \quad M:=\max _{(t, x) \in Q_{u, v}}\|f(t, x)\| $$
+> 
+> Diese Aussage gilt auch, wenn man in (4.3) das Intervall $\left[t_0, t_0+u\right]$ durch $\left[t_0-u, t_0\right.$ ] oder $\left[t_0-u, t_0+u\right]$ ersetzt, wobei sich dann das Existenzintervall zu $\left[t_0-\alpha, t_0\right]$ bzw. $\left[t_0-\alpha, t_0+\alpha\right]$ ändert.
 
 ## Maximumsnorm
 
