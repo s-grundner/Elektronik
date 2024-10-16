@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - EMV
 keywords: 
 subject:
   - VL

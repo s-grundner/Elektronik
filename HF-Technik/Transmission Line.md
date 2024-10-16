@@ -106,9 +106,10 @@ T. Lossless Transmission Line
 
 Symbol Name: `TLINE`
 Syntax: `Txxx L+ L- R+ R- Zo=<value> Td=<value>`
-$L+$ and $L-$ are the nodes at one port.
-$R+$ and $R-$ are the nodes for the other port.
-Zo is the characteristic impedance.
-The length of the line is given by the propagation delay Td.
+$L+$ und $L-$ sind die Noden am Eingang.
+$R+$ und $R-$ sind die Noden am Ausgang.
+$Z_{0}$ ist die characteristische Impedanz.
+Die Länge der Leitung ist gegeben durch das propagation Delay $T_{d}$.
 
-In diesem Zusammenhang wird das propagation delay $\operatorname{Td}\left(t_d\right.$ oder $t_p$ ) als die Zeit definiert, die ein Signal benötigt sich auf einer Transmission Line eine Länge I auszubreiten (vgl. „ähnliche" Definition von propagtion delay $\mathrm{t}_{\mathrm{pLH}}, \mathrm{t}_{\mathrm{pHL}}$ bei Digital Schaltungen/Gattern).
+
+![invert_dark](assets/LTSpiceTL.png)
