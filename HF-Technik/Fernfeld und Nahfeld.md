@@ -20,7 +20,7 @@ Bei der Beschreibung von [Antennen](Antenne.md) macht es einen großen Unterschi
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
 >[!summary] Feldzonen  
->![invert_light|475](assets/Ant_feldzonen.png)
+>![invert_light](assets/Ant_feldzonen.png)
 
 ## Vereinfachungen beim Übergang vom Nah ins Fernfeld
 
@@ -35,7 +35,7 @@ Feldabstand bei:
 
 ## Reaktives Nahfeld
 
-> [!quote] Rayleigh-Zone
+> [!quote]- Rayleigh-Zone
 > - Reaktives Nahfeld
 
 - keine Energieabstrahlung
@@ -58,7 +58,8 @@ Feldabstand bei:
 
 ## Fernfeld
 
-> [!quote] Fraunhofer-Zone
+> [!quote]- Fraunhofer-Zone
+> - Fernfeld
 
 - Feldvektoren E und H stehen senkrecht aufeinander und sind in Phase
 - der Feldwellenwiderstand ist reell

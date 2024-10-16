@@ -4,9 +4,19 @@ tags:
   - Physik
 aliases:
   - Wellenwiderstand des Vakkum
+  - Feldwellenwiderstand des Vakuums
 symbol: $Z_{F}$
 value: $376.7303=\sqrt{\dfrac{\mu_{0}}{\varepsilon_{0}}}=120\pi$
 unit: $\Omega$
 ---
 
 > [!QUESTION] $Z_{F}=376.7303=\sqrt{\dfrac{\mu_{0}}{\varepsilon_{0}}}=120\pi\Omega$
+
+![invert_dark](assets/ImpedanzfelderFreiraum.png)
+
+Beim Hertzschen Dipol ist der Feldwellenwiderstand im Nahbereich (Nahfeld) deutlich größer als $377 \Omega$, beim magnetischen Dipol deutlich kleiner
+
+Feld des Hertzschen Dipols
+$\rightarrow$ Hochimpedanzfeld
+Feld des magnetischen Dipols
+$\rightarrow$ Niederimpedanzfeld
