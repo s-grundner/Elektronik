@@ -46,13 +46,13 @@ $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
 
 #### Richtfunktion $D$
 
-## Hertzscher [elektrischer Dipol](../Elektrotechnik/elektrischer%20Dipol.md)
-
-# Drahtantennen
 
 # Antennenbauformen
 
-[Richtantennen](Richtantennen.md)
+- Drahtantennen
+- [Richtantennen](Richtantennen.md)
+- Hertzscher Dipol
+- Halbwellendipol
 
 # Quellen
 
