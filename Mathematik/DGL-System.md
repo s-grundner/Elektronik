@@ -52,11 +52,11 @@ $$
 > 
 > $$y^{(4)}(x)+4 y(x)=1+x+x^2$$
 
-> [!success]- Lösung
+> [!success]+ Lösung
 > 
 > $F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
 > 
-> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$, dann ergibt sich der hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
+> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$, dann ergibt sich der Hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
 > 
 > $$
 > \begin{array}{ll}
@@ -76,6 +76,7 @@ $$
 > z_{4}' &= -4z_{1}+x^{2}+x+1
 > \end{align}
 > $$
+> 
 > Es ergibt sich das Gleichungssystem:
 > 
 > $$
@@ -90,3 +91,15 @@ $$
 > \end{pmatrix}
 > \end{align}
 > $$
+
+>[!example] DGLS002:
+> $$y'' y'''+3 y'' y'+y=4 \sin (x)$$
+> 
+
+> [!success]+ Lösung
+
+
+
+$F(x,y,y'',y''')=0=y'' y'''+3 y'' y'+y-4 \sin (x)$
+
+Setze $y_k=y^{(k-1)} \quad k=1,2,3 \Rightarrow y_k^{\prime}=y_{k+1} \quad k=1,2$
