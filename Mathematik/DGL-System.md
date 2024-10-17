@@ -47,5 +47,27 @@ $$
 
 # Beispiele
 
-DGLS001:
+>[!example] DGLS001:
+> Überführen Sie die folgenden Differentialgleichungen in ein (falls möglich explizites) Differentialgleichungssystem erster Ordnung.
+> 
+> $$y^{(4)}(x)+4 y(x)=1+x+x^2$$
 
+> [!success]- Lösung
+> 
+
+
+$F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
+
+Setze $z_k:=y^{(k-1)}, k=1,2,3,4$, dann ergibt sich der hilfsvektor $\mathbf{z}$:
+
+$$
+\begin{gathered}
+\begin{array}{ll}
+z_1:=y & z_1^{\prime}:=z_2 \\
+z_2:=y^{\prime} & z_2^{\prime}:=z_3 \\
+z_3:=y^{\prime \prime} & z_3^{\prime}:=z_4 \\
+z_4:=y^{\prime \prime \prime} & z_4^{\prime}:=-4 z_1 -x^2-x-1 \quad(= y^{(4)})
+\end{array}
+
+\end{gathered}
+$$
