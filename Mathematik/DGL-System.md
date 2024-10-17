@@ -56,14 +56,15 @@ $$
 > 
 > $F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
 > 
-> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$, dann ergibt sich der Hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
+> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$
+> dann ergibt sich der Hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
 > 
 > $$
 > \begin{array}{ll}
-> z_1:=y & z_1^{\prime}:=z_2 \\
-> z_2:=y^{\prime} & z_2^{\prime}:=z_3 \\
-> z_3:=y^{\prime \prime} & z_3^{\prime}:=z_4 \\
-> z_4:=y^{\prime \prime \prime} & z_4^{\prime} = y^{(4)} \\
+> z_1:=y & z_1':=z_2 \\
+> z_2:=y' & z_2^{\prime}:=z_3 \\
+> z_3:=y'' & z_3^{\prime}:=z_4 \\
+> z_4:=y''' & z_4^{\prime} = y^{(4)} \\
 > \end{array}
 > $$
 > 
@@ -93,6 +94,7 @@ $$
 > $$
 
 >[!example] DGLS002:
+> Überführen Sie die folgenden Differentialgleichungen in ein (falls möglich explizites) Differentialgleichungssystem erster Ordnung.
 > $$y'' y'''+3 y'' y'+y=4 \sin (x)$$
 > 
 
@@ -102,4 +104,5 @@ $$
 
 $F(x,y,y'',y''')=0=y'' y'''+3 y'' y'+y-4 \sin (x)$
 
-Setze $y_k=y^{(k-1)} \quad k=1,2,3 \Rightarrow y_k^{\prime}=y_{k+1} \quad k=1,2$
+Setze $z_k=y^{(k-1)} \quad k=1,2,3 \implies z_k'=z_{k+1} \quad k=1,2$
+
