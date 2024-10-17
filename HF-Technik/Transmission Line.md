@@ -100,6 +100,12 @@ Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Le
 \end{document}
 ```
 
+> [!important] Impedanzen einer TL:
+> 
+> - Eingangsimpedanz
+> - Abschlussimpedanz
+> - Leiungswellenwiderstand / charakteristische Impedanz
+> 
 ## TL in LTSpice
 
 T. Lossless Transmission Line

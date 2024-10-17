@@ -2,7 +2,12 @@
 tags: 
 aliases:
   - Anpass-Netzwerk
+  - Matched Termination
 created: 25. September 2023
+subject:
+  - HF-Systemtechnik 1
+  - KV
+semester: WS24
 ---
 
 # Impedanz Anpassung
