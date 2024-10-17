@@ -56,19 +56,20 @@ $$
 > 
 > $F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
 > 
-> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$ mit $z_{k}'=z_{k+1}$, $k=1,2$
+> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$ mit $z_{k}'=z_{k+1}$, $k=1,2,3$
 > dann ergibt sich der Hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
 > 
 > $$
 > \begin{array}{ll}
+> \text{Hilfsvektor}  & \text{GLS}\\
 > z_1:=y & z_1':=z_2 \\
-> z_2:=y' & z_2^{\prime}:=z_3 \\
-> z_3:=y'' & z_3^{\prime}:=z_4 \\
-> z_4:=y''' & z_4^{\prime} = y^{(4)} \\
+> z_2:=y' & z_2':=z_3 \\
+> z_3:=y'' & z_3':=z_4 \\
+> z_4:=y''' & z_4' = y^{(4)} \\
 > \end{array}
 > $$
 > 
-> $z_{4}'$ ergibt sich durch einsetzen des hilfsvektors $\mathbf{z}$ in $F(x,y,y^{(4)})$:
+> $z_{4}'$ ergibt sich durch einsetzen des Hilfsvektors $\mathbf{z}$ in $F(x,y,y^{(4)})$:
 > 
 > $$
 > \begin{align}
@@ -104,5 +105,16 @@ $$
 
 $F(x,y,y'',y''')=0=y'' y'''+3 y'' y'+y-4 \sin (x)$
 
-Setze $z_k=y^{(k-1)} \quad k=1,2,3 \implies z_k'=z_{k+1} \quad k=1,2$
+Setze $z_k=y^{(k-1)},\, k=1,2,3$ mit $z_k'=z_{k+1},\,k=1,2$,
+dann ergibt sich der Hilfsvektor $\mathbf{z} := (z_{1},z_{2},z_{3},z_{4})$
 
+
+
+$$
+\begin{array}{ll} 
+\text{}
+z_1=y & z_1'=z_2 \\
+z_2=y' & z_2'=z_3 \\
+z_3=y'' & z_3'=y'''
+\end{array}
+$$
