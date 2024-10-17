@@ -38,7 +38,6 @@ F(t,z_{1},\dots,z_{n},z_{n}') & =0
 \end{align}
 $$
 
-
 ---
 
 [Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
@@ -75,7 +74,7 @@ $$
 > \begin{align}
 > 0 &=y^{(4)}(x)+4 y(x)-x^2-x-1 \\
 > 0 &= z_{4}'+4z_{1}-x^{2} -x -1 \\
-> z_{4}' &= -4z_{1}+x^{2}+x+1
+> \boxed{ z_{4}' &= -4z_{1}+x^{2}+x+1 }
 > \end{align}
 > $$
 > 
@@ -100,28 +99,42 @@ $$
 > 
 
 > [!success]+ Lösung
-
-
-
-$F(x,y,y'',y''')=0=y'' y'''+3 y'' y'+y-4 \sin (x)$
-
-Setze $z_k=y^{(k-1)},\, k=1,2,3$ mit $z_k'=z_{k+1},\,k=1,2$,
-dann ergibt sich der Hilfsvektor $\mathbf{z} := (z_{1},z_{2},z_{3})$:
-
-$$
-\begin{array}{cc} 
-\text{Hilfsvektor} & \text{GLS} \\
-z_1=y & z_1'=z_2 \\
-z_2=y' & z_2'=z_3 \\
-z_3=y'' & z_3'=y'''
-\end{array}
-$$
-
-Die Gleichung für $z_{3}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F(x,y,y'',y''')$:
-
-$$
-\begin{align}
-0 &= y'' y'''+3 y'' y'+y-4 \sin (x) \\
-0 &= z_{3}\cdot z_{3}'
-\end{align}
-$$
+> 
+> $F(x,y,y'',y''')=0=y'' y'''+3 y'' y'+y-4 \sin (x)$
+> 
+> Setze $z_k=y^{(k-1)},\, k=1,2,3$ mit $z_k'=z_{k+1},\,k=1,2$,
+> dann ergibt sich der Hilfsvektor $\mathbf{z} := (z_{1},z_{2},z_{3})$:
+> 
+> $$
+> \begin{array}{cc} 
+> \text{Hilfsvektor} & \text{GLS} \\
+> z_1=y & z_1'=z_2 \\
+> z_2=y' & z_2'=z_3 \\
+> z_3=y'' & z_3'=y'''
+> \end{array}
+> $$
+> 
+> Die Gleichung für $z_{3}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F(x,y,y'',y''')$:
+> 
+> $$
+> \begin{align}
+> 0 &= y'' y'''+3 y'' y'+y-4 \sin (x) \\
+> 0 &= z_{3}z_{3}'+3z_{3}z_{2}+z_{1}-4\sin(x) \\
+> z_{3}z_{3}'&= -3z_{3}z_{2}-z_{1}+4\sin (x) \\
+> \boxed{ z_{3}'&=-\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}} }
+> \end{align}
+> $$
+> 
+> Es ergibt sich das Gleichungssystem:
+> 
+> $$
+> \frac{d}{dx}\mathbf{z}=
+> \begin{pmatrix}
+> 0 & 1 & 0 \\
+> 0 & 0 & 1 \\
+> -\frac{1}{z_{3}} & -3 & 0
+> \end{pmatrix}\cdot \mathbf{z} = \begin{pmatrix}
+> 0 \\ 0 \\ \frac{4\sin(x)}{z_{3}}
+> \end{pmatrix}
+> $$
+> 
