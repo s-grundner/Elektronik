@@ -60,7 +60,7 @@ $$
 > 
 > $$
 > \begin{array}{cc}
-> \text{Hilfsvektor}  & \text{GLS}\\
+> \underline{ \text{Hilfsvektor} }  & \underline{ \text{GLS} }\\
 > z_1:=y & z_1':=z_2 \\
 > z_2:=y' & z_2':=z_3 \\
 > z_3:=y'' & z_3':=z_4 \\
@@ -74,7 +74,7 @@ $$
 > \begin{align}
 > 0 &=y^{(4)}(x)+4 y(x)-x^2-x-1 \\
 > 0 &= z_{4}'+4z_{1}-x^{2} -x -1 \\
-> \boxed{ z_{4}' &= -4z_{1}+x^{2}+x+1 }
+> z_{4}' &= \boxed{ -4z_{1}+x^{2}+x+1 }
 > \end{align}
 > $$
 > 
@@ -107,7 +107,7 @@ $$
 > 
 > $$
 > \begin{array}{cc} 
-> \text{Hilfsvektor} & \text{GLS} \\
+> \underline{ \text{Hilfsvektor} } & \underline{ \text{GLS} } \\
 > z_1=y & z_1'=z_2 \\
 > z_2=y' & z_2'=z_3 \\
 > z_3=y'' & z_3'=y'''
@@ -121,11 +121,11 @@ $$
 > 0 &= y'' y'''+3 y'' y'+y-4 \sin (x) \\
 > 0 &= z_{3}z_{3}'+3z_{3}z_{2}+z_{1}-4\sin(x) \\
 > z_{3}z_{3}'&= -3z_{3}z_{2}-z_{1}+4\sin (x) \\
-> \boxed{ z_{3}'&=-\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}} }
+> z_{3}'&=\boxed{-\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}} }
 > \end{align}
 > $$
 > 
-> Es ergibt sich das Gleichungssystem:
+> Es ergibt sich das nicht lineare Gleichungssystem:
 > 
 > $$
 > \frac{d}{dx}\mathbf{z}=
