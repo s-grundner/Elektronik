@@ -8,6 +8,8 @@ subject:
   - HF-Systemtechnik 1
   - KV
 semester: WS24
+professor:
+  - Reinhard Feger
 ---
 
 # Impedanz Anpassung
@@ -17,9 +19,9 @@ semester: WS24
 > - Spannungsanpassung (elektrische Spannung ist maximal, $R_{i}\ll R_{L}$)
 > - Leistungsanpassung (Leistung ist maximal, $R_{i} = R_{L}$)
 
-## 1 Anpassnetzwerk
+## Anpassnetzwerk
 
-## 2 $\frac{\lambda}{4}$-Transformator
+## $\frac{\lambda}{4}$-Transformator
 
 $$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
 

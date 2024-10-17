@@ -6,9 +6,12 @@ aliases:
   - Reflexionen
 subject:
   - ksn
-source:
-  - Martin Aichriedler
+  - HF-Systemtechnik 1
+  - KV
+professor:
+  - Reinhard Feger
 created: 28th September 2022
+semester: WS24
 ---
 
 # Reflexionsfaktor

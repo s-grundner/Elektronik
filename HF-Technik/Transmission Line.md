@@ -60,7 +60,7 @@ Hier kann die Verbindung zwischen Toren/Komponenten nicht mehr Vernachlässigt w
 
 Eine TL ist elektrisch kurz: ${ l > \dfrac{\lambda}{10} }$
 
-Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Leitermodell)
+Eine TL wird mit serien [induktivitäten](../Elektrotechnik/Induktivitäten.md) und parallel [kapazitäten](../Elektrotechnik/Kapazität.md) modelliert (Leitermodell)
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -102,10 +102,14 @@ Eine TL wird mit serien induktivitäten und parallel kapazitäten modelliert (Le
 
 > [!important] Impedanzen einer TL:
 > 
-> - Eingangsimpedanz
-> - Abschlussimpedanz
-> - Leiungswellenwiderstand / charakteristische Impedanz
+> | $Z_{E}$                   | [Eingangsimpedanz](Eingangsimpedanz.md)                                                                    |
+> | -------------- | ------------------------------------------------------- |
+> | $Z_{A}$                   | Abschlussimpedanz                                                                  |
+> | $Z_{0}$, $Z_{L}$, $Z_{W}$ | Leitungswellenwiderstand <br>charakteristische Impedanz |
 > 
+> Mit diesen Impedanzen ergibt sich die Kenngröße des [Reflexionsfaktor](Reflexionsfaktor.md)
+
+
 ## TL in LTSpice
 
 T. Lossless Transmission Line
