@@ -18,18 +18,20 @@ professor:
 > - Stromanpassung (Strom ist maximal, $R_{i}\gg R_{L}$) 
 > - Spannungsanpassung (elektrische Spannung ist maximal, $R_{i}\ll R_{L}$)
 > - Leistungsanpassung (Leistung ist maximal, $R_{i} = R_{L}$)
+> 
+> Primär lässt sich durch den Leitungsabschluss der [Reflexionsfaktor](../HF-Technik/Reflexionsfaktor.md) einstellen.
 
 ## Anpassnetzwerk
 
-## $\frac{\lambda}{4}$-Transformator
 
-$$Z_{E}\cdot Z_{A}=Z_{L}^{2}$$
+> [!info] $\frac{\lambda}{4}$-Transformator
+> $$\boxed{ Z_{E}\cdot Z_{A}=Z_{L}^{2} }$$
 
 > [!summary] Herleitung (Eingangsimpedanz - Verlustlose Leitung)  
-> $Z_{E} = Z_{A}\cdot \dfrac{1+j \frac{Z_{L}}{Z_{A}}\tan(\beta \cdot l_{e})}{1+ j\frac{Z_{A}}{Z_{L}}\tan(\beta \cdot l_{e})} \qquad  \beta \cdot l_{e} = \dfrac{2\pi}{\lambda}\cdot \dfrac{\lambda}{4}= \dfrac{\pi}{2}$  
+> $$Z_{E} = Z_{A}\cdot \dfrac{1+j \frac{Z_{L}}{Z_{A}}\tan(\beta \cdot l_{e})}{1+ j\frac{Z_{A}}{Z_{L}}\tan(\beta \cdot l_{e})} \qquad  \beta \cdot l_{e} = \dfrac{2\pi}{\lambda}\cdot \dfrac{\lambda}{4}= \dfrac{\pi}{2}$$  
 > $\tan$ ist an der Stelle $\frac{\pi}{2}$ singulär $\to$ *$Z_{E}=\dfrac{Z_{L}^{2}}{Z_{A}}$* bzw. *$Z_{E} = Z_{A}\cdot Z_{L}^{2}$*
 
-## 3 Abschlussimpedanz
+## Abschlussimpedanz
 
 ![TL_QundS](../HF-Technik/assets/TL_QundS.png)
 
