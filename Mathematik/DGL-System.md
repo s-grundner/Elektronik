@@ -59,12 +59,12 @@ $$
 > dann ergibt sich der Hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
 > 
 > $$
-> \begin{array}{cc}
+> \begin{array}{ll}
 > \underline{ \text{Hilfsvektor} }  & \underline{ \text{GLS} }\\
 > z_1:=y & z_1':=z_2 \\
 > z_2:=y' & z_2':=z_3 \\
 > z_3:=y'' & z_3':=z_4 \\
-> z_4:=y''' & z_4' = y^{(4)} \\
+> z_4:=y''' & z_4' = y^{(4)} \gets \boxed{ -4z_{1}+x^{2}+x+1 } \\
 > \end{array}
 > $$
 > 
@@ -110,7 +110,7 @@ $$
 > \underline{ \text{Hilfsvektor} } & \underline{ \text{GLS} } \\
 > z_1=y & z_1'=z_2 \\
 > z_2=y' & z_2'=z_3 \\
-> z_3=y'' & z_3'=y'''\gets -\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}}
+> z_3=y'' & z_3'=y'''\gets \boxed{ -\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}} }
 > \end{array}
 > $$
 > 
@@ -121,7 +121,7 @@ $$
 > 0 &= y'' y'''+3 y'' y'+y-4 \sin (x) \\
 > 0 &= z_{3}z_{3}'+3z_{3}z_{2}+z_{1}-4\sin(x) \\
 > z_{3}z_{3}'&= -3z_{3}z_{2}-z_{1}+4\sin (x) \\
-> z_{3}'&=\boxed{-\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}} }
+> z_{3}'&=\boxed{ -\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}}}
 > \end{align}
 > $$
 > 
@@ -141,7 +141,6 @@ $$
 
 >[!example] DGLS003
 >
->[!example] DGL-Systeme 1. Ordnung II
 > Seien $f_1, f_2: \mathbb{R}^2 \rightarrow \mathbb{R}$. Überführen Sie das Differentialgleichungssystem
 > 
 > $$
@@ -157,43 +156,56 @@ $$
 > 
 > das erhaltene System in Matrix-Vektor-Form.
 
-
-
-$$
-\begin{aligned}
-x''(t)&=f_1(x(t), y(t))=3 x+4 y+1 &&\implies F_{1}(y,x,x'')=0=x''-3 x-4 y-1 \\
-y''(t)&=f_2(x(t), y(t))=x-2 y-1 &&\implies F_{2}(x,y,y'')=0=y''-x+2 y+1
-\end{aligned}
-$$
-
-Der Hilfsvektor wird für beide gleichungen definiert wie:
-
-$$
-\begin{array}{ll}
-\text{Hilfsvekor}  & \text{GLS}\\
-z_1=x & z_1'=z_2 \\
-z_2=x' & z_2'= x'' \gets 3z_{1}+4z_{3}+1 \\
-z_3=y & z_3'=z_4 \\
-z_4=y' & z_4'= y''
-\end{array}
-$$
-
-Die Gleichung für $z_{2}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{1}(y,x,x'')$:
-
-$$
-\begin{aligned}
-0&=x''-3 x-4 y-1  \\
-0&=z_{2}'-3z_{1}-4z_{3}-1 \\
-z_{2}' &=\underline{ 3z_{1}+4z_{3}+1  }
-\end{aligned}
-$$
-
-Die Gleichung für $z_{4}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{2}(x,y,y'')$:
-
-$$
-\begin{align}
-0&=y''-x+2 y+1 \\
-0&=z_{4}'-z_{1}+2z_{3}+1 \\
-z_{4}'&=\underline{ z_{1}-2z_{3}+1 }
-\end{align}
-$$
+> [!success]- Lösung
+> 
+> $$
+> \begin{aligned}
+> x''(t)&=f_1(x(t), y(t))=3 x+4 y+1 &&\implies F_{1}(y,x,x'')=0=x''-3 x-4 y-1 \\
+> y''(t)&=f_2(x(t), y(t))=x-2 y-1 &&\implies F_{2}(x,y,y'')=0=y''-x+2 y+1
+> \end{aligned}
+> $$
+> 
+> Der Hilfsvektor wird für beide gleichungen definiert wie:
+> 
+> $$
+> \begin{array}{ll}
+> \text{Hilfsvekor}  & \text{GLS}\\
+> z_1=x & z_1'=z_2 \\
+> z_2=x' & z_2'= x'' \gets \boxed{ 3z_{1}+4z_{3}+1 } \\
+> z_3=y & z_3'=z_4 \\
+> z_4=y' & z_4'= y'' \gets \boxed{  z_{1}-2z_{3}+1  }
+> \end{array}
+> $$
+> 
+> Die Gleichung für $z_{2}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{1}(y,x,x'')$:
+> 
+> $$
+> \begin{aligned}
+> 0&=x''-3 x-4 y-1  \\
+> 0&=z_{2}'-3z_{1}-4z_{3}-1 \\
+> z_{2}' &=\boxed{ 3z_{1}+4z_{3}+1  }
+> \end{aligned}
+> $$
+> 
+> Die Gleichung für $z_{4}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{2}(x,y,y'')$:
+> 
+> $$
+> \begin{align}
+> 0&=y''-x+2 y+1 \\
+> 0&=z_{4}'-z_{1}+2z_{3}+1 \\
+> z_{4}'&=\boxed{ z_{1}-2z_{3}+1 }
+> \end{align}
+> $$
+> 
+> Es ergibt sich das lineare Gleichungssystem
+> 
+> $$
+> \frac{d}{dt}\mathbf{z} = \begin{pmatrix}
+> 0 & 1 & 0 & 0 \\
+> 3 & 0 & 4 & 0 \\
+> 0 & 0 & 0 & 1 \\
+> 1 & 0 & -2 & 0
+> \end{pmatrix}\cdot \mathbf{z} + \begin{pmatrix}
+> 0 \\ 1 \\ 0 \\ -1
+> \end{pmatrix}
+> $$
