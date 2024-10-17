@@ -14,27 +14,27 @@ professor:
 
 # DGL System
 
-Um Differenzialgleichungen höherer Ordnung leichter lösen zu können, kann diese in ein System aus Differenzialgleichungen erster ORdnung überführt werden. 
+Um Differenzialgleichungen höherer Ordnung leichter lösen zu können, kann diese in ein System aus Differenzialgleichungen erster Ordnung überführt werden. 
 
 > [!info] Jede DGL $n$-ter Ordnung lässt sich in ein [[DGL-System]] überführen
 > $$
 > F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
-> x_{1}=x' \\
-> x_{2}=x_{1}'' \\
+> z_{1}=z' \\
+> z_{2}=z_{1}' \\
 > \quad\vdots  \\
-> x_{n-1} = x_{n-1}' \\
+> z_{n} = z_{n-1}' \\
 > \end{cases}
 > $$
 > 
 
-Hierfür werden Hilfsfunktionen $x_{k}$ eingeführt. Man erhält durch die Setzung 
-$$ x_{k}:=x^{(k-1)}, \quad k= 1,\dots,n$$
-folgendes DGL-System erster Ordnung:
+Hierfür wird ein Hilfsvektor $\mathbf{z}$ mit den **Hilfsfunktionen** $z_{k}$ eingeführt. Man erhält durch die Setzung 
+$$ z_{k}:=x^{(k-1)}, \quad k= 1,\dots,n$$
+folgendes Differenzialgleichungs-System **erster** Ordnung:
 
 $$ 
 \begin{align}
-x_{k}'&=x_{k+1}, \quad  k=1, \dots,n-1 \\
-F(t,x_{1},\dots,x_{n},x_{n}') & =0
+z_{k}'&=z_{k+1}, \quad  k=1, \dots,n-1 \\
+F(t,z_{1},\dots,z_{n},z_{n}') & =0
 \end{align}
 $$
 
@@ -60,7 +60,7 @@ $$
 > dann ergibt sich der Hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
 > 
 > $$
-> \begin{array}{ll}
+> \begin{array}{cc}
 > \text{Hilfsvektor}  & \text{GLS}\\
 > z_1:=y & z_1':=z_2 \\
 > z_2:=y' & z_2':=z_3 \\
@@ -69,7 +69,7 @@ $$
 > \end{array}
 > $$
 > 
-> $z_{4}'$ ergibt sich durch einsetzen des Hilfsvektors $\mathbf{z}$ in $F(x,y,y^{(4)})$:
+> Die Gleichung für $z_{4}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F(x,y,y^{(4)})$:
 > 
 > $$
 > \begin{align}
@@ -106,15 +106,22 @@ $$
 $F(x,y,y'',y''')=0=y'' y'''+3 y'' y'+y-4 \sin (x)$
 
 Setze $z_k=y^{(k-1)},\, k=1,2,3$ mit $z_k'=z_{k+1},\,k=1,2$,
-dann ergibt sich der Hilfsvektor $\mathbf{z} := (z_{1},z_{2},z_{3},z_{4})$
-
-
+dann ergibt sich der Hilfsvektor $\mathbf{z} := (z_{1},z_{2},z_{3})$:
 
 $$
-\begin{array}{ll} 
-\text{}
+\begin{array}{cc} 
+\text{Hilfsvektor} & \text{GLS} \\
 z_1=y & z_1'=z_2 \\
 z_2=y' & z_2'=z_3 \\
 z_3=y'' & z_3'=y'''
 \end{array}
+$$
+
+Die Gleichung für $z_{3}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F(x,y,y'',y''')$:
+
+$$
+\begin{align}
+0 &= y'' y'''+3 y'' y'+y-4 \sin (x) \\
+0 &= z_{3}\cdot z_{3}'
+\end{align}
 $$
