@@ -39,7 +39,13 @@ F(t,x_{1},\dots,x_{n},x_{n}') & =0
 $$
 
 
-
 ---
 
 [Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
+
+--- 
+
+# Beispiele
+
+DGLS001:
+
