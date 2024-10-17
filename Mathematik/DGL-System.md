@@ -145,7 +145,7 @@ $$
 > Seien $f_1, f_2: \mathbb{R}^2 \rightarrow \mathbb{R}$. Überführen Sie das Differentialgleichungssystem
 > 
 > $$
-> x^{\prime \prime}(t)=f_1(x(t), y(t)), \quad y^{\prime \prime}(t)=f_2(x(t), y(t))
+> x''(t)=f_1(x(t), y(t)), \quad y''(t)=f_2(x(t), y(t))
 > $$
 > 
 > in ein Differentialgleichungssystem erster Ordnung.
@@ -161,8 +161,20 @@ $$
 
 $$
 \begin{aligned}
-& x''(t)=f_1(x(t), y(t))=3 x+4 y+1 \implies 0=x''-3 x-9 y-1 \\
-& y''(t)=f_2(x(t), y(t))=x-2 y-1 \implies 0=y''-x+2 y+1
+x''(t)&=f_1(x(t), y(t))=3 x+4 y+1 &&\implies F_{1}(y,x,x'')=0=x''-3 x-9 y-1 \\
+y''(t)&=f_2(x(t), y(t))=x-2 y-1 &&\implies F_{2}(x,y,y'')=0=y''-x+2 y+1
 \end{aligned}
 $$
 
+Der Hilfsvektor wird für beide gleichungen definiert wie:
+
+$$
+\begin{array}{ll}
+z_1=x & z_1'=z_2 \\
+z_2=x' & z_2'= x'' \\
+z_3=y & z_3'=z_4 \\
+z_4=y' & z_4'= y''
+\end{array}
+$$
+
+Die Gleichung für $z_{2}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{1}(y,x,x'')$:
