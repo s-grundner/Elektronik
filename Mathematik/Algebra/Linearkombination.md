@@ -13,7 +13,7 @@ professor:
 
 # Linearkombination
 
-> [!important] [Definition 6.5](Basis,%20Dimension%20und%20Teilräume.md) **(a)** Sei $X$ ein $\mathbb{K}$-Vektorraum.
+> [!important] [Definition 6.5](Basis,%20Dimension%20und%20Teilräume.md) **(a)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md).
 > Ein Element $x \in X$ heißt **Linearkombination** der $n$ Elemente $v_i \in X$, falls es $\lambda_i \in \mathbb{K}, i=1, \ldots, n$, gibt mit:
 > 
 $$ x=\sum_{i=1}^{k} \lambda_{i} v_{i}$$

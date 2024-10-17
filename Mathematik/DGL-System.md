@@ -154,7 +154,7 @@ $$
 > f_1(x, y)=3 x+4 y+1, \quad f_2(x, y)=x-2 y-1
 > $$
 > 
-> das erhaltene System in Matrix-Vektor-Form.
+> das erhaltene System in [Matrix](Algebra/Matrix.md)-[Vektor](Analysis/Vektor.md)-Form.
 
 > [!success]- Lösung
 > 
