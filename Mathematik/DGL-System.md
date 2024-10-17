@@ -54,36 +54,39 @@ $$
 
 > [!success]- Lösung
 > 
-
-
-$F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
-
-Setze $z_k:=y^{(k-1)}, k=1,2,3,4$, dann ergibt sich der hilfsvektor $\mathbf{z}$:
-
-$$
-\begin{array}{ll}
-z_1:=y & z_1^{\prime}:=z_2 \\
-z_2:=y^{\prime} & z_2^{\prime}:=z_3 \\
-z_3:=y^{\prime \prime} & z_3^{\prime}:=z_4 \\
-z_4:=y^{\prime \prime \prime} & z_4^{\prime} = y^{(4)} \\
-\end{array}
-$$
-
-$z_{4}'$ ergibt sich durch einsetzen des hilfsvektors $\mathbf{z}$ in $F(x,y,y^{(4)})$:
-
-$$
-\begin{align}
-0 &=y^{(4)}(x)+4 y(x)-x^2-x-1 \\
-0 &= z_{4}'+4z_{1}-x^{2} -x -1 \\
-z_{4}' &= -4z_{1}+x^{2}+x+1
-\end{align}
-$$
-Es ergibt sich das Gleichungssystem:
-
-$$
-\begin{align}
-\frac{d\mathbf{z}}{dx} = \begin{pmatrix}
-
-\end{pmatrix}
-\end{align}
-$$
+> $F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
+> 
+> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$, dann ergibt sich der hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
+> 
+> $$
+> \begin{array}{ll}
+> z_1:=y & z_1^{\prime}:=z_2 \\
+> z_2:=y^{\prime} & z_2^{\prime}:=z_3 \\
+> z_3:=y^{\prime \prime} & z_3^{\prime}:=z_4 \\
+> z_4:=y^{\prime \prime \prime} & z_4^{\prime} = y^{(4)} \\
+> \end{array}
+> $$
+> 
+> $z_{4}'$ ergibt sich durch einsetzen des hilfsvektors $\mathbf{z}$ in $F(x,y,y^{(4)})$:
+> 
+> $$
+> \begin{align}
+> 0 &=y^{(4)}(x)+4 y(x)-x^2-x-1 \\
+> 0 &= z_{4}'+4z_{1}-x^{2} -x -1 \\
+> z_{4}' &= -4z_{1}+x^{2}+x+1
+> \end{align}
+> $$
+> Es ergibt sich das Gleichungssystem:
+> 
+> $$
+> \begin{align}
+> \frac{d}{dx} \mathbf{z} = \begin{pmatrix}
+>  0 & 1 & 0 & 0 \\
+>  0 & 0 & 1 & 0 \\
+>  0 & 0 & 0 & 1 \\
+> -4 & 0 & 0 & 0
+> \end{pmatrix} \cdot \mathbf{z} + \begin{pmatrix}
+> 0 \\ 0 \\ 0 \\ x^{2}+x+1
+> \end{pmatrix}
+> \end{align}
+> $$
