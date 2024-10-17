@@ -106,11 +106,11 @@ $$
 > dann ergibt sich der Hilfsvektor $\mathbf{z} := (z_{1},z_{2},z_{3})$:
 > 
 > $$
-> \begin{array}{cc} 
+> \begin{array}{ll} 
 > \underline{ \text{Hilfsvektor} } & \underline{ \text{GLS} } \\
 > z_1=y & z_1'=z_2 \\
 > z_2=y' & z_2'=z_3 \\
-> z_3=y'' & z_3'=y'''
+> z_3=y'' & z_3'=y'''\gets -\frac{z_{1}}{z_{3}}-3z_{2}+\frac{4\sin(x)}{z_{3}}
 > \end{array}
 > $$
 > 
@@ -170,8 +170,9 @@ Der Hilfsvektor wird für beide gleichungen definiert wie:
 
 $$
 \begin{array}{ll}
+\text{Hilfsvekor}  & \text{GLS}\\
 z_1=x & z_1'=z_2 \\
-z_2=x' & z_2'= x'' \\
+z_2=x' & z_2'= x'' \gets 3z_{1}+4z_{3}+1 \\
 z_3=y & z_3'=z_4 \\
 z_4=y' & z_4'= y''
 \end{array}
@@ -180,11 +181,11 @@ $$
 Die Gleichung für $z_{2}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{1}(y,x,x'')$:
 
 $$
-\begin{align}
+\begin{aligned}
 0&=x''-3 x-4 y-1  \\
 0&=z_{2}'-3z_{1}-4z_{3}-1 \\
-z_{2}'&=3z_{1}+4z_{3}+1
-\end{align}
+z_{2}' &=\underline{ 3z_{1}+4z_{3}+1  }
+\end{aligned}
 $$
 
 Die Gleichung für $z_{4}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{2}(x,y,y'')$:
@@ -193,6 +194,6 @@ $$
 \begin{align}
 0&=y''-x+2 y+1 \\
 0&=z_{4}'-z_{1}+2z_{3}+1 \\
-z_{4}'&=z_{1}-2z_{3}+1
+z_{4}'&=\underline{ z_{1}-2z_{3}+1 }
 \end{align}
 $$
