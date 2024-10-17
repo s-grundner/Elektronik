@@ -56,7 +56,7 @@ $$
 > 
 > $F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
 > 
-> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$
+> Setze $z_k:=y^{(k-1)}, k=1,2,3,4$ mit $z_{k}'=z_{k+1}$, $k=1,2$
 > dann ergibt sich der Hilfsvektor $\mathbf{z} = (z_{1},z_{2},z_{3},z_{4})$:
 > 
 > $$
