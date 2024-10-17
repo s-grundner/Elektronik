@@ -51,7 +51,7 @@ $$
 > 
 > $$y^{(4)}(x)+4 y(x)=1+x+x^2$$
 
-> [!success]+ Lösung
+> [!success]- Lösung
 > 
 > $F\left(x, y, y^{(4)}\right)=0=y^{(4)}(x)+4 y(x)-x^2-x-1$
 > 
@@ -98,7 +98,7 @@ $$
 > $$y'' y'''+3 y'' y'+y=4 \sin (x)$$
 > 
 
-> [!success]+ Lösung
+> [!success]- Lösung
 > 
 > $F(x,y,y'',y''')=0=y'' y'''+3 y'' y'+y-4 \sin (x)$
 > 
@@ -133,8 +133,36 @@ $$
 > 0 & 1 & 0 \\
 > 0 & 0 & 1 \\
 > -\frac{1}{z_{3}} & -3 & 0
-> \end{pmatrix}\cdot \mathbf{z} = \begin{pmatrix}
+> \end{pmatrix}\cdot \mathbf{z} + \begin{pmatrix}
 > 0 \\ 0 \\ \frac{4\sin(x)}{z_{3}}
 > \end{pmatrix}
 > $$
 > 
+
+>[!example] DGLS003
+>
+>[!example] DGL-Systeme 1. Ordnung II
+> Seien $f_1, f_2: \mathbb{R}^2 \rightarrow \mathbb{R}$. Überführen Sie das Differentialgleichungssystem
+> 
+> $$
+> x^{\prime \prime}(t)=f_1(x(t), y(t)), \quad y^{\prime \prime}(t)=f_2(x(t), y(t))
+> $$
+> 
+> in ein Differentialgleichungssystem erster Ordnung.
+> Schreiben Sie im Falle
+> 
+> $$
+> f_1(x, y)=3 x+4 y+1, \quad f_2(x, y)=x-2 y-1
+> $$
+> 
+> das erhaltene System in Matrix-Vektor-Form.
+
+
+
+$$
+\begin{aligned}
+& x''(t)=f_1(x(t), y(t))=3 x+4 y+1 \implies 0=x''-3 x-9 y-1 \\
+& y''(t)=f_2(x(t), y(t))=x-2 y-1 \implies 0=y''-x+2 y+1
+\end{aligned}
+$$
+
