@@ -161,7 +161,7 @@ $$
 
 $$
 \begin{aligned}
-x''(t)&=f_1(x(t), y(t))=3 x+4 y+1 &&\implies F_{1}(y,x,x'')=0=x''-3 x-9 y-1 \\
+x''(t)&=f_1(x(t), y(t))=3 x+4 y+1 &&\implies F_{1}(y,x,x'')=0=x''-3 x-4 y-1 \\
 y''(t)&=f_2(x(t), y(t))=x-2 y-1 &&\implies F_{2}(x,y,y'')=0=y''-x+2 y+1
 \end{aligned}
 $$
@@ -178,3 +178,21 @@ z_4=y' & z_4'= y''
 $$
 
 Die Gleichung für $z_{2}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{1}(y,x,x'')$:
+
+$$
+\begin{align}
+0&=x''-3 x-4 y-1  \\
+0&=z_{2}'-3z_{1}-4z_{3}-1 \\
+z_{2}'&=3z_{1}+4z_{3}+1
+\end{align}
+$$
+
+Die Gleichung für $z_{4}'$ ergibt sich durch Einsetzen des Hilfsvektors $\mathbf{z}$ in $F_{2}(x,y,y'')$:
+
+$$
+\begin{align}
+0&=y''-x+2 y+1 \\
+0&=z_{4}'-z_{1}+2z_{3}+1 \\
+z_{4}'&=z_{1}-2z_{3}+1
+\end{align}
+$$
