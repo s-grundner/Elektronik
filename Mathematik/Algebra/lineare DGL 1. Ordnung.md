@@ -57,4 +57,5 @@ $$
 $$
 
 Eine partikuläre Lösung $y_{p}$ der inhomogenen lineare DGL kann, wenn der Koeffizient $p$ konstant ist, durch einen Lösungsansatz entsprechend dem Störterm $s(x)$ gesucht werden.  
-Ist der Koeffizient … (siehe: Timischl Kaiser 4)
+
+- [[Variation der Konstanten]]
