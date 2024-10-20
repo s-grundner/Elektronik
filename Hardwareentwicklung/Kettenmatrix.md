@@ -1,8 +1,13 @@
 ---
-tags: []
-aliases: ["Kettenmatrizen"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags: 
+aliases:
+  - Kettenmatrizen
+  - Impedanzmatrix
+  - Admittanzmatrix
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 14th November 2022
 ---
 
@@ -61,12 +66,11 @@ $$
 \mathbb{U} = \mathbb{Z} \cdot \mathbb{I}
 $$
 
-|                      |                                 |
-| -------------------- | ------------------------------- |
 | $\underline{Z}_{11}$ | Leerlauf Eingangswiderstand     |
+| -------------------- | ------------------------------- |
 | $\underline{Z}_{12}$ | Leerlauf Rückwirkunswiderstand  |
 | $\underline{Z}_{21}$ | Leerlauf Übertragungswiderstand |
-| $\underline{Z}_{22}$ | Leerlauf Ausgangswiderstand     | 
+| $\underline{Z}_{22}$ | Leerlauf Ausgangswiderstand     |
 
 # [Admittanz](../Elektrotechnik/Impedanz.md)[matrix](Matrix.md)
 
@@ -94,7 +98,7 @@ $$
 $$
 
 $$
-\mathbb{I} = \mathbb{Y} \cdot \mathbb{U}
+\mathbf{I} = \mathbf{Y} \cdot \mathbf{U}
 $$
 
 # Quellen
