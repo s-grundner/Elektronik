@@ -10,11 +10,12 @@ created: 14. Oktober 2024
 professor:
 ---
  
+
 # VHDL
 
-> [!important] Register- und Kombinatorikprozesse trennen!
+> [!important] Registerund Kombinatorikprozesse trennen!
 > 
-> - **Kombinatorik:**  *alle* inputs außer `clk_i` und `reset_i` in der Sensitivity List
+> - **Kombinatorik:** *alle* inputs außer `clk_i` und `reset_i` in der Sensitivity List
 > - **Register:** nur `clk_i` und `reset_i` in der Sensitivity List
 
 > [!warning] Niemals benötigt man `clk_i` und `reset_i` in einem kombinatorischen Prozess
@@ -65,4 +66,3 @@ begin
     end case;
 end process;
 ```
-
