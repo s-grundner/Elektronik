@@ -19,11 +19,15 @@ professor:
 
 Das Überlagerungsprinzip ist auf die *Linearität* der Schaltung zurückzuführen.
 
-Mit dem Superpositionsprinzip lassen sich linear
+## Helmholtz
 
-## 1 Helmholtz
+In einer linearen Schaltung kann der Einfluss jeder Quelle auf die gesuchten größen getrennt ermittelt werden und die Teilergebnisse aufsummiert werden. Es werden also Iterativ jede Quelle bis auf eine ausgeschalten.
 
-## 2 Elektrische [Ladungen](elektrisches%20Feld.md)
+Es gilt:
+
+-
+
+## Elektrische [Ladungen](elektrisches%20Feld.md)
 
 Durch die Linearität elektrischer Punktladungen lassen sich komplexere Ladungs-Geometrien leicht berechnen. 
 
