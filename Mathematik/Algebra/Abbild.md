@@ -12,8 +12,30 @@ semester: WS23
 created: 7. November 2023
 professor:
 ---
-
+    
 # Abbildungen
+
+Eine Abbildung $f$ von einer Menge $A$ in eine Menge $B$
+
+$$
+f: A \rightarrow B
+$$
+
+ordnet jedem Element $a \in A$ ein $b \in B$ zu, d.h.
+
+$$
+f(a)=b \quad \text { oder } \quad a \mapsto b
+$$
+
+wie z.B.: $f: \mathbb{R} \rightarrow \mathbb{R}$ mit $f(x):=x$.
+
+Abbildungen, welche in die reellen oder komplexen Zahlen abbilden, heißen auch **Funktionen**.
+
+Wenn $f: A \rightarrow B$, dann heißt $f$
+
+- surjektiv, wenn $f(A)=B$
+- injektiv, wenn für alle $x, y \in A$ aus $x \neq y$ folgt: $f(x) \neq f(y)$
+- bijektiv, wenn $f$ surjektiv und injektiv ist
 
 - [Bijektivität surjektivität…](https://www.youtube.com/watch?v=xNxuAG9UDN8)
 - [Bild Urbild Kern](https://www.youtube.com/watch?v=Q52laFrARek)
