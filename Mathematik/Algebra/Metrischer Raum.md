@@ -1,7 +1,9 @@
 ---
 tags:
   - Algebra
-aliases: 
+  - Axiome/Metrik
+aliases:
+  - Metrik
 keywords: 
 subject:
   - VL

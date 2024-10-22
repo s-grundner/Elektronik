@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Maximumnorm
+  - Tschebyscheff-Norm
 keywords: 
 subject:
   - VL
