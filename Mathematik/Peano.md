@@ -68,10 +68,10 @@ Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-6, ymax=6]
-\draw[rounded corners] (-1, -1) rectangle (1, 1) {};
+\begin{axis}[axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\draw(-1, -1) rectangle (1, 1) {};
 \end{axis}
 \end{tikzpicture}
 
-\end{document}
+\end{document} 
 ```

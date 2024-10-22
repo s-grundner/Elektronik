@@ -85,6 +85,29 @@ $$
 
 # Norm in der Geometrie
 
-Jede Norm hat ihre eigene gemetrische Form
+Jede Norm hat ihre eigene gemetrische Form:
+
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{scope}
+\begin{axis} [axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\draw (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- (1,0);
+\end{axis}
+\end{scope}
+
+\begin{scope}[xshift=10cm]
+\begin{axis} [axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\draw[rounded corners] (-1, -1) rectangle (1, 1) {};
+\end{axis}
+\end{scope}
+\end{tikzpicture}
+
+\end{document}
+```
 
 

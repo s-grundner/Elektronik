@@ -85,4 +85,34 @@ $$
 d(\mathbf{x}, \mathbf{y})=\|\mathbf{x}-\mathbf{y}\|=|x-y|
 $$
 
+## Minkowski Abstand
 
+Der Minkowski-Abstand $p$-ter Ordnung oder -Metrik ( $p \geq 1$ ) zwischen zwei Punkten x und y im $\mathbb{R}^n$ ist definiert als
+
+$$
+d(\mathbf{x}, \mathbf{y})=\left(\sum_{i=1}^n\left|x_i-y_i\right|^p\right)^{\frac{1}{p}}
+$$
+
+
+Für $p=1$ folgt daraus die '**Manhatten**'- oder '**Taxicab**'-Metrik
+
+$$
+d(\mathbf{x}, \mathbf{y})=\left|x_1-y_1\right|+\left|x_2-y_2\right|+\ldots+\left|x_n-y_n\right|
+$$
+
+
+Für $p=2$ folgt wieder der Euklidsche Abstand
+
+$$
+d(\mathbf{x}, \mathbf{y})=\|\mathbf{x}-\mathbf{y}\|=\sqrt{\sum_{i=1}^n\left|x_i-y_i\right|^2}
+$$
+
+
+Für $p \rightarrow \pm \infty$ folgt im Grenzübergang der Tschebyscheff-Abstand
+
+$$
+\lim _{p \rightarrow \infty}\left(\sum_{i=1}^n\left|x_i-y_i\right|^p\right)^{\frac{1}{p}}=\max _{1 \leq i \leq n}\left|x_i-y_i\right| \quad \text { bzw. } \quad \lim _{p \rightarrow-\infty}\left(\sum_{i=1}^n\left|x_i-y_i\right|^p\right)^{\frac{1}{p}}=\min _{1 \leq i \leq n}\left|x_i-y_i\right|
+$$
+
+
+Für $p<1$ ist der Minkowski-Abstand keine Metrik
