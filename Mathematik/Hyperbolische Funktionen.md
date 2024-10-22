@@ -28,31 +28,30 @@ professor:
 
 ## Bemerkung 4.30
 
-> $$
-> \begin{aligned}
-> \cosh ^2 x-\sinh ^2 x & =1, \quad \cosh (0)=1, \quad \sinh (0)=0 \\
-> \sinh (x+y) & =\sinh x \cosh y+\cosh x \sinh y \\
-> \cosh (x+y) & =\cosh x \cosh y+\sinh x \sinh y \\
-> \cosh (2 x) & =\cosh ^2(x)+\sinh ^2(x) \\
-> \sinh (2 x) & =2 \sinh x \cosh x \\
-> 2 \cosh ^2(x) & =1+\cosh (2 x) \\
-> 2 \sinh ^2(x) & =\cosh (2 x)-1
-> \end{aligned}
-> $$
-
+$$
+\begin{aligned}
+\cosh ^2 x-\sinh ^2 x & =1, \quad \cosh (0)=1, \quad \sinh (0)=0 \\
+\sinh (x+y) & =\sinh x \cosh y+\cosh x \sinh y \\
+\cosh (x+y) & =\cosh x \cosh y+\sinh x \sinh y \\
+\cosh (2 x) & =\cosh ^2(x)+\sinh ^2(x) \\
+\sinh (2 x) & =2 \sinh x \cosh x \\
+2 \cosh ^2(x) & =1+\cosh (2 x) \\
+2 \sinh ^2(x) & =\cosh (2 x)-1
+\end{aligned}
+$$
 ### Areafunktionen
 
 $$
 \operatorname{arsinh}: \mathbb{R} \rightarrow \mathbb{R}, \quad \text { arcosh }:[1, \infty) \rightarrow \mathbb{R}_0^{+}, \quad \operatorname{artanh}:(-1,1) \rightarrow \mathbb{R}
 $$
 
-> $$
-> \begin{aligned}
-> \operatorname{arsinh}(x) & =\ln \left(x+\sqrt{x^2+1}\right) \\
-> \operatorname{arcosh}(x) & =\ln \left(x+\sqrt{x^2-1}\right) \\
-> \operatorname{artanh}(x) & =\frac{1}{2} \ln \left(\frac{x+1}{x-1}\right)
-> \end{aligned}
-> $$
+$$
+\begin{aligned}
+\operatorname{arsinh}(x) & =\ln \left(x+\sqrt{x^2+1}\right) \\
+\operatorname{arcosh}(x) & =\ln \left(x+\sqrt{x^2-1}\right) \\
+\operatorname{artanh}(x) & =\frac{1}{2} \ln \left(\frac{x+1}{x-1}\right)
+\end{aligned}
+$$
 
 ## Ableitung Hyperbolischer Funktionen
 
@@ -64,6 +63,14 @@ $$
 (\cosh t)' &= \sinh t && (\operatorname{arcosh})' &= \frac{1}{\sqrt{ x^{2}-1 }}\\
 (\tanh t )' &= \frac{1}{\cosh ^{2}(t)} = 1 - \tanh ^{2}(t)  \\
 (\operatorname{artanh})' &= 
+
+\end{align}
+$$
+
+## Integrale Hyperbolischer Funktionen
+
+$$
+\begin{align}
 
 \end{align}
 $$

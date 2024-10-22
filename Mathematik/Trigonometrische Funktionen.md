@@ -131,5 +131,21 @@ $$
 ## Integrale
 
 $$
+\begin{aligned}
+& \int \frac{1}{\sqrt{x^2-1}} d x= \begin{cases}\operatorname{arcosh} x & \text { auf }(1,+\infty), \\
+-\operatorname{arcosh}(-x) & \text { auf }(-\infty,-1),\end{cases} \\
+&  .
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\text{Trig.-Funktionen:} & \int \sin x d x=-\cos x,\quad\int \cos x d x=\sin x,\\
+& \int \tan x d x=-\ln |\cos x| \quad \text { auf } \quad\left((2 k-1) \frac{\pi}{2},(2 k+1) \frac{\pi}{2}\right) \quad(k \in \mathbb{Z})\\
+\text{Arkus-Funktionen:} &  \int \frac{1}{\sqrt{1-x^2}} d x=\arcsin x \quad \text { auf }(-1,1)\\
+&\int \frac{1}{1+x^2} d x=\arctan x
+\end{aligned}
+$$
+$$
 
 $$
