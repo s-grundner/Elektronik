@@ -31,3 +31,78 @@ Bei LTI-Systemen lässt sich das Ausgangssignal $y$ durch Faltung des EIngangssi
 > kommutativität: $x*h=h*x$
 
 Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
+
+
+---
+
+# Beispiele
+
+>[!example] FAL002
+Gegeben sei ein LTI-System mit der Impulsantwort
+
+$$
+h(t)=\sigma(t)
+$$
+
+**(a)** Welche mathematische Funktion führt dieses System aus?
+**(b)** Ein Eingangssignal $x(t)$ dieses Systems sei gegeben durch
+
+$$
+x(t)=e^{-a t} \sigma(t) \sigma(T-t) \quad \text { mit } a>0
+$$
+
+
+Wie lautet die Systemantwort $y(t)$ ? Skizzieren Sie Eingangs- und Ausgangssignal!
+**(c)** Das Eingangssignal sei nun ein um $t_0$ zeitverschobener Dirac-Impuls,
+
+$$
+x(t)=\delta\left(t-t_0\right)
+$$
+
+
+Wie lautet die Antwort des Systems $y(t)$ ?
+
+> [!success]- Lösung
+
+
+(a) 
+
+$$
+\begin{align}
+y(t)&= \int ^\infty_{-\infty} x(\uptau)\cdot \underbrace{ \sigma(t-\uptau) }_{ \sigma \left( \frac{\uptau-t}{-1} \right) } \, d\uptau  \\
+ &= \int _{-\infty}^t x(\uptau )\, dx 
+\end{align}
+$$
+
+
+(b) 
+$$
+\begin{align}
+
+x(t) : e^{ -at }\cdot\sigma(t)\cdot\sigma(T-t), \quad a >0
+
+\end{align}$$
+
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\newcommand\T{1}
+
+\begin{axis}
+\addplot{1};
+\draw (\T, 0) -- (\T, 1);
+\addplot{exp(-)}
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+
