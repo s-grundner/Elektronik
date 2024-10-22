@@ -27,6 +27,8 @@
 	{trigger: "sup", replacement: "\\operatorname{sup}\\{$0\\}", options: "m", priority: 1},
 	{trigger: "abs", replacement: "\\lvert $0 \\rvert $1", options: "mA", priority: 1},
 	{trigger: "norm", replacement: "\\lVert $0 \\rVert $1", options: "mA", priority: 1},
+	{trigger: "bint", replacement: "\\int_{$0}^{$1}$2\\,\\mathrm{d}$3", options: "mA", priority: 1},
+	{trigger: "inf", replacement: "\\infty", options: "m", priority: 1},
     
 	// Default
 

@@ -33,6 +33,12 @@ Bei LTI-Systemen lässt sich das Ausgangssignal $y$ durch Faltung des EIngangssi
 Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
 
 
+1. Abtaseigenschaft
+
+$$
+\int_{-\infty}^{\infty}f(t)*\delta(t-t_{0})\,\mathrm{d}t
+$$
+
 ---
 
 # Beispiele
@@ -70,7 +76,7 @@ Wie lautet die Antwort des Systems $y(t)$ ?
 $$
 \begin{align}
 y(t)&= \int ^\infty_{-\infty} x(\uptau)\cdot \underbrace{ \sigma(t-\uptau) }_{ \sigma \left( \frac{\uptau-t}{-1} \right) } \, d\uptau  \\
- &= \int _{-\infty}^t x(\uptau )\, dx 
+ &= \int _{-\infty}^t x(\uptau )\, d\uptau = \int _{-\infty} \, dx 
 \end{align}
 $$
 
@@ -83,6 +89,18 @@ x(t) : e^{ -at }\cdot\sigma(t)\cdot\sigma(T-t), \quad a >0
 
 \end{align}$$
 
+1. Bereich:
+
+$t<0, \quad y(t)=0$
+
+2. Bereich
+
+$0 \leq t < T:$
+
+$$
+y(t): \int _{0}^t 1\cdot x(\uptau) \, \mathrm{d}\uptau = \int_{0}^t e^{ -a\uptau }\cdot\sigma(\uptau)\cdot\sigma(T-\uptau)\, \mathrm{d}\uptau
+$$ 
+
 
 ```tikz
 \usepackage{pgfplots}
@@ -94,11 +112,12 @@ x(t) : e^{ -at }\cdot\sigma(t)\cdot\sigma(T-t), \quad a >0
 
 \begin{tikzpicture}
 \newcommand\T{1}
+\newcommand\ALP{0.2}
 
 \begin{axis}
 \addplot{1};
 \draw (\T, 0) -- (\T, 1);
-\addplot{exp(-)}
+\addplot{exp(-\ALP*x)}
 \end{axis}
 \end{tikzpicture}
 
