@@ -140,7 +140,9 @@ $$
 \addplot[domain=-3:-1]{0.5*(x+3)};
 \addplot[domain=0:2]{0.5*x};
 
-draw 
+\draw[dashed] (-1, 0) -- (-1, 1);
+\draw[dashed] (2, 0) -- (2, 1); 
+\draw[dashed] (-3, 1) -- (3, 1); 
 
 \end{axis}
 \end{tikzpicture}
@@ -155,6 +157,13 @@ $$
 $$
 \begin{align}
 y(t) &= (x*h)(t) = ((x_{1}+x_{2})*(h_{1}+h_{2}))(t) \\
-&= (x_{1}*h_{1}+x_{1}*h_{2}+x_{2}*h_{1}+x_{2}*h_{2})(t)
+&= (\underbrace{ x_{1}*h_{1} }_{ y_{11} }+\underbrace{ x_{1}*h_{2} }_{ y_{12} }+\underbrace{ x_{2}*h_{1} }_{ y_{21} }+\underbrace{ x_{2}*h_{2} }_{ y_{22} })(t)
 \end{align}
 $$
+
+Grenzen $y_{11}$
+
+1. $-3>t: y_{11}(t) = 0$
+2. $-3 \leq t < -1: y_{11}= \int_{-3}^{t} \frac{1}{2}(\uptau+3)\,\mathrm{d}\uptau = \frac{1}{2}\left( \frac{\uptau^{2}}{2} +3\uptau\right)\Big|_{-3}^t=\frac{1}{4}(t^{2}+6t+9)$
+3. $-1\leq t<0: y_{11}(t)=\int_{-1}^{-3} x_{1}(\uptau)\,\mathrm{d}\uptau=1$
+4. $0\leq t\leq 2: y_{11}(t)=\int_{t-3}^{-1} \frac{1}{2}(\uptau+3)\,\mathrm{d}\uptau = \frac{1}{2}\left( \frac{\uptau^{2}}{2}+3\uptau \right)\Big|_{t-3}^{-1}= \frac{1}{4}(-t^{2}+1)$ 
