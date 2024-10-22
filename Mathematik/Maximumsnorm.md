@@ -18,8 +18,9 @@ $$
 \lvert\lvert x \rvert\rvert _{\infty} = \operatorname{sup}\{\lvert x_{1} \rvert ,\lvert x_{2} \rvert, \dots \lvert x_{n} \rvert \}
 $$
 
->[!example] $x := \{-1, -5, 3, 4\}$
-> $$\operatorname{max} | | x | | = 5$$
+>[!example] Beispiel
+> $$\left\| \begin{pmatrix} -5\\ -7\\ 4\\ -9\end{pmatrix} \right\|_\max = \max(|-5| , |7| , |4|, |-9|) = 9 $$
+
 
 Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der Maximums norm kein Einheitskreis, sondern ein Einheitsquader
 

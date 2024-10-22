@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - tikz/pgfplot
 aliases:
   - Einheitskreis
 created: 11. Oktober 2024
@@ -30,7 +31,7 @@ $$
 \newcommand\MY{2}
 \newcommand\RC{3}
 
-\begin{tikzpicture}[thick, scale=2]
+\begin{tikzpicture}[thick]
 \draw[very thick] (\MX,\MY) circle(\RC);
 \draw[->] (-1, 0) -- (6, 0) node[anchor=west] {\Huge$x$};
 \draw[->] (0, -1) -- (0, 6) node[anchor=south] {\Huge$y$};

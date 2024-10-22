@@ -1,5 +1,7 @@
 ```tikz
 \usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
 \pgfplotsset{compat=1.16}
 
 \begin{document}

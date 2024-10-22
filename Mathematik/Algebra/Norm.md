@@ -89,6 +89,23 @@ Jede Norm hat ihre eigene gemetrische Form:
 
 ```tikz
 \usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis} [axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+
+```tikz
+\usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
 
 \begin{document}
@@ -109,5 +126,3 @@ Jede Norm hat ihre eigene gemetrische Form:
 
 \end{document}
 ```
-
-
