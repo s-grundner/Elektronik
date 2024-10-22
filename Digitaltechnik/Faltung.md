@@ -22,21 +22,19 @@ $$
 
 Bei LTI-Systemen lässt sich das Ausgangssignal $y$ durch Faltung des EIngangssignals $x$ mit der Impulsantwort
 
-> [!important] Für die Faltung gelten die Körperaxiome:
+> [!important] Die Faltung erfüllt folgende Eigenschaften
 > 
 > 1. neutrales element $e$: $\delta(t)$
 >     - Die Faltung eines Signals mit dem Dirac-Impuls ergibt wieder das Signal
-> inverses Element $a'$: $x(t)$
->     - Die Faltung des Signals mit sich selbst ist $1$
-> kommutativität: $x*h=h*x$
+> 2. kommutativität: $x*h=h*x$
 
 Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
 
 
-1. Abtaseigenschaft
+1. Abtasteigenschaft
 
 $$
-\int_{-\infty}^{\infty}f(t)*\delta(t-t_{0})\,\mathrm{d}t
+\int_{-\infty}^{\infty}f(t)*\delta(t-t_{0})\,\mathrm{d}t = f(t_{0})
 $$
 
 ---
@@ -98,7 +96,7 @@ $t<0, \quad y(t)=0$
 $0 \leq t < T:$
 
 $$
-y(t): \int _{0}^t 1\cdot x(\uptau) \, \mathrm{d}\uptau = \int_{0}^t e^{ -a\uptau }\cdot\sigma(\uptau)\cdot\sigma(T-\uptau)\, \mathrm{d}\uptau
+y(t)=\int _{0}^t 1\cdot x(\uptau) \, \mathrm{d}\uptau = \int_{0}^t e^{ -a\uptau }\cdot\sigma(\uptau)\cdot\sigma(T-\uptau)\, \mathrm{d}\uptau
 $$ 
 
 
@@ -112,16 +110,23 @@ $$
 
 \begin{tikzpicture}
 \newcommand\T{1}
-\newcommand\ALP{0.2}
+\newcommand\ALP{0.6}
 
-\begin{axis}
-\addplot{1};
-\draw (\T, 0) -- (\T, 1);
-\addplot{exp(-\ALP*x)}
+\begin{axis}[thick, axis lines=middle, xmin=0, ymin=0, xmax=4, ymax=2]
+\addplot[domain=0:4]{1};
+\addplot[domain=0:4]{exp(-\ALP*x)};
+\draw[->] (\T, 0) -> (\T, 1);
 \end{axis}
 \end{tikzpicture}
 
 \end{document}
 ```
 
+>[!example] FAL003
 
+$$
+\begin{align}
+y(t) &= (x*h)(t) = ((x_{1}+x_{2})*(h_{1}+h_{2}))(t) \\
+&= (x_{1}*h_{1}+x_{1}*h_{2}+x_{2}*h_{1}+x_{2}*h_{2})(t)
+\end{align}
+$$
