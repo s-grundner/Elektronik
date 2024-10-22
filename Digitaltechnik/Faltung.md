@@ -124,6 +124,34 @@ $$
 
 >[!example] FAL003
 
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[
+    thick, axis lines=middle,
+    xmin=-4, ymin=-1, xmax=4, ymax=3, xtick={-3,-2,-1,0,1,2,3}]
+
+\addplot[domain=-3:-1]{0.5*(x+3)};
+\addplot[domain=0:2]{0.5*x};
+
+draw 
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
+$$
+x(t) = \frac{1}{2}(t+3)\cdot \operatorname{rect}\left( \frac{t-(-2)}{2} \right)-\frac{1}{2}t\cdot \operatorname{rect}\left( \frac{t-1}{2} \right)
+$$
+
 $$
 \begin{align}
 y(t) &= (x*h)(t) = ((x_{1}+x_{2})*(h_{1}+h_{2}))(t) \\

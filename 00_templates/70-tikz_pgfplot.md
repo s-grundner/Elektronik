@@ -7,13 +7,10 @@
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[colormap/viridis]
-\addplot3[
-	surf,
-	samples=16,
-	domain=-3:3
-]
-{exp(-x^2-y^2)*x};
+\begin{axis}[thick, axis lines=middle, xmin=0, ymin=0, xmax=1, ymax=1]
+
+
+
 \end{axis}
 \end{tikzpicture}
 

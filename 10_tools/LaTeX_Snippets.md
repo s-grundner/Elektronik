@@ -118,8 +118,8 @@
 	{trigger: "conj", replacement: "^{*}", options: "mA"},
 	{trigger: "trace", replacement: "\\mathrm{Tr}", options: "mA"},
 	{trigger: "det", replacement: "\\det", options: "mA"},
-	{trigger: "re", replacement: "\\mathrm{Re}", options: "mA"},
-	{trigger: "im", replacement: "\\mathrm{Im}", options: "mA"},
+	{trigger: "re", replacement: "\\mathrm{Re}", options: "m"},
+	{trigger: "im", replacement: "\\mathrm{Im}", options: "m"},
 
 	{trigger: "([a-zA-Z]),\\.", replacement: "\\mathbf{[[0]]}", options: "rmA"},
 	{trigger: "([a-zA-Z])\\.,", replacement: "\\mathbf{[[0]]}", options: "rmA"},
