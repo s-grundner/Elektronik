@@ -30,3 +30,8 @@ $$
 \int \cos^{n}(t) \sin (t) \,dt=-\frac{1}{n+1} \cos^{n+1}(t)\qquad g(x):= \cos(t)
 \end{aligned}
 $$
+---
+
+# Beispiele
+
+![](assets/PNG-Bild.png)
