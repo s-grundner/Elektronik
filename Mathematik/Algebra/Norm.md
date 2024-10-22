@@ -96,8 +96,14 @@ Jede Norm hat ihre eigene gemetrische Form:
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis} [axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\begin{axis} [axis equal, axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\addplot[thick, domain=0:2*pi, samples=100] ({cos(deg(x))}, {sin(deg(x))});
 \end{axis}
+
+\begin{axis} [axis equal, axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\draw (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- (1,0);
+\end{axis}
+
 \end{tikzpicture}
 
 \end{document}
@@ -113,13 +119,14 @@ Jede Norm hat ihre eigene gemetrische Form:
 \begin{tikzpicture}
 \begin{scope}
 \begin{axis} [axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
-\draw (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- (1,0);
+\draw[rounded corners=1cm] (-1, -1) rectangle (1, 1) {};
+
 \end{axis}
 \end{scope}
 
 \begin{scope}[xshift=10cm]
 \begin{axis} [axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
-\draw[rounded corners] (-1, -1) rectangle (1, 1) {};
+\draw (-1, -1) rectangle (1, 1) {};
 \end{axis}
 \end{scope}
 \end{tikzpicture}
