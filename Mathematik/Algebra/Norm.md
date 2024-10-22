@@ -84,9 +84,9 @@ $$\Downarrow$$
 > \|\mathbf{x}\|_{\infty}=\sup \left\{\left|x_1\right|,\left|x_2\right|, \ldots,\left|x_n\right|\right\}
 > $$
 
-# Norm in der Geometrie
+# Geometrische Interpretation
 
-Jede Norm hat ihre eigene geometrische Form.
+Jede Norm hat ihre eigene **geometrische** Form.
 
 Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in \mathbb{R}^2:\|\mathbf{x}\|_p \leq 1\right\}$ für verschiedene $p$ mit $p \geq 1$.
 
@@ -102,7 +102,7 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \begin{scope}
 \begin{axis} [
     xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
-    axis equal, axis lines=middle, title={\Large $p=1$}]
+    axis equal, axis lines=middle, title={\Large $p=1,\, \|x\|_1 \leq 1$}]
 \draw[fill=gray, fill opacity=0.1, thick] (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- (1,0);
 \end{axis}
 \end{scope}
@@ -110,8 +110,8 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \begin{scope}[xshift=10cm]
 \begin{axis}[
     xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
-    axis equal, axis lines=middle, title={\Large $p=1$}]
-\addplot[fill=gray, fill opacity=0.1, thick, domain=0:2*pi, samples=100] ({cos(deg(x))}, {sin(deg(x))});
+    axis equal, axis lines=middle, title={\Large $p=2,\, \|x\|_2 \leq 1$}]
+\addplot[fill=gray, fill opacity=0.1, thick, domain=0:2*pi] ({cos(deg(x))}, {sin(deg(x))});
 \end{axis}
 \end{scope}
 
@@ -130,7 +130,7 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \begin{scope}
 \begin{axis}[
     xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
-    axis equal, axis lines=middle, title={\Large$p=4$}]
+    axis equal, axis lines=middle, title={\Large$p=4,\,\|x\|_4 \leq 1$}]
 \draw[fill=gray, fill opacity=0.1, thick, rounded corners=1cm] (-1, -1) rectangle (1, 1) {};
 \end{axis}
 \end{scope}
@@ -138,7 +138,7 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \begin{scope}[xshift=10cm]
 \begin{axis} [
     xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
-    axis equal, axis lines=middle, title={\Large $p\to\infty$}]
+    axis equal, axis lines=middle, title={\Large $p\to\infty,\, \|x\|_\infty \leq 1$}]
 \draw[fill=gray, fill opacity=0.1, thick] (-1, -1) rectangle (1, 1) {};
 \end{axis}
 \end{scope}

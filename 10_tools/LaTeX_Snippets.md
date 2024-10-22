@@ -25,8 +25,8 @@
 	{trigger: "fora \\ll", replacement: "\\forall", options: "mA", priority: 1},
 	{trigger: "opname", replacement: "\\operatorname{$0}$1", options: "mA", priority: 1},
 	{trigger: "sup", replacement: "\\operatorname{sup}\\{$0\\}", options: "m", priority: 1},
-	{trigger: "betr", replacement: "\\lvert $0 \\rvert $1", options: "mA", priority: 1},
-
+	{trigger: "abs", replacement: "\\lvert $0 \\rvert $1", options: "mA", priority: 1},
+	{trigger: "norm", replacement: "\\lVert $0 \\rVert $1", options: "mA", priority: 1},
     
 	// Default
 
@@ -310,8 +310,6 @@
 
 	// Brackets
 	{trigger: "avg", replacement: "\\langle $0 \\rangle $1", options: "mA"},
-	{trigger: "norm", replacement: "\\left\\| $0 \\right\\| $1", options: "mA", priority: 1},
-	
 	{trigger: "mod", replacement: "|$0|$1", options: "mA"},
 	{trigger: "(", replacement: "(${VISUAL})", options: "mA"},
 	{trigger: "[", replacement: "[${VISUAL}]", options: "mA"},

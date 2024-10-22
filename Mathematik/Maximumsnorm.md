@@ -17,10 +17,11 @@ professor:
 # Maximumnorm
 
 
-
-$$
-\lvert\lvert x \rvert\rvert _{\infty} = \operatorname{sup}\{\lvert x_{1} \rvert ,\lvert x_{2} \rvert, \dots \lvert x_{n} \rvert \}
-$$
+ > [!summary] Maximumnorm
+> 
+> $$
+> \|\mathbf{x}\|_{\infty}=\sup \left\{\left|x_1\right|,\left|x_2\right|, \ldots,\left|x_n\right|\right\}
+> $$
 
 >[!example] Beispiel
 > $$\left\| \begin{pmatrix} -5\\ -7\\ 4\\ -9\end{pmatrix} \right\|_\max = \max(|-5| , |7| , |4|, |-9|) = 9 $$
