@@ -1,6 +1,7 @@
 ---
 tags:
   - Axiome/Norm
+  - tikz/pgfplot
 aliases:
   - Definition 6.11
   - Satz 6.15
@@ -8,8 +9,8 @@ aliases:
   - Cauchy-Schwarzsche Ungleichung
   - euklidsche Norm
   - euklidschen Norm
-keywords:
-  - Normaxiome N1-N3
+  - Normaxiome
+keywords: 
 subject:
   - VL
   - Mathematik 1
@@ -96,24 +97,25 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \pgfplotsset{compat=1.16}
 
 \begin{document}
-
 \begin{tikzpicture}
 
 \begin{scope}
-\begin{axis} [ xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
-    axis equal, axis lines=middle, title={$\huge p=1$}]
-\draw[thick] (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- (1,0);
+\begin{axis} [
+    xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
+    axis equal, axis lines=middle, title={\Large $p=1$}]
+\draw[fill=gray, fill opacity=0.1, thick] (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- (1,0);
 \end{axis}
 \end{scope}
 
 \begin{scope}[xshift=10cm]
-\begin{axis} [axis equal, axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
-\addplot[thick, domain=0:2*pi, samples=100] ({cos(deg(x))}, {sin(deg(x))});
+\begin{axis}[
+    xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
+    axis equal, axis lines=middle, title={\Large $p=1$}]
+\addplot[fill=gray, fill opacity=0.1, thick, domain=0:2*pi, samples=100] ({cos(deg(x))}, {sin(deg(x))});
 \end{axis}
 \end{scope}
 
 \end{tikzpicture}
-
 \end{document}
 ```
 
@@ -123,23 +125,24 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \pgfplotsset{compat=1.16}
 
 \begin{document}
-
 \begin{tikzpicture}
-\begin{scope}
-\begin{axis}[xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
-    axis equal, axis lines=middle, title={$\huge p=4$}]
-\draw[thick, rounded corners=1cm] (-1, -1) rectangle (1, 1) {};
 
+\begin{scope}
+\begin{axis}[
+    xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
+    axis equal, axis lines=middle, title={\Large$p=4$}]
+\draw[fill=gray, fill opacity=0.1, thick, rounded corners=1cm] (-1, -1) rectangle (1, 1) {};
 \end{axis}
 \end{scope}
 
 \begin{scope}[xshift=10cm]
-\begin{axis} [xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
-    axis equal, axis lines=middle, title={$\huge p\to\infty$}]
-\draw[thick] (-1, -1) rectangle (1, 1) {};
+\begin{axis} [
+    xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
+    axis equal, axis lines=middle, title={\Large $p\to\infty$}]
+\draw[fill=gray, fill opacity=0.1, thick] (-1, -1) rectangle (1, 1) {};
 \end{axis}
 \end{scope}
-\end{tikzpicture}
 
+\end{tikzpicture}
 \end{document}
 ```
