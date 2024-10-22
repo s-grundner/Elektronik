@@ -71,6 +71,7 @@ $$
 
 $$
 \begin{align}
-
+& \int \frac{1}{\sqrt{x^2-1}} d x= \begin{cases}\operatorname{arcosh} x & \text { auf }(1,+\infty), \\
+-\operatorname{arcosh}(-x) & \text { auf }(-\infty,-1),\end{cases} \\
 \end{align}
 $$
