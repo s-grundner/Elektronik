@@ -35,6 +35,14 @@ $$
 > **(g)** $|x| \leq c \iff-c \leq x \leq c$
 > 
 
+## Dreiecksungleichung
+
+Die Dreiecksungleichung besagt, dass eine Dreiecksseite höchstens so lang wie die Summe der beiden anderen Seiten ist. Das „höchstens“ schließt dabei den Sonderfall der Gleichheit ein.
+
+![invert_dark](assets/Pasted%20image%2020241022132830.png)
+
+---
+
 > [!example]- Beispiele
 > ![](assets/Pasted%20image%2020240127135219.png)
 

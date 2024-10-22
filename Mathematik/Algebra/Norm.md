@@ -13,6 +13,7 @@ keywords:
 subject:
   - VL
   - Mathematik 1
+  - Signale und Systeme
 semester: WS23
 created: 28. September 2024
 professor: 
@@ -30,7 +31,7 @@ axiome:
 > Es stellt sich nun die Frage, ob man auf allgmeinen Vektorräumen auch so einen **Abstandsbegriff** einführen kann. Das führt uns zu Normen.
 > 
 
-Der Körper $\mathbb{K}$ sei im Folgenden entweder $\mathbb{R}$ oder $\mathbb{C}$. Mit $|\cdot|$ bezeichnen wir jeweils den Betrag in $\mathbb{K}$ :
+Der [Körper](../Algebraische%20Strukturen.md) $\mathbb{K}$ sei im Folgenden entweder $\mathbb{R}$ oder $\mathbb{C}$. Mit $|\cdot|$ bezeichnen wir jeweils den Betrag in $\mathbb{K}$ :
 
 
 
@@ -51,9 +52,9 @@ Erweiterung der Euklidschen Norm auf $\mathbb{R}^n$
 
 $$\|\mathbf{x}\|=\sqrt{x_1^2+x_2^2+\ldots+x_n^2}$$
 
-Der nächste Satz besagt, dass jeder Prähilbertraum auch ein normierter Raum ist:
+Der nächste Satz besagt, dass jeder [Prähilbertraum](Skalarprodukt.md) auch ein normierter Raum ist:
 
-> [!important] **Satz 6.15** Sei $(X,\langle\cdot, \cdot\rangle)$ ein [Prähilbertraum](Skalarprodukt.md). Dann ist $\|x\|:=\sqrt{\langle x, x\rangle}$ eine Norm auf $X$ und für alle $x, y \in X$ gilt:
+> !important] **Satz 6.15** Sei $(X,\langle\cdot, \cdot\rangle)$ ein Prähilbertraum. Dann ist $\|x\|:=\sqrt{\langle x, x\rangle}$ eine Norm auf $X$ und für alle $x, y \in X$ gilt:
 > **(a)** Cauchy-Schwarzsche Ungleichung: $|\langle x, y\rangle| \leq\|x\| \cdot\|y\|$
 > **(b)** Parallelogrammgleichung: $\|x+y\|^2+\|x-y\|^2=2\left(\|x\|^2+\|y\|^2\right)$
 > - $\langle\cdot,\cdot \rangle$: [[Skalarprodukt]]
