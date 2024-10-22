@@ -22,3 +22,7 @@ Grundlage jeder mathematischen Theorie sind gewisse Aussagen, von denen wir ausg
 
 
 Mathematische *Sätze* sind Aussagen, die sich aus diesen Axiomen durch logisches Erschließen herleiten lassen.
+
+```dataview
+TABLE FROM #Axiome
+```

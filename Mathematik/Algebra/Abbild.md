@@ -13,6 +13,7 @@ created: 7. November 2023
 professor:
 ---
     
+
 # Abbildungen
 
 Eine Abbildung $f$ von einer Menge $A$ in eine Menge $B$
@@ -37,8 +38,9 @@ Wenn $f: A \rightarrow B$, dann heißt $f$
 - injektiv, wenn für alle $x, y \in A$ aus $x \neq y$ folgt: $f(x) \neq f(y)$
 - bijektiv, wenn $f$ surjektiv und injektiv ist
 
+
+---
+
 - [Bijektivität surjektivität…](https://www.youtube.com/watch?v=xNxuAG9UDN8)
 - [Bild Urbild Kern](https://www.youtube.com/watch?v=Q52laFrARek)
 - [Sätze zu Bild und Kern](https://www.youtube.com/watch?v=ub4hx65xpHM)  
-
-[Lineare Abbildungen](Lineare%20Abbildungen.md)
