@@ -25,35 +25,31 @@ axiome:
 
 # Norm
 
-Wir haben bereits in $\mathbb{C}$ gesehen, dass man den [Betrag](Betrag.md) der komplexen Zahl $z=x+i y$ angeben kann, der in der Zahlenebene der Länge des Vektors $(x, y)$ entspricht. Dieser Betrag erfüllt die Dreiecksungleichung.
+> [!quote] Wir haben bereits in $\mathbb{C}$ gesehen, dass man den [Betrag](Betrag.md) der komplexen Zahl $z=x+i y$ angeben kann, der in der Zahlenebene der Länge des Vektors $(x, y)$ entspricht. Dieser Betrag erfüllt die Dreiecksungleichung.
+> 
+> Es stellt sich nun die Frage, ob man auf allgmeinen Vektorräumen auch so einen **Abstandsbegriff** einführen kann. Das führt uns zu Normen.
+> 
 
-Es stellt sich nun die Frage, ob man auf allgmeinen Vektorräumen auch so einen **Abstandsbegriff** einführen kann. Das führt uns zu Normen. Der Körper $\mathbb{K}$ sei im Folgenden entweder $\mathbb{R}$ oder $\mathbb{C}$. Mit $|\cdot|$ bezeichnen wir jeweils den Betrag in $\mathbb{K}$ :
+Der Körper $\mathbb{K}$ sei im Folgenden entweder $\mathbb{R}$ oder $\mathbb{C}$. Mit $|\cdot|$ bezeichnen wir jeweils den Betrag in $\mathbb{K}$ :
 
 
 
 > [!important] **Definition 6.11** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md). Eine Abbildung $\|\cdot\|: X \rightarrow \mathbb{R}_{0}^{+}$ heißt Norm auf $X$, falls folgende Bedingungen gelten:
 > **(N1)** $\forall x \in X:\|x\|=0 \Longleftrightarrow x=0\quad$ (**[Definitheit](Algebra/Definitheit.md)**)
-> **(N2)** $\forall x \in X \forall \lambda \in \mathbb{K}:\|\lambda x\|=|\lambda|\|x\|\quad$ (**Homogenität**)
+> **(N2)** $\forall x \in X,\, \forall \lambda \in \mathbb{K}:\|\lambda x\|=|\lambda|\|x\|\quad$ (**Homogenität**)
 > **(N3)** $\forall x, y \in X:\|x+y\| \leq\|x\|+\|y\|\quad$ (**[Dreiecksungleichung](Betrag.md)**)
 > 
 > $(X,\|\cdot\|)$ heißt **normierter (Vektor-)Raum**.
 
->[!example] Es sind verschiedene Norm-Definitionen möglich, solange sie den obigen Axiomen (N1)-(N3) genügen.
->- Der komplexe Betrag $|\cdot|: \mathbb{C} \rightarrow \mathbb{R}_0^{+}$ist eine Norm im Sinne der Definition. Somit ist $\mathbb{C}$ bezüglich des Betrages ein normierter Raum.
-> - Standardnorm im Euklidschen Raum $\mathbb{R}^2$ :
-> 
-> $$
-> \|\mathbf{x}\|=\sqrt{x_1^2+x_2^2}
-> $$
-> 
-> - Erweiterung der Euklidschen Norm auf $\mathbb{R}^n$
-> 
-> $$
-> \|\mathbf{x}\|=\sqrt{x_1^2+x_2^2+\ldots+x_n^2}
-> $$
-> 
-
 ## Euklidsche Norm
+
+ Standardnorm im Euklidschen Raum $\mathbb{R}^2$ :
+
+$$\|\mathbf{x}\|=\sqrt{x_1^2+x_2^2}$$
+
+Erweiterung der Euklidschen Norm auf $\mathbb{R}^n$
+
+$$\|\mathbf{x}\|=\sqrt{x_1^2+x_2^2+\ldots+x_n^2}$$
 
 Der nächste Satz besagt, dass jeder Prähilbertraum auch ein normierter Raum ist:
 
@@ -90,7 +86,7 @@ $$\Downarrow$$
 
 Jede Norm hat ihre eigene geometrische Form.
 
-Wir betrachten die Definition der 'Einheitsfläche' $S_p=\left\{\mathrm{x} \in \mathbb{R}^2:\|\mathbf{x}\|_p \leq 1\right\}$ für verschiedene $p$ mit $p \geq 1$.
+Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in \mathbb{R}^2:\|\mathbf{x}\|_p \leq 1\right\}$ für verschiedene $p$ mit $p \geq 1$.
 
 ```tikz
 \usepackage{pgfplots}
@@ -103,7 +99,8 @@ Wir betrachten die Definition der 'Einheitsfläche' $S_p=\left\{\mathrm{x} \in \
 \begin{tikzpicture}
 
 \begin{scope}
-\begin{axis} [axis equal, axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\begin{axis} [ xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
+    axis equal, axis lines=middle, title={$\huge p=1$}]
 \draw[thick] (1,0) -- (0,1) -- (-1,0) -- (0,-1) -- (1,0);
 \end{axis}
 \end{scope}
@@ -128,7 +125,8 @@ Wir betrachten die Definition der 'Einheitsfläche' $S_p=\left\{\mathrm{x} \in \
 
 \begin{tikzpicture}
 \begin{scope}
-\begin{axis} [axis equal, axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5]
+\begin{axis}[xmin=-1.5, xmax=1.5, ymin=-1.5, ymax=1.5,
+    axis equal, axis lines=middle, title={$\huge p\to\infty$}]
 \draw[thick, rounded corners=1cm] (-1, -1) rectangle (1, 1) {};
 
 \end{axis}

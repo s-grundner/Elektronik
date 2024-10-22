@@ -16,6 +16,8 @@ professor:
 
 # Maximumnorm
 
+
+
 $$
 \lvert\lvert x \rvert\rvert _{\infty} = \operatorname{sup}\{\lvert x_{1} \rvert ,\lvert x_{2} \rvert, \dots \lvert x_{n} \rvert \}
 $$

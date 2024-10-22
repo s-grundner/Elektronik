@@ -32,12 +32,12 @@ wie z.B.: $f: \mathbb{R} \rightarrow \mathbb{R}$ mit $f(x):=x$.
 
 Abbildungen, welche in die reellen oder komplexen Zahlen abbilden, heißen auch **Funktionen**.
 
-Wenn $f: A \rightarrow B$, dann heißt $f$
-
-- surjektiv, wenn $f(A)=B$
-- injektiv, wenn für alle $x, y \in A$ aus $x \neq y$ folgt: $f(x) \neq f(y)$
-- bijektiv, wenn $f$ surjektiv und injektiv ist
-
+> [!important] Wenn $f: A \rightarrow B$, dann heißt $f$
+> 
+> - surjektiv, wenn $f(A)=B$
+> - injektiv, wenn für alle $x, y \in A$ aus $x \neq y$ folgt: $f(x) \neq f(y)$
+> - bijektiv, wenn $f$ surjektiv und injektiv ist
+> 
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - Algebra/LineareAlgebra
+  - Axiome/Skalarprodukt
 aliases:
   - inneres Produkt
   - innere Produkt
@@ -15,6 +16,10 @@ semester: WS23
 created: 28. September 2024
 professor:
   - Andreas Neubauer
+axiome:
+  - S1
+  - S2
+  - S3
 ---
  
 
