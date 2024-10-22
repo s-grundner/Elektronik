@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases:
-  - Maximumsnorm
+  - Maximumnorm
 keywords: 
 subject:
   - VL
@@ -51,12 +51,16 @@ Quader $Q_{v,u}$
 ```
 
 
-## Maximumsnorm
+## Maximumnorm
+
+$$
+\lvert\lvert x \rvert\rvert _{\infty} = \operatorname{sup}\{\lvert x_{1} \rvert ,\lvert x_{2} \rvert, \dots \lvert x_{n} \rvert \}
+$$
 
 >[!example] $x := \{-1, -5, 3, 4\}$
 > $$\operatorname{max} | | x | | = 5$$
 
-Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der Maximums norm kein EInheitskreis, sondern ein Einheitsquader
+Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der Maximums norm kein Einheitskreis, sondern ein Einheitsquader
 
 ```tikz
 \usepackage{pgfplots}

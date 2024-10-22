@@ -6,6 +6,7 @@ aliases:
   - innere Produkt
   - Satz 10.10
   - Definition 6.13
+  - Prähilbertraum
 keywords: 
 subject:
   - VL
@@ -57,6 +58,7 @@ professor:
 
 Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Selbe Richtung zeigt immer als Skalar.
 (bzw. den Anteil der auf den Anderen [Vektor](Vektor.md) projiziert wird)
+
 > [!info] Es hängt deshalb mit dem $\cos$ zusammen.
 > - $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen [Vektor](Vektor.md) projiziert)
 > - $\cos(90°) = 0$: Der projizierte Anteil ist $0$
@@ -69,7 +71,7 @@ Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Se
 > **(S2)** $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ (Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ )
 > **(S3)** $\forall x, y, z \in X \forall \lambda, \mu \in \mathbb{K}:\langle\lambda x+\mu y, z\rangle=\lambda\langle x, z\rangle+\mu\langle y, z\rangle$ (Linearität bzgl. 1. Argument)
 > 
-> $(X,\langle\cdot, \cdot\rangle)$ heißt **Prähilbertraum**.
+> $(X,\langle\cdot, \cdot\rangle)$ heißt **Prähilbertraum**. (Der Raum auf den das Skalarprodukt Abbildet)
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
