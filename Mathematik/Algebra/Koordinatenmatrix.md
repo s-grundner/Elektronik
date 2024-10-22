@@ -9,6 +9,8 @@ aliases:
   - Definition 10.5
   - Satz 10.6
   - Bemerkung 10.7
+  - Basis
+  - Basiswechsel
 keywords: 
 subject:
   - Mathematik 1

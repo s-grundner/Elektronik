@@ -16,7 +16,7 @@ professor:
 
 # Lineare Abhängigkeit
 
-> [!important] [Definition 6.5](Basis,%20Dimension%20und%20Teilräume.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md):
+> [!important] [Definition 6.5](Koordinatenmatrix.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md):
 > **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](../Analysis/Vektor.md)), heißen **linear unabhängig**, falls gilt:
 > 
 > $$

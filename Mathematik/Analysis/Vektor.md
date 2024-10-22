@@ -24,5 +24,5 @@ created: 28th September 2022
 
 - [Matrix](Matrix.md)
 - Tensor
-- [Vektor Basis](../Algebra/Basis,%20Dimension%20und%20Teilräume.md)
-- [Basis, Dimension und Teilräume](../Algebra/Basis,%20Dimension%20und%20Teilräume.md)
+- [Vektor Basis](../Algebra/Koordinatenmatrix.md)
+- [Koordinatenmatrix](../Algebra/Koordinatenmatrix.md)

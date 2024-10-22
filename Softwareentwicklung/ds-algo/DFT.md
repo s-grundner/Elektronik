@@ -100,7 +100,7 @@ Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechn
 
 ## Eigenschaften der DFT
 
-- „Die DFT einer [](../../Mathematik/Algebra/Basis,%20Dimension%20und%20Teilräume.md) von Signalen ist gleich der [](../../Mathematik/Algebra/Basis,%20Dimension%20und%20Teilräume.md) ihrer DFTs.“ (8, p. 169) [^1]
+- „Die DFT einer [](../../Mathematik/Algebra/Koordinatenmatrix.md) von Signalen ist gleich der [](../../Mathematik/Algebra/Koordinatenmatrix.md) ihrer DFTs.“ (8, p. 169) [^1]
 - „Die DFT und die IDFT sind $N$-periodisch.“ (8, p. 169) [^1]
 - „Die Energie des Signals im Zeitbereich ist gleich der Energie des Signals im Frequenzbereich geteilt durch $N$.“ (Parceval-Theorem) (8, p. 170) [^1]
 - „Die DFT eines reellen Signals ist bezüglich dem Punkt $k= N/2$ symmetrisch.“ ([8, p. 170]) [^1]

@@ -17,7 +17,7 @@ professor:
 # Vektorraum
 
 > [!quote] Es geht um [Mengen](../Mengenlehre.md) mit einer besonderen **Struktur**, d.h. um Eigenschaften, was mit den Elementen dieser Menge gemacht werden kann.
-> > [!important] Allgemein werden Mengen mit einer Struktur als **Räume** bezeichnet.
+> > [!important] Allgemein werden Mengen mit einer Struktur als **[Räume](Raum%20(Mathematik).md)** bezeichnet.
 > 
 > Häufig trifft man in der Mathematik eine Struktur bei der sich die Elemente einer Menge in natürlicher Weise addieren und mit einem skalar multiplizieren ('strecken') lassen.
 > 

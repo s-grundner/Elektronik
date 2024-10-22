@@ -17,7 +17,7 @@ professor:
 
 # Lineare Hülle
 
-> [!important] [Definition 6.5](Basis,%20Dimension%20und%20Teilräume.md) **(b)** Sei $X$ ein $\mathbb{K}$-Vektorraum:
+> [!important] [Definition 6.5](Koordinatenmatrix.md) **(b)** Sei $X$ ein $\mathbb{K}$-Vektorraum:
 > ![InlineR|250](../assets/linHuelle.jpg)
 > Sei $M \subset X, M \neq \emptyset$. Die Menge aller endlichen Linearkombinationen von Elementen aus $M$ heißt **lineare Hülle** von $M$ bezeichnet mit:
 > $$
