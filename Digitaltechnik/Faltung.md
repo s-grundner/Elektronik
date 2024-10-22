@@ -69,59 +69,6 @@ Wie lautet die Antwort des Systems $y(t)$ ?
 > [!success]- Lösung
 
 
-(a) 
-
-$$
-\begin{align}
-y(t)&= \int ^\infty_{-\infty} x(\uptau)\cdot \underbrace{ \sigma(t-\uptau) }_{ \sigma \left( \frac{\uptau-t}{-1} \right) } \, d\uptau  \\
- &= \int _{-\infty}^t x(\uptau )\, d\uptau = \int _{-\infty} \, dx 
-\end{align}
-$$
-
-
-(b) 
-$$
-\begin{align}
-
-x(t) : e^{ -at }\cdot\sigma(t)\cdot\sigma(T-t), \quad a >0
-
-\end{align}$$
-
-1. Bereich:
-
-$t<0, \quad y(t)=0$
-
-2. Bereich
-
-$0 \leq t < T:$
-
-$$
-y(t)=\int _{0}^t 1\cdot x(\uptau) \, \mathrm{d}\uptau = \int_{0}^t e^{ -a\uptau }\cdot\sigma(\uptau)\cdot\sigma(T-\uptau)\, \mathrm{d}\uptau
-$$ 
-
-
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
-
-\begin{document}
-
-\begin{tikzpicture}
-\newcommand\T{1}
-\newcommand\ALP{0.6}
-
-\begin{axis}[thick, axis lines=middle, xmin=0, ymin=0, xmax=4, ymax=2]
-\addplot[domain=0:4]{1};
-\addplot[domain=0:4]{exp(-\ALP*x)};
-\draw[->] (\T, 0) -> (\T, 1);
-\end{axis}
-\end{tikzpicture}
-
-\end{document}
-```
-
 >[!example] FAL003
 
 ```tikz
