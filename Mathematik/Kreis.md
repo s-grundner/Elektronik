@@ -47,6 +47,8 @@ $$
 
 Die Kreisgleichung ist oft eine Lösung komplexer Gleichungen und Ungleichungen
 
+## Einheitskreis
+
 ## Kreis durch 3 Punkte
 
 Durch umformen der Kreisgleichung erhält man ein Lineares Gleichungssystem 3. Ordnung
@@ -99,4 +101,3 @@ M_{y} = \frac{C}{2},\quad M_{x} = \frac{B}{2} \\
 r^{2} = \frac{C^{2}}{4}+\frac{B^{2}}{4}-A\quad\text{bzw} \quad r = \sqrt{ M_{y}^{2}+M_{x}^{2}-{A} }
 \end{gathered}
 $$
-

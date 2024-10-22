@@ -50,7 +50,6 @@ Quader $Q_{v,u}$
 \end{document}
 ```
 
-
 ## Maximumnorm
 
 $$
@@ -69,8 +68,8 @@ Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der
 \begin{document}
 
 \begin{tikzpicture}
-\begin{axis}[axis lines=middle, xmin=-6, xmax=6, ymin=-6, ymax=6]
-\draw (-5, 5) -- (5, 5) -- (5, -5) -- (-5, -5) -- (-5, 5);
+\begin{axis}[axis lines=middle, xmin=-1.5, xmax=1.5, ymin=-6, ymax=6]
+\draw[rounded corners] (-1, -1) rectangle (1, 1) {};
 \end{axis}
 \end{tikzpicture}
 

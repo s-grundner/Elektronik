@@ -62,5 +62,29 @@ Der nächste Satz besagt, dass jeder Prähilbertraum auch ein normierter Raum is
 > **(b)** Parallelogrammgleichung: $\|x+y\|^2+\|x-y\|^2=2\left(\|x\|^2+\|y\|^2\right)$
 > - $\langle\cdot,\cdot \rangle$: [[Skalarprodukt]]
 
-
 ### Weitere Normen in $\mathbb{R}^n$
+
+- Betragssummennorm
+
+$$
+\|\mathbf{x}\|_1=\left|x_1\right|+\left|x_2\right|+\ldots+\left|x_n\right|
+$$
+
+- $p$-Norm
+
+$$
+\|\mathbf{x}\|_p=\left(\sum_{i=1}^n\left|x_i\right|^p\right)^{1 / p}
+$$
+
+mit $p \geq 1$ und $p=2$ für die Standardnorm.
+- Maximumnorm
+
+$$
+\|\mathbf{x}\|_{\infty}=\sup \left\{\left|x_1\right|,\left|x_2\right|, \ldots,\left|x_n\right|\right\}
+$$
+
+# Norm in der Geometrie
+
+Jede Norm hat ihre eigene gemetrische Form
+
+
