@@ -24,3 +24,5 @@ professor:
 
 > [!important] Zeitinvarianz
 > Ein System ist Zeitinvariant wenn 
+
+

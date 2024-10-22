@@ -21,5 +21,6 @@ Ein Raum ist eine Menge aus mathematischen Objekten mit einer **Struktur**. Ein 
 
 **Euklidischer Raum**
 
-**Normierter Raum**
+**[Normierter Raum](Norm.md)**
 
+**[Metrischer Raum](Metrischer%20Raum.md)**

@@ -10,6 +10,7 @@ aliases:
   - euklidsche Norm
   - euklidschen Norm
   - Normaxiome
+  - Normierter Raum
 keywords: 
 subject:
   - VL
