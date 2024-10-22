@@ -13,6 +13,8 @@ axiome:
   - M1
   - M2
   - M3
+  - M4
+  - M5
 ---
  
 
@@ -64,15 +66,12 @@ $$
 
 
 Die durch die Norm induzierte Metrik besitzt zusätzlich die Eigenschaften:
-(M4)
-
 $$
 \begin{aligned}
-&\text{M4}d(\mathbf{x}+\mathbf{z}, \mathbf{y}+\mathbf{z}) & =d(\mathbf{x}, \mathbf{y}) \\
-&\text{M5}d(\alpha \mathbf{x}, \alpha \mathbf{y}) & =|\alpha| d(\mathbf{x}, \mathbf{y})
+&\text{M4}&&d(\mathbf{x}+\mathbf{z}, \mathbf{y}+\mathbf{z}) =d(\mathbf{x}, \mathbf{y}) \\
+&\text{M5}&&d(\alpha \mathbf{x}, \alpha \mathbf{y}) =|\alpha| d(\mathbf{x}, \mathbf{y})
 \end{aligned}
 $$
-
 
 Die Entfernung zweier Punkte $\mathbf{x}$ und $\mathbf{y}$ im Euklidschen Raum $\mathbb{R}^n$ beträgt
 
@@ -85,3 +84,5 @@ und in $\mathbb{R}^1$, d.h. der Gesamtheit der reellen Zahlen, gilt
 $$
 d(\mathbf{x}, \mathbf{y})=\|\mathbf{x}-\mathbf{y}\|=|x-y|
 $$
+
+
