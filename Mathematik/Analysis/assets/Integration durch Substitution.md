@@ -34,4 +34,4 @@ $$
 
 # Beispiele
 
-![](assets/PNG-Bild.png)
+![500](assets/SubsIntBsp1.png)![500](../../../xEDU/(SemB3)-WS24/Mathematik%203/SubstIntBsp2.png)
