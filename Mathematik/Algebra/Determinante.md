@@ -1,6 +1,6 @@
 ---
 tags:
-  - LineareAlgebra
+  - Algebra/LineareAlgebra
 aliases:
   - Sarrus
   - Laplace-Entwicklungssatz

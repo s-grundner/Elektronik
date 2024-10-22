@@ -1,8 +1,8 @@
 ---
 tags:
-  - LineareAlgebra
+  - Algebra/LineareAlgebra
 aliases:
-  - "#LineareAlgebra"
+  - "#Algebra/LineareAlgebra"
 keywords: 
 subject:
   - VL

@@ -15,6 +15,8 @@ professor:
 
 # Vektorraum
 
+
+
 > [!info] Bekannte Vektorräume:  
 > Menge aller ***[Vektoren](Vektor.md)*** im $\mathbb{R}^{3}$
 > - Mit der Vektoraddition: $\vec{u}+\vec{v}$

@@ -1,6 +1,6 @@
 ---
 tags:
-  - LineareAlgebra
+  - Algebra/LineareAlgebra
 aliases:
   - inneres Produkt
   - innere Produkt
