@@ -16,7 +16,14 @@ professor:
 
 # Vektorraum
 
-
+> [!quote] Es geht um [Mengen](../Mengenlehre.md) mit einer besonderen **Struktur**, d.h. um Eigenschaften, was mit den Elementen dieser Menge gemacht werden kann.
+> > [!important] Allgemein werden Mengen mit einer Struktur als **Räume** bezeichnet.
+> 
+> Häufig trifft man in der Mathematik eine Struktur bei der sich die Elemente einer Menge in natürlicher Weise addieren und mit einem skalar multiplizieren ('strecken') lassen.
+> 
+> Das Resultat dieser Operationen (Addition und Multiplikation) ist dabei wieder ein Element dieser Menge, d.h. die Operationen führen nicht aus der Menge heraus.
+> 
+> Nachfolgend behandelte Räume sind die abstrakte Erweiterung des wohlbekannten dreidimensionalen Euklidschen Raumes $\mathbb{R}^3$.
 
 > [!info] Bekannte Vektorräume:  
 > Menge aller ***[Vektoren](Vektor.md)*** im $\mathbb{R}^{3}$
@@ -34,7 +41,7 @@ professor:
 
 ## Unterraum
 
-> [!important] Sei $(V,+, \cdot)$ ein Vektorraum über einem Körper $K$.
+> [!important] Sei $(V,+, \cdot)$ ein Vektorraum über einem [Körper](../Algebraische%20Strukturen.md) $K$.
 > Eine nichtleere Teilmenge $U \subseteq V$ heißt Unterraum des Vektorraumes, wenn $U$ bzgl. „+“ und ,.“ abgeschlossen ist.
 > Wenn also für alle $u, v \in U$ und alle $\lambda, \mu \in K$ gilt:
 > $$\lambda \cdot u+\mu \cdot v \in U $$

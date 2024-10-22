@@ -1,6 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+  - Algebra
+aliases:
+  - Menge
 keywords: 
 subject:
   - VL
