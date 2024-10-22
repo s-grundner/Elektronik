@@ -1,3 +1,19 @@
+---
+tags: 
+aliases: 
+keywords:
+  - Stammfunktion ln
+subject:
+  - VL
+  - Mathematik 2
+semester: SS24
+created: 30. September 2024
+professor:
+  - Andreas Neubauer
+---
+ 
+
+
 # Partielle Integration
 
 $$
@@ -6,3 +22,11 @@ $$
 - für $g$ wird jene Funktion gewählt die durch Differenzation verschwindet
 - Es gibt eine einfach anzuwendende tabellarische Methode der partiellen Integration
 - Partielle integration kann mehrmals hintereinander augeführt werden
+
+# Beispiele
+
+Stammfunkton von $\ln \left(\operatorname{auf} \mathbb{R}^{+}\right)$mit $f: \equiv 1$ und $g:=\ln$ :
+
+$$
+\int \ln x d x=\int 1 \cdot \ln x d x=x \ln x-\int x x^{-1} d x=x \ln x-x=x(\ln x-1)
+$$
