@@ -20,34 +20,33 @@ axiome:
 
 # Metrischer Raum
 
-Einer Menge $M$ deren Elemente auch Punkte genannt werden, wird mit der Metrik $d$ eine reelle Zahl zugeordnet, die man als Abstand zwischen diesen Punkten interpretieren kann. Eine Abbildung
+Einer Menge $M$ deren Elemente auch Punkte genannt werden, wird mit der Metrik $d$ eine reelle Zahl zugeordnet, die man als Abstand zwischen diesen Punkten interpretieren kann.
 
-$$
-d: M \times M \rightarrow \mathbb{R}_0^{+}, \quad(\mathbf{x}, \mathbf{y}) \mapsto d(\mathbf{x}, \mathbf{y})
-$$
-
-heißt Metrik, wenn folgende Eigenschaften mit $\mathbf{x}, \mathbf{y}, \mathbf{z} \in M$ erfüllt sind:
-(M1) Pos. [Definitheit](Definitheit.md)
-
-$$
-\begin{aligned}
-& d(\mathbf{x}, \mathbf{y}) \geq 0 \\
-& d(\mathbf{x}, \mathbf{y})=0 \quad \Rightarrow \quad \mathbf{x}=\mathbf{y}
-\end{aligned}
-$$
-
-(M2) Symmetrie
-
-$$
-d(\mathbf{x}, \mathbf{y})=d(\mathbf{y}, \mathbf{x})
-$$
-
-(M3) [Dreiecksungleichung](Betrag.md)
-
-$$
-d(\mathbf{x}, \mathbf{y}) \leq d(\mathbf{x}, \mathbf{z})+d(\mathbf{z}, \mathbf{y})
-$$
-
+> [!important]  Eine Abbildung $d$
+> $$ d: M \times M \rightarrow \mathbb{R}_0^{+}, \quad(\mathbf{x}, \mathbf{y}) \mapsto d(\mathbf{x}, \mathbf{y})$$
+> heißt Metrik, wenn folgende Eigenschaften mit $\mathbf{x}, \mathbf{y}, \mathbf{z} \in M$ erfüllt sind:
+>
+> **(M1)** Pos. [Definitheit](Definitheit.md)
+> 
+> $$
+> \begin{aligned}
+> & d(\mathbf{x}, \mathbf{y}) \geq 0 \\
+> & d(\mathbf{x}, \mathbf{y})=0 \quad \Rightarrow \quad \mathbf{x}=\mathbf{y}
+> \end{aligned}
+> $$
+> 
+> **(M2)** Symmetrie
+> 
+> $$
+> d(\mathbf{x}, \mathbf{y})=d(\mathbf{y}, \mathbf{x})
+> $$
+> 
+> **(M3)** [Dreiecksungleichung](Betrag.md)
+> 
+> $$
+> d(\mathbf{x}, \mathbf{y}) \leq d(\mathbf{x}, \mathbf{z})+d(\mathbf{z}, \mathbf{y})
+> $$
+> 
 
 Eine Menge von Elementen $M$ zusammen mit der Metrik $d$, geschrieben als $(M, d)$, heißt metrischer Raum (Achtung: nicht notwendigerweise auch ein linearer Raum).
 
@@ -65,13 +64,16 @@ d(\mathbf{x}, \mathbf{y})=\|\mathbf{x}-\mathbf{y}\|
 $$
 
 
-Die durch die Norm induzierte Metrik besitzt zusätzlich die Eigenschaften:
-$$
-\begin{aligned}
-&\text{M4}&&d(\mathbf{x}+\mathbf{z}, \mathbf{y}+\mathbf{z}) =d(\mathbf{x}, \mathbf{y}) \\
-&\text{M5}&&d(\alpha \mathbf{x}, \alpha \mathbf{y}) =|\alpha| d(\mathbf{x}, \mathbf{y})
-\end{aligned}
-$$
+> [!important] Die durch die Norm induzierte Metrik besitzt zusätzlich die Eigenschaften:
+> 
+> - (M4) Bei gleicher verschiebung bleibt der Abstand gleich
+> 
+> $$d(\mathbf{x}+\mathbf{z}, \mathbf{y}+\mathbf{z}) =d(\mathbf{x}, \mathbf{y}) $$
+> 
+> - (M5) Bei gleicher skalierung bleibt der Abstand gleich
+> 
+> $$d(\alpha \mathbf{x}, \alpha \mathbf{y}) =|\alpha| d(\mathbf{x}, \mathbf{y})$$
+> 
 
 Die Entfernung zweier Punkte $\mathbf{x}$ und $\mathbf{y}$ im Euklidschen Raum $\mathbb{R}^n$ beträgt
 
@@ -99,6 +101,8 @@ Für $p=1$ folgt daraus die '**Manhatten**'- oder '**Taxicab**'-Metrik
 $$
 d(\mathbf{x}, \mathbf{y})=\left|x_1-y_1\right|+\left|x_2-y_2\right|+\ldots+\left|x_n-y_n\right|
 $$
+
+![invert_dark|500](assets/Pasted%20image%2020241022103316.png)
 
 
 Für $p=2$ folgt wieder der Euklidsche Abstand

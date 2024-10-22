@@ -8,13 +8,13 @@ class mybutton
 ^button-mathcha
 
 ```button
-name Latex OCR
+name TikzMaker
 type link
-action https://simpletex.cn/ai/latex_ocr
+action https://tikzmaker.com/editor
 class mybutton
 ```
 
-^button-simpletex
+^button-tikzmaker
 
 ```button
 name CircuiTikz
