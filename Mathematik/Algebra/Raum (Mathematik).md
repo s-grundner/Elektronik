@@ -15,6 +15,11 @@ professor:
 
 # Raum
 
-Ein Raum ist eine Menge aus mathematischen Objekten mit einer **Struktur**. 
+Ein Raum ist eine Menge aus mathematischen Objekten mit einer **Struktur**. Ein zentrales Beispiel ist der Vektorraum
 
-![invert_dark](assets/HierarchieRaeume.png)
+![invert_dark|250](assets/HierarchieRaeume.png)
+
+**Euklidischer Raum**
+
+**Normierter Raum**
+
