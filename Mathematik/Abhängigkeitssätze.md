@@ -64,7 +64,7 @@ professor:
 > \end{align}
 > $$
 
-> [!important] Es gelten die Vorraussetzungen des Satzes von Picard-Lindelöf und $x$ bezeichne die eindeutige Lösung des AWP
+> [!important] Anhängigkeits Es gelten die Vorraussetzungen des Satzes von Picard-Lindelöf und $x$ bezeichne die eindeutige Lösung des AWP
 > $$x'=f(t,x) \quad x(t_{0}) =x_{0}$$
 > im Intervall $I:=\left[t_0, t_0+\alpha\right]$ mit $\alpha$ wie in (4.4). Weiters sei $\bar{f}: Q_{u, v} \rightarrow \mathbb{R}^m$ stetig mit $Q_{u, v}$ wie in (4.3) und $\bar{x}$ bezeichne irgendeine, auf einem abgeschlossenen Intervall $\bar{I} \subset I$ existierende Lösung des AWP
 > $$\bar{x}'=\bar{f}(t;\bar{x}), \quad \bar{x}(t_{0}) = \bar{x}_{0}$$
