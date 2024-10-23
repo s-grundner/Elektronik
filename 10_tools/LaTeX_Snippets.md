@@ -30,6 +30,8 @@
 	{trigger: "bint", replacement: "\\int_{$0}^{$1}$2\\,\\mathrm{d}$3", options: "mA", priority: 1},
 	{trigger: "inf", replacement: "\\infty", options: "m", priority: 1},
 	{trigger: "^", replacement: "^{$0}$1", options: "mA", priority: 1},
+	{trigger: "atx", replacement: "A(t)x", options: "m", priority: 1},
+	
 	
     
 	// Default
