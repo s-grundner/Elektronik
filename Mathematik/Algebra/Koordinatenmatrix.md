@@ -24,11 +24,17 @@ professor:
 
 # Basis, Dimension und Teilräume
 
+Eine Basis des $\mathbb{R}^3$, wie z.B. kartesische Koordinaten oder Kugelkoordinaten, spannt den $\mathbb{R}^3$ vollständig auf. Die Koordinaten sind dabei definitionsgemäß $\mathbb{R}$ entnommen, und $N=3$ als Dimension des Raumes entspricht der Zahl der Basisvektoren.
+
+Warum? Die Einheitsvektoren $\vec{\mathbf{e}}_{x}$, die das kartesische Koordinatensystem aufspannen 
+
 > [!important] Definition 6.5. Sei $X$ ein $\mathbb{K}$-Vektorraum.
 >
 > - **(a)** [[Linearkombination]]
 > - **(b)** [[Lineare Hülle]]
 > - **(c)**, **(d)** [[Lineare Abhängigkeit]]
+
+
 
 # Koordinatenmatrix und Basis
 
