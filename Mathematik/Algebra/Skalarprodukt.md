@@ -46,11 +46,11 @@ axiome:
     ]
     
     % Define two vectors u and v
-    \addplot[->, very thick, cyan] coordinates {(0, 0) (3, 1)} node[pos=1, above] {$\vec{u}$};
-    \addplot[->, very thick, red] coordinates {(0, 0) (2, 3)} node[pos=1, right] {$\vec{v}$};
+    \addplot[->, very thick, cyan] coordinates {(0, 0) (3, 1)} node[pos=1, above] {\Large$\vec{u}$};
+    \addplot[->, very thick, red] coordinates {(0, 0) (2, 3)} node[pos=1, right] {\Large$\vec{v}$};
     
     % Add a label to show the scalar product (u dot v)
-    \node at (axis cs: 1, 3.3) {Skalarprodukt: $\vec{u} \cdot \vec{v}$};
+    \node at (axis cs: 1, 3.3) {\Large Skalarprodukt: $\vec{u} \cdot \vec{v}$};
     
     % Das Skalarprodukt kann als eine Projektion verstanden werden:
     % Projektion des Vektors v auf u (grün)
