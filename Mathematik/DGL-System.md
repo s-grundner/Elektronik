@@ -2,7 +2,6 @@
 tags: 
 aliases:
   - Differenzialgleichungssystem
-  - AWP
 keywords: 
 subject:
   - VL

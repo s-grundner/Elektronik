@@ -7,6 +7,7 @@ aliases:
   - DGL
   - Differenzialgleichungen
   - "#DGL"
+  - AWP
 subject:
   - Mathematik 3
   - VL
@@ -36,9 +37,8 @@ created: 14th March 2022
 
 ## Allgemeine Form
 
-Implizite Differenzialgleichung:
-
-$$F(t,x,x',\dots,x^{(n)}) = 0$$
+> [!info]
+>  **Implizite Differenzialgleichung:**$F(t,x,x',\dots,x^{(n)}) = 0$
 Explizite Differenzialgleichung:
 
 $$
