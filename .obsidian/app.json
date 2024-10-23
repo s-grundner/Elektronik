@@ -9,7 +9,7 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 50
+    "downscalePercent": 58
   },
   "promptDelete": false,
   "trashOption": "local",
