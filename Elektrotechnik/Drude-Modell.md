@@ -22,10 +22,10 @@ $$\left\langle\vec{v}_e\right\rangle=-\frac{e \uptau}{m_e} \vec{E}=-\mu_e \vec{E
 
 ---
 
-![InlineR|282](../Elektrotechnik/assets/V_Therm.png) Die Mittlere Driftgeschwindigkeit $\langle v\rangle$ der Elektronen im [Metall](../Chemie/Metallbindung.md) ist ohne einem [elektrischen Feld](elektrisches%20Feld.md) im Mittel Null.
+![invert_light|282](../Elektrotechnik/assets/V_Therm.png) Die Mittlere Driftgeschwindigkeit $\langle v\rangle$ der Elektronen im [Metall](../Chemie/Metallbindung.md) ist ohne einem [elektrischen Feld](elektrisches%20Feld.md) im Mittel Null.
 Obwohl sich die Elektronen individuell betrachtet durch die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung **sehr** schnell bewegen. Die Streuung der Elektronen ist *isotrop*.
 
-![InlineL|250](../Elektrotechnik/assets/V_ThermEFeld.png) Da in einem konstanten [Elektrischen Feld](elektrisches%20Feld.md) auf ein Elektron die [Coulomb-Kraft](Coulomb-Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../Physik/{MOC}%20Kräfte.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen.
+![invert_light|250](../Elektrotechnik/assets/V_ThermEFeld.png) Da in einem konstanten [Elektrischen Feld](elektrisches%20Feld.md) auf ein Elektron die [Coulomb-Kraft](Coulomb-Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../Physik/{MOC}%20Kräfte.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen.
 
 
 
@@ -55,7 +55,7 @@ Da die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegu
 > 
 > $\mu_{e}$ wird als Beweglichkeit bezeichnet.
 
-![](assets/MittlGeschwE.png)
+![invert_light](assets/MittlGeschwE.png)
 
 > [!info] Isotrop
 > Liefert keinen Betrag zum Mittelwert und ist im Mittel $0$.
