@@ -27,7 +27,7 @@ professor:
 Eine Basis des $\mathbb{R}^3$, wie z.B. kartesische Koordinaten oder Kugelkoordinaten, spannt den $\mathbb{R}^3$ vollständig auf. Die Koordinaten sind dabei definitionsgemäß $\mathbb{R}$ entnommen, und $N=3$ als Dimension des Raumes entspricht der Zahl der Basisvektoren.
 
 > [!question]- Warum?
-> Die Einheitsvektoren $\vec{\mathbf{e}}_{x},\vec{\mathbf{e}}_{y},\vec{\mathbf{e}}_{z}$, die das kartesische Koordinatensystem aufspannen sind linear Unabhängig (keine kombination der $\vec{\mathbf{e}}_{x}$ / $\vec{\mathbf{e}}_{y}$-Vektoren kann den $\vec{\mathbf{e}}_{z}$vektor darstellen)
+> Die Einheitsvektoren $\vec{\mathbf{e}}_{x},\vec{\mathbf{e}}_{y},\vec{\mathbf{e}}_{z}$, die das kartesische Koordinatensystem aufspannen sind linear Unabhängig (keine kombination der $\vec{\mathbf{e}}_{x}$ / $\vec{\mathbf{e}}_{y}$-Vektoren kann den $\vec{\mathbf{e}}_{z}$-Vektor darstellen)
 
 > [!important] Definition 6.5. Sei $X$ ein $\mathbb{K}$-Vektorraum.
 >
@@ -69,7 +69,7 @@ Es gilt dann offensichtlich:
 > 
 > Dabei gilt links $x \in X$ und $y \in Y$. Rechts gilt: $x$ ist der zugehörige Koordinatenvektor in $\mathbb{K}^n$ bzgl. der Basis $B$ und $y$ der zugehörige Koordinatenvektor in $\mathbb{K}^m$ bzgl. der Basis C. Zur Verwendung derselben Notation siehe Bemerkung 6.7.
 
-## Bemerkung 10.7.
+## Bemerkung 10.7
 
 Die Koordinatenmatrix hängt natürlich von der jeweils gewählten Basis ab. Würde man einen Basiswechsel von $B$ zu $\bar{B}$ bzw. $C$ zu $\bar{C}$ vornehmen, dann folgt mit Satz 7.21, dass dann für die Koordinatenmatrix $\bar{A}^L$ bzgl. der neuen Basis gilt:
 
