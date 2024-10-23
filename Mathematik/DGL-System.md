@@ -38,6 +38,32 @@ F(t,z_{1},\dots,z_{n},z_{n}') & =0
 \end{align}
 $$
 
+
+## Lineare DGL-Systeme 1. Ordnung
+
+vorher: $x' f(t,\bar{x})$
+
+jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Intervall)}$
+
+Falls $b=0$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
+
+$$
+A(t)=(a_{ij}(t))^m_{i,j=1}, \quad b(t)= (b_{i}(t))_{i=1}^{m}
+$$
+
+Man kann den Satz von Picad von Picard Lindelöf auf das DGL-System erster ordnung anwenden
+
+- $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$
+- $K \subseteq I$ ... $K$ ist abgeschlossen
+
+
+$$
+\begin{align}
+A(t)\cdot z &= \left( \sum_{j=1}^{m} a_{ij}(t)\cdot z_{j} \right)^m _{i=1} \\
+\lVert A(t)\cdot z \rVert =\max
+\end{align}
+$$
+
 ---
 
 [Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
