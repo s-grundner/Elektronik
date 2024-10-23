@@ -20,7 +20,7 @@ $$
 Differenzialgleichung wird zur Integralgleichung
 
 $$
-\int _{t_{0}}^{t}\dot{x}(s) \, ds =\int_{t_{0}^{t}} f(s,x(s)) \, ds 
+\int _{t_{0}}^{t}\dot{x}(s) \, ds =\int_{t_{0}}^{t} f(s,x(s)) \, ds 
 $$
 Mit dem Hauptsatz der Differenzalrechnung folgt:
 
@@ -44,10 +44,8 @@ $$
 Für eine Lösung $x$ von dem [AWP]({MOC}%20DGL.md) bzw einen Fixpunkt $x$ von $A$ gilt:
 
 $$
-\boxed{ \lvert \lvert \varphi_{n}^{(t)}-x^{(t)}  \rvert  \rvert \leq \underbrace{ M \cdot L^{n} \cdot \frac{\alpha^{n+1}}{(n+1)!} }_{ \to 0 \text{ mit } n\to \infty \quad(1)} \quad \text{für alle}\quad t\in[t_{0}-\alpha,t_{0}+\alpha] }
+\boxed{ \lVert \varphi_{n}(t)-x(t) \rVert \leq \underbrace{ M \cdot L^{n} \cdot \frac{\alpha^{n+1}}{(n+1)!} }_{ \to 0 \text{ mit } n\to \infty \quad(1)} \quad \text{für alle}\quad t\in[t_{0}-\alpha,t_{0}+\alpha] }
 $$
-
-siehe Satz von [Peano](Peano.md) zur [Maximumsnorm](Maximumsnorm.md)
 
 
 > [!success]- Beweis (1):

@@ -23,7 +23,7 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 
 > [!important] Satz von Peano
 > Gegeben seien eine offene [Menge](Mengenlehre.md) $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
-> Weiters sei die Funktion $f$ stetig auf dem Quader
+> Weiters sei die Funktion $f$ stetig auf dem **Quader**
 > 
 > $$ Q_{u, v}:=\{(t, x) \in \mathbb{R}^{m+1}: t \in[\underbrace{ t_0, t_0+u }_{ (1) }],\left\|x-x_0\right\| \leq v\} \subset D $$
 > 
@@ -35,7 +35,7 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 > > ... wenn man in $(1)$ das Intervall $\left[t_0, t_0+u\right]$ durch $\left[t_0-u, t_0\right.$ ] oder $\left[t_0-u, t_0+u\right]$ ersetzt, wobei sich dann das Existenzintervall zu $\left[t_0-\alpha, t_0\right]$ bzw. $\left[t_0-\alpha, t_0+\alpha\right]$ ändert.
 
 
-Quader $Q_{v,u}$
+> [!question] Quader $Q_{v,u}$
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
