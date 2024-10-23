@@ -26,7 +26,8 @@ professor:
 
 Eine Basis des $\mathbb{R}^3$, wie z.B. kartesische Koordinaten oder Kugelkoordinaten, spannt den $\mathbb{R}^3$ vollständig auf. Die Koordinaten sind dabei definitionsgemäß $\mathbb{R}$ entnommen, und $N=3$ als Dimension des Raumes entspricht der Zahl der Basisvektoren.
 
-Warum? Die Einheitsvektoren $\vec{\mathbf{e}}_{x}$, die das kartesische Koordinatensystem aufspannen 
+> [!question]- Warum?
+> Die Einheitsvektoren $\vec{\mathbf{e}}_{x},\vec{\mathbf{e}}_{y},\vec{\mathbf{e}}_{z}$, die das kartesische Koordinatensystem aufspannen sind linear Unabhängig (keine kombination der $\vec{\mathbf{e}}_{x}$ / $\vec{\mathbf{e}}_{y}$-Vektoren kann den $\vec{\mathbf{e}}_{z}$vektor darstellen)
 
 > [!important] Definition 6.5. Sei $X$ ein $\mathbb{K}$-Vektorraum.
 >
@@ -34,7 +35,18 @@ Warum? Die Einheitsvektoren $\vec{\mathbf{e}}_{x}$, die das kartesische Koordina
 > - **(b)** [[Lineare Hülle]]
 > - **(c)**, **(d)** [[Lineare Abhängigkeit]]
 
+Ein Vektor im $\mathbb{R}^N$ wird bekanntermaßen als Linearkombination der Basisvektoren $\mathbf{x}_1, \ldots, \mathbf{x}_N$ dargestellt.
 
+$$
+\mathbf{y}=a_1 \mathbf{x}_1+a_2 \mathbf{x}_2+\ldots+a_N \mathbf{x}_N
+$$
+
+
+> [!info] Somit wird jeder Vektor in einem festgelegten Koordinatensystem durch seine Koordinaten $a_1, a_2, \ldots, a_N$ beschrieben.
+> Durch die Wahl des Abstandes zweier Vektoren $d(\mathbf{x}, \mathbf{y})$, der [Metrik](Metrischer%20Raum.md), das [innere Produkt](Skalarprodukt.md) $\langle\mathbf{x}, \mathbf{y}\rangle$ und durch die Länge der Vektoren $\|\mathbf{x}\|$, der [Norm](Norm.md), strukturiert man das **Koordinatensystem**, d.h. die **Basis**.
+> 
+
+Umgekehrt stellt sich die Frage, wie die Koordinaten $a_i$ bestimmt werden können.
 
 # Koordinatenmatrix und Basis
 
