@@ -27,18 +27,18 @@ Um Differenzialgleichungen höherer Ordnung leichter lösen zu können, kann die
 > $$
 > 
 
-Hierfür wird ein Hilfsvektor $\mathbf{z}$ mit den **Hilfsfunktionen** $z_{k}$ eingeführt. Man erhält durch die Setzung 
+> [!success] Hierfür wird ein Hilfsvektor $\mathbf{z}$ mit den **Hilfsfunktionen** $z_{k}$ eingeführt.
+> Man erhält durch die Setzung 
 $$ z_{k}:=x^{(k-1)}, \quad k= 1,\dots,n$$
 folgendes Differenzialgleichungs-System **erster** Ordnung:
-
-$$ 
-\begin{align}
-z_{k}'&=z_{k+1}, \quad  k=1, \dots,n-1 \\
-F(t,z_{1},\dots,z_{n},z_{n}') & =0
-\end{align}
-$$
-
-
+> 
+> $$ 
+> \begin{gather}
+> z_{k}'=z_{k+1}, \quad  k=1, \dots,n-1 \\
+> F(t,z_{1},\dots,z_{n},z_{n}')  =0
+> \end{gather}
+> $$
+> 
 ## Lineare DGL-Systeme 1. Ordnung
 
 vorher: $x' f(t,\bar{x})$

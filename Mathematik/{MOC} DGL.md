@@ -30,24 +30,29 @@ created: 14th March 2022
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
->[!example] Beispiel 2. Newtonsche Axiom: 
-> $m\cdot x''(t) = F$
-> - … ist ein Beispiel einer *gewöhnlichen* DGL zweiter Ordnung, das heißt die gesuchte Funktion für $x$ hängt nur von einerm Parameter $x(t)$ ab.
-> - Anderfalls heit die gleichung *partielle* DGL
+> [!info] Allgemeine Form
+> 
+> **Implizite Differenzialgleichung:** $F(t,x,x',\dots,x^{(n)}) = 0$
+>  
+> **Explizite Differenzialgleichung:** $x^{(n)}= f(t,x,x',\dots,x^{(n-1)})$
+> 
+> $\implies F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)})$
 
-## Allgemeine Form
+## Anfangswert Problem (AWP)
 
-> [!info]
->  **Implizite Differenzialgleichung:**$F(t,x,x',\dots,x^{(n)}) = 0$
-Explizite Differenzialgleichung:
+> [!important] Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
+> 
+> $x$ heißt Lösung des Anfangswertproblems, wenn es ein Intervall $I$ mit $t_0 \in I$ gibt,
+> sodass $x: I \rightarrow \mathbb{R}^m$ differenzierbar ist, $g r(x) \subset D$ gilt und
+> 
+> $x^{\prime}(t)=f(t, x(t))$ für alle $t \in I$ und $x\left(t_0\right)=x_0$
+
+Um die Abhängigkeit der Lösung des AWP von $t_0$ und $x_0$ anzudeuten, schreibt man auch manchmal
 
 $$
-x^{(n)}= f(t,x,x',\dots,x^{(n-1)})
+x\left(t ; t_0, x_0\right)
 $$
-$\implies$
-$$
-F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)}) 
-$$
+
 
 ## Map of Content
 

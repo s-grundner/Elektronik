@@ -21,7 +21,7 @@ Der satz von Peano sagt uns die existenz mindestens einer Lösung.
 
 $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 
-> [!important] Satz 17.7 (Peano)
+> [!important] Satz von Peano
 > Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$. Weiters sei die Funktion $f$ stetig auf dem Quader
 > 
 > $$ Q_{u, v}:=\left\{(t, x) \in \mathbb{R}^{m+1}: t \in\left[t_0, t_0+u\right],\left\|x-x_0\right\| \leq v\right\} \subset D $$
