@@ -39,7 +39,7 @@ Obwohl sich die Elektronen individuell betrachtet durch die [thermische](../Phys
 
 Die Gesamtheit der Stöße der Elektronen wird als *Streuung* bezeichnet
 
-![](assets/DrudeStosszeiten.png)
+![invert_light](assets/DrudeStosszeiten.png)
 
 Die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung wird mit der Beschleunigung durch das [E-Feld](elektrisches%20Feld.md) überlagert.
 
