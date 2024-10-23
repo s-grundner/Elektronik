@@ -36,18 +36,18 @@ $$
 \varphi_{0}(t) := x_{0}, \quad\varphi_{n}(t):= (A\cdot\varphi_{n-1})(t)
 $$
 
-> [!info] Operator $A$ ist eine Abbildung von dem Raum der Stetigen funktionen in sich selbst.
+> [!info] Operator $A$ ist eine Abbildung von dem [Raum](Algebra/Raum%20(Mathematik).md) der Stetigen funktionen in sich selbst.
 > $A$ nimmt eine stetige Funktion und produziert wieder eine solche
 
 
 
-Für eine Lösung $x$ von dem AWP bzw einen Fixpunkt $x$ von $A$ gilt:
+Für eine Lösung $x$ von dem [AWP]({MOC}%20DGL.md) bzw einen Fixpunkt $x$ von $A$ gilt:
 
 $$
 \boxed{ \lvert \lvert \varphi_{n}^{(t)}-x^{(t)}  \rvert  \rvert \leq \underbrace{ M \cdot L^{n} \cdot \frac{\alpha^{n+1}}{(n+1)!} }_{ \to 0 \text{ mit } n\to \infty \quad(1)} \quad \text{für alle}\quad t\in[t_{0}-\alpha,t_{0}+\alpha] }
 $$
 
-siehe Satz von [Peano](Peano.md) zur Maximumsnorm
+siehe Satz von [Peano](Peano.md) zur [Maximumsnorm](Maximumsnorm.md)
 
 
 > [!success]- Beweis (1):
