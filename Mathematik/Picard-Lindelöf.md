@@ -95,13 +95,16 @@ $$
 \end{align}
 $$
 
-Beispiel 5.4
+>[!example] Beispiel 5.4
 
 $$
 \begin{align}
-x'=x^{2}-t=f(t,x) \\
-\bar{f}(t, x)=f(t,x) + \frac{1}{100}\sin() \\
-x'=\bar{f}(t,x)\quad x(0) = \frac{1}{8} \\
-\bar{Q}_{\frac{1}{2}, \frac{3}{8}} = \left\{  (t,x) \in \mathbb{R}^{2}:\lvert t \rvert \leq \frac{1}{2}, \left\lvert  x-\frac{1}{8}  \right\rvert \leq \frac{3}{8}   \right\} \leq Q_{\frac{1}{2}, \frac{1}{2}}
+x'&=x^{2}-t=f(t,x) \\
+\bar{f}(t, x)&=f(t,x) + \frac{1}{100}\sin() \\
+x'&=\bar{f}(t,x)\quad x(0) = \frac{1}{8} \\
+\bar{Q}_{\frac{1}{2}, \frac{3}{8}}& = \left\{  (t,x) \in \mathbb{R}^{2}:\lvert t \rvert \leq \frac{1}{2}, \left\lvert  x-\frac{1}{8}  \right\rvert \leq \frac{3}{8}   \right\} \subseteq Q_{\frac{1}{2}, \frac{1}{2}} \\
+\max \lvert f(t,x)-\bar{f}(t,x) \rvert &=\frac{1}{100}= \omega \\
+\lvert \bar{f(t,x)} \rvert &\leq \frac{1}{4}+\frac{1}{2}+\frac{1}{100} =\frac{19}{25}\quad (t,x)\in \bar{Q}_{\frac{1}{2} , \frac{1}{8}} \\
+\bar{\alpha}&=\min \left\{  \frac{1}{2} , \frac{\frac{3}{8} }{\frac{19}{25}} \right\} = \frac{75}{152}
 \end{align}
 $$
