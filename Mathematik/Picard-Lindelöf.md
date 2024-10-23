@@ -17,7 +17,7 @@ Es seien die vorrausseztungen des Satzes von Peano erfüllt
 > [!important] Satz von Picard-Lindelöf
 > ist $f:[c,d] \times \mathbb{R}^m \to \mathbb{R}^m$ (definiert über dem ganzen streifen)  stetig und Lipschitzstetig $\lvert \lvert f(t) \rvert \rvert$ für alle $(t,x),(t,\overline{x})\in Q_{u,v}$
 
-Abhängigkeitssätze
+## Abhängigkeitssätze
 
 Unter vorraussetzung des Satzes von Picard-Lindelöf gilt, dass
 
@@ -37,8 +37,8 @@ f&:\mathbb{D}\to \mathbb{R}^m
 \end{align}
 $$
 
-Q muss teilmenge des Definitionsbereich D sein
-f muss auf D definiert werden
+$Q$ muss teilmenge des Definitionsbereich $\mathbb{D}$ sein
+$f$ muss auf $D$ definiert werden
 
 $$
 M=\underbrace{ \max }_{ (t,x) \in Q_{u,v} } \lVert f(t,x) \rVert 
@@ -46,7 +46,7 @@ $$
 
 Lösung existiert auf $[t_{0},t_{0}+x]$
 
-Übertragungsmatrix (Jacobimatrix):
+Übertragungsmatrix (Jacobimatrix): Im falle eines DGL-Systems, sonst ist sie eine $1\times1$-Matrix
 
 $$
 \begin{align}
@@ -65,6 +65,8 @@ x(t;t_{0};x_{0}\delta x_{0})-x(t;t_{0};x_{0}) \\
 \end{align}
 $$
 
+
+
 Beispiel 5.2
 
 $$
@@ -72,6 +74,34 @@ $$
 x'=x^{2}, \quad x(1)=1 \\
 f(t,x) = x^{2} \\
 x(t,1,x_{0})= \frac{x_{0}}{1+x_{0}(1-t)} \quad t \in(-\infty, (1+x_{0})^{-1}) \\
-\frac{\partial x}{\partial x_{0}}= \frac{1(1+x_{0}(1-t))}{(1)+x_{0}(1-t))^{2}}
+\frac{\partial x}{\partial x_{0}}= \frac{1(1+x_{0}(1-t)-x_{0}(1-t))}{(1+x_{0}(1-t))^{2}} \quad\text{(Quotientenregel)}\\
+=\frac{1}{(1+x_{0}(1-t))^{2}}\\
+\frac{\partial x}{\partial x_{0}}(t;1;1) = \frac{1}{(2-t)^{2}}
 \end{gather}
+$$
+
+Satz 5.3
+$$
+\begin{align}
+x'=f(t,x) && x(t_{0}) &=x_{0} \\
+\bar{x}'=\bar{f}(t;\bar{x}) && \bar{x}(t_{0}) &= \bar{x}_{0}
+\end{align}
+$$
+
+$$
+\begin{align}
+\lVert x(t)-\bar{x}(t) \rVert &\leq \lVert x_{0}-\bar{x}_{0} \rVert \cdot e^{ L(t-t_{0}) } + \frac{\omega}{L}\cdot(e^{ L(t-t_{0}) }-1) \\
+\omega &= \underbrace{ \max }_{ (t,x)\in Q_{u,v} } \lVert f(t,x)-\bar{f(t,x)} \rVert
+\end{align}
+$$
+
+Beispiel 5.4
+
+$$
+\begin{align}
+x'=x^{2}-t=f(t,x) \\
+\bar{f}(t, x)=f(t,x) + \frac{1}{100}\sin() \\
+x'=\bar{f}(t,x)\quad x(0) = \frac{1}{8} \\
+\bar{Q}_{\frac{1}{2}, \frac{3}{8}} = \left\{  (t,x) \in \mathbb{R}^{2}:\lvert t \rvert \leq \frac{1}{2}, \left\lvert  x-\frac{1}{8}  \right\rvert \leq \frac{3}{8}   \right\} \leq Q_{\frac{1}{2}, \frac{1}{2}}
+\end{align}
 $$
