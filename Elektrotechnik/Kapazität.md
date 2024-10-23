@@ -34,9 +34,9 @@ cited:
 
 ## Schaltsymbol
 
-| Symbol | ESB                     |
-| ------ | ----------------------- |
-|        | ![cap_esb](cap_esb.png) |
+| Symbol | ESB                               |
+| ------ | --------------------------------- |
+|        | ![invert_light\|400](cap_esb.png) |
 
 ## Kenngrößen im Kondensator
 
@@ -142,7 +142,7 @@ $$
 ## Realer Kondensator
 
 > [!summary] ESB  
-> ![InlineL|400](assets/cap_esb.png)
+> ![invert_light|400](assets/cap_esb.png)
 > 
 > - $R_{ESR}$: dielektrische und elektrische Verluste
 > - $ESR$: equivalent series resistance
