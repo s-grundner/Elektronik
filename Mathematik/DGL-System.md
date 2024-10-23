@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - Differenzialgleichungssystem
+  - AWP
 keywords: 
 subject:
   - VL
@@ -16,7 +17,7 @@ professor:
 
 Um Differenzialgleichungen höherer Ordnung leichter lösen zu können, kann diese in ein System aus Differenzialgleichungen erster Ordnung überführt werden. 
 
-> [!info] Jede DGL $n$-ter Ordnung lässt sich in ein [[DGL-System]] überführen
+> [!info] Jede DGL $n$-ter Ordnung lässt sich in ein DGL-System überführen
 > $$
 > F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
 > z_{1}=z' \\

@@ -13,13 +13,13 @@ professor:
 
 # Abhängigkeitssätze
 
-> [!important] Es gelten die Voraussetzungen des Satzes von [Picard-Lindelöf](Picard-Lindelöf.md). Dann gilt:
+> [!important] **Abhängigkeitssatz 1:** Es gelten die Voraussetzungen des Satzes von [Picard-Lindelöf](Picard-Lindelöf.md). Dann gilt:
 > 
 > $$
 > \lim _{\bar{x}_0 \rightarrow x_0} x\left(t ; t_0, \bar{x}_0\right)=x\left(t ; t_0, x_0\right) \quad \text { für alle } \quad t \in\left[t_0, t_0+\alpha\right)
 > $$
 > 
-> mit $\alpha$ nach dem Satz von [Peano](Peano.md)
+> mit $\alpha$ nach dem Satz von [Peano](Peano.md).
 > Ist $f$ in $Q_{u, v}$ sogar stetig differenzierbar nach $x$, dann ist die Lösungsfunktion $x\left(t ; t_0, \cdot\right)$ stetig differenzierbar bei $x_{0}$.
 > 
 
@@ -64,13 +64,10 @@ professor:
 > \end{align}
 > $$
 
-> [!important] Satz 5.3
-> $$
-> \begin{align}
-> x'=f(t,x) && x(t_{0}) &=x_{0} \\
-> \bar{x}'=\bar{f}(t;\bar{x}) && \bar{x}(t_{0}) &= \bar{x}_{0}
-> \end{align}
-> $$
+> [!important] Es gelten die Vorraussetzungen des Satzes von Picard-Lindelöf und $x$ bezeichne die eindeutige Lösung des AWP
+> $$x'=f(t,x) \quad x(t_{0}) =x_{0}$$
+> im Intervall $I:=\left[t_0, t_0+\alpha\right]$ mit $\alpha$ wie in (4.4). Weiters sei $\bar{f}: Q_{u, v} \rightarrow \mathbb{R}^m$ stetig mit $Q_{u, v}$ wie in (4.3) und $\bar{x}$ bezeichne irgendeine, auf einem abgeschlossenen Intervall $\bar{I} \subset I$ existierende Lösung des AWP
+> $$\bar{x}'=\bar{f}(t;\bar{x}), \quad \bar{x}(t_{0}) = \bar{x}_{0}$$
 > 
 > $$
 > \begin{align}
