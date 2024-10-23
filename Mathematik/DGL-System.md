@@ -54,13 +54,26 @@ $$
 Man kann den Satz von Picad von Picard Lindelöf auf das DGL-System erster ordnung anwenden
 
 - $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$
-- $K \subseteq I$ ... $K$ ist abgeschlossen
+- $K \subseteq I$ ... $K$ ist ein abgeschlossenes Teilintervall
 
+
+$$
+\lVert f(t,x)-\bar{f}(t,y) \rVert 
+$$
 
 $$
 \begin{align}
 A(t)\cdot z &= \left( \sum_{j=1}^{m} a_{ij}(t)\cdot z_{j} \right)^m _{i=1} \\
 \lVert A(t)\cdot z \rVert =\max
+\end{align}
+$$
+Nach der globalen Version des Satz von Picard Lindelöf hat also ein Lineares DGl-System für $\forall t\in I$ eine Eindeutige Lösung
+
+Seien $x_{1},x_{2}\quad I\to \mathbb{R}^{m}$ zwei Lösungen von $x'A(t)\cdot x$, mit Zahlen $\lambda_{1}, \lambda_{2}$, dann gilt:
+$$
+\begin{align}
+(\lambda_{1}x_{1}+\lambda_{2} x_{2})'= \lambda_{1}\cdot x_{1}'+\lambda_{2}\cdot x_{2}' \\
+=
 \end{align}
 $$
 

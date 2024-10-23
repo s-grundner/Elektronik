@@ -17,9 +17,6 @@ Es seien die vorrausseztungen des Satzes von Peano erfüllt
 > [!important] Satz von Picard-Lindelöf
 > ist $f:[c,d] \times \mathbb{R}^m \to \mathbb{R}^m$ (definiert über dem ganzen streifen)  stetig und Lipschitzstetig $\lvert \lvert f(t) \rvert \rvert$ für alle $(t,x),(t,\overline{x})\in Q_{u,v}$
 
-Globale Version
-
-hat also ein Lineares DGl-System für alle $t$ aus dem Intervall $I$ eine Eindeutige Lösung
 
 ## Abhängigkeitssätze
 
