@@ -53,7 +53,7 @@ wobei $M_0:=M \backslash\{0\}$, $\mathbb{R}, \mathbb{C}$ sind somit ein Körper 
 > 
 > ---
 > 
-> heißt Körper, wenn $(M,+)$ und $(M \backslash\{0\}, \cdot)$ Abelsche Gruppen sind und das Distributivgesetz $a(b+c)=a b+a c$ und $(b+c) a=b a+c a$ gilt
+> ... heißt Körper, wenn $(M,+)$ und $(M \backslash\{0\}, \cdot)$ Abelsche Gruppen sind und das Distributivgesetz $a(b+c)=a b+a c$ und $(b+c) a=b a+c a$ gilt
 
 >[!example] Beispiele
 > Faltung $x*y$ mit neutralem element $e=\delta(t)$ und inversem element $y=x^*$
