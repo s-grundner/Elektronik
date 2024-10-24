@@ -32,27 +32,60 @@ professor:
 
 ### 1. MWG - Gaußsches Gesetz
 
+| differentielle Form |                     verknüpfender Integralsatz                      | Integralform |
+| ------------------- |:-------------------------------------------------------------------:| ------------ |
+|                     | [Gaußscher Integralsatz](../Mathematik/Gaußscher%20Integralsatz.md) |              |
+
+$$
+\operatorname{div} \mathbf{B} = \nabla \cdot \mathbf{B}=0
+\quad\underset{ \text{ Gauss } }{ \iff } \quad 
+\oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} =\int_V \rho \mathrm{d} V \tag{MW.1}
+
+$$
+
+### 2. MWG - Quellenfreiheit des B-Feldes
+
 | differentielle Form | verknüpfender Integralsatz | Integralform |
 | ------------------- | :------------------------: | ------------ |
 |                     |   Gaußscher Integralsatz   |              |
+
+$$
+\operatorname{div} \mathbf{D} = \nabla \cdot \mathbf{D}=\rho
+\quad\underset{ \text{ Gauss } }{ \iff } \quad 
+
+$$
+
+### 3. MWG - Induktionsgesetz
+
+| differentielle Form |                       verknüpfender Integralsatz                        | Integralform |
+| ------------------- |:-----------------------------------------------------------------------:| ------------ |
+|                     | [Stokesscher Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md) |              |
+
+$$
+\operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
+\quad\underset{ \text{ Stokes } }{ \iff } \quad 
+\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A}
+$$
+
+### 4. MWG - Durchflutungssatz
+
+> [!quote] Auch *Ampèresches Gesetz*
+
+| differentielle Form | verknüpfender Integralsatz | Integralform |
+| ------------------- |:--------------------------:| ------------ |
+|                     |  Stokesscher Integralsatz  |              |
+
 $$
 \operatorname{rot} \mathbf{H} = \nabla \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t}
-\quad\underset{ \text{ Gauss } }{ \iff }\quad
+\quad\underset{ \text{ Stokes } }{ \iff }\quad
 \oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} =\int_A \mathbf{J} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A}
 $$
-
-### Ampèresches Gesetz
-
-
 
 ### Differenzialform
 
 $$
 \begin{align}
-\operatorname{rot} \mathbf{H} & = \nabla \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t} \tag{D.1}\\
-\operatorname{rot} \mathbf{E} & = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t} \tag{D.2} \\
-\operatorname{div} \mathbf{D} & = \nabla \cdot \mathbf{D}=\rho \tag{D.3} \\
-\operatorname{div} \mathbf{B} & = \nabla \cdot \mathbf{B}=0\tag{D.4}
+
 \end{align}
 $$
 
@@ -60,10 +93,7 @@ $$
 
 $$
 \begin{align}
-\oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} & =\int_A \mathbf{J} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{I.1}\\
-\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} & =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{I.2}\\
-\oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} & =\int_V \rho \mathrm{d} V \tag{I.3} \\
-\oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} & =0 \tag{I.4}
+\oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} =0
 \end{align}
 $$
 
