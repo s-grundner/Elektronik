@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Stokesscher Integralsatz
 keywords: 
 subject:
   - VL
@@ -14,3 +15,4 @@ professor:
 # Stokesscher Integralsatz
 
 
+---

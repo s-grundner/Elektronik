@@ -28,6 +28,14 @@ professor:
 > | $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md) | $\mathrm{A} / \mathrm{m}^2$ |
 > | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
 
+
+## Differentielle und integrale Formulierung
+
+
+| differentielle Form | verknüpfender Integralsatz | Integralform |
+| ------------------- | :------------------------: | ------------ |
+|                     | Gauß                       |              |
+
 ### Differenzialform
 
 $$
@@ -44,9 +52,9 @@ $$
 $$
 \begin{align}
 \oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} & =\int_A \mathbf{J} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{I.1}\\
-\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} & =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{i.2}\\
-\oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} & =\int_V \rho \mathrm{d} V \\
-\oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} & =0
+\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} & =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{I.2}\\
+\oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} & =\int_V \rho \mathrm{d} V \tag{I.3} \\
+\oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} & =0 \tag{I.4}
 \end{align}
 $$
 
@@ -55,11 +63,11 @@ $$
 ### Materialgleichungen
 
 $$
-\begin{aligned}
-\mathbf{B} & =\mu \mathbf{H} \\
-\mathbf{D} & =\varepsilon \mathbf{E} \\
-\mathbf{J} & =\sigma \mathbf{E}
-\end{aligned}
+\begin{align}
+\mathbf{B} & =\mu \mathbf{H} \tag{M.1}\\
+\mathbf{D} & =\varepsilon \mathbf{E} \tag{M.2} \\
+\mathbf{J} & =\sigma \mathbf{E} \tag{M.3}
+\end{align}
 $$
 
 ### Mathematische Grundbegriffe
@@ -82,8 +90,5 @@ und wird als *Durchflutungssatz* bezeichnet.
 > [!tldr]  
 > In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *[Stromdichte](Stromdichte.md)* $J$ über die *Fläche* $A$ (siehe auch Einschub: [Flächenintegral](Flächenintegral.md)) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird
 
-## Kontinuitätsgleichung
-
-### Verschiebungsstrom
 
 # Tags

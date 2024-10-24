@@ -22,7 +22,7 @@ Differenzialgleichung wird zur Integralgleichung
 $$
 \int _{t_{0}}^{t}\dot{x}(s) \, ds =\int_{t_{0}}^{t} f(s,x(s)) \, ds 
 $$
-Mit dem Hauptsatz der Differenzalrechnung folgt:
+Mit dem [[Hauptsatz der Differenzalrechnung]] folgt:
 
 $$
 \begin{align}
