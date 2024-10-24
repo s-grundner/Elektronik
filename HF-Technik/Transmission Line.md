@@ -109,6 +109,9 @@ Eine TL wird mit serien [induktivitäten](../Elektrotechnik/Induktivitäten.md) 
 > 
 > Mit diesen Impedanzen ergibt sich die Kenngröße des [Reflexionsfaktor](Reflexionsfaktor.md)
 
+## Puls auf einer Leitung
+
+## Sinusförmiges Signal auf der Leitung
 
 ## TL in LTSpice
 
