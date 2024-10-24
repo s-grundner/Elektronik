@@ -34,11 +34,9 @@
 	{trigger: "v..", replacement: "\\vdots", options: "mA", priority: 1},
 	{trigger: "d..", replacement: "\\ddots", options: "mA", priority: 1},
 	{trigger: "c..", replacement: "\\cdots", options: "mA", priority: 1},
+	{trigger: "tag", replacement: "\\tag{$0}$1", options: "mA", priority: 1},
 	
 	
-	
-	
-    
 	// Default
 
 	// Math mode

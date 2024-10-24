@@ -31,24 +31,26 @@ professor:
 ### Differenzialform
 
 $$
-\begin{aligned}
-\operatorname{rot} \mathbf{H} & = \nabla \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t} \\
-\operatorname{rot} \mathbf{E} & = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t} \\
-\operatorname{div} \mathbf{D} & = \nabla \cdot \mathbf{D}=\rho \\
-\operatorname{div} \mathbf{B} & = \nabla \cdot \mathbf{B}=0
-\end{aligned}
+\begin{align}
+\operatorname{rot} \mathbf{H} & = \nabla \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t} \tag{D.1}\\
+\operatorname{rot} \mathbf{E} & = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t} \tag{D.2} \\
+\operatorname{div} \mathbf{D} & = \nabla \cdot \mathbf{D}=\rho \tag{D.3} \\
+\operatorname{div} \mathbf{B} & = \nabla \cdot \mathbf{B}=0\tag{D.4}
+\end{align}
 $$
 
 ### Integralform
 
 $$
-\begin{aligned}
-\oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} & =\int_A \mathbf{J} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A} \\
-\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} & =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} \\
+\begin{align}
+\oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} & =\int_A \mathbf{J} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{I.1}\\
+\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} & =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{i.2}\\
 \oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} & =\int_V \rho \mathrm{d} V \\
 \oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} & =0
-\end{aligned}
+\end{align}
 $$
+
+
 
 ### Materialgleichungen
 

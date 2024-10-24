@@ -17,7 +17,7 @@ professor:
 
 # Leitergeometrien von HF-Leitungen
 
-> [!success] Die charakteristische Impedanz $Z_{0}$ beschreibt unter anderem die Geometrie einer Leitung
+> [!success] Die [charakteristische Impedanz](Leitungswellenwiderstand.md) $Z_{0}$ beschreibt unter anderem die Geometrie einer Leitung
 > Man muss daher nicht immer die Maxwellgleichungen für eine Leitungsgeometrie lösen, sondern kann mit der charateristischen Impedanz 
 
 ## TEM-Moden
@@ -31,7 +31,7 @@ siehe: [Transversale EM-Welle](Transversale%20Elektromagnetische%20Welle.md)
 
 ### Herleitung zu HF-Leitermodelle
 
-> [!warning] Herleitung der Parallelplattenleitung mittels der Maxwellgleichungen
+> [!warning] Herleitung der Parallelplattenleitung mittels der [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen
 > Jedoch ist das verfahren gleich für andere geometrien
 > 1. Annahmen zum Feldverlauf
 > 2. Kontur Wählen
@@ -95,7 +95,7 @@ $$
 \oint_{C_0} \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=\int_0^d E_y\left(x_0, y, z_0, t\right) \mathrm{d} y-\int_0^d E_y\left(x_1, y, z_0, t\right) \mathrm{d} y
 $$
 
-> [!important] Da das Flächenintegral über $S_{0}$ (Fläche der Kontur $C_{0}$) verschwindet (da kein H-Feld in $z$-Richtung vorhanden ist) erhält man:
+> [!important] Da das [Flächenintegral](../Elektrotechnik/Flächenintegral.md) über $S_{0}$ (Fläche der Kontur $C_{0}$) verschwindet (da kein H-Feld in $z$-Richtung vorhanden ist) erhält man:
 >
 
 $$
@@ -115,7 +115,7 @@ HF-Leitungen höherer ordnung
 ![invert_dark](assets/nonTEM.png)
 
 - Rectangular Waveguide (Rechteck Hohlleiter)
-- [LWL](Lichtwellenleiter.md) - Dielektrischer Wellenleiter Licht Als EM-Welle durch nicht leitendes Dielektrikum
+- [LWL](Lichtwellenleiter.md) - Dielektrischer Wellenleiter Licht Als EM-Welle durch nicht leitendes [Dielektrikum](../Elektrotechnik/Dielektrikum.md)
 - Coplanarer Microstrip
 
 
