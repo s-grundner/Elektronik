@@ -32,7 +32,7 @@ professor:
 
 ### 1. MWG - Gaußsches Gesetz
 
-| differentielle Form                                                                                            |                     verknüpfender Integralsatz                      | Integralform                                                                                                                                                    |
+| **differentielle Form**                                                                                        |                   **verknüpfender Integralsatz**                    | **Integralform**                                                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Das $\vec{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist Quelle des elektrischen Feldes. | [Gaußscher Integralsatz](../Mathematik/Gaußscher%20Integralsatz.md) | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
 
@@ -44,9 +44,9 @@ $$
 
 ### 2. MWG - Quellenfreiheit des B-Feldes
 
-| differentielle Form                                                                                                                  | verknüpfender Integralsatz | Integralform                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------ |:--------------------------:| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Das $\vec{B}$-Feld ist quellenfrei. Es gibt keine magnetischen Monopole. Das heißt es muss zu jedem Nordpol auch einen Südpol geben. |   Gaußscher Integralsatz   | Der magnetische Fluss durch die geschlossene Oberfläche eines Volumens ist gleich der magnetischen Ladung in seinem Inneren, nämlich Null, da es keine magnetischen Monopole gibt. |
+| **differentielle Form**                                                                                                              | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Das $\vec{B}$-Feld ist quellenfrei. Es gibt keine magnetischen Monopole. Das heißt es muss zu jedem Nordpol auch einen Südpol geben. |     Gaußscher Integralsatz     | Der magnetische Fluss durch die geschlossene Oberfläche eines Volumens ist gleich der magnetischen Ladung in seinem Inneren, nämlich Null, da es keine magnetischen Monopole gibt. |
 
 $$
 \boxed{ \operatorname{div} \mathbf{D} = \nabla \cdot \mathbf{D}=\rho
@@ -56,9 +56,9 @@ $$
 
 ### 3. MWG - Induktionsgesetz
 
-| differentielle Form |                       verknüpfender Integralsatz                        | Integralform |
-| ------------------- |:-----------------------------------------------------------------------:| ------------ |
-|                     | [Stokesscher Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md) |              |
+| **differentielle Form**                                                                                                                                                                 |                     **verknüpfender Integralsatz**                      | **Integralform**                                                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Jede Änderung des $\vec{B}$-Feldes führt zu einem elektrischen Gegenfeld.<br>Die Wirbel des elektrischen Feldes sind von der zeitlichen Änderung der magnetischen Flussdichte abhängig. | [Stokesscher Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md) | Die (elektrische) Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der negativen zeitlichen Änderung des magnetischen Flusses durch die Fläche. |
 
 $$
 \boxed{ \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
@@ -99,7 +99,5 @@ $$
 - [Gradient](../Mathematik/Gradient.md): $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 - Divergenz: $\operatorname{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 - Rotation: $\operatorname{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
-
-
 
 # Tags
