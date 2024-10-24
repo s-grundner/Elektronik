@@ -158,9 +158,10 @@
 
 
 	// Visual operations
-	{trigger: "U", replacement: "\\underbrace{ ${VISUAL} }_{ $0 }", options: "mA"},
+	{trigger: "B", replacement: "\\underbrace{ ${VISUAL} }_{ $0 }", options: "mA"},
 	{trigger: "L", replacement: "\\underline{ ${VISUAL} }", options: "mA"},
-	{trigger: "B", replacement: "\\underset{ $0 }{ ${VISUAL} }", options: "mA"},
+	{trigger: "U", replacement: "\\underset{ $0 }{ ${VISUAL} }", options: "mA"},
+    {trigger: "O", replacement: "\\overset{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "C", replacement: "\\cancel{ ${VISUAL} }", options: "mA"},
 	{trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
@@ -201,7 +202,7 @@
 	{trigger: ">>", replacement: "\\gg", options: "mA"},
 	{trigger: "<<", replacement: "\\ll", options: "mA"},
 	{trigger: "~~", replacement: "\\sim", options: "mA"},
-	{trigger: "\\sim ~", replacement: "\\approx", options: "mA"},
+	{trigger: "\\sim~", replacement: "\\approx", options: "mA"},
 	{trigger: "prop", replacement: "\\propto", options: "mA"},
 	{trigger: "nabl", replacement: "\\nabla", options: "mA"},
 	{trigger: "del", replacement: "\\nabla", options: "mA"},
@@ -264,13 +265,13 @@
 
 
 	// Integrals
-	{trigger: "oinf", replacement: "\\int_{0}^{\\infty} $0 \\, d${1:x} $2", options: "mA"},
-	{trigger: "infi", replacement: "\\int_{-\\infty}^{\\infty} $0 \\, d${1:x} $2", options: "mA"},
-	{trigger: "dint", replacement: "\\int_{${0:0}}^{${1:\\infty}} $2 \\, d${3:x} $4", options: "mA"},
+	{trigger: "oinf", replacement: "\\int_{0}^{\\infty} $0 \\mathrm{~d}${1:x} $2", options: "mA"},
+	{trigger: "infi", replacement: "\\int_{-\\infty}^{\\infty} $0 \\mathrm{~d}${1:x} $2", options: "mA"},
+	{trigger: "dint", replacement: "\\int_{${0:0}}^{${1:\\infty}} $2 \\mathrm{~d}${3:x} $4", options: "mA"},
 	{trigger: "oint", replacement: "\\oint", options: "mA"},
 	{trigger: "iiint", replacement: "\\iiint", options: "mA"},
 	{trigger: "iint", replacement: "\\iint", options: "mA"},
-	{trigger: "int", replacement: "\\int $0 \\, d${1:x} $2", options: "mA"},
+	{trigger: "int", replacement: "\\int $0 \\mathrm{~d}${1:x} $2", options: "mA"},
 
 
 

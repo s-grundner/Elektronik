@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases:
-  - Stokesscher Integralsatz
+  - Satz von Stokes
 keywords: 
 subject:
   - VL

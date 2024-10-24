@@ -28,13 +28,22 @@ professor:
 > | $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md) | $\mathrm{A} / \mathrm{m}^2$ |
 > | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
 
-
 ## Differentielle und integrale Formulierung
 
+### 1. MWG - Gaußsches Gesetz
 
 | differentielle Form | verknüpfender Integralsatz | Integralform |
 | ------------------- | :------------------------: | ------------ |
-|                     | Gauß                       |              |
+|                     |   Gaußscher Integralsatz   |              |
+$$
+\operatorname{rot} \mathbf{H} = \nabla \times \mathbf{H}=\mathbf{J}+\frac{\partial \mathbf{D}}{\partial t}
+\quad\underset{ \text{ Gauss } }{ \iff }\quad
+\oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} =\int_A \mathbf{J} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A}
+$$
+
+### Ampèresches Gesetz
+
+
 
 ### Differenzialform
 
@@ -57,8 +66,6 @@ $$
 \oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} & =0 \tag{I.4}
 \end{align}
 $$
-
-
 
 ### Materialgleichungen
 
@@ -89,6 +96,5 @@ und wird als *Durchflutungssatz* bezeichnet.
 
 > [!tldr]  
 > In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *[Stromdichte](Stromdichte.md)* $J$ über die *Fläche* $A$ (siehe auch Einschub: [Flächenintegral](Flächenintegral.md)) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird
-
 
 # Tags
