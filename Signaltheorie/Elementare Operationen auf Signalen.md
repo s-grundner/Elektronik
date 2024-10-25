@@ -10,6 +10,7 @@ created: 2. Oktober 2024
 professor:
 ---
  
+
 # Elementare Operationen
 
 - Amplituden Verschiebung (Erhöhung, Erniedrigung) - keine echte Elementare operation, da außerhalb des Argumentes
