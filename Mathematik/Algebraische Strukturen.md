@@ -28,21 +28,21 @@ wobei $M_0:=M \backslash\{0\}$, $\mathbb{R}, \mathbb{C}$ sind somit ein Körper 
 
 ## Halbgruppe / Gruppe
 
-> [!important] Eine **Algebra** $(M, *)$...
+> [!important] Eine **Algebra** $(M, *)$…
 > 
-> ... heißt **Halbgruppe**, wenn sie in Bezug auf die Operation * dem **Assoziativgesetz** genügt.
+> … heißt **Halbgruppe**, wenn sie in Bezug auf die Operation * dem **Assoziativgesetz** genügt.
 > - Sie wird **kommutative** Halbgruppe genannt, wenn die Operation * zusätzlich **kommutativ** ist.
 > 
 > ---
 > 
-> ... heißt **Gruppe**, wenn sie in Bezug auf die Operation * dem Assoziativgesetz genügt, ein neutrales Element $e$ und zu jedem $a \in M$ ein bezüglich * inverses Element $a^{\prime}$ besitzt mit $a * a^{\prime}=e$.
+> … heißt **Gruppe**, wenn sie in Bezug auf die Operation * dem Assoziativgesetz genügt, ein neutrales Element $e$ und zu jedem $a \in M$ ein bezüglich * inverses Element $a^{\prime}$ besitzt mit $a * a^{\prime}=e$.
 > - Sie wird Abelsche Gruppe genannt, wenn die Operation * zusätzlich kommutativ ist.
 > 
 
 ## Ring / Körper
 
 > [!important] Eine Algebra $(M,+, \cdot)$
-> ... heißt Ring, wenn $(M,+)$ eine Abelsche Gruppe und $(M, \cdot)$ eine Halbgruppe sind und das Distributivgesetz $a(b+c)=a b+a c$ und $(b+c) a=b a+c a$ gilt.
+> … heißt Ring, wenn $(M,+)$ eine Abelsche Gruppe und $(M, \cdot)$ eine Halbgruppe sind und das Distributivgesetz $a(b+c)=a b+a c$ und $(b+c) a=b a+c a$ gilt.
 > - Die Elemente $l \neq 0$ und $r \neq 0$ heißen Nullteiler genau dann, wenn
 > 
 > $$ l \cdot r=0 $$
@@ -53,7 +53,7 @@ wobei $M_0:=M \backslash\{0\}$, $\mathbb{R}, \mathbb{C}$ sind somit ein Körper 
 > 
 > ---
 > 
-> ... heißt Körper, wenn $(M,+)$ und $(M \backslash\{0\}, \cdot)$ Abelsche Gruppen sind und das Distributivgesetz $a(b+c)=a b+a c$ und $(b+c) a=b a+c a$ gilt
+> … heißt Körper, wenn $(M,+)$ und $(M \backslash\{0\}, \cdot)$ Abelsche Gruppen sind und das Distributivgesetz $a(b+c)=a b+a c$ und $(b+c) a=b a+c a$ gilt
 
 >[!example] Beispiele
 > Faltung $x*y$ mit neutralem element $e=\delta(t)$ und inversem element $y=x^*$

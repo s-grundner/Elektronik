@@ -44,7 +44,6 @@
     "kusss": "multitext",
     "ez": "date",
     "Lack": "multitext",
-    "avg_grades": "checkbox",
-    "axiome": "multitext"
+    "avg_grades": "checkbox"
   }
 }
