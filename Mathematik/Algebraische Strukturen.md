@@ -22,7 +22,7 @@ professor:
 
 Strukturen bei natürlichen, ganzen und rationalen Zahlen
 
-![](assets/Pasted%20image%2020241022085134.png)
+![](assets/AlgStrukt.png)
 
 wobei $M_0:=M \backslash\{0\}$, $\mathbb{R}, \mathbb{C}$ sind somit ein Körper $\mathbb{K}$
 
