@@ -39,6 +39,7 @@ folgendes Differenzialgleichungs-System **erster** Ordnung:
 > \end{gather}
 > $$
 > 
+
 ## Lineare DGL-Systeme 1. Ordnung
 
 vorher: $x' f(t,\bar{x})$
@@ -67,6 +68,7 @@ A(t)\cdot z &= \left( \sum_{j=1}^{m} a_{ij}(t)\cdot z_{j} \right)^m _{i=1} \\
 \lVert A(t)\cdot z \rVert =\max
 \end{align}
 $$
+
 > [!quote] Nach der globalen Version des Satz von Picard Lindelöf hat also ein Lineares DGL-System für $\forall t\in I$ eine Eindeutige Lösung
 
 ### Homogene Gleichung
@@ -100,41 +102,11 @@ $$
 Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ linear unabhängig
 
 
-Satz 6.1 Die Lösung von $x'=a(t)x$ bilden einen $m$-dimensionalen Vektorraum
-
-### Fundamentalmatrix
-
-Seien $x_{1},\dots ,x_{m}: I \to \mathbb{R}^{m}$ linear unabhängige Lösungen von $x'=A(t)x$
-
-$$\begin{align}
-X(t):=(x_{1}(t)\dots x_{m}(t)) \in \mathbb{R}^{m\times m}
-\end{align}
-$$
-
-$$
-X'(t) = \begin{pmatrix}
-x_{1}'(t) & \dots  & x_{k}'(t)
-\end{pmatrix} = \begin{pmatrix}
-A(t)x_{1}  & \dots  & A(t)x_{k}
-\end{pmatrix}
-$$
-Gilt $X(t_{0})= \mathbb{1}_{m}$ (Einheitsmatrix), so heißt die Fundamntalmatrix $X(t)$ **Matrizant** 
-
-> [!important] Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$
+> [!important] Satz 6.1 Die Lösung von $x'= A(t)x$ bilden einen $m$-dimensionalen Vektorraum
 > 
-> Dann Gilt:
-> 
-> $$
-> \begin{align}
-> x(t;t_{0};x_{0})=X(t)\cdot X(t_{0})^{-1}\cdot x_{0} =X_{t_{0}}(t)\cdot x_{0} \implies \boxed{ X(t)\cdot X(t_{0})^{-1} =X_{t_{0}}(t) } \\
-> \end{align}
-> $$
-> 
-> für  $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)=\mathbb{1}_{m}$
-> 
----
 
-> [!question] Wie kommt man von der Fundamentalmatrix $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
+
+> [!question] Wie kommt man von der [[Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
 > mit [Variation der Konstanten](Algebra/Variation%20der%20Konstanten.md)
 > - Die konstante $c$ wird zu $c(t)$
 
