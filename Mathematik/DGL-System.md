@@ -107,10 +107,7 @@ Satz 6.1 Die Lösung von $x'=a(t)x$ bilden einen $m$-dimensionalen Vektorraum
 Seien $x_{1},\dots ,x_{m}: I \to \mathbb{R}^{m}$ linear unabhängige Lösungen von $x'=A(t)x$
 
 $$\begin{align}
- \\
-
-X(t):=(x_{1}(t)\dots x_{m}(t)) \\
-
+X(t):=(x_{1}(t)\dots x_{m}(t)) \in \mathbb{R}^{m\times m}
 \end{align}
 $$
 
@@ -136,6 +133,10 @@ Gilt $X(t_{0})= \mathbb{1}_{m}$ (Einheitsmatrix), so heißt die Fundamntalmatrix
 > für  $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)=\mathbb{1}_{m}$
 > 
 ---
+
+> [!question] Wie kommt man von der Fundamentalmatrix $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
+> mit [Variation der Konstanten](Algebra/Variation%20der%20Konstanten.md)
+> - Die konstante $c$ wird zu $c(t)$
 
 [Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
 
