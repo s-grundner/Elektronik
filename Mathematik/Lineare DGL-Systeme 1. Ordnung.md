@@ -4,11 +4,34 @@ vorher: $x' f(t,\bar{x})$
 
 jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Intervall)}$
 
-> [!important] Falls $b=0$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
+> [!quote] Lineare DGL-Systeme 1. Ordnung
+>Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. Feder-DämpferSysteme der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben
+
+Also durch Systeme der Form
 
 $$
-A(t)=(a_{ij}(t))^m_{i,j=1}, \quad b(t)= (b_{i}(t))_{i=1}^{m}
+x^{\prime}=A(t) x+b(t) \tag{AWP}
 $$
+
+wobei es sich bei $A(t)$ um eine Matrix in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen Vektor in $\mathbb{R}^m$ handelt, also:
+
+
+$$
+\begin{align}
+A(t)&=\begin{pmatrix}
+a_{11}  & \cdots & a_{1m} (t) \\
+\vdots & \ddots & \vdots \\
+a_{m_{1}}(t) & \cdots & a_{mm}(t)
+\end{pmatrix}=(a_{ij}(t))^m_{i,j=1} \\ \\
+b(t) &= \begin{pmatrix}
+b_{1}(t) \\
+\vdots \\
+b_{m}(t)
+\end{pmatrix} = (b_{i}(t))_{i=1}^{m}
+\end{align}
+$$
+
+> [!important] Falls $b=0$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
 
 Man kann den Satz von Picad von Picard Lindelöf auf das DGL-System erster ordnung anwenden
 
@@ -27,7 +50,7 @@ A(t)\cdot z &= \left( \sum_{j=1}^{m} a_{ij}(t)\cdot z_{j} \right)^m _{i=1} \\
 \end{align}
 $$
 
-> [!quote] Nach der globalen Version des Satz von Picard Lindelöf hat also ein Lineares DGL-System für $\forall t\in I$ eine Eindeutige Lösung
+> [!quote] Nach der globalen Version des Satz von [Picard-Lindelöf](Picard-Lindelöf.md) hat also ein Lineares DGL-System für $\forall t\in I$ eine Eindeutige Lösung
 
 ### Homogene Gleichung
 
@@ -56,10 +79,10 @@ $$
 x_{2}= \underbrace{ x_{1} }_{ x_{p} }+(\underbrace{ x_{2}-x_{1} }_{ x_{h} })
 $$
 
-Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ linear unabhängig
+Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](Algebra/Lineare%20Abhängigkeit.md)
 
 
-> [!important] Satz 6.1 Die Lösung von $x'= A(t)x$ bilden einen $m$-dimensionalen Vektorraum
+> [!important] Satz 6.1 Die Lösung von $x'= A(t)x$ bilden einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md)
 > 
 
 
