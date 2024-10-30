@@ -10,7 +10,7 @@ created: 30. Oktober 2024
 professor:
 ---
  
-# Lineare DGL-Systeme 1. Ordnung mit konstantem Koeffizienten
+# Lineare [DGL-Systeme](DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
 
 $$
 \begin{aligned}

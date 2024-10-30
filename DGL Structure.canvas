@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"29df8ff107d39199","x":0,"y":-280,"width":250,"height":60,"type":"text","text":"MOC DGL"},
+		{"id":"fb0d5da14265a665","x":-580,"y":-280,"width":250,"height":61,"type":"text","text":"old DGL"},
+		{"id":"ebd8f6b3cb999a34","x":380,"y":-279,"width":250,"height":60,"type":"text","text":"DGL-Systeme"},
+		{"id":"6977232d0efc7214","x":203,"y":0,"width":365,"height":50,"type":"text","text":"Lineare DGL Systeme 1. Ordnung"},
+		{"id":"7f062c15dcf390cd","x":203,"y":180,"width":357,"height":84,"type":"text","text":"Lineare DGL Systeme 1. Ordnung mit konstantem koeffizienten"},
+		{"id":"99629ef75be322c1","x":-99,"y":85,"width":224,"height":59,"type":"text","text":"Fundamentalmatrix"},
+		{"id":"af8ccd095c2e1b51","x":660,"y":-22,"width":220,"height":95,"type":"text","text":"inhomgenes AWP\nhomogenes AWP"}
+	],
+	"edges":[
+		{"id":"598a5658490b3a69","fromNode":"29df8ff107d39199","fromSide":"left","toNode":"fb0d5da14265a665","toSide":"right"},
+		{"id":"d0d0f3d0ef9b16b7","fromNode":"29df8ff107d39199","fromSide":"right","toNode":"ebd8f6b3cb999a34","toSide":"left"},
+		{"id":"2457d61463491940","fromNode":"6977232d0efc7214","fromSide":"right","toNode":"af8ccd095c2e1b51","toSide":"left"},
+		{"id":"85713dacd0e6b20d","fromNode":"6977232d0efc7214","fromSide":"bottom","toNode":"7f062c15dcf390cd","toSide":"top"},
+		{"id":"22675d8532826631","fromNode":"99629ef75be322c1","fromSide":"right","toNode":"6977232d0efc7214","toSide":"left"},
+		{"id":"cc6651b2cbc0a30d","fromNode":"99629ef75be322c1","fromSide":"right","toNode":"7f062c15dcf390cd","toSide":"left"},
+		{"id":"a4a7165b9b07be1a","fromNode":"ebd8f6b3cb999a34","fromSide":"bottom","toNode":"6977232d0efc7214","toSide":"top"}
+	]
+}
