@@ -1,12 +1,20 @@
 {
 	"nodes":[
-		{"id":"29df8ff107d39199","x":0,"y":-280,"width":250,"height":60,"type":"text","text":"MOC DGL"},
+		{"id":"07c1fb1521419b1e","x":-132,"y":-80,"width":1392,"height":185,"color":"2","type":"group","label":"Kap 6 (Allgemeine Lin DGL Sys 1 O) -> reglen gelten auch für unterkapitel"},
 		{"id":"fb0d5da14265a665","x":-580,"y":-280,"width":250,"height":61,"type":"text","text":"old DGL"},
-		{"id":"ebd8f6b3cb999a34","x":380,"y":-279,"width":250,"height":60,"type":"text","text":"DGL-Systeme"},
-		{"id":"6977232d0efc7214","x":203,"y":0,"width":365,"height":50,"type":"text","text":"Lineare DGL Systeme 1. Ordnung"},
-		{"id":"7f062c15dcf390cd","x":203,"y":180,"width":357,"height":84,"type":"text","text":"Lineare DGL Systeme 1. Ordnung mit konstantem koeffizienten"},
-		{"id":"99629ef75be322c1","x":-99,"y":85,"width":224,"height":59,"type":"text","text":"Fundamentalmatrix"},
-		{"id":"af8ccd095c2e1b51","x":660,"y":-22,"width":220,"height":95,"type":"text","text":"inhomgenes AWP\nhomogenes AWP"}
+		{"id":"6977232d0efc7214","x":203,"y":0,"width":411,"height":50,"type":"text","text":"[Lineare DGL Systeme 1. Ordnung](Mathematik/DGL-System.md)"},
+		{"id":"af8ccd095c2e1b51","x":660,"y":-60,"width":220,"height":50,"type":"text","text":"homogenes AWP\n"},
+		{"id":"8b5239214eef22ae","x":660,"y":35,"width":220,"height":50,"type":"text","text":"inhomgenes AWP"},
+		{"id":"173546e675872d79","x":960,"y":35,"width":280,"height":50,"type":"text","text":"Variation der Konstanten"},
+		{"id":"99629ef75be322c1","x":-112,"y":0,"width":224,"height":50,"type":"text","text":"Fundamentalmatrix"},
+		{"id":"29df8ff107d39199","x":-180,"y":-280,"width":250,"height":60,"type":"text","text":"MOC DGL"},
+		{"id":"ebd8f6b3cb999a34","x":261,"y":-279,"width":250,"height":60,"type":"text","text":"DGL-Systeme"},
+		{"id":"7f062c15dcf390cd","x":203,"y":220,"width":361,"height":80,"type":"text","text":"Lineare DGL Systeme 1. Ordnung mit konstantem koeffizienten"},
+		{"id":"eb78399295a42108","x":457,"y":360,"width":250,"height":60,"type":"text","text":"Eigenwert von $A$"},
+		{"id":"cae217ab9050078a","x":457,"y":458,"width":313,"height":60,"type":"text","text":"chrakteristisches Polynom"},
+		{"id":"5def7f413d6ffd91","x":457,"y":560,"width":525,"height":50,"type":"text","text":"Algebraische / geometrische Vielfachheit"},
+		{"id":"68a3540e145f0fa3","x":459,"y":640,"width":250,"height":60,"type":"text","text":"Hauptvektor"},
+		{"id":"825159c9a5694a64","x":457,"y":740,"width":313,"height":60,"type":"text","text":"exponenzieren der Matrix $A$"}
 	],
 	"edges":[
 		{"id":"598a5658490b3a69","fromNode":"29df8ff107d39199","fromSide":"left","toNode":"fb0d5da14265a665","toSide":"right"},
@@ -14,7 +22,13 @@
 		{"id":"2457d61463491940","fromNode":"6977232d0efc7214","fromSide":"right","toNode":"af8ccd095c2e1b51","toSide":"left"},
 		{"id":"85713dacd0e6b20d","fromNode":"6977232d0efc7214","fromSide":"bottom","toNode":"7f062c15dcf390cd","toSide":"top"},
 		{"id":"22675d8532826631","fromNode":"99629ef75be322c1","fromSide":"right","toNode":"6977232d0efc7214","toSide":"left"},
-		{"id":"cc6651b2cbc0a30d","fromNode":"99629ef75be322c1","fromSide":"right","toNode":"7f062c15dcf390cd","toSide":"left"},
-		{"id":"a4a7165b9b07be1a","fromNode":"ebd8f6b3cb999a34","fromSide":"bottom","toNode":"6977232d0efc7214","toSide":"top"}
+		{"id":"a4a7165b9b07be1a","fromNode":"ebd8f6b3cb999a34","fromSide":"bottom","toNode":"6977232d0efc7214","toSide":"top"},
+		{"id":"f9f54c5fa8119cb3","fromNode":"6977232d0efc7214","fromSide":"right","toNode":"8b5239214eef22ae","toSide":"left"},
+		{"id":"5c578cce5b888092","fromNode":"8b5239214eef22ae","fromSide":"right","toNode":"173546e675872d79","toSide":"left"},
+		{"id":"d07fb72f5f8c243a","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"eb78399295a42108","toSide":"left"},
+		{"id":"8240382d9a3ab867","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"cae217ab9050078a","toSide":"left"},
+		{"id":"8cd940f5658ba3e7","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"5def7f413d6ffd91","toSide":"left"},
+		{"id":"a25d61fd44809399","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"68a3540e145f0fa3","toSide":"left"},
+		{"id":"6f11941439acad5d","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"825159c9a5694a64","toSide":"left"}
 	]
 }
