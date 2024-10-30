@@ -19,3 +19,7 @@ Es existiert ein $L\geq 0$, sodass:
 $$
 \lvert \lvert f(t,x)-f(t,\overline{x}) \rvert  \rvert \leq L\lvert \lvert x-\overline{x} \rvert  \rvert  
 $$
+
+$x$ ist der Ausgangspunkt und $\bar{x}$ ist ein 
+
+$L$ ist die Lipschitz**konstante**. Das heißt wenn durch das einsetzen von $f()$
