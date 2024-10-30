@@ -46,24 +46,16 @@ $$
 > [!important] Falls $b=\mathbf{0}$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
 > zu jedem inhomogenen System gibt es ein homogenes System $x'=A(t)x$
 
+> [!question]- Implizite Form eines inhomogenen DGL-Systems
+> $C(t)x'=A(t)x+b(t)$ mit $C(t) \in \mathbb{R}^{m \times m}$.
+> So ein System lässt sich nur dann in ein explizites umschreiben, wenn die Matrix $C(t)$ für alle $t$ regulär ist.
+
 Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
 
-- $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$
+- $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$ (also $f: I \to \mathbb{R}$ )
 - $K \subseteq I$ ... $K$ ist ein abgeschlossenes Teilintervall
 
-
-$$
-\lVert f(t,x)-\bar{f}(t,y) \rVert = \lVert  \rVert 
-$$
-
-$$
-\begin{align}
-A(t)\cdot z &= \left( \sum_{j=1}^{m} a_{ij}(t)\cdot z_{j} \right)^m _{i=1} \\
-\lVert A(t)\cdot z \rVert &=\max
-\end{align}
-$$
-
-> [!quote] Nach der globalen Version des Satz von [Picard-Lindelöf](Picard-Lindelöf.md) hat also ein Lineares DGL-System für $\forall t\in I$ eine Eindeutige Lösung
+> [!quote] Nach der globalen Version des Satz von Picard Lindelöf hat also ein Lineares DGL-System für $\forall t\in I$ eine Eindeutige Lösung
 
 ## Homogene Gleichung
 
