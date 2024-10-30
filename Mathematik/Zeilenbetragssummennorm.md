@@ -15,3 +15,7 @@ professor:
 # Matrixnorm
 
 ## Zeilenbetragssummennorm
+
+$$
+\|A(t)\| := \max _{1 \leq i \leq m} \sum_{j=1}^m\left|a_{i j}(t)\right|
+$$

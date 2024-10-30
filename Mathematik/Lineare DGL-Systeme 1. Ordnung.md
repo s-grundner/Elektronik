@@ -59,16 +59,30 @@ Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System
 
 ## Homogene Gleichung
 
-Seien $x_{1},x_{2}\quad I\to \mathbb{R}^{m}$ zwei Lösungen von $x'A(t)\cdot x$, mit Zahlen $\lambda_{1}, \lambda_{2}$, dann gilt:
+Sind $x_1$ und $x_2$ Lösungen des linearen homogenen Systems $x'=A(t)x$, so auch jede [Linearkombination](Algebra/Linearkombination.md) davon, da mit $\lambda_1, \lambda_2 \in \mathbb{R}$ gilt:
+
 $$
-\begin{align}
-(\lambda_{1}x_{1}+\lambda_{2} x_{2})'= \lambda_{1}\cdot x_{1}'+\lambda_{2}\cdot x_{2}' \\
-\end{align}
+\begin{aligned}
+\left(\lambda_1 \cdot x_1+\lambda_2 \cdot x_2\right)^{\prime}(t) & =\lambda_1\cdot x_1^{\prime}(t)+\lambda_2\cdot x_2^{\prime}(t)\\
+&=\lambda_1 A(t)\cdot x_1(t)+\lambda_2 A(t)\cdot x_2(t)\\
+& =A(t)\cdot\left(\lambda_1 \cdot x_1(t)+\lambda_2 \cdot x_2(t)\right)
+\end{aligned}
 $$
 
 ## Inhomogene Gleichung
 
-Seien $x_{1},x_{2}$ Lösungen der inhomogenen Gleichung $(*)$
+Ist $x_1$ Lösung des inhomogenen Systems und $x_2$ Lösung des homogenen Systems, so löst $x_1+x_2$ ebenfalls das inhomogene System, da gilt:
+
+$$
+\begin{align}
+\left(x_1+x_2\right)'(t)&=\left(x_{1}'(t)+x_{2}'(t)\right) \\
+&=A(t) x_1(t)+b(t)+A(t) x_2(t) \\
+&=A(t)\left(x_1(t)+x_2(t)\right)+b(t)
+\end{align}
+$$
+
+
+Seien $x_{1},x_{2}$ Lösungen der inhomogenen Gleichung $x'=A(t)x+b(t)$
 
 $$
 \begin{align}
