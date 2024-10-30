@@ -65,7 +65,7 @@ $$
 $$
 \begin{align}
 A(t)\cdot z &= \left( \sum_{j=1}^{m} a_{ij}(t)\cdot z_{j} \right)^m _{i=1} \\
-\lVert A(t)\cdot z \rVert =\max
+\lVert A(t)\cdot z \rVert &=\max
 \end{align}
 $$
 
@@ -77,7 +77,6 @@ Seien $x_{1},x_{2}\quad I\to \mathbb{R}^{m}$ zwei Lösungen von $x'A(t)\cdot x$,
 $$
 \begin{align}
 (\lambda_{1}x_{1}+\lambda_{2} x_{2})'= \lambda_{1}\cdot x_{1}'+\lambda_{2}\cdot x_{2}' \\
-=
 \end{align}
 $$
 
@@ -91,7 +90,7 @@ $$
 \end{align}
 $$
 
-Die diferenz zweier Lösungen der inhomogenen Gleichugn  $x'= A(t)x+b(t)$ ist die Lösung der homogenen Gleichung $x'=A(t)x$.
+Die differenz zweier Lösungen der inhomogenen Gleichugn  $x'= A(t)x+b(t)$ ist die Lösung der homogenen Gleichung $x'=A(t)x$.
 
 Das heißt, jede Lösung der inhomogenen Gleichung kann man schreiben als Summe **einer** fixen partikulären Lösung $x_{p}$ von $x'=A(t)x+b(t)$ und einer Lösung $x_{h}$ der homogenen Gleichung.
 
@@ -111,6 +110,7 @@ Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ li
 > - Die konstante $c$ wird zu $c(t)$
 
 [Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
+[[Lineare DGL-Systeme mit konstanten Koeffizienten]]
 
 --- 
 
