@@ -22,4 +22,4 @@ $A$ ist jetzt nicht mehr von $t$ Abhängig
 
 Sei 
 
-Potenzreihe von $e^{ at }$: $$\sum_{ k=0}^{\infty} \frac{a^{k}t^{k}}{k!}$$
+[Potenzreihe](Algebra/Potenzreihe.md) von $e^{ at }$: $$\sum_{ k=0}^{\infty} \frac{a^{k}t^{k}}{k!}$$
