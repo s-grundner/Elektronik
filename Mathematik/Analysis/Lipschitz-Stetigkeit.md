@@ -14,12 +14,25 @@ professor:
 
 # Lipschitz-Stetigkeit
 
-Es existiert ein $L\geq 0$, sodass:
+$f: A \rightarrow B$ erfüllt eine Lipschitzbedingung (mit Lipschitzkonstante $L>0$ ), wenn:
 
 $$
-\lvert \lvert f(t,x)-f(t,\overline{x}) \rvert  \rvert \leq L\lvert \lvert x-\overline{x} \rvert  \rvert  
+\exists L>0 \forall x, y \in A:\|f(x)-f(y)\| \leq L\|x-y\|
 $$
 
-$x$ ist der Ausgangspunkt und $\bar{x}$ ist ein 
 
-$L$ ist die Lipschitz**konstante**. Das heißt wenn durch das einsetzen von $f()$
+Erfüllt $f$ eine Lipschitzbedingung, so ist $f$ stetig, denn:
+
+$$
+x_n-x \rightarrow 0 \Longrightarrow\left\|f\left(x_n\right)-f(x)\right\| \leq L\left\|x_n-x\right\| \rightarrow 0
+$$
+
+$f$ heißt dann Lipschitz-stetig.
+
+---
+
+$x$ ist der Ausgangspunkt und $y$ ist ein beliebiger anderer Punkt
+
+$L$ ist die Lipschitz**konstante**. Das heißt wenn durch das einsetzen von $f(x)$ bzw, $f(y)$ ein von $f$ Abhängiges $L$ überbleibt ist $f$ nicht Lipschitzstetig.
+
+$L$ ist die gerade, zwischen welcher die funktion stetig propagiert
