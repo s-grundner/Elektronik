@@ -29,7 +29,7 @@ Ableiten:
 
 $$
 \begin{align}
-\dot{x}(t) = \dot{X}(t)\cdot c(t)+X(t)\cdot \dot{c}(t) &= A(t)\cdot \underbrace{ X(t)\cdot c(t) }_{ x_{p}(t) }+ X(t)\cdot \dot{c}(t) \\
+\dot{x}_{p}(t) = \dot{X}(t)\cdot c(t)+X(t)\cdot \dot{c}(t) &= A(t)\cdot \underbrace{ X(t)\cdot c(t) }_{ x_{p}(t) }+ X(t)\cdot \dot{c}(t) \\
 &\overset{ ! }{ = } A(t)\cdot x_{p}(t)+b(t) \\
 \end{align}
 $$
