@@ -22,7 +22,7 @@ jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }
 
 > [!important] ... Also durch Systeme der Form
 > 
-> $$x^{\prime}=A(t) x+b(t) \tag{AWP (6.1)}$$
+> $$x^{\prime}=A(t) x+b(t) \tag{AWP (1.1)}$$
 
 > [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
@@ -44,7 +44,7 @@ $$
 
 
 > [!important] Falls $b=\mathbf{0}$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
-> zu jedem inhomogenen System gibt es ein homogenes System $x'=A(t)x$
+> zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP(1.2)}$$
 
 > [!question]- Implizite Form eines inhomogenen DGL-Systems
 > $C(t)x'=A(t)x+b(t)$ mit $C(t) \in \mathbb{R}^{m \times m}$.
@@ -86,7 +86,9 @@ Seien $x_{1},x_{2}$ Lösungen der inhomogenen Gleichung $x'=A(t)x+b(t)$
 
 $$
 \begin{align}
-(x_{1}-x_{2})' = x_{1}'-x_{2}'= A(t)x_{1} +b(t)-(A(t)x_{2}+b(t))
+(x_{1}-x_{2})' &= x_{1}'-x_{2}' \\
+&= A(t)x_{1} + b(t)-(A(t)x_{2}+b(t)) \\
+&=A(t)(x_{1}-x_{2})
 \end{align}
 $$
 
@@ -101,8 +103,9 @@ $$
 Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](Algebra/Lineare%20Abhängigkeit.md)
 
 
-> [!important] Satz 6.1 Die Lösung von $x'= A(t)x$ bilden einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md)
-> 
+> [!important] Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
+> Dann bilden die Lösungen des homogenen linearen Systems $(\text{AWP}(1.2))$ einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md)
+> Superposition: Die Lösungen des inhomogenen linearen Systems (6.1) bilden eine $m$ dimensionale lineare Mannigfaltigkeit. Man erhält alle Lösungen von (6.1), indem man zu irgendeiner festen partikulären Lösung von (6.1) alle Lösungen des zugehörigen homogenen Systems addiert.
 
 
 > [!question] Wie kommt man von der [[Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
