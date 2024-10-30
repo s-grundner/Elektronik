@@ -1,20 +1,31 @@
-## Lineare DGL-Systeme 1. Ordnung
+---
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Mathematik 3
+semester: WS24
+created: 30. Oktober 2024
+professor:
+---
+ 
+
+# Lineare DGL-Systeme 1. Ordnung
 
 vorher: $x' f(t,\bar{x})$
 
 jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Intervall)}$
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
->Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. Feder-DämpferSysteme der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben
+>Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. Feder-DämpferSysteme der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
-Also durch Systeme der Form
+> [!important] ... Also durch Systeme der Form
+> 
+> $$x^{\prime}=A(t) x+b(t) \tag{AWP (6.1)}$$
 
-$$
-x^{\prime}=A(t) x+b(t) \tag{AWP}
-$$
-
-wobei es sich bei $A(t)$ um eine Matrix in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen Vektor in $\mathbb{R}^m$ handelt, also:
-
+> [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
+> Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 
 $$
 \begin{align}
@@ -22,18 +33,20 @@ A(t)&=\begin{pmatrix}
 a_{11}  & \cdots & a_{1m} (t) \\
 \vdots & \ddots & \vdots \\
 a_{m_{1}}(t) & \cdots & a_{mm}(t)
-\end{pmatrix}=(a_{ij}(t))^m_{i,j=1} \\ \\
+\end{pmatrix}=(a_{ij}(t))^m_{i,j=1} \quad\in\mathbb{R}^{m\times m}\\ \\
 b(t) &= \begin{pmatrix}
 b_{1}(t) \\
 \vdots \\
 b_{m}(t)
-\end{pmatrix} = (b_{i}(t))_{i=1}^{m}
+\end{pmatrix} = (b_{i}(t))_{i=1}^{m}\quad \in\mathbb{R}^{m}
 \end{align}
 $$
 
-> [!important] Falls $b=0$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
 
-Man kann den Satz von Picad von Picard Lindelöf auf das DGL-System erster ordnung anwenden
+> [!important] Falls $b=\mathbf{0}$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
+> zu jedem inhomogenen System gibt es ein homogenes System $x'=A(t)x$
+
+Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
 
 - $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$
 - $K \subseteq I$ ... $K$ ist ein abgeschlossenes Teilintervall
@@ -52,7 +65,7 @@ $$
 
 > [!quote] Nach der globalen Version des Satz von [Picard-Lindelöf](Picard-Lindelöf.md) hat also ein Lineares DGL-System für $\forall t\in I$ eine Eindeutige Lösung
 
-### Homogene Gleichung
+## Homogene Gleichung
 
 Seien $x_{1},x_{2}\quad I\to \mathbb{R}^{m}$ zwei Lösungen von $x'A(t)\cdot x$, mit Zahlen $\lambda_{1}, \lambda_{2}$, dann gilt:
 $$
@@ -61,7 +74,7 @@ $$
 \end{align}
 $$
 
-### Inhomogene Gleichung
+## Inhomogene Gleichung
 
 Seien $x_{1},x_{2}$ Lösungen der inhomogenen Gleichung $(*)$
 
