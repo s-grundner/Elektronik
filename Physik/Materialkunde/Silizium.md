@@ -37,7 +37,7 @@ $$
 n_i^2=C \cdot e^{\left(-\tfrac{W_G}{k_b T}\right)}
 $$
 
-Dadurch können auch im Valenzband wieder Elektronen verschoben werden.
+Dadurch können auch im [Valenzband](../../Chemie/Valenzelektronen.md) wieder Elektronen verschoben werden.
 
 Statt der Bewegung dieser Valenzelektronen kann man auch das Wandern des Loches betrachten das sich wie ein positiv geladener Ladungsträger verhält. Die Löcher bewegen sich unabhängig von den „zugehörigen“ Elektronen.
 

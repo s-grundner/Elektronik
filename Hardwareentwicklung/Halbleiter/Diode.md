@@ -6,17 +6,19 @@ aliases:
   - Dioden
   - 1N4148
 subject:
-  - hwe
-  - chemie
-  - dic
-source:
-  - Roman Schragl
-  - Michael Offenhuber
-  - Robert Vogl
+  - Einführung Elektronik
+  - VL
 created: 16th March 2022
+professor:
+  - Christian Diskus
+  - Bernhard Jakoby
+semester: WS24
+keywords:
+  - Kennlinie
+  - Arbeitspunkt
 ---
 
-# [Silizium](../../Physik/Materialkunde/Silizium.md)-Diode (<https://de.wikipedia.org/wiki/Diode)>
+# Diode
 
 ## Grundlagen
 
@@ -30,12 +32,15 @@ created: 16th March 2022
 
 ## Anwendung
 
----
+## Materialien
 
-# Tags
+- [Silizium](../../Physik/Materialkunde/Silizium.md)
+- [Germanium](../../Physik/Materialkunde/Germanium.md)
+
+## Dioden Variationen
+
 
 - [Zener-Diode](Zener-Diode.md)
-- [Germanium-Dioden](Germanium-Dioden)
 - [Leucht-Dioden](Leucht-Dioden)
 - [Kapazitäts-Diode](../Kapazitäts-Diode.md)
 - [TVS-Diode](TVS-Diode.md)
