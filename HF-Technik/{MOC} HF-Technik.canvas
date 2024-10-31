@@ -21,7 +21,9 @@
 		{"id":"221f577d69aa6c43","type":"text","text":"Reflexionsfaktor","x":1120,"y":-192,"width":250,"height":60},
 		{"id":"99562f85d34d2c60","type":"text","text":"charakteristische Impedanz","x":577,"y":-198,"width":433,"height":71},
 		{"id":"d70fc1a84d8b2a7c","x":20,"y":480,"width":389,"height":102,"type":"text","text":"Lösung der Telegraphengleichung\n- Hin und Rücklaufende Welle"},
-		{"id":"4f30b8f37ce89847","x":90,"y":720,"width":250,"height":106,"type":"text","text":"Superposition von Hin Und Rückwelle"}
+		{"id":"4f30b8f37ce89847","x":90,"y":720,"width":250,"height":106,"type":"text","text":"Superposition von Hin Und Rückwelle"},
+		{"id":"3be5d7cf1a21cfc2","x":483,"y":-880,"width":357,"height":71,"type":"text","text":"Transiente Simulation einer TL"},
+		{"id":"17c10a2b4d341abf","x":-343,"y":720,"width":250,"height":79,"type":"text","text":"AC-Simulation einer TL"}
 	],
 	"edges":[
 		{"id":"a0a2f98defa6bcf2","fromNode":"24d1de2d53751065","fromSide":"bottom","toNode":"a36fe24ed718a069","toSide":"top"},
@@ -47,6 +49,8 @@
 		{"id":"d60b07b0e0ee09b8","fromNode":"414fe1c9e6c19535","fromSide":"top","toNode":"99562f85d34d2c60","toSide":"bottom"},
 		{"id":"1e555494ff22f412","fromNode":"5a9d4a8eceff6b19","fromSide":"bottom","toNode":"99562f85d34d2c60","toSide":"top"},
 		{"id":"7af48d6630b1b2c9","fromNode":"7800cd42af3f32c0","fromSide":"bottom","toNode":"d70fc1a84d8b2a7c","toSide":"top"},
-		{"id":"5f43564cff37483b","fromNode":"d70fc1a84d8b2a7c","fromSide":"bottom","toNode":"4f30b8f37ce89847","toSide":"top"}
+		{"id":"5f43564cff37483b","fromNode":"d70fc1a84d8b2a7c","fromSide":"bottom","toNode":"4f30b8f37ce89847","toSide":"top"},
+		{"id":"2d1ea83702116fbf","fromNode":"413f0db427dc72c6","fromSide":"top","toNode":"3be5d7cf1a21cfc2","toSide":"bottom"},
+		{"id":"7b19e3484529688e","fromNode":"d70fc1a84d8b2a7c","fromSide":"bottom","toNode":"17c10a2b4d341abf","toSide":"top"}
 	]
 }
