@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"d2f29e0b15dc9044","x":-184,"y":-360,"width":250,"height":120,"type":"text","text":"Ausbreitung für allgemeine Wellenformen"},
+		{"id":"a36fe24ed718a069","x":-503,"y":-345,"width":250,"height":60,"type":"text","text":"Transmissionline"},
+		{"id":"24d1de2d53751065","x":-503,"y":-460,"width":250,"height":60,"type":"text","text":"RF-Signale"},
+		{"id":"f106cdcf9b6bba26","x":-503,"y":-240,"width":250,"height":83,"type":"text","text":"Leitergeometrie: TEM Moden"},
+		{"id":"5a9d4a8eceff6b19","x":160,"y":-415,"width":250,"height":75,"type":"text","text":"D'Lambertsche zeitbereichslösung"},
+		{"id":"99562f85d34d2c60","x":160,"y":-300,"width":253,"height":79,"type":"text","text":"charakteristische Impedanz"}
+	],
+	"edges":[
+		{"id":"a0a2f98defa6bcf2","fromNode":"24d1de2d53751065","fromSide":"bottom","toNode":"a36fe24ed718a069","toSide":"top"},
+		{"id":"e78c8893fd832269","fromNode":"a36fe24ed718a069","fromSide":"bottom","toNode":"f106cdcf9b6bba26","toSide":"top"},
+		{"id":"ec3fbe3984be7cdb","fromNode":"f106cdcf9b6bba26","fromSide":"right","toNode":"d2f29e0b15dc9044","toSide":"left"},
+		{"id":"ff1d7c73d63773c2","fromNode":"d2f29e0b15dc9044","fromSide":"right","toNode":"5a9d4a8eceff6b19","toSide":"left"},
+		{"id":"8bd5fbe0a4c5a711","fromNode":"d2f29e0b15dc9044","fromSide":"right","toNode":"99562f85d34d2c60","toSide":"left"}
+	]
+}
