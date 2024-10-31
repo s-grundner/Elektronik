@@ -9,7 +9,7 @@ created: 26th March 2022
 # Integralrechnung
 
 - [Partielle Integration](Partielle%20Integration.md)
-- [Integration durch Substitution](assets/Integration%20durch%20Substitution.md)
+- [Integration durch Substitution](Integration%20durch%20Substitution.md)
 
 ## Unbestimmtes Integral
 
