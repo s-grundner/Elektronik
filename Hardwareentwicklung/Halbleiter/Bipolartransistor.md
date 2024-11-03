@@ -16,19 +16,37 @@ source:
 created: 24th March 2022
 ---
 
-# Bipolartransistor als Schalter
+# Bipolar-Junction-Transistor
+
+## Aufbau
+
+Ein Bipolartransistor besteht aus zwei gegeneinander geschalteten $p n$-Übergängen (Dioden) mit einer gemeinsamen, sehr kleinen ( $p$ oder $n$ ) Zone in der Mitte, der sogenannten Basis $(B)$. Die beiden anderen Zonen heißen Kollektor $(C)$ und Emitter $(E)$. Im regulären Betrieb (Durchlassbetrieb) wird die $B E$-Diode in Durchlass-, die $B C$-Diode in Sperrrichtung betrieben.
+
+![invert_dark](assets/{265200CE-C932-4D7C-8274-C3109067134D}.png)
+
+Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw. Löcherstromrichtung).
+
+> [!warning] Die Diodendarstellung dient nur als Gedankenmodell. Ein Transistor kann nicht diskret aus zwei Dioden aufgebaut werden.
+
+## Verstärkungseffekt
+
+
+
+# Betriebsarten
+
+## Bipolartransistor als Schalter
 
 |                NPN                 |                PNP                 |
 |:----------------------------------:|:----------------------------------:|
 | ![330](assets/npn-schalter.png) | ![300](assets/pnp-schalter.png) |
 
-# Bipolartransistor als Verstärker / Endstufe
+## Bipolartransistor als Verstärker / Endstufe
 
-| Betriebsarten                                                                                                                       | Kennlinie                                          |
-| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| > [A-Betrieb](A-Betrieb.md)<br> [B-Betrieb](B-Betrieb.md)<br> [AB-Betrieb](AB-Betrieb.md)<br> [C-Betrieb](C-Betrieb.md) | ![](assets/Pasted%20image%2020230922135134.png) |
+| Betriebsarten                     | Kennlinie                      |
+| --------------------------------- | ------------------------------ |
+| [A-Betrieb](A-Betrieb.md)<br>[B-Betrieb](B-Betrieb.md)<br>[AB-Betrieb](AB-Betrieb.md)<br>[C-Betrieb](C-Betrieb.md) | ![](assets/Pasted%20image%2020230922135134.png) |
 
-# Bipolartransistor als Konstantstromquelle
+## Bipolartransistor als Konstantstromquelle
 
 |         NPN         |         PNP         |
 |:-------------------:|:-------------------:|
