@@ -28,7 +28,11 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 
 > [!warning] Die Diodendarstellung dient nur als Gedankenmodell. Ein Transistor kann nicht diskret aus zwei Dioden aufgebaut werden.
 
-## Verstärkungseffekt
+### Verstärkungseffekt
+
+## Arbeitspunkteinstellung
+
+### Temperaturabhängigkeit
 
 
 
