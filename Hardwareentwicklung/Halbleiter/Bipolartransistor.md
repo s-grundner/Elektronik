@@ -34,8 +34,6 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 
 ### Temperaturabhängigkeit
 
-
-
 # Betriebsarten
 
 ## Bipolartransistor als Schalter
