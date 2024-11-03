@@ -64,11 +64,11 @@ U_{D_{2}}&= 0.7V
 \end{align*}
 $$
 
-> - Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
-> - Die Dioden $D_{1}$ und $D_{2}$ erhöhen die Spannung zwischen Basis und Masse.
-> - Die Spannung teilt sich zwischen der Basis-Emitter-Strecke des Transistors und dem Emitterwiderstand $R_{E}$ auf. Dort liegt dann eine bestimme Spannung an.
-> - Über den Widerstand $R_{E}$ lässt sich der Konstantstrom einstellen
-> - Dabei muss die Größe des Widerstands $R_{C }$ beachtet werden. Dieser darf nicht beliebig Groß sein
+- Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
+- Die Dioden $D_{1}$ und $D_{2}$ erhöhen die Spannung zwischen Basis und Masse.
+- Die Spannung teilt sich zwischen der Basis-Emitter-Strecke des Transistors und dem Emitterwiderstand $R_{E}$ auf. Dort liegt dann eine bestimme Spannung an.
+- Über den Widerstand $R_{E}$ lässt sich der Konstantstrom einstellen
+- Dabei muss die Größe des Widerstands $R_{C }$ beachtet werden. Dieser darf nicht beliebig Groß sein
 
 > [!WARNING] Bis zu einem Konstant-[Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{C}$ ist die Schaltung brauchbar
 
