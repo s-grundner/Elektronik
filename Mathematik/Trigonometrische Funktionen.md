@@ -130,7 +130,6 @@ $$
 
 ## Integrale
 
-
 $$
 \begin{aligned}
 \text{Trig.-Funktionen:} & \int \sin x d x=-\cos x,\quad\int \cos x d x=\sin x,\\
@@ -140,7 +139,3 @@ $$
 \end{aligned}
 $$
 
-
-$$
-\int \exp (\alpha t) \sin (\beta t) d t=\frac{\exp (\alpha t)(-\beta \cos (\beta t)+\alpha \sin (\beta t))}{\alpha^2+\beta^2}:
-$$

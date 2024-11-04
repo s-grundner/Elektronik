@@ -30,3 +30,8 @@ Stammfunkton von $\ln \left(\operatorname{auf} \mathbb{R}^{+}\right)$mit $f: \eq
 $$
 \int \ln x d x=\int 1 \cdot \ln x d x=x \ln x-\int x x^{-1} d x=x \ln x-x=x(\ln x-1)
 $$
+
+
+$$
+\int e^{ \alpha t} \sin (\beta t) d t=\frac{\exp (\alpha t)(-\beta \cos (\beta t)+\alpha \sin (\beta t))}{\alpha^2+\beta^2}:
+$$
