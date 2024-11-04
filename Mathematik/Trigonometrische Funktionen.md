@@ -139,6 +139,8 @@ $$
 &\int \frac{1}{1+x^2} d x=\arctan x
 \end{aligned}
 $$
-$$
 
+
+$$
+\int \exp (\alpha t) \sin (\beta t) d t=\frac{\exp (\alpha t)(-\beta \cos (\beta t)+\alpha \sin (\beta t))}{\alpha^2+\beta^2}:
 $$
