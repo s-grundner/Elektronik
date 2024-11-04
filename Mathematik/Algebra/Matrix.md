@@ -68,9 +68,9 @@ Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\ti
 
 ## 4 Besondere Matrizen
 
-- [Einheitsmatrix](Einheitsmatrix.md)  
-- [[Rotationsmatrix]]  
-- [[Dreiecksmatrix]]
+- [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_{m}$ 
+- [[Rotationsmatrix]] 
+- [[Dreiecksmatrix]] 
 - [[Diagonalmatrix]]
 
 # Tags

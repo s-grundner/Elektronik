@@ -16,19 +16,39 @@ source:
 created: 24th March 2022
 ---
 
-# Bipolartransistor als Schalter
+# Bipolar-Junction-Transistor
+
+## Aufbau
+
+Ein Bipolartransistor besteht aus zwei gegeneinander geschalteten $p n$-Übergängen (Dioden) mit einer gemeinsamen, sehr kleinen ( $p$ oder $n$ ) Zone in der Mitte, der sogenannten Basis $(B)$. Die beiden anderen Zonen heißen Kollektor $(C)$ und Emitter $(E)$. Im regulären Betrieb (Durchlassbetrieb) wird die $B E$-Diode in Durchlass-, die $B C$-Diode in Sperrrichtung betrieben.
+
+![invert_dark](assets/{265200CE-C932-4D7C-8274-C3109067134D}.png)
+
+Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw. Löcherstromrichtung).
+
+> [!warning] Die Diodendarstellung dient nur als Gedankenmodell. Ein Transistor kann nicht diskret aus zwei Dioden aufgebaut werden.
+
+### Verstärkungseffekt
+
+## Arbeitspunkteinstellung
+
+### Temperaturabhängigkeit
+
+# Betriebsarten
+
+## Bipolartransistor als Schalter
 
 |                NPN                 |                PNP                 |
 |:----------------------------------:|:----------------------------------:|
 | ![330](assets/npn-schalter.png) | ![300](assets/pnp-schalter.png) |
 
-# Bipolartransistor als Verstärker / Endstufe
+## Bipolartransistor als Verstärker / Endstufe
 
-| Betriebsarten                                                                                                                       | Kennlinie                                          |
-| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| > [A-Betrieb](A-Betrieb.md)<br> [B-Betrieb](B-Betrieb.md)<br> [AB-Betrieb](AB-Betrieb.md)<br> [C-Betrieb](C-Betrieb.md) | ![](assets/Pasted%20image%2020230922135134.png) |
+| Betriebsarten                     | Kennlinie                      |
+| --------------------------------- | ------------------------------ |
+| [A-Betrieb](A-Betrieb.md)<br>[B-Betrieb](B-Betrieb.md)<br>[AB-Betrieb](AB-Betrieb.md)<br>[C-Betrieb](C-Betrieb.md) | ![](assets/Pasted%20image%2020230922135134.png) |
 
-# Bipolartransistor als Konstantstromquelle
+## Bipolartransistor als Konstantstromquelle
 
 |         NPN         |         PNP         |
 |:-------------------:|:-------------------:|
@@ -42,11 +62,11 @@ U_{D_{2}}&= 0.7V
 \end{align*}
 $$
 
-> - Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
-> - Die Dioden $D_{1}$ und $D_{2}$ erhöhen die Spannung zwischen Basis und Masse.
-> - Die Spannung teilt sich zwischen der Basis-Emitter-Strecke des Transistors und dem Emitterwiderstand $R_{E}$ auf. Dort liegt dann eine bestimme Spannung an.
-> - Über den Widerstand $R_{E}$ lässt sich der Konstantstrom einstellen
-> - Dabei muss die Größe des Widerstands $R_{C }$ beachtet werden. Dieser darf nicht beliebig Groß sein
+- Der Kollektorwiderstand $R_{C}$ ist hierbei die Last.
+- Die Dioden $D_{1}$ und $D_{2}$ erhöhen die Spannung zwischen Basis und Masse.
+- Die Spannung teilt sich zwischen der Basis-Emitter-Strecke des Transistors und dem Emitterwiderstand $R_{E}$ auf. Dort liegt dann eine bestimme Spannung an.
+- Über den Widerstand $R_{E}$ lässt sich der Konstantstrom einstellen
+- Dabei muss die Größe des Widerstands $R_{C }$ beachtet werden. Dieser darf nicht beliebig Groß sein
 
 > [!WARNING] Bis zu einem Konstant-[Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{C}$ ist die Schaltung brauchbar
 

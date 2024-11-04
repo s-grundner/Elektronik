@@ -24,3 +24,13 @@ $$
 0 & 0 & 0 & *
 \end{pmatrix}
 $$
+
+---
+
+$$
+\operatorname{diag}(1,2,3)=\begin{pmatrix}
+1 & 0 & 0 \\
+0 & 2 & 0 \\
+0 & 0 & 3
+\end{pmatrix}
+$$

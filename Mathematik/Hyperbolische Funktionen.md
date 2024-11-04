@@ -1,5 +1,5 @@
 ---
-tags: 
+tags: [incomplete]
 aliases:
   - Definition 4.29
   - Bemerkung 4.30
@@ -39,6 +39,7 @@ $$
 2 \sinh ^2(x) & =\cosh (2 x)-1
 \end{aligned}
 $$
+
 ### Areafunktionen
 
 $$
@@ -55,7 +56,7 @@ $$
 
 ## Ableitung Hyperbolischer Funktionen
 
-#incomplete 
+ 
 
 $$
 \begin{align}
