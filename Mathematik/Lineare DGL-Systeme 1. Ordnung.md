@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - AWP 1.1
+  - AWP 1.2
 keywords: 
 subject:
   - VL
