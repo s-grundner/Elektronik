@@ -26,6 +26,10 @@ x_{p} &= \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(2\pi k f_{0
 x_{p} &= \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(k \omega_{0} t) + b_{k}\cdot\sin ( k \omega_{0} t)\Big]
 \end{align}
 $$ 
+$\omega = \frac{2\pi}{T}$
+
+**Komplexe Fourierreihe**
+
 
 > [!INFO] Hierbei sind $a_{k}$ und $b_{k}$ sogenannte Fourier-Koeffizienten, welche den Amplituden der entsprechenden (also $k$-ten) Schwingungsanteile gleichkommen.
 
