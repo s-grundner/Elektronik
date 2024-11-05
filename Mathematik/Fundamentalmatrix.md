@@ -14,6 +14,33 @@ professor:
 
 # Fundamentalmatrix
 
+Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ linear unabhängigen Lösungen eines homogenen [DGL-Systems](DGL-System.md) heißt Fundamentalsystem, die zugehörige [Matrix](Algebra/Matrix.md)
+
+$$
+X(t):=\left(x_1(t), \ldots, x_m(t)\right)
+$$
+
+heißt Fundamentalmatrix. Da jede Lösung (6.2) erfüllt, gilt
+
+$$
+X^{\prime}(t)=A(t) X(t)
+$$
+
+
+Gilt außerdem $X\left(t_0\right)=I_m$ (die Einheitsmatrix) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch Matrizant, bezeichnet mit $X_{t_0}$. Diese Matrix ist die eindeutige Lösung des linearen AWP (auch Matrix-DGL genannt)
+
+$$
+X^{\prime}=A(t) X, \quad X\left(t_0\right)=I_m
+$$
+
+
+Die Lösung eines homogenen AWP lässt sich mit Hilfe einer Fundamentalmatrix $X(t)$ wie folgt angeben:
+
+$$
+x\left(t ; t_0, x_0\right)=X(t)\left(X\left(t_0\right)\right)^{-1} x_0=X_{t_0}(t) x_0 .
+$$
+
+
 Seien $x_{1},\dots ,x_{m}: I \to \mathbb{R}^{m}$ linear unabhängige Lösungen von $x'=A(t)x$
 
 $$\begin{align}
