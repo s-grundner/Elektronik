@@ -52,7 +52,7 @@ $$
 > 
 > > [!success] für  $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)=\mathbb{1}_{m}$
 > 
-> Mittels dem Gauß-Jordan Verfahren kann de inverse der Fundamentalmatrix gebildet werden
+> Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden
 > 
 
 

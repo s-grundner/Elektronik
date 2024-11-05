@@ -18,11 +18,14 @@ created: 24th March 2022
 
 # Fourierreihe
 
-1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](Abbild.md) als eine [Koordinatenmatrix](Koordinatenmatrix.md) von Sinusund Cosinus-Schwingungen, eine so-genannte Fourierreihe, ausdrücken lässt:
+1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](Abbild.md) als eine Lineare Hülle von Sinus und Cosinus-Schwingungen, eine so-genannte Fourierreihe, ausdrücken lässt:
 
 $$
-	x_{p} = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(2\pi k f_{0} t) + b_{k}\cdot\sin (2\pi k f_{0} t)\Big]
-$$
+\begin{align}
+x_{p} &= \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(2\pi k f_{0} t) + b_{k}\cdot\sin (2\pi k f_{0} t)\Big] \\
+x_{p} &= \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(k \omega_{0} t) + b_{k}\cdot\sin ( k \omega_{0} t)\Big]
+\end{align}
+$$ 
 
 > [!INFO] Hierbei sind $a_{k}$ und $b_{k}$ sogenannte Fourier-Koeffizienten, welche den Amplituden der entsprechenden (also $k$-ten) Schwingungsanteile gleichkommen.
 
