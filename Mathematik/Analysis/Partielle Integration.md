@@ -33,5 +33,7 @@ $$
 
 
 $$
-\int e^{ \alpha t} \sin (\beta t) d t=\frac{\exp (\alpha t)(-\beta \cos (\beta t)+\alpha \sin (\beta t))}{\alpha^2+\beta^2}:
+\int e^{ \alpha t} \sin (\beta t) d t=e^{ \alpha t }\cdot\frac{-\beta \cos (\beta t)+\alpha \sin (\beta t)}{\alpha^2+\beta^2}
 $$
+> [!info] Um dieses integral zu lösen wird $e^{ \alpha t }$ zu $f$ und $\sin(\beta t)$ zu $g$.
+> 
