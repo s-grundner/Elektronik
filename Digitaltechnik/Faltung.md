@@ -16,7 +16,7 @@ $$
 y(t)&=x(t)\ast h(t)=\int_{-\infty}^{\infty}x(\uptau)\cdot h(t-\uptau)d\uptau=\int_{-\infty}^{\infty}x(t-\uptau)\cdot h(\uptau)d\uptau
 \end{align*}
 $$
-![Convolution_of_box_signal_with_itself](../../../Digitaltechnik/assets/Convolution_of_box_signal_with_itself.gif)
+![Convolution_of_box_signal_with_itself](./assets/Convolution_of_box_signal_with_itself.gif)
 
 ## Eigenschaften der Faltung
 
@@ -36,6 +36,9 @@ Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
 $$
 \int_{-\infty}^{\infty}f(t)*\delta(t-t_{0})\,\mathrm{d}t = f(t_{0})
 $$
+
+> [!question] Faltung im Zeitbereich wird zu einer Multiplikation im Frquenzbereich
+> Siehe Fourier-Reihe
 
 ---
 
