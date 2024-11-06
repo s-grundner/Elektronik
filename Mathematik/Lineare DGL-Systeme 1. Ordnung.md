@@ -20,7 +20,7 @@ vorher: $x' f(t,\bar{x})$
 jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Intervall)}$
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
->Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. Feder-Dämpfer Systeme der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
+>Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../Physik/Federkraft.md)-Dämpfer Systeme der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
 > [!important] ... Also durch Systeme der Form
 > 
@@ -29,7 +29,7 @@ jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }
 > [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 > > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)...
-> > ...Sind vereinfachungen bezüglich der Ermittlung der Fundamentalmatrix möglich.
+> > ...Sind vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) möglich.
 > > - siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 
 $$
@@ -111,7 +111,7 @@ Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ li
 > [!important] Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
 > Dann bilden die Lösungen des homogenen linearen Systems $(1.2)$ einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md)
 > 
-> **Superposition**: Die Lösungen des inhomogenen linearen Systems $(1.1)$ bilden eine $m$ dimensionale lineare Mannigfaltigkeit.
+> **[Superposition](../Elektrotechnik/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems $(1.1)$ bilden eine $m$ dimensionale lineare Mannigfaltigkeit.
 > Man erhält alle Lösungen von $(1.1)$, indem man zu irgendeiner festen **partikulären** Lösung von $(1.1)$ alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 

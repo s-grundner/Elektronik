@@ -16,7 +16,7 @@ professor:
 
 Um Differenzialgleichungen höherer Ordnung leichter lösen zu können, kann diese in ein System aus Differenzialgleichungen erster Ordnung überführt werden. 
 
-> [!info] Jede DGL $n$-ter Ordnung lässt sich in ein DGL-System überführen
+> [!info] Jede [Lineare DGL n-ter Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) lässt sich in ein DGL-System 1. Ordnung überführen
 > $$
 > F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
 > z_{1}=z' \\
