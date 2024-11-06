@@ -109,10 +109,10 @@ Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ li
 
 
 > [!important] Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
-> Dann bilden die Lösungen des homogenen linearen Systems $(1.2)$ einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md)
+> Dann bilden die Lösungen des homogenen linearen Systems AWP 1.2 einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md)
 > 
-> **[Superposition](../Elektrotechnik/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems $(1.1)$ bilden eine $m$ dimensionale lineare Mannigfaltigkeit.
-> Man erhält alle Lösungen von $(1.1)$, indem man zu irgendeiner festen **partikulären** Lösung von $(1.1)$ alle Lösungen des zugehörigen **homogenen** Systems addiert.
+> **[Superposition](../Elektrotechnik/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems AWP 1.1 bilden eine $m$ dimensionale lineare Mannigfaltigkeit.
+> Man erhält alle Lösungen von AWP 1.1, indem man zu irgendeiner festen **partikulären** Lösung von AWP 1.1 alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 
 > [!question] Wie kommt man von der [[Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$

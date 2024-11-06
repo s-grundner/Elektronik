@@ -21,8 +21,7 @@ Umwandeln in ein lineares [DGL-System](DGL-System.md) 1. Ordnung
 
 ## Konstanter Koeffizient
 
-1. Versuch
-
+### Homogene Gleichung
 $$
 \begin{aligned}
 x(t) & =e^{\lambda t} \\
@@ -50,3 +49,25 @@ $\forall\nu : {\{ 0,\dots,k_{j} - 1\}},\, t^{\nu}\cdot e^{\lambda_{i} t}$ ist ei
 
 > [!success]- Beweis
 > 
+
+
+### Inhomogene Gleichung
+
+Ist allgemein mit Variation der Konstanten lösbar, jedoch ist diese Rechnung relativ Aufwändig, daher führt für spezielle Störterme $s$ ein unbestimmter Ansatz für $x$ zur partikulären Lösung.
+
+Falls
+
+$$
+s(t) = (b_{0}+b_{1}\cdot t+\dots+b_{m}t^{m})\cdot e^{ \alpha t }\cdot \begin{cases}
+\cos(\beta t) \\
+\sin(\beta t)
+\end{cases} \quad \text{ für } \alpha,\beta \in\mathbb{R}
+$$
+
+Dann führt der unbestimmte Ansatz 
+
+$$
+x_0(t)=t^k\left[\left(A_0+A_1 t+\cdots+A_m t^m\right) \cos (\beta t)+\left(B_0+B_1^{-1}+\cdots+B_m t^m\right) \sin (\beta t)\right]
+$$
+
+Auf eine partikuläre Lösung, wenn $\alpha+i\beta$ eine $k$-Fache Nullstelle von $p(\lambda)$ ist
