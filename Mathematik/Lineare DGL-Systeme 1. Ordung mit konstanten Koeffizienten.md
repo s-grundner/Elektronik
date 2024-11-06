@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Matrix-Exponentialfunktion
 keywords: 
 subject:
   - VL
