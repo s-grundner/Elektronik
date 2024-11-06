@@ -2,6 +2,9 @@
 tags: 
 aliases:
   - Matrizant
+  - FM D1
+  - FM D2
+  - FM S1
 keywords: 
 subject:
   - VL
@@ -14,7 +17,7 @@ professor:
 
 # Fundamentalmatrix
 
-> [!important] Fundamentalmatrix
+> [!important] **FM D1)** Definition der Fundamentalmatrix
 > Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines homogenen DGL-Systems ([AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md)) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
 > 
 > $$
@@ -29,7 +32,7 @@ $$
 X^{\prime}(t)=A(t) X(t)
 $$
 
-> [!important] Martizant
+> [!important] **FM D2)** Definition des Martizant
 > Gilt außerdem $X\left(t_0\right)=I_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Matrizant**, bezeichnet mit $X_{t_0}$.
 > 
 
@@ -40,7 +43,7 @@ $$
 X^{\prime}=A(t) X, \quad X\left(t_0\right)=I_m
 $$
 
-> [!important] Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$
+> [!important] **FM S1)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$
 > 
 > Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $X(t)$ wie folgt angeben:
 > 
