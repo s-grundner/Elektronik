@@ -21,8 +21,8 @@ created: 24th March 2022
 ## Grundlagen
 
 > [!quote] Harmonische Analyse
-> Theorem von Fourier:
-> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer Stetigkeit, Integrierbarkeit und Monotonie erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine Linearkombination aus Funktionen $u_k(t)$ dargestellt werden.
+> **Theorem von Fourier:**
+> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer [Stetigkeit](../Analysis/Stetigkeit.md), **Integrierbarkeit** und **Monotonie** erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine [Linearkombination](Linearkombination.md) aus Funktionen $u_k(t)$ dargestellt werden.
 > 
 > Die Funktionen $u_k(t)$ bilden die Basisfunktionen eines normierten, orthogonalen Funktionensystems, genügen also der Bedingung
 > 
@@ -34,6 +34,7 @@ created: 24th March 2022
 > $$
 > 
 > wobei $k, m$ Parameter der Funktion $u$ sind.
+> $\delta_{k,m}\dots$ [[Kronecker-Symbol]]
 
 ## Reelle Fourierreihe
 
