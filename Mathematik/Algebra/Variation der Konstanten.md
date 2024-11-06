@@ -18,7 +18,7 @@ Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen
 - [math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf](http://math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf)
 - [Inhomogene lineare DG erster Ordnung](https://statmath.wu.ac.at/~leydold/MOK/HTML/node182.html)
 
-## Inhomogene 
+## Lösungsansatz für Inhomogene DGL-Systeme 1. Ordnung
 
 $$
 x_{p}(t)= X(t)\cdot c(t)
@@ -34,13 +34,20 @@ $$
 \end{align}
 $$
 
+### Allgemeine Lösung
+
 Alle Lösungen des inhomogenen Systems sind dann gegeben durch
 
 $$
 x(t)=X(t)\left[c+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]
 $$
+mit $c \in \mathbb{R}^m$.
 
-mit $c \in \mathbb{R}^m$. Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe (6.5))
+$c$ ist noch nicht den Anfangswerten angepasst. Eingesetzt mit den AWP wird $c$ zu $x_{0}$
+
+### Eindeutige Lösung
+
+Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe )
 
 $$
 x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]

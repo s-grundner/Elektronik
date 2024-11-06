@@ -64,3 +64,10 @@ $$
 > $$
 > 
 > gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
+
+> [!question] Durch die Variation der Konsanten ist die Lösung des AWP 1.2  $x'(t)=A(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
+$$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]:=R(t)$$
+
+> [!success] Hier ist gezeigt, dass $R(t)$ tatsächlich die eindeutige Lösung des AWP 1.2 ist:
+> ![](assets/Pasted%20image%2020241106135932.png)
+> 
