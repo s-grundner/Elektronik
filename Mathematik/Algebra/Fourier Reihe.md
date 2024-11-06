@@ -39,12 +39,57 @@ created: 24th March 2022
 
 ## Reelle Fourierreihe
 
+> [!important] Reelle Fourier-Reihe der reellen Funktion $x(t)$  
+> 
+> $$\boxed{ x(t) = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(k \omega_{0} t) + b_{k}\cdot\sin ( k \omega_{0} t)\Big] }$$
+> 
+
+mit der Grundkreisfrequenz $\omega_0$ aus der Periodendauer $T$
+
 $$
-\begin{align}
-x_{p} &= \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(2\pi k f_{0} t) + b_{k}\cdot\sin (2\pi k f_{0} t)\Big] \\
-x_{p} &= \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(k \omega_{0} t) + b_{k}\cdot\sin ( k \omega_{0} t)\Big]
-\end{align}
-$$ 
+\omega_0=2 \pi f_0=\frac{2 \pi}{T} \quad \text { und } \quad f_0=\frac{1}{T}
+$$
+
+Die Koeffizienten der reellen Fourier-Reihe werden wie folgt bestimmt:
+
+$$
+\begin{aligned}
+a_k & =\frac{2}{T} \int_{t_0}^{t_0+T} x(t) \cos \left(k \omega_0 t\right) \mathrm{d} t \\
+b_k & =\frac{2}{T} \int_{t_0}^{t_0+T} x(t) \sin \left(k \omega_0 t\right) \mathrm{d} t
+\end{aligned}
+$$
+
+Besonderheiten:
+- Ist die Funktion $x(t)$ eine gerade Funktion, sind alle $b_{k}=0$
+- Ist die Funktion $x(t)$ eine ungerade Funktion, sind alle $a_{k}=0$
+
+### Polarform
+
+> [!important] Polare Darstellung der rellen Funktion $x(t)$
+
+$$
+\boxed{ x(t)=\frac{c_0}{2}+\sum_{k=1}^{\infty} c_k \cos \left(k \omega_0 t-\varphi_k\right) }
+$$
+
+mit den Beziehungen
+
+$$
+\begin{aligned}
+c_0 & =a_0 \\
+c_k & =\sqrt{a_k^2+b_k^2} \\
+\varphi_k & = \begin{cases}\arctan \left(\frac{b_k}{a_k}\right) & \text { für } a_k>0, \\
+\arctan \left(\frac{b_k}{a_k}\right)+\pi & \text { für } a_k<0, \quad b_k \geq 0, \\
+\arctan \left(\frac{b_k}{a_k}\right)-\pi & \text { für } a_k<0, \quad b_k<0,\end{cases}
+\end{aligned}
+$$
+
+
+## Komplexe Fourierreihe
+
+
+
+---
+
 $\omega = \frac{2\pi}{T}$
 
 > [!INFO] Hierbei sind $a_{k}$ und $b_{k}$ sogenannte Fourier-Koeffizienten, welche den Amplituden der entsprechenden (also $k$-ten) Schwingungsanteile gleichkommen.
