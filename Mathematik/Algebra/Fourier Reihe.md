@@ -18,7 +18,24 @@ created: 24th March 2022
 
 # Fourierreihe
 
-1807 fand Jean Baptiste Fourier heraus, dass sich eine periodische [Funktion](Abbild.md) als eine Lineare Hülle von Sinus und Cosinus-Schwingungen, eine so-genannte Fourierreihe, ausdrücken lässt:
+## Grundlagen
+
+> [!quote] Harmonische Analyse
+> Theorem von Fourier:
+> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer Stetigkeit, Integrierbarkeit und Monotonie erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine Linearkombination aus Funktionen $u_k(t)$ dargestellt werden.
+> 
+> Die Funktionen $u_k(t)$ bilden die Basisfunktionen eines normierten, orthogonalen Funktionensystems, genügen also der Bedingung
+> 
+> $$
+> \int_0^T u_k(t) u_m(t) \mathrm{d} t=\left\langle u_k(t), u_m(t)\right\rangle_T=\delta_{k m}=\left\{\begin{array}{lll}
+> 1 & \text { für } & k=m \\
+> 0 & \text { für } & k \neq m
+> \end{array}\right.
+> $$
+> 
+> wobei $k, m$ Parameter der Funktion $u$ sind.
+
+## Reelle Fourierreihe
 
 $$
 \begin{align}
@@ -35,11 +52,11 @@ $\omega = \frac{2\pi}{T}$
 
 > [!INFO] Für den Fall „$k=0$“ existiert das, den arithmetischen Mittelwert darstellende, zeitunabhängige Glied $\frac{a_{0}}{2}$. Die Grundfrequenz der Fourierreihe ist über $f_{0}$ dargestellt.
 
-Jede periodische [Funktion](Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
+Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
 ![invert_light|400](../assets/Fourreihe_zerlegung.png)
 
-## Periodische [Funktion](Abbild.md)
+### Periodische [Funktion](Abbild.md)
 
 $f(x)=f(x+a)$  
 ![invert_light|400](../assets/fourReihe.png)
@@ -49,7 +66,7 @@ $f(x)=f(x+a)$
 > 
 > $f(x)\dots$**Trigonometrisches [Polynom](Polynom.md)**
 
-## Amplituden-Phasenform
+### Amplituden-Phasenform
 
 > [!summary] $$A_{n}\sin(b\cdot x+\varphi_{n})=a_{n}\cdot cos(n \cdot x)+b_{n} \cdot\sin(n\cdot x)$$
 >
