@@ -38,7 +38,7 @@ Man sollte im Datenblatt der TVS-[Diode](Diode.md) auf Verweise für typische Ap
 
 Wie bei jedem Bauteil, gibt es gewisse parasitäre Kenngrößen, die im Inneren präsent sind. Bei der TVS [Diode](Diode.md) ist die [Kapazität](../../Elektrotechnik/Kapazität.md) eine störende, dennoch unvermeidbare, Größe.  
 Bei TVS-[Dioden](Diode.md) mit hoher [Kapazität](../../Elektrotechnik/Kapazität.md) besteht die Gefahr, dass sehr kurze [ESD](../ESD.md)-Stöße nicht gefiltert werden können.  
-Abgesehen von der intrinsischen [Kapazität](../../Elektrotechnik/Kapazität.md), ist zu berücksichtigen, dass auch die [Leiterbahn](../../HF-Technik/Eingangsimpedanz.md) von der Buchse zur [Diode](Diode.md) keine eigene signifikante [Kapazität](../../Elektrotechnik/Kapazität.md) aufweisen darf. Dies wird durch eine möglichst kurze Leiterbahnführung sowie eine dünne Leiterbahnbreite realisiert.
+Abgesehen von der intrinsischen [Kapazität](../../Elektrotechnik/Kapazität.md), ist zu berücksichtigen, dass auch die Leiterbahn von der Buchse zur [Diode](Diode.md) keine eigene signifikante [Kapazität](../../Elektrotechnik/Kapazität.md) aufweisen darf. Dies wird durch eine möglichst kurze Leiterbahnführung sowie eine dünne Leiterbahnbreite realisiert.
 
 ### IEC61000−4−2 Rating
 
