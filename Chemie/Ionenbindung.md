@@ -21,7 +21,7 @@ created: 22nd August 2022
 - wichtigste Art der Bindung zwischen [Metallen](Metallbindung.md) und Nichtmetallen
 - $\Delta EN > 1.7$
 - Stoffe mit Ionenbindung nennt man **Salze**
-- Nichtmetall mit größerer EN entreißt [Metall](Metallbindung.md) [Valenzelektron](Valenzelektronen.md)
+- Nichtmetall mit größerer EN entreißt dem [Metall](Metallbindung.md) dessen [Valenzelektron](Valenzelektronen.md)
 - Metallatom: Kation ($Na\longrightarrow Na^{+}+e^{-}$)
 - Nichtmetallatom: Anion ($Cl+e^{-}\longrightarrow Cl^{-}$)
 

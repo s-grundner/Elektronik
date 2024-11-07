@@ -24,7 +24,7 @@ AND (contains(subject, "VL") OR contains(subject, "KV"))
 AND !contains(file.name, "jku_header")
 AND !contains(file.name, "{NOTES}")
 AND !contains(file.folder, "Rubbish")
-SORT file.mday ASC
+SORT file.mday DESC
 ```
 
 ## Übung
@@ -36,5 +36,5 @@ AND contains(subject, "UE")
 AND !contains(file.name, "jku_header")
 AND !contains(file.name, "{NOTES}")
 AND !contains(file.folder, "Rubbish")
-SORT file.cday ASC
+SORT file.name ASC
 ```
