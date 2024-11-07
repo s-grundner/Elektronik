@@ -41,7 +41,17 @@ $I_{C} = I_{S}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
 |   $U_{T}$   |                      Temperaturspannung                      |
 |   $\eta$    |                     Emissionskoeffizient                     |
 
-## Temparaturspannung
+## Temparaturabhängigkeit von Halbleitern
+
+Durch diese beiden Kenngrößen ist die Temparaturemfindlichkeit von 
+
+## Sperr und Sättigungsstrom $I_{S}$
+
+$$
+I_{\mathrm{S}}=I_{\mathrm{S} 0} \cdot e^{-\frac{W_{\mathrm{G}}}{k_{\mathrm{B}} T}}
+$$
+
+## Temparaturspannung $U_{T}$
 
 $$
 U_{\mathrm{T}}=\frac{k_{\mathrm{B}} \cdot T}{e}

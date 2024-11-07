@@ -45,7 +45,10 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 
 ## Kennlinie
 
+Die Transferkennlinie wird durch die [Shockley Gleichung](../../Physik/Shockley%20Gleichung.md) beschrieben
 
+### 4-Quadranten Kennlinienfeld
+![invert_dark|800](../assets/BJT-KL.png)
 
 ## Arbeitspunkteinstellung
 
@@ -57,9 +60,9 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 
 ## Bipolartransistor als Schalter
 
-|                NPN                 |                PNP                 |
-|:----------------------------------:|:----------------------------------:|
-| ![330](assets/npn-schalter.png) | ![300](assets/pnp-schalter.png) |
+|                      NPN                      |                      PNP                      |
+| :-------------------------------------------: | :-------------------------------------------: |
+| ![invert_light\|330](assets/npn-schalter.png) | ![invert_light\|300](assets/pnp-schalter.png) |
 
 ## Bipolartransistor als Verstärker / Endstufe
 
