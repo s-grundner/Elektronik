@@ -45,6 +45,8 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 
 ## Kennlinie
 
+
+
 ## Arbeitspunkteinstellung
 
 ### Temperaturabhängigkeit
