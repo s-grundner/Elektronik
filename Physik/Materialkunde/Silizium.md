@@ -2,7 +2,6 @@
 tags:
   - Material/Substrate
   - Halbleiter
-  - incomplete
 aliases:
   - Silizium
   - Halbleiter
@@ -29,7 +28,7 @@ professor:
 
 ## Valenz und Leitungsband
 
-![500](assets/HalbleiterValenzLeitungsband.png)
+![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
 Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“). Dichte der erzeugten Ladungsträger:
 
 
