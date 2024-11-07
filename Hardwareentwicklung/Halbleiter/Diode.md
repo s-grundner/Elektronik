@@ -30,7 +30,17 @@ keywords:
 
 ## Kennlinie
 
-## Anwendung
+## Überblick D-R Schaltungen
+
+### Serien Schaltungen
+
+| Schaltung                                                    | ![](assets/Pasted%20image%2020241107144022.png) |
+| ------------------------------------------------------------ | ----------------------------------------------- |
+| Arbeitspunkt                                                 | ![](assets/Pasted%20image%2020241107144157.png) |
+| Kennlinie der Gesamten Schaltung: <br>*Horizontale Scherung* |                                                 |
+
+
+### Parallelschaltungen
 
 ## Materialien
 
