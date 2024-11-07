@@ -6,6 +6,9 @@ aliases:
   - lineare Abbildung
   - Definition 10.1
   - Bemerkung 10.11
+  - Kern
+  - Bild
+  - Kernel
 keywords: 
 subject:
   - Mathematik 1
@@ -44,7 +47,7 @@ professor:
 > 
 > Das Bild das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) 
 >  
-> **Kern**: $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$ oft auch $\operatorname{ker}(L)$
+> **Kern**: $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$ oft auch $\operatorname{ker}(L)$ (von *kernel*)
 > **Bild**: $\mathcal{R}(L)= L(X)$ oft auch $\operatorname{im}(L)$ (von *image*)
 
 >[!important] Die Dimension des Kerns plus die Dimension des Bildes ist die Dimension des Defnitionsvektorraum $X$  

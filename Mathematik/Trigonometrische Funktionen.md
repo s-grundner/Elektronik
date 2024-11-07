@@ -130,7 +130,6 @@ $$
 
 ## Integrale
 
-
 $$
 \begin{aligned}
 \text{Trig.-Funktionen:} & \int \sin x d x=-\cos x,\quad\int \cos x d x=\sin x,\\
@@ -139,6 +138,4 @@ $$
 &\int \frac{1}{1+x^2} d x=\arctan x
 \end{aligned}
 $$
-$$
 
-$$

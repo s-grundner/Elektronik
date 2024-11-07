@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Matrix-Exponentialfunktion
 keywords: 
 subject:
   - VL
@@ -10,7 +11,7 @@ created: 30. Oktober 2024
 professor:
 ---
  
-# Lineare [DGL-Systeme](DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
+# Lineare [DGL-Systeme](Analysis/DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
 
 $$
 \begin{aligned}

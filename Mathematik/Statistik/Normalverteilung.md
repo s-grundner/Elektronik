@@ -15,7 +15,7 @@ professor:
 
 $F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
 
-Ist $F$ differenzierbar, so nennt man die [Ableitung](Differenzialrechnung.md) von $F$ die Dichtefunktion von $X$, kurz Dichte.
+Ist $F$ differenzierbar, so nennt man die [Ableitung](../Analysis/Differenzialrechnung.md) von $F$ die Dichtefunktion von $X$, kurz Dichte.
 
 Anstelle von $F'$ schreibt man sie als $f$
 

@@ -185,6 +185,8 @@ $$
 \end{document}
 ```
 
+> [!success] Leichter: Kreuzkorrelation im Bildbereich (Siehe Stelzer Skriptum)
+
 ---
 
 - [[Barker Code]]

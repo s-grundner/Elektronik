@@ -16,7 +16,7 @@ professor:
 
 # Produktregel (Quotientenregel)
 
-Diese [Differentationsregeln](Differenzialrechnung.md)**** folgen aus der [Kettenregel](Kettenregel.md)
+Diese [Differentationsregeln](Analysis/Differenzialrechnung.md)**** folgen aus der [Kettenregel](Kettenregel.md)
 
 > [!important] **Satz 11.14**. Sei $A \subset \mathbb{R}^n$ offen und $f, g: A \rightarrow \mathbb{R}$ seien differenzierbar in $x_0 \in A$. Dann gilt:
 **(a)** **Produktregel**: $f g$ ist in $x_0$ differenzierbar mit:
@@ -54,7 +54,7 @@ $$
 
 ## Beweis der Quotientenregel
 
-Nach [Differenzialrechnung](Differenzialrechnung.md) ist $g$ in $x_0$ stetig, also gilt wegen $g\left(x_0\right) \neq 0$ und der Offenheit von $A$ :
+Nach [Differenzialrechnung](Analysis/Differenzialrechnung.md) ist $g$ in $x_0$ stetig, also gilt wegen $g\left(x_0\right) \neq 0$ und der Offenheit von $A$ :
 
 $$
 \exists \varepsilon>0:\left(U_{\varepsilon}\left(x_0\right) \subset A \wedge \forall x \in U_{\varepsilon}\left(x_0\right): g(x) \neq 0\right)
@@ -68,7 +68,7 @@ $$
 $$
 
 
-Also für alle $t \neq 0: \lim _{h \rightarrow 0} \frac{a(t+h)-a(t)}{h}=\frac{-1}{t^2}=a^{\prime}(t)$. Zusammen mit [Satz 11.11](Faktorregel.md) folgt: $\frac{\partial F}{\partial v}\left(u_0, v_0\right)=-\frac{u_0}{v_0^2}$. Also wegen $F \circ G=\frac{f}{g}$ :
+Also für alle $t \neq 0: \lim _{h \rightarrow 0} \frac{a(t+h)-a(t)}{h}=\frac{-1}{t^2}=a^{\prime}(t)$. Zusammen mit [Satz 11.11](Analysis/Faktorregel.md) folgt: $\frac{\partial F}{\partial v}\left(u_0, v_0\right)=-\frac{u_0}{v_0^2}$. Also wegen $F \circ G=\frac{f}{g}$ :
 
 $$
 \begin{aligned}

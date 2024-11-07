@@ -1,9 +1,10 @@
 [
 
 	//User
-	
+	{trigger: "bsum", replacement: "\\sum_{$0}^{$1}$2", options: "mA"},
+
 	{trigger: "ssum", replacement: "\\sum\\limits_{ ${0:s \\in C} } }", options: "mA"},
-	{trigger: "bsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:m} } \\sum\\limits_{ ${2:j=1} }^{ ${3:n} }", options: "mA"},
+	{trigger: "dsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:m} } \\sum\\limits_{ ${2:j=1} }^{ ${3:n} }", options: "mA"},
 	{trigger: "lsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:n} }", options: "mA"},
 	{trigger: "\\mid\\mid([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
 	{trigger: "partt", replacement: "\\frac{\\partial $0}{\\partial t}$1", options: "mA"},

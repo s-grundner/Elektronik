@@ -10,6 +10,7 @@ created: 14. Oktober 2024
 professor:
 ---
  
+
 # ModelSim
 
 ## Do-File
@@ -22,6 +23,7 @@ vcom -work work [*.vhd]
 vsim work.[TestBench entity]
 
 add wave -r *
+#add wave /* # reduzierte ansicht
 
 run 1000 ns
 ```

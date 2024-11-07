@@ -54,7 +54,7 @@ SORT file.cday DESC
  - [Geometrische Reihe](Geometrische%20Reihe.md)
  - [Arithmetische Reihe](Arithmetische%20Reihe.md)
  - [Polynomdivision](Polynomdivision.md)
- - [Differenzialrechnung](Differenzialrechnung.md)
+ - [Differenzialrechnung](Analysis/Differenzialrechnung.md)
  - [Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
  - [Newton'sches Näherungsverfahren](Newton'sches%20Näherungsverfahren.md)
  - [Regula Falsi Verfahren](Regula%20Falsi%20Verfahren.md)

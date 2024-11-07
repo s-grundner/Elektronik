@@ -41,7 +41,7 @@ professor:
 
 ## Unterraum
 
-> [!important] Sei $(V,+, \cdot)$ ein Vektorraum über einem [Körper](../Algebraische%20Strukturen.md) $K$.
+> [!important] Sei $(V,+, \cdot)$ ein Vektorraum über einem [Körper](Algebraische%20Strukturen.md) $K$.
 > Eine nichtleere Teilmenge $U \subseteq V$ heißt Unterraum des Vektorraumes, wenn $U$ bzgl. „+“ und ,.“ abgeschlossen ist.
 > Wenn also für alle $u, v \in U$ und alle $\lambda, \mu \in K$ gilt:
 > $$\lambda \cdot u+\mu \cdot v \in U $$
