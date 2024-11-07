@@ -34,18 +34,18 @@ keywords:
 
 ### Serien Schaltungen
 
-| Schaltung                                   | ![](assets/Pasted%20image%2020241107144022.png) |
-| ------------------------------------------- | ----------------------------------------------- |
-| Arbeitspunkt                                | ![](assets/Pasted%20image%2020241107144157.png) |
-| Gesamtkennlinie: <br>*Horizontale Scherung* | ![](assets/Pasted%20image%2020241107144325.png) |
+| Schaltung                                   | ![1600](assets/Pasted%20image%2020241107144022.png) |
+| ------------------------------------------- | --------------------------------------------------- |
+| Arbeitspunkt                                | ![1600](assets/Pasted%20image%2020241107144157.png) |
+| Gesamtkennlinie: <br>*Horizontale Scherung* | ![1600](assets/Pasted%20image%2020241107144325.png) |
 
 
 ### Parallelschaltungen
 
-| Schaltung                                 | ![](assets/Pasted%20image%2020241107144523.png) |
-| ----------------------------------------- | ----------------------------------------------- |
-| Arbeitspunkt                              | ![](assets/Pasted%20image%2020241107144534.png) |
-| Gesamtkennlinie: <br>*Vertikale Scherung* | ![](assets/Pasted%20image%2020241107144545.png) |
+| Schaltung                                 | ![1200](assets/Pasted%20image%2020241107144523.png) |
+| ----------------------------------------- | --------------------------------------------------- |
+| Arbeitspunkt                              | ![1200](assets/Pasted%20image%2020241107144534.png) |
+| Gesamtkennlinie: <br>*Vertikale Scherung* | ![1200](assets/Pasted%20image%2020241107144545.png) |
 
 ## Materialien
 
