@@ -15,7 +15,7 @@ created: 6th April 2022
 
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
 
-Man nutzt die **Bandabstand-Spannung** eines [Silizium](../Physik/Materialkunde/Silizium.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1{,}2V$
+Man nutzt die **Bandabstand-Spannung** eines [Silizium](../Physik/Materialkunde/Silizium.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1.12V$
 
 ### Grundlagen
 
@@ -29,14 +29,16 @@ wobei $e$ die [Elementarladung](../Physik/Konstanten/Elementarladung.md) ist.
 1. [Shockley Gleichung](../Physik/Shockley%20Gleichung.md)  
 $I_{c}= I_{s}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$  
 Näherung:  
+
 $I_{c}=I_{s}\cdot e^{\frac{U_{BE}}{\eta \cdot U_{T}}}$  
+
 $U_{BE}= U_{T}\cdot \ln(I_{c}/I_{s})$
 
-| Formelzeichen | Bezeichnung                                                        | Formel                                                                                                                |     |
-| ------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | --- |
-| $\eta$        | [Transistorgeometrie](Halbleiter/{MOC}%20Transistor.md) $(\eta=1)$ |                                                                                                                       |     |
-| $U_{T}$       | Temperaturspannung                                                 | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](../Physik/Konstanten/Boltzmannkonstante.md) |     |
-| $I_{s}$       | Sättigungssperrstrom                                               |                                                                                                                       |     |
+| Formelzeichen | Bezeichnung                     | Formel                                                                                                                |     |
+| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --- |
+| $\eta$        | Emissionskoeffizient $(\eta=1)$ |                                                                                                                       |     |
+| $U_{T}$       | Temperaturspannung              | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](../Physik/Konstanten/Boltzmannkonstante.md) |     |
+| $I_{s}$       | Sättigungssperrstrom            |                                                                                                                       |     |
 
 1. Temperaturabhängigkeit der Basis-Emitter-Spannung  
 $U_{BE}=U_{g}+D_{T}\cdot T +\underbrace{[(\eta -1)U_{T}\cdot(1-\ln(\frac{T}{T_{0}}))]}_{\text{vernachlässigbar}}$

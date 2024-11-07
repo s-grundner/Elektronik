@@ -3,6 +3,8 @@ tags:
 aliases:
   - elektrische Leiter
   - elektrische Leitfähigkeit
+  - Bandgap
+  - Bandabstand
 created: 1. März 2024
 subject:
   - Einführung Elektronik
@@ -24,9 +26,16 @@ semester: WS25
 
 ![#invert_light|775](../Hardwareentwicklung/assets/Baendermodell.png)
 
-Energieabstände
+Energieabstände der Bänder (Bandgap)
+
 - Nichtleiter: $W_{g}>3eV$
 - Halbleiter: $W_{g}\approx1.12$
 - Leiter: $W_{g} = 0$
+
+---
+
+# Related
+
+[The Actual Reason Semiconductors Are Different From Conductors and Insulators. - YouTube](https://www.youtube.com/watch?v=-lHXZk5M6cI)
 
 [Why It Was Almost Impossible to Make the Blue LED - YouTube](https://www.youtube.com/watch?v=AF8d72mA41M)
