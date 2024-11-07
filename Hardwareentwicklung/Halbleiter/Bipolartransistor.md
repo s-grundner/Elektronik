@@ -43,9 +43,13 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 > Der Elektronenstrom der in Durchlassrichtung betriebenen $B E$-Diode wird praktisch fast komplett in den Kollektor transferiert. (Nur ein kleiner Teil gelangt in die Basis.)
 >  > [!success] Für den pnp-Transistor gelten entsprechend umgekehrte Verhältnisse.
 
+## Kennlinie
+
 ## Arbeitspunkteinstellung
 
 ### Temperaturabhängigkeit
+
+
 
 # Betriebsarten
 
