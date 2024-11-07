@@ -45,7 +45,17 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 
 ## Kennlinie
 
-Die Transferkennlinie wird durch die [Shockley Gleichung](../../Physik/Shockley%20Gleichung.md) beschrieben
+Die Transferkennlinie wird durch die [Shockley Gleichung](../../Physik/Shockley%20Gleichung.md) beschrieben:
+
+$$
+\begin{align}
+I_{\mathrm{C}}&=I_{\mathrm{S}}\left(e^{\frac{U_{\mathrm{BE}}}{\mathrm{U}_{\mathrm{T}}}}-1\right) \\
+I_{\mathrm{B}}&=\frac{I_{\mathrm{C}}}{B} \\
+I_{\mathrm{E}}&=I_{\mathrm{B}}+I_{\mathrm{C}}
+\end{align}
+$$
+
+
 
 ### 4-Quadranten Kennlinienfeld
 ![invert_dark|800](../assets/BJT-KL.png)
