@@ -8,7 +8,7 @@ created: 30th August 2023
 
 Mit dem Exponentialansatz lassen sich lineare [DGL](../{MOC}%20DGL.md) berechnen.
 
-Da die $e$-Funktion abgeleitet wieder sich selbst ergibt, ist es möglich für die [Ableitung](Differenzialrechnung.md) in einer Differentialgleichung dieses Funktion einzusetzen und lediglich die Faktoren zu bestimmen.  
+Da die $e$-Funktion abgeleitet wieder sich selbst ergibt, ist es möglich für die [Ableitung](../Analysis/Differenzialrechnung.md) in einer Differentialgleichung dieses Funktion einzusetzen und lediglich die Faktoren zu bestimmen.  
 
 > [!hint] Grundform des Exponentialansatzes mit nicht-konstantem Faktor $p(x)$: (DGL 1. Ordnung)
 >

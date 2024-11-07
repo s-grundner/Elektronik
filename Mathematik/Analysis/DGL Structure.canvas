@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"07c1fb1521419b1e","x":-132,"y":-80,"width":1392,"height":185,"color":"2","type":"group","label":"Kap 6 (Allgemeine Lin DGL Sys 1 O) -> reglen gelten auch für unterkapitel"},
 		{"id":"fb0d5da14265a665","x":-580,"y":-280,"width":250,"height":61,"type":"text","text":"old DGL"},
-		{"id":"6977232d0efc7214","x":203,"y":0,"width":411,"height":50,"type":"text","text":"[Lineare DGL Systeme 1. Ordnung](Mathematik/DGL-System.md)"},
+		{"id":"6977232d0efc7214","x":203,"y":0,"width":411,"height":50,"type":"text","text":"[Lineare DGL Systeme 1. Ordnung](Analysis/DGL-System.md)"},
 		{"id":"af8ccd095c2e1b51","x":660,"y":-60,"width":220,"height":50,"type":"text","text":"homogenes AWP\n"},
 		{"id":"8b5239214eef22ae","x":660,"y":35,"width":220,"height":50,"type":"text","text":"inhomgenes AWP"},
 		{"id":"173546e675872d79","x":960,"y":35,"width":280,"height":50,"type":"text","text":"Variation der Konstanten"},

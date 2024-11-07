@@ -28,7 +28,7 @@ created: 14th March 2022
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
 > 
 > > [!info] Ordunung
-> > Die höchste Vorkommende [Ableitung](Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
+> > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
 > [!info] Allgemeine Form
 > 
@@ -58,7 +58,7 @@ $$
 
 - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
 - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
-- [DGL-System](DGL-System.md)
+- [DGL-System](Analysis/DGL-System.md)
 
 ## Anwendungen und Beispiele
 

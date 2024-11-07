@@ -16,7 +16,7 @@ $$
 x^{(n)}(t) + \sum_{j=0}^{n-1} a_{j}(t)\cdot x^{(j)}(t) = s(t)
 $$
 
-Umwandeln in ein lineares [DGL-System](DGL-System.md) 1. Ordnung
+Umwandeln in ein lineares [DGL-System](Analysis/DGL-System.md) 1. Ordnung
 
 
 ## Konstanter Koeffizient

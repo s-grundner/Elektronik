@@ -116,6 +116,6 @@ Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ li
 
 
 > [!question] Wie kommt man von der [[Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
-> mit [Variation der Konstanten](Algebra/Variation%20der%20Konstanten.md)
+> mit [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md)
 > - Die konstante $c$ wird zu $c(t)$
 

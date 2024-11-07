@@ -18,7 +18,7 @@ professor:
 
 # Fréchet-Ableitung
 
-> [!info] Die **Fréchet-Ableitung** verallgemeinert den Begriff der [Ableitung](../Differenzialrechnung.md)
+> [!info] Die **Fréchet-Ableitung** verallgemeinert den Begriff der [Ableitung](Differenzialrechnung.md)
 
 
 > [!important] Sei $A \subset \mathbb{R}^n$ offen, $f: A \rightarrow \mathbb{R}^m$ und $x_0 \in A$.
@@ -100,5 +100,5 @@ Nach diesem Satz lässt sich die Fréchet-Ableitung durch die [Jacobi-Matrix](Gr
 > $$
 > 
 > 
-> Dann gilt: $\frac{\partial f}{\partial x}(0,0)=\frac{\partial f}{\partial y}(0,0)=0$. Da $f$ aber in $(0,0)$ offensichtlich nicht stetig ist, ist $f$ nach [Satz 11.6](../Differenzialrechnung.md) in $(0,0)$ auch nicht Fréchet-differenzierbar.
+> Dann gilt: $\frac{\partial f}{\partial x}(0,0)=\frac{\partial f}{\partial y}(0,0)=0$. Da $f$ aber in $(0,0)$ offensichtlich nicht stetig ist, ist $f$ nach [Satz 11.6](Differenzialrechnung.md) in $(0,0)$ auch nicht Fréchet-differenzierbar.
 > Man sieht an diesem Beispiel auch, dass die Existenz der partiellen Ableitungen nicht die [Stetigkeit](Stetigkeit.md) impliziert.

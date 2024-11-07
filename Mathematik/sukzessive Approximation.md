@@ -64,7 +64,7 @@ $$
 \boxed{ \lvert\lvert g \rvert\rvert _{w}:= \underset{ t \in[t_0 - \alpha, t_0 + \alpha] }{ \operatorname{max} } e^{ -2Lt } \cdot \lvert\lvert g \rvert\rvert _{\infty} }
 $$
 
-$X$ hat keine Löcher bzw. $x$ ist vollständig $\to$   ist ein [Barnachraum](Barnachscher%20Fixpunktsatz.md)
+$X$ hat keine Löcher bzw. $x$ ist vollständig $\to$   ist ein [Barnachraum](Analysis/Barnachscher%20Fixpunktsatz.md)
 
 ## Spezialisierung auf homog. lineare DGL-Systeme
 
