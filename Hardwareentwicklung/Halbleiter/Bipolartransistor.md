@@ -84,10 +84,6 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 >  
 > > [!info] **Weiterführend**: Stromgesteuerte Spannungsgegenkopplung
 
-###
-
-### Stromgesteuerte Spannungsgegenkopplung
-
 # Betriebsarten
 
 ## Bipolartransistor als Schalter

@@ -13,3 +13,8 @@ professor:
  
 
 # [BJT](Bipolartransistor.md) Spannungseinstellung
+
+## Stromgesteuerte Spannugnsgegenkopplung
+
+> [!info] Gegenkopplungs Funktionsprinzip
+> Die Spannung am Widerstand $R_{2}$ 
