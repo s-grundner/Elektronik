@@ -73,14 +73,18 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 > $I_{B}$ ist *Konstant*
 > - Beseitigt Temparaturinstabilität ✅
 > - Empfindlich gegenüber Verstärkungsabweichungen ❌
+> 
+> > [!info] **Weiterführend**: Spannungsgesteuerte Stromgegenkopplung
 
 > [!important] [[Spannungseinstellung]]: Transistor mit Basisspannungsteiler
 > $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
 > - Unempfindlich gegenüber Verstärkungsabweichungen ✅
 > - Temparatur instabil ❌
 > - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen ❌
+>  
+> > [!info] **Weiterführend**: Stromgesteuerte Spannungsgegenkopplung
 
-### Spannungsgesteuerte Stromgegenkopplung
+###
 
 ### Stromgesteuerte Spannungsgegenkopplung
 
