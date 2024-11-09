@@ -46,7 +46,6 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 ## Kennlinie
 
 Die Transferkennlinie wird durch die [Shockley Gleichung](../../Physik/Shockley%20Gleichung.md) beschrieben:
-
 $$
 \begin{align}
 I_{\mathrm{C}}&=I_{\mathrm{S}}\left(e^{\frac{U_{\mathrm{BE}}}{\mathrm{U}_{\mathrm{T}}}}-1\right) \\
@@ -62,7 +61,29 @@ $$
 
 ## Arbeitspunkteinstellung
 
-### Temperaturabhängigkeit
+### Temparatur und Verstärkungsabweichungen
+
+Üblicherweise möchte man durch die Beschaltung des BJT die einstellung eines bestimmten Basisstromes erzielen. Hierbei treten zwei probleme auf:
+
+- Es kann nicht sichergestellt werden, dass selbst vom selben Transistortypen die Verstärkung immer die selbe ist. $\to$ statische Abweichung von $B$
+- Durch die Shockleygleichung ist eine gewisse Temparaturabhängigkeit (empfindlichkeit) gegeben.
+
+Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
+
+- **Stromeinstellung:** Transistor mit Basisvorwiderstand
+    - $I_{B}$ ist *Konstant*
+    - Beseitigt Temparaturinstabilität ✅
+    - Empfindlich gegenüber Verstärkungsabweichungen ❌
+
+- **Spannungseinstellung:** Transistor mit Basisspannungsteiler
+    - $U_{BE}$ ist Konstant* (muss daher genau spezifiziert werden. Annahme $\approx 0.7V$ unzulässig)
+
+
+### Spannungsgesteuerte Stromgegenkopplung
+
+
+
+### Stromgesteuerte Spannungsgegenkopplung
 
 
 
