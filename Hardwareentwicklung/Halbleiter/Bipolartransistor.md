@@ -69,13 +69,13 @@ $$
 
 Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 
-> [!important] **Stromeinstellung:** Transistor mit Basisvorwiderstand
+> [!important] [[Stromeinstellung]]: Transistor mit Basisvorwiderstand
 > $I_{B}$ ist *Konstant*
 > - Beseitigt Temparaturinstabilität ✅
 > - Empfindlich gegenüber Verstärkungsabweichungen ❌
 
-> [!important] **Spannungseinstellung:** Transistor mit Basisspannungsteiler
-> $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7V$ unzulässig)
+> [!important] [[Spannungseinstellung]]: Transistor mit Basisspannungsteiler
+> $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
 > - Unempfindlich gegenüber Verstärkungsabweichungen ✅
 > - Temparatur instabil ❌
 > - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen ❌
