@@ -54,9 +54,8 @@ I_{\mathrm{E}}&=I_{\mathrm{B}}+I_{\mathrm{C}}
 \end{align}
 $$
 
-
-
 ### 4-Quadranten Kennlinienfeld
+
 ![invert_dark|800](../assets/BJT-KL.png)
 
 ## Arbeitspunkteinstellung
@@ -70,22 +69,20 @@ $$
 
 Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 
-- **Stromeinstellung:** Transistor mit Basisvorwiderstand
-    - $I_{B}$ ist *Konstant*
-    - Beseitigt Temparaturinstabilität ✅
-    - Empfindlich gegenüber Verstärkungsabweichungen ❌
+> [!important] **Stromeinstellung:** Transistor mit Basisvorwiderstand
+> $I_{B}$ ist *Konstant*
+> - Beseitigt Temparaturinstabilität ✅
+> - Empfindlich gegenüber Verstärkungsabweichungen ❌
 
-- **Spannungseinstellung:** Transistor mit Basisspannungsteiler
-    - $U_{BE}$ ist Konstant* (muss daher genau spezifiziert werden. Annahme $\approx 0.7V$ unzulässig)
-
+> [!important] **Spannungseinstellung:** Transistor mit Basisspannungsteiler
+> $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7V$ unzulässig)
+> - Unempfindlich gegenüber Verstärkungsabweichungen ✅
+> - Temparatur instabil ❌
+> - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen ❌
 
 ### Spannungsgesteuerte Stromgegenkopplung
 
-
-
 ### Stromgesteuerte Spannungsgegenkopplung
-
-
 
 # Betriebsarten
 

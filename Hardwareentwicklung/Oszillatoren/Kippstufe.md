@@ -27,7 +27,7 @@ created: 3rd January 2023
 
 ## [BJT](../Halbleiter/Bipolartransistor.md)-Kippstufe
 
-![](assets/BJT-Kippstufe.png)
+![invert_dark](assets/BJT-Kippstufe.png)
 
 $$
 \begin{align}
