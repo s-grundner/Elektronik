@@ -17,4 +17,6 @@ professor:
 ## Stromgesteuerte Spannugnsgegenkopplung
 
 > [!info] Gegenkopplungs Funktionsprinzip
-> Die Spannung am Widerstand $R_{2}$ 
+> > [!warning] **Annahme:** Die Spannung am Widerstand $R_{2}$ ist nahezu konstant
+> 
+> Steigt nun $I_{C,0}$ zufolge einer Temparaturerhöhung, fällt am Emitterwiderstand $R_{E}$ eine *höhere* Spannung ab. Demzufolge sing $U_{BE,0}$, was der $I_{C}$
