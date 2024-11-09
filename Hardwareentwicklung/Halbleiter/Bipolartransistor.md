@@ -100,9 +100,9 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 
 ## Bipolartransistor als Konstantstromquelle
 
-|         NPN         |         PNP         |
-|:-------------------:|:-------------------:|
-| > ![500](assets/NPN.png) | > ![500](assets/PNP.png) |
+|          NPN           |           PNP           |
+| :--------------------: | :---------------------: |
+| ![500](assets/NPN.png) |  ![500](assets/PNP.png) |
 
 $$
 \begin{align*}
