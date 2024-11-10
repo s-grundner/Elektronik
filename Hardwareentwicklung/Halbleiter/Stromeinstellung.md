@@ -3,6 +3,8 @@ tags:
   - Halbleiter/BJT
 aliases:
   - Spannungsgsteuerte Stromgegenkopplung
+  - Basis-Vorwiderstand
+  - Basisvorwiderstand
 keywords: 
 subject:
   - VL
@@ -19,6 +21,8 @@ professor:
 
 > [!important] $I_{B}$ wird konstant in die Basis eingespeist um $I_{C}$ zu kontrollieren.
 > ![](assets/{F2EEDB5A-E1B8-4012-B917-D3D2D968B286}.png)
+
+## Basisvorwiderstand
 
 ## Spannungsgsteuerte Stromgegenkopplung
 
