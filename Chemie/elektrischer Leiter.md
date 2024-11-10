@@ -16,6 +16,8 @@ semester: WS25
 
 # Elektrische Leitfähigkeit
 
+
+
 - Leiter, [Silizium](../Physik/Materialkunde/Silizium.md), Isolator (prof)
 - Elektr. Leiter 1. Klasse ([Metalle](Metallbindung.md)) $\rightarrow$ Elektronen als Ladungsträger
 - Elektr. Leiter 2. Klasse (gelöstes oder geschmolzenes [Salz](Ionenbindung.md)) $\rightarrow$ Ionen als Ladungsträger
