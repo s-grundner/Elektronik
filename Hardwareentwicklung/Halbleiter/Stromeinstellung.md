@@ -18,6 +18,8 @@ professor:
 
 > [!important] $I_{B}$ wird konstant in die Basis eingespeist um $I_{C}$ zu kontrollieren.
 
-## Spannungsgsteuerten Stromgegenkopplung
+## Spannungsgsteuerten [Stromgegenkopplung](Stromgegenkopplung.md)
 
-> [!warning] Annahme 1
+> [!warning] **Annahme:** Die Basis-Emitterspannung ist nahezu konstant.
+
+Steigt nun $I_{C,0}$ zur Folge einer Temparaturerhöhung, fällt am Kollektorwiderstand $R_{C}$
