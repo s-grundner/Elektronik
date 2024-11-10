@@ -42,36 +42,6 @@ Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwidersta
 > 
 >Da hier $I_{B}$ nicht mehr konstant in die Basis eingeprägt wird, wirkt diese Regelung auch gegen die $B$-Streuung.
 
-```tikz
-\usepackage[european, straightvoltages]{circuitikz}
-
-\begin{document}
-
-\begin{circuitikz}[thick]
-
-% Transistor (npn)
-\draw (2,2) node[npn, anchor=E] (Q) {};
-
-% Kollektorwiderstand R_C und Versorgungsspannung U_0
-\draw (Q.C) to[R=$R_C$, v=$U_0$] (2,4) -- ++(0,0.5);
-
-% Widerstand R an der Basis mit Strom I_{B,0}
-\draw (Q.B) -- ++(-1,0) to[R=$R$, i<=$I_{B,0}$, *-*] ++(-1,1);
-
-% Eingangsspannung U_{BE,0} an der Basis-Emitter-Strecke
-\draw[<-] (Q.E) -- ++(-1,0) node[left] {$U_{BE,0}$};
-
-% Ground (Erde) am Emitter
-\draw (Q.E) -- ++(0,-1) node[ground] {};
-
-% Kollektorstrom I_{C,0} als Beschriftung
-\draw (Q.C) to[open, v^=$I_{C,0}$] ++(0,-1);
-
-\end{circuitikz}
-
-\end{document}
-```
-
 ![](assets/{91DF9C54-BF68-4756-9EA2-3DBE4D82F6E2}.png)
 
 > [!warning] **Annahme:** Die Basis-Emitterspannung ist nahezu konstant.
