@@ -17,3 +17,7 @@ professor:
 # [BJT](Bipolartransistor.md) Stromeinstellung
 
 > [!important] $I_{B}$ wird konstant in die Basis eingespeist um $I_{C}$ zu kontrollieren.
+
+## Spannungsgsteuerten Stromgegenkopplung
+
+> [!warning] Annahme 1

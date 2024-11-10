@@ -62,7 +62,7 @@ $$
 
 ### Temparatur und Verstärkungsabweichungen
 
-Üblicherweise möchte man durch die Beschaltung des BJT die einstellung eines bestimmten Basisstromes erzielen. Hierbei treten zwei probleme auf:
+Üblicherweise möchte man durch die Beschaltung des BJT die Einstellung eines bestimmten Kollektorstromes erzielen. Hierbei treten zwei Probleme auf:
 
 - Es kann nicht sichergestellt werden, dass selbst vom selben Transistortypen die Verstärkung immer die selbe ist. $\to$ statische Abweichung von $B$
 - Durch die Shockleygleichung ist eine gewisse Temparaturabhängigkeit (empfindlichkeit) gegeben.
