@@ -12,6 +12,8 @@ created: 24th March 2022
 
 ## Darstellung von Folgen
 
+
+
 > [!INFO] *Term Darstellung* einer Folge:  
 > Angabe eines Terms (einer "Formel"), wie das Glied $a_{n}$ formelmäßig aus dem *index n* berechnet werden kann.  
 >
