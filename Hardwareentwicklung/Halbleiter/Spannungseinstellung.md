@@ -5,7 +5,8 @@ aliases:
   - Stromgesteuerte Spannungsgegenkopplung
   - Basis-Spannungsteiler
   - Basisspannungsteiler
-keywords: 
+keywords:
+  - $\DeltaB$
 subject:
   - VL
   - Einführung Elektronik
