@@ -60,6 +60,16 @@ $$
 
 ## Arbeitspunkteinstellung
 
+Durch die Dimensionierung der Beschaltung wird der Arbeitspunkt der Transistorschaltung eingestellt.
+
+Der Arbeitspunkt
+- legt die Großsignalgrößen $I_{\mathrm{B}, 0}, U_{\mathrm{BE}, 0}, I_{\mathrm{C}, 0}$ und $U_{\mathrm{CE}, 0}$ sowie die
+- Kleinsignalgrößen $r_{\mathrm{BE}}, S$ und $g_{\mathrm{EA}}$ fest,
+- bestimmt den maximal möglichen Aussteuerbereich,
+- soll für große Aussteueramplituden in die Mitte des Aussteuerbereiches $\left(U_{\mathrm{CE}, \min } \ldots U_0\right)$ gelegt werden.
+
+![](assets/{15B99FC5-3166-4FFB-A1B9-944E5F2E7AE9}.png)
+
 ### Temparatur und Verstärkungsabweichungen
 
 Üblicherweise möchte man durch die Beschaltung des BJT die Einstellung eines bestimmten Kollektorstromes erzielen. Hierbei treten zwei Probleme auf:
@@ -74,7 +84,7 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 > - Beseitigt Temparaturinstabilität ✅
 > - Empfindlich gegenüber Verstärkungsabweichungen ❌
 > 
-> > [!info] **Weiterführend**: Spannungsgesteuerte Stromgegenkopplung
+> > [!info] **Weiterführend**: AP-Einstellung mit Spannungsgesteuerte Stromgegenkopplung
 
 > [!important] [[Spannungseinstellung]]: Transistor mit Basisspannungsteiler
 > $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
@@ -82,7 +92,16 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 > - Temparatur instabil ❌
 > - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen ❌
 >  
-> > [!info] **Weiterführend**: Stromgesteuerte Spannungsgegenkopplung
+> > [!info] **Weiterführend**: AP Einstellung mit Stromgesteuerte Spannungsgegenkopplung
+
+![](assets/{8ED7CCB4-8EE7-4420-BCF2-4D12D04047FD}.png)
+
+Funktionen der Arbeitsgeraden
+$$
+I_{\mathrm{B}}=\frac{U_{\mathrm{L}}-U_{\mathrm{BE}}}{R_{\mathrm{i}}} \quad I_{\mathrm{C}}=B \cdot \frac{U_{\mathrm{L}}-U_{\mathrm{BE}}}{R_{\mathrm{i}}}
+$$
+
+![](assets/{9C735800-443E-4EBF-BBDF-2F3886884455}.png)
 
 # Betriebsarten
 
