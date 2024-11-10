@@ -26,14 +26,17 @@ professor:
 
 ## Basis-Spannungsteiler
 
+Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cdot I_{B,0}$) lässt sich die Spannung am $R_{2}$ so dimensionieren, dass der Spannungsteiler von $U_{0}$ gleich $U_{BE}$ ist.
+
 ![](assets/{C5B56692-745F-4AD1-8787-D9CB3B1CB076}.png)
 
 > [!warning] Vor und Nachteile
 > - ✅Unempfindlich gegenüber Verstärkungsabweichungen 
 > - ❌Temparatur instabil 
 
-
 ## Stromgesteuerte Spannungsgegenkopplung
+
+> [!success] Lösung zur Temparaturempfindlichkeit
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -72,3 +75,8 @@ professor:
 > Steigt nun $I_{C,0}$ zufolge einer Temparaturerhöhung, fällt am Emitterwiderstand $R_{E}$ eine *höhere* Spannung ab. Demzufolge sing $U_{BE,0}$, was der $I_{C}$-Zunahme entgegenwirkt.
 
 
+---
+
+# Related
+
+[Stromeinstellung](Stromeinstellung.md)
