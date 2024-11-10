@@ -49,3 +49,8 @@ Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwidersta
 > 
 > Dadurch sinkt auch die Spannung am Basisvorwiderstand $R$ welches den Basisstrom verringert. Somit wird auch $I_{C}$ verringert.
 
+---
+
+# Related
+
+[Spannungseinstellung](Spannungseinstellung.md)
