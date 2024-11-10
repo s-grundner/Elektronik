@@ -16,11 +16,7 @@ created: 21st November 2022
 
 ## Arbeitspunkteinstellung
 
-### Basis-Vorwiderstand
-
-### Basis-[Spannungsteiler](../../Elektrotechnik/Spannungsteiler.md)
-
-## Spannungs-Gegenkopplung
+- Basis-Vorwiderstand
 
 # Quellen
 
