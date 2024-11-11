@@ -44,7 +44,7 @@ professor:
 
 \node[npn] at (2, 3) {};
 
-\draw (-4, 0) to[V, v<=$U_{\text{in}}$] (-4, 3);
+\draw (-4, 0) to[sV, v<=$U_{\text{in}}$] (-4, 3);
 \draw (-2, 3) to[C, l^=$C_{i}$, -*] (0, 3);
 \draw (-4, 3) to[R, l^=$R_{i}$] (-2, 3);)
 
@@ -59,8 +59,8 @@ professor:
 \draw (2, 4) to[C=$C_{A}$] (6, 4);
 \draw (6, 4) to[R=$R_{L}$] (6, 0);
 
-\node[vcc] at (0, 6) {$+12V$};
-\node[vcc] at (2, 6) {$+12V$};
+\node[vcc] at (0, 6) {$U_0$};
+\node[vcc] at (2, 6) {$U_0$};
 
 \draw (2, 4) -- (2, 3.75);
 \draw (1.16, 3) -| (0, 4);
