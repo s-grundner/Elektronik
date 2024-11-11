@@ -81,9 +81,8 @@ Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cd
 > 
 > Der **Strom** $I_{E}$ steuert die Gegenkopplung der **Spannung** $U_{BE}$.
 
-❌**Nachteil**: Die Gegenkopplung wirkt sich auch auf die Verstärkung aus.
-
-
+> [!error] ❌**Nachteil**: Die Gegenkopplung wirkt sich auch auf die Verstärkung aus.
+> > [! success] Lösung dazu ist die [Emitterschaltung](Kollektorfolger.md)
 
 ---
 
