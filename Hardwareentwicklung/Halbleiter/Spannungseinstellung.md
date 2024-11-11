@@ -35,6 +35,11 @@ Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cd
 > - ✅Unempfindlich gegenüber Verstärkungsabweichungen 
 > - ❌Temparatur instabil 
 
+> [!info] Warum wird $I_{2}$ so groß ($\cdot 100$) gewählt?
+> - **Vorteil**: Vom Spannungsteiler gelieferte Spannung ist stabiler: Variierender Basisstrom hat weniger einfluss auf die Spannung $U_{BE}$
+> - **Nachteil**: Spannungsteiler belastet den Generator. (höherer Strom)
+
+
 ## Stromgesteuerte Spannungsgegenkopplung
 
 > [!success] Lösung zur Temparaturempfindlichkeit
