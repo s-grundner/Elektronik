@@ -39,7 +39,6 @@ Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cd
 > - **Vorteil**: Vom Spannungsteiler gelieferte Spannung ist stabiler: Variierender Basisstrom hat weniger einfluss auf die Spannung $U_{BE}$
 > - **Nachteil**: Spannungsteiler belastet den Generator. (höherer Strom)
 
-
 ## Stromgesteuerte Spannungsgegenkopplung
 
 > [!success] Lösung zur Temparaturempfindlichkeit
@@ -78,7 +77,12 @@ Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cd
 > [!info] Gegenkopplungs Funktionsprinzip
 > > [!warning] **Annahme:** Die Spannung am Widerstand $R_{2}$ ist nahezu konstant
 > 
-> Steigt nun $I_{C,0}$ zufolge einer Temparaturerhöhung, fällt am Emitterwiderstand $R_{E}$ eine *höhere* Spannung ab. Demzufolge sing $U_{BE,0}$, was der $I_{C}$-Zunahme entgegenwirkt.
+> Steigt nun $I_{C,0}$ (also auch $I_{E}$) zufolge einer Temparaturerhöhung, fällt am Emitterwiderstand $R_{E}$ eine *höhere* Spannung ab. Demzufolge sinkt $U_{BE,0}$, was der $I_{C}$-Zunahme entgegenwirkt.
+> 
+> Der **Strom** $I_{E}$ steuert die Gegenkopplung der **Spannung** $U_{BE}$.
+
+❌**Nachteil**: Die Gegenkopplung wirkt sich auch auf die Verstärkung aus.
+
 
 
 ---
