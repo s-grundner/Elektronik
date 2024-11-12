@@ -151,4 +151,6 @@ $f(x)=f(x+a)$
 - Drichlet-Kernel
 - Gibbs-Phänomen
     - Überschwingen bei Unstetigkeiten um $9\%$ der Sprunghöhe
-
+- Fejer-Gewichtung
+- Lanczsos-Gewichtung
+- Hamming-Gewichtung
