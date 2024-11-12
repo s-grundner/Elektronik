@@ -74,3 +74,12 @@ $$
 	f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})dt
 }}
 $$
+
+## Verschiebung und Skalierung
+
+$$
+\begin{align*}
+  \delta(at) &= \frac{1}{|a|}\delta(t)\\
+  \delta(t-t_{0})
+\end{align*}
+$$
