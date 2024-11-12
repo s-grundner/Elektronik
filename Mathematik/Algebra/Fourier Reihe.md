@@ -22,7 +22,6 @@ Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus un
 
 ![invert_light|400](../assets/Fourreihe_zerlegung.png)
 
-
 ## Grundlagen
 
 > [!quote] Harmonische Analyse
@@ -42,7 +41,6 @@ Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus un
 > 
 > > [!info] $\delta_{k,m}\dots$ [[Kronecker-Symbol]]
 > > Nur der Anteil bei dem $l=k$ ist zählt.
-
 
 ## Reelle Fourierreihe
 
@@ -91,7 +89,6 @@ c_k & =\sqrt{a_k^2+b_k^2} \\
 \end{aligned}
 $$
 
-
 ## Komplexe Fourierreihe
 
 > [!important] Komplexe Fourier-Reihe der rellen Funktion $x(t)$
@@ -110,7 +107,6 @@ $$
 > Es treten auch negative Frequenzen auf! Damit werden die Imaginärteile für das reelle Signal kompensiert. Obige Symmetrie gilt für reelle Signale.
 
 ---
-
 
 ### Periodische [Funktion](Abbild.md)
 
@@ -147,4 +143,12 @@ $f(x)=f(x+a)$
 
 # Tags
 
-![Fourierreihe](../assets/pdf/Fourierreihe.pdf)
+[Fourierreihe](../assets/pdf/Fourierreihe.pdf)
+
+---
+
+- Fejer-Kernel
+- Drichlet-Kernel
+- Gibbs-Phänomen
+    - Überschwingen bei Unstetigkeiten um $9\%$ der Sprunghöhe
+
