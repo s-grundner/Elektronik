@@ -51,11 +51,50 @@ $$
 
 A wird herausgehoben und für k-1 wird ein indexshift durchgeführt. 
 
-
 $e^{ At }C$ ist also die allgemeine Lösung von $\dot{x}=Ax$.
 
 ## Fundamentalmatrix
 
 $$
-e^{(t-t_{0}) A }=e^{ tA }\cdot e^{ -t_{0}A }
+\underbrace{ e^{(t-t_{0}) A } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
+$$
+
+Die Fundamentalmatrix ist also $e^{ tA }$.
+
+Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}=I$.
+
+> [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
+
+Spezialfall: $B$ ist eine Diagonalmatrix
+
+$$
+B = \begin{pmatrix}
+\lambda_{1} & 0 & 0 \\
+0 & \ddots & 0 \\
+0 & 0 & \lambda_{m}
+\end{pmatrix} \implies B^k = \begin{pmatrix}
+\lambda_{1}^k & 0 & 0 \\
+0 & \ddots & 0 \\
+0 & 0 & \lambda_{m}^k
+\end{pmatrix}
+$$
+
+Funktioniert nur für Diagonalmatrizen!
+
+$$
+e^{B} = \sum_{k=0}^{\infty}\frac{B^k}{k!} = \sum_{k=0}^{\infty}\frac{1}{k!}
+\begin{pmatrix} 
+\lambda_{1}^k & 0 & 0 \\
+0 & \ddots & 0 \\
+0 & 0 & \lambda_{m}^k
+\end{pmatrix}
+$$
+Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente.
+
+$$
+e^{B} = \begin{pmatrix}
+e^{ \lambda_{1} } & 0 & 0 \\
+0 & \ddots & 0 \\
+0 & 0 & e^{ l }
+\end{pmatrix}
 $$
