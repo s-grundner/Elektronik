@@ -21,6 +21,7 @@ $$
 
 $A$ ist jetzt nicht mehr von $t$ Abhängig
 
-Sei 
+> [!question] Erinnerung an das 2-Dimensionale System $m=1$:
+$$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 
-[Potenzreihe](Algebra/Potenzreihe.md) von $e^{ at }$: $$\sum_{ k=0}^{\infty} \frac{a^{k}t^{k}}{k!}$$
+Mit diesem Ansatz kommt man auch  
