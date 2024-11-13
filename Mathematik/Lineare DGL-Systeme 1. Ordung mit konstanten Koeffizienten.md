@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - Matrix-Exponentialfunktion
+  - Matrix-Exponential
 keywords: 
 subject:
   - VL
@@ -62,11 +63,16 @@ $$
 
 Die Fundamentalmatrix ist also $e^{ tA }$.
 
-Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}=I$.
+Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}=\mathbb{1}$.
 
 > [!question] Warum?
-> $$ e^{0} = \sum_{k=0}^{\infty}\frac{0^k}{k!} = I $$
+> $$ e^{0} = \sum_{k=0}^{\infty}\frac{0^k}{k!} = \mathbb{1} $$
 > Da $0^{0}$ als 1 definiert ist, ergibt sich $1$ für $k=0$.
+> 
+> Alternative Begründung: $e^{0}=e^{A - A}=e^{A} \cdot e^{ -A }$
+> Da $A \cdot A^{-1} = \mathbb{1}$ ist gilt das auch für das Matrix-Exponential.
+
+
 
 
 
@@ -117,7 +123,7 @@ Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
 $$
 \begin{align}
 e^{ tA } &= e^{ \lambda t \mathbb{1} +t(A-\lambda \mathbb{1}) } = e^{ \lambda t \mathbb{1} } \cdot e^{ t(A-\lambda \mathbb{1}) } \\
-&= e^{ \lambda t } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k
+&= e^{ \lambda t \mathbb{1} } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k
 \end{align}
 $$
 
@@ -125,10 +131,17 @@ Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu de
 
 $$
 \begin{align}
-e^{ \lambda t } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k \cdot v = e^{ \lambda t\cdot \mathbb{1} }
+e^{ \lambda t \mathbb{1}} \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k \cdot v = e^{ \lambda t\cdot \mathbb{1} }
 \end{align}
 $$
 Falls $v$ ein Eigenvektor ist, dann gilt $(A-\lambda \mathbb{1})\cdot v=0$. 
-Also Bricht die Reihe nach dem ersten Glied ab (nur den $k=0$ Term)
 
+> [!success] Die Summe bricht nach $k=0$ ab da für die restlichen Glieder $(A-\lambda \mathbb{1})\cdot v=0$ gilt. 
+> Es zählt nur der erste Summand da $0^{0}$ als $\mathbb{1}$ definiert ist.
 
+Um nun eine Fundamentalmatrix zu erhalten, müssen wir genügend linear unabhängige Eigenvektoren finden. 
+
+Man verfolgt die Prozedur:
+
+1. Eigenwerte $\lambda$ von $A$ bestimmen
+2. Eigenvektoren $v$ zu den Eigenwerten bestimmen
