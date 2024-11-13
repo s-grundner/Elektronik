@@ -16,7 +16,7 @@ professor:
 
 # Eigenwerte, Eigenvektoren, Eigenräume
 
-> [!info]  
+> [!quote]  
 > Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
 > Eigenvektoren sind [Vektoren](Vektor.md), die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
 > diesen Skalierungsfaktor nennt man *Eigenwert*.
@@ -31,6 +31,9 @@ professor:
 > - Hauptträgheitsrichtungen eines starren Körpers, etc.
 > 
 > eine große Rolle.
+
+> [!important] Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $A$ zum **Eigenwert** $\lambda$,
+> falls $(A-\lambda \mathbb{1})\cdot v=0$ ist
 
 # Beispiele
 

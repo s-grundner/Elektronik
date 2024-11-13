@@ -11,6 +11,7 @@ created: 30. Oktober 2024
 professor:
 ---
  
+
 # Lineare [DGL-Systeme](Analysis/DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
 
 $$
@@ -65,7 +66,7 @@ Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}
 
 > [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
 
-Spezialfall: $B$ ist eine Diagonalmatrix
+### Spezialfall: $B$ ist eine Diagonalmatrix
 
 $$
 B = \begin{pmatrix}
@@ -95,6 +96,24 @@ $$
 e^{B} = \begin{pmatrix}
 e^{ \lambda_{1} } & 0 & 0 \\
 0 & \ddots & 0 \\
-0 & 0 & e^{ l }
+0 & 0 & e^{ \lambda_{m} }
 \end{pmatrix}
 $$
+
+Überlegungen zum Allgemeinen fall: Wir suchen Vektoren, die dazumultipliziert werden können um eine endliche Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren.
+
+
+
+### Allgemein
+
+Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
+
+$$
+\begin{align}
+e^{ tA } &= e^{ \lambda t \mathbb{1} +t(A-\lambda \mathbb{1}) } = e^{ \lambda t \mathbb{1} } \cdot e^{ t(A-\lambda \mathbb{1}) } \\
+&= e^{ \lambda t } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k
+\end{align}
+$$
+
+Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Eigenvektor.md):
+
