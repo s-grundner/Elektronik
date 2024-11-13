@@ -64,6 +64,12 @@ Die Fundamentalmatrix ist also $e^{ tA }$.
 
 Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}=I$.
 
+> [!question] Warum?
+> $$ e^{0} = \sum_{k=0}^{\infty}\frac{0^k}{k!} = I $$
+> Da $0^{0}$ als 1 definiert ist, ergibt sich $1$ für $k=0$.
+
+
+
 > [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
 
 ### Spezialfall: $B$ ist eine Diagonalmatrix
@@ -90,7 +96,7 @@ e^{B} = \sum_{k=0}^{\infty}\frac{B^k}{k!} = \sum_{k=0}^{\infty}\frac{1}{k!}
 0 & 0 & \lambda_{m}^k
 \end{pmatrix}
 $$
-Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente.
+Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente. 
 
 $$
 e^{B} = \begin{pmatrix}
@@ -115,5 +121,14 @@ e^{ tA } &= e^{ \lambda t \mathbb{1} +t(A-\lambda \mathbb{1}) } = e^{ \lambda t 
 \end{align}
 $$
 
-Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Eigenvektor.md):
+Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Eigenvektor.md): 
+
+$$
+\begin{align}
+e^{ \lambda t } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k \cdot v = e^{ \lambda t\cdot \mathbb{1} }
+\end{align}
+$$
+Falls $v$ ein Eigenvektor ist, dann gilt $(A-\lambda \mathbb{1})\cdot v=0$. 
+Also Bricht die Reihe nach dem ersten Glied ab (nur den $k=0$ Term)
+
 
