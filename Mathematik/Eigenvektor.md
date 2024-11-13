@@ -111,7 +111,7 @@ $$
 1 & -2 & 7-\lambda
 \end{pmatrix} = 0 \\ \\
 
-0&= (7-\lambda)(7-\lambda)(7-\lambda) + (-2)(-2)\cdot 2 \\
+0&= (7-\lambda)(1-\lambda)(7-\lambda) + (-2)(-2)\cdot 2 \\
 &- (1-\lambda)- (-2)(-2)(7- \lambda)\cdot 2 \\
 \end{align}
 $$
