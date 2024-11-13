@@ -33,8 +33,6 @@ Und zwar mit der Matrix-Exponentialfunktion. $a$ wird zur Matrix $A$.
 
 Die Potenz-Reihe der Exponentialfunktion kann auf Matrizen erweitert werden:
 
-
-
 $$
 e^{at} = \sum_{k=0}^{\infty}\frac{(at)^{k}}{k!}
 $$
@@ -71,10 +69,6 @@ Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}
 > 
 > Alternative Begründung: $e^{0}=e^{A - A}=e^{A} \cdot e^{ -A }$
 > Da $A \cdot A^{-1} = \mathbb{1}$ ist gilt das auch für das Matrix-Exponential.
-
-
-
-
 
 > [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
 
@@ -114,8 +108,6 @@ $$
 
 Überlegungen zum Allgemeinen fall: Wir suchen Vektoren, die dazumultipliziert werden können um eine endliche Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren.
 
-
-
 ### Allgemein
 
 Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
@@ -131,7 +123,7 @@ Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu de
 
 $$
 \begin{align}
-e^{ \lambda t \mathbb{1}} \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k \cdot v = e^{ \lambda t\cdot \mathbb{1} }
+e^{ \lambda t \mathbb{1}} \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k \cdot v = e^{ \lambda t\cdot \mathbb{1} } \cdot v
 \end{align}
 $$
 Falls $v$ ein Eigenvektor ist, dann gilt $(A-\lambda \mathbb{1})\cdot v=0$. 
