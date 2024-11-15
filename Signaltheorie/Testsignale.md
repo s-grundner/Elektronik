@@ -89,7 +89,7 @@ $$
 
 ## Reckteckfunktion
 
-Die diskrete [Rechteckfunktion](../xEDU/(SemB3)-WS24/SuS/VL/Rechteckfunktion.md) $\operatorname{rect}_N[n]$ wird, um Probleme bei der Skalierung als auch mit der Symmetrie zu vermeiden, folgendermaßen definiert:
+Die diskrete [Rechteckfunktion](Rechteckfunktion.md) $\operatorname{rect}_N[n]$ wird, um Probleme bei der Skalierung als auch mit der Symmetrie zu vermeiden, folgendermaßen definiert:
 
 $$
 \operatorname{rect}_N[n]= \begin{cases}1 & \text { für } 0 \leq n<N \\ 0 & \text { sonst }\end{cases}
