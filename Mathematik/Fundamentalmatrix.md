@@ -53,7 +53,7 @@ $$
 > \end{gathered}
 > $$
 > 
-> > [!success] für  $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)=\mathbb{1}_{m}$
+> > [!success] für $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)=\mathbb{1}_{m}$
 > 
 > Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden
 > 
@@ -68,7 +68,7 @@ $$
 > 
 > gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
 
-> [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die Lösung des [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md)  $x'(t)=A(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
+> [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die Lösung des [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md) $x'(t)=A(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
 $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]:=R(t)$$
 
 > [!success] Hier ist gezeigt, dass $R(t)$ tatsächlich die eindeutige Lösung des [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md) ist:

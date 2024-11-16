@@ -22,14 +22,14 @@ jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }
 > [!quote] Lineare DGL-Systeme 1. Ordnung
 >Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../Physik/Federkraft.md)-Dämpfer Systeme der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
-> [!important] ... Also durch Systeme der Form
+> [!important] … Also durch Systeme der Form
 > 
 > $$x^{\prime}=A(t) x+b(t) \tag{AWP (1.1)}$$
 
 > [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
-> > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)...
-> > ...Sind vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) möglich.
+> > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)…
+> > …Sind vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) möglich.
 > > - siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 
 $$
@@ -58,7 +58,7 @@ $$
 Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
 
 - $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$ (also $f: I \to \mathbb{R}$ )
-- $K \subseteq I$ ... $K$ ist ein abgeschlossenes Teilintervall
+- $K \subseteq I$ … $K$ ist ein abgeschlossenes Teilintervall
 
 > [!quote] Nach der globalen Version des Satz von Picard Lindelöf hat also ein Lineares DGL-System für $\forall t\in I$ eine Eindeutige Lösung
 
@@ -97,7 +97,7 @@ $$
 \end{align}
 $$
 
-Die differenz zweier Lösungen der inhomogenen Gleichugn  $x'= A(t)x+b(t)$ ist die Lösung der homogenen Gleichung $x'=A(t)x$.
+Die differenz zweier Lösungen der inhomogenen Gleichugn $x'= A(t)x+b(t)$ ist die Lösung der homogenen Gleichung $x'=A(t)x$.
 
 Das heißt, jede Lösung der inhomogenen Gleichung kann man schreiben als Summe **einer** fixen partikulären Lösung $x_{p}$ von $x'=A(t)x+b(t)$ und einer Lösung $x_{h}$ der homogenen Gleichung.
 
@@ -105,7 +105,7 @@ $$
 x_{2}= \underbrace{ x_{1} }_{ x_{p} }+(\underbrace{ x_{2}-x_{1} }_{ x_{h} })
 $$
 
-Daraus folgt,  wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](Algebra/Lineare%20Abhängigkeit.md)
+Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](Algebra/Lineare%20Abhängigkeit.md)
 
 
 > [!important] Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
