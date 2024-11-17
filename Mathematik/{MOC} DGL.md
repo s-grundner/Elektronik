@@ -31,6 +31,7 @@ created: 14th March 2022
 > >
 > >
 > >
+> >
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
