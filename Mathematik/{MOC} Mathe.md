@@ -68,7 +68,7 @@ SORT file.cday DESC
  - [Potenzreihe](Potenzreihe.md)
  - [Taylorreihe](Taylorreihe.md)
  - [Fourier Reihe](Fourier%20Reihe.md)
- - [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
+ - [lineare DGL 1. Ordnung](Analysis/lineare%20DGL%201.%20Ordnung.md)
  - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
  - [Schwingkreise](../Physik/Schwingkreise.md)
  - [Fourier Transformation](Fourier%20Transformation.md)

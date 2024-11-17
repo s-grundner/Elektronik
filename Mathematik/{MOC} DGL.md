@@ -26,7 +26,9 @@ created: 14th March 2022
 > | Linear                | Nichtlinear                  |
 > | homogen               | inhomogen                    |
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
-> 
+> >
+> >
+> >
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
@@ -53,10 +55,9 @@ $$
 x\left(t ; t_0, x_0\right)
 $$
 
-
 ## Map of Content
 
-- [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md)
+- [lineare DGL 1. Ordnung](Analysis/lineare%20DGL%201.%20Ordnung.md)
 - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
 - [DGL-System](Analysis/DGL-System.md)
 

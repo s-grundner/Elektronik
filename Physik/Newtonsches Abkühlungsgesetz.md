@@ -26,7 +26,7 @@ Der Temperaturkoeffizient $k$ in $s^{-1}$ wird bei der Abkühlung des Objektes n
 
 ## Herleitung des Temperaturverlaufs $T(t)$
 
-Die [lineare DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md) löst sich wiefolgt:
+Die [lineare DGL 1. Ordnung](../Mathematik/Analysis/lineare%20DGL%201.%20Ordnung.md) löst sich wiefolgt:
 
 $$
 \begin{align*}
@@ -35,7 +35,7 @@ $$
 \end{align*}
 $$
 
-Der homogene Teil wird mittels dem [Exponentialansatz](lineare%20DGL%201.%20Ordnung.md) gelöst:
+Der homogene Teil wird mittels dem [Exponentialansatz](../Mathematik/Analysis/lineare%20DGL%201.%20Ordnung.md) gelöst:
 
 $$
 \begin{align*}
@@ -43,6 +43,6 @@ $$
 \end{align*}
 $$
 
-Der Lösung der inhomogenen DGL wird anhand des [](lineare%20DGL%201.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%201%20Ordnung|Störterms) $-k\cdot T_{umgebung}$ ermittelt:
+Der Lösung der inhomogenen DGL wird anhand des [](../Mathematik/Analysis/lineare%20DGL%201.%20Ordnung.md#Lösung%20der%20inhomogenen%20DGL%201%20Ordnung|Störterms) $-k\cdot T_{umgebung}$ ermittelt:
 
 # Tags

@@ -84,16 +84,10 @@ $\omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
 
 ### Lösung der *inhomogenen* DGL 2. Ordnung
 
-Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](../{MOC}%20DGL.md) hat. 
+Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](../Analysis/lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](../{MOC}%20DGL.md) hat. 
 
 Die allgemeine Lösung $y$ der inhomogenen Gleichung ist die Summe *("Überlagerung")* der allgemeinen Lösung $y_{h}$ der zugehörigen homogenen Gleichung und irgendeiner partikulären *(speziellen)* Lösung $y_{p}$ der inhomogenen Gleichung: **$y=y_{p}+y_{h}$**. 
 
-Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL](../{MOC}%20DGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist. 
+Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL](../{MOC}%20DGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist.
 
-| Störterm                                                                                                       | Lösunsansatz                                                                                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| $s(x)=A$ (konstante Funktion)                                                                                  | $y_{p}=a$                                                                                                                                                                                                                |
-| $s(x)=A\cdot x+B$                                                                                              | $y_{p}=a\cdot x+b$                                                                                                                                                                                                       |
-| $s(x)=A_{n}\cdot x^{n}+A_{n-1}\cdot x^{n-1}+\ldots+A_{1}\cdot x+A_{0}$                                         | $y_p=a_{n}\cdot x^{n}+a_{n-1}\cdot x^{n-1}+…+a_{1}\cdot x+a_{0}$                                                                                                                                                       |
-| $s(x)=A\cdot\sin(\omega x)$<br>$s(x)=A\cdot\cos(\omega x)$<br>$s(x)=A\cdot\sin(\omega x)+B\cdot\cos(\omega x)$ | $y_{p}=a\cdot\sin(\omega x)+b\cdot\cos(\omega x)$ oder $y_{p}=a\cdot\sin(\omega x+\varphi)$<br>Wenn $j\omega$ Lösung der charakteristischen Gleichung ist: <br>$y_{p}=x\cdot[a\cdot\sin(\omega x)+b\cdot\cos(\omega x)]$ |
-| $s(x)=A\cdot e^{bx}$                                                                                           | $y_{p}=a\cdot e^{bx}$ (wenn $b$ keine Lösung der charakteristischen Gleichung ist)                                                                                                                                       |
+- [DGL Störterm-Ansätze](../Analysis/DGL%20Störterm-Ansätze.md)
