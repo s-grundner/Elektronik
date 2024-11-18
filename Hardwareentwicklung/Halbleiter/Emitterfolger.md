@@ -13,6 +13,8 @@ created: 21st November 2022
 
 # Emitterfolger / Kollektorschaltung
 
+![](assets/Pasted%20image%2020241118013237.png)
+
 > [!warning] Anders als bei der [Emitterschaltung](Kollektorfolger.md) gibt es **keine** Phasenverschiebung.
 
 
