@@ -66,7 +66,7 @@ Durch die Dimensionierung der Beschaltung wird der Arbeitspunkt der Transistorsc
 
 Der Arbeitspunkt
 - legt die Großsignalgrößen $I_{\mathrm{B}, 0}, U_{\mathrm{BE}, 0}, I_{\mathrm{C}, 0}$ und $U_{\mathrm{CE}, 0}$ sowie die
-- Kleinsignalgrößen $r_{\mathrm{BE}}, S$ und $g_{\mathrm{EA}}$ fest,
+- [[BJT Kleinsignalverhalten]] $r_{\mathrm{BE}}, S$ und $g_{\mathrm{EA}}$ fest,
 - bestimmt den maximal möglichen Aussteuerbereich,
 - soll für große Aussteueramplituden in die Mitte des Aussteuerbereiches $\left(U_{\mathrm{CE}, \min } \ldots U_0\right)$ gelegt werden.
 
