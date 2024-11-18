@@ -107,6 +107,8 @@ $$
 
 ## Betriebsparameter
 
+- [[Betriebsparameter]] von Verstärkern
+
 ## Betriebsarten
 
 - [BJT als Schalter](BJT%20als%20Schalter.md)
