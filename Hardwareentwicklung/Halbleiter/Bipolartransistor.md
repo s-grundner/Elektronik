@@ -1,7 +1,5 @@
 ---
 tags:
-  - Baugruppen/Schalter
-  - Baugruppen/Verstärker
   - Halbleiter/BJT
 aliases:
   - Bipolartransistor
@@ -9,14 +7,15 @@ aliases:
   - BJT
   - bipolar junction transistor
 subject:
-  - hwe
-source: []
+  - Einführung Elektronik
+  - VL
 created: 24th March 2022
 semester: WS24
 professor:
   - Christian Diskus
   - Bernhard Jakoby
   - Siegbert Schrempf
+  - Michael Offenhuber
 ---
 
 # Bipolar-Junction-Transistor
