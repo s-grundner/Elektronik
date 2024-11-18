@@ -18,52 +18,39 @@ Beim Kleinsignalverhalten von BJT wird die Transistorgleichung am Arbeitspunkt l
 
 ![](assets/Pasted%20image%2020241118022427.png)
 
-## Eingangskennnlinie
 
-![400](assets/Pasted%20image%2020241118022635.png)
+![](assets/Pasted%20image%2020241118024435.png)
 
-$$
-\begin{array}
-
-\end{array}
-
-\begin{aligned}[c]
-\left.\frac{\partial I_{\mathrm{B}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}&=\frac{1}{r_{\mathrm{BE}}} \approx \frac{\Delta I_{\mathrm{B}}}{\Delta U_{\mathrm{BE}}} \\ \\
-
-\Rightarrow r_{\mathrm{BE}} & =\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}} \\
-& =\underbrace{\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{C}}}\right|_{\mathrm{AP}}}_{\frac{1}{S}} \cdot\underbrace{\left.\frac{\partial I_{\mathrm{C}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}}}_{\approx B}
-\\ \\
-&\boxed{ r_{\mathrm{BE}}\approx\frac{B}{S}}
-\end{aligned}
-
-\begin{aligned}[c]
-\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{CE}}}\right|_{\mathrm{AP}} & =g_{\mathrm{EA}} \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{CE}}} \\
-& =\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{CE}, 0}+U_{\mathrm{EA}}}
-\\ \\
-&\boxed{g_{\mathrm{EA}}\approx\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{CE}, 0}+U_{\mathrm{EA}}}}
-\end{aligned}
-$$
-
-## Transferkennlinie
-
-![400](assets/Pasted%20image%2020241118022652.png)
+![](assets/Pasted%20image%2020241118024512.png)
 
 $$
 \begin{aligned}
-\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}} & =S \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{BE}}} \\
-& =\frac{1}{U_{\mathrm{T}}} \underbrace{I_{\mathrm{S}} e^{\frac{U_{\mathrm{BE}, 0}}{U_{\mathrm{T}}}}}_{\approx I_{\mathrm{C}, 0}} \approx \frac{I_{\mathrm{C}, 0}}{U_{\mathrm{T}}}
+\left.\frac{\partial I_{\mathrm{B}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}=\frac{1}{r_{\mathrm{BE}}} \approx \frac{\Delta I_{\mathrm{B}}}{\Delta U_{\mathrm{BE}}}
+\end{aligned}
+\qquad
+\begin{aligned}
+\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}=S \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{BE}}}
+\end{aligned}
+\qquad
+\begin{aligned}
+\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{CE}}}\right|_{\mathrm{AP}}=g_{\mathrm{EA}} \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{CE}}}
 \end{aligned}
 $$
 
+Diese Kleinsignal-Größen heißen:
+
+$r_{B E}\dots$ Basis-Emitter-Kleinsignalwiderstand in $\Omega$
+$S\dots$ Steilheit in S (Siemens)
+$g_{E A}\dots$ Early-Leitwert in S
+
+Die Kleinsignal-Stromverstärkung $\beta=\frac{\partial I_C}{\partial I_B}$ ist wegen der fast linearen Stromsteuerkennlinie näherungsweise gleich der Gleichstromverstärkung $\beta \approx B$. In Datenblättern wird $B$ oft $h_{21}$ oder $h_{F E}$ genannt. Dabei bedeutet $h$ Element der Hybridmatrix, $F$ Betrieb in Vorwärtsrichtung (forward) und E Emitterschaltung (eine der Grundschaltungen, wird später erklärt). Die Kleinsignalspannungen und -ströme werden im Folgenden klein geschrieben
+
 $$
-\boxed{S\approx\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{T}}}}
+\Delta U_{\mathrm{BE}}=u_{\mathrm{BE}} \quad \Delta I_{\mathrm{B}}=i_{\mathrm{B}} \quad \Delta U_{\mathrm{CE}}=u_{\mathrm{CE}} \quad \Delta I_{\mathrm{C}}=i_{\mathrm{C}}
 $$
 
-## Ausgangskennlinie
-
-![400](assets/Pasted%20image%2020241118022711.png)
-
+und werden durch folgende Zusammenhänge im KSESB miteinander verknüpft:
 
 $$
-
+u_{\mathrm{BE}}=r_{\mathrm{BE}} i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime} \approx S u_{\mathrm{BE}}=\beta i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime \prime}=g_{\mathrm{EA}} u_{\mathrm{CE}} \quad i_{\mathrm{C}}=i_{\mathrm{C}}^{\prime}+i_{\mathrm{C}}^{\prime \prime} \quad i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
 $$
