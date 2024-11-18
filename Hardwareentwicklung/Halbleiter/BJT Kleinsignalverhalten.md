@@ -16,16 +16,13 @@ professor:
 
 Beim Kleinsignalverhalten von BJT wird die Transistorgleichung am Arbeitspunkt linearisiert.
 
-![](assets/Pasted%20image%2020241118022427.png)
+![500](assets/Pasted%20image%2020241118022427.png)
 
 
 ![](assets/Pasted%20image%2020241118024435.png)
 
-![](assets/Pasted%20image%2020241118024512.png)
-
 $$
-\begin{array}[b]{r|r|r}
-
+\begin{array}[b]{c|c|c}
 \begin{aligned}
 \left.\frac{\partial I_{\mathrm{B}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}&=\frac{1}{r_{\mathrm{BE}}} \approx \frac{\Delta I_{\mathrm{B}}}{\Delta U_{\mathrm{BE}}}\\ \\
 \Rightarrow r_{\mathrm{BE}} & =\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}} \\
@@ -40,16 +37,11 @@ $$
 \begin{aligned}
 \left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{CE}}}\right|_{\mathrm{AP}}&=g_{\mathrm{EA}} \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{CE}}} \\ \\
 &=\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{CE}, 0}+U_{\mathrm{EA}}} \\ \\ \\ \\
-\end{aligned}
-\end{array}
-
-$$
-
-$$
-\begin{array}[t]{ccc}
-\boxed{ r_{\mathrm{BE}} } & \ & 
+\end{aligned} \\ \\
+\boxed{ r_{\mathrm{BE}} \approx \frac{B}{S} } & \boxed{ S\approx \frac{I_{C,0}}{U_{T}} } & \boxed{ g_{\mathrm{EA}}= \frac{I_{C,0}}{U_{CE,0}+U_{EA}} } 
 \end{array}
 $$
+
 
 Diese Kleinsignal-Größen heißen:
 
@@ -67,4 +59,4 @@ und werden durch folgende Zusammenhänge im KSESB miteinander verknüpft:
 
 $$
 u_{\mathrm{BE}}=r_{\mathrm{BE}} i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime} \approx S u_{\mathrm{BE}}=\beta i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime \prime}=g_{\mathrm{EA}} u_{\mathrm{CE}} \quad i_{\mathrm{C}}=i_{\mathrm{C}}^{\prime}+i_{\mathrm{C}}^{\prime \prime} \quad i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
-$
+$$
