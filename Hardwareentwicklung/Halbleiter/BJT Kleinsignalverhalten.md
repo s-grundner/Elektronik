@@ -17,7 +17,7 @@ professor:
 # Kleinsignalverhalten von BJT
 
 ```tikz
-\usepackage[european, straightvoltages]{circuitikz}
+\usepackage[european]{circuitikz}
 \usepackage{amsmath}
 
 \begin{document}
@@ -32,20 +32,23 @@ professor:
 \draw (-2,0) to[R, l=$r_{BE}$] (-2,2);
 
 \draw (0,2) to[short, i<=$i_C'$] (2,2);
-\draw (2,0) to[short] (0,0);
+\draw (2,0) to[short, -*] (0,0);
 \draw (0,0) to[short] (-2,0);
 
-\draw (-1, 0) to[short, -o, i=$i_E$] (-1, -1);
+\draw (-1, 0) to[short, *-o, i=$i_E$] (-1, -1);
 \draw (-2,2) to[short, -o] (-4,2);
-\draw (4,2) to[short, o-, i_=$i_C$] (2,2);
+\draw (4,2) to[short, o-*, i_=$i_C$] (2,2);
 
 \node[right] at (4, 2) {$C$};
 \node[left] at (-4, 2) {$B$};
 \node[below] at (-1, -1) {$E$};
 
-\node[circ] at (-1, 0) {};
-\node[circ] at (2, 2) {};
-\node[circ] at (0, 0) {};
+
+% Voltage Arrows
+
+\draw (4, 2) to[open, v^=$u_{CE}$] (-1, -1);
+\draw (-4, 2) to[open, v^=$u_{BE}$, voltage/bump b=-5] (-1, -1);
+
 
 \end{circuitikz}
 \end{document}
