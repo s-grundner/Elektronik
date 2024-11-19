@@ -88,21 +88,23 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 \newcommand{\IBAP}{\IB{\UBEAP}}
 \newcommand{\ICAP}{\IC{\UBEAP}}
 
+\newcommand{}{}
 
 % Eingangskennlinie
 \begin{scope}
+\newcommand{\Ymax}{0.000015}
 \begin{axis}[
     axis lines = left,
     xlabel = $U_{BE}$,
-    ylabel = $I_{B,0}$,
+    ylabel = $I_{B}$,
     xtick={\UBEAP}, ytick={\IBAP},
     xticklabels={$U_{BE,0}$},
     yticklabels={$I_{B,0}$},
     ymin = 0,
-    ymax = {\IBAP*10},
+    ymax = \IBAP*3,
     xmin = 0,
     xmax = 1.1,
-    restrict y to domain=0:0.001,
+    restrict y to domain=0:{\Ymax},
     x = 3cm,
     title = $\Large\text{Eingangskennlinie}$
 ]
@@ -119,6 +121,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 
 % Transferkennlinie
 \begin{scope}[xshift=5cm]
+\newcommand{\Ymax}{0.0015}
 \begin{axis}[
     axis lines = left,
     xlabel = $U_{BE}$,
@@ -127,10 +130,10 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     xticklabels={$U_{BE,0}$},
     yticklabels={$I_{C,0}$},
     ymin = 0,
-    ymax = {0.1},
+    ymax = {\ICAP*3},
     xmin = 0,
     xmax = 1.1,
-    restrict y to domain=0:{0.1},
+    restrict y to domain=0:{\Ymax},
     x = 3cm,
     title = $\Large\text{Transferkennlinie}$
 ]
@@ -157,14 +160,14 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     axis lines=middle,
     enlarge x limits=false, enlarge y limits=false,
     title = $\Large\text{Ausgangskennlinie}$
-    ]
+]
 
-    % Plot for different I_B values
-    
-    \addplot[domain=0:10, samples=100, thick, blue] {0.5*(1-exp(-3*x))}; \addlegendentry{$I_B = 0.5$ mA}
-    \addplot[domain=0:10, samples=100, thick, red] {1.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 1.0$ mA}
-    \addplot[domain=0:10, samples=100, thick, green] {2.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 2.0$ mA}
-    \addplot[domain=0:10, samples=100, thick, orange] {4.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 4.0$ mA}
+% Plot for different I_B values
+
+\addplot[domain=0:10, samples=100, thick, blue] {0.5*(1-exp(-3*x))}; \addlegendentry{$I_B = 0.5$ mA}
+\addplot[domain=0:10, samples=100, thick, red] {1.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 1.0$ mA}
+\addplot[domain=0:10, samples=100, thick, green] {2.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 2.0$ mA}
+\addplot[domain=0:10, samples=100, thick, orange] {4.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 4.0$ mA}
 
 \end{axis}
 \end{scope}
