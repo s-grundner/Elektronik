@@ -105,6 +105,12 @@ $$
 
 ![](assets/{9C735800-443E-4EBF-BBDF-2F3886884455}.png)
 
+## Kleinsignalverhalten
+
+
+
+- [Kleinsignalverhalten](BJT%20Kleinsignalverhalten.md) des BJT
+
 ## Betriebsparameter
 
 - [[Betriebsparameter]] von Verstärkern

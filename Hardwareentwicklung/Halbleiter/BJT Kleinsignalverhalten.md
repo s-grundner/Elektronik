@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - tikz/circuitikz
 aliases:
   - Kleinsignalverhalten
   - KSESB
@@ -25,20 +26,22 @@ professor:
 % Current Source
 
 \draw (0,0) to[I, l=$S\cdot u_{BE}$] (0,2);
-\draw (0,2) to[short] (2,2);
 \draw (2,2) to[R, l=$g_{EA}$] (2,0);
-\draw (2,0) to[short] (0,0);
-\draw (2,0) to[short] (4,0);
-\draw (0,0) to[short] (-2,0);
 \draw (-2,0) to[R, l=$r_{BE}$] (-2,2);
+
+\draw (0,2) to[short] (2,2);
+\draw (2,0) to[short] (0,0);
+\draw (2,2) to[short] (4,2);
+\draw (0,0) to[short] (-2,0);
 \draw (-2,2) to[short] (-4,2);
+
 
 
 \end{circuitikz}
 \end{document}
 ```
 
-Beim Kleinsignalverhalten von BJT wird die Transistorgleichung am Arbeitspunkt linearisiert.
+Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgleichung am Arbeitspunkt linearisiert.
 
 ![500](assets/Pasted%20image%2020241118022427.png)
 
@@ -92,3 +95,9 @@ und werden durch folgende Zusammenhänge im KSESB miteinander verknüpft:
 $$
 u_{\mathrm{BE}}=r_{\mathrm{BE}} i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime} \approx S u_{\mathrm{BE}}=\beta i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime \prime}=g_{\mathrm{EA}} u_{\mathrm{CE}} \quad i_{\mathrm{C}}=i_{\mathrm{C}}^{\prime}+i_{\mathrm{C}}^{\prime \prime} \quad i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
 $$
+
+## Praktische Bestimmung von KS-Parametern
+
+> [!info] Die Kleinsignalparameter können entsprechend ihrer Definition als Steigung der Kennlinien im AP bestimmt werden.
+> Glücklicherweise sind die Zusammenhänge beim BJT so einfach, dass die Parameter sehr viel einfacher aus dem **Kollektorstrom**, der $CE$-**Spannung** im AP und den üblichen Transistorkennwerten bestimmt werden können.
+
