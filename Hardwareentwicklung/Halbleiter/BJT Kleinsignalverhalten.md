@@ -58,6 +58,44 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 
 
 #tikz/todo:
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+
+% EingangsKennlinie
+
+\begin{axis}[
+    axis lines = left,
+    xlabel = $u_{BE}$,
+    ylabel = $i_{B}$,
+    ymin = 0,
+    ymax = 1,
+    xmin = 0,
+    xmax = 0.8,
+]
+%Below the red parabola is defined
+\addplot [
+    domain=0:0.7, 
+    samples=100, 
+    color=red,
+]
+{0.01*(exp(x)-1)};
+
+\end{axis}
+
+
+\end{tikzpicture}
+
+\end{document}
+```
+
 ![invert_dark](assets/KS_KL.png)
 
 $$
