@@ -88,7 +88,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 \newcommand{\IBAP}{\IB{\UBEAP}}
 \newcommand{\ICAP}{\IC{\UBEAP}}
 
-\newcommand{}{}
+\newcommand{\rBE}{\UT/\IBAP}
 
 % Eingangskennlinie
 \begin{scope}
@@ -115,6 +115,13 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     color=red,
 ]
 {\IB{x}};
+
+\addplot[mark=*, mark size=1.5pt, color=red] coordinates {(\UBEAP, \IBAP)};
+
+\addplot [
+    color=green,
+]
+{\IBAP};
 
 \end{axis}
 \end{scope}
