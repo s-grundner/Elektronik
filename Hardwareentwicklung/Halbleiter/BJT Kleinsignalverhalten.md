@@ -54,7 +54,7 @@ professor:
 Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgleichung am Arbeitspunkt linearisiert.
 
 
-![](assets/Pasted%20image%2020241118024435.png)
+![invert_dark](assets/KS_KL.png)
 
 $$
 \begin{array}[b]{|c|c|c}
@@ -86,11 +86,12 @@ $$
 $$
 
 
-Diese Kleinsignal-Größen heißen:
-
-$r_{B E}\dots$ Basis-Emitter-Kleinsignalwiderstand in $\Omega$
-$S\dots$ Steilheit in S (Siemens)
-$g_{E A}\dots$ Early-Leitwert in S
+> [!important] Diese Kleinsignal-Größen heißen:
+> 
+> $r_{B E}\dots$ Basis-Emitter-Kleinsignalwiderstand in $\Omega$
+> $S\dots$ Steilheit in S (Siemens)
+> $g_{E A}\dots$ Early-Leitwert in S
+> 
 
 Die Kleinsignal-Stromverstärkung $\beta=\frac{\partial I_C}{\partial I_B}$ ist wegen der fast linearen Stromsteuerkennlinie näherungsweise gleich der Gleichstromverstärkung $\beta \approx B$. In Datenblättern wird $B$ oft $h_{21}$ oder $h_{F E}$ genannt. Dabei bedeutet $h$ Element der Hybridmatrix, $F$ Betrieb in Vorwärtsrichtung (forward) und E Emitterschaltung (eine der Grundschaltungen, wird später erklärt). Die Kleinsignalspannungen und -ströme werden im Folgenden klein geschrieben
 
@@ -103,9 +104,3 @@ und werden durch folgende Zusammenhänge im KSESB miteinander verknüpft:
 $$
 u_{\mathrm{BE}}=r_{\mathrm{BE}} i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime} \approx S u_{\mathrm{BE}}=\beta i_{\mathrm{B}} \quad i_{\mathrm{C}}^{\prime \prime}=g_{\mathrm{EA}} u_{\mathrm{CE}} \quad i_{\mathrm{C}}=i_{\mathrm{C}}^{\prime}+i_{\mathrm{C}}^{\prime \prime} \quad i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
 $$
-
-## Praktische Bestimmung von KS-Parametern
-
-> [!info] Die Kleinsignalparameter können entsprechend ihrer Definition als Steigung der Kennlinien im AP bestimmt werden.
-> Glücklicherweise sind die Zusammenhänge beim BJT so einfach, dass die Parameter sehr viel einfacher aus dem **Kollektorstrom**, der $CE$-**Spannung** im AP und den üblichen Transistorkennwerten bestimmt werden können.
-
