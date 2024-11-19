@@ -1,6 +1,6 @@
 # Tikz
 
-## Pgfplots examples
+## Pgfplots Examples
 
 ```tikz
 \usepackage{pgfplots}
@@ -37,5 +37,5 @@ LIST FROM #tikz/circuitikz
 # Convert to Tikz Pic
 
 ```dataview
-LIST FROM #tikz
+LIST FROM #tikz/todo
 ```

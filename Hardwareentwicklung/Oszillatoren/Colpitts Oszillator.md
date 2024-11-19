@@ -35,12 +35,12 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 \begin{document}
 
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, font=\Large]
 
 % Paths, nodes and wires:
 \node[npn] at (5, 6) {};
 
-\draw (3, 6) to[R={$R_1$}] (3, 9);
+\draw (3, 6) to[R={$R_1$}, *-] (3, 9);
 \draw (3, 3) to[R={$R_2$}] (3, 6);
 \draw (5, 3.75) to[R={$R_E$}] (5, 5.23);
 
@@ -48,7 +48,7 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 \draw (7, 3.75) to[C={$C_E$}] (7, 5.25);
 \draw (11, 5) to[C={$C_1$}] (11, 7);
 \draw (11, 3) to[C={$C_2$}] (11, 5);
-\draw (12, 7) to[C={$C_{\text{out}}$}] (14, 7);
+\draw (12, 7) to[C={$C_{\text{out}}$}, -o] (14, 7);
 
 \draw (5, 6.77) to[L={$L_{\text{RFC}}$}] (5, 8.25);
 \draw (9, 2) to[L={$L$}] (9, 7);
@@ -72,7 +72,6 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 \node[ocirc] at (14, 7) {};
 \node[ocirc] at (14, 5) {};
 
-\node[circ] at (3, 6) {};
 \node[circ] at (9, 7) {};
 \node[circ] at (11, 7) {};
 \node[circ] at (11, 5) {};
