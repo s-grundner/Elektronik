@@ -12,4 +12,13 @@ created: 21st November 2022
 
 # Zweitor
 
+Ein Vierpol kann, wenn er linear ist, durch vier Größen beschrieben werden.
+
+- Hybridmatrix
+- Übertragungsmatrix
+- Admittanzmatrix
+- Impedanzmatrix
+- Kettenmatrix
+
+
 # Quellen

@@ -14,6 +14,30 @@ professor:
  
 # Kleinsignalverhalten von BJT
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick]
+% Begin Schematic
+
+% Current Source
+
+\draw (0,0) to[I, l=$S\cdot u_{BE}$] (0,2);
+\draw (0,2) to[short] (2,2);
+\draw (2,2) to[R, l=$g_{EA}$] (2,0);
+\draw (2,0) to[short] (0,0);
+\draw (2,0) to[short] (4,0);
+\draw (0,0) to[short] (-2,0);
+\draw (-2,0) to[R, l=$r_{BE}$] (-2,2);
+\draw (-2,2) to[short] (-4,2);
+
+
+\end{circuitikz}
+\end{document}
+```
+
 Beim Kleinsignalverhalten von BJT wird die Transistorgleichung am Arbeitspunkt linearisiert.
 
 ![500](assets/Pasted%20image%2020241118022427.png)
@@ -22,7 +46,15 @@ Beim Kleinsignalverhalten von BJT wird die Transistorgleichung am Arbeitspunkt l
 ![](assets/Pasted%20image%2020241118024435.png)
 
 $$
-\begin{array}[b]{c|c|c}
+\begin{array}[b]{|c|c|c}
+\text{Linearisierung der} &
+\text{Linearisierung der} &
+\text{Linearisierung des} &
+\\
+\text{Eingangskennlinie} &
+\text{Transferkennlinie} &
+\text{Ausgangskennlinienfelds} &
+\\
 \begin{aligned}
 \left.\frac{\partial I_{\mathrm{B}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}&=\frac{1}{r_{\mathrm{BE}}} \approx \frac{\Delta I_{\mathrm{B}}}{\Delta U_{\mathrm{BE}}}\\ \\
 \Rightarrow r_{\mathrm{BE}} & =\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}} \\
