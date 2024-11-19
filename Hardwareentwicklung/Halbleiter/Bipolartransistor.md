@@ -82,14 +82,14 @@ Der Arbeitspunkt
 Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 
 > [!important] [[Stromeinstellung]]: Transistor mit Basisvorwiderstand
-> $I_{B}$ ist *Konstant*
+> $I_{B}$ wird eingeprägt (ist *Konstant*)
 > - Beseitigt Temparaturinstabilität ✅
 > - Empfindlich gegenüber Verstärkungsabweichungen ❌
 > 
 > > [!info] **Weiterführend**: AP-Einstellung mit Spannungsgesteuerte Stromgegenkopplung
 
 > [!important] [[Spannungseinstellung]]: Transistor mit Basisspannungsteiler
-> $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
+> $U_{BE}$ wird eingeprägt (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
 > - Unempfindlich gegenüber Verstärkungsabweichungen ✅
 > - Temparatur instabil ❌
 > - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen ❌
@@ -107,7 +107,9 @@ $$
 
 ## Kleinsignalverhalten
 
-
+ 
+> [!warning] Kleinsignalgrößen hängen vom Arbeitspunkt ab.
+> Um Die Kleinsignalgrößen nutzen zu können, wird die Transistorgleichung am **Arbeitspunkt** linearisiert. 
 
 - [Kleinsignalverhalten](BJT%20Kleinsignalverhalten.md) des BJT
 
