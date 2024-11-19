@@ -21,22 +21,23 @@ professor:
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, scale=1.5]
+
 % Begin Schematic
 
 % Current Source
 
 \draw (0,0) to[I, i_<=$S\cdot u_{BE}$] (0,2);
-\draw (2,2) to[R, l=$g_{EA}$, i<=$i_C''$] (2,0);
+\draw (2,0) to[R, l=$g_{EA}$, i_<=$i_C''$] (2,2);
 \draw (-2,0) to[R, l=$r_{BE}$] (-2,2);
 
 \draw (0,2) to[short, i<=$i_C'$] (2,2);
 \draw (2,0) to[short] (0,0);
 \draw (0,0) to[short] (-2,0);
 
-\draw (-1, 0) to[short, -o] (-1, -1);
+\draw (-1, 0) to[short, -o, i=$i_E$] (-1, -1);
 \draw (-2,2) to[short, -o] (-4,2);
-\draw (4,2) to[short, o-] (2,2);
+\draw (4,2) to[short, o-, i_=$i_C$] (2,2);
 
 \node[right] at (4, 2) {$C$};
 \node[left] at (-4, 2) {$B$};
