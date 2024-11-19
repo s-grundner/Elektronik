@@ -25,8 +25,6 @@ professor:
 
 % Begin Schematic
 
-% Current Source
-
 \draw (0,0) to[I, i_<=$S\cdot u_{BE}$] (0,2);
 \draw (2,0) to[R, l=$g_{EA}$, i_<=$i_C''$] (2,2);
 \draw (-2,0) to[R, l=$r_{BE}$] (-2,2);
@@ -46,17 +44,14 @@ professor:
 
 % Voltage Arrows
 
-\draw (4, 2) to[open, v^=$u_{CE}$] (-1, -1);
-\draw (-4, 2) to[open, v^=$u_{BE}$, voltage/bump b=-5] (-1, -1);
-
+\draw (4, 2) to[open, v^=$u_{CE}$, voltage/bump b=7] (-1, -1);
+\draw (-4, 2) to[open, v=$u_{BE}$, voltage/bump b=5] (-1, -1);
 
 \end{circuitikz}
 \end{document}
 ```
 
 Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgleichung am Arbeitspunkt linearisiert.
-
-![500](assets/Pasted%20image%2020241118022427.png)
 
 
 ![](assets/Pasted%20image%2020241118024435.png)

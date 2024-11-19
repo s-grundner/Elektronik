@@ -2,3 +2,10 @@ mjx-container[display="true"] {
 	text-align: center !important;
 	color: #FFDAA5;
 }
+
+For light mode:
+
+.theme mjx-container[display="true"] {
+	text-align: center !important;
+	color: #000000;
+}
