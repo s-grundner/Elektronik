@@ -118,7 +118,13 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 
 \addplot[mark=*, mark size=1.5pt, color=red] coordinates {(\UBEAP, \IBAP)};
 
-\addplot[color=blue]{x/\rBE+\IBAP-\UBEAP/\rBE};
+\addplot[
+    restrict y to domain=0:{\Ymax},
+    color=blue,
+    domain=0:1,
+    samples=100
+]
+{\IBAP+x*0.000015};
 
 \end{axis}
 \end{scope}
