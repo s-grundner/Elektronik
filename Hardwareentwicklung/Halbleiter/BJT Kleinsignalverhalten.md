@@ -71,12 +71,18 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 
 % EingangsKennlinie
 
+\newcommand{\EKL}[1]{0.05*(exp((#1)*8)-1)}
+\newcommand{\TKL}[1]{0.05*(exp((#1)*8)-1)}
+\newcommand{\AKL}[1]{0.05*(exp((#1)*8)-1)}
+
+
 \begin{scope}
 \begin{axis}[
     axis lines = left,
-    xlabel = $U_{BE,0}$,
+    xlabel = $U_{BE}$,
     ylabel = $I_{B,0}$,
     xtick={0.7},
+    xticklabels={$U_{BE,0}$},
     ymin = 0,
     ymax = 100,
     xmin = 0,
@@ -85,13 +91,12 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     x = 3cm,
     title = $\Large\text{Eingangskennlinie}$
 ]
-%Below the red parabola is defined
+
 \addplot [
     domain=0:1, 
-    samples=100, 
-    color=red,
+    samples=100
 ]
-{0.05*(exp(x*8)-1)};
+{\EKL{x}};
 
 \end{axis}
 \end{scope}
@@ -100,9 +105,10 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 \begin{scope}[xshift=5cm]
 \begin{axis}[
     axis lines = left,
-    xlabel = $U_{BE,0}$,
-    ylabel = $I_{B,0}$,
+    xlabel = $U_{BE}$,
+    ylabel = $I_{C,0}$,
     xtick={0.7},
+    xticklabels={$U_{BE,0}$},
     ymin = 0,
     ymax = 100,
     xmin = 0,
@@ -125,9 +131,10 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 \begin{scope}[xshift=10cm]
 \begin{axis}[
     axis lines = left,
-    xlabel = $U_{BE,0}$,
-    ylabel = $I_{B,0}$,
+    xlabel = $U_{CE}$,
+    ylabel = $I_{C,0}$,
     xtick={0.7},
+    xticklabels={$U_{BE,0}$},
     ymin = 0,
     ymax = 100,
     xmin = 0,
@@ -136,7 +143,6 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     x = 3cm,
     title = Ausgangskennlinie
 ]
-%Below the red parabola is defined
 \addplot [
     domain=0:0.94, 
     samples=100, 
