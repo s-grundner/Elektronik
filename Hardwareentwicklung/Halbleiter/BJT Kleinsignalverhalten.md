@@ -69,37 +69,40 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 
 \begin{tikzpicture}
 
-% Arbeitspunkt
-
-\newcommand{\UBE}{5}
-\newcommand{\UCE}{0.7}
 
 % BJT Parameter
 
-\newcommand{\IS}{10e-15}
+\newcommand{\IS}{1e-15}
 \newcommand{\UT}{26e-3}
 \newcommand{\B}{100}
 
 % Kennlinien
 
-\newcommand{\EKL}[1]{(\IS/\B)*(exp((#1)/\UT)-1)} % IB(UBE)
-\newcommand{\TKL}[1]{\IS*(exp((#1)/\UT)-1)} % IC(UBE)
+\newcommand{\IC}[1]{\IS*(exp((#1)/\UT)-1)} % IC(UBE)
+\newcommand{\IB}[1]{\IC{#1}/\B} % IB(UBE)
+
+% Arbeitspunkt
+
+\newcommand{\UCEAP}{5}
+\newcommand{\UBEAP}{0.7}
+\newcommand{\IBAP}{\IB{\UBEAP}}
+\newcommand{\ICAP}{\IC{\UBEAP}}
+
 
 % Eingangskennlinie
 \begin{scope}
-\newcommand{\Ymax}{0.0001}
 \begin{axis}[
     axis lines = left,
     xlabel = $U_{BE}$,
     ylabel = $I_{B,0}$,
-    xtick={0.7},
+    xtick={\UBEAP}, ytick={\IBAP},
     xticklabels={$U_{BE,0}$},
-    yticklabels={},
+    yticklabels={$I_{B,0}$},
     ymin = 0,
-    ymax = \Ymax,
+    ymax = {\IBAP*10},
     xmin = 0,
     xmax = 1.1,
-    restrict y to domain=0:\Ymax,
+    restrict y to domain=0:0.001,
     x = 3cm,
     title = $\Large\text{Eingangskennlinie}$
 ]
@@ -109,37 +112,35 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     samples=100,
     color=red,
 ]
-{\EKL{x}};
+{\IB{x}};
 
 \end{axis}
-
 \end{scope}
 
 % Transferkennlinie
 \begin{scope}[xshift=5cm]
-\newcommand{\Ymax}{0.001}
 \begin{axis}[
     axis lines = left,
     xlabel = $U_{BE}$,
     ylabel = $I_{C}$,
-    xtick={\UBE},
+    xtick={\UBEAP}, ytick={\ICAP},
     xticklabels={$U_{BE,0}$},
-    yticklabels={},
+    yticklabels={$I_{C,0}$},
     ymin = 0,
-    ymax = \Ymax,
+    ymax = {0.1},
     xmin = 0,
     xmax = 1.1,
-    restrict y to domain=0:\Ymax,
+    restrict y to domain=0:{0.1},
     x = 3cm,
-    title = Transferkennlinie
+    title = $\Large\text{Transferkennlinie}$
 ]
-%Below the red parabola is defined
+
 \addplot [
     domain=0:1, 
     samples=100, 
     color=red,
 ]
-{\TKL{x}};
+{\IC{x}};
 
 \end{axis}
 \end{scope}
@@ -150,9 +151,12 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     width=12cm, height=8cm,
     xlabel={$U_{CE}$ [V]}, ylabel={$I_C$ [mA]},
     xmin=0, xmax=10, ymin=0, ymax=10,
-    grid=both, legend pos=north east, legend style={font=\small}, axis lines=middle,
     xtick={0,2,4,6,8,10}, ytick={0,2,4,6,8,10},
-    enlarge x limits=false, enlarge y limits=false
+    grid=both,
+    legend pos=north east, legend style={font=\small},
+    axis lines=middle,
+    enlarge x limits=false, enlarge y limits=false,
+    title = $\Large\text{Ausgangskennlinie}$
     ]
 
     % Plot for different I_B values
