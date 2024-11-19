@@ -73,20 +73,21 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 
 \begin{axis}[
     axis lines = left,
-    xlabel = $u_{BE}$,
-    ylabel = $i_{B}$,
+    xlabel = $U_{BE,0}$,
+    ylabel = $I_{B,0}$,
+    xtick={0.7},
     ymin = 0,
-    ymax = 1,
+    ymax = 100,
     xmin = 0,
-    xmax = 0.8,
+    xmax = 1.1,
 ]
 %Below the red parabola is defined
 \addplot [
-    domain=0:0.7, 
+    domain=0:0.94, 
     samples=100, 
     color=red,
 ]
-{0.01*(exp(x)-1)};
+{0.05*(exp(x*8)-1)};
 
 \end{axis}
 
