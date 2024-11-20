@@ -84,7 +84,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 % Arbeitspunkt
 
 \newcommand{\UCEAP}{5}
-\newcommand{\UBEAP}{0.65}
+\newcommand{\UBEAP}{0.7}
 \newcommand{\IBAP}{\IB{\UBEAP}}
 \newcommand{\ICAP}{\IC{\UBEAP}}
 
@@ -101,7 +101,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     xticklabels={$U_{BE,0}$},
     yticklabels={$I_{B,0}$},
     ymin = 0,
-    ymax = \Ymax,
+    ymax = \IBAP*3,
     xmin = 0,
     xmax = 1.1,
     x = 3cm,
@@ -110,7 +110,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 
 \addplot [
     restrict y to domain=0:{\Ymax},
-    domain=0:1, 
+    domain=0:\UBEAP+.1, 
     samples=100,
     color=red,
 ]
@@ -121,7 +121,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 \addplot[
     restrict y to domain=0:{\Ymax},
     color=green,
-    domain=0:1,
+    domain=0:\UBEAP,
     samples=100
 ]
 {\IBAP+(x-\UBEAP)/\rBE};
@@ -149,7 +149,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 ]
 
 \addplot [
-    domain=0:1, 
+    domain=0:\UBEAP+0.2, 
     samples=100, 
     color=red,
 ]
