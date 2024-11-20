@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - tikz/pgfplot
 aliases: 
 keywords: 
 subject:
@@ -13,67 +14,11 @@ professor:
 
 # Testsignale
 
-1. [Sprung](../Mathematik/Algebra/Einheitssprungfunktion.md)
-2. Rechteck
+1. [Sprung](Einheitssprungfunktion.md)
+2. [Rechteck](Rechteckfunktion.md)
 3. Rampen
 4. Sinus
 5. Dirac
-
-## Sprung
-
-## Reckteckfunktion
-
-Die diskrete [Rechteckfunktion](Rechteckfunktion.md) $\operatorname{rect}_N[n]$ wird, um Probleme bei der Skalierung als auch mit der Symmetrie zu vermeiden, folgendermaßen definiert:
-
-$$
-\begin{aligned}
-\operatorname{rect}(t) = \begin{cases}
-1 & \text { für } |t|<\frac{1}{2} \\
-0 & \text { sonst }
-\end{cases}
-\end{aligned}
-\qquad
-\begin{aligned}
-\operatorname{rect}_N[n] = \begin{cases}
-1 & \text { für } 0 \leq n<N \\
-0 & \text { sonst }\end{cases}
-\end{aligned}
-
-$$
-
-```tikz
-\usepackage{tikz}
-\usepackage{pgfplots}
-\pgfplotsset{compat=newest}
-
-\begin{document}
-
-\begin{tikzpicture}
-\begin{axis}[
-    axis lines=middle,
-    xlabel={$t$},
-    ylabel={$\mathrm{rect}\left( \frac{t}{T} \right)$},
-    xtick={-1,1},
-    xticklabels={$-\frac{T}{2}$,$\frac{T}{2}$},
-    ytick={0,1},
-    ymin=-0.5,
-    ymax=1.5,
-    xmin=-1.5,
-    xmax=1.5,
-    width=8cm,
-    height=6cm,
-    enlargelimits
-]
-    % Rectangle function
-    \addplot[red,thick,domain=-1.5:-1] {0};
-    \addplot[red,thick,domain=-1:1] {1};
-    \addplot[red,thick,domain=1:1.5] {0};
-\end{axis}
-\end{tikzpicture}
-
-\end{document}
-
-```
 
 ## Rampenfunktion
 
@@ -98,7 +43,7 @@ $$
 \begin{document}
 
 % Plot for both growing and decaying exponential functions
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=2]
 
 % Ansteigende Exponentialfunktion (alpha > 0)
 \begin{axis}[
@@ -172,7 +117,7 @@ $$
 
 \begin{document}
 
-\begin{tikzpicture}
+\begin{tikzpicture}[thick, scale=1.5]
 \begin{axis}[
     axis lines=middle,
     ytick=\empty,
