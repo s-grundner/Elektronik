@@ -11,6 +11,9 @@ created: 26th April 2022
 > [!info]- Komplex: kommt von "Zusammensetzung"
 > z.B. wie in "Gebäudekomplex" (also nicht komplex im sinne von kompliziert)
 
+
+
+
 ## Zeitbereich vs. Bildbereich
 
 Vorraussetzungen:
