@@ -152,6 +152,7 @@ $$
 \begin{tikzpicture}[scale=2]
 \begin{axis}[
     axis lines=middle,
+    xmin=-11, xmax=11, ymax=1.1,
     title={Kontinuierliche sinc-Funktion}]
 \addplot[
 smooth,
@@ -189,6 +190,7 @@ $$
 
 \begin{tikzpicture}[scale=1.5]
 \begin{axis}[
+    ymax=1.1, xmax=11, xmin=-11,
     axis lines=middle,
     title={Kontinuierliche si-Funktion}]
 \addplot[
