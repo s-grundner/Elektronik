@@ -24,3 +24,8 @@ $$
 1 & \text { wenn }|t|<\frac{1}{2} 
 \end{cases}
 $$
+mit Skalierung:
+
+$$
+\operatorname{rect}(t) = \frac{1}{T} \operatorname{rect}\left(\frac{t}{T}\right)
+$$
