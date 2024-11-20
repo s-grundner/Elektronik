@@ -92,7 +92,19 @@ $$
 Die diskrete [Rechteckfunktion](Rechteckfunktion.md) $\operatorname{rect}_N[n]$ wird, um Probleme bei der Skalierung als auch mit der Symmetrie zu vermeiden, folgendermaßen definiert:
 
 $$
-\operatorname{rect}_N[n]= \begin{cases}1 & \text { für } 0 \leq n<N \\ 0 & \text { sonst }\end{cases}
+\begin{aligned}
+\operatorname{rect}(t) = \begin{cases}
+1 & \text { für } |t|<\frac{1}{2} \\
+0 & \text { sonst }
+\end{cases}
+\end{aligned}
+\qquad
+\begin{aligned}
+\operatorname{rect}_N[n] = \begin{cases}
+1 & \text { für } 0 \leq n<N \\
+0 & \text { sonst }\end{cases}
+\end{aligned}
+
 $$
 
 ```tikz

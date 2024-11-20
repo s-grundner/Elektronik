@@ -188,11 +188,12 @@ $$
 
 $$
 \begin{aligned}
-x(t)=\frac{x(t)}{2}+\frac{x(t)}{2}+\frac{x(-t)}{2} & -\frac{x(-t)}{2}=\underbrace{\frac{x(t)}{2}+\frac{x(-t)}{2}}_{x_{\mathrm{g}}(t)}+\underbrace{\frac{x(t)}{2}-\frac{x(-t)}{2}}_{x_{\mathrm{u}}(t)} \\
-x_{\mathrm{g}}(t) & =\frac{1}{2}(x(t)+x(-t)) \\
-x_{\mathrm{u}}(t) & =\frac{1}{2}(x(t)-x(-t))
+x(t)=\frac{x(t)}{2}+\frac{x(t)}{2}+\frac{x(-t)}{2} & -\frac{x(-t)}{2}=\underbrace{\frac{x(t)}{2}+\frac{x(-t)}{2}}_{x_{\mathrm{g}}(t)}+\underbrace{\frac{x(t)}{2}-\frac{x(-t)}{2}}_{x_{\mathrm{u}}(t)}
 \end{aligned}
 $$
+> [!important]
+> x_{\mathrm{g}}(t) & =\frac{1}{2}(x(t)+x(-t)) \\
+x_{\mathrm{u}}(t) & =\frac{1}{2}(x(t)-x(-t))
 
 #### 4.1 Konjugiert gerade und konjugiert ungerade Signale
 
