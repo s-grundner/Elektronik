@@ -6,7 +6,7 @@ aliases:
   - Basis-Spannungsteiler
   - Basisspannungsteiler
 keywords:
-  - $\DeltaB$
+  - $\Delta B$
 subject:
   - VL
   - Einführung Elektronik
