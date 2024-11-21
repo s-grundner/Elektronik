@@ -20,7 +20,11 @@ $$
 
 ## Eigenschaften der Faltung
 
-Bei LTI-Systemen lässt sich das Ausgangssignal $y$ durch Faltung des EIngangssignals $x$ mit der Impulsantwort
+Bei LTI-Systemen lässt sich das Ausgangssignal $y$ durch Faltung des EIngangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen.
+
+Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
+
+
 
 > [!important] Die Faltung erfüllt folgende Eigenschaften
 > 

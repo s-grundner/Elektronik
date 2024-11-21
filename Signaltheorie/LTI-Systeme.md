@@ -34,7 +34,7 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 > wenn also $y(t)=a y_1(t)+b y_2(t)$
 > 
 
-![](assets/Pasted%20image%2020241120155630.png)
+![invert_dark](assets/LinSys.png)
 
 > [!warning] **Zero In Zero-Out** Eigenschaft
 > Ein System ist nur dann echt Linear, wenn 0 am Eingang 0 am Ausgang leifert
