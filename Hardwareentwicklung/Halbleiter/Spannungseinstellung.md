@@ -1,6 +1,7 @@
 ---
 tags:
   - Halbleiter/BJT
+  - tikz/circuitikz
 aliases:
   - Stromgesteuerte Spannungsgegenkopplung
   - Basis-Spannungsteiler
@@ -23,7 +24,36 @@ professor:
 > - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen
 >  
 
-![](assets/{BBD72964-143A-453A-8979-7C30466388D6}.png)
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, font=\large]
+% Begin Schematic
+
+\draw (0,1) to[R=$R_C$] (0,3);
+\draw (0,0) node[npn]{};
+
+\draw (0,3) to[short] (2,3);
+\draw (-2, 0) to[short] (-0.5, 0);
+\draw (0,-0.5) to[short] (0,-2);
+
+\draw (0,0.5) to[short] (0,1);
+
+\draw (2, 3) to[V_=$U_0$] (2, -2);
+\draw (-2, 0) to[V_=$U_{BE,0}$] (-2, -2);
+
+\node[tlground] at (0, -2) {};
+\node[tlground] at (-2, -2) {};
+\node[tlground] at (2, -2) {};
+
+
+\end{circuitikz}
+\end{document}
+```
+
+![|357](assets/{BBD72964-143A-453A-8979-7C30466388D6}.png)
 
 ## Basis-Spannungsteiler
 
