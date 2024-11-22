@@ -96,6 +96,24 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 >  
 > > [!info] **Weiterführend**: AP Einstellung mit Stromgesteuerte Spannungsgegenkopplung
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick]
+% Begin Schematic
+
+\draw (0,2) to[R=$R_C$] (0,4);
+
+\draw (0,1.77) to[short] (0,2);
+\draw (0,0) node[npn]{};
+\draw (0,2) node[vdd]{};
+
+\end{circuitikz}
+\end{document}
+```
+
 ![](assets/{8ED7CCB4-8EE7-4420-BCF2-4D12D04047FD}.png)
 
 Funktionen der Arbeitsgeraden
