@@ -45,6 +45,8 @@
     "ez": "date",
     "Lack": "multitext",
     "avg_grades": "checkbox",
-    "axiome": "multitext"
+    "axiome": "multitext",
+    "exam": "datetime",
+    "exam (oral)": "datetime"
   }
 }
