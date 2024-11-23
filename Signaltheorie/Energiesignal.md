@@ -10,7 +10,6 @@ created: 24. November 2024
 professor:
   - Andreas Stelzer
 ---
- 
 
 # Energiesignal
 
