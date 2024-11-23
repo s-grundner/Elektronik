@@ -79,6 +79,8 @@ Der Arbeitspunkt
 - Es kann nicht sichergestellt werden, dass selbst vom selben Transistortypen die Verstärkung immer die gleiche ist. $\to$ statische Abweichung von $B$
 - Durch die Shockleygleichung ist eine gewisse Temparaturabhängigkeit (empfindlichkeit) gegeben.
 
+Alternativ kann auch das Kollektorpotential über einen Widerstand einen Basisstrom erzeugen, welcher sich bei Vergrößerung des Kollektorstromes und daher Absinken des Kollektorpotentials verringert. Es handelt sich dabei also um eine spannungsgesteuerte Stromgegenkopplung, oft fälschlicherweise Spannungsgegenkopplung genannt.
+
 Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 
 > [!important] [[Stromeinstellung]]: Transistor mit Basisvorwiderstand

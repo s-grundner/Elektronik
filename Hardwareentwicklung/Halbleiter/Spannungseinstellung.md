@@ -41,6 +41,8 @@ Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cd
 
 ## Stromgesteuerte Spannungsgegenkopplung
 
+Durch Einbau einer Gegenkopplung kann der Arbeitspunkt stabilisiert werden. Eine Möglichkeit ist die stromgesteuerte Spannungsgegenkopplung. Dabei wird über einen Emitterwiderstand ein Spannungsabfall proportional zum Kollektorstrom erzeugt, welcher in der Eingangsmasche die Steuerspannung $U_{BE}$ reduziert.
+
 > [!success] Lösung zur Temparaturempfindlichkeit
 
 ```tikz
