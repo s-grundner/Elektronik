@@ -7,6 +7,7 @@ subject:
 source:
   - Robert Vogl
 created: 3rd February 2023
+professor:
 ---
 
 # Faltung
@@ -29,7 +30,7 @@ Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuie
 > [!important] Die Faltung erfüllt folgende Eigenschaften
 > 
 > 1. neutrales element $e$: $\delta(t)$
->     - Die Faltung eines Signals mit dem Dirac-Impuls ergibt wieder das Signal
+>     - Die Faltung eines Signals mit dem [Dirac-Impuls](../Mathematik/Algebra/Delta-Impuls.md) ergibt wieder das Signal
 > 2. kommutativität: $x*h=h*x$
 
 Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
@@ -63,7 +64,7 @@ x(t)=e^{-a t} \sigma(t) \sigma(T-t) \quad \text { mit } a>0
 $$
 
 
-Wie lautet die Systemantwort $y(t)$ ? Skizzieren Sie Eingangs- und Ausgangssignal!
+Wie lautet die Systemantwort $y(t)$ ? Skizzieren Sie Eingangsund Ausgangssignal!
 **(c)** Das Eingangssignal sei nun ein um $t_0$ zeitverschobener Dirac-Impuls,
 
 $$
