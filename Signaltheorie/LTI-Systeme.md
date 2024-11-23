@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - LTI-System
+  - LTI-Systemen
 keywords: 
 subject:
   - VL
