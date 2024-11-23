@@ -38,6 +38,9 @@ Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwidersta
 
 ## Spannungsgsteuerte Stromgegenkopplung
 
+ Durch Einbau einer Gegenkopplung kann der Arbeitspunkt stabilisiert werden. Hierbei wird das Kollektorpotential über einen Widerstand einen Basisstrom erzeugen, welcher sich bei Vergrößerung des Kollektorstromes und daher Absinken des Kollektorpotentials verringert. Es handelt sich dabei also um eine spannungsgesteuerte Stromgegenkopplung, oft fälschlicherweise Spannungsgegenkopplung genannt.
+
+
 > [!success] Robustheit gegenüber der $B$-Streuung:
 > 
 >Da hier $I_{B}$ nicht mehr konstant in die Basis eingeprägt wird, wirkt diese Regelung auch gegen die $B$-Streuung.

@@ -23,16 +23,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardwareentwicklung/Oszillatoren/Colpitts Oszillator.md",
+                "file": "Hardwareentwicklung/Halbleiter/Stromeinstellung.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Colpitts Oszillator"
+              "title": "Stromeinstellung"
+            }
+          },
+          {
+            "id": "73d8bc66f1b52514",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hardwareentwicklung/Halbleiter/Spannungseinstellung.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spannungseinstellung"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,8 +209,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "49a49f5da851af16",
+  "active": "177a0076cfb12e8b",
   "lastOpenFiles": [
+    "Hardwareentwicklung/Halbleiter/Spannungseinstellung.md",
+    "Hardwareentwicklung/Halbleiter/Bipolartransistor.md",
+    "Hardwareentwicklung/Halbleiter/Stromeinstellung.md",
+    "Hardwareentwicklung/Oszillatoren/Colpitts Oszillator.md",
     "Elektrotechnik/elektrische Spannung.md",
     "Physik/Energieerhaltung.md",
     "Hardwareentwicklung/Halbleiter/TVS-Diode.md",
@@ -207,7 +227,6 @@
     "10_tools/sidebar_colorfulclock.md",
     "Hardwareentwicklung/Stromversorgungseinheiten/Ungeregelte Spannungsstabilisierung.md",
     "Hardwareentwicklung/Halbleiter/Zener-Diode.md",
-    "Hardwareentwicklung/Halbleiter/Bipolartransistor.md",
     "Hardwareentwicklung/Halbleiter/{MOC} Transistor.md",
     "Hardwareentwicklung/Halbleiter/A-Betrieb.md",
     "Hardwareentwicklung/Halbleiter/C-Betrieb.md",
@@ -218,9 +237,6 @@
     "Hardwareentwicklung/Halbleiter/Diode.md",
     "Physik/Materialkunde/{MOC} Materialkunde.md",
     "Physik/Shockley Gleichung.md",
-    "TODO.md",
-    "Untitled.md",
-    "Softwareentwicklung/SoftwareEngineering/Generics.md",
     "Excalidraw",
     "Hardwareentwicklung/assets/Skizze3.png",
     "Elektrotechnik/assets/Wechselfelder.png",
