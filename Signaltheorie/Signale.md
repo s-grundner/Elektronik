@@ -1,9 +1,7 @@
 ---
 tags:
   - tikz/pgfplot
-aliases:
-  - Energiesignal
-  - Leistungssignal
+aliases: []
 keywords: 
 subject:
   - VL
@@ -29,7 +27,7 @@ professor:
 7. Beschränktheit
 8. Periodizität
 9. Deterministische und Stochastische Signale
-10. Leistungs- / Energiesignal
+10. [Leistungssignal](Leistungssignal.md) / [Energiesignal](Energiesignal.md)
 
 ### 1. Zeitkontinuität
 
@@ -221,47 +219,3 @@ $$
 & x_{\mathrm{u}^*}(t)=\frac{1}{2}\left(x(t)-x^*(-t)\right)
 \end{aligned}
 $$
-
-### Energiesignal
-
-> [!info] **Kontinuierlich:**
-> $$
-> \int_{-\infty}^\infty \mid x(t)\mid^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
-> $$
-> $x^*$: Konjugation von $x$ (quadrat unabh. von der Phase)
-
-> [!info] **Diskret**
-> 
-> $$
-> E=\sum_{n=-\infty}^{\infty}|x[n]|^2=\sum_{n=-\infty}^{\infty} x[n] x^*[n]
-> $$
-
-Ein periodisches Signal kann kein Energiesignal sein, da:
-- Integrationsbereich ist $-\infty$ bis $\infty$
-
-### Leistungssignal
-
-Die Leistung $P$ eines Signals berechnet sich zu:
-
-> [!info] **Kontinuierlich**
-> 
-> $$
-> P=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T|x(t)|^2 \mathrm{~d} t=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T x(t) x^*(t) \mathrm{d} t
-> $$
-
-> [!info] **Diskret**
-> 
-> $$
-> P=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N|x[n]|^2=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N x[n] x^*[n]
-> $$
-> 
-
-Ein Leistungssignal liegt vor, wenn gilt:
-
-$$
-0 \leq P<\infty
-$$
----
-
-- [Korrelation](Signaltheorie/Korrelation.md)
-- 
