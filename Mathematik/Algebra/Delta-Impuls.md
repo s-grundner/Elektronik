@@ -1,8 +1,14 @@
 ---
-tags: []
-aliases: ["Dirac-Impuls", "Dirac-Funktion", "Nadelimpuls"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags: 
+aliases:
+  - Dirac-Impuls
+  - Dirac-Funktion
+  - Nadelimpuls
+  - Dirac-Distribution
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 26th April 2022
 ---
 

@@ -34,22 +34,31 @@ $$
 > - multilinear mit $a \in \mathbb{C}$ (linear in jeder Variablen) oder assoziativ mit der skalaren Multiplikation:
 > $(a(f * g))(t)=((a f) * g)(t)=(f *(a g))(t)$
 > 
-> 
-> 
-> 
 > Die Menge $L_1\left(\mathbb{R}^n\right)$ bildet zusammen mit der Addition und der Faltung einen kommutativen Ring, der für die Faltung kein neutrales Element besitzt. Dies ändert sich bei der Erweiterung auf Distributionen, mit $\delta(t)$ als Einselement.
 
-Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
+- Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
 
+### Spezielle Funktionen
 
-1. Abtasteigenschaft
+> [!important] Die Faltung von $f(t)$ mit der Sprungfunktion $\sigma(t)$
+> 
+> $$(f * \sigma)(t)=\int_{-\infty}^{\infty} f(\tau) \sigma(t-\tau) \mathrm{d} \tau=\int_{-\infty}^t f(\tau) \mathrm{d} \tau$$
+> 
+> entspricht der Fläche unter der Funktion $f(t)$.
+> 
+> Also Liefert die Faltung mit der Sprungfunktion die Stammfunktion von $f$:
+> Systeme mit dem Einheitssprung als Impulsantwort sind ein **Integrator**
+>
 
-$$
-\int_{-\infty}^{\infty}f(t)*\delta(t-t_{0})\,\mathrm{d}t = f(t_{0})
-$$
+> [!important] Die Faltung von $f(t)$ mit der Dirac-Distribution $\delta(t)$
+> 
+> $$ (f * \delta)(t)=\int_{-\infty}^{\infty} f(\tau) \delta(t-\tau) \mathrm{d} \tau=f(t) $$
+> 
+> ergibt wieder die Funktion selbst, was unmittelbar aus der Abtasteigenschaft der Dirac-Distribution folgt. Damit ist $\delta(t)$ die „**Einsfunktion**" der Faltung.
+> 
+> Die Eigenschaften Fläche unter der Kurve bzw. Abtastwert der Funktion entsprechen umgekehrt der Definition der Funktionale der zugehörigen Distributionen $\sigma(t)$ und $\delta(t)$.
+> Diese Eigenschaft ist die **Abtasteigenschaft** der [Dirac-Distribution](../Mathematik/Algebra/Delta-Impuls.md).
 
-> [!question] Faltung im Zeitbereich wird zu einer Multiplikation im Frquenzbereich
-> Siehe Fourier-Reihe
 
 ---
 
