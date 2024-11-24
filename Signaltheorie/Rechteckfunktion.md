@@ -26,7 +26,7 @@ $$
 $$
 
 Mit [Skalierung](Elementare%20Operationen%20auf%20Signalen.md):
-
+  
 $$
 \operatorname{rect}\left( \frac{t}{T} \right) = \begin{cases}
 0 & \text { wenn }|t|>\frac{T}{2} \\
