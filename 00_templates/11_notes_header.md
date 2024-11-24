@@ -30,7 +30,7 @@ SORT file.mday DESC
 ## Übung
 
 ```dataview
-TABLE keywords, file.cday AS "creation date"
+TABLE keywords AS "Keywords🗝️", due AS "Abgabe 📅"
 WHERE contains(subject, "<%* tR += lva _%>")
 AND contains(subject, "UE") 
 AND !contains(file.name, "jku_header")
