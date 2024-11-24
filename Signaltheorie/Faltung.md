@@ -13,26 +13,31 @@ semester: WS24
 
 # Faltung
 
+> [!question] Bei [LTI-Systemen](LTI-Systeme.md) lässt sich das Ausgangssignal $y$ durch Faltung des Eingangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen.
+> Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
+
 $$
 \begin{align*}
 y(t)&=x(t)\ast h(t)=\int_{-\infty}^{\infty}x(\uptau)\cdot h(t-\uptau)d\uptau=\int_{-\infty}^{\infty}x(t-\uptau)\cdot h(\uptau)d\uptau
 \end{align*}
 $$
+
 ![Convolution_of_box_signal_with_itself](./assets/Convolution_of_box_signal_with_itself.gif)
 
 ## Eigenschaften der Faltung
 
-> [!question] Bei [LTI-Systemen](LTI-Systeme.md) lässt sich das Ausgangssignal $y$ durch Faltung des Eingangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen.
-
-Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
-
-
-
 > [!important] Die Faltung erfüllt folgende Eigenschaften
 > 
-> 1. neutrales element $e$: $\delta(t)$
->     - Die Faltung eines Signals mit dem [Dirac-Impuls](../Mathematik/Algebra/Delta-Impuls.md) ergibt wieder das Signal
-> 2. kommutativität: $x*h=h*x$
+> - kommutativ $(f * g)(t)=(g * f)(t)$
+> - assoziativ: $(f *(g * h))(t)=((f * g) * h)(t)$
+> - distributiv: $(f *(g+h))(t)=(f * g+f * h)(t)$
+> - multilinear mit $a \in \mathbb{C}$ (linear in jeder Variablen) oder assoziativ mit der skalaren Multiplikation:
+> $(a(f * g))(t)=((a f) * g)(t)=(f *(a g))(t)$
+> 
+> 
+> 
+> 
+> Die Menge $L_1\left(\mathbb{R}^n\right)$ bildet zusammen mit der Addition und der Faltung einen kommutativen Ring, der für die Faltung kein neutrales Element besitzt. Dies ändert sich bei der Erweiterung auf Distributionen, mit $\delta(t)$ als Einselement.
 
 Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
 

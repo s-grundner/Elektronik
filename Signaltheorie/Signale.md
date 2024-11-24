@@ -1,8 +1,11 @@
 ---
 tags:
   - tikz/pgfplot
-aliases: []
-keywords: 
+aliases: 
+keywords:
+  - Kausalität
+  - Kontinuität
+  - Gerade/Ungerade
 subject:
   - VL
   - Signale und Systeme
@@ -219,3 +222,21 @@ $$
 & x_{\mathrm{u}^*}(t)=\frac{1}{2}\left(x(t)-x^*(-t)\right)
 \end{aligned}
 $$
+
+### 6. Kausalität
+
+Die Wirkung tritt nicht vor der Ursache ein!
+
+- Hängt das Ausgangssignal zu einem bestimmten Zeitpunkt $t_0$ nur von dem Verlauf des Eingangssignals bis einschließlich zu diesem Zeitpunkt ab (vergangene Werte bis inklusive aktuellem Wert), so bezeichnet man das System als kausal
+
+$$
+y\left(t_0\right)=\mathcal{T}\left\{x\left(t \leq t_0\right)\right\}
+$$
+
+- Die Impulsantwort $h(t)$ eines kausalen Systems ist kausal, d.h.
+
+$$
+h(t)=0 \quad \forall \quad t<0
+$$
+
+- Alle realen Systeme gehorchen diesem „Naturgesetz". Allerdings können Idealisierungen in der Systemtheorie auf nichtkausale Systeme führen und es ist oft einfacher mit diesen zu rechnen. Durch die Einführung einer künstlichen Verzögerung ist bei einem zeitbegrenzten nichtkausalen Anteil auch eine Realisierung möglich.
