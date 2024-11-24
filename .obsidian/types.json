@@ -47,6 +47,11 @@
     "avg_grades": "checkbox",
     "axiome": "multitext",
     "exam": "datetime",
-    "exam (oral)": "datetime"
+    "exam (oral)": "datetime",
+    "exam (ue1)": "datetime",
+    "exam (ue2)": "datetime",
+    "exam (vl)": "datetime",
+    "exam (2)": "datetime",
+    "exam (1)": "datetime"
   }
 }
