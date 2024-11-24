@@ -52,6 +52,7 @@
     "exam (ue2)": "datetime",
     "exam (vl)": "datetime",
     "exam (2)": "datetime",
-    "exam (1)": "datetime"
+    "exam (1)": "datetime",
+    "due": "date"
   }
 }
