@@ -3,11 +3,12 @@ tags:
   - incomplete
 aliases: 
 subject:
-  - dic
-source:
-  - Robert Vogl
+  - Signale und Systeme
+  - VL
 created: 3rd February 2023
 professor:
+  - Andreas Stelzer
+semester: WS24
 ---
 
 # Faltung
