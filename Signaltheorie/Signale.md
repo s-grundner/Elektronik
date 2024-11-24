@@ -14,7 +14,7 @@ created: 2. Oktober 2024
 professor:
   - Andreas Stelzer
 ---
-o 
+ 
 
 # Signale
 
