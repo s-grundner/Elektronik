@@ -1,0 +1,8 @@
+.markdown-preview-view progress,
+.markdown-rendered progress,
+.markdown-source-view.is-live-preview progress {
+	height: 0.5em;
+	display: inline-block;
+	overflow: unset;
+	vertical-align: 2;
+}
