@@ -34,6 +34,7 @@ $$
 1 & \text { wenn }|t|<\frac{T}{2} 
 \end{cases}
 $$
+
 ```tikz
 \usepackage{tikz}
 \usepackage{pgfplots}
