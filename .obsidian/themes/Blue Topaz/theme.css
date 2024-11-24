@@ -29487,7 +29487,7 @@ body.enable-icon-anima :is(.workspace-ribbon, .nav-header) .clickable-icon:hover
 .markdown-rendered progress,
 .markdown-source-view.is-live-preview progress {
   overflow: unset;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 body.title-justify-start .view-header-title-container {
