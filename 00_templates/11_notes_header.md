@@ -18,7 +18,7 @@ ects:
 ## Vorlesung
 
 ```dataview
-TABLE keywords AS "Keywords🗝️", file.mday AS "Last Edited✏️"
+TABLE keywords AS "Keywords🗝️", file.mday AS "Zuletzt Geändert✏️"
 WHERE contains(subject, "<%* tR += lva _%>")
 AND (contains(subject, "VL") OR contains(subject, "KV"))
 AND !contains(file.name, "jku_header")
