@@ -64,6 +64,7 @@ b_k & =\frac{2}{T} \int_{t_0}^{t_0+T} x(t) \sin \left(k \omega_0 t\right) \mathr
 \end{aligned}
 $$
 
+
 Besonderheiten:
 - Ist die Funktion $x(t)$ eine gerade Funktion, sind alle $b_{k}=0$
 - Ist die Funktion $x(t)$ eine ungerade Funktion, sind alle $a_{k}=0$
@@ -71,6 +72,7 @@ Besonderheiten:
 > [!info] Für den Fall „$k=0$“ existiert das, den arithmetischen Mittelwert darstellende, zeitunabhängige Glied $\frac{a_{0}}{2}$.
 > - Die Grundfrequenz der Fourierreihe ist über $f_{0}$ dargestellt.
 
+![700](../assets/Pasted%20image%2020230120081647.png)
 ### Polarform
 
 > [!important] Polare Darstellung der rellen Funktion $x(t)$
@@ -133,9 +135,7 @@ $f(x)=f(x+a)$
 > ![Fourreihe_k](../assets/Fourreihe_k.png)  
 > [Klirrfaktor](../../Hardwareentwicklung/Klirrfaktor.md) … $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
 
-## Fourier Koeffizienten
 
-![Pasted image 20230120081647](../assets/Pasted%20image%2020230120081647.png)
 
 > [!hint] Das Integrationsintervall kann beliebig verschoben werden
 
