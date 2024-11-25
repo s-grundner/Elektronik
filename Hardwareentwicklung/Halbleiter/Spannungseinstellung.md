@@ -29,7 +29,7 @@ professor:
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, font=\large]
+\begin{circuitikz}[thick, scale=1, font=\large]
 % Begin Schematic
 
 \draw (0,1) to[R=$R_C$] (0,3);
@@ -53,11 +53,41 @@ professor:
 \end{document}
 ```
 
-![|357](assets/{BBD72964-143A-453A-8979-7C30466388D6}.png)
-
 ## Basis-Spannungsteiler
 
 Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cdot I_{B,0}$) lässt sich die Spannung am $R_{2}$ so dimensionieren, dass der Spannungsteiler von $U_{0}$ gleich $U_{BE}$ ist.
+
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick, scale=1, font=\large]
+% Begin Schematic
+
+\draw (0,1) to[R=$R_C$] (0,3);
+\draw (0,0) node[npn]{};
+
+\draw (-1,-0.3) to[open, v=$U_{BE}$] (0,-1);
+
+\draw (-2, 0) to[short] (-0.5, 0);
+\draw (0,-0.5) to[short] (0,-2);
+\draw (0,0.5) to[short] (0,1);
+
+\draw (-2, 0) to[R=$R_1$] (-2, 3);
+\draw (-2, -2) to[R=$R_2$] (-2, 0);
+
+\node[tlground] at (0, -2) {};
+\node[tlground] at (-2, -2) {};
+
+\node[vcc] at (0, 3) {$U_0$};
+\node[vcc] at (-2, 3) {$U_{0}$};
+
+
+\end{circuitikz}
+\end{document}
+```
 
 ![](assets/{C5B56692-745F-4AD1-8787-D9CB3B1CB076}.png)
 

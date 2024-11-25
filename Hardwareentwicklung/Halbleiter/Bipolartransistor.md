@@ -104,12 +104,6 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 \begin{circuitikz}[thick]
 % Begin Schematic
 
-\draw (0,2) to[R=$R_C$] (0,4);
-
-\draw (0,1.77) to[short] (0,2);
-\draw (0,0) node[npn]{};
-\draw (0,2) node[vdd]{};
-
 \end{circuitikz}
 \end{document}
 ```
