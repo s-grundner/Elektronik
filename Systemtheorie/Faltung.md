@@ -22,7 +22,7 @@ y(t)&=x(t)\ast h(t)=\int_{-\infty}^{\infty}x(\uptau)\cdot h(t-\uptau)d\uptau=\in
 \end{align*}
 $$
 
-![Convolution_of_box_signal_with_itself](./assets/Convolution_of_box_signal_with_itself.gif)
+![Convolution_of_box_signal_with_itself](assets/Convolution_of_box_signal_with_itself.gif)
 
 ## Eigenschaften der Faltung
 

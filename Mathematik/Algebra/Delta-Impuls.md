@@ -94,5 +94,5 @@ $$
 
 ---
 
-- [Faltung](../../Signaltheorie/Faltung.md)
-- [Impulsanwort](../../Signaltheorie/Impulsanwort.md)
+- [Faltung](../../Systemtheorie/Faltung.md)
+- [Impulsanwort](../../Systemtheorie/Impulsanwort.md)

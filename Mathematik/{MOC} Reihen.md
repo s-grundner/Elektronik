@@ -15,7 +15,7 @@ created: 30. Oktober 2023
 - Harmonische Reihe
 - [Potenzreihe](Potenzreihe.md)
 - [Taylorreihe](Taylorreihe.md)
-- [Fourier Reihe](Fourier%20Reihe.md)
+- [Fourier Reihe](../Systemtheorie/Fourier%20Reihe.md)
 
 ## Konvergenzkriterien für Reihen
 

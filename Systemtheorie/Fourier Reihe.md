@@ -72,7 +72,7 @@ Besonderheiten:
 > [!info] Für den Fall „$k=0$“ existiert das, den arithmetischen Mittelwert darstellende, zeitunabhängige Glied $\frac{a_{0}}{2}$.
 > - Die Grundfrequenz der Fourierreihe ist über $f_{0}$ dargestellt.
 
-![700](../assets/Pasted%20image%2020230120081647.png)
+![600](../assets/Pasted%20image%2020230120081647.png)
 ### Polarform
 
 > [!important] Polare Darstellung der rellen Funktion $x(t)$

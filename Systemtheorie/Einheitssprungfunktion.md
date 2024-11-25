@@ -85,5 +85,5 @@ Sie wird zur Beschreibung von Einschaltvorgängen verwendet.
 
 # Tags
 
-[Elementare Operationen auf Signalen](../../Signaltheorie/Elementare%20Operationen%20auf%20Signalen.md)
+[Elementare Operationen auf Signalen](Elementare%20Operationen%20auf%20Signalen.md)
 [Delta-Impuls](Delta-Impuls.md)
