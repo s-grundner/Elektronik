@@ -21,7 +21,7 @@ professor:
 
 ![](assets/Pasted%20image%2020241120133723.png)
 
-> [!important] Skalierungen (Streckungen bzw. Stauchungen) und Verschiebungen eines Signals $f(t)$ in Zeit- und Amplitudenrichtung lassen sich durch die Verwendung der Schreibweise
+> [!important] Skalierungen (Streckungen bzw. Stauchungen) und Verschiebungen eines Signals $f(t)$ in Zeitund Amplitudenrichtung lassen sich durch die Verwendung der Schreibweise
 > 
 > $$
 > g(t)=A f\left(\frac{t-t_0}{T}\right)+a_0
@@ -30,7 +30,6 @@ professor:
 > unmittelbar ablesen.
 > **Zuerst:** Skalierung um $T$ in Zeitrichtung und $A$ in Amplitudenrichtung
 > **Dann:** Verschiebung um $t_0$ in Zeitrichtung und $a_0$ in Amplitudenrichtung
-
 
 |             | **Skalierung in Zeitrichtung**   |     |              | **Skalierung in Amplitudenrichtung**  |
 | ----------: | :------------------------------- | --- | -----------: | :------------------------------------ |

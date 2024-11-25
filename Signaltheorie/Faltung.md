@@ -3,46 +3,62 @@ tags:
   - incomplete
 aliases: 
 subject:
-  - dic
-source:
-  - Robert Vogl
+  - Signale und Systeme
+  - VL
 created: 3rd February 2023
+professor:
+  - Andreas Stelzer
+semester: WS24
 ---
 
 # Faltung
+
+> [!question] Bei [LTI-Systemen](LTI-Systeme.md) lässt sich das Ausgangssignal $y$ durch Faltung des Eingangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen.
+> Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
 
 $$
 \begin{align*}
 y(t)&=x(t)\ast h(t)=\int_{-\infty}^{\infty}x(\uptau)\cdot h(t-\uptau)d\uptau=\int_{-\infty}^{\infty}x(t-\uptau)\cdot h(\uptau)d\uptau
 \end{align*}
 $$
+
 ![Convolution_of_box_signal_with_itself](./assets/Convolution_of_box_signal_with_itself.gif)
 
 ## Eigenschaften der Faltung
 
-Bei LTI-Systemen lässt sich das Ausgangssignal $y$ durch Faltung des EIngangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen.
-
-Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
-
-
-
 > [!important] Die Faltung erfüllt folgende Eigenschaften
 > 
-> 1. neutrales element $e$: $\delta(t)$
->     - Die Faltung eines Signals mit dem Dirac-Impuls ergibt wieder das Signal
-> 2. kommutativität: $x*h=h*x$
+> - kommutativ $(f * g)(t)=(g * f)(t)$
+> - assoziativ: $(f *(g * h))(t)=((f * g) * h)(t)$
+> - distributiv: $(f *(g+h))(t)=(f * g+f * h)(t)$
+> - multilinear mit $a \in \mathbb{C}$ (linear in jeder Variablen) oder assoziativ mit der skalaren Multiplikation:
+> $(a(f * g))(t)=((a f) * g)(t)=(f *(a g))(t)$
+> 
+> Die Menge $L_1\left(\mathbb{R}^n\right)$ bildet zusammen mit der Addition und der Faltung einen kommutativen Ring, der für die Faltung kein neutrales Element besitzt. Dies ändert sich bei der Erweiterung auf Distributionen, mit $\delta(t)$ als Einselement.
 
-Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
+- Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
 
+### Spezielle Funktionen
 
-1. Abtasteigenschaft
+> [!important] Die Faltung von $f(t)$ mit der Sprungfunktion $\sigma(t)$
+> 
+> $$(f * \sigma)(t)=\int_{-\infty}^{\infty} f(\tau) \sigma(t-\tau) \mathrm{d} \tau=\int_{-\infty}^t f(\tau) \mathrm{d} \tau$$
+> 
+> entspricht der Fläche unter der Funktion $f(t)$.
+> 
+> Also Liefert die Faltung mit der Sprungfunktion die Stammfunktion von $f$:
+> Systeme mit dem Einheitssprung als Impulsantwort sind ein **Integrator**
+>
 
-$$
-\int_{-\infty}^{\infty}f(t)*\delta(t-t_{0})\,\mathrm{d}t = f(t_{0})
-$$
+> [!important] Die Faltung von $f(t)$ mit der Dirac-Distribution $\delta(t)$
+> 
+> $$ (f * \delta)(t)=\int_{-\infty}^{\infty} f(\tau) \delta(t-\tau) \mathrm{d} \tau=f(t) $$
+> 
+> ergibt wieder die Funktion selbst, was unmittelbar aus der Abtasteigenschaft der Dirac-Distribution folgt. Damit ist $\delta(t)$ die „**Einsfunktion**" der Faltung.
+> 
+> Die Eigenschaften Fläche unter der Kurve bzw. Abtastwert der Funktion entsprechen umgekehrt der Definition der Funktionale der zugehörigen Distributionen $\sigma(t)$ und $\delta(t)$.
+> Diese Eigenschaft ist die **Abtasteigenschaft** der [Dirac-Distribution](../Mathematik/Algebra/Delta-Impuls.md).
 
-> [!question] Faltung im Zeitbereich wird zu einer Multiplikation im Frquenzbereich
-> Siehe Fourier-Reihe
 
 ---
 
@@ -63,7 +79,7 @@ x(t)=e^{-a t} \sigma(t) \sigma(T-t) \quad \text { mit } a>0
 $$
 
 
-Wie lautet die Systemantwort $y(t)$ ? Skizzieren Sie Eingangs- und Ausgangssignal!
+Wie lautet die Systemantwort $y(t)$ ? Skizzieren Sie Eingangsund Ausgangssignal!
 **(c)** Das Eingangssignal sei nun ein um $t_0$ zeitverschobener Dirac-Impuls,
 
 $$

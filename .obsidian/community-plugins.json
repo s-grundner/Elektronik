@@ -20,7 +20,6 @@
   "code-styler",
   "dataview",
   "obsidian-linter",
-  "table-editor-obsidian",
   "obsidian-icon-folder",
   "obsidian-style-settings",
   "settings-search",
@@ -35,5 +34,7 @@
   "obsidian-text-format",
   "obsidian-git",
   "obsidian-spaced-repetition",
+  "obsidian-excalidraw-plugin",
+  "table-editor-obsidian",
   "github-copilot"
 ]

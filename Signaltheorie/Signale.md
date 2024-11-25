@@ -1,10 +1,11 @@
 ---
 tags:
   - tikz/pgfplot
-aliases:
-  - Energiesignal
-  - Leistungssignal
-keywords: 
+aliases: 
+keywords:
+  - Kausalität
+  - Kontinuität
+  - Gerade/Ungerade
 subject:
   - VL
   - Signale und Systeme
@@ -29,7 +30,7 @@ professor:
 7. Beschränktheit
 8. Periodizität
 9. Deterministische und Stochastische Signale
-10. Leistungs- / Energiesignal
+10. [Leistungssignal](Leistungssignal.md) / [Energiesignal](Energiesignal.md)
 
 ### 1. Zeitkontinuität
 
@@ -222,46 +223,20 @@ $$
 \end{aligned}
 $$
 
-### Energiesignal
+### 6. Kausalität
 
-> [!info] **Kontinuierlich:**
-> $$
-> \int_{-\infty}^\infty \mid x(t)\mid^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
-> $$
-> $x^*$: Konjugation von $x$ (quadrat unabh. von der Phase)
+Die Wirkung tritt nicht vor der Ursache ein!
 
-> [!info] **Diskret**
-> 
-> $$
-> E=\sum_{n=-\infty}^{\infty}|x[n]|^2=\sum_{n=-\infty}^{\infty} x[n] x^*[n]
-> $$
-
-Ein periodisches Signal kann kein Energiesignal sein, da:
-- Integrationsbereich ist $-\infty$ bis $\infty$
-
-### Leistungssignal
-
-Die Leistung $P$ eines Signals berechnet sich zu:
-
-> [!info] **Kontinuierlich**
-> 
-> $$
-> P=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T|x(t)|^2 \mathrm{~d} t=\lim _{T \rightarrow \infty} \frac{1}{2 T} \int_{-T}^T x(t) x^*(t) \mathrm{d} t
-> $$
-
-> [!info] **Diskret**
-> 
-> $$
-> P=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N|x[n]|^2=\lim _{N \rightarrow \infty} \frac{1}{2 N+1} \sum_{n=-N}^N x[n] x^*[n]
-> $$
-> 
-
-Ein Leistungssignal liegt vor, wenn gilt:
+- Hängt das Ausgangssignal zu einem bestimmten Zeitpunkt $t_0$ nur von dem Verlauf des Eingangssignals bis einschließlich zu diesem Zeitpunkt ab (vergangene Werte bis inklusive aktuellem Wert), so bezeichnet man das System als kausal
 
 $$
-0 \leq P<\infty
+y\left(t_0\right)=\mathcal{T}\left\{x\left(t \leq t_0\right)\right\}
 $$
----
 
-- [Korrelation](Signaltheorie/Korrelation.md)
-- 
+- Die Impulsantwort $h(t)$ eines kausalen Systems ist kausal, d.h.
+
+$$
+h(t)=0 \quad \forall \quad t<0
+$$
+
+- Alle realen Systeme gehorchen diesem „Naturgesetz". Allerdings können Idealisierungen in der Systemtheorie auf nichtkausale Systeme führen und es ist oft einfacher mit diesen zu rechnen. Durch die Einführung einer künstlichen Verzögerung ist bei einem zeitbegrenzten nichtkausalen Anteil auch eine Realisierung möglich.

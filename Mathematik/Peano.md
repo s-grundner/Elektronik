@@ -31,11 +31,12 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 > 
 > $$ \alpha:=\min \left\{u, \frac{v}{M}\right\}, \quad M:=\max _{(t, x) \in Q_{u, v}}\|f(t, x)\| $$
 > 
-> > [!info]- Diese Aussage gilt auch...
-> > ... wenn man in $(1)$ das Intervall $\left[t_0, t_0+u\right]$ durch $\left[t_0-u, t_0\right.$ ] oder $\left[t_0-u, t_0+u\right]$ ersetzt, wobei sich dann das Existenzintervall zu $\left[t_0-\alpha, t_0\right]$ bzw. $\left[t_0-\alpha, t_0+\alpha\right]$ ändert.
+> > [!info]- Diese Aussage gilt auch…
+> > … wenn man in $(1)$ das Intervall $\left[t_0, t_0+u\right]$ durch $\left[t_0-u, t_0\right.$ ] oder $\left[t_0-u, t_0+u\right]$ ersetzt, wobei sich dann das Existenzintervall zu $\left[t_0-\alpha, t_0\right]$ bzw. $\left[t_0-\alpha, t_0+\alpha\right]$ ändert.
 
 
 > [!question] Quader $Q_{v,u}$
+
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
@@ -50,4 +51,3 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 
 \end{document}
 ```
-
