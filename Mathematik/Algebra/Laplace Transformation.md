@@ -157,6 +157,26 @@ $$
 \end{align*}
 $$
 
+# Laplace Tabelle
+
+$$
+\mathcal{L}\{\sin (\omega t)\}(s)=\frac{\omega}{s^2+\omega^2} \quad \text { und } \quad \mathcal{L}\{\cos (\omega t)\}(s)=\frac{s}{s^2+\omega^2}, \quad s>0,
+$$
+
+
+> [!success]- Wir zeigen nur die linke, der Beweis der rechten geht analog:
+> Mittels [Partieller Integration](../Analysis/Partielle%20Integration.md)
+> $$
+> \begin{aligned}
+> \int_0^{\infty} \sin (\omega t) e^{-s t} d t & =-\left.\frac{\cos (\omega t)}{\omega} e^{-s t}\right|_0 ^{\infty}-\frac{s}{\omega} \int_0^{\infty} \cos (\omega t) e^{-s t} d t \\
+> & =\frac{1}{\omega}-\frac{s}{\omega}\left(\left.\frac{\sin (\omega t)}{\omega} e^{-s t}\right|_0 ^{\infty}+\frac{s}{\omega} \int_0^{\infty} \sin (\omega t) e^{-s t} d t\right) \\
+> & =\frac{1}{\omega}-\frac{s^2}{\omega^2} \int_0^{\infty} \sin (\omega t) e^{-s t} d t
+> \end{aligned}
+> $$
+> 
+> 
+> Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
+
 # Tags
 
 [Laplace-Bildbereich](Laplace-Bildbereich.md)
