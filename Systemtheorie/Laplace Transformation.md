@@ -1,12 +1,19 @@
 ---
-tags: ["Transformation"]
-aliases: ["s-Domäne"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
-created: 26th April 2022
+tags: 
+aliases:
+  - s-Domäne
+keywords: 
+subject:
+  - VL
+  - Mathematik 3
+semester: WS24
+created: 4. März 2024
+professor:
+  - Markus Passenbrunner
 ---
+ 
 
-# Laplace Transformation - Multiplizieren Statt [Differenzieren](../Analysis/Differenzialrechnung.md)
+# Laplace Transformation
 
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
@@ -62,10 +69,7 @@ $$
 | (viii) | **Multiplikation**          | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                        |
 | (ix)   | **Division**                | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$                       |                                                                                                                      |
 
-
-
 ## Nützliche Laplace Transformationen
-
 
 $$
 \mathcal{L}\{\sin (\omega t)\}(s)=\frac{\omega}{s^2+\omega^2} \quad \text { und } \quad \mathcal{L}\{\cos (\omega t)\}(s)=\frac{s}{s^2+\omega^2}, \quad s>0,
@@ -86,6 +90,8 @@ $$
 > Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
 
 # Tags
+
+[Invers Laplace Transformation Rechner](https://de.symbolab.com/solver/inverse-laplace-calculator)
 
 [Laplace-Bildbereich](Laplace-Bildbereich.md)
 
