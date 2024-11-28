@@ -13,9 +13,12 @@ created: 8th June 2022
 
 # Trans-Konduktanz-Verstärker
 
-- Trans-Admittanzverstärker (Eingang: Spannung, Ausgang: Strom)
-    - z.B. [BJT](Halbleiter/Bipolartransistor.md)
-- Trans-Impedanzverstärker (Eingang: Strom, Ausgang: Spannung)
+> [!info] Begriffserklärung
+- Trans-Admittanzverstärker
+    - (Eingang: Spannung, Ausgang: Strom)
+- Trans-Impedanzverstärker
+    - (Eingang: Strom, Ausgang: Spannung)
+- Trans-Konduktanzverstärker: (Eingang: Spannung, Ausgang: Strom)
 
 ---
 
