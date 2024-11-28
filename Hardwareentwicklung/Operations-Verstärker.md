@@ -31,6 +31,8 @@ Slew-Rate: $SR>\dfrac{du}{dt}\rightarrow u(t)\dots$ Beschaltungssignal
 
 # Quellen
 
+[uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf](https://www.uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf)
+
 ![OPV](assets/pdf/OPV.pdf)
 
 ![OPV Grundschaltungen](assets/pdf/OPV%20Grundschaltungen.pdf)
