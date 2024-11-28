@@ -213,8 +213,11 @@ $$
 \begin{aligned}
 \left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{CE}}}\right|_{\mathrm{AP}}&=g_{\mathrm{EA}} \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{CE}}} \\ \\
 &=\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{CE}, 0}+U_{\mathrm{EA}}} \\ \\ \\ \\
-\end{aligned} \\ \\
-\boxed{ r_{\mathrm{BE}} \approx \frac{B}{S} } & \boxed{ S\approx \frac{I_{C,0}}{U_{T}} } & \boxed{ g_{\mathrm{EA}}= \frac{I_{C,0}}{U_{CE,0}+U_{EA}} } 
+\end{aligned} \\  \\
+ 
+\boxed{ r_{\mathrm{BE}} \approx \frac{B}{S} }
+& \boxed{ S\approx \frac{I_{C,0}}{U_{T}} }
+& \boxed{ g_{\mathrm{EA}}= \frac{I_{C,0}}{U_{CE,0}+U_{EA}} }
 \end{array}
 $$
 
