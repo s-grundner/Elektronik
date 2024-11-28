@@ -23,8 +23,7 @@
 		{"id":"d70fc1a84d8b2a7c","type":"text","text":"Lösung der Telegraphengleichung\n- Hin und Rücklaufende Welle","x":20,"y":480,"width":389,"height":102},
 		{"id":"4f30b8f37ce89847","type":"text","text":"Superposition von Hin Und Rückwelle","x":90,"y":720,"width":250,"height":106},
 		{"id":"3be5d7cf1a21cfc2","type":"text","text":"Transiente Simulation einer TL","x":483,"y":-880,"width":357,"height":71},
-		{"id":"17c10a2b4d341abf","type":"text","text":"AC-Simulation einer TL","x":-343,"y":720,"width":250,"height":79},
-		{"id":"5e11b7d37365dbf1","x":-421,"y":-921,"width":481,"height":77,"type":"text","text":"[subject::HF-Systemtechnik 1]"}
+		{"id":"17c10a2b4d341abf","type":"text","text":"AC-Simulation einer TL","x":-343,"y":720,"width":250,"height":79}
 	],
 	"edges":[
 		{"id":"a0a2f98defa6bcf2","fromNode":"24d1de2d53751065","fromSide":"bottom","toNode":"a36fe24ed718a069","toSide":"top"},
