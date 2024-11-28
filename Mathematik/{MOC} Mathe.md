@@ -72,7 +72,7 @@ SORT file.cday DESC
  - [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
  - [Schwingkreise](../Physik/Schwingkreise.md)
  - [Fourier Transformation](Fourier%20Transformation.md)
- - [Laplace Transformation](Laplace%20Transformation.md)
+ - [Laplace Transformation](../Systemtheorie/Laplace%20Transformation.md)
 
 ## 5. JG
 
