@@ -53,7 +53,6 @@
     "exam (vl)": "datetime",
     "exam (2)": "datetime",
     "exam (1)": "datetime",
-    "due": "date",
-    "show_all_semesters": "checkbox"
+    "due": "date"
   }
 }
