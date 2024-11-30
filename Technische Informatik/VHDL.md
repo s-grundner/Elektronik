@@ -13,56 +13,53 @@ professor:
 
 # VHDL
 
-> [!important] Registerund Kombinatorikprozesse trennen!
+> [!important] Register und Kombinatorikprozesse trennen!
 > 
 > - **Kombinatorik:** *alle* inputs außer `clk_i` und `reset_i` in der Sensitivity List
 > - **Register:** nur `clk_i` und `reset_i` in der Sensitivity List
 
 > [!warning] Niemals benötigt man `clk_i` und `reset_i` in einem kombinatorischen Prozess
 
-## Entity / Architecture
+> [!warning] Inferred Latches:
+> Wenn ein Signal in einem Prozess nicht in jedem Fall zugewiesen wird, wird es zu einem Latch
 
-```vhdl title="entity"
-entity ...
-```
-
-```vhdl title="architecture"
-
-```
-
-## Clock Generierung
-
-```vhdl
-clk_gen :  process(tb_clk) is
+```vhdl title="Latch❌"
+reg_seq : process(clk_i, rst_i) is
 begin
-    tb_clk <= not tb_clk after 1 ns; -- 500MHz Clock
-end process clk_gen
+    if rst_i = '1' then
+        hold_value_o <= (others => '0');
+    elsif rising_edge(clk_i) then
+        hold_value_o <= hold_value;
+    end if;
+end process reg_seq;
+
+hold_comb : process(strb_i, value_i) is
+begin
+    if strb_i = '1' then
+        hold_value <= resize(value_i, 16);
+    end if;
+end process hold_comb;
 ```
 
-## FSM in VHDL
+Immer mit `next` signalen Arbeiten (Dienen als Speicher und implizieren )
 
-```vhdl title="Finite State Machine"
-fsm_combinatoric : process (start_button_i, counter_value_i, blink_fsm_state) is
+```vhdl title="D-Flip-Flop✅"
+reg_seq : process(clk_i, rst_i) is
 begin
-    next_blink_fsm_state <= blink_fsm_state; -- Standard zuweisung: alten State übernehmen
-    ...
-    case blink_fsm_state is
-        when START =>
-            if ... then
-                ...
-                next_blink_fsm_state <= ...; -- Neuer State
-            end if;
-        when WAIT_2s =>
-            if ... then
-                ...
-                next_blink_fsm_state <= ...;
-            end if;
-        when LED_ON =>
-            if ... then
-                ...
-                next_blink_fsm_state <= ...;
-            end if;
-        when others => next_blink_fsm_state <= START;
-    end case;
-end process;
+    if rst_i = '1' then
+        hold_value_o <= (others => '0');
+    elsif rising_edge(clk_i) then
+        hold_value <= next_hold_value;
+    end if;
+end process reg_seq;
+
+hold_comb : process(strb_i, value_i) is
+begin
+    next_hold_value <= hold_value; -- Default value, if strb_i = '0'
+    if strb_i = '1' then
+        next_hold_value <= resize(value_i, 16);
+    end if;
+end process hold_comb;
+
+hold_value_o <= hold_value;
 ```
