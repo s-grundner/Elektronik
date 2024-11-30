@@ -20,6 +20,8 @@ professor:
 
 > [!warning] Niemals benötigt man `clk_i` und `reset_i` in einem kombinatorischen Prozess
 
+## Inferred Latches
+
 > [!warning] Inferred Latches:
 > Wenn ein Signal in einem Prozess nicht in jedem Fall zugewiesen wird, wird es zu einem Latch
 
@@ -41,9 +43,9 @@ begin
 end process hold_comb;
 ```
 
-Immer mit `next` signalen Arbeiten (Dienen als Speicher und implizieren )
+> [!success] Immer mit `next` signalen Arbeiten (Dienen als Speicher und implizieren ein Register)
 
-```vhdl title="D-Flip-Flop✅"
+```vhdl title="Register / D-Flip-Flops✅"
 reg_seq : process(clk_i, rst_i) is
 begin
     if rst_i = '1' then
