@@ -41,6 +41,7 @@ created: 14th March 2022
 > >
 > >
 > >
+> >
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
@@ -77,26 +78,23 @@ $$
 
 Ein Randwertproblem (RWP) ist ein Problem, bei dem eine Differentialgleichung zusammen mit Randbedingungen gegeben ist.
 
-Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
-
-$x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
-
-Aber statt an $x_{0}(t_{0})=x_{0}$ (Anfangswert) betrachten wir Randwerte
-
-$$
-\begin{align}
-g(x(a), x(b)) = 0 \\
-g: \mathbb{R}^{m}\times R^{m} \rightarrow \mathbb{R}^{m}
-
-\end{align}
-$$
+> [!important] Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
+> $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
+> Aber statt an $x_{0}(t_{0})=x_{0}$ (Anfangswert) betrachten wir Randwerte
+> 
+> $$
+> \begin{align}
+> g(x(a), x(b)) = 0 \\
+> g: \mathbb{R}^{m}\times R^{m} \rightarrow \mathbb{R}^{m}
+> \end{align}
+> $$
 
 > [!example] Zum Beispiel betrachten wir die Schwingung einer Saite:
 > 
 > Auslenkung einer Saite aus der Ruhelage bei der Position $x$ zum Zeitpunkt $t$:
 > 
 > (Unterschiedlich gefärbte Schwingungen zu verschiedenen Zeitpunkten $t$)
-> 
+>
 > ```tikz
 > \usepackage{pgfplots}
 > \usepackage{tikz}
@@ -130,13 +128,54 @@ $$
 > 
 > \end{document}
 > ```
-> 
+>
 > - Die Saite ist von $x=0$ bis $x=L$ gespannt.
 > - $u(0,t) = u(L,t) = 0$
 
 RWP Liefern ein phänomen das es bei AWP nicht gibt:
 - beim AWP: Durch die Anfangsbedingung ist eine eindeutig existente Lösung gegeben
 - beim RWP: Es existieren Lösungen die nicht immer eindeutig sind, aber trotzdem eine physikalische relevanz haben.
+
+### Spezialfall
+
+$$
+\begin{align}
+x'' \overset{ (*) }{ = } a_{0}(t)x + a_{1}(t)x' \\
+R_{1}x:=\alpha_{1} x(a) + \alpha_{2}x'(a) = \rho_{1} \\
+R_{2}x:=\beta_{1} x(b) + \beta_{2}x'(b) = \rho_{2}
+\end{align}
+$$
+
+Seien $x_{1}, x_{2}$ zwei linear unabhangige Lösungen von $(*)$ auf $[a,b]$.
+
+- Können wir $x(t)=c_{1}x_{1}(t)+ c_{2}x_{2}(t)$ (alle Linearkombinationen) so wählen, sodass $Rx_{1}=\rho_{1}, Rx_{2}=\rho_{2}$?
+
+Einsetzen liefert:
+
+$$
+\begin{align}
+R_{1}x = c_{1}R_{1}x_{1}+c_{2}R_{2}x_{2} \overset{ ! }{ = } \rho_{1} \\
+R_{2}x = c_{1}R_{1}x_{1}+c_{2}R_{2}x_{2} \overset{ ! }{ = } \rho_{2}
+\end{align}
+\qquad \text{ als LGS: }\qquad\begin{pmatrix}
+R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
+\end{pmatrix} \cdot \begin{pmatrix}
+c_{1} \\ c_{2}
+\end{pmatrix} = \begin{pmatrix}
+\rho_{1} \\ \rho_{2}
+\end{pmatrix}
+$$
+
+
+
+Eine Lösung existiert, wenn die [[Determinante]] der Koeffizientenmatrix $\neq 0$  ist bzw die Matrix invertierbar ist:
+
+$$
+\det\begin{pmatrix}
+R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
+\end{pmatrix} \neq 0
+$$
+
 
 ## Map of Content
 
