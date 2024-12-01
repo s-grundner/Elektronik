@@ -79,36 +79,64 @@ Ein Randwertproblem (RWP) ist ein Problem, bei dem eine Differentialgleichung zu
 
 Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
 
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
+$x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
 
-\begin{document}
+Aber statt an $x_{0}(t_{0})=x_{0}$ (Anfangswert) betrachten wir Randwerte
 
-\begin{tikzpicture}[font=\Large]
-\begin{axis}[thick, axis lines=middle,
-    xmin=0, ymin=0, xmax=4, ymax=1,
-    restrict y to domain=0:1.5,
-    xlabel={$x(t)$}, ylabel={$u(x,t)$},
-    xtick={0,3.1415},
-    xticklabels={$0$, $L$},
-    height=7cm,
-    width=20cm,
-]
+$$
+\begin{align}
+g(x(a), x(b)) = 0 \\
+g: \mathbb{R}^{m}\times R^{m} \rightarrow \mathbb{R}^{m}
 
-\plot[domain=0:4, samples=100, color=teal] {0.5*sin(deg(x))};
-\plot[domain=0:4, samples=100, color=red] {0.2*sin(deg(x))};
-\plot[domain=0:4, samples=100, color=green] {0.1*sin(deg(x))};
+\end{align}
+$$
 
-\draw[->] (axis cs:1,0.5) -- (axis cs:1,0.2);
+> [!example] Zum Beispiel betrachten wir die Schwingung einer Saite:
+> 
+> Auslenkung einer Saite aus der Ruhelage bei der Position $x$ zum Zeitpunkt $t$:
+> 
+> (Unterschiedlich gefärbte Schwingungen zu verschiedenen Zeitpunkten $t$)
+> 
+> ```tikz
+> \usepackage{pgfplots}
+> \usepackage{tikz}
+> \usepackage{amsmath}
+> \pgfplotsset{compat=1.16}
+> 
+> \begin{document}
+> 
+> \begin{tikzpicture}[font=\Large]
+> \begin{axis}[very thick, axis lines=middle,
+>     xmin=0, ymin=0, xmax=4, ymax=1,
+>     restrict y to domain=0:1.5,
+>     xlabel={$x(t)$}, ylabel={$u(x,t)$},
+>     xtick={0,1,3.141529},
+>     yticklabels={},
+>     xticklabels={$0$, $x$, $L$},
+>     height=7cm,
+>     width=20cm,
+> ]
+> 
+> \plot[domain=0:4, samples=100, color=cyan] {0.5*sin(deg(x))};
+> \plot[domain=0:4, samples=100, color=red] {0.2*sin(deg(x))};
+> \plot[domain=0:4, samples=100, color=green] {0.1*sin(deg(x))};
+> 
+> \draw[->, color=cyan] (axis cs:1,0) -- (axis cs:1,0.42073);
+> \draw[->, color=red] (axis cs:1,0) -- (axis cs:1,0.16829);
+> \draw[->, color=green] (axis cs:1,0) -- (axis cs:1,0.08414);
+> 
+> \end{axis}
+> \end{tikzpicture}
+> 
+> \end{document}
+> ```
+> 
+> - Die Saite ist von $x=0$ bis $x=L$ gespannt.
+> - $u(0,t) = u(L,t) = 0$
 
-\end{axis}
-\end{tikzpicture}
-
-\end{document}
-```
+RWP Liefern ein phänomen das es bei AWP nicht gibt:
+- beim AWP: Durch die Anfangsbedingung ist eine eindeutig existente Lösung gegeben
+- beim RWP: Es existieren Lösungen die nicht immer eindeutig sind, aber trotzdem eine physikalische relevanz haben.
 
 ## Map of Content
 
