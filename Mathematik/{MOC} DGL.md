@@ -32,6 +32,8 @@ created: 14th March 2022
 > >
 > >
 > >
+> >
+> >
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
@@ -45,6 +47,12 @@ created: 14th March 2022
 
 ## Anfangswert Problem (AWP)
 
+Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung zusammen mit einer Anfangsbedingung gegeben ist. 
+
+> [!hint] Anfangswerte sind die Werte, die die Lösung der Differentialgleichung an einer bestimmten Stelle annehmen soll.
+> 
+
+
 > [!important] Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
 > 
 > $x$ heißt Lösung des Anfangswertproblems, wenn es ein Intervall $I$ mit $t_0 \in I$ gibt,
@@ -57,6 +65,14 @@ Um die Abhängigkeit der Lösung des AWP von $t_0$ und $x_0$ anzudeuten, schreib
 $$
 x\left(t ; t_0, x_0\right)
 $$
+
+## Randwertproblem (RWP)
+
+Ein Randwertproblem ist ein Problem, bei dem eine Differentialgleichung zusammen mit Randbedingungen gegeben ist.
+
+Bei Randwert
+
+Beispiel Schwingende Saite:
 
 ## Map of Content
 
