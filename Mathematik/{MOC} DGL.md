@@ -38,6 +38,8 @@ created: 14th March 2022
 > >
 > >
 > >
+> >
+> >
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
@@ -75,8 +77,6 @@ $$
 Ein Randwertproblem (RWP) ist ein Problem, bei dem eine Differentialgleichung zusammen mit Randbedingungen gegeben ist.
 
 Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
-
-Beispiel Schwingende Saite:
 
 ## Map of Content
 
