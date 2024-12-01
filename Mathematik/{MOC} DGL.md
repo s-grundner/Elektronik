@@ -40,6 +40,7 @@ created: 14th March 2022
 > >
 > >
 > >
+> >
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
@@ -77,6 +78,37 @@ $$
 Ein Randwertproblem (RWP) ist ein Problem, bei dem eine Differentialgleichung zusammen mit Randbedingungen gegeben ist.
 
 Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}[font=\Large]
+\begin{axis}[thick, axis lines=middle,
+    xmin=0, ymin=0, xmax=4, ymax=1,
+    restrict y to domain=0:1.5,
+    xlabel={$x(t)$}, ylabel={$u(x,t)$},
+    xtick={0,3.1415},
+    xticklabels={$0$, $L$},
+    height=7cm,
+    width=20cm,
+]
+
+\plot[domain=0:4, samples=100, color=teal] {0.5*sin(deg(x))};
+\plot[domain=0:4, samples=100, color=red] {0.2*sin(deg(x))};
+\plot[domain=0:4, samples=100, color=green] {0.1*sin(deg(x))};
+
+\draw[->] (axis cs:1,0.5) -- (axis cs:1,0.2);
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
 
 ## Map of Content
 
