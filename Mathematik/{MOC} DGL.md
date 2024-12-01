@@ -42,6 +42,8 @@ created: 14th March 2022
 > >
 > >
 > >
+> >
+> >
 > > [!info] Ordunung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
@@ -168,14 +170,27 @@ $$
 
 
 
-Eine Lösung existiert, wenn die [[Determinante]] der Koeffizientenmatrix $\neq 0$  ist bzw die Matrix invertierbar ist:
+Eine Lösung existiert, wenn die [[Determinante]] der Koeffizientenmatrix $\neq 0$ ist bzw die Matrix invertierbar ist:
 
 $$
 \det\begin{pmatrix}
 R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
 \end{pmatrix} \neq 0
 $$
+In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw garkeine Lösungen für das LGS.
 
+> [!example] Fortsetzung des Beispiels einer Schwingenden Saite:
+> Wir schreiben nun die **partielle** Differentialgleichung für die Schwingung einer Saite auf: **die Wellengleichung**
+> partiell da $u(x,t)$ von zwei sich ändernenden Variablen abhängt.
+
+$$
+\frac{\partial^{2}u}{\partial t^{2}} = c^{2} \frac{\partial^{2}u}{\partial x^{2}}
+$$
+
+Beschreibung dieser Wellengleichung:
+
+- Die zweite Ableitung nach der Zeit $t$ ist proportional zur zweiten Ableitung nach dem Ort $x$.
+- Mit einem vom Ausbreitungmedium Abhängenden $c$
 
 ## Map of Content
 

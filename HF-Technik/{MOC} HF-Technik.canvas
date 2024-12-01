@@ -5,7 +5,7 @@
 		{"id":"d2f29e0b15dc9044","type":"text","text":"Ausbreitung für allgemeine Wellenformen","x":-169,"y":-435,"width":250,"height":120},
 		{"id":"f106cdcf9b6bba26","type":"text","text":"Leitergeometrie","x":-520,"y":-378,"width":250,"height":52},
 		{"id":"a36fe24ed718a069","type":"text","text":"Transmissionline","x":-520,"y":-483,"width":250,"height":60},
-		{"id":"24d1de2d53751065","type":"text","text":"RF-Signale","x":-520,"y":-598,"width":250,"height":60},
+		{"id":"24d1de2d53751065","type":"text","text":"RF-Signale","x":-520,"y":-598,"width":250,"height":60,"color":"6"},
 		{"id":"a96d2866e869faf3","type":"text","text":"TEM Moden","x":-520,"y":-188,"width":250,"height":60},
 		{"id":"29ec5b274a3b5a71","type":"text","text":"non-TEM Moden","x":-920,"y":-382,"width":250,"height":60},
 		{"id":"7698d48f443a937f","type":"text","text":"LWL","x":-920,"y":-176,"width":250,"height":60},
