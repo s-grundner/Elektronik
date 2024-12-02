@@ -156,6 +156,7 @@ Fall unterscheidung:
 - Fälle für den Harmonischen Oszillator
 - aus dem Charakteristischen Polynom $p(z)$ hergeleitet
     - wobei $z$ die [Eigenwerte](Eigenvektor.md) sind da der Name $\lambda$ schon vergeben ist
+
 $$
 \text{ Ansatz }\to\begin{cases}
 \lambda < 0: c_{1}\cdot \cos(\sqrt{ -\lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ -\lambda }\cdot x) \\
