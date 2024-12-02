@@ -131,11 +131,40 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 Annahme: $x, t$ sind separiert in der Form: $u(x,t) = X(x)\cdot T(t)$
 
 $$
+\begin{rcases}
+\dfrac{\partial^{2}u}{\partial t^{2}} = X(x)\cdot T''(t) \\
+\dfrac{\partial^{2}u}{\partial x^{2}} = X''(x)\cdot T(t)
+\end{rcases}\implies
 \begin{align}
-\frac{\partial^{2}u}{\partial t^{2}} = X(x)\cdot T''(t) \\
-\frac{\partial^{2}u}{\partial x^{2}} = X''(x)\cdot T(t)
-\end{align} \begin{cases}
+ X(x)\cdot T''(t) &= c^{2}\cdot X''(x)\cdot T(t) \\
+\frac{T''(t)}{T(t)}&= c^{2}\cdot \frac{X''(x)}{X(t)}
+\end{align}
+$$
 
+
+Da die Linke Seite nur von $t$ Abhängt und die Rechte seite nur von $x$ muss gelten, dass
+
+$$
+c^{-2}\cdot\frac{T''(t)}{T(t)} = \lambda = \frac{X''(x)}{X(x)}
+$$
+mit der **konstanten** $\lambda$
+
+Allgemeine Lösung von $X''(x)=\lambda \cdot X(x)$:
+
+Fall unterscheidung:
+- Fälle für den Harmonischen Oszillator
+- aus dem Charakteristischen Polynom $p(z)$ hergeleitet
+    - wobei $z$ die Eigenwerte sind da der Name $\lambda$ schon vergeben ist
+$$
+\text{ Ansatz }\to\begin{cases}
+\lambda < 0: c_{1}\cdot \cos(\sqrt{ -\lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ -\lambda }\cdot x) \\
+\lambda > 0: c_{1}\cdot \cos(\sqrt{ \lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ \lambda }\cdot x) \\
+\lambda=0:c_{1}+c_{2}\cdot x
 \end{cases}
 $$
 
+RWP: $X(0)=X(L) = 0$
+
+$$
+
+$$
