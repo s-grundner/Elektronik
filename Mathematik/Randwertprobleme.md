@@ -130,75 +130,88 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 > - Die zweite Ableitung nach der Zeit $t$ ist proportional zur zweiten Ableitung nach dem Ort $x$.
 > - Mit einem vom Ausbreitungmedium Abhängenden $c$
 
-Annahme: $x, t$ sind separiert in der Form: $u(x,t) = X(x)\cdot T(t)$
+>[!example] Bestimmen der Form unter Annahme: $x, t$ sind separiert in der Form: $u(x,t) = X(x)\cdot T(t)$
+> 
+> $$
+> \begin{rcases}
+> \dfrac{\partial^{2}u}{\partial t^{2}} = X(x)\cdot T''(t) \\
+> \dfrac{\partial^{2}u}{\partial x^{2}} = X''(x)\cdot T(t)
+> \end{rcases}\implies
+> \begin{align}
+>  X(x)\cdot T''(t) &= c^{2}\cdot X''(x)\cdot T(t) \\
+> \frac{T''(t)}{T(t)}&= c^{2}\cdot \frac{X''(x)}{X(t)}
+> \end{align}
+> $$
+> 
+> 
+> Da die Linke Seite nur von $t$ Abhängt und die Rechte seite nur von $x$ muss gelten, dass
+> 
+> $$
+> c^{-2}\cdot\frac{T''(t)}{T(t)} = \lambda = \frac{X''(x)}{X(x)} \qquad \text{ mit der \textbf{konstanten} } \lambda
+> $$
 
-$$
-\begin{rcases}
-\dfrac{\partial^{2}u}{\partial t^{2}} = X(x)\cdot T''(t) \\
-\dfrac{\partial^{2}u}{\partial x^{2}} = X''(x)\cdot T(t)
-\end{rcases}\implies
-\begin{align}
- X(x)\cdot T''(t) &= c^{2}\cdot X''(x)\cdot T(t) \\
-\frac{T''(t)}{T(t)}&= c^{2}\cdot \frac{X''(x)}{X(t)}
-\end{align}
-$$
 
+>[!example] Ansätze zur Allgemeinen Lösung von $X''(x)=\lambda \cdot X(x)$:
+> 
+> Fall unterscheidung:
+> - Fälle für den Harmonischen Oszillator
+> - aus dem Charakteristischen Polynom $p(z)$ hergeleitet
+>     - wobei $z$ die [Eigenwerte](Eigenvektor.md) sind da der Name $\lambda$ schon vergeben ist
+> 
+> $$
+> \text{ Ansatz }\to\begin{cases}
+> \lambda < 0: c_{1}\cdot \cos(\sqrt{ -\lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ -\lambda }\cdot x) \\
+> \lambda > 0: c_{1}\cdot \cos(\sqrt{ \lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ \lambda }\cdot x) \\
+> \lambda=0:c_{1}+c_{2}\cdot x
+> \end{cases}
+> $$
 
-Da die Linke Seite nur von $t$ Abhängt und die Rechte seite nur von $x$ muss gelten, dass
-
-$$
-c^{-2}\cdot\frac{T''(t)}{T(t)} = \lambda = \frac{X''(x)}{X(x)} \qquad \text{ mit der \textbf{konstanten} } \lambda
-$$
-
-Allgemeine Lösung von $X''(x)=\lambda \cdot X(x)$:
-
-Fall unterscheidung:
-- Fälle für den Harmonischen Oszillator
-- aus dem Charakteristischen Polynom $p(z)$ hergeleitet
-    - wobei $z$ die [Eigenwerte](Eigenvektor.md) sind da der Name $\lambda$ schon vergeben ist
-
-$$
-\text{ Ansatz }\to\begin{cases}
-\lambda < 0: c_{1}\cdot \cos(\sqrt{ -\lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ -\lambda }\cdot x) \\
-\lambda > 0: c_{1}\cdot \cos(\sqrt{ \lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ \lambda }\cdot x) \\
-\lambda=0:c_{1}+c_{2}\cdot x
-\end{cases}
-$$
-
-RWP: $X(0)=X(L) = 0$
-
-$$
-\begin{align}
-\lambda=0&: c_{1}=0, \quad c_{1}+c_{2}\cdot L=0 &&\implies c_{1}=c_{2}=0 \\
-\lambda>0&: c_{1}+c_{2}=0, \quad c_{1}\cdot e^{ \sqrt{ X(t) }\cdot L }+c_{2}\cdot e^{ -\sqrt{ X(t) }\cdot L } &&\implies c_{1}=c_{2}=0 \\
-\end{align}
-$$
-
-Für den nun Interessanten Ansatz $\lambda<0$ lautet die Allgemeine Lösung:
-
-$$
-X(x)=c_{1} \cos(\sqrt{ -\lambda }\cdot x)+c_{2}\sin(\sqrt{ -\lambda }\cdot x) 
-$$
-mit $X(0)=X(L)=0$:
-
-$$
-\begin{align}
-X(0) &= c_{1} = 0 \\
-X(L) &= c_{2}\sin(\sqrt{ -\lambda }\cdot L) = 0
-\end{align}
-$$
-
-$X(L)$ ist erfüllt wenn:
-$$
-\sin(\sqrt{ -\lambda }\cdot L) \iff \sqrt{ -\lambda }\cdot L =k\pi \iff \boxed{ -\lambda=\frac{k^{2}\pi^{2}}{L^{2}} }, \quad k \in\mathbb{Z}
-$$
-(oder triviale Lösung $c_{2} = 0$)
+>[!example] EInsetzen in RWP: $X(0)=X(L) = 0$
+> 
+> $$
+> \begin{align}
+> \lambda=0&: c_{1}=0, \quad c_{1}+c_{2}\cdot L=0 &&\implies c_{1}=c_{2}=0 \\
+> \lambda>0&: c_{1}+c_{2}=0, \quad c_{1}\cdot e^{ \sqrt{ X(t) }\cdot L }+c_{2}\cdot e^{ -\sqrt{ X(t) }\cdot L } &&\implies c_{1}=c_{2}=0 \\
+> \end{align}
+> $$
+> 
+> Für den nun Interessanten Ansatz $\lambda<0$ lautet die Allgemeine Lösung:
+> 
+> $$
+> X(x)=c_{1} \cos(\sqrt{ -\lambda }\cdot x)+c_{2}\sin(\sqrt{ -\lambda }\cdot x) 
+> $$
+> mit $X(0)=X(L)=0$:
+> 
+> $$
+> \begin{align}
+> X(0) &= c_{1} = 0 \\
+> X(L) &= c_{2}\sin(\sqrt{ -\lambda }\cdot L) = 0
+> \end{align}
+> $$
+> 
+> $X(L)$ ist erfüllt wenn:
+> $$
+> \sin(\sqrt{ -\lambda }\cdot L) \iff \sqrt{ -\lambda }\cdot L =k\pi \iff \boxed{ -\lambda=\frac{k^{2}\pi^{2}}{L^{2}} }, \quad k \in\mathbb{Z}
+> $$
+> (oder triviale Lösung $c_{2} = 0$)
 
 > [!hint] WIr erhalten also nur für $-\lambda = \frac{k^{2}\pi^{2}}{L^{2}}, k \in\mathbb{Z}$ nicht triviale Lösungen von
 > $$ X''(x) = \lambda \cdot X(x), \quad X(0)=X(L)=0 $$
 > und in diesem Fall ist die Lösung:
 > $$ X(x) = c_{2}\sin\left(\frac{k\pi}{L}\cdot x\right), c_{2} \in \mathbb{R}$$
 >
-> - (Diese $\lambda$ heißen Eigenwerte des Problems
-> - Zur Erinnerung: Was bedeutet Eigenwert?
->     - Ein Eigenwert ist ein wert bei dem ein LGS 
+> Diese $\lambda$ heißen Eigenwerte des Problems.
+> Dir Lösungen $X_{k}(x) = \sin\left(\frac{k\pi}{L}\cdot x\right)$ heißen Eigenfunktionen des Problems.
+>
+> 
+> > [!question] Zur Erinnerung: Was bedeutet Eigenwert?
+>     >- Ein Eigenwert ist ein Wert bei dem ein LGS potenziell mehrere d.h. wo die Lösung nicht eindeutig bestimmt ist. 
+>     
+
+Nun wird noch eine Lösung für $T(t)$ gesucht:
+
+$$
+\begin{align}
+
+\end{align}
+$$
