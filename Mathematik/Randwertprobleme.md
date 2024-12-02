@@ -75,7 +75,7 @@ RWP Liefern ein phänomen das es bei AWP nicht gibt:
 - beim AWP: Durch die Anfangsbedingung ist eine eindeutig existente Lösung gegeben
 - beim RWP: Es existieren Lösungen die nicht immer eindeutig sind, aber trotzdem eine physikalische relevanz haben.
 
-## Spezialfall
+## Spezialfall: Eigenwertprobleme (EWP)
 
 $$
 \begin{align}
@@ -212,6 +212,16 @@ Nun wird noch eine Lösung für $T(t)$ gesucht:
 
 $$
 \begin{align}
-
+\frac{T''(t)}{T(t)} &= \lambda_{k}\cdot c^{2} \\
+T(t) &= a_{k}\cdot \cos\left(\sqrt{ -\lambda_{k} }\cdot c\cdot t\right) + b_{k}\cdot \sin\left(\sqrt{ -\lambda_{k} }\cdot c\cdot t\right) \\
+&= a_{k}\cdot \cos\left(\frac{k\pi}{L}\cdot c\cdot t\right) + b_{k}\cdot \sin\left(\frac{k\pi}{L}\cdot c\cdot t\right)
 \end{align}
 $$
+
+> [!success] Lösung
+> 
+> $$
+> \sum_{k=1}^{\infty}\sin\left(\frac{k\pi}{L}\cdot x\right)\cdot\left( a_{k}\cdot \cos\left(\frac{k\pi}{L}\cdot c\cdot t\right) + b_{k}\cdot \sin\left(\frac{k\pi}{L}\cdot c\cdot t\right) \right)
+> $$
+> $k=1$: Grundton
+> $k>1$: Obertöne
