@@ -74,10 +74,8 @@ $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1}
 > [!success] Hier ist gezeigt, dass $R(t)$ tatsächlich die eindeutige Lösung des [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md) ist:
 > ![](assets/Pasted%20image%2020241106135932.png)
 
-$$
-\left(\begin{matrix}
-\frac{e^\left(7*t\right)+5*e^\left(6*o+t\right)}{6*e^\left(7*o\right)} & \frac{e^\left(7*t\right)-e^\left(6*o+t\right)}{6*e^\left(7*o\right)} & \frac{e^\left(7*t\right)-e^\left(6*o+t\right)}{3*e^\left(7*o\right)} \\
-\frac{e^\left(7*t\right)-e^\left(6*o+t\right)}{6*e^\left(7*o\right)} & \frac{e^\left(7*t\right)+5*e^\left(6*o+t\right)}{6*e^\left(7*o\right)} & \frac{e^\left(7*t\right)-e^\left(6*o+t\right)}{3*e^\left(7*o\right)} \\
-\frac{e^\left(7*t\right)-e^\left(6*o+t\right)}{3*e^\left(7*o\right)} & \frac{e^\left(7*t\right)-e^\left(6*o+t\right)}{3*e^\left(7*o\right)} & \frac{2*e^\left(7*t\right)+e^\left(6*o+t\right)}{3*e^\left(7*o\right)}
-\end{matrix}\right)
-$$
+## DGL-Systeme mit konstanten Koeffizienten
+
+Bei DGL Systemen mit konstanten Koeffizienten lässt sich die Fundamentalmatrix $X(t)$ durch die Matrix-Exponentialfunktion und den Hauptvektoren des Systems bestimmen: 
+
+- Siehe [Fundamentalmatrix](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md#Fundamentalmatrix) in DGL Systeme mit konstanten Koeffizienten

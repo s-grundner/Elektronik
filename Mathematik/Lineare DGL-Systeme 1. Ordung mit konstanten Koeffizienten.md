@@ -106,27 +106,27 @@ e^{ \lambda_{1} } & 0 & 0 \\
 \end{pmatrix}
 $$
 
-Überlegungen zum Allgemeinen fall: Wir suchen Vektoren, die dazumultipliziert werden können um eine endliche Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren.
+> [!important] Überlegungen zum Allgemeinen fall:
+> Wir suchen Vektoren, die dazumultipliziert werden können um eine endliche Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren.
 
 ### Allgemein
 
 Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
 
 $$
-\begin{align}
-e^{ tA } &= e^{ \lambda t \mathbb{1} +t(A-\lambda \mathbb{1}) } = e^{ \lambda t \mathbb{1} } \cdot e^{ t(A-\lambda \mathbb{1}) } \\
-&= e^{ \lambda t \mathbb{1} } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k
-\end{align}
+e^{ tA } = e^{ \lambda t \mathbb{1} +t(A-\lambda \mathbb{1}) } = e^{ \lambda t \mathbb{1} } \cdot e^{ t(A-\lambda \mathbb{1}) } = e^{ \lambda t \mathbb{1} } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k
 $$
 
-Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Eigenvektor.md): 
+> [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Eigenvektor.md): 
+> - Die Vektoren $v$ werden für den Lösungsansatz dazumultipliziert, um die Diagonale Form der Exponenzialmatrix zu erhalten.
+> - Das ist möglich da ja gilt, dass die Linearkombination aller Lösungen wieer eine Lösung ist.  
+> $$
+> \begin{align}
+> e^{ \lambda t \mathbb{1}} \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k \cdot v = e^{ \lambda t\cdot \mathbb{1} } \cdot v 
+> \end{align}
+> $$
+> Falls $v$ ein Eigenvektor ist, dann gilt $(A-\lambda \mathbb{1})\cdot v=0$. 
 
-$$
-\begin{align}
-e^{ \lambda t \mathbb{1}} \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k \cdot v = e^{ \lambda t\cdot \mathbb{1} } \cdot v 
-\end{align}
-$$
-Falls $v$ ein Eigenvektor ist, dann gilt $(A-\lambda \mathbb{1})\cdot v=0$. 
 
 > [!success] Die Summe bricht nach $k=0$ ab da für die restlichen Glieder $(A-\lambda \mathbb{1})\cdot v=0$ gilt. 
 > Es zählt nur der erste Summand da $0^{0}$ als $\mathbb{1}$ definiert ist.
