@@ -190,5 +190,15 @@ $$
 
 $X(L)$ ist erfüllt wenn:
 $$
-\sin(\sqrt{ -\lambda }\cdot L) \iff \sqrt{ -\lambda }\cdot L =k\pi \iff -\lambda=\frac{k^{2}\pi^{2}}{L^{2}}
+\sin(\sqrt{ -\lambda }\cdot L) \iff \sqrt{ -\lambda }\cdot L =k\pi \iff \boxed{ -\lambda=\frac{k^{2}\pi^{2}}{L^{2}} }, \quad k \in\mathbb{Z}
 $$
+(oder triviale Lösung $c_{2} = 0$)
+
+> [!hint] WIr erhalten also nur für $-\lambda = \frac{k^{2}\pi^{2}}{L^{2}}, k \in\mathbb{Z}$ nicht triviale Lösungen von
+> $$ X''(x) = \lambda \cdot X(x), \quad X(0)=X(L)=0 $$
+> und in diesem Fall ist die Lösung:
+> $$ X(x) = c_{2}\sin\left(\frac{k\pi}{L}\cdot x\right), c_{2} \in \mathbb{R}$$
+>
+> - (Diese $\lambda$ heißen Eigenwerte des Problems
+> - Zur Erinnerung: Was bedeutet Eigenwert?
+>     - Ein Eigenwert ist ein wert bei dem ein LGS 
