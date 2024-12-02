@@ -1,7 +1,9 @@
 ---
 tags: 
 aliases: 
-keywords: 
+keywords:
+  - harmonischer Oszillator
+  - Wellengleichung
 subject:
   - VL
   - Mathematik 3
@@ -154,7 +156,7 @@ Allgemeine Lösung von $X''(x)=\lambda \cdot X(x)$:
 Fall unterscheidung:
 - Fälle für den Harmonischen Oszillator
 - aus dem Charakteristischen Polynom $p(z)$ hergeleitet
-    - wobei $z$ die Eigenwerte sind da der Name $\lambda$ schon vergeben ist
+    - wobei $z$ die [Eigenwerte](Eigenvektor.md) sind da der Name $\lambda$ schon vergeben ist
 $$
 \text{ Ansatz }\to\begin{cases}
 \lambda < 0: c_{1}\cdot \cos(\sqrt{ -\lambda }\cdot x) + c_{2}\cdot \sin(\sqrt{ -\lambda }\cdot x) \\
@@ -166,5 +168,27 @@ $$
 RWP: $X(0)=X(L) = 0$
 
 $$
+\begin{align}
+\lambda=0&: c_{1}=0, \quad c_{1}+c_{2}\cdot L=0 &&\implies c_{1}=c_{2}=0 \\
+\lambda>0&: c_{1}+c_{2}=0, \quad c_{1}\cdot e^{ \sqrt{ X(t) }\cdot L }+c_{2}\cdot e^{ -\sqrt{ X(t) }\cdot L } &&\implies c_{1}=c_{2}=0 \\
+\end{align}
+$$
 
+Für den nun Interessanten Ansatz $\lambda<0$ lautet die Allgemeine Lösung:
+
+$$
+X(x)=c_{1} \cos(\sqrt{ -\lambda }\cdot x)+c_{2}\sin(\sqrt{ -\lambda }\cdot x) 
+$$
+mit $X(0)=X(L)=0$:
+
+$$
+\begin{align}
+X(0) &= c_{1} = 0 \\
+X(L) &= c_{2}\sin(\sqrt{ -\lambda }\cdot L) = 0
+\end{align}
+$$
+
+$X(L)$ ist erfüllt wenn:
+$$
+\sin(\sqrt{ -\lambda }\cdot L) \iff \sqrt{ -\lambda }\cdot L =k\pi \iff -\lambda=\frac{k^{2}\pi^{2}}{L^{2}}
 $$
