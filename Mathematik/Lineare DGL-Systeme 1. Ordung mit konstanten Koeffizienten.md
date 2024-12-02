@@ -3,6 +3,8 @@ tags:
 aliases:
   - Matrix-Exponentialfunktion
   - Matrix-Exponential
+  - Hauptvektoren
+  - Hauptvektor
 keywords: 
 subject:
   - VL
@@ -27,7 +29,7 @@ $A$ ist jetzt nicht mehr von $t$ Abhängig
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 
 Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: 
-Und zwar mit der Matrix-Exponentialfunktion. $a$ wird zur Matrix $A$.
+Und zwar mit der Matrix-[Exponentialfunktion](Analysis/Exponentialfunktion.md). $a$ wird zur Matrix $A$.
 
 ## Matrix-Exponentialfunktion
 
@@ -59,7 +61,7 @@ $$
 \underbrace{ e^{(t-t_{0}) A } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
 $$
 
-Die Fundamentalmatrix ist also $e^{ tA }$.
+Die [Fundamentalmatrix](Fundamentalmatrix.md) ist also $e^{ tA }$.
 
 Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}=\mathbb{1}$.
 
@@ -131,8 +133,23 @@ $$
 > [!success] Die Summe bricht nach $k=0$ ab da für die restlichen Glieder $(A-\lambda \mathbb{1})\cdot v=0$ gilt. 
 > Es zählt nur der erste Summand da $0^{0}$ als $\mathbb{1}$ definiert ist.
 
-Um nun eine Fundamentalmatrix zu erhalten, müssen wir genügend linear unabhängige Eigenvektoren finden. 
+> [!important] Um nun eine Fundamentalmatrix zu erhalten, müssen wir **genügend linear unabhängige Eigenvektoren** finden. 
+> 
+>
+> Gibt es nicht genug linearunabhängige Eigenvektoren z.B. wenn es Eigenwerte mit einer algebraische Vielfachheit $>1$ gibt, sucht man bildet man die Hauptvektoren
 
+#### Hauptvektoren
+
+> [!important] Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt Hauptvektor der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn
+> 
+> $\left(A-\lambda I_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda I_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
+> 
+> Ein Hauptvektor der Stufe $l=1$ ist offensichtlich ein Eigenvektor.
+
+Diese lassen sich mit der obigen Gleichung **rekursiv** ermitteln
+
+
+### Prozedur zur ermittlung der Fundamentalmatrix
 Man verfolgt die Prozedur:
 
 1. Eigenwerte $\lambda$ von $A$ bestimmen
