@@ -79,32 +79,32 @@ RWP Liefern ein phänomen das es bei AWP nicht gibt:
 
 $$
 \begin{align}
-x'' \overset{ (*) }{ = } a_{0}(t)x + a_{1}(t)x' \\
-R_{1}x:=\alpha_{1} x(a) + \alpha_{2}x'(a) = \rho_{1} \\
-R_{2}x:=\beta_{1} x(b) + \beta_{2}x'(b) = \rho_{2}
+x'' &\overset{ (*) }{ = } a_{0}(t)\cdot x + a_{1}(t)\cdot x' \\
+R_{1}x:&=\alpha_{1}\cdot x(a) + \alpha_{2}\cdot x'(a) = \rho_{1} \\
+R_{2}x:&=\beta_{1}\cdot x(b) + \beta_{2}\cdot x'(b) = \rho_{2}
 \end{align}
 $$
 
 Seien $x_{1}, x_{2}$ zwei linear unabhangige Lösungen von $(*)$ auf $[a,b]$.
 
-- Können wir $x(t)=c_{1}x_{1}(t)+ c_{2}x_{2}(t)$ (alle Linearkombinationen) so wählen, sodass $Rx_{1}=\rho_{1}, Rx_{2}=\rho_{2}$?
+> [!question] Können wir $x(t)=c_{1}x_{1}(t)+ c_{2}x_{2}(t)$ (alle Linearkombinationen) so wählen, sodass $Rx_{1}=\rho_{1}, Rx_{2}=\rho_{2}$?
 
-Einsetzen liefert:
-
-$$
-\begin{align}
-R_{1}x = c_{1}R_{1}x_{1}+c_{2}R_{2}x_{2} \overset{ ! }{ = } \rho_{1} \\
-R_{2}x = c_{1}R_{1}x_{1}+c_{2}R_{2}x_{2} \overset{ ! }{ = } \rho_{2}
-\end{align}
-\qquad \text{ als LGS: }\qquad\begin{pmatrix}
-R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
-\end{pmatrix} \cdot \begin{pmatrix}
-c_{1} \\ c_{2}
-\end{pmatrix} = \begin{pmatrix}
-\rho_{1} \\ \rho_{2}
-\end{pmatrix}
-$$
-
+> [!success] Einsetzen liefert:
+> 
+> $$
+> \begin{align}
+> R_{1}x = c_{1}R_{1}x_{1}+c_{2}R_{2}x_{2} \overset{ ! }{ = } \rho_{1} \\
+> R_{2}x = c_{1}R_{1}x_{1}+c_{2}R_{2}x_{2} \overset{ ! }{ = } \rho_{2}
+> \end{align}
+> \qquad \text{ als LGS: }\qquad\begin{pmatrix}
+> R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
+> \end{pmatrix} \cdot \begin{pmatrix}
+> c_{1} \\ c_{2}
+> \end{pmatrix} = \begin{pmatrix}
+> \rho_{1} \\ \rho_{2}
+> \end{pmatrix}
+> $$
+> 
 
 
 Eine Lösung existiert, wenn die [[Determinante]] der Koeffizientenmatrix $\neq 0$ ist bzw die [Matrix](Algebra/Matrix.md) invertierbar ist:
@@ -147,9 +147,8 @@ $$
 Da die Linke Seite nur von $t$ Abhängt und die Rechte seite nur von $x$ muss gelten, dass
 
 $$
-c^{-2}\cdot\frac{T''(t)}{T(t)} = \lambda = \frac{X''(x)}{X(x)}
+c^{-2}\cdot\frac{T''(t)}{T(t)} = \lambda = \frac{X''(x)}{X(x)} \qquad \text{ mit der \textbf{konstanten} } \lambda
 $$
-mit der **konstanten** $\lambda$
 
 Allgemeine Lösung von $X''(x)=\lambda \cdot X(x)$:
 
