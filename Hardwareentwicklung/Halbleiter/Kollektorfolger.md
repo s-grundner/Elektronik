@@ -74,7 +74,21 @@ professor:
 
 ## Kleinsignal Ersatzschaltbild
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
 
+\begin{document}
+\begin{circuitikz}[thick]
+% Begin Schematic
+
+
+
+
+
+\end{circuitikz}
+\end{document}
+```
 # Quellen
 
 [Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/slt/0204302.htm)
