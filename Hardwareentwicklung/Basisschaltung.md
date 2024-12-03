@@ -61,11 +61,23 @@ $$
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, font=\Large, scale=1.5]
 % Begin Schematic
 
-\draw (0, 0) node[npn, invert, rotate=90](npn){};
+\draw (0, 1) node[npn, xscale=-1, rotate=90](npn){};
 
+\draw (npn.B) to[short, i<=$I_B$, -*] (0, -1) to[R] (0, -3) node[tlground]{};
+\draw (0, -1) to[short](-1, -1) to[C] (-1, -3) node[tlground]{};
+\draw (0, -1) to[R, -*] (2, -1) to[R] (2, 1);
+\draw (2, -1) to[short]
+    (3, -1) to[short]
+    (3, -0.75) node[vcc]{$U_0$};
+
+\draw (npn.C) to[short]
+    (2, 1) to[C, *-o]
+    (4, 1) to[short]
+    (5, 1) to[R, l=$R_L$]
+    (5, -3) node[tlground]{};
 
 
 \end{circuitikz}
