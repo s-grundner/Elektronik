@@ -20,7 +20,7 @@ professor:
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, font=\Large, scale=1.5]
+\begin{circuitikz}[thick, font=\LARGE, scale=1.5]
 % Begin Schematic
 
 \draw (0, 0) node[npn](npn){};
@@ -48,7 +48,6 @@ professor:
 \draw (0,-1) to[R, l_=$R_{E}$] (0, -3) node[tlground]{};
 \draw (0, 1) to[R, l=$R_{C}$, i<=$I_C$] (0, 3) node[vcc]{$U_0$};
 
-
 \end{circuitikz}
 \end{document}
 ```
@@ -61,14 +60,14 @@ $$
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, font=\Large, scale=1.5]
+\begin{circuitikz}[thick, font=\LARGE, scale=1.5]
 % Begin Schematic
 
 \draw (0, 1) node[npn, xscale=-1, rotate=90](npn){};
 
-\draw (npn.B) to[short, i<=$I_B$, -*] (0, -1) to[R] (0, -3) node[tlground]{};
-\draw (0, -1) to[short](-1, -1) to[C] (-1, -3) node[tlground]{};
-\draw (0, -1) to[R, -*] (2, -1) to[R] (2, 1);
+\draw (npn.B) to[short, i<=$I_B$, -*] (0, -1) to[R, l=$R_2$] (0, -3) node[tlground]{};
+\draw (0, -1) to[short](-1, -1) to[C, l_=$C_B$] (-1, -3) node[tlground]{};
+\draw (0, -1) to[R, l=$R_1$, -*] (2, -1) to[R, l=$R_C$, i=$I_C$] (2, 1);
 \draw (2, -1) to[short]
     (3, -1) to[short]
     (3, -0.75) node[vcc]{$U_0$};
@@ -78,6 +77,22 @@ $$
     (4, 1) to[short]
     (5, 1) to[R, l=$R_L$]
     (5, -3) node[tlground]{};
+
+\draw (4, 1) to[open, v=,name=ua, color=red]
+    (4, -2.5) to[short, o-]
+    (4, -3) node[tlground]{};
+
+\draw (npn.E) to[short]
+    (-2, 1) to[C, l_=$C_e$, *-o]
+    (-4, 1) to[R, l_=$R_i$]
+    (-6, 1) to[V, v_=$U_g$]
+    (-6, -3) node[tlground]{};
+
+\draw (-2, 1) to[R, l=$R_E$] (-2, -3) node[tlground]{};
+\draw (-4, 1) to[open, v=$u_e$, color=red]
+    (-4, -2.5) to[short, o-]
+    (-4, -3) node[tlground]{};
+
 
 
 \end{circuitikz}
