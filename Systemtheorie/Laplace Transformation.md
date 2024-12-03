@@ -89,9 +89,11 @@ $$
 
 ## Pol-Nullstellen
 
+![600](assets/Pasted%20image%2020241203095822.png)
+
 Polstellenlage vs. Zeitbereichssignal
-    
-![PolstellenLageVsZeitbereichslage](assets/Pasted%20image%2020241203095524.png)
+
+![600](assets/Pasted%20image%2020241203095524.png)
 
 
 # Tags
