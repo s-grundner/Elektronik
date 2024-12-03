@@ -25,6 +25,7 @@ professor:
 > 
 > $C_{\mathrm{E}}$ bewirkt mit zunehmender Frequenz einen Kurzschluss von $R_{\mathrm{E}}$ und hebt damit die Gegenkopplung für höhere Frequenzen auf. Dies bewirkt eine Erhöhung der Verstärkung und einen größeren Aussteuerbereich.
 
+
 ![](assets/Pasted%20image%2020241111093628.png)
 
 ```tikz
