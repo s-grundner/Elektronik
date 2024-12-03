@@ -1,6 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+  - tikz/circuitikz
+aliases:
+  - Basis-Schaltung
 keywords: 
 subject:
   - VL
@@ -8,6 +10,7 @@ subject:
 semester: WS24
 created: 18th November 2024
 professor:
+  - Bernhard Jakoby
 ---
  
 # Basisschaltung
@@ -43,7 +46,7 @@ professor:
     to[short] (3, 1)
     to[R, l_=$R_L$] (3, -3) node[tlground]{};
 
-\draw (2, 1) to[open, v=$u_a$, color=red] (2, -2) to[short, o-] (2, -3) node[tlground]{};
+\draw (2, 1) to[open, v=$u_a$, color=red] (2, -2.5) to[short, o-] (2, -3) node[tlground]{};
 
 \draw (0,-1) to[R, l_=$R_{E}$] (0, -3) node[tlground]{};
 \draw (0, 1) to[R, l=$R_{C}$, i<=$I_C$] (0, 3) node[vcc]{$U_0$};
@@ -73,12 +76,12 @@ $$
     (3, -0.75) node[vcc]{$U_0$};
 
 \draw (npn.C) to[short]
-    (2, 1) to[C, *-o]
+    (2, 1) to[C, l=$C_a$, *-o]
     (4, 1) to[short]
     (5, 1) to[R, l=$R_L$]
     (5, -3) node[tlground]{};
 
-\draw (4, 1) to[open, v=,name=ua, color=red]
+\draw (4, 1) to[open, v=$u_a$, color=red]
     (4, -2.5) to[short, o-]
     (4, -3) node[tlground]{};
 
@@ -98,5 +101,4 @@ $$
 \end{circuitikz}
 \end{document}
 ```
-![](assets/Pasted%20image%2020241118042259.png)
 

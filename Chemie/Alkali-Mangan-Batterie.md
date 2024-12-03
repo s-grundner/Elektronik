@@ -1,6 +1,6 @@
 ---
 tags:
-  - Elektrochemie/Primärelement
+  - Chemie/Elektrochemie/Primärelement
 aliases: 
 created: 2. März 2024
 ---
