@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - RWP
+  - Randwertprobleme
 keywords:
   - harmonischer Oszillator
   - Wellengleichung
@@ -10,6 +12,7 @@ subject:
 semester: WS24
 created: 1. Dezember 2024
 professor:
+  - Markus Passenbrunner
 ---
  
 
@@ -75,7 +78,6 @@ RWP Liefern ein phänomen das es bei AWP nicht gibt:
 - beim AWP: Durch die Anfangsbedingung ist eine eindeutig existente Lösung gegeben
 - beim RWP: Es existieren Lösungen die nicht immer eindeutig sind, aber trotzdem eine physikalische relevanz haben.
 
-## Spezialfall: Eigenwertprobleme (EWP)
 
 $$
 \begin{align}
@@ -116,6 +118,8 @@ R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
 $$
 In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw garkeine Lösungen für das [LGS](Analysis/Lineare%20Gleichungssysteme.md).
 
+## Spezialfall: Eigenwertprobleme (EWP)
+
 > [!example] Fortsetzung des Beispiels einer Schwingenden Saite:
 > Wir schreiben nun die **partielle** Differentialgleichung für die Schwingung einer Saite auf: 
 > die **[Wellengleichung](Wellengleichung.md)**
@@ -130,7 +134,7 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 > - Die zweite Ableitung nach der Zeit $t$ ist proportional zur zweiten Ableitung nach dem Ort $x$.
 > - Mit einem vom Ausbreitungmedium Abhängenden $c$
 
->[!example] Bestimmen der Form unter Annahme: $x, t$ sind separiert in der Form: $u(x,t) = X(x)\cdot T(t)$
+>[!example] **Separationsansatz**: Bestimmen der Form unter Annahme: $x, t$ sind separiert in der Form: $u(x,t) = X(x)\cdot T(t)$
 > 
 > $$
 > \begin{rcases}
