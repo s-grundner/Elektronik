@@ -24,10 +24,19 @@ professor:
 % Begin Schematic
 
 \draw (0, 0) node[npn](npn){};
-\draw (npn.E) to[C=$C_{E}$, -o] (npn.E |- (-2, 0))
+\draw (npn.E) to[short] (0, -1)
+    to[C=$C_{E}$, -o] (-2, -1)
     to[R=$R_i$] (-4,-1)
     to[V=$U_{in}$] (-4,-3) node[tlground]{};
+
+\draw (npn.C) to[short] (0, 1)
+    to[C=$C_a$, -o] (2, 1)
+    to[short] (3, 1)
+    to[R=$R_L$] (3, -3) node[tlground]{};
+
 \draw (npn.E) to[R=$R_{E}$] (0, -3) node[tlground]{};
+\draw (npn.C) to[short] (0, 1) to[R=$R_{C}$] (0, 3) node[vcc]{};
+
 
 \end{circuitikz}
 \end{document}
