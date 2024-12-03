@@ -13,3 +13,6 @@ professor:
  
 # Millereffekt
 
+Bei der Basis schaltung wird eine sehr niedirige Kapazität gemillert, da zwischen Kollektor und Emitter kein pn-Übergang vorhanden ist, welcher eine Parasitär Kapazität bilden könnte. 
+
+> [!info] Basis-Schaltung
