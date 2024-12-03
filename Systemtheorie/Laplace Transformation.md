@@ -38,7 +38,29 @@ $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }$$
 | (viii) | **Multiplikation**          | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                        |
 | (ix)   | **Division**                | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$                       |                                                                                                                      |
 
-### 
+### Bei der Faltung
+
+> [!info] Es muss bei der Faltung die historie mittgenommen werden.
+> Durch mitnahme der Anfangswerte der 
+
+### Endwertsatz
+
+Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0.
+Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden. 
+
+> [!important] **Endwertsatz**
+> Kausale stabile Exponentialfunktion:
+> 
+> $$
+> \lim _{s \rightarrow 0} \frac{s}{s-a}=0=\lim _{t \rightarrow \infty} e^{a t} \sigma(t)
+> $$
+> 
+> Sprungfunktion:
+> 
+> $$
+> \lim _{s \rightarrow 0} s \frac{1}{s}=1=\lim _{t \rightarrow \infty} \sigma(t)
+> $$
+> 
 
 ## Weitere Korrespondenzen
 
@@ -65,14 +87,16 @@ $$
 > Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
 
 
+## Pol-Nullstellen
+
+Polstellenlage vs. Zeitbereichssignal
+    
+![PolstellenLageVsZeitbereichslage](assets/Pasted%20image%2020241203095524.png)
+
 
 # Tags
 
 - [Invers Laplace Transformation Rechner](https://de.symbolab.com/solver/inverse-laplace-calculator)
-- [Laplace-Bildbereich](Laplace-Bildbereich.md)
 - [Delta-Impuls](Delta-Impuls.md)
 - [korrespondenztabelle - Google Suche](https://www.google.com/search?q=korrespondenztabelle&oq=korrespondenztabelle&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEINzcwMmowajGoAgCwAgA&sourceid=chrome&ie=UTF-8)
 
-
-$$
-$$
