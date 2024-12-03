@@ -6,56 +6,25 @@ keywords:
 subject:
   - VL
   - Mathematik 3
+  - Signale und Systeme
 semester: WS24
 created: 4. März 2024
 professor:
   - Markus Passenbrunner
+  - Andreas Stelzer
 ---
-     
 
 # Laplace Transformation
 
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
+- Wir betrachten also nur kausale Signale, die für $t<0$ sind.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
 
 Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t<0$, so heißt:
 
 $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }$$
 
-> [!summary] Frequenzparameter: $s = \delta+j\omega$
-
-[Fourier Transformation](Fourier%20Transformation.md) vs. Laplace Transformation  
-
-$$F(s) = \mathcal{L}\{ f(t)\} \qquad F(\omega) = \mathcal{F} \{f(t)\}$$
-
-für $s=j\omega$ ist dann $F(s)=F(\omega)$
-
->[!EXAMPLE] Bsp.: Deltaimpuls
->
-> $$
-> \begin{align*}
-> f(t) &= 1\\
-> f(t) &= \delta(t) = \begin{cases}
-> 1 && t \geq 0\\
-> 0 && t < 0
-> \end{cases}\\
-> \mathcal{L}\{1\} &= \int_{0}^{\infty}1\cdot e^{-st}dt = -\frac{1}{s}\cdot e^{-st} \Bigg{|}_{0}^{\infty} = 0-\left(\frac{1}{s}\cdot e^{0}\right) = \frac{1}{s}
-> \end{align*}
-> $$
-
-## Herleitung
-
-Woher: $f(t)\cdot e^{-\delta t}$ wird [fourier-transformiert](Fourier%20Transformation.md) $(f(t)=0 \forall t<0)$
-
-$$
-\begin{align*}
-F(\omega) &= \int_{-\infty}^{\infty}f(t)\cdot\underbrace{e^{-\delta t}\cdot e^{-j\omega t}}_{e^{-(\delta+j\omega)t}}dt\\
-F(s) &= \int_{0}^{\infty}f(t)\cdot e^{-st}dt\\
-\mathcal{L}\{f(t)\} &= \mathcal{F}\{f(t)\cdot e^{-\delta t}\} \qquad f(t) = 0 \forall t<0
-\end{align*}
-$$
-
-## Regeln Der Laplace Transformation
+## Sätze
 
 | Nr     | Satz                        |                                                                                                                         | Anmerkungen                                                                                                          |
 | ------ | --------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -69,10 +38,16 @@ $$
 | (viii) | **Multiplikation**          | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                        |
 | (ix)   | **Division**                | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$                       |                                                                                                                      |
 
-## Nützliche Laplace Transformationen
+### 
+
+## Weitere Korrespondenzen
 
 $$
 \mathcal{L}\{\sin (\omega t)\}(s)=\frac{\omega}{s^2+\omega^2} \quad \text { und } \quad \mathcal{L}\{\cos (\omega t)\}(s)=\frac{s}{s^2+\omega^2}, \quad s>0,
+$$
+
+$$
+\mathcal{L}\{\sin(\omega_{0} t+\varphi_{0})\} = \frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}
 $$
 
 
@@ -89,11 +64,15 @@ $$
 > 
 > Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
 
+
+
 # Tags
 
-[Invers Laplace Transformation Rechner](https://de.symbolab.com/solver/inverse-laplace-calculator)
+- [Invers Laplace Transformation Rechner](https://de.symbolab.com/solver/inverse-laplace-calculator)
+- [Laplace-Bildbereich](Laplace-Bildbereich.md)
+- [Delta-Impuls](Delta-Impuls.md)
+- [korrespondenztabelle - Google Suche](https://www.google.com/search?q=korrespondenztabelle&oq=korrespondenztabelle&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEINzcwMmowajGoAgCwAgA&sourceid=chrome&ie=UTF-8)
 
-[Laplace-Bildbereich](Laplace-Bildbereich.md)
 
-[Delta-Impuls](Delta-Impuls.md)
- 
+$$
+$$
