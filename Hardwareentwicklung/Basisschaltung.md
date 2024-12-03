@@ -20,22 +20,31 @@ professor:
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, font=\Large, scale=1.5]
 % Begin Schematic
 
 \draw (0, 0) node[npn](npn){};
+
+\draw (npn.B) to[short] (-6, 0);
+
+\draw (-6, 0) to[short, *-] (-7, 0) to[C, l_=$C_B$] (-7, -3) node[tlground]{};
+\draw (-6, 0) to[R, l_=$R_2$] (-6, -3) node[tlground]{};
+\draw (-6, 0) to[R, l_=$R_1$] (-6, 3) node[vcc]{$U_0$};
+
 \draw (npn.E) to[short] (0, -1)
-    to[C=$C_{E}$, -o] (-2, -1)
-    to[R=$R_i$] (-4,-1)
-    to[V=$U_{in}$] (-4,-3) node[tlground]{};
+    to[C, l_=$C_{E}$, *-o] (-2, -1)
+    to[R, l_=$R_i$] (-4,-1)
+    to[V, l_=$U_{g}$] (-4,-3) node[tlground]{};
+
+\draw (-2, -1)
 
 \draw (npn.C) to[short] (0, 1)
-    to[C=$C_a$, -o] (2, 1)
+    to[C, l=$C_a$, *-o] (2, 1)
     to[short] (3, 1)
-    to[R=$R_L$] (3, -3) node[tlground]{};
+    to[R, l_=$R_L$] (3, -3) node[tlground]{};
 
-\draw (npn.E) to[R=$R_{E}$] (0, -3) node[tlground]{};
-\draw (npn.C) to[short] (0, 1) to[R=$R_{C}$] (0, 3) node[vcc]{};
+\draw (0,-1) to[R, l_=$R_{E}$] (0, -3) node[tlground]{};
+\draw (0, 1) to[R, l=$R_{C}$] (0, 3) node[vcc]{$U_0$};
 
 
 \end{circuitikz}
