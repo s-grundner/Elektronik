@@ -71,6 +71,10 @@ professor:
 \end{document}
 ```
 
+
+## Kleinsignal Ersatzschaltbild
+
+
 # Quellen
 
 [Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/slt/0204302.htm)
