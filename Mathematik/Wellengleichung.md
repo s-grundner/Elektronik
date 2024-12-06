@@ -24,7 +24,7 @@ $$
 - $c$ ist die Ausbreitungsgeschwindigkeit der Welle
 - und $u(x,t)$ als Wellenfunktion.
     - $t$ Zeit
-    -  $x$ Or
+    - $x$ Ort im Raum
 
 
 Erweitert auf eine Allgemeine Dimension $n$:
@@ -32,3 +32,4 @@ Erweitert auf eine Allgemeine Dimension $n$:
 $$
 \frac{\partial^{2}u}{\partial t^{2}}=c^{2}\cdot \left(\frac{\partial^2 u}{\partial x_1^2}+\frac{\partial^2 u}{\partial x_2^2}+\cdots+\frac{\partial^2 u}{\partial x_n^2}\right)
 $$
+
