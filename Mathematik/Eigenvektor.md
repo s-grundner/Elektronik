@@ -5,6 +5,7 @@ aliases:
   - Eigenwerte
   - Eigen
   - Eigenraum
+  - charakteristisches Polynom
 keywords: 
 subject:
   - Mathematik 1
@@ -25,7 +26,6 @@ professor:
 > falls $(A-\lambda \mathbb{1})\cdot v=0$ ist.
 > 
 > Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.
-
 
 > [!important] Eigenwerte sind nun Alle $\lambda \in\mathbb{C}$, für die $\det(A-\lambda \mathbb{1})=0$ ist.
 

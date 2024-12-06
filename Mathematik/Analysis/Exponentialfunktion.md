@@ -5,9 +5,8 @@ aliases:
   - Logrithmus
 keywords: 
 subject:
-  - Mathematik1
-  - "357.100"
-semester: 1
+  - Mathematik 1
+semester: 
 created: 6. November 2023
 professor:
 ---

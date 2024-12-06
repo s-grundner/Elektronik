@@ -1,6 +1,6 @@
 ---
 tags:
-  - Elektrochemie/Sekundärelement
+  - Chemie/Elektrochemie/Sekundärelement
 aliases:
   - LiPo
   - Li-Po

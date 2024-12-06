@@ -232,10 +232,14 @@ $$
 Die Kleinsignal-Stromverstärkung $\beta=\frac{\partial I_C}{\partial I_B}$ ist wegen der fast linearen Stromsteuerkennlinie näherungsweise gleich der Gleichstromverstärkung $\beta \approx B$. In Datenblättern wird $B$ oft $h_{21}$ oder $h_{F E}$ genannt. Dabei bedeutet $h$ Element der Hybridmatrix, $F$ Betrieb in Vorwärtsrichtung (forward) und $E$ [Emitterschaltung](Kollektorfolger.md).
 
 > [!important] Die Kleinsignalspannungen und -ströme werden im Folgenden klein geschrieben
-> $$ \Delta U_{\mathrm{BE}}=u_{\mathrm{BE}} \quad \Delta I_{\mathrm{B}}=i_{\mathrm{B}} \quad \Delta U_{\mathrm{CE}}=u_{\mathrm{CE}} \quad \Delta I_{\mathrm{C}}=i_{\mathrm{C}} $$
+> $$ \Delta U_{\mathrm{BE}}=u_{\mathrm{BE}}, \quad \Delta I_{\mathrm{B}}=i_{\mathrm{B}}, \quad \Delta U_{\mathrm{CE}}=u_{\mathrm{CE}}, \quad \Delta I_{\mathrm{C}}=i_{\mathrm{C}} $$
 
 und werden durch folgende Zusammenhänge im KSESB miteinander verknüpft:
 
 $$
-u_{\mathrm{BE}}=r_{\mathrm{BE}}\cdot i_{\mathrm{B}} \quad i_{\mathrm{C}}' \approx S\cdot u_{\mathrm{BE}}=\beta \cdot i_{\mathrm{B}} \quad i_{\mathrm{C}}''=g_{\mathrm{EA}} \cdot u_{\mathrm{CE}} \quad i_{\mathrm{C}}=i_{\mathrm{C}}'+i_{\mathrm{C}}'' \quad i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
+\begin{gathered}
+u_{\mathrm{BE}}=r_{\mathrm{BE}}\cdot i_{\mathrm{B}}  \\
+i_{\mathrm{C}}' \approx S\cdot u_{\mathrm{BE}}=\beta \cdot i_{\mathrm{B}}, \quad i_{\mathrm{C}}''=g_{\mathrm{EA}} \cdot u_{\mathrm{CE}}, \quad i_{\mathrm{C}}=i_{\mathrm{C}}'+i_{\mathrm{C}}''  \\
+i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
+\end{gathered}
 $$

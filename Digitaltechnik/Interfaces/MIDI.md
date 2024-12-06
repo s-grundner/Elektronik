@@ -36,16 +36,17 @@ Eine MIDI-Nachricht ist aus drei (manchmal zwei) Bytes aufgebaut:
 
 Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status und Kanalnibble ein Byte. Mit dem Statusnibble wird dem Empfänger mitgeteilt, welche Funktion die darauffolgenden Datenbytes haben. Mit 16 verschiedenen Möglichkeiten, kann der Status mit vier Bit eindeutig codiert werden. Mögliche Statusnibble sind:
 
-| Status            | Hex-Wert | Funktion                                                                                                  |
-| ----------------- | -------- | --------------------------------------------------------------------------------------------------------- |
-| Note Off          | 0x8      | Beendet das Spielen einer Note                                                                            |
-| Note On           | 0x9      | Startet das Spielen einer Note                                                                            |
-| Polyphon Pressure | 0xA      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für die jeweils gedrückte Note)                      |
-| Control Change    | 0xB      | Spricht Steuerelemente, wie z.B. Regler in der DAW an.                                                    |
-| Program Change    | 0xC      | Wechselt zwischen verschiedene Klänge und Instrumente                                                     |
-| Channel Pressure  | 0xD      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für alle Noten auf dem Kanal)                        |
-| Pitch Bend        | 0xE      | Ändert die Tonhöhe des gesamten Kanals in feinen Schritten.                                               |
+| Status            | Hex-Wert | Funktion                                                                                                                                                                   |
+| ----------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Note Off          | 0x8      | Beendet das Spielen einer Note                                                                                                                                             |
+| Note On           | 0x9      | Startet das Spielen einer Note                                                                                                                                             |
+| Polyphon Pressure | 0xA      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für die jeweils gedrückte Note)                                                                                       |
+| Control Change    | 0xB      | Spricht Steuerelemente, wie z.B. Regler in der DAW an.                                                                                                                     |
+| Program Change    | 0xC      | Wechselt zwischen verschiedene Klänge und Instrumente                                                                                                                      |
+| Channel Pressure  | 0xD      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für alle Noten auf dem Kanal)                                                                                         |
+| Pitch Bend        | 0xE      | Ändert die Tonhöhe des gesamten Kanals in feinen Schritten.                                                                                                                |
 | System Messages   | 0xF      | MIDI [Clock](../../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](../../Hardwareentwicklung/Reset%20Generierung.md), Active Sensing |
+|                   |          |                                                                                                                                                                            |
 
 ### MIDI Kanal
 

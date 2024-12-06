@@ -25,6 +25,7 @@ professor:
 > 
 > $C_{\mathrm{E}}$ bewirkt mit zunehmender Frequenz einen Kurzschluss von $R_{\mathrm{E}}$ und hebt damit die Gegenkopplung für höhere Frequenzen auf. Dies bewirkt eine Erhöhung der Verstärkung und einen größeren Aussteuerbereich.
 
+
 ![](assets/Pasted%20image%2020241111093628.png)
 
 ```tikz
@@ -71,6 +72,24 @@ professor:
 \end{document}
 ```
 
+
+## Kleinsignal Ersatzschaltbild
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick]
+% Begin Schematic
+
+
+
+
+
+\end{circuitikz}
+\end{document}
+```
 # Quellen
 
 [Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/slt/0204302.htm)
