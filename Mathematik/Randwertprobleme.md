@@ -170,7 +170,7 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 > \end{cases}
 > $$
 
->[!example] EInsetzen in RWP: $X(0)=X(L) = 0$
+>[!example] Einsetzen in RWP: $X(0)=X(L) = 0$
 > 
 > $$
 > \begin{align}
@@ -229,3 +229,48 @@ $$
 > $$
 > $k=1$: Grundton
 > $k>1$: Obertöne
+
+```tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[
+    colormap/viridis,
+    height=7cm,
+    width=20cm,
+    domain=0:25.13,
+    xmin=0,
+    xmax=25.13,
+    xlabel=Standing Wave,
+    yticklabels={$\lambda=2L$,$\lambda_4=\frac{1}{2}L$,$\lambda_3=\frac{2}{3}L$,$\lambda_2=\:\:\:L$,$\lambda_1=2L$},
+    xtick={},
+    xticklabels={},
+    ymax=0.9,
+    ymin=-1.4,
+    ylabel={},
+    grid=both,
+    major grid style={line width=.2pt},
+    samples=400,
+    ylabel=,
+    every axis/.append style={axis line style={line width=0.75pt}}
+]
+\addplot[smooth, very thick, surf] {0.5+(0.2*sin(deg(0.125*((x)))};
+\addplot[smooth, very thick, surf] {0.5+(0.2*sin(deg(0.125*(x-3.14*8)))};
+
+\addplot[smooth, very thick, surf] {0+(0.2*sin(deg(0.25*((x)))};
+\addplot[smooth, very thick, surf] {0+(0.2*sin(deg(0.25*(x-3.14*4)))};
+
+\addplot[smooth, very thick, surf] {-0.5+(0.2*sin(deg((0.375*x)-9.42477))))};
+\addplot[smooth, very thick, surf] {-0.5+(0.2*sin(deg((0.375*x)))))};
+
+\addplot[smooth, very thick, surf] {-1+(0.2*sin(deg((0.5*x)-3.14))))};
+\addplot[smooth, very thick, surf] {-1+(0.2*sin(deg((0.5*x)))))};
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
