@@ -10,7 +10,6 @@ complexity: $\mathcal{O}(n^{2})$
 
 # Selection Sort
 
-
 > [!info] Complexity: `$=dv.current().complexity`
 
 
