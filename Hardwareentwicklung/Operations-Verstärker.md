@@ -15,6 +15,10 @@ created: 2nd January 2023
 
 ## Grundschaltungen
 
+> [!important] Wichtig bei Grundschaltungen von Invertierenden Verstärkern:
+> - Die Eingangsspannung $U_e$ wird immer invertiert, d.h. das Vorzeichen wird umgekehrt.
+> - Das Bauteil am Eingang Prägt den Strom in das Bauteil der Rückkopplung ein 
+
 - Nicht-Invertierender Verstärker
 - Invertierender Verstärker
 - [Umkehrsummierer](OPV-Umkehrsummierer.md) / Addierer
