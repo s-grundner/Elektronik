@@ -99,7 +99,7 @@ $$
 
 # Sonderfälle
 
-## Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md):
+## Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md)
 
 $$
 \left|\begin{array}{ccccc}
@@ -111,13 +111,13 @@ a_{11} & * & * & \ldots & * \\
 \end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n} .
 $$
 
-## Determinante einer [Diagonalmatrix](Diagonalmatrix.md):
+## Determinante einer [Diagonalmatrix](Diagonalmatrix.md)
 
 $$
 \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
 $$
 
-## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $I_n$ :
+## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $I_n$ 
 
 $$
 \operatorname{det}\left(E_n\right)=1 \text {. }
