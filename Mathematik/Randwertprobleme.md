@@ -24,12 +24,7 @@ Ein Randwertproblem (RWP) ist ein Problem, bei dem eine [Differenzialgleichungen
 > $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
 > Aber statt an $x_{0}(t_{0})=x_{0}$ (Anfangswert) betrachten wir Randwerte
 > 
-> $$
-> \begin{align}
-> g(x(a), x(b)) = 0 \\
-> g: \mathbb{R}^{m}\times R^{m} \rightarrow \mathbb{R}^{m}
-> \end{align}
-> $$
+> $$x(a) = x(b) = 0$$
 
 > [!example] Zum Beispiel betrachten wir die Schwingung einer Saite:
 > 

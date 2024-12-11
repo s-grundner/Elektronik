@@ -21,13 +21,14 @@ created: 14th March 2022
 
 > [!info] Arten von Differentialgleichungen
 >
-> | gewöhnlich             | partiell                     |
+> | | |
 > | --------------------- | ---------------------------- |
+> | gewöhnlich             | partiell                     |
 > | Linear                | Nichtlinear                  |
 > | homogen               | inhomogen                    |
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
-> >
-> > [!info] Ordunung
+> 
+> > [!info] Ordnung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
 > [!info] Allgemeine Form
@@ -61,7 +62,18 @@ $$
 
 ## Randwertprobleme (RWP)
 
-[Randwertprobleme](Randwertprobleme.md)
+Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine Differenzialgleichung zusammen mit Randbedingungen gegeben ist.
+
+> [!important] Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
+> $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
+> Aber statt an $x_{0}(t_{0})=x_{0}$ (Anfangswert) betrachten wir Randwerte
+> 
+> $$
+> \begin{align}
+> g(x(a), x(b)) = 0 \\
+> g: \mathbb{R}^{m}\times R^{m} \rightarrow \mathbb{R}^{m}
+> \end{align}
+> $$
 
 ## Map of Content
 
