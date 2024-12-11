@@ -23,13 +23,20 @@ cited:
 
 # Extremwert
 
-Maximum: $\dfrac{df(x_{0})}{dx} = 0 \wedge \dfrac{d^{2}f(x_{0})}{dx^{2}} < 0$
+> [!important] Die Funktion $f(x)$ hat an der Stelle ein Maximum wenn gilt:
+ >$$\dfrac{df(x_{0})}{dx} = 0 \text{ und } \dfrac{d^{2}f(x_{0})}{dx^{2}} < 0$$
 
-Minimum: $\dfrac{df(x_{0})}{dx} = 0 \wedge \dfrac{d^{2}f(x_{0})}{dx^{2}} > 0$
+> [!important] Die Funktion $f(x)$ hat an der Stelle ein Maximum wenn gilt:
+> $$\dfrac{df(x_{0})}{dx} = 0 \text{ und } \dfrac{d^{2}f(x_{0})}{dx^{2}} > 0$$
 
-![900](assets/{57564D68-F66E-47AA-99A0-CC52039EE091}.png)
+Für den Allgemeinen Fall für Funktionen beliebiger Dimenion $A \in \mathbb{R}^{n}$.
+Es gilt dass $f$ zwei mal Differnzierbar sein muss ($f\in C^{2}$)
 
-Ob die Hessematrix positiv oder negativ definit ist, kann man z.B. mit [Satz 10.25](../Algebra/Definitheit.md) feststellen.
+> [!info] **Satz:** Sei $A \subset \mathbb{R}^n$ offen, $f \in C^2(A)$ und $x_0 \in A$:
+> $$\operatorname{grad} f\left(x_0\right)=0$$
+> Falls die Hessematrix $H_f\left(x_0\right)$ von $f$ an der Stelle $x_0$ *==positiv==* (**==negativ==**) definit ist, dann ist $x_0$ Stelle eines lokalen *==Minimums==* (**==Maximums==**) von $f$.
+> - [Definitheit](../Algebra/Definitheit.md) der Hessenmatrix
+> - [Gradient](../Gradient.md)
 
 ![900](assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
 

@@ -18,7 +18,8 @@ cited:
 
 Ein Filter ist ein System das Signale in bestimmten Frequenzbereichen durchlässt und andere  unterdrückt. Sie werden mit Übertragungsfunktionen beschrieben.
 
-!info
+> [!info] Filter Kenngrößen
+> 
 
 - [Grenzfrequenz](Grenzfrequenz.md)
 - [[Güte]] (Resonanzverhalten)

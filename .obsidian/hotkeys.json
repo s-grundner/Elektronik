@@ -182,7 +182,14 @@
       "key": "L"
     }
   ],
-  "text-snippets-obsidian:text-snippets": [],
+  "text-snippets-obsidian:text-snippets": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
