@@ -14,7 +14,7 @@ professor:
 
 # DGL System
 
-Um Differenzialgleichungen höherer Ordnung leichter lösen zu können, kann diese in ein System aus Differenzialgleichungen erster Ordnung überführt werden. 
+Um **Differenzialgleichungen** *höherer* Ordnung leichter lösen zu können, kann diese in ein **System aus Differenzialgleichungen** *erster* Ordnung überführt werden. 
 
 > [!info] Jede [Lineare DGL n-ter Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) lässt sich in ein DGL-System 1. Ordnung überführen
 > $$
@@ -40,10 +40,12 @@ folgendes Differenzialgleichungs-System **erster** Ordnung:
 > $$
 > 
 
-[Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
+
+
 
 ## Weiterführend
 
+[Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
 - [Lineare DGL-Systeme 1. Ordnung](Lineare%20DGL-Systeme%201.%20Ordnung.md)
 - [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 

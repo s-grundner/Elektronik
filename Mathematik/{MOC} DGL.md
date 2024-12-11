@@ -38,6 +38,9 @@ created: 14th March 2022
 > **Explizite Differenzialgleichung:** $x^{(n)}= f(t,x,x',\dots,x^{(n-1)})$
 > 
 > $\implies F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)})$
+> 
+
+> [!warning] Jede [Lineare DGL n-ter Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) lässt sich in ein [DGL-System](Analysis/DGL-System.md) 1. Ordnung überführen
 
 ## Anfangswert Problem (AWP)
 

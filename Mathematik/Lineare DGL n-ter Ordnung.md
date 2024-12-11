@@ -33,7 +33,7 @@ Falls $a_{0}, \dots a_{n-1}$ nicht von $t$ abhängen, dann geben wir diese Lösu
 
 
 $$
-\left(\underbrace{ \lambda^n+\sum_{j=0}^n a_j \lambda^j }_{ p(\lambda)}\right) e^{\lambda t}=0
+\underbrace{ \left(\lambda^n+\sum_{j=0}^n a_j \lambda^j\right) }_{ p(\lambda)} e^{\lambda t}=0
 $$
 
 
