@@ -26,6 +26,10 @@ cited:
 - Aktiv/Passiv
 - Steilheit
 
+## Passive Filter
+
+
+
 ## Bodé Diagramm
 
 Zeigt wie der das Filternetzwerk auf den Eingang reagiert
