@@ -27,11 +27,9 @@ Ein Filter ist ein System das Signale in bestimmten Frequenzbereichen durchläss
   - [[Tiefpass]] Filter
   - [[Hochpass]] Filter
   - Andere (Kombinationen)
-- Aktiv/Passiv
+- [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md)
 - Steilheit
 
-- [Passiver Filter](Passiver%20Filter.md)
-- [Aktiver Filter](Aktiver%20Filter.md)
 
 ## Digitale Filter
 
