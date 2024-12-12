@@ -49,4 +49,29 @@ deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale 
 
 ## Übertragungsfunktion
 
-Allgemein 
+Tiefpässe 1. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form
+$$
+A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\frac{j \omega}{\omega_0}}
+$$
+und Tiefpässe 2. Ordnung
+$$
+A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2}
+$$
+
+> [!info] Filter höherer Ordnung können einfach durch Kaskadierung einzelner Filterstufen erreicht werden.
+> - Die gesamte Ordnung ergibt sich dann aus der Summe der Ordnungen der einzelnen Stufen;
+> - die Frequenzgänge der einzelnen Filterstufen multiplizieren sich.
+
+
+> [!warning] Das bedeutet jedoch nicht, dass z. B. aus der Kaskadierung von zwei Butterworth-Tiefpässen 2. Ordnung ein Butterworth-Tiefpass 4. Ordnung entsteht.
+>- Das kaskadierte Gesamtfilter hat eine andere Grenzfrequenz als die Teilfilter und evtl. auch eine andere Filtercharakteristik.
+> - Deshalb sind die einzelnen Teilfilter stets so zu dimensionieren, dass gesamt die gewünschte Filtercharakteristik erreicht wird.
+
+## Schaltungsentwicklung
+
+### Aktive Tiefpässe 1. Ordnung
+
+### Aktive Tiefpässe 2. Ordnung
+
+- Sallen-Key Topologie: Einfache Gegenkopplung
+- Multiple-Feedback Topologie: Mehrere Gegenkopplungen
