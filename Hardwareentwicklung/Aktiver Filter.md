@@ -49,3 +49,4 @@ deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale 
 
 ## Übertragungsfunktion
 
+Allgemein 
