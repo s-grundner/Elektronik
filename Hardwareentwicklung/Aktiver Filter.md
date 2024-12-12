@@ -69,9 +69,12 @@ $$
 
 ## Schaltungsentwicklung
 
-### Aktive Tiefpässe 1. Ordnung
+> [!info] Aktive Filter 1. Ordnung
+> Basieren auf einem Passiven RC-Glied mit nachgeschaltenem Verstärker/Impedanzwandler
+>
+> - Nicht invertierender Tiefpass
+> - Invertierender Tiefpass
 
-### Aktive Tiefpässe 2. Ordnung
 
 - Sallen-Key Topologie: Einfache Gegenkopplung
 - Multiple-Feedback Topologie: Mehrere Gegenkopplungen
