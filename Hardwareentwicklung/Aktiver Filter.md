@@ -48,3 +48,4 @@ deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale 
 |    Tiefpässe 4. Ordnung verschiedener Arten     |
 
 ## Übertragungsfunktion
+
