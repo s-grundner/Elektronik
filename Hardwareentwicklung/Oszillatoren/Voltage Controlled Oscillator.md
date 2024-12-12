@@ -35,7 +35,9 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 \node[tlground] at (10, 8) {};
 \draw (5, 7) to[capacitor, l={$C_2$}] (8, 7);
 \draw (12, 8) to[resistor, l={$R_C$}] (12, 10);
-\node[npn] at (12, 7) {};
+
+\draw (12, 7) node[npn](npn){};
+
 \node[circ] at (10, 10) {};
 \node[circ] at (10, 4) {};
 \node[circ] at (10, 7) {};

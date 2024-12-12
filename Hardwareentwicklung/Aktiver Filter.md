@@ -32,11 +32,13 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 
 ## Filter Charakteristika
 
-- Filter mit kritischer Dämpfung (Filter Kaskade $n$-ter Ordnung)
-- Bessel-Filter
-- Butterworth-Filter
-- Tscheybyscheff Typ 1 Filter
-- Tscheybyscheff Typ 2 Filter
-- Cauer(Elliptischer)-Filter
+1. **Filter mit kritischer Dämpfung**
+    - Durch rückwirkungsfreie kaskadierung von Filtern 1. Ordnung erreicht.
+    - Abnahme mit $n \cdot 20 \mathrm{~dB} /$ Dekade (mit $n$ der Ordnungszahl) nach der Grenzfrequenz.
+2. **[[Bessel-Filter]]:**
+3. **[[Butterworth-Filter]]:**
+4. **[[Tscheybyscheff]] Typ 1 Filter:**
+5. **Tscheybyscheff Typ 2 Filter:**
+6. **[[Cauer]](Elliptischer)-Filter:**
 
 ![](assets/Pasted%20image%2020241212005303.png)
