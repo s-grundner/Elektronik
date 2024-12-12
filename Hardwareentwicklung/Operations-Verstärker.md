@@ -21,7 +21,7 @@ created: 2nd January 2023
 
 - Nicht-Invertierender Verstärker
 - Invertierender Verstärker
-- [Umkehrsummierer](OPV-Umkehrsummierer.md) / Addierer
+- [Umkehrsummierer](OPV-Addierer.md) / Addierer
 - [Subtrahierer](OPV-Subtrahierer.md)
 - Integrator (aktiver Tiefpass)
 - Differenzierer (aktiver Hochpass)
