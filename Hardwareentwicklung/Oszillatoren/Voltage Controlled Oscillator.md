@@ -25,6 +25,9 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 
 \begin{circuitikz}[thick]
 
+
+\draw (12, 7) node[npn](npn){};
+
 \node[circ] at (5, 1) {};
 \node[circ] at (8, 1) {};
 \node[ocirc] at (0, 4) {};
@@ -34,11 +37,9 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 \draw (10, 4) to[capacitor, l={$C_3$}] (10, 7);
 \node[tlground] at (10, 8) {};
 \draw (5, 7) to[capacitor, l={$C_2$}] (8, 7);
-\draw (12, 8) to[resistor, l={$R_C$}] (12, 10);
+\draw (npn.C) to[resistor, l={$R_C$}] (12, 10);
 
-\draw (12, 7) node[npn](npn){};
 
-\node[circ] at (10, 10) {};
 \node[circ] at (10, 4) {};
 \node[circ] at (10, 7) {};
 \node[circ] at (12, 4) {};
@@ -48,7 +49,7 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 \draw (5, 1) to[inductor, l={$L$}] (5, 7);
 \draw (3, 4) to[stroke varcap, l={$D_1$}, invert] (3, 7);
 \draw (3, 1) to[stroke varcap, l={$D_2$}] (3, 4);
-\draw (10, 8) to[capacitor, l={$C_1$}] (10, 10);
+\draw (10, 8) to[capacitor, l={$C_1$}, -*] (10, 10);
 \draw (8, 8) to[resistor, l={$R_1$}] (8, 10);
 \node[circ] at (5, 7) {};
 \node[circ] at (8, 7) {};
@@ -69,7 +70,6 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 \draw (5, 7) -| (3.25, 7) -| (3, 7);
 \draw (8, 10) -- (10, 10);
 \draw (10, 10) |- (12, 10);
-\draw (12, 8) -- (12, 7.77);
 
 \end{circuitikz}
 
