@@ -1,7 +1,7 @@
 {
   "showLineNumber": true,
   "showFrontmatter": true,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
@@ -21,7 +21,7 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showInlineTitle": false,
-  "showIndentGuide": true,
+  "showIndentGuide": false,
   "tabSize": 4,
   "focusNewTab": true,
   "userIgnoreFilters": [
