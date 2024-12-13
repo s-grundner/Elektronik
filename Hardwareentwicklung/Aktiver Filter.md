@@ -49,6 +49,17 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 
 ## Übertragungsfunktion
 
+> [!info] Filter höherer Ordnung können einfach durch Kaskadierung einzelner Filterstufen erreicht werden.
+> - Die gesamte Ordnung ergibt sich dann aus der Summe der Ordnungen der einzelnen Stufen;
+> - die Frequenzgänge der einzelnen Filterstufen multiplizieren sich.
+
+
+> [!warning] Das bedeutet jedoch nicht, dass z. B. aus der Kaskadierung von zwei Butterworth-Tiefpässen 2. Ordnung ein Butterworth-Tiefpass 4. Ordnung entsteht.
+>- Das kaskadierte Gesamtfilter hat eine andere Grenzfrequenz als die Teilfilter und evtl. auch eine andere Filtercharakteristik.
+> - Deshalb sind die einzelnen Teilfilter stets so zu dimensionieren, dass gesamt die gewünschte Filtercharakteristik erreicht wird.
+
+### Tiefpässe
+
 Tiefpässe 1. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form
 $$
 A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\frac{j \omega}{\omega_0}}
@@ -58,14 +69,15 @@ $$
 A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2}
 $$
 
-> [!info] Filter höherer Ordnung können einfach durch Kaskadierung einzelner Filterstufen erreicht werden.
-> - Die gesamte Ordnung ergibt sich dann aus der Summe der Ordnungen der einzelnen Stufen;
-> - die Frequenzgänge der einzelnen Filterstufen multiplizieren sich.
+### Hochpässe
 
+### Bandpässe
 
-> [!warning] Das bedeutet jedoch nicht, dass z. B. aus der Kaskadierung von zwei Butterworth-Tiefpässen 2. Ordnung ein Butterworth-Tiefpass 4. Ordnung entsteht.
->- Das kaskadierte Gesamtfilter hat eine andere Grenzfrequenz als die Teilfilter und evtl. auch eine andere Filtercharakteristik.
-> - Deshalb sind die einzelnen Teilfilter stets so zu dimensionieren, dass gesamt die gewünschte Filtercharakteristik erreicht wird.
+Bandpässe 2. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form:
+
+$$
+A(j \omega)=\dfrac{V_0}{\dfrac{1}{Q}+j\left(\dfrac{\omega}{\omega_0}-\dfrac{\omega_0}{\omega}\right)}=\dfrac{V_0 \cdot \dfrac{j \omega}{\omega_0}}{1+\frac{j \omega}{\omega_0} \cdot \frac{1}{Q}+\left(\frac{j \omega}{\omega_0}\right)^2} 
+$$
 
 ## Schaltungsentwicklung
 
