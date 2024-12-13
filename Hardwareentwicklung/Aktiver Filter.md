@@ -38,9 +38,9 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
     - Durch rückwirkungsfreie kaskadierung von Filtern 1. Ordnung erreicht.
     - Abnahme mit $n \cdot 20 \mathrm{~dB} /$ Dekade (mit $n$ der Ordnungszahl) nach der Grenzfrequenz.
 2. **[[Bessel-Filter]]**
-3. **[[Butterworth-Filter]]**
-4. **[Tscheybyscheff Typ 1](Tscheybyscheff-Filter.md#Typ%201) Filter**
-5. **[Tscheybyscheff Typ 2](Tscheybyscheff-Filter.md#Typ%202) Filter**
+3. **[Butterworth](Butterworth%20Filter%20Charakteristik.md)**
+4. **[Tscheybyscheff Typ 1](Tscheybyscheff%20Filter%20Charakteristik.md#Typ%201) Filter**
+5. **[Tscheybyscheff Typ 2](Tscheybyscheff%20Filter%20Charakteristik.md#Typ%202) Filter**
 6. **[[Cauer]](Elliptischer)-Filter**
 
 | ![](assets/Pasted%20image%2020241212005303.png) |
@@ -104,8 +104,8 @@ $$
 > - **(HP)** Invertierender Hochpass
 
 > [!info] Aktive Filter 2. Ordnung
-> - **(TP)** [[Sallen-Key]] Topologie: Filter mit Einfach Gegenkopplung
-> - **(TP)** [[Multiple-Feedback]] Topologie: Filter mit Mehrfach Gegenkopplung
+> - **(TP)** [Sallen-Key Topologie](Sallen-Key%20Filter%20Topologie.md): Filter mit Einfach Gegenkopplung
+> - **(TP)** [[Multiple-Feedback Filter Topologie]] : Filter mit Mehrfach Gegenkopplung
 > - **(TP+BP)**: [[Biquad]] Topologie nach Tow-Thomas
 > - **(TP+BP+HP)**: [[State-Variable]] Topologie nach KHN (Kerwin-Huelsman-Newcomb)
 

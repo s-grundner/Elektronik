@@ -1,11 +1,21 @@
 ---
-tags: 
-aliases: 
+tags:
+  - Baugruppen/Filter/Charakteristik
+aliases:
+  - Tschebyscheff
+keywords: 
+subject:
+  - VL
+  - Einführung Elektronik
+semester: WS24
 created: 12. Dezember 2024
-cited:
+professor:
 ---
+ 
 
-# Tschebyscheff-Filter 
+
+# Tschebyscheff Filter-Charakteristik
+
 
 ## Typ 1
 
