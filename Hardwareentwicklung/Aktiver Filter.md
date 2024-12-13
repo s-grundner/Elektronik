@@ -60,12 +60,12 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 
 ### Tiefpässe
 
-Tiefpässe 1. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form
+**Tiefpässe 1. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form
 $$
 A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\frac{j \omega}{\omega_0}}
 $$
 
-Tiefpässe 2. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form
+**Tiefpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form
 
 $$
 A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2}
@@ -73,13 +73,13 @@ $$
 
 ### Hochpässe
 
-Hochpässe 1. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form:
+**Hochpässe 1. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
 
 $$
 A(j \omega)=\dfrac{V_0}{1+\dfrac{\omega_0}{j \omega}}
 $$
 
-Hochpässe 2. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form:
+**Hochpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
 
 $$
 A(j \omega)=\frac{V_0}{1+\dfrac{\omega_0}{j \omega} \cdot \dfrac{1}{Q}+\left(\dfrac{\omega_0}{j \omega}\right)^2}
@@ -87,13 +87,13 @@ $$
 
 ### Bandpässe
 
-Bandpässe 2. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form:
+**Bandpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
 
 $$
 A(j \omega)=\dfrac{V_0}{\dfrac{1}{Q}+j\left(\dfrac{\omega}{\omega_0}-\dfrac{\omega_0}{\omega}\right)}=\dfrac{V_0 \cdot \dfrac{j \omega}{\omega_0}}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2} 
 $$
 
-## Schaltungsentwicklung - Topologien
+## Schaltungsentwürfe - Topologien
 
 > [!info] Aktive Filter 1. Ordnung
 > Basieren auf einem Passiven RC-Glied mit nachgeschaltenem Verstärker/Impedanzwandler
@@ -106,6 +106,6 @@ $$
 > [!info] Aktive Filter 2. Ordnung
 > - **(TP)** [Sallen-Key Topologie](Sallen-Key%20Filter%20Topologie.md): Filter mit Einfach Gegenkopplung
 > - **(TP)** [[Multiple-Feedback Filter Topologie]] : Filter mit Mehrfach Gegenkopplung
-> - **(TP+BP)**: [[Biquad]] Topologie nach Tow-Thomas
-> - **(TP+BP+HP)**: [[State-Variable]] Topologie nach KHN (Kerwin-Huelsman-Newcomb)
+> - **(TP+BP)**: [[Biquad Filter Topologie]] nach Tow-Thomas
+> - **(TP+BP+HP)**: [[State-Variable Topologie]]  nach KHN (Kerwin-Huelsman-Newcomb)
 
