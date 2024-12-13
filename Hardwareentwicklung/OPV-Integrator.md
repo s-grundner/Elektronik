@@ -29,10 +29,10 @@ professor:
 \draw (0,0) node[op amp] (opv) {};
 
 \draw (opv.out) to[short, *-] ++(0, 1) to[C, l_=$C$] (-1, 1) to[short, -*] (opv.- -| -1, 1) to[short] (opv.-);
-\draw (opv.+) to[short] ++(0, -1) node[ground] {};
+\draw (opv.+) to[short] ++(0, -1) node[tlground] {};
 \draw (opv.- -| -1, 1) to[R, l_=$R$, -o] (opv.- -| -2, 0);
-\draw (opv.out) to[short, -o] ++(1, 0) to[open, v=$U_a$, -o] ++(0, -1) to[short] ++(0, -0.25) node[ground] {};
-\draw (opv.- -| -2, 0) to[open, v=$U_e$, -o] ++(0, -1.25) to[short] ++(0, -0.25) node[ground] {};
+\draw (opv.out) to[short, -o] ++(1, 0) to[open, v=$U_a$, -o] ++(0, -1) to[short] ++(0, -0.25) node[tlground] {};
+\draw (opv.- -| -2, 0) to[open, v=$U_e$, -o] ++(0, -1.25) to[short] ++(0, -0.25) node[tlground] {};
 
 
 \end{circuitikz}
