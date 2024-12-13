@@ -76,7 +76,7 @@ $$
 Bandpässe 2. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form:
 
 $$
-A(j \omega)=\dfrac{V_0}{\dfrac{1}{Q}+j\left(\dfrac{\omega}{\omega_0}-\dfrac{\omega_0}{\omega}\right)}=\dfrac{V_0 \cdot \dfrac{j \omega}{\omega_0}}{1+\frac{j \omega}{\omega_0} \cdot \frac{1}{Q}+\left(\frac{j \omega}{\omega_0}\right)^2} 
+A(j \omega)=\dfrac{V_0}{\dfrac{1}{Q}+j\left(\dfrac{\omega}{\omega_0}-\dfrac{\omega_0}{\omega}\right)}=\dfrac{V_0 \cdot \dfrac{j \omega}{\omega_0}}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2} 
 $$
 
 ## Schaltungsentwicklung
