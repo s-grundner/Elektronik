@@ -117,7 +117,7 @@ $$
 \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
 $$
 
-## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $I_n$ 
+## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $I_n$
 
 $$
 \operatorname{det}\left(E_n\right)=1 \text {. }
