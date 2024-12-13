@@ -16,7 +16,7 @@ professor:
 
 # Biquad Filter Topologie nach Tow-Thomas
 
-Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines Integratorfilters.
+Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integratorfilters](OPV-Integrator.md#Integratorfilter).
 
 ![](assets/Pasted%20image%2020241213044618.png)
 

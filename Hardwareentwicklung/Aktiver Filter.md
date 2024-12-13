@@ -108,4 +108,5 @@ $$
 > - **(TP)** [[Multiple-Feedback Filter Topologie]] : Filter mit Mehrfach Gegenkopplung
 > - **(TP+BP)**: [[Biquad Filter Topologie]] nach Tow-Thomas
 > - **(TP+BP+HP)**: [[State-Variable Topologie]]  nach KHN (Kerwin-Huelsman-Newcomb)
+> - Andere [Integratorfilter](OPV-Integrator.md#Integratorfilter)
 
