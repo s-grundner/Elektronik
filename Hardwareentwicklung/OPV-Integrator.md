@@ -17,6 +17,22 @@ professor:
 
 # Integrator
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[very thick, scale=2, font=\Large]
+% Begin Schematic
+
+\draw (0,0) node[op amp, yscale=-1.0] (opv) {};
+
+\draw (opv.out) to[short, *-] ++(0, 1) to[C] (-1,1) to[short, -*] ++(0, -1);
+
+\end{circuitikz}
+\end{document}
+```
+
 ![](assets/Pasted%20image%2020241213012336.png)
 
 ## Übertragungsfunktion
@@ -35,12 +51,9 @@ $$
 > \end{align}
 > $$
 
-> [!info]+ Bode-Diagramm
-> [Mathematica Notebook](Simulationen/OPV_Integrator.nb)
+> [!info]+ Bode-Diagramm ![Mathematica Notebook](Simulationen/OPV_Integrator.nb)
+> 
 > ![500](assets/OPV_Integrator_Bodeplot.png)                             
-
-
-
 
 ## Funktionsweise
 

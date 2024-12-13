@@ -1157,7 +1157,7 @@ lg==
  CellLabel->"Out[60]=",ExpressionUUID->"1ecd7eb3-68ec-42a4-925d-cacabd3fa217"]
 }, Open  ]]
 },
-WindowSize->{1141.2, 581.4},
+WindowSize->{1141.8, 568.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (August 22, 2022)",
 StyleDefinitions->"Default.nb",
@@ -1181,11 +1181,9 @@ Cell[1127, 36, 173, 3, 48, "Output",ExpressionUUID->"fb4cc61e-6ee5-4662-b976-8e9
 Cell[1315, 42, 295, 8, 28, "Input",ExpressionUUID->"8bbe737f-4e19-4c0a-a30a-e60007adbdde"],
 Cell[CellGroupData[{
 Cell[1635, 54, 946, 21, 43, "Input",ExpressionUUID->"22e48cfe-5d85-4d63-bdbc-e77bfce9a689"],
-Cell[2584, 77, 54590, 1079, 507, "Output",ExpressionUUID->"1ecd7eb3-68ec-42a4-925d-cacabd3fa217"]
+Cell[2584, 77, 54590, 1079, 482, "Output",ExpressionUUID->"1ecd7eb3-68ec-42a4-925d-cacabd3fa217"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 

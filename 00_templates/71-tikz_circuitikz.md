@@ -3,7 +3,7 @@
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, scale=1.5, font=\Large]
 % Begin Schematic
 
 

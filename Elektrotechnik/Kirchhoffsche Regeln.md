@@ -32,3 +32,5 @@ Allgemein: $\sum_{\text{Masche}}U=0$
 Allgemein: $\sum_{\text{Knoten}}I=0$
 
 # Tags
+
+#todo Warum funkionieren die Kirchhoffschenreglen? -> Beschreibeung mittels [MWG](Maxwell.md)
