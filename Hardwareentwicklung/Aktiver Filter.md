@@ -28,7 +28,7 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 
 > [!info]- Übergangsbereiche von Filtern
 > 
-> deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale Filter einen idealen Filter nur approximieren. In der Praxis werden die Filtereigenschaften in sog. Durchlass-, Übergangs- und Sperrbereichen definiert und in einem Toleranzschema zusammengefasst. Der Verlauf des zu designenden Filters sollte dann innerhalb der definierten Grenzen liegen.
+> deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale Filter einen idealen Filter nur approximieren. In der Praxis werden die Filtereigenschaften in sog. Durchlass-, Übergangsund Sperrbereichen definiert und in einem Toleranzschema zusammengefasst. Der Verlauf des zu designenden Filters sollte dann innerhalb der definierten Grenzen liegen.
 > 
 > ![](assets/Pasted%20image%2020241212004843.png)
 
@@ -103,10 +103,10 @@ $$
 > - **(HP)** Nicht invertierender Hochpass
 > - **(HP)** Invertierender Hochpass
 
+
 > [!info] Aktive Filter 2. Ordnung
 > - **(TP)** [Sallen-Key Topologie](Sallen-Key%20Filter%20Topologie.md): Filter mit Einfach Gegenkopplung
 > - **(TP)** [[Multiple-Feedback Filter Topologie]] : Filter mit Mehrfach Gegenkopplung
 > - **(TP+BP)**: [[Biquad Filter Topologie]] nach Tow-Thomas
 > - **(TP+BP+HP)**: [[State-Variable Topologie]]  nach KHN (Kerwin-Huelsman-Newcomb)
 > - Andere [Integratorfilter](OPV-Integrator.md#Integratorfilter)
-
