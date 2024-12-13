@@ -21,7 +21,7 @@ created: 26. September 2023
 >
 > $$\Rightarrow U_{1}+U_{2} = U_{q}$$
 
-Allgemein: $\sum_{\text{Masche}}=0$
+Allgemein: $\sum_{\text{Masche}}U=0$
 
 ## Knotenregel
 
@@ -29,6 +29,6 @@ Allgemein: $\sum_{\text{Masche}}=0$
 > ![InlineR|352](../assets/Knoten.png)
 > $$K: I_{q}=I_{1}+I_{2}$$
 
-Allgemein: $\sum_{\text{Knoten}}=0$
+Allgemein: $\sum_{\text{Knoten}}I=0$
 
 # Tags
