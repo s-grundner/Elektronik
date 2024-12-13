@@ -26,11 +26,11 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 >     - umständlich und schlechte elektrische Eigenschaften
 > - Hohe Güte, da keine Induktivitäten verwendet werden
 
-## Toleranz schema
-
-deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale Filter einen idealen Filter nur approximieren. In der Praxis werden die Filtereigenschaften in sog. Durchlass-, Übergangs- und Sperrbereichen definiert und in einem Toleranzschema zusammengefasst. Der Verlauf des zu designenden Filters sollte dann innerhalb der definierten Grenzen liegen.
-
-![](assets/Pasted%20image%2020241212004843.png)
+> [!info]- Übergangsbereiche von Filtern
+> 
+> deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale Filter einen idealen Filter nur approximieren. In der Praxis werden die Filtereigenschaften in sog. Durchlass-, Übergangs- und Sperrbereichen definiert und in einem Toleranzschema zusammengefasst. Der Verlauf des zu designenden Filters sollte dann innerhalb der definierten Grenzen liegen.
+> 
+> ![](assets/Pasted%20image%2020241212004843.png)
 
 ## Filter Charakteristika
 
@@ -75,6 +75,9 @@ $$
 > - Nicht invertierender Tiefpass
 > - Invertierender Tiefpass
 
+> [!info] Aktive Filter 2. Ordnung
+> - Sallen-Key Topologie: Einfache Gegenkopplung
+> - Multiple-Feedback Topologie: Mehrere Gegenkopplungen
 
-- Sallen-Key Topologie: Einfache Gegenkopplung
-- Multiple-Feedback Topologie: Mehrere Gegenkopplungen
+
+> [!info] Aktive Filter 
