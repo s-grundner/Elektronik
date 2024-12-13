@@ -25,9 +25,13 @@ professor:
 \begin{circuitikz}[very thick, scale=2, font=\Large]
 % Begin Schematic
 
-\draw (0,0) node[op amp, yscale=-1.0] (opv) {};
+\draw (0,0) node[op amp] (opv) {};
 
-\draw (opv.out) to[short, *-] ++(0, 1) to[C] (-1,1) to[short, -*] ++(0, -1);
+\draw (opv.out) to[short, *-] ++(0, 1) to[C] (-1, 1) to[short, -*] (opv.- -| -1, 1) to[short] (opv.-);
+\draw (opv.+) to[short] ++(0, -1) node[ground] {};
+\draw (opv.- -| -1, 1) to[R, -o] (opv.- -| -2, 0);
+\draw (opv.out) to[short, -o] ++(1, 0) to[open, v=$U_a$, -o] ++(0, -1) to[short] ++(0, -0.5) node[ground] {};
+
 
 \end{circuitikz}
 \end{document}
