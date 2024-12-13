@@ -20,7 +20,6 @@ $$
 r^{2}=(x-M_{x})^{2}+(y-M_{y})^{2}
 $$
 
-
 ```tikz
 \usepackage{pgfplots}
 \usepackage{tikz}
