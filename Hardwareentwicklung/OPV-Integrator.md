@@ -4,6 +4,7 @@ tags:
 aliases:
   - Integrator
   - Integrierer
+  - Integratorfilter
 keywords:
   - Aktiver Tiefpass
 subject:
@@ -62,3 +63,18 @@ $$
 
 ![](assets/Pasted%20image%2020241213012458.png)
 
+# Integratorfilter
+
+![](assets/Pasted%20image%2020241213050705.png)
+
+Durch geschicktes Zusammenschalten von OPV Grundschaltungen können sehr einfach verschiedene Filtertypen (Bandpass, Tiefpass, Hochpass) realisiert werden, je nachdem welcher Ausgang benutzt wird.
+
+Im Allgemeinen bestehen solche Schaltungen aus einem [Addierer](OPV-Addierer.md), welcher das Eingangssignal mit zwei Integratorausgängen aufsummiert. 
+
+Ein Vorteil dieser Schaltungsvariante ist, dass Filterparameter wie Güte, Kennfrequenz und Verstärkung unabhängig voneinander eingestellt werden können.
+
+Hauptanwendung solcher Filter ist die Realisierung von Bandpässen mit sehr hohen Güten und Verstärkungen bei der Mittenfrequenz.
+
+> [!info] Realisierungen von Integratorfiltern
+> [Biquad](Biquad%20Filter%20Topologie.md)-Filter
+> [State-Variable](State-Variable%20Topologie.md)-Filter

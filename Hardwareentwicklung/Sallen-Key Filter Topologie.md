@@ -15,3 +15,9 @@ professor:
  
 
 # Sallen-Key Filter Topologie
+
+![](assets/Pasted%20image%2020241213050452.png)
+
+## Übertragungsfunktion
+
+## Funktionsweise
