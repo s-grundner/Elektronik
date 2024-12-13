@@ -108,5 +108,5 @@ $$
 > - **(TP)** [Sallen-Key Topologie](Sallen-Key%20Filter%20Topologie.md): Filter mit Einfach Gegenkopplung
 > - **(TP)** [[Multiple-Feedback Filter Topologie]] : Filter mit Mehrfach Gegenkopplung
 > - **(TP+BP)**: [[Biquad Filter Topologie]] nach Tow-Thomas
-> - **(TP+BP+HP)**: [[State-Variable Topologie]]  nach KHN (Kerwin-Huelsman-Newcomb)
+> - **(TP+BP+HP)**: [[State-Variable Topologie]] nach KHN (Kerwin-Huelsman-Newcomb)
 > - Andere [Integratorfilter](OPV-Integrator.md#Integratorfilter)
