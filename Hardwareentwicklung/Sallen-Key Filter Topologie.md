@@ -2,6 +2,7 @@
 tags:
   - Baugruppen/Filter
   - HTL-Diplomarbeit
+  - Mathematica
 aliases:
   - Sallen-Key
 keywords: 
@@ -31,10 +32,10 @@ Der Sallen-Key Filter basiert auf einer Einfachen Gegenkopplung von Wechselsigna
 |:----------------------------------------------------:|:--------------------------------------------------------:|
 | ![600](/Hardwareentwicklung/assets/59_SallenKey.png) | ![Sallen_Key_Ortskurve](assets/Sallen_Key_Ortskurve.png) |
 
-<center><a href="./assets/SallenKey.nb">Mathematica Notebook</a></center>
+<center><a href="./assets/SallenKey.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 
-> [!info] Unterschiedliche Wahlen des Verstärkungsfaktors $\alpha$ ergeben unterschiedliche [Filtercharakteristiken](Aktiver%20Filter.md#Filter%20Charakteristika):
+> [!info] Unterschiedliche Wahlen des Verstärkungsfaktors $\alpha$ ergeben unterschiedliche [Filtercharakteristiken](Aktiver%20Filter.md#Filter%20Charakteristiken):
 > 
 > $\alpha=1$: Kritische Dämpfung
 > $\alpha = 1.268$: Bessel

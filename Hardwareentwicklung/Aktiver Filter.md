@@ -32,7 +32,7 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 > 
 > ![](assets/Pasted%20image%2020241212004843.png)
 
-## Filter Charakteristika
+## Filter Charakteristiken
 
 1. **Filter mit kritischer Dämpfung**
     - Durch rückwirkungsfreie kaskadierung von Filtern 1. Ordnung erreicht.

@@ -1,6 +1,7 @@
 ---
 tags:
   - OPV
+  - Mathematica
 aliases:
   - Integrator
   - Integrierer
@@ -55,9 +56,11 @@ $$
 > \end{align}
 > $$
 
-> [!info]+ Bode-Diagramm - [Mathematica Notebook](Simulationen/OPV_Integrator.nb)
+> [!info]+ Bode-Diagramm
 > 
 > ![500](assets/OPV_Integrator_Bodeplot.png)                             
+
+<center><a href="./Simulationen/OPV_Integrator.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 ## Funktionsweise
 
