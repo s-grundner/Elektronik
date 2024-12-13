@@ -88,8 +88,6 @@ $$
 > - Invertierender Tiefpass
 
 > [!info] Aktive Filter 2. Ordnung
-> - Sallen-Key Topologie: Einfache Gegenkopplung
-> - Multiple-Feedback Topologie: Mehrere Gegenkopplungen
+> - **(TP)** Sallen-Key Topologie: Einfache Gegenkopplung
+> - **(TP)** Multiple-Feedback Topologie: Mehrere Gegenkopplungen
 
-
-> [!info] Aktive Filter 
