@@ -18,8 +18,32 @@ professor:
 
 # Addierer
 
+Das Eingangssignal kann an den nicht invertierenden Eingang oder an den invertierenden Eingang gelegt werden, die Rückkopplung muss jedoch bei einer Verstärkerschaltung IMMER eine Gegenkopplung sein.
 
+## Nicht-Invertierender Addierer
 
-# Umkehrsummierer
+![](assets/Pasted%20image%2020241213005737.png)
+
+Die Spannung am invertierenden Eingang ist $U_N=U_A \frac{R}{R+R}=\frac{U_A}{2}$. Wenn der OP korrekt arbeitet, dann versucht er $U_D$ auf 0 zu bringen, also $U_N=U_P$. Bei idealerweise verschwindendem Eingangsstrom des OP gilt dann die Knotengleichung:
+
+$$
+\begin{gathered}
+\frac{U_{E 1}-\frac{U_A}{2}}{R_1}+\frac{U_{E 2}-\frac{U_A}{2}}{R_2}=0 \\
+U_A=\frac{2}{R_1+R_2}\left(R_2 U_{E 1}+R_1 U_{E 2}\right)
+\end{gathered}
+$$
+
+## Umkehrsummierer (Invertierender Addierer)
 
 ![](assets/Pasted%20image%2020241213005226.png)
+
+Da der nicht invertierende Eingang auf Masse liegt, ist der invertierende Eingang eine virtuelle Masse. Somit lautet die Knotengleichung
+
+$$
+\begin{gathered}
+\frac{U_{E 1}}{R_2}+\frac{U_{E 2}}{R_1}+\frac{U_A}{R_3}=0 \\
+U_A=-\frac{R_3}{R_1 R_2}\left(R_1 U_{E 1}+R_2 U_{E 2}\right)
+\end{gathered}
+$$
+
+Diese Schaltung invertiert also die Summe.
