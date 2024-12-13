@@ -1,6 +1,5 @@
 ---
-tags:
-  - tikz/circuitikz
+tags: [tikz/circuitikz, tikz/todo]
 aliases:
   - Kleinsignalverhalten
   - KSESB
@@ -18,6 +17,7 @@ professor:
 
 > [!info] Kleinsignal Ersatzschaltbild (KSESB) eines Bipolartransistors
 >
+
 ```tikz
 \usepackage[european]{circuitikz}
 \usepackage{amsmath}
@@ -53,11 +53,9 @@ professor:
 \end{document}
 ```
 
-
 Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgleichung am Arbeitspunkt linearisiert.
 
-
-#tikz/todo:
+:
 
 ```tikz
 \usepackage{pgfplots}
