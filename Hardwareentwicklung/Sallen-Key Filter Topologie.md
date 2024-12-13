@@ -25,4 +25,20 @@ Der Sallen-Key Filter basiert auf einer Einfachen Gegenkopplung von Wechselsigna
 
 ## Übertragungsfunktion
 
+> [!question]- **Herleitung**
+
+|                    Bode Diagramm                     |                      Charakteristik                      |
+|:----------------------------------------------------:|:--------------------------------------------------------:|
+| ![600](/Hardwareentwicklung/assets/59_SallenKey.png) | ![Sallen_Key_Ortskurve](assets/Sallen_Key_Ortskurve.png) |
+
+<center><a href="./assets/SallenKey.nb">Mathematica Notebook</a></center>
+
+
+> [!info] Unterschiedliche Wahlen des Verstärkungsfaktors $\alpha$ ergeben unterschiedliche [Filtercharakteristiken](Aktiver%20Filter.md#Filter%20Charakteristika):
+> 
+> $\alpha=1$: Kritische Dämpfung
+> $\alpha = 1.268$: Bessel
+> $\alpha = 1.586$: [Butterworth](Butterworth%20Filter%20Charakteristik.md)
+> $\alpha=2.234$: [Tschebyscheff](Tscheybyscheff%20Filter%20Charakteristik.md)
+
 ## Funktionsweise
