@@ -64,12 +64,26 @@ Tiefpässe 1. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form
 $$
 A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\frac{j \omega}{\omega_0}}
 $$
-und Tiefpässe 2. Ordnung
+
+Tiefpässe 2. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form
+
 $$
 A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2}
 $$
 
 ### Hochpässe
+
+Hochpässe 1. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form:
+
+$$
+A(j \omega)=\dfrac{V_0}{1+\dfrac{\omega_0}{j \omega}}
+$$
+
+Hochpässe 2. Ordnung besitzen eine allgemeine Übertragungsfunktion der Form:
+
+$$
+A(j \omega)=\frac{V_0}{1+\dfrac{\omega_0}{j \omega} \cdot \dfrac{1}{Q}+\left(\dfrac{\omega_0}{j \omega}\right)^2}
+$$
 
 ### Bandpässe
 
@@ -79,15 +93,19 @@ $$
 A(j \omega)=\dfrac{V_0}{\dfrac{1}{Q}+j\left(\dfrac{\omega}{\omega_0}-\dfrac{\omega_0}{\omega}\right)}=\dfrac{V_0 \cdot \dfrac{j \omega}{\omega_0}}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2} 
 $$
 
-## Schaltungsentwicklung
+## Schaltungsentwicklung - Topologien
 
 > [!info] Aktive Filter 1. Ordnung
 > Basieren auf einem Passiven RC-Glied mit nachgeschaltenem Verstärker/Impedanzwandler
 >
-> - Nicht invertierender Tiefpass
-> - Invertierender Tiefpass
+> - **(TP)** Nicht invertierender Tiefpass
+> - **(TP)** Invertierender Tiefpass 
+> - **(HP)** Nicht invertierender Hochpass
+> - **(HP)** Invertierender Hochpass
 
 > [!info] Aktive Filter 2. Ordnung
-> - **(TP)** Sallen-Key Topologie: Einfache Gegenkopplung
-> - **(TP)** Multiple-Feedback Topologie: Mehrere Gegenkopplungen
+> - **(TP)** [[Sallen-Key]] Topologie: Filter mit Einfach Gegenkopplung
+> - **(TP)** [[Multiple-Feedback]] Topologie: Filter mit Mehrfach Gegenkopplung
+> - **(TP+BP)**: [[Biquad]] Topologie nach Tow-Thomas
+> - **(TP+BP+HP)**: [[State-Variable]] Topologie nach KHN (Kerwin-Huelsman-Newcomb)
 
