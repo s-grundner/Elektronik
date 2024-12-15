@@ -10,6 +10,8 @@ aliases:
   - Satz 10.6
   - Bemerkung 10.7
   - Basiswechsel
+  - Erzeugendenfunktion
+  - Generating function
 keywords: 
 subject:
   - Mathematik 1
@@ -75,3 +77,8 @@ Die Koordinatenmatrix hängt natürlich von der jeweils gewählten Basis ab. Wü
 $$
 \bar{A}^L=T_{C, \bar{C}} A^L T_{B, \bar{B}}^{-1}=T_{C, \bar{C}} A^L T_{\bar{B}, B}
 $$
+
+# Erzeugenden funktion
+
+- [Olympiad level counting (Generating functions) - YouTube](https://www.youtube.com/watch?v=bOXCLR3Wric)
+- [Erzeugende Funktion – Wikipedia](https://de.wikipedia.org/wiki/Erzeugende_Funktion)
