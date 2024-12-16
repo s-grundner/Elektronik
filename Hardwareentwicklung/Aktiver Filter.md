@@ -62,7 +62,7 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 
 **Tiefpässe 1. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form
 $$
-A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\frac{j \omega}{\omega_0}}
+A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0}}
 $$
 
 **Tiefpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form
@@ -95,7 +95,7 @@ $$
 
 ## Schaltungsentwürfe - Topologien
 
-> [!info] Aktive Filter 1. Ordnung
+> [!info] Einfache Aktive Filter 1. Ordnung
 > Basieren auf einem Passiven RC-Glied mit nachgeschaltenem Verstärker/Impedanzwandler
 >
 > - **(TP)** Nicht invertierender Tiefpass
@@ -110,3 +110,32 @@ $$
 > - **(TP+BP)**: [[Biquad Filter Topologie]] nach Tow-Thomas
 > - **(TP+BP+HP)**: [[State-Variable Topologie]] nach KHN (Kerwin-Huelsman-Newcomb)
 > - Andere [Integratorfilter](OPV-Integrator.md#Integratorfilter)
+
+### Einfache Aktive Filter 1. Ordnung
+
+Tiefpass: Invertierend / Nicht-Invertierend
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{minipage}{0.5\textwidth}
+\begin{circuitikz}[thick, scale=1.5, font=\Large]
+% Begin Schematic
+
+\draw (0,0) node[op amp] (opv) {};
+\draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opv.-) to [R, l=$R$, *-o] ++(-2,0) to[open, v=$U_E$] ++(0,-1.5) to[short, o-] ++(0, -0.5) node[tlground] {};
+\draw (opv.-) to[short] ++()
+
+\end{circuitikz}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{circuitikz}[thick, scale=1.5, font=\Large]
+% Begin Schematic
+
+\end{circuitikz}
+\end{minipage}
+\end{document}
+```
