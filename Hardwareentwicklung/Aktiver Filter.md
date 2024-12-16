@@ -120,31 +120,31 @@ Tiefpass: Invertierend / Nicht-Invertierend
 \usepackage{amsmath}
 
 \begin{document}
-\begin{minipage}[t]{0.48\textwidth}
+
+
 \begin{circuitikz}[thick, scale=1.5, font=\Large]
+
+\begin{scope}
 % Begin Schematic
 
 \draw (0,0) node[op amp, yscale=-1] (opv) {};
-\draw (opv.+) to[short, -*] (opv.+ -| -1.5, 0) to[R, l=$R$, -o] ++(-2,0) node[left] {$U_E$};
-\draw (opv.+ -| -1.5, 0) to[C] (-1.5, -3) node[tlground] {};
+\draw (opv.+) to[short, -*] (opv.+ -| -1.5, 0) to[R, l_=$R$, -o] ++(-2,0) node[left] {$U_E$};
+\draw (opv.+ -| -1.5, 0) to[C, l_=$C$] (-1.5, -3) node[tlground] {};
 \draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
 
-\draw (opv.-) to[short] (opv.- |- 0, -1.5) to[short,-*] (opv.out |- 0, -1.5) to[R] ++(0,1.5) to[short, *-] (opv.out);
-\draw (opv.out |- 0, -1.5) to[R] (opv.out |- 0, -3) node[tlground] {};
+\draw (opv.-) to[short] (opv.- |- 0, -1.5) to[short,-*] (opv.out |- 0, -1.5) to[R, l_=$R_1$] ++(0,1.5) to[short, *-] (opv.out);
+\draw (opv.out |- 0, -1.5) to[R, l=$R_2$] (opv.out |- 0, -3) node[tlground] {};
 
-\end{circuitikz}
-\end{minipage}
-\hspace{5cm}
-\begin{minipage}[t]{0.48\textwidth}
-\begin{circuitikz}[thick, scale=1.5, font=\Large]
+\end{scope}
+\begin{scope}[xshift=7cm, yshift=-2cm]
 % Begin Schematic
 \draw (0,0) node[op amp] (opv) {};
 \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
-\draw (opv.-) to [R, l=$R$, *-o] ++(-2,0) node[left] {$U_E$};
-\draw (opv.-) to[short, -*] (opv.- |- 0, 1) to[C, l=$C$] (opv.out |- 0, 1) to[short, *-] ++(0,-1) to[short](opv.out);
-\draw (opv.-) to[short] (opv.- |- 0, 2) to[R, l=$R$] (opv.out |- 0, 2) to[short] ++(0,-1) to[short, -*](opv.out);
+\draw (opv.-) to [R, l_=$R_1$, *-o] ++(-2,0) node[left] {$U_E$};
+\draw (opv.-) to[short, -*] (opv.- |- 0, 1) to[C=$C$] (opv.out |- 0, 1) to[short, *-] ++(0,-1) to[short](opv.out);
+\draw (opv.-) to[short] (opv.- |- 0, 2) to[R, l=$R_2$] (opv.out |- 0, 2) to[short] ++(0,-1) to[short, -*](opv.out);
 \draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
+\end{scope}
 \end{circuitikz}
-\end{minipage}
 \end{document}
 ```
