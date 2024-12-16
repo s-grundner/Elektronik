@@ -64,13 +64,16 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 
 ## Explizite Einschrittverfahren
 
-> [!important] **ESV D1):** Definition des expliziten Einschrittverfahren
-> Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$.
+Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$.
+
+> [!important] **ESV D1):** Definition des expliziten Einschrittverfahrens
 > 
 > Ein ESV Erzeugt eine Gitterfunktion nach der Vorschrift:
-> $$x_{k} = x_{k-1} + h\cdot \phi(t_{k-1}, x_{k-1}, h)\tag{ESV}$$
+> $$x_{k} = x_{k-1} + h\cdot \underbrace{ \phi(t_{k-1}, x_{k-1}, h) }_{ \text{Verfahrensfunktion} }\tag{ESV}$$
 >    
 > (beim Euler-Verfahren ist $\phi(t, x, h) = f(t,x)$)
+> Je Kleiner die Schrittweite $h$, desto genauer ist die Approximation. Jedoch ist der Rechenaufwand größer.
+
 
 Man möchte wissen, wie gut die Approximation ist und ob Konvergenz gegen die exakte Lösung vorliegt, wenn die Schrittweite $h$ gegen 0 geht.
 
