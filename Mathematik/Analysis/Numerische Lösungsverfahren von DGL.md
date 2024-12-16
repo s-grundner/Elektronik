@@ -54,8 +54,8 @@ Wir betrachten das AWP  $x' = f(t,x), x(t_{0})=x_{0}$:
 
 ![invert_dark|600](assets/DGL_NUM_EV.png)
 $$
-\begin{align}
-x_{1} &\approx x_{0}+h\cdot x'= x_{0}+h\cdot f(t_{0}, x_{0}) \quad \text{ Erster Term in der Taylor Entwicklung. } \\
-x_{k} &\approx x_{k-1} + h\cdot f(t_{k-1}, x_{k-1})
-\end{align}
+\begin{gathered}
+x_{1} \approx x_{0}+h\cdot x'= x_{0}+h\cdot f(t_{0}, x_{0}) \\
+\boxed{ x_{k} \approx x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
+\end{gathered}
 $$
