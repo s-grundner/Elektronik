@@ -1,0 +1,4 @@
+.callout[data-callout="hint"] {
+	--callout-icon: lucide-lightbulb;
+	--callout-color: 255, 215, 0;
+}

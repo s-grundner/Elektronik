@@ -13,6 +13,20 @@ professor:
 
 # Numerische DGL
 
+> [!quote] Wozu Numerische Verfahren?
+>  Bei nichtlinearen Gleichungen stößt man sehr bald an Grenzen. Schon für einfach aussehende Gleichungen, wie z.B.
+> 
+> $$x^{\prime}=t-x^2 \quad \text { oder } \quad x^{\prime \prime}=6 x^2+t$$
+> 
+> lässt sich die Lösung nicht mehr mit Hilfe elementarer Funktionen darstellen.
+> 
+> Man braucht daher Näherungsmethoden. Dabei unterscheidet man zwischen **analytischen** und **numerischen** Näherungsverfahren.
+> Ein analytisches Verfahren:
+> - Aus dem Satz von Lindelöf: Sukzessive Approximation.
+> - Falls die Funktion $f$ in der DGL (4.1) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten. Wir gehen darauf nicht ein.
+> Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte Diskretisierungsverfahren durchgesetzt. Das Grundprinzip dieser Verfahren besteht darin, dass das unendlich dimensionale Problem der Bestimmung von Funktionen in eine endlich dimensionale Aufgabe transformiert wird: die Berechnung von Vektoren mit reellwertigen Komponenten.
+> Das wohl einfachste Verfahren dieser Art ist das Euler-Verfahren, das wir am Ende von Kapitel 3 kennengelernt haben. Wir werden im Folgenden Verfahren für Anfangswert-, Randwert- und Eigenwertprobleme kennenlernen.
+> 
 > [!hint]- Einfachstes numerisches Verfahren: Sukzessive Approximation nach
 > 
 > $x' = f(t,x), x(t_{0})=x_{0}$
