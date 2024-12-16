@@ -81,7 +81,7 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 
 Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
 
-> [!important] **DF D2):** Definition des Diskretisierungsfehler 
+> [!important] **LDF D2):** Definition des Diskretisierungsfehler 
 > 
 > Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie in **ESV D1**
 > 
@@ -97,8 +97,8 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > $$\max _{1 \leq k \leq N}\left\|\tau_k\right\|=O\left(h^q\right)\quad \text{ für } h\to 0$$
 > 
 > > [!info]- Erläuterung
-> > 1. Der Diskretisierungsfehler ist die Differenz zwischen der exakten Lösung und der Näherungslösung des ESV.
-> > 2. Die Konsistenz ist gegeben wenn *alle* Diskretisierungsfehler ([Maximumnorm](../Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren,
+> > 1. Der lokale Diskretisierungsfehler ist die Differenz zwischen der exakten Lösung und der Näherungslösung des ESV.
+> > 2. Die Konsistenz ist gegeben wenn alle Diskretisierungsfehler ([Maximumnorm](../Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren,
 > > wenn die Schrittweite $h$ gegen $0$ [konvergiert](Grenzwert.md).
 > > 3. Ist der Größte Fehler ist von der Ordnung $O(h^q)$ Dann heißt $q$ Konvergenzordnung.
 > > Die Konsistenzordnung ist ein maß, wie schnell der Diskretisierungsfehler gegen 0 konvergiert,
@@ -107,5 +107,12 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 
 > [!important] **O D3):** Definition der Ordnung $O(h^{q})$: 
-> $$\exists C>0 \exists h_{0}>0\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
-> Es gibt eine Konstante $C>0$ und eine Kleine Zahl $h_{0}>0$, die hinreichend nahe bei Null ist, sodass für alle $h$ die kleiner sind als $h_{0}$, gilt: Dass der Maximale Fehler $\lVert \tau \rVert_{\infty}$ kleiner ist als $C h^q$.
+> $$\exists C>0\, \exists h_{0}\!>0\,\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
+> Es gibt eine Konstante $C>0$ und eine Kleine Zahl $h_{0}>0$, die hinreichend nahe bei Null ist, sodass für alle $h$ die kleiner sind als $h_{0}$, gilt, dass der Maximale Fehler $\lVert \tau \rVert_{\infty}$ auf keinen Fall schneller wächst als $C h^q$.
+> 
+> Je höher das $q$ ist, desto schneller Konvergiert der Fehler gegen 0.
+> $$\iff \lim_{ h \to 0 }\operatorname{sup} \frac{\lVert \tau \rVert_{\infty}}{h^{q}}<\infty  $$
+> $\lVert \tau \rVert_{\infty}$ fällt nicht schwächer ab als $h^{q}$ für $h \to 0$.
+> $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k }{ \max }$ 
+
+
