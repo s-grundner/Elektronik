@@ -19,7 +19,7 @@ professor:
 
 Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integratorfilters](OPV-Integrator.md#Integratorfilter).
 
-Dieser Filter kombiniert einen aktiven Tiefpass und Bandpass 2. Ordnung.
+Dieser Filter kombiniert einen [aktiven](Aktiver%20Filter.md) Tiefpass und Bandpass 2. Ordnung.
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -90,6 +90,16 @@ Dieser Filter kombiniert einen aktiven Tiefpass und Bandpass 2. Ordnung.
 > $$V_{0}=f(R_{2}), \quad Q = f(R_{3}), \quad \omega_{0}=f(R)$$
 
 ## Übertragungsfunktion
+
+$$
+\begin{array}{cc}
+A_{BP}(j\omega) = -\dfrac{\frac{R_{1}}{R_{2}}}{1+j\omega RC\cdot \frac{R}{R_{3}}+(j\omega RC)^{2}}
+\end{array}
+$$
+
+|             Bode Diagramm              |                    Ortskurve                     |
+| :------------------------------------: | :----------------------------------------------: |
+| ![Biquad_Bode](assets/Biquad_Bode.png) | ![Biquad_Ortskurve](assets/Biquad_Ortskurve.png) |
 
 <center><a href="./Simulationen/Biquad.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
