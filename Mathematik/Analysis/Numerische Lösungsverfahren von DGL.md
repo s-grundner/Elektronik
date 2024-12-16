@@ -21,6 +21,7 @@ professor:
 > lässt sich die Lösung nicht mehr mit Hilfe elementarer Funktionen darstellen.
 > 
 > Man braucht daher Näherungsmethoden. Dabei unterscheidet man zwischen **analytischen** und **numerischen** Näherungsverfahren.
+> 
 > Ein analytisches Verfahren:
 > - Aus dem Satz von Lindelöf: [Sukzessive Approximation](../sukzessive%20Approximation.md).
 > - Falls die Funktion $f$ in der der [AWP](../{MOC}%20DGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
@@ -45,7 +46,9 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 > Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
 
 
-Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ eine eindeutige Lösung auf $I$ hat. Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
+> [!hint] Eindeutige Lösbarkeit:
+>  Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ eine eindeutige Lösung auf $I=[a,b]$ hat.
+>  Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
 > [!info] Euler-Verfahren (EV)
 > 
@@ -60,7 +63,7 @@ Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ 
 ## Explizite Einschrittverfahren
 
 > [!important] Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$:
->     $$x_{k} = x_{k-1} + h\cdot \phi(t_{k-1}, x_{k-1}, h)\tag{ESV}$$
+> $$x_{k} = x_{k-1} + h\cdot \phi(t_{k-1}, x_{k-1}, h)\tag{ESV}$$
 >    
 > (beim Euler-Verfahren ist $\phi(t, x, h) = f(t,x)$)
 
@@ -70,14 +73,15 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 
 Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
 
-> [!important] **Definition:** Es gelte (13.1) und $\phi$ sei wie i
+> [!important] **(DF) Definition:** Diskretisierungsfehler- Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie im **ESV**
 **(i)** Der lokale Diskretisierungsfehler des ESV (13.2) an der Stelle $t_k$ lautet
-
-$$\tau_k:=\frac{x\left(t_k\right)-x\left(t_{k-1}\right)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right), \quad k=1, \ldots, N$$
-
-**(ii)** Das ESV heißt konsistent mit dem AWP, wenn
-
-$$\lim _{h \rightarrow 0} \max _{1 \leq k \leq N}\lVert\tau_k\rVert=0$$
-
-**(iii)** Die Konsistenzordnung ist $q \in \mathbb{N}$, wenn gilt:
-$$\max _{1 \leq k \leq N}\left\|\tau_k\right\|=O\left(h^q\right)$$
+> 
+> $$\tau_k:=\frac{x\left(t_k\right)-x\left(t_{k-1}\right)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right), \quad k=1, \ldots, N$$
+> 
+> **(ii)** Das ESV heißt konsistent mit dem AWP, wenn
+> 
+> $$\lim _{h \rightarrow 0} \max _{1 \leq k \leq N}\lVert\tau_k\rVert=0$$
+> 
+> **(iii)** Die Konsistenzordnung ist $q \in \mathbb{N}$, wenn gilt:
+> $$\max _{1 \leq k \leq N}\left\|\tau_k\right\|=O\left(h^q\right)$$
+> 
