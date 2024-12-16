@@ -45,17 +45,17 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 > Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
 
 
-Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md) eine eindeutige Lösung auf $I$ hat. Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
+Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ eine eindeutige Lösung auf $I$ hat. Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
-### Euler-Verfahren (EV)
+> [!info] Euler-Verfahren (EV)
+> 
+> ![invert_dark|500](assets/DGL_NUM_EV.png) 
+> $$
+> \begin{gathered}
+> x_{1} \approx x_{0}+h\cdot x'= x_{0}+h\cdot f(t_{0}, x_{0}) \\
+> \boxed{ x_{k} \approx x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
+> \end{gathered}
+> $$
 
-Wir betrachten das AWP  $x' = f(t,x), x(t_{0})=x_{0}$:
 
-
-![invert_dark|600](assets/DGL_NUM_EV.png)
-$$
-\begin{gathered}
-x_{1} \approx x_{0}+h\cdot x'= x_{0}+h\cdot f(t_{0}, x_{0}) \\
-\boxed{ x_{k} \approx x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
-\end{gathered}
-$$
+Mit allgemeinere Verfahren, sogenannte **expliziten Einschrittverfahren** wird das AWP $f$
