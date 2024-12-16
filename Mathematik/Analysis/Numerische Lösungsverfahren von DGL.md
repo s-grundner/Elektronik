@@ -46,7 +46,7 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 > ![invert_dark|800](assets/Pasted%20image%2020241216194118.png)
 > Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
 > Der Abbildung kann man entnehmen, dass:
-> $$t_{k}=t_{k-1}+h\iff t_{k}=t_{0}+kh$$
+> $$\boxed{ t_{k}=t_{k-1}+h\iff t_{k}=t_{0}+kh }$$
 
 
 > [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
@@ -83,13 +83,13 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 
 Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
 
-> [!important] **LDF D2):** Definition des Diskretisierungsfehler 
+> [!important] **LDF D2):** Definition des lokalen Diskretisierungsfehlers
 > 
 > Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie beim **ESV**
 > 
 **(i)** Der lokale Diskretisierungsfehler des ESV an der Stelle $t_k$ lautet
 > 
-> $$\tau_k:=\frac{x\left(t_k\right)-x\left(t_{k-1}\right)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right), \quad k=1, \ldots, N\tag{DF}$$
+> $$\tau_k:=\frac{x\left(t_k\right)-x\left(t_{k-1}\right)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right), \quad k=1, \ldots, N\tag{LDF}$$
 > 
 > **(ii)** Das ESV heißt konsistent mit dem AWP, wenn
 > 
@@ -119,7 +119,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[ Maximumsnorm](../Maximumsnorm.md)
 
 
-Der Term aus **LDF** Lässt sich schreiben wie
+Durch die Äquidistande Diskretisierung lässt sich der Term des **LDF** schreiben wie:
 
 $$
 \frac{x(t +h)-x(t)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right)
