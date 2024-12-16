@@ -120,21 +120,28 @@ Tiefpass: Invertierend / Nicht-Invertierend
 \usepackage{amsmath}
 
 \begin{document}
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}[l]{0.5\textwidth}
 \begin{circuitikz}[thick, scale=1.5, font=\Large]
 % Begin Schematic
 
 \draw (0,0) node[op amp] (opv) {};
 \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
-\draw (opv.-) to [R, l=$R$, *-o] ++(-2,0) to[open, v=$U_E$] ++(0,-1.5) to[short, o-] ++(0, -0.5) node[tlground] {};
-\draw (opv.-) to[short] ++(0, 1) to[C] (opv.out |- 0,1) to[short] (opv.out);
+\draw (opv.-) to [R, l=$R$, *-o] ++(-2,0) node[left] {$U_E$};
+\draw (opv.-) to[short, -*] (opv.- |- 0, 1) to[C, l=$C$] (opv.out |- 0, 1) to[short, *-] ++(0,-1) to[short](opv.out);
+\draw (opv.-) to[short] (opv.- |- 0, 2) to[R, l=$R$] (opv.out |- 0, 2) to[short] ++(0,-1) to[short, -*](opv.out);
+\draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
 
 \end{circuitikz}
 \end{minipage}
-\begin{minipage}{0.5\textwidth}
+\begin{minipage}[r]{0.5\textwidth}
 \begin{circuitikz}[thick, scale=1.5, font=\Large]
 % Begin Schematic
-
+\draw (0,0) node[op amp] (opv) {};
+\draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opv.-) to [R, l=$R$, *-o] ++(-2,0) node[left] {$U_E$};
+\draw (opv.-) to[short, -*] (opv.- |- 0, 1) to[C, l=$C$] (opv.out |- 0, 1) to[short, *-] ++(0,-1) to[short](opv.out);
+\draw (opv.-) to[short] (opv.- |- 0, 2) to[R, l=$R$] (opv.out |- 0, 2) to[short] ++(0,-1) to[short, -*](opv.out);
+\draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
 \end{circuitikz}
 \end{minipage}
 \end{document}
