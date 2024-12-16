@@ -58,7 +58,7 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 >- Das kaskadierte Gesamtfilter hat eine andere Grenzfrequenz als die Teilfilter und evtl. auch eine andere Filtercharakteristik.
 > - Deshalb sind die einzelnen Teilfilter stets so zu dimensionieren, dass gesamt die gewünschte Filtercharakteristik erreicht wird.
 
-### Tiefpässe
+### Allgemeine Tiefpässe
 
 **Tiefpässe 1. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form
 $$
@@ -71,7 +71,7 @@ $$
 A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2}
 $$
 
-### Hochpässe
+### Allgemeine Hochpässe
 
 **Hochpässe 1. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
 
@@ -85,7 +85,7 @@ $$
 A(j \omega)=\frac{V_0}{1+\dfrac{\omega_0}{j \omega} \cdot \dfrac{1}{Q}+\left(\dfrac{\omega_0}{j \omega}\right)^2}
 $$
 
-### Bandpässe
+### Allgemeine Bandpässe
 
 **Bandpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
 
@@ -113,7 +113,9 @@ $$
 
 ### Einfache Aktive Filter 1. Ordnung
 
-**Tiefpass:** Nicht-Invertierend / Invertierend
+#### Tiefpass
+
+ Nicht-Invertierend / Invertierend
 
 
 ```tikz
@@ -154,7 +156,7 @@ $$
 \end{document}
 ```
 
-#### Übertragungsfunktion
+##### Übertragungsfunktion
 
 $$
 \begin{array}{ccc}
@@ -164,8 +166,9 @@ $$
 \end{array}
 $$
 
+#### Hochpass
 
-**Hochpass:** Nicht-Invertierend / Invertierend
+Nicht-Invertierend / Invertierend
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}

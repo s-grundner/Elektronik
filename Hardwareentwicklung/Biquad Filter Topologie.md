@@ -99,31 +99,18 @@ Zwischenspannungen können ermittelt werden durch die einzelne Betrachtung jeder
 
 > [!question] **(A)** [Umkehrsummierer](OPV-Addierer.md): liefert $U_{1}(U_{E}, U_{TP})$
 > 
-> ```tikz
-> \usepackage[european, straightvoltages]{circuitikz}
-> \usepackage{amsmath}
-> 
-> \begin{document}
-> \begin{circuitikz}[thick, scale=1, font=\Large]
-> % Begin Schematic
-> 
-> \draw (0,0) node[op amp] (opv) {};
-> \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
-> \draw (opv.-)
->     to [R, l_=$R_1$, *-o] (opv.- -| -3,0)
->     node[left] {$U_{TP}$};
-> \draw (opv.-)
->     to[short, *-*] (opv.- |- 0, 2)
->     to[R, l_=$R_2$, -o] (-3, 2)
->     node[left] {$U_{E}$};
-> \draw (opv.- |- 0, 2)
->     to[R=$R_1$] (opv.out |- 0, 2)
->     to[short, -*] (opv.out)
->     to[short, -o] ++(1,0) node[right] {$U_1$};
-> 
-> \end{circuitikz}
-> \end{document}
-> ```
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+  
+\input{./AA.tex}
+
+\end{document}
+```
+
 > 
 > Aus der Knotenregel folgt:
 > 
@@ -132,12 +119,12 @@ Zwischenspannungen können ermittelt werden durch die einzelne Betrachtung jeder
 > $$
 
 
-> [!question] **(B)** [Invertierender Teifpass 1. Ordnung](Aktiver%20Filter.md#Einfache%20Aktive%20Filter%201.%20Ordnung): liefert $U_{BP}(U_{1})$
+> [!question] **(B)** [Tiefpass](Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
 
 $$
 \begin{align}
 \frac{U_{BP}}{U_{1}} = - \frac{R_{3}| |Z_{C}}{R} = -\frac{1}{R\cdot\left( \frac{1}{R}+\frac{1}{Z_{C}} \right)} \\
-U_{BP} = -U_{1}
+U_{BP} = -U_{1}\cdot \frac{1}{\frac{R}{R_{3}}+j\omega RC}=-U_{1}\cdot \frac{R_{3}}{R}\cdot \frac{1}{1+j\omega R_{3}C}
 \end{align}
 $$
 

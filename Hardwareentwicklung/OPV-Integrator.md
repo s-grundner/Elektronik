@@ -29,12 +29,21 @@ professor:
 
 \draw (0,0) node[op amp] (opv) {};
 
-\draw (opv.out) to[short, *-] ++(0, 1) to[C, l_=$C$] (-1, 1) to[short, -*] (opv.- -| -1, 1) to[short] (opv.-);
+\draw (opv.out)
+    to[short, *-] ++(0, 1)
+    to[C, l_=$C$] (-1, 1)
+    to[short, -*] (opv.- -| -1, 1)
+    to[short] (opv.-);
 \draw (opv.+) to[short] ++(0, -1) node[tlground] {};
 \draw (opv.- -| -1, 1) to[R, l_=$R$, -o] (opv.- -| -2, 0);
-\draw (opv.out) to[short, -o] ++(1, 0) to[open, v=$U_a$, -o] ++(0, -1) to[short] ++(0, -0.25) node[tlground] {};
-\draw (opv.- -| -2, 0) to[open, v=$U_e$, -o] ++(0, -1.25) to[short] ++(0, -0.25) node[tlground] {};
 
+\draw (opv.out)
+    to[short, -o] ++(1, 0)
+    to[open, v=$U_A$, -o] ++(0, -1)
+    to[short] ++(0, -0.25) node[tlground] {};
+\draw (opv.- -| -2, 0)
+    to[open, v=$U_E$, -o] ++(0, -1.25)
+    to[short] ++(0, -0.25) node[tlground] {};
 
 \end{circuitikz}
 \end{document}
@@ -43,7 +52,7 @@ professor:
 ## Übertragungsfunktion
 
 $$
-\boxed{ A(j\omega)=\frac{\underline{ U }_{a}}{\underline{ U }_{e}} = -\frac{1}{j\omega R C} }
+\boxed{ A(j\omega)=\frac{\underline{ U }_{A}}{\underline{ U }_{E}} = -\frac{1}{j\omega R C} }
 $$
 
 > [!question]- **Herleitung**
@@ -70,7 +79,7 @@ $$
 
 ![](assets/Pasted%20image%2020241213050705.png)
 
-Durch geschicktes Zusammenschalten von OPV Grundschaltungen können sehr einfach verschiedene Filtertypen (Bandpass, Tiefpass, Hochpass) realisiert werden, je nachdem welcher Ausgang benutzt wird.
+Durch geschicktes Zusammenschalten von OPV Grundschaltungen können sehr einfach verschiedene [Aktive](Aktiver%20Filter.md) Filtertypen (Bandpass, Tiefpass, Hochpass) realisiert werden, je nachdem welcher Ausgang benutzt wird.
 
 Im Allgemeinen bestehen solche Schaltungen aus einem [Addierer](OPV-Addierer.md), welcher das Eingangssignal mit zwei Integratorausgängen aufsummiert. 
 
