@@ -19,6 +19,8 @@ professor:
 
 Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integratorfilters](OPV-Integrator.md#Integratorfilter).
 
+Dieser Filter kombiniert einen aktiven Tiefpass und Bandpass 2. Ordnung.
+
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
@@ -37,14 +39,13 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
 % Umkehrsummierer
 \draw (opvA.+) to[short] (opvA.+ |- 0, \gndlvl) node[tlground] {};
 \draw (opvA.-)
-    to [vR, l_=$R_2$, name=R2,*-o] (opvA.- -| -3, 0)
+    to [vR, l_=$R_2$, *-o] (opvA.- -| -3, 0)
     to[open, v=$U_E$] (-3, \gndlvl + 0.5)
     to[short, o-] (-3, \gndlvl) node[tlground] {};
 \draw (opvA.-)
-    to[short, -*] (opvA.- |- 0, 2)
-    to[R=$R_1$] (opvA.out |- 0, 2)
-    to[short, -o] ++(0,-2)
-    to[short] (opvA.out);
+    to[short, -*] (opvA.- |- 0, 2.5)
+    to[R=$R_1$] (opvA.out |- 0, 2.5)
+    to[short, -o] (opvA.out);
 \draw (opvA.out)
     to[open, v=$U_1$] (opvA.out |- 0, \gndlvl+0.5)
     to[short, o-] (opvA.out |- 0, \gndlvl) node[tlground] {};
@@ -52,7 +53,7 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
 % Mitkopplungszweig
 \draw (opvA.- |- 0, 2)
     to[short] (opvA.- |- 0, 4)
-    to[R=$R_1$] (opvA.out |- 0, 4)
+    to[R, l=$R_1$] (opvA.out |- 0, 4)
     to[short] (opvC.out |- 0, 4)
     to[short, -o] (opvC.out);
 
@@ -84,12 +85,9 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
 \end{document}
 ```
 
-Die einzelnen Widerstände bestimmen praktischerweise größtenteils separat die Kenngrößen $V_{0}, Q$ und $\omega_{0}$:
-
-$$V_{0}=f(R_{2}), \quad Q = f(R_{3}), \quad \omega_{0}=f(R)$$
-
-
-![](assets/Pasted%20image%2020241213044618.png)
+> [!info] Die einzelnen Widerstände bestimmen praktischerweise größtenteils separat die Kenngrößen $V_{0}, Q$ und $\omega_{0}$:
+> 
+> $$V_{0}=f(R_{2}), \quad Q = f(R_{3}), \quad \omega_{0}=f(R)$$
 
 ## Übertragungsfunktion
 
