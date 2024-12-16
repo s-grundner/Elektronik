@@ -127,7 +127,7 @@ Tiefpass: Invertierend / Nicht-Invertierend
 \draw (0,0) node[op amp] (opv) {};
 \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
 \draw (opv.-) to [R, l=$R$, *-o] ++(-2,0) to[open, v=$U_E$] ++(0,-1.5) to[short, o-] ++(0, -0.5) node[tlground] {};
-\draw (opv.-) to[short] ++()
+\draw (opv.-) to[short] ++(0, 1) to[C] (opv.out |- 0,1) to[short] (opv.out);
 
 \end{circuitikz}
 \end{minipage}
