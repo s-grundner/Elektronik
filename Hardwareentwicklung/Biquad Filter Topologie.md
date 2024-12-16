@@ -106,6 +106,8 @@ $$V_{0}=\frac{R_{1}}{R_{2}}, \quad \omega_{0}=\frac{1}{RC}, \quad Q=\frac{R_{3}}
 
 ### Bodediagramm und Ortskurve
 
+mit den Parametern: $V_{0}=1,\quad \omega_{0}=10^{5}s^{-1}, \quad Q=\frac{1}{\sqrt{ 2 }}$
+
 |             Bode Diagramm              |                    Ortskurve                     |
 | :------------------------------------: | :----------------------------------------------: |
 | ![Biquad_Bode](assets/Biquad_Bode.png) | ![Biquad_Ortskurve](assets/Biquad_Ortskurve.png) |
@@ -146,8 +148,8 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > 
 > $$U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+ \frac{R_{1}}{R_{1}} U_{TP} \right) = -\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right)$$
 
-
 > [!question] **(B)** [Tiefpass 1. Ordnung](Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
+> 
 > ```tikz
 > \usepackage[european, straightvoltages]{circuitikz}
 > \usepackage{amsmath}
@@ -158,7 +160,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > % Begin Schematic
 > \draw (0,0) node[op amp] (opv) {};
 > \draw (opv.+)
->     to[short] ++(0,-1)
+>     to[short] ++(0,-0.5)
 >     node[tlground] {};
 > \draw (opv.-)
 >     to [R, l_=$R$, *-o] ++(-2,0)
@@ -180,6 +182,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > \end{circuitikz}
 > \end{document}
 > ```
+> 
 > $$U_{BP} =-U_{1}\cdot \frac{R_{3}}{R}\cdot \frac{1}{1+j\omega R_{3}C}$$
 
 > [!question] **(C)** [Integrator](OPV-Integrator.md) liefert $U_{TP}(U_{BP})$
@@ -194,7 +197,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > 
 > \draw (0,0) node[op amp] (opv) {};
 > 
-> \draw (opv.+) to[short] ++(0,-1) node[tlground] {};
+> \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
 > \draw (opv.-)
 >     to[short, *-] (opv.- |- 0, 2)
 >     to[C=$C$] (opv.out |- 0, 2)
