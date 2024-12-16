@@ -59,4 +59,13 @@ Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ 
 
 ## Explizite Einschrittverfahren
 
-Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$
+> [!important] Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$:
+> $$x_{k} = x_{k-1} + h\cdot \phi(t_{k-1}, x_{k-1}, h)$$
+>
+> (beim Euler-Verfahren ist $\phi(t, x, h) = f(t,x)$)
+
+Man möchte wissen, wie gut die Approximation ist und ob Konvergenz gegen die exakte Lösung vorliegt, wenn die Schrittweite $h$ gegen 0 geht.
+
+Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern der vorherigen Schritte zusammen und ist daher einer direkten Bestimmung nicht zugänglich.
+
+Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
