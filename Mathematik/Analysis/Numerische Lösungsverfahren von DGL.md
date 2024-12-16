@@ -38,13 +38,15 @@ professor:
 
 Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $N$ Teilintervalle unterteilt. 
 
-> [!info] Man nimmt sich also endlich viele Punkte und berechnet sich an diesen Punkten eine Näherungslösung berechnet:
+> [!info] **Äquidistande Diskretisierung**: Man nimmt sich also endlich viele Punkte und berechnet sich an diesen Punkten eine Näherungslösung berechnet:
 > 
 > **Intervall**: $I=[a,b], t \in I$
 > **Diskretisierung** (äquidistand):
 > 
 > ![invert_dark|800](assets/Pasted%20image%2020241216194118.png)
 > Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
+> Der Abbildung kann man entnehmen, dass:
+> $$t_{k}=t_{k-1}+h\iff t_{k}=t_{0}+kh$$
 
 
 > [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
@@ -83,7 +85,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 > [!important] **LDF D2):** Definition des Diskretisierungsfehler 
 > 
-> Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie in **ESV D1**
+> Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie beim **ESV**
 > 
 **(i)** Der lokale Diskretisierungsfehler des ESV an der Stelle $t_k$ lautet
 > 
@@ -106,13 +108,19 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > 
 
 
-> [!important] **O D3):** Definition der Ordnung $O(h^{q})$: 
+> [!important] **ORD D3):** Definition der Ordnung $O(h^{q})$: 
 > $$\exists C>0\, \exists h_{0}\!>0\,\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
 > Es gibt eine Konstante $C>0$ und eine Kleine Zahl $h_{0}>0$, die hinreichend nahe bei Null ist, sodass für alle $h$ die kleiner sind als $h_{0}$, gilt, dass der Maximale Fehler $\lVert \tau \rVert_{\infty}$ auf keinen Fall schneller wächst als $C h^q$.
 > 
-> Je höher das $q$ ist, desto schneller Konvergiert der Fehler gegen 0.
-> $$\iff \lim_{ h \to 0 }\operatorname{sup} \frac{\lVert \tau \rVert_{\infty}}{h^{q}}<\infty  $$
-> $\lVert \tau \rVert_{\infty}$ fällt nicht schwächer ab als $h^{q}$ für $h \to 0$.
-> $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k }{ \max }$ 
+> > [!info]- Erläuterung
+> > Je höher das $q$ ist, desto schneller Konvergiert der Fehler gegen 0.
+> > $$\iff \lim_{ h \to 0 }\operatorname{sup} \frac{\lVert \tau \rVert_{\infty}}{h^{q}}<\infty  $$
+> > $\lVert \tau \rVert_{\infty}$ fällt nicht schwächer ab als $h^{q}$ für $h \to 0$.
+> > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[ Maximumsnorm](../Maximumsnorm.md)
 
 
+Der Term aus **LDF** Lässt sich schreiben wie
+
+$$
+\frac{x(t +h)-x(t)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right)
+$$

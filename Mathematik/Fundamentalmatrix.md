@@ -33,14 +33,14 @@ X^{\prime}(t)=A(t) X(t)
 $$
 
 > [!important] **FM D2)** Definition des Martizant
-> Gilt außerdem $X\left(t_0\right)=I_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Matrizant**, bezeichnet mit $X_{t_0}$.
+> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Matrizant**, bezeichnet mit $X_{t_0}$.
 > 
 
 
 Diese Matrix ist die eindeutige Lösung des linearen AWP (auch Matrix-DGL genannt)
 
 $$
-X^{\prime}=A(t) X, \quad X\left(t_0\right)=I_m
+X^{\prime}=A(t) X, \quad X\left(t_0\right)=\mathbb{1}_m
 $$
 
 > [!important] **FM S1)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$
