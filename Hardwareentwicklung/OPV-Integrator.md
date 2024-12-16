@@ -24,7 +24,7 @@ professor:
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[very thick, scale=2, font=\LARGE]
+\begin{circuitikz}[very thick, scale=1, font=\Large]
 % Begin Schematic
 
 \draw (0,0) node[op amp] (opv) {};
@@ -40,10 +40,10 @@ professor:
 \draw (opv.out)
     to[short, -o] ++(1, 0)
     to[open, v=$U_A$, -o] ++(0, -1)
-    to[short] ++(0, -0.25) node[tlground] {};
+    to[short] ++(0, -0.5) node[tlground] {};
 \draw (opv.- -| -2, 0)
-    to[open, v=$U_E$, -o] ++(0, -1.25)
-    to[short] ++(0, -0.25) node[tlground] {};
+    to[open, v=$U_E$, -o] ++(0, -1.5)
+    to[short] ++(0, -0.5) node[tlground] {};
 
 \end{circuitikz}
 \end{document}

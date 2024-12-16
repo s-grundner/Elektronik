@@ -95,9 +95,9 @@ Dieser Filter kombiniert einen aktiven Tiefpass und Bandpass 2. Ordnung.
 
 ## Funktionsweise
 
-Zwischenspannungen können ermittelt werden durch die einzelne Betrachtung jeder OPV Stufe.
+Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermittelt werden.
 
-> [!question] **(A)** [Umkehrsummierer](OPV-Addierer.md): liefert $U_{1}(U_{E}, U_{TP})$
+> [!question] **(A)** [Umkehrsummierer](OPV-Addierer.md) liefert $U_{1}(U_{E}, U_{TP})$
 > 
 > ```tikz
 > \usepackage[european, straightvoltages]{circuitikz}
@@ -125,19 +125,52 @@ Zwischenspannungen können ermittelt werden durch die einzelne Betrachtung jeder
 > \end{document}
 > ```
 > 
-> Aus der Knotenregel folgt:
+> $$
+> U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+ \frac{R_{1}}{R_{1}} U_{TP} \right) =\underline{ \underline{ -\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right) } }
+> $$
+
+
+> [!question] **(B)** [Tiefpass 1. Ordnung](Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
+> ```tikz
+> \usepackage[european, straightvoltages]{circuitikz}
+> \usepackage{amsmath}
 > 
+> \begin{document}
+> \begin{circuitikz}[thick, scale=1, font=\Large]
+> % Begin Schematic
+> % Begin Schematic
+> \draw (0,0) node[op amp] (opv) {};
+> \draw (opv.+)
+>     to[short] ++(0,-1)
+>     node[tlground] {};
+> \draw (opv.-)
+>     to [R, l_=$R$, *-o] ++(-2,0)
+>     node[left] {$U_E$};
+> \draw (opv.-)
+>     to[short, -*] (opv.- |- 0, 1.5)
+>     to[C=$C$] (opv.out |- 0, 1.5)
+>     to[short, *-] ++(0,-1.5)
+>     to[short] (opv.out);
+> \draw (opv.-)
+>     to[short] (opv.- |- 0, 3)
+>     to[R, l=$R_3$] (opv.out |- 0, 3)
+>     to[short] ++(0,-2)
+>     to[short, -*](opv.out);
+> \draw (opv.out)
+>     to[short, -o] ++(1, 0)
+>     node[right] {$U_A$};
+> 
+> \end{circuitikz}
+> \end{document}
+> ```
 > $$
-> \frac{U_{1}}{R_{1}}=-\left( \frac{U_{E}}{R_{1}}+\frac{U_{TP}}{R_{2}} \right) \iff U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right)
+> \begin{align}
+> U_{BP} =-U_{1}\cdot \frac{R_{3}}{R}\cdot \frac{1}{1+j\omega R_{3}C}
+> \end{align}
 > $$
 
+**(C)** [Integrator](OPV-Integrator.md) liefert $U_{TP}(U_{BP})$
 
-> [!question] **(B)** [Tiefpass](Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
+```tikz
 
-$$
-\begin{align}
-\frac{U_{BP}}{U_{1}} = - \frac{R_{3}| |Z_{C}}{R} = -\frac{1}{R\cdot\left( \frac{1}{R}+\frac{1}{Z_{C}} \right)} \\
-U_{BP} = -U_{1}\cdot \frac{1}{\frac{R}{R_{3}}+j\omega RC}=-U_{1}\cdot \frac{R_{3}}{R}\cdot \frac{1}{1+j\omega R_{3}C}
-\end{align}
-$$
-
+```

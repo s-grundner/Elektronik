@@ -229,7 +229,7 @@ Nicht-Invertierend / Invertierend
 \end{circuitikz}
 
 \begin{circuitikz}[thick, scale=1, font=\Large]
-\begin{scope}[xshift=7cm, yshift=-2cm]
+\begin{scope}[xshift=8cm, yshift=-2cm]
 
 % Begin Schematic
 \draw (0,0) node[op amp] (opv) {};
@@ -237,20 +237,16 @@ Nicht-Invertierend / Invertierend
     to[short] ++(0,-1)
     node[tlground] {};
 \draw (opv.-)
-    to [R, l_=$R_1$, *-o] ++(-2,0)
+    to[R, l_=$R_1$, *-] ++(-2,0)
+    to[C, l_=C, -o] ++(-1,0)
     node[left] {$U_E$};
 \draw (opv.-)
-    to[short, -*] (opv.- |- 0, 1.5)
-    to[C=$C$] (opv.out |- 0, 1.5)
-    to[short, *-] ++(0,-1.5)
+    to[short] (opv.- |- 0, 1.5)
+    to[R=$R_2$] (opv.out |- 0, 1.5)
+    to[short] ++(0,-1.5)
     to[short] (opv.out);
-\draw (opv.-)
-    to[short] (opv.- |- 0, 3)
-    to[R, l=$R_2$] (opv.out |- 0, 3)
-    to[short] ++(0,-2)
-    to[short, -*](opv.out);
 \draw (opv.out)
-    to[short, -o] ++(1, 0)
+    to[short, *-o] ++(1, 0)
     node[right] {$U_A$};
 
 \end{scope}

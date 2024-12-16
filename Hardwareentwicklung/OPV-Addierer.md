@@ -68,7 +68,7 @@ Da der nicht invertierende Eingang auf Masse liegt, ist der invertierende Eingan
 $$
 \begin{gathered}
 \frac{U_{E 1}}{R_2}+\frac{U_{E 2}}{R_1}+\frac{U_A}{R_3}=0 \\
-U_A=-\frac{R_3}{R_1 R_2}\left(R_1 U_{E 1}+R_2 U_{E 2}\right)
+U_A=-\left(\frac{R_3}{R_{2}} U_{E 1}+\frac{R_3}{R_{1}} U_{E 2}\right)
 \end{gathered}
 $$
 
