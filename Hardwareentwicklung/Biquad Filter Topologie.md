@@ -23,19 +23,19 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, font=\Large]
+\begin{circuitikz}[thick, scale=1, font=\Large]
 % Begin Schematic
 
 \draw (0,0) node[op amp] (opvA) {};
-\draw (opvA.out -| 3, 0) node[op amp, anchor=-] (opvB) {};
-\draw (opvB.out -| 5, 0) node[op amp, anchor=-] (opvC) {};
+\draw (opvA.out -| 4, 0) node[op amp, anchor=-] (opvB) {};
+\draw (opvB.out -| 10, 0) node[op amp, anchor=-] (opvC) {};
 
-\draw (opvA.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opvA.+) to[short] ++(0,-1) node[tlground] {};
 \draw (opvA.-) to [R, l_=$R_2$, *-o] ++(-2,0) node[left] {$U_E$};
-\draw (opvA.-) to[short, -*] (opvA.- |- 0, 1) to[R=$R_1$, -] (opvA.out |- 0, 1) to[short, -*] ++(0,-1) to[short](opvA.out) node[below] {$U_1$};
-\draw (opvA.out) to[R, l=$R$]
+\draw (opvA.-) to[short, -*] (opvA.- |- 0, 2) to[R=$R_1$, -] (opvA.out |- 0, 2) to[short, -*] ++(0,-2) to[short](opvA.out) node[below] {$U_1$};
+\draw (opvA.out) to[R, l=$R$, -*] (opvB.-) to[short] (opvB.- |- 0, 2) to[C, l=$C$] (opvB.out |- 0, 2) to[short] (opvB.out) node[below] {$U_{BP}$} to[R] (opvC.-);
 
-\draw (opvB.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opvB.+) to[short] ++(0,-1) node[tlground] {};
 
 
 
