@@ -132,5 +132,12 @@ Zwischenspannungen können ermittelt werden durch die einzelne Betrachtung jeder
 > $$
 
 
-> [!question] **(B)** [Integrator 1](OPV-Integrator.md): liefert $U_{BP}(U_{1})$
+> [!question] **(B)** [Invertierender Teifpass 1. Ordnung](Aktiver%20Filter.md#Einfache%20Aktive%20Filter%201.%20Ordnung): liefert $U_{BP}(U_{1})$
+
+$$
+\begin{align}
+\frac{U_{BP}}{U_{1}} = - \frac{R_{3}| |Z_{C}}{R} = -\frac{1}{R\cdot\left( \frac{1}{R}+\frac{1}{Z_{C}} \right)} \\
+U_{BP} = -U_{1}
+\end{align}
+$$
 
