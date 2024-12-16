@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Euler-Verfahren
 keywords: 
 subject:
   - VL
@@ -37,7 +38,7 @@ professor:
 
 Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $N$ Teilintervalle unterteilt. 
 
-> [!info] Man nimmt sich also endlich viele Punkte und berechnet sich an diesen Punkten eine näherungslösung berechnet:
+> [!info] Man nimmt sich also endlich viele Punkte und berechnet sich an diesen Punkten eine Näherungslösung berechnet:
 > 
 > **Intervall**: $I=[a,b], t \in I$
 > **Diskretisierung** (äquidistand):
@@ -46,7 +47,7 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 > Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
 
 
-> [!hint] Eindeutige Lösbarkeit:
+> [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
 >  Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ eine eindeutige Lösung auf $I=[a,b]$ hat.
 >  Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
@@ -56,13 +57,17 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 > $$
 > \begin{gathered}
 > x_{1} = x_{0}+h\cdot x'= x_{0}+h\cdot f(t_{0}, x_{0}) \\
+> \dots \\
 > \boxed{ x_{k} = x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
 > \end{gathered}
 > $$
 
 ## Explizite Einschrittverfahren
 
-> [!important] Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$:
+> [!important] **ESV D1):** Definition des expliziten Einschrittverfahren
+> Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$.
+> 
+> Ein ESV Erzeugt eine Gitterfunktion nach der Vorschrift:
 > $$x_{k} = x_{k-1} + h\cdot \phi(t_{k-1}, x_{k-1}, h)\tag{ESV}$$
 >    
 > (beim Euler-Verfahren ist $\phi(t, x, h) = f(t,x)$)
@@ -73,10 +78,13 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 
 Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
 
-> [!important] **(DF) Definition:** Diskretisierungsfehler- Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie im **ESV**
-**(i)** Der lokale Diskretisierungsfehler des ESV (13.2) an der Stelle $t_k$ lautet
+> [!important] **DF D2):** Definition des Diskretisierungsfehler 
 > 
-> $$\tau_k:=\frac{x\left(t_k\right)-x\left(t_{k-1}\right)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right), \quad k=1, \ldots, N$$
+> Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie in **ESV D1**
+> 
+**(i)** Der lokale Diskretisierungsfehler des ESV an der Stelle $t_k$ lautet
+> 
+> $$\tau_k:=\frac{x\left(t_k\right)-x\left(t_{k-1}\right)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right), \quad k=1, \ldots, N\tag{DF}$$
 > 
 > **(ii)** Das ESV heißt konsistent mit dem AWP, wenn
 > 
