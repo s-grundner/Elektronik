@@ -60,8 +60,8 @@ Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ 
 ## Explizite Einschrittverfahren
 
 > [!important] Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$:
-> $$x_{k} = x_{k-1} + h\cdot \phi(t_{k-1}, x_{k-1}, h)$$
->
+>     $$x_{k} = x_{k-1} + h\cdot \phi(t_{k-1}, x_{k-1}, h)\tag{ESV}$$
+>    
 > (beim Euler-Verfahren ist $\phi(t, x, h) = f(t,x)$)
 
 Man möchte wissen, wie gut die Approximation ist und ob Konvergenz gegen die exakte Lösung vorliegt, wenn die Schrittweite $h$ gegen 0 geht.
@@ -69,3 +69,15 @@ Man möchte wissen, wie gut die Approximation ist und ob Konvergenz gegen die ex
 Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern der vorherigen Schritte zusammen und ist daher einer direkten Bestimmung nicht zugänglich.
 
 Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
+
+> [!important] **Definition:** Es gelte (13.1) und $\phi$ sei wie i
+**(i)** Der lokale Diskretisierungsfehler des ESV (13.2) an der Stelle $t_k$ lautet
+
+$$\tau_k:=\frac{x\left(t_k\right)-x\left(t_{k-1}\right)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right), \quad k=1, \ldots, N$$
+
+**(ii)** Das ESV heißt konsistent mit dem AWP, wenn
+
+$$\lim _{h \rightarrow 0} \max _{1 \leq k \leq N}\lVert\tau_k\rVert=0$$
+
+**(iii)** Die Konsistenzordnung ist $q \in \mathbb{N}$, wenn gilt:
+$$\max _{1 \leq k \leq N}\left\|\tau_k\right\|=O\left(h^q\right)$$
