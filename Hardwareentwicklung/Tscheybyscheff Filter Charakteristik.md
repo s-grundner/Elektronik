@@ -16,6 +16,7 @@ professor:
 
 # Tschebyscheff Filter-Charakteristik
 
+Je nach dem welche Ordnung das Tschebyscheff polynom hat, hat die übertragungsfunktion dementsprechend viele Wellenberge im Durchlass ober sperrbereich
 
 ## Typ 1
 
