@@ -36,7 +36,10 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
 
 % Umkehrsummierer
 \draw (opvA.+) to[short] (opvA.+ |- 0, \gndlvl) node[tlground] {};
-\draw (opvA.-) to [vR, l_=$R_2$, *-o] ++(-2,0) node[left] {$U_E$};
+\draw (opvA.-)
+    to [vR, l_=$R_2$, name=R2,*-o] (opvA.- -| -3, 0)
+    to[open, v=$U_E$] (-3, \gndlvl + 0.5)
+    to[short, o-] (-3, \gndlvl) node[tlground] {};
 \draw (opvA.-)
     to[short, -*] (opvA.- |- 0, 2)
     to[R=$R_1$] (opvA.out |- 0, 2)
@@ -55,14 +58,14 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
 
 % Integrator 1
 \draw (opvA.out)
-    to[R=$R$, -*] (opvB.-)
+    to[vR=$R$, -*] (opvB.-)
     to[short] (opvB.- |- 0, 1)
     to[C, l=$C$] (opvB.out |- 0, 1)
     to[short, -o] (opvB.out)
     to[vR=$R$] (opvC.-);
 \draw (opvB.- |- 0, 1)
     to[short, *-] (opvB.- |- 0, 2.5)
-    to[vR, l_=$R_3$] (opvB.out |- 0, 2.5)
+    to[vR, l=$R_3$] (opvB.out |- 0, 2.5)
     to[short, -*] (opvB.out |- 0, 1);
 \draw (opvB.+) to[short] (opvB.+ |- 0, \gndlvl) node[tlground] {};
 \draw (opvB.out)
@@ -70,13 +73,21 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
     to[short, o-] (opvB.out |- 0, \gndlvl) node[tlground] {};
 
 % Integrator 2
+\draw (opvC.-)
+    to[short, *-] (opvC.- |- 0, 1)
+    to[C, l=$C$, -*] (opvC.out |- 0, 1);
 \draw (opvC.out)
-    to[short, -*] (opvC.- |- 0, 1)
-    to[C, l=$C$] (opvC.- |- 0, 1);
-
+    to[open, v=$U_{TP}$] (opvC.out |- 0, \gndlvl+0.5)
+    to[short, o-] (opvC.out |- 0, \gndlvl) node[tlground] {};
+    
 \end{circuitikz}
 \end{document}
 ```
+
+Die einzelnen Widerstände bestimmen praktischerweise größtenteils separat die Kenngrößen $V_{0}, Q$ und $\omega_{0}$:
+
+$$V_{0}=f(R_{2}), \quad Q = f(R_{3}), \quad \omega_{0}=f(R)$$
+
 
 ![](assets/Pasted%20image%2020241213044618.png)
 
