@@ -32,7 +32,10 @@ Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integrat
 
 \draw (opvA.+) to[short] ++(0,-1) node[tlground] {};
 \draw (opvA.-) to [R, l_=$R_2$, *-o] ++(-2,0) node[left] {$U_E$};
-\draw (opvA.-) to[short, -*] (opvA.- |- 0, 2) to[R=$R_1$, -] (opvA.out |- 0, 2) to[short, -o] ++(0,-2) to[short](opvA.out) node[below] {$U_1$};
+\draw (opvA.-) to[short, -*] (opvA.- |- 0, 2) to[R=$R_1$] (opvA.out |- 0, 2) to[short, -o] ++(0,-2) to[short] (opvA.out) {[green] to[open, v=$U_1$] (opvA.out |- 0, -2)};
+
+% Mitkopplungszweig
+\draw (opvA.- |- 0, 2) to[short] (opvA.- |- 0, 4) to[R] (opvA.out |- 0, 4) to[short] (opvC.out |- 0, 4) to[short, -o] (opvC.out) node[below] {$U_{TP}$};
 
 \draw (opvA.out) to[R, l=$R$, -*] (opvB.-) to[short] (opvB.- |- 0, 1) to[C, l=$C$] (opvB.out |- 0, 1) to[short, -o] (opvB.out) node[below] {$U_{BP}$} to[R] (opvC.-);
 \draw (opvB.- |- 0, 1) to[short, *-] (opvB.- |- 0, 2.5) to[R] (opvB.out |- 0, 2.5) to[short, -*] (opvB.out |- 0, 1);
