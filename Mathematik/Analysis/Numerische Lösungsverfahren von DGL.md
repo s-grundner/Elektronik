@@ -22,29 +22,15 @@ professor:
 > 
 > Man braucht daher Näherungsmethoden. Dabei unterscheidet man zwischen **analytischen** und **numerischen** Näherungsverfahren.
 > Ein analytisches Verfahren:
-> - Aus dem Satz von Lindelöf: Sukzessive Approximation.
-> - Falls die Funktion $f$ in der DGL (4.1) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten. Wir gehen darauf nicht ein.
-> Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte Diskretisierungsverfahren durchgesetzt. Das Grundprinzip dieser Verfahren besteht darin, dass das unendlich dimensionale Problem der Bestimmung von Funktionen in eine endlich dimensionale Aufgabe transformiert wird: die Berechnung von Vektoren mit reellwertigen Komponenten.
-> Das wohl einfachste Verfahren dieser Art ist das Euler-Verfahren, das wir am Ende von Kapitel 3 kennengelernt haben. Wir werden im Folgenden Verfahren für Anfangswert-, Randwert- und Eigenwertprobleme kennenlernen.
+> - Aus dem Satz von Lindelöf: [Sukzessive Approximation](../sukzessive%20Approximation.md).
+> - Falls die Funktion $f$ in der der [AWP](../{MOC}%20DGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
 > 
-> [!hint]- Einfachstes numerisches Verfahren: Sukzessive Approximation nach
+> Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte **Diskretisierungsverfahren** durchgesetzt.
+> - Das Grundprinzip dieser Verfahren besteht darin, dass das *unendlich* dimensionale Problem der Bestimmung von Funktionen in eine *endlich* dimensionale Aufgabe transformiert wird: die Berechnung von Vektoren mit reellwertigen Komponenten.
+> - Das einfachste Verfahren dieser Art ist das Euler-Verfahren. 
 > 
-> $x' = f(t,x), x(t_{0})=x_{0}$
+> Im Folgenden werden Verfahren für Anfangswert-, Randwert- und Eigenwertprobleme definiert.
 > 
-> Wird zu integralgleichung:
-> 
-> $$x(t) = x_{0} + \int_{t_{0}}^{t} f(\tau, x(\tau)) d\tau$$
-> 
-> Wird dann durch eine Funktionenfolge $\phi_{k}$ approximiert (Folgt aus dem Beweis des Satzes von [Picard-Lindelöf](../Picard-Lindelöf.md))
-> 
-> $$
-> \begin{align}
-> \phi_{0} & = x_{0}  \\
-> \phi_{n+1}(t) & = x_{0} + \int_{t_{0}}^{t} f(\tau, \phi_{n}(\tau)) d\tau
-> \end{align}
-> $$
-> 
-> $\phi_{t}$ konvergiert gegen die Lösung des AWP: Analytische Approximationsmethode zur Lösung der DGL
 
 ## Diskretisierungsverfahren
 
