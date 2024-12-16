@@ -52,10 +52,11 @@ Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ 
 > ![invert_dark|500](assets/DGL_NUM_EV.png) 
 > $$
 > \begin{gathered}
-> x_{1} \approx x_{0}+h\cdot x'= x_{0}+h\cdot f(t_{0}, x_{0}) \\
-> \boxed{ x_{k} \approx x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
+> x_{1} = x_{0}+h\cdot x'= x_{0}+h\cdot f(t_{0}, x_{0}) \\
+> \boxed{ x_{k} = x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
 > \end{gathered}
 > $$
 
+## Explizite Einschrittverfahren
 
-Mit allgemeinere Verfahren, sogenannte **expliziten Einschrittverfahren** wird das AWP $f$
+Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$
