@@ -121,10 +121,9 @@ Tiefpass: Invertierend / Nicht-Invertierend
 
 \begin{document}
 
-
 \begin{circuitikz}[thick, scale=1.5, font=\Large]
-
 \begin{scope}
+
 % Begin Schematic
 
 \draw (0,0) node[op amp, yscale=-1] (opv) {};
@@ -136,6 +135,10 @@ Tiefpass: Invertierend / Nicht-Invertierend
 \draw (opv.out |- 0, -1.5) to[R, l=$R_2$] (opv.out |- 0, -3) node[tlground] {};
 
 \end{scope}
+\end{circuitikz}
+
+\
+\begin{circuitikz}[thick, scale=1.5, font=\Large]
 \begin{scope}[xshift=7cm, yshift=-2cm]
 % Begin Schematic
 \draw (0,0) node[op amp] (opv) {};
