@@ -28,7 +28,7 @@ professor:
 > - Falls die Funktion $f$ in der der [AWP](../{MOC}%20DGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
 > 
 > Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte **Diskretisierungsverfahren** durchgesetzt.
-> - Das Grundprinzip dieser Verfahren besteht darin, dass das *unendlich* dimensionale Problem der Bestimmung von Funktionen in eine *endlich* dimensionale Aufgabe transformiert wird: die Berechnung von Vektoren mit reellwertigen Komponenten.
+> - Das Grundprinzip dieser Verfahren besteht darin, dass das *unendlich* dimensionale Problem der Bestimmung von Funktionen in eine *endlich* dimensionale Aufgabe transformiert wird: die Berechnung von [Vektoren](Vektor.md) mit reellwertigen Komponenten.
 > - Das einfachste Verfahren dieser Art ist das Euler-Verfahren. 
 > 
 > Im Folgenden werden Verfahren für Anfangswert-, Randwert- und Eigenwertprobleme definiert.
@@ -94,5 +94,15 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > $$\lim _{h \rightarrow 0} \max _{1 \leq k \leq N}\lVert\tau_k\rVert=0$$
 > 
 > **(iii)** Die Konsistenzordnung ist $q \in \mathbb{N}$, wenn gilt:
-> $$\max _{1 \leq k \leq N}\left\|\tau_k\right\|=O\left(h^q\right)$$
+> $$\max _{1 \leq k \leq N}\left\|\tau_k\right\|=O\left(h^q\right)\quad \text{ für } h\to 0$$
 > 
+> > [!info]- Erläuterung
+> > 1. Der Diskretisierungsfehler ist die Differenz zwischen der exakten Lösung und der Näherungslösung des ESV.
+> > 2. Die Konsistenz ist gegeben wenn *alle* Diskretisierungsfehler ([Maximumnorm](../Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren, wenn die Schrittweite $h$ gegen 0 [konvergiert](Grenzwert.md).
+> > 3. Die Konsistenzordnung ist ein maß, wie schnell der Diskretisierungsfehler gegen 0 konvergiert, falls das ESV konsistent ist. (Konvergenzgeschwindigkeit)
+> 
+
+
+> [!important] $O(\cdot)$ heißt: 
+> $$\exists C>0 \exists h_{0}>0\forall$$
+> Es gibt eine Konstante $C>0$ und eine Schrittweite $h_{0}>0$ für die gilt:
