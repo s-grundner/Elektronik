@@ -1,4 +1,21 @@
+---
+tags: 
+aliases:
+  - Aktiver Tiefpass 1. Ordnung
+  - Aktiver Hochpass 1. Ordnung
+keywords: 
+subject:
+  - VL
+  - Einführung Elektronik
+semester: WS24
+created: 16. Dezember 2024
+professor:
+---
+ 
+
 # Einfache Aktive Filter 1. Ordnung
+
+> [!info] **Siehe:** [Aktiver Filter](Aktiver%20Filter.md)
 
 ## Tiefpass
 
