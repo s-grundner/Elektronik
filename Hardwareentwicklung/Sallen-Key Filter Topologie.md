@@ -19,7 +19,23 @@ professor:
 
 > [!question] Siehe: [Aktiver Filter](Aktiver%20Filter.md), [Gegenkopplung](Kopplungsarten.md)
 
+
 Der Sallen-Key Filter basiert auf einer Einfachen Gegenkopplung von Wechselsignalen, welches ein Tiefpassverhalten 2. Ordnung erzeugt. 
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, font=\Large]
+% Begin Schematic
+
+\draw (0,0) node[op amp] (opv) {};
+
+
+\end{circuitikz}
+\end{document}
+```
 
 
 ![](assets/Pasted%20image%2020241213050452.png)
@@ -28,7 +44,7 @@ Der Sallen-Key Filter basiert auf einer Einfachen Gegenkopplung von Wechselsigna
 
 > [!question]- **Herleitung**
 
-|                    Bode Diagramm                     |                      Charakteristik                      |
+|                    Bode Diagramm                     |                        Ortskurve                         |
 |:----------------------------------------------------:|:--------------------------------------------------------:|
 | ![600](/Hardwareentwicklung/assets/59_SallenKey.png) | ![Sallen_Key_Ortskurve](assets/Sallen_Key_Ortskurve.png) |
 

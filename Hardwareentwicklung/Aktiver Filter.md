@@ -159,8 +159,8 @@ $$
 $$
 \begin{array}{ccc}
 \text{Nicht Invertierend} &  & \text{Invertierend} \\
-A(j \omega)=\dfrac{1}{1+j \omega R C}\cdot \left( 1+\dfrac{R_{1}}{R_{2}} \right)  & \hspace{ 1cm }&  A(j \omega)=-\dfrac{\frac{R_{1}}{R_{2}}}{1+j \omega R C}  \\
-V_{0}
+\boxed{ A(j \omega)=\dfrac{1}{1+j \omega R C}\cdot \left( 1+\dfrac{R_{1}}{R_{2}} \right) } & \hspace{ 1cm } &  \boxed{ A(j \omega)=-\dfrac{\frac{R_{1}}{R_{2}}}{1+j \omega R C} }  \\
+\tiny{\implies V_{0} = \left( 1+\frac{R_{1}}{R_{2}} \right)}, \, \omega_{0}=\frac{1}{RC} &  & \tiny{\implies V_{0} = -\frac{R_{1}}{R_{2}}, \, \omega_{0}=\frac{1}{RC}} 
 \end{array}
 $$
 

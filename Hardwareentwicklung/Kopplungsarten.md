@@ -5,6 +5,9 @@ aliases:
   - Rückkopplung
   - Mitkopplung
 keywords: 
+  - Gegenkopplung
+  - Rückkopplung
+  - Mitkopplung
 subject:
   - VL
   - Einführung Elektronik
@@ -13,6 +16,7 @@ created: 21. November 2024
 professor:
 ---
  
+
 # Kopplungsarten in Verstärkerschaltungen
 
 > [!info] Rückkopplung
