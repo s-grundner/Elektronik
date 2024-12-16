@@ -84,12 +84,10 @@ B.A //MatrixForm
 > [!success] Output
 
 $$
-\left(  
 \begin{array}{cccccccc}  
  1 & 2 & 1 & 3 & 6 & 6 & 1 & 0 \\  
  3 & 6 & 8 & 4 & 16 & 4 & 12 & 17 \\  
  1 & 2 & 3 & 1 & 7 & 1 & 5 & 8 \\  
  1 & 1 & 9 & 2 & 6 & 2 & 9 & 5 \\  
 \end{array}  
-\right)
 $$

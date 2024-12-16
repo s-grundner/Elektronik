@@ -95,7 +95,7 @@ $$
 
 ## Schaltungsentwürfe - Topologien
 
-> [!info] Einfache Aktive Filter 1. Ordnung
+> [!info] [Einfache Aktive Filter 1. Ordnung](#Einfache%20Aktive%20Filter%201.%20Ordnung)
 > Basieren auf einem Passiven RC-Glied mit nachgeschaltenem Verstärker/Impedanzwandler
 >
 > - **(TP)** Nicht invertierender Tiefpass
@@ -113,7 +113,8 @@ $$
 
 ### Einfache Aktive Filter 1. Ordnung
 
-Tiefpass: Invertierend / Nicht-Invertierend
+**Tiefpass:** Nicht-Invertierend / Invertierend
+
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -125,21 +126,19 @@ Tiefpass: Invertierend / Nicht-Invertierend
 \begin{scope}
 
 % Begin Schematic
-
 \draw (0,0) node[op amp, yscale=-1] (opv) {};
 \draw (opv.+) to[short, -*] (opv.+ -| -1.5, 0) to[R, l_=$R$, -o] ++(-2,0) node[left] {$U_E$};
 \draw (opv.+ -| -1.5, 0) to[C, l_=$C$] (-1.5, -3) node[tlground] {};
 \draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
-
 \draw (opv.-) to[short] (opv.- |- 0, -1.5) to[short,-*] (opv.out |- 0, -1.5) to[R, l_=$R_1$] ++(0,1.5) to[short, *-] (opv.out);
 \draw (opv.out |- 0, -1.5) to[R, l=$R_2$] (opv.out |- 0, -3) node[tlground] {};
 
 \end{scope}
 \end{circuitikz}
 
-\
 \begin{circuitikz}[thick, scale=1.5, font=\Large]
 \begin{scope}[xshift=7cm, yshift=-2cm]
+
 % Begin Schematic
 \draw (0,0) node[op amp] (opv) {};
 \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
@@ -147,7 +146,57 @@ Tiefpass: Invertierend / Nicht-Invertierend
 \draw (opv.-) to[short, -*] (opv.- |- 0, 1) to[C=$C$] (opv.out |- 0, 1) to[short, *-] ++(0,-1) to[short](opv.out);
 \draw (opv.-) to[short] (opv.- |- 0, 2) to[R, l=$R_2$] (opv.out |- 0, 2) to[short] ++(0,-1) to[short, -*](opv.out);
 \draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
+
 \end{scope}
 \end{circuitikz}
+
+\end{document}
+```
+
+#### Übertragungsfunktion
+
+$$
+\begin{array}{c|c}
+\text{Nicht Invertierend} & \text{Invertierend} \\
+A(j \omega)=\dfrac{1}{1+j \omega R C}\cdot \left( 1+\dfrac{R_{1}}{R_{2}} \right)  & A(j \omega)=-\dfrac{\frac{R_{1}}{R_{2}}}{1+j \omega R C}
+\end{array}
+$$
+
+
+**Hochpass:** Nicht-Invertierend / Invertierend
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{circuitikz}[thick, scale=1.5, font=\Large]
+\begin{scope}
+
+% Begin Schematic
+\draw (0,0) node[op amp, yscale=-1] (opv) {};
+\draw (opv.+) to[short, -*] (opv.+ -| -1.5, 0) to[C, l_=$C$, -o] ++(-2,0) node[left] {$U_E$};
+\draw (opv.+ -| -1.5, 0) to[R, l_=$R$] (-1.5, -3) node[tlground] {};
+\draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
+\draw (opv.-) to[short] (opv.- |- 0, -1.5) to[short,-*] (opv.out |- 0, -1.5) to[R, l_=$R_1$] ++(0,1.5) to[short, *-] (opv.out);
+\draw (opv.out |- 0, -1.5) to[R, l=$R_2$] (opv.out |- 0, -3) node[tlground] {};
+
+\end{scope}
+\end{circuitikz}
+
+\begin{circuitikz}[thick, scale=1.5, font=\Large]
+\begin{scope}[xshift=9cm, yshift=-2cm]
+
+% Begin Schematic
+\draw (0,0) node[op amp] (opv) {};
+\draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opv.-) to [R, l_=$R_1$, *-] ++(-1.5,0) to[C , l_=$C$, -o] ++(-1, 0) node[left] {$U_E$};
+\draw (opv.-) to[short, -] (opv.- |- 0, 1.5) to[R=$R_2$] (opv.out |- 0, 1.5) to[short, -] ++(0,-1) to[short](opv.out);
+\draw (opv.out) to[short, -o] ++(1, 0) node[right] {$U_A$};
+
+\end{scope}
+\end{circuitikz}
+
 \end{document}
 ```
