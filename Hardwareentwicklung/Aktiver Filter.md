@@ -150,15 +150,17 @@ $$
 \end{scope}
 \end{circuitikz}
 
+
 \end{document}
 ```
 
 #### Übertragungsfunktion
 
 $$
-\begin{array}{c|c}
-\text{Nicht Invertierend} & \text{Invertierend} \\
-A(j \omega)=\dfrac{1}{1+j \omega R C}\cdot \left( 1+\dfrac{R_{1}}{R_{2}} \right)  & A(j \omega)=-\dfrac{\frac{R_{1}}{R_{2}}}{1+j \omega R C}
+\begin{array}{ccc}
+\text{Nicht Invertierend} &  & \text{Invertierend} \\
+A(j \omega)=\dfrac{1}{1+j \omega R C}\cdot \left( 1+\dfrac{R_{1}}{R_{2}} \right)  & \hspace{ 1cm }&  A(j \omega)=-\dfrac{\frac{R_{1}}{R_{2}}}{1+j \omega R C}  \\
+V_{0}
 \end{array}
 $$
 
