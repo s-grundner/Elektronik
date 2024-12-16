@@ -93,9 +93,18 @@ Dieser Filter kombiniert einen [aktiven](Aktiver%20Filter.md) Tiefpass und Bandp
 
 $$
 \begin{array}{cc}
-A_{BP}(j\omega) = -\dfrac{\frac{R_{1}}{R_{2}}}{1+j\omega RC\cdot \frac{R}{R_{3}}+(j\omega RC)^{2}}
+A_{BP}(j\omega) = \dfrac{\frac{R_{1}}{R_{2}}\cdot j\omega RC}{1+j\omega RC\cdot \frac{R}{R_{3}}+(j\omega RC)^{2}} & A_{TP}(j\omega) = -\dfrac{\frac{R_{1}}{R_{2}}}{1+j\omega RC\cdot \frac{R}{R_{3}}+(j\omega RC)^{2}}
 \end{array}
 $$
+
+> [!question]- **Herleitung:** 
+> Übertragungsfunktionen wird durch ineinander einsetzen der [Zwischenspannungen](#Funktionsweise) ermittelt.
+
+Durch Koeffizientenvergleich mit der Allgemeinen Übertragungsfunktion von Band- und Tiefpässen 2. Ordnung ergibt sich:
+
+$$V_{0}=\frac{R_{1}}{R_{2}}, \quad \omega_{0}=\frac{1}{RC}, \quad Q=\frac{R_{3}}{R}$$
+
+### Bodediagramm und Ortskurve
 
 |             Bode Diagramm              |                    Ortskurve                     |
 | :------------------------------------: | :----------------------------------------------: |
@@ -135,7 +144,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > \end{document}
 > ```
 > 
-> $$U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+ \frac{R_{1}}{R_{1}} U_{TP} \right) =\underline{\underline{ -\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right)}}$$
+> $$U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+ \frac{R_{1}}{R_{1}} U_{TP} \right) = -\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right)$$
 
 
 > [!question] **(B)** [Tiefpass 1. Ordnung](Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
