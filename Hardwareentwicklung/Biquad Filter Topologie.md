@@ -125,9 +125,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > \end{document}
 > ```
 > 
-> $$
-> U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+ \frac{R_{1}}{R_{1}} U_{TP} \right) =\underline{ \underline{ -\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right) } }
-> $$
+> $$U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+ \frac{R_{1}}{R_{1}} U_{TP} \right) =\underline{\underline{ -\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right)}}$$
 
 
 > [!question] **(B)** [Tiefpass 1. Ordnung](Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
@@ -145,7 +143,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 >     node[tlground] {};
 > \draw (opv.-)
 >     to [R, l_=$R$, *-o] ++(-2,0)
->     node[left] {$U_E$};
+>     node[left] {$U_1$};
 > \draw (opv.-)
 >     to[short, -*] (opv.- |- 0, 1.5)
 >     to[C=$C$] (opv.out |- 0, 1.5)
@@ -158,19 +156,41 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 >     to[short, -*](opv.out);
 > \draw (opv.out)
 >     to[short, -o] ++(1, 0)
->     node[right] {$U_A$};
+>     node[right] {$U_{BP}$};
 > 
 > \end{circuitikz}
 > \end{document}
 > ```
-> $$
-> \begin{align}
-> U_{BP} =-U_{1}\cdot \frac{R_{3}}{R}\cdot \frac{1}{1+j\omega R_{3}C}
-> \end{align}
-> $$
+> $$U_{BP} =-U_{1}\cdot \frac{R_{3}}{R}\cdot \frac{1}{1+j\omega R_{3}C}$$
 
-**(C)** [Integrator](OPV-Integrator.md) liefert $U_{TP}(U_{BP})$
-
-```tikz
-
-```
+> [!question] **(C)** [Integrator](OPV-Integrator.md) liefert $U_{TP}(U_{BP})$
+> 
+> ```tikz
+> \usepackage[european, straightvoltages]{circuitikz}
+> \usepackage{amsmath}
+> 
+> \begin{document}
+> \begin{circuitikz}[very thick, scale=1, font=\Large]
+> % Begin Schematic
+> 
+> \draw (0,0) node[op amp] (opv) {};
+> 
+> \draw (opv.+) to[short] ++(0,-1) node[tlground] {};
+> \draw (opv.-)
+>     to[short, *-] (opv.- |- 0, 2)
+>     to[C=$C$] (opv.out |- 0, 2)
+>     to[short, -*] (opv.out);
+> 
+> \draw (opv.-)
+>     to[R, l_=$R$, -o] (opv.- -| -3,0)
+>     node[left] {$U_{BP}$};
+> 
+> \draw (opv.out)
+>     to[short, -o] ++(1,0)
+>     node[right] {$U_{TP}$};
+> 
+> \end{circuitikz}
+> \end{document}
+> ```
+> 
+> $$U_{TP} = -U_{BP}\cdot\frac{1}{j\omega R C}$$
