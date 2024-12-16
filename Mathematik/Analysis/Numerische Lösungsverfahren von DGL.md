@@ -34,11 +34,18 @@ professor:
 
 ## Diskretisierungsverfahren
 
-Zeitintervall $[t_{0}, t_{1}]$ auf dem man sich die Lösung ausrechnen möchte wird in $n$ Teilintervalle unterteilt. 
+Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $N$ Teilintervalle unterteilt. 
 
-Man nimmt sich also endlich viele Punkte und berechnet sich an diesen Punkten eine näherungslösung berechnet:
+> [!info] Man nimmt sich also endlich viele Punkte und berechnet sich an diesen Punkten eine näherungslösung berechnet:
+> 
+> **Intervall**: $I=[a,b], t \in I$
+> **Diskretisierung** (äquidistand):
+> 
+> ![invert_dark|800](assets/Pasted%20image%2020241216194118.png)
+> Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
 
-Intervall: $I=[a,b]$
-Diskretisierung (äquidistand):
 
-![](assets/Pasted%20image%2020241216193934.png)
+Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md) eine eindeutige Lösung auf $I$ hat. Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
+
+### Euler-Verfahren (EV)
+

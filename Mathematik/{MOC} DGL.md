@@ -55,7 +55,9 @@ Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung
 > $x$ heißt Lösung des Anfangswertproblems, wenn es ein Intervall $I$ mit $t_0 \in I$ gibt,
 > sodass $x: I \rightarrow \mathbb{R}^m$ differenzierbar ist, $g r(x) \subset D$ gilt und
 > 
-> $x^{\prime}(t)=f(t, x(t))$ für alle $t \in I$ und $x\left(t_0\right)=x_0$
+> $$x^{\prime}(t)=f(t, x(t))\tag{AWP}$$
+> 
+> für alle $t \in I$ und $x\left(t_0\right)=x_0$
 
 Um die Abhängigkeit der Lösung des AWP von $t_0$ und $x_0$ anzudeuten, schreibt man auch manchmal
 

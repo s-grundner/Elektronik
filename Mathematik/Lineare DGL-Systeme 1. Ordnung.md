@@ -15,7 +15,7 @@ professor:
 
 # Lineare DGL-Systeme 1. Ordnung
 
-vorher: $x' f(t,\bar{x})$
+vorher: $x' = f(t,\bar{x})$
 
 jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Intervall)}$
 
