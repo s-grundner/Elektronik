@@ -32,9 +32,9 @@ Dieser Filter kombiniert einen aktiven Tiefpass und Bandpass 2. Ordnung.
 
 \newcommand{\gndlvl}{-3}
 
-\draw (0,0) node[op amp] (opvA) {};
-\draw (opvA.out -| 4, 0) node[op amp, anchor=-] (opvB) {};
-\draw (opvB.out -| 9, 0) node[op amp, anchor=-] (opvC) {};
+\draw (0,0) node[op amp] (opvA) {$A$};
+\draw (opvA.out -| 4, 0) node[op amp, anchor=-] (opvB) {$B$};
+\draw (opvB.out -| 9, 0) node[op amp, anchor=-] (opvC) {$C$};
 
 % Umkehrsummierer
 \draw (opvA.+) to[short] (opvA.+ |- 0, \gndlvl) node[tlground] {};
@@ -94,3 +94,43 @@ Dieser Filter kombiniert einen aktiven Tiefpass und Bandpass 2. Ordnung.
 <center><a href="./Simulationen/Biquad.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 ## Funktionsweise
+
+Zwischenspannungen können ermittelt werden durch die einzelne Betrachtung jeder OPV Stufe.
+
+> [!question] **(A)** [Umkehrsummierer](OPV-Addierer.md): liefert $U_{1}(U_{E}, U_{TP})$
+> 
+> ```tikz
+> \usepackage[european, straightvoltages]{circuitikz}
+> \usepackage{amsmath}
+> 
+> \begin{document}
+> \begin{circuitikz}[thick, scale=1, font=\Large]
+> % Begin Schematic
+> 
+> \draw (0,0) node[op amp] (opv) {};
+> \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
+> \draw (opv.-)
+>     to [R, l_=$R_1$, *-o] (opv.- -| -3,0)
+>     node[left] {$U_{TP}$};
+> \draw (opv.-)
+>     to[short, *-*] (opv.- |- 0, 2)
+>     to[R, l_=$R_2$, -o] (-3, 2)
+>     node[left] {$U_{E}$};
+> \draw (opv.- |- 0, 2)
+>     to[R=$R_1$] (opv.out |- 0, 2)
+>     to[short, -*] (opv.out)
+>     to[short, -o] ++(1,0) node[right] {$U_1$};
+> 
+> \end{circuitikz}
+> \end{document}
+> ```
+> 
+> Aus der Knotenregel folgt:
+> 
+> $$
+> \frac{U_{1}}{R_{1}}=-\left( \frac{U_{E}}{R_{1}}+\frac{U_{TP}}{R_{2}} \right) \iff U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right)
+> $$
+
+
+> [!question] **(B)** [Integrator 1](OPV-Integrator.md): liefert $U_{BP}(U_{1})$
+
