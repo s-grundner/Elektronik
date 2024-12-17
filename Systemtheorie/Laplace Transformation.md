@@ -17,7 +17,7 @@ professor:
 # Laplace Transformation
 
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
-- Wir betrachten also nur kausale Signale, die für $t<0$ sind.
+- Wir betrachten also nur kausale [Signale](Signale.md), die für $t<0$ sind.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\sigma t}$ eingeführt. $(\sigma\in\mathbb{R}^{+})$
 
 > [!def] **LPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
@@ -37,17 +37,15 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > 
 > Dieses $\sigma$ heißt **Konvergenzabzisse** von $f$
 
-> [!hint] Das Ergebnis einer Laplace Transformation ist immer ein rationales Polynom 
+> [!hint] Das Ergebnis einer Laplace Transformation ist immer ein rationales [Polynom](../Mathematik/Algebra/Polynom.md) 
 > 
-> $F(s)=\dfrac{Z(s)}{N(s)}$.
+> $$F(s)=\dfrac{Z(s)}{N(s)}$$ 
 > 
 > - Nullstellen von $N(s)$ heißen **Pole**.
 > - Nullstellen von $Z(s)$ heißen **Nullstellen**.
 > 
+> Wie nach dem [Fundamentalsatz der Algebra](Polynom.md) gibt es so viele Nullstellen wie der Grad des Polynoms, als (vielfache) relle und konjugiert komplexe
 
-
-
- 
 
 ```tikz
 \usepackage{pgfplots}
@@ -60,7 +58,7 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 \begin{tikzpicture}[very thick, scale=1, font=\Large]
 \begin{axis}[
     width=15cm, height=15cm,
-    title={Pol-Nullstellen Diagramm},
+    title=\Huge{Pol-Nullstellen Diagramm},
     xlabel=$\Re(s)$, ylabel=$\Im(s)$,
     xmin=-5, xmax=5, ymin=-5, ymax=5,
     axis lines=center,
@@ -96,21 +94,29 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 \end{document}
 ```
 
+
+> [!hint] **Transformierbare Funktionen:** Für welche Funktionen funktioniert die Laplace Transformation?
+> 
+> 
+> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst.
+
+
+
 ## Sätze
 
 > [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
-> 
-> | Nr     | Satz                           |                                                                                                                         | Anmerkungen                                                                                                                    |
-| ------ | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| (i)    | **Linearität**                 | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2$$ |  $c_1, c_2 \in \mathbb{R}$                                                                                                                              |
-| (ii)   | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                        |
-| (iii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                                  |                                                                                                                                |
-| (iv)   | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$                 | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von AWP |
-| (v)    | **Verschiebung**               | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s), \, a > 0$$                                                      | $f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem Einheitssprung                                                     |
-| (vi)   | **Ähnlichkeit**<br>(Streckung) | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right), \, a > 0, \, s > a\alpha$$               |                                                                                                                                |
-| (vii)  | **Dämpfung**                   | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a), \, a \in \mathbb{R}, \, s > \alpha - a$$             |                                                                                                                                |
-| (viii) | **Multiplikation**             | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                  |
-| (ix)   | **Division**                   | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$                       |                                                                                                                                |
+
+| Nr     | Satz                           |                                                                                                             | Anmerkungen                                                                                                                     |
+| ------ | ------------------------------ | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| (i)    | **Linearität**                 | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2$$                 | $c_1, c_2 \in \mathbb{R}$                                                                                                       |
+| (ii)   | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                             | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                         |
+| (iii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                      |                                                                                                                                 |
+| (iv)   | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$     | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von AWP  |
+| (v)    | **Verschiebung**               | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s)$$                                                    | $a > 0$<br>$f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$. |
+| (vi)   | **Ähnlichkeit**<br>(Streckung) | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                             | $a > 0$<br>$s > a\alpha$                                                                                                        |
+| (vii)  | **Dämpfung**                   | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a), \, a \in \mathbb{R}, \, s > \alpha - a$$ |                                                                                                                                 |
+| (viii) | **Multiplikation**             | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                 | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                   |
+| (ix)   | **Division**                   | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$           | $\sigma$ bedeutet hier nur eine and                                                                                             |
 
 ### Bei der Faltung
 
