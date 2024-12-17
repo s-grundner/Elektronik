@@ -100,28 +100,21 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > 
 > Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst.
 
-
-
 ## Sätze
 
 > [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
 
-| Nr     | Satz                           |                                                                                                             | Anmerkungen                                                                                                                     |
-| ------ | ------------------------------ | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| (i)    | **Linearität**                 | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2$$                 | $c_1, c_2 \in \mathbb{R}$                                                                                                       |
-| (ii)   | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                             | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                         |
-| (iii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                      |                                                                                                                                 |
-| (iv)   | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$     | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von AWP  |
-| (v)    | **Verschiebung**               | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s)$$                                                    | $a > 0$<br>$f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$. |
-| (vi)   | **Ähnlichkeit**<br>(Streckung) | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                             | $a > 0$<br>$s > a\alpha$                                                                                                        |
-| (vii)  | **Dämpfung**                   | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a), \, a \in \mathbb{R}, \, s > \alpha - a$$ |                                                                                                                                 |
-| (viii) | **Multiplikation**             | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                 | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                   |
-| (ix)   | **Division**                   | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$           | $\sigma$ bedeutet hier nur eine and                                                                                             |
-
-### Bei der Faltung
-
-> [!info] Es muss bei der Faltung die historie mittgenommen werden.
-> Durch mitnahme der Anfangswerte der 
+| Nr     | Satz                           |                                                                                                         | Anmerkungen                                                                                                                                                    |
+| ------ | ------------------------------ | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| (i)    | **Linearität**                 | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2$$             | $c_1, c_2 \in \mathbb{R}$                                                                                                                                      |
+| (ii)   | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                                                        |
+| (iii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                  |                                                                                                                                                                |
+| (iv)   | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$ | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von [AWP](../Mathematik/{MOC}%20DGL.md) |
+| (v)    | **Verschiebung**               | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s)$$                                                | $a > 0$<br>$f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$.                                |
+| (vi)   | **Ähnlichkeit**<br>(Streckung) | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                         | $a > 0$<br>$s > a\alpha$                                                                                                                                       |
+| (vii)  | **Dämpfung**                   | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a)$$                                     | $a \in \mathbb{R}$<br>$s > \alpha - a$                                                                                                                         |
+| (viii) | **Multiplikation**             | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                                                  |
+| (ix)   | **Division**                   | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$       | $\sigma$ hat hier nur eine Bedeutung<br>als andere Integrationsvariable                                                                                        |
 
 ### Endwertsatz
 
@@ -166,8 +159,94 @@ $$
 > 
 > Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
 
+## Stabilität des Systems
 
 Polstellenlage vs. Zeitbereichssignal
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=2]
+\foreach \x in {0, 4, 8} {
+  \foreach \y in {0, 4, 8} {
+    \begin{axis}[
+      at={(\x cm, \y cm)},
+      anchor=south west,
+      width=3.5cm,
+      height=3.5cm,
+      axis lines=middle,
+      xlabel={Re},
+      ylabel={Im},
+      xtick=\empty, ytick=\empty,
+      enlargelimits=false,
+      axis equal,
+    ]
+      % Curves for each quadrant
+      \ifnum \x=0 \ifnum \y=0
+        % Bottom-Left: Decaying spiral
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({-exp(-0.2*x)*cos(deg(2*x))}, {exp(-0.2*x)*sin(deg(2*x))}, {x});
+      \fi \fi
+
+      \ifnum \x=4 \ifnum \y=0
+        % Bottom-Center: Faster decaying spiral
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({-exp(-0.5*x)*cos(deg(3*x))}, {exp(-0.5*x)*sin(deg(3*x))}, {x});
+      \fi \fi
+
+      \ifnum \x=8 \ifnum \y=0
+        % Bottom-Right: Faster growing spiral
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({exp(0.5*x)*cos(deg(3*x))}, {exp(0.5*x)*sin(deg(3*x))}, {x});
+      \fi \fi
+
+      \ifnum \x=0 \ifnum \y=4
+        % Center-Left: Slower decay
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({-exp(-0.1*x)}, {0}, {x});
+      \fi \fi
+
+      \ifnum \x=4 \ifnum \y=4
+        % Center: Stable case (straight line)
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({0}, {0}, {x});
+      \fi \fi
+
+      \ifnum \x=8 \ifnum \y=4
+        % Center-Right: Growing exponential
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({exp(0.3*x)}, {0}, {x});
+      \fi \fi
+
+      \ifnum \x=0 \ifnum \y=8
+        % Top-Left: Slower spiral decay
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({x}, {-exp(-0.1*x)*cos(deg(2*x))}, {exp(-0.1*x)*sin(deg(2*x))});
+      \fi \fi
+
+      \ifnum \x=4 \ifnum \y=8
+        % Top-Center: Pure oscillation (no decay)
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({cos(deg(3*x))}, {sin(deg(3*x))}, {x});
+      \fi \fi
+
+      \ifnum \x=8 \ifnum \y=8
+        % Top-Right: Growing spiral
+        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+        ({exp(0.2*x)*cos(deg(2*x))}, {exp(0.2*x)*sin(deg(2*x))}, {x});
+      \fi \fi
+    \end{axis}
+  }
+}
+\end{tikzpicture}
+
+\end{document}
+```
 
 ![600](assets/Pasted%20image%2020241203095524.png)
 
