@@ -1,11 +1,13 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Lipschitz-Stetig
 keywords: 
 subject:
   - VL
   - Mathematik 3
   - Mathematik 2
+  - Mathematik 1
 semester: WS24
 created: 16. Oktober 2024
 professor:
@@ -14,11 +16,9 @@ professor:
 
 # Lipschitz-Stetigkeit
 
-$f: A \rightarrow B$ erfüllt eine Lipschitzbedingung (mit Lipschitzkonstante $L>0$ ), wenn:
+> [!def] **LPS D1)** $f: A \rightarrow B$ ist Lipschitz-Stetig, wenn eine Lipschitz-Konstante $L$ existiert, sodass für alle $x, y \in A$ gilt:
 
-$$
-\exists L>0 \forall x, y \in A:\|f(x)-f(y)\| \leq L\|x-y\|
-$$
+$$\|f(x)-f(y)\| \leq L\|x-y\|$$
 
 
 Erfüllt $f$ eine Lipschitzbedingung, so ist $f$ stetig, denn:
