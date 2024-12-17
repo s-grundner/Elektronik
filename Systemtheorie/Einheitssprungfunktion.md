@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - Heaviside
+  - Einheitssprung
 subject:
   - Signale und Systeme
   - VL
