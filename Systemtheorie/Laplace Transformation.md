@@ -26,6 +26,9 @@ professor:
 
 ## Sätze
 
+> [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
+> 
+
 | Nr     | Satz                        |                                                                                                                         | Anmerkungen                                                                                                          |
 | ------ | --------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | (i)    | **Linearität**              | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2, \, c_1, c_2 \in \mathbb{R}$$ |                                                                                                                      |
@@ -99,8 +102,10 @@ Polstellenlage vs. Zeitbereichssignal
 Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 
 > [!important] Vorhergehensweise
-> 1. Polynomdivision wenn  $\deg z(s)> \deg n(z)$
+> 1. Polynomdivision wenn  $\deg z(s) \geq \deg n(z)$
 > 2. $s$ sollte soweit es geht faktorisiert werden
+> 3. Null und Polstellen berechnen:
+> 
 
 # Tags
 
