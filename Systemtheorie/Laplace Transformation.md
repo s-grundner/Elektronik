@@ -20,29 +20,35 @@ professor:
 - Wir betrachten also nur kausale Signale, die für $t<0$ sind.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\sigma t}$ eingeführt. $(\sigma\in\mathbb{R}^{+})$
 
-> [!def] **LPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t<0$, so heißt:
+> [!def] **LPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
 > $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }\tag{LPT}$$
 > 
 > Die Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
+> [!hint] Für welche Funktionen funktioniert die Laplace Transformation Die Laplacetransformation beinhaltet das Uneigentliche Integral 
+
+$$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
+
 
 ## Sätze
 
+
+
+
 > [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
 > 
-
-| Nr     | Satz                        |                                                                                                                         | Anmerkungen                                                                                                                    |
-| ------ | --------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| (i)    | **Linearität**              | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2, \, c_1, c_2 \in \mathbb{R}$$ |                                                                                                                                |
-| (ii)   | **[Faltung](Faltung.md)**   | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                        |
-| (iii)  | **Integration**             | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                                  |                                                                                                                                |
-| (iv)   | **Differentiation**         | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$                 | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von AWP |
-| (v)    | **Verschiebung**            | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s), \, a > 0$$                                                      | $f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem Einheitssprung                                                     |
-| (vi)   | **Ähnlichkeit** (Streckung) | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right), \, a > 0, \, s > a\alpha$$               |                                                                                                                                |
-| (vii)  | **Dämpfung**                | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a), \, a \in \mathbb{R}, \, s > \alpha - a$$             |                                                                                                                                |
-| (viii) | **Multiplikation**          | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                  |
-| (ix)   | **Division**                | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$                       |                                                                                                                                |
+> | Nr     | Satz                           |                                                                                                                         | Anmerkungen                                                                                                                    |
+| ------ | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| (i)    | **Linearität**                 | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2, \, c_1, c_2 \in \mathbb{R}$$ |                                                                                                                                |
+| (ii)   | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                        |
+| (iii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                                  |                                                                                                                                |
+| (iv)   | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$                 | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von AWP |
+| (v)    | **Verschiebung**               | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s), \, a > 0$$                                                      | $f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem Einheitssprung                                                     |
+| (vi)   | **Ähnlichkeit**<br>(Streckung) | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right), \, a > 0, \, s > a\alpha$$               |                                                                                                                                |
+| (vii)  | **Dämpfung**                   | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a), \, a \in \mathbb{R}, \, s > \alpha - a$$             |                                                                                                                                |
+| (viii) | **Multiplikation**             | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                  |
+| (ix)   | **Division**                   | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$                       |                                                                                                                                |
 
 ### Bei der Faltung
 
