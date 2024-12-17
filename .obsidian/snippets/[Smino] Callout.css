@@ -5,7 +5,7 @@
 
 .callout[data-callout="def"] {
 	--callout-icon: lucide-pencil-ruler;
-	--callout-color: 255, 0, 0;
+	--callout-color: 110, 110, 220;
 }
 
 .callout[data-callout="satz"] {
