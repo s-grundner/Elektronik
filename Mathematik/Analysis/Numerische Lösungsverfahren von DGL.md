@@ -119,8 +119,15 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[ Maximumsnorm](../Maximumsnorm.md)
 
 
-Durch die **Äquidistande Diskretisierung** lässt sich der Term des **LDF** schreiben wie:
+> [!question] Was passiert, wenn beim **LDF** $h\to 0$ geht? 
 
-$$
-\lim_{ h \to 0 } \frac{x(t +h)-x(t)}{h}=x'(t)
-$$
+Durch die **Äquidistande Diskretisierung** lässt sich der Linke Term des LDF schreiben wie:
+
+$\underset{ h\to 0 }{ \lim }\dfrac{x(t +h)-x(t)}{h}\overset{ (*) }{ = }x'(t)=f(t,x(t))\quad$ $(*)\dots$ Definition der [Ableitung](Differenzialrechnung.md) und $f$ wie im [AWP](../{MOC}%20DGL.md)
+
+Für die **Verfahrensfunktion** $\phi$ gilt:
+
+$\underset{ h \to 0 }{ \lim } \phi(t,x(t),h) = \phi(t,x(t),0)\quad$ wenn $\phi$ stetig ist.
+
+> [!success] Daraus folgt das für stetige $f$ das **ESV** konsistent ist, genau dann wenn:
+> $$\boxed{ \phi(t,x(t),0)=f(t,x(t)) }$$ 
