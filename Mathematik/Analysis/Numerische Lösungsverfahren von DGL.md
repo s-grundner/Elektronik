@@ -76,7 +76,7 @@ Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$.
 
-> [!important] **ESV D1):** Definition des expliziten Einschrittverfahrens
+> [!def] **ESV D1):** Definition des expliziten Einschrittverfahrens
 > 
 > Ein ESV Erzeugt eine Gitterfunktion nach der Vorschrift:
 > $$x_{k} = x_{k-1} + h\cdot \underbrace{ \phi(t_{k-1}, x_{k-1}, h) }_{ \text{Verfahrensfunktion} }\tag{ESV}$$
@@ -93,7 +93,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 ### Lokaler Diskretisierungsfehler
 
-> [!important] **LDF D2):** Definition des lokalen Diskretisierungsfehlers
+> [!def] **LDF D2):** Definition des lokalen Diskretisierungsfehlers
 > 
 > Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie beim **ESV**
 > 
@@ -118,7 +118,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > 
 
 
-> [!important] **ORD D3):** Definition der Ordnung $O(h^{q})$: 
+> [!def] **ORD D3):** Definition der Ordnung $O(h^{q})$: 
 > $$\exists C>0\, \exists h_{0}\!>0\,\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
 > Es gibt eine Konstante $C>0$ und eine Kleine Zahl $h_{0}>0$, die hinreichend nahe bei Null ist, sodass für alle $h$ die kleiner sind als $h_{0}$, gilt, dass der Maximale Fehler $\lVert \tau \rVert_{\infty}$ auf keinen Fall schneller wächst als $C h^q$.
 > 
@@ -150,21 +150,22 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachtet, nicht jedoch der bereits aus vorherigen Schritten entstandener Fehler.
 
-> [!important] **GDF D4)** Es gilt die Vorraussetzung zur Eindeutigen Lösbarkeit des AWP und $\phi$ sei wie in 
-**(i)** Der globale Diskretisierungsfehler des ESV (13.2) an der Stelle $t_k$ lautet
+> [!def] **GDF D4)** Es gilt die Vorraussetzung zur **Eindeutigen Lösbarkeit** des AWP und $\phi$ sei wie in **ESV**
+> 
+> **(i)** Der globale Diskretisierungsfehler des ESV an der Stelle $t_k$ lautet
+> 
+> $$e_k:=x\left(t_k\right)-x_k, \quad k=1, \ldots, N$$
+> 
+> **(ii)** Das ESV heißt konvergent, wenn
+> 
+> $$\lim_{h \rightarrow 0} \max _{1 \leq k \leq N}\lVert e_{k} \rVert =0$$
+> 
+> **(iii)** Die Konvergenzordnung ist $q \in \mathbb{N}$, wenn gilt:
+> 
+> $$\max _{1 \leq k \leq N}\lVert e_k \rVert =O\left(h^q\right)$$
 
-$$
-e_k:=x\left(t_k\right)-x_k, \quad k=1, \ldots, N .
-$$
+---
 
-**(ii)** Das ESV heißt konvergent, wenn
+# Related
 
-$$
-\lim _{h \rightarrow 0} \max _{1 \leq k \leq N}\left\|e_k\right\|=0
-$$
-
-**(iii)** Die Konvergenzordnung ist $q \in \mathbb{N}$, wenn gilt:
-
-$$
-\max _{1 \leq k \leq N}\left\|e_k\right\|=O\left(h^q\right) .
-$$
+- [Mittelwertsatz](../Mittelwertsatz.md)

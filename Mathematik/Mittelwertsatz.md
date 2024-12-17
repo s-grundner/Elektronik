@@ -16,3 +16,5 @@ cited:
  
 
 # Mittelwertsatz
+
+In einem beliebigen Intervall einer Stetigen funktion gibt es mindestens eine Stelle an der der Differenzenquotient dieses Intervalls gleich der Ableitung ist.
