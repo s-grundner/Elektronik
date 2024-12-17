@@ -44,7 +44,7 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > - Nullstellen von $N(s)$ heißen **Pole**.
 > - Nullstellen von $Z(s)$ heißen **Nullstellen**.
 > 
-> Wie nach dem [Fundamentalsatz der Algebra](Polynom.md) gibt es so viele Nullstellen wie der Grad des Polynoms, als (vielfache) relle und konjugiert komplexe
+> Wie nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und konjugiert komplexe Zahlen auf.
 
 
 ```tikz
@@ -97,8 +97,14 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
 > [!hint] **Transformierbare Funktionen:** Für welche Funktionen funktioniert die Laplace Transformation?
 > 
+> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
+> $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
+
+> [!satz] **TRF S1)** Transformierbare Funktionen
+> Sie $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit alpha wie in der obigen Abschätzung für die Konvergenzabzisse
 > 
-> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst.
+> 
+
 
 ## Sätze
 
@@ -171,7 +177,7 @@ Polstellenlage vs. Zeitbereichssignal
 
 \begin{document}
 
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=1.2]
 \newcommand{\smp}{50}
 \newcommand{\gridA}{5}
 \newcommand{\gridB}{10}
@@ -248,8 +254,6 @@ Polstellenlage vs. Zeitbereichssignal
 
 \end{document}
 ```
-
-![900](assets/Pasted%20image%2020241203095524.png)
 
 ## Rücktransformation
 
