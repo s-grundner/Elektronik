@@ -22,7 +22,7 @@ professor:
 
 > [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
-> $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }\tag{LPT}$$
+> $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} }\tag{LAPT}$$
 > 
 > Die Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
@@ -31,7 +31,7 @@ Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen:
 $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
 > [!def] **KABZ D2)** Definition der Konvergenzabzisse
-> Existiert für das uneigentliche Integral der **LPT** ein $s_{0}\in\mathbb{R}$, so kann man zeigen, dass es eine Zahl $\sigma \in\mathbb{R}$ gibt, bei dem das Integral für alle $s \in\mathbb{C}$ mit:
+> Existiert für das uneigentliche Integral der **LAPT** ein $s_{0}\in\mathbb{R}$, so kann man zeigen, dass es eine Zahl $\sigma \in\mathbb{R}$ gibt, bei dem das Integral für alle $s \in\mathbb{C}$ mit:
 > - $\mathrm{Re}\,s>\sigma$ *konvergiert*. 
 > - $\mathrm{Re}\,s<\sigma$ *divergiert*.
 > 
@@ -44,7 +44,7 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > - Nullstellen von $N(s)$ heißen **Pole**.
 > - Nullstellen von $Z(s)$ heißen **Nullstellen**.
 > 
-> Wie nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und konjugiert komplexe Zahlen auf.
+> Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und konjugiert komplexe Zahlen auf.
 
 
 ```tikz
@@ -95,20 +95,20 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 ```
 
 
-> [!hint] **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
+> [!hint]- **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
 > 
 > Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
 > $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
 > 
 > Sei $f \in \mathcal{E}$ und $s=u+i v$ mit $u, v \in \mathbb{R}$ und $\alpha<u$. Dann gilt:
-> $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $|\cos (v t)-i \sin (v t)|=1$ erhalten wir nun:
+> $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $\lvert\cos (v t)-i \sin (v t)\rvert=1$ erhalten wir nun:
 > 
 > $$
-> \left|\int_0^{\infty} f(t) e^{-s t} d t\right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
+>  \left| \int_0^{\infty} f(t) e^{-s t} \mathrm{~d} t \right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
 > $$
 
 > [!satz] **TRF S1)** Transformierbare Funktionen
-> Sie $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit alpha wie in der obigen Abschätzung für die Konvergenzabzisse
+> Sie $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
 
 ## Sätze
 
