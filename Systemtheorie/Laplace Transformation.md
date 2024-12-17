@@ -25,7 +25,7 @@ professor:
 > $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }$$
 
 Vorgangsweise zur Transformation
-- Partialbruchzerlegunge
+- Partialbruchzerlegungen
 
 ## Sätze
 
