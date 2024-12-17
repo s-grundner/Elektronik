@@ -34,8 +34,8 @@ professor:
 
 > [!def] **KAZ D2)** Definition der Konvergenzabzisse
 > Existiert für das uneigentliche Integral der **LPT** ein $s_{0}\in\mathbb{R}$ so kann man zeigen, dass es eine Zahl $\sigma \in\mathbb{R}$ gibt sodass das Integral für alle $s \in\mathbb{C}$ mit:
-> - $\mathrm{Re}\,s>\sigma$ konvergiert. 
-> - $\mathrm{Re}\,s<\sigma$ divergiert.
+> - $\mathrm{Re}\,s>\sigma$ *konvergiert*. 
+> - $\mathrm{Re}\,s<\sigma$ *divergiert*.
 > 
 > Dieses $\sigma$ heißt Konvergenzabzisse von $f$
 
@@ -49,17 +49,14 @@ professor:
 
 \begin{tikzpicture}[very thick, scale=1, font=\Large]
 \begin{axis}[
-    width=15cm,
-    height=15cm,
-    xlabel=$\Re(s)$,
-    ylabel=$\Im(s)$,
-    xmin=-5, xmax=5,
-    ymin=-5, ymax=5,
+    width=15cm, height=15cm,
+    xlabel=$\Re(s)$, ylabel=$\Im(s)$,
+    xmin=-5, xmax=5, ymin=-5, ymax=5,
     axis lines=center,
-    xtick={-4,-3,...,4},
-    ytick={-4,-3,...,4},
+    xtick={-4,-3,...,4}, ytick={-4,-3,...,4},
     grid=major,
-    legend pos=north west
+    legend pos=north west,
+    axis line style={line width=1.5pt}
 ]
 
 % Konvergenzabszisse
@@ -79,7 +76,7 @@ professor:
 \addlegendentry{Nullstellen}
 
 % Konvergenzbereich
-\fill[blue!10, opacity=0.2] (1,-5) rectangle (5,5);
+\fill[blue!10, opacity=0.3] (1,-5) rectangle (5,5);
 \node at (3,3) {Konvergenzbereich};
 
 \end{axis}
@@ -152,9 +149,6 @@ $$
 > 
 > Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
 
-## Pol-Nullstellen
-
-![600](assets/Pasted%20image%2020241203095822.png)
 
 Polstellenlage vs. Zeitbereichssignal
 
