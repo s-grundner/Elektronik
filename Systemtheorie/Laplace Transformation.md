@@ -29,13 +29,64 @@ professor:
 > [!hint]- Für welche Funktionen funktioniert die Laplace Transformation?
 > Die Laplacetransformation beinhaltet das Uneigentliche Integral 
 > $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
+> 
 
 
 > [!def] **KAZ D2)** Definition der Konvergenzabzisse
-> Existiert für das uneigentliche Integral ein $s_{0}\in\mathbb{R}$ so kann man zeigen, dass es eine Zahl $\sigma \in\mathbb{R}$ gibt sodass das Integral für alle $\s \in\mathbb{C}$ mit:
+> Existiert für das uneigentliche Integral der **LPT** ein $s_{0}\in\mathbb{R}$ so kann man zeigen, dass es eine Zahl $\sigma \in\mathbb{R}$ gibt sodass das Integral für alle $s \in\mathbb{C}$ mit:
 > - $\mathrm{Re}\,s>\sigma$ konvergiert. 
 > - $\mathrm{Re}\,s<\sigma$ divergiert.
-> Dieses $\sigma$ heißt Konvergenzabzisse von
+> 
+> Dieses $\sigma$ heißt Konvergenzabzisse von $f$
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}[very thick, font=\Large]
+\begin{axis}[
+    width=20cm,
+    height=20cm,
+    xlabel=$\Re(s)$,
+    ylabel=$\Im(s)$,
+    xmin=-5, xmax=5,
+    ymin=-5, ymax=5,
+    axis lines=center,
+    xtick={-4,-3,...,4},
+    ytick={-4,-3,...,4},
+    grid=major,
+    legend pos=north east
+]
+
+% Konvergenzabszisse
+\addplot[red, thick, dashed] coordinates {(1,-5) (1,5)} (1,4) node[right] {Konvergenzabszisse};
+
+% Pole
+\addplot[cyan, very thick, only marks, mark=x, mark size=10pt] coordinates {
+    (-2,2) (-2,-2) (0,0) (1,0)
+};
+\addlegendentry{Pole}
+
+% Nullstellen
+\addplot[green, only marks, mark=o, mark size=5pt] coordinates {
+    (-1,1) (-1,-1) (3,0)
+};
+\addlegendentry{Nullstellen}
+
+% Konvergenzbereich
+\fill[blue!10, opacity=0.2] (1,-5) rectangle (5,5);
+\node at (3,3) {Konvergenzbereich};
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
 ## Sätze
 
 > [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
