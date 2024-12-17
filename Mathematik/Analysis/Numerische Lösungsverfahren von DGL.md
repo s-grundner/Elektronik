@@ -2,6 +2,10 @@
 tags: 
 aliases:
   - Euler-Verfahren
+  - Explizite Einschrittverfahren
+  - ESV D1
+  - LDF D2
+  - Verfahrensfunktion
 keywords: 
 subject:
   - VL
@@ -120,14 +124,14 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 
 > [!question] Was passiert, wenn beim **LDF** $h\to 0$ geht? 
-
-Durch die **Äquidistande Diskretisierung** lässt sich der Linke Term des LDF schreiben wie:
-
-$\underset{ h\to 0 }{ \lim }\dfrac{x(t +h)-x(t)}{h}\overset{ (*) }{ = }x'(t)=f(t,x(t))\quad$ $(*)\dots$ Definition der [Ableitung](Differenzialrechnung.md) und $f$ wie im [AWP](../{MOC}%20DGL.md)
-
-Für die **Verfahrensfunktion** $\phi$ gilt:
-
-$\underset{ h \to 0 }{ \lim } \phi(t,x(t),h) = \phi(t,x(t),0)\quad$ wenn $\phi$ stetig ist.
-
-> [!success] Daraus folgt das für stetige $f$ das **ESV** konsistent ist, genau dann wenn:
-> $$\boxed{ \phi(t,x(t),0)=f(t,x(t)) }$$ 
+> 
+> Durch die **Äquidistande Diskretisierung** lässt sich der Linke Term des LDF schreiben wie:
+> 
+> $\underset{ h\to 0 }{ \lim }\dfrac{x(t +h)-x(t)}{h}\overset{ (*) }{ = }x'(t)=f(t,x(t))\quad$ $(*)\dots$ Definition der [Ableitung](Differenzialrechnung.md) und $f$ wie im [AWP](../{MOC}%20DGL.md)
+> 
+> Für die **Verfahrensfunktion** $\phi$ gilt:
+> 
+> $\underset{ h \to 0 }{ \lim } \phi(t,x(t),h) = \phi(t,x(t),0)\quad$ wenn $\phi$ stetig ist.
+> 
+> > [!success] Daraus folgt das für stetige $f$ das **ESV** konsistent ist, genau dann wenn:
+> > $$\boxed{ \phi(t,x(t),0)=f(t,x(t)) }$$ 
