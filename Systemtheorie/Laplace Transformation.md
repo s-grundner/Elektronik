@@ -25,6 +25,8 @@ professor:
 > $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }$$
 > 
 > Die Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
+
+
 ## Sätze
 
 > [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen

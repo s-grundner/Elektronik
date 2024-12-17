@@ -5,10 +5,10 @@
 
 .callout[data-callout="def"] {
 	--callout-icon: lucide-pencil-ruler;
-	--callout-color: 255, 255, 255;
+	--callout-color: 155, 155, 255;
 }
 
 .callout[data-callout="satz"] {
 	--callout-icon: lucide-book-plus;
-	--callout-color: 255, 255, 255;
+	--callout-color: 255, 155, 155;
 }
