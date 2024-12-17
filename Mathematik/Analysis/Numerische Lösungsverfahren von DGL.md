@@ -119,8 +119,8 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[ Maximumsnorm](../Maximumsnorm.md)
 
 
-Durch die Äquidistande Diskretisierung lässt sich der Term des **LDF** schreiben wie:
+Durch die **Äquidistande Diskretisierung** lässt sich der Term des **LDF** schreiben wie:
 
 $$
-\frac{x(t +h)-x(t)}{h}-\phi\left(t_{k-1}, x\left(t_{k-1}\right), h\right)
+\lim_{ h \to 0 } \frac{x(t +h)-x(t)}{h}=x'(t)
 $$
