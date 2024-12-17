@@ -18,12 +18,13 @@ professor:
 
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
 - Wir betrachten also nur kausale Signale, die für $t<0$ sind.
-- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\delta t}$ eingeführt. $(\delta\in\mathbb{R}^{+})$
+- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\sigma t}$ eingeführt. $(\sigma\in\mathbb{R}^{+})$
 
 > [!def] Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t<0$, so heißt:
 >
 > $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }$$
-
+> 
+> Die Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 ## Sätze
 
 > [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
