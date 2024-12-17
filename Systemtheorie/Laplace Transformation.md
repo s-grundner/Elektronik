@@ -172,73 +172,78 @@ Polstellenlage vs. Zeitbereichssignal
 \begin{document}
 
 \begin{tikzpicture}[scale=2]
-\foreach \x in {0, 4, 8} {
-  \foreach \y in {0, 4, 8} {
+\newcommand{\samples}{50}
+\newcommand{\pltsize}{8cm}
+\newcommand{\grid}{4}
+
+\foreach \x in {0, \grid, 2\grid} {
+  \foreach \y in {0, \grid, 2\grid} {
     \begin{axis}[
       at={(\x cm, \y cm)},
       anchor=south west,
-      width=3.5cm,
-      height=3.5cm,
+      width=\pltsize,
+      height=\pltsize,
       axis lines=middle,
-      xlabel={Re},
-      ylabel={Im},
-      xtick=\empty, ytick=\empty,
+      xlabel={Zeit $t$},
+      ylabel={Re},
+      zlabel={Im},
+      xtick=\empty, ytick=\empty, ztick=\empty,
       enlargelimits=false,
-      axis equal,
+      view={30}{30}, % Change the view to adjust axes orientation
     ]
       % Curves for each quadrant
       \ifnum \x=0 \ifnum \y=0
         % Bottom-Left: Decaying spiral
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({-exp(-0.2*x)*cos(deg(2*x))}, {exp(-0.2*x)*sin(deg(2*x))}, {x});
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {-exp(-0.2*x)*cos(deg(2*x))}, {exp(-0.2*x)*sin(deg(2*x))});
       \fi \fi
 
-      \ifnum \x=4 \ifnum \y=0
+      \ifnum \x=7 \ifnum \y=0
         % Bottom-Center: Faster decaying spiral
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({-exp(-0.5*x)*cos(deg(3*x))}, {exp(-0.5*x)*sin(deg(3*x))}, {x});
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {-exp(-0.5*x)*cos(deg(3*x))}, {exp(-0.5*x)*sin(deg(3*x))});
       \fi \fi
 
-      \ifnum \x=8 \ifnum \y=0
-        % Bottom-Right: Faster growing spiral
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({exp(0.5*x)*cos(deg(3*x))}, {exp(0.5*x)*sin(deg(3*x))}, {x});
+      \ifnum \x=14 \ifnum \y=0
+        % Bottom-Right: Growing spiral
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {exp(0.5*x)*cos(deg(3*x))}, {exp(0.5*x)*sin(deg(3*x))});
       \fi \fi
 
-      \ifnum \x=0 \ifnum \y=4
-        % Center-Left: Slower decay
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({-exp(-0.1*x)}, {0}, {x});
+      \ifnum \x=0 \ifnum \y=7
+        % Center-Left: Slower exponential decay
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {-exp(-0.1*x)}, {0});
       \fi \fi
 
-      \ifnum \x=4 \ifnum \y=4
-        % Center: Stable case (straight line)
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({0}, {0}, {x});
+      \ifnum \x=7 \ifnum \y=7
+        % Center: Stable oscillation
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {0}, {cos(deg(3*x))});
       \fi \fi
 
-      \ifnum \x=8 \ifnum \y=4
+      \ifnum \x=14 \ifnum \y=7
         % Center-Right: Growing exponential
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({exp(0.3*x)}, {0}, {x});
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {exp(0.3*x)}, {0});
       \fi \fi
 
-      \ifnum \x=0 \ifnum \y=8
-        % Top-Left: Slower spiral decay
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
+      \ifnum \x=0 \ifnum \y=14
+        % Top-Left: Slowly decaying spiral
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
         ({x}, {-exp(-0.1*x)*cos(deg(2*x))}, {exp(-0.1*x)*sin(deg(2*x))});
       \fi \fi
 
-      \ifnum \x=4 \ifnum \y=8
-        % Top-Center: Pure oscillation (no decay)
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({cos(deg(3*x))}, {sin(deg(3*x))}, {x});
+      \ifnum \x=7 \ifnum \y=14
+        % Top-Center: Pure oscillation
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {cos(deg(3*x))}, {sin(deg(3*x))});
       \fi \fi
 
-      \ifnum \x=8 \ifnum \y=8
+      \ifnum \x=14 \ifnum \y=14
         % Top-Right: Growing spiral
-        \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({exp(0.2*x)*cos(deg(2*x))}, {exp(0.2*x)*sin(deg(2*x))}, {x});
+        \addplot3[domain=0:10, samples=\samples, samples y=0, thick, ->]
+        ({x}, {exp(0.2*x)*cos(deg(2*x))}, {exp(0.2*x)*sin(deg(2*x))});
       \fi \fi
     \end{axis}
   }
