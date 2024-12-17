@@ -24,7 +24,7 @@ jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }
 
 > [!important] … Also durch Systeme der Form
 > 
-> $$x^{\prime}=A(t) x+b(t) \tag{AWP (1.1)}$$
+> $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}$$
 
 > [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
@@ -49,7 +49,7 @@ $$
 
 
 > [!important] Falls $b=\mathbf{0}$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
-> zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP(1.2)}$$
+> zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP 1.2}$$
 
 > [!question]- Implizite Form eines inhomogenen DGL-Systems
 > $C(t)x'=A(t)x+b(t)$ mit $C(t) \in \mathbb{R}^{m \times m}$.
