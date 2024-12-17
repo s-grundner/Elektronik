@@ -171,78 +171,77 @@ Polstellenlage vs. Zeitbereichssignal
 
 \begin{document}
 
-\begin{tikzpicture}[scale=2]
+\begin{tikzpicture}[scale=1]
 \newcommand{\samples}{50}
-\newcommand{\pltsize}{8cm}
 \newcommand{\grid}{7}
 \foreach \x in {0, 7, 14} {
   \foreach \y in {0, 7, 14} {
     \begin{axis}[
       at={(\x cm, \y cm)},
       anchor=south west,
-      width=6cm,
-      height=6cm,
-      axis lines=middle,
-      xlabel={Zeit $t$},
-      ylabel={Re},
-      zlabel={Im},
+      width=8cm,
+      height=8cm,
+      axis lines=middle, axis on top,
+      xlabel={$t$},
+      ylabel={$Im$},
+      zlabel={$Re$},
       xtick=\empty, ytick=\empty, ztick=\empty,
       enlargelimits=false,
-      view={45}{30}, % Change the view to adjust axes orientation
+      view={30}{30}, % Change the view to adjust axes orientation
     ]
       % Curves for each quadrant
       \ifnum \x=0 \ifnum \y=0
         % Bottom-Left: Decaying spiral
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {-exp(-0.2*x)*cos(deg(2*x))}, {exp(-0.2*x)*sin(deg(2*x))});
+        ({x}, {exp(-0.2*x)*sin(deg(2*x))}, {-exp(-0.2*x)*cos(deg(2*x))});
       \fi \fi
 
       \ifnum \x=7 \ifnum \y=0
         % Bottom-Center: Faster decaying spiral
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {-exp(-0.5*x)*cos(deg(3*x))}, {exp(-0.5*x)*sin(deg(3*x))});
+        ({x}, {exp(-0.5*x)*sin(deg(3*x))}, {-exp(-0.5*x)*cos(deg(3*x))});
       \fi \fi
 
       \ifnum \x=14 \ifnum \y=0
         % Bottom-Right: Growing spiral
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {exp(0.5*x)*cos(deg(3*x))}, {exp(0.5*x)*sin(deg(3*x))});
+        ({x}, {exp(0.5*x)*sin(deg(3*x))}, {exp(0.5*x)*cos(deg(3*x))});
       \fi \fi
 
       \ifnum \x=0 \ifnum \y=7
         % Center-Left: Slower exponential decay
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {-exp(-0.1*x)}, {0});
+        ({x}, {0}, {-exp(-0.1*x)});
       \fi \fi
 
       \ifnum \x=7 \ifnum \y=7
-        % Center: Stable oscillation
+        % Center: Constant 
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {0}, {cos(deg(3*x))});
+        ({0}, {0}, {1});
       \fi \fi
 
       \ifnum \x=14 \ifnum \y=7
         % Center-Right: Growing exponential
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {exp(0.3*x)}, {0});
+        ({x}, {0}, {exp(0.3*x)});
       \fi \fi
 
       \ifnum \x=0 \ifnum \y=14
         % Top-Left: Slowly decaying spiral
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {-exp(-0.1*x)*cos(deg(2*x))}, {exp(-0.1*x)*sin(deg(2*x))});
+        ({x}, {exp(-0.1*x)*sin(deg(2*x))}, {-exp(-0.1*x)*cos(deg(2*x))});
       \fi \fi
 
       \ifnum \x=7 \ifnum \y=14
         % Top-Center: Pure oscillation
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {cos(deg(3*x))}, {sin(deg(3*x))});
+        ({x}, {sin(deg(3*x))}, {-cos(deg(3*x))});
       \fi \fi
 
       \ifnum \x=14 \ifnum \y=14
         % Top-Right: Growing spiral
         \addplot3[domain=0:10, samples=40, samples y=0, thick, ->]
-        ({x}, {exp(0.2*x)*cos(deg(2*x))}, {exp(0.2*x)*sin(deg(2*x))});
+        ({x}, {exp(0.2*x)*sin(deg(2*x))}, {exp(0.2*x)*cos(deg(2*x))});
       \fi \fi
     \end{axis}
   }
@@ -252,7 +251,7 @@ Polstellenlage vs. Zeitbereichssignal
 \end{document}
 ```
 
-![600](assets/Pasted%20image%2020241203095524.png)
+![900](assets/Pasted%20image%2020241203095524.png)
 
 ## Rücktransformation
 
