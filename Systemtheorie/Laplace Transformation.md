@@ -47,10 +47,10 @@ professor:
 
 \begin{document}
 
-\begin{tikzpicture}[very thick, font=\Large]
+\begin{tikzpicture}[very thick, scale=1, font=\Large]
 \begin{axis}[
-    width=20cm,
-    height=20cm,
+    width=15cm,
+    height=15cm,
     xlabel=$\Re(s)$,
     ylabel=$\Im(s)$,
     xmin=-5, xmax=5,
@@ -59,21 +59,22 @@ professor:
     xtick={-4,-3,...,4},
     ytick={-4,-3,...,4},
     grid=major,
-    legend pos=north east
+    legend pos=north west
 ]
 
 % Konvergenzabszisse
-\addplot[red, thick, dashed] coordinates {(1,-5) (1,5)} (1,4) node[right] {Konvergenzabszisse};
+\addplot[red, thick, dashed] coordinates {(1,-5) (1,5)};
+\addlegendentry{Konvergenzabszisse}
 
 % Pole
-\addplot[cyan, very thick, only marks, mark=x, mark size=10pt] coordinates {
-    (-2,2) (-2,-2) (0,0) (1,0)
+\addplot[cyan, very thick, only marks, mark=x, mark size=5pt] coordinates {
+    (-2,3) (-2,-3) (-3,1) (-3, -1) (0,0) (1,0)
 };
 \addlegendentry{Pole}
 
 % Nullstellen
-\addplot[green, only marks, mark=o, mark size=5pt] coordinates {
-    (-1,1) (-1,-1) (3,0)
+\addplot[green, very thick, only marks, mark=o, mark size=5pt] coordinates {
+    (-1,2) (-1,-2) (3,0) (2, 1) (2, -1)
 };
 \addlegendentry{Nullstellen}
 
