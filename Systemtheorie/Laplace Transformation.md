@@ -20,7 +20,7 @@ professor:
 - Wir betrachten also nur kausale [Signale](Signale.md), die für $t<0$ sind.
 - Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\sigma t}$ eingeführt. $(\sigma\in\mathbb{R}^{+})$
 
-> [!def] **LPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
+> [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
 > $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }\tag{LPT}$$
 > 
@@ -30,7 +30,7 @@ Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen:
 
 $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
-> [!def] **KAZ D2)** Definition der Konvergenzabzisse
+> [!def] **KABZ D2)** Definition der Konvergenzabzisse
 > Existiert für das uneigentliche Integral der **LPT** ein $s_{0}\in\mathbb{R}$, so kann man zeigen, dass es eine Zahl $\sigma \in\mathbb{R}$ gibt, bei dem das Integral für alle $s \in\mathbb{C}$ mit:
 > - $\mathrm{Re}\,s>\sigma$ *konvergiert*. 
 > - $\mathrm{Re}\,s<\sigma$ *divergiert*.
@@ -95,20 +95,24 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 ```
 
 
-> [!hint] **Transformierbare Funktionen:** Für welche Funktionen funktioniert die Laplace Transformation?
+> [!hint] **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
 > 
 > Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
 > $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
+> 
+> Sei $f \in \mathcal{E}$ und $s=u+i v$ mit $u, v \in \mathbb{R}$ und $\alpha<u$. Dann gilt:
+> $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $|\cos (v t)-i \sin (v t)|=1$ erhalten wir nun:
+> 
+> $$
+> \left|\int_0^{\infty} f(t) e^{-s t} d t\right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
+> $$
 
 > [!satz] **TRF S1)** Transformierbare Funktionen
 > Sie $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit alpha wie in der obigen Abschätzung für die Konvergenzabzisse
-> 
-> 
-
 
 ## Sätze
 
-> [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
+> [!satz] **LTR S2)** Sätze zu den Rechenregeln für Laplace-Transformationen
 
 | Nr     | Satz                           |                                                                                                         | Anmerkungen                                                                                                                                                    |
 | ------ | ------------------------------ | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -117,7 +121,7 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 | (iii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                  |                                                                                                                                                                |
 | (iv)   | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$ | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von [AWP](../Mathematik/{MOC}%20DGL.md) |
 | (v)    | **Verschiebung**               | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s)$$                                                | $a > 0$<br>$f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$.                                |
-| (vi)   | **Ähnlichkeit**<br>(Streckung) | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                         | $a > 0$<br>$s > a\alpha$                                                                                                                                       |
+| (vi)   | **Ähnlichkeit** | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                         | $a > 0$<br>$s > a\alpha$<br>Auch Streckung genannt                                                                                                                                      |
 | (vii)  | **Dämpfung**                   | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a)$$                                     | $a \in \mathbb{R}$<br>$s > \alpha - a$                                                                                                                         |
 | (viii) | **Multiplikation**             | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                                                  |
 | (ix)   | **Division**                   | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$       | $\sigma$ hat hier nur eine Bedeutung<br>als andere Integrationsvariable                                                                                        |

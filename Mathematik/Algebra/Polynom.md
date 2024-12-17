@@ -23,13 +23,12 @@ professor:
 > über $\mathbb{R}$: $f: \mathbb{R}\to \mathbb{R}$  
 > über $\mathbb{C}$: $f: \mathbb{C}\to \mathbb{C}$
 
-> [!satz] Fundamentalsatz der Algebra:
+> [!satz] **FUND S1)** Fundamentalsatz der Algebra:
 > Ein Polynom $n$-ten Grades über den komplexen Zahlen (d.h. $a_i \in \mathbb{C} \forall i$ und $x \in \mathbb{C}$ ) hat **genau** $n$ Nullstellen (Vielfachheiten mitgezählt). Mit der Menge aller Nullstellen definiert als:
 > 
 > $$N_f=\{x \mid f(x)=0\}\tag{NST}$$
 >
 > Komplexe Nullstellen treten bei Polynomen mit reellen Koeffizienten $\left(a_i \in \mathbb{R} \forall i\right.$ ) immer als komplex-konjugierte Paare auf, also in der Form $z=x\pm iy$.
-
 
 > [!example] Beispiel:
 > - $n$-te Wurzel aus $y$ berechnen (siehe Vorlesungseinheit zu den komplexen Zahlen) $\Leftrightarrow x^n=y$ lösen $\Leftrightarrow$ Nullstellen des Polynoms $f(x)=-y+x^n$ berechnen
@@ -38,7 +37,7 @@ professor:
 
 ## Rationale Funktion
 
-> [!INFO] $f(x)=\frac{p(x)}{q(x)}$ wobei $p(x), q(x)$ teilerfremde Polynome
+> [!info] $f(x)=\frac{p(x)}{q(x)}$ wobei $p(x), q(x)$ teilerfremde Polynome
 > 
 $f: \mathbb{R}(\mathbb{C}) \backslash N_q \rightarrow \mathbb{R}(\mathbb{C})$
 > - $f(x)$ hat über $\mathbb{C}$ wieder $n$ Nullstellen, wenn $n$ der Grad von $p(x)$ ist
