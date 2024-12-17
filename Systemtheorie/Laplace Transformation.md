@@ -24,9 +24,6 @@ professor:
 >
 > $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}dt \qquad s\in\mathbb{C} }$$
 
-Vorgangsweise zur Transformation
-- Partialbruchzerlegungen
-
 ## Sätze
 
 | Nr     | Satz                        |                                                                                                                         | Anmerkungen                                                                                                          |
@@ -89,7 +86,6 @@ $$
 > 
 > Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
 
-
 ## Pol-Nullstellen
 
 ![600](assets/Pasted%20image%2020241203095822.png)
@@ -98,6 +94,13 @@ Polstellenlage vs. Zeitbereichssignal
 
 ![600](assets/Pasted%20image%2020241203095524.png)
 
+## Rücktransformation
+
+Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
+
+> [!important] Vorhergehensweise
+> 1. Polynomdivision wenn  $\deg z(s)> \deg n(z)$
+> 2. $s$ sollte soweit es geht faktorisiert werden
 
 # Tags
 

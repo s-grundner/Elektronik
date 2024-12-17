@@ -36,11 +36,31 @@ $f: \mathbb{R}(\mathbb{C}) \backslash N_q \rightarrow \mathbb{R}(\mathbb{C})$
 > - an den Nullstellen des Polynoms im Nenner $(q(x))$ muss das asymptotische Verhalten von $f(x)$ untersucht werden
 > - weitere Details siehe Mathematik-Vorlesung
 
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+
+\begin{tikzpicture}
+\begin{axis}[thick, axis lines=middle, xmin=0, ymin=0, xmax=1, ymax=1]
+\addplot[]
+1/x;
+
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
+```
+
 ![invert_dark](polyPolstellen.png)
 
 ## Koeffizientenvergleich
 
-Zwei Polynomfunktionen $p(x) := \sum_{i=0}^n a_{i}x^i$ und 
+Zwei Polynomfunktionen $p(x) := \sum_{i=0}^n a_{i}x^i$ und $q(x)=\sum_{i=0}^n b_{i}x^i$ sind äquivalent, wenn deren Koeffizienten $a_{i} b_{i}$ gleich sind
 
 # Tags
 
