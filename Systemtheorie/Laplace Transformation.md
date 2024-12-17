@@ -26,21 +26,18 @@ professor:
 > 
 > Die Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
-> [!hint] Für welche Funktionen funktioniert die Laplace Transformation Die Laplacetransformation beinhaltet das Uneigentliche Integral 
-
-$$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
-
+> [!hint] Für welche Funktionen funktioniert die Laplace Transformation?
+> Die Laplacetransformation beinhaltet das Uneigentliche Integral 
+> $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
+> 
 
 ## Sätze
-
-
-
 
 > [!satz] Sätze zu den Rechenregeln für Laplace-Transformationen
 > 
 > | Nr     | Satz                           |                                                                                                                         | Anmerkungen                                                                                                                    |
 | ------ | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| (i)    | **Linearität**                 | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2, \, c_1, c_2 \in \mathbb{R}$$ |                                                                                                                                |
+| (i)    | **Linearität**                 | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2, \quad c_1, c_2 \in \mathbb{R}$$ |                                                                                                                                |
 | (ii)   | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                        |
 | (iii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                                  |                                                                                                                                |
 | (iv)   | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$                 | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von AWP |
