@@ -54,8 +54,12 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 
 
 > [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
->  Wir nehmen an, dass das [AWP](../{MOC}%20DGL.md)  $x' = f(t,x), x(t_{0})=x_{0}$ eine eindeutige Lösung auf $I=[a,b]$ hat.
->  Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
+>  Wir nehmen an: das [AWP](../{MOC}%20DGL.md)
+>  $$x^{\prime}=f(t, x), \quad x\left(t_0\right)=x_0\tag{AWP}$$
+> ist eindeutig lösbar in $I$ für alle $t_0 \in I$ und $x_0 \in \mathbb{R}^m$ mit $f \in C\left(I \times \mathbb{R}^m, \mathbb{R}^m\right), \quad I:=[a, b], \quad a<b$.
+
+
+Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
 > [!info] Euler-Verfahren (EV)
 > 
@@ -86,6 +90,8 @@ Man möchte wissen, wie gut die Approximation ist und ob Konvergenz gegen die ex
 Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern der vorherigen Schritte zusammen und ist daher einer direkten Bestimmung nicht zugänglich.
 
 Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
+
+### Lokaler Diskretisierungsfehler
 
 > [!important] **LDF D2):** Definition des lokalen Diskretisierungsfehlers
 > 
@@ -135,3 +141,30 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > 
 > > [!success] Daraus folgt das für stetige $f$ das **ESV** konsistent ist, genau dann wenn:
 > > $$\boxed{ \phi(t,x(t),0)=f(t,x(t)) }$$ 
+
+#### Beispiel am Euler-Verfahren
+
+>[!example]
+
+### Globaler Diskretisierungsfehler
+
+Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachtet, nicht jedoch der bereits aus vorherigen Schritten entstandener Fehler.
+
+> [!important] **GDF D4)** Es gilt die Vorraussetzung zur Eindeutigen Lösbarkeit des AWP und $\phi$ sei wie in 
+**(i)** Der globale Diskretisierungsfehler des ESV (13.2) an der Stelle $t_k$ lautet
+
+$$
+e_k:=x\left(t_k\right)-x_k, \quad k=1, \ldots, N .
+$$
+
+**(ii)** Das ESV heißt konvergent, wenn
+
+$$
+\lim _{h \rightarrow 0} \max _{1 \leq k \leq N}\left\|e_k\right\|=0
+$$
+
+**(iii)** Die Konvergenzordnung ist $q \in \mathbb{N}$, wenn gilt:
+
+$$
+\max _{1 \leq k \leq N}\left\|e_k\right\|=O\left(h^q\right) .
+$$
