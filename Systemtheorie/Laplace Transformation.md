@@ -55,7 +55,7 @@ professor:
     axis lines=center,
     xtick={-4,-3,...,4}, ytick={-4,-3,...,4},
     grid=major,
-    legend pos=north west,
+    legend pos=north west, legend cell align=left,
     axis line style={line width=1.5pt}
 ]
 
