@@ -38,5 +38,6 @@ Memory Leaks vermeiden:
 
 ## Code Style
 
+- [Style Guide for C — CS50 Docs](https://cs50.readthedocs.io/style/c/)
 - [Law Of Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter)
 - [Handle](https://en.wikipedia.org/wiki/Handle_(computing))
