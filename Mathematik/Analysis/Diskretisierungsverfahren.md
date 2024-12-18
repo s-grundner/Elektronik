@@ -212,13 +212,12 @@ Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstuf
 > $$
 > mit $i=1, \ldots, s$ und $c_{1}=0$. $k_{i}$ heißen Steigungswerte.
 
-
-
-
 >[!example] Das [Euler-Verfahren](Euler-Verfahren.md) ist in diesem Schema enthalten
 > mit $s = 1, b_{1}=1, c_{1}=0$
 
 Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat. Diese Parameter ordnet man in einer Tabelle an, dem sogenannten **Butcher-Tableau**.
+
+> [!warning] Man beachte Ordnung 
 
 ### Butcher Tableau
 
@@ -233,11 +232,29 @@ c_s & a_{s 1} & a_{s 2} & \ldots & a_{s, s-1} & \\
 \end{array}
 $$
 
+Alle $b$ müssen addiert 1 ergeben, damit die Näherungslösung $x_{k}$ die exakte Lösung $x(t_{k})$ approximiert.
+
 ### 2-Stufige Runge-Kutta Verfahren
 
 > [!example] **Butcher-Tableau**
+>
+> $$
+> \begin{array}{c|cc}
+> 0 & & \\ c_{2} & a_{21} & \\ \hline & b_{1} & b_{2}
+> \end{array}
+> $$
 
-$$
+
+
+
+ $$
+\begin{array}{c|c}
+\text{expl. Heun-Verfahren} & \text{expl. Mittelpunktsregel} \\ \hline \\
 \begin{array}{c|cc}
-
+0 & & \\ 1 & 1 & \\ \hline & \frac{1}{2} & \frac{1}{2}
+\end{array} & 
+\begin{array}{c|cc}
+0 & & \\ \frac{1}{2} & \frac{1}{2} & \\ \hline & 0 & 1
+\end{array}
+\end{array}
 $$
