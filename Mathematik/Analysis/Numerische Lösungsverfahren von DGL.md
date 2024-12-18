@@ -249,8 +249,10 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 > ```
 >
 
-
-Selbe idee wie bei der Numerischen Integration: $\int_{t_{k-1}}^{t_{k}}g(t)\mathrm{~d}t=\sum_{i} w_{i}g(\xi_{i})\quad \text{ mit } \xi_{i}\in[t_{k-1},t_{k}]$
+> [!stickies2] left
+> Selbe idee wie bei der Numerischen Integration:
+> $$\int_{t_{k-1}}^{t_{k}}g(t)\mathrm{~d}t=\sum_{i} w_{i}g(\xi_{i})$$
+> mit $\xi_{i}\in[t_{k-1},t_{k}]$
 
 $$
 \begin{align}
