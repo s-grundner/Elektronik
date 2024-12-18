@@ -181,31 +181,41 @@ Konsistenzordnung $q$ $\to$ Konvergenzordnung $q$: **LDF (iii)** $\implies$ **GD
 Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich mehrstufige Einschrittverfahren.
 
 > [!question] Unterschied zwischen **Stufe** und **Schritt**
+> 
+> ```tikz
+> \usepackage{pgfplots}
+> \usepackage{tikz}
+> \usepackage{amsmath}
+> \pgfplotsset{compat=1.16}
+> 
+> \begin{document}
+> \begin{tikzpicture}[very thick, font=\Large, scale=2]
+>     \draw (0,0) -- (10,0);
+>     \draw (0,0) node[below] {$t_{k-1}$} -- (0,0.2);
+>     \draw (10,0) node[below] {$t_k$} -- (10,0.2);
+>     
+>     \foreach \x in {2,4,6,8} { \draw (\x,-0.1) -- (\x,0.1); }
+>     \node[below] at (6,-0.1) {$\xi \in[t_{k-1}, t_{k}]$};
+>     \draw[decorate,decoration={brace,amplitude=10pt,raise=15pt}] (0,0) -- (10,0)
+>         node [midway,above=25pt] {Schritt von $k-1$ nach $k$};
+>     \draw[decorate, decoration={brace,amplitude=5pt,raise=10pt, mirror}] (2,0) -- (4,0)
+>         node [midway,below=15pt] {Stufe};
+> \end{tikzpicture}
+> \end{document}
+> ```
+>
 
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
 
-\begin{document}
-\begin{tikzpicture}[very thick, font=\Large, scale=2]
-    % Zahlengerade zeichnen
-    \draw (0,0) -- (10,0);
-    \draw (0,0) node[below] {\(t_{k-1}\)} -- (0,0.2);
-    \draw (10,0) node[below] {\(t_k\)} -- (10,0.2);
-    
-    % Unterteilungen hinzufügen
-    \foreach \x in {2,4,6,8} { \draw (\x,-0.1) -- (\x,0.1); }
-    % Geschwungene Klammer zwischen t_{k-1} und t_k
-    \draw[decorate,decoration={brace,amplitude=10pt,raise=15pt}] (0,0) -- (10,0) node [midway,above=25pt] {Schritt von $k-1$ nach $k$};
-    % Geschwungene Klammer zwischen zwei Unterpunkten
-    \draw[decorate, decoration={brace,amplitude=5pt,raise=10pt, mirror}] (2,0) -- (4,0) node [midway,below=15pt] {Stufe};
-\end{tikzpicture}
-\end{document}
-```
+Selbe idee wie bei der Numerischen Integration: $\int_{t_{k-1}}^{t_{k}}g(t)\mathrm{~d}t=\sum_{i} w_{i}g(\xi_{i})\quad \text{ mit } \xi_{i}\in[t_{k-1},t_{k}]$
 
+$$
+\begin{align}
+x_{k} &= x_{k-1} + h\cdot \sum_{i=1}^{s} b_{i}k_{i} \\
+k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right) \quad \text{ für } i=1, \ldots, s
+\end{align}
+$$
 ---
+
 
 # Related
 
