@@ -13,13 +13,12 @@ professor:
 
 # Lineare DGL $n$-ter Ordnung
 
-Eine explizite lineare DGL $n$-ter Ordnung hat die Form
-
-$$
-x^{(n)}(t) + \sum_{j=0}^{n-1} a_{j}(t)\cdot x^{(j)}(t) = s(t)
-$$
-
-Der Störvektor $s(t)$ muss auf dem Interval $I$ stetig sein. 
+> [!def] Eine explizite lineare DGL $n$-ter Ordnung hat die Form
+> 
+> $$x^{(n)}(t) + \sum_{j=0}^{n-1} a_{j}(t)\cdot x^{(j)}(t) = s(t)$$
+> 
+> - Der Störvektor $s(t)$ muss auf dem Interval $I$ stetig sein. 
+> - $s, x: \to \mathbb{R}, a\in \mathbb{R}$ (in höheren dimensionen $\mathbb{R}^m$ liegt ein DGL-System vor, von welchem wederum die einzelnen DGLs betrachtet werden)
 
 Umwandeln in ein lineares [DGL-System](Analysis/DGL-System.md) 1. Ordnung
 
