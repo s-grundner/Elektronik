@@ -66,6 +66,45 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 
 Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+\begin{tikzpicture}[scale=2, font=\Large, very thick]
+
+% Achsen
+\draw[->] (-0.2,0) -- (5,0) node[below] {$t$};
+\draw[->] (0,-0.5) -- (0,3) node[left] {$x$};
+
+% Zeitpunkte t_0 und t_1
+\draw[dashed] (1,0) -- (1,1.5) ;
+\draw[dashed] (4,0) -- (4,2.5);
+
+% Markierungen der Achsen
+\node[below] at (1,0) {$a = t_0$};
+\node[below] at (4,0) {$t_1$};
+\draw[|<->|] (1,-0.3) -- (4,-0.3) node[midway,below] {$h$};
+
+% Kurve x(t)
+\draw[] (0.2, 0.2) 
+    .. controls (1.2, 2) and (2.5, 0.5) ..
+    (4, 2.5) node[midway, below] {$x(t)$};
+
+% Tangente
+\draw[orange] (1, 1.05) -- (4,2.5) node[above,red] {\textit{Tangente}};
+
+% Hilfslinien für x_0 und x_1
+\draw[dashed] (0,1.5) node[left] {$x_0$} -- (1,1.5);
+\draw[dashed] (0,2.5) node[left] {$x_1$} -- (4,2.5);
+
+\end{tikzpicture}
+
+\end{document}
+```
+
 > [!info] Euler-Verfahren (EV)
 > 
 > ![invert_dark|500](assets/DGL_NUM_EV.png) 
@@ -215,7 +254,6 @@ k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right) \qua
 \end{align}
 $$
 ---
-
 
 # Related
 
