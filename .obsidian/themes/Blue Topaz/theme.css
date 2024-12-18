@@ -5866,8 +5866,9 @@ body.all-dark-pdf .print,
   --note-cloze: #ffffff;
 
   /* stickies */
-  --stickies-color-1: #84c584;
+  --stickies-color-1: #1f714d;
   --stickies-color-2: #c7a3cf;
+  --stickies-content: whitesmoke;
   --tape-color: #99999967;
 
   /*Sliding panes*/
@@ -28305,7 +28306,7 @@ body.colorful-p-kanban .callout.callout[data-callout*="kanban"] .task-list-item-
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 0px;
-  color: black;
+  color: var(--stickies-content);
 }
 
 .callout[data-callout="stickies"]>.callout-content::after {

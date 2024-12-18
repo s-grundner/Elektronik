@@ -258,13 +258,16 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 $$
 \begin{align}
 x_{k} &= x_{k-1} + h\cdot \sum_{i=1}^{s} b_{i}k_{i} \\
-k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right) \quad \text{ für } i=1, \ldots, s
+k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right) \quad \text{ mit } i=1, \ldots, s, \quad  \text{ und } c_{1}=0
 \end{align}
 $$
 
+>[!example] Das Eulerverfahren ist in diesem Schema enthalten
+>mit $s = 1, b_{1}=1, c_{1}=0$
 
+Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat.
 
+Diese Parameter ordnet man in einer Tabelle an, die Sogenannte **Butcher-Tableau**.
 
-# Related
+#### Butcher Tableau
 
-- [Mittelwertsatz](../Mittelwertsatz.md)
