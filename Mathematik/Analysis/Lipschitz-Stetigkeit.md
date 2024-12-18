@@ -36,3 +36,7 @@ professor:
 > Für eine lipschitzstetige Funktion existiert ein Doppelkegel (weiß), dessen Ursprung entlang des Graphen bewegt werden kann, sodass der Graph stets außerhalb des Doppelkegels bleibt
 >
 > ![500](assets/Lipschitz_Visualisierung.gif)
+
+---
+
+[Analysis Integrale: Eine stetige Funktion, die nicht Lipschitz-stetig ist](https://www.youtube.com/watch?v=p51A_GClQKE&t=298s)

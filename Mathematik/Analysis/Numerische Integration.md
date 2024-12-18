@@ -12,6 +12,7 @@ professor:
 cited:
 ---
  
+
 # Numerische Integration
 
 ## Quadraturformel
@@ -20,6 +21,5 @@ cited:
     - Simpsonregel
     - Trapezregel
 - Gausssche Quadraturformel (Varaible Intervalle)
-
 
 - Wenn es eine unstetige stelle gibt, dann den knoten dort hinsetzen
