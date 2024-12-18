@@ -16,7 +16,7 @@ professor:
 
 Um **Differenzialgleichungen** *höherer* Ordnung leichter lösen zu können, kann diese in ein **System aus Differenzialgleichungen** *erster* Ordnung überführt werden. 
 
-> [!info] Jede [Lineare DGL n-ter Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) lässt sich in ein DGL-System 1. Ordnung überführen
+> [!info] Jede DGL n-ter Ordnung lässt sich in ein DGL-System 1. Ordnung überführen
 > $$
 > F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
 > z_{1}=z' \\
@@ -41,8 +41,20 @@ folgendes Differenzialgleichungs-System **erster** Ordnung:
 > 
 
 
+## Weiterführend
+
+[Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
+- [Lineare DGL-Systeme 1. Ordnung](Lineare%20DGL-Systeme%201.%20Ordnung.md)
+- [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
+- [Lineare DGL n-ter Ordnung](../Lineare%20DGL%20n-ter%20Ordnung.md)
+
+
+--- 
+
+# Beispiele
+
 >[!example] Allgemeines Beispiel
-> 1. DGL $n$-ter Ordnung:
+> 1. DGL $n$-ter Ordnung: (hier linear)
 > $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
 > 
 > 2. Substitutionen:
@@ -58,7 +70,7 @@ folgendes Differenzialgleichungs-System **erster** Ordnung:
 > \end{aligned}
 > $$
 > 
-> 3. Ergebnis DGL-System
+> 3. Ergebnis DGL-System: hat die Form wie in [Lineare DGL n-ter Ordnung](../Lineare%20DGL%20n-ter%20Ordnung.md)
 > 
 > $$
 > \begin{aligned}
@@ -69,18 +81,8 @@ folgendes Differenzialgleichungs-System **erster** Ordnung:
 > \dot{x}_n & =-\alpha_n x_n-\ldots-\alpha_3 x_3-\alpha_2 x_2-\alpha_1 x_1+u
 > \end{aligned}
 > $$
+> 
 
-
-## Weiterführend
-
-[Transformation in DGL-Systeme 1. Ordnung](https://studyflix.de/mathematik/transformation-in-system-1-ordnung-943)
-- [Lineare DGL-Systeme 1. Ordnung](Lineare%20DGL-Systeme%201.%20Ordnung.md)
-- [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
-
-
---- 
-
-# Beispiele
 
 >[!example] DGLS001:
 > Überführen Sie die folgenden Differentialgleichungen in ein (falls möglich explizites) Differentialgleichungssystem erster Ordnung.

@@ -71,7 +71,7 @@ Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das syst
 - Im allgemeinen Fall: ein System von Differentialgleichungen
 - Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
 
-> [!hint]- DGL n-ter Ordnung $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
+> [!hint] [Lineare DGL n-ter Ordnung](Mathematik/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
 > - Differentialgleichung $n$-ter Ordnung:
 > 
 > $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
@@ -80,17 +80,14 @@ Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das syst
 > 
 > $$
 > \begin{aligned}
-> \dot{x}_1 & =x_2 \\
-> \dot{x}_2 & =x_3 \\
-> \ldots & =\ldots \\
-> \dot{x}_{n-1} & =x_n \\
-> \dot{x}_n & =-\alpha_n x_n-\ldots-\alpha_3 x_3-\alpha_2 x_2-\alpha_1 x_1+u
+> \dot{\mathbf{x}} = A \mathbf{x} + s(t) \\
 > \end{aligned}
 > $$
-
-
 
 - Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von Zustandsvariablen
 - Annahme: $p$ Eingangsgrößen $u_1, u_2, \ldots, u_p$
 - Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ Eingangsgrößen und allen Zustandsgrößen $x_1, x_2, \ldots, x_n$ abhängen
 - Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist $\rightarrow$ Zustandsgleichungen
+
+
+Durchgangsmatrix geht nicht an die Speichernden Elementen im System sondern direkt auf den Ausgnag über
