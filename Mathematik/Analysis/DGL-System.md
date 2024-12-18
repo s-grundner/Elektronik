@@ -41,6 +41,34 @@ folgendes Differenzialgleichungs-System **erster** Ordnung:
 > 
 
 
+>[!example] Allgemeines Beispiel
+> 1. DGL $n$-ter Ordnung:
+> $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
+> 
+> 2. Substitutionen:
+> 
+> $$
+> \begin{aligned}
+> x_1 & =x \\
+> x_2 & =\dot{x}_1=\dot{x} \\
+> x_3 & =\dot{x}_2=\ddot{x} \\
+> \vdots & =\vdots \\
+> x_{n-1} & =\dot{x}_{n-2}=x^{(n-2)} \\
+> x_n & =\dot{x}_{n-1}=x^{(n-1)}
+> \end{aligned}
+> $$
+> 
+> 3. Ergebnis DGL-System
+> 
+> $$
+> \begin{aligned}
+> \dot{x}_1 & =x_2 \\
+> \dot{x}_2 & =x_3 \\
+> \ldots & =\ldots \\
+> \dot{x}_{n-1} & =x_n \\
+> \dot{x}_n & =-\alpha_n x_n-\ldots-\alpha_3 x_3-\alpha_2 x_2-\alpha_1 x_1+u
+> \end{aligned}
+> $$
 
 
 ## Weiterführend

@@ -18,6 +18,17 @@ $$
 
 Umwandeln in ein lineares [DGL-System](Analysis/DGL-System.md) 1. Ordnung
 
+$$
+A(t)=\left(\begin{array}{ccccc}
+0 & 1 & 0 & \ldots & 0 \\
+0 & 0 & 1 & \ddots & 0 \\
+\vdots & \vdots & \ddots & \ddots & \vdots \\
+0 & 0 & 0 & \ldots & 1 \\
+a_0(t) & a_1(t) & a_2(t) & \ldots & a_{n-1}(t)
+\end{array}\right) \quad \text { und } \quad b(t)=\left(\begin{array}{c}
+0 \\ \vdots \\ 0 \\ s(t)
+\end{array}\right)
+$$
 
 ## Konstanter Koeffizient
 
