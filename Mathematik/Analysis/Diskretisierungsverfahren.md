@@ -232,3 +232,12 @@ c_s & a_{s 1} & a_{s 2} & \ldots & a_{s, s-1} & \\
 \hline & b_1 & b_2 & \ldots & b_{s-1} & b_s
 \end{array}
 $$
+
+### 2-Stufige Runge-Kutta Verfahren
+
+> [!example] **Butcher-Tableau**
+
+$$
+\begin{array}{c|cc}
+
+$$
