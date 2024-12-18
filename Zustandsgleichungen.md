@@ -10,6 +10,7 @@ created: 18. Dezember 2024
 professor:
 ---
  
+
 # Zustandsgleichungen
 
 - Der Zustand des Systems beschreibt die internen Größen des Systems
@@ -35,9 +36,9 @@ Der Zustandsraum ist die Vorbeireitung um Systeme auf eine beliebige anzahl von 
 \begin{circuitikz}[thick, scale=1, font=\Large]
 % Begin Schematic
 
-\draw (0,0) to[I, l=$i_0$, i=$i_0$] (0,4) to[short] (2,4) to[L, i=$i_L(t)$] (2,0) to[short] (0,0);
-\draw (2,4) to[short] (4,4) to[R, i=$i_R(t)$] (4,0) to[short] (2,0);
-\draw (4,4) to[short] (6,4) to[C, i=$i_C(t)$, v=$u_C(t)] (6,0) to[short] (4,0);
+\draw (0,0) to[I, l=$i_0$, i=$i_0$] (0,4) to[short] (2,4) to[L, i_=$i_L(t)$, *-*] (2,0) to[short] (0,0);
+\draw (2,4) to[short] (4,4) to[R, i_=$i_R(t)$, *-*] (4,0) to[short] (2,0);
+    \draw (4,4) to[short] (6,4) to[C, i_=$i_C(t)$, v^=$u_C(t)$] (6,0) to[short] (4,0);
 
 \end{circuitikz}
 \end{document}
@@ -58,8 +59,42 @@ u_C(t) & =\frac{1}{C} \int_{-\infty}^t i_C(\tau) \mathrm{d} \tau=\frac{1}{C} \in
 i_L(t) & =\frac{1}{L} \int_{-\infty}^t u_L(\tau) \mathrm{d} \tau=\frac{1}{L} \int_{-\infty}^{t_0} u_L(\tau) \mathrm{d} \tau+\frac{1}{L} \int_{t_0}^t u_L(\tau) \mathrm{d} \tau \\
 & =\boxed{ i_L\left(t_0\right)+\frac{1}{L} \int_{t_0}^t u_L(\tau) \mathrm{d} \tau }
 \end{aligned}
-$$Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das system beschreibt um 1:
-
-Allgemein wird dann die [Lineare DGL n-ter Ordnung](Mathematik/Lineare%20DGL%20n-ter%20Ordnung.md) Durch ein [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung ersetzt:
+$$
 
 
+Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das system beschreibt um 1.
+
+## Zustandsgleichungen
+
+
+- Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
+- Im allgemeinen Fall: ein System von Differentialgleichungen
+- Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
+
+> [!hint]- DGL n-ter Ordnung $\to$ DGL-System 1. Ordnung
+> - Differentialgleichung $n$-ter Ordnung:
+> 
+> $$
+> x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u
+> $$
+> 
+> 
+> Substitutionen:
+> 
+> $$
+> \begin{aligned}
+> x_1 & =x \\
+> x_2 & =\dot{x}_1=\dot{x} \\
+> x_3 & =\dot{x}_2=\ddot{x} \\
+> \vdots & =\vdots \\
+> x_{n-1} & =\dot{x}_{n-2}=x^{(n-2)} \\
+> x_n & =\dot{x}_{n-1}=x^{(n-1)}
+> \end{aligned}
+> $$
+
+
+
+- Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von Zustandsvariablen
+- Annahme: $p$ Eingangsgrößen $u_1, u_2, \ldots, u_p$
+- Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ Eingangsgrößen und allen Zustandsgrößen $x_1, x_2, \ldots, x_n$ abhängen
+- Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist $\rightarrow$ Zustandsgleichungen
