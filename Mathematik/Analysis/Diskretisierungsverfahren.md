@@ -29,28 +29,29 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
 > 
 > **Intervall**: $I=[a,b], t \in I$
 > **Diskretisierung** (äquidistand):
-
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
-
-\begin{document}
-\begin{tikzpicture}[very thick, font=\Large, scale=2]
-    \draw (0,0) -- (10,0);
-    \draw (0,-0.1) node[below] {$a=t_0$} -- (0,0.1);
-    \draw (10,-0.1) node[below right] {$b=t_N$} -- (10,0.1);
-    \foreach \x/\label in {1/$t_1$, 2/$t_2$, 3/$t_3$} {
-        \draw (\x,-0.1) node[below] {\label} -- (\x,0.1);
-        \draw[draw=none] (\x-1,0) -- (\x,0) node[midway, above] {$h$};
-    }
-    \draw (3,0) -- (9.5,0) node[midway, below=7pt] {$\dots$};
-    \draw (9.5,-0.1) node[below] {$t_{N-1}$} -- (9.5,0.1);
-    \draw[draw=none] (9.5, 0) -- (10,0) node[midway, above] {$\leq h$};
-\end{tikzpicture}
-\end{document}
-```
+> 
+> ```tikz
+> \usepackage{pgfplots}
+> \usepackage{tikz}
+> \usepackage{amsmath}
+> \pgfplotsset{compat=1.16}
+> 
+> \begin{document}
+> \begin{tikzpicture}[very thick, font=\Large, scale=2]
+>     \draw (0,0) -- (10,0);
+>     \draw (0,-0.1) node[below] {$a=t_0$} -- (0,0.1);
+>     \draw (10,-0.1) node[below right] {$b=t_N$} -- (10,0.1);
+>     \foreach \x/\label in {1/$t_1$, 2/$t_2$, 3/$t_3$} {
+>         \draw (\x,-0.1) node[below] {\label} -- (\x,0.1);
+>         \draw[draw=none] (\x-1,0) -- (\x,0) node[midway, above] {$h$};
+>     }
+>     \draw (3,0) -- (9.5,0) node[midway, below=7pt] {$\dots$};
+>     \draw (9.5,-0.1) node[below] {$t_{N-1}$} -- (9.5,0.1);
+>     \draw[draw=none] (9.5, 0) -- (10,0) node[midway, above] {$\leq h$};
+> \end{tikzpicture}
+> \end{document}
+> ```
+> 
 > Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
 > Der Abbildung kann man entnehmen, dass:
 > $$t_{k}=t_{k-1}+h_{k} \quad \text{ mit } k=1, \ldots, N,\quad t_{0}=a, \quad t_{N}=b$$
@@ -107,8 +108,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > 
 > > [!info]- Erläuterung
 > > 1. Der lokale Diskretisierungsfehler ist die Differenz zwischen der exakten Lösung und der Näherungslösung des ESV.
-> > 2. Die Konsistenz ist gegeben wenn alle Diskretisierungsfehler ([Maximumnorm](../Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren,
-> > wenn die Schrittweite $h$ gegen $0$ [konvergiert](Grenzwert.md).
+> > 2. Die Konsistenz ist gegeben wenn der größte Diskretisierungsfehler ([Maximumnorm](../Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren, wenn die Schrittweite $h$ gegen $0$ [konvergiert](Grenzwert.md).
 > > 3. Ist der Größte Fehler ist von der Ordnung $O(h^q)$ Dann heißt $q$ Konvergenzordnung.
 > > Die Konsistenzordnung ist ein maß, wie schnell der Diskretisierungsfehler gegen 0 konvergiert,
 > > falls das ESV konsistent ist. (Konvergenzgeschwindigkeit)
@@ -201,10 +201,11 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 
 $$
 \begin{align}
-x_{k} &= x_{k-1} + h\cdot \sum_{i=1}^{s} b_{i}k_{i} \\
-k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right) \quad \text{ mit } i=1, \ldots, s, \quad  \text{ und } c_{1}=0
+x_{k} &= x_{k-1} + h\cdot \sum_{i=1}^{s} b_{i}k_{i}\tag{MESV 1.1} \\
+k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right)\tag{MESV 1.2} 
 \end{align}
 $$
+mit $i=1, \ldots, s$ und $c_{1}=0$
 
 >[!example] Das [Euler-Verfahren](Euler-Verfahren.md) ist in diesem Schema enthalten
 >mit $s = 1, b_{1}=1, c_{1}=0$
