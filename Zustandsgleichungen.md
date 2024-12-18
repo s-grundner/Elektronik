@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Zustandsbeschreibung
+  - Zustandsvariablen
 keywords: 
 subject:
   - VL
@@ -11,7 +13,7 @@ professor:
 ---
  
 
-# Zustandsgleichungen
+# Zustandsbeschreibung eines Systems
 
 - Der Zustand des Systems beschreibt die internen Größen des Systems
 - Zustand:
@@ -66,13 +68,12 @@ Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das syst
 
 ## Zustandsgleichungen
 
-
 - Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
 - Im allgemeinen Fall: ein System von Differentialgleichungen
 - Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
 
 > [!hint] [Lineare DGL n-ter Ordnung](Mathematik/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
-> - Differentialgleichung $n$-ter Ordnung:
+> Differentialgleichung $n$-ter Ordnung:
 > 
 > $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
 > 
@@ -80,10 +81,22 @@ Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das syst
 > 
 > $$
 > \begin{aligned}
-> \dot{\mathbf{x}} = A \mathbf{x} + s(t) \\
+> \begin{pmatrix}
+> \dot{x}_1 \\ \dot{x}_2 \\ \vdots \\ \dot{x}_{n-1} \\ \dot{x}_n
+> \end{pmatrix} = \begin{pmatrix}
+> 0 & 1 & 0 & \ldots & 0 \\
+> 0 & 0 & 1 & \ddots & 0 \\
+> \vdots & \vdots & \ddots & \ddots & \vdots \\
+> \alpha_{1} & \alpha_{2} & \alpha_{3} & \ldots & \alpha_{n-1}
+> \end{pmatrix}\cdot \begin{pmatrix}
+> x_1 \\ x_2 \\ \vdots \\ x_{n-1} \\ x_n
+> \end{pmatrix}+ \begin{pmatrix}
+> 0 \\ 0 \\ \vdots \\ 0 \\ b(t)
+> \end{pmatrix} \\
 > \end{aligned}
 > $$
-
+> 
+ 
 - Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von Zustandsvariablen
 - Annahme: $p$ Eingangsgrößen $u_1, u_2, \ldots, u_p$
 - Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ Eingangsgrößen und allen Zustandsgrößen $x_1, x_2, \ldots, x_n$ abhängen
