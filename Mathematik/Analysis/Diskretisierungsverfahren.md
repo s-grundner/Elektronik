@@ -46,12 +46,12 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
 \begin{document}
 \begin{tikzpicture}[very thick, font=\Large, scale=2]
     \draw (0,0) -- (10,0);
-    \draw (0,-0.1) node[below] {$a=t_0$} -- (0,0.2);
-    \draw (10,0) node[below] {$b=t_N$} -- (10,0.2);
+    \draw (0,-0.1) node[below] {$a=t_0$} -- (0,0.1);
+    \draw (10,-0.1) node[below right] {$b=t_N$} -- (10,0.1);
     
-    \foreach \x in {2,4,6,8} { \draw (\x,-0.1) -- (\x,0.1); }
-    \node[below] at (6,-0.1) {$\xi \in[t_{k-1}, t_{k}]$};
-        node [midway,below=15pt] {Stufe};
+    \foreach \x/\label in {1/$t_1$, 2/$t_2$, 3/$t_3$, 9.5/$t_{N-1}$} {
+        \draw (\x,-0.1) node[below] {\label} -- (\x,0.1);
+    }
 \end{tikzpicture}
 \end{document}
 ```
