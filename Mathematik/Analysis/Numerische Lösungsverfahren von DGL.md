@@ -189,19 +189,18 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 \pgfplotsset{compat=1.16}
 
 \begin{document}
-\begin{tikzpicture}[scale=2]
+\begin{tikzpicture}[very thick, font=\Large, scale=2]
     % Zahlengerade zeichnen
-    \draw[->] (0,0) -- (10,0);
-    
-    % Anfangs- und Endpunkt markieren und beschriften
+    \draw (0,0) -- (10,0);
     \draw (0,0) node[below] {\(t_{k-1}\)} -- (0,0.2);
     \draw (10,0) node[below] {\(t_k\)} -- (10,0.2);
     
     % Unterteilungen hinzufügen
-    \foreach \x in {2,4,6,8}
-    {
-        \draw (\x,-0.1) -- (\x,0.1);
-    }
+    \foreach \x in {2,4,6,8} { \draw (\x,-0.1) -- (\x,0.1); }
+    % Geschwungene Klammer zwischen t_{k-1} und t_k
+    \draw[decorate,decoration={brace,amplitude=10pt,raise=15pt}] (0,0) -- (10,0) node [midway,above=25pt] {Schritt von $k-1$ nach $k$};
+    % Geschwungene Klammer zwischen zwei Unterpunkten
+    \draw[decorate, decoration={brace,amplitude=5pt,raise=10pt, mirror}] (2,0) -- (4,0) node [midway,below=15pt] {Stufe};
 \end{tikzpicture}
 \end{document}
 ```
