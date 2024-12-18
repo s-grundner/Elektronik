@@ -14,11 +14,52 @@ professor:
 
 - Der Zustand des Systems beschreibt die internen Größen des Systems
 - Zustand:
-
-Für jeden Zeitpunkt $t_0$ reicht die Kenntnis des Zustandes zu diesem Zeitpunkt $t_0$ zusammen mit der Kenntnis der Erregung für alle Zeiten $t \geq t_0$ aus, um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen
+    Für jeden Zeitpunkt $t_0$ reicht die Kenntnis des Zustandes zu diesem Zeitpunkt $t_0$ zusammen mit der Kenntnis der Erregung für alle Zeiten $t \geq t_0$ aus, um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen
 - Es spielt dabei keine Rolle, wie der Zustand in der Vergangenheit (zu Zeiten $t<t_0$ ) entstanden ist
 - In der Regel wird der Zustand eines Systems durch mehrere Größen beschrieben
 - Häufig werden Systeme mit mehreren Eingängen und mehreren Ausgängen betrachtet
 
 Im RC: Spannung am C
-Im RLC: Spannung am C und Strom im 
+Im RLC: Spannung am C und Strom in L
+
+Der Zustandsraum ist die Vorbeireitung um Systeme auf eine beliebige anzahl von ein und AUsgängen zu erweitern (MIMO)
+
+>[!example] Zustandsbeschreibung eines Parallelschwingkreis
+> Relevant ist, wo hier die Energie gespeichert wird. 
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick, scale=1, font=\Large]
+% Begin Schematic
+
+\draw (0,0) to[I, l=$i_0$, i=$i_0$] (0,4) to[short] (2,4) to[L, i=$i_L(t)$] (2,0) to[short] (0,0);
+\draw (2,4) to[short] (4,4) to[R, i=$i_R(t)$] (4,0) to[short] (2,0);
+\draw (4,4) to[short] (6,4) to[C, i=$i_C(t)$, v=$u_C(t)] (6,0) to[short] (4,0);
+
+\end{circuitikz}
+\end{document}
+```
+
+Zustansgrößen:
+- $u_C(t)$
+- $i_L(t)$
+
+Beide Größen sind Funktionen der Zeit und mit den beiden unabhängigen Energiespeichern im System direkt verknüpft $\rightarrow$ Zustandsvariablen Die Kapazität speichert die gesamte Vergangenheit in Form der eingebrachten Ladung als Spannung $u_C\left(t_0\right)$ und die Induktivität in Form des Stromes $i_L\left(t_0\right)$
+
+Gleichungen zur Zustandsbeschreibung:
+
+$$
+\begin{aligned}
+u_C(t) & =\frac{1}{C} \int_{-\infty}^t i_C(\tau) \mathrm{d} \tau=\frac{1}{C} \int_{-\infty}^{t_0} i_C(\tau) \mathrm{d} \tau+\frac{1}{C} \int_{t_0}^t i_C(\tau) \mathrm{d} \tau \\
+& =\boxed{ u_C\left(t_0\right)+\frac{1}{C} \int_{t_0}^t i_C(\tau) \mathrm{d} \tau } \\
+i_L(t) & =\frac{1}{L} \int_{-\infty}^t u_L(\tau) \mathrm{d} \tau=\frac{1}{L} \int_{-\infty}^{t_0} u_L(\tau) \mathrm{d} \tau+\frac{1}{L} \int_{t_0}^t u_L(\tau) \mathrm{d} \tau \\
+& =\boxed{ i_L\left(t_0\right)+\frac{1}{L} \int_{t_0}^t u_L(\tau) \mathrm{d} \tau }
+\end{aligned}
+$$Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das system beschreibt um 1:
+
+Allgemein wird dann die [Lineare DGL n-ter Ordnung](Mathematik/Lineare%20DGL%20n-ter%20Ordnung.md) Durch ein [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung ersetzt:
+
+
