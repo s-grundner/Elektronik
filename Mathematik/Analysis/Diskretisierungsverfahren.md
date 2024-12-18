@@ -205,8 +205,8 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 > k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right)\tag{MESV 1.2}
 > \end{align}
 > $$
-> mit $i=1, \ldots, s$ und $c_{1}=0$
-
+> mit $i=1, \ldots, s$ und $c_{1}=0. 
+> $\implies \phi_{s}(t,x,h)=\sum_{i=1}^{s}b_{i}k_{i}$
 
 
 >[!example] Das [Euler-Verfahren](Euler-Verfahren.md) ist in diesem Schema enthalten
