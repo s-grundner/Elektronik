@@ -162,7 +162,7 @@ Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachte
 > konsistent $\implies$ konvergent: **LDF (ii)**$\implies$ **GDF (ii)**
 Konsistenzordnung $q$ $\to$ Konvergenzordnung $q$: **LDF (iii)** $\implies$ **GDF (iii)**
 
-## Mehrstufige Einschrittverfahren
+## Mehrstufige Einschrittverfahren - Runge-Kutta
 
 Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich mehrstufige Einschrittverfahren.
 
@@ -197,11 +197,11 @@ Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstuf
  $$\phi_{s}(t,x,h)=\sum_{i=1}^{s}b_{i}k_{i}$$
 
 > [!stickies]
-> Selbe idee wie bei der Numerischen Integration:
+> Selbe Idee wie bei der [Numerischen Integration](Numerische%20Integration.md):
 > $$\int_{t_{k-1}}^{t_{k}}g(t)\mathrm{~d}t=\sum_{i} w_{i}g(\xi_{i})$$
 > mit $\xi_{i}\in[t_{k-1},t_{k}]$
 
-> [!def] **D5 - MESV)** Mehrschrittverfahren nach Runge-Kutta
+> [!def] **D5 - MESV)** Mehrstufige Einschrittverfahren nach **Runge-Kutta**
 > $$
 > \begin{align}
 > x_{k} &= x_{k-1} + h\cdot \sum_{i=1}^{s} b_{i}k_{i}\tag{MESV 1.1} \\
@@ -216,9 +216,9 @@ Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstuf
 Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat. Diese Parameter ordnet man in einer Tabelle an, dem sogenannten **Butcher-Tableau**.
 
 > [!warning] Man beachte dass Ordnung $\cancel{ \iff }$ Stufe
-> Für $2$-Stufige ESV erhält man die Ordnung 2.
+> - Für $2$-Stufige ESV erhält man die Ordnung 2.
 > - Für $3$ bzw. $4$ Stufige Verfahren erhält man auch noch de Ordnung 3 bzw 4
-> - Für Verfahren $5$-Ordnung benötigt man unerwarteterweise $6$-Stufen
+> - Für Verfahren $5$-Ordnung benötigt man jedoch unerwarteterweise mindestens $6$-Stufen
 
 ### Butcher Tableau
 
@@ -245,10 +245,7 @@ Alle $b$ müssen addiert 1 ergeben, damit die Näherungslösung $x_{k}$ die exak
 > \end{array}
 > $$
 
-
-
-
- $$
+$$
 \begin{array}{c|c}
 \text{expl. Heun-Verfahren} & \text{expl. Mittelpunktsregel} \\ \hline \\
 \begin{array}{c|cc}
@@ -259,3 +256,5 @@ Alle $b$ müssen addiert 1 ergeben, damit die Näherungslösung $x_{k}$ die exak
 \end{array}
 \end{array}
 $$
+### 4-Stufige Runge-Kutta Verfahren
+
