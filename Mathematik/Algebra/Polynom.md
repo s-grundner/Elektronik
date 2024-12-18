@@ -13,13 +13,15 @@ subject:
   - KV
 semester: WS23
 created: 30. Oktober 2023
-professor:
+professor: 
+satz:
+  - FUND
 ---
  
 
 # Polynom
 
-> [!INFO] $f(x) = \sum_{i=0}^na_{i}x^{i}$ mit $a_{n}\neq 0$  
+> [!def] **D1 - POLY)** $f(x) = \sum_{i=0}^na_{i}x^{i}$ mit $a_{n}\neq 0$  
 > über $\mathbb{R}$: $f: \mathbb{R}\to \mathbb{R}$  
 > über $\mathbb{C}$: $f: \mathbb{C}\to \mathbb{C}$
 
@@ -44,25 +46,7 @@ $f: \mathbb{R}(\mathbb{C}) \backslash N_q \rightarrow \mathbb{R}(\mathbb{C})$
 > - an den Nullstellen des Polynoms im Nenner $(q(x))$ muss das asymptotische Verhalten von $f(x)$ untersucht werden
 > - weitere Details siehe Mathematik-Vorlesung
 
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
 
-\begin{document}
-
-\begin{tikzpicture}
-\begin{axis}[thick, axis lines=middle, xmin=0, ymin=0, xmax=1, ymax=1]
-\addplot[]
-1/x;
-
-
-\end{axis}
-\end{tikzpicture}
-
-\end{document}
-```
 
 ![invert_dark](polyPolstellen.png)
 

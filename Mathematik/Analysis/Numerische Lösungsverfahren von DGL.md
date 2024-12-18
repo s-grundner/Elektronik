@@ -34,7 +34,7 @@ satz:
 > Man braucht daher Näherungsmethoden. Dabei unterscheidet man zwischen **analytischen** und **numerischen** Näherungsverfahren.
 > 
 > Ein analytisches Verfahren:
-> - Aus dem Satz von Lindelöf: [Sukzessive Approximation](../sukzessive%20Approximation.md).
+> - Aus dem Satz von Lindelöf: [Sukzessive Approximation](sukzessive%20Approximation.md).
 > - Falls die Funktion $f$ in der der [AWP](../{MOC}%20DGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
 > 
 > Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte **Diskretisierungsverfahren** durchgesetzt.

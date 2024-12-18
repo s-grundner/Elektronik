@@ -11,10 +11,11 @@ semester: SS24
 created: 10. April 2024
 professor:
   - Andreas Neubauer
-cited:
+satz: MWS
 ---
  
 
 # Mittelwertsatz
 
-In einem beliebigen Intervall einer Stetigen funktion gibt es mindestens eine Stelle an der der Differenzenquotient dieses Intervalls gleich der Ableitung ist.
+> [!satz] **S1 - MWS)** 
+> In einem beliebigen Intervall einer Stetigen funktion gibt es mindestens eine Stelle an der der Differenzenquotient dieses Intervalls gleich der Ableitung ist.
