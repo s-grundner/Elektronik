@@ -115,6 +115,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > 
 
 
+
 > [!def] **D3 - ORD)** Definition der Ordnung $O(h^{q})$: 
 > $$\exists C>0\, \exists h_{0}\!>0\,\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
 > Es gibt eine Konstante $C>0$ und eine Kleine Zahl $h_{0}>0$, die hinreichend nahe bei Null ist, sodass für alle $h$ die kleiner sind als $h_{0}$, gilt, dass der Maximale Fehler $\lVert \tau \rVert_{\infty}$ auf keinen Fall schneller wächst als $C h^q$.
@@ -218,7 +219,7 @@ Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstuf
 Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat. Diese Parameter ordnet man in einer Tabelle an, dem sogenannten **Butcher-Tableau**.
 
 > [!warning] Man beachte dass Ordnung $\cancel{ \iff }$ Stufe
->  
+> Für $2$ 
 
 ### Butcher Tableau
 
