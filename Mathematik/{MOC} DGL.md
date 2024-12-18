@@ -40,7 +40,13 @@ created: 14th March 2022
 > $\implies F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)})$
 > 
 
-> [!warning] Jede [Lineare DGL n-ter Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) lässt sich in ein [DGL-System](Analysis/DGL-System.md) 1. Ordnung überführen
+> [!hint] Jede DGL und DGL-System $n$-ter Ordnung lässt sich in ein [DGL-System](Analysis/DGL-System.md) 1. Ordnung überführen
+> 
+> **DGL**: Eine Einzige Differentialgleichung
+> **DGL-System**: Ein System aus mehreren Differentialgleichungen die voneinander abhängen
+> 
+
+
 
 ## Anfangswert Problem (AWP)
 
@@ -65,7 +71,7 @@ $$
 x\left(t ; t_0, x_0\right)
 $$
 
-## Randwertprobleme (RWP)
+## Randwert Problem (RWP)
 
 Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine Differenzialgleichung zusammen mit Randbedingungen gegeben ist.
 

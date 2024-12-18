@@ -10,11 +10,16 @@ created: 6th November 2024
 professor:
 ---
  
+
 # Lineare DGL $n$-ter Ordnung
+
+Eine explizite lineare DGL $n$-ter Ordnung hat die Form
 
 $$
 x^{(n)}(t) + \sum_{j=0}^{n-1} a_{j}(t)\cdot x^{(j)}(t) = s(t)
 $$
+
+Der Störvektor $s(t)$ muss auf dem Interval $I$ stetig sein. 
 
 Umwandeln in ein lineares [DGL-System](Analysis/DGL-System.md) 1. Ordnung
 
@@ -33,6 +38,7 @@ $$
 ## Konstanter Koeffizient
 
 ### Homogene Gleichung
+
 $$
 \begin{aligned}
 x(t) & =e^{\lambda t} \\
@@ -60,7 +66,6 @@ $\forall\nu : {\{ 0,\dots,k_{j} - 1\}},\, t^{\nu}\cdot e^{\lambda_{i} t}$ ist ei
 
 > [!success]- Beweis
 > 
-
 
 ### Inhomogene Gleichung
 
