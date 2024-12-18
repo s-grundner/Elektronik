@@ -72,7 +72,7 @@ Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das syst
 - Im allgemeinen Fall: ein System von Differentialgleichungen
 - Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
 
-> [!hint] [Lineare DGL n-ter Ordnung](Mathematik/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
+> [!hint] [Lineare DGL n-ter Ordnung](Mathematik/Analysis/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
 > Differentialgleichung $n$-ter Ordnung:
 > 
 > $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$

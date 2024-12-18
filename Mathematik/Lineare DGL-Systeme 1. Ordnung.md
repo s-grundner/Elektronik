@@ -9,27 +9,30 @@ subject:
   - Mathematik 3
 semester: WS24
 created: 30. Oktober 2024
-professor:
+professor: 
+def:
+  - AWP 1.1
+  - AWP 1.2
 ---
  
 
 # Lineare DGL-Systeme 1. Ordnung
 
-vorher: $x' = f(t,x)$
+[Allgemeine DGL]({MOC}%20DGL.md): $x' = f(t,x)$
 
-jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Intervall)}$
+hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Lösungsintervall)}\quad x \in\mathbb{R}^{m}$
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
 >Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../Physik/Federkraft.md)-Dämpfer [Systeme](../Zustandsgleichungen.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
-> [!important] … Also durch Systeme der Form
+> [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung
 > 
 > $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}$$
 
 > [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 > > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)…
-> > …Sind vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) möglich.
+> > … sind Vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) möglich.
 > > - siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 
 $$
@@ -48,7 +51,7 @@ b_{m}(t)
 $$
 
 
-> [!important] Falls $b=\mathbf{0}$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
+> [!def] D2 - AWP 1.2) Falls $b=\mathbf{0}$, dann heißt **AWP 1.1** ein **homogenes DGL-System**, ansonsten **inhomogen**
 > zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP 1.2}$$
 
 > [!question]- Implizite Form eines inhomogenen DGL-Systems
