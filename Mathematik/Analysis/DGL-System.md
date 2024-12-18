@@ -19,13 +19,16 @@ Um **Differenzialgleichungen** *höherer* Ordnung leichter lösen zu können, ka
 > [!info] Jede DGL n-ter Ordnung lässt sich in ein DGL-System 1. Ordnung überführen
 > $$
 > F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
-> z_{1}=z' \\
-> z_{2}=z_{1}' \\
-> \quad\vdots  \\
-> z_{n} = z_{n-1}' \\
+> x&:= z_{1} \\
+> x'&:= z_{2}=z_{1}' \\
+> x''&:= z_{3}=z_{2}' \\
+> \quad&\vdots  \\ 
+> x^{(n-1)}&:= z_{n}=z_{n-1}' \\
+> x^{(n)} &:= z_{n}'
 > \end{cases}
 > $$
 > 
+> $$$$
 
 > [!success] Hierfür wird ein Hilfsvektor $\mathbf{z}$ mit den **Hilfsfunktionen** $z_{k}$ eingeführt.
 > Man erhält durch die Setzung 

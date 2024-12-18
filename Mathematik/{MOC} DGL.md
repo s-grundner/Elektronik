@@ -8,6 +8,7 @@ aliases:
   - Differenzialgleichungen
   - "#DGL"
   - AWP
+  - Anfangswerte
 subject:
   - Mathematik 3
   - VL
