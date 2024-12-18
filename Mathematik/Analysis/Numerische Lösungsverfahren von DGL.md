@@ -1,10 +1,9 @@
 ---
-tags: 
+tags:
+  - Analysis
 aliases:
   - Euler-Verfahren
   - Explizite Einschrittverfahren
-  - ESV D1
-  - LDF D2
   - Verfahrensfunktion
 keywords: 
 subject:
@@ -12,7 +11,14 @@ subject:
   - Mathematik 3
 semester: WS24
 created: 16. Dezember 2024
-professor:
+professor: 
+def:
+  - ESV
+  - LDF
+  - GDF
+  - ORD
+satz:
+  - Konsistenz und Konvergenz
 ---
  
 
@@ -55,13 +61,10 @@ Zeitintervall $[a, b]$ auf dem man sich die Lösung ausrechnen möchte wird in $
 > $$h_{k}=h:= \frac{b-a}{N},\quad t_{k}=t_{0}+kh$$
 
 
-
-
 > [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
 >  Wir nehmen an: das [AWP](../{MOC}%20DGL.md)
 >  $$x^{\prime}=f(t, x), \quad x\left(t_0\right)=x_0\tag{AWP}$$
 > ist eindeutig lösbar in $I$ für alle $t_0 \in I$ und $x_0 \in \mathbb{R}^m$ mit $f \in C\left(I \times \mathbb{R}^m, \mathbb{R}^m\right), \quad I:=[a, b], \quad a<b$.
-
 
 Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
@@ -80,11 +83,11 @@ Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$.
 
-> [!def] **ESV D1):** Definition des expliziten Einschrittverfahrens
+> [!def] **D1: ESV)**  Definition des expliziten Einschrittverfahrens
 > 
 > Ein ESV Erzeugt eine Gitterfunktion nach der Vorschrift:
 > $$x_{k} = x_{k-1} + h\cdot \underbrace{ \phi(t_{k-1}, x_{k-1}, h) }_{ \text{Verfahrensfunktion} }\tag{ESV}$$
->    
+>
 > (beim Euler-Verfahren ist $\phi(t, x, h) = f(t,x)$)
 > Je Kleiner die Schrittweite $h$, desto genauer ist die Approximation. Jedoch ist der Rechenaufwand größer.
 
@@ -97,7 +100,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 ### Lokaler Diskretisierungsfehler
 
-> [!def] **LDF D2):** Definition des lokalen Diskretisierungsfehlers
+> [!def] **D2: LDF)** Definition des lokalen Diskretisierungsfehlers
 > 
 > Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie beim **ESV**
 > 
@@ -122,7 +125,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > 
 
 
-> [!def] **ORD D3):** Definition der Ordnung $O(h^{q})$: 
+> [!def] **D3: ORD)** Definition der Ordnung $O(h^{q})$: 
 > $$\exists C>0\, \exists h_{0}\!>0\,\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
 > Es gibt eine Konstante $C>0$ und eine Kleine Zahl $h_{0}>0$, die hinreichend nahe bei Null ist, sodass für alle $h$ die kleiner sind als $h_{0}$, gilt, dass der Maximale Fehler $\lVert \tau \rVert_{\infty}$ auf keinen Fall schneller wächst als $C h^q$.
 > 
@@ -154,7 +157,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachtet, nicht jedoch der bereits aus vorherigen Schritten entstandener Fehler.
 
-> [!def] **GDF D4)** Es gilt die Vorraussetzung zur **Eindeutigen Lösbarkeit** des AWP und $\phi$ sei wie in **ESV**
+> [!def] **D4: GDF)** Es gilt die Vorraussetzung zur **Eindeutigen Lösbarkeit** des AWP und $\phi$ sei wie in **ESV**
 > 
 > **(i)** Der globale Diskretisierungsfehler des ESV an der Stelle $t_k$ lautet
 > 
@@ -168,13 +171,16 @@ Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachte
 > 
 > $$\max _{1 \leq k \leq N}\lVert e_k \rVert =O\left(h^q\right)$$
 
-> [!satz] Satz zur **Konsistenz und Konvergenz:** 
+> [!satz] **S3)** Satz zur **Konsistenz und Konvergenz:** 
 > Ist $\phi(t,x,h)$ [Lipschitz-Stetig](Lipschitz-Stetigkeit.md) in $x$:
 > $$\exists L>0: \lVert \phi(t,x,h)-\phi(t,y,h)\rVert\leq L\lVert x-y\rVert, \quad x,y\in\mathbb{R}^m, \quad t\in I$$
 > 
 > konsistent $\implies$ konvergent: **LDF (ii)**$\implies$ **GDF (ii)**
-Konsistenzordnung $\to$ Konvergenzordnung: **LDF (iii)** $\implies$ **GDF (iii)**
+Konsistenzordnung $q$ $\to$ Konvergenzordnung $q$: **LDF (iii)** $\implies$ **GDF (iii)**
 
+### Erhöhen der Konvergenzordnung
+
+Man möchte Verfahren höherer Ordnung (**ORD**) entwickeln
 
 ---
 
