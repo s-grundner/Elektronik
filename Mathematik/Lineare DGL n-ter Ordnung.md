@@ -17,10 +17,10 @@ professor:
 > 
 > $$x^{(n)}(t) + \sum_{j=0}^{n-1} a_{j}(t)\cdot x^{(j)}(t) = s(t)$$
 > 
-> - Der Störvektor $s(t)$ muss auf dem Interval $I$ stetig sein. 
+> - Der Störterm $s(t)$ muss auf dem Interval $I$ stetig sein. 
 > - $s, x: \to \mathbb{R}, a\in \mathbb{R}$ (in höheren dimensionen $\mathbb{R}^m$ liegt ein DGL-System vor, von welchem wederum die einzelnen DGLs betrachtet werden)
 
-Umwandeln in ein lineares [DGL-System](Analysis/DGL-System.md) 1. Ordnung
+Umwandeln in ein lineares [DGL-System](Analysis/DGL-System.md) 1. Ordnung ergibt die Koeffizientenmatrix $A(t)$ und den Störvektor $b(t)$
 
 $$
 A(t)=\left(\begin{array}{ccccc}
@@ -33,6 +33,12 @@ a_0(t) & a_1(t) & a_2(t) & \ldots & a_{n-1}(t)
 0 \\ \vdots \\ 0 \\ s(t)
 \end{array}\right)
 $$
+
+Das LGS hat dann die Form
+
+$$x'(t)=A(t)x(t)+b(t)$$
+
+Wie in [Lineare DGL-Systeme 1. Ordnung](Lineare%20DGL-Systeme%201.%20Ordnung.md)
 
 ## Konstanter Koeffizient
 
