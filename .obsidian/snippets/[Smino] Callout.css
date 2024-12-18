@@ -13,33 +13,6 @@
 	--callout-color: 255, 155, 155;
 }
 
-blockquote,
-.callout {
-	font-family: "Courier New", Courier, monospace;
-	/* Monospace-Schriftart */
-	letter-spacing: 0;
-	/* Standard-Buchstabenabstand */
-	word-spacing: normal;
-	font-feature-settings: "liga" 0, "calt" 0;
-	/* Ligaturen deaktivieren */
-	line-height: 1.5;
-	/* Optimale Zeilenhöhe */
-}
-
-blockquote code,
-.callout code {
-	font-family: "Courier New", Courier, monospace;
-	/* Einheitliche Schriftart */
-	white-space: pre-wrap;
-	/* Verhindert überfließenden Text */
-	letter-spacing: normal;
-	word-spacing: normal;
-}
-
-.callout {
-	font-family: inherit;
-	/* Vererbt die Standard-Schriftart */
-	letter-spacing: normal;
-	font-feature-settings: "liga" 0;
-	/* Ligaturen deaktivieren */
+.cm-active.HyperMD-quote.cm-line:not(.HyperMD-callout) .cm-quote {
+	margin-left: 0px;
 }

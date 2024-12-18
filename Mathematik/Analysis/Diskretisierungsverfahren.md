@@ -58,9 +58,6 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
 > Da in dem äquidistanten Gitter alle Schrittweiten gleich sind:
 > $$h_{k}=h:= \frac{b-a}{N},\quad t_{k}=t_{0}+kh$$
 
-
-
-
 > [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
 >  Wir nehmen an: das [AWP](../{MOC}%20DGL.md)
 >  $$x^{\prime}=f(t, x), \quad x\left(t_0\right)=x_0\tag{AWP}$$
