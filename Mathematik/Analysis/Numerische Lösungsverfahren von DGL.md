@@ -168,12 +168,12 @@ Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachte
 > 
 > $$\max _{1 \leq k \leq N}\lVert e_k \rVert =O\left(h^q\right)$$
 
-> [!satz] **Konsistenz und Konvergenz:** 
-> Ist $\phi(t,x,h)$ Lipschitz-Stetig in $x$:
+> [!satz] Satz zur **Konsistenz und Konvergenz:** 
+> Ist $\phi(t,x,h)$ [Lipschitz-Stetig](Lipschitz-Stetigkeit.md) in $x$:
 > $$\exists L>0: \lVert \phi(t,x,h)-\phi(t,y,h)\rVert\leq L\lVert x-y\rVert, \quad x,y\in\mathbb{R}^m, \quad t\in I$$
 > 
-> konsistent $\implies$ konvergent. **LDF (ii)**$\implies$ **GDF (ii)**
-Konsistenzordnung $\to$ Konvergenzordnung. (**LDF (iii)** $\implies$ **GDF (iii)**
+> konsistent $\implies$ konvergent: **LDF (ii)**$\implies$ **GDF (ii)**
+Konsistenzordnung $\to$ Konvergenzordnung: **LDF (iii)** $\implies$ **GDF (iii)**
 
 
 ---

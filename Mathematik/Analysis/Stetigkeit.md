@@ -2,8 +2,7 @@
 tags:
   - Mathe
   - Kurvendiskussion
-aliases:
-  - Lipschitz-Stetig
+aliases: []
 subject:
   - mathe
 source:
