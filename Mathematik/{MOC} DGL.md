@@ -18,6 +18,7 @@ professor:
 created: 14th March 2022
 def:
   - AWP
+  - DGL
 ---
 
 # Differentialgleichungen (DGL)
@@ -34,7 +35,7 @@ def:
 > > [!info] Ordnung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
-> [!info] Allgemeine Form
+> [!def] **D1 - DGL)** Allgemeine Form
 > 
 > **Implizite Differenzialgleichung:** $F(t,x,x',\dots,x^{(n)}) = 0$
 >  

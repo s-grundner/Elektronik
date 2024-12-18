@@ -28,19 +28,14 @@ Um **Differenzialgleichungen** *höherer* Ordnung leichter lösen zu können, ka
 > \end{cases}
 > $$
 > 
-> $$$$
+> $$\mathbf{z}'=F(t,\mathbf{z})$$
 
 > [!success] Hierfür wird ein Hilfsvektor $\mathbf{z}$ mit den **Hilfsfunktionen** $z_{k}$ eingeführt.
 > Man erhält durch die Setzung 
 $$ z_{k}:=x^{(k-1)}, \quad k= 1,\dots,n$$
 folgendes Differenzialgleichungs-System **erster** Ordnung:
 > 
-> $$ 
-> \begin{gather}
-> z_{k}'=z_{k+1}, \quad  k=1, \dots,n-1 \\
-> F(t,z_{1},\dots,z_{n},z_{n}')  =0
-> \end{gather}
-> $$
+> $$z_{k}'=z_{k+1}, \quad  k=1, \dots,n-1$$
 > 
 
 Hat man Dieses DGL-System erster Ordnung aufgestellt, so kann man es mit Ansätzen lösen. Der Ansatz kann je nach Art des DGL-Systems aufgestellt werden:
