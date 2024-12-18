@@ -194,31 +194,31 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 >
 
 
-> [!stickies] left
+Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstufige Einschrittverfahren eine Gewichtung der Funktionswerte an verschiedenen Stützstellen, sodass der Ansatz für die $s$-Stufige Verfahrensfunktion lautet:
+ 
+ $$\phi_{s}(t,x,h)=\sum_{i=1}^{s}b_{i}k_{i}$$
+
+> [!stickies]
 > Selbe idee wie bei der Numerischen Integration:
 > $$\int_{t_{k-1}}^{t_{k}}g(t)\mathrm{~d}t=\sum_{i} w_{i}g(\xi_{i})$$
 > mit $\xi_{i}\in[t_{k-1},t_{k}]$
 
-> [!def] **D5 - MESV)** Mehrschrittverfahren
+> [!def] **D5 - MESV)** Mehrschrittverfahren nach Runge-Kutta
 > $$
 > \begin{align}
 > x_{k} &= x_{k-1} + h\cdot \sum_{i=1}^{s} b_{i}k_{i}\tag{MESV 1.1} \\
 > k_{i} &= f\left(t_{k-1}+hc_{i}, x_{k-1}+h\sum_{j=1}^{i-1}a_{ij}k_{j}\right)\tag{MESV 1.2}
 > \end{align}
 > $$
-> mit $i=1, \ldots, s$ und $c_{1}=0$.
+> mit $i=1, \ldots, s$ und $c_{1}=0$. $k_{i}$ heißen Steigungswerte.
 
-Aus **MESV 1.1** folgt, dass die Verfahrensfunktion für $s$ Stufen lautet:
- 
- $$\phi_{s}(t,x,h)=\sum_{i=1}^{s}b_{i}k_{i}$$
+
 
 
 >[!example] Das [Euler-Verfahren](Euler-Verfahren.md) ist in diesem Schema enthalten
 > mit $s = 1, b_{1}=1, c_{1}=0$
 
-Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat.
-
-Diese Parameter ordnet man in einer Tabelle an, dem sogenannten **Butcher-Tableau**.
+Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat. Diese Parameter ordnet man in einer Tabelle an, dem sogenannten **Butcher-Tableau**.
 
 ### Butcher Tableau
 
