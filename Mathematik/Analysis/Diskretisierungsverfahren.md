@@ -217,7 +217,8 @@ Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstuf
 
 Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat. Diese Parameter ordnet man in einer Tabelle an, dem sogenannten **Butcher-Tableau**.
 
-> [!warning] Man beachte Ordnung 
+> [!warning] Man beachte dass Ordnung $\cancel{ \iff }$ Stufe
+>  
 
 ### Butcher Tableau
 
