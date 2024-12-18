@@ -16,21 +16,31 @@ created: 30. Oktober 2023
 professor: 
 satz:
   - FUND
+def:
+  - POLY
 ---
  
 
 # Polynom
 
-> [!def] **D1 - POLY)** $f(x) = \sum_{i=0}^na_{i}x^{i}$ mit $a_{n}\neq 0$  
-> über $\mathbb{R}$: $f: \mathbb{R}\to \mathbb{R}$  
-> über $\mathbb{C}$: $f: \mathbb{C}\to \mathbb{C}$
+> [!def] **D1 - POLY)** Polynom
+> Ein Polynom hat folgende Form:
+> 
+> $$f(x) = \sum_{i=0}^na_{i}x^{i}\quad \text{ mit } a_{n}\neq 0\tag{POLY}$$
+>   
+> Wobei $a_{i}$ die Koeffizienten und $n$ den Grad des Polynoms beschreiben.
+> Für den Grad des Polynoms gilt die Schreibweise: $\deg f = n$
 
-> [!satz] **FUND S1)** Fundamentalsatz der Algebra:
-> Ein Polynom $n$-ten Grades über den komplexen Zahlen (d.h. $a_i \in \mathbb{C} \forall i$ und $x \in \mathbb{C}$ ) hat **genau** $n$ Nullstellen (Vielfachheiten mitgezählt). Mit der Menge aller Nullstellen definiert als:
+
+> [!satz] **S1 - FUND)** Fundamentalsatz der Algebra:
+> Ein Polynom $n$-ten Grades über den komplexen Zahlen (d.h. $a_i \in \mathbb{C} \forall i$ und $x \in \mathbb{C}$ ) hat **genau** $n$ Nullstellen (Vielfachheiten mitgezählt).
+
+> [!def] **D2 - NST)** Nullstellen
+> Mit der Menge aller Nullstellen definiert als:
 > 
 > $$N_f=\{x \mid f(x)=0\}\tag{NST}$$
 >
-> Komplexe Nullstellen treten bei Polynomen mit reellen Koeffizienten $\left(a_i \in \mathbb{R} \forall i\right.$ ) immer als komplex-konjugierte Paare auf, also in der Form $z=x\pm iy$.
+> Komplexe Nullstellen treten bei Polynomen mit *reellen Koeffizienten* ($a_i \in \mathbb{R} \forall i$) immer als komplex-konjugierte **Paare** auf, also in der Form $z=x\pm iy$.
 
 > [!example] Beispiel:
 > - $n$-te Wurzel aus $y$ berechnen (siehe Vorlesungseinheit zu den komplexen Zahlen) $\Leftrightarrow x^n=y$ lösen $\Leftrightarrow$ Nullstellen des Polynoms $f(x)=-y+x^n$ berechnen
