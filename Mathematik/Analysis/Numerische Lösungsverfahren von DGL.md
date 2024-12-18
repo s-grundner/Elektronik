@@ -76,32 +76,32 @@ Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 \begin{tikzpicture}[scale=2, font=\Large, very thick]
 
 % Achsen
-\draw[->] (-0.2,0) -- (5,0) node[below] {$t$};
-\draw[->] (0,-0.5) -- (0,3) node[left] {$x$};
+\draw[->] (-0.2, 0) -- (5, 0) node[below] {$t$};
+\draw[->] (0, -0.5) -- (0, 3) node[left] {$x$};
 
 % Zeitpunkte t_0 und t_1
-\draw[dashed] (1,0) -- (1,1.5) ;
+\draw[dashed] (1,0) -- (1,1) ;
 \draw[dashed] (4,0) -- (4,2.5);
 
 % Markierungen der Achsen
 \node[below] at (1,0) {$a = t_0$};
 \node[below] at (4,0) {$t_1$};
-\draw[|<->|] (1,-0.3) -- (4,-0.3) node[midway,below] {$h$};
+\draw[blue!50, decorate, decoration={brace, amplitude=5pt, raise=3pt}] (1, 0) -- (4, 0) node[color=blue!50, midway,above=7pt] {$h$};
 
 % Kurve x(t)
 \draw[] (0.2, 0.2) 
     .. controls (1.2, 2) and (2.5, 0.5) ..
-    (4, 2.5) node[midway, below] {$x(t)$};
+    (5, 2) node[midway, below] {$x(t)$};
 
 % Tangente
-\draw[orange] (1, 1.05) -- (4,2.5) node[above,red] {\textit{Tangente}};
-
+\draw[orange] (1, 1) -- (4,2.5) node[above,orange] {Tangente};
+\filldraw[orange] (1,1) circle (1pt);
+\filldraw[orange] (4,2.5) circle (1pt);
 % Hilfslinien für x_0 und x_1
-\draw[dashed] (0,1.5) node[left] {$x_0$} -- (1,1.5);
+\draw[dashed] (0,1) node[left] {$x_0$} -- (1,1);
 \draw[dashed] (0,2.5) node[left] {$x_1$} -- (4,2.5);
 
 \end{tikzpicture}
-
 \end{document}
 ```
 
