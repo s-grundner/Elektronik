@@ -219,7 +219,9 @@ Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstuf
 Man Möchte $a_{ij}, b_{i}, c_{1}$ so wählen, dass das Verfahren eine möglichst hohe Konvergenzordnung hat. Diese Parameter ordnet man in einer Tabelle an, dem sogenannten **Butcher-Tableau**.
 
 > [!warning] Man beachte dass Ordnung $\cancel{ \iff }$ Stufe
-> Für $2$ 
+> - Für $2$- Stufige ESV erhält man die Ordnung 2.
+> - Für $3$ bzw. $4$ Stufige Verfahren erhält man auch noch de Ordnung 3 bzw 4
+> - Für Verfahren $5$-Ordnung benötigt man unerwarteterweise $6$-Stufen
 
 ### Butcher Tableau
 
