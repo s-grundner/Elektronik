@@ -11,7 +11,9 @@ subject:
   - Mathematik 1
 semester: WS23
 created: 24. Januar 2024
-professor:
+professor: 
+def:
+  - EIGV
 ---
  
 
@@ -22,7 +24,7 @@ professor:
 > Eigenvektoren sind [Vektoren](Vektor.md), die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
 > diesen Skalierungsfaktor nennt man *Eigenwert*.
 
-> [!important] Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $A$ zum **Eigenwert** $\lambda$,
+> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $A$ zum **Eigenwert** $\lambda$,
 > falls $(A-\lambda \mathbb{1})\cdot v=0$ ist.
 > 
 > Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.

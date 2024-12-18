@@ -23,13 +23,13 @@ $$
 \end{aligned}
 $$
 
-$A$ ist jetzt nicht mehr von $t$ Abhängig
+$A$ ist nicht von $t$ Abhängig
 
 > [!question] Erinnerung an das 2-Dimensionale System $m=1$:
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 
 Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: 
-Und zwar mit der Matrix-[Exponentialfunktion](Analysis/Exponentialfunktion.md). $a$ wird zur Matrix $A$.
+Und zwar mit der Matrix-[Exponentialfunktion](Analysis/Exponentialfunktion.md). $a$ wird zur Matrix $\mathbf{A}$.
 
 ## Matrix-Exponentialfunktion
 
@@ -39,7 +39,7 @@ $$
 e^{at} = \sum_{k=0}^{\infty}\frac{(at)^{k}}{k!}
 $$
 
-> [!important] **Definition**: Matrix-Exponentialfunktion
+> [!def] **D1 - EXPM)** Matrix-Exponentialfunktion
 > $$ e^{ B } := \sum_{k=0}^{\infty}\frac{B^{k}}{k!} $$
 
 Sei $x(t) = e^{ tA }\cdot C$ Dann gilt
@@ -88,7 +88,7 @@ B = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Funktioniert nur für Diagonalmatrizen!
+> [!hint] Dass der Exponent der Matrix auf die Einzelkomponenten übergeht Funktioniert nur für Diagonalmatrizen!
 
 $$
 e^{B} = \sum_{k=0}^{\infty}\frac{B^k}{k!} = \sum_{k=0}^{\infty}\frac{1}{k!}
@@ -109,7 +109,7 @@ e^{ \lambda_{1} } & 0 & 0 \\
 $$
 
 > [!important] Überlegungen zum Allgemeinen fall:
-> Wir suchen Vektoren, die dazumultipliziert werden können um eine endliche Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren.
+> Wir suchen Vektoren, die dazumultipliziert werden können um eine **endliche** Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren und Hauptvektoren
 
 ### Allgemein
 
@@ -140,7 +140,7 @@ $$
 
 #### Hauptvektoren
 
-> [!important] Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt Hauptvektor der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn
+> [!def] **D2 - HPTV)** Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt Hauptvektor der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn
 > 
 > $\left(A-\lambda I_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda I_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
 > 
