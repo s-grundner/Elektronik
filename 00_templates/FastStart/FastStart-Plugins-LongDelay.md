@@ -43,3 +43,4 @@ table-extended
 url-into-selection  
 webpage-html-export  
 wikilinks-to-mdlinks-obsidian
+github-copilot
