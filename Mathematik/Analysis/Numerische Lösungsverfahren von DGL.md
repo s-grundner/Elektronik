@@ -30,19 +30,17 @@ satz:
 > $$x^{\prime}=t-x^2 \quad \text { oder } \quad x^{\prime \prime}=6 x^2+t$$
 > 
 > lässt sich die Lösung nicht mehr mit Hilfe elementarer Funktionen darstellen.
-> 
 > Man braucht daher Näherungsmethoden. Dabei unterscheidet man zwischen **analytischen** und **numerischen** Näherungsverfahren.
-> 
-> Ein analytisches Verfahren:
-> - Aus dem Satz von Lindelöf: [Sukzessive Approximation](sukzessive%20Approximation.md).
-> - Falls die Funktion $f$ in der der [AWP](../{MOC}%20DGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
-> 
-> Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte **Diskretisierungsverfahren** durchgesetzt.
-> - Das Grundprinzip dieser Verfahren besteht darin, dass das *unendlich* dimensionale Problem der Bestimmung von Funktionen in eine *endlich* dimensionale Aufgabe transformiert wird: die Berechnung von [Vektoren](Vektor.md) mit reellwertigen Komponenten.
-> - Das einfachste Verfahren dieser Art ist das Euler-Verfahren. 
-> 
-> Im Folgenden werden Verfahren für Anfangswert-, Randwert- und Eigenwertprobleme definiert.
-> 
+
+Ein analytisches Verfahren:
+- Aus dem Satz von Lindelöf: [Sukzessive Approximation](sukzessive%20Approximation.md).
+- Falls die Funktion $f$ in der der [AWP](../{MOC}%20DGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
+
+Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte **Diskretisierungsverfahren** durchgesetzt.
+- Das Grundprinzip dieser Verfahren besteht darin, dass das *unendlich* dimensionale Problem der Bestimmung von Funktionen in eine *endlich* dimensionale Aufgabe transformiert wird: die Berechnung von [Vektoren](Vektor.md) mit reellwertigen Komponenten.
+- Das einfachste Verfahren dieser Art ist das Euler-Verfahren. 
+
+Im Folgenden werden Verfahren für Anfangswert-, Randwert- und Eigenwertprobleme definiert.
 
 ## Diskretisierungsverfahren
 
@@ -83,7 +81,7 @@ Wir möchten näherungen $x_{k}$ für $x(t_{k})$ berechnen
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ zu einer **Verfahrensfunktion** $\phi$.
 
-> [!def] **D1: ESV)**  Definition des expliziten Einschrittverfahrens
+> [!def] **D1 - ESV)**  Definition des expliziten Einschrittverfahrens
 > 
 > Ein ESV Erzeugt eine Gitterfunktion nach der Vorschrift:
 > $$x_{k} = x_{k-1} + h\cdot \underbrace{ \phi(t_{k-1}, x_{k-1}, h) }_{ \text{Verfahrensfunktion} }\tag{ESV}$$
@@ -125,7 +123,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > 
 
 
-> [!def] **D3: ORD)** Definition der Ordnung $O(h^{q})$: 
+> [!def] **D3 - ORD)** Definition der Ordnung $O(h^{q})$: 
 > $$\exists C>0\, \exists h_{0}\!>0\,\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
 > Es gibt eine Konstante $C>0$ und eine Kleine Zahl $h_{0}>0$, die hinreichend nahe bei Null ist, sodass für alle $h$ die kleiner sind als $h_{0}$, gilt, dass der Maximale Fehler $\lVert \tau \rVert_{\infty}$ auf keinen Fall schneller wächst als $C h^q$.
 > 
@@ -157,7 +155,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachtet, nicht jedoch der bereits aus vorherigen Schritten entstandener Fehler.
 
-> [!def] **D4: GDF)** Es gilt die Vorraussetzung zur **Eindeutigen Lösbarkeit** des AWP und $\phi$ sei wie in **ESV**
+> [!def] **D4 - GDF)** Es gilt die Vorraussetzung zur **Eindeutigen Lösbarkeit** des AWP und $\phi$ sei wie in **ESV**
 > 
 > **(i)** Der globale Diskretisierungsfehler des ESV an der Stelle $t_k$ lautet
 > 

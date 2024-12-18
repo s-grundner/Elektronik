@@ -25,9 +25,8 @@ def:
 
 > [!info] Arten von Differentialgleichungen
 >
-> | | |
-> | --------------------- | ---------------------------- |
 > | gewöhnlich             | partiell                     |
+> | --------------------- | ---------------------------- |
 > | Linear                | Nichtlinear                  |
 > | homogen               | inhomogen                    |
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
@@ -37,11 +36,11 @@ def:
 
 > [!def] **D1 - DGL)** Allgemeine Form
 > 
-> **Implizite Differenzialgleichung:** $F(t,x,x',\dots,x^{(n)}) = 0$
+> **Implizite Differenzialgleichung:** $F\left(t,x,x',\dots,x^{(n)}\right) = 0$
 >  
-> **Explizite Differenzialgleichung:** $x^{(n)}= f(t,x,x',\dots,x^{(n-1)})$
+> **Explizite Differenzialgleichung:** $x^{(n)}= f\left(t,x,x',\dots,x^{(n-1)}\right)$
 > 
-> $\implies F(t,x,x',\dots,x^{(n)}) := x^{(n)}-f(t,x,x',\dots, x^{(n-1)})$
+> $\implies F\left(t,x,x',\dots,x^{(n)}\right) := x^{(n)}-f\left(t,x,x',\dots, x^{(n-1)}\right)$
 > 
 
 > [!hint] Jede DGL und DGL-System $n$-ter Ordnung lässt sich in ein [DGL-System](Analysis/DGL-System.md) 1. Ordnung überführen
@@ -90,18 +89,10 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 > \end{align}
 > $$
 
-## Map of Content
+## Numerische Lösungen
 
-- [lineare DGL 1. Ordnung](Analysis/lineare%20DGL%201.%20Ordnung.md)
-- [lineare DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
-- [DGL-System](Analysis/DGL-System.md)
+- [Numerische Lösungsverfahren von DGL](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
 
-## Anwendungen und Beispiele
-
-- [Schwingkreise](../Physik/Schwingkreise.md)
-- Wärmeleitungsgleichung
-- Schaltungsberechnung mit Induktoren und Kondensatoren
-- exponentielles Wachstum
 
 # Tags
 

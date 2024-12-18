@@ -25,10 +25,9 @@ Um **Differenzialgleichungen** *höherer* Ordnung leichter lösen zu können, ka
 > \quad&\vdots  \\ 
 > x^{(n-1)}&:= z_{n}=z_{n-1}' \\
 > x^{(n)} &:= z_{n}'
-> \end{cases}
+> \end{cases}\iff \mathbf{z}'=F(t,\mathbf{z})
 > $$
 > 
-> $$\mathbf{z}'=F(t,\mathbf{z})$$
 
 > [!success] Hierfür wird ein Hilfsvektor $\mathbf{z}$ mit den **Hilfsfunktionen** $z_{k}$ eingeführt.
 > Man erhält durch die Setzung 
