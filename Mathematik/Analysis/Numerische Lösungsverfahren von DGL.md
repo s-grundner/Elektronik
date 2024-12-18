@@ -142,6 +142,8 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 > [!def] **D2 - LDF)** Definition des lokalen Diskretisierungsfehlers
 > 
+>
+>
 > Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie beim **ESV**
 > 
 **(i)** Der lokale Diskretisierungsfehler des ESV an der Stelle $t_k$ lautet
