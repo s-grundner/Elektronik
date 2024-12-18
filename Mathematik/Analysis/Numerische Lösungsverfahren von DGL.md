@@ -98,7 +98,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 
 ### Lokaler Diskretisierungsfehler
 
-> [!def] **D2: LDF)** Definition des lokalen Diskretisierungsfehlers
+> [!def] **D2 - LDF)** Definition des lokalen Diskretisierungsfehlers
 > 
 > Es gilt die **Eindeutige Lösbarkeit** des AWP und $\phi$ sei wie beim **ESV**
 > 
@@ -176,9 +176,35 @@ Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachte
 > konsistent $\implies$ konvergent: **LDF (ii)**$\implies$ **GDF (ii)**
 Konsistenzordnung $q$ $\to$ Konvergenzordnung $q$: **LDF (iii)** $\implies$ **GDF (iii)**
 
-### Erhöhen der Konvergenzordnung
+### Mehrstufige Einschrittverfahren
 
-Man möchte Verfahren höherer Ordnung (**ORD**) entwickeln
+Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich mehrstufige Einschrittverfahren.
+
+> [!question] Unterschied zwischen **Stufe** und **Schritt**
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+\begin{tikzpicture}[scale=2]
+    % Zahlengerade zeichnen
+    \draw[->] (0,0) -- (10,0);
+    
+    % Anfangs- und Endpunkt markieren und beschriften
+    \draw (0,0) node[below] {\(t_{k-1}\)} -- (0,0.2);
+    \draw (10,0) node[below] {\(t_k\)} -- (10,0.2);
+    
+    % Unterteilungen hinzufügen
+    \foreach \x in {2,4,6,8}
+    {
+        \draw (\x,-0.1) -- (\x,0.1);
+    }
+\end{tikzpicture}
+\end{document}
+```
 
 ---
 
