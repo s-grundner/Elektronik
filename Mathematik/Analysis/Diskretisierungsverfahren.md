@@ -29,13 +29,6 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
 > 
 > **Intervall**: $I=[a,b], t \in I$
 > **Diskretisierung** (äquidistand):
-> 
-> ![invert_dark|800](assets/Pasted%20image%2020241216194118.png)
-> Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
-> Der Abbildung kann man entnehmen, dass:
-> $$t_{k}=t_{k-1}+h_{k} \quad \text{ mit } k=1, \ldots, N,\quad t_{0}=a, \quad t_{N}=b$$
-> Da in dem äquidistanten Gitter alle Schrittweiten gleich sind:
-> $$h_{k}=h:= \frac{b-a}{N},\quad t_{k}=t_{0}+kh$$
 
 ```tikz
 \usepackage{pgfplots}
@@ -48,13 +41,23 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
     \draw (0,0) -- (10,0);
     \draw (0,-0.1) node[below] {$a=t_0$} -- (0,0.1);
     \draw (10,-0.1) node[below right] {$b=t_N$} -- (10,0.1);
-    
-    \foreach \x/\label in {1/$t_1$, 2/$t_2$, 3/$t_3$, 9.5/$t_{N-1}$} {
+    \foreach \x/\label in {1/$t_1$, 2/$t_2$, 3/$t_3$} {
         \draw (\x,-0.1) node[below] {\label} -- (\x,0.1);
+        \draw[draw=none] (\x-1,0) -- (\x,0) node[midway, above] {$h$};
     }
+    \draw (3,0) -- (9.5,0) node[midway, below=7pt] {$\dots$};
+    \draw (9.5,-0.1) node[below] {$t_{N-1}$} -- (9.5,0.1);
+    \draw[draw=none] (9.5, 0) -- (10,0) node[midway, above] {$\leq h$};
 \end{tikzpicture}
 \end{document}
 ```
+> Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
+> Der Abbildung kann man entnehmen, dass:
+> $$t_{k}=t_{k-1}+h_{k} \quad \text{ mit } k=1, \ldots, N,\quad t_{0}=a, \quad t_{N}=b$$
+> Da in dem äquidistanten Gitter alle Schrittweiten gleich sind:
+> $$h_{k}=h:= \frac{b-a}{N},\quad t_{k}=t_{0}+kh$$
+
+
 
 
 > [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
