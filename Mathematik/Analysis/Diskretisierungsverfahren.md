@@ -181,7 +181,7 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 >     \draw (10,0) node[below] {$t_k$} -- (10,0.2);
 >     
 >     \foreach \x in {2,4,6,8} { \draw (\x,-0.1) -- (\x,0.1); }
->     \node[below] at (6,-0.1) {$\xi \in[t_{k-1}, t_{k}]$};
+>     \node[below] at (6,-0.1) {$b_{i} \in[t_{k-1}, t_{k}], i$};
 >     \draw[decorate,decoration={brace,amplitude=10pt,raise=15pt}] (0,0) -- (10,0)
 >         node [midway,above=25pt] {Schritt von $k-1$ nach $k$};
 >     \draw[decorate, decoration={brace,amplitude=5pt,raise=10pt, mirror}] (2,0) -- (4,0)
