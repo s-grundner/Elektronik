@@ -201,7 +201,7 @@ Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstuf
 > $$\int_{t_{k-1}}^{t_{k}}g(t)\mathrm{~d}t=\sum_{i} w_{i}g(\xi_{i})$$
 > mit $\xi_{i}\in[t_{k-1},t_{k}]$
 
-> [!def] **D5 - MESV)** Mehrstufige Einschrittverfahren nach **Runge-Kutta**
+> [!def] **D5 - MESV)** explizites Mehrstufiges Einschrittverfahren nach **Runge-Kutta**
 > $$
 > \begin{align}
 > x_{k} &= x_{k-1} + h\cdot \sum_{i=1}^{s} b_{i}k_{i}\tag{MESV 1.1} \\
@@ -256,6 +256,7 @@ $$
 \end{array}
 \end{array}
 $$
+
 ### 4-Stufige Runge-Kutta Verfahren
 
 $$
