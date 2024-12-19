@@ -258,3 +258,19 @@ $$
 $$
 ### 4-Stufige Runge-Kutta Verfahren
 
+$$
+\begin{array}{c|ccc}
+0 & & & & \\
+c_1 & a_{21} & & & \\
+c_3 & a_{31} & a_{32} & & & \\
+c_4 & a_{41} & a_{42} & a_{43} & \\
+\hline & b_1 & b_2 & b_3 & b_4
+\end{array} \quad \implies\quad
+\begin{array}{c|ccc}
+0 & & & & \\
+\frac{1}{2} & \frac{1}{2} & & & \\
+\frac{1}{2} & 0 & \frac{1}{2} & & & \\
+1 & 0 & 0 & 1 & \\
+\hline & \frac{1}{6} & \frac{1}{3} & \frac{1}{3} & \frac{1}{6}
+\end{array}
+$$
