@@ -12098,7 +12098,7 @@ body.circular-checkbox input[type=checkbox] {
 }
 
 .cm-active.HyperMD-quote.cm-line:not(.HyperMD-callout) .cm-quote {
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
 /* headers */
