@@ -180,17 +180,19 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 >     \draw (0,0) node[below] {$t_{k-1}$} -- (0,0.2);
 >     \draw (10,0) node[below] {$t_k$} -- (10,0.2);
 >     
->     \foreach \x in {2,4,6,8} { \draw (\x,-0.1) -- (\x,0.1); }
->     \node[below] at (6,-0.1) {$b_{i} \in[t_{k-1}, t_{k}], i$};
->     \draw[decorate,decoration={brace,amplitude=10pt,raise=15pt}] (0,0) -- (10,0)
->         node [midway,above=25pt] {Schritt von $k-1$ nach $k$};
->     \draw[decorate, decoration={brace,amplitude=5pt,raise=10pt, mirror}] (2,0) -- (4,0)
->         node [midway,below=15pt] {Stufe};
+>     \foreach \x/\l in {1/$b_{1}$,4/$b_{2}$,7/$b_{3}$,8/$b_{4}$} {
+>         \draw (\x,-0.1) node[below]{\l} -- (\x,0.1);
+>     }
+>     \draw[decorate,decoration={brace,amplitude=10pt,raise=30pt}] (0,0) -- (10,0)
+>         node [midway,above=40pt] {Schritt von $k-1$ nach $k$};
+>     \draw[decorate, decoration={brace,amplitude=5pt,raise=10pt}] (1,0) -- (4,0)
+>         node [midway,above=15pt] {Stufe};
 > \end{tikzpicture}
 > \end{document}
 > ```
 >
 
+ Die Koeffizienten $b_{i}\in [t_{k-1}, t_{k}]$ geben an, wie der Schritt geteilt wird. Wie mann sieht, ist die teilung nicht mehr äquidistant. Die Koeffizienten sind Gewichte zum Teilungsintervall an und ergeben in Summe 1. 
 
 Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstufige Einschrittverfahren eine Gewichtung der Funktionswerte an verschiedenen Stützstellen, sodass der Ansatz für die $s$-Stufige Verfahrensfunktion lautet:
  
@@ -232,8 +234,6 @@ c_s & a_{s 1} & a_{s 2} & \ldots & a_{s, s-1} & \\
 \hline & b_1 & b_2 & \ldots & b_{s-1} & b_s
 \end{array}
 $$
-
-Alle $b$ müssen addiert 1 ergeben, damit die Näherungslösung $x_{k}$ die exakte Lösung $x(t_{k})$ approximiert.
 
 ### 2-Stufige Runge-Kutta Verfahren
 
