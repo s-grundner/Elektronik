@@ -68,7 +68,7 @@ Typischer Fehler: Abbruchbedingung wird nie erreicht wenn b<0 ist.
 
 ## Faktorielle
 
-> [!EXAMPLE] In der Wahrscheinlichkeitsrechnung oder in [Taylorreihen](Taylorreihe.md) findet sich die Faktorielle (oder auch Fakultät) einer Zahl:  
+> [!EXAMPLE] In der Wahrscheinlichkeitsrechnung oder in [Taylorreihen](../../../Mathematik/Analysis/Taylorreihe.md) findet sich die Faktorielle (oder auch Fakultät) einer Zahl:  
 > ​n! = 1 * 2 * … * (n-1) * (n)		mit		0! = 1, 1! = 1  
 > und mit:  
 > ​n! = (n-1)! * n  

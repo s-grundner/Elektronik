@@ -14,7 +14,7 @@ created: 30. Oktober 2023
 - [Arithmetische Reihe](Arithmetische%20Reihe.md)
 - Harmonische Reihe
 - [Potenzreihe](Potenzreihe.md)
-- [Taylorreihe](Taylorreihe.md)
+- [Taylorreihe](Analysis/Taylorreihe.md)
 - [Fourier Reihe](../Systemtheorie/Fourier%20Reihe.md)
 
 ## Konvergenzkriterien für Reihen
