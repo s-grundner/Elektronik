@@ -63,3 +63,12 @@ professor:
 > \boxed{ x_{k} = x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
 > \end{gathered}
 > $$
+
+## Butcher-Tableau
+
+$$
+\begin{array}{c|cc}
+0 & 0 \\ \hline
+& 1 & 0
+\end{array}
+$$
