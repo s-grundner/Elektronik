@@ -39,8 +39,8 @@ f&: \mathbb{R}^{n}\to \mathbb{R}^{m}\implies \frac{ \partial f }{ \partial x } \
 \end{align}
 $$
 
-- [Jacobi-Matrix](Gradient.md)
-- [Determinante](Determinante.md) der [Jacobi-Matrix](Gradient.md)
+- [Jacobi-Matrix](Analysis/Gradient.md)
+- [Determinante](Determinante.md) der [Jacobi-Matrix](Analysis/Gradient.md)
 - Ist matrix überall regulär (außer 0,0)?
   - Ja $\to$ Funktion ist Lokal invertierbar
 - Ist die Funktion [bijektiv](Algebra/Abbild.md)?

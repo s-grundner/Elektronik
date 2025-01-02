@@ -1,6 +1,6 @@
 ---
 tags:
-  - Infinitesimalrechnung/Differenzieren
+  - Analysis/Infinitesimalrechnung/Differenzieren
 aliases:
   - Rolle
 keywords: 

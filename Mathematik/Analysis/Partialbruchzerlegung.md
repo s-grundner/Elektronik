@@ -103,7 +103,7 @@ A \\ B \\ C \\ D
 \end{pmatrix}
 $$
 
-Lässt sich nun leicht mit dem [Gauß-Algorithmus](../Gauß-Algorithmus.md) Lösen:
+Lässt sich nun leicht mit dem [Gauß-Algorithmus](../Algebra/Gauß-Algorithmus.md) Lösen:
 
 $$
 \begin{align}

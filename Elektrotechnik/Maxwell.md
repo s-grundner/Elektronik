@@ -34,7 +34,7 @@ professor:
 
 | **differentielle Form**                                                                                           |                   **verknüpfender Integralsatz**                    | **Integralform**                                                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist Quelle des elektrischen Feldes. | [Gaußscher Integralsatz](../Mathematik/Gaußscher%20Integralsatz.md) | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
+| Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist Quelle des elektrischen Feldes. | [Gaußscher Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md) | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
 
 $$
 \boxed{ \operatorname{div} \mathbf{B} = \nabla \cdot \mathbf{B}=0
@@ -98,8 +98,8 @@ $$
 
 ## Mathematische Grundbegriffe
 
-- [Nabla Operator](../Mathematik/Nabla%20Operator.md): $\nabla$
-- [Gradient](../Mathematik/Gradient.md): $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$
+- [Nabla Operator](../Mathematik/Analysis/Nabla%20Operator.md): $\nabla$
+- [Gradient](../Mathematik/Analysis/Gradient.md): $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 - Divergenz: $\operatorname{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 - Rotation: $\operatorname{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
 

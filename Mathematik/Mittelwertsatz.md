@@ -1,6 +1,6 @@
 ---
 tags:
-  - Infinitesimalrechnung
+  - Analysis/Infinitesimalrechnung
 aliases:
   - MWS
 keywords: 
@@ -11,7 +11,8 @@ semester: SS24
 created: 10. April 2024
 professor:
   - Andreas Neubauer
-satz: MWS
+satz:
+  - MWS
 ---
  
 

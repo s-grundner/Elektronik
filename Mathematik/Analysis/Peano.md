@@ -1,6 +1,7 @@
 ---
-tags: 
-aliases: []
+tags:
+  - Analysis
+aliases: 
 keywords: 
 subject:
   - VL
@@ -8,6 +9,9 @@ subject:
 semester: WS24
 created: 16. Oktober 2024
 professor:
+  - Markus Passenbrunner
+satz:
+  - PEAN
 ---
  
 
@@ -21,7 +25,7 @@ Der satz von Peano sagt uns die existenz mindestens einer Lösung.
 
 $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 
-> [!important] Satz von Peano
+> [!satz] **S1 - PEAN)** Satz von Peano
 > Gegeben seien eine offene [Menge](Mengenlehre.md) $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
 > Weiters sei die Funktion $f$ stetig auf dem **Quader**
 > 

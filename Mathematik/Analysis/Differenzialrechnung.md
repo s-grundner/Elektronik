@@ -1,5 +1,5 @@
 ---
-tags: [Infinitesimalrechnung/Differenzieren, tikz]
+tags: [Analysis/Infinitesimalrechnung/Differenzieren, tikz]
 aliases:
   - Differenzieren
   - Ableitung

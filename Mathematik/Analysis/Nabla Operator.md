@@ -28,10 +28,10 @@ cited:
 > - Der Nabla-Operator lässt sich sowohl auf partiell differenzierbare Skalarfelder als auch auf partiell differenzierbare Vektorfelder anwenden
 
 > [!important] Anwendungen
-> - [Gradient](Gradient.md) - $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
+> - [Gradient](Analysis/Gradient.md) - $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 > - Divergenz - $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - Rotation - $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
 
 ---
 
-- [[Laplace Operator]]
+- [[Analysis/Laplace Operator]]

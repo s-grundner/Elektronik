@@ -1,11 +1,11 @@
 ---
 tags:
   - MOC
-  - Infinitesimalrechnung
+  - Analysis/Infinitesimalrechnung
 aliases:
   - Infinitesimalrechnung
   - Calculus
-  - "#Infinitesimalrechnung"
+  - "#Analysis/Infinitesimalrechnung"
   - infinitesimal
   - infinitesimalen
 subject:
@@ -22,7 +22,7 @@ created: 26th March 2022
     - [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)
         - Satz von Schwarz
     - [Satz von Rolle](Satz%20von%20Rolle.md)
-    - [Gradient](Gradient.md)
+    - [Gradient](Analysis/Gradient.md)
     - [Mittelwertsatz](Mittelwertsatz.md)
 - [Integralrechnung](Analysis/Integralrechnung.md)
     - [Riemann-Integral](Analysis/Riemann-Integral.md)
