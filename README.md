@@ -1,6 +1,6 @@
 # [Elektronik](https://github.com/s-grundner/Elektronik)
 
-Evergreen-Skriptum meines Elektronik-Lehrgangs, verfasst im Markdown Editor [Obsidian](https://obsidian.md/)
+Evergreen-Skriptum meines Elektronik-Lehrgangs, verfasst im Markdown Editor [Obsidian.md](https://obsidian.md/)
 
 ## 1 Skriptum Aktualisieren
 
