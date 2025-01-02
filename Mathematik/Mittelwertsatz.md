@@ -48,7 +48,7 @@ satz:
 \draw (0,50)    node[anchor=south]{$f(x)$};
 \draw (70,0)    node[anchor=west]{$x$};
 \draw (21,28)   node[anchor=south]{$x_{0}$};
-\draw (21,27)   node[circ];
+\node[circle,fill=black,inner sep=0pt,minimum size=5pt] at (21,27.35) {};
 
 % Deko
 \draw[decorate, decoration={brace,amplitude=5pt,raise=5pt, mirror}]
