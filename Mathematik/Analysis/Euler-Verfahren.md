@@ -15,7 +15,7 @@ professor:
 # Euler Verfahren
 
 > [!info] Euler-Verfahren (EV)
-> 
+>
 >```tikz
 > \usepackage{pgfplots}
 > \usepackage{tikz}
