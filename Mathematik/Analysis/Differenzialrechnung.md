@@ -31,49 +31,6 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 > [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
 > Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](../{MOC}%20DGL.md))
 
-<!---
-```tikz
-\usepackage{pgfplots}
-
-\begin{document}
-
-\begin{tikzpicture}
-\begin{axis}[
-    xmin=-1, xmax=5,
-    ymin=-1, ymax=5,
-    ytick= {},
-    axis lines=middle, grid=major,
-    width=12cm, height=12cm,
-    ]
-\addplot[very thick, blue, domain=0:4]{-x^2+4*x};
-\addplot[very thick, red, domain=-0.5:2]{1.5*x+1.5};
-\addplot[very thick, orange, domain=0:3]{x+2};
-\draw[dashed, very thick] (axis cs: 0, 4) -- (axis cs: 2, 4);
-\draw[dashed, very thick] (axis cs: 2, 0) -- (axis cs: 2, 4);
-\draw[dashed, very thick] (axis cs: 0, 3) -- (axis cs: 1, 3);
-\draw[dashed, very thick] (axis cs: 1, 0) -- (axis cs: 1, 3);
-\draw[dashed, very thick] (axis cs: 0, 3.75) -- (axis cs: 1.5, 3.75);
-\draw[dashed, very thick] (axis cs: 1.5, 0) -- (axis cs: 1.5, 3.75);
-\end{axis}
-\end{tikzpicture}
-
-\begin{tikzpicture}
-\begin{axis}[
-    xmin=-1, xmax=5,
-    ymin=-1, ymax=5,
-    axis lines=middle, grid=major,
-    width=12cm, height=12cm,
-    ]
-\addplot[very thick, blue,domain=0:4]{-x^2+4*x};
-\addplot[very thick, red,domain=0:2]{2*x+1};
-\draw[dashed, very thick] (axis cs: 0, 3) -- (axis cs: 1, 3);
-\draw[dashed, very thick] (axis cs: 1, 0) -- (axis cs: 1, 3);
-\end{axis}
-\end{tikzpicture}
-\end{document}
-```
- -->
-
 | ![invert_dark](assets/Differenzial1.png) | ![invert_dark](assets/Differenzial2.png) |
 | ---------------------------------------- | ---------------------------------------- |
 |                                          |                                          |
