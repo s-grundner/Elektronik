@@ -19,7 +19,7 @@ satz:
 # Mittelwertsatz
 
 > [!satz] **S1 - MWS)** 
-> In einem beliebigen Intervall einer Stetigen funktion gibt es mindestens eine Stelle an der der Differenzenquotient dieses Intervalls gleich der Ableitung ist.
+> In einem beliebigen Intervall $I$ einer stetigen Funktion $f(x)$ gibt es mindestens eine Stelle $x_{0}$, an der der *Differenzenquotient* dieses Intervalls gleich der [Ableitung](Analysis/Differenzialrechnung.md) ist.
 
 ```tikz
 \usepackage{pgfplots}
@@ -30,27 +30,29 @@ satz:
 \begin{document}
 \begin{tikzpicture}[x=5pt, y=5pt, font=\Large, line width=1.5]
 
-%Shape: Axis 2D
-\draw[<->] (0,50) -- (0,0) -- (70,0);
+\draw[<->] (0,50) -- (0,0) -- (70,0); % Achsen
+\draw[cyan] (0,0) .. controls (20,40) and (40,40) .. (60,0); % Kurve
 
-%Shape: Parabola
-\draw[cyan] (0,0) .. controls (20,40) and (40,40) .. (60,0);
-
-%Straight Lines
-\draw[green]  (0,18) -- (40,48); % Tangente
-\draw[red]    (0,10) -- (40,37); % Differenzenquotient
+% Linien
+\draw[green]  (0,13.5) -- (40,40); % Tangente
+\draw[red]    (0,10) -- (40,36.5); % Differenzenquotient
 \draw[dashed] (30,0) -- (30,30);
 \draw[dashed] (10,0) -- (10,17);
+\draw[dashed] (21,0) -- (21,27);
 
 % Text Nodes
-\draw (40,50) node[green]{Differenzialquotient};
-\draw (40,40) node[red]{Differenzenquotient};
-\draw (60,20) node[cyan]{($f(x)$ ist stetig)};
-\draw (0,50) node[anchor=south]{$f(x)$};
-\draw (70,0) node[anchor=west]{$x$};
+\draw (40,40)   node[green, anchor=west]
+    {Differenzialquotient $\frac{df}{dx}\big|_{x_{0}}$};
+\draw (40,36.5) node[red, anchor=west]{Differenzenquotient};
+\draw (60,20)   node[cyan]{($f(x)$ ist stetig)};
+\draw (0,50)    node[anchor=south]{$f(x)$};
+\draw (70,0)    node[anchor=west]{$x$};
+\draw (21,28)   node[anchor=south]{$x_{0}$};
+\draw (21,27)   node[circ];
 
+% Deko
 \draw[decorate, decoration={brace,amplitude=5pt,raise=5pt, mirror}]
-    (10,0) -- (30,0) node [midway,below=15pt] {Intervall um $x_0$};
+    (10,0) -- (30,0) node [midway,below=15pt] {Intervall $I$, $x_0\in I$};
 
 \end{tikzpicture}
 \end{document}
