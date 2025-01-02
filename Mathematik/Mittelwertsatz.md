@@ -28,26 +28,19 @@ satz:
 \pgfplotsset{compat=1.16}
 
 \begin{document}
-\begin{tikzpicture}[x=0.75pt, y=0.75pt, scale=2, font=\Large]
+\begin{tikzpicture}[x=5pt, y=5pt, font=\Large]
 
 %Shape: Axis 2D
-\draw[line width=1.5] (20,20) -- (20,5) -- (40,5);
+\draw[<->, line width=1.5] (0,50) -- (0,0) -- (100,0);
 
 %Shape: Parabola
-\draw[cyan][line width=1.5]  (206.3,194.5) .. controls (247.87,76.5) and (289.43,76.5) .. (331,194.5);
+\draw[cyan][line width=1.5]  (0,0) .. controls (20,40) and (40,40) .. (60,0);
 
 %Straight Lines
-\draw[red] (292,79.67) -- (268.74,104.16) -- (198,178.67) ;
-\draw[green] (292,68.67) -- (198,167.67) ;
-\draw[dashed] (269.2,194.6) -- (268.74,104.16);
-\draw[dashed] (223.2,194.4) -- (222.65,152);
-
-% Text Nodes
-\draw (294,65.27) node[anchor=south west][inner sep=0.75pt][green]  {$\text{Differenzialquotient}$};
-\draw (294,83.07) node [anchor=north west][inner sep=0.75pt][red]  {$\text{Differenzenquotient}$};
-\draw (327,147) node [anchor=north west][inner sep=0.75pt] [align=left] {(stetig)};
-\draw (191,60) node [anchor=south][inner sep=0.75pt]{$f(x)$};
-\draw (385,185.4) node [anchor=west][inner sep=0.75pt]{$x$};
+\draw[red]    (0,10) -- (40,38);
+\draw[green]  (0,18) -- (40,48);
+\draw[dashed] (30,0) -- (30,30);
+\draw[dashed] (10,0) -- (10,10);
 
 \end{tikzpicture}
 \end{document}
