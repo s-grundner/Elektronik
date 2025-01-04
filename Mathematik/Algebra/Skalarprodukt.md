@@ -20,6 +20,10 @@ axiome:
   - S1
   - S2
   - S3
+def:
+  - SKAX
+satz:
+  - SKAP
 ---
  
 
@@ -60,32 +64,36 @@ axiome:
 Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Selbe Richtung zeigt immer als Skalar.
 (bzw. den Anteil der auf den Anderen [Vektor](Vektor.md) projiziert wird)
 
-> [!info] Es hängt deshalb mit dem $\cos$ zusammen.
+> [!info] Interpretation wenn $\mathbb{K} = \mathbb{R}$: Es hängt deshalb mit dem $\cos$ zusammen.
 > - $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen [Vektor](Vektor.md) projiziert)
 > - $\cos(90°) = 0$: Der projizierte Anteil ist $0$
+> 
+> $\vec{u}\cdot \vec{v}= \lvert \vec{u} \rvert \lvert \vec{v} \rvert \cdot \cos(\angle \vec{u}\vec{v})$
 
-> [!hint] Ein Vektor kann als Summe zweier Vektoren dargestellt werden.
+>[!hint] Ein Vektor kann als Summe zweier Vektoren dargestellt werden.
 > z.B. Das Skalarprodukt der beiden
 
 ## Skalarprodukt im Vektorraum
 
-> [!def] **D1 - SKAP)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
+> [!def] **D1 - SKAX)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
 > 
 > **(S1)** $\forall x \in X:\langle x, x\rangle \geq 0 \wedge(\langle x, x\rangle=0 \Longleftrightarrow x=0)\quad$ ([positive Definitheit](Definitheit.md))
-> **(S2)** $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ (Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ )
+> **(S2)** $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ 
 > **(S3)** $\forall x, y, z \in X \forall \lambda, \mu \in \mathbb{K}:\langle\lambda x+\mu y, z\rangle=\lambda\langle x, z\rangle+\mu\langle y, z\rangle$ (Linearität bzgl. 1. Argument)
 > 
 > $(X,\langle\cdot, \cdot\rangle)$ heißt **Prähilbertraum**. (Der Raum auf den das Skalarprodukt Abbildet)
 
 > [!info]- Erläuterung zu **(S2)**
-> wenn $\mathbb{K}=\mathbb{R}$ reduziert sich die Bedingung auf $\langle x, y\rangle=\langle y, x\rangle$
+> **S2** setzt die Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ voraus
+> 1. wenn $\mathbb{K}=\mathbb{R}$ reduziert sich die Bedingung auf $\langle x, y\rangle=\langle y, x\rangle$
+> 2. wenn $\mathbb{K}=\mathbb{C}$ dann gilt $\langle x, y\rangle=\overline{\langle y, x\rangle}$. Der Überstrich bedeutet dann die [konjugation](../Analysis/Komplexe%20Zahlen.md) des Skalarprodukts bei Vertauschung der Argumente
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
-> [!satz] **S - SKAR)** Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Koordinatenmatrix](Koordinatenmatrix.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
+> [!satz] **S - SKAP)** Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Koordinatenmatrix](Koordinatenmatrix.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
 > 
 > $$
-> \boxed{ \langle x, y\rangle:=\sum_{i=1}^n x_i \overline{y_i} \quad \text { mit } \quad x=\sum_{i=1}^n x_i b_i \quad \text { und } \quad y=\sum_{i=1}^n y_i b_i }
+> \boxed{ \langle x, y\rangle:=\sum_{i=1}^n x_i \overline{y_i}\,} \quad \text { mit } \quad x=\sum_{i=1}^n x_i b_i \quad \text { und } \quad y=\sum_{i=1}^n y_i b_i 
 > $$
 > 
 > ein Skalarprodukt auf $X$.
