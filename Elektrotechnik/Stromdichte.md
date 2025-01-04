@@ -14,6 +14,43 @@ professor:
 
 # Stromdichte
 
+```tikz
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+
+\begin{document}
+\begin{tikzpicture}[
+    vector/.style={-Stealth, thick},
+    area/.style={draw, thick},
+]
+
+% Stromdichte-Vektoren
+\foreach \x in {-2,-1,0,1,2} {
+    \foreach \y in {-1,0,1} {
+        \draw[vector, blue] (\x,\y) -- +(1,0.5);
+    }
+}
+
+% Flächenelemente
+\draw[area, red] (-1,1) -- (1,1);
+\draw[vector, red] (0,1) -- (0,1.5) node[above] {$\Delta \mathbf{A}_1$};
+
+\draw[area, green] (-0.5,-1) -- (2,-1);
+\draw[vector, green] (0.75,-1) -- (0.75,-1.5) node[below] {$\Delta \mathbf{A}_2$};
+
+% Projektion
+\draw[dashed, red] (-1,1) -- (-0.5,-1);
+\draw[dashed, red] (1,1) -- (2,-1);
+
+% Beschriftungen
+\node[blue] at (3,1) {$\mathbf{J}$};
+\node at (3,-1) {$\mathbf{J} \cdot \Delta \mathbf{A}_1 = \mathbf{J} \cdot \Delta \mathbf{A}_2$};
+
+\end{tikzpicture}
+\end{document}
+```
+
 > [!info] Die Stromdichte $J$ gibt die [Stromanteil](elektrischer%20Strom.md) $\Delta I$ pro Fläche $\Delta A$ an.
 > ![InlineR|242](assets/BspVekFlaecheStromdichte.png) Dabei ist die Orientierung (Ausrichtung) der Fläche in Bezug auf die lokale Stromrichtung natürlich wesentlich.
 

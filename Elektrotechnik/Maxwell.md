@@ -31,7 +31,7 @@ def:
 >
 > | Symbol | Bedeutung | Einheit |
 > | :---: | :--- | :---: |
-> | $\mathbf{E}$ | elektrische Feldstärke | $\operatorname{V} / \mathrm{m}$ |
+> | $\mathbf{E}$ | elektrische [Feldstärke](Elektrisches%20Feld.md) | $\operatorname{V} / \mathrm{m}$ |
 > | $\mathbf{H}$ | magnetische Feldstärke | $\mathrm{A} / \mathrm{m}$ |
 > | $\mathbf{D}$ | elektrische Flussdichte | $\mathrm{As} / \mathrm{m}^2$ |
 > | $\mathbf{B}$ | magnetische Flussdichte | $\mathrm{Vs} / \mathrm{m}^2$ |
@@ -42,13 +42,16 @@ def:
 
 ## Differentielle und integrale Formulierung
 
-Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integrals
+Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integralsätzen:
+
+- [Gaußscher Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md)
+- [Stokesscher Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md)
 
 ### 1. MWG - Gaußsches Gesetz
 
-| **differentielle Form**                                                                                           |                   **verknüpfender Integralsatz**                    | **Integralform**                                                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist Quelle des elektrischen Feldes. | [Gaußscher Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md) | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
+| **differentielle Form**                                                                                           | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                |
+| ----------------------------------------------------------------------------------------------------------------- | :----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist Quelle des elektrischen Feldes. |              Gauß              | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
 
 > [!def] **D1 - Gaußsches Gesetz)** 
 > $$
@@ -61,7 +64,7 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 | **differentielle Form**                                                                                                                 | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Das $\mathbf{B}$-Feld ist quellenfrei. Es gibt keine magnetischen Monopole. Das heißt es muss zu jedem Nordpol auch einen Südpol geben. |     Gaußscher Integralsatz     | Der magnetische Fluss durch die geschlossene Oberfläche eines Volumens ist gleich der magnetischen Ladung in seinem Inneren, nämlich Null, da es keine magnetischen Monopole gibt. |
+| Das $\mathbf{B}$-Feld ist quellenfrei. Es gibt keine magnetischen Monopole. Das heißt es muss zu jedem Nordpol auch einen Südpol geben. |              Gauß              | Der magnetische Fluss durch die geschlossene Oberfläche eines Volumens ist gleich der magnetischen Ladung in seinem Inneren, nämlich Null, da es keine magnetischen Monopole gibt. |
 
 $$
 \boxed{ \operatorname{div} \mathbf{D} = \nabla \cdot \mathbf{D}=\rho
@@ -73,9 +76,9 @@ $$
 
 > [!quote] Auch *Faradaysches Induktionsgesetz*
 
-| **differentielle Form**                                                                                                                                                                    |                     **verknüpfender Integralsatz**                      | **Integralform**                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Jede Änderung des $\mathbf{B}$-Feldes führt zu einem elektrischen Gegenfeld.<br>Die Wirbel des elektrischen Feldes sind von der zeitlichen Änderung der magnetischen Flussdichte abhängig. | [Stokesscher Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md) | Die (elektrische) Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der negativen zeitlichen Änderung des magnetischen Flusses durch die Fläche. |
+| **differentielle Form**                                                                                                                                                                    | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Jede Änderung des $\mathbf{B}$-Feldes führt zu einem elektrischen Gegenfeld.<br>Die Wirbel des elektrischen Feldes sind von der zeitlichen Änderung der magnetischen Flussdichte abhängig. |             Stokes             | Die (elektrische) Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der negativen zeitlichen Änderung des magnetischen Flusses durch die Fläche. |
 
 $$
 \boxed{ \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
@@ -87,9 +90,9 @@ $$
 
 > [!quote] Auch *Ampèresches Gesetz*
 
-| **differentielle Form**                                                                                                               | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Die Wirbel des Magnetfelds hängen von der Leitungsstromdichte $\mathbf{J}_{l}$ und von der elektrischen Flussdichte $\mathbf{D}$ ab.  |    Stokesscher Integralsatz    | Die magnetische Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der Summe aus dem Leitungsstrom und der zeitlichen Änderung des elektrischen Flusses durch die Fläche. |
+| **differentielle Form**                                                                                                              | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Die Wirbel des Magnetfelds hängen von der Leitungsstromdichte $\mathbf{J}_{l}$ und von der elektrischen Flussdichte $\mathbf{D}$ ab. |             Stokes             | Die magnetische Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der Summe aus dem Leitungsstrom und der zeitlichen Änderung des elektrischen Flusses durch die Fläche. |
 
 $$
 \boxed{ \operatorname{rot} \mathbf{H} = \nabla \times \mathbf{H}=\mathbf{J}_{l}+\underbrace{ \frac{\partial \mathbf{D}}{\partial t} }_{ \mathbf{J}_{v} }
