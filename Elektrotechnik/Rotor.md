@@ -27,3 +27,4 @@ Der Rotor ist ein Vektoroperator, der auf ein Vektorfeld im $\mathbb{R}^3$ angew
 >$$\mathrm{rot} \,\mathbf{F} := \nabla \times \mathbf{F}$$
 
 Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in einem konservativen Vektorfeld keine Drehung aufweist bzw. einen verschwindenden Rotor haben. 
+
