@@ -4,6 +4,7 @@ aliases:
   - konservativ
   - Wegunabhängigkeit
   - Gradientensatz
+  - Gradientenfeld
 keywords: 
 subject:
   - VL
@@ -15,6 +16,8 @@ professor:
  
 
 # Wegunabhängigkeit
+
+Ein Gradientenfeld oder konservatives Feld ist ein Vektorfeld, das aus einem Skalarfeld durch Differentiation nach dem Ort abgeleitet wurde. Dieses Vektorfeld hat die Eigenschaft, dass sein Kurvenintegral wegunabhängig ist.
 
 ## Gradientensatz
 
