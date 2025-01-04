@@ -23,24 +23,28 @@ professor:
 
 \begin{document}
 \begin{tikzpicture}[
-    vector/.style={-Stealth, thick},
+    vector/.style={-Stealth, very thick},
     area/.style={draw, line width=1mm},
+    font=\Large
+
 ]
 
 \definecolor{currentDensity}{RGB}{0,255,255}
+\definecolor{areaColor1}{RGB}{120,120,255}
+\definecolor{areaColor2}{RGB}{255,120,120}
 
 % Stromdichte-Vektoren
 \foreach \v in {1,2,3,4,5}{
     \draw[vector, currentDensity] (\v,-0.5*\v) -- +(3,6);
 }
-\node[currentDensity] at (1,1) {$\mathbf{J}$};
+\node[currentDensity, anchor=south west] at (6,4.5) {$\mathbf{J}$};
 
 % Flächenelemente
-\draw[area, red] (4,2) -- (5,1);
-\draw[vector, red] (0,1) -- (0,1.5) node[above] {$\Delta \mathbf{A}_1$};
+\draw[area, areaColor2] (4.5,5) -- (5.5,2);
+\draw[vector, areaColor2] (5,3.5) -- (5.6,3.7) node[anchor=west] {$\Delta \mathbf{A}_2$};
 
-\draw[area, green] (-0.5,-1) -- (2,-1);
-\draw[vector, green] (0.75,-1) -- (0.75,-1.5) node[below] {$\Delta \mathbf{A}_2$};
+\draw[area, areaColor1] (1.5,0.5) -- (2,-1);
+\draw[vector, areaColor1] (0.75,-1) -- (0.75,-1.5) node[below] {$\Delta \mathbf{A}_1$};
 
 % Projektion
 \draw[dashed, red] (-1,1) -- (-0.5,-1);
