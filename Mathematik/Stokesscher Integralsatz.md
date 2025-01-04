@@ -42,10 +42,11 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
 \begin{tikzpicture}[font=\huge, L/.style={line width=2pt}]
 
 \draw[fill=black,fill opacity=0.2, L]
-    (-3,0) .. controls (-1.5,1.5) ..
-    (0,3) .. controls (2,1) ..
-    (3,0) .. controls (2.34,1.12) ..
-    (-3,0) -- cycle;
+    (-2, 1.5) .. controls (-1, 2.5) and (4, 2)..
+    (2.5, 1.25) .. controls (1.5, 0.5) and (1, -0.5)..
+    (2.5, -1.75) .. controls (4,-3) and (-1, -2)..
+    (-2, -1.5) .. controls (-3,-1) and (-3,0) ..
+    (-2, 1.5) -- cycle;
 \draw[red, L, <-] (1.75,0.71) -- (1.83,.69) ;
 
 \newcommand{\SET}{-4,-3,-2,-1,0.1,1,2,3,4}
