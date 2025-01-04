@@ -29,7 +29,7 @@ satz:
 
 # Skalarprodukt / Inneres Produkt
 
-Das Skalarprodukt ist eine Art zwei Vektoren miteinander zu multiplikativ zu verknüpfen. Eine Andere Art ist das [Kreuzprodukt](../Analysis/Kreuzprodukt.md). 
+Das Skalarprodukt ist eine Art zwei Vektoren miteinander zu multiplikativ zu verknüpfen. Eine Andere Art ist das [Kreuzprodukt](Kreuzprodukt.md). 
 
 ## Skalarprodukt im Vektorraum
 

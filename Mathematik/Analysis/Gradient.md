@@ -21,17 +21,15 @@ def:
 
 # Gradient
 
-> [!def] **D1 - GRAD)** Gradient
-> Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$.
-> Sei $f$ partiell differenzierbar in $x$, liefert der Gradient von $f$ den Vektor aller partiellen Ableitungen an der Stelle $x$:
+> [!def] **D1 - GRAD)** Gradient. Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$
+> Ist $f$ [partiell](Partielle%20Ableitung.md) differenzierbar in $x$, liefert der Gradient von $f$ den [Vektor](Vektor.md) aller partiellen Ableitungen an der Stelle $x$:
 > 
 > $$\operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)$$
-> der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch das Symbol $\nabla f(x)$ (lies: *[Nabla](Nabla%20Operator.md)* $f$ ).
+> der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch den [Nabla Operator](Nabla%20Operator.md) $\nabla f(x)$ (lies: Nabla $f$ ).
 
 ## Jacobi [Matrix](Algebra/Matrix.md)
 
-> [!def] **D2 - JACM)** Sei $A \subset \mathbb{R}^n$ offen.
->  (b) Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
+> [!def] **D2 - JACM)** Jakobi Matrix. Sei $A \subset \mathbb{R}^n$ offen. Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
 > Falls $\frac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[Matrix]]
 > 
 > $$

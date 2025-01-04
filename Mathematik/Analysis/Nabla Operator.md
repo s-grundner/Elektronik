@@ -23,11 +23,25 @@ def:
 > \frac{\partial}{\partial x} \\
 > \frac{\partial}{\partial y} \\
 > \frac{\partial}{\partial z}
-> \end{array}\right)=\frac{\partial}{\partial x} \mathbf{e}_x+\frac{\partial}{\partial y} \mathbf{e}_y+\frac{\partial}{\partial z} \mathbf{e}_z,
+> \end{array}\right)=
 > $$
-> wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind
-> - Der Nabla-Operator ist Operator und [Vektor](Analysis/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem [Vektor](Analysis/Vektor.md) rechnen
-> - Der Nabla-Operator lässt sich sowohl auf partiell differenzierbare Skalarfelder als auch auf partiell differenzierbare Vektorfelder anwenden
+> 
+
+Im Kartesischen Koordinatensystem $\mathbb{R}^{3}$ ist der Nabla-Operator definiert als:
+
+$$
+\frac{\partial}{\partial x} \mathbf{e}_x+\frac{\partial}{\partial y} \mathbf{e}_y+\frac{\partial}{\partial z} \mathbf{e}_z
+$$
+
+wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (manchmal auch $\mathbf{\hat{i}}, \mathbf{\hat{j}}, \mathbf{\hat{k}}$ genannt).
+
+- Der Nabla-Operator ist Operator und [Vektor](Analysis/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem [Vektor](Analysis/Vektor.md) rechnen. 
+   Das Heißt es Gelten die Verknüpfungen wie [Skalarprodukt](../Algebra/Skalarprodukt.md) und [Kreuzprodukt](../Algebra/Kreuzprodukt.md)
+   
+Der Nabla-Operator lässt sich sowohl auf partiell differenzierbare
+**Skalarfelder** ($f:A\to \mathbb{R}$)
+als auch auf partiell differenzierbare
+**Vektorfelder** ($f_{}$) anwenden
 
 > [!important] Verknüpfungen des Nabla Operators mit dem Vektorfeld $\mathbf{F}$
 > - [Gradient](Analysis/Gradient.md) - $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$

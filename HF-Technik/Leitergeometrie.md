@@ -81,7 +81,7 @@ Kontur im Modell:
 
 ![invert_dark](assets/KonturInPlatengeometrie.png)
 
-Mit dem [inneren Produkt](Mathematik/Algebra/Skalarprodukt.md) fallen nur die $x$-$y$-Komponenten ins Gewicht:
+Mit dem [inneren Produkt](../Mathematik/Algebra/Skalarprodukt.md) fallen nur die $x$-$y$-Komponenten ins Gewicht:
 
 $$
 \begin{aligned}
