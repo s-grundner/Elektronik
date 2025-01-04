@@ -46,7 +46,6 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > 
 > Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und konjugiert komplexe Zahlen auf.
 
-
 ```tikz
 \usepackage{pgfplots}
 \usepackage{tikz}
@@ -93,7 +92,6 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
 \end{document}
 ```
-
 
 > [!hint]- **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
 > 
@@ -264,7 +262,7 @@ Polstellenlage vs. Zeitbereichssignal
 Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 
 > [!important] Vorhergehensweise
-> 1. Polynomdivision wenn  $\deg z(s) \geq \deg n(z)$
+> 1. Polynomdivision wenn $\deg z(s) \geq \deg n(z)$
 > 2. $s$ sollte soweit es geht faktorisiert werden
 > 3. Null und Polstellen berechnen:
 > 
