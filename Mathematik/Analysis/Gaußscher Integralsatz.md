@@ -8,11 +8,15 @@ subject:
   - Mathematik 2
 semester: SS24
 created: 24. Oktober 2024
-professor:
+professor: 
+satz:
+  - GAUI
 ---
  
 
-# Gauss'scher Integralsatz
+# Gaußscher Integralsatz
+
+> [!satz] **S1 - GAUI)** Gaußscher Integralsatz.
 
 # Tags
 
