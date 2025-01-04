@@ -21,37 +21,43 @@ professor:
 \pgfplotsset{compat=1.16}
 \usetikzlibrary{arrows.meta}
 
+\pgfdeclarelayer{bg}    % declare background layer
+\pgfsetlayers{bg,main}  % set the order of the layers (main is the standard layer)
+
 \begin{document}
 \begin{tikzpicture}[
     vector/.style={-Stealth, very thick},
     area/.style={draw, line width=1mm},
-    font=\Large
-
+    font=\LARGE
 ]
 
 \definecolor{currentDensity}{RGB}{0,255,255}
 \definecolor{areaColor1}{RGB}{120,120,255}
 \definecolor{areaColor2}{RGB}{255,120,120}
 
+\begin{pgfonlayer}{bg}    % select the background layer
+    \foreach \v in {1,2,3,4,5} {
+        \draw[vector, currentDensity] (\v,-0.5*\v) -- +(3,6);
+    };
+    \node[areaColor2, fill=white, anchor=north west, below=10pt, fill opacity=1, text opacity=1] at (5.9,3.8) {$\Delta \mathbf{A}_2$};
+    \end{pgfonlayer}
 % Stromdichte-Vektoren
-\foreach \v in {1,2,3,4,5}{
-    \draw[vector, currentDensity] (\v,-0.5*\v) -- +(3,6);
-}
+
 \node[currentDensity, anchor=south west] at (6,4.5) {$\mathbf{J}$};
 
 % Flächenelemente
 \draw[area, areaColor2] (4.5,5) -- (5.5,2);
-\draw[vector, areaColor2] (5,3.5) -- (5.6,3.7) node[anchor=west] {$\Delta \mathbf{A}_2$};
+\draw[vector, areaColor2] (5,3.5) -- (5.9,3.8);
 
-\draw[area, areaColor1] (1.5,0.5) -- (2,-1);
-\draw[vector, areaColor1] (0.75,-1) -- (0.75,-1.5) node[below] {$\Delta \mathbf{A}_1$};
+\draw[area, areaColor1] (2,0) -- (4,-1);
+\draw[vector, areaColor1] (3,-0.5) -- (0.75,-1.5) node[below] {$\Delta \mathbf{A}_1$};
 
 % Projektion
 \draw[dashed, red] (-1,1) -- (-0.5,-1);
 \draw[dashed, red] (1,1) -- (2,-1);
 
 % Beschriftungen
-\node at (3,-1) {$\mathbf{J} \cdot \Delta \mathbf{A}_1 = \mathbf{J} \cdot \Delta \mathbf{A}_2$};
+\node at (3,-3) {$\mathbf{J} \cdot \Delta \mathbf{A}_1 = \mathbf{J} \cdot \Delta \mathbf{A}_2$};
 
 \end{tikzpicture}
 \end{document}
