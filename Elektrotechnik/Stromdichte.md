@@ -14,6 +14,10 @@ professor:
 
 # Stromdichte
 
+> [!info] Die Stromdichte $J$ gibt die [Stromanteil](elektrischer%20Strom.md) $\Delta I$ pro Fläche $\Delta A$ an.
+> 
+> Dabei ist die Orientierung (Ausrichtung) der Fläche in Bezug auf die lokale Stromrichtung natürlich wesentlich.
+
 ```tikz
 \usepackage{pgfplots}
 \usepackage{tikz}
@@ -35,36 +39,34 @@ professor:
 \definecolor{areaColor1}{RGB}{120,120,255}
 \definecolor{areaColor2}{RGB}{255,120,120}
 
+% Stromdichte Vektoren im Hintergrund
 \begin{pgfonlayer}{bg}    % select the background layer
-    \foreach \v in {1,2,3,4,5} {
-        \draw[vector, currentDensity] (\v,-0.5*\v) -- +(3,6);
-    };
-    \node[areaColor2, fill=white, anchor=north west, below=10pt, fill opacity=1, text opacity=1] at (5.9,3.8) {$\Delta \mathbf{A}_2$};
-    \end{pgfonlayer}
-% Stromdichte-Vektoren
-
-\node[currentDensity, anchor=south west] at (6,4.5) {$\mathbf{J}$};
+    \foreach \v in {1,2,3,4,5} \draw[vector, currentDensity] (\v,-0.5*\v) -- +(3,6);
+    \node[areaColor1, anchor=south, fill=white]
+        at (3.25,0) {$\Delta \mathbf{A}_1$};
+    \node[areaColor2, anchor=north west, right=10pt, below=10pt, fill=white]
+        at (6.5,4) {$\Delta \mathbf{A}_2$};
+\end{pgfonlayer}
 
 % Flächenelemente
-\draw[area, areaColor2] (4.5,5) -- (5.5,2);
-\draw[vector, areaColor2] (5,3.5) -- (5.9,3.8);
-
 \draw[area, areaColor1] (2,0) -- (4,-1);
-\draw[vector, areaColor1] (3,-0.5) -- (0.75,-1.5) node[below] {$\Delta \mathbf{A}_1$};
+\draw[vector, areaColor1] (3,-0.5) -- (3.25,0);
+\draw[area, areaColor2] (4.5,5) -- (5.5,2);
+\draw[vector, areaColor2] (5,3.5) -- (6.5,4);
 
 % Projektion
-\draw[dashed, red] (-1,1) -- (-0.5,-1);
-\draw[dashed, red] (1,1) -- (2,-1);
+\draw[dashed, red] (2,0) -- (4.5,5);
+\draw[dashed, red] (4,-1) -- (5.5,2);
 
-% Beschriftungen
-\node at (3,-3) {$\mathbf{J} \cdot \Delta \mathbf{A}_1 = \mathbf{J} \cdot \Delta \mathbf{A}_2$};
+% Beschriftung
+\node[currentDensity, anchor=south west] at (6,4.5) {$\mathbf{J}$};
+\node at (10,0) {$\mathbf{J} \cdot \Delta \mathbf{A}_1 = \mathbf{J} \cdot \Delta \mathbf{A}_2$};
 
 \end{tikzpicture}
 \end{document}
 ```
 
-> [!info] Die Stromdichte $J$ gibt die [Stromanteil](elektrischer%20Strom.md) $\Delta I$ pro Fläche $\Delta A$ an.
-> ![InlineR|242](assets/BspVekFlaecheStromdichte.png) Dabei ist die Orientierung (Ausrichtung) der Fläche in Bezug auf die lokale Stromrichtung natürlich wesentlich.
+Obwohl die Fläche $\Delta \mathbf{A}_1$ und $\Delta \mathbf{A}_2$ unterschiedlich groß sind, ist das [Skalarprodukt](../Mathematik/Algebra/Skalarprodukt.md) der Stromdichte $\mathbf{J}$ mit dem Flächenelement $\Delta \mathbf{A}$ in beiden Fällen gleich.
 
 > [!question] Vektorielles Flächenelements $\Delta \vec{A}$ 
 > Zeigt in Richtung der Flächennormale und der [Betrag](../Mathematik/Algebra/Betrag.md) entspricht der Fläche.

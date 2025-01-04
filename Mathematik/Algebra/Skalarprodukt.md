@@ -68,6 +68,8 @@ Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Se
 > - $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen [Vektor](Vektor.md) projiziert)
 > - $\cos(90°) = 0$: Der projizierte Anteil ist $0$
 
+> [!hint] 
+
 ## Skalarprodukt im Vektorraum
 
 > [!important] **Definition 6.13**. Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
