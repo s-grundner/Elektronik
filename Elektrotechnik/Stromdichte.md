@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - tikz
 aliases: 
 keywords: 
 subject:
