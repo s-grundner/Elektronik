@@ -21,10 +21,11 @@ def:
 
 # Gradient
 
-> [!def] **D1 - GRAD)** und
-> $$
-> \operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)
-> $$
+> [!def] **D1 - GRAD)** Gradient
+> Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$.
+> Sei $f$ partiell differenzierbar in $x$, liefert der Gradient von $f$ den Vektor aller partiellen Ableitungen an der Stelle $x$:
+> 
+> $$\operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)$$
 > der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch das Symbol $\nabla f(x)$ (lies: *[Nabla](Nabla%20Operator.md)* $f$ ).
 
 ## Jacobi [Matrix](Algebra/Matrix.md)

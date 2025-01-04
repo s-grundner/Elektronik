@@ -38,7 +38,7 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}\to$ Differenzenquotient oder mittlere Steigung im Intervall.  
 $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-Steigung ist die Ableitung. 
 
-> [!important] Differenzieren einer Funktion  
+> [!def] **D1 - DIFQ)** Differenzialquotient und Differnenzierbarkeit einer Funktion $f$
 > Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der [Grenzwert](Grenzwert.md)
 > 
 > $$
@@ -55,8 +55,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > Das Bilden der Ableitung wird *ableiten* oder *differenzieren* genannt.
 
 
-
-> [!success] Differenzieren heißt linear approximieren
+> [!hint] Differenzieren heißt linear approximieren
 > 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *[Grenzwert](Grenzwert.md) des Differenzenquotienten*: $f'(x_{0})=\lim_{ \Delta x \to 0}\frac{\Delta y}{\Delta x}$.
 > 2. Die Bezeichnung $\frac{dy}{dx}$ soll an die Verwandtschaft der Ableitung mit einem Differenzenquotient erinnern.  
 >     - Differenzierbarkeit einer Funktion an der Stelle $x_{0}$ bedeutet geometrisch, dass es dort eine *Tangente* gibt.  
@@ -75,6 +74,8 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > &= 2x
 > \end{align}
 > $$
+
+## Ableitung verschiedener Funktionen
 
 | Art der Funktion                                | Stammfunktion                                              | Ableitung                                                                                        |
 | ----------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -107,21 +108,23 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Stetigkeit
 
-> [!important] **Satz 11.6**. Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ differenzierbar in $x_0$.
-> Dann ist $f$ stetig in $x_0$.
+> [!satz] **S1 - DQST)** Implikation der Stetigkeit durch die existenz des Differenzialquotienten
+> Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ differenzierbar in $x_0$, dann ist $f$ stetig in $x_0$.
+> 
+> > [!success]- Beweis **DQST**
+> > Da $f$ differenzierbar ist, gilt nach Definition 11.4 für alle $h \in \mathbb{R}^n$ mit $x_0+h \in A$ : 
+> > 
+> > $f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h)$ und $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$, insbesondere: $\lim _{h \rightarrow 0} r(h)=0$.
+> > 
+> > Da die [lineare Abbildung](Algebra/Lineare%20Abbildungen.md) $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
+> > 
+> > Umgekehrt impliziert [Stetigkeit](Analysis/Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die [Betragsfunktion](Algebra/Betrag.md) in $x=0$ stetig, aber nicht differenzierbar.
+> > 
+> > Aus dem Beweis von Satz 11.6 geht hervor, dass für $n=1$ die Aussage auch gilt, falls $I$ ein Intervall und $x_0 \in I$ ein Randpunkt ist.
+> > 
 
-> [!success] Beweis Satz 11.6
-> Da $f$ differenzierbar ist, gilt nach Definition 11.4 für alle $h \in \mathbb{R}^n$ mit $x_0+h \in A$ : 
-> 
-> $f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h)$ und $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$, insbesondere: $\lim _{h \rightarrow 0} r(h)=0$.
-> 
-> Da die [lineare Abbildung](Algebra/Lineare%20Abbildungen.md) $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
-> 
-> Umgekehrt impliziert [Stetigkeit](Analysis/Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die [Betragsfunktion](Algebra/Betrag.md) in $x=0$ stetig, aber nicht differenzierbar.
-> 
-> Aus dem Beweis von Satz 11.6 geht hervor, dass für $n=1$ die Aussage auch gilt, falls $I$ ein Intervall und $x_0 \in I$ ein Randpunkt ist.
-> 
-> Es gibt auch eine andere Möglichkeit, den Ableitungsbegriff auf Funktionen zwischen mehrdimensionalen Räumen zu übertragen, den Begriff der [partiellen Ableitung](Analysis/Partielle%20Ableitung.md), dabei lässt man nun alle Variablen bis auf eine fest und betrachtet die Funktion als Funktion der einen restlichen Variablen.
+
+Es gibt auch eine andere Möglichkeit, den Ableitungsbegriff auf Funktionen zwischen mehrdimensionalen Räumen zu übertragen, den Begriff der [partiellen Ableitung](Analysis/Partielle%20Ableitung.md), dabei lässt man nun alle Variablen bis auf eine fest und betrachtet die Funktion als Funktion der einen restlichen Variablen.
 
 # Tags
 
