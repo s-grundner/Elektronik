@@ -31,6 +31,12 @@ def:
 > | homogen               | inhomogen                    |
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
 > >
+> >
+> >
+> >
+> >
+> >
+> >
 > > [!info] Ordnung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
