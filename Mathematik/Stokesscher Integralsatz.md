@@ -51,12 +51,13 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
     and (239.49,121.74) .. (249,136) .. controls (269,166)
     and (179,166) .. (159,136) .. controls (139,106)
     and (139,86) .. (159,76) -- cycle;
-\draw[red, L, ->] (175,71) -- (183.33,69.33) ;
+\draw[red, L, <-] (175,71) -- (183.33,69.33) ;
 
 % Text Nodes
 \draw (129,96.4) node [anchor=north west, inner sep=0.75pt] {$L$};
 \draw (190,98.4) node [anchor=north west, inner sep=0.75pt] {$A$};
 \draw (168.67,50.4) node[anchor=north west,inner sep=0.75pt,red] {$\mathrm{d}\boldsymbol{l}$};
+
 
 
 \end{tikzpicture}
@@ -65,3 +66,31 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
 ```
 
 ---
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+
+\begin{document}
+\begin{tikzpicture}
+    \begin{axis}[
+        width=10cm, height=10cm,
+        axis equal,
+        xmin=-5, xmax=5, ymin=-5, ymax=5,
+        xlabel={$x$}, ylabel={$y$},
+        axis lines=middle,
+        enlargelimits=true,
+        ticks=none,
+    ]
+        % Vortex field: v_x = -y, v_y = x
+        \foreach \x in {-4,-3,3,4} {
+            \foreach \y in {-4,-3,3,4} {
+                \draw[->, thick, blue] (\x,\y) -- +(0.25*\x,0.25*\y);
+            }
+        }
+    \end{axis}
+\end{tikzpicture}
+\end{document}
+```
