@@ -3,8 +3,6 @@ tags:
   - Analysis/Infinitesimalrechnung/Differenzieren
 aliases:
   - Satz von Schwarz
-  - Korollar 11.29
-  - Bemerkung 11.30
 keywords: 
 subject:
   - KV
@@ -61,19 +59,19 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > [!info] **Korollar**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. 
 > Dann existieren alle möglichen partiellen Ableitungen von $f$ bis zur $k$-ten Ordnung (mit beliebiger Differentiationsreihenfolge). Je zwei Ableitungen derselben Ordnung, bei denen nach denselben Variablen gleich oft differenziert wird, stimmen überein.
 
-**Bemerkung 11.30**. Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte [Hesse-Matrix](Gradient.md) symmetrisch.
-
-$$
-H_f(x):=\left(\begin{array}{ccc}
-\frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
-\vdots & \ddots & \vdots \\
-\frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
-\end{array}\right)
-$$
-
-
-
-Aus den Rechenregeln für erste Ableitungen kann man (i.a. durch [Induktion](../Logik/Induktionsbeweis.md)) Rechenregeln für höhere Ableitungen herleiten. Wir geben nur eindimensionale Beispiele dafür an, aus denen sich bei Bedarf natürlich Regeln für höhere partielle Ableitungen herleiten lassen.
+> [!info] **Bemerkung**. Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte [Hesse-Matrix](Gradient.md) symmetrisch.
+> 
+> $$
+> H_f(x):=\left(\begin{array}{ccc}
+> \frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
+> \vdots & \ddots & \vdots \\
+> \frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
+> \end{array}\right)
+> $$
+> 
+> 
+> 
+> Aus den Rechenregeln für erste Ableitungen kann man (i.a. durch [Induktion](../Logik/Induktionsbeweis.md)) Rechenregeln für höhere Ableitungen herleiten. Wir geben nur eindimensionale Beispiele dafür an, aus denen sich bei Bedarf natürlich Regeln für höhere partielle Ableitungen herleiten lassen.
 
 # Tags
 
