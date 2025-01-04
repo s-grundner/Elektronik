@@ -12,9 +12,6 @@ created: 28th September 2022
 
 # Vektoren
 
-
-
-
 ![500](VectorMatrixTensor.png)
 
 - [Skalarprodukt](Skalarprodukt.md)

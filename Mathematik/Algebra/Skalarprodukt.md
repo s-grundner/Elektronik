@@ -29,50 +29,6 @@ satz:
 
 # Skalarprodukt / Inneres Produkt
 
-```tikz
-\usepackage{tikz}
-\usepackage{pgfplots}
-\usepackage{amsmath}
-
-\begin{document}
-
-\begin{tikzpicture}
-    \begin{axis}[
-        axis lines=middle,
-        grid=major,
-        xlabel={$x$},
-        ylabel={$y$},
-        xmin=-1, xmax=4,
-        ymin=-1, ymax=4,
-        xlabel style={below right},
-        ylabel style={above left},
-        scale=2.0
-    ]
-    
-    % Define two vectors u and v
-    \addplot[->, very thick, cyan] coordinates {(0, 0) (3, 1)} node[pos=1, above] {\Large$\vec{u}$};
-    \addplot[->, very thick, red] coordinates {(0, 0) (2, 3)} node[pos=1, right] {\Large$\vec{v}$};
-    
-    % Add a label to show the scalar product (u dot v)
-    \node at (axis cs: 1, 3.3) {\Large Skalarprodukt: $\vec{u} \cdot \vec{v}$};
-    
-    \end{axis}
-\end{tikzpicture}
-\end{document}
-```
-
-Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Selbe Richtung zeigt immer als Skalar.
-(bzw. den Anteil der auf den Anderen [Vektor](Vektor.md) projiziert wird)
-
-> [!info] Interpretation wenn $\mathbb{K} = \mathbb{R}$: Es hängt deshalb mit dem $\cos$ zusammen.
-> - $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen [Vektor](Vektor.md) projiziert)
-> - $\cos(90°) = 0$: Der projizierte Anteil ist $0$
-> 
-> $\vec{u}\cdot \vec{v}= \lvert \vec{u} \rvert \lvert \vec{v} \rvert \cdot \cos(\angle \vec{u}\vec{v})$
-
->[!hint] Ein Vektor kann als Summe zweier Vektoren dargestellt werden.
-> z.B. Das Skalarprodukt der beiden
-
 ## Skalarprodukt im Vektorraum
 
 > [!def] **D1 - SKAX)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
@@ -103,3 +59,53 @@ Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdi
 > $$
 > \exists m, M>0 \forall x \in X: m\|x\|_1 \leq\|x\|_2 \leq M\|x\|_1
 > $$
+
+## Interpretation im $\mathbb{R}^2$
+
+```tikz
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{amsmath}
+
+\begin{document}
+
+\newcommand{\ihat}{\hat{\textbf{\i}}}
+\newcommand{\jhat}{\hat{\textbf{\j}}}
+
+\begin{tikzpicture}[x=5pt, y=5pt, font=\LARGE]
+\begin{axis}[
+    axis lines=middle,
+    xlabel={$x$},
+    ylabel={$y$},
+    xtick={-1, 0, 1, 2, 3, 4},
+    ytick={-1, 0, 1, 2, 3, 4},
+    xmin=-1, xmax=4,
+    ymin=-1, ymax=4,
+    scale=2, axis equal
+]
+    
+% Define two vectors u and v
+\addplot[->, very thick, cyan] coordinates {(0, 0) (3, 1)} node[pos=1, above] {\Large$\vec{u}$};
+\addplot[->, very thick, red] coordinates {(0, 0) (2, 3)} node[pos=1, right] {\Large$\vec{v}$};
+
+% Normalize vector of u
+\addplot[->, ultra thick, cyan!50!black] coordinates {(0, 0) (0.6, 0.2)} node[pos=1, above] {$\ihat_{\vec{u}}$};
+
+% Perpentucular normalized vector of u
+\addplot[->, ultra thick, cyan!50!black] coordinates {(0, 0) (-0.2, 0.6)} node[pos=1, left] {$\jhat_{\vec{u}}$};
+
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
+Das innere Produkt zweier [Vektoren](Vektor.md) liefert den Anteil der in die Selbe Richtung zeigt immer als Skalar,
+bzw. den Anteil der auf den anderen Vektor projiziert wird
+
+> [!info] Interpretation im $\mathbb{R}^2$:
+> )
+> Es hängt deshalb mit dem $\cos$ zusammen.
+> - $\cos(0°) = 1$: Zeigen in die selbe Richtung ($100\%$ werden auf den anderen [Vektor](Vektor.md) projiziert)
+> - $\cos(90°) = 0$: Der projizierte Anteil ist $0$
+> 
+> $\vec{u}\cdot \vec{v}= \lvert \vec{u} \rvert \lvert \vec{v} \rvert \cdot \cos(\angle \vec{u}\vec{v})$
