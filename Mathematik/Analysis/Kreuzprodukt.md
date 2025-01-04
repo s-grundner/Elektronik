@@ -6,10 +6,11 @@ aliases:
 keywords: 
 subject:
   - VL
-  - Mathematik1
-semester: 
+  - Mathematik 1
+semester: WS23
 created: 3. März 2024
 professor:
+  - Andreas Neubauer
 ---
  
 

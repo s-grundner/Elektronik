@@ -29,6 +29,8 @@ satz:
 
 # Skalarprodukt / Inneres Produkt
 
+Das Skalarprodukt ist eine Art zwei Vektoren miteinander zu multiplikativ zu verknüpfen. Eine Andere Art ist das [Kreuzprodukt](../Analysis/Kreuzprodukt.md). 
+
 ## Skalarprodukt im Vektorraum
 
 > [!def] **D1 - SKAX)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
