@@ -9,6 +9,7 @@ aliases:
   - Elektrische Feldstärke
   - elektrisches Feld
   - elektrischen Feld
+  - elektrische Feld
 keywords: 
 subject:
   - Einführung Elektrotechnik

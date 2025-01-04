@@ -8,6 +8,7 @@ keywords:
 subject:
   - VL
   - Mathematik 2
+  - Elektrotechnik
 semester: SS24
 created: 10. Juni 2024
 professor: 
@@ -15,7 +16,13 @@ cited:
 ---
  
 
-# Vektorfeld
+# Vektorfelder in der Elektotechnik
+
+Ein Vektorfeld ist eine Funktion, die jedem Punkt eines Raumes einen [Vektor](../Mathematik/Analysis/Vektor.md) zuordnet.
+Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](Elektrisches%20Feld.md) $\mathbf{E}$ und das [magnetische Feld](magnetisches%20Feld.md) $\mathbf{B}$, welche durch die [Maxwell](Maxwell.md)-Gleichungen beschrieben werden.
+
+Im Folgenden werden die physikalischen Ursachen der Mathematischen Operationen auf Vektorfeldern erläutert:
+- 
 
 ## Divergenz
 
