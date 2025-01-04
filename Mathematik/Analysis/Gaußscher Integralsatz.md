@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Diverfenzintegral
 keywords: 
 subject:
   - VL
@@ -12,3 +13,7 @@ professor:
  
 
 # Gauss'scher Integralsatz
+
+# Tags
+
+![Gauss Divergence Theorem. Get the DEEPEST Intuition. - YouTube](https://www.youtube.com/watch?v=zZqxbwl3Dno)
