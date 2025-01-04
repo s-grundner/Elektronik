@@ -19,23 +19,24 @@ professor:
 \usepackage{tikz}
 \usepackage{amsmath}
 \pgfplotsset{compat=1.16}
-
-\usetikzlibrary{arrows.meta}
 \usetikzlibrary{arrows.meta}
 
 \begin{document}
 \begin{tikzpicture}[
     vector/.style={-Stealth, thick},
-    area/.style={draw, thick},
+    area/.style={draw, line width=1mm},
 ]
+
+\definecolor{currentDensity}{RGB}{0,255,255}
 
 % Stromdichte-Vektoren
 \foreach \v in {1,2,3,4,5}{
-    \draw[vector, cyan] (\v,-0.5*\v) -- +(4,7);
+    \draw[vector, currentDensity] (\v,-0.5*\v) -- +(3,6);
 }
+\node[currentDensity] at (1,1) {$\mathbf{J}$};
 
 % Flächenelemente
-\draw[area, red] (-1,1) -- (1,1);
+\draw[area, red] (4,2) -- (5,1);
 \draw[vector, red] (0,1) -- (0,1.5) node[above] {$\Delta \mathbf{A}_1$};
 
 \draw[area, green] (-0.5,-1) -- (2,-1);
@@ -46,7 +47,6 @@ professor:
 \draw[dashed, red] (1,1) -- (2,-1);
 
 % Beschriftungen
-\node[color={RGB:red,255;green,255;blue,255}] at (3,1) {$\mathbf{J}$};
 \node at (3,-1) {$\mathbf{J} \cdot \Delta \mathbf{A}_1 = \mathbf{J} \cdot \Delta \mathbf{A}_2$};
 
 \end{tikzpicture}
