@@ -17,3 +17,7 @@ created: 28th November 2022
 - Auch die ebene Welle ist ein Beispiel für TEM-Wellen.
 
 ![](assets/TEMMode.png)
+
+---
+
+![Electromagnetic Wave Equation in Free Space - YouTube](https://www.youtube.com/watch?v=GMmhSext9Q8)
