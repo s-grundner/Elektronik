@@ -27,6 +27,8 @@ def:
 > $$\operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)$$
 > der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch den [Nabla Operator](Nabla%20Operator.md) $\nabla f(x)$ (lies: Nabla $f$ ).
 
+Die Funktion $f:A\to \mathbb{R}$ ist ein Skalarfeld. Wendet man den Gradienten darauf an, so erhält man ein Vektorfeld mit der Besonderen Eigenschaft der [Wegunabhängigkeit](Wegunabhängig.md)
+
 ## Jacobi [Matrix](Algebra/Matrix.md)
 
 > [!def] **D2 - JACM)** Jakobi Matrix. Sei $A \subset \mathbb{R}^n$ offen. Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
