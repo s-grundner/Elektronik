@@ -3,6 +3,7 @@ tags:
 aliases:
   - Durchflutungssatz
   - MWG
+  - Gaußsches Gesetz
 keywords: 
 subject:
   - Elektrotechnik
@@ -11,6 +12,14 @@ semester: SS24
 created: 24th January 2024
 professor:
   - Bernhard Jakoby
+def:
+  - MW1
+  - MW2
+  - MW3
+  - MW4
+  - M1
+  - M2
+  - M3
 ---
  
 
@@ -20,15 +29,20 @@ professor:
 
 > [!important] Kenngrößen
 >
-> | $\mathbf{E}$ | elektrische Feldstärke | $\operatorname{V} / \mathrm{m}$ |
+> | Symbol | Bedeutung | Einheit |
 > | :---: | :--- | :---: |
+> | $\mathbf{E}$ | elektrische Feldstärke | $\operatorname{V} / \mathrm{m}$ |
 > | $\mathbf{H}$ | magnetische Feldstärke | $\mathrm{A} / \mathrm{m}$ |
 > | $\mathbf{D}$ | elektrische Flussdichte | $\mathrm{As} / \mathrm{m}^2$ |
 > | $\mathbf{B}$ | magnetische Flussdichte | $\mathrm{Vs} / \mathrm{m}^2$ |
 > | $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md) | $\mathrm{A} / \mathrm{m}^2$ |
 > | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
+>
+> Fettgedruckte Größen sind Vektorfelder mit den wichtigsten $\mathbf{E}$ und $\mathbf{B}$
 
 ## Differentielle und integrale Formulierung
+
+Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integrals
 
 ### 1. MWG - Gaußsches Gesetz
 
@@ -36,11 +50,12 @@ professor:
 | ----------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist Quelle des elektrischen Feldes. | [Gaußscher Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md) | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
 
-$$
-\boxed{ \operatorname{div} \mathbf{B} = \nabla \cdot \mathbf{B}=0
-\quad\underset{ \text{ Gauss } }{ \iff } \quad 
-\oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} =\int_V \rho \mathrm{d} V } \tag{MW.1}
-$$
+> [!def] **D1 - Gaußsches Gesetz)** 
+> $$
+> \operatorname{div} \mathbf{B} = \nabla \cdot \mathbf{B}=0
+> \quad\underset{ \text{ Gauss } }{ \iff } \quad 
+> \oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} =\int_V \rho \mathrm{d} V \tag{MW1}
+> $$
 
 ### 2. MWG - Quellenfreiheit des B-Feldes
 
@@ -51,10 +66,12 @@ $$
 $$
 \boxed{ \operatorname{div} \mathbf{D} = \nabla \cdot \mathbf{D}=\rho
 \quad\underset{ \text{ Gauss } }{ \iff } \quad 
-\oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} =0 } \tag{MW.2}
+\oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} =0 } \tag{MW2}
 $$
 
 ### 3. MWG - Induktionsgesetz
+
+> [!quote] Auch *Faradaysches Induktionsgesetz*
 
 | **differentielle Form**                                                                                                                                                                    |                     **verknüpfender Integralsatz**                      | **Integralform**                                                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,7 +80,7 @@ $$
 $$
 \boxed{ \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
 \quad\underset{ \text{ Stokes } }{ \iff } \quad 
-\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} } \tag{MW.3}
+\oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} } \tag{MW3}
 $$
 
 ### 4. MWG - Durchflutungssatz
@@ -77,7 +94,7 @@ $$
 $$
 \boxed{ \operatorname{rot} \mathbf{H} = \nabla \times \mathbf{H}=\mathbf{J}_{l}+\underbrace{ \frac{\partial \mathbf{D}}{\partial t} }_{ \mathbf{J}_{v} }
 \quad\underset{ \text{ Stokes } }{ \iff }\quad
-\oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} =\int_A \mathbf{J}_{l} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A} } \tag{MW.4}
+\oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} =\int_A \mathbf{J}_{l} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A} } \tag{MW4}
 $$
 
 > [!info] Die zeitliche änderung von $\mathbf{D}$ wrd auch als verschiebungsstromdichte $\mathbf{J}_{v}$ bezeichnet. 
@@ -90,9 +107,9 @@ $$
 
 $$
 \begin{align}
-\mathbf{B} & =\mu \mathbf{H} \tag{M.1}\\
-\mathbf{D} & =\varepsilon \mathbf{E} \tag{M.2} \\
-\mathbf{J} & =\sigma \mathbf{E} \tag{M.3}
+\mathbf{B} & =\mu \mathbf{H} \tag{M1}\\
+\mathbf{D} & =\varepsilon \mathbf{E} \tag{M2} \\
+\mathbf{J} & =\sigma \mathbf{E} \tag{M3}
 \end{align}
 $$
 
@@ -100,8 +117,8 @@ $$
 
 - [Nabla Operator](../Mathematik/Analysis/Nabla%20Operator.md): $\nabla$
 - [Gradient](../Mathematik/Analysis/Gradient.md): $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$
-- Divergenz: $\operatorname{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
-- Rotation: $\operatorname{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+- Divergenz: $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$
+- Rotation: $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$
 
 # Tags
 

@@ -30,7 +30,7 @@ def:
 > | Linear                | Nichtlinear                  |
 > | homogen               | inhomogen                    |
 > | konstaner Koeffizient | nicht-konstanter Koeffizient | 
-> 
+> >
 > > [!info] Ordnung
 > > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
@@ -48,8 +48,6 @@ def:
 > **DGL**: Eine Einzige Differentialgleichung
 > **DGL-System**: Ein System aus mehreren Differentialgleichungen die voneinander abhängen
 > 
-
-
 
 ## Anfangswert Problem (AWP)
 
@@ -92,7 +90,6 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 ## Numerische Lösungen
 
 - [Numerische Lösungsverfahren von DGL](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
-
 
 # Tags
 

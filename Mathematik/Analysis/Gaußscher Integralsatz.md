@@ -10,3 +10,5 @@ created: 24. Oktober 2024
 professor:
 ---
  
+
+# Gauss'scher Integralsatz
