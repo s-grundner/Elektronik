@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Rotation
+  - Curl
 keywords: 
 subject:
   - VL

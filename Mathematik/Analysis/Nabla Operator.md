@@ -33,7 +33,7 @@ $$
 \end{array}\right) = \frac{\partial}{\partial x} \mathbf{e}_x+\frac{\partial}{\partial y} \mathbf{e}_y+\frac{\partial}{\partial z} \mathbf{e}_z
 $$
 
-wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (manchmal auch $\mathbf{\hat{i}}, \mathbf{\hat{j}}, \mathbf{\hat{k}}$ genannt).
+wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (manchmal auch $\hat{\imath}, \hat{\jmath}, \hat{k}$ genannt).
    
 > [!hint] Der Nabla-Operator lässt sich sowohl auf
 > - partiell differenzierbare **Skalarfelder** ($f:A\to \mathbb{R}$)
