@@ -16,7 +16,7 @@ def:
 
 # Nabla Operator
 
-> [!def] **D1 - NABL)**  Nabla Operator
+> [!def] **D1 - NABL)** Nabla Operator
 > Der Nabla Operator ($\nabla$) ist alleinstehend folgendermaßend definiert (hier im kartesischen Koordinaten system $\mathbb{R}^{3}$)
 > $$
 > \nabla:=\left(\begin{array}{c}
@@ -29,7 +29,7 @@ def:
 > - Der Nabla-Operator ist Operator und [Vektor](Analysis/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem [Vektor](Analysis/Vektor.md) rechnen
 > - Der Nabla-Operator lässt sich sowohl auf partiell differenzierbare Skalarfelder als auch auf partiell differenzierbare Vektorfelder anwenden
 
-> [!important] Verknüpfungen des Nabla Operators mit dem Vektorfeld $F$
+> [!important] Verknüpfungen des Nabla Operators mit dem Vektorfeld $\mathbf{F}$
 > - [Gradient](Analysis/Gradient.md) - $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 > - Divergenz - $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - Rotation - $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$

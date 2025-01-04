@@ -3,7 +3,6 @@ tags:
   - Analysis/Infinitesimalrechnung/Differenzieren
 aliases:
   - Satz von Schwarz
-  - Satz 11.28
   - Korollar 11.29
   - Bemerkung 11.30
 keywords: 
@@ -17,6 +16,10 @@ created: 28. Februar 2024
 professor:
   - Tina Mitteramskogler
   - Andreas Neubauer
+satz:
+  - SCHW
+def:
+  - PART
 ---
  
 
@@ -31,7 +34,7 @@ $$
 
 Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle Ableitung nach diesen die jeweilige Änderung in diese Raumrichtung an.
 
-> [!important] Definition
+> [!def] **D1 - PART)** Partielle Ableitung
 Sei $f$ eine Funktion (skalar-, [[vektor]]- oder tensorwertig) z.B.
 > $$
 \begin{aligned}
@@ -43,19 +46,20 @@ f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
 > $$
 \frac{\partial f}{\partial x_i}(a)=\lim _{h \rightarrow 0} \frac{f\left(a_1, \ldots, a_i+h, \ldots, a_n\right)-f\left(a_1, \ldots, a_i, \ldots, a_n\right)}{h}
 > $$
-> als die *partielle [Ableitung](Differenzialrechnung.md)* von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
+> als die *partielle* [Ableitung](Differenzialrechnung.md) von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
 > Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
 
-> [!info] **Satz 11.28**: Satz von Schwarz
+> [!satz] **S1 - SCHW)** Satz von Schwarz
 > 
-> > Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn diese stetig differenzierbar ist
+> > [!quote] Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn diese stetig differenzierbar ist
 > 
 > Sei $A \subset \mathbb{R}^2$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}$ besitzt in $A$ die partiellen Ableitungen $\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$ und $\frac{\partial^2 f}{\partial x \partial y}$. 
 > 
 > Ist $\frac{\partial^2 f}{\partial x \partial y}$ in $x_0$ stetig, so existiert auch $\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)$ und es gilt:
-> $$\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)=\frac{\partial^2 f}{\partial x \partial y}\left(x_0\right)$$
+> $$\boxed{ \frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)=\frac{\partial^2 f}{\partial x \partial y}\left(x_0\right) }$$
 
-**Korollar 11.29**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. ==Dann existieren alle möglichen partiellen Ableitungen von $f$ bis zur $k$-ten Ordnung (mit beliebiger Differentiationsreihenfolge)==. Je zwei Ableitungen derselben Ordnung, bei denen nach denselben Variablen gleich oft differenziert wird, stimmen überein.
+> [!info] **Korollar**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. 
+> Dann existieren alle möglichen partiellen Ableitungen von $f$ bis zur $k$-ten Ordnung (mit beliebiger Differentiationsreihenfolge). Je zwei Ableitungen derselben Ordnung, bei denen nach denselben Variablen gleich oft differenziert wird, stimmen überein.
 
 **Bemerkung 11.30**. Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte [Hesse-Matrix](Gradient.md) symmetrisch.
 
