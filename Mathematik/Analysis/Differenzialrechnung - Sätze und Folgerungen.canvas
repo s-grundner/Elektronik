@@ -6,7 +6,7 @@
 		{"id":"3512198a12d222e0","type":"text","text":"Kriterium für Konstanz","x":160,"y":-80,"width":320,"height":100,"color":"4"},
 		{"id":"b4bf563d16077a82","type":"text","text":"(Lipschitz-) Stetigkeit von Funktionen","x":580,"y":-260,"width":440,"height":80,"color":"4"},
 		{"id":"97bc3982ea2f40d5","type":"text","text":"Charakterisierung der Exponentialfunktion","x":580,"y":100,"width":440,"height":100,"color":"4"},
-		{"id":"3e509c585363faa8","type":"text","text":"Identitätssatz der Differenzialrechnung (Teil des [HDI](Mathematik/Analysis/Hauptsatz%20der%20Differenzalrechnung.md))","x":580,"y":-80,"width":440,"height":100,"color":"4"},
+		{"id":"3e509c585363faa8","type":"text","text":"Identitätssatz der Differenzialrechnung (Teil des [HDI](Hauptsatz%20der%20Infinitesimalrechnung.md))","x":580,"y":-80,"width":440,"height":100,"color":"4"},
 		{"id":"c4f766ca8aa10931","type":"text","text":"[L'Hospital](Mathematik/Analysis/L'Hospital.md)","x":160,"y":540,"width":320,"height":60,"color":"4"},
 		{"id":"5ec2840ec8bcf39d","type":"text","text":"Zweiter Mittelwertsatz","x":-243,"y":540,"width":303,"height":60,"color":"6"},
 		{"id":"87825faf3766946c","type":"text","text":"Monotoniekriterium für Funktionen","x":160,"y":300,"width":320,"height":100,"color":"4"},

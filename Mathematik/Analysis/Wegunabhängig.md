@@ -3,6 +3,7 @@ tags:
 aliases:
   - konservativ
   - Wegunabhängigkeit
+  - Gradientensatz
 keywords: 
 subject:
   - VL
@@ -14,3 +15,9 @@ professor:
  
 
 # Wegunabhängigkeit
+
+## Gradientensatz
+
+Der Gradientensatz ist die Erweiterung des Hauptsatzes der Infinitesimalrechnung auf Linienintegrale 
+
+> [!satz] **S1 - GRAS)** Gradientensatz
