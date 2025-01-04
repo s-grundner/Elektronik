@@ -41,9 +41,8 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
 
 \begin{tikzpicture}[
     x=0.75pt,y=0.75pt,
-    yscale=-2,xscale=2,
-    font=\huge, L/.style={line width=5pt}]
-
+    yscale=2,xscale=2,
+    font=\huge, L/.style={line width=2pt}]
 
 \draw[fill=black,fill opacity=0.2, L] (159,76) .. controls (179,66)
     and (269,56) .. (249,76) .. controls (238.51,86.49)
@@ -53,15 +52,24 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
     and (139,86) .. (159,76) -- cycle;
 \draw[red, L, <-] (175,71) -- (183.33,69.33) ;
 
+\newcommand{\SET}{-4,-3,-2,-1,0.1,1,2,3,4}
+\foreach \x in \SET {
+    \foreach \y in \SET {
+        \pgfmathsetmacro{\vx}{-\y}
+        \pgfmathsetmacro{\vy}{\x}
+        \pgfmathsetmacro{\vnorm}{sqrt(\vx*\vx + \vy*\vy)}
+        \pgfmathsetmacro{\ux}{\vx/\vnorm}
+        \pgfmathsetmacro{\uy}{\vy/\vnorm}        
+        \draw[->, very thick, cyan] (\x,\y) -- ++(0.5*\ux,0.5*\uy);
+    }
+}
+
 % Text Nodes
 \draw (129,96.4) node [anchor=north west, inner sep=0.75pt] {$L$};
 \draw (190,98.4) node [anchor=north west, inner sep=0.75pt] {$A$};
 \draw (168.67,50.4) node[anchor=north west,inner sep=0.75pt,red] {$\mathrm{d}\boldsymbol{l}$};
 
-
-
 \end{tikzpicture}
-
 \end{document}
 ```
 
@@ -75,22 +83,20 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
 
 \begin{document}
 \begin{tikzpicture}
-    \begin{axis}[
-        width=10cm, height=10cm,
-        axis equal,
-        xmin=-5, xmax=5, ymin=-5, ymax=5,
-        xlabel={$x$}, ylabel={$y$},
-        axis lines=middle,
-        enlargelimits=true,
-        ticks=none,
-    ]
-        % Vortex field: v_x = -y, v_y = x
-        \foreach \x in {-4,-3,3,4} {
-            \foreach \y in {-4,-3,3,4} {
-                \draw[->, thick, blue] (\x,\y) -- +(0.25*\x,0.25*\y);
-            }
-        }
-    \end{axis}
+\newcommand{\SET}{-4,-3,-2,-1,0.1,1,2,3,4}
+\foreach \x in \SET {
+    \foreach \y in \SET {
+        \pgfmathsetmacro{\vx}{-\y}
+        \pgfmathsetmacro{\vy}{\x}
+        \pgfmathsetmacro{\vnorm}{sqrt(\vx*\vx + \vy*\vy)}
+        \pgfmathsetmacro{\ux}{\vx/\vnorm}
+        \pgfmathsetmacro{\uy}{\vy/\vnorm}        
+        \draw[->, very thick, cyan] (\x,\y) -- ++(0.5*\ux,0.5*\uy);
+    }
+}
 \end{tikzpicture}
 \end{document}
+\end{tikzpicture}
+\end{document}
+
 ```
