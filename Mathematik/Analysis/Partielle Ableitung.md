@@ -25,27 +25,15 @@ def:
 
 Für Funktionen mit mehreren Argumenten benötigt man einen zusätzlichen Ableitungsbegriff: Die *Partielle Abeitung*
 
-Für die partielle [Ableitung](Differenzialrechnung.md) wird zur Unterscheidung das Symbol $\partial$ verwendet, alternativ wird auch die Variable, nach der abgeleitet wird als Index geschrieben:
-$$
-\frac{\partial f}{\partial x}=f_{x}
-$$
-
 Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x-, y$ - und $z$-Koordinaten des Raums, so gibt die partielle Ableitung nach diesen die jeweilige Änderung in diese Raumrichtung an.
 
-> [!def] **D1 - PART)** Partielle Ableitung
-Sei $f$ eine Funktion (skalar-, [[vektor]]- oder tensorwertig) z.B.
+> [!def] **D1 - PART)** Sei $A \subset \mathbb{R}^n$ offen.
+> Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$. $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Grenzwert]] existiert:
 > $$
-\begin{aligned}
-f: \mathbb{R}^n &\rightarrow \mathbb{R} \\
-\left(x_1, \ldots, x_n\right) &\mapsto f\left(x_1, \ldots, x_n\right)
-\end{aligned}
+> \lim _{t \rightarrow 0} \frac{f\left((x_1, \ldots, x_{j-1}, x_j+t), (x_{j+1}, \ldots, x_n)\right)-f(x)}{t} =: \frac{\partial f}{\partial x_j}(x)
 > $$
-> dann bezeichnet man den [[Grenzwert]]
-> $$
-\frac{\partial f}{\partial x_i}(a)=\lim _{h \rightarrow 0} \frac{f\left(a_1, \ldots, a_i+h, \ldots, a_n\right)-f\left(a_1, \ldots, a_i, \ldots, a_n\right)}{h}
-> $$
-> als die *partielle* [Ableitung](Differenzialrechnung.md) von $f$ nach der $i$-ten Variable $x_i$ an der Stelle $a$.
-> Eine Funktion heißt partiell differenzierbar, wenn alle partiellen Ableitungen $\partial f / \partial x_i$ in diesem Punkt existieren.
+> 
+> Dieser grenzwert heißt dann partielle [Ableitung](Differenzialrechnung.md) von $f$ nach $x_j$ (auch bezeichnet mit $f_{x_j}(x)$ ). Falls in $x$ alle partiellen Ableitungen existieren, so heißt $f$ partiell differenzierbar in $x$.
 
 > [!satz] **S1 - SCHW)** Satz von Schwarz
 > 

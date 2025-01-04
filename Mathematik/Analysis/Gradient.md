@@ -5,9 +5,7 @@ aliases:
   - Jacobi-Matrix
   - Funktionalmatrix
   - Gradienten
-  - Definition 11.7
   - Hessematrix
-  - Hessian
   - Hesse-Matrix
 keywords: 
 subject:
@@ -17,18 +15,13 @@ semester: SS24
 created: 19. März 2024
 professor:
   - Andreas Neubauer
+def:
+  - GRAD
 ---
 
 # Gradient
 
-> [!important] **Definition 11.7 (a)** Sei $A \subset \mathbb{R}^n$ offen.
-> Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$. $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Grenzwert]] existiert:
-> $$
-> \lim _{t \rightarrow 0} \frac{f\left((x_1, \ldots, x_{j-1}, x_j+t), (x_{j+1}, \ldots, x_n)\right)-f(x)}{t}=: \frac{\partial f}{\partial x_j}(x)
-> $$
-> 
-> Dieser heißt dann [[partielle Ableitung]] von $f$ nach $x_j$ (auch bezeichnet mit $f_{x_j}(x)$ ). Falls in $x$ alle partiellen Ableitungen existieren, so heißt $f$ partiell differenzierbar in $x$ und
-> 
+> [!def] **D1 - GRAD)** und
 > $$
 > \operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)
 > $$
@@ -36,7 +29,7 @@ professor:
 
 ## Jacobi [Matrix](Algebra/Matrix.md)
 
-> [!important] **Definition 11.7 (b)** Sei $A \subset \mathbb{R}^n$ offen.
+> [!def] **D2 - JACM)** Sei $A \subset \mathbb{R}^n$ offen.
 >  (b) Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
 > Falls $\frac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[Matrix]]
 > 
@@ -52,7 +45,7 @@ professor:
 
 ## Hesse [Matrix](Algebra/Matrix.md)
 
-> [!info] Die Matrix die sich bei der zweiten partiellen Ableitung ergibt ist die Hessematrix
+> [!def] **D2 - HESM)** Die Matrix die sich bei der zweiten partiellen Ableitung ergibt ist die Hessematrix
 > $$
 > H_f(x):=\left(\begin{array}{ccc}
 \frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
@@ -78,6 +71,3 @@ professor:
 > \end{pmatrix} }$$
 >
 
-# Beispiele
-
-![4000](assets/Excalidraw/Gradient%202024-03-19%2017.18.35.excalidraw.md)
