@@ -45,8 +45,10 @@ Der Nabla-Operator ist Operator und [Vektor](Analysis/Vektor.md) in einem, d.h. 
 
 > [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem Vektorfeld $\mathbf{F}$ haben spezielle Namen:
 > - [Gradient](Analysis/Gradient.md): $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
-> - [Divergenz](../../Elektrotechnik/Vektorfeld.md): $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
+> - Divergenz: $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - Rotation: $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+
+
 
 ---
 

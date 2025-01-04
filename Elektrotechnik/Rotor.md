@@ -22,10 +22,8 @@ Der Rotor ist ein Vektoroperator, der auf ein Vektorfeld im $\mathbb{R}^3$ angew
 > Der Rotor eines Vektorfeldes liefert wiederum Vektorfeld, das die lokale Drehung des ursprünglichen Vektorfeldes beschreibt.
 
 
-> [!def] **D1 - ROT)**  Der Rotor eines $\mathbb{R}^3$ Vektorfeldes $\mathbf{F} = (F_x, F_y, F_z)$ ist definiert als:
+> [!def] **D1 - ROT)** Der Rotor eines $\mathbb{R}^3$ Vektorfeldes $\mathbf{F} = (F_x, F_y, F_z)$ ist definiert als:
+>
+>$$\mathrm{rot} \,\mathbf{F} := \nabla \times \mathbf{F}$$
 
-$$
-\mathrm{rot} \,\mathbf{F} := \nabla \times \mathbf{F}
-$$
-
-Konservative Vektorfelder haben einen verschwindenden Rotor. Das bedeutet, dass das Vektorfeld in einem konservativen Vektorfeld keine Drehung aufweist. 
+Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in einem konservativen Vektorfeld keine Drehung aufweist bzw. einen verschwindenden Rotor haben. 
