@@ -29,11 +29,17 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 > 
 > häufig wird auch statt $L$ der Ausdruck $\partial A$ geschrieben. Wodurch verdeutlicht werden soll, dass die Kurve tatsächlich die Kontur der Fläche $A$ ist.
 > 
-> Die Fläche $A$ leigt dabei im $\mathbb{R}^{3}$ und ist von der Kurve $L$ umgeben. Die Fläche kann auch gekrümmt sein. Kann aber keine Löcher enthalten.
+> Die Fläche $A$ leigt dabei im $\mathbb{R}^{3}$ und ist von der Kurve $L$ umgeben. Die Fläche kann auch *gekrümmt* sein. Kann aber keine Löcher enthalten.
+
+Ungekrümmte Flächen können stark vereinfacht werden mit dem Satz von Green.
 
 Die Erweiterung des Stokesschen Integralsatz auf geschlossene Flächen in einem Volumen ist der [Gaußsche Integralsatz](Analysis/Gaußscher%20Integralsatz.md).
 
 ## Erläuterung
+
+In der Untenstehenden Erläuterng ist die Fläche $A$ auf einer Ebene dargestellt. Zu Beachten ist dass auch beliebig gekrümmte Flächen den Stokesschen Integralsatz erfüllen:
+
+![invert_dark](../../assets/3dArea.png)
 
 ### Rechte Seite
 
