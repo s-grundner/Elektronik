@@ -45,7 +45,7 @@ def:
 Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integralsätzen:
 
 - [Gaußscher Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md)
-- [Stokesscher Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md)
+- [Stokesscher Integralsatz](../Mathematik/Analysis/Stokesscher%20Integralsatz.md)
 
 ### 1. MWG - Gaußsches Gesetz
 

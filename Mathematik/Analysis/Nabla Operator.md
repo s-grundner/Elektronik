@@ -11,6 +11,8 @@ professor:
 cited: 
 def:
   - NABL
+satz:
+  - NABR
 ---
  
 
@@ -22,7 +24,7 @@ def:
 > \nabla:= \left(\begin{array}{c} \frac{\partial}{\partial x_{1}} \\ \vdots \\ \frac{\partial}{\partial x_{n}} \end{array}\right)
 > $$
 > 
-> Wird nicht nach allen Größen differenziert, zum Beispiel wenn gilt dass $f(x,t)$, wird ein subskript eingeführt:
+> Wird nicht nach allen Größen differenziert, zum Beispiel wenn gilt, dass $f(x,t)$, wird ein subskript eingeführt:
 > $$
 > \nabla_{x}f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n-1}} \\ \frac{\partial f}{\partial x_{n}} \end{array}\right) \quad\text{ \small{im Gegensatz zu }}\quad  \nabla f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n}}\\ \frac{\partial f}{\partial t} \end{array}\right)
 > $$
@@ -42,16 +44,16 @@ wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (
    
 > [!hint] Der Nabla-Operator lässt sich sowohl auf
 > - partiell differenzierbare **Skalarfelder** ($f:A\to \mathbb{R}$)
-> - als auch auf partiell differenzierbare **Vektorfelder** ($f:A \to \mathbb{R}^{n}, n>1$)
+> - als auch auf partiell differenzierbare **Vektorfelder** ($f:A \to \mathbb{R}^{n}, n \in\mathbb{N}$)
 > 
 > anwenden
 
 Der Nabla-Operator ist Operator und [Vektor](Analysis/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem Vektor rechnen, d.h. es gelten die Verknüpfungen wie [Skalarprodukt](../Algebra/Skalarprodukt.md) und [Kreuzprodukt](../Algebra/Kreuzprodukt.md)
 
-> [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem Vektorfeld $\mathbf{F}$ haben spezielle Namen:
+> [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem [Vektorfeld](../../Elektrotechnik/Vektorfeld.md) $\mathbf{F}$ haben spezielle Namen:
 > - [Gradient](Analysis/Gradient.md): $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
-> - Divergenz: $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
-> - Rotation: $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+> - [Divergenz](../Divergenz.md): $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
+> - [Rotation](../../Elektrotechnik/Rotor.md): $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
 
 ## Allgemeine Rechenregeln
 
@@ -59,21 +61,21 @@ Rechenregeln für den Nabla-Operator lassen sich formal aus den Rechenregeln fü
 Dabei muss man die Produktregel anwenden, wenn der Nabla-Operator links von einem Produkt steht.
 
 > [!satz] **S1 - NABR)** Rechenreglen mit dem Nabla-Operator
-> Sind $\psi$ und $\varphi$ differenzierbare Skalarfelder (Funktionen) und $\vec{A}$ sowie $\vec{B}$ differenzierbare Vektorfelder, so gilt:
+> Sind $\psi$ und $\varphi$ differenzierbare Skalarfelder (Funktionen) und $\boldsymbol{A}$ sowie $\boldsymbol{B}$ differenzierbare Vektorfelder, so gilt:
 >
 > |**Regel**|**Anmerkung**|
 > |---|---|
 > |$\nabla \varphi(\psi) = \frac{\mathrm{d} \varphi}{\mathrm{d} \psi} \nabla \psi$|Kettenregel für Gradient|
 > |$\nabla(\psi \varphi) = \psi \nabla \varphi + \varphi \nabla \psi$|Produktregel für Gradient|
-> |$\nabla(\vec{A} \cdot \vec{B}) = (\vec{A} \cdot \nabla) \vec{B} + (\vec{B} \cdot \nabla) \vec{A} + \vec{A} \times (\nabla \times \vec{B}) + \vec{B} \times (\nabla \times \vec{A})$|Produktregel für das Skalarprodukt zweier Vektorfelder|
-> |$\nabla \cdot (\varphi \vec{A}) = \varphi \nabla \cdot \vec{A} + \vec{A} \cdot \nabla \varphi$|Produktregel für die Divergenz|
-> |$\nabla \cdot (\vec{A} \times \vec{B}) = \vec{B} \cdot (\nabla \times \vec{A}) - \vec{A} \cdot (\nabla \times \vec{B})$|Divergenz des Kreuzprodukts|
+> |$\nabla(\boldsymbol{A} \cdot \boldsymbol{B}) = (\boldsymbol{A} \cdot \nabla) \boldsymbol{B} + (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} + \boldsymbol{A} \times (\nabla \times \boldsymbol{B}) + \boldsymbol{B} \times (\nabla \times \boldsymbol{A})$|Produktregel für das Skalarprodukt zweier Vektorfelder|
+> |$\nabla \cdot (\varphi \boldsymbol{A}) = \varphi \nabla \cdot \boldsymbol{A} + \boldsymbol{A} \cdot \nabla \varphi$|Produktregel für die Divergenz|
+> |$\nabla \cdot (\boldsymbol{A} \times \boldsymbol{B}) = \boldsymbol{B} \cdot (\nabla \times \boldsymbol{A}) - \boldsymbol{A} \cdot (\nabla \times \boldsymbol{B})$|Divergenz des Kreuzprodukts|
 > |$\nabla \cdot (\nabla \varphi) = \Delta \varphi$|Divergenz des Gradienten (Laplace-Operator)|
-> |$\nabla \cdot (\nabla \times \vec{A}) = 0$|Divergenz des Rotationsoperators|
+> |$\nabla \cdot (\nabla \times \boldsymbol{A}) = 0$|Divergenz des Rotationsoperators|
 > |$\nabla \times (\nabla \varphi) = 0$|Rotation des Gradienten|
-> |$\nabla \times (\varphi \vec{A}) = \varphi \nabla \times \vec{A} - \vec{A} \times \nabla \varphi$|Rotation eines Produkts mit Skalarfeld|
-> |$\nabla \times (\vec{A} \times \vec{B}) = (\vec{B} \cdot \nabla) \vec{A} - \vec{B} (\nabla \cdot \vec{A}) + \vec{A} (\nabla \cdot \vec{B}) - (\vec{A} \cdot \nabla) \vec{B}$|Rotation des Kreuzprodukts|
-> |$\nabla \times (\nabla \times \vec{A}) = \nabla (\nabla \cdot \vec{A}) - \Delta \vec{A}$|Rotation des Rotationsoperators (vektorieller Laplace-Operator)|
+> |$\nabla \times (\varphi \boldsymbol{A}) = \varphi \nabla \times \boldsymbol{A} - \boldsymbol{A} \times \nabla \varphi$|Rotation eines Produkts mit Skalarfeld|
+> |$\nabla \times (\boldsymbol{A} \times \boldsymbol{B}) = (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} - \boldsymbol{B} (\nabla \cdot \boldsymbol{A}) + \boldsymbol{A} (\nabla \cdot \boldsymbol{B}) - (\boldsymbol{A} \cdot \nabla) \boldsymbol{B}$|Rotation des Kreuzprodukts|
+> |$\nabla \times (\nabla \times \boldsymbol{A}) = \nabla (\nabla \cdot \boldsymbol{A}) - \Delta \boldsymbol{A}$|Rotation des Rotationsoperators (vektorieller Laplace-Operator)|
 
 ---
 

@@ -25,15 +25,17 @@ Der Rotor ist ein Vektoroperator, der auf ein [Vektorfeld](Vektorfeld.md) im $\m
 
 
 > [!def] **D1 - ROT)** Der Rotor eines $\mathbb{R}^3$ Vektorfeldes $\mathbf{F} = (F_x, F_y, F_z)$ ist definiert als:
->
+> 
 >$$\mathrm{rot} \,\mathbf{F} := \nabla \times \mathbf{F}$$
+> 
+> Der Rotor ist also das [Kreuzprodukt](../Mathematik/Algebra/Kreuzprodukt.md) des [Nabla Operators](../Mathematik/Analysis/Nabla%20Operator.md) mit dem Vektorfeld $\mathbf{F}$.
 
-Die Richtung des Rotors ist senkrecht zur ebene in der das Vektorfeld Rotiert (Aufgrund des Kreuzproduktes) und die Länge des Rotors gibt die Stärke der Rotation an.
+Die Richtung des Rotors ist senkrecht zur Ebene in der das Vektorfeld Rotiert (Aufgrund des Kreuzproduktes) und die Länge des Rotors gibt die Stärke der Rotation an.
 
 Mit der Rechten hand Regel kann man darauf schließen in welche richtung das Vektorfeld rotiert.
 ändert sich die Richtung des Vektorfeldes entlang der gekrümmten Finger, so zeigt der Daumen in die Richtung des Rotors.
 
-Das kann man an diesem Plot Ausprobieren. Hier ist die Rotation sogar konstant, sodass der rotor davon gerade nach unten zeigt
+Das kann man an diesem Plot Ausprobieren. Hier ist die Rotation sogar konstant, sodass $\operatorname{rot}\boldsymbol{F}$ gerade nach unten zeigt
 
 ![800](../Mathematik/Simulationen/Rotor.png)
 
@@ -51,5 +53,5 @@ Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in 
 
 ## Anwendung
 
-Ein wichtiger Satz, der den Rotor verwedet ist der [Stokessche Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md) der den Zusammenhang zwischen der Rotation eines Vektorfeldes und dem Linienintegral über den Rand einer Fläche beschreibt.
+Ein wichtiger Satz, der den Rotor verwedet ist der [Stokessche Integralsatz](../Mathematik/Analysis/Stokesscher%20Integralsatz.md) der den Zusammenhang zwischen der Rotation eines Vektorfeldes und dem Linienintegral über den Rand einer Fläche beschreibt.
 Dieser Satz ist wichtig für das Rechnen mit den [Maxwell](Maxwell.md)-Gleichungen
