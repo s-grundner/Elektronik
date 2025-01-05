@@ -26,10 +26,12 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 
 ## Erläuterung
 
-Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
-
-- $\mathrm{d} \boldsymbol{l}$ ist das Inifitesimales Stück der Kurve $L$
-- Das Ringintegral setzt vorraus das die Kurve $L$ geschlossen ist, das bedeutet, dass der Startpunkt gleich dem Endpunkt ist.
-
-![invert_dark](../assets/Stokes1.png)
-
+> [!info] Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}\boldsymbol{l}$
+> 
+> - $\mathrm{d} \boldsymbol{l}$ ist ein Inifitesimales Stück der Kurve $L$, über das integriert wird.
+> - Das Ringintegral setzt vorraus das die Kurve $L$ geschlossen ist, das bedeutet, dass der Startpunkt gleich dem Endpunkt ist.
+> 
+> Durch eine Verknüpfung der Vektoren $\boldsymbol{F}$ und $\mathrm{d} \boldsymbol{l}$ mit dem Skalarprodukt geht nur der Anteil $\boldsymbol{F}_{\|}$, der parallel zur Kurve $L$ verläuft, in das Integral ein.
+> 
+> ![invert_dark|1200](../assets/StokesRechteSeite.svg)
+> 
