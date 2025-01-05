@@ -65,6 +65,17 @@ Die Erweiterung des Stokesschen Integralsatz auf geschlossene Flächen in einem 
 
 > [!question] Linke Seite: $\int_{A}(\nabla \times \boldsymbol{F}) \cdot \mathrm{d} \boldsymbol{a}$
 > 
+> ![invert_dark](../assets/StokesLinkeSeite.png)
+> 
+> Der Rotor des Vektorfeldes $\boldsymbol{F}$ zeigt in die Richtung, die normal auf die Ebene steht in der das Vektorfeld Rotiert. (Effekt des [Kreuzproduktes](Algebra/Kreuzprodukt.md))
+> 
+> Es Wird Wiederum nur der Anteil des Vektorfeldes $\nabla \times \boldsymbol{F}$ in das Integral einbezogen, der parallel zu den Flächenelementen $\mathrm{d}\boldsymbol{a}$ verlaufen. (Effekt des [Skalarproduktes](Algebra/Skalarprodukt.md)) 
+> 
+> ![invert_dark](../assets/Rot.png)
+> Hier ist zu sehen dass sich die Inneren Rotoren des Vektorfeldes aufheben und nur der Randrotor in das Integral einfließt.
+
+> [!success] Schlussfolgerung
+> Durch die obenangefürh
 
 ---
 
