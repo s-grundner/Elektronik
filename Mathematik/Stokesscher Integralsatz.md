@@ -26,6 +26,8 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 > 
 > häufig wird auch statt $L$ der Ausdruck $\partial A$ geschrieben. Wodurch verdeutlicht werden soll, dass die Kurve tatsächlich die Kontur der Fläche $A$ ist.
 
+Die Erweiterung des Stokesschen Integralsatz auf geschlossene Flächen in einem Volumen ist der [Gaußsche Integralsatz](Analysis/Gaußscher%20Integralsatz.md).
+
 ## Erläuterung
 
 ### Rechte Seite
@@ -43,7 +45,7 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 #### In der Elektrotechnik:
 
 > [!hint] Ist $\boldsymbol{F}$ das [elektrische Feld](../Elektrotechnik/Elektrisches%20Feld.md) $\boldsymbol{E}$:
-> so entspricht das Linienintegral dem [[Spannung]] $\varphi_{e}$ entlang der Kurve $L$.
+> so entspricht das Linienintegral dem [elektrischen Potenzial](../Elektrotechnik/elektrische%20Spannung.md) $\varphi_{e}$ entlang der Kurve $L$.
 >
 > - Die Potenzialdifferenz ist proportional zur Energie die ein positiv geladenes Teilchen Entlang dieser Linie gewinnt bzw. ein negativ geladenes Teilchen verliert.
 > - Da die Potenzialdifferenz zwischen Start und Endpunkt gleich $0$ begründet dieser Satz die [Maschenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md).
@@ -57,7 +59,8 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 
 ### Linke Seite
 
-
+> [!question] Linke Seite: $\int_{A}(\nabla \times \boldsymbol{F}) \cdot \mathrm{d} \boldsymbol{a}$
+> 
 
 ---
 
