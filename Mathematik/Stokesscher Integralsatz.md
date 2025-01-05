@@ -75,7 +75,9 @@ Die Erweiterung des Stokesschen Integralsatz auf geschlossene Flächen in einem 
 > Hier ist zu sehen dass sich die Inneren Rotoren des Vektorfeldes aufheben und nur der Randrotor in das Integral einfließt.
 
 > [!success] Schlussfolgerung
-> Durch die obenangefürh
+> Durch die oben angeführten Überlegungen lässt darauch schließen dass Integration entlang einer Linie und Integration über die Fläche, bei der sich der Rotor bis auf den Rand aufhebt, äquivalent sind.
+> ![invert_dark](../assets/Stokes.png)
+
 
 ---
 
