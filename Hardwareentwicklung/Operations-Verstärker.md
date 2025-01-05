@@ -35,12 +35,12 @@ Slew-Rate: $SR>\dfrac{du}{dt}\rightarrow u(t)\dots$ Beschaltungssignal
 
 ## Reale Eigenschaften von OPVs
 
-### charakteristische Größen
+### Charakteristische Größen
 
-$A_D$... Frequenzabhängige Verstärkung
+$A_D$… Frequenzabhängige Verstärkung
 $A_{D 0} \ldots$ Verstärkung ohne nachgeschaltetem Tiefpass
 $\tau_0 \quad \ldots$ Zeitkonstante des Tiefpasses
-$k$ ... Rückkopplungsfaktor, abhängig von externer Beschaltung
+$k$ … Rückkopplungsfaktor, abhängig von externer Beschaltung
 $f_{g 0} \ldots$ Grenzfrequenz des OPs für den unbeschalteten Fall
 $f_g \quad \ldots$ Grenzfrequenz des beschalteten OPs
 $f_T \quad \ldots$ Transitfrequenz, Frequenz bei $\operatorname{der}\left|A_D(f)\right|$ eins ist

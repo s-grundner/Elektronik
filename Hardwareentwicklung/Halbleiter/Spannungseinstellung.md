@@ -19,7 +19,7 @@ professor:
 
 # [BJT](Bipolartransistor.md) Spannungseinstellung
 
-> [!important] [[Spannungseinstellung]]: Transistor mit Basisspannungsteiler
+> [!important] Spannungseinstellung: Transistor mit Basisspannungsteiler
 > $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
 > - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen
 >  
@@ -56,7 +56,6 @@ professor:
 ## Basis-Spannungsteiler
 
 Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cdot I_{B,0}$) lässt sich die Spannung am $R_{2}$ so dimensionieren, dass der Spannungsteiler von $U_{0}$ gleich $U_{BE}$ ist.
-
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
