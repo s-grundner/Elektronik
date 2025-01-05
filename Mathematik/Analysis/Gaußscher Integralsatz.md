@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases:
-  - Diverfenzintegral
+  - Divergenzintegral
 keywords: 
 subject:
   - VL

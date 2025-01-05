@@ -19,9 +19,14 @@ def:
 > [!def] **D1 - NABL)** Nabla Operator
 > Sei $x = (x_{1}, \dots, x_n) \in \mathbb{R}^{n}$. Der Nabla Operator ($\nabla$) ist alleinstehend folgendermaßend definiert
 > $$
-> \nabla_{x}:= \left(\begin{array}{c} \frac{\partial}{\partial x_{1}} \\ \vdots \\ \frac{\partial}{\partial x_{n}} \end{array}\right)
+> \nabla:= \left(\begin{array}{c} \frac{\partial}{\partial x_{1}} \\ \vdots \\ \frac{\partial}{\partial x_{n}} \end{array}\right)
 > $$
-> Ist offensichtlich wonach differenziert wird kann das $x$ weggelassen werden.
+> 
+> Wird nicht nach allen Größen differenziert, zum Beispiel wenn gilt dass $f(x,t)$, wird ein subskript eingeführt:
+> $$
+> \nabla_{x}f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n-1}} \\ \frac{\partial f}{\partial x_{n}} \end{array}\right) \quad\text{ \small{im Gegensatz zu }}\quad  \nabla f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n}}\\ \frac{\partial f}{\partial t} \end{array}\right)
+> $$
+
 
 Im oft gebräuchlichen kartesischen Koordinatensystem $\mathbb{R}^{3}$ Lässt sich der Nabla Operator Schreiben wie:
 
@@ -48,7 +53,27 @@ Der Nabla-Operator ist Operator und [Vektor](Analysis/Vektor.md) in einem, d.h. 
 > - Divergenz: $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - Rotation: $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
 
+## Allgemeine Rechenregeln
 
+Rechenregeln für den Nabla-Operator lassen sich formal aus den Rechenregeln für Skalarund Kreuzprodukt zusammen mit den Ableitungsregeln herleiten.
+Dabei muss man die Produktregel anwenden, wenn der Nabla-Operator links von einem Produkt steht.
+
+> [!satz] **S1 - NABR)** Rechenreglen mit dem Nabla-Operator
+> Sind $\psi$ und $\varphi$ differenzierbare Skalarfelder (Funktionen) und $\vec{A}$ sowie $\vec{B}$ differenzierbare Vektorfelder, so gilt:
+>
+> |**Regel**|**Anmerkung**|
+> |---|---|
+> |$\nabla \varphi(\psi) = \frac{\mathrm{d} \varphi}{\mathrm{d} \psi} \nabla \psi$|Kettenregel für Gradient|
+> |$\nabla(\psi \varphi) = \psi \nabla \varphi + \varphi \nabla \psi$|Produktregel für Gradient|
+> |$\nabla(\vec{A} \cdot \vec{B}) = (\vec{A} \cdot \nabla) \vec{B} + (\vec{B} \cdot \nabla) \vec{A} + \vec{A} \times (\nabla \times \vec{B}) + \vec{B} \times (\nabla \times \vec{A})$|Produktregel für das Skalarprodukt zweier Vektorfelder|
+> |$\nabla \cdot (\varphi \vec{A}) = \varphi \nabla \cdot \vec{A} + \vec{A} \cdot \nabla \varphi$|Produktregel für die Divergenz|
+> |$\nabla \cdot (\vec{A} \times \vec{B}) = \vec{B} \cdot (\nabla \times \vec{A}) - \vec{A} \cdot (\nabla \times \vec{B})$|Divergenz des Kreuzprodukts|
+> |$\nabla \cdot (\nabla \varphi) = \Delta \varphi$|Divergenz des Gradienten (Laplace-Operator)|
+> |$\nabla \cdot (\nabla \times \vec{A}) = 0$|Divergenz des Rotationsoperators|
+> |$\nabla \times (\nabla \varphi) = 0$|Rotation des Gradienten|
+> |$\nabla \times (\varphi \vec{A}) = \varphi \nabla \times \vec{A} - \vec{A} \times \nabla \varphi$|Rotation eines Produkts mit Skalarfeld|
+> |$\nabla \times (\vec{A} \times \vec{B}) = (\vec{B} \cdot \nabla) \vec{A} - \vec{B} (\nabla \cdot \vec{A}) + \vec{A} (\nabla \cdot \vec{B}) - (\vec{A} \cdot \nabla) \vec{B}$|Rotation des Kreuzprodukts|
+> |$\nabla \times (\nabla \times \vec{A}) = \nabla (\nabla \cdot \vec{A}) - \Delta \vec{A}$|Rotation des Rotationsoperators (vektorieller Laplace-Operator)|
 
 ---
 
