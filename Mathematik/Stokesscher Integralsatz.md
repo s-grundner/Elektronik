@@ -42,11 +42,11 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
 \begin{tikzpicture}[font=\huge, L/.style={line width=2pt}]
 
 \draw[fill=black,fill opacity=0.2, L]
-    (-2, 1.5) .. controls (-1, 2.5) and (4, 2)..
+    (-1.5, 2) .. controls (0.5, 2) and (3.5, 2)..
     (2.5, 1.25) .. controls (1.5, 0.5) and (1, -0.5)..
     (2.5, -1.75) .. controls (4,-3) and (-1, -2)..
-    (-2, -1.5) .. controls (-3,-1) and (-3,0) ..
-    (-2, 1.5) -- cycle;
+    (-2, -1.5) .. controls (-3,-1) and (-3.5,0.5) ..
+    (-1.5, 2);
 \draw[red, L, <-] (1.75,0.71) -- (1.83,.69) ;
 
 \newcommand{\SET}{-4,-3,-2,-1,0.1,1,2,3,4}
@@ -70,30 +70,3 @@ Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}$
 \end{document}
 ```
 
----
-
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
-
-\begin{document}
-\begin{tikzpicture}
-\newcommand{\SET}{-4,-3,-2,-1,0.1,1,2,3,4}
-\foreach \x in \SET {
-    \foreach \y in \SET {
-        \pgfmathsetmacro{\vx}{-\y}
-        \pgfmathsetmacro{\vy}{\x}
-        \pgfmathsetmacro{\vnorm}{sqrt(\vx*\vx + \vy*\vy)}
-        \pgfmathsetmacro{\ux}{\vx/\vnorm}
-        \pgfmathsetmacro{\uy}{\vy/\vnorm}        
-        \draw[->, very thick, cyan] (\x,\y) -- ++(0.5*\ux,0.5*\uy);
-    }
-}
-\end{tikzpicture}
-\end{document}
-\end{tikzpicture}
-\end{document}
-
-```
