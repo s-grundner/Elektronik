@@ -41,7 +41,10 @@
     "Softwareentwicklung/SEng/02_SEng/Uebung/",
     "Softwareentwicklung/SEng/01_Git/Uebung/",
     "Netzwerktechnik/Nw/Uebung/",
-    "assets/Excalidraw/"
+    "assets/Excalidraw/",
+    "**/assets",
+    "assets/",
+    "*.png"
   ],
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    104182,       2014]
-NotebookOptionsPosition[    103376,       1993]
-NotebookOutlinePosition[    103811,       2010]
-CellTagsIndexPosition[    103768,       2007]
+NotebookDataLength[    106000,       2051]
+NotebookOptionsPosition[    105385,       2032]
+NotebookOutlinePosition[    105820,       2049]
+CellTagsIndexPosition[    105777,       2046]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -46,12 +46,12 @@ Cell[BoxData[
       RowBox[{"x_", ",", "y_", ",", "z_"}], "]"}], ":=", 
      RowBox[{"{", 
       RowBox[{"y", ",", 
-       RowBox[{"-", "x"}], ",", "z"}], "}"}]}], ";"}], "\n", 
+       RowBox[{"-", "x"}], ",", "z"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
     "Berechne", " ", "die", " ", "Rotation", " ", "des", " ", 
-     "Vektorfeldes"}], "*)"}], "\[IndentingNewLine]", 
+     "Vektorfeldes"}], "*)"}], "\n", 
    RowBox[{
     RowBox[{"rotationField", "=", 
      RowBox[{"Curl", "[", 
@@ -59,8 +59,8 @@ Cell[BoxData[
        RowBox[{"vectorField", "[", 
         RowBox[{"x", ",", "y", ",", "z"}], "]"}], ",", 
        RowBox[{"{", 
-        RowBox[{"x", ",", "y", ",", "z"}], "}"}]}], "]"}]}], ";"}], "\n", 
-   "\[IndentingNewLine]", 
+        RowBox[{"x", ",", "y", ",", "z"}], "}"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
     "Visualisiere", " ", "das", " ", "urspr\[UDoubleDot]ngliche", " ", 
@@ -85,8 +85,8 @@ Cell[BoxData[
        RowBox[{
        "PlotLabel", "->", "\"\<Urspr\[UDoubleDot]ngliches Vektorfeld\>\""}], 
        ",", " ", 
-       RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", "\n", 
+       RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}], ";"}], "\n", 
+   "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
     "Visualisiere", " ", "die", " ", "Rotation", " ", "des", " ", 
@@ -108,8 +108,8 @@ Cell[BoxData[
        RowBox[{"VectorPoints", "->", "5"}], ",", 
        RowBox[{"PlotLabel", "->", "\"\<Rotation des Vektorfeldes\>\""}], ",", 
        "  ", 
-       RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}], ";"}], "\n", 
-   "\[IndentingNewLine]", 
+       RowBox[{"ImageSize", "->", "Large"}]}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", "\n", 
    RowBox[{"(*", 
     RowBox[{"Zeige", " ", "beide", " ", "Plots", " ", "nebeneinander"}], 
     "*)"}], "\[IndentingNewLine]", 
@@ -119,8 +119,11 @@ Cell[BoxData[
       RowBox[{"originalPlot", ",", "rotationPlot"}], "}"}], "}"}], "]"}], 
    "\n"}]}]], "Input",
  CellChangeTimes->{{3.9450348875473576`*^9, 3.945034922720476*^9}, {
-  3.9450349785063143`*^9, 3.945035035742499*^9}},
- CellLabel->"In[28]:=",ExpressionUUID->"ced88fc0-53fb-49a1-85d9-f596affff2be"],
+  3.9450349785063143`*^9, 3.945035035742499*^9}, {3.945036767445741*^9, 
+  3.9450368287487965`*^9}, {3.945036884410186*^9, 3.945036996241235*^9}, {
+  3.9450370341707926`*^9, 
+  3.9450370449397645`*^9}},ExpressionUUID->"ced88fc0-53fb-49a1-85d9-\
+f596affff2be"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -1971,25 +1974,61 @@ Cell[BoxData[
          Scaled[0.02]}, {
          Scaled[0.02], 
          Scaled[0.02]}},
+      Ticks->{Automatic, Automatic, Automatic}], 
+     Graphics3DBox[{},
+      Axes->True,
+      BoxRatios->{1, 1, 1},
+      DisplayFunction->Identity,
+      FaceGridsStyle->Automatic,
+      ImageSize->Large,
+      Method->{
+       "VectorLengthFunction" -> 
+        Function[{System`VectorPlotsDump`m, System`VectorPlotsDump`vrange}, 
+          System`VectorPlotsDump`min = Min[System`VectorPlotsDump`vrange]; 
+          System`VectorPlotsDump`max = Max[System`VectorPlotsDump`vrange]; 
+          System`VectorPlotsDump`imin = If[
+             NumericQ[System`VectorPlotsDump`min], System`VectorPlotsDump`min, 
+             Min[System`VectorPlotsDump`m], 
+             Min[System`VectorPlotsDump`m]]; System`VectorPlotsDump`imax = If[
+             NumericQ[System`VectorPlotsDump`max], System`VectorPlotsDump`max, 
+             Max[System`VectorPlotsDump`m], 
+             Max[System`VectorPlotsDump`m]]; Map[If[
+             
+             Or[# > System`VectorPlotsDump`imax, # < 
+              System`VectorPlotsDump`imin], #, System`VectorPlotsDump`imax]& ,
+             System`VectorPlotsDump`m]], "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultColorFunction" -> 
+        ColorDataFunction[
+         "WL12DefaultVectorDensityGradient", "ThemeGradients", {0, 1}, Blend[
+          "WL12DefaultVectorDensityGradient", #]& ], 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, "TubePoints" -> 
+        5, "ConePoints" -> 10, "TransparentPolygonMesh" -> True},
+      PlotLabel->FormBox["\"Rotation des Vektorfeldes\"", TraditionalForm],
+      PlotRange->{{-2.4166666666666665`, 
+       2.4166666666666665`}, {-2.4166666666666665`, 
+       2.4166666666666665`}, {-2.4166666666666665`, 2.4166666666666665`}},
+      PlotRangePadding->{{
+         Scaled[0.02], 
+         Scaled[0.02]}, {
+         Scaled[0.02], 
+         Scaled[0.02]}, {
+         Scaled[0.02], 
+         Scaled[0.02]}},
       Ticks->{Automatic, Automatic, Automatic}]}
    },
    AutoDelete->False,
    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
   "Grid"]], "Output",
- CellChangeTimes->{3.9450350360423174`*^9, 3.9450351419611163`*^9},
- CellLabel->"Out[32]=",ExpressionUUID->"3399a1ec-365a-4b11-bef8-0d1e097309c1"]
-}, Open  ]],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.945034778364091*^9, 
-  3.945034886446725*^9}},ExpressionUUID->"758e1f92-5727-4b5d-8b70-\
-be04509d4694"],
-
-Cell[BoxData["\[IndentingNewLine]"], "Input",
- CellChangeTimes->{
-  3.9450348532309313`*^9, {3.945034890271448*^9, 
-   3.945034902062454*^9}},ExpressionUUID->"022a9fad-b5c5-4112-8493-\
-e636ec9c2f3a"]
+ CellChangeTimes->{{3.9450369045456657`*^9, 3.9450369053552656`*^9}, 
+   3.9450370238088493`*^9},
+ CellLabel->"Out[88]=",ExpressionUUID->"50e63677-fcc2-4e12-9719-55f6d621e2f4"]
+}, Open  ]]
 },
 WindowSize->{1920., 1011.75},
 WindowMargins->{{-6, Automatic}, {Automatic, -6}},
@@ -2011,11 +2050,9 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 590, 13, 48, "Input",ExpressionUUID->"07aa4394-1cb4-47bb-b134-f9cbbd289ac1"],
 Cell[CellGroupData[{
-Cell[1173, 37, 3178, 85, 341, "Input",ExpressionUUID->"ced88fc0-53fb-49a1-85d9-f596affff2be"],
-Cell[4354, 124, 98649, 1855, 633, "Output",ExpressionUUID->"3399a1ec-365a-4b11-bef8-0d1e097309c1"]
-}, Open  ]],
-Cell[103018, 1982, 152, 3, 28, "Input",ExpressionUUID->"758e1f92-5727-4b5d-8b70-be04509d4694"],
-Cell[103173, 1987, 199, 4, 48, "Input",ExpressionUUID->"022a9fad-b5c5-4112-8493-e636ec9c2f3a"]
+Cell[1173, 37, 3326, 88, 341, "Input",ExpressionUUID->"ced88fc0-53fb-49a1-85d9-f596affff2be"],
+Cell[4502, 127, 100867, 1902, 610, "Output",ExpressionUUID->"50e63677-fcc2-4e12-9719-55f6d621e2f4"]
+}, Open  ]]
 }
 ]
 *)
