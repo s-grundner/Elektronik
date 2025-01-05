@@ -38,6 +38,10 @@ Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in 
 > 
 > Das Vektorfeld ist genau dann der Gradient einer Funktion, wenn die Rotation des Vektorfeldes im betrachteten Gebiet gleich null ist. Ein Vektorfeld ist in jedem Fall [konservativ](../Mathematik/Analysis/Wegunabhängig.md), wenn im Ausdruck $\operatorname{grad}f$ gilt, dass $f$ ein Skalarfeld ist.
 
+![800](../Mathematik/Simulationen/Rotor.png)
+
+<center><a href="Mathematik/Simulationen/Rotor.nb" class="internal-link">📈Mathematica Notebook</a></center>
+
 ## Anwendung
 
 Ein wichtiger Satz, der den Rotor verwedet ist der [Stokessche Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md) der den Zusammenhang zwischen der Rotation eines Vektorfeldes und dem Linienintegral über den Rand einer Fläche beschreibt.
