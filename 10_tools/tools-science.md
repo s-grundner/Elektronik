@@ -17,15 +17,6 @@ class mybutton
 ^button-tikzmaker
 
 ```button
-name CircuiTikz
-type link
-action https://circuit2tikz.tf.fau.de/designer/
-class mybutton
-```
-
-^button-circuitikz
-
-```button
 name Overleaf
 type link
 action https://de.overleaf.com/project
