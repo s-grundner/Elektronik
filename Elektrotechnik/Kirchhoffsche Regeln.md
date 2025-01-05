@@ -1,6 +1,5 @@
 ---
-tags:
-  - Schaltungsanalyse
+tags: [Schaltungsanalyse, todo]
 aliases:
   - Maschenregel
   - Knotenregel
@@ -33,4 +32,4 @@ Allgemein: $\sum_{\text{Knoten}}I=0$
 
 # Tags
 
-#todo Warum funkionieren die Kirchhoffschenreglen? -> Beschreibeung mittels [MWG](Maxwell.md)
+ Warum funkionieren die Kirchhoffschenreglen? -> Beschreibeung mittels [MWG](Maxwell.md)

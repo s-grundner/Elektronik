@@ -26,7 +26,9 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 
 ## Erläuterung
 
-> [!info] Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}\boldsymbol{l}$
+### Rechte Seite
+
+> [!question] Rechte Seite: $\oint_{L} \boldsymbol{F}\cdot \mathrm{d}\boldsymbol{l}$
 > 
 > - $\mathrm{d} \boldsymbol{l}$ ist ein Inifitesimales Stück der Kurve $L$, über das integriert wird.
 > - Das Ringintegral setzt vorraus das die Kurve $L$ geschlossen ist, das bedeutet, dass der Startpunkt gleich dem Endpunkt ist.
@@ -35,3 +37,9 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 > 
 > ![invert_dark|1200](../assets/StokesRechteSeite.svg)
 > 
+
+> [!hint] In der Elektrotechnik:
+> Ist $\boldsymbol{F}$ ein [elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) $\boldsymbol{E}$, so entspricht das Linienintegral dem elektrischen Potenzial $\varphi$ entlang der Kurve $L$. Integriert man nur über einen Teil der Linie erhält man aufgrund der [Konservativität](Analysis/Wegunabhängig.md) des elektrischen Feldes eine Potenzialdifferenz, also eine [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U$.
+> Da der Start und Endpunkt gleich sind ist diese Spannung von außen betrachtet $0V$ und begründet die [Maschenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
+
+

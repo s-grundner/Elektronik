@@ -31,6 +31,9 @@ Der Gradientensatz ist die Erweiterung des [Hauptsatzes der Infinitesimalrechnun
 > \int_\gamma \nabla \varphi(\mathbf{r}) \cdot \mathrm{d} \mathbf{r}=\varphi(\mathbf{q})-\varphi(\mathbf{p})
 > $$
 > $\varphi$ ist also ein Skalarfeld mit dem Zugehörigen [Gradient](Gradient.md)-Vektorfeld $\nabla \varphi$.
+> 
+
+> [!hint] In einem beliebigen konservativen [Kraftfeld](../../Physik/{MOC}%20Kräfte.md) ist $\varphi$ ein *Potenzial*.
 
 Dieser Satz hat anwendungen in
 - [Kraftfeld](../../Physik/{MOC}%20Kräfte.md)
