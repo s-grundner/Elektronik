@@ -28,6 +28,8 @@ Der Rotor ist ein Vektoroperator, der auf ein [Vektorfeld](Vektorfeld.md) im $\m
 >
 >$$\mathrm{rot} \,\mathbf{F} := \nabla \times \mathbf{F}$$
 
+![800](../Mathematik/Simulationen/Rotor.png)
+
 ## Eigenschaften
 
 Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in einem konservativen Vektorfeld keine Drehung aufweist bzw. einen verschwindenden Rotor haben. 
@@ -38,7 +40,6 @@ Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in 
 > 
 > Das Vektorfeld ist genau dann der Gradient einer Funktion, wenn die Rotation des Vektorfeldes im betrachteten Gebiet gleich null ist. Ein Vektorfeld ist in jedem Fall [konservativ](../Mathematik/Analysis/Wegunabhängig.md), wenn im Ausdruck $\operatorname{grad}f$ gilt, dass $f$ ein Skalarfeld ist.
 
-![800](../Mathematik/Simulationen/Rotor.png)
 
 <center><a href="Mathematik/Simulationen/Rotor.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
