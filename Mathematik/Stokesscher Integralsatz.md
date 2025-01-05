@@ -38,8 +38,17 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 > ![invert_dark|1200](../assets/StokesRechteSeite.svg)
 > 
 
-> [!hint] In der Elektrotechnik:
-> Ist $\boldsymbol{F}$ ein [elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) $\boldsymbol{E}$, so entspricht das Linienintegral dem elektrischen Potenzial $\varphi$ entlang der Kurve $L$. Integriert man nur über einen Teil der Linie erhält man aufgrund der [Konservativität](Analysis/Wegunabhängig.md) des elektrischen Feldes eine Potenzialdifferenz, also eine [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U$.
-> Da der Start und Endpunkt gleich sind ist diese Spannung von außen betrachtet $0V$ und begründet die [Maschenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md)
+#### In der Elektrotechnik:
+
+> [!hint] Ist $\boldsymbol{F}$ ein [elektrisches Feld](../Elektrotechnik/Elektrisches%20Feld.md) $\boldsymbol{E}$:
+> so entspricht das Linienintegral dem elektrischen Potenzial $\varphi$ entlang der Kurve $L$.
+>
+> Die Potenzialdifferenz 
+> Da die Potenzialdifferenz zwischen Start und Endpunkt gleich $0$ begründet dieser Satz die [Maschenregel](../Elektrotechnik/Kirchhoffsche%20Regeln.md).
+> Diese Form des Linienintegrals ist in der Integralform der 3. [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichung - dem Faradayschen Induktionsgesetz - enthalten.
+> 
+> 
+
+> [!hint] Ist $\boldsymbol{F}$ ein [magnetisches Feld](../Elektrotechnik/magnetisches%20Feld.md) $\boldsymbol{B}$:
 
 
