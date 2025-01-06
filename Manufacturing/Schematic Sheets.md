@@ -1,3 +1,11 @@
+---
+tags:
+  - Altium
+aliases: 
+created: 8. November 2024
+cited:
+---
+
 # Schematic Sheets
 
 All designs will start with schematic sheets. These files are drawings that show which components are used in the design, the nets used to make electrical connections between components, connections involving power and ground nets, net names, and other notes needed to understand how the design works. An example of a typical schematic sheet is shown below:
