@@ -26,6 +26,7 @@ professor:
 
 >[!important] Bedeutung der Determinante
 > Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+> Haben zwei Matrizen die Selbe dete
 
 
 > [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
@@ -34,7 +35,7 @@ professor:
 > [!info] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
 > ![|425](Pasted%20image%2020240224211204.png)
 
-> [!important] Definition der Determinante: $\det A$ oder $|A|$  
+> [!def] **D1 - DET)** Determinante: $\det A$ oder $|A|$  
 > Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DS-Algo/Rekursion.md) definiert:
 > - ist $A=(a_{11}\in \mathbb{R}^{1\times 1})$, so ist $\det A$ definiert als:  
 >
