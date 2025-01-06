@@ -24,17 +24,6 @@ professor:
 > - ob eine [Matrix](Matrix.md) invertierbar ist bzw.
 > - ob ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
->[!important] Bedeutung der Determinante
-> Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
-> Haben zwei Matrizen die Selbe dete
-
-
-> [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
-> Eine Inverse der Transformation ist daher nicht bildbar, da man aus einer niedrigeren Dimension nicht auf eine eindeutige Lösung in einer höheren Dimension kommt.
-
-> [!info] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
-> ![|425](Pasted%20image%2020240224211204.png)
-
 > [!def] **D1 - DET)** Determinante: $\det A$ oder $|A|$  
 > Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DS-Algo/Rekursion.md) definiert:
 > - ist $A=(a_{11}\in \mathbb{R}^{1\times 1})$, so ist $\det A$ definiert als:  
@@ -46,6 +35,18 @@ professor:
 > $$\det A:=\sum_{i=1}^{n} (-1)^{i+1}a_{i 1}\cdot\det A_{i 1}$$
 >
 > wobei $A_{ij} \in \mathbb{R}^{(n-1)\times(n-1)}$ jene [Matrix](Matrix.md) bezeichnet, die aus $A$ durch Streichen der $i$-ten Zeile und der $j$-ten Spalte hervorgeht. siehe Laplace-Entwicklungssatz.
+
+## Bedeutung der Determinante
+
+Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+
+Haben zwei Matrizen die selbe Determinante heißen sie **ähnlich** und
+
+> [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
+> Eine Inverse der Transformation ist daher nicht bildbar, da man aus einer niedrigeren Dimension nicht auf eine eindeutige Lösung in einer höheren Dimension kommt.
+
+> [!info] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
+> ![|425](Pasted%20image%2020240224211204.png)
 
 ## $n=1$: $A \in \mathbb{R}^{1\times 1}$
 
