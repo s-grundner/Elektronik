@@ -10,6 +10,7 @@ created: 18th November 2024
 professor:
 ---
  
+
 # Betriebsparameter von Verstärkern
 
 ## Eingangswiderstand und Betriebsspannungsverstärkung
