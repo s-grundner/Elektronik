@@ -34,28 +34,26 @@ professor:
 \draw (b) to[R, l=$R_1$] ++(v -| 0, 0) node[vcc]{$U_0$};
 \draw (b) to[C, l_=$C_e$, *-] ++(-2,0) coordinate(c) to[R, l_=$R_i$] ++(-2,0) to[V, v_=$U_g$] ++(g -| 0,0) node[rground]{};
 \draw (c) to[open, v=$u_e$, o-o] ++(g -| 0,0) node[rground]{};
-\draw (npn.B) to[open, v=$U_{BE}$, voltage=curved] (npn.E);
+\draw (npn.B |- 0,-0.3) to[open, v=$U_{BE}$, font=\small] (npn.E);
 
 \end{circuitikz}
 \end{document}
 ```
 
-![](assets/Pasted%20image%2020241118013237.png)
 
 > [!warning] Anders als bei der [Emitterschaltung](Kollektorfolger.md) gibt es **keine** Phasenverschiebung.
 
+## Betriebsparameter
 
-![Pasted image 20221121145313](../assets/1NoteEmittSCh.png)
-
-## Eingangswiderstand
+### Eingangswiderstand
 
 ![Pasted image 20221121145330](../assets/1NoteKollSchRE.png)
 
-## Kollektorschaltung Als Impedanzwandler
+
+### Kollektorschaltung Als Impedanzwandler
 
 Eine Berechnung der Spannungsverstärkung liefert $\approx 1$. Jedoch ist hier die Stromverstärkung sehr hoch sodass auch hohe Lasten angesteuert werden können, ohne dass die Spannugsverstärkung sinkt. Diese Schaltung ist relevant als [Endstufe](BJT%20als%20Verstärker%20bzw%20Endstufe.md) für große Leistungen
 
-![Pasted image 20221121145351](../assets/1NoteKollSchIW.png)
 
 ## Arbeitspunkt
 
