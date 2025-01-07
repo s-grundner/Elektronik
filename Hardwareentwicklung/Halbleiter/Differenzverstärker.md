@@ -91,17 +91,15 @@ $$\boxed{ U_{e1} = U_{e2} = U_{\mathrm{gl}} }$$
 | Beitriebsparameter            | Formel                                                                                                                                                      |                                        |
 | ----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | **Gleichtaktverstärkung**     | $A_{\mathrm{gl}}=2\cdot \dfrac{u_{a 1}}{u_{e 1}-u_{e 2}}=\dfrac{u_{a 1}}{u_{\mathrm{gl}}}\implies u_{a 1}=\dfrac{A_{\mathrm{gl}}}{2}\cdot(u_{e 1}+u_{e 2})$ | $A_{\mathrm{gl}}$ ist idealerweise $0$ |
-| Gleichtakt-Eingangswiderstand | $r$                                                                                                                                                         |                                        |
+| Gleichtakt-Eingangswiderstand | $r_{\mathrm{gl}}=\dfrac{u_{e 1}+u_{e 2}}{2\cdot i_{B 1}} = \dfrac{u_{\mathrm{gl}}}{i_{B 1}}$                                                                |                                        |
 
 ### Gleichtaktunterdrückung (CMRR)
 
 > [!question] Common-Mode Rejection Ratio (CMRR)
 
-Das Gleichtaktunterdrückungsverhältnis ist gegeben durch:
-
-$$
-CMRR = \left\lvert \frac{A_{\mathrm{ed}}}{A_{\mathrm{gl}}} \right\rvert 
-$$
+> [!def] Das Gleichtaktunterdrückungsverhältnis ist gegeben durch:
+>
+> $$CMRR = \left\lvert \frac{A_{\mathrm{ed}}}{A_{\mathrm{gl}}} \right\rvert$$
 
 Es gibt an wie gut der Differenzenverstärker ungleiche Eingangssignale verstärkt während er gleichanteile unterdrückt.
 Das Verhältnis der Differenzenverstärkung $A_{\mathrm{ed}}$ zur Gleichtaktverstärkung $A_{\mathrm{gl}}$ ist im idealfall für $R_{i}\to \infty$ unendlich groß.
