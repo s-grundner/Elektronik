@@ -26,9 +26,13 @@ professor:
 % Begin Schematic
 
 \draw (0,0) node[npn](npn){};
-\draw (npn.C) node[vcc]{$U_0$};
-\draw (npn.E) to[R, l_=$R_{E}$, *-] (0,-3) node[rground]{};
-\draw (npn.E) to[C] ++(2,0) to[short, -o] ++(1,0) -- ++1,0
+\draw (npn.C) to[short, i<=$I_C$] ++(0,2) coordinate(v) node[vcc]{$U_0$};
+\draw (npn.E) to[R, l_=$R_{E}$, *-] (0,-3) coordinate(g) node[rground]{};
+\draw (npn.E) to[C] ++(2,0) coordinate(a) -- ++(1,0) to[R, l=$R_L$] (g -| 3,0) node[rground]{};
+\draw (a) to[open, v=$U_a$, o-o] (g -| 2,0) node[rground]{};
+\draw (npn.B) -- ++(-1,0) coordinate(b) to[R, l_=$R_2$] ++(g -| b) node[rground]{};
+\draw (b) to[R, l=$R_1$] ++(0,2) coordinate(c) to[short] (v -| c) node[vcc]{$U_0$};
+\draw (b) to[C, l_=$C_e$, *-o] -- ++(-1,0) to[R, l=$R_i$] ++(0,2) to[V, v=$U_g$] ++(g -| 0,0) node[ground]{};
 
 
 \end{circuitikz}
