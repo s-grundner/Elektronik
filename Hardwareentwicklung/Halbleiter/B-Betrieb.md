@@ -27,11 +27,19 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 % Begin Schematic
 
 \draw (0,1) node[npn](npn){};
-\draw (npn.C) to[short] (0,2) node[vcc]{$U_0$};
 \draw (0,-1) node[pnp](pnp){};
-\draw (pnp.C) to[short] (0,-2) node[vee]{$-U_0$};
+\draw (npn.C) -- (0,2) node[vcc]{$U_0$};
+\draw (pnp.C) -- (0,-2) node[vee]{$-U_0$};
 
-\draw (npn.B) -* (pnp.B);
+\draw (npn.B) -- (pnp.B);
+\draw (npn.E) -- (pnp.E);
+\draw (0,0) -- ++(1,0);
+
+\draw[] (npn.B) -- ++(-1,0) coordinate(a);
+\draw[] (0,0) -- ++(-1, 0) coordinate(b);
+\draw[dashed, ->] (a) -- ++(-1,0);
+\draw[dashed, ->] (b) -- ++(-1, 0);
+
 
 \end{circuitikz}
 \end{document}
@@ -49,12 +57,12 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 > 
 > \begin{document}
 > 
-> \begin{tikzpicture}
+> \begin{tikzpicture}[scale=2, font=\large]
 > \begin{axis}[
 >     thick, axis lines=middle,
 >     xmin=-5, ymin=-5, xmax=5, ymax=5,
->     xlabel=$U_e$, ylabel=$U_a$,
->     xtick={-0.7, 0.7}, ytick={}]
+>     xlabel=$U_e / V$, ylabel=$U_a / V$,
+>     xtick={-0.7, 0.7}, ytick={\empty}]
 > \addplot[domain=0.7:4, color=red]{x-0.7};
 > \addplot[domain=-4:-0.7, color=red]{x+0.7};
 > \addplot[domain=-0.7:0.7, color=red]{0};
