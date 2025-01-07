@@ -61,7 +61,7 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 
 ## Schaltungsentwurf
 
-Die EInfachste Möglichkeit die Stromquelle zu realisieren it mittels eines einfachen Widerstandes
+Die Einfachste Möglichkeit die Stromquelle zu realisieren it mittels eines einfachen Widerstandes
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -70,7 +70,7 @@ Die EInfachste Möglichkeit die Stromquelle zu realisieren it mittels eines einf
 \ctikzset{diodes/scale=0.8}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, transform shape]
+\begin{circuitikz}[thick, transform shape, scale=1.2]
 \draw (-1,0) node[npn](npnLeft){};
 \draw (1,0) node[npn, xscale=-1](npnRight){};
 \draw (npnLeft.text) node[right]{$T_1$};
@@ -78,7 +78,7 @@ Die EInfachste Möglichkeit die Stromquelle zu realisieren it mittels eines einf
 \draw (npnLeft.C) to[short, i<=$I_{C1}$] ++(0,0.5) coordinate(cLeft) to[R, l=$R_C$, *-] ++(0,1) coordinate(v) node[vcc]{$U_0$};
 \draw (npnRight.C) to[short, i<_=$I_{C2}$] ++(0,0.5) coordinate(cRight) to[R, l_=$R_C$, *-] ++(0,1) node[vcc]{$U_0$};
 \draw (npnLeft.E) to[short, i=$I_{E1}$] (npnLeft.E -| 0,0) coordinate(e) to[short, i<=$I_{E2}$] (npnRight.E);
-\draw (e) to[R,l=$R_i$] ++(0,-2) node[vee]{$-U_0$};
+\draw (e) to[R,l=$R_i$, o-o] ++(0,-2) node[vee]{$-U_0$};
 \draw (npnLeft.B) to[open, v^=$U_{e1}$, o-o] ++(0,-2) coordinate(g) node[rground]{};
 \draw (npnRight.B) to[open, v^=$U_{e2}$, o-o] ++(0,-2) node[rground]{};
 \draw (cLeft) -- ++(-3,0) coordinate(a1) to[open, v^=$U_{a1}$, o-o] (g -| a1) node[rground]{};
@@ -86,3 +86,7 @@ Die EInfachste Möglichkeit die Stromquelle zu realisieren it mittels eines einf
 \end{circuitikz}
 \end{document}
 ```
+
+Dabei Treten jedoch einige Probleme auf:
+- Um einen möglichst konstanten Strom zu erhalten, muss der Innenwiderstand $R_i$ sehr groß sein. 
+- Ein großer $R_{\mathrm{i}}$ führt jedoch zu einem schlechten Arbeitspunkt: Die Meiste Spannung fällt am Widerstand ab, was zu einer geringen **gegentakt** Verstärkung führt. 
