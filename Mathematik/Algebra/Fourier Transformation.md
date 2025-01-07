@@ -4,7 +4,6 @@ tags:
 aliases:
   - Fouriertransformiert
   - Fouriertransformation
-  - Fourier Analyse
 subject:
   - mathe
 source:
