@@ -28,27 +28,17 @@ professor:
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-
+\ctikzset{bipoles/length=0.8cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=1, font=\large]
-% Begin Schematic
-
-\draw (0,1) to[R=$R_C$] (0,3);
-\draw (0,0) node[npn]{};
-
-\draw (0,3) to[short] (2,3);
-\draw (-2, 0) to[short] (-0.5, 0);
-\draw (0,-0.5) to[short] (0,-2);
-
-\draw (0,0.5) to[short] (0,1);
-
-\draw (2, 3) to[V_=$U_0$] (2, -2);
-\draw (-2, 0) to[V_=$U_{BE,0}$] (-2, -2);
-
-\node[tlground] at (0, -2) {};
-\node[tlground] at (-2, -2) {};
-\node[tlground] at (2, -2) {};
-
+\begin{circuitikz}[very thick, scale=2, transform shape]
+\coordinate (g) at (0, -2);
+\coordinate (v) at (0, 2.5);
+\draw (0,0) node[npn](npn){};
+\draw (npn.C) to[R=$R_C$] (npn.C |- v) -- ++(2,0) coordinate(v0) to[V_=$U_0$] (g -| v0) node[rground]{};
+\draw (0,-0.5) to[short] (0,-2) node[rground]{};
+\draw (npn.B) -- ++(-1,0) coordinate(vbe) to[V_=$U_{BE,0}$] (g -| vbe) node[rground]{};
 
 \end{circuitikz}
 \end{document}
@@ -65,16 +55,16 @@ Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cd
 \ctikzset{diodes/scale=0.8}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, transform shape]
+\begin{circuitikz}[very thick, scale=2, transform shape]
 \coordinate (g) at (0, -2);
-\coordinate (v) at (0, 3);
+\coordinate (v) at (0, 2.5);
 \draw (0,0) node[npn](npn){};
 \draw (npn.C) to[R=$R_C$, i<=$I_{C,0}$] (npn.C |- v)node[vcc]{$U_0$};
-\draw (-1,-0.3) to[open, v=$U_{BE,0}$] (0,-1);
-\draw (-2, 0) to[short, i=$I_{B,0}$, *-] (npn.B);
+\draw (npn.B |- 0,-0.3) to[open, v=$U_{BE,0}$] (npn.E);
+\draw (npn.B) to[short, i<=$I_{B,0}$, -*] ++(-1,0) coordinate(k1);
 \draw (npn.E) to[short] (npn.E |- g) node[rground]{};
-\draw (-2, 0) to[R, l=$R_1$] (-2, 3) node[vcc]{$U_0$};
-\draw (-2, 0) to[R, l_=$R_2$, i=$I_2$] (g -| -2,0) node[rground]{};
+\draw (k1) to[R, l=$R_1$] (v -| k1) node[vcc]{$U_0$};
+\draw (k1) to[R, l_=$R_2$, i=$I_2$] (g -| k1) node[rground]{};
 \end{circuitikz}
 \end{document}
 ```
