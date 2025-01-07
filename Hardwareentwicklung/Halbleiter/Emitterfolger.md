@@ -26,7 +26,7 @@ created: 21st November 2022
 
 ## Kollektorschaltung Als Impedanzwandler
 
-Eine Berechnung der Spannungsverstärkung liefert $\approx 1$. Jedoch ist hier die Stromverstärkung sehr hoch s
+Eine Berechnung der Spannungsverstärkung liefert $\approx 1$. Jedoch ist hier die Stromverstärkung sehr hoch sodass auch hohe Lasten angesteuert werden können, ohne dass die Spannugsverstärkung sinkt. Diese Schaltung ist relevant als [Endstufe](BJT%20als%20Verstärker%20bzw%20Endstufe.md) für große Leistungen
 
 ![Pasted image 20221121145351](../assets/1NoteKollSchIW.png)
 
@@ -38,4 +38,4 @@ $R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer
 
 ## Kleinsignalverhalten
 
-![ksv_kollektorschaltung](../assets/ksv_kollektorsch
+![ksv_kollektorschaltung](../assets/ksv_kollektorschaltung.png)
