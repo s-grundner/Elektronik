@@ -7,7 +7,7 @@ created: 22. September 2023
 
 # A-Betrieb
 
-Ein [Transistor]({MOC}%20Transistor.md)-Verstärker im A-Betrieb hat nur eine geringe Spitze-Spitze-Ausdehnung.  
+Ein [Transistor-Verstärker](BJT%20als%20Verstärker%20bzw%20Endstufe.md) im A-Betrieb hat nur eine geringe Spitze-Spitze-Ausdehnung.  
 Der Arbeitspunkt liegt in der Mitte der Kennlinie.  
 Das wird durch die Aufteilung der Betriebsspannung bestimmt ($U_{B}= U_{C} + U_{CE}$).  
 Dabei wird die Betriebsspannung zwischen Kollektorwiderstand und [Transistor]({MOC}%20Transistor.md) aufgeteilt.  
@@ -39,7 +39,7 @@ Eine Eigenschaft der Kollektorschaltung ist, dass sie zwar eine Spannungsverstä
 \draw (npn.E) -- ++(-1,0) coordinate(a);
 \draw (npn.B) -- (a |- -1,0);
 \draw[dashed, -Triangle] (a) -- ++(-1,0) node[left]{zum Gegenkopplungsnetzwerk (hochohmig)};
-\draw[dashed, Triangle-] (a |- -1,0) -- ++(-1, 0) node[left]{vom Ausgange der Vorherigen Stufe};
+\draw[dashed, Triangle-] (a |- -1,0) -- ++(-1, 0) node[font=\small, text width=3cm, align=center, above]{vom Ausgange der Vorherigen Stufe};
 
 \end{circuitikz}
 \end{document}

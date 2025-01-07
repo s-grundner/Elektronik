@@ -21,7 +21,7 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, font=\Large]
+\begin{circuitikz}[thick, scale=1.5, transform shape]
 % Begin Schematic
 
 \draw (0,1) node[npn](npn){};
@@ -34,9 +34,9 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 \draw (0,0) to[short, -o] ++(1,0);
 
 \draw(npn.B) to[short, *-] ++(-1,0) coordinate(a);
-\draw(0,0) to[short, *-] ++(-1,0) coordinate(b);
-\draw[dashed, ->] (a) -- ++(-1,0);
-\draw[dashed, ->] (b) -- ++(-1,0);
+\draw(0,0) to[short, *-] (a |- -1,0) coordinate(b);
+\draw[dashed, Triangle-] (a) -- ++(-1,0) node[font=\small, text width=3cm, align=center, above]{vom Ausgang der vorherigen Stufe};
+\draw[dashed, -Triangle] (b) -- ++(-1,0) node[font=\small, text width=3cm, align=center, below]{zum Gegenkopplungsnetzwerk (hochohmig)};
 
 
 \end{circuitikz}
@@ -45,7 +45,7 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 
 > [!warning] Übernahme Verzerrung:
 >
-> Ein Plateau um $\pm 0.7V$ Am ausgang des Verstärkers aufgrund der Basis Emiter spannungen.
+> Ein Plateau um $\pm 0.7V$ indem die Eingangsspannung nicht durchdringt. 
 >
 > ```tikz
 > \usepackage{pgfplots}
@@ -56,12 +56,14 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 > \begin{tikzpicture}[scale=1.5, font=\large]
 > \begin{axis}[
 >     thick, axis lines=middle,
->     xmin=-5, ymin=-5, xmax=5, ymax=5,
+>     xmin=-4, ymin=-4, xmax=4, ymax=4,
 >     xlabel=$U_e / V$, ylabel=$U_a / V$,
->     xtick={-0.7, 0.7}, ytick={\empty}]
-> \addplot[domain=0.7:4, color=red]{x-0.7};
-> \addplot[domain=-4:-0.7, color=red]{x+0.7};
+>     xtick={-0.7, 0.7}, ytick={\empty}, axis equal]
+> \addplot[domain=0.7:3.5, color=red]{x-0.7};
+> \addplot[domain=-3.5:-0.7, color=red]{x+0.7};
 > \addplot[domain=-0.7:0.7, color=red]{0};
+> \draw[dashed] (axis cs:-0.7,0) -- (axis cs:-0.7,3) node[left]{Plateau};
+> \draw[dashed] (axis cs:0.7,0) -- (axis cs:0.7,3);
 > \end{axis}
 > \end{tikzpicture}
 > \end{document}
