@@ -43,14 +43,14 @@ $\tau_0 \quad \ldots$ Zeitkonstante des Tiefpasses
 $k$ … Rückkopplungsfaktor, abhängig von externer Beschaltung
 $f_{g 0} \ldots$ Grenzfrequenz des OPs für den unbeschalteten Fall
 $f_g \quad \ldots$ Grenzfrequenz des beschalteten OPs
-$f_T \quad \ldots$ Transitfrequenz, Frequenz bei $\operatorname{der}\left|A_D(f)\right|$ eins ist
+$f_T \quad \ldots$ Transitfrequenz, Frequenz bei $\operatorname{der}\left|A_D(f)\right|=1$  ist
 
-| **Unbeschalteter OPV**                              | **Beschalteter OPV**                                       |
+| **Unbeschalteter OPV** (also $k=0$)                 | **Rückgekoppelter OPV**                                    |
 | --------------------------------------------------- | ---------------------------------------------------------- |
 | $A_{D}(f) = \dfrac{A_{D0}}{1+j_{2}\pi f\uptau_{0}}$ | $A_{D}(f)=\dfrac{A_{D0}}{1+A_{D 0}k+j_{2}\pi f\uptau_{0}}$ |
 | $f_{g_{0}} = \dfrac{1}{2\pi\uptau_{0}}$             | $f_{g}=f_{g 0}\cdot A_{D 0}$                               |
 |                                                     | $\lvert A_{D}(f) \rvert=1\to f=f_{T}$                      |
-| ![400](assets/53_Bode_Mag.png)                      | ![400](assets/53_Bode_Mag_k.png)                           |
+| ![500](assets/53_TP_OPV.png)                        | ![500](assets/53_TP_OPV_k.png)                             |
 
 #### Größenordnungen der Größen
 

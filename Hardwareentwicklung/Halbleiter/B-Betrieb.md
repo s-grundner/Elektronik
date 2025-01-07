@@ -21,17 +21,17 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, transform shape]
+\begin{circuitikz}[thick, scale=2, transform shape]
 % Begin Schematic
 
 \draw (0,1) node[npn](npn){};
 \draw (0,-1) node[pnp](pnp){};
-\draw (npn.C) -- (0,2) node[vcc]{$U_0$};
-\draw (pnp.C) -- (0,-2) node[vee]{$-U_0$};
+\draw (npn.C) node[vcc]{$U_0$};
+\draw (pnp.C) node[vee]{$-U_0$};
 
 \draw (npn.B) -- (pnp.B);
 \draw (npn.E) -- (pnp.E);
-\draw (0,0) to[short, -o] ++(1,0);
+\draw (0,0) to[short] ++(2,0) to[R, l_=$R_L$, v^=$U_a$, o-o] ++(0,-2) node[rground]{};
 
 \draw(npn.B) to[short, *-] ++(-1,0) coordinate(a);
 \draw(0,0) to[short, *-] (a |- -1,0) coordinate(b);

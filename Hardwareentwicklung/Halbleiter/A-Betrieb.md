@@ -38,7 +38,7 @@ Eine Eigenschaft der Kollektorschaltung ist, dass sie zwar eine Spannungsverstä
 \draw (npn.E) -- ++(2,0) to[R, l_=$R_L$, v^=$U_a$, o-o] (2, -3) node[rground]{};
 \draw (npn.E) -- ++(-1,0) coordinate(a);
 \draw (npn.B) -- (a |- -1,0);
-\draw[dashed, -Triangle] (a) -- ++(-1,0) node[left]{zum Gegenkopplungsnetzwerk (hochohmig)};
+\draw[dashed, -Triangle] (a) -- ++(-1,0) node[font=\small, text width=3cm, align=center, below]{zum Gegenkopplungsnetzwerk (hochohmig)};
 \draw[dashed, Triangle-] (a |- -1,0) -- ++(-1, 0) node[font=\small, text width=3cm, align=center, above]{vom Ausgange der Vorherigen Stufe};
 
 \end{circuitikz}
