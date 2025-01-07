@@ -92,11 +92,11 @@ $$
 
 $$
 e^{B} = \sum_{k=0}^{\infty}\frac{B^k}{k!} = \sum_{k=0}^{\infty}\frac{1}{k!}
-\begin{pmatrix} 
+\underbrace{ \begin{pmatrix} 
 \lambda_{1}^k & 0 & 0 \\
 0 & \ddots & 0 \\
 0 & 0 & \lambda_{m}^k
-\end{pmatrix}
+\end{pmatrix} }_{ \operatorname{diag}(\lambda_{1}^{k},\dots,\lambda_{m}^{k}) }
 $$
 Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente. 
 
@@ -118,6 +118,9 @@ Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
 $$
 e^{ tA } = e^{ \lambda t \mathbb{1} +t(A-\lambda \mathbb{1}) } = e^{ \lambda t \mathbb{1} } \cdot e^{ t(A-\lambda \mathbb{1}) } = e^{ \lambda t \mathbb{1} } \cdot \sum_{k=0}^{\infty}\frac{t^k}{k!} (A-\lambda \mathbb{1})^k
 $$
+
+> [!info] Zum Exponenten wird $+t\lambda \mathbb{1}-t\lambda \mathbb{1}$ hinzugerechnet.
+> $e^{t\mathbf{A}}=e^{ t\mathbf{A}+t\lambda \mathbb{1}-t\lambda \mathbb{1} }=$
 
 > [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Eigenvektor.md): 
 > - Die Vektoren $v$ werden für den Lösungsansatz dazumultipliziert, um die Diagonale Form der Exponenzialmatrix zu erhalten.

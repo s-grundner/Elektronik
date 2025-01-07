@@ -51,7 +51,7 @@ b_{m}(t)
 $$
 
 
-> [!def] D2 - AWP 1.2) Falls $b=\mathbf{0}$, dann heißt **AWP 1.1** ein **homogenes DGL-System**, ansonsten **inhomogen**
+> [!def] **D2 - AWP 1.2)** Falls $b=\mathbf{0}$, dann heißt **AWP 1.1** ein **homogenes DGL-System**, ansonsten **inhomogen**
 > zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP 1.2}$$
 
 > [!question]- Implizite Form eines inhomogenen DGL-Systems
