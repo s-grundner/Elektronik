@@ -28,12 +28,13 @@ professor:
 \draw (0,0) node[npn](npn){};
 \draw (npn.C) to[short, i<=$I_C$] ++(0,2) coordinate(v) node[vcc]{$U_0$};
 \draw (npn.E) to[R, l_=$R_{E}$, *-] (0,-3) coordinate(g) node[rground]{};
-\draw (npn.E) to[C] ++(2,0) coordinate(a) -- ++(1,0) to[R, l=$R_L$] (g -| 3,0) node[rground]{};
-\draw (a) to[open, v=$U_a$, o-o] (g -| 2,0) node[rground]{};
-\draw (npn.B) -- ++(-1,0) coordinate(b) to[R, l_=$R_2$] ++(g -| b) node[rground]{};
-\draw (b) to[R, l=$R_1$] ++(0,2) coordinate(c) to[short] (v -| c) node[vcc]{$U_0$};
-\draw (b) to[C, l_=$C_e$, *-o] -- ++(-1,0) to[R, l=$R_i$] ++(0,2) to[V, v=$U_g$] ++(g -| 0,0) node[ground]{};
-
+\draw (npn.E) to[C, l=$C_a$] ++(2,0) coordinate(a) -- ++(1,0) to[R, l=$R_L$] (g -| 3,0) node[rground]{};
+\draw (a) to[open, v=$u_a$, o-o] (g -| 2,0) node[rground]{};
+\draw (npn.B) to[short, i_<=$I_B$] ++(-1,0) coordinate(b) to[R, l_=$R_2$] ++(g -| 0,0) node[rground]{};
+\draw (b) to[R, l=$R_1$] ++(v -| 0, 0) node[vcc]{$U_0$};
+\draw (b) to[C, l_=$C_e$, *-] ++(-2,0) coordinate(c) to[R, l_=$R_i$] ++(-2,0) to[V, v_=$U_g$] ++(g -| 0,0) node[rground]{};
+\draw (c) to[open, v=$u_e$, o-o] ++(g -| 0,0) node[rground]{};
+\draw (npn.B) to[open, v=$U_{BE}$, voltage=curved] (npn.E);
 
 \end{circuitikz}
 \end{document}
