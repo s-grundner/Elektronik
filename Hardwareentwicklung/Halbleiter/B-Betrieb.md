@@ -8,13 +8,11 @@ created: 22. September 2023
 # B-Betrieb
 
 Im B-Betrieb liegt der Arbeitspunkt des Transistors am unteren Ende der Kennlinie.  
-Damit ist es dem Verstärker möglich die Signalamplitude (im Vergleich zum A-Betrieb) zu verdoppeln.  
+Damit ist es dem Verstärker möglich die Signalamplitude (im Vergleich zum [A-Betrieb](A-Betrieb.md)) zu verdoppeln.  
 Allerdings kann der [Transistor]({MOC}%20Transistor.md) dann nur eine Halbwelle verarbeiten.  
-Die andere Halbwelle muss durch einen zweiten [Transistor]({MOC}%20Transistor.md) im Gegentakt-Betrieb verstärkt werden.
+Die andere Halbwelle muss durch einen zweiten Transistor im Gegentakt-Betrieb verstärkt werden.
 
-> [!important] Bei dieser Schaltung handelt es sich dann um eine Gegentaktendstufe
-
-Der B-Betrieb wird bei Gegentaktendstufen durch den [AB-Betrieb](AB-Betrieb.md) ersetzt, da sonst durch die fehlende Basisvorspannung am [Transistor]({MOC}%20Transistor.md) Übernahmeverzerrungen auftreten entstehen.
+Der B-Betrieb wird bei Gegentaktendstufen durch den [AB-Betrieb](AB-Betrieb.md) ersetzt, da sonst durch die fehlende Basisvorspannung am Transistor Übernahmeverzerrungen auftreten entstehen.
 
 Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der untere PNP Transistor
 
@@ -33,12 +31,12 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 
 \draw (npn.B) -- (pnp.B);
 \draw (npn.E) -- (pnp.E);
-\draw (0,0) -- ++(1,0);
+\draw (0,0) to[short, -o] ++(1,0);
 
-\draw[] (npn.B) -- ++(-1,0) coordinate(a);
-\draw[] (0,0) -- ++(-1, 0) coordinate(b);
+\draw(npn.B) to[short, *-] ++(-1,0) coordinate(a);
+\draw(0,0) to[short, *-] ++(-1,0) coordinate(b);
 \draw[dashed, ->] (a) -- ++(-1,0);
-\draw[dashed, ->] (b) -- ++(-1, 0);
+\draw[dashed, ->] (b) -- ++(-1,0);
 
 
 \end{circuitikz}
@@ -54,9 +52,7 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 > \usepackage{tikz}
 > \usepackage{amsmath}
 > \pgfplotsset{compat=1.16}
-> 
 > \begin{document}
-> 
 > \begin{tikzpicture}[scale=2, font=\large]
 > \begin{axis}[
 >     thick, axis lines=middle,
@@ -68,10 +64,9 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 > \addplot[domain=-0.7:0.7, color=red]{0};
 > \end{axis}
 > \end{tikzpicture}
-> 
 > \end{document}
 > ```
 > 
-> - Kompensation mittels Gegenkopplung (z.B. durch OPV)
+> - Kompensation mittels Gegenkopplung (z.B. durch [OPV](../Operations-Verstärker.md))
 > - Weitere Lösung mittels Gegentaktendstufe (AB-Betrieb)
 
