@@ -19,7 +19,9 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-
+\ctikzset{bipoles/length=0.8cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
 \begin{document}
 \begin{circuitikz}[thick, scale=2, transform shape]
 % Begin Schematic
@@ -31,7 +33,7 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 
 \draw (npn.B) -- (pnp.B);
 \draw (npn.E) -- (pnp.E);
-\draw (0,0) to[short] ++(2,0) to[R, l_=$R_L$, v^=$U_a$, o-o] ++(0,-2) node[rground]{};
+\draw (0,0) to[short] ++(1,0) to[R, l_=$R_L$, v^=$U_a$, o-o] ++(0,-2) node[rground]{};
 
 \draw(npn.B) to[short, *-] ++(-1,0) coordinate(a);
 \draw(0,0) to[short, *-] (a |- -1,0) coordinate(b);

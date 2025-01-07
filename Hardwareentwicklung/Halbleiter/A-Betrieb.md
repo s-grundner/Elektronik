@@ -27,15 +27,17 @@ Eine Eigenschaft der Kollektorschaltung ist, dass sie zwar eine Spannungsverstä
 \usepackage{tikz}
 \usepackage{amsmath}
 \usetikzlibrary{arrows.meta}
-
+\ctikzset{bipoles/length=0.8cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[very thick, scale=2, transform shape]
+\begin{circuitikz}[thick, scale=2, transform shape]
 % NPN
 
 \draw (0,0) node[npn](npn){};
 \draw (npn.C) node[vcc]{$U_0$};
 \draw (npn.E) to[R, l_=$R_{E}$, *-] (0,-3) node[vee]{$-U_0$};
-\draw (npn.E) -- ++(2,0) to[R, l_=$R_L$, v^=$U_a$, o-o] (2, -3) node[rground]{};
+\draw (npn.E) -- ++(1,0) to[R, l_=$R_L$, v^=$U_a$, o-o] (1, -3) node[rground]{};
 \draw (npn.E) -- ++(-1,0) coordinate(a);
 \draw (npn.B) -- (a |- -1,0);
 \draw[dashed, -Triangle] (a) -- ++(-1,0) node[font=\small, text width=3cm, align=center, below]{zum Gegenkopplungsnetzwerk (hochohmig)};
