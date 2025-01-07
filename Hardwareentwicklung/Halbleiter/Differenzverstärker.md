@@ -63,9 +63,26 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 
 ### Gegentakt-Aussteuerung
 
-### Geichtakt-Aussteuerung
+$$U_{e1} = -U_{e2} = \frac{U_{d}}{2}$$
 
-## Gleichtaktunterdrückung (CMRR)
+> [!important] Schiefsymmetrische Aussteuerung mit Differenzspannung $U_{d}$
+> 
+> $$
+> \begin{align}
+> U_{e 1} \uparrow \implies I_{C 1} \uparrow \implies U_{a 1} \downarrow \\
+> U_{e 2} \downarrow \implies I_{C 2} \downarrow \implies U_{a 2} \uparrow
+> \end{align}
+> $$
+
+
+| Beitriebsparameter | Formel |
+| - | - |
+| **Differenzverstärkung** | $$A_{\mathrm{ed}}=\dfrac{u_{a 1}}{u_{e 1}-u_{e 2}} = \frac{u_{a 1}}{u_{d}}\implies u_{a 1}=A_{\mathrm{ed}}(u_{e 1}-u_{e 2})$$ |
+| **Differenzen-**<br>**eingangswiderstand**| $$r_{d}=\frac{u_{e 1}-u_{e 1}}{i_{B 1}}=\frac{u_{d}}{i_{B 1}}$$
+
+### Gleichtakt-Aussteuerung
+
+### Gleichtaktunterdrückung (CMRR)
 
 > [!question] Common-Mode Rejection Ratio (CMRR)
 
@@ -79,7 +96,7 @@ Es gibt an wie gut der Differenzenverstärker ungleiche Eingangssignale verstär
 Das Verhältnis der Differenzenverstärkung $A_{\mathrm{ed}}$ zur Gleichtaktverstärkung $A_{\mathrm{gl}}$ ist im idealfall für $R_{i}\to \infty$ unendlich groß.
 
 $$
-CMRR_{\text{ideal}} \to \infty\Big|_{R_{i}\to \infty}
+CMRR_{\text{ideal}} \to \infty\Bigg|_{R_{i}\to \infty}
 $$
 
 ## Schaltungsentwurf
