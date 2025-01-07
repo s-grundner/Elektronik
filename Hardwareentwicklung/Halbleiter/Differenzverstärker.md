@@ -58,5 +58,3 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 1. Verstärkung von DC-Signalen. (Andere Verstärker können das aufgrund des Hochpassverhaltens der Koppelkondensatoren nicht!)
 2. Die Subtraktion zweier Eingangssignale ermöglicht *gegengekoppelte* Schaltungen.
 3. Großer linearer Aussteuerbereich bei Verstärkern, da die Auswirkungen der Nichtlinearitäten in den Transistorkennlinien verringert werden.
-
-## Betriebsgrößen
