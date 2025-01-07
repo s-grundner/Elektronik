@@ -63,7 +63,7 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 
 ### Gegentakt-Aussteuerung
 
-$$U_{e1} = -U_{e2} = \frac{U_{d}}{2}$$
+$$\boxed{ U_{e1} = -U_{e2} = \frac{U_{d}}{2} }$$
 
 > [!important] Schiefsymmetrische Aussteuerung mit Differenzspannung $U_{d}$
 > 
@@ -75,12 +75,23 @@ $$U_{e1} = -U_{e2} = \frac{U_{d}}{2}$$
 > $$
 
 
-| Beitriebsparameter | Formel |
-| - | - |
-| **Differenzverstärkung** | $$A_{\mathrm{ed}}=\dfrac{u_{a 1}}{u_{e 1}-u_{e 2}} = \frac{u_{a 1}}{u_{d}}\implies u_{a 1}=A_{\mathrm{ed}}(u_{e 1}-u_{e 2})$$ |
-| **Differenzen-**<br>**eingangswiderstand**| $$r_{d}=\frac{u_{e 1}-u_{e 1}}{i_{B 1}}=\frac{u_{d}}{i_{B 1}}$$
+| Beitriebsparameter                         | Formel                                                                                                                      |
+| ------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------- |
+| **Differenzverstärkung**                   | $A_{\mathrm{ed}}=\dfrac{u_{a 1}}{u_{e 1}-u_{e 2}} = \frac{u_{a 1}}{u_{d}}\implies u_{a 1}=A_{\mathrm{ed}}(u_{e 1}-u_{e 2})$ |
+| **Differenzen-**<br>**eingangswiderstand** | $r_{d}=\dfrac{u_{e 1}-u_{e 1}}{i_{B 1}}=\dfrac{u_{d}}{i_{B 1}}$                                                             |
+| **Ausgangswiderstand**                     | $r_{a}=\dfrac{u_{a 1}}{i_{a 1}}$                                                                                            |
 
 ### Gleichtakt-Aussteuerung
+
+$$\boxed{ U_{e1} = U_{e2} = U_{\mathrm{gl}} }$$
+
+> [!important] Symmetrische Aussteuerung mit Gleichtaktspannung $U_{\mathrm{gl}}$
+> $$I_{E 1}=I_{E 2} = \frac{I_{0}}{2}\implies U_{a 1}=U_{a 2}=U_{0}-R_{C}\cdot I_{C}\approx U_{0}-R_{C} \frac{I_{0}}{2}$$
+
+| Beitriebsparameter            | Formel                                                                                                                                                      |                                        |
+| ----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **Gleichtaktverstärkung**     | $A_{\mathrm{gl}}=2\cdot \dfrac{u_{a 1}}{u_{e 1}-u_{e 2}}=\dfrac{u_{a 1}}{u_{\mathrm{gl}}}\implies u_{a 1}=\dfrac{A_{\mathrm{gl}}}{2}\cdot(u_{e 1}+u_{e 2})$ | $A_{\mathrm{gl}}$ ist idealerweise $0$ |
+| Gleichtakt-Eingangswiderstand | $r$                                                                                                                                                         |                                        |
 
 ### Gleichtaktunterdrückung (CMRR)
 
