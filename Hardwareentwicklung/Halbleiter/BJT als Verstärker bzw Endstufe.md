@@ -18,7 +18,8 @@
 \draw (npn.C) to[short] (0,2) node[vcc]{$U_0$};
 \draw (npn.E) to[R, l=$R_{E}$] (0,-2) node[ground]{};
 \draw (npn.E) -- ++(1,0) to[R=$R_L$] ++(0, -2) node[ground]{};
-\draw (npn.E) -- ++(-1,0) to[short] ++(-1,0);
+\draw (npn.E) -- ++(-1,0) coordinate(a);
+\draw[dashed, ->] (a) -- ++(-1,0);
 
 
 \end{circuitikz}
