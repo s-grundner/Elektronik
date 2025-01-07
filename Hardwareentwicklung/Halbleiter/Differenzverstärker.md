@@ -30,7 +30,12 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 \draw (npnLeft.C) to[R, l=$R_C$] ++(0,1) coordinate(v) node[vcc]{$U_0$};
 \draw (npnRight.C) to[R, l_=$R_C$] ++(0,1) node[vcc]{$U_0$};
 \draw (npnLeft.E) -- (npnLeft.E -| 0,0) coordinate(e) -- (npnRight.E);
-\draw (e) to[short, *-o]
+\draw (e) to[short, *-o] ++(0,-0.5) coordinate (iin) -- ++(0.5,0) to[R,l=$R_i$] ++(0,-2) -- ++(-0.5,0) to[short, o-] ++(0,-0.5) node[vee]{$-U_0$};
+\draw (iin) -- ++(-0.5, 0) to[I, i=$ $, l_=$I_0$] ++(0,-2) -- ++(0.5,0);
+\draw (npnLeft.B) to[open, v^=$U_{e1}$, o-o] ++(0,-2) coordinate(g) node[rground]{};
+\draw (npnRight.B) to[open, v^=$U_{e2}$, o-o] ++(0,-2) node[rground]{};
+\draw (npnLeft.C) -- ++(-3,0) to[open, v^=$U_a1$, o-o] ++(g -| 0,0) node[rground]{};
+\draw (npnRight.C) -- ++(3,0) to[open, v^=$U_a2$, o-o] ++(g -| 0,0) node[rground]{};
 \end{circuitikz}
 \end{document}
 ```
