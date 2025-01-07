@@ -1,0 +1,36 @@
+---
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Einführung Elektronik
+semester: WS24
+created: 7. Januar 2025
+professor:
+---
+ 
+
+# Differenzverstärker
+
+Ein Differenzverstärker ist ein Verstärker, der die Differenz zweier Eingangssignale verstärkt. 
+
+Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter gemeinsam an eine Stromquelle angschlossen sind realisiert.
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/length=0.8cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, transform shape]
+\draw (-1,0) node[npn](npnLeft){};
+\draw (1,0) node[npn, xscale=-1](npnRight){};
+\draw (npnLeft.C) to[R, l=$R_C$] ++(0,1) coordinate(v) node[vcc]{$U_0$};
+\draw (npnRight.C) to[R, l_=$R_C$] ++(0,1) node[vcc]{$U_0$};
+\draw (npnLeft.E) -- (npnLeft.E -| 0,0) coordinate(e) -- (npnRight.E);
+\draw (e) to[short, *-o]
+\end{circuitikz}
+\end{document}
+```

@@ -35,8 +35,9 @@ Im AB-Betrieb werden kleine Signale wie im [A-Betrieb](A-Betrieb.md) und große 
     node[text width=4cm, align=center, anchor=north west]{zum Gegenkopplungsnetzwerk (hochohmig)};
 \draw (a) -- ++(1,0) to[R, l_=$R_L$, v^=$U_a$, o-o] ++(0,-3)node[rground]{};
 \draw[dashed, Triangle-] (npn2.B) -- (npn2.B -| in)
-    node[text width=4cm, align=right, left]{vom Ausgang der Vorherigen Stufe};
-
+    node[text width=3cm, align=right, left]{vom Ausgang der Vorherigen Stufe};
+\end{circuitikz}
+\begin{circuitikz}[thick, scale=1.5, font=\small, transform shape]
 \draw (0,2) node[npn](npn){};
 \draw (0,-2) node[pnp](pnp){};
 \draw (npn.C) -- ++(0,1) coordinate(v) node[vcc]{$U_0$};
@@ -52,7 +53,7 @@ Im AB-Betrieb werden kleine Signale wie im [A-Betrieb](A-Betrieb.md) und große 
     node[text width=4cm, align=center, anchor=north west]{zum Gegenkopplungsnetzwerk (hochohmig)};
 \draw (a) -- ++(1,0) to[R, l_=$R_L$, v^=$U_a$, o-o] ++(0,-3)node[rground]{};
 \draw[dashed, Triangle-] (npn2.B) -- (npn2.B -| in)
-    node[text width=4cm, align=right, left]{vom Ausgang der Vorherigen Stufe};
+    node[text width=3cm, align=right, left]{vom Ausgang der Vorherigen Stufe};
 \end{circuitikz}
 \end{document}
 ```
