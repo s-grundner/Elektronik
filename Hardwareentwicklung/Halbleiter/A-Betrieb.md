@@ -14,3 +14,7 @@ Dabei wird die Betriebsspannung zwischen Kollektorwiderstand und [Transistor]({M
 Auf diese Weise fällt die Hälfte der Leistung, die vom Verstärker abgegeben wird, im Verstärker selbst ab und wird in Wärme umgesetzt.
 
 > [!important] Aus diesem Grund eignet sich ein Verstärker im A-Betrieb nur als Kleinsignal oder als Vorverstärker
+
+Alle Transistorverstärker mit primitiver Arbeitspunkteinstellung arbeiten im A-Betrieb.  
+
+- [Stromgesteuerte Spannungsgegenkopplung](Spannungseinstellung.md)

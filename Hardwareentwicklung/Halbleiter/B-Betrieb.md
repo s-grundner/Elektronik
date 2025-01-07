@@ -53,7 +53,7 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 > \usepackage{amsmath}
 > \pgfplotsset{compat=1.16}
 > \begin{document}
-> \begin{tikzpicture}[scale=2, font=\large]
+> \begin{tikzpicture}[scale=1.5, font=\large]
 > \begin{axis}[
 >     thick, axis lines=middle,
 >     xmin=-5, ymin=-5, xmax=5, ymax=5,
@@ -68,5 +68,5 @@ Bei Positiven Halbwellen leitet der obere NPN Transistor, bei negativen der unte
 > ```
 > 
 > - Kompensation mittels Gegenkopplung (z.B. durch [OPV](../Operations-Verstärker.md))
-> - Weitere Lösung mittels Gegentaktendstufe (AB-Betrieb)
+> - Weitere Lösung mittels Gegentaktendstufe ([AB-Betrieb](AB-Betrieb.md))
 
