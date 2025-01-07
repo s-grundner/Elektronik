@@ -23,7 +23,7 @@ Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen
 $$
 x_{p}(t)= X(t)\cdot c(t)
 $$
-wobei $X(t)$ die [Fundamentalmatrix](../Fundamentalmatrix.md) ist.
+wobei $X(t)$ die [Fundamentalmatrix](Fundamentalmatrix.md) ist.
 
 Durch ableiten unter anwendung der Produktregel:
 

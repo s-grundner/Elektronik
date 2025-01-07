@@ -72,7 +72,7 @@ professor:
 Aus den Sätzen 10.6 und 10.10 folgt übrigens, dass jede lineare Abbildung $L: X \rightarrow Y$ [Lipschitz-stetig](Analysis/Stetigkeit.md) ist, wenn $X, Y$ endlich-dimensional sind:
 Seien $B, C$ irgendwelche Basen für $X$ bzw. $Y$ und seien $n$ bzw. $m$ die Dimensionen von $X$ bzw. $Y$.
 
-Dann folgt mit dem jeweiligen [Skalarprodukt](Algebra/Skalarprodukt.md) und der davon induzierten Norm aus [Satz 10.10](Algebra/Skalarprodukt.md) sowie der Koordinatenmatrix $A_L$ unter Verwendung der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)):
+Dann folgt mit dem jeweiligen [Skalarprodukt](Skalarprodukt.md) und der davon induzierten Norm aus [Satz 10.10](Skalarprodukt.md) sowie der Koordinatenmatrix $A_L$ unter Verwendung der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)):
 
 $$
 \|L x\|^2=\sum_{i=1}^m\left(\sum_{j=1}^n a_{i j}^L x_j\right)^2 \leq \sum_{i=1}^m\left(\sum_{j=1}^n\left(a_{i j}^L\right)^2\right)\left(\sum_{j=1}^n x_j^2\right)=\left(\sum_{i=1}^m \sum_{j=1}^n\left(a_{i j}^L\right)^2\right)\|x\|^2

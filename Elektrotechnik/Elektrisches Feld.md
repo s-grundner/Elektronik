@@ -9,6 +9,7 @@ aliases:
   - Elektrische Feldstärke
   - elektrisches Feld
   - elektrischen Feld
+  - elektrische Feld
 keywords: 
 subject:
   - Einführung Elektrotechnik
@@ -70,8 +71,9 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 > [!warning] Unterschied zum G-Feld
 > Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.
 
-## Feldstärke in einem Leiter
+## Elektrische Feldstärke in einem Leiter
 
+> [!def] Elektrische Feldstärke in einem Leiter
 $$
 \begin{align}
 &\vec{E} = \frac{\vec{J}}{\sigma}=\vec{J}\cdot \rho

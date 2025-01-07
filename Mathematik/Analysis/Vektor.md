@@ -12,13 +12,10 @@ created: 28th September 2022
 
 # Vektoren
 
-
-
-
 ![500](VectorMatrixTensor.png)
 
-- [Skalarprodukt](Skalarprodukt.md)
-- [Kreuzprodukt](Kreuzprodukt.md)
+- [Skalarprodukt](../Algebra/Skalarprodukt.md)
+- [Kreuzprodukt](../Algebra/Kreuzprodukt.md)
 
 # Tags
 

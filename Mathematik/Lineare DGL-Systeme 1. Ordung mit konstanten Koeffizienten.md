@@ -61,7 +61,7 @@ $$
 \underbrace{ e^{(t-t_{0}) A } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
 $$
 
-Die [Fundamentalmatrix](Fundamentalmatrix.md) ist also $e^{ tA }$.
+Die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) ist also $e^{ tA }$.
 
 Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}=\mathbb{1}$.
 

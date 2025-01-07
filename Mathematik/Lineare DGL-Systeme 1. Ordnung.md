@@ -32,7 +32,7 @@ hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I
 > [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 > > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)…
-> > … sind Vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) möglich.
+> > … sind Vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) möglich.
 > > - siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 
 $$
@@ -58,7 +58,7 @@ $$
 > $C(t)x'=A(t)x+b(t)$ mit $C(t) \in \mathbb{R}^{m \times m}$.
 > So ein System lässt sich nur dann in ein explizites umschreiben, wenn die Matrix $C(t)$ für alle $t$ regulär ist.
 
-Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
+Man kann den Satz von [Picard-Lindelöf](Analysis/Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
 
 - $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$ (also $f: I \to \mathbb{R}$ )
 - $K \subseteq I$ … $K$ ist ein abgeschlossenes Teilintervall
@@ -118,7 +118,7 @@ Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ lin
 > Man erhält alle Lösungen von AWP 1.1, indem man zu irgendeiner festen **partikulären** Lösung von AWP 1.1 alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 
-> [!question] Wie kommt man von der [[Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
+> [!question] Wie kommt man von der [[Analysis/Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
 > mit [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md)
 > - Die konstante $c$ wird zu $c(t)$
 

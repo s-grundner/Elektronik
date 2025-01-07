@@ -29,7 +29,7 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
 > 
 > **Intervall**: $I=[a,b], t \in I$
 > **Diskretisierung** (äquidistand):
-> 
+>
 > ```tikz
 > \usepackage{pgfplots}
 > \usepackage{tikz}
@@ -51,7 +51,7 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
 > \end{tikzpicture}
 > \end{document}
 > ```
-> 
+>
 > Das intervall wird also in gleiche Teile mit der länge $h$ unterteilt. Der letzte Teil ist jedoch möglicherweise kleiner, da $N$ nicht unbedingt durch $h$ teilbar ist.
 > Der Abbildung kann man entnehmen, dass:
 > $$t_{k}=t_{k-1}+h_{k} \quad \text{ mit } k=1, \ldots, N,\quad t_{0}=a, \quad t_{N}=b$$
@@ -69,7 +69,7 @@ Wir möchten Näherungen $x_{k}$ für $x(t_{k})$ berechnen.
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ des [Euler-Verfahrens](Euler-Verfahren.md) zu einer **Verfahrensfunktion** $\phi$.
 
-> [!def] **D1 - ESV)**  Definition des expliziten Einschrittverfahrens
+> [!def] **D1 - ESV)** Definition des expliziten Einschrittverfahrens
 > 
 > Ein ESV Erzeugt eine Gitterfunktion nach der Vorschrift:
 > $$x_{k} = x_{k-1} + h\cdot \underbrace{ \phi(t_{k-1}, x_{k-1}, h) }_{ \text{Verfahrensfunktion} }\tag{ESV}$$
@@ -121,7 +121,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > > Je höher das $q$ ist, desto schneller Konvergiert der Fehler gegen 0.
 > > $$\iff \lim_{ h \to 0 }\operatorname{sup} \frac{\lVert \tau \rVert_{\infty}}{h^{q}}<\infty  $$
 > > $\lVert \tau \rVert_{\infty}$ fällt nicht schwächer ab als $h^{q}$ für $h \to 0$.
-> > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[ Maximumsnorm](../Maximumsnorm.md)
+> > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[Maximumsnorm](../Maximumsnorm.md)
 
 
 > [!question] Was passiert, wenn beim **LDF** $h\to 0$ geht? 
@@ -167,7 +167,7 @@ Konsistenzordnung $q$ $\to$ Konvergenzordnung $q$: **LDF (iii)** $\implies$ **GD
 Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich mehrstufige Einschrittverfahren.
 
 > [!question] Unterschied zwischen **Stufe** und **Schritt**
-> 
+>
 > ```tikz
 > \usepackage{pgfplots}
 > \usepackage{tikz}
@@ -191,7 +191,6 @@ Man möchte Verfahren höherer Konvergenzordnung entwickeln. Dazu eignen sich me
 > \end{document}
 > ```
 >
-
  Die Koeffizienten $b_{i}\in [t_{k-1}, t_{k}]$ geben an, wie der Schritt geteilt wird. Wie mann sieht, ist die teilung nicht mehr äquidistant. Die Koeffizienten sind Gewichte zum Teilungsintervall an und ergeben in Summe 1. 
 
 Wie bei den Quadraturformeln der Numerischen Integration macht man für Mehrstufige Einschrittverfahren eine Gewichtung der Funktionswerte an verschiedenen Stützstellen, sodass der Ansatz für die $s$-Stufige Verfahrensfunktion lautet:

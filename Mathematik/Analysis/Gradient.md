@@ -1,13 +1,11 @@
 ---
 tags:
-  - Infinitesimalrechnung/Differenzieren
+  - Analysis/Infinitesimalrechnung/Differenzieren
 aliases:
   - Jacobi-Matrix
   - Funktionalmatrix
   - Gradienten
-  - Definition 11.7
   - Hessematrix
-  - Hessian
   - Hesse-Matrix
 keywords: 
 subject:
@@ -17,27 +15,23 @@ semester: SS24
 created: 19. März 2024
 professor:
   - Andreas Neubauer
+def:
+  - GRAD
 ---
 
 # Gradient
 
-> [!important] **Definition 11.7 (a)** Sei $A \subset \mathbb{R}^n$ offen.
-> Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$. $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Grenzwert]] existiert:
-> $$
-> \lim _{t \rightarrow 0} \frac{f\left((x_1, \ldots, x_{j-1}, x_j+t), (x_{j+1}, \ldots, x_n)\right)-f(x)}{t}=: \frac{\partial f}{\partial x_j}(x)
-> $$
+> [!def] **D1 - GRAD)** Gradient. Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$
+> Ist $f$ [partiell](Partielle%20Ableitung.md) differenzierbar in $x$, liefert der Gradient von $f$ den [Vektor](Vektor.md) aller partiellen Ableitungen an der Stelle $x$:
 > 
-> Dieser heißt dann [[partielle Ableitung]] von $f$ nach $x_j$ (auch bezeichnet mit $f_{x_j}(x)$ ). Falls in $x$ alle partiellen Ableitungen existieren, so heißt $f$ partiell differenzierbar in $x$ und
-> 
-> $$
-> \operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)
-> $$
-> der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch das Symbol $\nabla f(x)$ (lies: *[Nabla](Nabla%20Operator.md)* $f$ ).
+> $$\operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)$$
+> der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch den [Nabla Operator](Nabla%20Operator.md) $\nabla f(x)$ (lies: Nabla $f$ ).
+
+Die Funktion $f:A\to \mathbb{R}$ ist ein Skalarfeld. Wendet man den Gradienten darauf an, so erhält man ein Vektorfeld mit der Besonderen Eigenschaft der [Wegunabhängigkeit](Wegunabhängig.md)
 
 ## Jacobi [Matrix](Algebra/Matrix.md)
 
-> [!important] **Definition 11.7 (b)** Sei $A \subset \mathbb{R}^n$ offen.
->  (b) Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
+> [!def] **D2 - JACM)** Jakobi Matrix. Sei $A \subset \mathbb{R}^n$ offen. Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
 > Falls $\frac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[Matrix]]
 > 
 > $$
@@ -52,7 +46,7 @@ professor:
 
 ## Hesse [Matrix](Algebra/Matrix.md)
 
-> [!info] Die Matrix die sich bei der zweiten partiellen Ableitung ergibt ist die Hessematrix
+> [!def] **D2 - HESM)** Die Matrix die sich bei der zweiten partiellen Ableitung ergibt ist die Hessematrix
 > $$
 > H_f(x):=\left(\begin{array}{ccc}
 \frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
@@ -78,6 +72,3 @@ professor:
 > \end{pmatrix} }$$
 >
 
-# Beispiele
-
-![4000](assets/Excalidraw/Gradient%202024-03-19%2017.18.35.excalidraw.md)

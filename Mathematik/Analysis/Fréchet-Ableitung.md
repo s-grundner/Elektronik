@@ -42,7 +42,7 @@ professor:
 > $f \in C^1\left(A, \mathbb{R}^m\right) \Longrightarrow f$ Fréchet-differenzierbar $\Longrightarrow$ alle partiellen Ableitungen von $f$ existieren;
 > es gilt keine der möglichen Umkehrungen.
 > 
-> > [!tldr] Die Fréchetableitung ist, falls sie existiert, durch die [Jacobi-Matrix](../Gradient.md) gegeben
+> > [!tldr] Die Fréchetableitung ist, falls sie existiert, durch die [Jacobi-Matrix](Gradient.md) gegeben
 >
 
 ## Fréchet Differenzierbarkeit

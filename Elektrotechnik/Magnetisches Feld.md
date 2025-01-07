@@ -78,16 +78,15 @@ es ergibt sich die *induzierte* Spannung:
 
 $$u_{ind}=\frac{d\Phi}{dt}$$
 
-> [!hint]- zweite [Maxwell](Maxwell.md)-Gleichung 
-> Diese Wirbelfelder werden durch das Faraday'sche Gesetz (2. MWG) beschrieben:
-> $$\oint \vec{E} \cdot d \vec{s}=-\int \frac{\partial \vec{B}}{\partial t} \cdot d \vec{A}$$
-> In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds.
-> Die Fläche ist jene die der Leiter Aufspannt.
-> Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint \vec{E}\cdot d\vec{s} = 0$
+> [!hint] dritte [Maxwell](Maxwell.md)-Gleichung 
+> Diese Wirbelfelder werden durch das Faraday'sche Gesetz (3. MWG) beschrieben:
+> $$\oint_{\partial A} \vec{E} \cdot d \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \cdot d \vec{A}$$
+> In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds. Die Fläche ä$A$ ist jene die der Leiter Aufspannt und die Kontur $\partial A$ der leiter selbst.
+> 
+> Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$
+> Also dass die Spannung an den Klemmen 0 ist.
 
 ### Bewegungsinduktion
-
-![[../assets/Excalidraw/Drawing 2024-03-13 10.24.40.excalidraw]]
 
 ![invert_dark](assets/BewegterLeiter.png)
 
@@ -101,5 +100,3 @@ $I = \int  \vec{J}\cdot d\vec{A} \iff \Phi = \int \vec{B}\cdot d\vec{A}$
 <!--SR:!2024-03-16,1,230-->
 
 # Übung
-
-![[../assets/Excalidraw/magnetisches Feld 2024-03-18 23.46.01.excalidraw]]

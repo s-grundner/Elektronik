@@ -15,10 +15,10 @@ professor:
   - Bernhard Jakoby
 ---
 
-# Kollektorfolger / Emitterfolger
+# Kollektorfolger / Emitterschaltung
 
 > [!info] Auch **Emitterschaltung** genannt,
-> da der gemeinsame Bezugspunkt von Ein- und Ausgang der Emitter ist.
+> da der gemeinsame Bezugspunkt von Einund Ausgang der Emitter ist.
 
 > [!quote] Die Emitterschaltung bewirkt eine Gleichstromgesteuerte [Spannungsgegenkopplung](Spannungseinstellung.md)
 > Die Parallelkapazität $C_{\mathrm{E}}$ am Emitterwiderstand $R_{\mathrm{E}}$ bewirkt eine frequenzabhängige Gegenkopplung, die nur für Gleichgrößen und Frequenzen unterhalb der kleinsten interessierenden Signalfrequenz wirkt und für höhere Frequenzen teilweise (oder sogar komplett) unwirksam ist.
@@ -72,7 +72,6 @@ professor:
 \end{document}
 ```
 
-
 ## Kleinsignal Ersatzschaltbild
 
 ```tikz
@@ -90,6 +89,7 @@ professor:
 \end{circuitikz}
 \end{document}
 ```
+
 # Quellen
 
 [Elektronik Kompendium](https://www.elektronik-kompendium.de/sites/slt/0204302.htm)

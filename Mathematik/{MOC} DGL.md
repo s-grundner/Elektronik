@@ -1,7 +1,7 @@
 ---
 tags:
   - MOC
-  - Infinitesimalrechnung
+  - Analysis/Infinitesimalrechnung
   - DGL
 aliases:
   - DGL
@@ -25,14 +25,14 @@ def:
 
 > [!info] Arten von Differentialgleichungen
 >
-> | gewöhnlich             | partiell                     |
-> | --------------------- | ---------------------------- |
-> | Linear                | Nichtlinear                  |
-> | homogen               | inhomogen                    |
-> | konstaner Koeffizient | nicht-konstanter Koeffizient | 
-> 
-> > [!info] Ordnung
-> > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
+> | gewöhnlich | partiell |
+> | - | - |
+> | Linear | Nichtlinear |
+> | homogen | inhomogen |
+> | konstaner Koeffizient | nicht-konstanter Koeffizient |
+
+> [!info] Ordnung
+> Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
 > [!def] **D1 - DGL)** Allgemeine Form
 > 
@@ -49,8 +49,6 @@ def:
 > **DGL-System**: Ein System aus mehreren Differentialgleichungen die voneinander abhängen
 > 
 
-
-
 ## Anfangswert Problem (AWP)
 
 Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung zusammen mit einer Anfangsbedingung gegeben ist. 
@@ -59,7 +57,7 @@ Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung
 > $$ x_{0} := x(t_{0}), \quad x_{0}' := x'(t_{0}), \quad \ldots, \quad x_{0}^{(n-1)} := x^{(n-1)}(t_{0}) $$
 
 
-> [!def] **D1 - AWP)** Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
+> [!def] **D2 - AWP)** Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
 > 
 > $x$ heißt Lösung des Anfangswertproblems, wenn es ein Intervall $I$ mit $t_0 \in I$ gibt,
 > sodass $x: I \rightarrow \mathbb{R}^m$ differenzierbar ist, $g r(x) \subset D$ gilt und
@@ -92,7 +90,6 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 ## Numerische Lösungen
 
 - [Numerische Lösungsverfahren von DGL](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
-
 
 # Tags
 

@@ -40,5 +40,5 @@ satz: []
 > - *unendlich* dimensionales Problem der Bestimmung von Funktionen, wird in *endlich* dimensionale Aufgabe transformiert.
 > - die Berechnung von [Vektoren](Vektor.md) mit reellwertigen Komponenten.
 
-Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangswert-, Randwert- und Eigenwertprobleme definiert.
+Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangswert-, Randwertund Eigenwertprobleme definiert.
 

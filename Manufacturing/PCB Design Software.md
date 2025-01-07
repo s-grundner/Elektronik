@@ -1,4 +1,13 @@
-## PCB Design Software
+---
+tags: 
+aliases:
+  - ECAD
+  - CAM
+created: 8. November 2024
+cited:
+---
+
+# PCB Design Software
 
 At the center of PCB design is the use of specialized electronics CAD (ECAD) software. An entire industry has developed around ECAD tools for PCB design, as well as specialized electrical simulators that are used to evaluate designs before they are manufactured. There is also a host of manufacturing software that is used to prepare a design for fabrication and assembly using automated machinery, called computer aided manufacturing (CAM) software. In this course, we won’t focus so much on using CAM software, although we will look at the steps needed to take a finished design and prepare it for manufacturing.
 

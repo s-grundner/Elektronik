@@ -36,6 +36,11 @@
 	{trigger: "d..", replacement: "\\ddots", options: "mA", priority: 1},
 	{trigger: "c..", replacement: "\\cdots", options: "mA", priority: 1},
 	{trigger: "tag", replacement: "\\tag{$0}$1", options: "mA", priority: 1},
+	{trigger: "grad", replacement: "\\operatorname{grad}", options: "mA", priority: 1},
+	{trigger: "div", replacement: "\\operatorname{div}", options: "mA", priority: 1},
+	{trigger: "rot", replacement: "\\operatorname{rot}", options: "mA", priority: 1},
+	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "mA", priority: 1},
+    
 	
 	
 	// Default
