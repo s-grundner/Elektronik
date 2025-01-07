@@ -24,7 +24,7 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 \ctikzset{diodes/scale=0.8}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, transform shape]
+\begin{circuitikz}[thick, scale=1.5, transform shape, font=\large]
 \draw (-1,0) node[npn](npnLeft){};
 \draw (1,0) node[npn, xscale=-1](npnRight){};
 \draw (npnLeft.text) node[right]{$T_1$};
@@ -59,9 +59,32 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 2. Die Subtraktion zweier Eingangssignale ermöglicht *gegengekoppelte* Schaltungen.
 3. Großer linearer Aussteuerbereich bei Verstärkern, da die Auswirkungen der Nichtlinearitäten in den Transistorkennlinien verringert werden.
 
+## Betriebsparameter
+
+### Gegentakt-Aussteuerung
+
+### Geichtakt-Aussteuerung
+
+## Gleichtaktunterdrückung (CMRR)
+
+> [!question] Common-Mode Rejection Ratio (CMRR)
+
+Das Gleichtaktunterdrückungsverhältnis ist gegeben durch:
+
+$$
+CMRR = \left\lvert \frac{A_{\mathrm{ed}}}{A_{\mathrm{gl}}} \right\rvert 
+$$
+
+Es gibt an wie gut der Differenzenverstärker ungleiche Eingangssignale verstärkt während er gleichanteile unterdrückt.
+Das Verhältnis der Differenzenverstärkung $A_{\mathrm{ed}}$ zur Gleichtaktverstärkung $A_{\mathrm{gl}}$ ist im idealfall für $R_{i}\to \infty$ unendlich groß.
+
+$$
+CMRR_{\text{ideal}} \to \infty\Big|_{R_{i}\to \infty}
+$$
+
 ## Schaltungsentwurf
 
-Die Einfachste Möglichkeit die Stromquelle zu realisieren it mittels eines einfachen Widerstandes
+Die Einfachste Möglichkeit die Stromquelle zu realisieren ist mittels eines einfachen Widerstandes
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -87,6 +110,8 @@ Die Einfachste Möglichkeit die Stromquelle zu realisieren it mittels eines einf
 \end{document}
 ```
 
-Dabei Treten jedoch einige Probleme auf:
-- Um einen möglichst konstanten Strom zu erhalten, muss der Innenwiderstand $R_i$ sehr groß sein. 
-- Ein großer $R_{\mathrm{i}}$ führt jedoch zu einem schlechten Arbeitspunkt: Die Meiste Spannung fällt am Widerstand ab, was zu einer geringen **gegentakt** Verstärkung führt. 
+> [!warning] Dabei Treten jedoch einige Probleme auf:
+> - Um einen möglichst konstanten Strom zu erhalten, muss der Innenwiderstand $R_i$ sehr groß sein. 
+> - Ein großer $R_{i}$ führt jedoch zu einem schlechten Arbeitspunkt: Die Meiste Spannung fällt am Widerstand ab, was zu einer geringen **gegentakt** Verstärkung führt (kleiner Aussteuerbereich). 
+> 
+> Fazit: Für Sinnvollen Arbeitspunkt $R_{i}\approx R_{C}$ $\implies$ damit ist aber das CMRR niedrig, was aber Relevant für die Verstärkung der **Differenz** ist.
