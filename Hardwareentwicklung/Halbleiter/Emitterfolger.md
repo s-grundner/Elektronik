@@ -45,7 +45,7 @@ professor:
 
 ## Arbeitspunkt
 
-$R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch [Stromgesteuerte Spannungsgegenkopplung](Spannungseinstellung.md)
+$R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch [Stromgesteuerte Spannungsgegenkopplung](Spannungseinstellung.md#Stromgesteuerte%20Spannungsgegenkopplung)
 
 > [!WARNING] Für stabilen Arbeitspunkt soll $U_{RE}>1V$
 

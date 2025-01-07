@@ -107,19 +107,14 @@ Durch Einbau einer Gegenkopplung kann der Arbeitspunkt stabilisiert werden. Eine
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-
 \begin{document}
-
 \begin{circuitikz}[thick, scale=1.5, transform shape]
-
-%npn
 \draw (0,0) node[npn](npn){};
-\draw (npn.B) to[short, i^=$I_{B}$] ++(-1, 0) coordinate(b);
+\draw (npn.B) to[short, i<=$I_{B}$, -*] ++(-1, 0) coordinate(b);
 \draw (npn.C) to[R, l_=$R_{C}$] ++(0, 2) coordinate(v) node[vcc]{$U_0$};
 \draw (npn.E) to[R, l_=$R_{E}$, v^=$U_{E}$, color=red] ++(0, -2) coordinate(g) node[rground]{};
-\draw (b) to[R, l^=$R_{2}$, -|] ++(g) node[rground]{};
-\draw (b) to[R=$R_{1}$, i=$I_{q}$, -|] ++(v) node[vcc]{$U_0$};
-
+\draw (b) to[R, l_=$R_{2}$, -|] ++(g) node[rground]{};
+\draw (b) to[R=$R_{1}$, i<=$I_{q}$, -|] ++(v) node[vcc]{$U_0$};
 \end{circuitikz}
 \end{document}
 ```
