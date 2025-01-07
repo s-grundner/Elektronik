@@ -110,26 +110,15 @@ Durch Einbau einer Gegenkopplung kann der Arbeitspunkt stabilisiert werden. Eine
 
 \begin{document}
 
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, scale=1.5, transform shape]
 
-% Paths, nodes and wires:
-\node[tlground] at (0, 0) {};
-\node[tlground] at (2, 0) {};
-
-\node[npn] at (2, 3) {};
-
-\draw (0, 2) to[R, l^=$R_{2}$] (0, 0);
-\draw (0, 6) to[R=$R_{1}$, i>^=$I_{q} + I_{B}$] (0, 4);
-\draw (2, 6) to[R=$R_{C}$, v=$U_{E}$] (2, 4);
-\draw (2, 2) to[R=$R_{E}$, v=$U_{E}$, color=red] (2, 0);
-
-\node[vcc] at (0, 6) {$+12V$};
-\node[vcc] at (2, 6) {$+12V$};
-
-\draw (2, 4) -- (2, 3.75);
-\draw (1.16, 3) -| (0, 4);
-\draw (0, 2) -- (0, 3);
-\draw (2, 2) -- (2, 2.23);
+%npn
+\draw (0,0) node[npn](npn){};
+\draw (npn.B) to[short, i^=$I_{B}$] ++(-1, 0) coordinate(b);
+\draw (npn.C) to[R, l_=$R_{C}$] ++(0, 2) coordinate(v) node[vcc]{$U_0$};
+\draw (npn.E) to[R, l_=$R_{E}$, v^=$U_{E}$, color=red] ++(0, -2) coordinate(g) node[rground]{};
+\draw (b) to[R, l^=$R_{2}$, -|] ++(g) node[rground]{};
+\draw (b) to[R=$R_{1}$, i=$I_{q}$, -|] ++(v) node[vcc]{$U_0$};
 
 \end{circuitikz}
 \end{document}

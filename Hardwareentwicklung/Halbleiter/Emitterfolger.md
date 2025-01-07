@@ -43,24 +43,26 @@ professor:
 
 > [!warning] Anders als bei der [Emitterschaltung](Kollektorfolger.md) gibt es **keine** Phasenverschiebung.
 
-## Betriebsparameter
-
-### Eingangswiderstand
-
-![Pasted image 20221121145330](../assets/1NoteKollSchRE.png)
-
-
-### Kollektorschaltung Als Impedanzwandler
-
-Eine Berechnung der Spannungsverstärkung liefert $\approx 1$. Jedoch ist hier die Stromverstärkung sehr hoch sodass auch hohe Lasten angesteuert werden können, ohne dass die Spannugsverstärkung sinkt. Diese Schaltung ist relevant als [Endstufe](BJT%20als%20Verstärker%20bzw%20Endstufe.md) für große Leistungen
-
-
 ## Arbeitspunkt
 
-$R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch Stromgesteuerte Spannungsgegenkopplung
+$R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer eine Stabilisierung durch [Stromgesteuerte Spannungsgegenkopplung](Spannungseinstellung.md)
 
 > [!WARNING] Für stabilen Arbeitspunkt soll $U_{RE}>1V$
 
 ## Kleinsignalverhalten
 
 ![ksv_kollektorschaltung](../assets/ksv_kollektorschaltung.png)
+
+## Betriebsparameter
+
+> [!question] [Betriebsparameter](Betriebsparameter.md)
+> - Eingangswiderstand $r_e$
+> - Ausgangswiderstand $r_a$
+> - Leerlaufspannungsverstärkung $A_0$ 
+
+![Pasted image 20221121145330](../assets/1NoteKollSchRE.png)
+
+### Kollektorschaltung Als Impedanzwandler
+
+Eine Berechnung der Spannungsverstärkung liefert $\approx 1$. Jedoch ist hier die Stromverstärkung sehr hoch sodass auch hohe Lasten angesteuert werden können, ohne dass die Spannugsverstärkung sinkt. Diese Schaltung ist relevant als [Endstufe](BJT%20als%20Verstärker%20bzw%20Endstufe.md) für große Leistungen
+
