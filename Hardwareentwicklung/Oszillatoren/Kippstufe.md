@@ -6,11 +6,15 @@ aliases:
   - Kippschaltung
   - astabiler Multivibrator
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
+  - VL
+  - Einführung Elektronik
 created: 3rd January 2023
+keywords: 
+semester: WS24
+professor:
+  - Bernhard Jakoby
 ---
+ 
 
 # Kippstufen
 
