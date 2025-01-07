@@ -1,7 +1,6 @@
 ---
 tags:
   - HTL-Diplomarbeit
-  - incomplete
   - Algorithmus/Informatik
 aliases:
   - Diskrete Fourier Transformation
@@ -9,11 +8,13 @@ aliases:
   - Synthesegleichung
   - Analysegleichung
 created: 27. Dezember 2023
-source:
-  - Laurenz Hölzl
-  - Daniel Ch. v. Grüningen
-cited: true
 complexity: $\mathcal{O}(n^{2})$
+semester: WS24
+professor:
+  - Andreas Stelzer
+subject:
+  - Signale und Systeme
+cited: true
 ---
 
 # Diskrete [Fourier Transformation](Fourier%20Transformation.md)

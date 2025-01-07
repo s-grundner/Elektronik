@@ -169,6 +169,12 @@ $$
 
 ## Stabilität des Systems
 
+Polstellen bei verschiedenen Schwingbedingungen:
+
+- Schwingfall: Pole sind rein konjugiert Komplex
+- Kriechfall: Pole sind rein reell
+- Grenzfall: Pole wander zusammen bis sie auf der Imaginärachse sind
+
 Polstellenlage vs. Zeitbereichssignal
 
 ```tikz
