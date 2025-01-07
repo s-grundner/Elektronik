@@ -2,9 +2,17 @@
 tags:
   - Baugruppen/Leistung
   - Halbleiter/BJT
+  - tikz/circuitikz
 aliases: 
 created: 21. September 2023
+keywords: 
+subject:
+  - VL
+  - Einführung Elektronik
+semester: WS24
+professor:
 ---
+ 
 
 # Stromspiegel
 
@@ -29,9 +37,9 @@ created: 21. September 2023
 \draw (t1.B) to[short, i<=$I_B$] (m) to[short, i=$I_B$] (t2.B);
 \draw (t1.E) node[rground]{};
 \draw (t2.E) node[rground]{};
-\draw (t1.C) to[short,i<=$I_1-2\cdot I_B$, -*] ++(0,1) coordinate(t1c) to[R, l=$R_1$, i^<=$I_1$] (v -| t1.C) node[vcc]{$U_B$};
+\draw (t1.C) to[short,i<=$I_1-2\cdot I_B$, -*] ++(0,1) coordinate(t1c) to[R, l=$R_1$, i^<=$I_1$, v<=$U_1$] (v -| t1.C) node[vcc]{$U_B$};
 \draw (t1c) -- (m |- t1c) to[short, i_=$2\cdot I_B$,-*] (m);
-\draw (t2.C) -- (t2.C |- t1c) to[R, l=$R_L$, i<=$I_L$, v=$$] (v -| t2.C) node[vcc]{$U_B$};
+\draw (t2.C) -- (t2.C |- t1c) to[R, l=$R_L$, i^<=$I_L$, v<=$U_L$] (v -| t2.C) node[vcc]{$U_B$};
 \draw (m) to[open, v=$U_{BE}$, -o] (g) node[rground]{};
 \end{circuitikz}
 \end{document}

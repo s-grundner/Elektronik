@@ -7,7 +7,8 @@ aliases:
   - Basis-Spannungsteiler
   - Basisspannungsteiler
 keywords:
-  - $\Delta B$
+  - $\Delta B$ Stabil
+  - $\Delta T$ empfindlich
 subject:
   - VL
   - Einführung Elektronik
@@ -60,35 +61,23 @@ Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cd
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-
+\ctikzset{bipoles/length=0.8cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=1, font=\large]
-% Begin Schematic
-
-\draw (0,1) to[R=$R_C$] (0,3);
-\draw (0,0) node[npn]{};
-
-\draw (-1,-0.3) to[open, v=$U_{BE}$] (0,-1);
-
-\draw (-2, 0) to[short] (-0.5, 0);
-\draw (0,-0.5) to[short] (0,-2);
-\draw (0,0.5) to[short] (0,1);
-
-\draw (-2, 0) to[R=$R_1$] (-2, 3);
-\draw (-2, -2) to[R=$R_2$] (-2, 0);
-
-\node[tlground] at (0, -2) {};
-\node[tlground] at (-2, -2) {};
-
-\node[vcc] at (0, 3) {$U_0$};
-\node[vcc] at (-2, 3) {$U_{0}$};
-
-
+\begin{circuitikz}[thick, scale=1.5, transform shape]
+\coordinate (g) at (0, -2);
+\coordinate (v) at (0, 3);
+\draw (0,0) node[npn](npn){};
+\draw (npn.C) to[R=$R_C$, i<=$I_{C,0}$] (npn.C |- v)node[vcc]{$U_0$};
+\draw (-1,-0.3) to[open, v=$U_{BE,0}$] (0,-1);
+\draw (-2, 0) to[short, i=$I_{B,0}$, *-] (npn.B);
+\draw (npn.E) to[short] (npn.E |- g) node[rground]{};
+\draw (-2, 0) to[R, l=$R_1$] (-2, 3) node[vcc]{$U_0$};
+\draw (-2, 0) to[R, l_=$R_2$, i=$I_2$] (g -| -2,0) node[rground]{};
 \end{circuitikz}
 \end{document}
 ```
-
-![](assets/{C5B56692-745F-4AD1-8787-D9CB3B1CB076}.png)
 
 > [!warning] Vor und Nachteile
 > - ✅Unempfindlich gegenüber Verstärkungsabweichungen 
