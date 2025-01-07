@@ -22,10 +22,15 @@ professor:
 - In der Regel wird der Zustand eines Systems durch mehrere Größen beschrieben
 - Häufig werden Systeme mit mehreren Eingängen und mehreren Ausgängen betrachtet
 
-Im RC: Spannung am C
-Im RLC: Spannung am C und Strom in L
+Zustandsgrößen sind Variablen die auskunft über die vom System beinhaltete Energie geben. 
 
-Der Zustandsraum ist die Vorbeireitung um Systeme auf eine beliebige anzahl von ein und AUsgängen zu erweitern (MIMO)
+- Im Feder-Masse-Dämpfer-System: Geschwindigkeit $v$ und Auslenkung $x$
+- Im RC: Spannung am C $u_{c}(t)$
+- Im RLC: Spannung am C $u_{c}(t)$ und Strom in L $i_{l}(t)$
+
+
+
+Der Zustandsraum ist die Vorbeireitung um Systeme auf eine beliebige anzahl von ein und Ausgängen zu erweitern (MIMO)
 
 >[!example] Zustandsbeschreibung eines Parallelschwingkreis
 > Relevant ist, wo hier die Energie gespeichert wird. 
