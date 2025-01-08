@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - finite Element Method
 created: 10. November 2024
 cited:
 ---

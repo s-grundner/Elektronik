@@ -17,9 +17,12 @@ professor:
 
 ## Lineare DGL 2. Ordnung
 
-$$
-\mathrm{L}u := \sum_{i,j=0}^{n} a_{ij} \frac{\partial^{2}u}{\partial x_{i} \partial x_{j}} + \sum_{i=0}^{n} a_{i} \frac{\partial u}{\partial x_{i}} + cu = f
-$$
+> [!def] **D1 - PDGL)**
+> $$
+> \mathrm{L}u := \sum_{i,j=0}^{n} a_{ij} \frac{\partial^{2}u}{\partial x_{i} \partial x_{j}} + \sum_{i=0}^{n} a_{i} \frac{\partial u}{\partial x_{i}} + cu = f
+> $$
+
+
 
 > [!def] **D1 - KLAS)** $L$ heißt im Punkt $x \in \mathbb{R}$
 > **(a) elliptisch**
@@ -44,6 +47,25 @@ Man möchte, dass $L$ in jedem Punkt von der gleichen Klasse ist.
 > \end{align}
 > $$
 
+## Elliptische PDGL
+
+Beispiel: [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen
+
+$\mathbf{E} \in \mathbb{R}^3$: [E-Feld](../../Elektrotechnik/Elektrisches%20Feld.md)
+$\mathbf{B} \in \mathbb{R}^3$ : [B-Feld](../../Elektrotechnik/Magnetisches%20Feld.md)
+$\rho \in\mathbb{R}$: Ladungsdichte
+$\mathbf{J}\in \mathbb{R}^{3}$: Stromdichte
+
+$\mathbf{E},\mathbf{B},\rho, \mathbf{J}$ hängen von $t$ und $x \in \mathbb{R}^3$ ab
+
+Maxwell im Vakuum: ()
+
+$$\operatorname{div}\mathbf{E}=\frac{\rho}{\varepsilon_{0}},\quad \operatorname{div}\mathbf{B}=0$$
+
+
+
+---
+
 Bereich indem die Partielle DGL definiert ist:
 
 > [!info] Ist die Zeit $t$ einer der Parameter von $u$, so zeichnen wir Folgendes Bild
@@ -55,5 +77,16 @@ Bereich indem die Partielle DGL definiert ist:
 
 
 > [!info] Falls kine Zeitvariable vorkommt sind **nur** Randbedingungen möglich
+> ![invert_dark](../assets/RB.png)
 
 
+Mit $\nu$ als normalvektor zu den Randwerten aus $\partial\Omega$ mit $\lVert \nu \rVert=1$
+
+Dann Spricht man von Drichlét-RB
+
+--- 
+
+
+Meistens gibt es sehr selten eine eindeutige Lösung von PDGL
+
+Numerische Ermittlung von Partielle DGL mittels [[Methode der Finiten Elemente]]
