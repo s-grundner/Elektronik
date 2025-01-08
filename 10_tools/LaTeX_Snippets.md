@@ -39,7 +39,7 @@
 	{trigger: "grad", replacement: "\\operatorname{grad}", options: "mA", priority: 1},
 	{trigger: "div", replacement: "\\operatorname{div}", options: "mA", priority: 1},
 	{trigger: "rot", replacement: "\\operatorname{rot}", options: "mA", priority: 1},
-	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "mA", priority: 1},
+	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "m", priority: 1},
     
 	
 	
