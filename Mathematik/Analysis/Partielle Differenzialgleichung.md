@@ -47,22 +47,6 @@ Man möchte, dass $L$ in jedem Punkt von der gleichen Klasse ist.
 > \end{align}
 > $$
 
-## Elliptische PDGL
-
-Beispiel: [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen
-
-$\mathbf{E} \in \mathbb{R}^3$: [E-Feld](../../Elektrotechnik/Elektrisches%20Feld.md)
-$\mathbf{B} \in \mathbb{R}^3$ : [B-Feld](../../Elektrotechnik/Magnetisches%20Feld.md)
-$\rho \in\mathbb{R}$: Ladungsdichte
-$\mathbf{J}\in \mathbb{R}^{3}$: Stromdichte
-
-$\mathbf{E},\mathbf{B},\rho, \mathbf{J}$ hängen von $t$ und $x \in \mathbb{R}^3$ ab
-
-Maxwell im Vakuum: ()
-
-$$\operatorname{div}\mathbf{E}=\frac{\rho}{\varepsilon_{0}},\quad \operatorname{div}\mathbf{B}=0$$
-
-
 
 ---
 
@@ -83,6 +67,31 @@ Bereich indem die Partielle DGL definiert ist:
 Mit $\nu$ als normalvektor zu den Randwerten aus $\partial\Omega$ mit $\lVert \nu \rVert=1$
 
 Dann Spricht man von Drichlét-RB
+
+### Elliptische PDGL
+
+Beispiel: [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen
+
+$\mathbf{E} \in \mathbb{R}^3$: [E-Feld](../../Elektrotechnik/Elektrisches%20Feld.md)
+$\mathbf{B} \in \mathbb{R}^3$ : [B-Feld](../../Elektrotechnik/Magnetisches%20Feld.md)
+$\rho \in\mathbb{R}$: Ladungsdichte, $\varepsilon_{0}\in\mathbb{R}$: Permittivität im Vakuum
+$\mathbf{J}\in \mathbb{R}^{3}$: Stromdichte
+
+$\mathbf{E},\mathbf{B},\rho, \mathbf{J}$ hängen von $t$ und $x \in \mathbb{R}^3$ ab
+
+Maxwell im Vakuum:
+
+$$\operatorname{div}\mathbf{E}=\frac{\rho}{\varepsilon_{0}},\quad \operatorname{div}\mathbf{B}=0$$
+- Definition der [Divergenz](../Divergenz.md) ist die Summe aller Partiellen Ableitungen von $\mathbf{F}$
+
+Der [Gaußscher Integralsatz](Gaußscher%20Integralsatz.md) besagt, dass in man das Integral der Divergenz eines Vektorfeldes $\mathbf{F}$ in dem Definitionsbereiches $\Omega$ ermitteln kann, indem man $\mathbf{F}$ an den Randwerten $\partial \Omega$ betrachtet:
+
+$$
+\int_{\Omega}\operatorname{div}\mathbf{F} \mathrm{~d}x = \int_{\partial\Omega}\mathbf{F}\cdot\mathbf{\nu}\mathrm{~d}s
+$$
+
+
+Für Maxwell ist der Definitionsraum 
 
 --- 
 
