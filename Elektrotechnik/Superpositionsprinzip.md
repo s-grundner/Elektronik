@@ -34,4 +34,4 @@ Durch die Linearität elektrischer Punktladungen lassen sich komplexere Ladungs-
 
 ## Mathematik
 
-Die Superposition ist ein Satz der auf der Linearität von lineare
+Die Superposition ist ein Satz der auf [linearen Abbildung](../Mathematik/Algebra/Lineare%20Abbildungen.md) und den Axiome der Zahlenkörper beruht.

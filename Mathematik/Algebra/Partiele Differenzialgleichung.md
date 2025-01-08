@@ -43,3 +43,17 @@ Man möchte, dass $L$ in jedem Punkt von der gleichen Klasse ist.
 > \end{pmatrix}: x^{2} y^{2} = \text{const.}
 > \end{align}
 > $$
+
+Bereich indem die Partielle DGL definiert ist:
+
+> [!info] Ist die Zeit $t$ einer der Parameter von $u$, so zeichnen wir Folgendes Bild
+> ![](assets/Pasted%20image%2020250108151936.png)
+> 
+> Raumvariablen $\Omega \subset \mathbb{K}^{n}$, Zeitvariable $I = [0,\infty)$: Definitionsraum $I \times\Omega$
+> **AB:** Anfangsbedingungen: $u(0,x)=f_{0}(x), x \in\Omega$
+> **RB:** Randbedingungen: $u(t,y)= f_{1}(t,y), y\in\partial \Omega$
+
+
+> [!info] Falls kine Zeitvariable vorkommt sind **nur** Randbedingungen möglich
+
+
