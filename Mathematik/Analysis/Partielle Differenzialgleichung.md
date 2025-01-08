@@ -22,9 +22,10 @@ professor:
 > \mathrm{L}u := \sum_{i,j=0}^{n} a_{ij} \frac{\partial^{2}u}{\partial x_{i} \partial x_{j}} + \sum_{i=0}^{n} a_{i} \frac{\partial u}{\partial x_{i}} + cu = f
 > $$
 
+Wie Herkömmliche Lineare DGL lässt sich die PDGL in die Form einer [Linearen Abbildung](../Algebra/Lineare%20Abbildungen.md) $L$ bringen
 
 
-> [!def] **D1 - KLAS)** $L$ heißt im Punkt $x \in \mathbb{R}$
+> [!def] **D2 - KLAS)** $L$ heißt im Punkt $x \in \mathbb{R}$
 > **(a) elliptisch**
 > **(b) hyperbolisch**
 > **(c) parabolisch**
@@ -74,7 +75,7 @@ Beispiel: [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen
 
 $\mathbf{E} \in \mathbb{R}^3$: [E-Feld](../../Elektrotechnik/Elektrisches%20Feld.md)
 $\mathbf{B} \in \mathbb{R}^3$ : [B-Feld](../../Elektrotechnik/Magnetisches%20Feld.md)
-$\rho \in\mathbb{R}$: Ladungsdichte, $\varepsilon_{0}\in\mathbb{R}$: Permittivität im Vakuum
+$\rho \in\mathbb{R}$: Ladungsdichte, $\varepsilon_{0}\in\mathbb{R}$: [Permittivität](../../Elektrotechnik/Dielektrikum.md) im Vakuum
 $\mathbf{J}\in \mathbb{R}^{3}$: Stromdichte
 
 $\mathbf{E},\mathbf{B},\rho, \mathbf{J}$ hängen von $t$ und $x \in \mathbb{R}^3$ ab
@@ -87,7 +88,7 @@ $$\operatorname{div}\mathbf{E}=\frac{\rho}{\varepsilon_{0}},\quad\operatorname{d
 > [!hint] Die Vektorfelder $\mathbf{E}$ und $\mathbf{B}$ sind [Gradient eines Potenzials](Wegunabhängig.md) $u$ (elektrische und magetische Spannung):
 > Es ergibt sich also für die Potenziale $u_{e}$ und $u_{b}$:
 > 
-> - Eine Poissongleichung: $\operatorname{div}\mathbf{E}=\operatorname{div}\operatorname{grad}u_{e}=\boxed{ \Delta u_{e} =\frac{\rho}{\varepsilon_{0}} }$
+> - Eine [Poissongleichung](Laplacegleichung.md): $\operatorname{div}\mathbf{E}=\operatorname{div}\operatorname{grad}u_{e}=\boxed{ \Delta u_{e} =\frac{\rho}{\varepsilon_{0}} }$
 > - Eine [Laplacegleichung](Laplacegleichung.md): $\operatorname{div}\mathbf{B}=\operatorname{div}\operatorname{grad}u_{b}=\boxed{ \Delta u_{b} =0 }$
 
 
@@ -95,10 +96,14 @@ Der [Gaußscher Integralsatz](Gaußscher%20Integralsatz.md) besagt, dass in man 
 
 $$
 \int_{\Omega}\operatorname{div}\mathbf{F} \mathrm{~d}x = \int_{\partial\Omega}\mathbf{F}\cdot\mathbf{\nu}\mathrm{~d}s
+\implies \int_{\Omega}\Delta u \mathrm{~d}x = \int_{\partial\Omega}\operatorname{grad}u\cdot\mathbf{\nu}\mathrm{~d}s
 $$
 
+Und ist auf den [Hauptsatz der Infinitesimalrechnung](Hauptsatz%20der%20Infinitesimalrechnung.md) zurückzuführen
 
-Für Maxwell sind die Raumvariablen $\Omega\to V\in\mathbb{R}^3$ und $\partial\Omega\to \partial V$ die einhüllende Fläche des Volumens $V$
+
+
+Für Maxwell sind die Raumvariablen $\Omega\to V\in\mathbb{R}^3$ und $\partial\Omega\to \partial V\in \mathbb{R}^2$, die einhüllende Fläche des Volumens $V$
  
 
 --- 
