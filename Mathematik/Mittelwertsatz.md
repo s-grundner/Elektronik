@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis/Infinitesimalrechnung
+  - Analysis
 aliases:
   - MWS
 keywords: 

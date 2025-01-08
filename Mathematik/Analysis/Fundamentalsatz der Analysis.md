@@ -11,13 +11,13 @@ created: 24. Oktober 2024
 professor:
   - Andreas Neubauer
 satz:
-  - HINF
+  - ALYS
 ---
  
 
-# Hauptsatz der Differenzialund Integralrechnung
+# Fundamentalsatz der Analysis
 
-> [!satz] **S1 - HINF)** Die Differenzialrechnung ist die inverse Operation zur Integralrechnung.
+> [!satz] **S1 - ALYS)** Die Differenzialrechnung ist die inverse Operation zur Integralrechnung.
     > Der Hauptsatz der Differenzial und Integralrechnung besagt, dass die Ableitung der Stammfunktion einer Funktion $f$ wieder die Funktion $f$ ist. 
 > $$\int_a^b f^{\prime}(x) \mathrm{d} x=f(x)\Bigg|_a ^b=f(b)-f(a) $$
 

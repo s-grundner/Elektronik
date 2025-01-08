@@ -15,7 +15,7 @@ semester: WS23
 created: 30. Oktober 2023
 professor: 
 satz:
-  - FUND
+  - ALGE
 def:
   - POLY
 ---
@@ -32,7 +32,7 @@ def:
 > Für den Grad des Polynoms gilt die Schreibweise: $\deg f = n$
 
 
-> [!satz] **S1 - FUND)** Fundamentalsatz der Algebra:
+> [!satz] **S1 - ALGE)** Fundamentalsatz der Algebra:
 > Ein Polynom $n$-ten Grades über den komplexen Zahlen (d.h. $a_i \in \mathbb{C} \forall i$ und $x \in \mathbb{C}$ ) hat **genau** $n$ Nullstellen (Vielfachheiten mitgezählt).
 
 > [!def] **D2 - NST)** Nullstellen

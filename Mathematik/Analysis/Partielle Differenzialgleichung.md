@@ -99,7 +99,7 @@ $$
 \implies \int_{\Omega}\Delta u \mathrm{~d}x = \int_{\partial\Omega}\operatorname{grad}u\cdot\mathbf{\nu}\mathrm{~d}s
 $$
 
-Und ist auf den [Hauptsatz der Infinitesimalrechnung](Hauptsatz%20der%20Infinitesimalrechnung.md) zurückzuführen
+Und ist auf den [Fundamentalsatz der Analysis](Fundamentalsatz%20der%20Analysis.md) zurückzuführen
 
 
 

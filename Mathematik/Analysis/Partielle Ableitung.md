@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis/Infinitesimalrechnung/Differenzieren
+  - Analysis/Differenzieren
 aliases:
   - Satz von Schwarz
 keywords: 

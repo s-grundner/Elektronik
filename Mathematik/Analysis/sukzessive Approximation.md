@@ -18,7 +18,7 @@ professor:
 > 
 > 1. Die Differentialgleichung wird in ein Integral umgewandelt:
 > $$\int _{t_{0}}^{t}\dot{x}(s) \, ds =\int_{t_{0}}^{t} f(s,x(s)) \, ds$$
-> 2. Mit dem [[Hauptsatz der Infinitesimalrechnung]] folgt:
+> 2. Mit dem [[Fundamentalsatz der Analysis]] folgt:
 > 
 > $$
 > \begin{align}

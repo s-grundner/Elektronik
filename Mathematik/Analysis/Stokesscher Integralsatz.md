@@ -1,7 +1,7 @@
 ---
 tags:
   - Maxwell
-  - Analysis/Infinitesimalrechnung
+  - Analysis
   - Analysis/Vektoranalysis
 aliases:
   - Satz von Stokes

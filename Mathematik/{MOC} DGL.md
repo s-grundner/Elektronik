@@ -1,7 +1,7 @@
 ---
 tags:
   - MOC
-  - Analysis/Infinitesimalrechnung
+  - Analysis
   - DGL
 aliases:
   - DGL

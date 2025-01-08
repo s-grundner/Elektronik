@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis/Infinitesimalrechnung/Integrieren
+  - Analysis/Integrieren
 aliases:
   - Riemannsche Summe
   - Riemann

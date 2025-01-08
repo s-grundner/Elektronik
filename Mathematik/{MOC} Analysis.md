@@ -1,21 +1,17 @@
 ---
 tags:
   - MOC
-  - Analysis/Infinitesimalrechnung
+  - Analysis
 aliases:
   - Infinitesimalrechnung
   - Calculus
-  - "#Analysis/Infinitesimalrechnung"
-  - infinitesimal
-  - infinitesimalen
-subject:
-  - mathe
-source:
-  - Rudolf Frauenschuh
+  - Analysis
+  - "#Analysis"
+subject: []
 created: 26th March 2022
 ---
 
-# Map of Content - Infinitesimalrechnung
+# Map of Content - Analysis
 
 - [Differenzialrechnung](Analysis/Differenzialrechnung.md)
     - [Totale Ableitung](Analysis/Total%20Differenzierbar.md)

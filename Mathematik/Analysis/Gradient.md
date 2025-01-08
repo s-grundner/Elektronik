@@ -1,6 +1,6 @@
 ---
 tags:
-  - Analysis/Infinitesimalrechnung/Differenzieren
+  - Analysis/Differenzieren
 aliases:
   - Jacobi-Matrix
   - Funktionalmatrix
