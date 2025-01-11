@@ -64,7 +64,7 @@ Die Schaltung wird mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter
 
 > [!question] [Betriebsparameter](Betriebsparameter.md)
 
-> [!hint] Anmerkung: Jede beliebige Kombination von $U_{\mathrm{e}, 1}$ und $U_{\mathrm{e}, 2}$ kann als Überlagerung einer Gleichtakt- und einer Gegentaktaussteuerung betrachtet werden:
+> [!hint] Anmerkung: Jede beliebige Kombination von $U_{\mathrm{e}, 1}$ und $U_{\mathrm{e}, 2}$ kann als Überlagerung einer Gleichtaktund einer Gegentaktaussteuerung betrachtet werden:
 > 
 > **Differenzspannung** $u_{\mathrm{d}}=u_{\mathrm{e}, 1}-u_{\mathrm{e}, 2} \quad \Rightarrow \quad u_{\mathrm{e}, 1}=u_{\mathrm{gl}}+\dfrac{u_{\mathrm{d}}}{2}$
 > **Gleichtaktspannung** $u_{\mathrm{gl}}=\dfrac{u_{\mathrm{e}, 1}+u_{\mathrm{e}, 2}}{2} \quad \Rightarrow \quad u_{\mathrm{e}, 2}=u_{\mathrm{gl}}-\dfrac{u_{\mathrm{d}}}{2}$
@@ -80,7 +80,7 @@ Die Schaltung wird mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter
 > 
 > berechnet werden.
 > 
-> Demnach  kann der Differenzverstärker folgendermaßen dargestellt werden:
+> Demnach kann der Differenzverstärker folgendermaßen dargestellt werden:
 > 
 > ![](assets/Pasted%20image%2020250109012906.png)
 
