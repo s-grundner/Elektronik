@@ -15,7 +15,7 @@ professor:
 
 Ein Differenzverstärker ist ein Verstärker, der die Differenz zweier Eingangssignale verstärkt. 
 
-Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter gemeinsam an eine Stromquelle angschlossen sind realisiert.
+Die Schaltung wird mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter gemeinsam an eine Stromquelle angeschlossen sind realisiert.
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
