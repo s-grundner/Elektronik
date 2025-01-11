@@ -40,7 +40,6 @@ professor:
 \end{document}
 ```
 
-
 | **Betriebsparameter**                        | **Kollektorschaltung / Emitterfolger**              | [Quelle](https://www.elektronik-kompendium.de/sites/slt/0205081.htm) |
 | :------------------------------------------- | :-------------------------------------------------- | -------------------------------------------------------------------- |
 | Eingangswiderstand $\mathrm{r}_{\mathrm{e}}$ | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ |                                                                      |
@@ -66,13 +65,13 @@ $R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer
 ## Betriebsparameter
 
 > [!question] [Betriebsparameter](Betriebsparameter.md)
+>
 > - Eingangswiderstand $r_e$
 > - Ausgangswiderstand $r_a$
-> - Leerlaufspannungsverstärkung $A_0$ 
+> - Leerlaufspannungsverstärkung $A_0$
 
 ![Pasted image 20221121145330](../assets/1NoteKollSchRE.png)
 
 ### Kollektorschaltung Als Impedanzwandler
 
 Eine Berechnung der Spannungsverstärkung liefert $\approx 1$. Jedoch ist hier die Stromverstärkung sehr hoch sodass auch hohe Lasten angesteuert werden können, ohne dass die Spannugsverstärkung sinkt. Diese Schaltung ist relevant als [Endstufe](BJT%20als%20Verstärker%20bzw%20Endstufe.md) für große Leistungen
-

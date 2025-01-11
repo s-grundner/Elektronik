@@ -16,7 +16,7 @@ professor:
 
 Ein Differenzverstärker ist ein Verstärker, der die Differenz zweier Eingangssignale verstärkt. 
 
-Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter gemeinsam an eine Stromquelle angschlossen sind realisiert.
+Die Schaltung wird mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter gemeinsam an eine Stromquelle angeschlossen sind realisiert.
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -97,7 +97,6 @@ $$\boxed{ U_{e1} = -U_{e2} = \frac{U_{d}}{2} }$$
 > \end{align}
 > $$
 
-
 | Beitriebsparameter                         | Formel                                                                                                                      |
 | ------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------- |
 | **Differenzverstärkung**                   | $A_{\mathrm{ed}}=\dfrac{u_{a 1}}{u_{e 1}-u_{e 2}} = \frac{u_{a 1}}{u_{d}}\implies u_{a 1}=A_{\mathrm{ed}}(u_{e 1}-u_{e 2})$ |
@@ -133,7 +132,9 @@ $$
 
 ## Schaltungsentwurf
 
-Die Einfachste Möglichkeit die Stromquelle zu realisieren ist mittels eines einfachen Widerstandes
+### Einfache Gegenkopplung
+
+Die Einfachste Möglichkeit die Stromquelle zu realisieren ist mittels eines einfachen Widerstandes ([Stromgesteuerte Spannungsgegenkopplung](Spannungseinstellung.md))
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -164,3 +165,7 @@ Die Einfachste Möglichkeit die Stromquelle zu realisieren ist mittels eines ein
 > - Ein großer $R_{i}$ führt jedoch zu einem schlechten Arbeitspunkt: Die Meiste Spannung fällt am Widerstand ab, was zu einer geringen **gegentakt** Verstärkung führt (kleiner Aussteuerbereich). 
 > 
 > Fazit: Für Sinnvollen Arbeitspunkt $R_{i}\approx R_{C}$ $\implies$ damit ist aber das CMRR niedrig, was aber Relevant für die Verstärkung der **Differenz** ist.
+
+### Stromspiegel
+
+Eine weitere Möglichkeit ist die Verwendung eines Stromspiegels
