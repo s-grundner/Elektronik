@@ -79,10 +79,34 @@ Die Schaltung wird mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter
 > $$
 > 
 > berechnet werden.
-> 
-> Demnach kann der Differenzverstärker folgendermaßen dargestellt werden:
-> 
-> ![](assets/Pasted%20image%2020250109012906.png)
+
+Demnach kann der Differenzverstärker folgendermaßen dargestellt werden:
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{amplifiers/scale=0.8}
+\newcommand{\summation}[2]
+{
+    node[draw, circle, minimum size=1cm, fill=white]{}
+    node[above, inner sep=4pt]{#1}
+    node[below, inner sep=4pt]{#2}
+}
+\begin{document}
+\begin{circuitikz}[scale=2, transform shape]
+
+    \draw (0,0) node[left]{$u_{\mathrm{e, 1}}$} to[short, o-*]
+        ++(1,0) coordinate(k1) -- ++(1,0) --
+        ++(0,-1) coordinate(s1) to[short, -*]
+        ++(0,-1) coordinate(k2) --
+        ++(0,-1) coordinate(s2) -- ++(0,-1) -- ++(-1, 0) --(k1);
+    \draw (k2) to[short, -o] (k2 -| 0,0) node[left]{$u_{\mathrm{e, 2}}$};
+    \draw (s1) \summation{+}{--} -- ++(1,0) node[plain mono amp, anchor=in](aed) {$A_{\mathrm{ed}}$} (aed.out) -- ++(1,0) -- ++(0,-2);
+    \draw (s2) \summation{+}{+} -- ++(1,0) node[plain mono amp, anchor=in](agl) {$\frac{A_{\mathrm{gl}}}{2}$} (agl.out) -- ++(1,0) ++(0,1) \summation{+}{+} -- ++(1,0);
+    
+\end{circuitikz}
+\end{document}
+```
 
 ### Gegentakt-Aussteuerung
 
