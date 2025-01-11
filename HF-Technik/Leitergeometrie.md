@@ -76,7 +76,7 @@ $$
 > [!warning] Projektion der Feld-Komponenten: Nur Feldkomponenten die auf die..
 > 
 > - … Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
-> - … [Flächennormale](Elektrotechnik/Flächenvektor.md) Projiziert werden, Tragen zum [Flächenintegral](Elektrotechnik/Flächenintegral.md) $\iint_{S}$ bei 
+> - … [Flächennormale](../Mathematik/Analysis/Flächenvektor.md) Projiziert werden, Tragen zum [Flächenintegral](Elektrotechnik/Flächenintegral.md) $\iint_{S}$ bei 
 
 Kontur im Modell:
 
