@@ -29,7 +29,7 @@ hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I
 > 
 > $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}$$
 
-> [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
+> [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Algebra/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 > > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)…
 > > … sind Vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) möglich.

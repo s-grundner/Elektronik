@@ -72,7 +72,7 @@ Obwohl die Fläche $\Delta \mathbf{A}_1$ und $\Delta \mathbf{A}_2$ unterschiedli
 > [!question] Vektorielles Flächenelements $\Delta \vec{A}$ 
 > Zeigt in Richtung der Flächennormale und der [Betrag](../Mathematik/Algebra/Betrag.md) entspricht der Fläche.
 
-> [!question] Die Stromdichte ist ebenfalls eine [vektorielle](Vektor.md) Größe
+> [!question] Die Stromdichte ist ebenfalls eine [vektorielle](../Mathematik/Algebra/Vektor.md) Größe
 > und zeigt in Richtung der lokalen Stromrichtung
 > - (Richtung der mittleren [Geschwindigkeit](../Physik/Kinematik.md) bei positiven Ladungsträgern bzw. entgegengesetzt bei negativen).
 

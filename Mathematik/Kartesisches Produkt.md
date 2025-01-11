@@ -1,10 +1,9 @@
 ---
 tags:
-  - Mengenlehre
-  - Mathe
+  - Algebra
 aliases:
   - Tupel
-keywords:
+keywords: 
 subject:
   - Mathematik 1
   - VL

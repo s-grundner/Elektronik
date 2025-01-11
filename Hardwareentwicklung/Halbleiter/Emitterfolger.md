@@ -17,14 +17,15 @@ professor:
 
 # Emitterfolger / Kollektorschaltung
 
+> Aus: [BJT](Bipolartransistor.md)
+
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-
+\ctikzset{transistors/scale=2}
+\ctikzset{bipoles/length=1cm}
 \begin{document}
 \begin{circuitikz}[thick, scale=1.5, font=\Large, transform shape]
-% Begin Schematic
-
 \draw (0,0) node[npn](npn){};
 \draw (npn.C) to[short, i<=$I_C$] ++(0,2) coordinate(v) node[vcc]{$U_0$};
 \draw (npn.E) to[R, l_=$R_{E}$, *-] (0,-3) coordinate(g) node[rground]{};
@@ -35,13 +36,22 @@ professor:
 \draw (b) to[C, l_=$C_e$, *-] ++(-2,0) coordinate(c) to[R, l_=$R_i$] ++(-2,0) to[V, v_=$U_g$] ++(g -| 0,0) node[rground]{};
 \draw (c) to[open, v=$u_e$, o-o] ++(g -| 0,0) node[rground]{};
 \draw (npn.B |- 0,-0.3) to[open, v=$U_{BE}$, font=\small] (npn.E);
-
 \end{circuitikz}
 \end{document}
 ```
 
 
-> [!warning] Anders als bei der [Emitterschaltung](Kollektorfolger.md) gibt es **keine** Phasenverschiebung.
+| **Betriebsparameter**                        | **Kollektorschaltung / Emitterfolger**              | [Quelle](https://www.elektronik-kompendium.de/sites/slt/0205081.htm) |
+| :------------------------------------------- | :-------------------------------------------------- | -------------------------------------------------------------------- |
+| Eingangswiderstand $\mathrm{r}_{\mathrm{e}}$ | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ |                                                                      |
+| Ausgangswiderstand $\mathrm{r}_{\mathrm{a}}$ | $10 \Omega \ldots 100 \Omega$                       |                                                                      |
+| Spannungsverstärkung $V_{\mathrm{u}}$        | $\leq 1$                                            |                                                                      |
+| Gleichstromverstärkung $B$                   | $10 \ldots 4000$ fach                               |                                                                      |
+| Phasendrehung                                | $0^{\circ}$                                         | (Anders als bei der [Emitterschaltung](Kollektorfolger.md))          |
+| Temperaturabhängigkeit                       | klein                                               |                                                                      |
+| Leistungsverstärkung $V_{\mathrm{p}}$        | klein                                               |                                                                      |
+| Grenzfrequenz $\mathrm{f}_{\mathrm{g}}$      | niedrig                                             |                                                                      |
+| Anwendungen                                  | Anpassungsstufen, Impedanzwandler                   |                                                                      |
 
 ## Arbeitspunkt
 

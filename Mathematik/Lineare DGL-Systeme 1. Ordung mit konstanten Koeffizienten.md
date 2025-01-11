@@ -122,7 +122,7 @@ $$
 > [!info] Zum Exponenten wird $+t\lambda \mathbb{1}-t\lambda \mathbb{1}$ hinzugerechnet.
 > $e^{t\mathbf{A}}=e^{ t\mathbf{A}+t\lambda \mathbb{1}-t\lambda \mathbb{1} }=$
 
-> [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Eigenvektor.md): 
+> [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Analysis/Eigenvektor.md): 
 > - Die Vektoren $v$ werden für den Lösungsansatz dazumultipliziert, um die Diagonale Form der Exponenzialmatrix zu erhalten.
 > - Das ist möglich da ja gilt, dass die Linearkombination aller Lösungen wieer eine Lösung ist.  
 > $$

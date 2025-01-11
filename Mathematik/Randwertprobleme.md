@@ -155,7 +155,7 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 > Fall unterscheidung:
 > - Fälle für den Harmonischen Oszillator
 > - aus dem Charakteristischen Polynom $p(z)$ hergeleitet
->     - wobei $z$ die [Eigenwerte](Eigenvektor.md) sind da der Name $\lambda$ schon vergeben ist
+>     - wobei $z$ die [Eigenwerte](Analysis/Eigenvektor.md) sind da der Name $\lambda$ schon vergeben ist
 > 
 > $$
 > \text{ Ansatz }\to\begin{cases}

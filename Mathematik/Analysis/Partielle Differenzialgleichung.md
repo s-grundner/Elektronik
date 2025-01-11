@@ -25,7 +25,7 @@ professor:
 Wie Herkömmliche Lineare DGL lässt sich die PDGL in die Form einer [Linearen Abbildung](../Algebra/Lineare%20Abbildungen.md) $L$ bringen
 
 
-> [!def] **D2 - KLAS)** $L$ heißt im Punkt $x \in \mathbb{R}$
+> [!def] **D2 - KLAS)** Klassifizierung der PDGL: $L$ heißt im Punkt $x \in \mathbb{R}$
 > **(a) elliptisch**
 > **(b) hyperbolisch**
 > **(c) parabolisch**
@@ -83,7 +83,7 @@ $\mathbf{E},\mathbf{B},\rho, \mathbf{J}$ hängen von $t$ und $x \in \mathbb{R}^3
 Maxwell im Vakuum:
 
 $$\operatorname{div}\mathbf{E}=\frac{\rho}{\varepsilon_{0}},\quad\operatorname{div}\mathbf{B}=0$$
-- Definition der [Divergenz](../Divergenz.md) ist die Summe aller Partiellen Ableitungen von $\mathbf{F}$
+- Definition der [Divergenz](Divergenz.md) ist die Summe aller Partiellen Ableitungen von $\mathbf{F}$
 
 > [!hint] Die Vektorfelder $\mathbf{E}$ und $\mathbf{B}$ sind [Gradient eines Potenzials](Wegunabhängig.md) $u$ (elektrische und magetische Spannung):
 > Es ergibt sich also für die Potenziale $u_{e}$ und $u_{b}$:

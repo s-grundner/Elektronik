@@ -17,7 +17,7 @@ professor:
 # Ersatzschaltbilder
 
 > [!info] 
-> Eine beliebige lineare Quelle (Spannungsund Stromquellen in einem Netzwerk aus Widerständen) kann zwischen zwei Klemmen als Theveninoder Norton-Ersatzbild dargestellt werden.
+> Eine beliebige lineare Quelle (Spannungsund Stromquellen in einem Netzwerk aus Widerständen) kann zwischen zwei Klemmen als Thevenin oder Norton-Ersatzbild dargestellt werden.
 
 > [!question] Das Netzwerk kann dabei durch zwei Parameter (oder Messungen) vollständig identifiziert werden:
 > - Die *Leerlaufspannung* $U_{L}$: Jene [elektrische Spannung](elektrische%20Spannung.md) die im Leerlauf an den Klemmen anliegt
@@ -37,15 +37,34 @@ $$
 > [!hint] Mit dem Innenwiderstand $R_{i}$ kann der Spannungseinbruch, der Entsteht, wenn eine Last an die Quelle angehängt wird, modelliert werden
 > siehe: [Spannungsquelle](elektrische%20Spannung.md) 
 
-## Norton ESB: Stromquelle
+## Norton ESB: [Stromquelle](../Hardwareentwicklung/Halbleiter/Stromquelle.md)
 
-![](assets/Norton.png)
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\begin{document}
+\begin{circuitikz}[very thick, scale=2, transform shape]
+\draw (0,0) to[I, i=$I_{K}$] (0,2) -- (1,2) to[R, l=$R_{i}$,*-*] (1,0) -- (0,0);
+\draw (1,2) -- (3,2) to[R, l_=$R_{a}$, v^=$U_a$,o-o] (3,0) -- (1,0);
+\end{circuitikz}
+\end{document}
+```
+
 
 > [!important] Bei $R_{a}\to\infty$ ist $U_{a} = U_{L} = I_{K}\cdot R_{i}$ die Quellspannung des Thevenin ESB 
 
 ## Thevenin ESB: [Spannungsquelle](elektrische%20Spannung.md)
 
-![](assets/Thevenin.png)
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\begin{document}
+\begin{circuitikz}[very thick, scale=2, transform shape]
+\draw (0,0) to[V, v<=$U_{L}$] (0,2) to[R, l=$R_i$] (2,2) to[R, l_=$R_a$, v^=$U_a$, o-o] (2,0) -- (0,0);
+\end{circuitikz}
+\end{document}
+```
+
 
 > [!important] Bei $R_{a} = 0$ ist der der [Strom](elektrischer%20Strom.md) $I_{K} = \frac{U_{L}}{R_{i}}$ der Quellstrom des Norton ESB
 

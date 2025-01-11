@@ -21,7 +21,7 @@ def:
 
 > [!quote]  
 > Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
-> Eigenvektoren sind [Vektoren](Vektor.md), die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
+> Eigenvektoren sind [Vektoren](../Algebra/Vektor.md), die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
 > diesen Skalierungsfaktor nennt man *Eigenwert*.
 
 > [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $A$ zum **Eigenwert** $\lambda$,
@@ -54,11 +54,11 @@ A= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-> [!hint] Alle [Vektoren](Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](Vektor.md) mit einer Anderen länge)  
+> [!hint] Alle [Vektoren](../Algebra/Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](../Algebra/Vektor.md) mit einer Anderen länge)  
 >
 > $$A\vec{x}=\lambda \vec{x}$$
 
-Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](Matrix.md) multipliziert mit einem [Vektor](Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](Vektor.md).
+Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](Matrix.md) multipliziert mit einem [Vektor](../Algebra/Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](../Algebra/Vektor.md).
 
 Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der [Einheitsmatrix](Einheitsmatrix.md) anschreiben:
 
@@ -103,7 +103,7 @@ A\vec{x}-(\lambda \cdot I)\cdot\vec{x} &= \vec{0} \\
 \end{align}
 $$
 
-Eigenvektoren sind also alle [Vektoren](Vektor.md) $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
+Eigenvektoren sind also alle [Vektoren](../Algebra/Vektor.md) $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
 
 ### Charakteristisches [Polynom](Polynom.md)
 

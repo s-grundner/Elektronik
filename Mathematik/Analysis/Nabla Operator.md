@@ -48,11 +48,11 @@ wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (
 > 
 > anwenden
 
-Der Nabla-Operator ist Operator und [Vektor](Analysis/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem Vektor rechnen, d.h. es gelten die Verknüpfungen wie [Skalarprodukt](../Algebra/Skalarprodukt.md) und [Kreuzprodukt](../Algebra/Kreuzprodukt.md)
+Der Nabla-Operator ist Operator und [Vektor](../Algebra/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem Vektor rechnen, d.h. es gelten die Verknüpfungen wie [Skalarprodukt](../Algebra/Skalarprodukt.md) und [Kreuzprodukt](../Algebra/Kreuzprodukt.md)
 
 > [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem [Vektorfeld](../../Elektrotechnik/Vektorfeld.md) $\mathbf{F}$ haben spezielle Namen:
 > - [Gradient](Analysis/Gradient.md): $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
-> - [Divergenz](../Divergenz.md): $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
+> - [Divergenz](Divergenz.md): $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - [Rotation](../../Elektrotechnik/Rotor.md): $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
 
 ## Allgemeine Rechenregeln

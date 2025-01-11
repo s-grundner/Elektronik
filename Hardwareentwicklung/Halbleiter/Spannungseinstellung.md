@@ -20,11 +20,6 @@ professor:
 
 # [BJT](Bipolartransistor.md) Spannungseinstellung
 
-> [!important] Spannungseinstellung: Transistor mit Basisspannungsteiler
-> $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
-> - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen
->  
-
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
@@ -46,16 +41,22 @@ professor:
 
 ## Basis-Spannungsteiler
 
-Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cdot I_{B,0}$) lässt sich die Spannung am $R_{2}$ so dimensionieren, dass der Spannungsteiler von $U_{0}$ gleich $U_{BE}$ ist.
+
+> [!warning] Spannungseinstellung: Transistor mit Basisspannungsteiler
+> $U_{BE}$ ist *Konstant* (Muss daher genau dem DB entnommen werden. Annahme $\approx 0.7 V$ unzulässig)
+> - Instabil gegenüber ungenaue Dimensionierung: Spannung muss **genauest möglich** stimmen
+>  
+
+
+Da $I_{B,0}$ sehr viel kleiner als $I_{2}$ (Dimensionieren, sodass $I_{2}=100\cdot I_{B,0}$) ist, lässt sich die Spannung am $R_{2}$ so dimensionieren, dass der Spannungsteiler von $U_{0}$ gleich $U_{BE}$ ist.
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-\ctikzset{bipoles/length=0.8cm}
-\ctikzset{diodes/scale=0.8}
+\ctikzset{bipoles/length=1cm}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[very thick, scale=2, transform shape]
+\begin{circuitikz}[very thick, scale=1.5, transform shape]
 \coordinate (g) at (0, -2);
 \coordinate (v) at (0, 2.5);
 \draw (0,0) node[npn](npn){};
@@ -85,15 +86,26 @@ Durch Einbau einer Gegenkopplung kann der Arbeitspunkt stabilisiert werden. Eine
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
-\usepackage{amsmath}
+\ctikzset{bipoles/length=1cm}
+\ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, transform shape]
+\begin{circuitikz}[thick, scale=1.3, transform shape]
+\begin{scope}
 \draw (0,0) node[npn](npn){};
 \draw (npn.B) to[short, i<=$I_{B}$, -*] ++(-1, 0) coordinate(b);
 \draw (npn.C) to[R, l_=$R_{C}$] ++(0, 2) coordinate(v) node[vcc]{$U_0$};
-\draw (npn.E) to[R, l_=$R_{E}$, v^=$U_{E}$, color=red] ++(0, -2) coordinate(g) node[rground]{};
+\draw[green] (npn.E) to[R, l_=$R_{E}$, v^=$U_{RE}$, color=green, *-*] ++(0, -2) coordinate(g) node[color=black, rground]{};
 \draw (b) to[R, l_=$R_{2}$, -|] ++(g) node[rground]{};
 \draw (b) to[R=$R_{1}$, i<=$I_{q}$, -|] ++(v) node[vcc]{$U_0$};
+\end{scope}
+\begin{scope}[xshift=-5cm]
+\draw (0,0) node[npn](npn){};
+\draw (npn.B) to[short, i<=$I_{B}$] ++(-1, 0) coordinate(b);
+\draw (npn.C) to[R, l_=$R_{C}$] ++(0, 2) coordinate(v) node[vcc]{$U_0$};
+\draw[green] (npn.E) to[R, l_=$R_{E}$, v^=$U_{RE}$, color=green, *-*] ++(0, -2) coordinate(g) node[color=black, rground]{};
+\draw (b) to[open, v=$U_q'$,o-o] ++(g) node[rground]{};
+\draw (b) to[R=$R_{q}$] ++(-2,0) to[V, v_=$U_q$] ++(g) node[rground]{};
+\end{scope}
 \end{circuitikz}
 \end{document}
 ```

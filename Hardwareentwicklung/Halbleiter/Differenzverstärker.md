@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - tikz/circuitikz
 aliases: 
 keywords: 
 subject:
@@ -20,11 +21,11 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-\ctikzset{bipoles/length=0.8cm}
+\ctikzset{bipoles/length=1cm}
 \ctikzset{diodes/scale=0.8}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, transform shape, font=\large]
+\begin{circuitikz}[very thick, transform shape, scale=1.5, font=\large]
 \draw (-1,0) node[npn](npnLeft){};
 \draw (1,0) node[npn, xscale=-1](npnRight){};
 \draw (npnLeft.text) node[right]{$T_1$};
@@ -61,6 +62,28 @@ Die Schaltung wid mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter 
 
 ## Betriebsparameter
 
+> [!question] [Betriebsparameter](Betriebsparameter.md)
+
+> [!hint] Anmerkung: Jede beliebige Kombination von $U_{\mathrm{e}, 1}$ und $U_{\mathrm{e}, 2}$ kann als Überlagerung einer Gleichtakt- und einer Gegentaktaussteuerung betrachtet werden:
+> 
+> **Differenzspannung** $u_{\mathrm{d}}=u_{\mathrm{e}, 1}-u_{\mathrm{e}, 2} \quad \Rightarrow \quad u_{\mathrm{e}, 1}=u_{\mathrm{gl}}+\dfrac{u_{\mathrm{d}}}{2}$
+> **Gleichtaktspannung** $u_{\mathrm{gl}}=\dfrac{u_{\mathrm{e}, 1}+u_{\mathrm{e}, 2}}{2} \quad \Rightarrow \quad u_{\mathrm{e}, 2}=u_{\mathrm{gl}}-\dfrac{u_{\mathrm{d}}}{2}$
+> 
+> Sind die Differenzverstärkung $A_{\text {ed }}$ und die Gleichtaktverstärkung $A_{\mathrm{gl}}$ bekannt, dann kann die Ausgangsspannung als Überlagerung der Spannungen
+> 
+> $$
+> \begin{rcases}
+> & u_{\mathrm{a,d}}=A_{\mathrm{ed}}\left(u_{\mathrm{e}, 1}-u_{\mathrm{e}, 2}\right) \\
+> & u_{\mathrm{a}, \mathrm{gl}}=\dfrac{A_{\mathrm{gl}}}{2}\left(u_{\mathrm{e}, 1}+u_{\mathrm{e}, 2}\right) 
+> \end{rcases}\ u_{\mathrm{a}}=u_{\mathrm{a,d}}+u_{\mathrm{a}, \mathrm{gl}}
+> $$
+> 
+> berechnet werden.
+> 
+> Demnach  kann der Differenzverstärker folgendermaßen dargestellt werden:
+> 
+> ![](assets/Pasted%20image%2020250109012906.png)
+
 ### Gegentakt-Aussteuerung
 
 $$\boxed{ U_{e1} = -U_{e2} = \frac{U_{d}}{2} }$$
@@ -88,10 +111,10 @@ $$\boxed{ U_{e1} = U_{e2} = U_{\mathrm{gl}} }$$
 > [!important] Symmetrische Aussteuerung mit Gleichtaktspannung $U_{\mathrm{gl}}$
 > $$I_{E 1}=I_{E 2} = \frac{I_{0}}{2}\implies U_{a 1}=U_{a 2}=U_{0}-R_{C}\cdot I_{C}\approx U_{0}-R_{C} \frac{I_{0}}{2}$$
 
-| Beitriebsparameter            | Formel                                                                                                                                                      |                                        |
-| ----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| **Gleichtaktverstärkung**     | $A_{\mathrm{gl}}=2\cdot \dfrac{u_{a 1}}{u_{e 1}+u_{e 2}}=\dfrac{u_{a 1}}{u_{\mathrm{gl}}}\implies u_{a 1}=\dfrac{A_{\mathrm{gl}}}{2}\cdot(u_{e 1}+u_{e 2})$ | $A_{\mathrm{gl}}$ ist idealerweise $0$ |
-| Gleichtakt-Eingangswiderstand | $r_{\mathrm{gl}}=\dfrac{u_{e 1}+u_{e 2}}{2\cdot i_{B 1}} = \dfrac{u_{\mathrm{gl}}}{i_{B 1}}$                                                                |                                        |
+| Beitriebsparameter                | Formel                                                                                                                                                      |                                        |
+| --------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| **Gleichtaktverstärkung**         | $A_{\mathrm{gl}}=2\cdot \dfrac{u_{a 1}}{u_{e 1}+u_{e 2}}=\dfrac{u_{a 1}}{u_{\mathrm{gl}}}\implies u_{a 1}=\dfrac{A_{\mathrm{gl}}}{2}\cdot(u_{e 1}+u_{e 2})$ | $A_{\mathrm{gl}}$ ist idealerweise $0$ |
+| **Gleichtakt-Eingangswiderstand** | $r_{\mathrm{gl}}=\dfrac{u_{e 1}+u_{e 2}}{2\cdot i_{B 1}} = \dfrac{u_{\mathrm{gl}}}{i_{B 1}}$                                                                |                                        |
 
 ### Gleichtaktunterdrückung (CMRR)
 
@@ -115,11 +138,11 @@ Die Einfachste Möglichkeit die Stromquelle zu realisieren ist mittels eines ein
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-\ctikzset{bipoles/length=0.8cm}
+\ctikzset{bipoles/length=1cm}
 \ctikzset{diodes/scale=0.8}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, transform shape, scale=1.2]
+\begin{circuitikz}[very thick, transform shape, scale=1.5]
 \draw (-1,0) node[npn](npnLeft){};
 \draw (1,0) node[npn, xscale=-1](npnRight){};
 \draw (npnLeft.text) node[right]{$T_1$};
@@ -127,7 +150,7 @@ Die Einfachste Möglichkeit die Stromquelle zu realisieren ist mittels eines ein
 \draw (npnLeft.C) to[short, i<=$I_{C1}$] ++(0,0.5) coordinate(cLeft) to[R, l=$R_C$, *-] ++(0,1) coordinate(v) node[vcc]{$U_0$};
 \draw (npnRight.C) to[short, i<_=$I_{C2}$] ++(0,0.5) coordinate(cRight) to[R, l_=$R_C$, *-] ++(0,1) node[vcc]{$U_0$};
 \draw (npnLeft.E) to[short, i=$I_{E1}$] (npnLeft.E -| 0,0) coordinate(e) to[short, i<=$I_{E2}$] (npnRight.E);
-\draw (e) to[R,l=$R_i$, o-o] ++(0,-2) node[vee]{$-U_0$};
+\draw[color=orange] (e) to[R,l=$R_i$, o-o] ++(0,-2) node[black, vee]{$-U_0$};
 \draw (npnLeft.B) to[open, v^=$U_{e1}$, o-o] ++(0,-2) coordinate(g) node[rground]{};
 \draw (npnRight.B) to[open, v^=$U_{e2}$, o-o] ++(0,-2) node[rground]{};
 \draw (cLeft) -- ++(-3,0) coordinate(a1) to[open, v^=$U_{a1}$, o-o] (g -| a1) node[rground]{};

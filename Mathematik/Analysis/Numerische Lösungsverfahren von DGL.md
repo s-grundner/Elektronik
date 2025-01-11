@@ -1,7 +1,8 @@
 ---
 tags:
-  - Analysis
   - tikz/pgfplot
+  - Analysis/Numerik
+  - Analysis/DGL
 aliases: 
 keywords: 
 subject:
@@ -11,7 +12,7 @@ semester: WS24
 created: 16. Dezember 2024
 professor: 
 def: 
-satz: []
+satz:
 ---
  
 
@@ -38,7 +39,7 @@ satz: []
 
 > [!hint] Grundprinzip dieser Verfahren:
 > - *unendlich* dimensionales Problem der Bestimmung von Funktionen, wird in *endlich* dimensionale Aufgabe transformiert.
-> - die Berechnung von [Vektoren](Vektor.md) mit reellwertigen Komponenten.
+> - die Berechnung von [Vektoren](../Algebra/Vektor.md) mit reellwertigen Komponenten.
 
 Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangswert-, Randwertund Eigenwertprobleme definiert.
 

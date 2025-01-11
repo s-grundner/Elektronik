@@ -22,6 +22,18 @@ professor:
 
 > weitergeleitet von [{MOC} Transistor]({MOC}%20Transistor.md)
 
+| Schaltung                                    | [Emitterschaltung](Kollektorfolger.md)                      | [Basisschaltung](../Basisschaltung.md)              | [Kollektorschaltung](Emitterfolger.md)              |
+| :------------------------------------------- | :---------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------------------- |
+| Eingangswiderstand $\mathrm{r}_{\mathrm{e}}$ | $100 \Omega \ldots 10 \mathrm{k} \Omega$                    | $10 \Omega \ldots 100 \Omega$                       | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ |
+| Ausgangswiderstand $\mathrm{r}_{\mathrm{a}}$ | $1 \mathrm{k} \Omega \ldots 10 \mathrm{k} \Omega$           | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ | $10 \Omega \ldots 100 \Omega$                       |
+| Spannungsverstärkung $V_{\mathrm{u}}$        | $20 \ldots 100$ fach                                        | $100 \ldots 1000$ fach                              | $\leq1$                                             |
+| Gleichstromverstärkung $B$                   | $10 \ldots 50$ fach                                         | $\leq1$                                             | $10 \ldots 4000$ fach                               |
+| Phasendrehung                                | $180^{\circ}$                                               | $0^{\circ}$                                         | $0^{\circ}$                                         |
+| Temperaturabhängigkeit                       | groß                                                        | klein                                               | klein                                               |
+| Leistungsverstärkung $V_{\mathrm{p}}$        | sehr groß                                                   | mittel                                              | klein                                               |
+| Grenzfrequenz $\mathrm{f}_{\mathrm{g}}$      | niedrig                                                     | hoch                                                | niedrig                                             |
+| Anwendungen                                  | NF- und HF -Verstärker <br>Leistungsverstärker <br>Schalter | HF -Verstärker                                      | Anpassungsstufen<br>Impedanzwandler                 |
+
 ## Aufbau
 
 Ein Bipolartransistor besteht aus zwei gegeneinander geschalteten $p n$-Übergängen ([Dioden](Diode.md)) mit einer gemeinsamen, sehr kleinen ( $p$ oder $n$ ) Zone in der Mitte, der sogenannten Basis $(B)$. Die beiden anderen Zonen heißen Kollektor $(C)$ und Emitter $(E)$. Im regulären Betrieb (Durchlassbetrieb) wird die $B E$-Diode in Durchlass-, die $B C$-Diode in Sperrrichtung betrieben.

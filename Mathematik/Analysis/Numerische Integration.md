@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - Analysis/Numerik
+  - Analysis/Integrieren
 aliases:
   - Quadraturformel
 keywords: 

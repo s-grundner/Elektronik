@@ -42,7 +42,7 @@ Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexi
 
 Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](Matrix.md) in Form eines [LGS](Lineare%20Gleichungssysteme.md) ausgedrückt.
 
-Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](Vektor.md) $a$ und $b$ als [Matrixgleichung](Matrix.md) ausgedrückt:
+Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathematik/Algebra/Vektor.md) $a$ und $b$ als [Matrixgleichung](Matrix.md) ausgedrückt:
 
 $$\mathbf{b} = \mathbf{S} \times \mathbf{a}$$
 

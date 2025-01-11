@@ -22,9 +22,9 @@ professor:
 ```tikz
 \usepackage[european]{circuitikz}
 \usepackage{amsmath}
-
+\ctikzset{bipoles/length=1cm}
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, font=\Large]
+\begin{circuitikz}[thick, scale=1.5, font=\Large, transform shape]
 
 % Begin Schematic
 
@@ -56,6 +56,50 @@ professor:
 
 Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgleichung am Arbeitspunkt linearisiert.
 
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\newcommand{\IAP}{1.5}
+\newcommand{\UAP}{3}
+\newcommand{\DR}{1.5}
+
+\begin{tikzpicture}[very thick, font=\LARGE]
+\begin{scope}
+\coordinate (AP) at (\UAP,\IAP);
+\coordinate (BEZ1) at (\UAP-\IAP/\DR,0);
+\coordinate (BEZ2) at (\UAP+1,\IAP+\DR);
+\draw[->] (0,0) -- (5,0) node[right] {$U_{\mathrm{BE}}$};
+\draw[->] (0,0) -- (0,7) node[above] {$I_{\mathrm{B}}$};
+\draw (0,0) .. controls (1,0) and (BEZ1) ..
+    (AP) .. controls (BEZ2) and (\UAP+1,5) ..
+    (\UAP+1,7) node[above]{$U_{\mathrm{CE}}$ fix};
+\draw (BEZ1) -- (BEZ2) -- (\UAP+1.5*1,\IAP+1.5*\DR);
+\draw[dashed] (0,\IAP) node[left]{$I_{\mathrm{B,0}}$} --
+    (AP) node[circle, fill=black, minimum size=1pt]{} -- 
+    (\UAP,0) node[below]{$U_{\mathrm{BE,0}}$};
+\draw (AP) node[anchor=north west]{$\Delta U_{\mathrm{BE}}$} -- (\UAP+1,\IAP) -- (\UAP+1,\IAP+\DR) node[anchor=north west]{$\Delta I_{\mathrm{B}}$};
+\end{scope}
+\begin{scope}[xshift=8cm]
+\coordinate (AP) at (\UAP,\IAP);
+\coordinate (BEZ1) at (\UAP-\IAP/\DR,0);
+\coordinate (BEZ2) at (\UAP+1,\IAP+\DR);
+\draw[->] (0,0) -- (5,0) node[right] {$U_{\mathrm{BE}}$};
+\draw[->] (0,0) -- (0,7) node[above] {$I_{\mathrm{C}}$};
+\draw (0,0) .. controls (1,0) and (BEZ1) ..
+    (AP) .. controls (BEZ2) and (\UAP+1,5) ..
+    (\UAP+1,7) node[above]{$U_{\mathrm{CE}}$ fix};
+\draw (BEZ1) -- (BEZ2) -- (\UAP+1.5*1,\IAP+1.5*\DR);
+\draw[dashed] (0,\IAP) node[left]{$I_{\mathrm{C,0}}$} --
+    (AP) node[circle, fill=black, minimum size=1pt]{} -- 
+    (\UAP,0) node[below]{$U_{\mathrm{BE,0}}$};
+\draw (AP) node[anchor=north west]{$\Delta U_{\mathrm{BE}}$} -- (\UAP+1,\IAP) -- (\UAP+1,\IAP+\DR) node[anchor=north west]{$\Delta I_{\mathrm{C}}$};
+\end{scope}
+\end{tikzpicture}
+\end{document}
+```
 
 
 ![invert_dark|1200](assets/KS_KL.png)

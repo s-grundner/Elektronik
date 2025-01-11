@@ -67,7 +67,7 @@ X [k] = \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_{k=0} X[k]\c
 \end{align}
 $$
 
-> [!important] Beide Sequenzen lassen sich in [Vektor](Vektor.md)form darstellen:
+> [!important] Beide Sequenzen lassen sich in [Vektor](../../Mathematik/Algebra/Vektor.md)form darstellen:
 >
 > $$
 \begin{align}  

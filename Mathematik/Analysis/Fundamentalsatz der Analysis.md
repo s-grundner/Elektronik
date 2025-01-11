@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Analysis
 aliases:
   - Hauptsatz der Differenzial- und Integralrechnung
 keywords: 
@@ -21,4 +22,8 @@ satz:
     > Der Hauptsatz der Differenzial und Integralrechnung besagt, dass die Ableitung der Stammfunktion einer Funktion $f$ wieder die Funktion $f$ ist. 
 > $$\int_a^b f^{\prime}(x) \mathrm{d} x=f(x)\Bigg|_a ^b=f(b)-f(a) $$
 
-Eine wichtige Folgerung dieses Satzes ist die [Wegunabhängigkeit](Wegunabhängig.md) für Linienintegrale. Beziehungsweise die Generalisierung auf höhere Dimensionen mit dem Gradientensatz.
+- [Differenzialrechnung](Differenzialrechnung.md)
+- [Integralrechnung](Integralrechnung.md)
+
+
+Eine wichtige Folgerung dieses Satzes ist die [Wegunabhängigkeit](Wegunabhängig.md) für Linienintegrale. Beziehungsweise die Generalisierung auf höhere Dimensionen mit dem *Gradientensatz*.

@@ -1,6 +1,7 @@
 ---
 tags:
-  - DGL/Numerisch
+  - Analysis/DGL
+  - Analysis/Numerik
 aliases:
   - äquidistante diskretisierung
 keywords: 

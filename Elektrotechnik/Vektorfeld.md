@@ -14,7 +14,7 @@ cited:
 
 # Vektorfelder
 
-> [!def] **D1 - VECF)** Ein Vektorfeld ist eine Funktion, die jedem Punkt eines Raumes einen [Vektor](../Mathematik/Analysis/Vektor.md) zuordnet.
+> [!def] **D1 - VECF)** Ein Vektorfeld ist eine Funktion, die jedem Punkt eines Raumes einen [Vektor](../Mathematik/Algebra/Vektor.md) zuordnet.
 > Im gegensatz zu einem Skalarfeld, dass jedem Punkt einen skalaren Wert (eine Zahl) zuordnet.
 
 # Vektorfelder in der Elektotechnik

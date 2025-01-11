@@ -2,7 +2,7 @@
 tags:
   - Analysis
 aliases:
-  - MWS
+  - MWSD
 keywords: 
 subject:
   - VL
@@ -12,13 +12,13 @@ created: 10. April 2024
 professor:
   - Andreas Neubauer
 satz:
-  - MWS
+  - MWSD
 ---
  
 
-# Mittelwertsatz
+# Mittelwertsatz der Differenzialrechung
 
-> [!satz] **S1 - MWS)** 
+> [!satz] **S1 - MWSD)** 
 > In einem beliebigen Intervall $I$ einer stetigen Funktion $f(x)$ gibt es mindestens eine Stelle $x_{0}$, an der der *Differenzenquotient* dieses Intervalls gleich der [Ableitung](Analysis/Differenzialrechnung.md) ist.
 
 ```tikz
@@ -57,3 +57,5 @@ satz:
 \end{tikzpicture}
 \end{document}
 ```
+---
+
