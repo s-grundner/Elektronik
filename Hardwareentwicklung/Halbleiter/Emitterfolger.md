@@ -40,7 +40,6 @@ professor:
 \end{document}
 ```
 
-
 > [!warning] Anders als bei der [Emitterschaltung](Kollektorfolger.md) gibt es **keine** Phasenverschiebung.
 
 ## Arbeitspunkt

@@ -28,11 +28,10 @@ professor:
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
-\ctikzset{bipoles/length=0.8cm}
-\ctikzset{diodes/scale=0.8}
+\ctikzset{bipoles/length=1cm}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[very thick, scale=2, transform shape]
+\begin{circuitikz}[thick, scale=2, transform shape]
 \coordinate (g) at (0, -2);
 \coordinate (v) at (0, 2.5);
 \draw (0,0) node[npn](npn){};
