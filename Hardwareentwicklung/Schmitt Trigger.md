@@ -7,16 +7,25 @@ aliases:
   - Schmittriggers
   - Schmitt-Triggers
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
-  - Michael Offenhuber
+  - Einführung Elektronik
+  - VL
 created: 10th January 2023
+semester: WS24
+professor:
+  - Christian Diskus
 ---
 
 # Schmitt Trigger
 
-# Invertierender Schmitt Trigger
+## Nicht Invertierender Schmitt Trigger
+
+![[assets/Schmitt Trigger 2025-01-13 09.17.44.excalidraw]]
+
+## Invertierender Schmitt Trigger
+
+![[assets/Schmitt Trigger 2025-01-13 09.27.15.excalidraw]]
+
+# HTL NOTES
 
 ![IMG_3622](assets/IMG_3622.jpeg)
 
