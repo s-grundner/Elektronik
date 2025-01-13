@@ -1,18 +1,16 @@
 ---
-aliases:
-  - Folgen
-subject:
-  - mathe
-source:
-  - Rudolf Frauenschuh
+aliases: 
+subject: []
 created: 24th March 2022
+tags:
+  - Analysis/Reihen
 ---
+
+> [!warning] Veraltet
 
 # Folgen
 
 ## Darstellung von Folgen
-
-
 
 > [!INFO] *Term Darstellung* einer Folge:  
 > Angabe eines Terms (einer "Formel"), wie das Glied $a_{n}$ formelmäßig aus dem *index n* berechnet werden kann.  
@@ -26,9 +24,9 @@ created: 24th March 2022
 
 ## Konvergente Folgen
 
-![Grenzwert](Grenzwert.md)
+[Grenzwert](Grenzwert.md)
 
-> [!EXAMPLE] Beispiel: $\left\langle  x_{n} = 1- \frac{1}{n}, n \in \mathbb{N}^*  \right\rangle = \langle 0;\frac{1}{2};\frac{2}{3}; \frac{3}{4}; \frac{4}{5} \dots \frac{1}{n+1}\rangle$
+> [!EXAMPLE] Beispiel: $[  x_{n} = 1- \frac{1}{n}, n \in \mathbb{N}^*] = [0;\frac{1}{2};\frac{2}{3}; \frac{3}{4}; \frac{4}{5} \dots \frac{1}{n+1}]$
 > - Abstand des $n$-ten Folgeglieds von $1$ ist $\frac{1}{n}$
 > - Man nennt $1$ den *[Grenzwert](Grenzwert.md)* der Folge $\langle 1-\frac{1}{n}\rangle$ und sagt, dass die Folge gegen $1$ strebt.
 > - $x_{n} \to 1$ für $n\to \infty$

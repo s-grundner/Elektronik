@@ -26,6 +26,8 @@ professor:
 
 > [!important] Besonderheiten
 > - einfache mathematische Beschreibung mit [DGL](../Mathematik/{MOC}%20DGL.md) aus der Bewegungsgleichung
+> - Harmonische Schwingungen sind physikalisch oft mit [Randwertproblemen](../Mathematik/Randwertprobleme.md) verbunden
+>   - Zum Beispiel ist eine Schwingenden Saite an dessen beiden enden Fixiert und kann dann mit diesen Randwerten durch die [Wellengleichung](../Mathematik/Wellengleichung.md) beschrieben werden. 
 
 > [!info] Modell vieler physikalischer Systeme:
 >- Mechanische [Schwingkreise](Schwingkreise.md)
@@ -65,7 +67,6 @@ professor:
 
 \addplot[smooth, very thick, surf] {0+(0.2*sin(deg(0.25*((x)))};
 \addplot[smooth, very thick, surf] {0+(0.2*sin(deg(0.25*(x-3.14*4)))};
-
 
 \addplot[smooth, very thick, surf] {-0.5+(0.2*sin(deg((0.375*x)-9.42477))))};
 \addplot[smooth, very thick, surf] {-0.5+(0.2*sin(deg((0.375*x)))))};

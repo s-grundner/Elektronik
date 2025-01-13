@@ -33,7 +33,7 @@ PHP wird *üblicherweise* in HTML eingebettet. Ein Browser bekommt eine HTML-Sei
 
 Es wird *formulare.html* angelegt:
 
-```php+HTML
+```php
 <form action="formulare.php" method="post">
     <p>Server: <input type="text" size="20" name="server"/></p>
     <p>Database: <input type="text" size="20" name="db"/></p>
@@ -71,7 +71,7 @@ Button auf Link:
 
 (kann auch in einem Form verwendet werden, mittels $_POST[list] wird dann der gewählte Wert zurückgegeben):
 
-```php+HTML
+```php
 <label>
     <select name="list" size="10">
         <option>Bruno</option>
@@ -89,7 +89,7 @@ Mit einem css-Tag kann die Breite oder eine Scrollbar manipuliert werden:
 
 ## Table
 
-```php+HTML
+```php
 <table align="left" style="width:30%">
     <tr>
         <th align="left">Titel 1</th>
@@ -117,7 +117,7 @@ Damit PHP-Dateien in einem Browser das gewünschte Ergebnis zeigen, wird ein Com
 
 Mit der einfachen PHP-Datei `formulare.php`:
 
-```php+HTML
+```php
 <?php
     echo $_POST['server'];
 ?>
@@ -129,7 +129,7 @@ Für html-Formulare die method="post" verwenden, sind die Werte der Formular-Fel
 
 Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Server-Felds. Um die Form der Anzeige zu steuern kann man sich HTML-Code bedienen: 
 
-```php+HTML
+```php
 <?php
     echo "<p>***".$_POST['server']."***</p>";
 ?>
@@ -137,7 +137,7 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 
 Üblicherweise wird Text nicht *so roh* ausgegeben, daher kann der gesamte PHP-Code in ein HTML eingebettet werden:
 
-```php+HTML
+```php
 <html>
     <head>
         <title>Erstes PHP-Beispiel</title>
@@ -170,19 +170,19 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 - Deklaration von Variablen: nicht erforderlich, Datentyp wird automatisch aus der Verwendung erschlossen
 
 - Um den Zeichensatz einzustellen muss am Beginn des PHP-Skripts der gleiche Zeichensatz eingestellt werden wie in der verwendeten Datenbank (etwa um Umlaute/Sonderzeichen richtig darzustellen):
-  
-  ```php+HTML
-  header("Content-Type: text/html; charset=utf8_general_ci");
-  ```
 
-Da sich Datentypen aus dem Kontext bestimmen kann `liefert 2=="2"` ein wahres Ergebnis. Um zu überprüfen ob der Datentyp und der Wert identisch ist, wird mittels `===` bzw. `!==` Operator geprüft.
+```php
+  header("Content-Type: text/html; charset=utf8_general_ci");
+```
+
+Da sich Datentypen aus dem Kontext bestimmen kann `liefert 2 == "2"` ein wahres Ergebnis. Um zu überprüfen ob der Datentyp und der Wert identisch ist, wird mittels `===` bzw. `!==` Operator geprüft.
 
 ## Felder
 
 ```php
 $feld = array(0, 2, 4, 5, 6);
 $feld[] = 7;                <!-- 7 wird hinten angefuegt -->
-$feld[20] = 10;                <!-- 10 wird an 20 eingefuegt, dazwischenliegende leer --> 
+$feld[20] = 10;             <!-- 10 wird an 20 eingefuegt, dazwischenliegende leer --> 
 
 foreach ($feld as $wert)    <!-- Element fuer Element kommt in $wert -->
     echo "<p>$wert</p>";
@@ -209,7 +209,7 @@ extension=php_pdo_mysql.dll
 
 Zum Herstellen der Verbindung (Server, User, Passwort entsprechend anpassen):
 
-```php+HTML
+```php
 $conn = new PDO("mysql:host=localhost;mydb","schueler","comein");
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $conn->setAttribute(PDO::ATTR_CASE, PDO::CASE_UPPER);
@@ -222,7 +222,7 @@ Für die Verbindung ist nur die erste Zeile erforderlich. Mit dem `$conn`-Objekt
 
 Um einen SQL-Befehl (genauer eine Abfrage) abzusetzen wird ein Query ausgeführt. Zurückgegeben wird ein PDOStatement (\$stmt):
 
-```php+HTML
+```php
 $sql = "SELECT * FROM mydb.Mytable";
 $stmt = $conn->query($sql);
 $row = $stmt->fetch();
@@ -231,7 +231,7 @@ echo $row['COL1'];
 
 mit jedem `fetch()` wird (maximal!) eine komplette Zeile der Ergebnistabelle zurückgegeben. Wenn keine Zeile erhalten wird, dann gibt `fetch()` ein `false` zurück:
 
-```php+HTML
+```php
 while ($row = $stmt->fetch()):
     echo "<p>".$row['COL1']."</p>";
 endwhile;
@@ -246,7 +246,7 @@ Wichtig: der Spaltenname muss groß geschrieben werden. Es wird empfohlen die SQ
 
 Für Befehle ohne Rückmeldung (keine Anfrage …) gibt's zwei Möglichkeiten, **prepare - execute**
 
-```php+HTML
+```php
 $sql = "INSERT INTO cdsammlung.kuenstler (IId,Interpret,Gruendungsjahr) VALUES (?,?,?)";
 $stmt = $conn->prepare($sql);
 $stmt->execute(array('1111', 'Bob', '1888'));                
@@ -265,7 +265,7 @@ $anzahl = $conn->exec($sql);
 
 ### Beenden Der DB-Verbindung
 
-```php+HTML
+```php
 $conn->commit();    // Transaktion beenden (beginTransaction)
 $conn = null;        // Datenbankverbindung beenden (Obj freigeben)
 ```
@@ -276,7 +276,7 @@ Wenn die Transaktion zurückgesetzt werden soll wird anstatt von `commit` ein `r
 
 Beim Verbinden mit der Datenbank wurde eingestellt, dass Fehler mit einer Exception zu behandeln sind.
 
-```php+HTML
+```php
 try {
     // DB-Zugriff
 } catch (PDOException $e) {
@@ -304,7 +304,7 @@ Für diese Beispiel muss es die DB **is_uni** geben. In dieser DB muss eine Tabe
 
 Suche des Raums eines Professors:
 
-```php+HTML
+```php
 <?php
     $prof = $_POST['profName'];
 
@@ -329,7 +329,7 @@ Suche des Raums eines Professors:
 
 mit einer passenden HTML-Seite:
 
-```php+HTML
+```php
 <html>
     <head>
         <title>Raumsuche</title>

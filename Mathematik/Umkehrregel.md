@@ -1,6 +1,6 @@
 ---
 tags:
-  - Infinitesimalrechnung/Differenzieren
+  - Analysis/Differenzieren
 aliases: 
 keywords: 
 subject:

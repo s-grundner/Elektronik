@@ -2,8 +2,7 @@
 tags:
   - incomplete
 aliases:
-  - OTA
-  - Operational-Transconductance-Amplifier
+  - Trskonduktanzverstärker
 subject:
   - hwe
 source:
@@ -13,9 +12,12 @@ created: 8th June 2022
 
 # Trans-Konduktanz-Verstärker
 
-- Trans-Admittanzverstärker (Eingang: Spannung, Ausgang: Strom)
-    - z.B. [BJT](Halbleiter/Bipolartransistor.md)
-- Trans-Impedanzverstärker (Eingang: Strom, Ausgang: Spannung)
+> [!info] Begriffserklärung
+- Trans-Impedanzverstärker
+    - Eingang: Strom, Ausgang: Spannung
+    - Eingangs
+- Trans-Konduktanzverstärker:
+    - (Eingang: Spannung, Ausgang: Strom)
 
 ---
 

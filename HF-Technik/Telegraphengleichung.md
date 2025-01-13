@@ -4,6 +4,7 @@ tags:
 aliases:
   - Ausbreitungskoeffizient
   - Fortpflanzungskonstante
+  - Helmholzsche Differenzialgleichung
 subject:
   - HF-Systemtechnik 1
   - KV
@@ -14,6 +15,8 @@ created: 1st March 2023
 ---
 
 # Telegraphengleichung
+
+Anders Als Die Telegraphengleichung (auch Helmholtzsche Differenzialgleichung
 
 Die Telegraphengleichung ist eine gewöhnliche [DGL 2. Ordnung](../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md) und beschreibt die Propagation einer Spannungswelle auf einer [HF-Übertragungsleitung](Transmission%20Line.md) mit Berücksichtigung der durch den materialgegebenen Signalausbreitungs-Geschwindigkeiten. 
 

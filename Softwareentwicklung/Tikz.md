@@ -1,3 +1,10 @@
+---
+tags: 
+aliases:
+  - "#tikz"
+created: 28. September 2024
+---
+
 # Tikz
 
 ## Pgfplots Examples

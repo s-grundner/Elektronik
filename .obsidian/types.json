@@ -45,6 +45,11 @@
     "ez": "date",
     "Lack": "multitext",
     "avg_grades": "checkbox",
-    "axiome": "multitext"
+    "axiome": "multitext",
+    "exam": "datetime",
+    "due": "datetime",
+    "show_all_semesters": "checkbox",
+    "def": "multitext",
+    "satz": "multitext"
   }
 }

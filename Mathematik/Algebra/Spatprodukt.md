@@ -1,14 +1,14 @@
 ---
 tags: 
 aliases: 
-keywords: 
+keywords:
+  - Volumen des Parallelepipeds
 subject:
-  - Mathematik1
-  - "357.100"
-semester:
-  - WS23
+  - Mathematik 1
+semester: WS25
 created: 27. Januar 2024
 professor:
+  - Andreas Neubauer
 ---
  
 

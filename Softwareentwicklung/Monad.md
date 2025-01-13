@@ -30,7 +30,7 @@ Die Bindeoperation (`>>=`) hat den Typ $V(T) \rightarrow(T \rightarrow V(U)) \ri
 
 Durch Vertauschen der Argumente erhält man den Typ $(T \rightarrow V(U)) \rightarrow(V(T) \rightarrow V(U))$, an dem man die Semantik erkennen kann: die gegebene Funktion, die auf den Basiselementen definiert ist, wird zu einer vollen [linearen Abbildung](../Mathematik/Algebra/Lineare%20Abbildungen.md) erweitert.
 
-Die Einheitsfunktion bildet das Basiselement (welches in dieser Modellierung noch kein „richtiger" [Vektor](../Mathematik/Analysis/Vektor.md) ist) auf den entsprechenden Basisvektor ab.
+Die Einheitsfunktion bildet das Basiselement (welches in dieser Modellierung noch kein „richtiger" [Vektor](../Mathematik/Algebra/Vektor.md) ist) auf den entsprechenden Basisvektor ab.
 
 ---
 

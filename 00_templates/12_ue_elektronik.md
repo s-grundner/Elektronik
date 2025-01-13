@@ -5,17 +5,26 @@ tp.file.rename("UE" + nr)
 
 # UE<%* tR += nr%>
 
-⬅️ <a href="./UE<%* tR += (parseInt(nr) - 1) %>.md" class="internal-link">letzte Übung</a> | <a href="./UE<%* tR += (parseInt(nr) + 1) %>.md" class="internal-link">nächste Übung</a> ➡️ 
+⬅️ <a href="./UE<%* tR += (parseInt(nr) - 1) %>.md" class="internal-link">letzte Übung</a> | [📓]({NOTES}%20Einführung%20Elektronik%20UE.md) | <a href="./UE<%* tR += (parseInt(nr) + 1) %>.md" class="internal-link">nächste Übung</a> ➡️ 
 
 ---
 
-📝 [Angabe](Übungsskriptum.pdf)
-✅ [Lösung](Abgaben/UE<%* tR += nr%>-k12136610.pdf)
+📝 [Angabe](Übungsskriptum.pdf))
+✅ (files::[Lösung](Abgaben/UE<%* tR += nr%>-k12136610.pdf))
 
 ---
 
 ## Aufgaben
 
-<%tp.file.cursor(20)%>
+> [!info] <%tp.file.cursor()%>
 
 ## Quizfragen
+
+
+> [!question] 
+> 
+> 
+?
+> > [!success]- Lösung
+> >
+

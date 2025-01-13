@@ -20,20 +20,17 @@
   "code-styler",
   "dataview",
   "obsidian-linter",
-  "table-editor-obsidian",
   "obsidian-icon-folder",
   "obsidian-style-settings",
   "settings-search",
   "obsidian-latex-suite",
   "obsidian-table-to-csv-exporter",
-  "obsidian-timeline",
   "obsidian-auto-link-title",
-  "quick-latex",
   "obsidian-react-components",
   "obsidian-tikzjax",
-  "obsidian-contextual-typography",
   "obsidian-text-format",
   "obsidian-git",
+  "github-copilot",
   "obsidian-spaced-repetition",
-  "github-copilot"
+  "obsidian-excalidraw-plugin"
 ]

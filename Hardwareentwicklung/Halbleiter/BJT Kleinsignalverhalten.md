@@ -18,12 +18,13 @@ professor:
 
 > [!info] Kleinsignal Ersatzschaltbild (KSESB) eines Bipolartransistors
 >
+
 ```tikz
 \usepackage[european]{circuitikz}
 \usepackage{amsmath}
-
+\ctikzset{bipoles/length=1cm}
 \begin{document}
-\begin{circuitikz}[thick, scale=1.5, font=\Large]
+\begin{circuitikz}[thick, scale=1.5, font=\Large, transform shape]
 
 % Begin Schematic
 
@@ -53,141 +54,55 @@ professor:
 \end{document}
 ```
 
-
 Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgleichung am Arbeitspunkt linearisiert.
-
-
-#tikz/todo:
 
 ```tikz
 \usepackage{pgfplots}
 \usepackage{tikz}
 \usepackage{amsmath}
 \pgfplotsset{compat=1.16}
-
 \begin{document}
+\newcommand{\IAP}{1.5}
+\newcommand{\UAP}{3}
+\newcommand{\DR}{1.5}
 
-\begin{tikzpicture}
-
-
-% BJT Parameter
-
-\newcommand{\IS}{1e-15}
-\newcommand{\UT}{26e-3}
-\newcommand{\B}{100}
-
-% Kennlinien
-
-\newcommand{\IC}[1]{\IS*(exp((#1)/\UT)-1)} % IC(UBE)
-\newcommand{\IB}[1]{\IC{#1}/\B} % IB(UBE)
-
-% Arbeitspunkt
-
-\newcommand{\UCEAP}{5}
-\newcommand{\UBEAP}{0.7}
-\newcommand{\IBAP}{\IB{\UBEAP}}
-\newcommand{\ICAP}{\IC{\UBEAP}}
-
-\newcommand{\rBE}{\UT/\IBAP}
-
-% Eingangskennlinie
+\begin{tikzpicture}[very thick, font=\LARGE]
 \begin{scope}
-\newcommand{\Ymax}{0.000015}
-\begin{axis}[
-    axis lines = left,
-    xlabel = $U_{BE}$,
-    ylabel = $I_{B}$,
-    xtick={\UBEAP}, ytick={\IBAP},
-    xticklabels={$U_{BE,0}$},
-    yticklabels={$I_{B,0}$},
-    ymin = 0,
-    ymax = \IBAP*3,
-    xmin = 0,
-    xmax = 1.1,
-    x = 3cm,
-    title = $\Large\text{Eingangskennlinie}$
-]
-
-\addplot [
-    restrict y to domain=0:{\Ymax},
-    domain=0:\UBEAP+.1, 
-    samples=100,
-    color=red,
-]
-{\IB{x}};
-
-\addplot[mark=*, mark size=1.5pt, color=red] coordinates {(\UBEAP, \IBAP)};
-
-\addplot[
-    restrict y to domain=0:{\Ymax},
-    color=green,
-    domain=0:\UBEAP,
-    samples=100
-]
-{\IBAP+(x-\UBEAP)/\rBE};
-
-\end{axis}
+\coordinate (AP) at (\UAP,\IAP);
+\coordinate (BEZ1) at (\UAP-\IAP/\DR,0);
+\coordinate (BEZ2) at (\UAP+1,\IAP+\DR);
+\draw[->] (0,0) -- (5,0) node[right] {$U_{\mathrm{BE}}$};
+\draw[->] (0,0) -- (0,7) node[above] {$I_{\mathrm{B}}$};
+\draw (0,0) .. controls (1,0) and (BEZ1) ..
+    (AP) .. controls (BEZ2) and (\UAP+1,5) ..
+    (\UAP+1,7) node[above]{$U_{\mathrm{CE}}$ fix};
+\draw (BEZ1) -- (BEZ2) -- (\UAP+1.5*1,\IAP+1.5*\DR);
+\draw[dashed] (0,\IAP) node[left]{$I_{\mathrm{B,0}}$} --
+    (AP) node[circle, fill=black, minimum size=1pt]{} -- 
+    (\UAP,0) node[below]{$U_{\mathrm{BE,0}}$};
+\draw (AP) node[anchor=north west]{$\Delta U_{\mathrm{BE}}$} -- (\UAP+1,\IAP) -- (\UAP+1,\IAP+\DR) node[anchor=north west]{$\Delta I_{\mathrm{B}}$};
 \end{scope}
-
-% Transferkennlinie
-\begin{scope}[xshift=5cm]
-\newcommand{\Ymax}{0.0015}
-\begin{axis}[
-    axis lines = left,
-    xlabel = $U_{BE}$,
-    ylabel = $I_{C}$,
-    xtick={\UBEAP}, ytick={\ICAP},
-    xticklabels={$U_{BE,0}$},
-    yticklabels={$I_{C,0}$},
-    ymin = 0,
-    ymax = {\ICAP*3},
-    xmin = 0,
-    xmax = 1.1,
-    restrict y to domain=0:{\Ymax},
-    x = 3cm,
-    title = $\Large\text{Transferkennlinie}$
-]
-
-\addplot [
-    domain=0:\UBEAP+0.2, 
-    samples=100, 
-    color=red,
-]
-{\IC{x}};
-
-\end{axis}
+\begin{scope}[xshift=8cm]
+\coordinate (AP) at (\UAP,\IAP);
+\coordinate (BEZ1) at (\UAP-\IAP/\DR,0);
+\coordinate (BEZ2) at (\UAP+1,\IAP+\DR);
+\draw[->] (0,0) -- (5,0) node[right] {$U_{\mathrm{BE}}$};
+\draw[->] (0,0) -- (0,7) node[above] {$I_{\mathrm{C}}$};
+\draw (0,0) .. controls (1,0) and (BEZ1) ..
+    (AP) .. controls (BEZ2) and (\UAP+1,5) ..
+    (\UAP+1,7) node[above]{$U_{\mathrm{CE}}$ fix};
+\draw (BEZ1) -- (BEZ2) -- (\UAP+1.5*1,\IAP+1.5*\DR);
+\draw[dashed] (0,\IAP) node[left]{$I_{\mathrm{C,0}}$} --
+    (AP) node[circle, fill=black, minimum size=1pt]{} -- 
+    (\UAP,0) node[below]{$U_{\mathrm{BE,0}}$};
+\draw (AP) node[anchor=north west]{$\Delta U_{\mathrm{BE}}$} -- (\UAP+1,\IAP) -- (\UAP+1,\IAP+\DR) node[anchor=north west]{$\Delta I_{\mathrm{C}}$};
 \end{scope}
-
-% Ausgangskennlinie
-\begin{scope}[xshift=10cm]
-\begin{axis}[
-    width=12cm, height=8cm,
-    xlabel={$U_{CE}$ [V]}, ylabel={$I_C$ [mA]},
-    xmin=0, xmax=10, ymin=0, ymax=10,
-    xtick={0,2,4,6,8,10}, ytick={0,2,4,6,8,10},
-    grid=both,
-    legend pos=north east, legend style={font=\small},
-    axis lines=middle,
-    enlarge x limits=false, enlarge y limits=false,
-    title = $\Large\text{Ausgangskennlinie}$
-]
-
-% Plot for different I_B values
-
-\addplot[domain=0:10, samples=100, thick, blue] {0.5*(1-exp(-3*x))}; \addlegendentry{$I_B = 0.5$ mA}
-\addplot[domain=0:10, samples=100, thick, red] {1.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 1.0$ mA}
-\addplot[domain=0:10, samples=100, thick, green] {2.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 2.0$ mA}
-\addplot[domain=0:10, samples=100, thick, orange] {4.0*(1-exp(-3*x))}; \addlegendentry{$I_B = 4.0$ mA}
-
-\end{axis}
-\end{scope}
-
 \end{tikzpicture}
-
 \end{document}
 ```
 
-![invert_dark](assets/KS_KL.png)
+
+![invert_dark|1200](assets/KS_KL.png)
 
 $$
 \begin{array}[b]{|c|c|c}
@@ -213,8 +128,11 @@ $$
 \begin{aligned}
 \left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{CE}}}\right|_{\mathrm{AP}}&=g_{\mathrm{EA}} \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{CE}}} \\ \\
 &=\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{CE}, 0}+U_{\mathrm{EA}}} \\ \\ \\ \\
-\end{aligned} \\ \\
-\boxed{ r_{\mathrm{BE}} \approx \frac{B}{S} } & \boxed{ S\approx \frac{I_{C,0}}{U_{T}} } & \boxed{ g_{\mathrm{EA}}= \frac{I_{C,0}}{U_{CE,0}+U_{EA}} } 
+\end{aligned} \\  \\
+ 
+\boxed{ r_{\mathrm{BE}} \approx \frac{B}{S} }
+& \boxed{ S\approx \frac{I_{C,0}}{U_{T}} }
+& \boxed{ g_{\mathrm{EA}}= \frac{I_{C,0}}{U_{CE,0}+U_{EA}} }
 \end{array}
 $$
 
@@ -229,10 +147,14 @@ $$
 Die Kleinsignal-Stromverstärkung $\beta=\frac{\partial I_C}{\partial I_B}$ ist wegen der fast linearen Stromsteuerkennlinie näherungsweise gleich der Gleichstromverstärkung $\beta \approx B$. In Datenblättern wird $B$ oft $h_{21}$ oder $h_{F E}$ genannt. Dabei bedeutet $h$ Element der Hybridmatrix, $F$ Betrieb in Vorwärtsrichtung (forward) und $E$ [Emitterschaltung](Kollektorfolger.md).
 
 > [!important] Die Kleinsignalspannungen und -ströme werden im Folgenden klein geschrieben
-> $$ \Delta U_{\mathrm{BE}}=u_{\mathrm{BE}} \quad \Delta I_{\mathrm{B}}=i_{\mathrm{B}} \quad \Delta U_{\mathrm{CE}}=u_{\mathrm{CE}} \quad \Delta I_{\mathrm{C}}=i_{\mathrm{C}} $$
+> $$ \Delta U_{\mathrm{BE}}=u_{\mathrm{BE}}, \quad \Delta I_{\mathrm{B}}=i_{\mathrm{B}}, \quad \Delta U_{\mathrm{CE}}=u_{\mathrm{CE}}, \quad \Delta I_{\mathrm{C}}=i_{\mathrm{C}} $$
 
 und werden durch folgende Zusammenhänge im KSESB miteinander verknüpft:
 
 $$
-u_{\mathrm{BE}}=r_{\mathrm{BE}}\cdot i_{\mathrm{B}} \quad i_{\mathrm{C}}' \approx S\cdot u_{\mathrm{BE}}=\beta \cdot i_{\mathrm{B}} \quad i_{\mathrm{C}}''=g_{\mathrm{EA}} \cdot u_{\mathrm{CE}} \quad i_{\mathrm{C}}=i_{\mathrm{C}}'+i_{\mathrm{C}}'' \quad i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
+\begin{gathered}
+u_{\mathrm{BE}}=r_{\mathrm{BE}}\cdot i_{\mathrm{B}}  \\
+i_{\mathrm{C}}' \approx S\cdot u_{\mathrm{BE}}=\beta \cdot i_{\mathrm{B}}, \quad i_{\mathrm{C}}''=g_{\mathrm{EA}} \cdot u_{\mathrm{CE}}, \quad i_{\mathrm{C}}=i_{\mathrm{C}}'+i_{\mathrm{C}}''  \\
+i_{\mathrm{E}}=i_{\mathrm{B}}+i_{\mathrm{C}}
+\end{gathered}
 $$

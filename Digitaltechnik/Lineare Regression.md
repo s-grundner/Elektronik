@@ -19,7 +19,7 @@ $$
 \min _{c, d \in \mathbb{R}} f(c, d) \quad \text { mit } \quad f(c, d):=\frac{1}{n} \sum_{k=1}^n\left(c x_k+d-y_k\right)^2
 $$
 
-Wir müssen nun offensichtlich den [[Gradient|Gradienten]] $0$ setzen, um die kritischen Punkte zu finden, also:
+Wir müssen nun offensichtlich den [[../Mathematik/Analysis/Gradient|Gradienten]] $0$ setzen, um die kritischen Punkte zu finden, also:
 $$
 \frac{\partial f}{\partial c}=\frac{2}{n} \sum_{k=1}^n\left(c x_k+d-y_k\right) x_k=0=\frac{2}{n} \sum_{k=1}^n\left(c x_k+d-y_k\right)=\frac{\partial f}{\partial d}
 $$

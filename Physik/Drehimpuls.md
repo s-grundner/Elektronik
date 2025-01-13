@@ -32,7 +32,7 @@ $$
 \end{align}
 $$
 
-Der erste Term auf der rechten Seite ist Null, da das [Kreuzprodukt](Vektor.md) aus zwei parallelen [Vektoren](Vektor.md) immer Null ergibt: $\frac{d\vec{r}}{dt}\times \vec{p} = \vec{v}\times m\vec{v}=0$
+Der erste Term auf der rechten Seite ist Null, da das [Kreuzprodukt](../Mathematik/Algebra/Vektor.md) aus zwei parallelen [Vektoren](../Mathematik/Algebra/Vektor.md) immer Null ergibt: $\frac{d\vec{r}}{dt}\times \vec{p} = \vec{v}\times m\vec{v}=0$
 
 Der zweite Term ergibt unter Verwendung des 2. Newtonschen Gesetzes:
 

@@ -32,6 +32,7 @@ $$
 \newcommand\RC{3}
 
 \begin{tikzpicture}[thick]
+
 \draw[very thick] (\MX,\MY) circle(\RC);
 \draw[->] (-1, 0) -- (6, 0) node[anchor=west] {\Huge$x$};
 \draw[->] (0, -1) -- (0, 6) node[anchor=south] {\Huge$y$};
@@ -41,6 +42,7 @@ $$
 \draw (\MX, \MY) node[right] {\Huge $(M_{x}, M_{y})$};
 \draw[->, red] (\MX, \MY) -- (\MX+\RC*0.707, \MY+\RC*0.707);
 \draw (\MX+\RC*0.707, \MY+\RC*0.707) node[above right] {\Huge $r$};
+
 \end{tikzpicture}
 
 \end{document}

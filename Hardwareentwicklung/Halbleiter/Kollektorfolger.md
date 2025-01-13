@@ -15,15 +15,16 @@ professor:
   - Bernhard Jakoby
 ---
 
-# Kollektorfolger / Emitterfolger
+# Kollektorfolger / Emitterschaltung
 
 > [!info] Auch **Emitterschaltung** genannt,
-> da der gemeinsame Bezugspunkt von Ein- und Ausgang der Emitter ist.
+> da der gemeinsame Bezugspunkt von Einund Ausgang der Emitter ist.
 
 > [!quote] Die Emitterschaltung bewirkt eine Gleichstromgesteuerte [Spannungsgegenkopplung](Spannungseinstellung.md)
 > Die Parallelkapazität $C_{\mathrm{E}}$ am Emitterwiderstand $R_{\mathrm{E}}$ bewirkt eine frequenzabhängige Gegenkopplung, die nur für Gleichgrößen und Frequenzen unterhalb der kleinsten interessierenden Signalfrequenz wirkt und für höhere Frequenzen teilweise (oder sogar komplett) unwirksam ist.
 > 
 > $C_{\mathrm{E}}$ bewirkt mit zunehmender Frequenz einen Kurzschluss von $R_{\mathrm{E}}$ und hebt damit die Gegenkopplung für höhere Frequenzen auf. Dies bewirkt eine Erhöhung der Verstärkung und einen größeren Aussteuerbereich.
+
 
 ![](assets/Pasted%20image%2020241111093628.png)
 
@@ -66,6 +67,25 @@ professor:
 \draw (1.16, 3) -| (0, 4);
 \draw (0, 2) -- (0, 3);
 \draw (2, 2) -- (2, 2.23);
+
+\end{circuitikz}
+\end{document}
+```
+
+## Kleinsignal Ersatzschaltbild
+
+> [!question] [Kleinsignalverhalten](BJT%20Kleinsignalverhalten.md)
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick]
+% Begin Schematic
+
+
+
+
 
 \end{circuitikz}
 \end{document}

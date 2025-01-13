@@ -17,7 +17,7 @@ professor:
 # Lineare Abhängigkeit
 
 > [!important] [Definition 6.5](Koordinatenmatrix.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md):
-> **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](../Analysis/Vektor.md)), heißen **linear unabhängig**, falls gilt:
+> **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](Vektor.md)), heißen **linear unabhängig**, falls gilt:
 > 
 > $$
 > \left.\sum_{i=1}^k \lambda_i v_i=0 \quad \Longleftrightarrow \quad \forall i \in\{1, \ldots, k\}\right\}: \lambda_i=0

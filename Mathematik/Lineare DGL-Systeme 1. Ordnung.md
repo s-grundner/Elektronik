@@ -9,27 +9,30 @@ subject:
   - Mathematik 3
 semester: WS24
 created: 30. Oktober 2024
-professor:
+professor: 
+def:
+  - AWP 1.1
+  - AWP 1.2
 ---
  
 
 # Lineare DGL-Systeme 1. Ordnung
 
-vorher: $x' f(t,\bar{x})$
+[Allgemeine DGL]({MOC}%20DGL.md): $x' = f(t,x)$
 
-jetzt: $\underbrace{ x' \overset{(*)}{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Intervall)}$
+hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Lösungsintervall)}\quad x \in\mathbb{R}^{m}$
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
->Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../Physik/Federkraft.md)-Dämpfer Systeme der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
+>Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../Physik/Federkraft.md)-Dämpfer [Systeme](../Systemtheorie/Zustandsgleichungen.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
-> [!important] … Also durch Systeme der Form
+> [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung
 > 
-> $$x^{\prime}=A(t) x+b(t) \tag{AWP (1.1)}$$
+> $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}$$
 
-> [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Analysis/Vektor.md) in $\mathbb{R}^m$ handelt, also:
+> [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Algebra/Vektor.md) in $\mathbb{R}^m$ handelt, also:
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 > > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)…
-> > …Sind vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) möglich.
+> > … sind Vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) möglich.
 > > - siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 
 $$
@@ -48,14 +51,14 @@ b_{m}(t)
 $$
 
 
-> [!important] Falls $b=\mathbf{0}$, dann heißt $(*)$ ein **homogenes DGL-System**, ansonsten **inhomogen**
-> zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP(1.2)}$$
+> [!def] **D2 - AWP 1.2)** Falls $b=\mathbf{0}$, dann heißt **AWP 1.1** ein **homogenes DGL-System**, ansonsten **inhomogen**
+> zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP 1.2}$$
 
 > [!question]- Implizite Form eines inhomogenen DGL-Systems
 > $C(t)x'=A(t)x+b(t)$ mit $C(t) \in \mathbb{R}^{m \times m}$.
 > So ein System lässt sich nur dann in ein explizites umschreiben, wenn die Matrix $C(t)$ für alle $t$ regulär ist.
 
-Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
+Man kann den Satz von [Picard-Lindelöf](Analysis/Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
 
 - $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$ (also $f: I \to \mathbb{R}$ )
 - $K \subseteq I$ … $K$ ist ein abgeschlossenes Teilintervall
@@ -115,7 +118,7 @@ Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ lin
 > Man erhält alle Lösungen von AWP 1.1, indem man zu irgendeiner festen **partikulären** Lösung von AWP 1.1 alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 
-> [!question] Wie kommt man von der [[Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
+> [!question] Wie kommt man von der [[Analysis/Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
 > mit [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md)
 > - Die konstante $c$ wird zu $c(t)$
 

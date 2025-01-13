@@ -1,21 +1,30 @@
 ---
 tags: 
-aliases:
-  - Divergenz
-  - Rotation
-  - Vektoranalysis
+aliases: []
 keywords: 
 subject:
   - VL
   - Mathematik 2
+  - Elektrotechnik
 semester: SS24
 created: 10. Juni 2024
 professor: 
 cited:
 ---
- 
 
-# Vektorfeld
+# Vektorfelder
+
+> [!def] **D1 - VECF)** Ein Vektorfeld ist eine Funktion, die jedem Punkt eines Raumes einen [Vektor](../Mathematik/Algebra/Vektor.md) zuordnet.
+> Im gegensatz zu einem Skalarfeld, dass jedem Punkt einen skalaren Wert (eine Zahl) zuordnet.
+
+# Vektorfelder in der Elektotechnik
+
+Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](Elektrisches%20Feld.md) $\mathbf{E}$ und das [magnetische Feld](magnetisches%20Feld.md) $\mathbf{B}$, welche durch die [Maxwell](Maxwell.md)-Gleichungen beschrieben werden. Diese Felder sind [konservativ](../Mathematik/Analysis/Wegunabhängig.md).
+
+> [!tldr] Im Folgenden werden die physikalischen Ursachen der Mathematischen Operationen auf konservative Vektorfelder erläutert:
+> - [Gradient](../Mathematik/Analysis/Gradient.md) und Gradientintegral ([Fundamentalsatz der Analysis](../Mathematik/Analysis/Fundamentalsatz%20der%20Analysis.md))
+>  - Divergenz und Divergenzintegral / Gaußscher Integralsatz
+>  - Rotation und Rotationintegral / Stokescher Integralsatz
 
 ## Divergenz
 
@@ -28,16 +37,4 @@ $$
 
 ## Rotation im $\mathbb{R}^{3}$
 
-$$
-\operatorname{rot} \vec{F}\left(\vec{r}\right) = \nabla \times \vec{F}\left(\vec{r}\right) =
-\begin{pmatrix}
-\frac{\partial}{\partial r_{1}} \\
-\frac{\partial}{\partial r_{2}} \\
-\frac{\partial}{\partial r_{3}}  
-\end{pmatrix} \times
-\begin{pmatrix}
-F_{1} \\
-F_{2} \\
-F_3  
-\end{pmatrix}
-$$
+### Stokesscher Integralsatz

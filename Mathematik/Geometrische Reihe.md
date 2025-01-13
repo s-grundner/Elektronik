@@ -5,7 +5,7 @@ aliases:
 created: 30. Oktober 2023
 ---
 
-# Geometrische [Reihe]({MOC}%20Reihen.md)
+# Geometrische [Reihe](Reihe.md)
 
 $$
 \begin{align}
@@ -16,6 +16,6 @@ s_{n} &= a_{1} \cdot \frac{q^n -1}{q-1}\cdot (q+1)
 \end{align}
 $$
 
-## Summe geometrischer [{MOC} Reihen]({MOC}%20Reihen.md)
+## Summe geometrischer [Reihe](Reihe.md)
 
 ![](assets/2023-10-30_15h04_01.png)

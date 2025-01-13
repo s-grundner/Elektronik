@@ -6,11 +6,15 @@ aliases:
   - Kippschaltung
   - astabiler Multivibrator
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
+  - VL
+  - Einführung Elektronik
 created: 3rd January 2023
+keywords: 
+semester: WS24
+professor:
+  - Bernhard Jakoby
 ---
+ 
 
 # Kippstufen
 
@@ -27,6 +31,8 @@ created: 3rd January 2023
 
 ## [BJT](../Halbleiter/Bipolartransistor.md)-Kippstufe
 
+BJT werden abwechselnd in den Sättigungsbereich gebracht ([BJT als Schalter](../Halbleiter/BJT%20als%20Schalter.md)).
+
 ![invert_dark](assets/BJT-Kippstufe.png)
 
 $$
@@ -36,9 +42,9 @@ t_{2} &= \ln 2\cdot R_{3}\cdot C_{2}
 \end{align}
 $$
 
-## [NE555 als astabile Kippstufe / astabiler Multivibrator](NE555.md#NE555%20als%20astabile%20Kippstufe%20/%20astabiler%20Multivibrator)
+## [NE555](NE555.md#NE555%20als%20astabile%20Kippstufe%20/%20astabiler%20Multivibrator)  als astabile Kippstufe / astabiler Multivibrator
 
-## Schmitt Trigger Kippstufe
+## [Schmitt Trigger](../Schmitt%20Trigger.md) Kippstufe
 
 Die Frequenz wird von durch folgende Parameter beeinflusst:
 - RC-Glied im Rückkoppelbereich ($\uptau$);
@@ -80,5 +86,6 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > \end{align*}
 > $$
 > ![invST-calc1](../assets/invST-calc1.png)
+> $U_{V}$ ist der Offset vom mittelpunkt der Hysterese bei unsymmetrischer $U_{T}^{+}, U_{T}^{-}$
 
 # Tags

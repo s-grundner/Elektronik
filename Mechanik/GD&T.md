@@ -7,15 +7,14 @@ cited:
 
 # Geometric Dimension & Tolerance
 
-
 > [!important] GD&T:
 > Es lassen sich die Toleranzen so angeben, dass sie die Funktion das Teils / der Assembly wiederspiegeln.
 
 GD&T gibt toleranzen zu features und nicht dimensionen an.
 
-## Geometrische charakteristika
+## Geometrische charakteristiken
 
-14 Geometrische charakteristika
+14 Geometrische charakteristiken
 
 ![](assets/Pasted%20image%2020241111110524.png)
 

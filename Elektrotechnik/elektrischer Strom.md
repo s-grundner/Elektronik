@@ -22,7 +22,7 @@ professor:
 
 ![InlineR](assets/elekStrom.png)
 
-Die Stromstärke $I$ gibt an, wie viel [Ladung](elektrisches%20Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen *bestimmten Querschnitt* (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](Skineffekt.md)) fließt.
+Die Stromstärke $I$ gibt an, wie viel [Ladung](elektrisches%20Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen [bestimmten Querschnitt](Stromdichte.md) (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](Skineffekt.md)) fließt.
 
 Da die Stromstärke natürlich auch *zeitlich variieren* kann, definiert man (wie üblich) diese Änderungsrate [differenziell](../Mathematik/Analysis/Differenzialrechnung.md):
 
@@ -50,7 +50,3 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 
  > [!hint] In [Metallen](../Chemie/Metallbindung.md) tragen **nur** negativ geladene Elektronen zum Storm bei!
  > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
-
-# Tags
-
-[Stromdichte](Stromdichte.md)

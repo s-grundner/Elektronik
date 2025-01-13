@@ -15,7 +15,7 @@ professor:
 
 # Raum
 
-Ein Raum ist eine [Menge](../Mengenlehre.md) aus mathematischen Objekten mit einer **Struktur**. Ein zentrales Beispiel ist der [Vektorraum](Vektorraum.md)
+Ein Raum ist eine [Menge](Mengenlehre.md) aus mathematischen Objekten mit einer **Struktur**. Ein zentrales Beispiel ist der [Vektorraum](Vektorraum.md)
 
 ![invert_dark|250](assets/HierarchieRaeume.png)
 

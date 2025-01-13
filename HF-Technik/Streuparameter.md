@@ -18,7 +18,7 @@ created: 28th September 2022
 
 ## Allgemein
 
-Ausgehend von der **[Impedanz](../Elektrotechnik/Impedanz.md)** $Z_\nu$ des **Messsystems** am Tor $\nu$ lassen sich die beiden Darstellungen nach folgenden Gleichungen, welche auch als **[Heaviside-Transformation](../Signaltheorie/Einheitssprungfunktion.md)** bezeichnet wird, in Bezug setzen (Wir setzen im Folgenden voraus, dass $Z_0$ positiv reell ist):
+Ausgehend von der **[Impedanz](../Elektrotechnik/Impedanz.md)** $Z_\nu$ des **Messsystems** am Tor $\nu$ lassen sich die beiden Darstellungen nach folgenden Gleichungen, welche auch als **[Heaviside-Transformation](../Systemtheorie/Einheitssprungfunktion.md)** bezeichnet wird, in Bezug setzen (Wir setzen im Folgenden voraus, dass $Z_0$ positiv reell ist):
 
 ![Eintor](assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$
   
@@ -42,7 +42,7 @@ Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexi
 
 Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](Matrix.md) in Form eines [LGS](Lineare%20Gleichungssysteme.md) ausgedrückt.
 
-Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](Vektor.md) $a$ und $b$ als [Matrixgleichung](Matrix.md) ausgedrückt:
+Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathematik/Algebra/Vektor.md) $a$ und $b$ als [Matrixgleichung](Matrix.md) ausgedrückt:
 
 $$\mathbf{b} = \mathbf{S} \times \mathbf{a}$$
 

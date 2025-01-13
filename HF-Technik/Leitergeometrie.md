@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Maxwell
 aliases: 
 keywords:
   - Herleitung Leitermodell
@@ -64,7 +65,7 @@ Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösun
 
 Konturintegral über dem Modellquerschnitt
 
-Mit dem [Stokesscher Integralsatz](../Mathematik/Stokesscher%20Integralsatz.md) folgt:
+Mit dem [Stokesscher Integralsatz](../Mathematik/Analysis/Stokesscher%20Integralsatz.md) folgt:
 $$
 \nabla \times \mathbf{E}=-\frac{\partial}{\partial t} \mathbf{B} \implies \oint_C \mathbf{E} \cdot \mathrm{~d} \mathbf{l}=-\frac{\partial}{\partial t} \iint_S \mu \mathbf{H} \cdot \mathrm{~d} \mathbf{s}
 $$
@@ -74,14 +75,14 @@ $$
 
 > [!warning] Projektion der Feld-Komponenten: Nur Feldkomponenten die auf die..
 > 
-> - ... Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
-> - ... [Flächennormale](Elektrotechnik/Flächenvektor.md) Projiziert werden, Tragen zum [Flächenintegral](Elektrotechnik/Flächenintegral.md) $\iint_{S}$ bei 
+> - … Kontur Projiziert werden, tragen zum Konturintegral $\oint_{C}$ bei.
+> - … [Flächennormale](../Mathematik/Analysis/Flächenvektor.md) Projiziert werden, Tragen zum [Flächenintegral](Elektrotechnik/Flächenintegral.md) $\iint_{S}$ bei 
 
 Kontur im Modell:
 
 ![invert_dark](assets/KonturInPlatengeometrie.png)
 
-Mit dem [inneren Produkt](Mathematik/Algebra/Skalarprodukt.md) fallen nur die $x$-$y$-Komponenten ins Gewicht:
+Mit dem [inneren Produkt](../Mathematik/Algebra/Skalarprodukt.md) fallen nur die $x$-$y$-Komponenten ins Gewicht:
 
 $$
 \begin{aligned}

@@ -4,11 +4,9 @@ tags:
 aliases:
   - linearen Abbildung
   - lineare Abbildung
-  - Definition 10.1
-  - Bemerkung 10.11
   - Kern
-  - Bild
   - Kernel
+  - Superposition
 keywords: 
 subject:
   - Mathematik 1
@@ -22,7 +20,7 @@ professor:
 
 # Lineare [Abbildungen](Algebra/Abbild.md)
 
-> [!important] **Definition 10.1**: Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine [Abbildung](Algebra/Abbild.md) $L: X \rightarrow Y$ heißt linear
+> [!def] **D1 - LINA)** Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine [Abbildung](Algebra/Abbild.md) $L: X \rightarrow Y$ heißt linear
 > 
 > wenn sie **(a)** *Additivität* und **(b)** *Homogenität* erfüllen.
 > 
@@ -33,7 +31,7 @@ professor:
 > 2. Die Menge aller linearen [Abbildungen](Algebra/Abbild.md) von $X$ nach $Y$ bezeichnen wir mit $L(X, Y)$.
 > 	- Für $L(X, X)$ schreiben wir kurz: $L(X)$
 
-> [!tldr]- **(a)** Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
+> [!tldr]- **(a)** Additivität oder Superposition: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
 > für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](Algebra/Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
 
 > [!tldr]- **(b)** Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
@@ -66,13 +64,14 @@ professor:
 
 
 ---
-
 ## Bemerkung 10.11
+
+#incomplete Nummerierung aus neubauer Skriptum entfernen und eigene Referenzen geben
 
 Aus den Sätzen 10.6 und 10.10 folgt übrigens, dass jede lineare Abbildung $L: X \rightarrow Y$ [Lipschitz-stetig](Analysis/Stetigkeit.md) ist, wenn $X, Y$ endlich-dimensional sind:
 Seien $B, C$ irgendwelche Basen für $X$ bzw. $Y$ und seien $n$ bzw. $m$ die Dimensionen von $X$ bzw. $Y$.
 
-Dann folgt mit dem jeweiligen [Skalarprodukt](Algebra/Skalarprodukt.md) und der davon induzierten Norm aus [Satz 10.10](Algebra/Skalarprodukt.md) sowie der Koordinatenmatrix $A_L$ unter Verwendung der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)):
+Dann folgt mit dem jeweiligen [Skalarprodukt](Skalarprodukt.md) und der davon induzierten Norm aus dem Satz [SKAP](Skalarprodukt.md) sowie der Koordinatenmatrix $A_L$ unter Verwendung der Cauchy-Schwarzschen Ungleichung (siehe Satz 6.15 (a)):
 
 $$
 \|L x\|^2=\sum_{i=1}^m\left(\sum_{j=1}^n a_{i j}^L x_j\right)^2 \leq \sum_{i=1}^m\left(\sum_{j=1}^n\left(a_{i j}^L\right)^2\right)\left(\sum_{j=1}^n x_j^2\right)=\left(\sum_{i=1}^m \sum_{j=1}^n\left(a_{i j}^L\right)^2\right)\|x\|^2

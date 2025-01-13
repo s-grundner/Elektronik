@@ -22,7 +22,7 @@ professor:
 In der Regel erzeugen Atomgebundene [Moleküle](Atombindung.md) trotz Ladungsdifferenz eines [Dipols](Dipol%20(Chemie).md) kein [elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md). Das liegt daran dass diese [Ladungen](../Elektrotechnik/elektrische%20Ladung.md) nicht gerichtet sind.
 
 ![invert_dark](assets/Polarisation.png)
-Zeigt der [Vektor](Vektor.md) des [Dipolmoments](Dipol%20(Chemie).md) im Stoff überwiegend in die selbe Richtung (durch Einbringen in ein [statisches E-Feld](../Elektrotechnik/elektrisches%20Feld.md)), ist der Stoff Polarisiert. Dieses [E-Feld](../Elektrotechnik/elektrisches%20Feld.md) wird durch die ausgerichteten ladungsschwerpunkte Abgeschwächt. Das Ausmaß dieser Abschwächung hängt von der [Permittivität](../Elektrotechnik/Dielektrikum.md) des [Dielektrikums](../Elektrotechnik/Dielektrikum.md) ab.
+Zeigt der [Vektor](../Mathematik/Algebra/Vektor.md) des [Dipolmoments](Dipol%20(Chemie).md) im Stoff überwiegend in die selbe Richtung (durch Einbringen in ein [statisches E-Feld](../Elektrotechnik/elektrisches%20Feld.md)), ist der Stoff Polarisiert. Dieses [E-Feld](../Elektrotechnik/elektrisches%20Feld.md) wird durch die ausgerichteten ladungsschwerpunkte Abgeschwächt. Das Ausmaß dieser Abschwächung hängt von der [Permittivität](../Elektrotechnik/Dielektrikum.md) des [Dielektrikums](../Elektrotechnik/Dielektrikum.md) ab.
 
 Dies ist nützlich für:
 - [Kondensator](../Elektrotechnik/Kapazität.md) 

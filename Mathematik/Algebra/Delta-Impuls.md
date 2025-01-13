@@ -1,8 +1,14 @@
 ---
-tags: []
-aliases: ["Dirac-Impuls", "Dirac-Funktion", "Nadelimpuls"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags: 
+aliases:
+  - Dirac-Impuls
+  - Dirac-Funktion
+  - Nadelimpuls
+  - Dirac-Distribution
+subject:
+  - mathe
+source:
+  - Rudolf Frauenschuh
 created: 26th April 2022
 ---
 
@@ -34,13 +40,14 @@ Man möchte nun den gesamten Impuls "auf einen Zeitpunkt konzentrieren", Dazu ge
 $$
 \begin{align*}
 	\delta(t) = \lim_{h\rightarrow 0} r(t) = \begin{cases}
-	\text{"}\infty\text{"} & \text{für} & t = 0 \\
+	\to \infty & \text{für} & t = 0 \\
 	0 & \text{für} & t \neq 0
 	\end{cases} && \text{mit} && \int_{-\infty}^{\infty}\delta (t)dt = 1
 \end{align*}
 $$
 
-$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. […]  
+$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. 
+
 Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.  
 ![d_impuls](../assets/d_impuls.png)
 
@@ -83,3 +90,9 @@ $$
   \delta(t-t_{0})
 \end{align*}
 $$
+
+
+---
+
+- [Faltung](../../Systemtheorie/Faltung.md)
+- [Impulsanwort](../../Systemtheorie/Impulsanwort.md)

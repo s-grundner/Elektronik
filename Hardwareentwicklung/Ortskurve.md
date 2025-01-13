@@ -25,8 +25,6 @@ cited:
 | $R+\mathrm{j} \omega L$ | Gerade, parallel zu positiven imaginären Achse |
 | $\frac{1}{G+\mathrm{j} \omega C}$ | Halbkreis mit Mittelpunkt auf der reellen Achse |
 
-
-
 ![[assets/Ortskurve 2024-01-17 09.24.11.excalidraw|844]]
 
 # Quellen

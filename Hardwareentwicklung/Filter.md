@@ -16,30 +16,24 @@ cited:
 
 # Filter
 
-- Ordnung
-- [Grenzfrequenz](Grenzfrequenz.md)
-- [[Güte]] (Resonanzverhalten)
-- Topologie
-  - [[Tiefpass]] Filter
-  - [[Hochpass]] Filter
-  - Andere (Kombinationen)
-- Aktiv/Passiv
-- Steilheit
+Ein Filter ist ein System das [Signale](../Systemtheorie/Signale.md) in bestimmten Frequenzbereichen durchlässt und andere unterdrückt. Sie werden mit Übertragungsfunktionen beschrieben.
 
-## Bodé Diagramm
-
-Zeigt wie der das Filternetzwerk auf den Eingang reagiert
-
-Zeigt den Frequenzgang bestehend aus
-- Amplitudengang
-- Phasengang
-
-es werden zwei Diagramme benötigt, da mit komplexer [Wechselstromtechnik](Wechselstromtechnik.md) gerechnet wird
-
-Allgemein wird die [[Dämpfung]] des Filters mit logarithmischem Verhältnis dargestellt -> dezibel
-- Dezibel ist die Pseudo einheit zur Darstellung von logarithmischen Leistungsverhältnissen
-
-![[../assets/Excalidraw/Filter 2024-03-18 22.46.50.excalidraw]]
+> [!info] Filter Kenngrößen
+> 
+> 
+>
+> - Übertragungsfunktion
+>     - [[Tiefpass]] Filter
+>     - [[Hochpass]] Filter
+>     - Andere (Kombinationen)
+> - Ordnung (Steilheit)
+> - [Grenzfrequenz](Grenzfrequenz.md)
+> - [[Güte]] (Resonanzverhalten)
+> - Filtercharakteristik (Verhalten der Schaltung)
+>     - Form der Übertragungsfunktion
+> - Topologie (Realisierung der Schaltung)
+> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / Digitaler Filter
+> 
 
 ## Digitale Filter
 

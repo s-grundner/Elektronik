@@ -10,6 +10,8 @@ created: 30th November 2022
 
 > [!info] Die Grenzfrequenz ist ein Kennwert von Filtern und Schwingkreisen.
 
+## 3dB-Grenzfrequenz
+
 Jene Frequenz bei der das [maximum](Extremwert.md) einer Übertragungsfunktion $T(\omega)$ um $3dB$ (Faktor $\frac{1}{\sqrt{ 2 }}$) gedämpft ist. 
 
 $$\mid \underline{ T }(\omega_{g}) \mid = \frac{\lvert T_{\text{max}} \rvert }{\sqrt{ 2 }}$$
@@ -20,8 +22,9 @@ $$
 $$
 sein.
 
-> [!hint] Gibt es eine Obere und Untere Grenzfrequenz, liefert eine Quadratische Gleichung zwei (oder mehr) Optionen liefern, wobei negative und imaginäre Werte ungültig sind. 
+## Resonanzfrequenz
 
+> [!hint] Gibt es eine Obere und Untere Grenzfrequenz, liefert eine Quadratische Gleichung zwei (oder mehr) Optionen liefern, wobei negative und imaginäre Werte ungültig sind. 
 
 Die Resonanzfrequenz ist das geometrische Mittel der Grenzfrequenzen:
 

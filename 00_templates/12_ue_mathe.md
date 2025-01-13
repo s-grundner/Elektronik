@@ -5,12 +5,12 @@ tp.file.rename("UE" + nr)
 
 # UE<%* tR += nr%>
 
-⬅️ <a href="./UE<%* tR += (parseInt(nr) - 1) %>.md" class="internal-link">letzte Übung</a> | <a href="./UE<%* tR += (parseInt(nr) + 1) %>.md" class="internal-link">nächste Übung</a> ➡️ 
+⬅️ <a href="./UE<%* tR += (parseInt(nr) - 1) %>.md" class="internal-link">letzte Übung</a> | [📓]({NOTES}%20Mathematik%203%20UE.md) | <a href="./UE<%* tR += (parseInt(nr) + 1) %>.md" class="internal-link">nächste Übung</a> ➡️ 
 
 ---
 
-📝 [Angabe](Angaben/Uebung<%* tR += nr%>.pdf)
-✅ [Lösung](Abgaben/UE<%* tR += nr%>-k12136610.pdf)
+📝 (files::[Angabe](Angaben/Uebung<%* tR += nr%>.pdf))
+✅ (files::[Lösung](Abgaben/UE<%* tR += nr%>-k12136610.pdf))
 
 ---
 
