@@ -18,21 +18,6 @@
             }
           },
           {
-            "id": "177a0076cfb12e8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hardwareentwicklung/Halbleiter/Stromeinstellung.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Stromeinstellung"
-            }
-          },
-          {
             "id": "73d8bc66f1b52514",
             "type": "leaf",
             "state": {
@@ -46,9 +31,24 @@
               "icon": "lucide-file",
               "title": "Spannungseinstellung"
             }
+          },
+          {
+            "id": "3edce43b3dddfaf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hardwareentwicklung/Stromversorgungseinheiten/Stromspiegel.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stromspiegel"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "Hardwareentwicklung/Stromversorgungseinheiten/Stromspiegel.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,11 +209,22 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "177a0076cfb12e8b",
+  "active": "3edce43b3dddfaf7",
   "lastOpenFiles": [
-    "Hardwareentwicklung/Halbleiter/Spannungseinstellung.md",
+    "Hardwareentwicklung/Stromversorgungseinheiten/Halbbrücken-Durchflusswandler.md",
+    "Hardwareentwicklung/Stromversorgungseinheiten/Stromspiegel.md",
+    "Hardwareentwicklung/Stromversorgungseinheiten/{MOC} Stromversorgungs-Einheiten.md",
+    "Hardwareentwicklung/Stromversorgungseinheiten/Linearregler.md",
+    "Hardwareentwicklung/Stromversorgungseinheiten/Schaltnetzteil.md",
+    "10_tools/tools-user.md",
+    "Signaltheorie/Stromquellen.md",
+    "Signaltheorie/Signale.md",
     "Hardwareentwicklung/Halbleiter/Bipolartransistor.md",
+    "Hardwareentwicklung/Halbleiter/BJT als Verstärker bzw Endstufe.md",
+    "Hardwareentwicklung/Halbleiter/Betriebsparameter.md",
+    "Hardwareentwicklung/Kettenmatrix.md",
     "Hardwareentwicklung/Halbleiter/Stromeinstellung.md",
+    "Hardwareentwicklung/Halbleiter/Spannungseinstellung.md",
     "Hardwareentwicklung/Oszillatoren/Colpitts Oszillator.md",
     "Elektrotechnik/elektrische Spannung.md",
     "Physik/Energieerhaltung.md",
@@ -226,17 +237,6 @@
     "Physik/Materialkunde/Silizium.md",
     "10_tools/sidebar_colorfulclock.md",
     "Hardwareentwicklung/Stromversorgungseinheiten/Ungeregelte Spannungsstabilisierung.md",
-    "Hardwareentwicklung/Halbleiter/Zener-Diode.md",
-    "Hardwareentwicklung/Halbleiter/{MOC} Transistor.md",
-    "Hardwareentwicklung/Halbleiter/A-Betrieb.md",
-    "Hardwareentwicklung/Halbleiter/C-Betrieb.md",
-    "Hardwareentwicklung/Halbleiter/Sperrschicht-Feldeffekttransistor.md",
-    "README.md",
-    "Hardwareentwicklung/Stromversorgungseinheiten/Längsregler.md",
-    "Signaltheorie/Faltung.md",
-    "Hardwareentwicklung/Halbleiter/Diode.md",
-    "Physik/Materialkunde/{MOC} Materialkunde.md",
-    "Physik/Shockley Gleichung.md",
     "Excalidraw",
     "Hardwareentwicklung/assets/Skizze3.png",
     "Elektrotechnik/assets/Wechselfelder.png",
