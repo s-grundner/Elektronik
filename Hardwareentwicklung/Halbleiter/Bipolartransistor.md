@@ -22,7 +22,7 @@ professor:
 
 > weitergeleitet von [{MOC} Transistor]({MOC}%20Transistor.md)
 
-| Schaltung                                    | [Emitterschaltung](Kollektorfolger.md)                      | [Basisschaltung](../Basisschaltung.md)              | [Kollektorschaltung](Emitterfolger.md)              |
+| Schaltung                                    | [Emitterschaltung](Kollektorfolger.md)                      | [Basisschaltung](Basisschaltung.md)              | [Kollektorschaltung](Emitterfolger.md)              |
 | :------------------------------------------- | :---------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------------------- |
 | Eingangswiderstand $\mathrm{r}_{\mathrm{e}}$ | $100 \Omega \ldots 10 \mathrm{k} \Omega$                    | $10 \Omega \ldots 100 \Omega$                       | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ |
 | Ausgangswiderstand $\mathrm{r}_{\mathrm{a}}$ | $1 \mathrm{k} \Omega \ldots 10 \mathrm{k} \Omega$           | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ | $10 \Omega \ldots 100 \Omega$                       |

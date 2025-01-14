@@ -17,7 +17,7 @@ professor:
 
 # State-Variable Filter Topologie nach KHN
 
-> [!question] Siehe: [Aktiver Filter](Aktiver%20Filter.md)
+> [!question] Siehe: [Aktiver Filter](Filter%20und%20Verstärker/Aktiver%20Filter.md)
 
 ## Übertragungsfunktion
 

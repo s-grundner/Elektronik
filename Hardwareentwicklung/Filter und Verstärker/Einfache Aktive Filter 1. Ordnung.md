@@ -15,7 +15,7 @@ professor:
 
 # Einfache Aktive Filter 1. Ordnung
 
-> [!info] **Siehe:** [Aktiver Filter](Aktiver%20Filter.md)
+> [!info] **Siehe:** [Aktiver Filter](Filter%20und%20Verstärker/Aktiver%20Filter.md)
 
 ## Tiefpass
 

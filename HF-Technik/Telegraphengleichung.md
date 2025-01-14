@@ -34,7 +34,7 @@ Die Telegraphengleichung ist eine gewöhnliche [DGL 2. Ordnung](../Mathematik/Al
 > - $U_{r}$ = Amplitude der rücklaufenden Welle
 
 > [!summary] komplexer Ausbreitungskoeffizient $\gamma$
-> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die komplexe [Dämpfung](../Hardwareentwicklung/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
+> Die Ausbreitungskonstante $\gamma$ beschreibt dabei die komplexe [Dämpfung](../Hardwareentwicklung/Filter%20und%20Verstärker/Dämpfung.md) und Wellenlänge und ist eine wichtige Leitungskenngröße.
 > 
 > $$ \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')} = \alpha + j\beta  $$
 > 

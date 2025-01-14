@@ -48,6 +48,6 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 # Tags
 
 - [Barkhausen Kriterium](Barkhausen%20Kriterium.md)
-- [Reset Generierung](../Reset%20Generierung.md)
-- [Klirrfaktor](../Klirrfaktor.md)
+- [Reset Generierung](../../Digitaltechnik/Reset%20Generierung.md)
+- [Klirrfaktor](Klirrfaktor.md)
 - [Clock_und_Reset_Generierung](../assets/pdf/Clock_und_Reset_Generierung.pdf)

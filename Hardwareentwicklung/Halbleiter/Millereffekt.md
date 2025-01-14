@@ -13,4 +13,4 @@ professor:
  
 # Millereffekt
 
-Bei der [Basisschaltung](../Basisschaltung.md) wird eine sehr niedirige Kapazität gemillert, da zwischen Kollektor und Emitter kein pn-Übergang vorhanden ist, welcher eine Parasitär Kapazität bilden könnte. 
+Bei der [Basisschaltung](Basisschaltung.md) wird eine sehr niedirige Kapazität gemillert, da zwischen Kollektor und Emitter kein pn-Übergang vorhanden ist, welcher eine Parasitär Kapazität bilden könnte. 

@@ -16,7 +16,7 @@ cited:
 
 # Filter
 
-Ein Filter ist ein System das [Signale](../Systemtheorie/Signale.md) in bestimmten Frequenzbereichen durchlässt und andere unterdrückt. Sie werden mit Übertragungsfunktionen beschrieben.
+Ein Filter ist ein System das [Signale](../../Systemtheorie/Signale.md) in bestimmten Frequenzbereichen durchlässt und andere unterdrückt. Sie werden mit Übertragungsfunktionen beschrieben.
 
 > [!info] Filter Kenngrößen
 > 
@@ -32,7 +32,7 @@ Ein Filter ist ein System das [Signale](../Systemtheorie/Signale.md) in bestimmt
 > - Filtercharakteristik (Verhalten der Schaltung)
 >     - Form der Übertragungsfunktion
 > - Topologie (Realisierung der Schaltung)
-> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / Digitaler Filter
+> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Filter%20und%20Verstärker/Aktiver%20Filter.md) / Digitaler Filter
 > 
 
 ## Digitale Filter

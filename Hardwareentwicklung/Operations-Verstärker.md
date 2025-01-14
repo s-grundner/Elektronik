@@ -23,8 +23,8 @@ created: 2nd January 2023
 - Invertierender Verstärker
 - [Umkehrsummierer](OPV-Addierer.md) / Addierer
 - [Subtrahierer](OPV-Subtrahierer.md)
-- Integrator ([Aktiver Tiefpass](Aktiver%20Filter.md))
-- Differenzierer ([Aktiver Hochpass](Aktiver%20Filter.md))
+- Integrator ([Aktiver Tiefpass](Filter%20und%20Verstärker/Aktiver%20Filter.md))
+- Differenzierer ([Aktiver Hochpass](Filter%20und%20Verstärker/Aktiver%20Filter.md))
 - Instrumentenverstärker
 - [Schmitttrigger](Schmitt%20Trigger.md)
 - Konstantstromquelle

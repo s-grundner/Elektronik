@@ -21,18 +21,20 @@ professor:
 
 # Knotenpotential Verfahren
 
-Grundidee
-Wir eliminieren die Maschengleichungen, indem wir Knotenspannungen einführen.
-Knotenpotentiale sind die Spannungen aller knoten zu einem Gewählten Bezugsknoten.
+> [!hint] Grundidee
+> 1. In einem Netzwerk kann man einen Knoten (meistens Masse) als Bezugsknoten frei wählen. 
+> 2. Die Spannungen aller anderen Knoten (den **Knotenspannungen**) werden relativ zu diesem Bezugsknoten angegeben.
+> 3. Dadurch werden die Maschengleichunge eliminiert.
 
-Wenn wir ein [elektrisches Netzwerk](../Elektrotechnik/Schaltungsanalyse.md) vor uns haben, eliminieren wir alle Spannungsquellen, indem wir das [Norton](../Elektrotechnik/lineare%20Quellen.md)-Ersatzbild auf alle Spannungsquellen anwenden.
+Treten in dem Netzwerk Spannungsquellen auf, werden diese mit Hilfe des [Norton](../Elektrotechnik/lineare%20Quellen.md)-Ersatzbildes in Stromquellen umgewandelt.
 
-Die Verwendung des Leitwertes erleichtert die Berechnung.
+Man verwendet Leitwerte, um die Berechnung zu vereinfachen, da man nach dem Strom Lösen möchte und dann $G\cdot U=I$ schreiben kann anstatt eines Bruches.
+
 
 > [!success] Allgemeines Ergebnis:
-> - mit der *Knotenadmittanzmatrix* $\mathbf{G}$,
+> - mit der *Knotenadmittanz*-[Matrix](../Mathematik/Algebra/Matrix.md) $\mathbf{G}$,
 > - dem *[Vektor](../Mathematik/Algebra/Vektor.md)* $\mathbf{U}$ der unbekannten *Knotenspannungen*
-> - und dem [Vektor](../Mathematik/Algebra/Vektor.md) der Quellströme $\mathbf{I}_{q}$
+> - und dem Vektor der Quellströme $\mathbf{I}_{q}$
 > ![1200](../assets/Excalidraw/Knotenpotentialverfahren%202024-03-13%2021.34.50.excalidraw)
 
 ## Spannugsquellen-Umwandlung

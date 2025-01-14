@@ -10,7 +10,7 @@ created: 28th September 2022
 
 **Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
-- Beschreiben z.B. [Filter](../Hardwareentwicklung/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
+- Beschreiben z.B. [Filter](../Hardwareentwicklung/Filter%20und%20Verstärker/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
 - Wellenparameter = Teilspannungen 
 - Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md))
 - Widerstandsparameter bei Serienschaltung

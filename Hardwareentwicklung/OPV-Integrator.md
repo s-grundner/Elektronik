@@ -77,7 +77,7 @@ $$
 
 ![](assets/Pasted%20image%2020241213050705.png)
 
-Durch geschicktes Zusammenschalten von OPV Grundschaltungen können sehr einfach verschiedene [Aktive](Aktiver%20Filter.md) Filtertypen (Bandpass, Tiefpass, Hochpass) realisiert werden, je nachdem welcher Ausgang benutzt wird.
+Durch geschicktes Zusammenschalten von OPV Grundschaltungen können sehr einfach verschiedene [Aktive](Filter%20und%20Verstärker/Aktiver%20Filter.md) Filtertypen (Bandpass, Tiefpass, Hochpass) realisiert werden, je nachdem welcher Ausgang benutzt wird.
 
 Im Allgemeinen bestehen solche Schaltungen aus einem [Addierer](OPV-Addierer.md), welcher das Eingangssignal mit zwei Integratorausgängen aufsummiert. 
 
@@ -86,5 +86,5 @@ Ein Vorteil dieser Schaltungsvariante ist, dass Filterparameter wie Güte, Kennf
 Hauptanwendung solcher Filter ist die Realisierung von Bandpässen mit sehr hohen Güten und Verstärkungen bei der Mittenfrequenz.
 
 > [!info] Realisierungen von Integratorfiltern
-> [Biquad](Biquad%20Filter%20Topologie.md)-Filter
+> [Biquad](Filter%20und%20Verstärker/Biquad%20Filter%20Topologie.md)-Filter
 > [State-Variable](State-Variable%20Topologie.md)-Filter

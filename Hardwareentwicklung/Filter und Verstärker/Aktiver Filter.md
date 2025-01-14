@@ -21,7 +21,7 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 > - Neben Filterfunktion kann auch eine Verstärkung im Durchlassbereich eingestellt werden 
 > - Beliebeige Filtercharakteristik kann realisiert werden
 > - Kaskadierung mehrerer Filter rückwirkungsfrei möglich
-> - Man ist nicht auf [Induktivitäten](../Elektrotechnik/Induktivitäten.md) angewiesen
+> - Man ist nicht auf [Induktivitäten](../../Elektrotechnik/Induktivitäten.md) angewiesen
 >     - Bei niedrigen Frequenzen sind große Induktivitäten nötig.
 >     - umständlich und schlechte elektrische Eigenschaften
 > - Hohe Güte, da keine Induktivitäten verwendet werden

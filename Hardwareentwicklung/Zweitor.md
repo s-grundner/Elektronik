@@ -12,6 +12,8 @@ created: 21st November 2022
 
 # Zweitor
 
+> [Zweipol](../Elektrotechnik/Zweipol.md)
+
 Ein Vierpol kann, wenn er linear ist, durch vier Größen beschrieben werden.
 
 - Hybridmatrix
@@ -20,5 +22,6 @@ Ein Vierpol kann, wenn er linear ist, durch vier Größen beschrieben werden.
 - Impedanzmatrix
 - Kettenmatrix
 
-
 # Quellen
+
+[Duale Netzwerke – Wikipedia](https://de.wikipedia.org/wiki/Duale_Netzwerke)

@@ -19,7 +19,7 @@ professor:
 
 Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integratorfilters](OPV-Integrator.md#Integratorfilter).
 
-Dieser Filter kombiniert einen [aktiven](Aktiver%20Filter.md) Tiefpass und Bandpass 2. Ordnung.
+Dieser Filter kombiniert einen [aktiven](Filter%20und%20Verstärker/Aktiver%20Filter.md) Tiefpass und Bandpass 2. Ordnung.
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -148,7 +148,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > 
 > $$U_{1}=-\left( \frac{R_{1}}{R_{2}}U_{E}+ \frac{R_{1}}{R_{1}} U_{TP} \right) = -\left( \frac{R_{1}}{R_{2}}U_{E}+U_{TP} \right)$$
 
-> [!question] **(B)** [Tiefpass 1. Ordnung](Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
+> [!question] **(B)** [Tiefpass 1. Ordnung](Filter%20und%20Verstärker/Aktiver%20Filter.md#Tiefpass) liefert $U_{BP}(U_{1})$
 > 
 > ```tikz
 > \usepackage[european, straightvoltages]{circuitikz}

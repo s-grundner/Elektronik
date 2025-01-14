@@ -78,6 +78,6 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 
 # Tags
 
-[Varicap](../Kapazitäts-Diode.md)  
+[Varicap](../Halbleiter/Kapazitäts-Diode.md)  
 [PLL](Phase%20Locked%20Loop.md)  
 [DTO](Discrete%20Time%20Oscillator.md)

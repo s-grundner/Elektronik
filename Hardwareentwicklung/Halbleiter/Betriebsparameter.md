@@ -57,6 +57,7 @@ $R_{\mathrm{L}} \ldots$ Widerstand Last
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
 \ctikzset{bipoles/length=1cm}
 \begin{document}
 \newcommand{\wid}{3}
@@ -80,8 +81,8 @@ $R_{\mathrm{L}} \ldots$ Widerstand Last
 \draw  (last |- v) node[above]{Last};
 \end{scope}
 \begin{scope}[xshift=9cm]
-\draw (0,\hei/2) node[above=7pt, font=\LARGE]{$r_{e}=\left.\frac{u_{e}}{i_{e}}\right|_{R_{L}}$};
-\draw (0,\hei/2) node[below=7pt, font=\LARGE]{$A_{u}=\left.\frac{u_{a}}{u_{e}}\right|_{R_{L}}$};
+\draw (0,\hei/2) node[above=7pt, font=\Large]{$r_{e}=\left.\dfrac{u_{e}}{i_{e}}\right|_{R_{L}}$};
+\draw (0,\hei/2) node[below=7pt, font=\Large]{$A_{u}=\left.\dfrac{u_{a}}{u_{e}}\right|_{R_{L}}$};
 \end{scope}
 \end{circuitikz}
 \end{document}
@@ -94,6 +95,7 @@ $R_{\mathrm{L}} \ldots$ Widerstand Last
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
 \ctikzset{bipoles/length=1cm}
 \begin{document}
 \newcommand{\wid}{3}
@@ -112,7 +114,7 @@ $R_{\mathrm{L}} \ldots$ Widerstand Last
 \draw (0,0 |- v) node[above]{Signalquelle};
 \end{scope}
 \begin{scope}[xshift=9cm]
-\draw (0,\hei/2) node[font=\LARGE]{$A_{0}=\left.\frac{u_{a}}{u_{e}} \right|_{R_{L}=\infty}$};
+\draw (0,\hei/2) node[font=\Large]{$A_{0}=\left.\dfrac{u_{a}}{u_{e}} \right|_{R_{L}=\infty}$};
 \end{scope}
 \end{circuitikz}
 \end{document}
@@ -122,8 +124,35 @@ $R_{\mathrm{L}} \ldots$ Widerstand Last
 
 > [!info] wird durch Messen am Ausgang bei angeschlossener Quelle ermittelt
 
-![](assets/Pasted%20image%2020241118042127.png)
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/length=1cm}
+\begin{document}
+\newcommand{\wid}{3}
+\newcommand{\hei}{2}
+\begin{circuitikz}[very thick, scale=2, transform shape]
+\begin{scope}
+\draw (0,0) -- ++(0,\hei)
+    to[R, l=$R_i$, i=$i_e$] ++(2,0) coordinate(ue)
+    to[open, v=$u_e$, o-o] ++(0,-\hei) -- (0,0);
+\draw[dashed] (ue) -- ++(0,0.5)
+    -- ++(\wid/2,0) coordinate(v)
+    -- ++(\wid/2,0)
+    -- ++(0,-0.5) coordinate(ua) -- ++(0,-\hei);
+\draw (ua) to[short, i=$i_a$] ++(1,0) coordinate(last) to[V, v=$u_a$] ++(0,-\hei) to[short] ++(-1,0);
+\draw (ua) to[open, o-o] ++(0,-\hei);
+\draw (v) node[vcc]{$U_0$};
+\draw (2+\wid/2, \hei/2) node{Verstärker};
+\draw[dashed] (0,0 -| ua) -- ++(0,-0.5) -- ++(-\wid/2,0) coordinate(g) -- ++(-\wid/2,0) -- (2,0);
+\draw (g) node[rground]{};
+\draw (0,0 |- v) node[above]{Signalquelle};
+\draw  (last |- v) node[above]{Last};
+\end{scope}
+\begin{scope}[xshift=10cm]
+\draw (0,\hei/2) node[font=\Large]{$r_{a}=\left.-\dfrac{u_{a}}{i_{a}}\right|_{R_{i}, U_{g}=0}$};
+\end{scope}
+\end{circuitikz}
+\end{document}
+```
 
-$$
-r_{\mathrm{a}}=-\left.\frac{u_{\mathrm{a}}}{i_{\mathrm{a}}}\right|_{R_{\mathrm{i}}, \,U_{\mathrm{g}}=0}
-$$

@@ -153,7 +153,7 @@ $$
 - Spannungsmaximum bei Resonanz
 - bewirkt $\underline{I}_{L}$, $\underline{I}_{C}$ welche größer als $\underline{I}$ 
 
-Bandbreite: Obere minus untere [Grenzfrequenz](../Grenzfrequenz.md)
+Bandbreite: Obere minus untere [Grenzfrequenz](../Filter%20und%20Verstärker/Grenzfrequenz.md)
 
 # Serien [Schwingkreis](../../Physik/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 

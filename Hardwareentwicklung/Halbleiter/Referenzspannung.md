@@ -15,18 +15,18 @@ created: 6th April 2022
 
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
 
-Man nutzt die **Bandabstand-Spannung** eines [Silizium](../Physik/Materialkunde/Silizium.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1.12V$
+Man nutzt die **Bandabstand-Spannung** eines [Silizium](../../Physik/Materialkunde/Silizium.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1.12V$
 
 ### Grundlagen
 
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)  
-[Halbleitermaterialien](../Physik/Materialkunde/Silizium.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
+[Halbleitermaterialien](../../Physik/Materialkunde/Silizium.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
 $U_{g}= \frac{W_{g}}{e}$  
-wobei $e$ die [Elementarladung](../Physik/Konstanten/Elementarladung.md) ist.
+wobei $e$ die [Elementarladung](../../Physik/Konstanten/Elementarladung.md) ist.
 
 ![invert_light](assets/Baendermodell.png)
 
-1. [Shockley Gleichung](../Physik/Shockley%20Gleichung.md)  
+1. [Shockley Gleichung](../../Physik/Shockley%20Gleichung.md)  
 $I_{c}= I_{s}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$  
 Näherung:  
 
@@ -37,7 +37,7 @@ $U_{BE}= U_{T}\cdot \ln(I_{c}/I_{s})$
 | Formelzeichen | Bezeichnung                     | Formel                                                                                                                |     |
 | ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --- |
 | $\eta$        | Emissionskoeffizient $(\eta=1)$ |                                                                                                                       |     |
-| $U_{T}$       | Temperaturspannung              | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](../Physik/Konstanten/Boltzmannkonstante.md) |     |
+| $U_{T}$       | Temperaturspannung              | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](../../Physik/Konstanten/Boltzmannkonstante.md) |     |
 | $I_{s}$       | Sättigungssperrstrom            |                                                                                                                       |     |
 
 1. Temperaturabhängigkeit der Basis-Emitter-Spannung  
@@ -58,12 +58,12 @@ $U_{BE}$ wird mit steigender Erwärmung des Transistors kleiner, da $D_{T}$ *neg
 #### $U_{PTAT}$ Proportional to absolute temperature
 
 Mit den folgenden Schritten lässt sicht herleiten, dass $U_{ref}$ konstant bleibt.  
-Mit der folgenden [Masche](../Elektrotechnik/Kirchhoffsche%20Regeln.md#Maschen%20Regel) lässt sich auf die Spannung über die Kollektorwiderstände ermitteln:
+Mit der folgenden [Masche](../../Elektrotechnik/Kirchhoffsche%20Regeln.md#Maschen%20Regel) lässt sich auf die Spannung über die Kollektorwiderstände ermitteln:
 
 | Schritt | Herleitung                                                                                                                                                                                                                                                                                                                                        | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:-------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |    1    | $$\begin{align*}I_{C1}\cdot R_{C1} &= I_{C2}\cdot R_{C2}\\\rightarrow \frac{I_{C1}}{I_{C2}} &= \frac{R_{C1}}{R_{C2}}\\I_{C2} &= \left.I_{C1}\cdot \frac{R_{C1}}{R_{C2}}\right\|_{I_{C}\approx I_{E}}\end{align*}$$                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 
-|    2    | $$\begin{align*}U_{BE2} &= U_{BE1}+\Delta U_{BE}\\\Delta U_{BE}&= U_{BE2}-U_{BE1}\\&= U_{T}\cdot(\ln(\frac{I_{C2}}{I_{S}})-\ln(\frac{I_{C1}}{I_{S}}))\\&= U_{T}\cdot(\ln(\frac{I_{C2}}{I_{S}}\cdot\frac{I_{S}}{I_{C1}}))\\&= \underbrace{U_{T}}_{\frac{k\cdot T}{e}}\cdot\ln(\frac{I_{C2}}{I_{C1}})\\\frac{k\cdot T}{e}&\propto T\end{align*}$$   | Idee:<br>Die Spannung $U_{BE}$ hat mit $-2 \frac{mV}{K}$ einen Negativen Temperaturkoeffizienten $\Delta U_{BE}$<br>und damit auch die Spannung $U_{PTAT}$<br>(über $I_{C1}$, $I_{C2}$), besitzen einen **positiven [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md)koeffizienten**.<br>Durch **Summation der Spannungen** ($U_{ref}=\Delta U_{BE}+U_{PTAT}$) ergibt sich bei entsprechender Dimensionierung<br>eine **Kompensation** der [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md)koeffizienten. |
+|    2    | $$\begin{align*}U_{BE2} &= U_{BE1}+\Delta U_{BE}\\\Delta U_{BE}&= U_{BE2}-U_{BE1}\\&= U_{T}\cdot(\ln(\frac{I_{C2}}{I_{S}})-\ln(\frac{I_{C1}}{I_{S}}))\\&= U_{T}\cdot(\ln(\frac{I_{C2}}{I_{S}}\cdot\frac{I_{S}}{I_{C1}}))\\&= \underbrace{U_{T}}_{\frac{k\cdot T}{e}}\cdot\ln(\frac{I_{C2}}{I_{C1}})\\\frac{k\cdot T}{e}&\propto T\end{align*}$$   | Idee:<br>Die Spannung $U_{BE}$ hat mit $-2 \frac{mV}{K}$ einen Negativen Temperaturkoeffizienten $\Delta U_{BE}$<br>und damit auch die Spannung $U_{PTAT}$<br>(über $I_{C1}$, $I_{C2}$), besitzen einen **positiven [Temperatur](../../Physik/Temperatur%20und%20Teilchenmodell.md)koeffizienten**.<br>Durch **Summation der Spannungen** ($U_{ref}=\Delta U_{BE}+U_{PTAT}$) ergibt sich bei entsprechender Dimensionierung<br>eine **Kompensation** der [Temperatur](../../Physik/Temperatur%20und%20Teilchenmodell.md)koeffizienten. |
 |    3    | $$\begin{align*}U_{R2} &= R_{C}(I_{E1}+ I_{E2})\\&= \frac{R_{2}}{R_{1}}\cdot\Delta U_{BE} + \frac{R_{C1}}{R_{C2}} \cdot \frac{R_{2}}{R_{1}}\cdot\Delta U_{BE}\\&= \frac{R_{2}}{R_{1}}\cdot\Delta U_{BE}(1+\frac{R_{C1}}{R_{C2}})\\&= U_{T}\cdot \ln(\frac{R_{C1}}{R_{C2}})\cdot \frac{R_{2}}{R_{1}}\cdot(1+\frac{R_{C1}}{R_{C2}})\\\end{align*}$$ |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |    4    | $$\begin{align*}\frac{dU_{ref}}{dT} &= 0\\U_{ref}&=U_{g2}+D_{T}\cdot T + U_{Ptat}\\\rightarrow \frac{dU_{ref}}{dT} &= D_{T} + \frac{k}{e}\cdot\ln(\frac{R_{C1}}{R_{C2}})\cdot \frac{R_{2}}{R_{1}}\cdot(1+\frac{R_{C1}}{R_{C2}})\end{align*}$$                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
@@ -97,5 +97,5 @@ $$
 
 # Tags
 
-- [Chemische Bindungen](../Chemie/Chemische%20Bindungen.md)
+- [Chemische Bindungen](../../Chemie/Chemische%20Bindungen.md)
 - [Herleitung zu Bandgaps](https://www.youtube.com/watch?v=-lHXZk5M6cI)

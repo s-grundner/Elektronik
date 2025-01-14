@@ -18,7 +18,7 @@ professor:
 
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
 - Wir betrachten also nur kausale [Signale](Signale.md), die für $t<0$ sind.
-- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../../Hardwareentwicklung/Dämpfung.md) $e^{-\sigma t}$ eingeführt. $(\sigma\in\mathbb{R}^{+})$
+- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../Hardwareentwicklung/Filter%20und%20Verstärker/Dämpfung.md) $e^{-\sigma t}$ eingeführt. $(\sigma\in\mathbb{R}^{+})$
 
 > [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >

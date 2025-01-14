@@ -18,21 +18,14 @@ professor:
 
 > siehe: [elektrisches Feld](elektrisches%20Feld.md) 
 
-> [!info] Auf bewegte Ladungsträger innerhalb eines Magnetfelds wirkt die [magnetische Kraft](Laplace-Kraft.md):
-> - Die Ursache für ein magnetisches Feld sind selbst *bewegte* Ladungsträger
->   - z.B elektrische Ströme
-
-> [!info] [Laplace-Kraft](Laplace-Kraft.md): Magentische Kraft
-> Die Kraft $\vec{F}$ auf eine mit der Geschwindigkeit $\vec{v}$ bewegte [Ladung](elektrische%20Ladung.md) $Q$ in einem Magnetfeld, welches durch die sogenannte Induktion $\vec{B}$ (auch: "magnetische Flussdichte") beschrieben wird, ist gegeben durch:
-> $$ \vec{F} = Q\cdot \vec{v}\times \vec{B}$$
->
-> und ist teil der [Lorentz-Kraft](Lorentz-Kraft.md).
+> [!hint] Auf bewegte Ladungsträger innerhalb eines Magnetfelds wirkt die [magnetische Kraft](Laplace-Kraft.md):
+> Die Ursache für ein magnetisches Feld sind selbst *bewegte* Ladungsträger
 
 ## Magnetfeld im Leiter
 
 > [!info] Rechte Hand Regel
-> Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
-> ![InlineR](assets/rechteHandLeiterMagnFeld.png) Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. 
+> ![InlineR](assets/rechteHandLeiterMagnFeld.png)Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
+> Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. 
 
 Der Betrag des magnetischen Flusses $\vec{B}$ im Abstand 𝑟 der Leiterachse ist gegeben durch.
 
@@ -78,9 +71,9 @@ es ergibt sich die *induzierte* Spannung:
 
 $$u_{ind}=\frac{d\Phi}{dt}$$
 
-> [!hint] dritte [Maxwell](Maxwell.md)-Gleichung 
-> Diese Wirbelfelder werden durch das Faraday'sche Gesetz (3. MWG) beschrieben:
-> $$\oint_{\partial A} \vec{E} \cdot d \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \cdot d \vec{A}$$
+> [!hint] [Maxwell](Maxwell.md)-Gleichung 
+> Diese Wirbelfelder werden durch das Faraday'sche Gesetz beschrieben:
+> $$\oint_{\partial A} \vec{E} \cdot d \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \cdot d \vec{a}$$
 > In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds. Die Fläche ä$A$ ist jene die der Leiter Aufspannt und die Kontur $\partial A$ der leiter selbst.
 > 
 > Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$

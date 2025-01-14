@@ -15,6 +15,8 @@ cited:
 
 # Zweipol
 
+[Duale Netzwerke – Wikipedia](https://de.wikipedia.org/wiki/Duale_Netzwerke)
+
 ## Duale Zweipole
 
 - Zwei Zweipole sind zueinander dual wenn der $u$-$i$-Zusammenhang bei wechselseitiger Vertauschung von Strom und Spannung erhalten bleibt
@@ -28,3 +30,4 @@ cited:
   - Spannungsquelle $\leftrightarrow$ Stromquelle
 
 Serienschwingkreis $\iff$ Paralleschwingkreis
+

@@ -13,7 +13,7 @@ Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die 
 
 > [!EXAMPLE] Beispiel
 > 
-> Die [Grenzfrequenz](../../Hardwareentwicklung/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
+> Die [Grenzfrequenz](../../Hardwareentwicklung/Filter%20und%20Verstärker/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
 > 
 > ![750|443](assets/MIDI-DigiFilter.png)
 
@@ -45,7 +45,7 @@ Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status und Kana
 | Program Change    | 0xC      | Wechselt zwischen verschiedene Klänge und Instrumente                                                                                                                      |
 | Channel Pressure  | 0xD      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für alle Noten auf dem Kanal)                                                                                         |
 | Pitch Bend        | 0xE      | Ändert die Tonhöhe des gesamten Kanals in feinen Schritten.                                                                                                                |
-| System Messages   | 0xF      | MIDI [Clock](../../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](../../Hardwareentwicklung/Reset%20Generierung.md), Active Sensing |
+| System Messages   | 0xF      | MIDI [Clock](../../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](../Reset%20Generierung.md), Active Sensing |
 |                   |          |                                                                                                                                                                            |
 
 ### MIDI Kanal

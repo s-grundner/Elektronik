@@ -57,5 +57,5 @@ keywords:
 
 - [Zener-Diode](Zener-Diode.md)
 - [Leucht-Dioden](Leucht-Dioden)
-- [Kapazitäts-Diode](../Kapazitäts-Diode.md)
+- [Kapazitäts-Diode](Kapazitäts-Diode.md)
 - [TVS-Diode](TVS-Diode.md)

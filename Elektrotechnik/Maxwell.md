@@ -29,14 +29,14 @@ def:
 
 > [!important] Kenngrößen
 >
-> | Symbol | Bedeutung | Einheit |
-> | :---: | :--- | :---: |
-> | $\mathbf{E}$ | elektrische [Feldstärke](Elektrisches%20Feld.md) | $\operatorname{V} / \mathrm{m}$ |
-> | $\mathbf{H}$ | magnetische Feldstärke | $\mathrm{A} / \mathrm{m}$ |
-> | $\mathbf{D}$ | elektrische Flussdichte | $\mathrm{As} / \mathrm{m}^2$ |
-> | $\mathbf{B}$ | magnetische Flussdichte | $\mathrm{Vs} / \mathrm{m}^2$ |
-> | $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md) | $\mathrm{A} / \mathrm{m}^2$ |
-> | $\rho$ | Raumladungsdichte | $\mathrm{As} / \mathrm{m}^3$ |
+> | Symbol | Bedeutung |  | Einheit |
+> | :---: | :--- | :--- | :---: |
+> | $\mathbf{E}$ | [elektrische Feldstärke](Elektrisches%20Feld.md)  | Intesitätsgröße | $\operatorname{V} / \mathrm{m}$ |
+> | $\mathbf{B}$ | [magnetische Flussdichte](Magnetisches%20Feld.md) | Intesitätsgröße | $\mathrm{Vs} / \mathrm{m}^2$ |
+> | $\mathbf{H}$ | magnetische Feldstärke | Quantitätsgröße | $\mathrm{A} / \mathrm{m}$ |
+> | $\mathbf{D}$ | elektrische Flussdichte | Quantitätsgröße | $\mathrm{As} / \mathrm{m}^2$ |
+> | $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md) | | $\mathrm{A} / \mathrm{m}^2$ |
+> | $\rho$ | Raumladungsdichte | | $\mathrm{As} / \mathrm{m}^3$ |
 >
 > Fettgedruckte Größen sind Vektorfelder mit den wichtigsten $\mathbf{E}$ und $\mathbf{B}$
 
@@ -44,71 +44,81 @@ def:
 
 Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integralsätzen:
 
-- [Gaußscher Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md)
-- [Stokesscher Integralsatz](../Mathematik/Analysis/Stokesscher%20Integralsatz.md)
+|              [Gaußscher Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md)              |                    [Stokesscher Integralsatz](../Mathematik/Analysis/Stokesscher%20Integralsatz.md)                    |
+| :----------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
+| $$\int_{V} \nabla \cdot\mathbf{F} \mathrm{~d}v = \oint_{\partial V} \mathbf{F} \mathrm{~d}\mathbf{a}$$ | $$\int_{A} (\nabla \times\mathbf{F}) \cdot\mathrm{d}\mathbf{a}= \oint_{\partial A} \mathbf{F} \mathrm{~d}\mathbf{s} $$ |
 
-### 1. MWG - Gaußsches Gesetz
-
-| **differentielle Form**                                                                                           | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------- | :----------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist Quelle des elektrischen Feldes. |              Gauß              | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
-
-> [!def] **D1 - 1. Maxwell-Gleichung)** Gaußsches Gesetz
-> $$
-> \operatorname{div} \mathbf{D} = \nabla \cdot \mathbf{D}=\rho
-> \quad\underset{ \text{ Gauss } }{ \iff } \quad 
-> \oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{A} =\int_V \rho \mathrm{d} V \tag{MW1}
-> $$
-
-### 2. MWG - Quellenfreiheit des B-Feldes
-
-| **differentielle Form**                                                                                                                 | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Das $\mathbf{B}$-Feld ist quellenfrei. Es gibt keine magnetischen Monopole. Das heißt es muss zu jedem Nordpol auch einen Südpol geben. |              Gauß              | Der magnetische Fluss durch die geschlossene Oberfläche eines Volumens ist gleich der magnetischen Ladung in seinem Inneren, nämlich Null, da es keine magnetischen Monopole gibt. |
-
-> [!def] **D2 - 2. Maxwellgleichung)** Quellenfreiheit des B-Feldes
->$$
-> \operatorname{div} \mathbf{B} = \nabla \cdot \mathbf{B}=0
-> \quad\underset{ \text{ Gauss } }{ \iff } \quad
-> \oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{A} =0
-> \tag{MW2}
->$$
-
-### 3. MWG - Induktionsgesetz
-
-> [!quote] Auch *Faradaysches Induktionsgesetz*
-
-| **differentielle Form**                                                                                                                                                                    | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Jede Änderung des $\mathbf{B}$-Feldes führt zu einem elektrischen Gegenfeld.<br>Die Wirbel des elektrischen Feldes sind von der zeitlichen Änderung der magnetischen Flussdichte abhängig. |             Stokes             | Die (elektrische) Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der negativen zeitlichen Änderung des magnetischen Flusses durch die Fläche. |
-
-> [!def] **D3 - 3. Maxwell-Gleichung)** Faradaysches Induktionsgesetz
-> $$
-> \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
-> \quad\underset{ \text{ Stokes } }{ \iff } \quad 
-> \oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{MW3}
-> $$
-
-### 4. MWG - Durchflutungssatz
+### 1. MWG - Durchflutungssatz
 
 > [!quote] Auch *Ampèresches Gesetz*
 
-| **differentielle Form**                                                                                                              | **verknüpfender Integralsatz** | **Integralform**                                                                                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Die Wirbel des Magnetfelds hängen von der Leitungsstromdichte $\mathbf{J}_{l}$ und von der elektrischen Flussdichte $\mathbf{D}$ ab. |             Stokes             | Die magnetische Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der Summe aus dem Leitungsstrom und der zeitlichen Änderung des elektrischen Flusses durch die Fläche. |
+| **differentielle Form**                                                                                                              | **Integralform**                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Die Wirbel des Magnetfelds hängen von der Leitungsstromdichte $\mathbf{J}_{l}$ und von der elektrischen Flussdichte $\mathbf{D}$ ab. | Die magnetische Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der Summe aus dem Leitungsstrom und der zeitlichen Änderung des elektrischen Flusses durch die Fläche. |
 
-> [!def] **D4 - 4. Maxwell Gleichung)** Durchflutungssatz 
+
+> [!def] **D1 - 1. Maxwell Gleichung)** Durchflutungssatz 
 > $$
 > \operatorname{rot} \mathbf{H} = \nabla \times \mathbf{H}=\mathbf{J}_{l}+\underbrace{ \frac{\partial \mathbf{D}}{\partial t} }_{ \mathbf{J}_{v} }
 > \quad\underset{ \text{ Stokes } }{ \iff }\quad
-> \oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} =\int_A \mathbf{J}_{l} \cdot \mathrm{d} \mathbf{A}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{MW4}
+> \oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} =\int_A \mathbf{J}_{l} \cdot \mathrm{d} \mathbf{a}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{a} \tag{MW1}
 > $$
 
 > [!info] Die zeitliche änderung von $\mathbf{D}$ wrd auch als verschiebungsstromdichte $\mathbf{J}_{v}$ bezeichnet. 
 > Die Summe von $\mathbf{J}_{l}$ und $\mathbf{J}_{v}$ ergibt die totale Stromdichte $\mathbf{J}_{\text{total}}=\mathbf{J}_{l}+\mathbf{J}_{v}$ 
 
-> [!tldr]  
-> In Worten besagt der Durchflutungssatz, dass das Integral der magnetischen *Feldstärke* $H$ entlang einer geschlossenen *Kontur* $C$ (siehe auch Einschub: Linienintegral) gleich dem Integral der *[Stromdichte](Stromdichte.md)* $J$ über die *Fläche* $A$ (siehe auch Einschub: [Flächenintegral](Flächenintegral.md)) ist, wobei die *Fläche* $A$ von der geschlossenen *Kontur* $C$ umrandet wird
+#### Differenzielle Form
+
+![](assets/Maxwell%202025-01-14%2000.17.11.excalidraw.md) 
+
+#### Verschiebungsstromdichte
+
+Der Verschiebungsstrom wird durch die zeitliche veränderung der elektrischen Flussdichte $\mathbf{D}$ hervorgerufen.
+
+
+
+### 2. MWG - Induktionsgesetz
+
+> [!quote] Auch *Faradaysches Induktionsgesetz*
+
+| **differentielle Form**                                                                                                                                                                    | **Integralform**                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Jede Änderung des $\mathbf{B}$-Feldes führt zu einem elektrischen Gegenfeld.<br>Die Wirbel des elektrischen Feldes sind von der zeitlichen Änderung der magnetischen Flussdichte abhängig. | Die (elektrische) Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der negativen zeitlichen Änderung des magnetischen Flusses durch die Fläche. |
+|                                                                                                                                                                                            |                                                                                                                                                                        |
+
+> [!def] **D2 - 2. Maxwell-Gleichung)** Faradaysches Induktionsgesetz
+> $$
+> \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
+> \quad\underset{ \text{ Stokes } }{ \iff } \quad 
+> \oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{A} \tag{MW2}
+> $$
+
+### 3. MWG - Gaußsches Gesetz
+
+| **differentielle Form**                                                                                               | **Integralform**                                                                                                                                                |
+| --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$ ) ist die Quelle des elektrischen Feldes. | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
+
+> [!def] **D3 - 3. Maxwell-Gleichung)** Gaußsches Gesetz
+> $$
+> \operatorname{div} \mathbf{D} = \nabla \cdot \mathbf{D}=\rho
+> \quad\underset{ \text{ Gauss } }{ \iff } \quad 
+> \oint_{\partial V} \mathbf{D} \cdot \mathrm{d} \mathbf{a} =\int_V \rho \mathrm{d} V \tag{MW3}
+> $$
+
+### 4. MWG - Quellenfreiheit des B-Feldes
+
+| **differentielle Form**                                                                                                                 | **Integralform**                                                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Das $\mathbf{B}$-Feld ist quellenfrei. Es gibt keine magnetischen Monopole. Das heißt es muss zu jedem Nordpol auch einen Südpol geben. | Der magnetische Fluss durch die geschlossene Oberfläche eines Volumens ist gleich der magnetischen Ladung in seinem Inneren, nämlich Null, da es keine magnetischen Monopole gibt. |
+
+> [!def] **D4 - 4. Maxwellgleichung)** Quellenfreiheit des B-Feldes
+>$$
+> \operatorname{div} \mathbf{B} = \nabla \cdot \mathbf{B}=0
+> \quad\underset{ \text{ Gauss } }{ \iff } \quad
+> \oint_{\partial V} \mathbf{B} \cdot \mathrm{d} \mathbf{a} =0
+> \tag{MW4}
+>$$
 
 ## Materialgleichungen
 

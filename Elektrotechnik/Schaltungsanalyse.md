@@ -10,9 +10,7 @@ keywords:
 subject:
   - VL
   - Elektrotechnik
-semester:
-  - SS24
-  - B2
+semester: SS24
 created: 4. März 2024
 professor:
   - Andreas Springer
@@ -47,8 +45,9 @@ Ideale Quellen mit Innenwiderstand werden als “reale Quellen” oder besser al
 ### Aufbau eines Netzwerks
 
 > [!info] Ein Netzwerk besteht im allgemeinen aus $n$-Polen ($n\geq 2$)
-> Da sich $n$-Pole durch Zweipole modellieren lassen, betrachten wir **Nur aus Zweipolen bestehende Netzwerke**
-> - z.B lassen sich für [Transistoren](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md), die in der Regel drei Anschlüsse haben, Ersatzschaltbilder angeben, die Ausschließlich aus Zweipolen bestehen.
+> Da sich $n$-Pole durch [Zweipole](Zweipol.md) modellieren lassen, betrachten wir **Nur aus Zweipolen bestehende Netzwerke**
+> - z.B lassen sich für [Transistoren](../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md), die in der Regel drei Anschlüsse haben, Ersatzschaltbilder angeben, die Ausschließlich aus Zweipolen bestehen (siehe [Kleinsignal Ersatzschaltbild](../Hardwareentwicklung/Halbleiter/BJT%20Kleinsignalverhalten.md))
+> ![[assets/Schaltungsanalyse 2025-01-13 22.21.43.excalidraw]]
 
 Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass das Netzwerk aus $k$ Knoten und $z$ Zweigen.
 
@@ -68,4 +67,4 @@ Im Zusammenhang mit den Zeigerdiagrammen werden wir uns noch mit der [Inversion 
 
 # Tags
 
-[1^]: Für den Fall der [Wechselstromtechnik](Wechselstromtechnik.md)
+[^1]: Für den Fall der [Wechselstromtechnik](Wechselstromtechnik.md)
