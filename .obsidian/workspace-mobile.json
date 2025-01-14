@@ -4,51 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "9017436c706f4a7c",
+        "id": "eceadaa80bc808b7",
         "type": "tabs",
         "children": [
           {
-            "id": "49a49f5da851af16",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "177a0076cfb12e8b",
+            "id": "befa845e0e8a7562",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardwareentwicklung/Halbleiter/Stromeinstellung.md",
+                "file": "Hardwareentwicklung/Oszillatoren/Quarzoszillator.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stromeinstellung"
-            }
-          },
-          {
-            "id": "73d8bc66f1b52514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hardwareentwicklung/Halbleiter/Spannungseinstellung.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Spannungseinstellung"
+              "title": "Quarzoszillator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "README.md",
+            "file": "Hardwareentwicklung/Oszillatoren/Quarzoszillator.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -196,10 +170,11 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -209,34 +184,35 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "177a0076cfb12e8b",
+  "active": "befa845e0e8a7562",
   "lastOpenFiles": [
-    "Hardwareentwicklung/Halbleiter/Spannungseinstellung.md",
-    "Hardwareentwicklung/Halbleiter/Bipolartransistor.md",
-    "Hardwareentwicklung/Halbleiter/Stromeinstellung.md",
+    "Hardwareentwicklung/assets/pdf/Clock_und_Reset_Generierung.pdf",
     "Hardwareentwicklung/Oszillatoren/Colpitts Oszillator.md",
-    "Elektrotechnik/elektrische Spannung.md",
-    "Physik/Energieerhaltung.md",
-    "Hardwareentwicklung/Halbleiter/TVS-Diode.md",
-    "HF-Technik/Eingangsimpedanz.md",
-    "Hardwareentwicklung/ESD.md",
-    "Elektrotechnik/Elektrisches Feld.md",
-    "Chemie/Atombindung.md",
-    "Chemie/Chemische Bindungen.md",
-    "Physik/Materialkunde/Silizium.md",
-    "10_tools/sidebar_colorfulclock.md",
-    "Hardwareentwicklung/Stromversorgungseinheiten/Ungeregelte Spannungsstabilisierung.md",
-    "Hardwareentwicklung/Halbleiter/Zener-Diode.md",
-    "Hardwareentwicklung/Halbleiter/{MOC} Transistor.md",
-    "Hardwareentwicklung/Halbleiter/A-Betrieb.md",
-    "Hardwareentwicklung/Halbleiter/C-Betrieb.md",
-    "Hardwareentwicklung/Halbleiter/Sperrschicht-Feldeffekttransistor.md",
-    "README.md",
-    "Hardwareentwicklung/Stromversorgungseinheiten/Längsregler.md",
-    "Signaltheorie/Faltung.md",
-    "Hardwareentwicklung/Halbleiter/Diode.md",
-    "Physik/Materialkunde/{MOC} Materialkunde.md",
-    "Physik/Shockley Gleichung.md",
+    "Hardwareentwicklung/Oszillatoren/Clock Generierung.md",
+    "Hardwareentwicklung/Oszillatoren/Barkhausen Kriterium.md",
+    "Oszillatoren.md",
+    "assets/Oszillatoren 2025-01-14 10.38.37.excalidraw.md",
+    "Elektrotechnik/Parallelschwingkreis.md",
+    "Elektrotechnik/assets/Parallelschwingkreis 2025-01-14 10.49.42.excalidraw.md",
+    "assets/Oszillatoren 2025-01-14 10.25.42.excalidraw.md",
+    "Physik/harmonische Schwingungen.md",
+    "Mathematik/Algebra/Fourier Transformation.md",
+    "Softwareentwicklung/ds-algo/DFT.md",
+    "Softwareentwicklung/ds-algo/assets/DFT 2025-01-14 10.03.44.excalidraw.md",
+    "Softwareentwicklung/ds-algo/assets/DFT 2025-01-14 09.53.12.excalidraw.md",
+    "Hardwareentwicklung/assets/Schmitt Trigger 2025-01-13 09.27.15.excalidraw.md",
+    "Mathematik/Analysis/Komplexe Zahlen.md",
+    "Softwareentwicklung/ds-algo/Poissonsche Summenformel.md",
+    "Hardwareentwicklung/Schmitt Trigger.md",
+    "Hardwareentwicklung/GIC.md",
+    "Hardwareentwicklung/assets/Schmitt Trigger 2025-01-13 09.17.44.excalidraw.md",
+    "Hardwareentwicklung/Oszillatoren/Pierce-Gate Oszillator.md",
+    "Hardwareentwicklung/Oszillatoren/Quarzoszillator.md",
+    "assets/NIC 2025-01-13 08.52.33.excalidraw.md",
+    "Hardwareentwicklung/assets/GIC 2025-01-13 09.13.53.excalidraw.md",
+    "Hardwareentwicklung/NIC.md",
+    "Hardwareentwicklung/Uebung/Pasted image 20221013193151.png",
+    "Hardwareentwicklung/Halbleiter/Spannungseinstellung.md",
     "Excalidraw",
     "Hardwareentwicklung/assets/Skizze3.png",
     "Elektrotechnik/assets/Wechselfelder.png",
@@ -247,7 +223,6 @@
     "Hardwareentwicklung/assets/SignalIntegritätReflexion.png",
     "Elektrotechnik/assets/elekStrom.png",
     "Chemie/assets/Pasted image 20240310010157.png",
-    "Hardwareentwicklung/assets/SignalIntegritätReflexionSchlecht.png",
     "Netzwerktechnik/Protokolle",
     "Softwareentwicklung/C/assets/pdf",
     "Softwareentwicklung/C/assets/pdf/C.CheatSheet.pdf",
@@ -256,7 +231,6 @@
     "Digitaltechnik/Interfaces",
     "Softwareentwicklung/SEng/02_SEng/Ue/SEng_Ue2_SoftwareEngineering.txt",
     "Softwareentwicklung/SEng/02_SEng/Ue",
-    "Softwareentwicklung/SEng/02_SEng/pdf/SEng_UML_Plakat_UML_Plakat-2018web.pdf",
     "Mathematik/mathe (5)/{CNV} Wahrscheinlichkeit.canvas",
     "Untitled.canvas"
   ]

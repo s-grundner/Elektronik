@@ -29,20 +29,26 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 
 ## Schaltung
 
+
+Ob die Schaltung als Kollektor, Basis oder Emitter schaltung bezeichnet wird, ist davon abhängig wo Ein- und Ausgang definiert ist.
+
+#tikz/todo
+
+
 ```tikz
 \usepackage[european]{circuitikz}
 \usepackage{amsmath}
-
+\ctikzset{transistors/scale=2}
 \begin{document}
 
-\begin{circuitikz}[thick, font=\Large]
+\begin{circuitikz}[thick, transform shape, font=\Large]
 
-% Paths, nodes and wires:
-\node[npn] at (5, 6) {};
+% Paths, nodes and wires
+\draw (5, 6) node[npn](npn){};
 
 \draw (3, 6) to[R={$R_1$}, *-] (3, 9);
 \draw (3, 3) to[R={$R_2$}] (3, 6);
-\draw (5, 3.75) to[R={$R_E$}, -*] (5, 5.25);
+\draw (npn.E) to[R={$R_E$}, -*] ++(0,-1);
 
 \draw (0, 6) to[C={$C_B$}] (3, 6);
 \draw (7, 3.75) to[C={$C_E$}] (7, 5.25);
@@ -51,7 +57,7 @@ $$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
 \draw (12, 7) to[C={$C_{\text{out}}$}, -o] (14, 7);
 
 \draw (5, 6.77) to[short] (5, 7);
-\draw (5, 7) to[L={$L_{\text{RFC}}$}, *-] (5, 9);
+\draw (5, 7) to[L={$L_{\text{RFC}}$}, *-] (5, 9) node[vcc]{$U_0$};
 \draw (9, 2) to[L={$L$}, *-*] (9, 7);
 
 \draw (5, 3) -- (5, 3.75);
@@ -84,20 +90,7 @@ f_{r} = \frac{1}{2\pi \cdot \sqrt{ L\cdot C_{r} }}
 \end{gathered}
 $$
 
-## Funktionsweise
-
-- [Emitterschaltung](../Halbleiter/Kollektorfolger.md): $\varphi = 180\degree$ zwischen $U_{a}$ und $U_{e}$
-- kapazitive 3-Punkt Schaltung bringt weitere $180\degree\rightarrow\sum=360\degree$
-- [Barkhausen Kriterium](Barkhausen%20Kriterium.md) ist erfüllt
-- [Emitterschaltung](../Halbleiter/Kollektorfolger.md) mit Basisspannungs-Teiler
-- $R_{E}$ zur Temperaturkompensation
-- RFC ([Radio](../../HF-Technik/Rundfunk.md) Frequency Choke) dt. Drosselspule
-	- hebt den Massebezug des Oszillatorsignal zur Betriebsspannung auf
-- Analyse der Schleifenverstärkung bringt …
-	- … einerseits $\mathrm{Im}(T(f))=0$ -> $\omega_{0}$ (Resonanzfrequenz)
-	- … andererseits $\frac{C_{2}}{C_{1}}=S\cdot R_{L}$ -> Steilheit $S=\frac{\Delta I_{C}}{\Delta U_{BE}}$
-
-## Herleitung
+### Herleitung
 
 ### Kapazitive 3-Punktschaltung
 

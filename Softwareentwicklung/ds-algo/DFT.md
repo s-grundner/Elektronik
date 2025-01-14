@@ -17,21 +17,21 @@ subject:
 cited: true
 ---
 
-# Diskrete [Fourier Transformation](Fourier%20Transformation.md)
+# Diskrete Fourier Transformation 
 
 > [!info] Complexity: `$=dv.current().complexity`
 
-> [!INFO]  
-> Tatsächlich handelt es sich bei der Diskreten [Fourier Transformation](Fourier%20Transformation.md) (DFT) um eine Annäherung der [Fourier Transformation](Fourier%20Transformation.md), welche es ermöglicht sie effizient von einem digitalen Rechner berechnen zu lassen.  
-Hierbei wird die Formel für die [Fouriertransformierte](Fourier%20Transformation.md#Fouriertransformierte) als Ausgangspunkt genutzt.
+> [!quote] DFT
+> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine Annäherung der [Fourier Transformation](Fourier%20Transformation.md), welche es ermöglicht sie Zeitdiskret/Digital berechnen zu lassen. 
+> Hierbei wird die Formel für die Fouriertransformierte als Ausgangspunkt genutzt.
 
 Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:
 
-$$ X_{s}(\omega) = \sum^{\infty}_{n = -\infty} = x(nT)\cdot e^{-j\omega nT} \cdot T $$
+$$ X_{s}(\omega) = \sum^{\infty}_{n = -\infty} x(nT)\cdot e^{-j\omega nT} \cdot T $$
 
-Da eine unendliche Anzahl an Abtastwerten unmöglich zu berechnen ist, werden eine endliche Anzahl $N$ dieser herausgeschnitten/„gefenstert“ (engl: windowing).
+Da eine unendliche Anzahl an Abtastwerten unmöglich zu berechnen ist, werden eine endliche Anzahl $N$ dieser herausgeschnitten/gefenstert (engl: windowing).
 
-Außerdem kann der Faktor $T$ aus „Bequemlichkeit“ weggelassen werden.
+Außerdem kann der Faktor $T$ weggelassen werden.
 
 $$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
 
@@ -51,11 +51,8 @@ Die [inverse](Gauß-Jordan-Verfahren.md) DFT (IDFT) (Synthesegleichung) ist defi
 
 > [!hint] Synthesegleichung
 >
-> $$
-> x[n] = \frac{1}{N}\sum^{N-1}_{k=0} X[k]\cdot e^{jkn \frac{2\pi}{N}}
-> $$
+> $$x[n] = \frac{1}{N}\sum^{N-1}_{k=0} X[k]\cdot e^{jkn \frac{2\pi}{N}}$$
 
-(8, p. 163 ff.) [^1]
 
 ## Matrix-Interpretation Der DFT
 
@@ -63,7 +60,7 @@ Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so 
 
 $$
 \begin{align}
-X [k] = \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_{k=0} X[k]\cdot W_{N}^{-kn}
+X [k] = \frac{1}{N} \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_{k=0} X[k]\cdot W_{N}^{-kn}
 \end{align}
 $$
 
@@ -99,12 +96,11 @@ $$
 
 Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechnet werden. Dies führt uns zur [FFT](FFT.md).
 
-## Eigenschaften der DFT
+![[assets/DFT 2025-01-14 10.03.44.excalidraw]]
 
-- „Die DFT einer [](../../Mathematik/Algebra/Koordinatenmatrix.md) von Signalen ist gleich der [](../../Mathematik/Algebra/Koordinatenmatrix.md) ihrer DFTs.“ (8, p. 169) [^1]
-- „Die DFT und die IDFT sind $N$-periodisch.“ (8, p. 169) [^1]
-- „Die Energie des Signals im Zeitbereich ist gleich der Energie des Signals im Frequenzbereich geteilt durch $N$.“ (Parceval-Theorem) (8, p. 170) [^1]
-- „Die DFT eines reellen Signals ist bezüglich dem Punkt $k= N/2$ symmetrisch.“ ([8, p. 170]) [^1]
+## Diskretisiertes Spektrum
+
+![[assets/DFT 2025-01-14 09.53.12.excalidraw]]
 
 # Quellen
 

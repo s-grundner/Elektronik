@@ -1,8 +1,15 @@
 ---
-tags: ["MCU", "Baugruppen/Oszillator"]
-aliases: ["Clock", "Oszillatoren"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - MCU
+  - Baugruppen/Oszillator
+aliases:
+  - Clock
+  - Oszillator
+  - Oszillatoren
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 17th October 2022
 ---
 
