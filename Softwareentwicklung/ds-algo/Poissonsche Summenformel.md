@@ -40,4 +40,3 @@ $$
 
 Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der zeitdiskreten Funktion $f_{\mathrm{a}}(n T)$.
 
-Dualität: 

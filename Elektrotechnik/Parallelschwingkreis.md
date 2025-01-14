@@ -35,3 +35,5 @@ Daraus lässt sich mit $\operatorname{Im}\left(\underline{Y}\left(\omega_{\mathr
 $$
 \omega_{\mathrm{r}}=\frac{1}{\sqrt{L C}} \sqrt{1-\frac{R_L^2 C}{L}}
 $$
+
+![[assets/Parallelschwingkreis 2025-01-14 10.49.42.excalidraw]]

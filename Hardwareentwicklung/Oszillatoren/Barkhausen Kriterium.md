@@ -1,8 +1,13 @@
 ---
-tags: ["Baugruppen/Oszillator"]
-aliases: ["BHK", "Barkhausen Kriterien"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppen/Oszillator
+aliases:
+  - BHK
+  - Barkhausen Kriterien
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 2nd January 2023
 ---
 
@@ -18,6 +23,10 @@ created: 2nd January 2023
 - Die Anregung der Schwingung erfolgt aus dem Rauschen oder aus einer Störung heraus
 
 ## Herleitung der Schwingfähigkeit eines Oszillators
+
+
+![[assets/Oszillatoren 2025-01-14 10.25.42.excalidraw]]
+
 
 ![Pasted image 20230124212033](assets/Pasted%20image%2020230124212033.png)
 
