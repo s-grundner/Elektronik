@@ -18,7 +18,7 @@ created: 21st August 2022
 
 Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ Akkumulator 
 
-## 1 Sekundärelement-Topologien
+## Sekundärelement-Topologien
 
 - [Blei-Akku](Blei-Akku.md)
 - [Nickel-Cadmium-Akku](Nickel-Cadmium-Akku.md)

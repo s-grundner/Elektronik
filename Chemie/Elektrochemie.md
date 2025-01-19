@@ -4,6 +4,7 @@ tags:
 aliases:
   - Elektrolyt
   - Galvanisch
+  - Elektrolyse
 subject:
   - chemie
 source:
@@ -13,7 +14,7 @@ created: 21st August 2022
 
 # Elektrochemie
 
-> [!INFO] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
+> [!quote] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
 >Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
 >Elektrolyte (oder [elektrische Leiter](Metallbindung.md) 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
 >$\rightarrow$ sind Leitfähig
@@ -108,25 +109,22 @@ elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) 
 ![675](assets/DaniellEL.png)  
 [Daniell-Element](Daniell-Element.md)
 
-#### Beim Schließen Des Stromkreises Passiert Folgendes
-
-1. Unedleres $Zn$ löst sich auf ([Oxidation](Oxidation%20und%20Reduktion.md))  
-   $Zn\longrightarrow Zn^{2+}+2e^{-}$
-   
-2. $e^{-}$ wandern zum edleren $Cu$ und reagieren mit $Cu^{2+}$ und $Cu$ schiedet sich ab ([Reduktion](Oxidation%20und%20Reduktion.md))  
-   $Cu^{2+}+2e^{-}\longrightarrow Cu\downarrow$
-   
-3. $SO_{4}^{2-}$ wandert durch Membran $\rightarrow$ es bildet sich Zinksulfat  
-   $Zn^{2+} + SO_{4}^{2-}$
-   
-4. Stromkreis ist geschlossen
+> [!question] Beim Schließen Des Stromkreises Passiert Folgendes
+> 1. Unedleres $Zn$ löst sich auf ([Oxidation](Oxidation%20und%20Reduktion.md))  
+>    $Zn\longrightarrow Zn^{2+}+2e^{-}$
+> 2. $e^{-}$ wandern zum edleren $Cu$ und reagieren mit $Cu^{2+}$ und $Cu$ schiedet sich ab ([Reduktion](Oxidation%20und%20Reduktion.md))  
+>    $Cu^{2+}+2e^{-}\longrightarrow Cu\downarrow$
+> 3. $SO_{4}^{2-}$ wandert durch Membran $\rightarrow$ es bildet sich Zinksulfat  
+>    $Zn^{2+} + SO_{4}^{2-}$
+> 4. Stromkreis ist geschlossen
+> 
 
 #### Welche [Spannung](../Elektrotechnik/elektrische%20Spannung.md) Entsteht
 
 [Spannung](../Elektrotechnik/elektrische%20Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
 [Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
 
-### 2.3 Standard-Wasserstoffelektrode
+### Standard-Wasserstoffelektrode
 
 [Spannung](../Elektrotechnik/elektrische%20Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
 Vermessung gegen eine Bezugselektrode ist notwendig.  
@@ -152,13 +150,13 @@ Edle [Metalle](Metallbindung.md): efließen von Wasserstoffhalbzelle zum edlen [
 
 Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektrochemische%20Spannungsreihe.md) aufstellen.
 
-## 3 Technische Nutzbare Galvanische Elemente
+## Technische Nutzbare Galvanische Elemente
 
-### 3.1 [Primärelement](Primärelement.md)
+### [Primärelement](Primärelement.md)
 
 Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ [Batterie](Primärelement.md)  
 
-### 3.2 [Sekundärelement](Sekundärelement.md)
+### [Sekundärelement](Sekundärelement.md)
 
 Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ [Akkumulator](Sekundärelement.md) pannann
 

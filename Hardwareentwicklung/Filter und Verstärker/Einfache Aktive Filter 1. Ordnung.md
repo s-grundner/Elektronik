@@ -21,7 +21,6 @@ professor:
 
  Nicht-Invertierend / Invertierend
 
-
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}
