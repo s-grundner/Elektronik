@@ -3,7 +3,6 @@ tags:
   - Matura
 aliases:
   - Elektrolyt
-  - Elektrolyse
   - Galvanisch
 subject:
   - chemie
@@ -12,14 +11,14 @@ source:
 created: 21st August 2022
 ---
 
-# ElektungSrochemie
+# Elektrochemie
 
 > [!INFO] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
 >Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
 >Elektrolyte (oder [elektrische Leiter](Metallbindung.md) 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
 >$\rightarrow$ sind Leitfähig
 
-## 1 Elektrolyse
+## Elektrolyse
 
 Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit [Strom](../Elektrotechnik/elektrischer%20Strom.md).
 
@@ -36,7 +35,7 @@ Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 - **Zersetzungsspannung:** Mindestspannung für der Elektrolyse
 - **Schmelzflusselektrolyse:** Elektrolyse von Schmelzen
 
-### 1.1 Berechnung Elektrolytischer Vorgänge
+### Berechnung Elektrolytischer Vorgänge
 
 Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/elektrisches%20Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
 $Q=I\cdot t$  
@@ -57,6 +56,7 @@ $Q = 15.78mol\cdot F \cdot 2$
 > [!EXAMPLE] Berechnung der bei einer Elektrolyse abgeschiedenen Masse  
 Wie viel [Silber](../Physik/Materialkunde/Silber.md) (Ag) kann ein [Strom](../Elektrotechnik/elektrischer%20Strom.md) von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
 $Ag^{+} + e^{-} \longrightarrow Ag$  
+
 $Q=I\cdot t = 200As$
 
 ---
@@ -82,7 +82,7 @@ $Q=I\cdot t = 0.5\cdot F$
 $I = \dfrac{0.5\cdot F}{1800}$  
 **$I = 26.801A$**
 
-## 2 Spannungsreihe
+## Spannungsreihe
 
 ![ElektrolyseNagel](assets/ElektrolyseNagel.png)
 
@@ -97,18 +97,18 @@ $Fe + Cu^{2+} \longrightarrow Fe^{2+} + Cu\downarrow$
 
 Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es.
 
-### 2.1 [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) Der [Metalle](Metallbindung.md)
+### [Reaktivitätsreihe](Elektrochemische%20Spannungsreihe.md) Der [Metalle](Metallbindung.md)
 
 - unedle [Metalle](Metallbindung.md) in $HCl$ löslich
 - edle [Metalle](Metallbindung.md) in $HCl$ unlöslich
 
-### 2.2 Galvanisches Element
+### Galvanisches Element
 
 elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
 ![675](assets/DaniellEL.png)  
-[](Primärelement.md#Daniell-Element)
+[Daniell-Element](Daniell-Element.md)
 
-#### 2.2.1 Beim Schließen Des Stromkreises Passiert Folgendes
+#### Beim Schließen Des Stromkreises Passiert Folgendes
 
 1. Unedleres $Zn$ löst sich auf ([Oxidation](Oxidation%20und%20Reduktion.md))  
    $Zn\longrightarrow Zn^{2+}+2e^{-}$
@@ -121,7 +121,7 @@ elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) 
    
 4. Stromkreis ist geschlossen
 
-#### 2.2.2 Welche [Spannung](../Elektrotechnik/elektrische%20Spannung.md) Entsteht
+#### Welche [Spannung](../Elektrotechnik/elektrische%20Spannung.md) Entsteht
 
 [Spannung](../Elektrotechnik/elektrische%20Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
 [Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
@@ -167,3 +167,5 @@ Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rig
 [Korrosion](Korrosion.md)  
 [Galvanotechnik](https://de.wikipedia.org/wiki/Galvanotechnik)
 
+[Kupferbad sauer JE540 | 1 Liter | 127.1000](https://shop.jentner.de/Kupferbad-sauer-JE540-127.1000)
+[Schwarzrutheniumbad JE12-1 - 5 g/L Ru | Individuelle Menge | 9706.custom](https://shop.jentner.de/Schwarzrutheniumbad-JE12-1-5-g-L-Ru-9706.custom)
