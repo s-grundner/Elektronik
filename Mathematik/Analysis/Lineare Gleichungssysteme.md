@@ -39,6 +39,6 @@ $$
 > Das LGS heißt $\begin{cases}\text { bestimmt, } & \text { falls } m=n, \\ \text { überbestimmt, } & \text { falls } m>n, \\ \text { unterbestimmt, } & \text { falls } m<n\end{cases}$
 
 > [!info] Art des Störvektors:  
-> Das LGS heißt $\begin{cases}\text { homogen, } & \text { falls } \vec{b}=\overrightarrow{0} \\ \text { inhomogen, } & \text { sonst. }\end{cases}$
+> Das LGS heißt $\begin{cases}\text { homogen, } & \text { falls } \vec{b}=\vec{0} \\ \text { inhomogen, } & \text { sonst. }\end{cases}$
 
 # Tags

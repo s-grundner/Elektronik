@@ -32,4 +32,6 @@ Allgemein: $\sum_{\text{Knoten}}I=0$
 
 # Tags
 
- Warum funkionieren die Kirchhoffschenreglen? -> Beschreibeung mittels [MWG](Maxwell.md)
+ Warum funkionieren die Kirchhoffschenreglen? 
+- Knotengleichung beruht auf dem [1. MWG - Durchflutungssatz](Maxwell.md#1.%20MWG%20-%20Durchflutungssatz)
+- Maschengleichung folgt aus der Elektrostatischen betrachtung des [2. MWG - Induktionsgesetz](Maxwell.md#2.%20MWG%20-%20Induktionsgesetz)

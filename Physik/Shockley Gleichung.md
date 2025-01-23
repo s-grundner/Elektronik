@@ -16,20 +16,20 @@ professor:
 
 Die Shockley-Gleichung, benannt nach William B. Shockley, beschreibt die Strom-Spannungs-Kennlinie einer Halbleiterdiode.
 
+## Bei der [Diode](../Hardwareentwicklung/Halbleiter/Diode.md)
 
-## Bei der [Diode](../Hardwareentwicklung/Halbleiter/Diode.md):
+> [!def] **D - SHOC)** ^SHOC
+> $$I_{D}(U_{D}) = I_{S}\cdot(e^{\frac{U_{D}}{\eta\cdot U_{T}}}-1)$$ 
 
-$I_{D} = I_{S}\cdot(e^{\frac{U_{F}}{\eta\cdot U_{T}}}-1)$
+| Bezeichnung |                            |
+| :---------: | :------------------------: |
+|   $I_{D}$   |        Diodenstrom         |
+|   $I_{S}$   |         Sperrstrom         |
+|   $U_{D}$   | Vorwärtsspannung der Diode |
+|   $U_{T}$   |     Temperaturspannung     |
+|   $\eta$    |    Emissionskoeffizient    |
 
-| Bezeichnung |                      |
-| :---------: | :------------------: |
-|   $I_{D}$   |     Diodenstrom      |
-|   $I_{S}$   |      Sperrstrom      |
-|   $U_{F}$   |    Flussspannung     |
-|   $U_{T}$   |  Temperaturspannung  |
-|   $\eta$    | Emissionskoeffizient |
-
-## Beim [Bipolartransistor](../Hardwareentwicklung/Halbleiter/Bipolartransistor.md):
+## Beim [Bipolartransistor](../Hardwareentwicklung/Halbleiter/Bipolartransistor.md)
 
 $I_{C} = I_{S}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$
 

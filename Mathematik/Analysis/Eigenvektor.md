@@ -27,7 +27,9 @@ def:
 > [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $A$ zum **Eigenwert** $\lambda$,
 > falls $(A-\lambda \mathbb{1})\cdot v=0$ ist.
 > 
-> Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.
+> - Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.
+> - Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
+> - Ist $\det A=0$, so ist *mindestens* ein Eigenwert 0.
 
 > [!important] Eigenwerte sind nun Alle $\lambda \in\mathbb{C}$, für die $\det(A-\lambda \mathbb{1})=0$ ist.
 

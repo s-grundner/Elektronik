@@ -31,5 +31,7 @@
   "obsidian-git",
   "github-copilot",
   "obsidian-spaced-repetition",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "global-search-and-replace",
+  "obsidian-react-components"
 ]

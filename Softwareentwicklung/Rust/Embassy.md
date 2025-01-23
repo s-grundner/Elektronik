@@ -1,7 +1,7 @@
 ---
 tags:
   - Rust
-  - Altium
+  - Embedded
 aliases: 
 created: 11. Januar 2025
 cited:

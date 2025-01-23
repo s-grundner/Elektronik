@@ -1,17 +1,17 @@
 ---
+banner: "Physik/assets/thermodynamik2.png"
 tags: 
 aliases:
   - Temperatur
-  - Brown'sche Bewegung
+  - Brownsche Bewegung
   - thermisch
   - thermische
-  - Joul'sche Wärme
+  - Joulsche Wärme
 subject:
   - physik
 source:
   - Angela Lindner
 created: 18th August 2022
-banner: Physik/assets/thermodynamik2.png
 banner_x: 1
 ---
 

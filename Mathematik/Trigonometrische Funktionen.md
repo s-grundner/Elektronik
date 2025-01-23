@@ -10,13 +10,15 @@ subject:
   - Mathematik 1
 semester: WS23
 created: 29. September 2024
-professor:
+professor: 
+def:
+  - TRIG
 ---
  
 
 # Trigonometrische Funktionen
 
-> [!important] **Definition 4.31**: Die trigonometrischen Funktionen sind definiert wie:
+> [!def] **D1 - TRIG)** Die trigonometrischen Funktionen sind definiert wie:
 > 
 > $$
 > \begin{align}
@@ -62,37 +64,42 @@ $$
 
 ### Symmetrie
 
-$$
-\begin{aligned}
-\sin (-x)= & -\sin x & \cos (-x) & =\cos x \\
-\sin \left(x+\frac{\pi}{2}\right)= & \cos x & \cos \left(x+\frac{\pi}{2}\right) & =-\sin x \\
-\sin (x+\pi)= & -\sin x & \cos (x+\pi) & =-\cos x \\
-\sin (x+2 \pi)= & \sin x & \cos (x+2 \pi) & =\cos x \\
-\end{aligned}
-$$
+> [!satz] **S1 - TRIG)** Winkelsymmetriesätze
+> $$
+> \begin{aligned}
+> \sin (-x)= & -\sin x & \cos (-x) & =\cos x \\
+> \sin \left(x+\frac{\pi}{2}\right)= & \cos x & \cos \left(x+\frac{\pi}{2}\right) & =-\sin x \\
+> \sin (x+\pi)= & -\sin x & \cos (x+\pi) & =-\cos x \\
+> \sin (x+2 \pi)= & \sin x & \cos (x+2 \pi) & =\cos x \\
+> \end{aligned}
+> $$
 
-### Pythagoras / Doppelwinkel
+### Pythagoras
 
-$$
-\sin ^{2} x+\cos ^{2} x=1
-$$
+> [!satz] **S2 - PYTH)** Satz von Pythagoras
+>
+>$$\sin ^{2} x+\cos ^{2} x=1$$
 
-$$
-\begin{align} 
-\cos (2 x) & =\cos ^2(x)-\sin ^2(x) & \sin (2 x) & =2 \sin (x) \cos (x) \\
-1+\cos (2 x) & =2 \cos ^2(x) & 1+\sin (2 x) & =(\sin (x)+\cos (x))^2 \\
-1-\cos (2 x) & =2 \sin ^2(x) & 1-\sin (2 x) & =(\sin (x)-\cos (x))^2
-\end{align} 
-$$
+### Doppelwinkel
+
+> [!satz] **S3 - TRIG)** Doppelwinkel Sätze
+> $$
+> \begin{align} 
+> \cos (2 x) & =\cos ^2(x)-\sin ^2(x) & \sin (2 x) & =2 \sin (x) \cos (x) \\
+> 1+\cos (2 x) & =2 \cos ^2(x) & 1+\sin (2 x) & =(\sin (x)+\cos (x))^2 \\
+> 1-\cos (2 x) & =2 \sin ^2(x) & 1-\sin (2 x) & =(\sin (x)-\cos (x))^2
+> \end{align} 
+> $$
 
 ### Summensätze
 
-$$
-\begin{aligned}
-\sin (x+y) & =\sin x \cos y+\cos x \sin y \\
-\cos (x+y) & =\cos x \cos y-\sin x \sin y \\
-\end{aligned}
-$$
+> [!satz] **S4 - TRIG)** Winkelsummen Sätze
+> $$
+> \begin{aligned}
+> \sin (x+y) & =\sin x \cos y+\cos x \sin y \\
+> \cos (x+y) & =\cos x \cos y-\sin x \sin y \\
+> \end{aligned}
+> $$
 
 ### Additionstheoreme
 

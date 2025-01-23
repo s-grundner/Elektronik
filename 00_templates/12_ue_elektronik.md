@@ -9,7 +9,7 @@ tp.file.rename("UE" + nr)
 
 ---
 
-📝 [Angabe](Übungsskriptum.pdf))
+📝 [Angabe](Übungsskriptum.pdf)
 ✅ (files::[Lösung](Abgaben/UE<%* tR += nr%>-k12136610.pdf))
 
 ---
@@ -19,7 +19,6 @@ tp.file.rename("UE" + nr)
 > [!info] <%tp.file.cursor()%>
 
 ## Quizfragen
-
 
 > [!question] 
 > 

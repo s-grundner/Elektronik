@@ -6,11 +6,12 @@ aliases:
   - Federpendel
 keywords: 
 subject:
-  - Physik für TechnikerInnen
-  - "322.005"
-semester: 1
+  - Physik 1 für TechnikerInnen
+  - VL
+semester: WS23
 created: 25. Januar 2024
 professor:
+  - Gunther Springholz
 ---
  
 

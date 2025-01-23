@@ -5,8 +5,8 @@ aliases:
 keywords: 
 subject:
   - Physik für TechnikerInnen
-  - "322.005"
-semester: 1
+  - VL
+semester: WS23
 created: 25. Januar 2024
 professor:
   - Gunther Springholz

@@ -8,9 +8,8 @@ keywords:
   - v-t Diagramm
   - a-t Diagramm
 subject:
-  - Physik für TechnikerInnen
-  - "322.005"
-semester: 1
+  - Physik 1 für TechnikerInnen
+semester: WS23
 created: 11. Oktober 2023
 professor:
   - Gunther Springholz

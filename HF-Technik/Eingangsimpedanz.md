@@ -4,9 +4,11 @@ tags:
   - Nachrichtentechnik
 aliases: 
 created: 20th August 2023
-semester: 
-professor: 
-subject: 
+semester: WS24
+professor:
+  - Reinhard Feger
+subject:
+  - HF-Systemtechnik 1
 keywords:
 ---
 
@@ -22,21 +24,20 @@ Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md)
 > 
 > Im Schaltungsentwurf sind diese mit zu berücksichtigen!
 
-### Allgemein
+## Allgemein
 
-Eingangswiderstand $Z_{E}$ einer allgemeinen, verlustbehafteten [HF-Übertragungsleitung](Transmission%20Line.md):
+Eingangswiderstand $Z_{E}$ einer allgemeinen, verlustbehafteten Transmission-Line:
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ \frac{Z_{L}}{Z_{A}}\cdot\tanh(\gamma\cdot l)}{1+ \frac{Z_{A}}{Z_{L}}\cdot\tanh(\gamma\cdot l)}
 $$
 
-### Verlustlos
+## Verlustlos
 
-Eingangswiderstand $Z_{E}$ einer Verlustlosen [HF-Übertragungsleitung](Transmission%20Line.md)
+Eingangswiderstand $Z_{E}$ einer Verlustlosen Transmission-Line
 
 $$
 Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ j\frac{Z_{L}}{Z_{A}}\cdot\tan(\gamma\cdot l)}{1+ j\frac{Z_{A}}{Z_{L}}\cdot\tan(\gamma\cdot l)}
 $$
-
 
 # Tags
 

@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases:
-  - Vierpol
+  - Zweitor
   - Vierpoltheorie
 subject:
   - ksn
@@ -10,16 +10,16 @@ source:
 created: 21st November 2022
 ---
 
-# Zweitor
+# Vierpol
 
 > [Zweipol](../Elektrotechnik/Zweipol.md)
 
-Ein Vierpol kann, wenn er linear ist, durch vier Größen beschrieben werden.
+Ein Vierpol kann, wenn er linear ist, durch ein [LGS](../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) verschiedener Arten beschrieben werden:
 
-- Hybridmatrix
 - Übertragungsmatrix
-- Admittanzmatrix
-- Impedanzmatrix
+- Hybridmatrix
+- [Admittanzmatrix](Admittanzmatrix.md)
+- [Impedanzmatrix](Impedanzmatrix.md)
 - Kettenmatrix
 
 # Quellen

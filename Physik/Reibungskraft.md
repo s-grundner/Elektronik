@@ -5,11 +5,12 @@ aliases:
   - Schiefe Ebene
 keywords: 
 subject:
-  - Physik für TechnikerInnen
-  - "322.005"
-semester: 1
+  - Physik 1 für TechnikerInnen
+  - VL
+semester: WS23
 created: 14. Dezember 2023
 professor:
+  - Gunther Springholz
 ---
  
 

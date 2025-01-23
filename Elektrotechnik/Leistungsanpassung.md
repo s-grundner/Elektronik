@@ -15,7 +15,7 @@ professor:
 
 # Leistungsanpassung
 
-Bei der Leistungsanpassung eines [elektrischen Netzwerks](Schaltungsanalyse.md), werden die Bauteile so gewählt, dass die [Leistung](elektrische%20Leistung.md) an der Last maximal ist.
+Bei der Leistungsanpassung eines [elektrischen Netzwerks](Lineare%20Elektrische%20Netzwerke.md), werden die Bauteile so gewählt, dass die [Leistung](elektrische%20Leistung.md) an der Last maximal ist.
 
 ## Beim [Zweipol](Zweipol.md)
 

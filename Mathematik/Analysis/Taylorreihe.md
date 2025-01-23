@@ -18,7 +18,7 @@ def:
 
 > [!QUESTION] Taylorreihen werden in der Analysis verwendet um Funktionen in der Umgebung eines Punktes durch Potenzreihen darzustellen.
 
-> [!def] **D1 - TAYL)** Sei $f$ eine beliebig oft differenzierbare Funktion, dann heißt die unendliche Reihe:
+> [!def] **D1 - TAYL)** Sei $f$ eine beliebig oft differenzierbare Funktion, dann heißt die unendliche Reihe: ^TAYL
 >
 > $$
 > \begin{align}

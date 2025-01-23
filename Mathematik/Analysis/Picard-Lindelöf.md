@@ -11,7 +11,7 @@ semester: WS24
 created: 16. Oktober 2024
 professor: 
 satz:
-  - PILÖ
+  - PILF
 ---
  
 
@@ -19,7 +19,7 @@ satz:
 
 Es gelten die Vorrausseztungen des Satzes von [Peano](Analysis/Peano.md).
 
-> [!satz] **S1 - PILÖ)** Satz von Picard-Lindelöf
+> [!satz] **S1 - PILF)** Satz von Picard-Lindelöf ^PILF
 > **(a)** Erfülle $f$ eine Lipschitzbedingung bzgl. $x$, das heißt, es gibt ein $L \geq 0$, sodass
 > 
 > $$

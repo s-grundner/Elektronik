@@ -15,11 +15,17 @@ cited:
 
 # Zweipol
 
-[Duale Netzwerke – Wikipedia](https://de.wikipedia.org/wiki/Duale_Netzwerke)
-
 ## Duale Zweipole
 
 - Zwei Zweipole sind zueinander dual wenn der $u$-$i$-Zusammenhang bei wechselseitiger Vertauschung von Strom und Spannung erhalten bleibt
+
+| Widerstand  | Induktivität | Reaktanz | Impedanz | Spannungsquelle |
+| :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
+| ![](assets/R.png) | ![](assets/L.png) | ![](assets/X.png) | ![](assets/Z.png) | ![](assets/U.png) |
+| ![](assets/G.png) | ![](assets/C.png) | ![](assets/B.png) | ![](assets/Y.png) | ![](assets/I.png) |
+| Leitwert | Kapazität | Suszeptanz | Admittanz | Stromquelle |
+
+
 
 >[!example] $L$ und $C$ sind zueinander dual
 > d.h. wenn wir die Vertauschungen $u \rightarrow i, i \rightarrow u$ und $L \rightarrow C$ durchführen, wird aus $u=L \frac{\mathrm{d}i}{\mathrm{d}t}$ die Beziehung $i=C \frac{\mathrm{d}u}{\mathrm{d}t}$
@@ -31,3 +37,6 @@ cited:
 
 Serienschwingkreis $\iff$ Paralleschwingkreis
 
+---
+
+[Duale Netzwerke – Wikipedia](https://de.wikipedia.org/wiki/Duale_Netzwerke)

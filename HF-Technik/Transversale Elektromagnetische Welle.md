@@ -16,6 +16,16 @@ created: 28th November 2022
 - Bildet sich als geführte Welle z. B. zwischen Außen und Innenleiter eines verlustlosen Koaxialkabels aus.
 - Auch die ebene Welle ist ein Beispiel für TEM-Wellen.
 
+## TEM-Leitungen
+
+Für TEM-Leitungen gilt:
+
+$$
+\mathbf{E}=(E_{x},E_{y},0), \quad \mathbf{H}=(H_{x},H_{y},0)
+$$
+
+Die Wellengrößen zeigen normal zur Ausbreitungsrichtung. Die Richtung in die sich die Energie bewegt ist mit dem Poynting-Vektor gegeben: $\mathbf{S} = \mathbf{E}\times \mathbf{H} = (0,0,S_{z})$
+
 ![](assets/TEMMode.png)
 
 ---

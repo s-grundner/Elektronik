@@ -1,8 +1,6 @@
 ---
 tags: 
-aliases:
-  - D'Alembertsche Gleichung
-  - D'Alembert
+aliases: []
 keywords: 
 subject:
   - VL
@@ -30,6 +28,10 @@ $$
 Erweitert auf eine Allgemeine Dimension $n$:
 
 $$
-\frac{\partial^{2}u}{\partial t^{2}}=c^{2}\cdot \left(\frac{\partial^2 u}{\partial x_1^2}+\frac{\partial^2 u}{\partial x_2^2}+\cdots+\frac{\partial^2 u}{\partial x_n^2}\right)
+\frac{\partial^{2}u}{\partial t^{2}}=c^{2}\cdot \left(\frac{\partial^2 u}{\partial x_1^2}+\frac{\partial^2 u}{\partial x_2^2}+\cdots+\frac{\partial^2 u}{\partial x_n^2}\right)  = c^{2}\Delta u
+$$
+Auch in der Schreibweise: 
+$$
+u_{tt} = c^{2}u_{xx} = f(x,t)
 $$
 

@@ -3,6 +3,7 @@ tags:
   - E-Feld
 aliases:
   - Coulomb-Kraft
+  - Coulombsches Gesetz
 keywords: 
 subject:
   - Einführung Elektrotechnik

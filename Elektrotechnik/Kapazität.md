@@ -115,9 +115,9 @@ $$
 > Die Spannung an einer Kapazität kann sich nicht sprunghaft ändern, da eine solche Änderung auch einen Sprung in der gespeicherten Energie $W$ bedeuten würde.
 > Um einen solchen zu realisieren, müsste zum Zeitpunkt des Sprungs vom angeschlossenen Netzwerk unendliche Leistung $p(t)=d W / d t$ geliefert oder aufgenommen werden.
 
-### [Geometrie](Geometrie.md)
+### Geometrie
 
-- Plattenkondensator
+- [Plattenkondensator](../HF-Technik/Parallelplattenleitung.md)
 - Zylinderkondensator
 - Drehkondensator
 - Vielschichtkondensator
@@ -130,8 +130,6 @@ Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - TALKO - Tantal Elektrolytkondensator
 
 # Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
-
-> [!summary] Video 6. 30 min
 
 ## Idealer Kondensator
 

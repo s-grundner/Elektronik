@@ -5,9 +5,7 @@ keywords:
 subject:
   - VL
   - Elektrotechnik
-semester:
-  - WS23
-  - B1
+semester: WS23
 created: 18. April 2023
 professor: 
 cited:
@@ -18,17 +16,21 @@ cited:
 
 $$
 \begin{align}
-Z = R+jX\\
-Y = G+jB
+\underline{ Z } = R+jX\\
+\underline{ Y } = G+jB
 \end{align}
 $$
 
-| $Z$ | *Impedanz* <br> Scheinwiderstand | $\uparrow^{-1}$ | $Y$ | *Admittanz* <br> Scheinleitwert |
-| --- | -------------------------------- | --------------- | --- | ------------------------------- |
-| $R$ | *[Resistanz](Ohmsches%20Gesetz.md)* <br> Wirkwiderstand  | $\uparrow^{-1}$ | $G$ | *Konduktanz* <br> Wirkleitwert  |
-| $X$ | *Reaktanz*  <br> Blindwiderstand | $\uparrow^{-1}$ | $B$ | *Suszeptanz* <br> Blindleitwert |
+|                   |                                                         |    Dualität     |                                 |                   |
+| :---------------- | :------------------------------------------------------ | :-------------: | ------------------------------: | ----------------: |
+| $\underline{ Z }$ | *Impedanz* <br> Scheinwiderstand                        | $\uparrow^{-1}$ | *Admittanz* <br> Scheinleitwert | $\underline{ Y }$ |
+| $R$               | *[Resistanz](Ohmsches%20Gesetz.md)* <br> Wirkwiderstand | $\uparrow^{-1}$ |  *Konduktanz* <br> Wirkleitwert |               $G$ |
+| $X$               | *Reaktanz*  <br> Blindwiderstand                        | $\uparrow^{-1}$ | *Suszeptanz* <br> Blindleitwert |               $B$ |
 
-Für Berechnungen gilt: $Z=\frac{Z_{Z}}{Z_{N}}$ -> $\mid Z\mid=\frac{\mid Z_{Z}\mid}{\mid Z_{N}\mid}$
+$\underline{ Z }$ und $\underline{Y}$ sind Komplexe größen, $X,G$ **nicht**. Darauf achten, dass das $\jmath$ nicht vergessen wird
+
+> [!hint] Für Berechnungen gilt:
+> $\underline{ Z }=\dfrac{\underline{ Z }_{Z}}{\underline{ Z }_{N}} \to\lvert \underline{ Z } \rvert = \dfrac{\lvert \underline{ Z }_{Z} \rvert}{\lvert \underline{ Z }_{N} \rvert}$
 
 ## Bauelemente
 
@@ -41,14 +43,11 @@ Für Berechnungen gilt: $Z=\frac{Z_{Z}}{Z_{N}}$ -> $\mid Z\mid=\frac{\mid Z_{Z}\
 # Tags
 
 > [!info] Warum werden $50\Omega$ oft benutzt
-> - Impedanz mit der besten Empfangsleitung: $77\Omega$
-> - Impedanz mit der besten Sendeleisung: $33\Omega$
+> - Impedanz mit der besten Empfangsleistung: $77\Omega$
+> - Impedanz mit der besten Sendeleistung: $33\Omega$
 > 
 > MIttelwert ist $50\Omega$
 
 - [Impedanz Anpassung](Impedanz%20Anpassung.md)
-- [Kettenmatrix](../Hardwareentwicklung/Kettenmatrix.md)
-- [Induktivitäten](Induktivitäten.md)
-- [Kapazität](Kapazität.md)
 
 ![How to Achieve Proper Grounding - Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)

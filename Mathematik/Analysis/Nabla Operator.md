@@ -70,7 +70,7 @@ Dabei muss man die Produktregel anwenden, wenn der Nabla-Operator links von eine
 > |$\nabla(\boldsymbol{A} \cdot \boldsymbol{B}) = (\boldsymbol{A} \cdot \nabla) \boldsymbol{B} + (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} + \boldsymbol{A} \times (\nabla \times \boldsymbol{B}) + \boldsymbol{B} \times (\nabla \times \boldsymbol{A})$|Produktregel für das Skalarprodukt zweier Vektorfelder|
 > |$\nabla \cdot (\varphi \boldsymbol{A}) = \varphi \nabla \cdot \boldsymbol{A} + \boldsymbol{A} \cdot \nabla \varphi$|Produktregel für die Divergenz|
 > |$\nabla \cdot (\boldsymbol{A} \times \boldsymbol{B}) = \boldsymbol{B} \cdot (\nabla \times \boldsymbol{A}) - \boldsymbol{A} \cdot (\nabla \times \boldsymbol{B})$|Divergenz des Kreuzprodukts|
-> |$\nabla \cdot (\nabla \varphi) = \Delta \varphi$|Divergenz des Gradienten (Laplace-Operator)|
+> |$\nabla \cdot (\nabla \varphi) = \Delta \varphi$|Divergenz des Gradienten ([Laplace Operator](Laplace%20Operator.md))|
 > |$\nabla \cdot (\nabla \times \boldsymbol{A}) = 0$|Divergenz des Rotationsoperators|
 > |$\nabla \times (\nabla \varphi) = 0$|Rotation des Gradienten|
 > |$\nabla \times (\varphi \boldsymbol{A}) = \varphi \nabla \times \boldsymbol{A} - \boldsymbol{A} \times \nabla \varphi$|Rotation eines Produkts mit Skalarfeld|

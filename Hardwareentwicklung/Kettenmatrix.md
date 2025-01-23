@@ -2,8 +2,6 @@
 tags: 
 aliases:
   - Kettenmatrizen
-  - Impedanzmatrix
-  - Admittanzmatrix
 subject:
   - hwe
 source:
@@ -11,7 +9,7 @@ source:
 created: 14th November 2022
 ---
 
-# Ketten[matrix](Matrix.md)
+# Kettenmatrix
 
 $$
 \begin{pmatrix}
@@ -37,70 +35,10 @@ $$
 \end{align*}
 $$
 
-# [Impedanz](../Elektrotechnik/Impedanz.md)[matrix](Matrix.md)
+# Related
 
-$\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$  
-$\underline{U}_{2}= \underline{I}_{1}\cdot\underline{Z}_{21}+\underline{I}_{2}\cdot\underline{Z}_{22}$
-
-Als [Matrix](Matrix.md): (Zeile $\cdot$ Spalte)
-
-$$
-\begin{pmatrix}
-    \underline{U}_{1} \\ 
-    \underline{U}_{2}
-\end{pmatrix}
-=
-\begin{pmatrix}
-    \underline{Z}_{11} & \underline{Z}_{12} \\
-    \underline{Z}_{21} & \underline{Z}_{22}
-\end{pmatrix}
-\cdot
-\begin{pmatrix}
-    \underline{I}_{1} \\ 
-    \underline{I}_{2}
-\end{pmatrix}
-\\
-$$
-
-$$
-\mathbb{U} = \mathbb{Z} \cdot \mathbb{I}
-$$
-
-| $\underline{Z}_{11}$ | Leerlauf Eingangswiderstand     |
-| -------------------- | ------------------------------- |
-| $\underline{Z}_{12}$ | Leerlauf Rückwirkunswiderstand  |
-| $\underline{Z}_{21}$ | Leerlauf Übertragungswiderstand |
-| $\underline{Z}_{22}$ | Leerlauf Ausgangswiderstand     |
-
-# [Admittanz](../Elektrotechnik/Impedanz.md)[matrix](Matrix.md)
-
-$\underline{I}_{1}= \underline{U}_{1}\cdot\underline{Y}_{11}+\underline{U}_{2}\cdot\underline{Y}_{12}$  
-$\underline{I}_{2}= \underline{U}_{1}\cdot\underline{Y}_{21}+\underline{U}_{2}\cdot\underline{Y}_{22}$
-
-Als [Matrix](Matrix.md): (Zeile $\cdot$ Spalte)
-
-$$
-\begin{pmatrix}
-    \underline{I}_{1} \\ 
-    \underline{I}_{2}
-\end{pmatrix}
-=
-\begin{pmatrix}
-    \underline{Y}_{11} & \underline{Y}_{12} \\
-    \underline{Y}_{21} & \underline{Y}_{22}
-\end{pmatrix}
-\cdot
-\begin{pmatrix}
-    \underline{U}_{1} \\ 
-    \underline{U}_{2}
-\end{pmatrix}
-\\
-$$
-
-$$
-\mathbf{I} = \mathbf{Y} \cdot \mathbf{U}
-$$
-
-# Quellen
+- [Vierpoltheorie](Vierpol.md)
+- [Impedanzmatrix](Impedanzmatrix.md)
+- [Admittanzmatrix](Admittanzmatrix.md)
 
 ![](https://www.youtube.com/watch?v=myrRbPjirLk)

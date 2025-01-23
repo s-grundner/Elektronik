@@ -14,10 +14,12 @@ Beschreibt, wie stark das Resonanzverhalten ausgeprägt ist.
 - Güte der [Spule](../../Elektrotechnik/Induktivitäten.md): geringer Serienwiderstand $\to$ hohe Güte
 
 > [!hint] Bauelement mit der geringsten Güte dominiert die Gesamtgüte.
+> Gute Dielektrika sind in Echt leichter zu realisieren als ein geringer Serienwiderstand in einem Draht.
+> Spulen beeinflussen daher die Güte am meisten und werden deshalb vermieden, wo es möglich ist.
 
 ## Güte in Schwingkreisen
 
-| Serienschwingkreis | Parallelschwingkreis |
+| [Serienschwingkreis](../../Elektrotechnik/Serienschwingkreis.md) | [Parallelschwingkreis](../../Elektrotechnik/Parallelschwingkreis.md) |
 | :---: | :---: |
 | $Q=\frac{\omega_r L}{R}=\frac{1}{R} \sqrt{\frac{L}{C}}$ | $Q=\frac{1}{\omega_{\mathrm{r}} L G}=\frac{1}{G} \sqrt{\frac{C}{L}}$ |
 | $Q=\frac{1}{\omega_{\mathrm{r}} C R}=\frac{1}{R} \sqrt{\frac{L}{C}}$ | $Q=\frac{\omega_{\mathrm{r}} C}{G}=\frac{1}{G} \sqrt{\frac{C}{L}}$ |

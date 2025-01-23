@@ -68,9 +68,9 @@ $$
 \end{pmatrix}
 $$
 
-## [Zweitor](../Hardwareentwicklung/Zweitor.md) Gleichungen
+## [Vierpol](../Hardwareentwicklung/Vierpol.md) Gleichungen
 
-Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Zweitor](../Hardwareentwicklung/Zweitor.md) -> 4 S-Parameter.
+Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Vierpol](../Hardwareentwicklung/Vierpol.md) -> 4 S-Parameter.
 
 - ==$a_{1}$== ist die am *Tor 1* einlaufende Welle
 - ==$a_{2}$== ist dei am *Tor 2* einlaufende Welle
@@ -95,7 +95,7 @@ $$
 \end{pmatrix}
 $$
 
-### Darstellung der S-Parameter an einem [Zweitor](../Hardwareentwicklung/Zweitor.md)
+### Darstellung der S-Parameter an einem [Vierpol](../Hardwareentwicklung/Vierpol.md)
 
 ![Zweitor](assets/Zweitor.png)
 
@@ -110,7 +110,7 @@ $$
 
 ### [](../Hardwareentwicklung/Kettenmatrix.md#Impedanz%20Matrixrechnung%20Matrix|Impedanz%20Matrix)
 
-Standard [Zweitor](../Hardwareentwicklung/Zweitor.md)
+Standard [Vierpol](../Hardwareentwicklung/Vierpol.md)
 
 > [!EXAMPLE] T-Gleid
 

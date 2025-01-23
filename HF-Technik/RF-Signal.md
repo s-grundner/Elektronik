@@ -21,14 +21,13 @@ professor:
 > - Ist die Leitungslänge viel größer als die Wellenlänge ist spricht man von einem RF-Signal
 
 > [!success] Besonderheiten bei RF-Signalen
-> - [Eingangsimpedanz](Eingangsimpedanz.md) muss beachtet werden.
->     - Leitungen auf denen RF-Signale übertragen werden müssen als [Transmission Lines](Transmission%20Line.md) (TLs) behandelt werden.
-> - Auf einer [TL](Transmission%20Line.md) müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigtwerden
->     - Abhängig vom [Leiter](../../../Physik/Materialkunde/{MOC}%20Materialkunde.md#Leiter)
->     - In [Dielektrika](../../../Physik/Materialkunde/{MOC}%20Materialkunde.md#Substrate) wandert das Signal unterschiedlich schnell
->     - RF Signale breiten sich nicht nur auf Leitern aus sondern auch in Substraten aus (in allen achsen xyz)
+> - Leitungen auf denen RF-Signale übertragen werden, müssen als [Transmission Lines](Transmission%20Line.md) (TLs) behandelt werden.
+> - Auf einer TL müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigt werden
+> - RF Signale breiten sich nicht nur auf Leitern, sondern auch in [Substraten / Dielektrika](../Physik/Materialkunde/{MOC}%20Materialkunde.md#Substrate)  aus
+>     - in allen achsen xyz $\to$ Freiraumausbreitung
+> - In unterschiedlichen Substraten / Dielektrika wandert das Signal unterschiedlich schnell
 
-> [!warning] Variation über ort und zeit
+> [!warning] Variation des Signals über Ort und Zeit - [**Welle** ](../Mathematik/Wellengleichung.md)
 >![invert_dark|1000](assets/RF-sign.svg)
 
 ## Frequenz vs. Leitungslänge

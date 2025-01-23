@@ -1,10 +1,10 @@
-<%* let lva = await tp.user.get_lva().ws24(tp) _%>
+<%* let lva = await tp.user.get_lva().ss24(tp) _%>
 
 ---
 tags: NOTES
 subject:
   - <%* tR += lva %>
-semester: WS24
+semester: SS24
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
 done:
@@ -36,5 +36,5 @@ AND contains(subject, "UE")
 AND !contains(file.name, "jku_header")
 AND !contains(file.name, "{NOTES}")
 AND !contains(file.folder, "Rubbish")
-SORT file.name ASC
+SORT number(file.name) ASC
 ```

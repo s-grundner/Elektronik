@@ -50,6 +50,7 @@
     "due": "datetime",
     "show_all_semesters": "checkbox",
     "def": "multitext",
-    "satz": "multitext"
+    "satz": "multitext",
+    "grade": "number"
   }
 }

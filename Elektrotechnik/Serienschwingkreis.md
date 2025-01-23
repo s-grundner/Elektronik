@@ -21,28 +21,28 @@ cited:
 
 ## Resonanz
 
-> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal
-> das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
-> Die Frequenz welche diese Bedingung erfüllt, heißt Resonanzfrequenz.
-
-Resonanzkreisfrequenz:
-
-$$
-\begin{align}
-\omega_{r}L-\frac{1}{\omega_{r}C} = 0 \\
-\omega_{r}^{2}LC-1 = 0 \\
-\omega_{r} = \frac{1}{\sqrt{ LC }}
-\end{align}
-$$
+> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal (files::[📈Mathematica Notebook](../Hardwareentwicklung/Simulationen/SerienSK_Impedanz.nb))
+> ![InlineR|300](assets/ImpSSK.png) das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
+> 
+> Die Frequenz welche diese Bedingung erfüllt, heißt **Resonanzfrequenz**.
+> 
+> Resonanzkreisfrequenz $\omega_{r}$:
+> 
+> $$
+> \omega_{r}L-\frac{1}{\omega_{r}C} = 0 \quad\implies\quad
+> \omega_{r}^{2}LC-1 = 0 \quad\implies\quad
+> \boxed{ \omega_{r} = \frac{1}{\sqrt{ LC }} }
+> $$
+> 
 
 ## Zeiger Diagramm
 
-|                      $\underline{Z}$-Zeigerdiagramm                       |                $U$-$I$-Zeigerdiagramm                |
-|:-------------------------------------------------------------------------:|:----------------------------------------------------:|
-|                  ![invert_dark](assets/ZZeigerDiag.png)                   |       ![invert_dark](assets/UIZeigerDiag.png)        |
-|                  Die Impedanz-Zeiger rotieren **nicht**                   |       Momentaufnahme des roteierenden Zeigers        |
+|                      $\underline{Z}$-Zeigerdiagramm                       |                                                          $U$-$I$-Zeigerdiagramm                                                          |
+| :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+|                  ![invert_dark](assets/ZZeigerDiag.png)                   |                                                 ![invert_dark](assets/UIZeigerDiag.png)                                                  |
+|                  Die Impedanz-Zeiger rotieren **nicht**                   |                                                 Momentaufnahme des roteierenden Zeigers                                                  |
 | Die Zeiger können **nicht** beliebig in das Diagramm eingezeichnet werden | Die Zeiger können beliebig gedreht gezeichnet werden. <br>(Wir Zeichnen sie, sodass ein Zeigerauf der Realen Achse liegt -> Einfachheit) |
-|                              Absoluter Winkel von Bedeutung                          |                   Relative Winkel von Bedeutung                    |
+|                      Absoluter Winkel von Bedeutung                       |                                                      Relative Winkel von Bedeutung                                                       |
 
 > [!question] Überlegungen zum Zeigerdiagramm
 > - Wie sieht das Zeigerdiagramm beim Resonanzfall aus
@@ -50,11 +50,31 @@ $$
 
 ## Ortskurve
 
-![invert_dark](assets/Ortskurve_SSK.png)
+![600](assets/Ortskurve_SSK.png)
 
 $$
 Z = R + j\omega L + \frac{1}{j\omega C}
 $$
+
+## Güte
+
+Die Güte ist eine Dimensinslose Größe die Aussagt, wie stark das Resonzverhalten Augeprägt ist.
+
+$$
+Q=2 \pi \frac{\text { maximal gespeicherte Energie }}{\text { in einer Periode dissipierte Energie }}
+$$
+- Wir betrachten die Güte bei Resonanzfrequenz
+- Maximal gespeicherte Energie ist die Summe der In $L$ und $C$ gespeicherten Energie
+- Die dissipierte Energie ist über die Leistung an $R$ über eine Periode zu Integrieren
+
+**Gespeicherte Energie:**
+
+Spule:
+$$W_{L}=\frac{L \hat{\imath}^{2}(t)}{2}= \frac{L}{2}(I\sqrt{2}\cos(\omega t))^{2} \overset{ (*)}{ = } \frac{LI^{2}}{2}(1+\cos(2\omega t))$$
+- $(*)$: [TRIG S3](../Mathematik/Trigonometrische%20Funktionen.md#Doppelwinkel) - Doppelwinkel: $2\cos ^{2}(\varphi)=1+\cos(2\omega t)\iff \cos ^{2}(\varphi)=\frac{1}{2}(1+\cos(2\omega t))$
+- $I$ ist der Effektivwert, deshalb mit $\sqrt{ 2 }$ Multipizieren
+
+![700](assets/Serienschwingkreis%202025-01-16%2001.35.02.excalidraw.md)
 
 # Freie Schwingungen im realen Serienschwingkreis
 
@@ -72,12 +92,12 @@ Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, 
 |                                   | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |
 
 $$
-\begin{align*}
-	u_{R}+u_{L}+u_{C} &= 0\\
-	i\cdot R+L\cdot \frac{di}{dt}+u_{C} &= 0\\
-	R\cdot C\cdot \frac{du_{c}}{dt}+L\cdot C\cdot \frac{d^{2}u}{dt^{2}} + u_{C} &= 0 \Big|:LC\\
-	\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot \frac{R}{L}+u_{c}\cdot \frac{1}{LC} &= 0\\
-\end{align*}
+\begin{align}
+u_{R}+u_{L}+u_{C} &= 0\\
+i\cdot R+L\cdot \frac{di}{dt}+u_{C} &= 0\\
+R\cdot C\cdot \frac{du_{c}}{dt}+L\cdot C\cdot \frac{d^{2}u}{dt^{2}} + u_{C} &= 0\quad\Big| : LC\\
+\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot \frac{R}{L}+u_{c}\cdot \frac{1}{LC} &= 0\\
+\end{align}
 $$
 
 >[!summary] $$\frac{d^{2}u_{c}}{dt^{2}}+ \frac{du_{c}}{dt}\cdot 2\delta+u_{c}\cdot \omega^{2}_{0} = 0$$
@@ -142,13 +162,10 @@ Bei einem erzwungenen [Schwingkreis](Schwingkreise.md) liegt am Eingang eine bel
 
 $$
 \begin{align*}
-	u_{R}+u_{L}+u_{C}&=U_{e}\\
-	
-	R\cdot i + L\cdot\frac{di}{dt} + u_{C}&=U_{e}\\
-	
-	R\cdot C\cdot\frac{du_{c}}{dt} + L\cdot C\cdot \frac{d^{2}u}{dt^{2}} + u_{C} &= U_{e} \Big| :LC\\
-	
-	\frac{d^{2}u}{dt^{2}} +\frac{R}{L}\cdot\frac{du_{c}}{dt} + \frac{1}{LC}\cdot u_{C} &= \frac{U_{e}}{LC}\\
+u_{R}+u_{L}+u_{C}&=U_{e}\\
+R\cdot i + L\cdot\frac{di}{dt} + u_{C}&=U_{e}\\
+R\cdot C\cdot\frac{du_{c}}{dt} + L\cdot C\cdot \frac{d^{2}u}{dt^{2}} + u_{C} &= U_{e} \Big| :LC\\
+\frac{d^{2}u}{dt^{2}} +\frac{R}{L}\cdot\frac{du_{c}}{dt} + \frac{1}{LC}\cdot u_{C} &= \frac{U_{e}}{LC}\\
 \end{align*}
 $$
 
@@ -232,7 +249,7 @@ $$
 \end{align*}
 $$
 
-### Frequenzgang der Amplitude:
+### Frequenzgang der Amplitude
 
 Die Amplitude ist maximal, wenn der Ausdruck unter der Wurzel minimal ist. $d$ ist der Ausdruck unter der Wurzel.
 

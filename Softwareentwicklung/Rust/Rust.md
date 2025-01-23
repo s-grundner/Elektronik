@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Rust
 aliases: 
 created: 2. August 2024
 cited:
@@ -20,10 +21,16 @@ fn main() {
 - crate
 - rust-syntax
 
-# Embedded Rust
+## Ownership, Borrowing und Referenzen
 
-Test Device: **STM32f405CCU6**
-Core: **ARM Cortex M4 mit FPU**
-Architecture: **Armv7E-M**
+> [!ques] Anstatt eines Garbage Collectors, verwendet Rust das Konzept von Ownership, Borrowing und Referenzen.
+> - **Ownership**: Jede Variable hat einen Wert und nur diese Varaible ist der Besitzer dieses Wertes
+> - **Borrowing**: Werte können temporär ausgeliehen werden.
+> - **Referenzen**: Referenzen sind Zeiger auf Werte.
 
-## Cross compiling
+### Ownership
+
+> [!important] **Ownership Rules**
+> 1. Jeder Wert hat einen *Besitzer*
+> 2. Es kann nur *einen* Besitzer geben
+> 3. Wenn der Owner das *Scope* verlässt, wird der Wert *gelöscht*

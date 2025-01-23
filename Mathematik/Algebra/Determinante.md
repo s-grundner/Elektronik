@@ -35,18 +35,31 @@ professor:
 > $$\det A:=\sum_{i=1}^{n} (-1)^{i+1}a_{i 1}\cdot\det A_{i 1}$$
 >
 > wobei $A_{ij} \in \mathbb{R}^{(n-1)\times(n-1)}$ jene [Matrix](Matrix.md) bezeichnet, die aus $A$ durch Streichen der $i$-ten Zeile und der $j$-ten Spalte hervorgeht. siehe Laplace-Entwicklungssatz.
+> 
+> Die Determinante ist außerdem das Produkt der Eigenwerte seiner Matrix:
+> $$\det A=\prod^{n}_{i=1}\lambda_{i}$$
+> 
 
 ## Bedeutung der Determinante
 
 Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
 
-Haben zwei Matrizen die selbe Determinante heißen sie **ähnlich** und
+- Haben zwei Matrizen die selbe Determinante heißen sie **ähnlich**.
 
 > [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
 > Eine Inverse der Transformation ist daher nicht bildbar, da man aus einer niedrigeren Dimension nicht auf eine eindeutige Lösung in einer höheren Dimension kommt.
+> - Matrix ist nicht invertierbar
+> - [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) ist nicht eindeutig lösbar
+> - Mindestens ein [Eigenwert](../Analysis/Eigenvektor.md) ist 0.
+> - [Matrix](Matrix.md) ist singulär
 
 > [!info] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
-> ![|425](Pasted%20image%2020240224211204.png)
+>  ![InlineR|325](assets/spooder.png)Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
+> 
+> $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
+> 
+> $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
+> 
 
 ## $n=1$: $A \in \mathbb{R}^{1\times 1}$
 
@@ -119,10 +132,10 @@ $$
 \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
 $$
 
-## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $I_n$
+## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
 
 $$
-\operatorname{det}\left(E_n\right)=1 \text {. }
+\operatorname{det}\left(\mathbb{1}_n\right)=1 \text {. }
 $$
 
 # Tags

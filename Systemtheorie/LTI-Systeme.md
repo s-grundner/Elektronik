@@ -3,14 +3,19 @@ tags:
 aliases:
   - LTI-System
   - LTI-Systemen
+  - lineare Netzwerke
 keywords: 
 subject:
   - VL
   - Signale und Systeme
-semester: WS24
-created: 9. Oktober 2024
+  - Elektrotechnik
+semester:
+  - SS24
+  - B2
+created: 4. März 2024
 professor:
   - Andreas Stelzer
+  - Andreas Springer
 ---
 
 # LTI-Systeme
@@ -58,4 +63,3 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 > 
 
 ![](assets/Pasted%20image%2020241120155809.png)
-

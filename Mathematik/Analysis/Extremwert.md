@@ -32,7 +32,7 @@ cited:
 Für den Allgemeinen Fall für Funktionen beliebiger Dimenion $A \in \mathbb{R}^{n}$.
 Es gilt dass $f$ zwei mal Differnzierbar sein muss ($f\in C^{2}$)
 
-> [!info] **Satz:** Sei $A \subset \mathbb{R}^n$ offen, $f \in C^2(A)$ und $x_0 \in A$:
+> [!satz] **S1 - EXTR)** Sei $A \subset \mathbb{R}^n$ offen, $f \in C^2(A)$ und $x_0 \in A$:
 > $$\operatorname{grad} f\left(x_0\right)=0$$
 > Falls die Hessematrix $H_f\left(x_0\right)$ von $f$ an der Stelle $x_0$ *==positiv==* (**==negativ==**) definit ist, dann ist $x_0$ Stelle eines lokalen *==Minimums==* (**==Maximums==**) von $f$.
 > - [Definitheit](../Algebra/Definitheit.md) der Hessenmatrix

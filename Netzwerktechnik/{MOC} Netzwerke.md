@@ -15,7 +15,7 @@ source:
 
 # Map of Content - Netzwerke
 
-> siehe: [elektrische Netzwerke](../Elektrotechnik/Schaltungsanalyse.md) aus der [Schaltungsanalyse](../Elektrotechnik/Schaltungsanalyse.md)
+> siehe: [elektrische Netzwerke](../Elektrotechnik/Lineare%20Elektrische%20Netzwerke.md)
 
 ```dataview
 LIST FROM #Netzwerke 
@@ -25,7 +25,3 @@ SORT file.name ASC
 ---
 
 - [Netzwerktopologien](Netzwerktopologien.md)
-- [Paketbildung / Framing](Paketbildung%20/%20Framing)
-- [CSMA/CD](CSMA/CD)
-- [CSMA/CA](CSMA/CA)
-- [CRC Prüfsumme](CRC%20Pr%C3%BCfsumme)

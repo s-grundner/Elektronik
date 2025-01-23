@@ -21,8 +21,11 @@ def:
 Der Rotor ist ein Vektoroperator, der auf ein [Vektorfeld](Vektorfeld.md) im $\mathbb{R}^3$ angewendet wird.
 
 > [!warning] Nur im $\mathbb{R}^3$
-> Der Rotor eines Vektorfeldes liefert wiederum Vektorfeld, das die lokale Drehung des ursprünglichen Vektorfeldes beschreibt.
+> Der Rotor eines Vektorfeldes liefert wiederum ein Vektorfeld, das die lokale Drehung des ursprünglichen Vektorfeldes beschreibt.
+> - Die Richtung des Rotors ist Gerade zur Rotationsebene
+> - Die Magnitude des Rotors ist die Dichte des Wirbels
 
+![[assets/Rotor 2025-01-15 21.39.16.excalidraw]]
 
 > [!def] **D1 - ROT)** Der Rotor eines $\mathbb{R}^3$ Vektorfeldes $\mathbf{F} = (F_x, F_y, F_z)$ ist definiert als:
 > 
