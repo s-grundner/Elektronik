@@ -126,7 +126,6 @@ $$\boxed{ U_{e1} = -U_{e2} = \frac{U_{d}}{2} }$$
 | **Differenzverstärkung**                   | $A_{\mathrm{ed}}=\dfrac{u_{a 1}}{u_{e 1}-u_{e 2}} = \frac{u_{a 1}}{u_{d}}\implies u_{a 1}=A_{\mathrm{ed}}(u_{e 1}-u_{e 2})$ |
 | **Differenzen-**<br>**eingangswiderstand** | $r_{d}=\dfrac{u_{e 1}-u_{e 1}}{i_{B 1}}=\dfrac{u_{d}}{i_{B 1}}$                                                             |
 | **Ausgangswiderstand**                     | $r_{a}=\dfrac{u_{a 1}}{i_{a 1}}$                                                                                            |
-|                                            |                                                                                                                             |
 
 ### Gleichtakt-Aussteuerung
 
