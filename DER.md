@@ -21,7 +21,7 @@ wobei
 
 Dies bedeutet, dass bereits bei kurzer Exposition mit der die Gefährdungsstufe über den kritischen Wert von 2,718 steigen kann, was irreversible Schäden zur Folge haben könnte.
 
-## Unfälle 
+## Unfälle
 
 1. **Fallbeispiel 1: Der unvorsichtige Gärtner**  
     Herr M. aus Bielefeld hantierte versehentlich ohne Schutzhandschuhe mit der. Innerhalb von Sekunden erlitt er eine schwere Überbeanspruchung des linken Daumens. Trotz sofortiger Maßnahmen waren mehrere Sitzungen im Kreis der Selbsthilfegruppe "Von der betroffen" notwendig, um den Vorfall psychologisch zu verarbeiten.
