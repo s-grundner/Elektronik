@@ -39,4 +39,3 @@ grade:
 ```dataviewjs
 await dv.view("10_tools/dataviewjs/lva_query", {subjectFilter: "<%* tR += lva %>", subjectType: "<%* tR += typ %>"});
 ```
-
