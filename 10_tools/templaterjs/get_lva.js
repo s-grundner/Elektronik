@@ -38,7 +38,8 @@ async function ss25(tp) { // SS25
 async function ws25(tp) { // WS25
 	const lva = ["Wahrscheinlichkeitstheorie und stochastische Prozesse",
 		"Analoge Schaltungstechnik", "Elektrische Messtechnik und Sensorik",
-		"Übertragungstechnik", "Networked Embedded Systems", "Introduction to Linux"];
+		"Übertragungstechnik", "Networked Embedded Systems", "Introduction to Linux",
+		"Entwurf Integrierter Schaltungen "];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }
