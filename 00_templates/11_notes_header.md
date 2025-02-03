@@ -6,7 +6,7 @@
 
 ---
 banner: /assets/banner/JKU-Banner.jpg
-banner_y: 0
+banner_y: 0.5
 banner_x: 0.5
 tags:
   - BACHELOR
