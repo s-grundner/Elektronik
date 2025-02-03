@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Baugruppe/Versorgung/Stromquelle
 aliases: 
 keywords: 
 subject:
@@ -132,3 +133,6 @@ Der Transistor selbst ist natürlich keine Quelle. Er entnimmt lediglich den von
 
 ---
 
+## OPV als Stromquelle
+
+> [!success] Weiterführend: [OPV-Konstantstromquelle](OPV-Konstantstromquelle.md)

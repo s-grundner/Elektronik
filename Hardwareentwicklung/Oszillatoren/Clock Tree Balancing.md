@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/Oszillator"]
+tags: ["Baugruppe/Oszillator"]
 aliases: ["Clock-Tree-Balancing"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/Oszillator"]
+tags: ["Baugruppe/Oszillator"]
 aliases: []
 subject: ["dic"]
 source: ["Siegbert Schremof"]
@@ -8,9 +8,9 @@ created: 24th January 2023
 
 # Ringoszillator
 
-Ein Ringoszillator besteht aus einer in Reihe geschalteten Kette von Invertern. es gelten die [Barkhausen Kriterien](Barkhausen%20Kriterium.md).
+Ein Ringoszillator besteht aus einer in Reihe geschalteten Kette von Invertern. es gelten die [Barkhausen Kriterien](Oszillatoren.md).
 
-[BHK](Barkhausen%20Kriterium.md):
+[BHK](Oszillatoren.md):
 - open loop gain > 1
 - open loop phase shift: ungerades Vielfaches von $180\degree$
 

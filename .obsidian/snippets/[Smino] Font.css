@@ -1,0 +1,11 @@
+body.theme-dark.css-settings-manager {
+	--accent-strong: #FFC500;
+}
+
+span.cm-strong {
+	color: var(--accent-strong) !important
+}
+
+strong {
+	color: var(--accent-strong) !important
+}

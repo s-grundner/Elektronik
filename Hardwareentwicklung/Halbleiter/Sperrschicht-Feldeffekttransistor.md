@@ -1,7 +1,7 @@
 ---
 tags:
-  - Baugruppen/Schalter
-  - Baugruppen/Verstärker
+  - Baugruppe/Schalter
+  - Baugruppe/Verstärker
   - Halbleiter/FET
 aliases:
   - Sperrschicht-Feldeffekttransistoren

@@ -17,7 +17,7 @@
   "spellcheck": false,
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
-  "vimMode": true,
+  "vimMode": false,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "showInlineTitle": false,

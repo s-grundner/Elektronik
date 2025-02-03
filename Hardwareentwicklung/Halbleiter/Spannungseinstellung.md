@@ -26,13 +26,13 @@ professor:
 \ctikzset{bipoles/length=1cm}
 \ctikzset{transistors/scale=2}
 \begin{document}
-\begin{circuitikz}[thick, scale=2, transform shape]
+\begin{circuitikz}[very thick, scale=2, transform shape]
 \coordinate (g) at (0, -2);
 \coordinate (v) at (0, 2.5);
 \draw (0,0) node[npn](npn){};
 \draw (npn.C) to[R=$R_C$] (npn.C |- v) -- ++(2,0) coordinate(v0) to[V_=$U_0$] (g -| v0) node[rground]{};
 \draw (0,-0.5) to[short] (0,-2) node[rground]{};
-\draw (npn.B) -- ++(-1,0) coordinate(vbe) to[V_=$U_{BE,0}$] (g -| vbe) node[rground]{};
+\draw (npn.B) -- ++(-1,0) coordinate(vbe) to[V_=$U_{\mathrm{BE,0}}$] (g -| vbe) node[rground]{};
 
 \end{circuitikz}
 \end{document}

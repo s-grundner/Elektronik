@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Verstärker
+  - Baugruppe/Verstärker
 aliases: 
 created: 11. November 2023
 ---

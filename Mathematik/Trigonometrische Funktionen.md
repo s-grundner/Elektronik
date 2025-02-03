@@ -67,10 +67,10 @@ $$
 > [!satz] **S1 - TRIG)** Winkelsymmetriesätze
 > $$
 > \begin{aligned}
-> \sin (-x)= & -\sin x & \cos (-x) & =\cos x \\
-> \sin \left(x+\frac{\pi}{2}\right)= & \cos x & \cos \left(x+\frac{\pi}{2}\right) & =-\sin x \\
-> \sin (x+\pi)= & -\sin x & \cos (x+\pi) & =-\cos x \\
-> \sin (x+2 \pi)= & \sin x & \cos (x+2 \pi) & =\cos x \\
+> \sin (-x) & =  -\sin x & \cos (-x) & = \cos x \\
+> \sin \left(x+\frac{\pi}{2}\right) & = \cos x & \cos \left(x+\frac{\pi}{2}\right) & =-\sin x \\
+> \sin (x+\pi) & = -\sin x & \cos (x+\pi) & = -\cos x \\
+> \sin (x+2 \pi) & = \sin x & \cos (x+2 \pi) & = \cos x \\
 > \end{aligned}
 > $$
 

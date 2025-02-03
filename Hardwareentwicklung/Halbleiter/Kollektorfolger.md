@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Verstärker
+  - Baugruppe/Verstärker
   - Halbleiter/BJT
   - tikz/circuitikz
 aliases:

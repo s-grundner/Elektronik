@@ -1,15 +1,18 @@
 ---
 tags:
-  - Baugruppen/Oszillator
+  - Baugruppe/Oszillator
   - tikz/circuitikz
 aliases:
   - Colpitts
+keywords: 
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
-created: 22nd November 2022
+  - Einführung Elektronik
+  - VL
+semester: WS24
+created: 4. September 2023
+professor:
 ---
+
 
 # Colpitts Oszillator
 
@@ -78,6 +81,7 @@ $$
 
 ### Kapazitive 3-Punktschaltung
 
-Ein Teil der [Schwingkreis](../../Physik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.  
-[500](../assets/ColpittsCalc.png)  
-[Pasted image 20221128104421](../assets/ColpittsCalc2.png)
+Ein Teil der [Schwingkreis](../../Physik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
+
+![500](../assets/ColpittsCalc.png)  
+![Pasted image 20221128104421](../assets/ColpittsCalc2.png)

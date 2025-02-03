@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/SMPS"]
+tags: ["Baugruppe/Versorgung/SMPS"]
 aliases: ["Abwärtswandler", "Tiefsetzsteller", "Step-Down"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -179,4 +179,4 @@ Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Kompar
 
 ![Scott Nance Seminar](https://www.youtube.com/watch?v=gq-0ZpcGm8E)
 
-[Schaltnetzteil](Schaltnetzteil.md)
+[{MOC} Schaltnetzteil]({MOC}%20Schaltnetzteil.md)

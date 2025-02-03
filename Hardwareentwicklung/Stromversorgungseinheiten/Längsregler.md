@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Leistung
+  - Baugruppe/Versorgung
   - Halbleiter/BJT
 aliases:
   - Längstransistor

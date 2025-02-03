@@ -1,12 +1,12 @@
 ---
-tags: ["Baugruppen/SMPS"]
+tags: ["Baugruppe/Versorgung/SMPS"]
 aliases: ["Primär getakteter SMPS", "Primär getaktete SMPS"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 created: 2nd October 2022
 ---
 
-# Primär getakteter [Schaltregler](Schaltnetzteil.md)
+# Primär getakteter [Schaltregler]({MOC}%20Schaltnetzteil.md)
 
 ![PrimGetaktSMPS](../assets/PrimGetaktSMPS.png)
 

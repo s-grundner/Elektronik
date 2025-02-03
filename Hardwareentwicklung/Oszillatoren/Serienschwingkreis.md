@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Oszillator
+  - Baugruppe/Oszillator
 aliases:
   - Reihenschwingkreis
 keywords: 
@@ -21,7 +21,7 @@ cited:
 
 ## Resonanz
 
-> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal (files::[📈Mathematica Notebook](../Hardwareentwicklung/Simulationen/SerienSK_Impedanz.nb))
+> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal (files::[📈Mathematica Notebook](../Simulationen/SerienSK_Impedanz.nb))
 > ![InlineR|300](assets/ImpSSK.png) das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
 > 
 > Die Frequenz welche diese Bedingung erfüllt, heißt **Resonanzfrequenz**.
@@ -71,20 +71,20 @@ $$
 
 Spule:
 $$W_{L}=\frac{L \hat{\imath}^{2}(t)}{2}= \frac{L}{2}(I\sqrt{2}\cos(\omega t))^{2} \overset{ (*)}{ = } \frac{LI^{2}}{2}(1+\cos(2\omega t))$$
-- $(*)$: [TRIG S3](../Mathematik/Trigonometrische%20Funktionen.md#Doppelwinkel) - Doppelwinkel: $2\cos ^{2}(\varphi)=1+\cos(2\omega t)\iff \cos ^{2}(\varphi)=\frac{1}{2}(1+\cos(2\omega t))$
+- $(*)$: [TRIG S3](../../Mathematik/Trigonometrische%20Funktionen.md#Doppelwinkel) - Doppelwinkel: $2\cos ^{2}(\varphi)=1+\cos(2\omega t)\iff \cos ^{2}(\varphi)=\frac{1}{2}(1+\cos(2\omega t))$
 - $I$ ist der Effektivwert, deshalb mit $\sqrt{ 2 }$ Multipizieren
 
 ![700](assets/Serienschwingkreis%202025-01-16%2001.35.02.excalidraw.md)
 
 # Freie Schwingungen im realen Serienschwingkreis
 
-Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../Hardwareentwicklung/Filter%20und%20Verstärker/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
+Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../Filter%20und%20Verstärker/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
-![invert_dark|400](../Mathematik/assets/e_serien_schwingk_frei.png)
+![invert_dark|400](../../Mathematik/assets/e_serien_schwingk_frei.png)
 
 Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
-| Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensator](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstand](../Elektrotechnik/Impedanz.md) |
+| Einfluss der [Spule](../../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensator](../../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstand](../../Elektrotechnik/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$    | $u_{C}(0) = U_{0}$                           | $u_{R}=i(t)\cdot R$                    |
 |                                   | $q(t)=C\cdot u_{C}(t)$                       |                                        |
@@ -116,7 +116,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [DGL](../Mathematik/{MOC}%20DGL.md) die [charakteristische Gleichung](lineare%20DGL%202.%20Ordnung.md) erzeugen
+Nun kann man aus einer der [DGL](../../Mathematik/{MOC}%20DGL.md) die [charakteristische Gleichung](lineare%20DGL%202.%20Ordnung.md) erzeugen
 
 $$
 \begin{align*}
@@ -145,17 +145,17 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 | [Fall 2.](lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
 | [Fall 3.](lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
 
-![invert_dark|400](../Mathematik/assets/faelle_e_sk.png)
+![invert_dark|400](../../Mathematik/assets/faelle_e_sk.png)
 
-![Federpendel_verschiedene_Dämpfungen](../Mathematik/assets/Federpendel_verschiedene_Dämpfungen.gif)
+![Federpendel_verschiedene_Dämpfungen](../../Mathematik/assets/Federpendel_verschiedene_Dämpfungen.gif)
 
 # Erzwungene Schwingung im realen Serienschwingkreis
 
-![400](../Mathematik/assets/e_serien_schwingk_erzw.png)
+![400](../../Mathematik/assets/e_serien_schwingk_erzw.png)
 
 Bei einem erzwungenen [Schwingkreis](Schwingkreise.md) liegt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine Funktion der Spannung $U_{e}(t)$ an.
 
-| Einfluss der [Spule](../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensators](../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstands](../Elektrotechnik/Impedanz.md) |
+| Einfluss der [Spule](../../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensators](../../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstands](../../Elektrotechnik/Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$   | $i(t)=C\cdot\frac{du_{c}}{dt}$               | $u_{R}=i(t)\cdot R$                    |
 |                                  | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |
@@ -184,7 +184,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > [!EXAMPLE]  
 > Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
 > 
-> ![300](../Mathematik/assets/e_serien_schwingk_erzw.png)
+> ![300](../../Mathematik/assets/e_serien_schwingk_erzw.png)
 > 
 > Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$  
 > Um den eingeschwungenen Zustand zu definieren, wird zunächst $u_{h}$ - die homogene Lösung - ignoriert.
@@ -260,7 +260,7 @@ $$
 \end{align*}
 $$
 
-> [!NOTE] Das [globale Minimum](../Mathematik/{MOC}%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](../Mathematik/Analysis/Differenzialrechnung.md) ermittelt.
+> [!NOTE] Das [globale Minimum](../../Mathematik/{MOC}%20Kurvendiskussion.md) wird durch das Null setzen der [ersten Ableitung](../../Mathematik/Analysis/Differenzialrechnung.md) ermittelt.
 
 $$
 \begin{align*}
@@ -278,4 +278,4 @@ $$
 \end{align*}
 $$
 
- > ![invert_dark|700](../Mathematik/assets/frequ_gang_e_serien_schwingk.png)
+ > ![invert_dark|700](../../Mathematik/assets/frequ_gang_e_serien_schwingk.png)

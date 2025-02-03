@@ -19,7 +19,7 @@ Beschreibt, wie stark das Resonanzverhalten ausgeprägt ist.
 
 ## Güte in Schwingkreisen
 
-| [Serienschwingkreis](../../Elektrotechnik/Serienschwingkreis.md) | [Parallelschwingkreis](../../Elektrotechnik/Parallelschwingkreis.md) |
+| [Serienschwingkreis](../Oszillatoren/Serienschwingkreis.md) | [Parallelschwingkreis](../Oszillatoren/Parallelschwingkreis.md) |
 | :---: | :---: |
 | $Q=\frac{\omega_r L}{R}=\frac{1}{R} \sqrt{\frac{L}{C}}$ | $Q=\frac{1}{\omega_{\mathrm{r}} L G}=\frac{1}{G} \sqrt{\frac{C}{L}}$ |
 | $Q=\frac{1}{\omega_{\mathrm{r}} C R}=\frac{1}{R} \sqrt{\frac{L}{C}}$ | $Q=\frac{\omega_{\mathrm{r}} C}{G}=\frac{1}{G} \sqrt{\frac{C}{L}}$ |

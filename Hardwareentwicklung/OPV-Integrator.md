@@ -1,6 +1,6 @@
 ---
 tags:
-  - OPV
+  - Baugruppe/OPV
   - Mathematica
 aliases:
   - Integrator

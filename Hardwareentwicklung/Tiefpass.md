@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Filter
+  - Baugruppe/Filter
 aliases: 
 keywords: 
 subject:

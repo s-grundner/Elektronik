@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Oszillator
+  - Baugruppe/Oszillator
 aliases: 
 keywords: 
 subject:
@@ -17,8 +17,8 @@ cited:
 # Elektrische Schwingungen
 
 > [!info] elementare Schwingkreise
-> [Serienschwingkreis](Serienschwingkreis.md)
-> [Parallelschwingkreis](Parallelschwingkreis.md)
+> [Serienschwingkreis](../Hardwareentwicklung/Oszillatoren/Serienschwingkreis.md)
+> [Parallelschwingkreis](../Hardwareentwicklung/Oszillatoren/Parallelschwingkreis.md)
 
 ## Schwingkreise als duale Zweipole
 

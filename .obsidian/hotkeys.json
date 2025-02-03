@@ -113,14 +113,6 @@
       "key": "P"
     }
   ],
-  "obsidian-full-calendar:full-calendar-open": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Y"
-    }
-  ],
   "vim-toggle:toggle-vim": [
     {
       "modifiers": [],
@@ -249,6 +241,12 @@
         "Alt"
       ],
       "key": "A"
+    }
+  ],
+  "app:reload": [
+    {
+      "modifiers": [],
+      "key": "F5"
     }
   ]
 }

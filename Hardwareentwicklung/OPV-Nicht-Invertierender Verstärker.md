@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - Baugruppe/OPV
+  - Baugruppe/Verstärker
 aliases:
   - Nicht-Invertierender Verstärker
 keywords: 
@@ -11,4 +13,5 @@ created: 12. Dezember 2024
 professor:
 ---
  
+
 # Nicht-Invertierender Verstärker

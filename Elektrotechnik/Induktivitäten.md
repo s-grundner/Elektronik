@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Komponente
+  - Baugruppe/Komponente
 aliases:
   - Spule
   - Spulen

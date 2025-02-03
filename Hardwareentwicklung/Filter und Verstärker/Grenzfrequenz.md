@@ -1,7 +1,7 @@
 ---
 tags:
   - incomplete
-  - Baugruppen/Filter
+  - Baugruppe/Filter
 aliases: 
 created: 30th November 2022
 ---

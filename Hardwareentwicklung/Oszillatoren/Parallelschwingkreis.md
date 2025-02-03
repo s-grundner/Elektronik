@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Baugruppe/Oszillator
 aliases: 
 keywords: 
 subject:

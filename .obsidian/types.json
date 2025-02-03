@@ -51,6 +51,8 @@
     "show_all_semesters": "checkbox",
     "def": "multitext",
     "satz": "multitext",
-    "grade": "number"
+    "grade": "number",
+    "chapter": "number",
+    "banner_y": "number"
   }
 }

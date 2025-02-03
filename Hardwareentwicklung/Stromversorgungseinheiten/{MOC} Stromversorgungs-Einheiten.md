@@ -1,11 +1,9 @@
 ---
 tags:
   - MOC
-  - Baugruppen/Leistung
+  - Baugruppe/Versorgung
 aliases:
   - Netzteil
-  - Netzteile
-  - Netzteils
 subject:
   - hwe
 source:
@@ -19,11 +17,8 @@ Stromversorgungseinheiten (Netzteile) dienen zur Erzeugung der von elektrischen 
 
 # Arten Von Netzteilen
 
-## [Linearregler](Linearregler.md)
-
-![Netzteil_sch](../assets/Netzteil_sch.png)
-
-## [Schaltnetzteil](Schaltnetzteil.md)
+ - [Linearregler](Linearregler.md)
+ - [{MOC} Schaltnetzteil]({MOC}%20Schaltnetzteil.md)
 
 ---
 

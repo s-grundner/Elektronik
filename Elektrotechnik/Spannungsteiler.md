@@ -5,7 +5,6 @@ keywords:
 subject:
   - UE
   - VL
-  - PR
   - Einführung Elektrotechnik
 semester: WS23
 created: 3. März 2024

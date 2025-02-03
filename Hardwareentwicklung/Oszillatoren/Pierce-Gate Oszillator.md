@@ -1,5 +1,5 @@
 ---
-tags: ["MCU", "Baugruppen/Oszillator"]
+tags: ["MCU", "Baugruppe/Oszillator"]
 aliases: ["Pierce Gate Oszillator", "PGO"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

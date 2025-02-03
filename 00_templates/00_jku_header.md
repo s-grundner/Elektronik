@@ -1,11 +1,13 @@
+<%* const sem = "WS24" _%>
+
 ---
 tags: 
 aliases: 
 keywords: 
 subject:
-  - <% tp.user.get_lva().type(tp) %>
-  - <% tp.user.get_lva().ws24(tp) %>
-semester: WS24
+  - <%* tR += await tp.user.get_lva().sem(tp, sem) %>
+  - <%* tR += await tp.user.get_lva().type(tp) %>
+semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
 ---

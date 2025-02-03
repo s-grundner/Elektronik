@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/Oszillator"]
+tags: ["Baugruppe/Oszillator"]
 aliases: ["Wien-Brücke", "Wien Brücke"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -45,7 +45,7 @@ k= \dfrac{U_{a}}{U_{e}} &= \frac{\frac{1}{Y}}{Z+ \frac{1}{Y}}= \frac{1}{1+Z\cdot
 \end{align*}
 $$
 
->[!hint] [Barkhausen Kriterium](Barkhausen%20Kriterium.md)  
+>[!hint] [Oszillatoren](Oszillatoren.md)  
 > $k\cdot v = 1$  
 > $v = v_{0}= \dfrac{1}{k}=3+j\left(\omega\uptau- \dfrac{1}{\omega\uptau}\right)$  
 > für Resonanz $\rightarrow \mathcal{Im}\{v_{0}\}=0$

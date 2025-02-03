@@ -1,7 +1,7 @@
 ---
 tags:
   - DGL
-  - Baugruppen/Oszillator
+  - Baugruppe/Oszillator
 aliases:
   - Schwingkreis
   - Schwingungen

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Oszillator
+  - Baugruppe/Oszillator
 aliases:
   - Taktteiler
 subject:

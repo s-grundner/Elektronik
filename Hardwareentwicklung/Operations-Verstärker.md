@@ -1,9 +1,10 @@
 ---
 tags:
-  - OPV
-  - Baugruppen/Verstärker
+  - Baugruppe/OPV
+  - Baugruppe/Verstärker
 aliases:
   - OPV
+  - "#Baugruppe/OPV"
 subject:
   - hwe
 source:
@@ -19,15 +20,20 @@ created: 2nd January 2023
 > - Die Eingangsspannung $U_e$ wird immer invertiert, d.h. das Vorzeichen wird umgekehrt.
 > - Das Bauteil am Eingang Prägt den Strom in das Bauteil der Rückkopplung ein 
 
-- Nicht-Invertierender Verstärker
+```dataview
+TABLE FROM #Baugruppe/OPV
+```
+
+
 - Invertierender Verstärker
-- [Umkehrsummierer](OPV-Addierer.md) / Addierer
+- [Umkehrsummierer](OPV-Addierer.md)
 - [Subtrahierer](OPV-Subtrahierer.md)
 - Integrator ([Aktiver Tiefpass](Filter%20und%20Verstärker/Aktiver%20Filter.md))
 - Differenzierer ([Aktiver Hochpass](Filter%20und%20Verstärker/Aktiver%20Filter.md))
 - Instrumentenverstärker
 - [Schmitttrigger](Schmitt%20Trigger.md)
-- Konstantstromquelle
+- [OPV-Konstantstromquelle](OPV-Konstantstromquelle.md)
+- [Transimpedanz-Verstärker](Transimpedanz-Verstärker)
 
 ## Praxistipps
 
@@ -70,8 +76,6 @@ $f_T \quad \ldots$ Transitfrequenz, Frequenz bei $\operatorname{der}\left|A_D(f)
 
 # Quellen
 
-[uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf](https://www.uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf)
-
-![OPV](assets/pdf/OPV.pdf)
-
-![OPV Grundschaltungen](assets/pdf/OPV%20Grundschaltungen.pdf)
+- [uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf](https://www.uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf)
+- [HTL OPV](assets/pdf/OPV.pdf)
+- [HTL OPV Grundschaltungen](assets/pdf/OPV%20Grundschaltungen.pdf)

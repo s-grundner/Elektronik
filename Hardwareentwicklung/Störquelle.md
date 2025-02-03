@@ -26,7 +26,7 @@ Man unterscheidet wiederum;
 | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | Elektrostatische Entladungen ([ESD](ESD.md)) (z.B. Reibungselektrizität) | Vorhergesehene und unvorhergesehene elektromagnetische Vorgänge                   |
 | Atmosphärische Entladungen (Blitz)                                       | [Schaltvorgänge](Schaltvorgänge.md)                                               |
-| Nuklearer EM-Puls                                                        | [Schaltnetzteile](Stromversorgungseinheiten/Schaltnetzteil.md), Leuchtstoffröhren |
+| Nuklearer EM-Puls                                                        | [Schaltnetzteile](Stromversorgungseinheiten/{MOC}%20Schaltnetzteil.md), Leuchtstoffröhren |
 |                                                                          | Zündsysteme von Motoren                                                           |
 |                                                                          | Fernseh-/Radiosender, Mobilfunk                                                   |
 

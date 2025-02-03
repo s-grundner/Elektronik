@@ -1,1 +1,0 @@
-# Binom'scher Lehrsatz

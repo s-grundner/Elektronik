@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Filter
+  - Baugruppe/Filter
   - tikz/circuitikz
 aliases:
   - Tow-Thomas

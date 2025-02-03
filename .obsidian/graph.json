@@ -8,87 +8,45 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#MOC",
+      "query": "tag:#NOTES OR path:xPN OR path:xEDU OR path:xORG  ",
       "color": {
         "a": 1,
-        "rgb": 16777215
+        "rgb": 7924321
       }
     },
     {
-      "query": "path:Softwareentwicklung  ",
+      "query": "path:Softwareentwicklung OR path:Netzwerktechnik ",
       "color": {
         "a": 1,
-        "rgb": 16741120
+        "rgb": 14725458
       }
     },
     {
-      "query": "path:Hardwareentwicklung  ",
+      "query": "path:Digitaltechnik OR path:\"Technische Informatik\"  OR path:Systemtheorie  ",
       "color": {
         "a": 1,
-        "rgb": 2097095
+        "rgb": 5407200
       }
     },
     {
-      "query": "path:HF-Technik  ",
+      "query": "path:Hardwareentwicklung OR path:Manufacturing  ",
       "color": {
         "a": 1,
-        "rgb": 7667712
+        "rgb": 14701254
       }
     },
     {
-      "query": "path:Mathe  ",
+      "query": "path:Elektrotechnik OR path:Physik ",
       "color": {
         "a": 1,
-        "rgb": 16762880
+        "rgb": 14493479
       }
     },
     {
-      "query": "path:Messtechnik  ",
+      "query": "path:Mathematik OR path:HF-Technik  ",
       "color": {
         "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:physik",
-      "color": {
-        "a": 1,
-        "rgb": 13730041
-      }
-    },
-    {
-      "query": "path:chemie",
-      "color": {
-        "a": 1,
-        "rgb": 9576556
-      }
-    },
-    {
-      "query": "path:Netzwerktechnik ",
-      "color": {
-        "a": 1,
-        "rgb": 16711680
-      }
-    },
-    {
-      "query": "path:Digitaltechnik ",
-      "color": {
-        "a": 1,
-        "rgb": 31743
-      }
-    },
-    {
-      "query": "path:Elektrotechnik  ",
-      "color": {
-        "a": 1,
-        "rgb": 6150458
-      }
-    },
-    {
-      "query": "path:xPN  ",
-      "color": {
-        "a": 1,
-        "rgb": 5396192
+        "rgb": 5419488
       }
     }
   ],
@@ -96,12 +54,12 @@
   "showArrow": true,
   "textFadeMultiplier": -0.4,
   "nodeSizeMultiplier": 1.95644329896907,
-  "lineSizeMultiplier": 0.996649484536082,
+  "lineSizeMultiplier": 0.672715917201999,
   "collapse-forces": false,
   "centerStrength": 0.239690721649485,
   "repelStrength": 20,
   "linkStrength": 0.688144329896907,
   "linkDistance": 206,
-  "scale": 0.021528718442430286,
+  "scale": 0.02152871844243031,
   "close": false
 }

@@ -19,11 +19,3 @@ tp.file.rename("UE" + nr)
 > [!info] <%tp.file.cursor()%>
 
 ## Quizfragen
-
-> [!question] 
-> 
-> 
-?
-> > [!success]- Lösung
-> >
-

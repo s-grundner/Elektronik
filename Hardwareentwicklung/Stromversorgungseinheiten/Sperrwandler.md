@@ -1,7 +1,6 @@
 ---
 tags:
-  - Baugruppen/SMPS
-  - Baugruppen/Leistung
+  - Baugruppe/Versorgung/SMPS
 aliases:
   - Flyback-Converter
 subject:
@@ -24,7 +23,7 @@ $$
 U_{a}= U_{e}\cdot \frac{N_{2}}{N_{1}}\cdot \frac{t_{1}}{T-t_{1}} - U_{FO}
 $$
 
-### $0<t<t_{1}$:
+### $0<t<t_{1}$
 
 - $U_{DS}\approx 0$ (leitet)
 - $I_{1}$ steigt linear an
@@ -43,4 +42,4 @@ $$
 
 # Quellen
 
-![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/DigitalAnalogST/Schaltnetzteile_Schmidt-Walter.pdf)
+[Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/Schaltungstechnik/Schaltnetzteile_Schmidt-Walter.pdf)

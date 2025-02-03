@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Schalter
+  - Baugruppe/Schalter
   - Halbleiter
   - incomplete
 aliases:

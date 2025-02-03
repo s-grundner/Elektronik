@@ -1,6 +1,6 @@
 ---
 tags:
-  - OPV
+  - Baugruppe/OPV
   - tikz/circuitikz
 aliases:
   - OPV-Umkehrsummierer

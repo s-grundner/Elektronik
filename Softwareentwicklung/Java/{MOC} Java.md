@@ -6,7 +6,6 @@ tags:
 aliases:
   - Java  
 subject:
-  - ""  
 created: 5. September 2023  
 inst: HTBLuVA Salzburg  
 ---

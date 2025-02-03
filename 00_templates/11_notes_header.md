@@ -1,40 +1,42 @@
-<%* let lva = await tp.user.get_lva().ss24(tp) _%>
+<%* const semtype = ["WS23", "SS24", "WS24", "SS25", "WS25", "SS26"] _%>
+<%* let sem = await tp.system.suggester(semtype, semtype, true, "Semester")_%>
+<%* let lva = await tp.user.get_lva().sem(tp, sem) _%>
+<%* let typ = await tp.user.get_lva().type(tp) _%>
+<%* let ects = await tp.system.prompt("ECTS", "") _%>
 
 ---
-tags: NOTES
+banner: /assets/banner/JKU-Banner.jpg
+banner_y: 0
+banner_x: 0.5
+tags:
+  - BACHELOR
 subject:
   - <%* tR += lva %>
-semester: SS24
+  - <%* tR += typ %>
+semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
 done:
-ects:
+ects: <%* tR += ects %>
+grade:
 ---
 
-# <%* tR += lva %>
+# <center> <%* tR += lva %> </center>
 
-<%* tp.file.rename("{NOTES} ".concat(lva)) _%> 
+> [!info] **Klausuren** ✒️
+> - (exam:: )
 
-## Vorlesung
+<%* tp.file.rename(tp.user.get_lva().note_name(lva, typ)) _%> 
 
-```dataview
-TABLE keywords AS "Keywords🗝️", file.mday AS "Zuletzt Geändert✏️"
-WHERE contains(subject, "<%* tR += lva _%>")
-AND (contains(subject, "VL") OR contains(subject, "KV"))
-AND !contains(file.name, "jku_header")
-AND !contains(file.name, "{NOTES}")
-AND !contains(file.folder, "Rubbish")
-SORT file.mday DESC
+<%* if(typ == "VL" || typ == "UE") { 
+    let other = typ == "VL" ? "UE" : "VL";
+    let lnk = tp.user.get_lva().note_link(lva, other);
+    tR += `Zur ${lnk}📓 ➡️`;
+}%>
+
+## <%* tR += tp.user.get_lva().type_string(typ) %>
+
+```dataviewjs
+await dv.view("10_tools/dataviewjs/lva_query", {subjectFilter: "<%* tR += lva %>", subjectType: "<%* tR += typ %>"});
 ```
 
-## Übung
-
-```dataview
-TABLE keywords AS "Keywords🗝️", due AS "Abgabe 📅"
-WHERE contains(subject, "<%* tR += lva _%>")
-AND contains(subject, "UE") 
-AND !contains(file.name, "jku_header")
-AND !contains(file.name, "{NOTES}")
-AND !contains(file.folder, "Rubbish")
-SORT number(file.name) ASC
-```

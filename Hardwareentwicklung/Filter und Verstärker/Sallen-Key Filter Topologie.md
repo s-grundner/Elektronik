@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Filter
+  - Baugruppe/Filter
   - HTL-Diplomarbeit
   - Mathematica
 aliases:

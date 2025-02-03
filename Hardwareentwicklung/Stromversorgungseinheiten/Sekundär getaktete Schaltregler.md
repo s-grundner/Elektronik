@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/SMPS"]
+tags: ["Baugruppe/Versorgung/SMPS"]
 aliases: ["Sekundär getakteter SMPS", "Sekundär getaktete SMPS"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

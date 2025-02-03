@@ -40,8 +40,8 @@
 	{trigger: "div", replacement: "\\operatorname{div}", options: "mA", priority: 1},
 	{trigger: "rot", replacement: "\\operatorname{rot}", options: "mA", priority: 1},
 	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "m", priority: 1},
-    
-	
+	{trigger: "FF", replacement: "\\mathcal{F}\\{$0\\}$1", options: "mA"},
+	{trigger: "IFF", replacement: "\\mathcal{F}^{-1}\\{$0\\}$1", options: "mA"},
 	
 	// Default
 
@@ -233,6 +233,7 @@
 	{trigger: "ell", replacement: "\\ell", options: "mA"},
 	{trigger: "lll", replacement: "\\ell", options: "mA"},
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
+	{trigger: "ILL", replacement: "\\mathcal{L}^{-1}", options: "mA"},
 	{trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
 	{trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
 	{trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},

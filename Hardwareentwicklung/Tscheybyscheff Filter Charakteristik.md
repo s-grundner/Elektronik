@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Filter/Charakteristik
+  - Baugruppe/Filter/Charakteristik
 aliases:
   - Tschebyscheff
 keywords: 

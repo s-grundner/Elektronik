@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/Oszillator"]
+tags: ["Baugruppe/Oszillator"]
 aliases: ["Phasenregelschleife", "PLL"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]

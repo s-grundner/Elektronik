@@ -3,8 +3,7 @@ tags:
   - MOC
 aliases:
   - <%tp.file.title%>
-subject:
-  - ""
+subject: []
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
 ---
 

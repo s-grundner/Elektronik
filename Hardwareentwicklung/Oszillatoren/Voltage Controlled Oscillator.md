@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Oszillator
+  - Baugruppe/Oszillator
   - tikz/circuitikz
 aliases:
   - VCO

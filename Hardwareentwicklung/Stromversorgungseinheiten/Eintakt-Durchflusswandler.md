@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/SMPS
+  - Baugruppe/Versorgung/SMPS
 aliases:
   - Single transistor forward converter
 subject:

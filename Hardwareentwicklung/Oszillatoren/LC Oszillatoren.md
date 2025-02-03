@@ -1,6 +1,6 @@
 ---
 tags:
-  - Baugruppen/Oszillator
+  - Baugruppe/Oszillator
 aliases:
   - LC-Oszillator
   - LC-Oszillatoren
@@ -13,7 +13,7 @@ source:
 created: 17th November 2022
 ---
 
-# LC [Oszillatoren](Clock%20Generierung.md)
+# LC Oszillatoren
 
 - Prinzip der Schwingungserzeugung: Entladung eines [Schwingkreis](../../Physik/Schwingkreise.md)
 - Resonanzfrequenz des LC-SK bestimmt die Frequenz
@@ -26,7 +26,7 @@ created: 17th November 2022
 > [!INFO] Schaltung  
 >![LC-osz](../assets/LC-osz.png)
 
-## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
+## Herleitung mit [BHK](Oszillatoren.md)
 
 ## Herleitung mit [DGL](../../Mathematik/{MOC}%20DGL.md)
 
@@ -160,7 +160,7 @@ Bandbreite: Obere minus untere [Grenzfrequenz](../Filter%20und%20Verstärker/Gre
 > [!INFO] Schaltung  
 > ![Pasted image 20221213082043](../assets/Skizze3.png)
 
-## Herleitung mit [BHK](Barkhausen%20Kriterium.md)
+## Herleitung mit [BHK](Oszillatoren.md)
 
 ## Herleitung mit [DGL](../../Mathematik/{MOC}%20DGL.md)
 

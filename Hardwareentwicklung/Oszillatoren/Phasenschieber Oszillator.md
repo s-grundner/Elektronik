@@ -1,5 +1,5 @@
 ---
-tags: ["Baugruppen/Oszillator", incomplete]
+tags: ["Baugruppe/Oszillator", incomplete]
 aliases: ["PSO", "Phaseshift Oscillator"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
@@ -15,7 +15,7 @@ created: 7th November 2022
 	- Anzahl von der gesamten Phasendrehung abhängig ($\geq180\degree$)
 - Phasenbedingung:
 	- $180\degree$ Drehung wegen invertierenden Verstärker ($\alpha=180\degree$)
-	- min. 3x $60\degree$ Glieder um das [BHK](Barkhausen%20Kriterium.md) zu erfüllen ($\beta=180\degree$)
+	- min. 3x $60\degree$ Glieder um das [BHK](Oszillatoren.md) zu erfüllen ($\beta=180\degree$)
 - Verstärker kompensiert die Rückkopplungsdämpfung
 
 # Ungepufferter PSO
