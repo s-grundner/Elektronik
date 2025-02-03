@@ -45,7 +45,7 @@ async function ws25(tp) { // WS25
 }
 
 async function ss26(tp) { // SS26
-	const lva = ["Theoretische Elektrotechnik",
+	const lva = ["Theoretische Elektrotechnik", "Bachelorarbeit",
 		"Machine Learning and Pattern Classification",
 		"Rechnerarchitektur", "Embedded and Pervasive Systems"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
