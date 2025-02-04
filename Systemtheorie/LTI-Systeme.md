@@ -123,7 +123,17 @@ $$\boxed{ y(t) = x(t) * h(t) }$$
 
 ### Sprungantwort
 
-In technischen Systemen ist es häufig einfacher anstatt 
+In technischen Systemen ist es häufig einfacher anstatt der Impulsantwort $h(t)$ die **Sprungantwort** $a(t)$ zu bestimmen (Schwierigkeit bei der Realisierung der Dirac-Funktion). 
+
+Dabei wird als Eingangssignal die Sprungfunktion $\sigma(t)$ verwendet. Somit berechnet sich $a(t)$ zu
+
+$$
+a(t) = (h * \sigma)(t)= \int_{-\infty}^{\infty}h(\uptau)\sigma(t-\uptau)\mathrm{~d}\uptau=\int_{-\infty}^{t}h(\uptau)\mathrm{~d}\uptau
+$$
+
+Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Beschreibungen sind für das LTI-System vollständig.
+
+> [!example] Beispiel: Ladevorgang am RC-Tiefpass
 
 ---
 

@@ -24,9 +24,9 @@ Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus un
 
 ## Grundlagen
 
-> [!quote] Harmonische Analyse
-> **Theorem von Fourier:**
-> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer [Stetigkeit](../Analysis/Stetigkeit.md), **Integrierbarkeit** und **Monotonie** erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine [Linearkombination](Linearkombination.md) aus Funktionen $u_k(t)$ dargestellt werden.
+> [!quote] **Theorem von Fourier:** Harmonische Analyse
+> 
+> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer [**Stetigkeit**](../Analysis/Stetigkeit.md), **Integrierbarkeit** und **Monotonie** erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine [Linearkombination](Linearkombination.md) aus Funktionen $u_k(t)$ dargestellt werden.
 > 
 > Die Funktionen $u_k(t)$ bilden die Basisfunktionen eines normierten, orthogonalen Funktionensystems, genügen also der Bedingung
 > 
@@ -39,8 +39,7 @@ Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus un
 > 
 > wobei $k, m$ Parameter der Funktion $u$ sind.
 > 
-> > [!info] $\delta_{k,m}\dots$ [[Kronecker-Symbol]]
-> > Nur der Anteil bei dem $l=k$ ist zählt.
+> > [!info] $\delta_{k,m}\dots$ [[Kronecker-Symbol]]: Nur der Anteil, bei dem $l=k$ ist zählt.
 
 ## Reelle Fourierreihe
 
@@ -73,6 +72,7 @@ Besonderheiten:
 > - Die Grundfrequenz der Fourierreihe ist über $f_{0}$ dargestellt.
 
 ![600](../assets/Pasted%20image%2020230120081647.png)
+
 ### Polarform
 
 > [!important] Polare Darstellung der rellen Funktion $x(t)$
