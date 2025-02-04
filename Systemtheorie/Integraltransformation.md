@@ -1,7 +1,8 @@
 ---
-tags: []
+tags: 
 aliases:
   - Bildbereich
+  - Transformationskern
 keywords:
   - Zeitbereich
   - Bildbereich
@@ -68,11 +69,18 @@ Bei **selbstreziproken Kernen** erf체llt das Paar der Kerne f체r die Hin- und R�
 
 $$\varphi(t,s) = \theta^{*}(s,t)$$
 
-Ein Beispiel daf체r ist die [Fouriertransformation](Fouriertransformation.md) bei der $T=S=\mathbb{R}$ und $s=\omega=2\pi f$ mit den Transformationskernen
-
-$$
-\begin{align}
-\theta(s,t) &= e^{-j\omega t} && \\
-\varphi(t,s) &= e^{j\omega t} & = \theta^{*}(s,t)
-\end{align}
-$$
+> [!example] Ein Beispiel daf체r ist die [Fouriertransformation](Fouriertransformation.md) bei der $T=S=\mathbb{R}$ und $s=\omega=2\pi f$ mit den Transformationskernen
+> 
+> $$
+> \begin{align}
+> \theta(s,t) &= e^{-j\omega t} \\
+> \varphi(t,s) &= e^{j\omega t} = \theta^{*}(s,t)
+> \end{align}
+> $$
+> 
+> Die Reziprozit채tsbedingung f체r die Fouriertransformation:
+> 
+> $$
+> \int_{-\infty}^{\infty} \theta(\omega, t') \varphi(t, \omega) \mathrm{~d}\omega = \int_{-\infty}^{\infty} e^{ j\omega(t-t') } \mathrm{~d}\omega = 2\pi\delta(t-t')  
+> $$
+> ist somit bis auf einen Faktor $2\pi$ erf체llt.
