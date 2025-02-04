@@ -90,7 +90,7 @@ Ist ein lineares, zeitinvariantes System $\mathcal{T}\{\cdot\}$ mit dem Eingangs
 \end{document}
 ```
 
-### Impuls Antwort
+### Impulsantwort
 
 Es wird dazu die Antwort eines Systems auf die Impulsfunktion ([Dirac-Distribution](../Mathematik/Algebra/Delta-Impuls.md)) $\delta(t)$ am Eingang betrachtet.
 
@@ -98,9 +98,32 @@ $$x(t) = \delta(t) \quad \implies \quad y(t) = \mathcal{T\{\cdot\}} = h(t)$$
 
 Die Antwort (Ausgangssignal) auf den Impuls am Einang wird als **Impulsantwort** $h(t)$ bezeichnet.
 
-#### Berechnung der Impulsantwort
+> [!question] Berechnung des Ausgangssignals mit Hilfe der Impulsantwort
+> zunächst wird das LTI-System durch die Abbildung $\mathcal{T}\{\cdot\}$ beschrieben.
+> $$y(t) = \mathcal{T}\{x(t)\}$$
+> Das EIngagnssignal $x(t)$ wird mittels der Dirac-Distribution dargestellt.
+> $$x(t) = \int_{ -\infty}^{\infty}x(\uptau)\delta(t-\uptau)\mathrm{~d}\uptau$$
+> Somit folgt für das Ausgangssignal $y(t)$ mit der Abbildung $\mathcal{T}\{\cdot\}$
+> $$y(t) = \mathcal{T}\left\{ \int_{-\infty}^{\infty}x(\uptau)\delta(t-\uptau)\mathrm{~d}\uptau \right\} $$
+> wobei im Intergal nur $\delta (t-\uptau)$ von $t$ abhängt, d.h. $x(\uptau)$ ist bezüglich $t$ nur ein Gewichtsfaktor, womit durch die Linearität auch geschrieben werden kann:
+> $$y(t)= \int_{-\infty}^{\infty}x(\uptau)\mathcal{T}\{\delta(t-\uptau)\}\mathrm{~d}\uptau$$
+>  
 
-### Sprung Antwort
+> [!success] Mit der Definition der Impulsantwort $h(t)= \mathcal{T}\{\delta(t)\}$ und Berücksichtigung der Zeitinvarianz folgt schließlich:
+>
+> $$\boxed{ y(t) = \int_{-\infty}^{\infty}x(\uptau)h(t-\uptau)\mathrm{~d}\uptau }$$
+
+Damit lässt sich das Ausgangssignal $y(t)$ für beliebeiges Eingangssignal $x(t)$ als [**Faltung**](Faltung.md) **mit der Impulsantwort** $h(t)$ beschreiben.
+
+$$\boxed{ y(t) = x(t) * h(t) }$$
+
+> [!important] Diese Form der Beschreibung ist allgeimen gültig.
+> **Die Impulsantwort beschreibt das Systemverhalten eines LTI-Systems vollständig!**
+> Die Impulsantwort ist eine Beschreibung bzw. Charakterisierung eines Systems im **Zeitbereich**
+
+### Sprungantwort
+
+In technischen Systemen ist es häufig einfacher anstatt 
 
 ---
 
