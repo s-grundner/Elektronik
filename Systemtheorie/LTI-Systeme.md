@@ -63,3 +63,11 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 > 
 
 ![](assets/Pasted%20image%2020241120155809.png)
+
+## Systemantwort
+
+Ist ein lineares, zeitinvariantes System $\mathcal{T}\{\cdot\}$ mit dem Eingangssignal $x(t)$ und dem Ausgangssignal $y(t)$ gegeben, ist oft eine **allgemeine Formulierung** zur Berechnung des **Ausgangssignals** gesucht.
+
+### Impuls Antwort
+
+### Sprung Antwort
