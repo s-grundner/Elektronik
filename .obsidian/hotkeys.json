@@ -42,13 +42,6 @@
         "Mod",
         "Shift"
       ],
-      "key": "L"
-    },
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
       "key": "Y"
     }
   ],
@@ -247,6 +240,14 @@
     {
       "modifiers": [],
       "key": "F5"
+    }
+  ],
+  "obsidian-full-calendar:full-calendar-open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Y"
     }
   ]
 }
