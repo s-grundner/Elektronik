@@ -68,12 +68,8 @@ Besonderheiten:
 - Ist die Funktion $x(t)$ eine gerade Funktion, sind alle $b_{k}=0$
 - Ist die Funktion $x(t)$ eine ungerade Funktion, sind alle $a_{k}=0$
 
-> [!info] Für den Fall „$k=0$“ existiert das, den arithmetischen Mittelwert darstellende, zeitunabhängige Glied $\frac{a_{0}}{2}$.
-> - Die Grundfrequenz der Fourierreihe ist über $f_{0}$ dargestellt.
+> [!info] Für den Fall „$k=0$“ existiert das zeitunabhängige Glied $\frac{a_{0}}{2}$, welches den arithmetischen Mittelwert darstellt.
 
-![600](../assets/Pasted%20image%2020230120081647.png)
-
-### Polarform
 
 > [!important] Polare Darstellung der rellen Funktion $x(t)$
 >
@@ -107,6 +103,11 @@ $$
 
 > [!quote] Bemerkung:
 > Es treten auch negative Frequenzen auf! Damit werden die Imaginärteile für das reelle Signal kompensiert. Obige Symmetrie gilt für reelle Signale.
+
+Besonderheiten:
+- Ist die Funktion $x(t)$ eine gerade Funktion, sind alle $X_{k}$ reell
+- Ist die Funktion $x(t)$ eine ungerade Funktion, sind alle $X_{k}$ imaginär
+
 
 ---
 

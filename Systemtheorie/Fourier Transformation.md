@@ -47,6 +47,10 @@ def:
 | (xii)  | Faltung im<br>Zeitbereich        |             $f_{1}(t)*f_{2}(t)$<br>$\int_{-\infty}^{\infty}f_{1}(\uptau)f_{2}(t-\uptau)\mathrm{~d}\uptau$              |                                                        $F_{1}(j\omega)F_{2}(j\omega)$                                                         |
 | (xiii) | Faltung im<br>Frequenzbereich    |                                                   $f_{1}(t)f_{2}(t)$                                                   | $\frac{1}{2\pi}F_{1}(j\omega)F_{2}(j\omega)$<br>$=\frac{1}{2\pi}\int_{-\infty}^{\infty}F_{1}(j\theta)F_{2}(j\omega-j\theta)\mathrm{~d}\theta$ |
 
+## Integraltransformationen
+
+
+
 ---
 
 # Weiteres
@@ -58,7 +62,7 @@ def:
 > 
 > - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](DFT.md) ([[DFT]]) und die Schnelle Fourier Transformation ([FFT](../../Softwareentwicklung/ds-algo/FFT.md)).
 
-# Unterschied zur Fourierreihe
+## Unterschied zur Fourierreihe
 
 Der Ursprung der Fouriertransformation ist auf die Fourierreihe zurückzuführen:
 

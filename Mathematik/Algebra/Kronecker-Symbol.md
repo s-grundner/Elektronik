@@ -10,6 +10,7 @@ created: 6th November 2024
 professor:
 ---
  
+
 # Kronecker Symbol
 
 $$
