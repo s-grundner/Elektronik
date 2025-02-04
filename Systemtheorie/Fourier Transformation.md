@@ -3,8 +3,8 @@ tags:
 aliases:
   - Fouriertransformation
 keywords:
-  - Bildbereich
   - Zeitbereich
+  - Frequenzbereich
 subject:
   - Signale und Systeme
   - VL
@@ -46,9 +46,6 @@ def:
 | (xi)   | Differentation im<br>Bildbereich |                                                    $(-jt)^{n}f(t)$                                                     |                                           $\dfrac{\mathrm{d}^{n}}{\mathrm{d}\omega^{n}} F(j\omega)$                                           |
 | (xii)  | Faltung im<br>Zeitbereich        |             $f_{1}(t)*f_{2}(t)$<br>$\int_{-\infty}^{\infty}f_{1}(\uptau)f_{2}(t-\uptau)\mathrm{~d}\uptau$              |                                                        $F_{1}(j\omega)F_{2}(j\omega)$                                                         |
 | (xiii) | Faltung im<br>Frequenzbereich    |                                                   $f_{1}(t)f_{2}(t)$                                                   | $\frac{1}{2\pi}F_{1}(j\omega)F_{2}(j\omega)$<br>$=\frac{1}{2\pi}\int_{-\infty}^{\infty}F_{1}(j\theta)F_{2}(j\omega-j\theta)\mathrm{~d}\theta$ |
-
-
- 
 
 ---
 

@@ -2,7 +2,10 @@
 tags: 
 aliases:
   - s-Domäne
-keywords: 
+  - Bildbereich
+keywords:
+  - Bildbereich
+  - Zeitbereich
 subject:
   - VL
   - Mathematik 3
