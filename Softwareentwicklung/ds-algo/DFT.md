@@ -22,7 +22,7 @@ cited: true
 > [!info] Complexity: `$=dv.current().complexity`
 
 > [!quote] DFT
-> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine Annäherung der [Fourier Transformation](../../Systemtheorie/Fourier%20Transformation.md), welche es ermöglicht sie Zeitdiskret/Digital berechnen zu lassen. 
+> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine Annäherung der [Fouriertransformation](../../Systemtheorie/Fouriertransformation.md), welche es ermöglicht sie Zeitdiskret/Digital berechnen zu lassen. 
 > Hierbei wird die Formel für die Fouriertransformierte als Ausgangspunkt genutzt.
 
 Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:

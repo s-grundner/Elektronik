@@ -2,9 +2,8 @@
 tags: 
 aliases:
   - s-Domäne
-  - Bildbereich
+  - Laplace Transformation
 keywords:
-  - Bildbereich
   - Zeitbereich
 subject:
   - VL
@@ -18,6 +17,9 @@ professor:
 ---
 
 # Laplace Transformation
+
+Die Laplace Transformation ist eine [Integraltransformation](Integraltransformation.md), die eine Funktion $f(t)$ auf eine Funktion $F(s)$ abbildet. Sie wird verwendet, um Differentialgleichungen in algebraische Gleichungen zu überführen. 
+
 
 - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
 - Wir betrachten also nur kausale [Signale](Signale.md), die für $t<0$ sind.

@@ -23,10 +23,10 @@ Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensitä
 > 
 
 
-> [!info]- [Fourier Transformation](Fourier%20Transformation.md)
+> [!info]- [Fouriertransformation](Fouriertransformation.md)
 > 
 > wenn zeitabhängige funktionen mit zunehmender frequenz nicht konvergieren, kann keine fouriertranformation angewandt werden:
-> - Hohe Frequenzen müssen gegen 0 gehen -> Lösung: [Laplace Transformation](Laplace%20Transformation.md)
+> - Hohe Frequenzen müssen gegen 0 gehen -> Lösung: [Laplacetransformation](Laplacetransformation.md)
 > $$
 > \begin{align*}
 > \mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt && t \in \mathbb{R}\qquad 
@@ -38,7 +38,7 @@ Einzelne Frequenzen können im nicht eingeschwungenen Zustand von der Intensitä
 
 
 
-> [!info] [Laplace Transformation](Laplace%20Transformation.md)
+> [!info] [Laplacetransformation](Laplacetransformation.md)
 > 
 > $$
 > \begin{align*}
