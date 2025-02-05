@@ -35,7 +35,7 @@ Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden al
 
 > [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
-> $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} }\tag{LAPT}$$
+> $$\mathcal{L}\{f(t)\}(s) = F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} \tag{LAPT}$$
 > 
 > Die Einseitige Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
@@ -173,7 +173,7 @@ Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft 
 > $$
 > 
 
-## Weitere Korrespondenzen
+### Weitere Korrespondenzen
 
 $$
 \mathcal{L}\{\sin (\omega t)\}(s)=\frac{\omega}{s^2+\omega^2} \quad \text { und } \quad \mathcal{L}\{\cos (\omega t)\}(s)=\frac{s}{s^2+\omega^2}, \quad s>0,
@@ -197,7 +197,54 @@ $$
 > 
 > Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
 
-## Stabilität des Systems
+## Rücktransformation
+
+Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
+
+> [!important] Vorhergehensweise
+> 1. Polynomdivision wenn $\deg z(s) \geq \deg n(z)$
+> 2. $s$ sollte soweit es geht faktorisiert werden
+> 3. Null und Polstellen berechnen:
+> 4. Partialbruchzerlegung durchführen
+> 5. Vereinfachte Korrespondenzen der Tabelle Entnehmen
+
+## Existenzbedingungen
+
+Bedingungen für dei Existenz der Laplace-Transformierten $F(s)$ der funktion $f(t)$:
+
+$$
+\lvert f(t) \rvert \leq B\cdot e^{ At } \quad \text{für } t\geq 0
+$$
+für geeignete reelle Konstanten $A$ und $B$ und dass $f(t)$ in jedem endlichen intervall $a\leq t\leq b$ nur endlich viele Springstellen besitzt.
+
+### Konvergenzsverhalten
+
+Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
+
+> [!satz] **S1 - LTKB)** Konvergenzbedingung für die Laplace-Transformierte 
+> 
+> $$\overset{ n }{ \underset{ i=1 }{ \operatorname{max} } } ~\sigma_{\infty i} < \sigma$$
+> 
+> Das heißt, dass das Laplace-Integral in der *Halbebene* **rechts** jenes Pols mit dem **größten Realteil** konvergiert. 
+
+Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstellen%20Diagramm)
+
+> [!hint] **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
+> 
+> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
+> $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
+> 
+> Sei $f \in \mathcal{E}$ und $s=u+i v$ mit $u, v \in \mathbb{R}$ und $\alpha<u$. Dann gilt:
+> $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $\lvert\cos (v t)-i \sin (v t)\rvert=1$ erhalten wir nun:
+> 
+> $$
+>  \left| \int_0^{\infty} f(t) e^{-s t} \mathrm{~d} t \right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
+> $$
+
+> [!satz] **TRF S1)** Transformierbare Funktionen
+> Sei $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
+
+### Stabilität des Systems
 
 Polstellen bei verschiedenen Schwingbedingungen:
 
@@ -292,53 +339,6 @@ Polstellenlage vs. Zeitbereichssignal
 
 \end{document}
 ```
-
-## Rücktransformation
-
-Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
-
-> [!important] Vorhergehensweise
-> 1. Polynomdivision wenn $\deg z(s) \geq \deg n(z)$
-> 2. $s$ sollte soweit es geht faktorisiert werden
-> 3. Null und Polstellen berechnen:
-> 4. Partialbruchzerlegung durchführen
-> 5. Vereinfachte Korrespondenzen der Tabelle Entnehmen
-
-## Existenzbedingungen
-
-Bedingungen für dei Existenz der Laplace-Transformierten $F(s)$ der funktion $f(t)$:
-
-$$
-\lvert f(t) \rvert \leq B\cdot e^{ At } \quad \text{für } t\geq 0
-$$
-für geeignete reelle Konstanten $A$ und $B$ und dass $f(t)$ in jedem endlichen intervall $a\leq t\leq b$ nur endlich viele Springstellen besitzt.
-
-### Konvergenzsverhalten
-
-Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
-
-> [!satz] **S1 - LTKB)** Konvergenzbedingung für die Laplace-Transformierte 
-> 
-> $$\overset{ n }{ \underset{ i=1 }{ \operatorname{max} } } ~\sigma_{\infty i} < \sigma$$
-> 
-> Das heißt, dass das Laplace-Integral in der *Halbebene* **rechts** jenes Pols mit dem **größten Realteil** konvergiert. 
-
-Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstellen%20Diagramm)
-
-> [!hint] **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
-> 
-> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
-> $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
-> 
-> Sei $f \in \mathcal{E}$ und $s=u+i v$ mit $u, v \in \mathbb{R}$ und $\alpha<u$. Dann gilt:
-> $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $\lvert\cos (v t)-i \sin (v t)\rvert=1$ erhalten wir nun:
-> 
-> $$
->  \left| \int_0^{\infty} f(t) e^{-s t} \mathrm{~d} t \right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
-> $$
-
-> [!satz] **TRF S1)** Transformierbare Funktionen
-> Sei $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
 
 # Tags
 
