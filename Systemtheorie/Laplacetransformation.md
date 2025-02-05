@@ -23,7 +23,8 @@ Die Laplace Transformation ist eine [Integraltransformation](Integraltransformat
 > [!info] Der Transformationskern ist die exponential Funktion mit gemischt reel-komplexem Exponenten: $e^{ s }=e^{ \sigma t+j\omega t }$
 > - Was bei der FT die Frequenzachse ist, ist bei der Laplacetransformation eine komplexe Ebene.
 > - Mit dem neuen Paramter $\sigma$ lässt sich die Konvergenz beeinflussen, und kann als Dämpfung verstanden werden.
-> - Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden als mit der Fourier-Transformation
+
+Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden als mit der Fourier-Transformation
 
 > [!question] Einseitigkeit:
 > - Es werden nur [kausale](Kausalität.md) [Signale](Signale.md) betrachtet
@@ -49,14 +50,34 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > 
 > Dieses $\sigma$ heißt **Konvergenzabzisse** von $f$
 
+## Pole und Nullstellen
+
 > [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynom](../Mathematik/Algebra/Polynom.md) 
 > 
 > $$F(s)=\dfrac{Z(s)}{N(s)}$$ 
 > 
-> - Nullstellen des Nennerpolynoms $N(s)$ heißen **Pole** vom $F(s)$.
-> - Nullstellen des Zählerpolynoms $Z(s)$ heißen **Nullstellen** von $F(s)$.
+> - Nullstellen $s_{\infty}$ des Nennerpolynoms $N(s)$ heißen **Pole** vom $F(s)$.
+> - Nullstellen $s_{0}$ des Zählerpolynoms $Z(s)$ heißen **Nullstellen** von $F(s)$.
 > 
 > Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf.
+
+$F(s)$ lässt sich mit dieser Beschränkung als [Partialbruch](../Mathematik/Analysis/Partialbruchzerlegung.md) anschreiben:
+
+$$
+F(s) = A_{0} + \sum_{i=1}^{n} \frac{A_{i}}{s-s_{\infty i}}
+$$
+
+> [!warning] Solange der Grad des Zählerpolynoms nicht größer ist als der Grad des Nennerpolynoms und die Pole von $F(s)$ nur Einfach sind.
+
+Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linearität getrennt (rück)transformiert werden können. 
+
+> [!question] Mehrfache und konjugiert komplexe Polstellen
+> Ansatz für eine **reelle Mehrfachpolstelle** $s_{\infty i}$ der Ordnung $l$ von $F(s)$
+> $$$$
+
+
+
+### Pol-Nullstellen Diagramm
 
 ```tikz
 \usepackage{pgfplots}
@@ -120,7 +141,7 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > [!satz] **TRF S1)** Transformierbare Funktionen
 > Sie $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
 
-## Sätze und Korresponedenzen
+## Sätze und Korrespondenzen
 
 > [!satz] **LTR S2)** Sätze zu den Rechenregeln für Laplace-Transformationen
 
@@ -295,7 +316,9 @@ $$
 $$
 für geeignete reelle Konstanten $A$ und $B$ und dass $f(t)$ in jedem endlichen intervall $a\leq t\leq b$ nur endlich viele Springstellen besitzt.
 
-### K
+### Konvergenzsverhalten
+
+Das Konvergenzverhalten wird durch die Exponentialfunktion unter dem Integralbestimmt
 
 # Tags
 
