@@ -67,15 +67,21 @@ $$
 F(s) = A_{0} + \sum_{i=1}^{n} \frac{A_{i}}{s-s_{\infty i}}
 $$
 
-> [!warning] Solange der Grad des Zählerpolynoms nicht größer ist als der Grad des Nennerpolynoms und die Pole von $F(s)$ nur Einfach sind.
+Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linearität getrennt (rück)transformiert werden können.
 
-Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linearität getrennt (rück)transformiert werden können. 
+> [!warning] Funktioniert nur solange der Grad des Zählerpolynoms nicht größer ist als der Grad des Nennerpolynoms und die Pole nur Einfach sind.
+> - Ist $\operatorname{grad}Z(s)\geq \operatorname{grad}N(s)$ lässt sich eine [Partialbruchzerlegung](../Mathematik/Analysis/Partialbruchzerlegung.md) druchführen.
+> - Für Mehrfache Polstellen lassen sich folgende Ansätze bilden:
+
+
 
 > [!question] Mehrfache und konjugiert komplexe Polstellen
-> Ansatz für eine **reelle Mehrfachpolstelle** $s_{\infty i}$ der Ordnung $l$ von $F(s)$
-> $$$$
-
-
+> - Ansatz für eine mehrfache **reelle Polstelle** $s_{\infty i}$ der Ordnung $l$ von $F(s)$
+> $$\frac{A_{1}}{s-s_{\infty i}} + \frac{A_{2}}{(s-s_{\infty i})^{2}} + \dots + \frac{A_{l}}{(s-s_{\infty i})^{l}}$$ 
+> - Ansatz für ein einfaches **konjugiert komplexes Polstellenpaar** vom $F(s)$
+> $$\frac{Bs+C}{s^{2}+ps+q}$$
+> - Ansatz für ein mehrfaches **konjugiert komplexes Polstellenpaar** der Ordnung $l$
+> $$\frac{B_{1}s+C_{1}}{s^{2}+ps+q} + \frac{B_{2}s+C_{2}}{(s^{2}+ps+q)^{2}} + \dots + \frac{B_{l}s+C_{l}}{(s^{2}+ps+q)^{l}}$$
 
 ### Pol-Nullstellen Diagramm
 
@@ -126,20 +132,7 @@ Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linear
 \end{document}
 ```
 
-> [!hint]- **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
-> 
-> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
-> $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
-> 
-> Sei $f \in \mathcal{E}$ und $s=u+i v$ mit $u, v \in \mathbb{R}$ und $\alpha<u$. Dann gilt:
-> $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $\lvert\cos (v t)-i \sin (v t)\rvert=1$ erhalten wir nun:
-> 
-> $$
->  \left| \int_0^{\infty} f(t) e^{-s t} \mathrm{~d} t \right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
-> $$
-
-> [!satz] **TRF S1)** Transformierbare Funktionen
-> Sie $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
+[]
 
 ## Sätze und Korrespondenzen
 
