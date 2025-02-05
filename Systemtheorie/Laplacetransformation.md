@@ -43,13 +43,6 @@ Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen:
 
 $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
-> [!def] **KABZ D2)** Definition der Konvergenzabzisse
-> Existiert für das uneigentliche Integral der **LAPT** ein $s_{0}\in\mathbb{R}$, so kann man zeigen, dass es eine Zahl $\sigma \in\mathbb{R}$ gibt, bei dem das Integral für alle $s \in\mathbb{C}$ mit:
-> - $\mathrm{Re}\,s>\sigma$ *konvergiert*. 
-> - $\mathrm{Re}\,s<\sigma$ *divergiert*.
-> 
-> Dieses $\sigma$ heißt **Konvergenzabzisse** von $f$
-
 ## Pole und Nullstellen
 
 > [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynom](../Mathematik/Algebra/Polynom.md) 
@@ -140,7 +133,7 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 
 ## Sätze und Korrespondenzen
 
-> [!satz] **LTR S2)** Sätze zu den Rechenregeln für Laplace-Transformationen
+> [!satz] **LTR S2)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 
 | Nr     | Satz                      | Zeitbereich zu $s$-Domäne                                                                               | Anmerkungen                                                                                                                                                    |
 | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
