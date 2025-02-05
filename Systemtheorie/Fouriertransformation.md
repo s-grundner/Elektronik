@@ -25,7 +25,7 @@ Die Fouriertransfomration ist eine [[Integraltransformation]]. Im Vergleich zur 
 $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Funktion $f(t)$:
 
 > [!def] **D1 - FT)** Fouriertransformation - Fourierintegral ^FT
-> $$\mathcal{F}\{f(t)\} = F(\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt \qquad t \in \mathbb{R}$$
+> $$\mathcal{F}\{f(t)\}(j\omega) = F(j\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt \qquad t \in \mathbb{R}$$
 > 
 > - [Transformationskern](Integraltransformation.md): komplexe Exponentialfunktion $e^{ -j\omega t }$
 > - Kurzschreibweise: $\mathcal{F}\{f(t)\}(j\omega) = F(j\omega)$
@@ -33,7 +33,7 @@ $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Fun
 
 
 > [!def] **D2 - IFT)** Inverse Fouriertransformation ^IFT
-> $$\mathcal{F}\{F(\omega)\}^{-1} = f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cdot e^{j\omega t}d\omega$$
+> $$\mathcal{F}\{F(j\omega)\}^{-1}(t) = f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cdot e^{j\omega t}d\omega$$
 
 ## Sätze und Korrespondenzen
 
@@ -60,7 +60,17 @@ $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Fun
 $F(j\omega)$ isd im allgemeinen komplex:
 
 $$F(j\omega) = \mathrm{Re}\left\{ F(j\omega) \right\} +\mathrm{j} ~\mathrm{Im\left\{ F(j\omega) \right\} }= \left| F(j\omega) \right| e^{ j\varphi(\omega) }   $$
-- $\left| F(j\omega) \right|$
+- $\left| F(j\omega) \right|$ ... **Betragsspektrum**
+- $\varphi(\omega) = \angle F(j\omega)$ ... **Phasenspektrum**
+
+### Konvergenzkriterium
+
+Für die Konvergenz ist *hinreichend* aber nicht notwendig, dass
+
+$$
+\int_{-\infty}^{\infty} \lvert f(t) \rvert \mathrm{~d}t < \infty
+$$
+
 
 ---
 
