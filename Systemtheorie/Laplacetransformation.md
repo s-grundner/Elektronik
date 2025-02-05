@@ -26,9 +26,11 @@ Die Laplace Transformation ist eine [Integraltransformation](Integraltransformat
 > - Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden als mit der Fourier-Transformation
 
 > [!question] Einseitigkeit:
-> - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
-> - Wir betrachten also nur kausale [Signale](Signale.md), die für $t<0$ sind.
-> - Wegen der Einseitigkeit wird bei der Funktion des Zeitsignals die Heaviside 
+> - Es werden nur [kausale](Kausalität.md) [Signale](Signale.md) betrachtet
+>     - z.B. Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
+> - Wegen der Einseitigkeit wird bei der Funktion des Zeitsignals die [Heaviside](Einheitssprungfunktion.md)-Funktion $\sigma(t)$ dazu Multipliziert.
+>     - (nicht zu verwechseln mit dem neuen eingeführten Parameter $\sigma$)
+
 
 > [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
@@ -47,14 +49,14 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > 
 > Dieses $\sigma$ heißt **Konvergenzabzisse** von $f$
 
-> [!hint] Das Ergebnis einer Laplace Transformation ist immer ein rationales [Polynom](../Mathematik/Algebra/Polynom.md) 
+> [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynom](../Mathematik/Algebra/Polynom.md) 
 > 
 > $$F(s)=\dfrac{Z(s)}{N(s)}$$ 
 > 
-> - Nullstellen von $N(s)$ heißen **Pole**.
-> - Nullstellen von $Z(s)$ heißen **Nullstellen**.
+> - Nullstellen des Nennerpolynoms $N(s)$ heißen **Pole** vom $F(s)$.
+> - Nullstellen des Zählerpolynoms $Z(s)$ heißen **Nullstellen** von $F(s)$.
 > 
-> Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und konjugiert komplexe Zahlen auf.
+> Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf.
 
 ```tikz
 \usepackage{pgfplots}
@@ -281,7 +283,19 @@ Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 > 1. Polynomdivision wenn $\deg z(s) \geq \deg n(z)$
 > 2. $s$ sollte soweit es geht faktorisiert werden
 > 3. Null und Polstellen berechnen:
-> 
+> 4. Partialbruchzerlegung durchführen
+> 5. Vereinfachte Korrespondenzen der Tabelle Entnehmen
+
+## Existenzbedingungen
+
+Bedingungen für dei Existenz der Laplace-Transformierten $F(s)$ der funktion $f(t)$:
+
+$$
+\lvert f(t) \rvert \leq B\cdot e^{ At } \quad \text{für } t\geq 0
+$$
+für geeignete reelle Konstanten $A$ und $B$ und dass $f(t)$ in jedem endlichen intervall $a\leq t\leq b$ nur endlich viele Springstellen besitzt.
+
+### K
 
 # Tags
 
