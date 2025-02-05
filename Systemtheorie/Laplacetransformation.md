@@ -16,20 +16,25 @@ professor:
   - Andreas Stelzer
 ---
 
-# Laplace Transformation
+# Einseitige Laplace Transformation
 
-Die Laplace Transformation ist eine [Integraltransformation](Integraltransformation.md), die eine Funktion $f(t)$ auf eine Funktion $F(s)$ abbildet. Sie wird verwendet, um Differentialgleichungen in algebraische Gleichungen zu überführen. 
+Die Laplace Transformation ist eine [Integraltransformation](Integraltransformation.md), die eine Funktion $f(t)$ auf eine Funktion $F(s)$ abbildet. Sie ist eine Erweiterung der [Fouriertransformation](Fouriertransformation.md) und wird verwendet, um Differentialgleichungen in algebraische Gleichungen zu überführen. 
 
+> [!info] Der Transformationskern ist die exponential Funktion mit gemischt reel-komplexem Exponenten: $e^{ s }=e^{ \sigma t+j\omega t }$
+> - Was bei der FT die Frequenzachse ist, ist bei der Laplacetransformation eine komplexe Ebene.
+> - Mit dem neuen Paramter $\sigma$ lässt sich die Konvergenz beeinflussen, und kann als Dämpfung verstanden werden.
+> - Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden als mit der Fourier-Transformation
 
-- Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
-- Wir betrachten also nur kausale [Signale](Signale.md), die für $t<0$ sind.
-- Um mehr Funktionen transformieren zu können, wird eine [Dämpfung](../Hardwareentwicklung/Filter%20und%20Verstärker/Dämpfung.md) $e^{-\sigma t}$ eingeführt. $(\sigma\in\mathbb{R}^{+})$
+> [!question] Einseitigkeit:
+> - Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
+> - Wir betrachten also nur kausale [Signale](Signale.md), die für $t<0$ sind.
+> - Wegen der Einseitigkeit wird bei der Funktion des Zeitsignals die Heaviside 
 
 > [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
 > $$\boxed{ F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} }\tag{LAPT}$$
 > 
-> Die Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
+> Die Einseitige Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
 Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen: 
 
