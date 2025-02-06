@@ -23,13 +23,9 @@
   "obsidian-latex-suite",
   "obsidian-table-to-csv-exporter",
   "obsidian-auto-link-title",
-  "obsidian-tikzjax",
   "obsidian-text-format",
   "obsidian-git",
-  "github-copilot",
   "obsidian-spaced-repetition",
-  "obsidian-excalidraw-plugin",
-  "global-search-and-replace",
-  "obsidian-react-components",
-  "dataview"
+  "dataview",
+  "lazy-plugins"
 ]
