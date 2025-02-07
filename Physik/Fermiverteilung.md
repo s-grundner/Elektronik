@@ -63,9 +63,13 @@ Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [inf
 
 Aus dem Massenwirkungsgesetz ergibt sich für die Eigenleitungsdichte:
 
-$$
-n_{i} = p\cdot n \implies 
-$$
+
+> [!important] **Eigenleitungsdichte**: 
+> 
+>$$n_i^2= N_{V} N_{L} \cdot \exp\left(-\tfrac{W_G}{k_b T}\right)\impliedby  n_{i}^{2} = p\cdot n $$
+>
+> Folgt aus der Ladungsträgerdichte der Löcher und Elektronen.
+> $W_{G}$ ist der Bandabstand von Valenz und Leitungsband, also $W_{G} = W_{L}-W_{V}$
 
 
 ---

@@ -41,11 +41,14 @@ Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien el
 
 ![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
 
-- Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“).
-- Dadurch können auch im [Valenzband](../../Chemie/Valenzelektronen.md) wieder Elektronen verschoben werden.
-- Statt der Bewegung dieser Valenzelektronen kann man auch das Wandern des Loches betrachten das sich wie ein positiv geladener Ladungsträger verhält.
-- Die Löcher bewegen sich unabhängig von den „zugehörigen“ Elektronen.
-- Die Dichte der erzeugten Ladungsträger ist die [Eigenleitungsdichte](Fermiverteilung.md).
+> [!important] **"Löcher"** in Halbleitern
+> - Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“).
+> - Dadurch können auch im [Valenzband](../../Chemie/Valenzelektronen.md) wieder Elektronen verschoben werden.
+> - Statt der Bewegung dieser Valenzelektronen kann man auch das Wandern des Loches betrachten, das sich wie ein positiv geladener Ladungsträger verhält.
+> - Die Löcher bewegen sich unabhängig von den „zugehörigen“ Elektronen.
+
+
+Die Dichte der erzeugten Ladungsträger, also den Elektronen-Loch Paaren, ist die [Eigenleitungsdichte](Fermiverteilung.md). Diese ist für Silizium: $n_{i,\text{ Si}} = 10^{10} \mathrm{cm}^{-3}$
 
 > [!important] [[Fermiverteilung]]: Besetzungswahrscheinlichkeit $F(W)$ in abhängigkeit von der Energie $W$
 > Die Fermiverteilung beschreibt also:
@@ -54,11 +57,6 @@ Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien el
 ## Dotierte Halbleiter
 
 Die extrem niedrige Leitfähigkeit von reinen Halbleitern lässt sich durch das Einbringen von 3- oder 5-Wertigen Fremdatomen massiv erhöhen. Dieser Vorgang heißt Dotierung.
-
-| n                              | p                              |
-| ------------------------------ | ------------------------------ |
-| ![n-Halbleiter](#n-Halbleiter) | ![p-Halbleiter](#p-Halbleiter) |
-
 
 #### n-Halbleiter
 
@@ -100,9 +98,7 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 
 #### Driftstrom
 
-Störstellen und thermische Gitterschwingungen verursachen eine mittlere Driftgeschwindigkeit der Ladungsträger (p: Löcher, n: Elektronen)
-
-> Siehe [Drude-Modell](../Elektrotechnik/Drude-Modell.md)
+Störstellen und thermische Gitterschwingungen verursachen eine [mittlere Driftgeschwindigkeit](../Elektrotechnik/Drude-Modell.md) der Ladungsträger
 
 $$
 \begin{align}
@@ -111,11 +107,15 @@ $$
 \end{align}
 $$
 
+| sdsd |     |
+| ---- | --- |
+|      |     |
+
 Der resultierende Gesamtstrom durch einen Dotierten Halbleiter ist
 
 $$j_{\text{Drift}} = j_{\text{Drift,n}} + j_{\text{Drift,p}} = \sigma E$$
 
-Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = e(n)$
+Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = e(n\mu_{n}+p\mu_{p})$
 
 #### Diffusionsstrom
 
