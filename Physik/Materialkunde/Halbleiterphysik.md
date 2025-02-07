@@ -22,13 +22,25 @@ Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kaste
 
 ![invert_dark|700](assets/SiLeitungsValenzband.png)
 
-## Valenz und Leitungsband
+Unterschiede des Bändermodells verschiedener Leiterklassen:
 
-Das Innere des reinen Siliziums kann als Atomgitter
+![1000](../../Hardwareentwicklung/assets/Baendermodell.png)
+
+
+
+
+### Valenz und Leitungsband
+
+Reines Silizium hat die Struktur eines Atomgitters.
+![invert_dark|600](assets/Pasted%20image%2020250207135059.png)
+- Das **Valenzband** ist das Energieniveau der Äußersten elektronen innerhalb des Gitters ([Valenzelektronen](../../Chemie/Valenzelektronen.md))
+- Das **Leitungsband** ist das nächst oberste erlaubte Energieniveau auf dem sich freie elektronen aufhalten können  
+
+
+Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien elektronen, da diese fest an das Atomgitter gebunden sind.
 
 ![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
 
-Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine 
 Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“). Dichte der erzeugten Ladungsträger:
 
 
