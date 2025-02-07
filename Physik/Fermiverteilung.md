@@ -12,12 +12,12 @@ professor:
  
 # Fermiverteilung
 
+Die Fermi-Verteilung gibt an, mit welcher Wahschrienlichkkeit bei gegebener absoluter Temparatur ein Zusatand der Energie
 
 > [!important] Besetzungswahrscheinlichkeit $F(W)$ in abhängigkeit von der Energie $W$
 > Die Fermiverteilung beschreibt also:
 > - Thermische Anregung von Elektronen $\iff$ Temperatur abhängige Wahrscheinlichkeit, einen höheren Energiezustand einzunehmen. 
 
-Mathematischer Ausdruck
 
 > [!def] **D1 - FERM)** Fermiverteilung ^FERM
 > $$F(W) = \frac{1}{1+\exp\left(\frac{W-W_{F}}{k_{b}T} \right)}$$
@@ -28,7 +28,7 @@ Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [inf
 > [!important] Ferminiveau
 > Die in der Formel auftretende **Fermienergie** oder **Ferminiveau** $W_{F}$ ist ein chemisches Potenzial und repäsentiert jenes Energieniveau, das bei Temparatur $T=0$ aufgefüllt wäre.
 
-![](../assets/Excalidraw/Fermiverteilung%202025-02-07%2015.41.59.excalidraw)
+![600](../assets/Excalidraw/Fermiverteilung%202025-02-07%2015.41.59.excalidraw)
 
 ---
 
