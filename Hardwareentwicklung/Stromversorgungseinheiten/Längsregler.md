@@ -1,11 +1,17 @@
 ---
-tags:
+tags: 
   - Baugruppe/Versorgung
   - Halbleiter/BJT
-aliases:
+aliases: 
   - Längstransistor
   - Längstransistorschaltung
+keywords: 
+subject:
+  - Einführung Elektronik
+  - VL
+semester: WS24
 created: 22. September 2023
+professor:
 ---
 
 # Längstransistor Mit [Zener-Diode](../Halbleiter/Zener-Diode.md)
