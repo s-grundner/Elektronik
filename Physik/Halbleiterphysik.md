@@ -91,10 +91,21 @@ Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = 
 Ein weiterer wesentlicher Mechanismus zum Ladungstransport ist, wie bei **Gasen**, die **Diffusion**.
 
 > [!hint] Deshalb werden die Elektronen und Löcher makroskopisch auch als Elektrionengas (Fermigas) und "Löcher"-Gas bezeichnet
-> Die Wechselwirkung dieser "Ladungswolken" erfolgt via [Generation und Rekombination](#Generation%20und%20Rekombination) 
+> Die Wechselwirkung dieser "*Ladungswolken*" erfolgt via [Generation und Rekombination](#Generation%20und%20Rekombination) 
 
-Die Diffusion von Elektronen beschreibt das Phänome, dass aufgrund 
+Die Diffusion von Elektronen beschreibt das Phänomen, dass aufgrund der vorhandenen thermischen Wimmelbewegungen im statischen mittel Elektronen aus einem Bereich **hoher Elektronendichte** in benachbarte Bereiche **niedriger Elektronendichte** wandern.
 
+Äquivalent dazu ist, wie ein Gas den gesamten ihm zur Verfügung stehenden Platz einnimmt d.h in den zu ihm benachbarten Platz strömt. Dieser Strom wird umsostärker je größer der Druck bzw die Konzentration des Gases ist.
+
+> [!info] Der sogenannte **Diffusionstrom** ist proportional zu dem *Gefälle der Ladungskonzentration*
+> Also dem negativen [Gradienten](../Mathematik/Analysis/Gradient.md). Die untenstehenden Gleichungen sind in eindimensionaler Schreibweise mit der Ortskoordinaten $x$
+
+$$
+\begin{align}
+j_{\text{Diff,n}} = +eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} \\
+j_{\text{Diff,p}} = -eD_{p}\frac{\mathrm{d}p}{\mathrm{d}x}
+\end{align}
+$$
 ## Generation und Rekombination
 
 ---
