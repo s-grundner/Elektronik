@@ -12,12 +12,12 @@ semester: WS24
 created: 7. Februar 2025
 professor:
   - Bernhard Jakoby
-banner: assets/banner/GrundnerWafer.png
-banner_y: 0.32
-banner_x: 1
+banner: "assets/banner/GrundnerWafer.png"
+banner_y: 0.5
+banner_x: 0.5
 ---
  
-# Halbleiterphysik
+# <center>Halbleiterphysik</center>
 
 ## Intrinsische Halbleiter
 
@@ -87,6 +87,15 @@ $$j_{\text{Drift}} = j_{\text{Drift,n}} + j_{\text{Drift,p}} = \sigma E$$
 Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = e(n\mu_{n}+p\mu_{p})$
 
 #### Diffusionsstrom
+
+Ein weiterer wesentlicher Mechanismus zum Ladungstransport ist, wie bei **Gasen**, die **Diffusion**.
+
+> [!hint] Deshalb werden die Elektronen und Löcher makroskopisch auch als Elektrionengas (Fermigas) und "Löcher"-Gas bezeichnet
+> Die Wechselwirkung dieser "Ladungswolken" erfolgt via [Generation und Rekombination](#Generation%20und%20Rekombination) 
+
+Die Diffusion von Elektronen beschreibt das Phänome, dass aufgrund 
+
+## Generation und Rekombination
 
 ---
 

@@ -23,7 +23,7 @@ $\dfrac{V_{1}\cdot p_{1}}{T_{1}} = \dfrac{V_{2}\cdot p_{2}}{T_{2}}$
 > [!info] **Gesetz von Gay-Lussac:**  
 > $$V\propto T\implies \dfrac{V_{1}}{V_{2}} = \dfrac{T_{1}}{T_{2}}$$  
 
-## 1 Universelle Gasgleichung
+## Universelle Gasgleichung
 
 $$
 \begin{align*}
@@ -44,7 +44,7 @@ $$
 | [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md) | $k_{B}$                | $\frac{J}{K}$          |
 | allgemeine [Gaskonstante](Konstanten/Gaskonstante.md)                                | $R = N_{A}\cdot k_{B}$ | $\frac{J}{mol\cdot K}$ |
 
-## 2 Ideales Gas Und Reales Gas
+## Ideales Gas Und Reales Gas
 
 **Ideales Gas:**
 - nimmt den zu Verfügung stehenden Raum **zur Gänze** ein.
