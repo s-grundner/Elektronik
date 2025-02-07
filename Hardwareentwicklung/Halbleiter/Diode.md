@@ -20,6 +20,8 @@ keywords:
 
 # Diode
 
+> Siehe [Halbleiterphysik](../../Physik/Materialkunde/Halbleiterphysik.md)
+
 ![Shockley Gleichung](../../Physik/Shockley%20Gleichung.md#^SHOC)
 
 ## Taylorreihe
@@ -68,6 +70,9 @@ $$
 ## Dioden Variationen
 
 - [Zener-Diode](Zener-Diode.md)
+- Tunnel-Diode
 - [Leucht-Dioden](Leucht-Dioden)
 - [Kapazitäts-Diode](Kapazitäts-Diode.md)
 - [TVS-Diode](TVS-Diode.md)
+
+## 

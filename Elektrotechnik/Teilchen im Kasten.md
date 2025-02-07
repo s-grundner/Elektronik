@@ -25,4 +25,4 @@ $$
 E_{n}=\frac{\hbar^{2}n^{2}}{8mL^{2}}
 $$
 
-Diese Energie nieveaus begründen die Schalen in der Chemie
+Diese Energie niveaus begründen die Schalen in der Chemie
