@@ -95,7 +95,9 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 - die Löcher die **Majoritätsträger** und
 - die Elektronen die **Minoritätsträger**.
 
-###sdsdsd
+### Ladungsträger Transport
+
+
 
 ## pn-Übergang
 
