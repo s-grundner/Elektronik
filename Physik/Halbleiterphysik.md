@@ -99,7 +99,18 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 
 **Driftstrom**
 
+Störstellen und thermische Gitterschwingungen verursachen eine mittlere Driftgeschwindigkeit der Ladungsträger (p: Löcher, n: Elektronen)
 
+$$
+\begin{align}
+v_{n} &= -\mu_{n}E &&\implies &j_{\text{Drift,n}} = en\mu_{n}E \\
+v_{p} &= \mu_{p}E &&\implies & j_{\text{Drift,p}} = en\mu_{p}E
+\end{align}
+$$
+
+Der resultierende Gesamtstrom durch einen Dotierten Halbleiter ist
+
+$$j_{\text{Drift}} = j_{\text{Drift,n}} + j_{\text{Drift,p}} = \sigma E$$
 
 **Diffusionsstrom**
 
