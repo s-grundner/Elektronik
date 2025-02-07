@@ -1,6 +1,7 @@
 ---
 tags:
   - Halbleiter/BJT
+  - tikz/circuitikz
 aliases:
   - Spannungsgsteuerte Stromgegenkopplung
   - Basis-Vorwiderstand
@@ -21,20 +22,18 @@ professor:
 # [BJT](Bipolartransistor.md): Stromeinstellung
 
 > [!important] $I_{B}$ wird konstant in die Basis eingespeist um $I_{C}$ zu kontrollieren.
-> ![](assets/{F2EEDB5A-E1B8-4012-B917-D3D2D968B286}.png)
-
 
 ```tikz
-\usepackage[european, straightvoltages]{circuitikz}
+\usepackage[european]{circuitikz}
 \usepackage{amsmath}
 \ctikzset{bipoles/length=1cm}
-\ctikzset{diodes/scale=0.8}
 \ctikzset{transistors/scale=2}
 \begin{document}
 \begin{circuitikz}[thick, scale=1.5, transform shape]
 \draw node[npn](npn){} (0,0);
-\draw (npn.E) -- ++(2,0) to[V, v<^=$U_0$] ++(0,4) -- ++(-2,0) coordinate(k1) to[R=$R_C$, *-] (npn.C);
+\draw (npn.E) -- ++(2,0) to[V, v_<=$U_0$] ++(0,4) -- ++(-2,0) coordinate(k1) to[R=$R_C$, i=$I_{\mathrm{C},0}$, *-] (npn.C);
 \draw (k1) -- ++(-2,0) to[I, i=$I_{B,0}$] (-2,0 |- npn.B) -- (npn.B);
+\draw (npn.B) to[open, v=$U_{\mathrm{BE},0}$] (npn.E);
 \end{circuitikz}
 \end{document}
 ```
@@ -43,6 +42,20 @@ professor:
 
 Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwiderstandes.
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/length=1cm}
+\ctikzset{transistors/scale=2}
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, transform shape]
+\draw node[npn](npn){} (0,0);
+\draw (npn.E) node[rground]{};
+\draw (npn.C) to[R, l=$R_{\mathrm{C}}$, i_<=$I_{\mathrm{C},0}$] ++(0,2) node[vcc]{$U_0$};
+\draw (npn.B) to[short, i^<=$I_{\mathrm{B},0}$] ++(-2, 0) -- ++(0,0 |- npn.C) to[T];
+\end{circuitikz}
+\end{document}
+```
 
 
 ![](assets/{95B107D5-DC3F-45C8-ABCE-0060B795A7D9}.png)
