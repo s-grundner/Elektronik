@@ -97,19 +97,30 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von 
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
 
-> [!def] **D1 - ZAGL)** Zustands und Ausgangs
+> [!def] **D1 - ZSGL)** Zustands und Ausgangsgleichungen
+ >
+> $$
+> \begin{align}
+> \mathbf{\dot{x}}(t) = \mathbf{A}\cdot \mathbf{x}(t) + \mathbf{B}\cdot \mathbf{u}(t) \\
+> \mathbf{y}(t) = \mathbf{C}\cdot \mathbf{x}(t) + \mathbf{D}\cdot \mathbf{u}(t) 
+> \end{align}
+> $$ 
 > 
-> 
-> 
-> 
- 
-$$
-\begin{align}
-\mathbf{\dot{x}}(t) = \mathbf{A}\cdot \mathbf{x}(t) + \mathbf{B}\cdot \mathbf{u}()
-\end{align}
-$$ 
+> Diese Gleichungen sind ausriechend um ein [LTI-System](LTI-Systeme.md) vollständig zu beschrieben
 
+> [!def] **D1 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
+> $\mathbf{A}$ Systemmatrix ($\in n\times n$)
+> $\mathbf{B}$ Eingangsmatrix ($\in n \times p$)
+> $\mathbf{C}$ Ausgangsmatrix ($\in q \times n$)
+> $\mathbf{D}$ Durchgangsmatrix ($\in q \times p$)
 
+Zur Erinnerung: Zeilen $\times$ Spalten
+### Zustandsgleichung als Blockdiagramm
+
+![invert_dark|1000](assets/ZSGLBSB.png)
+
+- Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Eingangsmatrix** $\mathbf{B}$ den (abgeleiteten) Zustandsvariablen zugeführt
+- Ein Satz von *Integratoren* (für jede Zustandsvariable) bildet mit der **Systemmatrix** $\mathbf{A}$
 Durchgangsmatrix geht nicht an die Speichernden Elementen im System sondern direkt auf den Ausgnag über
 
 ---
