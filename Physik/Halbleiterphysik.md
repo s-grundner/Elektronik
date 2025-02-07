@@ -68,14 +68,15 @@ Die Dichte der erzeugten Ladungsträger, also den Elektronen-Loch Paaren, ist di
 
 ### Ladungsträger Transport
 
-Im Allgemeinen findet man bei betrachtung von Ladungsträgern **Drift-** und **Diffusionsströme** im Halbleiter vor. Die Entsprechenden Stomdichten setzen sich wiefolght zusammen:
+Im Allgemeinen findet man bei betrachtung vom Ladungsträgertransport in Halbleitern **Drift-** und **Diffusionsströme** vor. Die Entsprechenden Stomdichten setzen sich als folgende Differntialgleichungen zusammen:
 
 $$
 \begin{align}
-j_{n} &= \underbrace{ en\mu_{n}E }_{ \text{Driftstrom} }&&+\underbrace{ eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} }_{ \text{Diffusionsstrom} } \\
-j_{p} &= ep\mu_{p}E&&-\overbrace{ eD_{p}\frac{\mathrm{d}p}{\mathrm{d}x} }^{ \qquad \quad \qquad \!}
+j_{n} = en\mu_{n}E&+\quad \!\!eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} \\
+j_{p} = \underbrace{ ep\mu_{p}E }_{ \text{Driftstrom} }&-\underbrace{ eD_{p}\frac{\mathrm{d}p}{\mathrm{d}x} }_{\text{Diffusionsstrom}}
 \end{align}
 $$
+$$j = j_{p}+j_{n}$$
 
 #### Driftstrom
 
@@ -115,6 +116,7 @@ j_{\text{Diff,n}} = +eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} \qquad
 j_{\text{Diff,p}} = -eD_{p}\frac{\mathrm{d}p}{\mathrm{d}x}
 $$
 
+Dabei sind $D_{n}$ und $D_{p}$ die Diffusionskoeffizienten, welche durch die [[Einstein-Smoluchowski-Beziehung]] gegben sind: 
 
 ## Generation und Rekombination
 
