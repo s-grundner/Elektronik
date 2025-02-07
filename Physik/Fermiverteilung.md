@@ -1,7 +1,12 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+  - Halbleiter
+aliases:
+  - Eigenleitungsdichte
+  - Zustandsdichte
+keywords:
+  - Eigenleitungsdichte
+  - Zustandsdichte
 subject:
   - Einführung Elektronik
   - VL
@@ -11,6 +16,8 @@ professor:
 ---
  
 # Fermiverteilung
+
+> [!warning] Für die [Halbleiterphysik](Halbleiterphysik.md) hinriechend relevante Grundlagen
 
 Ein Elektron kann gleichzietig nur ein einziges erlaubtes Energieniveau besetzen ([Pauli-Prinzip](../Elektrotechnik/Teilchen%20im%20Kasten.md))
 
@@ -35,6 +42,30 @@ Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [inf
 
 ## Zustandsdichte
 
+
+
+## Eigenleitungsdichte
+
+
+> [!question] Für schwach [dotierte Halbleiter](Halbleiterphysik.md#Dotierte%20Halbleiter) ergibt sich für die durchschnittliche **Anzahldichte** an freien Löchern $p$ und Elektronen $n$ bei einer jeweiligen Temperatur. ^LTTP
+> Fermi-Verteilung als Boltzmann-Verteilung genähert:
+> 
+> $$
+> \begin{align}
+> n = N_{L} \exp \left( - \frac{W_{L}-W_{F}}{kT} \right) \\ 
+> p = N_{V} \exp \left( + \frac{W_{V}-W_{F}}{kT} \right) 
+> \end{align}
+> $$
+
+| $n$... Elektronendichte | $N_{L}$ effektive Zustandsdichte in [Leitungsband](Halbleiterphysik.md) | $W_{L}$... Energie der Unterkante im Leitungsband |
+| ----------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
+| $p$... Elektronendichte | $N_{V}$ effektive Zustandsdichte in [Valenzband](Halbleiterphysik.md)   | $W_{V}$... Energie der Oberkante im Valenzband    |
+
+Aus dem Massenwirkungsgesetz ergibt sich für die Eigenleitungsdichte:
+
+$$
+n_{i} = p\cdot n \implies 
+$$
 
 
 ---
