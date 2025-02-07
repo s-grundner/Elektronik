@@ -1,6 +1,6 @@
 # Ungeregelte Spannungsstabilisierung
 
-## Stabilisierungsschaltung Mit Einer [Zener-Diode](../Halbleiter/Zener-Diode.md)
+## Stabilisierungsschaltung Mit Einer Zener-Diode
 
 Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspannung in einem wieten Bereich konstant gehalten werden.
 
@@ -35,8 +35,8 @@ Möchte man mit möglichst *geringem Stromverbrauch* auskommen, so dimensioniert
 
 Für eine *optimale Stabilisierung* ist folgendes zu beachten:
 - $U_{e}\approx 2\cdot U_{Z}$
-- Der *Arbeitspunkt* liegt in der *Mitte* der Kennlinie, bei *$\frac{I_{Z}}{2}$*
-- *$I_{Z,min}$* darf *nicht unterschritten* werden.
+- Der *Arbeitspunkt* liegt in der *Mitte* der Kennlinie, bei *$\frac{I_{Z}}{2}$* (Gleiche Aussteuerung nach oben und unten möglich)
+- *$I_{Z,min}$* darf *nicht unterschritten* werden. (Da sonst die Spannung einbricht)
 - *$R_{V}$* begrenzt *$I_{Z}$* bei *$U_{e,max}$* auf *$I_{Z,max}$* 
 
 > [!SUMMARY] Absoluter Stabilisierungsfaktor  
