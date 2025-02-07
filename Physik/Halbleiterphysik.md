@@ -12,17 +12,22 @@ semester: WS24
 created: 7. Februar 2025
 professor:
   - Bernhard Jakoby
+banner: assets/banner/GrundnerWafer.png
+banner_y: 0.32
+banner_x: 1
 ---
  
 # Halbleiterphysik
 
 ## Intrinsische Halbleiter
 
+Intrinsisch $\to$ Nicht Dotiert
+
 > [!important] Bändermodell des [Siliziums](Silizium.md)
 > 
 > Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
 > 
-> ![invert_dark](assets/SiLeitungsValenzband.png)
+> ![invert_dark|1000](assets/SiLeitungsValenzband.png)
 
 Unterschiede des Bändermodells verschiedener Leiterklassen:
 
@@ -126,7 +131,7 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 - die Elektronen die **Minoritätsträger**.
 
 
-### pn-Übergang
+### pn-Übergang / Diode
 
 
 

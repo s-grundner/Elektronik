@@ -18,9 +18,11 @@ keywords:
   - Arbeitspunkt
 ---
 
-# Diode
+# Diode als Bauelement
 
-> Siehe [Halbleiterphysik](../../Physik/Halbleiterphysik.md)
+> [!question] Für den Aufbau einer Diode, siehe [Halbleiterphysik](../../Physik/Halbleiterphysik.md)
+
+Die Stromspannungsbeziehung einer Diode ist durch die Shockleygleichung definiert.
 
 ![Shockley Gleichung](../../Physik/Shockley%20Gleichung.md#^SHOC)
 
