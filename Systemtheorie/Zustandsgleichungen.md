@@ -17,29 +17,75 @@ professor:
 
 # Zustandsbeschreibung eines Systems
 
-- Der Zustand des Systems beschreibt die internen Größen des Systems
+Der Zustand des Systems beschreibt die internen Größen des Systems
 
 > [!question] Wie lässt sich der Zustand ermitteln?
 > Für jeden Zeitpunkt $t_0$ reicht
 > - die Kenntnis des Zustandes **zu diesem Zeitpunkt** $t_0$
 > - zusammen mit der Kenntnis **der Erregung** für alle Zeiten $t \geq t_0$ aus,
 > 
-> um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen
+> um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen.
+> 
 
-
-- Es spielt dabei keine Rolle, wie der Zustand in der Vergangenheit (zu Zeiten $t<t_0$ ) entstanden ist
+- Es spielt dabei **keine Rolle**, wie der Zustand in der **Vergangenheit** (zu Zeiten $t<t_0$ ) entstanden ist
 - In der Regel wird der Zustand eines Systems durch mehrere Größen beschrieben
-- Häufig werden Systeme mit mehreren Eingängen und mehreren Ausgängen betrachtet
+- Häufig werden Systeme mit mehreren Eingängen und mehreren Ausgängen betrachtet (MIMO - multiple inputs, multiple outputs))
 
-Zustandsgrößen sind Variablen die auskunft über die vom System beinhaltete Energie geben. 
+> [!hint] Zustandsgrößen sind Variablen, die Auskunft über die vom System beinhaltete **Energie** geben. 
+> 
+> - Im Feder-Masse-Dämpfer-System: Geschwindigkeit $v$ und Auslenkung $x$
+> - Im RC: Spannung am C $u_{c}(t)$
+> - Im RLC: Spannung am C $u_{c}(t)$ und Strom in L $i_{l}(t)$ ([Beispiel: Parallelschwingkreis](#Parallelschwingkreis))
+> 
 
-- Im Feder-Masse-Dämpfer-System: Geschwindigkeit $v$ und Auslenkung $x$
-- Im RC: Spannung am C $u_{c}(t)$
-- Im RLC: Spannung am C $u_{c}(t)$ und Strom in L $i_{l}(t)$
+
+Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von ein und Ausgängen zu erweitern (MIMO)
+
+## Zustandsgleichungen
+
+- Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
+- Im allgemeinen Fall: ein System von Differentialgleichungen
+- Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
+
+> [!hint] [Lineare DGL n-ter Ordnung](Mathematik/Analysis/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
+> Differentialgleichung $n$-ter Ordnung:
+> 
+> $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
+> 
+> Wird Zu *($\alpha$ sind negativ da die größen auf die Andere Seite des LGS gebracht wurden)*
+> 
+> $$
+> \begin{aligned}
+> \begin{pmatrix}
+> \dot{x}_1 \\ \dot{x}_2 \\ \vdots \\ \dot{x}_{n-1} \\ \dot{x}_n
+> \end{pmatrix} = \begin{pmatrix}
+> 0 & 1 & 0 & \ldots & 0 \\
+> 0 & 0 & 1 & \ddots & 0 \\
+> \vdots & \vdots & \ddots & \ddots & \vdots \\
+> -\alpha_{1} & -\alpha_{2} & -\alpha_{3} & \ldots & -\alpha_{n-1}
+> \end{pmatrix}\cdot \begin{pmatrix}
+> x_1 \\ x_2 \\ \vdots \\ x_{n-1} \\ x_n
+> \end{pmatrix}+ \begin{pmatrix}
+> 0 \\ 0 \\ \vdots \\ 0 \\ u
+> \end{pmatrix} \\
+> \end{aligned}
+> $$
+> 
 
 
+- Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von **Zustandsvariablen**
+- Annahme: Es gibt $p$ **Eingangsgrößen** $u_1, u_2, \ldots, u_p$
+- Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ Eingangsgrößen und allen Zustandsgrößen $x_1, x_2, \ldots, x_n$ abhängen
+- Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist $\rightarrow$ Zustandsgleichungen
 
-Der Zustandsraum ist die Vorbeireitung um Systeme auf eine beliebige anzahl von ein und Ausgängen zu erweitern (MIMO)
+
+Durchgangsmatrix geht nicht an die Speichernden Elementen im System sondern direkt auf den Ausgnag über
+
+---
+
+# Beispiel
+
+## Parallelschwingkreis
 
 >[!example] Zustandsbeschreibung eines Parallelschwingkreis
 > Relevant ist, wo hier die Energie gespeichert wird. 
@@ -60,12 +106,10 @@ Der Zustandsraum ist die Vorbeireitung um Systeme auf eine beliebige anzahl von 
 \end{document}
 ```
 
-Zustansgrößen:
+> [!important] Zustansgrößen: $u_C(t)$, $i_L(t)$
+> 
+> Beide Größen sind Funktionen der Zeit und mit den beiden unabhängigen Energiespeichern im System direkt verknüpft $\rightarrow$ Zustandsvariablen Die Kapazität speichert die gesamte Vergangenheit in Form der eingebrachten Ladung als Spannung $u_C\left(t_0\right)$ und die Induktivität in Form des Stromes $i_L\left(t_0\right)$
 
-- $u_C(t)$
-- $i_L(t)$
-
-Beide Größen sind Funktionen der Zeit und mit den beiden unabhängigen Energiespeichern im System direkt verknüpft $\rightarrow$ Zustandsvariablen Die Kapazität speichert die gesamte Vergangenheit in Form der eingebrachten Ladung als Spannung $u_C\left(t_0\right)$ und die Induktivität in Form des Stromes $i_L\left(t_0\right)$
 
 Gleichungen zur Zustandsbeschreibung:
 
@@ -79,43 +123,4 @@ i_L(t) & =\frac{1}{L} \int_{-\infty}^t u_L(\tau) \mathrm{d} \tau=\frac{1}{L} \in
 $$
 
 
-Mit jedem zusätzlichen energie speicher steigt die Ordnung der DGL die das system beschreibt um 1.
-
-## Zustandsgleichungen
-
-- Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
-- Im allgemeinen Fall: ein System von Differentialgleichungen
-- Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
-
-> [!hint] [Lineare DGL n-ter Ordnung](Mathematik/Analysis/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
-> Differentialgleichung $n$-ter Ordnung:
-> 
-> $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
-> 
-> Wird Zu
-> 
-> $$
-> \begin{aligned}
-> \begin{pmatrix}
-> \dot{x}_1 \\ \dot{x}_2 \\ \vdots \\ \dot{x}_{n-1} \\ \dot{x}_n
-> \end{pmatrix} = \begin{pmatrix}
-> 0 & 1 & 0 & \ldots & 0 \\
-> 0 & 0 & 1 & \ddots & 0 \\
-> \vdots & \vdots & \ddots & \ddots & \vdots \\
-> \alpha_{1} & \alpha_{2} & \alpha_{3} & \ldots & \alpha_{n-1}
-> \end{pmatrix}\cdot \begin{pmatrix}
-> x_1 \\ x_2 \\ \vdots \\ x_{n-1} \\ x_n
-> \end{pmatrix}+ \begin{pmatrix}
-> 0 \\ 0 \\ \vdots \\ 0 \\ b(t)
-> \end{pmatrix} \\
-> \end{aligned}
-> $$
-> 
- 
-- Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von Zustandsvariablen
-- Annahme: $p$ Eingangsgrößen $u_1, u_2, \ldots, u_p$
-- Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ Eingangsgrößen und allen Zustandsgrößen $x_1, x_2, \ldots, x_n$ abhängen
-- Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist $\rightarrow$ Zustandsgleichungen
-
-
-Durchgangsmatrix geht nicht an die Speichernden Elementen im System sondern direkt auf den Ausgnag über
+Mit jedem **zusätzlichen Energie-Speicher** steigt die Ordnung der DGL die das System beschreibt um **1**.
