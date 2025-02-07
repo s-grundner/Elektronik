@@ -20,7 +20,7 @@ professor:
 
 Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
 
-![invert_dark|700](assets/SiLeitungsValenzband.png)
+![invert_dark](assets/SiLeitungsValenzband.png)
 
 Unterschiede des Bändermodells verschiedener Leiterklassen:
 
@@ -41,11 +41,13 @@ Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien el
 
 ![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
 
-Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“). Dichte der erzeugten Ladungsträger:
+Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“).
 
-$$
-n_i^2=C \cdot e^{\left(-\tfrac{W_G}{k_b T}\right)}
-$$
+> [!important] Eigenleitungsdichte: Dichte der erzeugten Ladungsträger:
+> 
+>$$n_i^2=C \cdot \exp\left(-\tfrac{W_G}{k_b T}\right)\impliedby n_{i} = \sqrt{ n\cdot p }$$
+>
+> 
 
 Dadurch können auch im [Valenzband](../../Chemie/Valenzelektronen.md) wieder Elektronen verschoben werden.
 
@@ -97,7 +99,7 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 
 ### Ladungsträger Transport
 
-> [!question] Für schwach dotierte Halbleiter ergibt sich für die durchschnittliche Anzahldichte an freien Löchern $p$ und Elektronen $e$ bei einer jeweiligen Temperatur
+> [!question] Für schwach dotierte Halbleiter ergibt sich für die durchschnittliche Anzahldichte an freien Löchern $p$ und Elektronen $e$ bei einer jeweiligen Temperatur. 
 > (Fermi-Verteilung als Boltzmann-Verteilung genähert)
 > 
 > $$
@@ -106,9 +108,10 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 > p = N_{V} \exp \left( + \frac{W_{V}-W_{F}}{kT} \right) 
 > \end{align}
 > $$
-> $n$... Elektronendichte | $N_{L}$ effekt
-> $p$... Elektronendichte |
 
+| $n$... Elektronendichte | $N_{L}$ [effektive Zustandsdichte](Fermiverteilung.md) in [Leitungsband](Halbleiterphysik.md) | $W_{L}$... Energie der Unterkante im Leitungsband |
+| ----------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| $p$... Elektronendichte | $N_{V}$ effektive Zustandsdichte in [Valenzband](Halbleiterphysik.md)                         | $W_{V}$... Energie der Oberkante im Valenzband    |
 
 #### Driftstrom
 

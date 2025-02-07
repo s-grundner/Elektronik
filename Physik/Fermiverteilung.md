@@ -33,6 +33,10 @@ Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [inf
 
 ![600](../assets/Excalidraw/Fermiverteilung%202025-02-07%2015.41.59.excalidraw)
 
+## Zustandsdichte
+
+
+
 ---
 
 [Fermi-Dirac-Statistik – Wikipedia](https://de.wikipedia.org/wiki/Fermi-Dirac-Statistik)
