@@ -72,7 +72,6 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von 
 > $$
 > 
 
-
 - Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von **Zustandsvariablen**
 
 > [!info] Annahme: Es gibt $p$ **Eingangsgrößen** $u_1, u_2, \ldots, u_p$
@@ -119,9 +118,10 @@ Zur Erinnerung: Zeilen $\times$ Spalten
 
 ![invert_dark|1000](assets/ZSGLBSB.png)
 
-- Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Eingangsmatrix** $\mathbf{B}$ den (abgeleiteten) Zustandsvariablen zugeführt
-- Ein Satz von *Integratoren* (für jede Zustandsvariable) bildet mit der **Systemmatrix** $\mathbf{A}$
-Durchgangsmatrix geht nicht an die Speichernden Elementen im System sondern direkt auf den Ausgnag über
+- Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Eingangsmatrix** $\mathbf{B}$ den (abgeleiteten) Zustandsvariablen zugeführt.
+- Ein Satz von *Integratoren* (für jede Zustandsvariable) bildet mit der **Systemmatrix** $\mathbf{A}$ im Rückführungszweig eine **Rückkopplungsschleife**.
+- Von den Ausgängen der *Integratoren* wird der nun Integrierte **Zustandsvektor** $\mathbf{x}(t)$ über die **Ausgangsmatrix** $\mathbf{C}$ auf den **Ausgangsvektor** $\mathbf{y}(t)$ abgebildet.
+- Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Durchgangsmatrix** $D$ direkt zum **Ausgangsvektor** $\mathbf{y}(t)$ übertragen. (Geht also an den Speichernden elementen des Systems vorbei)
 
 ---
 
