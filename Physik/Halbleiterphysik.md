@@ -97,7 +97,11 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 
 ### Ladungsträger Transport
 
+**Driftstrom**
 
+
+
+**Diffusionsstrom**
 
 ## pn-Übergang
 
