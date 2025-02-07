@@ -52,12 +52,22 @@ Dadurch können auch im [Valenzband](../../Chemie/Valenzelektronen.md) wieder El
 
 Statt der Bewegung dieser Valenzelektronen kann man auch das Wandern des Loches betrachten das sich wie ein positiv geladener Ladungsträger verhält. Die Löcher bewegen sich unabhängig von den „zugehörigen“ Elektronen.
 
+## Dotierte Halbleiter
+
+Die extrem niedrige Leitfähigkeit von reinen Halbleitern lässt sich durch das Einbringen von 3- oder 5-Wertigen Fremdatomen massiv erhöhen. Dieser Vorgang heißt Dotierung.
+
+#### n-Halbleiter
+
+Im Silizium wird ein Atom durch ein **5-Wertiges** Atom ersetzt.
+Das 5. Elektron des Fremdatoms wird für das Kristallgitter nicht mehr benötigt und wird **frei**.
+Das Elektron wandert in das Leitungsband, wird frei beweglich und steht permanent als Leitungselektron zur verfügung
+
+Das ****
+
+
 ## pn-Übergang
 
 ### Eigenleitungsdichte
 
 
-
----
-
-[^1]: Intrinsisch: 
+[^1]: Intrinsische Leitfähigkeit: Nicht Dotiert nur die Leitungsfähigkeit "von sich aus" durch Thermisch bedingte Gitterfehler
