@@ -3,6 +3,7 @@ tags:
 aliases:
   - Zustandsbeschreibung
   - Zustandsvariablen
+  - Zustandsraum
 keywords: 
 subject:
   - VL
@@ -10,6 +11,7 @@ subject:
 semester: WS24
 created: 18. Dezember 2024
 professor:
+  - Andreas Stelzer
 ---
  
 
@@ -52,6 +54,7 @@ Der Zustandsraum ist die Vorbeireitung um Systeme auf eine beliebige anzahl von 
 ```
 
 Zustansgrößen:
+
 - $u_C(t)$
 - $i_L(t)$
 
