@@ -47,7 +47,7 @@ Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [inf
 ## Eigenleitungsdichte
 
 
-> [!question] Für schwach [dotierte Halbleiter](Halbleiterphysik.md#Dotierte%20Halbleiter) ergibt sich für die durchschnittliche **Anzahldichte** an freien Löchern $p$ und Elektronen $n$ bei einer jeweiligen Temperatur. ^LTTP
+> [!question] Für schwach [dotierte](Halbleiterphysik.md#Dotierte%20Halbleiter) oder intrinsische Halbleiter ergibt sich für die durchschnittliche **Anzahldichte** an freien Löchern $p$ und Elektronen $n$ bei einer jeweiligen Temperatur. ^LTTP
 > Fermi-Verteilung als Boltzmann-Verteilung genähert:
 > 
 > $$
@@ -57,11 +57,11 @@ Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [inf
 > \end{align}
 > $$
 
-| $n$... Elektronendichte | $N_{L}$ effektive Zustandsdichte in [Leitungsband](Halbleiterphysik.md) | $W_{L}$... Energie der Unterkante im Leitungsband |
+| $n$... Elektronendichte | $N_{L}$ effektive Zustandsdichte im [Leitungsband](Halbleiterphysik.md) | $W_{L}$... Energie der Unterkante im Leitungsband |
 | ----------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- |
-| $p$... Elektronendichte | $N_{V}$ effektive Zustandsdichte in [Valenzband](Halbleiterphysik.md)   | $W_{V}$... Energie der Oberkante im Valenzband    |
+| $p$... Elektronendichte | $N_{V}$ effektive Zustandsdichte im [Valenzband](Halbleiterphysik.md)   | $W_{V}$... Energie der Oberkante im Valenzband    |
 
-Aus dem Massenwirkungsgesetz ergibt sich für die Eigenleitungsdichte:
+Aus dem Massenwirkungsgesetz folgt die Eigenleitungsdichte:
 
 
 > [!important] **Eigenleitungsdichte**: 

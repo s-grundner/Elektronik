@@ -34,12 +34,15 @@ Unterschiede des Bändermodells verschiedener Leiterklassen:
 Reines Silizium hat die Struktur eines Atomgitters.
 ![invert_dark|600](assets/Pasted%20image%2020250207135059.png)
 - Das **Valenzband** ist das Energieniveau der Äußersten elektronen innerhalb des Gitters ([Valenzelektronen](../../Chemie/Valenzelektronen.md))
-- Das **Leitungsband** ist das nächst oberste erlaubte Energieniveau auf dem sich freie elektronen aufhalten können  
+- Das **Leitungsband** ist das oberste erlaubte Energieniveau auf dem sich freie elektronen aufhalten können  
 
+
+
+![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
 
 Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien elektronen, da diese fest an das Atomgitter gebunden sind.
 
-![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
+Durch thermische Anregung und Störstellen folgt jedoch: 
 
 > [!important] **"Löcher"** in Halbleitern
 > - Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“).
@@ -79,7 +82,7 @@ In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elek
 #### p-Halbleiter
 
 - Im Silizium wird ein Atom durch ein **3-Wertiges** Atom ersetzt.
-- Dem 3-Wertigen Atom wird von benachbarten Silizium Atomen ein Elektron *entliehen*
+- Dem 3-Wertigen Atom wird von benachbarten Silizium Atomen ein Elektron **entliehen**
 - Durch die Nachrückung der Elektronen entsteht ein Freibewegliches **Loch**
 
 Das **Akzeptor** Atom erhält durch die Aufnahme eines benachbarten Valenzelektrons eine **negative** Ladung, und hält daher das **Loch** Lokal bei sich.
@@ -107,9 +110,9 @@ $$
 \end{align}
 $$
 
-| sdsd |     |
-| ---- | --- |
-|      |     |
+| $n$ | Ladungsträgerdichte der Elektronen |
+| --- | ---------------------------------- |
+
 
 Der resultierende Gesamtstrom durch einen Dotierten Halbleiter ist
 
