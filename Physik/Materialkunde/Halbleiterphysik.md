@@ -58,13 +58,18 @@ Die extrem niedrige Leitfähigkeit von reinen Halbleitern lässt sich durch das 
 
 #### n-Halbleiter
 
-Im Silizium wird ein Atom durch ein **5-Wertiges** Atom ersetzt.
-Das 5. Elektron des Fremdatoms wird für das Kristallgitter nicht mehr benötigt und wird **frei**.
-Das Elektron wandert in das Leitungsband, wird frei beweglich und steht permanent als Leitungselektron zur verfügung
+- Im Silizium wird ein Atom durch ein **5-Wertiges** Atom ersetzt.
+- Das 5. Elektron des Fremdatoms wird für das Kristallgitter nicht mehr benötigt und wird **frei**.
+- Das Elektron wandert in das Leitungsband, wird frei beweglich und steht permanent als Leitungselektron zur verfügung
 
-Das ****
+Das **Donator** Atom erhält durch die Abgabe seines Valenzelektrons eine positive Ladung, und hält daher das Elektron Lokal bei sich.
+Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%20Feld.md) entfernt sich das Elektron vom Ortsfesten Donator.
 
+> [!info] Auswirkungen im gezeigt im Bändermodell
+> Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der Leitungsbandkante darstellen 
+> ![600](../../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw) 
 
+Somit ist eine geringere Aktivierungsdichten notwändig, um 
 ## pn-Übergang
 
 ### Eigenleitungsdichte
