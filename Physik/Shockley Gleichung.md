@@ -9,6 +9,9 @@ subject:
 semester: WS24
 created: 4. März 2024
 professor:
+  - Bernhard Jakoby
+def:
+  - SHOC
 ---
  
 
@@ -18,7 +21,7 @@ Die Shockley-Gleichung, benannt nach William B. Shockley, beschreibt die Strom-S
 
 ## Bei der [Diode](../Hardwareentwicklung/Halbleiter/Diode.md)
 
-> [!def] **D - SHOC)** ^SHOC
+> [!def] **D1 - SHOC)** Shockley-Gleichung ^SHOC
 > $$I_{D}(U_{D}) = I_{S}\cdot(e^{\frac{U_{D}}{\eta\cdot U_{T}}}-1)$$ 
 
 | Bezeichnung |                            |
