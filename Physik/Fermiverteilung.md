@@ -19,6 +19,8 @@ professor:
 
 Mathematischer Ausdruck
 
-> [!def] **D1 - FERM)** Fermiverteilung
-> $$F(W) = \frac{1}{1+\exp\left\{  \frac{W-W_{F}}{k_{b}T} \right\}}$$
-> $F(W)$ ... 
+> [!def] **D1 - FERM)** Fermiverteilung ^FERM
+> $$F(W) = \frac{1}{1+\exp\left\{\frac{W-W_{F}}{k_{b}T} \right\}}$$
+> $F(W)$... Besetzungswahrscheinlichkeit | $W$... Energie | $W_{F}$... Ferminiveau | $T$... Temperatur | $k_{B}$... [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md)
+
+Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [infinitesimale](../Mathematik/{MOC}%20Analysis.md) Energieband

@@ -13,6 +13,8 @@ created: 26th March 2022
 
 # Map of Content - Analysis
 
+Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit infinitesimalen[^1] und unendlichen Grenzwerten sowie kontinuierlichen Veränderungen.
+
 > [!important] [Fundamentalsatz der Analysis](Analysis/Fundamentalsatz%20der%20Analysis.md)
 
 - 🗺️[Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
@@ -20,15 +22,19 @@ created: 26th March 2022
 - [Folgen](Folgen.md)
 - [Reihen](Reihe.md)
 
-| [**Differenzialrechnung**](Analysis/Differenzialrechnung.md)                              | [**Integralrechnung**](Analysis/Integralrechnung.md) |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| [Totale Ableitung](Analysis/Total%20Differenzierbar.md)                                   | [Riemann-Integral](Analysis/Riemann-Integral.md)     |
-| [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)                                  |                                                      |
-| [Gradient](Analysis/Gradient.md)<br>                                                      |                                                      |
-| [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Mittelwertsatz der Integralrechnung]]              |
+## Infinitesimalrechnung
+
+| [**Differenzialrechnung**](Analysis/Differenzialrechnung.md)                              | [**Integralrechnung**](Analysis/Integralrechnung.md)         |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [Totale Ableitung](Analysis/Total%20Differenzierbar.md)                                   | [Riemann-Integral](Analysis/Riemann-Integral.md)             |
+| [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)                                  | [Partielle Integration](Analysis/Partielle%20Integration.md) |
+| [Gradient](Analysis/Gradient.md)<br>                                                      |                                                              |
+| [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Mittelwertsatz der Integralrechnung]]                      |
 
 > [!important] 🗺️[Differenzialgleichungen]({MOC}%20DGL.md)
 > ![DGL Structure](Analysis/DGL%20Overview.canvas)
 
 
  
+
+[^1]: Beliebig Kleinen
