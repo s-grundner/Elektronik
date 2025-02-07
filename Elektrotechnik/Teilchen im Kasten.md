@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Pauli-Prinzip
 keywords: 
 subject:
   - VL
@@ -26,3 +27,7 @@ E_{n}=\frac{\hbar^{2}n^{2}}{8mL^{2}}
 $$
 
 Diese Energie niveaus begründen die Schalen in der Chemie
+
+---
+
+- [Pauli-Prinzip – Wikipedia](https://de.wikipedia.org/wiki/Pauli-Prinzip)

@@ -12,7 +12,10 @@ professor:
  
 # Fermiverteilung
 
-Die Fermi-Verteilung gibt an, mit welcher Wahschrienlichkkeit bei gegebener absoluter Temparatur ein Zusatand der Energie
+Ein Elektron kann gleichzietig nur ein einziges erlaubtes Energieniveau besetzen ([Pauli-Prinzip](../Elektrotechnik/Teilchen%20im%20Kasten.md))
+
+Die Fermiverteilung gibt an, mit welcher Wahrscheinlichkeit [...] ein Energieniveau $W$ von einem der Elektronen in einem Fermigas besetzt ist. (Bei gegbener absoluter Temparatur $T$)
+
 
 > [!important] Besetzungswahrscheinlichkeit $F(W)$ in abhängigkeit von der Energie $W$
 > Die Fermiverteilung beschreibt also:

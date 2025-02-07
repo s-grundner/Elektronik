@@ -95,10 +95,10 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 - die Löcher die **Majoritätsträger** und
 - die Elektronen die **Minoritätsträger**.
 
+###sdsdsd
 
 ## pn-Übergang
 
-### Eigenleitungsdichte
 
 
 [^1]: Intrinsische Leitfähigkeit: Nicht Dotiert nur die Leitungsfähigkeit "von sich aus" durch Thermisch bedingte Gitterfehler
