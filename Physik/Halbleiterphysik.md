@@ -68,7 +68,7 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
 > ![600](../../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw) 
-> Somit ist eine niedrigere Aktivierungsenergie 
+> Somit ist eine niedrigere Aktivierungsenergie notwendig, um ein Elektron vom Donator ins Leitungsband.
 
 In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elektronen als Löcher Verfügbar.
 - Die Elektronen stellen die so genannten **Majoritätsträger** da,
@@ -85,9 +85,10 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Akzeptoratom lokal ein zusätzliches Energieniveau nahe der **Valenzbandkante** darstellen 
-> 
+> ![700](../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.47.50.excalidraw)
+> Somit ist eine niedrigere Aktivierungsenergie notwändig, um diese Elektron in das Leitungsband anzuheben.
 
-In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elektronen als Löcher Verfügbar.
+In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind weit mehr Löcher als Elektronen Verfügbar.
 - Die Elektronen stellen die so genannten **Majoritätsträger** da,
 - während die Löcher die **Minoritätsträger** räpresentiern.
 

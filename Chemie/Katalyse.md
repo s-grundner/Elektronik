@@ -6,6 +6,7 @@ aliases:
   - Reaktionsgeschwindigkeit
   - Kinetik
   - Katalysator
+  - Enzyme
 subject:
   - chemie
 source:
