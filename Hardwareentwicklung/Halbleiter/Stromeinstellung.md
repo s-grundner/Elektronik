@@ -43,22 +43,19 @@ professor:
 Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwiderstandes.
 
 ```tikz
-\usepackage[european, straightvoltages]{circuitikz}
+\usepackage[european]{circuitikz}
 \usepackage{amsmath}
 \ctikzset{bipoles/length=1cm}
 \ctikzset{transistors/scale=2}
 \begin{document}
 \begin{circuitikz}[thick, scale=1.5, transform shape]
 \draw node[npn](npn){} (0,0);
-\draw (npn.E) node[rground]{};
 \draw (npn.C) to[R, l=$R_{\mathrm{C}}$, i_<=$I_{\mathrm{C},0}$] ++(0,2) node[vcc]{$U_0$};
-\draw (npn.B) to[short, i^<=$I_{\mathrm{B},0}$] ++(-2, 0) -- ++(0,0 |- npn.C) to[T];
+\draw (npn.B) to[short, i^<=$I_{\mathrm{B},0}$] ++(-1, 0) -- ++(0,0 |- npn.C) to[R=$R$] ++(0,2) node[vcc]{$U_0$};
+\draw (npn.B) to[open, v=$U_{\mathrm{BE},0}$] (npn.E) node[rground]{};
 \end{circuitikz}
 \end{document}
 ```
-
-
-![](assets/{95B107D5-DC3F-45C8-ABCE-0060B795A7D9}.png)
 
 
 > [!warning] Vor und Nachteile
@@ -73,6 +70,22 @@ Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwidersta
 > [!success] Robustheit gegenüber der $B$-Streuung:
 > 
 >Da hier $I_{B}$ nicht mehr konstant in die Basis eingeprägt wird, wirkt diese Regelung auch gegen die $B$-Streuung.
+
+```tikz
+\usepackage[european]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/length=1cm}
+\ctikzset{transistors/scale=2}
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, transform shape]
+\draw node[npn](npn){} (0,0);
+\draw (npn.C) to[short, i<=$I_{\mathrm{C},0}$] ++(0,1) coordinate (k1);
+\draw (npn.B) to[open, v=$U_{\mathrm{BE},0}$] (npn.E) node[rground]{};
+\draw (k1) -- ++(-2,0) to[R, l_=$R$] (-2,0 |- npn.B) to[short, i=$I_{\mathrm{B},0}$] (npn.B);
+\draw (k1) to[R, l_=$R_{\mathrm{C}}$, *-] ++(0,2) node[vcc]{$U_0$};
+\end{circuitikz}
+\end{document}
+```
 
 ![](assets/{91DF9C54-BF68-4756-9EA2-3DBE4D82F6E2}.png)
 
