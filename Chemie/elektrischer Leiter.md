@@ -20,7 +20,7 @@ semester: WS25
 
 ## Bandstruktur
 
-> siehe [Halbleiterphysik](../Physik/Materialkunde/Halbleiterphysik.md)
+> siehe [Halbleiterphysik](../Physik/Halbleiterphysik.md)
 
 > [!success] Valenz (VB) und Leitungsband (LB)
 

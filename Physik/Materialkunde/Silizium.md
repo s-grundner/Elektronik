@@ -21,7 +21,7 @@ banner_y: 0.3525
 
 # Silizium
 
-> Siehe [[Halbleiterphysik]] 
+> Siehe [[../Halbleiterphysik]] 
 
 # Tags
 

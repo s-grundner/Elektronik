@@ -62,14 +62,36 @@ Die extrem niedrige Leitfähigkeit von reinen Halbleitern lässt sich durch das 
 - Das 5. Elektron des Fremdatoms wird für das Kristallgitter nicht mehr benötigt und wird **frei**.
 - Das Elektron wandert in das Leitungsband, wird frei beweglich und steht permanent als Leitungselektron zur verfügung
 
-Das **Donator** Atom erhält durch die Abgabe seines Valenzelektrons eine positive Ladung, und hält daher das Elektron Lokal bei sich.
+Das **Donator** Atom erhält durch die Abgabe seines Valenzelektrons eine **positive** Ladung, und hält daher das **Elektron** Lokal bei sich.
 Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%20Feld.md) entfernt sich das Elektron vom Ortsfesten Donator.
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
-> Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der Leitungsbandkante darstellen 
+> Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
 > ![600](../../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw) 
+> Somit ist eine niedrigere Aktivierungsenergie 
 
-Somit ist eine geringere Aktivierungsdichten notwändig, um 
+In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elektronen als Löcher Verfügbar.
+- Die Elektronen stellen die so genannten **Majoritätsträger** da,
+- während die Löcher die **Minoritätsträger** räpresentiern.
+
+#### n-Halbleiter
+
+- Im Silizium wird ein Atom durch ein **3-Wertiges** Atom ersetzt.
+- Dem 3-Wertigen Atom wird von benachbarten Silizium Atomen ein Elektron *entliehen*
+- Durch die Nachrückung der Elektronen entsteht ein Freibewegliches **Loch**
+
+Das **Akzeptor** Atom erhält durch die Aufnahme eines benachbarten Valenzelektrons eine **negative** Ladung, und hält daher das **Loch** Lokal bei sich.
+Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%20Feld.md) entfernt sich das Loch vom Ortsfesten Akzeptor.
+
+> [!info] Auswirkungen im gezeigt im Bändermodell
+> Im Bändermodell würde ein Akzeptoratom lokal ein zusätzliches Energieniveau nahe der **Valenzbandkante** darstellen 
+> 
+
+In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elektronen als Löcher Verfügbar.
+- Die Elektronen stellen die so genannten **Majoritätsträger** da,
+- während die Löcher die **Minoritätsträger** räpresentiern.
+
+
 ## pn-Übergang
 
 ### Eigenleitungsdichte

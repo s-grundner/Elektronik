@@ -20,7 +20,7 @@ keywords:
 
 # Diode
 
-> Siehe [Halbleiterphysik](../../Physik/Materialkunde/Halbleiterphysik.md)
+> Siehe [Halbleiterphysik](../../Physik/Halbleiterphysik.md)
 
 ![Shockley Gleichung](../../Physik/Shockley%20Gleichung.md#^SHOC)
 
