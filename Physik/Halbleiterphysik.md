@@ -23,6 +23,8 @@ banner_x: 0.5
 
 Intrinsisch $\to$ Nicht Dotiert
 
+### Bändermodell
+
 > [!important] Bändermodell des [Siliziums](Silizium.md)
 > 
 > Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
@@ -66,7 +68,14 @@ Die Dichte der erzeugten Ladungsträger, also den Elektronen-Loch Paaren, ist di
 
 ### Ladungsträger Transport
 
-Im Allgemeinen findet man **Drift-** und **Diffusionsströ** 
+Im Allgemeinen findet man bei betrachtung von Ladungsträgern **Drift-** und **Diffusionsströme** im Halbleiter vor. Die Entsprechenden Stomdichten setzen sich wiefolght zusammen:
+
+$$
+\begin{align}
+j_{n} &= \underbrace{ en\mu_{n}E }_{ \text{Driftstrom} }&&+\underbrace{ eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} }_{ \text{Diffusionsstrom} } \\
+j_{p} &= ep\mu_{p}E&&-\overbrace{ eD_{p}\frac{\mathrm{d}p}{\mathrm{d}x} }^{ \qquad \quad \qquad \!}
+\end{align}
+$$
 
 #### Driftstrom
 
