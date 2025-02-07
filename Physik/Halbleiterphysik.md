@@ -43,7 +43,6 @@ Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien el
 
 Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“). Dichte der erzeugten Ladungsträger:
 
-
 $$
 n_i^2=C \cdot e^{\left(-\tfrac{W_G}{k_b T}\right)}
 $$
@@ -51,6 +50,10 @@ $$
 Dadurch können auch im [Valenzband](../../Chemie/Valenzelektronen.md) wieder Elektronen verschoben werden.
 
 Statt der Bewegung dieser Valenzelektronen kann man auch das Wandern des Loches betrachten das sich wie ein positiv geladener Ladungsträger verhält. Die Löcher bewegen sich unabhängig von den „zugehörigen“ Elektronen.
+
+> [!important] [[Fermiverteilung]]: Besetzungswahrscheinlichkeit $F(W)$ in abhängigkeit von der Energie $W$
+> Die Fermiverteilung beschreibt also:
+> - Thermische Anregung von Elektronen $\iff$ Temperatur abhängige Wahrscheinlichkeit, einen höheren Energiezustand einzunehmen. 
 
 ## Dotierte Halbleiter
 
@@ -68,11 +71,11 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
 > ![600](../../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw) 
-> Somit ist eine niedrigere Aktivierungsenergie notwendig, um ein Elektron vom Donator ins Leitungsband.
+> Somit ist eine niedrigere Aktivierungsenergie notwendig, um ein Elektron vom Donator ins Leitungsband zu heben.
 
 In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elektronen als Löcher Verfügbar.
 - Die Elektronen stellen die so genannten **Majoritätsträger** da,
-- während die Löcher die **Minoritätsträger** räpresentiern.
+- während die Löcher die **Minoritätsträger** repräsentiern.
 
 #### n-Halbleiter
 
@@ -86,11 +89,11 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Akzeptoratom lokal ein zusätzliches Energieniveau nahe der **Valenzbandkante** darstellen 
 > ![700](../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.47.50.excalidraw)
-> Somit ist eine niedrigere Aktivierungsenergie notwändig, um diese Elektron in das Leitungsband anzuheben.
+> Somit ist eine niedrigere Aktivierungsenergie erforderlich, Elektronen vom Valenzband auf das Akzeptor Niveau anzuheben und auf dem Valenzband ein Loch zu hinterlassen.
 
-In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind weit mehr Löcher als Elektronen Verfügbar.
-- Die Elektronen stellen die so genannten **Majoritätsträger** da,
-- während die Löcher die **Minoritätsträger** räpresentiern.
+In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
+- die Löcher die **Majoritätsträger** und
+- die Elektronen die **Minoritätsträger**.
 
 
 ## pn-Übergang
