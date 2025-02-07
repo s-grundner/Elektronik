@@ -87,7 +87,6 @@ Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwidersta
 \end{document}
 ```
 
-![](assets/{91DF9C54-BF68-4756-9EA2-3DBE4D82F6E2}.png)
 
 > [!warning] **Annahme:** Die Basis-Emitterspannung ist nahezu konstant.
 > Steigt nun $I_{C,0}$ zur Folge einer Temparaturerhöhung, fällt am Kollektorwiderstand $R_{C}$ eine höhere Spannung ab.
