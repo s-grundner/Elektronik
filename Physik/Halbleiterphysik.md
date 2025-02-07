@@ -97,14 +97,29 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 
 ### Ladungsträger Transport
 
-**Driftstrom**
+> [!question] Für schwach dotierte Halbleiter ergibt sich für die durchschnittliche Anzahldichte an freien Löchern $p$ und Elektronen $e$ bei einer jeweiligen Temperatur
+> (Fermi-Verteilung als Boltzmann-Verteilung genähert)
+> 
+> $$
+> \begin{align}
+> n = N_{L} \exp \left( - \frac{W_{L}-W_{F}}{kT} \right) \\ 
+> p = N_{V} \exp \left( + \frac{W_{V}-W_{F}}{kT} \right) 
+> \end{align}
+> $$
+> $n$... Elektronendichte | $N_{L}$ effekt
+> $p$... Elektronendichte |
+
+
+#### Driftstrom
 
 Störstellen und thermische Gitterschwingungen verursachen eine mittlere Driftgeschwindigkeit der Ladungsträger (p: Löcher, n: Elektronen)
 
+> Siehe [Drude-Modell](../Elektrotechnik/Drude-Modell.md)
+
 $$
 \begin{align}
-v_{n} &= -\mu_{n}E &&\implies &j_{\text{Drift,n}} = en\mu_{n}E \\
-v_{p} &= \mu_{p}E &&\implies & j_{\text{Drift,p}} = en\mu_{p}E
+\left< v_{n}\right> &= -\mu_{n}E &&\implies &j_{\text{Drift,n}} = en\mu_{n}E \\
+\left< v_{p}\right> &= \mu_{p}E &&\implies & j_{\text{Drift,p}} = ep\mu_{p}E
 \end{align}
 $$
 
@@ -112,7 +127,9 @@ Der resultierende Gesamtstrom durch einen Dotierten Halbleiter ist
 
 $$j_{\text{Drift}} = j_{\text{Drift,n}} + j_{\text{Drift,p}} = \sigma E$$
 
-**Diffusionsstrom**
+Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = e(n)$
+
+#### Diffusionsstrom
 
 ## pn-Übergang
 
