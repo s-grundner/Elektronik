@@ -16,11 +16,13 @@ professor:
  
 # Halbleiterphysik
 
-## Bändermodell des [Siliziums](Silizium.md)
+## Intrinsische Halbleiter
 
-Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
-
-![invert_dark](assets/SiLeitungsValenzband.png)
+> [!important] Bändermodell des [Siliziums](Silizium.md)
+> 
+> Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
+> 
+> ![invert_dark](assets/SiLeitungsValenzband.png)
 
 Unterschiede des Bändermodells verschiedener Leiterklassen:
 
@@ -56,6 +58,32 @@ Die Dichte der erzeugten Ladungsträger, also den Elektronen-Loch Paaren, ist di
 > [!important] [[Fermiverteilung]]: Besetzungswahrscheinlichkeit $F(W)$ in abhängigkeit von der Energie $W$
 > Die Fermiverteilung beschreibt also:
 > - Thermische Anregung von Elektronen $\iff$ Temperatur abhängige Wahrscheinlichkeit, einen höheren Energiezustand einzunehmen. 
+
+### Ladungsträger Transport
+
+#### Driftstrom
+
+Störstellen und thermische Gitterschwingungen verursachen eine [mittlere Driftgeschwindigkeit](../Elektrotechnik/Drude-Modell.md) der Ladungsträger.
+Gefolgt von einer Multiplikation mit der [Elementarladung](Konstanten/Elementarladung.md) $e$ und der Ladungsträgerdichte der Löcher ($p$) bzw der Elektronen ($n$) ergibt den **Driftstrom** 
+
+$$
+\begin{align}
+\left< v_{n}\right> &= -\mu_{n}E &&\implies &j_{\text{Drift,n}} = en\mu_{n}E \\
+\left< v_{p}\right> &= \mu_{p}E &&\implies & j_{\text{Drift,p}} = ep\mu_{p}E
+\end{align}
+$$
+
+
+
+Der resultierende Gesamtstrom durch einen Dotierten Halbleiter ist
+
+$$j_{\text{Drift}} = j_{\text{Drift,n}} + j_{\text{Drift,p}} = \sigma E$$
+
+Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = e(n\mu_{n}+p\mu_{p})$
+
+#### Diffusionsstrom
+
+---
 
 ## Dotierte Halbleiter
 
@@ -97,32 +125,8 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 - die Löcher die **Majoritätsträger** und
 - die Elektronen die **Minoritätsträger**.
 
-### Ladungsträger Transport
 
-#### Driftstrom
-
-Störstellen und thermische Gitterschwingungen verursachen eine [mittlere Driftgeschwindigkeit](../Elektrotechnik/Drude-Modell.md) der Ladungsträger
-
-$$
-\begin{align}
-\left< v_{n}\right> &= -\mu_{n}E &&\implies &j_{\text{Drift,n}} = en\mu_{n}E \\
-\left< v_{p}\right> &= \mu_{p}E &&\implies & j_{\text{Drift,p}} = ep\mu_{p}E
-\end{align}
-$$
-
-| $n$ | Ladungsträgerdichte der Elektronen |
-| --- | ---------------------------------- |
-
-
-Der resultierende Gesamtstrom durch einen Dotierten Halbleiter ist
-
-$$j_{\text{Drift}} = j_{\text{Drift,n}} + j_{\text{Drift,p}} = \sigma E$$
-
-Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = e(n\mu_{n}+p\mu_{p})$
-
-#### Diffusionsstrom
-
-## pn-Übergang
+### pn-Übergang
 
 
 
