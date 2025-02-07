@@ -23,6 +23,22 @@ professor:
 > [!important] $I_{B}$ wird konstant in die Basis eingespeist um $I_{C}$ zu kontrollieren.
 > ![](assets/{F2EEDB5A-E1B8-4012-B917-D3D2D968B286}.png)
 
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/length=1cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, transform shape]
+\draw node[npn](npn){} (0,0);
+\draw (npn.E) -- ++(2,0) to[V, v<^=$U_0$] ++(0,4) -- ++(-2,0) coordinate(k1) to[R=$R_C$, *-] (npn.C);
+\draw (k1) -- ++(-2,0) to[I, i=$I_{B,0}$] (-2,0 |- npn.B) -- (npn.B);
+\end{circuitikz}
+\end{document}
+```
+
 ## Basisvorwiderstand
 
 Eine simple Art dieses Prinzip zu realisieren ist mittels eines Basisvorwiderstandes.
