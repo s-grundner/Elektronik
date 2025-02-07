@@ -66,9 +66,12 @@ Die Dichte der erzeugten Ladungsträger, also den Elektronen-Loch Paaren, ist di
 
 ### Ladungsträger Transport
 
+Im Allgemeinen findet man **Drift-** und **Diffusionsströ** 
+
 #### Driftstrom
 
 Störstellen und thermische Gitterschwingungen verursachen eine [mittlere Driftgeschwindigkeit](../Elektrotechnik/Drude-Modell.md) der Ladungsträger.
+Dabei ist $\mu$ die Beweglichkeit und $E$ die elektrische Feldstärke
 Gefolgt von einer Multiplikation mit der [Elementarladung](Konstanten/Elementarladung.md) $e$ und der Ladungsträgerdichte der Löcher ($p$) bzw der Elektronen ($n$) ergibt den **Driftstrom** 
 
 $$
@@ -78,13 +81,11 @@ $$
 \end{align}
 $$
 
-
-
-Der resultierende Gesamtstrom durch einen Dotierten Halbleiter ist
+Der resultierende Gesamtstrom durch einen Halbleiter ist
 
 $$j_{\text{Drift}} = j_{\text{Drift,n}} + j_{\text{Drift,p}} = \sigma E$$
 
-Der Spezifiesche Leitwert ist für einen dotierten Halbleiter demnach $\sigma = e(n\mu_{n}+p\mu_{p})$
+Der Spezifiesche Leitwert ist für einen Halbleiter demnach $\sigma = e(n\mu_{n}+p\mu_{p})$
 
 #### Diffusionsstrom
 
@@ -101,11 +102,11 @@ Die Diffusion von Elektronen beschreibt das Phänomen, dass aufgrund der vorhand
 > Also dem negativen [Gradienten](../Mathematik/Analysis/Gradient.md). Die untenstehenden Gleichungen sind in eindimensionaler Schreibweise mit der Ortskoordinaten $x$
 
 $$
-\begin{align}
-j_{\text{Diff,n}} = +eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} \\
+j_{\text{Diff,n}} = +eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} \qquad
 j_{\text{Diff,p}} = -eD_{p}\frac{\mathrm{d}p}{\mathrm{d}x}
-\end{align}
 $$
+
+
 ## Generation und Rekombination
 
 ---
