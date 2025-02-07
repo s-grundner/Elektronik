@@ -18,14 +18,17 @@ professor:
 
 ## Bändermodell des [Siliziums](Silizium.md)
 
-[Bandstruktur](../../Chemie/elektrischer%20Leiter.md): Aufpreizung der Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
+Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
 
 ![invert_dark|700](assets/SiLeitungsValenzband.png)
 
 ## Valenz und Leitungsband
 
+Das Innere des reinen Siliziums kann als Atomgitter
+
 ![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
 
+Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine 
 Durch thermische Anregung werden einzelne Elektronen in das Leitungsband gehoben und hinterlassen freie Plätze („Löcher“). Dichte der erzeugten Ladungsträger:
 
 
@@ -39,3 +42,10 @@ Statt der Bewegung dieser Valenzelektronen kann man auch das Wandern des Loches 
 
 ## pn-Übergang
 
+### Eigenleitungsdichte
+
+
+
+---
+
+[^1]: Intrinsisch: 
