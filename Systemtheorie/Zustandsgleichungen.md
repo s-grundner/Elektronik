@@ -47,7 +47,7 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von 
 - Im allgemeinen Fall: ein System von Differentialgleichungen
 - Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
 
-> [!hint] [Lineare DGL n-ter Ordnung](Mathematik/Analysis/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
+> [!hint]- **Erinnerung:** [Lineare DGL n-ter Ordnung](Mathematik/Analysis/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](Mathematik/Analysis/DGL-System.md) 1. Ordnung
 > Differentialgleichung $n$-ter Ordnung:
 > 
 > $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
@@ -74,9 +74,40 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von 
 
 
 - Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von **Zustandsvariablen**
-- Annahme: Es gibt $p$ **Eingangsgrößen** $u_1, u_2, \ldots, u_p$
-- Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ Eingangsgrößen und allen Zustandsgrößen $x_1, x_2, \ldots, x_n$ abhängen
-- Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist $\rightarrow$ Zustandsgleichungen
+
+> [!info] Annahme: Es gibt $p$ **Eingangsgrößen** $u_1, u_2, \ldots, u_p$
+> Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ **Eingangsgrößen** und allen **Zustandsgrößen** $x_1, x_2, \ldots, x_n$ abhängen
+> 
+> Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist. *Der Störvektor $u$ ist im obigen fall gegeben, in weiterer Folge wird dieser Generalisiert.*
+> - $\rightarrow$ **Zustandsgleichungen**
+
+> [!info] Annahme: Es gibt $q$ **Ausgangsgrößen** $y_1, y_2, \ldots, y_q$
+> Ausgangsgrößen lassen sich als Linearkombination der **Zustandsgrößen** und der **Eingangsgrößen** darstellen.
+> - $\to$ **Ausgangsgeichung** 
+
+> [!def] Schreibweise:
+> 
+> $$
+> \begin{align}
+> \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
+> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{p} \right] ^{T}\tag{Zustandsvektor} \\
+> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{p} \right] ^{T}\tag{Ausgangsvektor}
+> \end{align}
+> $$
+
+Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
+
+> [!def] **D1 - ZAGL)** Zustands und Ausgangs
+> 
+> 
+> 
+> 
+ 
+$$
+\begin{align}
+\mathbf{\dot{x}}(t) = \mathbf{A}\cdot \mathbf{x}(t) + \mathbf{B}\cdot \mathbf{u}()
+\end{align}
+$$ 
 
 
 Durchgangsmatrix geht nicht an die Speichernden Elementen im System sondern direkt auf den Ausgnag über
