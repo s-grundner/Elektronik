@@ -234,7 +234,7 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 >  \left| \int_0^{\infty} f(t) e^{-s t} \mathrm{~d} t \right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
 > $$
 
-> [!satz] **TRF S1)** Transformierbare Funktionen
+> [!satz] **S2 - TRF)** Transformierbare Funktionen
 > Sei $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
 
 ### Stabilität des Systems
