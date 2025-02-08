@@ -33,13 +33,34 @@ banner_y: 0.8625
 
 Die endlich lange zeitdiskrete Funktion $f_{\mathrm{D}}[n]$ ist nur eine Näherung der unendlich langen Folge von Abtastwerten $f[n] = f_{a}(nT)$.
 
-Damit ist auch die diskrete Fouriertransfomrierte $F_{\mathrm{D}}$ der Folge $f_{\mathrm{D}}[n]$ nur eine Näherung der Fouriertransfomrierten $f_a(t)\multimap F_{a}(j\omega)$
+Damit ist auch die diskrete Fouriertransformierte $F_{\mathrm{D}}$ der Folge $f_{\mathrm{D}}[n]$ nur eine Näherung der Fouriertransfomrierten $f_a(t)\multimap F_{a}(j\omega)$
+
+Wegen der endlichen Abtastwerte wird auch die Summe Beschränkt:
+
+$$F_{D}=\sum_{n=0}^{N-1}f_{\mathrm{D}}[n]e^{ -jn\Omega }\quad \text{mit } \Omega=\omega T$$
+
+Auch die Darstellung des eigentlich kontinuierlichen Spektrums muss auf eine begrenzte Anzahl von Abtastwerten im Frequenzbereich beschränkt werden
+
+**Äquidistante** Verteilung der Abtastwerte im Frequenzbereich im Frequenzbereich über eine Periode von $\Omega$. Für $N$ Abtastwerte gilt somit:
+
+$$
+\begin{gathered}
+\Omega_{k}=k \frac{2\pi}{N}, \quad k=0,1,2,\dots, N-1 \\
+\implies F_{\mathrm{D}} = \sum_{n=0}^{N-1}f_{\mathrm{D}}[n]e^{ -jn\Omega_{k} }
+\end{gathered}
+$$
+
+Es gilt die Abkürzung
+
+$$W_{N}=e^{ -j \frac{2\pi}{N} }$$
+
+Daraus folgt das Transformationspaar der **Diskreten Fourier Transformation**
 
 > [!def] **D1 - DFT)** Diskrete Fourier Transformation - *Analysegleichung* ^DFT
 > $$F_{\mathrm{D}}[k]=\sum_{n=0}^{N-1}f_{\mathrm{D}}[n]W^{kn}_{N}\tag{DFT}$$
 
-> [!def] **D2 - IDFT)** Diskrete Fourier Transformation - *Analysegleichung* ^DFT
-> $$F_{\mathrm{D}}=\sum_{n=0}^{N-1}f_{\mathrm{D}}[n]W^{kn}_{N}$$
+> [!def] **D2 - IDFT)** Inverse Diskrete Fourier Transformation - *Synthesegleichung* ^IDFT
+> $$f_{\mathrm{D}}[n]=\frac{1}{N}\sum_{n=0}^{N-1}F_{\mathrm{D}}[k]W^{-kn}_{N}$$
 
 ---
 ## ALT
