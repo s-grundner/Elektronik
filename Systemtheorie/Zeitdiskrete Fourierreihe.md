@@ -41,10 +41,15 @@ Diese Darstellung ist äquivalent zur [komplexen Fourierreihe](Fourier%20Reihe.m
 > [!warning] Hier ist genau wie in der komplexen Fourierreihe der exponent eigentlich positiv.
 > wegen der Definition der Einheitswurzel als negativer exponent, muss hier das vorzeichen nochmal invertiert werden
 
-Aus der [Berechnung der Entwicklungskoeffizienten](#Berechnung%20der%20Entwicklungskoeffizienten) ergibt sich:
+Für die Enwichlungskoeffizienten ergibt sich:
 
 $$
-F[k] = \frac{1}{N} \sum_{n=0}^{N-1} f[n] W
+F[k] = \frac{1}{N} \sum_{n=0}^{N-1} f[n] W^{kn}_{N}
 $$
+
+## Periodizität der Einheitswurzel
+
+Wegen der [Periodizität der Einheitswurzel](Einheitswurzel.md#Periodizität) $W^{kn}_{N}$ in $k$ mit der Periode $N$
+
 ## Berechnung der Entwicklungskoeffizienten
 
