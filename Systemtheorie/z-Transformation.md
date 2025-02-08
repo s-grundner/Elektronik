@@ -66,7 +66,8 @@ für geeignete reelle konstanten $A$ und $B$
 
 Zur Einfacheren Handhabung beschränken wir uns auf die z-Transformierte als rationales Polynom, mit
 - Zählergrad $M$ $\leq$ Nennergrad $N$
-- $F_{0} = a_{M}$
+- $F_{0} = \dfrac{a_{M}}{b_{N}}$
+- und nur einfachen Polen in der Partialbruchdarstellung
 
 $$
 \begin{align}
