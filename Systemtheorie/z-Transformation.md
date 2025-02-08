@@ -88,10 +88,30 @@ Das Heißt, die z-Transformierte konvergiert für alle $z$ mit größerem Betrag
 
 in dem Kreis befinden sich also alle Polstellen.
 
-## Stabilität
+### Stabilität
 
 > [!satz] **S - )** Stabile Folgen
 >  Eine folge ist Stabil wenn sie absolut summierbar ist:
 >  $$\sum_{n=0}^{\infty} \lvert f[n] \rvert < M < \infty$$
 
-Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt eu 
+Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den **Einheitskreis** ein, also alle $z$ mit Betrag kleiner als 1.
+
+> [!satz] **S - )** Stabile und kausale Folgen
+> Die z-Transformierte konvergiert auf und außerhalb des Einheitskreises ($\to$ alle Pole liegen innerhalb des Einheitskreises)
+> Die z-Transformierte ist für $z=\exp (j\Omega)$ (am Einheitskreis, also $r=1$) identisch mit der zeitdiskreten Fouriertransformation
+
+## Rechenregeln und Sätze
+
+> [!satz] **S - )** Anfangswertsatz
+> $$f[0]=\lim_{ z \to \infty } F(z)$$
+
+> [!satz] **S - )** Endwertsatz
+> $$\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$$
+
+## Blockschaltbild
+
+Mit der Darstellung der Übertragungsfunktion als rationale Funktion folgt:
+
+$$
+Y
+$$
