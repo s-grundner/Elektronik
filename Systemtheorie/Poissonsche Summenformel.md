@@ -35,14 +35,20 @@ $$
 > **Ideale Abtastung**: Multiplikation von $f_{a}(t)$ mit der Delta-Impulsfolge $\delta_{T}(t)$ um ein zeitdiskretes Signal zu erhalten:
 > $$f_{a}(t)\delta_{T}(t)=\sum_{n=-\infty}^{\infty}f_{a}(nT)\delta(t-nT)$$
 > 
-> **Im Frequenzbereich**: Faltung mit dem Spektrum der Delta-Impulsfolge. *(Aus dem Spektrum wird eine $\frac{2\pi}{T}$ Periodische Über*
-> $$f_{a}(t)\delta(t)\multimap \frac{1}{2\pi}\left[ F_{a}(j\omega)*\omega_{0}\delta_{\omega_{0}}(\omega) \right] $$
+> **Im Frequenzbereich**: Faltung mit dem Spektrum der Delta-Impulsfolge. *(Aus dem Spektrum $F_{a}(j\omega)$ wird eine $\frac{2\pi}{T}$ Periodische Überlagerung)*
+> $$f_{a}(t)\delta(t)\multimap \frac{1}{2\pi}\left[ F_{a}(j\omega)*\omega_{0}\delta_{\omega_{0}}(\omega) \right] = \frac{\omega_{0}}{2\pi}\sum_{k=-\infty}^{\infty} F_{a}(j\omega-jk\omega_{0})\tag{1}$$
+>
+> ![invert_dark|900](assets/DFT1.png)
+> Aus der Korrespondenz $\delta(t-nT)\multimap e^{ -j\omega nT }$ folgt
+> 
+> $$\sum_{n=-\infty}^{\infty} f_{a}(nT)\delta(t-nT)\multimap \sum_{n=-\infty}^{\infty} f_{a}(nT)e^{ -j\omega nT }\tag{2}$$
 
-![](assets/Pasted%20image%2020250208010922.png)
+Durch gleichsetzen der Beiden Fouriertransformierten in $(1)$ und $(2)$ folgt die Duale Poissonsche Summenformel
 
-$$
-F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F_{\mathrm{a}}\left(\mathrm{j} \omega-\mathrm{j} k \omega_0\right)=\sum_{n=-\infty}^{\infty} f_{\mathrm{a}}(n T) e^{-\mathrm{j} \omega n T}
-$$
+> [!def] **D2 - POIS)** Duale Poissonsche Summenformel 
+> $$
+> F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F_{\mathrm{a}}\left(\mathrm{j} \omega-\mathrm{j} k \omega_0\right)=\sum_{n=-\infty}^{\infty} f_{\mathrm{a}}(n T) e^{-\mathrm{j} \omega n T}
+> $$
 
 - $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ ist die Fourier-Transformierte einer durch ideale Abtastung gewonnenen zeitdiskreten Funktion
 - $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ besitzt eine periodische Frequenzabhängigkeit, die über den Ausdruck $e^{j \omega T}$ gegeben ist $\Rightarrow e^{j \omega T}$ als Argument
