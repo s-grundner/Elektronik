@@ -24,8 +24,24 @@ Die Einheitswurzel ist eine Abkürzung für eine, häufig in der [DFT](DFT.md) b
 
 ## Eigenschaften
 
-- Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ und $N-1$, gleichmäßig auf dem [Einheitskreis](../Mathematik/Kreis.md) im komplexen Zahlenraum $\mathbb{C}$, indem die gesamte Periode mit der Einheitswurzel **Potenziert** wird. Da die Potenzen der Einheitswurzel **drehung** verursachen, bezeichnet man sie daher of als **Dreh-Faktor** (engl. Twiddle-Factor)
+### Periodizität
+
+Die Eigenschaft, dass $W_{N}^N = W_{N}^0 = 1$, führt zu periodischen Eigenschaften in der DFT, was in der Signalverarbeitung oft genutzt wird (z. B. beim periodischen Fortsetzen von Signalen).
+
+### Drehung
+
+Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ und $N-1$, gleichmäßig auf dem [Einheitskreis](../Mathematik/Kreis.md) im komplexen Zahlenraum $\mathbb{C}$, indem die Einheitswurzel über die gesamte Periode **Potenziert** wird. Da die Potenzen der Einheitswurzel eine **Drehung** verursachen, bezeichnet man sie daher of als **Dreh-Faktor** (engl. Twiddle-Factor):
 
 
+
+> [!def] Funktionenfolge der Drehfaktoren *(Twiddle-Factors)*
+> $$W_{N}^{n} = \exp \left( -j \frac{2\pi}{N}n \right) \quad \text{mit } n=0,1,\dots, N-1 $$
+
+Die Funktionenfolge der Drehfaktoren ergibt folgendes Bild:
 ![700](../assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw)
 
+
+
+### Symmetrie
+
+Bei der schnellen Berechnung der DFT mittels der Fast-Fourier-Transformation (FFT) kommen diese Drehfaktoren in vielfacher Weise vor. Ihre regelmäßige Struktur (gleichmäßig verteilte Einheitswurzeln) erlaubt es, Algorithmen zu entwickeln, die redundante Berechnungen vermeiden und so die Rechenkomplexität erheblich reduzieren.
