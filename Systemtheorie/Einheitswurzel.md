@@ -24,6 +24,8 @@ Die Einheitswurzel ist eine Abkürzung für eine, häufig in der [DFT](DFT.md) b
 
 ## Eigenschaften
 
-- Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ und $N$, gleichmäßig auf den [Einheitskreis](../Mathematik/Kreis.md) im komplexen Zahlenraum $\mathbb{C}$.
+- Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ und $N-1$, gleichmäßig auf dem [Einheitskreis](../Mathematik/Kreis.md) im komplexen Zahlenraum $\mathbb{C}$, indem die gesamte Periode mit der Einheitswurzel **Potenziert** wird. Da die Potenzen der Einheitswurzel **drehung** verursachen, bezeichnet man sie daher of als **Dreh-Faktor** (engl. Twiddle-Factor)
 
-![](../assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw)
+
+![700](../assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw)
+
