@@ -51,9 +51,7 @@ $$
 \end{gathered}
 $$
 
-Es gilt die Abkürzung
-
-$$W_{N}=e^{ -j \frac{2\pi}{N} }$$
+Es gilt die Abkürzung ([Einheitswurzel](Einheitswurzel.md)): $W_{N}=e^{ -j \frac{2\pi}{N} }$
 
 Daraus folgt das Transformationspaar der **Diskreten Fourier Transformation**
 
@@ -61,7 +59,7 @@ Daraus folgt das Transformationspaar der **Diskreten Fourier Transformation**
 > $$F_{\mathrm{D}}[k]=\sum_{n=0}^{N-1}f_{\mathrm{D}}[n]W^{kn}_{N}\tag{DFT}$$
 
 > [!def] **D2 - IDFT)** Inverse Diskrete Fourier Transformation - *Synthesegleichung* ^IDFT
-> $$f_{\mathrm{D}}[n]=\frac{1}{N}\sum_{n=0}^{N-1}F_{\mathrm{D}}[k]W^{-kn}_{N}$$
+> $$f_{\mathrm{D}}[n]=\frac{1}{N}\sum_{k=0}^{N-1}F_{\mathrm{D}}[k]W^{-kn}_{N}\tag{IDFT}$$
 
 ## Ungenauigkeiten der DFT
 
