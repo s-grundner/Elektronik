@@ -17,9 +17,13 @@ subject:
 cited: true
 ---
 
-# Diskrete Fourier Transformation 
+# Diskrete Fourier Transformation (DFT)
 
-> [!info] Complexity: `$=dv.current().complexity`
+Die Zeitdiskrete Fouriertransformation ist diskret im Zeitbereich aber trotzdem Kontinuierlich im Frequenzbereich.
+
+
+
+---
 
 > [!quote] DFT
 > Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine Annäherung der [Fouriertransformation](../../Systemtheorie/Fouriertransformation.md), welche es ermöglicht sie Zeitdiskret/Digital berechnen zu lassen. 
@@ -35,7 +39,7 @@ Außerdem kann der Faktor $T$ weggelassen werden.
 
 $$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
 
-Dies [Funktion](../../Mathematik/Algebra/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängig](../../Mathematik/Algebra/Lineare%20Abhängigkeit.md)e Funktionswerte.
+Dies [Funktion](../../Mathematik/Algebra/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängige](../../Mathematik/Algebra/Lineare%20Abhängigkeit.md) Funktionswerte.
 
 Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
 
