@@ -29,6 +29,24 @@ Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitd
 ## Zweiseitige z-Transformation
 
 > [!def] **D1 - 2ZTR)** Zweiseitige z-Transformation 
-$$\mathcal{Z}_{II} \{f[n]\}=F(z) = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] \cdot r\cdot e^{ -j\Omega n } \impliedby z = r\cdot e^{ j\Omega } \tag{2ZTR}$$
+$$F(z) = \mathcal{Z}_{II} \{f[n]\} = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] \cdot r\cdot e^{ -j\Omega n } \impliedby z = r\cdot e^{ j\Omega } \tag{2ZTR}$$
 
-Lässt sich auch im zusammenhanf der zeitdiskreten Fouriertransformation 
+Lässt sich auch im Zusammenhang der zeitdiskreten Fouriertransformation schreiben:
+
+$$F(z) = \sum_{n=-\infty}^{\infty}\left( f[n]r^{-n} \right)e^{ -jn\Omega } =\mathcal{F}\{f[n]\cdot r^{-n}\}$$
+
+$\implies$ die z-Transformation der Folge $f[n]$ ist gleich der zeitdiskreten Fouriertransformation der Folge $f[n]r^{-n}$. Wenn $r=1$ ist, dann stimmen beide Transformationen überein (sofern sie existieren)
+
+### Existenzbedingung
+
+> [!important] Existenzbedingung für die Existenz der z-Transformierten einer Folge $f[n]$:
+> $$\sum_{n=-\infty}^{\infty}\left| f[n]r^{-n} \right|< M <\infty $$
+> Mit dem Betrag $r$ kann also die Konvergenzeigenschaft der z-Transformierten beeinflusst werden. 
+
+Äquivalent zum Realteil $\Re (s) = \sigma$ der Laplace-Transformation
+
+
+## Einseitige z-Transformation
+
+> [!def] **D2 - 1ZTR)** Einseitige z-Transformation
+> $$F(z) = $$
