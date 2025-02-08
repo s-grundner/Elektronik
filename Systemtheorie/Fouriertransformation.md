@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Analysis
 aliases:
   - Fourier Transformation
 keywords:

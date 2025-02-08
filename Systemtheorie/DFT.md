@@ -2,6 +2,7 @@
 tags:
   - HTL-Diplomarbeit
   - Algorithmus/Informatik
+  - Analysis/Numerik
 aliases:
   - Diskrete Fourier Transformation
   - IDFT

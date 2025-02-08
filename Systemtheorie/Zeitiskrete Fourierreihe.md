@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Analysis
 aliases: 
 keywords: 
 subject:
@@ -12,6 +13,6 @@ professor:
  
 # Zeitdiskrete Fourierreihen
 
-> [!quote] Die Zeitdiskrete Fourierreihe bietet einen einblick in die Funktionsweise der [DFT](DFT.md)
+> [!quote] Die Zeitdiskrete betrachtung der Fourierreihe bietet einen Einblick in die Funktionsweise der [DFT](DFT.md)
 
-Es wird eine $N$-Periodische
+Es wird eine $N$-Periodische Folge betrachtet:
