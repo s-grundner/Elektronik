@@ -13,7 +13,7 @@ professor:
 # z-Transformation
 
 > [!quote] Die z-Transformation ist eine Erweiterung der [Zeitdiskrete Fouriertransformation](Poissonsche%20Summenformel.md#**Zeitdiskrete**%20Fouriertransformation)
-> **Zur Erinnerung:** Die Zeitdiskrete Fouriertransformation stellt ein zeitdiskretes signal in Form einer gewichteten Summe von komplexen Exponentialfunktionen der form $\exp j\Omega$ dar
+> **Zur Erinnerung:** Die Zeitdiskrete Fouriertransformation stellt ein zeitdiskretes signal in Form einer gewichteten Summe von komplexen Exponentialfunktionen der form $\exp (j\Omega)$ dar
 
 Die z-Transformation verwendet die Exponential funktionen der Form:
 
@@ -28,6 +28,7 @@ Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitd
 
 ## Zweiseitige z-Transformation
 
-$$
-F(z) = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] \cdot r\cdot e^{ -j\Omega } 
-$$
+> [!def] **D1 - 2ZTR)** Zweiseitige z-Transformation 
+$$\mathcal{Z}_{II} \{f[n]\}=F(z) = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] \cdot r\cdot e^{ -j\Omega n } \impliedby z = r\cdot e^{ j\Omega } \tag{2ZTR}$$
+
+Lässt sich auch im zusammenhanf der zeitdiskreten Fouriertransformation 
