@@ -62,7 +62,7 @@ $$
 $$
 für geeignete reelle konstanten $A$ und $B$
 
-## Rationale z-Transformierte
+### Rationale z-Transformierte
 
 Zur Einfacheren Handhabung beschränken wir uns auf die z-Transformierte als rationales Polynom, mit
 - Zählergrad $M$ $\leq$ Nennergrad $N$
@@ -76,3 +76,22 @@ F(z) &= \frac{Z(z)}{N(z)} = \frac{\sum_{j=0}^{M}a_{j}z^{j}}{\sum_{i=0}^{N}b_{i}z
 &=A_{0} + \left( \sum_{i=0}^{N} \frac{A_{i}\cdot z}{z-z_{\infty i}} \right) \cdot \frac{1}{z}\tag{Partialbruchdarstellung}
 \end{align}
 $$
+
+### Konvergenz
+
+> [!satz] **S - )** Konvergenz der z-Transformierten ist gegeben durch
+> $$\lvert z \rvert > \underset{ i=1 }{ \overset{ N }{ \max } } \lvert z_{\infty i} \rvert $$
+
+Das Heißt, die z-Transformierte konvergiert für alle $z$ mit größerem Betrag als der größten Polstelle. Es konvergieren alle werte vom $z$ **ausßerhalb** des **Konvergenzkreises** mit dem **Konvergenzradius** $R^{-}$ dessen Wert gleich dem Betrag des größten Poles ist.
+
+![600](assets/Pasted%20image%2020250208225644.png)
+
+in dem Kreis befinden sich also alle Polstellen.
+
+## Stabilität
+
+> [!satz] **S - )** Stabile Folgen
+>  Eine folge ist Stabil wenn sie absolut summierbar ist:
+>  $$\sum_{n=0}^{\infty} \lvert f[n] \rvert < M < \infty$$
+
+Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt eu 
