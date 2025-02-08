@@ -113,5 +113,25 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 Mit der Darstellung der Übertragungsfunktion als rationale Funktion folgt:
 
 $$
-Y
+\frac{Y(z)}{X(z)} = H(z) = \frac{Z(z)}{N(z)} = \frac{\sum_{i=0}^{M}c_{i}z^{i}}{\sum_{j=0}^{N}d_{j}z^{j}}
 $$
+welche direkt in ein Blockschaltbild überführt werden kann. Für eine allfällige Praktische Realisierung auch in der z-Transformation der Übergang auf $z^{-1}$ (also auf kausal realisierbare) Verzögerungselemente (Delay) durchgeführt. Dies lässt sich durch die Division mit der größten Potenz von $z$ in $Z(z)$ und $N(z)$ immer erreichen.
+
+$$
+H(z) = \frac{\sum_{i=0}^{M}b_{i}z^{-i}}{\sum_{j=0}^{N}a_{j}z^{-j}} = \frac{b_{0} + b_{1}z^{-1} + b_{2}z^{-2} + \ldots + b_{M}z^{-M}}{a_{0} + a_{1}z^{-1} + a_{2}z^{-2} + \ldots + a_{N}z^{-N}}
+$$
+
+$$
+X(z) \left( b_{0} + b_{1}z^{-1} + \ldots + b_{M}z^{-M} \right) = Y(z) \left( a_{0} + a_{1}z^{-1} + \ldots + a_{N}z^{-N} \right) 
+$$
+
+### Direktform I
+
+| Normal                                             | vertauschte Reihenfolge                            |
+| -------------------------------------------------- | -------------------------------------------------- |
+| ![900](assets/Pasted%20image%2020250208232743.png) | ![900](assets/Pasted%20image%2020250208233416.png) |
+
+### Direktform II
+
+kanonische Form, minimaler Speicher
+![](assets/Pasted%20image%2020250208232843.png)
