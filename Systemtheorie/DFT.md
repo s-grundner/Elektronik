@@ -22,7 +22,7 @@ banner_y: 0.8625
 # Diskrete Fourier Transformation (DFT)
 
 > [!quote] DFT
-> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](../../Systemtheorie/Fouriertransformation.md), welche es ermöglicht sie zu diskretisieren
+> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](../../Systemtheorie/Fouriertransformation.md).
 > Die Herleitung erfolgt aus der [zeitdiskreten Fouriertransformation](Poissonsche%20Summenformel.md#**Zeitdiskrete**%20Fouriertransformation)
 
 - Das aperiodische Signal $f_{a}(t)$ wird mit der Periode $T=\frac{2\pi}{\omega_{0}}$ **abgetastet**.
@@ -62,10 +62,16 @@ Daraus folgt das Transformationspaar der **Diskreten Fourier Transformation**
 > [!def] **D2 - IDFT)** Inverse Diskrete Fourier Transformation - *Synthesegleichung* ^IDFT
 > $$f_{\mathrm{D}}[n]=\frac{1}{N}\sum_{n=0}^{N-1}F_{\mathrm{D}}[k]W^{-kn}_{N}$$
 
+## Ungenauigkeiten der DFT
+
+Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine Näherung für das Fourierintegral $F_{a}(j\omega)$ mit den Folgenden Fehlerquellen:
+
+- **Verletzung des Abtasttheorems:** Die (zu langsame) Abtastung von garnicht oder unzureichend Bandbegrenzter Signale führt zu einer Überlappung der Periodischen Spektren (**Aliasing**)
+- Fensterung auf $NT$ bringt spektraöe Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im
+
+
 ---
-## ALT
-
-
+## ALT und möglicherweise falsch
 
 Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:
 

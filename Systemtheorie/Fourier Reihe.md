@@ -18,6 +18,8 @@ created: 24th March 2022
 
 # Fourierreihe
 
+> [!quote] siehe auch [Zeitiskrete Fourierreihe](Zeitiskrete%20Fourierreihe.md)
+
 Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
 ![invert_light|400](../assets/Fourreihe_zerlegung.png)
@@ -144,7 +146,7 @@ $f(x)=f(x+a)$
 
 # Tags
 
-[Fourierreihe](../assets/pdf/Fourierreihe.pdf)
+[Fourierreihe HTL Mitschrift](../assets/pdf/Fourierreihe.pdf)
 
 ---
 

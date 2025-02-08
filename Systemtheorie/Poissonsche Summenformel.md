@@ -69,11 +69,11 @@ Zur Obigen Dualen Poissongleichung erfolgen zwei Substituierungen:
 - Normierte Frequenz: $\Omega=\omega T \Rightarrow \Omega_{0}=\omega_{0}T=2\pi$
 
 > [!def] **D3 - ZFT)** Zeitdiskrete Fouriertransformation ^ZFT
-> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }$$ 
+> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }\tag{ZFT}$$ 
 
 
-> [!def] **D2 - IZFT)** Zeitdiskrete Inverse Fouriertransformation ^IZFT
-> $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IDFT}$$
+> [!def] **D4 - IZFT)** Zeitdiskrete Inverse Fouriertransformation ^IZFT
+> $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IZFT}$$
 
 Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
 
