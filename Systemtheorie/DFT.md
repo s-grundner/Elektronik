@@ -15,15 +15,37 @@ professor:
 subject:
   - Signale und Systeme
 cited: true
+banner: /assets/banner/SUSBanner.png
+banner_y: 0.8625
 ---
 
 # Diskrete Fourier Transformation (DFT)
 
 Die Zeitdiskrete Fouriertransformation ist diskret im Zeitbereich aber trotzdem Kontinuierlich im Frequenzbereich.
 
+Die **Analysegleichung** folgt aus der Dualen Poissonschen Summenformel:
 
+![](Poissonsche%20Summenformel.md#^POIS2)
+
+Dabei erfolgen zwei Substituiert:
+- Zeitdiskret Abgetastete Funktion $f_{a}(nT) \Rightarrow f[n]$
+- Normierte Frequenz: $\Omega=\omega T \Rightarrow \Omega_{0}=\omega_{0}T=2\pi$
+
+> [!def] **D1 - DFT)** Zeitdiskrete Founriertransformation - *Analysegleichung*
+> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }$$ 
+
+> [!def] **D2 - IDFT)**  
+> $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\left( e^{ j\Omega } \right) e^{ jn\Omega }\mathrm{~d}$$
+
+![invert_dark|900](assets/DFT1.png)
+
+
+Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
+
+$$\sum_{n=-\infty}^{\infty}\lvert f[n] \rvert < \infty$$
 
 ---
+## ALT
 
 > [!quote] DFT
 > Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine Annäherung der [Fouriertransformation](../../Systemtheorie/Fouriertransformation.md), welche es ermöglicht sie Zeitdiskret/Digital berechnen zu lassen. 

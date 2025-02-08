@@ -12,9 +12,11 @@ professor:
  
 # Poissonsche Summenformel
 
-$$
-\sum_{n=-\infty}^{\infty} f(t-n T)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F\left(\mathrm{j} k \omega_0\right) e^{\mathrm{j} k \omega_0 t}
-$$
+> [!def] **D1 - POIS)** Poissonsche Summenformel ^POIS
+> 
+> $$
+> \sum_{n=-\infty}^{\infty} f(t-n T)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F\left(\mathrm{j} k \omega_0\right) e^{\mathrm{j} k \omega_0 t}\tag{POIS}
+> $$
 
 - Eine $T$-periodische Funktion $f_T(t)$ kann durch eine unendliche Summe von komplexen Exponentialfunktionen mit den Frequenzen $k \omega_0$ dargestellt werden, wobei gilt: $\omega_0=2 \pi / T$.
 - Komplexe Fourier-Reihe: Anwendung der Poissonschen Summenformel auf die periodische Funktion $f_T(t)$ :
@@ -45,9 +47,9 @@ $$
 
 Durch gleichsetzen der Beiden Fouriertransformierten in $(1)$ und $(2)$ folgt die Duale Poissonsche Summenformel
 
-> [!def] **D2 - POIS)** Duale Poissonsche Summenformel 
+> [!def] **D2 - POIS)** Duale Poissonsche Summenformel ^POIS2
 > $$
-> F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F_{\mathrm{a}}\left(\mathrm{j} \omega-\mathrm{j} k \omega_0\right)=\sum_{n=-\infty}^{\infty} f_{\mathrm{a}}(n T) e^{-\mathrm{j} \omega n T}
+> F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F_{\mathrm{a}}\left(\mathrm{j} \omega-\mathrm{j} k \omega_0\right)=\sum_{n=-\infty}^{\infty} f_{\mathrm{a}}(n T) e^{-\mathrm{j} \omega n T}\tag{POIS 2}
 > $$
 
 - $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ ist die Fourier-Transformierte einer durch ideale Abtastung gewonnenen zeitdiskreten Funktion
