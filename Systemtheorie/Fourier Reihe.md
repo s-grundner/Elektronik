@@ -18,7 +18,7 @@ created: 24th March 2022
 
 # Fourierreihe
 
-> [!quote] siehe auch [Zeitiskrete Fourierreihe](Zeitiskrete%20Fourierreihe.md)
+> [!quote] siehe auch [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md)
 
 Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
