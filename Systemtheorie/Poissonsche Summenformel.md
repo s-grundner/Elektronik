@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Zeitdiskrete Fouriertransformation
 keywords: 
 subject:
   - VL
@@ -58,3 +59,22 @@ Durch gleichsetzen der Beiden Fouriertransformierten in $(1)$ und $(2)$ folgt di
 
 Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der zeitdiskreten Funktion $f_{\mathrm{a}}(n T)$.
 
+## **Zeitdiskrete** Fouriertransformation
+
+> [!important] Die Zeitdiskrete FT hat im gegensatz zur [DFT](DFT.md) folgende Eigenschaft
+> Die Funktion im Zeitbereich ist Zeitdiskret im Frequenzbereich ist sie jedoch kontinuierlich.
+
+Zur Obigen Dualen Poissongleichung erfolgen zwei Substituierungen:
+- Zeitdiskret Abgetastete Funktion $f_{a}(nT) \Rightarrow f[n]$
+- Normierte Frequenz: $\Omega=\omega T \Rightarrow \Omega_{0}=\omega_{0}T=2\pi$
+
+> [!def] **D3 - ZFT)** Zeitdiskrete Fouriertransformation ^ZFT
+> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }$$ 
+
+
+> [!def] **D2 - IZFT)** Zeitdiskrete Inverse Fouriertransformation ^IZFT
+> $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IDFT}$$
+
+Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
+
+$$\sum_{n=-\infty}^{\infty}\lvert f[n] \rvert < \infty$$
