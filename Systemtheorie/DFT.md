@@ -68,8 +68,7 @@ Daraus folgt das Transformationspaar der **Diskreten Fourier Transformation**
 Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine Näherung für das Fourierintegral $F_{a}(j\omega)$ mit den Folgenden Fehlerquellen:
 
 - **Verletzung des Abtasttheorems:** Die (zu langsame) Abtastung von garnicht oder unzureichend Bandbegrenzter Signale führt zu einer Überlappung der Periodischen Spektren (**Aliasing**)
-- Fensterung auf $NT$ bringt spektraöe Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im
-
+- Fensterung auf $NT$ bringt spektraöe Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion *im*
 
 ---
 ## ALT und möglicherweise falsch
