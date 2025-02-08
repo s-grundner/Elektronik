@@ -30,6 +30,16 @@ F_k=\frac{1}{T} F\left(\mathrm{j} k \omega_0\right)
 $$
 ## Duale Poissonsche Summenformel
 
+> [!question] Der Ausgangspunkt ist eine **aperiodeische Zeitfunktion** $f_{a}(t)$ und ihre Fouriertransformierte $F_{a}(j\omega)$.
+> 
+> **Ideale Abtastung**: Multiplikation von $f_{a}(t)$ mit der Delta-Impulsfolge $\delta_{T}(t)$ um ein zeitdiskretes Signal zu erhalten:
+> $$f_{a}(t)\delta_{T}(t)=\sum_{n=-\infty}^{\infty}f_{a}(nT)\delta(t-nT)$$
+> 
+> **Im Frequenzbereich**: Faltung mit dem Spektrum der Delta-Impulsfolge. *(Aus dem Spektrum wird eine $\frac{2\pi}{T}$ Periodische Über*
+> $$f_{a}(t)\delta(t)\multimap \frac{1}{2\pi}\left[ F_{a}(j\omega)*\omega_{0}\delta_{\omega_{0}}(\omega) \right] $$
+
+![](assets/Pasted%20image%2020250208010922.png)
+
 $$
 F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F_{\mathrm{a}}\left(\mathrm{j} \omega-\mathrm{j} k \omega_0\right)=\sum_{n=-\infty}^{\infty} f_{\mathrm{a}}(n T) e^{-\mathrm{j} \omega n T}
 $$
