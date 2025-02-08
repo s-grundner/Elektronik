@@ -53,3 +53,25 @@ Hier werden nur der [kausale](Kausalität.md) teil der Folge transformiert, bzw 
 
 Praktische Anwendungen betrachten nur realitätsgetreue kausale Signale, weswegen die überwiegend Einseitige Transformation angewandt wird.
 
+### Existenzbedingung
+
+Ausreichend für die Existenz der z-Transformierten ist die Forderung:
+
+$$
+\lvert f[n] \rvert \leq BA^{n} 
+$$
+für geeignete reelle konstanten $A$ und $B$
+
+## Rationale z-Transformierte
+
+Zur Einfacheren Handhabung beschränken wir uns auf die z-Transformierte als rationales Polynom, mit
+- Zählergrad $M$ $\leq$ Nennergrad $N$
+- $F_{0} = a_{M}$
+
+$$
+\begin{align}
+F(z) &= \frac{Z(z)}{N(z)} = \frac{\sum_{j=0}^{M}a_{j}z^{j}}{\sum_{i=0}^{N}b_{i}z^{i}} \tag{rational gebrochenes Polynom}\\
+&=F_{0} \frac{\prod^{M}_{j=1} (z-z_{0j})}{\prod^{N}_{i=1} (z-z_{\infty i})}\tag{Faktorisierte Null- und Polstellen} \\
+&=A_{0} + \left( \sum_{i=0}^{N} \frac{A_{i}\cdot z}{z-z_{\infty i}} \right) \cdot \frac{1}{z}\tag{Partialbruchdarstellung}
+\end{align}
+$$
