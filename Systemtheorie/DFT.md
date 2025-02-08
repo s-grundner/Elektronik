@@ -25,7 +25,21 @@ banner_y: 0.8625
 > Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](../../Systemtheorie/Fouriertransformation.md), welche es ermöglicht sie zu diskretisieren
 > Die Herleitung erfolgt aus der [zeitdiskreten Fouriertransformation](Poissonsche%20Summenformel.md#**Zeitdiskrete**%20Fouriertransformation)
 
-Das aperiodische Signal $f$
+- Das aperiodische Signal $f_{a}(t)$ wird mit der Periode $T=\frac{2\pi}{\omega_{0}}$ **abgetastet**.
+- Beschränkung auf $N$ **Abtastwerte**
+
+> [!important] Fensterung mit einer Rechteck-Funktion
+> $$f_{\mathrm{D}}[n] = \begin{cases}f[n] & \text{für} & n=0,1,2,\dots N-1 \\ 0 & \text{sonst}\end{cases}$$ 
+
+Die endlich lange zeitdiskrete Funktion $f_{\mathrm{D}}[n]$ ist nur eine Näherung der unendlich langen Folge von Abtastwerten $f[n] = f_{a}(nT)$.
+
+Damit ist auch die diskrete Fouriertransfomrierte $F_{\mathrm{D}}$ der Folge $f_{\mathrm{D}}[n]$ nur eine Näherung der Fouriertransfomrierten $f_a(t)\multimap F_{a}(j\omega)$
+
+> [!def] **D1 - DFT)** Diskrete Fourier Transformation - *Analysegleichung* ^DFT
+> $$F_{\mathrm{D}}[k]=\sum_{n=0}^{N-1}f_{\mathrm{D}}[n]W^{kn}_{N}\tag{DFT}$$
+
+> [!def] **D2 - IDFT)** Diskrete Fourier Transformation - *Analysegleichung* ^DFT
+> $$F_{\mathrm{D}}=\sum_{n=0}^{N-1}f_{\mathrm{D}}[n]W^{kn}_{N}$$
 
 ---
 ## ALT
