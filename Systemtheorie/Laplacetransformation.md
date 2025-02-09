@@ -153,17 +153,16 @@ Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0.
 Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden. 
 
 > [!satz] **Endwertsatz**
+> $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } sF(s)$$
+
+> [!example]- Beispiele Endwertsatz
 > Kausale stabile Exponentialfunktion:
 > 
-> $$
-> \lim _{s \rightarrow 0} \frac{s}{s-a}=0=\lim _{t \rightarrow \infty} e^{a t} \sigma(t)
-> $$
+> $$\lim _{s \rightarrow 0} \frac{s}{s-a}=0=\lim _{t \rightarrow \infty} e^{a t} \sigma(t)$$
 > 
 > Sprungfunktion:
 > 
-> $$
-> \lim _{s \rightarrow 0} s \frac{1}{s}=1=\lim _{t \rightarrow \infty} \sigma(t)
-> $$
+> $$\lim _{s \rightarrow 0} s \frac{1}{s}=1=\lim_{t \rightarrow \infty} \sigma(t)$$
 > 
 
 ### Weitere Korrespondenzen
