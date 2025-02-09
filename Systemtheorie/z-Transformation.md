@@ -120,7 +120,15 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 > [!satz] **S - )** Endwertsatz
 > $$\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$$
 
-> [!satz] **S - )** Parsevalsches Theorem der z-Transformation
+> [!satz] **S - )** Parsevalsches Theorem der z-Transformation - **Energie des Signals**
+> 
+> 
+> $$
+> \begin{align}
+> E&=\sum_{n=0}^{\infty} \lvert f[n] \rvert^{2} = \sum_{n=0}^{\infty} f[n]f^{*}[n] \\
+> &= \frac{1}{2\pi j} \oint_{C} F(z)F^{*}\left( \frac{1}{z^{*}} \right)z^{-1}\mathrm{~d}x 
+> \end{align}
+> $$
 > 
 
 ## Blockschaltbild
