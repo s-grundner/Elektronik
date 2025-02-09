@@ -120,6 +120,9 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 > [!satz] **S - )** Endwertsatz
 > $$\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$$
 
+> [!satz] **S - )** Parsevalsches Theorem der z-Transformation
+> 
+
 ## Blockschaltbild
 
 Mit der Darstellung der Übertragungsfunktion als rationale Funktion folgt:
