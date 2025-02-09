@@ -1,7 +1,9 @@
 ---
-tags: 
+tags:
+  - Analysis/Numerik
 aliases: 
-keywords: 
+keywords:
+  - z-Ebene
 subject:
   - Signale und Systeme
   - VL
@@ -51,7 +53,7 @@ $\implies$ die z-Transformation der Folge $f[n]$ ist gleich der zeitdiskreten Fo
 
 Die Kontur $C$ verläuft im Mathematisch positiven Sinn (gegen den Uhrzeigersinn) innerhalb des Konvergenzgebietes
 
-> [!question]
+> [!question] Liegt der Einheitskreis der z-Ebene im konvergenzgebiet
 
 ## Einseitige z-Transformation
 
