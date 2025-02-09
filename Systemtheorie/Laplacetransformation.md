@@ -192,6 +192,9 @@ $$
 
 ## Rücktransformation
 
+> [!def] **D - ILAPT)** Inverse Laplace Transformation - Umkehrintegral ^ILAPT
+> $$\frac{1}{2\pi j} \int_{\sigma -j\infty}^{\sigma +j\infty}F(s)e^{ st }\mathrm{~d}s$$
+
 Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 
 > [!important] Vorhergehensweise
