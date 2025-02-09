@@ -126,7 +126,7 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 > $$
 > \begin{align}
 > E&=\sum_{n=0}^{\infty} \lvert f[n] \rvert^{2} = \sum_{n=0}^{\infty} f[n]f^{*}[n] \\
-> &= \frac{1}{2\pi j} \oint_{C} F(z)F^{*}\left( \frac{1}{z^{*}} \right)z^{-1}\mathrm{~d}x 
+> &= \frac{1}{2\pi j} \oint_{C} F(z)F^{*}\left( \frac{1}{z^{*}} \right)z^{-1}\mathrm{~d}z 
 > \end{align}
 > $$
 > 
