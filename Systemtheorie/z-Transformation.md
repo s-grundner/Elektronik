@@ -31,7 +31,8 @@ Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitd
 ## Zweiseitige z-Transformation
 
 > [!def] **D1 - 2ZTR)** Zweiseitige z-Transformation ^2ZTR
-$$F(z) = \mathcal{Z}_{II} \{f[n]\} = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] \cdot r\cdot e^{ -j\Omega n } \impliedby z = r\cdot e^{ j\Omega } \tag{2ZTR}$$
+$$F(z) = \mathcal{Z}_{II} \{f[n]\} = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] \cdot r^{-n}\cdot e^{ -j\Omega n } \impliedby z = r\cdot e^{ j\Omega } \tag{2ZTR}$$
+
 Lässt sich auch im Zusammenhang der zeitdiskreten Fouriertransformation schreiben:
 
 $$F(z) = \sum_{n=-\infty}^{\infty}\left( f[n]r^{-n} \right)e^{ -jn\Omega } =\mathcal{F}\{f[n]\cdot r^{-n}\}$$
