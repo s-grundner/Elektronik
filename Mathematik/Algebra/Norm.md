@@ -3,8 +3,6 @@ tags:
   - Axiome/Norm
   - tikz/pgfplot
 aliases:
-  - Definition 6.11
-  - Satz 6.15
   - Parallelogrammgleichung
   - Cauchy-Schwarzsche Ungleichung
   - euklidsche Norm
@@ -23,6 +21,8 @@ axiome:
   - N1
   - N2
   - N3
+def:
+  - NORM
 ---
  
 
@@ -37,7 +37,7 @@ Der [Körper](Algebraische%20Strukturen.md) $\mathbb{K}$ sei im Folgenden entwed
 
 
 
-> [!important] **Definition 6.11** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md). Eine Abbildung $\|\cdot\|: X \rightarrow \mathbb{R}_{0}^{+}$ heißt Norm auf $X$, falls folgende Bedingungen gelten:
+> [!def] **D1 - NORM** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md). Eine Abbildung $\|\cdot\|: X \rightarrow \mathbb{R}_{0}^{+}$ heißt Norm auf $X$, falls folgende Bedingungen gelten: ^NORM
 > **(N1)** $\forall x \in X:\|x\|=0 \Longleftrightarrow x=0\quad$ (**[Definitheit](Algebra/Definitheit.md)**)
 > **(N2)** $\forall x \in X,\, \forall \lambda \in \mathbb{K}:\|\lambda x\|=|\lambda|\|x\|\quad$ (**Homogenität**)
 > **(N3)** $\forall x, y \in X:\|x+y\| \leq\|x\|+\|y\|\quad$ (**[Dreiecksungleichung](Betrag.md)**)
