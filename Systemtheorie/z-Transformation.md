@@ -44,6 +44,15 @@ $\implies$ die z-Transformation der Folge $f[n]$ ist gleich der zeitdiskreten Fo
 
 Äquivalent zum Realteil $\Re (s) = \sigma$ der Laplace-Transformation
 
+## Umkehrintegral
+
+> [!def] **D - IZTR)** Umkehrintegral der z-Transformation ^IZTR
+>  $$f[n] = \frac{1}{j2\pi}\oint_{C}F(z)z^{n-1}\mathrm{~d}z$$
+
+Die Kontur $C$ verläuft im Mathematisch positiven Sinn (gegen den Uhrzeigersinn) innerhalb des Konvergenzgebietes
+
+> [!question]
+
 ## Einseitige z-Transformation
 
 > [!def] **D2 - 1ZTR)** Einseitige z-Transformation ^1ZTR
