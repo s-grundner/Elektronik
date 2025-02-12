@@ -42,6 +42,10 @@ created: 18th August 2023
 
 [STLink V2](https://www.st.com/resource/en/user_manual/um1075-stlinkv2-incircuit-debuggerprogrammer-for-stm8-and-stm32-stmicroelectronics.pdf)
 
+![](assets/Pasted%20image%2020250212221236.png)
+
+
+
 ## Requirements
 
 STMCubeIDE
