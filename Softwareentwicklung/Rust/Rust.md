@@ -34,3 +34,10 @@ fn main() {
 > 1. Jeder Wert hat einen *Besitzer*
 > 2. Es kann nur *einen* Besitzer geben
 > 3. Wenn der Owner das *Scope* verlässt, wird der Wert *gelöscht*
+
+---
+
+# Rust Book Notes
+
+
+
