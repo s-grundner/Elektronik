@@ -18,7 +18,7 @@ created: 1st September 2023
  - [Katalyse](Katalyse.md)
  - [Oxidation und Reduktion](Oxidation%20und%20Reduktion.md)
  - [pH-Wert](pH-Wert.md) ([Säuren und Basen](Säuren%20und%20Basen.md))
- - [Stöchiometrie](Stöchiometrie.md) und [Allgemeines Gasgesetz](../Physik/Allgemeines%20Gasgesetz.md)
+ - [Stöchiometrie](Stöchiometrie.md) und [Allgemeines Gasgesetz](Allgemeines%20Gasgesetz.md)
 
 ## 2. ~~Organische Chemie Und Grundlagen Lebendiger Systeme~~
 

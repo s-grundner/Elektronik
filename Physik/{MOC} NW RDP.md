@@ -15,7 +15,7 @@ created: 19th August 2022
 - [Thermodynamik](Thermodynamik.md)
 - [Kernfusion](Kernfusion.md)
 - [Radioaktivität](../Chemie/Radioaktivität.md)
-- [Gasgesetze](Allgemeines%20Gasgesetz.md)
+- [Gasgesetze](../Chemie/Allgemeines%20Gasgesetz.md)
 - Energieumwandlung, Energieformen und [Leistung](../Elektrotechnik/elektrische%20Leistung.md)
 
 ### 5. Newtonsche Und Relativistische [Mechanik]({MOC}%20Mechanik.md)
