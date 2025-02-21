@@ -47,7 +47,7 @@ $c$ ist noch nicht den Anfangswerten angepasst. Eingesetzt mit den AWP wird $c$ 
 
 ### Eindeutige Lösung
 
-Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe FM S1)
+Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe [FM-S1](Fundamentalmatrix.md#^FM-S1))
 
 $$
 x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]

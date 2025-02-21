@@ -45,7 +45,7 @@ $$
 X^{\prime}=A(t) X, \quad X\left(t_0\right)=\mathbb{1}_m
 $$
 
-> [!satz] **S1 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$
+> [!satz] **S1 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
 > 
 > Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $X(t)$ wie folgt angeben:
 > 
@@ -69,6 +69,8 @@ $$
 > $$
 > 
 > gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
+
+## Lösung von Inhomogenen AWP
 
 > [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die Lösung des [inhomogenen AWP](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) $x'(t)=\mathbf{A}(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
 > $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]:=R(t)$$
