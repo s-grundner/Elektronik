@@ -89,6 +89,12 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 > \end{align}
 > $$
 
+## Stabilität von Lösungen
+
+Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL 
+
+
+
 ## Numerische Lösungen
 
 - [Numerische Lösungsverfahren von DGL](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
