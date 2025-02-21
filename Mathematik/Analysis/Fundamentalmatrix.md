@@ -29,7 +29,7 @@ Die Fundamentalmatrix eines DGL-Systems
 > heißt **Fundamentalmatrix**.
 
 
-Da jede Lösung das homgene DGL-System ([AWP 1.2](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2)) erfüllt, gilt
+Da jede Lösung das homgene DGL-System erfüllt, gilt
 $$
 X^{\prime}(t)=A(t) X(t)
 $$
@@ -61,7 +61,7 @@ $$
 > 
 
 
-> [!hint] Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflzung
+> [!hint] Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
 > Da hier
 > 
 > $$

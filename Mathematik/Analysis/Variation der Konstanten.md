@@ -15,7 +15,7 @@ professor:
 
 Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen Differenzialgleichungen 1. Ordnung gefunden werden.
 
-- [math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf](http://math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf)
+- [M2, Variation der Konstanten - Lubov, Vassilevskaya](http://math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf)
 - [Inhomogene lineare DG erster Ordnung](https://statmath.wu.ac.at/~leydold/MOK/HTML/node182.html)
 
 ## Lösungsansatz für Inhomogene DGL-Systeme 1. Ordnung
@@ -25,7 +25,7 @@ x_{p}(t)= X(t)\cdot c(t)
 $$
 wobei $X(t)$ die [Fundamentalmatrix](Fundamentalmatrix.md) ist.
 
-Durch ableiten unter anwendung der [Produktregel](./Analysis/Produktregel.md):
+Durch ableiten unter anwendung der [Produktregel](Produktregel.md):
 
 $$
 \begin{align}
@@ -36,14 +36,18 @@ $$
 
 ### Allgemeine Lösung
 
-Alle Lösungen des inhomogenen Systems sind dann gegeben durch
+Die Allgemeine Lösung ist die Linearkomination aller Lösungen, d.h jene von $x_{h}$ und $x_{p}$:
+
+$$
+x(t) = \underbrace{ x_{h}(t) }_{ X(t)c } + \underbrace{ x_{p}(t) }_{ X(t)c(t) }
+$$
+
+Damit sind alle Lösungen des inhomogenen Systems gegeben durch
 
 $$
 x(t)=X(t)\left[c+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]
 $$
-mit $c \in \mathbb{R}^m$.
-
-$c$ ist noch nicht den Anfangswerten angepasst. Eingesetzt mit den AWP wird $c$ zu $x_{0}$
+mit $c \in \mathbb{R}^m$. $c$ ist noch nicht den Anfangswerten angepasst. Eingesetzt mit den AWP wird $c$ zu $x_{0}$
 
 ### Eindeutige Lösung
 
