@@ -17,7 +17,7 @@ professor:
 
 # Fundamentalmatrix
 
-Die Fundamentalmatrix eines DGLS 
+Die Fundamentalmatrix eines DGL-Systems
 
 > [!def] **D1 - FUMA)** Definition der Fundamentalmatrix
 > Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
@@ -70,7 +70,7 @@ $$
 > 
 > gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
 
-> [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die Lösung des [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md) $x'(t)=A(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
+> [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die Lösung des [inhomogenen AWP](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) $x'(t)=\mathbf{A}(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
 > $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]:=R(t)$$
 > $R(t)$ Steht für die Rechte seite der DGL (also der term rechts des Gleichheitszeichens)
 
