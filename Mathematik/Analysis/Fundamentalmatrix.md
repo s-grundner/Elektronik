@@ -17,7 +17,7 @@ professor:
 
 # Fundamentalmatrix
 
-Die Fundamentalmatrix 
+Die Fundamentalmatrix eines DGLS 
 
 > [!def] **D1 - FUMA)** Definition der Fundamentalmatrix
 > Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)

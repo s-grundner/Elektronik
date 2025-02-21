@@ -19,7 +19,7 @@ professor:
 
 $$
 \begin{aligned}
-\dot{x}= A\cdot x,\quad x(t_{0}), \quad x \in\mathbb{R}^{m}, \quad A\in \mathbb{R}^{m\times m}
+\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}), \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}
 \end{aligned}
 $$
 
@@ -40,7 +40,7 @@ e^{at} = \sum_{k=0}^{\infty}\frac{(at)^{k}}{k!}
 $$
 
 > [!def] **D1 - EXPM)** Matrix-Exponentialfunktion
-> $$ e^{ B } := \sum_{k=0}^{\infty}\frac{B^{k}}{k!} $$
+> $$ e^{ \mathbf{B} } := \sum_{k=0}^{\infty}\frac{\mathbf{B}^{k}}{k!} $$
 
 Sei $x(t) = e^{ tA }\cdot C$ Dann gilt
 
