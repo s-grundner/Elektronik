@@ -105,6 +105,12 @@ Die Differenz geth für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen 
 
 ![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.14.56.excalidraw)
 
+### Asymptotisch Stabil (Stabil & Attrahierend)
+
+Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$
+
+![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.18.06.excalidraw)
+
 ## Numerische Lösungen
 
 - [Numerische Lösungsverfahren von DGL](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
