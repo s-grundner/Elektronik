@@ -2,8 +2,6 @@
 tags: 
 aliases:
   - Quotientenregel
-  - Satz 11.14
-  - Bemerkung 11.15
 keywords: 
 subject:
   - VL
@@ -13,6 +11,7 @@ created: 28. September 2024
 professor: 
 satz:
   - DQPQ
+draft: "true"
 ---
  
 
