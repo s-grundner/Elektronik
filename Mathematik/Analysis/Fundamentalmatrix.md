@@ -18,7 +18,7 @@ professor:
 # Fundamentalmatrix
 
 > [!def] **D1 - FUMA)** Definition der Fundamentalmatrix
-> Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines homogenen DGL-Systems ([AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md)) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
+> Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines homogenen DGL-Systems ([AWP 1.2](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2)) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
 > 
 > $$
 > X(t):=\left(x_1(t), \ldots, x_m(t)\right)
@@ -27,7 +27,7 @@ professor:
 > heißt **Fundamentalmatrix**.
 
 
-Da jede Lösung das homgene DGL-System ([AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md)) erfüllt, gilt
+Da jede Lösung das homgene DGL-System ([AWP 1.2](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2)) erfüllt, gilt
 $$
 X^{\prime}(t)=A(t) X(t)
 $$

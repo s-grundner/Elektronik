@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Kronecker-Delta
 keywords: 
 subject:
   - VL
