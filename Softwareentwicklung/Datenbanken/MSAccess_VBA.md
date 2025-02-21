@@ -1,6 +1,6 @@
 ---
-tags: ["MS". "VBA"]
-aliases: []
+tags: ["MS", "VBA"]
+aliases: 
 created: 29. November 2022
 ---
 
