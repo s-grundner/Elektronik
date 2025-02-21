@@ -26,7 +26,7 @@ Es gelten die Vorrausseztungen des Satzes von [Peano](Analysis/Peano.md).
 > \|f(t, x)-f(t, \bar{x})\| \leq L\|x-\bar{x}\| \quad \text { für alle } \quad(t, x),(t, \bar{x}) \in Q_{u, v}
 > $$
 > 
-> Dann besitzt das [AWP]({MOC}%20DGL.md) im Intervall $[t_{0},t_{0}+\alpha]$ eine eindeutige stetig differenzierbare Lösung $x$ mit $\alpha$ aus [Peano](Analysis/Peano.md).
+> Dann besitzt das [AWP]({MOC}%20DGL.md) im Intervall $[t_{0},t_{0}+\alpha]$ eine **eindeutige**, stetig differenzierbare Lösung $x$ (mit $\alpha$ aus [Peano](Analysis/Peano.md)).
 > 
 > **(b)** Weiters gilt, dass die [Funktionenfolge](Analysis/Funktionenfolge.md):
 > $$

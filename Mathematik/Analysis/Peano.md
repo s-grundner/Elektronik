@@ -42,3 +42,5 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 > > … wenn man in $(1)$ das Intervall $\left[t_0, t_0+u\right]$ durch $\left[t_0-u, t_0\right.$ ] oder $\left[t_0-u, t_0+u\right]$ ersetzt, wobei sich dann das Existenzintervall zu $\left[t_0-\alpha, t_0\right]$ bzw. $\left[t_0-\alpha, t_0+\alpha\right]$ ändert.
 
 ![](../../assets/Excalidraw/Peano%202025-02-21%2017.57.50.excalidraw)
+
+> [!question] Ist die Funktion $f$ zusätzlich [Lipschitz-Stetig](Lipschitz-Stetigkeit.md), dann ist die Lösung sogar Eindeutig: [Picard-Lindelöf](Picard-Lindelöf.md) 
