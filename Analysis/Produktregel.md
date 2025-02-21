@@ -10,15 +10,17 @@ subject:
   - Mathematik 2
 semester: SS24
 created: 28. September 2024
-professor:
+professor: 
+satz:
+  - DQPQ
 ---
  
 
 # Produktregel (Quotientenregel)
 
-Diese [Differentationsregeln](Analysis/Differenzialrechnung.md)**** folgen aus der [Kettenregel](Kettenregel.md)
+Diese [Differentationsregeln](Analysis/Differenzialrechnung.md) folgen aus der [Kettenregel](Kettenregel.md)
 
-> [!important] **Satz 11.14**. Sei $A \subset \mathbb{R}^n$ offen und $f, g: A \rightarrow \mathbb{R}$ seien differenzierbar in $x_0 \in A$. Dann gilt:
+> [!satz] **S1 - DQPQ**. Sei $A \subset \mathbb{R}^n$ offen und $f, g: A \rightarrow \mathbb{R}$ seien differenzierbar in $x_0 \in A$. Dann gilt: ^DQPQ
 **(a)** **Produktregel**: $f g$ ist in $x_0$ differenzierbar mit:
 > 
 > $$
@@ -43,7 +45,7 @@ $$
 - Nach Satz 11.10 ist also $F$ differenzierbar.
 - Nach Bemerkung 11.5 ist $G$ in $x_0$ differenzierbar.
 
-Nach [Satz 11.12](Kettenregel.md) ist damit $F \circ G=f g$ in $x_0$ differenzierbar mit: $(F \circ G)^{\prime}\left(x_0\right)=F^{\prime}\left(G\left(x_0\right)\right) G^{\prime}\left(x_0\right)$. Also:
+Nach [DQKR](Kettenregel.md#^DQKR) ist damit $F \circ G=f g$ in $x_0$ differenzierbar mit: $(F \circ G)^{\prime}\left(x_0\right)=F^{\prime}\left(G\left(x_0\right)\right) G^{\prime}\left(x_0\right)$. Also:
 
 $$
 \begin{aligned}
@@ -68,7 +70,7 @@ $$
 $$
 
 
-Also für alle $t \neq 0: \lim _{h \rightarrow 0} \frac{a(t+h)-a(t)}{h}=\frac{-1}{t^2}=a^{\prime}(t)$. Zusammen mit [Satz 11.11](Analysis/Faktorregel.md) folgt: $\frac{\partial F}{\partial v}\left(u_0, v_0\right)=-\frac{u_0}{v_0^2}$. Also wegen $F \circ G=\frac{f}{g}$ :
+Also für alle $t \neq 0: \lim _{h \rightarrow 0} \frac{a(t+h)-a(t)}{h}=\frac{-1}{t^2}=a^{\prime}(t)$. Zusammen mit [DQFK](Analysis/Faktorregel.md#^DQFK) folgt: $\frac{\partial F}{\partial v}\left(u_0, v_0\right)=-\frac{u_0}{v_0^2}$. Also wegen $F \circ G=\frac{f}{g}$ :
 
 $$
 \begin{aligned}

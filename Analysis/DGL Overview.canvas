@@ -7,7 +7,7 @@
 		{"id":"5679e1117c35b638","x":-764,"y":100,"width":364,"height":65,"type":"text","text":"**Inhomogen** $x'=A(t)x+b$"},
 		{"id":"598af1bfabdb9725","type":"text","text":"**Homogen** $x'=A(t)x$","x":-764,"y":240,"width":327,"height":65},
 		{"id":"2debd1ffdf799fb1","x":-1320,"y":245,"width":340,"height":60,"type":"text","text":"Trennen Der Variablen"},
-		{"id":"1775c68712486a26","x":-1320,"y":105,"width":340,"height":60,"type":"text","text":"Variation der Konstanten"}
+		{"id":"1775c68712486a26","x":-1440,"y":105,"width":460,"height":60,"type":"text","text":"Variation der Konstanten ($c\\to c(t)$)"}
 	],
 	"edges":[
 		{"id":"e73e0ea2b1087def","fromNode":"2debd1ffdf799fb1","fromSide":"right","toNode":"598af1bfabdb9725","toSide":"left"},

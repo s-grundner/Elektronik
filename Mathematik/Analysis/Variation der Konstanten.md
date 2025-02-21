@@ -25,7 +25,7 @@ x_{p}(t)= X(t)\cdot c(t)
 $$
 wobei $X(t)$ die [Fundamentalmatrix](Fundamentalmatrix.md) ist.
 
-Durch ableiten unter anwendung der Produktregel:
+Durch ableiten unter anwendung der [Produktregel](./Analysis/Produktregel.md):
 
 $$
 \begin{align}
