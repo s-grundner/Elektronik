@@ -17,8 +17,6 @@ professor:
 
 # Fundamentalmatrix
 
-Die Fundamentalmatrix eines DGL-Systems
-
 > [!def] **D1 - FUMA)** Definition der Fundamentalmatrix
 > Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](../Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
 > 
@@ -55,7 +53,7 @@ $$
 > \end{gathered}
 > $$
 > 
-> > [!success] für $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)=\mathbb{1}_{m}$
+> > [!success] für $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t_{0})=\mathbb{1}_{m}$
 > 
 > Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden
 > 
