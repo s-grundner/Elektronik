@@ -23,6 +23,8 @@ def:
 
 # Differentialgleichungen (DGL)
 
+![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2021.10.45.excalidraw)
+
 > [!info] Arten von Differentialgleichungen
 >
 > | gewöhnlich | partiell |
