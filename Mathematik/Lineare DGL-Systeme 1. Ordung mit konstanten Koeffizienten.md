@@ -39,15 +39,15 @@ $$
 e^{at} = \sum_{k=0}^{\infty}\frac{(at)^{k}}{k!}
 $$
 
-> [!def] **D1 - EXPM)** Matrix-Exponentialfunktion
+> [!def] **D1 - EXPM)** Matrix-Exponentialfunktion ^EXPM
 > $$ e^{ \mathbf{B} } := \sum_{k=0}^{\infty}\frac{\mathbf{B}^{k}}{k!} $$
 
 Sei $x(t) = e^{ tA }\cdot C$ Dann gilt
 
 $$
 \begin{align}
-x'(t)&=\left( \sum_{k=0}^{\infty} \frac{t^k A^k}{k!}\right)' \cdot C =\left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} A^k}{k!} \right) \cdot C \\
-&= A \cdot \sum_{k=0}^{\infty} \frac{t^k A^k}{k!} \cdot C = A \cdot x(t)
+x'(t)&=\left( \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!}\right)' \cdot C =\left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} \mathbf{A}^k}{k!} \right) \cdot C \\
+&= \mathbf{A} \cdot \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!} \cdot C = \mathbf{A} \cdot x(t)
 \end{align}
 $$
 

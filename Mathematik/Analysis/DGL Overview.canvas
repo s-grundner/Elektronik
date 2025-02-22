@@ -8,8 +8,8 @@
 		{"id":"2debd1ffdf799fb1","type":"text","text":"Trennen Der Variablen","x":-1320,"y":245,"width":340,"height":60},
 		{"id":"1775c68712486a26","type":"text","text":"Variation der Konstanten","x":-1320,"y":105,"width":340,"height":60},
 		{"id":"4069360b49eeddda","type":"text","text":"## AWP\n\nLineare DGL-Systeme 1. Ordnung","x":-811,"y":-117,"width":439,"height":131},
-		{"id":"79d10c4d4bd282f2","x":-1494,"y":-113,"width":514,"height":123,"type":"text","text":"Lineare DGL n-ter Ordnung\n- Umformen in ein System 1. Ordnung"},
-		{"id":"c11f5b3914e8d682","x":-315,"y":96,"width":415,"height":69,"type":"text","text":"Konstanter Koeffizient $A\\to A(t)$"}
+		{"id":"79d10c4d4bd282f2","type":"text","text":"Lineare DGL n-ter Ordnung\n- Umformen in ein System 1. Ordnung","x":-1494,"y":-113,"width":514,"height":123},
+		{"id":"c11f5b3914e8d682","type":"text","text":"Konstanter Koeffizient $A\\to A(t)$","x":-315,"y":96,"width":415,"height":69}
 	],
 	"edges":[
 		{"id":"e73e0ea2b1087def","fromNode":"2debd1ffdf799fb1","fromSide":"right","toNode":"598af1bfabdb9725","toSide":"left"},

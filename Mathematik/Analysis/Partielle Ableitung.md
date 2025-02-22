@@ -40,9 +40,9 @@ Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable
 > 
 > > [!quote] Die Reihenfolge der zweiten partiellen Ableitungen ist vertauschbar, wenn diese stetig differenzierbar ist
 > 
-> Sei $A \subset \mathbb{R}^2$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}$ besitzt in $A$ die partiellen Ableitungen $\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}$ und $\frac{\partial^2 f}{\partial x \partial y}$. 
+> Sei $A \subset \mathbb{R}^2$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}$ besitzt in $A$ die partiellen Ableitungen $\dfrac{\partial f}{\partial x}, \dfrac{\partial f}{\partial y}$ und $\dfrac{\partial^2 f}{\partial x \partial y}$. 
 > 
-> Ist $\frac{\partial^2 f}{\partial x \partial y}$ in $x_0$ stetig, so existiert auch $\frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)$ und es gilt:
+> Ist $\dfrac{\partial^2 f}{\partial x \partial y}$ in $x_0$ stetig, so existiert auch $\dfrac{\partial^2 f}{\partial y \partial x}\left(x_0\right)$ und es gilt:
 > $$\boxed{ \frac{\partial^2 f}{\partial y \partial x}\left(x_0\right)=\frac{\partial^2 f}{\partial x \partial y}\left(x_0\right) }$$
 
 > [!info] **Korollar**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. 
