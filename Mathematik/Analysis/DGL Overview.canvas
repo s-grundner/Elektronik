@@ -1,18 +1,22 @@
 {
 	"nodes":[
-		{"id":"22bbefbad0f52ad6","x":-180,"y":-300,"width":340,"height":80,"color":"6","type":"text","text":"# DGL Overview"},
-		{"id":"9df960f46a984f86","x":44,"y":-117,"width":250,"height":60,"type":"text","text":"# RWP"},
-		{"id":"115deb00231da954","x":531,"y":-117,"width":250,"height":60,"type":"text","text":"# PDGL"},
-		{"id":"5679e1117c35b638","x":-764,"y":100,"width":344,"height":65,"type":"text","text":"**Inhomogen** $x'=A(t)x+b$"},
+		{"id":"22bbefbad0f52ad6","type":"text","text":"# DGL Overview","x":-180,"y":-300,"width":340,"height":80,"color":"6"},
+		{"id":"9df960f46a984f86","type":"text","text":"# RWP","x":44,"y":-117,"width":250,"height":60},
+		{"id":"115deb00231da954","type":"text","text":"# PDGL","x":531,"y":-117,"width":250,"height":60},
+		{"id":"5679e1117c35b638","type":"text","text":"**Inhomogen** $x'=A(t)x+b$","x":-764,"y":100,"width":344,"height":65},
 		{"id":"598af1bfabdb9725","type":"text","text":"**Homogen** $x'=A(t)x$","x":-764,"y":240,"width":344,"height":65},
-		{"id":"2debd1ffdf799fb1","x":-1320,"y":245,"width":340,"height":60,"type":"text","text":"Trennen Der Variablen"},
-		{"id":"1775c68712486a26","x":-1320,"y":105,"width":340,"height":60,"type":"text","text":"Variation der Konstanten"},
-		{"id":"4069360b49eeddda","x":-811,"y":-117,"width":439,"height":131,"type":"text","text":"## AWP\n\nLineare DGL-Systeme 1. Ordnung"}
+		{"id":"2debd1ffdf799fb1","type":"text","text":"Trennen Der Variablen","x":-1320,"y":245,"width":340,"height":60},
+		{"id":"1775c68712486a26","type":"text","text":"Variation der Konstanten","x":-1320,"y":105,"width":340,"height":60},
+		{"id":"4069360b49eeddda","type":"text","text":"## AWP\n\nLineare DGL-Systeme 1. Ordnung","x":-811,"y":-117,"width":439,"height":131},
+		{"id":"79d10c4d4bd282f2","x":-1494,"y":-113,"width":514,"height":123,"type":"text","text":"Lineare DGL n-ter Ordnung\n- Umformen in ein System 1. Ordnung"},
+		{"id":"c11f5b3914e8d682","x":-315,"y":96,"width":415,"height":69,"type":"text","text":"Konstanter Koeffizient $A\\to A(t)$"}
 	],
 	"edges":[
 		{"id":"e73e0ea2b1087def","fromNode":"2debd1ffdf799fb1","fromSide":"right","toNode":"598af1bfabdb9725","toSide":"left"},
 		{"id":"9e62cd1147d9b29b","fromNode":"1775c68712486a26","fromSide":"right","toNode":"5679e1117c35b638","toSide":"left"},
 		{"id":"c5e9fbef2ee936ed","fromNode":"4069360b49eeddda","fromSide":"bottom","toNode":"5679e1117c35b638","toSide":"top"},
-		{"id":"2e58024547b0334e","fromNode":"5679e1117c35b638","fromSide":"bottom","toNode":"598af1bfabdb9725","toSide":"top"}
+		{"id":"2e58024547b0334e","fromNode":"5679e1117c35b638","fromSide":"bottom","toNode":"598af1bfabdb9725","toSide":"top"},
+		{"id":"09b09bbfc604f9be","fromNode":"79d10c4d4bd282f2","fromSide":"right","toNode":"4069360b49eeddda","toSide":"left"},
+		{"id":"168f74ee7711ad94","fromNode":"4069360b49eeddda","fromSide":"bottom","toNode":"c11f5b3914e8d682","toSide":"top"}
 	]
 }
