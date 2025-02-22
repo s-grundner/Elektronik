@@ -1,8 +1,7 @@
 ---
 tags:
   - Analysis
-aliases:
-  - MWSD
+aliases: []
 keywords: 
 subject:
   - VL
@@ -13,6 +12,8 @@ professor:
   - Andreas Neubauer
 satz:
   - MWSD
+title: Mittelwertsatz der Differenzialrechnung
+draft: false
 ---
  
 

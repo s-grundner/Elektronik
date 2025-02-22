@@ -1,8 +1,6 @@
 ---
 tags: 
 aliases:
-  - Matrix-Exponentialfunktion
-  - Matrix-Exponential
   - Hauptvektoren
   - Hauptvektor
 keywords: 
@@ -29,18 +27,7 @@ $A$ ist nicht von $t$ Abhängig
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 
 Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: 
-Und zwar mit der Matrix-[Exponentialfunktion](Analysis/Exponentialfunktion.md). $a$ wird zur Matrix $\mathbf{A}$.
-
-## Matrix-Exponentialfunktion
-
-Die Potenz-Reihe der Exponentialfunktion kann auf Matrizen erweitert werden:
-
-$$
-e^{at} = \sum_{k=0}^{\infty}\frac{(at)^{k}}{k!}
-$$
-
-> [!def] **D1 - EXPM)** Matrix-Exponentialfunktion ^EXPM
-> $$ e^{ \mathbf{B} } := \sum_{k=0}^{\infty}\frac{\mathbf{B}^{k}}{k!} $$
+Und zwar mit der [Matrix-Exponentialfunktion](Matrix-Exponentialfunktion.md#^EXPM). $a$ wird zur Matrix $\mathbf{A}$.
 
 Sei $x(t) = e^{ tA }\cdot C$ Dann gilt
 

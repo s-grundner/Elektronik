@@ -10,5 +10,7 @@ subject:
 semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
+draft: false
+title: <%tp.file.title%>
 ---
  
