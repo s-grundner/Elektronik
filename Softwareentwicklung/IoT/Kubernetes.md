@@ -39,16 +39,23 @@ ETCD: Datenbank
 - Key-Value Storage.
 - Beinhaltet Cluster Konfiguration
 
+> [!important] Muss in jedem fall gebackupt sein
+
 ### Worker Nodes
 
 ## Virtual Network
 
-Verbindet d
+Verbindet die Nodes
+
+---
+
+# Anwendug von Kubernetes
+
+
 
 ---
 
 ## Saves
 
-Homelab mit Kubernetes
-
+- [Kubernetes Crash Course for Absolute Beginners \[NEW\] - YouTube](https://www.youtube.com/watch?v=s_o8dwzRlu4)
 - [This homelab setup is my favorite one yet. - YouTube](https://www.youtube.com/watch?v=2yplBzPCghA)
