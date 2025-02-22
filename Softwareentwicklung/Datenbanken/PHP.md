@@ -171,8 +171,9 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 
 - Um den Zeichensatz einzustellen muss am Beginn des PHP-Skripts der gleiche Zeichensatz eingestellt werden wie in der verwendeten Datenbank (etwa um Umlaute/Sonderzeichen richtig darzustellen):
 
+
 ```php
-  header("Content-Type: text/html; charset=utf8_general_ci");
+header("Content-Type: text/html; charset=utf8_general_ci");
 ```
 
 Da sich Datentypen aus dem Kontext bestimmen kann `liefert 2 == "2"` ein wahres Ergebnis. Um zu überprüfen ob der Datentyp und der Wert identisch ist, wird mittels `===` bzw. `!==` Operator geprüft.
