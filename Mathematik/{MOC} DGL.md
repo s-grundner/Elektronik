@@ -68,7 +68,7 @@ Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung
 > 
 > für alle $t \in I$ und $x\left(t_0\right)=x_0$
 > 
-> > [!important] [AWP 1.1](Lineare%20DGL-Systeme%201.%20Ordnung.md), [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md)
+> > [!important] [AWP 1.1](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1), [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2)
 
 Um die Abhängigkeit der Lösung des AWP von $t_0$ und $x_0$ anzudeuten, schreibt man auch manchmal
 

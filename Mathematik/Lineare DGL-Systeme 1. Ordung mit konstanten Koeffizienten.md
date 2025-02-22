@@ -29,7 +29,7 @@ $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: 
 Und zwar mit der [Matrix-Exponentialfunktion](Matrix-Exponentialfunktion.md#^EXPM). $a$ wird zur Matrix $\mathbf{A}$.
 
-Sei $x(t) = e^{ tA }\cdot C$ Dann gilt
+Sei $x(t) = e^{ t\mathbf{A} }\cdot C$, dann gilt
 
 $$
 \begin{align}

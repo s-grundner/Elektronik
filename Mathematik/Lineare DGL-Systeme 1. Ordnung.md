@@ -40,7 +40,7 @@ $$
 A(t)&=\begin{pmatrix}
 a_{11}  & \cdots & a_{1m} (t) \\
 \vdots & \ddots & \vdots \\
-a_{m_{1}}(t) & \cdots & a_{mm}(t)
+a_{m1}(t) & \cdots & a_{mm}(t)
 \end{pmatrix}=(a_{ij}(t))^m_{i,j=1} \quad\in\mathbb{R}^{m\times m}\\ \\
 b(t) &= \begin{pmatrix}
 b_{1}(t) \\
