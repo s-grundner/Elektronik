@@ -3,7 +3,8 @@ tags:
 aliases:
   - Hauptvektoren
   - Hauptvektor
-keywords: 
+keywords:
+  - Hauptvektoren
 subject:
   - VL
   - Mathematik 3
@@ -38,14 +39,14 @@ x'(t)&=\left( \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!}\right)' \cdot C =\
 \end{align}
 $$
 
-A wird herausgehoben und für k-1 wird ein indexshift durchgeführt. 
+A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. 
 
-$e^{ At }C$ ist also die allgemeine Lösung von $\dot{x}=Ax$.
+$e^{ \mathbf{A}t }C$ ist also die allgemeine Lösung von $\dot{x}=\mathbf{A}x$.
 
 ## Fundamentalmatrix
 
 $$
-\underbrace{ e^{(t-t_{0}) A } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
+\underbrace{ e^{(t-t_{0}) \mathbf{A} } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
 $$
 
 Die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) ist also $e^{ tA }$.
