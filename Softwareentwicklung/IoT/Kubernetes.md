@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - k8s
 created: 22. Februar 2025
 draft: false
 ---
@@ -11,7 +12,7 @@ Kubernetes ist ein **Container Orchestration** Tool. -> Load Balancing von Micro
 
 > [!question] Kubernetes Sorgt für
 > 
-> **Availability - Verfügbarkeit:** Keine Downtime von Systemen
+> **Availability - Verfügbarkeit:** Keine Downtime von Systemen (Reschedule bei Ausfall oder Update von Pods)
 > 
 > **Scalability - Skalierbarkeit:** Bei höherer Load können neue Cluster einfach integriert werden  
 >
@@ -55,7 +56,17 @@ Verbindet die Nodes
 
 ---
 
+## Begriffe
+
+- Cluster
+- Pod
+- Node
+- Container
+- Deployment
+- StatefulSet
+
 ## Saves
 
 - [Kubernetes Crash Course for Absolute Beginners \[NEW\] - YouTube](https://www.youtube.com/watch?v=s_o8dwzRlu4)
 - [This homelab setup is my favorite one yet. - YouTube](https://www.youtube.com/watch?v=2yplBzPCghA)
+
