@@ -47,20 +47,26 @@ Wenn $g$ $n$-mal Differenziert werden muss um zu verschwinden, lässt sich schre
 $F_{(n)}$ ist dabei die $n$-te Stammfunktion, bzw $f$ $n$-mal Integriert. Dann lässt sich die $n$-malige Partielle Integration explizit schreiben wie:
 
 $$
-\int f g \mathrm{~d}x = Fg - F_{(2)}g'+F_{(3)}g'' -\dots(-1)^{n}\cdot \left[ F_{(n-1)}g^{(n-2)} - F_{(n)}  \right] 
+\int f g \mathrm{~d}x = Fg - F_{(2)}g'+F_{(3)}g'' -\dots(-1)^{n-2}\cdot F_{(n-1)}g^{(n-2)} +(-1)^{n-1}\cdot F_{(n)}\cdot c +C
 $$
 
-> [!warning] Ist das Integral Bestimmt, müssen die grenzen für jeden Term berücksichtigt werden. 
+- Ist das Integral Bestimmt, müssen die grenzen für jeden Term berücksichtigt werden. 
+- Ist das Integral Unbestimmt $+ C$ nicht vergessen
 
-$$
-\begin{align}
-\int fg \mathrm{~d}x &= Fg- \int Fg' \mathrm{~d}x \\
-&= Fg-\left[ F_{(2)}g' \right] 
-\end{align}
-$$
 
-> [!success] Geziegt für $n=6$
->  ![800](../../assets/Excalidraw/Partielle%20Integration%202025-02-23%2016.06.29.excalidraw)
+> [!success]- Geziegt für $n=6$
+> 
+> $$
+> \begin{align}
+> \int fg \mathrm{~d}x &= Fg- \int Fg' \mathrm{~d}x \\
+> &= Fg-\left[ F_{(2)}g'- \int F_{(2)}g'' \mathrm{~d}x \right] &&\text{Part. Int. Weiterführen}  \\
+> &= Fg- F_{(2)}g' + F_{(3)}g''-\int F_{(3)}g''' \mathrm{~d}x &&\text{beim Ausklammern Vorzeichen Beachten} \\
+> &= Fg- F_{(2)}g' + F_{(3)}g''-F_{(4)}g'''+\int F_{(4)} g^{(4)} \mathrm{~d}x \\
+> &= Fg- F_{(2)}g' + F_{(3)}g''-F_{(4)}g'''+ \left[ F_{(5)}g^{(4)}- \int F_{(5)}\underbrace{ g^{(5)} }_{ =1 } \mathrm{~d}x  \right]  \\
+> &= Fg- F_{(2)}g' + F_{(3)}g''-F_{(4)}g'''+ F_{(5)}g^{(4)}- F_{(6)}
+> \end{align}
+> $$
+
 
 
 ## Integration von Transitiven Produkten
