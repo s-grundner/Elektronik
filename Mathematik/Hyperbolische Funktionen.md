@@ -25,7 +25,7 @@ professor:
 > \end{align}
 > $$
 
-## Bemerkung 4.30
+## Hyperbolische Zusammenhänge
 
 $$
 \begin{aligned}
@@ -39,38 +39,26 @@ $$
 \end{aligned}
 $$
 
-### Areafunktionen
+## Areafunktionen
 
 > [!def] **D2 - AREA)** Areafunktionen: Umkehrfunktionen der Hyperbolischen Funktionen 
-
-
-$$
-\begin{align}
-\text{Area Sinus hyperbolicus}:&\quad \operatorname{arsinh}: \mathbb{R} \rightarrow \mathbb{R} \\
-\text{Area Cosinus hyperbolicus}:&\quad \operatorname{arcosh}:[1, \infty) \rightarrow \mathbb{R}_0^{+} \\
-\text{Area Tangens hyperbolicus}:&\quad  \operatorname{artanh}:(-1,1) \rightarrow \mathbb{R}
-\end{align}
-$$
-
-$$
-\begin{aligned}
-\operatorname{arsinh}(x) & =\ln \left(x+\sqrt{x^2+1}\right) \\
-\operatorname{arcosh}(x) & =\ln \left(x+\sqrt{x^2-1}\right) \\
-\operatorname{artanh}(x) & =\frac{1}{2} \ln \left(\frac{x+1}{x-1}\right)
-\end{aligned}
-$$
-
+> 
+> $$
+> \begin{align}
+> \text{Area Sinus hyperbolicus}:&\quad \operatorname{arsinh}: \mathbb{R} \rightarrow \mathbb{R} && x \mapsto\ln \left(x+\sqrt{x^2+1}\right)\\
+> \text{Area Cosinus hyperbolicus}:&\quad \operatorname{arcosh}:[1, \infty) \rightarrow \mathbb{R}_0^{+} && x \mapsto \ln \left(x+\sqrt{x^2-1}\right)\\
+> \text{Area Tangens hyperbolicus}:&\quad  \operatorname{artanh}:(-1,1) \rightarrow \mathbb{R} && x \mapsto \frac{1}{2} \ln \left(\frac{x+1}{x-1}\right)
+> \end{align}
+> $$
 
 
 ## Ableitung Hyperbolischer Funktionen
 
 $$
 \begin{align}
-(\sinh t)' &= \cosh t  && (\operatorname{arsinh})' &= \frac{1}{\sqrt{ 1+x^{2} }}\\
-(\cosh t)' &= \sinh t && (\operatorname{arcosh})' &= \frac{1}{\sqrt{ x^{2}-1 }}\\
+(\sinh t)' &= \cosh t  && (\operatorname{arsinh})' = \frac{1}{\sqrt{ 1+x^{2} }}\\
+(\cosh t)' &= \sinh t && (\operatorname{arcosh})' = \frac{1}{\sqrt{ x^{2}-1 }}\\
 (\tanh t )' &= \frac{1}{\cosh ^{2}(t)} = 1 - \tanh ^{2}(t)  \\
-(\operatorname{artanh})' &= 
-
 \end{align}
 $$
 
