@@ -15,7 +15,7 @@ professor:
 
 # Partielle Integration
 
-> [!satz] **S1 - PINT)** Partielle Integration
+> [!satz] **S1 - PINT)** Partielle [Integration](Integralrechnung.md)
 > 
 > $$\int_{a}^{b} f(x)\cdot g(x) \, dx = F(x)\cdot g(x) \Bigg|_{a}^{b} - \int_{a}^{b} F(x)\cdot g'(x) \, dx $$
 
