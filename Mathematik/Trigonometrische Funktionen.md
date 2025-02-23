@@ -1,9 +1,8 @@
 ---
 tags: 
 aliases:
-  - Definition 4.31
-  - Bemerkung 4.32
   - Trigonometrie
+  - Kreisfunktionen
 keywords: 
 subject:
   - VL

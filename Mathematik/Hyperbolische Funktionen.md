@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Arkusfunktionen
+  - Areafunktionen
 keywords: 
 subject:
   - VL
