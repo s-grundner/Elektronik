@@ -36,18 +36,18 @@ Bei mehrmaliger Anwendung der Partiellen Integration ist eine Tabellarische Schr
 
 Wenn $g$ $n$-mal Differenziert werden muss um zu verschwinden, lässt sich schreiben:
 
-|          | I           | D                  |
-| -------- | ----------- | ------------------ |
-| 0        | $f$         | $g$                |
-| 1        | $F$         | $g'$               |
-| $\vdots$ |             |                    |
-| $n-1$    | $F_{(n-1)}$ | $c \in \mathbb{R}$ |
-| $n$      | $F_{(n)}$   | $0$                |
+|          | I           | D                       |
+| -------- | ----------- | ----------------------- |
+| 0        | $f$         | $g$                     |
+| 1        | $F$         | $g'$                    |
+| $\vdots$ |             |                         |
+| $n-1$    | $F_{(n-1)}$ | $\gamma \in \mathbb{R}$ |
+| $n$      | $F_{(n)}$   | $0$                     |
 
 $F_{(n)}$ ist dabei die $n$-te Stammfunktion, bzw $f$ $n$-mal Integriert. Dann lässt sich die $n$-malige Partielle Integration explizit schreiben wie:
 
 $$
-\int f g \mathrm{~d}x = Fg - F_{(2)}g'+F_{(3)}g'' -\dots(-1)^{n-2}\cdot F_{(n-1)}g^{(n-2)} +(-1)^{n-1}\cdot F_{(n)}\cdot c +C
+\int f g \mathrm{~d}x = Fg - F_{(2)}g'+F_{(3)}g'' -\dots(-1)^{n-2}\cdot F_{(n-1)}g^{(n-2)} +(-1)^{n-1}\cdot F_{(n)}\cdot \gamma +C
 $$
 
 - Ist das Integral Bestimmt, müssen die grenzen für jeden Term berücksichtigt werden. 
