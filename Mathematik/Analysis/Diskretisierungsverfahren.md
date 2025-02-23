@@ -66,6 +66,8 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL
 
 Wir möchten Näherungen $x_{k}$ für $x(t_{k})$ berechnen.
 
+---
+
 ## Explizite Einschrittverfahren
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ des [Euler-Verfahrens](Euler-Verfahren.md) zu einer **Verfahrensfunktion** $\phi$.
@@ -81,9 +83,7 @@ Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $
 
 Man möchte wissen, wie gut die Approximation ist und ob Konvergenz gegen die exakte Lösung vorliegt, wenn die Schrittweite $h$ gegen 0 geht.
 
-Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern der vorherigen Schritte zusammen und ist daher einer direkten Bestimmung nicht zugänglich.
-
-Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
+Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern der vorherigen Schritte zusammen und ist daher einer direkten Bestimmung nicht zugänglich. Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem Schritt des ESV mit dem Startwert $x\left(t_{k-1}\right)$ an der Stelle $t_{k-1}$ und zwar den zwischen der exakten Fortschreiterichtung und der durch die Verfahrensfunktion $\phi$ vorgegebenen:
 
 ### Lokaler Diskretisierungsfehler
 
@@ -112,7 +112,7 @@ Daher wird in einem ersten Schritt den Fehler an der Stelle $t_k$ nach nur einem
 > > falls das ESV konsistent ist. (Konvergenzgeschwindigkeit)
 > 
 
-
+---
 
 > [!def] **D3 - ORD)** Definition der Ordnung $O(h^{q})$: 
 > $$\exists C>0\, \exists h_{0}\!>0\,\forall h\leq h_{0}: \lVert \tau \rVert_{\infty}\leq C h^q $$
