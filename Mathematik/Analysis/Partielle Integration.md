@@ -53,6 +53,7 @@ $$
 - Ist das Integral Bestimmt, müssen die grenzen für jeden Term berücksichtigt werden. 
 - Ist das Integral Unbestimmt $+ C$ nicht vergessen
 
+---
 
 > [!success]- Geziegt für $n=6$
 > 
