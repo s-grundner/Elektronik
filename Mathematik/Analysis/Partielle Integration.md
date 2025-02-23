@@ -34,22 +34,33 @@ professor:
 
 Bei mehrmaliger Anwendung der Partiellen Integration ist eine Tabellarische Schreibweise hilfreich:
 
-Wenn $g$ $n$-mal Differenziert werden muss damit es verschwindet, lässt sich schreiben:
+Wenn $g$ $n$-mal Differenziert werden muss um zu verschwinden, lässt sich schreiben:
 
-|          | I         | D    |
-| -------- | --------- | ---- |
-| 0        | $f$       | $g$  |
-| 1        | $F$       | $g'$ |
-| $\vdots$ |           |      |
-| $n$      | $F_{(n)}$ | $1$  |
+|          | I           | D                  |
+| -------- | ----------- | ------------------ |
+| 0        | $f$         | $g$                |
+| 1        | $F$         | $g'$               |
+| $\vdots$ |             |                    |
+| $n-1$    | $F_{(n-1)}$ | $c \in \mathbb{R}$ |
+| $n$      | $F_{(n)}$   | $0$                |
 
 $F_{(n)}$ ist dabei die $n$-te Stammfunktion, bzw $f$ $n$-mal Integriert. Dann lässt sich die $n$-malige Partielle Integration explizit schreiben wie:
 
 $$
-\int f g \mathrm{~d}x = Fg - F_{(2)}g'+F_{(3)}g'' -\dots(-1)^n\cdot \left[ F_{(n)}g^{(n-1)} -\int F_{(n)}\cdot 1 \mathrm{~d}x  \right] 
+\int f g \mathrm{~d}x = Fg - F_{(2)}g'+F_{(3)}g'' -\dots(-1)^{n}\cdot \left[ F_{(n-1)}g^{(n-2)} - F_{(n)}  \right] 
 $$
 
-![](../../assets/Excalidraw/Partielle%20Integration%202025-02-23%2016.06.29.excalidraw)
+> [!warning] Ist das Integral Bestimmt, müssen die grenzen für jeden Term berücksichtigt werden. 
+
+$$
+\begin{align}
+\int fg \mathrm{~d}x &= Fg- \int Fg' \mathrm{~d}x \\
+&= Fg-\left[ F_{(2)}g' \right] 
+\end{align}
+$$
+
+> [!success] Geziegt für $n=6$
+>  ![800](../../assets/Excalidraw/Partielle%20Integration%202025-02-23%2016.06.29.excalidraw)
 
 
 ## Integration von Transitiven Produkten
