@@ -41,6 +41,8 @@ def:
 
 - Analog gilt, dass die Funktion $\tan (x)$ das Intervall $\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)$ streng monoton wachsend und [bijektiv](Algebra/Abbild.md) nach $\mathbb{R}$ abbildet.
 
+---
+
 ## Winkelsätze
 
 $$
@@ -64,7 +66,7 @@ $$
 
 ### Symmetrie
 
-> [!satz] **S1 - TRIG)** Winkelsymmetriesätze
+> [!satz] **S1 - WSYM)** Winkelsymmetriesätze ^TRIG-S1
 > $$
 > \begin{aligned}
 > \sin (-x) & =  -\sin x & \cos (-x) & = \cos x \\
@@ -76,13 +78,13 @@ $$
 
 ### Pythagoras
 
-> [!satz] **S2 - PYTH)** Satz von Pythagoras
+> [!satz] **S2 - PYTH)** Satz von Pythagoras ^PYTH
 >
 >$$\sin ^{2} x+\cos ^{2} x=1$$
 
 ### Doppelwinkel
 
-> [!satz] **S3 - TRIG)** Doppelwinkel Sätze
+> [!satz] **S3 - DOPW)** Doppelwinkel Sätze
 > $$
 > \begin{align} 
 > \cos (2 x) & =\cos ^2(x)-\sin ^2(x) & \sin (2 x) & =2 \sin (x) \cos (x) \\
@@ -91,9 +93,9 @@ $$
 > \end{align} 
 > $$
 
-### Summensätze
+### Winkelsummen
 
-> [!satz] **S4 - TRIG)** Winkelsummen Sätze
+> [!satz] **S4 - WSUM)** Winkelsummen Sätze
 > $$
 > \begin{aligned}
 > \sin (x+y) & =\sin x \cos y+\cos x \sin y \\
@@ -101,41 +103,46 @@ $$
 > \end{aligned}
 > $$
 
-### Additionstheoreme
+---
 
-$$
-\begin{align}
-\sin x-\sin y & =2 \cos \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
-\sin x+\sin y & =2 \sin \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right) \\
-\cos x-\cos y & =-2 \sin \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
-\cos x+\cos y & =2 \cos \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right)
-\end{align}
-$$
+### Summen von Winkelfunktionen
+
+> [!satz] **S5 - TADD)** Trigonometrische Additionssätze
+> $$
+> \begin{align}
+> \sin x-\sin y & =2 \cos \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
+> \sin x+\sin y & =2 \sin \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right) \\
+> \cos x-\cos y & =-2 \sin \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
+> \cos x+\cos y & =2 \cos \left(\frac{x+y}{2}\right) \cos \left(\frac{x-y}{2}\right)
+> \end{align}
+> $$
 
 ### Produkte von Winkelfunktionen
 
-$$
-\begin{aligned}
-& \sin x \sin y=\frac{1}{2}(\cos (x-y)-\cos (x+y)) \\
-& \cos x \cos y=\frac{1}{2}(\cos (x-y)+\cos (x+y)) \\
-& \sin x \cos y=\frac{1}{2}(\sin (x-y)+\sin (x+y)) \\
-& \tan x \tan y=\frac{\tan x+\tan y}{\cot x+\cot y}=-\frac{\tan x-\tan y}{\cot x-\cot y} \\
-& \cot x \cot y=\frac{\cot x+\cot y}{\tan x+\tan y}=-\frac{\cot x-\cot y}{\tan x-\tan y} \\
-& \tan x \cot y=\frac{\tan x+\cot y}{\cot x+\tan y}=-\frac{\tan x-\cot y}{\cot x-\tan y}
-\end{aligned}
-$$
+> [!satz] **S6 - TMUL)**
+> $$
+> \begin{aligned}
+> & \sin x \sin y=\frac{1}{2}(\cos (x-y)-\cos (x+y)) \\
+> & \cos x \cos y=\frac{1}{2}(\cos (x-y)+\cos (x+y)) \\
+> & \sin x \cos y=\frac{1}{2}(\sin (x-y)+\sin (x+y)) \\
+> & \tan x \tan y=\frac{\tan x+\tan y}{\cot x+\cot y}=-\frac{\tan x-\tan y}{\cot x-\cot y} \\
+> & \cot x \cot y=\frac{\cot x+\cot y}{\tan x+\tan y}=-\frac{\cot x-\cot y}{\tan x-\tan y} \\
+> & \tan x \cot y=\frac{\tan x+\cot y}{\cot x+\tan y}=-\frac{\tan x-\cot y}{\cot x-\tan y}
+> \end{aligned}
+> $$
 
 ## Arkusfunktionen
 
-Es gibt daher jeweils Umkehrfunktionen, genannt Arkusfunktionen:
+Es gibt zu den trigonometrischen Funktionen jeweils Umkehrfunktionen, genannt Arkusfunktionen:
 
-$$
-\begin{align}
-\text{Arkussinus}&\quad \arcsin :[-1,1] \rightarrow\left[-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right] \\
-\text{Arkuscosinus}&\quad\arccos :[-1,1] \rightarrow[0, \pi]\\
-\text{Arkustangens}&\quad\arctan : \mathbb{R} \rightarrow\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)
-\end{align}
-$$
+> [!def] **D2 - ARKF)** 
+> $$
+> \begin{align}
+> \text{Arkussinus}&\quad \arcsin :[-1,1] \rightarrow\left[-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right] \\
+> \text{Arkuscosinus}&\quad\arccos :[-1,1] \rightarrow[0, \pi]\\
+> \text{Arkustangens}&\quad\arctan : \mathbb{R} \rightarrow\left(-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right)
+> \end{align}
+> $$
 
 ## Integrale
 
