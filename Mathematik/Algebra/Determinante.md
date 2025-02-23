@@ -65,8 +65,7 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 
 > [!info] $n=1$: $A \in \mathbb{R}^{1\times 1}$ 
 >
-> $\det A = | a_{11} | =a_{11}$ 
-
+> $$\det A = | a_{11} | =a_{11}$$ 
 
 
 > [!info] $n=2$: $A \in \mathbb{R}^{2\times 2}$
@@ -79,25 +78,27 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 > $$
 
 
-!inof $n = 3$: $A \in \mathbb{R}^{3\times 3}$
+> [!info] $n = 3$: $A \in \mathbb{R}^{3\times 3}$
+> 
+> ![InlR|300](Pasted%20image%2020240127170055.png) Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ und erhält, dass die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$ ist. 
+>
+> $$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$
+>
+> Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
+> 
+> ![InlR|300](Pasted%20image%2020240127172108.png)
+>
+> **Sätze:**
+> - [Regel von Sarrus](Regel%20von%20Sarrus.md)
+> 
 
-![InlR|300](Pasted%20image%2020240127170055.png) Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ und erhält, dass die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$ ist.  
+> [!info] $n\geq 4$:
+> **Sätze:** 
+> - Laplace Entwicklungssatz
 
-<br><br><br>
+## Sonderfälle
 
-$$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$
-
-<br>
-
-![InlR|300](Pasted%20image%2020240127172108.png) Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
-
-[Regel von Sarrus](Regel%20von%20Sarrus.md)
-
-## $n\geq 4$: Laplace Entwicklungssatz
-
-# Sonderfälle
-
-## Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md)
+### Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md)
 
 $$
 \left|\begin{array}{ccccc}
@@ -106,20 +107,18 @@ a_{11} & * & * & \ldots & * \\
 0 & 0 & a_{33} & \ldots & * \\
 \vdots & \vdots & & \ddots & \vdots \\
 0 & 0 & 0 & \ldots & a_{n n}
-\end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n} .
+\end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n}
 $$
 
-## Determinante einer [Diagonalmatrix](Diagonalmatrix.md)
+### Determinante einer [Diagonalmatrix](Diagonalmatrix.md)
 
 $$
 \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
 $$
 
-## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
+### Determinante der [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
 
-$$
-\operatorname{det}\left(\mathbb{1}_n\right)=1 \text {. }
-$$
+$$\operatorname{det}\left(\mathbb{1}_n\right)=1$$
 
 # Tags
 
