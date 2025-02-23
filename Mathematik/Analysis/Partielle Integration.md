@@ -19,7 +19,7 @@ professor:
 > 
 > $$\int_{a}^{b} f(x)\cdot g(x) \, dx = F(x)\cdot g(x) \Bigg|_{a}^{b} - \int_{a}^{b} F(x)\cdot g'(x) \, dx $$
 
-(Auch für und)
+(Auch für unbestimmte Integrale)
 
 - für $g$ wird jene Funktion gewählt die durch Differenzation verschwindet
 - Es gibt eine einfach anzuwendende tabellarische Methode der partiellen Integration
@@ -46,8 +46,10 @@ Wenn $g$ $n$-mal Differenziert werden muss damit es verschwindet, lässt sich sc
 $F_{(n)}$ ist dabei die $n$-te Stammfunktion, bzw $f$ $n$-mal Integriert. Dann lässt sich die $n$-malige Partielle Integration explizit schreiben wie:
 
 $$
-\int_{a}^{b} f \mathrm{~d}x 
+\int f g \mathrm{~d}x = Fg - F_{(2)}g'+F_{(3)}g'' -\dots(-1)^n\cdot \left[ F_{(n)}g^{(n-1)} -\int F_{(n)}\cdot 1 \mathrm{~d}x  \right] 
 $$
+
+![](../../assets/Excalidraw/Partielle%20Integration%202025-02-23%2016.06.29.excalidraw)
 
 
 ## Integration von Transitiven Produkten
