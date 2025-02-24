@@ -1,20 +1,21 @@
 ---
 tags: 
-aliases:
-  - Satz 11.12
+aliases: 
 keywords: 
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 28. September 2024
-professor:
+professor: 
+satz:
+  - DQKR
 ---
  
 
 # Kettenregel
 
-> [!important] **Satz 11.12**: Sei $A \subset \mathbb{R}^n$ offen, $g: A \rightarrow \mathbb{R}^m$ differenzierbar in $x \in A$, $B \supset g(A)$ offen und $f: B \rightarrow \mathbb{R}^k$ differenzierbar in $g(x)$. Dann ist $f \circ g$ differenzierbar in $x$, und es gilt:
+> [!satz] **S1 - DQKR**: Sei $A \subset \mathbb{R}^n$ offen, $g: A \rightarrow \mathbb{R}^m$ differenzierbar in $x \in A$, $B \supset g(A)$ offen und $f: B \rightarrow \mathbb{R}^k$ differenzierbar in $g(x)$. Dann ist $f \circ g$ differenzierbar in $x$, und es gilt: ^DQKR
 > 
 > $$
 > (f \circ g)^{\prime}(x)=f^{\prime}(g(x)) g^{\prime}(x) \quad \text { (als Produkt von Matrizen) }

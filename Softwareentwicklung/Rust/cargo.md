@@ -13,3 +13,6 @@ cited:
 > - `cargo build`
 > - `cargo run`
 > - `cargo check`
+> - `cargo update`
+> - `cargo doc --open`
+

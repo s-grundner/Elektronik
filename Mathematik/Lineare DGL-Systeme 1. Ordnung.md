@@ -25,7 +25,7 @@ hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I
 > [!quote] Lineare DGL-Systeme 1. Ordnung
 >Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../Physik/Federkraft.md)-Dämpfer [Systeme](../Systemtheorie/Zustandsgleichungen.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
-> [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung
+> [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung ^AWP1-1
 > 
 > $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}$$
 
@@ -40,7 +40,7 @@ $$
 A(t)&=\begin{pmatrix}
 a_{11}  & \cdots & a_{1m} (t) \\
 \vdots & \ddots & \vdots \\
-a_{m_{1}}(t) & \cdots & a_{mm}(t)
+a_{m1}(t) & \cdots & a_{mm}(t)
 \end{pmatrix}=(a_{ij}(t))^m_{i,j=1} \quad\in\mathbb{R}^{m\times m}\\ \\
 b(t) &= \begin{pmatrix}
 b_{1}(t) \\
@@ -51,7 +51,7 @@ b_{m}(t)
 $$
 
 
-> [!def] **D2 - AWP 1.2)** Falls $b=\mathbf{0}$, dann heißt **AWP 1.1** ein **homogenes DGL-System**, ansonsten **inhomogen**
+> [!def] **D2 - AWP 1.2)** Falls $b=\mathbf{0}$, dann heißt [AWP 1.1](#^AWP1-1) ein **homogenes DGL-System**, ansonsten **inhomogen** ^AWP1-2
 > zu jedem inhomogenen System gibt es ein homogenes System $$x'=A(t)x\tag{AWP 1.2}$$
 
 > [!question]- Implizite Form eines inhomogenen DGL-Systems

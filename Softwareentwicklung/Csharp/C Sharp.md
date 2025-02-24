@@ -2,7 +2,7 @@
 
 ## Funktionen
 
-### ### Ref Parameters
+### Ref Parameters
 
 ```cs
 static void Foo(ref int num) { num = 5;}

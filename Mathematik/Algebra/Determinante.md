@@ -38,7 +38,9 @@ professor:
 > 
 > Die Determinante ist außerdem das Produkt der Eigenwerte seiner Matrix:
 > $$\det A=\prod^{n}_{i=1}\lambda_{i}$$
-> 
+
+
+---
 
 ## Bedeutung der Determinante
 
@@ -46,14 +48,14 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 
 - Haben zwei Matrizen die selbe Determinante heißen sie **ähnlich**.
 
-> [!info] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
+> [!hint] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
 > Eine Inverse der Transformation ist daher nicht bildbar, da man aus einer niedrigeren Dimension nicht auf eine eindeutige Lösung in einer höheren Dimension kommt.
 > - Matrix ist nicht invertierbar
 > - [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) ist nicht eindeutig lösbar
 > - Mindestens ein [Eigenwert](../Analysis/Eigenvektor.md) ist 0.
 > - [Matrix](Matrix.md) ist singulär
 
-> [!info] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
+> [!hint] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
 >  ![InlineR|325](assets/spooder.png)Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
 > 
 > $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
@@ -61,60 +63,46 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 > $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
 > 
 
-## $n=1$: $A \in \mathbb{R}^{1\times 1}$
+---
 
-$$\det A = | a_{11} |=a_{11}$$
+## Ermittlung der Determinante
 
-## $n=2$: $A \in \mathbb{R}^{2\times 2}$
+> [!info] $n=1$: $A \in \mathbb{R}^{1\times 1}$ 
+>
+> $$\det A = | a_{11} | =a_{11}$$ 
 
-$$
-\det A=\left|\begin{matrix}
-a_{11} & a_{12} \\
-a_{21} & a_{22}
-\end{matrix}\right| =a_{11}\cdot a_{22} - a_{21}\cdot a_{12}
-$$
 
-## $n = 3$: $A \in \mathbb{R}^{3\times 3}$
+> [!info] $n=2$: $A \in \mathbb{R}^{2\times 2}$
+>
+> $$
+> \det A=\left|\begin{matrix}
+> a_{11} & a_{12} \\
+> a_{21} & a_{22}
+> \end{matrix}\right| =a_{11}\cdot a_{22} - a_{21}\cdot a_{12}
+> $$
 
-![InlR|300](Pasted%20image%2020240127170055.png) Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ und erhält, dass die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$ ist.  
 
-<br><br><br>
+> [!info] $n = 3$: $A \in \mathbb{R}^{3\times 3}$
+> ![InlR|300](Pasted%20image%2020240127170055.png) 
+> 
+> $$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$ 
+> Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ und erhält, dass die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$ ist.
+> Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
+> 
+> ![InlR|300](Pasted%20image%2020240127172108.png)
+> 
+> **Sätze:**
+> - [Regel von Sarrus](Regel%20von%20Sarrus.md)
+>
+> 
 
-$$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$
+> [!info] $n\geq 4$:
+> **Sätze:** 
+> - Laplace Entwicklungssatz
 
-<br>
+## Sonderfälle
 
-![InlR|300](Pasted%20image%2020240127172108.png) Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
-
-### Regel von Sarrus
-
-> [!warning] Achtung: Gilt nur für $3\times 3$ [Matrizen](Matrix.md)!
-
-$$
-\begin{aligned}
-\operatorname{det} A & =\left|\begin{array}{lll}
-a_{11} & a_{12} & a_{13} \\
-a_{21} & a_{22} & a_{23} \\
-a_{31} & a_{32} & a_{33}
-\end{array}\right|=a_{11} \cdot\left|\begin{array}{ll}
-a_{22} & a_{23} \\
-a_{32} & a_{33}
-\end{array}\right|-a_{21} \cdot\left|\begin{array}{ll}
-a_{12} & a_{13} \\
-a_{32} & a_{33}
-\end{array}\right|+a_{31} \cdot\left|\begin{array}{ll}
-a_{12} & a_{13} \\
-a_{22} & a_{23}
-\end{array}\right| \\
-& =a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33} .
-\end{aligned}
-$$
-
-## $n\geq 4$: Laplace Entwicklungssatz
-
-# Sonderfälle
-
-## Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md)
+### Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md)
 
 $$
 \left|\begin{array}{ccccc}
@@ -123,20 +111,18 @@ a_{11} & * & * & \ldots & * \\
 0 & 0 & a_{33} & \ldots & * \\
 \vdots & \vdots & & \ddots & \vdots \\
 0 & 0 & 0 & \ldots & a_{n n}
-\end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n} .
+\end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n}
 $$
 
-## Determinante einer [Diagonalmatrix](Diagonalmatrix.md)
+### Determinante einer [Diagonalmatrix](Diagonalmatrix.md)
 
 $$
 \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
 $$
 
-## Determinante der [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
+### Determinante der [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
 
-$$
-\operatorname{det}\left(\mathbb{1}_n\right)=1 \text {. }
-$$
+$$\operatorname{det}\left(\mathbb{1}_n\right)=1$$
 
 # Tags
 

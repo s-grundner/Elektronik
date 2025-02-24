@@ -147,6 +147,8 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 | (viii) | **Multiplikation**        | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                                                  |
 | (ix)   | **Division**              | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$       | $\sigma$ hat hier nur eine Bedeutung<br>als andere Integrationsvariable                                                                                        |
 
+^9ce98e
+
 ### Endwertsatz
 
 Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0.

@@ -14,4 +14,4 @@ professor:
 
 # Exponentialfunktion
 
-# Umkehrfunktion: Logarithmus
+

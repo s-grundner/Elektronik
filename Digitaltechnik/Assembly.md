@@ -19,6 +19,14 @@ created: 23. Dezember 2023
 | `ecx`                     | `eip` Pointer to next instruction | 
 | …                       |                                   |
 
+## Sections
+
+- **text** = Code im Flash
+- **data** = Initialisierte globale Variablen (RAM + Flash)
+- **bss** = Nicht-initialisierte Variablen (nur RAM)
+- **dec** = Gesamtspeicher
+- **hex** = Hexadezimale Darstellung
+
 ### Hello World
 
 ```assembly

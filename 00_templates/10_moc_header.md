@@ -3,8 +3,10 @@ tags:
   - MOC
 aliases:
   - <%tp.file.title%>
-subject: []
+subject: 
 created: <% tp.file.creation_date("Do MMMM YYYY") %>
+title: 
+draft: false
 ---
 
 # Map of Content - <%tp.file.title%>

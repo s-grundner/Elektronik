@@ -1,11 +1,10 @@
 ---
 tags: 
 aliases:
-  - Matrix-Exponentialfunktion
-  - Matrix-Exponential
   - Hauptvektoren
   - Hauptvektor
-keywords: 
+keywords:
+  - Hauptvektoren
 subject:
   - VL
   - Mathematik 3
@@ -19,7 +18,7 @@ professor:
 
 $$
 \begin{aligned}
-\dot{x}= A\cdot x,\quad x(t_{0}), \quad x \in\mathbb{R}^{m}, \quad A\in \mathbb{R}^{m\times m}
+\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}), \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}
 \end{aligned}
 $$
 
@@ -29,36 +28,25 @@ $A$ ist nicht von $t$ Abhängig
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 
 Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: 
-Und zwar mit der Matrix-[Exponentialfunktion](Analysis/Exponentialfunktion.md). $a$ wird zur Matrix $\mathbf{A}$.
+Und zwar mit der [Matrix-Exponentialfunktion](Matrix-Exponentialfunktion.md#^EXPM). $a$ wird zur Matrix $\mathbf{A}$.
 
-## Matrix-Exponentialfunktion
-
-Die Potenz-Reihe der Exponentialfunktion kann auf Matrizen erweitert werden:
-
-$$
-e^{at} = \sum_{k=0}^{\infty}\frac{(at)^{k}}{k!}
-$$
-
-> [!def] **D1 - EXPM)** Matrix-Exponentialfunktion
-> $$ e^{ B } := \sum_{k=0}^{\infty}\frac{B^{k}}{k!} $$
-
-Sei $x(t) = e^{ tA }\cdot C$ Dann gilt
+Sei $x(t) = e^{ t\mathbf{A} }\cdot C$, dann gilt
 
 $$
 \begin{align}
-x'(t)&=\left( \sum_{k=0}^{\infty} \frac{t^k A^k}{k!}\right)' \cdot C =\left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} A^k}{k!} \right) \cdot C \\
-&= A \cdot \sum_{k=0}^{\infty} \frac{t^k A^k}{k!} \cdot C = A \cdot x(t)
+x'(t)&=\left( \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!}\right)' \cdot C =\left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} \mathbf{A}^k}{k!} \right) \cdot C \\
+&= \mathbf{A} \cdot \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!} \cdot C = \mathbf{A} \cdot x(t)
 \end{align}
 $$
 
-A wird herausgehoben und für k-1 wird ein indexshift durchgeführt. 
+A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. 
 
-$e^{ At }C$ ist also die allgemeine Lösung von $\dot{x}=Ax$.
+$e^{ \mathbf{A}t }C$ ist also die allgemeine Lösung von $\dot{x}=\mathbf{A}x$.
 
 ## Fundamentalmatrix
 
 $$
-\underbrace{ e^{(t-t_{0}) A } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
+\underbrace{ e^{(t-t_{0}) \mathbf{A} } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
 $$
 
 Die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) ist also $e^{ tA }$.

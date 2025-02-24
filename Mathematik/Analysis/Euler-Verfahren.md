@@ -14,6 +14,14 @@ professor:
 
 # Euler Verfahren
 
+Das Euler-Verfahren ist ein einfaches numerisches Verfahren zur Lösung von Differentialgleichungen. 
+
+Sei eine Explizites AWP gegeben durch:
+
+$$
+x'(t) = f(t,x(t))
+$$
+
 > [!info] Euler-Verfahren (EV)
 >
 >```tikz
@@ -63,6 +71,8 @@ professor:
 > \boxed{ x_{k} = x_{k-1} + h\cdot f(t_{k-1}, x_{k-1}) }
 > \end{gathered}
 > $$
+
+Beim Expliziten Eulerverfahren geht man in kleinen Schritten $h$ von einem Anfangswert $x_{0}$ aus und berechnet den nächsten Wert $x_{1}$ durch die Tangente an der Stelle $x_{0}$. Das Eulerverfahren ist ein [explizites Einschrittverfahren](Diskretisierungsverfahren.md#Explizite%20Einschrittverfahren), bei dem die Verfahrensfunktion die Differenzialgleichung selbst ist.
 
 ## Butcher-Tableau
 

@@ -16,13 +16,13 @@ created: 16th August 2022
 ### Volumenveränderung von Stoffen
 
 - Die meisten Körper vergrößern bei Erwärmung ihr Volumen
-- Volumenveränderug: [Gas](Allgemeines%20Gasgesetz.md) > Flüssigkeiten > Festkörper
+- Volumenveränderug: [Gas](../Chemie/Allgemeines%20Gasgesetz.md) > Flüssigkeiten > Festkörper
 
 ## [Temperatur und Teilchenmodell](Temperatur%20und%20Teilchenmodell.md)
 
 Alle Körper sind aus kleinen, sich ständig bewegenden Teilchen aufgebaut.
 
-## [Gasgesetze](Allgemeines%20Gasgesetz.md)
+## [Gasgesetze](../Chemie/Allgemeines%20Gasgesetz.md)
 
 **[Avogadro](Konstanten/Avogadrokonstante.md)'sches Gesetz:**  
 $p\cdot V = n\cdot R\cdot T$

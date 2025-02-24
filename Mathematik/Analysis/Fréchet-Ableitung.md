@@ -35,8 +35,7 @@ professor:
 > Für $n=m=1$ ist die $1 \times 1$-[Matrix](../Algebra/Matrix.md) $L$ gleich $f^{\prime}\left(x_0\right)$ aus Definition 11.1. Für $n=1$ kann auch $f: I \rightarrow \mathbb{R}^m$ mit $I$ Intervall behandelt werden.
 
 
-
-> [!important] **Satz 11.10.** Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ in $x_0$ stetig differenzierbar. Dann ist $f$ in $x_0$ Fréchet-differenzierbar.
+> [!satz] **Satz 11.10.** Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ in $x_0$ stetig differenzierbar. Dann ist $f$ in $x_0$ Fréchet-differenzierbar.
 > 
 > Es gilt also:
 > $f \in C^1\left(A, \mathbb{R}^m\right) \Longrightarrow f$ Fréchet-differenzierbar $\Longrightarrow$ alle partiellen Ableitungen von $f$ existieren;
@@ -49,7 +48,7 @@ professor:
 
 Wir untersuchen den Zusammenhang zwischen [partieller](Partielle%20Ableitung.md) und Fréchet-Differenzierbarkeit:
 
-> [!important] **Satz 11.8.** Sei $A \subset \mathbb{R}^n$ offen, $x \in A$ und $f: A \rightarrow \mathbb{R}^m$ sei in $x$ Fréchet-differenzierbar mit Fréchet-Ableitung $f^{\prime}(x)-\left(f^{\prime}(x)_{i j}\right) \in L\left(\mathbb{R}^n, \mathbb{R}^m\right)$. Dann gilt:
+> [!satz] **Satz 11.8.** Sei $A \subset \mathbb{R}^n$ offen, $x \in A$ und $f: A \rightarrow \mathbb{R}^m$ sei in $x$ Fréchet-differenzierbar mit Fréchet-Ableitung $f^{\prime}(x)-\left(f^{\prime}(x)_{i j}\right) \in L\left(\mathbb{R}^n, \mathbb{R}^m\right)$. Dann gilt:
 > 
 > $$
 > \forall 1 \leq i \leq m, 1 \leq j \leq n: \frac{\partial f_i}{\partial x_j}(x) \text { existiert und } \frac{\partial f_i}{\partial x_j}(x)=f^{\prime}(x)_{i j}

@@ -11,15 +11,16 @@ created: 26th March 2022
 - [Partielle Integration](Partielle%20Integration.md)
 - [Integration durch Substitution](Integration%20durch%20Substitution.md)
 
-## Unbestimmtes Integral
+## Unbestimmtes Integral - Ermitteln der Stammfunktion
 
 > [!INFO] Ermittlung der Stammfunktion  
 > $F(x) = \int f(x) \, dx$
 
-- Trigonometrische Substitution
-- Integrieren von rationalen Polynomen $\to$ anwendung der [Partialbruchzerlegung](Partialbruchzerlegung.md)
+- [Trigonometrische](../Trigonometrische%20Funktionen.md) Substitution
+- Integrieren von rationalen Polynomen $\to$ Anwendung der [Partialbruchzerlegung](Partialbruchzerlegung.md)
 
-![](assets/{22125BB9-7A2F-4E52-B917-2AAB734F94BE}.png)
+> [!info]-  Bemerkung aus dem Skriptum
+> ![](assets/{22125BB9-7A2F-4E52-B917-2AAB734F94BE}.png)
 
 > [!example]- Beispiel
 > ![700](assets/{6D49E5CF-85D6-4795-8682-52CF8B41ED90}.png)
@@ -58,7 +59,7 @@ Anschließend Terme zusammenfassen: $\left( \int f_{1} \, dx \right)\,\cup\left(
 
 > [!example] Beispiel
 
-## Bestimmtes Integral
+## Bestimmtes Integral - Fläche unter der Kurve
 
 - [Riemann-Integral](Riemann-Integral.md)
 

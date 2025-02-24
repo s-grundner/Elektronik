@@ -1,20 +1,21 @@
 ---
 tags: 
-aliases:
-  - Satz 11.11
+aliases: 
 keywords: 
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 28. September 2024
-professor:
+professor: 
+satz:
+  - DQFK
 ---
  
 
 # Faktorregel
 
-> [!important] Satz 11.11: Sei $A \subset \mathbb{R}^n$ offen, $\alpha \in \mathbb{R}$ und $f, g: A \rightarrow \mathbb{R}^m$ seien in $x_0 \in A$ differenzierbar. Dann ist $\alpha f$ und $f+g$ in $x_0$ differenzierbar mit:
+> [!satz] **S1 - DQFK)** Faktorregel - Sei $A \subset \mathbb{R}^n$ offen, $\alpha \in \mathbb{R}$ und $f, g: A \rightarrow \mathbb{R}^m$ seien in $x_0 \in A$ differenzierbar. Dann ist $\alpha f$ und $f+g$ in $x_0$ differenzierbar mit: ^DQFK
 > 
 > $$
 > (\alpha f)^{\prime}\left(x_0\right)=\alpha f^{\prime}\left(x_0\right) \quad(f+g)^{\prime}\left(x_0\right)=f^{\prime}\left(x_0\right)+g^{\prime}\left(x_0\right)

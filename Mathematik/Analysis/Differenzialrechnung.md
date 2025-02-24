@@ -77,16 +77,18 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 ## Ableitung verschiedener Funktionen
 
-| Art der Funktion                                | Stammfunktion                                              | Ableitung                                                                                        |
-| ----------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| konstante Funktion                              | $f(x)=c$                                                   | $f'(x)=0$                                                                                        |
-| Potenzfunktion                                  | $f(x)=a\cdot x^{n},n\in\mathbb{R}$                         | $f'(x)=a\cdot n\cdot x^{n-1}$                                                                    |
-| [Exponentialfunktion](Exponentialfunktion.md)   | $f(x)=a^{x}$ <br>$f(x)=e^{x}$                              | $f'(x)=a^{x}\cdot \ln a$ <br>$f'(x)=e^{x}$                                                       |
-| Logarithmusfunktion                             | $f(x)=\ln x$ <br>$f(x)=\log_{a}$                           | $f'(x)=\frac{1}{x}$ <br>$f'(x)=\frac{1}{x\cdot \ln a}$                                           |
-| Kreisfunktionen <br> (*Winkel $x$ im Bogenmaß*) | $f(x)=\sin x$<br>$f(x)=\cos x$<br>$f(x)=\tan x$            | $f'(x)=\cos x$<br>$f'(x)=-\sin x$<br>$f'(x)=1+\tan ^{2}x=\frac{1}{\cos ^{2}x}$                   |
-| Arkusfunktionen                                 | $f(x)=\arcsin x$ <br>$f(x)=\arccos x$ <br>$f(x)=\arctan x$ | $f'(x)=\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ <br>$f'(x)=-\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ |
+| Art der Funktion                                                                       | Stammfunktion                                              | Ableitung                                                                                        |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| konstante Funktion                                                                     | $f(x)=c$                                                   | $f'(x)=0$                                                                                        |
+| Potenzfunktion                                                                         | $f(x)=a\cdot x^{n},n\in\mathbb{R}$                         | $f'(x)=a\cdot n\cdot x^{n-1}$                                                                    |
+| [Exponentialfunktion](Exponentialfunktion.md)                                          | $f(x)=a^{x}$ <br>$f(x)=e^{x}$                              | $f'(x)=a^{x}\cdot \ln a$ <br>$f'(x)=e^{x}$                                                       |
+| Logarithmusfunktion                                                                    | $f(x)=\ln x$ <br>$f(x)=\log_{a}$                           | $f'(x)=\frac{1}{x}$ <br>$f'(x)=\frac{1}{x\cdot \ln a}$                                           |
+| [Kreisfunktionen](../Trigonometrische%20Funktionen.md) <br> (*Winkel $x$ im Bogenmaß*) | $f(x)=\sin x$<br>$f(x)=\cos x$<br>$f(x)=\tan x$            | $f'(x)=\cos x$<br>$f'(x)=-\sin x$<br>$f'(x)=1+\tan ^{2}x=\frac{1}{\cos ^{2}x}$                   |
+| [Arkusfunktionen](../Hyperbolische%20Funktionen.md)                                    | $f(x)=\arcsin x$ <br>$f(x)=\arccos x$ <br>$f(x)=\arctan x$ | $f'(x)=\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ <br>$f'(x)=-\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ |
 
 ## Ableitungsregeln
+
+> [!satz] **S1 - DQRR)** Rechenregeln ^DQRR
 
 | Summenregel                        | $[f(x) \pm g(x)]' =f'(x) \pm g'(x)$<br><br>                                                                                  |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |

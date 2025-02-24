@@ -25,6 +25,9 @@ Der satz von Peano sagt uns die existenz mindestens einer Lösung.
 
 $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 
+
+
+
 > [!satz] **S1 - PEAN)** Satz von Peano ^PEAN
 > Gegeben seien eine offene [Menge](../Algebra/Mengenlehre.md) $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
 > Weiters sei die Funktion $f$ stetig auf dem **Quader**
@@ -38,20 +41,6 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 > > [!info]- Diese Aussage gilt auch…
 > > … wenn man in $(1)$ das Intervall $\left[t_0, t_0+u\right]$ durch $\left[t_0-u, t_0\right.$ ] oder $\left[t_0-u, t_0+u\right]$ ersetzt, wobei sich dann das Existenzintervall zu $\left[t_0-\alpha, t_0\right]$ bzw. $\left[t_0-\alpha, t_0+\alpha\right]$ ändert.
 
+![](../../assets/Excalidraw/Peano%202025-02-21%2017.57.50.excalidraw)
 
-> [!question] Quader $Q_{v,u}$
-
-```tikz
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.16}
-
-\begin{document}
-
-\begin{tikzpicture}
-\begin{axis}[xmin=-0.1, xmax=1.1, ymin=-0.1, ymax=1.1]
-\draw (0, 1) -- (1, 1) -- (1, 0) -- (0, 0) -- (0, 1);
-\end{axis}
-\end{tikzpicture}
-
-\end{document}
-```
+> [!question] Ist die Funktion $f$ zusätzlich [Lipschitz-Stetig](Lipschitz-Stetigkeit.md), dann ist die Lösung sogar Eindeutig: [Picard-Lindelöf](Picard-Lindelöf.md) 

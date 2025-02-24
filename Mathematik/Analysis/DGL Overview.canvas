@@ -1,34 +1,22 @@
 {
 	"nodes":[
-		{"id":"07c1fb1521419b1e","type":"group","x":-180,"y":-80,"width":1440,"height":185,"color":"2","label":"Allgemeine Lin DGL Sys 1 O -> reglen gelten auch für unterkapitel"},
-		{"id":"fb0d5da14265a665","type":"text","text":"old DGL","x":-580,"y":-280,"width":250,"height":61},
-		{"id":"6977232d0efc7214","type":"text","text":"[Lineare DGL Systeme 1. Ordnung](Analysis/DGL-System.md)","x":203,"y":0,"width":411,"height":50},
-		{"id":"af8ccd095c2e1b51","type":"text","text":"homogenes AWP\n","x":660,"y":-60,"width":220,"height":50},
-		{"id":"8b5239214eef22ae","type":"text","text":"inhomgenes AWP","x":660,"y":35,"width":220,"height":50},
-		{"id":"173546e675872d79","type":"text","text":"Variation der Konstanten","x":960,"y":35,"width":280,"height":50},
-		{"id":"99629ef75be322c1","type":"text","text":"Fundamentalmatrix","x":-140,"y":0,"width":252,"height":50},
-		{"id":"29df8ff107d39199","type":"text","text":"MOC DGL","x":-180,"y":-280,"width":250,"height":60},
-		{"id":"ebd8f6b3cb999a34","type":"text","text":"DGL-Systeme","x":261,"y":-279,"width":250,"height":60},
-		{"id":"7f062c15dcf390cd","type":"text","text":"Lineare DGL Systeme 1. Ordnung mit konstantem koeffizienten","x":203,"y":220,"width":361,"height":80},
-		{"id":"eb78399295a42108","type":"text","text":"Eigenwert von $A$","x":457,"y":360,"width":250,"height":60},
-		{"id":"cae217ab9050078a","type":"text","text":"chrakteristisches Polynom","x":457,"y":458,"width":313,"height":60},
-		{"id":"5def7f413d6ffd91","type":"text","text":"Algebraische / geometrische Vielfachheit","x":457,"y":560,"width":525,"height":50},
-		{"id":"68a3540e145f0fa3","type":"text","text":"Hauptvektor","x":459,"y":640,"width":250,"height":60},
-		{"id":"825159c9a5694a64","type":"text","text":"exponenzieren der Matrix $A$","x":457,"y":740,"width":313,"height":60}
+		{"id":"22bbefbad0f52ad6","type":"text","text":"# DGL Overview","x":-180,"y":-300,"width":340,"height":80,"color":"6"},
+		{"id":"9df960f46a984f86","type":"text","text":"# RWP","x":44,"y":-117,"width":250,"height":60},
+		{"id":"115deb00231da954","type":"text","text":"# PDGL","x":531,"y":-117,"width":250,"height":60},
+		{"id":"5679e1117c35b638","type":"text","text":"**Inhomogen** $x'=A(t)x+b$","x":-764,"y":100,"width":344,"height":65},
+		{"id":"598af1bfabdb9725","type":"text","text":"**Homogen** $x'=A(t)x$","x":-764,"y":240,"width":344,"height":65},
+		{"id":"2debd1ffdf799fb1","type":"text","text":"Trennen Der Variablen","x":-1320,"y":245,"width":340,"height":60},
+		{"id":"1775c68712486a26","type":"text","text":"Variation der Konstanten","x":-1320,"y":105,"width":340,"height":60},
+		{"id":"4069360b49eeddda","type":"text","text":"## AWP\n\nLineare DGL-Systeme 1. Ordnung","x":-811,"y":-117,"width":439,"height":131},
+		{"id":"79d10c4d4bd282f2","type":"text","text":"Lineare DGL n-ter Ordnung\n- Umformen in ein System 1. Ordnung","x":-1494,"y":-113,"width":514,"height":123},
+		{"id":"c11f5b3914e8d682","type":"text","text":"Konstanter Koeffizient $A\\to A(t)$","x":-315,"y":96,"width":415,"height":69}
 	],
 	"edges":[
-		{"id":"598a5658490b3a69","fromNode":"29df8ff107d39199","fromSide":"left","toNode":"fb0d5da14265a665","toSide":"right"},
-		{"id":"d0d0f3d0ef9b16b7","fromNode":"29df8ff107d39199","fromSide":"right","toNode":"ebd8f6b3cb999a34","toSide":"left"},
-		{"id":"2457d61463491940","fromNode":"6977232d0efc7214","fromSide":"right","toNode":"af8ccd095c2e1b51","toSide":"left"},
-		{"id":"85713dacd0e6b20d","fromNode":"6977232d0efc7214","fromSide":"bottom","toNode":"7f062c15dcf390cd","toSide":"top"},
-		{"id":"22675d8532826631","fromNode":"99629ef75be322c1","fromSide":"right","toNode":"6977232d0efc7214","toSide":"left"},
-		{"id":"a4a7165b9b07be1a","fromNode":"ebd8f6b3cb999a34","fromSide":"bottom","toNode":"6977232d0efc7214","toSide":"top"},
-		{"id":"f9f54c5fa8119cb3","fromNode":"6977232d0efc7214","fromSide":"right","toNode":"8b5239214eef22ae","toSide":"left"},
-		{"id":"5c578cce5b888092","fromNode":"8b5239214eef22ae","fromSide":"right","toNode":"173546e675872d79","toSide":"left"},
-		{"id":"d07fb72f5f8c243a","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"eb78399295a42108","toSide":"left"},
-		{"id":"8240382d9a3ab867","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"cae217ab9050078a","toSide":"left"},
-		{"id":"8cd940f5658ba3e7","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"5def7f413d6ffd91","toSide":"left"},
-		{"id":"a25d61fd44809399","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"68a3540e145f0fa3","toSide":"left"},
-		{"id":"6f11941439acad5d","fromNode":"7f062c15dcf390cd","fromSide":"bottom","toNode":"825159c9a5694a64","toSide":"left"}
+		{"id":"e73e0ea2b1087def","fromNode":"2debd1ffdf799fb1","fromSide":"right","toNode":"598af1bfabdb9725","toSide":"left"},
+		{"id":"9e62cd1147d9b29b","fromNode":"1775c68712486a26","fromSide":"right","toNode":"5679e1117c35b638","toSide":"left"},
+		{"id":"c5e9fbef2ee936ed","fromNode":"4069360b49eeddda","fromSide":"bottom","toNode":"5679e1117c35b638","toSide":"top"},
+		{"id":"2e58024547b0334e","fromNode":"5679e1117c35b638","fromSide":"bottom","toNode":"598af1bfabdb9725","toSide":"top"},
+		{"id":"09b09bbfc604f9be","fromNode":"79d10c4d4bd282f2","fromSide":"right","toNode":"4069360b49eeddda","toSide":"left"},
+		{"id":"168f74ee7711ad94","fromNode":"4069360b49eeddda","fromSide":"bottom","toNode":"c11f5b3914e8d682","toSide":"top"}
 	]
 }

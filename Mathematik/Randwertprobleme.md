@@ -129,7 +129,7 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 > - Die zweite Ableitung nach der Zeit $t$ ist proportional zur zweiten Ableitung nach dem Ort $x$.
 > - Mit einem vom Ausbreitungmedium Abhängenden $c$
 
->[!example] **Separationsansatz**: Bestimmen der Form unter Annahme: $x, t$ sind separiert in der Form: $u(x,t) = X(x)\cdot T(t)$
+>[!satz] **Separationsansatz**: Bestimmen der Form unter Annahme: $x, t$ sind separiert in der Form: $u(x,t) = X(x)\cdot T(t)$
 > 
 > $$
 > \begin{rcases}

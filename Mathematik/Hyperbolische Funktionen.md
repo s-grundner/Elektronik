@@ -1,8 +1,8 @@
 ---
-tags: [incomplete]
+tags: 
 aliases:
-  - Definition 4.29
-  - Bemerkung 4.30
+  - Arkusfunktionen
+  - Areafunktionen
 keywords: 
 subject:
   - VL
@@ -10,23 +10,24 @@ subject:
 semester: WS23
 created: 29. September 2024
 professor:
+  - Andreas Neubauer
 ---
  
 
 # Hyperbolische Funktionen
 
-> [!important] **Definition 4.29**: Die hyperbolischen Funktionen sind wie folgt definiert:
+> [!def] **D1 - HYPB**: Die hyperbolischen Funktionen sind wie folgt definiert:
 > 
 > $$
 > \begin{align}
-> \text{Sinus hyperbolicus:} &\quad\sinh : \mathbb{R} \rightarrow \mathbb{R} x \mapsto \frac{e^x-e^{-x}}{2}\\
-> \text{Cosinus hyperbolicus:} &\quad\cosh : \mathbb{R} \rightarrow \mathbb{R}, x \mapsto \frac{e^x+e^{-x}}{2}\\
-> \text{Tangens hyperbolicus:} &\quad \tanh : \mathbb{R} \rightarrow \mathbb{R}, \quad x \mapsto \frac{\sinh x}{\cosh x}\\
-> \text{Cotangens hyperbolicus:} &\quad \coth : \mathbb{R} \backslash\{0\} \rightarrow \mathbb{R}, \quad x \mapsto \frac{\cosh x}{\sinh x}\\
+> \text{Sinus hyperbolicus:} &\quad\sinh : \mathbb{R} \rightarrow \mathbb{R}, && x \mapsto \frac{e^x-e^{-x}}{2}\\
+> \text{Cosinus hyperbolicus:} &\quad\cosh : \mathbb{R} \rightarrow \mathbb{R}, &&x \mapsto \frac{e^x+e^{-x}}{2}\\
+> \text{Tangens hyperbolicus:} &\quad \tanh : \mathbb{R} \rightarrow \mathbb{R}, && x \mapsto \frac{\sinh x}{\cosh x}\\
+> \text{Cotangens hyperbolicus:} &\quad \coth : \mathbb{R} \backslash\{0\} \rightarrow \mathbb{R}, && x \mapsto \frac{\cosh x}{\sinh x}\\
 > \end{align}
 > $$
 
-## Bemerkung 4.30
+## Hyperbolische Zusammenhänge
 
 $$
 \begin{aligned}
@@ -40,31 +41,26 @@ $$
 \end{aligned}
 $$
 
-### Areafunktionen
+## Areafunktionen
 
-$$
-\operatorname{arsinh}: \mathbb{R} \rightarrow \mathbb{R}, \quad \text { arcosh }:[1, \infty) \rightarrow \mathbb{R}_0^{+}, \quad \operatorname{artanh}:(-1,1) \rightarrow \mathbb{R}
-$$
+> [!def] **D2 - AREA)** Areafunktionen: Umkehrfunktionen der Hyperbolischen Funktionen 
+> 
+> $$
+> \begin{align}
+> \text{Area Sinus hyperbolicus}:&\quad \operatorname{arsinh}: \mathbb{R} \rightarrow \mathbb{R} && x \mapsto\ln \left(x+\sqrt{x^2+1}\right)\\
+> \text{Area Cosinus hyperbolicus}:&\quad \operatorname{arcosh}:[1, \infty) \rightarrow \mathbb{R}_0^{+} && x \mapsto \ln \left(x+\sqrt{x^2-1}\right)\\
+> \text{Area Tangens hyperbolicus}:&\quad  \operatorname{artanh}:(-1,1) \rightarrow \mathbb{R} && x \mapsto \frac{1}{2} \ln \left(\frac{x+1}{x-1}\right)
+> \end{align}
+> $$
 
-$$
-\begin{aligned}
-\operatorname{arsinh}(x) & =\ln \left(x+\sqrt{x^2+1}\right) \\
-\operatorname{arcosh}(x) & =\ln \left(x+\sqrt{x^2-1}\right) \\
-\operatorname{artanh}(x) & =\frac{1}{2} \ln \left(\frac{x+1}{x-1}\right)
-\end{aligned}
-$$
 
 ## Ableitung Hyperbolischer Funktionen
 
- 
-
 $$
 \begin{align}
-(\sinh t)' &= \cosh t  && (\operatorname{arsinh})' &= \frac{1}{\sqrt{ 1+x^{2} }}\\
-(\cosh t)' &= \sinh t && (\operatorname{arcosh})' &= \frac{1}{\sqrt{ x^{2}-1 }}\\
+(\sinh t)' &= \cosh t  && (\operatorname{arsinh})' = \frac{1}{\sqrt{ 1+x^{2} }}\\
+(\cosh t)' &= \sinh t && (\operatorname{arcosh})' = \frac{1}{\sqrt{ x^{2}-1 }}\\
 (\tanh t )' &= \frac{1}{\cosh ^{2}(t)} = 1 - \tanh ^{2}(t)  \\
-(\operatorname{artanh})' &= 
-
 \end{align}
 $$
 

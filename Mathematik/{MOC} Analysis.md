@@ -28,8 +28,8 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | [Totale Ableitung](Analysis/Total%20Differenzierbar.md)                                   | [Riemann-Integral](Analysis/Riemann-Integral.md)             |
 | [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)                                  | [Partielle Integration](Analysis/Partielle%20Integration.md) |
-| [Gradient](Analysis/Gradient.md)<br>                                                      |                                                              |
 | [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Mittelwertsatz der Integralrechnung]]                      |
+| [Gradient](Analysis/Gradient.md)<br>                                                      |                                                              |
 
 > [!important] 🗺️[Differenzialgleichungen]({MOC}%20DGL.md)
 > ![DGL Structure](Analysis/DGL%20Overview.canvas)
