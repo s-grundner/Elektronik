@@ -52,4 +52,4 @@ Hochfrequenter Teil
 
 # Tags
 
-![SMPS_intro](../assets/pdf/SMPS_intro.pdf)
+![SMPS_intro](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)

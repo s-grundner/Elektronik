@@ -11,6 +11,7 @@ created: 7. Januar 2025
 professor:
 ---
  
+
 # Poissonsche Summenformel
 
 > [!def] **D1 - POIS)** Poissonsche Summenformel ^POIS
@@ -31,6 +32,7 @@ mit den Fourier-Koeffizienten
 $$
 F_k=\frac{1}{T} F\left(\mathrm{j} k \omega_0\right)
 $$
+
 ## Duale Poissonsche Summenformel
 
 > [!question] Der Ausgangspunkt ist eine **aperiodeische Zeitfunktion** $f_{a}(t)$ und ihre Fouriertransformierte $F_{a}(j\omega)$.
@@ -68,12 +70,12 @@ Zur Obigen Dualen Poissongleichung erfolgen zwei Substituierungen:
 - Zeitdiskret Abgetastete Funktion $f_{a}(nT) \Rightarrow f[n]$
 - Normierte Frequenz: $\Omega=\omega T \Rightarrow \Omega_{0}=\omega_{0}T=2\pi$
 
-> [!def] **D3 - ZFT)** Zeitdiskrete Fouriertransformation ^ZFT
-> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }\tag{ZFT}$$ 
+> [!def] **D3 - DTFT)** Zeitdiskrete Fouriertransformation ^DTFT
+> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }\tag{DTFT}$$ 
 
 
-> [!def] **D4 - IZFT)** Zeitdiskrete Inverse Fouriertransformation ^IZFT
-> $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IZFT}$$
+> [!def] **D4 - IDTFT)** Zeitdiskrete Inverse Fouriertransformation ^IDTFT
+> $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IDTFT}$$
 
 Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
 

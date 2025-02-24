@@ -55,6 +55,5 @@ Prinzipiell unterscheidet man zwischen:
 
 # Tags
 
-[Schmidt-Walter Schaltnetzteildimensionierung](http://schmidt-walter-schaltnetzteile.de/smps/smps.html)
-
-![SMPS_intro](../assets/pdf/SMPS_intro.pdf)
+- [Schmidt-Walter Schaltnetzteildimensionierung](http://schmidt-walter-schaltnetzteile.de/smps/smps.html)
+- [SMPS_intro [OFFLINE]](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)

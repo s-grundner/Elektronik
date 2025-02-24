@@ -1,4 +1,7 @@
 ---
+banner: "assets/banner/GrundnerWafer.png"
+banner_y: 0.5
+banner_x: 0.5
 tags:
   - Halbleiter
 aliases:
@@ -12,9 +15,6 @@ semester: WS24
 created: 7. Februar 2025
 professor:
   - Bernhard Jakoby
-banner: "assets/banner/GrundnerWafer.png"
-banner_y: 0.5
-banner_x: 0.5
 ---
  
 # <center>Halbleiterphysik</center>

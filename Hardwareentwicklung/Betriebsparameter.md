@@ -140,7 +140,7 @@ $R_{\mathrm{L}} \ldots$ Widerstand Last
     -- ++(\wid/2,0) coordinate(v)
     -- ++(\wid/2,0)
     -- ++(0,-0.5) coordinate(ua) -- ++(0,-\hei);
-\draw (ua) to[short, i=$i_a$] ++(1,0) coordinate(last) to[V, v=$u_a$] ++(0,-\hei) to[short] ++(-1,0);
+\draw (ua) to[short, i<=$i_a$] ++(1,0) coordinate(last) to[V, v=$u_a$] ++(0,-\hei) to[short] ++(-1,0);
 \draw (ua) to[open, o-o] ++(0,-\hei);
 \draw (v) node[vcc]{$U_0$};
 \draw (2+\wid/2, \hei/2) node{Verstärker};

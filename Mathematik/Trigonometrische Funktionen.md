@@ -91,9 +91,13 @@ $$
 > \end{align} 
 > $$
 
+> [!satz] **S3 - MOIV)** Satz von Moivre
+> $$(\cos x + j\sin x)^{n} = \cos(nx)+j\sin(nx)$$
+
+
 ### Summensätze
 
-> [!satz] **S4 - TRIG)** Winkelsummen Sätze
+> [!satz] **S5 - TRIG)** Winkelsummen Sätze
 > $$
 > \begin{aligned}
 > \sin (x+y) & =\sin x \cos y+\cos x \sin y \\

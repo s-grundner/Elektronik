@@ -141,7 +141,7 @@ $$
 
 ## Betriebsparameter
 
-- [[Betriebsparameter]] von Verstärkern
+- [[../Betriebsparameter]] von Verstärkern
 
 ## Betriebsarten
 

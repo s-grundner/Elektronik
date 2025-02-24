@@ -64,7 +64,7 @@ $R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer
 
 ## Betriebsparameter
 
-> [!question] [Betriebsparameter](Betriebsparameter.md)
+> [!question] [Betriebsparameter](../Betriebsparameter.md)
 >
 > - Eingangswiderstand $r_e$
 > - Ausgangswiderstand $r_a$

@@ -27,5 +27,9 @@
   "obsidian-git",
   "obsidian-spaced-repetition",
   "dataview",
-  "lazy-plugins"
+  "lazy-plugins",
+  "obsidian-excalidraw-plugin",
+  "obsidian-react-components",
+  "github-copilot",
+  "obsidian-tikzjax"
 ]
