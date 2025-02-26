@@ -36,7 +36,7 @@ def:
 > [!info] Ordnung
 > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
-> [!def] **D1 - DGL)** Allgemeine Form
+> [!def] **D1 - DGL)** Allgemeine Form ^DGL
 > 
 > **Implizite Differenzialgleichung:** $F\left(t,x,x',\dots,x^{(n)}\right) = 0$
 >  
@@ -59,7 +59,7 @@ Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung
 > $$ x_{0} := x(t_{0}), \quad x_{0}' := x'(t_{0}), \quad \ldots, \quad x_{0}^{(n-1)} := x^{(n-1)}(t_{0}) $$
 
 
-> [!def] **D2 - AWP)** Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
+> [!def] **D2 - AWP)** Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$. ^AWP
 > 
 > $x$ heißt Lösung des Anfangswertproblems, wenn es ein Intervall $I$ mit $t_0 \in I$ gibt,
 > sodass $x: I \rightarrow \mathbb{R}^m$ differenzierbar ist, $g r(x) \subset D$ gilt und
@@ -68,9 +68,9 @@ Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung
 > 
 > für alle $t \in I$ und $x\left(t_0\right)=x_0$
 > 
-> > [!important] [AWP 1.1](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1), [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2)
+> > [!important] [inhomogene Systeme](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1), [homogenes Systeme](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2)
 
-Um die Abhängigkeit der Lösung des AWP von $t_0$ und $x_0$ anzudeuten, schreibt man auch manchmal
+Um die Abhängigkeit der Lösung des AWP von $t_0$ und $x_0$ anzudeuten, schreibt man auch
 
 $$
 x\left(t ; t_0, x_0\right)
@@ -80,45 +80,27 @@ $$
 
 Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine Differenzialgleichung zusammen mit Randbedingungen gegeben ist.
 
-> [!important] Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
-> $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
-> Aber statt an $x_{0}(t_{0})=x_{0}$ (Anfangswert) betrachten wir Randwerte
-> 
-> $$
-> \begin{align}
-> g(x(a), x(b)) = 0 \\
-> g: \mathbb{R}^{m}\times R^{m} \rightarrow \mathbb{R}^{m}
-> \end{align}
-> $$
-
 ## Stabilität von Lösungen
 
 Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich durch leicht unterschiedliche Anfangswerte $(t_{0},x_{0})$ unterscheiden, im Grenzwert $x\to \infty$ verhalten.
 
-### Stabil
+| **Stabil**                                                                                                                                     | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>Stabil & Attrahierend                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
+| ![](../assets/Excalidraw/DGL-Stabil.md)                                                                                                        | ![](../assets/Excalidraw/DGL-Attr.md)                                                                                   | ![](../assets/Excalidraw/DGL-AsympStabil.md)                                                            |
 
-Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht.
+## Lösungsmethoden von DGL
 
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.10.16.excalidraw)
-
-### Attrahierend
-
-Die Differenz geth für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht.#
-
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.14.56.excalidraw)
-
-### Asymptotisch Stabil (Stabil & Attrahierend)
-
-Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$
-
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.18.06.excalidraw)
-
-## Numerische Lösungen
-
-- [Numerische Lösungsverfahren von DGL](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
+- Finden der der homogenen und partikulären Lösung
+    - Trennen der Variablen
+    - Fundamentalmatrix
+    - Variation der Konstanten
+- [Laplacetransformation](../Systemtheorie/Laplacetransformation.md)
+- [Analytische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Analytische%20Verfahren)
+- [Numerische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Numerische%20Verfahren)
 
 # Tags
 
 ![](https://www.youtube.com/embed/p_di4Zn4wz4)
 
-![DGL-NOTES](assets/pdf/DGL-NOTES.pdf)
+[DGL-NOTES HTL](assets/pdf/DGL-NOTES.pdf)
