@@ -91,8 +91,6 @@ Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich
 
 ## Lösungsmethoden von DGL
 
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-26%2022.41.07.excalidraw)
-
 - Finden der der homogenen und partikulären Lösung
     - Trennen der Variablen
     - Fundamentalmatrix
