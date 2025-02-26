@@ -80,25 +80,14 @@ $$
 
 Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine Differenzialgleichung zusammen mit Randbedingungen gegeben ist.
 
-> [!important] Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
-> $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
-> Aber statt an $x_{0}(t_{0})=x_{0}$ (Anfangswert) betrachten wir Randwerte
-> 
-> $$
-> \begin{align}
-> g(x(a), x(b)) = 0 \\
-> g: \mathbb{R}^{m}\times R^{m} \rightarrow \mathbb{R}^{m}
-> \end{align}
-> $$
-
 ## Stabilität von Lösungen
 
 Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich durch leicht unterschiedliche Anfangswerte $(t_{0},x_{0})$ unterscheiden, im Grenzwert $x\to \infty$ verhalten.
 
-| Stabil                                                                                                                                         | Attrahierend                                                                                                            | Asymptotisch Stabil |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. |                     |
-| ![](../assets/Excalidraw/DGL-Stabil.md)                                                                                                        | ![](../assets/Excalidraw/DGL-Attr.md)                                                                                   |                     |
+| **Stabil**                                                                                                                                     | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>Stabil & Attrahierend                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
+| ![](../assets/Excalidraw/DGL-Stabil.md)                                                                                                        | ![](../assets/Excalidraw/DGL-Attr.md)                                                                                   | ![](../assets/Excalidraw/DGL-AsympStabil.md)                                                            |
 
 
 
@@ -107,11 +96,11 @@ Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich
 
 ### Asymptotisch Stabil (Stabil & Attrahierend)
 
-Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$
 
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.18.06.excalidraw)
 
-## Lösungsmethoden
+
+
+## Lösungsmethoden von DGL
 
 - Finden der der homogenen und partikulären Lösung
     - Trennen der Variablen
