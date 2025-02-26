@@ -46,5 +46,5 @@ Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangs
 
 ### Anfangswertprobleme (AWP)
 
-- Explizite Verfahren
-- 
+![](../../assets/Excalidraw/Numerische%20L%C3%B6sungsverfahren%20von%20DGL%202025-02-26%2019.32.04.excalidraw)
+
