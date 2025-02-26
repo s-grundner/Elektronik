@@ -1,14 +1,18 @@
 {
 	"nodes":[
 		{"id":"8dbdf2ca2dd3a9cc","x":-125,"y":-175,"width":505,"height":75,"type":"text","text":"## Lineare Mehrschritt verfahren"},
-		{"id":"aa7b5da1e2d9001a","x":-125,"y":0,"width":505,"height":90,"type":"text","text":"# [AWP](Mathematik/{MOC}%20DGL.md#^AWP)"},
+		{"id":"aa7b5da1e2d9001a","x":-125,"y":0,"width":505,"height":90,"color":"5","type":"text","text":"# [AWP](Mathematik/{MOC}%20DGL.md#^AWP)"},
 		{"id":"7f7ce448db27fd85","x":-125,"y":200,"width":505,"height":74,"type":"text","text":"## Einschrittverfahren"},
-		{"id":"435c37a0a592a257","type":"text","text":"> [!question] **Explizit:** Auch von $f_{k}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet auch **momentane** Schritte","x":505,"y":-83,"width":455,"height":257},
-		{"id":"31fa6aedce4e0fb2","x":-788,"y":-83,"width":468,"height":257,"type":"text","text":"> [!question] **Implizit:** Nur von $f_{k-1}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet nur **vorherige** Schritte:\n"},
-		{"id":"4cccab163f1adc2f","type":"text","text":"Explizit","x":-679,"y":-360,"width":250,"height":60},
-		{"id":"fe9b4f7109e57779","x":-679,"y":400,"width":250,"height":60,"type":"text","text":"Explizit"},
-		{"id":"d20afe27e43c4255","x":608,"y":400,"width":250,"height":60,"type":"text","text":"Implizit"},
-		{"id":"84cc73ee7abb377c","type":"text","text":"Implizit","x":608,"y":-360,"width":250,"height":60}
+		{"id":"435c37a0a592a257","type":"text","text":"> [!question] **Explizit:** Auch von $f_{k}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet auch **momentane** Schritte","x":505,"y":-83,"width":455,"height":257,"color":"2"},
+		{"id":"31fa6aedce4e0fb2","x":-788,"y":-83,"width":468,"height":257,"color":"2","type":"text","text":"> [!question] **Implizit:** Nur von $f_{k-1}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet nur **vorherige** Schritte:\n"},
+		{"id":"4cccab163f1adc2f","type":"text","text":"### Explizit\n\nExplizites lineares $l$-Schrittverfahren","x":-680,"y":-460,"width":251,"height":160},
+		{"id":"fe9b4f7109e57779","x":-679,"y":400,"width":250,"height":60,"type":"text","text":"### Explizit"},
+		{"id":"d20afe27e43c4255","x":608,"y":400,"width":250,"height":60,"type":"text","text":"### Implizit"},
+		{"id":"84cc73ee7abb377c","type":"text","text":"### Implizit","x":608,"y":-360,"width":250,"height":60},
+		{"id":"ad2b6b292601bf39","x":820,"y":-560,"width":250,"height":60,"type":"text","text":"Adams Strömer"},
+		{"id":"ef74b03abe8a0a0d","x":380,"y":-560,"width":272,"height":60,"type":"text","text":"Adams Mouton (AM)"},
+		{"id":"a30c933491c61d3f","x":-679,"y":-560,"width":251,"height":60,"type":"text","text":"Adams-Bashforth"},
+		{"id":"b02e651311064939","x":-1038,"y":495,"width":250,"height":60,"type":"text","text":"Explizite Einschrittverfahren ()"}
 	],
 	"edges":[
 		{"id":"0e4bde091194a25b","fromNode":"aa7b5da1e2d9001a","fromSide":"bottom","toNode":"7f7ce448db27fd85","toSide":"top"},
@@ -20,6 +24,9 @@
 		{"id":"5de26afb9337ee70","fromNode":"8dbdf2ca2dd3a9cc","fromSide":"top","toNode":"84cc73ee7abb377c","toSide":"left"},
 		{"id":"961625c98130513d","fromNode":"31fa6aedce4e0fb2","fromSide":"top","toNode":"4cccab163f1adc2f","toSide":"bottom"},
 		{"id":"e5d1932355662a56","fromNode":"435c37a0a592a257","fromSide":"top","toNode":"84cc73ee7abb377c","toSide":"bottom"},
-		{"id":"b448b2aa69b9b3b5","fromNode":"435c37a0a592a257","fromSide":"bottom","toNode":"d20afe27e43c4255","toSide":"top"}
+		{"id":"b448b2aa69b9b3b5","fromNode":"435c37a0a592a257","fromSide":"bottom","toNode":"d20afe27e43c4255","toSide":"top"},
+		{"id":"93b79914440e66df","fromNode":"84cc73ee7abb377c","fromSide":"top","toNode":"ef74b03abe8a0a0d","toSide":"bottom"},
+		{"id":"1a5c1db142709446","fromNode":"84cc73ee7abb377c","fromSide":"top","toNode":"ad2b6b292601bf39","toSide":"bottom"},
+		{"id":"b03b571c882e00e5","fromNode":"4cccab163f1adc2f","fromSide":"top","toNode":"a30c933491c61d3f","toSide":"bottom"}
 	]
 }
