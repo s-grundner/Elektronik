@@ -42,5 +42,10 @@ satz:
 > - *unendlich* dimensionales Problem der Bestimmung von Funktionen, wird in *endlich* dimensionale Aufgabe transformiert.
 > - die Berechnung von [Vektoren](../Algebra/Vektor.md) mit reellwertigen Komponenten.
 
-Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangswert-, Randwertund Eigenwertprobleme definiert.
+Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangs-, Rand- und Eigenwertprobleme definiert:
 
+### Anfangswertprobleme (AWP)
+
+- [Explizite Einschrittverfahren](Explizite%20Einschrittverfahren.md)
+    - [Euler-Verfahren](Euler-Verfahren.md)
+- [[]]

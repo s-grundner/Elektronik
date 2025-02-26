@@ -36,7 +36,7 @@ def:
 > [!info] Ordnung
 > Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
 
-> [!def] **D1 - DGL)** Allgemeine Form
+> [!def] **D1 - DGL)** Allgemeine Form ^DGL
 > 
 > **Implizite Differenzialgleichung:** $F\left(t,x,x',\dots,x^{(n)}\right) = 0$
 >  
@@ -59,7 +59,7 @@ Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung
 > $$ x_{0} := x(t_{0}), \quad x_{0}' := x'(t_{0}), \quad \ldots, \quad x_{0}^{(n-1)} := x^{(n-1)}(t_{0}) $$
 
 
-> [!def] **D2 - AWP)** Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$.
+> [!def] **D2 - AWP)** Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$. ^AWP
 > 
 > $x$ heißt Lösung des Anfangswertproblems, wenn es ein Intervall $I$ mit $t_0 \in I$ gibt,
 > sodass $x: I \rightarrow \mathbb{R}^m$ differenzierbar ist, $g r(x) \subset D$ gilt und
@@ -113,9 +113,11 @@ Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht
 
 ![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.18.06.excalidraw)
 
-## Numerische Lösungen
+## Lösungsmethoden
 
-- [Numerische Lösungsverfahren von DGL](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
+- Finden der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md)
+- Analytische Lösungsverfahrungen
+- [Numerische Lösungsverfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
 
 # Tags
 

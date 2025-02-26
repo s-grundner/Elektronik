@@ -1,6 +1,7 @@
 # Explizite Einschrittverfahren
 
 > [!question] [Diskretisierungsverfahren](Diskretisierungsverfahren.md)
+ > Mit Expliziten Einschrittverfahren werden Anfsngswertprobleme ([AWP](../{MOC}%20DGL.md#^AWP)) gelöst.
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ des [Euler-Verfahrens](Euler-Verfahren.md) zu einer **Verfahrensfunktion** $\phi$. Die Verfahrensfunktion schreibt vor, wie jeder Schritt gewichtet wird.
 

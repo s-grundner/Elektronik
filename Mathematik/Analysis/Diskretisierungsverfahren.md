@@ -22,9 +22,10 @@ def:
 
 # Diskretisierungsverfahren
 
-> Siehe: [Numerische Lösungsverfahren von DGL](Numerische%20Lösungsverfahren%20von%20DGL.md)
+> [!question] Siehe: [Numerische Lösungsverfahren von DGL](Numerische%20Lösungsverfahren%20von%20DGL.md)
+> Mit äquidistanten Diskretisierungsverfahren werden Anfangswertprobleme ([AWP](../{MOC}%20DGL.md#^AWP)) numerisch gelöst.
 
-Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des [AWP](../{MOC}%20DGL.md) ausrechnen möchte, wird in $N$ Teilintervalle unterteilt. 
+Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des AWP ausrechnen möchte, wird in $N$ Teilintervalle unterteilt. 
 
 > [!info] **Äquidistande Diskretisierung**: Man nimmt sich also endlich viele Punkte und berechnet sich an diesen Punkten eine Näherungslösung berechnet:
 > 
