@@ -89,29 +89,20 @@ Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich
 | Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
 | ![](../assets/Excalidraw/DGL-Stabil.md)                                                                                                        | ![](../assets/Excalidraw/DGL-Attr.md)                                                                                   | ![](../assets/Excalidraw/DGL-AsympStabil.md)                                                            |
 
-
-
-
-
-
-### Asymptotisch Stabil (Stabil & Attrahierend)
-
-
-
-
-
 ## Lösungsmethoden von DGL
+
+![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-26%2022.41.07.excalidraw)
 
 - Finden der der homogenen und partikulären Lösung
     - Trennen der Variablen
     - Fundamentalmatrix
     - Variation der Konstanten
-- Laplace-Transformation
-- Analytische Lösungsverfahrungen
-- [Numerische Lösungsverfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
+- [Laplacetransformation](../Systemtheorie/Laplacetransformation.md)
+- [Analytische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Analytische%20Verfahren)
+- [Numerische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Numerische%20Verfahren)
 
 # Tags
 
 ![](https://www.youtube.com/embed/p_di4Zn4wz4)
 
-![DGL-NOTES](assets/pdf/DGL-NOTES.pdf)
+[DGL-NOTES HTL](assets/pdf/DGL-NOTES.pdf)
