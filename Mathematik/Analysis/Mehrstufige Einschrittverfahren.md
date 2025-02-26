@@ -13,7 +13,7 @@ title: Mehrstufige Einschrittverfahren
 ---
  
 
-# Mehrstufige Einschrittverfahren - Runge-Kutta
+# Mehrstufige Explizite Einschrittverfahren - Runge-Kutta
 
 > [!question] [Diskretisierungsverfahren](Diskretisierungsverfahren.md)
 

@@ -46,6 +46,5 @@ Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangs
 
 ### Anfangswertprobleme (AWP)
 
-- [Explizite Einschrittverfahren](Explizite%20Einschrittverfahren.md)
-    - [Euler-Verfahren](Euler-Verfahren.md)
-- [[]]
+- Explizite Verfahren
+- 
