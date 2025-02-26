@@ -115,7 +115,11 @@ Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht
 
 ## Lösungsmethoden
 
-- Finden der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md)
+- Finden der der homogenen und partikulären Lösung
+    - Trennen der Variablen
+    - Fundamentalmatrix
+    - Variation der Konstanten
+- Laplace-Transformation
 - Analytische Lösungsverfahrungen
 - [Numerische Lösungsverfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)
 
