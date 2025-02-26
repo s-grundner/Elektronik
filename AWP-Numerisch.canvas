@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"8dbdf2ca2dd3a9cc","x":-125,"y":-175,"width":505,"height":75,"type":"text","text":"## Lineare Mehrschritt verfahren"},
+		{"id":"aa7b5da1e2d9001a","x":-125,"y":0,"width":505,"height":90,"type":"text","text":"# [AWP](Mathematik/{MOC}%20DGL.md#^AWP)"},
+		{"id":"7f7ce448db27fd85","x":-125,"y":200,"width":505,"height":74,"type":"text","text":"## Einschrittverfahren"},
+		{"id":"435c37a0a592a257","type":"text","text":"> [!question] **Explizit:** Auch von $f_{k}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet auch **momentane** Schritte","x":505,"y":-83,"width":455,"height":257},
+		{"id":"31fa6aedce4e0fb2","x":-788,"y":-83,"width":468,"height":257,"type":"text","text":"> [!question] **Implizit:** Nur von $f_{k-1}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet nur **vorherige** Schritte:\n"},
+		{"id":"4cccab163f1adc2f","type":"text","text":"Explizit","x":-679,"y":-360,"width":250,"height":60},
+		{"id":"fe9b4f7109e57779","x":-679,"y":400,"width":250,"height":60,"type":"text","text":"Explizit"},
+		{"id":"d20afe27e43c4255","x":608,"y":400,"width":250,"height":60,"type":"text","text":"Implizit"},
+		{"id":"84cc73ee7abb377c","type":"text","text":"Implizit","x":608,"y":-360,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"0e4bde091194a25b","fromNode":"aa7b5da1e2d9001a","fromSide":"bottom","toNode":"7f7ce448db27fd85","toSide":"top"},
+		{"id":"1e9cba6dfd76507e","fromNode":"aa7b5da1e2d9001a","fromSide":"top","toNode":"8dbdf2ca2dd3a9cc","toSide":"bottom"},
+		{"id":"f6809f668fc77410","fromNode":"31fa6aedce4e0fb2","fromSide":"bottom","toNode":"fe9b4f7109e57779","toSide":"top"},
+		{"id":"1652eb1c75d6d2ee","fromNode":"7f7ce448db27fd85","fromSide":"bottom","toNode":"fe9b4f7109e57779","toSide":"right"},
+		{"id":"be48d3c122858645","fromNode":"7f7ce448db27fd85","fromSide":"bottom","toNode":"d20afe27e43c4255","toSide":"left"},
+		{"id":"0ad1040ed6cb5c39","fromNode":"8dbdf2ca2dd3a9cc","fromSide":"top","toNode":"4cccab163f1adc2f","toSide":"right"},
+		{"id":"5de26afb9337ee70","fromNode":"8dbdf2ca2dd3a9cc","fromSide":"top","toNode":"84cc73ee7abb377c","toSide":"left"},
+		{"id":"961625c98130513d","fromNode":"31fa6aedce4e0fb2","fromSide":"top","toNode":"4cccab163f1adc2f","toSide":"bottom"},
+		{"id":"e5d1932355662a56","fromNode":"435c37a0a592a257","fromSide":"top","toNode":"84cc73ee7abb377c","toSide":"bottom"},
+		{"id":"b448b2aa69b9b3b5","fromNode":"435c37a0a592a257","fromSide":"bottom","toNode":"d20afe27e43c4255","toSide":"top"}
+	]
+}
