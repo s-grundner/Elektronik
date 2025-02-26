@@ -95,17 +95,15 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 
 Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich durch leicht unterschiedliche Anfangswerte $(t_{0},x_{0})$ unterscheiden, im Grenzwert $x\to \infty$ verhalten.
 
-### Stabil
+| Stabil                                                                                                                                         | Attrahierend                                                                                                            | Asymptotisch Stabil |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. |                     |
+| ![](../assets/Excalidraw/DGL-Stabil.md)                                                                                                        | ![](../assets/Excalidraw/DGL-Attr.md)                                                                                   |                     |
 
-Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht.
 
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.10.16.excalidraw)
 
-### Attrahierend
 
-Die Differenz geth für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht.#
 
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2019.14.56.excalidraw)
 
 ### Asymptotisch Stabil (Stabil & Attrahierend)
 
