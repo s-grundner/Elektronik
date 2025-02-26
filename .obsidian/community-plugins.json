@@ -21,12 +21,13 @@
   "obsidian-icon-folder",
   "obsidian-quiet-outline",
   "darlal-switcher-plus",
-  "obsidian-react-components",
   "obsidian-spaced-repetition",
   "obsidian-style-settings",
   "tag-wrangler",
   "templater-obsidian",
   "text-snippets-obsidian",
   "obsidian-tikzjax",
-  "vim-toggle"
+  "vim-toggle",
+  "obsidian-react-components",
+  "obsidian-tasks-plugin"
 ]
