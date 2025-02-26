@@ -36,6 +36,7 @@ satz:
 > [!quote] Was die Rechengeschwindigkeit für große Systeme betrifft, haben sich im computerbasierten numerischen Rechnen sogenannte [Diskretisierungsverfahren](Diskretisierungsverfahren.md) durchgesetzt:
 > - Das einfachste Verfahren dieser Art ist das [Euler-Verfahren](Euler-Verfahren.md).
 > - Die Allgemeine Form dieser Verfahren sind [Explizite Einschrittverfahren](Diskretisierungsverfahren.md#Explizite%20Einschrittverfahren).
+> - Obiges Lässt sich erweitern auf [Mehrstufige Einschrittverfahren](Mehrstufige%20Einschrittverfahren.md)
 
 > [!hint] Grundprinzip dieser Verfahren:
 > - *unendlich* dimensionales Problem der Bestimmung von Funktionen, wird in *endlich* dimensionale Aufgabe transformiert.
