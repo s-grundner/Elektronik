@@ -28,8 +28,8 @@ TABLE FROM #Baugruppe/OPV
 - Invertierender Verstärker
 - [Umkehrsummierer](OPV-Addierer.md)
 - [Subtrahierer](OPV-Subtrahierer.md)
-- Integrator ([Aktiver Tiefpass](Filter%20und%20Verstärker/Aktiver%20Filter.md))
-- Differenzierer ([Aktiver Hochpass](Filter%20und%20Verstärker/Aktiver%20Filter.md))
+- Integrator ([Aktiver Tiefpass](Filter-Verstärker/Aktiver%20Filter.md))
+- Differenzierer ([Aktiver Hochpass](Filter-Verstärker/Aktiver%20Filter.md))
 - Instrumentenverstärker
 - [Schmitttrigger](Schmitt%20Trigger.md)
 - [OPV-Konstantstromquelle](OPV-Konstantstromquelle.md)

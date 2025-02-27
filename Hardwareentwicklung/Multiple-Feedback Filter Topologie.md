@@ -16,7 +16,7 @@ professor:
 
 # Filter mit Mehrfach-Gegenkopplung
 
-> [!question] Siehe: [Aktiver Filter](Filter%20und%20Verstärker/Aktiver%20Filter.md), [Gegenkopplung](Filter%20und%20Verstärker/Kopplungsarten.md)
+> [!question] Siehe: [Aktiver Filter](Filter-Verstärker/Aktiver%20Filter.md), [Gegenkopplung](Filter-Verstärker/Kopplungsarten.md)
 
 
 ![](assets/Pasted%20image%2020241213034514.png)

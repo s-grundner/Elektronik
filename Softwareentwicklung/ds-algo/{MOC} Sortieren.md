@@ -24,7 +24,7 @@ WHERE !contains(file.name, "MOC")
 Sortieren ist eine grundlegende Technologie der Informatik. Effiziente Sortieralgorithmen werden auch eingesetzt um in großen Datenmengen schneller Suchen zu können.
 
 > [!INFO] Definitionen:
-> - **Internes Sortieren**: Daten werden in den Arbeitsspeicher ([RAM](../../Technische%20Informatik/Speicherzellen.md)) kopiert. Es kann wahlfrei auf die einzelnen Elemente zugegriffen werden.
+> - **Internes Sortieren**: Daten werden in den Arbeitsspeicher ([RAM](../../Technische-Informatik/Speicherzellen.md)) kopiert. Es kann wahlfrei auf die einzelnen Elemente zugegriffen werden.
 > - **Externes Sortieren**: Daten können nicht in den Arbeitsspeicher kopiert werden (zum Beispiel zu viel). Verarbeitung auf externer Quelle.
 > - **Vergleichendes Sortieren**: Verwendung eines Werts aus der Sortiermenge mit dem beim Sortieren verglichen wird ("Schlüssel").
 > - **Stabiles Sortieren**: Sortierung die einen zusammengesetzten Datensatz richtig sortiert.

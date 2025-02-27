@@ -17,7 +17,7 @@ professor:
 
 # Sallen-Key Filter Topologie
 
-> [!question] Siehe: [Aktiver Filter](Filter%20und%20Verstärker/Aktiver%20Filter.md), [Gegenkopplung](Filter%20und%20Verstärker/Kopplungsarten.md)
+> [!question] Siehe: [Aktiver Filter](Aktiver%20Filter.md), [Gegenkopplung](Kopplungsarten.md)
 
 
 Der Sallen-Key Filter basiert auf einer Einfachen Gegenkopplung von Wechselsignalen, welches ein Tiefpassverhalten 2. Ordnung erzeugt. 
@@ -53,11 +53,11 @@ Der Sallen-Key Filter basiert auf einer Einfachen Gegenkopplung von Wechselsigna
 <center><a href="../Simulationen/SallenKey.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 
-> [!info] Unterschiedliche Wahlen des Verstärkungsfaktors $\alpha$ ergeben unterschiedliche [Filtercharakteristiken](Filter%20und%20Verstärker/Aktiver%20Filter.md#Filter%20Charakteristiken):
+> [!info] Unterschiedliche Wahlen des Verstärkungsfaktors $\alpha$ ergeben unterschiedliche [Filtercharakteristiken](Aktiver%20Filter.md#Filter%20Charakteristiken):
 > 
 > $\alpha=1$: Kritische Dämpfung
 > $\alpha = 1.268$: Bessel
-> $\alpha = 1.586$: [Butterworth](Filter%20und%20Verstärker/Butterworth%20Filter%20Charakteristik.md)
+> $\alpha = 1.586$: [Butterworth](Butterworth%20Filter%20Charakteristik.md)
 > $\alpha=2.234$: [Tschebyscheff](Tscheybyscheff%20Filter%20Charakteristik.md)
 
 ## Funktionsweise
