@@ -38,6 +38,32 @@ Der Fortschritt dieses Skriptums steht im direkten Zusammenhang mit der Fortbild
 
 ---
 
+# Core Plugins
+
+```json
+[
+  "buttons",
+  "dataview",
+  "obsidian-excalidraw-plugin",
+  "obsidian-git",
+  "home-tab",
+  "obsidian-hover-editor",
+  "obsidian-latex-suite",
+  "github-copilot",
+  "obsidian-icon-folder",
+  "obsidian-quiet-outline",
+  "darlal-switcher-plus",
+  "obsidian-spaced-repetition",
+  "tag-wrangler",
+  "templater-obsidian",
+  "text-snippets-obsidian",
+  "obsidian-tikzjax",
+  "obsidian-react-components",
+  "obsidian-style-settings",
+  "obsidian-banners"
+]
+```
+
 # Cheat-Sheets
 
 - [LaTeX Cheatsheet A](http://tug.ctan.org/info/undergradmath/undergradmath.pdf)
