@@ -46,5 +46,5 @@ Es werden [Diskretisierungsverfahren](Diskretisierungsverfahren.md) für Anfangs
 
 ### Anfangswertprobleme (AWP)
 
-[🧠AWP-Verfahren Mindmap](../../AWP-Numerisch.canvas)
+[🧠AWP-Verfahren Mindmap](AWP-Numerisch.canvas)
 

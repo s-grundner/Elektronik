@@ -27,7 +27,6 @@
   "userIgnoreFilters": [
     "*.ini",
     "desktop.ini",
-    "xORG/",
     "Hardwareentwicklung/Uebung/",
     "xPN/Rubbish/",
     "xEDU/Rubbish/",
@@ -43,7 +42,7 @@
     "Netzwerktechnik/Nw/Uebung/",
     "assets/Excalidraw/"
   ],
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "hidden",
   "defaultViewMode": "preview",
   "foldHeading": true,
   "useTab": false,

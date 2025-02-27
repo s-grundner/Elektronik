@@ -23,7 +23,7 @@ def:
 hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Lösungsintervall)}\quad x \in\mathbb{R}^{m}$
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
->Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../Physik/Federkraft.md)-Dämpfer [Systeme](../Systemtheorie/Zustandsgleichungen.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
+>Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../Physik/Federkraft.md)-Dämpfer [Systeme](../../Systemtheorie/Zustandsgleichungen.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
 > [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung ^AWP1-1
 > 
@@ -114,7 +114,7 @@ Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ lin
 > [!important] Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
 > Dann bilden die Lösungen des homogenen linearen Systems AWP 1.2 einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md)
 > 
-> **[Superposition](../Elektrotechnik/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems AWP 1.1 bilden eine $m$ dimensionale lineare Mannigfaltigkeit.
+> **[Superposition](../../Elektrotechnik/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems AWP 1.1 bilden eine $m$ dimensionale lineare Mannigfaltigkeit.
 > Man erhält alle Lösungen von AWP 1.1, indem man zu irgendeiner festen **partikulären** Lösung von AWP 1.1 alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 

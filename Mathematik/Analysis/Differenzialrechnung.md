@@ -101,7 +101,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 ## Sätze und Folgerungen
 
 - [Satz von Rolle](Satz%20von%20Rolle.md)
-- [Mittelwertsatz der Differenzialrechnung](../Mittelwertsatz%20der%20Differenzialrechnung.md)
+- [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md)
     - Schrankensatz
         - Lipschitzstetigkeit
     - [L'Hospital](Analysis/L'Hospital.md)

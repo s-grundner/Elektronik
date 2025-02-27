@@ -22,12 +22,13 @@
   "obsidian-quiet-outline",
   "darlal-switcher-plus",
   "obsidian-spaced-repetition",
-  "obsidian-style-settings",
   "tag-wrangler",
   "templater-obsidian",
   "text-snippets-obsidian",
   "obsidian-tikzjax",
   "vim-toggle",
   "obsidian-react-components",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-style-settings",
+  "obsidian-banners"
 ]

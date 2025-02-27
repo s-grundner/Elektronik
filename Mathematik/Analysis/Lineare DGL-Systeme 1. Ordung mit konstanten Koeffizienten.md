@@ -139,8 +139,8 @@ $$
 
 Diese lassen sich mit der obigen Gleichung **rekursiv** ermitteln
 
-
 ### Prozedur zur ermittlung der Fundamentalmatrix
+
 Man verfolgt die Prozedur:
 
 1. Eigenwerte $\lambda$ von $A$ bestimmen

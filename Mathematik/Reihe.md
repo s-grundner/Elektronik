@@ -23,7 +23,7 @@ Eine wichtige Eigenschaft jeder Reihe ist dessen Konvergenz. Eine Reihe konvergi
 
 ## Arten von Reihen
 
-- [Geometrische Reihe](Geometrische%20Reihe.md)
+- [Geometrische Reihe](Analysis/Geometrische%20Reihe.md)
 - [Arithmetische Reihe](Analysis/Arithmetische%20Reihe.md)
 - Harmonische Reihe
 - [Potenzreihe](Potenzreihe.md)

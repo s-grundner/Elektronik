@@ -19,7 +19,7 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 
 - 🗺️[Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
 - [Grenzwert](Analysis/Grenzwert.md)
-- [Folgen](Folgen.md)
+- [Folgen](Analysis/Folgen.md)
 - [Reihen](Reihe.md)
 
 ## Infinitesimalrechnung
@@ -28,7 +28,7 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | [Totale Ableitung](Analysis/Total%20Differenzierbar.md)                                   | [Riemann-Integral](Analysis/Riemann-Integral.md)             |
 | [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)                                  | [Partielle Integration](Analysis/Partielle%20Integration.md) |
-| [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Mittelwertsatz der Integralrechnung]]                      |
+| [Mittelwertsatz der Differenzialrechnung](Analysis/Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Analysis/Mittelwertsatz der Integralrechnung]]                      |
 | [Gradient](Analysis/Gradient.md)<br>                                                      |                                                              |
 
 > [!important] 🗺️[Differenzialgleichungen]({MOC}%20DGL.md)
