@@ -22,6 +22,8 @@ def:
 
 # Diskretisierungsverfahren
 
+## Verfahren für Anfangswertprobleme
+
 > [!question] Siehe: [Numerische Lösungsverfahren von DGL](Numerische%20Lösungsverfahren%20von%20DGL.md)
 > Mit äquidistanten Diskretisierungsverfahren werden Anfangswertprobleme ([AWP](../{MOC}%20DGL.md#^AWP)) numerisch gelöst.
 
@@ -69,9 +71,10 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des AWP ausrechnen möch
 
 Wir möchten Näherungen $x_{k}$ für $x(t_{k})$ berechnen.
 
-## Verfahren
+### Verfahrensarten
 
 Verfahren bei denen eine Äquidistante Diskretisierung angewandt wird, sind:
 
 - [Explizite Einschrittverfahren](Explizite%20Einschrittverfahren.md)
-- [Mehrstufige Einschrittverfahren](Mehrstufige%20Einschrittverfahren.md)
+
+## Verfahren für Rand- und Eigenwertprobleme

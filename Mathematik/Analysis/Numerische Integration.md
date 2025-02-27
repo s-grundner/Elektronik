@@ -10,7 +10,8 @@ subject:
   - Mathematik 2
 semester: SS24
 created: 11. Juni 2024
-professor: 
+professor:
+  - Andreas Neubauer
 cited:
 ---
  

@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Runge-Kutta
 keywords: 
 subject:
   - Mathematik 3
@@ -112,7 +113,7 @@ $$
 \end{array}
 $$
 
-## 4-Stufige Runge-Kutta Verfahren
+## 4-Stufige Runge-Kutta Verfahren (RK4)
 
 $$
 \begin{array}{c|ccc}
@@ -121,7 +122,7 @@ c_1 & a_{21} & & & \\
 c_3 & a_{31} & a_{32} & & & \\
 c_4 & a_{41} & a_{42} & a_{43} & \\
 \hline & b_1 & b_2 & b_3 & b_4
-\end{array} \quad \implies\quad
+\end{array} \quad \overset{ \text{RK4} }{ \implies }\quad
 \begin{array}{c|ccc}
 0 & & & & \\
 \frac{1}{2} & \frac{1}{2} & & & \\
