@@ -5,7 +5,7 @@ subject: ["physik"]
 source: ["Angela Lindner"]
 created: 18th August 2022
 ---
-
+                                                                 
 # Allgemeines Gasgesetz
 
 Das Gesetz von Boyle-Mariotte und das Gesetz von Gay-Lussac können zur allgemeinen Gasgleichung Zusammengefasst werden.  
