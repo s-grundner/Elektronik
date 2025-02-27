@@ -10,9 +10,13 @@ draft: false
 ---
 
 
-# Vim-Hotkeys
+# Vim
 
-![vim-cheatsheet](../10_tools/pdf/vim-cheatsheet.pdf)
+> [!info] Ressourcen
+> 
+> - [vim-cheatsheet](../10_tools/pdf/vim-cheatsheet.pdf)
+> - [Vim Doesn't Need Multi Cursors Like IDEs - YouTube](https://www.youtube.com/watch?v=tdbHFNxEBhM)
 
 ## Neovim
 
+- Preconfig: [NvChad](https://nvchad.com/)
