@@ -19,7 +19,8 @@ GridView {
     // ...
     Keys.onPressed: {
         if(event.key == Qt.Key_W) {
-            tabBox.model
+            tabBox.model.close(thumbnailGridView.currentIndex);
+            thumbnailGridView.currentIndexChanged(thumbnailGridView.currentIndex);
         }
     }
 } // GridView
