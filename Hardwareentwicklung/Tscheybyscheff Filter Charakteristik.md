@@ -9,14 +9,14 @@ subject:
   - Einführung Elektronik
 semester: WS24
 created: 12. Dezember 2024
-professor:
+professor: 
+draft: true
+title: Tschebyscheff Filter Charakteristik
 ---
  
-
-
 # Tschebyscheff Filter-Charakteristik
 
-Je nach dem welche Ordnung das Tschebyscheff polynom hat, hat die übertragungsfunktion dementsprechend viele Wellenberge im Durchlass ober sperrbereich
+Je nach dem welche Ordnung das Tschebyscheff Polynom hat, hat die übertragungsfunktion dementsprechend viele Wellenberge im Durchlass oder Sperrbereich
 
 ## Typ 1
 

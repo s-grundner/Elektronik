@@ -96,3 +96,5 @@ Beim LDF wird nur der Fehler vom $k-1$-ten Schritt zum $k$-ten Schritt betrachte
 > 
 > konsistent $\implies$ konvergent: [LDF (ii)](#^LDF) $\implies$ [GDF (ii)](#^GDF)
 Konsistenzordnung $q$ $\to$ Konvergenzordnung $q$: [LDF (iii)](#^LDF) $\implies$ [GDF (iii)](#^GDF) 
+
+> [!info] [Mehrstufige Einschrittverfahren](Mehrstufige%20Einschrittverfahren.md)

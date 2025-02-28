@@ -12,7 +12,7 @@ Zeigt den Frequenzgang bestehend aus
 
 es werden zwei Diagramme benötigt, da mit komplexer [Wechselstromtechnik](Wechselstromtechnik.md) gerechnet wird
 
-Allgemein wird die [[Filter und Verstärker/Dämpfung]] des Filters mit logarithmischem Verhältnis dargestellt -> dezibel
+Allgemein wird die [[Filter-Verstärker/Dämpfung]] des Filters mit logarithmischem Verhältnis dargestellt -> dezibel
 - Dezibel ist die Pseudo einheit zur Darstellung von logarithmischen Leistungsverhältnissen
 
 | Diagramm       |                                  |

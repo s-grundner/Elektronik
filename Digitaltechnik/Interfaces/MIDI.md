@@ -13,7 +13,7 @@ Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die 
 
 > [!EXAMPLE] Beispiel
 > 
-> Die [Grenzfrequenz](../../Hardwareentwicklung/Filter%20und%20Verstärker/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
+> Die [Grenzfrequenz](../../Hardwareentwicklung/Filter-Verstärker/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
 > 
 > ![750|443](assets/MIDI-DigiFilter.png)
 
@@ -75,9 +75,9 @@ Soll beispielsweise die Note E2 mit einer Anschlagstärke von 64 auf Kanal 1 ang
 
 |             | Status    | Kanal     | Byte 1<br>(Adresse) | Byte 2<br>(Anschlagstärke) |
 | ----------- | --------- | --------- | ------------------- | -------------------------- |
-| [Dezimal](../Zahlensysteme.md)     | 144       | 40        | 64                  |                            |
-| [Hexadezimal](../Zahlensysteme.md) | 0x90      | 0x28      | 0x40                |                            |
-| [Binär](../Zahlensysteme.md)       | 1001 0000 | 0010 1000 | 0100 0000           |                            |
+| [Dezimal](../../Technische-Informatik/Zahlensysteme.md)     | 144       | 40        | 64                  |                            |
+| [Hexadezimal](../../Technische-Informatik/Zahlensysteme.md) | 0x90      | 0x28      | 0x40                |                            |
+| [Binär](../../Technische-Informatik/Zahlensysteme.md)       | 1001 0000 | 0010 1000 | 0100 0000           |                            |
 
 Nach dieser Übertragung bleibt die Note so lange angeschaltet, bis ein _Note Off_ Signal auf dieselbe Adresse und denselben Kanal gesendet wird.
 

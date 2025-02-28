@@ -21,7 +21,6 @@
   "obsidian-icon-folder",
   "obsidian-quiet-outline",
   "darlal-switcher-plus",
-  "obsidian-spaced-repetition",
   "tag-wrangler",
   "templater-obsidian",
   "text-snippets-obsidian",
@@ -31,5 +30,11 @@
   "obsidian-tasks-plugin",
   "obsidian-style-settings",
   "obsidian-banners",
+<<<<<<< HEAD
   "settings-search"
+=======
+  "obsidian-spaced-repetition",
+  "settings-search",
+  "url-into-selection"
+>>>>>>> a2392745027de58f6c012a18ba40eb7a0adeef8d
 ]

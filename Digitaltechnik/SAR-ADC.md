@@ -11,7 +11,7 @@ created: 22. Dezember 2023
 
 > [!question] Wägeverfahren
 
-Wie in Abbildung 1 zu sehen ist, wird für den Aufbau des SAR-ADCs eine [Filter](../Hardwareentwicklung/Filter%20und%20Verstärker/Filter.md)-Baugruppe benötigt. In diesem Aufbau wird der [Filter](../Hardwareentwicklung/Filter%20und%20Verstärker/Filter.md) durch ein [RC-Glied](../Hardwareentwicklung/Filter%20und%20Verstärker/Filter.md) realisiert.
+Wie in Abbildung 1 zu sehen ist, wird für den Aufbau des SAR-ADCs eine [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md)-Baugruppe benötigt. In diesem Aufbau wird der [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md) durch ein [RC-Glied](../Hardwareentwicklung/Filter-Verstärker/Filter.md) realisiert.
 
 |![](assets/Pasted%20image%2020231223180638.png)   |
 |---|

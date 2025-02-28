@@ -98,6 +98,6 @@ created: 10th December 2022
 
 - 2 Signale falten
 
-### Digitale [Filter](../Hardwareentwicklung/Filter%20und%20Verstärker/Filter.md) BSP
+### Digitale [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md) BSP
 
-- Einen [Filter](../Hardwareentwicklung/Filter%20und%20Verstärker/Filter.md) dimensionieren 
+- Einen [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md) dimensionieren 
