@@ -67,10 +67,7 @@ Jetzt kann über das Verhältnis des heutigen Anteils von $^{14}C$ im organische
 
 $$
 \begin{align*}
-N(t)=N(0)\cdot \exp \left(-\frac{\ln_{2}}{T_\frac{1}{2}}\cdot t\right)
-\\
-\\
-t=\frac{\ln{(\frac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)}
+N(t)=N(0)\cdot \exp \left(-\frac{\ln(2)}{T_\frac{1}{2}}\cdot t\right)\implies t=\frac{\ln \left(\frac{N(t)}{N(0)}\right)\cdot T_\frac{1}{2}}{-\ln(2)}
 \end{align*}
 $$
 
@@ -79,7 +76,7 @@ $$
 > bei einer Vergleichsprobe zählte man N(0) = 4 * 105 dieser 14C -Atome.  
 > Vor wie vielen Jahren ist Ötzi verstorben?
 
-$t=\dfrac{\ln{(\dfrac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)} = \dfrac{\ln{(\dfrac{2,3\ \cdot\ {10}^5}{4\cdot{10}^5})}\cdot5370\ Jahre}{-ln(2)}=4500\ Jahre$
+$$t=\dfrac{\ln{\left(\dfrac{N(t)}{N(0)}\right)}\cdot T_\frac{1}{2}}{-\ln(2)} = \dfrac{\ln{\left(\dfrac{2.3\ \cdot\ {10}^5}{4\cdot{10}^5}\right)}\cdot 5370 \text{ Jahre }}{-\ln(2)}=4500\text{ Jahre }$$
 
 ## Strahlenschäden
 
