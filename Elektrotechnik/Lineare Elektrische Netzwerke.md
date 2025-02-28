@@ -50,7 +50,7 @@ Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass
 
 ## Systematische Analyse linearer Netzwerke
 
-> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/ds-algo/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
+> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/DS-Algo/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 

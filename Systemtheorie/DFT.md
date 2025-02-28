@@ -140,13 +140,13 @@ $$
 \end{pmatrix}
 $$
 
-Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechnet werden. Dies führt uns zur [FFT](FFT.md).
+Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechnet werden. Dies führt uns zur [FFT](../Softwareentwicklung/DS-Algo/FFT.md).
 
-![[assets/DFT 2025-01-14 10.03.44.excalidraw]]
+![[../Softwareentwicklung/DS-Algo/assets/DFT 2025-01-14 10.03.44.excalidraw]]
 
 ## Diskretisiertes Spektrum
 
-![[assets/DFT 2025-01-14 09.53.12.excalidraw]]
+![[../Softwareentwicklung/DS-Algo/assets/DFT 2025-01-14 09.53.12.excalidraw]]
 
 # Quellen
 

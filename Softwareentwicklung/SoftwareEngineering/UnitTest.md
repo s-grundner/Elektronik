@@ -20,5 +20,5 @@ Ein Unit-Test testet eine kleine Einheit (Unit), noch bevor sie in das gesamte P
 
 Damit findet der Test möglichst unabhängig von anderen Komponenten ab. In vielen Entwicklungstools kann ein Unit-Test bereits während der Entwicklung mit integriert werden. Der große Vorteil gegenüber einem bloßen manuellen Testen ist, dass mit jeder späteren (auch kleinen) Änderung gleich eine ganze Reihe von Tests wieder gestartet werden kann. Der zweite große Vorteil ist, dass ein entsprechender Nachweis der Testung mitgeliefert werden kann.
 
-- [QT_UnitTest](QT_UnitTest.md)
-- [JUnit](JUnit.md)
+- [QT_UnitTest](../Cpp/QT_UnitTest.md)
+- [JUnit](../Java/JUnit.md)

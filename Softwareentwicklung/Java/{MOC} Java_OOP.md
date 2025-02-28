@@ -21,9 +21,9 @@ SORT file.name
 
 # Assoziation - Aggregation - Komposition
 
-- [Assoziation](../Assoziation.md)
-- [Aggregation](../Aggregation.md)
-- [Komposition](../Komposition.md)
+- [Assoziation](../SoftwareEngineering/UML/Assoziation.md)
+- [Aggregation](../SoftwareEngineering/UML/Aggregation.md)
+- [Komposition](../SoftwareEngineering/UML/Komposition.md)
 
 ## Mehrfache Beziehungen
 

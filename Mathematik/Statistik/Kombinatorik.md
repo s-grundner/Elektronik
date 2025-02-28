@@ -50,4 +50,4 @@ nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
 
 # Tags
 
-- [[../../Technische Informatik/Kombinatorische Logik]]
+- [[../../Digitaltechnik/Kombinatorische Logik]]

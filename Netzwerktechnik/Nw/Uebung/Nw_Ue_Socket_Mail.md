@@ -8,7 +8,7 @@ Entwickeln eines E-Mail Client. Viele E-Mail Provider bieten keinen Zugang mitte
 
 - Für dieses Beispiel wird am Beste zuerst einmal ein E-Mail-Konto bei Gmail/Google angelegt. Hier wird aus Testzwecken bewusst ein Account angegeben, damit beim Testen ein wenig Traffic verfolgbar ist.
 
-![image-20200428111847710](assets/Nw_Mail_CrtGoogleAccount.png)
+![image-20200428111847710](../../assets/Nw_Mail_CrtGoogleAccount.png)
 
 ​		Die Zugangsdaten müssen Sie sich auf alle Fälle merken/abspeichern.
 

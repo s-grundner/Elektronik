@@ -30,5 +30,6 @@
   "obsidian-react-components",
   "obsidian-tasks-plugin",
   "obsidian-style-settings",
-  "obsidian-banners"
+  "obsidian-banners",
+  "settings-search"
 ]

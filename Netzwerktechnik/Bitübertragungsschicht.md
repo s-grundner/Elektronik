@@ -18,12 +18,11 @@ source: ["Martin Aichriedler, Christian Baun"]
 
 # Tags
 
-[OSI-Modell](OSI-Modell.md)
+- [OSI-Modell](OSI-Modell.md)
+- [Christian Baun](http://www.christianbaun.de/)
+- [Foliensätze](http://www.christianbaun.de/Netzwerke1718/index_de.html)
 
-[Christian Baun](http://www.christianbaun.de/)
+## PDF
 
-[Foliensätze](http://www.christianbaun.de/Netzwerke1718/index_de.html)
-
-![2-FS_ComputerNetze](assets/Christian-Baun-pdf/2-FS_ComputerNetze.pdf)
-
-![3-FS_ComputerNetze](assets/Christian-Baun-pdf/3-FS_ComputerNetze.pdf)
+- [2-FS_ComputerNetze](assets/Christian-Baun-pdf/2-FS_ComputerNetze.pdf)
+- [3-FS_ComputerNetze](assets/Christian-Baun-pdf/3-FS_ComputerNetze.pdf)

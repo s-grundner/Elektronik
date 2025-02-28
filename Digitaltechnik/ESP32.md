@@ -8,20 +8,20 @@ created: 29th November 2022
 
 # ESP32
 
-![InlineR](assets/ESP32_nocase.png) Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../Digitaltechnik/Interfaces/UART.md), [SPI](../../Digitaltechnik/Interfaces/SPI.md), CAN, [I2C](../../Digitaltechnik/Interfaces/I2C.md), I2S, WLAN und Bluetooth.
+![InlineR](../Softwareentwicklung/DevOps/IoT/assets/ESP32_nocase.png) Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../Digitaltechnik/Interfaces/UART.md), [SPI](../../Digitaltechnik/Interfaces/SPI.md), CAN, [I2C](../../Digitaltechnik/Interfaces/I2C.md), I2S, WLAN und Bluetooth.
 
 
-![InlineL](assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Hardwareentwicklung/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
+![InlineL](../Softwareentwicklung/DevOps/IoT/assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Hardwareentwicklung/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
 
 
-Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](ESP-AT.md)) auf den Chip heruntergeladen werden.
+Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](../Softwareentwicklung/DevOps/IoT/ESP-AT.md)) auf den Chip heruntergeladen werden.
 
 # Firmware Entwicklung
 
-Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
+Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](../Softwareentwicklung/DevOps/IoT/ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
 
 - als Editor wird VSCode verwendet
-- für die Toolkette wird [Python](../Python.md) benötigt
+- für die Toolkette wird [Python](../Softwareentwicklung/Python/Python.md) benötigt
 - für die Entwicklung von µController-Software gibt's die Extension [PlatformIO](../../Digitaltechnik/PlatformIO.md)
 
 (Beschreibung: <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)>
@@ -85,7 +85,7 @@ Einlesen der Schalterzustände und Aktivieren von LEDs.
 
 Grundsätzliche Struktur: 
 
-![](assets/Esp32_SwitchLed.png)
+![](../Softwareentwicklung/DevOps/IoT/assets/Esp32_SwitchLed.png)
 
 ```cpp
 #include <Arduino.h>
@@ -122,7 +122,7 @@ Einlesen der Schalterzustände mittels Interrupt und Aktivieren von LEDs.
 
 Grundsätzliche Struktur: 
 
-![](assets/Esp32_SwitchLed.png)
+![](../Softwareentwicklung/DevOps/IoT/assets/Esp32_SwitchLed.png)
 
 ```cpp
 #include <Arduino.h>
@@ -190,11 +190,11 @@ void loop() {
 
 Diese WebServer-Applikation Erzeugt auf der Adresse 192.168.4.1 die folgende Seite:
 
-![image-20210530174045130](assets/Esp32_WebServer02.png)
+![image-20210530174045130](../Softwareentwicklung/DevOps/IoT/assets/Esp32_WebServer02.png)
 
 Das einzige Element ist ein Formular mit einem Button (0.html). Durch aktivieren des Buttons wird auf die Seite 1.html umgeschaltet (aktivierter Schalter) und die LED geschaltet.
 
-![](assets/Esp32_WebServer.png)
+![](../Softwareentwicklung/DevOps/IoT/assets/Esp32_WebServer.png)
 
 Aufbau WiFi-AccessPoint. Hier in *astral_$$$$* user auf das eigene Benutzerkürzel verändern:
 
@@ -331,11 +331,11 @@ void loop() {
 }
 ```
 
-## 05_[Mqtt](MQTT.md)
+## 05_[Mqtt](../Softwareentwicklung/DevOps/IoT/MQTT.md)
 
-In diesem Projekt wird mit einem WLAN-Accesspoint verbunden, anschließend auf den [MQTT](MQTT.md)-Broker `test.mosquitto.org` und anschließend ein Zähler gesendet. Gleichzeitig wird ein Topic subscribed und wenn empfangen im Seriellen Monitor ausgegeben.
+In diesem Projekt wird mit einem WLAN-Accesspoint verbunden, anschließend auf den [MQTT](../Softwareentwicklung/DevOps/IoT/MQTT.md)-Broker `test.mosquitto.org` und anschließend ein Zähler gesendet. Gleichzeitig wird ein Topic subscribed und wenn empfangen im Seriellen Monitor ausgegeben.
 
-![image-20210530174045130](assets/Esp32_Mqtt.png)
+![image-20210530174045130](../Softwareentwicklung/DevOps/IoT/assets/Esp32_Mqtt.png)
 
 Passen Sie die WiFi-Einstellungen und die Topics entsprechend an (im Topic wird $$$$ durch das Namenskürzel ersetzt, das Gleiche gilt für die User-Id, diese muss eindeutig zuordenbar sein):
 
@@ -404,7 +404,7 @@ void loop() {
 
 In diesem Projekt werden die WiFi-Verbindungsdaten und die Adresse der MQTT-Brokers in einer eigenen Datei abgelegt. Dafür sind SPIFFS und FS notwendig.
 
-![image-20210530174045130](assets/Esp32_Mqtt.png)
+![image-20210530174045130](../Softwareentwicklung/DevOps/IoT/assets/Esp32_Mqtt.png)
 
 Vorab: Installation der Library PubSubClient, in **PlatformIO.ini**:
 
@@ -652,7 +652,7 @@ mosquitto_pub -h test.mosquitto.org -t "home/outDatat" -m "ESP32-Test"
 
 Der BMP280 ist mit dem ESP32 mittels I²C-Bus verbunden (der Sensor kann auch mittels SPI eingebunden werden):
 
-![img](assets/ESP32_BMP280.png)
+![img](../Softwareentwicklung/DevOps/IoT/assets/ESP32_BMP280.png)
 
 Für diese Projekte muss die Library **Adafruit BMP280 Library** installiert werden (PlatformIO.ini):
 
@@ -964,10 +964,10 @@ Ablauf:
 
 µController ESP32-Pico
 - [Link-Espressif ESP32-Pico](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-kit.html#)
-- [ESP32-Pico Getting Started](Esp32Pico/Espressif_Systems_01162019_ESP32-PICO-KIT-1523019.pdf)
-- [ESP32-Pico Technical Reference Manual](Esp32Pico/esp32_technical_reference_manual_en.pdf)
-- [ESP32-Pico Datasheet](Esp32Pico/esp32-pico-d4_datasheet_en.pdf)
-- [ESP32-Pico Schematic](Esp32Pico/esp32-pico-kit-v4.1_schematic.pdf)
+- [ESP32-Pico Getting Started](../Softwareentwicklung/DevOps/IoT/Esp32Pico/Espressif_Systems_01162019_ESP32-PICO-KIT-1523019.pdf)
+- [ESP32-Pico Technical Reference Manual](../Softwareentwicklung/DevOps/IoT/Esp32Pico/esp32_technical_reference_manual_en.pdf)
+- [ESP32-Pico Datasheet](../Softwareentwicklung/DevOps/IoT/Esp32Pico/esp32-pico-d4_datasheet_en.pdf)
+- [ESP32-Pico Schematic](../Softwareentwicklung/DevOps/IoT/Esp32Pico/esp32-pico-kit-v4.1_schematic.pdf)
 
 
 Arduino-Framework

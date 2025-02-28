@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # Einführung
 
-Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vor [Python](../Python.md) und Java). Durch das Konzept der Java-Virtual-Machine lässt sich das kompilierte Programm auf allen gängigen Plattformen (Windows, Linux, Mac, Android …) ausführen. Java ist sicher, objektorientiert und es gibt durch die große Verbreitung eine Vielzahl von verfügbaren Funktionen auf die zugegriffen werden kann. Es gibt eine große Community und damit eine Unzahl an verfügbaren Lösungen. Für das Android-[Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) werden sehr viele Anwendungen mittels Java erstellt (allerdings mit anderen Bibliotheken).
+Warum Java? Java ist eine der am weitesten verbreitete Sprache (Tiobe 2021: C vor [Python](../Python/Python.md) und Java). Durch das Konzept der Java-Virtual-Machine lässt sich das kompilierte Programm auf allen gängigen Plattformen (Windows, Linux, Mac, Android …) ausführen. Java ist sicher, objektorientiert und es gibt durch die große Verbreitung eine Vielzahl von verfügbaren Funktionen auf die zugegriffen werden kann. Es gibt eine große Community und damit eine Unzahl an verfügbaren Lösungen. Für das Android-[Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) werden sehr viele Anwendungen mittels Java erstellt (allerdings mit anderen Bibliotheken).
 
 > [Java Dokumentation](https://docs.oracle.com/en/java/javase/20/index.html)
 

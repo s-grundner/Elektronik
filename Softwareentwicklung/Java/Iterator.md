@@ -7,12 +7,17 @@ subject:
   - Softwareentwicklung 2
 semester: SS24
 created: 20. Juni 2024
-professor:
+professor: 
 cited:
 ---
  
 
 # Iterator
+
+Ein **Iterator** gehört zur Gruppe der [Verhaltensmuster](../Designpatterns/Verhaltensmuster.md). Dieses Muster sei hier erwähnt, die Anwendung und Funktion ist in Standard-Template-Library für die Collections implementiert.
+
+
+## Iterator in Java
 
 Eine Klasse die das Iterator Interface implementiert
 
@@ -47,7 +52,7 @@ public class DigitInStringIterator implements Iterator<Integer> {
 }
 ```
 
-## Mit Innerer Klasse
+### Mit Innerer Klasse
 
 ```java
 public class Test {
@@ -69,7 +74,7 @@ public class Test {
 }
 ```
 
-## Iterator vs Iterable
+### Iterator vs Iterable
 
 ```java
 
@@ -85,5 +90,3 @@ while(iterator.hasNext()) {
   iterator.next()
 }
 ```
-
-How to make an object iterable.
