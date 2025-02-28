@@ -1,3 +1,5 @@
 {
-  "preview": true
+  "preview": true,
+  "properties": false,
+  "graph": false
 }
