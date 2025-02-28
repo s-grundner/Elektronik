@@ -56,8 +56,6 @@ $N(t)= N_0 \cdot e^{-\lambda t}\,$
 Zwischen $\lambda$ und der Halbwertszeit $T_{1/2}$ besteht die Beziehung:  
 $\lambda = \dfrac {\ln 2}{T_{1/2}} \approx \dfrac {0{,}693}{T_{1/2}}$
 
-![hwz.png](hwz.png)
-
 ### C-14 Methode Der Altersbestimmung
 
 In der obersten Atmosphärenschicht trifft **kosmische Strahlung** auf die Erde, wodurch aus einem Stickstoffkern und einem Neutron das radioaktive **Kohlenstoffisotop** $^{14}C$ entsteht.  
@@ -69,7 +67,7 @@ Jetzt kann über das Verhältnis des heutigen Anteils von $^{14}C$ im organische
 
 $$
 \begin{align*}
-N(t)=N(0)\cdot e^{-\dfrac{ln(2)}{T_\frac{1}{2}}\cdot t}
+N(t)=N(0)\cdot \exp \left(-\frac{\ln_{2}}{T_\frac{1}{2}}\cdot t\right)
 \\
 \\
 t=\frac{\ln{(\frac{N(t)}{N(0)})}\cdot T_\frac{1}{2}}{-ln(2)}

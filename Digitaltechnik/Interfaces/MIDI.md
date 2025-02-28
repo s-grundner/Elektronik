@@ -73,11 +73,11 @@ Die Adresse der Note lässt sich wie folgt herausfinden: Die Note A0 entspricht 
 
 Soll beispielsweise die Note E2 mit einer Anschlagstärke von 64 auf Kanal 1 angeschaltet werden, sieht das übertragene Wort folgendermaßen aus:
 
-|             | Status    | Kanal     | Byte 1<br>(Adresse) | Byte 2<br>(Anschlagstärke) |
-| ----------- | --------- | --------- | ------------------- | -------------------------- |
-| [Dezimal](../../Technische-Informatik/Zahlensysteme.md)     | 144       | 40        | 64                  |                            |
-| [Hexadezimal](../../Technische-Informatik/Zahlensysteme.md) | 0x90      | 0x28      | 0x40                |                            |
-| [Binär](../../Technische-Informatik/Zahlensysteme.md)       | 1001 0000 | 0010 1000 | 0100 0000           |                            |
+|                                    | Status    | Kanal     | Byte 1<br>(Adresse) | Byte 2<br>(Anschlagstärke) |
+| ---------------------------------- | --------- | --------- | ------------------- | -------------------------- |
+| [Dezimal](../Zahlensysteme.md)     | 144       | 40        | 64                  |                            |
+| [Hexadezimal](../Zahlensysteme.md) | 0x90      | 0x28      | 0x40                |                            |
+| [Binär](../Zahlensysteme.md)       | 1001 0000 | 0010 1000 | 0100 0000           |                            |
 
 Nach dieser Übertragung bleibt die Note so lange angeschaltet, bis ein _Note Off_ Signal auf dieselbe Adresse und denselben Kanal gesendet wird.
 

@@ -9,7 +9,6 @@ title:
 draft: false
 ---
 
-
 # Vim
 
 > [!info] Ressourcen
@@ -20,4 +19,3 @@ draft: false
 ## Neovim
 
 - Preconfig: [NvChad](https://nvchad.com/)
-- 
