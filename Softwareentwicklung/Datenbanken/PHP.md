@@ -171,7 +171,6 @@ Der echo Befehl gibt einfach einen Text zurück, in diesem Fall den Wert des Ser
 
 - Um den Zeichensatz einzustellen muss am Beginn des PHP-Skripts der gleiche Zeichensatz eingestellt werden wie in der verwendeten Datenbank (etwa um Umlaute/Sonderzeichen richtig darzustellen):
 
-
 ```php
 header("Content-Type: text/html; charset=utf8_general_ci");
 ```

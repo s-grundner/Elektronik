@@ -9,7 +9,6 @@ title:
 draft: false
 ---
 
-
 # Vim
 
 > [!info] Ressourcen
