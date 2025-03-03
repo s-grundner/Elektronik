@@ -36,7 +36,7 @@ a_0(t) & a_1(t) & a_2(t) & \ldots & a_{n-1}(t)
 \end{array}\right)
 $$
 
-Das LGS hat dann die Form des [AWP 1.1](Lineare%20DGL-Systeme%201.%20Ordnung.md) und es Lassen sich dementsprechende Lösungsverfahren anwenden.
+Das LGS hat dann die Form eines [inhomogenen DGL-Systems](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) und es Lassen sich dementsprechende Lösungsverfahren anwenden.
 
 $$x'(t)=A(t)x(t)+b(t)$$
 

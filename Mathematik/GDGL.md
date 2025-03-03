@@ -21,20 +21,13 @@ def:
   - DGL
 ---
 
-# Differentialgleichungen (DGL)
+# Gewöhnliche Differentialgleichungen (DGL)
 
 ![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2021.10.45.excalidraw)
 
-> [!info] Arten von Differentialgleichungen
->
-> | gewöhnlich | partiell |
-> | - | - |
-> | Linear | Nichtlinear |
-> | homogen | inhomogen |
-> | konstaner Koeffizient | nicht-konstanter Koeffizient |
 
-> [!info] Ordnung
-> Die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) in einer DGL nennen wir deren Ordnung
+
+**Ordnung:** Die Ordnung der DGL ist durch die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) bestimmt.
 
 > [!def] **D1 - DGL)** Allgemeine Form ^DGL
 > 

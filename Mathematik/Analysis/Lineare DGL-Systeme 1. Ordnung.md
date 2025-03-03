@@ -18,7 +18,7 @@ def:
 
 # Lineare DGL-Systeme 1. Ordnung
 
-[Allgemeine DGL]({MOC}%20DGL.md): $x' = f(t,x)$
+[Allgemeine DGL](../GDGL.md): $x' = f(t,x)$
 
 hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Lösungsintervall)}\quad x \in\mathbb{R}^{m}$
 

@@ -31,7 +31,7 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 | [Mittelwertsatz der Differenzialrechnung](Analysis/Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Analysis/Mittelwertsatz der Integralrechnung]]                      |
 | [Gradient](Analysis/Gradient.md)<br>                                                      |                                                              |
 
-> [!important] 🗺️[Differenzialgleichungen]({MOC}%20DGL.md)
+> [!important] 🗺️[Differenzialgleichungen](GDGL.md)
 > ![DGL Structure](Analysis/DGL%20Overview.canvas)
 
 

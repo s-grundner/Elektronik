@@ -1,7 +1,7 @@
 # Explizite Einschrittverfahren
 
 > [!question] [Diskretisierungsverfahren](Diskretisierungsverfahren.md)
- > Mit Expliziten Einschrittverfahren werden Anfsngswertprobleme ([AWP](../{MOC}%20DGL.md#^AWP)) gelöst.
+ > Mit Expliziten Einschrittverfahren werden Anfsngswertprobleme ([AWP](../GDGL.md#^AWP)) gelöst.
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ des [Euler-Verfahrens](Euler-Verfahren.md) zu einer **Verfahrensfunktion** $\phi$. Die Verfahrensfunktion schreibt vor, wie jeder Schritt gewichtet wird.
 
@@ -63,7 +63,7 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 > 
 > Durch die **Äquidistande Diskretisierung** lässt sich der Linke Term des LDF schreiben wie:
 > 
-> $\underset{ h\to 0 }{ \lim }\dfrac{x(t +h)-x(t)}{h}\overset{ (*) }{ = }x'(t)=f(t,x(t))\quad$ $(*)\dots$ Definition der [Ableitung](Differenzialrechnung.md#^DIFQ) und $f$ wie im [AWP](../{MOC}%20DGL.md)
+> $\underset{ h\to 0 }{ \lim }\dfrac{x(t +h)-x(t)}{h}\overset{ (*) }{ = }x'(t)=f(t,x(t))\quad$ $(*)\dots$ Definition der [Ableitung](Differenzialrechnung.md#^DIFQ) und $f$ wie im [AWP](../GDGL.md)
 > 
 > Für die **Verfahrensfunktion** $\phi$ gilt:
 > 

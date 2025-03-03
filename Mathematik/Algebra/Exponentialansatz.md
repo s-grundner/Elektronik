@@ -6,7 +6,7 @@ created: 30th August 2023
 
 # Exponentialansatz
 
-Mit dem Exponentialansatz lassen sich lineare [DGL](../{MOC}%20DGL.md) berechnen.
+Mit dem Exponentialansatz lassen sich lineare [DGL](../GDGL.md) berechnen.
 
 Da die $e$-Funktion abgeleitet wieder sich selbst ergibt, ist es möglich für die [Ableitung](../Analysis/Differenzialrechnung.md) in einer Differentialgleichung dieses Funktion einzusetzen und lediglich die Faktoren zu bestimmen.  
 

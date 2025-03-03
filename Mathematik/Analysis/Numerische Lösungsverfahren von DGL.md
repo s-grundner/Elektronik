@@ -29,7 +29,7 @@ satz:
 ## Analytische Verfahren
 
 - Aus dem Satz von Lindelöf: [Sukzessive Approximation](sukzessive%20Approximation.md).
-- Falls die Funktion $f$ in der der [AWP](../{MOC}%20DGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
+- Falls die Funktion $f$ in der der [AWP](../GDGL.md) höher differenzierbar ist, kann man auch mit Hilfe der Taylorentwicklung weitere Näherungsverfahren herleiten.
 
 ## Numerische Verfahren
 

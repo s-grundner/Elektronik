@@ -13,7 +13,7 @@ subject:
 
 # Schwingungen
 
-> [!info] Zusammenhang mit [Differentialgleichungen](../Mathematik/{MOC}%20DGL.md)  
+> [!info] Zusammenhang mit [Differentialgleichungen](../Mathematik/GDGL.md)  
 > Jede Schwingung besteht aus einem *Einschwingvorgang* und einem *eingeschwungenen Zustand*.  
 > Auf beide dieser Zustände kann mithilfe von Differentialgleichungen zurück gerechnet werden.
 

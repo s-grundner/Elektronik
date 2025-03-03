@@ -34,7 +34,7 @@ $\dot{x}=f(t,x)$ leifert eine Lösung sofern $f$ stetig ist
 > 
 > $$ Q_{u, v}:=\{(t, x) \in \mathbb{R}^{m+1}: t \in[\underbrace{ t_0, t_0+u }_{ (1) }],\left\|x-x_0\right\| \leq v\} \subset D $$
 > 
-> Dann besitzt das [AWP]({MOC}%20DGL.md) eine Lösung im Intervall $\left[t_0, t_0+\alpha\right]$, wobei
+> Dann besitzt das [AWP](../GDGL.md) eine Lösung im Intervall $\left[t_0, t_0+\alpha\right]$, wobei
 > 
 > $$ \alpha:=\min \left\{u, \frac{v}{M}\right\}, \quad M:=\max _{(t, x) \in Q_{u, v}}\|f(t, x)\| $$
 > 
