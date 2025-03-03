@@ -101,6 +101,12 @@
   transition: opacity 0.2s linear;
 }
 
+:root {
+  --catppuccin-maroon: hsl(355deg, 71%, 77%);
+  --catppuccin-blue: hsl(220deg, 83%, 75%);
+  --catppuccin-mauve: hsl(267deg, 83%, 80%);
+}
+
 [data-group="d"]:focus,
 [data-group="d"]:hover {
   color: hsl(333, 90%, 55%);
@@ -108,17 +114,17 @@
 
 [data-group="h"]:focus,
 [data-group="h"]:hover {
-  color: hsl(33, 90%, 55%);
+  color: var(--catppuccin-maroon);
 }
 
 [data-group="m"]:focus,
 [data-group="m"]:hover {
-  color: hsl(213, 90%, 55%);
+  color: var(--catppuccin-blue);
 }
 
 [data-group="s"]:focus,
 [data-group="s"]:hover {
-  color: hsl(273, 90%, 55%);
+  color: var(--catppuccin-mauve);
 }
 
 [data-group]:focus~.progress-clock__rings [data-units],
