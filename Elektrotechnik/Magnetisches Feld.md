@@ -7,10 +7,12 @@ keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
-semester: WS23
+  - Elektrische Maschinen und Antriebselektronik
+semester: SS25
 created: 31. August 2023
 professor:
   - Bernhard Jakoby
+  - Wolfgang Gruber
 ---
  
 
@@ -39,11 +41,13 @@ $\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabi
 
 Anstelle der lokalen Feldstärke B beschreibt man das Feld auch gerne durch einen so genannten magnetischen Fluss $\Phi$, der eine bestimmte Fläche (z.B. die Querschnittsfläche eines Stabmagneten) durchsetzt.
 
-> [!question]- Vergleich zur Stromstärke und Stromdichte:
+> [!question]- Vergleich zur Stromstärke und Stromdichte: **Magnetische Flüsse** $\iff$ **Elektrische Ströme**
 >  Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom $I$ und elektrischer Stromdichte $J$
 >  (obwohl im Magnetfeld nichts fließt)
 
 $$\Phi = \int_{A}\vec{B} \cdot d\vec{A} \qquad [\Phi] = Vs = Wb\dots \text{Weber}$$
+
+
 
 ![invert_dark](assets/FeldSpule.png)
 
@@ -51,37 +55,36 @@ Durch die Geometrie der Wicklung der Spule wird ein Magnetfeld erzeugt, das äqu
 
 $$\Psi = N\cdot\Phi$$
 
-## Induktionsphänomene
+## Materialgesetz
 
-Induktionsphänomene kamen bisher nicht vor, weil wir und nicht um Zeit Abhängigkeiten des Feldes gekümmert haben. Diese Phänomene treten nämlich nur in *Wechselfeldern* auf.
+Magnetische Leitfähigkeit permeabilität:
 
-### Ruheinduktion
+eine Gut magnetisch Leitfähiges material möchte in einem Magnetfeld den Luftspalt minimieren.
 
-Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, dass geschlossene elektrische Feldlinien auftauchen!
-
-> [!info] Ein sich zeitliches wechselndes Magnetfeld wird von einem elektrischen Feld *linkswendig* umwirbelt.
-> Es wird also nicht durch Ladungen erzeugt, sondern durch die Änderung des magnetischen Feldes. (Warum wissen wir nicht -> Naturgesetz) Am naheliegendsten ist die Lenz'sche Regel
-
-Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht ein [Potenzialdifferenz](elektrische%20Spannung.md).
+z.B: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
 
 
-![invert_dark](assets/Wechselfelder.png)
+ferromagnetisch: $\mu_{r} \gg$ 
+diamagnetisch: $\mu_{r}<$  (material stoßt sich vom Magnetfeld leicht ab)
 
-es ergibt sich die *induzierte* Spannung:
+### Magnetische Sättigung
 
-$$u_{ind}=\frac{d\Phi}{dt}$$
+Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisiert
 
-> [!hint] [Maxwell](Maxwell.md)-Gleichung 
-> Diese Wirbelfelder werden durch das Faraday'sche Gesetz beschrieben:
-> $$\oint_{\partial A} \vec{E} \cdot d \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \cdot d \vec{a}$$
-> In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds. Die Fläche ä$A$ ist jene die der Leiter Aufspannt und die Kontur $\partial A$ der leiter selbst.
-> 
-> Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$
-> Also dass die Spannung an den Klemmen 0 ist.
+- Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
-### Bewegungsinduktion
+### Magnetische Quellen
 
-![invert_dark](assets/BewegterLeiter.png)
+> [!hint] Es gibt keine Magnetischen Monopole $\iff$ [4. Maxwell Gleichung](Maxwell.md#^MW4)
+
+**Permanentmagneten**
+
+
+
+**Elektromagneten**
+
+
+
 
 # Flashcards
 
