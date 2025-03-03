@@ -19,6 +19,7 @@ professor:
 done:
 ects: <%* tR += ects %>
 grade:
+list: true
 ---
 
 # <center> <%* tR += lva %> </center>
@@ -37,5 +38,7 @@ grade:
 ## <%* tR += tp.user.get_lva().type_string(typ) %>
 
 ```dataviewjs
-await dv.view("10_tools/dataviewjs/lva_query", {subjectFilter: "<%* tR += lva %>", subjectType: "<%* tR += typ %>"});
+if(dv.current().list) {
+    await dv.view("10_tools/dataviewjs/lva_query", {subjectFilter: "<%* tR += lva %>", subjectType: "<%* tR += typ %>"});
+}
 ```

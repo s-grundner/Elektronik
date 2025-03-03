@@ -54,6 +54,7 @@
     "grade": "number",
     "chapter": "number",
     "banner_y": "number",
-    "draft": "checkbox"
+    "draft": "checkbox",
+    "list": "checkbox"
   }
 }
