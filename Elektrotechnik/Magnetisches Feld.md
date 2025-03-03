@@ -1,4 +1,6 @@
 ---
+banner: "/assets/banner/magnbanner.webp"
+banner_y: 0.704
 tags: 
 aliases:
   - Magnetfeld
@@ -15,8 +17,6 @@ professor:
   - Wolfgang Gruber
 draft: 
 title: Das Magnetische Feld
-banner: /assets/banner/magnbanner.webp
-banner_y: 0.704
 ---
  
 
@@ -33,7 +33,8 @@ banner_y: 0.704
 > Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. 
 > Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
 >
-> ![](assets/Magnetisches%20Feld%202025-03-04%2000.22.16.excalidraw)
+> ![200](assets/Magnetisches%20Feld%202025-03-04%2000.22.16.excalidraw)
+
 
 Der Betrag des magnetischen Flusses $\vec{B}$ im Abstand 𝑟 der Leiterachse ist gegeben durch.
 
@@ -104,7 +105,7 @@ Durch die Analogie mit dem Elektrischen Strom gilt hier auch die Knotenregel. Ge
 
 > [!question] [1. Maxwellgleichung](Maxwell.md#^MW1)
 
-Zusammenhang mit der Windungszahl einer Induktivität: Dir Durchflutung $\Theta$ ist:
+Zusammenhang mit der Windungszahl einer Induktivität: Die Durchflutung $\Theta$ ist:
 
 $$
 \oint_{ \delta A}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \int_{A}\mathbf{J}\cdot\mathrm{d}\mathbf{A} = \Theta = \sum_{v=1}^{N}i_{v}

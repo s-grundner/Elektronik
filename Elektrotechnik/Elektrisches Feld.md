@@ -18,7 +18,7 @@ semester: WS23
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
-banner_y: "0.3"
+banner_y: 0.756
 ---
 
 # Elektrisches Feld
@@ -53,7 +53,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 ## Statisches [E-Feld](elektrisches%20Feld.md) $\iff$ Gravitationsfeld
 
-|                Gravitationskraft                 | [Coulomb-Kraft](Coulomb-Kraft.md) / [Coulomb-Kraft](Coulomb-Kraft.md) |
+|                Gravitationskraft                 | [Coulomb-Kraft](Coulomb-Kraft.md) |
 | :----------------------------------------------: | :-----------------------------------------------------------------------------------: |
 |            $\vec{F} = m\cdot \vec{g}$            |                              $\vec{F} = q \cdot \vec{E}$                              |
 | $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ |          $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$          |
