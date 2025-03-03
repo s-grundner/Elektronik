@@ -152,13 +152,16 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ## Materialgleichungen
 
-$$
-\begin{align}
-\mathbf{B} & =\mu \mathbf{H} \tag{M1}\\
-\mathbf{D} & =\varepsilon \mathbf{E} \tag{M2} \\
-\mathbf{J} & =\sigma \mathbf{E} \tag{M3}
-\end{align}
-$$
+
+> [!satz] **S5 - MATG)** Materialgesetze ^MATG
+> 
+> $$
+> \begin{align}
+> \mathbf{B} & =\mu \mathbf{H} \tag{M1}\\
+> \mathbf{D} & =\varepsilon \mathbf{E} \tag{M2} \\
+> \mathbf{J} & =\sigma \mathbf{E} \tag{M3}
+> \end{align}
+> $$
 
 **Linearität:** Ein Material ist linear, wenn die Materialeigenschaften $\varepsilon_{\mathrm{r}}, \mu_{\mathrm{r}}$ und $\sigma$ unabhängig von den elektromagnetischen Feldgrößen sind, die im Material auftreten. Beispiel: Die relative Dielektrizitätszahl ändert sich nicht, wenn die das Material durchsetzende elektrische Feldstärke kleiner oder größer wird.
 

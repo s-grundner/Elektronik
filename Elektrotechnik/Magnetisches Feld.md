@@ -57,6 +57,9 @@ $$\Psi = N\cdot\Phi$$
 
 ## Materialgesetz
 
+> [!question] [Materialgesetze nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
+> $$\mathbf{B}= \mu \mathbf{H}$$
+
 Magnetische Leitfähigkeit permeabilität:
 
 eine Gut magnetisch Leitfähiges material möchte in einem Magnetfeld den Luftspalt minimieren.
@@ -83,8 +86,17 @@ Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisier
 
 **Elektromagneten**
 
+### Durchflutungsgesetz
 
+> [!question] [1. Maxwellgleichung](Maxwell.md#^MW1)
 
+Zusammenhang mit der Windungszahl einer Induktivität: Dir Durchflutung $\Theta$ ist:
+
+$$
+\oint_{ \delta A}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \int_{A}\mathbf{J}\cdot\mathrm{d}\mathbf{A} = \Theta = \sum_{v=1}^{N}i_{v}
+$$
+
+Bei einer einfachen Spule: $\Theta = N\cdot i$
 
 # Flashcards
 
