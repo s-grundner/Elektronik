@@ -16,16 +16,16 @@ subject:
 semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
+list: true
 done:
 ects: <%* tR += ects %>
 grade:
-list: true
 ---
 
 # <center> <%* tR += lva %> </center>
 
 > [!info] **Klausuren** ✒️
-> - (exam:: )
+> 
 
 <%* tp.file.rename(tp.user.get_lva().note_name(lva, typ)) _%> 
 

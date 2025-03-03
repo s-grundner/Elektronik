@@ -1,4 +1,4 @@
-<%* const sem = "WS24" _%>
+<%* const sem = "SS25" _%>
 
 ---
 tags: 
