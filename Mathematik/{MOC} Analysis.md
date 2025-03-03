@@ -31,10 +31,9 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 | [Mittelwertsatz der Differenzialrechnung](Analysis/Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Analysis/Mittelwertsatz der Integralrechnung]]                      |
 | [Gradient](Analysis/Gradient.md)<br>                                                      |                                                              |
 
-> [!important] 🗺️[Differenzialgleichungen](GDGL.md)
-> ![DGL Structure](Analysis/DGL%20Overview.canvas)
+## Differentialgleichungen
 
-
+![1000](assets/{MOC}%20Analysis%202025-03-03%2015.37.16.excalidraw.md)
  
 
 [^1]: Beliebig Kleinen

@@ -32,6 +32,9 @@ $$
 X^{\prime}(t)=A(t) X(t)
 $$
 
+
+
+
 > [!def] **D2 - MATZ)** Definition des Martizant
 > Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Matrizant**, bezeichnet mit $X_{t_0}$.
 > 
