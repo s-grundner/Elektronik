@@ -79,7 +79,7 @@ $$\Downarrow$$
 $$\Downarrow$$
 
 
- > [!summary] **[Maximumnorm](../Maximumsnorm.md)**
+ > [!summary] **[Maximumnorm](Maximumsnorm.md)**
 > 
 > $$
 > \|\mathbf{x}\|_{\infty}=\sup \left\{\left|x_1\right|,\left|x_2\right|, \ldots,\left|x_n\right|\right\}

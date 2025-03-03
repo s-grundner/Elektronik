@@ -65,7 +65,7 @@ Anschließend Terme zusammenfassen: $\left( \int f_{1} \, dx \right)\,\cup\left(
 
 ## Sätze und Folgerungen
 
-- [Wegunabhängig](Wegunabhängig.md)
+- [Wegunabhängig](Vektoranalysis/Wegunabhängig.md)
 
 ---
 

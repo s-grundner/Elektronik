@@ -65,7 +65,7 @@ $$
 
 $$y(x) =x^{2}+4x+10 = (a) + (b) + (c)$$
 
-[Polynom](Polynom.md) Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer [Potenz](Potenzen.md) sortiert:
+[Polynom](Polynom.md) Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer [Potenz](../Algebra/Potenzen.md) sortiert:
 
 $$
 \begin{align}
@@ -75,7 +75,7 @@ $$
 \end{align}
 $$
 
-da jeder Faktor vor einer [Potenz](Potenzen.md) in einer Polynomgleichung übereinstimmen muss, lässt sich ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) aufstellen.
+da jeder Faktor vor einer [Potenz](../Algebra/Potenzen.md) in einer Polynomgleichung übereinstimmen muss, lässt sich ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) aufstellen.
 
 $$
 \begin{align}

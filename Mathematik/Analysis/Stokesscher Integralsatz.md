@@ -34,7 +34,7 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 
 Ungekrümmte Flächen können stark vereinfacht werden mit dem Satz von Green.
 
-Die Erweiterung des Stokesschen Integralsatz auf geschlossene Flächen in einem Volumen ist der [Gaußsche Integralsatz](Analysis/Gaußscher%20Integralsatz.md).
+Die Erweiterung des Stokesschen Integralsatz auf geschlossene Flächen in einem Volumen ist der [Gaußsche Integralsatz](Vektoranalysis/Gaußscher%20Integralsatz.md).
 
 ## Erläuterung
 

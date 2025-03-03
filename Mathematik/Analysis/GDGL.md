@@ -23,7 +23,7 @@ def:
 
 # Gewöhnliche Differentialgleichungen (DGL)
 
-![](../assets/Excalidraw/%7BMOC%7D%20DGL%202025-02-21%2021.10.45.excalidraw)
+![](../../assets/Excalidraw/{MOC}%20DGL%202025-02-21%2021.10.45.excalidraw.md)
 
 
 
@@ -80,7 +80,7 @@ Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich
 | **Stabil**                                                                                                                                     | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>Stabil & Attrahierend                                                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
-| ![](../assets/Excalidraw/DGL-Stabil.md)                                                                                                        | ![](../assets/Excalidraw/DGL-Attr.md)                                                                                   | ![](../assets/Excalidraw/DGL-AsympStabil.md)                                                            |
+| ![](../../assets/Excalidraw/DGL-Stabil.md)                                                                                                        | ![](../../assets/Excalidraw/DGL-Attr.md)                                                                                   | ![](../../assets/Excalidraw/DGL-AsympStabil.md)                                                            |
 
 ## Lösungsmethoden von DGL
 
@@ -88,7 +88,7 @@ Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich
     - Trennen der Variablen
     - Fundamentalmatrix
     - Variation der Konstanten
-- [Laplacetransformation](../Systemtheorie/Laplacetransformation.md)
+- [Laplacetransformation](../../Systemtheorie/Laplacetransformation.md)
 - [Analytische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Analytische%20Verfahren)
 - [Numerische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Numerische%20Verfahren)
 

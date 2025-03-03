@@ -33,7 +33,7 @@ $$
 \|\mathbf{x}\|_2=\|x(t)\|_2=\sqrt{\int_a^b|x(t)|^2 \mathrm{~d} t}
 $$
 
-- $L_{\infty}$-Norm, ist die [Maximumnorm](../Mathematik/Maximumsnorm.md)
+- $L_{\infty}$-Norm, ist die [Maximumnorm](../Mathematik/Algebra/Maximumsnorm.md)
 
 $$
 \|\mathbf{x}\|_{\infty}=\|x(t)\|_{\infty}=\underset{a \leq t \leq b}{\operatorname{ess} \sup }|x(t)|

@@ -109,7 +109,7 @@ Die Diffusion von Elektronen beschreibt das Phänomen, dass aufgrund der vorhand
 Äquivalent dazu ist, wie ein Gas den gesamten ihm zur Verfügung stehenden Platz einnimmt d.h in den zu ihm benachbarten Platz strömt. Dieser Strom wird umsostärker je größer der Druck bzw die Konzentration des Gases ist.
 
 > [!info] Der sogenannte **Diffusionstrom** ist proportional zu dem *Gefälle der Ladungskonzentration*
-> Also dem negativen [Gradienten](../Mathematik/Analysis/Gradient.md). Die untenstehenden Gleichungen sind in eindimensionaler Schreibweise mit der Ortskoordinaten $x$
+> Also dem negativen [Gradienten](../Mathematik/Analysis/Vektoranalysis/Gradient.md). Die untenstehenden Gleichungen sind in eindimensionaler Schreibweise mit der Ortskoordinaten $x$
 
 $$
 j_{\text{Diff,n}} = +eD_{n}\frac{\mathrm{d}n}{\mathrm{d}x} \qquad

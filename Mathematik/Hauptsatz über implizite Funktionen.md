@@ -30,7 +30,7 @@ u(x,y)\\ v(x,y)
 \end{bmatrix}
 $$
 
-[[Analysis/Gradient|Jacobi-Matrix]]:
+[[Analysis/Vektoranalysis/Gradient|Jacobi-Matrix]]:
 $$
 \begin{align}
 \frac{\partial F}{\partial u, v} &= \begin{bmatrix}

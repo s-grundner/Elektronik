@@ -27,7 +27,7 @@ professor:
 - $f$ muss auf $D$ definiert werden: $f:\mathbb{D}\to \mathbb{R}^m$
 - Lösung existiert auf $[t_{0},t_{0}+x]$
 
-> [!question] Der Ausdruck $x(t;t_{0}, x_{0})$ bedeutet: (Siehe [AWP](../GDGL.md))
+> [!question] Der Ausdruck $x(t;t_{0}, x_{0})$ bedeutet: (Siehe [AWP](GDGL.md))
 > $x(t)$ mit den anfangswerten $x(t_{0})=x_{0}$ ($x_{0}$ und $t_{0}$ können auch Vektoren sein)
 
 > [!info] Die **Übertragungsmatrix** (allg. Jacobimatrix) ist ein Maß zur Güte der Fehlerfortpflanzung.

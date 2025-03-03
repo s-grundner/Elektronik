@@ -29,7 +29,7 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 
 
 > [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
-> Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](../GDGL.md))
+> Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](GDGL.md))
 
 | ![invert_dark](assets/Differenzial1.png) | ![invert_dark](assets/Differenzial2.png) |
 | ---------------------------------------- | ---------------------------------------- |

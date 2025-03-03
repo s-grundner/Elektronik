@@ -47,7 +47,7 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 |                                                               |                                                                 |
 | :------------------------------------------------------------ | :-------------------------------------------------------------- |
-| ![](../Mathematik/Analysis/Gaußscher%20Integralsatz.md#^GAUI) | ![](../Mathematik/Analysis/Stokesscher%20Integralsatz.md#^STOI) |
+| ![](../Mathematik/Analysis/Vektoranalysis/Gaußscher%20Integralsatz.md#^GAUI) | ![](../Mathematik/Analysis/Stokesscher%20Integralsatz.md#^STOI) |
 
 ### 1. MWG - Durchflutungssatz
 
@@ -175,9 +175,9 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ## Mathematische Grundbegriffe
 
-- [Nabla Operator](../Mathematik/Analysis/Nabla%20Operator.md): $\nabla$
+- [Nabla Operator](../Mathematik/Analysis/Vektoranalysis/Nabla%20Operator.md): $\nabla$
 
-| [Gradient](../Mathematik/Analysis/Gradient.md)         | [Divergenz](../Mathematik/Analysis/Divergenz.md)                | [Rotation](Rotor.md)                                              |
+| [Gradient](../Mathematik/Analysis/Vektoranalysis/Gradient.md)         | [Divergenz](../Mathematik/Analysis/Vektoranalysis/Divergenz.md)                | [Rotation](../Mathematik/Analysis/Vektoranalysis/Rotor.md)                                              |
 | :------------------------------------------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
 | $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$ | $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$ | $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$ |
 

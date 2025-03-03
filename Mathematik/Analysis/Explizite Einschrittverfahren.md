@@ -1,7 +1,7 @@
 # Explizite Einschrittverfahren
 
 > [!question] [Diskretisierungsverfahren](Diskretisierungsverfahren.md)
- > Mit Expliziten Einschrittverfahren werden Anfsngswertprobleme ([AWP](../GDGL.md#^AWP)) gelöst.
+ > Mit Expliziten Einschrittverfahren werden Anfsngswertprobleme ([AWP](GDGL.md#^AWP)) gelöst.
 
 Das sogenannte **expliziten Einschrittverfahren** verallgemeinert die Funktion $f(t_{k-1}, x_{k-1})$ des [Euler-Verfahrens](Euler-Verfahren.md) zu einer **Verfahrensfunktion** $\phi$. Die Verfahrensfunktion schreibt vor, wie jeder Schritt gewichtet wird.
 
@@ -40,7 +40,7 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 > 
 > > [!info]- Erläuterung
 > > 1. Der lokale Diskretisierungsfehler ist die Differenz zwischen der exakten Lösung und der Näherungslösung des ESV.
-> > 2. Die Konsistenz ist gegeben wenn der größte Diskretisierungsfehler ([Maximumnorm](../Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren, wenn die Schrittweite $h$ gegen $0$ [konvergiert](Grenzwert.md). Das heißt dass die das Verfahren gegen die Exakte Lösung konvergiert.
+> > 2. Die Konsistenz ist gegeben wenn der größte Diskretisierungsfehler ([Maximumnorm](../Algebra/Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren, wenn die Schrittweite $h$ gegen $0$ [konvergiert](Grenzwert.md). Das heißt dass die das Verfahren gegen die Exakte Lösung konvergiert.
 > > 3. Ist der Größte Fehler ist von der Ordnung $O(h^q)$ Dann heißt $q$ Konvergenzordnung.
 > > Die Konsistenzordnung ist ein maß, wie schnell der Diskretisierungsfehler gegen 0 konvergiert,
 > > falls das ESV konsistent ist. (Konvergenzgeschwindigkeit)
@@ -56,14 +56,14 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 > > Je höher das $q$ ist, desto schneller Konvergiert der Fehler gegen 0.
 > > $$\iff \lim_{ h \to 0 }\operatorname{sup} \frac{\lVert \tau \rVert_{\infty}}{h^{q}}<\infty  $$
 > > $\lVert \tau \rVert_{\infty}$ fällt nicht schwächer ab als $h^{q}$ für $h \to 0$.
-> > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[Maximumsnorm](../Maximumsnorm.md)
+> > $\lVert \cdot \rVert_{\infty}\iff \underset{ 1\leq k\leq N }{ \max }\lVert \cdot \rVert$: Ist die[Maximumsnorm](../Algebra/Maximumsnorm.md)
 
 
 > [!question] Was passiert, wenn beim **LDF** $h\to 0$ geht? 
 > 
 > Durch die **Äquidistande Diskretisierung** lässt sich der Linke Term des LDF schreiben wie:
 > 
-> $\underset{ h\to 0 }{ \lim }\dfrac{x(t +h)-x(t)}{h}\overset{ (*) }{ = }x'(t)=f(t,x(t))\quad$ $(*)\dots$ Definition der [Ableitung](Differenzialrechnung.md#^DIFQ) und $f$ wie im [AWP](../GDGL.md)
+> $\underset{ h\to 0 }{ \lim }\dfrac{x(t +h)-x(t)}{h}\overset{ (*) }{ = }x'(t)=f(t,x(t))\quad$ $(*)\dots$ Definition der [Ableitung](Differenzialrechnung.md#^DIFQ) und $f$ wie im [AWP](GDGL.md)
 > 
 > Für die **Verfahrensfunktion** $\phi$ gilt:
 > 

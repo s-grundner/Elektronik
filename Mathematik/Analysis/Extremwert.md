@@ -36,7 +36,7 @@ Es gilt dass $f$ zwei mal Differnzierbar sein muss ($f\in C^{2}$)
 > $$\operatorname{grad} f\left(x_0\right)=0$$
 > Falls die Hessematrix $H_f\left(x_0\right)$ von $f$ an der Stelle $x_0$ *==positiv==* (**==negativ==**) definit ist, dann ist $x_0$ Stelle eines lokalen *==Minimums==* (**==Maximums==**) von $f$.
 > - [Definitheit](../Algebra/Definitheit.md) der Hessenmatrix
-> - [Gradient](Gradient.md)
+> - [Gradient](Vektoranalysis/Gradient.md)
 
 ![900](assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
 

@@ -19,7 +19,7 @@ satz:
 
 # Wegunabhängigkeit
 
-Ein Gradientenfeld oder konservatives Feld ist ein [Vektorfeld](../../Elektrotechnik/Vektorfeld.md), das aus einem Skalarfeld durch Differentiation nach dem Ort abgeleitet wurde. Dieses Vektorfeld hat die Eigenschaft, dass sein Kurvenintegral wegunabhängig ist.
+Ein Gradientenfeld oder konservatives Feld ist ein [Vektorfeld](Vektorfeld.md), das aus einem Skalarfeld durch Differentiation nach dem Ort abgeleitet wurde. Dieses Vektorfeld hat die Eigenschaft, dass sein Kurvenintegral wegunabhängig ist.
 
 ## Gradientensatz
 
@@ -30,7 +30,7 @@ Der Gradientensatz ist die Erweiterung des [Hauptsatzes der Infinitesimalrechnun
 > $$
 > \int_\gamma \nabla \varphi(\mathbf{r}) \cdot \mathrm{d} \mathbf{r}=\varphi(\mathbf{q})-\varphi(\mathbf{p})
 > $$
-> $\varphi$ ist also ein Skalarfeld mit dem Zugehörigen [Gradient](Gradient.md)-Vektorfeld $\nabla \varphi$.
+> $\varphi$ ist also ein Skalarfeld mit dem Zugehörigen [Gradient](Vektoranalysis/Gradient.md)-Vektorfeld $\nabla \varphi$.
 > 
 
-> [!hint] In einem beliebigen konservativen [Kraftfeld](../../Physik/{MOC}%20Kräfte.md) ist $\varphi$ ein *Potenzial*.
+> [!hint] In einem beliebigen konservativen [Kraftfeld](../../../Physik/{MOC}%20Kräfte.md) ist $\varphi$ ein *Potenzial*.

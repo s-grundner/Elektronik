@@ -35,7 +35,7 @@ $$
 
 ## Beispiel in Wolfram Mathematica
 
-Probieren Sie in einem ersten Schritt aus, wie eine [Matrix](Matrix.md) `B` aussehen muss, damit in Ihrer [Matrix](Matrix.md) `A` nach Ausführung der [Matrixmultiplikation](../Matrixmultiplikation.md) `B.A` zweiter und dritter Zeilenvektor vertauscht sind.
+Probieren Sie in einem ersten Schritt aus, wie eine [Matrix](Matrix.md) `B` aussehen muss, damit in Ihrer [Matrix](Matrix.md) `A` nach Ausführung der [Matrixmultiplikation](Matrixmultiplikation.md) `B.A` zweiter und dritter Zeilenvektor vertauscht sind.
 
 ``` mathematica
 Clear[A]

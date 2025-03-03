@@ -46,7 +46,7 @@ tags:
 > [!EXAMPLE] $\langle \frac{n}{2n+1}; n \in \mathbb{N}\rangle \qquad g = ?$  
 > $\langle 0; \frac{1}{3}; \frac{2}{5}; \frac{3}{7}; \frac{4}{9}; \dots \frac{1000}{2001} \dots \rangle$
 > 
-> *Trick: jeden Summanden durch die höchste [Potenz](Potenzen.md) von $n$ dividieren*
+> *Trick: jeden Summanden durch die höchste [Potenz](../Algebra/Potenzen.md) von $n$ dividieren*
 >
 > $\lim_{ n \to \infty } \dfrac{n}{2n+1} = \lim_{ n \to \infty } \dfrac{\frac{n}{n}}{\frac{2n}{n}+\underset{\to 0}{\frac{1}{n} }} = \lim_{ n \to \infty } \dfrac{1}{2+0} =\dfrac{1}{2}$
 

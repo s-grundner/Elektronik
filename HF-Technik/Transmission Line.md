@@ -109,7 +109,7 @@ $$
 ### Leitungsabschluss
 
 Solange die Welle entlang der Leitung nur $Z_{0}$ sieht, wandert diese ungestört weiter.
-Wie im [Schaltbild](#^TL-CIRC) einer Leitung zu sehen gibt es jedoch eine Last $Z_{L}$ bzw einen *Abschluss* der Leitung. Je nachdem, wie dieser Abschluss gewählt wird, hat diese Auswirkungen auf die Welle. Die Lösung der Wellengleichung am Abschluss wird von der Abschlussimpedanz **erzwingt** ([Randwert](../Mathematik/Randwertprobleme.md)).
+Wie im [Schaltbild](#^TL-CIRC) einer Leitung zu sehen gibt es jedoch eine Last $Z_{L}$ bzw einen *Abschluss* der Leitung. Je nachdem, wie dieser Abschluss gewählt wird, hat diese Auswirkungen auf die Welle. Die Lösung der Wellengleichung am Abschluss wird von der Abschlussimpedanz **erzwingt** ([Randwert](../Mathematik/Analysis/Randwertprobleme.md)).
 
 $$\underline{Z}_{L} = \frac{\underline{ U }_{\text{last}}}{\underline{ I }_{\text{last}}}= \frac{\underline{ U }_{h}+\underline{ U }_{r}}{\underline{ I }_{h}-\underline{ I }_{r}}\tag{ZL}$$
 ^ZL

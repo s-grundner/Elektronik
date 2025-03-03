@@ -24,7 +24,7 @@ Reales Populationswachstum ist nicht Aufgrund von Sterberaten nicht Exponenziell
 >$K$: Maximalbevölkerung
 >$P_{0}$: Startpopulation
 
-Die Lösung dieser [DGL](../GDGL.md) ist:
+Die Lösung dieser [DGL](../Analysis/GDGL.md) ist:
 
 $$
 P(t)=\frac{K}{1+\left( \frac{K}{P_{0}}-1 \right)e^{ -\lambda \cdot K\cdot t }}

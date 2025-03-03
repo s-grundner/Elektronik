@@ -18,7 +18,7 @@ professor:
 
 # Randwertproblem (RWP)
 
-Ein Randwertproblem (RWP) ist ein Problem, bei dem eine [Differenzialgleichungen](GDGL.md) zusammen mit Randbedingungen gegeben ist.
+Ein Randwertproblem (RWP) ist ein Problem, bei dem eine [Differenzialgleichungen](Analysis/GDGL.md) zusammen mit Randbedingungen gegeben ist.
 
 > [!important] Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
 > $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
@@ -117,7 +117,7 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 
 > [!example] Fortsetzung des Beispiels einer Schwingenden Saite:
 > Wir schreiben nun die **partielle** Differentialgleichung für die Schwingung einer Saite auf: 
-> die **[Wellengleichung](Wellengleichung.md)**
+> die **[Wellengleichung](Analysis/Wellengleichung.md)**
 > partiell da $u(x,t)$ von zwei sich ändernenden Variablen abhängt.
 > 
 > $$

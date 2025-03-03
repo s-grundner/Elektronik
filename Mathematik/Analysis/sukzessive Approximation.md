@@ -14,7 +14,7 @@ professor:
 
 # Sukzessive Approximation
 
-> [!important] Es wird ein [AWP](../GDGL.md)  $\dot{x} = f(t,x)\quad x(t_{0})=x_{0}$ betrachtet.
+> [!important] Es wird ein [AWP](GDGL.md)  $\dot{x} = f(t,x)\quad x(t_{0})=x_{0}$ betrachtet.
 > 
 > 1. Die Differentialgleichung wird in ein Integral umgewandelt:
 > $$\int _{t_{0}}^{t}\dot{x}(s) \, ds =\int_{t_{0}}^{t} f(s,x(s)) \, ds$$
@@ -27,7 +27,7 @@ professor:
 > \end{align}
 > $$
 > 
-> 3. Die Lösung $x$ des [AWP](../GDGL.md) wird [analytisch](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md) mit der Funktionenfolge $\varphi_{n}$ approximiert:
+> 3. Die Lösung $x$ des [AWP](GDGL.md) wird [analytisch](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md) mit der Funktionenfolge $\varphi_{n}$ approximiert:
 > 
 > $$\boxed{ \varphi_{0}(t) := x_{0}, \quad\varphi_{n}(t):= (A\cdot\varphi_{n-1})(t) }$$
 
@@ -36,7 +36,7 @@ professor:
 
 
 
-Für eine Lösung $x$ von dem [AWP](../GDGL.md) bzw einen Fixpunkt $x$ von $A$ gilt nach [Lindelöf](Picard-Lindelöf.md):
+Für eine Lösung $x$ von dem [AWP](GDGL.md) bzw einen Fixpunkt $x$ von $A$ gilt nach [Lindelöf](Picard-Lindelöf.md):
 
 $$
 \boxed{ \lVert \varphi_{n}(t)-x(t) \rVert \leq \underbrace{ M \cdot L^{n} \cdot \frac{\alpha^{n+1}}{(n+1)!} }_{ \to 0 \text{ mit } n\to \infty \quad(1)} \quad \text{für alle}\quad t\in[t_{0}-\alpha,t_{0}+\alpha] }

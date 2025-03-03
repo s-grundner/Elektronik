@@ -41,7 +41,7 @@ professor:
 > $f \in C^1\left(A, \mathbb{R}^m\right) \Longrightarrow f$ Fréchet-differenzierbar $\Longrightarrow$ alle partiellen Ableitungen von $f$ existieren;
 > es gilt keine der möglichen Umkehrungen.
 > 
-> > [!tldr] Die Fréchetableitung ist, falls sie existiert, durch die [Jacobi-Matrix](Gradient.md) gegeben
+> > [!tldr] Die Fréchetableitung ist, falls sie existiert, durch die [Jacobi-Matrix](Vektoranalysis/Gradient.md) gegeben
 >
 
 ## Fréchet Differenzierbarkeit
@@ -54,7 +54,7 @@ Wir untersuchen den Zusammenhang zwischen [partieller](Partielle%20Ableitung.md)
 > \forall 1 \leq i \leq m, 1 \leq j \leq n: \frac{\partial f_i}{\partial x_j}(x) \text { existiert und } \frac{\partial f_i}{\partial x_j}(x)=f^{\prime}(x)_{i j}
 > $$
 
-Nach diesem Satz lässt sich die Fréchet-Ableitung durch die [Jacobi-Matrix](Gradient.md) ausdrücken.
+Nach diesem Satz lässt sich die Fréchet-Ableitung durch die [Jacobi-Matrix](Vektoranalysis/Gradient.md) ausdrücken.
 
 > [!success]- Beweis von Satz 11.8
 > 

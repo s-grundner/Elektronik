@@ -27,7 +27,7 @@ professor:
 >     - in allen achsen xyz $\to$ Freiraumausbreitung
 > - In unterschiedlichen Substraten / Dielektrika wandert das Signal unterschiedlich schnell
 
-> [!warning] Variation des Signals über Ort und Zeit - [**Welle** ](../Mathematik/Wellengleichung.md)
+> [!warning] Variation des Signals über Ort und Zeit - [**Welle** ](../Mathematik/Analysis/Wellengleichung.md)
 >![invert_dark|1000](assets/RF-sign.svg)
 
 ## Frequenz vs. Leitungslänge

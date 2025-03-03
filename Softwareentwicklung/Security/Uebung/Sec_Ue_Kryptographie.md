@@ -319,7 +319,7 @@ Um Daten zwischen 2 Kommunikationsteilnehmern sicher (verschlüsselt) austausche
 
 - Ein solches **Schlüsselvereinbarungsprotokoll** geht auf Whitfield **Diffie** und Martin **Hellman** zurück. 
 
-- Ein **Trustcenter** veröffentlicht eine große Primzahl n und dazu eine kleinere Zahl g (Generator) $g = [2, …, n-2]$ mit der Eigenschaft, dass die [Potenzen](../../../Mathematik/Potenzen.md) von g modulo n alle Zahlen zwischen 1 und n-1 durchlaufen. 
+- Ein **Trustcenter** veröffentlicht eine große Primzahl n und dazu eine kleinere Zahl g (Generator) $g = [2, …, n-2]$ mit der Eigenschaft, dass die [Potenzen](../../../Mathematik/Algebra/Potenzen.md) von g modulo n alle Zahlen zwischen 1 und n-1 durchlaufen. 
 
 - Jeder Kommunikationsteilnehmer veröffentlicht seinen Public Key p bei einem Trustcenter. Dafür wird eine **geheime Zahl s** (Secret Key) gewählt ($s = [1, …, n-1]$) und berechnet den Public Key $p = g^s mod\ n$ und schickt diesen zur Veröffentlichung an das Trustcenter.  
 
@@ -740,7 +740,7 @@ Entschlüsseln:
 001 002 071 100
 ```
 
-(große [Potenzen](../../../Mathematik/Potenzen.md) bzw. Rechnen mit Modulo: <https://medienwissenschaft.uni-bayreuth.de/inik/material/email_nur_fuer_dich/3_verschluesseln/3.3_asymmetrisch_verschluesseln/Modulares%20Potenzieren%20-%20AB.pdf>
+(große [Potenzen](../../../Mathematik/Algebra/Potenzen.md) bzw. Rechnen mit Modulo: <https://medienwissenschaft.uni-bayreuth.de/inik/material/email_nur_fuer_dich/3_verschluesseln/3.3_asymmetrisch_verschluesseln/Modulares%20Potenzieren%20-%20AB.pdf>
 
 und <https://www.geogebra.org/classic?lang=de-AT)>
 
@@ -2967,14 +2967,14 @@ Grundregeln für die Modulo-Operation:
 - $x^{a+b} = x^a \cdot x^b$
 
 - $x^{a+b} \mod n= (x^a \cdot x^b) \mod n = ((x^a \mod n)\cdot (x^b \mod n)) \mod n$  
-  Die Modulo-Operation darf "hineingezogen" werden - Damit können Summen von [Potenzen](../../../Mathematik/Potenzen.md) in der Modulo-Rechnung zerlegt werden
+  Die Modulo-Operation darf "hineingezogen" werden - Damit können Summen von [Potenzen](../../../Mathematik/Algebra/Potenzen.md) in der Modulo-Rechnung zerlegt werden
 
 - $x^a \mod n = (x \mod n)^a \mod n$
 
-  Die Modulo-Operation darf "hineingezogen" werden - Damit können [Potenzen](../../../Mathematik/Potenzen.md) in der Modulo-Rechnung zerlegt werden
+  Die Modulo-Operation darf "hineingezogen" werden - Damit können [Potenzen](../../../Mathematik/Algebra/Potenzen.md) in der Modulo-Rechnung zerlegt werden
 
 - $x^{a\cdot b} = (x^a)^b = (x^a \mod n)^b \mod n$  
-  Die Modulo-Operation darf "hineingezogen" werden - Damit können Produkte von [Potenzen](../../../Mathematik/Potenzen.md) in der Modulo-Rechnung zerlegt werden
+  Die Modulo-Operation darf "hineingezogen" werden - Damit können Produkte von [Potenzen](../../../Mathematik/Algebra/Potenzen.md) in der Modulo-Rechnung zerlegt werden
 
 Das Rechnen mit großen Zahlen ist nicht immer einfach. Mit den gezeigten Regeln können zum Teil sehr starke Vereinfachungen erreicht werden.
 

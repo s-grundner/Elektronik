@@ -26,4 +26,4 @@ satz:
 - [Integralrechnung](Integralrechnung.md)
 
 
-Eine wichtige Folgerung dieses Satzes ist die [Wegunabhängigkeit](Wegunabhängig.md) für Linienintegrale. Beziehungsweise die Generalisierung auf höhere Dimensionen mit dem *Gradientensatz*.
+Eine wichtige Folgerung dieses Satzes ist die [Wegunabhängigkeit](Vektoranalysis/Wegunabhängig.md) für Linienintegrale. Beziehungsweise die Generalisierung auf höhere Dimensionen mit dem *Gradientensatz*.

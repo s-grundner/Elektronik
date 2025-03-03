@@ -83,16 +83,16 @@ $\mathbf{E},\mathbf{B},\rho, \mathbf{J}$ hängen von $t$ und $x \in \mathbb{R}^3
 Maxwell im Vakuum:
 
 $$\operatorname{div}\mathbf{E}=\frac{\rho}{\varepsilon_{0}},\quad\operatorname{div}\mathbf{B}=0$$
-- Definition der [Divergenz](Divergenz.md) ist die Summe aller Partiellen Ableitungen von $\mathbf{F}$
+- Definition der [Divergenz](Vektoranalysis/Divergenz.md) ist die Summe aller Partiellen Ableitungen von $\mathbf{F}$
 
-> [!hint] Die Vektorfelder $\mathbf{E}$ und $\mathbf{B}$ sind [Gradient eines Potenzials](Wegunabhängig.md) $u$ (elektrische und magetische Spannung):
+> [!hint] Die Vektorfelder $\mathbf{E}$ und $\mathbf{B}$ sind [Gradient eines Potenzials](Vektoranalysis/Wegunabhängig.md) $u$ (elektrische und magetische Spannung):
 > Es ergibt sich also für die Potenziale $u_{e}$ und $u_{b}$:
 > 
-> - Eine [Poissongleichung](Laplacegleichung.md): $\operatorname{div}\mathbf{E}=\operatorname{div}\operatorname{grad}u_{e}=\boxed{ \Delta u_{e} =\frac{\rho}{\varepsilon_{0}} }$
-> - Eine [Laplacegleichung](Laplacegleichung.md): $\operatorname{div}\mathbf{B}=\operatorname{div}\operatorname{grad}u_{b}=\boxed{ \Delta u_{b} =0 }$
+> - Eine [Poissongleichung](Vektoranalysis/Laplacegleichung.md): $\operatorname{div}\mathbf{E}=\operatorname{div}\operatorname{grad}u_{e}=\boxed{ \Delta u_{e} =\frac{\rho}{\varepsilon_{0}} }$
+> - Eine [Laplacegleichung](Vektoranalysis/Laplacegleichung.md): $\operatorname{div}\mathbf{B}=\operatorname{div}\operatorname{grad}u_{b}=\boxed{ \Delta u_{b} =0 }$
 
 
-Der [Gaußscher Integralsatz](Gaußscher%20Integralsatz.md) besagt, dass in man das Integral der Divergenz eines Vektorfeldes $\mathbf{F}$ in dem Definitionsbereiches $\Omega$ ermitteln kann, indem man $\mathbf{F}$ an den Randwerten $\partial \Omega$ betrachtet:
+Der [Gaußscher Integralsatz](Vektoranalysis/Gaußscher%20Integralsatz.md) besagt, dass in man das Integral der Divergenz eines Vektorfeldes $\mathbf{F}$ in dem Definitionsbereiches $\Omega$ ermitteln kann, indem man $\mathbf{F}$ an den Randwerten $\partial \Omega$ betrachtet:
 
 $$
 \int_{\Omega}\operatorname{div}\mathbf{F} \mathrm{~d}x = \int_{\partial\Omega}\mathbf{F}\cdot\mathbf{\nu}\mathrm{~d}s

@@ -33,6 +33,6 @@ $$
 > $$
 > \oint_{\partial V}\mathbf{J}\cdot\mathrm{d}\mathbf{a} = - \frac{\mathrm{d}}{\mathrm{d}t}\int_{V}\rho \mathrm{~d}V = -\int_{V} \frac{\mathrm{d}\rho}{\mathrm{d}t} \mathrm{~d}V 
 > $$
-> Mit dem [Gaußschen Integralsatz](../Mathematik/Analysis/Gaußscher%20Integralsatz.md) ergibt sich die **Kontinuitätsgleichung**:
+> Mit dem [Gaußschen Integralsatz](../Mathematik/Analysis/Vektoranalysis/Gaußscher%20Integralsatz.md) ergibt sich die **Kontinuitätsgleichung**:
 > 
 > $$\boxed{\operatorname{div}\mathbf{J}=-\frac{\mathrm{d}\rho}{\mathrm{d}t}}$$

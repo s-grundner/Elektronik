@@ -116,7 +116,7 @@ $$
 
 --- 
 
-Nun kann man aus einer der [DGL](../../Mathematik/GDGL.md) die [charakteristische Gleichung](lineare%20DGL%202.%20Ordnung.md) erzeugen
+Nun kann man aus einer der [DGL](../../Mathematik/Analysis/GDGL.md) die [charakteristische Gleichung](lineare%20DGL%202.%20Ordnung.md) erzeugen
 
 $$
 \begin{align*}

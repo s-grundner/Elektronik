@@ -14,15 +14,15 @@ cited:
 
 # Vektorfelder
 
-> [!def] **D1 - VECF)** Ein Vektorfeld ist eine Funktion, die jedem Punkt eines Raumes einen [Vektor](../Mathematik/Algebra/Vektor.md) zuordnet.
+> [!def] **D1 - VECF)** Ein Vektorfeld ist eine Funktion, die jedem Punkt eines Raumes einen [Vektor](../../Algebra/Vektor.md) zuordnet.
 > Im gegensatz zu einem Skalarfeld, dass jedem Punkt einen skalaren Wert (eine Zahl) zuordnet.
 
 # Vektorfelder in der Elektotechnik
 
-Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](Elektrisches%20Feld.md) $\mathbf{E}$ und das [magnetische Feld](magnetisches%20Feld.md) $\mathbf{B}$, welche durch die [Maxwell](Maxwell.md)-Gleichungen beschrieben werden. Diese Felder sind [konservativ](../Mathematik/Analysis/Wegunabhängig.md).
+Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](Elektrisches%20Feld.md) $\mathbf{E}$ und das [magnetische Feld](magnetisches%20Feld.md) $\mathbf{B}$, welche durch die [Maxwell](Maxwell.md)-Gleichungen beschrieben werden. Diese Felder sind [konservativ](Wegunabhängig.md).
 
 > [!tldr] Im Folgenden werden die physikalischen Ursachen der Mathematischen Operationen auf konservative Vektorfelder erläutert:
-> - [Gradient](../Mathematik/Analysis/Gradient.md) und Gradientintegral ([Fundamentalsatz der Analysis](../Mathematik/Analysis/Fundamentalsatz%20der%20Analysis.md))
+> - [Gradient](Gradient.md) und Gradientintegral ([Fundamentalsatz der Analysis](../Fundamentalsatz%20der%20Analysis.md))
 >  - Divergenz und Divergenzintegral / Gaußscher Integralsatz
 >  - Rotation und Rotationintegral / Stokescher Integralsatz
 

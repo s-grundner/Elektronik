@@ -60,7 +60,7 @@ Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunig
 > [!hint] Begriff: Konservatives Kraftfeld
 > In einem Konservativen Kraftfeld trägt nur der Anteil der Bewegung in die *gleiche* Richtung der Kraftvektoren zur [Arbeit](Mechanische%20Arbeit.md) und alle der daraus folgenden Größen bei.  
 > - [Skalarprodukt](../Mathematik/Algebra/Skalarprodukt.md) 
-> - Konservativ $\iff$ [Wegunabhängig](../Mathematik/Analysis/Wegunabhängig.md)
+> - Konservativ $\iff$ [Wegunabhängig](../Mathematik/Analysis/Vektoranalysis/Wegunabhängig.md)
 
 # Tags
 
