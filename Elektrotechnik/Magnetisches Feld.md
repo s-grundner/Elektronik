@@ -37,44 +37,24 @@ $$
 
 $\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabilität](../Physik/Konstanten/Permeablitätskonstante%20des%20Vakuum.md) des freien Raumes, Naturkonstante
 
-## Der magnetische Fluss
-
-Anstelle der lokalen Feldstärke B beschreibt man das Feld auch gerne durch einen so genannten magnetischen Fluss $\Phi$, der eine bestimmte Fläche (z.B. die Querschnittsfläche eines Stabmagneten) durchsetzt.
-
-> [!question]- Vergleich zur Stromstärke und Stromdichte: **Magnetische Flüsse** $\iff$ **Elektrische Ströme**
->  Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom $I$ und elektrischer Stromdichte $J$
->  (obwohl im Magnetfeld nichts fließt)
-
-$$\Phi = \int_{A}\vec{B} \cdot d\vec{A} \qquad [\Phi] = Vs = Wb\dots \text{Weber}$$
-
-
-
-![invert_dark](assets/FeldSpule.png)
-
-Durch die Geometrie der Wicklung der Spule wird ein Magnetfeld erzeugt, das äquivalent wäre zu $N$ Mal der Drahtfläche mit $N$ mal dem Stromfluss. Daher kann der Fluss vervielfacht werden. Es ergibt sich der Verkettete Fluss $\Psi$:
-
-$$\Psi = N\cdot\Phi$$
-
-## Materialgesetz
+## Materialgesetz - Permeabilität
 
 > [!question] [Materialgesetze nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
 > $$\mathbf{B}= \mu \mathbf{H}$$
 
-Magnetische Leitfähigkeit permeabilität:
+Magnetische Leitfähigkeit - **Permeabilität** $\mu = \mu_{0}\cdot$:
 
-eine Gut magnetisch Leitfähiges material möchte in einem Magnetfeld den Luftspalt minimieren.
+Ein gut magnetisch leitfähiges Material möchte in einem Magnetfeld den Luftspalt minimieren.
 
 z.B: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
-
 
 ferromagnetisch: $\mu_{r} \gg$ 
 diamagnetisch: $\mu_{r}<$  (material stoßt sich vom Magnetfeld leicht ab)
 
-### Magnetische Sättigung
+### Magnetisierung und Sättigung
 
-Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisiert
-
-- Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
+> [!question]  **Manetische Sättigung:** Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisiert
+> - Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
 ### Magnetische Quellen
 
@@ -86,7 +66,27 @@ Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisier
 
 **Elektromagneten**
 
-### Durchflutungsgesetz
+
+## Magnetischer Fluss
+
+Anstelle der lokalen Feldstärke B beschreibt man das Feld auch gerne durch einen so genannten magnetischen Fluss $\Phi$, der eine bestimmte Fläche (z.B. die Querschnittsfläche eines Stabmagneten) durchsetzt.
+
+> [!question]- Vergleich zur Stromstärke und Stromdichte: **Magnetische Flüsse** $\iff$ **Elektrische Ströme**
+>  Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom $I$ und elektrischer Stromdichte $J$
+>  (obwohl im Magnetfeld nichts fließt)
+
+$$\Phi = \int_{A}\vec{B} \cdot d\vec{A} \qquad [\Phi] = Vs = Wb\dots \text{Weber}$$
+
+
+
+![invert_dark|600](assets/FeldSpule.png)
+
+Durch die Geometrie der Wicklung der Spule wird ein Magnetfeld erzeugt, das äquivalent wäre zu $N$ Mal der Drahtfläche mit $N$ mal dem Stromfluss. Daher kann der Fluss vervielfacht werden. Es ergibt sich der Verkettete Fluss $\Psi$:
+
+$$\Psi = N\cdot\Phi$$
+
+
+## Durchflutung $\Theta$
 
 > [!question] [1. Maxwellgleichung](Maxwell.md#^MW1)
 
