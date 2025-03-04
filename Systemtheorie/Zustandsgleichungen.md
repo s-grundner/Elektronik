@@ -8,10 +8,12 @@ keywords:
 subject:
   - VL
   - Signale und Systeme
+  - Regelungstechnik
 semester: WS24
 created: 18. Dezember 2024
 professor:
   - Andreas Stelzer
+  - Markus Schöberl
 ---
  
 
