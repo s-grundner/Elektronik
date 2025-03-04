@@ -13,9 +13,11 @@ professor:
 
 # Energiesignal
 
+## Energie eines Signals
+
 > [!info] **Kontinuierlich:**
 > $$
-> \int_{-\infty}^\infty \mid x(t)\mid^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
+> E=\int_{-\infty}^\infty \mid x(t)\mid^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
 > $$
 > $x^*$: Konjugation von $x$ (quadrat unabh. von der Phase)
 

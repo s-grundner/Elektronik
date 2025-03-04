@@ -14,6 +14,15 @@ professor:
 
 # Leistungssignal
 
+Ein Leistungssignal liegt vor, wenn gilt:
+
+$$
+0 \leq P<\infty
+$$
+
+
+## Leistung eines Signals
+
 Die Leistung $P$ eines Signals berechnet sich zu:
 
 > [!info] **Kontinuierlich**
@@ -29,8 +38,3 @@ Die Leistung $P$ eines Signals berechnet sich zu:
 > $$
 > 
 
-Ein Leistungssignal liegt vor, wenn gilt:
-
-$$
-0 \leq P<\infty
-$$

@@ -18,13 +18,14 @@ professor:
 
 # Signale
 
+
+
 ## Klassifizierung von Signalen
 
 1. Zeitkontinuität
 2. Wertkontinuität
 3. Reell / Komplexe Signale
 4. Gerade / Ungerade Signale
-    - komplexe Signale
 5. Zeitliche Ausdehnung
 6. [Kausalität](Kausalität.md)
 7. Beschränktheit
