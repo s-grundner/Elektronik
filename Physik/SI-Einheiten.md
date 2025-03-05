@@ -37,4 +37,29 @@ title: SI-Einheiten
 - Dezimale Struktur: Aus jeder Grundeinheit können durch **Präfixe** (Einheitenvorsätze) kleinere und größere Einheiten gebildet werden.
 
 > [!important] Dieses System ist **kohärent**
-> Alle SI-Einheiten 
+> **Kohärenz** bedeutet, dass alle abgeleiteten Einheiten aus den Basiseinheiten durch Multiplikation und Division gebildet werden können.
+> Um mit SI-Einheiten handlich rechnen zu können, kann man man Einheitenvorsätze verwenden. Jedoch geht bei der Verwendung die Kohärenz verloren.
+
+## Detaillierte Übersicht
+
+### Länge
+
+### Masse
+
+### Zeit
+
+### Stromstärke
+
+### Temperatur
+
+### Lichtstärke
+
+### Stoffmenge
+
+
+
+
+
+
+
+
