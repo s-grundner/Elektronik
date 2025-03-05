@@ -38,3 +38,9 @@ Die Leistung $P$ eines Signals berechnet sich zu:
 > $$
 > 
 
+
+Für periodische zeitdiskrete Signale mit der Periode $N$:
+
+$$
+\frac{1}{N} \sum_{n=0}^{N-1} \lvert x[n] \rvert ^{2}
+$$

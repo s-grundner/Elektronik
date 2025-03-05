@@ -13,6 +13,8 @@ professor:
 
 # Energiesignal
 
+Ein Signal ist ein Energiesignal wenn die Energie des Signals endlich ist:
+
 ## Energie eines Signals
 
 > [!info] **Kontinuierlich:**

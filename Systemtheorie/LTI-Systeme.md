@@ -9,9 +9,7 @@ subject:
   - VL
   - Signale und Systeme
   - Elektrotechnik
-semester:
-  - SS24
-  - B2
+semester: SS24
 created: 4. März 2024
 professor:
   - Andreas Stelzer
@@ -27,7 +25,6 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 > [!important] Linearität
 > 
 > Ein system ist linear wenn die Linearkombination der Eingänge gleich der Linearkombination der Ausgänge ist 
-> 
 > 
 > Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn
 > 

@@ -1,7 +1,8 @@
 ---
 tags:
   - tikz/pgfplot
-aliases: 
+aliases:
+  - Elementare Signale
 keywords: 
 subject:
   - VL
@@ -43,7 +44,7 @@ $$
 \begin{document}
 
 % Plot for both growing and decaying exponential functions
-\begin{tikzpicture}[scale=2]
+\begin{tikzpicture}
 
 % Ansteigende Exponentialfunktion (alpha > 0)
 \begin{axis}[

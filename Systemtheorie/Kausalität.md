@@ -17,7 +17,7 @@ professor:
 
 Die Wirkung tritt nicht vor der Ursache ein!
 
-> [!def] **D1 - KAUS)** Kausalität eines [Systems](Systemtheorie.md)
+> [!def] **D1 - KAUS)** Kausalität eines Systems
 > Hängt das Ausgangssignal zu einem bestimmten Zeitpunkt $t_0$ nur von dem Verlauf des Eingangssignals bis einschließlich zu diesem Zeitpunkt ab (vergangene Werte bis inklusive aktuellem Wert), so bezeichnet man das System als kausal
 > 
 > $$y\left(t_0\right)=\mathcal{T}\left\{x\left(t \leq t_0\right)\right\}$$
