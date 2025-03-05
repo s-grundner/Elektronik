@@ -29,7 +29,7 @@ $$
 ## Darstellung mit Kronecker-Delta
 
 
-> [!question] [Kronecker-Symbol](Kronecker-Symbol.md)
+> [!question] [Delta-Impuls](Delta-Impuls.md)
 
 $$
 \mathbb{1}_{n}= (\delta _{ij})_{i,j \in \{1,\dots,n\}}

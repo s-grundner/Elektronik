@@ -16,3 +16,8 @@ title: Digitale Signalverarbeitung
 ---
  
 # Digitale Signalverarbeitung
+
+Ziele der Signalverarbeitung:
+- Stör- / Rauschunterdrückung
+- Extraktion von Nutzinformationen
+- Signalumwandlung (in anderes Format zb wav -> mp3, wegen speicherbarkeit etc)

@@ -41,7 +41,7 @@ Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus un
 > 
 > wobei $k, m$ Parameter der Funktion $u$ sind.
 > 
-> > [!info] $\delta_{k,m}\dots$ [[Kronecker-Symbol]]: Nur der Anteil, bei dem $l=k$ ist zählt.
+> > [!info] $\delta_{k,m}\dots$ [[../Mathematik/Algebra/Delta-Impuls]]: Nur der Anteil, bei dem $l=k$ ist zählt.
 
 ## Reelle Fourierreihe
 

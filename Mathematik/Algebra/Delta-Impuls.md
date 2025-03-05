@@ -5,11 +5,18 @@ aliases:
   - Dirac-Funktion
   - Nadelimpuls
   - Dirac-Distribution
+  - Kronecker
+  - Kronecker-Delta
 subject:
   - mathe
+  - VL
+  - Mathematik 1
 source:
   - Rudolf Frauenschuh
-created: 26th April 2022
+created: 6th November 2024
+keywords: 
+semester: WS23
+professor:
 ---
 
 # Delta-Impuls $\delta(t)$
@@ -92,7 +99,22 @@ $$
 $$
 
 
+
+## Kronecker Symbol
+
+> [!important] Zeitdiskreter Einheitspuls
+
+$$
+\delta_{k m}=\left\{\begin{array}{lll}
+1 & \text { für } & k=m \\
+0 & \text { für } & k \neq m
+\end{array}\right.
+$$
+
+
 ---
 
 - [Faltung](../../Systemtheorie/Faltung.md)
 - [Impulsanwort](../../Systemtheorie/Impulsanwort.md)
+
+ 
