@@ -1,9 +1,11 @@
 ---
-tags:
+tags: 
 aliases: 
 symbol: $$
 value: $$
 unit: $$
 ---
 
-> [!QUESTION] $$
+# <%tp.file.title%>
+
+> [!def] $<%tp.file.cursor()%>$ ^DEF

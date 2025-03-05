@@ -4,9 +4,11 @@ tags:
   - Chemie
 aliases:
   - Avogadro
-symbol: $N_{0}$
-value: $6.0221367(36)\cdot 10^{23}$
-unit: $\dfrac{1}{mol}$
+symbol: $N_{A}$
+value: $6.02214076\cdot 10^{23}$
+unit: $\mathrm{\dfrac{1}{mol}}$
 ---
 
-> [!QUESTION] $N_{0}=6.0221367(36)\cdot 10^{23} \dfrac{1}{mol}$
+# Avogadro Konstante
+
+> [!def] $N_{A}=6.02214076\cdot 10^{23} \mathrm{\frac{1}{mol}}$ ^DEF

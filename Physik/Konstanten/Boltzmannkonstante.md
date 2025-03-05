@@ -5,8 +5,11 @@ tags:
 aliases:
   - Boltzmann
 symbol: $k_{B}$
-value: $1.38054 \cdot 10^{-23}$
-unit: $\dfrac{Ws}{K}$
+value: $1.380649 \cdot 10^{-23}$
+unit: $\mathrm{\dfrac{J}{K}}$
 ---
 
-> [!QUESTION] $k_{B}=1.38054\cdot 10^{-23} \frac{Ws}{K}$
+# Boltzmann Konstante
+
+> [!def] $k_{B}=1.38054\cdot 10^{-23} \frac{J}{K}$ ^DEF
+
