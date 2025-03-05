@@ -5,12 +5,15 @@ aliases:
   - elektronen Volt
   - elektronenvolt
 symbol: $e$
-value: $1.6022\cdot 10^{-19}$
-unit: $As$
+value: $1.602176634\cdot 10^{-19}$
+unit: $\mathrm{As}$
+rel-uncertainty:
 ---
 
-> [!QUESTION] $e = 1.6022\cdot 10^{-19} As$
-> Die Einheit $1As$ wird auch $1 \mathrm{C}$ (*[Coulomb](../../Elektrotechnik/Coulomb-Kraft.md)*) bezeichnet.
+# Elementarladung
+
+> [!def] $e = 1.602176634\cdot 10^{-19}\mathrm{As}$ ^DEF
+> Die Einheit $1 \mathrm{As}$ wird auch $1 \mathrm{C}$ (*[Coulomb](../../Elektrotechnik/Coulomb-Kraft.md)*) bezeichnet.
 
 > [!important] Ein Elektron trägt eine negative Elementarladung.
 > 

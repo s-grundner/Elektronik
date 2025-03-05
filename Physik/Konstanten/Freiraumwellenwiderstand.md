@@ -6,13 +6,17 @@ aliases:
   - Wellenwiderstand des Vakkum
   - Feldwellenwiderstand des Vakuums
 symbol: $Z_{F}$
-value: $376.7303=\sqrt{\dfrac{\mu_{0}}{\varepsilon_{0}}}=120\pi$
+value: $376.730313412(59)$
 unit: $\Omega$
 subject:
   - EMV und SI
+rel-uncertainty: 1.6e-10
 ---
 
-> [!QUESTION] $Z_{F}=376.7303=\sqrt{\dfrac{\mu_{0}}{\varepsilon_{0}}}=120\pi\Omega$
+> [!def] $Z_{0}=376.730313412(59)~\Omega$
+> $=\mu_{0} \cdot c\approx 120\pi ~\Omega$
+> - [Permeabilitätskonstante](Permeablität%20des%20Vakuums.md)
+> - [[]]
 
 
 Allgemein für nichtleitende Medien ist der Freiraumwellenwiderstand:

@@ -55,6 +55,9 @@
     "chapter": "number",
     "banner_y": "number",
     "draft": "checkbox",
-    "list": "checkbox"
+    "list": "checkbox",
+    "uncertainty": "number",
+    "rel-uncertainty": "number",
+    "show_uncertainty": "checkbox"
   }
 }

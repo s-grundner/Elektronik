@@ -42,7 +42,7 @@ $$
 B(r) = \frac{\mu_{0}\cdot I}{2\pi r} \qquad[B] = \frac{Vs}{m^{2}} = T \dots \text{Tesla}
 $$
 
-$\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabilität](../Physik/Konstanten/Permeablitätskonstante%20des%20Vakuum.md) des freien Raumes, Naturkonstante
+$\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabilität](../Physik/Konstanten/Permeablität%20des%20Vakuums.md) des freien Raumes, Naturkonstante
 
 ## Materialgesetz - Permeabilität
 

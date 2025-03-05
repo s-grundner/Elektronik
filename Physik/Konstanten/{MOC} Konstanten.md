@@ -3,6 +3,7 @@ aliases:
   - "#Konstante"
 tags:
   - MOC
+show_uncertainty: false
 ---
 
 # Physikalische Konstanten
