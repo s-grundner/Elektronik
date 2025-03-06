@@ -15,3 +15,4 @@ title: Strukturbilder
  
 # Strukturbilder
 
+![](assets/Strukturbilder%202025-03-06%2019.04.50.excalidraw)
