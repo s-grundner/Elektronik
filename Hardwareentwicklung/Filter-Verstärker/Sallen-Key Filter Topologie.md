@@ -20,7 +20,7 @@ professor:
 > [!question] Siehe: [Aktiver Filter](Aktiver%20Filter.md), [Mitkopplung](Kopplungsarten.md)
 
 
-> [!info] Aktiver Tiefpass 2. Ordnung miteinfach Mitkopplung
+> [!info] Aktiver Tiefpass 2. Ordnung mit einfach Mitkopplung
 > Der Sallen-Key Filter basiert auf einer Einfachen Mitkopplung von Wechselsignalen, welches ein Tiefpassverhalten 2. Ordnung erzeugt. 
 
 ```tikz
