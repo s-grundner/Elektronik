@@ -33,6 +33,7 @@
 	{trigger: "^", replacement: "^{$0}$1", options: "mA", priority: 1},
 	{trigger: "atx", replacement: "A(t)x", options: "m", priority: 1},
 	{trigger: "v..", replacement: "\\vdots", options: "mA", priority: 1},
+	{trigger: "l..", replacement: "\\ldots", options: "mA", priority: 1},
 	{trigger: "d..", replacement: "\\ddots", options: "mA", priority: 1},
 	{trigger: "c..", replacement: "\\cdots", options: "mA", priority: 1},
 	{trigger: "tag", replacement: "\\tag{$0}$1", options: "mA", priority: 1},

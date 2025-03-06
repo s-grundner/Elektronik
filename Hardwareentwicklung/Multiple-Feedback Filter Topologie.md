@@ -18,7 +18,23 @@ professor:
 
 > [!question] Siehe: [Aktiver Filter](Filter-Verstärker/Aktiver%20Filter.md), [Gegenkopplung](Filter-Verstärker/Kopplungsarten.md)
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/length=1cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, transform shape, font=\large]
 
+\draw (0,0) node[op amp](opv){};
+\draw (opv.-) -- ++(0,1) coordinate(c1) to[C, l=$C_1$, -*] (c1 -| opv.out) -- (opv.out) to[short, *-] ++(1, 0) to[open, v=$U_A$, o-o] ++(0, -2) coordinate(g) node[rground]{};
+\draw (opv.+) -- (opv.+ |- g) node[rground] {};
+\draw (opv.-) to[R, l_=$R_3$, *-*] ++(-2, 0) coordinate(k1) to[R, l_=$R_1$] ++(-2, 0) coordinate(a) to[open, v=$U_E$, o-o] (a |- g) node[rground]; 
+
+\end{circuitikz}
+\end{document}
+```
 ![](assets/Pasted%20image%2020241213034514.png)
 
 ## Übertragungsfunktion

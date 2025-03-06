@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - Baugruppe/OPV
+  - Baugruppe/Filter
 aliases: 
 keywords: 
 subject:
