@@ -109,7 +109,7 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 > \end{align}
 > $$ 
 > 
-> Diese Gleichungen sind ausriechend um ein [LTI-System](LTI-Systeme.md) vollständig zu beschrieben
+> Diese Gleichungen sind ausriechend, um ein [LTI-System](LTI-Systeme.md) vollständig zu beschrieben
 
 > [!def] **D2 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
 > $\mathbf{A}$ Systemmatrix ($\in n\times n$)
@@ -120,7 +120,7 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 Zur Erinnerung: Zeilen $\times$ Spalten
 ### Zustandsgleichung als Blockdiagramm
 
-![invert_dark|1000](assets/ZSGLBSB.png)
+![invert_dark](assets/Pasted%20image%2020250306140047.png)
 
 - Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Eingangsmatrix** $\mathbf{B}$ den (abgeleiteten) Zustandsvariablen zugeführt.
 - Ein Satz von *Integratoren* (für jede Zustandsvariable) bildet mit der **Systemmatrix** $\mathbf{A}$ im Rückführungszweig eine **Rückkopplungsschleife**.
