@@ -57,3 +57,5 @@ Prinzipiell unterscheidet man zwischen:
 
 - [Schmidt-Walter Schaltnetzteildimensionierung](http://schmidt-walter-schaltnetzteile.de/smps/smps.html)
 - [SMPS_intro [OFFLINE]](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)
+- https://youtu.be/PgTR7226sHU?si=-SreeAKORy7fAJbs
+- https://youtube.com/watch?v=IyiCHMHE5Qg&si=NtzZZLiLk-NK0OSn
