@@ -1,32 +1,40 @@
 ---
-tags: []
-aliases: ["Sensor"]
-subject: ["mtrs"]
-source: ["Norbert Irnleitner"]
-created: 31st March 2022
+tags: 
+aliases:
+  - Sensoren
+  - Sensor
+keywords: 
+subject:
+  - Elektrische Messtechnik und Sensorik
+  - VL
+semester: SS25
+created: 27th February 2025
+professor:
+  - Marco Da Silva
+draft: false
+title: Sensorik
 ---
+ 
+# Sensoren
 
-# Sensorik
+| Sensor 1.0                                                                                          | Sensor 2.0                                                                         | Sensor 3.0                                         | Sensor 4.0                                                                                                  |
+| --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| ![200](assets/sensor1_0.png)                                                                        | ![200](assets/Pasted%20image%2020250305140418.png)                                 | ![200](assets/Pasted%20image%2020250305140454.png) | ![200](assets/Pasted%20image%2020250305140536.png)                                                          |
+| **Mechanische Wandler<br>**                                                                             | **Elektrische Sensoren**                                                               | **Elektronische Sensoren**                             | **Smart-Sensors**                                                                                               |
+| Getriebe und Federn, sorgen für mechansiche Umsetzung der Physikalischen größe in eine Messanzeige. | Änderung des Elektrischen Widerstands:<br>Dehnmessstreifen, Potentiometer, Servos. | Elektronisch kompensiert, digitale Schnittstelle   | erweiterte Kommunikationsmöglichkeiten, IoT fähigkeiten, adaptive temparatur- alterung und störkompensation |
+|                                                                                                     | Magnetfeld Durch eine Spule Bewegt einen Zeiger                                    |                                                    |                                                                                                             |
 
-**Sensorik** bezeichnet in der [Technik](https://de.wikipedia.org/wiki/Technik "Technik") die [Wissenschaft](https://de.wikipedia.org/wiki/Wissenschaft "Wissenschaft") und die [Anwendung](https://de.wikipedia.org/wiki/Nutzung_(Technik) "Nutzung (Technik)") von [Sensoren](https://de.wikipedia.org/wiki/Sensor "Sensor") zur Messung und Kontrolle von Veränderungen von umweltbezogenen, biologischen oder technischen [Systemen](https://de.wikipedia.org/wiki/System "System").
+> [!info] Sensor 1.0 $\subset$ Sensor 2.0 $\subset$ Sensor 3.0 $\subset$ Sensor 4.0
 
-Der Einzugsbereich der technischen „Sensorik“ wird im deutschsprachigen Raum unterschiedlich abgegrenzt, teilweise werden ausschließlich Sensorelemente der [Messtechnik](https://de.wikipedia.org/wiki/Messtechnik "Messtechnik") betrachtet, an anderer Stelle ausschließlich binäre, also [schaltende](https://de.wikipedia.org/wiki/Schalter_(Elektrotechnik) "Schalter (Elektrotechnik)") Systeme (z. B. Lichtschranken), wieder andere beziehen auch Laborund Industrie-Messsysteme zur [Automatisierung](https://de.wikipedia.org/wiki/Automatisierung "Automatisierung") mit ein.
-
-Gemeinsam ist der technischen Sensorik, dass sie technische Produkte behandelt, die in der Regel nichtelektrische [Messgrößen](https://de.wikipedia.org/wiki/Messgr%C3%B6%C3%9Fe "Messgröße") in [elektrische Signale](https://de.wikipedia.org/wiki/Elektrisches_Signal "Elektrisches Signal") umwandeln. In vielen Fällen kommen dabei die sogenannten [Einheitssignale](https://de.wikipedia.org/wiki/Einheitssignal "Einheitssignal"), oder in letzter Zeit immer häufiger [Feldbusse](https://de.wikipedia.org/wiki/Feldbus "Feldbus") zur Anwendung.
-
-# Sensor Elemente
-
-## [Magnetometer](Magnetometer.md)
-
-## [Thermometer](Thermometer.md)
-
-## [Piezoelektrik](Piezoelektrik.md)
-
-## [Drehzahlmessung](Drehzahlmessung.md)
+> [!example] Sensorelemente
+> - [Magnetometer](Magnetometer.md)
+> - [Thermometer](Thermometer.md)
+> - [Piezoelektrik](Piezoelektrik.md)
+> - [Drehzahlmessung](Drehzahlmessung.md)
 
 ---
 
 # Tags
 
-[Aktorik](Aktorik.md)  
-![MTRS23_02a_Sensorik](assets/pdf/MTRS23_02a_Sensorik%201.pdf)
+- [Aktorik](Aktorik.md)  
+- [MTRS23_02a_Sensorik](assets/pdf/MTRS23_02a_Sensorik%201.pdf)
