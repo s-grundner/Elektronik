@@ -23,6 +23,8 @@ def:
 
 # Gewöhnliche Differentialgleichungen (DGL)
 
+> [!info] [Partielle DGL](Partielle%20Differenzialgleichung.md)
+
 ![](../../assets/Excalidraw/{MOC}%20DGL%202025-02-21%2021.10.45.excalidraw.md)
 
 
