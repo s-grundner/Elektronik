@@ -7,7 +7,7 @@ aliases:
   - "#Baugruppe/OPV"
 keywords: 
 subject:
-  - UE
+  - VL
   - Technische Elektronik
   - Einführung Elektronik
 semester: SS25

@@ -71,3 +71,4 @@ Beispiele aus verscheiden Bereichen:
 ### Mechatronisches Beispiel
 
 
+![invert_dark](assets/RegTMechkreis.png)

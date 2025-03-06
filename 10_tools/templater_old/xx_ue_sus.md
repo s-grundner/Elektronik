@@ -11,7 +11,7 @@ tp.file.rename(theme)
 
 ---
 
-📝 [Übungsskriptum](../UESuS1_Skriptum.pdf)
+📝 [Übungsskriptum](../../xEDU/B3_WS24/SuS/UE/UESuS1_Skriptum.pdf)
 
 ---
 
