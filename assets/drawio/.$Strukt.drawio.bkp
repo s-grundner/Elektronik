@@ -29,7 +29,7 @@
           <mxGeometry x="240" y="390" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xgV5aIqk6QDV56sfmpSx-7" value="\(y(t)\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="360" width="60" height="30" as="geometry" />
+          <mxGeometry x="190" y="330" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xgV5aIqk6QDV56sfmpSx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=blockThin;startFill=0;startArrow=none;endFill=1;" edge="1" parent="1" source="xgV5aIqk6QDV56sfmpSx-11">
           <mxGeometry relative="1" as="geometry">
@@ -77,7 +77,7 @@
           <mxGeometry x="690" y="430" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xgV5aIqk6QDV56sfmpSx-21" value="\(y\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="720" y="390" width="40" height="30" as="geometry" />
+          <mxGeometry x="750" y="405" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xgV5aIqk6QDV56sfmpSx-22" value="\(u_2\)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="630" y="390" width="60" height="30" as="geometry" />
