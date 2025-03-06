@@ -1,0 +1,14 @@
+/* @settings
+
+name: Editor Width
+id: smino-editor-width
+settings:
+    - 
+        id: file-line-width
+        title: Editor Line Width
+        description: The maximum width of the editor in pixels.
+        type: variable-number
+        default: 800
+        format: px
+*/
+

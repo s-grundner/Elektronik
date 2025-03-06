@@ -27,14 +27,14 @@ Die auf ein System einwirkenden Größen heißen **Eingangsgrößen** $\mathbf{u
 
 Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}$ beobachten. Diese können dann wiederum als [Messgrößen](../../../Messtechnik/Messtechnik.md) aufgenommen werden.
 
-![invert_dark](assets/Pasted%20image%2020250306150319.png)
+![invert_dark](assets/RegTSystem.png)
 
 > [!hint] [Zustandsbeschreibung](../../../Systemtheorie/Zustandsgleichungen.md)
 
-| dynamische Systeme                                                                                                                                                                  | statische Systeme                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                        | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |
-| Beispiel - Autofahren) Unterschied ob man bei 50km/h oder bei 130 km/h lenkt/ bremst.<br>- Reibung und Kräfte sind Anders. <br>- Motorsteuergerät reagiert anders auf die Eingaben. | Beispiel - Kaffeemaschine: Es wird immer auf das Eingangssignal ein Kaffee folgen |
+| dynamische Systeme                                                                                                                                                                   | statische Systeme                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                         | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |
+| Beispiel - Autofahren) Unterschied ob man bei 50km/h oder bei 130 km/h lenkt / bremst.<br>- Reibung und Kräfte sind Anders. <br>- Motorsteuergerät reagiert anders auf die Eingaben. | Beispiel - Kaffeemaschine: Es wird immer auf das Eingangssignal ein Kaffee folgen |
 
 Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../../../Mathematik/Analysis/GDGL.md), vorallem von physikalischen Systemen.
 
@@ -56,7 +56,7 @@ Beispiele aus verscheiden Bereichen:
 > - Gelingt nur für wenige DGL, Systematisch so eine Zeitfunktion zu finden: nur für Lineare 
 > - $x$ ist eine variable der man eine zeitfunktion $x(t)$ zuweist (nicht das selbe)
 > 
-> Eingangsgrößen hier: hier gibt es nur anfangswerte als intalwerte. der rest wird von der Physik geregelt.
+> Eingangsgrößen hier: hier gibt es nur anfangswerte, der Rest wird von der Physik geregelt.
 > Eine Eingangsgröße wäre eine externe Kraft.  
 
 
