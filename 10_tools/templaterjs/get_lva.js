@@ -29,8 +29,7 @@ async function ws24(tp) { // WS24
 
 async function ss25(tp) { // SS25
 	const lva = ["Technische Elektronik", "Elektrische Maschinen und Antriebselektronik",
-		"Elektrische Messtechnik und Sensorik", "Regelungstechnik", "Signalverarbeitung",
-		"Halbleiterschaltungstechnik", "Computergestützter Entwurf analoger Schaltungen"];
+		"Elektrische Messtechnik und Sensorik", "Regelungstechnik", "Signalverarbeitung"];
 	let paste_lva = await tp.system.suggester(lva, lva, true, "LVA Name");
 	return paste_lva;
 }

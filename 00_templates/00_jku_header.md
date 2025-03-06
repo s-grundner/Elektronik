@@ -3,18 +3,18 @@
 <%* let typ = await tp.user.get_lva().type(tp) _%>
  
 ---
-<%* if(typ == "UE") tR += "banner:" _%>
+<%* if(typ == "UE") tR += "banner: \n" _%>
 tags: 
 aliases: 
 keywords: 
 subject:
   - <%* tR += lva %>
-  - <%* tR += lvt %>
+  - <%* tR += typ %>
 semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
-draft: false
-title: <%tp.file.title%>
-<%* if(typ == "UE") tR += "due: " _%>
+<%* if(typ == "VL") tR += "draft: false\n" _%>  
+<%* if(typ == "VL") tR += "title: " + tp.file.title + "\n"_%>
+<%* if(typ == "UE") tR += "due:\n" _%>
 ---
  
