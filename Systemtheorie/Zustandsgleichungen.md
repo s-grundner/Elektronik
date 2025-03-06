@@ -1,9 +1,11 @@
 ---
-tags: 
+tags:
+  - tikz/circuitikz
 aliases:
   - Zustandsbeschreibung
   - Zustandsvariablen
   - Zustandsraum
+  - Zustandsbegriff
 keywords: 
 subject:
   - VL
@@ -109,7 +111,7 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 > 
 > Diese Gleichungen sind ausriechend um ein [LTI-System](LTI-Systeme.md) vollständig zu beschrieben
 
-> [!def] **D1 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
+> [!def] **D2 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
 > $\mathbf{A}$ Systemmatrix ($\in n\times n$)
 > $\mathbf{B}$ Eingangsmatrix ($\in n \times p$)
 > $\mathbf{C}$ Ausgangsmatrix ($\in q \times n$)
@@ -142,9 +144,10 @@ Zur Erinnerung: Zeilen $\times$ Spalten
 \begin{circuitikz}[thick, scale=1, font=\Large]
 % Begin Schematic
 
-\draw (0,0) to[I, l=$i_0$, i=$i_0$] (0,4) to[short] (2,4) to[L, i_=$i_L(t)$, *-*] (2,0) to[short] (0,0);
-\draw (2,4) to[short] (4,4) to[R, i_=$i_R(t)$, *-*] (4,0) to[short] (2,0);
-    \draw (4,4) to[short] (6,4) to[C, i_=$i_C(t)$, v^=$u_C(t)$] (6,0) to[short] (4,0);
+\draw (0,0) to[I, l=$i_0$, i=$i_0$]
+      (0,4) to[short] (2,4) to[L, i>_=$i_L(t)$, *-*] (2,0) to[short] (0,0);
+\draw (2,4) to[short] (4,4) to[R, i>_=$i_R(t)$, *-*] (4,0) to[short] (2,0);
+\draw (4,4) to[short] (6,4) to[C, i>_=$i_C(t)$, v^=$u_C(t)$] (6,0) to[short] (4,0);
 
 \end{circuitikz}
 \end{document}
