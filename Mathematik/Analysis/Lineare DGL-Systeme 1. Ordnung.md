@@ -18,22 +18,26 @@ def:
 
 # Lineare DGL-Systeme 1. Ordnung
 
-[Allgemeine DGL](GDGL.md): $x' = f(t,x)$
-
 hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Lösungsintervall)}\quad x \in\mathbb{R}^{m}$
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
 >Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../Physik/Federkraft.md)-Dämpfer [Systeme](../../Systemtheorie/Zustandsgleichungen.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
+[Allgemeine DGL](GDGL.md): $x' = f(t,x)$
+
 > [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung ^AWP1-1
 > 
-> $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}$$
+> $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}\quad t \in I\quad x \in\mathbb{R}^{m}$$
 
-> [!info] wobei es sich bei $A(t)$ um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Algebra/Vektor.md) in $\mathbb{R}^m$ handelt, also:
+Dabei ist $I$ das Lösungsintervall und $m$ die Dimension des Systems bzw die Anzahl an Differenzialgleichungen
+
+> [!info] Bei $A(t)$ handelt es sich um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Algebra/Vektor.md) in $\mathbb{R}^m$: 
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
-> > [!success] Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$)…
-> > … sind Vereinfachungen bezüglich der Ermittlung der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) möglich.
-> > - siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
+
+
+Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$) lassen sich Anzätze zur Ermittlung der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) anwenden.
+
+> [!question] siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 
 $$
 \begin{align}

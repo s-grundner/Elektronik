@@ -27,8 +27,7 @@ $A$ ist nicht von $t$ Abhängig
 > [!question] Erinnerung an das 2-Dimensionale System $m=1$:
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 
-Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: 
-Und zwar mit der [Matrix-Exponentialfunktion](Matrix-Exponentialfunktion.md#^EXPM). $a$ wird zur Matrix $\mathbf{A}$.
+Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: Und zwar mit der [Matrix-Exponentialfunktion](Matrix-Exponentialfunktion.md#^EXPM). $a$ wird zur Matrix $\mathbf{A}$.
 
 Sei $x(t) = e^{ t\mathbf{A} }\cdot C$, dann gilt
 
@@ -55,10 +54,10 @@ Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}
 
 > [!question] Warum?
 > $$ e^{0} = \sum_{k=0}^{\infty}\frac{0^k}{k!} = \mathbb{1} $$
-> Da $0^{0}$ als 1 definiert ist, ergibt sich $1$ für $k=0$.
+> Da $0^{0}$ als $1$ definiert ist, ergibt sich $\mathbb{1}$ für $k=0$.
 > 
 > Alternative Begründung: $e^{0}=e^{A - A}=e^{A} \cdot e^{ -A }$
-> Da $A \cdot A^{-1} = \mathbb{1}$ ist gilt das auch für das Matrix-Exponential.
+> Da für beliebeige Matrizen gilt $A \cdot A^{-1} = \mathbb{1}$, gilt das auch für das Matrix-Exponential.
 
 > [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
 
@@ -97,9 +96,10 @@ e^{ \lambda_{1} } & 0 & 0 \\
 $$
 
 > [!important] Überlegungen zum Allgemeinen fall:
-> Wir suchen Vektoren, die dazumultipliziert werden können um eine **endliche** Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren und Hauptvektoren
+> Wir suchen **Vektoren**, die dazumultipliziert werden können um eine **endliche** Summe zu erhalten.
+> Diese Vektoren sind im folgenden Eigenvektoren und Hauptvektoren
 
-### Allgemein
+### Eigen und Hauptvektoren
 
 Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
 
