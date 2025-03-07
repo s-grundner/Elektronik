@@ -17,7 +17,7 @@ title: Regelungstechnik
 
 # Regelungstechnik
 
-> [!quote]  Regelungstechnik ist ...
+> [!quote] Regelungstechnik ist ...
 > - gezieltes einwirken auf ein System / Prozess / Regelstrecke
 > - sodass dieses ein gewünschtes verhalten aufweist
 
@@ -59,14 +59,9 @@ Beispiele aus verscheiden Bereichen:
 > Eingangsgrößen hier: hier gibt es nur anfangswerte, der Rest wird von der Physik geregelt.
 > Eine Eingangsgröße wäre eine externe Kraft.  
 
-
 ### Elektronisches Beispiel
 
-
-
 ### Hydraulisches Beispiel
-
-
 
 ### Mechatronisches Beispiel
 

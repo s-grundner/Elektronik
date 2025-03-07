@@ -34,6 +34,5 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 ## Differentialgleichungen
 
 ![1000](assets/{MOC}%20Analysis%202025-03-03%2015.37.16.excalidraw.md)
- 
 
 [^1]: Beliebig Kleinen
