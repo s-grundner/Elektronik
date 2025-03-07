@@ -23,3 +23,12 @@ Blöcke von Standard Operationen:
 | $$y(t) = y(0) + \int_{0}^{t}u(\tau)\mathrm{~d}\tau$$ |               $$y=k\cdot u$$               |          $$y=u_{1}+u_{2}-u_{3}$$          |
 
 
+- Differenzialgleichungen werden umgeformt in deren zugehörige Integralgleichung mit den Entsprechenden Anfangswerten.
+
+> [!question]  Warum keinen Block fürs differenzieren?
+> 
+> die physik kann nicht differenzieren. man müsste in die zukunft schauen.
+> 
+> - Integrieren: alle bisherigen werte aufsummieren
+> - Ableiten: Man mus beobachten, wie sich der Wert in kleines Stück im voraus geändert hat. 
+

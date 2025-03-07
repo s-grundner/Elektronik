@@ -1,7 +1,8 @@
 ---
 tags:
   - tikz/pgfplot
-aliases: 
+aliases:
+  - Diskret
 keywords:
   - Kausalität
   - Kontinuität
@@ -17,8 +18,6 @@ professor:
  
 
 # Signale
-
-
 
 ## Klassifizierung von Signalen
 

@@ -70,5 +70,25 @@ Beispiele aus verscheiden Bereichen:
 
 ### Mechatronisches Beispiel
 
-
 ![invert_dark](assets/RegTMechkreis.png)
+
+Aufstellen des Gleichungssystems dieses Systems:
+
+Kenngrößen des DC-Motors:
+
+- Ankerstrom $i_{A}$
+- Ankerkonstante $k_{A}$
+- Winkelgeschwindigkeit des Motors $\omega_{G}$
+- Drehmoment des Motors: $M_{G}$
+
+Gleichungen für den DC-Motor:
+
+- Querspannunng: $u_{A}=R_{A}i_{A}+ L_{A} \dot{i}_{A} +k_{A}\omega_{G}$
+- Drallsatz: $M_{G}=J\dot{\omega}_{G}=k_{A}\cdot i_{A}$
+
+![](assets/Pasted%20image%2020250307084301.png)
+
+Rückkopplung von $\omega$ Ergibt sich durch den DC Motor Selbst. 
+
+
+

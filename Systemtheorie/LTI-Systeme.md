@@ -4,21 +4,26 @@ aliases:
   - LTI-System
   - LTI-Systemen
   - lineare Netzwerke
+  - Übertragungssystem
 keywords: 
 subject:
   - VL
   - Signale und Systeme
-  - Elektrotechnik
+  - Regelungstechnik
 semester: SS24
 created: 4. März 2024
 professor:
   - Andreas Stelzer
   - Andreas Springer
+  - Markus Schöberl
 ---
 
 # LTI-Systeme
 
+> [!info] [Zustandsbeschreibung](Zustandsgleichungen.md) eines LTI-Systems
+
 Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und Zeitinvarianz. Diese beiden Eigenschaften sind unabhängig voneinander, es können alle Kombinationen auftreten. Systeme die sowohl linear, als auch zeitinvariant sind, werden als LTI-Systeme (LTI: linear, time-invariant) bezeichnet.
+
 
 ## Lineare Systeme
 
@@ -46,18 +51,16 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 
 ## Zeitinvariante Systeme
 
-> [!important] Zeitinvarianz
-> Ein System $\mathcal{T}\{\cdot\}$ ist zeitinvariant wenn
+> [!def] **D2 - ZV)** Zeitvarianz und Zeitinvarianz
+> Ein Übertragungssystem $\mathcal{T}\{\cdot\}$ heißt **zeitinvariant**, wenn das zeitliche Verschieben der Eingangsgrößen um eine Spanne $\tau$ lediglich ein zeitliches Verschieben der Ausgangsgrößen um dieselbe Spanne zur Folge hat.
 > 
-> $$
-> \begin{aligned}
-> & \mathcal{T}\left\{x_2\right\}(t)=\mathcal{T}\left\{x_1\right\}\left(t-t_0\right) \quad \text { für alle } x_1(t), t_0 \\
-> & \operatorname{mit} x_2(t)=x_1\left(t-t_0\right)
-> \end{aligned}
-> $$
+> $$y(t) = \mathcal{T}\{x\}(t)$$
 > 
-> wenn also $y_2(t)=y_1\left(t-t_0\right)$
->
+> ZVE $\iff$ ZVA
+> - ZVA: $y_{2}(t)=y_{1}(t-t_{0})\iff\mathcal{T}\{x_{2}\}(t) = \mathcal{T}\{x_{1}\}(t-t_{0}), \quad \forall x_{1}(t),t_{0}$
+> - ZVE: $x_{2}(t)=x_{1}(t-t_{0})$
+> 
+
 
 ![](assets/Pasted%20image%2020241120155809.png)
 
@@ -134,43 +137,3 @@ Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Besc
 
 ---
 
-# Related
-
-## Systeme mit Tikz zeichnen
-
-beispiel code
-
-```tikz
-\usepackage{tikz}
-\usetikzlibrary{shapes, arrows}
-\begin{document}
-\begin{tikzpicture}[auto,>=latex', transform shape, scale=3]
-
-\tikzstyle{block} = [draw, shape=rectangle, minimum height=3em, minimum width=3em, node distance=2cm, line width=1pt]
-\tikzstyle{sum} = [draw, shape=circle, node distance=1.5cm, line width=1pt, minimum width=1.25em]
-\tikzstyle{branch} = [fill,shape=circle,minimum size=4pt,inner sep=0pt]
-
-%Creating Blocks and Connection Nodes
-\node at (-2.5,0) (input) {$x[n]$};
-\node [block] (h1) {$h_1[n]$};
-\node [block, right of=h1] (h2) {$h_2[n]$};
-\node [sum, right of=h2] (sum) {};
-\node at (sum) (plus) {{\footnotesize$+$}};
-\node at (5,0) (output) {$y[n]$};
-\path (h1) -- coordinate (med) (h2);
-\path (input) -- coordinate(branch1) (h1);
-\node [block, below of=med] (h3) {$h_3[n]$};
-
-%Conecting Blocks
-\begin{scope}[line width=1pt]
-     \draw[->] (input) -- (h1);
-     \draw[->] (h1) -- (h2);
-     \draw[->] (h2) -- (sum);
-     \draw[->] (sum) -- (output);
-     \draw[->] (branch1) node[branch] {} |- (h3);
-     \draw[->] (h3) -| (sum);
-\end{scope}
-
-\end{tikzpicture}
-\end{document}
-```

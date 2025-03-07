@@ -37,6 +37,10 @@ professor:
 >
 > ![500](assets/Lipschitz_Visualisierung.gif)
 
+## Folgerungen
+
+- Lösbarkeit einer DGL: [Picard-Lindelöf](Picard-Lindelöf.md)
+
 ---
 
-[Analysis Integrale: Eine stetige Funktion, die nicht Lipschitz-stetig ist](https://www.youtube.com/watch?v=p51A_GClQKE&t=298s)
+- [Analysis Integrale: Eine stetige Funktion, die nicht Lipschitz-stetig ist](https://www.youtube.com/watch?v=p51A_GClQKE&t=298s)

@@ -30,6 +30,7 @@ Der Zustand des Systems beschreibt die internen Größen des Systems
 > 
 > um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen.
 > 
+> 
 
 - Es spielt dabei **keine Rolle**, wie der Zustand in der **Vergangenheit** (zu Zeiten $t<t_0$ ) entstanden ist
 - In der Regel wird der Zustand eines Systems durch mehrere Größen beschrieben
@@ -84,11 +85,13 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von 
 > Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist. *Der Störvektor $u$ ist im obigen fall gegeben, in weiterer Folge wird dieser Generalisiert.*
 > - $\rightarrow$ **Zustandsgleichungen**
 
+Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
+
 > [!info] Annahme: Es gibt $q$ **Ausgangsgrößen** $y_1, y_2, \ldots, y_q$
 > Ausgangsgrößen lassen sich als Linearkombination der **Zustandsgrößen** und der **Eingangsgrößen** darstellen.
 > - $\to$ **Ausgangsgeichung** 
 
-> [!def] Schreibweise:
+> [!def]  **D1 - ZSGR)** Schreibweise für  Zutandsgrößen
 > 
 > $$
 > \begin{align}
@@ -100,7 +103,7 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von 
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
 
-> [!def] **D1 - ZSGL)** Zustands und Ausgangsgleichungen
+> [!def] **D2 - ZSGL)** Zustands und Ausgangsgleichungen
  >
 > $$
 > \begin{align}
@@ -111,7 +114,10 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 > 
 > Diese Gleichungen sind ausriechend, um ein [LTI-System](LTI-Systeme.md) vollständig zu beschrieben
 
-> [!def] **D2 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
+- Ist die Stellgröße $\mathbf{u}(t) = 0$ heißt das System **frei**.
+- ist der Zustandsvektor $\mathbf{x}(t) = \mathbf{x}$ (also unabhägig von $t$) heißt das System **autonom**. 
+
+> [!def] **D3 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
 > $\mathbf{A}$ Systemmatrix ($\in n\times n$)
 > $\mathbf{B}$ Eingangsmatrix ($\in n \times p$)
 > $\mathbf{C}$ Ausgangsmatrix ($\in q \times n$)
