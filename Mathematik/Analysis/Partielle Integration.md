@@ -29,7 +29,6 @@ professor:
 > [!example] Stammfunktion von $\ln \left(\operatorname{auf} \mathbb{R}^{+}\right)$mit $f: \equiv 1$ und $g:=\ln$ :
 > $$\int \ln x d x=\int 1 \cdot \ln x d x=x \ln x-\int x x^{-1} d x=x \ln x-x=x(\ln x-1)$$
 
-
 ## Tabellarische Methode
 
 Bei mehrmaliger Anwendung der Partiellen Integration ist eine Tabellarische Schreibweise hilfreich:
@@ -69,8 +68,6 @@ $$
 > &= Fg- F_{(2)}g' + F_{(3)}g''-F_{(4)}g'''+ F_{(5)}g^{(4)}- F_{(6)}
 > \end{align}
 > $$
-
-
 
 ## Integration von Transitiven Produkten
 
