@@ -38,7 +38,7 @@ $$
 > [!def] **D2 - MATZ)** Definition des Martizant
 > Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Matrizant**, bezeichnet mit $X_{t_0}$.
 > 
-
+>  $$X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)$$
 
 Diese Matrix ist die eindeutige Lösung des linearen AWP (auch Matrix-DGL genannt)
 
@@ -56,7 +56,6 @@ $$
 > \end{gathered}
 > $$
 > 
-> > [!success] für $t=t_{0}$ ist $X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t_{0})=\mathbb{1}_{m}$
 > 
 > Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden
 > 
