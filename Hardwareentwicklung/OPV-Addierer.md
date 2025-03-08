@@ -73,7 +73,7 @@ $$
 
 Diese Schaltung invertiert also die Summe.
 
-### Mit einer generischen Anzahl von Spannungen
+### Mit einer generischen Anzahl von Eingängen
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -107,8 +107,10 @@ Diese Schaltung invertiert also die Summe.
 \end{document}
 ```
 
+Wieder folgt aus der Knotenregel:
+
 $$
 \begin{align}
-\frac{U_{\mathrm{A}}}{R} \implies U_{\mathrm{A}} = -R \sum_{i=1}^{n} \frac{U_{\mathrm{E}i}}{R_{i}}
+\frac{U_{\mathrm{A}}}{R}+ \sum_{i=1}^{n} \frac{U_{\mathrm{E}i}}{R_{i}} = 0\implies U_{\mathrm{A}} = -R \sum_{i=1}^{n} \frac{U_{\mathrm{E}i}}{R_{i}}
 \end{align}
 $$
