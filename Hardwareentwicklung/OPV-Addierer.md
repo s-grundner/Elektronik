@@ -47,14 +47,14 @@ $$
 \draw (0,0) node[op amp] (opv) {};
 \draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
 \draw (opv.-)
-    to [R, l_=$R_2$, *-o] (opv.- -| -3,0)
-    node[left] {$U_{E2}$};
+    to [R, l_=$R_1$, i<_=$I_1$, *-o] (opv.- -| -4,0)
+    node[left] {$U_{E1}$};
 \draw (opv.-)
     to[short, *-*] (opv.- |- 0, 2)
-    to[R, l_=$R_1$, -o] (-3, 2)
-    node[left] {$U_{E1}$};
+    to[R, l_=$R_2$, i<_=$I_2$, -o] (-4, 2)
+    node[left] {$U_{E2}$};
 \draw (opv.- |- 0, 2)
-    to[R=$R_3$] (opv.out |- 0, 2)
+    to[R=$R_3$, i<=$I_3$] (opv.out |- 0, 2)
     to[short, -*] (opv.out)
     to[short, -o] ++(1,0) node[right] {$U_A$};
 
@@ -62,14 +62,46 @@ $$
 \end{document}
 ```
 
-
 Da der nicht invertierende Eingang auf Masse liegt, ist der invertierende Eingang eine virtuelle Masse. Somit lautet die Knotengleichung
 
 $$
 \begin{gathered}
 \frac{U_{E 1}}{R_2}+\frac{U_{E 2}}{R_1}+\frac{U_A}{R_3}=0 \\
-U_A=-\left(\frac{R_3}{R_{2}} U_{E 1}+\frac{R_3}{R_{1}} U_{E 2}\right)
+U_A=-R_{3}\left(\frac{U_{\mathrm{E 1}}}{R_{2}} +\frac{U_{\mathrm{E 2}}}{R_{1}} \right)
 \end{gathered}
 $$
 
 Diese Schaltung invertiert also die Summe.
+
+### Mit einer generischen Anzahl von Spannungen
+
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{circuitikz}[thick, scale=1, font=\Large]
+% Begin Schematic
+
+\draw (0,0) node[op amp] (opv) {};
+\draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opv.-)
+    to [R, l_=$R_2$, i<_=$I_2$, *-o] (opv.- -| -4,0)
+    node[left] {$U_{E2}$};
+\draw (opv.-)
+    to[short, *-*] (opv.- |- 0, 2)
+    to[R, l_=$R_1$, i<_=$I_3$, -o] (-4, 2)
+    node[left] {$U_{E1}$};
+\draw (opv.- |- 0, 2)
+    to[R=$R_3$] (opv.out |- 0, 2)
+    to[short, -*] (opv.out)
+    to[short, -o] ++(1,0) node[right] {$U_A$};
+
+\draw (opv.- |- 0, 2) -- ++(0,2)
+    to[R, l_=$R_n$, i<_=$I_n$] (-4, 4);
+
+\node{$\vdots$} at (-2, 3);
+
+\end{circuitikz}
+\end{document}
+```
