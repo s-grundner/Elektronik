@@ -41,11 +41,11 @@ $$
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, scale=1, font=\Large]
+\begin{circuitikz}[thick, scale=1.5, font=\Large, transform shape]
 % Begin Schematic
 
 \draw (0,0) node[op amp] (opv) {};
-\draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opv.+) to[short] ++(0,-0.5) node[rground] {};
 \draw (opv.-)
     to [R, l_=$R_1$, i<_=$I_1$, *-o] (opv.- -| -4,0)
     node[left] {$U_{E1}$};
@@ -54,7 +54,7 @@ $$
     to[R, l_=$R_2$, i<_=$I_2$, -o] (-4, 2)
     node[left] {$U_{E2}$};
 \draw (opv.- |- 0, 2)
-    to[R=$R_3$, i<=$I_3$] (opv.out |- 0, 2)
+    to[R=$R$, i<=$I$] (opv.out |- 0, 2)
     to[short, -*] (opv.out)
     to[short, -o] ++(1,0) node[right] {$U_A$};
 
@@ -66,8 +66,8 @@ Da der nicht invertierende Eingang auf Masse liegt, ist der invertierende Eingan
 
 $$
 \begin{gathered}
-\frac{U_{E 1}}{R_2}+\frac{U_{E 2}}{R_1}+\frac{U_A}{R_3}=0 \\
-U_A=-R_{3}\left(\frac{U_{\mathrm{E 1}}}{R_{2}} +\frac{U_{\mathrm{E 2}}}{R_{1}} \right)
+\frac{U_{\mathrm{E}1}}{R_2}+\frac{U_{\mathrm{E} 2}}{R_1}+\frac{U_\mathrm{A}}{R}=0 \\
+U_{\mathrm{A}}=-R\left(\frac{U_{\mathrm{E 1}}}{R_{2}} +\frac{U_{\mathrm{E 2}}}{R_{1}} \right)
 \end{gathered}
 $$
 
@@ -80,28 +80,35 @@ Diese Schaltung invertiert also die Summe.
 \usepackage{amsmath}
 
 \begin{document}
-\begin{circuitikz}[thick, scale=1, font=\Large]
+\begin{circuitikz}[thick, scale=1.5, font=\Large, transform shape]
 % Begin Schematic
 
 \draw (0,0) node[op amp] (opv) {};
-\draw (opv.+) to[short] ++(0,-0.5) node[tlground] {};
+\draw (opv.+) to[short] ++(0,-0.5) node[rground] {};
 \draw (opv.-)
     to [R, l_=$R_2$, i<_=$I_2$, *-o] (opv.- -| -4,0)
-    node[left] {$U_{E2}$};
+    node[left] {$U_{\mathrm{E2}}$};
 \draw (opv.-)
     to[short, *-*] (opv.- |- 0, 2)
     to[R, l_=$R_1$, i<_=$I_3$, -o] (-4, 2)
-    node[left] {$U_{E1}$};
+    node[left] {$U_{\mathrm{E1}}$};
 \draw (opv.- |- 0, 2)
-    to[R=$R_3$] (opv.out |- 0, 2)
+    to[R=$R$, i<=$I$] (opv.out |- 0, 2)
     to[short, -*] (opv.out)
     to[short, -o] ++(1,0) node[right] {$U_A$};
 
-\draw (opv.- |- 0, 2) -- ++(0,2)
-    to[R, l_=$R_n$, i<_=$I_n$] (-4, 4);
+\draw (opv.- |- 0, 2) -- ++(0,2) coordinate(A)
+    to[R, l_=$R_n$, i<_=$I_n$, -o] (-4, 4) coordinate(B)
+    node[left]{$U_{\mathrm{En}}$};
 
-\node{$\vdots$} at (-2, 3);
+\draw ($(A)!0.5!(B)$) node[below=10pt]{$\vdots$};
 
 \end{circuitikz}
 \end{document}
 ```
+
+$$
+\begin{align}
+\frac{U_{\mathrm{A}}}{R} \implies U_{\mathrm{A}} = -R \sum_{i=1}^{n} \frac{U_{\mathrm{E}i}}{R_{i}}
+\end{align}
+$$
