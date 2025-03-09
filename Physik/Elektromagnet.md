@@ -16,33 +16,37 @@ title: Elektromagnet
 
 # Elektromagnet
 
-## EM als Antriebselement
+Elektromagnete (EM)
+
+## Motivation zu Elektromagneten
+
+### EM als Antriebselement
 
 Elektromagnete sind Antriebselemente für
-
 - begrenzte rotatorische
 - lineare Bewegungen
-- kleinere Kleinere Leistungen
 
-Raststellen
 
-- 1 Raststellung: Stanz und Druckmagnete
-- 2 Raststellungen: *Betätigungsmagnete*
-- \>2 Raststellungen: Doppelhubmagnet, Stepper-Motor (Schrittmotoren)
 
-Betätigungsmagnete
+> [!important] **Raststellen**
+> - 1 Raststellung: Stanz und Druckmagnete
+> - 2 Raststellungen: *Betätigungsmagnete*
+> - \>2 Raststellungen: Doppelhubmagnet, Stepper-Motor (Schrittmotoren)
 
-Anfangslage des Ankers $S_{1}$
-Endlage des Ankers $S_{2}$
+> [!important] **Betätigungsmagnete**
+> Anfangslage des Ankers $S_{1}$, Endlage des Ankers $S_{2}$
+> 
+> - Nur eine aktive Wirkungsrichtung: $S_{1} \to S_{2}$
+> - Rückstellbewegung muss extern erfolgen z.B. Feder (Passive Wirkungsrichtung)
 
-Nur eine aktive Wirkungsrichtung: $S_{1} \to S_{2}$
-Rückstellbewegung muss extern erfolgen z.B. Feder (Passive Wirkungsrichtung)
+> [!hint] **Reluktanzprinzip:**
+> Durch magnetische Feldkräfte verursachte Bewegung wirkt in Richtung des minimalen magnetischen Widerstandes des Magnetkreises.
 
-**Reluktanzprinzip:** Durch magnetische Feldkräfte verursachte Bewegung wirkt in Richtung des minimalen magnetischen Widerstandes des Magnetkreises.
-
-## EM als Energiewandler
+### EM als Energiewandler
 
 Elektrische Energie -> (zwischenform) Magnetische Energie -> Mechanische Energie / Bewegung, Moment
+
+## Grundformen von EM
 
 ---
 
