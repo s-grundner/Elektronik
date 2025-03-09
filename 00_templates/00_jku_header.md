@@ -13,7 +13,7 @@ subject:
 semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
-<%* if(typ == "VL") tR += "draft: false\n" _%>  
+<%* if(typ == "VL") tR += "draft: true\n" _%>  
 <%* if(typ == "VL") tR += "title: " + tp.file.title + "\n"_%>
 <%* if(typ == "UE") tR += "due:\n" _%>
 ---
