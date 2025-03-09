@@ -27,14 +27,13 @@ Die Rampenfunktion $\rho(t)$ steigt für $t>0$ linear mit der Zeit an.
 
 ![400](assets/ramp_func.png)
 
-## reelle Exponentialfunktion
+## Reelle Exponentialfunktion
 
 Die reelle Exponentialfunktion $x(t)=e^{\alpha t}=e^{\dfrac{t}{T}}$ besitzt die Zeitkonstante $T=\frac{1}{\alpha}$, welche die Länge der Subtangente, bzw. den Abfall auf $\dfrac{1}{e}=36,8 \%$ beschreibt.
 
 $$
 e^{\alpha t} \begin{cases}\alpha>0 & \text { anklingend } \\ \alpha<0 & \text { abklingend, gedämpft }\end{cases}
 $$
-
 
 ```tikz
 \usepackage{tikz}
