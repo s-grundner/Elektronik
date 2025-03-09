@@ -30,5 +30,7 @@ Blöcke von Standard Operationen:
 > die physik kann nicht differenzieren. man müsste in die zukunft schauen.
 > 
 > - Integrieren: alle bisherigen werte aufsummieren
-> - Ableiten: Man mus beobachten, wie sich der Wert in kleines Stück im voraus geändert hat. 
+> - Ableiten: Man muss beobachten, wie sich der Wert in kleines zeitstück im voraus ändert hat. 
+> - siehe: [Differenzieren](../Mathematik/Analysis/Differenzialrechnung.md#^fig1). hier rechnet man ja $x_{0}+\Delta x$
+
 

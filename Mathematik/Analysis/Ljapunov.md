@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - Stabilität von DGL
+  - Ruhelage
 keywords: 
 subject:
   - Regelungstechnik
@@ -40,3 +41,5 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 | ![](../../assets/Excalidraw/DGL-Stabil.md)                                                                                                     | ![](../../assets/Excalidraw/DGL-Attr.md)                                                                                | ![](../../assets/Excalidraw/DGL-AsympStabil.md)                                                         |
 
 > [!def] **D1 - LJAP)** 
+
+
