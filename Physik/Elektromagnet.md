@@ -49,7 +49,7 @@ Elektromagnete sind **Antriebselemente** für  rotatorische und  lineare Bewegun
 > 
 > - **Eisenkreis**
 >     - **Anker** als bewegliches Teil
->     - **Stator** / Eisenrückschluss fest mit Erregerspule verbunden.
+>     - **Stator** / **Eisenrückschluss** fest mit Erregerspule verbunden.
 > - **Erregerspule** (Permanentmagnet bei klassischem Magnetkreis)
 > - **Arbeitsluftspalt**. Die gestalt des ALS ist wesentlich für den verlauf der Magnetkraft-Hub Kennlinie
 

@@ -69,10 +69,11 @@ diamagnetisch: $\mu_{r}<$  (material stoßt sich vom Magnetfeld leicht ab)
 
 > [!hint] Es gibt keine Magnetischen Monopole $\iff$ [4. Maxwell Gleichung](Maxwell.md#^MW4)
 
-|          **Permanentmagneten**           |            **Elektromagneten**            |
-| :--------------------------------------: | :---------------------------------------: |
-| ![invert_dark\|400](assets/PermMagn.png) | ![invert_dark\|400](assets/ElektMagn.png) |
+|          **Permanentmagneten**           | [Elektromagnet](../Physik/Elektromagnet.md) |
+| :--------------------------------------: | :-----------------------------------------: |
+| ![invert_dark\|400](assets/PermMagn.png) |  ![invert_dark\|400](assets/ElektMagn.png)  |
 
+Der Permanentmagnet selbst hat einen hohen magnetischen widerstand für Fremdfelder ($\mu \approx 1.1$). Äquivalent zum Innwiderstand einer Spannungsquelle.
 
 ## Magnetischer Fluss
 
@@ -112,6 +113,15 @@ $$
 $$
 
 Bei einer einfachen Spule: $\Theta = N\cdot i$
+
+## Magnetkreis
+
+
+
+- Ausreichender Eisenquerschnitt
+    - Kleinere Fläche -> höhere Flussdichte daher frühere Sättigung -> Nicht linearer bereich
+- große Luftspaltfläche, kleine Luftspaltlänge
+- Symmetrischer Aufbau
 
 # Flashcards
 
