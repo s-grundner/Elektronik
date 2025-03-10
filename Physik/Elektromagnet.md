@@ -8,7 +8,8 @@ subject:
   - VL
 semester: SS25
 created: 21. November 2022
-professor: 
+professor:
+  - Wolfgang Gruber
 draft: true
 title: Elektromagnet
 ---
@@ -16,31 +17,31 @@ title: Elektromagnet
 
 # Elektromagnet
 
-Elektromagnete (EM)
+> [!info] Elektronmagnete als Energiewandler
+> 
+> Elektromagnete sind eine Schnittstelle zwischen den Elektrischen Kräften und der Kinematik.
+> 
+> ![invert_dark](assets/Pasted%20image%2020250310003826.png)
 
-## Motivation zu Elektromagneten
-
-### Elektromagnete als Antrieb
-
-Elektromagnete sind Antriebselemente für
-- begrenzte rotatorische
-- lineare Bewegungen
-
-> [!important] **Raststellen**
-> - 1 Raststellung: Stanz und Druckmagnete
-> - 2 Raststellungen: *Betätigungsmagnete*
-> - \>2 Raststellungen: Doppelhubmagnet, Stepper-Motor (Schrittmotoren)
-
-> [!important] **Betätigungsmagnete)** Anfangslage des Ankers $S_{1}$, Endlage des Ankers $S_{2}$
-> - Nur eine aktive Wirkungsrichtung: $S_{1} \to S_{2}$
-> - Rückstellbewegung muss extern erfolgen z.B. Feder (Passive Wirkungsrichtung)
 
 > [!hint] **Reluktanzprinzip**
 > Durch magnetische Feldkräfte verursachte Bewegung wirkt in Richtung des minimalen magnetischen Widerstandes des Magnetkreises.
 
-### EM als Energiewandler
 
-Elektrische Energie -> (zwischenform) Magnetische Energie -> Mechanische Energie / Bewegung, Moment
+
+## Elektromagente als Antriebe
+
+
+Elektromagnete sind **Antriebselemente** für  rotatorische und  lineare Bewegungen.
+
+**Raststellen**
+- 1 Raststellung: Stanz und Druckmagnete
+- 2 Raststellungen: *Betätigungsmagnete*
+- \>2 Raststellungen: Doppelhubmagnet, Stepper-Motor (Schrittmotoren)
+
+**Betätigungsmagnete:** Anfangslage des Ankers $S_{1}$, Endlage des Ankers $S_{2}$ 
+- Nur eine aktive Wirkungsrichtung: $S_{1} \to S_{2}$
+- Rückstellbewegung muss extern erfolgen z.B. Feder (Passive Wirkungsrichtung)
 
 ## Grundformen von EM
 
@@ -54,9 +55,9 @@ Elektrische Energie -> (zwischenform) Magnetische Energie -> Mechanische Energie
 
 Drei Relevante Elektromagnet-Grundformen:
 
-| Topfmagnet | U-Magnet | E-Magnet |
-| ---------- | -------- | -------- |
-|            |          |          |
+|            Topfmagnet             |            U-Magnet             | E-Magnet                        |
+| :-------------------------------: | :-----------------------------: | :-----------------------------: |
+| ![invert_dark](assets/TopfEM.png) | ![invert_dark](assets/U_EM.png) | ![invert_dark](assets/E_EM.png) |
 
 Ziel ist der Entwurf von EM mit verschiedenen **Magnetkraft-Hub** Kennlinien entsprechend der Anwendung. Durch Modifikationen der Grundformen komplexere Magnetkreise erstellbar.
 
