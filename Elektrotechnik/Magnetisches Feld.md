@@ -108,9 +108,8 @@ Durch die Analogie mit dem Elektrischen Strom gilt hier auch die Knotenregel. Ge
 
 Zusammenhang mit der Windungszahl einer Induktivität: Die Durchflutung $\Theta$ ist:
 
-$$
-\oint_{ \partial A}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \int_{A}\mathbf{J}\cdot\mathrm{d}\mathbf{A} = \Theta = \sum_{v=1}^{N}i_{v}
-$$
+> [!def] **D1 - DURF)** Die durch alle Erregerspulen induzierte Feldstärke breitet sich über den gesamten geschlossenen Magnetkreis der Länge $L$ aus und ergibt die Durchflutung $\Theta$.
+> $$\Theta :=\oint_{L}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
 
 Bei einer einfachen Spule: $\Theta = N\cdot i$
 

@@ -19,6 +19,8 @@ $$
 B_{m} = B_{r} \mp \mu_{0}\mu_{r}H_{m}
 $$
 
+> [!question] [magnetische Feld](../Elektrotechnik/Magnetisches%20Feld.md), [Permeablität des Vakuums](Konstanten/Permeablität%20des%20Vakuums.md)
+
 **Vorzeichen:** $H_{m}$ ist im Arbeitspunkt negativ
 
 Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb 
