@@ -7,3 +7,9 @@
 	text-align: center !important;
 	color: #00046c;
 }
+
+mjx-container[display="true"] {
+  font-size: 1.5em;
+}
+
+

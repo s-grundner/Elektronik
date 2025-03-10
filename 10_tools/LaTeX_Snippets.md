@@ -43,7 +43,8 @@
 	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "m", priority: 1},
 	{trigger: "FF", replacement: "\\mathcal{F}\\{$0\\}$1", options: "mA"},
 	{trigger: "IFF", replacement: "\\mathcal{F}^{-1}\\{$0\\}$1", options: "mA"},
-	{trigger: "TT", replacement: "\\mathcal{T}\\{$0\\}$1", options: "m"},
+	{trigger: "([a-zA-Z])cal", replacement: "\\mathcal{[[0]]}", options: "rmA"},
+	{trigger: "([a-zA-Z])frak", replacement: "\\mathfrak{[[0]]}", options: "rmA"},
 
 	// Default
 
