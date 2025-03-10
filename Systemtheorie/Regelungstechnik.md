@@ -40,7 +40,7 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 ## Beispiele
 
-Beispiele aus verscheiden Bereichen:
+Beispiele für geregelte Systeme aus verscheiden Bereichen:
 
 | Mechanik                 | Elektronik       | Hydraulik            | Soziologie             | Mechatronik  |
 | ------------------------ | ---------------- | -------------------- | ---------------------- | ------------ |
@@ -65,9 +65,13 @@ Beispiele aus verscheiden Bereichen:
 
 ### Mechatronisches Beispiel
 
+**Ausgangssystem**
+
 ![invert_dark](assets/RegTMechkreis.png)
 
-Aufstellen des Gleichungssystems dieses Systems:
+**Aufstellen des Gleichungssystems dieses Systems:**
+
+$J$ ... Trägheitsmoment, $L_{A}$ ... Ankerinduktivität, $U_{F}$ ... konstante Feldspannung des Motors
 
 Kenngrößen des DC-Motors:
 
@@ -80,10 +84,20 @@ Gleichungen für den DC-Motor:
 
 - Querspannunng: $u_{A}=R_{A}i_{A}+ L_{A} \dot{i}_{A} +k_{A}\omega_{G}$
 - Drallsatz: $M_{G}=J\dot{\omega}_{G}=k_{A}\cdot i_{A}$
+- Winkelgeschwindigkeit der Maschine: $\dot{\varphi}_{G}=\omega_{G}$
+    - $\varphi_{G} = \frac{x}{r}$ ... Winkelposition der Gleichstrommaschine, $r$ ... rollenradius
 
-![](assets/Pasted%20image%2020250307084301.png)
+
+Bewegungsgleichung des Mechanischen Teilsystems:
+
+-  $(J_{A}+J_{B}+J_{G}+r^{2}m)~\dot{\omega}_{G} = M_{G}$
+
+**Abstraktes Schaltbild**
+
+![invert_dark](assets/Pasted%20image%2020250307084301.png)
 
 Rückkopplung von $\omega$ Ergibt sich durch den DC Motor Selbst. 
 
+**Strukturbild**
 
-
+![invert_dark](assets/Pasted%20image%2020250310231552.png)

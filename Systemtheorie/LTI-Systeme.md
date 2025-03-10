@@ -22,7 +22,15 @@ professor:
 
 > [!info] [Zustandsbeschreibung](Zustandsgleichungen.md) eines LTI-Systems
 
+> [!def] **D1 - SYST)** Übertragungssystem $\mathcal{T}$
+> Bei einem Übertragungssystem braucht man zur Bestimmung der Ausgangsgrößen $\mathbf{y}$ nur die Eingangsgrößen $\mathbf{u}$ 
+
+> Wenn man zur Bestimmung der Ausgangsgrößen eines Systems nur zu wissen braucht, wie diese von den Eingangsgrößen abhängen, so beziechnet man dieses System als Übertragungssystem.
+> Dabei wird vorrausgesetzt, dass alle anderen Größen sich in festgelegter weise ändern oder konstant sind. Vorerst müssen die Eingangsgrößen auf dem intervall $t \in (-\infty, \infty)$ bekannt sein, damit die Ausgangsgrößen zu einem Zeitpunkt $t$ bestimmt werden können.
+
+
 Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und Zeitinvarianz. Diese beiden Eigenschaften sind unabhängig voneinander, es können alle Kombinationen auftreten. Systeme die sowohl linear, als auch zeitinvariant sind, werden als LTI-Systeme (LTI: linear, time-invariant) bezeichnet.
+
 
 
 ## Lineare Systeme
@@ -51,7 +59,7 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 
 ## Zeitinvariante Systeme
 
-> [!def] **D2 - ZV)** Zeitvarianz und Zeitinvarianz
+> [!def] **D2 - ZV)** Zeitvarianz und Zeitinvarianz ^ZV
 > Ein Übertragungssystem $\mathcal{T}\{\cdot\}$ heißt **zeitinvariant**, wenn das zeitliche Verschieben der Eingangsgrößen um eine Spanne $\tau$ lediglich ein zeitliches Verschieben der Ausgangsgrößen um dieselbe Spanne zur Folge hat.
 > 
 > $$y(t) = \mathcal{T}\{x\}(t)$$
@@ -61,6 +69,7 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 > - ZVE: $x_{2}(t)=x_{1}(t-t_{0})$
 > 
 
+ZVA / ZVE ... Zeitverschiebung am Ein- / Ausgang
 
 ![](assets/Pasted%20image%2020241120155809.png)
 
