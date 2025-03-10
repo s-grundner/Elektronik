@@ -1,15 +1,14 @@
 .theme-dark mjx-container[display="true"] {
-	text-align: center !important;
 	color: #FFDAA2;
 }
 
 .theme-light mjx-container[display="true"] {
-	text-align: center !important;
 	color: #00046c;
 }
 
 mjx-container[display="true"] {
-  font-size: 1.5em;
+  text-align: center !important;
+  font-size: 1.3em;
 }
 
 

@@ -1,7 +1,8 @@
 ---
-banner: "/assets/banner/MagnField.jpg"
+banner: /assets/banner/MagnField.jpg
 banner_y: 0.676
-tags: 
+tags:
+  - MOC
 aliases:
   - Magnetfeld
   - magnetische Feld
@@ -27,21 +28,14 @@ title: Das Magnetische Feld
 > [!hint] Auf bewegte Ladungsträger innerhalb eines Magnetfelds wirkt die [magnetische Kraft](Laplace-Kraft.md):
 > Die Ursache für ein magnetisches Feld sind selbst *bewegte* Ladungsträger
 
+## 🗺️ Map of Content
 
+- [Magnetkreis](Magnetkreis.md) - Schematischer Aufbau von Anwendungen
 - [Materialgesetz - Permeabilität](Permeabilität.md)
 - [Magnetische Quellen](Magnetische%20Quellen.md) - Magnete
 - [Magnetischer Fluss](Magnetischer%20Fluss.md) - $\Phi$
 - [Durchflutung](Durchflutung.md) - $\Theta$
 - [Reluktanz](Reluktanz.md)
-
-## Magnetkreis
-
-
-
-- Ausreichender Eisenquerschnitt
-    - Kleinere Fläche -> höhere Flussdichte daher frühere Sättigung -> Nicht linearer bereich
-- große Luftspaltfläche, kleine Luftspaltlänge
-- Symmetrischer Aufbau
 
 
 

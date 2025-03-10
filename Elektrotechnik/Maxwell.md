@@ -45,8 +45,8 @@ Fettgedruckte Größen sind Vektorfelder mit den wichtigsten $\mathbf{E}$ und $\
 
 Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integralsätzen:
 
-|                                                               |                                                                 |
-| :------------------------------------------------------------ | :-------------------------------------------------------------- |
+|                                                                              |                                                                 |
+| :--------------------------------------------------------------------------- | :-------------------------------------------------------------- |
 | ![](../Mathematik/Analysis/Vektoranalysis/Gaußscher%20Integralsatz.md#^GAUI) | ![](../Mathematik/Analysis/Stokesscher%20Integralsatz.md#^STOI) |
 
 ### 1. MWG - Durchflutungssatz
