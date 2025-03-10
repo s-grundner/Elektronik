@@ -1,6 +1,6 @@
 ---
-banner: "/assets/banner/magnbanner.webp"
-banner_y: 0.704
+banner: "/assets/banner/MagnField.jpg"
+banner_y: 0.676
 tags: 
 aliases:
   - Magnetfeld
@@ -29,20 +29,19 @@ title: Das Magnetische Feld
 
 ## Magnetfeld im Leiter
 
+Der Betrag des magnetischen Flusses $\mathbf{B}$ im Abstand $r$ der Leiterachse ist gegeben durch. 
+
+$$
+B(r) = \mu_{0}H(r) = \mu_{0}\frac{I}{2\pi r} \qquad[B] = \frac{Vs}{m^{2}} = T \dots \text{Tesla}
+$$
+
 > [!info] Rechte Hand Regel
-> Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. 
-> Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
+> Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
 >
-> ![200](assets/Magnetisches%20Feld%202025-03-04%2000.22.16.excalidraw)
+> ![400](assets/Magnetisches%20Feld%202025-03-04%2000.22.16.excalidraw)
 
 
-Der Betrag des magnetischen Flusses $\vec{B}$ im Abstand 𝑟 der Leiterachse ist gegeben durch.
 
-$$
-B(r) = \frac{\mu_{0}\cdot I}{2\pi r} \qquad[B] = \frac{Vs}{m^{2}} = T \dots \text{Tesla}
-$$
-
-$\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabilität](../Physik/Konstanten/Permeablität%20des%20Vakuums.md) des freien Raumes, Naturkonstante
 
 ## Materialgesetz - Permeabilität
 
@@ -50,6 +49,7 @@ $\mu_{0} \approx 4 \pi 10^{-7} \frac{\mathrm{Vs}}{\mathrm{Am}} \ldots$ [Permeabi
 > $$\mathbf{B}= \mu \mathbf{H}$$
 
 Magnetische Leitfähigkeit - **Permeabilität** $\mu = \mu_{0}\cdot\mu_{r}$:
+- $\mu_{0}$ ... [Permeablität des Vakuums](../Physik/Konstanten/Permeablität%20des%20Vakuums.md)
 - Ein gut magnetisch leitfähiges Material möchte in einem Magnetfeld den Luftspalt minimieren.
 - z.B: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
 
@@ -65,7 +65,7 @@ diamagnetisch: $\mu_{r}<$  (material stoßt sich vom Magnetfeld leicht ab)
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Durch das Einbringen eines Magnetfeldes durch eine Spule in den Eisenkreis, wird der kern Magnetisiert | Damit ergibt sich für die Magnetische Flussdichte über dem Strom die Hysterese- oder Magnetisierungskurve |
 
-### Magnetische Quellen
+## Magnetische Quellen
 
 > [!hint] Es gibt keine Magnetischen Monopole $\iff$ [4. Maxwell Gleichung](Maxwell.md#^MW4)
 
@@ -83,7 +83,7 @@ Anstelle der lokalen Feldstärke $B$ beschreibt man das Feld auch gerne durch ei
 >  Die Beziehung zwischen diesem Fluss $\Phi$ und dem Feld B entspricht genau jener zwischen elektrischem Strom $I$ und elektrischer Stromdichte $J$
 >  (obwohl im Magnetfeld nichts fließt)
 
-$$\Phi = \int_{A}\vec{B} \cdot d\vec{A} \qquad [\Phi] = Vs = Wb\dots \text{Weber}$$
+$$\Phi = \int_{A}\vec{B} \cdot d\vec{A} \qquad [\Phi] = \mathrm{Vs} = \mathrm{Wb}\dots \text{Weber}$$
 
 
 
