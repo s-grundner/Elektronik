@@ -61,7 +61,7 @@ diamagnetisch: $\mu_{r}<$  (material stoßt sich vom Magnetfeld leicht ab)
 > [!question]  **Manetische Sättigung:** Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisiert
 > - Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
-| ![invert_dark\|300](assets/Mkreis.png)                                                                 | ![invert_dark\|300](assets/Mkurve.png)                                                                    |
+| ![invert_dark\|200](assets/Mkreis.png)                                                                 | ![invert_dark\|200](assets/Mkurve.png)                                                                    |
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Durch das Einbringen eines Magnetfeldes durch eine Spule in den Eisenkreis, wird der kern Magnetisiert | Damit ergibt sich für die Magnetische Flussdichte über dem Strom die Hysterese- oder Magnetisierungskurve |
 
@@ -69,9 +69,9 @@ diamagnetisch: $\mu_{r}<$  (material stoßt sich vom Magnetfeld leicht ab)
 
 > [!hint] Es gibt keine Magnetischen Monopole $\iff$ [4. Maxwell Gleichung](Maxwell.md#^MW4)
 
-|          **Permanentmagneten**           | [Elektromagnet](../Physik/Elektromagnet.md) |
-| :--------------------------------------: | :-----------------------------------------: |
-| ![invert_dark\|400](assets/PermMagn.png) |  ![invert_dark\|400](assets/ElektMagn.png)  |
+| [Permanentmagnet](../Physik/Permanentmagnet.md) | [Elektromagnet](../Physik/Elektromagnet.md) |
+| :---------------------------------------------: | :-----------------------------------------: |
+|    ![invert_dark\|300](assets/PermMagn.png)     |  ![invert_dark\|300](assets/ElektMagn.png)  |
 
 Der Permanentmagnet selbst hat einen hohen magnetischen widerstand für Fremdfelder ($\mu \approx 1.1$). Äquivalent zum Innwiderstand einer Spannungsquelle.
 
@@ -99,7 +99,7 @@ Durch die Analogie mit dem Elektrischen Strom gilt hier auch die Knotenregel. Ge
 
 | Jeder Durch eine Fläche zufließender<br>magnetische Fluss muss auch wieder abfließen<br> $$\Phi_{1}=\Phi_{2} \iff \int_{A_{1}}\mathbf{B}_{1}\cdot\mathrm{d}\mathbf{a}=\int_{A_{2}}\mathbf{B}_{2}\cdot\mathrm{d}\mathbf{a} $$ | ![invert_dark\|300](assets/IMG_0690.png) |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Daraus ergibt sich die Knotenregel<br>$$\sum_{K} \Phi=0 \iff \oint_{A} \mathbf{B}\cdot\mathrm{d}\mathbf{a} = 0$$                                                                                                             | ![invert_dark\|300](assets/IMG_0691.png) |
+| Daraus ergibt sich die Knotenregel<br>$$\sum_{K} \Phi=0 \iff \oint_{A} \mathbf{B}\cdot\mathrm{d}\mathbf{a} = 0$$                                                                                                             | ![invert_dark\|200](assets/IMG_0691.png) |
 
 
 ## Durchflutung $\Theta$
@@ -109,7 +109,7 @@ Durch die Analogie mit dem Elektrischen Strom gilt hier auch die Knotenregel. Ge
 Zusammenhang mit der Windungszahl einer Induktivität: Die Durchflutung $\Theta$ ist:
 
 $$
-\oint_{ \delta A}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \int_{A}\mathbf{J}\cdot\mathrm{d}\mathbf{A} = \Theta = \sum_{v=1}^{N}i_{v}
+\oint_{ \partial A}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \int_{A}\mathbf{J}\cdot\mathrm{d}\mathbf{A} = \Theta = \sum_{v=1}^{N}i_{v}
 $$
 
 Bei einer einfachen Spule: $\Theta = N\cdot i$
