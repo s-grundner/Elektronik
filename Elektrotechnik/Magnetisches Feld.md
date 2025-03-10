@@ -1,5 +1,5 @@
 ---
-banner: /assets/banner/MagnField.jpg
+banner: "/assets/banner/MagnField.jpg"
 banner_y: 0.676
 tags:
   - MOC
@@ -35,7 +35,7 @@ title: Das Magnetische Feld
 - [Magnetische Quellen](Magnetische%20Quellen.md) - Magnete
 - [Magnetischer Fluss](Magnetischer%20Fluss.md) - $\Phi$
 - [Durchflutung](Durchflutung.md) - $\Theta$
-- [Reluktanz](Reluktanz.md)
+- [Reluktanz](Reluktanz.md) - $\mathfrak{R}$
 
 
 

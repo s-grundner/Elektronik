@@ -60,7 +60,7 @@ $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_
 |                                 | Feldstärke            | Fluss                            | Abstand / Länge | Permeabiltät des Materials |
 | ------------------------------- | --------------------- | -------------------------------- | --------------- | -------------------------- |
 | $\color{orange}\text{Stator}$   | $\mathbf{H}_{S}$      | $\Phi_{S}=\Phi_{Re} + \Phi_{Li}$ | $l_{S}$         | $\mu_{0}\mu_{r}$           |
-| $\color{lightblue}\text{Rotor}$ | $\mathbf{H}_{R}$      | $\Phi_{R}$                       | $l_{R}$         | $\mu_{0}\mu_{r}$           |
+| $\color{cyan}\text{Rotor}$ | $\mathbf{H}_{R}$      | $\Phi_{R}$                       | $l_{R}$         | $\mu_{0}\mu_{r}$           |
 | $\color{green}\text{Luftspalt}$ | $\mathbf{H}_{\delta}$ | $\Phi_{R}$                       | $\delta$        | $\mu_{0}$                  |
 
 |                                       | Windungszahl | elektrischer Strom |
@@ -68,19 +68,19 @@ $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_
 | $\color{magenta}\text{Erregerspulen}$ | $N$          | $i$                |
 
 
-1. [Durchflutung](Durchflutung.md)
+> [!question] Gefragt ist, wie man diese Maschine als Magnetkreis Modelliert.
 
-$$
-\Theta = \oint_{L} \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}
-$$
+1. Ausgangspunkt ist die Definition der [Durchflutung](Durchflutung.md)
 
-- Das Ringintegral wird zur **Maschengleichung**:
+$$\Theta = \oint_{L} \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
+
+2. Das Ringintegral wird zur **Maschengleichung**:
 
 $$2 H_{\delta}\delta + H_{R}l_{R} + H_{S} l_{S} = 2Ni$$
 
-2. Beziehungen anwenden:
-- Materialgleichung $\mathbf{B}=\mu \cdot \mathbf{H}$
-- Magnetischer Fluss: $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen jeder Sektion des Modells erweitern
+3. Beziehungen Anwenden
+    - [Materialgleichung](Permeabilität.md) $\mathbf{B}=\mu \cdot \mathbf{H}$
+    - [Magnetischer Fluss](Magnetischer%20Fluss.md): $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen jeder Sektion des Modells erweitern
 
 $$
 \begin{align}
@@ -90,7 +90,7 @@ $$
 $$
 
 
-Einsetzen des [magnetischen Widerstandes](Reluktanz.md) $\mathfrak{R}=\dfrac{l}{\mu A}$ leifert:
+3. Einsetzen des [magnetischen Widerstandes](Reluktanz.md) $\mathfrak{R}=\dfrac{l}{\mu A}$ leifert:
 
 $$
 \begin{align}
