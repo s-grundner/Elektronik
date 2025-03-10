@@ -57,22 +57,48 @@ $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_
 
 ![invert_dark|500](assets/KreisBsp.png)
 
-|                                 | Feldstärke            | Fluss                            | Abstand / Länge |
-| ------------------------------- | --------------------- | -------------------------------- | --------------- |
-| $\color{orange}\text{Stator}$   | $\mathbf{H}_{S}$      | $\Phi_{S}=\Phi_{Re} + \Phi_{Li}$ | $l_{S}$         |
-| $\color{lightblue}\text{Rotor}$ | $\mathbf{H}_{R}$      | $\Phi_{R}$                       | $l_{R}$         |
-| $\color{green}\text{Luftspalt}$ | $\mathbf{H}_{\delta}$ | $\Phi_{R}$                       | $\delta$        |
+|                                 | Feldstärke            | Fluss                            | Abstand / Länge | Permeabiltät des Materials |
+| ------------------------------- | --------------------- | -------------------------------- | --------------- | -------------------------- |
+| $\color{orange}\text{Stator}$   | $\mathbf{H}_{S}$      | $\Phi_{S}=\Phi_{Re} + \Phi_{Li}$ | $l_{S}$         | $\mu_{0}\mu_{r}$           |
+| $\color{lightblue}\text{Rotor}$ | $\mathbf{H}_{R}$      | $\Phi_{R}$                       | $l_{R}$         | $\mu_{0}\mu_{r}$           |
+| $\color{green}\text{Luftspalt}$ | $\mathbf{H}_{\delta}$ | $\Phi_{R}$                       | $\delta$        | $\mu_{0}$                  |
 
 |                                       | Windungszahl | elektrischer Strom |
 | ------------------------------------- | ------------ | ------------------ |
 | $\color{magenta}\text{Erregerspulen}$ | $N$          | $i$                |
 
 
-Durchflutung:
+1. [Durchflutung](Durchflutung.md)
 
 $$
 \Theta = \oint_{L} \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}
 $$
 
-Das Ringintegral wird zur Maschengleichung:
+- Das Ringintegral wird zur **Maschengleichung**:
 
+$$2 H_{\delta}\delta + H_{R}l_{R} + H_{S} l_{S} = 2Ni$$
+
+2. Beziehungen anwenden:
+- Materialgleichung $\mathbf{B}=\mu \cdot \mathbf{H}$
+- Magnetischer Fluss: $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen jeder Sektion des Modells erweitern
+
+$$
+\begin{align}
+2\delta \cdot \frac{B_{\delta} A_{\delta}}{\mu_{0}A_{\delta}} + l_{R}\cdot\frac{B_{R} A_{R}}{\mu_{0}\mu_{r} A_{R}} + l_{S}\cdot\frac{B_{S} A_{S}}{\mu_{0}\mu_{r} A_{S}} &= 2Ni \\
+2\delta \cdot \frac{\Phi_{\delta}}{\mu_{0}A_{\delta}} + l_{R}\cdot\frac{\Phi_{R}}{\mu_{0}\mu_{r} A_{R}} + l_{S}\cdot\frac{\Phi_{S}}{\mu_{0}\mu_{r} A_{S}} &= 2Ni 
+\end{align}
+$$
+
+
+Einsetzen des [magnetischen Widerstandes](Reluktanz.md) $\mathfrak{R}=\dfrac{l}{\mu A}$ leifert:
+
+$$
+\begin{align}
+2\Phi_{\delta}\mathfrak{R}_{\delta}+\Phi_{R}\mathfrak{R}_{R}+\Phi_{S}\mathfrak{R}_{S} &= 2Ni \\
+2V_{\delta}+ V_{R}+V_{S} &=2Ni
+\end{align}
+$$
+
+Mit dieser Anschaulichen Maschengleichung der magnetischen Spannungen kann ein Schaltbild für den Magnetkreis Konstruiert werden.
+
+![invert_dark|400](assets/MagnEquiv.png)

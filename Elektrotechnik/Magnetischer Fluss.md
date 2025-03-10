@@ -23,4 +23,4 @@ Durch die Analogie mit dem Elektrischen Strom gilt hier auch die Knotenregel. Ge
 
 | Jeder Durch eine Fläche zufließender<br>magnetische Fluss muss auch wieder abfließen<br> $$\Phi_{1}=\Phi_{2} \iff \int_{A_{1}}\mathbf{B}_{1}\cdot\mathrm{d}\mathbf{a}=\int_{A_{2}}\mathbf{B}_{2}\cdot\mathrm{d}\mathbf{a} $$ | ![invert_dark\|300](assets/IMG_0690.png) |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Daraus ergibt sich die Knotenregel<br>$$\sum_{K} \Phi=0 \iff \oint_{A} \mathbf{B}\cdot\mathrm{d}\mathbf{a} = 0$$                                                                                                             | ![invert_dark\|200](assets/IMG_0691.png) |
+| Daraus ergibt sich die Knotenregel<br>$$\sum_{K} \Phi=0 \iff \oint_{A} \mathbf{B}\cdot\mathrm{d}\mathbf{a} = 0$$                                                                                                             | ![invert_dark\|200](assets/magFluss_Knoten.png) |
