@@ -3,8 +3,6 @@ tags:
 aliases:
   - LTI-System
   - LTI-Systemen
-  - lineare Netzwerke
-  - Übertragungssystem
 keywords: 
 subject:
   - VL
@@ -20,20 +18,18 @@ professor:
 
 # LTI-Systeme
 
-> [!info] [Zustandsbeschreibung](Zustandsgleichungen.md) eines LTI-Systems
 
-> [!def] **D1 - SYST)** Übertragungssystem $\mathcal{T}$
-> Bei einem Übertragungssystem braucht man zur Bestimmung der Ausgangsgrößen $\mathbf{y}$ nur die Eingangsgrößen $\mathbf{u}$ 
+> [!def] **D1 - LTIS)** LTI-System
+> $$y(t)=\mathcal{T}\{x\}(t)$$
+> - $x$ ... Zustand des Systems,  $y$ ... Ausgangs des Systems
+> - Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**
+> - Zur Beschriebung eines LTI Systems dient der [Zustandsraum](Zustandsgleichungen.md) 
 
-> Wenn man zur Bestimmung der Ausgangsgrößen eines Systems nur zu wissen braucht, wie diese von den Eingangsgrößen abhängen, so beziechnet man dieses System als Übertragungssystem.
-> Dabei wird vorrausgesetzt, dass alle anderen Größen sich in festgelegter weise ändern oder konstant sind. Vorerst müssen die Eingangsgrößen auf dem intervall $t \in (-\infty, \infty)$ bekannt sein, damit die Ausgangsgrößen zu einem Zeitpunkt $t$ bestimmt werden können.
+Gibt es zudem noch einen Eingangsvektor $\mathbf{u}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem).
 
+Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
 
-Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und Zeitinvarianz. Diese beiden Eigenschaften sind unabhängig voneinander, es können alle Kombinationen auftreten. Systeme die sowohl linear, als auch zeitinvariant sind, werden als LTI-Systeme (LTI: linear, time-invariant) bezeichnet.
-
-
-
-## Lineare Systeme
+## Linearität
 
 > [!important] Linearität
 > 
@@ -51,18 +47,20 @@ Zwei wichtige Eigenschaften, die Systeme aufweisen können sind Linearität und 
 > wenn also $y(t)=a y_1(t)+b y_2(t)$
 > 
 
+
+> $$y(t) = \mathcal{T}\{x\}(t)$$
+
 ![invert_dark](assets/LinSys.png)
 
 > [!warning] **Zero In Zero-Out** Eigenschaft
 > Ein System ist nur dann echt Linear, wenn 0 am Eingang 0 am Ausgang leifert
 > - ZIZO ist eine Notwendige Bedingung
 
-## Zeitinvariante Systeme
+## Zeitinvarianz
 
 > [!def] **D2 - ZV)** Zeitvarianz und Zeitinvarianz ^ZV
 > Ein Übertragungssystem $\mathcal{T}\{\cdot\}$ heißt **zeitinvariant**, wenn das zeitliche Verschieben der Eingangsgrößen um eine Spanne $\tau$ lediglich ein zeitliches Verschieben der Ausgangsgrößen um dieselbe Spanne zur Folge hat.
 > 
-> $$y(t) = \mathcal{T}\{x\}(t)$$
 > 
 > ZVE $\iff$ ZVA
 > - ZVA: $y_{2}(t)=y_{1}(t-t_{0})\iff\mathcal{T}\{x_{2}\}(t) = \mathcal{T}\{x_{1}\}(t-t_{0}), \quad \forall x_{1}(t),t_{0}$

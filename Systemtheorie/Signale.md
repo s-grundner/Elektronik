@@ -19,6 +19,8 @@ professor:
 
 # Signale
 
+!
+
 ## Klassifizierung von Signalen
 
 1. Zeitkontinuität

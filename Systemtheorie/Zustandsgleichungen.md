@@ -46,6 +46,13 @@ Der Zustand des Systems beschreibt die internen Größen des Systems
 
 Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von ein und Ausgängen zu erweitern (MIMO)
 
+## Übertragungssystem
+
+> [!def] **D1 - USYS)** Übertragungssystem ^USYS
+> - Bei einem Übertragungssystem braucht man zur Bestimmung der Ausgangsgrößen $\mathbf{y}$ nur die Eingangsgrößen $\mathbf{u}$  zu kennen.
+> - Alle anderen Größen sind konstant oder ändern sich auf festgelegte Weise.
+> - Es müssen alle Eingangsgrößen auf dem Intervall $t \in (-\infty, \infty)$ bekannt sein, damit die Ausgangsgrößen zu einem beliebigein Zeitpunkt $t$ bestimmt werden können.
+
 ## Zustandsgleichungen
 
 - Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
