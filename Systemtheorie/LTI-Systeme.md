@@ -27,6 +27,8 @@ professor:
 
 Gibt es zudem noch einen Eingangsvektor $\mathbf{u}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem).
 
+
+
 Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
 
 ## Linearität

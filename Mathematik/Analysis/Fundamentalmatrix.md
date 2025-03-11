@@ -5,6 +5,7 @@ aliases:
   - FM D1
   - FM D2
   - FM S1
+  - Transitionsmatrix
 keywords: 
 subject:
   - VL
@@ -26,6 +27,7 @@ professor:
 > 
 > heißt **Fundamentalmatrix**.
 
+Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugehörigen DGL.
 
 Da jede Lösung das homgene DGL-System erfüllt, gilt
 $$
@@ -76,11 +78,20 @@ $$
 > $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]:=R(t)$$
 > $R(t)$ Steht für die Rechte seite der DGL (also der term rechts des Gleichheitszeichens)
 
+Durch die Eigenschaften der Fundamentalmatrix lässt sich die Variation der Konstanten auch anschreiben wie;
+
+ $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(-\tau) b(\tau) d \tau\right]$$
+
 > [!success] Hier ist gezeigt, dass $R(t)$ tatsächlich die eindeutige Lösung des [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md) ist:
 > ![](assets/Pasted%20image%2020241106135932.png)
 
-## DGL-Systeme mit konstanten Koeffizienten
+## Eigenschaften
 
-Bei DGL Systemen mit konstanten Koeffizienten lässt sich die Fundamentalmatrix $X(t)$ durch die Matrix-Exponentialfunktion und den Hauptvektoren des Systems bestimmen: 
+Hat die zur Fundamentalmatrix die Lösung der Form eines Matrix-Exponential, weist sie folgende Eigenschaften auf:
 
-- Siehe [Fundamentalmatrix](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md#Fundamentalmatrix) in DGL Systeme mit konstanten Koeffizienten
+> [!satz] **S1)** Sei die Fundamentalmatrix $X=e^{\mathbf{A}t}$ ein Matrix Exponential zur konstanten Koeffizientenmatrix $\mathbf{A}$, dann gelten die folgenden Eigenschaften.
+> 
+> 1. $X(0) = \mathbb{1}$
+> 2. $X(t+\tau) = X(t)X(\tau)$
+> 3. $X(t)^{-1}=X(-t)$
+> 4. $\dot{X}(t)=\mathbf{A}X(t)$

@@ -16,6 +16,10 @@ professor:
 
 # Lineare [DGL-Systeme](Analysis/DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
 
+> [!question]  Diese Ansätze dienen zur Lösung von LTI-Systemen. Diese haben die Form:
+> $$\dot{x} = \mathbf{A}x(t) + \mathbf{B}$$
+> 
+
 $$
 \begin{aligned}
 \dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}), \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}
@@ -23,6 +27,8 @@ $$
 $$
 
 $A$ ist nicht von $t$ Abhängig
+
+## Homogene Lösung
 
 > [!question] Erinnerung an das 2-Dimensionale System $m=1$:
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$

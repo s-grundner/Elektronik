@@ -22,7 +22,7 @@ professor:
 
 # Zustandsbeschreibung eines Systems
 
-Der Zustand des Systems beschreibt die internen Größen des Systems
+Der Zustand des Systems beschreibt die internen Größen des **linearen Systems**
 
 > [!question] Wie lässt sich der Zustand ermitteln?
 > Für jeden Zeitpunkt $t_0$ reicht
@@ -111,19 +111,21 @@ Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
 
-> [!def] **D2 - ZSGL)** Zustands und Ausgangsgleichungen
+> [!def] **D2 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme
  >
 > $$
 > \begin{align}
-> \mathbf{\dot{x}}(t) = \mathbf{A}\cdot \mathbf{x}(t) + \mathbf{B}\cdot \mathbf{u}(t) \\
-> \mathbf{y}(t) = \mathbf{C}\cdot \mathbf{x}(t) + \mathbf{D}\cdot \mathbf{u}(t) 
+> \mathbf{\dot{x}}(t) = \mathbf{A}(t)\cdot \mathbf{x}(t) + \mathbf{B}(t)\cdot \mathbf{u}(t) \\
+> \mathbf{y}(t) = \mathbf{C}(t)\cdot \mathbf{x}(t) + \mathbf{D}(t)\cdot \mathbf{u}(t) 
 > \end{align}
 > $$ 
-> 
-> Diese Gleichungen sind ausriechend, um ein [LTI-System](LTI-Systeme.md) vollständig zu beschrieben
+>
+> Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben
+> Sind die Koeffizientenmatrizen konstant, ist das System zusätzlich Zeitinvariant -> [LTI-System](LTI-Systeme.md)
 
 - Ist die Stellgröße $\mathbf{u}(t) = 0$ heißt das System **frei**.
 - ist der Zustandsvektor $\mathbf{x}(t) = \mathbf{x}$ (also unabhägig von $t$) heißt das System **autonom**. 
+- Bei LTI Systemen lassen sich Lösungen wie bei [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) ansetzen.
 
 > [!def] **D3 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
 > $\mathbf{A}$ Systemmatrix ($\in n\times n$)

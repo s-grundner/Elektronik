@@ -47,7 +47,9 @@ Damit sind alle Lösungen des inhomogenen Systems gegeben durch
 $$
 x(t)=X(t)\left[c+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]
 $$
-mit $c \in \mathbb{R}^m$. $c$ ist noch nicht den Anfangswerten angepasst. Eingesetzt mit den AWP wird $c$ zu $x_{0}$
+mit $c \in \mathbb{R}^m$. $c$ ist noch nicht den Anfangswerten angepasst. 
+
+
 
 ### Eindeutige Lösung
 
@@ -57,8 +59,17 @@ $$
 x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]
 $$
 
+
+
 oder mit Hilfe des Matrizanten durch
 
 $$
 x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right] .
 $$
+
+
+
+Durch die [Eigenschaften der Fundamentalmatrix](Fundamentalmatrix.md#Eigenschaften) lässt sich die Variation der Konstanten auch anschreiben wie:
+
+ $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(-\tau) b(\tau) d \tau\right]$$
+Das Integral wird zum [Faltungsintegral](../../Systemtheorie/Faltung.md#^FALT)
