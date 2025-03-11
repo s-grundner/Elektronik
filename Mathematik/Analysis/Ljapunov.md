@@ -19,6 +19,8 @@ title: Stabilität nach Ljapunov
 
 # Stabilität nach Ljapunov
 
+## Differentialgleichungen
+
 Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich durch leicht unterschiedliche Anfangswerte $(t_{0},x_{0})$ unterscheiden, im Grenzwert $x\to \infty$ verhalten.
 
 Wir bringen ein $\varepsilon$ und ein $\delta$ ins spiel, sodass zwei bedinungen erfüllt sind:
@@ -34,7 +36,7 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 > - Ruhelage unten ist stabil
 > - Ruhelage oben ist instabil. Eine kleine Abweichung eskaliertdas System
 >     - Das Pendel kehrt nicht mehr in die Ursprüngliche Ruhelage zurück, verlässt also das $\varepsilon$ Gebiet der Phase des Pendels
-> ![invert_dark|400](assets/LjapPendel.png)
+> ![invert_dark|300](assets/LjapPendel.png)
 
 | **Stabil**                                                                                                                                     | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>Stabil & Attrahierend                                                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -44,3 +46,8 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 > [!def] **D1 - LJAP)** 
 
 
+### Ljapunov Funktion
+
+## Differenzengleichungen
+
+Auch die Lösungsfolge Zeitdiskrete Differenzengleichungen kann auf Stabilität untersucht werden
