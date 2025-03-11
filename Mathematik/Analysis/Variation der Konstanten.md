@@ -13,26 +13,27 @@ professor:
 
 # Variation der Konstanten
 
-Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen Differenzialgleichungen 1. Ordnung gefunden werden.
+Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen Differenzialgleichungen 1. Ordnung gefunden werden. Sie ist außerdem die Lösungformel zur allgemeinen Lösung von [LTI-Systemen](../../Systemtheorie/LTI-Systeme.md)
 
 - [M2, Variation der Konstanten - Lubov, Vassilevskaya](http://math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf)
 - [Inhomogene lineare DG erster Ordnung](https://statmath.wu.ac.at/~leydold/MOK/HTML/node182.html)
 
 ## Lösungsansatz für Inhomogene DGL-Systeme 1. Ordnung
 
-$$
-x_{p}(t)= X(t)\cdot c(t)
-$$
+$$ x_{p}(t)= X(t)\cdot c(t) $$
+
 wobei $X(t)$ die [Fundamentalmatrix](Fundamentalmatrix.md) ist.
 
-Durch ableiten unter anwendung der [Produktregel](Produktregel.md):
-
-$$
-\begin{align}
-\dot{x}_{p}(t) &= \dot{X}(t)\cdot c(t)+X(t)\cdot \dot{c}(t) = A(t)\cdot \underbrace{ X(t)\cdot c(t) }_{ x_{p}(t) }+ X(t)\cdot \dot{c}(t) \overset{ ! }{ = } A(t)\cdot x_{p}(t)+b(t)  \\
-&\implies b(t) = X(t) \dot{c}(t)\implies c(t) = \int_{t_{0}}^{t}X(\uptau)^{-1}b(\uptau)\mathrm{~d}\uptau
-\end{align}
-$$
+> [!hint] Herleitung zur Variation der Konstanten
+>  
+> Durch ableiten unter anwendung der [Produktregel](Produktregel.md):
+> 
+> $$
+> \begin{align}
+> \dot{x}_{p}(t) &= \dot{X}(t)\cdot c(t)+X(t)\cdot \dot{c}(t) = A(t)\cdot \underbrace{ X(t)\cdot c(t) }_{ x_{p}(t) }+ X(t)\cdot \dot{c}(t) \overset{ ! }{ = } A(t)\cdot x_{p}(t)+b(t)  \\
+> &\implies b(t) = X(t) \dot{c}(t)\implies c(t) = \int_{t_{0}}^{t}X(\uptau)^{-1}b(\uptau)\mathrm{~d}\uptau
+> \end{align}
+> $$
 
 ### Allgemeine Lösung
 

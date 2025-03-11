@@ -27,14 +27,20 @@ professor:
 > 
 > heißt **Fundamentalmatrix**.
 
-Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugehörigen DGL.
+Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das DGL-System aus einer [DGL höherer Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) entsprungen, ist jede Zeile die Ableitung der Vorherigen.
 
-Da jede Lösung das homgene DGL-System erfüllt, gilt
-$$
-X^{\prime}(t)=A(t) X(t)
-$$
+Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugehörigen DGL. Auch mit dem Symbol $\mathbf{\Phi}$ bezeichnet.
 
 
+> [!satz] **S1)** Eigenschaften der Fundamentalmatrix
+> 
+> 1. $\dot{X}(t)=\mathbf{A}X(t)$ ... Jede Lösung erfüllt das homegene DGL-System
+> 2. $X(t_{0}) = \mathbb{1}$
+> 
+> Hat das zur Fundamentalmatrix gehörige lin. DGL-System eine [Konstante Koeffizientenmatrix](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md), weist sie zusätzlich folgende Eigenschaften auf:
+> 
+> 3. $X(t)^{-1}=X(-t)$
+> 4. $X(t+\tau) = X(t)X(\tau)$
 
 
 > [!def] **D2 - MATZ)** Definition des Martizant
@@ -42,13 +48,7 @@ $$
 > 
 >  $$X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)$$
 
-Diese Matrix ist die eindeutige Lösung des linearen AWP (auch Matrix-DGL genannt)
-
-$$
-X^{\prime}=A(t) X, \quad X\left(t_0\right)=\mathbb{1}_m
-$$
-
-> [!satz] **S1 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
+> [!satz] **S2 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
 > 
 > Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $X(t)$ wie folgt angeben:
 > 
@@ -80,18 +80,4 @@ $$
 
 Durch die Eigenschaften der Fundamentalmatrix lässt sich die Variation der Konstanten auch anschreiben wie;
 
- $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(-\tau) b(\tau) d \tau\right]$$
 
-> [!success] Hier ist gezeigt, dass $R(t)$ tatsächlich die eindeutige Lösung des [AWP 1.2](Lineare%20DGL-Systeme%201.%20Ordnung.md) ist:
-> ![](assets/Pasted%20image%2020241106135932.png)
-
-## Eigenschaften
-
-Hat die zur Fundamentalmatrix die Lösung der Form eines Matrix-Exponential, weist sie folgende Eigenschaften auf:
-
-> [!satz] **S1)** Sei die Fundamentalmatrix $X=e^{\mathbf{A}t}$ ein Matrix Exponential zur konstanten Koeffizientenmatrix $\mathbf{A}$, dann gelten die folgenden Eigenschaften.
-> 
-> 1. $X(0) = \mathbb{1}$
-> 2. $X(t+\tau) = X(t)X(\tau)$
-> 3. $X(t)^{-1}=X(-t)$
-> 4. $\dot{X}(t)=\mathbf{A}X(t)$
