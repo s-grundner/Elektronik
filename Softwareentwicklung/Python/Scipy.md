@@ -9,6 +9,6 @@ cited:
 
 Signal Toolbox: `scipy.signal`
 
-Zur Darstellung von [Systemen](../../Systemtheorie/Systemtheorie.md):
+Zur Darstellung von [Systemen](../../Systemtheorie/{MOC}%20Systemtheorie.md):
 - Übertragungsfunktion
 - Impulsantwort

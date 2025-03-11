@@ -3,6 +3,7 @@ tags:
   - tikz/pgfplot
 aliases:
   - Diskret
+  - Signale
 keywords:
   - Kausalität
   - Kontinuität
@@ -19,7 +20,7 @@ professor:
 
 # Signale
 
-!
+> [!important] Wichtige Grundlegende Signale sind die [Testsignale](Testsignale.md)
 
 ## Klassifizierung von Signalen
 

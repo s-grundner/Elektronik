@@ -1,6 +1,7 @@
 ---
 tags:
   - tikz/circuitikz
+  - Systeme/Dynamisch
 aliases:
   - Zustandsbeschreibung
   - Zustandsvariablen
@@ -103,8 +104,8 @@ Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 > $$
 > \begin{align}
 > \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
-> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{p} \right] ^{T}\tag{Zustandsvektor} \\
-> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{p} \right] ^{T}\tag{Ausgangsvektor}
+> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
+> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
 > \end{align}
 > $$
 
