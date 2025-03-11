@@ -17,11 +17,14 @@ draft: true
 title: Systemtheorie
 ---
  
-# Systemeigenschaften
+# System
+
+> [!def] **D1 - SYST)** System
+> $$y(t)=\mathcal{T}\{x\}(t)$$
 
 ## 🗺️ Dynamische Systeme
 
-- LTI-Systeme
-- Zustandsbeschreibung
-- Differenzialgleichungen
-- Systeme von Differenzengleichungen
+- [LTI-Systeme](LTI-Systeme.md)
+- [Zustandsbeschreibung](Zustandsgleichungen.md) 
+- Systeme von Differenzialgleichungen (zeitkontinuierlich)
+- Systeme von Differenzengleichungen (zeitdiskret)

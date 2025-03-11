@@ -119,9 +119,9 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 > \mathbf{y}(t) = \mathbf{C}(t)\cdot \mathbf{x}(t) + \mathbf{D}(t)\cdot \mathbf{u}(t) 
 > \end{align}
 > $$ 
->
-> Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben
-> Sind die Koeffizientenmatrizen konstant, ist das System zusätzlich Zeitinvariant -> [LTI-System](LTI-Systeme.md)
+
+Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben.
+Sind die Koeffizientenmatrizen konstant, ist das System zusätzlich Zeitinvariant -> [LTI-System](LTI-Systeme.md)
 
 - Ist die Stellgröße $\mathbf{u}(t) = 0$ heißt das System **frei**.
 - ist der Zustandsvektor $\mathbf{x}(t) = \mathbf{x}$ (also unabhägig von $t$) heißt das System **autonom**. 

@@ -13,7 +13,7 @@ professor:
 
 # Variation der Konstanten
 
-Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen Differenzialgleichungen 1. Ordnung gefunden werden. Sie ist außerdem die Lösungformel zur allgemeinen Lösung von [LTI-Systemen](../../Systemtheorie/LTI-Systeme.md)
+Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen Differenzialgleichungen 1. Ordnung gefunden werden. Sie ist außerdem die allgemeine Lösungformel zur Lösung von [LTI-Systemen](../../Systemtheorie/LTI-Systeme.md)
 
 - [M2, Variation der Konstanten - Lubov, Vassilevskaya](http://math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf)
 - [Inhomogene lineare DG erster Ordnung](https://statmath.wu.ac.at/~leydold/MOK/HTML/node182.html)
@@ -67,10 +67,3 @@ oder mit Hilfe des Matrizanten durch
 $$
 x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right] .
 $$
-
-
-
-Durch die [Eigenschaften der Fundamentalmatrix](Fundamentalmatrix.md#Eigenschaften) lässt sich die Variation der Konstanten auch anschreiben wie:
-
- $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(-\tau) b(\tau) d \tau\right]$$
-Das Integral wird zum [Faltungsintegral](../../Systemtheorie/Faltung.md#^FALT)
