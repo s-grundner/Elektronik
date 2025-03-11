@@ -3,6 +3,7 @@ tags:
 aliases:
   - Stabilität von DGL
   - Ruhelage
+  - Ruhelagen
 keywords: 
 subject:
   - Regelungstechnik

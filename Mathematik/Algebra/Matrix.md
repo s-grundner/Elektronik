@@ -18,7 +18,7 @@ cited:
 
 # Matrix
 
-> [!info] Axiome für Matrizen  
+> [!def] Axiome für Matrizen  
 > $A,A_{1}, A_{2}\in \mathbb{K}^{m\times n}$  
 > $B,B_{1}, B_{2}\in \mathbb{K}^{n\times p}$  
 > $C\in \mathbb{K}^{p\times q}$  

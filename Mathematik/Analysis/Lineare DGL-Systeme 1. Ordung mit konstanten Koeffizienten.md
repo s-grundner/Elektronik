@@ -17,7 +17,7 @@ professor:
 # Lineare [DGL-Systeme](Analysis/DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
 
 > [!question]  Diese Ansätze dienen zur Lösung von LTI-Systemen. Diese haben die Form:
-> $$\dot{x} = \mathbf{A}x(t) + \mathbf{B}$$
+> $$\dot{x} = \mathbf{A}x(t) + \mathbf{B}u$$
 > 
 
 $$
@@ -116,7 +116,7 @@ $$
 > [!info] Zum Exponenten wird $+t\lambda \mathbb{1}-t\lambda \mathbb{1}$ hinzugerechnet.
 > $e^{t\mathbf{A}}=e^{ t\mathbf{A}+t\lambda \mathbb{1}-t\lambda \mathbb{1} }=$
 
-> [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](Analysis/Eigenvektor.md): 
+> [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](../Algebra/Eigenvektor.md): 
 > - Die Vektoren $v$ werden für den Lösungsansatz dazumultipliziert, um die Diagonale Form der Exponenzialmatrix zu erhalten.
 > - Das ist möglich da ja gilt, dass die Linearkombination aller Lösungen wieer eine Lösung ist.  
 > $$

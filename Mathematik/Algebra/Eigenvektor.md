@@ -17,21 +17,37 @@ def:
 ---
  
 
-# Eigenwerte, Eigenvektoren, Eigenräume
+# Eigenwerte, Eigenvektoren
 
 > [!quote]  
 > Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
-> Eigenvektoren sind [Vektoren](../Algebra/Vektor.md), die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
+> Eigenvektoren sind [Vektoren](../Algebra/Vektor.md), die unter der linearen Abbildung ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
 > diesen Skalierungsfaktor nennt man *Eigenwert*.
 
-> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $A$ zum **Eigenwert** $\lambda$,
+> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der [linearen Abbildung](../Algebra/Lineare%20Abbildungen.md) $A$ zum **Eigenwert** $\lambda$,
 > falls $(A-\lambda \mathbb{1})\cdot v=0$ ist.
 > 
 > - Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.
 > - Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
 > - Ist $\det A=0$, so ist *mindestens* ein Eigenwert 0.
 
-> [!important] Eigenwerte sind nun Alle $\lambda \in\mathbb{C}$, für die $\det(A-\lambda \mathbb{1})=0$ ist.
+> [!def] **D2 - CHAP)** Charakteristisches Polynom
+> Eigenwerte sind nun alle $\lambda \in\mathbb{C}$, für die $\det(A-\lambda \mathbb{1})=0$ ist. Das Charakteristische Polynom zur Linearen Abbildung $A$ ist definiert wie:
+> $$p_{A}(\lambda) := \det(A-\lambda \mathbb{1})$$
+> 
+
+Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es gibt nur dann Eigenvektoren ungleich null, wenn die Matrix $A-\lambda \mathbb{1}$ **nicht vollen rang** hat also wenn die determinante null ist. Wir Suchen daher eigenwerte sodass diese Bedingung erfüllt ist.
+
+Äquivalente Aussagen für $A-\lambda \mathbb{1}$ sind:
+- hat nicht vollen Rang
+- Determinante = 0
+- Das System ist nicht linear Unabhängig
+
+## Eigenraum
+
+der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Koordinatenmatrix](Algebra/Koordinatenmatrix.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben,
+
+---
 
 > [!quote] Anwendungen  
 > Sie spielen in vielen mathematischen Anwendungen
@@ -43,6 +59,8 @@ def:
 > - Hauptträgheitsrichtungen eines starren Körpers, etc.
 > 
 > eine große Rolle.
+
+---
 
 # Beispiele
 
