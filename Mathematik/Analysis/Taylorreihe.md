@@ -34,3 +34,14 @@ def:
 > Für den Fall, dass $a=0$ sprich man von einer *McLaurin-Reihe*
 
 ![#invert_dark](taylor.png)
+
+## Abweichung von Annäherung
+
+Entwickelt man die Taylorreihe nicht als unedliche Reihe sondern nur bis zu einem Gewissen Grad $n$ (z.B. Annäherung einer Kennlinie im Arbeitspunkt) dann hat diese Annäherung eine Abweichung der Ordnung $O(n+1)$
+
+$$
+\sum_{i=0}^{n} \frac{f^{(i)}(a)}{i!}(x-a)^i + O(n+1)
+$$
+
+---
+

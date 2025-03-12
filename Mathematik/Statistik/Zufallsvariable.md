@@ -46,4 +46,4 @@ Die Gesamtheit dieser Werte $x_{i}$ einer diskreten Zufallsvariable $X$ zusammen
 # Tags
 
 [Wahrscheinlichkeitsverteilung](Wahrscheinlichkeitsverteilung.md)  
-[](Varianz.md#Varianz%20einer%20Zufallsvariable)
+[Varianz](Varianz.md#Varianz%20einer%20Zufallsvariable)
