@@ -1,12 +1,13 @@
 ---
-tags: []
-aliases: []
+tags:
+  - Architektur/x86
+aliases: 
 created: 23. Dezember 2023
 ---
 
 # X86 Assembly
 
-> [!question]  [[Assembly]]
+> [!question]  [Rechnerarchitektur](Assembly.md)
 
 ## I386 Intel
 

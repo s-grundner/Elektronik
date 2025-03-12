@@ -1,6 +1,10 @@
 ---
-tags: 
-aliases: 
+tags:
+  - Architektur
+aliases:
+  - ISA
+  - Architektur
+  - Rechnerarchitektur
 keywords: 
 subject:
   - VL
@@ -13,11 +17,11 @@ title: Assembly
 ---
  
 
-# Assembler
+# Architekturen - Assembler
 
-**Ebenensicht**
+**Ebenensicht:**
 
-![invert_dark](assets/asm_ebene.png)
+![invert_dark](assets/asm_ebenen.png)
 
 Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
 - add, sub, mul, load, store ...
@@ -27,16 +31,20 @@ Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
 > - Register haben keinen Typen, es werdenu die Bits gespeichert
 > - Operationen legen fest, wie das Register interpretiert wird. (Floating point operationen ...)
 
-| Assembler                                      | Höhere Programmiersprache                                                                                                 |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Zusammenhänge von operationen schwer erkennbar | Gute Lesbarkeit                                                                                                           |
-| Einfache Befehle                               | Komplexe Sprachkonstrukte                                                                                                 |
-| Direkter Speicherzugriff                       | Implementiert selbst Memory Management oder ein abstraktes Interface dafür (Garbage Collector, Heap, Ownership/Borrowing) |
+| Assembler                                      | Höhere Programmiersprache                                                                                                        |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Zusammenhänge von operationen schwer erkennbar | Gute Lesbarkeit                                                                                                                  |
+| Einfache Befehle                               | Komplexe Sprachkonstrukte                                                                                                        |
+| Direkter Speicherzugriff                       | Implementiert selbst Memory Management<br>oder ein abstraktes Interface dafür.<br>(Garbage Collector, [Heap](../Softwareentwicklung/DS-Algo/Heap.md), Ownership/Borrowing) |
 
 ## Instructionset Architecture
 
-ISA: Instructionset Architecture (ARM, x86, RISC-V)
-
+ISA: Instructionset Architecture ([ARM](ARM.md), x86, RISC-V)
 
 ![invert_dark](assets/asm_stack.png)
 
+---
+
+- [RV-Assembly](RISC-V.md#RV-Assembly)
+- [x86-Assembly](x86-Assembly.md)
+- [ARM-Assembly](ARM.md)

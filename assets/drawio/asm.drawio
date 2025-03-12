@@ -1,40 +1,40 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="sYS0Yc2EZViqwMB75gRU">
-    <mxGraphModel dx="1271" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="605" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9ruFCB_Ts9zfooubnpPD-15" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;align=center;fontFamily=Hurmit Nerd Font;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="190" y="200" width="250" height="200" as="geometry" />
+          <mxGeometry x="320" y="200" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-16" value="Anwendung" style="text;strokeColor=none;fillColor=#CC0000;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.topButton;rSize=5;fontColor=#FFFFFF;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;gradientColor=none;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry width="250" height="20" as="geometry" />
+          <mxGeometry width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-17" value="Algorithmus" style="text;strokeColor=none;fillColor=#FF3333;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#000000;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="20" width="250" height="20" as="geometry" />
+          <mxGeometry y="20" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-18" value="Programmiersprache" style="text;strokeColor=none;fillColor=#FF8000;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#000000;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="40" width="250" height="20" as="geometry" />
+          <mxGeometry y="40" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-33" value="Assemblersprache" style="text;strokeColor=none;fillColor=#FFFF33;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#000000;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;fontSize=12;horizontal=1;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="60" width="250" height="20" as="geometry" />
+          <mxGeometry y="60" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-32" value="Maschinensprache" style="text;strokeColor=none;fillColor=#97D077;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#000000;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="80" width="250" height="20" as="geometry" />
+          <mxGeometry y="80" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-31" value="Befehlssatzarchitektur (ISA)" style="text;strokeColor=none;fillColor=#00A700;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#000000;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;fontStyle=1" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="100" width="250" height="20" as="geometry" />
+          <mxGeometry y="100" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-30" value="Mikroarchitektur" style="text;strokeColor=none;fillColor=#66B2FF;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#000000;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="120" width="250" height="20" as="geometry" />
+          <mxGeometry y="120" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-29" value="Gatter/Register" style="text;strokeColor=none;fillColor=#007FFF;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#000000;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="140" width="250" height="20" as="geometry" />
+          <mxGeometry y="140" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-39" value="" style="endArrow=blockThin;html=1;rounded=0;endFill=1;verticalAlign=top;horizontal=0;" edge="1" parent="9ruFCB_Ts9zfooubnpPD-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-30" y="200" as="sourcePoint" />
-            <mxPoint x="-30" as="targetPoint" />
+            <mxPoint x="-40" y="200" as="sourcePoint" />
+            <mxPoint x="-40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-43" value="Abstraktionsgrad" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=270;labelBackgroundColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" connectable="0" parent="9ruFCB_Ts9zfooubnpPD-39">
@@ -43,21 +43,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-28" value="Bauelemente (Transistoren)" style="text;strokeColor=none;fillColor=#3333FF;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#FFFFFF;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="160" width="250" height="20" as="geometry" />
+          <mxGeometry y="160" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-19" value="Physik" style="text;strokeColor=none;fillColor=#9933FF;align=center;verticalAlign=bottom;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#FFFFFF;swimlaneFillColor=default;textShadow=0;enumerate=0;swimlaneLine=1;fontFamily=Hurmit Nerd Font;" vertex="1" parent="9ruFCB_Ts9zfooubnpPD-15">
-          <mxGeometry y="180" width="250" height="20" as="geometry" />
+          <mxGeometry y="180" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Hurmit Nerd Font;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="310" as="sourcePoint" />
-            <mxPoint x="510" y="310" as="targetPoint" />
+            <mxPoint x="570" y="310" as="sourcePoint" />
+            <mxPoint x="630" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-35" value="" style="endArrow=blockThin;startArrow=blockThin;html=1;rounded=0;startFill=1;endFill=1;fontFamily=Hurmit Nerd Font;horizontal=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="310" as="sourcePoint" />
-            <mxPoint x="480" y="200" as="targetPoint" />
+            <mxPoint x="600" y="310" as="sourcePoint" />
+            <mxPoint x="600" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-38" value="Software" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=270;labelBackgroundColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" connectable="0" parent="9ruFCB_Ts9zfooubnpPD-35">
@@ -67,8 +67,8 @@
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-36" value="" style="endArrow=blockThin;startArrow=blockThin;html=1;rounded=0;startFill=1;endFill=1;fontFamily=Hurmit Nerd Font;horizontal=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="400" as="sourcePoint" />
-            <mxPoint x="480" y="310" as="targetPoint" />
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="600" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-37" value="Hardware" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=270;labelBackgroundColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" connectable="0" parent="9ruFCB_Ts9zfooubnpPD-36">
@@ -78,42 +78,42 @@
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-40" value="" style="endArrow=blockThin;html=1;rounded=0;endFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="200" as="sourcePoint" />
-            <mxPoint x="120" y="400" as="targetPoint" />
+            <mxPoint x="240" y="200" as="sourcePoint" />
+            <mxPoint x="240" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-45" value="Komplexität" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=270;labelBackgroundColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="110" y="299.99999999999994" as="geometry" />
+          <mxGeometry x="230" y="299.99999999999994" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="9ruFCB_Ts9zfooubnpPD-47" target="9ruFCB_Ts9zfooubnpPD-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-47" value="Höhere Programmiersprache" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Hurmit Nerd Font;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="520" width="160" height="60" as="geometry" />
+          <mxGeometry x="160" y="520" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="9ruFCB_Ts9zfooubnpPD-51" target="9ruFCB_Ts9zfooubnpPD-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ruFCB_Ts9zfooubnpPD-51" value="Assembler" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Hurmit Nerd Font;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="280" y="520" width="120" height="60" as="geometry" />
+        <mxCell id="9ruFCB_Ts9zfooubnpPD-51" value="Assembler" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Hurmit Nerd Font;fillColor=none;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-52" value="Maschinensprache" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Hurmit Nerd Font;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="520" width="160" height="60" as="geometry" />
+          <mxGeometry x="600" y="520" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-55" value="Compiler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" parent="1">
-          <mxGeometry x="200" y="520" width="80" height="30" as="geometry" />
+          <mxGeometry x="320" y="520" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-57" value="Methoden, Symbole" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" parent="1">
-          <mxGeometry x="45" y="580" width="150" height="30" as="geometry" />
+          <mxGeometry x="165" y="580" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-58" value="Instruktionen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" parent="1">
-          <mxGeometry x="280" y="580" width="120" height="30" as="geometry" />
+          <mxGeometry x="400" y="580" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-59" value="Folgen von 1 und 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" parent="1">
-          <mxGeometry x="480" y="580" width="160" height="30" as="geometry" />
+          <mxGeometry x="600" y="580" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ruFCB_Ts9zfooubnpPD-62" value="Opcodes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Hurmit Nerd Font;" vertex="1" parent="1">
-          <mxGeometry x="400" y="520" width="80" height="30" as="geometry" />
+          <mxGeometry x="520" y="520" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
