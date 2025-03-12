@@ -6,13 +6,13 @@ created: 23. Dezember 2023
 
 # X86 Assembly
 
-[[Assembly]]
+> [!question]  [[Assembly]]
 
 ## I386 Intel
 
-[INSTRUCTION SET](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86-32_bit)
+> [!important] [INSTRUCTION SET](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86-32_bit)
 
-### REGISTERS
+### Registers
 
 | General Purpose Registers | Non General Purpose Registers     |
 | ------------------------- | --------------------------------- |
@@ -55,8 +55,6 @@ _start:
   message:
   .ascii "Hello World\n"
 ```
-
-## AVR Machine Language
 
 # Tags
 
