@@ -1,61 +1,41 @@
 ---
-tags: []
-aliases: []
-created: 23. Dezember 2023
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Rechnerarchitektur
+semester: SS25
+created: 12th March 2025
+professor: 
+draft: true
+title: Assembly
 ---
+ 
 
-# X86 Assembly
+# Assembler
 
-## I386 Intel
+**Ebenensicht**
 
-[INSTRUCTION SET](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86-32_bit)
+![invert_dark](assets/Pasted%20image%2020250312223452.png)
 
-### REGISTERS
 
-| General Purpose Registers | Non General Purpose Registers     |
-| ------------------------- | --------------------------------- |
-| `eax`                     | `esp` Pointer to Stacktop         |
-| `ebx`                     | `ebp` Pointer to Stackbase        |
-| `ecx`                     | `eip` Pointer to next instruction | 
-| …                       |                                   |
+Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
+- add, sub, mul, load, store ...
 
-## Sections
+> [!important] **Register:** Register stehen zur Datenmanipulation und speicherung zur Verfügung
+> - Parallele D-FlipFlops
+> - Register haben keinen Typen, es werdenu die Bits gespeichert
+> - Operationen legen fest, wie das Register interpretiert wird. (Floating point operationen ...)
 
-- **text** = Code im Flash
-- **data** = Initialisierte globale Variablen (RAM + Flash)
-- **bss** = Nicht-initialisierte Variablen (nur RAM)
-- **dec** = Gesamtspeicher
-- **hex** = Hexadezimale Darstellung
+| Assembler                                      | Höhere Programmiersprache                                                                                                 |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Zusammenhänge von operationen schwer erkennbar | Gute Lesbarkeit                                                                                                           |
+| Einfache Befehle                               | Komplexe Sprachkonstrukte                                                                                                 |
+| Direkter Speicherzugriff                       | Implementiert selbst Memory Management oder ein abstraktes Interface dafür (Garbage Collector, Heap, Ownership/Borrowing) |
 
-### Hello World
+## Instructionset Architecture
 
-```assembly
-# x86 Assembly Testing
+ISA: Instructionset Architecture (ARM, x86, RISC-V)
 
-.global _start
-.intel_syntax
-.section .text  
-
-_start:
-  # write syscall
-  mov %eax, 4
-  mov %ebx, 1         # filedescriptor (fd): stdin = 0, stdout = 1, sdterr = 2
-  lea %ecx, [message] # load effective address -> pointer to buf / address of buf
-  mov %edx, 13        # buf len
-  int 0x80            # call instruction
-
-  # exit syscall with code 65
-  mov %eax, 1
-  mov %ebx, 65  # exit code
-  int 0x80  # call instruction
-
-.section .data
-  message:
-  .ascii "Hello World\n"
-```
-
-## AVR Machine Language
-
-# Tags
-
-![](https://www.youtube.com/watch?v=L1ung0wil9Y)
+![](assets/Pasted%20image%2020250312144308.png)
