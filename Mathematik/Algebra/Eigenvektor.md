@@ -19,12 +19,17 @@ def:
 
 # Eigenwerte, Eigenvektoren
 
-> [!quote]  
-> Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
-> Eigenvektoren sind [Vektoren](../Algebra/Vektor.md), die unter der linearen Abbildung ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  
-> diesen Skalierungsfaktor nennt man *Eigenwert*.
+> [!quote]  Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
 
-> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der [linearen Abbildung](../Algebra/Lineare%20Abbildungen.md) $A$ zum **Eigenwert** $\lambda$,
+Eigenvektoren ($v$) sind [Vektoren](../Algebra/Vektor.md), die unter der [linearen Abbildung](../Algebra/Lineare%20Abbildungen.md) $A$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
+
+$$Av = \lambda v$$
+
+|            $A$            |         $v$         |     $\lambda$     |
+| :-----------------------: | :-----------------: | :---------------: |
+| Lineare Abbildung: Matrix | Eigenvektor: Vektor | Eigenwert: Skalar |
+
+> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung  $A$ zum **Eigenwert** $\lambda$,
 > falls $(A-\lambda \mathbb{1})\cdot v=0$ ist.
 > 
 > - Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.

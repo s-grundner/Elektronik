@@ -22,11 +22,12 @@ title: Systemtheorie
 > [!def] **D1 - SYST)** System
 > $$y(t)=\mathcal{T}\{x\}(t)$$
 
-## 🗺️ Dynamische Systeme
+## 🗺️ Dynamische Systeme - LTI Systeme
 
-- [LTI-Systeme](LTI-Systeme.md)
-- [Zustandsbeschreibung](Zustandsgleichungen.md) 
-- Systeme von Differenzialgleichungen (zeitkontinuierlich)
-- Systeme von Differenzengleichungen (zeitdiskret)
-- [[Diskrete Systeme]]
-- 
+
+> [!important] [Zustandsbeschreibung](Zustandsgleichungen.md) 
+
+| Kontinuierliche Systeme             | Diskrete Systeme                   |
+| ----------------------------------- | ---------------------------------- |
+| [LTI-Systeme](LTI-Systeme.md)       | [[Diskrete LTI-Systeme]]           |
+| Systeme von Differenzialgleichungen | Systeme von Differenzengleichungen |
