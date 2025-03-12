@@ -63,6 +63,13 @@ semester: WS24
 > Die Eigenschaften Fläche unter der Kurve bzw. Abtastwert der Funktion entsprechen umgekehrt der Definition der Funktionale der zugehörigen Distributionen $\sigma(t)$ und $\delta(t)$.
 > Diese Eigenschaft ist die **Abtasteigenschaft** der [Dirac-Distribution](../Mathematik/Algebra/Delta-Impuls.md).
 
+---
+# [Diskret] Faltungssumme
+
+- Faltugnssumme
+- Faltungsmatrix
+
+
 
 
 ---

@@ -28,3 +28,5 @@ title: Systemtheorie
 - [Zustandsbeschreibung](Zustandsgleichungen.md) 
 - Systeme von Differenzialgleichungen (zeitkontinuierlich)
 - Systeme von Differenzengleichungen (zeitdiskret)
+- [[Diskrete Systeme]]
+- 
