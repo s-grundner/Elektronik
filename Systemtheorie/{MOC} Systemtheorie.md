@@ -27,7 +27,7 @@ title: Systemtheorie
 
 > [!important] [Zustandsbeschreibung](Zustandsgleichungen.md) 
 
-| Kontinuierliche Systeme             | Diskrete Systeme                   |
-| ----------------------------------- | ---------------------------------- |
-| [LTI-Systeme](LTI-Systeme.md)       | [[Diskrete LTI-Systeme]]           |
-| Systeme von Differenzialgleichungen | Systeme von Differenzengleichungen |
+| Kontinuierliche Systeme                                                                                                                 | Diskrete Systeme                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [LTI-Systeme](LTI-Systeme.md)                                                                                                           | [[Diskrete LTI-Systeme]]                                                             |
+| Systeme von [Differenzialgleichungen](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) | Systeme von [Differenzengleichungen](../Mathematik/Analysis/Differenzengleichung.md) |
