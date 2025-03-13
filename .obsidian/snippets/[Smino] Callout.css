@@ -16,3 +16,12 @@
 .cm-active.HyperMD-quote.cm-line:not(.HyperMD-callout) .cm-quote {
 	margin-left: 0px;
 }
+
+.callout-title {
+  align-items: center;
+}
+.callout-fold,
+.callout-icon {
+  margin-top: unset;
+  align-self: unset;
+}
