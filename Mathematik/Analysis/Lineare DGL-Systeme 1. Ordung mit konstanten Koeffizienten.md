@@ -16,13 +16,13 @@ professor:
 
 # Lineare [DGL-Systeme](Analysis/DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
 
-> [!question]  Diese Ansätze dienen zur Lösung von LTI-Systemen. Diese haben die Form:
+> [!success]  Diese Ansätze dienen zur Lösung von LTI-Systemen. Diese haben die Form:
 > $$\dot{x} = \mathbf{A}x(t) + \mathbf{B}u$$
 > 
 
 $$
 \begin{aligned}
-\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}), \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}
+\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}) = x_{0}, \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}
 \end{aligned}
 $$
 
@@ -48,27 +48,32 @@ A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. $e^{ \mat
 
 ## Fundamentalmatrix
 
+Für die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. den [Matrizanten](Fundamentalmatrix.md#^MATZ)
+
+$\mathbf{X}(t) = e^{ t\mathbf{A} }$
+
+
 $$
 \underbrace{ e^{(t-t_{0}) \mathbf{A} } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ t\mathbf{A} } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}\mathbf{A} }}_{ \text{gehört zu } C }
 $$
 
-Die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) ist also $e^{ tA }$. Der Matrizant ergibt sich mit $t=t_{0}$
+
+
 
 > [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
 > Die Auswertung des Matrixexponential als Unendliche Reihen ist nur mühsam auswertbar.
 
-Lösung dazu ist es, die Matrix $\mathbf{A}$
+Lösung dazu ist es, die Koeffizienten-Matrix $\mathbf{A}$ in ihre Diagonalform, die **Jordan-Form** $\tilde{\mathbf{A}}$ zu Transformieren.
 
-### Spezialfall: $B$ ist eine Diagonalmatrix
-
+### Spezialfall: $\mathbf{B}$ ist eine Diagonalmatrix
 
 
 $$
-B = \begin{pmatrix}
+\mathbf{B} = \begin{pmatrix}
 \lambda_{1} & 0 & 0 \\
 0 & \ddots & 0 \\
 0 & 0 & \lambda_{m}
-\end{pmatrix} \implies B^k = \begin{pmatrix}
+\end{pmatrix} \implies \mathbf{B}^k = \begin{pmatrix}
 \lambda_{1}^k & 0 & 0 \\
 0 & \ddots & 0 \\
 0 & 0 & \lambda_{m}^k
@@ -78,22 +83,18 @@ $$
 > [!hint] Dass der Exponent der Matrix auf die Einzelkomponenten übergeht Funktioniert nur für Diagonalmatrizen!
 
 $$
-e^{B} = \sum_{k=0}^{\infty}\frac{B^k}{k!} = \sum_{k=0}^{\infty}\frac{1}{k!}
+e^{\mathbf{B}} = \sum_{k=0}^{\infty}\frac{\mathbf{B}^k}{k!} = \sum_{k=0}^{\infty}\frac{1}{k!}
 \underbrace{ \begin{pmatrix} 
 \lambda_{1}^k & 0 & 0 \\
 0 & \ddots & 0 \\
 0 & 0 & \lambda_{m}^k
-\end{pmatrix} }_{ \operatorname{diag}(\lambda_{1}^{k},\dots,\lambda_{m}^{k}) }
-$$
-Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente. 
-
-$$
-e^{B} = \begin{pmatrix}
+\end{pmatrix} }_{ \operatorname{diag}(\lambda_{1}^{k},\dots,\lambda_{m}^{k}) } = \begin{pmatrix}
 e^{ \lambda_{1} } & 0 & 0 \\
 0 & \ddots & 0 \\
 0 & 0 & e^{ \lambda_{m} }
 \end{pmatrix}
 $$
+Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente. 
 
 > [!important] Überlegungen zum Allgemeinen fall:
 > Wir suchen **Vektoren**, die dazumultipliziert werden können um eine **endliche** Summe zu erhalten.

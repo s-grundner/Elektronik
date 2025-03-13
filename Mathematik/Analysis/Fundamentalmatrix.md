@@ -19,10 +19,10 @@ professor:
 # Fundamentalmatrix
 
 > [!def] **D1 - FUMA)** Definition der Fundamentalmatrix
-> Jedes System $\left\{x_1, \ldots, x_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
+> Jedes System $\left\{\mathbf{x}_1, \ldots, \mathbf{x}_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
 > 
 > $$
-> X(t):=\left(x_1(t), \ldots, x_m(t)\right)
+> \mathbf{X}(t):=\left(\mathbf{x}_1(t), \ldots, \mathbf{x}_m(t)\right)
 > $$
 > 
 > heißt **Fundamentalmatrix**.
@@ -43,10 +43,12 @@ Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugeh
 > 4. $X(t+\tau) = X(t)X(\tau)$
 
 
-> [!def] **D2 - MATZ)** Definition des Martizant
+> [!def] **D2 - MATZ)** Martizant ^MATZ
 > Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Matrizant**, bezeichnet mit $X_{t_0}$.
 > 
 >  $$X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)$$
+
+
 
 > [!satz] **S2 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
 > 
@@ -63,21 +65,18 @@ Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugeh
 > 
 
 
-> [!hint] Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
-> Da hier
-> 
-> $$
-> \left(\frac{\partial x}{\partial x_0}\left(t ; t_0, x_0\right)\right)=X_{t_0}(t)
-> $$
-> 
-> gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
+Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
+Da hier
+
+$$
+\left(\frac{\partial x}{\partial x_0}\left(t ; t_0, x_0\right)\right)=X_{t_0}(t)
+$$
+
+gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
 
 ## Lösung von Inhomogenen AWP
 
-> [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) $x'(t)=\mathbf{A}(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
-> $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]:=R(t)$$
-> $R(t)$ Steht für die Rechte seite der DGL (also der term rechts des Gleichheitszeichens)
-
-Durch die Eigenschaften der Fundamentalmatrix lässt sich die Variation der Konstanten auch anschreiben wie;
+> [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die allgemeine Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) $x'(t)=\mathbf{A}(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
+> $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]$$
 
 

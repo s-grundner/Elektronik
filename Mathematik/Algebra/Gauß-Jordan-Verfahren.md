@@ -26,7 +26,7 @@ satz:
 > Eine quadratische [Matrix](Matrix.md) ($A \in \mathbb{R}^{n\times n}$) ist genau dann invertierbar, wenn ihr Rang gleich $n$ ist.
 > Eine Matrix ist nur invertierbar, wenn ihre [Determinante](Determinante.md) ungleich 0 ist.
 
-Systematisch lässt sich eine [Matrix](Matrix.md) mit dem Gauß-Jordan-Verfahren Invertieren
+Systematisch lässt sich eine Matrix mit dem Gauß-Jordan-Verfahren Invertieren
 
 
 ## 2x2 Matrix
@@ -38,3 +38,9 @@ a & b \\ c & d
 d & -b \\ -c & a
 \end{pmatrix}
 $$
+
+## Gauß-Jordan Verfahren
+
+Dieses Verfahren funktioniert für beliebige invertierbar Matrizen.
+
+Prinzip: Man nimmt an der zu invertierenden Matrix elementare Zeilenumformungen durch bis aus ihr die Elementarmatrix wird. Man nimmt die **selben umformungen** an der Einheitsmatrix vor. Diese Umgeformte Einheitsmatrix ist dann die Inverse.

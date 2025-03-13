@@ -44,7 +44,7 @@ cited:
 
 > [!important] Eine Wichtige Kenngröße einer Matrix ist dessen [Determinante](Determinante.md)
 
-## 1 Rang einer Matrix
+## Rang einer Matrix
 
 > [!important] Sei $A\in \mathbb{R}^{m\times n}$,  
 > dann ist der Rang von $A$: $Rg(A) \leq min\{m,n\}$
@@ -52,7 +52,7 @@ cited:
 > Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
 > Man könnte auch sagen, $Rg(A)$ ist die Dimension der [linearen Hüllen](Koordinatenmatrix.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
 
-## 2 Operationen auf eine Matrix
+## Operationen auf eine Matrix
 
 - [Gauß-Jordan-Verfahren](Gauß-Jordan-Verfahren.md)  
 - [Transponieren](Transponieren.md)  
@@ -60,16 +60,15 @@ cited:
 - [[Matrixmultiplikation]]
 - [[Definitheit]]
 
-## 3 Elementare Umformungen
+## Elementare Umformungen
 
-Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix durch eine elementare Zeilenumformung hervorgeht.  
-Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\times n}$):
+Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix durch eine elementare Zeilenumformung hervorgeht. Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\times n}$):
 
 - [[Vertauschungsmatrix]] $T_{i, j}$
 - [[Skalierungsmatrix]] $S_i(\lambda)$
 - [Additionsmatrix](Additionsmatrix.md) $R_{i, j}(\lambda)$
 
-## 4 Besondere Matrizen
+## Besondere Matrizen
 
 - [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_{m}$ 
 - [[Rotationsmatrix]] 
