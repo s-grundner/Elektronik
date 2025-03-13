@@ -16,7 +16,7 @@ professor:
 # Drude-Modell - Modell für den elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
 > [!info] Das Drude-Modell beschäftigt sich mit dem [Ladungstransport in einem Leiter](elektrischer%20Strom.md), der durch ein [elektrisches Feld](elektrisches%20Feld.md) hervorgerufen wird.
-> Gemäß einer statistischen Betrachtung, kann die mittlere Geschwindigkeit von Ladungsträgern in einem Leiter unter Einfluss eines Feldes durch die material und temperaturabhängige Beweglichkeit $\mu_{e}$ beschrieben werden:
+> Gemäß einer statistischen Betrachtung, kann die mittlere Geschwindigkeit von Ladungsträgern in einem Leiter unter Einfluss eines Feldes durch die material und temperaturabhängige **Beweglichkeit** $\mu_{e}$ beschrieben werden:
 
 $$\left\langle\vec{v}_e\right\rangle=-\frac{e \uptau}{m_e} \vec{E}=-\mu_e \vec{E} $$
 
@@ -56,7 +56,5 @@ Da die [thermische](../Physik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegu
 > $\mu_{e}$ wird als Beweglichkeit bezeichnet.
 
 ![invert_light](assets/MittlGeschwE.png)
-
-
 
 [^1]: **Isotrop:** Liefert keinen Betrag zum Mittelwert und ist im Mittel $0$.

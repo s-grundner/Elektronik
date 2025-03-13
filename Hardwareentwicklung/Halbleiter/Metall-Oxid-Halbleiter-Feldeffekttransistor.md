@@ -30,3 +30,8 @@ beim **N-MOS**:
 - Unter Dem Gate ist eine Dünne Oxidschicht welche Isoliert (kein Eingangsstrom).
 
 Durch Anlegen einer Spannung am Gate entsteht ein Leitender Kanal zwischen Drain und Source. Ein Elektrische Feld (Kapazität!) welches durch die Spannung am Gate entsteht, hebt die Ladungsträger an. Diese gelangen zwischen Drain und Source und bilden einen Leitenden Kanal.
+
+
+---
+
+Heute: Nur noch Anreicherungstyp
