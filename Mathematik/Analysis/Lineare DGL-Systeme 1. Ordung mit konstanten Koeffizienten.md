@@ -39,33 +39,25 @@ Sei $x(t) = e^{ t\mathbf{A} }\cdot C$, dann gilt
 
 $$
 \begin{align}
-x'(t)&=\left( \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!}\right)' \cdot C =\left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} \mathbf{A}^k}{k!} \right) \cdot C \\
+x'(t) &= \left( e^{ t \mathbf{A} } \cdot C \right)'= \left( \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!}\right)' \cdot C = \left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} \mathbf{A}^k}{k!} \right) \cdot C \\
 &= \mathbf{A} \cdot \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!} \cdot C = \mathbf{A} \cdot x(t)
 \end{align}
 $$
 
-A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. 
-
-$e^{ \mathbf{A}t }C$ ist also die allgemeine Lösung von $\dot{x}=\mathbf{A}x$.
+A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. $e^{ \mathbf{A}t }C$ ist also die allgemeine Lösung von $\dot{x}=\mathbf{A}x$.
 
 ## Fundamentalmatrix
 
 $$
-\underbrace{ e^{(t-t_{0}) \mathbf{A} } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ tA } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}A }}_{ \text{gehört zu } C }
+\underbrace{ e^{(t-t_{0}) \mathbf{A} } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ t\mathbf{A} } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}\mathbf{A} }}_{ \text{gehört zu } C }
 $$
 
-Die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) ist also $e^{ tA }$.
-
-Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}=\mathbb{1}$.
-
-> [!question] Warum?
-> $$ e^{0} = \sum_{k=0}^{\infty}\frac{0^k}{k!} = \mathbb{1} $$
-> Da $0^{0}$ als $1$ definiert ist, ergibt sich $\mathbb{1}$ für $k=0$.
-> 
-> Alternative Begründung: $e^{0}=e^{A - A}=e^{A} \cdot e^{ -A }$
-> Da für beliebeige Matrizen gilt $A \cdot A^{-1} = \mathbb{1}$, gilt das auch für das Matrix-Exponential.
+Die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) ist also $e^{ tA }$. Der Matrizant ergibt sich mit $t=t_{0}$
 
 > [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
+> Die Auswertung des Matrixexponential als Unendliche Reihen ist nur mühsam auswertbar.
+
+Lösung dazu ist es, die Matrix $\mathbf{A}$
 
 ### Spezialfall: $B$ ist eine Diagonalmatrix
 
