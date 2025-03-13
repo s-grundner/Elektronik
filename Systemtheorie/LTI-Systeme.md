@@ -18,30 +18,8 @@ professor:
 
 # LTI-Systeme
 
-## Zustandsraumdarstellung
 
-> [!def] **D1 - LTIS)** LTI-System in der Zustandsraumdarstellung
->  $$
-> \begin{align}
-> \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{u}(t) \tag{Zustandsgleichung}\\
-> \mathbf{y}(t) &= \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \tag{Ausgangsgleichung}
-> \end{align}
-> $$
-
-- Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**
-- Zur Beschriebung eines LTI Systems dient der [Zustandsraum](Zustandsgleichungen.md) 
-
-Linearität $\impliedby$ Linearkombination der Koeffizientenmatrizen
-Zeitinvarianz $\impliedby$ Koeffizientenmatrizen sind Konstant
-
-Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem). 
-Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
-
-### Lösung der Zustandsgleichungen
-
-Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) Angewandt. Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben (wie [hier](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md))
-
----
+![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
 
 ## Linearität
 
@@ -74,9 +52,9 @@ Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstant
 > [!def] **D2 - ZV)** Zeitvarianz und Zeitinvarianz ^ZV
 > Ein Übertragungssystem $\mathcal{T}\{\cdot\}$ heißt **zeitinvariant**, wenn das zeitliche Verschieben der Eingangsgrößen um eine Spanne $\tau$ lediglich ein zeitliches Verschieben der Ausgangsgrößen um dieselbe Spanne zur Folge hat.
 >
+> $$\text{ ZVE } \iff \text{ ZVA }$$
 > 
-> ZVE $\iff$ ZVA
-> - ZVA: $y_{2}(t)=y_{1}(t-t_{0})\iff\mathcal{T}\{x_{2}\}(t) = \mathcal{T}\{x_{1}\}(t-t_{0}), \quad \forall x_{1}(t),t_{0}$
+> - ZVA: $y(t-t_{0})\iff\mathcal{T}\{x_{2}\}(t) = \mathcal{T}\{x_{1}\}(t-t_{0}), \quad \forall x_{1}(t),t_{0}$
 > - ZVE: $x_{2}(t)=x_{1}(t-t_{0})$
 > 
 
@@ -157,3 +135,25 @@ Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Besc
 
 ---
 
+## Zustandsraumdarstellung
+
+> [!def] **D1 - LTIS)** LTI-System in der Zustandsraumdarstellung
+>  $$
+> \begin{align}
+> \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{u}(t) \tag{Zustandsgleichung}\\
+> \mathbf{y}(t) &= \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \tag{Ausgangsgleichung}
+> \end{align}
+> $$
+
+- Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**
+- Zur Beschriebung eines LTI Systems dient der [Zustandsraum](Zustandsgleichungen.md) 
+
+Linearität $\impliedby$ Linearkombination der Koeffizientenmatrizen
+Zeitinvarianz $\impliedby$ Koeffizientenmatrizen sind Konstant
+
+Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem). 
+Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
+
+### Lösung der Zustandsgleichungen
+
+Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) Angewandt. Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben (wie [hier](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md))

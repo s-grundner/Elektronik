@@ -14,6 +14,8 @@ title: Diskrete Systeme
 
 # Diskrete LTI-Systeme
 
+> [!question] Kontinuierliche [LTI-Systeme](LTI-Systeme.md)
+
 - Ideale Verzögerung
 - Summierer, akkumulator, diskreter Intgrator
 - Moving Average, Gleitender Mittelwert
@@ -47,3 +49,5 @@ Bei IIR: Unendliche Faltung aber endliche Summen in der DZGL, daher DZGL Einfach
 M, N Auch bei Filter ist die Ordnung (bereich 2 ... 8)
 
 ---
+
+

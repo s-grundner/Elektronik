@@ -1,3 +1,29 @@
+
+# MATLAB
+
+```m
+
+addi s0, a, 6 
+
+Add:
+
+C-Code: a = b + c 
+RSIC-V Assembler: add a, b, c
+
+Sub:
+
+C-Code: a = b - c 
+RISC-V Assembler: sub a, b, c
+
+Meherere Befehle
+
+C-Code: a = b + c - d
+RV-Assembler:
+- add t, b, c
+- sub a, t, d
+
+```
+
 # MATLAB auf Arch Installieren
 
 - [MATLAB - ArchWiki](https://wiki.archlinux.org/title/MATLAB)

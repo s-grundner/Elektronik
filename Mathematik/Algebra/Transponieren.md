@@ -24,3 +24,8 @@ B_{13} & B_{23}\\
 \end{pmatrix}
 \end{align*}
 $$
+
+## Hermitsche Tansposition
+
+> [!def] Der Operator $(\cdot)^H$ bedeuted Hermitsche Transposition. ^HERT
+> d.h. Konjugation $(\cdot)^*$ und Transposition $(\cdot)^T$ zusammen.

@@ -19,8 +19,9 @@ title: Systemtheorie
  
 # System
 
-> [!def] **D1 - SYST)** System
+> [!def] **D1 - SYST)** System ^SYST
 > $$y(t)=\mathcal{T}\{x\}(t)$$
+
 
 ## 🗺️ Dynamische Systeme - LTI Systeme
 
