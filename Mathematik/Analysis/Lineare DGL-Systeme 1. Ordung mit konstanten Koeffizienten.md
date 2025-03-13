@@ -20,15 +20,12 @@ professor:
 > $$\dot{x} = \mathbf{A}x(t) + \mathbf{B}u$$
 > 
 
-$$
-\begin{aligned}
-\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}) = x_{0}, \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}
-\end{aligned}
-$$
+$\mathbf{A}$ ist nicht von $t$ Abhängig.
 
-$A$ ist nicht von $t$ Abhängig
 
 ## Homogene Lösung
+
+$$\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}) = x_{0}, \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}$$
 
 > [!question] Erinnerung an das 2-Dimensionale System $m=1$:
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
@@ -48,59 +45,16 @@ A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. $e^{ \mat
 
 ## Fundamentalmatrix
 
-Für die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. den [Matrizanten](Fundamentalmatrix.md#^MATZ)
+Für die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. den [Matrizanten](Fundamentalmatrix.md#^MATZ) $\mathbf{X}_{t_{0}}(t)$ ergibt sich.
 
-$\mathbf{X}(t) = e^{ t\mathbf{A} }$
+$$\mathbf{X}(t) = e^{ \mathbf{A}t } \qquad \mathbf{X}_{t_{0}}(t)=e^{ \mathbf{A}(t-t_{0}) }$$
 
+Jedoch ist das Auswerten einer Unendlichenreihe unpraktisch.
 
-$$
-\underbrace{ e^{(t-t_{0}) \mathbf{A} } }_{ \text{ Mit } t=t_{0} \text{ der Matrizant}}=\underbrace{ e^{ t\mathbf{A} } }_{ \text{ Fundamentalmatrix } }\cdot \underbrace{e^{ -t_{0}\mathbf{A} }}_{ \text{gehört zu } C }
-$$
+> [!success] Lösung dazu ist es, die Koeffizienten-Matrix $\mathbf{A}$ in ihre Diagonalform, die **Jordan-Form** $\tilde{\mathbf{A}}$ zu Transformieren. [^1]
+> 
+> Wir suchen **Vektoren**, die dazumultipliziert werden können, um eine **endliche** Summe zu erhalten. Diese Vektoren sind im folgenden Eigenvektoren und Hauptvektoren. 
 
-
-
-
-> [!question] Nun haben wir eine explizite Formel für die Fundamentalmatrix. Können wir diese benutzen, um die tatsächliche Lösung anzugeben?
-> Die Auswertung des Matrixexponential als Unendliche Reihen ist nur mühsam auswertbar.
-
-Lösung dazu ist es, die Koeffizienten-Matrix $\mathbf{A}$ in ihre Diagonalform, die **Jordan-Form** $\tilde{\mathbf{A}}$ zu Transformieren.
-
-### Spezialfall: $\mathbf{B}$ ist eine Diagonalmatrix
-
-
-$$
-\mathbf{B} = \begin{pmatrix}
-\lambda_{1} & 0 & 0 \\
-0 & \ddots & 0 \\
-0 & 0 & \lambda_{m}
-\end{pmatrix} \implies \mathbf{B}^k = \begin{pmatrix}
-\lambda_{1}^k & 0 & 0 \\
-0 & \ddots & 0 \\
-0 & 0 & \lambda_{m}^k
-\end{pmatrix}
-$$
-
-> [!hint] Dass der Exponent der Matrix auf die Einzelkomponenten übergeht Funktioniert nur für Diagonalmatrizen!
-
-$$
-e^{\mathbf{B}} = \sum_{k=0}^{\infty}\frac{\mathbf{B}^k}{k!} = \sum_{k=0}^{\infty}\frac{1}{k!}
-\underbrace{ \begin{pmatrix} 
-\lambda_{1}^k & 0 & 0 \\
-0 & \ddots & 0 \\
-0 & 0 & \lambda_{m}^k
-\end{pmatrix} }_{ \operatorname{diag}(\lambda_{1}^{k},\dots,\lambda_{m}^{k}) } = \begin{pmatrix}
-e^{ \lambda_{1} } & 0 & 0 \\
-0 & \ddots & 0 \\
-0 & 0 & e^{ \lambda_{m} }
-\end{pmatrix}
-$$
-Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente. 
-
-> [!important] Überlegungen zum Allgemeinen fall:
-> Wir suchen **Vektoren**, die dazumultipliziert werden können um eine **endliche** Summe zu erhalten.
-> Diese Vektoren sind im folgenden Eigenvektoren und Hauptvektoren
-
-Man möchte A auf B Überführen. Dabei ist $B$ die Jordanform von $A$
 
 ### Eigen und Hauptvektoren
 
@@ -129,7 +83,6 @@ $$
 
 > [!important] Um nun eine Fundamentalmatrix zu erhalten, müssen wir **genügend linear unabhängige Eigenvektoren** finden. 
 > 
->
 > Gibt es nicht genug linearunabhängige Eigenvektoren z.B. wenn es Eigenwerte mit einer algebraische Vielfachheit $>1$ gibt, sucht man bildet man die Hauptvektoren
 
 #### Hauptvektoren und Jordanform
@@ -150,3 +103,5 @@ Man verfolgt die Prozedur:
 
 1. Eigenwerte $\lambda$ von $A$ bestimmen
 2. Eigenvektoren $v$ zu den Eigenwerten bestimmen
+
+[^1]:  Eine Eigenschaft des Matrixexponential ist, dass für Diagonalmatrizen die Exponentialfunktion auf deren einzelne Elemete übertragen wird: [hier](Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix) gezeigt.
