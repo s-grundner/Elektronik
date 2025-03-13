@@ -41,6 +41,9 @@ cited:
 > [!warning] Achtung: Auch für $m=n=p$ gilt i.a. nicht: $A B=B A$  
 > die Matrixmultiplikation ist also *nicht kommutativ*.
 
+
+> [!important] Eine Wichtige Kenngröße einer Matrix ist dessen [Determinante](Determinante.md)
+
 ## 1 Rang einer Matrix
 
 > [!important] Sei $A\in \mathbb{R}^{m\times n}$,  

@@ -29,8 +29,9 @@ $$Av = \lambda v$$
 | :-----------------------: | :-----------------: | :---------------: |
 | Lineare Abbildung: Matrix | Eigenvektor: Vektor | Eigenwert: Skalar |
 
-> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung  $A$ zum **Eigenwert** $\lambda$,
-> falls $(A-\lambda \mathbb{1})\cdot v=0$ ist.
+> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung  $A$ zum **Eigenwert** $\lambda$, falls gilt
+> 
+> $$(A-\lambda \mathbb{1})\cdot v=0$$
 > 
 > - Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.
 > - Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
@@ -43,10 +44,10 @@ $$Av = \lambda v$$
 
 Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es gibt nur dann Eigenvektoren ungleich null, wenn die Matrix $A-\lambda \mathbb{1}$ **nicht vollen rang** hat also wenn die determinante null ist. Wir Suchen daher eigenwerte sodass diese Bedingung erfüllt ist.
 
-Äquivalente Aussagen für $A-\lambda \mathbb{1}$ sind:
+Äquivalente Aussagen für $\det{A-\lambda \mathbb{1}} = 0$ sind:
 - hat nicht vollen Rang
-- Determinante = 0
 - Das System ist nicht linear Unabhängig
+- Matrix ist singulär
 
 ## Eigenraum
 

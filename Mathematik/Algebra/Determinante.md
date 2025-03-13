@@ -56,11 +56,11 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 > - [Matrix](Matrix.md) ist singulär
 
 > [!hint] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
->  ![InlineR|325](assets/spooder.png)Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
-> 
-> $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
-> 
-> $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
+>  ![InlineR|325](assets/spooder.png)
+> - Die Matrix ist regulär
+> - Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
+>     - $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
+>     - $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
 > 
 
 ---
