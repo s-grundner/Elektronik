@@ -69,6 +69,8 @@ Der Matrizant ergibt sich mit $t_{0}$, da für das Matrixexponential gilt $e^{0}
 
 ### Spezialfall: $B$ ist eine Diagonalmatrix
 
+
+
 $$
 B = \begin{pmatrix}
 \lambda_{1} & 0 & 0 \\
@@ -104,6 +106,8 @@ $$
 > [!important] Überlegungen zum Allgemeinen fall:
 > Wir suchen **Vektoren**, die dazumultipliziert werden können um eine **endliche** Summe zu erhalten.
 > Diese Vektoren sind im folgenden Eigenvektoren und Hauptvektoren
+
+Man möchte A auf B Überführen. Dabei ist $B$ die Jordanform von $A$
 
 ### Eigen und Hauptvektoren
 
