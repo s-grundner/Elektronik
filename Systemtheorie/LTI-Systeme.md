@@ -154,6 +154,13 @@ Zeitinvarianz $\impliedby$ Koeffizientenmatrizen sind Konstant
 Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem). 
 Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
 
+|               | Linear                                                                                                                     | Nicht linear                                               |
+| :------------ | :--------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------: |
+| Zeitinvariant | $\begin{align}\dot{x}(t) = \mathbf{A}x(t)+ \mathbf{B}u(t)\\ y(t) = \mathbf{C} x(t)+ \mathbf{D}u(t)\end{align}$             | $\begin{align}\dot{x} = f(x,u)\\y = g(x,u)\end{align}$     |
+| Zeitvariant   | $\begin{align}\dot{x}(t) = \mathbf{A}(t)x(t)+ \mathbf{B}(t)u(t)\\ y(t) = \mathbf{C}(t) x(t)+ \mathbf{D}(t)u(t)\end{align}$ | $\begin{align}\dot{x} = f(x,u,t)\\y = g(x,u,t)\end{align}$ |
+
+^LTI-TABLE
+
 ### Lösung der Zustandsgleichungen
 
 Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) Angewandt. Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben (wie [hier](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md))
