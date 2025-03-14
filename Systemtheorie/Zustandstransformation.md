@@ -24,7 +24,7 @@ Oft ist es Sinnvoll den Zustand des Systems zu Transformieren, z.B. um dessen [R
 
 $$ \mathbf{x} = \mathbf{Tz} \iff \mathbf{\dot{x}} = \mathbf{T\dot{z}}  $$
 
-erhält man durch einsetzten für $$ das System mit dem **neuen Zustand** $\mathbf{z}$:
+erhält man durch einsetzten für $\mathbf{x}$ und $\dot{\mathbf{x}}$ das System mit dem **neuen Zustand** $\mathbf{z}$:
 
 $$
 \begin{align}
@@ -37,26 +37,21 @@ $$
 
 Dieses System ist wieder ein LTI-System der Form:
 
-> [!satz] **S1 - ZTRF)** Sei $\mathbf{x} = \mathbf{Tz}$, wobei die Transformationsmatrix $\mathbf{T}$ invertierbar ist, dann ist das LTI-System für die Zustandstransformation:
+> [!satz] **S1 - ZTRF)** LTI-System des Transformierten Zustands: ^ZTRF
 > 
-
-
-$$
-\begin{align}
-\dot{\mathbf{z}} &= \tilde{\mathbf{A}} \mathbf{z} + \tilde{\mathbf{B}}\mathbf{u}, \quad \mathbf{z}(0) = z_{0} \\
-\mathbf{y} &= \tilde{\mathbf{C}} \mathbf{z} + \tilde{\mathbf{D}}\mathbf{u}
-\end{align}
-$$
-mit
-
-$$
-\begin{align}
-\tilde{\mathbf{A}} &= \mathbf{T}^{-1} \mathbf{AT} \\
-\tilde{\mathbf{B}} &= \mathbf{T}^{-1} \mathbf{B}\\
-\tilde{\mathbf{C}} &= \mathbf{CT}\\
-\tilde{\mathbf{D}} &= \mathbf{D}\\
-\end{align}
-$$
+> $$
+> \begin{aligned}
+> \dot{\mathbf{z}} &= \tilde{\mathbf{A}} \mathbf{z} + \tilde{\mathbf{B}}\mathbf{u}, \quad \mathbf{z}(0) = z_{0} \\
+> \mathbf{y} &= \tilde{\mathbf{C}} \mathbf{z} + \tilde{\mathbf{D}}\mathbf{u}
+> \end{aligned}
+> \qquad \text{mit} \qquad
+> \begin{aligned}
+> \tilde{\mathbf{A}} &= \mathbf{T}^{-1} \mathbf{AT} \\
+> \tilde{\mathbf{B}} &= \mathbf{T}^{-1} \mathbf{B}\\
+> \tilde{\mathbf{C}} &= \mathbf{CT}\\
+> \tilde{\mathbf{D}} &= \mathbf{D}\\
+> \end{aligned}
+> $$
 
 ## Lösung der Zustandsgleichung
 
@@ -135,5 +130,11 @@ $$
 $$
 
 ### Fall 3: Konjugiert komplexe Eigenwerte
+
+---
+
+# Tags
+
+- [Koordinatenmatrix](../Mathematik/Algebra/Koordinatenmatrix.md)
 
 [^1]: [Spezialfall: Exponent ist eine Diagonalmatrix](../Mathematik/Analysis/Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix)
