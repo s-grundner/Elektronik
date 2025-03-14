@@ -27,12 +27,9 @@ title: Elektromagnet
 > [!hint] **Reluktanzprinzip**
 > Durch magnetische Feldkräfte verursachte Bewegung wirkt in Richtung des minimalen magnetischen Widerstandes des Magnetkreises.
 
-
-
 ## Elektromagente als Antriebe
 
-
-Elektromagnete sind **Antriebselemente** für  rotatorische und  lineare Bewegungen.
+Elektromagnete sind **Antriebselemente** für rotatorische und lineare Bewegungen.
 
 **Raststellen**
 - 1 Raststellung: Stanz und Druckmagnete
@@ -55,9 +52,9 @@ Elektromagnete sind **Antriebselemente** für  rotatorische und  lineare Bewegun
 
 Drei Relevante Elektromagnet-Grundformen:
 
-|            Topfmagnet             |            U-Magnet             | E-Magnet                        |
-| :-------------------------------: | :-----------------------------: | :-----------------------------: |
-| ![invert_dark](assets/TopfEM.png) | ![invert_dark](assets/U_EM.png) | ![invert_dark](assets/E_EM.png) |
+|             Topfmagnet              |             U-Magnet              | E-Magnet                        |
+| :---------------------------------: | :-------------------------------: | :-----------------------------: |
+| ![invert_dark](./assets/TopfEM.png) | ![invert_dark](./assets/U_EM.png) | ![invert_dark](assets/E_EM.png) |
 
 Ziel ist der Entwurf von EM mit verschiedenen **Magnetkraft-Hub** Kennlinien entsprechend der Anwendung. Durch Modifikationen der Grundformen komplexere Magnetkreise erstellbar.
 
