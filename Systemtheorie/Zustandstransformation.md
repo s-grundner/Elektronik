@@ -60,12 +60,66 @@ $$
 
 ## Lösung der Zustandsgleichung
 
-Die Lösung durch [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md#^VARC) des Transformierten LTI-Systems ist:
+Die Lösung durch [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) des Transformierten LTI-Systems ist:
 
 $$
-\mathbf{z}(t; z_{0}) = \tilde{\mathbf{\Phi}}(t)\mathbf{z}_{0}
+\mathbf{z}(t;\mathbf{z}_{0}) = \mathbf{\Phi}(t)\mathbf{z}_{0} + \int_{0}^{t}\mathbf{\Phi}(t-\tau)\tilde{\mathbf{B}}\mathbf{u}\mathrm{~d}\tau
 $$
 
-$$
+## Jordannormalform
+
+Wir nehmen nicht irgendeine Matrix $\mathbf{T}$ sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$. Es kommt im Zustandsraum von $\mathbf{z}$ nun für die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine Diagonalmatrix heraus. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die Fundamentalmatrix ist dann leicht lösbar.
+
+
+3 Fälle: Nullstellen des charakteristischen Polynoms können:
+
+- Einfach $k_{\lambda}=1$, Mehrfach mit $k_{\lambda}=m_{\lambda} > 1$,
+- Mehrfach mit $k_{\lambda}>1, k_{\lambda}\neq m_{\lambda}$
+- konjugiert komplexe Eigenwerte.
+- Mehrfache konjugiert komplexe Eigenwerte. (kompliziert)
+
+
+### Fall 1: Nur Eigenvektoren
+
+Die Hauptvektoren sind für den Allgemeinen Fall die Eigenvektoren. Kommen mehere Eigenvektoren vor $k_{\lambda}>1$ kann ebenfalls diese Vorhergehensweise gewählt werden, wenn für diesen Eigenwert trotzdem genügend Eigenvektoren hervorgehen.
+
+Durch die Eigenwertgleichung ergibt sich:
 
 $$
+\begin{align}
+\mathbf{Av}_{1} &= \lambda_{1}\mathbf{v}_{1} \\
+\mathbf{Av}_{2} &= \lambda_{2}\mathbf{v}_{2} \\
+&\vdots \\
+\mathbf{Av}_{n} &= \lambda_{n}\mathbf{v}_{n}
+\end{align}
+$$
+
+Fasst man die Eigenvektoren $\mathbf{v}$ zur matrix $\mathbf{V} = \begin{pmatrix}\mathbf{v}_{1} & \mathbf{v}_{2} & \cdots & \mathbf{v}_{n}\end{pmatrix}$
+
+$$
+\tilde{\mathbf{\Phi}}(t) = \begin{pmatrix}
+e^{ \lambda_{1}t } & 0 & \cdots & 0 \\
+0 & e^{ \lambda_{2}t } & \cdots & 0 \\
+\vdots & \ddots & \ddots & 0 \\
+0 & 0 & \cdots & e^{ \lambda_{n}t }
+\end{pmatrix}
+$$
+
+### Fall 2: Hauptvektoren
+
+Obiges gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen.
+
+Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Hauptvektoren**
+
+$$
+\tilde{\mathbf{\Phi}} (t) = e^{ \lambda t } \begin{pmatrix}
+1 & t & \frac{t^{2}}{2!}  & \cdots & \frac{t^{n-1}}{(n-1)!} \\
+0 & 1 & t & \cdots & \frac{t^{n-2}}{(n-2)!} \\
+\vdots & \vdots & \ddots & \ddots & \vdots \\
+0 & 0 & \cdots & 1 & t \\
+0 & 0 & \cdots & 0 & 1
+\end{pmatrix}
+$$
+
+### Fall 3: Konjugiert komplexe Eigenwerte
+
