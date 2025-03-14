@@ -24,7 +24,7 @@ Oft ist es Sinnvoll den Zustand des Systems zu Transformieren, z.B. um dessen [R
 
 $$ \mathbf{x} = \mathbf{Tz} \iff \mathbf{\dot{x}} = \mathbf{T\dot{z}}  $$
 
-erhält man das System mit dem **neuen Zustand** $\mathbf{z}$:
+erhält man durch einsetzten für $$ das System mit dem **neuen Zustand** $\mathbf{z}$:
 
 $$
 \begin{align}
@@ -68,16 +68,18 @@ $$
 
 ## Jordannormalform
 
-Wir nehmen nicht irgendeine Matrix $\mathbf{T}$ sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$. Es kommt im Zustandsraum von $\mathbf{z}$ nun für die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine Diagonalmatrix heraus. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die Fundamentalmatrix ist dann leicht lösbar.
+Wir nehmen nicht irgendeine Matrix $\mathbf{T}$, sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$. Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](../Mathematik/Algebra/Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Mathematik/Analysis/Fundamentalmatrix.md) ist dann leicht lösbar [^1]
 
+> [!important] Hier sind Wichtigen Kenngrößen der Eigenwerte:
+> - $k_{\lambda}$ ... Algebraische Vielfachheit
+> - $m_{\lambda}$ ... Geometrischen Vielfachheit
 
-3 Fälle: Nullstellen des charakteristischen Polynoms können:
+**Fälle:** Nullstellen des charakteristischen Polynoms können:
 
 - Einfach $k_{\lambda}=1$, Mehrfach mit $k_{\lambda}=m_{\lambda} > 1$,
 - Mehrfach mit $k_{\lambda}>1, k_{\lambda}\neq m_{\lambda}$
 - konjugiert komplexe Eigenwerte.
 - Mehrfache konjugiert komplexe Eigenwerte. (kompliziert)
-
 
 ### Fall 1: Nur Eigenvektoren
 
@@ -91,19 +93,21 @@ $$
 \mathbf{Av}_{2} &= \lambda_{2}\mathbf{v}_{2} \\
 &\vdots \\
 \mathbf{Av}_{n} &= \lambda_{n}\mathbf{v}_{n}
-\end{align} \iff \mathbf{A} \left( \mathbf{v}_{1},\mathbf{v}_{2}, \cdots \mathbf{v}_{n} \right) = \left( \mathbf{v}_{1},\mathbf{v}_{2}, \cdots \mathbf{v}_{n} \right)  \begin{pmatrix}
+\end{align} \iff \mathbf{A} \left( \mathbf{v}_{1},\mathbf{v}_{2}, \cdots \mathbf{v}_{n} \right) = \left( \mathbf{v}_{1},\mathbf{v}_{2}, \cdots \mathbf{v}_{n} \right)  \underbrace{ \begin{pmatrix}
 \lambda_{1} & 0 & \cdots & 0 \\
 0 & \lambda_{2} & \ddots & 0 \\
 \vdots & \ddots & \ddots & 0 \\
 0 & 0 & 0 & \lambda_{n}
-\end{pmatrix}
+\end{pmatrix} }_{ \mathbf{\tilde{A}} }
 $$
+
+Fasst man die Eigenvektoren $\mathbf{v}$ zur matrix $\mathbf{V} = \begin{pmatrix}\mathbf{v}_{1} & \mathbf{v}_{2} & \cdots & \mathbf{v}_{n}\end{pmatrix}$
 
 $$
 \mathbf{AV} = \mathbf{V \tilde{A}} \to \mathbf{\tilde{A}} = \mathbf{V}^{-1}\mathbf{AV}
 $$
 
-Fasst man die Eigenvektoren $\mathbf{v}$ zur matrix $\mathbf{V} = \begin{pmatrix}\mathbf{v}_{1} & \mathbf{v}_{2} & \cdots & \mathbf{v}_{n}\end{pmatrix}$
+Für die Fundamentalmatrix gilt $\mathbf{\Phi}(t)=e^{ \mathbf{\tilde{A}}t} \implies$
 
 $$
 \tilde{\mathbf{\Phi}}(t) = \begin{pmatrix}
@@ -132,3 +136,4 @@ $$
 
 ### Fall 3: Konjugiert komplexe Eigenwerte
 
+[^1]: [Spezialfall: Exponent ist eine Diagonalmatrix](../Mathematik/Analysis/Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix)

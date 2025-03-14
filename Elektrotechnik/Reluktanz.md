@@ -26,4 +26,4 @@ Die inverse proportionalität zur Peremeabilität sagt aus, dass der Magetische 
 
 > [!hint] **Reluktanzprinzip** ^RelPrinz
 > Durch magnetische Feldkräfte verursachte Bewegung wirkt in Richtung des minimalen magnetischen Widerstandes des Magnetkreises.
-
+> Die Kraft wirkt senkrecht zur Grenzfläche in die RIchtung des Stoffes mit der geringeren Permeabilität.

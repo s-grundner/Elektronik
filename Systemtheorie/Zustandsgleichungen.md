@@ -191,3 +191,7 @@ $$
 
 
 Mit jedem **zusätzlichen Energie-Speicher** steigt die Ordnung der DGL die das System beschreibt um **1**.
+
+---
+
+Unecpected Zustandsraum: [3b1b: 9:00 "State Space"](https://youtu.be/6dTyOl1fmDo?si=l6_opNoznnERKKUX)
