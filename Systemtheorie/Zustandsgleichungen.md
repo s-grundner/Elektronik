@@ -27,7 +27,7 @@ Der Zustand des Systems beschreibt die internen Größen des **linearen Systems*
 > [!question] Wie lässt sich der Zustand ermitteln?
 > Für jeden Zeitpunkt $t_0$ reicht
 > - die Kenntnis des Zustandes **zu diesem Zeitpunkt** $t_0$
-> - zusammen mit der Kenntnis **der Erregung** für alle Zeiten $t \geq t_0$ aus,
+> - zusammen mit der Kenntnis **der Erregung** (des Eingangs) für alle Zeiten $t \geq t_0$ aus,
 > 
 > um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen.
 > 
@@ -45,7 +45,7 @@ Der Zustand des Systems beschreibt die internen Größen des **linearen Systems*
 > 
 
 
-Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige anzahl von ein und Ausgängen zu erweitern (MIMO)
+Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von ein und Ausgängen zu erweitern (MIMO)
 
 ## Übertragungssystem
 
@@ -111,7 +111,7 @@ Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
 
-> [!def] **D2 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme
+> [!def] **D2 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
  >
 > $$
 > \begin{align}
@@ -119,6 +119,7 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 > \mathbf{y}(t) = \mathbf{C}(t)\cdot \mathbf{x}(t) + \mathbf{D}(t)\cdot \mathbf{u}(t) 
 > \end{align}
 > $$ 
+
 
 Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben.
 Sind die Koeffizientenmatrizen konstant, ist das System zusätzlich Zeitinvariant -> [LTI-System](LTI-Systeme.md)
@@ -134,6 +135,9 @@ Sind die Koeffizientenmatrizen konstant, ist das System zusätzlich Zeitinvarian
 > $\mathbf{D}$ Durchgangsmatrix ($\in q \times p$)
 
 Zur Erinnerung: Zeilen $\times$ Spalten
+
+> [Zustandstransformation](Zustandstransformation.md)
+
 ### Zustandsgleichung als Blockdiagramm
 
 ![invert_dark](assets/Pasted%20image%2020250306140047.png)

@@ -137,7 +137,7 @@ Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Besc
 
 ## Zustandsraumdarstellung
 
-> [!def] **D1 - LTIS)** LTI-System in der Zustandsraumdarstellung
+> [!def] **D3 - ZLTI)** LTI-System in der Zustandsraumdarstellung ^ZLTI
 >  $$
 > \begin{align}
 > \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{u}(t) \tag{Zustandsgleichung}\\
@@ -151,7 +151,7 @@ Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Besc
 Linearität $\impliedby$ Linearkombination der Koeffizientenmatrizen
 Zeitinvarianz $\impliedby$ Koeffizientenmatrizen sind Konstant
 
-Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem). 
+Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem), sonst um ein **freies** System
 Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
 
 |               | Linear                                                                                                                     | Nicht linear                                               |

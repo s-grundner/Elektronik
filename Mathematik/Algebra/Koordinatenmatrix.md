@@ -1,6 +1,7 @@
 ---
 tags:
   - Algebra/LineareAlgebra
+  - incomplete
 aliases:
   - erzeugendensystem
   - Spann
@@ -63,7 +64,9 @@ Es gilt dann offensichtlich:
 > 
 > Dabei gilt links $x \in X$ und $y \in Y$. Rechts gilt: $x$ ist der zugehörige Koordinatenvektor in $\mathbb{K}^n$ bzgl. der Basis $B$ und $y$ der zugehörige Koordinatenvektor in $\mathbb{K}^m$ bzgl. der Basis C. Zur Verwendung derselben Notation siehe Bemerkung 6.7.
 
-## Bemerkung 10.7
+## Basiswechsel
+
+> [!question] [Zustandstransformation](../../Systemtheorie/Zustandstransformation.md)
 
 Die Koordinatenmatrix hängt natürlich von der jeweils gewählten Basis ab. Würde man einen Basiswechsel von $B$ zu $\bar{B}$ bzw. $C$ zu $\bar{C}$ vornehmen, dann folgt mit Satz 7.21, dass dann für die Koordinatenmatrix $\bar{A}^L$ bzgl. der neuen Basis gilt:
 

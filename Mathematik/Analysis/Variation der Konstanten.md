@@ -56,10 +56,11 @@ mit $c \in \mathbb{R}^m$. $c$ ist noch nicht den Anfangswerten angepasst.
 
 Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe [FM-S1](Fundamentalmatrix.md#^FM-S1))
 
-$$
-x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]
-$$
-
+> [!satz] **S1 - VARC)** Variation der Konstanten ^VARC
+> Durch Variation der Konstanten ist eine Eindeutige Lösung des inhomogenen AWP gegeben durch:
+> 
+> $$x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]$$
+> 
 
 
 oder mit Hilfe des Matrizanten durch
