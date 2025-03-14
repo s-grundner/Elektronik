@@ -91,7 +91,16 @@ $$
 \mathbf{Av}_{2} &= \lambda_{2}\mathbf{v}_{2} \\
 &\vdots \\
 \mathbf{Av}_{n} &= \lambda_{n}\mathbf{v}_{n}
-\end{align}
+\end{align} \iff \mathbf{A} \left( \mathbf{v}_{1},\mathbf{v}_{2}, \cdots \mathbf{v}_{n} \right) = \left( \mathbf{v}_{1},\mathbf{v}_{2}, \cdots \mathbf{v}_{n} \right)  \begin{pmatrix}
+\lambda_{1} & 0 & \cdots & 0 \\
+0 & \lambda_{2} & \ddots & 0 \\
+\vdots & \ddots & \ddots & 0 \\
+0 & 0 & 0 & \lambda_{n}
+\end{pmatrix}
+$$
+
+$$
+\mathbf{AV} = \mathbf{V \tilde{A}} \to \mathbf{\tilde{A}} = \mathbf{V}^{-1}\mathbf{AV}
 $$
 
 Fasst man die Eigenvektoren $\mathbf{v}$ zur matrix $\mathbf{V} = \begin{pmatrix}\mathbf{v}_{1} & \mathbf{v}_{2} & \cdots & \mathbf{v}_{n}\end{pmatrix}$
