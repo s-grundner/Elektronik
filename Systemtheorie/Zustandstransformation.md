@@ -12,6 +12,7 @@ draft: true
 title: Zustandstransformation
 ---
  
+
 # Zustandstransformation
 
 > [!question] [Zustandsgleichungen](Zustandsgleichungen.md)
