@@ -62,6 +62,9 @@ nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
 Induktionsphänomene kamen bisher nicht vor, weil wir und nicht um Zeit Abhängigkeiten des Feldes gekümmert haben. Diese Phänomene treten nämlich nur in *Wechselfeldern* auf.
 
+
+
+
 ### Ruheinduktion
 
 Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, dass geschlossene elektrische Feldlinien auftauchen!
