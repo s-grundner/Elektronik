@@ -30,3 +30,22 @@ GridView {
     }
 } // GridView
 ```
+
+## Sicherung der Änderungen
+
+Damit bei einem System Update diese Änderungen nicht überschrieben werden wird ein pacman hook eingrichtet.
+
+in `/ect/pacman.d/hooks/kwin-restore-qml-hook.hook`
+
+```hook
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = kwin
+
+[Action]
+Description = Wiederherstellen modifizierter KWin QML-Dateien...
+When = PostTransaction
+Exec = /bin/bash -c 'cp ~/.config/kwin/thumbnailgrid_close.qml /usr/share/kwin/tabbox/thumbnail_grid/contents/ui/main.qml'
+```
+
