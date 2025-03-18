@@ -69,8 +69,10 @@ $$
 $$
 und somit
 $$
-\mathbf{x}(t;0,\mathbf{x_{0}}) =
+\mathbf{x}(t;0,\mathbf{x_{0}}) =\mathbf{T\tilde{\Phi}}(t)\mathbf{T}^{-1}\mathbf{x}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\mathbf{T}^{-1}\mathbf{Bu}\mathrm{~d}\tau
 $$
+
+Daraus lässt sich der Zusammenhang 
 
 ## Jordannormalform
 

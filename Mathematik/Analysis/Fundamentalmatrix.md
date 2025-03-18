@@ -29,8 +29,6 @@ professor:
 
 Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das DGL-System aus einer [DGL höherer Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) entsprungen, ist jede Zeile die Ableitung der Vorherigen.
 
-Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugehörigen DGL. Auch mit dem Symbol $\mathbf{\Phi}$ bezeichnet.
-
 
 > [!satz] **S1)** Eigenschaften der Fundamentalmatrix
 > 
@@ -43,10 +41,10 @@ Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugeh
 > 4. $X(t+\tau) = X(t)X(\tau)$
 
 
-> [!def] **D2 - MATZ)** Martizant ^MATZ
-> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Matrizant**, bezeichnet mit $X_{t_0}$.
+> [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
+> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix**, bezeichnet mit $\mathbf{\Phi}$.
 > 
->  $$X(t)\cdot X(t_{0})^{-1}=X_{t_{0}}(t)$$
+>  $$X(t)\cdot X(t_{0})^{-1}=\mathbf{\Phi}(t)$$
 
 
 
@@ -56,7 +54,8 @@ Die Fundamentalmatrix heißt auch **Transitionsmatrix** oder **Fluss** der zugeh
 > 
 > $$
 > \begin{gathered}
-> x(t;t_{0},x_{0})=X(t)\cdot X(t_{0})^{-1}\cdot x_{0} =X_{t_{0}}(t)\cdot x_{0} \\ \implies X(t)\cdot X(t_{0})^{-1} =X_{t_{0}}(t) \\
+> x(t;t_{0},x_{0})=X(t)\cdot X(t_{0})^{-1}\cdot x_{0} =\mathbf{\Phi}(t)\cdot x_{0} = \mathbf{\Phi}_{t}(x_{0})\\
+> \implies X(t)\cdot X(t_{0})^{-1} =X_{t_{0}}(t) \\
 > \end{gathered}
 > $$
 > 

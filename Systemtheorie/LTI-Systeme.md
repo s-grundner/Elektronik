@@ -137,6 +137,8 @@ Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Besc
 
 ## Zustandsraumdarstellung
 
+Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsgleichungen](Zustandsgleichungen.md#^ZSGL) zu konstanten Koeffizientenmatrizen
+
 > [!def] **D3 - ZLTI)** LTI-System in der Zustandsraumdarstellung ^ZLTI
 >  $$
 > \begin{align}
@@ -164,3 +166,4 @@ Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
 ### Lösung der Zustandsgleichungen
 
 Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) Angewandt. Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben (wie [hier](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md))
+
