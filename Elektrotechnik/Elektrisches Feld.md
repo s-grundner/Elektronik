@@ -34,17 +34,17 @@ banner_y: 0.756
 > - in der HF Technik sind einige Vereinfachungen der Elektrostatik nicht mehr gültig
 
 > [!info] [Coulomb-Kraft](Coulomb-Kraft.md)
->Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein [elektrisches Feld](elektrisches%20Feld.md) $E$ zugeordnet werden.  
+>Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $\mathbf{E}$ zugeordnet werden.  
 > Die [Kraft](../Physik/{MOC}%20Kräfte.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
-> $$\vec{F}=q\cdot \vec{E}$$
+> $$\mathbf{F}=q\cdot \mathbf{E}$$
 > 
->> [!success] Die [Kraft](../Physik/{MOC}%20Kräfte.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen [Elektrischen Feld](elektrisches%20Feld.md) ist proportional zu $q$ und $E$  
+>> [!success] Die [Kraft](../Physik/{MOC}%20Kräfte.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $\mathbf{E}$  
 >
 
-![inlineR\|395](EFeld.png)
+![230](EFeld.png)
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Algebra/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
-$$|\vec{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
+$$|\mathbf{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
 
 Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
@@ -53,37 +53,31 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 ## Statisches [E-Feld](elektrisches%20Feld.md) $\iff$ Gravitationsfeld
 
-|                Gravitationskraft                 | [Coulomb-Kraft](Coulomb-Kraft.md) |
-| :----------------------------------------------: | :-----------------------------------------------------------------------------------: |
-|            $\vec{F} = m\cdot \vec{g}$            |                              $\vec{F} = q \cdot \vec{E}$                              |
-| $\vec{F} = m\cdot \dfrac{G\cdot M}{\vec{r}^{2}}$ |          $\vec{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \vec{r}^{2}}$          |
-|          ![invert_light\|325](assets/GravKraft.png)          |                        ![invert_light\|375](assets/EKraft.png)                        |
-
-|               Gravitationsfeld der Erde mit der Masse $M$                | [elektrisches Feld](elektrisches%20Feld.md) einer Ladung $Q$ |
-|:------------------------------------------------------------------------:|:------------------------------------------------------------:|
-| $\vec{g} = -G\cdot M\cdot \dfrac{1}{ \mid \vec{r}\mid^{3}}\cdot \vec{r}$ |   $\mid\vec{E}\mid = \dfrac{Q}{4\pi\varepsilon_{0}r^{2}}$    |
-|                ![invert_light\|275](assets/GravFeld.png)                 |                  ![\|500](assets/EFeld.png)                  |
-
-| $F_{G}$                                                                                 | $F_{E}$                                                                                  |
-| --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
-| auf eine Masse $m$ wirkt im Gravitationsfeld $\vec{g}$ der Masse $M$ eine [Kraft](../Physik/{MOC}%20Kräfte.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene [E-Feld](elektrisches%20Feld.md) $\vec{E}$ eine [Kraft](Coulomb-Kraft.md) |
+|                                                     Gravitationskraft                                                     |                                        [Coulomb-Kraft](Coulomb-Kraft.md)                                        |
+| :-----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+|                                             $\mathbf{F} = m\cdot \mathbf{g}$                                              |                                        $\mathbf{F} = q \cdot \mathbf{E}$                                        |
+|                                  $\mathbf{F} = m\cdot \dfrac{G\cdot M}{\mathbf{r}^{2}}$                                   |                    $\mathbf{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \mathbf{r}^{2}}$                    |
+|                                        ![invert_light\|325](assets/GravKraft.png)                                         |                                     ![invert_light\|375](assets/EKraft.png)                                     |
+|                                                                                                                           |                                                                                                                 |
+|                                        Gravitationsfeld der Erde mit der Masse $M$                                        |                                       elektrisches Feld einer Ladung $Q$                                        |
+|                      $\mathbf{g} = -\dfrac{G\cdot M}{\lvert  \mathbf{r} \rvert^{3}}\cdot \mathbf{r}$                      |     $\lvert \mathbf{E} \rvert = \dfrac{Q}{4\pi\varepsilon_{0}\lvert \mathbf{r} \rvert^{3}}\cdot \mathbf{r}$     |
+|                                         ![invert_light\|275](assets/GravFeld.png)                                         |                                           ![\|500](assets/EFeld.png)                                            |
+|                                                                                                                           |                                                                                                                 |
+|                                                          $F_{G}$                                                          |                                                     $F_{E}$                                                     |
+| auf eine Masse $m$ wirkt im Gravitationsfeld $\mathbf{g}$ der Masse $M$ eine [Kraft](../Physik/{MOC}%20Kräfte.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene E-Feld $\mathbf{E}$ eine [Kraft](Coulomb-Kraft.md) |
 
 > [!warning] Unterschied zum G-Feld
 > Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.
 
 ## Elektrische Feldstärke in einem Leiter
 
-> [!def] Elektrische Feldstärke in einem Leiter
+Die elektrische Feldstärke im Leiter ist von der Stromdichte $\mathbf{J}$ und vom Materialabhängigen spezifischen Leitwert $\sigma$ bzw spez. Widerstand $\rho=\frac{1}{\sigma}$ Abhängig. Diese Beziehung ist stark mit dem [Ohmschen Gesetz](Ohmsches%20Gesetz.md) verwandt.
+
 $$
 \begin{align}
-&\vec{E} = \frac{\vec{J}}{\sigma}=\vec{J}\cdot \rho
+&\mathbf{E} = \frac{\mathbf{J}}{\sigma}=\mathbf{J}\cdot \rho
 \end{align}
 $$
-
-## Elektrische Flussdichte
-
-- Das elektrische Feld $\vec{E}$ ist die Intensitätsgröße des elektrischen Feldes, weil $\vec{E}$ die Kraftwirkung des elektrischen Feldes auf Ladungen beschreibt
-- Die elektrische Flussdichte $\vec{D}$ ist die Quantitätsgröße des elektrischen Feldes, weil $\vec{D}$ ein Maß für die Ursache des Feldes (die elektrische Ladung) ist
 
 # Beispiele
 

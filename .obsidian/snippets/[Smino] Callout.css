@@ -1,6 +1,6 @@
 .callout[data-callout="hint"] {
 	--callout-icon: lucide-lightbulb;
-	--callout-color: 255, 215, 0;
+	--callout-color: 255, 193, 0;
 }
 
 .callout[data-callout="def"] {
