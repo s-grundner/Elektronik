@@ -45,9 +45,9 @@ A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. $e^{ \mat
 
 ## Fundamentalmatrix
 
-Für die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. den [Matrizanten](Fundamentalmatrix.md#^MATZ) $\mathbf{X}_{t_{0}}(t)$ ergibt sich.
+Für die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. der [Transitionsmatrix](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}(t)$ ergibt sich.
 
-$$\mathbf{X}(t) = e^{ \mathbf{A}t } \qquad \mathbf{X}_{t_{0}}(t)=e^{ \mathbf{A}(t-t_{0}) }$$
+$$\mathbf{X}(t) = e^{ \mathbf{A}t } \qquad \mathbf{\Phi}(t)=e^{ \mathbf{A}(t-t_{0}) }$$
 
 Jedoch ist das Auswerten einer Unendlichenreihe unpraktisch.
 

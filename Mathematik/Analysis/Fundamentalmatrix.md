@@ -37,29 +37,25 @@ Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das D
 > \implies X(t)\cdot X(t_{0})^{-1} =\mathbf{\Phi}(t) \\
 > \end{gathered}
 > $$
-> 
-> 
-> Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden
-> 
+
+
+Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden. $\mathbf{\Phi}_{t}(x_{0})$ ist also die Lösung welche man auch als den **Fluss** bezeichnet. Wenn man diesen Plottet erhält man einen Vektorplot der den Fluss der Lösung visualisiert
+
+![250](assets/Pasted%20image%2020250318224707.png)
+
 
 > [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
-> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix**, bezeichnet mit $\mathbf{\Phi}$.
+> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamntalmatrix**, bezeichnet mit $\mathbf{\Phi}$. Ältere bezeichnung *Matrizant* ist nicht mehr üblich
 > 
->  $$X(t)\cdot X(t_{0})^{-1}=\mathbf{\Phi}(t)$$
+>  $$X(t)\cdot X(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})$$
 
 
 > [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
 > 
 > 1. $\dot{\mathbf{\Phi}}(t)=\mathbf{A}\mathbf{\Phi}(t)$ ... Das Fundamentalsystem löst das homogene AWP
-> 2. $\mathbf{\Phi}(t_{0}) = \mathbb{1}$
-> 
-> 3. $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$
-> 4. $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$
-
-
-
-
-
+> 2. $\mathbf{\Phi}(t_{0}) = \mathbb{1}$ ... Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix
+> 3. $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$ ... Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
+> 4. $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$ ... Eine Zeitliche Verschiebung eintspricht einer Entsprechenden Transformation.
 
 Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
 Da hier
