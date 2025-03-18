@@ -1,11 +1,8 @@
 ---
 tags: 
 aliases:
-  - Matrizant
-  - FM D1
-  - FM D2
-  - FM S1
   - Transitionsmatrix
+  - Fundamentalsystem
 keywords: 
 subject:
   - VL
@@ -18,7 +15,7 @@ professor:
 
 # Fundamentalmatrix
 
-> [!def] **D1 - FUMA)** Definition der Fundamentalmatrix
+> [!def] **D1 - FUMA)** Definition der Fundamentalmatrix ^FUMA
 > Jedes System $\left\{\mathbf{x}_1, \ldots, \mathbf{x}_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
 > 
 > $$
@@ -30,32 +27,14 @@ professor:
 Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das DGL-System aus einer [DGL höherer Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) entsprungen, ist jede Zeile die Ableitung der Vorherigen.
 
 
-> [!satz] **S1)** Eigenschaften der Fundamentalmatrix
-> 
-> 1. $\dot{X}(t)=\mathbf{A}X(t)$ ... Jede Lösung erfüllt das homegene DGL-System
-> 2. $X(t_{0}) = \mathbb{1}$
-> 
-> Hat das zur Fundamentalmatrix gehörige lin. DGL-System eine [Konstante Koeffizientenmatrix](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md), weist sie zusätzlich folgende Eigenschaften auf:
-> 
-> 3. $X(t)^{-1}=X(-t)$
-> 4. $X(t+\tau) = X(t)X(\tau)$
-
-
-> [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
-> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix**, bezeichnet mit $\mathbf{\Phi}$.
-> 
->  $$X(t)\cdot X(t_{0})^{-1}=\mathbf{\Phi}(t)$$
-
-
-
-> [!satz] **S2 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
+> [!satz] **S1 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
 > 
 > Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $X(t)$ wie folgt angeben:
 > 
 > $$
 > \begin{gathered}
 > x(t;t_{0},x_{0})=X(t)\cdot X(t_{0})^{-1}\cdot x_{0} =\mathbf{\Phi}(t)\cdot x_{0} = \mathbf{\Phi}_{t}(x_{0})\\
-> \implies X(t)\cdot X(t_{0})^{-1} =X_{t_{0}}(t) \\
+> \implies X(t)\cdot X(t_{0})^{-1} =\mathbf{\Phi}(t) \\
 > \end{gathered}
 > $$
 > 
@@ -63,12 +42,30 @@ Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das D
 > Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden
 > 
 
+> [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
+> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix**, bezeichnet mit $\mathbf{\Phi}$.
+> 
+>  $$X(t)\cdot X(t_{0})^{-1}=\mathbf{\Phi}(t)$$
+
+
+> [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
+> 
+> 1. $\dot{\mathbf{\Phi}}(t)=\mathbf{A}\mathbf{\Phi}(t)$ ... Das Fundamentalsystem löst das homogene AWP
+> 2. $\mathbf{\Phi}(t_{0}) = \mathbb{1}$
+> 
+> 3. $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$
+> 4. $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$
+
+
+
+
+
 
 Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
 Da hier
 
 $$
-\left(\frac{\partial x}{\partial x_0}\left(t ; t_0, x_0\right)\right)=X_{t_0}(t)
+\left(\frac{\partial x}{\partial x_0}\left(t ; t_0, x_0\right)\right)=\mathbf{\Phi}(t)
 $$
 
 gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
@@ -76,6 +73,6 @@ gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem 
 ## Lösung von Inhomogenen AWP
 
 > [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die allgemeine Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) $x'(t)=\mathbf{A}(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
-> $$x\left(t ; t_0, x_0\right)=X_{t_0}(t)\left[x_0+\int_{t_0}^t X_{t_0}(\tau)^{-1} b(\tau) d \tau\right]$$
+> $$x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right]$$
 
 
