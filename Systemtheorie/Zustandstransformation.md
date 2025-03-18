@@ -42,7 +42,7 @@ Dieses System ist wieder ein LTI-System der Form:
 > 
 > $$
 > \begin{aligned}
-> \dot{\mathbf{z}} &= \tilde{\mathbf{A}} \mathbf{z} + \tilde{\mathbf{B}}\mathbf{u}, \quad \mathbf{z}(0) = z_{0} \\
+> \dot{\mathbf{z}} &= \tilde{\mathbf{A}} \mathbf{z} + \tilde{\mathbf{B}}\mathbf{u}, \quad \mathbf{z}(0) = \mathbf{z}_{0} \\
 > \mathbf{y} &= \tilde{\mathbf{C}} \mathbf{z} + \tilde{\mathbf{D}}\mathbf{u}
 > \end{aligned}
 > \qquad \text{mit} \qquad
@@ -59,7 +59,17 @@ Dieses System ist wieder ein LTI-System der Form:
 Die Lösung durch [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) des Transformierten LTI-Systems ist:
 
 $$
-\mathbf{z}(t;\mathbf{z}_{0}) = \mathbf{\Phi}(t)\mathbf{z}_{0} + \int_{0}^{t}\mathbf{\Phi}(t-\tau)\tilde{\mathbf{B}}\mathbf{u}\mathrm{~d}\tau
+\mathbf{z}(t;\mathbf{z}_{0}) = \mathbf{\tilde{\Phi}}(t)\mathbf{z}_{0} + \int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\tilde{\mathbf{B}}\mathbf{u}\mathrm{~d}\tau
+$$
+
+Aus [ZTRF](#^ZTRF) erhält man für den Ursprünglichen Zustandsvektor $\mathbf{x}$
+
+$$
+\mathbf{x}(t;0,\mathbf{z}_{0}) = \mathbf{Tz}(t) = \mathbf{T\tilde{\Phi}}(t)\mathbf{z}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\mathbf{\tilde{B}u}\mathrm{~d}\tau
+$$
+und somit
+$$
+\mathbf{x}(t;0,\mathbf{x_{0}}) =
 $$
 
 ## Jordannormalform
