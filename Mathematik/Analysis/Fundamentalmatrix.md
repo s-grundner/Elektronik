@@ -33,29 +33,32 @@ Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das D
 > 
 > $$
 > \begin{gathered}
-> x(t;t_{0},x_{0})=X(t)\cdot X(t_{0})^{-1}\cdot x_{0} =\mathbf{\Phi}(t)\cdot x_{0} = \mathbf{\Phi}_{t}(x_{0})\\
-> \implies X(t)\cdot X(t_{0})^{-1} =\mathbf{\Phi}(t) \\
+> x(t;t_{0},x_{0})=X(t)\cdot X(t_{0})^{-1}\cdot x_{0} =\mathbf{\Phi}(t,t_{0})\cdot x_{0} = \mathbf{\Phi}_{t}(x_{0})\\
+> \implies X(t)\cdot X(t_{0})^{-1} =\mathbf{\Phi}(t,t_{0}) \\
 > \end{gathered}
 > $$
 
 
-Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden. $\mathbf{\Phi}_{t}(x_{0})$ ist also die Lösung welche man auch als den **Fluss** bezeichnet. Wenn man diesen Plottet erhält man einen Vektorplot der den Fluss der Lösung visualisiert
-
-![250](assets/Pasted%20image%2020250318224707.png)
-
+Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden. Die Lösung $\mathbf{\Phi}_{t}(x_{0})$ beschreibt den Fluss des Systems, also die zeitliche Änderung des Anfangswertes $x_{0}$ unter der Dynamik des Systems. Wenn man diesen Plottet erhält man einen Vektorplot der den Fluss der Lösung visualisiert
 
 > [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
 > Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamntalmatrix**, bezeichnet mit $\mathbf{\Phi}$. Ältere bezeichnung *Matrizant* ist nicht mehr üblich
 > 
 >  $$X(t)\cdot X(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})$$
 
+Wenn man schreibt $\mathbf{\Phi}(t)$ dann hat man implizit angenommen den Anfangswert bereits eingesetzt zu haben. Bei LTI-Systemen wo $t_{0}=0$ ist ist dies of üblich
+
 
 > [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
 > 
-> 1. $\dot{\mathbf{\Phi}}(t)=\mathbf{A}\mathbf{\Phi}(t)$ ... Das Fundamentalsystem löst das homogene AWP
-> 2. $\mathbf{\Phi}(t_{0}) = \mathbb{1}$ ... Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix
-> 3. $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$ ... Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
-> 4. $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$ ... Eine Zeitliche Verschiebung eintspricht einer Entsprechenden Transformation.
+> 1. $\dot{\mathbf{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})$ ... Das Fundamentalsystem löst das homogene AWP
+> 2. $\mathbf{\Phi}(t_{0},t_{0}) = \mathbb{1}$ ... Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix
+> 
+> Ist das System auch zeitinvariant (konstanter Koeffizient), gilt zusätzlich
+> 
+> 3. $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$ ... Eine Zeitliche Verschiebung eintspricht einer Entsprechenden Transformation.
+> 4. $\mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)\quad$ (falls $t_{0}=0$, dann $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$)
+>     ... Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
 
 Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
 Da hier
