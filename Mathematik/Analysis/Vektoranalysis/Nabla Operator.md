@@ -18,6 +18,7 @@ satz:
 
 # Nabla Operator
 
+
 > [!def] **D1 - NABL)** Nabla Operator
 > Sei $x = (x_{1}, \dots, x_n) \in \mathbb{R}^{n}$. Der Nabla Operator ($\nabla$) ist alleinstehend folgendermaßend definiert
 > $$

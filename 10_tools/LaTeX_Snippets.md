@@ -45,8 +45,8 @@
 	{trigger: "IFF", replacement: "\\mathcal{F}^{-1}\\{$0\\}$1", options: "mA"},
 	{trigger: "([a-zA-Z])cal", replacement: "\\mathcal{[[0]]}", options: "rmA"},
 	{trigger: "([a-zA-Z])frak", replacement: "\\mathfrak{[[0]]}", options: "rmA"},
-	{trigger: "trf", replacement: "\circ\!\!-\!\!\bullet", options: "mA", priority: 1},
-	{trigger: "itrf", replacement: "\bullet\!\!-\!\!\circ", options: "mA", priority: 1},
+	{trigger: "trf", replacement: "\\circ\\mkern-7px-\\mkern-7px\\bullet", options: "mA", priority: 1},
+	{trigger: "itrf", replacement: "\\bullet\\mkern-7px-\\mkern-7px\\circ", options: "mA", priority: 1},
 	
 
 	// Default
