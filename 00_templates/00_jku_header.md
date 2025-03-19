@@ -18,4 +18,3 @@ professor:
 <%* if(typ == "UE") tR += "due:\n" _%>
 ---
  
-<%* if(typ == "UE") tp.file.include("[[10_jku_ue]]") %>
