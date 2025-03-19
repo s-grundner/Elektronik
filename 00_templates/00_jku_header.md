@@ -8,8 +8,8 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - <%* tR += lva %>
   - <%* tR += typ %>
+  - <%* tR += lva %>
 semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:

@@ -61,6 +61,12 @@ Die Gesamtheit der Systeme die Ein- und Ausgang miteinander verknüpfen, ist die
 - **Ausgeber:** Anzeige, Datenausgabe, Zähler
 - **Hilfsgerät:** Liefert Hilfsenergie um die Operationen der Systeme der Messkette zu ermöglichen
 
+## Messen nicht elektrischer Größen
 
+Die Physikalische Größe steuert eine elektrische Größe: 
 
-
+1. **Direkte**/ Aktive Umwandlung (self generating): Der Sensor erzeugt selbst die Energie.
+    - *Thermoelement*: Bimetallstreifen Mobilität der Elektronen in verschiedenen Metallen wird als elektrische Messgröße wahrnehmbar.
+    - *Photodiode*
+2. **Passive** Umwandlung (modulating)
+    - Element das seinen elektrischen Widerstand ändert
