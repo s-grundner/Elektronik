@@ -125,7 +125,7 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 Sind die Koeffizientenmatrizen konstant, ist das System zusätzlich Zeitinvariant -> [LTI-System](LTI-Systeme.md)
 
 - Ist die Stellgröße $\mathbf{u}(t) = 0$ heißt das System **frei**.
-- ist der Zustandsvektor $\mathbf{x}(t) = \mathbf{x}$ (also unabhägig von $t$) heißt das System **autonom**. 
+- Ist das Systen zeitinvariant und frei, heißt das System **autonom**. 
 - Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) ansetzen.
 
 > [!def] **D3 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**

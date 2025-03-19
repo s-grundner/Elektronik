@@ -62,14 +62,14 @@ $$
 \mathbf{z}(t;\mathbf{z}_{0}) = \mathbf{\tilde{\Phi}}(t)\mathbf{z}_{0} + \int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\tilde{\mathbf{B}}\mathbf{u}\mathrm{~d}\tau
 $$
 
-Aus [ZTRF](#^ZTRF) erhält man für den Ursprünglichen Zustandsvektor $\mathbf{x}$
+Dabei ist $\mathbf{\tilde{\Phi}}(t)$ die [Transitionsmatrix](../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM) des Zustands. Aus [ZTRF](#^ZTRF) erhält man für den Ursprünglichen Zustandsvektor $\mathbf{x}$
 
 $$
-\mathbf{x}(t;0,\mathbf{z}_{0}) = \mathbf{Tz}(t) = \mathbf{T\tilde{\Phi}}(t)\mathbf{z}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\mathbf{\tilde{B}u}\mathrm{~d}\tau
+\mathbf{x}(t;\mathbf{z}_{0}) = \mathbf{Tz}(t) = \mathbf{T\tilde{\Phi}}(t)\mathbf{z}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\mathbf{\tilde{B}u}\mathrm{~d}\tau
 $$
 und somit
 $$
-\mathbf{x}(t;0,\mathbf{x_{0}}) =\mathbf{T\tilde{\Phi}}(t)\mathbf{T}^{-1}\mathbf{x}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\mathbf{T}^{-1}\mathbf{Bu}\mathrm{~d}\tau
+\mathbf{x}(t;\mathbf{x_{0}}) =\mathbf{T\tilde{\Phi}}(t)\mathbf{T}^{-1}\mathbf{x}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\tilde{\Phi}}(t-\tau)\mathbf{T}^{-1}\mathbf{Bu}\mathrm{~d}\tau
 $$
 
 Daraus lässt sich der Zusammenhang 

@@ -65,7 +65,7 @@ Im 2. Command `user` und die Version anpassen.
 
 ```sh
 sudo pacman -S patchelf
-sudo patchelf --clear-execstack /home/user/.MathWorks/ServiceHost/-mw_shared_installs/v2024.13.0.2/bin/glnxa64/libmwfoundation_crash_handling.so
+sudo patchelf --clear-execstack /home/simon/.MathWorks/ServiceHost/-mw_shared_installs/v2025.1.1.2/bin/glnxa64/libmwfoundation_crash_handling.so
 ```
 
 ### GLExeption
@@ -75,5 +75,3 @@ sudo patchelf --clear-execstack /home/user/.MathWorks/ServiceHost/-mw_shared_ins
 
 im Ausführverzeichnis von `matlab` 
 
-```
-```
