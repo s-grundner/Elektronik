@@ -8,18 +8,19 @@ aliases:
   - Kronecker
   - Kronecker-Delta
 subject:
-  - mathe
   - VL
   - Mathematik 1
-source:
-  - Rudolf Frauenschuh
+  - Signalverarbeitung
+  - Signale und Systeme
 created: 6th November 2024
 keywords: 
 semester: WS23
 professor:
+  - Mario Huemer
 ---
 
 # Delta-Impuls $\delta(t)$
+
 
 Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
 Zu seiner Einführung kann man von einem kurzen Rechtecksimpuls **$y=r(t)$** ausgehen:

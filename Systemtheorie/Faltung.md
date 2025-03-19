@@ -38,7 +38,7 @@ semester: WS24
 > - multilinear mit $a \in \mathbb{C}$ (linear in jeder Variablen) oder assoziativ mit der skalaren Multiplikation:
 > $(a(f * g))(t)=((a f) * g)(t)=(f *(a g))(t)$
 > 
-> Die Menge $L_1\left(\mathbb{R}^n\right)$ bildet zusammen mit der Addition und der Faltung einen kommutativen Ring, der für die Faltung kein neutrales Element besitzt. Dies ändert sich bei der Erweiterung auf Distributionen, mit $\delta(t)$ als Einselement.
+> Die Menge $L_1\left(\mathbb{R}^n\right)$ bildet zusammen mit der Addition und der Faltung einen kommutativen Ring, der für die Faltung kein neutrales Element besitzt. Dies ändert sich bei der Erweiterung auf Distributionen, mit $\delta(t)$ als **Einselement**.
 
 - Wenn zwei stetige Funktionen gefaltet werden ist das Ergebnis wieder stetig.
 

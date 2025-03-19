@@ -7,8 +7,9 @@ keywords:
   - Zeitbereich
   - Frequenzbereich
 subject:
-  - Signale und Systeme
   - VL
+  - Signale und Systeme
+  - Signalverarbeitung
 semester: WS24
 created: 4. März 2024
 professor:
@@ -26,7 +27,7 @@ Die Fouriertransfomration ist eine [[Integraltransformation]]. Im Vergleich zur 
 $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Funktion $f(t)$:
 
 > [!def] **D1 - FT)** Fouriertransformation - Fourierintegral ^FT
-> $$\mathcal{F}\{f(t)\}(j\omega) = F(j\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt \qquad t \in \mathbb{R}$$
+> $$\mathcal{F}\{f(t)\}(j\omega) = F(j\omega) = \int_{-\infty}^{\infty} f(t)\cdot e^{-j\omega t}dt \qquad t \in \mathbb{R}\tag{FT}$$
 > 
 > - [Transformationskern](Integraltransformation.md): komplexe Exponentialfunktion $e^{ -j\omega t }$
 > - Kurzschreibweise: $\mathcal{F}\{f(t)\}(j\omega) = F(j\omega)$
@@ -34,7 +35,7 @@ $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Fun
 
 
 > [!def] **D2 - IFT)** Inverse Fouriertransformation ^IFT
-> $$\mathcal{F}\{F(j\omega)\}^{-1}(t) = f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cdot e^{j\omega t}d\omega$$
+> $$\mathcal{F}\{F(j\omega)\}^{-1}(t) = f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cdot e^{j\omega t}d\omega \tag{IFT}$$
 
 ## Sätze und Korrespondenzen
 

@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Zeitdiskrete Fouriertransformation
+aliases: []
 keywords: 
 subject:
   - VL
@@ -59,24 +58,5 @@ Durch gleichsetzen der Beiden Fouriertransformierten in $(1)$ und $(2)$ folgt di
 - $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ besitzt eine periodische Frequenzabhängigkeit, die über den Ausdruck $e^{j \omega T}$ gegeben ist $\Rightarrow e^{j \omega T}$ als Argument
 - Aussage der dualen Poissonschen Summenformel: Eine mit der Rate $1 / T$ ideal abgetastete aperiodische Funktion $f_{\mathrm{a}}$ besitzt ein periodisches Spektrum. Dieses lässt sich durch eine unendliche Summe von gewichteten komplexen Exponentialfunktionen darstellen, wobei die Gewichtungskoeffizienten die Abtastwerte der Funktion sind.
 
-Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der zeitdiskreten Funktion $f_{\mathrm{a}}(n T)$.
+Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der [zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fouriertransformation.md) $f_{\mathrm{a}}(n T)$.
 
-## **Zeitdiskrete** Fouriertransformation
-
-> [!important] Die Zeitdiskrete FT hat im gegensatz zur [DFT](DFT.md) folgende Eigenschaft
-> Die Funktion im Zeitbereich ist Zeitdiskret im Frequenzbereich ist sie jedoch kontinuierlich.
-
-Zur Obigen Dualen Poissongleichung erfolgen zwei Substituierungen:
-- Zeitdiskret Abgetastete Funktion $f_{a}(nT) \Rightarrow f[n]$
-- Normierte Frequenz: $\Omega=\omega T \Rightarrow \Omega_{0}=\omega_{0}T=2\pi$
-
-> [!def] **D3 - DTFT)** Zeitdiskrete Fouriertransformation ^DTFT
-> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }\tag{DTFT}$$ 
-
-
-> [!def] **D4 - IDTFT)** Zeitdiskrete Inverse Fouriertransformation ^IDTFT
-> $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IDTFT}$$
-
-Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
-
-$$\sum_{n=-\infty}^{\infty}\lvert f[n] \rvert < \infty$$
