@@ -153,8 +153,7 @@ Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die
 Linearität $\impliedby$ Linearkombination der Koeffizientenmatrizen
 Zeitinvarianz $\impliedby$ Koeffizientenmatrizen sind Konstant
 
-Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem), sonst um ein **freies** System. Ein 
-Eine weitere wichtige Eigenschaft ist die [Kausalität](Kausalität.md)
+Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem), sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
 
 |               | Linear                                                                                                                     | Nicht linear                                               |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------: |
