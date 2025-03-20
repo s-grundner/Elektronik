@@ -24,6 +24,12 @@ RV-Assembler:
 
 ```
 
+## Matlab im Terminal
+
+```sh
+matlab -nosplash -nodesktop
+```
+
 # MATLAB auf Arch Installieren
 
 - [MATLAB - ArchWiki](https://wiki.archlinux.org/title/MATLAB)
@@ -66,6 +72,7 @@ Im 2. Command `user` und die Version anpassen.
 ```sh
 sudo pacman -S patchelf
 sudo patchelf --clear-execstack /home/simon/.MathWorks/ServiceHost/-mw_shared_installs/v2025.1.1.2/bin/glnxa64/libmwfoundation_crash_handling.so
+sudo patchelf --clear-execstack /home/simon/.MathWorks/ServiceHost/-mw_shared_installs/v2025.1.1.2/bin/glnxa64/mathworksservicehost/rcf/matlabconnector/serviceprocess/rcf/service/libmwmshrcfservice.so
 ```
 
 ### GLExeption
