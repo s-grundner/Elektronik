@@ -21,26 +21,28 @@ def:
 
 > [!quote]  Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
 
-Eigenvektoren ($v$) sind [Vektoren](../Algebra/Vektor.md), die unter der [linearen Abbildung](../Algebra/Lineare%20Abbildungen.md) $A$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
+Eigenvektoren ($\mathbf{v}$) sind [Vektoren](../Algebra/Vektor.md), die unter der linearen Abbildung $\mathbf{A}$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
 
-$$Av = \lambda v$$
+$$\mathbf{Av} = \lambda \mathbf{v}$$
 
 |            $A$            |         $v$         |     $\lambda$     |
 | :-----------------------: | :-----------------: | :---------------: |
 | Lineare Abbildung: Matrix | Eigenvektor: Vektor | Eigenwert: Skalar |
 
-> [!def] **D1 - EIGV)** Ein Vektor $v\neq 0 \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung  $A$ zum **Eigenwert** $\lambda$, falls gilt
+> [!def] **D1 - EIGV)** Ein Vektor $\mathbf{v}\neq \mathbf{0} \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung  $\mathbf{A}$ zum **Eigenwert** $\lambda$, falls gilt ^EIGV
 > 
-> $$(A-\lambda \mathbb{1})\cdot v=0$$
-> 
-> - Eigenvektoren zu verschiedenen Eigenwerten sind linear unabhängig.
-> - Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
-> - Ist $\det A=0$, so ist *mindestens* ein Eigenwert 0.
+> $$(\mathbf{A}-\lambda \mathbb{1})\cdot \mathbf{v}=\mathbf{0}\tag{Eigenwertgleichung}$$
 
-> [!def] **D2 - CHAP)** Charakteristisches Polynom ^CHAP
-> Eigenwerte sind nun alle $\lambda \in\mathbb{C}$, für die $\det(A-\lambda \mathbb{1})=0$ ist. Das Charakteristische Polynom zur Linearen Abbildung $A$ ist definiert wie:
-> $$p_{A}(\lambda) := \det(A-\lambda \mathbb{1})$$
+
+- Eigenvektoren zu verschiedenen Eigenwerten sind [linear unabhängig](Lineare%20Abhängigkeit.md).
+- Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
+- Ist $\det A=0$, so ist *mindestens* ein Eigenwert 0.
+
+> [!def] **D2 - CHAP)** Charakteristisches Polynom und Eigenwert ^CHAP
+> Das Charakteristische Polynom zur Linearen Abbildung $\mathbf{A}$ ist definiert wie:
+> $$p_{\mathbf{A}}(\lambda) := \det(\mathbf{A}-\lambda \mathbb{1})$$
 > 
+> Jeder Wert $\lambda \in\mathbb{C}$ der die Gleichung $p_{\mathbf{A}}(\lambda)=0$ erfüllt, heißt **Eigenwert** von $\mathbf{A}$. Also eine Nullstelle des charakteristischen Polynoms ist.
 
 
 Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es gibt nur dann Eigenvektoren ungleich null, wenn die Matrix $A-\lambda \mathbb{1}$ **nicht vollen rang** hat also wenn die determinante null ist. Wir Suchen daher eigenwerte sodass diese Bedingung erfüllt ist.
@@ -52,14 +54,40 @@ Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es g
 
 ## Eigenraum
 
-der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / Erzeugenensystem. Transformiert man eine lineare Abbildung bezüglich dieser Basis, so erhält man seine [Jordannormalform](Jordannormalform.md)
+der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / Erzeugenensystem. Der Eigenraum ist also $\ker(\mathbf{A}-\lambda \mathbb{1})$
 
 ## Vielfachheiten
 
-> [!def] **D3 - VFHT)** Algebraische und geometrische Vielfachheit. Sei $p(\lambda)$ wie in [](#^CHAP)
+> [!def] **D3 - VFHT)** Algebraische und geometrische Vielfachheit. ^VFHT
+> Sei $p_{\mathbf{A}}(\lambda)=0$ das [charakteristische Polynom](#^CHAP) der linearen Abbildung $\mathbf{A}$, mit den Eigenwerten $\lambda$ als dessen Nullstellen
+> - **Algebraische Vielfachheit** $k_{\lambda}$: Ist die Vielfachheit des Eigenwertes
+> - **Geometrische Vielfachheit** $m_{\lambda}$: Ist der Rangverlust des Eigenwertes $\lambda$ $\iff$ $m_{\lambda} =\dim\ker(\mathbf{A}-\mathbb{1}\lambda)$
 > 
 
+Die Geometrische Vielfachheit ist die **Dimension des Eigenraumes**.
+
 ## Nebeneigenvektoren
+
+> [!warning] Werden nur für reelle Vielfachheiten betrachtet
+
+> [!satz] **S1 - HAUP)** Nebeneigenvektoren.
+> Ist $\lambda \in \mathbb{R}$ ein $k$-facher Eigenwert, dessen Eigenraum *keinen Rangverlust* aufweist ($m_{\lambda}=1$), dann existieren zum zugehörigen Eigenvektor $\mathbf{v}_{1}$ weitere $k-1$ linear unabhängige Vektoren, für welche die Gleichung
+> $$(\mathbf{A}-\lambda \mathbb{1})\mathbf{v}_{i+1}=\mathbf{v}_{i},\quad i = 1,2,\dots,k-1\tag{NEIG}$$
+> erfüllen. Die Vektoren $\mathbf{v}_{2},\dots,\mathbf{v}_{k}$ heißen **Nebeneigenvektoren**. Betrachtet man die obige Gleichung als System, gilt
+> $$\mathbf{AV}=\mathbf{VS},\quad \mathbf{V}=\begin{bmatrix}\mathbf{v}_{1}&\dots &\mathbf{v}_{k}\end{bmatrix}$$
+> mit der Matrix $\mathbf{S} \in \mathbb{C}^{k\times k}$
+> 
+> $$
+> \mathbf{S}= \begin{pmatrix}
+> \lambda & 1 & 0 & \dots & 0 \\
+> 0 & \lambda & 1 & \dots & 0 \\
+> \vdots & \vdots & \ddots & \ddots & \vdots \\
+> 0 & 0 & \dots & \lambda & 1 \\
+> 0 & 0 & \dots & 0 & \lambda
+> \end{pmatrix}
+> $$
+
+Man kann also aus dem Eigenvektor dessen Nebeneigenvektoren **rekursiv** bestimmen.
 
 
 
