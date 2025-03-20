@@ -31,5 +31,5 @@ Hierbei ist es wichtig, dass die Elemente nicht vertauscht werden können: $\beg
 - [Skalarprodukt](../Algebra/Skalarprodukt.md)
 - [Matrix](Matrix.md)
 - Tensor
-- [Vektor Basis](../Algebra/Koordinatenmatrix.md)
-- [Koordinatenmatrix](../Algebra/Koordinatenmatrix.md)
+- [Vektor Basis](../{MOC}%20Lineare%20Algebra.md)
+- [{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md)

@@ -51,7 +51,7 @@ cited:
  $$\operatorname{rang}(\mathbf{A}) \leq \min\{m,n\}$$
 
 Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
-Man könnte auch sagen, $\operatorname{rang}(\mathbf{A})$ ist die **Dimension** der [linearen Hüllen](Koordinatenmatrix.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
+Man könnte auch sagen, $\operatorname{rang}(\mathbf{A})$ ist die **Dimension** der [linearen Hüllen](../{MOC}%20Lineare%20Algebra.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
 
 $$
 \operatorname{rang}\mathbf{A}=\dim\operatorname{im}\mathbf{A}

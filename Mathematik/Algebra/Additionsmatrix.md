@@ -16,7 +16,7 @@ professor:
 
 > [!info] Wenn eine Matrixmultiplikation mit einer Additionsmatrix durchgeführt wird, wird ein vielfaches $\lambda$ des Zeilenvektors in der $j$-ten Zeile (Zahl der Spalte in der sich $\lambda$ befindet) auf den Zeilenvektor der $i$-ten Zeile (Zahl der Zeile in der sich $\lambda$) addiert.
 
- Additionsmatrix $R_{i, j}(\lambda)$ mit $i \neq j$ und $\lambda \neq 0$ ([Koordinatenmatrix](Koordinatenmatrix.md)): für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt:
+ Additionsmatrix $R_{i, j}(\lambda)$ mit $i \neq j$ und $\lambda \neq 0$ ([{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md)): für ihre Zeilenvektoren $\vec{z_1}, \ldots, \vec{z_n}$ gilt:
 
 $$
 \vec{z_k}=\left\{\begin{array}{ll}

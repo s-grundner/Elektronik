@@ -16,7 +16,9 @@ professor:
 
 # Lineare Abhängigkeit
 
-> [!important] [Definition 6.5](Koordinatenmatrix.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md):
+> [!question] [Lineare Algebra](../{MOC}%20Lineare%20Algebra.md)
+
+> [!important] [Definition 6.5](../{MOC}%20Lineare%20Algebra.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md):
 > **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](Vektor.md)), heißen **linear unabhängig**, falls gilt:
 > 
 > $$
@@ -43,7 +45,7 @@ professor:
     xtick={-1,0,1,2,3},
     ytick={-1,0,1,2,3},
     title={\textbf{Linear Abhängig}},
-    scale=2.0
+    scale=1.0
 ]
 
 % Vektor 1
@@ -67,7 +69,7 @@ professor:
     xtick={-1,0,1,2,3},
     ytick={-1,0,1,2,3},
     title={\textbf{Linear Unabhängig}},
-    scale=2.0
+    scale=1.0
 ]
 
 % Vektor 1
@@ -87,17 +89,17 @@ professor:
 > [!important] Lineare (Un)abhängigkeit
 > (i) Die [Vektoren](Vektor.md) $v_{1}, \ldots, v_{n}$ heißen **linear abhängig**, wenn es $\lambda_1, \lambda_{2}, \ldots, \lambda_{n} \in K$ gibt, die nicht alle gleich Null sind, sodass gilt
 > $$
-\lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\vec{o}
+\lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\mathbf{0}
 > $$
 > (ii) Die [Vektoren](Vektor.md) $v_1, \ldots, v_n$ heißen **linear unabhängig**, wenn sie nicht linear abhängig sind, wenn also gilt
 > $$
-\lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\vec{o} \quad \Rightarrow \quad \lambda_{1}=\lambda_{2}=\ldots=\lambda_{n}=0
+\lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\mathbf{o} \quad \Rightarrow \quad \lambda_{1}=\lambda_{2}=\ldots=\lambda_{n}=0
 > $$
 
 Um die [Vektoren](Vektor.md) $v_{1},v_{2},\dots,v_{n}\in X$ auf lineare Abhängigkeit bzw. lineare Unabhängigkeit zu Prüfen, ist die Gleichung (bzw. das daraus resultierende [LGS](Lineare%20Gleichungssysteme.md))
 
 $$
-\lambda_{1}\cdot v_{1}+\lambda_{2}\cdot v_{2}\dots+\lambda_{n}\cdot v_{n}= \vec{o}
+\lambda_{1}\cdot v_{1}+\lambda_{2}\cdot v_{2}\dots+\lambda_{n}\cdot v_{n}= \mathbf{0}
 $$
 
 Mit noch unbekannten Koeffizienten $\lambda_{1},\lambda_{2},\dots\lambda_{n}\in K$ zu lösen.
@@ -105,7 +107,7 @@ Das [LGS](Lineare%20Gleichungssysteme.md) kann auch als [Matrix](Matrix.md) ange
 
 $$
 \begin{pmatrix}
-\vec{v}_{1} & \vec{v}_{2} & \cdots  & \vec{v}_{n}
+\mathbf{v}_{1} & \mathbf{v}_{2} & \cdots  & \mathbf{v}_{n}
 \end{pmatrix}\cdot \begin{pmatrix}
 \lambda_{1} \\ \lambda_{2} \\ \vdots \\ \lambda_{n}
 \end{pmatrix} = \begin{pmatrix}
@@ -120,7 +122,7 @@ $$
 > > [!success]- *Lösung: Wir setzen an*
 > > $$
 \begin{aligned}
-\vec{0} & =\lambda_1 \cdot \vec{z_1}+\lambda_2 \cdot \vec{z_2}+\lambda_3 \cdot \vec{z_3} \\
+\mathbf{0} & =\lambda_1 \cdot \mathbf{z_1}+\lambda_2 \cdot \mathbf{z_2}+\lambda_3 \cdot \mathbf{z_3} \\
 \Rightarrow \quad(0,0,0) & =\lambda_1 \cdot(1,2,1)+\lambda_2 \cdot(3,1,5)+\lambda_3 \cdot(3,-4,7) \\
 \Rightarrow \quad(0,0,0) & =\left(\lambda_1+3 \lambda_2+3 \lambda_3, 2 \lambda_1+\lambda_2-4 \lambda_3, \lambda_1+5 \lambda_2+7 \lambda_3\right)
 \end{aligned}

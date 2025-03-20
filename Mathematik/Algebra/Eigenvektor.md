@@ -51,7 +51,7 @@ Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es g
 
 ## Eigenraum
 
-der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Koordinatenmatrix](Algebra/Koordinatenmatrix.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben,
+der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben,
 
 ---
 
@@ -225,7 +225,7 @@ x_{\lambda_{3}}=s\cdot \begin{pmatrix}
 \end{pmatrix}, s\in \mathbb{R}
 $$
 
-der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [Koordinatenmatrix](Algebra/Koordinatenmatrix.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
+der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
 
 $$
 \begin{align}
