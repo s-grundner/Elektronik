@@ -21,21 +21,27 @@ Für ein lineares System kann auf dessen lineare Abbildung ein beliebeiger Basis
 
 ![](Zustandstransformation.md#^TRF)
 
-Wir nehmen hier jedoch nicht irgendeine Matrix $\mathbf{T}$, sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$. Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](../Mathematik/Algebra/Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Mathematik/Analysis/Fundamentalmatrix.md) ist dann leicht lösbar [^1]
- 
+> [!success] Wir nehmen hier jedoch nicht irgendeine Matrix $\mathbf{T}$, sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$.
+> Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Analysis/Fundamentalmatrix.md) ist dann leicht zu bestimmen [^1]
+
+Im allgemeinen besteht $\mathbf{V}$ aus allen Hauptvektoren. Diese sind ein Überbegriff für alle reell und komplexwertigen Eigenvektoren und Nebeneigenvektoren, 
+
 Die neue Matrix $\mathbf{\tilde{A}}$ ist dann in der **Jordannormalform** der Ursprünglichen Abbildung $\mathbf{A}$
 
 $$
-\mathbf{\tilde{A}} = \begin{pmatrix}
-J_{1} & 0 & \dots & 0 \\
-0 & J_{2} & \dots & 0 \\
+
+$$
+$$
+\mathbf{\tilde{A}} = \mathbf{V}^{-1}\mathbf{AV} =\begin{pmatrix}
+\mathbf{J}_{1} & \mathbf{0} & \dots & \mathbf{0} \\
+\mathbf{0} & \mathbf{J}_{2} & \dots & \mathbf{0} \\
 \vdots & \vdots & \ddots & \vdots \\
-0 & 0 & \dots & J_{l}
+\mathbf{0} & \mathbf{0} & \dots & \mathbf{J}_{l}
 \end{pmatrix}
 $$
 
-Dabei werden $J$ als die Jordanblöcke bezeichnet. Diese Unterscheiden sich je nach Vielfachheit der Eigenwerte 
-von $\mathbf{A}$
+Dabei werden $\mathbf{J}$ als die **Jordanblöcke** bezeichnet. Diese Unterscheiden sich je nach Vielfachheit der Eigenwerte 
+von $\mathbf{A}$ und ob diese reell oder konjugiert komplex sind. Mit ihnen lassen sich zugehörige Teiltransitionsmatrizen einfach bestimmen.
 
 > [!important] Hier sind Wichtigen Kenngrößen der Eigenwerte $\lambda$ von $\mathbf{A}$:
 > - $k_{\lambda}$ ... Algebraische Vielfachheit
@@ -88,11 +94,11 @@ e^{ \lambda_{1}t } & 0 & \cdots & 0 \\
 \end{pmatrix}
 $$
 
-## Fall 2: Hauptvektoren
+## Fall 2: Nebeneigenvektoren
 
 Fall 1 gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen.
 
-Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Hauptvektoren** oder **Nebeneigenvektor**
+Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Nebeneigenvektor**
 
 $$
 \tilde{\mathbf{\Phi}} (t) = e^{ \lambda t } \begin{pmatrix}
@@ -108,4 +114,4 @@ $$
 
 ---
 
-[^1]: [Spezialfall: Exponent ist eine Diagonalmatrix](../Mathematik/Analysis/Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix)
+[^1]: [Spezialfall: Exponent ist eine Diagonalmatrix](../Analysis/Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix)

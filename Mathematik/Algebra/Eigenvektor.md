@@ -37,10 +37,11 @@ $$Av = \lambda v$$
 > - Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
 > - Ist $\det A=0$, so ist *mindestens* ein Eigenwert 0.
 
-> [!def] **D2 - CHAP)** Charakteristisches Polynom
+> [!def] **D2 - CHAP)** Charakteristisches Polynom ^CHAP
 > Eigenwerte sind nun alle $\lambda \in\mathbb{C}$, für die $\det(A-\lambda \mathbb{1})=0$ ist. Das Charakteristische Polynom zur Linearen Abbildung $A$ ist definiert wie:
 > $$p_{A}(\lambda) := \det(A-\lambda \mathbb{1})$$
 > 
+
 
 Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es gibt nur dann Eigenvektoren ungleich null, wenn die Matrix $A-\lambda \mathbb{1}$ **nicht vollen rang** hat also wenn die determinante null ist. Wir Suchen daher eigenwerte sodass diese Bedingung erfüllt ist.
 
@@ -51,7 +52,16 @@ Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es g
 
 ## Eigenraum
 
-der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben,
+der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / Erzeugenensystem. Transformiert man eine lineare Abbildung bezüglich dieser Basis, so erhält man seine [Jordannormalform](Jordannormalform.md)
+
+## Vielfachheiten
+
+> [!def] **D3 - VFHT)** Algebraische und geometrische Vielfachheit. Sei $p(\lambda)$ wie in [](#^CHAP)
+> 
+
+## Nebeneigenvektoren
+
+
 
 ---
 

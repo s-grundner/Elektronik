@@ -80,5 +80,5 @@ $$
 $$
 ## Besondere Zustanstransformationen
 
-- [Jordannormalform](Jordannormalform.md)
+- [Jordannormalform](../Mathematik/Algebra/Jordannormalform.md)
 - [{MOC} Lineare Algebra](../Mathematik/{MOC}%20Lineare%20Algebra.md)
