@@ -1,14 +1,29 @@
+---
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Regelungstechnik
+semester: SS25
+created: 20th March 2025
+professor:
+  - Markus Schöberl
+draft: true
+title: Jordannormalform
+---
+ 
 # Jordannormalform
 
 > [!question] Ausgangspunkt ist hier ein System $\mathbf{\dot{x}}=\mathbf{Ax}$, zu dem man ein Fundamentalsystem sucht.
 
 Für ein lineares System kann auf dessen lineare Abbildung ein beliebeiger Basiswechsel bzw. Zustandstransformation vorgenommen werden
 
+![](Zustandstransformation.md#^TRF)
 
-
-Wir nehmen nicht irgendeine Matrix $\mathbf{T}$, sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$. Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](../Mathematik/Algebra/Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Mathematik/Analysis/Fundamentalmatrix.md) ist dann leicht lösbar [^1]
+Wir nehmen hier jedoch nicht irgendeine Matrix $\mathbf{T}$, sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$. Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](../Mathematik/Algebra/Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Mathematik/Analysis/Fundamentalmatrix.md) ist dann leicht lösbar [^1]
  
-Die neue Matrix $\mathbf{\tilde{A}}$ ist dann in der **Jordannormalform**:
+Die neue Matrix $\mathbf{\tilde{A}}$ ist dann in der **Jordannormalform** der Ursprünglichen Abbildung $\mathbf{A}$
 
 $$
 \mathbf{\tilde{A}} = \begin{pmatrix}
@@ -19,22 +34,23 @@ J_{1} & 0 & \dots & 0 \\
 \end{pmatrix}
 $$
 
-Dabei werden $J$ als die Jordanblöcke bezeichnet
+Dabei werden $J$ als die Jordanblöcke bezeichnet. Diese Unterscheiden sich je nach Vielfachheit der Eigenwerte 
+von $\mathbf{A}$
 
-> [!important] Hier sind Wichtigen Kenngrößen der Eigenwerte:
+> [!important] Hier sind Wichtigen Kenngrößen der Eigenwerte $\lambda$ von $\mathbf{A}$:
 > - $k_{\lambda}$ ... Algebraische Vielfachheit
 > - $m_{\lambda}$ ... Geometrischen Vielfachheit
 
 **Fälle:** Nullstellen des charakteristischen Polynoms können:
 
-- Einfach $k_{\lambda}=1$, Mehrfach mit $k_{\lambda}=m_{\lambda} > 1$,
-- Mehrfach mit $k_{\lambda}>1, k_{\lambda}\neq m_{\lambda}$
-- konjugiert komplexe Eigenwerte.
-- Mehrfache konjugiert komplexe Eigenwerte. (kompliziert)
+1. Einfach $k_{\lambda}=1$, Mehrfach mit $k_{\lambda}=m_{\lambda} > 1$,
+2. Mehrfach mit $k_{\lambda}>1, k_{\lambda}\neq m_{\lambda}$
+3. konjugiert komplexe Eigenwerte.
+4. Mehrfache konjugiert komplexe Eigenwerte. (kompliziert)
 
 ## Fall 1: Eigenvektoren
 
-Die Hauptvektoren sind für den Allgemeinen Fall die Eigenvektoren. Kommen mehere Eigenvektoren vor $k_{\lambda}>1$ kann ebenfalls diese Vorhergehensweise gewählt werden, wenn für diesen Eigenwert trotzdem genügend Eigenvektoren hervorgehen.
+Die Hauptvektoren sind für den Allgemeinen Fall die Eigenvektoren. Kommen mehere Eigenvektoren vor $k_{\lambda}>1$ kann ebenfalls diese Vorhergehensweise gewählt werden, wenn für diesen Eigenwert trotzdem genügend Eigenvektoren hervorgehen *(es gibt $\dim\mathbf{A}$ Eigenvektoren)*
 
 Durch die Eigenwertgleichung ergibt sich:
 
@@ -74,9 +90,9 @@ $$
 
 ## Fall 2: Hauptvektoren
 
-Obiges gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen.
+Fall 1 gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen.
 
-Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Hauptvektoren**
+Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Hauptvektoren** oder **Nebeneigenvektor**
 
 $$
 \tilde{\mathbf{\Phi}} (t) = e^{ \lambda t } \begin{pmatrix}

@@ -18,7 +18,7 @@ professor:
 
 > [!question] [Lineare Algebra](../{MOC}%20Lineare%20Algebra.md)
 
-> [!important] [Definition 6.5](../{MOC}%20Lineare%20Algebra.md) **(c, d)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md):
+> [!def] **D3 - LINA)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md): ^LINA
 > **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](Vektor.md)), heißen **linear unabhängig**, falls gilt:
 > 
 > $$
