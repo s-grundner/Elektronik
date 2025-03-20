@@ -24,7 +24,7 @@ professor:
 > - ob eine [Matrix](Matrix.md) invertierbar ist bzw.
 > - ob ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
-> [!def] **D1 - DET)** Determinante: $\det A$ oder $|A|$  
+> [!def] **D1 - DET)** Determinante: $\det A$ oder $|A|$ ^DET
 > Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DS-Algo/Rekursion.md) definiert:
 > - ist $A=(a_{11}\in \mathbb{R}^{1\times 1})$, so ist $\det A$ definiert als:  
 >

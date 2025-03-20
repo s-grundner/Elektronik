@@ -46,12 +46,16 @@ cited:
 
 ## Rang einer Matrix
 
-> [!important] Sei $A\in \mathbb{R}^{m\times n}$,  
-> dann ist der Rang von $A$: $Rg(A) \leq min\{m,n\}$
->
-> Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
-> Man könnte auch sagen, $Rg(A)$ ist die Dimension der [linearen Hüllen](Koordinatenmatrix.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
+ Der Rang einer Matrix $\mathbf{A}\in\mathbb{R}^{m\times n}$ ist:
+ 
+ $$\operatorname{rang}(\mathbf{A}) \leq \min\{m,n\}$$
 
+Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
+Man könnte auch sagen, $\operatorname{rang}(\mathbf{A})$ ist die **Dimension** der [linearen Hüllen](Koordinatenmatrix.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
+
+$$
+\operatorname{rang}\mathbf{A}=\dim\operatorname{im}\mathbf{A}
+$$
 ## Operationen auf eine Matrix
 
 - [Gauß-Jordan-Verfahren](Gauß-Jordan-Verfahren.md)  

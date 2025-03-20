@@ -42,7 +42,7 @@ Die kombination der beiden eigenschaften **(a)** und **(b)** führt zur **Superp
 
 ---
 
-## Kern (kernel) und Bild
+## Kern und Bild
 
 > [!INFO] sei $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Algebra/Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
 > 
@@ -50,6 +50,8 @@ Die kombination der beiden eigenschaften **(a)** und **(b)** führt zur **Superp
 >  
 > **Kern**: $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$ oft auch $\operatorname{ker}(L)$ (von *kernel*)
 > **Bild**: $\mathcal{R}(L)= L(X)$ oft auch $\operatorname{im}(L)$ (von *image*)
+
+Der Ausdruck $Lx=0$ wird als Kerngleichung bezeichnet
 
 >[!important] Die Dimension des Kerns plus die Dimension des Bildes ist die Dimension des Defnitionsvektorraum $X$  
 > $\operatorname{dim}(\mathcal{R}(L))+\operatorname{dim}(\mathcal{N}(L))=\operatorname{dim}(X)$  

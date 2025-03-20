@@ -21,14 +21,14 @@ title: Stabilität nach Ljapunov
 
 ## Differentialgleichungen
 
-Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich durch leicht unterschiedliche Anfangswerte $(t_{0},x_{0})$ unterscheiden, im Grenzwert $x\to \infty$ verhalten.
+### Ruhelagen
 
-Wir bringen ein $\varepsilon$ und ein $\delta$ ins spiel, sodass zwei bedinungen erfüllt sind:
+Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das LTI-System also $0 = \mathbf{Ax}_{S}+\mathbf{Bu}_{S}$
 
-- $\varepsilon$ ist eine Zahl die uns ein Gebiet abschränkt. 
-- das $\delta$ ist der Anfangswert.
-
-Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet $\varepsilon$, für jedes $\delta$ muss es ein solches gebiet geben, dass die Lösung stabil ist, das hießt im Grenzwert nahe der Ruhelage ist.
+|                        | $\mathbf{u}_{s}=0$       | $\mathbf{u}_{S}\neq 0$ |
+| ---------------------- | ------------------------ | ---------------------- |
+| $\det\mathbf{A}\neq 0$ | 1 RL: $\mathbf{x}_{s}=0$ | 1 RL:                  |
+| $\det\mathbf{A}=0$     | $\infty$ RL im Kern      |                        |
 
 
 > [!example] Pendel
@@ -36,7 +36,19 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 > - Ruhelage unten ist stabil
 > - Ruhelage oben ist instabil. Eine kleine Abweichung eskaliertdas System
 >     - Das Pendel kehrt nicht mehr in die Ursprüngliche Ruhelage zurück, verlässt also das $\varepsilon$ Gebiet der Phase des Pendels
-> ![invert_dark|300](assets/LjapPendel.png)
+> ![invert_dark|200](assets/LjapPendel.png)
+
+### Stabilität
+
+Hier sind Wir daran Interessiert, wie sich zwei Lösungen einer DGL, welche sich durch leicht unterschiedliche Anfangswerte $(t_{0},x_{0})$ unterscheiden, im Grenzwert $x\to \infty$ verhalten.
+
+
+Wir bringen ein $\varepsilon$ und ein $\delta$ ins spiel, sodass zwei bedinungen erfüllt sind:
+
+- $\varepsilon$ ist eine Zahl die uns ein Gebiet abschränkt. 
+- das $\delta$ ist der Anfangswert.
+
+Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet $\varepsilon$, für jedes $\delta$ muss es ein solches gebiet geben, dass die Lösung stabil ist, das hießt im Grenzwert nahe der Ruhelage ist.
 
 | **Stabil**                                                                                                                                     | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>Stabil & Attrahierend                                                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -50,4 +62,5 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 
 ## Differenzengleichungen
 
-Auch die Lösungsfolge Zeitdiskrete Differenzengleichungen kann auf Stabilität untersucht werden
+Auch die Lösungsfolge zeitdiskrete Differenzengleichungen kann auf Stabilität untersucht werden
+
