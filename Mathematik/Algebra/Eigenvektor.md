@@ -54,7 +54,7 @@ Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es g
 
 ## Eigenraum
 
-der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / Erzeugenensystem. Der Eigenraum ist also $\ker(\mathbf{A}-\lambda \mathbb{1})$
+der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / [Erzeugenensystem](Lineare%20Hülle.md). Der Eigenraum ist also $\ker(\mathbf{A}-\lambda \mathbb{1})$
 
 ## Vielfachheiten
 
@@ -66,16 +66,18 @@ der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektor
 
 Die Geometrische Vielfachheit ist die **Dimension des Eigenraumes**.
 
-## Nebeneigenvektoren
+## Hauptvektoren
 
 > [!warning] Werden nur für reelle Vielfachheiten betrachtet
 
-> [!satz] **S1 - HAUP)** Nebeneigenvektoren.
+Die Hauptvektoren und vorallem der durch ihn erzeugte **Hauptraum** verallgemeinert den Begriff des Eigenraumes. Dieser spielt vorallem eine große Rolle beim aufstellen der [Jordannormalform](Jordannormalform.md) 
+
+> [!satz] **S1 - NBEV)** Nebeneigenvektoren
 > Ist $\lambda \in \mathbb{R}$ ein $k$-facher Eigenwert, dessen Eigenraum *keinen Rangverlust* aufweist ($m_{\lambda}=1$), dann existieren zum zugehörigen Eigenvektor $\mathbf{v}_{1}$ weitere $k-1$ linear unabhängige Vektoren, für welche die Gleichung
-> $$(\mathbf{A}-\lambda \mathbb{1})\mathbf{v}_{i+1}=\mathbf{v}_{i},\quad i = 1,2,\dots,k-1\tag{NEIG}$$
-> erfüllen. Die Vektoren $\mathbf{v}_{2},\dots,\mathbf{v}_{k}$ heißen **Nebeneigenvektoren**. Betrachtet man die obige Gleichung als System, gilt
+> $$(\mathbf{A}-\lambda \mathbb{1})\mathbf{v}_{i+1}=\mathbf{v}_{i},\quad i = 1,2,\dots,k-1\tag{NBEV}$$
+> erfüllen. Die Vektoren $\mathbf{v}_{1},\dots,\mathbf{v}_{k}$ heißen **Nebeneigenvektoren**. Betrachtet man die obige Gleichung als System, gilt
 > $$\mathbf{AV}=\mathbf{VS},\quad \mathbf{V}=\begin{bmatrix}\mathbf{v}_{1}&\dots &\mathbf{v}_{k}\end{bmatrix}$$
-> mit der Matrix $\mathbf{S} \in \mathbb{C}^{k\times k}$
+> mit der Matrix $\mathbf{S} \in \mathbb{R}^{k\times k}$
 > 
 > $$
 > \mathbf{S}= \begin{pmatrix}
@@ -87,7 +89,7 @@ Die Geometrische Vielfachheit ist die **Dimension des Eigenraumes**.
 > \end{pmatrix}
 > $$
 
-Man kann also aus dem Eigenvektor dessen Nebeneigenvektoren **rekursiv** bestimmen.
+Die Menge der Hauptvektoren ohne dem Eigenvektor werden hier als Nebeneigenvektoren bezeichnet. Man kann also aus dem Eigenvektor dessen Nebeneigenvektoren **rekursiv** bestimmen.
 
 
 
