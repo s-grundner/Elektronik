@@ -20,7 +20,7 @@ created: 24th March 2022
 
 > [!quote] siehe auch [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md)
 
-Jede **periodische** [Funktion](Abbild.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
+Jede **periodische** [Funktion](../Mathematik/Algebra/Abbildung.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
 ![invert_light|400](../assets/Fourreihe_zerlegung.png)
 
@@ -113,13 +113,13 @@ Besonderheiten:
 
 ---
 
-### Periodische [Funktion](Abbild.md)
+### Periodische [Funktion](../Mathematik/Algebra/Abbildung.md)
 
 $f(x)=f(x+a)$  
 ![invert_light|400](../assets/fourReihe.png)
 
-> [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](Abbild.md).  
-> Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](Abbild.md) in eine **Fourierreihe** zerlegt werden.
+> [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](../Mathematik/Algebra/Abbildung.md).  
+> Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Mathematik/Algebra/Abbildung.md) in eine **Fourierreihe** zerlegt werden.
 > 
 > $f(x)\dots$**Trigonometrisches [Polynom](Polynom.md)**
 

@@ -24,7 +24,7 @@ banner_y: 0.8625
 
 > [!quote] DFT
 > Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](../../Systemtheorie/Fouriertransformation.md).
-> Die Herleitung erfolgt aus der [zeitdiskreten Fouriertransformation](Poissonsche%20Summenformel.md#**Zeitdiskrete**%20Fouriertransformation)
+> Die Herleitung erfolgt aus der [Zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fouriertransformation.md)
 
 - Das aperiodische Signal $f_{a}(t)$ wird mit der Periode $T=\frac{2\pi}{\omega_{0}}$ **abgetastet**.
 - Beschränkung auf $N$ **Abtastwerte**
@@ -69,7 +69,7 @@ Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine N
 - Fensterung auf $NT$ bringt spektraöe Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im
 
 ---
-## ALT und möglicherweise falsch
+# ALT und möglicherweise falsch
 
 Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:
 
@@ -81,7 +81,7 @@ Außerdem kann der Faktor $T$ weggelassen werden.
 
 $$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
 
-Dies [Funktion](../../Mathematik/Algebra/Abbild.md) ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängige](../../Mathematik/Algebra/Lineare%20Abhängigkeit.md) Funktionswerte.
+Dies Funktion ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängige](../../Mathematik/Algebra/Lineare%20Abhängigkeit.md) Funktionswerte.
 
 Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
 
@@ -149,5 +149,3 @@ Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechn
 ![[../Softwareentwicklung/DS-Algo/assets/DFT 2025-01-14 09.53.12.excalidraw]]
 
 # Quellen
-
-[^1]: Digitale Signalverarbeitung - Daniel ch. v. Grüningen

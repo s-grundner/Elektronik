@@ -13,6 +13,8 @@ professor:
 
 # Poissonsche Summenformel
 
+Die Poissonsche Summenformel basiert auf der komplexen Fourierreihe und dient als Zwischenschritt der Theorie zum Übergang von den Analogen Integraltransformationen in den Zeitdiskreten bereich. Ihr liegt die Ideale Analoge Abtastung mittels einer Dirac-Impuls-Folge (Dirac-Kamm)
+
 > [!def] **D1 - POIS)** Poissonsche Summenformel ^POIS
 > 
 > $$

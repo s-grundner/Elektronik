@@ -41,4 +41,4 @@ $$F_{r}(x)=-k\cdot x$$
 
 > Diese Gleichung ist die Bewegungsgleichung des harmonischen Oszillators. Sie ist eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) da sie die 2. [Ableitung](../Mathematik/Analysis/Differenzialrechnung.md) von $x$ enthält.
 
-> Gesucht ist die [Funktion](../Mathematik/Algebra/Abbild.md) $x(t)$, die diese [Differentialgleichung](../Mathematik/Analysis/GDGL.md) erfüllt und damit die [Bewegung](Kinematik.md) beschreibt.
+> Gesucht ist die [Funktion](../Mathematik/Algebra/Abbildung.md) $x(t)$, die diese [Differentialgleichung](../Mathematik/Analysis/GDGL.md) erfüllt und damit die [Bewegung](Kinematik.md) beschreibt.

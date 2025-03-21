@@ -56,6 +56,7 @@ Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es g
 
 der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / [Erzeugenensystem](Lineare%20Hülle.md). Der Eigenraum ist also $\ker(\mathbf{A}-\lambda \mathbb{1})$
 
+> [!question] [Kern und Bild](Lineare%20Abbildungen.md#Kern%20und%20Bild)
 ## Vielfachheiten
 
 > [!def] **D3 - VFHT)** Algebraische und geometrische Vielfachheit. ^VFHT
@@ -71,6 +72,14 @@ Die Geometrische Vielfachheit ist die **Dimension des Eigenraumes**.
 > [!warning] Werden nur für reelle Vielfachheiten betrachtet
 
 Die Hauptvektoren und vorallem der durch ihn erzeugte **Hauptraum** verallgemeinert den Begriff des Eigenraumes. Dieser spielt vorallem eine große Rolle beim aufstellen der [Jordannormalform](Jordannormalform.md) 
+
+> [!def] **D2 - HPTV)** Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt **Hauptvektor** der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn
+> 
+> $\left(A-\lambda I_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda I_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
+> 
+> Ein Hauptvektor der Stufe $l=1$ ist offensichtlich ein Eigenvektor.
+
+Nach dieser Definition lassen sich ab dem Eigenvektor auch alle weiteren Hauptvektoren ermitteln:
 
 > [!satz] **S1 - NBEV)** Nebeneigenvektoren
 > Ist $\lambda \in \mathbb{R}$ ein $k$-facher Eigenwert, dessen Eigenraum *keinen Rangverlust* aufweist ($m_{\lambda}=1$), dann existieren zum zugehörigen Eigenvektor $\mathbf{v}_{1}$ weitere $k-1$ linear unabhängige Vektoren, für welche die Gleichung

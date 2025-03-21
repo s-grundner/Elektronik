@@ -19,17 +19,17 @@ professor:
 ---
  
 
-# Lineare [Abbildungen](Algebra/Abbild.md)
+# Lineare [Abbildungen](Abbildung.md)
 
-> [!def] **D1 - LINA)** Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine [Abbildung](Algebra/Abbild.md) $L: X \rightarrow Y$ heißt linear
+> [!def] **D1 - LINA)** Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine [Abbildung](Abbildung.md) $L: X \rightarrow Y$ heißt linear
 > 
 > wenn sie **(a)** *Additivität* und **(b)** *Homogenität* erfüllen.
 > 
 > 1. Bei linearen Abbildungen schreibt man statt $L(x)$ meist $L x$.
 > 2. Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
-> 	- Ist die Abbildung zusätzlich [bijektiv](Algebra/Abbild.md), so nennt man sie *Isomorphismus*.
+> 	- Ist die Abbildung zusätzlich [bijektiv](Abbildung.md), so nennt man sie *Isomorphismus*.
 > 1. Gilt $X=Y$, so heißt eine lineare Abbildung auch *Endomorphismus*.
-> 2. Die Menge aller linearen [Abbildungen](Algebra/Abbild.md) von $X$ nach $Y$ bezeichnen wir mit $L(X, Y)$.
+> 2. Die Menge aller linearen [Abbildungen](Abbildung.md) von $X$ nach $Y$ bezeichnen wir mit $L(X, Y)$.
 > 	- Für $L(X, X)$ schreiben wir kurz: $L(X)$
 
 > [!tldr]- **(a)** Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
@@ -58,14 +58,14 @@ Der Ausdruck $Lx=0$ wird als Kerngleichung bezeichnet
 
 ### Injektivität, Surjektivität und Bijektivität
 
-1. Nur wenn der Kern der Nullvektor ist, dann ist die Lineare Abbildung [Injektiv](Algebra/Abbild.md).
-2. Wenn das Bild einer Linearen Abbildung dem Zielvektorraum ($Y$) entspricht, ist die Lineare Abbildung [surjektiv](Algebra/Abbild.md).
-3. Trifft beides zu, ist die Lineare Abbildung *[bijektiv](Algebra/Abbild.md)* 
+1. Nur wenn der Kern der Nullvektor ist, dann ist die Lineare Abbildung [Injektiv](Abbildung.md).
+2. Wenn das Bild einer Linearen Abbildung dem Zielvektorraum ($Y$) entspricht, ist die Lineare Abbildung [surjektiv](Abbildung.md).
+3. Trifft beides zu, ist die Lineare Abbildung *[bijektiv](Abbildung.md)* 
 
 > [!info] $L: X \to Y$  
-> [Injektiv](Algebra/Abbild.md): $\operatorname{ker}(L) = \boldsymbol{0}$, $\operatorname{dim}(\operatorname{ker}(L)) = 0$  
-> [Surjektiv](Algebra/Abbild.md): $\operatorname{im}(L) = Y$  
-> [Bijektiv](Algebra/Abbild.md): $\operatorname{ker}(L) = \boldsymbol{0} \wedge \operatorname{im}(L) = Y$
+> [Injektiv](Abbildung.md): $\operatorname{ker}(L) = \boldsymbol{0}$, $\operatorname{dim}(\operatorname{ker}(L)) = 0$  
+> [Surjektiv](Abbildung.md): $\operatorname{im}(L) = Y$  
+> [Bijektiv](Abbildung.md): $\operatorname{ker}(L) = \boldsymbol{0} \wedge \operatorname{im}(L) = Y$
 
 
 # Tags

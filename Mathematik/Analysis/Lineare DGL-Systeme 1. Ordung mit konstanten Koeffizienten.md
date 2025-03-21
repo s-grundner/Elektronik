@@ -83,19 +83,9 @@ $$
 
 > [!important] Um nun eine Fundamentalmatrix zu erhalten, müssen wir **genügend linear unabhängige Eigenvektoren** finden. 
 > 
-> Gibt es nicht genug linearunabhängige Eigenvektoren z.B. wenn es Eigenwerte mit einer algebraische Vielfachheit $>1$ gibt, sucht man bildet man die Hauptvektoren
-
-#### Hauptvektoren und Jordanform
-
-> [!def] **D2 - HPTV)** Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt Hauptvektor der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn
-> 
-> $\left(A-\lambda I_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda I_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
-> 
-> Ein Hauptvektor der Stufe $l=1$ ist offensichtlich ein Eigenvektor.
-
-Diese lassen sich mit der obigen Gleichung **rekursiv** ermitteln
-
-
+> Gibt es nicht genug linearunabhängige Eigenvektoren z.B. wenn es Eigenwerte mit einer algebraische Vielfachheit $>1$ gibt, sucht man bildet man zusätzliche Nebeneigenvektoren
+> - [Hauptvektoren](../Algebra/Eigenvektor.md#Hauptvektoren)
+> - [Jordannormalform](../Algebra/Jordannormalform.md)
 
 ### Prozedur zur ermittlung der Fundamentalmatrix
 
