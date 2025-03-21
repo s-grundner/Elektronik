@@ -23,16 +23,19 @@ def:
 
 Eigenvektoren ($\mathbf{v}$) sind [Vektoren](../Algebra/Vektor.md), die unter der linearen Abbildung $\mathbf{A}$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
 
-$$\mathbf{Av} = \lambda \mathbf{v}$$
+$$\mathbf{Av} = \lambda \mathbf{v}\tag{EWGL}$$ ^EWGL
 
 |            $A$            |         $v$         |     $\lambda$     |
 | :-----------------------: | :-----------------: | :---------------: |
 | Lineare Abbildung: Matrix | Eigenvektor: Vektor | Eigenwert: Skalar |
 
+Dabei nennt man die Beziehung [EWGL](#^EWGL) **Eigenwertgleichung**.
+
 > [!def] **D1 - EIGV)** Ein Vektor $\mathbf{v}\neq \mathbf{0} \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung  $\mathbf{A}$ zum **Eigenwert** $\lambda$, falls gilt ^EIGV
 > 
-> $$(\mathbf{A}-\lambda \mathbb{1})\cdot \mathbf{v}=\mathbf{0}\tag{Eigenwertgleichung}$$
+> $$(\mathbf{A}-\lambda \mathbb{1})\cdot \mathbf{v}=\mathbf{0}\tag{EWGL}$$
 
+Die Eigenwertgleichung ist hier auf eine Seite gebracht. Um das Skalar $\lambda$ an die Dimension der Matrix $\mathbf{A}$ anzupassen, wird sie mit dem Einselement - der Einheitsmatrix - Multipliziert.
 
 - Eigenvektoren zu verschiedenen Eigenwerten sind [linear unabhängig](Lineare%20Abhängigkeit.md).
 - Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
@@ -99,7 +102,6 @@ Nach dieser Definition lassen sich ab dem Eigenvektor auch alle weiteren Hauptve
 > $$
 
 Die Menge der Hauptvektoren ohne dem Eigenvektor werden hier als Nebeneigenvektoren bezeichnet. Man kann also aus dem Eigenvektor dessen Nebeneigenvektoren **rekursiv** bestimmen.
-
 
 
 ---
