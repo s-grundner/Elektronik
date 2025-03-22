@@ -17,7 +17,7 @@ title: RISC-V
 
 # RISC-V
 
-> [!question] [Rechnerarchitektur](Assembly.md)
+> [!question] [Rechnerarchitektur](Assembly.md), [Venus@ICS v0.1.4](https://venus.ics.jku.at/)
 
 RISC-V: Erweiterbar, open source
 
@@ -38,7 +38,7 @@ Basics:
     - weitere spezialregister für Interrupts ISRs etc
 
 **RISC-V Card**:
-- `add, rd, rs1, rs2` | Add |  `rd = rs1 + rs2` 
+- `add, rd, rs1, rs2` | Add | `rd = rs1 + rs2` 
 
 ## RV-Assembly
 
@@ -75,7 +75,7 @@ addi s0, a, 6
 Add:
 
 C-Code: a = b + c 
-RSIC-V Assembler: add a, b, c
+RISC-V Assembler: add a, b, c
 
 Sub:
 
@@ -88,7 +88,6 @@ C-Code: a = b + c - d
 RV-Assembler:
 - add t, b, c
 - sub a, t, d
-
 
 ## Speicher
 
@@ -105,14 +104,11 @@ Adressberechnung
 - Basisadresse: base (jedes register kann als Basisadresse verwendet werden)
 - Referenz zur adresse dieses registers
 
-
-
 **Schreiben von Speicher sw** (store word)
 
 `sw ` 
 
 ### 32 Bit Konstanten
-
 
 Mit load upper immediate und add immedaiate
 
