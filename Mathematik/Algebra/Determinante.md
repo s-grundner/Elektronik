@@ -44,7 +44,7 @@ professor:
 
 ## Bedeutung der Determinante
 
-Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
 
 - Haben zwei Matrizen die selbe Determinante heißen sie **ähnlich**.
 
@@ -89,9 +89,9 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 
  ![InlR|300](Pasted%20image%2020240127170055.png) 
 
-Die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ ist gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$. Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
-![invert_dark](assets/Pasted%20image%2020250323161221.png)
-![InlR|300](Pasted%20image%2020240127172108.png)
+Die Determinante von $A = (\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}})$ ist gleich dem [Spatprodukt](Spatprodukt.md) $[\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}}]$. Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds. Die markierten Pfeile repräsentieren die Vektoren $\mathbf{s}_{1}, \mathbf{s}_{2}, \mathbf{s}_{3}$
+
+![invert_dark|500](assets/Pasted%20image%2020250323161221.png)
 
 **Sätze:**
 - [Regel von Sarrus](Regel%20von%20Sarrus.md)
