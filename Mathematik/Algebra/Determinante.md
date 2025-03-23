@@ -101,7 +101,7 @@ Die Determinante von $A = (\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}})$ ist g
 
 ![invert_dark|500](assets/Pasted%20image%2020250323161221.png)
 
-## Sonderfälle
+## Sonderfälle 
 
 ### Obere rechte Dreiecksmatrix
 
@@ -118,13 +118,14 @@ $$
 
 ### Diagonalmatrix
 
-> [!question]  [Diagonalmatrix](Diagonalmatrix.md)
+> [!question] [Diagonalmatrix](Diagonalmatrix.md)
 
 $$ \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i $$
 
-### Determinante der 
+### Einheitsmatrix
 
-> [!question] 
+> [!question] [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
+
 $$\operatorname{det}\left(\mathbb{1}_n\right)=1$$
 
 # Tags
