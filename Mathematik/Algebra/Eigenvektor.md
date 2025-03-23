@@ -60,6 +60,9 @@ Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es g
 der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / [Erzeugenensystem](Lineare%20Hülle.md). Der Eigenraum ist also $\ker(\mathbf{A}-\lambda \mathbb{1})$
 
 > [!question] [Kern und Bild](Lineare%20Abbildungen.md#Kern%20und%20Bild)
+
+Es werden mit der Eigenwert Gleichung zu jedem Eigenwert die Vektoren ermittelt. Ergeben sich im Geichungssystem der [Eigenwertgleichung](#^EIGV) lineare Abhängigkeiten, dann steigt die dimension des Eigenraumes pro Abhängigkeit um $1$
+
 ## Vielfachheiten
 
 > [!def] **D3 - VFHT)** Algebraische und geometrische Vielfachheit. ^VFHT
@@ -72,11 +75,11 @@ Die Geometrische Vielfachheit ist die **Dimension des Eigenraumes**.
 
 ## Hauptvektoren
 
-> [!warning] Werden nur für reelle Vielfachheiten betrachtet
+> [!warning] Werden nur für Vielfachheiten reeller EW betrachtet
 
 Die Hauptvektoren und vorallem der durch ihn erzeugte **Hauptraum** verallgemeinert den Begriff des Eigenraumes. Dieser spielt vorallem eine große Rolle beim aufstellen der [Jordannormalform](Jordannormalform.md) 
 
-> [!def] **D2 - HPTV)** Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt **Hauptvektor** der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn
+> [!def] **D2 - HPTV)** Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt **Hauptvektor** der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn ^HPTV
 > 
 > $\left(A-\lambda I_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda I_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
 > 
@@ -84,7 +87,7 @@ Die Hauptvektoren und vorallem der durch ihn erzeugte **Hauptraum** verallgemein
 
 Nach dieser Definition lassen sich ab dem Eigenvektor auch alle weiteren Hauptvektoren ermitteln:
 
-> [!satz] **S1 - NBEV)** Nebeneigenvektoren
+> [!satz] **S1 - NBEV)** Nebeneigenvektoren ^NBEV
 > Ist $\lambda \in \mathbb{R}$ ein $k$-facher Eigenwert, dessen Eigenraum *keinen Rangverlust* aufweist ($m_{\lambda}=1$), dann existieren zum zugehörigen Eigenvektor $\mathbf{v}_{1}$ weitere $k-1$ linear unabhängige Vektoren, für welche die Gleichung
 > $$(\mathbf{A}-\lambda \mathbb{1})\mathbf{v}_{i+1}=\mathbf{v}_{i},\quad i = 1,2,\dots,k-1\tag{NBEV}$$
 > erfüllen. Die Vektoren $\mathbf{v}_{1},\dots,\mathbf{v}_{k}$ heißen **Nebeneigenvektoren**. Betrachtet man die obige Gleichung als System, gilt

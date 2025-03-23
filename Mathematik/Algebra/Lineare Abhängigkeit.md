@@ -19,16 +19,11 @@ professor:
 > [!question] [Lineare Algebra](../{MOC}%20Lineare%20Algebra.md)
 
 > [!def] **D3 - LINA)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md): ^LINA
-> **(c)** Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](Vektor.md)), heißen **linear unabhängig**, falls gilt:
-> 
-> $$
-> \left.\sum_{i=1}^k \lambda_i v_i=0 \quad \Longleftrightarrow \quad \forall i \in\{1, \ldots, k\}\right\}: \lambda_i=0
-> $$
-> 
-> 
+> 1. Die Elemente $v_i \in X, i=1, \ldots, n$ ($v$ sind endlich viele [Vektoren](Vektor.md)), heißen **linear unabhängig**, falls gilt:
+> $$ \sum_{i=1}^k \lambda_i v_i=0 \quad \iff \quad \forall i \in\{1, \ldots, k\}: \lambda_i=0 $$
 > Ansonsten heißen sie **linear abhängig**.
-> 
-> **(d)** Eine (auch möglicherweise unendliche) Menge $M \subset X$ heißt linear unabhängig, wenn jede endliche Auswahl von Elementen aus $M$ linear unabhängig ist.
+>
+> 1. Eine (auch möglicherweise unendliche) Menge $M \subset X$ heißt **linear unabhängig**, wenn jede endliche Auswahl von Elementen aus $M$ linear unabhängig ist.
 
 ```tikz
 \usepackage{pgfplots}
