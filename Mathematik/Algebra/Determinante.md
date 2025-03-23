@@ -88,6 +88,8 @@ Allgemein (für $n\geq 2$) wird der Laplace-Entwicklungssatz zur ermittlung der 
 
 ### 3x3
 
+- [Regel von Sarrus](Regel%20von%20Sarrus.md)
+
 > [!info] $n = 3$: $A \in \mathbb{R}^{3\times 3}$
 > 
 > $$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$ 
@@ -99,32 +101,30 @@ Die Determinante von $A = (\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}})$ ist g
 
 ![invert_dark|500](assets/Pasted%20image%2020250323161221.png)
 
-
-**Sätze:**
-- [Regel von Sarrus](Regel%20von%20Sarrus.md)
-
 ## Sonderfälle
 
-### Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md)
+### Obere rechte Dreiecksmatrix
+
+> [!question] [Dreiecksmatrix](Dreiecksmatrix.md)
 
 $$
 \left|\begin{array}{ccccc}
-a_{11} & * & * & \ldots & * \\
-0 & a_{22} & * & \ldots & * \\
-0 & 0 & a_{33} & \ldots & * \\
-\vdots & \vdots & & \ddots & \vdots \\
-0 & 0 & 0 & \ldots & a_{n n}
+a_{11} & * & \ldots & * \\
+0 & a_{22} & \ldots & * \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \ldots & a_{n n}
 \end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n}
 $$
 
-### Determinante einer [Diagonalmatrix](Diagonalmatrix.md)
+### Diagonalmatrix
 
-$$
-\operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
-$$
+> [!question]  [Diagonalmatrix](Diagonalmatrix.md)
 
-### Determinante der [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
+$$ \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i $$
 
+### Determinante der 
+
+> [!question] 
 $$\operatorname{det}\left(\mathbb{1}_n\right)=1$$
 
 # Tags
