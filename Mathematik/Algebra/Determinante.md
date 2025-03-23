@@ -101,7 +101,7 @@ Die Determinante von $A = (\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}})$ ist g
 
 ![invert_dark|500](assets/Pasted%20image%2020250323161221.png)
 
-## Sonderfälle 
+## Sonderfälle
 
 ### Obere rechte Dreiecksmatrix
 
