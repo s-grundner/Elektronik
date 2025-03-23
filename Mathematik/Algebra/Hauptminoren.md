@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Satz 10.24
+aliases: 
 keywords: 
 subject:
   - VL
@@ -9,12 +8,15 @@ subject:
 semester: SS24
 created: 23. September 2024
 professor:
+  - Andreas Neubauer
+def:
+  - HMIN
 ---
  
 
 # Hauptminoren
 
-> [!important] Definition 10.24. Sei $A=\left(a_{i k}\right) \in \mathbb{R}^{n \times n}$. Unter den Hauptminoren von $A$ versteht man die $n$ Zahlen:
+> [!def] **D1 - HMIN** Sei $A=\left(a_{i k}\right) \in \mathbb{R}^{n \times n}$. Unter den Hauptminoren von $A$ versteht man die $n$ Zahlen: ^HMIN
 > 
 > $$
 > \forall i \in\{1, \ldots, n\}: M_i:=\operatorname{det}\left(\begin{array}{lll}
@@ -38,6 +40,10 @@ a_{21} & a_{22} & a_{23} \\
 a_{31} & a_{32} & a_{33}
 \end{array}\right|, \ldots, \quad M_n=\operatorname{det} A
 $$
+
+Hauptminoren dienen zur Bestimmung der [Definitheit](Definitheit.md)
+
+![](Definitheit.md#^S1-DEFI)
 
 --- 
 

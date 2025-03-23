@@ -18,7 +18,7 @@ cited:
 
 Ermittlung mittels [Eigenwerte](Eigenvektor.md)
 
-> [!important] Definition 10.23. Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. $A$ hei $B \mathrm{t}$
+> [!def] **D1 - DEFI** Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. $A$ heißt ^D1-DEFI
 > 
 > (a) **positiv semidefinit**, wenn alle [Eigenwerte](Eigenvektor.md) von $A$ nicht negativ sind. *==($\geq 0$)==*
 > 
@@ -33,9 +33,11 @@ Ermittlung mittels [Eigenwerte](Eigenvektor.md)
 
 Ermittlung mittels [Hauptminoren](Hauptminoren.md)
 
-> [!important] Satz 10.25. Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. Dann gilt:
+> [!satz] **S1 - DEFI)** Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. Dann gilt: ^S1-DEFI
 (a) $A$ ist **positiv** definit $\Longleftrightarrow \forall i \in\{1, \ldots, n\}: M_i>0$
 (b) $A$ ist **negativ** definit $\Longleftrightarrow \forall i \in\{1, \ldots, n\}:(-1)^i M_i>0$
+
+
 
 ---
 

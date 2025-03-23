@@ -83,18 +83,19 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 
 
 > [!info] $n = 3$: $A \in \mathbb{R}^{3\times 3}$
-> ![InlR|300](Pasted%20image%2020240127170055.png) 
 > 
 > $$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$ 
-> Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ und erhält, dass die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$ ist.
-> Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
-> 
-> ![InlR|300](Pasted%20image%2020240127172108.png)
-> 
-> **Sätze:**
-> - [Regel von Sarrus](Regel%20von%20Sarrus.md)
->
-> 
+> Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ 
+
+ ![InlR|300](Pasted%20image%2020240127170055.png) 
+
+Die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ ist gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$. Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
+![invert_dark](assets/Pasted%20image%2020250323161221.png)
+![InlR|300](Pasted%20image%2020240127172108.png)
+
+**Sätze:**
+- [Regel von Sarrus](Regel%20von%20Sarrus.md)
+
 
 > [!info] $n\geq 4$:
 > **Sätze:** 
