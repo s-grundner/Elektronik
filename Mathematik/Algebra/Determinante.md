@@ -34,7 +34,7 @@ professor:
 >
 > $$\det A:=\sum_{i=1}^{n} (-1)^{i+1}a_{i 1}\cdot\det A_{i 1}$$
 >
-> wobei $A_{ij} \in \mathbb{R}^{(n-1)\times(n-1)}$ jene [Matrix](Matrix.md) bezeichnet, die aus $A$ durch Streichen der $i$-ten Zeile und der $j$-ten Spalte hervorgeht. siehe Laplace-Entwicklungssatz.
+> wobei $A_{ij} \in \mathbb{R}^{(n-1)\times(n-1)}$ jene [Matrix](Matrix.md) bezeichnet, die aus $A$ durch Streichen der $i$-ten Zeile und der $j$-ten Spalte hervorgeht. Siehe Laplace-Entwicklungssatz.
 > 
 > Die Determinante ist außerdem das Produkt der Eigenwerte seiner Matrix:
 > $$\det A=\prod^{n}_{i=1}\lambda_{i}$$
@@ -44,7 +44,7 @@ professor:
 
 ## Bedeutung der Determinante
 
-Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\vec{x}=\vec{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
 
 - Haben zwei Matrizen die selbe Determinante heißen sie **ähnlich**.
 
@@ -67,10 +67,15 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 
 ## Ermittlung der Determinante
 
+Allgemein (für $n\geq 2$) wird der Laplace-Entwicklungssatz zur ermittlung der Determinante verwendet werde. Es lassen sich für $n\leq 3$ jedoch vereinfachungen finden. 
+
+### 1x1
+
 > [!info] $n=1$: $A \in \mathbb{R}^{1\times 1}$ 
 >
 > $$\det A = | a_{11} | =a_{11}$$ 
 
+### 2x2
 
 > [!info] $n=2$: $A \in \mathbb{R}^{2\times 2}$
 >
@@ -81,46 +86,45 @@ Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $
 > \end{matrix}\right| =a_{11}\cdot a_{22} - a_{21}\cdot a_{12}
 > $$
 
+### 3x3
+
+- [Regel von Sarrus](Regel%20von%20Sarrus.md)
 
 > [!info] $n = 3$: $A \in \mathbb{R}^{3\times 3}$
-> ![InlR|300](Pasted%20image%2020240127170055.png) 
 > 
 > $$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$ 
-> Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ und erhält, dass die Determinante von $A = (\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}})$ gleich dem [Spatprodukt](Spatprodukt.md) $[\vec{s_{1}},\vec{s_{2}}, \vec{s_{3}}]$ ist.
-> Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das Volumen des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten Parallelepipeds.
-> 
-> ![InlR|300](Pasted%20image%2020240127172108.png)
-> 
-> **Sätze:**
-> - [Regel von Sarrus](Regel%20von%20Sarrus.md)
->
-> 
+> Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ 
 
-> [!info] $n\geq 4$:
-> **Sätze:** 
-> - Laplace Entwicklungssatz
+![invert_dark|500](assets/Pasted%20image%2020250323165958.png)
+
+Die Determinante von $A = (\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}})$ ist gleich dem [Spatprodukt](Spatprodukt.md) $[\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}}]$. Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das **Volumen** des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten **Parallelepipeds**. Die markierten Pfeile repräsentieren die Vektoren $\mathbf{s}_{1}, \mathbf{s}_{2}, \mathbf{s}_{3}$
+
+![invert_dark|500](assets/Pasted%20image%2020250323161221.png)
 
 ## Sonderfälle
 
-### Determinante einer oberen [Dreiecksmatrix](Dreiecksmatrix.md)
+### Obere rechte Dreiecksmatrix
+
+> [!question] [Dreiecksmatrix](Dreiecksmatrix.md)
 
 $$
 \left|\begin{array}{ccccc}
-a_{11} & * & * & \ldots & * \\
-0 & a_{22} & * & \ldots & * \\
-0 & 0 & a_{33} & \ldots & * \\
-\vdots & \vdots & & \ddots & \vdots \\
-0 & 0 & 0 & \ldots & a_{n n}
+a_{11} & * & \ldots & * \\
+0 & a_{22} & \ldots & * \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \ldots & a_{n n}
 \end{array}\right|=a_{11} \cdot a_{22} \cdot \ldots \cdot a_{n n}
 $$
 
-### Determinante einer [Diagonalmatrix](Diagonalmatrix.md)
+### Diagonalmatrix
 
-$$
-\operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i
-$$
+> [!question] [Diagonalmatrix](Diagonalmatrix.md)
 
-### Determinante der [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
+$$ \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\right)=\prod_{i=1}^n d_i $$
+
+### Einheitsmatrix
+
+> [!question] [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
 
 $$\operatorname{det}\left(\mathbb{1}_n\right)=1$$
 

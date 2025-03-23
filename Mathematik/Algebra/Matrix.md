@@ -56,6 +56,7 @@ Man könnte auch sagen, $\operatorname{rang}(\mathbf{A})$ ist die **Dimension** 
 $$
 \operatorname{rang}\mathbf{A}=\dim\operatorname{im}\mathbf{A}
 $$
+
 ## Operationen auf eine Matrix
 
 - [Gauß-Jordan-Verfahren](Gauß-Jordan-Verfahren.md)  
