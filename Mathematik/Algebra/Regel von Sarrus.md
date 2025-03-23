@@ -12,6 +12,7 @@ draft: false
 title: Regel von Sarrus
 ---
  
+
 # Regel von Sarrus
 
 > [!warning] Achtung: Gilt nur für $3\times 3$ [Matrizen](Matrix.md)!
