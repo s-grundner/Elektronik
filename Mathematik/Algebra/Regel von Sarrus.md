@@ -17,9 +17,9 @@ title: Regel von Sarrus
 
 > [!warning] Achtung: Gilt nur für $3\times 3$ [Matrizen](Matrix.md)!
 
-Die Regel von Sarrus ist eine Folgerung aus dem Laplace-Entwicklungssatz zu Ermittlung der Determinante.
+Die Regel von Sarrus ist eine Folgerung aus dem Laplace-Entwicklungssatz zu Ermittlung der [Determinante](Determinante.md)
 
-> [!satz] **S1 - SARR)** Regel von Sarrus. Sei $\mathbf{A}$
+> [!satz] **S1 - SARR)** Regel von Sarrus. Sei $\mathbf{A}\in\mathbb{R}^{3\times 3}$, dann gilt.
 > $$
 > \begin{aligned}
 > \det \mathbf{A}  & =\left|\begin{array}{lll}
