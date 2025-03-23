@@ -17,7 +17,9 @@ title: Regel von Sarrus
 
 > [!warning] Achtung: Gilt nur für $3\times 3$ [Matrizen](Matrix.md)!
 
-> [!satz] **S1 - SARR)** Regel von Sarrus zur ermittlung einer $3\times 3$ 
+Die Regel von Sarrus ist eine Folgerung aus dem Laplace-Entwicklungssatz zu Ermittlung der Determinante.
+
+> [!satz] **S1 - SARR)** Regel von Sarrus zur ermittlung einer $3\times 3$ Matr
 > $$
 > \begin{aligned}
 > \operatorname{det} A & =\left|\begin{array}{lll}
