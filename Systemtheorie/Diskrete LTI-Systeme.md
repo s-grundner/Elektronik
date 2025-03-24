@@ -14,7 +14,10 @@ title: Diskrete Systeme
 
 # Diskrete LTI-Systeme
 
-> [!question] Kontinuierliche [LTI-Systeme](LTI-Systeme.md)
+***:LiAudioWaveform: [Kontinuierliche LTI-Systeme](LTI-Systeme.md) :LiArrowBigRightDash:***
+
+---
+
 
 - Ideale Verzögerung
 - Summierer, akkumulator, diskreter Intgrator

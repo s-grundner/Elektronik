@@ -19,6 +19,10 @@ def:
  
 # Differenzengleichung
 
+***:LiAudioWaveform: [Differenzialgleichungen](GDGL.md) :LiArrowBigRightDash:***
+
+---
+
 > [!quote] Differenzengleichungen im zeitdiskreten sind äquivalent zu den kontinuierlichen [DGL](GDGL.md)
 > Man sucht hier anstatt einer Lösungsfunktion $\mathbf{x}(t;\mathbf{x}_{0}, t_{0})$ eine **Lösungsfolge** $\mathbf{x}[k;\mathbf{x}_{0},k_{0}]$
 

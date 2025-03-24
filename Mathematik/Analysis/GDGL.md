@@ -24,7 +24,10 @@ def:
 
 # Gewöhnliche Differentialgleichungen (DGL)
 
-> [!info] [Partielle DGL](Partielle%20Differenzialgleichung.md)
+- ***:LiBinary: [Differenzengleichungen](Differenzengleichung.md) :LiArrowBigRightDash:***
+- ***:LiWaves: [Partielle DGL](Partielle%20Differenzialgleichung.md) :LiArrowBigRightDash:***
+
+---
 
 ![](../../assets/Excalidraw/{MOC}%20DGL%202025-02-21%2021.10.45.excalidraw.md)
 

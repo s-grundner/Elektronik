@@ -15,6 +15,9 @@ professor:
 
 # Partielle DGL
 
+***:LiTimer: [Gewöhnliche DGL](GDGL.md) :LiArrowBigRightDash:***
+
+---
 ## Lineare DGL 2. Ordnung
 
 > [!def] **D1 - PDGL)**

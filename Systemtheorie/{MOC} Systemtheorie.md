@@ -28,8 +28,9 @@ title: Systemtheorie
 
 > [!important] [Zustandsbeschreibung](Zustandsgleichungen.md) 
 
-| Kontinuierliche Systeme                                                                                                                 | Diskrete Systeme                                                                     |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------: |
-| Systeme von [Differenzialgleichungen](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) | Systeme von [Differenzengleichungen](../Mathematik/Analysis/Differenzengleichung.md) |
-| kontinuierlicher Zustandsraum | diskreter Zustandsraum |
-| [LTI-Systeme](LTI-Systeme.md)                                                                                                           | [[Diskrete LTI-Systeme]]                                                             |
+| **:LiAudioWaveform: Kontinuierliche Systeme**                                                                       |                                          **Diskrete Systeme :LiBinary:** |
+| ------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------: |
+| [Differentialgleichungen](../Mathematik/Analysis/GDGL.md)                                                           | [Differenzengleichungen](../Mathematik/Analysis/Differenzengleichung.md) |
+| [Systeme von DGL](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) |                                      [Systeme von DZGL](DZGL-Systeme.md) |
+| [LTI-Systeme](LTI-Systeme.md)                                                                                       |                                                 [[Diskrete LTI-Systeme]] |
+| kontinuierlicher LTI-Zustandsraum                                                                                   |                                               diskreter LTI-Zustandsraum |
