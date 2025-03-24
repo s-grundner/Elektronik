@@ -44,13 +44,14 @@ $$
 \mathbf{x}_{1} = \mathbf{f}(0,\mathbf{x}_{0},\mathbf{u}_{0}) \to \mathbf{x}_{2}=\mathbf{f}(1, \mathbf{x}_{1}, \mathbf{u}_{1}) \dots
 $$
 
-> [!def] Die Lösungsfolge - auch als **Fluss** $\mathbf{\Phi}_{k}(\mathbf{x}_{0})$ bezeichnet - für ein autonomes System ist die $k$-malige [Hintereinanderausführung](../Algebra/Hintereinanderausführung.md) der **Zustandsfolge**:
+## Autonome Systeme
+
+> [!def] Die Lösungsfolge - auch als **Fluss** $\mathbf{\Phi}_{k}(\mathbf{x}_{0})$ bezeichnet - für ein autonomes System ist die $k$-malige [Komposition](../Mathematik/Algebra/Komposition.md) der **Zustandsfolge**:
 >  $$\mathbf{x}[k] = \mathbf{\Phi}_{k}(\mathbf{x}_{0}) = \underbrace{ \mathbf{f} \circ \mathbf{f} \circ \dots \circ \mathbf{f} }_{ k\text{-mal} }(\mathbf{x}_{0})$$
 
 
+# Lineare DZGL-Systeme
 
+Das System ist Linear, wenn $\mathbf{f}$ in eine linearkombination von Ein und Ausgang übergeht. Das System ist dann in seiner [Zustandsraumdarstellung](Zustandsgleichungen.md) wenn es sich in folgenden Form überführen lässt:
 
-
-
-
-
+> [!def] **D - )** 

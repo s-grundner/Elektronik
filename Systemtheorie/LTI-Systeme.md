@@ -135,7 +135,9 @@ Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Besc
 
 ---
 
-## Zustandsraumdarstellung
+## Zustandbeschreibung
+
+> [!question] [Zustandsbeschreibung von Zeitdiskreten LTI-Systemen](Diskrete%20LTI-Systeme.md#Zustandsbeschreibung%20von%20Zeitdiskreten%20LTI-Systemen)
 
 
 > [!quote] Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**

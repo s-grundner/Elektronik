@@ -49,5 +49,7 @@ Bei IIR: Unendliche Faltung aber endliche Summen in der DZGL, daher DZGL Einfach
 M, N Auch bei Filter ist die Ordnung (bereich 2 ... 8)
 
 ---
+## Zustandsbeschreibung von Zeitdiskreten LTI-Systemen
+
 
 
