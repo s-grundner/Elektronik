@@ -18,6 +18,10 @@ title: DZGL-Systeme
 
 > [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Differenzengleichungen](Differenzengleichung.md) 
 
+[DGL-Systeme](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) :LiArrowBigRightDash:
+
+---
+
 Ähnlich wie für zeitkontinuierliche Übertragungssysteme, werden zeitdiskrete Systeme mit finitem Zustand, druch ein explizites Modell beschrieben.
 
 $$

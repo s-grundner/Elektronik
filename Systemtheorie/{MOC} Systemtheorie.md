@@ -28,10 +28,10 @@ title: Systemtheorie
 
 > [!important] [Zustandsbeschreibung](Zustandsgleichungen.md) 
 
-| **:LiAudioWaveform: Kontinuierliche Systeme**                                                                                             |     |                                                            **Diskrete Systeme :LiBarChart2:** |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | --- | --------------------------------------------------------------------------------------------: |
-| [:LiArrowBigRightDash:](../Mathematik/Analysis/GDGL.md) Differentialgleichungen                                                           |     | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Differenzengleichung.md) |
-| [:LiArrowBigRightDash:](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) Systeme von DGL |     |                                      Systeme von DZGL [:LiArrowBigLeftDash:](DZGL-Systeme.md) |
-| [:LiArrowBigRightDash:](LTI-Systeme.md)  LTI-Systeme                                                                                      |     |                        Diskrete LTI-Systeme [:LiArrowBigLeftDash:](Diskrete%20LTI-Systeme.md) |
-| :LiArrowBigRightDash: kontinuierlicher LTI-Zustandsraum                                                                                   |     |                                               diskreter LTI-Zustandsraum :LiArrowBigLeftDash: |
+| **:LiAudioWaveform: Kontinuierliche Systeme**                                                                                             | :LiBolt: |                                                            **Diskrete Systeme :LiBarChart2:** |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------: |
+| [:LiArrowBigRightDash:](../Mathematik/Analysis/GDGL.md) Differentialgleichungen                                                           | :LiBolt: | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Differenzengleichung.md) |
+| [:LiArrowBigRightDash:](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) Systeme von DGL | :LiBolt: |                                      Systeme von DZGL [:LiArrowBigLeftDash:](DZGL-Systeme.md) |
+| [:LiArrowBigRightDash:](LTI-Systeme.md)  LTI-Systeme                                                                                      | :LiBolt: |                        Diskrete LTI-Systeme [:LiArrowBigLeftDash:](Diskrete%20LTI-Systeme.md) |
+| [:LiArrowBigRightDash:](Kontinuierlicher%20LTI-Zustandsraum.md) Kontinuierlicher LTI-Zustandsraum                                         | :LiBolt: |            Diskreter LTI-Zustandsraum [:LiArrowBigLeftDash:](Diskreter%20LTI-Zustandsraum.md) |
 

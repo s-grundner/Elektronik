@@ -16,7 +16,7 @@ title: kontinuierlicher LTI-Zustandsraum
 
 > [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsraum](Zustandsgleichungen.md) > [LTI-Systeme](LTI-Systeme.md)
 
-***[Zeitdiskreter LTI-Zustandsraum](Diskrete%20LTI-Systeme.md#Zustandsbeschreibung%20von%20Zeitdiskreten%20LTI-Systemen) :LiArrowBigRightDash:***
+[Diskreter LTI-Zustandsraum](Diskreter%20LTI-Zustandsraum.md) ***:LiArrowBigRightDash:***
 
 ---
 

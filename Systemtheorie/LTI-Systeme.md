@@ -18,6 +18,8 @@ professor:
 
 # LTI-Systeme
 
+> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsbeschreibung](Zustandsgleichungen.md) >📍> [LTI-Zustandsraum](Kontinuierlicher%20LTI-Zustandsraum.md)
+
 [Diskrete LTI-Systeme](Diskrete%20LTI-Systeme.md) ***:LiArrowBigRightDash:***
 
 ---
@@ -25,7 +27,6 @@ professor:
 ![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
 
 
-> [!question] [kontinuierlicher LTI-Zustandsraum](kontinuierlicher%20LTI-Zustandsraum.md)
 
 ## Linearität
 

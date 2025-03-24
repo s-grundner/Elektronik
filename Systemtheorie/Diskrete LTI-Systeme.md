@@ -14,6 +14,8 @@ title: Diskrete Systeme
 
 # Diskrete LTI-Systeme
 
+> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsbeschreibung](Zustandsgleichungen.md) >📍> [Diskreter LTI-Zustandsraum](Diskreter%20LTI-Zustandsraum.md)
+
 [Kontinuierliche LTI-Systeme](LTI-Systeme.md) ***:LiArrowBigRightDash:***
 
 ---
@@ -49,9 +51,3 @@ Bei IIR: Unendliche Faltung aber endliche Summen in der DZGL, daher DZGL Einfach
 - In Matlab: `filter()` Wertet DZGL aus. `conv()`wertet die Faltung aus.
 
 M, N Auch bei Filter ist die Ordnung (bereich 2 ... 8)
-
----
-## Zustandsbeschreibung von Zeitdiskreten LTI-Systemen
-
-
-

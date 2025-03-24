@@ -1,7 +1,7 @@
 ---
 tags:
   - tikz/circuitikz
-  - Systeme/Kontinuierlich
+  - Systeme/Kon
 aliases:
   - Zustandsbeschreibung
   - Zustandsvariablen
@@ -20,6 +20,8 @@ professor:
 ---
 
 # Zustandsbeschreibung eines Systems
+
+> [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
 
 Der Zustand des Systems beschreibt die internen Größen des **linearen Systems**
 
