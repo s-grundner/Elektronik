@@ -1,7 +1,7 @@
 ---
 tags:
   - tikz/circuitikz
-  - Systeme/Dynamisch
+  - Systeme/Kontinuierlich
 aliases:
   - Zustandsbeschreibung
   - Zustandsvariablen
@@ -18,41 +18,33 @@ professor:
   - Andreas Stelzer
   - Markus Schöberl
 ---
- 
 
 # Zustandsbeschreibung eines Systems
 
 Der Zustand des Systems beschreibt die internen Größen des **linearen Systems**
 
+> [!quote] Zustandsgrößen sind Variablen, die Auskunft über die vom System beinhaltete **Energie** geben. 
+> 
+> - Im Feder-Masse-Dämpfer-System: Geschwindigkeit $v$ und Auslenkung $x$
+> - Im RC: Spannung am C $u_{c}(t)$
+> - Im RLC: Spannung am C $u_{c}(t)$ und Strom in L $i_{l}(t)$ ([Beispiel: Parallelschwingkreis](#Parallelschwingkreis))
+
+---
+
 > [!question] Wie lässt sich der Zustand ermitteln?
 > Für jeden Zeitpunkt $t_0$ reicht
 > - die Kenntnis des Zustandes **zu diesem Zeitpunkt** $t_0$
-> - zusammen mit der Kenntnis **der Erregung** (des Eingangs) für alle Zeiten $t \geq t_0$ aus,
+> - zusammen mit der Kenntnis **der Erregung** (des Eingangs) für *alle Zeiten* $t \geq t_0$ aus,
 > 
-> um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen.
-> 
+> um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen. Alle anderen Kenngrößen sind bekannt bzw festgelegt.
 > 
 
 - Es spielt dabei **keine Rolle**, wie der Zustand in der **Vergangenheit** (zu Zeiten $t<t_0$ ) entstanden ist
 - In der Regel wird der Zustand eines Systems durch mehrere Größen beschrieben
 - Häufig werden Systeme mit mehreren Eingängen und mehreren Ausgängen betrachtet (MIMO - multiple inputs, multiple outputs))
 
-> [!hint] Zustandsgrößen sind Variablen, die Auskunft über die vom System beinhaltete **Energie** geben. 
-> 
-> - Im Feder-Masse-Dämpfer-System: Geschwindigkeit $v$ und Auslenkung $x$
-> - Im RC: Spannung am C $u_{c}(t)$
-> - Im RLC: Spannung am C $u_{c}(t)$ und Strom in L $i_{l}(t)$ ([Beispiel: Parallelschwingkreis](#Parallelschwingkreis))
-> 
-
-
 Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von ein und Ausgängen zu erweitern (MIMO)
 
-## Übertragungssystem
-
-> [!def] **D1 - USYS)** Übertragungssystem ^USYS
-> - Bei einem Übertragungssystem braucht man zur Bestimmung der Ausgangsgrößen $\mathbf{y}$ nur die Eingangsgrößen $\mathbf{u}$  zu kennen.
-> - Alle anderen Größen sind konstant oder ändern sich auf festgelegte Weise.
-> - Es müssen alle Eingangsgrößen auf dem Intervall $t \in (-\infty, \infty)$ bekannt sein, damit die Ausgangsgrößen zu einem beliebigein Zeitpunkt $t$ bestimmt werden können.
 
 ## Zustandsgleichungen
 
@@ -111,12 +103,14 @@ $$
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
 
-> [!def] **D2 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
+---
+
+> [!def] **D1 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
  >
 > $$
 > \begin{align}
-> \mathbf{\dot{x}}(t) = \mathbf{A}(t) \mathbf{x}(t) + \mathbf{B}(t) \mathbf{u}(t) \\
-> \mathbf{y}(t) = \mathbf{C}(t) \mathbf{x}(t) + \mathbf{D}(t) \mathbf{u}(t) 
+> \mathbf{\dot{x}}(t) = \mathbf{A}(t) \mathbf{x}(t) + \mathbf{B}(t) \mathbf{u}(t) \tag{Zustandsgl.}\\
+> \mathbf{y}(t) = \mathbf{C}(t) \mathbf{x}(t) + \mathbf{D}(t) \mathbf{u}(t) \tag{Ausgangsgl.}
 > \end{align}
 > $$ 
 > Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** ^ZSRM
@@ -130,7 +124,6 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 
 (Zur Erinnerung: Zeilen $\times$ Spalten)
 
-
 Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben. Je nachdem ob die Gleichungen bestimmte Vorraussetzungen erfüllen nennt man das System auch ... 
 
 | **Freies** System                                                                                                        | [**LTI-System**](LTI-Systeme.md) System                                                                                                                                      | **Autonomes** System                                                                                               |
@@ -140,10 +133,6 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 
  Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) ansetzen.
 
-
-
-> [Zustandstransformation](Zustandstransformation.md)
-
 ### Zustandsgleichung als Blockdiagramm
 
 ![invert_dark](assets/Pasted%20image%2020250306140047.png)
@@ -152,6 +141,10 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 - Ein Satz von *Integratoren* (für jede Zustandsvariable) bildet mit der **Systemmatrix** $\mathbf{A}$ im Rückführungszweig eine **Rückkopplungsschleife**.
 - Von den Ausgängen der *Integratoren* wird der nun Integrierte **Zustandsvektor** $\mathbf{x}(t)$ über die **Ausgangsmatrix** $\mathbf{C}$ auf den **Ausgangsvektor** $\mathbf{y}(t)$ abgebildet.
 - Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Durchgangsmatrix** $D$ direkt zum **Ausgangsvektor** $\mathbf{y}(t)$ übertragen. (Geht also an den Speichernden elementen des Systems vorbei)
+
+---
+
+> [!quote] Diese Konzepte lassen sich von DGL-Systemen in gleicher Maßen auf zeitdiskrete [Systeme von Differenzegleichungen](../Mathematik/Analysis/Differenzengleichung.md#Systeme%20von%20DZGL)
 
 ---
 
