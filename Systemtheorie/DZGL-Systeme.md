@@ -16,7 +16,7 @@ title: DZGL-Systeme
  
 # Systeme von Differenzengleichungen
 
-[Systemtheorie]({MOC}%20Systemtheorie.md) > [Differenzengleichungen](Differenzengleichung.md) 
+> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Differenzengleichungen](Differenzengleichung.md) 
 
 Ähnlich wie für zeitkontinuierliche Übertragungssysteme, werden zeitdiskrete Systeme mit finitem Zustand, druch ein explizites Modell beschrieben.
 

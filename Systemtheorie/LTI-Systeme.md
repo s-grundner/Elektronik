@@ -18,8 +18,9 @@ professor:
 
 # LTI-Systeme
 
-***:LiBinary: [Diskrete LTI-Systeme](Diskrete%20LTI-Systeme.md) :LiArrowBigRightDash:***
+[Diskrete LTI-Systeme](Diskrete%20LTI-Systeme.md) ***:LiArrowBigRightDash:***
 
+---
 
 ![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
 

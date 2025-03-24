@@ -19,7 +19,7 @@ def:
  
 # Differenzengleichung
 
-***:LiAudioWaveform: [Differenzialgleichungen](GDGL.md) :LiArrowBigRightDash:***
+[Differenzialgleichungen](GDGL.md) ***:LiArrowBigRightDash:***
 
 ---
 

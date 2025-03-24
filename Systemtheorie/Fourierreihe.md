@@ -4,9 +4,6 @@ tags:
   - Mathe/Reihen
 aliases:
   - Fourierreihen
-  - Fourier Reihen
-  - Fourier-Reihe
-  - Fourierreihe
 subject:
   - mathe
 source:
@@ -18,7 +15,9 @@ created: 24th March 2022
 
 # Fourierreihe
 
-> [!quote] siehe auch [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md)
+[Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md) ***:LiArrowBigRightDash:***
+
+---
 
 Jede **periodische** [Funktion](../Mathematik/Algebra/Abbildung.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 

@@ -14,9 +14,9 @@ semester: WS24
 
 # Faltung
 
-> [!question] Bei [LTI-Systemen](LTI-Systeme.md) lässt sich das Ausgangssignal $y$ durch Faltung des Eingangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen.
-> Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
+[Faltungssumme](Faltungssumme.md) ***:LiArrowBigRightDash:***
 
+---
 
 > [!def] **D1 - FALT)** Faltungsintegral ^FALT
 > $$
@@ -27,6 +27,8 @@ semester: WS24
 
 
 ![Convolution_of_box_signal_with_itself](assets/Convolution_of_box_signal_with_itself.gif)
+
+
 
 ## Eigenschaften der Faltung
 
@@ -44,36 +46,37 @@ semester: WS24
 
 ### Spezielle Funktionen
 
-> [!important] Die Faltung von $f(t)$ mit der Sprungfunktion $\sigma(t)$
+#### Sprungfunktion
+
+> [!important] **Die Faltung von $f(t)$ mit der Sprungfunktion $\sigma(t)$**
 > 
 > $$(f * \sigma)(t)=\int_{-\infty}^{\infty} f(\tau) \sigma(t-\tau) \mathrm{d} \tau=\int_{-\infty}^t f(\tau) \mathrm{d} \tau$$
 > 
 > entspricht der Fläche unter der Funktion $f(t)$.
-> 
-> Also Liefert die Faltung mit der Sprungfunktion die Stammfunktion von $f$:
-> Systeme mit dem Einheitssprung als Impulsantwort sind ein **Integrator**
->
 
-> [!important] Die Faltung von $f(t)$ mit der Dirac-Distribution $\delta(t)$
+Also Liefert die Faltung mit der Sprungfunktion die Stammfunktion von $f$:
+Systeme mit dem Einheitssprung als Impulsantwort sind ein **Integrator**
+
+#### Dirac-Distribution
+
+> [!important] **Die Faltung von $f(t)$ mit der Dirac-Distribution $\delta(t)$**
 > 
 > $$ (f * \delta)(t)=\int_{-\infty}^{\infty} f(\tau) \delta(t-\tau) \mathrm{d} \tau=f(t) $$
 > 
 > ergibt wieder die Funktion selbst, was unmittelbar aus der Abtasteigenschaft der Dirac-Distribution folgt. Damit ist $\delta(t)$ die „**Einsfunktion**" der Faltung.
-> 
-> Die Eigenschaften Fläche unter der Kurve bzw. Abtastwert der Funktion entsprechen umgekehrt der Definition der Funktionale der zugehörigen Distributionen $\sigma(t)$ und $\delta(t)$.
-> Diese Eigenschaft ist die **Abtasteigenschaft** der [Dirac-Distribution](../Mathematik/Algebra/Delta-Impuls.md).
 
----
-# [Diskret] Faltungssumme
-
-- Faltugnssumme
-- Faltungsmatrix
-
-
-
+Die Eigenschaften Fläche unter der Kurve bzw. Abtastwert der Funktion entsprechen umgekehrt der Definition der Funktionale der zugehörigen Distributionen $\sigma(t)$ und $\delta(t)$.
+Diese Eigenschaft ist die **Abtasteigenschaft** der [Dirac-Distribution](../Mathematik/Algebra/Delta-Impuls.md).
 
 ---
 
+## Relevanz in der Systemtheorie
+
+> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md)
+
+Bei [LTI-Systemen](LTI-Systeme.md) lässt sich das Ausgangssignal $y$ durch Faltung des Eingangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen. Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
+
+---
 # Beispiele
 
 >[!example] FAL002

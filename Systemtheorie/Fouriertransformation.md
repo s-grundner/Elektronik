@@ -22,7 +22,7 @@ def:
 
 # Fourier Transformation
 
-Die Fouriertransfomration ist eine [[Integraltransformation]]. Im Vergleich zur [Fourierreihe](Fourier%20Reihe.md) werden bei der Fouriertransformation die diskreten Frequenzen $k\omega_{0}$ durch die kontinuierliche Kreisfrequenz $\omega$ ersetzt.
+Die Fouriertransfomration ist eine [[Integraltransformation]]. Im Vergleich zur [Fourierreihe](Fourierreihe.md) werden bei der Fouriertransformation die diskreten Frequenzen $k\omega_{0}$ durch die kontinuierliche Kreisfrequenz $\omega$ ersetzt.
 
 $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Funktion $f(t)$:
 
@@ -80,7 +80,7 @@ $$
 
 > [!quote] Trivia  
 > Die Fourier Transformation ist eine Integraltransformation, welche 1822 von Jean Baptiste Fourier eingeführt wurde und genutzt wird, um das diskrete Frequenzspektrum aperiodischer Signale zu ermitteln.  
-> Ihr gegenüber steht die [Fourier Reihe](../../Systemtheorie/Fourier%20Reihe.md), mit welcher sich das Spektrum periodischer Funktionen berechnen lässt.  
+> Ihr gegenüber steht die [Fourierreihe](Fourierreihe.md), mit welcher sich das Spektrum periodischer Funktionen berechnen lässt.  
 > Sie ist in vielen Bereichen von Wissenschaft und Technik unerlässlich.
 > 
 > - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](DFT.md) ([[DFT]]) und die Schnelle Fourier Transformation ([FFT](../Softwareentwicklung/DS-Algo/FFT.md)).

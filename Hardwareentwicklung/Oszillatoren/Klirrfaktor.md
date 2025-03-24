@@ -39,7 +39,7 @@ $$k_{ges}=THD=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}
 
 # Tags
 
-[Fourier Reihe](../../Systemtheorie/Fourier%20Reihe.md)
+[Fourierreihe](../../Systemtheorie/Fourierreihe.md)
 
 LT-Spice Tutorial: <http://eecs.oregonstate.edu/education/docs/ece323/Appendix.pdf>
 

@@ -16,7 +16,7 @@ title: kontinuierlicher LTI-Zustandsraum
 
 > [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsraum](Zustandsgleichungen.md) > [LTI-Systeme](LTI-Systeme.md)
 
-***:LiBinary: [Zeitdiskreter LTI-Zustandsraum](Diskrete%20LTI-Systeme.md#Zustandsbeschreibung%20von%20Zeitdiskreten%20LTI-Systemen) :LiArrowBigRightDash:***
+***[Zeitdiskreter LTI-Zustandsraum](Diskrete%20LTI-Systeme.md#Zustandsbeschreibung%20von%20Zeitdiskreten%20LTI-Systemen) :LiArrowBigRightDash:***
 
 ---
 
@@ -48,5 +48,7 @@ Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übe
 
 ## Lösung der Zustandsgleichungen
 
-Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) Angewandt. Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben (wie [hier](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md))
+> [!hint] Bei der Zustandsgleichung handelt es sich um ist ein [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
+
+Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) Angewandt. Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben.
 

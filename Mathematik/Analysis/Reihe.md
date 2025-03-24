@@ -28,7 +28,7 @@ Eine wichtige Eigenschaft jeder Reihe ist dessen Konvergenz. Eine Reihe konvergi
 - Harmonische Reihe
 - [Potenzreihe](Potenzreihe.md)
 - [Taylorreihe](Analysis/Taylorreihe.md)
-- [Fourier Reihe](../../Systemtheorie/Fourier%20Reihe.md)
+- [Fourierreihe](../../Systemtheorie/Fourierreihe.md)
 
 
 ---

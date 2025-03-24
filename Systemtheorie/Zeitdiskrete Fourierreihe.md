@@ -13,7 +13,11 @@ professor:
  
 # Zeitdiskrete Fourierreihen
 
-> [!quote] Die Zeitdiskrete betrachtung der [Fourierreihe](Fourier%20Reihe.md) bietet einen Einblick in die Funktionsweise der [DFT](DFT.md)
+[Fourierreihe](Fourierreihe.md) ***:LiArrowBigRightDash:***
+
+---
+
+> [!quote] Die Zeitdiskrete betrachtung der Fourierreihe bietet einen Einblick in die Funktionsweise der [DFT](DFT.md)
 
 Es wird eine $N$-Periodische Folge betrachtet:
 $$f[n]=f[n+rN]$$
@@ -36,7 +40,7 @@ Es gibt nur **$N$** verschieden Harmonische. Daraus folgt:
 > [!def] **D - ZDFR)**  Zeitdiskrete Fourier-Reihenentwicklung ^ZDFR
 > $$f[n] = \sum_{k = 0}^{N-1} F[k] W^{-kn}_{N}\tag{ZDFR}$$
 
-Diese Darstellung ist äquivalent zur [komplexen Fourierreihe](Fourier%20Reihe.md#Komplexe%20Fourierreihe) in diskreter Form. Mit $F[k]$ als **Entwicklungskoeffizienten** der **Periodischen Folge** $f[n]$, anstelle der Spektralkoeffizienten $X_{k}$.
+Diese Darstellung ist äquivalent zur [komplexen Fourierreihe](Fourierreihe.md#Komplexe%20Fourierreihe) in diskreter Form. Mit $F[k]$ als **Entwicklungskoeffizienten** der **Periodischen Folge** $f[n]$, anstelle der Spektralkoeffizienten $X_{k}$.
 
 > [!warning] Hier ist genau wie in der komplexen Fourierreihe der exponent eigentlich positiv.
 > wegen der Definition der Einheitswurzel als negativer exponent, muss hier das vorzeichen nochmal invertiert werden

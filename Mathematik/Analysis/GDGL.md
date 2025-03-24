@@ -24,8 +24,8 @@ def:
 
 # Gewöhnliche Differentialgleichungen (DGL)
 
-- ***:LiBinary: [Differenzengleichungen](Differenzengleichung.md) :LiArrowBigRightDash:***
-- ***:LiWaves: [Partielle DGL](Partielle%20Differenzialgleichung.md) :LiArrowBigRightDash:***
+- [Differenzengleichungen](Differenzengleichung.md) ***:LiArrowBigRightDash:***
+- [:LiWaves: Partielle DGL](Partielle%20Differenzialgleichung.md) ***:LiArrowBigRightDash:***
 
 ---
 
