@@ -80,9 +80,9 @@ Kenngrößen des DC-Motors:
 - Winkelgeschwindigkeit des Motors $\omega_{G}$
 - Drehmoment des Motors: $M_{G}$
 
-Gleichungen für den DC-Motor:
+Gleichungen für den [DC-Motor](../Elektrotechnik/Maschinen/Gleichstrommotor.md):
 
-- Querspannunng: $u_{A}=R_{A}i_{A}+ L_{A} \dot{i}_{A} +k_{A}\omega_{G}$
+- Ankerspannun: $u_{A}=R_{A}i_{A}+ L_{A} \dot{i}_{A} +k_{A}\omega_{G}$
 - Drallsatz: $M_{G}=J\dot{\omega}_{G}=k_{A}\cdot i_{A}$
 - Winkelgeschwindigkeit der Maschine: $\dot{\varphi}_{G}=\omega_{G}$
     - $\varphi_{G} = \frac{x}{r}$ ... Winkelposition der Gleichstrommaschine, $r$ ... rollenradius

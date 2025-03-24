@@ -95,7 +95,42 @@ $$u_{ind}=\frac{d\Phi}{dt}$$
 
 
 
+---
 
+### Induzierte Spannung
+
+quellstrom $i$ ist konstant
+
+Quellspannung
+
+$$
+u_{q}=\frac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi)
+$$
+Verketteter Fluss: $\Psi = N \cdot\Phi$
+
+Bisher:
+
+$$
+u = Ri + L\frac{\mathrm{d}i}{\mathrm{d}t} \overset{ \Psi = Li }{ \to } Ri + \frac{\mathrm{d}\Psi}{\mathrm{d}t} 
+$$
+
+Aufgespalten in eine induktive und rotatorische komponente
+
+$$
+u_{q} = \underbrace{ \frac{\partial \Psi}{\partial i}\cdot \frac{\mathrm{d}i}{\mathrm{d}t} }_{\text{Ruhe ind.}} +\underbrace{ \frac{\partial \Psi}{\partial \vec{\varphi}}\vec{\omega} }_{ \text{Bewegt ind.} }
+$$
+
+$\vec{\varphi}$ und $\vec{\omega}$ sind vektoren wegen der Rotationsachse. $\vec{\omega} = \dfrac{\mathrm{d}\vec{\varphi}}{\mathrm{d}t}$
+
+Synchrongenerator: Fluss ändert sich nicht (Luftspule rotiert im Luftspalt)
+
+Reluktanzgenerator: Magnetkreis selbst ändert sich. Breite des Luftspalts ist anhängig von der phase
+
+#### Induktionsgesetz
+
+Beim Integral: $\mathrm{d}\mathbf{s}\times \mathbf{l} = \mathrm{d}\mathbf{a}$
+
+$\mu,\nu$ sind indizes
 
 ---
 
