@@ -29,12 +29,12 @@ Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das D
 
 > [!satz] **S1 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
 > 
-> Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $X(t)$ wie folgt angeben:
+> Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $\mathbf{X}(t)$ wie folgt angeben:
 > 
 > $$
 > \begin{gathered}
-> x(t;t_{0},x_{0})=X(t)\cdot X(t_{0})^{-1}\cdot x_{0} =\mathbf{\Phi}(t,t_{0})\cdot x_{0} = \mathbf{\Phi}_{t}(x_{0})\\
-> \implies X(t)\cdot X(t_{0})^{-1} =\mathbf{\Phi}(t,t_{0}) \\
+> x(t;t_{0},x_{0})=\mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1}\cdot x_{0} =\mathbf{\Phi}(t,t_{0})\cdot x_{0} = \mathbf{\Phi}_{t}(x_{0})\\
+> \implies \mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1} =\mathbf{\Phi}(t,t_{0}) \\
 > \end{gathered}
 > $$
 
@@ -44,7 +44,7 @@ Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de 
 > [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
 > Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamntalmatrix**, bezeichnet mit $\mathbf{\Phi}$. Ältere bezeichnung *Matrizant* ist nicht mehr üblich
 > 
->  $$X(t)\cdot X(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})$$
+>  $$\mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})$$
 
 Wenn man schreibt $\mathbf{\Phi}(t)$ dann hat man implizit angenommen den Anfangswert bereits eingesetzt zu haben. Bei LTI-Systemen wo $t_{0}=0$ ist ist dies of üblich
 
