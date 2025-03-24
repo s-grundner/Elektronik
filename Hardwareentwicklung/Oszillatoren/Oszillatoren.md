@@ -90,7 +90,7 @@ Möglichkeiten die Schwingbedingung Herzuleiten:
 
 # Misc Notes
 
-![[assets/Oszillatoren 2025-01-14 10.25.42.excalidraw]]
+![[../../assets/Excalidraw/Oszillatoren 2025-01-14 10.25.42.excalidraw]]
 
 
 ![Pasted image 20230124212033](assets/Pasted%20image%2020230124212033.png)

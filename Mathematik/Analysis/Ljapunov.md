@@ -62,5 +62,10 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 
 ## Differenzengleichungen
 
-Auch die Lösungsfolge zeitdiskrete Differenzengleichungen kann auf Stabilität untersucht werden
+Auch die Lösungsfolge zeitdiskrete Differenzengleichungen kann auf Stabilität untersucht werden.
 
+Stabilität für ein Zeitdiskretes System ist erreicht, wenn gilt:
+
+$$\mathbf{x}_{k+1} = \mathbf{x}_{k}, \quad \forall k\in\mathbb{N}$$
+
+> [!hint] Diese Aussage ist äquivlent zum Zeitkontinuierlichen Fall $\mathbf{x}'(t)=0, \forall t \in I$
