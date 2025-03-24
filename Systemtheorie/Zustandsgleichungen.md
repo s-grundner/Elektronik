@@ -99,15 +99,15 @@ Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 > Ausgangsgrößen lassen sich als Linearkombination der **Zustandsgrößen** und der **Eingangsgrößen** darstellen.
 > - $\to$ **Ausgangsgeichung** 
 
-> [!def]  **D1 - ZSGR)** Schreibweise für  Zutandsgrößen
-> 
-> $$
-> \begin{align}
-> \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
-> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
-> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
-> \end{align}
-> $$
+Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
+
+$$
+\begin{align}
+\mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
+\mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
+\mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
+\end{align}
+$$
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
 
@@ -115,26 +115,32 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
  >
 > $$
 > \begin{align}
-> \mathbf{\dot{x}}(t) = \mathbf{A}(t)\cdot \mathbf{x}(t) + \mathbf{B}(t)\cdot \mathbf{u}(t) \\
-> \mathbf{y}(t) = \mathbf{C}(t)\cdot \mathbf{x}(t) + \mathbf{D}(t)\cdot \mathbf{u}(t) 
+> \mathbf{\dot{x}}(t) = \mathbf{A}(t) \mathbf{x}(t) + \mathbf{B}(t) \mathbf{u}(t) \\
+> \mathbf{y}(t) = \mathbf{C}(t) \mathbf{x}(t) + \mathbf{D}(t) \mathbf{u}(t) 
 > \end{align}
 > $$ 
+> Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** ^ZSRM
+> $$
+> \begin{align}
+> &\mathbf{A}(t) \text{ : Dynamikmatrix } (n\times n)
+> &&\mathbf{B}(t) \text{ : Eingangsmatrix } (n \times p) \\
+> &\mathbf{C}(t) \text{ : Ausgangsmatrix } (q\times n) && \mathbf{D}(t) \text{ : Durchgangsmatrix } (q\times p)
+> \end{align}
+> $$
+
+(Zur Erinnerung: Zeilen $\times$ Spalten)
 
 
-Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben.
-Sind die Koeffizientenmatrizen konstant, ist das System zusätzlich Zeitinvariant -> [LTI-System](LTI-Systeme.md)
+Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben. Je nachdem ob die Gleichungen bestimmte Vorraussetzungen erfüllen nennt man das System auch ... 
 
-- Ist die Stellgröße $\mathbf{u}(t) = 0$ heißt das System **frei**.
-- Ist das Systen zeitinvariant und frei, heißt das System **autonom**. 
-- Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) ansetzen.
+| **Freies** System                                                                                                        | [**LTI-System**](LTI-Systeme.md) System                                                                                                                                      | **Autonomes** System                                                                                               |
+| :------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
+| Die Stellgröße bzw. der Eingangsvektor $\mathbf{u}(t)$ ist null                                                          | Die Koeffizientenmatrizen sind konstant. Das System ist daher zusätzlich *zeitinvariant*                                                                                     | Das System ist *frei* und *zeitinvariant*                                                                          |
+| $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}(t)\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}(t)\mathbf{x}(t)\end{align}$$ | $$\begin{align} \mathbf{\dot{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t) \\ \mathbf{y}(t) = \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \end{align}$$ | $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}\mathbf{x}(t)\end{align}$$ |
 
-> [!def] **D3 - ZSRM)** Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung**
-> $\mathbf{A}$ Systemmatrix ($\in n\times n$)
-> $\mathbf{B}$ Eingangsmatrix ($\in n \times p$)
-> $\mathbf{C}$ Ausgangsmatrix ($\in q \times n$)
-> $\mathbf{D}$ Durchgangsmatrix ($\in q \times p$)
+ Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) ansetzen.
 
-Zur Erinnerung: Zeilen $\times$ Spalten
+
 
 > [Zustandstransformation](Zustandstransformation.md)
 

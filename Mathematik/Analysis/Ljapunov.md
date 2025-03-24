@@ -62,7 +62,7 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 
 ## Differenzengleichungen
 
-Auch die Lösungsfolge zeitdiskrete Differenzengleichungen kann auf Stabilität untersucht werden.
+Auch die Lösungsfolge zeitdiskrete [Differenzengleichungen](Differenzengleichung.md) kann auf Stabilität untersucht werden.
 
 Stabilität für ein Zeitdiskretes System ist erreicht, wenn gilt:
 

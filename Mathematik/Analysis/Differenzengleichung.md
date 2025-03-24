@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Systeme/Zeitdiskret
 aliases: 
 keywords: 
 subject:
@@ -7,12 +8,16 @@ subject:
   - VL
 semester: SS25
 created: 11th March 2025
-professor:
+professor: 
 draft: true
 title: Differenzengleichung
 ---
  
 # Differenzengleichung
+
+> [!quote] Differenzengleichungen im zeitdiskreten sind äquivalent zu kontinuierlichen [DGL](GDGL.md)
+> Man sucht hier anstatt einer Lösungsfunktion $\mathbf{x}(t;\mathbf{x}_{0}, t_{0})$ eine **Lösungsfolge**
+
 
 > [!def] **D1 - DZGL)** Explizites Differenzengleichungen ^DZGL
 > $$y[n] = -\sum_{i=1}^{M} a_{i}y[n-i] + \sum_{i=0}^{N}b_{i}x[n-i]$$
@@ -45,9 +50,13 @@ Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man die Syste
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(\mathbf{x}_{k}, \mathbf{u}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(\mathbf{x}_{k}, \mathbf{u}_{k})\end{align}$$ | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(k, \mathbf{x}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(k,\mathbf{x}_{k})\end{align}$$ | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(\mathbf{x}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(\mathbf{x}_{k})\end{align}$$ |
 
-## Ruhelagen
+
+
+### Ruhelagen
 
 > [!question]  Stabilität nach Ljapunov und [Ruhelagen](Ljapunov.md#Differenzengleichungen) für Differenzengleichungen
+
+### Lineare zeitvariante Systeme
 
 
 
