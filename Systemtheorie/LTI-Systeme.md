@@ -137,7 +137,9 @@ Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Besc
 
 ## Zustandsraumdarstellung
 
-Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsgleichungen](Zustandsgleichungen.md#^ZSGL) zu konstanten Koeffizientenmatrizen
+Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsgleichungen](Zustandsgleichungen.md#^ZSGL) zu konstanten Koeffizientenmatrizen:
+ - Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**
+- Zur Beschriebung eines LTI Systems dient der [Zustandsraum](Zustandsgleichungen.md) 
 
 > [!def] **D3 - ZLTI)** LTI-System in der Zustandsraumdarstellung ^ZLTI
 >  $$
@@ -147,11 +149,9 @@ Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die
 > \end{align}
 > $$
 
-- Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**
-- Zur Beschriebung eines LTI Systems dient der [Zustandsraum](Zustandsgleichungen.md) 
 
-Linearität $\impliedby$ Linearkombination der Koeffizientenmatrizen
-Zeitinvarianz $\impliedby$ Koeffizientenmatrizen sind Konstant
+Linearität $\impliedby \mathbf{A,B,C,D} \neq f(u,x)$
+Zeitinvarianz $\impliedby \mathbf{A,B,C,D}$ $\neq f(t)$
 
 Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem), sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
 
