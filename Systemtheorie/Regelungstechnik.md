@@ -29,7 +29,7 @@ Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}
 
 ![invert_dark](assets/RegTSystem.png)
 
-> [!hint] [Zustandsbeschreibung](../../../Systemtheorie/Zustandsgleichungen.md)
+> [!hint] [Zustandsbeschreibung](Zustandsraum.md)
 
 | dynamische Systeme                                                                                                                                                                   | statische Systeme                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |

@@ -18,9 +18,9 @@ professor:
 
 # LTI-Systeme
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsbeschreibung](Zustandsgleichungen.md) >📍> [LTI-Zustandsraum](Kontinuierlicher%20LTI-Zustandsraum.md)
+> [!question] :LiArrowBigLeftDash: [Lineare Systeme](Lineare%20Systeme.md) |📍| [LTI-Zustandsraum](Kontinuierlicher%20LTI-Zustandsraum.md) :LiArrowBigRightDash:
 
-[Diskrete LTI-Systeme](Diskrete%20LTI-Systeme.md) ***:LiArrowBigRightDash:***
+[Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md) ***:LiArrowBigRightDash:***
 
 ---
 

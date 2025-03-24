@@ -12,9 +12,9 @@ draft: true
 title: Diskreter LTI-Zustandsraum
 ---
 
-# Diskreter LTI-Zustandsraum
+# Zeitdiskreter LTI-Zustandsraum
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsraum](Zustandsgleichungen.md) > [Diskrete LTI-Systeme](Diskrete%20LTI-Systeme.md)
+> [!question] :LiArrowBigLeftDash: [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md) |📍
 
 [Kontinuierlicher LTI-Zustandsraum](Kontinuierlicher%20LTI-Zustandsraum.md) ***:LiArrowBigRightDash:***
 

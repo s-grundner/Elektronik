@@ -5,8 +5,8 @@ tags:
 aliases:
   - Zustandsbeschreibung
   - Zustandsvariablen
-  - Zustandsraum
   - Zustandsbegriff
+  - Zustandsgleichung
 keywords: 
 subject:
   - VL
@@ -19,11 +19,11 @@ professor:
   - Markus Schöberl
 ---
 
-# Zustandsbeschreibung eines Systems
+# Zustandsbeschreibung eines Linearen Systems
 
 > [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
 
-Der Zustand des Systems beschreibt die internen Größen des **linearen Systems**
+Der Zustand des Systems beschreibt die internen Größen des [linearen Systems](Lineare%20Systeme.md)
 
 > [!quote] Zustandsgrößen sind Variablen, die Auskunft über die vom System beinhaltete **Energie** geben. 
 > 
@@ -48,7 +48,7 @@ Der Zustand des Systems beschreibt die internen Größen des **linearen Systems*
 Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von ein und Ausgängen zu erweitern (MIMO)
 
 
-## Zustandsgleichungen
+## Zustandsgleichung
 
 - Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
 - Im allgemeinen Fall: ein System von Differentialgleichungen
@@ -95,60 +95,22 @@ Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
 
-$$
-\begin{align}
-\mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
-\mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
-\mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
-\end{align}
-$$
+> [!def] **D1 - ZSGR)** Zustandsgrößen
+> $$
+> \begin{align}
+> \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
+> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
+> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
+> \end{align}
+> $$
+> 
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
 
----
+Diese Definitionen gelten sowohl für:
 
-> [!def] **D1 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
- >
-> $$
-> \begin{align}
-> \mathbf{\dot{x}}(t) = \mathbf{A}(t) \mathbf{x}(t) + \mathbf{B}(t) \mathbf{u}(t) \tag{Zustandsgl.}\\
-> \mathbf{y}(t) = \mathbf{C}(t) \mathbf{x}(t) + \mathbf{D}(t) \mathbf{u}(t) \tag{Ausgangsgl.}
-> \end{align}
-> $$ 
-> Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** ^ZSRM
-> $$
-> \begin{align}
-> &\mathbf{A}(t) \text{ : Dynamikmatrix } (n\times n)
-> &&\mathbf{B}(t) \text{ : Eingangsmatrix } (n \times p) \\
-> &\mathbf{C}(t) \text{ : Ausgangsmatrix } (q\times n) && \mathbf{D}(t) \text{ : Durchgangsmatrix } (q\times p)
-> \end{align}
-> $$
-
-(Zur Erinnerung: Zeilen $\times$ Spalten)
-
-Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben. Je nachdem ob die Gleichungen bestimmte Vorraussetzungen erfüllen nennt man das System auch ... 
-
-| **Freies** System                                                                                                        | [**LTI-System**](LTI-Systeme.md) System                                                                                                                                      | **Autonomes** System                                                                                               |
-| :------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: |
-| Die Stellgröße bzw. der Eingangsvektor $\mathbf{u}(t)$ ist null                                                          | Die Koeffizientenmatrizen sind konstant. Das System ist daher zusätzlich *zeitinvariant*                                                                                     | Das System ist *frei* und *zeitinvariant*                                                                          |
-| $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}(t)\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}(t)\mathbf{x}(t)\end{align}$$ | $$\begin{align} \mathbf{\dot{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t) \\ \mathbf{y}(t) = \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \end{align}$$ | $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}\mathbf{x}(t)\end{align}$$ |
-
- Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) ansetzen.
-
-### Zustandsgleichung als Blockdiagramm
-
-![invert_dark](assets/Pasted%20image%2020250306140047.png)
-
-- Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Eingangsmatrix** $\mathbf{B}$ den (abgeleiteten) Zustandsvariablen zugeführt.
-- Ein Satz von *Integratoren* (für jede Zustandsvariable) bildet mit der **Systemmatrix** $\mathbf{A}$ im Rückführungszweig eine **Rückkopplungsschleife**.
-- Von den Ausgängen der *Integratoren* wird der nun Integrierte **Zustandsvektor** $\mathbf{x}(t)$ über die **Ausgangsmatrix** $\mathbf{C}$ auf den **Ausgangsvektor** $\mathbf{y}(t)$ abgebildet.
-- Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Durchgangsmatrix** $D$ direkt zum **Ausgangsvektor** $\mathbf{y}(t)$ übertragen. (Geht also an den Speichernden elementen des Systems vorbei)
-
----
-
-> [!quote] Diese Konzepte lassen sich von DGL-Systemen in gleicher Maßen auf zeitdiskrete [Systeme von Differenzegleichungen](../Mathematik/Analysis/Differenzengleichung.md#Systeme%20von%20DZGL)
-
----
+| [Kontinuierliche Lineare Systeme](Lineare%20Systeme.md) | als auch für | [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) |
+| ------------------------------------------------------- | ------------ | ------------------------------------------------------------------- |
 
 # Beispiel
 

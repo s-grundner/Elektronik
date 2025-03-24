@@ -12,9 +12,9 @@ draft: true
 title: Diskrete Systeme
 ---
 
-# Diskrete LTI-Systeme
+# Zeitdiskrete LTI-Systeme
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsbeschreibung](Zustandsgleichungen.md) >📍> [Diskreter LTI-Zustandsraum](Diskreter%20LTI-Zustandsraum.md)
+> [!question] :LiArrowBigLeftDash: [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) |📍| [Zeitdiskreter LTI-Zustandsraum](Zeitdiskreter%20LTI-Zustandsraum.md) :LiArrowBigRightDash:
 
 [Kontinuierliche LTI-Systeme](LTI-Systeme.md) ***:LiArrowBigRightDash:***
 

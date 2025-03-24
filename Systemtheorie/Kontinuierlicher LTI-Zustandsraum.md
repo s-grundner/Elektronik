@@ -14,9 +14,9 @@ title: kontinuierlicher LTI-Zustandsraum
  
 # Zustandbeschreibung von LTI-Systemen
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Zustandsraum](Zustandsgleichungen.md) > [LTI-Systeme](LTI-Systeme.md)
+> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Lineare Systeme](Lineare%20Systeme.md) > [LTI-Systeme](LTI-Systeme.md) 
 
-[Diskreter LTI-Zustandsraum](Diskreter%20LTI-Zustandsraum.md) ***:LiArrowBigRightDash:***
+[Zeitdiskreter LTI-Zustandsraum](Zeitdiskreter%20LTI-Zustandsraum.md) ***:LiArrowBigRightDash:***
 
 ---
 
@@ -25,7 +25,7 @@ title: kontinuierlicher LTI-Zustandsraum
 >  Linearität $\impliedby \mathbf{A,B,C,D} \neq f(u,x)$
 > Zeitinvarianz $\impliedby \mathbf{A,B,C,D}$ $\neq f(t)$
 
-Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsgleichungen](Zustandsgleichungen.md#^ZSGL) zu konstanten Koeffizientenmatrizen:
+Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsraum](Zustandsraum.md#^ZSGL) zu konstanten Koeffizientenmatrizen:
 
 > [!def] **D3 - ZLTI)** LTI-System in der Zustandsraumdarstellung ^ZLTI
 >  $$
@@ -37,7 +37,7 @@ Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die
 
 
 
-Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsgleichungen.md#Übertragungssystem), sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
+Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsraum.md#Übertragungssystem), sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
 
 |               | Linear                                                                                                                     | Nicht linear                                               |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------: |

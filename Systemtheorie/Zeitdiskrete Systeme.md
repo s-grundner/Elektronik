@@ -14,9 +14,9 @@ draft: true
 title: DZGL-Systeme
 ---
  
-# Systeme von Differenzengleichungen
+# Zeitdiskrete Systeme
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Differenzengleichungen](Differenzengleichung.md) 
+> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) >📍> [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) > [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md)
 
 [DGL-Systeme](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) :LiArrowBigRightDash:
 
@@ -53,9 +53,3 @@ $$
 > [!def] Die Lösungsfolge - auch als **Fluss** $\mathbf{\Phi}_{k}(\mathbf{x}_{0})$ bezeichnet - für ein autonomes System ist die $k$-malige [Komposition](../Mathematik/Algebra/Komposition.md) der **Zustandsfolge**:
 >  $$\mathbf{x}[k] = \mathbf{\Phi}_{k}(\mathbf{x}_{0}) = \underbrace{ \mathbf{f} \circ \mathbf{f} \circ \dots \circ \mathbf{f} }_{ k\text{-mal} }(\mathbf{x}_{0})$$
 
-
-# Lineare DZGL-Systeme
-
-Das System ist Linear, wenn $\mathbf{f}$ in eine linearkombination von Ein und Ausgang übergeht. Das System ist dann in seiner [Zustandsraumdarstellung](Zustandsgleichungen.md) wenn es sich in folgenden Form überführen lässt:
-
-> [!def] **D - )** 

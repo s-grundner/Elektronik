@@ -36,4 +36,4 @@ def:
 
 ---
 
-Weiterführend ist die Systemtheoretische Betrachtung von [Differenzengleichungssystemen](../../Systemtheorie/DZGL-Systeme.md) als Zustandsgleichungen von Übertragungssystemen.
+Weiterführend ist die Systemtheoretische Betrachtung von [Differenzengleichungssystemen](../../Systemtheorie/Zeitdiskrete%20Systeme.md) als Zustandsgleichungen von Übertragungssystemen.
