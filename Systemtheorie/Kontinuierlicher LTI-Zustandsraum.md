@@ -12,7 +12,7 @@ draft: true
 title: kontinuierlicher LTI-Zustandsraum
 ---
  
-# Zustandbeschreibung von LTI-Systemen
+# Zustandsbeschreibung von LTI-Systemen
 
 > [!question] :LiArrowBigLeftDash: [LTI-Systeme](LTI-Systeme.md) |📍
 
@@ -27,7 +27,7 @@ title: kontinuierlicher LTI-Zustandsraum
 
 Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsraum](Zustandsraum.md#^ZSGL) zu konstanten Koeffizientenmatrizen:
 
-> [!def] **D1 - ZLTI)** LTI-System in der Zustandsraumdarstellung ^ZLTI
+> [!def] **D1 - LTI)** LTI-System in der Zustandsraumdarstellung ^LTI
 >  $$
 > \begin{align}
 > \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{u}(t), \quad \mathbf{x}(0) = \mathbf{x}_{0}\tag{Zustandsgl.}\\

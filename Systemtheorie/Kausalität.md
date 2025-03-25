@@ -22,9 +22,10 @@ Die Wirkung tritt nicht vor der Ursache ein!
 > 
 > $$y\left(t_0\right)=\mathcal{T}\left\{x\left(t \leq t_0\right)\right\}$$
 
-> [!info] Die Impulsantwort $h(t)$ eines kausalen Systems ist kausal, d.h.
+> [!satz] Die Impulsantwort $h(t)$ eines kausalen Systems ist kausal, d.h.
 > $$h(t)=0 \quad \forall \quad t<0$$
 
+---
 
-> [!question] Alle realen Systeme gehorchen diesem „Naturgesetz".
+> [!hint] Alle realen Systeme gehorchen diesem „Naturgesetz".
 > - Allerdings können Idealisierungen in der Systemtheorie auf nichtkausale Systeme führen und es ist oft einfacher mit diesen zu rechnen. Durch die Einführung einer künstlichen Verzögerung ist bei einem zeitbegrenzten nichtkausalen Anteil auch eine Realisierung möglich.

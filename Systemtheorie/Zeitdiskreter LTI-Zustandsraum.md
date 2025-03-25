@@ -12,7 +12,7 @@ draft: true
 title: Diskreter LTI-Zustandsraum
 ---
 
-# Zeitdiskreter LTI-Zustandsraum
+# Zustandsbeschreibung von zeitdiskreten LTI-Systemen
 
 > [!question] :LiArrowBigLeftDash: [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md) |📍
 

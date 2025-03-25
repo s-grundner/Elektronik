@@ -48,7 +48,7 @@ Der Zustand des Systems beschreibt die internen Größen des dynamischen Systems
 Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von ein und Ausgängen zu erweitern (MIMO)
 
 
-## Zustandsgleichung
+## Zustandsgrößen
 
 - Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
 - Im allgemeinen Fall: ein System von Differentialgleichungen
@@ -84,14 +84,15 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von 
 > [!info] Annahme: Es gibt $p$ **Eingangsgrößen** $u_1, u_2, \ldots, u_p$
 > Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ **Eingangsgrößen** und allen **Zustandsgrößen** $x_1, x_2, \ldots, x_n$ abhängen
 > 
-> Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist. *Der Störvektor $u$ ist im obigen fall gegeben, in weiterer Folge wird dieser Generalisiert.*
-> - $\rightarrow$ **Zustandsgleichungen**
+> - $\rightarrow$ **Zustandsgleichung:** $\mathbf{\dot{x}}=\mathbf{f}(t,\mathbf{x},\mathbf{u})$
+
+Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist.
 
 Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 > [!info] Annahme: Es gibt $q$ **Ausgangsgrößen** $y_1, y_2, \ldots, y_q$
-> Ausgangsgrößen lassen sich als Linearkombination der **Zustandsgrößen** und der **Eingangsgrößen** darstellen.
-> - $\to$ **Ausgangsgeichung** 
+> Ausgangsgrößen lassen sich als Funktion der **Zustandsgrößen** und der **Eingangsgrößen** darstellen.
+> - $\to$ **Ausgangsgeichung:** $\mathbf{y}=\mathbf{g}(t,\mathbf{x}, \mathbf{u})$ 
 
 Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
 
