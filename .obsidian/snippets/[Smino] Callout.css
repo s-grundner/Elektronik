@@ -13,6 +13,9 @@
 	--callout-color: 255, 155, 155;
 }
 
+/* 
+// Align callout icon and title
+
 .cm-active.HyperMD-quote.cm-line:not(.HyperMD-callout) .cm-quote {
 	margin-left: 0px;
 }
@@ -25,6 +28,7 @@
   margin-top: unset;
   align-self: unset;
 }
+*/
 
 /* Custom page preview v1.2 
 from https://github.com/zamsyt/obsidian-snippets

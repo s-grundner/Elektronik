@@ -26,9 +26,9 @@ title: Systemtheorie
 
 Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische Verhalten des Zustands eines Systems berücksichtigt.
 
-> [!important] Zentraler Begriff: [Zustandsraum](Zustandsraum.md)
+> [!important] Zentraler Begriff: **Zustandsraum** [\|](Zustandsraum.md)
 > Man stellt sich die Frage, ist dieser ...
-> - [] Erreichbar
+> - Erreichbar
 > - Steuerbar
 > - Beobachtbar
 > - Rekonstruierbar

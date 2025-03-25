@@ -23,6 +23,10 @@ professor:
 
 > [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
 
+[Zeitdiskreter Zustandsraum](Zeitdiskreter%20Zustandsraum.md) ***:LiArrowBigRightDash:***
+
+---
+
 Der Zustand des Systems beschreibt die internen Größen des dynamischen Systems
 
 > [!quote] Zustandsgrößen sind Variablen, die Auskunft über die vom System beinhaltete **Energie** geben. 
@@ -50,7 +54,7 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von 
 
 ## Zustandsgrößen
 
-- Beschreibung von LTI-Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
+- Beschreibung von Systemen mit Hilfe gewöhnlicher linearer Differentialgleichungen beliebiger Ordnung
 - Im allgemeinen Fall: ein System von Differentialgleichungen
 - Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
 
@@ -86,8 +90,6 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von 
 > 
 > - $\rightarrow$ **Zustandsgleichung:** $\mathbf{\dot{x}}=\mathbf{f}(t,\mathbf{x},\mathbf{u})$
 
-Damit lässt sich ein LTI-System durch ein System von Differentialgleichungen 1. Ordnung beschreiben, wobei jede Zustandsvariable die unabhängige Variable einer Differentialgleichung ist.
-
 Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 > [!info] Annahme: Es gibt $q$ **Ausgangsgrößen** $y_1, y_2, \ldots, y_q$
@@ -99,19 +101,14 @@ Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
 > [!def] **D1 - ZSGR)** Zustandsgrößen ^ZSGR
 > $$
 > \begin{align}
-> \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
-> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \cdots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
-> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \cdots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
+> \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \dots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
+> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \dots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
+> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \dots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
 > \end{align}
 > $$
 > 
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
-
-Diese Definitionen gelten sowohl für:
-
-| [Kontinuierliche Lineare Systeme](Lineare%20Systeme.md) | als auch für | [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) |
-| ------------------------------------------------------- | ------------ | ------------------------------------------------------------------- |
 
 # Beispiel
 

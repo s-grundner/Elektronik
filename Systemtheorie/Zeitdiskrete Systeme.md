@@ -26,7 +26,7 @@ title: DZGL-Systeme
 
 $$
 \begin{align}
-\mathbf{x}_{k+1} &= \mathbf{f}(k, \mathbf{x}_{k}, \mathbf{u}_{k}), \quad\mathbf{x}(k_{0}) = \mathbf{x}_{0} \\
+\mathbf{x}_{k+1} &= \mathbf{f}(k, \mathbf{x}_{k}, \mathbf{u}_{k}), \quad\mathbf{x}[k_{0}] = \mathbf{x}_{0} \\
 \mathbf{y}_{k} &= \mathbf{g}(k,\mathbf{x}_{k}, \mathbf{u}_{k})
 \end{align}
 $$
@@ -46,6 +46,9 @@ $$
 
 ## Autonome Systeme
 
-> [!def] Die Lösungsfolge - auch als **Fluss** $\mathbf{\Phi}_{k}(\mathbf{x}_{0})$ bezeichnet - für ein autonomes System ist die $k$-malige [Komposition](../Mathematik/Algebra/Komposition.md) der **Zustandsfolge**:
+Da das autonome zeitdiskrete System nur $\mathbf{x}_{k}$ als argument hat, können die Funktinonen direkt ineinander eingesetzt werden: 
+
+> [!satz] Die Lösungsfolge - auch als **Fluss** $\mathbf{\Phi}_{k}(\mathbf{x}_{0})$ bezeichnet - für ein autonomes System ist die $k$-malige [Komposition](../Mathematik/Algebra/Komposition.md) der **Zustandsfolge**:
 >  $$\mathbf{x}[k] = \mathbf{\Phi}_{k}(\mathbf{x}_{0}) = \underbrace{ \mathbf{f} \circ \mathbf{f} \circ \dots \circ \mathbf{f} }_{ k\text{-mal} }(\mathbf{x}_{0})$$
 
+z.B $\mathbf{x}_{2} = \mathbf{f}(\mathbf{f}(\mathbf{x}_{0}))$
