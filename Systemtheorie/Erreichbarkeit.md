@@ -21,10 +21,14 @@ Betrachtet wird ein zeitkontinuierliches LTI-System
 
 Gibt es einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können?
 
-> [!satz] **S - MIMO)** Erreichbarkeitskriterium
+> [!satz] **S - MIMO)** Erreichbarkeitskriterium für MIMO[]-Systeme
 > $$\mathbf{M}_{k} = \begin{bmatrix}
 > \mathbf{B} & \mathbf{AB} & \mathbf{A}^{2}\mathbf{B} & \dots &  \mathbf{A}^{n-1}\mathbf{B}\\
 > \end{bmatrix}$$
+
+
+
+> [!satz] **S - SISO)** Erreichbarkeitskriterium für SISO-Systeme
 
 > [!def] **D - )** Gramsche Erreichbarkeitsmatrix
 
