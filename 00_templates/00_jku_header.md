@@ -17,4 +17,4 @@ professor:
 <%* if(typ == "VL") tR += "title: " + tp.file.title + "\n"_%>
 <%* if(typ == "UE") tR += "due:\n" _%>
 ---
- 
+

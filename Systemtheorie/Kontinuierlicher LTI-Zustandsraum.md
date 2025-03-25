@@ -27,11 +27,11 @@ title: kontinuierlicher LTI-Zustandsraum
 
 Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsraum](Zustandsraum.md#^ZSGL) zu konstanten Koeffizientenmatrizen:
 
-> [!def] **D3 - ZLTI)** LTI-System in der Zustandsraumdarstellung ^ZLTI
+> [!def] **D1 - ZLTI)** LTI-System in der Zustandsraumdarstellung ^ZLTI
 >  $$
 > \begin{align}
-> \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{u}(t) \tag{Zustandsgleichung}\\
-> \mathbf{y}(t) &= \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \tag{Ausgangsgleichung}
+> \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{u}(t), \quad \mathbf{x}(0) = \mathbf{x}_{0}\tag{Zustandsgl.}\\
+> \mathbf{y}(t) &= \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \tag{Ausgangsgl.}
 > \end{align}
 > $$
 
