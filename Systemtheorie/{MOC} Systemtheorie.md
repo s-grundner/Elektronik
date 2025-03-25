@@ -29,12 +29,11 @@ Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische 
 
 > [!important] Zentraler Begriff: [Zustandsraum](Zustandsraum.md) 
 
-| **:LiAudioWaveform: Kontinuierliche Systeme**                                                     | :LiBolt: |                                                            **Diskrete Systeme :LiBarChart2:** |
-| ------------------------------------------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------: |
-| [:LiArrowBigRightDash:](Lineare%20Systeme.md) Lineare Systeme                                     |          |          Diskrete Lineare Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20Lineare%20Systeme.md) |
-| [:LiArrowBigRightDash:](LTI-Systeme.md)  LTI-Systeme                                              | :LiBolt: |                        Diskrete LTI-Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20LTI-Systeme.md) |
-| [:LiArrowBigRightDash:](Kontinuierlicher%20LTI-Zustandsraum.md) Kontinuierlicher LTI-Zustandsraum | :LiBolt: |            Diskreter LTI-Zustandsraum [:LiArrowBigLeftDash:](Zeitdiskreter%20LTI-Zustandsraum.md) |
-|                                                                                                   |          |                                                                                               |
-| [:LiArrowBigRightDash:](../Mathematik/Analysis/GDGL.md) Differentialgleichungen                   | :LiBolt: | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Differenzengleichung.md) |
-
-## Kontinuierliche Systeme
+| **:LiAudioWaveform: Kontinuierliche Systeme**                                    | :LiBolt: |                                                        **Zeitdiskrete Systeme :LiBarChart2:** |
+| -------------------------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------: |
+| [:LiArrowBigRightDash:](Dynamische%20Systeme.md) Systeme von DGL                 | :LiBolt: |                            Systeme von DZGL [:LiArrowBigLeftDash:](Zeitdiskrete%20Systeme.md) |
+| [:LiArrowBigRightDash:](Lineare%20Systeme.md) Lineare Systeme                    | :LiBolt: |          Diskrete Lineare Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20Lineare%20Systeme.md) |
+| [:LiArrowBigRightDash:](LTI-Systeme.md)  LTI-Systeme                             | :LiBolt: |                    Diskrete LTI-Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20LTI-Systeme.md) |
+| [:LiArrowBigRightDash:](Kontinuierlicher%20LTI-Zustandsraum.md) LTI-Zustandsraum | :LiBolt: |        Diskreter LTI-Zustandsraum [:LiArrowBigLeftDash:](Zeitdiskreter%20LTI-Zustandsraum.md) |
+|                                                                                  |          |                                                                                               |
+| [:LiArrowBigRightDash:](../Mathematik/Analysis/GDGL.md) Differentialgleichungen  | :LiBolt: | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Differenzengleichung.md) |

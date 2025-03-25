@@ -14,9 +14,9 @@ title: kontinuierlicher LTI-Zustandsraum
  
 # Zustandbeschreibung von LTI-Systemen
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) > [Lineare Systeme](Lineare%20Systeme.md) > [LTI-Systeme](LTI-Systeme.md) 
+> [!question] :LiArrowBigLeftDash: [LTI-Systeme](LTI-Systeme.md) |📍
 
-[Zeitdiskreter LTI-Zustandsraum](Zeitdiskreter%20LTI-Zustandsraum.md) ***:LiArrowBigRightDash:***
+[Zeitdiskreter LTI-Zustandsraum](Zeitdiskreter%20LTI-Zustandsraum.md) ***:LiRefreshCcw:***
 
 ---
 

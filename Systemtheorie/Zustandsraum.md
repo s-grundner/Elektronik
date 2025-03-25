@@ -19,11 +19,11 @@ professor:
   - Markus Schöberl
 ---
 
-# Zustandsbeschreibung eines Linearen Systems
+# Zustandsbeschreibung eines dynamischen Systems
 
 > [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
 
-Der Zustand des Systems beschreibt die internen Größen des [linearen Systems](Lineare%20Systeme.md)
+Der Zustand des Systems beschreibt die internen Größen des dynamischen Systems
 
 > [!quote] Zustandsgrößen sind Variablen, die Auskunft über die vom System beinhaltete **Energie** geben. 
 > 
@@ -95,7 +95,7 @@ Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
 
-> [!def] **D1 - ZSGR)** Zustandsgrößen
+> [!def] **D1 - ZSGR)** Zustandsgrößen ^ZSGR
 > $$
 > \begin{align}
 > \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \cdots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\

@@ -16,9 +16,9 @@ title: DZGL-Systeme
  
 # Zeitdiskrete Systeme
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md) >📍> [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) > [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md)
+> [!question] :LiArrowBigLeftDash: [Systemtheorie]({MOC}%20Systemtheorie.md) |📍| [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) :LiArrowBigRightDash:
 
-[DGL-Systeme](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) :LiArrowBigRightDash:
+[Dynamische Systeme](Dynamische%20Systeme.md) ***:LiRefreshCcw:***
 
 ---
 
@@ -30,11 +30,7 @@ $$
 \mathbf{y}_{k} &= \mathbf{g}(k,\mathbf{x}_{k}, \mathbf{u}_{k})
 \end{align}
 $$
-Dabei sind die Größen:
-
-- $\mathbf{x}$ : $x$-dimensionaler Zustand
-- $\mathbf{u}$ : $m$-dimensionaler Eingang
-- $\mathbf{y}$ : $l$-dimensionaler Ausgang
+![](Zustandsraum.md#^ZSGR)
 
 Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man die Systeme als...
 

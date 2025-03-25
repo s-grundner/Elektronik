@@ -15,7 +15,7 @@ title: Lineare Systeme
  
 # Lineare Systeme
 
-> [!question] :LiArrowBigLeftDash: [Systemtheorie]({MOC}%20Systemtheorie.md) ||
+> [!question] :LiArrowBigLeftDash: [Dynamische Systeme](Dynamische%20Systeme.md) |📍| [LTI-Systeme](LTI-Systeme.md) :LiArrowBigRightDash:
 
 [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) :LiRefreshCcw:
 
