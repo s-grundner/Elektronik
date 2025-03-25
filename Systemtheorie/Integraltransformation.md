@@ -27,7 +27,7 @@ Mit Hilfe von Integraltransformationen werden [Signale](Signale.md) aus Gr체nden
 in eine **alternative Darstellungsform** 체bergef체hrt
 
 > [!example] Beispiele:
-> - [Fouriertransformation](Fouriertransformation.md): Darstellung 체ber Zeit oder Frequenz
+> - [Fourier-Transformation](Fourier-Transformation.md): Darstellung 체ber Zeit oder Frequenz
 > - [Laplacetransformation](Laplacetransformation.md): $s$-Bereich zur einfacheren Analyse
 
 ## Integrationskern
@@ -69,7 +69,7 @@ Bei **selbstreziproken Kernen** erf체llt das Paar der Kerne f체r die Hin- und R�
 
 $$\varphi(t,s) = \theta^{*}(s,t)$$
 
-> [!example] Ein Beispiel daf체r ist die [Fouriertransformation](Fouriertransformation.md) bei der $T=S=\mathbb{R}$ und $s=\omega=2\pi f$ mit den Transformationskernen
+> [!example] Ein Beispiel daf체r ist die [Fourier-Transformation](Fourier-Transformation.md) bei der $T=S=\mathbb{R}$ und $s=\omega=2\pi f$ mit den Transformationskernen
 > 
 > $$
 > \begin{align}

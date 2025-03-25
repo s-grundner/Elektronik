@@ -14,11 +14,8 @@ def:
   - AWP 1.1
   - AWP 1.2
 ---
- 
 
 # Lineare DGL-Systeme 1. Ordnung
-
-hier: $\underbrace{ x'{=} A(t)x+b(t) }_{ \text{lin. DGL-System} }, \quad t \in I\quad I\dots\text{(Lösungsintervall)}\quad x \in\mathbb{R}^{m}$
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
 >Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../Physik/Federkraft.md)-Dämpfer [Systeme](../../Systemtheorie/Zustandsraum.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.

@@ -4,7 +4,7 @@ tags:
   - Algorithmus/Informatik
   - Analysis/Numerik
 aliases:
-  - Diskrete Fourier Transformation
+  - Diskrete Fourier-Transformation
   - IDFT
   - Synthesegleichung
   - Analysegleichung
@@ -16,15 +16,15 @@ professor:
 subject:
   - Signale und Systeme
 cited: true
-banner: "/assets/banner/SUSBanner.png"
+banner: /assets/banner/SUSBanner.png
 banner_y: 0.8625
 ---
 
-# Diskrete Fourier Transformation (DFT)
+# Diskrete Fourier-Transformation (DFT)
 
 > [!quote] DFT
-> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](../../Systemtheorie/Fouriertransformation.md).
-> Die Herleitung erfolgt aus der [Zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fouriertransformation.md)
+> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](Fourier-Transformation.md).
+> Die Herleitung erfolgt aus der [Zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fourier-Transformation.md)
 
 - Das aperiodische Signal $f_{a}(t)$ wird mit der Periode $T=\frac{2\pi}{\omega_{0}}$ **abgetastet**.
 - Beschränkung auf $N$ **Abtastwerte**

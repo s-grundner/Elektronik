@@ -14,6 +14,8 @@ professor:
  
 # z-Transformation
 
+[Laplace-Transformation](Laplacetransformation.md) ***:LiArrowBigRightDash:***
+
 > [!quote] Die z-Transformation ist eine Erweiterung der [Zeitdiskrete Fouriertransformation](Poissonsche%20Summenformel.md#**Zeitdiskrete**%20Fouriertransformation)
 > **Zur Erinnerung:** Die Zeitdiskrete Fouriertransformation stellt ein zeitdiskretes signal in Form einer gewichteten Summe von komplexen Exponentialfunktionen der form $\exp (j\Omega)$ dar
 
@@ -31,7 +33,7 @@ Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitd
 ## Zweiseitige z-Transformation
 
 > [!def] **D1 - 2ZTR)** Zweiseitige z-Transformation ^2ZTR
-$$F(z) = \mathcal{Z}_{II} \{f[n]\} = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] \cdot r^{-n}\cdot e^{ -j\Omega n } \impliedby z = r\cdot e^{ j\Omega } \tag{2ZTR}$$
+$$F(z) = \mathcal{Z}_{II} \{f[n]\} = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] r^{-n}e^{ -j\Omega n } \impliedby z = re^{ j\Omega } \tag{2ZTR}$$
 
 Lässt sich auch im Zusammenhang der zeitdiskreten Fouriertransformation schreiben:
 
@@ -83,9 +85,9 @@ Zur Einfacheren Handhabung beschränken wir uns auf die z-Transformierte als rat
 
 $$
 \begin{align}
-F(z) &= \frac{Z(z)}{N(z)} = \frac{\sum_{j=0}^{M}a_{j}z^{j}}{\sum_{i=0}^{N}b_{i}z^{i}} \tag{rational gebrochenes Polynom}\\
-&=F_{0} \frac{\prod^{M}_{j=1} (z-z_{0j})}{\prod^{N}_{i=1} (z-z_{\infty i})}\tag{Faktorisierte Null- und Polstellen} \\
-&=A_{0} + \left( \sum_{i=0}^{N} \frac{A_{i}\cdot z}{z-z_{\infty i}} \right) \cdot \frac{1}{z}\tag{Partialbruchdarstellung}
+F(z) &= \frac{Z(z)}{N(z)} = \frac{\sum_{j=0}^{M}a_{j}z^{j}}{\sum_{i=0}^{N}b_{i}z^{i}} &\text{rational gebrochenes Polynom}\\
+&=F_{0} \frac{\prod^{M}_{j=1} (z-z_{0j})}{\prod^{N}_{i=1} (z-z_{\infty i})}&\text{Faktorisierte Null- und Polstellen} \\
+&=A_{0} + \left( \sum_{i=0}^{N} \frac{A_{i}\cdot z}{z-z_{\infty i}} \right) \cdot \frac{1}{z}&\text{Partialbruchdarstellung}
 \end{align}
 $$
 

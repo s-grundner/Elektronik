@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - DTFT
 keywords: 
 subject:
   - VL
@@ -14,9 +15,12 @@ title: Zeitdiskrete Fouriertransformation
 ---
  
 
-# Zeitdiskrete Fouriertransformation
+# Zeitdiskrete Fourier-Transformation
 
-> [!question]  [Fouriertransformation](Fouriertransformation.md)
+[Fourier-Transformation](Fourier-Transformation.md) ***:LiArrowBigRightDash:***
+[Diskrete Fourier-Transformation](DFT.md) ***:LiArrowBigRightDash:***
+
+---
 
 > [!important] Die Zeitdiskrete FT hat im gegensatz zur [DFT](DFT.md) folgende Eigenschaft
 > Die Funktion im Zeitbereich ist Zeitdiskret im Frequenzbereich ist sie jedoch kontinuierlich.

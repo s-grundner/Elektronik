@@ -40,4 +40,4 @@ created: 1st September 2023
 
 ## Zusammenfassung 5c
 
-![5c-matura-sum](assets/5c-matura-sum.pdf)
+[5c-matura-sum](assets/5c-matura-sum.pdf)

@@ -60,5 +60,5 @@ Durch gleichsetzen der Beiden Fouriertransformierten in $(1)$ und $(2)$ folgt di
 - $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ besitzt eine periodische Frequenzabhängigkeit, die über den Ausdruck $e^{j \omega T}$ gegeben ist $\Rightarrow e^{j \omega T}$ als Argument
 - Aussage der dualen Poissonschen Summenformel: Eine mit der Rate $1 / T$ ideal abgetastete aperiodische Funktion $f_{\mathrm{a}}$ besitzt ein periodisches Spektrum. Dieses lässt sich durch eine unendliche Summe von gewichteten komplexen Exponentialfunktionen darstellen, wobei die Gewichtungskoeffizienten die Abtastwerte der Funktion sind.
 
-Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der [zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fouriertransformation.md) $f_{\mathrm{a}}(n T)$.
+Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der [zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fourier-Transformation.md) $f_{\mathrm{a}}(n T)$.
 

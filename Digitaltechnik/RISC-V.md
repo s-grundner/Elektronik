@@ -66,28 +66,12 @@ Temp register t0-t6 für Zwischenergebnisse
 | t0-2  | x5-7   | temp register                                            |
 | s0/fp |        | Stack-frame                                              |
 
-Konstanten in asm (z.b add immediate)
-
 ### Arithmetik
 
-addi s0, a, 6 
-
-Add:
-
-C-Code: a = b + c 
-RISC-V Assembler: add a, b, c
-
-Sub:
-
-C-Code: a = b - c 
-RISC-V Assembler: sub a, b, c
-
-Meherere Befehle
-
-C-Code: a = b + c - d
-RV-Assembler:
-- add t, b, c
-- sub a, t, d
+| Operation | Addition      | Subtraktion   | Mehrere Befehle                 |
+| --------- | ------------- | ------------- | ------------------------------- |
+| C-Code    | `a=b+c`       | `a=b-c`       | `a=b+c-d`                       |
+| RV-asm    | `add a, b, c` | `sub a, b, c` | `add t, b, c`<br> `sub a, t, d` |
 
 ## Speicher
 

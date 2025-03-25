@@ -40,15 +40,15 @@ Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 
 ## Valenzstrichformel
 
-| Molekül  | VSF                    | Atome                                                                               |
-| -------- | ---------------------- | ----------------------------------------------------------------------------------- |
-| $Cl_{2}$ | ![#invert_light\|125](assets/VSF-Cl2.png) | ![125](assets/Cl.png)                                           |
-| $O_{2}$  | ![#invert_light\|125](assets/VSF-O2.png)  | ![125](assets/O.png)                                           |
-| $N_{2}$  | ![#invert_light\|125](assets/VSF-N2.png)  | ![125](assets/N.png)                                           |
-| $HCl$ | ![invert_light\|125](assets/VSF-HCl.png) | ![125](assets/H.png) ![125](assets/Cl.png) |
-| $H_{2}O$ | ![#invert_light\|125](assets/VSF-H2O.png) | ![125](assets/H.png) ![125](assets/O.png)                                                                                     |
-| $NH_{3}$ | ![#invert_light\|125](assets/VSF-NH3.png) | ![125](assets/N.png) ![125](assets/H.png)                                                                                    |
-| $CH_{4}$ | ![#invert_light\|125](assets/VSF-CH4.png) | ![125](assets/C.png) ![125](assets/H.png)                                                                                   |
+| Molekül  | VSF                                       | Atome                                      |
+| -------- | ----------------------------------------- | ------------------------------------------ |
+| $Cl_{2}$ | ![#invert_light\|125](assets/VSF-Cl2.png) | ![125](assets/Cl.png)                      |
+| $O_{2}$  | ![#invert_light\|125](assets/VSF-O2.png)  | ![125](assets/O.png)                       |
+| $N_{2}$  | ![#invert_light\|125](assets/VSF-N2.png)  | ![125](assets/N.png)                       |
+| $HCl$    | ![invert_light\|125](assets/VSF-HCl.png)  | ![125](assets/H.png) ![125](assets/Cl.png) |
+| $H_{2}O$ | ![#invert_light\|125](assets/VSF-H2O.png) | ![125](assets/H.png) ![125](assets/O.png)  |
+| $NH_{3}$ | ![#invert_light\|125](assets/VSF-NH3.png) | ![125](assets/N.png) ![125](assets/H.png)  |
+| $CH_{4}$ | ![#invert_light\|125](assets/VSF-CH4.png) | ![125](assets/C.png) ![125](assets/H.png)  |
 
 Durch gemeinsame Elektronenpaare erreichen all Atome Edelgaskonfiguration (8 [Valenzelektronen](Valenzelektronen.md)).  
 Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektronenpaare bestimmt:

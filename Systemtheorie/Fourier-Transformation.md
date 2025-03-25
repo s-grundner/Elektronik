@@ -20,7 +20,12 @@ def:
 ---
  
 
-# Fourier Transformation
+# Fourier-Transformation
+
+[Zeitdiskrete Fourier-Transformation](Zeitdiskrete%20Fourier-Transformation.md) ***:LiArrowBigRightDash:***
+[Diskrete Fourier-Transformation](DFT.md) ***:LiArrowBigRightDash:***
+
+---
 
 Die Fouriertransfomration ist eine [[Integraltransformation]]. Im Vergleich zur [Fourierreihe](Fourierreihe.md) werden bei der Fouriertransformation die diskreten Frequenzen $k\omega_{0}$ durch die kontinuierliche Kreisfrequenz $\omega$ ersetzt.
 

@@ -101,9 +101,9 @@ Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
 > [!def] **D1 - ZSGR)** Zustandsgrößen ^ZSGR
 > $$
 > \begin{align}
-> \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \dots, u_{p} \right] ^{T}\tag{Eingangsvektor} \\
-> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \dots, x_{n} \right] ^{T}\tag{Zustandsvektor} \\
-> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \dots, y_{q} \right] ^{T}\tag{Ausgangsvektor}
+> \mathbf{u}(t)&=\left[ u_{1}, u_{2}, \dots, u_{p} \right] ^{\operatorname{T}}&\in\mathbb{R}^{p}\tag{Eingangsvektor} \\
+> \mathbf{x}(t)&=\left[ x_{1}, x_{2}, \dots, x_{n} \right] ^{\operatorname{T}}&\in\mathbb{R}^{n}\tag{Zustandsvektor} \\
+> \mathbf{y}(t)&=\left[ y_{1}, y_{2}, \dots, y_{q} \right] ^{\operatorname{T}}&\in\mathbb{R}^{q}\tag{Ausgangsvektor}
 > \end{align}
 > $$
 > 

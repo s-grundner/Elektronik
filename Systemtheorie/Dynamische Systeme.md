@@ -26,17 +26,28 @@ Im zeitkontinuierlichen Fall werden sie durch mathematische Modelle in Form von 
 
 $$
 \begin{align}
-\dot{x}_{1} &= f_{1}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), \qquad x_{1}(t_{0})=x_{1,0} \\
-\dot{x}_{2} &= f_{2}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), \qquad x_{2}(t_{0})=x_{2,0} \\
+\dot{x}_{1} &= f_{1}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), & x_{1}(t_{0})=x_{1,0} \\
+\dot{x}_{2} &= f_{2}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), & x_{2}(t_{0})=x_{2,0} \\
 & \ \ \vdots\\
-\dot{x}_{n} &= f_{n}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), \qquad x_{n}(t_{0})=x_{n,0} \\
-
+\dot{x}_{n} &= f_{n}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), & x_{n}(t_{0})=x_{n,0} \\ \hline
+y_{1} &= g_{1}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}) \\
+y_{2} &= g_{2}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}) \\
+& \ \ \vdots \\
+y_{n} &= g_{n}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}) \\
 \end{align}
 $$
 
 Das System ist in Matrixschreibweise lautet:
 
-
+$$
+\begin{align}
+\mathbf{\dot{x}} &= \mathbf{f}(t,\mathbf{x},\mathbf{u}), &\mathbf{x}(t_{0}) = \mathbf{x}_{0} \tag{Zustandsgl.} \\
+\mathbf{y} &= \mathbf{g}(t,\mathbf{x},\mathbf{u}) \tag{Ausgangsgl.}
+\end{align}
+$$
 
 
 ![](Zustandsraum.md#^ZSGR)
+
+Die Ordnung des Systems ist dabei die 
+
