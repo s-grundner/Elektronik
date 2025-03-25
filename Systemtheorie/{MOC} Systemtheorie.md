@@ -27,7 +27,15 @@ title: Systemtheorie
 
 Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische Verhalten des Zustands eines Systems berücksichtigt.
 
-> [!important] Zentraler Begriff: [Zustandsraum](Zustandsraum.md) 
+> [!important] Zentraler Begriff: [Zustandsraum](Zustandsraum.md)
+> Man stellt sich die Frage, ist dieser ...
+> - Erreichbar
+> - Steuerbar
+> - Beobachtbar
+> - Rekonstruierbar
+> - Beinflusst von der Abtastung
+
+Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
 | **:LiAudioWaveform: Kontinuierliche Systeme**                                    | :LiBolt: |                                                        **Zeitdiskrete Systeme :LiBarChart2:** |
 | -------------------------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------: |
