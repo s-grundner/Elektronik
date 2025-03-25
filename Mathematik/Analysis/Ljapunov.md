@@ -31,11 +31,11 @@ Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das LTI-System also $0 = \mathbf{Ax
 | $\det\mathbf{A}=0$     | $\infty$ RL im Kern      |                        |
 
 
-> [!example] Pendel
-> Pendel hat zwei ruhelagen:
-> - Ruhelage unten ist stabil
-> - Ruhelage oben ist instabil. Eine kleine Abweichung eskaliertdas System
->     - Das Pendel kehrt nicht mehr in die Ursprüngliche Ruhelage zurück, verlässt also das $\varepsilon$ Gebiet der Phase des Pendels
+> [!example] Pendel: Das Pendel hat zwei ruhelagen:
+> - Ruhelage unten ist **stabil**
+> - Ruhelage oben ist **instabil**. Eine kleine Abweichung eskaliertdas System
+> - Das Pendel kehrt nicht mehr in die Ursprüngliche Ruhelage zurück, verlässt also das $\varepsilon$ Gebiet der Phase des Pendels
+> 
 > ![invert_dark|200](assets/LjapPendel.png)
 
 ### Stabilität
@@ -55,14 +55,11 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 | Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
 | ![](../../assets/Excalidraw/DGL-Stabil.md)                                                                                                     | ![](../../assets/Excalidraw/DGL-Attr.md)                                                                                | ![](../../assets/Excalidraw/DGL-AsympStabil.md)                                                         |
 
-> [!def] **D1 - LJAP)** 
-
-
 ### Ljapunov Funktion
 
 ## Differenzengleichungen
 
-Auch die Lösungsfolge zeitdiskrete [Differenzengleichungen](Differenzengleichung.md) kann auf Stabilität untersucht werden.
+Auch die Lösungsfolge zeitdiskreter [Differenzengleichungen](Differenzengleichung.md) kann auf Stabilität untersucht werden.
 
 Stabilität für ein Zeitdiskretes System ist erreicht, wenn gilt:
 

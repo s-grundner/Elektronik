@@ -1,7 +1,8 @@
 ---
 tags:
   - Systeme/Zeitdiskret
-aliases: 
+aliases:
+  - Systeme von DZGL
 keywords: 
 subject:
   - VL
@@ -38,6 +39,9 @@ Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man die Syste
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(\mathbf{x}_{k}, \mathbf{u}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(\mathbf{x}_{k}, \mathbf{u}_{k})\end{align}$$ | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(k, \mathbf{x}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(k,\mathbf{x}_{k})\end{align}$$ | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(\mathbf{x}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(\mathbf{x}_{k})\end{align}$$ |
 | Die Zustandsfolgen sind nur indirekt über die Zustandsgrößen von $k$ abhängig                                                                              | Das System besitzt keine externen Stellgrößen                                                                                   | das System ist frei und zeitinvariant                                                                                      |
+
+> [!hint] Auch für Zeitdiskrete Systeme lassen sich Ruhelagen sowie die [Stabilität](../Mathematik/Analysis/Ljapunov.md#Differenzengleichungen) der Lösungsfolge Untersuchen
+
 
 Die Zustandsfolge $\mathbf{f}$ ist die Rekursionsvorschrift zur Ermittlungs des nächsten Zustands. Daher ist es einfacher als bei kontinuierlichen DGL eine Lösung zu finden, da man durch einsetzen des Anfangswertes alle folgegleider rekursiv berechnen kann (Vorausgesetzt sei, dass $\mathbf{u}_{k}, \forall k\in\mathbb{N}$ bekannt sind)
 

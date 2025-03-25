@@ -57,8 +57,10 @@ Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man das Syste
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | $$\begin{align}\mathbf{\dot{x}}&= \mathbf{f}(\mathbf{x},\mathbf{u}) \\ \mathbf{y} &= \mathbf{g}(\mathbf{x}, \mathbf{u})\end{align}$$ | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(t, \mathbf{x}) \\ \mathbf{y} &= \mathbf{g}(t,\mathbf{x})\end{align}$$ | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(\mathbf{x}) \\ \mathbf{y} &= \mathbf{g}(\mathbf{x})\end{align}$$ |
 | Die Zustandsfolgen sind nur indirekt über die Zustandsgrößen von $k$ abhängig                                                        | Das System besitzt keine externen Stellgrößen                                                                       | das System ist frei und zeitinvariant                                                                          |
-Es gelten dabei auch die Sy
 
+> [!hint] Es gelten dabei auch die Sätze über DGL-Systeme:
+> - Existenz einer Lösung nach [Picard-Lindelöf](../Mathematik/Analysis/Picard-Lindelöf.md)
+> - Stabilität einer Lösung nach [Ljapunov](../Mathematik/Analysis/Ljapunov.md)
 
 [^1]: Systeme mit finitem Zustand (auch konszentriert-parametrische Systeme) werden durch Gewöhnliche DGL beschrieben.
     Systeme mit infinitem Zustand (auch verteilt-parametrische Systeme) werden durch Partielle DGL beschrieben.
