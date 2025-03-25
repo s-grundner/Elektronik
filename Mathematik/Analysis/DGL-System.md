@@ -18,14 +18,14 @@ Um **Differenzialgleichungen** *höherer* Ordnung leichter lösen zu können, ka
 
 > [!info] Jede DGL n-ter Ordnung lässt sich in ein DGL-System 1. Ordnung überführen
 > $$
-> F(t,x,x',\dots,x^{(n)})=0\quad \iff \begin{cases}
+> \underbrace{ F(t,x,x',\dots,x^{(n)})=0 }_{ \text{implizite DGL n-ter Ordnung} }\quad \iff \begin{cases}
 > x&:= z_{1} \\
 > x'&:= z_{2}=z_{1}' \\
 > x''&:= z_{3}=z_{2}' \\
 > \quad&\vdots  \\ 
 > x^{(n-1)}&:= z_{n}=z_{n-1}' \\
 > x^{(n)} &:= z_{n}'
-> \end{cases}\iff \mathbf{z}'=F(t,\mathbf{z})
+> \end{cases}\iff \underbrace{ \mathbf{z}'=F(t,\mathbf{z}) }_{ \text{explizites DGL-System 1. Ordnung} }
 > $$
 > 
 

@@ -29,10 +29,6 @@ def:
 
 ---
 
-![](../../assets/Excalidraw/{MOC}%20DGL%202025-02-21%2021.10.45.excalidraw.md)
-
-
-
 **Ordnung:** Die Ordnung der DGL ist durch die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) bestimmt.
 
 > [!def] **D1 - DGL)** Allgemeine Form ^DGL
@@ -53,10 +49,6 @@ def:
 ## Anfangswert Problem (AWP)
 
 Ein Anfangswertproblem (AWP) ist ein Problem, bei dem eine Differentialgleichung zusammen mit einer Anfangsbedingung gegeben ist. 
-
-> [!hint] **Anfangswerte** sind die Werte, die die Lösung der Differentialgleichung an **einer** bestimmten Stelle $t_{0}$ annehmen soll.
-> $$ x_{0} := x(t_{0}), \quad x_{0}' := x'(t_{0}), \quad \ldots, \quad x_{0}^{(n-1)} := x^{(n-1)}(t_{0}) $$
-
 
 > [!def] **D2 - AWP)** Gegeben seien eine offene Menge $D \subset \mathbb{R}^{m+1}$, eine Funktion $f: D \rightarrow \mathbb{R}^m$ und ein fester Punkt $\left(t_0, x_0\right) \in D$. ^AWP
 > 
@@ -79,11 +71,13 @@ $$
 
 Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine Differenzialgleichung zusammen mit Randbedingungen gegeben ist.
 
-## Stabilität von Lösungen
+## Lösungen von DGL-Systemen
 
-> Stabilität nach [Ljapunov](Ljapunov.md)
+### Existenz von Lösungen
 
-## Lösungsmethoden von DGL
+> Eindeutige Lösung nach [Picard-Lindelöf](Picard-Lindelöf.md)
+
+### Lösungsmethoden von DGL
 
 - Finden der der homogenen und partikulären Lösung
     - Trennen der Variablen
@@ -92,6 +86,10 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 - [Laplacetransformation](../../Systemtheorie/Laplacetransformation.md)
 - [Analytische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Analytische%20Verfahren)
 - [Numerische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Numerische%20Verfahren)
+
+### Stabilität von Lösungen
+
+> Stabilität nach [Ljapunov](Ljapunov.md)
 
 # Tags
 

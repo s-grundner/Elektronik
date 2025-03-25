@@ -20,7 +20,7 @@ title: Kontinuierliche Systeme
 
 ---
 
-Dynamische Systeme, die sich durch eine endliche Anzahl n von Zustandsgrößen charakterisieren lassen, werden auch als Systeme mit finitem Zustand der Ordnung n bezeichnet.
+Dynamische Systeme, die sich durch eine endliche Anzahl n von Zustandsgrößen charakterisieren lassen, werden auch als Systeme mit finitem Zustand[^1] der Ordnung $n$ bezeichnet.
 
 Im zeitkontinuierlichen Fall werden sie durch mathematische Modelle in Form von gewöhnlichen [DGL-Systemen](../Mathematik/Analysis/DGL-System.md) und algebraischen Gleichungen beschrieben. 
 
@@ -49,5 +49,16 @@ $$
 
 ![](Zustandsraum.md#^ZSGR)
 
-Die Ordnung des Systems ist dabei die 
+Die Ordnung des Systems ist dabei die Dimension des Zustandsvektors $\dim \mathbf{x}=n$.
 
+Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man das System als...
+
+| **zeitinvariantes** System                                                                                                           | **freies** System                                                                                                   | **autonomes** System                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| $$\begin{align}\mathbf{\dot{x}}&= \mathbf{f}(\mathbf{x},\mathbf{u}) \\ \mathbf{y} &= \mathbf{g}(\mathbf{x}, \mathbf{u})\end{align}$$ | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(t, \mathbf{x}) \\ \mathbf{y} &= \mathbf{g}(t,\mathbf{x})\end{align}$$ | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(\mathbf{x}) \\ \mathbf{y} &= \mathbf{g}(\mathbf{x})\end{align}$$ |
+| Die Zustandsfolgen sind nur indirekt über die Zustandsgrößen von $k$ abhängig                                                        | Das System besitzt keine externen Stellgrößen                                                                       | das System ist frei und zeitinvariant                                                                          |
+Es gelten dabei auch die Sy
+
+
+[^1]: Systeme mit finitem Zustand (auch konszentriert-parametrische Systeme) werden durch Gewöhnliche DGL beschrieben.
+    Systeme mit infinitem Zustand (auch verteilt-parametrische Systeme) werden durch Partielle DGL beschrieben.
