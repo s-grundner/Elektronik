@@ -30,10 +30,13 @@ $$
 \dot{x}_{2} &= f_{2}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), \qquad x_{2}(t_{0})=x_{2,0} \\
 & \ \ \vdots\\
 \dot{x}_{n} &= f_{n}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}), \qquad x_{n}(t_{0})=x_{n,0} \\
+
 \end{align}
 $$
 
 Das System ist in Matrixschreibweise lautet:
+
+
 
 
 ![](Zustandsraum.md#^ZSGR)

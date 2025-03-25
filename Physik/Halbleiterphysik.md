@@ -128,7 +128,7 @@ Dabei sind $D_{n}$ und $D_{p}$ die Diffusionskoeffizienten, welche durch die [Ei
 
 Die extrem niedrige Leitfähigkeit von reinen Halbleitern lässt sich durch das Einbringen von 3- oder 5-Wertigen Fremdatomen massiv erhöhen. Dieser Vorgang heißt Dotierung.
 
-#### n-Halbleiter
+### n-Halbleiter
 
 - Im Silizium wird ein Atom durch ein **5-Wertiges** Atom ersetzt.
 - Das 5. Elektron des Fremdatoms wird für das Kristallgitter nicht mehr benötigt und wird **frei**.
@@ -146,7 +146,7 @@ In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elek
 - Die Elektronen stellen die so genannten **Majoritätsträger** da,
 - während die Löcher die **Minoritätsträger** repräsentiern.
 
-#### p-Halbleiter
+### p-Halbleiter
 
 - Im Silizium wird ein Atom durch ein **3-Wertiges** Atom ersetzt.
 - Dem 3-Wertigen Atom wird von benachbarten Silizium Atomen ein Elektron **entliehen**
@@ -165,8 +165,6 @@ In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:
 - die Elektronen die **Minoritätsträger**.
 
 
-### pn-Übergang / Diode
-
-
+## pn-Übergang / Diode
 
 [^1]: Intrinsische Leitfähigkeit: Nicht Dotiert nur die Leitungsfähigkeit "von sich aus" durch Thermisch bedingte Gitterfehler

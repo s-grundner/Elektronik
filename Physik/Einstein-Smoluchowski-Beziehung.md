@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Diffusion
 keywords: 
 subject:
   - Einführung Elektronik
@@ -22,7 +23,7 @@ $T$... absolute Temparatur
 
 ## In der Halbleiterphysik
 
-Es Stellt sich heraus, dass Elektronen in ihrer Gesamtheit (also makroskopisch) ebenfalls die Eigenschaften eines Gases Annehmen (Fermi-Gas). Dann gilt ebenfalls die EInstein-Beziehung und mit ihr lässt sich der Diffusionskoeffizient für den Diffusionsstrom in Halbleitern aufstellen:
+Es Stellt sich heraus, dass Elektronen in ihrer Gesamtheit (also makroskopisch) ebenfalls die Eigenschaften eines Gases Annehmen (Fermi-Gas). Dann gilt ebenfalls die Einstein-Beziehung und mit ihr lässt sich der Diffusionskoeffizient für den Diffusionsstrom in Halbleitern aufstellen:
 
 $$D_{n,p} = \frac{k_{b}T}{e}\mu_{n,p}\tag{DifKo HL}$$ ^DIFKOHL
 

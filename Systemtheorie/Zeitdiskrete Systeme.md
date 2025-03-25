@@ -22,7 +22,7 @@ title: DZGL-Systeme
 
 ---
 
-Ähnlich wie für zeitkontinuierliche Übertragungssysteme, werden zeitdiskrete Systeme mit finitem Zustand, druch ein explizites Modell beschrieben.
+Ähnlich wie für zeitkontinuierliche Übertragungssysteme, werden zeitdiskrete Systeme mit finitem Zustand, druch ein explizites Modell von Zustands- und Ausgangsgleichung beschrieben.
 
 $$
 \begin{align}
@@ -30,7 +30,7 @@ $$
 \mathbf{y}_{k} &= \mathbf{g}(k,\mathbf{x}_{k}, \mathbf{u}_{k})
 \end{align}
 $$
-![](Zustandsraum.md#^ZSGR)
+![](Zeitdiskreter%20Zustandsraum.md#^ZSGR)
 
 Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man die Systeme als...
 

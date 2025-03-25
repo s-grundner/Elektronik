@@ -13,12 +13,11 @@ created: 3. März 2025
 professor: 
 draft: false
 title: Gleichstrommotor
+banner: "/Elektrotechnik/Maschinen/assets/DCM.png"
+banner_y: 0.644
 ---
  
 # Gleichstrommaschine
-
-
-![900](assets/DCM.jpg)
 
 **Merkmale:**
 
@@ -36,12 +35,15 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es G gl
 > M &= \frac{c\Phi}{2\pi} i_{A} &&(= c_{1}\Phi i_{a})
 > \end{align} 
 > $$
-> $[n]=\frac{U}{s}$ ... Umdrehungen pro Sekunde
-> $[\omega] = \frac{\operatorname{rad}}{s}$
-> $c, c_{1}$ ... Maschinenkonstante mit $c = 2\pi c_{1}$
+
+
+- $[n]=\frac{U}{s}$ ... Umdrehungen pro Sekunde
+- $[\omega] = \frac{\operatorname{rad}}{s}$
+- $c, c_{1}$ ... Maschinenkonstante mit $c = 2\pi c_{1}$
 
 > [!hint] **Nutrastmomente:** Sind die Einrastungen die man spürt, wenn man einen unbestromten DC-Motor Dreht.
 > In DC-Motoren sind im Rotor Nuten wo die Spuleneingelassen sind. An dieser Nut gibt es einen größeren Lufspalt, wobei der Fluss auch an der Seitenfläche der Nut eintritt, welches ein Positives / Negatives Moment verursacht. Dadurch entstehen Ripple im Drehmoment. 
 
 In Summe sind diese Momente $0$: $\int M_{c}(\varphi) \mathrm{~d}\varphi_{r}=0$
 
+![invert_dark](assets/Nutrasten.png)

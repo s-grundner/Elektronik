@@ -19,3 +19,6 @@ title: Magnetlager
 > - Eddiecurrents / Wirbelströme
 > 
 > gebremst
+
+| ![500](assets/Magnetlager2.png) | ![500](assets/Magnetlager1.png) |
+| ------------------------------- | ------------------------------- |
