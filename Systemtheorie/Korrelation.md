@@ -42,6 +42,8 @@ Das Korrelationsprodukt $\varphi_{x y}(\tau)$ zweier Funktionen $x(t)$ und $y(t)
 > $$
 > 
 
+In Matlab: `xcorr`
+
 > [!important] Kreuzkorrelation von Leistungssignalen
 > Bei Leistungssignalen konvergieren vorige Ausdrücke nicht, sodass die Berechnung wie bei der Definition für Leistungssignale angepasst wird.
 > 

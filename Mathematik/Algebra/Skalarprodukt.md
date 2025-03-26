@@ -36,7 +36,7 @@ Das Skalarprodukt ist eine Art zwei Vektoren miteinander zu multiplikativ zu ver
 > [!def] **D1 - SKAX)** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\langle\cdot, \cdot\rangle: X \times X \rightarrow \mathbb{K}$ heißt Skalarprodukt (inneres Produkt) auf $X$, falls folgende Bedingungen gelten:
 > 
 > **(S1)** $\forall x \in X:\langle x, x\rangle \geq 0 \wedge(\langle x, x\rangle=0 \Longleftrightarrow x=0)\quad$ ([positive Definitheit](Definitheit.md))
-> **(S2)** $\forall x, y \in X:\langle x, y\rangle=\overline{\langle y, x\rangle} \quad$ 
+> **(S2)** $\forall x, y \in X:\langle x, y\rangle=\langle y, x\rangle^{*} \quad$ 
 > **(S3)** $\forall x, y, z \in X \forall \lambda, \mu \in \mathbb{K}:\langle\lambda x+\mu y, z\rangle=\lambda\langle x, z\rangle+\mu\langle y, z\rangle$ (Linearität bzgl. 1. Argument)
 > 
 > $(X,\langle\cdot, \cdot\rangle)$ heißt **Prähilbertraum**. (Der Raum auf den das Skalarprodukt Abbildet)
@@ -44,7 +44,7 @@ Das Skalarprodukt ist eine Art zwei Vektoren miteinander zu multiplikativ zu ver
 > [!info]- Erläuterung zu **(S2)**
 > **S2** setzt die Symmetrie in $\mathbb{R}$ bzw. Hermitizität in $\mathbb{C}$ voraus
 > 1. wenn $\mathbb{K}=\mathbb{R}$ reduziert sich die Bedingung auf $\langle x, y\rangle=\langle y, x\rangle$
-> 2. wenn $\mathbb{K}=\mathbb{C}$ dann gilt $\langle x, y\rangle=\overline{\langle y, x\rangle}$. Der Überstrich bedeutet dann die [konjugation](../Analysis/Komplexe%20Zahlen.md) des Skalarprodukts bei Vertauschung der Argumente
+> 2. wenn $\mathbb{K}=\mathbb{C}$ dann gilt $\langle x, y\rangle=\overline{\langle y, x\rangle}$. 
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
