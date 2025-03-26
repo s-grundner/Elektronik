@@ -32,7 +32,7 @@ Das Korrelationsprodukt $\varphi_{x y}(\tau)$ zweier Funktionen $x(t)$ und $y(t)
 > **Kontinuierlich**
 > 
 > $$
-> \varphi_{x y}^E(\tau)=\int_{-\infty}^{\infty} x^*(t) y(t+\tau) \mathrm{d} t=\langle x(t), y(t+\tau)\rangle
+> r_{x y}^E(\tau)=\int_{-\infty}^{\infty} x^*(t) y(t+\tau) \mathrm{d} t=\langle x(t), y(t+\tau)\rangle
 > $$
 > 
 > **Diskret**
