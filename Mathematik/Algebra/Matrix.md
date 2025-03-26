@@ -59,11 +59,11 @@ $$
 
 ## Operationen auf eine Matrix
 
-- [Gauß-Jordan-Verfahren](Gauß-Jordan-Verfahren.md)  
-- [Transponieren](Transponieren.md)  
 - [Determinante](Determinante.md)  
-- [[Matrixmultiplikation]]
-- [[Definitheit]]
+- [Invertieren](Gauß-Jordan-Verfahren.md)  
+- [Transponieren](Transponieren.md)  
+- [Matrixmultiplikation](Matrixmultiplikation.md)
+- [Definitheit](Definitheit.md)
 
 ## Elementare Umformungen
 

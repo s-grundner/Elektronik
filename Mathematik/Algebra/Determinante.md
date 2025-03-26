@@ -46,7 +46,7 @@ professor:
 
 Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
 
-- Haben zwei Matrizen die selbe Determinante heißen sie **ähnlich**.
+- Haben zwei Matrizen die selbe Determinante bzw die selben [Eigenwerte](Eigenvektor.md), heißen sie **ähnlich**.
 
 ### Singuläre Matrizen
 

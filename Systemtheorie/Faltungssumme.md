@@ -18,5 +18,7 @@ title: Faltungssumme
 
 ---
 
-- Faltungssumme
-- Faltungsmatrix
+> [!def] **D1 - FALT)** Faltungssumme
+> $$(y*x)[n] = \sum_{\nu=-\infty}^{\infty} x[\nu-n]y[n]$$
+
+## Faltungsmatrix
