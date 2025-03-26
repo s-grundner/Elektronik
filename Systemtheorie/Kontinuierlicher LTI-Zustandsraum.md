@@ -20,21 +20,31 @@ title: kontinuierlicher LTI-Zustandsraum
 
 ---
 
+Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfacht sich die Zustands- / Ausgangsgleichung zu konstanten Koeffizientenmatrizen. 
 
 > [!quote] Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**
 >  Linearität $\impliedby \mathbf{A,B,C,D} \neq f(u,x)$
 > Zeitinvarianz $\impliedby \mathbf{A,B,C,D}$ $\neq f(t)$
 
-Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfachen sich die [Zustandsraum](Zustandsraum.md#^ZSGL) zu konstanten Koeffizientenmatrizen:
+Das mathematische Modell für die Zustandsgleichung und die algebraische Ausgangsgleichung bilden ein LTI-System, wenn sie folgende Form haben:
 
-> [!satz] **S1 - LTI)** LTI-System in der Zustandsraumdarstellung ^LTI
+> [!satz] **S1 - LTI)** Lineares zeitinvariantes Übertragungssystem in der Zustandsraumdarstellung ^LTI
+> 
 >  $$
 > \begin{align}
 > \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{B}\mathbf{u}(t), \quad \mathbf{x}(0) = \mathbf{x}_{0}\tag{Zustandsgl.}\\
 > \mathbf{y}(t) &= \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \tag{Ausgangsgl.}
 > \end{align}
 > $$
-
+> 
+> Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** ^ZSRM
+> $$
+> \begin{align}
+> &\mathbf{A} \text{ : Dynamikmatrix } (n\times n)
+> &&\mathbf{B} \text{ : Eingangsmatrix } (n \times p) \\
+> &\mathbf{C} \text{ : Ausgangsmatrix } (q\times n) && \mathbf{D} \text{ : Durchgangsmatrix } (q\times p)
+> \end{align}
+> $$
 
 Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsraum.md#Übertragungssystem), sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
 
@@ -45,7 +55,7 @@ Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übe
 
 ^LTI-TABLE
 
-## Lösung der Zustandsgleichungen
+## Lösung der Zustandsgleichung
 
 > [!hint] Bei der Zustandsgleichung handelt es sich um ist ein [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 

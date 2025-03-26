@@ -21,7 +21,7 @@ title: Lineare Systeme
 
 ---
 
-> [!def] **D1 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
+> [!satz] **S1 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
  >
 > $$
 > \begin{align}
@@ -39,6 +39,8 @@ title: Lineare Systeme
 > $$
 
 (Zur Erinnerung: Zeilen $\times$ Spalten)
+
+![](Zustandsraum.md#^ZSGR)
 
 Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben. Je nachdem ob die Gleichungen bestimmte Vorraussetzungen erfüllen nennt man das System auch ... 
 
