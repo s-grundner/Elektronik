@@ -22,4 +22,19 @@ title: Diskrete Lineare Systeme
 
 ---
 
-
+> [!def] **D1 - ZSGL)** Zustandsgleichung für Lineare Zeitdiskrete Übertragungssysteme
+> $$
+> \begin{align}
+> \mathbf{x}_{k+1} &= \mathbf{A}(k)\mathbf{x}_{k}+\mathbf{B}(k)\mathbf{u}_{k} \tag{Zustandsgl.} \\
+> \mathbf{y}_{k} &= \mathbf{C}(k) \mathbf{x}_{k}+\mathbf{D}(k)\mathbf{u}_{k} \tag{Ausgangsgl.}
+> \end{align}
+> $$
+>
+> Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** ^ZSRM
+> $$
+> \begin{align}
+> &\mathbf{A}(k) \text{ : Dynamikmatrix } (n\times n)
+> &&\mathbf{B}(k) \text{ : Eingangsmatrix } (n \times p) \\
+> &\mathbf{C}(k) \text{ : Ausgangsmatrix } (q\times n) && \mathbf{D}(k) \text{ : Durchgangsmatrix } (q\times p)
+> \end{align}
+> $$

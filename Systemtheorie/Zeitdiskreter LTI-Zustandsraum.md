@@ -20,3 +20,4 @@ title: Diskreter LTI-Zustandsraum
 
 ---
 
+> [!satz] **S1 - LTI)** 

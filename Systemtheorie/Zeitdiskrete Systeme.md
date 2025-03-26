@@ -33,7 +33,7 @@ $$
 $$
 ![](Zeitdiskreter%20Zustandsraum.md#^ZSGR)
 
-Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man die Systeme als...
+Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form, bezeichnet man die Systeme als...
 
 | **zeitinvariantes**, zeitdiskretes System                                                                                                                  | **freies** zeitdiskretes System                                                                                                 | **autonomes** zeitdiskretes System                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
