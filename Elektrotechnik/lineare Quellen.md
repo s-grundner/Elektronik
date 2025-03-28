@@ -50,7 +50,6 @@ $$
 \end{document}
 ```
 
-
 > [!important] Bei $R_{a}\to\infty$ ist $U_{a} = U_{L} = I_{K}\cdot R_{i}$ die Quellspannung des Thevenin ESB 
 
 ## Thevenin ESB: [Spannungsquelle](elektrische%20Spannung.md)
@@ -64,7 +63,6 @@ $$
 \end{circuitikz}
 \end{document}
 ```
-
 
 > [!important] Bei $R_{a} = 0$ ist der der [Strom](elektrischer%20Strom.md) $I_{K} = \frac{U_{L}}{R_{i}}$ der Quellstrom des Norton ESB
 
