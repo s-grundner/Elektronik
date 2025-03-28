@@ -78,6 +78,7 @@ Daraus lässt sich der Zusammenhang erkennen:
 $$
 \mathbf{\Phi}(t) = \mathbf{T\tilde{\Phi}}\mathbf{T}^{-1}
 $$
+
 ## Besondere Zustanstransformationen
 
 - [Jordannormalform](../Mathematik/Algebra/Jordannormalform.md)
