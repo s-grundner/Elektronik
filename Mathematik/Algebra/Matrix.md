@@ -18,28 +18,25 @@ cited:
 
 # Matrix
 
-> [!def] **D1 - MAAX)** Axiome für Matrizen  
-> Seien$A,A_{1}, A_{2}\in \mathbb{K}^{m\times n}$  
-> $B,B_{1}, B_{2}\in \mathbb{K}^{n\times p}$  
-> $C\in \mathbb{K}^{p\times q}$  
-> $\lambda \in \mathbb{K}$
+> [!def] **D1 - MAAX)** Axiome für Matrizen ^MAAX
+> Seien $\mathbf{A},\mathbf{A}_{1}, \mathbf{A}_{2}\in \mathbb{K}^{m\times n}$ und $\mathbf{B},\mathbf{B}_{1}, \mathbf{B}_{2}\in \mathbb{K}^{n\times p}$ und $\mathbf{C}\in \mathbb{K}^{p\times q}$ Matrizen und $\lambda \in \mathbb{K}$ ein Skalar.
 > 
 > (a) *Assoziativgesetze*: 
 > 
-> - $A \cdot(B \cdot C)=(A \cdot B) \cdot C$ 
-> - $\lambda(A \cdot B)=(\lambda A) \cdot B=A \cdot(\lambda B)$  
+> - $\mathbf{A} \cdot(\mathbf{B} \cdot \mathbf{C})=(\mathbf{A} \cdot \mathbf{B}) \cdot \mathbf{C}$ 
+> - $\lambda(\mathbf{A} \cdot \mathbf{B})=(\lambda \mathbf{A}) \cdot \mathbf{B}=\mathbf{A} \cdot(\lambda \mathbf{B})$  
 > 
 > (b) *Distributivgesetze*:
 > 
-> - $(A_1+A_2) \cdot B=A_1 \cdot B+A_2 \cdot B$ 
-> - $A \cdot(B_1+B_2)=A \cdot B_1+A \cdot B_2$  
+> - $(\mathbf{A}_1+\mathbf{A}_2) \cdot \mathbf{B}=\mathbf{A}_1 \cdot \mathbf{B}+\mathbf{A}_2 \cdot \mathbf{B}$ 
+> - $\mathbf{A} \cdot(\mathbf{B}_1+\mathbf{B}_2)=\mathbf{A} \cdot \mathbf{B}_1+\mathbf{A} \cdot \mathbf{B}_2$  
 > 
-> (c) *Neutrale Elemente*:
+> (c) *Neutrales Element*:
 >
-> - $I_m \cdot A=A \cdot I_n=A$
+> - $\mathbb{1}_m \cdot \mathbf{A}=\mathbf{A} \cdot \mathbb{1}_n=\mathbf{A}$
 
-> [!warning] Achtung: Auch für $m=n=p$ gilt i.a. nicht: $A B=B A$  
-> die Matrixmultiplikation ist also *nicht kommutativ*.
+> [!warning] Die Matrixmultilikation ist **nicht kommutativ**
+>  Auch für $m=n=p$ gilt i.a. nicht: $\mathbf{A} \mathbf{B}=\mathbf{B} \mathbf{A}$  
 
 
 > [!important] Eine Wichtige Kenngröße einer Matrix ist dessen [Determinante](Determinante.md)
