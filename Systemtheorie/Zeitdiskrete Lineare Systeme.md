@@ -22,7 +22,7 @@ title: Diskrete Lineare Systeme
 
 ---
 
-> [!def] **D1 - ZSGL)** Zustandsgleichung für Lineare Zeitdiskrete Übertragungssysteme
+> [!satz] **S1 - ZSGL)** Zustands- und Ausgangsgleichung für Lineare Zeitdiskrete Übertragungssysteme
 > $$
 > \begin{align}
 > \mathbf{x}_{k+1} &= \mathbf{A}(k)\mathbf{x}_{k}+\mathbf{B}(k)\mathbf{u}_{k} \tag{Zustandsgl.} \\
@@ -38,3 +38,7 @@ title: Diskrete Lineare Systeme
 > &\mathbf{C}(k) \text{ : Ausgangsmatrix } (q\times n) && \mathbf{D}(k) \text{ : Durchgangsmatrix } (q\times p)
 > \end{align}
 > $$
+
+(Zur Erinnerung: Zeilen $\times$ Spalten)
+
+![](Zeitdiskreter%20Zustandsraum.md#^ZSGR)

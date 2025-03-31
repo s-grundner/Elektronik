@@ -21,7 +21,7 @@ title: Lineare Systeme
 
 ---
 
-> [!satz] **S1 - ZSGL)** Zustands und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
+> [!satz] **S1 - ZSGL)** Zustands- und Ausgangsgleichungen für Lineare Übertragungssysteme ^ZSGL
  >
 > $$
 > \begin{align}

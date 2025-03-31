@@ -62,5 +62,19 @@ Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man das Syste
 > - Existenz einer Lösung nach [Picard-Lindelöf](../Mathematik/Analysis/Picard-Lindelöf.md)
 > - Stabilität einer Lösung nach [Ljapunov](../Mathematik/Analysis/Ljapunov.md)
 
+## Lineare Systeme
+
+> [!question] [Lineare Systeme](Lineare%20Systeme.md)
+
+Der Vorteil Linearer Systeme ist, dass sie in eine explizite Form gebracht werden können, für welche sich ggf. Lösungsansätze finden lassen. Diese Form heißt Zustandsraumdarstellung.
+
+Vergleich allgemeiner Systeme zu Linearen Systemen:
+
+|              | Zeitvariant                                                                                                                                                     | Zeitinvariant                                                                                                                                       |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nicht Linear | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(t,\mathbf{x},\mathbf{u})\\ \mathbf{y} &= \mathbf{g}(t,\mathbf{x},\mathbf{u})\end{align}$$                         | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(\mathbf{x},\mathbf{u})\\ \mathbf{y} &= \mathbf{g}(\mathbf{x},\mathbf{u})\end{align}$$                 |
+| Linear       | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{A}(t)\mathbf{x}+\mathbf{B}(t)\mathbf{u}\\ \mathbf{y} &= \mathbf{C}(t)\mathbf{x}+\mathbf{D}(t)\mathbf{u}\end{align}$$ | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{A}\mathbf{x}+\mathbf{B}\mathbf{u}\\ \mathbf{y} &= \mathbf{C}\mathbf{x}+\mathbf{D}\mathbf{u}\end{align}$$ |
+^System-Vergleich
+
 [^1]: Systeme mit finitem Zustand (auch konszentriert-parametrische Systeme) werden durch Gewöhnliche DGL beschrieben.
     Systeme mit infinitem Zustand (auch verteilt-parametrische Systeme) werden durch Partielle DGL beschrieben.
