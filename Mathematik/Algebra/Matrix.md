@@ -38,7 +38,7 @@ cited:
 > [!warning] Die Matrixmultilikation ist **nicht kommutativ**
 >  Auch für $m=n=p$ gilt i.a. nicht: $\mathbf{A} \mathbf{B}=\mathbf{B} \mathbf{A}$  
 
-
+![invert_dark](assets/Pasted%20image%2020250401160610.png)
 > [!important] Eine Wichtige Kenngröße einer Matrix ist dessen [Determinante](Determinante.md)
 
 ## Rang einer Matrix
