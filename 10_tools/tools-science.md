@@ -1,4 +1,13 @@
 ```button
+name Overleaf
+type link
+action https://de.overleaf.com/project
+class mybutton
+```
+
+^button-overleaf
+
+```button
 name Math Diagrams
 type link
 action https://www.mathcha.io/editor
@@ -15,15 +24,6 @@ class mybutton
 ```
 
 ^button-tikzmaker
-
-```button
-name Overleaf
-type link
-action https://de.overleaf.com/project
-class mybutton
-```
-
-^button-overleaf
 
 ```button
 name Wolfram Alpha
