@@ -60,10 +60,3 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 - Von den Ausgängen der *Integratoren* wird der nun Integrierte **Zustandsvektor** $\mathbf{x}(t)$ über die **Ausgangsmatrix** $\mathbf{C}$ auf den **Ausgangsvektor** $\mathbf{y}(t)$ abgebildet.
 - Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Durchgangsmatrix** $D$ direkt zum **Ausgangsvektor** $\mathbf{y}(t)$ übertragen. (Geht also an den Speichernden elementen des Systems vorbei)
 
----
-
-> [!quote] Diese Konzepte linearer Systeme lassen sich in gleicher Maßen auf [[]] anwenden
-
-
-
-![Zustandsgleichung](Zustandsraum.md#Zustandsgleichung)

@@ -63,8 +63,8 @@ Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe [FM-S1](Fund
 > 
 
 
-oder mit Hilfe des [Matrizanten](Fundamentalmatrix.md#^MATZ) $\mathbf{\Phi}$ durch
+oder mit Hilfe des [Matrizanten](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}$ durch
 
 $$
-x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right] .
+x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t  \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right] .
 $$

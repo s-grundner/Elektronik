@@ -55,7 +55,7 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 
 > [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
 > 
-> 1. $\dot{\mathbf{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})$ ... Das Fundamentalsystem löst das homogene AWP
+> 1. $\mathbf{\dot{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})$ ... Das Fundamentalsystem löst das homogene AWP
 > 2. $\mathbf{\Phi}(t_{0},t_{0}) = \mathbb{1}$ ... Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix
 > 
 > Ist das System auch zeitinvariant (konstanter Koeffizient), gilt zusätzlich
