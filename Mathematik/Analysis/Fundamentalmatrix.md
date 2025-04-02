@@ -43,12 +43,14 @@ Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de 
 
 ## Transitionsmatrix
 
+(Ältere bezeichnung *Matrizant* ist nicht mehr üblich)
+
 > [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
-> Gilt außerdem $X\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamntalmatrix**, bezeichnet mit $\mathbf{\Phi}$. Ältere bezeichnung *Matrizant* ist nicht mehr üblich
+> Gilt außerdem $\mathbf{X}\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamentalmatrix**, bezeichnet mit $\mathbf{\Phi}$. 
 > 
 >  $$\mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})$$
 
-Wenn man schreibt $\mathbf{\Phi}(t)$ dann hat man implizit angenommen den Anfangswert bereits eingesetzt zu haben. Bei LTI-Systemen wo $t_{0}=0$ ist ist dies of üblich
+Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfangswert bereits eingesetzt zu haben. Bei LTI-Systemen wo $t_{0}=0$ ist ist dies of üblich
 
 
 > [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
