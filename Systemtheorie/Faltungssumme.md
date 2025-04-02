@@ -25,11 +25,29 @@ title: Faltungssumme
 ## Faltungsmatrix
 
 
-Bekannt aus der Systemtheorie ist, dass das Ausgangssignal das Ergebnis der Faltung des Eingangs mit der Impulsantwort ist. 
+Bekannt aus der Systemtheorie ist, dass das Ausgangssignal das Ergebnis der Faltung des Eingangs mit der Impulsantwort ist. Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
 
-$$
-\mathbf{}
-$$
+> [!def] **D2 - FMTX)** Falungsmatrix $\mathbf{H} \in \mathbb{R}^{(N_{x}+N_{h}-1) \times (N_{x})}$
+> $$
+> \begin{gather}
+> \mathbf{y} = \mathbf{Hx},\quad \mathbf{H} = \begin{pmatrix}
+> h_{0} & 0 & \cdots & 0 \\
+> h_{1} & h_{0} & \ddots & \vdots \\
+> \vdots & h_{1} & \ddots & 0 \\
+> h_{N_{h}-1} & \vdots & \ddots & h_{0} \\
+> 0 & h_{N_{h}-1} &  & h_{1} \\
+> \vdots & \ddots & \ddots & \vdots \\
+> 0 & \cdots & 0 & h_{N_{h}-1}
+> \end{pmatrix} \Big\updownarrow N_{x}+N_{h-1} \\
+> \qquad \longleftrightarrow \\
+> \qquad N_{x}
+> \end{gather}
+> $$
+> 
+
+> [!hint] Matlab Befehl: `convmtx`
+
+### Hintergrund
 
 ```tikz
 \usepackage{tikz}
@@ -72,6 +90,18 @@ y[0] &= h_{0}x[0] \\
 y[1] &= h_{0}x[1] + h_{1}x[0] \\
 y[2] &= h_{0}x[2] + h_{1}x[1] + h_{2}x[0]\\
 &\ \ \vdots \\
-y[n] &= h_{0}x[0] \\
+y[n] &= h_{0}x[n] + h_{1}x[n-1] + \dots + h_{N_{h}-1}x[n-N_{h}+1] \\
+&\ \ \vdots \\
+y[N_{x}+N_{h}-2] &= h_{N_{h}-1}x[N_{x}-1]
 \end{align}
+$$
+
+Durch die Definition der Ein- und Ausgangsfolgen  als Vektoren $\mathbf{x}$ und $\mathbf{y}$, lässt sich das LGS in Matrix Schreibweise überführen.
+
+$$
+\mathbf{x} = \begin{pmatrix}
+x[0] \\ x[1] \\ \vdots \\ x[N_{x}-1]
+\end{pmatrix}, \quad \mathbf{y} = \begin{pmatrix}
+y[0] \\ y[1] \\ \vdots \\ y[N_{x}+H_{h}-2]
+\end{pmatrix}
 $$
