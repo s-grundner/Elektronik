@@ -14,6 +14,8 @@ title: Digitaler Filter
 
 # Digitale Filter
 
+Den Digitalen filtern liegt die Eigenschaft einer Fourier Transformation zu Grunde:
+
 $$
-\text{Faltung} \quad\circ\mkern-7px\rule[3px]{2em}{1pt}\mkern-7px\bullet
+\text{Faltung} \quad\circ\mkern-7px-\mkern-7px\bullet \quad \text{Multiplikation}
 $$

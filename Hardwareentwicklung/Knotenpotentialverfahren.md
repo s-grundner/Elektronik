@@ -56,10 +56,8 @@ Wichtige Schritte:
 \draw[\voltColor] (-1, 2) to[open, v=$u_{m0}$, color=\voltColor] (0,0);
 \draw[\voltColor] (1, 2) to[open, v^=$u_{n0}$, color=\voltColor] (0,0);
 \draw (2,1)
-    node[anchor=south west, \voltColor]
-        {Zweigspannung: $u_{mn}=u_{m0}-u_{n0}$}
-    node[anchor=north west, \ampColor]
-        {Zweigstrom: $i_{mn}=G\cdot u_{mn}=G\cdot(u_{m0}-u_{n0})$};
+node[anchor=south west, \voltColor] {Zweigspannung: $u_{mn}=u_{m0}-u_{n0}$}
+node[anchor=north west, \ampColor] {Zweigstrom: $i_{mn}=G\cdot u_{mn}=G\cdot(u_{m0}-u_{n0})$};
 \end{circuitikz}
 \end{document}
 ```

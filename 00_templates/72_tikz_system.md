@@ -13,14 +13,14 @@
 \node [block, right of=input] (h1) {$h_1[n]$};
 \node [block, right of=h1] (h2) {$h_2[n]$};
 \node [sum, right of=h2] (sum) {};
-\node at (sum) (plus) {{\footnotesize$+$}};
+\node at (sum) (plus) {\footnotesize$+$};
 \node [right = of sum] (output) {$y[n]$};
 
 \path (h1) -- coordinate (med) (h2);
 \path (input) -- coordinate(branch1) (h1);
 \node [block, below of=med] (h3) {$h_3[n]$};
 
-%Conecting Blocks
+%Connecting Blocks
 \begin{scope}[line width=1pt]
      \draw[->] (input) -- (h1);
      \draw[->] (h1) -- (h2);

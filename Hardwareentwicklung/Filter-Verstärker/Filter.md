@@ -32,5 +32,5 @@ Ein Filter ist ein [System](../../Systemtheorie/{MOC}%20Systemtheorie.md) das [S
 > - Filtercharakteristik (Verhalten der Schaltung)
 >     - Form der Übertragungsfunktion
 > - Topologie (Realisierung der Schaltung)
-> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [[Digitaler Filter]]
+> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](Digitaler%20Filter.md)
 > 
