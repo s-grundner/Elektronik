@@ -22,3 +22,9 @@ title: Faltungssumme
 > $$(y*x)[n] = \sum_{\nu=-\infty}^{\infty} x[\nu-n]y[n]$$
 
 ## Faltungsmatrix
+
+Bekannt aus der Systemtheorie ist, dass das Ausgangssignal das Ergebnis der Faltung des Eingagns mit der Impulsantwort ist. Der Eingang, Ausgang und die Impulsantowrt 
+
+$$
+y[n] = (h*n)[n] = \sum_{\nu=-\infty}^{\infty} h[\nu-n]x[n]
+$$
