@@ -40,8 +40,7 @@ $$
 \end{pmatrix}
 $$
 
-Dabei werden $\mathbf{J}$ als die **Jordanblöcke** bezeichnet. Diese Unterscheiden sich je nach Vielfachheit der Eigenwerte 
-von $\mathbf{A}$ und ob diese reell oder konjugiert komplex sind. Mit ihnen lassen sich zugehörige Teiltransitionsmatrizen einfach bestimmen.
+Dabei werden $\mathbf{J}$ als die **Jordanblöcke** bezeichnet. Diese Unterscheiden sich je nach Vielfachheit der Eigenwerte von $\mathbf{A}$ und ob diese reell oder konjugiert komplex sind. Mit ihnen lassen sich zugehörige Teiltransitionsmatrizen einfach bestimmen.
 
 > [!important] Hier sind Wichtigen Kenngrößen der Eigenwerte $\lambda$ von $\mathbf{A}$:
 > - $k_{\lambda}$ ... Algebraische Vielfachheit
@@ -55,6 +54,9 @@ von $\mathbf{A}$ und ob diese reell oder konjugiert komplex sind. Mit ihnen lass
 4. Mehrfache konjugiert komplexe Eigenwerte. (kompliziert)
 
 ## Fall 1: Eigenvektoren
+
+> [!tldr] Jordanblöcke haben die Form
+> $$\mathbf{J} = (\lambda)$$ 
 
 Die Hauptvektoren sind für den Allgemeinen Fall die Eigenvektoren. Kommen mehere Eigenvektoren vor $k_{\lambda}>1$ kann ebenfalls diese Vorhergehensweise gewählt werden, wenn für diesen Eigenwert trotzdem genügend Eigenvektoren hervorgehen *(es gibt $\dim\mathbf{A}$ Eigenvektoren)*
 
@@ -95,6 +97,9 @@ e^{ \lambda_{1}t } & 0 & \cdots & 0 \\
 $$
 
 ## Fall 2: Nebeneigenvektoren
+
+> [!tldr] Jordanblöcke haben die Form
+> 
 
 Fall 1 gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen.
 
