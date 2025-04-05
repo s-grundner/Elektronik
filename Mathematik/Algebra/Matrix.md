@@ -76,6 +76,7 @@ Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix
 - [[Rotationsmatrix]] 
 - [[Dreiecksmatrix]] 
 - [[Diagonalmatrix]]
+- [Nilpotente Matrix](Nilpotente%20Matrix.md)
 
 # Tags
 
