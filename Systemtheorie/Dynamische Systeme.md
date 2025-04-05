@@ -74,6 +74,7 @@ Vergleich allgemeiner Systeme zu Linearen Systemen:
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Nicht Linear | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(t,\mathbf{x},\mathbf{u})\\ \mathbf{y} &= \mathbf{g}(t,\mathbf{x},\mathbf{u})\end{align}$$                         | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{f}(\mathbf{x},\mathbf{u})\\ \mathbf{y} &= \mathbf{g}(\mathbf{x},\mathbf{u})\end{align}$$                 |
 | Linear       | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{A}(t)\mathbf{x}+\mathbf{B}(t)\mathbf{u}\\ \mathbf{y} &= \mathbf{C}(t)\mathbf{x}+\mathbf{D}(t)\mathbf{u}\end{align}$$ | $$\begin{align}\mathbf{\dot{x}} &= \mathbf{A}\mathbf{x}+\mathbf{B}\mathbf{u}\\ \mathbf{y} &= \mathbf{C}\mathbf{x}+\mathbf{D}\mathbf{u}\end{align}$$ |
+
 ^System-Vergleich
 
 [^1]: Systeme mit finitem Zustand (auch konszentriert-parametrische Systeme) werden durch Gewöhnliche DGL beschrieben.
