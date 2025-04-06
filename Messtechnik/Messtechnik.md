@@ -21,6 +21,7 @@ draft: true
 title: Messtechnik
 ---
  
+
 # Messtechnik
 
 Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgröße für uns wahrnehmbar zu machen. Dabei gilt es festzustellen, wie vertrauenswürdig dieses Medium zur Erfassung der Größe ist -> **Messunsicherheit**. 
@@ -36,9 +37,7 @@ $$
 \text{Physikalische Größe} = \text{Zahlenwert } \cdot \text{ Einheit } + \text{Unsicherheit}
 $$
 
-
 ## Begriffe der Messtechnik
-
 
 > [!info] Begriffe nach DIN 1319
 > - **Messprinzip** heißt charakteristische physikalische Erscheinung die bei der Messung benutzt wird. 
