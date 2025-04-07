@@ -99,3 +99,8 @@ i(t) &= C \frac{du(t)}{dt}\\
 u(t) &= \frac{1}{C} \int i(t) \, dt
 \end{align}
 $$
+
+
+# Quellen
+
+http://www.gdanielak.de/Tutorium/ET_I/5_Zeigerbilder/Zeigerdiagramme.pdf
