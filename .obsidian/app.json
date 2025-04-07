@@ -45,6 +45,6 @@
   "propertiesInDocument": "visible",
   "defaultViewMode": "preview",
   "foldHeading": true,
-  "useTab": false,
+  "useTab": true,
   "foldIndent": false
 }
