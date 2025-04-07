@@ -55,7 +55,7 @@ $$
 
 ## Beweis der Quotientenregel
 
-Nach [Differenzialrechnung](Analysis/Differenzialrechnung.md) ist $g$ in $x_0$ stetig, also gilt wegen $g\left(x_0\right) \neq 0$ und der Offenheit von $A$ :
+Nach [DQST](Analysis/Differenzialrechnung.md#^DQST) ist $g$ in $x_0$ stetig, also gilt wegen $g\left(x_0\right) \neq 0$ und der Offenheit von $A$ :
 
 $$
 \exists \varepsilon>0:\left(U_{\varepsilon}\left(x_0\right) \subset A \wedge \forall x \in U_{\varepsilon}\left(x_0\right): g(x) \neq 0\right)

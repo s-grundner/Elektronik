@@ -2,10 +2,7 @@
 tags: 
 aliases:
   - totale Differenzierbarkeit
-  - Satz 11.10
-  - Bemerkung 11.9
-  - Satz 11.8
-keywords: []
+keywords: 
 subject:
   - VL
   - Mathematik 2
@@ -21,7 +18,7 @@ professor:
 > [!info] Die **Fréchet-Ableitung** verallgemeinert den Begriff der [Ableitung](Differenzialrechnung.md)
 
 
-> [!important] Sei $A \subset \mathbb{R}^n$ offen, $f: A \rightarrow \mathbb{R}^m$ und $x_0 \in A$.
+> [!def] **D1 - FRCH)** Sei $A \subset \mathbb{R}^n$ offen, $f: A \rightarrow \mathbb{R}^m$ und $x_0 \in A$. ^FRCH
 > $f$ heißt Fréchet-differenzierbar, [Total Differenzierbar](Total%20Differenzierbar.md) (oder kurz: differenzierbar) in $x_{0}$ wenn: 
 > > [!tldr]- $\exists L \in L\left(\mathbb{R}^n, \mathbb{R}^m\right) \exists r: \mathbb{R}^n \rightarrow \mathbb{R}^m$
 > > eine [[../Algebra/Lineare Abbildungen|Lineare Abbildung]] $L$ aus der Menge der Linearen Abbildungen von $\mathbb{R}^n$ nach $\mathbb{R}^m$ existiert, sowohl ein *Rest* $r(h)$ existiert, der von $\mathbb{R}^n$ nach $\mathbb{R}^m$ abbildet.
@@ -35,7 +32,7 @@ professor:
 > Für $n=m=1$ ist die $1 \times 1$-[Matrix](../Algebra/Matrix.md) $L$ gleich $f^{\prime}\left(x_0\right)$ aus Definition 11.1. Für $n=1$ kann auch $f: I \rightarrow \mathbb{R}^m$ mit $I$ Intervall behandelt werden.
 
 
-> [!satz] **Satz 11.10.** Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ in $x_0$ stetig differenzierbar. Dann ist $f$ in $x_0$ Fréchet-differenzierbar.
+> [!satz] **S1)** Sei $A \subset \mathbb{R}^n$ offen, $x_0 \in A$ und $f: A \rightarrow \mathbb{R}^m$ in $x_0$ stetig differenzierbar. Dann ist $f$ in $x_0$ Fréchet-differenzierbar. ^S1
 > 
 > Es gilt also:
 > $f \in C^1\left(A, \mathbb{R}^m\right) \Longrightarrow f$ Fréchet-differenzierbar $\Longrightarrow$ alle partiellen Ableitungen von $f$ existieren;
@@ -48,7 +45,7 @@ professor:
 
 Wir untersuchen den Zusammenhang zwischen [partieller](Partielle%20Ableitung.md) und Fréchet-Differenzierbarkeit:
 
-> [!satz] **Satz 11.8.** Sei $A \subset \mathbb{R}^n$ offen, $x \in A$ und $f: A \rightarrow \mathbb{R}^m$ sei in $x$ Fréchet-differenzierbar mit Fréchet-Ableitung $f^{\prime}(x)-\left(f^{\prime}(x)_{i j}\right) \in L\left(\mathbb{R}^n, \mathbb{R}^m\right)$. Dann gilt:
+> [!satz] **S2)** Sei $A \subset \mathbb{R}^n$ offen, $x \in A$ und $f: A \rightarrow \mathbb{R}^m$ sei in $x$ Fréchet-differenzierbar mit Fréchet-Ableitung $f^{\prime}(x)-\left(f^{\prime}(x)_{i j}\right) \in L\left(\mathbb{R}^n, \mathbb{R}^m\right)$. Dann gilt: ^S2
 > 
 > $$
 > \forall 1 \leq i \leq m, 1 \leq j \leq n: \frac{\partial f_i}{\partial x_j}(x) \text { existiert und } \frac{\partial f_i}{\partial x_j}(x)=f^{\prime}(x)_{i j}
@@ -56,7 +53,7 @@ Wir untersuchen den Zusammenhang zwischen [partieller](Partielle%20Ableitung.md)
 
 Nach diesem Satz lässt sich die Fréchet-Ableitung durch die [Jacobi-Matrix](Vektoranalysis/Gradient.md) ausdrücken.
 
-> [!success]- Beweis von Satz 11.8
+> [!success]- Beweis von S2
 > 
 > Für alle $h \in \mathbb{R}^n$ mit $x+h \in A$ gilt:
 > 
@@ -86,9 +83,8 @@ Nach diesem Satz lässt sich die Fréchet-Ableitung durch die [Jacobi-Matrix](Ve
 > $$
 > 
 
-### Bemerkung
 
-> [!important] **Bemerkung 11.9** Die Umkehrung von obigem Satz ist allerdings i.A. falsch: Sei etwa
+> [!important] **Bemerkung** Die Umkehrung von obigem Satz ist allerdings i.A. falsch: Sei etwa
 > 
 > $$
 > \begin{aligned}
