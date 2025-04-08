@@ -5,8 +5,9 @@ aliases:
   - Antikausal
 keywords: 
 subject:
-  - Signale und Systeme
   - VL
+  - Signale und Systeme
+  - Signalverarbeitung
 semester: WS24
 created: 4. Februar 2025
 professor:
@@ -20,22 +21,24 @@ professor:
 
 ---
 
+Äquivalente Definition für den kontinuierlichen und den zeitdiskreten Fall.
 
-> [!def] **D1 - KAUS)** Kausalität
-> **(a)** Ein [Signal](Signale.md) :LiAudioWaveform: $x(t)$ oder :LiBarChart2: $x[n]$ heißt kausal, wenn
-> - :LiAudioWaveform: $x(t) = 0$ für $t < 0$
-> $$\underset{ \text{Zeitkont.} }{  }\qquad  \underset{ \text{Zeitdiskret} }{ x[n] = 0 \text{ für } n < 0 } $$
-> **(b)** Ein [System]({MOC}%20Systemtheorie.md) heißt kausal, wenn
+> [!def] **D1 - KAUS)** Kausalität von Signale und Systemen ^KAUS
+> **(a)** Ein [Signal](Signale.md) $x$ heißt kausal, wenn
+> - :LiAudioWaveform:) $x(t) = 0$ für $t < 0$
+> - :LiBarChart2:) $x[n] = 0$ für $n < 0$
 > 
+> **(b)** Ein [System]({MOC}%20Systemtheorie.md) $\mathcal{T}$ heißt kausal, wenn
+> - :LiAudioWaveform: | :LiBarChart2:) zu jedem kausalen Eingangssignal $x$ ein kausales Ausgangssignal $y$ gehört.
 
-Hängt das Ausgangssignal zu einem bestimmten Zeitpunkt $t_0$ nur von dem Verlauf des Eingangssignals bis einschließlich zu diesem Zeitpunkt ab (vergangene Werte bis inklusive aktuellem Wert), so bezeichnet man das System als kausal 
+Ein kausales System reagiert also keines falls vor einer Aktion am Eingang. Es ist nur eine instantane oder verzögerte Antwort möglich.
  
 > [!satz] **S1)** Die Impulsantwort $h(t)$ eines kausalen Systems ist kausal, d.h.
 > $$h(t)=0 \quad \forall \quad t<0$$
 
 ## Antikausal
 
-Ein Antikausales Signal ist nu für alle Zeiten vor $t_{0}$
+Ein Antikausales Signal ist nur für alle Zeiten  $t < 0$ definiert bzw. verschieden von $0$
 
 ---
 
