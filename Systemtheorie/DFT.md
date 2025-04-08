@@ -66,7 +66,7 @@ Daraus folgt das Transformationspaar der **Diskreten Fourier Transformation**
 Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine Näherung für das Fourierintegral $F_{a}(j\omega)$ mit den Folgenden Fehlerquellen:
 
 - **Verletzung des Abtasttheorems:** Die (zu langsame) Abtastung von garnicht oder unzureichend Bandbegrenzter Signale führt zu einer Überlappung der Periodischen Spektren (**Aliasing**)
-- Fensterung auf $NT$ bringt spektraöe Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im
+- Fensterung auf $NT$ bringt spektrale Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im Zeitbereich
 
 ---
 # ALT und möglicherweise falsch
@@ -89,9 +89,7 @@ Werden der Einfachheit halber wieder einige Faktoren ($\frac{f_{s}}{N}, T$) und 
 
 > [!hint] Analysegleichung
 >
-> $$
-> X[k] = \sum^{N-1}_{n=0} x[n]\cdot e^{-jkn \frac{2\pi}{N}}
-> $$
+> $$ X[k] = \sum^{N-1}_{n=0} x[n]\cdot e^{-jkn \frac{2\pi}{N}} $$
 
 Die [inverse](Gauß-Jordan-Verfahren.md) DFT (IDFT) (Synthesegleichung) ist definiert als:
 
