@@ -16,13 +16,13 @@ draft: false
 In lokaler config datei bearbeiten. Wird beim pacman upgrade autmoatisch übernommen
 
 ```sh
-nvim ~/.config/kwin/thumbnailgrid.qml
+nvim ~/.config/kwin/thumbnailgrid-main.qml
 ```
 
 Wenn änderungen gleich übernommen werden sollen, hook cmd manuell ausführen:
 
 ```sh
-cp  
+cp /home/simon/.config/kwin/thumbnailgrid-main.qml /usr/share/kwin/tabbox/thumbnail_grid/contents/ui/main.qml
 ```
 
 ### Close on Hotkey
@@ -79,6 +79,6 @@ Target = kwin
 [Action]
 Description = Wiederherstellen modifizierter KWin QML-Dateien...
 When = PostTransaction
-Exec = /bin/bash -c 'cp ~/.config/kwin/thumbnailgrid_close.qml /usr/share/kwin/tabbox/thumbnail_grid/contents/ui/main.qml'
+Exec = /bin/bash -c 'cp ~/.config/kwin/thumbnailgrid-main.qml /usr/share/kwin/tabbox/thumbnail_grid/contents/ui/main.qml'
 ```
 
