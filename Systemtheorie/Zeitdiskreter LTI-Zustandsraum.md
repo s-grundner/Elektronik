@@ -16,11 +16,11 @@ title: Diskreter LTI-Zustandsraum
 
 > [!question] :LiArrowBigLeftDash: [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md) |📍
 
-[Kontinuierlicher LTI-Zustandsraum](Kontinuierlicher%20LTI-Zustandsraum.md) ***:LiArrowBigRightDash:***
+[Kontinuierlicher LTI-Zustandsraum](Kontinuierlicher%20LTI-Zustandsraum.md) ***:LiRefreshCcw:***
 
 ---
 
-> [!satz] **S1 - LTI)** Zeitdiskretes LTI-Übertragungssystem lässt sich in die Form ^LTI
+> [!satz] **S1 - LTI)** Zeitdiskretes LTI-Übertragungssystem lässt sich in die Form ^ZSRM
 > 
 >  $$
 > \begin{align}
@@ -29,7 +29,7 @@ title: Diskreter LTI-Zustandsraum
 > \end{align}
 > $$
 > 
-> überführen. Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** ^ZSRM
+> überführen. Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** 
 > $$
 > \begin{align}
 > &\mathbf{A} \text{ : Dynamikmatrix } (n\times n)

@@ -37,7 +37,7 @@ Das mathematische Modell für die Zustandsgleichung und die algebraische Ausgang
 > \end{align}
 > $$
 > 
-> Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** ^ZSRM
+> Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** 
 > $$
 > \begin{align}
 > &\mathbf{A} \text{ : Dynamikmatrix } (n\times n)
