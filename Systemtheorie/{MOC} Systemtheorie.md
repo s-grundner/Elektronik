@@ -22,6 +22,8 @@ title: Systemtheorie
 > [!def] **D1 - SYST)** Eingrößen-System ^SYST
 > $$y(t)=\mathcal{T}\{x\}(t)$$
 
+
+
 ## 🗺️ Dynamische Systeme
 
 Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische Verhalten des Zustands eines Systems berücksichtigt.

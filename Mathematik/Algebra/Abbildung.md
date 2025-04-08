@@ -12,9 +12,8 @@ semester: WS23
 created: 7. November 2023
 professor:
 ---
-    
 
-# Abbildungen
+# Abbildungen / Mathematische Funktionen
 
 Eine Abbildung $f$ von einer Menge $A$ in eine Menge $B$
 

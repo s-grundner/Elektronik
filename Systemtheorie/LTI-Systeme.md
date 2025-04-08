@@ -31,19 +31,22 @@ Zur Grundlage werden zunächst eindimensionale- bzw. Eingrößen-Systeme betrach
 
 ## Linearität
 
-> [!def] **D1 - LIN)** Linearität eines Systems
-> 
-> Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn die Linearkombination der Eingänge gleich derselben Linearkombination der Ausgänge ist ([LINK](../Mathematik/Algebra/Linearkombination.md#^LINK))
-> $$ \text{LKE} \iff \text{LKA} $$
-> LKE: $x(t)=a x_1(t)+b x_2(t)$
-> LKA: $\mathcal{T}\{x\}(t)=a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t)$
->
+![Lineare Abbildungen](../Mathematik/Algebra/Lineare%20Abbildungen.md#^LINA)
+
+Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn die Linearkombination der Eingänge gleich derselben Linearkombination der Ausgänge ist.
+$$ \text{LKE} \iff \text{LKA} $$
+LKE: $x(t)=a x_1(t)+b x_2(t)$
+LKA: $\mathcal{T}\{x\}(t)=\mathcal{T}\{a x_1+b x_2\}(t) = a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t)$
+
+
+LKE / LKA ... Linearkombination des Ein- / Ausgangs
+
+$\implies \mathcal{T}$ ist eine [lineare Abbildung](../Mathematik/Algebra/Lineare%20Abbildungen.md), welche Additivität und Homogenität erfüllt.
 
 ![invert_dark](assets/LinSys.png)
 
 > [!warning] **Zero In Zero-Out** Eigenschaft
-> Ein System ist nur dann echt Linear, wenn 0 am Eingang 0 am Ausgang leifert
-> - ZIZO ist eine Notwendige Bedingung
+> Ein System ist nur dann echt Linear, wenn 0 am Eingang 0 am Ausgang leifert. ZIZO ist eine *notwendige* Bedingung
 
 ## Zeitinvarianz
 

@@ -30,7 +30,7 @@ professor:
 4. Gerade / Ungerade Signale
 5. Zeitliche Ausdehnung
 6. [Kausalität](Kausalität.md)
-7. Stabilität/Beschränktheit
+7. [Stabilität und Beschränktheit](Stabilität%20und%20Beschränktheit.md)
 8. Periodizität
 9. Deterministische und Stochastische Signale
 10. [Leistungssignal](Leistungssignal.md) / [Energiesignal](Energiesignal.md)
@@ -228,8 +228,4 @@ $$
 
 
 
-## 7. Stabilität und Beschränktheit
-
-Ein System heißt BIBO Stabil wenn jedes Beschränkte Eingangssignal zu einem beschränkten Ausgangssignal führt.
-
-BIBO: Bounded Input / Bounded Output
+[Stabilität und Beschränktheit](Stabilität%20und%20Beschränktheit.md)

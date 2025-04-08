@@ -38,7 +38,6 @@ FIR: Finite Imulse Response
 - Nur Digital Möglich
 - Immer BIBO Stabil
 
-
 ### Rekursive Systeme
 
 Rekursive Systeme: Für die [Differenzengleichung](../Mathematik/Analysis/Differenzengleichung.md#^DZGL) des System gilt $a_{i}\neq 0 \quad\forall i$
@@ -57,3 +56,12 @@ M, N Auch bei Filter ist die Ordnung (bereich 2 ... 8)
 # Beispiele für ZD-LTI-Systeme
 
 
+> [!example] Ideale Verzögerung
+> *Ausgangssignal:* $y[n] = x[n-n_{d}]$ mit $-\infty< n <\infty, n_{d} \in \mathbb{N}$
+> *Impulsantwort:* $h[n] = \delta[n-n_{d}]$
+> Durch Betrachtung von $h[n]$ folgt unmittelbar, dass es sich um ein kausales, BIBO stabiles LTI-System handelt.
+
+> [!example] Summierer, Akkumulator oder diskreter Integrator
+> *Ausgangssignal:*
+> *Impulsantwort:*
+> Durch Betrachtung von $h[n]$ folgt unmittelbar

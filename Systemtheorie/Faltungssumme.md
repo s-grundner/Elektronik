@@ -1,6 +1,7 @@
 ---
 tags:
   - tikz
+  - flashcards/SUS1
 aliases:
   - Faltungsmatrix
 keywords: 
@@ -112,3 +113,12 @@ $$
 ---
 
 [INTERNAL - SigV UE01](xEDU/B4_SS25/Signalverarbeitung/UE/UE01.md)
+
+---
+
+# Flashcards
+
+> [!question] Geben Sie die Faltungssumme für die Faltung der beiden Folgen $x[n]$ und $h[n]$ 
+?
+> > [!success]- Lösung
+> > $$y[n] = (h*x)[n] = \sum_{\nu = -\infty}^{\infty} h[\nu]x[n-\nu]$$
