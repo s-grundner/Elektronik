@@ -15,8 +15,14 @@ draft: false
 
 In lokaler config datei bearbeiten. Wird beim pacman upgrade autmoatisch übernommen
 
-```bash
+```sh
 nvim ~/.config/kwin/thumbnailgrid.qml
+```
+
+Wenn änderungen gleich übernommen werden sollen, hook cmd manuell ausführen:
+
+```sh
+cp  
 ```
 
 ### Close on Hotkey
