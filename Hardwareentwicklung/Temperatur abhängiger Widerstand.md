@@ -14,7 +14,13 @@ professor:
 ---
  
 
-# [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) Abhängiger Widerstand
+# Temperatur Abhängiger Widerstand
+
+Abhängigkeit eines Widerstands Zur Temparatur je nach Material wird durch eine Taylorreihe approximiert. Je nach Anwendung ist der Grad 1-3 Ausreichend.
+
+$$
+R_{\vartheta} = R_{0} (1 + \alpha (\vartheta - \vartheta_{0}) + \beta (\vartheta - \vartheta_{0})^{2} + \gamma(\vartheta - \vartheta_{0})^{3})
+$$
 
 ## NTC - Heißleiter
 
