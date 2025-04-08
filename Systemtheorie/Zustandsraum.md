@@ -37,20 +37,19 @@ Der Zustand des Systems beschreibt die internen Größen des dynamischen Systems
 
 ---
 
-> [!question] Wie lässt sich der Zustand ermitteln?
-> Für jeden Zeitpunkt $t_0$ reicht
-> - die Kenntnis des Zustandes **zu diesem Zeitpunkt** $t_0$
-> - zusammen mit der Kenntnis **der Erregung** (des Eingangs) für *alle Zeiten* $t \geq t_0$ aus,
-> 
-> um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen. Alle anderen Kenngrößen sind bekannt bzw festgelegt.
-> 
+## Begriffserklärung
+
+Für jeden Zeitpunkt $t_0$ reicht
+- die Kenntnis des Zustandes **zu diesem Zeitpunkt** $t_0$
+- zusammen mit der Kenntnis **der Erregung** (des Eingangs) für *alle Zeiten* $t \geq t_0$ aus,
+
+um die Antwort des Systems für alle Zeiten $t \geq t_0$ zu bestimmen. Alle anderen Kenngrößen sind bekannt bzw festgelegt.
 
 - Es spielt dabei **keine Rolle**, wie der Zustand in der **Vergangenheit** (zu Zeiten $t<t_0$ ) entstanden ist
 - In der Regel wird der Zustand eines Systems durch mehrere Größen beschrieben
 - Häufig werden Systeme mit mehreren Eingängen und mehreren Ausgängen betrachtet (MIMO - multiple inputs, multiple outputs))
 
 Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von ein und Ausgängen zu erweitern (MIMO)
-
 
 ## Zustandsgrößen
 
@@ -83,18 +82,15 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von 
 > $$
 > 
 
-- Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von **Zustandsvariablen**
+Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von **Zustandsvariablen**. Wir überlegen uns ein mathematisches Modell, um den Zustand eines Systems zu Beschrieben. Dazu werden folgebde Annahmen aufgestellt:
 
-> [!info] Annahme: Es gibt $p$ **Eingangsgrößen** $u_1, u_2, \ldots, u_p$
-> Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ **Eingangsgrößen** und allen **Zustandsgrößen** $x_1, x_2, \ldots, x_n$ abhängen
-> 
-> - $\rightarrow$ **Zustandsgleichung:** $\mathbf{\dot{x}}=\mathbf{f}(t,\mathbf{x},\mathbf{u})$
+| Es gibt $p$ **Eingangsgrößen** $u_1, u_2, \ldots, u_p$                                                                                                                           | Es gibt $q$ **Ausgangsgrößen** $y_1, y_2, \ldots, y_q$                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ *Eingangsgrößen* und allen *Zustandsgrößen* $x_1, x_2, \ldots, x_n$ abhängen | Ausgangsgrößen lassen sich als Funktion der *Zustandsgrößen* und der *Eingangsgrößen* darstellen. |
+| $\rightarrow$ **Zustandsgleichung:** $\mathbf{\dot{x}}=\mathbf{f}(t,\mathbf{x},\mathbf{u})$                                                                                      | $\to$ **Ausgangsgeichung:** $\mathbf{y}=\mathbf{g}(t,\mathbf{x}, \mathbf{u})$                     |
 
-Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
-> [!info] Annahme: Es gibt $q$ **Ausgangsgrößen** $y_1, y_2, \ldots, y_q$
-> Ausgangsgrößen lassen sich als Funktion der **Zustandsgrößen** und der **Eingangsgrößen** darstellen.
-> - $\to$ **Ausgangsgeichung:** $\mathbf{y}=\mathbf{g}(t,\mathbf{x}, \mathbf{u})$ 
+> [!quote] Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
 
@@ -109,6 +105,8 @@ Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:
 > 
 
 Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, des **Zustandsraumes**
+
+---
 
 # Beispiel
 
@@ -155,4 +153,4 @@ Mit jedem **zusätzlichen Energie-Speicher** steigt die Ordnung der DGL die das 
 
 ---
 
-Unecpected Zustandsraum: [3b1b: 9:00 "State Space"](https://youtu.be/6dTyOl1fmDo?si=l6_opNoznnERKKUX)
+Unexpected Zustandsraum: [3b1b: 9:00 "State Space"](https://youtu.be/6dTyOl1fmDo?si=l6_opNoznnERKKUX)

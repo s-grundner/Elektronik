@@ -24,29 +24,20 @@ professor:
 
 ---
 
-![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
+Zur Grundlage werden zunächst eindimensionale- bzw. Eingrößen-Systeme betrachtet:
 
+![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
 
 
 ## Linearität
 
-> [!important] Linearität
+> [!def] **D1 - LIN)** Linearität eines Systems
 > 
-> Ein system ist linear wenn die Linearkombination der Eingänge gleich der Linearkombination der Ausgänge ist 
-> 
-> Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn
-> 
-> $$
-> \begin{aligned}
-> & \mathcal{T}\{x\}(t)=a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t) \quad \text { für alle } x_1(t), x_2(t), a, b \\
-> & \operatorname{mit} x(t)=a x_1(t)+b x_2(t)
-> \end{aligned}
-> $$
-> 
-> wenn also $y(t)=a y_1(t)+b y_2(t)$
-> 
-
-> $$y(t) = \mathcal{T}\{x\}(t)$$
+> Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn die Linearkombination der Eingänge gleich derselben Linearkombination der Ausgänge ist ([LINK](../Mathematik/Algebra/Linearkombination.md#^LINK))
+> $$ \text{LKE} \iff \text{LKA} $$
+> LKE: $x(t)=a x_1(t)+b x_2(t)$
+> LKA: $\mathcal{T}\{x\}(t)=a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t)$
+>
 
 ![invert_dark](assets/LinSys.png)
 
@@ -67,7 +58,7 @@ professor:
 
 ZVA / ZVE ... Zeitverschiebung am Ein- / Ausgang
 
-![](assets/Pasted%20image%2020241120155809.png)
+![invert_dark](assets/Pasted%20image%2020241120155809.png)
 
 ## Systemantwort
 

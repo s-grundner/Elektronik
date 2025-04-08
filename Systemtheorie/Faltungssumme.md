@@ -1,7 +1,8 @@
 ---
 tags:
   - tikz
-aliases: 
+aliases:
+  - Faltungsmatrix
 keywords: 
 subject:
   - VL
@@ -24,30 +25,7 @@ title: Faltungssumme
 
 ## Faltungsmatrix
 
-
-Bekannt aus der Systemtheorie ist, dass das Ausgangssignal das Ergebnis der Faltung des Eingangs mit der Impulsantwort ist. Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
-
-> [!def] **D2 - FMTX)** Falungsmatrix $\mathbf{H} \in \mathbb{R}^{(N_{x}+N_{h}-1) \times (N_{x})}$
-> $$
-> \begin{gather}
-> \mathbf{y} = \mathbf{Hx},\quad \mathbf{H} = \begin{pmatrix}
-> h_{0} & 0 & \cdots & 0 \\
-> h_{1} & h_{0} & \ddots & \vdots \\
-> \vdots & h_{1} & \ddots & 0 \\
-> h_{N_{h}-1} & \vdots & \ddots & h_{0} \\
-> 0 & h_{N_{h}-1} &  & h_{1} \\
-> \vdots & \ddots & \ddots & \vdots \\
-> 0 & \cdots & 0 & h_{N_{h}-1}
-> \end{pmatrix} \Big\updownarrow N_{x}+N_{h-1} \\
-> \qquad \longleftrightarrow \\
-> \qquad N_{x}
-> \end{gather}
-> $$
-> 
-
-> [!hint] Matlab Befehl: `convmtx`
-
-### Hintergrund
+Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md) ist, dass das Ausgangssignal $y$ das Ergebnis der Faltung des Eingangs $x$ mit der Impulsantwort $h$ ist. Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
 
 ```tikz
 \usepackage{tikz}
@@ -80,6 +58,28 @@ y[n] &= (h*n)[n] = \sum_{\nu=0}^{N_{h}-1} h[\nu-n]x[n] \\
 \end{align}
 $$
 
+> [!def] **D2 - FMTX)** Falungsmatrix $\mathbf{H} \in \mathbb{R}^{(N_{x}+N_{h}-1) \times (N_{x})}$
+> $$
+> \begin{gather}
+> \mathbf{y} = \mathbf{Hx},\quad \mathbf{H} = \begin{pmatrix}
+> h_{0} & 0 & \cdots & 0 \\
+> h_{1} & h_{0} & \ddots & \vdots \\
+> \vdots & h_{1} & \ddots & 0 \\
+> h_{N_{h}-1} & \vdots & \ddots & h_{0} \\
+> 0 & h_{N_{h}-1} &  & h_{1} \\
+> \vdots & \ddots & \ddots & \vdots \\
+> 0 & \cdots & 0 & h_{N_{h}-1}
+> \end{pmatrix} \Big\updownarrow N_{x}+N_{h-1} \\
+> \qquad \longleftrightarrow \\
+> \qquad N_{x}
+> \end{gather}
+> $$
+> 
+
+> [!hint] Matlab Befehl: `convmtx`
+
+### Hintergrund
+
 Liegt ein Eingangssignal $x[n]$ von endlicher Länge $N_{x}$ vor, dann ist die Länge des Ausgangssignals $y[n]$ gleich $N_{x}+N_{h}-1$.
 
 Setzt man auch für $n$ ein, erhält man eine Lineares Gleichungssystem. Die Werte $x[n]$ für $n \notin \{0,1,\dots,N_{x}-1\}$ sind dabei $0$ zu setzen.
@@ -96,6 +96,9 @@ y[N_{x}+N_{h}-2] &= h_{N_{h}-1}x[N_{x}-1]
 \end{align}
 $$
 
+> [!hint] **Denkhilfe:** Die indizes jedes Terms ergeben in jedem Schritt immer $n$
+> $$\text{z.B.:}\quad\underbrace{ y[2] }_{ n=2 } = \underbrace{ h_{0}x[2] }_{ 0+2=2 } + \underbrace{ h_{1}x[1] }_{ 1+1=2 } + \underbrace{ h_{2}x[0] }_{ 2+0=2 } $$
+
 Durch die Definition der Ein- und Ausgangsfolgen  als Vektoren $\mathbf{x}$ und $\mathbf{y}$, lässt sich das LGS in Matrix Schreibweise überführen.
 
 $$
@@ -105,3 +108,7 @@ x[0] \\ x[1] \\ \vdots \\ x[N_{x}-1]
 y[0] \\ y[1] \\ \vdots \\ y[N_{x}+H_{h}-2]
 \end{pmatrix}
 $$
+
+---
+
+[INTERNAL - SigV UE01](xEDU/B4_SS25/Signalverarbeitung/UE/UE01.md)

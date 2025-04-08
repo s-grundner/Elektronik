@@ -23,7 +23,7 @@ professor:
 
 > [!def] **D1 - LINA)** Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). Eine [Abbildung](Abbildung.md) $L: X \rightarrow Y$ heißt linear
 > 
-> wenn sie **(a)** *Additivität* und **(b)** *Homogenität* erfüllen.
+> wenn sie **(D2)** *Additivität* und **(D3)** *Homogenität* erfüllen.
 > 
 > 1. Bei linearen Abbildungen schreibt man statt $L(x)$ meist $L x$.
 > 2. Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
@@ -32,10 +32,10 @@ professor:
 > 2. Die Menge aller linearen [Abbildungen](Abbildung.md) von $X$ nach $Y$ bezeichnen wir mit $L(X, Y)$.
 > 	- Für $L(X, X)$ schreiben wir kurz: $L(X)$
 
-> [!tldr]- **(a)** Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
+> [!def]- **(D2)** Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$  
 > für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](Algebra/Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
 
-> [!tldr]- **(b)** Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
+> [!def]- **(D3)** Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
 > für alle $x$ im $X$ [Vektorraum](Algebra/Vektorraum.md) und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
 
 Die kombination der beiden eigenschaften **(a)** und **(b)** führt zur **Superposition**

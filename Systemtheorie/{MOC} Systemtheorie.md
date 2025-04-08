@@ -19,7 +19,7 @@ title: Systemtheorie
  
 # System
 
-> [!def] **D1 - SYST)** System ^SYST
+> [!def] **D1 - SYST)** Eingrößen-System ^SYST
 > $$y(t)=\mathcal{T}\{x\}(t)$$
 
 ## 🗺️ Dynamische Systeme

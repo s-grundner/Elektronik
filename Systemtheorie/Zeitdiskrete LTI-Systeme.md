@@ -51,3 +51,9 @@ Bei IIR: Unendliche Faltung aber endliche Summen in der DZGL, daher DZGL Einfach
 - In Matlab: `filter()` Wertet DZGL aus. `conv()`wertet die Faltung aus.
 
 M, N Auch bei Filter ist die Ordnung (bereich 2 ... 8)
+
+---
+
+# Beispiele für ZD-LTI-Systeme
+
+
