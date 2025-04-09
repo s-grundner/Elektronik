@@ -6,6 +6,7 @@ aliases:
   - Knotenpotential
   - Knotenspannung
   - Knotenspannungs
+  - KCL
 keywords: 
 subject:
   - VL
@@ -49,7 +50,7 @@ Wichtige Schritte:
 \begin{document}
 \newcommand{\voltColor}{blue!50!white}
 \newcommand{\ampColor}{red!50!white}
-\begin{circuitikz}[thick, scale=2, transform shape]
+\begin{circuitikz}[thick, scale=1.5, transform shape]
 \draw (-1, 2) node[left, \ampColor]{m}
     to[R, l_=$G$, v^=$u_{mn}$, i>^=$i_{mn}$, *-*] (1, 2)
     node[right, \ampColor]{n} to[open, -*] (0,0) node[below]{0};
