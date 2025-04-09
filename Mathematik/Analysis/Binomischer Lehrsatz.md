@@ -19,7 +19,7 @@ professor:
 
 ## Binomische Formeln
 
-> [!satz] **S1 - BINF)** erste Binomische Formel
+> [!satz] **S1 - BINF)** erste Binomische Formel ^S1-BINF
 > $$(a+b)^{2}=a^{2}+2ab+b^{2}$$
 
 > [!satz] **S2 - BINF)** zweite Binomische Formel
