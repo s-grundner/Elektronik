@@ -14,8 +14,10 @@ title: Digitaler Filter
 
 # Digitale Filter
 
-Den Digitalen filtern liegt die Eigenschaft einer Fourier Transformation zu Grunde:
+Bei digitalen Filtern handelt es sich um [zeitdiskrete Systeme](../../Systemtheorie/Zeitdiskrete%20Systeme.md) (oft [Zeitdiskrete LTI-Systeme](../../Systemtheorie/Zeitdiskrete%20LTI-Systeme.md)).
 
-$$
-\text{Faltung} \quad\circ\mkern-7px-\mkern-7px\bullet \quad \text{Multiplikation}
-$$
+---
+
+
+> [!important] Implementationen
+> - [Moving Average](../../Systemtheorie/Moving%20Average.md)

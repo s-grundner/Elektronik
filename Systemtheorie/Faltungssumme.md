@@ -34,7 +34,7 @@ Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md) ist, dass das Ausgangs
 \begin{document}
 \begin{tikzpicture}[auto,>=latex', transform shape, scale=2]
 
-\tikzstyle{block} = [draw, shape=rectangle, minimum height=3em, minimum width=3em, node distance=2cm, line width=1pt]
+\tikzstyle{block} = [draw, shape=rectangle, minimum height=3em, minimum width=3em, node distance=2cm, line width=2pt]
 
 %Creating Blocks and Connection Nodes
 \node at (0,0) (input) {$x[n]$};
@@ -43,7 +43,7 @@ Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md) ist, dass das Ausgangs
 \node [right = of h] (output) {$y[n]$};
 
 %Conecting Blocks
-\draw[->] (input) -- (h) -- (output);
+\draw[->, line width=2pt] (input) -- (h) -- (output);
 
 \end{tikzpicture}
 \end{document}
