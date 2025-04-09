@@ -93,7 +93,61 @@ $$
 $$
 Die 1 liegt immer auf der Diagonale in der Spalte des Bezugsknotens.
 
-**Methode 2:** Die Spannungsquelle wird über einen anliegenden Knoten geschoben, dabei teilt sich die Spannungsquelle in mehrere auf. Je nach Anzahl der anliegenden Zweige wird die Spannungsquelle in mehrere Quellen aufgeteilt.
+**Methode 2:** Die Spannungsquelle wird über einen anliegenden Knoten *geschoben*, dabei teilt sich die Spannungsquelle in mehrere auf. Je nach Anzahl der anliegenden Zweige wird die Spannungsquelle in mehrere Quellen aufgeteilt.
+
+```tikz
+\usepackage{tikz} % Required for inserting images
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath, amssymb}
+\ctikzset{bipoles/length=0.7cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
+\begin{document}
+\begin{circuitikz}[scale=2, transform shape, thick]
+
+\begin{scope}
+\draw (0,0)
+    to[V, v<=$U_x$, *-] ++(0,1)
+    to[R, l=$G_1$] ++(0,1.5) -- ++(1,0) coordinate (k1)
+    to[V, v<=$Uq$, -*] ++(1.5,0) coordinate(e2);
+\draw (k1) to[R, l_=$G_2$, *-] ++(0,-1.5) to[short, -*] ++(0,-1) coordinate (e1);
+
+\draw (0,0) -- ++(0.2,-0.2);
+\draw (0,0) -- ++(-0.2,-0.2);
+\draw (e2) -- ++(0.2,0.2);
+\draw (e2) -- ++(0.2,-0.2);
+\draw (e2) -- ++(0.2,0);
+\draw (e1) -- ++(0.2,-0.2);
+\draw (e1) -- ++(-0.2,-0.2);
+
+\draw[color=orange, line width=2pt] (k1) circle [radius=3pt] node[above] {!};
+\node at (3,1.5) {$\implies$};
+\end{scope}
+
+\begin{scope}[xshift=5cm]
+\draw (0,0) to[V, v<=$U_x+U_q$, *-]
+    ++(0,1) to[R, l=$G_1$]
+    ++(0,1.5) to[short,-*]
+    ++(0.5,0.5) coordinate (k1);
+\draw (k1) --
+    ++(0.5,-0.5) to[V, v_=$U_q$]
+    ++(0,-1.5) to[R, l_=$G_2$, -*]
+    ++(0,-1) coordinate (e1);
+
+\draw (0,0) -- ++(0.2,-0.2);
+\draw (0,0) -- ++(-0.2,-0.2);
+\draw (e1) -- ++(0.2,-0.2);
+\draw (e1) -- ++(-0.2,-0.2);
+\draw (k1) -- ++(0,0.2);
+\draw (k1) -- ++(0.2,0.2);
+\draw (k1) -- ++(-0.2,0.2);
+
+\draw[color=green!50!black, line width = 2pt] (k1) circle [radius=3pt] node[right]{$\checkmark$};
+\end{scope}
+
+\end{circuitikz}
+\end{document}
+```
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -108,9 +162,8 @@ Die 1 liegt immer auf der Diagonale in der Spalte des Bezugsknotens.
 \end{document}
 ```
 
-![600](assets/Knotenpotentialverfahren%202025-01-15%2002.07.09.excalidraw.md)
 
-- Es ist immer der Knoten mit den geringsten Zweigen zu wählen. 
+- Es ist immer der Knoten mit den *geringsten* Zweigen zu wählen. 
 - Auf dem Zweig bereits vorhandene Spannungsquellen überlagern sich.
 - Die Anzahl an Knoten reduziert sich um 1, da der Ursprüngliche zweig nun ein Kurzschluss ist. 
     - (wäre das nicht so hätte man ja keine Ideale Spannugsquell auf diesem Zweig)
