@@ -1,14 +1,9 @@
-/* @settings
 
-name: Editor Width
-id: smino-editor-width
-settings:
-    - 
-        id: file-line-width
-        title: Editor Line Width
-        description: The maximum width of the editor in pixels.
-        type: variable-number
-        default: 800
-        format: px
-*/
-
+/* Nur für zentrale Hauptansicht (Editor + Preview) */
+.workspace-split.mod-root .markdown-source-view.mod-cm6 .cm-contentContainer,
+.workspace-split.mod-root .markdown-reading-view .markdown-preview-section {
+  max-width: none !important;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  box-sizing: border-box;
+}

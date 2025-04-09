@@ -1,0 +1,126 @@
+/* @settings
+
+name: Select Custom Additions to Theme
+id: smino-theme
+settings:
+    - 
+        id: theme-variant
+        title: Theme variant
+        description: Variations on a theme
+        type: class-select
+        allowEmpty: false
+        default: smino-default
+        options:
+            - simon-default
+            - simon-nier
+
+*/
+
+body.smino-nier {
+  --mjx-dark-color: #00046c;
+  --mjx-light-color: #00046c;
+  --callout-hint-color: 255, 193, 0;
+  --callout-def-color: 155, 155, 255;
+  --callout-satz-color: 255, 155, 155;
+
+}
+
+body.smino-default {
+  --mjx-dark-color: #FFDAA2;
+  --mjx-light-color: #00046c;
+  --callout-hint-color: 255, 193, 0;
+  --callout-def-color: 155, 155, 255;
+  --callout-satz-color: 255, 155, 155;
+}
+
+.body.smino-nier .callout[data-callout="example"] {
+  callout-border-opacity: 0.3;
+  callout-background-opacity: 0.3;
+}
+
+.theme-dark mjx-container[display="true"] {
+  color: var(--mjx-dark-color);
+}
+
+.theme-light mjx-container[display="true"] {
+  color: var(--mjx-light-color);
+}
+
+.callout[data-callout="hint"] {
+  --callout-icon: lucide-lightbulb;
+  --callout-color: var(--callout-hint-color);
+}
+
+.callout[data-callout="def"] {
+  --callout-icon: lucide-pencil-ruler;
+  --callout-color: var(--callout-def-color);
+}
+
+.callout[data-callout="satz"] {
+  --callout-icon: lucide-book-plus;
+  --callout-color: var(--callout-satz-color);
+}
+
+/* @settings
+name: Callout Style
+id: callout-style
+settings:
+  -
+    title: Center Callout-Icons & Title
+    id: smino-center-callout-icon
+    type: class-toggle
+    default: false
+*/
+
+/* Default bleibt wie er ist – Änderungen nur aktiv, wenn die Klasse aktiv ist */
+body.smino-center-callout-icon .callout-title {
+  align-items: center;
+}
+
+body.smino-center-callout-icon .callout-fold,
+body.smino-center-callout-icon .callout-icon {
+  margin-top: unset;
+  align-self: unset;
+}
+
+body.smino-center-callout-icon .cm-active.HyperMD-quote.cm-line:not(.HyperMD-callout) .cm-quote {
+  margin-left: 0px;
+}
+
+/* Editor Width Margin */
+.workspace-split.mod-root .markdown-source-view.mod-cm6 .cm-contentContainer,
+.workspace-split.mod-root .markdown-reading-view .markdown-preview-section {
+  max-width: none !important;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  box-sizing: border-box;
+}
+
+/* Center MathJax and enlargen */
+mjx-container[display="true"] {
+  text-align: center !important;
+  font-size: 1.2em;
+}
+
+/* @settings
+name: Justify text
+id: justify-text
+settings:
+  -
+    title: Justify text
+    id: smino-justify-text
+    type: class-toggle
+    default: false
+*/
+
+/* reading mode */
+body.smino-justify-text .markdown-preview-view p {
+	text-align: justify;
+	text-justify: inter-word;	
+}
+
+/* source view and live preview */
+.body.smino-justify-text markdown-source-view.mod-cm6 .cm-line {
+	text-align: justify;
+	text-justify: inter-word;	
+}

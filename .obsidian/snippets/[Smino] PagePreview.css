@@ -1,35 +1,3 @@
-.callout[data-callout="hint"] {
-	--callout-icon: lucide-lightbulb;
-	--callout-color: 255, 193, 0;
-}
-
-.callout[data-callout="def"] {
-	--callout-icon: lucide-pencil-ruler;
-	--callout-color: 155, 155, 255;
-}
-
-.callout[data-callout="satz"] {
-	--callout-icon: lucide-book-plus;
-	--callout-color: 255, 155, 155;
-}
-
-/* 
-// Align callout icon and title
-
-.cm-active.HyperMD-quote.cm-line:not(.HyperMD-callout) .cm-quote {
-	margin-left: 0px;
-}
-
-.callout-title {
-  align-items: center;
-}
-.callout-fold,
-.callout-icon {
-  margin-top: unset;
-  align-self: unset;
-}
-*/
-
 /* Custom page preview v1.2 
 from https://github.com/zamsyt/obsidian-snippets
 */
