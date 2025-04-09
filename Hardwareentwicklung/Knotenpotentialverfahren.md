@@ -95,6 +95,19 @@ Die 1 liegt immer auf der Diagonale in der Spalte des Bezugsknotens.
 
 **Methode 2:** Die Spannungsquelle wird über einen anliegenden Knoten geschoben, dabei teilt sich die Spannungsquelle in mehrere auf. Je nach Anzahl der anliegenden Zweige wird die Spannungsquelle in mehrere Quellen aufgeteilt.
 
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/length=1cm}
+\ctikzset{diodes/scale=0.8}
+\ctikzset{transistors/scale=2}
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, transform shape]
+
+\end{circuitikz}
+\end{document}
+```
+
 ![600](assets/Knotenpotentialverfahren%202025-01-15%2002.07.09.excalidraw.md)
 
 - Es ist immer der Knoten mit den geringsten Zweigen zu wählen. 
