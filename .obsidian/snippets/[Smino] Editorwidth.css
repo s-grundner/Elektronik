@@ -1,9 +1,0 @@
-
-/* Nur für zentrale Hauptansicht (Editor + Preview) */
-.workspace-split.mod-root .markdown-source-view.mod-cm6 .cm-contentContainer,
-.workspace-split.mod-root .markdown-reading-view .markdown-preview-section {
-  max-width: none !important;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  box-sizing: border-box;
-}

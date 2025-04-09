@@ -11,31 +11,42 @@ settings:
         allowEmpty: false
         default: smino-default
         options:
-            - simon-default
-            - simon-nier
+            - smino-default
+            - smino-nier
 
 */
 
 body.smino-nier {
   --mjx-dark-color: #00046c;
   --mjx-light-color: #00046c;
-  --callout-hint-color: 255, 193, 0;
-  --callout-def-color: 155, 155, 255;
-  --callout-satz-color: 255, 155, 155;
-
+  --callout-hint-color: #ffad3a;
+  --callout-def-color: #5511ee;
+  --callout-satz-color: #ff5757;
 }
 
-body.smino-default {
+.smino-default {
   --mjx-dark-color: #FFDAA2;
   --mjx-light-color: #00046c;
-  --callout-hint-color: 255, 193, 0;
   --callout-def-color: 155, 155, 255;
-  --callout-satz-color: 255, 155, 155;
+  --callout-satz-color: #ff9b9b;
 }
 
-.body.smino-nier .callout[data-callout="example"] {
-  callout-border-opacity: 0.3;
-  callout-background-opacity: 0.3;
+.smino-nier .callout[data-callout="example"] {
+  --callout-title-color: #5511ee;
+  background-color: rgba(85, 17, 238, 0.1);
+}
+
+.smino-nier .callout[data-callout="success"] {
+  --callout-title-color: #004400;
+  --callout-color: #004400;
+  background-color: rgba(0, 68, 0, 0.1);
+}
+
+.smino-nier .callout[data-callout="important"] {
+  --callout-hint-color: #ffc100;
+  --callout-title-color: #00aaaa;
+  --callout-color: #00aaaa;
+  background-color: rgba(0, 170, 170, 0.1);
 }
 
 .theme-dark mjx-container[display="true"] {
@@ -114,7 +125,7 @@ settings:
 */
 
 /* reading mode */
-body.smino-justify-text .markdown-preview-view p {
+.smino-justify-text .markdown-preview-view p {
 	text-align: justify;
 	text-justify: inter-word;	
 }

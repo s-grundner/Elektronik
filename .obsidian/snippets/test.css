@@ -1,0 +1,14 @@
+.callout[data-callout="hint"] {
+  --callout-icon: lucide-lightbulb;
+  --callout-color: 255, 193, 0;
+}
+
+.callout[data-callout="def"] {
+  --callout-icon: lucide-pencil-ruler;
+  --callout-color: 155, 155, 255;
+}
+
+.callout[data-callout="satz"] {
+	--callout-icon: lucide-book-plus;
+	--callout-color: 255, 155, 155;
+}

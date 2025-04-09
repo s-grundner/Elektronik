@@ -48,7 +48,7 @@ M, N Auch bei Filter ist die Ordnung (bereich 2 ... 8)
 
 ## Kettenschaltung
 
-Um ein gewünschtes Verhalten eines zeitdiskreten LTI-Systems zu erzielen, werden oft diskrete Systeme kaskadiert. 
+Um ein gewünschtes Verhalten eines zeitdiskreten LTI-Systems zu erzielen, werden oft einzelne Systeme kaskadiert. 
 
 ```tikz
 \usepackage{tikz}
