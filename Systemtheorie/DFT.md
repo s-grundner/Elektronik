@@ -68,6 +68,13 @@ Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine N
 - **Verletzung des Abtasttheorems:** Die (zu langsame) Abtastung von garnicht oder unzureichend Bandbegrenzter Signale führt zu einer Überlappung der Periodischen Spektren (**Aliasing**)
 - Fensterung auf $NT$ bringt spektrale Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im Zeitbereich
 
+
+## Transformationen
+
+$$
+x[(-n)\operatorname{mod}N]^* \circ\mkern-7px-\mkern-7px\bullet X^*[k]
+$$
+
 ---
 # ALT und möglicherweise falsch
 
