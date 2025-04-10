@@ -4,7 +4,6 @@ aliases:
 keywords: 
 subject:
   - VL
-  - Signalverarbeitung
   - Mathematik 2
 semester: SS25
 created: 26th March 2025
