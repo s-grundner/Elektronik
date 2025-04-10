@@ -19,7 +19,7 @@ title: Diskrete Systeme
 
 > [!question] :LiArrowBigLeftDash: [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) |📍| [Zeitdiskreter LTI-Zustandsraum](Zeitdiskreter%20LTI-Zustandsraum.md) :LiArrowBigRightDash:
 
-[Kontinuierliche LTI-Systeme](LTI-Systeme.md) ***:LiArrowBigRightDash:***
+[Kontinuierliche LTI-Systeme](LTI-Systeme.md) ***:LiRefreshCcw:***
 
 ---
 
@@ -48,7 +48,7 @@ M, N Auch bei Filter ist die Ordnung (bereich 2 ... 8)
 
 ## Kettenschaltung
 
-Um ein gewünschtes Verhalten eines zeitdiskreten LTI-Systems zu erzielen, werden oft einzelne Systeme kaskadiert. 
+Um ein gewünschtes Verhalten eines zeitdiskreten LTI-Systems zu erzielen, werden oft einzelne, leicht zu beschreibende Systeme kaskadiert. 
 
 ```tikz
 \usepackage{tikz}
