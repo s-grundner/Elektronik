@@ -19,16 +19,17 @@ settings:
 body.smino-nier {
   --mjx-dark-color: #00046c;
   --mjx-light-color: #00046c;
-  --callout-hint-color: #ffad3a;
-  --callout-def-color: #5511ee;
-  --callout-satz-color: #ff5757;
+  --callout-hint-color: 234, 123, 58;
+  --callout-def-color: 170, 0, 127;
+  --callout-satz-color: 255, 87, 87;
 }
 
 .smino-default {
   --mjx-dark-color: #FFDAA2;
   --mjx-light-color: #00046c;
-  --callout-def-color: 155, 155, 255;
-  --callout-satz-color: #ff9b9b;
+  --callout-def-color: 140, 155, 255;
+  --callout-hint-color: 255, 193, 0;
+  --callout-satz-color: 255, 155, 155;
 }
 
 .smino-nier .callout[data-callout="example"] {
