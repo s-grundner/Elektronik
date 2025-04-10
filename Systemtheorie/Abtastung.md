@@ -13,3 +13,8 @@ title: Abtastung
 ---
  
 # Abtastung
+
+
+## Abtastsystem
+
+#incomplete 

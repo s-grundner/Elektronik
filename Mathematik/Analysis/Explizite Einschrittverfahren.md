@@ -38,12 +38,13 @@ Der Fehler $x\left(t_k\right)-x_k$ setzt sich kumulativ aus den Einzelfehlern de
 > **(iii)** Die Konsistenzordnung ist $q \in \mathbb{N}$, wenn gilt:
 > $$\max _{1 \leq k \leq N}\left\|\tau_k\right\|=O\left(h^q\right)\quad \text{ für } h\to 0\tag{Konsistenzordnung}$$
 > 
-> > [!info]- Erläuterung
-> > 1. Der lokale Diskretisierungsfehler ist die Differenz zwischen der exakten Lösung und der Näherungslösung des ESV.
-> > 2. Die Konsistenz ist gegeben wenn der größte Diskretisierungsfehler ([Maximumnorm](../Algebra/Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren, wenn die Schrittweite $h$ gegen $0$ [konvergiert](Grenzwert.md). Das heißt dass die das Verfahren gegen die Exakte Lösung konvergiert.
-> > 3. Ist der Größte Fehler ist von der Ordnung $O(h^q)$ Dann heißt $q$ Konvergenzordnung.
-> > Die Konsistenzordnung ist ein maß, wie schnell der Diskretisierungsfehler gegen 0 konvergiert,
-> > falls das ESV konsistent ist. (Konvergenzgeschwindigkeit)
+
+> [!info]- Erläuterung
+> 1. Der lokale Diskretisierungsfehler ist die Differenz zwischen der exakten Lösung und der Näherungslösung des ESV.
+> 2. Die Konsistenz ist gegeben wenn der größte Diskretisierungsfehler ([Maximumnorm](../Algebra/Maximumsnorm.md) des Fehlervektors) gegen 0 konvergieren, wenn die Schrittweite $h$ gegen $0$ [konvergiert](Grenzwert.md). Das heißt dass die das Verfahren gegen die Exakte Lösung konvergiert.
+> 3. Ist der Größte Fehler ist von der Ordnung $O(h^q)$ Dann heißt $q$ Konvergenzordnung.
+> Die Konsistenzordnung ist ein maß, wie schnell der Diskretisierungsfehler gegen 0 konvergiert,
+> falls das ESV konsistent ist. (Konvergenzgeschwindigkeit)
 > 
 
 ---

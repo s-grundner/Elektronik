@@ -22,13 +22,16 @@ def:
 >
 > $$
 > \begin{align}
-> T(x) &= f(a) + f'(a)(x-a)+\frac{f''(a)}{2}(x-a)^{2}+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n + \dots \\
-> &= \sum_{i=0}^\infty \frac{f^{(i)}(a)}{i!}(x-a)^i\tag{TAYL}
+> T(x) &= \sum_{i=0}^\infty \frac{f^{(i)}(a)}{i!}(x-a)^i\tag{TAYL}
 > \end{align}
 > $$
 >
 > Taylorreihe von $f$ mit dem Entwicklungspunkt $a$.
 > Die Formulierung bis zu einem endlichen Punkt $n$ dieser Reihe heißt Taylorpolynom mit dem Grad $\deg T(x)=n$ und einem Rest der Ordnung $O(\lvert h^{n+1} \rvert)$
+
+Ausgeschreiben lautete das Taylorpolynom:
+
+$$ T(x) = f(a) + f'(a)(x-a)+\frac{f''(a)}{2}(x-a)^{2}+\dots+\frac{f^{(n)}(a)}{n!}(x-a)^n + \dots $$
 
 > [!INFO] Entwicklung an der Stelle 0 (McLaurin-Reihe)  
 > Für den Fall, dass $a=0$ sprich man von einer *McLaurin-Reihe*
