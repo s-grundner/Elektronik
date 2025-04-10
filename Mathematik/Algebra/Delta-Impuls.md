@@ -21,8 +21,26 @@ professor:
 
 # Delta-Impuls $\delta(t)$
 
-
 Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
+
+> [!def] **D1 - DIR-$\delta$ )** Dirac-Distribution ^DIRD
+> $$
+> \begin{align*}
+> \delta(t) = \lim_{h\rightarrow 0} r(t) = \begin{cases}
+> \to \infty & \text{für} & t = 0 \\
+> 0 & \text{für} & t \neq 0
+> \end{cases} && \text{mit} && \int_{-\infty}^{\infty}\delta (t)dt = 1
+> \end{align*}
+> $$
+> 
+
+$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich.  Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.  
+![invert_dark](../assets/d_impuls.png)
+
+$d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
+
+## Herleitung
+
 Zu seiner Einführung kann man von einem kurzen Rechtecksimpuls **$y=r(t)$** ausgehen:
 
 $$
@@ -34,7 +52,7 @@ $$
 \end{align*}
 $$
 
-![pseudo_d_impuls](../assets/pseudo_d_impuls.png)
+![invert_dark](../assets/pseudo_d_impuls.png)
 
 Zur Normierung der *Wirkung* einer solchen Impulsfunktion wurde gewählt, dass die **Impulsfläche 1 ist**:
 
@@ -43,23 +61,8 @@ A = \int_{-\infty}^{\infty}r(t)dt=\int_{0}^{h}r(t)dt = 1
 $$
 
 Wird $h$ kleiner, so wird $r(t)$ wegen der konstanten "Impulsfläche" 1 während der Impulsdauer $h$ größer.  
-Man möchte nun den gesamten Impuls "auf einen Zeitpunkt konzentrieren", Dazu geht man zum Grenzfall $h\rightarrow 0$ über und erhält so die folgende Funktion:
+Man möchte nun den gesamten Impuls "auf einen Zeitpunkt konzentrieren", Dazu geht man zum Grenzfall $h\rightarrow 0$ über und erhält die 
 
-$$
-\begin{align*}
-	\delta(t) = \lim_{h\rightarrow 0} r(t) = \begin{cases}
-	\to \infty & \text{für} & t = 0 \\
-	0 & \text{für} & t \neq 0
-	\end{cases} && \text{mit} && \int_{-\infty}^{\infty}\delta (t)dt = 1
-\end{align*}
-$$
-
-$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. 
-
-Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.  
-![d_impuls](../assets/d_impuls.png)
-
-$d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
 
 ## Ausblend-Eigenschaft Des $\delta$-Impuls
 
@@ -82,7 +85,7 @@ $$
 $$
 
 Allgemein:  
-![delta_impuls](../assets/delta_impuls.png)
+![invert_dark](../assets/delta_impuls.png)
 
 $$
 \underline{\underline{
@@ -95,7 +98,9 @@ $$
 $$
 \begin{align*}
   \delta(at) &= \frac{1}{|a|}\delta(t)\\
-  \delta(t-t_{0})
+  \delta(t-t_{0}) &= \begin{cases}
+  1  & \text{}
+\end{cases}
 \end{align*}
 $$
 
@@ -103,7 +108,7 @@ $$
 
 ## Kronecker Symbol
 
-> [!important] Zeitdiskreter Einheitspuls
+> [!def] Zeitdiskreter Einheitspuls
 
 $$
 \delta_{k m}=\left\{\begin{array}{lll}
