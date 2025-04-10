@@ -17,16 +17,18 @@ keywords:
 semester: WS23
 professor:
   - Mario Huemer
+  - Andreas Neubauer
+  - Andreas Stelzer
 ---
 
 # Delta-Impuls $\delta(t)$
 
 Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
 
-> [!def] **D1 - DIR-$\delta$ )** Dirac-Distribution ^DIRD
+> [!def] **D1 - DIR-$\delta$ )** Dirac-Distribution / Einheitsimpuls ^DIRD
 > $$
 > \begin{align*}
-> \delta(t) = \lim_{h\rightarrow 0} r(t) = \begin{cases}
+> \delta(t) = \begin{cases}
 > \to \infty & \text{für} & t = 0 \\
 > 0 & \text{für} & t \neq 0
 > \end{cases} && \text{mit} && \int_{-\infty}^{\infty}\delta (t)dt = 1
@@ -63,6 +65,9 @@ $$
 Wird $h$ kleiner, so wird $r(t)$ wegen der konstanten "Impulsfläche" 1 während der Impulsdauer $h$ größer.  
 Man möchte nun den gesamten Impuls "auf einen Zeitpunkt konzentrieren", Dazu geht man zum Grenzfall $h\rightarrow 0$ über und erhält die 
 
+$$
+\lim_{h\rightarrow 0} r(t) := \delta(t)
+$$
 
 ## Ausblend-Eigenschaft Des $\delta$-Impuls
 
@@ -96,27 +101,30 @@ $$
 ## Verschiebung und Skalierung
 
 $$
-\begin{align*}
-  \delta(at) &= \frac{1}{|a|}\delta(t)\\
-  \delta(t-t_{0}) &= \begin{cases}
-  1  & \text{}
+\delta(at) = \frac{1}{|a|}\delta(t) \qquad
+\delta(t-t_{0}) = \begin{cases}
+1  & \text{wenn } t = t_{0} \\ 0 & \text{sonst}
 \end{cases}
-\end{align*}
 $$
 
 
 
-## Kronecker Symbol
+# Kronecker Delta
 
-> [!def] Zeitdiskreter Einheitspuls
+Der Einheitsimpuls ist im Zeitdiskreten tatsächliche eine Funktion.
 
-$$
-\delta_{k m}=\left\{\begin{array}{lll}
-1 & \text { für } & k=m \\
-0 & \text { für } & k \neq m
-\end{array}\right.
-$$
-
+> [!def] **D2 - KRO-$\delta$ )** Kronecker-Delta / Zeitdiskreter Einheitsimpuls ^KROD
+> 
+> $$
+> \delta_{k m} := \begin{cases}
+> 1 & \text {für } k=m \\
+> 0 & \text {für } k \neq m
+> \end{cases} \quad \text{oder} \quad \delta[n] := \begin{cases}
+> 1 & \text {für } n=0 \\
+> 0 & \text {sonst}
+> \end{cases}
+> $$
+> 
 
 ---
 
