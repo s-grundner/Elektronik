@@ -20,7 +20,7 @@ title: kontinuierlicher LTI-Zustandsraum
 
 ---
 
-Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfacht sich die Zustands- / Ausgangsgleichung zu konstanten Koeffizientenmatrizen. 
+Die Vorige Betrachtung auf Eingrößensysteme wird nun auf den MIMO fall erweitert. Mit der zusätzlichen beschränkung auf die Zeitinvarianz, vereinfacht sich die Zustands- / Ausgangsgleichung zu konstanten Koeffizientenmatrizen. 
 
 > [!quote] Ein LTI System erfüllt die Eigenschaften: **Linearität** und **Zeitinvarianz**
 >  Linearität $\impliedby \mathbf{A,B,C,D} \neq f(u,x)$

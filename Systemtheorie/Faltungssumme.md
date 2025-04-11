@@ -81,7 +81,7 @@ $$
 
 ### Hintergrund
 
-Liegt ein Eingangssignal $x[n]$ von endlicher Länge $N_{x}$ vor, dann ist die Länge des Ausgangssignals $y[n]$ gleich $N_{x}+N_{h}-1$.
+Liegt ein Eingangssignal $x[n]$ von endlicher Länge $N_{x}$ vor, dann ist die Länge des Ausgangssignals $y[n]$ gleich $N_{y} = N_{x}+N_{h}-1$.
 
 Setzt man auch für $n$ ein, erhält man eine Lineares Gleichungssystem. Die Werte $x[n]$ für $n \notin \{0,1,\dots,N_{x}-1\}$ sind dabei $0$ zu setzen.
 
@@ -106,13 +106,18 @@ $$
 \mathbf{x} = \begin{pmatrix}
 x[0] \\ x[1] \\ \vdots \\ x[N_{x}-1]
 \end{pmatrix}, \quad \mathbf{y} = \begin{pmatrix}
-y[0] \\ y[1] \\ \vdots \\ y[N_{x}+H_{h}-2]
+y[0] \\ y[1] \\ \vdots \\ y[N_{x}+N_{h}-2]
 \end{pmatrix}
 $$
 
+## Zyklische Faltung
+
+> [!info] Matlab Command: `cconv`
+
+
 ---
 
-[INTERNAL - SigV UE01](xEDU/B4_SS25/Signalverarbeitung/UE/UE01.md)
+- Faltungsmatrix: [INTERNAL - SigV UE01](xEDU/B4_SS25/Signalverarbeitung/UE/UE01.md)
 
 ---
 
