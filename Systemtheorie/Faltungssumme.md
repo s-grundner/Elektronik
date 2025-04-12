@@ -22,7 +22,7 @@ title: Faltungssumme
 ---
 
 > [!def] **D1 - FALT)** Faltungssumme
-> $$(y*x)[n] = \sum_{\nu=-\infty}^{\infty} x[\nu-n]y[n]$$
+> $$(y*x)[n] = \sum_{\nu=-\infty}^{\infty} x[\nu]y[n-\nu]$$
 
 ## Faltungsmatrix
 
@@ -53,7 +53,7 @@ Für ein oft vorliegendes kausales LTI-System mit endlicher Impulsantwort (FIR) 
 
 $$
 \begin{align}
-y[n] &= (h*n)[n] = \sum_{\nu=0}^{N_{h}-1} h[\nu-n]x[n] \\
+y[n] &= (h*n)[n] = \sum_{\nu=0}^{N_{h}-1} h[\nu]x[n-\nu] \\
 &=h_{0}x[n] + h_{1}x[n-1] + \dots + h_{N_{h}-1}x[n-N_{h}+1]
 \end{align}
 $$
