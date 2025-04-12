@@ -7,6 +7,15 @@ created: 30. Oktober 2023
 
 # Geometrische [Reihe](Reihe.md)
 
+Grenzwert einer Geometrischen reihe
+
+$$
+\sum_{k=0}^{\infty}q^{k} = \frac{1}{1-q}
+$$
+
+
+Die Geometrische Reihe ist definiert
+
 $$
 \begin{align}
 \frac{a_{n+1}}{a_{n}} &= q \\
