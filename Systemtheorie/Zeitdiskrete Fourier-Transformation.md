@@ -1,5 +1,5 @@
 ---
-tags: 
+tags: [incomplete]
 aliases:
   - DTFT
 keywords: 
@@ -43,7 +43,7 @@ Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
 
 $$\sum_{n=-\infty}^{\infty}\lvert f[n] \rvert < \infty$$
 
-> [!bug] Diese Eigenschaft hat z.B. ein DC-Signal nicht. #incomplete siehe [Folien]
+> [!bug] Diese Eigenschaft hat z.B. ein DC-Signal nicht. siehe [Folien]
 > Man kann nichts destotrotz ein Spektrum angeben, jedoch benötigt man Analoge Dirac-Impulse um das Spektrum darzustellen.
 
 ---
@@ -64,7 +64,6 @@ Transformationsvorschriften funktionieren nur in richtung Zeitbereich -> Bildber
 Warum? Ein Zeitdiskretes Signal hat ein kontinuierliches Spektrum. Zu einem Kontinuierlichen Spektrum passen auch kontinuierliche Zeitsignale
 
 ### Parseval-Theorem
-
 
 ## DTFT - Transformationstabelle
 
