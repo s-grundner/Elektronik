@@ -28,7 +28,6 @@ Zur Grundlage werden zunächst eindimensionale- bzw. Eingrößen-Systeme betrach
 
 ![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
 
-
 ## Linearität
 
 ![Lineare Abbildungen](../Mathematik/Algebra/Lineare%20Abbildungen.md#^LINA)
