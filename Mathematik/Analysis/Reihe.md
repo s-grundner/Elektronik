@@ -20,7 +20,6 @@ Eine wichtige Eigenschaft jeder Reihe ist dessen Konvergenz. Eine Reihe konvergi
 > - [Quotientenkriterium](Analysis/Quotienten%20Kriterium.md)
 > - [Wurzelkriterium](Analysis/Wurzelkriterium.md)
 
-
 ## Arten von Reihen
 
 - [Geometrische Reihe](Analysis/Geometrische%20Reihe.md)

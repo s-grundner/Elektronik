@@ -28,8 +28,6 @@ semester: WS24
 
 ![invert_dark](assets/Convolution_of_box_signal_with_itself.gif)
 
-
-
 ## Eigenschaften der Faltung
 
 > [!satz] **S1)** Die Faltung erfüllt folgende Eigenschaften

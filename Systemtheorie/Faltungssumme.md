@@ -49,7 +49,6 @@ Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md) ist, dass das Ausgangs
 \end{document}
 ```
 
-
 Für ein oft vorliegendes kausales LTI-System mit endlicher Impulsantwort (FIR) $h[n] = (h_{0}, h_{1}, \dots, h_{N_{h}-1})$ der länge $N_{h-1}$ gilt:
 
 $$
@@ -100,7 +99,7 @@ $$
 > [!hint] **Denkhilfe:** Die indizes jedes Terms ergeben in jedem Schritt immer $n$
 > $$\text{z.B.:}\quad\underbrace{ y[2] }_{ n=2 } = \underbrace{ h_{0}x[2] }_{ 0+2=2 } + \underbrace{ h_{1}x[1] }_{ 1+1=2 } + \underbrace{ h_{2}x[0] }_{ 2+0=2 } $$
 
-Durch die Definition der Ein- und Ausgangsfolgen  als Vektoren $\mathbf{x}$ und $\mathbf{y}$, lässt sich das LGS in Matrix Schreibweise überführen.
+Durch die Definition der Ein- und Ausgangsfolgen als Vektoren $\mathbf{x}$ und $\mathbf{y}$, lässt sich das LGS in Matrix Schreibweise überführen.
 
 $$
 \mathbf{x} = \begin{pmatrix}
