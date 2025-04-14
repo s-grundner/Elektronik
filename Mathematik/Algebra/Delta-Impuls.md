@@ -69,33 +69,16 @@ $$
 \lim_{h\rightarrow 0} r(t) := \delta(t)
 $$
 
-## Ausblend-Eigenschaft Des $\delta$-Impuls
+## Abtasteigenschaft
 
-Wirkung des $\delta$-Impulses auf eine Zeit Funktion $f$:
+$$ f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})dt $$
 
-$$
-\begin{align*}
-	\delta(t) &= \lim_{h\rightarrow 0}\begin{cases}
-		\frac{1}{h} & \text{für} & 0\leq t < h\\
-		0 & \text{sonst}
-	\end{cases}\\
-\\
-	\int_{-\infty}^{\infty}f(t)\cdot\delta(t)dt &= \int_{0}^{h} f(t)\cdot\frac{1}{h}dt = \frac{1}{2} \int_{0}^{h}f(t)dt = \frac{1}{h}\Big{(} F(h) - F(0) \Big{)}\\
-\\
-	\underline{\underline{
-		\lim_{h\rightarrow 0} \int_{-\infty}^{\infty}f(t)\cdot\delta(t)dt
-	}}
-	&= \lim_{h\rightarrow 0} \frac{F(h)-F(0)}{h} = \underline{\underline{f(0)}}
-\end{align*}
-$$
-
-Allgemein:  
 ![invert_dark](../assets/delta_impuls.png)
 
+## Ausblendeigenschaft
+
 $$
-\underline{\underline{
-	f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})dt
-}}
+x(t)\delta(t-t_{0}) = x(t_{0})\delta(t-t_{0})
 $$
 
 ## Verschiebung und Skalierung
