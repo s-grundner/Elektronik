@@ -13,6 +13,7 @@ created: 8. Februar 2025
 professor:
 ---
  
+
 # Einheitswurzel
 
 > [!question] [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md) | [DFT](DFT.md) | [FFT](../Softwareentwicklung/DS-Algo/FFT.md)
@@ -39,8 +40,6 @@ Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ un
 
 Die Funktionenfolge der Drehfaktoren ergibt folgendes Bild:
 ![700](../assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw)
-
-
 
 ### Symmetrie
 

@@ -23,7 +23,7 @@ banner_y: 0.8625
 # Diskrete Fourier-Transformation (DFT)
 
 > [!quote] DFT
-> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](Fourier-Transformation.md).
+> Bei der Diskreten Fourier Transformation (DFT) handelt es sich um eine **numerische Näherung** der [Fourierintegrals](Fouriertransformation.md).
 > Die Herleitung erfolgt aus der [Zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fourier-Transformation.md)
 
 - Das aperiodische Signal $f_{a}(t)$ wird mit der Periode $T=\frac{2\pi}{\omega_{0}}$ **abgetastet**.

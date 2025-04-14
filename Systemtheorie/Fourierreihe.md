@@ -44,7 +44,7 @@ Jede **periodische** [Funktion](../Mathematik/Algebra/Abbildung.md) kann als aus
 
 ## Reelle Fourierreihe
 
-> [!def] **D - $\mathbb{R}$FR)**  Reelle Fourier-Reihe der reellen Funktion $x(t)$  
+> [!def] **D - $\mathbb{R}$FR)** Reelle Fourier-Reihe der reellen Funktion $x(t)$  
 > 
 > $$\boxed{ x(t) = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(k \omega_{0} t) + b_{k}\cdot\sin ( k \omega_{0} t)\Big] }$$
 > 
@@ -72,7 +72,7 @@ Besonderheiten:
 > [!info] Für den Fall „$k=0$“ existiert das zeitunabhängige Glied $\frac{a_{0}}{2}$, welches den arithmetischen Mittelwert darstellt.
 
 
-> [!def] **D - $\mathbb{R}$PFR)**  Polare Darstellung der rellen Funktion $x(t)$
+> [!def] **D - $\mathbb{R}$PFR)** Polare Darstellung der rellen Funktion $x(t)$
 >
 > $$ \boxed{ x(t)=\frac{c_0}{2}+\sum_{k=1}^{\infty} c_k \cos \left(k \omega_0 t-\varphi_k\right) } $$
 
@@ -90,7 +90,7 @@ $$
 
 ## Komplexe Fourierreihe
 
-> [!def] **D - $\mathbb{C}$FR)**  Komplexe Fourier-Reihe der rellen Funktion $x(t)$
+> [!def] **D - $\mathbb{C}$FR)** Komplexe Fourier-Reihe der rellen Funktion $x(t)$
 >
 > $$\boxed{ x(t)=\sum_{k=-\infty}^{\infty} X_k e^{\mathrm{j} k \omega_0 t} }$$
 

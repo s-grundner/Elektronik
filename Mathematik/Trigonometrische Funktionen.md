@@ -121,15 +121,15 @@ $$
 
 ### Produkte von Winkelfunktionen
 
-> [!satz] **S6 - TMUL)** Trigonometrische 
+> [!satz] **S6 - TMUL)** Trigonometrische Multiplikationssätze
 > $$
 > \begin{aligned}
 > & \sin x \sin y=\frac{1}{2}(\cos (x-y)-\cos (x+y)) \\
 > & \cos x \cos y=\frac{1}{2}(\cos (x-y)+\cos (x+y)) \\
 > & \sin x \cos y=\frac{1}{2}(\sin (x-y)+\sin (x+y)) \\
-> & \tan x \tan y=\frac{\tan x+\tan y}{\cot x+\cot y}=-\frac{\tan x-\tan y}{\cot x-\cot y} \\
-> & \cot x \cot y=\frac{\cot x+\cot y}{\tan x+\tan y}=-\frac{\cot x-\cot y}{\tan x-\tan y} \\
-> & \tan x \cot y=\frac{\tan x+\cot y}{\cot x+\tan y}=-\frac{\tan x-\cot y}{\cot x-\tan y}
+> & \tan x \tan y=\frac{\tan x+\tan y}{\cot x+\cot y} \\
+> & \cot x \cot y=\frac{\cot x+\cot y}{\tan x+\tan y} \\
+> & \tan x \cot y=\frac{\tan x+\cot y}{\cot x+\tan y}
 > \end{aligned}
 > $$
 
@@ -157,3 +157,6 @@ $$
 \end{aligned}
 $$
 
+---
+
+[Formelsammlung Trigonometrie – Wikipedia](https://de.wikipedia.org/wiki/Formelsammlung_Trigonometrie)

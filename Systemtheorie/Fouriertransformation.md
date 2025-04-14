@@ -3,6 +3,7 @@ tags:
   - Analysis
 aliases:
   - Fourier Transformation
+  - Fourier-Transformation
 keywords:
   - Zeitbereich
   - Frequenzbereich

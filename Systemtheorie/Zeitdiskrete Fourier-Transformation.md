@@ -17,7 +17,7 @@ title: Zeitdiskrete Fouriertransformation
 
 # Zeitdiskrete Fourier-Transformation
 
-[Fourier-Transformation](Fourier-Transformation.md) ***:LiArrowBigRightDash:***
+[Fouriertransformation](Fouriertransformation.md) ***:LiArrowBigRightDash:***
 [Diskrete Fourier-Transformation](DFT.md) ***:LiArrowBigRightDash:***
 
 ---

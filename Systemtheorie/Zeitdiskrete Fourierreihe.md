@@ -11,6 +11,7 @@ created: 8. Februar 2025
 professor:
 ---
  
+
 # Zeitdiskrete Fourierreihen
 
 [Fourierreihe](Fourierreihe.md) ***:LiArrowBigRightDash:***
@@ -37,7 +38,7 @@ $$
 
 Es gibt nur **$N$** verschieden Harmonische. Daraus folgt:
 
-> [!def] **D - ZDFR)**  Zeitdiskrete Fourier-Reihenentwicklung ^ZDFR
+> [!def] **D - ZDFR)** Zeitdiskrete Fourier-Reihenentwicklung ^ZDFR
 > $$f[n] = \sum_{k = 0}^{N-1} F[k] W^{-kn}_{N}\tag{ZDFR}$$
 
 Diese Darstellung ist äquivalent zur [komplexen Fourierreihe](Fourierreihe.md#Komplexe%20Fourierreihe) in diskreter Form. Mit $F[k]$ als **Entwicklungskoeffizienten** der **Periodischen Folge** $f[n]$, anstelle der Spektralkoeffizienten $X_{k}$.
@@ -56,4 +57,3 @@ $$
 Wegen der [Periodizität der Einheitswurzel](Einheitswurzel.md#Periodizität) $W^{kn}_{N}$ in $k$ mit der Periode $N$
 
 ## Berechnung der Entwicklungskoeffizienten
-

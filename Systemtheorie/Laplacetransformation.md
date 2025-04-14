@@ -22,7 +22,7 @@ professor:
 
 ---
 
-Die Laplace Transformation ist eine [Integraltransformation](Integraltransformation.md), die eine Funktion $f(t)$ auf eine Funktion $F(s)$ abbildet. Sie ist eine Erweiterung der [Fourier-Transformation](Fourier-Transformation.md) und wird verwendet, um Differentialgleichungen in algebraische Gleichungen zu überführen. 
+Die Laplace Transformation ist eine [Integraltransformation](Integraltransformation.md), die eine Funktion $f(t)$ auf eine Funktion $F(s)$ abbildet. Sie ist eine Erweiterung der [Fouriertransformation](Fouriertransformation.md) und wird verwendet, um Differentialgleichungen in algebraische Gleichungen zu überführen. 
 
 > [!info] Der Transformationskern ist die exponential Funktion mit gemischt reel-komplexem Exponenten: $e^{ s }=e^{ \sigma t+j\omega t }$
 > - Was bei der FT die Frequenzachse ist, ist bei der Laplacetransformation eine komplexe Ebene.
