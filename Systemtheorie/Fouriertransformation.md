@@ -19,7 +19,6 @@ def:
   - FT
   - IFT
 ---
- 
 
 # Fourier-Transformation
 
