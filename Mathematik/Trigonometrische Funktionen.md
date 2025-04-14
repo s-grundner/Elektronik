@@ -121,7 +121,7 @@ $$
 
 ### Produkte von Winkelfunktionen
 
-> [!satz] **S6 - TMUL)**
+> [!satz] **S6 - TMUL)** Trigonometrische 
 > $$
 > \begin{aligned}
 > & \sin x \sin y=\frac{1}{2}(\cos (x-y)-\cos (x+y)) \\
