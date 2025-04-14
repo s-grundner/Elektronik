@@ -68,7 +68,6 @@ Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine N
 - **Verletzung des Abtasttheorems:** Die (zu langsame) Abtastung von garnicht oder unzureichend Bandbegrenzter Signale führt zu einer Überlappung der Periodischen Spektren (**Aliasing**)
 - Fensterung auf $NT$ bringt spektrale Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im Zeitbereich
 
-
 ## Transformationen
 
 $$
@@ -76,6 +75,7 @@ x[(-n)\operatorname{mod}N]^* \circ\mkern-7px-\mkern-7px\bullet X^*[k]
 $$
 
 ---
+
 # ALT und möglicherweise falsch
 
 Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:
@@ -104,7 +104,6 @@ Die [inverse](Gauß-Jordan-Verfahren.md) DFT (IDFT) (Synthesegleichung) ist defi
 >
 > $$x[n] = \frac{1}{N}\sum^{N-1}_{k=0} X[k]\cdot e^{jkn \frac{2\pi}{N}}$$
 
-
 ## Matrix-Interpretation Der DFT
 
 Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:
@@ -119,13 +118,13 @@ $$
 >
 > $$
 \begin{align}  
-\mathbf{X}_{N} = \begin{pmatrix}  
+\mathbf{X}*{N} = \begin{pmatrix}  
 X[0] \\  
 X[1] \\  
 \vdots \\  
 X[N-1]  
 \end{pmatrix} &&  
-\mathbf{x}_{N} = \begin{pmatrix}  
+\mathbf{x}*{N} = \begin{pmatrix}  
 x[0] \\  
 x[1] \\  
 \vdots \\  
