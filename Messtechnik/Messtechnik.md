@@ -24,7 +24,7 @@ title: Messtechnik
 
 # Messtechnik
 
-Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgröße für uns wahrnehmbar zu machen. Dabei gilt es festzustellen, wie vertrauenswürdig dieses Medium zur Erfassung der Größe ist -> **Messunsicherheit**. 
+Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgröße für uns wahrnehmbar zu machen. Dabei gilt es festzustellen, wie vertrauenswürdig dieses Medium zur Erfassung der Größe ist -> [Messunsicherheiten](GUM.md). 
 
 > [!hint] **Vorraussetzungen sind:**
 > - Existenz eines Zahlensystems

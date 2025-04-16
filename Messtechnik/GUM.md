@@ -1,18 +1,22 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Messunsicherheiten
+  - Messunsicherheit
 keywords: 
 subject:
   - VL
   - Elektrische Messtechnik und Sensorik
 semester: SS25
 created: 25th March 2025
-professor:
+professor: 
 draft: true
 title: GUM
 ---
 
 # Guide to the expression of Uncertainty in Measurement
+
+> [!question] [Messen](Messtechnik.md)
 
 | **Typ-A Methode**                                                                                                            | **Typ-B Methode**                                                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
