@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: 
 aliases:
   - Messung
   - Messen
@@ -31,7 +31,7 @@ Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgr�
 > - Definition einer Messgröße
 > - Festlegung der Einheit
 
-![invert_dark|700](assets/mestechnik.png)
+![invert_dark|900](assets/mestechnik.png)
 
 $$
 \text{Physikalische Größe} = \text{Zahlenwert } \cdot \text{ Einheit } + \text{Unsicherheit}
@@ -50,7 +50,7 @@ $$
 > 
 
 **Messgeräte** sind die im Signalfluss liegenden Geräte einer Messeinrichtung. Die zwischen den Messgeräten Ausgetauschten **Signale** ($y_{1}, y_{2}$) Enthalten die informationen über die zu messende Größe.
-![invert_dark](assets/Messkette.png)
+![invert_dark|1000](assets/Messkette.png)
 
 
 Die Gesamtheit der Systeme die Ein- und Ausgang miteinander verknüpfen, ist die **Messkette**, z.B.:
@@ -69,3 +69,7 @@ Die Physikalische Größe steuert eine elektrische Größe:
     - *Photodiode*
 2. **Passive** Umwandlung (modulating)
     - Element das seinen elektrischen Widerstand ändert
+
+---
+
+- [GUM](GUM.md)
