@@ -1,5 +1,6 @@
-
 # MATLAB
+
+## Matlab Basics
 
 ```matlab
 %% clean up
@@ -59,7 +60,7 @@ A(:) % ALLE Elemente als Spaltenvektor
 A(2:end)
 
 % Transposition
-A' % Transposition UND Konjugation
+A' % Transposition UND Konjugation (Hermitesche Transposition)
 A.' % nur Transposition
 
 %% Zusammensetzen von Vektoren bzw. Matrizen

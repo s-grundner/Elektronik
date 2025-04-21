@@ -25,7 +25,7 @@ B_{13} & B_{23}\\
 \end{align*}
 $$
 
-## Hermitsche Tansposition
+## Hermitsche Transposition
 
 > [!def] Der Operator $(\cdot)^H$ bedeuted Hermitsche Transposition. ^HERT
 > d.h. Konjugation $(\cdot)^*$ und Transposition $(\cdot)^T$ zusammen.
