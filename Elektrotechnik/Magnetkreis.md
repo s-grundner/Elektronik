@@ -12,6 +12,7 @@ draft: true
 title: Magnetkreis
 ---
  
+
 # Magnetkreis
 
 Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus magnetischen Elementen. Durch ihn wird veranschaulicht in welcher Quantität diese Elemente mit dem magnetischen Fluss durchströmt sind.   
@@ -36,7 +37,6 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 |         Reluktanz |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |            $R=\dfrac{l}{\sigma A}$            | Impedanz            |
 |    magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                  | Spannung            |
 |      Durchflutung | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\oint \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
-
 
 ## Entwurf
 
@@ -67,7 +67,6 @@ $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_
 | ------------------------------------- | ------------ | ------------------ |
 | $\color{magenta}\text{Erregerspulen}$ | $N$          | $i$                |
 
-
 > [!question] Gefragt ist, wie man diese Maschine als Magnetkreis Modelliert.
 
 1. Ausgangspunkt ist die Definition der [Durchflutung](Durchflutung.md)
@@ -90,7 +89,7 @@ $$
 $$
 
 
-3. Einsetzen des [magnetischen Widerstandes](Reluktanz.md) $\mathfrak{R}=\dfrac{l}{\mu A}$ leifert:
+4. Einsetzen des [magnetischen Widerstandes](Reluktanz.md) $\mathfrak{R}=\dfrac{l}{\mu A}$ leifert:
 
 $$
 \begin{align}
