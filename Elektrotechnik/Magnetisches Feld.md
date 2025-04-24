@@ -37,8 +37,6 @@ title: Das Magnetische Feld
 - [Durchflutung](Durchflutung.md) - $\Theta$
 - [Reluktanz](Reluktanz.md) - $\mathfrak{R}$
 
-
-
 ## Magnetfeld im Leiter
 
 Der Betrag des magnetischen Flusses $\mathbf{B}$ im Abstand $r$ der Leiterachse ist gegeben durch. 

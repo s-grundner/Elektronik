@@ -14,6 +14,7 @@ title: Permeabilität
  
 
 # Materialgesetz - Permeabilität
+
 > [!question] Wichtige Beziehung für Magnetkreise
 
 
@@ -26,11 +27,11 @@ Magnetische Leitfähigkeit - **Permeabilität** $\mu = \mu_{0}\cdot\mu_{r}$:
 - z.B: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
 
 ferromagnetisch: $\mu_{r} \gg$ 
-diamagnetisch: $\mu_{r}<$  (material stoßt sich vom Magnetfeld leicht ab)
+diamagnetisch: $\mu_{r}<$ (material stoßt sich vom Magnetfeld leicht ab)
 
 ## Magnetisierung und Sättigung
 
-> [!question]  **Manetische Sättigung:** Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisiert
+> [!question] **Manetische Sättigung:** Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisiert
 > - Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
 | ![invert_dark\|200](assets/Mkreis.png)                                                                 | ![invert_dark\|200](assets/Mkurve.png)                                                                    |
