@@ -57,7 +57,6 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Die Wirbel des Magnetfelds hängen von der Leitungsstromdichte $\mathbf{J}_{l}$ und von der elektrischen Flussdichte $\mathbf{D}$ ab. | Die magnetische Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der Summe aus dem Leitungsstrom und der zeitlichen Änderung des elektrischen Flusses durch die Fläche. |
 
-
 > [!satz] **S1 - 1. Maxwell Gleichung)** Durchflutungssatz ^MW1
 > $$
 > \operatorname{rot} \mathbf{H} = \nabla \times \mathbf{H}=\mathbf{J}_{l}+\underbrace{ \frac{\partial \mathbf{D}}{\partial t} }_{ \mathbf{J}_{v} }
@@ -107,7 +106,6 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Jede Änderung des $\mathbf{B}$-Feldes führt zu einem elektrischen Gegenfeld.<br>Die Wirbel des elektrischen Feldes sind von der zeitlichen Änderung der magnetischen Flussdichte abhängig. | Die (elektrische) Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der negativen zeitlichen Änderung des magnetischen Flusses durch die Fläche. |
 
-
 > [!satz] **S2 - 2. Maxwell-Gleichung)** Faradaysches Induktionsgesetz ^MW2
 > $$
 > \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
@@ -152,7 +150,6 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ## Materialgleichungen
 
-
 > [!satz] **S5 - MATG)** Materialgesetze ^MATG
 > 
 > $$
@@ -180,7 +177,6 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 | [Gradient](../Mathematik/Analysis/Vektoranalysis/Gradient.md)         | [Divergenz](../Mathematik/Analysis/Vektoranalysis/Divergenz.md)                | [Rotation](../Mathematik/Analysis/Vektoranalysis/Rotor.md)                                              |
 | :------------------------------------------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
 | $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$ | $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$ | $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$ |
-
 
 ![1000](assets/Maxwell%202025-01-14%2015.23.59.excalidraw.md)
 
