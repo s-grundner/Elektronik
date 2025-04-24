@@ -75,7 +75,6 @@ Um ein gewünschtes Verhalten eines zeitdiskreten LTI-Systems zu erzielen, werde
 \end{document}
 ```
 
-
 Die Reaktion des ersten Systems auf den Einheitsimpuls ist $h_{1}[n]$ somit wird die Ausgangsfolge des zweiten Systems und damit die Impulsantwort des Gesamtsystems (oder Ersatzsystems) $h[n]$ zu:
 
 $$ h[n] = h_{1}[n] * h_{2}[n] $$
@@ -85,7 +84,6 @@ Wegen der kommutativität der [Faltung](Faltungssumme.md), ist die Reihenfolge d
 ---
 
 # Beispiele für ZD-LTI-Systeme
-
 
 > [!example] Ideale Verzögerung ^BSP1
 > *Ausgangssignal:* $y[n] = x[n-n_{d}]$ mit $-\infty< n <\infty, n_{d} \in \mathbb{N}$

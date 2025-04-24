@@ -15,6 +15,7 @@ draft: true
 title: DZGL-Systeme
 ---
  
+
 # Zeitdiskrete Systeme
 
 > [!question] :LiArrowBigLeftDash: [Systemtheorie]({MOC}%20Systemtheorie.md) |📍| [Zeitdiskrete Lineare Systeme](Zeitdiskrete%20Lineare%20Systeme.md) :LiArrowBigRightDash:

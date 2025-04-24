@@ -28,7 +28,6 @@ $$y[n] = \frac{1}{M+1}\sum_{k=0}^{M}x[n-k]$$
 
 $$h[n] = \frac{1}{M+1}\sum_{k=0}^{M}\delta[n-k] = \begin{cases} \frac{1}{M+1} & \text{für } 0 \leq n < M \\ 0 & \text{sonst} \end{cases}$$
 
-
 | ![invert_dark](assets/MovingAvgSignal.png) | ![invert_dark](assets/MovingAvgImpulseResponse.png) |
 | :----------------------------------------: | :-------------------------------------------------: |
 | Veranschaulichung der Operation            | Impulsantwort                                       |
