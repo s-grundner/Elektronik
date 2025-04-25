@@ -20,6 +20,14 @@ Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen
 
 ## Lösungsansatz für Inhomogene lineare DGL-Systeme 1. Ordnung
 
+Die DGL hat die form:
+
+$$
+\dot{x}(t) = \mathbf{A}(t) x(t) + b(t)
+$$
+
+Dann lässt sich der Lösungsansatz aufstellen:
+
 $$ x_{p}(t)= X(t)\cdot c(t) $$
 
 wobei $X(t)$ die [Fundamentalmatrix](Fundamentalmatrix.md) ist.
