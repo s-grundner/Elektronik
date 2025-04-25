@@ -30,7 +30,7 @@ Dann lässt sich der Lösungsansatz aufstellen:
 
 $$ x_{p}(t)= X(t)\cdot c(t) $$
 
-wobei $X(t)$ die [Fundamentalmatrix](Fundamentalmatrix.md) ist.
+wobei $X(t)$ die [Fundamentallösung](Fundamentalmatrix.md) ist, welche mittels [Trennen der Variablen](../Algebra/Trennen%20der%20Variablen.md) der homogenen Lösung gefunden werden kann. 
 
 > [!hint] Herleitung zur Variation der Konstanten
 >  
@@ -73,4 +73,17 @@ oder mit Hilfe des [Matrizanten](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}$ dur
 
 $$
 x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t  \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right] .
+$$
+
+## Spezialfall: System der Dimension 1
+
+Nach obiger Vorgehensweise ergibt sich für eine Differenzialgleichung der Form
+
+$$
+\dot{x}(t) = a(t)c(t)+b(t)
+$$
+die allgemeine Lösung
+
+$$
+x(t) = 
 $$
