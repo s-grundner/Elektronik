@@ -84,7 +84,6 @@ settings:
     default: false
 */
 
-/* Default bleibt wie er ist – Änderungen nur aktiv, wenn die Klasse aktiv ist */
 body.smino-center-callout-icon .callout-title {
   align-items: center;
 }
@@ -127,12 +126,16 @@ settings:
 
 /* reading mode */
 .smino-justify-text .markdown-preview-view p {
-	text-align: justify;
-	text-justify: inter-word;	
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* source view and live preview */
 .body.smino-justify-text markdown-source-view.mod-cm6 .cm-line {
-	text-align: justify;
-	text-justify: inter-word;	
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.cm-lineNumbers {
+  font-size: 30px;
 }
