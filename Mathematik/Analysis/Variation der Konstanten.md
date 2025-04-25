@@ -50,8 +50,6 @@ x(t)=X(t)\left[c+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]
 $$
 mit $c \in \mathbb{R}^m$. $c$ ist noch nicht den Anfangswerten angepasst. 
 
-
-
 ### Eindeutige Lösung
 
 Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe [FM-S1](Fundamentalmatrix.md#^FM-S1))

@@ -62,7 +62,7 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 > 
 > 3. $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$ ... Eine Zeitliche Verschiebung eintspricht einer Entsprechenden Transformation.
 > 4. $\mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)\quad$ (falls $t_{0}=0$, dann $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$)
->     ... Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
+> ... Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
 
 Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
 Da hier
