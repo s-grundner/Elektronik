@@ -60,7 +60,7 @@ $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_
 |                                 | Feldstärke            | Fluss                            | Abstand / Länge | Permeabiltät des Materials |
 | ------------------------------- | --------------------- | -------------------------------- | --------------- | -------------------------- |
 | $\color{orange}\text{Stator}$   | $\mathbf{H}_{S}$      | $\Phi_{S}=\Phi_{Re} + \Phi_{Li}$ | $l_{S}$         | $\mu_{0}\mu_{r}$           |
-| $\color{cyan}\text{Rotor}$ | $\mathbf{H}_{R}$      | $\Phi_{R}$                       | $l_{R}$         | $\mu_{0}\mu_{r}$           |
+| $\color{cyan}\text{Rotor}$      | $\mathbf{H}_{R}$      | $\Phi_{R}$                       | $l_{R}$         | $\mu_{0}\mu_{r}$           |
 | $\color{green}\text{Luftspalt}$ | $\mathbf{H}_{\delta}$ | $\Phi_{R}$                       | $\delta$        | $\mu_{0}$                  |
 
 |                                       | Windungszahl | elektrischer Strom |

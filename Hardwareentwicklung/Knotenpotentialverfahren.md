@@ -36,7 +36,6 @@ Wichtige Schritte:
 | **Leitwert Darstellung:** | Man verwendet Leitwerte, um die Berechnung zu vereinfachen, da man nach dem *Strom* Lösen möchte und dann $G\cdot U=I$ schreiben kann anstatt eines Bruches.                                                                                                                                      |
 | **Masse als Bezug:**      | Bei der Analyse eines Sternförmigen Netzwerks den Knotenpunkt als Bezugspunkt wählen (meistens Masse).                                                                                                                                                                                            |
 
-
 > [!success] Allgemeines Ergebnis:
 > - mit der *Knotenadmittanz*-[Matrix](../Mathematik/Algebra/Matrix.md) $\mathbf{G}$,
 > - dem *Lösungs-[Vektor](../Mathematik/Algebra/Vektor.md)* $\mathbf{U}$ der unbekannten *Knotenspannungen*
@@ -63,7 +62,7 @@ node[anchor=north west, \ampColor] {Zweigstrom: $i_{mn}=G\cdot u_{mn}=G\cdot(u_{
 \end{document}
 ```
 
-## Spannugsquellen-Umwandlung 
+## Spannugsquellen-Umwandlung
 
 > [!success] Wenn eine Reale Lineare Spannungsquelle vorliegt kann diese in das [Norton](../Elektrotechnik/lineare%20Quellen.md) ESB umgewandelt werden
 
@@ -161,7 +160,6 @@ Die 1 liegt immer auf der Diagonale in der Spalte des Bezugsknotens.
 \end{circuitikz}
 \end{document}
 ```
-
 
 - Es ist immer der Knoten mit den *geringsten* Zweigen zu wählen. 
 - Auf dem Zweig bereits vorhandene Spannungsquellen überlagern sich.
