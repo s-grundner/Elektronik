@@ -136,6 +136,7 @@ settings:
   text-justify: inter-word;
 }
 
-.cm-lineNumbers {
-  font-size: 30px;
+/* Fontsize of Line Numbers in Gutter*/
+.cm-gutterElement {
+  font-size: 22px;
 }
