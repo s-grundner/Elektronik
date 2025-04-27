@@ -14,9 +14,8 @@ created: 29. November 2022
 > CI = Continuous Integration 
 > CD = Continuous Deployment/Delivery
 
-> [!question]  Mit **CI** lassen sich für Git-Clients (GitLab, GitHub) automatische Abläufe (**Pipelines**) generieren.
+> [!question] Mit **CI** lassen sich für Git-Clients (GitLab, GitHub) automatische Abläufe (**Pipelines**) generieren.
 > Zum Beispiel kann ein `push` auf die Remote-Repository einen **build**, **tests** oder die Erstellung einer **Dokumentation** auslösen.
-
 
 ## Erstellen eine Pipeline
 
@@ -25,7 +24,6 @@ created: 29. November 2022
 - In einem Git-Projekt, in der obersten Verzeichnis-Hierarchie
 - Neue Datei erstellen `.gitlab-ci.yaml`
 - Beispielhaft 2 Stages (2 Stufen in der Pipeline): Build-Stage und Test-Stage  
-
 
 ```yaml
 stages:

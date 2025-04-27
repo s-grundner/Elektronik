@@ -12,7 +12,10 @@ draft: false
 
 # Git
 
-> [!info] [Git_Cheat-sheet](assets/Git_Cheat-sheet.pdf)
+> [!info] [Git Basics - Cheatsheet](assets/Git_Cheat-sheet.pdf)
+
+ ---
+ 
 
 ## Einführung
 
@@ -54,7 +57,7 @@ Da das Arbeiten mit Git aktuell sehr populär ist, gibt es eine Vielzahl an Doku
 ## Git Services
 
 - [Gitlab](Gitlab.md)
-- [[GitHub]]
+- [GitHub](GitHub.md)
 
 ## Übersicht
 
@@ -190,7 +193,7 @@ Im Nächsten Schritt wird die Datei in den Head übernommen (*commiten*)
 
 Mit jedem Commit wird eine neue Version erstellt und **main** um Eins weiter geschoben. Zur Unterscheidung von Versionen wird jedem Element ein Hash zugeordnet:
 
-![img](assets/git_ver01.png)
+![invert_dark](assets/git_ver01.png)
 
 Gleichzeitig zeigt ein zweiter Zeiger ebenfalls auf dieses letzte Element, der **Head**-Zeiger. Die in der Übersicht angeführte Parameter `-a` inkludiert den Add-Schritt, fügt aber keine neu eingefügten Dateien ein.
 
@@ -227,7 +230,7 @@ Erstellen eines Zweigs (branch) mit Namen *testing*:
 git branch testing
    ```
 
-![img](assets/git_ver02.png)
+![invert_dark](assets/git_ver02.png)
 
 Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkenswert ist, dass *Head* trotzdem noch auf *main* zeigt (im Hauptpfad). Erst mit *checkout* wechselt *Head* auf den *testing*-Pfad:
 
@@ -235,21 +238,21 @@ Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkensw
 git checkout testing 
 ```
 
-![img](assets/git_ver03.png)
+![invert_dark](assets/git_ver03.png)
 
 Dadurch wird erkennbar: *main* ist immer im Hauptpfad, *Head* ist der letzte Commit, der kann auch in einem Abzweig sein.
 
 Mit einem weiteren *Commit* verändert sich der Baum wie folgt:
 
-   ```
+   ```sh
 git commit -m "Änderung auf c2b9e"
    ```
 
-![img](assets/git_ver04.png)
+![invert_dark](assets/git_ver04.png)
 
 Head bewegt sich im aktiven Pfad (durch *Checkout* auf *testing*) weiter. *main* bleibt im Hauptpfad. Für das *Pushen* eines *Commits* (damit die Teilversionen auch auf dem Remote-Repo landen):
 
-```
+```sh
 git push -u origin testing
 ```
 
@@ -257,27 +260,27 @@ git push -u origin testing
 
 Erst mit einem erneutem *Checkout* kann in den Hauptpfad gewechselt werden:
 
-   ```
+   ```sh
 git checkout main
    ```
 
-![img](assets/git_ver05.png)
+![invert_dark](assets/git_ver05.png)
 
 Ein weiterer *Commit* in diesem Hauptpfad verursacht:
 
-   ```
+   ```sh
 git commit -m "Änderung auf 87ab2"
    ```
 
-   ![img](assets/git_ver06.png)
+   ![invert_dark](assets/git_ver06.png)
 
    Mit einem **merge** von *testing* ist die Folgeversion des *testing*-Pfades wieder im Hauptpfad.
 
-   ```
+   ```sh
 git merge testing
    ```
 
-   ![img](assets/git_ver07.png)
+   ![invert_dark](assets/git_ver07.png)
 
 ## Geteiltes Arbeiten
 
@@ -288,7 +291,7 @@ Für die Entwicklung in einem Team ist es hilfreich, wenn ein Teammitglied für 
 
 Aus der Kommandozeile (nicht ganz üblich) kann ebenfalls ein Merge-Request abgesetzt werden. Dazu muss als zu Mergende Version eine Version wie folgt gepushed werden:
 
-```
+```sh
 git push -o merge_request.create
 ```
 
@@ -296,7 +299,7 @@ git push -o merge_request.create
 
 Sollen *Commit*-Versionen besonders gekennzeichnet werden, erfolgt das mit sogenannten **Tag**s. Etwa werden im Verlauf einer SW-Entwicklung manche Versionen an Kunden abgeliefert und bekommen Versionsnummern. Um eine beliebige Version in einem lokalen Repo zu taggen:
 
-```
+```sh
 git tag -a "V2.4" -m "Meine Version vom 2.3.2017" b75dc1c
 ```
 
@@ -307,7 +310,7 @@ Mit *-m* wird eine zusätzliche (optionale) Beschreibung mit angeführt
 
 Tags werden mit einem normalen *Push* nicht automatisch mit Übertragen. Sie müssen manuell mit übertragen werden (wird als *Tag-Sharing* bezeichnet). 
 
-```
+```sh
 git push origin "v2.4"
 ```
 
@@ -315,14 +318,14 @@ Damit wird das Tag *v2.4* vom Lokalen-Repo auf das Remote-Repo kopiert.
 
 Zum Klonen einer expliziten Version eines Remote-Repos mit Hilfe des obigen *Tags* v2.4 in das aktuelle Verzeichnis (User: usr):
 
-```
+```sh
 git clone --branch v2.4 https://gitlab.com/usr/gitintro_rechner.git ./
 ```
 
 Das Löschen eines Tags auf dem Remote-Repo erfolgt via Benutzeroberfläche. Lokal:
 
-```
->git tag --delete V1.0
+```sh
+git tag --delete V1.0
 ```
 
 ## Git-Server

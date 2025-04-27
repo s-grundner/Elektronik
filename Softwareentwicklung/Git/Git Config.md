@@ -8,6 +8,7 @@ draft: false
 
 # Git Configuration
 
-## SS
+## SSH Auth
 
-[Working with SSH key passphrases - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases)
+[SSH-Key generieren](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases)
+
