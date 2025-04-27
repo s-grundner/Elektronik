@@ -35,7 +35,7 @@ In der Softwareentwicklung kann damit die chronologische Entwicklung einer Softw
 Es gibt viele verschiedene Versionsverwaltungssysteme (SCM-Systeme). Zwei sehr grundlegende Unterschiede verschiedener SCM-Systeme:
 
 - Versionsgeschichte wird auf einem zentralen Server gespeichert. In einer lokalen Version wird lediglich eine Kopie eines einzigen Standes abgelegt.  
- - Git: Demgegenüber gibt es Systeme in denen auf jedem Client lokal eine komplette Versionsgeschichte abgelegt ist. Dabei gibt es den Server dann eigentlich nur für die Synchronisierung zwischen den verteilten Clients.
+- Git: Demgegenüber gibt es Systeme in denen auf jedem Client lokal eine komplette Versionsgeschichte abgelegt ist. Dabei gibt es den Server dann eigentlich nur für die Synchronisierung zwischen den verteilten Clients.
 - Speichern von Unterschieden zwischen zwei Versionen (spart Speicher). In Git: es sind für jede Version die kompletten Daten vorhanden.
 
 Sehr anschauliche Erklärung: [https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-Grundlagen](https://git-scm.com/book/de/v1/Los-geht's-Git-Grundlagen) 
@@ -43,20 +43,18 @@ Sehr anschauliche Erklärung: [https://git-scm.com/book/de/v1/Los-geht%E2%80%99s
 ### Tools
 
 - Notwendig ist ein Server um das SCM zu hosten. Dieser kann selber aufgesetzt werden. Alternativ stehen viele unterschiedliche Hosting-Anbieter zur Verfügung:  
-  <https://git.wiki.kernel.org/index.php/GitHosting>
+<https://git.wiki.kernel.org/index.php/GitHosting>
 
 - Ein Client. Um mit Git arbeiten zu können wird lokal ein Client benötigt, es gibt eine enorme Fülle von Tools, die einfachsten sind Konsolenbasiert, etwa Git-For-Windows:
 
-  <https://git-scm.com/download/win>
+<https://git-scm.com/download/win>
 
-  In sehr vielen Linux-Distributionen ist Git schon inkludiert, also keine Installation notwendig.
-  
-  Auch mit graphischer Unterstützung sind viele Tools verfügbar:  
-  <https://git-scm.com/downloads/guis/>
+In sehr vielen Linux-Distributionen ist Git schon inkludiert, also keine Installation notwendig.
 
-Da das Arbeiten mit Git aktuell sehr populär ist, gibt es eine Vielzahl an Dokumentation für die Arbeit im Internet (siehe Referenzen).
+Auch mit graphischer Unterstützung sind viele Tools verfügbar:  
+<https://git-scm.com/downloads/guis/>
 
-## Git Services
+### Git Services
 
 - [Gitlab](Gitlab.md)
 - [GitHub](GitHub.md)
@@ -70,17 +68,17 @@ Lokal ist ein Repo das auf dem eigenen Rechner abgelegt wird. Dieses **lokale Re
 Ein **Remote Repo** ist eines, von welchem lokale Repos kopiert werden können, oder in welche lokale Repos abliefern können.
 
 1. Ein Lokales Repo besteht grundsätzlich aus 3 Teilen:
+	- die **Arbeitskopie** (workspace): echte Dateien, diese können in der Kommandozeile oder einem Explorer angezeigt werden. Hier wird editiert/gearbeitet.
+	- der **Index**: nur eine *virtuelle Zwischenstufe*. Mit `git add <name>` können Arbeitskopien hier registriert werden.
+	- und der **Head** (im Bild "local repository"): zeigt auf den letzten Commit (freigegebene Version). Mit `git commit -m "Infotxt"` werden die Index-Dateien im Head registriert (sind noch immer nur lokal).
 
-   - die **Arbeitskopie** (workspace): echte Dateien, diese können in der Kommandozeile oder einem Explorer angezeigt werden. Hier wird editiert/gearbeitet.
-   - der **Index**: nur eine *virtuelle Zwischenstufe*. Mit `git add <name>` können Arbeitskopien hier registriert werden.
-   - und der **Head** (im Bild "local repository"): zeigt auf den letzten Commit (freigegebene Version). Mit `git commit -m "Infotxt"` werden die Index-Dateien im Head registriert (sind noch immer nur lokal).
+Vom lokalen Repo aus wird das Remote Repo als **origin** (Ursprung) bezeichnet.
 
-   Vom lokalen Repo aus wird das Remote Repo als **origin** (Ursprung) bezeichnet.
-
-   ![invert_dark](assets/Git-transport.png)
+![invert_dark](assets/Git-transport.png)
 
 2. Im einfachsten (üblichen) Fall hat ein lokales Repo genau ein Remote-Repo. Das Remote-Repo ist über seine Adresse erreichbar. Um einfacher darauf zugegriffen werden kann, wird dem Remote-Repo ein kurzer Name gegeben. Für den erwähnten, einfachen, üblichen Fall wird dieses Repo **Origin** (Ursprung) genannt.  
-   Jeder Pfad der Versionierung hat eine Bezeichnung. Der Hauptpfad heißt **main**. Die Idee: die Entwicklung verläuft linear auf dem *main*-Pfad. Dieser Hauptpfad wird bei der Erstellung eines Repos automatisch erstellt. Wenn immer eine parallele Entwicklung (gleichzeitig unterschiedliche Features) gewünscht ist, wird ein **branch** (Zweig) mit einem gewählten Namen erzeugt. Um zwischen branches umzuschalten: `checkout myBranch` oder zurück `checkout main`
+
+Jeder Pfad der Versionierung hat eine Bezeichnung. Der Hauptpfad heißt **main**. Die Idee: die Entwicklung verläuft linear auf dem *main*-Pfad. Dieser Hauptpfad wird bei der Erstellung eines Repos automatisch erstellt. Wenn immer eine parallele Entwicklung (gleichzeitig unterschiedliche Features) gewünscht ist, wird ein **branch** (Zweig) mit einem gewählten Namen erzeugt. Um zwischen branches umzuschalten: `checkout myBranch` oder zurück `checkout main`
 
 ## Projekt Erstellen
 
@@ -93,7 +91,7 @@ git config --global user.name "myName"
 git config --global user.email "pre.post@yahoo.com"
 ```
 
-  Mit der Angabe *--global* werden die Einstellungen für sämtliche Projekte auf dem verwendeten Rechner getroffen. Soll ein lokales Repo gesonderte Einstellungen haben, dann wird diese mit *--local* getroffen. 
+Mit der Angabe *--global* werden die Einstellungen für sämtliche Projekte auf dem verwendeten Rechner getroffen. Soll ein lokales Repo gesonderte Einstellungen haben, dann wird diese mit *--local* getroffen. 
 
 - Noch ohne Bezug zu einem Remote-Repo kann ein vorhandenes Verzeichnis als lokales Git-Repo definiert werden. Gerade wenn lokal schon ein Projekt gestartet wurde und dieses gleich Remote abgeliefert werden sollen, direkt im lokalen Arbeitsverzeichnis:
 
@@ -101,9 +99,9 @@ git config --global user.email "pre.post@yahoo.com"
 git init
 ```
 
-  Dadurch wird das Verzeichnis *.git* angelegt (durch den führenden Punkt ist das Verzeichnis unsichtbar).
+Dadurch wird das Verzeichnis *.git* angelegt (durch den führenden Punkt ist das Verzeichnis unsichtbar).
 
-  Um dieses Verzeichnis mit einem schon vorhandenen Remote-Repo zu verbinden:
+Um dieses Verzeichnis mit einem schon vorhandenen Remote-Repo zu verbinden:
 
 ```sh
 cd c:\myRepo
@@ -114,13 +112,13 @@ git commit -m "Initial commit"
 git push -u origin main
 ```
 
-  mit `git remote add` wird das Remote-Repo (hier *myRepo*) angegeben (anschließend verfügbar als *origin*). *myGitUser* stellt hier den GitLab-Benutzer dar, der das Projekt erstellt hat (hat nichts mit den Daten oben zu tun). Ein Remote-Repo kann auf drei Arten angegeben werden:
+mit `git remote add` wird das Remote-Repo (hier *myRepo*) angegeben (anschließend verfügbar als *origin*). *myGitUser* stellt hier den GitLab-Benutzer dar, der das Projekt erstellt hat (hat nichts mit den Daten oben zu tun). Ein Remote-Repo kann auf drei Arten angegeben werden:
 
-  - *<https://gitlab.com/myGitUser/myRepo.git*>	https-Protokoll, es wird nach den Verbindungsparametern gefragt
-  - *<http://gitlab.com/myGitUser/myRepo.git*>	http-Protokoll, es wird nach den Verbindungsparametern gefragt
-  - *git@gitlab.com:myGitUser/myRepo.git*	*GitLab*-Protokoll, mittels ssh kann eine RSA-geschützte Verbindung aufgebaut werden
+- *<https://gitlab.com/myGitUser/myRepo.git*>	https-Protokoll, es wird nach den Verbindungsparametern gefragt
+- *<http://gitlab.com/myGitUser/myRepo.git*>	http-Protokoll, es wird nach den Verbindungsparametern gefragt
+- *git@gitlab.com:myGitUser/myRepo.git*	*GitLab*-Protokoll, mittels ssh kann eine RSA-geschützte Verbindung aufgebaut werden
 
-  Mit `git add .` werden sämtliche im Verzeichnis befindliche Dateien in den *Index* *gestagt*, mit `git commit -m "…"` ins lokale Repo *commitet*. Diese Schritte sind natürlich nur dann notwendig, wenn vorhandene Dateien mitgenommen werden sollen.
+Mit `git add .` werden sämtliche im Verzeichnis befindliche Dateien in den *Index* *gestagt*, mit `git commit -m "…"` ins lokale Repo *commitet*. Diese Schritte sind natürlich nur dann notwendig, wenn vorhandene Dateien mitgenommen werden sollen.
 
 - Alternativ kann ein schon vorhandenes Remote-Repo als Start für ein lokales Repo verwendet werden (gerade wenn Remote schon Dateien gehostet sind). Dazu wird lokal ein Verzeichnis erstellt und darin ausgeführt:
 
@@ -163,7 +161,7 @@ git push origin main
 pause
 ```
 
-  Wichtig ist dabei natürlich, dass das Repo mittels *GitLab*-Protopkoll und ssh konfiguriert ist, ansonsten muss jedes mal eine Legitimierung angegeben werden (Benutzer/Kennwort).
+Wichtig ist dabei natürlich, dass das Repo mittels *GitLab*-Protopkoll und ssh konfiguriert ist, ansonsten muss jedes mal eine Legitimierung angegeben werden (Benutzer/Kennwort).
 
 - Update vom Remote-Repo an lokales Repo: wenn Remote-Repo-Änderungen direkt in die lokale Arbeitskopie gemergt werden sollen, kann das mit `git pull` erfolgen. Wenn die Änderung manuell in die lokale Arbeitskopie erfolgen soll, dann kann die Remote-Version mittels `git fetch` geholt werden. Die Änderungen können mit `git diff origin/main` geprüft werden.
 
@@ -173,13 +171,13 @@ pause
 git clone https://gitlab.com/usr/gitintro_counter ./
 ```
 
-   Mit ./ wird direkt ins aktuelle Verzeichnis geklont. Anschließend ein Checkout:
+Mit ./ wird direkt ins aktuelle Verzeichnis geklont. Anschließend ein Checkout:
 
 ```sh
 git checkout 983e5ca
 ```
 
-   Damit wird auf den speziellen Commit gestellt.
+Damit wird auf den speziellen Commit gestellt.
 
 ## Version erstellen
 
@@ -284,7 +282,7 @@ Mit einem **merge** von *testing* ist die Folgeversion des *testing*-Pfades wied
 git merge testing
 ```
 
-   ![invert_dark](assets/git_ver07.png)
+![invert_dark](assets/git_ver07.png)
 
 ## Geteiltes Arbeiten
 
@@ -399,7 +397,7 @@ git push origin xyza
 git checkout origin/main
 ```
 
-  Damit ist lokal der main-Branch verfügbar, vor jedem Arbeiten wieder auf eigenen Branch wechseln:
+Damit ist lokal der main-Branch verfügbar, vor jedem Arbeiten wieder auf eigenen Branch wechseln:
 
 ```sh
 git checkout xyza
@@ -417,35 +415,35 @@ git reset --hard origin/xyza
 ## Überblick
 
 1. Erstellen eines Remote-Repos und eines dazu passenden lokalen Repos:
-   - auf *GitLab*-Projekt erstellen (*myProject*)
-   - lokal einen Ordner auswählen in welchem das lokale Repo liegen soll
-   - Für User myUser: `git clone https://gitlab.com/myUser/myProject.git ./`  
-    (mit SSH: `git@gitlab.com:myUser/myProject.git ./`)
-   
-2. Lokale Veränderungen nach Remote übernehmen
-   - als Beispiel wurde die Datei *myFile.txt* lokal bearbeitet
-   - Datei vom Arbeitsverzeichnis in den Index *stagen*: `git add myFile.txt`
-   - Datei vom Index in den Head *commiten* (vor dem aller ersten Mal:`git config …`) : `git commit -m "myFile verändert" myFile.txt`
-   - Datei vom Head in das Remote-Repo übernehmen: `git push -u origin main`
-   
-3. Remote Veränderung übernehmen, sofern lokal noch keine Veränderung seit dem letzten Push erfolgte:
+- auf *GitLab*-Projekt erstellen (*myProject*)
+- lokal einen Ordner auswählen in welchem das lokale Repo liegen soll
+- Für User myUser: `git clone https://gitlab.com/myUser/myProject.git ./`  
+(mit SSH: `git@gitlab.com:myUser/myProject.git ./`)
 
-  `git pull -u origin main`
+1. Lokale Veränderungen nach Remote übernehmen
+- als Beispiel wurde die Datei *myFile.txt* lokal bearbeitet
+- Datei vom Arbeitsverzeichnis in den Index *stagen*: `git add myFile.txt`
+- Datei vom Index in den Head *commiten* (vor dem aller ersten Mal:`git config …`) : `git commit -m "myFile verändert" myFile.txt`
+- Datei vom Head in das Remote-Repo übernehmen: `git push -u origin main`
+
+1. Remote Veränderung übernehmen, sofern lokal noch keine Veränderung seit dem letzten Push erfolgte:
+
+`git pull -u origin main`
 
 1. Branching: um einen Zweig zu erstellen mit dem Namen *newFeature*
 
-   - `git checkout -b newFeature` (-b: nacheinander `git branch` und `git checkout`)
-   - zum Rückwechseln auf den main-Pfad:`git checkout main`
-   - Zum Branch löschen `git branch -d newFeature`
-   - Zum Hochladen des lokal erstellten Branch: `git push origin newFeature`
+- `git checkout -b newFeature` (-b: nacheinander `git branch` und `git checkout`)
+- zum Rückwechseln auf den main-Pfad:`git checkout main`
+- Zum Branch löschen `git branch -d newFeature`
+- Zum Hochladen des lokal erstellten Branch: `git push origin newFeature`
 
 2. Merge
 
-   - `git merge <branch>` zum Zusammenführen des aktuellen Branches (zuletzt mit *Checkout* gewählt) mit \<branch\>. 
+- `git merge <branch>` zum Zusammenführen des aktuellen Branches (zuletzt mit *Checkout* gewählt) mit \<branch\>. 
 
 3. Ältere Commit Version vom remote Repo auf lokalen Repo wiederherstellen (alles lokale wird Gelöscht/Überschrieben):
 
-   - `git reset --hard c05c20be` die angeführte Nummer ist der SH des Commits. Am Remote-Repo bleibt alles gleich.
+- `git reset --hard c05c20be` die angeführte Nummer ist der SH des Commits. Am Remote-Repo bleibt alles gleich.
 
 4. Änderung einer lokalen Datei auf dem *Workspace* (ohne *stage* und *commit*) rückgängig machen (aus dem lokalen Repo):
 
@@ -483,7 +481,7 @@ git diff FETCH_HEAD
 ```sh
 git fetch origin main
 From gitlab.com:username/myproject
- * branch            main     -FETCH_HEAD
+* branch            main     -FETCH_HEAD
 
 git checkout FETCH_HEAD
 ```
