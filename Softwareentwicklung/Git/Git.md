@@ -27,18 +27,20 @@ Git ist eine Versionsverwaltung.
 In der Softwareentwicklung kann damit die chronologische Entwicklung einer Software verwaltet werden. Gerade in der Softwareentwicklung ist das wichtig, weil:
 
 - oftmals vorhergehende Softwarestände wiederhergestellt werden sollen, etwa um eine erfolglose Veränderung/Erweiterung rückgängig zu machen.  
-  Häufig sollen Softwarestände wiederhergestellt werden die an Kunden ausgeliefert wurden, vielleicht um für die entsprechende Version Veränderungen oder Korrekturen einbauen zu können.
+
+- Häufig sollen Softwarestände wiederhergestellt werden die an Kunden ausgeliefert wurden, vielleicht um für die entsprechende Version Veränderungen oder Korrekturen einbauen zu können.
+
 - für parallele Entwicklungen (mit mehreren/vielen Softwareentwickler) werden definierte Softwarestände benötigt um aufgeteilt an verschiedenen Teilen arbeiten zu können und sie anschließend wieder zusammenführen zu können.
 
 Es gibt viele verschiedene Versionsverwaltungssysteme (SCM-Systeme). Zwei sehr grundlegende Unterschiede verschiedener SCM-Systeme:
 
 - Versionsgeschichte wird auf einem zentralen Server gespeichert. In einer lokalen Version wird lediglich eine Kopie eines einzigen Standes abgelegt.  
-  Git: Demgegenüber gibt es Systeme in denen auf jedem Client lokal eine komplette Versionsgeschichte abgelegt ist. Dabei gibt es den Server dann eigentlich nur für die Synchronisierung zwischen den verteilten Clients.
+ - Git: Demgegenüber gibt es Systeme in denen auf jedem Client lokal eine komplette Versionsgeschichte abgelegt ist. Dabei gibt es den Server dann eigentlich nur für die Synchronisierung zwischen den verteilten Clients.
 - Speichern von Unterschieden zwischen zwei Versionen (spart Speicher). In Git: es sind für jede Version die kompletten Daten vorhanden.
 
 Sehr anschauliche Erklärung: [https://git-scm.com/book/de/v1/Los-geht%E2%80%99s-Git-Grundlagen](https://git-scm.com/book/de/v1/Los-geht's-Git-Grundlagen) 
 
-## Tools
+### Tools
 
 - Notwendig ist ein Server um das SCM zu hosten. Dieser kann selber aufgesetzt werden. Alternativ stehen viele unterschiedliche Hosting-Anbieter zur Verfügung:  
   <https://git.wiki.kernel.org/index.php/GitHosting>
@@ -75,7 +77,7 @@ Ein **Remote Repo** ist eines, von welchem lokale Repos kopiert werden können, 
 
    Vom lokalen Repo aus wird das Remote Repo als **origin** (Ursprung) bezeichnet.
 
-   ![Git-transport](assets/Git-transport.png)
+   ![invert_dark](assets/Git-transport.png)
 
 2. Im einfachsten (üblichen) Fall hat ein lokales Repo genau ein Remote-Repo. Das Remote-Repo ist über seine Adresse erreichbar. Um einfacher darauf zugegriffen werden kann, wird dem Remote-Repo ein kurzer Name gegeben. Für den erwähnten, einfachen, üblichen Fall wird dieses Repo **Origin** (Ursprung) genannt.  
    Jeder Pfad der Versionierung hat eine Bezeichnung. Der Hauptpfad heißt **main**. Die Idee: die Entwicklung verläuft linear auf dem *main*-Pfad. Dieser Hauptpfad wird bei der Erstellung eines Repos automatisch erstellt. Wenn immer eine parallele Entwicklung (gleichzeitig unterschiedliche Features) gewünscht ist, wird ein **branch** (Zweig) mit einem gewählten Namen erzeugt. Um zwischen branches umzuschalten: `checkout myBranch` oder zurück `checkout main`
@@ -86,31 +88,31 @@ Ein Projekt kann auf *GitLab* einfach (menügeführt) erstellt werden. Beim Eins
 
 - Für das lokale *Commiten* von Versionen müssen lokal diese Einstellungen getroffen werden:
 
-  ```
-  git config --global user.name "myName"
-  git config --global user.email "pre.post@yahoo.com"
-  ```
+```sh
+git config --global user.name "myName"
+git config --global user.email "pre.post@yahoo.com"
+```
 
   Mit der Angabe *--global* werden die Einstellungen für sämtliche Projekte auf dem verwendeten Rechner getroffen. Soll ein lokales Repo gesonderte Einstellungen haben, dann wird diese mit *--local* getroffen. 
 
 - Noch ohne Bezug zu einem Remote-Repo kann ein vorhandenes Verzeichnis als lokales Git-Repo definiert werden. Gerade wenn lokal schon ein Projekt gestartet wurde und dieses gleich Remote abgeliefert werden sollen, direkt im lokalen Arbeitsverzeichnis:
 
-  ```
-  git init
-  ```
+```sh
+git init
+```
 
   Dadurch wird das Verzeichnis *.git* angelegt (durch den führenden Punkt ist das Verzeichnis unsichtbar).
 
   Um dieses Verzeichnis mit einem schon vorhandenen Remote-Repo zu verbinden:
 
-  ```
-  cd c:\myRepo
-  git init
-  git remote add origin https://gitlab.com/myGitUser/myRepo.git
-  git add .
-  git commit -m "Initial commit"
-  git push -u origin main
-  ```
+```sh
+cd c:\myRepo
+git init
+git remote add origin https://gitlab.com/myGitUser/myRepo.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
 
   mit `git remote add` wird das Remote-Repo (hier *myRepo*) angegeben (anschließend verfügbar als *origin*). *myGitUser* stellt hier den GitLab-Benutzer dar, der das Projekt erstellt hat (hat nichts mit den Daten oben zu tun). Ein Remote-Repo kann auf drei Arten angegeben werden:
 
@@ -122,9 +124,9 @@ Ein Projekt kann auf *GitLab* einfach (menügeführt) erstellt werden. Beim Eins
 
 - Alternativ kann ein schon vorhandenes Remote-Repo als Start für ein lokales Repo verwendet werden (gerade wenn Remote schon Dateien gehostet sind). Dazu wird lokal ein Verzeichnis erstellt und darin ausgeführt:
 
-   ```
-   git clone https://gitlab.com/usr/myProj ./
-   ```
+```sh
+git clone https://gitlab.com/usr/myProj ./
+```
 
 Mit `git add .` wird der aktuelle Inhalt des lokalen Arbeitsverzeichnisses ins Repo mitgenommen. Die oben (in der Abbildung) angeführte Option `-u` (update) kopiert geänderte Dateien und entfernt gelöschte Elemente. Allerdings fügt es dann nicht neue Elemente dazu. Um nicht sämtliche Dateien eines Verzeichnisses in ein Repo mitzunehmen können diese exkludiert werden (eine IDE generiert oft temporäre Arbeitsdateien):
 
@@ -132,34 +134,34 @@ Mit `git add .` wird der aktuelle Inhalt des lokalen Arbeitsverzeichnisses ins R
 
 - *sinnlose* Dateien ausnehmen. Dazu muss im Pfad die Datei *.gitignore* erzeugt werden und mit den Ausnahmen eingetragen werden:
 
-  ```
-  $ cat .gitignore
-  
-  # Werden beim Build erstellt:
-  */Release/*
-  */Release/*/*
-  */Release/*/*/*
-  */Release/*/*/*/*
-  */Release/*/*/*/*/*
-  */Release/*/*/*/*/*/*
-  
-  # wird beim Build erstellt
-  *.mk
-  
-  # logs werden ignoriert ausser der .gitkeep-Datei
-  /logs/*
-  !logs/.gitkeep
-  ```
+```sh
+cat .gitignore
+
+# Werden beim Build erstellt:
+*/Release/*
+*/Release/*/*
+*/Release/*/*/*
+*/Release/*/*/*/*
+*/Release/*/*/*/*/*
+*/Release/*/*/*/*/*/*
+
+# wird beim Build erstellt
+*.mk
+
+# logs werden ignoriert ausser der .gitkeep-Datei
+/logs/*
+!logs/.gitkeep
+```
 
 - Für einen zyklisches Upload (manuell) kann ein Skript *upload_to_gitlab.bat* erstellt werden:
 
-  ```
-  git add *.c
-  git add *.h
-  git commit -m "... cyclic update ..."
-  git push origin main
-  pause
-  ```
+```sh
+git add *.c
+git add *.h
+git commit -m "... cyclic update ..."
+git push origin main
+pause
+```
 
   Wichtig ist dabei natürlich, dass das Repo mittels *GitLab*-Protopkoll und ssh konfiguriert ist, ansonsten muss jedes mal eine Legitimierung angegeben werden (Benutzer/Kennwort).
 
@@ -167,28 +169,30 @@ Mit `git add .` wird der aktuelle Inhalt des lokalen Arbeitsverzeichnisses ins R
 
 - Erstellen einer speziellen Commit-Version. Jeder Commit wird durch einen Hash-Wert unterschieden. Um einen speziellen Commit wiederherzustellen wird der gesamte Baum geklont und anschließend die gewünschte Version ausgecheckt:
 
-   ```
-  git clone https://gitlab.com/usr/gitintro_counter ./
-  ```
+```sh
+git clone https://gitlab.com/usr/gitintro_counter ./
+```
 
    Mit ./ wird direkt ins aktuelle Verzeichnis geklont. Anschließend ein Checkout:
-  
-      git checkout 983e5ca
-  
+
+```sh
+git checkout 983e5ca
+```
+
    Damit wird auf den speziellen Commit gestellt.
 
 ## Version erstellen
 
 Eine Datei in der lokalen Arbeitskopie wird verändert. Um diese Datei in den Index zu übernehmen (*stagen*):
 
-```
- git add adc_conf.c
+```sh
+git add adc_conf.c
 ```
 
 Im Nächsten Schritt wird die Datei in den Head übernommen (*commiten*)
 
-```
- git commit -m "LED input moved" adc_conf.c
+```sh
+git commit -m "LED input moved" adc_conf.c
 ```
 
 Mit jedem Commit wird eine neue Version erstellt und **main** um Eins weiter geschoben. Zur Unterscheidung von Versionen wird jedem Element ein Hash zugeordnet:
@@ -199,23 +203,23 @@ Gleichzeitig zeigt ein zweiter Zeiger ebenfalls auf dieses letzte Element, der *
 
 Wenn eine Nicht-Commitete (geadded) Version gelöscht werden soll:
 
-```
- git stash
- git stash drop
+```sh
+git stash
+git stash drop
 ```
 
 Mit *stash* können Nicht-Commitete Elemente auf einem Stack gespeichert werden und aus dem lokalen Arbeitsbereich gelöscht werden um evtl. andere Versionen pullen zu können. Mit `git stash list` können diese *Stashes* angezeigt und mit `git stash apply ` wieder *gemerget* werden. Explizites Löschen eines *Stashes*: `git stash drop stash@{0}`.
 
 Damit ein Versions-Verlauf ein wenig besser dargestellt wird gibt es eine graphische Darstellung des lokalen Baumes:
 
-```
- git log --graph --decorate --pretty=oneline --abbrev-commit
+```sh
+git log --graph --decorate --pretty=oneline --abbrev-commit
 ```
 
 Darstellung des Remote-Verlaufs:
 
-```
- git log --graph --decorate --pretty=oneline --abbrev-commit origin
+```sh
+git log --graph --decorate --pretty=oneline --abbrev-commit origin
 ```
 
 (Um die Version auch in das Remote-Repo zu übernehmen muss sie noch gepusht werden)
@@ -226,15 +230,15 @@ Nehmen zwei Entwickler gleichzeitig von der gleichen Version ausgehend Änderung
 
 Erstellen eines Zweigs (branch) mit Namen *testing*:
 
-   ```
+```sh
 git branch testing
-   ```
+```
 
 ![invert_dark](assets/git_ver02.png)
 
 Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkenswert ist, dass *Head* trotzdem noch auf *main* zeigt (im Hauptpfad). Erst mit *checkout* wechselt *Head* auf den *testing*-Pfad:
 
-```
+```sh
 git checkout testing 
 ```
 
@@ -244,9 +248,9 @@ Dadurch wird erkennbar: *main* ist immer im Hauptpfad, *Head* ist der letzte Com
 
 Mit einem weiteren *Commit* verändert sich der Baum wie folgt:
 
-   ```sh
+```sh
 git commit -m "Änderung auf c2b9e"
-   ```
+```
 
 ![invert_dark](assets/git_ver04.png)
 
@@ -260,25 +264,25 @@ git push -u origin testing
 
 Erst mit einem erneutem *Checkout* kann in den Hauptpfad gewechselt werden:
 
-   ```sh
+```sh
 git checkout main
-   ```
+```
 
 ![invert_dark](assets/git_ver05.png)
 
 Ein weiterer *Commit* in diesem Hauptpfad verursacht:
 
-   ```sh
+```sh
 git commit -m "Änderung auf 87ab2"
-   ```
+```
 
-   ![invert_dark](assets/git_ver06.png)
+![invert_dark](assets/git_ver06.png)
 
-   Mit einem **merge** von *testing* ist die Folgeversion des *testing*-Pfades wieder im Hauptpfad.
+Mit einem **merge** von *testing* ist die Folgeversion des *testing*-Pfades wieder im Hauptpfad.
 
-   ```sh
+```sh
 git merge testing
-   ```
+```
 
    ![invert_dark](assets/git_ver07.png)
 
@@ -342,75 +346,75 @@ Für Linux (inklusive Setup für SSH-Verbindung):
 
 - Erstellen Sie ein lokales Verzeichnis für den Unterricht
 
-  ```
-  mkdir c:\lieblingsOrdner
-  ```
+```sh
+mkdir c:\lieblingsOrdner
+```
 
 - Klonen des Unterrichtsordners in das lokale Verzeichnis (eigenes Namenskürzel *xyza*):
 
-  ```
-  c:\lieblingsOrdner> git clone https://gitlab.com/fosy/ ....     ./
-  git config --global user.name xyza
-  git config --global user.email xyza@htuu-salzburg.ac.at
-  ```
+```sh
+c:\lieblingsOrdner> git clone https://gitlab.com/fosy/ ....     ./
+git config --global user.name xyza
+git config --global user.email xyza@htuu-salzburg.ac.at
+```
 
 - Der main-Branch wird zur Verfügung gestellt. Darin sind Skripten, Aufgaben und Anleitungen enthalten. Mit dem Klonen wurde dieser main-Branch kopiert.
 
 - Legen Sie einen Branch mit Ihrem Namenskürzel *xyza* an. In diesen Branch werden Ihre Entwicklungen abgeliefert.
 
-  ```
-  git branch xyza
-  git checkout xyza
-  ```
+```sh
+git branch xyza
+git checkout xyza
+```
 
 - Um die Vorgaben aktuell zu halten, muss der main-Branch up-to-date gehalten werden (z.B. nach Aufforderung oder vor dem Unterricht):
 
-  ```
-  git checkout main
-  git pull origin main
-  ```
+```sh
+git checkout main
+git pull origin main
+```
 
 - Um Teile aus dem main-Branch in den eigenen Branch zu übernehmen (in diesem Fall etwa den Ordner Aufg04):
 
-  ```
-  git checkout xyza
-  git checkout main Aufg04
-  ```
+```sh
+git checkout xyza
+git checkout main Aufg04
+```
 
 - Lösen einer Aufgabe hat folgenden Vorgang:
 
-  ```
-  git checkout xyza
-  
-  
-  ... Einbau der Änderungen ...
-  
-  
-  git add .
-  git commit -m "Loesung Aufgabe 04"
-  git push origin xyza
-  ```
+```sh
+git checkout xyza
+
+... Einbau der Änderungen ...
+
+git add .
+git commit -m "Loesung Aufgabe 04"
+git push origin xyza
+```
 
 - Stöbern auf dem main-Branch:
 
-  ```
-  git checkout origin/main
-  ```
+```sh
+git checkout origin/main
+```
 
   Damit ist lokal der main-Branch verfügbar, vor jedem Arbeiten wieder auf eigenen Branch wechseln:
 
-  ```
-  git checkout xyza
-  ```
+```sh
+git checkout xyza
+```
 
 - Zurücksetzten des eigenen lokalen Ordners auf die letzte Ablieferung - damit gehen sämtliche lokale Änderungen verloren:
 
-  ```
-  git checkout xyza
-  git reset --hard origin/xyza
-  ```
+```sh
+git checkout xyza
+git reset --hard origin/xyza
+```
 
-## Kurz
+---
+
+## Überblick
 
 1. Erstellen eines Remote-Repos und eines dazu passenden lokalen Repos:
    - auf *GitLab*-Projekt erstellen (*myProject*)
@@ -445,88 +449,82 @@ Für Linux (inklusive Setup für SSH-Verbindung):
 
 4. Änderung einer lokalen Datei auf dem *Workspace* (ohne *stage* und *commit*) rückgängig machen (aus dem lokalen Repo):
 
-   ```
-   git restore main.cpp
-   ```
+```sh
+git restore main.cpp
+```
 
 5. Anzeigen von allen Branches:
 
-   ```
-   git branch
-   * main
-   ```
+```sh
+git branch
+* main
+```
 
 6. Ändern der *Commit*-Beschreibung nach dem *Commit*
 
-   ```
-   git commit --amend -m "New Message"
-   ```
+```sh
+git commit --amend -m "New Message"
+```
 
 7. Prüfen des Unterschieds lokalesund Remote-Repo:
 
-   ```
-   > git fetch origin main
-   From gitlab.com:username/myproject
-    * branch            main     -> FETCH_HEAD
-   
-   > git diff FETCH_HEAD
-   ```
+```sh
+git fetch origin main
+From gitlab.com:username/myproject
+* branch            main     -FETCH_HEAD
 
-   *fetch* holt *main* von *origin* als *FETCH_HEAD*.
+git diff FETCH_HEAD
+```
+
+*fetch* holt *main* von *origin* als *FETCH_HEAD*.
 
 8. Umschalten auf den *FETCH_HEAD* Status:
 
-    ``` 
-    > git fetch origin main
-    From gitlab.com:username/myproject
-     * branch            main     -> FETCH_HEAD
-    
-    > git checkout FETCH_HEAD
-    ```
+```sh
+git fetch origin main
+From gitlab.com:username/myproject
+ * branch            main     -FETCH_HEAD
 
-    und zurück:
+git checkout FETCH_HEAD
+```
 
-    ```
-    git checkout main
-    ```
+und zurück:
+
+```sh
+git checkout main
+```
 
 9. Ein Lokales Repo zurücksetzen (alle lokalen Änderungen gehen verloren):
 
-    ```
-    git fetch --all
-    git reset --hard origin/main
-    ```
+```sh
+git fetch --all
+git reset --hard origin/main
+```
 
 10. Wechsel zwischen unterschiedlicher Remote-Versionen:
 
-    ```
-    git checkout origin/main
-    git checkout origin/testbranch
-    ```
+```sh
+git checkout origin/main
+git checkout origin/testbranch
+```
 
-    Unabhängig davon wo die lokale Konfiguration steht wird auf die entsprechende Remote-Version gewechselt.
+Unabhängig davon wo die lokale Konfiguration steht wird auf die entsprechende Remote-Version gewechselt.
+
+---
 
 ## Referenzen
 
 - Einführung Versionsverwaltung - Git:
-
-  [mittwald](https://www.mittwald.de/blog/webentwicklung-design/webentwicklung/versionsverwaltung-einfuhrung-in-git-teil-1)
-
-- Sehr anschauliche Einführung git:  
-  [https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf](https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf)  
-  http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de/ch01.html
-
+	- [mittwald](https://www.mittwald.de/blog/webentwicklung-design/webentwicklung/versionsverwaltung-einfuhrung-in-git-teil-1)
+- Sehr anschauliche Einführung git:
+	- [https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf](https://se.ewi.tudelft.nl/ti3115tu-2018/resources/01-git-and-gitlab.pdf) 
+	- http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/de/ch01.html
 - Ein erster Überblick / Cheatsheet:
-
-  [rogerdudler](https://rogerdudler.github.io/git-guide/index.de.html)
-
-- Interaktive, sehr anschauliche Übersicht:  
-  [git-cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
-
-- Online Git-Doku:  
-  [git-scm](https://git-scm.com/book/de/v1/Git-Grundlagen)
-  
-- Eigener Git-Server (deutsche Anleitung):
-  
-  [git-scm:Git-auf-dem-Server](https://git-scm.com/book/de/v1/Git-auf-dem-Server)  
-  [nullpointer](http://www.nullpointer.at/2011/10/15/howto-der-eigene-git-server-mit-gitosis/)
+	- [rogerdudler](https://rogerdudler.github.io/git-guide/index.de.html)
+- Interaktive, sehr anschauliche Übersicht:
+	- [git-cheatsheet](http://ndpsoftware.com/git-cheatsheet.html)
+- Online Git-Doku:
+	- [git-scm](https://git-scm.com/book/de/v1/Git-Grundlagen)
+- Eigener Git-Server (deutsche Anleitung)
+	- [git-scm:Git-auf-dem-Server](https://git-scm.com/book/de/v1/Git-auf-dem-Server)
+	- [nullpointer](http://www.nullpointer.at/2011/10/15/howto-der-eigene-git-server-mit-gitosis/)
