@@ -10,5 +10,9 @@ draft: false
 
 ## System Maintenance
 
-> [!error] Pacman PGP Signing error
-> Wenn bei einem System-Update der keyring veraltet ist, dann das System 
+> [!error] Pacman PGP Signing error [(Wiki)](https://wiki.archlinux.org/title/Pacman/Package_signing)
+> Wenn bei einem System-Update der keyring veraltet ist, dann das System folgendermaßen Updaten:
+>
+> ```sh
+> pacman -Sy --needed archlinux-keyring && pacman -Su
+> ```

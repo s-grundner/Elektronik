@@ -51,23 +51,10 @@ Sehr anschauliche Erklärung: [https://git-scm.com/book/de/v1/Los-geht%E2%80%99s
 
 Da das Arbeiten mit Git aktuell sehr populär ist, gibt es eine Vielzahl an Dokumentation für die Arbeit im Internet (siehe Referenzen).
 
-## Gitlab
+## Git Services
 
-### Vorbereitung
-
-Für *GitLab* wird ein SSH-Schlüssel benötigt. Dafür muss, wenn ein für einen neu angelegten Benutzer ein neues Projekt erstellt wird, ein Schlüssel generiert und eingegeben werden. Dazu:
-
-- SSH-Schlüssel erzeugen mittels `ssh-keygen` in der Kommandozeile. Dabei wird ein passender Schlüssel in `c:\users\xxxxxx\.ssh\id_rsa.pub` generiert (in aktuellen Versionen von Windows 10 ist OpenSSH als APP direkt aktivierbar).
-- Alternativ dazu kann zum Beispiel im Windows-Explorer im Kontext-Menü des .Git-Verzeichnisses Git-Gui gestartet werden und darin in Help->Show SSH ein Key generiert werden.
-- Dieser Key wird komplett kopiert und in Gitlab unter User Settings->SSH-Keys eingefügt.
-
-### Projekt Teilen
-
-Beim Erstellen eines Projekts wird das Projekt auf *private* gesetzt. Dadurch wird das Projekt nicht automatisch für jedermann zugreifbar.
-
-Wird ein Projekt mit jemanden geteilt wird in den Projekteinstellungen unter Members der entsprechende Anwender für das aktuelle Projekt dazugefügt. Dabei kann der Anwender mittels Gitlab-User oder einer Mail-Adresse angeführt werden. Dabei wird auch die Rolle eingestellt: <https://docs.gitlab.com/ee/user/permissions.html>
-
-Für Benutzer die Code auch verändern können sollen ist zumindest die Rolle *Reporter* notwendig (via Branch und Merge - Details siehe Link). Um direkt im *main*-Branch Änderungen tätigen zu können muss zumindest die Rolle *Maintainer* zugeteilt sein.
+- [Gitlab](Gitlab.md)
+- [[GitHub]]
 
 ## Übersicht
 
@@ -85,7 +72,7 @@ Ein **Remote Repo** ist eines, von welchem lokale Repos kopiert werden können, 
 
    Vom lokalen Repo aus wird das Remote Repo als **origin** (Ursprung) bezeichnet.
 
-   ![Git-transport](Git-transport.png)
+   ![Git-transport](assets/Git-transport.png)
 
 2. Im einfachsten (üblichen) Fall hat ein lokales Repo genau ein Remote-Repo. Das Remote-Repo ist über seine Adresse erreichbar. Um einfacher darauf zugegriffen werden kann, wird dem Remote-Repo ein kurzer Name gegeben. Für den erwähnten, einfachen, üblichen Fall wird dieses Repo **Origin** (Ursprung) genannt.  
    Jeder Pfad der Versionierung hat eine Bezeichnung. Der Hauptpfad heißt **main**. Die Idee: die Entwicklung verläuft linear auf dem *main*-Pfad. Dieser Hauptpfad wird bei der Erstellung eines Repos automatisch erstellt. Wenn immer eine parallele Entwicklung (gleichzeitig unterschiedliche Features) gewünscht ist, wird ein **branch** (Zweig) mit einem gewählten Namen erzeugt. Um zwischen branches umzuschalten: `checkout myBranch` oder zurück `checkout main`
@@ -203,7 +190,7 @@ Im Nächsten Schritt wird die Datei in den Head übernommen (*commiten*)
 
 Mit jedem Commit wird eine neue Version erstellt und **main** um Eins weiter geschoben. Zur Unterscheidung von Versionen wird jedem Element ein Hash zugeordnet:
 
-![img](git_ver01.png)
+![img](assets/git_ver01.png)
 
 Gleichzeitig zeigt ein zweiter Zeiger ebenfalls auf dieses letzte Element, der **Head**-Zeiger. Die in der Übersicht angeführte Parameter `-a` inkludiert den Add-Schritt, fügt aber keine neu eingefügten Dateien ein.
 
@@ -240,7 +227,7 @@ Erstellen eines Zweigs (branch) mit Namen *testing*:
 git branch testing
    ```
 
-![img](git_ver02.png)
+![img](assets/git_ver02.png)
 
 Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkenswert ist, dass *Head* trotzdem noch auf *main* zeigt (im Hauptpfad). Erst mit *checkout* wechselt *Head* auf den *testing*-Pfad:
 
@@ -248,7 +235,7 @@ Der Branch-Zeiger *testing* zeigt auf die gleiche Version wie *main*. Bemerkensw
 git checkout testing 
 ```
 
-![img](git_ver03.png)
+![img](assets/git_ver03.png)
 
 Dadurch wird erkennbar: *main* ist immer im Hauptpfad, *Head* ist der letzte Commit, der kann auch in einem Abzweig sein.
 
@@ -258,7 +245,7 @@ Mit einem weiteren *Commit* verändert sich der Baum wie folgt:
 git commit -m "Änderung auf c2b9e"
    ```
 
-![img](git_ver04.png)
+![img](assets/git_ver04.png)
 
 Head bewegt sich im aktiven Pfad (durch *Checkout* auf *testing*) weiter. *main* bleibt im Hauptpfad. Für das *Pushen* eines *Commits* (damit die Teilversionen auch auf dem Remote-Repo landen):
 
@@ -274,7 +261,7 @@ Erst mit einem erneutem *Checkout* kann in den Hauptpfad gewechselt werden:
 git checkout main
    ```
 
-![img](git_ver05.png)
+![img](assets/git_ver05.png)
 
 Ein weiterer *Commit* in diesem Hauptpfad verursacht:
 
@@ -282,7 +269,7 @@ Ein weiterer *Commit* in diesem Hauptpfad verursacht:
 git commit -m "Änderung auf 87ab2"
    ```
 
-   ![img](git_ver06.png)
+   ![img](assets/git_ver06.png)
 
    Mit einem **merge** von *testing* ist die Folgeversion des *testing*-Pfades wieder im Hauptpfad.
 
@@ -290,7 +277,7 @@ git commit -m "Änderung auf 87ab2"
 git merge testing
    ```
 
-   ![img](git_ver07.png)
+   ![img](assets/git_ver07.png)
 
 ## Geteiltes Arbeiten
 
