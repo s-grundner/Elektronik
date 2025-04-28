@@ -28,9 +28,9 @@ banner_y: 0.644
 
 Die Gleichstrommaschine ist ein reziprokes Elektromechanisches System und kann daher als Gleichstrommotor bzw. -generator behandelt werden. Wegen dieser Eigenschaft ist die **mechanischen Leistung** gleich der inneren **elektrische Leistung**.
 
-$$ P_{m} = \Omega M=U_{q}I_{A} $$
+$$ P_{m} = \omega M=U_{q}I_{A} $$
 
-|       $\Omega$        | $M$        | $U_{q}$       | $I_{A}$    |
+|       $\omega$        | $M$        | $U_{q}$       | $I_{A}$    |
 | :-------------------: | :--------: | :-----------: | :--------: |
 | Winkelgeschwindigkeit | Drehmoment | Quellspannung | Ankerstrom |
 
