@@ -17,7 +17,24 @@ draft: false
 
 ## Movements und Commands
 
-- [Vim Doesn't Need Multi Cursors Like IDEs - YouTube](https://www.youtube.com/watch?v=tdbHFNxEBhM)
+### Visual Block Mode, Macros
+
+```vim
+:
+```
+
+- [Arbeiten mit Multicursor](https://www.youtube.com/watch?v=tdbHFNxEBhM)
+
+### Filter
+
+```vim
+:help !
+```
+
+> [!example] Beispiel: im Buffer ist im Visual-Mode folgender String Selektiert:
+> `1+2+5*5`
+> Ziel ist es den Ausdruck mit dem Basic-Calculator Programm `bc` auszuwerten
+> `'<,'>!bc`
 
 ## Neovim - NVChad
 
