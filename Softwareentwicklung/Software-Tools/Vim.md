@@ -20,10 +20,11 @@ draft: false
 ### Visual Block Mode, Macros
 
 ```vim
-:
+:help q
+:help visual-block
 ```
 
-- [Arbeiten mit Multicursor](https://www.youtube.com/watch?v=tdbHFNxEBhM)
+> [!example] [Arbeiten mit Multicursor](https://www.youtube.com/watch?v=tdbHFNxEBhM)
 
 ### Filter
 

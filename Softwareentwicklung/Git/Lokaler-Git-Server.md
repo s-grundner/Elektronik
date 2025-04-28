@@ -1,33 +1,47 @@
+---
+tags: 
+aliases: 
+created: 28. Februar 2025
+title: 
+draft: false
+---
+
 # Git - Lokaler Server
+
+Das Erstellen eines eigenen Git-Servers ist relativ einfach, eine direkte Anleitung für Windows:
+- [https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1](https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1)
+
+Für Linux (inklusive Setup für SSH-Verbindung):
+- <https://www.linux.com/tutorials/how-run-your-own-git-server/>
 
 Sollen Git-Repos selbst gehostet werden (Firmen-Interna auf GitLab?!), dann muss ein Server aufgesetzt werden.
 
-## Remoteund Lokales-Repo auf einem Rechner
+## Remote und Lokales-Repo auf einem Rechner
 
 Voraussetzung: git-for-windows
 
 - Ordner Erstellen (Groß-/Kleinschreibung, Sonderzeichen, Leerzeichen … bewusst einsetzen)
 
-  ```
-  > mkdir c:\git_server
-  ```
+```
+> mkdir c:\git_server
+```
 
 - Projekt Anlegen:
 
-  ```
-  c:\git_server> git init myProject.git --bare
-  Initialized empty Git repository in c:/git_server/myProject.git/
-  ```
+```
+c:\git_server> git init myProject.git --bare
+Initialized empty Git repository in c:/git_server/myProject.git/
+```
 
-  Fertig - das Git-Remote-Repo ist erstellt.
+Fertig - das Git-Remote-Repo ist erstellt.
 
 - lokales Repo auf dem gleichen Rechner, hier soll das lokale Repo im Verzeichnis `c:\temp\myProject` liegen:
 
-  ```
-  > mkdir c:\temp\myProject
-  > cd c:\temp\myProject
-  > git clone c:/git_server/myProject.git ./
-  ```
+```
+> mkdir c:\temp\myProject
+> cd c:\temp\myProject
+> git clone c:/git_server/myProject.git ./
+```
 
 Ab hier kann mit dem lokalen Repo wie gewohnt gearbeitet werden. Das Remote-Repo:
 
@@ -59,6 +73,6 @@ Um ssh zu verwenden müssen die Anwender das Remote-Repo in dieser Form angeben:
 ## Referenzen
 
 - Git-Server für Windows Einrichten  
-  <https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1> 
+<https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1> 
 - SSH einrichten  
-   <https://git-scm.com/book/de/v1/Git-auf-dem-Server-Einrichten-des-Servers> 
+<https://git-scm.com/book/de/v1/Git-auf-dem-Server-Einrichten-des-Servers> 

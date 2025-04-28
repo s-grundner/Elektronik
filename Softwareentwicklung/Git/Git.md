@@ -54,10 +54,11 @@ In sehr vielen Linux-Distributionen ist Git schon inkludiert, also keine Install
 Auch mit graphischer Unterstützung sind viele Tools verfügbar:  
 <https://git-scm.com/downloads/guis/>
 
-### Git Services
+### Git Services und Remote Optionen
 
 - [Gitlab](Gitlab.md)
 - [GitHub](GitHub.md)
+- [Lokaler-Git-Server](Lokaler-Git-Server.md)
 
 ## Übersicht
 
@@ -328,86 +329,6 @@ Das Löschen eines Tags auf dem Remote-Repo erfolgt via Benutzeroberfläche. Lok
 
 ```sh
 git tag --delete V1.0
-```
-
-## Git-Server
-
-Das Erstellen eines eigenen Git-Servers ist relativ einfach, eine direkte Anleitung für Windows:
-
-[https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1](https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1)
-
-Für Linux (inklusive Setup für SSH-Verbindung):
-
-<https://www.linux.com/tutorials/how-run-your-own-git-server/>
-
-## Git im Unterricht
-
-- Erstellen Sie ein lokales Verzeichnis für den Unterricht
-
-```sh
-mkdir c:\lieblingsOrdner
-```
-
-- Klonen des Unterrichtsordners in das lokale Verzeichnis (eigenes Namenskürzel *xyza*):
-
-```sh
-c:\lieblingsOrdner> git clone https://gitlab.com/fosy/ ....     ./
-git config --global user.name xyza
-git config --global user.email xyza@htuu-salzburg.ac.at
-```
-
-- Der main-Branch wird zur Verfügung gestellt. Darin sind Skripten, Aufgaben und Anleitungen enthalten. Mit dem Klonen wurde dieser main-Branch kopiert.
-
-- Legen Sie einen Branch mit Ihrem Namenskürzel *xyza* an. In diesen Branch werden Ihre Entwicklungen abgeliefert.
-
-```sh
-git branch xyza
-git checkout xyza
-```
-
-- Um die Vorgaben aktuell zu halten, muss der main-Branch up-to-date gehalten werden (z.B. nach Aufforderung oder vor dem Unterricht):
-
-```sh
-git checkout main
-git pull origin main
-```
-
-- Um Teile aus dem main-Branch in den eigenen Branch zu übernehmen (in diesem Fall etwa den Ordner Aufg04):
-
-```sh
-git checkout xyza
-git checkout main Aufg04
-```
-
-- Lösen einer Aufgabe hat folgenden Vorgang:
-
-```sh
-git checkout xyza
-
-... Einbau der Änderungen ...
-
-git add .
-git commit -m "Loesung Aufgabe 04"
-git push origin xyza
-```
-
-- Stöbern auf dem main-Branch:
-
-```sh
-git checkout origin/main
-```
-
-Damit ist lokal der main-Branch verfügbar, vor jedem Arbeiten wieder auf eigenen Branch wechseln:
-
-```sh
-git checkout xyza
-```
-
-- Zurücksetzten des eigenen lokalen Ordners auf die letzte Ablieferung - damit gehen sämtliche lokale Änderungen verloren:
-
-```sh
-git checkout xyza
-git reset --hard origin/xyza
 ```
 
 ---
