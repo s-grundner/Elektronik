@@ -41,8 +41,8 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Glei
 > $$
 > \begin{align}
 > U_{A} &= R_{A}I_{A}+U_{q}(\omega) \\
-> U_{q} &= cn\Phi &&(=\bar{c}\Phi \omega) \impliedby \omega=2\pi n \\
-> M &= \frac{c\Phi}{2\pi} I_{A} &&(= \bar{c}\Phi I_{A})
+> U_{q} &= cn\Phi =\bar{c}\Phi \omega & \impliedby \omega=2\pi n \\
+> M &= \frac{c\Phi}{2\pi} I_{A} = \bar{c}\Phi I_{A}
 > \end{align} 
 > $$
 
