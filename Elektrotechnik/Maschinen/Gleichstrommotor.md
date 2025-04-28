@@ -25,6 +25,10 @@ banner_y: 0.644
 - Spulenwicklung im Rotor
 - Bürste
 
+
+Die Gleichstrommaschine ist ein reziprokes Elektromechanisches System und kann daher als Gleichstrommotor bzw. -generator behandelt werden. Wegen dieser Eigenschaft ist die **elektrische Leistung** 
+
+
 Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Gleichungen:
 
 > [!def] **D1 - ASPG)** Ankerspannungsgleichung:
@@ -33,7 +37,7 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Glei
 > \begin{align}
 > U_{A} &= R_{A}I_{A}+U_{q}(\omega) \\
 > U_{q} &= cn\Phi &&(=\bar{c}\Phi \omega) \impliedby \omega=2\pi n \\
-> M &= \frac{c\Phi}{2\pi} i_{A} &&(= \bar{c}\Phi i_{a})
+> M &= \frac{c\Phi}{2\pi} I_{A} &&(= \bar{c}\Phi I_{A})
 > \end{align} 
 > $$
 
