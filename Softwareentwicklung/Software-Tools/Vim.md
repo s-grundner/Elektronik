@@ -14,8 +14,13 @@ draft: false
 > [!info] Ressourcen
 > 
 > - [vim-cheatsheet](../../10_tools/pdf/vim-cheatsheet.pdf)
-> - [Vim Doesn't Need Multi Cursors Like IDEs - YouTube](https://www.youtube.com/watch?v=tdbHFNxEBhM)
 
+
+
+## Movements und Commands
+
+- [Vim Doesn't Need Multi Cursors Like IDEs - YouTube](https://www.youtube.com/watch?v=tdbHFNxEBhM)
+- 
 ## Neovim - NVChad
 
 
