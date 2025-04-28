@@ -15,14 +15,11 @@ draft: false
 > 
 > - [vim-cheatsheet](../../10_tools/pdf/vim-cheatsheet.pdf)
 
-
-
 ## Movements und Commands
 
 - [Vim Doesn't Need Multi Cursors Like IDEs - YouTube](https://www.youtube.com/watch?v=tdbHFNxEBhM)
-- 
-## Neovim - NVChad
 
+## Neovim - NVChad
 
 - Preconfig: [NvChad](https://nvchad.com/)
 
@@ -47,9 +44,7 @@ return {
 in `~/.config/nvim/lua/mappings.lua`:
 
 ```lua
-
 map('i', '<C-l>', function()
     vim.fn.feedkeys(vim.fn['copilot#Accept'](), '')
 end, { desc = 'Copilot Accept', noremap = true, silent = true })
 ```
-
