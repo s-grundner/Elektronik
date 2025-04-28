@@ -17,15 +17,6 @@ class mybutton
 ^button-latex-b
 
 ```button
-name LaTeX Sheet C
-type link
-action https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-class mybutton
-```
-
-^button-latex-c
-
-```button
 name RexEgg
 type link
 action https://www.rexegg.com/regex-quickstart.html
@@ -60,3 +51,12 @@ class mybutton
 ```
 
 ^button-dataview
+
+```button
+name HyperPhysics
+type link
+action http://hyperphysics.phy-astr.gsu.edu/hbase/hframe.html
+class mybutton
+```
+
+^button-hyphysics
