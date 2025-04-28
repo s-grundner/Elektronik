@@ -1,7 +1,6 @@
 ---
 tags: 
 aliases:
-  - Leistung
   - Blindleistungskompensation
   - Scheinleistung
 subject:
@@ -14,7 +13,9 @@ source:
 created: 24th November 2022
 ---
 
-# [Elektrische Leistung](https://de.wikipedia.org/wiki/Elektrische_Leistung)
+# Elektrische Leistung
+
+> [!quote] [Wikipedia](https://de.wikipedia.org/wiki/Elektrische_Leistung)
 
 $$
 P=U\cdot I=I^{2}\cdot R=\frac{U^{2}}{R}
@@ -23,7 +24,7 @@ $$
 ## Verlustleistung in einem Widerstand
 
 > [!info] Energieumsatz im [Widerstand](../Elektrotechnik/Widerstand.md):
-> ![InlineR|333](assets/EnergieumsatzWiderstand.png) Ein Elektron verliert beim Durchlaufen der [Potenzialdifferenz](../Elektrotechnik/elektrische%20Spannung.md) die potenzielle Energie
+> ![invert_dark|333](assets/EnergieumsatzWiderstand.png) Ein Elektron verliert beim Durchlaufen der [Potenzialdifferenz](../Elektrotechnik/elektrische%20Spannung.md) die potenzielle Energie
 > $$W_{e}=e\cdot(\varphi_{1}-\varphi_{2}) = e\cdot U$$
 > Pro Zeiteinheit ($\frac{1}{t}$) strömen $\frac{I}{e}$ Elektronen ($n$) in den Widerstand bzw. Verlassen den Widerstand
 > Diese Behauptung wird durch die Definition der Ladung gezeigt: $\underbrace{ \frac{n}{t}= \frac{I}{e} }_{ \text{Behauptung} }\implies n=\frac{I}{e}\cdot t\impliedby Q=n\cdot e$

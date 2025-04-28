@@ -15,12 +15,11 @@ professor:
 
 > [!QUESTION] Was ist die Kraft?  
 >  Kraft ist eine physikalische Größe, die, wenn sie auf einen freien, starren Körper wirkt, dazu führt, dass dieser seinen Bewegungszustand ([Geschwindigkeit](Kinematik.md)) ändert.
->  - Interessante Diskussion in [Einf. ET](../xEDU/(SemB1)-WS23/Einführung%20Elektrotechnik/{NOTES}%20Einführung%20Elektrotechnik%20VL.md) Skriptum Teil 1 von Bernhard Jakoby
 
 Die moderne Physik kennt *4* Kräfte:
 
 - Gravitationskraft
-- Elektromagnetische Kraft
+- Elektromagnetische Kraft (Lorentz Kraft)
   - (in der Elektrotechnik separat als [Coulomb-Kraft](../Elektrotechnik/Coulomb-Kraft.md) und [magnetische Kraft](../Elektrotechnik/Laplace-Kraft.md))
 - Starke Kernkraft
 - Schwache Kernkraft
@@ -31,7 +30,7 @@ Die moderne Physik kennt *4* Kräfte:
 
 ## Arten von Kräften
 
-> [!INFO] Kontaktkräfte
+> [!info] Kontaktkräfte
 > - Spannung in einem Seil
 > - Druck auf einer Fläche
 > - elastische Kraft in einer [Feder](Federkraft.md)
