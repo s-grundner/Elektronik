@@ -21,7 +21,7 @@ cited:
 
 ## Resonanz
 
-> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal (files::[📈Mathematica Notebook](../Simulationen/SerienSK_Impedanz.nb))
+> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal (files::[📈Mathematica Notebook](../../Scripts/mathematica/SerienSK_Impedanz.nb))
 > ![InlineR|300](assets/ImpSSK.png) das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
 > 
 > Die Frequenz welche diese Bedingung erfüllt, heißt **Resonanzfrequenz**.
