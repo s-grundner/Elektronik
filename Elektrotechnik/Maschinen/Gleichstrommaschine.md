@@ -50,7 +50,7 @@ Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehr
 - Der Fluss durch die Rotorwicklung (normal zur Wicklungsebene) möchte immer in die *selbe Richtung* wie der Erregerfluss zeigen.
 - Dies wird allein durch geschickte verdrahtung der Rotorwicklungskontakte erzielt
 
-## Berechnungsgrundlagen
+## Berechnungsgrundlag
 
 Die Gleichstrommaschine ist ein reziprokes Elektromechanisches System und kann daher als Gleichstrommotor bzw. -generator behandelt werden. Wegen dieser Eigenschaft ist die **mechanischen Leistung** (mit allen Verlusten einbezogen) gleich der inneren **elektrische Leistung**.
 
