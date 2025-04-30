@@ -15,7 +15,7 @@ complexity: $\mathcal{O}(n\cdot\log(n))$
 
 > [!info] Complexity: `$=dv.current().complexity`
 
-> [!HINT] FFT <=> [DFT](../../Systemtheorie/DFT.md)
+> [!hint] FFT $\iff G$ [DFT](../../Systemtheorie/DFT.md)
 > Eigentlich handelt es sich beim FFT-Algorithmus nur um eine Möglichkeit die [DFT](../../Systemtheorie/DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
 > Wiederentdeckung deshalb, weil Carl Friedrich Gauß den Algorithmus in seiner ersten Form bereits 1805 entdeckte und verwendete, diese aber nie publizierte.
 > Erst die durch diesen Algorithmus erreichte hohe Durchführungsgeschwindigkeit ermöglicht eine so breit gefächerte Anwendung.
@@ -48,7 +48,6 @@ y_{3}
 $$
 
 Diese Matrix lässt sich durch elementare Umformungen nu aufstellen.
-
 
 $$
 \left(\begin{array}{c}
@@ -88,3 +87,9 @@ $$
 > [!important] Die DFT der Ordnung 4 kann man mit 2 DFT der Ordnung 2 berechnen.
 > Ist N eine zweierpotenz, kann dieses verfahren für höhere Ordnungen rekursiv angewandt werden.
 > *Dieses Verfahren heißt FFT - Fast Fourier Transform*
+
+## Fensterung
+
+Aufgrund der Sidelobes einer Rechteckfensterung wurden weitere Fensterarten eingeführt
+
+![invert_light](assets/Einschaltsignal_Lobes.png)

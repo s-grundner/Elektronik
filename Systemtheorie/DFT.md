@@ -70,8 +70,12 @@ Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine N
 
 ## Transformationen
 
+
 $$
-x[(-n)\operatorname{mod}N]^* \circ\mkern-7px-\mkern-7px\bullet X^*[k]
+\begin{array}{rcl}
+x[(-n)\operatorname{mod}N]^* & \circ\mkern-7px-\mkern-7px\bullet &X^*[k]  \\
+(x \circledast y) [n] & \circ\mkern-7px-\mkern-7px\bullet & Y[k]  X[k]
+\end{array}
 $$
 
 ---

@@ -4,6 +4,7 @@ tags:
   - flashcards/SUS1
 aliases:
   - Faltungsmatrix
+  - schnelle Faltung
 keywords: 
 subject:
   - VL
@@ -109,14 +110,16 @@ y[0] \\ y[1] \\ \vdots \\ y[N_{x}+N_{h}-2]
 \end{pmatrix}
 $$
 
-## Zyklische Faltung
 
-> [!info] Matlab Command: `cconv`
+## Schnelle Faltung auf Basis der FFT
 
+- Eingangssignal wird in $K$ Blöcke unterteilt
+- idR.: Der Ausgang hat mindestens eine Latenz von einem Block 
 
 ---
 
 - Faltungsmatrix: [INTERNAL - SigV UE01](xEDU/B4_SS25/Signalverarbeitung/UE/UE01.md)
+- [Zyklische Faltung](Zyklische%20Faltung.md)
 
 ---
 
