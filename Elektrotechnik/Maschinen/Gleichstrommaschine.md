@@ -122,6 +122,41 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Glei
 
 Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise erfolgen.
 
+Wichtige Größen und Konzepte:
+- [Reluktanz](../Reluktanz.md)
+- [Magnetkreis](../Magnetkreis.md)
+- [koerzitiv Feldstärke](../../Physik/Permanentmagnet.md)
+
+### Fremderregung
+
+Beid er fremderregten Maschine sen Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
+
+![invert_dark|300](../../assets/fremderregt.png)
+
+$$
+\Phi(I_{\mathrm{E}}) = \frac{\Theta}{\mathfrak{R}}=\frac{NI_{\mathrm{E}}}{\mathfrak{R}}
+$$
+
+- $N$ sind die Anzahl an Wicklungen der Spule $L_{\mathrm{E}}$.
+- $\mathfrak{R}$ ist der magnetische Widerstand des Eisenrückschlusses (Magnetkreis nicht eingezeichent)
+
+Die Reihenschlussmaschine kann - anders als die Nebenschlussmaschine - auch mit Wechselstrom betrieben werden.
+
+#### Permanentmagnet-Erregung
+
+Hier wird statt einer Erregerinduktivität (mit Eisenrückschluss) ein Permanentmagnet mit Eisenrückschluss verwendet, um den Erregerfluss zu erzeugen.
+
+![invert_dark|300](../../assets/permerregt.png)
+
+$$
+\Phi = \frac{\Theta_{c}'}{\mathfrak{R}_{\mathrm{pm}}+\mathfrak{R}} = \frac{H_{c}'l_{\mathrm{pm}}}{\mathfrak{R}_{\mathrm{pm}}+\mathfrak{R}}, \quad
+U_{\mathrm{A}} = c\Phi n
+$$
+
+- $H_{c}'$ ist die linearisierte Koerzitivfeldstärke des Permanentmagenten
+- $l_{\mathrm{pm}}$ ist die Länge des Magneten
+- $\mathfrak{R}_{\mathrm{pm}},\mathfrak{R}$ sind die Reluktanzen vom Permentmagnet und dem Restlichen Eisenkreis.
+
 ### Nebenschlusserregung
 
 In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zueinander am Netz. Das Erregerfeld wird direkt durch die Netzspannung eingeprägt.
@@ -150,31 +185,12 @@ $$
 \begin{gathered}
 \Phi(I) = \frac{\Theta}{\mathfrak{R}} = \frac{N}{\mathfrak{R}} I,\quad
 U_{\mathrm{A}} = U_{\mathrm{q}} + IR_{\mathrm{E}} ,\quad U_{\mathrm{q}} = c\Phi(I) n \\
-M = \frac{P_{\mathrm{el}}}{\omega} = \frac{U_{\mathrm{q}}I}{}
+M = \frac{P_{\mathrm{el}}}{\omega} = \frac{U_{\mathrm{q}}I}{\omega} = \frac{cNI^{2}n}{\omega \mathfrak{R}} = \frac{cN}{2\pi \mathfrak{R}} I^{2}
 \end{gathered}
 $$
 
-### Fremderregung
+Üblicherweise wird auch der Ausdruck $\dfrac{N}{\mathfrak{R}}$ zu einer Magnetkreiskonstante $c_{1}$ zusammengefasst.
 
-Beid er fremderregten Maschine sen Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
-
-![invert_dark|300](../../assets/fremderregt.png)
-
-$$
-\Phi(I_{\mathrm{E}}) = \frac{\Theta}{\mathfrak{R}}=\frac{NI_{\mathrm{E}}}{\mathfrak{R}}
-$$
-
-- $N$ sind die Anzahl an Wicklungen der Spule $L_{\mathrm{E}}$.
-- $\mathfrak{R}$ ist der magnetische Widerstand des Eisenrückschlusses (Magnetkreis nicht eingezeichent)
-
-Die Reihenschlussmaschine kann - anders als die Nebenschlussmaschine - auch mit Wechselstrom betrieben werden.
-
-#### Permanentmagnet-Erregung
-
-Hier wird statt einer Erregerinduktivität (mit Eisenrückschluss) ein Permanentmagnet mit Eisenrückschluss verwendet, um den Erregerfluss zu erzeugen.
-
-
-![invert_dark|300](../../assets/permerregt.png)
 ## Nutrastmomente
 
 > [!hint] **Nutrastmomente:** Sind die Einrastungen die man spürt, wenn man einen unbestromten DC-Motor Dreht.
@@ -182,4 +198,9 @@ Hier wird statt einer Erregerinduktivität (mit Eisenrückschluss) ein Permanent
 
 In Summe sind diese Momente $0$: $\int M_{c}(\varphi) \mathrm{~d}\varphi_{r}=0$
 
-![invert_dark](assets/Nutrasten.png)
+![invert_dark|500](assets/Nutrasten.png)
+
+
+---
+
+

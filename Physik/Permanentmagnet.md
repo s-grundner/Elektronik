@@ -1,6 +1,8 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - koerzitiv Feldstärke
+  - remanenz Flussdichte
 keywords: 
 subject:
   - Elektrische Maschinen und Antriebselektronik
@@ -27,3 +29,6 @@ Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb
 
 - Wenn $H_{m}$ ein positiver Wert ist: Man rechnet mit $-$ in der Kennlinie
 - Wenn $H_{m}$ ein negativer Wert ist: Man rechnet mit $+$ in der Kennlinie
+
+## Kennlinie
+
