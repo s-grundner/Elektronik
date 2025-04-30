@@ -1,8 +1,7 @@
 ---
 tags: 
 aliases: 
-keywords:
-  - Reluktanzprinzio
+keywords: []
 subject:
   - Elektrische Maschinen und Antriebselektronik
   - VL
@@ -22,10 +21,6 @@ title: Elektromagnet
 > Elektromagnete sind eine Schnittstelle zwischen den Elektrischen Kräften und der Kinematik.
 > 
 > ![invert_dark](assets/Pasted%20image%2020250310003826.png)
-
-
-> [!hint] **Reluktanzprinzip**
-> Durch magnetische Feldkräfte verursachte Bewegung wirkt in Richtung des minimalen magnetischen Widerstandes des Magnetkreises.
 
 ## Elektromagente als Antriebe
 
@@ -61,5 +56,3 @@ Ziel ist der Entwurf von EM mit verschiedenen **Magnetkraft-Hub** Kennlinien ent
 ---
 
 # Quellen
-
-[Kallenbach]
