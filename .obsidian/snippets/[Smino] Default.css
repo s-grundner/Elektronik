@@ -136,7 +136,19 @@ settings:
   text-justify: inter-word;
 }
 
-/* Fontsize of Line Numbers in Gutter*/
+/* Fontsize of Line Numbers in Gutter */
 .cm-gutterElement {
   font-size: 22px;
+}
+
+/* Center images */ 
+
+img {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+}
+    
+.markdown-source-view.mod-cm6 .cm-content > * {
+        margin: auto auto !important;
 }

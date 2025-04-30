@@ -7,7 +7,10 @@ aliases:
   - Gleichstrommotor
   - Gleichstromgenerator
   - Kommutator
-keywords: 
+keywords:
+  - Nebenschluss
+  - Reihenschluss
+  - Ankerspannungsgleichung
 subject:
   - Elektrische Maschinen und Antriebselektronik
   - VL
@@ -17,9 +20,8 @@ professor:
 draft: false
 title: Gleichstrommaschine
 banner: "/Elektrotechnik/Maschinen/assets/DCM.png"
-banner_y: 0.756
+banner_y: 0.724
 ---
- 
 
 # Gleichstrommaschine
 
@@ -69,24 +71,24 @@ Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM.
 
 ### Kenngrößen
 
-| Kenngröße           | Ausdruck          | Einheit  | Anmerkung                            |
-| ------------------- | ----------------- | -------- | ------------------------------------ |
-| Drehmoment          | $M$               | $N$      |                                      |
-| Drehzahl            | $\omega = 2\pi n$ | $s^{-1}$ | Für $n$ Umdrehungen pro Sekunde      |
-| Induzierte Spannung | $U_{q}$           | $V$      |                                      |
-| Ankerpannung        | $U_{A}$           | $V$      | Mit Verlust über die Ankerimpedanzen |
-| Ankerwiderstand     | $R_{A}$           | $\Omega$ |                                      |
-| Ankerinduktivität   | $L_{A}$           | $H$      |                                      |
-| Erregerwiderstand   | $R_{E}$           | $\Omega$ |                                      |
-| Erregerinduktivität | $L_{E}$           | $H$      |                                      |
-| Erregerfluss        | $\Phi_{E}$        | Vs       |                                      |
-| Maschinenkonstante  | $c=2\pi\bar{c}$   | $1$      |                                      |
+| Kenngröße           | Ausdruck               | Einheit  | Anmerkung                            |
+| ------------------- | ---------------------- | -------- | ------------------------------------ |
+| Drehmoment          | $M$                    | $N$      |                                      |
+| Drehzahl            | $\omega = 2\pi n$      | $s^{-1}$ | Für $n$ Umdrehungen pro Sekunde      |
+| Induzierte Spannung | $U_{q}$                | $V$      |                                      |
+| Ankerpannung        | $U_{A}$                | $V$      | Mit Verlust über die Ankerimpedanzen |
+| Ankerwiderstand     | $R_{A}$                | $\Omega$ |                                      |
+| Ankerinduktivität   | $L_{A}$                | $H$      |                                      |
+| Erregerwiderstand   | $R_{E}$                | $\Omega$ |                                      |
+| Erregerinduktivität | $L_{E}$                | $H$      |                                      |
+| Erregerfluss        | $\Phi_{E}$ bzw. $\Phi$ | Vs       | Verketter Fluss $\Psi = n \Phi$      |
+| Maschinenkonstante  | $c=2\pi\bar{c}$        | $1$      |                                      |
 
 ###  Ersatzschaltbild
 
 Der Drehsinn des Drehmoments kann wieder daran bestimmt werden, dass der Ankerfluss die Richtung des Erregerflusses über die kürzeste Bewegung anstrebt. 
 
-![1000](assets/GSM-ESB.md)
+![invert_light|400](assets/GSM-ESB.png)
 
 Dieses Schaltbild kann stationär immer so betrachtet werden, da es im Rotor immer eine Ankerwicklung in dieser Position gibt.
 
@@ -107,7 +109,7 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Glei
 > $$
 > \begin{align}
 > U_\mathrm{A} &= R_\mathrm{A}I_\mathrm{A}+U_{q}(\omega) \\
-> U_{q} &= \frac{\mathrm{d}\Psi_{\mathrm{A}}}{\mathrm{d}t} = c\Phi_{\mathrm{E}} n =\bar{c}\Phi_{\mathrm{E}} \omega \\
+> U_{q} &= \frac{\mathrm{d}\Psi_{\mathrm{E}}}{\mathrm{d}t} = c\Phi_{\mathrm{E}} n =\bar{c}\Phi_{\mathrm{E}} \omega \\
 > M &= \frac{U_{\mathrm{A}}}{\omega}I_{\mathrm{A}} = \frac{c\Phi_\mathrm{E}}{2\pi} I_\mathrm{A} = \bar{c}\Phi_\mathrm{E} I_{\mathrm{A}}
 > \end{align} 
 > $$
@@ -124,15 +126,22 @@ Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise
 
 In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zueinander am Netz. Das Erregerfeld wird direkt durch die Netzspannung eingeprägt.
 
-![](assets/Gleichstrommaschine%202025-04-30%2020.04.42.excalidraw)
+![invert_light|200](assets/nebenschluss.png)
 
 ### Reihenschlusserregung
 
+![invert_light|200](assets/reihenschluss.png)
+
 Im Gegensatz zur Nebenschlusserregung sind hier die beiden Wicklungen hintereinandergeschaltet. Der Erregerstrom entspricht daher dem Ankerstrom. Dies bedeutet, dass die Felderregung belastungsabhänging erfolgt. 
+
+
 
 ### Fremderregung
 
-Beid er fremderregten Maschine sen Erreger- und Ankerwicklungschlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
+Beid er fremderregten Maschine sen Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
+
+#### Permanentmagnet-Erregung
+
 
 ## Nutrastmomente
 
