@@ -126,13 +126,33 @@ Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise
 
 In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zueinander am Netz. Das Erregerfeld wird direkt durch die Netzspannung eingeprägt.
 
-![invert_light|200](assets/nebenschluss.png)
+
+![invert_light|300](assets/nebenschluss.png)
+
+
+$$
+\Phi(I_{\mathrm{E}}) = \frac{\Theta}{\mathfrak{R}} = \frac{N}{\mathfrak{R}} I_{\mathrm{E}}, \quad
+U_{\mathrm{A}} = c\Phi(I_{\mathrm{E}}) n, \quad
+I_{\mathrm{E}}=\frac{U_{\mathrm{A}}}{R_{\mathrm{E}}}
+$$
+
+- $N$ sind die Anzahl an Wicklungen der Spule $L_{\mathrm{E}}$.
+- $\mathfrak{R}$ ist der magnetische Widerstand des Eisenrückschlusses (Magnetkreis nicht eingezeichnet)
+- Hier ist $I_{\mathrm{E}}$ vom $U_{\mathrm{A}}$ Abhängig.
 
 ### Reihenschlusserregung
 
-![invert_light|200](assets/reihenschluss.png)
+![invert_light|300](assets/reihenschluss.png)
 
 Im Gegensatz zur Nebenschlusserregung sind hier die beiden Wicklungen hintereinandergeschaltet. Der Erregerstrom entspricht daher dem Ankerstrom. Dies bedeutet, dass die Felderregung belastungsabhänging erfolgt. 
+
+$$
+\begin{gathered}
+\Phi(I) = \frac{\Theta}{\mathfrak{R}} = \frac{N}{\mathfrak{R}} I,\quad
+U_{\mathrm{A}} = U_{\mathrm{q}} + IR_{\mathrm{E}} ,\quad U_{\mathrm{q}} = c\Phi(I) n \\
+M = \frac{P_{\mathrm{el}}}{\omega} = \frac{U_{\mathrm{q}}I}{}
+\end{gathered}
+$$
 
 ### Fremderregung
 
@@ -140,12 +160,21 @@ Beid er fremderregten Maschine sen Erreger- und Ankerwicklung schlatungsmäßig 
 
 ![invert_dark|300](../../assets/fremderregt.png)
 
+$$
+\Phi(I_{\mathrm{E}}) = \frac{\Theta}{\mathfrak{R}}=\frac{NI_{\mathrm{E}}}{\mathfrak{R}}
+$$
+
+- $N$ sind die Anzahl an Wicklungen der Spule $L_{\mathrm{E}}$.
+- $\mathfrak{R}$ ist der magnetische Widerstand des Eisenrückschlusses (Magnetkreis nicht eingezeichent)
+
+Die Reihenschlussmaschine kann - anders als die Nebenschlussmaschine - auch mit Wechselstrom betrieben werden.
+
 #### Permanentmagnet-Erregung
 
-Hier wird statt einer Erregerinduktivität ein Permanentmagnet mit Eisenrückschluss 
+Hier wird statt einer Erregerinduktivität (mit Eisenrückschluss) ein Permanentmagnet mit Eisenrückschluss verwendet, um den Erregerfluss zu erzeugen.
 
-![invert_dark|400](../../assets/permerregt.png)
 
+![invert_dark|300](../../assets/permerregt.png)
 ## Nutrastmomente
 
 > [!hint] **Nutrastmomente:** Sind die Einrastungen die man spürt, wenn man einen unbestromten DC-Motor Dreht.

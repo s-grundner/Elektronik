@@ -5,6 +5,7 @@ aliases:
   - Spule
   - Spulen
   - Induktivität
+  - Henry
 keywords: 
 subject:
   - VL
@@ -26,6 +27,9 @@ cited:
 | ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png) |
 
 ## Kenngrößen der Induktivität
+
+> [!def] **Induktivität**
+> $$ [L] = \frac{Vs}{A} = \Omega s = H \dots \text{Henry}$$
 
 ### Strom-Spannungsbeziehung
 
