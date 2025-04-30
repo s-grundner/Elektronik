@@ -137,8 +137,21 @@ settings:
 }
 
 /* Fontsize of Line Numbers in Gutter */
+
+/* @settings
+
+name: Gutter Font Size
+id: smino-gutter-font-size
+settings:
+  - 
+    id: gutter-font-size 
+    title: Gutter Font Size 
+    type: variable-number
+    default: 22
+    format: px 
+*/ 
 .cm-gutterElement {
-  font-size: 22px;
+  font-size: var(--gutter-font-size);
 }
 
 /* Center images */ 

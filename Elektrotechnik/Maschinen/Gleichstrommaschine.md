@@ -134,14 +134,17 @@ In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zuein
 
 Im Gegensatz zur Nebenschlusserregung sind hier die beiden Wicklungen hintereinandergeschaltet. Der Erregerstrom entspricht daher dem Ankerstrom. Dies bedeutet, dass die Felderregung belastungsabhänging erfolgt. 
 
-
-
 ### Fremderregung
 
 Beid er fremderregten Maschine sen Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
 
+![invert_dark|300](../../assets/fremderregt.png)
+
 #### Permanentmagnet-Erregung
 
+Hier wird statt einer Erregerinduktivität ein Permanentmagnet mit Eisenrückschluss 
+
+![invert_dark|400](../../assets/permerregt.png)
 
 ## Nutrastmomente
 
