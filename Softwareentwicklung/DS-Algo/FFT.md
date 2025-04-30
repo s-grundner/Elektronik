@@ -88,8 +88,6 @@ $$
 > Ist N eine zweierpotenz, kann dieses verfahren für höhere Ordnungen rekursiv angewandt werden.
 > *Dieses Verfahren heißt FFT - Fast Fourier Transform*
 
-## Fensterung
+---
 
-Aufgrund der Sidelobes einer Rechteckfensterung wurden weitere Fensterarten eingeführt
-
-![invert_light](assets/Einschaltsignal_Lobes.png)
+![Fensterung](Fensterung.md)

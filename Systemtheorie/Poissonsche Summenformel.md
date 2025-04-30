@@ -36,6 +36,19 @@ $$
 
 ## Duale Poissonsche Summenformel
 
+> [!def] **D2 - POIS)** Duale Poissonsche Summenformel ^POIS2
+> $$
+> F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F_{\mathrm{a}}\left(\mathrm{j} \omega-\mathrm{j} k \omega_0\right)=\sum_{n=-\infty}^{\infty} f_{\mathrm{a}}(n T) e^{-\mathrm{j} \omega n T}\tag{POIS 2}
+> $$
+
+- $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ ist die Fourier-Transformierte einer durch ideale Abtastung gewonnenen zeitdiskreten Funktion
+- $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ besitzt eine periodische Frequenzabhängigkeit, die über den Ausdruck $e^{j \omega T}$ gegeben ist $\Rightarrow e^{j \omega T}$ als Argument
+- Aussage der dualen Poissonschen Summenformel: Eine mit der Rate $1 / T$ ideal abgetastete aperiodische Funktion $f_{\mathrm{a}}$ besitzt ein periodisches Spektrum. Dieses lässt sich durch eine unendliche Summe von gewichteten komplexen Exponentialfunktionen darstellen, wobei die Gewichtungskoeffizienten die Abtastwerte der Funktion sind.
+
+Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der [zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fourier-Transformation.md) $f_{\mathrm{a}}(n T)$.
+
+## ideale Abtastung
+
 > [!question] Der Ausgangspunkt ist eine **aperiodeische Zeitfunktion** $f_{a}(t)$ und ihre Fouriertransformierte $F_{a}(j\omega)$.
 > 
 > **Ideale Abtastung**: Multiplikation von $f_{a}(t)$ mit der Delta-Impulsfolge $\delta_{T}(t)$ um ein zeitdiskretes Signal zu erhalten:
@@ -51,14 +64,4 @@ $$
 
 Durch gleichsetzen der Beiden Fouriertransformierten in $(1)$ und $(2)$ folgt die Duale Poissonsche Summenformel
 
-> [!def] **D2 - POIS)** Duale Poissonsche Summenformel ^POIS2
-> $$
-> F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)=\frac{1}{T} \sum_{k=-\infty}^{\infty} F_{\mathrm{a}}\left(\mathrm{j} \omega-\mathrm{j} k \omega_0\right)=\sum_{n=-\infty}^{\infty} f_{\mathrm{a}}(n T) e^{-\mathrm{j} \omega n T}\tag{POIS 2}
-> $$
-
-- $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ ist die Fourier-Transformierte einer durch ideale Abtastung gewonnenen zeitdiskreten Funktion
-- $F_{\mathrm{d}}\left(e^{\mathrm{j} \omega T}\right)$ besitzt eine periodische Frequenzabhängigkeit, die über den Ausdruck $e^{j \omega T}$ gegeben ist $\Rightarrow e^{j \omega T}$ als Argument
-- Aussage der dualen Poissonschen Summenformel: Eine mit der Rate $1 / T$ ideal abgetastete aperiodische Funktion $f_{\mathrm{a}}$ besitzt ein periodisches Spektrum. Dieses lässt sich durch eine unendliche Summe von gewichteten komplexen Exponentialfunktionen darstellen, wobei die Gewichtungskoeffizienten die Abtastwerte der Funktion sind.
-
-Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der [zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fourier-Transformation.md) $f_{\mathrm{a}}(n T)$.
 
