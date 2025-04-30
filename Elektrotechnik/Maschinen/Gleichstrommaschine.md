@@ -16,7 +16,7 @@ created: 3. März 2025
 professor: 
 draft: false
 title: Gleichstrommaschine
-banner: /Elektrotechnik/Maschinen/assets/DCM.png
+banner: "/Elektrotechnik/Maschinen/assets/DCM.png"
 banner_y: 0.756
 ---
  
@@ -30,16 +30,27 @@ banner_y: 0.756
 
 ## Funktionsweise
 
-Der **Stator** wird mit einem Konstanten *Erregerfluss* durchströmt, welcher durch EM bzw PM erzeugt wird.
+### Stator / Erreger
 
-Im **Rotor** befinden sich beliebg Viele wicklungen die im Kreis Angeordnet sind. Die **Kontakte** der wicklungen sind am Schaft der Maschine freigestellt und kontaktieren die Bürsten.
+Der **Stator / Erreger** wird mit einem Konstanten *Erregerfluss* durchströmt, welcher durch EM bzw PM erzeugt wird.
+
+Arten der Erregung:
+- Nebenschlusserregung
+- Reihenschluss erregung
+- Fremderregung
+
+### Rotor / Anker 
+
+Im **Rotor / Anker** befinden sich beliebg Viele wicklungen die im Kreis Angeordnet sind. Die **Kontakte** der wicklungen sind am Schaft der Maschine freigestellt und kontaktieren die Bürsten.
+
+### Kommutator
 
 Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehrt*, dass sich die momentan bestromten Rotorwicklungen geschickt zum Nächstgelegenen Pol *anzieht* bzw *abstößt*. 
 
 - Der Fluss durch die Rotorwicklung (normal zur Wicklungsebene) möchte immer in die *selbe Richtung* wie der Erregerfluss zeigen.
 - Dies wird allein durch geschickte verdrahtung der Rotorwicklungskontakte erzielt
 
-## Stationäres Betriebsverhalten
+## Berechnungsgrundlagen
 
 Die Gleichstrommaschine ist ein reziprokes Elektromechanisches System und kann daher als Gleichstrommotor bzw. -generator behandelt werden. Wegen dieser Eigenschaft ist die **mechanischen Leistung** (mit allen Verlusten einbezogen) gleich der inneren **elektrische Leistung**.
 
