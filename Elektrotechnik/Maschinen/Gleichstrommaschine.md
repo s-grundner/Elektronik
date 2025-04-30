@@ -94,9 +94,13 @@ Dieses Schaltbild kann stationär immer so betrachtet werden, da es im Rotor imm
 
 ### Gleichungen
 
-Die Gleichstrommaschine ist ein reziprokes elektromechanisches System und kann daher als Gleichstrommotor bzw. -generator behandelt werden. Wegen dieser Eigenschaft ist die **mechanischen Leistung** (mit allen Verlusten einbezogen) gleich der inneren **elektrische Leistung**.
+Die Gleichstrommaschine ist ein reziprokes elektromechanisches System und kann daher als Gleichstrommotor bzw. -generator behandelt werden. Wegen dieser Eigenschaft ist die **mechanischen Leistung** (mit allen Verlusten einbezogen) gleich der inneren **elektrische Leistung** (ohne Leistungsumsetzung am Ankerwiderstand).
 
-$$ P_{m} = \omega M=U_{q}I_{A} \implies M = \frac{U_{q}}{\omega} I_{A}$$
+$$
+P_{\mathrm{m}} = P_{\mathrm{el}}
+\implies \omega M=U_\mathrm{q}I_\mathrm{A}
+\implies M = \frac{U_\mathrm{q}}{\omega} I_\mathrm{A}
+$$
 
 |       $\omega$        | $M$        |       $U_{q}$       | $I_{A}$    |
 | :-------------------: | :--------: | :-----------------: | :--------: |
@@ -104,7 +108,7 @@ $$ P_{m} = \omega M=U_{q}I_{A} \implies M = \frac{U_{q}}{\omega} I_{A}$$
 
 Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Gleichungen:
 
-> [!def] **D1 - ASPG)** Ankerspannungsgleichung:
+> [!def] **D1 - ASPG)** Ankerspannungsgleichung: ^ASPG
 > 
 > $$
 > \begin{align}
@@ -114,9 +118,20 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Glei
 > \end{align} 
 > $$
 
-### Kennlinien
+### Wirkungsgrad
+
+Verluste Treten in Form von elektrischer Leistung am Ankerwiderstand $R_{\mathrm{A}}$ auf.
+
+$$
+\eta = \frac{P_{\mathrm{A}}}{P_{\mathrm{m}}} = \frac{I_{\mathrm{A}}^{2}R_{\mathrm{A}}}{\omega M} \cdot100\%
+$$
 
 
+## Dynamisches Betriebsverhalten
+
+Angaben zum Dynamischen Betriebsverhalten sind auf dem **Typenschild** in Form von normierter **Nenngrößen** zu finden.
+
+- [GSM - Typenschild](https://www.seva-tec.de/de/faq/detail/groupid/9/id/43)
 
 ## Schaltungsvarianten 
 
