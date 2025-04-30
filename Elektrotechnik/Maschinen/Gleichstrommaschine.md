@@ -27,8 +27,12 @@ banner_y: 0.756
 > - Spulenwicklung im Rotor
 > - Bürste
 
-
 ## Funktionsweise
+
+Der Fluss durch die Rotorwicklung (normal zur Wicklungsebene) möchte immer in die *selbe Richtung* wie der Erregerfluss zeigen. Es werden demnach Kräfte exorziert, 
+
+![invert_dark](../assets/DCfunk0.jpg)
+![invert_dark](../assets/DCfunk90.jpg)
 
 ### Stator / Erreger
 
@@ -45,10 +49,7 @@ Im **Rotor / Anker** befinden sich beliebg Viele wicklungen die im Kreis Angeord
 
 ### Kommutator
 
-Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehrt*, dass sich die momentan bestromten Rotorwicklungen geschickt zum Nächstgelegenen Pol *anzieht* bzw *abstößt*. 
-
-- Der Fluss durch die Rotorwicklung (normal zur Wicklungsebene) möchte immer in die *selbe Richtung* wie der Erregerfluss zeigen.
-- Dies wird allein durch geschickte verdrahtung der Rotorwicklungskontakte erzielt
+Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehrt*, dass sich die momentan bestromten Rotorwicklungen geschickt zum Nächstgelegenen Pol *anzieht* bzw *abstößt*.  Dies wird allein durch geschickte verdrahtung der Rotorwicklungskontakte erzielt
 
 ## Berechnungsgrundlag
 
