@@ -34,8 +34,8 @@ banner_y: 0.756
 Der **Stator / Erreger** wird mit einem Konstanten *Erregerfluss* durchströmt, welcher durch EM bzw PM erzeugt wird.
 
 Arten der Erregung:
-- Nebenschlusserregung
-- Reihenschluss erregung
+- [Nebenschlusserregung](#Nebenschlusserregung)
+- [Reihenschlusserregung](#Reihenschlusserregung)
 - Fremderregung
 
 ### Rotor / Anker 
@@ -59,13 +59,13 @@ Die Kontakte des Kommutators (A-a, B-b) weisen eine interne Verbindung auf.
 
 **Zustand 2)** $I_{A}: b\to a$
 
-Der Rotor hat sich um $90°$ gedreht
+Der Rotor hat sich um $90°$ gedreht. Hier wird ersichtlich wie der Stromwender funktioniert.
 
 ![invert_dark](../assets/DCfunk90.jpg)
 
-## Berechnungsgrundlagen
+## Stationäres Betriebsverhalten
 
-Berechnungsgrundlagen **fremderregter** GSM.
+Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM.
 
 ### Kenngrößen
 
@@ -84,8 +84,11 @@ Berechnungsgrundlagen **fremderregter** GSM.
 
 ###  Ersatzschaltbild
 
+Der Drehsinn des Drehmoments kann wieder daran bestimmt werden, dass der Ankerfluss die Richtung des Erregerflusses über die kürzeste Bewegung anstrebt. 
 
 ![1000](assets/GSM-ESB.md)
+
+Dieses Schaltbild kann stationär immer so betrachtet werden, da es im Rotor immer eine Ankerwicklung in dieser Position gibt.
 
 ### Gleichungen
 
@@ -108,6 +111,28 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Glei
 > M &= \frac{U_{\mathrm{A}}}{\omega}I_{\mathrm{A}} = \frac{c\Phi_\mathrm{E}}{2\pi} I_\mathrm{A} = \bar{c}\Phi_\mathrm{E} I_{\mathrm{A}}
 > \end{align} 
 > $$
+
+### Kennlinien
+
+
+
+## Schaltungsvarianten 
+
+Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise erfolgen.
+
+### Nebenschlusserregung
+
+In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zueinander am Netz. Das Erregerfeld wird direkt durch die Netzspannung eingeprägt.
+
+![](assets/Gleichstrommaschine%202025-04-30%2020.04.42.excalidraw)
+
+### Reihenschlusserregung
+
+Im Gegensatz zur Nebenschlusserregung sind hier die beiden Wicklungen hintereinandergeschaltet. Der Erregerstrom entspricht daher dem Ankerstrom. Dies bedeutet, dass die Felderregung belastungsabhänging erfolgt. 
+
+### Fremderregung
+
+Beid er fremderregten Maschine sen Erreger- und Ankerwicklungschlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
 
 ## Nutrastmomente
 

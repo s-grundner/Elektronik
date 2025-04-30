@@ -42,3 +42,4 @@ nmap gf :followLinkUnderCursor<CR>
 "
 " g; go to last change - https://vimhelp.org/motion.txt.html#g%3B
 nmap g; u<C-r>
+
