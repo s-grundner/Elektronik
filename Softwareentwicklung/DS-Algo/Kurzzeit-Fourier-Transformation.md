@@ -21,7 +21,7 @@ title: Kurzzeit-Fourier-Transformation
 
 ---
 
-
+Ist das Fenster eine Gausssche Glockenkurve -> Gabor Transformation
 
 ---
 
