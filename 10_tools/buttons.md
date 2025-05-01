@@ -53,7 +53,7 @@ class mybutton
 ```
 ^button-oeh
 
-## Lookups
+## References
 
 ```button
 name LaTeX Sheet A
@@ -80,7 +80,7 @@ class mybutton
 ^button-rexegg
 
 ```button
-name Regex 101
+name Regex101
 type link
 action https://regex101.com/
 class mybutton
@@ -88,7 +88,7 @@ class mybutton
 ^button-regex101
 
 ```button
-name Vim Keybinds
+name Vim KB
 type link
 action https://vim.rtorr.com/
 class mybutton
@@ -103,7 +103,13 @@ class mybutton
 ```
 ^button-dataview
 
-
+```button
+name GPT
+type link
+action https://openai.com/index/chatgpt/
+class mybutton
+```
+^button-gpt
 
 ## Editing
 

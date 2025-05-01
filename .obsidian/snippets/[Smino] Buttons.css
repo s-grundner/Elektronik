@@ -1,17 +1,15 @@
 .mybutton {
-
 	border: 1.0px solid var(--button-border);
 	border-radius: var(--button-border-radius, 8px);
 	width: 200;
 	color: orange;
-	padding: 20px 20px;
+	padding: 18px 18px;
 	font-weight: normal;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 16px;
 	margin: 0 2px;
 	transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
 	cursor: pointer;
-
 }
 
 .mybutton:hover {

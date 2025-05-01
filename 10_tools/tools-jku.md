@@ -3,5 +3,5 @@
 
 | `button-jku-moodle` | `button-kusss` |
 | :-----------------: | :--------------: |
-| `button-overleaf` | |
+| `button-overleaf` | `button-gpt`|
 

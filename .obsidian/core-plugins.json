@@ -3,9 +3,9 @@
   "global-search": true,
   "switcher": true,
   "graph": true,
-  "backlink": true,
+  "backlink": false,
   "canvas": true,
-  "outgoing-link": true,
+  "outgoing-link": false,
   "tag-pane": false,
   "page-preview": true,
   "daily-notes": true,
@@ -13,7 +13,7 @@
   "note-composer": true,
   "command-palette": true,
   "slash-command": false,
-  "editor-status": true,
+  "editor-status": false,
   "starred": true,
   "markdown-importer": false,
   "zk-prefixer": false,
@@ -27,6 +27,6 @@
   "publish": false,
   "sync": false,
   "bookmarks": false,
-  "properties": true,
+  "properties": false,
   "webviewer": false
 }

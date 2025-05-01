@@ -257,5 +257,13 @@
       ],
       "key": "O"
     }
+  ],
+  "app:show-debug-info": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
   ]
 }
