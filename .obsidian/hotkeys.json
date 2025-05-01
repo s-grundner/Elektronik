@@ -17,15 +17,6 @@
       "key": "P"
     }
   ],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "G"
-    }
-  ],
   "obsidian-textgenerator-plugin:create-generated-text-From-template": [
     {
       "modifiers": [
@@ -264,6 +255,71 @@
         "Alt"
       ],
       "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:focus": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "graph:open": [],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "app:open-help": [],
+  "obsidian-quiet-outline:next-heading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "9"
+    }
+  ],
+  "obsidian-quiet-outline:prev-heading": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "8"
     }
   ]
 }

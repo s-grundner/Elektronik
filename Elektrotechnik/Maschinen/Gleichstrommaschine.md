@@ -37,9 +37,9 @@ banner_y: 0.724
 Der **Stator / Erreger** wird mit einem Konstanten *Erregerfluss* durchströmt, welcher durch EM bzw PM erzeugt wird.
 
 Arten der Erregung:
+- [[#Fremderregung]]
 - [Nebenschlusserregung](#Nebenschlusserregung)
 - [Reihenschlusserregung](#Reihenschlusserregung)
-- Fremderregung
 
 ### Rotor / Anker 
 
@@ -74,7 +74,7 @@ Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM.
 
 | Kenngröße           | Ausdruck               | Einheit  | Anmerkung                            |
 | ------------------- | ---------------------- | -------- | ------------------------------------ |
-| Drehmoment          | $M$                    | $N$      |                                      |
+| Drehmoment          | $M$                    | $Nm$     |                                      |
 | Drehzahl            | $\omega = 2\pi n$      | $s^{-1}$ | Für $n$ Umdrehungen pro Sekunde      |
 | Induzierte Spannung | $U_{q}$                | $V$      |                                      |
 | Ankerpannung        | $U_{A}$                | $V$      | Mit Verlust über die Ankerimpedanzen |
@@ -115,7 +115,7 @@ Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Glei
 > \begin{align}
 > U_\mathrm{A} &= R_\mathrm{A}I_\mathrm{A}+U_{q}(\omega) \\
 > U_{q} &= \frac{\mathrm{d}\Psi_{\mathrm{E}}}{\mathrm{d}t} = c\Phi_{\mathrm{E}} n =\bar{c}\Phi_{\mathrm{E}} \omega \\
-> M &= \frac{U_{\mathrm{A}}}{\omega}I_{\mathrm{A}} = \frac{c\Phi_\mathrm{E}}{2\pi} I_\mathrm{A} = \bar{c}\Phi_\mathrm{E} I_{\mathrm{A}}
+> M &= \frac{U_{\mathrm{q}}}{\omega}I_{\mathrm{A}} = \frac{c\Phi_\mathrm{E}}{2\pi} I_\mathrm{A} = \bar{c}\Phi_\mathrm{E} I_{\mathrm{A}}
 > \end{align} 
 > $$
 
@@ -133,6 +133,18 @@ Angaben zum Dynamischen Betriebsverhalten sind auf dem **Typenschild** in Form v
 
 - [GSM-Typenschild](GSM-Typenschild.md) 
 
+Es gilt die [Ankerspannungsgleichung](#^ASPG) und es werden zusätzlich Nenngrößen definiert. Es wird statt der *inneren* elektrische Leistung die *gesamte* elektrischen Leistung mit einem *Wirkungsgrad* angegeben. 
+
+Diese Nenngrößen beziehen sich auf den **Anker**. Das heißt $I_{\mathrm{N}}$ und $U_{\mathrm{N}}$ sind Ankerstrom / -spannung im **Betriebspunkt**.
+
+> [!def] **D1 - NENN)** Nenngrößen
+> $$
+> P_{\mathrm{N}} = U_{\mathrm{N}}I_{\mathrm{N}} \eta = \omega_\mathrm{N} M_\mathrm{N}, \quad \omega_{\mathrm{N}} = 2\pi n_{\mathrm{N}}
+> $$
+
+Unter Angabe des Trägheitsmomentes $J$ gilt der Drallsatz
+
+![](Drallsatz.md#^DRAL)
 
 
 ## Schaltungsvarianten 
@@ -145,7 +157,7 @@ Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise
 
 ### Fremderregung
 
-Beid er fremderregten Maschine sen Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
+Bei der fremderregten Maschine sind Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
 
 ![invert_dark|300](../../assets/fremderregt.png)
 
