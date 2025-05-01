@@ -4,7 +4,7 @@ tags:
 aliases:
   - Spule
   - Spulen
-  - Induktivität
+  - Induktivitäten
   - Henry
 keywords: 
 subject:
@@ -66,9 +66,6 @@ nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
 Induktionsphänomene kamen bisher nicht vor, weil wir und nicht um Zeit Abhängigkeiten des Feldes gekümmert haben. Diese Phänomene treten nämlich nur in *Wechselfeldern* auf.
 
-
-
-
 ### Ruheinduktion
 
 Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, dass geschlossene elektrische Feldlinien auftauchen!
@@ -97,8 +94,6 @@ $$u_{ind}=\frac{d\Phi}{dt}$$
 
 ![invert_dark](assets/BewegterLeiter.png)
 
-
-
 ---
 
 ### Induzierte Spannung
@@ -107,9 +102,7 @@ quellstrom $i$ ist konstant
 
 Quellspannung
 
-$$
-u_{q}=\frac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi)
-$$
+$$ u_{q}=\frac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi) $$
 Verketteter Fluss: $\Psi = N \cdot\Phi$
 
 Bisher:

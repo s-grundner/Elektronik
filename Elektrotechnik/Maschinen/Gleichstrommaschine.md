@@ -30,7 +30,7 @@ banner_y: 0.724
 > - Spulenwicklung im Rotor
 > - Bürste
 
-## Komponenten
+## Aufbau
 
 ### Stator / Erreger
 
@@ -68,22 +68,22 @@ Der Rotor hat sich um $90°$ gedreht. Hier wird ersichtlich wie der Stromwender 
 
 ## Stationäres Betriebsverhalten
 
-Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM.
+Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM. Bei anderen [Erregermethoden](#Schaltungsvarianten) gibt es dann zusätzlich Zusammenhänge zwischen den Kenngrößen.
 
 ### Kenngrößen
 
-| Kenngröße           | Ausdruck               | Einheit  | Anmerkung                            |
-| ------------------- | ---------------------- | -------- | ------------------------------------ |
-| Drehmoment          | $M$                    | $Nm$     |                                      |
-| Drehzahl            | $\omega = 2\pi n$      | $s^{-1}$ | Für $n$ Umdrehungen pro Sekunde      |
-| Induzierte Spannung | $U_{q}$                | $V$      |                                      |
-| Ankerpannung        | $U_{A}$                | $V$      | Mit Verlust über die Ankerimpedanzen |
-| Ankerwiderstand     | $R_{A}$                | $\Omega$ |                                      |
-| Ankerinduktivität   | $L_{A}$                | $H$      |                                      |
-| Erregerwiderstand   | $R_{E}$                | $\Omega$ |                                      |
-| Erregerinduktivität | $L_{E}$                | $H$      |                                      |
-| Erregerfluss        | $\Phi_{E}$ bzw. $\Phi$ | Vs       | Verketter Fluss $\Psi = n \Phi$      |
-| Maschinenkonstante  | $c=2\pi\bar{c}$        | $1$      |                                      |
+| Kenngröße                                                       | Ausdruck               | Einheit  | Anmerkung                            |
+| --------------------------------------------------------------- | ---------------------- | -------- | ------------------------------------ |
+| Drehmoment                                                      | $M$                    | $Nm$     |                                      |
+| Drehzahl                                                        | $\omega = 2\pi n$      | $s^{-1}$ | Für $n$ Umdrehungen pro Sekunde      |
+| [Induzierte Spannung](../Induktivität.md#Induzierte%20Spannung) | $U_{q}$                | $V$      |                                      |
+| Ankerpannung                                                    | $U_{A}$                | $V$      | Mit Verlust über die Ankerimpedanzen |
+| Ankerwiderstand                                                 | $R_{A}$                | $\Omega$ |                                      |
+| Ankerinduktivität                                               | $L_{A}$                | $H$      |                                      |
+| Erregerwiderstand                                               | $R_{E}$                | $\Omega$ |                                      |
+| Erregerinduktivität                                             | $L_{E}$                | $H$      |                                      |
+| Erregerfluss                                                    | $\Phi_{E}$ bzw. $\Phi$ | Vs       | Verketter Fluss $\Psi = N \Phi$      |
+| Maschinenkonstante                                              | $c=2\pi\bar{c}$        | $1$      |                                      |
 
 ###  Ersatzschaltbild
 
@@ -109,15 +109,17 @@ $$
 
 Zur Beschreibung des Stationäres Betriebsverhalten der DC-Maschine gibt es Gleichungen:
 
-> [!def] **D1 - ASPG)** Ankerspannungsgleichung: ^ASPG
+> [!satz] **S1 - ANKG)** Ankergleichungen ^ANKG
 > 
 > $$
 > \begin{align}
-> U_\mathrm{A} &= R_\mathrm{A}I_\mathrm{A}+U_{q}(\omega) \\
-> U_{q} &= \frac{\mathrm{d}\Psi_{\mathrm{E}}}{\mathrm{d}t} = c\Phi_{\mathrm{E}} n =\bar{c}\Phi_{\mathrm{E}} \omega \\
-> M &= \frac{U_{\mathrm{q}}}{\omega}I_{\mathrm{A}} = \frac{c\Phi_\mathrm{E}}{2\pi} I_\mathrm{A} = \bar{c}\Phi_\mathrm{E} I_{\mathrm{A}}
+> U_\mathrm{A} &= R_\mathrm{A}I_\mathrm{A}+U_{q}(\omega)\tag{1} \\
+> U_{q} &= \frac{\mathrm{d}\Psi_{\mathrm{E}}}{\mathrm{d}t} = c\Phi_{\mathrm{E}} n =\bar{c}\Phi_{\mathrm{E}} \omega \tag{2}\\
+> M &= \frac{U_{\mathrm{q}}}{\omega}I_{\mathrm{A}} = \frac{c\Phi_\mathrm{E}}{2\pi} I_\mathrm{A} = \bar{c}\Phi_\mathrm{E} I_{\mathrm{A}} \tag{3}
 > \end{align} 
 > $$
+
+Zu **(2)**: $\Psi\to\Phi$ da die Windungszahl der Ankerwicklung in der Maschinenkonstante $c$ steckt.
 
 ### Wirkungsgrad
 
@@ -133,16 +135,16 @@ Angaben zum Dynamischen Betriebsverhalten sind auf dem **Typenschild** in Form v
 
 - [GSM-Typenschild](GSM-Typenschild.md) 
 
-Es gilt die [Ankerspannungsgleichung](#^ASPG) und es werden zusätzlich Nenngrößen definiert. Es wird statt der *inneren* elektrische Leistung die *gesamte* elektrischen Leistung mit einem *Wirkungsgrad* angegeben. 
+Es gilt die [Ankerspannungsgleichung](#^ANKG) und es werden zusätzlich Nenngrößen definiert. Es wird statt der *inneren* elektrische Leistung die *gesamte* elektrischen Leistung mit einem *Wirkungsgrad* angegeben. 
 
 Diese Nenngrößen beziehen sich auf den **Anker**. Das heißt $I_{\mathrm{N}}$ und $U_{\mathrm{N}}$ sind Ankerstrom / -spannung im **Betriebspunkt**.
 
-> [!def] **D1 - NENN)** Nenngrößen
+> [!def] **D1 - NENN)** Zusammenhang der
 > $$
 > P_{\mathrm{N}} = U_{\mathrm{N}}I_{\mathrm{N}} \eta = \omega_\mathrm{N} M_\mathrm{N}, \quad \omega_{\mathrm{N}} = 2\pi n_{\mathrm{N}}
 > $$
 
-Unter Angabe des Trägheitsmomentes $J$ gilt der Drallsatz
+Unter Angabe des Trägheitsmomentes $J$ der Maschine gilt der Drallsatz
 
 ![](Drallsatz.md#^DRAL)
 
@@ -151,8 +153,8 @@ Unter Angabe des Trägheitsmomentes $J$ gilt der Drallsatz
 
 Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise erfolgen. Wichtige Größen und Konzepte sind: 
 
-- [Reluktanz](../Reluktanz.md)
-- [Magnetkreis](../Magnetkreis.md)
+- [Reluktanz](Reluktanz.md)
+- [Magnetkreis](Magnetkreis.md)
 - [koerzitiv Feldstärke](../../Physik/Permanentmagnet.md)
 
 ### Fremderregung

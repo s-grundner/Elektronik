@@ -31,12 +31,12 @@ created: 19th August 2023
 
 1. Dünnes [Dielektrikum](../Elektrotechnik/Dielektrikum.md) zwischen Signal-Layer und GND-Layer
 	- Verbessert die Kopplung zwischen Signal und GND
-	- verringert [Induktivität](../Elektrotechnik/Induktivitäten.md)
+	- verringert [Induktivität](../Elektrotechnik/Induktivität.md)
 	- erhöht [Kapazität](../Elektrotechnik/Kapazität.md) zwischen Flächen  
 	$\Big(C=\dfrac{\varepsilon_{0}\cdot\varepsilon_{r}\cdot A}{d}\Big)$
 2. Mindestens 1x GND Layer über/unter einem Signal/Power Layer
 	- Grenzt Eund H-Felder ein
-	- verringert [Induktivität](../Elektrotechnik/Induktivitäten.md)
+	- verringert [Induktivität](../Elektrotechnik/Induktivität.md)
 	- gute Stromrückfluss
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer

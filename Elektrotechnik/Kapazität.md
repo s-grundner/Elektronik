@@ -144,7 +144,7 @@ $$
 > 
 > - $R_{ESR}$: dielektrische und elektrische Verluste
 > - $ESR$: equivalent series resistance
-> - $L$: intrinsische parasitäre [Induktivität](Induktivitäten.md) durch Anschlusskontakte
+> - $L$: intrinsische parasitäre [Induktivität](Induktivität.md) durch Anschlusskontakte
 
 $$
 \begin{align*}

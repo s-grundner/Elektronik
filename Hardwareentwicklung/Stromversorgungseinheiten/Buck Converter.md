@@ -23,11 +23,11 @@ Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle)
 
 ### $0<t<t_{1}$: $S_{geschlossen}$
 
-Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](../../Elektrotechnik/Induktivitäten.md) $L$ und versorgt den Lastwiderstand und den [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{L}$. Dabei speichert auch die [Spule](../../Elektrotechnik/Induktivitäten.md) $L$ Energie
+Die Differenz $\dfrac{U_{e}}{U_{a}}$ treibt einen Striom dutrch die [Spule](../../Elektrotechnik/Induktivität.md) $L$ und versorgt den Lastwiderstand und den [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{L}$. Dabei speichert auch die [Spule](../../Elektrotechnik/Induktivität.md) $L$ Energie
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-Die in der [Spule](../../Elektrotechnik/Induktivitäten.md) gespeicherten Energie liefert weiter [Strom](../../Elektrotechnik/elektrischer%20Strom.md) an den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../../Elektrotechnik/Induktivitäten.md), den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Verbraucher mit [Strom](../../Elektrotechnik/elektrischer%20Strom.md) versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
+Die in der [Spule](../../Elektrotechnik/Induktivität.md) gespeicherten Energie liefert weiter [Strom](../../Elektrotechnik/elektrischer%20Strom.md) an den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Lastwiderstand $R_{L}$. Da während der gesamten Schaltperiode die [Spule](../../Elektrotechnik/Induktivität.md), den [Kondensator](../../Elektrotechnik/Kapazität.md) und den Verbraucher mit [Strom](../../Elektrotechnik/elektrischer%20Strom.md) versorgt, wird die Schaltung auch als **Durchflusswandler** bezeichnet.
 
 ### Herleitung der Dimensionierung
 
@@ -69,7 +69,7 @@ $$
 
 Die Ausgangsspannung kann nur kleiner als $U_{e}$ sein und die Steuerung von $U_{a}$ erfolgt durch veränderung der **Duty-Cycle** bzw der **Schaltperiode**.
 
-## [Induktivität](../../Elektrotechnik/Induktivitäten.md)
+## [Induktivität](../../Elektrotechnik/Induktivität.md)
 
 Aus [](Buck%20Converter.md#t_%201%20t%20T_%20s%20S_%20geöffnet|(2)) folgt:
 
@@ -145,7 +145,7 @@ $$
 I_{Amin} = \frac{1}{2L_{min}}\cdot (U_{e}-U_{a})\cdot T_{s}
 $$
 
- - Für kleine [Induktivitäten](../../Elektrotechnik/Induktivitäten.md) ist eine große Schaltfrequenz zu wählen. 
+ - Für kleine [Induktivität](../../Elektrotechnik/Induktivität.md) ist eine große Schaltfrequenz zu wählen. 
  - Frequenz nicht beliebig wählbar, da sie ein steigen der dynamischen Verluste in der Drossel verursacht, wenn sie höher wird. Eine Hohe Schaltfrequenz bewirkt auch einen teureren Schalttransistor.
  - Daher erfolgt eine Begrenzung der Taktfrequenz bei $50-500kHz$ (Je nach Bauart)
 

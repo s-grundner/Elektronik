@@ -67,7 +67,7 @@ $$\Downarrow$$
 3. Hochfrequente bzw. hochenergetische Leiterbahnen so kurz wie möglich halten
 4. Leistungsabgabe verbessern
 	- Entkopplung/[Abblockkondensator](Abblockkondensator.md)
-	- [Induktivität](../Elektrotechnik/Induktivitäten.md) minimieren
+	- [Induktivität](../Elektrotechnik/Induktivität.md) minimieren
 	- [Kapazität](../Elektrotechnik/Kapazität.md) maximieren
 		- Dünne Dielektrika mit hoher Dielektrizitätszahl
 		- $\Big(C=\dfrac{\varepsilon_{0}\cdot\varepsilon_{r}\cdot A}{d}\Big)$

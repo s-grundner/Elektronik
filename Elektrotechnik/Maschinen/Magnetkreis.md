@@ -25,7 +25,7 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 
 **Prinzipien**
 
-- [Reluktanz Prinzip](Reluktanz.md#^RelPrinz)
+- [Reluktanz Prinzip](Maschinen/Reluktanz.md#^RelPrinz)
 
 ## Wichtige Kenngrößen und Zusammenhänge
 
@@ -89,7 +89,7 @@ $$
 $$
 
 
-4. Einsetzen des [magnetischen Widerstandes](Reluktanz.md) $\mathfrak{R}=\dfrac{l}{\mu A}$ leifert:
+4. Einsetzen des [magnetischen Widerstandes](Maschinen/Reluktanz.md) $\mathfrak{R}=\dfrac{l}{\mu A}$ leifert:
 
 $$
 \begin{align}

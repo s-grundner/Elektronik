@@ -30,12 +30,12 @@ title: Das Magnetische Feld
 
 ## 🗺️ Map of Content
 
-- [Magnetkreis](Magnetkreis.md) - Schematischer Aufbau von Anwendungen
+- [Magnetkreis](Maschinen/Magnetkreis.md) - Schematischer Aufbau von Anwendungen
 - [Materialgesetz - Permeabilität](Permeabilität.md)
 - [Magnetische Quellen](Magnetische%20Quellen.md) - Magnete
 - [Magnetischer Fluss](Magnetischer%20Fluss.md) - $\Phi$
 - [Durchflutung](Durchflutung.md) - $\Theta$
-- [Reluktanz](Reluktanz.md) - $\mathfrak{R}$
+- [Reluktanz](Maschinen/Reluktanz.md) - $\mathfrak{R}$
 
 ## Magnetfeld im Leiter
 
@@ -57,6 +57,6 @@ $$
 Was beschreibt der magnetische Fluss
 ?
 Genau wie beim elektrischen Strom kann der Strom nur durch eine Fläche definiert werden.
-Um die Größe des Magnetfelds darzustellen kann der Fluss durch eine Fläche bestimmt werden (z.B. Der Querschnitt einer [Spule](Induktivitäten.md))
+Um die Größe des Magnetfelds darzustellen kann der Fluss durch eine Fläche bestimmt werden (z.B. Der Querschnitt einer [Spule](Induktivität.md))
 $I = \int  \vec{J}\cdot d\vec{A} \iff \Phi = \int \vec{B}\cdot d\vec{A}$
 <!--SR:!2024-03-16,1,230-->

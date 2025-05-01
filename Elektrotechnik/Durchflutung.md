@@ -23,4 +23,4 @@ Gefolgt aus der [1. Maxwellgleichung](Maxwell.md#^MW1) wird die Durchflutung als
 
 Bei einer einfachen Spule: $\Theta = N\cdot i$
 
-Oft liefert das Ringintegral der Durchflutung die Maschengleichung als Summe aller magnetschen Spannungsabfälle an Verbrauchern in einem [Magnetkreis](Magnetkreis.md).
+Oft liefert das Ringintegral der Durchflutung die Maschengleichung als Summe aller magnetschen Spannungsabfälle an Verbrauchern in einem [Magnetkreis](Maschinen/Magnetkreis.md).

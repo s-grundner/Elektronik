@@ -1,7 +1,7 @@
 # Flyback Simulation
 
 > [!EXAMPLE] Bauteilwerte Bestimmen  
->Berechne die primäre [Induktivität](../../Elektrotechnik/Induktivitäten.md) sowie das Übersetzungsverhältnis, entsprechend der im Unterricht gezeigten online [Rechenhilfe](http://schmidt-walter-schaltnetzteile.de/smps/spw_smps.html):  
+>Berechne die primäre [Induktivität](../../Elektrotechnik/Induktivität.md) sowie das Übersetzungsverhältnis, entsprechend der im Unterricht gezeigten online [Rechenhilfe](http://schmidt-walter-schaltnetzteile.de/smps/spw_smps.html):  
 >Gib die Größen L1 und ü = N1:N2 in der Mitschrift an.  
 > ![575](../assets/SperrwandlerIMG2.png)
 >$$

@@ -66,7 +66,7 @@ $$
 \end{align*}
 $$
 
-## [Induktivität](../../Elektrotechnik/Induktivitäten.md)
+## [Induktivität](../../Elektrotechnik/Induktivität.md)
 
 Gleich wie beim Boost Converter: $\rightarrow$ [Induktivität](Boost%20Converter.md#[Induktivität](../Induktivitäten.md))
 
