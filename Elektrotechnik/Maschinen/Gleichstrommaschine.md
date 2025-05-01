@@ -7,6 +7,7 @@ aliases:
   - Gleichstrommotor
   - Gleichstromgenerator
   - Kommutator
+  - GSM
 keywords:
   - Nebenschluss
   - Reihenschluss
@@ -19,7 +20,7 @@ created: 3. März 2025
 professor: 
 draft: false
 title: Gleichstrommaschine
-banner: "/Elektrotechnik/Maschinen/assets/DCM.png"
+banner: /Elektrotechnik/Maschinen/assets/DCM.png
 banner_y: 0.724
 ---
 
@@ -126,18 +127,18 @@ $$
 \eta = \frac{P_{\mathrm{A}}}{P_{\mathrm{m}}} = \frac{I_{\mathrm{A}}^{2}R_{\mathrm{A}}}{\omega M} \cdot100\%
 $$
 
-
 ## Dynamisches Betriebsverhalten
 
 Angaben zum Dynamischen Betriebsverhalten sind auf dem **Typenschild** in Form von normierter **Nenngrößen** zu finden.
 
-- [GSM - Typenschild](https://www.seva-tec.de/de/faq/detail/groupid/9/id/43)
+- [GSM-Typenschild](GSM-Typenschild.md) 
+
+
 
 ## Schaltungsvarianten 
 
-Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise erfolgen.
+Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise erfolgen. Wichtige Größen und Konzepte sind: 
 
-Wichtige Größen und Konzepte:
 - [Reluktanz](../Reluktanz.md)
 - [Magnetkreis](../Magnetkreis.md)
 - [koerzitiv Feldstärke](../../Physik/Permanentmagnet.md)
