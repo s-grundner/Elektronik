@@ -1,5 +1,6 @@
 ---
-tags: [Schaltungsanalyse, todo]
+tags:
+  - Schaltungsanalyse
 aliases:
   - Maschenregel
   - Knotenregel

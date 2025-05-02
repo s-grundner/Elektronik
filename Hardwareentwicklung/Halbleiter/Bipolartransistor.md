@@ -82,7 +82,7 @@ Der Arbeitspunkt
 - bestimmt den maximal möglichen Aussteuerbereich,
 - soll für große Aussteueramplituden in die Mitte des Aussteuerbereiches $\left(U_{\mathrm{CE}, \min } \ldots U_0\right)$ gelegt werden.
 
-![](assets/{15B99FC5-3166-4FFB-A1B9-944E5F2E7AE9}.png)
+![invert_dark](assets/{15B99FC5-3166-4FFB-A1B9-944E5F2E7AE9}.png)
 
 ### Temparatur und Verstärkungsabweichungen
 
@@ -122,14 +122,14 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 \end{document}
 ```
 
-![](assets/{8ED7CCB4-8EE7-4420-BCF2-4D12D04047FD}.png)
+![invert_dark](assets/{8ED7CCB4-8EE7-4420-BCF2-4D12D04047FD}.png)
 
 Funktionen der Arbeitsgeraden
 $$
 I_{\mathrm{B}}=\frac{U_{\mathrm{L}}-U_{\mathrm{BE}}}{R_{\mathrm{i}}} \quad I_{\mathrm{C}}=B \cdot \frac{U_{\mathrm{L}}-U_{\mathrm{BE}}}{R_{\mathrm{i}}}
 $$
 
-![](assets/{9C735800-443E-4EBF-BBDF-2F3886884455}.png)
+![invert_dark](assets/{9C735800-443E-4EBF-BBDF-2F3886884455}.png)
 
 ## Kleinsignalverhalten
 
@@ -141,7 +141,7 @@ $$
 
 ## Betriebsparameter
 
-- [[../Betriebsparameter]] von Verstärkern
+- [Betriebsparameter](../Betriebsparameter.md) von Verstärkern
 
 ## Betriebsarten
 

@@ -1,5 +1,5 @@
 ---
-tags: [incomplete]
+tags: []
 aliases:
   - DTFT
 keywords: 
@@ -14,6 +14,7 @@ draft: true
 title: Zeitdiskrete Fouriertransformation
 ---
  
+
 # Zeitdiskrete Fourier-Transformation
 
 [Fouriertransformation](Fouriertransformation.md) ***:LiArrowBigRightDash:***
@@ -42,27 +43,25 @@ Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
 
 $$\sum_{n=-\infty}^{\infty}\lvert f[n] \rvert < \infty$$
 
-> [!bug] Diese Eigenschaft hat z.B. ein DC-Signal nicht. siehe [Folien]
+> [!bug] #todo Mit informationen aus den Folien ergänzen. Diese Eigenschaft hat z.B. ein DC-Signal nicht. siehe [Folien]
 > Man kann nichts destotrotz ein Spektrum angeben, jedoch benötigt man Analoge Dirac-Impulse um das Spektrum darzustellen.
 
 ---
 
 Eine wesentliche Eigenschaft für zeitdiskrete anwendungen ist, dass die Faltung im Bildbereich zur Multiplikation wird. 
-
-
 Selbe idee, warum man für verstärkungen eine Logarothmustransformation vornimmt, damit diese einfacher zu rechnen sind. 
+ 
 
 ## Eigenschaften der DTFT
 
 Verschobenes Signal:
-
-Amplitudenspektrum ist gleich, Verschiebung macht sich nur in der Phase erkennbar
-
+ Amplitudenspektrum ist gleich, Verschiebung macht sich nur in der Phase erkennbar
 Transformationsvorschriften funktionieren nur in richtung Zeitbereich -> Bildbereich.
-
 Warum? Ein Zeitdiskretes Signal hat ein kontinuierliches Spektrum. Zu einem Kontinuierlichen Spektrum passen auch kontinuierliche Zeitsignale
 
 ### Parseval-Theorem
+
+#todo Parseval Theorem ergänzen. Nach bereits existierenden Notizen dazu suchen. sonst Folien.
 
 ## DTFT - Transformationstabelle
 

@@ -1,7 +1,6 @@
 ---
 tags:
   - Halbleiter/Diode
-  - "#incomplete"
 aliases:
   - Dioden
   - 1N4148
@@ -56,11 +55,9 @@ Je nach genauigkeit der Kleinsignalannäherung kommen in dem Ausdruck verschiede
 > [!hint] Zur Erinnerung - [Fourierreihe](../../Systemtheorie/Fourierreihe.md):
 > Jedes Periodische Signal lässt sich durch eine Summe von Sinus und Cosinus Funktionen darstellen. Die Oberwellen treten also getrennt für jede Teil-Frequenz des Signals auf.
 
-
 ## Überblick D-R Schaltungen
 
 ### Serien Schaltungen
-
 
 | Schaltung                                   | ![1600](assets/Pasted%20image%2020241107144022.png) |
 | ------------------------------------------- | --------------------------------------------------- |

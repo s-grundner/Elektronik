@@ -1,7 +1,6 @@
 ---
 tags:
   - Algebra/LineareAlgebra
-  - incomplete
 aliases:
   - "#Algebra/LineareAlgebra"
   - Basiswechsel

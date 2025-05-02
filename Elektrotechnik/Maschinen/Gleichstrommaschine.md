@@ -131,6 +131,8 @@ $$
 
 ## Dynamisches Betriebsverhalten
 
+Beim dynamischen Betriebsverhalten werden Änderungen der Größen () mit berücksichtigt.
+
 Angaben zum Dynamischen Betriebsverhalten sind auf dem **Typenschild** in Form von normierter **Nenngrößen** zu finden.
 
 - [GSM-Typenschild](GSM-Typenschild.md) 
