@@ -66,3 +66,9 @@ Terminal Multiplexer: Startet Terminal Server im tmp Ordner.
 ---
 
 [Tmux Cheat Sheet & Quick Reference | Session, window, pane and more](https://tmuxcheatsheet.com/)
+
+---
+
+## Plugins TPM
+
+- Repo und How to use: https://github.com/tmux-plugins/tpm
