@@ -23,8 +23,6 @@ T = 2;                          % duration of a whole tone
 fs = 8000;                      % sampling frequency
 Ts = 1/fs;                      % sampling time
 music = [];                     % define variable for audio signal
-adsrMusic = []; 
-
 
 for k=1:length(pitch)           % for loop
     L = T/Ts*duration(k);         % number of samples per tone
@@ -41,11 +39,11 @@ for k=1:length(pitch)           % for loop
     % Plot Signals
     c = colorSignal(pitch, k);    % color Signal according to pitch
 
+    % hold on
+    % subplot(1,2,1);
+    % plot(tSegment, s, 'Color', c);
     hold on
-    subplot(1,2,1);
-    plot(tSegment, s, 'Color', c);
-    hold on
-    subplot(1,2,2);
+    % subplot(1,2,2);
     plot(tSegment, sAdsr, 'Color', c);
 end
 
