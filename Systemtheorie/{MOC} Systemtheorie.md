@@ -47,8 +47,16 @@ Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
 ## Frequenzbereichsmethoden
 
+Oft ist es wichtig, die Übertragungsfunktion eines Systems zu kennen.
 
-| **:LiAudioWaveform: Kontinuierliche Systeme**                           | :LiBolt: |                             **Zeitdiskrete Systeme :LiBarChart2:** |
-| ----------------------------------------------------------------------- | :------: | -----------------------------------------------------------------: |
-| [:LiArrowBigRightDash:](Laplacetransformation.md) Laplacetransformation | :LiBolt: | z-Transformation [:LiArrowBigLeftDash:](z-Transformation.md) |
-| [:LiArrowBigRightDash:](Übertragungsfunktion.md) Übertragungsfunktion   | :LiBolt: | Übertragungsfunktion [:LiArrowBigLeftDash:]() |
+### Übersicht: Eigenschaften von $G(s)$, $G(z)$ und $G^\#(q)$
+
+- $G(s)$: Laplacetransformation
+- $G(z)$: z-Transformation
+- $G^\#(q)$: q-Transformation
+
+|                  |                          $G(s)$                          |                          $G(z)$                          |                            $G^\#(q)$                            |
+| ---------------- | :------------------------------------------------------: | :------------------------------------------------------: | :-------------------------------------------------------------: |
+| Realisierbarkeit | $\lim\limits_{ s \to \infty }\lvert G(s) \rvert <\infty$ | $\lim\limits_{ z \to \infty }\lvert G(z) \rvert <\infty$ | $\lim\limits_{ q \to \Omega_{0} }\lvert G^\#(q) \rvert <\infty$ |
+| Sprungfähigkeit  |        $\lim\limits_{ s \to \infty } G(s) \neq 0$        |        $\lim\limits_{ z \to \infty } G(z) \neq 0$        |       $\lim\limits_{ q \to  \Omega_{0} } G^\#(q) \neq 0$        |
+| BIBO-Stabilität  |           alle Pole $s_{i}$ mit $\Re s_{i}<0$            |      alle Pole $z_{i}$ mit $\lvert z_{i} \rvert<1$       |               alle Pole $q_{i}$ mit $\Re q_{i}<0$               |

@@ -11,7 +11,6 @@ professor:
 draft: true
 title: Abtastung
 ---
- 
 
 # Abtastung
 
@@ -22,3 +21,8 @@ Ideale Abtastung
 $$ x[n] := x(nT_{s}) $$
 
 ## Abtastsystem
+
+
+---
+
+[q-Transformation](q-Transformation.md)
