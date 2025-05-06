@@ -1,12 +1,14 @@
 % short time spectral analysis
 
+fSize = 25;
+
 %% PARAMETER REQUEST
 fprintf('Audio spectral analysis\n')
-filename = input('name of audio file (*.wav): ','s');
-[y, fs] = audioread(filename);
+% filename = input('name of audio file (*.wav): ','s');
+[y, fs] = audioread("Aufgabe4.wav");
 
 M = input('FFT-length: ');
-OL = input('Overlap of the fft blocks: ');
+% OL = input('Overlap of the fft blocks: ');
 
 Ts = 1/fs;		% Sampling time
 N  = length(y);	% Number of signal samples
@@ -24,14 +26,15 @@ f = (0:N-1)*df;				% Frequency scale
 % VISUALIZATION
 FIG1 = figure('Name', 'short time spectrum analysis', 'NumberTitle', 'off');
 plot(f, YY)
+set(gca,'fontsize', fSize) 
 axis([0 fs/2 0 1]);
 grid, xlabel('f / [Hz]'), ylabel('norm. |Y(f)|')
-soundsc(y, fs);				% Sound
+% soundsc(y, fs);				% Sound
 
 
 %% SHORT TIME SPECTRUM ANALYSIS
-%M = 4096;            			% fft length
-%OL = 2;             			% Overlap of the fft blocks, i.e, size of overlap M/OL  
+% M = 4096;            			% fft length
+OL = 2;             			% Overlap of the fft blocks, i.e, size of overlap M/OL  
 w = hamming(M);     			% Hamming window
 N = floor(length(y)/M);			% number of blocks without overlapping
 
@@ -55,5 +58,6 @@ f=0:df:(M/4-1)*df; 		   	% Frequency scale
 h = surf(f,t,Y);
 shading interp
 view(30,30)
+set(gca,'fontsize', fSize) 
 xlabel(' f / [Hz]'), ylabel(' t / [s]')
 zlabel('magnitudes of short term dft spectra')

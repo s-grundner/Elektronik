@@ -3,6 +3,8 @@
 clear all
 close all
 
+set(gca,'fontsize', 28) 
+
 % pitch in Hz
 A = 220;
 Dhigh = A*2^(5/12); % high
@@ -24,11 +26,18 @@ fs = 8000;                      % sampling frequency
 Ts = 1/fs;                      % sampling time
 music = [];                     % define variable for audio signal
 
+nHarmonics = 12;
+
 for k=1:length(pitch)           % for loop
     L = T/Ts*duration(k);         % number of samples per tone
     n = 0:L-1;                    % normalized time
     Omega = 2*pi*pitch(k)/fs;     % normalized radian frequency
-    s = sin(Omega*n);             % tone
+
+    s = 0;
+    for i = 1:nHarmonics
+        s = 1/i * sin(i*Omega*n) + s; % tone
+    end
+
     sAdsr = adsr_profile(s);
     music = [music sAdsr];        % concatenated audio signal
 
@@ -38,21 +47,17 @@ for k=1:length(pitch)           % for loop
 
     % Plot Signals
     c = colorSignal(pitch, k);    % color Signal according to pitch
-
-    % hold on
-    % subplot(1,2,1);
-    % plot(tSegment, s, 'Color', c);
     hold on
-    % subplot(1,2,2);
     plot(tSegment, sAdsr, 'Color', c);
 end
 
 % pc sound card output
 % soundsc(music,fs,16);
-% soundsc(adsrMusic,fs,16);
+audiowrite("Aufgabe4.wav", music, fs);
 
+% Linearly interpolate between min and max frequency in pitch list p
 function c = colorSignal(p, k)
     cmap = colormap("jet");
-    c = 255*(1 - (p(k)-min(p))/(max(p)-min(p)) ) + 1;
+    c = 255*(1 - (p(k)-min(p))/(max(p)-min(p))) + 1;
     c = cmap(round(c),:);
 end
