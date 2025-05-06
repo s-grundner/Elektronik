@@ -85,52 +85,7 @@ $$\frac{B_{1}s+C_{1}}{s^{2}+ps+q} + \frac{B_{2}s+C_{2}}{(s^{2}+ps+q)^{2}} + \dot
 
 Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm eingezeichnet werden:
 
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
-
-\begin{document}
-
-\begin{tikzpicture}[very thick, scale=1, font=\Large]
-\begin{axis}[
-    width=15cm, height=15cm,
-    title=\Huge{Pol-Nullstellen Diagramm},
-    xlabel=$\Re(s)$, ylabel=$\Im(s)$,
-    xmin=-5, xmax=5, ymin=-5, ymax=5,
-    axis lines=center,
-    xtick={-4,-3,...,4}, ytick={-4,-3,...,4},
-    grid=major,
-    legend pos=north west, legend cell align=left,
-    axis line style={line width=1.5pt}
-]
-
-% Konvergenzabszisse
-\addplot[red, thick, dashed] coordinates {(1,-5) (1,5)};
-\addlegendentry{Konvergenzabszisse}
-
-% Pole
-\addplot[cyan, very thick, only marks, mark=x, mark size=5pt] coordinates {
-    (-2,3) (-2,-3) (-3,1) (-3, -1) (0,0) (1,0)
-};
-\addlegendentry{Pole}
-
-% Nullstellen
-\addplot[green, very thick, only marks, mark=o, mark size=5pt] coordinates {
-    (-1,2) (-1,-2) (3,0) (2, 1) (2, -1)
-};
-\addlegendentry{Nullstellen}
-
-% Konvergenzbereich
-\fill[blue!10, opacity=0.3] (1,-5) rectangle (5,5);
-\node at (3,3.5) {Konvergenzbereich};
-
-\end{axis}
-\end{tikzpicture}
-
-\end{document}
-```
+![invert_dark|400](assets/polnst.png)
 
 > [!question] Bedeutung der [Konvergenzsabzisse](#Konvergenzsverhalten)
 > - Die Konvergenzabzisse ist eine zur $\Im$-Achse parallele Gerade auf welcher der Pol mit dem **größten Realteil** liegt.
@@ -139,7 +94,7 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 
 ## Sätze 
 
-> [!satz] **LTR S2)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
+> [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 
 | Nr     | Satz                      | Zeitbereich zu $s$-Domäne                                                                               | Anmerkungen                                                                                                                                                            |
 | ------ | ------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -158,25 +113,24 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 
 ## Korrespondenzen
 
-$$ \mathcal{L}\left\{ \delta(t) \right\} (s) = 1 $$
-
-$$ \mathcal{L}\left\{ t \right\} (s) = \frac{1}{s^{2}} $$
-
-$$ \mathcal{L}\left\{ e^{ at }\right\} (s) = \frac{1}{s-a} $$
-
-$$ \mathcal{L}\left\{ t^n e^{ at }\right\} (s) = \frac{n!}{(s-a)^{n+1}} $$
-
-$$ \mathcal{L}\{\sin (\omega t)\}(s)=\frac{\omega}{s^2+\omega^2} $$
-
-$$ \mathcal{L}\{\cos (\omega t)\}(s)=\frac{s}{s^2+\omega^2} $$
-
-$$ \mathcal{L}\{e^{ at }\sin (\omega t)\}(s)=\frac{\omega}{(s-a)^2+\omega^2} $$
-
-$$ \mathcal{L}\{e^{ at }\cos (\omega t)\}(s)=\frac{s-a}{(s-a)^2+\omega^2} $$
-$$
-\mathcal{L}\{\sin(\omega_{0} t+\varphi_{0})\}(s) = \frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}
-$$
-
+> [!satz] **S3 - LAPK)** Korrespondenztabelle
+> Jede der transformierten Funktionen ist implizit [Kausal](Kausalität.md) (multiplizert mit dem Einheitsprung $\sigma(t)$)
+> 
+> $$
+> \begin{align}
+> \mathcal{L}\left\{ \delta(t) \right\} (s) &= 1 \\
+> \mathcal{L}\left\{ 1 \right\} (s) &= \frac{1}{s} \\
+> \mathcal{L}\left\{ t \right\} (s) &= \frac{1}{s^{2}} \\
+> \mathcal{L}\left\{ e^{ at }\right\} (s) &= \frac{1}{s-a} \\
+> \mathcal{L}\left\{ t^n e^{ at }\right\} (s) &= \frac{n!}{(s-a)^{n+1}} \\
+> \mathcal{L}\{\sin (\omega t)\}(s) &=\frac{\omega}{s^2+\omega^2} \\
+> \mathcal{L}\{\cos (\omega t)\}(s) &=\frac{s}{s^2+\omega^2} \\
+> \mathcal{L}\{e^{ at }\sin (\omega t)\}(s) &=\frac{\omega}{(s-a)^2+\omega^2} \\
+> \mathcal{L}\{e^{ at }\cos (\omega t)\}(s) &=\frac{s-a}{(s-a)^2+\omega^2} \\
+> \mathcal{L}\{\sin(\omega_{0} t+\varphi_{0})\}(s) &= \frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}
+> \end{align}
+> $$
+> 
 
 > [!success]- Beweis
 > Mittels [Partieller Integration](../Analysis/Partielle%20Integration.md)
@@ -251,92 +205,7 @@ Polstellen bei verschiedenen Schwingbedingungen:
 
 Polstellenlage vs. Zeitbereichssignal
 
-```tikz
-\usepackage{pgfplots}
-\usepackage{tikz}
-\usepackage{amsmath}
-\pgfplotsset{compat=1.16}
-
-\begin{document}
-
-\begin{tikzpicture}[scale=1.2]
-\newcommand{\smp}{50}
-\newcommand{\gridA}{5}
-\newcommand{\gridB}{10}
-\newcommand{\fact}{0.75}
-\foreach \x in {0, \gridA, \gridB} {
-  \foreach \y in {0, \gridA, \gridB} {
-    \begin{axis}[
-      at={(\x cm, \y cm)},
-      anchor=south west,
-      width=6cm, height=6cm,
-      axis lines=middle, axis on top,
-      xlabel={$t$}, xmax=11, xmin=-1,
-      ylabel={$\Im s$}, ymax=1.2, ymin=-1.2,
-      zlabel={$\Re s$}, zmax=1.2, zmin=-1.2,
-      xtick=\empty, ytick=\empty, ztick=\empty,
-      y axis line style={<-},
-      enlargelimits=false,
-      x label style={at={(axis description cs:0.85,0.5)},anchor=north},
-      y label style={at={(axis description cs:0,0.5)},anchor=north},
-      z label style={at={(axis description cs:0.235,0.98)},anchor=north},
-      view={30}{20},
-    ]
-    
-      \ifnum \x=0 \ifnum \y=0 % Bottom-Left
-        \addplot3[domain=0:10, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {\fact*exp(-0.3*x)*sin(deg(2*x))}, {\fact*exp(-0.3*x)*cos(deg(2*x))});
-      \fi \fi
-
-      \ifnum \x=\gridA \ifnum \y=0 % Bottom-Center
-        \addplot3[domain=0:10, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {\fact*sin(deg(2*x))}, {\fact*cos(deg(2*x))});
-      \fi \fi
-
-      \ifnum \x=\gridB \ifnum \y=0 % Bottom-Right
-        \addplot3[domain=0:9.5, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {0.2*exp(0.2*x)*sin(deg(2*x))}, {0.2*exp(0.2*x)*cos(deg(2*x))});
-      \fi \fi
-
-      \ifnum \x=0 \ifnum \y=\gridA % Center-Left
-        \addplot3[domain=0:10, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {0}, {\fact*exp(-0.3*x)});
-      \fi \fi
-
-      \ifnum \x=\gridA \ifnum \y=\gridA % Center
-        \addplot3[domain=0:10, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {0}, {0.75});
-      \fi \fi
-
-      \ifnum \x=\gridB \ifnum \y=\gridA % Center-Right
-        \addplot3[domain=0:10, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {0}, {0.2*exp(0.15*x)});
-      \fi \fi
-
-      \ifnum \x=0 \ifnum \y=\gridB % Top-Left
-        \addplot3[domain=0:10, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {exp(-0.3*x)*sin(deg(-2*x))}, {exp(-0.3*x)*cos(deg(-2*x))});
-      \fi \fi
-
-      \ifnum \x=\gridA \ifnum \y=\gridB
-        % Top-Center: Pure oscillation
-        \addplot3[domain=0:10, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {\fact*sin(deg(-2*x))}, {0.75*cos(deg(-2*x))});
-      \fi \fi
-
-      \ifnum \x=\gridB \ifnum \y=\gridB
-        % Top-Right: Growing spiral
-        \addplot3[domain=0:9.5, samples=\smp, samples y=0, very thick, ->]
-        ({x}, {0.2*exp(0.2*x)*sin(deg(-2*x))}, {0.2*exp(0.2*x)*cos(deg(-2*x))});
-      \fi \fi
-    \end{axis}
-  }
-}
-\end{tikzpicture}
-
-\end{document}
-```
-
+![invert_dark|1000](assets/laplaceGrid.png)
 # Tags
 
 - [Invers Laplace Transformation Rechner](https://de.symbolab.com/solver/inverse-laplace-calculator)
