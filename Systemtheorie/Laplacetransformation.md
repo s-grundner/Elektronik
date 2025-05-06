@@ -39,7 +39,7 @@ Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden al
 
 > [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
-> $$\mathcal{L}\{f(t)\}(s) = F(s) = \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} \tag{LAPT}$$
+> $$\mathcal{L}\{f(t)\}(s) = F(s) := \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} \tag{LAPT}$$
 > 
 > Die Einseitige Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
@@ -58,6 +58,8 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > 
 > Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf.
 
+### Einfache Nullstellen
+
 $F(s)$ lässt sich mit dieser Beschränkung als [Partialbruch](../Mathematik/Analysis/Partialbruchzerlegung.md) anschreiben:
 
 $$
@@ -68,15 +70,15 @@ Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linear
 
 > [!warning] Funktioniert nur solange der Grad des Zählerpolynoms nicht größer ist als der Grad des Nennerpolynoms und die Pole nur Einfach sind.
 > - Ist $\operatorname{grad}Z(s)\geq \operatorname{grad}N(s)$ lässt sich eine [Partialbruchzerlegung](../Mathematik/Analysis/Partialbruchzerlegung.md) druchführen.
-> - Für Mehrfache Polstellen lassen sich folgende Ansätze bilden:
 
 
-Mehrfache und konjugiert komplexe Polstellen
-- Ansatz für eine mehrfache **reelle Polstelle** $s_{\infty i}$ der Ordnung $l$ von $F(s)$
+### Mehrfache und konjugiert komplexe Polstellen
+
+- Ansatz für *eine* mehrfache **reelle Polstelle** $s_{\infty i}$ der Ordnung $l$ von $F(s)$
 $$\frac{A_{1}}{s-s_{\infty i}} + \frac{A_{2}}{(s-s_{\infty i})^{2}} + \dots + \frac{A_{l}}{(s-s_{\infty i})^{l}}$$ 
-- Ansatz für ein einfaches **konjugiert komplexes Polstellenpaar** vom $F(s)$
+- Ansatz für *ein* einfaches **konjugiert komplexes Polstellenpaar** vom $F(s)$
 $$\frac{Bs+C}{s^{2}+ps+q}$$
-- Ansatz für ein mehrfaches **konjugiert komplexes Polstellenpaar** der Ordnung $l$
+- Ansatz für *ein* mehrfaches **konjugiert komplexes Polstellenpaar** der Ordnung $l$
 $$\frac{B_{1}s+C_{1}}{s^{2}+ps+q} + \frac{B_{2}s+C_{2}}{(s^{2}+ps+q)^{2}} + \dots + \frac{B_{l}s+C_{l}}{(s^{2}+ps+q)^{l}}$$
 
 ### Pol-Nullstellen Diagramm
@@ -135,54 +137,48 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 > - Das heißt, dass sich alle Pole der Laplace-Transformierten links dieser Abzisse befinden
 > - Das Konvergenzgebiet ist somit auf der rechten Halbebene der Abzisse.
 
-## Sätze und Korrespondenzen
+## Sätze 
 
 > [!satz] **LTR S2)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 
-| Nr     | Satz                      | Zeitbereich zu $s$-Domäne                                                                               | Anmerkungen                                                                                                                                                      |
-| ------ | ------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| (i)    | **Linearität**            | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2$$             | $c_1, c_2 \in \mathbb{R}$                                                                                                                                        |
-| (ii)   | **[Faltung](Faltung.md)** | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                                                          |
-| (iii)  | **Integration**           | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                  |                                                                                                                                                                  |
-| (iv)   | **Differentiation**       | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$ | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von [AWP](../Mathematik/Analysis/GDGL.md) |
-| (v)    | **Verschiebung**          | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s)$$                                                | $a > 0$<br>$f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$.                                  |
-| (vi)   | **Ähnlichkeit**           | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                         | $a > 0$<br>$s > a\alpha$<br>Auch Streckung genannt                                                                                                               |
-| (vii)  | **Dämpfung**              | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a)$$                                     | $a \in \mathbb{R}$<br>$s > \alpha - a$                                                                                                                           |
-| (viii) | **Multiplikation**        | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                                                    |
-| (ix)   | **Division**              | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$       | $\sigma$ hat hier nur eine Bedeutung<br>als andere Integrationsvariable                                                                                          |
+| Nr     | Satz                      | Zeitbereich zu $s$-Domäne                                                                               | Anmerkungen                                                                                                                                                            |
+| ------ | ------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| (i)    | **Linearität**            | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2$$             | $c_1, c_2 \in \mathbb{R}$                                                                                                                                              |
+| (ii)   | **[Faltung](Faltung.md)** | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                                                                |
+| (iii)  | **Integration**           | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                  |                                                                                                                                                                        |
+| (iv)   | **Differentiation**       | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$ | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von [AWP](../Mathematik/Analysis/GDGL.md)       |
+| (v)    | **Verschiebung**          | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s)$$                                                | $a > 0$<br>$f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$.                                        |
+| (vi)   | **Ähnlichkeit**           | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                         | $a > 0$<br>$s > a\alpha$<br>Auch Streckung genannt                                                                                                                     |
+| (vii)  | **Dämpfung**              | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a)$$                                     | $a \in \mathbb{R}$<br>$s > \alpha - a$                                                                                                                                 |
+| (viii) | **Multiplikation**        | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                                                          |
+| (ix)   | **Division**              | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$       | $\sigma$ hat hier nur eine Bedeutung<br>als andere Integrationsvariable                                                                                                |
+| (x)    | **Anfangswert satz**      | $$\lim_{ t \to 0 } f(t) = \lim_{ s \to \infty } sF(s)$$                                                 |                                                                                                                                                                        |
+| (xi)   | **Endwertsatz**           | $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } sF(s)$$                                                 | Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0.<br>Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden. |
 
-^9ce98e
 
-### Endwertsatz
+## Korrespondenzen
 
-Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0.
-Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden. 
+$$ \mathcal{L}\left\{ \delta(t) \right\} (s) = 1 $$
 
-> [!satz] **Endwertsatz**
-> $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } sF(s)$$
+$$ \mathcal{L}\left\{ t \right\} (s) = \frac{1}{s^{2}} $$
 
-> [!example]- Beispiele Endwertsatz
-> Kausale stabile Exponentialfunktion:
-> 
-> $$\lim _{s \rightarrow 0} \frac{s}{s-a}=0=\lim _{t \rightarrow \infty} e^{a t} \sigma(t)$$
-> 
-> Sprungfunktion:
-> 
-> $$\lim _{s \rightarrow 0} s \frac{1}{s}=1=\lim_{t \rightarrow \infty} \sigma(t)$$
-> 
+$$ \mathcal{L}\left\{ e^{ at }\right\} (s) = \frac{1}{s-a} $$
 
-### Weitere Korrespondenzen
+$$ \mathcal{L}\left\{ t^n e^{ at }\right\} (s) = \frac{n!}{(s-a)^{n+1}} $$
 
+$$ \mathcal{L}\{\sin (\omega t)\}(s)=\frac{\omega}{s^2+\omega^2} $$
+
+$$ \mathcal{L}\{\cos (\omega t)\}(s)=\frac{s}{s^2+\omega^2} $$
+
+$$ \mathcal{L}\{e^{ at }\sin (\omega t)\}(s)=\frac{\omega}{(s-a)^2+\omega^2} $$
+
+$$ \mathcal{L}\{e^{ at }\cos (\omega t)\}(s)=\frac{s-a}{(s-a)^2+\omega^2} $$
 $$
-\mathcal{L}\{\sin (\omega t)\}(s)=\frac{\omega}{s^2+\omega^2} \quad \text { und } \quad \mathcal{L}\{\cos (\omega t)\}(s)=\frac{s}{s^2+\omega^2}, \quad s>0,
-$$
-
-$$
-\mathcal{L}\{\sin(\omega_{0} t+\varphi_{0})\} = \frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}
+\mathcal{L}\{\sin(\omega_{0} t+\varphi_{0})\}(s) = \frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}
 $$
 
 
-> [!success]- Wir zeigen nur die linke, der Beweis der rechten geht analog:
+> [!success]- Beweis
 > Mittels [Partieller Integration](../Analysis/Partielle%20Integration.md)
 > $$
 > \begin{aligned}
