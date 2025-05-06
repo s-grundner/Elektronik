@@ -46,7 +46,7 @@ Das mathematische Modell für die Zustandsgleichung und die algebraische Ausgang
 > \end{align}
 > $$
 
-Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein [Übertragungssystem](Zustandsraum.md#Übertragungssystem), sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
+Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein **Übertragungsystem**, sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
 
 |               | Linear                                                                                                                     | Nicht linear                                               |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------: |
