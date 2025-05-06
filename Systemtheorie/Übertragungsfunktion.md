@@ -45,12 +45,8 @@ $$
 $$
 
 ### Lösung des Systems
-
 Aus der Allgemeinen Lösung des Systems 
 
-![[Kontinuierlicher LTI-Zustandsraum.md#^LTI-LSG]]
+![](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-LSG)
 
 folgt
-
-
-
