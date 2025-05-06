@@ -28,7 +28,7 @@ Die Vorige Betrachtung auf Eingrößensysteme wird nun auf den MIMO fall erweite
 
 Das mathematische Modell für die Zustandsgleichung und die algebraische Ausgangsgleichung bilden ein LTI-System, wenn sie folgende Form haben:
 
-> [!satz] **S1 - LTI)** Lineares zeitinvariantes Übertragungssystem in der Zustandsraumdarstellung ^LTI
+> [!satz] **S1 - LTI-MIMO)** Mehrgrößen LTI Übertragungssystem in der Zustandsraumdarstellung ^LTI-MIMO
 > 
 >  $$
 > \begin{align}
@@ -46,6 +46,27 @@ Das mathematische Modell für die Zustandsgleichung und die algebraische Ausgang
 > \end{align}
 > $$
 
+Hat der Eingang sowie der Ausgang die dimension $1$, so handelt es sich um ein *Eingrößensystem* und 
+
+> [!satz] **S2 - LTI-SISO)** Eingrößen LTI-Übertragungssystem in der Zustandsraumdarstellung ^LTI-SISO
+> 
+>  $$
+> \begin{align}
+> \dot{\mathbf{x}}(t) &= \mathbf{A}\mathbf{x}(t)+\mathbf{b}u(t), \quad \mathbf{x}(0) = \mathbf{x}_{0}\tag{Zustandsgl.}\\
+> y(t) &= \mathbf{c}^\mathrm{T} \mathbf{x}(t) + du(t) \tag{Ausgangsgl.}
+> \end{align}
+> $$
+> 
+> Die  $\mathbf{A}$,$\mathbf{b}$, $\mathbf{c}$ und $d$ sind die Koeffizienten der **Zustandsraumdarstellung** 
+> $$
+> \begin{align}
+> &\mathbf{A} \text{ : Dynamikmatrix } (n\times n)
+> &&\mathbf{b} \text{ : Eingangsvektor } (n)\\
+> & \mathbf{c} \text{ : Ausgangsvektor } (n) && d \text{ : Durchgangsfaktor } 
+> \end{align}
+> $$
+
+
 Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein **Übertragungsystem**, sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
 
 |               | Linear                                                                                                                     | Nicht linear                                               |
@@ -59,5 +80,15 @@ Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein **Üb
 
 > [!hint] Bei der Zustandsgleichung handelt es sich um ist ein [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
 
-Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) Angewandt. Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben.
+Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md#^VARK) Angewandt.
+
+Für echtlineare LTI-Systeme ist der Startzeitpunkt $t_{0}=0$. Aus [Eigenschaft (iv)](../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM-Eigenschaften) der Transitonsmatrix folgt für die Lösung
+
+> [!satz] **S3 - LTI-LSG)** Eindeutige Lösung von LTI-Systemen ^LTI-LSG
+> $$
+> \mathbf{x}(t)=\mathbf{\Phi}(t)\mathbf{x}_0+\int_{0}^t \mathbf{\Phi}(t-\tau) \mathbf{b}u(\tau) \tau 
+> $$
+
+
+Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben.
 
