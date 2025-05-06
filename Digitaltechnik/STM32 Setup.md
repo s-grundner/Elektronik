@@ -13,6 +13,10 @@ created: 18th August 2023
 
 # Getting Started
 
+## Raw Setup
+
+
+
 ## Projekt Setup in STMCubeIDE
 
 > [!info]- Projektdatei Erstellen
