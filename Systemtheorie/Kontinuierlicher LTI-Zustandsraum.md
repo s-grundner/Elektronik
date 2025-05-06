@@ -86,9 +86,49 @@ Für echtlineare LTI-Systeme ist der Startzeitpunkt $t_{0}=0$. Aus [Eigenschaft 
 
 > [!satz] **S3 - LTI-LSG)** Eindeutige Lösung von LTI-Systemen ^LTI-LSG
 > $$
-> \mathbf{x}(t)=\mathbf{\Phi}(t)\mathbf{x}_0+\int_{0}^t \mathbf{\Phi}(t-\tau) \mathbf{b}u(\tau) \tau 
+> \mathbf{x}(t)=\mathbf{\Phi}(t)\mathbf{x}_0+\int_{0}^t \mathbf{\Phi}(t-\tau) \mathbf{Bu}(\tau) \mathrm{~d}\tau 
 > $$
 
+Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die [Matrix-Exponentialfunktion](../Mathematik/Analysis/Matrix-Exponentialfunktion.md) anschreiben.
 
-Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die Matrix-Exponentialfunktion anschreiben.
+$$ \mathbf{\Phi}(t) = e^{ \mathbf{A}t } $$ ^TRSM-LTI
 
+Um die Fundamentalmatrix aus ihrem Matrix-Exponential aufzulöse, möchte man das System in seine [Jordannormalform](../Mathematik/Algebra/Jordannormalform.md) überführen.
+
+## Laplacetransformation von Eingrößensysteme
+
+> [!info] Da hier speziell nur Matrizen Großgeschrieben werden,
+> wird die Korrespondenz im Bildbereich mit $\mathbf{x}\circ\mkern-7px-\mkern-7px\bullet \mathbf{\hat{x}}$ bezeichnet
+
+Wendet man die [Laplacetransformation](Laplacetransformation.md) auf das System
+
+![LTI-SISO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-SISO)
+
+an, folgt
+
+$$
+\begin{align}
+s\mathbf{\hat{x}} - \mathbf{x}_{0} &= \mathbf{A\hat{x}} + \mathbf{b}\hat{u}  \\
+\hat{y} &= \mathbf{c^\mathrm{T}\hat{x}} + d \hat{u}.
+\end{align}
+$$
+
+Umgeformt auf $\mathbf{\hat{x}}$ und in $\hat{y}$ eingesetzt erhält man
+
+$$
+\begin{align}
+\mathbf{\hat{x}}(s) &= (s \mathbb{1}-\mathbf{A})^{-1}(\mathbf{x}_{0}+\mathbf{b}\hat{u}) \\
+\hat{y}(s) &= \mathbf{c}^\mathrm{T}(s\mathbb{1}-\mathbf{A})^{-1}(\mathbf{x}_{0}+\mathbf{b}\hat{u}) + d \hat{u}
+\end{align}
+$$
+
+### Lösung des Systems
+Aus der Allgemeinen Fundamentallösung des Systems 
+
+![](Kontinuierlicher%20LTI-Zustandsraum.md#^TRSM-LTI)
+
+folgt mid dem [Dämpfunggssatz](Laplacetransformation.md#^LAPK) eine alternative Berechnungsvorschrift
+
+$$
+\mathcal{L}\left\{ \mathbf{\Phi}(t) \right\} (s) = \mathbf{\hat{\Phi}}(s) = (s\mathbb{1}-\mathbf{A})^{-1}
+$$

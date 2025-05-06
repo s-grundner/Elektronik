@@ -113,7 +113,7 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 
 ## Korrespondenzen
 
-> [!satz] **S3 - LAPK)** Korrespondenztabelle
+> [!satz] **S3 - LAPK)** Korrespondenztabelle ^LAPK
 > Jede der transformierten Funktionen ist implizit [Kausal](Kausalität.md) (multiplizert mit dem Einheitsprung $\sigma(t)$)
 > 
 > $$
