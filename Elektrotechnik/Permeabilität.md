@@ -18,7 +18,7 @@ title: Permeabilität
 > [!question] Wichtige Beziehung für Magnetkreise
 
 
-> [!imp] [Materialgesetze nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
+> [!important] [Materialgesetze nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
 > $$\mathbf{B}= \mu \mathbf{H}$$
 
 Magnetische Leitfähigkeit - **Permeabilität** $\mu = \mu_{0}\cdot\mu_{r}$:

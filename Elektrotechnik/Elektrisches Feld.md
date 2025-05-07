@@ -18,10 +18,14 @@ semester: WS23
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
-banner_y: 0.756
+banner_y: 0.336
 ---
 
 # Elektrisches Feld
+
+> [!question] [Magnetisches Feld](Magnetisches%20Feld.md) :LiRefreshCcw:
+
+---
 
 > [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische [Ladung](elektrisches%20Feld.md) tragen. (Intensitätsgröße des E-Feld)
 > - Die Ursache elektrischen Felder sind selbst Ladungen.

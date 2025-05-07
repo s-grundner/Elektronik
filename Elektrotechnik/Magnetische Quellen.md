@@ -16,8 +16,6 @@ title: Magnetische Quellen
 
 # Magnetische Quellen
 
-> [!question]  siehe [Magnetisches Feld](Magnetisches%20Feld.md)
-
 > [!hint] Es gibt keine Magnetischen Monopole $\iff$ [4. Maxwell Gleichung](Maxwell.md#^MW4)
 > 
 > - Zu jeder magnetischen Quelle muss es eine magnetische Senke geben

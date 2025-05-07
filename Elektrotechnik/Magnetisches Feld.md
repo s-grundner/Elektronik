@@ -23,7 +23,10 @@ title: Das Magnetische Feld
 
 # Magnetisches Feld
 
-> siehe: [elektrisches Feld](elektrisches%20Feld.md) 
+> [!question] [elektrisches Feld](elektrisches%20Feld.md) :LiRefreshCcw:
+
+---
+
 
 > [!hint] Auf bewegte Ladungsträger innerhalb eines Magnetfelds wirkt die [magnetische Kraft](Laplace-Kraft.md):
 > Die Ursache für ein magnetisches Feld sind selbst *bewegte* Ladungsträger
@@ -48,15 +51,17 @@ $$
 > [!info] Rechte Hand Regel
 > Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
 >
-> ![400](assets/Magnetisches%20Feld%202025-03-04%2000.22.16.excalidraw)
+> ![invert_dark|300](assets/rechteHandmagn.png)
+
 
 ---
 
 # Flashcards
 
-Was beschreibt der magnetische Fluss
+> [!question] Was beschreibt der magnetische Fluss
+> 
 ?
-Genau wie beim elektrischen Strom kann der Strom nur durch eine Fläche definiert werden.
-Um die Größe des Magnetfelds darzustellen kann der Fluss durch eine Fläche bestimmt werden (z.B. Der Querschnitt einer [Spule](Induktivität.md))
-$I = \int  \vec{J}\cdot d\vec{A} \iff \Phi = \int \vec{B}\cdot d\vec{A}$
+> > [!success] Genau wie beim elektrischen Strom kann der Strom nur durch eine Fläche definiert werden.
+> > Um die Größe des Magnetfelds darzustellen kann der Fluss durch eine Fläche bestimmt werden (z.B. Der Querschnitt einer [Spule](Induktivität.md))
+> > $I = \int  \vec{J}\cdot d\vec{A} \iff \Phi = \int \vec{B}\cdot d\vec{A}$
 <!--SR:!2024-03-16,1,230-->
