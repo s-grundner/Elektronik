@@ -30,10 +30,13 @@ Zur [Dualen Poissonschen Summenformel](Poissonsche%20Summenformel.md#^POIS2) erf
 - Normierte Frequenz: $\Omega=\omega T \Rightarrow \Omega_{0}=\omega_{0}T=2\pi$
 
 > [!def] **D1 - DTFT)** Zeitdiskrete Fouriertransformation ^DTFT
-> $$F_{\mathrm{d}}\left( e^{ j\Omega } \right) = \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }\tag{DTFT}$$ 
+> $$ F_{\mathrm{d}}\left( e^{ j\Omega } \right) := \sum_{n=-\infty}^{\infty}f[n]e^{ -jn\Omega }\tag{DTFT}$$ 
+
+Oder in expliziter Schreibweise mit $\mathcal{F}_{\mathrm{d}}\left\{ f[n] \right\}\left( e^{ j\Omega } \right) \equiv F_{\mathrm{d}}$
 
 > [!def] **D2 - IDTFT)** Zeitdiskrete Inverse Fouriertransformation ^IDTFT
 > $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IDTFT}$$
+
 
 $F(e^{ j\omega })$ ist eine Amplitudendichte -> Wird erst durch Multiplikation von $e^{ j\omega }$ zur Amplitude des Signals $x$
 
