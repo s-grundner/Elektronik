@@ -28,3 +28,12 @@ so kleine (negative) Zahl, so heißt die Folge ($c_{n}$) bestimmt divergent.
 
 >[!summary] Man schreibt:  
 > $\lim_{n\rightarrow\infty} c_{n}=\infty$ bzw. $\lim_{n\rightarrow\infty} c_{n}=-\infty$ 
+
+## Absolute Konvergenz
+
+Die Folge $x_{n}$ ist Absolut konvergent, wenn gilt
+$$
+\sum_{n=0}^{\infty} \lvert x_{n} \rvert < \infty
+$$
+
+## Gleichmäßige Konvergenz

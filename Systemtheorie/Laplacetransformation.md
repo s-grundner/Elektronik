@@ -30,6 +30,8 @@ Die Laplace Transformation ist eine [Integraltransformation](Integraltransformat
 
 Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden als mit der Fourier-Transformation
 
+Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, da ja $j\Im s = j\omega$. siehe [Übertragungsfunktion](Übertragungsfunktion.md)
+
 > [!question] Einseitigkeit:
 > - Es werden nur [kausale](Kausalität.md) [Signale](Signale.md) betrachtet
 >     - z.B. Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
