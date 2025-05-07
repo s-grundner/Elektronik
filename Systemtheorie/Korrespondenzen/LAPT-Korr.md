@@ -40,21 +40,23 @@ Der Vorteil der komplexeren schreibweise ist, dass man die operationen auf das a
 
 ## Korrespondenztabelle
 
+Jede der zu transformierenden Funktionen ist [Kausal](Kausalität.md) (multiplizert mit dem Einheitsprung $\sigma(t)$)
+
 $$
 \displaystyle
-\begin{array}{|c|c|}
+\begin{array}{|c|c|c|}
 &\hline\text{Zeitbereich} & \text{Bildbereich}\\
 \hline
 \text{(i)} & \delta(t) \cdot\sigma(t)& 1 \\
-(ii) & 1 \cdot\sigma(t)& \displaystyle\frac{1}{s} \\
-(iii) & t \cdot\sigma(t)& \displaystyle\frac{1}{s^{2}} \\
-(iv) & e^{ at } \cdot\sigma(t)& \displaystyle\frac{1}{s-a} \\
-(v) & t^n e^{ at } \cdot\sigma(t)& \displaystyle\frac{n!}{(s-a)^{n+1}} \\
-(vi) & \sin (\omega t)\cdot\sigma(t)&\displaystyle\frac{\omega}{s^2+\omega^2} \\
-(vii) & \cos (\omega t)\cdot\sigma(t)&\displaystyle\frac{s}{s^2+\omega^2} \\
-(viii) & e^{ at }\sin (\omega t)\cdot\sigma(t)&\displaystyle\frac{\omega}{(s-a)^2+\omega^2} \\
-(ix) & e^{ at }\cos (\omega t)\cdot\sigma(t)&\displaystyle\frac{s-a}{(s-a)^2+\omega^2} \\
-(x) & \sin(\omega_{0} t+\varphi_{0})\cdot\sigma(t)& \displaystyle\frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}} \\
+\text{(ii)} & 1 \cdot\sigma(t)& \displaystyle\frac{1}{s} \\
+\text{(iii)} & t \cdot\sigma(t)& \displaystyle\frac{1}{s^{2}} \\
+\text{(iv)} & e^{ at } \cdot\sigma(t)& \displaystyle\frac{1}{s-a} \\
+\text{(v)} & t^n e^{ at } \cdot\sigma(t)& \displaystyle\frac{n!}{(s-a)^{n+1}} \\
+\text{(vi)} & \sin (\omega t)\cdot\sigma(t)&\displaystyle\frac{\omega}{s^2+\omega^2} \\
+\text{(vii)} & \cos (\omega t)\cdot\sigma(t)&\displaystyle\frac{s}{s^2+\omega^2} \\
+\text{(viii)} & e^{ at }\sin (\omega t)\cdot\sigma(t)&\displaystyle\frac{\omega}{(s-a)^2+\omega^2} \\
+\text{(ix)} & e^{ at }\cos (\omega t)\cdot\sigma(t)&\displaystyle\frac{s-a}{(s-a)^2+\omega^2} \\
+\text{(x)} & \sin(\omega_{0} t+\varphi_{0})\cdot\sigma(t)& \displaystyle\frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}} \\
 \hline
 \end{array}
 $$
@@ -62,6 +64,7 @@ $$
 
 ## Beweise zur den Korrespondenzen
 
+### (vi)
 
 Mittels [Partielle Integration](../../Mathematik/Analysis/Partielle%20Integration.md)
 $$

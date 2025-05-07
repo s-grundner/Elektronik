@@ -39,9 +39,7 @@ $F(e^{ j\omega })$ ist eine Amplitudendichte -> Wird erst durch multiplikation v
 
 ## Konvergenz
 
-Die Transformierte konvergiert nur dann, wenn $f[n]$ absolut summierbar ist:
-
-$$\sum_{n=-\infty}^{\infty}\lvert f[n] \rvert < \infty$$
+> [!satz] **S - KONV)** Die Transformierte $F_{\mathrm{d}}\left( e^{ j\Omega } \right)$ konvergiert nur dann, wenn die Folge $f[n]$ [absolut summierbar](../Mathematik/Analysis/Folgen.md#^STFO) ist
 
 > [!bug] #todo Mit informationen aus den Folien ergänzen. Diese Eigenschaft hat z.B. ein DC-Signal nicht. siehe [Folien]
 > Man kann nichts destotrotz ein Spektrum angeben, jedoch benötigt man Analoge Dirac-Impulse um das Spektrum darzustellen.

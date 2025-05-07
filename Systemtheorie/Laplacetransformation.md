@@ -65,9 +65,7 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
 $F(s)$ lässt sich mit dieser Beschränkung als [Partialbruch](../Mathematik/Analysis/Partialbruchzerlegung.md) anschreiben:
 
-$$
-F(s) = A_{0} + \sum_{i=1}^{n} \frac{A_{i}}{s-s_{\infty i}}
-$$
+$$ F(s) = A_{0} + \sum_{i=1}^{n} \frac{A_{i}}{s-s_{\infty i}} $$
 
 Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linearität getrennt (rück)transformiert werden können.
 
@@ -77,12 +75,18 @@ Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linear
 
 ### Mehrfache und konjugiert komplexe Polstellen
 
-- Ansatz für *eine* mehrfache **reelle Polstelle** $s_{\infty i}$ der Ordnung $l$ von $F(s)$
-$$\frac{A_{1}}{s-s_{\infty i}} + \frac{A_{2}}{(s-s_{\infty i})^{2}} + \dots + \frac{A_{l}}{(s-s_{\infty i})^{l}}$$ 
-- Ansatz für *ein* einfaches **konjugiert komplexes Polstellenpaar** vom $F(s)$
-$$\frac{Bs+C}{s^{2}+ps+q}$$
-- Ansatz für *ein* mehrfaches **konjugiert komplexes Polstellenpaar** der Ordnung $l$
-$$\frac{B_{1}s+C_{1}}{s^{2}+ps+q} + \frac{B_{2}s+C_{2}}{(s^{2}+ps+q)^{2}} + \dots + \frac{B_{l}s+C_{l}}{(s^{2}+ps+q)^{l}}$$
+$$ F(s) = A_{0} + \sum_{i=1}^{n} p_{i}(s) $$
+
+Kommt beim index $i$ eine der Folgenden Polstellenarten vor, wird dieser Summen Term mit dem genannten Ansatz ersetzt:
+
+- Ansatz für *eine* einfache **reelle Polstelle** (wie oben)
+$$p_{i}(s) = \frac{A}{s-s_{\infty i}}$$
+- Ansatz für *eine* mehrfache **reelle Polstelle** $s_{\infty i}$ der algebraischen Vielfachheit $l$
+$$p_{i}(s)=\frac{A_{1}}{s-s_{\infty i}} + \frac{A_{2}}{(s-s_{\infty i})^{2}} + \dots + \frac{A_{l}}{(s-s_{\infty i})^{l}}$$ 
+- Ansatz für *ein* einfaches **konjugiert komplexes Polstellenpaar**
+$$p_{i}(s)=\frac{Bs+C}{s^{2}+ps+q}$$
+- Ansatz für *ein* mehrfaches **konjugiert komplexes Polstellenpaar** der algebraischen Vielfachheit $l$
+$$p_{i}(s)=\frac{B_{1}s+C_{1}}{s^{2}+ps+q} + \frac{B_{2}s+C_{2}}{(s^{2}+ps+q)^{2}} + \dots + \frac{B_{l}s+C_{l}}{(s^{2}+ps+q)^{l}}$$
 
 ### Pol-Nullstellen Diagramm
 
@@ -98,9 +102,12 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 ## Sätze 
 
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
+>
+> > [!question]- Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
+> > ![](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) 
 > 
-> | [Einfache Schreibweise](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) | [Explizite Schreibweise](Korrespondenzen/LAPT-Korr.md#^LAPT-T2) |
-> | - | - |
+> > [!question]- Explizite Schreibweise: $f(t)\circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$
+> > ![](Korrespondenzen/LAPT-Korr.md#^LAPT-T2) |
 
 > [!satz] **S3 - AEWS)** Anfangs und Endwertsatz ^AEWS
 > 
@@ -122,10 +129,9 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 
 ## Korrespondenzen
 
-> [!satz] **S3 - LAPK)** Korrespondenztabelle ^LAPK
-> Jede der transformierten Funktionen ist implizit [Kausal](Kausalität.md) (multiplizert mit dem Einheitsprung $\sigma(t)$)
+> [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
 > 
-
+> ![LAPT-Korr](Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
 
 
 ## Rücktransformation
