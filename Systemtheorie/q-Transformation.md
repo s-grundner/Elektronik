@@ -22,4 +22,22 @@ Es ist also das Ziel, die Frequenz  $\omega$ so zu transformieren, dass in einer
 
 $$ w := \frac{z-1}{z+1} \tag{QTRF} $$  ^QTRF
 
-erreicht werden. Setzt man in [QTRF](#^QTRF) für $z=e^{ j\omega T_{A} }$
+erreicht werden. Setzt man in [QTRF](#^QTRF) für $z=e^{ j\omega T_{a} }$ ein, so erhält man
+
+$$
+\frac{e^{ j\omega T_{a} } - 1}{e^{ j\omega T_{a} +1 }} = \tanh \left( \frac{j\omega T_{a}}{2} \right) = \tan \left( \frac{\omega T_{a}}{2} \right)
+$$
+Es hat sich als sinnvoll erwiesen, den Normierungsfaktor $T_{a}/2$ auch bei der transformierten Frequenz $\Omega$ zu verwenden, und aus
+
+$$
+\Omega \frac{T_{a}}{2} = \tan \left( \frac{\omega T_{a}}{2} \right) \qquad \implies \qquad \Omega = \frac{2}{T_{a}}\tan \left( \frac{\omega T_{a}}{2} \right)
+$$
+
+
+
+
+---
+
+# Referenzen
+
+- Ähnlichkeit zur Transformationsvorschrtift des Reflexionsfaktors im Smith-Chart
