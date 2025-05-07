@@ -1,20 +1,21 @@
 ---
 tags: 
-aliases:
-  - geometrische Folge
-created: 30. Oktober 2023
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Signalverarbeitung
+semester: SS25
+created: 30th April 2025
+professor:
+draft: true
+title: Geometrische Reihe
 ---
 
-# Geometrische [Reihe](Reihe.md)
 
-Grenzwert einer Geometrischen reihe
+# Geometrische Reihe
 
-$$
-\sum_{k=0}^{\infty}q^{k} = \frac{1}{1-q}
-$$
-
-
-Die Geometrische Reihe ist definiert
+Die Geometrische [Reihe](Reihe.md) ist definiert
 
 $$
 \begin{align}
@@ -25,6 +26,9 @@ s_{n} &= a_{1} \cdot \frac{q^n -1}{q-1}\cdot (q+1)
 \end{align}
 $$
 
-## Summe geometrischer [Reihe](Reihe.md)
+Grenzwert einer Geometrischen reihe
+
+$$ \sum_{k=0}^{\infty}q^{k} = \frac{1}{1-q} $$
+## Summe geometrischer Reihe
 
 ![](assets/2023-10-30_15h04_01.png)

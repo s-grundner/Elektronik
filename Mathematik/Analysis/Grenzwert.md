@@ -4,19 +4,17 @@ tags:
 aliases:
   - Konvergenz
   - konvergiert
-  - limes
+  - Limes
 keywords: 
 subject:
   - VL
   - Signalverarbeitung
 semester: SS25
 created: 27th February 2025
-professor:
+professor: 
 draft: true
 title: Grenzwert
 ---
-
-
 
 # Grenzwert einer Unendlichen Folge
 
@@ -35,10 +33,6 @@ so kleine (negative) Zahl, so heißt die Folge ($c_{n}$) bestimmt divergent.
 >[!summary] Man schreibt:  
 > $\lim_{n\rightarrow\infty} c_{n}=\infty$ bzw. $\lim_{n\rightarrow\infty} c_{n}=-\infty$ 
 
-## Absolute Konvergenz und Stabilität
-
-> [!satz] **S1 - STFO)** Stabile Folgen ^STFO
->  Eine Folge $f[n]$ ist stabil, wenn sie absolut summierbar ist:
->  $$\sum_{n=0}^{\infty} \lvert f[n] \rvert < M < \infty$$
+## Absolute Konvergenz
 
 ## Gleichmäßige Konvergenz

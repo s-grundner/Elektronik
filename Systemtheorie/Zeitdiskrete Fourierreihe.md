@@ -36,12 +36,14 @@ $$
 e_{k}[n] = W^{-kn}_{N}, \quad k=1,2,\dots,N
 $$
 
-Es gibt nur **$N$** verschieden Harmonische. Daraus folgt:
+Es gibt nur **$N$** verschieden Harmonische. Daraus folgt die zeitdiskrete Fourier-Reihenentwicklung, welche der Analysegleichung der DFT entspricht:
 
-> [!def] **D - ZDFR)** Zeitdiskrete Fourier-Reihenentwicklung ^ZDFR
-> $$f[n] = \sum_{k = 0}^{N-1} F[k] W^{-kn}_{N}\tag{ZDFR}$$
+![](DFT.md#^DFT)
+
+$$f[n] = \sum_{k = 0}^{N-1} F[k] W^{-kn}_{N}\tag{ZDFR}$$
 
 Diese Darstellung ist äquivalent zur [komplexen Fourierreihe](Fourierreihe.md#Komplexe%20Fourierreihe) in diskreter Form. Mit $F[k]$ als **Entwicklungskoeffizienten** der **Periodischen Folge** $f[n]$, anstelle der Spektralkoeffizienten $X_{k}$.
+
 
 > [!warning] Hier ist genau wie in der komplexen Fourierreihe der exponent eigentlich positiv.
 > wegen der Definition der Einheitswurzel als negativer exponent, muss hier das vorzeichen nochmal invertiert werden
