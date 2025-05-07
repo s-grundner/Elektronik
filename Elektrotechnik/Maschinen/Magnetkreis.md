@@ -29,14 +29,14 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 
 ## Wichtige Kenngrößen und Zusammenhänge
 
-|                   |                im magnetischen Kreis                 |             im elektrischen Kreis             |                     |
-| ----------------: | :--------------------------------------------------: | :-------------------------------------------: | :------------------ |
-|       magn. Fluss |                        $\Phi$                        |                      $I$                      | Strom               |
-| magn. Flussdichte |             $\mathbf{B}=\mu \mathbf{H}$              |        $\mathbf{J}=\sigma \mathbf{E}$         | Stromdichte         |
-|     Permeabilität |                        $\mu$                         |                   $\sigma$                    | Leitwert            |
-|         Reluktanz |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |            $R=\dfrac{l}{\sigma A}$            | Impedanz            |
-|    magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                  | Spannung            |
-|      Durchflutung | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\oint \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
+|                                           |                im magnetischen Kreis                 |            im elektrischen Kreis             |                     |
+| ----------------------------------------: | :--------------------------------------------------: | :------------------------------------------: | :------------------ |
+| [magn. Fluss](../Magnetischer%20Fluss.md) |                        $\Phi$                        |                     $I$                      | Strom               |
+|                         magn. Flussdichte |             $\mathbf{B}=\mu \mathbf{H}$              |        $\mathbf{J}=\sigma \mathbf{E}$        | Stromdichte         |
+|      [Permeabilität](../Permeabilität.md) |                        $\mu$                         |                   $\sigma$                   | Leitwert            |
+|                 [Reluktanz](Reluktanz.md) |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |           $R=\dfrac{l}{\sigma A}$            | Impedanz            |
+|                            magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                 | Spannung            |
+|        [Durchflutung](../Durchflutung.md) | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\int \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
 
 ## Entwurf
 
@@ -79,7 +79,7 @@ $$2 H_{\delta}\delta + H_{R}l_{R} + H_{S} l_{S} = 2Ni$$
 
 3. Beziehungen Anwenden
     - [Materialgleichung](Permeabilität.md) $\mathbf{B}=\mu \cdot \mathbf{H}$
-    - [Magnetischer Fluss](Magnetischer%20Fluss.md): $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen jeder Sektion des Modells erweitern
+    - [Magnetischer Fluss](Magnetischer%20Fluss.md): $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen $A$ jeder Sektion des Modells erweitern
 
 $$
 \begin{align}
@@ -94,10 +94,11 @@ $$
 $$
 \begin{align}
 2\Phi_{\delta}\mathfrak{R}_{\delta}+\Phi_{R}\mathfrak{R}_{R}+\Phi_{S}\mathfrak{R}_{S} &= 2Ni \\
-2V_{\delta}+ V_{R}+V_{S} &=2Ni
 \end{align}
 $$
 
 Mit dieser Anschaulichen Maschengleichung der magnetischen Spannungen kann ein Schaltbild für den Magnetkreis Konstruiert werden.
+
+> [!success] Oft hat man mehrere Maschen in einem Mage
 
 ![invert_dark|400](assets/MagnEquiv.png)
