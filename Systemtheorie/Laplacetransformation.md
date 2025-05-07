@@ -98,21 +98,7 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 ## Sätze 
 
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
-
-| Nr     | Satz                      | Zeitbereich zu $s$-Domäne                                                                               | Anmerkungen                                                                                                                                                            |
-| ------ | ------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| (i)    | **Linearität**            | $$\mathcal{L}\left\{c_1 f_1 + c_2 f_2\right\} = c_1 \mathcal{L} f_1 + c_2 \mathcal{L} f_2$$             | $c_1, c_2 \in \mathbb{R}$                                                                                                                                              |
-| (ii)   | **[Faltung](Faltung.md)** | $$\mathcal{L}\left\{f_1 * f_2\right\} = \mathcal{L} f_1 \cdot \mathcal{L} f_2$$                         | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                                                                |
-| (iii)  | **Integration**           | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L} f(s)$$                  |                                                                                                                                                                        |
-| (iv)   | **Differentiation**       | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} f(s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$ | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von [AWP](../Mathematik/Analysis/GDGL.md)       |
-| (v)    | **Verschiebung**          | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} f(s)$$                                                | $a > 0$<br>$f$ wird für $t < 0$ durch 0 fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$.                                        |
-| (vi)   | **Ähnlichkeit**           | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} f\left(\frac{s}{a}\right)$$                         | $a > 0$<br>$s > a\alpha$<br>Auch Streckung genannt                                                                                                                     |
-| (vii)  | **Dämpfung**              | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} f(s+a)$$                                     | $a \in \mathbb{R}$<br>$s > \alpha - a$                                                                                                                                 |
-| (viii) | **Multiplikation**        | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} f)^{(n)}(s)$$                             | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                                                          |
-| (ix)   | **Division**              | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} (\mathcal{L} f)(\sigma) d\sigma$$       | $\sigma$ hat hier nur eine Bedeutung<br>als andere Integrationsvariable                                                                                                |
-| (x)    | **Anfangswert satz**      | $$\lim_{ t \to 0 } f(t) = \lim_{ s \to \infty } sF(s)$$                                                 |                                                                                                                                                                        |
-| (xi)   | **Endwertsatz**           | $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } sF(s)$$                                                 | Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0.<br>Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden. |
-
+> [](Korrespondenzen/LAPT-Korr.md#^LAPT-T1)
 
 ## Korrespondenzen
 
