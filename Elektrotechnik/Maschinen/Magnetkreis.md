@@ -27,6 +27,38 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 
 - [Reluktanz Prinzip](Maschinen/Reluktanz.md#^RelPrinz)
 
+**Vorgehensweise bei der Berechung**
+
+Gegeben ist oft:
+
+- Abmessungen des Eisenkreises
+- Materialeigenschaften
+- Permanentmagnet mit Kennlinie
+- Spulenwicklung
+
+Gesucht ist oft
+
+- Die Flüsse durch einen Luftspalt
+- Mit diesen kann die magnetische Kraft nach dem Reluktanzprinzip ermittelt werden
+- Extremfälle:
+	- Maximale Bestromung der Spule
+	- Sättigung des Eisenkreises
+	- Entmagnetisierungs risiko des Permanentmagneten
+
+Mit Herleitung
+
+- Ringintegral Durchflutungssatz aufstellen
+- Materialgleichung anwenden
+- Magnetische Flüsse einsetzen
+- Aus der Geometrie den Magnetischen Widerstand auswerten
+- Nach den Flüsse Lösen
+
+Praktisch
+
+- In Ersatzbild umzeichnen
+- Maschenstromverfahren ansetzen
+- LGS für magentische Flüsse Aufstellen und mit Mathematischen Werkzeug Solven
+
 ## Wichtige Kenngrößen und Zusammenhänge
 
 |                                           |                im magnetischen Kreis                 |            im elektrischen Kreis             |                     |
@@ -37,6 +69,9 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 |                 [Reluktanz](Reluktanz.md) |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |           $R=\dfrac{l}{\sigma A}$            | Impedanz            |
 |                            magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                 | Spannung            |
 |        [Durchflutung](../Durchflutung.md) | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\int \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
+
+> [!success] Oft hat man mehrere Maschen in einem Magnetkreis.
+> Ist dies der Fall, so bietet sich das [Maschenstromverfahren](../Maschenstromverfahren.md) aus der Elektritechnik an, um schnell eine [LGS](../../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) für die magnetischen Flüsse aufzustellen. 
 
 ## Entwurf
 
@@ -55,7 +90,7 @@ Modellbild einer Zweipoligen Maschine mit zwei Statorspulen:
 
 $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_{Re} } = \frac{1}{2} \Phi_{S}$$
 
-![invert_dark|500](assets/KreisBsp.png)
+![invert_dark|300](assets/KreisBsp.png)
 
 |                                 | Feldstärke            | Fluss                            | Abstand / Länge | Permeabiltät des Materials |
 | ------------------------------- | --------------------- | -------------------------------- | --------------- | -------------------------- |
@@ -99,6 +134,5 @@ $$
 
 Mit dieser Anschaulichen Maschengleichung der magnetischen Spannungen kann ein Schaltbild für den Magnetkreis Konstruiert werden.
 
-> [!success] Oft hat man mehrere Maschen in einem Mage
 
 ![invert_dark|400](assets/MagnEquiv.png)
