@@ -98,7 +98,9 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 ## Sätze 
 
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
-> [](Korrespondenzen/LAPT-Korr.md#^LAPT-T1)
+> 
+> | [Explizite Formulierung](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) | [LAPT-Korr](Korrespondenzen/LAPT-Korr.md) |
+> | --------------------------------------------------------------- | ----------------------------------------- |
 
 ## Korrespondenzen
 
