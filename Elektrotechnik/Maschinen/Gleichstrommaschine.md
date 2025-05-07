@@ -235,4 +235,4 @@ In Summe sind diese Momente $0$: $\int M_{c}(\varphi) \mathrm{~d}\varphi_{r}=0$
 
 ---
 
-
+- https://www.youtube.com/watch?v=U6bHUksgnMg
