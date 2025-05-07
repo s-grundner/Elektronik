@@ -5,12 +5,18 @@ aliases:
   - Konvergenz
   - konvergiert
   - limes
+keywords: 
 subject:
-  - mathe
-source:
-  - Rudolf Frauenschuh
-created: 19th August 2022
+  - VL
+  - Signalverarbeitung
+semester: SS25
+created: 27th February 2025
+professor:
+draft: true
+title: Grenzwert
 ---
+
+
 
 # Grenzwert einer Unendlichen Folge
 

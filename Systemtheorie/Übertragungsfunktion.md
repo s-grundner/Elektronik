@@ -20,5 +20,8 @@ title: Übertragungsfunktion
 
 ---
 
-Für die Übertragungsfunktion eines Systems, bildet man die [Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort. Der Frequenzgang ist dann auf der Imaginärachse der Transformierten abgebildet.
+Für die Übertragungsfunktion eines Systems, bildet man die [Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort. 
 
+## Frequenzgang
+
+Der Frequenzgang ist auf der Imaginärachse der Transformierten abgebildet.

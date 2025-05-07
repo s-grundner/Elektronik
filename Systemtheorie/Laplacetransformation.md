@@ -9,6 +9,7 @@ subject:
   - VL
   - Mathematik 3
   - Signale und Systeme
+  - Signalverarbeitung
 semester: WS24
 created: 4. März 2024
 professor:

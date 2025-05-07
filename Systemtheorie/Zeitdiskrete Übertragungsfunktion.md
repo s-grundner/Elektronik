@@ -18,4 +18,18 @@ title: Zeitdiskrete Übertragungsfunktion
 
 ---
 
-Für die Übertragungsfunktion eines Zeitdiskreten Systems, bildet man die [z-Transformation](z-Transformation.md) dessen Impulsantwort. Der Frequenzgang ist dann auf der Zylinderebene des Einheitskreis Aufgetragen.
+ Für die Übertragungsfunktion eines Zeitdiskreten Systems, bildet man die [einseitige z-Transformation](z-Transformation.md) dessen Impulsantwort. 
+
+> [!def] **D1 - Übertragungsfunktion)** Transferfunction ^ZD-Transferfunction
+> $$H(z) := \mathcal{Z}\left\{ h[n] \right\} $$
+
+## Frequenzgang
+
+Man erhält den Frequenzgang indem man die Übertragungsfunkton auf der Zylinderebene des Einheitskreis auswertet. Daraus erschließt sich auch, dass das Spektrum eines diskreten Systems **periodisch**.
+
+Das Funktioniert nur wenn das System [z-Transformation](z-Transformation.md#^BIBO) ist, da nur dann der Einheitskreis teil des Konvergenzgebietes ist. Diese Auswertung ist identisch zur [DTFT](Zeitdiskrete%20Fourier-Transformation.md).
+
+
+> [!def] **D - Frequenzgang)** Frequency Response ^ZD-FreqResponse
+> 
+> $$H\left( e^{ j\Omega } \right) := \mathcal{F}_{\mathrm{D}}\left\{ h[n] \right\} = H(z) \Bigg|_{z = e^{ j\Omega }} $$

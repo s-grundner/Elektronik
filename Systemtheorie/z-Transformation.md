@@ -5,8 +5,8 @@ aliases:
 keywords:
   - z-Ebene
 subject:
-  - Signale und Systeme
   - VL
+  - Signale und Systeme
   - Signalverarbeitung
 semester: WS24
 created: 8. Februar 2025
@@ -96,44 +96,48 @@ $$
 
 
 
-### Existenzbedingung
+### Existenzbedingung und Konvergenz
 
 Ausreichend für die Existenz  der z-Transformierten ist die Forderung:
 
-$$ \lvert f[n] \rvert \leq BA^{n}  $$
-für geeignete reelle konstanten $A$ und $B$. Die z-Transformierte 
+> [!satz] **S - ZEXT)** Existenzbedingunge der z-Transformation
+>
+> $$ \lvert f[n] \rvert \leq BA^{n}  $$
+> für geeignete reelle konstanten $A$ und $B$. Die z-Transformierte 
 
-### Konvergenz
 
 
-> [!satz] **S - )** Konvergenz der z-Transformierten ist gegeben durch
+
+> [!satz] **S - ZKNV)** Konvergenzgebiet der z-Transformierten ist gegeben durch
 > $$\lvert z \rvert > \underset{ i=1 }{ \overset{ N }{ \max } } \lvert z_{\infty i} \rvert $$
 
-Das Heißt, die z-Transformierte konvergiert für alle $z$ mit größerem Betrag als der größten Polstelle. Es konvergieren alle werte vom $z$ **ausßerhalb** des **Konvergenzkreises** mit dem **Konvergenzradius** $R^{-}$ dessen Wert gleich dem Betrag des größten Poles ist.
+Das Heißt, die z-Transformierte konvergiert für alle $z$ mit größerem Betrag als der größten Polstelle. Es konvergieren alle werte vom $z$ **außerhalb** des **Konvergenzkreises** mit dem **Konvergenzradius** $R^{-}$ dessen Wert gleich dem Betrag des größten Poles ist.
 
-![invert_dark|600](assets/Pasted%20image%2020250208225644.png)
+![invert_dark|400](assets/Pasted%20image%2020250208225644.png)
 
 in dem Kreis befinden sich also alle Polstellen.
 
 ### Stabilität
 
 > [!satz] **S - )** Stabile Folgen
->  Eine folge ist Stabil wenn sie absolut summierbar ist:
+>  Eine folge ist Stabil wenn sie absolut summierbar / absolut Konvergenz ist:
 >  $$\sum_{n=0}^{\infty} \lvert f[n] \rvert < M < \infty$$
 
 Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den **Einheitskreis** ein, also alle $z$ mit Betrag kleiner als 1.
 
-> [!satz] **S - )** Stabile und kausale Folgen
-> Die z-Transformierte konvergiert auf und außerhalb des Einheitskreises ($\to$ alle Pole liegen innerhalb des Einheitskreises)
-> Die z-Transformierte ist für $z=\exp (j\Omega)$ (am Einheitskreis, also $r=1$) identisch mit der zeitdiskreten Fouriertransformation
+> [!satz] **S - BIBO)** Stabile und kausale Folgen
+> 1. Die z-Transformierte konvergiert auf und außerhalb des Einheitskreises ($\to$ alle Pole liegen innerhalb des Einheitskreises)
+> 2. Die z-Transformierte ist für $z=\exp (j\Omega)$ (am Einheitskreis, also $r=1$) identisch mit der [DTFT](Zeitdiskrete%20Fourier-Transformation.md)
+
+2. $\implies$ Der **Frequenzgang** ist auf der Zylinderebene des Einheitskreises Abgebildet (siehe [Zeitdiskrete Übertragungsfunktion](Zeitdiskrete%20Übertragungsfunktion.md)) 
 
 ## Rechenregeln
 
-> [!satz] **S - )** Anfangswertsatz
-> $$f[0]=\lim_{ z \to \infty } F(z)$$
+|     | Endwertsatz     | $\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$ |
+| --- | --------------- | -------------------------------------------------------- |
+|     | Anfangswertsatz | $f[0]=\lim_{ z \to \infty } F(z)$                        |
 
-> [!satz] **S - )** Endwertsatz
-> $$\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$$
+Anfangs und Endwertsatz gelten nur, sofern der Grenzwert im Zeitbereich existiert.
 
 > [!satz] **S - )** Parsevalsches Theorem der z-Transformation - **Energie des Signals**
 > 
@@ -148,7 +152,23 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 
 ## Korrespondenzen
 
+für die Kausalen Folgen $f[n] : \mathcal{Z}_{I}\left\{ f[n]\cdot \sigma[n] \right\}(z) = F(z)$ mit dem zietdiskreten Einheitssprung $\sigma[n]$ 
 
+| Nr.    | Zeitbereich | Bildbereich |
+| ------ | ----------- | ----------- |
+| (i)    |             |             |
+| (ii)   |             |             |
+| (iii)  |             |             |
+| (iv)   |             |             |
+| (v)    |             |             |
+| (vi)   |             |             |
+| (vii)  |             |             |
+| (viii) |             |             |
+
+
+# Motivation der Z-TRF für DZGL 
+
+> [!info] [Differenzengleichung](../Mathematik/Analysis/Differenzengleichung.md)
 
 ## Blockschaltbild
 

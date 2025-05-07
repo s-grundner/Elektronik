@@ -6,8 +6,9 @@ aliases:
   - DZGL
 keywords: 
 subject:
-  - Regelungstechnik
   - VL
+  - Regelungstechnik
+  - Signalverarbeitung
 semester: SS25
 created: 11th March 2025
 professor: 
@@ -17,7 +18,7 @@ def:
   - DZGL
 ---
  
-# Differenzengleichung
+# Differenzengleichung (DZGL)
 
 [Differenzialgleichungen](GDGL.md) ***:LiArrowBigRightDash:***
 
@@ -37,3 +38,7 @@ def:
 ---
 
 Weiterführend ist die Systemtheoretische Betrachtung von [Differenzengleichungssystemen](../../Systemtheorie/Zeitdiskrete%20Systeme.md) als Zustandsgleichungen von Übertragungssystemen.
+
+---
+
+- [z-Transformation](../../Systemtheorie/z-Transformation.md)
