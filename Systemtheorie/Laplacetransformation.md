@@ -99,42 +99,34 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 > 
-> | [Explizite Formulierung](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) | [LAPT-Korr](Korrespondenzen/LAPT-Korr.md) |
-> | --------------------------------------------------------------- | ----------------------------------------- |
+> | [Einfache Schreibweise](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) | [Explizite Schreibweise](Korrespondenzen/LAPT-Korr.md#^LAPT-T2) |
+> | - | - |
+
+> [!satz] **S3 - AEWS)** Anfangs und Endwertsatz ^AEWS
+> 
+> 1. **erster Anfangswertsatz** 
+> Es sei vorrausgesetzt, dass der Grenzwert im Zeitbereich existiert
+> 
+> $$\lim_{ t \to 0^+ } f(t) = \lim_{ s \to \infty } s~\mathcal{L}\left\{ f(t) \right\} (s)$$
+> 
+> 2. **zweiter Anfangswertsatz**
+> Es sei vorrausgesetzt, dass der Grenzwert im Zeitbereich existiert
+> 
+> $$\lim_{ t \to 0^+ } \dot{f}(t) = \lim_{ s \to \infty } (s^{2}\mathcal{L}\left\{ f(t) \right\} (s)-sf(0^+))$$
+> 
+> 3. **Endwertsatz**
+> Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0. Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden.
+> 
+> $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } s~\mathcal{L}\left\{ f(t) \right\} (s)$$
+> 
 
 ## Korrespondenzen
 
 > [!satz] **S3 - LAPK)** Korrespondenztabelle ^LAPK
 > Jede der transformierten Funktionen ist implizit [Kausal](Kausalität.md) (multiplizert mit dem Einheitsprung $\sigma(t)$)
 > 
-> $$
-> \begin{align}
-> \mathcal{L}\left\{ \delta(t) \right\} (s) &= 1 \\
-> \mathcal{L}\left\{ 1 \right\} (s) &= \frac{1}{s} \\
-> \mathcal{L}\left\{ t \right\} (s) &= \frac{1}{s^{2}} \\
-> \mathcal{L}\left\{ e^{ at }\right\} (s) &= \frac{1}{s-a} \\
-> \mathcal{L}\left\{ t^n e^{ at }\right\} (s) &= \frac{n!}{(s-a)^{n+1}} \\
-> \mathcal{L}\{\sin (\omega t)\}(s) &=\frac{\omega}{s^2+\omega^2} \\
-> \mathcal{L}\{\cos (\omega t)\}(s) &=\frac{s}{s^2+\omega^2} \\
-> \mathcal{L}\{e^{ at }\sin (\omega t)\}(s) &=\frac{\omega}{(s-a)^2+\omega^2} \\
-> \mathcal{L}\{e^{ at }\cos (\omega t)\}(s) &=\frac{s-a}{(s-a)^2+\omega^2} \\
-> \mathcal{L}\{\sin(\omega_{0} t+\varphi_{0})\}(s) &= \frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}
-> \end{align}
-> $$
-> 
 
-> [!success]- Beweis
-> Mittels [Partieller Integration](../Analysis/Partielle%20Integration.md)
-> $$
-> \begin{aligned}
-> \int_0^{\infty} \sin (\omega t) e^{-s t} d t & =-\left.\frac{\cos (\omega t)}{\omega} e^{-s t}\right|_0 ^{\infty}-\frac{s}{\omega} \int_0^{\infty} \cos (\omega t) e^{-s t} d t \\
-> & =\frac{1}{\omega}-\frac{s}{\omega}\left(\left.\frac{\sin (\omega t)}{\omega} e^{-s t}\right|_0 ^{\infty}+\frac{s}{\omega} \int_0^{\infty} \sin (\omega t) e^{-s t} d t\right) \\
-> & =\frac{1}{\omega}-\frac{s^2}{\omega^2} \int_0^{\infty} \sin (\omega t) e^{-s t} d t
-> \end{aligned}
-> $$
-> 
-> 
-> Also: $\int_0^{\infty} \sin (\omega t) e^{-s t} d t=\frac{\omega}{s^2+\omega^2}$
+
 
 ## Rücktransformation
 
