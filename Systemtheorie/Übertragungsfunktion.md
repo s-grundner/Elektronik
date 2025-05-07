@@ -20,8 +20,16 @@ title: Übertragungsfunktion
 
 ---
 
-Für die Übertragungsfunktion eines Systems, bildet man die [Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort. 
+
+> [!def] **D1 - Übertragungsfunktion)** Transferfunction ^Transferfunction
+> $$H(s) := \mathcal{L}\left\{ h(t) \right\}(s) $$
 
 ## Frequenzgang
 
 Der Frequenzgang ist auf der Imaginärachse der Transformierten abgebildet.
+
+> [!def] **D - Frequenzgang)** Frequency Response ^ZD-FreqResponse
+> 
+> $$H\left( j\omega \right) := \mathcal{F}_{\mathrm{D}}\left\{ h[n] \right\} = H(z) \Bigg|_{z = e^{ j\Omega }} $$
+Für die Übertragungsfunktion eines Systems, bildet man die [Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort. 
+

@@ -119,15 +119,12 @@ in dem Kreis befinden sich also alle Polstellen.
 
 ### Stabilität
 
-> [!satz] **S - )** Stabile Folgen
->  Eine folge ist Stabil wenn sie absolut summierbar / absolut Konvergenz ist:
->  $$\sum_{n=0}^{\infty} \lvert f[n] \rvert < M < \infty$$
-
 Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den **Einheitskreis** ein, also alle $z$ mit Betrag kleiner als 1.
 
-> [!satz] **S - BIBO)** Stabile und kausale Folgen
-> 1. Die z-Transformierte konvergiert auf und außerhalb des Einheitskreises ($\to$ alle Pole liegen innerhalb des Einheitskreises)
-> 2. Die z-Transformierte ist für $z=\exp (j\Omega)$ (am Einheitskreis, also $r=1$) identisch mit der [DTFT](Zeitdiskrete%20Fourier-Transformation.md)
+> [!satz] **S - BIBO)** BIBO-Stabilität ^BIBO
+> 1. Die folge ist [stabil](../Mathematik/Analysis/Grenzwert.md#^STFO), d.h. absolut summierbar.
+> 2. Die z-Transformierte konvergiert auf und außerhalb des Einheitskreises ($\to$ alle Pole liegen innerhalb des Einheitskreises)
+> 3. Die z-Transformierte ist für $z=\exp (j\Omega)$ (am Einheitskreis, also $r=1$) identisch mit der [DTFT](Zeitdiskrete%20Fourier-Transformation.md)
 
 2. $\implies$ Der **Frequenzgang** ist auf der Zylinderebene des Einheitskreises Abgebildet (siehe [Zeitdiskrete Übertragungsfunktion](Zeitdiskrete%20Übertragungsfunktion.md)) 
 

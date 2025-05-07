@@ -1,12 +1,20 @@
 ---
+tags: 
 aliases: 
-subject: []
-created: 24th March 2022
-tags:
-  - Analysis/Reihen
+keywords: 
+subject:
+  - VL
+  - Signalverarbeitung
+semester: SS25
+created: 27th February 2025
+professor:
+draft: true
+title: Folgen
 ---
 
-> [!warning] Veraltet
+
+
+#todo Diese File in zeitdiskrete signale und Systeme einbinden.
 
 # Folgen
 

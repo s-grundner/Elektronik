@@ -25,9 +25,9 @@ title: Zeitdiskrete Übertragungsfunktion
 
 ## Frequenzgang
 
-Man erhält den Frequenzgang indem man die Übertragungsfunkton auf der Zylinderebene des Einheitskreis auswertet. Daraus erschließt sich auch, dass das Spektrum eines diskreten Systems **periodisch**.
+Man erhält den Frequenzgang indem man die Übertragungsfunkton auf der Zylinderebene des Einheitskreis auswertet ($z = r\cdot e^{ j\Omega }, r=1$). Daraus erschließt sich auch, dass das Spektrum eines diskreten Systems **periodisch**.
 
-Das Funktioniert nur wenn das System [z-Transformation](z-Transformation.md#^BIBO) ist, da nur dann der Einheitskreis teil des Konvergenzgebietes ist. Diese Auswertung ist identisch zur [DTFT](Zeitdiskrete%20Fourier-Transformation.md).
+Das Funktioniert nur wenn das LTI-System [BIBO-Stabil](z-Transformation.md#^BIBO) ist, da nur dann der Einheitskreis teil des Konvergenzgebietes ist. Diese Auswertung ist identisch zur [DTFT](Zeitdiskrete%20Fourier-Transformation.md).
 
 
 > [!def] **D - Frequenzgang)** Frequency Response ^ZD-FreqResponse
