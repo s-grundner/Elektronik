@@ -35,7 +35,7 @@ Zur [Dualen Poissonschen Summenformel](Poissonsche%20Summenformel.md#^POIS2) erf
 > [!def] **D2 - IDTFT)** Zeitdiskrete Inverse Fouriertransformation ^IDTFT
 > $$f[n]=\frac{1}{2\pi} \int_{-\pi}^{\pi}F_{\mathrm{d}}\!\left( e^{ j\Omega } \right) ~e^{ jn\Omega }\mathrm{~d}\Omega \tag{IDTFT}$$
 
-$F(e^{ j\omega })$ ist eine Amplitudendichte -> Wird erst durch multiplikation von $e^{ j\omega }$ zur amplitude des signals $x$
+$F(e^{ j\omega })$ ist eine Amplitudendichte -> Wird erst durch Multiplikation von $e^{ j\omega }$ zur Amplitude des Signals $x$
 
 ## Konvergenz
 
@@ -57,66 +57,11 @@ Verschobenes Signal:
 Transformationsvorschriften funktionieren nur in richtung Zeitbereich -> Bildbereich.
 Warum? Ein Zeitdiskretes Signal hat ein kontinuierliches Spektrum. Zu einem Kontinuierlichen Spektrum passen auch kontinuierliche Zeitsignale
 
+## DTFT Rechensätze
+
+> [!satz]- **S1 - DTFT-R)** Rechensätze ^DTFT-R
+> ![DTFT-Korr](Korrespondenzen/DTFT-Korr.md#^DTFT-T1)
+
 ### Parseval-Theorem
 
 #todo Parseval Theorem ergänzen. Nach bereits existierenden Notizen dazu suchen. sonst Folien.
-
-## DTFT - Transformationstabelle
-
-$$
-
-\begin{array}{|rcl|}
-\hline
-\displaystyle x[n]:=\dfrac{1}{2 \pi} \int\limits_{-\pi}^\pi X\left(e^{j \theta}\right) e^{j \theta n} \mathrm{d}\theta
-& \circ\mkern-7px-\mkern-7px\bullet &
-X\left(e^{j \theta}\right):=\sum\limits_{n=-\infty}^{\infty} x[n] e^{-j \theta n} \\ \hline
-
-x\left[n-n_0\right]
-& \circ\mkern-7px-\mkern-7px\bullet &
-e^{-j \theta n_0} X\left(e^{j \theta}\right) \\ 
-
-e^{j \theta_0 n} x[n]
-& \circ\mkern-7px-\mkern-7px\bullet &
-X\left(e^{j\left(\theta-\theta_0\right)}\right) \\
-
-x^*[n]
-& \circ\mkern-7px-\mkern-7px\bullet &
-X^*\left(e^{-j \theta}\right) \\
-
-x[-n]
-&\circ\mkern-7px-\mkern-7px\bullet &
-X\left(e^{-j \theta}\right) \\
-
-\displaystyle(x * y)[n]=\sum\limits_{k=-\infty}^{\infty} x[k] y[n-k]
-& \circ\mkern-7px-\mkern-7px\bullet &
-X\left(e^{j \theta}\right) Y\left(e^{j \theta}\right) \\
-
-x[n]\cdot y[n]
-& \circ\mkern-7px-\mkern-7px\bullet &
-\displaystyle\dfrac{1}{2 \pi}(X * Y)\left(e^{j \theta}\right)=\dfrac{1}{2 \pi} \int\limits_{-\pi}^\pi X\left(e^{j \lambda}\right) Y\left(e^{j(\theta-\lambda)}\right) \mathrm{d}\lambda \\
-
-x_e[n]=\dfrac{1}{2}\left(x[n]+x^*[-n]\right)
-& \circ\mkern-7px-\mkern-7px\bullet &
-\Re e\left\{X\left(e^{j \theta}\right)\right\} \\
-
-x_o[n]=\dfrac{1}{2}\left(x[n]-x^*[-n]\right)
-& \circ\mkern-7px-\mkern-7px\bullet &
-j \Im m\left\{X\left(e^{j \theta}\right)\right\} \\
-
-\Re e\{x[n]\}
-& \circ\mkern-7px-\mkern-7px\bullet &
-X_e\left(e^{j \theta}\right)=\dfrac{1}{2}\left(X\left(e^{j \theta}\right)+X^*\left(e^{-j \theta}\right)\right) \\
-
-j \Im m\{x[n]\}
-& \circ\mkern-7px-\mkern-7px\bullet &
-X_o\left(e^{j \theta}\right)=\dfrac{1}{2}\left(X\left(e^{j \theta}\right)-X^*\left(e^{-j \theta}\right)\right) \\
-
-n\cdot x[n]
-& \circ\mkern-7px-\mkern-7px\bullet &
-j \dfrac{\mathrm{d}X\left(e^{j \theta}\right)}{\mathrm{d}\theta} \\
-
-\sum\limits_{k=-\infty}^{n} x[k]
-& \circ\mkern-7px-\mkern-7px\bullet &
-\dfrac{1}{1-e^{-j \theta}} X\left(e^{j \theta}\right)+\pi X\left(e^{j \theta}\right) \delta_{2 \pi}(\theta) \\ \hline
-\end{array}
-$$
