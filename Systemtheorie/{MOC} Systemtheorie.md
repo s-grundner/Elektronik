@@ -31,8 +31,7 @@ Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische 
 > - Erreichbar
 > - Steuerbar
 > - Beobachtbar
-> - Rekonstruierbar
-> - Detektierbar
+> - Rekonstruierbar $\implies$ Detektierbar
 > - Beinflusst von der Abtastung
 
 Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:

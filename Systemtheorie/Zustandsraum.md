@@ -115,22 +115,7 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 >[!example] Zustandsbeschreibung eines Parallelschwingkreis
 > Relevant ist, wo hier die Energie gespeichert wird. 
 
-```tikz
-\usepackage[european, straightvoltages]{circuitikz}
-\usepackage{amsmath}
-
-\begin{document}
-\begin{circuitikz}[thick, scale=1, font=\Large]
-% Begin Schematic
-
-\draw (0,0) to[I, l=$i_0$, i=$i_0$]
-      (0,4) to[short] (2,4) to[L, i>_=$i_L(t)$, *-*] (2,0) to[short] (0,0);
-\draw (2,4) to[short] (4,4) to[R, i>_=$i_R(t)$, *-*] (4,0) to[short] (2,0);
-\draw (4,4) to[short] (6,4) to[C, i>_=$i_C(t)$, v^=$u_C(t)$] (6,0) to[short] (4,0);
-
-\end{circuitikz}
-\end{document}
-```
+![invert_dark|400](assets/zustandsraum.png)
 
 > [!important] Zustansgrößen: $u_C(t)$, $i_L(t)$
 > 
