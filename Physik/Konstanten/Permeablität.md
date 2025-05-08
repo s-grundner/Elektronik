@@ -4,11 +4,10 @@ tags:
   - Physik
 aliases:
   - Permeabilitätskonstante
-symbol: $\mu_{0}$
-value: $1.25663706127(20) \cdot 10^{-6}$
-unit: $\mathrm{\dfrac{Vs}{Am}}$
-rel-uncertainty: 1.6e-10
-keywords: 
+  - Permeabilität
+  - Hysterese
+keywords:
+  - Materialgesetz
 subject:
   - Elektrische Maschinen und Antriebselektronik
   - VL
@@ -17,14 +16,15 @@ created: 10. März 2025
 professor: 
 draft: true
 title: Permeabilität
+symbol: $\mu_{0}$
+value: $1.25663706127(20) \cdot 10^{-6}$
+unit: $\mathrm{\dfrac{Vs}{Am}}$
+rel-uncertainty: 1.6e-10
 ---
 
-# Permeabilität des Vakuum[Permeablität des Vakuums](Permeablität%20des%20Vakuums.md) \mathrm{\frac{Vs}{Am}}$ ^DEF
+# Permeabilität des Vakuums
 
-- Materialgesetze nach [Maxwell](../../Elektrotechnik/Maxwell.md#^MATG)
-- [Permeabilität](../../Elektrotechnik/Permeabilität.md)
-
- 
+> [!def] $\mu_{0} = 1.25663706127(20) \cdot 10^{-6} \mathrm{\frac{Vs}{Am}}$ ^DEF
 
 # Materialgesetz - Permeabilität
 
@@ -32,12 +32,14 @@ title: Permeabilität
 
 ---
 
+Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. 
+
 > [!important] [Materialgesetze nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
-> $$\mathbf{B}= \mu \mathbf{H}$$
+> $$\mathbf{B}= \mu \mathbf{H}, \qquad[\mu] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$
 > Wichtige Beziehung für [Magnetkreise](Maschinen/Magnetkreis.md)
 
 Magnetische Leitfähigkeit - **Permeabilität** $\mu = \mu_{0}\cdot\mu_{r}$:
-- $\mu_{0}$ ... [Permeablität des Vakuums](../Physik/Konstanten/Permeablität%20des%20Vakuums.md)
+- $\mu_{0}$ ... [Permeabilität des Vakuums](#^DEF)
 - Ein gut magnetisch leitfähiges Material möchte in einem Magnetfeld den Luftspalt minimieren.
 - z.B: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
 

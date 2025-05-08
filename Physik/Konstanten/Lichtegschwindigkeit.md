@@ -18,4 +18,4 @@ c_{0} = \frac{1}{\sqrt{ \varepsilon_{0}\mu_{0} }}
 $$
 
 - [Permittivität des Vakuums](Permittivität%20des%20Vakuums.md)
-- [Permeabilität des Vakuums](Permeablität%20des%20Vakuums.md)
+- [Permeabilität des Vakuums](Permeablität.md)

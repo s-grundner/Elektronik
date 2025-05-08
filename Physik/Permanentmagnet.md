@@ -17,7 +17,7 @@ title: Permanentmagnet
  
 # Permanentmagnet
 
-> [!question] [magnetische Feld](../Elektrotechnik/Magnetisches%20Feld.md), [Permeablität des Vakuums](Konstanten/Permeablität%20des%20Vakuums.md)
+> [!question] [magnetische Feld](../Elektrotechnik/Magnetisches%20Feld.md), [Permeablität](Konstanten/Permeablität.md)
 
 $$ B_{m} = B_{r} \mp \mu_{0}\mu_{r}H_{m} $$
 

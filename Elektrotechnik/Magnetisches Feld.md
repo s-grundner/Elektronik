@@ -33,7 +33,7 @@ title: Das Magnetische Feld
 
 ## 🗺️ Map of Content
 
-- [Materialgesetz - Permeabilität](../Physik/Konstanten/Permeablität%20des%20Vakuums.md)
+- [Materialgesetz - Permeabilität](../Physik/Konstanten/Permeablität.md)
 - [Magnetische Quellen](Magnetische%20Quellen.md) - Magnete
 - [Magnetischer Fluss](Magnetischer%20Fluss.md) - $\Phi$
 - [Durchflutung](Durchflutung.md) - $\Theta$
