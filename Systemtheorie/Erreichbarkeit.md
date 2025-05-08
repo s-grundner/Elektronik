@@ -26,16 +26,15 @@ Mit den Zustandsgrößen
 
 Gibt es einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können?
 
-> [!satz] **S - MIMO)** Erreichbarkeitskriterium für MIMO[^1]-Systeme.
-> Das [LTI](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO)-System ist genau dann vollständig erreichbar, wenn die Matrix
+> [!satz] **S - MIMO)** Erreichbarkeitskriterium für [MIMO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO)-Systeme.
+> Das LTI-System ist genau dann vollständig erreichbar, wenn die Matrix
 > $$\mathbf{M}_{k} = \begin{bmatrix}
 > \mathbf{B} & \mathbf{AB} & \mathbf{A}^{2}\mathbf{B} & \dots &  \mathbf{A}^{n-1}\mathbf{B}\\
 > \end{bmatrix}$$
 > den Rang $n$ hat. Wobei $\mathbf{x}\in \mathbb{R}^n$
 
 
-
-> [!satz] **S - SISO)** Erreichbarkeitskriterium für SISO[^2]-Systeme.
+> [!satz] **S - SISO)** Erreichbarkeitskriterium für [SISO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-SISO)-Systeme.
 > $$\mathbf{M}_{k} = \begin{bmatrix}
 > \mathbf{b} & \mathbf{Ab} & \mathbf{A}^{2}\mathbf{b} & \dots &  \mathbf{A}^{n-1}\mathbf{b}\\
 > \end{bmatrix}$$
@@ -45,6 +44,3 @@ Gibt es einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen 
 ---
 
 - Dreieckszerlegung / Kalman-Zerlegung
-
-[^1]: Multiple Input, Multiple Output
-[^2]: Single Input, Single Output

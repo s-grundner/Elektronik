@@ -43,12 +43,13 @@ professor:
 Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Algebra/Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
 
 > [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige Spalten der Linearenabbildung $L$.
-> **Bild**: $\mathcal{R}(L)= L(X)$
+> $$\mathcal{R}(L) := L(X)$$
+> 
 > - oft auch $\operatorname{im}(L)$ (von *image*)
 > - Mit einer Linearkombination des Bildes, Lässt sich aus $X$ der gesamte Raum $Y$ erreichen.
 
 > [!def] **D2 - KERN)** Das System $Lx$ das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) 
-> $\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$
+>$$\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$$ 
 > 
 > - oft auch $\operatorname{ker}(L)$ (von *kernel*)
 > - Der Ausdruck $Lx=0$ wird als Kerngleichung bezeichnet
