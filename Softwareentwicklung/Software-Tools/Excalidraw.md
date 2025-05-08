@@ -10,6 +10,5 @@ draft: false
 
 ## Insert Latex
 
-New Formular `<Ctrl-p>`
-
-Edit Formular `<Ctrl-Click>`
+- New Formular `<Ctrl-p>`
+- Edit Formular `<Ctrl-Click>`

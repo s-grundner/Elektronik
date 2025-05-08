@@ -15,8 +15,9 @@ title: Permanentmagnet
  
 # Permanentmagnet
 
-> [!question] [magnetische Feld](../Elektrotechnik/Magnetisches%20Feld.md), [Permeablität](Konstanten/Permeablität.md)
+> [!question] Themengebiet [Magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md)
 
+---
 $$ B_{m} = B_{r} \mp \mu_{0}\mu_{r}H_{m} $$
 
 **Vorzeichen:** $H_{m}$ ist im Arbeitspunkt negativ

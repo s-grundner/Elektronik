@@ -24,15 +24,15 @@ title: GUM
 
 ^GUM-TYP
 
+
 ---
 
-# Beispiele
+## Ressourcen
+
+[Python Uncertainties](../Softwareentwicklung/Python/Uncertainties.md)
+
+---
+
+## Beispiele
 
 - [INTERNAL_UE02](../xEDU/B4_SS25/EMTS/UE/UE02.md#6.%20GUM)
-
----
-
-# Ressourcen
-
-[Welcome to the uncertainties package — uncertainties Python package 3.0.1 documentation](https://pythonhosted.org/uncertainties/)
-

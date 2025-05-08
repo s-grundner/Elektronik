@@ -61,7 +61,7 @@ Praktisch
 
 - In Ersatzbild umzeichnen
 - Maschenstromverfahren ansetzen
-- LGS für magentische Flüsse Aufstellen und mit Mathematischen Werkzeug Solven
+- LGS für magentische Flüsse Aufstellen und mit Mathematischen Werkzeug Solven (SymPy, [Wolfram Mathematica](../../Softwareentwicklung/Software-Tools/Wolfram%20Mathematica.md))
 
 ## Wichtige Kenngrößen und Zusammenhänge
 
@@ -112,7 +112,7 @@ $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_
 
 $$\Theta = \oint_{L} \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
 
-2. Das Ringintegral wird zur **Maschengleichung**:
+2. Das Ringintegral wird zur **Maschengleichung**: [^1]
 
 $$2 H_{\delta}\delta + H_{R}l_{R} + H_{S} l_{S} = 2Ni$$
 
@@ -140,3 +140,6 @@ Mit dieser Anschaulichen Maschengleichung der magnetischen Spannungen kann ein S
 
 
 ![invert_dark|400](assets/MagnEquiv.png)
+
+
+[^1]: Mit Guter Näherung kann für den nicht gesättigten Zustand des angenommen werden, dass $H_{R} l_{R}\approx 0$  und $H_{S} l_{S}\approx 0$. Daraus folgt: $H_{\delta} = \frac{Ni}{\delta}$
