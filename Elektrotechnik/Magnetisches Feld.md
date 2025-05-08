@@ -33,12 +33,12 @@ title: Das Magnetische Feld
 
 ## 🗺️ Map of Content
 
-- [Magnetkreis](Maschinen/Magnetkreis.md) - Schematischer Aufbau von Anwendungen
-- [Materialgesetz - Permeabilität](Permeabilität.md)
+- [Materialgesetz - Permeabilität](../Physik/Konstanten/Permeablität%20des%20Vakuums.md)
 - [Magnetische Quellen](Magnetische%20Quellen.md) - Magnete
 - [Magnetischer Fluss](Magnetischer%20Fluss.md) - $\Phi$
 - [Durchflutung](Durchflutung.md) - $\Theta$
 - [Reluktanz](Maschinen/Reluktanz.md) - $\mathfrak{R}$
+- [Magnetkreis](Maschinen/Magnetkreis.md) - Schematischer Aufbau von Anwendungen
 
 ## Magnetfeld im Leiter
 
