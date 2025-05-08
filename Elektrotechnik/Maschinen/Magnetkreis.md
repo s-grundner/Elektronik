@@ -15,6 +15,10 @@ title: Magnetkreis
 
 # Magnetkreis
 
+> [!question] Themengebiet: [Magnetfeld](Magnetisches%20Feld.md)
+
+---
+
 Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus magnetischen Elementen. Durch ihn wird veranschaulicht in welcher Quantität diese Elemente mit dem magnetischen Fluss durchströmt sind.   
 
 **Elemente im Magnetkreis**

@@ -1,8 +1,6 @@
 ---
 tags: 
-aliases:
-  - koerzitiv Feldstärke
-  - remanenz Flussdichte
+aliases: []
 keywords: 
 subject:
   - Elektrische Maschinen und Antriebselektronik

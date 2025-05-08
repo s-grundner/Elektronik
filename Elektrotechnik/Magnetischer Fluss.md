@@ -1,5 +1,9 @@
 ## Magnetischer Fluss
 
+> [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md)
+
+---
+
 Anstelle der lokalen Feldstärke $B$ beschreibt man das Feld auch gerne durch einen so genannten magnetischen Fluss $\Phi$, der eine bestimmte Fläche (z.B. die Querschnittsfläche eines Stabmagneten) durchsetzt. Der magnetische Fluss ist daher die Quantitätsgröße der magnetischen Flussdichte.
 
 > [!question]- Vergleich zum elektrischen Kreis: **Magnetische Flüsse** $\iff$ **Elektrische Ströme**

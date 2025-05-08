@@ -6,6 +6,10 @@ aliases:
   - Permeabilitätskonstante
   - Permeabilität
   - Hysterese
+  - Magnetisierungskurve
+  - magnetische Sättigung
+  - Koerzitvfeldstärke
+  - Remanenzinduktion
 keywords:
   - Materialgesetz
 subject:
@@ -32,23 +36,43 @@ rel-uncertainty: 1.6e-10
 
 ---
 
-Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. 
+Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für *isotrope* Stoffe folgender **nichtlinearer** Zusammenhang
 
-> [!important] [Materialgesetze nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
-> $$\mathbf{B}= \mu \mathbf{H}, \qquad[\mu] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$
-> Wichtige Beziehung für [Magnetkreise](Maschinen/Magnetkreis.md)
+> [!important] [Materialgesetz nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
+> $$\mathbf{B}= \mu \mathbf{H}, \quad \mu = \mu_{0}\mu_{r} \qquad [\mu] = [\mu_{0}] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$
+> 
+> - $\mu_{0}$ ... [Permeabilität des Vakuums](#^DEF)
+> - $\mu_{r}$ ... relative Permeabiltät des Materials (Einheitenlos)
 
-Magnetische Leitfähigkeit - **Permeabilität** $\mu = \mu_{0}\cdot\mu_{r}$:
-- $\mu_{0}$ ... [Permeabilität des Vakuums](#^DEF)
-- Ein gut magnetisch leitfähiges Material möchte in einem Magnetfeld den Luftspalt minimieren.
-- z.B: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
+Ein gut magnetisch leitfähiges Material möchte in einem Magnetfeld den Luftspalt minimieren.
 
-ferromagnetisch: $\mu_{r} \gg$ 
-diamagnetisch: $\mu_{r}<$ (material stoßt sich vom Magnetfeld leicht ab)
+- **ferromagnetisch**: $\mu_{r} \gg$ 
+	- z.B.: Weicheisen
+- **diamagnetisch**: $\mu_{r} < 1$ (Material wirkt dem B-Feld leicht entgegen)
+	- z.B.: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
 
-## Magnetisierung und Sättigung
+## Magnetisierung
+
+
+### Ferromagnetisch
+
+Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. Hier ist auch die nichtlinearität zu erkennen. 
+
+- Das Material bleibt nach jedem Zyklus des Wechselfeldes magnetisiert.
+- Die relative Permeabilität $\mu_{r}$ ist abhängig von des magnetischen Feldes
+
+![invert_dark|500](assets/hysterese.png)
+
+#### Kenngrößen
+
+- **Remanenzinduktion** $B_{r}$: verbleibende Restinduktion wenn $H = 0$
+- **Koerzitivfeldstärke** $H_{C}$: erforderliche Feldstärke für den induktionsfreien Zustand.
+- **Sättigungsinduktion** $B_{S}$: Maximal mögliche Flussdichte im Material
+
+#### Magnetische Sättigung
 
 > [!question] **Manetische Sättigung:** Ab einem Gewissen Strom wird der Kern des Magnetkreises nicht weiter Magnetisiert
+> - Ursache: Alle **Weißschen Bezirke** sind gleichgerichtet
 > - Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
 | ![invert_dark\|200](assets/Mkreis.png)                                                                 | ![invert_dark\|200](assets/Mkurve.png)                                                                    |

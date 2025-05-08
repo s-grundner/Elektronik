@@ -27,7 +27,6 @@ title: Das Magnetische Feld
 
 ---
 
-
 > [!hint] Auf bewegte Ladungsträger innerhalb eines Magnetfelds wirkt die [magnetische Kraft](Laplace-Kraft.md):
 > Die Ursache für ein magnetisches Feld sind selbst *bewegte* Ladungsträger
 

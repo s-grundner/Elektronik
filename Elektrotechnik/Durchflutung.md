@@ -16,11 +16,16 @@ title: Durchflutung
 
 # Durchflutung $\Theta$
 
+> [!question] Themengebiet: [Magnetfeld](Magnetisches%20Feld.md)
+
+---
+
 Gefolgt aus der [1. Maxwellgleichung](Maxwell.md#^MW1) wird die Durchflutung als Zusammenhang mit der Windungszahl der Induktivität definiert.
 
 > [!def] **D1 - DURF)** Die durch alle Erregerspulen induzierte Feldstärke breitet sich über den gesamten geschlossenen Magnetkreis der Länge $L$ aus und ergibt die Durchflutung $\Theta$.
 > $$\Theta :=\oint_{L}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
 
+- Das Feld heißt **Wirbelfrei**, wenn $\Theta =0$
 - Bei einer einfachen Spule ([Elektromagnet](../Physik/Elektromagnet.md)): $\Theta = N\cdot i$
 - Beim [Permanentmagnet](../Physik/Permanentmagnet.md): $\Theta_{C}' = H_{C}'l_{\text{pm}}$
 
