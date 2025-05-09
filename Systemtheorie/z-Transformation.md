@@ -130,6 +130,8 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 
 ## Rechenregeln
 
+[[Korrespondenzen/Korr-Z]]
+
 |     | Endwertsatz     | $\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$ |
 | --- | --------------- | -------------------------------------------------------- |
 |     | Anfangswertsatz | $f[0]=\lim_{ z \to \infty } F(z)$                        |
