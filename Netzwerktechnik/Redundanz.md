@@ -1,9 +1,19 @@
 ---
-tags: []
-aliases: ["redundant"]
-created: 4th June 2023
+tags:
+  - Informationstheorie
+aliases:
+  - redundant
+created: 27th February 2025
+title: 
+draft: false
+symbol: $R$
 ---
 
+
 # Redundanz
+
+> [!question] [Informationstheorie](Informationstheorie.md)
+
+---
 
 > [!question] Unterschied der Bits von vor und nach der Codierung

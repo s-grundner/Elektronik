@@ -1,11 +1,20 @@
 ---
-tags: []
-aliases: ["Entropie", "Informationsgehalt"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Informationstheorie
+aliases:
+  - Entropie
+created: 27th February 2025
+title: Informationsgehalt & Entropie
+draft: false
+symbol: $I_x$, $H$
 ---
 
 # Informationsgehalt & Entropie 
+
+> [!question] [Informationstheorie](Informationstheorie.md)
+
+---
+
 
 1. Je Unwahrscheinlicher, desto mehr Informationsgehalt
 2. Wenn Wahrscheinlichkeit = 0 -> Informationsgehalt = 1
