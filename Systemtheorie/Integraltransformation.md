@@ -15,7 +15,9 @@ semester: WS24
 created: 4. Februar 2025
 professor:
   - Andreas Stelzer
+title:
 ---
+
  
 
 # Integraltransformationen

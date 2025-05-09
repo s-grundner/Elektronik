@@ -2,7 +2,7 @@
 tags:
   - index
 aliases:
-  - reziprok
+  - Reziprozität
 created: 27th February 2025
 title: 
 draft: false

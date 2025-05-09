@@ -24,7 +24,7 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 >[!summary] Sende- & Empfangsfall  
 >![](assets/ant_sende_empf.png)
 
-> [!hint] Der Sende und Empfangsfall sind [reziprok](../Index/Reziprozität.md).
+> [!hint] Der Sende und Empfangsfall sind [reziprok](../Index/Reziprok.md).
 > 
 > Die Strahlungseigenschaften und auch die [Impedanz](../Elektrotechnik/Impedanz.md) sind im Sende und Empfangsfall gleich.
 > Dieser Zusammenhang wird als Reziprozität bezeichnet.
