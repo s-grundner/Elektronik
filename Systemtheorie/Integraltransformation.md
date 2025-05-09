@@ -32,7 +32,7 @@ in eine **alternative Darstellungsform** übergeführt
 
 ## Integrationskern
 
-EIne wichtige Rolle spielt dabei der **Integrationskern**, der die Bewertung der ursprünglichen Funktion in Abhängigkeit der neuen **Zielvariable** steuert.
+Eine wichtige Rolle spielt dabei der **Integrationskern**, der die Bewertung der ursprünglichen Funktion in Abhängigkeit der neuen **Zielvariable** steuert.
 
 Der Integrationskern $\theta(s,t)$ hängt somit von der Zeitvariablen $t$ als der unabhängigen **Zielvariablen** $s$ ab. Durch Multiplikation des Signals $x(t)$ mit dem Integrationskern $\theta(s,t)$ und der Integration über $t$ mit $s$ als Paramete, gewinnt man die **Bildfunktion** $X(s)$ mit der **Bildvariable** $s$.
 
