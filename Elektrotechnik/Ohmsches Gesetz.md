@@ -9,6 +9,10 @@ created: 26. September 2023
 
 # Das Ohm'sche "Gesetz" - ein Modell
 
+> [!question] [Materialgesetz](Materialgesetz.md)
+
+---
+
 > [!info] Das [Drude-Modell](Drude-Modell.md) hat uns gelehrt,
 > dass wir uns nicht wundern müssen, dass die Elektronen nicht kontinuierlich beschleunigen, sondern im mittel eine konstante Geschwindikgeit annehmen.
 

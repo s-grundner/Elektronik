@@ -10,7 +10,7 @@ created: 29th November 2022
 
 Beschreibt, wie stark das Resonanzverhalten ausgeprägt ist.
 
-- Güte vom [Kondensator](../../Elektrotechnik/Kapazität.md): dünnes [Dielektrikum](../../Elektrotechnik/Dielektrikum.md) $\to$ hohe Güte
+- Güte vom [Kondensator](../../Elektrotechnik/Kapazität.md): dünnes [Dielektrikum](../../Physik/Konstanten/Dielektrikum.md) $\to$ hohe Güte
 - Güte der [Spule](../../Elektrotechnik/Induktivität.md): geringer Serienwiderstand $\to$ hohe Güte
 
 > [!hint] Bauelement mit der geringsten Güte dominiert die Gesamtgüte.

@@ -75,6 +75,8 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 
 ## Elektrische Feldstärke in einem Leiter
 
+> [!question] [Materialgesetz](Materialgesetz.md)
+
 Die elektrische Feldstärke im Leiter ist von der Stromdichte $\mathbf{J}$ und vom Materialabhängigen spezifischen Leitwert $\sigma$ bzw spez. Widerstand $\rho=\frac{1}{\sigma}$ Abhängig. Diese Beziehung ist stark mit dem [Ohmschen Gesetz](Ohmsches%20Gesetz.md) verwandt.
 
 $$

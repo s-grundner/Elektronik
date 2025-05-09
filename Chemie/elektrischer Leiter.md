@@ -3,6 +3,7 @@ tags:
 aliases:
   - elektrische Leiter
   - elektrische Leitfähigkeit
+  - Konduktivität
 created: 1. März 2024
 subject:
   - Einführung Elektronik
@@ -13,6 +14,12 @@ semester: WS25
 ---
 
 # Elektrische Leitfähigkeit
+
+> [!question] [Materialgesetz](../Elektrotechnik/Materialgesetz.md)
+
+---
+
+## Leiterklassen
 
 - Leiter, Halbleiter, Isolator
 - Elektr. Leiter 1. Klasse ([Metalle](Metallbindung.md)) $\rightarrow$ Elektronen als Ladungsträger

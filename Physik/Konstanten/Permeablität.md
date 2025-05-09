@@ -32,13 +32,13 @@ rel-uncertainty: 1.6e-10
 
 # Materialgesetz - Permeabilität
 
-> [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md)
+> [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md), [Materialgesetz](../../Elektrotechnik/Materialgesetz.md)
 
 ---
 
-Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für *isotrope* Stoffe folgender **nichtlinearer** Zusammenhang
+Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für [isotrope](../../Index/Isotrop.md) Stoffe folgender **nichtlinearer** Zusammenhang
 
-> [!important] [Materialgesetz nach Maxwell](Maxwell.md#^MATG) für das Magnetfeld
+> [!important] [[../../Elektrotechnik/Materialgesetz.md#^MATG|Materialgesetz]] für **isotrope** Stoffe
 > $$\mathbf{B}= \mu \mathbf{H}, \quad \mu = \mu_{0}\mu_{r} \qquad [\mu] = [\mu_{0}] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$
 > 
 > - $\mu_{0}$ ... [Permeabilität des Vakuums](#^DEF)
@@ -54,7 +54,6 @@ Ein gut magnetisch leitfähiges Material möchte in einem Magnetfeld den Luftspa
 	- z.B.: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
 
 ## Magnetisierung
-
 
 ### Ferromagnetisch
 

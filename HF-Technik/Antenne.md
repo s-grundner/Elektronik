@@ -24,7 +24,14 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 >[!summary] Sende- & Empfangsfall  
 >![](assets/ant_sende_empf.png)
 
-> [!INFO] Der Sendeund Empfangsfall sind [reziprok](Reziprozität.md).
+> [!hint] Der Sende und Empfangsfall sind [reziprok](../Index/Reziprozität.md).
+> 
+> Die Strahlungseigenschaften und auch die [Impedanz](../Elektrotechnik/Impedanz.md) sind im Sende und Empfangsfall gleich.
+> Dieser Zusammenhang wird als Reziprozität bezeichnet.
+> 
+> Praktisch:
+> - Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtung ab.
+> - Ebenso koppelt die Antenne im Empfangsfall die maximale [Leistung](../Elektrotechnik/elektrische%20Leistung.md) einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
 
 - [[Fernfeld und Nahfeld]]
 

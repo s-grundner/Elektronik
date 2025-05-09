@@ -76,7 +76,7 @@ $$\Downarrow$$
 > [!caution] Die Frequenz in digitalen Schaltkreisen liegt in den Flanken, nicht im Takt.  
 > Schon bei niedrigen getakteten Schaltkreisen können Effekte der HF-Technik eintreten.
 
-> [!caution] Die Energie in Schaltkreisen liegt in den Feldern im [Dielektrikum](../Elektrotechnik/Dielektrikum.md) Zwischen den Leiterbahnen bzw im Isolator von Twisted-Wire Paar.
+> [!caution] Die Energie in Schaltkreisen liegt in den Feldern im [Dielektrikum](../Physik/Konstanten/Dielektrikum.md) Zwischen den Leiterbahnen bzw im Isolator von Twisted-Wire Paar.
 
 # Tags
 
