@@ -21,6 +21,41 @@ title: Magnetkreis
 
 Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus magnetischen Elementen. Durch ihn wird veranschaulicht in welcher Quantität diese Elemente mit dem magnetischen Fluss durchströmt sind.   
 
+
+## Wichtige Kenngrößen und Zusammenhänge
+
+|                                           |                im magnetischen Kreis                 |            im elektrischen Kreis             |                     |
+| ----------------------------------------: | :--------------------------------------------------: | :------------------------------------------: | :------------------ |
+| [magn. Fluss](../Magnetischer%20Fluss.md) |                        $\Phi$                        |                     $I$                      | Strom               |
+|                         magn. Flussdichte |             $\mathbf{B}=\mu \mathbf{H}$              |        $\mathbf{J}=\sigma \mathbf{E}$        | Stromdichte         |
+|      [Permeablität](../../Physik/Konstanten/Permeablität.md) |                        $\mu$                         |                   $\sigma$                   | Leitwert            |
+|                 [Reluktanz](Reluktanz.md) |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |           $R=\dfrac{l}{\sigma A}$            | Impedanz            |
+|                            magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                 | Spannung            |
+|        [Durchflutung](../Durchflutung.md) | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\int \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
+
+> [!success] Oft hat man mehrere Maschen in einem Magnetkreis.
+> Ist dies der Fall, so bietet sich das [Maschenstromverfahren](../Maschenstromverfahren.md) aus der Elektritechnik an, um schnell eine [LGS](../../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) für die magnetischen Flüsse aufzustellen. 
+
+## Entwurf
+
+Für die Auslegung und Berechnung magnetischer Kreise ist es wichtig, den Einfluss der Magnetfeldstreuung zu berücksichtigen. 
+
+Maßnahmen für kleine Streuflüsse:
+
+- Auswahl geeigneter Werkstoffe für  die Applikation
+- Ausreichender Eisenquerschnitt
+	- geringere Fläche
+	- geringere Flussdichte
+	- spätere Sättigung des Materials
+- große Luftspaltfläche, kleine Luftspaltbreite
+- enge Ankopplung der Wicklung an den Weicheisenkern
+- Symmetrischer Aufbau
+
+
+---
+
+## Übersicht
+
 **Elemente im Magnetkreis**
 
 - [Magnetische Quellen](Magnetische%20Quellen.md) - Magnete
@@ -63,30 +98,8 @@ Praktisch
 - Maschenstromverfahren ansetzen
 - LGS für magentische Flüsse Aufstellen und mit Mathematischen Werkzeug Solven (SymPy, [Wolfram Mathematica](../../Softwareentwicklung/Software-Tools/Wolfram%20Mathematica.md))
 
-## Wichtige Kenngrößen und Zusammenhänge
-
-|                                           |                im magnetischen Kreis                 |            im elektrischen Kreis             |                     |
-| ----------------------------------------: | :--------------------------------------------------: | :------------------------------------------: | :------------------ |
-| [magn. Fluss](../Magnetischer%20Fluss.md) |                        $\Phi$                        |                     $I$                      | Strom               |
-|                         magn. Flussdichte |             $\mathbf{B}=\mu \mathbf{H}$              |        $\mathbf{J}=\sigma \mathbf{E}$        | Stromdichte         |
-|      [Permeablität](../../Physik/Konstanten/Permeablität.md) |                        $\mu$                         |                   $\sigma$                   | Leitwert            |
-|                 [Reluktanz](Reluktanz.md) |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |           $R=\dfrac{l}{\sigma A}$            | Impedanz            |
-|                            magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                 | Spannung            |
-|        [Durchflutung](../Durchflutung.md) | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\int \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
-
-> [!success] Oft hat man mehrere Maschen in einem Magnetkreis.
-> Ist dies der Fall, so bietet sich das [Maschenstromverfahren](../Maschenstromverfahren.md) aus der Elektritechnik an, um schnell eine [LGS](../../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) für die magnetischen Flüsse aufzustellen. 
-
-## Entwurf
-
-Entwurfsrichtlinien:
-
-- Ausreichender Eisenquerschnitt
-    - Kleinere Fläche -> höhere Flussdichte daher frühere Sättigung -> Nicht linearer bereich
-- große Luftspaltfläche, kleine Luftspaltlänge
-- Symmetrischer Aufbau
-
 ---
+
 
 ## Beispiel eines Magnetkreises
 
