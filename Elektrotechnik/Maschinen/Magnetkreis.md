@@ -116,7 +116,7 @@ $$\Theta = \oint_{L} \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
 
 $$2 H_{\delta}\delta + H_{R}l_{R} + H_{S} l_{S} = 2Ni$$
 
-3. Beziehungen Anwenden
+3. Beziehungen Anwenden ^MK-EX-3
     - [Materialgleichung](../../Physik/Konstanten/Permeablität.md) $\mathbf{B}=\mu \cdot \mathbf{H}$
     - [Magnetischer Fluss](Magnetischer%20Fluss.md): $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen $A$ jeder Sektion des Modells erweitern
 

@@ -48,7 +48,9 @@ Ein gut magnetisch leitfähiges Material möchte in einem Magnetfeld den Luftspa
 
 - **ferromagnetisch**: $\mu_{r} \gg$ 
 	- z.B.: Weicheisen
-- **diamagnetisch**: $\mu_{r} < 1$ (Material wirkt dem B-Feld leicht entgegen)
+- **paramagnetisch**: $\mu_{r}>1$
+- **diamagnetisch**: $\mu_{r} < 1$ 
+	- Material wirkt dem B-Feld leicht entgegen
 	- z.B.: Aluminium ist zwar gut elektrisch Leitfähig aber nicht magnetisch
 
 ## Magnetisierung
@@ -75,6 +77,16 @@ Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. 
 > - Ursache: Alle **Weißschen Bezirke** sind gleichgerichtet
 > - Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
+![invert_dark|600](assets/Pasted%20image%2020250509010643.png)
+
+Abbildung: Verschiebung der Weißschen Bezirke beim Aufmagnetisieren eines ferromagnetischen Materials
+
 | ![invert_dark\|200](assets/Mkreis.png)                                                                 | ![invert_dark\|200](assets/Mkurve.png)                                                                    |
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Durch das Einbringen eines Magnetfeldes durch eine Spule in den Eisenkreis, wird der kern Magnetisiert | Damit ergibt sich für die Magnetische Flussdichte über dem Strom die Hysterese- oder Magnetisierungskurve |
+
+---
+
+# Quellen
+
+[Elektromagente-Kallenbach](../../xEDU/xLiteratur/Antriebstechnik/Elektromagente-Kallenbach.pdf) [p. 40]
