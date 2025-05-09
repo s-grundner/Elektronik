@@ -30,6 +30,10 @@ banner_y: 0.724
 > - Spulenwicklung im Rotor
 > - Bürste
 
+Auf dem **Typenschild** sind die normierter **Nenngrößen** zu finden.
+
+- [GSM-Typenschild](GSM-Typenschild.md) 
+
 ## Aufbau
 
 ### Stator / Erreger
@@ -41,13 +45,13 @@ Arten der Erregung:
 - [Nebenschlusserregung](#Nebenschlusserregung)
 - [Reihenschlusserregung](#Reihenschlusserregung)
 
-### Rotor / Anker 
+### Rotor / Anker
 
 Im **Rotor / Anker** befinden sich beliebg Viele wicklungen die im Kreis Angeordnet sind. Die **Kontakte** der wicklungen sind am Schaft der Maschine freigestellt und kontaktieren die Bürsten.
 
 ### Kommutator
 
-Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehrt*, dass sich die momentan bestromten Rotorwicklungen geschickt zum Nächstgelegenen Pol *anzieht* bzw *abstößt*.  Dies wird allein durch geschickte verdrahtung der Rotorwicklungskontakte erzielt
+Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehrt*, dass sich die momentan bestromten Rotorwicklungen geschickt zum Nächstgelegenen Pol *anzieht* bzw *abstößt*. Dies wird allein durch geschickte verdrahtung der Rotorwicklungskontakte erzielt
 
 ## Funktionsweise
 
@@ -85,7 +89,7 @@ Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM. 
 | Erregerfluss                                                    | $\Phi_{E}$ bzw. $\Phi$ | Vs       | Verketter Fluss $\Psi = N \Phi$      |
 | Maschinenkonstante                                              | $c=2\pi\bar{c}$        | $1$      |                                      |
 
-###  Ersatzschaltbild
+### Ersatzschaltbild
 
 Der Drehsinn des Drehmoments kann wieder daran bestimmt werden, dass der Ankerfluss die Richtung des Erregerflusses über die kürzeste Bewegung anstrebt. 
 
@@ -131,11 +135,9 @@ $$
 
 ## Dynamisches Betriebsverhalten
 
-Beim dynamischen Betriebsverhalten werden Änderungen der Größen () mit berücksichtigt.
+Beim dynamischen Betriebsverhalten werden Änderungen des Betriebspunktes ($n$, $M$, $I_{A}$) mit berücksichtigt.
 
-Angaben zum Dynamischen Betriebsverhalten sind auf dem **Typenschild** in Form von normierter **Nenngrößen** zu finden.
-
-- [GSM-Typenschild](GSM-Typenschild.md) 
+#todo Betriebspunkte erläutern. Kennlinen einfügen.
 
 Es gilt die [Ankerspannungsgleichung](#^ANKG) und es werden zusätzlich Nenngrößen definiert. Es wird statt der *inneren* elektrische Leistung die *gesamte* elektrischen Leistung mit einem *Wirkungsgrad* angegeben. 
 
@@ -150,8 +152,7 @@ Unter Angabe des Trägheitsmomentes $J$ der Maschine gilt der Drallsatz
 
 ![](Drallsatz.md#^DRAL)
 
-
-## Schaltungsvarianten 
+## Schaltungsvarianten
 
 Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise erfolgen. Wichtige Größen und Konzepte sind: 
 
