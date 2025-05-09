@@ -28,8 +28,6 @@ satz:
 
 ## Übersicht
 
-> [!important] Kenngrößen
-
 |    Symbol    | Bedeutung                                         |                 |             Einheit             |
 | :----------: | :------------------------------------------------ | :-------------- | :-----------------------------: |
 | $\mathbf{E}$ | [elektrische Feldstärke](Elektrisches%20Feld.md)  | Intesitätsgröße | $\operatorname{V} / \mathrm{m}$ |
@@ -67,7 +65,7 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 > [!hint] **Aussage:** Ein Stromdurchflossener Leiter erzeugt um sich herum ein Magnetfeld
 
-![700](assets/Maxwell%202025-01-14%2000.17.11.excalidraw.md) 
+![invert_light|500](assets/MW1.png) 
 
 
 > [!info] Die zeitliche änderung von $\mathbf{D}$ wird auch als Verschiebungsstromdichte $\mathbf{J}_{v}$ bezeichnet. 
@@ -82,7 +80,7 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 > 
 > Während dieser Strom fließt wird natürlich trotzdem ein Magnetfeld aufgebaut, welches die Leiterschleife umgibt.
 >
-> [1] Je nach [Dielektrikum](Dielektrikum.md) (Isolator) ergibt sich eine Andere Feldstärke: $\mathbf{D}=\varepsilon \mathbf{E}$
+> [1] Je nach [Dielektrikum](../Physik/Konstanten/Dielektrikum.md) (Isolator) ergibt sich eine Andere Feldstärke: $\mathbf{D}=\varepsilon \mathbf{E}$
 
 > [!hint]- Mathematische Interpretation
 > Der Verschiebungsstrom wird durch die zeitliche veränderung der elektrischen Flussdichte $\mathbf{D}$ hervorgerufen. Dies ist nötig, damit die [[Kontinuitätsgleichung]] erfüllt ist:
@@ -113,7 +111,7 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 > \oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{a} \tag{MW2}
 > $$
 
-![600](assets/Maxwell%202025-01-14%2014.35.20.excalidraw.md)
+![500](assets/MW2.png)
 
 > [!hint] **Aussage:** Ein Sich zeitlichveränderlichs Magnetfeld erzeugt ein Elektrisches Feld.
 
@@ -150,25 +148,7 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ## Materialgleichungen
 
-> [!satz] **S5 - MATG)** Materialgesetze ^MATG
-> 
-> $$
-> \begin{align}
-> \mathbf{B} & =\mu \mathbf{H} \tag{M1}\\
-> \mathbf{D} & =\varepsilon \mathbf{E} \tag{M2} \\
-> \mathbf{J} & =\sigma \mathbf{E} \tag{M3}
-> \end{align}
-> $$
-
-**Linearität:** Ein Material ist linear, wenn die Materialeigenschaften $\varepsilon_{\mathrm{r}}, \mu_{\mathrm{r}}$ und $\sigma$ unabhängig von den elektromagnetischen Feldgrößen sind, die im Material auftreten. Beispiel: Die relative Dielektrizitätszahl ändert sich nicht, wenn die das Material durchsetzende elektrische Feldstärke kleiner oder größer wird.
-
-**Zeitinvarianz:** Ein Material ist zeitinvariant, wenn die Materialeigenschaften zeitlich konstant sind.
-
-**Isotropie:** Ein Material ist isotrop, wenn die Materialeigenschaften richtungsunabhängig sind.
-
-**Dispersion:** Ein Material ist dispersiv, wenn die Materialeigenschaften abhängig von der Frequenz sind.
-
-**Homogenität:** Ein Material ist homogen, wenn die Materialeigenschaften sich räumlich nicht ändern.
+![Materialgesetz](Materialgesetz.md#^MATG)
 
 ## Mathematische Grundbegriffe
 
@@ -178,7 +158,7 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 | :------------------------------------------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
 | $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$ | $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$ | $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$ |
 
-![1000](assets/Maxwell%202025-01-14%2015.23.59.excalidraw.md)
+![1000](assets/nablaOps.png)
 
 > [!hint] Gradient
 > 

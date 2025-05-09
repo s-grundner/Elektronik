@@ -2,6 +2,7 @@
 .vscode
 **/data.json
 node_modules
+build
 
 conflict-files-obsidian-git.md
 

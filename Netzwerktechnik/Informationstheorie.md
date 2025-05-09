@@ -1,23 +1,19 @@
 ---
 tags:
   - MOC
-aliases: []
+  - Informationstheorie
+aliases: 
 subject:
   - ksn
 source:
   - Martin Aichriedler
 ---
 
-# Map of Content - Informationstheorie
+# Informationstheorie
 
-## [Entscheidungsgehalt](Entscheidungsgehalt.md) $H_{0}$
-
-## [Informationsgehalt](Informationsgehalt%20&%20Entropie.md) $I_{x}$
-
-## [Entropie](Informationsgehalt%20&%20Entropie.md) $H$
-
-## [Informationsfluss](Informationsfluss.md) $F$
-
-## [Kanalkapazität](Kanalkapazität.md) $C$
-
-## [Redundanz](Redundanz.md) $R$
+```dataview
+TABLE WITHOUT ID
+file.link AS "🗺️Map of Content", symbol AS ""
+FROM #Informationstheorie AND -#MOC
+```
+^MOC

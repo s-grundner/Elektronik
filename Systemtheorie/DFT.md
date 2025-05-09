@@ -68,45 +68,14 @@ Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine N
 - **Verletzung des Abtasttheorems:** Die (zu langsame) Abtastung von garnicht oder unzureichend Bandbegrenzter Signale führt zu einer Überlappung der Periodischen Spektren (**Aliasing**)
 - Fensterung auf $NT$ bringt spektrale Verschmierung (*Spectral Leakage*) wegen der Faltung mit der si-Funktion im Zeitbereich
 
-## Transformationen
+## Rechenregeln
 
+> [!satz] **S1)**
+> 
+> ![DFT-Korr](Korrespondenzen/DFT-Korr.md#^T1)
 
-$$
-\begin{array}{rcl}
-x[(-n)\operatorname{mod}N]^* & \circ\mkern-7px-\mkern-7px\bullet &X^*[k]  \\
-(x \circledast y) [n] & \circ\mkern-7px-\mkern-7px\bullet & Y[k]  X[k]
-\end{array}
-$$
+## Korrespondenzen
 
----
-
-# ALT und möglicherweise falsch
-
-Das zeitkontinuierliche Signal wird durch seinen Abtastwert $x(nT)$ und das Differential durch das Abtastintervall $T$ ersetzt. Zur Annäherung des Integrals wird die Summe verwendet:
-
-$$ X_{s}(\omega) = \sum^{\infty}_{n = -\infty} x(nT)\cdot e^{-j\omega nT} \cdot T $$
-
-Da eine unendliche Anzahl an Abtastwerten unmöglich zu berechnen ist, werden eine endliche Anzahl $N$ dieser herausgeschnitten/gefenstert (engl: windowing).
-
-Außerdem kann der Faktor $T$ weggelassen werden.
-
-$$ X_{sw}(f) = \sum^{N-1}_{n=0} x(nT) \cdot e^{-j\omega n \frac{f}{f_{s}}} $$
-
-Dies Funktion ist $f_{s}$-periodisch und hat nur an $N$-Stellen [linear unabhängige](../../Mathematik/Algebra/Lineare%20Abhängigkeit.md) Funktionswerte.
-
-Ausgewertet wird sie an $N$ gleichweit entfernten Frequenzstellen $f= \{0, \frac{f_{s}}{N}, 2\cdot\frac{f_{s}}{N}, \dots,(N-1)\frac{f_{s}}{N}\}$.
-
-Werden der Einfachheit halber wieder einige Faktoren ($\frac{f_{s}}{N}, T$) und die Kennzeichnung $sw$ weggelassen ergibt sich die Definition (Analysegleichung) der DFT:
-
-> [!hint] Analysegleichung
->
-> $$ X[k] = \sum^{N-1}_{n=0} x[n]\cdot e^{-jkn \frac{2\pi}{N}} $$
-
-Die [inverse](Gauß-Jordan-Verfahren.md) DFT (IDFT) (Synthesegleichung) ist definiert als:
-
-> [!hint] Synthesegleichung
->
-> $$x[n] = \frac{1}{N}\sum^{N-1}_{k=0} X[k]\cdot e^{jkn \frac{2\pi}{N}}$$
 
 ## Matrix-Interpretation Der DFT
 

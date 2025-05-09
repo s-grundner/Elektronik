@@ -106,7 +106,7 @@ class mybutton
 ```button
 name GPT
 type link
-action https://openai.com/index/chatgpt/
+action https://chatgpt.com/
 class mybutton
 ```
 ^button-gpt

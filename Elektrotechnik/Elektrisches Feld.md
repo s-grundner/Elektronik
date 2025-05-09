@@ -18,10 +18,14 @@ semester: WS23
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
-banner_y: 0.756
+banner_y: 0.336
 ---
 
 # Elektrisches Feld
+
+> [!question] [Magnetisches Feld](Magnetisches%20Feld.md) :LiRefreshCcw:
+
+---
 
 > [!info] Das elektrische Feld beschreibt Kraftwirkungen auf Objekte, die eine elektrische [Ladung](elektrisches%20Feld.md) tragen. (Intensitätsgröße des E-Feld)
 > - Die Ursache elektrischen Felder sind selbst Ladungen.
@@ -70,6 +74,8 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 > Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.
 
 ## Elektrische Feldstärke in einem Leiter
+
+> [!question] [Materialgesetz](Materialgesetz.md)
 
 Die elektrische Feldstärke im Leiter ist von der Stromdichte $\mathbf{J}$ und vom Materialabhängigen spezifischen Leitwert $\sigma$ bzw spez. Widerstand $\rho=\frac{1}{\sigma}$ Abhängig. Diese Beziehung ist stark mit dem [Ohmschen Gesetz](Ohmsches%20Gesetz.md) verwandt.
 

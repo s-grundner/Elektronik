@@ -15,8 +15,7 @@ rel-uncertainty: 1.6e-10
 
 > [!def] $Z_{0}=376.730313412(59)~\Omega$
 > $=\mu_{0} \cdot c\approx 120\pi ~\Omega$
-> - [Permeabilitätskonstante](Permeablität%20des%20Vakuums.md)
-> - [[]]
+> - [Permeabilitätskonstante](Permeablität.md)
 
 
 Allgemein für nichtleitende Medien ist der Freiraumwellenwiderstand:

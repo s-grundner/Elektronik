@@ -10,8 +10,7 @@ created: 30. Oktober 2023
 
 # Reihen
 
-> [!question] 
-> Eine Reihe bzw unendliche Summe ist eine Summe von unendlich vielen Summanden. 
+> [!question]  Eine Reihe bzw unendliche Summe ist eine Summe von unendlich vielen Summanden. 
 
 Eine wichtige Eigenschaft jeder Reihe ist dessen Konvergenz. Eine Reihe konvergiert, wenn die Summe der unendlich vielen Summanden einen endlichen Wert hat, das heißt ein Grenzwert existiert.
 

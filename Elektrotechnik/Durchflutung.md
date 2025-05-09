@@ -16,11 +16,27 @@ title: Durchflutung
 
 # Durchflutung $\Theta$
 
+> [!question] Themengebiet: [Magnetfeld](Magnetisches%20Feld.md)
+
+---
+
 Gefolgt aus der [1. Maxwellgleichung](Maxwell.md#^MW1) wird die Durchflutung als Zusammenhang mit der Windungszahl der Induktivität definiert.
 
-> [!def] **D1 - DURF)** Die durch alle Erregerspulen induzierte Feldstärke breitet sich über den gesamten geschlossenen Magnetkreis der Länge $L$ aus und ergibt die Durchflutung $\Theta$.
+Die durch alle Erreger ([PM](../Physik/Permanentmagnet.md) oder [EM](../Physik/Elektromagnet.md)) induzierte Feldstärke breitet sich über den gesamten geschlossenen Magnetkreis der Länge $L$ aus und ergibt die Durchflutung $\Theta$.
+
+> [!def] **D1 - DURF)** Durchflutung
 > $$\Theta :=\oint_{L}\mathbf{H}\cdot \mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
 
-Bei einer einfachen Spule: $\Theta = N\cdot i$
+- Das Feld heißt **Wirbelfrei**, wenn $\Theta =0$
+- Bei einer einfachen Spule ([Elektromagnet](../Physik/Elektromagnet.md)): $\Theta = N\cdot i$
+- Beim [Permanentmagnet](../Physik/Permanentmagnet.md): $\Theta_{C}' = H_{C}'l_{\text{pm}}$
 
-Oft liefert das Ringintegral der Durchflutung die Maschengleichung als Summe aller magnetschen Spannungsabfälle an Verbrauchern in einem [Magnetkreis](Maschinen/Magnetkreis.md).
+Oft liefert das Ringintegral der Durchflutung die Maschengleichung als Summe aller magnetischen Spannungsabfälle an Verbrauchern in einem [Magnetkreis](Maschinen/Magnetkreis.md).
+
+Man kann die Durchflutung deshalb als magnitische Spannung sehen. Daher gilt auch
+
+$$ \Theta = \mathfrak{R}\Phi $$
+
+Mit den magnetischen Größen
+- [Reluktanz](Maschinen/Reluktanz.md) $\mathfrak{R}$
+- [Magnetischer Fluss](Magnetischer%20Fluss.md) $\Phi$

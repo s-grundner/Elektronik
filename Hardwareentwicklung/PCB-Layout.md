@@ -29,7 +29,7 @@ created: 19th August 2023
 
 ### Stack-Up
 
-1. Dünnes [Dielektrikum](../Elektrotechnik/Dielektrikum.md) zwischen Signal-Layer und GND-Layer
+1. Dünnes [Dielektrikum](../Physik/Konstanten/Dielektrikum.md) zwischen Signal-Layer und GND-Layer
 	- Verbessert die Kopplung zwischen Signal und GND
 	- verringert [Induktivität](../Elektrotechnik/Induktivität.md)
 	- erhöht [Kapazität](../Elektrotechnik/Kapazität.md) zwischen Flächen  

@@ -24,21 +24,7 @@ professor:
 > [!important] Eine Leitung wird als TL behandelt wenn das Signal auf dieser Leitung als ein [RF-Signal](RF-Signal.md) klassifiziert wird.
 > Hier kann die Verbindung zwischen Toren/Komponenten nicht mehr Vernachlässigt werden und wird in der Schaltung mit modelliert:
 
-```tikz
-\usepackage[european, straightvoltages]{circuitikz}
-\usepackage{amsmath}
-\ctikzset{bipoles/mstline/width=3}
-\begin{document}
-\begin{circuitikz}[thick, scale=2, transform shape]
-\draw (0,0) node[rground]{} to[sV, *-] ++(0, 2) -- ++(1, 0)
-    to[mstline, o-o] ++(5, 0) -- ++(1, 0)
-    to[R, l={$Z_{L}$}] ++(0, -2);
-\draw (0,0) -- ++(1, 0) to[mstline, o-o] ++(5, 0) -- ++(1, 0);
-\draw (3.5, 1) node[]{$Z_{0}$};
-\end{circuitikz}
-\end{document}
-```
-
+![invert_dark](assets/tl1.png)
 ^TL-CIRC
 
 
@@ -46,27 +32,8 @@ professor:
 
 Eine TL wird mit seriellen Induktivitäts-Belägen und parallelen Kaüazitäts-Belägen modelliert (Leitermodell):
 
-```tikz
-\usepackage[european, straightvoltages]{circuitikz}
-\begin{document}
-\begin{circuitikz}[thick]
-	% Paths, nodes and wires:
-	\draw (3, 5) to[L, o-] ++(3, 0);
-	\draw (8, 5) to[L] ++(3, 0);
-	\draw (15, 5) to[L] ++(3, 0) to[short, -o] ++(1, 0);
-	
-	\draw (6, 5) to[C, v^=$V(z.\, t)$, *-*] ++(0, -3);
-	\draw (11, 5) to[C, v^=$V(z+\Delta z.\, t)$, *-*] ++(0, -3);
-	\draw (18, 5) to[C, *-*] ++(0, -3) ;
-	
-	\draw (3, 2) to[short, o-*] ++(1,0) node[rground]{} to[short, -o] (19, 2);
-	\draw (11, 5) to[short, i>^=$I(z+\Delta z.\, t)$] (15, 5);
-	\draw (6, 5) to[short, i>^=$I(z.\, t)$] (8, 5);
-	\draw[dashed] (8, 6) -- ++(0, -5) node[anchor=west] {$z$};
-	\draw[dashed] (15, 6) -- ++(0, -5) node[anchor=west] {$z+\Delta z$};
-\end{circuitikz}
-\end{document}
-```
+![invert_dark](assets/tl2.png)
+
 ^TL-Modell
 
 

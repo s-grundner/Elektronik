@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage[european, straightvoltages]{circuitikz}
+\begin{document}
+\begin{circuitikz}[thick]
+	% Paths, nodes and wires:
+	\draw (3, 5) to[L, o-] ++(3, 0);
+	\draw (8, 5) to[L] ++(3, 0);
+	\draw (15, 5) to[L] ++(3, 0) to[short, -o] ++(1, 0);
+	
+	\draw (6, 5) to[C, v^=$V(z.\, t)$, *-*] ++(0, -3);
+	\draw (11, 5) to[C, v^=$V(z+\Delta z.\, t)$, *-*] ++(0, -3);
+	\draw (18, 5) to[C, *-*] ++(0, -3) ;
+	
+	\draw (3, 2) to[short, o-*] ++(1,0) node[rground]{} to[short, -o] (19, 2);
+	\draw (11, 5) to[short, i>^=$I(z+\Delta z.\, t)$] (15, 5);
+	\draw (6, 5) to[short, i>^=$I(z.\, t)$] (8, 5);
+	\draw[dashed] (8, 6) -- ++(0, -5) node[anchor=west] {$z$};
+	\draw[dashed] (15, 6) -- ++(0, -5) node[anchor=west] {$z+\Delta z$};
+\end{circuitikz}
+\end{document}

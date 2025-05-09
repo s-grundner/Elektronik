@@ -56,8 +56,8 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > $$\boxed{ \frac{U}{d} = \frac{Q}{A\cdot \varepsilon}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U = C\cdot U\implies C = \varepsilon \cdot \frac{A}{d} }$$
 >
 > $\varepsilon = \varepsilon_{0}\cdot\varepsilon_{r}$
-> $\varepsilon_{0}$ … [Dielektrizitätskonstante](../Physik/Konstanten/Permittivität%20des%20Vakuums.md)
-> $\varepsilon_{r}$ … Relative [Permittivität](Dielektrikum.md) des [Dielektrikums](Dielektrikum.md)
+> $\varepsilon_{0}$ … [Dielektrizitätskonstante](../Physik/Konstanten/Dielektrikum.md)
+> $\varepsilon_{r}$ … Relative [Permittivität](../Physik/Konstanten/Dielektrikum.md) des [Dielektrikums](../Physik/Konstanten/Dielektrikum.md)
 >   
 
 ### [Ladung](elektrisches%20Feld.md) Und Kapazität im Kondensator
@@ -122,7 +122,7 @@ $$
 - Drehkondensator
 - Vielschichtkondensator
 
-### [Dielektrikum](Dielektrikum.md)
+### [Dielektrikum](../Physik/Konstanten/Dielektrikum.md)
 
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - MLCC - Multilayer Ceramic Capacitor

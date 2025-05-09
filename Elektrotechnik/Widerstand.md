@@ -17,15 +17,12 @@ professor:
 
 ![](assets/WiderstandFarbcode.jpg)
 
-> [!important] Je dünner die Schicht, desto höher der Widerstand
-> Hier: $220\Omega \cdot 10^{0}$, keine Toleranz
-
 ## Kenngrößen
 
-| Widerstand    | [Ohm](Ohmsches%20Gesetz.md) ($\Omega$) |
-| ------------- | -------------- |
-| Toleranz      | Prozent (%)    |
-| Belastbarkeit | [Leistung](elektrische%20Leistung.md) (W)               |
+| Widerstand    | [Ohm](Ohmsches%20Gesetz.md) ($\Omega$)    |
+| ------------- | ----------------------------------------- |
+| Toleranz      | Prozent (%)                               |
+| Belastbarkeit | [Leistung](elektrische%20Leistung.md) (W) |
 
 ## Farbkennzeichnung
 

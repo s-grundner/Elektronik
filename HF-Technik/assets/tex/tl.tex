@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage[european, straightvoltages]{circuitikz}
+\usepackage{amsmath}
+\ctikzset{bipoles/mstline/width=3}
+\begin{document}
+\begin{circuitikz}[thick, scale=2, transform shape]
+\draw (0,0) node[rground]{} to[sV, *-] ++(0, 2) -- ++(1, 0)
+    to[mstline, o-o] ++(5, 0) -- ++(1, 0)
+    to[R, l={$Z_{L}$}] ++(0, -2);
+\draw (0,0) -- ++(1, 0) to[mstline, o-o] ++(5, 0) -- ++(1, 0);
+\draw (3.5, 1) node[]{$Z_{0}$};
+\end{circuitikz}
+\end{document}

@@ -321,5 +321,13 @@
       ],
       "key": "8"
     }
+  ],
+  "open-with-default-app:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
   ]
 }

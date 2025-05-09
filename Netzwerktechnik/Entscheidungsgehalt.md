@@ -1,11 +1,19 @@
 ---
-tags: []
-aliases: []
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Informationstheorie
+aliases: 
+created: 27th February 2025
+title: 
+draft: false
+symbol: $H_0$
 ---
 
+
 # Entscheidungsgehalt
+
+> [!question] [Informationstheorie](Informationstheorie.md)
+
+---
 
 Der Entscheidungsgehalt $H_{0}$ ist jene Informationsmenge (Bitzahl) die Benötigt wird, um ein Zeichen aus einer bestimmten Zeichenmenge $n$ zu definieren, wenn alle Zeichen gleich wahrscheinlich sind.
 $$

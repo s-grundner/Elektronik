@@ -15,7 +15,46 @@ title: Magnetkreis
 
 # Magnetkreis
 
+> [!question] Themengebiet: [Magnetfeld](Magnetisches%20Feld.md)
+
+---
+
 Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus magnetischen Elementen. Durch ihn wird veranschaulicht in welcher Quantität diese Elemente mit dem magnetischen Fluss durchströmt sind.   
+
+
+## Wichtige Kenngrößen und Zusammenhänge
+
+|                                           |                im magnetischen Kreis                 |            im elektrischen Kreis             |                     |
+| ----------------------------------------: | :--------------------------------------------------: | :------------------------------------------: | :------------------ |
+| [magn. Fluss](../Magnetischer%20Fluss.md) |                        $\Phi$                        |                     $I$                      | Strom               |
+|                         magn. Flussdichte |             $\mathbf{B}=\mu \mathbf{H}$              |        $\mathbf{J}=\sigma \mathbf{E}$        | Stromdichte         |
+|      [Permeablität](../../Physik/Konstanten/Permeablität.md) |                        $\mu$                         |                   $\sigma$                   | Leitwert            |
+|                 [Reluktanz](Reluktanz.md) |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |           $R=\dfrac{l}{\sigma A}$            | Impedanz            |
+|                            magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                 | Spannung            |
+|        [Durchflutung](../Durchflutung.md) | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\int \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
+
+> [!success] Oft hat man mehrere Maschen in einem Magnetkreis.
+> Ist dies der Fall, so bietet sich das [Maschenstromverfahren](../Maschenstromverfahren.md) aus der Elektritechnik an, um schnell eine [LGS](../../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) für die magnetischen Flüsse aufzustellen. 
+
+## Entwurf
+
+Für die Auslegung und Berechnung magnetischer Kreise ist es wichtig, den Einfluss der Magnetfeldstreuung zu berücksichtigen. 
+
+Maßnahmen für kleine Streuflüsse:
+
+- Auswahl geeigneter Werkstoffe für  die Applikation
+- Ausreichender Eisenquerschnitt
+	- geringere Fläche
+	- geringere Flussdichte
+	- spätere Sättigung des Materials
+- große Luftspaltfläche, kleine Luftspaltbreite
+- enge Ankopplung der Wicklung an den Weicheisenkern
+- Symmetrischer Aufbau
+
+
+---
+
+## Übersicht
 
 **Elemente im Magnetkreis**
 
@@ -27,27 +66,40 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 
 - [Reluktanz Prinzip](Maschinen/Reluktanz.md#^RelPrinz)
 
-## Wichtige Kenngrößen und Zusammenhänge
+**Vorgehensweise bei der Berechung**
 
-|                   |                im magnetischen Kreis                 |             im elektrischen Kreis             |                     |
-| ----------------: | :--------------------------------------------------: | :-------------------------------------------: | :------------------ |
-|       magn. Fluss |                        $\Phi$                        |                      $I$                      | Strom               |
-| magn. Flussdichte |             $\mathbf{B}=\mu \mathbf{H}$              |        $\mathbf{J}=\sigma \mathbf{E}$         | Stromdichte         |
-|     Permeabilität |                        $\mu$                         |                   $\sigma$                    | Leitwert            |
-|         Reluktanz |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |            $R=\dfrac{l}{\sigma A}$            | Impedanz            |
-|    magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                  | Spannung            |
-|      Durchflutung | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\oint \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
+Gegeben ist oft:
 
-## Entwurf
+- Abmessungen des Eisenkreises
+- Materialeigenschaften
+- Permanentmagnet mit Kennlinie
+- Spulenwicklung
 
-Entwurfsrichtlinien:
+Gesucht ist oft
 
-- Ausreichender Eisenquerschnitt
-    - Kleinere Fläche -> höhere Flussdichte daher frühere Sättigung -> Nicht linearer bereich
-- große Luftspaltfläche, kleine Luftspaltlänge
-- Symmetrischer Aufbau
+- Die Flüsse durch einen Luftspalt
+- Mit diesen kann die magnetische Kraft nach dem Reluktanzprinzip ermittelt werden
+- Extremfälle:
+	- Maximale Bestromung der Spule
+	- Sättigung des Eisenkreises
+	- Entmagnetisierungs risiko des Permanentmagneten
+
+Mit Herleitung
+
+- Ringintegral Durchflutungssatz aufstellen
+- Materialgleichung anwenden
+- Magnetische Flüsse einsetzen
+- Aus der Geometrie den Magnetischen Widerstand auswerten
+- Nach den Flüsse Lösen
+
+Praktisch
+
+- In Ersatzbild umzeichnen
+- Maschenstromverfahren ansetzen
+- LGS für magentische Flüsse Aufstellen und mit Mathematischen Werkzeug Solven (SymPy, [Wolfram Mathematica](../../Softwareentwicklung/Software-Tools/Wolfram%20Mathematica.md))
 
 ---
+
 
 ## Beispiel eines Magnetkreises
 
@@ -55,7 +107,7 @@ Modellbild einer Zweipoligen Maschine mit zwei Statorspulen:
 
 $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_{Re} } = \frac{1}{2} \Phi_{S}$$
 
-![invert_dark|500](assets/KreisBsp.png)
+![invert_dark|300](assets/KreisBsp.png)
 
 |                                 | Feldstärke            | Fluss                            | Abstand / Länge | Permeabiltät des Materials |
 | ------------------------------- | --------------------- | -------------------------------- | --------------- | -------------------------- |
@@ -73,13 +125,13 @@ $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_
 
 $$\Theta = \oint_{L} \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
 
-2. Das Ringintegral wird zur **Maschengleichung**:
+2. Das Ringintegral wird zur **Maschengleichung**: [^1]
 
 $$2 H_{\delta}\delta + H_{R}l_{R} + H_{S} l_{S} = 2Ni$$
 
-3. Beziehungen Anwenden
-    - [Materialgleichung](Permeabilität.md) $\mathbf{B}=\mu \cdot \mathbf{H}$
-    - [Magnetischer Fluss](Magnetischer%20Fluss.md): $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen jeder Sektion des Modells erweitern
+3. Beziehungen Anwenden ^MK-EX-3
+    - [Materialgleichung](../../Physik/Konstanten/Permeablität.md) $\mathbf{B}=\mu \cdot \mathbf{H}$
+    - [Magnetischer Fluss](Magnetischer%20Fluss.md): $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen $A$ jeder Sektion des Modells erweitern
 
 $$
 \begin{align}
@@ -94,10 +146,13 @@ $$
 $$
 \begin{align}
 2\Phi_{\delta}\mathfrak{R}_{\delta}+\Phi_{R}\mathfrak{R}_{R}+\Phi_{S}\mathfrak{R}_{S} &= 2Ni \\
-2V_{\delta}+ V_{R}+V_{S} &=2Ni
 \end{align}
 $$
 
 Mit dieser Anschaulichen Maschengleichung der magnetischen Spannungen kann ein Schaltbild für den Magnetkreis Konstruiert werden.
 
+
 ![invert_dark|400](assets/MagnEquiv.png)
+
+
+[^1]: Mit Guter Näherung kann für den nicht gesättigten Zustand des angenommen werden, dass $H_{R} l_{R}\approx 0$  und $H_{S} l_{S}\approx 0$. Daraus folgt: $H_{\delta} = \frac{Ni}{\delta}$

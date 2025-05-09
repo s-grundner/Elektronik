@@ -60,20 +60,17 @@ mit $c \in \mathbb{R}^m$. $c$ ist noch nicht den Anfangswerten angepasst.
 
 ### Eindeutige Lösung
 
-Die eindeutige Lösung des inhomogenen AWP ist gegeben durch (siehe [FM-S1](Fundamentalmatrix.md#^FM-S1))
+Durch Variation der Konstanten ist eine Eindeutige Lösung des inhomogenen AWP gegeben durch:
+
+$$x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]$$
+
+
+oder häufiger mit Hilfe der [Transitionsmatrix](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}$ durch
 
 > [!satz] **S1 - VARK)** Variation der Konstanten ^VARK
-> Durch Variation der Konstanten ist eine Eindeutige Lösung des inhomogenen AWP gegeben durch:
-> 
-> $$x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]\tag{VARK}$$
-> 
-
-
-oder mit Hilfe des [Matrizanten](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}$ durch
-
-$$
-x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t  \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right] .
-$$
+> $$
+> x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t  \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right]
+> $$
 
 ## Spezialfall: System der Dimension 1
 

@@ -18,12 +18,14 @@ professor:
 def:
   - FT
   - IFT
+title: Fourertransformation
+draft:
 ---
 
 # Fourier-Transformation
 
-[Zeitdiskrete Fourier-Transformation](Zeitdiskrete%20Fourier-Transformation.md) ***:LiArrowBigRightDash:***
-[Diskrete Fourier-Transformation](DFT.md) ***:LiArrowBigRightDash:***
+- [Zeitdiskrete Fourier-Transformation](Zeitdiskrete%20Fourier-Transformation.md) ***:LiArrowBigRightDash:***
+- [Diskrete Fourier-Transformation](DFT.md) ***:LiArrowBigRightDash:***
 
 ---
 
@@ -45,22 +47,8 @@ $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Fun
 ## Sätze und Korrespondenzen
 
 > [!satz] **S1 - FTR)** Rechenregeln der Fouriertransformation ^FTR
-
-| Nr     | Operation                        |                                                                 Zeitbereich                                                                 |                                                       Frequenzbereich ($\omega$-Domäne)                                                       |
-| :----- | :------------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-| (i)    | Transformation                   |                                                                   $f(t)$                                                                    |                              $\mathcal{F}\{f(t)\}$<br>$=\displaystyle\int_{-\infty}^{\infty}f(t)e^{ j\omega t }\mathrm{~d}t$                               |
-| (ii)   | inverse<br>Transformation        | $\mathcal{F}^{-1}\{F(j\omega)\}$<br>$=\dfrac{1}{2\pi}\displaystyle\int_{-\infty}^{\infty}F(j\omega)e^{ j\omega t }\mathrm{~d}\omega$ |                                                                 $F(j\omega)$                                                                  |
-| (iii)  | Linearität                       |                                                           $af_{1}(t)+b f_{2}(t)$                                                            |                                                       $aF_{1}(j\omega)+bF_{2}(j\omega)$                                                       |
-| (iv)   | Dualität                         |                                                                   $F(jt)$                                                                   |                                                               $2\pi f(-\omega)$                                                               |
-| (v)    | Ähnlichkeit                      |                                                                   $f(at)$                                                                   |                                        $\dfrac{1}{\lvert a \rvert}F\left( \dfrac{j\omega}{a} \right)$                                         |
-| (vi)   | Spiegelung                       |                                                                   $f(-t)$                                                                   |                                                                 $F(-j\omega)$                                                                 |
-| (vii)  | Zeitverschiebung                 |                                                                $f(t-t_{0})$                                                                 |                                                       $F(j\omega)e^{ -j\omega t_{0} }$                                                        |
-| (viii) | Frequenzverschiebung             |                                                          $f(t)e^{ j\omega_{0}t }$                                                           |                                                           $F(j\omega-j\omega_{0})$                                                            |
-| (ix)   | Konjugation                      |                                                                 $f^{*}(t)$                                                                  |                                                               $F^{*}(-j\omega)$                                                               |
-| (x)    | Differentation im<br>Zeitbereich |                                                $\dfrac{\mathrm{d}^{n}}{\mathrm{d}t^{n}}f(t)$                                                |                                                           $(j\omega)^{n}F(j\omega)$                                                           |
-| (xi)   | Differentation im<br>Bildbereich |                                                               $(-jt)^{n}f(t)$                                                               |                                           $\dfrac{\mathrm{d}^{n}}{\mathrm{d}\omega^{n}} F(j\omega)$                                           |
-| (xii)  | Faltung im<br>Zeitbereich        |                        $f_{1}(t)*f_{2}(t)$<br>$=\displaystyle\int_{-\infty}^{\infty}f_{1}(\uptau)f_{2}(t-\uptau)\mathrm{~d}\uptau$                        |                                                        $F_{1}(j\omega)F_{2}(j\omega)$                                                         |
-| (xiii) | Faltung im<br>Frequenzbereich    |                                                             $f_{1}(t)f_{2}(t)$                                                              | $\dfrac{1}{2\pi}F_{1}(j\omega)F_{2}(j\omega)$<br>$=\dfrac{1}{2\pi}\displaystyle\int_{-\infty}^{\infty}F_{1}(j\theta)F_{2}(j\omega-j\theta)\mathrm{~d}\theta$ |
+>
+> ![FT-Korr](Korrespondenzen/FT-Korr.md#^T1)
 
 ## Eigenschaften
 

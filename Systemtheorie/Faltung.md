@@ -21,7 +21,7 @@ semester: WS24
 > [!def] **D1 - FALT)** Faltungsintegral ^FALT
 > $$
 > \begin{align*}
-> y(t)&=x(t)\ast h(t)=\int_{-\infty}^{\infty}x(\uptau)\cdot h(t-\uptau)d\uptau=\int_{-\infty}^{\infty}x(t-\uptau)\cdot h(\uptau)d\uptau
+> y(t)&=(x\ast h)(t)=\int_{-\infty}^{\infty}x(\tau)\cdot h(t-\tau)d\tau=\int_{-\infty}^{\infty}x(t-\tau)\cdot h(\tau)d\tau
 > \end{align*}
 > $$
 
