@@ -20,47 +20,42 @@ professor:
 
 # Algorithmen
 
-## Mathematik
+## Algorithmen aus Verschiedenen Gebieten
 
-```dataview
-TABLE WITHOUT ID
-file.link AS "🗺️Map of Content", complexity AS "$\mathcal{O}(n)$-Time"
-FROM #Algorithmus/Mathe AND -#MOC
-SORT file.name ASC
-```
+> [!hint]- Mathematik ^MOC-Mathe
+>
+> ```dataview
+> TABLE WITHOUT ID
+> file.link AS "🗺️Map of Content", complexity AS "$\mathcal{O}(n)$-Time"
+> FROM #Algorithmus/Mathe AND -#MOC
+> SORT file.name ASC
+> ```
 
-^MOC-Mathe
+> [!hint]- Informatik / Digitaltechnik ^MOC-CS
+>
+> ```dataview
+> TABLE WITHOUT ID
+> file.link AS "🗺️Map of Content", complexity AS "$\mathcal{O}(n)$-Time"
+> FROM #Algorithmus/Informatik AND -#MOC
+> SORT file.name ASC
+> ```
 
-## Informatik / Digitaltechnik
+> [!hint]- Elektrotechnik ^MOC-Elektrotechnik
+>
+> ```dataview
+> TABLE WITHOUT ID
+> file.link AS "🗺️Map of Content", complexity AS "$\mathcal{O}(n)$-Time"
+> FROM #Algorithmus/Elektrotechnik AND -#MOC
+> SORT file.name ASC
+> ```
 
-```dataview
-TABLE WITHOUT ID
-file.link AS "🗺️Map of Content", complexity AS "$\mathcal{O}(n)$-Time"
-FROM #Algorithmus/Informatik AND -#MOC
-SORT file.name ASC
-```
-
-^MOC-CS
-
-## Elektrotechnik
-
-```dataview
-TABLE WITHOUT ID
-file.link AS "🗺️Map of Content", complexity AS "$\mathcal{O}(n)$-Time"
-FROM #Algorithmus/Elektrotechnik AND -#MOC
-SORT file.name ASC
-```
-
-^MOC-Elektrotechnik
-
-
-# Algorithmusbegriff
+## Algorithmusbegriff
 
 > [!INFO] Ein Algorithmus ist ein schrittweises, endliches, eindeutig ausführbares Verfahren zur Berechnung gesuchter aus gegebenen Größen.
 > Verfahrensvorschrift zur Lösung eines Problems
 > - *nicht* die Lösung selbst, sondern eine an jemand andere gerichtete Erklärung.
 
-> [!info]- [Algorithmus]({MOC}%20Algorithmus.md) $\subset$ Programm
+> [!info]- Algorithmus $\subset$ Programm
 > (lese als: Algorithmen sind ein Teilmenge von Programmen)
 > - Jeder Algorithmus nach unserer Definition kann als Programm formuliert und von einem Computer ausgeführt werden
 > - aber: Nicht jedes Programm ist ein Algorithmus
@@ -74,7 +69,7 @@ SORT file.name ASC
 > - ausführbar
 > - endlich (statisch und dynamisch)
 
-## 2 Darstellungsarten von Algorithmen
+## Darstellungsarten von Algorithmen
 
 | Darstellungsart              | Benutzungsszenario                                                                                            |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------- |

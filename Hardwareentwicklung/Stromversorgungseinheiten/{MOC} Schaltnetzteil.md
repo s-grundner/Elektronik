@@ -21,8 +21,8 @@ Auch SMPS (Switched Mode Power Supply)
 ```dataview
 TABLE WITHOUT ID file.link AS "🗺️Map of Content - SMPS" FROM #Baugruppe/Versorgung/SMPS AND -#MOC
 ```
-^MOC
 
+^MOC
 
 ## Vor und Nachteile
 
