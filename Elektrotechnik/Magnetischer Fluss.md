@@ -1,4 +1,4 @@
-## Magnetischer Fluss
+# Magnetischer Fluss
 
 > [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md)
 
@@ -21,7 +21,7 @@ Durch die Geometrie der Wicklung der Spule wird ein Magnetfeld erzeugt, das äqu
 
 $$\Psi = N\cdot\Phi$$
 
-### Knotenregel
+## Knotenregel
 
 Durch die Analogie mit dem Elektrischen Strom gilt hier auch die Knotenregel. Gefolgt aus der 4. Maxwellgleichung.
 

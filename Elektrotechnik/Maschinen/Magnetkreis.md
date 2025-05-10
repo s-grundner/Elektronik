@@ -21,7 +21,6 @@ title: Magnetkreis
 
 Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus magnetischen Elementen. Durch ihn wird veranschaulicht in welcher Quantität diese Elemente mit dem magnetischen Fluss durchströmt sind.   
 
-
 ## Wichtige Kenngrößen und Zusammenhänge
 
 |                                           |                im magnetischen Kreis                 |            im elektrischen Kreis             |                     |
@@ -42,7 +41,7 @@ Für die Auslegung und Berechnung magnetischer Kreise ist es wichtig, den Einflu
 
 Maßnahmen für kleine Streuflüsse:
 
-- Auswahl geeigneter Werkstoffe für  die Applikation
+- Auswahl geeigneter Werkstoffe für die Applikation
 - Ausreichender Eisenquerschnitt
 	- geringere Fläche
 	- geringere Flussdichte
@@ -100,7 +99,6 @@ Praktisch
 
 ---
 
-
 ## Beispiel eines Magnetkreises
 
 Modellbild einer Zweipoligen Maschine mit zwei Statorspulen:
@@ -154,5 +152,4 @@ Mit dieser Anschaulichen Maschengleichung der magnetischen Spannungen kann ein S
 
 ![invert_dark|400](assets/MagnEquiv.png)
 
-
-[^1]: Mit Guter Näherung kann für den nicht gesättigten Zustand des angenommen werden, dass $H_{R} l_{R}\approx 0$  und $H_{S} l_{S}\approx 0$. Daraus folgt: $H_{\delta} = \frac{Ni}{\delta}$
+[^1]: Mit Guter Näherung kann für den nicht gesättigten Zustand des angenommen werden, dass $H_{R} l_{R}\approx 0$ und $H_{S} l_{S}\approx 0$. Daraus folgt: $H_{\delta} = \frac{Ni}{\delta}$
