@@ -29,7 +29,7 @@ title: GUM
 
 ## Ressourcen
 
-[Python Uncertainties](../Softwareentwicklung/Python/Uncertainties.md)
+[Python Uncertainties](../Softwareentwicklung/Python/Python%20Uncertainties.md)
 
 ---
 

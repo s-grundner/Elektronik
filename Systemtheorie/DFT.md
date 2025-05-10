@@ -76,7 +76,6 @@ Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine N
 
 ## Korrespondenzen
 
-
 ## Matrix-Interpretation Der DFT
 
 Führt man den Drehfaktor (engl: twiddle factor) $W_{N} = e^{-j2\pi/N}$ ein, so kann die DFT und IDFT auch folgenderweise geschrieben werden:

@@ -22,7 +22,7 @@ ects: <%* tR += ects %>
 grade:
 ---
 
-# <center> <%* tR += lva %> </center>
+# <%* tR += lva %>
 
 > [!info] **Klausuren** ✒️
 > 
