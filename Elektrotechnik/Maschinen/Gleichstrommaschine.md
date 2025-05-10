@@ -236,4 +236,7 @@ In Summe sind diese Momente $0$: $\int M_{c}(\varphi) \mathrm{~d}\varphi_{r}=0$
 
 ---
 
-- https://www.youtube.com/watch?v=U6bHUksgnMg
+# Referenzen
+
+- [Wie arbeitet ein Gleichstrom-Motor? - YouTube](https://www.youtube.com/watch?v=U6bHUksgnMg) 
+- [Uni Rostock Skript](https://www.lkv.uni-rostock.de/storages/uni-rostock/Alle_IEF/IEE/Teil_4_Gleichstrommaschinen.pdf)

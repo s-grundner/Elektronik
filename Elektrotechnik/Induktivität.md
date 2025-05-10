@@ -76,7 +76,7 @@ $$u_{ind}=\frac{d\Phi}{dt}$$
 > [!hint] [Maxwell](Maxwell.md)-Gleichung 
 > Diese Wirbelfelder werden durch das Faraday'sche Gesetz beschrieben:
 > $$\oint_{\partial A} \vec{E} \cdot d \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \cdot d \vec{a}$$
-> In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds. Die Fläche ä$A$ ist jene die der Leiter Aufspannt und die Kontur $\partial A$ der leiter selbst.
+> In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds. Die Fläche $A$ ist jene die der Leiter Aufspannt und die Kontur $\partial A$ der leiter selbst.
 > 
 > Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$
 > Also dass die Spannung an den Klemmen 0 ist.
