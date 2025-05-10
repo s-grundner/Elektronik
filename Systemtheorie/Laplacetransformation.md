@@ -72,7 +72,6 @@ Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linear
 > [!warning] Funktioniert nur solange der Grad des Zählerpolynoms nicht größer ist als der Grad des Nennerpolynoms und die Pole nur Einfach sind.
 > - Ist $\operatorname{grad}Z(s)\geq \operatorname{grad}N(s)$ lässt sich eine [Partialbruchzerlegung](../Mathematik/Analysis/Partialbruchzerlegung.md) druchführen.
 
-
 ### Mehrfache und konjugiert komplexe Polstellen
 
 $$ F(s) = A_{0} + \sum_{i=1}^{n} p_{i}(s) $$
@@ -99,11 +98,11 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 > - Das heißt, dass sich alle Pole der Laplace-Transformierten links dieser Abzisse befinden
 > - Das Konvergenzgebiet ist somit auf der rechten Halbebene der Abzisse.
 
-## Sätze 
+## Sätze
 
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 >
-> > [!question]- Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
+> > [!question] Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
 > > ![](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) 
 > 
 > > [!question]- Explizite Schreibweise: $f(t)\circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$
@@ -132,7 +131,6 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
 > 
 > ![LAPT-Korr](Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
-
 
 ## Rücktransformation
 
@@ -195,6 +193,7 @@ Polstellen bei verschiedenen Schwingbedingungen:
 Polstellenlage vs. Zeitbereichssignal
 
 ![invert_dark|1000](assets/laplaceGrid.png)
+
 # Tags
 
 - [Invers Laplace Transformation Rechner](https://de.symbolab.com/solver/inverse-laplace-calculator)
