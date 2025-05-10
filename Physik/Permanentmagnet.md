@@ -46,14 +46,16 @@ Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** de
 ![invert_dark|300](assets/ArbeitsgeradePM.png)
 
 
-Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
-
-- Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3): $H_{m}l_{m} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$
-- Daraus folgt die Arbeitsgerade des PMs
-
-$$
-B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
-$$
+> [!example] Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
+> 
+> - Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
+> $$H_{m}l_{m} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$$
+> - Daraus folgt die Arbeitsgerade des PMs
+> 
+> $$
+> B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
+> $$
+> 
 
 ### Energiedichte
 
