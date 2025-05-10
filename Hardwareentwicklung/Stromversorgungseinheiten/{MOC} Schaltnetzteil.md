@@ -50,14 +50,21 @@ Prinzipiell unterscheidet man zwischen:
 
 ## Prinzipien der Schaltregler
 
-[Sekundär getaktete Schaltregler](Sekundär%20getaktete%20Schaltregler.md)  
-[Primär getakteter Schaltregler](Primär%20getakteter%20Schaltregler.md)
+- [Sekundär getaktete Schaltregler](Sekundär%20getaktete%20Schaltregler.md)  
+- [Primär getakteter Schaltregler](Primär%20getakteter%20Schaltregler.md)
 
 ## Layout von SMPS
 
-# Tags
+Steht immer im Datenblatt des jeweiligen Schalt-ICs
+
+- Switch-Node zwischen Spule und IC sehr Kurz
+- Feedbackleitung dünn und weit weg/isoliert von der Switch Leitung
+
+# References
 
 - [Schmidt-Walter Schaltnetzteildimensionierung](http://schmidt-walter-schaltnetzteile.de/smps/smps.html)
-- [SMPS_intro [OFFLINE]](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)
-- https://youtu.be/PgTR7226sHU?si=-SreeAKORy7fAJbs
-- https://youtube.com/watch?v=IyiCHMHE5Qg&si=NtzZZLiLk-NK0OSn
+- [SMPS_intro [INTERNAL]](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)
+- [How Buck, Boost & Buck-Boost DC-DC Converters Work - YouTube](https://youtu.be/PgTR7226sHU?si=-SreeAKORy7fAJbs)
+- [How to Design Buck, Boost & Buck-Boost DC-DC Converters - YouTube](https://youtube.com/watch?v=IyiCHMHE5Qg&si=NtzZZLiLk-NK0OSn)
+- [Everything is Better: GaN vs Silicon Power Supplies - YouTube](https://youtu.be/vgmqUhvQlww?si=xAHHJ0pbka7vFf9a)
+- GaN HEMPT vs Si MOSFET

@@ -30,14 +30,14 @@ Schaltet der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $(T)$ ab, so flie
 
 ## Schalter $S$ bzw. [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$
 
-### $0<t<t_{1}$: $S_{geschlossen}$
+### $0<t<t_{1}$: $S_{\text{geschlossen}}$
 
 Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](../../Elektrotechnik/Induktivität.md).
  - Dabei *speichert die [Spule](../../Elektrotechnik/Induktivität.md) Energie*.
  - Die [Diode](../Halbleiter/Diode.md) sperrt in dieser Zeit.
  - Der [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{A}$ liefert den [Strom](../../Elektrotechnik/elektrischer%20Strom.md) für den Verbraucher.
 
-### $t_{1}<t<T_{s}$: $S_{geöffnet}$
+### $t_{1}<t<T_{s}$: $S_{\text{geöffnet}}$
 
 Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../../Elektrotechnik/Induktivität.md), aufgrund der in ihr gespeicherten Energie den [Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
 
@@ -46,7 +46,7 @@ $\rightarrow$ **[Sperrwandler](Sperrwandler.md)**, Da die [Spule](../../Elektrot
 
 ### Herleitung der Dimensionierung
 
-#### $0<t<t_{1}$: $S_{geschlossen}$
+#### $0<t<t_{1}$: $S_{\text{geschlossen}}$
 
 $$
 \begin{align*}
@@ -54,7 +54,7 @@ $$
 \end{align*}
 $$
 
-#### $t_{1}<t<T_{s}$: $S_{geöffnet}$
+#### $t_{1}<t<T_{s}$: $S_{\text{geöffnet}}$
 
 $$U_{L} = -(U_{a}+U_{FO}-U_{e})$$
 $$
