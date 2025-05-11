@@ -13,7 +13,7 @@ created: 26th September 2022
 
 ## Schaltbild
 
-![invert_light|900](../assets/Untitled%20Diagram.svg)
+![invert_dark](assets/Pasted%20image%2020250511114554.png)
 
 Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird.  
 Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
@@ -22,21 +22,20 @@ Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 
 ![invert_light](../assets/BuckBoostLZD.png)
 
-### Kontinuierlicher Betrieb
+<div style="page-break-after: always;"></div>
 
-![invert_light|700](../assets/BuckBoostConID.png)
-$$I_{a,max}=\overline{I_{D}}$$
+| Kontinuierlicher Betrieb                           | Diskontinuierlicher Betrieb                           |
+| -------------------------------------------------- | ----------------------------------------------------- |
+| ![invert_light\|700](../assets/BuckBoostConID.png) | ![invert_light\|700](../assets/BuckBoostDisconID.png) |
+| $$I_{a,max}=\overline{I_{D}}$$                     | $$I_{a,min} = \overline{I_{D}}$$                      |
 
-### Diskontinuierlicher Betrieb
-
-![invert_light|700](../assets/BuckBoostDisconID.png)
-$$I_{a,min} = \overline{I_{D}}$$ 
+<div style="page-break-after: always;"></div>
 
 ## Schalter $S$ bzw. [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$
 
 ### Herleitung der Dimensionierung
 
-> [!info] $0<t<t_{1}$: $S_{geschlossen}$
+> [!info] $0<t<t_{1}$: $S_{\text{geschlossen}}$
 > 
 > $$
 > \begin{align*}
@@ -44,12 +43,12 @@ $$I_{a,min} = \overline{I_{D}}$$
 > \end{align*}
 > $$
 
-> [!info] $t_{1} < t < T_{S}$: $S_{offen}$
+> [!info] $t_{1} < t < T_{S}$: $S_{\text{offen}}$
 > 
 > $$
 > \begin{align*}
 > \Delta I_{L2} &= \frac{1}{L} \int^{T_{s}}_{t_{1}}{(-1)\cdot (-U_a+U_{Fo})\mathrm{d}t}\\
-> &=-\frac{1}{L}\cdot (U_{a}+U_{Fo})(T_{s}-t_{1})
+> &=-\frac{1}{L}\cdot (-U_{a}+U_{Fo})(T_{s}-t_{1})
 > \end{align*}
 > $$
 
