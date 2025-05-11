@@ -10,10 +10,12 @@ keywords:
 subject:
   - VL
   - Elektrotechnik
+  - Elektrische Maschinen und Antriebselektronik
 semester: WS23
 created: 8th April 2022
 professor:
   - Bernhard Jakoby
+  - Wolfgang Gruber
 cited:
 ---
  
@@ -28,28 +30,20 @@ cited:
 
 ## Kenngrößen der Induktivität
 
-> [!def] **Induktivität**
-> $$ [L] = \frac{Vs}{A} = \Omega s = H \dots \text{Henry}$$
-
-### Strom-Spannungsbeziehung
+> [!def] **Induktivität** ^INDU
+> 
+> $$ [L] = \mathrm{\frac{Vs}{A}} = \Omega \mathrm{s} = \mathrm{H} \dots \text{Henry}$$
+> Strom Spannungsbeziehung
+> $$
+> u_{L}(t) = L\frac{\mathrm{d}i_{L}}{\mathrm{d}t}(t)\qquad i_{L}(t) = \frac{1}{L} \int_{t_{0}}^{t} u_{L}(\tau)\mathrm{~d}\tau 
+> $$
+> 
 
 ### Energie in der Spule
 
 Die **Energie** die in einer **Induktivität** gespeichert werden kann ergibt sich aus:
 
 $$ E = \frac{L\cdot I^{2}}{2}  $$
-
-Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physik/Lenzsche%20Regel.md)).
-
-
-![indu-pulse](assets/indu-pulse.png)
-
-nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
-
-| Einschaltvorgang einer Induktivität    | Abschaltvorgang einer Induktivität     |
-| :--------------------------------------: | :--------------------------------------: |
-| ![indu-einsch](assets/indu-einsch.png) | ![indu-aussch](assets/indu-aussch.png) |
-| #todo                                  | #todo                                  |
 
 ## Induktionsgesetz
 
@@ -82,13 +76,20 @@ Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\parti
 
 ![invert_dark](../Physik/assets/INdu.png)
 
+Für die Spulenspannung einer Realen Spule mit Äquvalenten Serienwiderstand $R$ gilt dann
+
+$$
+u_{L} = Ri + \frac{\mathrm{d}\Psi}{\mathrm{d}t} \overset{ \Psi = Li}{ \iff } Ri + L \frac{\mathrm{d}i}{\mathrm{d}t}
+$$
+
 ### Bewegungsinduktion
 
 **Generatoren mit Rotationsbewegung**
 
-| ![invert_dark](assets/SynchGen.png) | ![invert_dark](assets/ReluGen.png) |
-| ----------------------------------- | ---------------------------------- |
-| Prinzip des Sysnchrongenerators     | Prinzip des Reluktanzgenerators    |
+| ![invert_dark](assets/SynchGen.png)                      | ![invert_dark](assets/ReluGen.png)                                               |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Prinzip des Sysnchrongenerators                          | Prinzip des Reluktanzgenerators                                                  |
+| Fluss ändert sich nicht (Luftspule rotiert im Luftspalt) | Magnetkreis selbst ändert sich. Breite des Luftspalts ist anhängig von der phase |
 
 Die Quellspannung $u_{\mathrm{q}} = \dfrac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi)$ kann in eine *induktive* und eine *rotatorische* Komponente aufgespalten werden. 
 
@@ -108,42 +109,19 @@ $$
 u_{\mathrm{q}} = \frac{\partial \Psi}{\partial i} \frac{\mathrm{d}i}{\mathrm{d}t}+ \frac{\partial \Psi}{\partial \vec{s}}\vec{v} \qquad \text{mit } \vec{v} = \frac{\mathrm{d}\vec{s}}{\mathrm{d}t} 
 $$
 
+## Schaltvorgänge
+
+Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physik/Lenzsche%20Regel.md)).
 
 
----
+![indu-pulse](assets/indu-pulse.png)
 
-### Induzierte Spannung
+nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
-quellstrom $i$ ist konstant
-
-Quellspannung
-
-$$ u_{q}=\frac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi) $$
-Verketteter Fluss: $\Psi = N \cdot\Phi$
-
-Bisher:
-
-$$
-u = Ri + L\frac{\mathrm{d}i}{\mathrm{d}t} \overset{ \Psi = Li }{ \to } Ri + \frac{\mathrm{d}\Psi}{\mathrm{d}t} 
-$$
-
-Aufgespalten in eine induktive und rotatorische komponente
-
-$$
-u_{q} = \underbrace{ \frac{\partial \Psi}{\partial i}\cdot \frac{\mathrm{d}i}{\mathrm{d}t} }_{\text{Ruhe ind.}} +\underbrace{ \frac{\partial \Psi}{\partial \vec{\varphi}}\vec{\omega} }_{ \text{Bewegt ind.} }
-$$
-
-$\vec{\varphi}$ und $\vec{\omega}$ sind vektoren wegen der Rotationsachse. $\vec{\omega} = \dfrac{\mathrm{d}\vec{\varphi}}{\mathrm{d}t}$
-
-Synchrongenerator: Fluss ändert sich nicht (Luftspule rotiert im Luftspalt)
-
-Reluktanzgenerator: Magnetkreis selbst ändert sich. Breite des Luftspalts ist anhängig von der phase
-
-#### Induktionsgesetz
-
-Beim Integral: $\mathrm{d}\mathbf{s}\times \mathbf{l} = \mathrm{d}\mathbf{a}$
-
-$\mu,\nu$ sind indizes
+| Einschaltvorgang einer Induktivität    | Abschaltvorgang einer Induktivität     |
+| :--------------------------------------: | :--------------------------------------: |
+| ![indu-einsch](assets/indu-einsch.png) | ![indu-aussch](assets/indu-aussch.png) |
+| #todo                                  | #todo                                  |
 
 ---
 
