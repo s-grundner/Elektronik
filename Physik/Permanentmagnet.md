@@ -24,6 +24,10 @@ title: Permanentmagnet
 
 ## Linearisierte Entmagnetisierungs Kennlinie
 
+| Gesamte Magnethysteresekurve                 | **Lineareisierte** Entmagnetisierungs Kennlinie (2. Quadrant) |
+| -------------------------------------------- | ------------------------------------------------------------- |
+| ![invert_dark\|400](../assets/EntMagnKL.png) | ![invert_dark\|400](../assets/EntMagnKL2.png)                 |
+
 > [!def] **D1 - ENTM)** Linearisierte Entmagnetisierungs Kennlinie ^ENTM
 >
 > $$
@@ -40,14 +44,9 @@ Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb
 - Wenn $H_{m}$ ein positiver Wert ist: Man rechnet mit $-$ in der Kennlinie
 - Wenn $H_{m}$ ein negativer Wert ist: Man rechnet mit $+$ in der Kennlinie
 
-| Gesamte Magnethysteresekurve                 | **Lineareisierte** Entmagnetisierungs Kennlinie (2. Quadrant) |
-| -------------------------------------------- | ------------------------------------------------------------- |
-| ![invert_dark\|400](../assets/EntMagnKL.png) | ![invert_dark\|400](../assets/EntMagnKL2.png)                 |
-
 ### Arbeitsgerade und Arbeitspunkt
 
 Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Der Schnittpunkt der Arbeitsgerade mit der Magnetkennlinie bezeichnet man als Betriebspunkt/Arbeitspunkt des Permanentmageneten.
-
 
 ![invert_dark|300](assets/ArbeitsgeradePM.png)
 
@@ -55,13 +54,19 @@ Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** de
 
 Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
 
+**Herleitung Arbeitsgerade**
+
 - Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
-$$H_{m}l_{m} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$$
+$$H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$$
 - Daraus folgt die Arbeitsgerade des PMs
 
-$$
-B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
-$$
+
+> [!important] Arbeitsgerade einfacher Permanentmagnetischer Kreis
+> $$
+> B_{\mathrm{m}}(H_{\mathrm{m}}) = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
+> $$
+
+**Betriebspunkt:**
 
 - Umformen und Einsetzen von $H_{m}$ der [linearisierte Entmagnetisierungsgleichung](#^ENTM) liefert:
 
