@@ -74,7 +74,7 @@ Für den Betreibspunkt setzt man in die Arbeitsgerade die [lin. Emtmagnetisierun
 
 > [!important] **PM-Betriebspunkt** einfacher Permanentmagnetischer Kreis
 > $$
-> B_{\mathrm{m}0} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
+> B_{\mathrm{m}0} = \frac{B_{\mathrm{r}}}{1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}}
 > $$
 
 > [!hint]- Herleitung
@@ -85,19 +85,22 @@ Für den Betreibspunkt setzt man in die Arbeitsgerade die [lin. Emtmagnetisierun
 Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen. Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte $B_{\mathrm{A}}$ zu erkennen.
 
 $$
-B_{A} = \frac{Ni}{2}\cdot \frac{\beta(\varphi)}{\beta_{0}} \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}s}}
+B_{A} = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
 $$
+> [!hint]- Herleitung
+> 
 
-$\frac{\beta(\varphi)}{\beta}$ ist dabei ein verhältnis dass die tatsächliche Rückwirkung beschreibt, da sich abhängig vom Winkel $\varphi$ die Überlappung der wirksamen Flächen verändert.
+$\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche Wirkung des Ankerfeldes beschreibt, da sich abhängig vom Winkel $\varphi$ die Überlappung der wirksamen Flächen verändert.
 
 > [!important] **PM-Arbeitsgerade** 
-
-$$
-\begin{align}
-B_{\mathrm{m}}(H_{\mathrm{m}}) &= B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm B_{\mathrm{A}} \\
-&= -H_{\mathrm{m}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}
-\end{align}
-$$
+> 
+> $$
+> \begin{align}
+> B_{\mathrm{m}}(H_{\mathrm{m}}) &= B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm B_{\mathrm{A}} \\
+> &= -H_{\mathrm{m}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \pm \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}}  \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
+> \end{align}
+> $$
+> 
 
 ### Energiedichte
 
@@ -154,3 +157,5 @@ $$
 $$
 
 ## Herleitung 3
+
+![invert_dark](assets/GSM-ArbeitsKL.jpg)
