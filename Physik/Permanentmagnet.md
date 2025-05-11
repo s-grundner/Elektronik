@@ -82,12 +82,12 @@ Für den Betreibspunkt setzt man in die Arbeitsgerade die [lin. Emtmagnetisierun
 
 #### Beispiel: Gleichstrommaschine mit Ankerrückwirkung
 
-Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen. Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte $B_{\mathrm{A}}$ zu erkennen.
+Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen. Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte durch den Permanentmagneten $B_{\mathrm{mA}}$ zu erkennen.
 
 ![invert_dark|600](assets/GSM-ArbeitsKL.jpg)
 
 $$
-B_{A} = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
+B_{\mathrm{mA}} = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
 $$
 
 $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche Wirkung des Ankerfeldes beschreibt, da sich abhängig vom Winkel $\varphi$ die Überlappung der wirksamen Flächen verändert.
@@ -100,7 +100,7 @@ $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche W
 > 
 > $$
 > \begin{align}
-> B_{\mathrm{m}}(H_{\mathrm{m}}) &= B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm B_{\mathrm{A}} \\
+> B_{\mathrm{m}}(H_{\mathrm{m}}) &= B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm B_{\mathrm{mA}} \\
 > &= -H_{\mathrm{m}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \pm \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}}  \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
 > \end{align}
 > $$
@@ -174,7 +174,11 @@ $$
 \cancel{2}\Phi (\mathfrak{R}_{\mathrm{m}}+\mathfrak{R}_{\delta})-\cancel{2}\frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} = 0
 $$
 
-Es wird jener Fluss durch den Permanentmagenten $\Phi = B_{\mathrm{m}}A_{\mathrm{m}}$ eingesetzt, und die Reluktanzen in ihre G
+Es wird jener Fluss durch den Permanentmagenten $\Phi = B_{\mathrm{mA}}A_{\mathrm{m}}$ eingesetzt, und die [Reluktanz](../Elektrotechnik/Maschinen/Reluktanz.md#^RELU) des PMs und des Luftspalts in deren Geometrien zerlegt
 $$
-B_{\mathrm{m}}A_{\mathrm{m}} \frac{l_{\mathrm{m}}}{\mu_{0}\mu_{\mathrm{m}}A_{\mathrm{m}}}
+\begin{align}
+B_{\mathrm{mA}}A_{\mathrm{m}} \left( \frac{l_{\mathrm{m}}}{\mu_{0}\mu_{\mathrm{m}}A_{\mathrm{m}}} + \frac{l_{\delta}}{\mu_{0}A_{\delta}} \right) &= \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} \\
+\frac{B_{\mathrm{mA}}}{\mu_{0}} \left( \frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}} + \frac{l_{\delta}A_{\mathrm{m}}}{A_{\delta}} \right) &= \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} \\
+\end{align}
 $$
+

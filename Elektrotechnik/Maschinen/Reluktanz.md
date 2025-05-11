@@ -21,7 +21,7 @@ title: Reluktanz
 
 ---
 
-> [!def] **D1 - RELU)** Magnetischer Widerstand: **Reluktanz**
+> [!def] **D1 - RELU)** Magnetischer Widerstand: **Reluktanz** ^RELU
 > $$\mathfrak{R} := \frac{l}{\mu A}\quad [\mathfrak{R}] = \frac{m}{\frac{Vs}{Am}\cdot m^{2}}=\frac{A}{Vs} = \frac{1}{H}$$
 > $H$ ... Henry
 
