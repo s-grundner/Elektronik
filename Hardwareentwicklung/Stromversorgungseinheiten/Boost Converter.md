@@ -98,11 +98,11 @@ Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 
 $Q=C\cdot U$  
 $C_{min}= \dfrac{\Delta Q}{\Delta U_{a}} = \dfrac{I_{a,max}-t_{ein}}{\Delta U_{a}}$  
+
 Mit etwas Überdimensionierung ($\rightarrow T_{S}$ statt $t_{ein}$) erhält man:  
+
 $C_{min}= \dfrac{\Delta Q}{\Delta U_{a}} = \dfrac{I_{a,max}-T_{S}}{\Delta U_{a}}$
 
 ---
 
-# Tags
-
-![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/DigitalAnalogST/Schaltnetzteile_Schmidt-Walter.pdf)
+# Referenzen
