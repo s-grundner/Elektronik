@@ -17,7 +17,7 @@ $$\Phi = \int_{A}\mathbf{B} \cdot \mathrm{d}\mathbf{a} \qquad [\Phi] = \mathrm{V
 
 ![invert_dark|500](assets/FeldSpule.png)
 
-Durch die Geometrie der Wicklung der Spule wird ein Magnetfeld erzeugt, das äquivalent wäre zu $N$ Mal der Drahtfläche mit $N$ mal dem Stromfluss. Daher kann der Fluss vervielfacht werden. Es ergibt sich der Verkettete Fluss $\Psi$:
+Durch die Geometrie der Wicklung der [Spule](Induktivität.md) wird ein Magnetfeld erzeugt, das äquivalent wäre zu $N$ Mal der Drahtfläche mit $N$ mal dem Stromfluss. Daher kann der Fluss vervielfacht werden. Es ergibt sich der Verkettete Fluss $\Psi$:
 
 $$\Psi = N\cdot\Phi$$
 

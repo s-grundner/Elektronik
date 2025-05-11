@@ -30,6 +30,10 @@ cited:
 
 ## Kenngrößen der Induktivität
 
+Bei Stromänderungen in einer Spule  wird in der Spule selbst und in den magnetisch angekoppelten Spulen eine [induzierte Spannung](#Spannungsinduktion).
+
+Der Grad der Stromänderung und und die Indultivität $L$ beeinflussen hierbei die höhe der induzierten Spannung.
+
 > [!def] **Induktivität** ^INDU
 > 
 > $$ [L] = \mathrm{\frac{Vs}{A}} = \Omega \mathrm{s} = \mathrm{H} \dots \text{Henry}$$
@@ -39,13 +43,35 @@ cited:
 > $$
 > 
 
+
+### Magnetischer Zusammenhang
+
+Allgemein gilt der Zusammenhang mit dem [magnetischen Fluss](Magnetischer%20Fluss.md) zwischen den beiden Strängen $\mu$ und $\nu$
+
+> [!def] Magnetischer Zusammenhang
+$$ L_{\mu\nu} = \frac{\mathrm{d}\Psi_{\mu}}{\mathrm{d}i_{\nu}} $$
+
+
+
+| ![invert_dark](assets/SelbstIndu.png) | ![invert_dark](assets/GegenIndu.png)                   |
+| ------------------------------------- | ------------------------------------------------------ |
+| Selbstinduktivität                    | Gegeninduktivität (hier zweisträngig $\mu = 1, \nu=2$) |
+
+Unter Berücksichtigung der nichtlinearen Eisencharakteristikverändert die [Permeablität](../Physik/Konstanten/Permeablität.md) in Abhängigkeit von der Erregung ihren Wert.
+
+Typischer Kennlinienverlauf
+
+![](assets/Pasted%20image%2020250512011358.png)
+
 ### Energie in der Spule
+
+Die Induktivität ist ebenso ein Maß für die Fähigkeit der Spule elektromagentische Energie zu speichern.
 
 Die **Energie** die in einer **Induktivität** gespeichert werden kann ergibt sich aus:
 
 $$ E = \frac{L\cdot I^{2}}{2}  $$
 
-## Induktionsgesetz
+## Spannungsinduktion
 
 > [!question] [Magnetfeld](Magnetisches%20Feld.md)
 
@@ -61,8 +87,6 @@ Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, d
 Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht eine [Potenzialdifferenz](elektrische%20Spannung.md) - die *induzierte* Spannung.
 
 ![invert_dark](assets/Wechselfelder.png)
-
-
 
 > [!hint] Induzierte Spannung
 > Diese Wirbelfelder werden durch das [Induktionsgesetz](Maxwell.md#2.%20MWG%20-%20Induktionsgesetz) beschrieben:
@@ -103,7 +127,7 @@ $\vec{\omega}$ ist ein Vektor mit der Richtung seiner Rotationsachse
 
 ![invert_dark](assets/transGen.png)
 
-Analog zur rotatorischen Bewegung gilt die Aufspaltung der Quellspannung in eine *induktive* und eine *translatorische* Bewegung:
+Analog zur rotatorischen Bewegung gilt die Aufspaltung der Quellspannung $u_{\mathrm{q}} = \frac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\vec{s})$ in eine *induktive* und eine *translatorische* Bewegung:
 
 $$
 u_{\mathrm{q}} = \frac{\partial \Psi}{\partial i} \frac{\mathrm{d}i}{\mathrm{d}t}+ \frac{\partial \Psi}{\partial \vec{s}}\vec{v} \qquad \text{mit } \vec{v} = \frac{\mathrm{d}\vec{s}}{\mathrm{d}t} 

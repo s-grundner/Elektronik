@@ -36,6 +36,26 @@ Das Gravitationsfeld ist ein so genanntes *konservatives* Kraftfeld – die Arbe
 > [!tl;dr] Es ist also egal ob man sich normal zu den Feldlinien bewegt und es wird keine Arbeit verrichtet.
 > Die potentielle Energie (das *Potenzial*) bleibt gleich.
 
+## Elektromechanische Energieumwandlung
+
+Für die Umwandlung der Energie im elektromechanischen Wandler gilt der [Energieerhaltungssatz](Energieerhaltung.md)
+
+$$
+\mathrm{d}W_{\text{el}} = \mathrm{d}W_{\text{mech}} + \mathrm{d}W_{\text{mag}} + \mathrm{d}W_{\text{V}}
+$$
+mit
+
+- $\mathrm{d}W_{\text{el}}$ ... Aufgenommene elektrische Energie
+- $\mathrm{d}W_{\text{mech}}$ ... mechanische Arbeit
+- $\mathrm{d}W_{\text{mag}}$ ... magnetisch gespeicherte Energie 
+- $\mathrm{d}W_{\text{V}}$ ... Verluste
+
+Eine Änderung der Arbeit leifert analog die Leistung
+
+$$
+P_{\text{el}} = P_{\text{mech}} + \frac{\mathrm{d}W_{\text{mag}}}{\mathrm{d}t} + P_{\text{v}}
+$$
+
 ## Flashcards
 
 Welche Auswirkung hat das [innere Produkt](../Mathematik/Algebra/Skalarprodukt.md) im Ausdruck $\vec{F}\cdot d\vec{s}$ ?;;Um eine Arbeit zu verrichten, muss die Kraft $\vec{F}$ in die selbe Richtung wie $d\vec{s}$ zeigen. Da diese aber beliebige Vektoren sein können, wird mit dem inneren Produkt nur der Anteil der in die selbe Richtung zeigt berücksichtigt.
