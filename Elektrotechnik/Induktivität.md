@@ -71,7 +71,7 @@ Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben s
 
 
 > [!hint] Induzierte Spannung
-> Diese Wirbelfelder werden durch das Faraday'sche Gesetz beschrieben:
+> Diese Wirbelfelder werden durch das [2. MWG - Induktionsgesetz](Maxwell.md#2.%20MWG%20-%20Induktionsgesetz) beschrieben:
 > $$
 > u_{\mathrm{q}} = \oint_{\partial A} \vec{E} ~\mathrm{d} \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \mathrm{d} \vec{a} = -\frac{\mathrm{d}\Psi}{\mathrm{d}t}
 > $$
