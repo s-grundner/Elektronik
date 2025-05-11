@@ -47,7 +47,7 @@ Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb
 ### Arbeitsgerade und Arbeitspunkt
 
 > [!def] **Arbeitsgerade** 
-Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Dabei müssen externe Gegenfelder berücksichtigt werden.
+Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Dabei müssen externe Gegenfelder berücksichtigt werden, welche Verschiebungen der Arbeitsgerade verusrsachen können.
 
 > [!def] **Arbeitspunkt / Betriebspunkt**
 > Der Schnittpunkt der Arbeitsgerade mit der **Magnetkennlinie** bezeichnet man als Betriebspunkt / Arbeitspunkt des Permanentmageneten.
@@ -60,17 +60,17 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt **ohne
 
 ![invert_dark|400](../assets/EinfPMMagnKreis.png)
 
-> [!important] **Arbeitsgerade** $B_{\mathrm{m}}(H_{\mathrm{m}})$ einfacher Permanentmagnetischer Kreis
+> [!important] **PM-Arbeitsgerade** $B_{\mathrm{m}0}(H_{\mathrm{m}})$ einfacher Permanentmagnetischer Kreis
 > $$
-> B_{\mathrm{m}}(H_{\mathrm{m}}) = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
+> B_{\mathrm{m}0}(H_{\mathrm{m}}) = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
 > $$
 
 > [!hint]- Herleitung
 > ![Herleitung Arbeitsgerade](#Herleitung%201)
 
-> [!important] **Betriebspunkt** einfacher Permanentmagnetischer Kreis
+> [!important] **PM-Betriebspunkt** einfacher Permanentmagnetischer Kreis
 > $$
-> B_{\mathrm{m}} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
+> B_{\mathrm{m}0} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
 > $$
 
 > [!hint]- Herleitung
@@ -79,6 +79,14 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt **ohne
 #### Beispiel: Gleichstrommaschine mit Ankerrückwirkung
 
 Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen.
+
+Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte $B_{\mathrm{mA}}$u erkennen.
+
+> [!important] **PM-Arbeitsgerade** 
+
+$$
+B_{\mathrm{m}}(H_{\mathrm{m}}) = B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm
+$$
 
 ### Energiedichte
 
@@ -132,3 +140,5 @@ $$
 &B_{\mathrm{m}} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
 \end{align}
 $$
+
+## Herleitung 3
