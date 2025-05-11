@@ -46,7 +46,11 @@ Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb
 
 ### Arbeitsgerade und Arbeitspunkt
 
-Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Der Schnittpunkt der Arbeitsgerade mit der Magnetkennlinie bezeichnet man als Betriebspunkt/Arbeitspunkt des Permanentmageneten.
+> [!def] **Arbeitsgerade** 
+Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Dabei müssen externe Gegenfelder berüc
+
+> [!def] **Arbeitspunkt / Betriebspunkt**
+> Der Schnittpunkt der Arbeitsgerade mit der **Magnetkennlinie** bezeichnet man als Betriebspunkt / Arbeitspunkt des Permanentmageneten.
 
 ![invert_dark|300](assets/ArbeitsgeradePM.png)
 
@@ -64,19 +68,13 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
 > [!hint]- Herleitung
 > ![Herleitung Arbeitsgerade](#Herleitung%201)
 
-**Betriebspunkt:**
+> [!important] **Betriebspunkt** einfacher Permanentmagnetischer Kreis
+> $$
+> B_{\mathrm{m}} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
+> $$
 
-- Einsetzen von $H_{m}$ der [linearisierte Entmagnetisierungsgleichung](#^ENTM) liefert:
-
-$$
-\begin{align}
-&B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \cancel{ \mu_{0} } \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \frac{B_{\mathrm{m}}-B_{\mathrm{r}}}{\cancel{ \mu_{0} }\mu_{\mathrm{m}}}\\
-&B_{\mathrm{m}} = (B_{\mathrm{r}}-B_{\mathrm{m}}) \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
-&B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}\right) = B_{\mathrm{r}} \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
-&B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right) = B_{\mathrm{r}} \\
-&B_{\mathrm{m}} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
-\end{align}
-$$
+> [!hint]- Herleitung
+> ![Herleitung 2](#Herleitung%202)
 
 ### Energiedichte
 
@@ -103,11 +101,30 @@ $$
 H_{\mathrm{m}}l_{\mathrm{m}} = -\frac{B_{\delta}}{\mu_{0}}l_{\delta}\cdot \frac{A_{\delta}}{A_{\delta}}
 $$
 
-- Magnetischer Fluss einsetzen: $\Phi = B_{\delta}A_{\delta}$
-- Es gibt nur eine Masche. Der Fluss durch den PM der gleiche wie durch den Luftspalt: $\Phi=B_{\mathrm{m}}A_{\mathrm{m}} = $
+- [Magnetischer Fluss](../Elektrotechnik/Magnetischer%20Fluss.md) einsetzen: $\Phi = B_{\delta}A_{\delta}$
+- Es gibt nur eine Masche. Der Fluss durch den PM der gleiche wie durch den Luftspalt: $\Phi=B_{\mathrm{m}}A_{\mathrm{m}}$
 
 $$
-H_{\mathrm{m}}l_{\mathrm{m}} = -\frac{\Phi}{\mu_{0}A_{\delta}}l_{\delta}
+H_{\mathrm{m}}l_{\mathrm{m}} = -\frac{\Phi}{\mu_{0}A_{\delta}}l_{\delta} = -\frac{B_{\mathrm{m}}A_{\mathrm{m}}}{\mu_{0}A_{\delta}}l_{\delta}
+$$
+- Umformen auf $B_{\mathrm{m}}$ liefert die Arbeitsgerade
+
+$$
+B_{\mathrm{m}}(H_{m}) = -H_{\mathrm{m}} \frac{l_{\mathrm{m}}}{l_{\delta}}
 $$
 
-- In einem Magnetkreis mit nur einer Masche ist der Fluss überall gleich
+## Herleitung 2
+
+Gesucht ist die Flussdichte im Permanentmagent während des Betriebs. D.h. den Schnittpunkt zwischen Arbeitskennlinie und Magnetkennlinie.
+
+- Einsetzen von $H_{m}$ der [linearisierte Entmagnetisierungsgleichung](#^ENTM) liefert:
+
+$$
+\begin{align}
+&B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \cancel{ \mu_{0} } \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \frac{B_{\mathrm{m}}-B_{\mathrm{r}}}{\cancel{ \mu_{0} }\mu_{\mathrm{m}}}\\
+&B_{\mathrm{m}} = (B_{\mathrm{r}}-B_{\mathrm{m}}) \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
+&B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}\right) = B_{\mathrm{r}} \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
+&B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right) = B_{\mathrm{r}} \\
+&B_{\mathrm{m}} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
+\end{align}
+$$
