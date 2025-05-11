@@ -51,7 +51,7 @@ nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 | ![indu-einsch](assets/indu-einsch.png) | ![indu-aussch](assets/indu-aussch.png) |
 | #todo                                  | #todo                                  |
 
-## Induktionsphänomene
+## Induktionsgesetz
 
 > [!question] [Magnetfeld](Magnetisches%20Feld.md)
 
@@ -64,21 +64,19 @@ Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, d
 > [!info] Ein sich zeitliches wechselndes Magnetfeld wird von einem elektrischen Feld *linkswendig* umwirbelt.
 > Es wird also nicht durch Ladungen erzeugt, sondern durch die Änderung des magnetischen Feldes. Die naheliegendsten Begründung dafür ist die [Lenzsche Regel](../Physik/Lenzsche%20Regel.md)
 
-Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht ein [Potenzialdifferenz](elektrische%20Spannung.md).
+Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht eine [Potenzialdifferenz](elektrische%20Spannung.md) - die *induzierte* Spannung.
 
 ![invert_dark](assets/Wechselfelder.png)
 
-es ergibt sich die *induzierte* Spannung:
 
-$$u_{ind}=\frac{d\Phi}{dt}$$
 
-> [!hint] [Maxwell](Maxwell.md)-Gleichung 
+> [!hint] Induzierte Spannung
 > Diese Wirbelfelder werden durch das Faraday'sche Gesetz beschrieben:
-> $$\oint_{\partial A} \vec{E} \cdot d \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \cdot d \vec{a}$$
+> $$u_{q} = \oint_{\partial A} \vec{E} \cdot d \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \cdot d \vec{a}$$
 > In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds. Die Fläche $A$ ist jene die der Leiter Aufspannt und die Kontur $\partial A$ der leiter selbst.
-> 
-> Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$
-> Also dass die Spannung an den Klemmen 0 ist.
+
+
+Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$. Also dass die Spannung an den Klemmen 0 ist. Das ist hier nicht mehr der Fall.
 
 ### Bewegungsinduktion
 
