@@ -87,7 +87,7 @@ Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Indukti
 ![invert_dark|600](assets/GSM-ArbeitsKL.jpg)
 
 $$
-B_{\mathrm{mA}} = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
+B_{\mathrm{mA}}(\varphi) = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
 $$
 
 $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche Wirkung des Ankerfeldes beschreibt, da sich abhängig vom Winkel $\varphi$ die Überlappung der wirksamen Flächen verändert.
@@ -100,11 +100,18 @@ $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche W
 > 
 > $$
 > \begin{align}
-> B_{\mathrm{m}}(H_{\mathrm{m}}) &= B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm B_{\mathrm{mA}} \\
+> B_{\mathrm{m}}(H_{\mathrm{m}}) &= B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm B_{\mathrm{mA}}(\varphi) \\
 > &= -H_{\mathrm{m}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \pm \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}}  \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
 > \end{align}
 > $$
 > 
+
+### Verschiebung der Arbeitsgerade durch Gegenfelder
+
+| ![invert_dark](assets/EinflussAnkerfeldAP1.png) | ![invert_dark](assets/EinflussAnkerfeldAP2.png)                                     |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------- |
+|                                                 | Entmagnetisierung durch Veränderung der Magnetkreisgeometrie (z.B. Entfernung der ) |
+| ![invert_dark](assets/EinflussAnkerfeldAP3.png) | ![invert_dark](assets/EinflussAnkerfeldAP4.png)                                     |
 
 ### Energiedichte
 
@@ -175,10 +182,12 @@ $$
 $$
 
 Es wird jener Fluss durch den Permanentmagenten $\Phi = B_{\mathrm{mA}}A_{\mathrm{m}}$ eingesetzt, und die [Reluktanz](../Elektrotechnik/Maschinen/Reluktanz.md#^RELU) des PMs und des Luftspalts in deren Geometrien zerlegt
+
 $$
 \begin{align}
 B_{\mathrm{mA}}A_{\mathrm{m}} \left( \frac{l_{\mathrm{m}}}{\mu_{0}\mu_{\mathrm{m}}A_{\mathrm{m}}} + \frac{l_{\delta}}{\mu_{0}A_{\delta}} \right) &= \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} \\
 \frac{B_{\mathrm{mA}}}{\mu_{0}} \left( \frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}} + \frac{l_{\delta}A_{\mathrm{m}}}{A_{\delta}} \right) &= \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} \\
+B_{\mathrm{mA}}(\varphi) = \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{m}}+\frac{l_{\delta}A_{\mathrm{m}}}{A_{\delta}}} & \frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} \\
 \end{align}
 $$
 
