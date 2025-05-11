@@ -61,8 +61,8 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
 > B_{\mathrm{m}}(H_{\mathrm{m}}) = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
 > $$
 
-> [!hint] Herleitung
-> 
+> [!hint]- Herleitung
+> ![Herleitung Arbeitsgerade](#Herleitung%201)
 
 **Betriebspunkt:**
 
@@ -84,9 +84,11 @@ $$
 
 ---
 
-## Herleitung 
+# Anhang
 
-- Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
+## Herleitung 1
+
+- [Durchflutung](../Elektrotechnik/Durchflutung.md): Masche aufstellen
 
 $$
 H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0

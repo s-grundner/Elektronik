@@ -149,19 +149,24 @@ settings:
     type: variable-number
     default: 22
     format: px 
-*/ 
+*/
 .cm-gutterElement {
   font-size: var(--gutter-font-size);
 }
 
-/* Center images */ 
+/* Center images */
 
 img {
-        display: block !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-    
-.markdown-source-view.mod-cm6 .cm-content > * {
-        margin: auto auto !important;
+
+.markdown-source-view.mod-cm6 .cm-content>* {
+  margin: auto auto !important;
+}
+
+.markdown-embed h1,
+.markdown-embed h2 {
+  display: none;
 }
