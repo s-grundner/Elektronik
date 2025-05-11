@@ -16,7 +16,7 @@ created: 8th June 2022
 
 ## Schaltung
 
-![invert_dark](../assets/Boostconverter.svg)
+![invert_light](../assets/Boostconverter.svg)
 
 $$ U_{a}\approx U_{e} \cdot \frac{1}{1-DC} $$
 Während der Einschaltphase des [Transistors](../Halbleiter/{MOC}%20Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.  
@@ -50,15 +50,16 @@ Schaltet der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $(T)$ ab, so flie
 > $$
 
 > [!info] $t_{1}<t<T_{s}$: $S_{\text{geöffnet}}$
-
-$$U_{L} = -(U_{a}+U_{FO}-U_{e})$$
-$$
-\begin{align*}
-\Delta I_{L2} &= \frac{1}{L}\int_{t_{1}}^{T_{S}}- (U_{a}+U_{FO}-U_{e})dt
-\\
-&= -\frac{1}{L}\Big(U_{a}+U_{FO}-U_{e}\Big)\cdot\Big(T_{S}-t_{1}\Big) \qquad (2)
-\end{align*}
-$$
+> 
+> $$
+> \begin{align*}
+> U_{L} &= -(U_{a}+U_{FO}-U_{e})\\
+> \Delta I_{L2} &= \frac{1}{L}\int_{t_{1}}^{T_{S}}- (U_{a}+U_{FO}-U_{e})dt
+> \\
+> &= -\frac{1}{L}\Big(U_{a}+U_{FO}-U_{e}\Big)\cdot\Big(T_{S}-t_{1}\Big)
+> \end{align*}
+> $$
+> 
 
 #### $\Delta I_{L1}= -\Delta I_{L2}$
 

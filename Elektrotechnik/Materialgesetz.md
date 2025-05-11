@@ -30,7 +30,9 @@ title: Materialgesetz
 
 ## Materialeigenschaften
 
-**Linearität:** Ein Material ist linear, wenn die Materialeigenschaften $\varepsilon_{\mathrm{r}}, \mu_{\mathrm{r}}$ und $\sigma$ unabhängig von den elektromagnetischen Feldgrößen sind, die im Material auftreten. Beispiel: Die relative Dielektrizitätszahl ändert sich nicht, wenn die das Material durchsetzende elektrische Feldstärke kleiner oder größer wird.
+**Linearität:** Ein Material ist linear, wenn die Materialeigenschaften $\varepsilon_{\mathrm{r}}, \mu_{\mathrm{r}}$ und $\sigma$ unabhängig von den elektromagnetischen Feldgrößen sind, die im Material auftreten.
+
+Beispiel: Die relative Permittivität $\varepsilon_{r}$ ändert sich nicht, wenn die das Material durchsetzende elektrische Feldstärke kleiner oder größer wird.
 
 **Zeitinvarianz:** Ein Material ist zeitinvariant, wenn die Materialeigenschaften zeitlich konstant sind.
 
