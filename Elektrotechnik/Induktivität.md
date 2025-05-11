@@ -73,14 +73,14 @@ Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben s
 > [!hint] Induzierte Spannung
 > Diese Wirbelfelder werden durch das Faraday'sche Gesetz beschrieben:
 > $$
-> u_{q} = \oint_{\partial A} \vec{E} ~\mathrm{d} \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \mathrm{d} \vec{a} = \frac{\mathrm{d}\Psi}{\mathrm{d}t}
+> u_{\mathrm{q}} = \oint_{\partial A} \vec{E} ~\mathrm{d} \vec{s}=-\int_{A} \frac{\partial \vec{B}}{\partial t} \mathrm{d} \vec{a} = -\frac{\mathrm{d}\Psi}{\mathrm{d}t}
 > $$
-> Dabei wird die Beziehung zum [magnetischen Fluss](Magnetischer%20Fluss.md) auf die infinitesimalen Größen angewendet. Dabei ist die Fläche die Spiralfläche über der gesamten Wicklung, nicht der Spulenquerschnitt, deshalb der **verkettete** Fluss $\Psi$
-> 
-> In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds. Die Fläche $A$ ist jene die der Leiter Aufspannt und die Kontur $\partial A$ der leiter selbst.
+> Dabei wird die Beziehung zum [magnetischen Fluss](Magnetischer%20Fluss.md) auf die infinitesimalen Größen angewendet. Die Fläche $A$ ist die **Spiralfläche** über der gesamten Wicklung, nicht der Spulenquerschnitt, deshalb der **verkettete** Fluss $\Psi$. $\partial A$ ist der Leiter selbst. In dem minus steckt die *linkswendigkeit* des umwirbelnden E-Felds.
 
 
 Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$. Also dass die Spannung an den Klemmen $0$ ist. Das ist hier nicht mehr der Fall.
+
+![invert_dark](../Physik/assets/INdu.png)
 
 ### Bewegungsinduktion
 
