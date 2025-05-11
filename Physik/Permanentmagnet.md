@@ -84,6 +84,8 @@ Für den Betreibspunkt setzt man in die Arbeitsgerade die [lin. Emtmagnetisierun
 
 Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen. Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte $B_{\mathrm{A}}$ zu erkennen.
 
+![invert_dark|600](assets/GSM-ArbeitsKL.jpg)
+
 $$
 B_{A} = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
 $$
@@ -158,4 +160,4 @@ $$
 
 ## Herleitung 3
 
-![invert_dark](assets/GSM-ArbeitsKL.jpg)
+![invert_dark](assets/GSM-ArbeitsKL-2.jpg)
