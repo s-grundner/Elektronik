@@ -22,6 +22,24 @@ title: Permanentmagnet
 
 ## Magnetkennlinie
 
+## Arbeitspunkt
+
+> [!def] **Arbeitsgerade** 
+Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Dabei müssen externe Gegenfelder berücksichtigt werden, welche Verschiebungen der Arbeitsgerade verusrsachen können.
+
+> [!def] **Arbeitspunkt / Betriebspunkt**
+> Der Schnittpunkt der Arbeitsgerade mit der **Magnetkennlinie** bezeichnet man als Betriebspunkt / Arbeitspunkt des Permanentmageneten.
+
+![invert_dark|300](assets/ArbeitsgeradePM.png)
+
+### Verschiebung der Arbeitsgerade durch Gegenfelder
+
+| ![invert_dark](assets/EinflussAnkerfeldAP1.png)                       | ![invert_dark](assets/EinflussAnkerfeldAP2.png)                                           |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Einfluss des Ankerfeldes auf den Arbeitsbereich des Permanentmagenten | Entmagnetisierung durch Veränderung der Magnetkreisgeometrie (z.B. Entfernung des Rotors) |
+| ![invert_dark](assets/EinflussAnkerfeldAP3.png)                       | ![invert_dark](assets/EinflussAnkerfeldAP4.png)                                           |
+| Enmagnetisierug durch hohe Gegenfelder                                | Entmagentisierung durch Veränderung der Magentkennlinie infloge einer Temperaturerhöhung  |
+
 ## Linearisierte Entmagnetisierungs Kennlinie
 
 | Gesamte Magnethysteresekurve                 | **Lineareisierte** Entmagnetisierungs Kennlinie (2. Quadrant) |
@@ -44,17 +62,7 @@ Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb
 - Wenn $H_{m}$ ein positiver Wert ist: Man rechnet mit $-$ in der Kennlinie
 - Wenn $H_{m}$ ein negativer Wert ist: Man rechnet mit $+$ in der Kennlinie
 
-### Arbeitsgerade und Arbeitspunkt
-
-> [!def] **Arbeitsgerade** 
-Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Dabei müssen externe Gegenfelder berücksichtigt werden, welche Verschiebungen der Arbeitsgerade verusrsachen können.
-
-> [!def] **Arbeitspunkt / Betriebspunkt**
-> Der Schnittpunkt der Arbeitsgerade mit der **Magnetkennlinie** bezeichnet man als Betriebspunkt / Arbeitspunkt des Permanentmageneten.
-
-![invert_dark|300](assets/ArbeitsgeradePM.png)
-
-#### Beispiel: Einfacher Magnetkreis mit PM
+### Beispiel: Einfacher Magnetkreis mit PM
 
 Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt **ohne** externe Gegenfelder.
 
@@ -80,11 +88,11 @@ Für den Betreibspunkt setzt man in die Arbeitsgerade die [lin. Emtmagnetisierun
 > [!hint]- Herleitung
 > ![Herleitung 2](#Herleitung%202)
 
-#### Beispiel: Gleichstrommaschine mit Ankerrückwirkung
+### Beispiel: Gleichstrommaschine mit Ankerrückwirkung
 
 Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen. Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte durch den Permanentmagneten $B_{\mathrm{mA}}$ zu erkennen.
 
-![invert_dark|600](assets/GSM-ArbeitsKL.jpg)
+![invert_dark|400](assets/GSM-ArbeitsKL.jpg)
 
 $$
 B_{\mathrm{mA}}(\varphi) = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
@@ -105,13 +113,6 @@ $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche W
 > \end{align}
 > $$
 > 
-
-### Verschiebung der Arbeitsgerade durch Gegenfelder
-
-| ![invert_dark](assets/EinflussAnkerfeldAP1.png) | ![invert_dark](assets/EinflussAnkerfeldAP2.png)                                     |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------- |
-|                                                 | Entmagnetisierung durch Veränderung der Magnetkreisgeometrie (z.B. Entfernung der ) |
-| ![invert_dark](assets/EinflussAnkerfeldAP3.png) | ![invert_dark](assets/EinflussAnkerfeldAP4.png)                                     |
 
 ### Energiedichte
 

@@ -16,9 +16,9 @@ professor:
 ---
  
 
-# Lenz'sche Regel
+# Lenzsche Regel
 
-Die Lenzsche Regel besagt dass einer Änderung (im magnetfeld) immer entgegengewirkt wird.
+Die Lenzsche Regel besagt, dass einer Änderung (im Magnetfeld) immer entgegengewirkt wird.
 
 ## Im Magnetfeld
 

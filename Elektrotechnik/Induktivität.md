@@ -55,17 +55,16 @@ nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
 > [!question] [Magnetfeld](Magnetisches%20Feld.md)
 
-Induktionsphänomene kamen bisher nicht vor, weil wir und nicht um Zeit Abhängigkeiten des Feldes gekümmert haben. Diese Phänomene treten nämlich nur in *Wechselfeldern* auf.
+Induktionsphänomene treten nur in *Wechselfeldern* auf.
 
 ### Ruheinduktion
 
 Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, dass geschlossene elektrische Feldlinien auftauchen!
 
 > [!info] Ein sich zeitliches wechselndes Magnetfeld wird von einem elektrischen Feld *linkswendig* umwirbelt.
-> Es wird also nicht durch Ladungen erzeugt, sondern durch die Änderung des magnetischen Feldes. (Warum wissen wir nicht -> Naturgesetz) Am naheliegendsten ist die Lenz'sche Regel
+> Es wird also nicht durch Ladungen erzeugt, sondern durch die Änderung des magnetischen Feldes. Die naheliegendsten Begründung dafür ist die [Lenzsche Regel](../Physik/Lenzsche%20Regel.md)
 
 Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht ein [Potenzialdifferenz](elektrische%20Spannung.md).
-
 
 ![invert_dark](assets/Wechselfelder.png)
 
