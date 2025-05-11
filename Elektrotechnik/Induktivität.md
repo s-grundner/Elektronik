@@ -22,9 +22,9 @@ cited:
 
 ## Schaltsymbol
 
-| Symbol                   | reales ESB                       |
-| ------------------------ | -------------------------------- |
-| ![indu](assets/indu.png) | ![indu-esb](assets/indu-esb.png) |
+| Symbol                                       | reales ESB                       |
+| -------------------------------------------- | -------------------------------- |
+| ![indu](Hardwareentwicklung/assets/indu.png) | ![indu-esb](assets/indu-esb.png) |
 
 ## Kenngrößen der Induktivität
 
@@ -90,15 +90,24 @@ Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\parti
 | ----------------------------------- | ---------------------------------- |
 | Prinzip des Sysnchrongenerators     | Prinzip des Reluktanzgenerators    |
 
-Die Quellspannung $u_{\mathrm{q}} = \dfrac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi)$ kann in eine induktive und eine rotatorische Komponente aufgespalten werden. 
+Die Quellspannung $u_{\mathrm{q}} = \dfrac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi)$ kann in eine *induktive* und eine *rotatorische* Komponente aufgespalten werden. 
 
 $$
-u_{\mathrm{q}} = \frac{\partial \Psi}{\partial i} \frac{\mathrm{d}i}{\mathrm{d}t}+ \frac{\partial \Psi}{\partial \vec{\varphi}}\vec{\omega}
+u_{\mathrm{q}} = \frac{\partial \Psi}{\partial i} \frac{\mathrm{d}i}{\mathrm{d}t}+ \frac{\partial \Psi}{\partial \vec{\varphi}}\vec{\omega} \qquad \text{mit } \vec{\omega} = \frac{\mathrm{d}\vec{\varphi}}{\mathrm{d}t} 
 $$
+
+$\vec{\omega}$ ist ein Vektor mit der Richtung seiner Rotationsachse
 
 **Generatoren mit translatorischer Bewegung**
 
-![invert_dark](assets/BewegterLeiter.png)
+![invert_dark](assets/transGen.png)
+
+Analog zur rotatorischen Bewegung gilt die Aufspaltung der Quellspannung in eine *induktive* und eine *translatorische* Bewegung:
+
+$$
+u_{\mathrm{q}} = \frac{\partial \Psi}{\partial i} \frac{\mathrm{d}i}{\mathrm{d}t}+ \frac{\partial \Psi}{\partial \vec{s}}\vec{v} \qquad \text{mit } \vec{v} = \frac{\mathrm{d}\vec{s}}{\mathrm{d}t} 
+$$
+
 
 
 ---

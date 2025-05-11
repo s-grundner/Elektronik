@@ -10,6 +10,7 @@ created: 15. Oktober 2024
 professor:
 ---
  
+
 # Tunneleffekt
 
 - Tritt bei der Zenerdiode auf

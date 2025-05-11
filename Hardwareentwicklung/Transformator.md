@@ -86,18 +86,3 @@ Trotz der Last ist das Übersetzungsverhältis gleich wie im Unbelasteten Fall (
 > - Wird die Spannung um einen Faktor nach oben Transformiert, wird der [Strom](../Elektrotechnik/elektrischer%20Strom.md) um den selben Faktor verringert
 > 	- $P=U\cdot I$
 
-### Analogie zum [Ohm](../Elektrotechnik/Ohmsches%20Gesetz.md)‘schen Gesetz
-
-| Magnetisch              | Elektrisch                                                          |
-| ----------------------- | ------------------------------------------------------------------- |
-| Magnetische Spannung    | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
-| Magnetischer Strom      | [elektrischer Strom](../Elektrotechnik/elektrischer%20Strom.md)                                                  |
-| Magnetischer widerstand | elektrischer Widerstand                                             |
-
-$R_{m} = \frac{l}{\mu A}$ aber $R_{m}$ ist im Gegensatz zum elektrischen Widerstand stark nichtlinear vom Magnetischen Fluss Abhängig.
-
-[elektrische Leistung](../Elektrotechnik/elektrische%20Leistung.md)
-
-# Übung
-
-![[../assets/Excalidraw/Transformator 2024-03-19 00.29.11.excalidraw]]

@@ -25,3 +25,6 @@ professor:
 > $$ \vec{F} = Q\cdot \vec{v}\times \vec{B}$$
 >
 > und ist teil der [Lorentz-Kraft](Lorentz-Kraft.md).
+
+
+![invert_dark](assets/BewegterLeiter.png)

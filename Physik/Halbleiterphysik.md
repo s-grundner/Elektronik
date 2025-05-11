@@ -27,7 +27,7 @@ Intrinsisch $\to$ Nicht Dotiert
 
 > [!important] Bändermodell des [Siliziums](Silizium.md)
 > 
-> Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](../../Elektrotechnik/Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
+> Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
 > 
 > ![invert_dark|1000](assets/SiLeitungsValenzband.png)
 

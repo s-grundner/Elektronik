@@ -14,6 +14,7 @@ draft: true
 title: Tschebyscheff Filter Charakteristik
 ---
  
+
 # Tschebyscheff Filter-Charakteristik
 
 Je nach dem welche Ordnung das Tschebyscheff Polynom hat, hat die übertragungsfunktion dementsprechend viele Wellenberge im Durchlass oder Sperrbereich

@@ -11,6 +11,7 @@ created: 15. Oktober 2024
 professor:
 ---
  
+
 # Teilchen im Kasten Modell
 
 > [!success] Modell für Atom, Stationäre Zustände

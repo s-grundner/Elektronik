@@ -24,7 +24,7 @@
 | ![](assets/SignalIntegritätReflexionSchlecht.png) | ![](assets/SignalIntegritätReflexion.png)                   |
 
 > [!BUG] Nachteile
-> - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Elektrotechnik/elektrische%20Leistung.md) an $R_{T}$  zu versorgen.
+> - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Elektrotechnik/elektrische%20Leistung.md) an $R_{T}$ zu versorgen.
 > - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv [Strom](../Elektrotechnik/elektrischer%20Strom.md) verbraucht.
 > - Große parallele Busse (z.B. DDR) die für jede [Leitung](../HF-Technik/Eingangsimpedanz.md) einen $R_{T}$ benötigen:
 > 	- Obere Aspekte haben stärkeren Einfluss
