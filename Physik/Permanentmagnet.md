@@ -89,10 +89,12 @@ Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Indukti
 $$
 B_{A} = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
 $$
-> [!hint]- Herleitung
-> 
 
 $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche Wirkung des Ankerfeldes beschreibt, da sich abhängig vom Winkel $\varphi$ die Überlappung der wirksamen Flächen verändert.
+
+> [!hint]- Herleitung
+> ![Herleitung 3](#Herleitung%203)
+
 
 > [!important] **PM-Arbeitsgerade** 
 > 
@@ -161,3 +163,18 @@ $$
 ## Herleitung 3
 
 ![invert_dark](assets/GSM-ArbeitsKL-2.jpg)
+
+Bei der alleinigen Berechnung des Ankerfeldanteils gilt der Permanentmagent als Abgeschaltet:
+
+$$ H_{\mathrm{m}}l_{\mathrm{m}} = 0 $$
+
+Durch die Masche ergibt sich die Gleichung.
+
+$$
+\cancel{2}\Phi (\mathfrak{R}_{\mathrm{m}}+\mathfrak{R}_{\delta})-\cancel{2}\frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} = 0
+$$
+
+Es wird jener Fluss durch den Permanentmagenten $\Phi = B_{\mathrm{m}}A_{\mathrm{m}}$ eingesetzt, und die Reluktanzen in ihre G
+$$
+B_{\mathrm{m}}A_{\mathrm{m}} \frac{l_{\mathrm{m}}}{\mu_{0}\mu_{\mathrm{m}}A_{\mathrm{m}}}
+$$
