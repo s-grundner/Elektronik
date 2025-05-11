@@ -60,13 +60,17 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt **ohne
 
 ![invert_dark|400](../assets/EinfPMMagnKreis.png)
 
+Man berechnet die Masche des Eisenkreises mit **abgeschaltetem** Permanentmagenten um die reine Wirkung des Magnetkreises zu ermitteln.
+
 > [!important] **PM-Arbeitsgerade** $B_{\mathrm{m}0}(H_{\mathrm{m}})$ einfacher Permanentmagnetischer Kreis
 > $$
-> B_{\mathrm{m}0}(H_{\mathrm{m}}) = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
+> B_{\mathrm{m}0}(H_{\mathrm{m}}) = -H_{\mathrm{m}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}
 > $$
 
 > [!hint]- Herleitung
 > ![Herleitung Arbeitsgerade](#Herleitung%201)
+
+Für den Betreibspunkt setzt man in die Arbeitsgerade die [lin. Emtmagnetisierungskennlinie](#^ENTM) ein.
 
 > [!important] **PM-Betriebspunkt** einfacher Permanentmagnetischer Kreis
 > $$
@@ -78,14 +82,21 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt **ohne
 
 #### Beispiel: Gleichstrommaschine mit Ankerrückwirkung
 
-Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen.
+Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen. Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte $B_{\mathrm{A}}$ zu erkennen.
 
-Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte $B_{\mathrm{mA}}$u erkennen.
+$$
+B_{A} = \frac{Ni}{2}\cdot \frac{\beta(\varphi)}{\beta_{0}} \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}s}}
+$$
+
+$\frac{\beta(\varphi)}{\beta}$ ist dabei ein verhältnis dass die tatsächliche Rückwirkung beschreibt, da sich abhängig vom Winkel $\varphi$ die Überlappung der wirksamen Flächen verändert.
 
 > [!important] **PM-Arbeitsgerade** 
 
 $$
-B_{\mathrm{m}}(H_{\mathrm{m}}) = B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm
+\begin{align}
+B_{\mathrm{m}}(H_{\mathrm{m}}) &= B_{\mathrm{m}0} (H_{\mathrm{m}}) \pm B_{\mathrm{A}} \\
+&= -H_{\mathrm{m}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}
+\end{align}
 $$
 
 ### Energiedichte
@@ -119,10 +130,11 @@ $$
 $$
 H_{\mathrm{m}}l_{\mathrm{m}} = -\frac{\Phi}{\mu_{0}A_{\delta}}l_{\delta} = -\frac{B_{\mathrm{m}}A_{\mathrm{m}}}{\mu_{0}A_{\delta}}l_{\delta}
 $$
+
 - Umformen auf $B_{\mathrm{m}}$ liefert die Arbeitsgerade
 
 $$
-B_{\mathrm{m}}(H_{m}) = -H_{\mathrm{m}} \frac{l_{\mathrm{m}}}{l_{\delta}}
+B_{\mathrm{m}}(H_{m}) = -\mu_{0}H_{\mathrm{m}} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}
 $$
 
 ## Herleitung 2
