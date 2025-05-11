@@ -73,13 +73,14 @@ $$H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}
 
 $$
 \begin{align}
-B_{\mathrm{m}} &= -\mu_{\mathrm{ges}} \cancel{ \mu_{0} } \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \frac{B_{\mathrm{m}}-B_{\mathrm{r}}}{\cancel{ \mu_{0} }\mu_{\mathrm{m}}}\\
-B_{\mathrm{m}} &= (B_{\mathrm{r}}-B_{\mathrm{m}}) \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
-B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}\right) &= B_{\mathrm{r}} \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
-B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right) &= B_{\mathrm{r}} \\
-B_{\mathrm{m}} &= B_{\mathrm{r}}\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)
+&B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \cancel{ \mu_{0} } \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \frac{B_{\mathrm{m}}-B_{\mathrm{r}}}{\cancel{ \mu_{0} }\mu_{\mathrm{m}}}\\
+&B_{\mathrm{m}} = (B_{\mathrm{r}}-B_{\mathrm{m}}) \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
+&B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}\right) = B_{\mathrm{r}} \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
+&B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right) = B_{\mathrm{r}} \\
+&B_{\mathrm{m}} = \frac{B_{\mathrm{r}}}{\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)}
 \end{align}
 $$
+
 
 ### Energiedichte
 
