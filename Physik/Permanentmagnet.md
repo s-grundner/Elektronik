@@ -47,16 +47,16 @@ Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb
 ### Arbeitsgerade und Arbeitspunkt
 
 > [!def] **Arbeitsgerade** 
-Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Dabei müssen externe Gegenfelder berüc
+Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** des angeschlossenen Magnetkreises entsteht. Dabei müssen externe Gegenfelder berücksichtigt werden.
 
 > [!def] **Arbeitspunkt / Betriebspunkt**
 > Der Schnittpunkt der Arbeitsgerade mit der **Magnetkennlinie** bezeichnet man als Betriebspunkt / Arbeitspunkt des Permanentmageneten.
 
 ![invert_dark|300](assets/ArbeitsgeradePM.png)
 
-#### Einfacher Magnetkreis mit PM
+#### Beispiel: Einfacher Magnetkreis mit PM
 
-Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
+Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt **ohne** externe Gegenfelder.
 
 ![invert_dark|400](../assets/EinfPMMagnKreis.png)
 
@@ -75,6 +75,10 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
 
 > [!hint]- Herleitung
 > ![Herleitung 2](#Herleitung%202)
+
+#### Beispiel: Gleichstrommaschine mit Ankerrückwirkung
+
+Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen.
 
 ### Energiedichte
 
