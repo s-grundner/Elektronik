@@ -56,16 +56,13 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
 
 ![invert_dark|400](../assets/EinfPMMagnKreis.png)
 
-**Herleitung Arbeitsgerade**
-
-- Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
-$$H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$$
-- Daraus folgt die Arbeitsgerade des PMs
-
 > [!important] Arbeitsgerade einfacher Permanentmagnetischer Kreis
 > $$
 > B_{\mathrm{m}}(H_{\mathrm{m}}) = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
 > $$
+
+> [!hint] Herleitung
+> 
 
 **Betriebspunkt:**
 
@@ -81,7 +78,17 @@ $$
 \end{align}
 $$
 
-
 ### Energiedichte
 
 ![invert_light|400](../Elektrotechnik/assets/MagnetKLundEnergie.png)
+
+---
+
+## Herleitung 
+
+- Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
+
+$$
+H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0
+$$
+
