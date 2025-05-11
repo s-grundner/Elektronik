@@ -84,7 +84,22 @@ Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\parti
 
 ### Bewegungsinduktion
 
+**Generatoren mit Rotationsbewegung**
+
+| ![invert_dark](assets/SynchGen.png) | ![invert_dark](assets/ReluGen.png) |
+| ----------------------------------- | ---------------------------------- |
+| Prinzip des Sysnchrongenerators     | Prinzip des Reluktanzgenerators    |
+
+Die Quellspannung $u_{\mathrm{q}} = \dfrac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\varphi)$ kann in eine induktive und eine rotatorische Komponente aufgespalten werden. 
+
+$$
+u_{\mathrm{q}} = \frac{\partial \Psi}{\partial i} \frac{\mathrm{d}i}{\mathrm{d}t}+ \frac{\partial \Psi}{\partial \vec{\varphi}}\vec{\omega}
+$$
+
+**Generatoren mit translatorischer Bewegung**
+
 ![invert_dark](assets/BewegterLeiter.png)
+
 
 ---
 
