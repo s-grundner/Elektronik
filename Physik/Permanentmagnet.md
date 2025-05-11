@@ -54,12 +54,13 @@ Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** de
 
 Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
 
+![invert_dark|400](../assets/EinfPMMagnKreis.png)
+
 **Herleitung Arbeitsgerade**
 
 - Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
 $$H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$$
 - Daraus folgt die Arbeitsgerade des PMs
-
 
 > [!important] Arbeitsgerade einfacher Permanentmagnetischer Kreis
 > $$
@@ -68,10 +69,16 @@ $$H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}
 
 **Betriebspunkt:**
 
-- Umformen und Einsetzen von $H_{m}$ der [linearisierte Entmagnetisierungsgleichung](#^ENTM) liefert:
+- Einsetzen von $H_{m}$ der [linearisierte Entmagnetisierungsgleichung](#^ENTM) liefert:
 
 $$
-B_\mathrm{r} = 
+\begin{align}
+B_{\mathrm{m}} &= -\mu_{\mathrm{ges}} \cancel{ \mu_{0} } \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}} \frac{B_{\mathrm{m}}-B_{\mathrm{r}}}{\cancel{ \mu_{0} }\mu_{\mathrm{m}}}\\
+B_{\mathrm{m}} &= (B_{\mathrm{r}}-B_{\mathrm{m}}) \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
+B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}\right) &= B_{\mathrm{r}} \frac{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}} \\
+B_{\mathrm{m}}\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right) &= B_{\mathrm{r}} \\
+B_{\mathrm{m}} &= B_{\mathrm{r}}\left(1+\frac{\mu_{\mathrm{m}}l_{\delta}A_{\mathrm{m}}}{\mu_{\mathrm{ges}}l_{\mathrm{m}}A_{\delta}}\right)
+\end{align}
 $$
 
 ### Energiedichte
