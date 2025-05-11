@@ -25,7 +25,13 @@ title: Permanentmagnet
 ## Linearisierte Entmagnetisierungs Kennlinie
 
 > [!def] **D1 - ENTM)** Linearisierte Entmagnetisierungs Kennlinie ^ENTM
-> $$ B_{m} = B_{r} \mp \mu_{0}\mu_{r}H_{m} \tag{ENTM}$$
+>
+> $$
+> \begin{align}
+> B_{m} &= B_{r} \mp \mu_{0}\mu_{r}H_{m}\\
+> \mp H_{m} &= \frac{B_{\mathrm{m}}-B_{\mathrm{r}}}{\mu_{0}\mu_{\mathrm{m}}}
+> \end{align}
+> $$
 
 **Vorzeichen:** $H_{m}$ ist im Arbeitspunkt negativ
 
@@ -45,17 +51,23 @@ Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** de
 
 ![invert_dark|300](assets/ArbeitsgeradePM.png)
 
+#### Einfacher Magnetkreis mit PM
 
-> [!example] Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
-> 
-> - Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
-> $$H_{m}l_{m} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$$
-> - Daraus folgt die Arbeitsgerade des PMs
-> 
-> $$
-> B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
-> $$
-> 
+Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
+
+- Durchflutung: Masche aufstellen wie [hier](../Elektrotechnik/Maschinen/Magnetkreis.md#^MK-EX-3):
+$$H_{m}l_{m} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0$$
+- Daraus folgt die Arbeitsgerade des PMs
+
+$$
+B_{\mathrm{m}} = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
+$$
+
+- Umformen und Einsetzen von $H_{m}$ der [linearisierte Entmagnetisierungsgleichung](#^ENTM) liefert:
+
+$$
+B_\mathrm{r} = 
+$$
 
 ### Energiedichte
 
