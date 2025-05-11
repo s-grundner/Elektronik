@@ -56,7 +56,7 @@ Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt
 
 ![invert_dark|400](../assets/EinfPMMagnKreis.png)
 
-> [!important] Arbeitsgerade einfacher Permanentmagnetischer Kreis
+> [!important] **Arbeitsgerade** $B_{\mathrm{m}}(H_{\mathrm{m}})$ einfacher Permanentmagnetischer Kreis
 > $$
 > B_{\mathrm{m}}(H_{\mathrm{m}}) = -\mu_{\mathrm{ges}} \mu_{0} \frac{l_{\mathrm{m}}A_{\delta}}{l_{\delta}A_{\mathrm{m}}}H_{m}
 > $$
@@ -88,9 +88,26 @@ $$
 
 ## Herleitung 1
 
-- [Durchflutung](../Elektrotechnik/Durchflutung.md): Masche aufstellen
+Ziel: $B_{\mathrm{m}}(H_{\mathrm{m}})$
+
+- [Durchflutung](../Elektrotechnik/Durchflutung.md): Masche aufstellen, dabei wird der Eisenkreis als ideal angenommen.
 
 $$
 H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0
 $$
 
+- [Materialgesetz](Konstanten/Permeablität.md) anwenden: $\mu_{0}H_{\delta}= B_{\delta}$
+- Mit der Luftspaltfläche Erweitern: $A_{\delta} / A_{\delta}$
+
+$$
+H_{\mathrm{m}}l_{\mathrm{m}} = -\frac{B_{\delta}}{\mu_{0}}l_{\delta}\cdot \frac{A_{\delta}}{A_{\delta}}
+$$
+
+- Magnetischer Fluss einsetzen: $\Phi = B_{\delta}A_{\delta}$
+- Es gibt nur eine Masche. Der Fluss durch den PM der gleiche wie durch den Luftspalt: $\Phi=B_{\mathrm{m}}A_{\mathrm{m}} = $
+
+$$
+H_{\mathrm{m}}l_{\mathrm{m}} = -\frac{\Phi}{\mu_{0}A_{\delta}}l_{\delta}
+$$
+
+- In einem Magnetkreis mit nur einer Masche ist der Fluss überall gleich
