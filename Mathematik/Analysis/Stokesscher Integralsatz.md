@@ -28,7 +28,7 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 > $$\int_{A}(\nabla \times \boldsymbol{F}) \cdot \mathrm{d} \boldsymbol{a}=\oint_L \boldsymbol{F} \cdot \mathrm{d} \boldsymbol{l}\tag{STOI}$$
 
 > [!hint]
-> häufig wird auch statt $L$ der Ausdruck $\partial A$ geschrieben. Wodurch verdeutlicht werden soll, dass die Kurve tatsächlich die Kontur der Fläche $A$ ist.
+> Häufig wird auch statt $L$ der Ausdruck $\partial A$ geschrieben, wodurch verdeutlicht werden soll, dass die Kurve tatsächlich die Kontur der Fläche $A$ ist.
 > 
 > Die Fläche $A$ leigt dabei im $\mathbb{R}^{3}$ und ist von der Kurve $L$ umgeben. Die Fläche kann auch *gekrümmt* sein. Kann aber keine Löcher enthalten.
 
