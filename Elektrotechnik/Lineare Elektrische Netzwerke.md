@@ -61,7 +61,7 @@ Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass
 
 ### Grafische Netzwerkanalyse
 
-Grafisch Hilfsmittel wie [Zeigerdiagramme](Wechselstromtechnik.md) und [Ortskurven](../Hardwareentwicklung/Ortskurve.md) erlauben ein rasches Verständnis des Verhaltens eines Wechselstrom netzwerks
+Grafisch Hilfsmittel wie [Zeigerdiagramme](Wechselstromtechnik.md) und [Ortskurven](../Systemtheorie/Übertragungsfunktion.md) erlauben ein rasches Verständnis des Verhaltens eines Wechselstrom netzwerks
 
 Im Zusammenhang mit den Zeigerdiagrammen werden wir uns noch mit der [Inversion von Zeigern](Wechselstromtechnik.md#Inversion%20von%20Zeigern) beschäftigen
   - um z.B. Z- oder Y-Zeigerdiagramme von Schaltungen zeichnen zu können, die eine Mischung aus Bauelementen in Serien- und Parallelschaltung enthalten

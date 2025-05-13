@@ -3,6 +3,7 @@ tags:
 aliases:
   - s-Domäne
   - Laplace Transformation
+  - s-Bereich
 keywords:
   - Zeitbereich
 subject:
@@ -52,7 +53,7 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
 ## Pole und Nullstellen
 
-> [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynom](../Mathematik/Algebra/Polynom.md) 
+> [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynome](../Mathematik/Algebra/Polynom.md) 
 > 
 > $$F(s)=\dfrac{Z(s)}{N(s)}$$ 
 > 
@@ -102,7 +103,7 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 >
-> > [!question] Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
+> > [!question]- Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
 > > ![](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) 
 > 
 > > [!question]- Explizite Schreibweise: $f(t)\circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$

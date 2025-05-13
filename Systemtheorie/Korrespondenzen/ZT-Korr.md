@@ -21,6 +21,7 @@ Schreibweise $f_{z}(z)$, da in der Regelungstechnik speziell nur Matrizen groß 
 
 ---
 
+## Rechenregel Signalschriebweise
 
 Hier explizit mit den Diskreten Folgen in Array-Schreibweise. Zusammenhang zwischen den Spalten ist daher:
  
@@ -41,6 +42,7 @@ Hier explizit mit den Diskreten Folgen in Array-Schreibweise. Zusammenhang zwisc
 | ix.   | Faltungssatz      | $$ \begin{aligned} & \sum_{j=0}^k f[k-j] g[j] \\ & \sum_{j=0}^k f[j] g[k-j] \end{aligned} $$ | $$ \mathcal{Z}\{f[n]\}(z) \cdot \mathcal{Z}\{g[n]\}(z) $$                                                          |
 ^Z-T1
 
+## Rechenregeln Folgenschreibweise
 
 Hier mit den Folgen in Indexschreibweise, und der Korrespondierenden Funktion als $f_{z}(z)$ bzw. $g_{z}(z)$
 
@@ -58,3 +60,7 @@ Hier mit den Folgen in Indexschreibweise, und der Korrespondierenden Funktion al
 | viii. |                   | $$ \begin{aligned}0 && k =0 \\ \frac{f_k}{k T_a} && k>0\end{aligned}$$         | $$\frac{1}{T_a} \int\limits_z^{\infty} \frac{f_z(\zeta)}{\zeta} \mathrm{d} \zeta $$ |
 | ix.   | Faltungssatz      | $$ \begin{aligned} & \sum_{j=0}^k f_{k-j} g_j \\ & \sum_{j=0}^k f_j g_{k-j} \end{aligned}$$ | $$f_z(z) g_z(z) $$                                                                  |
 ^Z-T2
+
+## Korrespondenztabelle
+
+

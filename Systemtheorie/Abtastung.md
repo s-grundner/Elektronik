@@ -22,6 +22,14 @@ $$ x[n] := x(nT_{s}) $$
 
 ## Abtastsystem
 
+## Matlab
+
+Abtasten in Matlab:
+
+- discrete to continuous: `d2c`
+- continuous to discrete: `c2d`
+
+Dient zum hin und her wechseln zwischen $G(s) \leftrightarrow G(z)$
 
 ---
 

@@ -32,4 +32,20 @@ Das Funktioniert nur wenn das LTI-System [BIBO-Stabil](z-Transformation.md#^BIBO
 
 > [!def] **D - Frequenzgang)** Frequency Response ^ZD-FreqResponse
 > 
-> $$H\left( e^{ j\Omega } \right) := \mathcal{F}_{\mathrm{D}}\left\{ h[n] \right\} = H(z) \Bigg|_{z = e^{ j\Omega }} $$
+> $$H\left( e^{ j\Omega } \right) := \mathcal{F}_{\mathrm{D}}\left\{ h[n] \right\}\left( e^{ j\Omega } \right)  = H(z) \Bigg|_{z = e^{ j\Omega }} $$
+
+## Übertragungsfunktion im q-Bereich
+
+> [!question] [q-Transformation](q-Transformation.md)
+
+
+$$
+\Omega := \frac{2}{T_{a}} \tan \left( \frac{T_{a}\omega}{2} \right) 
+$$
+
+
+für kleine $\omega T_{a}$ gilt die Kleinwinkle approximation des Tangens $\tan\alpha=\alpha$
+
+$$
+T_{a} \omega \ll 1 \implies \Omega = \frac{2}{T_{a}} \frac{T_{a}}{2}\omega = \omega
+$$
