@@ -1,10 +1,10 @@
 ---
 tags: ["DGL"]
 aliases: [
-	"lineare DGL zweiter Ordnung",
-	"DGL 2. Ordnung",
-	"charakteristische Gleichung",
-	"Differentialgleichung 2. Ordnung", "Differentialgleichungen 2. Ordnung"]
+  "lineare DGL zweiter Ordnung",
+  "DGL 2. Ordnung",
+  "Differentialgleichung 2. Ordnung",
+  "Differentialgleichungen 2. Ordnung"]
 subject: "mathe"
 source: ["Rudolf Frauenschuh"]
 ---
