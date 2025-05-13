@@ -14,15 +14,39 @@ cited:
 
 # Partialbruchzerlegung
 
-## [Polynomdivision](Polynomdivision.md)
+Rational gebrochene Polynome der Form
 
-## [Nullstellen](Nullstelle.md) Des Nenners bestimmen
+$$ F(s) = \frac{Z(s)}{N(s)} $$
 
-## Zerlegung in Partialbrüche
+können je nach der Nullstelleneigenschaften von $N(s)$ in eine Partialbruchdarstellung gebracht werden.
 
-## Koeffizienten der Partialbrüche bestimmen
+### Einfache Nullstellen
 
-## Integration der Partialbrüche
+$$ F(s) = A_{0} + \sum_{i=1}^{n} \frac{A_{i}}{s-s_{\infty i}} $$
+
+> [!warning] Funktioniert nur solange der Grad des Zählerpolynoms nicht größer ist als der Grad des Nennerpolynoms und die Pole nur Einfach sind.
+> - Ist $\operatorname{grad}Z(s)\geq \operatorname{grad}N(s)$ lässt sich eine [Polynomdivision](../Algebra/Polynomdivision.md) druchführen.
+
+### Mehrfache und konjugiert komplexe Polstellen
+
+$$ F(s) = A_{0} + \sum_{i=1}^{n} p_{i}(s) $$
+
+Kommt beim index $i$ eine der Folgenden Polstellenarten vor, wird dieser Summen Term mit dem genannten Ansatz ersetzt:
+
+- Ansatz für *eine* einfache **reelle Polstelle** (wie oben)
+$$p_{i}(s) = \frac{A}{s-s_{\infty i}}$$
+- Ansatz für *eine* mehrfache **reelle Polstelle** $s_{\infty i}$ der algebraischen Vielfachheit $l$
+$$p_{i}(s)=\frac{A_{1}}{s-s_{\infty i}} + \frac{A_{2}}{(s-s_{\infty i})^{2}} + \dots + \frac{A_{l}}{(s-s_{\infty i})^{l}}$$ 
+- Ansatz für *ein* einfaches **konjugiert komplexes Polstellenpaar**
+$$p_{i}(s)=\frac{Bs+C}{s^{2}+ps+q}$$
+- Ansatz für *ein* mehrfaches **konjugiert komplexes Polstellenpaar** der algebraischen Vielfachheit $l$
+
+$$p_{i}(s)=\frac{B_{1}s+C_{1}}{s^{2}+ps+q} + \frac{B_{2}s+C_{2}}{(s^{2}+ps+q)^{2}} + \dots + \frac{B_{l}s+C_{l}}{(s^{2}+ps+q)^{l}}$$
+
+## Anwendungen 
+
+- [Laplacetransformation](../../Systemtheorie/Laplacetransformation.md)
+- [z-Transformation](../../Systemtheorie/z-Transformation.md)
 
 # Beispiele
 

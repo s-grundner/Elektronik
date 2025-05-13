@@ -25,15 +25,14 @@ cited:
 
 ---
 
+ Für die Übertragungsfunktion eines Systems, bildet man die [einseitige Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort. 
 
 > [!def] **D1 - Übertragungsfunktion)** Transferfunction ^Transferfunction
 > $$G(s) \equiv H(s) := \mathcal{L}\left\{ h(t) \right\}(s) $$
 
 In der Regelungstechnik oft rational gebrochenes Polynom
 
-$$
-G(s) = \frac{Z(s)}{N(s)}
-$$
+$$ G(s) = \frac{Z(s)}{N(s)} $$
 
 ## Frequenzgang
 

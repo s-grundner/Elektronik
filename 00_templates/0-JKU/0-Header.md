@@ -16,7 +16,7 @@ professor:
 <%* if(typ == "VL") tR += "draft: true\n" _%>  
 <%* if(typ == "VL") tR += "title: " + tp.file.title + "\n"_%>
 <%* if(typ == "UE") tR += "due:\n" _%>
-title: 
+title: <% tp.file.title %>
 draft: true
 ---
 

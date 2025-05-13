@@ -27,7 +27,7 @@ $$
 f(a)=b \quad \text { oder } \quad a \mapsto b
 $$
 
-wie z.B.: $f: \mathbb{R} \rightarrow \mathbb{R}$ mit $f(x):=x$.
+> [!example] $f: \mathbb{R} \rightarrow \mathbb{R}$ mit $f(x):=2x+1$
 
 Abbildungen, welche in die reellen oder komplexen Zahlen abbilden, heißen auch **Funktionen**.
 

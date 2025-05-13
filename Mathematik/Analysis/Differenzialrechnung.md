@@ -133,4 +133,4 @@ Es gibt auch eine andere Möglichkeit, den Ableitungsbegriff auf Funktionen zwis
 
 - [Partielle Ableitung](Partielle%20Ableitung.md)
 - [Totale Ableitung](Analysis/Total%20Differenzierbar.md)
-- [Fréchet-Ableitung](Analysis/Fréchet-Ableitung.md)
+- [Frechet-Ableitung](Frechet-Ableitung.md)
