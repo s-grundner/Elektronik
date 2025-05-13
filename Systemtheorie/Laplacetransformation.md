@@ -17,7 +17,7 @@ professor:
   - Markus Passenbrunner
   - Andreas Stelzer
 title: Einseitige Laplacetransformation
-release:
+release: true
 ---
 
 # Einseitige Laplace Transformation
