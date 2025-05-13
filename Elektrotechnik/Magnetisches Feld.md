@@ -53,6 +53,29 @@ $$
 > ![invert_dark|300](assets/rechteHandmagn.png)
 
 
+## Elektromechanische Energieumwandlung
+
+Für die Umwandlung der Energie im elektromechanischen Wandler gilt der [Energieerhaltungssatz](Energieerhaltung.md)
+
+$$
+\mathrm{d}W_{\text{el}} = \mathrm{d}W_{\text{mech}} + \mathrm{d}W_{\text{mag}} + \mathrm{d}W_{\text{V}}
+$$
+mit
+
+- $\mathrm{d}W_{\text{el}}$ ... Aufgenommene elektrische Energie
+- $\mathrm{d}W_{\text{mech}}$ ... mechanische Arbeit
+- $\mathrm{d}W_{\text{mag}}$ ... magnetisch gespeicherte Energie 
+- $\mathrm{d}W_{\text{V}}$ ... Verluste
+
+Eine Änderung der Arbeit leifert analog die Leistung
+
+$$
+P_{\text{el}} = P_{\text{mech}} + \frac{\mathrm{d}W_{\text{mag}}}{\mathrm{d}t} + P_{\text{v}}
+$$
+
+
+
+
 ---
 
 # Flashcards
