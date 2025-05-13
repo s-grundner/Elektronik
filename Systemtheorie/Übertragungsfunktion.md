@@ -14,7 +14,7 @@ semester: SS24
 created: 4. September 2023
 professor:
   - Andreas Springer
-draft: true
+release: false
 title: Übertragungsfunktion
 cited:
 ---

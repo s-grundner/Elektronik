@@ -3,7 +3,7 @@ tags:
 aliases: 
 created: 6th May 2025
 title: 
-draft: false
+release: false
 ---
 
 

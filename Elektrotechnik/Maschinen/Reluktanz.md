@@ -10,7 +10,7 @@ subject:
 semester: SS25
 created: 10. März 2025
 professor: 
-draft: true
+release: false
 title: Reluktanz
 ---
  

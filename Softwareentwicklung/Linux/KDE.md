@@ -3,7 +3,7 @@ tags:
 aliases: 
 created: 27. Februar 2025
 title: 
-draft: false
+release: false
 ---
 
 # KDE Notes

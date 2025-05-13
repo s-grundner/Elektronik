@@ -11,7 +11,7 @@ subject:
 semester: SS25
 created: 12th March 2025
 professor: 
-draft: true
+release: false
 title: Diskrete Systeme
 ---
 

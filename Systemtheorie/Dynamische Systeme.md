@@ -7,8 +7,8 @@ subject:
   - Regelungstechnik
 semester: SS25
 created: 25th March 2025
-professor:
-draft: true
+professor: 
+release: false
 title: Kontinuierliche Systeme
 ---
 

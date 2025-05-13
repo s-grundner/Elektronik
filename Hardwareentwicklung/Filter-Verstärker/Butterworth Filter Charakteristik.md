@@ -11,7 +11,7 @@ semester: WS24
 created: 13. Dezember 2024
 professor:
   - Bernhard Jakoby
-draft: true
+release: false
 title: Butterworth Filter Charakteristik
 ---
  

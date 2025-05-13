@@ -12,7 +12,7 @@ semester: SS25
 created: 9th April 2025
 professor:
   - Mario Huemer
-draft: true
+release: false
 title: Moving Average
 ---
 

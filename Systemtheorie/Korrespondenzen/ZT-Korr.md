@@ -7,8 +7,8 @@ subject:
   - Regelungstechnik
 semester: SS25
 created: 9th May 2025
-professor:
-draft: true
+professor: 
+release: false
 title: Korr-Z
 ---
 

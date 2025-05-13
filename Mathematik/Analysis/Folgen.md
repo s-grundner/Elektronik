@@ -9,7 +9,7 @@ subject:
 semester: SS25
 created: 27th February 2025
 professor: 
-draft: true
+release: false
 title: Folgen
 satz:
   - STFO

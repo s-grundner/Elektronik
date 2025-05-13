@@ -12,7 +12,7 @@ created: 28. Februar 2024
 professor:
   - Andreas Neubauer
 title: Fréchet-Ableitung
-draft: true
+release: false
 ---
  
 

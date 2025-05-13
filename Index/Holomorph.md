@@ -9,7 +9,7 @@ subject:
 semester: SS25
 created: 13th May 2025
 professor: 
-draft: true
+release: false
 title:
 ---
 

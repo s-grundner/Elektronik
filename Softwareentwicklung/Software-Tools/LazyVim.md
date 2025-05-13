@@ -3,7 +3,7 @@ tags:
 aliases: 
 created: 30th April 2025
 title: 
-draft: false
+release: false
 ---
 
 # LazyVim - Neovim Plugin Manager

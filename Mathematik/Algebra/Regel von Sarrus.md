@@ -7,8 +7,8 @@ subject:
   - VL
 semester: WS24
 created: 23. Februar 2025
-professor:
-draft: false
+professor: 
+release: false
 title: Regel von Sarrus
 ---
  

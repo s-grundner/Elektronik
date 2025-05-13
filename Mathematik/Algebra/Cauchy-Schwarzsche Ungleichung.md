@@ -8,7 +8,7 @@ subject:
 semester: SS25
 created: 26th March 2025
 professor: 
-draft: true
+release: false
 title: Cauchy-Schwarzsche Ungleichung
 ---
 

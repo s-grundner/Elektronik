@@ -3,7 +3,7 @@ tags:
 aliases: 
 created: 28. Februar 2025
 title: 
-draft: false
+release: false
 ---
 
 # Git - Lokaler Server

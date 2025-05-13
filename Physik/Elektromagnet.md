@@ -1,7 +1,7 @@
 ---
 tags: 
 aliases: 
-keywords: []
+keywords: 
 subject:
   - Elektrische Maschinen und Antriebselektronik
   - VL
@@ -9,7 +9,7 @@ semester: SS25
 created: 21. November 2022
 professor:
   - Wolfgang Gruber
-draft: true
+release: false
 title: Elektromagnet
 ---
  

@@ -7,8 +7,8 @@ subject:
   - Regelungstechnik
 semester: SS25
 created: 4th April 2025
-professor:
-draft: true
+professor: 
+release: false
 title: Nilpotente Matrix
 ---
 

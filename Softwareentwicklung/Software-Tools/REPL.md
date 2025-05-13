@@ -4,7 +4,7 @@ aliases:
   - Read-Eval-Print Loop
 created: 9th May 2025
 title: 
-draft: false
+release: false
 ---
 
 # Read-Eval-Print Loop

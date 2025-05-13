@@ -7,8 +7,8 @@ subject:
   - Regelungstechnik
 semester: SS25
 created: 7th May 2025
-professor:
-draft: true
+professor: 
+release: false
 title: Zeitdiskrete Übertragungsfunktion
 ---
 

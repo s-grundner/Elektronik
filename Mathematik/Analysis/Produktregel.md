@@ -11,7 +11,7 @@ created: 28. September 2024
 professor: 
 satz:
   - DQPQ
-draft: "true"
+release: false
 ---
  
 

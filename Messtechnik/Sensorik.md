@@ -11,7 +11,7 @@ semester: SS25
 created: 27th February 2025
 professor:
   - Marco Da Silva
-draft: false
+release: false
 title: Sensorik
 ---
  

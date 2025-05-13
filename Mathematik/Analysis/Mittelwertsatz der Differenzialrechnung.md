@@ -13,7 +13,7 @@ professor:
 satz:
   - MWSD
 title: Mittelwertsatz der Differenzialrechnung
-draft: false
+release: false
 ---
  
 

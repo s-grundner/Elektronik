@@ -9,7 +9,7 @@ subject:
 semester: WS24
 created: 26. Februar 2025
 professor: 
-draft: true
+release: false
 title: Mehrstufige Einschrittverfahren
 ---
  

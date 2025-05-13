@@ -5,7 +5,7 @@ aliases:
   - Entropie
 created: 27th February 2025
 title: Informationsgehalt & Entropie
-draft: false
+release: false
 symbol: $I_x$, $H$
 ---
 

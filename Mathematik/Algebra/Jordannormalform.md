@@ -9,7 +9,7 @@ semester: SS25
 created: 20th March 2025
 professor:
   - Markus Schöberl
-draft: true
+release: false
 title: Jordannormalform
 ---
  

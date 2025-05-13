@@ -12,7 +12,7 @@ subject:
 semester: SS25
 created: 7. März 2025
 professor: 
-draft: false
+release: false
 title: Stabilität nach Ljapunov
 ---
  

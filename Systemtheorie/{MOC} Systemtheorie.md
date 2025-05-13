@@ -13,7 +13,7 @@ subject:
 semester: SS25
 created: 11th March 2025
 professor: 
-draft: true
+release: false
 title: Systemtheorie
 ---
  

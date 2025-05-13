@@ -14,7 +14,7 @@ subject:
 semester: SS25
 created: 8th April 2025
 professor: 
-draft: true
+release: false
 title: Stabilität und Beschränktheit
 ---
 
