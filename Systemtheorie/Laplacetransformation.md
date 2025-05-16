@@ -112,7 +112,7 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
 
-![LAPT-Korr](Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
+![LAPT-Korr](Systemtheorie/Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
 
 ## Rücktransformation
 
