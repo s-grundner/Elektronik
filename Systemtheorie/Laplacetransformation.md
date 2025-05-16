@@ -62,13 +62,13 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > - Nullstellen $s_{\infty}$ des Nennerpolynoms $N(s)$ heißen **Pole** vom $F(s)$.
 > - Nullstellen $s_{0}$ des Zählerpolynoms $Z(s)$ heißen **Nullstellen** von $F(s)$.
 > 
-> Nach dem [Fundamentalsatz der Algebra](Mathematik/Algebra/Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf. Um die Terme zu vereinfachen, bedient man dich der [Partialbruchzerlegung](Mathematik/Analysis/Partialbruchzerlegung.md).
+> Nach dem [Fundamentalsatz der Algebra](../Mathematik/Algebra/Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf. Um die Terme zu vereinfachen, bedient man dich der [Partialbruchzerlegung](../Mathematik/Analysis/Partialbruchzerlegung.md).
 
 ### Pol-Nullstellen Diagramm und Konvergenzbedingungen
 
 Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm eingezeichnet werden:
 
-![invert_dark|500](Systemtheorie/assets/polnst.png)
+![invert_dark|500](./assets/polnst.png)
 
 Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
 
@@ -85,10 +85,10 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 >
 > > [!question]- Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
-> > ![](Systemtheorie/Korrespondenzen/LAPT-Korr.md#^LAPT-T1) 
+> > ![](./Korrespondenzen/LAPT-Korr.md#^LAPT-T1) 
 > 
 > > [!question]- Explizite Schreibweise: $f(t)\circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$
-> > ![](Systemtheorie/Korrespondenzen/LAPT-Korr.md#^LAPT-T2)
+> > ![](./Korrespondenzen/LAPT-Korr.md#^LAPT-T2)
 
 > [!satz] **S3 - AEWS)** Anfangs und Endwertsatz ^AEWS
 > 
@@ -112,7 +112,7 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
 
-![LAPT-Korr](Systemtheorie/Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
+![LAPT-Korr](./Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
 
 ## Rücktransformation
 
@@ -161,7 +161,7 @@ Polstellen bei verschiedenen Schwingbedingungen:
 
 Polstellenlage vs. Zeitbereichssignal
 
-![invert_dark|1000](Systemtheorie/assets/laplaceGrid.png)
+![invert_dark|1000](./assets/laplaceGrid.png)
 
 # Tags
 
