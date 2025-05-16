@@ -6,13 +6,15 @@ aliases:
   - SRAM
   - PSRAM
   - DRAM
-keywords: 
+keywords:
+  - RAM
 subject:
   - Technische Informatik
-  - "336.001"
-semester: 1
+  - KV
+semester: WS23
 created: 9th January 2024
 professor:
+  - Timm Ostermann
 ---
  
 

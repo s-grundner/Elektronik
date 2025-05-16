@@ -1,15 +1,23 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Kombinatorik
 keywords: 
 subject:
+  - KV
+  - Technische Informatik
   - PR
   - Hardwaredesign
-semester: WS24
-created: 14. Oktober 2024
+semester: WS23
+created: 16th May 2025
 professor:
+  - Timm Ostermann
+  - Michael Lunglmayr
+draft: true
+title: Kombinatorische Logik
+release: false
 ---
- 
+
 # Kombinatorische Logik
 
 > [!important] Kombinatorische Logik bildet eine Bitmenge $\mathbb{B}$ am Eingang auf eine Bitmenge am Ausgang ab.

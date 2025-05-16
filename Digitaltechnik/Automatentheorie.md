@@ -10,8 +10,8 @@ keywords:
   - Moore
 subject:
   - Technische Informatik
-  - "336.001"
-semester: 1
+  - KV
+semester: WS23
 created: 28. November 2023
 professor:
   - Timm Ostermann

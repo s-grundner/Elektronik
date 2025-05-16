@@ -15,6 +15,8 @@ release: true
 	
 # Korrespondenzen und Rechensätze
 
+[Laplacetransformation](../Laplacetransformation.md)
+
 ## Sätze: Einfache Schreibweise mit $F(s)$
 
 Für eine schnelle Referenz ist hier der Zeit Vs Bildbereich gelistet.
