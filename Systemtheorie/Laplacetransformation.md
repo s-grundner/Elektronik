@@ -68,7 +68,8 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
 Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm eingezeichnet werden:
 
-![invert_dark|500](Systemtheorie/assets/polnst.png)
+![invert_dark|500](assets/polnst.png)
+
 
 Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
 
