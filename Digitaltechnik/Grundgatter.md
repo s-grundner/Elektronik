@@ -16,7 +16,6 @@ subject:
 semester: WS24
 created: 14. Oktober 2024
 professor: 
-draft: true
 title: Grundgatter
 release: false
 ---
@@ -40,7 +39,6 @@ $a$ und $b$ sind Eingänge und $y$ der Ausgang des jeweiligen Gatters.
 | XNOR   | $y = \overline{a\oplus b} = (\bar{a} \cdot \bar{b}) + (a \cdot b)$ |
 
 ## Wahrheitstabelle
-
 
 ## Schaltsymbole
 

@@ -13,7 +13,6 @@ created: 16th May 2025
 professor:
   - Timm Ostermann
   - Michael Lunglmayr
-draft: true
 title: Kombinatorische Logik
 release: false
 ---

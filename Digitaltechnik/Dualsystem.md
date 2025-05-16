@@ -11,7 +11,6 @@ semester: WS23
 created: 15th May 2025
 professor:
   - Timm Ostermann
-draft: true
 title: Dualsystem
 release: false
 ---
@@ -30,7 +29,7 @@ release: false
 > [!def] Vorzeichen-Wert System Darstellung / Signed Magnitude
 > $$N=(s,a_{n-1}a_{n-2}\dots a_{1}a_{0},a_{-1}a_{-2}\dots a_{-m})_{r}$$
 
-### Komplement Darstellung  
+### Komplement Darstellung
 
 - 2er Komplement schwieriger zu bilden aber leichter zu rechnen (einfach Übertrag entfernen).
 - 1er Komplement leichter zu bilden, schwieriger zu rechnen
@@ -84,9 +83,9 @@ release: false
 > \end{align}
 > $$
 
-
 ## Rechnen im Dualsystem
-### Add & Shift 
+
+### Add & Shift
 
 ![invert_dark](assets/addShift.png)
 

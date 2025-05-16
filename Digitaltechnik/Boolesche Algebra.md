@@ -11,11 +11,9 @@ subject:
 semester: WS23
 created: 27th February 2025
 professor: 
-draft: true
 title: Boolesche Algebra
-release: false
+release: true
 ---
-
 
 # Boolesche Algebra
 
@@ -102,7 +100,6 @@ $$
 > &\text{Involution}\qquad \overline{(\bar{x})}=x
 > \end{align}
 > $$
-
 
 ## Schaltalgebra
 

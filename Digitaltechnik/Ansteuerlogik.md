@@ -14,7 +14,6 @@ semester: WS23
 created: 27th February 2025
 professor:
   - Timm Ostermann
-draft: true
 title: Ansteuerlogik
 release: false
 ---
