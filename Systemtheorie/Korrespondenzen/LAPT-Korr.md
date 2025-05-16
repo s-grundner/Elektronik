@@ -1,5 +1,21 @@
+---
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Regelungstechnik
+  - Signalverarbeitung
+semester: SS25
+created: 7th May 2025
+professor: 
+title: LAPT-Korr
+release: true
+---
 	
 # Korrespondenzen und Rechensätze
+
+[Laplacetransformation](../Laplacetransformation.md)
 
 ## Sätze: Einfache Schreibweise mit $F(s)$
 

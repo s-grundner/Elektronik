@@ -12,7 +12,7 @@ semester: SS25
 created: 5. März 2025
 professor:
   - Marco Da Silva
-draft: false
+release: false
 title: Einheitenvorsatz
 ---
  

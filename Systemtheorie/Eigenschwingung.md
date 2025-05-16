@@ -8,7 +8,7 @@ subject:
 semester: SS25
 created: 27th November 2024
 professor: 
-draft: true
+release: false
 title: Eigenschwingung
 ---
 # Eigenschwingungen

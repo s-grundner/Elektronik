@@ -3,7 +3,7 @@ tags:
 aliases:
   - k8s
 created: 22. Februar 2025
-draft: false
+release: false
 ---
 
 # Kubernetes

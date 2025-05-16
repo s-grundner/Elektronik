@@ -7,8 +7,8 @@ subject:
   - Signalverarbeitung
 semester: SS25
 created: 19th March 2025
-professor:
-draft: true
+professor: 
+release: false
 title: Abtastung
 ---
 
@@ -22,6 +22,14 @@ $$ x[n] := x(nT_{s}) $$
 
 ## Abtastsystem
 
+## Matlab
+
+Abtasten in Matlab:
+
+- discrete to continuous: `d2c`
+- continuous to discrete: `c2d`
+
+Dient zum hin und her wechseln zwischen $G(s) \leftrightarrow G(z)$
 
 ---
 

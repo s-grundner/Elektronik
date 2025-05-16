@@ -4,12 +4,11 @@ aliases:
 keywords: 
 subject:
   - Technische Informatik
-  - "336.001"
-semester:
-  - WS23
-  - B1
+  - KV
+semester: WS23
 created: 10. Oktober 2023
 professor:
+  - Timm Ostermann
 ---
  
 

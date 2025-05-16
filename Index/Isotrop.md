@@ -7,7 +7,7 @@ aliases:
   - Isotriopie
 created: 9th May 2025
 title: 
-draft: true
+release: false
 ---
 
 # Isotrop

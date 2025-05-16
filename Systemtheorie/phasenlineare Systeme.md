@@ -7,8 +7,8 @@ subject:
   - Signalverarbeitung
 semester: SS25
 created: 29. April 2025
-professor:
-draft: true
+professor: 
+release: false
 title: phasenlineare Systeme
 ---
 

@@ -7,8 +7,8 @@ subject:
   - VL
 semester: SS25
 created: 3. März 2025
-professor:
-draft: false
+professor: 
+release: false
 title: Drehfeldmaschine
 ---
  

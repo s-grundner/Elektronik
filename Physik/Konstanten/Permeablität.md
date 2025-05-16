@@ -18,7 +18,7 @@ subject:
 semester: SS25
 created: 10. März 2025
 professor: 
-draft: true
+release: false
 title: Permeabilität
 symbol: $\mu_{0}$
 value: $1.25663706127(20) \cdot 10^{-6}$

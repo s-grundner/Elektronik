@@ -17,7 +17,7 @@ semester: SS25
 created: 5th March 2025
 professor:
   - Marco Da Silva
-draft: true
+release: false
 title: Messtechnik
 ---
  

@@ -36,8 +36,7 @@ nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
 
 # Tags
 
-## Timischl/Kaiser [Übungen](https://a.digi4school.at/ebook/5011/?page=164)
-
+- Timischl/Kaiser [Übungen](https://a.digi4school.at/ebook/5011/?page=164)
 - [UE-Kombinatorik](../assets/pdf/UE-Kombinatorik.pdf)
 
 ## Übungsaufgaben
@@ -50,4 +49,4 @@ nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
 
 # Tags
 
-- [[../../Digitaltechnik/Kombinatorische Logik]]
+- [[../../Digitaltechnik/Grundgatter]]

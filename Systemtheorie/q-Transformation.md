@@ -1,24 +1,30 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Tustin
+  - Bilineartransformation nach Tustin
 keywords: 
 subject:
   - VL
   - Regelungstechnik
 semester: SS25
 created: 7th May 2025
-professor:
-draft: true
+professor: 
+release: false
 title: q-Transformation
 ---
 
 # q-Transformation
 
-> [!question]  Parallel zur [z-Transformation](z-Transformation.md)
+> [!question] [z-Transformation](z-Transformation.md)
 
-Für den Entwurf digitaler Regelkreise spielt der Frequenzgang des Abtastsystems dieselbe Rolle wie bei zeitkontinuierlichen Systemen. Die Handhabung der Funktion $G\left( e^{ j\omega T_{a} } \right)$ word hedoch durch die Tatsache erschwert, dass hier eine transzendente Funktion in $\omega$ vorliegt.
+Für den Entwurf digitaler Regelkreise spielt der Frequenzgang des Abtastsystems dieselbe Rolle wie bei zeitkontinuierlichen Systemen. Die Handhabung der Funktion $G\left( e^{ j\omega T_{a} } \right)$ wird jedoch durch die Tatsache erschwert, dass hier eine transzendente Funktion in $\omega$ vorliegt.
 
-Es ist also das Ziel, die Frequenz  $\omega$ so zu transformieren, dass in einer transformierten Frequenz $\Omega$ der Frequenzgang des Abtastsystems eine rationale Funktion ist. Die ist dann möglich wenn man eine  Transformation so findetm dass die  obere Hälfte des Einheitskreises $e^{ j\omega T_{a} }$ im Intervall $0 \leq \omega < \frac{\pi}{T_{a}}$ der komlexen $w$-Ebene abgebildet wird. Genau dies kann aber mithilfe der Transformationsvorschrift 
+---
+
+Das Ziel ist es, die Frequenz  $\omega$ so zu transformieren, dass in einer transformierten Frequenz $\Omega$ der Frequenzgang des Abtastsystems eine rationale Funktion ist.
+
+Die ist dann möglich, wenn man eine  Transformation so findet, dass die obere Hälfte des Einheitskreises $e^{ j\omega T_{a} }$ im Intervall $0 \leq \omega < \frac{\pi}{T_{a}}$ der komlexen $w$-Ebene abgebildet wird. Genau dies kann aber mithilfe der Transformationsvorschrift 
 
 $$ w := \frac{z-1}{z+1} \tag{QTRF} $$  ^QTRF
 
@@ -33,6 +39,22 @@ $$
 \Omega \frac{T_{a}}{2} = \tan \left( \frac{\omega T_{a}}{2} \right) \qquad \implies \qquad \Omega = \frac{2}{T_{a}}\tan \left( \frac{\omega T_{a}}{2} \right)
 $$
 
+
+
+![invert_dark](assets/qVSz.png)
+---
+
+> [!hint] matlab Befehl
+> 
+> ```matlab
+> tustin()
+> ```
+
+
+$$
+G(q) = \frac{1-q}{3+q}, \quad T_{a}=2 \implies \Omega =1
+$$
+Um die realsierbarkeit / Sprungfähigkeit festzustellen muss $T_{a}$ bekannt sein. Im s-Bereich die grade von Nenner und Zähler vergleichen. Im q-Bereich Grenzwerte
 
 
 

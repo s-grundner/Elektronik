@@ -19,7 +19,7 @@ def:
   - FT
   - IFT
 title: Fourertransformation
-draft:
+release:
 ---
 
 # Fourier-Transformation

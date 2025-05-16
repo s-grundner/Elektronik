@@ -4,7 +4,7 @@ tags:
 aliases: 
 created: 27th February 2025
 title: 
-draft: false
+release: false
 symbol: $H_0$
 ---
 

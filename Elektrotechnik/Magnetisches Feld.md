@@ -1,5 +1,5 @@
 ---
-banner: "/assets/banner/MagnField.jpg"
+banner: /assets/banner/MagnField.jpg
 banner_y: 0.676
 tags:
   - MOC
@@ -16,7 +16,7 @@ created: 31. August 2023
 professor:
   - Bernhard Jakoby
   - Wolfgang Gruber
-draft: 
+release: 
 title: Das Magnetische Feld
 ---
  
@@ -51,6 +51,29 @@ $$
 > Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
 >
 > ![invert_dark|300](assets/rechteHandmagn.png)
+
+
+## Elektromechanische Energieumwandlung
+
+Für die Umwandlung der Energie im elektromechanischen Wandler gilt der [Energieerhaltungssatz](Energieerhaltung.md)
+
+$$
+\mathrm{d}W_{\text{el}} = \mathrm{d}W_{\text{mech}} + \mathrm{d}W_{\text{mag}} + \mathrm{d}W_{\text{V}}
+$$
+mit
+
+- $\mathrm{d}W_{\text{el}}$ ... Aufgenommene elektrische Energie
+- $\mathrm{d}W_{\text{mech}}$ ... mechanische Arbeit
+- $\mathrm{d}W_{\text{mag}}$ ... magnetisch gespeicherte Energie 
+- $\mathrm{d}W_{\text{V}}$ ... Verluste
+
+Eine Änderung der Arbeit leifert analog die Leistung
+
+$$
+P_{\text{el}} = P_{\text{mech}} + \frac{\mathrm{d}W_{\text{mag}}}{\mathrm{d}t} + P_{\text{v}}
+$$
+
+
 
 
 ---

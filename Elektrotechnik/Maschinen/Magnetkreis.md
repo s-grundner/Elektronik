@@ -7,8 +7,8 @@ subject:
   - VL
 semester: SS25
 created: 10. März 2025
-professor:
-draft: true
+professor: 
+release: false
 title: Magnetkreis
 ---
  

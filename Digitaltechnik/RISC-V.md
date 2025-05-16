@@ -10,7 +10,7 @@ subject:
 semester: SS26
 created: 13th March 2025
 professor: 
-draft: true
+release: false
 title: RISC-V
 ---
  

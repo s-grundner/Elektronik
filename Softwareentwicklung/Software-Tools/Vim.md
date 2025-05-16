@@ -6,7 +6,7 @@ aliases:
   - NVim
 created: 17. Januar 2024
 title: 
-draft: false
+release: false
 ---
 
 # Vim

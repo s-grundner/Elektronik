@@ -8,9 +8,9 @@ subject:
   - Mathematik 2
   - VL
 semester: WS24
-professor:
-draft: false
-title: "L'Hospital"
+professor: 
+release: false
+title: L'Hospital
 ---
  
 

@@ -3,7 +3,7 @@ tags:
 aliases: 
 created: 3. März 2025
 title: 
-draft: false
+release: false
 ---
 
 # Excalidraw

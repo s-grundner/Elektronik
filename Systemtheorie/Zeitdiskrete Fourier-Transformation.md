@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: 
 aliases:
   - DTFT
 keywords: 
@@ -10,7 +10,7 @@ subject:
 semester: SS25
 created: 19th March 2025
 professor: 
-draft: true
+release: false
 title: Zeitdiskrete Fouriertransformation
 ---
  

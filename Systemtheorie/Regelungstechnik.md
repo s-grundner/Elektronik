@@ -10,7 +10,7 @@ semester: SS25
 created: 6. März 2025
 professor:
   - Markus Schöberl
-draft: false
+release: false
 title: Regelungstechnik
 ---
  

@@ -3,6 +3,7 @@ tags:
 aliases:
   - s-Domäne
   - Laplace Transformation
+  - s-Bereich
 keywords:
   - Zeitbereich
 subject:
@@ -15,6 +16,8 @@ created: 4. März 2024
 professor:
   - Markus Passenbrunner
   - Andreas Stelzer
+title: Einseitige Laplacetransformation
+release: true
 ---
 
 # Einseitige Laplace Transformation
@@ -36,7 +39,7 @@ Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, d
 > [!question] Einseitigkeit:
 > - Es werden nur [kausale](Kausalität.md) [Signale](Signale.md) betrachtet
 >     - z.B. Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
-> - Wegen der Einseitigkeit wird bei der Funktion des Zeitsignals die [Heaviside](Einheitssprungfunktion.md)-Funktion $\sigma(t)$ dazu Multipliziert.
+> - Wegen der Einseitigkeit wird bei der Funktion des Zeitsignals die [Heaviside](Einheitssprungfunktion.md)-Funktion $\sigma(t)$ (oft implizit) dazu Multipliziert.
 >     - (nicht zu verwechseln mit dem neuen eingeführten Parameter $\sigma$)
 
 
@@ -46,63 +49,42 @@ Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, d
 > 
 > Die Einseitige Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
-Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen: 
+$F(s)$ ist eine [holomorphe](../Index/Holomorph.md) Funktion. Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen: 
 
 $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 
 ## Pole und Nullstellen
 
-> [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynom](../Mathematik/Algebra/Polynom.md) 
+> [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynome](../Mathematik/Algebra/Polynom.md) 
 > 
 > $$F(s)=\dfrac{Z(s)}{N(s)}$$ 
 > 
 > - Nullstellen $s_{\infty}$ des Nennerpolynoms $N(s)$ heißen **Pole** vom $F(s)$.
 > - Nullstellen $s_{0}$ des Zählerpolynoms $Z(s)$ heißen **Nullstellen** von $F(s)$.
 > 
-> Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf.
+> Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf. Um die Terme zu vereinfachen, bedient man dich der [Partialbruchzerlegung](../Mathematik/Analysis/Partialbruchzerlegung.md).
 
-### Einfache Nullstellen
-
-$F(s)$ lässt sich mit dieser Beschränkung als [Partialbruch](../Mathematik/Analysis/Partialbruchzerlegung.md) anschreiben:
-
-$$ F(s) = A_{0} + \sum_{i=1}^{n} \frac{A_{i}}{s-s_{\infty i}} $$
-
-Diese Schreibweise hat den Vorteil, dass dann alle Summanden aufgrund der Linearität getrennt (rück)transformiert werden können.
-
-> [!warning] Funktioniert nur solange der Grad des Zählerpolynoms nicht größer ist als der Grad des Nennerpolynoms und die Pole nur Einfach sind.
-> - Ist $\operatorname{grad}Z(s)\geq \operatorname{grad}N(s)$ lässt sich eine [Partialbruchzerlegung](../Mathematik/Analysis/Partialbruchzerlegung.md) druchführen.
-
-### Mehrfache und konjugiert komplexe Polstellen
-
-$$ F(s) = A_{0} + \sum_{i=1}^{n} p_{i}(s) $$
-
-Kommt beim index $i$ eine der Folgenden Polstellenarten vor, wird dieser Summen Term mit dem genannten Ansatz ersetzt:
-
-- Ansatz für *eine* einfache **reelle Polstelle** (wie oben)
-$$p_{i}(s) = \frac{A}{s-s_{\infty i}}$$
-- Ansatz für *eine* mehrfache **reelle Polstelle** $s_{\infty i}$ der algebraischen Vielfachheit $l$
-$$p_{i}(s)=\frac{A_{1}}{s-s_{\infty i}} + \frac{A_{2}}{(s-s_{\infty i})^{2}} + \dots + \frac{A_{l}}{(s-s_{\infty i})^{l}}$$ 
-- Ansatz für *ein* einfaches **konjugiert komplexes Polstellenpaar**
-$$p_{i}(s)=\frac{Bs+C}{s^{2}+ps+q}$$
-- Ansatz für *ein* mehrfaches **konjugiert komplexes Polstellenpaar** der algebraischen Vielfachheit $l$
-$$p_{i}(s)=\frac{B_{1}s+C_{1}}{s^{2}+ps+q} + \frac{B_{2}s+C_{2}}{(s^{2}+ps+q)^{2}} + \dots + \frac{B_{l}s+C_{l}}{(s^{2}+ps+q)^{l}}$$
-
-### Pol-Nullstellen Diagramm
+### Pol-Nullstellen Diagramm und Konvergenzbedingungen
 
 Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm eingezeichnet werden:
 
 ![invert_dark|400](assets/polnst.png)
 
-> [!question] Bedeutung der [Konvergenzsabzisse](#Konvergenzsverhalten)
-> - Die Konvergenzabzisse ist eine zur $\Im$-Achse parallele Gerade auf welcher der Pol mit dem **größten Realteil** liegt.
-> - Das heißt, dass sich alle Pole der Laplace-Transformierten links dieser Abzisse befinden
-> - Das Konvergenzgebiet ist somit auf der rechten Halbebene der Abzisse.
+Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
+
+> [!satz] **S1 - LTKB)** Konvergenzbedingung für die Laplace-Transformierte 
+> 
+> $$\overset{ n }{ \underset{ i=1 }{ \operatorname{max} } } ~\sigma_{\infty i} < \sigma$$
+> 
+> Das heißt, dass das Laplace-Integral in der *Halbebene* **rechts** jenes Pols mit dem **größten Realteil** konvergiert. 
+
+Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstellen%20Diagramm)
 
 ## Sätze
 
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 >
-> > [!question] Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
+> > [!question]- Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
 > > ![](Korrespondenzen/LAPT-Korr.md#^LAPT-T1) 
 > 
 > > [!question]- Explizite Schreibweise: $f(t)\circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$
@@ -129,8 +111,8 @@ Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm ein
 ## Korrespondenzen
 
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
-> 
-> ![LAPT-Korr](Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
+
+![LAPT-Korr](Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
 
 ## Rücktransformation
 
@@ -148,41 +130,28 @@ Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 
 ## Existenzbedingungen
 
-Bedingungen für dei Existenz der Laplace-Transformierten $F(s)$ der funktion $f(t)$:
+Bedingungen für die Existenz der Laplace-Transformierten $F(s)$ der Funktion $f(t)$:
 
-$$
-\lvert f(t) \rvert \leq B\cdot e^{ At } \quad \text{für } t\geq 0
-$$
-für geeignete reelle Konstanten $A$ und $B$ und dass $f(t)$ in jedem endlichen intervall $a\leq t\leq b$ nur endlich viele Springstellen besitzt.
+$$ \lvert f(t) \rvert \leq Me^{ \alpha t } \quad \text{für } t\geq 0 $$
 
-### Konvergenzsverhalten
-
-Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
-
-> [!satz] **S1 - LTKB)** Konvergenzbedingung für die Laplace-Transformierte 
-> 
-> $$\overset{ n }{ \underset{ i=1 }{ \operatorname{max} } } ~\sigma_{\infty i} < \sigma$$
-> 
-> Das heißt, dass das Laplace-Integral in der *Halbebene* **rechts** jenes Pols mit dem **größten Realteil** konvergiert. 
-
-Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstellen%20Diagramm)
+für geeignete reelle Konstanten $M$ und $\alpha$ und dass $f(t)$ in jedem endlichen intervall $a\leq t\leq b$ nur endlich viele Sprungstellen besitzt.
 
 > [!hint] **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
 > 
-> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ höchstens exponentiell wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
+> Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ **höchstens exponentiell** wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
 > $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
 > 
 > Sei $f \in \mathcal{E}$ und $s=u+i v$ mit $u, v \in \mathbb{R}$ und $\alpha<u$. Dann gilt:
 > $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $\lvert\cos (v t)-i \sin (v t)\rvert=1$ erhalten wir nun:
 > 
 > $$
->  \left| \int_0^{\infty} f(t) e^{-s t} \mathrm{~d} t \right| \leq M \int_0^{\infty} e^{(\alpha-u) t} d t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
+>  \left| \int_0^{\infty} f(t) e^{-s t} \mathrm{~d} t \right| \leq M \int_0^{\infty} e^{(\alpha-u) t} \mathrm{d} t=\lim _{x \rightarrow \infty} \frac{M}{u-\alpha}\left(1-e^{(\alpha-u) x}\right)=\frac{M}{u-\alpha}
 > $$
 
 > [!satz] **S2 - TRF)** Transformierbare Funktionen
-> Sei $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\mathrm{Re}(s)>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
+> Sei $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\Re \left\{ s \right\}>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
 
-### Stabilität des Systems
+## Stabilität des Systems
 
 Polstellen bei verschiedenen Schwingbedingungen:
 

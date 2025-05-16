@@ -9,7 +9,7 @@ subject:
 semester: SS25
 created: 25th March 2025
 professor: 
-draft: true
+release: false
 title: Erreichbarkeit
 ---
 
