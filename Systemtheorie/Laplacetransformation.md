@@ -62,13 +62,13 @@ $$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
 > - Nullstellen $s_{\infty}$ des Nennerpolynoms $N(s)$ heißen **Pole** vom $F(s)$.
 > - Nullstellen $s_{0}$ des Zählerpolynoms $Z(s)$ heißen **Nullstellen** von $F(s)$.
 > 
-> Nach dem [Fundamentalsatz der Algebra](Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf. Um die Terme zu vereinfachen, bedient man dich der [Partialbruchzerlegung](../Mathematik/Analysis/Partialbruchzerlegung.md).
+> Nach dem [Fundamentalsatz der Algebra](Mathematik/Algebra/Polynom.md) ist die Anzahl der Nullstellen gleich der Grad des Polynoms. Nullstellen treten als (vielfache) relle und/oder konjugiert komplexe Zahlen auf. Um die Terme zu vereinfachen, bedient man dich der [Partialbruchzerlegung](Mathematik/Analysis/Partialbruchzerlegung.md).
 
 ### Pol-Nullstellen Diagramm und Konvergenzbedingungen
 
 Die Oben definierten Pole und Nullstellen von $F(s)$ können in ein Diagramm eingezeichnet werden:
 
-![invert_dark|400](assets/polnst.png)
+![invert_dark|500](Systemtheorie/assets/polnst.png)
 
 Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
 
