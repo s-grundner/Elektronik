@@ -78,9 +78,10 @@ Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\parti
 
 Für die Spulenspannung einer Realen Spule mit Äquvalenten Serienwiderstand $R$ gilt dann
 
-$$
-u_{L} = Ri + \frac{\mathrm{d}\Psi}{\mathrm{d}t} \overset{ \Psi = Li}{ \iff } Ri + L \frac{\mathrm{d}i}{\mathrm{d}t}
-$$
+> [!def] **D - UIND)** Induzierte Spannung ^UIND
+> $$
+> u_{L} = Ri + \frac{\mathrm{d}\Psi}{\mathrm{d}t} \quad\overset{ L = \tfrac{\mathrm{d}\Psi}{\mathrm{d}i}}{ \iff } \quad Ri + L \frac{\mathrm{d}i}{\mathrm{d}t} = u_{\mathrm{L}}
+> $$
 
 ### Bewegungsinduktion
 
