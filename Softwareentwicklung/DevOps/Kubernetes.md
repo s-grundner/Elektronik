@@ -20,13 +20,11 @@ Kubernetes ist ein **Container Orchestration** Tool. -> Load Balancing von Micro
 
 ![1200](../../assets/Excalidraw/Kubernetes%202025-02-22%2017.23.56.excalidraw)
 
-
-## Nodes 
+## Nodes
 
 **Nodes** sind entweder virtuelle oder Physische maschinen mit einem Betriebssystem
 
 > [!example] **Z.B.** Raspberry Pi, Alter Laptop/Tower, VM 
-
 
 ### Master Node
 
@@ -51,8 +49,6 @@ Verbindet die Nodes
 ---
 
 # Anwendug von Kubernetes
-
-
 
 ---
 
