@@ -26,9 +26,9 @@ Das Ziel ist es, die Frequenz  $\omega$ so zu transformieren, dass in einer tran
 
 Die ist dann möglich, wenn man eine  Transformation so findet, dass die obere Hälfte des Einheitskreises $e^{ j\omega T_{a} }$ im Intervall $0 \leq \omega < \frac{\pi}{T_{a}}$ der komlexen $w$-Ebene abgebildet wird. Genau dies kann aber mithilfe der Transformationsvorschrift 
 
-$$ w := \frac{z-1}{z+1} \tag{QTRF} $$  ^QTRF
+$$ w := \frac{z-1}{z+1} $$ 
 
-erreicht werden. Setzt man in [QTRF](#^QTRF) für $z=e^{ j\omega T_{a} }$ ein, so erhält man
+erreicht werden. Setzt man in $w$ für $z=e^{ j\omega T_{a} }$ ein, so erhält man
 
 $$
 \frac{e^{ j\omega T_{a} } - 1}{e^{ j\omega T_{a} +1 }} = \tanh \left( \frac{j\omega T_{a}}{2} \right) = \tan \left( \frac{\omega T_{a}}{2} \right)
@@ -39,9 +39,8 @@ $$
 \Omega \frac{T_{a}}{2} = \tan \left( \frac{\omega T_{a}}{2} \right) \qquad \implies \qquad \Omega = \frac{2}{T_{a}}\tan \left( \frac{\omega T_{a}}{2} \right)
 $$
 
-
-
 ![invert_dark](assets/qVSz.png)
+
 ---
 
 > [!hint] matlab Befehl
@@ -51,12 +50,9 @@ $$
 > ```
 
 
-$$
-G(q) = \frac{1-q}{3+q}, \quad T_{a}=2 \implies \Omega =1
-$$
+$$ G(q) = \frac{1-q}{3+q}, \quad T_{a}=2 \implies \Omega =1 $$
+
 Um die realsierbarkeit / Sprungfähigkeit festzustellen muss $T_{a}$ bekannt sein. Im s-Bereich die grade von Nenner und Zähler vergleichen. Im q-Bereich Grenzwerte
-
-
 
 ---
 

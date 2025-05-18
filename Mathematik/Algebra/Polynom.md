@@ -31,7 +31,6 @@ def:
 > Wobei $a_{i}$ die Koeffizienten und $n$ den Grad des Polynoms beschreiben.
 > Für den Grad des Polynoms gilt die Schreibweise: $\deg f = n$
 
-
 > [!satz] **S1 - ALGE)** Fundamentalsatz der Algebra:
 > Ein Polynom $n$-ten Grades über den komplexen Zahlen (d.h. $a_i \in \mathbb{C} \forall i$ und $x \in \mathbb{C}$ ) hat **genau** $n$ Nullstellen (Vielfachheiten mitgezählt).
 
@@ -41,6 +40,14 @@ def:
 > $$N_f=\{x \mid f(x)=0\}\tag{NST}$$
 >
 > Komplexe Nullstellen treten bei Polynomen mit *reellen Koeffizienten* ($a_i \in \mathbb{R} \forall i$) immer als komplex-konjugierte **Paare** auf, also in der Form $z=x\pm iy$.
+
+
+## Faktorisieren
+
+Jedes Polynom kann in ein Produkt aus seinen Nullstellentermen zerlegt werden. 
+
+## Beispiel
+
 
 > [!example] Beispiel:
 > - $n$-te Wurzel aus $y$ berechnen (siehe Vorlesungseinheit zu den komplexen Zahlen) $\Leftrightarrow x^n=y$ lösen $\Leftrightarrow$ Nullstellen des Polynoms $f(x)=-y+x^n$ berechnen
