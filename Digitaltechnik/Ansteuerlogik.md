@@ -32,7 +32,7 @@ release: false
 ## Min- Maxterme
 
 > [!def] **D - Minterm**
->  Ein Minterm ist eine konjunktive Verknüpfung aller Eingangsvariablen, wobei jede Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss.
+>  Ein Minterm ist eine konjunktive Verknüpfung aller Eingangsvariablen, wobei jede Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss. (Monom)
 >  
 
 ## Normalformen
