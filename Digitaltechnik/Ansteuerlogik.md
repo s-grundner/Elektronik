@@ -32,7 +32,7 @@ release: false
 ## Min- und Maxterme
 
 > [!def] **D - Minterm**
->  Ein Minterm ist eine konjunktive Verknüpfung aller Eingangsvariablen, wobei jede Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss. ([Monom](../Mathematik/Algebra/Monom.md))
+>  Ein Minterm ist eine konjunktive Verknüpfung **aller** Eingangsvariablen, wobei **jede** Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss.
 
 
  > [!example] Für die drei Variablen $X_{1},X_{2},X_{3}$ gibt es $2^{3}=8$ mögliche Minterme
@@ -45,7 +45,7 @@ release: false
 
 
 > [!def] **D - Maxterm**
->  Ein Maxterm ist eine disjunktive Verknüpfung aller Eingangsvariablen, wobei jede Eingangsvariable in negierter Form oder nicht-negierter Form vorkommen muss
+>  Ein Maxterm ist eine disjunktive Verknüpfung **aller** Eingangsvariablen, wobei **jede** Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss.
 
  > [!example] Für die drei Variablen $X_{1},X_{2},X_{3}$ gibt es $2^{3}=8$ mögliche Maxterme
  > $$
@@ -58,12 +58,21 @@ release: false
 ## Normalformen
 
 > [!def] **D - DNF)** disjunktive Normalform
-> Disjunktion aus konjungierten Literalen. Verknüpft die DNF ausschließlich *Minterme*, heißt sie **kanonische DNF (KDNF)** oder **Vollständig**
+> Disjunktion aus konjungierten Literalen. Verknüpft die DNF ausschließlich *Minterme*, heißt sie **kanonisch (KDNF)** oder **vollständig**
 
-Bsp. DNF:
-
+Bsp. DNF: $X_{1}\cdot \bar{X}_{2} + X_{2}\cdot X_{3}$
+Bsp. KDNF: $X_{1}\cdot \bar{X}_{2} \cdot X_{3} + X_{1}\cdot X_{2}\cdot X_{3}$
 
 > [!def] **D - KNF)** konjunktive Normalform 
-> Konjunktion aus disjungierten Literalen. Verknüpft die KNF ausschließlich *Maxterme*, heißt sie **kanonische KNF (KKNF)** oder **Vollständig**
+> Konjunktion aus disjungierten Literalen. Verknüpft die KNF ausschließlich *Maxterme*, heißt sie **kanonisch (KKNF)** oder **vollständig**
+
+Bsp. KNF: $(X_{1} + \bar{X}_{2}) \cdot (X_{2} + X_{3})$
+Bsp. KDNF: $(X_{1} + \bar{X}_{2} + X_{3}) \cdot (X_{1}+ X_{2}+ X_{3})$
+
+### Überführung in kanonische Normalformen
+
+#### DNF $\to$ KDNF
+
+Mithilfe des komplementär- bezüglich der Disjunktion $(1= X_{1} + \bar{X})_{1}$ und der Eigenschaft $X_{2} \cdot 1 = X_{2}$
 
 ## KV-Diagramm
