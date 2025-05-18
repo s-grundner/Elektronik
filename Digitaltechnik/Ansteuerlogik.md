@@ -31,7 +31,7 @@ release: false
 
 ## Min- und Maxterme
 
-> [!def] **D - Minterm**
+> [!def] **D - Minterm** $m$
 >  Ein Minterm ist eine konjunktive Verknüpfung **aller** Eingangsvariablen, wobei **jede** Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss.
 
 
@@ -43,7 +43,7 @@ release: false
 \end{align}
 > $$
 
-> [!def] **D - Maxterm**
+> [!def] **D - Maxterm** $M$
 >  Ein Maxterm ist eine disjunktive Verknüpfung **aller** Eingangsvariablen, wobei **jede** Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss.
 
  > [!example] Für die drei Variablen $X_{1},X_{2},X_{3}$ gibt es $2^{3}=8$ mögliche Maxterme
@@ -72,14 +72,29 @@ Bsp. KDNF: $(X_{1} + \bar{X}_{2} + X_{3}) \cdot (X_{1}+ X_{2}+ X_{3})$
 
 #### DNF $\to$ KDNF
 
-Mithilfe der Eigenschaft des [komplementären Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) $1= X_{1} + \bar{X}_{1}$ und des [neutralen Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) der konjunktion $X_{2} \cdot 1 = X_{2}$ folgt $X_{2}\cdot(X_{1}+\bar{X}_{1}) = X_{2}$
+Mithilfe der Eigenschaft des
+- [komplementären Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) $1= X_{1} + \bar{X}_{1}$ und dem
+- [neutralen Element](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) der konjunktion $X_{2} \cdot 1 = X_{2}$ folgt
+- $X_{2} = X_{2}\cdot(X_{1}+\bar{X}_{1}) = X_{2}\cdot X_{1} + X_{2} \cdot \bar{X}_{1}$
 
-Es kann daher jeder konjungierte Term erweitert werden, sodass die DNF durch das Distributivgesetz immer auf eine kanonische Form gebracht werden kann.
+Es kann daher jeder konjungierte Term mit $1$ erweitert werden, sodass die DNF durch das Distributivgesetz immer auf eine kanonische Form gebracht werden kann.
 
 #### KNF $\to$ KKNF
 
-Mithilfe der Eigenschaft des [komplementären Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) $0= X_{1} + \bar{X}_{1}$ und des [neutralen Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) der konjunktion $X_{2} \cdot 1 = X_{2}$ folgt $X_{2}\cdot(X_{1}+\bar{X}_{1}) = X_{2}$
+Mithilfe der Eigenschaft des
 
-Es kann daher jeder konjungierte Term erweitert werden, sodass die DNF durch das Distributivgesetz immer auf eine kanonische Form gebracht werden kann.
+- [komplementären Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) $0= X_{1} \cdot \bar{X}_{1}$ und dem
+- [neutralen Element](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) der disjunktion $X_{2} + 0 = X_{2}$ folgt
+- $X_{2} = X_{2} + (X_{1}\cdot\bar{X}_{1}) = (X_{2} + X_{1}) \cdot (X_{2} + \bar{X}_{1})$
+
+Es kann daher jeder disjungierte Term mit $0$ erweitert werden, sodass die KNF durch das Distributivgesetz immer auf eine kanonische Form gebracht werden kann.
+
+#### KDNF $\iff$ $\mathbb{$
+
+## Beschriebung von Schaltfunktionen
+
+### KNF
+
+### DNF
 
 ## KV-Diagramm
