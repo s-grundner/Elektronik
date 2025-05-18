@@ -89,7 +89,11 @@ Mithilfe der Eigenschaft des
 
 Es kann daher jeder disjungierte Term mit $0$ erweitert werden, sodass die KNF durch das Distributivgesetz immer auf eine kanonische Form gebracht werden kann.
 
-#### KDNF $\iff$ $\mathbb{$
+#### KDNF $\iff$ KKNF
+
+Aus der [De Morganschen Regel](../Mathematik/Algebra/Boolesche%20Algebra.md#Rechenregeln) folgt.
+
+$$ \text{KKNF}(f) \iff \overline{\text{KDNF}(\overline{f})} $$
 
 ## Beschriebung von Schaltfunktionen
 
@@ -97,4 +101,10 @@ Es kann daher jeder disjungierte Term mit $0$ erweitert werden, sodass die KNF d
 
 ### DNF
 
-## KV-Diagramm
+## Minimierung
+
+> [!info] Minimierungsverfahren
+> 1. Minimierung durch [Boolesche Algebra](../Mathematik/Algebra/Boolesche%20Algebra.md) 
+>   - i.d.R. nur für wenige Variablen ($< 4$) geeignet
+> 2.
+

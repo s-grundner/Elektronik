@@ -31,7 +31,7 @@ professor:
 
 Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die man *Regeln des logischen Schließens* nennt.
 
-> [!satz] **Satz 1.5**. Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine [Tautologie](Aussagenlogik.md) und $K$ eine [Kontradiktion](Aussagenlogik.md), dann gilt:  
+> [!satz] **S**) Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine [Tautologie](Aussagenlogik.md) und $K$ eine [Kontradiktion](Aussagenlogik.md), dann gilt:  
 > (a) $\neg(\neg A)\equiv A$  
 > 
 > (b) $\left.\begin{align}\neg (A\wedge B)\equiv \neg A\vee \neg B \\ \neg (A\vee B)\equiv \neg A \wedge \neg B\end{align}\quad\right\}\text{ De Morgansche Regeln}$  
