@@ -49,17 +49,13 @@ def:
 
 Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Junktoren](Junktor.md)) aus zwei Aussagen $A$ und $B$ neue, komplexere Aussagen zu bilden.
 
-> [!EXAMPLE] *Beispiel 1.2* [^2]  
+> [!example] Bsp 
 > ✅Eine Aussage ist: *Wien liegt in der Schweiz*  
 > ❌Keine Aussage ist: *Wie geht es dir*
 
 ## Tautologie und Kontradiktion
 
-> [!ABSTRACT] *Definition 1.4* [^3] - Tautologie und Kontradiktion  
+> [!def] **D - Tautologie und Kontradiktion**
 > Eine Verknüpfung von Aussagen ([Junktion](Junktor.md)), die unabhängig von den Wahrheitswerten dieser Aussagen stets wahr (falsch) ist, heißt *Tautologie $T$ (Kontradiktion $K$)*
 > - Tautologie $T$ $\to$ immer wahr: $|T| = W$
 > - Kontradiktion $K$ $\to$ immer falsch: $|K| = F$
-
-[^1]: Definition 1.1 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 5]  
-[^2]: Beispiel 1.2 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 5]
-[^3]: Definition 1.4 - [Skriptum - Andreas Neubauer](../xEDU/Mathe1/mathematik.pdf), [S. 6]

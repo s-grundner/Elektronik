@@ -27,7 +27,7 @@ release: false
 > - negative Literale: $\bar{X}_{1}, \bar{X}_{2}, \bar{X}_{3}$
 
 - [Konjunktion](../Mathematik/Logik/Junktor.md#Konjunktion) von Literalen: Produktterm, UND Verknüpfungen
-- Disjunktion von Literalen: Summenform, ODER Verknüpfungen
+- [Disjunktion](../Mathematik/Logik/Junktor.md#Disjunktion) von Literalen: Summenform, ODER Verknüpfungen
 
 ## Normalformen
 

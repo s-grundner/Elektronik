@@ -22,7 +22,7 @@ release: false
 
 # Grundgatter
 
-Logikgatter dienen zur Realiserung von funktionen [boolescher Algebra](Boolesche%20Algebra.md). Siehe [Ansteuerlogik](Ansteuerlogik.md)
+Logikgatter dienen zur Realiserung von funktionen [boolescher Algebra](../Mathematik/Algebra/Boolesche%20Algebra.md). Siehe [Ansteuerlogik](Ansteuerlogik.md)
 
 ---
 

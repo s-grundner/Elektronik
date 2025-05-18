@@ -21,7 +21,7 @@ Boolesche Algebra besteht aus der Menge $B$ und zwei Verküpfungsoberatoren $+$ 
 
 Es gelten die Axiome
 
-> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra
+> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra $B$
 > 
 > 1. **Abgeschlossenheit** der Menge $B$ bezüglich $+$ und $\cdot$ bedeuted, dass kein mögliches Ergebnis außerhalb $B$ liegt, d.h.
 > 
@@ -76,6 +76,8 @@ x~y~z & y+z & x\cdot (y+z) & x\cdot y & x\cdot z & (x\cdot y) + (x\cdot z) \\ \h
 $$
 
 ## Rechenregeln
+
+Verwand mit den [Regeln des logischen Schließens](../Logik/Regeln%20des%20logischen%20Schließens.md)
 
 > [!satz] **S1 - BOOL)** Rechenregeln der Booleschen Algebra.
 > Seine $x,y,z \in B$, dann gelten folgende Rechenregelt bezüglich der Operatoren $+$ und $\cdot$
