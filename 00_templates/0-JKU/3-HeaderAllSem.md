@@ -1,4 +1,5 @@
-<%* const sem = "SS25" _%>
+<%* allSem = ["WS23", "SS24", "WS24", "SS25"]_%>
+<%* const sem = await tp.system.suggester(allSem, allSem, true) _%>
 <%* let lva = await tp.user.get_lva().sem(tp, sem) _%>
 <%* let typ = await tp.user.get_lva().type(tp) _%>
  
@@ -18,4 +19,3 @@ professor:
 <%* if(typ == "UE") tR += "due:\n" _%>
 title: <% tp.file.title %>
 ---
-

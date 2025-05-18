@@ -31,7 +31,7 @@ professor:
 
 Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die man *Regeln des logischen Schließens* nennt.
 
-> [!important] **Satz 1.5**. Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine [Tautologie](Aussagenlogik.md) und $K$ eine [Kontradiktion](Aussagenlogik.md), dann gilt:  
+> [!satz] **S**) Seien $A$, $B$, $C$ beliebige Aussagen, $T$ eine [Tautologie](Aussagenlogik.md) und $K$ eine [Kontradiktion](Aussagenlogik.md), dann gilt:  
 > (a) $\neg(\neg A)\equiv A$  
 > 
 > (b) $\left.\begin{align}\neg (A\wedge B)\equiv \neg A\vee \neg B \\ \neg (A\vee B)\equiv \neg A \wedge \neg B\end{align}\quad\right\}\text{ De Morgansche Regeln}$  
@@ -50,7 +50,7 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 > 
 > (i) $\left.\begin{align}A\wedge (B\vee C)\equiv (A\wedge B)\vee (A\wedge C)\\ A \vee (B\wedge C)\equiv (A\vee B)\wedge(A\vee C)\end{align}\quad\right\}\text{ Distributivgesetze}$
 > 
-> (j) $\left.\begin{align}(A \vee B) \vee C \equiv A \vee (B \vee C)\quad(=: A\vee B\vee C)\\(A \wedge B) \wedge C \equiv A \wedge (B \wedge C)\quad(=: A\wedge B\wedge C)\end{align}\quad\right\}\text{ Assoziativgesetze}$
+> (j) $\left.\begin{align}(A \vee B) \vee C \equiv A \vee (B \vee C)\quad(\equiv A\vee B\vee C)\\(A \wedge B) \wedge C \equiv A \wedge (B \wedge C)\quad(\equiv A\wedge B\wedge C)\end{align}\quad\right\}\text{ Assoziativgesetze}$
 
 ## Methoden zur mathematischen Beweisführung
 
@@ -58,3 +58,7 @@ Beim Beweis mathematischer Sätze verwendet man oft folgende Beziehungen, die ma
 - [Indirekter Beweis](Indirekter%20Beweis.md)
 - [Widerspruchsbeweis](Widerspruchsbeweis.md)
 - [Vollständige Induktion](Induktionsbeweis.md)
+
+# Tags
+
+[Boolesche Algebra](../Algebra/Boolesche%20Algebra.md)

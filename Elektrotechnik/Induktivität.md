@@ -30,7 +30,7 @@ cited:
 
 ## Kenngrößen der Induktivität
 
-Bei Stromänderungen in einer Spule  wird in der Spule selbst und in den magnetisch angekoppelten Spulen eine [induzierte Spannung](#Spannungsinduktion).
+Bei Stromänderungen in einer Spule wird in der Spule selbst und in den magnetisch angekoppelten Spulen eine [induzierte Spannung](#Spannungsinduktion).
 
 Der Grad der Stromänderung und und die Indultivität $L$ beeinflussen hierbei die höhe der induzierten Spannung.
 
@@ -43,15 +43,12 @@ Der Grad der Stromänderung und und die Indultivität $L$ beeinflussen hierbei d
 > $$
 > 
 
-
 ### Magnetischer Zusammenhang
 
 Allgemein gilt der Zusammenhang mit dem [magnetischen Fluss](Magnetischer%20Fluss.md) zwischen den beiden Strängen $\mu$ und $\nu$
 
 > [!def] Magnetischer Zusammenhang
 $$ L_{\mu\nu} = \frac{\mathrm{d}\Psi_{\mu}}{\mathrm{d}i_{\nu}} $$
-
-
 
 | ![invert_dark](assets/SelbstIndu.png) | ![invert_dark](assets/GegenIndu.png)                   |
 | ------------------------------------- | ------------------------------------------------------ |
@@ -102,9 +99,10 @@ Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\parti
 
 Für die Spulenspannung einer Realen Spule mit Äquvalenten Serienwiderstand $R$ gilt dann
 
-$$
-u_{L} = Ri + \frac{\mathrm{d}\Psi}{\mathrm{d}t} \overset{ \Psi = Li}{ \iff } Ri + L \frac{\mathrm{d}i}{\mathrm{d}t}
-$$
+> [!def] **D - UIND)** Induzierte Spannung ^UIND
+> $$
+> u_{L} = Ri + \frac{\mathrm{d}\Psi}{\mathrm{d}t} \quad\overset{ L = \tfrac{\mathrm{d}\Psi}{\mathrm{d}i}}{ \iff } \quad Ri + L \frac{\mathrm{d}i}{\mathrm{d}t} = u_{\mathrm{L}}
+> $$
 
 ### Bewegungsinduktion
 
