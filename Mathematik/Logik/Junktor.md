@@ -49,12 +49,18 @@ Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 
 ---
 
+## Konjuktion
+
+> [!def] $\wedge$
+
 ## Disjunktion
 
 > [!def] $\vee$
 
-Wie die Tabelle aus der obigen Definition zeigt, ist $A \vee B$ genau dann *wahr*, wenn wenigstens eine der beiden Aussagen $A,B$ *wahr* ist.  
-Die *Disjunktion* $\vee$ entspricht also dem nicht-ausschließenden (non-exclusive) *Oder*.
+Wie die Tabelle aus der obigen Definition zeigt, ist $A \vee B$ genau dann *wahr*, wenn wenigstens eine der beiden Aussagen $A,B$ *wahr* ist.
+
+> [!hint] [Ansteuerlogik](../../Digitaltechnik/Ansteuerlogik.md)
+> Die *Disjunktion* $\vee$ entspricht also dem nicht-ausschließenden (non-exclusive) **ODER**.
 
 ## Implikation
 
@@ -73,8 +79,7 @@ Die Implikation ist laut Wahrheitstabelle genau dann *falsch*, wenn $A$ *wahr* u
 
 $A \iff B$ entspricht in der Umgangssprache: $A$ ist genau dann *wahr*, wenn $B$ *wahr* ist.
 
-> [!hint] $A\iff B$:  
-> $A$ ist notwendig und hinreichend für $B$
+> [!hint] $A\iff B$: $A$ ist notwendig und hinreichend für $B$
 
 Die Symbole $A = B$, $A \equiv B$ und $A \iff B$ haben unterschiedliche Bedeutungen in Mathematik und Logik:
 

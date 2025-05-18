@@ -32,14 +32,14 @@ def:
 
 ## Aussage
 
-> [!abstract] *Definition 1.1* - Aussage [^1]  
+> [!def] **D1 - Aussage)**
 > Eine *Aussage* ist ein sprachlicher Ausdruck, für den es einen Sinn hat zu fragen, ob es wahr oder falsch ist.  
 > Sie soll stets entweder wahr oder falsch sein (*zweiwertige Logik*). (Anders als Unschärfe/Fuzzy-Logik)  
 > Symbole für Aussagen sind: $A, B, C\dots$  
 
 ### Wahrheitswert einer Aussage
 
-> [!ABSTRACT] ff. *Definition 1.1* - Wahrheitswert [^1]  
+> [!def] **D2 - Wahrheitswert)**
 > Der *Wahrheitswert* $|A|$ von $A$ ist definiert wie folgt:
 > - $|A| = W$ genau dann, wenn $A$ *wahr* ist;
 > - $|A| = F$ genau dann, wenn $A$ *falsch* ist.
