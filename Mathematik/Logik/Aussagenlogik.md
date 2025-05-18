@@ -19,7 +19,7 @@ semester: WS23
 created: 26. September 2023
 professor:
   - Andreas Neubauer
-ref:
+def:
   - Def 1.1.
   - Def 1.4.
   - Bsp 1.2.
@@ -28,9 +28,7 @@ ref:
 
 # Aussagenlogik
 
-- [Axiom](Axiom.md)
-
-Dazu benötigen wir einige Begriffe und Symbole:
+#todo Nummerierung Neubauer Skriptum auflösen
 
 ## Aussage
 
@@ -47,7 +45,7 @@ Dazu benötigen wir einige Begriffe und Symbole:
 > - $|A| = F$ genau dann, wenn $A$ *falsch* ist.
 > 
 > Haben Aussagen $A$ und $B$ den gleichen Ausgangswert, so schreiben wir:  
-> $A\equiv B$ oder $|A|=|B|$ $\quad\equiv\dots$ [äquivalent](Junktor.md)
+> $A\equiv B$ oder $|A|=|B|$ $\quad\equiv\dots$ [äquivalent](Junktor.md#Äquivalenz)
 
 Aussagenlogik gestattet es, durch aussagelogische Verknüpfungen (sogenannte [Junktoren](Junktor.md)) aus zwei Aussagen $A$ und $B$ neue, komplexere Aussagen zu bilden.
 
