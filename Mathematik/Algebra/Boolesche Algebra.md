@@ -23,7 +23,7 @@ Boolesche Algebra besteht aus der Menge $B$ und zwei Verküpfungsoberatoren $+$ 
 
 Es gelten die Axiome
 
-> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra $(B, +, \cdot)$
+> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra $(B, +, \cdot)$ ^BOOL
 > 
 > 1. **Abgeschlossenheit** der Menge $B$ bezüglich $+$ und $\cdot$ bedeuted, dass kein mögliches Ergebnis außerhalb $B$ liegt, d.h.
 > 

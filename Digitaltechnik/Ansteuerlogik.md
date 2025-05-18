@@ -43,7 +43,6 @@ release: false
 \end{align}
 > $$
 
-
 > [!def] **D - Maxterm**
 >  Ein Maxterm ist eine disjunktive Verknüpfung **aller** Eingangsvariablen, wobei **jede** Eingangsvariable in negierter oder nicht-negierter Form vorkommen muss.
 
@@ -73,6 +72,14 @@ Bsp. KDNF: $(X_{1} + \bar{X}_{2} + X_{3}) \cdot (X_{1}+ X_{2}+ X_{3})$
 
 #### DNF $\to$ KDNF
 
-Mithilfe des komplementär- bezüglich der Disjunktion $(1= X_{1} + \bar{X})_{1}$ und der Eigenschaft $X_{2} \cdot 1 = X_{2}$
+Mithilfe der Eigenschaft des [komplementären Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) $1= X_{1} + \bar{X}_{1}$ und des [neutralen Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) der konjunktion $X_{2} \cdot 1 = X_{2}$ folgt $X_{2}\cdot(X_{1}+\bar{X}_{1}) = X_{2}$
+
+Es kann daher jeder konjungierte Term erweitert werden, sodass die DNF durch das Distributivgesetz immer auf eine kanonische Form gebracht werden kann.
+
+#### KNF $\to$ KKNF
+
+Mithilfe der Eigenschaft des [komplementären Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) $0= X_{1} + \bar{X}_{1}$ und des [neutralen Elements](../Mathematik/Algebra/Boolesche%20Algebra.md#^BOOL) der konjunktion $X_{2} \cdot 1 = X_{2}$ folgt $X_{2}\cdot(X_{1}+\bar{X}_{1}) = X_{2}$
+
+Es kann daher jeder konjungierte Term erweitert werden, sodass die DNF durch das Distributivgesetz immer auf eine kanonische Form gebracht werden kann.
 
 ## KV-Diagramm
