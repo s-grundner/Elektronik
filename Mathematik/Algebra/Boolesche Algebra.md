@@ -17,11 +17,13 @@ release: true
 
 # Boolesche Algebra
 
+> [!question] [Algebraische Strukturen](Algebraische%20Strukturen.md)
+
 Boolesche Algebra besteht aus der Menge $B$ und zwei Verküpfungsoberatoren $+$ und $\cdot$
 
 Es gelten die Axiome
 
-> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra $B$
+> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra $(B, +, \cdot)$
 > 
 > 1. **Abgeschlossenheit** der Menge $B$ bezüglich $+$ und $\cdot$ bedeuted, dass kein mögliches Ergebnis außerhalb $B$ liegt, d.h.
 > 
