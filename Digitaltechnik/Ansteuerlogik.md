@@ -57,7 +57,13 @@ release: false
 
 ## Normalformen
 
-> [!def] **D - Normalform** 
-> 
+> [!def] **D - DNF)** disjunktive Normalform
+> Disjunktion aus konjungierten Literalen. Verknüpft die DNF ausschließlich *Minterme*, heißt sie **kanonische DNF (KDNF)** oder **Vollständig**
+
+Bsp. DNF:
+
+
+> [!def] **D - KNF)** konjunktive Normalform 
+> Konjunktion aus disjungierten Literalen. Verknüpft die KNF ausschließlich *Maxterme*, heißt sie **kanonische KNF (KKNF)** oder **Vollständig**
 
 ## KV-Diagramm
