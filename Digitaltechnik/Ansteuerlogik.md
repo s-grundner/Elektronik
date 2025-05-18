@@ -105,6 +105,9 @@ $$ \text{KKNF}(f) \iff \overline{\text{KDNF}(\overline{f})} $$
 
 > [!info] Minimierungsverfahren
 > 1. Minimierung durch [Boolesche Algebra](../Mathematik/Algebra/Boolesche%20Algebra.md) 
->   - i.d.R. nur für wenige Variablen ($< 4$) geeignet
-> 2.
+> 	- i.d.R. aufgrund der komplexität nur für wenige Variablen ($< 4$) geeignet
+> 2. Graphische Verfahren
+> 	- [[KV-Diagramm]]
+> 3. Algorithmische Verfahren
+> 	- Quine McCluskey Verfahren
 
