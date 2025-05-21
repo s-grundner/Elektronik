@@ -17,9 +17,10 @@ source:
 created: 25th March 2022
 ---
 
-# [Metall](../../Chemie/Metallbindung.md)-Oxid-[Silizium](../../Physik/Materialkunde/Silizium.md)-[Feldeffekttransistor]({MOC}%20Transistor.md)) (MOSFET)
+# Metal Oxide Semiconductor Field Effect Transistor
 
-![](assets/Pasted%20image%2020250211113942.png)
+![invert_dark|800](assets/Pasted%20image%2020250520151725.png)
+
 
 > [!tldr] Unter dem Gate entsteht ein Leitender Kanal und stellt somit eine Verbindung zwischen Drain und Source her. 
 

@@ -97,9 +97,13 @@ $$ \text{KKNF}(f) \iff \overline{\text{KDNF}(\overline{f})} $$
 
 ## Beschriebung von Schaltfunktionen
 
-### KNF
+### KDNF
 
-### DNF
+![invert_dark|600](assets/Pasted%20image%2020250520143906.png)
+
+### KKNF
+
+![invert_dark|600](assets/Pasted%20image%2020250520143943.png)
 
 ## Minimierung
 

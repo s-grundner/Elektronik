@@ -23,36 +23,33 @@ Boolesche Algebra besteht aus der Menge $B$ und zwei Verküpfungsoberatoren $+$ 
 
 Es gelten die Axiome
 
-> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra $(B, +, \cdot)$ ^BOOL
+> [!def] **D1 - BOOL)** Axiome der Booleschen Algebra $(B, +, \cdot)$, mit $x,y,z \in B$ ^BOOL
 > 
 > 1. **Abgeschlossenheit** der Menge $B$ bezüglich $+$ und $\cdot$ bedeuted, dass kein mögliches Ergebnis außerhalb $B$ liegt, d.h.
 > 
-> $$ \forall x,y \in B: \quad (x+y) \in B, \quad (x\cdot y) \in B $$
+> $$ (x+y) \in B, \quad (x\cdot y) \in B $$
 > 
 > 2. **Neutrale Elemente**
 > $B$ hat ein neutrales Element bzgl. $+$ das mit $0$ (*Nullelement*) bezeichet wird.
 > $B$ hat ein neutrales Element bzgl. $\cdot$ das mit $1$ (*Einselement*) bezeichet wird.
 > 
-> $$ \forall x \in B: \quad (x+0) = x, \quad (x\cdot 1) = x $$
+> $$ (x+0) = x, \quad (x\cdot 1) = x $$
 > 
 > 3. **Kommutativität**
-> $$ \forall x,y \in B: \quad x+y = y+x, \quad x\cdot y = y\cdot x $$
+> $$ x+y = y+x, \quad x\cdot y = y\cdot x $$
 > 
 > 4. **Distributivität**
 > 
 > $$
-> \forall x,y,z \in B:\quad
-> \begin{cases}
-> \quad x\cdot(y+z) = (x\cdot y) + (x\cdot z) \\
->  \quad x+(y \cdot z) = (x + y) \cdot (x + z)
-> \end{cases}
+> \begin{align}
+> x\cdot(y+z) = (x\cdot y) + (x\cdot z) \\
+> x+(y \cdot z) = (x + y) \cdot (x + z)
+> \end{align}
 > $$
 >
 > 5. **Komplementäres Element**
 > 
-> $$
-> \forall x \in B ~\exists \bar{x} \in B : \quad x + \bar{x} =1, \quad x \cdot \bar{x} =0
-> $$
+> $$ \forall x \in B ~\exists \bar{x} \in B : \quad x + \bar{x} =1, \quad x \cdot \bar{x} =0 $$
 > 
 > 6. Die Menge $B$ muss mindestens zwei Elemente besitzen.
 
@@ -93,8 +90,8 @@ Verwand mit den [Regeln des logischen Schließens](../Logik/Regeln%20des%20logis
 > \text{Absorbtion} & x + (x\cdot y) = x & x \cdot (x + y) = x \\
 > \text{Assoziativität} & (x+y)+z = x+(y+z) & (x\cdot y)\cdot z = x\cdot(y\cdot z) \\
 > \text{Consensus} & \begin{array}{c}
-> (x\cdot y) + (\bar{x}\cdot z) + (y+z)  \\
-> =(x\cdot y) + (\bar{x}+z)
+> (x\cdot y) + (\bar{x}\cdot z) + (y\cdot z)  \\
+> =(x\cdot y) + (\bar{x}\cdot z)
 > \end{array} & \begin{array}{c}
 > (x + y) \cdot (\bar{x}+ z) \cdot (y+z)  \\
 > =(x + y) \cdot (\bar{x}+z)

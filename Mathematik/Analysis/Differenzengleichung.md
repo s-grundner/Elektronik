@@ -37,7 +37,44 @@ def:
 
 ---
 
+
+## Differenzengleichungen im Zustandsraum
+
 Weiterführend ist die Systemtheoretische Betrachtung von [Differenzengleichungssystemen](../../Systemtheorie/Zeitdiskrete%20Systeme.md) als Zustandsgleichungen von Übertragungssystemen.
+
+**IIR-System $N$-ter Ordnung**
+
+![invert_dark|400](assets/Pasted%20image%2020250521103236.png)
+
+Transponierte Direktform II
+$$
+y[n] = \sum_{i=1}^{N} a_{i} y[n-i] + \sum_{i=0}^{N} b_{i}u[n-i]
+$$
+
+$$
+\begin{pmatrix}
+x_{1}[n+1] \\ x_{2}[n+1] \\
+\vdots \\
+x_{N-1}[n+1] \\ x_{N}[n+1] \\
+\end{pmatrix} =
+\begin{pmatrix}
+-a_{1} & 1 & 0 & \cdots & 0  \\
+-a_{2} & 0 & 1 & \ddots & \vdots \\
+\vdots & \vdots & \ddots & \ddots & 0 \\
+-a_{N-1} & 0 & \vdots & 0 & 1 \\
+-a_{N} & 0 & \cdots & 0 & 0
+\end{pmatrix} \begin{pmatrix}
+x_{1}[n] \\ x_{2}[n] \\
+\vdots \\
+x_{N-1}[n] \\ x_{N}[n] \\
+\end{pmatrix} + \begin{pmatrix}
+b_{1} - a_{1}b_{0} \\
+b_{2} - a_{2}b_{0} \\
+\vdots \\
+b_{N-1} - a_{N-1}b_{0} \\
+b_{N} - a_{N}b_{0} \\
+\end{pmatrix}u[n]
+$$
 
 ---
 

@@ -18,3 +18,6 @@ release: false
 ---
 
 # Sequenzielle Logik
+
+![invert_dark|700](assets/Pasted%20image%2020250520163227.png)
+

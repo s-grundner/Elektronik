@@ -73,3 +73,4 @@ $$
 $$
 
 Im gegensatz zu DGL-Systemen, unterscheidet man hier, dass $\mathbf{\Phi}$ hier nicht immer [regulär](../Mathematik/Algebra/Determinante.md#Reguläre%20Matrizen) sein kann, sondern nur dann, wenn die Dynamikmatrix $\mathbf{A}$ ebenfalls regulär ist.
+
