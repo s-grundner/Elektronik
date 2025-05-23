@@ -1,7 +1,8 @@
 ---
 tags:
   - Analysis
-aliases: 
+aliases:
+  - Absolut Summierbar
 keywords: 
 subject:
   - VL
@@ -22,10 +23,12 @@ satz:
 ## Stabilität
 
 > [!satz] **S1 - STFO)** Stabile Folgen ^STFO
->  Eine Folge $f[n]$ ist stabil, wenn sie absolut summierbar ist:
+>  Eine Folge $f[n]$ ist stabil, wenn sie **absolut summierbar** ist:
 >  $$\sum_{n=0}^{\infty} \lvert f[n] \rvert < M < \infty$$
 
 ## Konvergente Folgen
 
-[Grenzwert](Grenzwert.md)
 # Tags
+
+[Grenzwert](Grenzwert.md)
+[BIBO](../../Systemtheorie/Stabilität%20und%20Beschränktheit.md)
