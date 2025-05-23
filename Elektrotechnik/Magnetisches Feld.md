@@ -52,7 +52,6 @@ $$
 >
 > ![invert_dark|300](assets/rechteHandmagn.png)
 
-
 ## Elektromechanische Energieumwandlung
 
 Für die Umwandlung der Energie im elektromechanischen Wandler gilt der [Energieerhaltungssatz](Energieerhaltung.md)
