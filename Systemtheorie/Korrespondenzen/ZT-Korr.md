@@ -30,16 +30,16 @@ Hier explizit mit den Diskreten Folgen in Array-Schreibweise. Zusammenhang zwisc
 | Nr.   | Satz              | Zeitbereich                                                                                  | Bildbereich                                                                                                        |
 | ----- | :---------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
 | i.    | Linearität        | $$ \alpha_1 f_{1}[k]+\alpha_2 f_{2}[k] $$                                                    | $$ \alpha_1 \mathcal{Z}\left\{ f_{1}[k] \right\} (z)+\alpha_2 \mathcal{Z}\left\{ f_{2}[k] \right\} (z) $$          |
-| iii.  | Verschiebungssatz | $$ f[k+n]$$                                                                                  | $$ z^n\left(\mathcal{Z}\{f[n]\}(z)-\sum\limits_{j=0}^{n-1} f[j] z^{-j}\right)$$                                    |
-|       |                   | $$ f[k-n] $$                                                                                 | $$ z^{-n}\left(\mathcal{Z}\{f[n]\}(z) +\sum\limits_{j=1}^n f[-j] z^j\right)$$                                      |
-| iv.   | Dämpfungssatz     | $$ a^k f[k] $$                                                                               | $$ \mathcal{Z}\{f[n]\}\!\left(\frac{z}{a}\right) $$                                                                |
-| v.    | Differenz         | $$ f[k+1]-f[k] $$                                                                            | $$ (z-1) \mathcal{Z}\{f[n]\}(z) -z f[0] $$                                                                         |
-|       |                   | $$ f[k]-f[k-1] $$                                                                            | $$ \frac{z-1}{z} \mathcal{Z}\{f[n]\}(z)-f[-1] $$                                                                   |
-| vi.   | Summe             | $$ \sum_{j=0}^{k-1} f[j] $$                                                                  | $$ \frac{1}{z-1} \mathcal{Z}\{f[n]\}(z) $$                                                                         |
-|       |                   | $$ \sum_{j=0}^k f[j] $$                                                                      | $$ \frac{z}{z-1} \mathcal{Z}\{f[n]\}(z) $$                                                                         |
-| vii.  | Multiplikation    | $$ (k T_a) f[k] $$                                                                           | $$ -T_a z \frac{\mathrm{~d}}{\mathrm{~d} z} \mathcal{Z}\{f[n]\}(z) $$                                              |
-| viii. | Division          | $$ \begin{aligned}0 && k =0 \\ \frac{f[k]}{k T_a} && k>0\end{aligned} $$                     | $$ \frac{1}{T_a} \int\limits_z^{\infty} \frac{\mathcal{Z}\left\{ f[n] \right\} (\zeta)}{\zeta} \mathrm{d} \zeta $$ |
-| ix.   | Faltungssatz      | $$ \begin{aligned} & \sum_{j=0}^k f[k-j] g[j] \\ & \sum_{j=0}^k f[j] g[k-j] \end{aligned} $$ | $$ \mathcal{Z}\{f[n]\}(z) \cdot \mathcal{Z}\{g[n]\}(z) $$                                                          |
+| ii.   | Verschiebungssatz | $$ f[k+n]$$                                                                                  | $$ z^n\left(\mathcal{Z}\{f[k]\}(z)-\sum\limits_{j=0}^{n-1} f[j] z^{-j}\right)$$                                    |
+|       |                   | $$ f[k-n] $$                                                                                 | $$ z^{-n}\left(\mathcal{Z}\{f[k]\}(z) +\sum\limits_{j=1}^n f[-j] z^j\right)$$                                      |
+| iii.  | Dämpfungssatz     | $$ a^k f[k] $$                                                                               | $$ \mathcal{Z}\{f[k]\}\!\left(\frac{z}{a}\right) $$                                                                |
+| iv.   | Differenz         | $$ f[k+1]-f[k] $$                                                                            | $$ (z-1) \mathcal{Z}\{f[k]\}(z) -z f[0] $$                                                                         |
+|       |                   | $$ f[k]-f[k-1] $$                                                                            | $$ \frac{z-1}{z} \mathcal{Z}\{f[k]\}(z)-f[-1] $$                                                                   |
+| v.    | Summe             | $$ \sum_{j=0}^{k-1} f[j] $$                                                                  | $$ \frac{1}{z-1} \mathcal{Z}\{f[k]\}(z) $$                                                                         |
+|       |                   | $$ \sum_{j=0}^k f[j] $$                                                                      | $$ \frac{z}{z-1} \mathcal{Z}\{f[k]\}(z) $$                                                                         |
+| vi.   | Multiplikation    | $$ (k T_a) f[k] $$                                                                           | $$ -T_a z \frac{\mathrm{~d}}{\mathrm{~d} z} \mathcal{Z}\{f[k]\}(z) $$                                              |
+| vii.  | Division          | $$ \begin{aligned}0 && k =0 \\ \frac{f[k]}{k T_a} && k>0\end{aligned} $$                     | $$ \frac{1}{T_a} \int\limits_z^{\infty} \frac{\mathcal{Z}\left\{ f[k] \right\} (\zeta)}{\zeta} \mathrm{d} \zeta $$ |
+| viii. | Faltungssatz      | $$ \begin{aligned} & \sum_{j=0}^k f[k-j] g[j] \\ & \sum_{j=0}^k f[j] g[k-j] \end{aligned} $$ | $$ \mathcal{Z}\{f[k]\}(z) \cdot \mathcal{Z}\{g[k]\}(z) $$                                                          |
 ^Z-T1
 
 ## Rechenregeln Folgenschreibweise
@@ -64,3 +64,15 @@ Hier mit den Folgen in Indexschreibweise, und der Korrespondierenden Funktion al
 ## Korrespondenztabelle
 
 
+| Nr.    | Zeitbereich                              | Bildbereich                                                               |
+| ------ | ---------------------------------------- | ------------------------------------------------------------------------- |
+| (i)    | $$\delta[n]$$                            | $$1$$                                                                     |
+| (ii)   | $$\sigma[n]$$                            | $$\frac{z}{z-1}$$                                                         |
+| (iii)  | $$an\cdot\sigma[n]$$                     | $$\frac{az}{(z-1)^{2}}$$                                                  |
+| (iv)   | $$a^n \cdot \sigma[n]$$                  | $$\frac{z}{z-a}$$                                                         |
+| (v)    | $$e^{ an }\cdot\sigma[n]$$               | $$\frac{z}{z-e^{ a }}$$                                                   |
+| (vi)   | $$\sin(\Omega n)\cdot\sigma[n]$$         | $$\frac{z\sin(\Omega)}{z^{2} - 2z\cos(\Omega)+1}$$                        |
+| (vii)  | $$\cos(\Omega n)\cdot\sigma[n]$$         | $$\frac{z(z-\cos(\Omega))}{z^{2} - 2z\cos(\Omega)+1}$$                    |
+| (viii) | $$e^{ an }\sin(\Omega n)\cdot\sigma[n]$$ | $$\frac{ze^{ a }\sin(\Omega)}{z^{2}-2ze^{ a }\cos(\Omega)+e^{ 2a }}$$     |
+| (ix)   | $$e^{ an }\cos(\Omega n)\cdot\sigma[n]$$ | $$\frac{z(z-e^{ a }\cos(\Omega))}{z^{2}-2ze^{ a }\cos(\Omega)+e^{ 2a }}$$ |
+^Z-T3

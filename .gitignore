@@ -14,6 +14,7 @@ conflict-files-obsidian-git.md
 .obsidian/core-plugins.json
 .obsidian/icons
 .obsidian/themes
+.ipynb_checkpoints
 
 xPN
 xEDU

@@ -11,7 +11,7 @@ _%>
 
 # UE<%* tR += nr%>
 
-<%* tR += `⬅️ <a href="./UE${next}.md" class="internal-link">letzte Übung</a> | [📓](${mainpage}) | <a href="./UE${prev}.md" class="internal-link">nächste Übung</a> ➡️` %>
+<%* tR += `⬅️ [letzte Übung](./UE${next}.md) | [📓](${mainpage}) | [nächste Übung](./UE${prev}.md) ➡️` %>
 
 ---
 

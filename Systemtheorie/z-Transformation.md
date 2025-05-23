@@ -1,7 +1,8 @@
 ---
 tags:
   - Analysis/Numerik
-aliases: 
+aliases:
+  - Einseitige z-Transformation
 keywords:
   - z-Ebene
 subject:
@@ -11,15 +12,24 @@ subject:
 semester: WS24
 created: 8. Februar 2025
 professor:
+  - Mario Huemer
+title: Einseitige z-Transformation
 ---
  
 # z-Transformation
 
-:LiRefreshCcw: [Laplace-Transformation](Laplacetransformation.md) ***:LiArrowBigRightDash:***
-[q-Transformation](q-Transformation.md)
+- :LiRefreshCcw: [Laplace-Transformation](Laplacetransformation.md) ***:LiArrowBigRightDash:***
+- [q-Transformation](q-Transformation.md)
 
-> [!quote] Die z-Transformation ist eine Erweiterung der [Zeitdiskrete Fouriertransformation](Poissonsche%20Summenformel.md#**Zeitdiskrete**%20Fouriertransformation)
+---
+
+> [!quote]- Die z-Transformation ist eine Erweiterung der [Zeitdiskrete Fouriertransformation](Poissonsche%20Summenformel.md#**Zeitdiskrete**%20Fouriertransformation)
+>
 > **Zur Erinnerung:** Die Zeitdiskrete Fouriertransformation stellt ein zeitdiskretes signal in Form einer gewichteten Summe von komplexen Exponentialfunktionen der form $\exp (j\Omega)$ dar
+> 
+> **Motivation:** Es gibt zeitdiskrete Signale (bzw. Impulsantworten von Systemen), die keine Fourier-Transformierte haben, da die Summe der zeitdiskreten Fourier-Transformation nicht konvergiert.
+>
+> Die z-Transformation spielt bei zeitdiskreten Signalen die gleiche Rolle wie die [Laplacetransformation](Laplacetransformation.md) bei kontinuierlichen Signalen.
 
 Die z-Transformation verwendet die Exponential funktionen der Form:
 
@@ -27,53 +37,17 @@ $$
 z=r\cdot\exp(j\Omega)
 $$
 
-Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitdiskreten Fouriertransformierten vom [Einheitskreis](../Mathematik/Kreis.md) in die komlexe Zahlenebene
+Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitdiskreten Fouriertransformierten vom [Einheitskreis](../Mathematik/Kreis.md) in die komplexe Zahlenebene
 
-> [!hint] *Diskrekt* $\to$ $z$-Transformation $\iff$ Laplacetransformation $\gets$ *Kontinuierlich*
-> Die z-Transformation spielt bei zeitdiskreten Signalen die gleiche Rolle wie die [Laplacetransformation](Laplacetransformation.md) bei kontinuierlichen Signalen.
-
-## Zweiseitige z-Transformation
-
-> [!def] **D1 - 2ZTR)** Zweiseitige z-Transformation ^2ZTR
-$$F(z) = \mathcal{Z}_{II} \{f[n]\} = \sum_{n=-\infty}^{\infty} f[n]z^{-n} = \sum_{n=-\infty}^{\infty} f[n] r^{-n}e^{ -j\Omega n } \tag{2ZTR}$$
-
-Lässt sich auch im Zusammenhang der zeitdiskreten Fouriertransformation schreiben:
-
-$$F(z) = \sum_{n=-\infty}^{\infty}\left( f[n]r^{-n} \right)e^{ -jn\Omega } =\mathcal{F}\{f[n]\cdot r^{-n}\}$$
-
-$\implies$ die z-Transformation der Folge $f[n]$ ist gleich der zeitdiskreten Fouriertransformation der Folge $f[n]r^{-n}$. Wenn $r=1$ ist, dann stimmen beide Transformationen überein (sofern sie existieren)
-
-> [!warning] Die zweiseitige z-Transformation ist nicht eindeutig
-
-
-### Existenzbedingung
-
-> [!important] Existenzbedingung für die Existenz der z-Transformierten einer Folge $f[n]$:
-> $$\sum_{n=-\infty}^{\infty}\left| f[n]r^{-n} \right|< M <\infty $$
-> Mit dem Betrag $r$ kann also die Konvergenzeigenschaft der z-Transformierten beeinflusst werden. 
-
-Äquivalent zum Realteil $\Re (s) = \sigma$ der Laplace-Transformation
-
-## Umkehrintegral
-
-Es sei $F(z)$ für alle $\lvert z \rvert \geq R$ holomorph, dann ist $F(z)$ eindeutig in eine (Laurent-) Reihe der Form wie in [1ZTR](#^1ZTR).
-
-Holomorph: Komplex differenzierbar
-
-
-> [!def] **D - IZTR)** Umkehrintegral der z-Transformation ^IZTR
->  $$f[n] = \frac{1}{j2\pi}\oint_{C}F(z)z^{n-1}\mathrm{~d}z$$
-
-Die Kontur $C$ verläuft im Mathematisch positiven Sinn (gegen den Uhrzeigersinn) innerhalb des Konvergenzgebietes
-
-> [!question] Liegt der Einheitskreis der z-Ebene im konvergenzgebiet
-
----
 
 ## Einseitige z-Transformation
 
+> [!question] [Zweiseitige z-Transformation](Zweiseitige%20z-Transformation.md)
+
+---
+
 > [!def] **D2 - 1ZTR)** Einseitige z-Transformation ^1ZTR
-> $$F(z) = \mathcal{Z}_{I}\{f[n]\} = \sum_{n=0}^{\infty}f[n]z^{-n}\tag{1ZTR}$$
+> $$F(z) = \mathcal{Z}_{I}\{f[n]\}(z) = \sum_{n=0}^{\infty}f[n]z^{-n}\tag{1ZTR}$$
 
 Hier werden nur der [kausale](Kausalität.md) teil der Folge transformiert, bzw sind die einseitige und zweiseitige Transformierte äquivalent, wenn die Folge sowieso kausal ist. 
 
@@ -96,7 +70,7 @@ $$
 
 
 
-### Existenzbedingung und Konvergenz
+### Existenzbedingung
 
 Ausreichend für die Existenz  der z-Transformierten ist die Forderung:
 
@@ -105,13 +79,17 @@ Ausreichend für die Existenz  der z-Transformierten ist die Forderung:
 > $$ \lvert f[n] \rvert \leq BA^{n}  $$
 > für geeignete reelle konstanten $A$ und $B$. Die z-Transformierte 
 
+### Konvergenzgebiet 
 
-
+> [!quote]  Region of Convergence - ROC
 
 > [!satz] **S - ZKNV)** Konvergenzgebiet der z-Transformierten ist gegeben durch
 > $$\lvert z \rvert > \underset{ i=1 }{ \overset{ N }{ \max } } \lvert z_{\infty i} \rvert $$
 
-Das Heißt, die z-Transformierte konvergiert für alle $z$ mit größerem Betrag als der größten Polstelle. Es konvergieren alle werte vom $z$ **außerhalb** des **Konvergenzkreises** mit dem **Konvergenzradius** $R^{-}$ dessen Wert gleich dem Betrag des größten Poles ist.
+Das Heißt, die z-Transformierte konvergiert für alle $z$ mit größerem Betrag als der größten Polstelle.
+
+
+Es konvergieren alle werte vom $z$ **außerhalb** des **Konvergenzkreises** mit dem **Konvergenzradius** $R^{-}$ dessen Wert gleich dem Betrag des größten Poles ist.
 
 ![invert_dark|400](assets/Pasted%20image%2020250208225644.png)
 
@@ -122,11 +100,11 @@ in dem Kreis befinden sich also alle Polstellen.
 Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den **Einheitskreis** ein, also alle $z$ mit Betrag kleiner als 1.
 
 > [!satz] **S - BIBO)** BIBO-Stabilität ^BIBO
-> 1. Die folge ist [stabil](../Mathematik/Analysis/Grenzwert.md#^STFO), d.h. absolut summierbar.
+> 1. Die folge ist [stabil](Stabilität%20und%20Beschränktheit.md#^BIBO) d.h. absolut summierbar.
 > 2. Die z-Transformierte konvergiert auf und außerhalb des Einheitskreises ($\to$ alle Pole liegen innerhalb des Einheitskreises)
 > 3. Die z-Transformierte ist für $z=\exp (j\Omega)$ (am Einheitskreis, also $r=1$) identisch mit der [DTFT](Zeitdiskrete%20Fourier-Transformation.md)
 
-2. $\implies$ Der **Frequenzgang** ist auf der Zylinderebene des Einheitskreises Abgebildet (siehe [Zeitdiskrete Übertragungsfunktion](Zeitdiskrete%20Übertragungsfunktion.md)) 
+3. $\implies$ Der **Frequenzgang** ist auf der Zylinderebene des Einheitskreises Abgebildet (siehe [Zeitdiskrete Übertragungsfunktion](Zeitdiskrete%20Übertragungsfunktion.md)) 
 
 ## Rechenregeln
 
@@ -157,18 +135,10 @@ Anfangs und Endwertsatz gelten nur, sofern der Grenzwert im Zeitbereich existier
 
 ## Korrespondenzen
 
-für die Kausalen Folgen $f[n] : \mathcal{Z}_{I}\left\{ f[n]\cdot \sigma[n] \right\}(z) = F(z)$ mit dem zietdiskreten Einheitssprung $\sigma[n]$ 
+für die Kausalen Folgen $f[n] : \mathcal{Z}_{I}\left\{ f[n]\cdot \sigma[n] \right\}(z) = F(z)$ mit dem zeitdiskreten Einheitssprung $\sigma[n]$ 
 
-| Nr.    | Zeitbereich | Bildbereich |
-| ------ | ----------- | ----------- |
-| (i)    |             |             |
-| (ii)   |             |             |
-| (iii)  |             |             |
-| (iv)   |             |             |
-| (v)    |             |             |
-| (vi)   |             |             |
-| (vii)  |             |             |
-| (viii) |             |             |
+> [!satz]- **S)**
+> ![ZT-Korr](Korrespondenzen/ZT-Korr.md#^Z-T3)
 
 
 # Motivation der Z-TRF für DZGL 
