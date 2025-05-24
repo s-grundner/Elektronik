@@ -23,9 +23,9 @@ title: q-Transformation
 > [!quote] Bilineartransformation nach Tustin
 > Für den Entwurf digitaler Regelkreise spielt der Frequenzgang des Abtastsystems dieselbe Rolle wie bei zeitkontinuierlichen Systemen. Die Handhabung der Funktion $G\left( e^{ j\omega T_{a} } \right)$ wird jedoch durch die Tatsache erschwert, dass hier eine transzendente Funktion in $\omega$ vorliegt.
 
-Das Ziel ist es, die Frequenz  $\omega$ so zu transformieren, dass in einer transformierten Frequenz $\Omega$ der Frequenzgang des Abtastsystems eine rationale Funktion ist.
+Das Ziel ist es, die Frequenz $\omega$ so zu transformieren, dass in einer transformierten Frequenz $\Omega$ der Frequenzgang des Abtastsystems eine rationale Funktion ist.
 
-Dies ist dann möglich, wenn man eine  Transformation so findet, dass die obere Hälfte des Einheitskreises $e^{ j\omega T_{a} }$ im Intervall $0 \leq \omega < \frac{\pi}{T_{a}}$ der komlexen $w$-Ebene abgebildet wird. Genau dies kann aber mithilfe der Transformationsvorschrift 
+Dies ist dann möglich, wenn man eine Transformation so findet, dass die obere Hälfte des Einheitskreises $e^{ j\omega T_{a} }$ im Intervall $0 \leq \omega < \frac{\pi}{T_{a}}$ der komlexen $w$-Ebene abgebildet wird. Genau dies kann aber mithilfe der Transformationsvorschrift 
 
 $$ w := \frac{z-1}{z+1} $$ 
 
@@ -45,11 +45,10 @@ $$
 ---
 
 > [!hint] matlab Befehl (`Control_Systems_Toolbox`)
-> 
+>
 > ```matlab
 > tustin()
 > ```
-
 
 $$ G(q) = \frac{1-q}{3+q}, \quad T_{a}=2 \implies \Omega =1 $$
 
