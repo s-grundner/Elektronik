@@ -173,6 +173,17 @@ kanonische Form, minimaler Speicher
 
 ---
 
+# z-Transformation mit Software-Tools
+
+Operationen wie Partialbruchzerlegung oder Ermitteln der Übertragungsfunktion kann mittels softwarepakete leicht berechnet werden.
+
+## Matlab (Propertiary)
+
+## Python (FOSS)
+
+- [Signal processing (scipy.signal) — SciPy v1.15.2 Manual](https://docs.scipy.org/doc/scipy-1.15.2/reference/signal.html)
+- [Matplotlib — Visualization with Python](https://matplotlib.org/)
+
 # Beispiele
 
 - Einheitssprung
