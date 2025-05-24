@@ -16,6 +16,7 @@ professor:
 title: Einseitige z-Transformation
 ---
  
+
 # z-Transformation
 
 - :LiRefreshCcw: [Laplace-Transformation](Laplacetransformation.md) ***:LiArrowBigRightDash:***
@@ -38,7 +39,6 @@ z=r\cdot\exp(j\Omega)
 $$
 
 Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitdiskreten Fouriertransformierten vom [Einheitskreis](../Mathematik/Kreis.md) in die komplexe Zahlenebene
-
 
 ## Einseitige z-Transformation
 
@@ -68,20 +68,18 @@ F(z) &= \frac{Z(z)}{N(z)} = \frac{\sum_{j=0}^{M}a_{j}z^{j}}{\sum_{i=0}^{N}b_{i}z
 \end{align}
 $$
 
-
-
 ### Existenzbedingung
 
-Ausreichend für die Existenz  der z-Transformierten ist die Forderung:
+Ausreichend für die Existenz der z-Transformierten ist die Forderung:
 
 > [!satz] **S - ZEXT)** Existenzbedingunge der z-Transformation
 >
 > $$ \lvert f[n] \rvert \leq BA^{n}  $$
 > für geeignete reelle konstanten $A$ und $B$. Die z-Transformierte 
 
-### Konvergenzgebiet 
+### Konvergenzgebiet
 
-> [!quote]  Region of Convergence - ROC
+> [!quote] Region of Convergence - ROC
 
 > [!satz] **S - ZKNV)** Konvergenzgebiet der z-Transformierten ist gegeben durch
 > $$\lvert z \rvert > \underset{ i=1 }{ \overset{ N }{ \max } } \lvert z_{\infty i} \rvert $$
@@ -140,8 +138,7 @@ für die Kausalen Folgen $f[n] : \mathcal{Z}_{I}\left\{ f[n]\cdot \sigma[n] \rig
 > [!satz]- **S)**
 > ![ZT-Korr](Korrespondenzen/ZT-Korr.md#^Z-T3)
 
-
-# Motivation der Z-TRF für DZGL 
+# Motivation der Z-TRF für DZGL
 
 > [!info] [Differenzengleichung](../Mathematik/Analysis/Differenzengleichung.md)
 
@@ -180,4 +177,3 @@ kanonische Form, minimaler Speicher
 
 - Einheitssprung
 - Kausale Exponentialfolge
-- 
