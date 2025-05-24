@@ -117,7 +117,6 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \end{document}
 ```
 
-
 ```tikz
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
@@ -145,7 +144,6 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 \end{document}
 ```
 
-
 > [!hint] Jede Norm hat ihre eigene geometrische Form im $\mathbb{R}^{3}$.
 
 
@@ -156,7 +154,6 @@ Wir betrachten die Definition des **Einheitsvolumens** $S_p=\left\{\mathbf{x} \i
 ---
 
 # Flashcards
-
 
 > [!question] Geben Sie die Axiome einer Norm an 
 ?
