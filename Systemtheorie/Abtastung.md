@@ -40,7 +40,10 @@ Abtasten in Matlab:
 
 Dient zum hin und her wechseln zwischen $G(s) \leftrightarrow G(z)$
 
+## Methoden zum Abtasten
 
+- [Sukzessive Approximation](../Digitaltechnik/SAR-ADC.md)
+- [Sigma-Delta](../Digitaltechnik/Sigma-Delta-ADC.md)
 
 ---
 

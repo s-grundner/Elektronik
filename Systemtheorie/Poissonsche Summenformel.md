@@ -47,7 +47,7 @@ $$
 
 Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gewichtet mit den funktionswerten der [zeitdiskreten Fouriertransformation](Zeitdiskrete%20Fourier-Transformation.md) $f_{\mathrm{a}}(n T)$.
 
-## ideale Abtastung
+## Ideale Abtastung
 
 > [!question] Der Ausgangspunkt ist eine **aperiodeische Zeitfunktion** $f_{a}(t)$ und ihre Fouriertransformierte $F_{a}(j\omega)$.
 > 
