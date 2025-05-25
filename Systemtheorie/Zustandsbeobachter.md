@@ -5,7 +5,6 @@ tags:
 aliases:
   - Zustandsbeobachtung
   - Beobachternormalform
-  - Beobachtbarkeit
 keywords: 
 subject:
   - VL
@@ -20,7 +19,6 @@ title: Zustandsbeobachter
 # Lineare Zustandsbeobachtung
 
 :LiRefreshCcw: [Zustandsregler](Zustandsregeler.md) 
-:LiRefreshCcw: [[diskreter Zustandsbeobacher]]
 
 ---
 

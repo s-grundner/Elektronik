@@ -137,3 +137,8 @@ $$
 > [!info] [Zustandsregler](Zustandsregeler.md) 
 
 > [!info] [Zustandsbeobachter](Zustandsbeobachter.md)
+
+Dafür sind Wichtige Eigenschaften
+
+- [Erreichbarkeit](Erreichbarkeit.md)
+- [Beobachtbarkeit](Beobachtbarkeit.md)
