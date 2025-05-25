@@ -22,7 +22,7 @@ professor:
 # Lineare Abbildungen
 
 > [!def] **D1 - LINA)** Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). ^LINA
-> Eine [Abbildung](Abbildung.md) $L: X \rightarrow Y$ heißt linear, wenn sie  *Additivität* und *Homogenität* erfüllen.
+> Eine [Abbildung](Abbildung.md) $L: X \rightarrow Y$ heißt linear, wenn sie *Additivität* und *Homogenität* erfüllen.
 >
 > > [!info]- **(a)** Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$ 
 > > für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](Algebra/Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
@@ -42,13 +42,13 @@ professor:
 
 Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Algebra/Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
 
-> [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige Spalten der Linearenabbildung $L$.
+> [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige Spalten der Linearenabbildung $L$. ^BILD
 > $$\mathcal{R}(L) := L(X)$$
 > 
 > - oft auch $\operatorname{im}(L)$ (von *image*)
 > - Mit einer Linearkombination des Bildes, Lässt sich aus $X$ der gesamte Raum $Y$ erreichen.
 
-> [!def] **D2 - KERN)** Das System $Lx$ das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) 
+> [!def] **D2 - KERN)** Das System $Lx$ das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) ^KERN
 >$$\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$$ 
 > 
 > - oft auch $\operatorname{ker}(L)$ (von *kernel*)
@@ -68,7 +68,6 @@ Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Algebra/Vektorraum.md) (also ent
 > [Injektiv](Abbildung.md): $\operatorname{ker}(L) = \boldsymbol{0}$, $\operatorname{dim}(\operatorname{ker}(L)) = 0$  
 > [Surjektiv](Abbildung.md): $\operatorname{im}(L) = Y$  
 > [Bijektiv](Abbildung.md): $\operatorname{ker}(L) = \boldsymbol{0} \wedge \operatorname{im}(L) = Y$
-
 
 # Tags
 

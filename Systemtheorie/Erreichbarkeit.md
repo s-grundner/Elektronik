@@ -4,6 +4,8 @@ tags:
   - Systeme/Kontinuierlich
 aliases:
   - Steuerbarkeit
+  - Erreichbarer Unterraum
+  - Gramsche Erreichbarkeitsmatrix
 keywords: 
 subject:
   - VL
@@ -22,7 +24,6 @@ title: Erreichbarkeit
 
 ---
 
-
 Betrachtet wird ein [zeitkontinuierliches LTI-System.](Kontinuierlicher%20LTI-Zustandsraum.md)
 
 
@@ -32,19 +33,25 @@ Betrachtet wird ein [zeitkontinuierliches LTI-System.](Kontinuierlicher%20LTI-Zu
 Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können? Diese Definition kann mit der Systemmatrizen $\mathbf{A}$ und $\mathbf{B}$ geprüft werden.
 
 > [!satz] **S - MIMO)** Erreichbarkeitskriterium für [MIMO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO)-Systeme.
-> Das LTI-System ist genau dann vollständig erreichbar, wenn die Matrix
-> $$\mathbf{M}_{k} = \begin{bmatrix}
+> Das LTI-System ist genau dann vollständig erreichbar, wenn die Matrix ^MIMO
+> $$\mathbf{M}_{R} = \begin{bmatrix}
 > \mathbf{B} & \mathbf{AB} & \mathbf{A}^{2}\mathbf{B} & \dots &  \mathbf{A}^{n-1}\mathbf{B}\\
 > \end{bmatrix}$$
 > [regulär](../Mathematik/Algebra/Determinante.md#Reguläre%20Matrizen) ist, also den Rang $n$ hat. Wobei $\mathbf{x}\in \mathbb{R}^n$
 
 
-> [!satz]- **S - SISO)** Erreichbarkeitskriterium für [SISO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-SISO)-Systeme.
-> $$\mathbf{M}_{k} = \begin{bmatrix}
+> [!satz]- **S - SISO)** Erreichbarkeitskriterium für [SISO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-SISO)-Systeme. ^SISO
+> $$\mathbf{M}_{R} = \begin{bmatrix}
 > \mathbf{b} & \mathbf{Ab} & \mathbf{A}^{2}\mathbf{b} & \dots &  \mathbf{A}^{n-1}\mathbf{b}\\
 > \end{bmatrix}$$
 
 ## Erreichbarer Unterraum
+
+> [!def] **D)** Der *Erreichbare Unterraum* $R$ ist gegeben durch
+> $$R = \operatorname{im}(M_{R})$$
+>  Das System ist genau dann *vollständig erreichbar*, wenn gilt $R = \mathbb{R}^{n}$
+
+Der Erreichbare Unterraum (das [Bild](../Mathematik/Algebra/Lineare%20Abbildungen.md#^BILD) von $\mathbf{M}_{R}$) beinhaltet die Systemzustände, die ausgehend 
 
 ---
 
