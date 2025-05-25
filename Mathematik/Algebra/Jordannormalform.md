@@ -13,6 +13,7 @@ release: false
 title: Jordannormalform
 ---
  
+
 # Jordannormalform
 
 > [!question] Ausgangspunkt ist hier ein System $\mathbf{\dot{x}}=\mathbf{Ax}$, zu dem man ein Fundamentalsystem sucht.

@@ -18,7 +18,7 @@ Mit der Methode Variation der Konstanten können Lösungsansätze zu inhomogenen
 - [M2, Variation der Konstanten - Lubov, Vassilevskaya](http://math-grain.de/download/m2/dgl/variation/variation-konst-1.pdf)
 - [Inhomogene lineare DG erster Ordnung](https://statmath.wu.ac.at/~leydold/MOK/HTML/node182.html)
 
-## Lösungsansatz für Inhomogene lineare DGL-Systeme 1. Ordnung
+## Lösungsansatz für Inhomogene lineare DGL-Systeme
 
 Die DGL hat die form:
 

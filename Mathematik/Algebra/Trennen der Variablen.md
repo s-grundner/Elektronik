@@ -13,5 +13,5 @@ professor:
 
 # Trennen der Variablen
 
-Durch Trennen der Varaiblen lassen sich die Fundamentallösungen eines homogenen DGL-Systems 1. Ordnung finden.
+Durch Trennen der Varaiblen lassen sich die Fundamentallösungen eines entkoppelten homogenen DGL-Systems 1. Ordnung finden.
 

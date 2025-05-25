@@ -19,7 +19,7 @@ title: Zustandstransformation
 
 Ein LTI-System wird durch die Zustandsgleichungen Beschrieben: 
 
-![LTI-System](LTI-Systeme.md#^ZLTI)
+![](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO)
 
 Oft ist es Sinnvoll den Zustand des Systems zu Transformieren, z.B. um dessen [Ruhelage](../Mathematik/Analysis/Ljapunov.md) in den Ursprung zu setzen. Mit einer **Zustandstransformation** (auch Koordinatentransformation, Basistransformation oder Basiswechsel)
 
