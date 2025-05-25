@@ -33,7 +33,7 @@ Betrachtet wird ein [zeitkontinuierliches LTI-System.](Kontinuierlicher%20LTI-Zu
 Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können? Diese Definition kann mit der Systemmatrizen $\mathbf{A}$ und $\mathbf{B}$ geprüft werden.
 
 > [!satz] **S - MIMO)** Erreichbarkeitskriterium für [MIMO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO)-Systeme.
-> Das LTI-System ist genau dann vollständig erreichbar, wenn die Matrix $\mathbf{M}_{R}$ [regulär](../Mathematik/Algebra/Reguläre%20Matrizen.md#^REGM) ist. ^MIMO
+> Das LTI-System ist vollständig erreichbar, wenn die Matrix $\mathbf{M}_{R}$ [regulär](../Mathematik/Algebra/Reguläre%20Matrizen.md#^REGM) ist. ^MIMO
 > $$\mathbf{M}_{R} = \begin{bmatrix}
 > \mathbf{B} & \mathbf{AB} & \mathbf{A}^{2}\mathbf{B} & \dots &  \mathbf{A}^{n-1}\mathbf{B}\\
 > \end{bmatrix}$$
@@ -54,7 +54,3 @@ Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegeb
 Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\mathbf{x}_{0} = \mathbf{0}$ die in endlicher Zeit erreicht werden können.
 
 > [!hint] Ist das System nicht vollständig erreichbar kann eine [Dreieckszerlegung](Dreieckszerlegung.md) durchgeführt werden.
-
----
-
-- Dreieckszerlegung / Kalman-Zerlegung
