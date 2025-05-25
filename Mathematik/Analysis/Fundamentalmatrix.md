@@ -54,19 +54,17 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 
 
 > [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
-> 
 >
 > | (i)  | $\mathbf{\dot{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})$ | Das Fundamentalsystem löst das homogene AWP                                |
 > | ---- | --------------------------------------------------------------- | -------------------------------------------------------------------------- |
 > | (ii) | $\mathbf{\Phi}(t_{0},t_{0}) = \mathbb{1}$                       | Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix |
-> 
+>
 > Ist das System auch zeitinvariant (*konstanter Koeffizient*), gilt zusätzlich
-> 
 >
 > | (iii) | $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$                                                                                              | Eine Zeitliche Verschiebung eintspricht einer Entsprechenden Transformation.         |
 > | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 > | (iv)  | $\mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)\quad$ <br>falls $t_{0}=0$, dann $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$ | Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt |
-> 
+
 Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
 Da hier
 
@@ -81,4 +79,6 @@ gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem 
 > [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die allgemeine Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) $x'(t)=\mathbf{A}(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
 > $$x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right]$$
 
+## Ermittlung der Transitionsmatrix
 
+Zur Ermittlung der Transitionsmatrix kann für **entkoppelte Systeme** bzw. 1-dimensionale Systeme [Trennen der Variablen](../Algebra/Trennen%20der%20Variablen.md) angewendet werden. Ansonsten bringt man das System in seine [Jordannormalform](../Algebra/Jordannormalform.md) 
