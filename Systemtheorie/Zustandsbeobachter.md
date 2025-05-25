@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - Systeme/LTI
+  - Systeme/Kontinuierlich
 aliases:
-  - Beobachtbarkeit
+  - Zustandsbeobachtung
   - Beobachternormalform
+  - Beobachtbarkeit
 keywords: 
 subject:
   - VL
@@ -16,8 +19,8 @@ title: Zustandsbeobachter
 
 # Lineare Zustandsbeobachtung
 
-:LiRefreshCcw: [[diskreter Zustandsbeobacher]]
 :LiRefreshCcw: [Zustandsregler](Zustandsregeler.md) 
+:LiRefreshCcw: [[diskreter Zustandsbeobacher]]
 
 ---
 

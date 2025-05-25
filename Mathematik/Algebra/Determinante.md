@@ -44,36 +44,12 @@ professor:
 
 ## Bedeutung der Determinante
 
-Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+1. Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
 
-- Haben zwei Matrizen die selbe Determinante bzw die selben [Eigenwerte](Eigenvektor.md), heißen sie **ähnlich**.
 
-### Singuläre Matrizen
-
-> [!hint] $\det = 0$: Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
-> Eine Inverse der Transformation ist daher nicht bildbar, da man aus einer niedrigeren Dimension nicht auf eine eindeutige Lösung in einer höheren Dimension kommt.
-> - Matrix ist nicht invertierbar
-> - [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) ist nicht eindeutig lösbar
-> - Mindestens ein [Eigenwert](Eigenvektor.md) ist 0.
-> - [Matrix](Matrix.md) ist singulär
-
-### Reguläre Matrizen
-
-> [!hint] $\det \neq 0$: Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
->  
-> - Matrix heißt regulär
-> - Matrix ist invertierbar
-> - Die Matrix hat vollen Rang
-> - Es gibt keine linearen Abhängigkeiten innerhalt der Matrix
-
-![InlineR|200](assets/spooder.png)
-
-Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
-- $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
+2. Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
+	- $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
 - $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
-
-
----
 
 ## Ermittlung der Determinante
 
