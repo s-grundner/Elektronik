@@ -167,6 +167,26 @@ help while
 
 ```
 
+### Plots
+
+```matlab
+x = linspace(0,10,11);
+y = sin(x); 
+
+figure() % Öffnet neues Fenster für plotting
+subplot(2,3,1) % 2x3 grid an subplots. Der nächste plot ist an position 1
+plot(x, y, 'x:', 'Linewidth', 3pt)
+title('This is an intepolated sinewave')
+xlim([-2 2])
+ylim([-1 8])
+xlabel('x')
+ylabel('y')
+
+subplot(2,3,2)
+stem(x, y, '--o', 'Linewidth', 3pt)
+title('This is a time discrete sinewave')
+```
+
 ## Matlab im Terminal
 
 ```sh
