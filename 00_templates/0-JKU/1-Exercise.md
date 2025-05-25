@@ -15,7 +15,7 @@ _%>
 
 ---
 
-<%* if(lva == "Signalverarbeitung") tR += `🧠 (files:: [Übung](Angaben/UE${nr}-lesson.pdf))`%>
+<%* if(lva == "Signalverarbeitung") tR += `🧠 (files:: [Übung](Angaben/UE${nr}-lesson.pdf))`_%>
 📝 (files:: [Angabe](Angaben/UE<%* tR += nr %>.pdf))
 ✅ (files:: [Lösung](Abgaben/UE<%* tR += nr %>-k12136610.pdf))
 
