@@ -31,12 +31,16 @@ Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}
 
 > [!hint] [Zustandsbeschreibung](Zustandsgrößen.md)
 
-| dynamische Systeme                                                                                                                                                                   | statische Systeme                                                                 |
+| [dynamische Systeme]({MOC}%20Systemtheorie.md)                                                                                                                                       | statische Systeme                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                         | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |
 | Beispiel - Autofahren) Unterschied ob man bei 50km/h oder bei 130 km/h lenkt / bremst.<br>- Reibung und Kräfte sind Anders. <br>- Motorsteuergerät reagiert anders auf die Eingaben. | Beispiel - Kaffeemaschine: Es wird immer auf das Eingangssignal ein Kaffee folgen |
 
 Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../../../Mathematik/Analysis/GDGL.md), vorallem von physikalischen Systemen.
+
+## Aufgaben eine Regelung
+
+#todo RT1 kap 5
 
 ## Beispiele
 
@@ -67,7 +71,7 @@ Beispiele für geregelte Systeme aus verscheiden Bereichen:
 
 **Ausgangssystem**
 
-![invert_dark](assets/RegTMechkreis.png)
+![invert_dark|600](assets/RegTMechkreis.png)
 
 **Aufstellen des Gleichungssystems dieses Systems:**
 
