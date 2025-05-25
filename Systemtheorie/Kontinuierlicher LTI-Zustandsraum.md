@@ -138,4 +138,4 @@ $$
 
 > [!info] [Zustands-Beobachter](Zustandsbeobachter.md)
 
-> [!info] [[Zustandsregler]] 
+> [!info] [Zustands-Regler](Zustandsregeler.md) 
