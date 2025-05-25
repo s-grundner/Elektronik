@@ -42,7 +42,7 @@ professor:
 
 Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Algebra/Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
 
-> [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige Spalten der Linearenabbildung $L$. ^BILD
+> [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige **Spalten** der Linearenabbildung $L$. ^BILD
 > $$\mathcal{R}(L) := L(X)$$
 > 
 > - oft auch $\operatorname{im}(L)$ (von *image*)

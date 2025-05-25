@@ -19,7 +19,7 @@ title: Reguläre Matrizen
 
 ---
 
-> [!def] Eine Matrix $\mathbf{M}$ heißt regulär. Folgende Aussagen dafür sind äquivalent:
+> [!def] **D - REGM)** Für eine reguläre Matrix $\mathbf{M}$ sind folgende, äquivalente Aussagen wahr: ^REGM
 > - $\det \mathbf{M} \neq 0$
 > - Matrix ist invertierbar
 > - Die Matrix hat vollen Rang
