@@ -20,15 +20,13 @@ satz:
 
 # Invertieren einer Matrix
 
-
 > [!satz] **S1 - INVB)** Invertierbarkeit ^INVB
 > 
-> - Eine quadratische [Matrix](Matrix.md) ($A \in \mathbb{R}^{n\times n}$) ist genau dann invertierbar, wenn ihr Rang gleich $n$ ist.  Das heißt, dass ihre Zeilenvektoren linearunabhängig ist.
+> - Eine quadratische [Matrix](Matrix.md) ($A \in \mathbb{R}^{n\times n}$) ist genau dann invertierbar, wenn ihr Rang gleich $n$ ist. Das heißt, dass ihre Zeilenvektoren linearunabhängig ist.
 > - Eine Matrix ist nur invertierbar, wenn ihre [Determinante](Determinante.md) ungleich 0 ist.
 
 
 Systematisch lässt sich eine Matrix mit dem Gauß-Jordan-Verfahren Invertieren
-
 
 ## 2x2 Matrix
 
