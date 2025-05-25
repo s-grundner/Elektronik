@@ -1,7 +1,8 @@
 ---
 tags:
   - Systeme/LTI
-aliases: 
+aliases:
+  - Steuerbarkeit
 keywords: 
 subject:
   - VL
@@ -14,6 +15,8 @@ title: Erreichbarkeit
 ---
 
 # Erreichbarkeit
+
+---
 
 Betrachtet wird ein [zeitkontinuierliches LTI-System.](Kontinuierlicher%20LTI-Zustandsraum.md)
 
