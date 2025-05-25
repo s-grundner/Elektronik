@@ -27,7 +27,7 @@ title: Erreichbarkeit
 Betrachtet wird ein [zeitkontinuierliches LTI-System.](Kontinuierlicher%20LTI-Zustandsraum.md)
 
 
-> [!def] **D - ERRE)** Erreichbarkeit einers zeitkontinuierlichen LTI-Systems
+> [!def] **D - ERRE)** Erreichbarkeit einers zeitkontinuierlichen LTI-Systems ^ERRE
 > Man nennt das System vollständig erreichbar, wenn Ausgehend vom Anfangszustand $\mathbf{x}_{0}=\mathbf{0}$ jeder beliebige Zustand $\mathbf{x}(T_{e})$ innerhalb einer endlichen Zeit $T_{e}$ mit einer im intervall $0 \leq t \leq T_{e}$ stückweise stetigen Eingangsgröße $\mathbf{u}(t)$ erreicht werden kann.
 
 Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können? Diese Definition kann mit der Systemmatrizen $\mathbf{A}$ und $\mathbf{B}$ geprüft werden.
@@ -51,7 +51,9 @@ Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegeb
 > $$R = \operatorname{im}(M_{R})$$
 >  Das System ist genau dann *vollständig erreichbar*, wenn gilt $R = \mathbb{R}^{n}$
 
-Der Erreichbare Unterraum (das [Bild](../Mathematik/Algebra/Lineare%20Abbildungen.md#^BILD) von $\mathbf{M}_{R}$) beinhaltet die Systemzustände, die ausgehend 
+Der Erreichbare Unterraum (das [Bild](../Mathematik/Algebra/Lineare%20Abbildungen.md#^BILD) von $\mathbf{M}_{R}$) beinhaltet die Systemzustände, die ausgehend von $\mathbf{x}_{0} = \mathbf{0}$ die in endlicher Zeit erreicht werden können.
+
+> [!hint] Ist das System nicht vollständig erreichbar kann eine [Dreieckszerlegung](Dreieckszerlegung.md) durchgeführt werden.
 
 ---
 
