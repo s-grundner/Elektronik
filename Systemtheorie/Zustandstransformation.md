@@ -15,7 +15,7 @@ title: Zustandstransformation
 
 # Zustandstransformation
 
-> [!question] [Zustandsgrößen](Zustandsgrößen.md)
+> [!question] [Zustandsbeschreibung](Zustandsbeschreibung.md)
 
 Ein LTI-System wird durch die Zustandsgleichungen Beschrieben: 
 

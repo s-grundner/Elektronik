@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - zeitdiskrete Zustandsgrößen
 keywords: 
 subject:
   - VL
@@ -12,11 +13,11 @@ release: false
 title: Zeitdiskreter Zustandsraum
 ---
 
-# Zustandsbeschreibung eines Zeitdiskreten Systems
+# Zustandsbeschreibung eines zeitdiskreten Systems
 
 > [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
 
-[Zustandsgrößen](Zustandsgrößen.md) ***:LiArrowBigRightDash:*** 
+[Kontinuierliche Zustandsbeschreibung](Zustandsbeschreibung.md) ***:LiArrowBigRightDash:*** 
 
 ---
 

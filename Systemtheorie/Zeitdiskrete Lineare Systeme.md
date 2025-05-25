@@ -41,4 +41,4 @@ title: Diskrete Lineare Systeme
 
 (Zur Erinnerung: Zeilen $\times$ Spalten)
 
-![](Zeitdiskreter%20Zustandsraum.md#^ZSGR)
+![](Zeitdiskrete%20Zustandsbeschreibung.md#^ZSGR)

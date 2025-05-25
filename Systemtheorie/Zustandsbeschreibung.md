@@ -3,10 +3,10 @@ tags:
   - tikz/circuitikz
   - Systeme/Kon
 aliases:
-  - Zustandsbeschreibung
   - Zustandsvariablen
   - Zustandsbegriff
   - Zustandsgleichung
+  - Zustandsgrößen
 keywords: 
 subject:
   - VL
@@ -23,7 +23,7 @@ professor:
 
 > [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
 
-[Zeitdiskreter Zustandsraum](Zeitdiskreter%20Zustandsraum.md) ***:LiArrowBigRightDash:***
+[Zeitdiskrete Zustandsbeschreibung](Zeitdiskrete%20Zustandsbeschreibung.md) ***:LiArrowBigRightDash:***
 
 ---
 
