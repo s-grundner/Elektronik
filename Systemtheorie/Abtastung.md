@@ -2,6 +2,7 @@
 tags: 
 aliases:
   - Abtastsysteme
+  - ADC
 keywords: 
 subject:
   - VL
@@ -9,7 +10,9 @@ subject:
   - Regelungstechnik
 semester: SS25
 created: 19th March 2025
-professor: 
+professor:
+  - Markus Schöberl
+  - Mario Huemer
 release: false
 title: Abtastung
 ---
@@ -18,11 +21,15 @@ title: Abtastung
 
 - [Duale Poissonsche Summenformel](Poissonsche%20Summenformel.md#Duale%20Poissonsche%20Summenformel)
 
-Ideale Abtastung
-
-$$ x[n] := x(nT_{s}) $$
+> [!def] **D)** Ideale Abtastung
+> 
+> $$ x[k] := x(kT_{s}) $$
 
 ## Abtastsystem
+
+### Abtastung nicht linearer Systeme
+
+### Abtastung LTI-Systeme
 
 ## Matlab
 
@@ -33,6 +40,10 @@ Abtasten in Matlab:
 
 Dient zum hin und her wechseln zwischen $G(s) \leftrightarrow G(z)$
 
+
+
 ---
 
-[q-Transformation](q-Transformation.md)
+# Referenzen
+
+- [q-Transformation](q-Transformation.md)
