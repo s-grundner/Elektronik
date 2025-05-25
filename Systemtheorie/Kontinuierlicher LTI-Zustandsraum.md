@@ -49,7 +49,7 @@ Das mathematische Modell für die Zustandsgleichung und die algebraische Ausgang
 
 Hat der Eingang sowie der Ausgang die dimension $1$, so handelt es sich um ein *Eingrößensystem* und 
 
-> [!satz] **S2 - LTI-SISO)** Eingrößen LTI-Übertragungssystem in der [Zustandsraum](Zustandsbeschreibung.md#^ZSGR)-Darstellung ^LTI-SISO
+> [!satz]- **S2 - LTI-SISO)** Eingrößen LTI-Übertragungssystem in der [Zustandsraum](Zustandsbeschreibung.md#^ZSGR)-Darstellung ^LTI-SISO
 > 
 >  $$
 > \begin{align}
@@ -92,7 +92,8 @@ Für echtlineare LTI-Systeme ist der Startzeitpunkt $t_{0}=0$. Aus [Eigenschaft 
 
 Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die [Matrix-Exponentialfunktion](../Mathematik/Analysis/Matrix-Exponentialfunktion.md) anschreiben.
 
-$$ \mathbf{\Phi}(t) = e^{ \mathbf{A}t } $$ ^TRSM-LTI
+> [!satz] **S4 - TRSM-LTI)** [Transitionsmatrix](../Mathematik/Analysis/Fundamentalmatrix.md) von LTI-Systemen ^TRSM-LTI
+> $$ \mathbf{\Phi}(t) = e^{ \mathbf{A}t } $$
 
 Um die Fundamentalmatrix aus ihrem Matrix-Exponential aufzulöse, möchte man das System in seine [Jordannormalform](../Mathematik/Algebra/Jordannormalform.md) überführen.
 
@@ -101,11 +102,7 @@ Um die Fundamentalmatrix aus ihrem Matrix-Exponential aufzulöse, möchte man da
 > [!info] Da hier speziell nur Matrizen Großgeschrieben werden,
 > wird die Korrespondenz im Bildbereich mit $\mathbf{x}\circ\mkern-7px-\mkern-7px\bullet \mathbf{\hat{x}}$ bezeichnet
 
-Wendet man die [Laplacetransformation](Laplacetransformation.md) auf das System
-
-![LTI-SISO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-SISO)
-
-an, folgt
+Wendet man die [Laplacetransformation](Laplacetransformation.md) auf das [Eingrößensystem](#^LTI-SISO) an, folgt
 
 $$
 \begin{align}
@@ -134,3 +131,11 @@ folgt mid dem [Dämpfunggssatz](Laplacetransformation.md#^LAPK) eine alternative
 $$
 \mathcal{L}\left\{ \mathbf{\Phi}(t) \right\} (s) = \mathbf{\hat{\Phi}}(s) = (s\mathbb{1}-\mathbf{A})^{-1}
 $$
+
+## Eigenschaften des LTI-Systems für den Reglerentwurf
+
+- Beobachtbarkeit
+
+> [!info] [Zustands-Beobachter](Zustandsbeobachter.md)
+
+> [!info] [[Zustandsregler]] 
