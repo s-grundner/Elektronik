@@ -1,10 +1,12 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - Abtastsysteme
 keywords: 
 subject:
   - VL
   - Signalverarbeitung
+  - Regelungstechnik
 semester: SS25
 created: 19th March 2025
 professor: 
