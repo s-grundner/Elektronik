@@ -132,10 +132,8 @@ $$
 \mathcal{L}\left\{ \mathbf{\Phi}(t) \right\} (s) = \mathbf{\hat{\Phi}}(s) = (s\mathbb{1}-\mathbf{A})^{-1}
 $$
 
-## Eigenschaften des LTI-Systems für den Reglerentwurf
+## Reglerentwurf für LTI-Systeme
 
-- Beobachtbarkeit
+> [!info] [Zustandsregler](Zustandsregeler.md) 
 
-> [!info] [Zustands-Beobachter](Zustandsbeobachter.md)
-
-> [!info] [Zustands-Regler](Zustandsregeler.md) 
+> [!info] [Zustandsbeobachter](Zustandsbeobachter.md)

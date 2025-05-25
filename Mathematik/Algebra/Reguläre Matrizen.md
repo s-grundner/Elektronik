@@ -1,15 +1,15 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - regulär
 keywords: 
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 25. Mai 2025
-professor:
+professor: 
 release: false
-title: Reguläre Matrizen
 title: Reguläre Matrizen
 ---
 
@@ -19,7 +19,7 @@ title: Reguläre Matrizen
 
 ---
 
-> [!def] Eine $n\times n$ Matrix $\mathbf{M}$ heißt regulär. Folgende Aussagen dafür sind äquivalent:
+> [!def] Eine Matrix $\mathbf{M}$ heißt regulär. Folgende Aussagen dafür sind äquivalent:
 > - $\det \mathbf{M} \neq 0$
 > - Matrix ist invertierbar
 > - Die Matrix hat vollen Rang

@@ -45,11 +45,13 @@ professor:
 ## Bedeutung der Determinante
 
 1. Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
-
-
 2. Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
 	- $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
-- $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
+	- $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
+3. Ausschlaggebend für weitere Eigenschaften
+	- [Ähnliche Matrizen](Ähnliche%20Matrizen.md)
+	- [Singuläre Matrizen](Singuläre%20Matrizen.md)
+	- [Reguläre Matrizen](Reguläre%20Matrizen.md)
 
 ## Ermittlung der Determinante
 
