@@ -22,7 +22,7 @@ Betrachtet wird ein zeitkontinuierliches LTI-System
 
 Mit den Zustandsgrößen
 
-![ZSGR](Zustandsraum.md#^ZSGR)
+![ZSGR](Zustandsgrößen.md#^ZSGR)
 
 Gibt es einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können?
 

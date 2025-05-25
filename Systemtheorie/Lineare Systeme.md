@@ -13,6 +13,7 @@ release: false
 title: Lineare Systeme
 ---
  
+
 # Lineare Systeme
 
 > [!question] :LiArrowBigLeftDash: [Dynamische Systeme](Dynamische%20Systeme.md) |📍| [LTI-Systeme](LTI-Systeme.md) :LiArrowBigRightDash:
@@ -40,7 +41,7 @@ title: Lineare Systeme
 
 (Zur Erinnerung: Zeilen $\times$ Spalten)
 
-![](Zustandsraum.md#^ZSGR)
+![](Zustandsgrößen.md#^ZSGR)
 
 Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben. Je nachdem ob die Gleichungen bestimmte Vorraussetzungen erfüllen nennt man das System auch ... 
 

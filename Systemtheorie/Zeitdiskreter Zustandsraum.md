@@ -12,11 +12,11 @@ release: false
 title: Zeitdiskreter Zustandsraum
 ---
 
-# Zustandsbeschreibung eines Zeitdiskreten Systems 
+# Zustandsbeschreibung eines Zeitdiskreten Systems
 
 > [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
 
-[Zustandsraum](Zustandsraum.md) ***:LiArrowBigRightDash:*** 
+[Zustandsgrößen](Zustandsgrößen.md) ***:LiArrowBigRightDash:*** 
 
 ---
 

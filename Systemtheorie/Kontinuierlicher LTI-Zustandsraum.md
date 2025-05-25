@@ -12,6 +12,7 @@ release: false
 title: kontinuierlicher LTI-Zustandsraum
 ---
  
+
 # Zustandsbeschreibung von LTI-Systemen
 
 > [!question] :LiArrowBigLeftDash: [LTI-Systeme](LTI-Systeme.md) |📍
@@ -57,7 +58,7 @@ Hat der Eingang sowie der Ausgang die dimension $1$, so handelt es sich um ein *
 > \end{align}
 > $$
 > 
-> Die  $\mathbf{A}$,$\mathbf{b}$, $\mathbf{c}$ und $d$ sind die Koeffizienten der **Zustandsraumdarstellung** 
+> Die $\mathbf{A}$,$\mathbf{b}$, $\mathbf{c}$ und $d$ sind die Koeffizienten der **Zustandsraumdarstellung** 
 > $$
 > \begin{align}
 > &\mathbf{A} \text{ : Dynamikmatrix } (n\times n)
@@ -123,6 +124,7 @@ $$
 $$
 
 ### Lösung des Systems
+
 Aus der Allgemeinen Fundamentallösung des Systems 
 
 ![](Kontinuierlicher%20LTI-Zustandsraum.md#^TRSM-LTI)

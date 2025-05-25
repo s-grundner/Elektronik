@@ -40,8 +40,6 @@ Das LGS hat dann die Form eines [inhomogenen DGL-Systems](Lineare%20DGL-Systeme%
 
 $$x'(t)=A(t)x(t)+b(t)$$
 
-
-
 ## Konstanter Koeffizient
 
 ### Homogene Gleichung

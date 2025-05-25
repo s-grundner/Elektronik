@@ -89,7 +89,6 @@ Die Größen $x_1, x_2, \ldots, x_n$ sind ein Satz von **Zustandsvariablen**. Wi
 | Im allgemeinen Fall können alle Ableitungen $\dot{x}_1, \dot{x}_2, \ldots, \dot{x}_n$ von allen $p$ *Eingangsgrößen* und allen *Zustandsgrößen* $x_1, x_2, \ldots, x_n$ abhängen | Ausgangsgrößen lassen sich als Funktion der *Zustandsgrößen* und der *Eingangsgrößen* darstellen. |
 | $\rightarrow$ **Zustandsgleichung:** $\mathbf{\dot{x}}=\mathbf{f}(t,\mathbf{x},\mathbf{u})$                                                                                      | $\to$ **Ausgangsgeichung:** $\mathbf{y}=\mathbf{g}(t,\mathbf{x}, \mathbf{u})$                     |
 
-
 > [!quote] Regelungstechnik: Eingangsgrößen heißen auch Stellgrößen.
 
 Aus den obigen Annahmen werden die Zustandsgrößen wiefolgt angeschreiben:

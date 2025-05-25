@@ -38,7 +38,6 @@ title: Diskreter LTI-Zustandsraum
 > \end{align}
 > $$
 
-
 ## Lösung der Zustandsgleichung
 
 Die Lösung der Differenzengleichung folgt aus der Rekursionsvorschrift.
