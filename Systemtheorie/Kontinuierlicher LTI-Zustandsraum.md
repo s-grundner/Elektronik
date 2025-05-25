@@ -29,7 +29,7 @@ Die Vorige Betrachtung auf Eingrößensysteme wird nun auf den MIMO fall erweite
 
 Das mathematische Modell für die Zustandsgleichung und die algebraische Ausgangsgleichung bilden ein LTI-System, wenn sie folgende Form haben:
 
-> [!satz] **S1 - LTI-MIMO)** Mehrgrößen LTI Übertragungssystem in der Zustandsraumdarstellung ^LTI-MIMO
+> [!satz] **S1 - LTI-MIMO)** Mehrgrößen LTI Übertragungssystem in der [Zustands](Zustandsgrößen.md#^ZSGR)darstellung ^LTI-MIMO
 > 
 >  $$
 > \begin{align}

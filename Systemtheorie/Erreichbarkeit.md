@@ -15,14 +15,12 @@ title: Erreichbarkeit
 
 # Erreichbarkeit
 
-Betrachtet wird ein zeitkontinuierliches LTI-System
+Betrachtet wird ein zeitkontinuierliches LTI-System 
 
 ![](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO)
 
 
-Mit den Zustandsgrößen
 
-![ZSGR](Zustandsgrößen.md#^ZSGR)
 
 Gibt es einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können?
 
