@@ -1,14 +1,14 @@
 ---
 tags:
   - Algorithmus/Mathe
+  - Algebra/LineareAlgebra
 aliases:
   - Gaußsches Eliminationsverfahren
 keywords: 
 subject:
-  - Mathematik1
-  - "357.100"
-semester:
-  - WS23
+  - VL
+  - Mathematik 1
+semester: WS23
 created: 27. Januar 2024
 professor:
   - Andreas Neubauer

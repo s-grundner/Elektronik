@@ -5,6 +5,7 @@ node_modules
 build
 
 conflict-files-obsidian-git.md
+*.png~
 
 # Obsidian Plugins
 .obsidian/plugins

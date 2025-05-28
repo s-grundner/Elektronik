@@ -32,7 +32,9 @@ Die Laplace Transformation ist eine [Integraltransformation](Integraltransformat
 > - Was bei der FT die Frequenzachse ist, ist bei der Laplacetransformation eine komplexe Ebene.
 > - Mit dem neuen Paramter $\sigma$ lässt sich die Konvergenz beeinflussen, und kann als Dämpfung verstanden werden.
 
-Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden als mit der Fourier-Transformation
+Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden als mit der Fourier-Transformation. 
+
+Man überprüft mit dem neuen Term $e^st$ nicht nur die Korrelation mit $e^{ j\omega t}$ (also einer Frequenz) sondern zusätzlich mit einem Faktor $e^{ \sigma t}$, wobei man erkennen kann dass nur für negative $\sigma$ der Term für $t \to \infty$ verschwindet. Das System ist also auch nur dann stabil / besitzt einen konvergenten eingeschwungenenen zustand ($\implies$ existenz der Fouriertransformation). siehe [Stabilität des Systems](#Stabilität%20des%20Systems)
 
 Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, da ja $j\Im s = j\omega$. siehe [Übertragungsfunktion](Übertragungsfunktion.md)
 

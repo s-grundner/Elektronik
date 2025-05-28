@@ -40,7 +40,8 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 ## Aufgaben eine Regelung
 
-#todo RT1 kap 5
+- [Zustandsregeler](Zustandsregeler.md)
+- [Zustandsbeobachter](Zustandsbeobachter.md)
 
 ## Beispiele
 

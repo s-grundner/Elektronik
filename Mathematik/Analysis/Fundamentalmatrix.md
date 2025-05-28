@@ -15,8 +15,9 @@ professor:
 
 # Fundamentalmatrix
 
+
 > [!def] **D1 - FUMA)** Definition der Fundamentalmatrix ^FUMA
-> Jedes System $\left\{\mathbf{x}_1, \ldots, \mathbf{x}_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
+> Jedes System $\left\{\mathbf{x}_1, \ldots, \mathbf{x}_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](Lineare%20DGL-Systeme.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
 > 
 > $$
 > \mathbf{X}(t):=\left(\mathbf{x}_1(t), \ldots, \mathbf{x}_m(t)\right)
@@ -54,16 +55,19 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 
 
 > [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
->
-> | (i)  | $\mathbf{\dot{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})$ | Das Fundamentalsystem löst das homogene AWP                                |
-> | ---- | --------------------------------------------------------------- | -------------------------------------------------------------------------- |
-> | (ii) | $\mathbf{\Phi}(t_{0},t_{0}) = \mathbb{1}$                       | Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix |
->
-> Ist das System auch zeitinvariant (*konstanter Koeffizient*), gilt zusätzlich
->
-> | (iii) | $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$                                                                                              | Eine Zeitliche Verschiebung eintspricht einer Entsprechenden Transformation.         |
-> | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-> | (iv)  | $\mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)\quad$ <br>falls $t_{0}=0$, dann $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$ | Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt |
+> 
+> 1. $\mathbf{\dot{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})$:
+> 	$\iff$ Das Fundamentalsystem löst das homogene AWP
+> 2. $\mathbf{\Phi}(t_{0},t_{0}) = \mathbb{1}$:
+> 	$\iff$ Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix
+> 
+> **LTI-Systeme:** Ist das System auch zeitinvariant (*konstanter Koeffizient*), gilt zusätzlich
+> 
+> 3. $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$
+>   $\iff$ Eine Zeitliche Verschiebung entspricht einer Entsprechenden Transformation.
+> 4. $\mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)$ und falls $t_{0}=0$, dann $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$)
+>   $\iff$ Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
+> 5. Die Transitionsmatrix ist immer [regulär](../Algebra/Reguläre%20Matrizen.md)
 
 Der Matrizant ist equivalent zur Übertragungsmatrix der Fehlerfortpflanzung
 Da hier
@@ -76,8 +80,9 @@ gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem 
 
 ## Lösung von Inhomogenen AWP
 
-> [!question] Durch die [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md) ist die allgemeine Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) $x'(t)=\mathbf{A}(t)x(t)+b(t)$ mit Anfangswerten $x(t_{0})=x_{0}$ gegeben durch: 
-> $$x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right]$$
+Die Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme.md#^AWP1-1) lässt sich mit der variation der Konstanten lösen
+
+ ![Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md#^VARK)  
 
 ## Ermittlung der Transitionsmatrix
 

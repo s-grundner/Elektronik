@@ -3,7 +3,6 @@ tags:
   - Algebra/LineareAlgebra
 aliases:
   - "#Algebra/LineareAlgebra"
-  - Basiswechsel
   - Erzeugendenfunktion
   - Lineare Algebra
 subject:

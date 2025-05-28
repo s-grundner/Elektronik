@@ -19,11 +19,14 @@ title: Reguläre Matrizen
 
 ---
 
-> [!def] **D - REGM)** Für eine reguläre Matrix $\mathbf{M}$ sind folgende, äquivalente Aussagen wahr: ^REGM
+Gilt nur für quadratische Matrizen.
+
+> [!def] **D - REGM)** Für eine reguläre $n\times n$ Matrix $\mathbf{M}$ sind folgende, äquivalente Aussagen wahr: ^REGM
 > - $\det \mathbf{M} \neq 0$
-> - Matrix ist invertierbar
-> - Die Matrix hat vollen Rang
-> - Es gibt keine linearen Abhängigkeiten innerhalt der Matrix
+> - Matrix ist [invertierbar](Gauß-Jordan-Verfahren.md)
+> - Die Matrix hat vollen [Rang](Rang%20einer%20Matrix.md)
+> - $\dim(\mathbf{M}) = \dim(\operatorname{im}(\mathbf{M})) = \operatorname{rank}(\mathbf{M})=n$
+> - Es gibt keine linearen Abhängigkeiten innerhalb der Matrix
 > - Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
 
 ![300](assets/spooder.png)

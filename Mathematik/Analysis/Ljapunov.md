@@ -55,8 +55,6 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 | Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
 | ![](../../assets/Excalidraw/DGL-Stabil.md)                                                                                                     | ![](../../assets/Excalidraw/DGL-Attr.md)                                                                                | ![](../../assets/Excalidraw/DGL-AsympStabil.md)                                                         |
 
-### Ljapunov Funktion
-
 ## Differenzengleichungen
 
 Auch die Lösungsfolge zeitdiskreter [Differenzengleichungen](Differenzengleichung.md) kann auf Stabilität untersucht werden.

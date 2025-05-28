@@ -48,11 +48,15 @@ Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Algebra/Vektorraum.md) (also ent
 > - oft auch $\operatorname{im}(L)$ (von *image*)
 > - Mit einer Linearkombination des Bildes, Lässt sich aus $X$ der gesamte Raum $Y$ erreichen.
 
+Die Dimension des Bild ist die Anzahl der Linear Unabhängigen Spalten
+
 > [!def] **D2 - KERN)** Das System $Lx$ das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) ^KERN
 >$$\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$$ 
 > 
 > - oft auch $\operatorname{ker}(L)$ (von *kernel*)
 > - Der Ausdruck $Lx=0$ wird als Kerngleichung bezeichnet
+
+Der Kern ist immer eine [Lineare Hülle](Lineare%20Hülle.md) aus Vektoren in $X$. Die Dimension des Kerns sind die Anzahl an Vektoren die das System $Lx=0$ lösen. Pro Lineare Abhängigkeit der **Zeilenvektoren** von $L$ steigt die Dimension des Kerns um eins.
 
 
 >[!important] Die Dimension des Kerns plus die Dimension des Bildes ist die Dimension des Defnitionsvektorraum $X$  

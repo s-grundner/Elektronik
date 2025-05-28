@@ -1,49 +1,42 @@
 ---
 tags: 
-aliases:
-  - Hauptvektoren
-  - Hauptvektor
-keywords:
-  - Hauptvektoren
+aliases: []
+keywords: 
 subject:
   - VL
   - Mathematik 3
+  - Regelungstechnik
 semester: WS24
-created: 30. Oktober 2024
-professor:
+created: 26th May 2025
+professor: 
+release: false
+title: Autonomes DGL-System
 ---
- 
 
-# Lineare [DGL-Systeme](Analysis/DGL-System.md) 1. Ordnung mit konstantem Koeffizienten
+# Autonomes DGL-System
 
-> [!success]  Diese Ansätze dienen zur Lösung von LTI-Systemen. Diese haben die Form:
-> $$\dot{x} = \mathbf{A}x(t) + \mathbf{B}u$$
+> [!def] **D)** Autonomes DGL-System
 > 
-
-$\mathbf{A}$ ist nicht von $t$ Abhängig.
-
-
-## Homogene Lösung
-
-$$\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}) = x_{0}, \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}$$
+> $$\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}) = x_{0}, \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}$$
 
 > [!question] Erinnerung an das 2-Dimensionale System $m=1$:
 $$ \dot{x}=a\cdot x \implies x(t)=c\cdot e^{a\cdot t} $$
 
 Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: Und zwar mit der [Matrix-Exponentialfunktion](Matrix-Exponentialfunktion.md#^EXPM). $a$ wird zur Matrix $\mathbf{A}$.
 
-Sei $x(t) = e^{ t\mathbf{A} }\cdot C$, dann gilt
+> [!success]- Gezeigt, dass $C\cdot e^{ \mathbf{A}t }$ eine Lösung ist:
+> Sei $x(t) = e^{ t\mathbf{A} }\cdot C$, dann gilt
+> 
+> $$
+> \begin{align}
+> x'(t) &= \left( e^{ t \mathbf{A} } \cdot C \right)'= \left( \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!}\right)' \cdot C = \left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} \mathbf{A}^k}{k!} \right) \cdot C \\
+> &= \mathbf{A} \cdot \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!} \cdot C = \mathbf{A} \cdot x(t)
+> \end{align}
+> $$
+> 
+> A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. $e^{ \mathbf{A}t }C$ ist also die allgemeine Lösung von $\dot{x}=\mathbf{A}x$.
 
-$$
-\begin{align}
-x'(t) &= \left( e^{ t \mathbf{A} } \cdot C \right)'= \left( \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!}\right)' \cdot C = \left( \sum_{k=0}^{\infty} \frac{k \cdot t^{k-1} \mathbf{A}^k}{k!} \right) \cdot C \\
-&= \mathbf{A} \cdot \sum_{k=0}^{\infty} \frac{t^k \mathbf{A}^k}{k!} \cdot C = \mathbf{A} \cdot x(t)
-\end{align}
-$$
-
-A wird herausgehoben und für $k-1$ wird ein indexshift durchgeführt. $e^{ \mathbf{A}t }C$ ist also die allgemeine Lösung von $\dot{x}=\mathbf{A}x$.
-
-## Fundamentalmatrix
+### Fundamentallösung
 
 Für die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. der [Transitionsmatrix](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}(t)$ ergibt sich.
 
@@ -57,6 +50,8 @@ Jedoch ist das Auswerten einer Unendlichenreihe unpraktisch.
 
 
 ### Eigen und Hauptvektoren
+
+> [!question] [Eigenvektor](../Algebra/Eigenvektor.md)
 
 Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
 
@@ -87,11 +82,23 @@ $$
 > - [Hauptvektoren](../Algebra/Eigenvektor.md#Hauptvektoren)
 > - [Jordannormalform](../Algebra/Jordannormalform.md)
 
-### Prozedur zur ermittlung der Fundamentalmatrix
+### Asymptotische Stabilität
 
-Man verfolgt die Prozedur:
+> [!question] Stabilität nach [Ljapunov](Ljapunov.md)
 
-1. Eigenwerte $\lambda$ von $A$ bestimmen
-2. Eigenvektoren $v$ zu den Eigenwerten bestimmen
+Im allgemeinen kann die Lösung (erste Zeile der Fundamentalmatrix) als Linearkombination der Größen
+
+$$
+t^k e^{ \alpha t} \cos(\omega t), \quad t^k e^{ \alpha t } \sin(\omega t), \quad \text{mit } 0 \leq k<n
+$$
+
+dargestellt werden.
+
+Dabei sind die Eigenwerte der Matrix $\mathbf{A}$ in der Form $\lambda = \alpha+j\omega$.
+
+Ersichtlich ist, dass die Lösung asymptotisch Stabil ist, wenn für alle Eigenwerte gilt, dass $\Re(\lambda) = \alpha<0$.
+
+Eine Matrix mit der Eigenschaft, dass ihre Eigenwerte einen **negativen Realteil** besitzen, nennt man [Hurwitz-Matrix](Hurwitz-Matrix.md)
+
 
 [^1]:  Eine Eigenschaft des Matrixexponential ist, dass für Diagonalmatrizen die Exponentialfunktion auf deren einzelne Elemete übertragen wird: [hier](Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix) gezeigt.

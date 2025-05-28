@@ -40,7 +40,7 @@ Die Eigenwertgleichung ist hier auf eine Seite gebracht. Um das Skalar $\lambda$
 - Eigenvektoren zu verschiedenen Eigenwerten sind [linear unabhängig](Lineare%20Abhängigkeit.md).
 - Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
 - Ist $\det A=0$, so ist *mindestens* ein Eigenwert 0.
-- Eigenwerte einer **Dreiecksmatrix** bzw **Diagonalmatrix** entsprechen der Elemente auf der *Hauptdiagonalen*.
+- Eigenwerte einer [Dreiecksmatrix](Dreiecksmatrix.md) bzw. einer [Diagonalmatrix](Diagonalmatrix.md) entsprechen der Elemente auf der *Hauptdiagonalen*.
 
 > [!def] **D2 - CHAP)** Charakteristisches Polynom und Eigenwert ^CHAP
 > Das Charakteristische Polynom zur Linearen Abbildung $\mathbf{A}$ ist definiert wie:

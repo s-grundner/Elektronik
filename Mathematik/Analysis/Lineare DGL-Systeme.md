@@ -15,7 +15,7 @@ def:
   - AWP 1.2
 ---
 
-# Lineare DGL-Systeme 1. Ordnung
+# Lineare DGL-Systeme
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
 >Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../Physik/Federkraft.md)-Dämpfer [Systeme](../../Systemtheorie/Zustandsbeschreibung.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
@@ -34,7 +34,7 @@ Dabei ist $I$ das Lösungsintervall und $m$ die Dimension des Systems bzw die An
 
 Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$) lassen sich Anzätze zur Ermittlung der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) anwenden.
 
-> [!question] siehe [Lineare DGL-Systeme 1. Ordung mit konstanten Koeffizienten](Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md)
+> [!question] siehe [Lineare DGL-Systeme mit konstanten Koeffizienten](Lineare%20DGL-Systeme%20mit%20konstanten%20Koeffizienten.md)
 
 $$
 \begin{align}

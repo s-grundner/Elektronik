@@ -3,8 +3,8 @@ tags:
   - Algorithmus/Mathe
 aliases:
   - Inverse
-  - Invertierbarkeit
   - Gauß-Jordan
+  - Invertierbarkeit
 keywords: 
 subject:
   - Mathematik 1
@@ -13,18 +13,16 @@ semester: WS23
 created: 27. Januar 2024
 professor:
   - Andreas Neubauer
-satz:
-  - INVB
 ---
  
 
 # Invertieren einer Matrix
 
-> [!satz] **S1 - INVB)** Invertierbarkeit ^INVB
-> 
-> - Eine quadratische [Matrix](Matrix.md) ($A \in \mathbb{R}^{n\times n}$) ist genau dann invertierbar, wenn ihr Rang gleich $n$ ist. Das heißt, dass ihre Zeilenvektoren linearunabhängig ist.
-> - Eine Matrix ist nur invertierbar, wenn ihre [Determinante](Determinante.md) ungleich 0 ist.
+Eine Matrix ist genau dann invertierbar, wenn sie regulär ist.
 
+> [!hint] Invertierbar $\iff$ Regulär
+
+![](Reguläre%20Matrizen.md#^REGM)
 
 Systematisch lässt sich eine Matrix mit dem Gauß-Jordan-Verfahren Invertieren
 

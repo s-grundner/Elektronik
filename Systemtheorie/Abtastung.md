@@ -27,9 +27,15 @@ title: Abtastung
 
 ## Abtastsystem
 
+Zusammenhang der Eigenwerte: Sind $s_{i}$ die Eigenwerte des kontinuierlichen System und die $z_{i}$ die Eigenwerte des zugehörigen Abgtastsystem mit der Abtastzeit $T_{a}$, gilt der zusammenhang
+
+$$ z_{i} = e^{ s_{i} T_{a} } $$
+
 ### Abtastung nicht linearer Systeme
 
 ### Abtastung LTI-Systeme
+
+
 
 ## Matlab
 

@@ -22,7 +22,7 @@ professor:
 > 
 > in höheren dimensionen $\mathbb{R}^m$ liegt ein DGL-System vor, von welchem wederum die einzelnen DGLs betrachtet werden können.
 
-Umwandeln in ein lineares [DGL-System 1. Ordnung](Lineare%20DGL-Systeme%201.%20Ordnung.md) ergibt die Koeffizientenmatrix $A(t)$ und den Störvektor $b(t)$
+Umwandeln in ein lineares [DGL-System 1. Ordnung](Lineare%20DGL-Systeme.md) ergibt die Koeffizientenmatrix $A(t)$ und den Störvektor $b(t)$
 
 $$
 A(t)=\left(\begin{array}{ccccc}
@@ -36,7 +36,7 @@ a_0(t) & a_1(t) & a_2(t) & \ldots & a_{n-1}(t)
 \end{array}\right)
 $$
 
-Das LGS hat dann die Form eines [inhomogenen DGL-Systems](Lineare%20DGL-Systeme%201.%20Ordnung.md#^AWP1-1) und es Lassen sich dementsprechende Lösungsverfahren anwenden.
+Das LGS hat dann die Form eines [inhomogenen DGL-Systems](Lineare%20DGL-Systeme.md#^AWP1-1) und es Lassen sich dementsprechende Lösungsverfahren anwenden.
 
 $$x'(t)=A(t)x(t)+b(t)$$
 

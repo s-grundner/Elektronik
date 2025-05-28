@@ -24,9 +24,13 @@ $$
 0 & 0 & 0 & *
 \end{pmatrix}
 $$
+## Eigenwerte
+
+Die [Eigenwerte](Eigenvektor.md) einer Diagonalmatrix sind genau die Elemente auf der Diagonale.
 
 ---
 
+Alternative Schreibweise
 $$
 \operatorname{diag}(1,2,3)=\begin{pmatrix}
 1 & 0 & 0 \\

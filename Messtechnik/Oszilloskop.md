@@ -34,7 +34,7 @@ Der Einstellung des Triggers legt fest, wann das Oszilloskop eine neue Periode d
 
 Das besondere an den Tastköpfen des Oszilloskops ist, dass sie frequenzkompensierte [[Spannungsteiler]] sind.
 
-![[OszTastkopfSpgTeiler.png]]
+![invert_dark](../Elektrotechnik/assets/OszTastkopfSpgTeiler.png)
 
 10:1 Tastkopf kann verwendet werden, damit der gesamtwiderstand größer ist und weniger Strom in das Messgerät fließt -> genauere Ergebnisse bei kleinstromigen Schaltungen
 

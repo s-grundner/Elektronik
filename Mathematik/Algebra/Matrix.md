@@ -1,6 +1,7 @@
 ---
 tags:
   - Algebra/LineareAlgebra
+  - MOC
 aliases:
   - Matrizen
   - Matrixgleichung
@@ -11,8 +12,7 @@ subject:
   - Mathematik 1
 semester: WS23
 created: 11. April 2024
-professor: 
-cited:
+professor:
 ---
  
 
@@ -39,35 +39,32 @@ cited:
 >  Auch für $m=n=p$ gilt i.a. nicht: $\mathbf{A} \mathbf{B}=\mathbf{B} \mathbf{A}$  
 
 ![invert_dark](assets/Pasted%20image%2020250401160610.png)
-> [!important] Eine Wichtige Kenngröße einer Matrix ist dessen [Determinante](Determinante.md)
 
-## Rang einer Matrix
+## Kenngrößen einer Matrix
 
- Der Rang einer Matrix $\mathbf{A}\in\mathbb{R}^{m\times n}$ ist:
- 
- $$\operatorname{rang}(\mathbf{A}) \leq \min\{m,n\}$$
+- [Determinante](Determinante.md)
+- [Rang einer Matrix](Rang%20einer%20Matrix.md)
+- [Definitheit](Definitheit.md)
 
-Sie entspricht der Anzahl der linear unabhängigen Zeilen bzw. Spalten der Matrix $A$.  
-Man könnte auch sagen, $\operatorname{rang}(\mathbf{A})$ ist die **Dimension** der [linearen Hüllen](../{MOC}%20Lineare%20Algebra.md) aus den Zeilen bzw. Spaltenvektoren der Matrix $A$
+## Eigenschaften einer Matrix
 
-$$
-\operatorname{rang}\mathbf{A}=\dim\operatorname{im}\mathbf{A}
-$$
+- [Reguläre Matrizen](Reguläre%20Matrizen.md)
+- [Singuläre Matrizen](Singuläre%20Matrizen.md)
+- [Ähnliche Matrizen](Ähnliche%20Matrizen.md)
+- [Nilpotente Matrix](Nilpotente%20Matrix.md)
 
 ## Operationen auf eine Matrix
 
-- [Determinante](Determinante.md)  
 - [Invertieren](Gauß-Jordan-Verfahren.md)  
 - [Transponieren](Transponieren.md)  
 - [Matrixmultiplikation](Matrixmultiplikation.md)
-- [Definitheit](Definitheit.md)
 
 ## Elementare Umformungen
 
 Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix durch eine elementare Zeilenumformung hervorgeht. Somit können wir drei Typen von Elementarmatrizen definieren ($\mathbb{R}^{n\times n}$):
 
-- [[Vertauschungsmatrix]] $T_{i, j}$
-- [[Skalierungsmatrix]] $S_i(\lambda)$
+- [Vertauschungsmatrix](Vertauschungsmatrix.md) $T_{i, j}$
+- [Skalierungsmatrix](Skalierungsmatrix.md) $S_i(\lambda)$
 - [Additionsmatrix](Additionsmatrix.md) $R_{i, j}(\lambda)$
 
 ## Besondere Matrizen
@@ -76,7 +73,6 @@ Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix
 - [[Rotationsmatrix]] 
 - [[Dreiecksmatrix]] 
 - [[Diagonalmatrix]]
-- [Nilpotente Matrix](Nilpotente%20Matrix.md)
 
 # Tags
 

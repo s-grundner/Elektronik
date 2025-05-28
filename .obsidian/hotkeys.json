@@ -329,5 +329,31 @@
       ],
       "key": "O"
     }
+  ],
+  "obsidian-hover-editor:open-new-popover": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-hover-editor:convert-active-pane-to-popover": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-hover-editor:dock-active-popover-to-workspace": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
   ]
 }

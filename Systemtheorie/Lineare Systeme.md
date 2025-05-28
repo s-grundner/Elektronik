@@ -50,7 +50,7 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 | Die Stellgröße bzw. der Eingangsvektor $\mathbf{u}(t)$ ist null                                                          | Die Koeffizientenmatrizen sind konstant. Das System ist daher zusätzlich *zeitinvariant*                                                                                     | Das System ist *frei* und *zeitinvariant*                                                                          |
 | $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}(t)\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}(t)\mathbf{x}(t)\end{align}$$ | $$\begin{align} \mathbf{\dot{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t) \\ \mathbf{y}(t) = \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \end{align}$$ | $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}\mathbf{x}(t)\end{align}$$ |
 
- Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%201.%20Ordung%20mit%20konstanten%20Koeffizienten.md) ansetzen.
+ Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%20mit%20konstanten%20Koeffizienten.md) ansetzen.
 
 ## Zustandsgleichung als Blockdiagramm
 

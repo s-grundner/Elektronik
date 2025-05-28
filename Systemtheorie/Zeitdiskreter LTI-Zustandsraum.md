@@ -20,7 +20,7 @@ title: Diskreter LTI-Zustandsraum
 
 ---
 
-> [!satz] **S1 - LTI)** Zeitdiskretes LTI-Übertragungssystem lässt sich in die Form ^ZSRM
+> [!satz] **S1 - LTI-MIMO)** Zeitdiskretes LTI-Übertragungssystem lässt sich in die Form ^LTI-MIMO
 > 
 >  $$
 > \begin{align}
@@ -51,7 +51,7 @@ $$
 \end{align}
 $$
 
-> [!satz] **S2)** Lösung der Zustandsgleichung
+> [!satz] **S2 - LTI-LSG)** Lösung der Zustandsgleichung
 > 
 > $$
 > \begin{align}

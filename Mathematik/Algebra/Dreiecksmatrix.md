@@ -25,3 +25,7 @@ $$
 0  & 0 & 0 & * 
 \end{pmatrix}
 $$
+
+## Eigenwerte
+
+Die [Eigenwerte](Eigenvektor.md) einer Dreiecksmatrix sind die Elemente auf deren Hauptdiagonale
