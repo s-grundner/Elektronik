@@ -22,7 +22,7 @@ nvim ~/.config/kwin/thumbnailgrid-main.qml
 Wenn änderungen gleich übernommen werden sollen, hook cmd manuell ausführen:
 
 ```sh
-cp /home/simon/.config/kwin/thumbnailgrid-main.qml /usr/share/kwin/tabbox/thumbnail_grid/contents/ui/main.qml
+cp ~/.config/kwin/thumbnailgrid-main.qml /usr/share/kwin/tabbox/thumbnail_grid/contents/ui/main.qml
 ```
 
 ### Close on Hotkey
@@ -68,7 +68,7 @@ GridView {
 
 Damit bei einem System Update diese Änderungen nicht überschrieben werden wird ein pacman hook eingrichtet.
 
-in `/ect/pacman.d/hooks/kwin-restore-qml.hook`
+in `/etc/pacman.d/hooks/kwin-restore-qml.hook`
 
 ```hook
 [Trigger]
