@@ -8,6 +8,8 @@ release: false
 
 # Git - Lokaler Server
 
+https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
+
 Das Erstellen eines eigenen Git-Servers ist relativ einfach, eine direkte Anleitung für Windows:
 - [https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1](https://medium.com/@piteryo7/how-to-set-up-git-server-on-local-network-windows-tutorial-7ec5cd2df3b1)
 

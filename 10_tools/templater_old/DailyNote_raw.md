@@ -5,7 +5,7 @@ banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
 ---
 
 <center> <h1> <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %> </h1> </center>
-<center> ⬅️ <a href="<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd') %>.md" class="internal-link">Gestern</a> | <a href="<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>.md" class="internal-link">Morgen</a> ➡️ </center>
+<center>⬅️ [Gestern](<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd')%>.md) | [Morgen](<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>.md) ➡️</center>
 
 ---
 

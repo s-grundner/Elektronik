@@ -23,4 +23,4 @@ _%>
 
 ## Aufgaben
 
-> [!info] Aufgaben<%tp.file.cursor()%>
+> [!info] `$=dv.current().keywords`

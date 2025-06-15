@@ -3,11 +3,8 @@ tags:
 aliases: 
 keywords: 
 subject:
-  - UE
   - Softwareentwicklung 2
-semester:
-  - SS24
-  - B2
+semester: SS25
 created: 7. März 2024
 professor:
 ---
