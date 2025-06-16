@@ -6,8 +6,8 @@ aliases:
   - Kompositum
 keywords: 
 subject:
-  - UE
   - Softwareentwicklung 2
+  - VL
 semester: SS24
 created: 11. April 2024
 professor:

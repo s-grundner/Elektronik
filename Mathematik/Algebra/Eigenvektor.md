@@ -19,9 +19,9 @@ def:
 
 # Eigenwerte, Eigenvektoren
 
-> [!quote]  Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
+> [!quote] Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
 
-Eigenvektoren ($\mathbf{v}$) sind [Vektoren](../Algebra/Vektor.md), die unter der linearen Abbildung $\mathbf{A}$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden;  diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
+Eigenvektoren ($\mathbf{v}$) sind [Vektoren](../Algebra/Vektor.md), die unter der linearen Abbildung $\mathbf{A}$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden; diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
 
 $$\mathbf{Av} = \lambda \mathbf{v}\tag{EWGL}$$ ^EWGL
 
@@ -31,7 +31,7 @@ $$\mathbf{Av} = \lambda \mathbf{v}\tag{EWGL}$$ ^EWGL
 
 Dabei nennt man die Beziehung [EWGL](#^EWGL) **Eigenwertgleichung**.
 
-> [!def] **D1 - EIGV)** Ein Vektor $\mathbf{v}\neq \mathbf{0} \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung  $\mathbf{A}$ zum **Eigenwert** $\lambda$, falls gilt ^EIGV
+> [!def] **D1 - EIGV)** Ein Vektor $\mathbf{v}\neq \mathbf{0} \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $\mathbf{A}$ zum **Eigenwert** $\lambda$, falls gilt ^EIGV
 > 
 > $$(\mathbf{A}-\lambda \mathbb{1})\cdot \mathbf{v}=\mathbf{0}\tag{EWGL}$$
 

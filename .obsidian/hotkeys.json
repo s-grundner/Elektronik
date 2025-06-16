@@ -355,5 +355,29 @@
       ],
       "key": "H"
     }
+  ],
+  "templater-obsidian:00_templates/0-JKU/0-Header.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "templater-obsidian:00_templates/0-JKU/1-Exercise.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "templater-obsidian:00_templates/1-Default/0-Header.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
   ]
 }
