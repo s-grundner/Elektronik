@@ -48,7 +48,7 @@ Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
 ## Frequenzbereichsmethoden
 
-Oft ist es wichtig, die Übertragungsfunktion eines Systems zu kennen.
+Oft ist es wichtig, die [Übertragungsfunktion](Übertragungsfunktion.md) eines Systems zu kennen.
 
 ### Übersicht: Eigenschaften von $G(s)$, $G(z)$ und $G^\#(q)$
 

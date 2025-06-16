@@ -16,11 +16,16 @@ cited:
 
 # Filter
 
-Ein Filter ist ein [System](../../Systemtheorie/{MOC}%20Systemtheorie.md) das [Signale](../../Systemtheorie/Signale.md) in bestimmten Frequenzbereichen durchlässt und andere unterdrückt. Sie werden mit Übertragungsfunktionen beschrieben.
+> [!quote] Unter einem Filter versteht man ...
+> ... ein [System](../../Systemtheorie/{MOC}%20Systemtheorie.md), das gewisse Frequezkomponenten eines [Signals](../../Systemtheorie/Signale.md) im Vergleich zu anderen verändert, z.B. durch
+>
+> - Unterdrückung
+> - Verstärkung
+> - Phasenverschiebung
+
+Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemtheorie/Übertragungsfunktion.md) beschrieben.
 
 > [!info] Filter Kenngrößen
-> 
-> 
 >
 > - Übertragungsfunktion
 >     - [[Tiefpass]] Filter
@@ -32,5 +37,5 @@ Ein Filter ist ein [System](../../Systemtheorie/{MOC}%20Systemtheorie.md) das [S
 > - Filtercharakteristik (Verhalten der Schaltung)
 >     - Form der Übertragungsfunktion
 > - Topologie (Realisierung der Schaltung)
-> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](Digitaler%20Filter.md)
+> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](../../Systemtheorie/Digitaler%20Filter.md)
 > 

@@ -2,7 +2,7 @@
 tags: 
 aliases:
   - Tustin
-  - Bilineartransformation nach Tustin
+  - Bilineartransformation
 keywords: 
 subject:
   - VL
@@ -44,7 +44,7 @@ $$
 
 ---
 
-> [!hint] matlab Befehl (`Control_Systems_Toolbox`)
+> [!hint] matlab Befehl (`Control_System_Toolbox`)
 >
 > ```matlab
 > tustin()

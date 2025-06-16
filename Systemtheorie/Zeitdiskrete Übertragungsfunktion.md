@@ -1,6 +1,7 @@
 ---
 tags: 
-aliases: 
+aliases:
+  - zeitdiskreter Frequenzgang
 keywords: 
 subject:
   - VL

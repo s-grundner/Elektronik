@@ -77,10 +77,10 @@ oder häufiger mit Hilfe der [Transitionsmatrix](Fundamentalmatrix.md#^TRSM) $\m
 Nach obiger Vorgehensweise ergibt sich für eine Differenzialgleichung der Form
 
 $$
-\dot{x}(t) = a(t)c(t)+b(t)
+\dot{x}(t) = a(t)x(t)+b(t)
 $$
 die allgemeine Lösung
 
 $$
-x(t) = 
+x(t) = e^{ \int a(t) \mathrm{~d}t  } \left( x_{0} + \int_{t_{0}}^{t} e^{ -\int a(\tau)\mathrm{~d}\tau} \cdot b(\tau)\mathrm{~d}\tau\right) 
 $$

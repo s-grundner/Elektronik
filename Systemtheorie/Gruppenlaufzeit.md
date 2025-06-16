@@ -9,12 +9,20 @@ subject:
 semester: WS24
 created: 6. Februar 2025
 professor:
+  - Andreas Stelzer
+  - Mario Huemer
 ---
  
 # Gruppenlaufzeit
 
-> [!def] **D1 - GRLZ)** Definition der Gruppenlaufzeit
-> $$\uptau_{g} = - \frac{\mathrm{d}\operatorname{arg}H(j\omega)}{\mathrm{d}\omega}$$ 
+> [!question] [Gruppenlaufziet zeitdiskreter Systeme](zeitdiskrete%20Gruppenlaufzeit.md) :LiRefreshCcw:
+
+---
+
+$H(j\omega)$ ist der [Frequenzgang](Übertragungsfunktion.md) eines zeitkontinuierlichen LTI-System.
+
+> [!def] **D1 - GRLZ)** Gruppenlaufzeit ^GRLZ
+> $$\tau_{g} := - \frac{\mathrm{d}\operatorname{arg}H(j\omega)}{\mathrm{d}\omega}$$ 
 > 
 
 ## Verzerrungsfreies LTI-System
@@ -25,7 +33,7 @@ Ein LTI-System ist verzerrungsfrei, wenn das Eingangssignal lediglich skalier un
 
 $\implies$ Konstante Gruppenlaufzeit $\uptau_{g} = t_{0}$ für alle Frequenzen.
 
-## EIgenschaften
+## Eigenschaften
 
 Im allgemeinen hat man eine nichtlineare Phasencharakteristik
 

@@ -36,6 +36,8 @@ d & -b \\ -c & a
 \end{pmatrix}
 $$
 
+> [!hint] die Matrix es Zweiten terms ist die Adjunkte matrix von $\mathbf{A}$
+
 ## Gauß-Jordan Verfahren
 
 Dieses Verfahren funktioniert für beliebige invertierbar Matrizen.
