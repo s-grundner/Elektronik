@@ -13,14 +13,14 @@ subject:
   - Signale und Systeme
 semester: SS25
 created: 8th April 2025
-professor: 
+professor: Andreas Stelzer
 release: false
 title: Stabilität und Beschränktheit
 ---
 
 # Stabilität und Beschränktheit
 
-> [!def] **D1 - BIBO)** Ein System heißt BIBO Stabil wenn das System auf jedes beschränkte Eingangssignal mit einem beschränkten Ausgangssignal reagiert. ^BIBO
+> [!def] **D1 - BIBO)** Ein System heißt BIBO Stabil wenn das System auf **jedes** beschränkte Eingangssignal mit einem beschränkten Ausgangssignal reagiert. ^BIBO
 > 
 > Beschränkt bedeutet, dass der Betrag einer Funktion kleiner als eine Endliche konstante $M_{1}$ ist: 
 > 
@@ -30,6 +30,8 @@ title: Stabilität und Beschränktheit
 > 
 > $$\int_{-\infty}^{\infty} \lvert h(t) \rvert \mathrm{~d}t < M_{2} <\infty$$
 
+
+Wenn alle Pole in der Linken Halbebene der s-Ebene liegen. (Realteil der Pole < 0, [Hurwitzmatrix](../Mathematik/Analysis/Hurwitz-Matrix.md))
 
 ---
 

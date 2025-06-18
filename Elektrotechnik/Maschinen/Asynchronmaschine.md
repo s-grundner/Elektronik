@@ -37,6 +37,8 @@ z.B. mit Trafo. Skalierung der Kurve in der Momentachse
 
 > [!important] Gängigste Ansteuerung
 
+![NOTES](Elektrotechnik/Maschinen/assets/NOTES.pdf)
+
 ### Über Polumschaltung
 
 ### Anlassen von ASM
