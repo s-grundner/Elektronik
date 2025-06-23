@@ -35,8 +35,6 @@ $$ z_{i} = e^{ s_{i} T_{a} } $$
 
 ### Abtastung LTI-Systeme
 
-
-
 ## Matlab
 
 Abtasten in Matlab:

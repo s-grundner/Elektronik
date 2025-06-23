@@ -42,7 +42,12 @@ $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Fun
 
 
 > [!def] **D2 - IFT)** Inverse Fouriertransformation ^IFT
-> $$\mathcal{F}\{F(j\omega)\}^{-1}(t) = f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cdot e^{j\omega t}d\omega \tag{IFT}$$
+> Für Kreisfrequenzen $\omega$
+>
+> $$\mathcal{F}\{F(j\omega)\}^{-1}(t) = f(t) = \frac{1}{2\pi}\int_{-\infty}^{\infty} F(\omega)\cdot e^{j\omega t}\mathrm{~d}\omega \tag{IFT}$$
+> Für Frequenzen $f$ : $\omega = 2\pi f$
+> 
+> $$\mathcal{F}\{F(jf)\}^{-1}(t) = f(t) = \int_{-\infty}^{\infty} F(f)\cdot e^{j 2\pi f t}\mathrm{~d}f \tag{IFT}$$
 
 ## Sätze und Korrespondenzen
 

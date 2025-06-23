@@ -75,6 +75,7 @@ professor:
 ## Kleinsignal Ersatzschaltbild
 
 > [!question] [Kleinsignalverhalten](BJT%20Kleinsignalverhalten.md)
+
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \usepackage{amsmath}

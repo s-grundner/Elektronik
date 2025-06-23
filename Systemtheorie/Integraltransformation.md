@@ -19,6 +19,7 @@ title: Integraltransformation
 ---
 
  
+
 # Integraltransformationen
 
 Mit Hilfe von Integraltransformationen werden [Signale](Signale.md) aus Gründen 
@@ -87,4 +88,9 @@ $$\varphi(t,s) = \theta^{*}(s,t)$$
 > $$
 > \int_{-\infty}^{\infty} \theta(\omega, t') \varphi(t, \omega) \mathrm{~d}\omega = \int_{-\infty}^{\infty} e^{ j\omega(t-t') } \mathrm{~d}\omega = 2\pi\delta(t-t')  
 > $$
+
 > ist somit bis auf einen Faktor $2\pi$ erfüllt.
+
+## Übersicht und Zusammenhänge
+
+![10000](../assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw)

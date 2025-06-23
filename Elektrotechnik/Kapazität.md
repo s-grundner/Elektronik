@@ -20,14 +20,14 @@ cited:
 # Der Kondensator - ein Ladungsspeicher
 
 > [!INFO] Der Kondensator – ein Ladungsspeicher  
->  Ein Kondensator ist eine Anordnung zweier Elektroden mit unterschiedlichem [Potenzial](elektrische%20Spannung.md), bei der durch räumliche Nähe ein elektrostatisches Feld entsteht.  
->  Die entsprechende Kenngröße heißt *Kapazität*.
+>  Ein Kondensator ist eine Anordnung zweier Elektroden mit unterschiedlichem [Potenzial](elektrische%20Spannung.md), bei der durch räumliche Nähe ein elektrostatisches Feld entsteht. Die entsprechende Kenngröße heißt *Kapazität*.
 
-> [!warning] parasitäre Kapazität  
+> [!warning] parasitäre Kapazität
 >  Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
 
+![invert_dark|400](assets/KondensatorBatterie.png)
+
 > [!TIP] [Ladungen](elektrisches%20Feld.md) verschieben sich solange, bis das [E-Feld](elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
-> ![InlineR|350](assets/KondensatorBatterie.png)
 > 1. Feld wirkt auf bewegliche Elektronen im eingebrachten Kondensator und Anschlussdrähten
 > 2. Die [Ladungen](elektrisches%20Feld.md) verschieben sich solange, bis das Feld in allen Leitern verschwindet (Platten und Drähte), d.h. dort dann konstantes Potenzial. Das Feld wird dadurch verzerrt.
 > 3. Im Zuge dieser Verschiebungen wurden die Platten [geladen](elektrisches%20Feld.md). Das Feld zwischen den Platten ist mit der [Potenzialdifferenz](elektrische%20Spannung.md) (durch [Spannungsquelle](elektrische%20Spannung.md) vorgegeben) verknüpft, erzeugt wird es vornehmlich durch die [Ladungen](elektrisches%20Feld.md) auf dem Platten.
@@ -120,14 +120,16 @@ $$
 - [Plattenkondensator](../HF-Technik/Parallelplattenleitung.md)
 - Zylinderkondensator
 - Drehkondensator
-- Vielschichtkondensator
+- Vielschichtkondensator (Multilayer Capacitor)
 
-### [Dielektrikum](../Physik/Konstanten/Dielektrikum.md)
+### Dielekrikum
+
+> [!question] [Dielektrikum](../Physik/Konstanten/Dielektrikum.md)
 
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
-- MLCC - Multilayer Ceramic Capacitor
-- ELKO - Elektrolytkondensator
-- TALKO - Tantal Elektrolytkondensator
+- [MLCC](../Hardwareentwicklung/MLCC.md) - Multilayer **Ceramic** Capacitor
+- ELKO - **Elektrolyt**kondensator
+- TALKO - **Tantal Elektrolyt**kondensator
 
 # Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
 

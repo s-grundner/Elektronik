@@ -13,6 +13,7 @@ title: LAPT-Korr
 release: true
 ---
 	
+
 # Korrespondenzen und Rechensätze
 
 [Laplacetransformation](../Laplacetransformation.md)
@@ -34,11 +35,12 @@ Es gilt der zusammenhang $F(s) = \mathcal{L}\left\{ f(t) \right\}(s)$
 | (vi)   | **Multiplikation** mit Polynom | $$(-t)^n f(t)$$                            | $$\frac{\mathrm{d}^n}{\mathrm{d}s^n}F(s)$$                                                       |
 | (vii)  | **Integration**                | $$\int_{0}^{t}f(\tau) \mathrm{~d}\tau $$   | $$\frac{F(s)}{s}$$                                                                               |
 | (viii) | [Faltung](../Faltung.md)       | $$(f_{1}*f_{2})(t)$$                       | $$F_{1}(s)F_{2}(s)$$                                                                             |
+
 ^LAPT-T1
 
 ## Sätze: Explizite Schreibweise mit $\mathcal{L}$
 
-Der Vorteil der komplexeren schreibweise ist, dass man die operationen auf das argument $s$ und $t$ besser verfolgen kann.
+Schreibweise der Der Vorteil der komplexeren schreibweise ist, dass man die operationen auf das argument $s$ und $t$ besser verfolgen kann.
 
 | Nr     | Satz                           | Zeitbereich zu $s$-Domäne: $f(t) \circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$                                                                            | Anmerkungen                                                                                                                                                         |
 | ------ | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

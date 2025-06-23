@@ -60,8 +60,6 @@ Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösun
 | Nur E-Feldlinien *entlang* der Kontur $C$ werden Integriert.                                                                                                                                                          |
 | Nur H-Feldlinien *normal* zur Fläche $S$ werden Integriert.<br>                                                                                                                                                       |
 
-
-
 > [!question] In das Modell eingezeichnet
 > ![invert_dark|500](assets/KonturInPlatengeometrie.png)
 
