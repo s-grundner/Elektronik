@@ -17,7 +17,7 @@ title: Regelungstechnik
 
 # Regelungstechnik
 
-> [!quote] Regelungstechnik ist ...
+> [!quote] Regelungstechnik ist ... ^INFO
 > - gezieltes einwirken auf ein System / Prozess / Regelstrecke
 > - sodass dieses ein gewünschtes verhalten aufweist
 
@@ -31,6 +31,7 @@ Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}
 
 > [!hint] [Zustandsbeschreibung](Zustandsbeschreibung.md)
 
+
 | [dynamische Systeme]({MOC}%20Systemtheorie.md)                                                                                                                                       | statische Systeme                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                         | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |
@@ -42,6 +43,12 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 - [Zustandsregeler](Zustandsregeler.md)
 - [Zustandsbeobachter](Zustandsbeobachter.md)
+
+> [!hint] Relevante eigenschaften des Zustandsraumes für die Regelung
+> - Erreichbar / Steuerbar
+> - Beobachtbar
+> - Rekonstruierbar / Detektierbar
+> - Beinflusst von der Abtastung
 
 ## Beispiele
 

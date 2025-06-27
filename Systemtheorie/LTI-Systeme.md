@@ -30,13 +30,12 @@ Zur Grundlage werden zunächst eindimensionale- bzw. Eingrößen-Systeme betrach
 
 ## Linearität
 
-![Lineare Abbildungen](../Mathematik/Algebra/Lineare%20Abbildungen.md#^LINA)
-
-Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn die Linearkombination der Eingänge gleich derselben Linearkombination der Ausgänge ist.
-$$ \text{LKE} \iff \text{LKA} $$
-LKE: $x(t)=a x_1(t)+b x_2(t)$
-LKA: $\mathcal{T}\{x\}(t)=\mathcal{T}\{a x_1+b x_2\}(t) = a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t)$
-
+> [!def] ![D - Lineare Abbildungen](../Mathematik/Algebra/Lineare%20Abbildungen.md#^LINA)
+> 
+> Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn die Linearkombination der Eingänge gleich derselben Linearkombination der Ausgänge ist.
+> $$ \text{LKE} \iff \text{LKA} $$
+> - LKE: $x(t)=a x_1(t)+b x_2(t)$
+> - LKA: $\mathcal{T}\{x\}(t)=\mathcal{T}\{a x_1+b x_2\}(t) = a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t)$
 
 LKE / LKA ... Linearkombination des Ein- / Ausgangs
 
@@ -50,7 +49,7 @@ $\implies \mathcal{T}$ ist eine [lineare Abbildung](../Mathematik/Algebra/Linear
 ## Zeitinvarianz
 
 > [!def] **D2 - ZV)** Zeitvarianz und Zeitinvarianz ^ZV
-> Ein Übertragungssystem $\mathcal{T}\{\cdot\}$ heißt **zeitinvariant**, wenn das zeitliche Verschieben der Eingangsgrößen um eine Spanne $\tau$ lediglich ein zeitliches Verschieben der Ausgangsgrößen um dieselbe Spanne zur Folge hat.
+> Ein Übertragungssystem $\mathcal{T}\{\cdot\}$ heißt **zeitinvariant**, wenn das zeitliche Verschieben der Eingangsgrößen um eine Spanne $t_0$ lediglich ein zeitliches Verschieben der Ausgangsgrößen um dieselbe Spanne zur Folge hat.
 >
 > $$\text{ ZVE } \iff \text{ ZVA }$$
 > 
@@ -76,7 +75,7 @@ $$x(t) = \delta(t) \quad \implies \quad y(t) = \mathcal{T\{\cdot\}} = h(t)$$
 
 Die Antwort (Ausgangssignal) auf den Impuls am Einang wird als **Impulsantwort** $h(t)$ bezeichnet.
 
-> [!question] Berechnung des Ausgangssignals mit Hilfe der Impulsantwort
+> [!question]- Berechnung des Ausgangssignals mit Hilfe der Impulsantwort
 > zunächst wird das LTI-System durch die Abbildung $\mathcal{T}\{\cdot\}$ beschrieben.
 > $$y(t) = \mathcal{T}\{x(t)\}$$
 > Das EIngagnssignal $x(t)$ wird mittels der Dirac-Distribution dargestellt.
@@ -89,11 +88,10 @@ Die Antwort (Ausgangssignal) auf den Impuls am Einang wird als **Impulsantwort**
 
 > [!success] Mit der Definition der Impulsantwort $h(t)= \mathcal{T}\{\delta(t)\}$ und Berücksichtigung der Zeitinvarianz folgt schließlich:
 >
-> $$\boxed{ y(t) = \int_{-\infty}^{\infty}x(\uptau)h(t-\uptau)\mathrm{~d}\uptau }$$
-
+> $$y(t) = \int_{-\infty}^{\infty}x(\uptau)h(t-\uptau)\mathrm{~d}\uptau$$
 Damit lässt sich das Ausgangssignal $y(t)$ für beliebeiges Eingangssignal $x(t)$ als [**Faltung**](Faltung.md) **mit der Impulsantwort** $h(t)$ beschreiben.
-
-$$\boxed{ y(t) = x(t) * h(t) }$$
+>
+> $$y(t) = x(t) * h(t) $$
 
 > [!important] Diese Form der Beschreibung ist allgeimen gültig.
 > **Die Impulsantwort beschreibt das Systemverhalten eines LTI-Systems vollständig!**
@@ -109,7 +107,7 @@ $$
 a(t) = (h * \sigma)(t)= \int_{-\infty}^{\infty}h(\uptau)\sigma(t-\uptau)\mathrm{~d}\uptau=\int_{-\infty}^{t}h(\uptau)\mathrm{~d}\uptau
 $$
 
-Die Sprungantwort ist somit das zeitliche Integral der Impulsantwort. Beide Beschreibungen sind für das LTI-System vollständig.
+Die Sprungantwort ist somit das zeitliche Integral (kumulative Summe) der Impulsantwort. Beide Beschreibungen sind für das LTI-System vollständig.
 
 > [!example] Beispiel: Ladevorgang am RC-Tiefpass
 

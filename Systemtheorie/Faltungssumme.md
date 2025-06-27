@@ -1,6 +1,5 @@
 ---
 tags:
-  - tikz
   - flashcards/SUS1
 aliases:
   - Faltungsmatrix
@@ -27,30 +26,14 @@ title: Faltungssumme
 
 ## Faltungsmatrix
 
-Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md) ist, dass das Ausgangssignal $y$ das Ergebnis der Faltung des Eingangs $x$ mit der Impulsantwort $h$ ist. Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
+> [!info] Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md)
+> das Ausgangssignal $y$ ist das Ergebnis der Faltung des Eingangs $x$ mit der Impulsantwort $h$.
+ 
+Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
 
-```tikz
-\usepackage{tikz}
-\usetikzlibrary{shapes, arrows, positioning}
-\begin{document}
-\begin{tikzpicture}[auto,>=latex', transform shape, scale=2]
+![invert_dark|500](assets/LTI-System.png)
 
-\tikzstyle{block} = [draw, shape=rectangle, minimum height=3em, minimum width=3em, node distance=2cm, line width=2pt]
-
-%Creating Blocks and Connection Nodes
-\node at (0,0) (input) {$x[n]$};
-\node [block, right of=input] (h) {$h[n]$};
-\node [above of = h]{LTI-System};
-\node [right = of h] (output) {$y[n]$};
-
-%Conecting Blocks
-\draw[->, line width=2pt] (input) -- (h) -- (output);
-
-\end{tikzpicture}
-\end{document}
-```
-
-Für ein oft vorliegendes kausales LTI-System mit endlicher Impulsantwort (FIR) $h[n] = (h_{0}, h_{1}, \dots, h_{N_{h}-1})$ der länge $N_{h-1}$ gilt:
+Für ein oft vorliegendes kausales LTI-System mit endlicher Impulsantwort (FIR) $h[n] = (h_{0}, h_{1}, \dots, h_{N_{h}-1})$ der länge $N_{h-1}$ gilt die [Differenzengleichung](../Mathematik/Analysis/Differenzengleichung.md):
 
 $$
 \begin{align}
@@ -59,7 +42,7 @@ y[n] &= (h*n)[n] = \sum_{\nu=0}^{N_{h}-1} h[\nu]x[n-\nu] \\
 \end{align}
 $$
 
-> [!def] **D2 - FMTX)** Falungsmatrix $\mathbf{H} \in \mathbb{R}^{(N_{x}+N_{h}-1) \times (N_{x})}$
+> [!def] **D2 - FMTX)** Faltungsmatrix $\mathbf{H} \in \mathbb{R}^{(N_{x}+N_{h}-1) \times (N_{x})}$ ^FMTX
 > $$
 > \begin{gather}
 > \mathbf{y} = \mathbf{Hx},\quad \mathbf{H} = \begin{pmatrix}

@@ -1,4 +1,4 @@
-<%* const semtype = ["WS23", "SS24", "WS24", "SS25", "WS25", "SS26"] _%>
+<%* const semtype = tp.user.get_lva().sem_type() _%>
 <%* let sem = await tp.system.suggester(semtype, semtype, true, "Semester")_%>
 <%* let lva = await tp.user.get_lva().sem(tp, sem) _%>
 <%* let typ = await tp.user.get_lva().type(tp) _%>
@@ -9,7 +9,7 @@ banner: /assets/banner/JKU-Banner.jpg
 banner_y: 0.5
 banner_x: 0.5
 tags:
-  - BACHELOR
+  - <%* tR += tp.user.get_lva().sem_to_program(sem) %>
 subject:
   - <%* tR += lva %>
   - <%* tR += typ %>
@@ -40,5 +40,7 @@ grade:
 ```dataviewjs
 if(dv.current().list) {
     await dv.view("10_tools/dataviewjs/lva_query", {subjectFilter: "<%* tR += lva %>", subjectType: "<%* tR += typ %>"});
+} else {
+	dv.paragraph("> [!hint] Enable list in frontmatter to view LVA related notes")
 }
 ```

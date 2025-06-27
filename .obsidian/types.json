@@ -46,6 +46,7 @@
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
     "due": "datetime",
-    "professor": "multitext"
+    "professor": "multitext",
+    "dashboard": "multitext"
   }
 }
