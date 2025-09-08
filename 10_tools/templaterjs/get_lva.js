@@ -1,6 +1,6 @@
 async function sug_lvas(tp, sem) {
     try {
-        const filePath = `10_tools/${sem}.md`;
+        const filePath = `10_tools/templaterjs/lva_lists/${sem}.md`;
         console.log(filePath);
         const tFile = tp.app.vault.getFileByPath(filePath);
         const fileContent = await tp.app.vault.read(tFile);
