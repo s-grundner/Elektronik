@@ -17,7 +17,6 @@ title: Bode Plot
 release: false
 ---
 
-
 # Bode Plot
 
 Im Bodediagramm wird der [Frequenzgang](Übertragungsfunktion.md) Logarithmisch auf ein Betrags und Phasenspektrum aufgeteilt
@@ -37,7 +36,7 @@ $$
 Diese Form erhält man durch finden der Nullstellen
 
 > [!hint] Matlab Command
-> 
+>
 > ```matlab
 > bode()
 > ```

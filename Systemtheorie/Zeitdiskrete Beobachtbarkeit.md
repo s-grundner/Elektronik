@@ -49,3 +49,11 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 
 > [!def] **D - REKO)** Rekonstruierbarkeit eines zeitdiskreten LTI-Systems ^REKO
 >Man nennt das [LTI-System](Zeitdiskreter%20LTI-Zustandsraum.md#^LTI-MIMO) vollständig rekonstruierbar, wenn aus der Kenntnis der Eingangs- und Ausgangsgrößen $\mathbf{u}_{k}$ und $\mathbf{y}_{k}$ auf einem finiten Intervall $N$ sowie der Systemmatrizen $\mathbf{A}$, $\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ der Zustand $\mathbf{x}_{N}$ errechnet werden kann. 
+
+
+> [!hint] Im zeitdiskreten gilt: vollst. Beobachtbar $\implies$ vollst. Rekonstruierbar 
+> Ansonsten ist das nicht vollst. beobachtbare System trotzdem **vollst. rekonstruierbar**, wenn $\mathbf{A}_{11}$ der Dreieckszerlegung [nilpotent](../Mathematik/Algebra/Nilpotente%20Matrix.md) ist. 
+
+## Detektierbarkeit
+
+Das System ist detektierbar, wenn $\mathbf{A}_{11}$ eine [Einheitsmatrix](../Mathematik/Algebra/Einheitsmatrix.md) ist.

@@ -24,11 +24,12 @@ title: Materialgesetz
 > \end{align}
 > $$
 
+## Materialeigenschaften
+
 - [Permeabilität](../Physik/Konstanten/Permeablität.md) $\mu$
 - [Permittivität](../Physik/Konstanten/Dielektrikum.md) $\varepsilon$
 - [Konduktivität](../Chemie/elektrischer%20Leiter.md) $\sigma$
 
-## Materialeigenschaften
 
 **Linearität:** Ein Material ist linear, wenn die Materialeigenschaften $\varepsilon_{\mathrm{r}}, \mu_{\mathrm{r}}$ und $\sigma$ unabhängig von den elektromagnetischen Feldgrößen sind, die im Material auftreten.
 

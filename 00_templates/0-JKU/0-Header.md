@@ -1,6 +1,6 @@
-<%* const sem = "SS25" _%>
-<%* let lva = await tp.user.get_lva().sem(tp, sem) _%>
-<%* let typ = await tp.user.get_lva().type(tp) _%>
+<%* const sem = "WS25" _%>
+<%* let lva = await tp.user.get_lva().sug_lva(tp, sem) _%>
+<%* let typ = await tp.user.get_lva().sug_type(tp) _%>
  
 ---
 <%* if(typ == "UE") tR += "banner: \n" _%>

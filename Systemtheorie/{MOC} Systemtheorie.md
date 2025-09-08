@@ -58,13 +58,11 @@ Oft ist es wichtig, die [Übertragungsfunktion](Übertragungsfunktion.md) eines 
 
 Zusammenhänge zwischen verschieden Signal-Transformationen 
 
-![Übersicht und Zusammenhänge](Integraltransformation.md#Übersicht%20und%20Zusammenhänge)
+### Übersicht und Zusammenhänge
+
+![10000](../assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw)
 
 ### Übersicht: Eigenschaften von $G(s)$, $G(z)$ und $G^\#(q)$
-
-- $G(s)$: [Laplacetransformation](Laplacetransformation.md)
-- $G(z)$: [z-Transformation](z-Transformation.md)
-- $G^\#(q)$: [q-Transformation](q-Transformation.md)
 
 |                  |                          $G(s)$                          |                          $G(z)$                          |                            $G^\#(q)$                            |
 | ---------------- | :------------------------------------------------------: | :------------------------------------------------------: | :-------------------------------------------------------------: |

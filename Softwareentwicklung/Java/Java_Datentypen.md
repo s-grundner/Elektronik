@@ -241,4 +241,3 @@ int numInt = 1234;
 String zeichenkette = String.format("%x", numInt);   // zeichenkette = "0x4d2"
 ...
 ```
-

@@ -19,11 +19,12 @@ title: Hurwitz-Matrix
 > Eine Matrix $\mathbf{A}$ von der **alle** [Eigenwerte](../Algebra/Eigenvektor.md) einen **negativen Realteil** besitzen.
 > $$ \forall \lambda = \alpha+i\omega: \quad \alpha < 0 $$
 
-Wenn die Dynamik/Koeffizientenmatrix eines zeitkontinuierlichen Autonomen System eine Hurwitzmatrix ist, dann ist das System stabil.
+> [!satz] **S - BIBO)** Hinreichende Bedingung für [BIBO](../../Systemtheorie/Stabilität%20und%20Beschränktheit.md)-Stabilität eines Systems:
+> 
+> Wenn die Koeffizientenmatrix eines zeitkontinuierlichen Autonomen System eine Hurwitzmatrix ist, dann ist das System stabil.
+>
+> Warum? Der Realteil ist für den Dämpfungsfaktor in der Lösung der DGL verantwortlich. Ist dieser negativ, konvergiert $e^{ \alpha t } \to 0$.
 
-Warum? Der Realteil ist für den Dämpfungsfaktor in der Lösung der DGL verantwortlich. Ist dieser negativ, konvergiert $e^{ \alpha t } \to 0$.
-
----
 
 Das zeitdiskrete äquivalent einer Hurwitzmatrix ist die [Einheitskreismatrix](../../Systemtheorie/Einheitskreismatrix.md).
 

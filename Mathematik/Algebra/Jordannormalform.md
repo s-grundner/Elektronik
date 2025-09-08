@@ -99,12 +99,23 @@ $$
 
 ## Fall 2: Nebeneigenvektoren
 
-> [!tldr] Jordanblöcke haben die Form
-> 
+> [!tldr] Jordanblöcke haben die Form:
+>  $$
+> \mathbf{J} = \begin{pmatrix}
+> \lambda & 1 & 0 & \cdots & 0 \\
+> 0 & \lambda & 1 & \cdots & 0 \\
+> \vdots & \vdots & \ddots & \ddots & \vdots \\
+> 0 & 0 & \cdots & \lambda & 1 \\
+> 0 & 0 & \cdots & 0 & \lambda
+> \end{pmatrix}
+> $$
+> Die Ordnung des Jordanblocks entspricht der algebraischen Vielfachheit des Eigenwertes $\lambda$
 
 Fall 1 gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen.
 
-Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Nebeneigenvektor**
+Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Nebeneigenvektor**.
+
+Die zu $\mathbf{\tilde{A}} = \mathbf{J}$ zugehörige Transitionsmatrix lautet:
 
 $$
 \tilde{\mathbf{\Phi}} (t) = e^{ \lambda t } \begin{pmatrix}

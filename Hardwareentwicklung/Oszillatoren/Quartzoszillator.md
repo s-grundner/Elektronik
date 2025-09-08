@@ -1,27 +1,27 @@
 ---
 tags: ["MCU", "Baugruppe/Oszillator"]
-aliases: ["Schwingquarz", "XTAL", "Crystaloscillator", "Quarz"]
+aliases: ["Schwingquartz", "XTAL", "Crystaloscillator", "Quartz"]
 subject: ["hwe"]
 source: ["Siegbert Schrempf"]
 created: 17th January 2023
 ---
 
-# Quarzoszillator
+# Quartzoszillator
 
-> [!INFO] Schwingquarze beruhen auf dem Prinzip des Piezoelektrischen Effekts
-> Der Quarz ist daher ein Mechanisches Bauelement 
+> [!INFO] Schwingquartze beruhen auf dem Prinzip des Piezoelektrischen Effekts
+> Der Quartz ist daher ein Mechanisches Bauelement 
 
 ## Symbol
 
-![500|325](../assets/quarz.png)
+![500|325](../assets/quartz.png)
 
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens  
-> ![500|325](../assets/elek_esb_quarz.png)
+> ![500|325](../assets/elek_esb_quartz.png)
 > 
 > ![400|350](../assets/quarz_mechschwing.png)
 > 
 > $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivität.md) (das Schwingen der Masse des Resonators)
-> $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quarzes)
+> $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quartzes)
 > $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Reibungskraft.md)/mechanische Verluste)
 > $C_{0}\dots$ Streukapazität der Elektroden
 
@@ -45,11 +45,28 @@ Z_{g} &=\frac{1+s^{2}L_{1}C_{1}}{s(C_{0}+C_{1})+s^{2}C_{0}C_{1}L_{1}} = \frac{Z(
 
 ## Bauteileigenschaften
 
-Reale Wellenform des Schwingquarz
+Reale Wellenform des Schwingquartz
 
-| ![](assets/WAVXTAL1.png) | ![](assets/WAVXTAL2.png) |     
-| ----------------------------------------------- | ----------------------------------------------- |
+| ![](assets/WAVXTAL1.png) | ![](assets/WAVXTAL2.png) |     |
+| ------------------------ | ------------------------ | --- |
+|                          |                          |     |
+
+## Übersteuerung
+
+Der Quartz wird in Anwendungen von einem Aktiven Element Getrieben
+
+> [!question] [Pierce-Gate Oszillator](Pierce-Gate%20Oszillator.md)
+
+Zu Beachten ist, dass ab einer bestimmten amplitude die Schwingung nichtlinear wird -> Übersteuerung.
+
+Dafür ist die Leistung (Bereich 100µW - 1mW) im Datenblatt zu beachten. 
+
+## Messung eines Quartz
+
+[Crystal oscillator - Drive Level measurement - YouTube](https://www.youtube.com/watch?v=DQ1Gsfw5nk0)
 
 # Tags
 
 [ST Application Note](https://www.st.com/resource/en/application_note/an2867-oscillator-design-guide-for-stm8afals-stm32-mcus-and-mpus-stmicroelectronics.pdf)
+[Crystal oscillator - Drive Level measurement - YouTube](https://www.youtube.com/watch?v=DQ1Gsfw5nk0)
+

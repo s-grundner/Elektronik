@@ -4,7 +4,7 @@ nr = nr.toString().padStart(2, '0')
 tp.file.rename("UE" + nr)
 
 let lva = tp.frontmatter.subject[1] 
-let mainpage = tp.user.get_lva().note_filename(lva, "UE")
+let mainpage = tp.user.get_lva().note_url(lva, "UE")
 let next = (parseInt(nr) - 1).toString().padStart(2, '0')
 let prev = (parseInt(nr) + 1).toString().padStart(2, '0')
 _%>

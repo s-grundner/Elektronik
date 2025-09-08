@@ -1,7 +1,6 @@
 ---
 tags: 
-aliases:
-  - Poissongleichung
+aliases: []
 keywords: 
 subject:
   - VL
@@ -20,6 +19,6 @@ professor:
 > 
 > $$\Delta u = 0 \iff  \sum_{i=1}^{n}  \frac{\partial^{2}u}{\partial x_{i}^{2}}=0$$
 > 
-> Ist die Laplacegleichung inhomogen so findet man die Poissongleichung vor:
+> Ist die Laplacegleichung inhomogen so findet man die [Poissongleichung](Poissongleichung.md) vor:
 > 
 > $$\Delta u = f \iff \sum_{i=1}^{n}  \frac{\partial^{2}u}{\partial x_{i}^{2}}=f$$

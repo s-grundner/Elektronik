@@ -1,7 +1,6 @@
-<%* const semtype = tp.user.get_lva().sem_type() _%>
-<%* let sem = await tp.system.suggester(semtype, semtype, true, "Semester")_%>
-<%* let lva = await tp.user.get_lva().sem(tp, sem) _%>
-<%* let typ = await tp.user.get_lva().type(tp) _%>
+<%* let sem = await tp.user.get_lva().sug_sem(tp) _%>
+<%* let lva = await tp.user.get_lva().sug_lvas(tp, sem) _%>
+<%* let typ = await tp.user.get_lva().sug_type(tp) _%>
 <%* let ects = await tp.system.prompt("ECTS", "") _%>
 
 ---

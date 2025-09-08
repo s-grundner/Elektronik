@@ -82,7 +82,7 @@ Die Hauptvektoren und vorallem der durch ihn erzeugte **Hauptraum** verallgemein
 
 > [!def] **D2 - HPTV)** Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt **Hauptvektor** der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn ^HPTV
 > 
-> $\left(A-\lambda I_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda I_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
+> $\left(A-\lambda \mathbb{1}_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda \mathbb{1}_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
 > 
 > Ein Hauptvektor der Stufe $l=1$ ist offensichtlich ein Eigenvektor.
 
@@ -107,21 +107,6 @@ Nach dieser Definition lassen sich ab dem Eigenvektor auch alle weiteren Hauptve
 
 Die Menge der Hauptvektoren ohne dem Eigenvektor werden hier als Nebeneigenvektoren bezeichnet. Man kann also aus dem Eigenvektor dessen Nebeneigenvektoren **rekursiv** bestimmen.
 
-
----
-
-> [!quote] Anwendungen  
-> Sie spielen in vielen mathematischen Anwendungen
-> - Hauptkomponentenanalyse in der Statistik
-> - Spektraltheorie, etc.
->
-> sowie in physikalischen Problemstellungen
-> - Eigenfrequenzen eines schwingungsfähigen Systems
-> - Hauptträgheitsrichtungen eines starren Körpers, etc.
-> 
-> eine große Rolle.
-
----
 
 # Beispiele
 

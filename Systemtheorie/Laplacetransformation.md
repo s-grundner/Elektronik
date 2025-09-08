@@ -110,6 +110,8 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 > $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } s~\mathcal{L}\left\{ f(t) \right\} (s)$$
 > 
 
+Wegen dem Differenzations-Satz bezeichnet man $s$ auch als Differenzations-Operator beim rechnen im Bildbereich
+
 ## Korrespondenzen
 
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK

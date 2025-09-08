@@ -31,12 +31,30 @@ title: Stabilität und Beschränktheit
 > $$\int_{-\infty}^{\infty} \lvert h(t) \rvert \mathrm{~d}t < M_{2} <\infty$$
 
 
-Wenn alle Pole in der Linken Halbebene der s-Ebene liegen. (Realteil der Pole < 0, [Hurwitzmatrix](../Mathematik/Analysis/Hurwitz-Matrix.md))
+> [!satz] **S)** BIBO Stabilitätskriterium eines Systems
+> Ein System ist BIBO-stabil wenn dessen Pole Stabil sind:
+> 
+> **Stabilität für Zeitkontinuierliche Systeme:**
+>
+> - Alle Pole liegen in der linken Halbebene des s-Bereichs und nicht auf der Abzisse.
+> - Realteil der Pole ist $< 0$
+> - Die Systemmatrix ist eine [Hurwitzmatrix](../Mathematik/Analysis/Hurwitz-Matrix.md)
+> - Das Konvergenzgebiet liegt nur links der Abzisse
+> 
+> **Stabilität für Zeitdiskrete Systeme:**
+>
+> - Alle Pole liegen innerhalb (nicht auf) dem Einheitskreis
+> - Betrag der Pole ist $< 1$
+> - Die Systemmatrix ist eine [Einheitskreismatrix](Einheitskreismatrix.md)
+> - Das Konvergenzgebiet liegt nur im Einheitskreis
+
+Die Stabilität ist daher nur vom Nennerpolynom $n(s)$ bzw. $n(z)$ der Übertragungsfunktion abhängig. 
+
+- $n(s)$ ist eine Hurwitzpolynom $\implies$ bis zum grad $n$ darf kein koeffizient $0$ sein
 
 ---
 
 # Flashcards
-
 
 > [!question] Was bedeutet BIBO-Stabil 
 ?

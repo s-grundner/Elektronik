@@ -45,8 +45,6 @@ title: Beobachtbarkeit
 > \end{bmatrix}
 > $$
 
-^09806d
-
 $\mathcal{O}$ steht für *observable*. 
 
 ## Nicht-Beobachtbarer Unterraum

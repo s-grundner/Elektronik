@@ -33,8 +33,6 @@ wobei $M_0:=M \backslash\{0\}$, $\mathbb{R}, \mathbb{C}$ sind somit ein Körper 
 > … heißt **Halbgruppe**, wenn sie in Bezug auf die Operation * dem **Assoziativgesetz** genügt.
 > - Sie wird **kommutative** Halbgruppe genannt, wenn die Operation * zusätzlich **kommutativ** ist.
 > 
-> ---
-> 
 > … heißt **Gruppe**, wenn sie in Bezug auf die Operation * dem Assoziativgesetz genügt, ein neutrales Element $e$ und zu jedem $a \in M$ ein bezüglich * inverses Element $a^{\prime}$ besitzt mit $a * a^{\prime}=e$.
 > - Sie wird Abelsche Gruppe genannt, wenn die Operation * zusätzlich kommutativ ist.
 > 
@@ -50,8 +48,6 @@ wobei $M_0:=M \backslash\{0\}$, $\mathbb{R}, \mathbb{C}$ sind somit ein Körper 
 > - Ein Ring heißt nullteilerfrei (oder Integritätsbereich), wenn für alle $a, b \in M$ gilt
 > 
 > $$ a b=0 \quad \Longrightarrow \quad a=0 \vee b=0 $$
-> 
-> ---
 > 
 > … heißt Körper, wenn $(M,+)$ und $(M \backslash\{0\}, \cdot)$ Abelsche Gruppen sind und das Distributivgesetz $a(b+c)=a b+a c$ und $(b+c) a=b a+c a$ gilt
 

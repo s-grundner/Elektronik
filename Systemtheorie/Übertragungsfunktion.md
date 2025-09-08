@@ -23,7 +23,9 @@ cited:
 
 ---
 
- Für die Übertragungsfunktion eines Systems, bildet man die [einseitige Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort. 
+Für die Übertragungsfunktion eines Systems, bildet man die [einseitige Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort.
+
+Bei der Übertragungsfunktion betrachtet man nur den Eingeschwungenen Zustand. Damit eine Übertragungsfunktion existiert müssen alle Einschwingvorgänge (die homogene Lösung) und Transiente Vorgänge abklingen.
 
 > [!def] **D1 - Übertragungsfunktion)** Transferfunction ^Transferfunction
 > $$G(s) \equiv H(s) := \mathcal{L}\left\{ h(t) \right\}(s) $$
@@ -34,7 +36,7 @@ $$ G(s) = \frac{Z(s)}{N(s)} $$
 
 ## Frequenzgang
 
-Der Frequenzgang ist auf der Imaginärachse der Transformierten abgebildet.
+Der Frequenzgang ist auf der Imaginärachse der Transformierten abgebildet. Der Frequenzgang eines Systems existiert nur wann dieses auch stabil ist.
 
 > [!def] **D - Frequenzgang)** Frequency Response ^FreqResponse
 > 
@@ -46,4 +48,3 @@ Darstellungsformen des Frequenzganges:
 - [Ortskurve](Ortskurve.md)
 
 # Quellen
-

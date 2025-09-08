@@ -1,4 +1,5 @@
 better-word-count  
+home-tab
 buttons  
 cm-editor-syntax-highlight-obsidian  
 darlal-switcher-plus  

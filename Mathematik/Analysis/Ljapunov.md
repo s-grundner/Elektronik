@@ -23,12 +23,12 @@ title: Stabilität nach Ljapunov
 
 ### Ruhelagen
 
-Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das LTI-System also $0 = \mathbf{Ax}_{S}+\mathbf{Bu}_{S}$
+Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das [LTI-System](../../Systemtheorie/LTI-Systeme.md) also $0 = \mathbf{Ax}_{S}+\mathbf{Bu}_{S}$
 
-|                        | $\mathbf{u}_{s}=0$       | $\mathbf{u}_{S}\neq 0$ |
-| ---------------------- | ------------------------ | ---------------------- |
-| $\det\mathbf{A}\neq 0$ | 1 RL: $\mathbf{x}_{s}=0$ | 1 RL:                  |
-| $\det\mathbf{A}=0$     | $\infty$ RL im Kern      |                        |
+|                        | $\mathbf{u}_{s}=0$                                | $\mathbf{u}_{S}\neq 0$                                                                                                                                           |
+| ---------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $\det\mathbf{A}\neq 0$ | 1 Ruhelage: $\mathbf{x}_{s}=0$                    | 1 Ruhelage: $\mathbf{x}_{s} = \mathbf{A}^{-1}\mathbf{Bu}_{s}$                                                                                                    |
+| $\det\mathbf{A}=0$     | $\infty$ viele Ruhelagen im Kern von $\mathbf{A}$ | $\infty$ viele Ruhelagen falls $\mathbf{Bu}_{s} \in \operatorname{im}\mathbf{A}$ <br>keine Ruhelagen falls $\mathbf{Bu}_{s} \notin \operatorname{im} \mathbf{A}$ |
 
 
 > [!example] Pendel: Das Pendel hat zwei ruhelagen:
@@ -50,7 +50,7 @@ Wir bringen ein $\varepsilon$ und ein $\delta$ ins spiel, sodass zwei bedinungen
 
 Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet $\varepsilon$, für jedes $\delta$ muss es ein solches gebiet geben, dass die Lösung stabil ist, das hießt im Grenzwert nahe der Ruhelage ist.
 
-| **Stabil**                                                                                                                                     | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>Stabil & Attrahierend                                                        |
+| **BIBO Stabil**                                                                                                                                | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>BIBO-Stabil & Attrahierend                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
 | ![](../../assets/Excalidraw/DGL-Stabil.md)                                                                                                     | ![](../../assets/Excalidraw/DGL-Attr.md)                                                                                | ![](../../assets/Excalidraw/DGL-AsympStabil.md)                                                         |

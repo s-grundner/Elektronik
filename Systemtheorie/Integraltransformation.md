@@ -34,6 +34,8 @@ in eine **alternative Darstellungsform** übergeführt
 > - [Fouriertransformation](Fouriertransformation.md): Darstellung über Zeit oder Frequenz
 > - [Laplacetransformation](Laplacetransformation.md): $s$-Bereich zur einfacheren Analyse
 
+Weiterführend bei den Frequenzbereichsmethoden in der [Systemtheorie]({MOC}%20Systemtheorie.md#Frequenzbereichsmethoden)
+
 ## Integrationskern
 
 Eine wichtige Rolle spielt dabei der **Integrationskern**, der die Bewertung der ursprünglichen Funktion in Abhängigkeit der neuen **Zielvariable** steuert.
@@ -91,6 +93,3 @@ $$\varphi(t,s) = \theta^{*}(s,t)$$
 
 > ist somit bis auf einen Faktor $2\pi$ erfüllt.
 
-## Übersicht und Zusammenhänge
-
-![10000](../assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw)

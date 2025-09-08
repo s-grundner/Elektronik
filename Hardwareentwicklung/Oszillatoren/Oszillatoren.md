@@ -76,7 +76,7 @@ Möglichkeiten die Schwingbedingung Herzuleiten:
 
 | LC Oszillatoren                                  | RC Oszillatoren                                             | Passive Schwinger                                     | Digital                                                     |
 | ------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------- |
-| [Gesteuerte Schwingkreise](LC%20Oszillatoren.md) | [Wien-Brücke Oszillator](Wien-Brücke%20Oszillator.md)       | [Quarzoszillator](Quarzoszillator.md)                 | [Discrete Time Oscillator](Discrete%20Time%20Oscillator.md) |
+| [Gesteuerte Schwingkreise](LC%20Oszillatoren.md) | [Wien-Brücke Oszillator](Wien-Brücke%20Oszillator.md)       | [Quartzoszillator](Quartzoszillator.md)                 | [Discrete Time Oscillator](Discrete%20Time%20Oscillator.md) |
 | [Parallelschwingkreis](Parallelschwingkreis.md)  | [Phasenschieber Oszillator](Phasenschieber%20Oszillator.md) | [Pierce-Gate Oszillator](Pierce-Gate%20Oszillator.md) | [Phase Locked Loop](Phase%20Locked%20Loop.md)               |
 | [Colpitts Oszillator](Colpitts%20Oszillator.md)  | [NE555](NE555.md)                                           |                                                       |                                                             |
 | [Serienschwingkreis](Serienschwingkreis.md)      | [Kippstufe](Kippstufe.md)                                   |                                                       |                                                             |

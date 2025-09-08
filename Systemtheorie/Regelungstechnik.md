@@ -31,7 +31,6 @@ Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}
 
 > [!hint] [Zustandsbeschreibung](Zustandsbeschreibung.md)
 
-
 | [dynamische Systeme]({MOC}%20Systemtheorie.md)                                                                                                                                       | statische Systeme                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                         | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |

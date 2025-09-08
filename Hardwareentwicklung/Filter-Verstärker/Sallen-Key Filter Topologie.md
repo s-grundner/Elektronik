@@ -47,11 +47,11 @@ professor:
 
 > [!question]- **Herleitung**
 
-|                    Bode Diagramm                     |                        Ortskurve                         |
-|:----------------------------------------------------:|:--------------------------------------------------------:|
-| ![600](/Hardwareentwicklung/assets/59_SallenKey.png) | ![Sallen_Key_Ortskurve](assets/Sallen_Key_Ortskurve.png) |
+|                           Bode Diagramm                           |                    Ortskurve                    |
+| :---------------------------------------------------------------: | :---------------------------------------------: |
+| ![invert_dark\|600](/Hardwareentwicklung/assets/59_SallenKey.png) | ![invert_dark](assets/Sallen_Key_Ortskurve.png) |
 
-<center><a href="../Simulationen/SallenKey.nb" class="internal-link">📈Mathematica Notebook</a></center>
+<center><a href="Scripts/mathematica/SallenKey.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 
 > [!info] Unterschiedliche Wahlen des Verstärkungsfaktors $\alpha$ ergeben unterschiedliche [Filtercharakteristiken](Aktiver%20Filter.md#Filter%20Charakteristiken):

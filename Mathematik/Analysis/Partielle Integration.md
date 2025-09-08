@@ -17,7 +17,7 @@ professor:
 
 > [!satz] **S1 - PINT)** Partielle [Integration](Integralrechnung.md)
 > 
-> $$\int_{a}^{b} f(x)\cdot g(x) \, dx = F(x)\cdot g(x) \Bigg|_{a}^{b} - \int_{a}^{b} F(x)\cdot g'(x) \, dx $$
+> $$\int_{a}^{b} f(x)\cdot g(x) \, \mathrm{d}x = F(x)\cdot g(x) \Bigg|_{a}^{b} - \int_{a}^{b} F(x)\cdot g'(x) \, \mathrm{d}x $$
 
 (Auch für unbestimmte Integrale)
 
@@ -27,7 +27,7 @@ professor:
 
 
 > [!example] Stammfunktion von $\ln \left(\operatorname{auf} \mathbb{R}^{+}\right)$mit $f: \equiv 1$ und $g:=\ln$ :
-> $$\int \ln x d x=\int 1 \cdot \ln x d x=x \ln x-\int x x^{-1} d x=x \ln x-x=x(\ln x-1)$$
+> $$\int \ln x \mathrm{~d} x=\int 1 \cdot \ln x \mathrm{~d} x=x \ln x-\int x x^{-1} \mathrm{~d} x=x \ln x-x=x(\ln x-1)$$
 
 ## Tabellarische Methode
 

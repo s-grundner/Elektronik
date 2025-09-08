@@ -33,9 +33,8 @@ Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgr�
 
 ![invert_dark|900](assets/mestechnik.png)
 
-$$
-\text{Physikalische Größe} = \text{Zahlenwert } \cdot \text{ Einheit } + \text{Unsicherheit}
-$$
+> [!def] Angabe einer Messgröße ^MESSGR
+> $$ \text{Physikalische Größe} = \text{Zahlenwert } \cdot \text{ Einheit } + \text{Unsicherheit} $$
 
 ## Begriffe der Messtechnik
 

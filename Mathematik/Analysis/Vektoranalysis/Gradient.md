@@ -37,7 +37,7 @@ Die Funktion $f:A\to \mathbb{R}$ ist ein **Skalarfeld**. Wendet man den Gradient
 > $$
 > J_{f}(x):=\begin{pmatrix}
 > \dfrac{\partial f_1}{\partial x_1}(x) & \ldots & \dfrac{\partial f_1}{\partial x_n}(x) \\
-> \vdots & & \vdots \\
+> \vdots & \ddots & \vdots \\
 > \dfrac{\partial f_m}{\partial x_1}(x) & \ldots & \dfrac{\partial f_m}{\partial x_n}(x)
 > \end{pmatrix}
 > $$

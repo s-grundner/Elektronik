@@ -58,7 +58,7 @@ Unter Berücksichtigung der nichtlinearen Eisencharakteristikverändert die [Per
 
 Typischer Kennlinienverlauf
 
-![](assets/Pasted%20image%2020250512011358.png)
+![invert_dark](assets/Pasted%20image%2020250512011358.png)
 
 ### Energie in der Spule
 
