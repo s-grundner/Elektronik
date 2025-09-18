@@ -19,6 +19,8 @@ cited:
 > $$f(x,y) = \begin{bmatrix}3x^{2} \\ 4y^{2}-x\end{bmatrix}$$
 > -> nicht immer der Fall
 
+## Beispiel
+
 Im falle einer impliziten Funktion z.B.: $x_{0}=1, y_{0}=1,u_{0}=1, v_{1}=-6$
 
 $$

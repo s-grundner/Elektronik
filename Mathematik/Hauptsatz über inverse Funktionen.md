@@ -1,16 +1,16 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
-created: 16. April 2024
-professor: 
-cited:
+created: 18. April 2024
+professor:
+release: true
+title: Hauptsatz über inverse Funktionen
 ---
- 
 
 # Hauptsatz über inverse Funktionen
 
@@ -21,7 +21,7 @@ f(x,y) = \begin{bmatrix}
 \end{bmatrix} \qquad x=y=1
 $$
 
-![[Hauptsatz der inversen Funktionen 2024-04-16 18.32.36.excalidraw]]
+![Hauptsatz der inversen Funktionen 2024-04-16 18.32.36.excalidraw](../assets/Excalidraw/Hauptsatz%20der%20inversen%20Funktionen%202024-04-16%2018.32.36.excalidraw.svg)
 
 $$
 \begin{align}

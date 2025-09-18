@@ -1,4 +1,4 @@
-async function sug_lvas(tp, sem) {
+async function sug_lva(tp, sem) {
     try {
         const filePath = `10_tools/templaterjs/lva_lists/${sem}.md`;
         console.log(filePath);
@@ -78,7 +78,7 @@ function note_link(name, type) {
 }
 
 function get_lva() {
-    return { sug_type, sug_lvas, sug_sem, type_string, type_other, note_name, note_link, note_url, sem_to_program }
+    return { sug_type, sug_lva, sug_sem, type_string, type_other, note_name, note_link, note_url, sem_to_program }
 }
 
 module.exports = get_lva
