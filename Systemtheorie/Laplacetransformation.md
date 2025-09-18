@@ -40,6 +40,7 @@ Man überprüft mit dem neuen Term $e^st$ nicht nur die Korrelation mit $e^{ j\o
 Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, da ja $j\Im s = j\omega$. siehe [Übertragungsfunktion](Übertragungsfunktion.md)
 
 > [!question] Einseitigkeit:
+> 
 > - Es werden nur [kausale](Kausalität.md) [Signale](Signale.md) betrachtet
 >     - z.B. Bei Einschaltvorgängen interessiert uns nur, was nach dem [Einschalten](Schaltvorgänge.md) $(t=0)$ passiert.
 > - Wegen der Einseitigkeit wird bei der Funktion des Zeitsignals die [Heaviside](Einheitssprungfunktion.md)-Funktion $\sigma(t)$ (oft implizit) dazu Multipliziert.
