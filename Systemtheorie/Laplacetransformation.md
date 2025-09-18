@@ -160,6 +160,7 @@ für geeignete reelle Konstanten $M$ und $\alpha$ und dass $f(t)$ in jedem endli
 > $$
 
 > [!satz] **S2 - TRF)** Transformierbare Funktionen
+>
 > Sei $f\in \mathcal{E}$, dann Existiert die Laplace-Transformation $\mathcal{L}\{f(t)\}(s)$ von $f$ für alle $s\in\mathbb{C}$ mit $\Re \left\{ s \right\}>\alpha$. Mit $\alpha$ wie in der obigen Abschätzung für die Konvergenzabzisse
 
 ## Stabilität des Systems
