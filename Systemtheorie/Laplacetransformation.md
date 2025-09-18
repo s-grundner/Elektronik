@@ -29,6 +29,7 @@ release: true
 Die Laplace Transformation ist eine [Integraltransformation](Integraltransformation.md), die eine Funktion $f(t)$ auf eine Funktion $F(s)$ abbildet. Sie ist eine Erweiterung der [Fouriertransformation](Fouriertransformation.md) und wird verwendet, um Differentialgleichungen in algebraische Gleichungen zu überführen. 
 
 > [!info] Der Transformationskern ist die exponential Funktion mit gemischt reel-komplexem Exponenten: $e^{ s }=e^{ \sigma t+j\omega t }$
+> 
 > - Was bei der FT die Frequenzachse ist, ist bei der Laplacetransformation eine komplexe Ebene.
 > - Mit dem neuen Paramter $\sigma$ lässt sich die Konvergenz beeinflussen, und kann als Dämpfung verstanden werden.
 
@@ -94,17 +95,20 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 
 > [!satz] **S3 - AEWS)** Anfangs und Endwertsatz ^AEWS
 > 
-> 1. **erster Anfangswertsatz** 
+> 1. **erster Anfangswertsatz**
+> 
 > Es sei vorrausgesetzt, dass der Grenzwert im Zeitbereich existiert
 > 
 > $$\lim_{ t \to 0^+ } f(t) = \lim_{ s \to \infty } s~\mathcal{L}\left\{ f(t) \right\} (s)$$
 > 
 > 2. **zweiter Anfangswertsatz**
+> 
 > Es sei vorrausgesetzt, dass der Grenzwert im Zeitbereich existiert
 > 
 > $$\lim_{ t \to 0^+ } \dot{f}(t) = \lim_{ s \to \infty } (s^{2}\mathcal{L}\left\{ f(t) \right\} (s)-sf(0^+))$$
 > 
 > 3. **Endwertsatz**
+> 
 > Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0. Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden.
 > 
 > $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } s~\mathcal{L}\left\{ f(t) \right\} (s)$$
