@@ -35,7 +35,6 @@ Es gilt der zusammenhang $F(s) = \mathcal{L}\left\{ f(t) \right\}(s)$
 | (vi)   | **Multiplikation** mit Polynom | $$(-t)^n f(t)$$                            | $$\frac{\mathrm{d}^n}{\mathrm{d}s^n}F(s)$$                                                       |
 | (vii)  | **Integration**                | $$\int_{0}^{t}f(\tau) \mathrm{~d}\tau $$   | $$\frac{F(s)}{s}$$                                                                               |
 | (viii) | [Faltung](../Faltung.md)       | $$(f_{1}*f_{2})(t)$$                       | $$F_{1}(s)F_{2}(s)$$                                                                             |
-
 ^LAPT-T1
 
 ## Sätze: Explizite Schreibweise mit $\mathcal{L}$
@@ -53,7 +52,6 @@ Schreibweise der Der Vorteil der komplexeren schreibweise ist, dass man die oper
 | (vii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L}\left\{ f(t) \right\} (s)$$                                                                         |                                                                                                                                                                     |
 | (viii) | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{(f_1 * f_2)(t)\right\}(s) = \mathcal{L} \left\{ f_{1}(t) \right\}(s) \cdot \mathcal{L}\left\{ f_{2}(t) \right\}(s)$$                                           | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                                                             |
 | (ix)   | **Division**                   | $$\mathcal{L}\left\{\frac{f(t)}{t}\right\}(s) = \int_s^{\infty} \mathcal{L} \left\{ f(t)\right\}  (\zeta) ~d\zeta$$                                                                | $\zeta$ hat hier nur eine Bedeutung<br>als andere Integrationsvariable                                                                                              |
-
 ^LAPT-T2
 
 ## Korrespondenztabelle
