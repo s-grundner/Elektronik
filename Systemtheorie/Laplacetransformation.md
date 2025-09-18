@@ -22,7 +22,7 @@ release: true
 
 # Einseitige Laplace Transformation
 
-[z-Transformation](z-Transformation.md) ***:LiArrowBigRightDash:***
+[z-Transformation](z-Transformation.md) :LiArrowBigRightDash:
 
 ---
 

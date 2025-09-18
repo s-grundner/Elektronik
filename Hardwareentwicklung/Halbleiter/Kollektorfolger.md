@@ -26,7 +26,6 @@ professor:
 > $C_{\mathrm{E}}$ bewirkt mit zunehmender Frequenz einen Kurzschluss von $R_{\mathrm{E}}$ und hebt damit die Gegenkopplung für höhere Frequenzen auf. Dies bewirkt eine Erhöhung der Verstärkung und einen größeren Aussteuerbereich.
 
 
-![](assets/Pasted%20image%2020241111093628.png)
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -34,7 +33,7 @@ professor:
 
 \begin{document}
 
-\begin{circuitikz}[thick]
+\begin{circuitikz}[thick, scale=1.6, transform shape]
 
 % Paths, nodes and wires:
 \node[tlground] at (0, 0) {};
@@ -58,7 +57,7 @@ professor:
 \draw (4, 2) to[C=$C_{E}$] (4, 0);
 
 \draw (2, 4) to[C=$C_{A}$] (6, 4);
-\draw (6, 4) to[R=$R_{L}$] (6, 0);
+\draw (6, 4) to[R=$R_{L}$, v=$u_a$] (6, 0);
 
 \node[vcc] at (0, 6) {$U_0$};
 \node[vcc] at (2, 6) {$U_0$};
