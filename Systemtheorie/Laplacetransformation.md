@@ -126,11 +126,13 @@ Wegen dem Differenzations-Satz bezeichnet man $s$ auch als Differenzations-Opera
 Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 
 > [!important] Vorhergehensweise
+> 
 > 1. Polynomdivision wenn $\deg z(s) \geq \deg n(z)$
 > 2. $s$ sollte soweit es geht faktorisiert werden
 > 3. Null und Polstellen berechnen:
 > 4. Partialbruchzerlegung durchführen
 > 5. Vereinfachte Korrespondenzen der Tabelle Entnehmen
+> 
 
 ## Existenzbedingungen
 
