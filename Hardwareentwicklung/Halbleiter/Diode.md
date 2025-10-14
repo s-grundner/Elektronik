@@ -22,7 +22,17 @@ keywords:
 
 > [!question] Für den Aufbau einer Diode, siehe [Halbleiterphysik](../../Physik/Halbleiterphysik.md)
 
-Die Strom-Spannungs-Beziehung einer Diode ist durch die Shockleygleichung definiert.
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\begin{document}
+\begin{circuitikz}[scale=3,transform shape]
+\draw (0,0) node[anchor=east]{Anode (P)} to[diode, i=$I_D$, v=$U_D$, o-o] (2,0) node[anchor=west]{Kathode (N)};
+\end{circuitikz}
+\end{document}
+```
+
+
+Die Strom-Spannungs-Beziehung einer Diode **im Durchlassbereich** ist durch die Shockleygleichung definiert.
 
 ![Shockley Gleichung](../../Physik/Shockley%20Gleichung.md#^SHOC)
 

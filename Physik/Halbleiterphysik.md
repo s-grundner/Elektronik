@@ -33,7 +33,7 @@ Intrinsisch $\to$ Nicht Dotiert
 
 Unterschiede des Bändermodells verschiedener Leiterklassen:
 
-![1000](../../Hardwareentwicklung/assets/Baendermodell.png)
+![invert_light|1000](../../Hardwareentwicklung/assets/Baendermodell.png)
 
 
 

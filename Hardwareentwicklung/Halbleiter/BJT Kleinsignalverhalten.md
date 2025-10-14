@@ -54,7 +54,10 @@ professor:
 \end{document}
 ```
 
+
 Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgleichung am Arbeitspunkt linearisiert.
+
+**Linearisierung der Eingangskennlinie**
 
 ```tikz
 \usepackage{pgfplots}
@@ -67,7 +70,7 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
 \newcommand{\DR}{1.5}
 
 \begin{tikzpicture}[very thick, font=\LARGE]
-\begin{scope}
+
 \coordinate (AP) at (\UAP,\IAP);
 \coordinate (BEZ1) at (\UAP-\IAP/\DR,0);
 \coordinate (BEZ2) at (\UAP+1,\IAP+\DR);
@@ -81,8 +84,34 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     (AP) node[circle, fill=black, minimum size=1pt]{} -- 
     (\UAP,0) node[below]{$U_{\mathrm{BE,0}}$};
 \draw (AP) node[anchor=north west]{$\Delta U_{\mathrm{BE}}$} -- (\UAP+1,\IAP) -- (\UAP+1,\IAP+\DR) node[anchor=north west]{$\Delta I_{\mathrm{B}}$};
-\end{scope}
-\begin{scope}[xshift=8cm]
+
+\end{tikzpicture}
+\end{document}
+```
+
+$$
+\begin{aligned}
+\left.\frac{\partial I_{\mathrm{B}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}&=\frac{1}{r_{\mathrm{BE}}} \approx \frac{\Delta I_{\mathrm{B}}}{\Delta U_{\mathrm{BE}}}
+\quad\implies\quad
+r_{\mathrm{BE}} =\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}}
+=\underbrace{\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{C}}}\right|_{\mathrm{AP}}}_{\frac{1}{S}} \cdot\underbrace{\left.\frac{\partial I_{\mathrm{C}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}}}_{\approx B}
+\end{aligned}
+$$
+**Linearisierung der Transferkennlinie**
+
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\newcommand{\IAP}{1.5}
+\newcommand{\UAP}{3}
+\newcommand{\DR}{1.5}
+
+\begin{tikzpicture}[very thick, font=\LARGE]
+
 \coordinate (AP) at (\UAP,\IAP);
 \coordinate (BEZ1) at (\UAP-\IAP/\DR,0);
 \coordinate (BEZ2) at (\UAP+1,\IAP+\DR);
@@ -96,49 +125,65 @@ Beim Kleinsignalverhalten von [BJT](Bipolartransistor.md) wird die Transistorgle
     (AP) node[circle, fill=black, minimum size=1pt]{} -- 
     (\UAP,0) node[below]{$U_{\mathrm{BE,0}}$};
 \draw (AP) node[anchor=north west]{$\Delta U_{\mathrm{BE}}$} -- (\UAP+1,\IAP) -- (\UAP+1,\IAP+\DR) node[anchor=north west]{$\Delta I_{\mathrm{C}}$};
-\end{scope}
+
 \end{tikzpicture}
 \end{document}
 ```
 
+$$
+\begin{aligned}
+\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}&=S \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{BE}}} 
+=\frac{1}{U_{\mathrm{T}}} \underbrace{I_{\mathrm{S}} e^{\frac{U_{\mathrm{BE}, 0}}{U_{\mathrm{T}}}}}_{\approx I_{\mathrm{C}, 0}} \approx \frac{I_{\mathrm{C}, 0}}{U_{\mathrm{T}}} \\ \\ \\
+\end{aligned}
+$$
 
-![invert_dark|1200](assets/KS_KL.png)
+**Linearisierung der Ausgangskennlinie**
+
+```tikz
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{amsmath}
+\pgfplotsset{compat=1.16}
+\begin{document}
+\newcommand{\IAP}{4}
+\newcommand{\UAP}{3}
+\newcommand{\DR}{.53}
+
+\begin{tikzpicture}[very thick, font=\LARGE]
+\coordinate (AP) at (\UAP,\IAP);
+\coordinate (BEZ1) at (\UAP-\IAP/\DR,0);
+\coordinate (BEZ2) at (\UAP+1,\IAP+\DR);
+\draw[->] (-5,0) -- (5,0) node[right] {$U_{\mathrm{CE}}$};
+\draw[->] (0,0) -- (0,7) node[above] {$I_{\mathrm{C}}$};
+\draw (0,0) .. controls (0,2.5) .. (\UAP+1.5,\IAP+1.5*\DR);
+\draw[dashed] (BEZ1) -- (BEZ2) -- (\UAP+1.5*1,\IAP+1.5*\DR);
+\draw[dashed] (0,\IAP) node[left]{$I_{\mathrm{C,0}}$} --
+    (AP) node[circle, fill=black, minimum size=1pt]{} -- 
+    (\UAP,0) node[below]{$U_{\mathrm{CE,0}}$};
+\draw (AP) node[anchor=north west]{$\Delta U_{\mathrm{CE}}$} -- (\UAP+1,\IAP) -- (\UAP+1,\IAP+\DR) node[anchor=north west]{$\Delta I_{\mathrm{C}}$};
+\draw (BEZ1) node[anchor=north]{$-U_{EA}$} -- ++(0,0.4);
+
+\end{tikzpicture}
+\end{document}
+```
 
 $$
-\begin{array}[b]{|c|c|c}
-\text{Linearisierung der} &
-\text{Linearisierung der} &
-\text{Linearisierung der} &
-\\
-\text{Eingangskennlinie} &
-\text{Transferkennlinie} &
-\text{Ausgangskennlinie} &
-\\
 \begin{aligned}
-\left.\frac{\partial I_{\mathrm{B}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}&=\frac{1}{r_{\mathrm{BE}}} \approx \frac{\Delta I_{\mathrm{B}}}{\Delta U_{\mathrm{BE}}}\\ \\
-\Rightarrow r_{\mathrm{BE}} & =\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}} \\
-& =\underbrace{\left.\frac{\partial U_{\mathrm{BE}}}{\partial I_{\mathrm{C}}}\right|_{\mathrm{AP}}}_{\frac{1}{S}} \cdot\underbrace{\left.\frac{\partial I_{\mathrm{C}}}{\partial I_{\mathrm{B}}}\right|_{\mathrm{AP}}}_{\approx B}
+\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{CE}}}\right|_{\mathrm{AP}}&=g_{\mathrm{EA}} \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{CE}}}
+=\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{CE}, 0}+U_{\mathrm{EA}}}
 \end{aligned}
-&
-\begin{aligned}
-\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{BE}}}\right|_{\mathrm{AP}}&=S \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{BE}}} \\ \\
-&=\frac{1}{U_{\mathrm{T}}} \underbrace{I_{\mathrm{S}} e^{\frac{U_{\mathrm{BE}, 0}}{U_{\mathrm{T}}}}}_{\approx I_{\mathrm{C}, 0}} \approx \frac{I_{\mathrm{C}, 0}}{U_{\mathrm{T}}} \\ \\ \\
-\end{aligned}
-&
-\begin{aligned}
-\left.\frac{\partial I_{\mathrm{C}}}{\partial U_{\mathrm{CE}}}\right|_{\mathrm{AP}}&=g_{\mathrm{EA}} \approx \frac{\Delta I_{\mathrm{C}}}{\Delta U_{\mathrm{CE}}} \\ \\
-&=\frac{I_{\mathrm{C}, 0}}{U_{\mathrm{CE}, 0}+U_{\mathrm{EA}}} \\ \\ \\ \\
-\end{aligned} \\  \\
- 
-\boxed{ r_{\mathrm{BE}} \approx \frac{B}{S} }
-& \boxed{ S\approx \frac{I_{C,0}}{U_{T}} }
-& \boxed{ g_{\mathrm{EA}}= \frac{I_{C,0}}{U_{CE,0}+U_{EA}} }
-\end{array}
 $$
+
 
 
 > [!important] Diese Kleinsignal-Größen heißen:
-> 
+> $$
+> \begin{array}[b]{ccc}
+> \boxed{ r_{\mathrm{BE}} \approx \frac{B}{S} }
+> & \boxed{ S\approx \frac{I_{C,0}}{U_{T}} }
+> & \boxed{ g_{\mathrm{EA}}= \frac{I_{C,0}}{U_{CE,0}+U_{EA}} }
+> \end{array}
+> $$
 > $r_{B E}\dots$ Basis-Emitter-Kleinsignalwiderstand in $\Omega$
 > $S\dots$ Steilheit in S (Siemens)
 > $g_{E A}\dots$ Early-Leitwert in S

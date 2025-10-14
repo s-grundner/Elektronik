@@ -22,6 +22,8 @@ created: 21st March 2022
 - [Sperrschicht-Feldeffekttransistor](Sperrschicht-Feldeffekttransistor.md) ([JFET](Sperrschicht-Feldeffekttransistor.md))
 - [Metall-Oxid-Halbleiter-Feldeffekttransistor](Metall-Oxid-Halbleiter-Feldeffekttransistor.md) ([MOSFET](Metall-Oxid-Halbleiter-Feldeffekttransistor.md))
 
+Spannungsgesteuerte Stromquelle
+
 ## BJT
 
 Stromfluss ohne Feld sondern [Diffusionsstrom](https://de.wikipedia.org/wiki/Diffusionsstrom)

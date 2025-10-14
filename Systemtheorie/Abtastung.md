@@ -25,6 +25,8 @@ title: Abtastung
 > 
 > $$ x[k] := x(kT_{s}) $$
 
+Ist eine Zeitkontinuierliches System gegeben, muss zuerst die Fundamentallösung ermittelt werden, damit $kT_{s}$ in die Lösung eingesetzt werden kann.
+
 ## Abtastsystem
 
 Zusammenhang der Eigenwerte: Sind $s_{i}$ die Eigenwerte des kontinuierlichen System und die $z_{i}$ die Eigenwerte des zugehörigen Abgtastsystem mit der Abtastzeit $T_{a}$, gilt der zusammenhang

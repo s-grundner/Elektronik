@@ -1,16 +1,17 @@
 ---
-tags: 
+tags:
+  - tikz
 aliases:
   - Messunsicherheiten
   - Messunsicherheit
   - Guide to the expression of Uncertainty in Measurement
-keywords: 
+keywords:
 subject:
   - VL
   - Elektrische Messtechnik und Sensorik
 semester: SS25
 created: 25th March 2025
-professor: 
+professor:
 release: false
 title: GUM
 ---
@@ -22,6 +23,14 @@ title: GUM
 Der GUM schreibt vor wie die unsicherheit einer Messgröße zu ermitteln ist.
 
 ![Messen](Messtechnik.md#^MESSGR)
+
+## Messunsicherheiten
+
+**Ursachen**
+
+
+
+## Fehlerfortpflanzung
 
 Ist eine zu Ermittelnde Größe durch eine Funktion $f(\mathbf{x})$ aus $N$ unkorrelierter Messgrößen $\mathbf{x} = [x_{1}, x_{2}, \dots, x_{N}]$ mit eigenen Unsicherheiten $\mathbf{u}(\mathbf{x})$ gegeben, gehen die Unsicherheiten wiefolgt auf die zu Ermittelnde größe über.
 
@@ -35,14 +44,40 @@ Bezeichnungen der Messgrößen
 > mit den Gewichtungsfaktoren $\mathbf{c}$ der Messgrößen.
 > $$c_{i} = \frac{\partial f}{\partial x_{i}}$$
 
-Die einzelenen unsicherheiten der Messgrößen sind durch die Messmethode bestimmt.
 
+## Messmethoden
 
-## Typ A Methode
+In der Praxis liegen immer eine endliche Anzahl $n$ an Messungen vor, weshalb für die Verteilungen der Zufallsvariablen / Messgrößen die Schätzwerte verwendet werden.
+
+Die einzelenen unsicherheiten $u(x_{i})$ der Messgrößen $x_{i}$ sind durch die Messmethode bestimmt.
+
+### Typ A Methode
 
 - Wiederholungsmessungen
 - möglichst identische Bedingungen
 - Beruhend auf **Häufigkeitsverteilungen**
+
+
+```tikz
+% Minimalbeispiel: einfache Glockenkurve
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\begin{document}
+\begin{tikzpicture}[scale=1.5]
+\begin{axis}[
+	domain=-4:4, samples=200,
+	axis lines=middle,
+	xlabel=$x$, ylabel=$f(x)$,
+	xmin=-4, xmax=4, ymin=0, ymax=0.45,
+	ticks=none,
+	width=10cm, height=5cm
+]
+	\addplot[thick, smooth] {exp(-(x^2))/4};
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
 
 ![600](../assets/Excalidraw/GUM%202025-07-02%2014.42.42.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../assets/Excalidraw/GUM%202025-07-02%2014.42.42.excalidraw.md)%%
@@ -52,8 +87,7 @@ Die einzelenen unsicherheiten der Messgrößen sind durch die Messmethode bestim
 > Dabei ist $u(x_{i})$ die Unsicherheit der Einzelmesswerte mit
 > $$u(x_{i}) = \sqrt{ \sum_{i=1}^{N} (x_{i} - \bar{x}) }$$
 
-## Typ B Methode
-
+### Typ B Methode
 
 - Andere Informationsquelle
 - Kalibrierschein, Geräte Handbuch
@@ -67,7 +101,7 @@ Die einzelenen unsicherheiten der Messgrößen sind durch die Messmethode bestim
 > - Geeichtes Messgerät: Toleranzgrenzen
 > - Auflösung einer Anzeige: Auflösungsintervall
 
-## Typ A und B Methode in Kombination
+### Typ A und B Methode in Kombination
 
 ---
 
