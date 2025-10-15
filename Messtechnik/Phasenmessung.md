@@ -14,6 +14,12 @@ professor:
 
 Zur Messung der Phase einer komplexen Größe in der [Wechselstromtechnik](../Elektrotechnik/Wechselstromtechnik.md) gibt es 2 Methoden:
 
-**Methode 1:** Kurvenvergleich
+> [!important] **Methode 1:** Kurvenvergleich
+> Es wird der Sinusförmige Spannungsverlauf an einem ohmschen und an einer komplexen Impedanz gemessen und die Zeit zwischen den Nulldurchgängen ausgewertet.
+
+!imp **Methode 2:** Lissajous Figur im XY-Betrieb
+
+
+
 
 ## Messaufbau
