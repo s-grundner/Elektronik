@@ -121,7 +121,7 @@ Wegen dem Differenzations-Satz bezeichnet man $s$ auch als Differenzations-Opera
 
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
 > 
-> ![LAPT-Korr](./Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
+> ![](./Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
 
 ## Rücktransformation
 

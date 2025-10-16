@@ -5,14 +5,18 @@ keywords:
 subject:
   - KV
   - Elektronische Systeme 1
-semester: WS25
-created: 15th October 2025
+  - VL
+  - Einführung Elektronik
+semester: WS24
+created: 11. Oktober 2025
 professor:
 release: false
 title: Bandpass
 ---
 
 # Bandpass
+
+> [!question] [Filter](Filter.md)
 
 > [!warning] Ein Bandpass hat immer 2 Grenzfrequenzen und ist damit immer mindestens von 2. Ordnung
 

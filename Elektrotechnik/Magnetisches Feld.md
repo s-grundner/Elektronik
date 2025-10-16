@@ -1,5 +1,5 @@
 ---
-banner: /assets/banner/MagnField.jpg
+banner: "/assets/banner/MagnField.jpg"
 banner_y: 0.676
 tags:
   - MOC

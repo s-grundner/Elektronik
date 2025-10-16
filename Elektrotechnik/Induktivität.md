@@ -24,9 +24,9 @@ cited:
 
 ## Schaltsymbol
 
-| Symbol                                       | reales ESB                       |
-| -------------------------------------------- | -------------------------------- |
-| ![indu](Hardwareentwicklung/assets/indu.png) | ![indu-esb](assets/indu-esb.png) |
+| Symbol                                               | reales ESB                           |
+| ---------------------------------------------------- | ------------------------------------ |
+| ![invert_light](Hardwareentwicklung/assets/indu.png) | ![invert_light](assets/indu-esb.png) |
 
 ## Kenngrößen der Induktivität
 

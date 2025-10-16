@@ -12,6 +12,8 @@ async function generateTable(subjectFilter, subjectType) {
   switch (subjectType) {
     case "UE":
       return await generateUETable(pgs);
+    case "PR":
+      return await generatePRTable(pgs);
     default:
       return await generateDefaultTable(pgs);
   }
@@ -31,6 +33,11 @@ async function generateUETable(pgs) {
     ])
   );
 }
+
+async function generatePRTable(pgs) {
+  generateUETable(pgs);
+}
+
 
 async function generateDefaultTable(pgs) {
   dv.table(["File", "Keywords🗝️", "Zuletzt Geändert✏️"], pgs

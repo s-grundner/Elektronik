@@ -1,6 +1,6 @@
 ## Passive Filter
 
-
+> [!question] [Filter](Filter-Verstärker/Filter.md)
 
 ### Bodé Diagramm
 
@@ -15,7 +15,25 @@ es werden zwei Diagramme benötigt, da mit komplexer [Wechselstromtechnik](Wechs
 Allgemein wird die [[Filter-Verstärker/Dämpfung]] des Filters mit logarithmischem Verhältnis dargestellt -> dezibel
 - Dezibel ist die Pseudo einheit zur Darstellung von logarithmischen Leistungsverhältnissen
 
-| Diagramm       |                                  |
-| -------------- | -------------------------------- |
-| **Amplitudengang**<br>$A=\lvert T(j\omega) \rvert$<br>(Hier nicht in dB) | ![500](assets/53_Bode_Mag.png)   |
-| **Phasengang**<br>$\varphi=\arctan \left( \frac{\mathrm{Im}(T(j\omega))}{\mathrm{Re}(T(j\omega))} \right)$     | ![500](assets/53_Bode_Phase.png) |
+| Diagramm                                                                                                   |                                  |
+| ---------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **Amplitudengang**<br>$A=\lvert T(j\omega) \rvert$<br>(Hier nicht in dB)                                   | ![500](assets/53_Bode_Mag.png)   |
+| **Phasengang**<br>$\varphi=\arctan \left( \frac{\mathrm{Im}(T(j\omega))}{\mathrm{Re}(T(j\omega))} \right)$ | ![500](assets/53_Bode_Phase.png) |
+
+### Messungen
+
+Die Grenzfrequenz eines passiven RC Filters 1. Ordnung lässt sich mit 2 Methoden bestimmen:
+
+Zeitkonstante $\tau = RC$ ermitteln.
+
+
+3dB dämpfung ermitteln
+
+Sinus einspeisen, bei der der Filter sehr nahe an
+
+
+# ToDo
+
+- LC filter
+- RC Filter
+- Pi-/T-Glieder

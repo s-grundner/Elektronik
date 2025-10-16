@@ -34,7 +34,7 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 > 
 > ![invert_dark|800](assets/Pasted%20image%2020241212004843.png)
 
-## Filter Charakteristiken
+## Filter Charakteristik
 
 1. **Filter mit kritischer Dämpfung**
     - Durch rückwirkungsfreie kaskadierung von Filtern 1. Ordnung erreicht.
@@ -60,40 +60,7 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 >- Das kaskadierte Gesamtfilter hat eine andere Grenzfrequenz als die Teilfilter und evtl. auch eine andere Filtercharakteristik.
 > - Deshalb sind die einzelnen Teilfilter stets so zu dimensionieren, dass gesamt die gewünschte Filtercharakteristik erreicht wird.
 
-### Allgemeine Tiefpässe
 
-**Tiefpässe 1. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form
-$$
-A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0}}
-$$
-
-**Tiefpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form
-
-$$
-A(j \omega)=\frac{\underline{U}_A}{\underline{U}_E}=\frac{V_0}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2}
-$$
-
-### Allgemeine Hochpässe
-
-**Hochpässe 1. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
-
-$$
-A(j \omega)=\dfrac{V_0}{1+\dfrac{\omega_0}{j \omega}}
-$$
-
-**Hochpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
-
-$$
-A(j \omega)=\frac{V_0}{1+\dfrac{\omega_0}{j \omega} \cdot \dfrac{1}{Q}+\left(\dfrac{\omega_0}{j \omega}\right)^2}
-$$
-
-### Allgemeine Bandpässe
-
-**Bandpässe 2. Ordnung** besitzen eine allgemeine Übertragungsfunktion der Form:
-
-$$
-A(j \omega)=\dfrac{V_0}{\dfrac{1}{Q}+j\left(\dfrac{\omega}{\omega_0}-\dfrac{\omega_0}{\omega}\right)}=\dfrac{V_0 \cdot \dfrac{j \omega}{\omega_0}}{1+\dfrac{j \omega}{\omega_0} \cdot \dfrac{1}{Q}+\left(\dfrac{j \omega}{\omega_0}\right)^2} 
-$$
 
 ## Schaltungsentwürfe - Topologien
 

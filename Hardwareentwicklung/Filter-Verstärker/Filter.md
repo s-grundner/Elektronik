@@ -25,17 +25,23 @@ cited:
 
 Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemtheorie/Übertragungsfunktion.md) beschrieben.
 
-> [!info] Filter Kenngrößen
->
-> - Übertragungsfunktion
->     - [[Tiefpass]] Filter
->     - [[Hochpass]] Filter
->     - Andere (Kombinationen)
-> - Ordnung (Steilheit)
-> - [Grenzfrequenz](Grenzfrequenz.md)
-> - [[Güte]] (Resonanzverhalten)
-> - Filtercharakteristik (Verhalten der Schaltung)
->     - Form der Übertragungsfunktion
-> - Topologie (Realisierung der Schaltung)
-> - [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](../../Systemtheorie/Digitaler%20Filter.md)
+## Übertragungsfunktionen
+
+- [[Tiefpass]] Filter
+- [[Hochpass]] Filter
+- [Bandpass](Bandpass.md) Filter
+- Andere (Kombinationen)
+
+## Kenngrößen
+
+- Ordnung (Steilheit)
+- [Grenzfrequenz](Grenzfrequenz.md)
+- [[Güte]] (Resonanzverhalten)
+
+## Art des Aufbaus
+
+- [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](../../Systemtheorie/Digitaler%20Filter.md)
+- Filtercharakteristik (Verhalten der Schaltung)
+    - Form der Übertragungsfunktion
+- Topologie (Realisierung der Schaltung)
 > 

@@ -22,6 +22,9 @@ $$
 $$
 sein.
 
+> [!example] Für RC Filter (Hoch oder Tiefpass) ist die Grenzfrequenz
+> $$\omega_{c} = \frac{1}{RC}$$
+
 ## Resonanzfrequenz
 
 > [!hint] Gibt es eine Obere und Untere Grenzfrequenz, liefert eine Quadratische Gleichung zwei (oder mehr) Optionen liefern, wobei negative und imaginäre Werte ungültig sind. 
