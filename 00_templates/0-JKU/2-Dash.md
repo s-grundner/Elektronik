@@ -1,10 +1,10 @@
 <%* let sem = await tp.user.get_lva().sug_sem(tp) _%>
-<%* let lva = await tp.user.get_lva().sug_lvas(tp, sem) _%>
+<%* let lva = await tp.user.get_lva().sug_lva(tp, sem) _%>
 <%* let typ = await tp.user.get_lva().sug_type(tp) _%>
 <%* let ects = await tp.system.prompt("ECTS", "") _%>
 
 ---
-banner: /assets/banner/JKU-Banner.jpg
+banner: /assets/banner/JKU-Banner.png
 banner_y: 0.5
 banner_x: 0.5
 tags:

@@ -1,15 +1,21 @@
 ---
-tags: ["Statistik"]
-aliases: ["Ereignisse", "Ereignissen"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
-created: 8th January 2023
+tags: 
+aliases: 
+keywords: 
+subject:
+  - KV
+  - Wahrscheinlichkeitstheorie und stochastische Prozesse
+semester: WS25
+created: 27th February 2025
+professor:
+release: false
+title: Ereignis
 ---
 
 # Ereignis $E$
 
 Oft interessiert uns nicht für die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften  
-Das Ereignis $E$ ist eine Teilmenge der [Grundmenge](Grundmenge.md) $\Omega$
+Das Ereignis $E$ ist eine Teilmenge der [Ereignisraum](Ereignisraum.md) $\Omega$
 
 >[!EXAMPLE] Roulette - Ereignis mit allen geraden Zahlen: $E=\{2;4;\dots;36\}$
 

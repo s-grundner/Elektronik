@@ -1,15 +1,21 @@
 ---
-tags: ["Statistik"]
-aliases: []
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh, "]
-created: 8th January 2023
+tags: 
+aliases: 
+keywords: 
+subject:
+  - KV
+  - Wahrscheinlichkeitstheorie und stochastische Prozesse
+semester: WS25
+created: 27th February 2025
+professor:
+release: false
+title: Ereignisraum
 ---
 
-# Grundmenge $\Omega$
+# Ereignisraum $\Omega$
 
-- Menge aller möglichen [Ereignisse](Ereignis.md) (Ausgänge) $\Omega$
-- Anzahl aller möglichen [Ereignisse](Ereignis.md) $|\Omega|$
+- [Menge](../Algebra/Mengenlehre.md) aller möglichen [Ereignisse](Ereignis.md) (Ausgänge) $\Omega$
+- Anzahl aller möglichen [Ereignisse](Ereignis.md) $|\Omega|$ (Mächtigkeit)
 
 >[!EXAMPLE] 1 Würfel  
 > $\Omega = \{\text{"1"; "2"; "3"; "4"; "5"; "6"}\}$  

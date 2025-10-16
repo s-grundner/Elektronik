@@ -23,3 +23,7 @@ Symref:
 - `ammeter`
 - `lab_pin`: Label
 
+
+## Simulator
+
+> [!question] [NgSpice](Spice.md)

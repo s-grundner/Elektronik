@@ -4,12 +4,18 @@ tags:
   - tikz/circuitikz
 aliases:
   - VCO
+keywords: 
 subject:
-  - hwe
-source:
-  - Siegbert Schrempf
-created: 31st January 2023
+  - KV
+  - Elektronische Systeme 1
+semester: WS25
+created: 27th February 2025
+professor:
+release: false
+title: Voltage Controlled Oscillator
 ---
+
+
 
 # Voltage Controlled Oscillator (VCO)
 
@@ -24,7 +30,6 @@ Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/
 \begin{document}
 
 \begin{circuitikz}[thick]
-
 
 \draw (12, 7) node[npn](npn){};
 

@@ -1,10 +1,17 @@
 ---
-tags:
-  - Messgerät
-aliases:
-  - Oszilloskops
-created: 22. Dezember 2023
+tags: 
+aliases: 
+keywords: 
+subject:
+  - VL
+  - Elektrische Messtechnik und Sensorik
+semester: WS25
+created: 27th February 2025
+professor:
+release: false
+title: Oszilloskop
 ---
+
 
 # Oszilloskop
 
@@ -22,6 +29,8 @@ Bei der AC-Kopplung wird als Referenz der Mittelwert des Signals genommen, um nu
 
 ### Invertierung
 
+Invertierung des Signals hat besonders im XY-Betrieb den Vorteil, um die Achsen einstellen zu können. z.B. Beim Aufzeichnen einer Kennlinie
+
 ### Bandbreitenbegrenzung
 
 Die Bandbreitenbegrenzung wird durch einen Tiefpass im Oszilloskop realisiert, um hochfrequente Störsignale zu Filtern [^2].
@@ -32,11 +41,21 @@ Der Einstellung des Triggers legt fest, wann das Oszilloskop eine neue Periode d
 
 ## Tastköpfe
 
-Das besondere an den Tastköpfen des Oszilloskops ist, dass sie frequenzkompensierte [[Spannungsteiler]] sind.
+Für Messungen höherer Frequenzen ist es wichtig Tastköpfe und nicht einfache BNC-Kabel zu verwenden.
 
 ![invert_dark](../Elektrotechnik/assets/OszTastkopfSpgTeiler.png)
 
-10:1 Tastkopf kann verwendet werden, damit der gesamtwiderstand größer ist und weniger Strom in das Messgerät fließt -> genauere Ergebnisse bei kleinstromigen Schaltungen
+10:1 Tastkopf kann verwendet werden, damit der gesamtwiderstand größer ist und weniger Strom in das Messgerät fließt -> genauere Ergebnisse bei kleinstromigen Schaltungen.
+
+### Frequenzkompensation
+
+> [!important] Das besondere an den Tastköpfen des Oszilloskops ist, dass sie [frequenzkompensierte Spannungsteiler](../Elektrotechnik/Spannungsteiler.md#Frequenzkompensierter%20Spannungsteiler) sind.
+
+Die bedingung für die frequenzunabhängigkeit ist: $R_{V}C_{V} = R_{E}C_{E}$. Um zu Überprüfen ob der Tastkopf korrekt kompensiert ist, kann ein Rechtecksignal direkt am Oszi Ausgang abgegriffen werden, und die Wellenform Betrachtet werden.
+
+| Richtig Kompensiert | Überkompensiert | Unterkompensiert |
+| - | - | - |
+| schönes Rechtecksignal | Hochpass-Form | Tiefpass-Form |
 
 # Tags
 

@@ -1,12 +1,21 @@
 ---
-tags: ["Statistik"]
-aliases: []
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
-created: 30th November 2022
+tags: 
+aliases: 
+keywords: 
+subject:
+  - KV
+  - Übertragungstechnik
+semester: WS25
+created: 27th February 2025
+professor:
+release: false
+title: Erwartungswert
 ---
 
 # Erwartungswert
+
+
+## OLD
 
 - Der Erwartungswert ist ein Konzept aus der Statistik, das beschreibt, wie wahrscheinlich es ist, dass ein bestimmtes [Ereignis](Ereignis.md) eintritt.
 - Es wird auch als Erwartung, Durchschnitt oder Mittelwert bezeichnet und wird in der Regel mit dem griechischen Buchstaben μ symbolisiert.

@@ -1,9 +1,16 @@
 ---
-tags: ["Statistik"]
-aliases: ["WSK"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
-created: 4th October 2022
+tags:
+aliases:
+keywords:
+subject:
+  - KV
+  - Wahrscheinlichkeitstheorie und stochastische Prozesse
+  - Übertragungstechnik
+semester: WS25
+created: 27th February 2025
+professor:
+release: false
+title: Wahrscheinlichkeit
 ---
 
 # Wahrscheinlichkeit $P(\omega)$
@@ -26,30 +33,11 @@ Ein Zufallsexperiment ist gekennzeichnet durch:
 
 ## Wahrscheinlichkeitsfunktion
 
-[Grundmenge](Grundmenge.md) $\Omega$:  
+[Ereignisraum](Ereignisraum.md) $\Omega$:  
 $P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
 
 > [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
 
-### Laplace Experiment (Laplace Modell)
-
-- Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle [Elementarereignisse](Ereignis.md) gleichwahrscheinlich sind.
-- Typische Beispiele sind hier auch der Münzwurf oder ein Würfelwurf.
-
-Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$
-
->[!summary] $P(\omega_{i})=\dfrac{1}{|\Omega|}$  
->mit
-> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des [Ereignis](Ereignis.md) $\omega$
-> - $|\Omega|\dots$ die Anzahl der möglichen [Ereignisse](Ereignis.md)
-
->[!summary] $P(E)=\dfrac{E}{|\Omega|}$  
-> mit:
-> - $P(E)\dots$ die Wahrscheinlichkeit eines [Ereignis](Ereignis.md)
-> - $E\dots$ die Anzahl der günstigen [Ereignisse](Ereignis.md)
-> - $|\Omega|\dots$ die Anzahl der möglichen [Ereignisse](Ereignis.md) 
-
-> [!EXAMPLE] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
 
 ## Rechnen mit Wahrscheinlichkeiten
 
@@ -107,13 +95,13 @@ So gilt: Mindestens eines = nicht keines
 
 ![Pasted image 20230108013044](Pasted%20image%2020230108013044.png)
 
-![Pasted image 20230108013054](Pasted%20image%2020230108013054.png)
+![invert_light](Pasted%20image%2020230108013054.png)
 
 # Tags
 
 | ![Pasted image 20221211123853](../assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](../assets/UEB-rechnen-wsk.png) |  
 | ------------------------------------ | ------------------------ |
 
-[Grundmenge](Grundmenge.md)  
+[Ereignisraum](Ereignisraum.md)  
 [Ereignis](Ereignis.md)  
 <https://studyflix.de/statistik/wahrscheinlichkeit-1932>

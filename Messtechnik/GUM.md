@@ -5,6 +5,7 @@ aliases:
   - Messunsicherheiten
   - Messunsicherheit
   - Guide to the expression of Uncertainty in Measurement
+  - Messabweichungen
 keywords:
 subject:
   - VL
@@ -28,7 +29,16 @@ Der GUM schreibt vor wie die unsicherheit einer Messgröße zu ermitteln ist.
 
 **Ursachen**
 
+- Störung der Messeinrichtung
+- Ablesende Person
 
+**Arten**
+
+| Art                                           | Entgegenwirkung                     |
+| --------------------------------------------- | ----------------------------------- |
+| [statistische Messabweichungen](statistische%20Messabweichungen.md) (stets unbekannt) | Wiederholungsmessungen              |
+| bekannte systematische Messabweichung         | bekannte Abweichung kompensieren    |
+| unbekannte systematische Messabweichung       | schwierig, oft nur grob Abschätzbar |
 
 ## Fehlerfortpflanzung
 
@@ -47,7 +57,7 @@ Bezeichnungen der Messgrößen
 
 ## Messmethoden
 
-In der Praxis liegen immer eine endliche Anzahl $n$ an Messungen vor, weshalb für die Verteilungen der Zufallsvariablen / Messgrößen die Schätzwerte verwendet werden.
+In der Praxis liegen immer eine endliche Anzahl $n$ an Messungen vor, weshalb für die Verteilungen der Zufallsvariablen / Messgrößen die Schätzwerte ($s$ statt $\sigma$, $\bar{x}$ statt $\mu$) verwendet werden.
 
 Die einzelenen unsicherheiten $u(x_{i})$ der Messgrößen $x_{i}$ sind durch die Messmethode bestimmt.
 

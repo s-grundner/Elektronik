@@ -1,13 +1,13 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
-  - Elektrotechnik
+  - Elektrische Messtechnik und Sensorik
 semester: SS24
 created: 15. April 2024
-professor: 
+professor:
 cited:
 ---
  
