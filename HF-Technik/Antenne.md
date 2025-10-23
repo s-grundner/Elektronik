@@ -22,7 +22,7 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
 >[!summary] Sende- & Empfangsfall  
->![](assets/ant_sende_empf.png)
+>![invert_light](assets/ant_sende_empf.png)
 
 > [!hint] Der Sende und Empfangsfall sind [reziprok](../Index/Reziprok.md).
 > 
@@ -48,6 +48,8 @@ $$\vec S=\frac{1}{2}\vec E\times \vec H^{\ast}$$
 ### Kenngrößen für das Strahlungsfeld einer Antenne
 
 #### Richtcharakteristik $C_{i}$
+
+Directivity
 
 ![invert_dark](assets/richtc_graph.png)
 

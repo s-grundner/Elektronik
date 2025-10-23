@@ -41,6 +41,7 @@ Heute: Nur noch Anreicherungstyp
 
 ## N- / PMOS Transistor
 
+
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
 \begin{document}
