@@ -1,17 +1,24 @@
 ---
-tags: 
+tags:
 aliases:
   - Verteilungsfunktion
   - Dichtefunktion
+  - PDF
+keywords: 
 subject:
-  - mathe
-source: 
-created: 10th January 2023
-semester: 
+  - KV
+  - Übertragungstechnik
+semester: WS25
+created: 11th April 2024
 professor:
+release: false
+title: Normalverteilung
 ---
 
 # Normalverteilung
+
+
+# OLD
 
 $F: M_{x}\rightarrow[0;1]$ mit $F(x)=P(X\leq x)$
 

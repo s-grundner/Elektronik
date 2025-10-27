@@ -1,10 +1,11 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Elektrische Messtechnik und Sensorik
+  - PR
 semester: WS25
 created: 27th February 2025
 professor:

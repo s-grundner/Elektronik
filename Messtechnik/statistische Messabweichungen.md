@@ -5,6 +5,7 @@ aliases:
 keywords:
 subject:
   - VL
+  - PR
   - Elektrische Messtechnik und Sensorik
 semester: SS25
 created: 15th October 2025

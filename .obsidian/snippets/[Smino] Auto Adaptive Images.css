@@ -42,3 +42,8 @@
 .theme-light img[alt$="invert_light"] {
 	filter: invert(1) hue-rotate(180deg);
 }
+
+.theme-dark .banner-image {
+	filter: invert(1) hue-rotate(180deg) contrast(1.5);
+	mix-blend-mode: screen;
+}

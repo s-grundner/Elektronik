@@ -21,6 +21,7 @@ async function generateTable(subjectFilter, subjectType) {
 
 async function generateUETable(pgs) {
   dv.table(["File", "Keywords🗝️", "Files", "Abgabe 📅"], pgs
+    .filter(p => p.file.name.includes("UE"))
     .sort(p => {
       let match = p.file.name.match(/\d+/);
       return match ? parseInt(match) : p.file.name;
@@ -36,6 +37,15 @@ async function generateUETable(pgs) {
 
 async function generatePRTable(pgs) {
   generateUETable(pgs);
+  dv.table(["Theorie", "Keywords🗝️", "Zuletzt Geändert✏️"], pgs
+    .filter(p => !p.file.name.includes("UE"))
+    .sort(p => p.file.mday, 'desc')
+    .map(p => [
+      p.file.link,
+      p.keywords,
+      p.file.mday
+    ])
+  );
 }
 
 
