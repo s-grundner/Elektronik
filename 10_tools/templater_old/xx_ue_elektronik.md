@@ -9,7 +9,7 @@ tp.file.rename("UE" + nr)
 
 ---
 
-📝 [Angabe](Übungsskriptum.pdf)
+📝 [Angabe](../../xEDU/B5_WS25/GHFT/UE/UE_Skriptum.pdf)
 ✅ (files::[Lösung](Abgaben/UE<%* tR += nr%>-k12136610.pdf))
 
 ---

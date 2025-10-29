@@ -21,6 +21,8 @@ Strommessen: Spannungsquelle mit 0V platzieren, oder ammeter
 
 Wenn netze gleich heißen, sind sie verbunden: Highlight mit `K`. `Shift+K` um highlights zu entfernen.
 
+ANAS: Verändern der Schaltung save file erzeugen
+
 ## Symbole
 
 Namen für Symbole müssen immer mit dem Richtigen Buchstaben beginnen: z.B: Widerstand -> R, Spannungsquelle -> V
