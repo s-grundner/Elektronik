@@ -22,7 +22,7 @@ let pages = dv.pages(pagesTags)
 let all = {
 	ects: pages.map(p => p.ects).sum(),
 	done: pages.filter(p => p.done).map(p => p.ects).sum(),
-	gpa: pages.filter(p => p.grade).map(p => p.grade).avg()
+	gpa: weightetGPA(pages)
 }
 
 let semGroups = pages.groupBy(p => p.semester, (a, b) => semComp(a, b));
@@ -39,6 +39,13 @@ courses();
 
 // --- Functions
 
+function weightetGPA(pgs) {
+    let graded = pgs.filter(p => p.grade);
+    let totWeighted = graded.map(p => p.grade*p.ects).sum();
+    let totECTS = graded.map(p => p.ects).sum()
+    return totECTS ? totWeighted / totECTS : 0;
+}
+
 function studyProgress() {
 	const tableHeader = ["Planned Credits", "Planned Progress⌛", "Completed Credits", "True Progress⌛", "GPA🐢"];
 	dv.table(tableHeader, [[
@@ -53,7 +60,7 @@ function semesterProgress() {
 		key: g.key,
 		ects: g.rows.map(p => p.ects).sum(),
 		done: g.rows.filter(p => p.done).map(p => p.ects).sum(),
-		gpa: g.rows.filter(p => p.grade).map(p => p.grade).avg(),
+		gpa: weightetGPA(g.rows),
 	}));
 	const tableHeader = ["Semester📆", "Semester Credits", "Progress⌛", "Success⭐"];
 	dv.table(tableHeader, prg.map(g => [
