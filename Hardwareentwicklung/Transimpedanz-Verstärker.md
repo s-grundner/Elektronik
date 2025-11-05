@@ -1,8 +1,9 @@
 ---
-tags: 
+tags:
+  - Baugruppe/OPV
 aliases:
   - Strom-Spannungs-Umformer
-keywords: 
+keywords:
 subject:
   - Einführung Elektronik
   - VL

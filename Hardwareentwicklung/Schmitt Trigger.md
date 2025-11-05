@@ -1,6 +1,7 @@
 ---
 tags:
   - incomplete
+  - Baugruppe/OPV
 aliases:
   - Schmitttrigger
   - Schmitt-Trigger

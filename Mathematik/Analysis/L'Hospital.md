@@ -32,3 +32,7 @@ title: L'Hospital
 > - $\lim_{x\rightarrow\infty} \dfrac{x}{e^{x}}=\lim_{x\rightarrow\infty} \dfrac{1}{e^{x}}$;
 > - $\lim_{x\rightarrow\infty} \dfrac{100\cdot x^{100}}{e^{x}} = \lim_{x\rightarrow\infty}\dfrac{100\cdot 100 \cdot x^{99}}{e^{x}}=\dots=\lim_{x\rightarrow\infty} \dfrac{100\cdot 100\cdot 99\cdots 1\cdot x}{e^{x}} = \lim_{x\rightarrow\infty} \dfrac{100\cdot100!\cdot1}{e^{x}}=0$;
 > - $\lim_{x\rightarrow\infty}\dfrac{x}{x^{2}+1}= \lim_{x\rightarrow\infty}\dfrac{1}{2x}=0$;
+
+# References
+
+- [3B1B - Lesson](https://www.3blue1brown.com/lessons/l-hopitals-rule)

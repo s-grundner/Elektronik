@@ -1,16 +1,19 @@
+---
+tags:
+aliases:
+keywords:
+subject:
+  - KV
+  - Elektronische Systeme 1
+semester: WS25
+created: 27th February 2025
+professor:
+release: false
+title: Modulation
+---
 
----
-tags: []
-aliases: []
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
-created: 23rd November 2022
----
 
 # Modulation
 
-- [Amplitudenmodulation](Amplitudenmodulation.md)
-- [[Quadratur Amplituden Modulation]]
-- [Frequenzmodulation](Frequenzmodulation.md)
-
-# Quellen
+- [Analoge Modulation](Analoge%20Modulation.md)
+- [Digitale Modulation](Digitale%20Modulation.md)

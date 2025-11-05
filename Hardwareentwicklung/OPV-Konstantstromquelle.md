@@ -1,7 +1,8 @@
 ---
 tags:
   - Baugruppe/Versorgung/Stromquelle
-aliases: 
+  - Baugruppe/OPV
+aliases:
 keywords:
   - Unidirektionale Konstantstromquelle
 subject:

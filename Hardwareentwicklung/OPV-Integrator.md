@@ -50,7 +50,7 @@ professor:
 ## Übertragungsfunktion
 
 $$
-\boxed{ A(j\omega)=\frac{\underline{ U }_{A}}{\underline{ U }_{E}} = -\frac{1}{j\omega R C} }
+A(j\omega)=\frac{\underline{ U }_{A}}{\underline{ U }_{E}} = -\frac{1}{j\omega R C}
 $$
 
 > [!question]- **Herleitung**
@@ -67,15 +67,15 @@ $$
 > 
 > ![500](assets/OPV_Integrator_Bodeplot.png)                             
 
-<center><a href="./Simulationen/OPV_Integrator.nb" class="internal-link">📈Mathematica Notebook</a></center>
+<center><a href="scripts/mathematica/OPV_Integrator.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 ## Funktionsweise
 
-![](assets/Pasted%20image%2020241213012458.png)
+![invert_dark](assets/Pasted%20image%2020241213012458.png)
 
 # Integratorfilter
 
-![](assets/Pasted%20image%2020241213050705.png)
+![invert_dark](assets/Pasted%20image%2020241213050705.png)
 
 Durch geschicktes Zusammenschalten von OPV Grundschaltungen können sehr einfach verschiedene [Aktive](Filter-Verstärker/Aktiver%20Filter.md) Filtertypen (Bandpass, Tiefpass, Hochpass) realisiert werden, je nachdem welcher Ausgang benutzt wird.
 

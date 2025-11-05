@@ -143,7 +143,7 @@ sport/#
 
 Übertragung wird vom Client initiiert, dadurch kann von außen keine Verbindung geöffnet werden. Durch die Adressierung mittels Topic-Level ist keine Zuordnung auf Geräte möglich. MQTT wird im einfachsten Fall mittels TCP übertragen. Grundsätzlich soll die Übertragung produktiv immer über **TSL** übertragen werden. 
 
-![](assets/MQTT_TLS.png)
+![invert_dark](assets/MQTT_TLS.png)
 
 TLS benötigt eine Zertifizierungsstelle (CA - Certification Authority), die für die Richtigkeit der Daten bürgt. Falls wir unseren eigenen Zertifikaten trauen können wir diese selbst Erstellen (wie im Folgenden gezeigt).
 

@@ -4,7 +4,8 @@ tags:
   - tikz/circuitikz
 aliases:
   - VCO
-keywords: 
+  - Spannungsgesteuerter Oszillator
+keywords:
 subject:
   - KV
   - Elektronische Systeme 1

@@ -81,11 +81,7 @@ Das ursprüngliche V-Modell erweitert das klassische Phasenmodell um die **paral
 So werden in der Phase der
 
 - Systemanforderungsdefinition **gleichzeitig** Testfälle für den **System- / Abnahmetest** erstellt (Anwendungszenarien),
-
-
 - während der **Systementwurfsphase** werden Testfälle für der **Integrationstest** definiert, und 
-
-
 - während dem **Modulentwurf** werden Testfälle für den **Modul- /Unittest** erstellt.
 
 Wird in einer Testphase ein Fehler (Entwurfsfehler) erkannt, macht das in der entsprechenden Entwurfsphase Änderungen notwendig. Damit wird das darunterliegende V erneut durchlaufen.
