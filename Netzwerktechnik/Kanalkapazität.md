@@ -1,11 +1,16 @@
 ---
-tags:
-  - Informationstheorie
-aliases: 
+tags: Informationstheorie
+aliases:
+keywords: $C$
+subject:
+  - KV
+  - Übertragungstechnik
+semester: WS25
 created: 27th February 2025
-title: 
-release: false
-symbol: $C$
+professor:
+  - Andreas Springer
+draft: true
+title: Kanalkapazität
 ---
 
 # Kanalkapazität
@@ -35,4 +40,4 @@ Gilt als absolute Obergrenze für die Leistungsfähigkeit eines Nachrichtenkanal
 | $P_{s}$    | Signalleistung |
 | $P_{n}$    | Rauschleistung |
 
-![400](assets/Nachrichtenquader-Sprachübertragung.svg.png)
+![invert_dark](assets/Nachrichtenquader.png)

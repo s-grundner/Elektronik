@@ -1,13 +1,17 @@
 ---
 tags:
   - Informationstheorie
-aliases: 
+aliases:
+keywords: $H_0$
+subject:
+  - KV
+  - Übertragungstechnik
+semester: WS25
 created: 27th February 2025
-title: 
-release: false
-symbol: $H_0$
+professor:
+draft: true
+title: Entscheidungsgehalt
 ---
-
 
 # Entscheidungsgehalt
 

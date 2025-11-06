@@ -1,13 +1,16 @@
 ---
-tags:
-  - Informationstheorie
+tags: Informationstheorie
 aliases: 
+keywords: $F$
+subject:
+  - KV
+  - Übertragungstechnik
+semester: WS25
 created: 27th February 2025
-title: 
-release: false
-symbol: $F$
+professor:
+draft: true
+title: Informationsfluss
 ---
-
 
 # Informationsfluss $F$
 

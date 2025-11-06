@@ -81,7 +81,7 @@ Als Gleichtaktspannung $U_{\mathrm{GL}}$ bezeichnet man den Mittelwert der Einga
 
 > [!question] Common-Mode Rejection Ratio (CMRR)
 
-> [!def] Das Gleichtaktunterdrückungsverhältnis ist gegeben durch
+> [!def] Gleichtaktunterdrückungsverhältnis ^CMRR
 >
 > $$G_{\mathrm{U}} = \left\lvert \frac{A_{\mathrm{D}}}{A_{\mathrm{GL}}} \right\rvert$$
 

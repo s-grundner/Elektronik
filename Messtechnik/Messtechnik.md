@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Messung
   - Messen
@@ -9,7 +9,6 @@ keywords:
   - Messverfahren
   - Messeinrichtung
   - Messkette
-  - Messunsicherheit
 subject:
   - Elektrische Messtechnik und Sensorik
   - VL
@@ -54,10 +53,23 @@ Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgr�
 
 Die Gesamtheit der Systeme die Ein- und Ausgang miteinander verknüpfen, ist die **Messkette**, z.B.:
 
-- **Aufnehmer:** z.B. Messumformer, Sensoren, Detektoren, Fühler
-- **Anpasser:** Messverstärker, Rechengerät, Encodierung
+- **Aufnehmer:** Sensoren, Detektoren, Fühler
+- **Anpasser:** Messverstärker, Messumformer, Rechengerät, Encodierung
 - **Ausgeber:** Anzeige, Datenausgabe, Zähler
 - **Hilfsgerät:** Liefert Hilfsenergie um die Operationen der Systeme der Messkette zu ermöglichen
+
+### Anforderungen an den Messverstärker
+
+Messverstärker haben die Aufgabe, elektrische Messgrößen in Signale höherer Leistung umzuformen, mit den Anforderungen:
+
+- Geringe Rückwirkung auf die Messgröße
+- Definiertes Übertragungsverhalten
+- Geringes Eigenrauschen
+- Gutes dynamisches verhalten
+	- d.h. Die Bandbreite ist angepasst an die Frequenz der Messgröße
+- Eingeprägtes Ausgangssignal
+	- Ausgangswiderstand $\to 0$ für Spannungsausgang
+	- Ausgangswiderstand $\to \infty$ für Stromausgang
 
 ## Messen nicht elektrischer Größen
 

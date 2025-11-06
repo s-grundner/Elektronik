@@ -59,7 +59,7 @@ $f_g\ldots$ Grenzfrequenz des beschalteten OPs
 Die Differenz oder auch Leerlaufverstärkung $A_{D}$ gibt das Verhältis einer Änderung der **Ausgangsspannung** $U_{A}$ zu einer Änderung der **Eingangsspannungsdifferenz** $U_{D}$ an:
 
 > [!def] Differenzenverstärkung $A_{D}$
-> $$A_{D}:= \frac{\partial U_{A}}{\partial U_{D}}$$
+> $$A_{D} := \frac{\partial U_{A}}{\partial U_{D}}$$
 
 ## Slew-Rate
 
@@ -83,3 +83,48 @@ Als Offsetspannung $U_{\mathrm{OS}}$ wird jene Spannungsdifferenz beziechnet, di
 > [!warning] Die tatsächlich mit $A_{\mathrm{D}}$ verstärke Spannung ist $U_{\mathrm{D}} = U_{\mathrm{D}}'-U_{\mathrm{OS}}$
 
 Einige OPVs führen Anschlüsse nach außen um die Offsetspannung zu kompensieren.
+
+## Gleichtaktverstärkung und -unterdrückung
+
+> [!question] [Gleich und Gegentaktgrößen](Filter-Verstärker/Gleich%20und%20Gegentaktgrößen.md)
+
+Legt man bei einem abgeglichenen OPV ($U_{\mathrm{OS}} = 0\mathrm{V}$) an den invertierenden und den nicht-invertierenden Eingang die selbe Spannung $U_{\mathrm{GL}}$ an, bleibt $U_{\mathrm{D}} = 0\mathrm{V}$. Demnach müsste auch die Ausgangsspannung $U_{\mathrm{A}}=0\mathrm{V}$ bleiben.  Bei einem realen OPV greift diese Spannung jedoch etwas auf den Ausgang durch: 
+
+![Gegentaktspannung](Filter-Verstärker/Gleich%20und%20Gegentaktgrößen.md#^AGL)
+
+Als Gleichtaktunterdrückung $G_{\mathrm{U}}$ bezeichnet man das Verhältnis zwischen Differenzverstärkung $A_{\mathrm{D}}$ und Gleichtaktverstärkung $A_{\mathrm{GL}}$
+
+![CMRR](Filter-Verstärker/Gleich%20und%20Gegentaktgrößen.md#^CMRR)
+
+## Bias-Ströme
+
+> [!def] Eingangsruhestrom
+> $$I_{B} = \frac{I_{\mathrm{B,P}}+I_{\mathrm{B,N}}}{2}$$
+
+> [!def] Eingangsoffsetstrom
+> $$I_{\mathrm{OS}} = \left| I_{\mathrm{B,P}}-I_{\mathrm{B,N}} \right| $$
+
+## Eingangswiderstand
+
+> [!question] [Betriebsparameter von Verstärkern](Betriebsparameter.md)
+
+Reale OPV haben einen endlichen Eingangswiderstand. Man unterscheidet zwischen Differenzeingsgangswiderstand
+
+> [!def] Differenzeingangswiderstand $r_{\mathrm{D}}$
+> $$r_{\mathrm{D}} = \frac{\partial U_{\mathrm{D}}}{\frac{1}{2}\partial (I_{\mathrm{P}}-I_{\mathrm{N}})}$$
+
+und dem Gleichtakteingangswiderstand
+
+> [!def] Gleichtakteingangswiderstand $r_{\mathrm{GL}}$
+> $$r_{\mathrm{GL}} = \frac{\partial U_{\mathrm{GL}}}{\frac{1}{2}\partial (I_{\mathrm{P}}+I_{\mathrm{N}})}$$
+
+Wie diese Widerstände verschalten sind, ist im Modell zu sehen.
+
+## Ausgangswiderstand
+
+> [!question] [Betriebsparameter von Verstärkern](Betriebsparameter.md)
+
+Reale Operationsverstärker weisen (im Gegensatz zu idealen) einen Ausgangswiderstand größer als $0\Omega$ auf:
+
+> [!def] Ausgangswiderstand $r_{\mathrm{A}}$
+> $$r_{\mathrm{A}} = -\frac{\partial U_{\mathrm{A}}}{\partial I_{\mathrm{A}}}$$

@@ -3,10 +3,16 @@ tags:
   - Informationstheorie
 aliases:
   - Entropie
+keywords: $I_x$, $H$
+subject:
+  - KV
+  - Übertragungstechnik
+semester: WS25
 created: 27th February 2025
-title: Informationsgehalt & Entropie
-release: false
-symbol: $I_x$, $H$
+professor:
+  - Andreas Springer
+draft: true
+title: Informationsgehalt
 ---
 
 # Informationsgehalt & Entropie 

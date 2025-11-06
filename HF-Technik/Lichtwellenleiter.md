@@ -18,26 +18,28 @@ created: 28th March 2022
 
 ## Aufbau
 
-![lwl_aufbau](assets/lwl_aufbau.png)
+![invert_dark](assets/lwl_aufbau.png)
 
 ## Arten
 
 ### 1. Monomode Faser
 
->![monomode_faser](assets/monomode_faser.png)
+![monomode_faser](assets/monomode_faser.png)
 
 ### 2. Multimode Faser
 
+Jede weitere Ausbreitungsmöglichkeit des Lichtes im Kern wird als **Mode** Bezeichnet  
+Die Fortplanzung der Lichtwelle, die im Leiter durch das Material mit unterschiedlichen Brechungsindizes strahlt, wird mit dem [Brechungsgesetz](../Physik/Snelliussches%20Brechungsgesetz.md) bestimmt.
+
 #### 1. Stufenprofil
 
->![multimode_stufenp](assets/multimode_stufenp.png)
+![multimode_stufenp](assets/multimode_stufenp.png)
 
 #### 1. Gradientenprofil
 
->![multimode_gradienten_p](assets/multimode_gradienten_p.png)
+![multimode_gradienten_p](assets/multimode_gradienten_p.png)
 
-Jede weitere Ausbreitungsmöglichkeit des Lichtes im Kern wird als **Mode** Bezeichnet  
-Die Fortplanzung der Lichtwelle, die im Leiter durch das Material mit unterschiedlichen Brechungsindizes strahlt, wird mit dem [Brechungsgesetz](../Physik/Snelliussches%20Brechungsgesetz.md) bestimmt.
+Hier wird die unterschiedliche ankunftszeit jeder Mode kompensiert
 
 ## Kenngrößen (Stufenindexfaser)
 

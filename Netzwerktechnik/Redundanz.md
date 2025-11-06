@@ -2,11 +2,15 @@
 tags:
   - Informationstheorie
 aliases:
-  - redundant
+keywords: $R$
+subject:
+  - KV
+  - Übertragungstechnik
+semester: WS25
 created: 27th February 2025
-title: 
-release: false
-symbol: $R$
+professor:
+draft: false
+title: Redundanz
 ---
 
 

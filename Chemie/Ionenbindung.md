@@ -17,7 +17,8 @@ created: 22nd August 2022
 
 # Ionenbindung
 
->![#invert_light|650](assets/Ionen-bdn.png)
+![invert_light|650](assets/Ionen-bdn.png)
+
 - wichtigste Art der Bindung zwischen [Metallen](Metallbindung.md) und Nichtmetallen
 - $\Delta EN > 1.7$
 - Stoffe mit Ionenbindung nennt man **Salze**
@@ -28,17 +29,18 @@ created: 22nd August 2022
 ## Struktur
 
 Ionenpaare bilden Ionengitter oder Kristallgitter:
->![#invert_light|300](assets/IonAnord.png)
-> - $e^{-} \rightarrow$ Übertragungsreaktion
-> - z.B.: $Na^{+}Cl^{-}$ sind ein Ionenpaar
+
+![invert_light|300](assets/IonAnord.png)
+ - $e^{-} \rightarrow$ Übertragungsreaktion
+ - z.B.: $Na^{+}Cl^{-}$ sind ein Ionenpaar
 
 ## Notation
 
-|  4 [Valenzelektronen](Valenzelektronen.md) | Nebengruppen |  4 [Valenzelektronen](Valenzelektronen.md) |
-| -------------------- | ------------ | --------------------- |
-| $Na^{+}$             | $Fe^{3+}$    | $F^{-}$               |
-| $Mg^{2+}$            | $Fe^{2+}$    | $Cl^{-}$              |
-| $Al^{3+}$            |              | $O^{2-}$              |
+| 4 [Valenzelektronen](Valenzelektronen.md) | Nebengruppen | 4 [Valenzelektronen](Valenzelektronen.md) |
+| ----------------------------------------- | ------------ | ----------------------------------------- |
+| $Na^{+}$                                  | $Fe^{3+}$    | $F^{-}$                                   |
+| $Mg^{2+}$                                 | $Fe^{2+}$    | $Cl^{-}$                                  |
+| $Al^{3+}$                                 |              | $O^{2-}$                                  |
 
 - Wechselnde [Ladung](../Elektrotechnik/elektrisches%20Feld.md) bei Nebengruppen
 - Die Summenformel beschreibt das Atomzahlverhältnis im Kristall.
@@ -93,10 +95,11 @@ Aus der starken Anziehungskraft zwischen Anionen und Kationen resultiert eine Gi
 - im flüssigen oder gelösten Zustand sind sie elektr. Leiter (2. Klasse)
 - Spröde (Gitterebenen verschieben sich bei Krafteinwirkungen und stoßen sich ab)
 
-> [!EXAMPLE] Welche Summenformel haben folgende Ionenpaare:
+> [!question] Welche Summenformel haben folgende Ionenpaare:
 > - $Ra^{2+}/Cl^{-}$
 > - $Na^{+}/O^{2-}$
 > - $Al^{3+}/F^{-}$
+??
 > > [!success] Lösung
 > > - $RaCl_{2}$
 > > - $Na_{2}O$

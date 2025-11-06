@@ -48,6 +48,6 @@ $\underline{ Z }$ und $\underline{Y}$ sind Komplexe größen, $X,G$ **nicht**. D
 > 
 > MIttelwert ist $50\Omega$
 
-- [Impedanz Anpassung](Impedanz%20Anpassung.md)
+- [Impedanz Anpassung](../HF-Technik/Impedanz%20Anpassung.md)
 
 ![How to Achieve Proper Grounding - Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)

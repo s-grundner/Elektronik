@@ -24,7 +24,7 @@ professor:
 > [!important] Eine Leitung wird als TL behandelt wenn das Signal auf dieser Leitung als ein [RF-Signal](RF-Signal.md) klassifiziert wird.
 > Hier kann die Verbindung zwischen Toren/Komponenten nicht mehr Vernachlässigt werden und wird in der Schaltung mit modelliert:
 
-![invert_dark](assets/tl1.png)
+![invert_dark|700](assets/tl1.png)
 ^TL-CIRC
 
 
