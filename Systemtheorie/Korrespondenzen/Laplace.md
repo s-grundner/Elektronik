@@ -47,7 +47,7 @@ Schreibweise der Der Vorteil der komplexeren schreibweise ist, dass man die oper
 | (ii)   | **Ähnlichkeit**                | $$\mathcal{L}\{f(at)\}(s) = \frac{1}{a} \mathcal{L} \left\{ f(t) \right\} \!\left(\frac{s}{a}\right)$$                                                                             | $a > 0$<br>$s > a$<br>Auch Streckung genannt                                                                                                                        |
 | (iii)  | **Zeitverschiebung**           | $$\mathcal{L}\{f(t-a)\}(s) = e^{-a s} \mathcal{L} \left\{ f(t) \right\} (s)$$                                                                                                      | $a > 0$<br>$f$ wird für $t < 0$ durch $0$ fortgesetzt.<br>Formal mit dem [Einheitssprung](Einheitssprungfunktion.md) $\sigma(t)$.                                   |
 | (iv)   | **Dämpfung**                   | $$\mathcal{L}\left\{e^{-a t} f(t)\right\}(s) = \mathcal{L} \left\{ f(t) \right\} (s+a)$$                                                                                           | $a \in \mathbb{R}$<br>$s > \alpha - a$                                                                                                                              |
-| (v)    | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} \left\{ f(t) \right\} (s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$                                                       | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von [AWP](../../Mathematik/Analysis/GDGL.md) |
+| (v)    | **Differentiation**            | $$\mathcal{L}\left\{f^{(n)}\right\}(s) = s^n \mathcal{L} \left\{ f(t) \right\} (s) - \sum_{k=0}^{n-1} s^{n-1-k} f^{(k)}(0)$$                                                       | Gilt für $f(t) \in C^n, t \in[0, \infty)$. <br>Dies ist eine wesentliche Grundlage für<br>die Anwendbarkeit zur Lösung von [AWP](Mathematik/Analysis/GDGL.md) |
 | (vi)   | **Multiplikation** mit Polynom | $$\mathcal{L}\left\{t^n f(t)\right\}(s) = (-1)^n (\mathcal{L} \left\{ f(t) \right\} )^{(n)}(s)$$                                                                                   | Multiplikation mit einem Polynom<br>ist der Gegensatz zu (iv)                                                                                                       |
 | (vii)  | **Integration**                | $$\mathcal{L}\left\{\int_0^t f(\tau) d\tau\right\}(s) = \frac{1}{s} \mathcal{L}\left\{ f(t) \right\} (s)$$                                                                         |                                                                                                                                                                     |
 | (viii) | **[Faltung](Faltung.md)**      | $$\mathcal{L}\left\{(f_1 * f_2)(t)\right\}(s) = \mathcal{L} \left\{ f_{1}(t) \right\}(s) \cdot \mathcal{L}\left\{ f_{2}(t) \right\}(s)$$                                           | Die Faltung ist definiert durch <br>$\left(f_1 * f_2\right)(t) := \int_0^t f_1(t-\tau) f_2(\tau) d\tau$                                                             |
@@ -58,25 +58,18 @@ Schreibweise der Der Vorteil der komplexeren schreibweise ist, dass man die oper
 
 Jede der zu transformierenden Funktionen ist [Kausal](Kausalität.md) (multiplizert mit dem Einheitsprung $\sigma(t)$)
 
-$$
-\displaystyle
-\begin{array}{|c|c|c|}
-&\hline\text{Zeitbereich} & \text{Bildbereich}\\
-\hline
-\text{(i)} & \delta(t) \cdot\sigma(t)& 1 \\
-\text{(ii)} & 1 \cdot\sigma(t)& \displaystyle\frac{1}{s} \\
-\text{(iii)} & t \cdot\sigma(t)& \displaystyle\frac{1}{s^{2}} \\
-\text{(iv)} & e^{ at } \cdot\sigma(t)& \displaystyle\frac{1}{s-a} \\
-\text{(v)} & t^n e^{ at } \cdot\sigma(t)& \displaystyle\frac{n!}{(s-a)^{n+1}} \\
-\text{(vi)} & \sin (\omega t)\cdot\sigma(t)&\displaystyle\frac{\omega}{s^2+\omega^2} \\
-\text{(vii)} & \cos (\omega t)\cdot\sigma(t)&\displaystyle\frac{s}{s^2+\omega^2} \\
-\text{(viii)} & e^{ at }\sin (\omega t)\cdot\sigma(t)&\displaystyle\frac{\omega}{(s-a)^2+\omega^2} \\
-\text{(ix)} & e^{ at }\cos (\omega t)\cdot\sigma(t)&\displaystyle\frac{s-a}{(s-a)^2+\omega^2} \\
-\text{(x)} & \sin(\omega_{0} t+\varphi_{0})\cdot\sigma(t)& \displaystyle\frac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}} \\
-\hline
-\end{array}
-$$
-^LAPT-T3
+|        | Zeitbereich                                    | Bildbereich                                                                   |
+| ------ | :----------------------------------------------: | :-----------------------------------------------------------------------------: |
+| (i)    | $\delta(t) \cdot\sigma(t)$                     | $1$                                                                           |
+| (ii)   | $1 \cdot\sigma(t)$                             | $\dfrac{1}{s}$                                                                 |
+| (iii)  | $t \cdot\sigma(t)$                             | $\dfrac{1}{s^{2}}$                                                             |
+| (iv)   | $e^{ at } \cdot\sigma(t)$                      | $\dfrac{1}{s-a}$                                                               |
+| (v)    | $t^n e^{ at } \cdot\sigma(t)$                  | $\dfrac{n!}{(s-a)^{n+1}}$                                                      |
+| (vi)   | $\sin (\omega t)\cdot\sigma(t)$                | $\dfrac{\omega}{s^2+\omega^2}$                                                 |
+| (vii)  | $\cos (\omega t)\cdot\sigma(t)$                | $\dfrac{s}{s^2+\omega^2}$                                                      |
+| (viii) | $e^{ at }\sin (\omega t)\cdot\sigma(t)$        | $\dfrac{\omega}{(s-a)^2+\omega^2}$                                             |
+| (ix)   | $e^{ at }\cos (\omega t)\cdot\sigma(t)$        | $\dfrac{s-a}{(s-a)^2+\omega^2}$                                                |
+| (x)    | $\sin(\omega_{0} t+\varphi_{0})\cdot\sigma(t)$ | $\dfrac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}$ |
 
 ## Beweise zur den Korrespondenzen
 

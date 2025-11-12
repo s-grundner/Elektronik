@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Latch
   - Flip-Flop
@@ -12,9 +12,9 @@ subject:
   - Technische Informatik
 semester: WS23
 created: 16th May 2025
-professor: 
+professor:
 title: Sequenzielle Logik
-release: false
+draft: false
 ---
 
 # Sequenzielle Logik

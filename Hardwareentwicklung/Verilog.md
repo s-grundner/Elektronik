@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Entwurf Integrierter Schaltungen
 semester: WS25
 created: 23rd September 2025
 professor:
-release: false
+draft: false
 title: Verilog
 ---
 

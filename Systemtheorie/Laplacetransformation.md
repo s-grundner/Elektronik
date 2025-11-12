@@ -89,10 +89,10 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 >
 > > [!question]- Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
-> > ![](./Korrespondenzen/LAPT-Korr.md#^LAPT-T1) 
+> > ![](Systemtheorie/Korrespondenzen/Laplace.md#^LAPT-T1) 
 > 
 > > [!question]- Explizite Schreibweise: $f(t)\circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$
-> > ![](./Korrespondenzen/LAPT-Korr.md#^LAPT-T2)
+> > ![](Systemtheorie/Korrespondenzen/Laplace.md#^LAPT-T2)
 
 > [!satz] **S3 - AEWS)** Anfangs und Endwertsatz ^AEWS
 > 
@@ -121,7 +121,7 @@ Wegen dem Differenzations-Satz bezeichnet man $s$ auch als Differenzations-Opera
 
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
 > 
-> ![](./Korrespondenzen/LAPT-Korr.md#^LAPT-T3)
+> ![](Systemtheorie/Korrespondenzen/Laplace.md#^LAPT-T3)
 
 ## Rücktransformation
 

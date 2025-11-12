@@ -3,14 +3,14 @@ tags:
   - Architektur/RISC-V
 aliases:
   - RV-Assembly
-keywords: 
+keywords:
 subject:
   - VL
   - Rechnerarchitektur
 semester: SS26
 created: 13th March 2025
-professor: 
-release: false
+professor:
+draft: false
 title: RISC-V
 ---
  

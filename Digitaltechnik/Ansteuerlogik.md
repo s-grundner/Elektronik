@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Schaltfunktion
 keywords:
@@ -15,7 +15,7 @@ created: 27th February 2025
 professor:
   - Timm Ostermann
 title: Ansteuerlogik
-release: false
+draft: false
 ---
 
 # Ansteuerlogik

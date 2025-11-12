@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Elektrische Maschinen und Antriebselektronik
   - VL
 semester: SS25
 created: 10. März 2025
-professor: 
-release: false
+professor:
+draft: false
 title: Magnetkreis
 ---
  

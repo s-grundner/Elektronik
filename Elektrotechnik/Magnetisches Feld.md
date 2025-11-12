@@ -1,12 +1,12 @@
 ---
-banner: "/assets/banner/MagnField.jpg"
+banner: /assets/banner/MagnField.jpg
 banner_y: 0.676
 tags:
   - MOC
 aliases:
   - Magnetfeld
   - magnetische Feld
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
@@ -16,7 +16,7 @@ created: 31. August 2023
 professor:
   - Bernhard Jakoby
   - Wolfgang Gruber
-release: 
+draft:
 title: Das Magnetische Feld
 ---
  

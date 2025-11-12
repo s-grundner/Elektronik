@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Bool
   - Boolean
@@ -10,9 +10,9 @@ subject:
   - Technische Informatik
 semester: WS23
 created: 27th February 2025
-professor: 
+professor:
 title: Boolesche Algebra
-release: true
+draft: true
 ---
 
 # Boolesche Algebra

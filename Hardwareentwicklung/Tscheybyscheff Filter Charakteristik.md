@@ -3,14 +3,14 @@ tags:
   - Baugruppe/Filter/Charakteristik
 aliases:
   - Tschebyscheff
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektronik
 semester: WS24
 created: 12. Dezember 2024
-professor: 
-release: false
+professor:
+draft: false
 title: Tschebyscheff Filter Charakteristik
 ---
  

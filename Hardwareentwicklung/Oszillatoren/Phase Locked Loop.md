@@ -1,70 +1,24 @@
 ---
 tags:
   - Baugruppe/Oszillator
-aliases: 
+aliases:
   - Phasenreglerschleife
   - PLL
-keywords: 
+keywords:
 subject:
   - KV
   - Elektronische Systeme 1
 semester: WS25
 created: 27th February 2025
 professor:
-release: false
+  - Reinhard Feger
+draft: true
 title: Phase Locked Loop
 ---
 
 # Phase Locked Loop (PLL)
 
 Ein PLL ist ein System, welches die Phasenlage und damit die Frequenz eines veränderbaren Oszillators so beeinflusst, dass die Phasenabweichung zu einem zu einem äußeren System möglichst konstant ist. 
-
-```tikz
-\usetikzlibrary{positioning,arrows.meta,shapes,decorations.pathreplacing}
-
-\begin{document}
-\begin{tikzpicture}[
-    block/.style={rectangle, draw, minimum width=2.2cm, minimum height=1cm, align=center, rounded corners=2pt},
-    smallblock/.style={rectangle, draw, minimum width=1.2cm, minimum height=0.8cm, align=center, rounded corners=2pt},
-    arrow/.style={-{Stealth[length=3mm]}, thick},
-    node distance=1.2cm
-]
-
-% Nodes
-\node (ref) at (0,0) {Referenz\\$f_{ref}$};
-\node[block,right=of ref] (pd) {Phasendetektor\\(PD)};
-\node[block,right=of pd,xshift=1cm] (lf) {Loop-Filter\\(z.B. PI / LPF)};
-\node[block,right=of lf,xshift=1cm] (vco) {VCO\\(spannungsgesteuert)};
-\node[right=of vco,xshift=2cm] (out) {Ausgang\\$f_{out}$};
-
-% Feedback divider
-\node[smallblock,below=of vco,yshift=0.6cm] (div) {$N$-Teiler};
-
-% Connections
-\draw[arrow] (ref) -- (pd);
-\draw[arrow] (pd) -- node[above]{Fehler/Phasen} (lf);
-\draw[arrow] (lf) -- node[above]{Steuerspannung $V_{ctrl}$} (vco);
-\draw[arrow] (vco) -- (out);
-
-% Feedback path
-\draw[arrow] (vco.south) -- ++(0,-0.8) -| (div.north);
-\draw[arrow] (div.south) -- ++(0,-1.2) -| node[pos=0.95,below]{zurück} (pd.south);
-
-% Optional: mark feedback loop
-\draw[decorate, decoration={brace,mirror,raise=6pt}] 
-    ($(vco.east)+(0.2,0.6)$) -- ($(vco.east)+(0.2,-1.8)$) node[midway,right=14pt] {Rückführung mit $N$-Teiler};
-
-% Labels
-\node[above=0.4cm of pd] {Phasenvergleich};
-\node[below=0.6cm of lf] {Regelkreis (geschlossener Loop)};
-
-% Add small phaselock indicator (optional)
-\node[draw,circle,inner sep=1pt,minimum size=6mm,fill=white, right=of out,xshift=1.2cm] (lock) {Locked};
-\draw[arrow] (out.east) -- (lock.west);
-
-\end{tikzpicture}
-\end{document}
-```
 
 ![PLL](../assets/PLL.png)
 
@@ -109,7 +63,7 @@ Je größer die Phasenabweichung, desto höher das "PWM" am Ausgang des XOR Gatt
 
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector.
 
-![PFD](../assets/PFD.png)
+![invert_light|900](Hardwareentwicklung/assets/PFD.png)
 
 siehe: [MT-086](../assets/pdf/MT-086.pdf)
 

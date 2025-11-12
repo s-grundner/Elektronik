@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Kombinatorik
-keywords: 
+keywords:
 subject:
   - KV
   - Technische Informatik
@@ -14,7 +14,7 @@ professor:
   - Timm Ostermann
   - Michael Lunglmayr
 title: Kombinatorische Logik
-release: false
+draft: false
 ---
 
 # Kombinatorische Logik

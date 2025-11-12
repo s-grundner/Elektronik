@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Elektrische Maschinen und Antriebselektronik
 semester: SS25
 created: 1st May 2025
-professor: 
-release: false
+professor:
+draft: false
 title: GSM-Typenschild
 ---
 

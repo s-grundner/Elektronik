@@ -14,7 +14,7 @@ subject:
 semester: SS25
 created: 22nd May 2025
 professor:
-release: false
+draft: false
 title: LTSpice
 ---
 

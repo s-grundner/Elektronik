@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 1
 semester: WS23
 created: 23rd September 2025
 professor:
-release: false
+draft: false
 title: Fundamentalsatz der Arithmetik
 ---
 

@@ -1,16 +1,16 @@
 ---
-tags: 
+tags:
 aliases:
   - dotfiles
 created: 27. April 2025
-title: 
-release: false
+title:
+draft: true
 ---
 
-# Dotfiles mit chezmoi Managen
+# Dotfiles mit chezmoi verwalten
 
 > [!info] [Reference - chezmoi](https://www.chezmoi.io/reference/)
-> Chezmoi bietet ein interface, um dotfiles für Konfigurationen via Git zu Managen. 
+> Chezmoi bietet ein interface, um dotfiles für Konfigurationen via Git zu verwalten. 
 
 ## Init
 

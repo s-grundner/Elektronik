@@ -19,6 +19,8 @@ title: Stabilität nach Ljapunov
 
 # Stabilität nach Ljapunov
 
+> [!question] [A Visual Explanation of Lyapunov Stability - YouTube](https://www.youtube.com/watch?v=W8YpgG0KuOo)
+
 ## Differentialgleichungen
 
 ### Ruhelagen

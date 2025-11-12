@@ -10,7 +10,7 @@ subject:
 semester: WS25
 created: 5th November 2025
 professor:
-release: false
+draft: false
 title: FET-Differenzverstärker
 ---
 

@@ -1,16 +1,16 @@
 ---
-tags: 
+tags:
 aliases:
   - magnetischer Widerstand
   - Reluktanzprinzip
-keywords: 
+keywords:
 subject:
   - Elektrische Maschinen und Antriebselektronik
   - VL
 semester: SS25
 created: 10. März 2025
-professor: 
-release: false
+professor:
+draft: false
 title: Reluktanz
 ---
  

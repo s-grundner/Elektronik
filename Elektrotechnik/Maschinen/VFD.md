@@ -1,16 +1,16 @@
 ---
-tags: 
+tags:
 aliases:
   - Variable Frequency Drive
   - Frequenzumrichter
-keywords: 
+keywords:
 subject:
   - VL
   - Elektrische Maschinen und Antriebselektronik
 semester: SS25
 created: 28. Juni 2025
-professor: 
-release: false
+professor:
+draft: false
 title: VFD
 ---
 

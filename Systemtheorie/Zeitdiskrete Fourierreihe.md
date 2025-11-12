@@ -18,7 +18,7 @@ professor:
 
 ---
 
-> [!quote] Die Zeitdiskrete betrachtung der Fourierreihe bietet einen Einblick in die Funktionsweise der [DFT](DFT.md)
+> [!quote] Die Zeitdiskrete betrachtung der Fourierreihe bietet einen Einblick in die Funktionsweise der [DFT](Systemtheorie/DFT.md)
 
 Es wird eine $N$-Periodische Folge betrachtet:
 $$f[n]=f[n+rN]$$
@@ -38,7 +38,7 @@ $$
 
 Es gibt nur **$N$** verschieden Harmonische. Daraus folgt die zeitdiskrete Fourier-Reihenentwicklung, welche der Analysegleichung der DFT entspricht:
 
-![](DFT.md#^DFT)
+![](Systemtheorie/DFT.md#^DFT)
 
 $$f[n] = \sum_{k = 0}^{N-1} F[k] W^{-kn}_{N}\tag{ZDFR}$$
 

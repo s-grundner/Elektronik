@@ -5,14 +5,14 @@ aliases:
   - ISA
   - Architektur
   - Rechnerarchitektur
-keywords: 
+keywords:
 subject:
   - VL
   - Rechnerarchitektur
 semester: SS25
 created: 12th March 2025
-professor: 
-release: false
+professor:
+draft: false
 title: Assembly
 ---
  

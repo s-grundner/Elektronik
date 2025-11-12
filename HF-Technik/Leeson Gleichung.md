@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Elektronische Systeme 1
 semester: WS25
 created: 15th October 2025
 professor:
-release: false
+draft: false
 title: Leeson Gleichung
 ---
 

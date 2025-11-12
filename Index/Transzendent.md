@@ -1,9 +1,9 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 5th November 2025
 title: Transzendent
-release: false
+draft: false
 ---
 
 # Transzendent

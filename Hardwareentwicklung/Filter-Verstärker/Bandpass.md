@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Elektronische Systeme 1
@@ -10,7 +10,7 @@ subject:
 semester: WS24
 created: 11. Oktober 2025
 professor:
-release: false
+draft: true
 title: Bandpass
 ---
 

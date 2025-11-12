@@ -1,9 +1,9 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 6th June 2025
 title: bash
-release: false
+draft: true
 ---
 
 # Bash

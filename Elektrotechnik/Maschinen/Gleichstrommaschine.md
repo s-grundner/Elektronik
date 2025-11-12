@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - DC-Motor
   - DC-Maschine
@@ -17,8 +17,8 @@ subject:
   - VL
 semester: SS25
 created: 3. März 2025
-professor: 
-release: false
+professor:
+draft: false
 title: Gleichstrommaschine
 banner: /Elektrotechnik/Maschinen/assets/DCM.png
 banner_y: 0.724

@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Logikgatter
   - Gatter
@@ -15,9 +15,9 @@ subject:
   - Technische Informatik
 semester: WS24
 created: 14. Oktober 2024
-professor: 
+professor:
 title: Grundgatter
-release: false
+draft: false
 ---
 
 # Grundgatter

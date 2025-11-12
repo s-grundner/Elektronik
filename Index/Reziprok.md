@@ -4,8 +4,8 @@ tags:
 aliases:
   - Reziprozität
 created: 27th February 2025
-title: 
-release: false
+title:
+draft: false
 ---
 
 # Reziprozität

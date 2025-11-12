@@ -12,7 +12,7 @@ subject:
 semester: WS25
 created: 27th February 2025
 professor:
-release: false
+draft: false
 title: Voltage Controlled Oscillator
 ---
 

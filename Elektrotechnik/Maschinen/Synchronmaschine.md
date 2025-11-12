@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Elektrische Maschinen und Antriebselektronik
   - VL
@@ -9,7 +9,7 @@ semester: SS25
 created: 3. März 2025
 professor:
   - Wolfgang Gruber
-release: false
+draft: false
 title: Synchronmaschine
 ---
  

@@ -6,8 +6,8 @@ aliases:
   - Anisotrop
   - Isotriopie
 created: 9th May 2025
-title: 
-release: false
+title:
+draft: false
 ---
 
 # Isotrop

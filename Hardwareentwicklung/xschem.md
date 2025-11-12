@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Analoge Schaltungstechnik
 semester: WS25
 created: 14th October 2025
 professor:
-release: false
+draft: false
 title: xschem
 ---
 

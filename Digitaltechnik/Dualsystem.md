@@ -3,7 +3,7 @@ tags:
   - Algebra
 aliases:
   - Binär
-keywords: 
+keywords:
 subject:
   - VL
   - Technische Informatik
@@ -12,7 +12,7 @@ created: 15th May 2025
 professor:
   - Timm Ostermann
 title: Dualsystem
-release: false
+draft: false
 ---
 
 # Dualsystem

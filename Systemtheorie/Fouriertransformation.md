@@ -25,7 +25,7 @@ release:
 # Fourier-Transformation
 
 - [Zeitdiskrete Fourier-Transformation](Zeitdiskrete%20Fourier-Transformation.md) ***:LiArrowBigRightDash:***
-- [Diskrete Fourier-Transformation](DFT.md) ***:LiArrowBigRightDash:***
+- [Diskrete Fourier-Transformation](Systemtheorie/DFT.md) ***:LiArrowBigRightDash:***
 
 ---
 
@@ -53,7 +53,7 @@ $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Fun
 
 > [!satz] **S1 - FTR)** Rechenregeln der Fouriertransformation ^FTR
 >
-> ![FT-Korr](Korrespondenzen/FT-Korr.md#^T1)
+> ![Fourier](Systemtheorie/Korrespondenzen/Fourier.md#^T1)
 
 ## Eigenschaften
 
@@ -81,7 +81,7 @@ $$
 > Ihr gegenüber steht die [Fourierreihe](Fourierreihe.md), mit welcher sich das Spektrum periodischer Funktionen berechnen lässt.  
 > Sie ist in vielen Bereichen von Wissenschaft und Technik unerlässlich.
 > 
-> - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](DFT.md) ([[DFT]]) und die Schnelle Fourier Transformation ([FFT](../Softwareentwicklung/DS-Algo/FFT.md)).
+> - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](Systemtheorie/DFT.md) ([[Systemtheorie/DFT]]) und die Schnelle Fourier Transformation ([FFT](../Softwareentwicklung/DS-Algo/FFT.md)).
 
 ## Unterschied zur Fourierreihe
 

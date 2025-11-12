@@ -21,7 +21,7 @@ title: Abtastung
 
 - [Duale Poissonsche Summenformel](Poissonsche%20Summenformel.md#Duale%20Poissonsche%20Summenformel)
 
-> [!def] **D)** Ideale Abtastung
+> [!def] **D)** Ideale Abtastung 
 > 
 > $$ x[k] := x(kT_{s}) $$
 

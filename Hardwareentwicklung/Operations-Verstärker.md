@@ -5,7 +5,7 @@ tags:
 aliases:
   - OPV
   - "#Baugruppe/OPV"
-keywords: 
+keywords:
 subject:
   - VL
   - Technische Elektronik
@@ -14,7 +14,7 @@ semester: SS25
 created: 28. Februar 2025
 professor:
   - Timm Ostermann
-release: false
+draft: false
 title: Operations-Verstärker
 ---
  

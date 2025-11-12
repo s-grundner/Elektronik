@@ -6,14 +6,15 @@ aliases:
   - "#Systeme"
   - Systemeigenschaften
   - Systemtheorie
-keywords: 
+keywords:
 subject:
   - Regelungstechnik
   - VL
 semester: SS25
 created: 11th March 2025
-professor: 
-release: false
+professor:
+  - Andreas Stelzer 🕊️
+draft: true
 title: Systemtheorie
 ---
  

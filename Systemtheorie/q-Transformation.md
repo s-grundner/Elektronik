@@ -1,16 +1,17 @@
 ---
-tags: 
+tags:
 aliases:
   - Tustin
   - Bilineartransformation
-keywords: 
+keywords:
 subject:
   - VL
   - Regelungstechnik
 semester: SS25
 created: 7th May 2025
-professor: 
-release: false
+professor:
+  - Andreas Stelzer
+draft: true
 title: q-Transformation
 ---
 
@@ -23,7 +24,7 @@ title: q-Transformation
 > [!quote] Bilineartransformation nach Tustin
 > Für den Entwurf digitaler Regelkreise spielt der Frequenzgang des Abtastsystems dieselbe Rolle wie bei zeitkontinuierlichen Systemen. Die Handhabung der Funktion $G\left( e^{ j\omega T_{a} } \right)$ wird jedoch durch die Tatsache erschwert, dass hier eine transzendente Funktion in $\omega$ vorliegt.
 
-![invert_dark](assets/qVSz.png)
+![invert_dark|1000](assets/qVSz.png)
 
 ## Transformationsvorschrift
 

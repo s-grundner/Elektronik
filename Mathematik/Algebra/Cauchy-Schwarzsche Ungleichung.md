@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS25
 created: 26th March 2025
-professor: 
-release: false
+professor:
+draft: false
 title: Cauchy-Schwarzsche Ungleichung
 ---
 

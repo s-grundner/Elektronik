@@ -1,15 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 25. Mai 2025
 professor:
-release: false
-title: Ähnliche Matrizen
+draft: false
 title: Ähnliche Matrizen
 ---
 

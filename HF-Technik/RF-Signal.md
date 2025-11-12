@@ -15,10 +15,9 @@ professor:
 
 > [!question] Was ist ein RF Signal?
 > 
-> - Hauptsächlich von Komponentengrößen und Verbindungslängen abhängig.
-> - Ist am Ende der Leitung der **gleiche pegel** wie am Anfang?
->     - Beim RF-Signalen nicht trivial.
 > - Ist die Leitungslänge viel größer als die Wellenlänge ist spricht man von einem RF-Signal
+> - Ist am Ende der Leitung der **gleiche pegel** wie am Anfang? $\to$ Beim RF-Signalen nicht trivial.
+> - Hauptsächlich von Komponentengrößen und Verbindungslängen abhängig.
 
 > [!success] Besonderheiten bei RF-Signalen
 > - Leitungen auf denen RF-Signale übertragen werden, müssen als [Transmission Lines](Transmission%20Line.md) (TLs) behandelt werden.

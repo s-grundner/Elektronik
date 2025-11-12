@@ -97,7 +97,7 @@ $$
 
 ### Winkelsummen
 
-> [!satz] **S4 - WSUM)** Winkelsummen Sätze
+> [!satz] **S4 - WSUM)** Winkelsummen Sätze ^WSUM
 > $$
 > \begin{aligned}
 > \sin (x+y) & =\sin x \cos y+\cos x \sin y \\
@@ -109,7 +109,7 @@ $$
 
 ### Summen von Winkelfunktionen
 
-> [!satz] **S5 - TADD)** Trigonometrische Additionssätze
+> [!satz] **S5 - TADD)** Trigonometrische Additionssätze ^TADD
 > $$
 > \begin{align}
 > \sin x-\sin y & =2 \cos \left(\frac{x+y}{2}\right) \sin \left(\frac{x-y}{2}\right) \\
@@ -121,7 +121,7 @@ $$
 
 ### Produkte von Winkelfunktionen
 
-> [!satz] **S6 - TMUL)** Trigonometrische Multiplikationssätze
+> [!satz] **S6 - TMUL)** Trigonometrische Multiplikationssätze ^TMUL
 > $$
 > \begin{aligned}
 > & \sin x \sin y=\frac{1}{2}(\cos (x-y)-\cos (x+y)) \\
