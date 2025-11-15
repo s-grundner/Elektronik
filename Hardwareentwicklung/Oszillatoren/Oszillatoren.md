@@ -6,17 +6,16 @@ aliases:
   - Barkhausen
   - "#Baugruppe/Oszillator"
   - Oszillator
-keywords: 
+keywords:
 subject:
   - Einführung Elektronik
   - VL
-  - hwe
+  - Elektronische Systeme 1
+  - KV
 semester: WS24
 created: 2nd January 2023
 professor:
   - Bernhard Jakoby
-source:
-  - Siegbert Schrempf
 satz:
   - BHK
 ---
@@ -74,17 +73,36 @@ Möglichkeiten die Schwingbedingung Herzuleiten:
 
 ## Typen
 
-| LC Oszillatoren                                  | RC Oszillatoren                                             | Passive Schwinger                                     | Digital                                                     |
-| ------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------- |
-| [Gesteuerte Schwingkreise](LC%20Oszillatoren.md) | [Wien-Brücke Oszillator](Wien-Brücke%20Oszillator.md)       | [Quartzoszillator](Quartzoszillator.md)                 | [Discrete Time Oscillator](Discrete%20Time%20Oscillator.md) |
-| [Parallelschwingkreis](Parallelschwingkreis.md)  | [Phasenschieber Oszillator](Phasenschieber%20Oszillator.md) | [Pierce-Gate Oszillator](Pierce-Gate%20Oszillator.md) | [Phase Locked Loop](Phase%20Locked%20Loop.md)               |
-| [Colpitts Oszillator](Colpitts%20Oszillator.md)  | [NE555](NE555.md)                                           |                                                       |                                                             |
-| [Serienschwingkreis](Serienschwingkreis.md)      | [Kippstufe](Kippstufe.md)                                   |                                                       |                                                             |
-| [VCO](Voltage%20Controlled%20Oscillator.md)      | [Relaxationsoszillator](Relaxationsoszillator.md)           |                                                       |                                                             |
-|                                                  | [Ringoszillator](Ringoszillator.md)                         |                                                       |                                                             |
+| LC Oszillatoren                                                                                    | RC Oszillatoren                                             | Passive Schwinger                                     | Digital                                                     |
+| -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------- |
+| [Gesteuerte Schwingkreise](LC%20Oszillatoren.md)                                                   | [Wien-Brücke Oszillator](Wien-Brücke%20Oszillator.md)       | [Quartzoszillator](Quartzoszillator.md)               | [Discrete Time Oscillator](Discrete%20Time%20Oscillator.md) |
+| [Parallelschwingkreis](Parallelschwingkreis.md)                                                    | [Phasenschieber Oszillator](Phasenschieber%20Oszillator.md) | [Pierce-Gate Oszillator](Pierce-Gate%20Oszillator.md) | [Phase Locked Loop](Phase%20Locked%20Loop.md)               |
+| [Colpitts Oszillator](Colpitts%20Oszillator.md)                                                    | [NE555](NE555.md)                                           |                                                       |                                                             |
+| [Serienschwingkreis](Serienschwingkreis.md)                                                        | [Kippstufe](Kippstufe.md)                                   |                                                       |                                                             |
+| [VCO](Voltage%20Controlled%20Oscillator.md)                                                        | [Relaxationsoszillator](Relaxationsoszillator.md)           |                                                       |                                                             |
+| [Verstärker-Bandpass Modell](Hardwareentwicklung/Oszillatoren/Verstärker-Bandpass%20Oszillator.md) | [Ringoszillator](Ringoszillator.md)                         |                                                       |                                                             |
 
 > [!question] Diese Oszillatoren sind harmonisch, d.h. Sie erzeugen eine Fundamentale Schwingung und gegeben harmonische Oberschwingungen...
 > d.h. Vielfache der Grundfrequenz. Wie stark diese ausgprägt sind, wird durch den [Klirrfaktor](Klirrfaktor.md) beschrieben.
+
+## Betrachtung im Spektrum
+
+Eine Oszillator soll idealer weise einen [Dirac-Impuls](Mathematik/Algebra/Delta-Impuls.md) im spektrum an seiner Frequenz generieren. In der Realität wird der Oszillator jedoch irgendwann einmal eingeschaltet (multiplikation mit dem [Einheitssprung](Systemtheorie/Einheitssprungfunktion.md)). Man müsste den Oszillator unendliche lange messen, um einen reinem Dirac zu erhalten. Stattdessen erhält man um die Oszillatorfrequenz ein [Sinc](Mathematik/Sinus%20Cardinalis.md)-Förmiges Spektrum 
+
+![](assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.md)%%
+
+## Rauschen
+
+Der Oszillator wirkt auf weißes Rauschen wie ein Filter. Nahe der Resonanzfrequenz ist das Rauschen Stärker und je nach der Güte $Q$ ist der Bereich um die Resonanzfrequenz bei der das Rauschen Verstärkt wird.
+
+Ein Modell für die Rauschleistung am Ausgang des Oszillators bietet die [Leeson Gleichung](HF-Technik/Leeson%20Gleichung.md)
+
+### Amplitudenrauschen
+
+### Phasenrauschen
+
+
 
 ---
 

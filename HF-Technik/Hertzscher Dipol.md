@@ -10,4 +10,4 @@ created: 16. Oktober 2024
 professor:
 ---
  
-## Hertzscher Dipol
+# Hertzscher Dipol

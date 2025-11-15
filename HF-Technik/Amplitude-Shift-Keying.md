@@ -30,3 +30,7 @@ Nachteile
 Amplitude Shift Keying N-ter Ordnung (N-ASK)
 
 Je höher die Ordnung N desto geringer die Bandbreite jedoch ist die Fehlerrate auch höher
+
+### OOK = 1-ASK
+
+Die Einfachste version ist On-Off-Keying. Dabei wird der Sender einfach für 1 eingeschalten und für 0 ausgeschalten.

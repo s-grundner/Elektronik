@@ -13,12 +13,14 @@ subject:
 rel-uncertainty: 1.6e-10
 ---
 
-> [!def] $Z_{0}=376.730313412(59)~\Omega$
+# Freiraumwellenwiderstand
+
+> [!def] $\eta=376.730313412(59)~\Omega$
 > $=\mu_{0} \cdot c\approx 120\pi ~\Omega$
-> - [Permeabilitätskonstante](Permeablität.md)
+> - $\mu$ ... [Permeabilitätskonstante](Permeablität.md)
 
 
-Allgemein für nichtleitende Medien ist der Freiraumwellenwiderstand:
+Allgemein für nichtleitende Medien ist der Wellenwiderstand:
 
 $$
 Z_{W} = \sqrt{ \frac{\mu}{\varepsilon} }  =\sqrt{ \frac{\mu_{0}\cdot\mu_{r}}{\varepsilon_{0}\cdot \varepsilon_{r}}  }

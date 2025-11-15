@@ -16,14 +16,16 @@
 | (ix)   | **Konjugation**                      |                                                               $f^{*}(t)$                                                                |                                                                      $F^{*}(-j\omega)$                                                                       |
 | (x)    | **Differentation im<br>Zeitbereich** |                                              $\dfrac{\mathrm{d}^{n}}{\mathrm{d}t^{n}}f(t)$                                              |                                                                  $(j\omega)^{n}F(j\omega)$                                                                   |
 | (xi)   | **Differentation im<br>Bildbereich** |                                                             $(-jt)^{n}f(t)$                                                             |                                                  $\dfrac{\mathrm{d}^{n}}{\mathrm{d}\omega^{n}} F(j\omega)$                                                   |
-| (xii)  | **Faltung im<br>Zeitbereich**        |               $f_{1}(t)*f_{2}(t)=\displaystyle\int_{-\infty}^{\infty}f_{1}(\uptau)f_{2}(t-\uptau)\mathrm{~d}\uptau$               |                                                                $F_{1}(j\omega)F_{2}(j\omega)$                                                                |
-| (xiii) | **Faltung im<br>Frequenzbereich**    |                                                           $f_{1}(t)f_{2}(t)$                                                            | $\dfrac{1}{2\pi}F_{1}(j\omega)F_{2}(j\omega)=\dfrac{1}{2\pi}\displaystyle\int_{-\infty}^{\infty}F_{1}(j\theta)F_{2}(j\omega-j\theta)\mathrm{~d}\theta$ |
+| (xii)  | **Faltung im<br>Zeitbereich**        |               $(f_{1}*f_{2})(t)=\displaystyle\int_{-\infty}^{\infty}f_{1}(\uptau)f_{2}(t-\uptau)\mathrm{~d}\uptau$               |                                                                $F_{1}(j\omega)F_{2}(j\omega)$                                                                |
+| (xiii) | **Faltung im<br>Frequenzbereich**    |                                                           $f_{1}(t)f_{2}(t)$                                                            | $\dfrac{1}{2\pi}(F_{1}*F_{2})(j\omega)=\dfrac{1}{2\pi}\displaystyle\int_{-\infty}^{\infty}F_{1}(j\theta)F_{2}(j\omega-j\theta)\mathrm{~d}\theta$ |
 ^T1
 
 ## Korrespondenzen
 
-|     | Zeitbereich                                                                                | Frequenzbereich                                                          |
-| --- | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------: |
-|     | $e^{ j \omega_{0}t }$                                                                      | $2\pi\delta(\omega-\omega_{0})$                                          |
-|     | $\cos(\omega_{0}t) = \dfrac{1}{2} \left( e^{ j\omega_{0}t } + e^{ -j\omega_{0}t } \right)$  | $\pi (\delta(\omega-\omega_{0}) + \delta (\omega+\omega_{0}))$           |
-|     | $\sin(\omega_{0}t) = \dfrac{1}{2j} \left( e^{ j\omega_{0}t } - e^{ -j\omega_{0}t } \right)$ | $\dfrac{\pi}{j} (\delta(\omega-\omega_{0}) - \delta (\omega+\omega_{0}))$ |
+|       |                                         Zeitbereich                                         |                              Frequenzbereich                              |
+| :---: | :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
+|  (i)  |                                    $e^{ j \omega_{0}t }$                                    |                      $2\pi\delta(\omega-\omega_{0})$                      |
+| (ii)  | $\cos(\omega_{0}t) = \dfrac{1}{2} \left( e^{ j\omega_{0}t } + e^{ -j\omega_{0}t } \right)$  |      $\pi (\delta(\omega-\omega_{0}) + \delta (\omega+\omega_{0}))$       |
+| (iii) | $\sin(\omega_{0}t) = \dfrac{1}{2j} \left( e^{ j\omega_{0}t } - e^{ -j\omega_{0}t } \right)$ | $\dfrac{\pi}{j} (\delta(\omega-\omega_{0}) - \delta (\omega+\omega_{0}))$ |
+^T2
+

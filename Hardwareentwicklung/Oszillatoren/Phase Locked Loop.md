@@ -71,10 +71,10 @@ siehe: [MT-086](../assets/pdf/MT-086.pdf)
 
 Das PWM-Artige Ausgangssignal des PD wird mit einem Tiefpass gemittelt und liefert eine konstante Spannung proportional zum Arbeitszyklus, welche den VCO steuert.
 
-> [!WARNING] Der Filter hat daher eine Tiefpass-Charakteristik.  
-> Tiefpass 1. Ordnung
+> [!warning] Der Filter hat daher eine Tiefpass-Charakteristik.  
+> Tiefpass 1. oder 2. Ordnung
 
-## [VCO](Voltage%20Controlled%20Oscillator.md)
+## VCO
 
 - Der [VCO](Voltage%20Controlled%20Oscillator.md) setzt das Signal in eine Rechteckschwingung um.
 - Interessant ist die sogenannte *center-frequency*, also jede Frequenz, mit der der [Oszillator](Clock%20Generierung.md) im Locked-Zustand schwingt.

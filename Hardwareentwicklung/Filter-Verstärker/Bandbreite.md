@@ -13,14 +13,26 @@ cited:
  
 # Bandbreite
 
-- Wir definieren die $3 \mathrm{~dB}$-Bandbreite (in $\mathrm{Hz}$ ) des Schwingkreises als
+Die $3\mathrm{dB}$ Bandbreite ist definiert als
+
 $$
-B=\frac{\omega_{\mathrm{go}}-\omega_{\mathrm{gu}}}{2 \pi}=f_{\mathrm{go}}-f_{\mathrm{gu}}
+B=\frac{\omega_{\mathrm{cu}}-\omega_{\mathrm{cl}}}{2 \pi}=f_{\mathrm{cu}}-f_{\mathrm{cl}}
 $$
-- Setzen wir (2.10) in (2.12) ein, finden wir
+- $f_{\mathrm{cu}}$ ... Obere Grenzfrequenz (Upper Corner Frequency)
+- $f_{\mathrm{cl}}$ ... Untere Grenzfrequenz (Lower Corner Frequency)
+
+Zusammenhang mit der Güte
+
 $$
 B=\frac{\omega_{\mathrm{r}}}{2 \pi Q}=\frac{f_{\mathrm{r}}}{Q}
 $$
-$\Rightarrow$ Je größer bei fester Resonanzfrequenz $f_{\mathrm{r}}$ die Güte $Q$ eines Schwingkreises, desto kleiner ist seine Bandbreite
+$\Rightarrow$ Je größer bei fester Resonanzfrequenz $f_{\mathrm{r}}$ die [Güte](Hardwareentwicklung/Filter-Verstärker/Güte.md) $Q$ eines Schwingkreises, desto kleiner ist seine Bandbreite
 
 - Eine große Güte führt also zu einem steil-flankigen Frequenzverhalten des Stroms bei einem Serienschwingkreis mit Spannungsspeisung
+
+## Bandbreite bei Filtern
+
+Diese definition der Bandbreite gilt auch für Filter 2. Ordnunung
+
+![](assets/Excalidraw/Q-B-Filter-2O.svg)
+%%[🖋 Edit in Excalidraw](assets/Excalidraw/Q-B-Filter-2O.md)%%

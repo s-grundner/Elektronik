@@ -4,8 +4,7 @@ aliases:
   - Upconversion
   - Downconversion
   - Frequenzverschiebung
-  - Momentanphase
-  - Momentanfrequenz
+  - Modulationsarten
 keywords:
 subject:
   - KV
@@ -26,8 +25,14 @@ Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschi
 
 > [!info] Modulationsarten
 > 
-> - [Analoge Modulation](Analoge%20Modulation.md)
-> - [Digitale Modulation](Digitale%20Modulation.md)
+> | [Analoge Modulation](HF-Technik/Analoge%20Modulation.md) | [Digitale Modulation](HF-Technik/Digitale%20Modulation.md) |
+> | - | - |
+> | [Amplitudenmodulation](HF-Technik/Amplitudenmodulation.md) | [Amplitude Shift Keying](HF-Technik/Amplitude-Shift-Keying.md) |
+> | [Quadratur Amplituden Modulation](HF-Technik/Quadratur%20Amplituden%20Modulation.md) |  Quantisierte QAM |
+> | Phasenmodulation | Phase Shift Keying |
+> | [Frequenzmodulation](HF-Technik/Frequenzmodulation.md) | [Frequency Shift Keying](HF-Technik/Frequency-Shift-Keying.md) |
+> 
+
 
 ## Frequenzverschiebung
 
@@ -69,20 +74,3 @@ Implementiert werden kann.
 
 > [!hint] Der erste Term würde nur eine einzige Multiplikation benötigen. 
 > Darauf basiert das Konzept der Analogen [Amplitudenmodulation](HF-Technik/Amplitudenmodulation.md)
-
-## Momentanphase und Momentanfrequenz
-
-Anstelle einer Amplitudenmodulation kann die Information auch direkt in das Argument des Kosinusförmigen Trägers eingeprägt werden. Es gilt im allgemeinen das Argument $\varphi(t)$ zeitlich so zu verändern, dass die information möglichst effektiv auf das gewünschte Frequenzband aufmoduliert wird.
-
-> [!def] **D - MOMF)**  Momentanphase und Momentanfrequenz
-> 
-> $$
-> \begin{align}
-> \omega(t) &= 2\pi f(t) = \frac{\mathrm{d}\varphi}{\mathrm{d}t}(t) \\
-> \varphi(t) &= \int_{0}^{t} \omega(t) \mathrm{~d}t + \varphi_{0} 
-> \end{align}
-> $$
-
-### Darstellung mit Rotierenden Zeigern
-
-Durch die darstellung der Momentanphase und frequenz als Rotierenden Zeiger, lassen sich mit dieser Methode Auch komplexwertige Signale als reelles Träger  

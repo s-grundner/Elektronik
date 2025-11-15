@@ -45,6 +45,13 @@ professor:
 
 ![invert_dark|600](assets/SignalReelKplx.png)
 
+### Eigenschaften der Fouriertransformation
+
+Für ein reelles Signal $s_{\text{real}}(t)\multimap S(f)$ gilt die Eigenschaft, dass
+
+- der Realteil eine gerade Funktion ist: $\Re\{S(f)\} = \Re\{S(-f)\}$
+- der Imaginärteil eine ungerade Funktion ist: $\Im\{S(f)\} = \Im\{-S(-f)\}$ 
+
 ### Gerade und Ungerade Signale
 
 - für gerade Signale gilt
