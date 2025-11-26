@@ -71,16 +71,15 @@ $$
 
 ## Abtasteigenschaft
 
-> [!satz] Abtasteigenschaft der Dirac Distribution ^ABT
+> [!satz] **Abtasteigenschaft** der Dirac Distribution ^ABT
 $$ f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})\mathrm{d}t = f(t)*\delta(t_{0})$$
 
 ![invert_dark](../assets/delta_impuls.png)
 
 ## Ausblendeigenschaft
 
-$$
-x(t)\delta(t-t_{0}) = x(t_{0})\delta(t-t_{0})
-$$
+> [!satz] **Ausblendeigenschaft** der Dirac-Distribution ^AUSB
+> $$ x(t)\delta(t-t_{0}) = x(t_{0})\delta(t-t_{0}) $$
 
 ## Verschiebung und Skalierung
 

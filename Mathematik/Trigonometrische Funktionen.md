@@ -83,7 +83,7 @@ $$
 
 ### Doppelwinkel
 
-> [!satz] **S3 - DOPW)** Doppelwinkel Sätze
+> [!satz] **S3 - DOPW)** Doppelwinkel Sätze ^DOPW
 > $$
 > \begin{align} 
 > \cos (2 x) & =\cos ^2(x)-\sin ^2(x) & \sin (2 x) & =2 \sin (x) \cos (x) \\

@@ -1,9 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Abtastsysteme
-  - ADC
-keywords: 
+keywords:
 subject:
   - VL
   - Signalverarbeitung
@@ -48,6 +47,8 @@ Dient zum hin und her wechseln zwischen $G(s) \leftrightarrow G(z)$
 
 ## Methoden zum Abtasten
 
+
+> [!info] [[Digitaltechnik/ADC]]
 - [Sukzessive Approximation](../Digitaltechnik/SAR-ADC.md)
 - [Sigma-Delta](../Digitaltechnik/Sigma-Delta-ADC.md)
 

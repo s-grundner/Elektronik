@@ -4,6 +4,9 @@ aliases:
   - Fernfeld
   - Nahfeld
   - Radiansphäre
+  - Fraunhofer Zone
+  - Rayleigh Zone
+  - Fersnel Zone
 keywords:
 subject:
   - VL

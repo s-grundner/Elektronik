@@ -1,12 +1,19 @@
 ---
-tags:
+tags: 
   - Digital/ADC
 aliases:
   - Successive Approximation Register ADC
   - SAR
   - Wägeverfahren
-created: 22. Dezember 2023
+keywords: 
+subject:
+  - PR
+  - Elektrische Messtechnik und Sensorik
+semester: WS25
+created: 30. Dezember 2023
+professor:
 ---
+
 
 # Successive Approximation Register ADC
 

@@ -16,7 +16,7 @@ release: true
 
 # Korrespondenzen und Rechensätze
 
-[Laplacetransformation](../Laplacetransformation.md)
+> [!question] [Laplacetransformation](../Laplacetransformation.md)
 
 ## Sätze: Einfache Schreibweise mit $F(s)$
 
@@ -39,7 +39,7 @@ Es gilt der zusammenhang $F(s) = \mathcal{L}\left\{ f(t) \right\}(s)$
 
 ## Sätze: Explizite Schreibweise mit $\mathcal{L}$
 
-Schreibweise der Der Vorteil der komplexeren schreibweise ist, dass man die operationen auf das argument $s$ und $t$ besser verfolgen kann.
+Der Vorteil der komplexeren schreibweise ist, dass man die operationen auf das argument $s$ und $t$ besser verfolgen kann.
 
 | Nr     | Satz                           | Zeitbereich zu $s$-Domäne: $f(t) \circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$                                                                            | Anmerkungen                                                                                                                                                         |
 | ------ | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -58,18 +58,23 @@ Schreibweise der Der Vorteil der komplexeren schreibweise ist, dass man die oper
 
 Jede der zu transformierenden Funktionen ist [Kausal](Kausalität.md) (multiplizert mit dem Einheitsprung $\sigma(t)$)
 
-|        | Zeitbereich                                    | Bildbereich                                                                   |
-| ------ | :----------------------------------------------: | :-----------------------------------------------------------------------------: |
-| (i)    | $\delta(t) \cdot\sigma(t)$                     | $1$                                                                           |
-| (ii)   | $1 \cdot\sigma(t)$                             | $\dfrac{1}{s}$                                                                 |
-| (iii)  | $t \cdot\sigma(t)$                             | $\dfrac{1}{s^{2}}$                                                             |
-| (iv)   | $e^{ at } \cdot\sigma(t)$                      | $\dfrac{1}{s-a}$                                                               |
-| (v)    | $t^n e^{ at } \cdot\sigma(t)$                  | $\dfrac{n!}{(s-a)^{n+1}}$                                                      |
-| (vi)   | $\sin (\omega t)\cdot\sigma(t)$                | $\dfrac{\omega}{s^2+\omega^2}$                                                 |
-| (vii)  | $\cos (\omega t)\cdot\sigma(t)$                | $\dfrac{s}{s^2+\omega^2}$                                                      |
-| (viii) | $e^{ at }\sin (\omega t)\cdot\sigma(t)$        | $\dfrac{\omega}{(s-a)^2+\omega^2}$                                             |
-| (ix)   | $e^{ at }\cos (\omega t)\cdot\sigma(t)$        | $\dfrac{s-a}{(s-a)^2+\omega^2}$                                                |
-| (x)    | $\sin(\omega_{0} t+\varphi_{0})\cdot\sigma(t)$ | $\dfrac{\omega_{0} \sin \varphi_{0}+s \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}$ |
+|        |                  Zeitbereich                   |                                   Bildbereich                                    |
+| ------ | :--------------------------------------------: | :------------------------------------------------------------------------------: |
+| (i)    |           $\delta(t) \cdot\sigma(t)$           |                                       $1$                                        |
+| (ii)   |               $1 \cdot\sigma(t)$               |                                  $\dfrac{1}{s}$                                  |
+| (iii)  |               $t \cdot\sigma(t)$               |                                $\dfrac{1}{s^{2}}$                                |
+| (iii)  |             $t^{n}\cdot \sigma(t)$             |                              $\dfrac{n!}{s^{n+1}}$                               |
+| (iv)   |           $e^{ at } \cdot\sigma(t)$            |                                 $\dfrac{1}{s-a}$                                 |
+| (v)    |         $t^n e^{ at } \cdot\sigma(t)$          |                            $\dfrac{n!}{(s-a)^{n+1}}$                             |
+| (vi)   |        $\sin (\omega t)\cdot\sigma(t)$         |                          $\dfrac{\omega}{s^2+\omega^2}$                          |
+| (vii)  |        $\cos (\omega t)\cdot\sigma(t)$         |                            $\dfrac{s}{s^2+\omega^2}$                             |
+| (viii) |    $e^{ at }\sin (\omega t)\cdot\sigma(t)$     |                        $\dfrac{\omega}{(s-a)^2+\omega^2}$                        |
+| (ix)   |    $e^{ at }\cos (\omega t)\cdot\sigma(t)$     |                         $\dfrac{s-a}{(s-a)^2+\omega^2}$                          |
+| (x)    | $\sin(\omega_{0} t+\varphi_{0})\cdot\sigma(t)$ | $\dfrac{s \sin \varphi_{0} + \omega_{0} \cos \varphi_{0}}{s^{2}+\omega_{0}^{2}}$ |
+| (xi)   | $\cos(\omega_{0}t+\varphi_{0})\cdot \sigma(t)$ | $\dfrac{s \cos \varphi_{0} + \omega_{0} \sin \varphi_{0}}{s^{2}+\omega_{0}^{2}}$ |
+| (xii)  |           $t\cdot \sin(\omega_{0}t)$           |                $\dfrac{2\omega_{0}s}{(s^{2}+\omega_{0}^{2})^{2}}$                |
+| (xiii) |           $t\cdot \cos(\omega_{0}t)$           |                $\dfrac{(s^{2}-\omega_{0}^{2})}{(s^{2}+\omega_{0}^{2})^{2}}$                |
+
 
 ## Beweise zur den Korrespondenzen
 

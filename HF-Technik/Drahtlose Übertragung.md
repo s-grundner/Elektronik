@@ -3,7 +3,6 @@ tags:
 aliases:
   - Funk
   - Drahtlos
-  - Übertragungsstrecke
 keywords:
 subject:
   - KV
@@ -45,3 +44,4 @@ Ein wichtiges Ziel ist es also das Nutzsignal im Spektrum Verschieben zu können
 %%[🖋 Edit in Excalidraw](assets/Excalidraw/VerschiebungImSpektrum.md)%%
 
 Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschiedene [Modulationsarten](HF-Technik/Modulation.md) zum einsatz.
+

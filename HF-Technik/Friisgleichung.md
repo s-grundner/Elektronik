@@ -33,13 +33,20 @@ Fragwürdig ist, wieso die Leistungsübertragung mit dem quadrat der Frequenz kl
 
 ## Herleitung
 
+- Der Sender Strahlt die Sendeleistung $P_{\mathrm{t}}$ entsprechend der Antennencharakteristik bezogen auf den [Isotroper Kugelstrahler](HF-Technik/Isotroper%20Kugelstrahler.md) ab.
+- Der Empfänger nimmt die Leistung über die [Antennenwirkfläche](HF-Technik/Antennenwirkfläche.md), gewichtet mit dem [Antennengewinn](HF-Technik/Antenne.md#^GAIN) auf.
+
+![invert_dark|1000](assets/friis.jpg)
+
+Damit die Rechnung näherungsweise korrekt ist, muss die Eintreffende Wellenfront eine **Ebene** sein, d.h keine radiale Krümmung mehr aufweisen. Diese forderung gilt in der [Fraunhofer Zone](HF-Technik/Fernfeld%20und%20Nahfeld.md) mit $r > \frac{2D^{2}}{\lambda}$ in guter Näherung.
+
 ### Am Sender
 
 Isotrope Quelle mit der Speiseleistung (Transmitpower) $P_{t}$ hat in einem großen Radius (im Fernfeld) die [Leistungsdichte](HF-Technik/Isotroper%20Kugelstrahler.md#^S) $S_{\mathrm{iso}}(r)$:
 
 $$ S_{\mathrm{iso}}(r) = \frac{P_{\mathrm{t}}}{4\pi r^{3}} $$
 
-Eine Antenne, die mit dem [Antennengewinn](HF-Technik/Antenne.md#^GAIN) $G_{\mathrm{t}}(\theta,\phi)$ (in $\mathrm{dBi}$) bezogen auf den Isotropen Strahler charakterisiert ist, hat dann die Leisungsdichte
+Eine Antenne, die mit dem Antennengewinn $G_{\mathrm{t}}(\theta,\phi)$ (in $\mathrm{dBi}$) bezogen auf den Isotropen Strahler charakterisiert ist, hat dann die Leisungsdichte
 
 $$
 S(r,\theta,\phi) = G_{\mathrm{t}}(\theta,\phi) S_{\mathrm{iso}}(r) = \frac{P_{\mathrm{t}}}{4\pi r^{2}}G_{\mathrm{t}}(\theta,\phi)
@@ -47,7 +54,7 @@ $$
 
 ### Am Empfänger
 
-Der Empfänger weist eine [Antennenwirkfläche](HF-Technik/Antennenwirkfläche.md) $A_{\mathrm{eff}}$ mit der er die Leistungsdichte Aufnehmen kann auf
+Der Empfänger weist eine Antennenwirkfläche $A_{\mathrm{eff}}$ mit der er die Leistungsdichte Aufnehmen kann auf
 
 $$
 A_{\mathrm{eff,r}}(\theta,\phi) = G_{\mathrm{r}}(\theta,\phi) \frac{\lambda^{2}}{4\pi}

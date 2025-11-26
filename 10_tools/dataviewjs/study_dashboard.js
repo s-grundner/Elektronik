@@ -40,10 +40,10 @@ courses();
 // --- Functions
 
 function weightetGPA(pgs) {
-    let graded = pgs.filter(p => p.grade);
-    let totWeighted = graded.map(p => p.grade*p.ects).sum();
-    let totECTS = graded.map(p => p.ects).sum()
-    return totECTS ? totWeighted / totECTS : 0;
+	let graded = pgs.filter(p => p.grade);
+	let totWeighted = graded.map(p => p.grade * p.ects).sum();
+	let totECTS = graded.map(p => p.ects).sum()
+	return totECTS ? totWeighted / totECTS : 0;
 }
 
 function studyProgress() {

@@ -19,7 +19,7 @@ Ein Signal ist ein Energiesignal wenn die Energie des Signals endlich ist:
 
 > [!info] **Kontinuierlich:**
 > $$
-> E=\int_{-\infty}^\infty \mid x(t)\mid^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
+> E=\int_{-\infty}^\infty \left|x(t)\right| ^{2} dt = \int _{-\infty}^\infty x(t)\cdot x^{*}(t) \, dx  
 > $$
 > $x^*$: Konjugation von $x$ (quadrat unabh. von der Phase)
 
