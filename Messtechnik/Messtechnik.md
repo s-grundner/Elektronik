@@ -23,7 +23,7 @@ title: Messtechnik
 
 # Messtechnik
 
-Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgröße für uns wahrnehmbar zu machen. Dabei gilt es festzustellen, wie vertrauenswürdig dieses Medium zur Erfassung der Größe ist -> [Messunsicherheiten](GUM.md). 
+Messen ist das experimentelle quantitative Erfassen einer Größen. Es dient dazu diese Messgröße für uns wahrnehmbar zu machen. Dabei gilt es festzustellen, wie vertrauenswürdig dieses Medium zur Erfassung der Größe ist -> [Messunsicherheiten](GUM.md). 
 
 > [!hint] **Vorraussetzungen sind:**
 > - Existenz eines Zahlensystems
@@ -47,8 +47,11 @@ Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgr�
 > - **Messkette** Spezifizierung der Blöcke im Umfang der Messung
 > 
 
+## Messkette
+
 **Messgeräte** sind die im Signalfluss liegenden Geräte einer Messeinrichtung. Die zwischen den Messgeräten Ausgetauschten **Signale** ($y_{1}, y_{2}$) Enthalten die informationen über die zu messende Größe.
-![invert_dark|1000](assets/Messkette.png)
+
+![invert_dark|1000](xEDU/B4_SS25/EMTS/assets/Messkette.png)
 
 
 Die Gesamtheit der Systeme die Ein- und Ausgang miteinander verknüpfen, ist die **Messkette**, z.B.:
@@ -80,6 +83,10 @@ Die Physikalische Größe steuert eine elektrische Größe:
     - *Photodiode*
 2. **Passive** Umwandlung (modulating)
     - Element das seinen elektrischen Widerstand ändert
+
+## Empfindlichkeit
+
+
 
 ---
 

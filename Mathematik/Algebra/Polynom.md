@@ -23,7 +23,7 @@ def:
 
 # Polynom
 
-> [!def] **D1 - POLY)** Polynom
+> [!def] **D1 - POLY)** Polynom ^POLY
 > Ein Polynom hat folgende Form:
 > 
 > $$f(x) = \sum_{i=0}^na_{i}x^{i}\quad \text{ mit } a_{n}\neq 0\tag{POLY}$$
@@ -32,7 +32,9 @@ def:
 > Für den Grad des Polynoms gilt die Schreibweise: $\deg f = n$
 
 > [!satz] **S1 - ALGE)** Fundamentalsatz der Algebra:
-> Ein Polynom $n$-ten Grades über den komplexen Zahlen (d.h. $a_i \in \mathbb{C} \forall i$ und $x \in \mathbb{C}$ ) hat **genau** $n$ Nullstellen (Vielfachheiten mitgezählt).
+> - Für jedes [Polynom](#^POLY) $f(x) : \mathbb{C} \mapsto \mathbb{C}$. $\mathbb{C}$ ist eine Geschlossene Algebra
+> - Ein Polynom $n$-ten Grades über den komplexen Zahlen (d.h. $a_i \in \mathbb{C} \forall i$ und $x \in \mathbb{C}$ ) hat **genau** $n$ Nullstellen (Vielfachheiten mitgezählt).
+
 
 > [!def] **D2 - NST)** Nullstellen
 > Mit der Menge aller Nullstellen definiert als:
@@ -74,3 +76,4 @@ Zwei Polynomfunktionen $p(x) := \sum_{i=0}^n a_{i}x^i$ und $q(x)=\sum_{i=0}^n b_
 # Tags
 
 [Polynomdivision](Polynomdivision.md)
+[Mystery of the Quintic - YouTube](https://www.youtube.com/watch?v=9HIy5dJE-zQ)

@@ -55,7 +55,7 @@ Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gew
 > $$f_{a}(t)\delta_{T}(t)=\sum_{n=-\infty}^{\infty}f_{a}(nT)\delta(t-nT)$$
 > 
 > **Im Frequenzbereich**: Faltung mit dem Spektrum der Delta-Impulsfolge. *(Aus dem Spektrum $F_{a}(j\omega)$ wird eine $\frac{2\pi}{T}$ Periodische Überlagerung)*
-> $$f_{a}(t)\delta(t)\circ\mkern-7px-\mkern-7px\bullet \frac{1}{2\pi}\left[ F_{a}(j\omega)*\omega_{0}\delta_{\omega_{0}}(\omega) \right] = \frac{\omega_{0}}{2\pi}\sum_{k=-\infty}^{\infty} F_{a}(j\omega-jk\omega_{0})\tag{1}$$
+> $$f_{a}(t)\delta_{T}(t)\circ\mkern-7px-\mkern-7px\bullet \frac{1}{2\pi}\left[ F_{a}(j\omega)*\omega_{0}\delta_{\omega_{0}}(\omega) \right] = \frac{\omega_{0}}{2\pi}\sum_{k=-\infty}^{\infty} F_{a}(j\omega-jk\omega_{0})\tag{1}$$
 >
 > ![invert_dark|900](assets/DFT1.png)
 > Aus der Korrespondenz $\delta(t-nT)\circ\mkern-7px-\mkern-7px\bullet e^{ -j\omega nT }$ folgt
@@ -65,3 +65,5 @@ Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gew
 Durch gleichsetzen der Beiden Fouriertransformierten in $(1)$ und $(2)$ folgt die Duale Poissonsche Summenformel
 
 
+![](assets/Excalidraw/Poissonsche%20Summenformel%202025-11-29%2022.18.06.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](assets/Excalidraw/Poissonsche%20Summenformel%202025-11-29%2022.18.06.excalidraw.md)%%
