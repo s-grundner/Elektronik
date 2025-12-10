@@ -27,7 +27,6 @@ Durch die Änderung der [Bindungsenergie](Bindungsenergie.md) nimmt die Gesamtma
 >
 > ${}^{1,00866u}_{0}n+^{235,04392}_{92}U\longrightarrow {}^{236.04556u}_{92}U\longrightarrow {}^{88.91783u}_{36}Kr + {}^{143,92295u}_{56}Ba + 3\cdot {}^{1.00866}_{0}n$
 >
-> ![Pasted image 20220910190539.png](Pasted%20image%2020220910190539.png)
 
 Man muss beachten, dass sich diese Energie auf einen Kernzerfall bezieht. Betrachtet man die Anzahl der Atomkerne, die in einem Kilogramm Uran enthalten sind und nimmt an, dass alle zerfallen, so beträgt die dann frei werdende Energie ~8,6⋅1012 J. Das ist etwa 290 000-mal so viel, wie bei der Verbrennung von 1 kg Steinkohle freigesetzt wird. $\rightarrow$ [Bindungsenergie](Bindungsenergie.md)
 

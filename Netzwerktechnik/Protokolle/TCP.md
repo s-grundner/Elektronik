@@ -51,8 +51,6 @@ Sender sendet Paket $\rightarrow$ Empfänger bestätigt.
 
 ### Verbindungsabbau
 
-![TCP_trans_aufbau.png](assets/TCP_trans_aufbau.png)
-
 ## Flusskontrolle (Flow Control)
 
 ### Stop-and-Wait

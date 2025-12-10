@@ -44,5 +44,3 @@ Beispiele:
 ## STM Hardware Abstraction Layer (HAL)
 
 # Tags
-
-[^1]: [RM0433](../xEDU/(SemB2)-SS24/Networked%20Embedded%20Systems%20(PR)/pdf/RM0433.pdf)
