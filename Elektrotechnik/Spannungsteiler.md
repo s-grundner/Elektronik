@@ -31,4 +31,4 @@ professor:
 > - Wir betrachten als Beispiel die Spannungsmessung mit Hilfe eines [[Oszilloskop|Oszilloskops]], wobei die gemessenen Spannung mit Hilfe eines sogenannten *Tastkopfs* geteilt wird, um die am Oszilloskopeingang maximal erlaubte Spannung nicht zu überschreiten
 > ![[../assets/Excalidraw/Spannungsteiler 2024-04-15 10.40.20.excalidraw]]
 
-![[OszTastkopfSpgTeiler.png]]
+![[assets/OszTastkopfSpgTeiler.png]]

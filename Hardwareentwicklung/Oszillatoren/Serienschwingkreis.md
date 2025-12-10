@@ -15,13 +15,13 @@ professor:
 # Serienschwingkreis
 
 > [!info] Der elementare Serienschwingkreis (oder Reihenschwingkreis) besteht aus der Serienschaltung von $R$, $L$ und $C$ mit der Impedanz
-> ![invert_dark](assets/RLC-SerienSK.png)
+> ![invert_dark](../../Elektrotechnik/assets/RLC-SerienSK.png)
 > $$\underline{Z} = R + j\omega L+\frac{1}{j\omega C} = R+ j\left( \omega L-\frac{1}{\omega C} \right)$$
 
 ## Resonanz
 
 > [!info] Bei *Resonanz* ist $\underline{Z}$ minimal (files::[📈Mathematica Notebook](../../Scripts/mathematica/SerienSK_Impedanz.nb))
-> ![InlineR|300](assets/ImpSSK.png) das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
+> ![InlineR|300](../../Elektrotechnik/assets/ImpSSK.png) das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
 > 
 > Die Frequenz welche diese Bedingung erfüllt, heißt **Resonanzfrequenz**.
 > 
@@ -38,7 +38,7 @@ professor:
 
 |                      $\underline{Z}$-Zeigerdiagramm                       |                                                          $U$-$I$-Zeigerdiagramm                                                          |
 | :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-|                  ![invert_dark](assets/ZZeigerDiag.png)                   |                                                 ![invert_dark](assets/UIZeigerDiag.png)                                                  |
+|                  ![invert_dark](../../Elektrotechnik/assets/ZZeigerDiag.png)                   |                                                 ![invert_dark](../../Elektrotechnik/assets/UIZeigerDiag.png)                                                  |
 |                  Die Impedanz-Zeiger rotieren **nicht**                   |                                                 Momentaufnahme des roteierenden Zeigers                                                  |
 | Die Zeiger können **nicht** beliebig in das Diagramm eingezeichnet werden | Die Zeiger können beliebig gedreht gezeichnet werden. <br>(Wir Zeichnen sie, sodass ein Zeigerauf der Realen Achse liegt -> Einfachheit) |
 |                      Absoluter Winkel von Bedeutung                       |                                                      Relative Winkel von Bedeutung                                                       |
@@ -49,7 +49,7 @@ professor:
 
 ## Ortskurve
 
-![600](assets/Ortskurve_SSK.png)
+![600](../../Elektrotechnik/assets/Ortskurve_SSK.png)
 
 $$
 Z = R + j\omega L + \frac{1}{j\omega C}
@@ -73,7 +73,7 @@ $$W_{L}=\frac{L \hat{\imath}^{2}(t)}{2}= \frac{L}{2}(I\sqrt{2}\cos(\omega t))^{2
 - $(*)$: [TRIG S3](../../Mathematik/Trigonometrische%20Funktionen.md#Doppelwinkel) - Doppelwinkel: $2\cos ^{2}(\varphi)=1+\cos(2\omega t)\iff \cos ^{2}(\varphi)=\frac{1}{2}(1+\cos(2\omega t))$
 - $I$ ist der Effektivwert, deshalb mit $\sqrt{ 2 }$ Multipizieren
 
-![700](assets/Serienschwingkreis%202025-01-16%2001.35.02.excalidraw.md)
+![700](../../Elektrotechnik/assets/Serienschwingkreis%202025-01-16%2001.35.02.excalidraw.md)
 
 # Freie Schwingungen im realen Serienschwingkreis
 

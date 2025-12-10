@@ -19,7 +19,7 @@ Beispiel nicht elementarer SK:
 technischer Parallelschwingkreis
 
 
-![invert_dark](ParallelSK.png)
+![invert_dark](../../Elektrotechnik/assets/ParallelSK.png)
 
 
 Admittanz 
@@ -36,4 +36,4 @@ $$
 \omega_{\mathrm{r}}=\frac{1}{\sqrt{L C}} \sqrt{1-\frac{R_L^2 C}{L}}
 $$
 
-![[assets/Parallelschwingkreis 2025-01-14 10.49.42.excalidraw]]
+![[../../Elektrotechnik/assets/Parallelschwingkreis 2025-01-14 10.49.42.excalidraw]]

@@ -21,7 +21,7 @@ professor:
 | Widerstand  | Induktivität | Reaktanz | Impedanz | Spannungsquelle |
 | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
 | ![](assets/R.png) | ![](assets/L.png) | ![](assets/X.png) | ![](assets/Z.png) | ![](assets/U.png) |
-| ![](assets/G.png) | ![](Elektrotechnik/assets/C.png) | ![](assets/B.png) | ![](assets/Y.png) | ![](assets/I.png) |
+| ![](assets/G.png) | ![](assets/C.png) | ![](assets/B.png) | ![](assets/Y.png) | ![](assets/I.png) |
 | Leitwert | Kapazität | Suszeptanz | Admittanz | Stromquelle |
 
 

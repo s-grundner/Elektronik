@@ -45,7 +45,7 @@ banner_y: 0.336
 >> [!success] Die [Kraft](../Physik/{MOC}%20Kräfte.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $\mathbf{E}$  
 >
 
-![230](EFeld.png)
+![230](assets/EFeld.png)
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Algebra/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
 $$|\mathbf{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$

@@ -80,7 +80,7 @@ Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. 
 
 Abbildung: Verschiebung der Weißschen Bezirke beim Aufmagnetisieren eines ferromagnetischen Materials
 
-| ![invert_dark\|200](assets/Mkreis.png)                                                                 | ![invert_dark\|200](assets/Mkurve.png)                                                                    |
+| ![invert_dark\|200](../../Elektrotechnik/assets/Mkreis.png)                                                                 | ![invert_dark\|200](../../Elektrotechnik/assets/Mkurve.png)                                                                    |
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Durch das Einbringen eines Magnetfeldes durch eine Spule in den Eisenkreis, wird der kern Magnetisiert | Damit ergibt sich für die Magnetische Flussdichte über dem Strom die Hysterese- oder Magnetisierungskurve |
 

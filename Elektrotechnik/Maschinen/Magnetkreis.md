@@ -105,7 +105,7 @@ Modellbild einer Zweipoligen Maschine mit zwei Statorspulen:
 
 $$\underset{ \longleftarrow }{ \Phi_{Li} } = \underset{ \longrightarrow }{ \Phi_{Re} } = \frac{1}{2} \Phi_{S}$$
 
-![invert_dark|300](assets/KreisBsp.png)
+![invert_dark|300](../assets/KreisBsp.png)
 
 |                                 | Feldstärke            | Fluss                            | Abstand / Länge | Permeabiltät des Materials |
 | ------------------------------- | --------------------- | -------------------------------- | --------------- | -------------------------- |
@@ -150,6 +150,6 @@ $$
 Mit dieser Anschaulichen Maschengleichung der magnetischen Spannungen kann ein Schaltbild für den Magnetkreis Konstruiert werden.
 
 
-![invert_dark|400](assets/MagnEquiv.png)
+![invert_dark|400](../assets/MagnEquiv.png)
 
 [^1]: Mit Guter Näherung kann für den nicht gesättigten Zustand des angenommen werden, dass $H_{R} l_{R}\approx 0$ und $H_{S} l_{S}\approx 0$. Daraus folgt: $H_{\delta} = \frac{Ni}{\delta}$
