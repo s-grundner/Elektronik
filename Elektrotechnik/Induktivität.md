@@ -135,7 +135,7 @@ $$
 Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physik/Lenzsche%20Regel.md)).
 
 
-![indu-pulse](../Hardwareentwicklung/assets/indu-pulse.png)
+![indu-pulse](assets/indu-pulse.png)
 
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
