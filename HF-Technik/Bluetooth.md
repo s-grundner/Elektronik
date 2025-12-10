@@ -17,4 +17,4 @@ professor:
 > [!INFO] Bluetooth  
 > Signalstärke (RSSI) wird gemessen
 
-![](assets/Pasted%20image%2020231110131540.png)
+![](../assets/Pasted%20image%2020231110131540.png)

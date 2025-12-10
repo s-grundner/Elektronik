@@ -40,7 +40,7 @@ Wichtige Schritte:
 > - mit der *Knotenadmittanz*-[Matrix](../Mathematik/Algebra/Matrix.md) $\mathbf{G}$,
 > - dem *Lösungs-[Vektor](../Mathematik/Algebra/Vektor.md)* $\mathbf{U}$ der unbekannten *Knotenspannungen*
 > - und dem Vektor der Quellströme $\mathbf{I}_{q}$
-> ![1200](../assets/Excalidraw/Knotenpotentialverfahren%202024-03-13%2021.34.50.excalidraw)
+> ![1200](../assets/Excalidraw/Knotenpotentialverfahren%202024-03-13%2021.34.50.excalidraw.md)
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}

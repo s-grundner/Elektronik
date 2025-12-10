@@ -58,7 +58,7 @@ Man möchte, dass $L$ in jedem Punkt von der gleichen Klasse ist.
 Bereich indem die Partielle DGL definiert ist:
 
 > [!info] Ist die Zeit $t$ einer der Parameter von $u$, so zeichnen wir Folgendes Bild
-> ![](assets/Pasted%20image%2020250108151936.png)
+> ![](../../assets/Pasted%20image%2020250108151936.png)
 > 
 > Raumvariablen $\Omega \subset \mathbb{K}^{n}$, Zeitvariable $I = [0,\infty)$: Definitionsraum $I \times\Omega$
 > **AB:** Anfangsbedingungen: $u(0,x)=f_{0}(x), x \in\Omega$

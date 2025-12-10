@@ -26,15 +26,15 @@ title: Frequency Shift Keying (FSK)
 
 - Hin und Her schaltung zwischen oszillatoren mit unterschiedlicher Frequenz
 
-![600](assets/Excalidraw/NCPFSK.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/NCPFSK.md)%%
+![600](../assets/Excalidraw/NCPFSK.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/NCPFSK.md)%%
 
 Durch die Sprünge in der Phase, wird das Spektrum breiter.
 
 Beispeil für die Binäre 2-FSK
 
-![900](assets/Excalidraw/2-FSK-mod-BSB.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/2-FSK-mod-BSB.md)%%
+![900](../assets/Excalidraw/2-FSK-mod-BSB.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/2-FSK-mod-BSB.md)%%
 
 Für die M-FSK kann das Blockschaltbild auf M-oszillatoren erweitert werden.
 
@@ -63,13 +63,13 @@ $$
 - Symbolsequenz: $\mathbf{A} = (A[0], A[1], \dots)$
 - Rechteckpuls $g_{\mathrm{T}}(t-kT)$: sorgt dafür, dass sich die Symbole nicht gegenseitig überschneiden. Modelliert, dass nur ein Oszillator auf einmal durchgeschalten wird. 
 
-![invert_light|700](assets/Excalidraw/FSK-GT.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/FSK-GT.md)%%
+![invert_light|700](../assets/Excalidraw/FSK-GT.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/FSK-GT.md)%%
 
 - Linearer Anstieg ($t-kT$): Der Rechteckimpuls mit dem Symbol Alleine ergäbe nur eine konstante [Momentanphase](HF-Technik/Momentanphase%20und%20Momentanfrequenz.md). Der Lineare Term Sorgt um eine **linear ansteigende Phase** um eine Konstante [Momentanfrequenz](HF-Technik/Momentanphase%20und%20Momentanfrequenz.md) während der Symbolperiode darzustellen.
 
-![invert_light|700](assets/Excalidraw/FSK-tgT.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/FSK-tgT.md)%%
+![invert_light|700](../assets/Excalidraw/FSK-tgT.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/FSK-tgT.md)%%
 
 #### Informationstragende Phase in einem Symbolintervall
 
@@ -81,8 +81,8 @@ $$
 
 Daran kann man den Linearen Phasenanstieg in abhängigkeit des Symbols erkennen.
 
-![invert_light|1000](assets/Excalidraw/FSK-InfoPhase.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/FSK-InfoPhase.md)%%
+![invert_light|1000](../assets/Excalidraw/FSK-InfoPhase.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/FSK-InfoPhase.md)%%
 
 > [!def] **Modulationsindex** $h$: Der Term $\Delta f T = h$ wird als Modulatiosindex beziechnet
 
@@ -98,13 +98,13 @@ Das Symbol wird auf die Frequenzbestimmende Steuerspannung eines einzelnen [VCO]
 
 Der VCO besitzt implizit ein **Integrales verhalten** bezüglich der Phase. D.h. die Phase wird auf-akkumuliert und führt zu einem **Memory-Effekt**. Die Phase ist also anders als beim NCPFSK Abhängig vom Symbol aus der Vorherigen Periode
 
-![invert_light|600](assets/Excalidraw/CPFSK.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/CPFSK.md)%%
+![invert_light|600](../assets/Excalidraw/CPFSK.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/CPFSK.md)%%
 
 Blockschaltbild
 
-![invert_light|1000](assets/Excalidraw/CPFSK-BSB.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/CPFSK-BSB.md)%%
+![invert_light|1000](../assets/Excalidraw/CPFSK-BSB.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/CPFSK-BSB.md)%%
 
 ### Informationstragende Phase
 
@@ -143,8 +143,8 @@ $$
 \varphi(t, \mathbf{A}) = \Theta[n] + \pi h A[n]q(t-nT)
 $$
 
-![invert_light|1000](assets/Excalidraw/CPFSK-Traj.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/CPFSK-Traj.md)%%
+![invert_light|1000](../assets/Excalidraw/CPFSK-Traj.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/CPFSK-Traj.md)%%
 
 ## Frequenzabstand
 
@@ -161,5 +161,5 @@ Spezialfall der CPFSK bei der für $g_{\mathrm{T}}(t)$ statt einer rechteckfunkt
 - Der Übergang ist nicht nur (wie bei der CPFSK) stetig, sondern auch **Stetig Differenzierbar**
 - Führt zu einem niedrigerem Bandbreitenbedarf
 
-![](assets/Excalidraw/GFSK.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/GFSK.md)%%
+![](../assets/Excalidraw/GFSK.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/GFSK.md)%%

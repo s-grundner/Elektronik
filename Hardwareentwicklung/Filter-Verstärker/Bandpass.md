@@ -35,8 +35,8 @@ Um das Betragsspektrum auf den Resonanzfall zu **normieren**, wird der Betragsga
 -  $\Omega = \frac{\omega}{\omega_{0}}$ 
 - $H'(j\Omega) = \frac{H(j\Omega)}{V_{0}}$
 
-![900](assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.md)%%
+![900](../../assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.md)%%
 
 
 ## Güte $Q$
@@ -52,9 +52,9 @@ Notation in der Regelungstechnik oft: $Q =\frac{1}{2\xi}$
 
 ### Schaltung
 
-![1000](assets/Excalidraw/BPF-LCR.svg)
+![1000](../../assets/Excalidraw/BPF-LCR.svg)
 
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/BPF-LCR.md)%%
+%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/BPF-LCR.md)%%
 
 ### Resonanzfrequenz
 

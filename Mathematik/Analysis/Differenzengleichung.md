@@ -44,7 +44,7 @@ Weiterführend ist die Systemtheoretische Betrachtung von [Differenzengleichungs
 
 **IIR-System $N$-ter Ordnung**
 
-![invert_dark|400](assets/Pasted%20image%2020250521103236.png)
+![invert_dark|400](../../assets/Pasted%20image%2020250521103236.png)
 
 Transponierte Direktform II
 $$

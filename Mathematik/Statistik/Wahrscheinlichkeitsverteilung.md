@@ -21,7 +21,7 @@ $$
 $M_{x}\rightarrow [0;1]$
 
 >[!EXAMPLE] [Erwartungswert](Erwartungswert.md) von 2 Würfeln  
-> ![erw_wert_zfv](assets/erw_wert_zfv.png)
+> ![erw_wert_zfv](../../assets/erw_wert_zfv.png)
 
 # Tags
 
@@ -33,7 +33,7 @@ $M_{x}\rightarrow [0;1]$
 
 | Wahrscheinlichkeitsdichte                 | Wahrscheinlichkeitsverteilung             |
 | ----------------------------------------- | ----------------------------------------- |
-| ![350](assets/Pasted%20image%2020221210150102.png) | ![300](assets/Pasted%20image%2020221210150004.png) |
+| ![350](../../assets/Pasted%20image%2020221210150102.png) | ![300](../../assets/Pasted%20image%2020221210150004.png) |
 | Summe aller $=1$                          | w                                          |
 
 # Tags

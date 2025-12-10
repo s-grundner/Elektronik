@@ -29,7 +29,7 @@ created: 20th August 2022
 
 ### Positronen Emissions-Tomographie (PET)
 
-![](assets/PET.png)
+![](../assets/PET.png)
 
 Bei der **Positronen Emissions-Tomographie** (PET) werden radioaktiv markierte Substanzen (Tracer), die Positronen **abstrahlen**, in den **Stoffwechsel eingeschleust** und ihre Verteilung im menschlichen Körper mit einer PET-Kamera aufgezeichnet.
 

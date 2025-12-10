@@ -18,7 +18,7 @@ Kubernetes ist ein **Container Orchestration** Tool. -> Load Balancing von Micro
 >
 > **Recovery:** Backups
 
-![1200](../../assets/Excalidraw/Kubernetes%202025-02-22%2017.23.56.excalidraw)
+![1200](../../assets/Excalidraw/Kubernetes%202025-02-22%2017.23.56.excalidraw.md)
 
 ## Nodes
 

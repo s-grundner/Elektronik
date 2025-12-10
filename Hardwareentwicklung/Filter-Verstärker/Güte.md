@@ -43,7 +43,7 @@ $$
 
 Normierte Betragsspektren mit $\Omega = \frac{\omega}{\omega_{0}}$
 
-![](assets/Excalidraw/Q-B-Filter-2O.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/Q-B-Filter-2O.md)%%
+![](../../assets/Excalidraw/Q-B-Filter-2O.svg)
+%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Q-B-Filter-2O.md)%%
 
 In diesen Betragsspektren ist auch der Zusammenhang mit der definition der [Bandbreite](Hardwareentwicklung/Filter-Verstärker/Bandbreite.md) zu sehen

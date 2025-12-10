@@ -49,8 +49,8 @@ Zu jedem Zeitpunkt / **Moment** lässt sich feststellen welche Phase und welche 
 Man zerlegt den Kosinus in seine komplexen komponenten und man betrachtet den rotierenden Zeiger $e^{ j\varphi(t) }$ als das neues Nutzsignal. Da bekannt ist, dass der zweite Zieger nur konjugiert zum ersten ist, kann der zweite Zeiger entfallen und man erhält ein komplexes Signal. 
 
 
-![1000](assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.md)%%
+![1000](../assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.md)%%
 
 Man kann sich vorstellen, den Zeiger einerseits durch änderung der Momentanphase zu verschieben oder andererseits mit der Momentanfrequenz den zeiger zu beschleunigen. 
 

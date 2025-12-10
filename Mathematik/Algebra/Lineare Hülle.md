@@ -27,4 +27,4 @@ professor:
 > 
 > Dazu legen wir noch fest: $\operatorname{span}(\emptyset):=\{0\}$
 
-![InlineR|450](assets/linHuelle.jpg)
+![InlineR|450](../../assets/linHuelle.jpg)

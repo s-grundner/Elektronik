@@ -19,7 +19,7 @@ $$
 (1) \quad \vec{F} = \frac{d\vec{p}}{dt} = \frac{d}{dt}(m\vec{v})
 $$
 
-![700](assets/Pasted%20image%2020240117123718.png)
+![700](../assets/Pasted%20image%2020240117123718.png)
 
 # Tags
 

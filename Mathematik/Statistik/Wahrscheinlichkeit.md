@@ -91,15 +91,15 @@ So gilt: Mindestens eines = nicht keines
 
 ### Pfadregeln
 
-![Pasted image 20230108013030](assets/Pasted%20image%2020230108013030.png)
+![Pasted image 20230108013030](../../assets/Pasted%20image%2020230108013030.png)
 
-![Pasted image 20230108013044](assets/Pasted%20image%2020230108013044.png)
+![Pasted image 20230108013044](../../assets/Pasted%20image%2020230108013044.png)
 
-![invert_light](assets/Pasted%20image%2020230108013054.png)
+![invert_light](../../assets/Pasted%20image%2020230108013054.png)
 
 # Tags
 
-| ![Pasted image 20221211123853](assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](assets/UEB-rechnen-wsk.png) |  
+| ![Pasted image 20221211123853](../../assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](assets/UEB-rechnen-wsk.png) |  
 | ------------------------------------ | ------------------------ |
 
 [Ereignisraum](Ereignisraum.md)  

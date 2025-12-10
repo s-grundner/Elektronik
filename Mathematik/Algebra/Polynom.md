@@ -52,7 +52,7 @@ Jedes Polynom kann in ein Produkt aus seinen Nullstellentermen zerlegt werden.
 > [!example] Beispiel:
 > - $n$-te Wurzel aus $y$ berechnen (siehe Vorlesungseinheit zu den komplexen Zahlen) $\Leftrightarrow x^n=y$ lösen $\Leftrightarrow$ Nullstellen des Polynoms $f(x)=-y+x^n$ berechnen
 
-![invert_dark](assets/polyGraph.png)
+![invert_dark](../../assets/polyGraph.png)
 
 ## Rationale Funktion
 
@@ -65,7 +65,7 @@ $f: \mathbb{R}(\mathbb{C}) \backslash N_q \rightarrow \mathbb{R}(\mathbb{C})$
 
 
 
-![invert_dark](assets/polyPolstellen.png)
+![invert_dark](../../assets/polyPolstellen.png)
 
 ## Koeffizientenvergleich
 

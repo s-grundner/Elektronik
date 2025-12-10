@@ -38,7 +38,7 @@ Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das [LTI-System](../../Systemtheori
 > - Ruhelage oben ist **instabil**. Eine kleine Abweichung eskaliertdas System
 > - Das Pendel kehrt nicht mehr in die Ursprüngliche Ruhelage zurück, verlässt also das $\varepsilon$ Gebiet der Phase des Pendels
 > 
-> ![invert_dark|200](assets/LjapPendel.png)
+> ![invert_dark|200](../../assets/LjapPendel.png)
 
 ### Stabilität
 

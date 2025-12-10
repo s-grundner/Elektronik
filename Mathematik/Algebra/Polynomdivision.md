@@ -14,8 +14,8 @@ professor:
 # Polynomdivision
 
 
-![600](assets/Pasted%20image%2020250202130751.png)
+![600](../../assets/Pasted%20image%2020250202130751.png)
 
-![](assets/Pasted%20image%2020230830161034.png)
+![](../../assets/Pasted%20image%2020230830161034.png)
 
-![](assets/Pasted%20image%2020240127140400.png)![](assets/Pasted%20image%2020240127140714.png)
+![](../../assets/Pasted%20image%2020240127140400.png)![](../../assets/Pasted%20image%2020240127140714.png)

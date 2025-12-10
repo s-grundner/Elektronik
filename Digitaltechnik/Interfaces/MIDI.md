@@ -14,7 +14,7 @@ Das MIDI-Protokoll wurde in den frühen 80ern entwickelt und standardisiert die 
 > 
 > Die [Grenzfrequenz](../../Hardwareentwicklung/Filter-Verstärker/Grenzfrequenz.md) eines digitalen Filters kann mittels eines MIDI enkodierten Potentiometers am MIDI-Controller gesteuert werden.
 > 
-> ![750|443](assets/MIDI-DigiFilter.png)
+> ![750|443](../../assets/MIDI-DigiFilter.png)
 
 Es ist wichtig zu wissen, dass MIDI-Signale nichts mit niederfrequenten Audiosignalen zu tun haben. Weder analogesnoch digital aufgefasstes Audio kommt in einer MIDI-Kommunikation vor. [^1]
 
@@ -29,7 +29,7 @@ Eine MIDI-Nachricht ist aus drei (manchmal zwei) Bytes aufgebaut:
 - Erstes Datenbyte
 - Zweites Datenbyte
 
-![](assets/MIDIBytes.png)
+![](../../assets/MIDIBytes.png)
 
 ### MIDI-Status
 
@@ -53,11 +53,11 @@ Mit den Vier übrigen Bit wird der Kanal eingestellt, an den die Nachricht gesch
 
 >[!INFO] Vier verschiede MIDI-Spuren mit dem gleichen Controller als Input
 >
->![](assets/MIDI-SW-Channel.png)
+>![](../../assets/MIDI-SW-Channel.png)
 
 > [!INFO] MIDI Kanäle auf die Hardware bezogen:
 > 
-> ![](assets/MIDI_Controller.png)
+> ![](../../assets/MIDI_Controller.png)
 > 
 > Channel 10: Drumpads (16 Quadratische Drucktasten oben)  
 > Channel 1: Klaviertasten

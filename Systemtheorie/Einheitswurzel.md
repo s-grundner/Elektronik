@@ -39,7 +39,7 @@ Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ un
 > $$W_{N}^{n} = \exp \left( -j \frac{2\pi}{N}n \right) \quad \text{mit } n=0,1,\dots, N-1 $$
 
 Die Funktionenfolge der Drehfaktoren ergibt folgendes Bild:
-![700](../assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw)
+![700](../assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw.md)
 
 ### Symmetrie
 

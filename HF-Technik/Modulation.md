@@ -24,11 +24,11 @@ Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschi
 
 |                                                             | [Analoge Modulation](HF-Technik/Analoge%20Modulation.md) | [Digitale Modulation](HF-Technik/Digitale%20Modulation.md) |                                                                   |
 | ----------------------------------------------------------- | :------------------------------------------------------: | :--------------------------------------------------------: | ----------------------------------------------------------------: |
-| Informations Signal                                         |  ![invert_dark\|600](assets/AnalogeModulation-Sig.png)   |   ![invert_dark\|500](assets/DigitaleModulationSig.png)    | Informations Signal                                               |
-| Träger Signal                                               |        ![invert_dark\|600](assets/ModCarrier.png)        |         ![invert_dark\|500](assets/ModCarrier.png)         | Träger Signal                                                     |
-| [Amplituden Modulation](HF-Technik/Amplitudenmodulation.md) |          ![invert_dark\|600](assets/ModAM.png)           |           ![invert_dark\|500](assets/ModASK.png)           | [Amplitude Shift Keying](HF-Technik/Amplitude-Shift-Keying.md)    |
-| [Frequenz Modulation](HF-Technik/Frequenzmodulation.md)     |         ![invert_dark\|600](assets/ModFMPM.png)          |           ![invert_dark\|500](assets/ModFSK.png)           | [Frequnecy Shift Keying](HF-Technik/Frequency-Shift-Keying.md)    |
-| Phasen Modulation                                           |         ![invert_dark\|600](assets/ModFMPM.png)          |          ![invert_dark\|500 ](assets/ModPSK.png)           | Phase Shift Keying |
+| Informations Signal                                         |  ![invert_dark\|600](assets/AnalogeModulation-Sig.png)   |   ![invert_dark\|500](../assets/DigitaleModulationSig.png)    | Informations Signal                                               |
+| Träger Signal                                               |        ![invert_dark\|600](../assets/ModCarrier.png)        |         ![invert_dark\|500](../assets/ModCarrier.png)         | Träger Signal                                                     |
+| [Amplituden Modulation](HF-Technik/Amplitudenmodulation.md) |          ![invert_dark\|600](../assets/ModAM.png)           |           ![invert_dark\|500](../assets/ModASK.png)           | [Amplitude Shift Keying](HF-Technik/Amplitude-Shift-Keying.md)    |
+| [Frequenz Modulation](HF-Technik/Frequenzmodulation.md)     |         ![invert_dark\|600](../assets/ModFMPM.png)          |           ![invert_dark\|500](../assets/ModFSK.png)           | [Frequnecy Shift Keying](HF-Technik/Frequency-Shift-Keying.md)    |
+| Phasen Modulation                                           |         ![invert_dark\|600](../assets/ModFMPM.png)          |          ![invert_dark\|500 ](../assets/ModPSK.png)           | Phase Shift Keying |
 
 ## Frequenzverschiebung
 

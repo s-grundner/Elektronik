@@ -6,4 +6,4 @@
 - $e^{-}$ müssen locker sitzen.
 - Dies ist bei größeren Atomen der Fall: stehen links und weiter unten im [PSE](Periodensystem%20der%20Elemente.md).
 
-![invert_light|400](assets/LiCsAtome.png)
+![invert_light|400](../assets/LiCsAtome.png)

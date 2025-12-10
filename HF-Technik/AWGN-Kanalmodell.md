@@ -24,5 +24,5 @@ Der AWGN-Kanal ist ein Modell, der die Rauschleistungdichte in einer Drahtlosen 
 
 Ein AWGN Kanal weist über die gesamte Bandbreite eine **Konstante Rauschleistungsdichte** (PSD)
 
-![400](assets/Excalidraw/AWGN-Kanalmodell%202025-11-16%2020.30.55.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](assets/Excalidraw/AWGN-Kanalmodell%202025-11-16%2020.30.55.excalidraw.md)%%
+![400](../assets/Excalidraw/AWGN-Kanalmodell%202025-11-16%2020.30.55.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../assets/Excalidraw/AWGN-Kanalmodell%202025-11-16%2020.30.55.excalidraw.md)%%

@@ -93,6 +93,6 @@ Alle Stellen $a_{i}$ werden durch $r-1-a_{i}$ ersetzt
 
 ## Konvertieren zwischen polyadischen Systemen
 
-![400](assets/konvertierungZahlensys.svg)
+![400](../assets/konvertierungZahlensys.svg)
 
 

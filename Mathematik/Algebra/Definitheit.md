@@ -40,4 +40,4 @@ Ermittlung mittels [Hauptminoren](Hauptminoren.md)
 
 ---
 
-[[assets/pdf/definitheit.pdf]]
+[[../../assets/pdf/definitheit.pdf]]

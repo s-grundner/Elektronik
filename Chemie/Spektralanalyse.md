@@ -37,7 +37,7 @@ Violettes/Blaues Licht ist kurzwellig und energiereich.
 ### Prismen-Spektroskop
 
 
->![300](assets/fraunhofer_linien.png)  
+>![300](../assets/fraunhofer_linien.png)  
 > Fraunhofer untersuchte das Sonnenlicht mit einem Prismen-Spektroskop.  
 > Der Physiker beobachtete im Jahr 1814 dunkle Linien im Spektrum des Sonnenlichts. Fraunhofer katalogisierte 570 Fraunhofer-Linien.  
 > Allerdings konnte er das Phänomen noch nicht erklären.
@@ -60,11 +60,11 @@ Sie konnten nachweisen, dass die von Fraunhofer beschriebenen schwarzen D-Linien
 Die beiden Chemiker entwickelten 1859 das erste spektralanalytische Verfahren.  
 Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente Rubidium und Cäsium.
 
-![450](assets/Pasted%20image%2020220825153403.png)
+![450](../assets/Pasted%20image%2020220825153403.png)
 
 ## Absorption Und Emission
 
-![500](assets/EmissionAbsorbtion.png)  
+![500](../assets/EmissionAbsorbtion.png)  
 ![475](assets/absorbtion_emission.png)
 1. Wird einem Atom **Energie zugeführt** (Flamme, Lichtbogen), können Elektronen auf **höhere Energieniveaus** gehoben werden.
 2. Es entsteht ein angeregter Zustand. Er ist nur **kurz** beständig, danach fällt das Elektron wieder in den **Grundzustand** zurück.
@@ -73,7 +73,7 @@ Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente Ru
 
 ### Spektren Typen
 
-![Pasted image 20220825153839](assets/Pasted%20image%2020220825153839.png)  
+![Pasted image 20220825153839](../assets/Pasted%20image%2020220825153839.png)  
 Kontinuierliches Spektrum: Enthält keine diskreten Linien (Banden), da es Licht aller Wellenlängen aufweist.
 
 Emissionsspektrum: Enthält diskrete Linien (daher auch Linien-spektrum) , welche durch den Elektronenübergang von angeregten Atomen in den Grundzustand entstehen.
