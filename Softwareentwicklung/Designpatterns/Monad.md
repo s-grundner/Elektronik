@@ -4,7 +4,6 @@ tags:
 aliases:
   - Monade
 created: 10. November 2024
-cited:
 ---
 
 # Monad

@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 1
@@ -9,9 +9,8 @@ semester: WS23
 created: 18th May 2025
 professor:
   - Andre
-draft: true
 title: Monom
-release: false
+release: true
 ---
 
 # Monome

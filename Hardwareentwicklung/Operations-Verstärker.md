@@ -14,7 +14,7 @@ semester: SS25
 created: 28. Februar 2025
 professor:
   - Timm Ostermann
-draft: false
+release: false
 title: Operations-Verstärker
 ---
  

@@ -1,9 +1,8 @@
 ---
 tags:
   - Rust
-aliases: 
+aliases:
 created: 20th January 2025
-cited:
 ---
 
 # Funktionen

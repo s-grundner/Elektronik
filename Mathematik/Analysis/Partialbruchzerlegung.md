@@ -1,14 +1,13 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 1
 semester: WS23
 created: 4. März 2024
-professor: 
-cited:
+professor:
 ---
  
 

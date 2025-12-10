@@ -13,7 +13,7 @@ semester: WS25
 created: 27th February 2025
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: Modulation
 ---
 

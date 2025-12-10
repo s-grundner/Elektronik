@@ -5,7 +5,7 @@ tags:
   - flashcards/SWE2
 aliases:
   - Kapselung
-keywords: 
+keywords:
 subject:
   - VL
   - Softwareentwicklung 2
@@ -13,7 +13,6 @@ semester: SS24
 created: 29. November 2022
 professor:
   - Herbert Prähofer
-cited:
 ---
  
 

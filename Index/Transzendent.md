@@ -3,7 +3,7 @@ tags:
 aliases:
 created: 5th November 2025
 title: Transzendent
-draft: false
+release: false
 ---
 
 # Transzendent

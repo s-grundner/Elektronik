@@ -14,7 +14,7 @@ semester: WS23
 created: 16th May 2025
 professor:
 title: Sequenzielle Logik
-draft: false
+release: false
 ---
 
 # Sequenzielle Logik

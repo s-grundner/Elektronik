@@ -10,7 +10,7 @@ subject:
 semester: WS24
 created: 11. Oktober 2025
 professor:
-draft: true
+release: true
 title: Bandpass
 ---
 

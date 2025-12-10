@@ -8,7 +8,7 @@ subject:
 semester: SS25
 created: 24th March 2025
 professor:
-draft: false
+release: false
 title: Magnetlager
 ---
 

@@ -8,7 +8,7 @@ subject:
 semester: SS25
 created: 9th May 2025
 professor:
-draft: false
+release: false
 title: Materialgesetz
 ---
 

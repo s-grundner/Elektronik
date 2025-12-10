@@ -10,7 +10,7 @@ subject:
 semester: WS25
 created: 11th November 2025
 professor:
-draft: true
+release: true
 title: Drahtlose Übertragung
 ---
 

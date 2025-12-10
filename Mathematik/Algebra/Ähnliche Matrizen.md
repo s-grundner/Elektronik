@@ -8,7 +8,7 @@ subject:
 semester: SS24
 created: 25. Mai 2025
 professor:
-draft: false
+release: false
 title: Ähnliche Matrizen
 ---
 

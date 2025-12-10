@@ -32,22 +32,22 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](Op
 > 
 > deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale Filter einen idealen Filter nur approximieren. In der Praxis werden die Filtereigenschaften in sog. Durchlass-, Übergangsund Sperrbereichen definiert und in einem Toleranzschema zusammengefasst. Der Verlauf des zu designenden Filters sollte dann innerhalb der definierten Grenzen liegen.
 > 
-> ![invert_dark|800](assets/Pasted%20image%2020241212004843.png)
+> ![invert_dark|800](../assets/Pasted%20image%2020241212004843.png)
 
 ## Filter Charakteristik
 
 1. **Filter mit kritischer Dämpfung**
     - Durch rückwirkungsfreie kaskadierung von Filtern 1. Ordnung erreicht.
     - Abnahme mit $n \cdot 20 \mathrm{~dB} /$ Dekade (mit $n$ der Ordnungszahl) nach der Grenzfrequenz.
-2. **[[Bessel-Filter]]**
+2. **Bessel-Filter**
 3. **[Butterworth](Butterworth%20Filter%20Charakteristik.md)**
 4. **[Tscheybyscheff Typ 1](Tscheybyscheff%20Filter%20Charakteristik.md#Typ%201) Filter**
 5. **[Tscheybyscheff Typ 2](Tscheybyscheff%20Filter%20Charakteristik.md#Typ%202) Filter**
-6. **[[Cauer]](Elliptischer)-Filter**
+6. **Cauer (Elliptischer)-Filter**
 
-| ![invert_dark\|900](assets/Pasted%20image%2020241212005303.png) |
-| :-------------------------------------------------------------: |
-|            Tiefpässe 4. Ordnung verschiedener Arten             |
+| ![invert_dark\|900](../assets/Pasted%20image%2020241212005303.png) |
+| :----------------------------------------------------------------: |
+|              Tiefpässe 4. Ordnung verschiedener Arten              |
 
 ## Übertragungsfunktion
 

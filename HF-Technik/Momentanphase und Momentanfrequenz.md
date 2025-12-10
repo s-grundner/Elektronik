@@ -12,7 +12,7 @@ subject:
 semester: WS25
 created: 15th November 2025
 professor:
-draft: true
+release: true
 title: Momentanphase und Momentanfrequenz
 ---
 

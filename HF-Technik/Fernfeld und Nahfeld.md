@@ -17,7 +17,7 @@ semester: WS25
 created: 16. Oktober 2024
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: Nah- und Fernfeld
 ---
  

@@ -158,7 +158,7 @@ $$\oint_{C_{2}} \mathbf{H}\cdot\mathrm{d}\mathbf{l} = \iint_{S_{2}}\mathbf{J}\cd
 
 | Stromdichte $\mathbf{J}$ Entlang des Leiters                  | Kontur $C_{2}$ Umkreist eine der Platten                                    |
 | ------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![invert_dark\|500](HF-Technik/assets/TEM-Plattenleitung.png) | ![600](assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) |
+| ![invert_dark\|500](assets/TEM-Plattenleitung.png) | ![600](assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) |
 
 - $h$ ist vernachlässigbar klein.
 - $\mathbf{H}$ existiert nur in $x$-Richtung zwischen den Platten und ist in $y$ **konstant**

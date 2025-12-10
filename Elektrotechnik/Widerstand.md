@@ -15,8 +15,6 @@ professor:
 
 # Widerstand als Bauelement
 
-![](assets/WiderstandFarbcode.jpg)
-
 ## Kenngrößen
 
 | Widerstand    | [Ohm](Ohmsches%20Gesetz.md) ($\Omega$)    |

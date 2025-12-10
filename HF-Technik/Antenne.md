@@ -11,7 +11,7 @@ semester: WS25
 created: 23rd October 2025
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: Antenne
 ---
 

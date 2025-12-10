@@ -12,7 +12,7 @@ created: 15th May 2025
 professor:
   - Timm Ostermann
 title: Dualsystem
-draft: false
+release: false
 ---
 
 # Dualsystem

@@ -26,14 +26,14 @@ professor:
 > Dadurch entsteht ein *lokales Ungleichgewicht* an [Ladungen](elektrisches%20Feld.md) wodurch ein elektrisches Zusatzfeld erzeugt wird.
 > - dieses Zusatzfeld wirkt dem äußeren Feld entgegen
 
-![](assets/elektrInfluenz.png)
+![](../Physik/assets/elektrInfluenz.png)
 
 > [!SUCCESS] Die Ladungsschichten am Rand sind so verteilt, dass das durch sie erzeugte Feld das externe Feld im Inneren des Leiters exakt kompensiert  
 > Der gleiche Mechanismus bewirkt auch, dass das elektrische Feld an der Oberfläche von Leitern nie eine Tangentialkomponente hat (Feldlinien immer normal auf die Oberfläche)
 
 ## Faraday Käfig
 
-![Faraday_cage](assets/Faraday_cage.gif)
+![Faraday_cage](../Physik/assets/Faraday_cage.gif)
 
 ## Flashcards
 

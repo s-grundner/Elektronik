@@ -1,14 +1,13 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 16. April 2024
-professor: 
-cited:
+professor:
 ---
  
 

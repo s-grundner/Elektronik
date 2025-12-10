@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Elektronische Systeme 1
 semester: WS25
 created: 2. Dezember 2022
 professor:
-draft: true
+release: true
 title: Amplitudenmodulation
 ---
 
@@ -79,8 +79,8 @@ Im Umkehrschluss gilt, dass ein **komplexwertiges nutzsignal** benötigt werden 
 
 - Wie [hier](HF-Technik/Modulation.md#Frequenzverschiebung) geziegt, äußert sich eine Frequenzverscheibung unter anderem durch eine multiplikation von Winkelfunktionen.
 - Eine Multiplikation im Zeitbereich führt zu einer Faltung im Bildbereich ([Fourier-Rechenregel (xiii)](Systemtheorie/Korrespondenzen/Fourier.md#^T1)).
-- Ein Kosinus $s_{\text{LO}}(t)=\cos(2\pi f_{0}t)$ korrespondiert zu zwei [Dirac-Impulse](Mathematik/Algebra/Delta-Impuls.md) bei der Positiven und negativen frequenz ([Fourier-Korrespondenz (ii)](Systemtheorie/Korrespondenzen/Fourier.md#^T2))
-- Faltung mit einem Dirac Delta wertet das Spektrum des Nutzsignals an seiner Stelle aus ([Abstasteigenschaft](Mathematik/Algebra/Delta-Impuls.md#^ABT))
+- Ein Kosinus $s_{\text{LO}}(t)=\cos(2\pi f_{0}t)$ korrespondiert zu zwei [Dirac-Impulse](../Mathematik/Delta-Impuls.md) bei der Positiven und negativen frequenz ([Fourier-Korrespondenz (ii)](Systemtheorie/Korrespondenzen/Fourier.md#^T2))
+- Faltung mit einem Dirac Delta wertet das Spektrum des Nutzsignals an seiner Stelle aus ([Abstasteigenschaft](../Mathematik/Delta-Impuls.md#^ABT))
 
 ![1000](assets/Excalidraw/Amplitudenmodulation%202025-11-15%2001.57.14.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](assets/Excalidraw/Amplitudenmodulation%202025-11-15%2001.57.14.excalidraw.md)%%

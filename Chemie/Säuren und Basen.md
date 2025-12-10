@@ -39,7 +39,6 @@ $HCl\overset{H_{2}O}{\longrightarrow}H^{+}_{(aq.)}+Cl^{-}_{(aq.)}$
 Durch Wasser wird das $HCl$ [Molekül](Atombindung.md) in Ionen aufgespalten.
 
 Hierbei werden beide Ionen von einer [Hydrathülle](https://studyflix.de/chemie/hydratation-2388) umschlossen. (aq.)  
-![225](Pasted%20image%2020220827035713.png)
 
 ### Neutralisation
 

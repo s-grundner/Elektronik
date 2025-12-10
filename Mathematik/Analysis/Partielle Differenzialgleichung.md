@@ -66,7 +66,7 @@ Bereich indem die Partielle DGL definiert ist:
 
 
 > [!info] Falls kine Zeitvariable vorkommt sind **nur** Randbedingungen möglich
-> ![invert_dark](assets/RB.png)
+> ![invert_dark](../../Digitaltechnik/assets/RB.png)
 
 
 Mit $\nu$ als normalvektor zu den Randwerten aus $\partial\Omega$ mit $\lVert \nu \rVert=1$

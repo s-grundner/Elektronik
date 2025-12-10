@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Lagrange
 keywords:
@@ -11,7 +11,6 @@ semester: SS24
 created: 25. April 2024
 professor:
   - Andreas Neubauer
-cited:
 ---
  
 

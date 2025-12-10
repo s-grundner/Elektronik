@@ -2,9 +2,8 @@
 tags:
   - Interface/Serial/Sync
   - HTL-Diplomarbeit
-aliases: 
+aliases:
 created: 4. September 2023
-cited: true
 ---
 
 # MIDI

@@ -4,7 +4,6 @@ tags:
 aliases:
   - Zertifizierung
 created: 18. September 2024
-cited:
 ---
 
 # Certification

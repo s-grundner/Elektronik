@@ -1,5 +1,5 @@
 ---
-banner: "/assets/banner/MagnField.jpg"
+banner: /assets/banner/MagnField.jpg
 banner_y: 0.676
 tags:
   - MOC
@@ -16,7 +16,7 @@ created: 31. August 2023
 professor:
   - Bernhard Jakoby
   - Wolfgang Gruber
-draft:
+release:
 title: Das Magnetische Feld
 ---
  

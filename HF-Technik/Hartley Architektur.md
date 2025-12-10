@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Elektronische Systeme 1
 semester: WS25
 created: 15th November 2025
 professor:
-draft: true
+release: true
 title: Hartley Architektur
 ---
 

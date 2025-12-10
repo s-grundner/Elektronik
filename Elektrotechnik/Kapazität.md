@@ -14,7 +14,6 @@ professor:
   - Michael Offenhuber
   - Siegbert Schrempf
   - Bernhard Jakoby
-cited: 
 ---
 
 # Der Kondensator - ein Ladungsspeicher
@@ -36,7 +35,7 @@ cited:
 
 | Symbol | ESB                               |
 | ------ | --------------------------------- |
-|        | ![invert_light\|400](cap_esb.png) |
+|        | ![invert_light\|400](../Hardwareentwicklung/assets/cap_esb.png) |
 
 ## Kenngrößen im Kondensator
 
@@ -142,7 +141,7 @@ $$
 ## Realer Kondensator
 
 > [!summary] ESB  
-> ![invert_light|400](assets/cap_esb.png)
+> ![invert_light|400](../Hardwareentwicklung/assets/cap_esb.png)
 > 
 > - $R_{ESR}$: dielektrische und elektrische Verluste
 > - $ESR$: equivalent series resistance

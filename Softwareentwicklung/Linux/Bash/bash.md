@@ -3,7 +3,7 @@ tags:
 aliases:
 created: 6th June 2025
 title: bash
-draft: true
+release: true
 ---
 
 # Bash

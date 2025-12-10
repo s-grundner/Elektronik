@@ -15,7 +15,7 @@ created: 27th February 2025
 professor:
   - Timm Ostermann
 title: Ansteuerlogik
-draft: false
+release: false
 ---
 
 # Ansteuerlogik

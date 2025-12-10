@@ -9,7 +9,7 @@ semester: WS25
 created: 5th November 2025
 professor:
   - Werner Haselmayer
-draft: false
+release: false
 title: Digitale Modulation
 ---
 

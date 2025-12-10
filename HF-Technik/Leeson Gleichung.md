@@ -8,7 +8,7 @@ subject:
 semester: WS25
 created: 15th October 2025
 professor:
-draft: false
+release: false
 title: Leeson Gleichung
 ---
 

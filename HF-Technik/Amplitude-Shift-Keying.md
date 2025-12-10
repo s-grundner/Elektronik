@@ -11,7 +11,7 @@ subject:
 semester: WS25
 created: 5th November 2025
 professor:
-draft: false
+release: false
 title: Amplitude Shift Keying (ASK)
 ---
 
@@ -188,7 +188,7 @@ Die PSD ist hauptsächlich durch der [Pulsformungsfilter](#Pulsformungsfilter) $
 > $$
 
 - $\mu_{A}$ ... Mittelwert der Amplitudenpegel im Symbolalphabet. Ein Symmetrisches Symbolalphabet liefert $\mu_{A}=0$
-- $\delta(f)$ ... Dirac-Distribution, sodass nur eine Spektrallinie an der Frequenz $f$ aufscheint ([Ausblendeigenschaft](Mathematik/Algebra/Delta-Impuls.md#^AUSB))
+- $\delta(f)$ ... Dirac-Distribution, sodass nur eine Spektrallinie an der Frequenz $f$ aufscheint ([Ausblendeigenschaft](../Mathematik/Delta-Impuls.md#^AUSB))
 - $T$ ... Pulsbreite des Rechteckfilters (=Dauer eines Symbols)
 
 Für den [Rechteckpulsfilter](#Rechteckpuls) gilt $\left| G_{\mathrm{T}}(f) \right|^{2} = T\operatorname{sinc}^{2}(fT)$

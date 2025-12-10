@@ -10,7 +10,7 @@ semester: WS25
 created: 23. November 2022
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: Mischer
 ---
 

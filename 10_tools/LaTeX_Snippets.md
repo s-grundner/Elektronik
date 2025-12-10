@@ -6,7 +6,7 @@
 	{trigger: "ssum", replacement: "\\sum\\limits_{ ${0:s \\in C} } }", options: "mA"},
 	{trigger: "dsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:m} } \\sum\\limits_{ ${2:j=1} }^{ ${3:n} }", options: "mA"},
 	{trigger: "lsum", replacement: "\\sum\\limits_{ ${0:i=1} }^{ ${1:n} }", options: "mA"},
-	{trigger: "\\mid\\mid([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
+	{trigger: "\\mid\\mid([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [0](0) }{ \\partial [1](1) } ", options: "rm"},
 	{trigger: "partt", replacement: "\\frac{\\partial $0}{\\partial t}$1", options: "mA"},
 	{trigger: "partx", replacement: "\\frac{\\partial $0}{\\partial x}$1", options: "mA"},
 	{trigger: "ppart", replacement: "\\frac{\\partial $0}{\\partial $1}$2", options: "mA"},
@@ -43,8 +43,8 @@
 	{trigger: "bs", replacement: "\\boldsymbol{$0}$1", options: "m", priority: 1},
 	{trigger: "FF", replacement: "\\mathcal{F}\\{$0\\}$1", options: "mA"},
 	{trigger: "IFF", replacement: "\\mathcal{F}^{-1}\\{$0\\}$1", options: "mA"},
-	{trigger: "([a-zA-Z])cal", replacement: "\\mathcal{[[0]]}", options: "rmA"},
-	{trigger: "([a-zA-Z])frak", replacement: "\\mathfrak{[[0]]}", options: "rmA"},
+	{trigger: "([a-zA-Z])cal", replacement: "\\mathcal{[0](0)}", options: "rmA"},
+	{trigger: "([a-zA-Z])frak", replacement: "\\mathfrak{[0](0)}", options: "rmA"},
 	{trigger: "trf", replacement: "\\circ\\mkern-7px-\\mkern-7px\\bullet", options: "mA", priority: 1},
 	{trigger: "itrf", replacement: "\\bullet\\mkern-7px-\\mkern-7px\\circ", options: "mA", priority: 1},
 	
@@ -102,22 +102,22 @@
 	{trigger: "ome", replacement: "\\omega", options: "mA"},
 	{trigger: "@o", replacement: "\\omega", options: "mA"},
 	{trigger: "@O", replacement: "\\Omega", options: "mA"},
-	{trigger: "([^\\\\])(${GREEK}|${SYMBOL})", replacement: "[[0]]\\[[1]]", options: "rmA", description: "Add backslash before greek letters and symbols"},
+	{trigger: "([^\\\\])(${GREEK}|${SYMBOL})", replacement: "[0](0)\\[1](1)", options: "rmA", description: "Add backslash before greek letters and symbols"},
 
 
 	// Insert space after greek letters and symbols, etc
-	{trigger: "\\\\(${GREEK}|${SYMBOL}|${SHORT_SYMBOL})([A-Za-z])", replacement: "\\[[0]] [[1]]", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) sr", replacement: "\\[[0]]^{2}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) cb", replacement: "\\[[0]]^{3}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) rd", replacement: "\\[[0]]^{$0}$1", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) hat", replacement: "\\hat{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) dot", replacement: "\\dot{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) bar", replacement: "\\bar{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) vec", replacement: "\\vec{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) tilde", replacement: "\\tilde{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}|${SYMBOL}) und", replacement: "\\underline{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}),\\.", replacement: "\\boldsymbol{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK})\\.,", replacement: "\\boldsymbol{\\[[0]]}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}|${SHORT_SYMBOL})([A-Za-z])", replacement: "\\[0](0) [1](1)", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) sr", replacement: "\\[0](0)^{2}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) cb", replacement: "\\[0](0)^{3}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) rd", replacement: "\\[0](0)^{$0}$1", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) hat", replacement: "\\hat{\\[0](0)}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) dot", replacement: "\\dot{\\[0](0)}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) bar", replacement: "\\bar{\\[0](0)}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) vec", replacement: "\\vec{\\[0](0)}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) tilde", replacement: "\\tilde{\\[0](0)}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}) und", replacement: "\\underline{\\[0](0)}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}),\\.", replacement: "\\boldsymbol{\\[0](0)}", options: "rmA"},
+	{trigger: "\\\\(${GREEK})\\.,", replacement: "\\boldsymbol{\\[0](0)}", options: "rmA"},
 
 
 	// Operations
@@ -139,20 +139,20 @@
 	{trigger: "re", replacement: "\\mathrm{Re}", options: "m"},
 	{trigger: "im", replacement: "\\mathrm{Im}", options: "m"},
 
-	{trigger: "([a-zA-Z]),\\.", replacement: "\\mathbf{[[0]]}", options: "rmA"},
-	{trigger: "([a-zA-Z])\\.,", replacement: "\\mathbf{[[0]]}", options: "rmA"},
-	{trigger: "([A-Za-z])(\\d)", replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto letter subscript", priority: -1},
-	{trigger: "([A-Za-z])_(\\d\\d)", replacement: "[[0]]_{[[1]]}", options: "rmA"},
-	{trigger: "\\hat{([A-Za-z])}(\\d)", replacement: "hat{[[0]]}_{[[1]]}", options: "rmA"},
-	{trigger: "\\\\mathbf{([A-Za-z])}(\\d)", replacement: "\\mathbf{[[0]]}_{[[1]]}", options: "rmA"},
-	{trigger: "\\\\vec{([A-Za-z])}(\\d)", replacement: "\\vec{[[0]]}_{[[1]]}", options: "rmA"},
-	{trigger: "([a-zA-Z])bar", replacement: "\\bar{[[0]]}", options: "rmA"},
-	{trigger: "([a-zA-Z])hat", replacement: "\\hat{[[0]]}", options: "rmA"},
-	{trigger: "([a-zA-Z])ddot", replacement: "\\ddot{[[0]]}", options: "rmA", priority: 3},
-	{trigger: "([a-zA-Z])dot", replacement: "\\dot{[[0]]}", options: "rmA", priority: 1},
-	{trigger: "([a-zA-Z])vec", replacement: "\\vec{[[0]]}", options: "rmA"},
-	{trigger: "([a-zA-Z])tilde", replacement: "\\tilde{[[0]]}", options: "rmA"},
-	{trigger: "([a-zA-Z])und", replacement: "\\underline{[[0]]}", options: "rmA"},
+	{trigger: "([a-zA-Z]),\\.", replacement: "\\mathbf{[0](0)}", options: "rmA"},
+	{trigger: "([a-zA-Z])\\.,", replacement: "\\mathbf{[0](0)}", options: "rmA"},
+	{trigger: "([A-Za-z])(\\d)", replacement: "[0](0)_{[1](1)}", options: "rmA", description: "Auto letter subscript", priority: -1},
+	{trigger: "([A-Za-z])_(\\d\\d)", replacement: "[0](0)_{[1](1)}", options: "rmA"},
+	{trigger: "\\hat{([A-Za-z])}(\\d)", replacement: "hat{[0](0)}_{[1](1)}", options: "rmA"},
+	{trigger: "\\\\mathbf{([A-Za-z])}(\\d)", replacement: "\\mathbf{[0](0)}_{[1](1)}", options: "rmA"},
+	{trigger: "\\\\vec{([A-Za-z])}(\\d)", replacement: "\\vec{[0](0)}_{[1](1)}", options: "rmA"},
+	{trigger: "([a-zA-Z])bar", replacement: "\\bar{[0](0)}", options: "rmA"},
+	{trigger: "([a-zA-Z])hat", replacement: "\\hat{[0](0)}", options: "rmA"},
+	{trigger: "([a-zA-Z])ddot", replacement: "\\ddot{[0](0)}", options: "rmA", priority: 3},
+	{trigger: "([a-zA-Z])dot", replacement: "\\dot{[0](0)}", options: "rmA", priority: 1},
+	{trigger: "([a-zA-Z])vec", replacement: "\\vec{[0](0)}", options: "rmA"},
+	{trigger: "([a-zA-Z])tilde", replacement: "\\tilde{[0](0)}", options: "rmA"},
+	{trigger: "([a-zA-Z])und", replacement: "\\underline{[0](0)}", options: "rmA"},
 	{trigger: "bar", replacement: "\\bar{$0}$1", options: "mA"},
 	{trigger: "hat", replacement: "\\hat{$0}$1", options: "mA"},
 	{trigger: "dot", replacement: "\\dot{$0}$1", options: "mA"},
@@ -162,10 +162,10 @@
 	{trigger: "tilde", replacement: "\\tilde{$0}$1", options: "mA"},
 	{trigger: "und", replacement: "\\underline{$0}$1", options: "mA"},
 
-	{trigger: "([^\\\\])(arcsin|arccos|arctan|arccot|arccsc|arcsec|sin|cos|tan|cot|csc|sec)", replacement: "[[0]]\\[[1]]", options: "rmA"},
-	{trigger: "\\\\(arcsin|arccos|arctan|arccot|arccsc|arcsec|sin|cos|tan|cot|csc|sec)([A-Za-gi-z])", replacement: "\\[[0]] [[1]]", options: "rmA"}, // Insert space after trig funcs. Skips letter "h" to allow sinh, cosh, etc.
-	{trigger: "\\\\(arcsinh|arccosh|arctanh|arccoth|arcsch|arcsech|sinh|cosh|tanh|coth|csch|sech)([A-Za-z])", replacement: "\\[[0]] [[1]]", options: "rmA"}, // Insert space after trig funcs
-	{trigger: "\\\\(neq|geq|leq|gg|ll|sim)([0-9]+)", replacement: "\\[[0]] [[1]]", options: "rmA"}, // Insert space after inequality symbols
+	{trigger: "([^\\\\])(arcsin|arccos|arctan|arccot|arccsc|arcsec|sin|cos|tan|cot|csc|sec)", replacement: "[0](0)\\[1](1)", options: "rmA"},
+	{trigger: "\\\\(arcsin|arccos|arctan|arccot|arccsc|arcsec|sin|cos|tan|cot|csc|sec)([A-Za-gi-z])", replacement: "\\[0](0) [1](1)", options: "rmA"}, // Insert space after trig funcs. Skips letter "h" to allow sinh, cosh, etc.
+	{trigger: "\\\\(arcsinh|arccosh|arctanh|arccoth|arcsch|arcsech|sinh|cosh|tanh|coth|csch|sech)([A-Za-z])", replacement: "\\[0](0) [1](1)", options: "rmA"}, // Insert space after trig funcs
+	{trigger: "\\\\(neq|geq|leq|gg|ll|sim)([0-9]+)", replacement: "\\[0](0) [1](1)", options: "rmA"}, // Insert space after inequality symbols
 
 
 	// Visual operations
@@ -185,8 +185,8 @@
 	{trigger: "sum", replacement: "\\sum", options: "mA"},
 	{trigger: "prod", replacement: "\\prod", options: "mA"},
 	{trigger: "lim", replacement: "\\lim_{ ${0:n} \\to ${1:\\infty} } $2", options: "mA"},
-	{trigger: "([^\\\\])pm", replacement: "[[0]]\\pm", options: "rm"},
-	{trigger: "([^\\\\])mp", replacement: "[[0]]\\mp", options: "rm"},
+	{trigger: "([^\\\\])pm", replacement: "[0](0)\\pm", options: "rm"},
+	{trigger: "([^\\\\])mp", replacement: "[0](0)\\mp", options: "rm"},
 	{trigger: "+-", replacement: "\\pm", options: "mA"},
 	{trigger: "-+", replacement: "\\mp", options: "mA"},
 	{trigger: "...", replacement: "\\dots", options: "mA"},
@@ -267,11 +267,11 @@
 	{trigger: "par", replacement: "\\frac{ \\partial ${0:y} }{ \\partial ${1:x} } $2", options: "m"},
 	{trigger: "pa2", replacement: "\\frac{ \\partial^{2} ${0:y} }{ \\partial ${1:x}^{2} } $2", options: "mA"},
 	{trigger: "pa3", replacement: "\\frac{ \\partial^{3} ${0:y} }{ \\partial ${1:x}^{3} } $2", options: "mA"},
-	{trigger: "pa([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"},
-	{trigger: "pa([A-Za-z])([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial^{2} [[0]] }{ \\partial [[1]] \\partial [[2]] } ", options: "rm"},
-	{trigger: "pa([A-Za-z])([A-Za-z])2", replacement: "\\frac{ \\partial^{2} [[0]] }{ \\partial [[1]]^{2} } ", options: "rmA"},
-	{trigger: "de([A-Za-z])([A-Za-z])", replacement: "\\frac{ d[[0]] }{ d[[1]] } ", options: "rm"},
-	{trigger: "de([A-Za-z])([A-Za-z])2", replacement: "\\frac{ d^{2}[[0]] }{ d[[1]]^{2} } ", options: "rmA"},
+	{trigger: "pa([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [0](0) }{ \\partial [1](1) } ", options: "rm"},
+	{trigger: "pa([A-Za-z])([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial^{2} [0](0) }{ \\partial [1](1) \\partial [2](2) } ", options: "rm"},
+	{trigger: "pa([A-Za-z])([A-Za-z])2", replacement: "\\frac{ \\partial^{2} [0](0) }{ \\partial [1](1)^{2} } ", options: "rmA"},
+	{trigger: "de([A-Za-z])([A-Za-z])", replacement: "\\frac{ d[0](0) }{ d[1](1) } ", options: "rm"},
+	{trigger: "de([A-Za-z])([A-Za-z])2", replacement: "\\frac{ d^{2}[0](0) }{ d[1](1)^{2} } ", options: "rmA"},
 	{trigger: "ddt", replacement: "\\frac{d}{dt} ", options: "mA"},
 
 
@@ -300,8 +300,8 @@
 	{trigger: "bra", replacement: "\\bra{$0} $1", options: "mA"},
 	{trigger: "ket", replacement: "\\ket{$0} $1", options: "mA"},
 	{trigger: "brk", replacement: "\\braket{ $0 | $1 } $2", options: "mA"},
-	{trigger: "\\\\bra{([^|]+)\\|", replacement: "\\braket{ [[0]] | $0 ", options: "rmA", description: "Convert bra into braket"},
-	{trigger: "\\\\bra{(.+)}([^ ]+)>", replacement: "\\braket{ [[0]] | $0 ", options: "rmA", description: "Convert bra into braket (alternate)"},
+	{trigger: "\\\\bra{([^|]+)\\|", replacement: "\\braket{ [0](0) | $0 ", options: "rmA", description: "Convert bra into braket"},
+	{trigger: "\\\\bra{(.+)}([^ ]+)>", replacement: "\\braket{ [0](0) | $0 ", options: "rmA", description: "Convert bra into braket (alternate)"},
 	{trigger: "outp", replacement: "\\ket{${0:\\psi}} \\bra{${0:\\psi}} $1", options: "mA"},
 
 

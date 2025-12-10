@@ -4,7 +4,7 @@ tags:
   - Analysis/Integrieren
 aliases:
   - Quadraturformel
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
@@ -12,7 +12,6 @@ semester: SS24
 created: 11. Juni 2024
 professor:
   - Andreas Neubauer
-cited:
 ---
  
 

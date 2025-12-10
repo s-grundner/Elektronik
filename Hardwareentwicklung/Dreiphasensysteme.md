@@ -25,7 +25,7 @@ Wicklungen auf der Erzeugerseite als Spannungsquellen.
 L1, L2 und L3 -> Phasen
 N Neutralleiter
 
-![[Pasted image 20240415110432.png|375]]
+![[assets/Pasted image 20240415110432.png|375]]
 
 ### Zeiger Diagramm
 

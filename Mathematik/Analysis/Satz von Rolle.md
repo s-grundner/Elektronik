@@ -3,7 +3,7 @@ tags:
   - Analysis/Differenzieren
 aliases:
   - Rolle
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
@@ -11,7 +11,6 @@ semester: SS24
 created: 11. April 2024
 professor:
   - Andreas Neubauer
-cited:
 ---
  
 

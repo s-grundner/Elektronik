@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Bodediagramm
   - Bode Diagramm
-keywords: 
+keywords:
 subject:
   - VL
   - Regelungstechnik
@@ -12,9 +12,8 @@ semester: SS25
 created: 16th May 2025
 professor:
   - Markus Schöberl
-draft: true
 title: Bode Plot
-release: false
+release: true
 ---
 
 # Bode Plot

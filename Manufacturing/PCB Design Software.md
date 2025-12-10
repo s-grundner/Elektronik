@@ -1,10 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - ECAD
   - CAM
 created: 8. November 2024
-cited:
 ---
 
 # PCB Design Software

@@ -1,8 +1,7 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 13. Dezember 2024
-cited:
 ---
 
 # Wolfram Mathematica

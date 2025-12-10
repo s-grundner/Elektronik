@@ -6,7 +6,7 @@ aliases:
   - Spulen
   - Induktivitäten
   - Henry
-keywords: 
+keywords:
 subject:
   - VL
   - Elektrotechnik
@@ -16,7 +16,6 @@ created: 8th April 2022
 professor:
   - Bernhard Jakoby
   - Wolfgang Gruber
-cited:
 ---
  
 
@@ -26,7 +25,7 @@ cited:
 
 | Symbol                                               | reales ESB                           |
 | ---------------------------------------------------- | ------------------------------------ |
-| ![invert_light](Hardwareentwicklung/assets/indu.png) | ![invert_light](assets/indu-esb.png) |
+| ![invert_light](../Hardwareentwicklung/assets/indu.png) | ![invert_light](../Hardwareentwicklung/assets/indu-esb.png) |
 
 ## Kenngrößen der Induktivität
 
@@ -136,13 +135,13 @@ $$
 Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physik/Lenzsche%20Regel.md)).
 
 
-![indu-pulse](assets/indu-pulse.png)
+![indu-pulse](../Hardwareentwicklung/assets/indu-pulse.png)
 
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
 | Einschaltvorgang einer Induktivität    | Abschaltvorgang einer Induktivität     |
 | :--------------------------------------: | :--------------------------------------: |
-| ![indu-einsch](assets/indu-einsch.png) | ![indu-aussch](assets/indu-aussch.png) |
+| ![indu-einsch](../Hardwareentwicklung/assets/indu-einsch.png) | ![indu-aussch](../Hardwareentwicklung/assets/indu-aussch.png) |
 | #todo                                  | #todo                                  |
 
 ---

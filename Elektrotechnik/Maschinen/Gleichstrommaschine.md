@@ -18,7 +18,7 @@ subject:
 semester: SS25
 created: 3. März 2025
 professor:
-draft: false
+release: false
 title: Gleichstrommaschine
 banner: /Elektrotechnik/Maschinen/assets/DCM.png
 banner_y: 0.724

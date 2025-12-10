@@ -44,7 +44,7 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 
 ## Piezoresistiver Geber
 
-![InlineR|425](piezoresistivergeber.png) Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
+![InlineR|425](assets/piezoresistivergeber.png) Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
 Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
 
  - Die Membrane muss gasdicht sein.

@@ -9,7 +9,7 @@ subject:
 semester: WS25
 created: 10th November 2023
 professor:
-draft: true
+release: true
 title: Friisgleichung
 ---
 

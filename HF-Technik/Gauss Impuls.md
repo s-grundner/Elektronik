@@ -10,7 +10,7 @@ subject:
 semester: WS25
 created: 17th November 2025
 professor:
-draft: true
+release: true
 title: Gauss-Puls
 ---
 

@@ -146,7 +146,7 @@ Edle [Metalle](Metallbindung.md): efließen von Wasserstoffhalbzelle zum edlen [
 | $Zn \longrightarrow Zn^{2+} + 2e^{-}$                                                         | $Cu^{2+} + 2e^{-} \longrightarrow Cu$                                                           | $Cu\|Zn$                 |  
 | $U = -0.76V$                                                                                  | $U = +0.35V$                                                                                    | $U = +1.11V$             | 
 
-![Standard-Wasserstoffelektrode](Pasted%20image%2020220912200913.png)
+%% ![Standard-Wasserstoffelektrode](Pasted%20image%2020220912200913.png) %%
 
 Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektrochemische%20Spannungsreihe.md) aufstellen.
 

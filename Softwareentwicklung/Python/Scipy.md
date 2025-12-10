@@ -1,8 +1,7 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 7. Januar 2025
-cited:
 ---
 
 # Scipy

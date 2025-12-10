@@ -11,7 +11,7 @@ semester: SS25
 created: 7th May 2025
 professor:
   - Andreas Stelzer
-draft: true
+release: true
 title: q-Transformation
 ---
 

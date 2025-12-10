@@ -9,7 +9,7 @@ semester: WS25
 created: 31st August 2023
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: Isotroper Kugelstrahler
 ---
 

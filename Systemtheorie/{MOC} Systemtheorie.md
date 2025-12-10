@@ -14,7 +14,7 @@ semester: SS25
 created: 11th March 2025
 professor:
   - Andreas Stelzer 🕊️
-draft: true
+release: true
 title: Systemtheorie
 ---
  

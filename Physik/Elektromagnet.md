@@ -49,7 +49,7 @@ Drei Relevante Elektromagnet-Grundformen:
 
 |             Topfmagnet              |             U-Magnet              | E-Magnet                        |
 | :---------------------------------: | :-------------------------------: | :-----------------------------: |
-| ![invert_dark](./assets/TopfEM.png) | ![invert_dark](./assets/U_EM.png) | ![invert_dark](assets/E_EM.png) |
+| ![invert_dark](assets/TopfEM.png) | ![invert_dark](assets/U_EM.png) | ![invert_dark](assets/E_EM.png) |
 
 Ziel ist der Entwurf von EM mit verschiedenen **Magnetkraft-Hub** Kennlinien entsprechend der Anwendung. Durch Modifikationen der Grundformen komplexere Magnetkreise erstellbar.
 

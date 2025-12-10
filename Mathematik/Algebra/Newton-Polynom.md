@@ -3,14 +3,13 @@ tags:
   - Numerik
 aliases:
   - dividierte Differenz
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 27. Juni 2024
-professor: 
-cited:
+professor:
 ---
  
 

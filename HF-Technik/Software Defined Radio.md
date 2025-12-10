@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Elektronische Systeme 1
 semester: WS25
 created: 21st November 2022
 professor:
-draft: true
+release: true
 title: Software Defined Radio
 ---
 

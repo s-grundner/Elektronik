@@ -109,4 +109,3 @@ Aus der starken Anziehungskraft zwischen Anionen und Kationen resultiert eine Gi
 
 # Tags
 
-![Pasted image 20220903150525.png](Pasted%20image%2020220903150525.png)

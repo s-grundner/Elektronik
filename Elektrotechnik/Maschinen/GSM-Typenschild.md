@@ -8,7 +8,7 @@ subject:
 semester: SS25
 created: 1st May 2025
 professor:
-draft: false
+release: false
 title: GSM-Typenschild
 ---
 

@@ -17,7 +17,7 @@ semester: WS24
 created: 14. Oktober 2024
 professor:
 title: Grundgatter
-draft: false
+release: false
 ---
 
 # Grundgatter

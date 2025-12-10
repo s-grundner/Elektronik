@@ -1,16 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Definition 10.23
   - Satz 10.25
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
 semester: WS23
 created: 17. April 2024
-professor: 
-cited:
+professor:
 ---
  
 

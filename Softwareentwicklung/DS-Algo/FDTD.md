@@ -36,7 +36,7 @@ Wird zur Berechnung der Lösung von den [Maxwell](../../Elektrotechnik/Maxwell.m
 
 FDTD: Der Raum indem sich die EM-Welle Ausbreitet wird mit einem Gitter Diskretisiert (Yee-Gitter):
 
-![invert_dark](assets/Pasted%20image%2020250116195649.png)
+![invert_dark](../assets/Pasted%20image%2020250116195649.png)
 
 Durch die dualität, dass der Rotor eines Feldes die Zeitliche Änderung des Anderen Feldes Beschreibt, lässt sich das Gitter Iterativ ergänzen:
 

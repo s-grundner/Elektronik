@@ -1,15 +1,14 @@
 ---
 tags:
   - Java
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Softwareentwicklung 2
 semester: SS24
 created: 22. Mai 2024
-professor: 
-cited:
+professor:
 ---
  
 

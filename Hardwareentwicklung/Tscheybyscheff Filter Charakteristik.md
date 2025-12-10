@@ -10,7 +10,7 @@ subject:
 semester: WS24
 created: 12. Dezember 2024
 professor:
-draft: false
+release: false
 title: Tschebyscheff Filter Charakteristik
 ---
  

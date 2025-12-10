@@ -14,7 +14,7 @@ professor:
   - Timm Ostermann
   - Michael Lunglmayr
 title: Kombinatorische Logik
-draft: false
+release: false
 ---
 
 # Kombinatorische Logik

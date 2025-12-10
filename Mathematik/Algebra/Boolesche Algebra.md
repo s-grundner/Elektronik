@@ -12,7 +12,7 @@ semester: WS23
 created: 27th February 2025
 professor:
 title: Boolesche Algebra
-draft: true
+release: true
 ---
 
 # Boolesche Algebra

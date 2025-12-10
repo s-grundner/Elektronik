@@ -13,7 +13,7 @@ professor:
   - Andreas Neubauer
 semester: WS23
 created: 27th February 2025
-draft: false
+release: false
 title: Lineare Algebra
 ---
  

@@ -1,9 +1,8 @@
 ---
 tags:
   - Product-Development
-aliases: 
+aliases:
 created: 19. September 2024
-cited:
 ---
 
 # Elektronik Produktentwicklung

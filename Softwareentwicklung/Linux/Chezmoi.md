@@ -4,7 +4,7 @@ aliases:
   - dotfiles
 created: 27. April 2025
 title:
-draft: true
+release: true
 ---
 
 # Dotfiles mit chezmoi verwalten

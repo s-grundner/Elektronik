@@ -1,15 +1,14 @@
 ---
-tags: 
+tags:
 aliases: []
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
   - Elektrotechnik
 semester: SS24
 created: 10. Juni 2024
-professor: 
-cited:
+professor:
 ---
 
 # Vektorfelder

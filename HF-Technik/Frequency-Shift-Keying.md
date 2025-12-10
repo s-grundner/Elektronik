@@ -13,7 +13,7 @@ semester: WS25
 created: 5th November 2025
 professor:
   - Werner Haselmayer
-draft: true
+release: true
 title: Frequency Shift Keying (FSK)
 ---
 

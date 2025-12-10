@@ -3,7 +3,7 @@ tags:
 aliases:
 created: 8th November 2025
 title: Idempotent
-draft: true
+release: true
 ---
 
 # Idempotenz

@@ -49,7 +49,7 @@ professor:
 
 |                           Bode Diagramm                           |                    Ortskurve                    |
 | :---------------------------------------------------------------: | :---------------------------------------------: |
-| ![invert_dark\|600](/Hardwareentwicklung/assets/59_SallenKey.png) | ![invert_dark](assets/Sallen_Key_Ortskurve.png) |
+| ![invert_dark\|600](../assets/59_SallenKey.png) | ![invert_dark](../assets/Sallen_Key_Ortskurve.png) |
 
 <center><a href="Scripts/mathematica/SallenKey.nb" class="internal-link">📈Mathematica Notebook</a></center>
 

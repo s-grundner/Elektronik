@@ -72,8 +72,6 @@ Es gibt 7 Stk.
 
 ## Energieniveauschema Zur Orbitalbesetzung
 
-![650](Pasted%20image%2020220826201819.png)  
-![Pasted image 20220904112819.png](Pasted%20image%2020220904112819.png)
 
 ## Schreibweise Der Elektronen Konfiguration
 

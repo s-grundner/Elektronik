@@ -19,7 +19,7 @@ professor:
 
 | Schaltung                                       | Rechung                                                    |
 | ----------------------------------------------- | ---------------------------------------------------------- |
-| ![](../Hardwareentwicklung/assets/BelasteterSpgTeiler.png) | ![[assets/Ohmsches Gesetz 2024-01-18 22.37.14.excalidraw]] |
+| ![](../Hardwareentwicklung/assets/BelasteterSpgTeiler.png) | ![[../Hardwareentwicklung/assets/Ohmsches Gesetz 2024-01-18 22.37.14.excalidraw]] |
 
 ## Frequenzkompensierter Spannungsteiler
 

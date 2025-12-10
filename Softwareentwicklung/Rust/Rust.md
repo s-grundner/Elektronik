@@ -1,9 +1,8 @@
 ---
 tags:
   - Rust
-aliases: 
+aliases:
 created: 2. August 2024
-cited:
 ---
 
 # Rust Programming Language

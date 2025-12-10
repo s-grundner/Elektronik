@@ -15,8 +15,7 @@ professor:
   - Andreas Stelzer
 subject:
   - Signale und Systeme
-cited: true
-banner: "/assets/banner/SUSBanner.png"
+banner: /assets/banner/SUSBanner.png
 banner_y: 0.8625
 ---
 

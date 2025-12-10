@@ -1,8 +1,8 @@
 ---
 tags:
   - Baugruppe/Filter
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Elektrotechnik
@@ -10,7 +10,6 @@ semester: SS24
 created: 22. Januar 2024
 professor:
   - Andreas Springer
-cited:
 ---
  
 

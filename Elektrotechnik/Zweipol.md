@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Elektrotechnik
@@ -9,7 +9,6 @@ semester: SS24
 created: 8. April 2024
 professor:
   - Andreas Springer
-cited:
 ---
  
 

@@ -69,7 +69,7 @@ Ist ein lineares, zeitinvariantes System $\mathcal{T}\{\cdot\}$ mit dem Eingangs
 
 ### Impulsantwort
 
-Es wird dazu die Antwort eines Systems auf die Impulsfunktion ([Dirac-Distribution](../Mathematik/Algebra/Delta-Impuls.md)) $\delta(t)$ am Eingang betrachtet.
+Es wird dazu die Antwort eines Systems auf die Impulsfunktion ([Dirac-Distribution](../Mathematik/Delta-Impuls.md)) $\delta(t)$ am Eingang betrachtet.
 
 $$x(t) = \delta(t) \quad \implies \quad y(t) = \mathcal{T\{\cdot\}} = h(t)$$
 

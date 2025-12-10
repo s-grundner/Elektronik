@@ -1,9 +1,8 @@
 ---
 tags:
   - Altium
-aliases: 
+aliases:
 created: 8. November 2024
-cited:
 ---
 
 # Schematic Sheets

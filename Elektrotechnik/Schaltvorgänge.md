@@ -1,19 +1,18 @@
 ---
-tags: 
+tags:
 aliases:
   - Umschaltvorgänge
   - Schaltvorgang
   - einschalten
   - umschalten
   - Schaltvorgang
-keywords: 
+keywords:
 subject:
   - VL
   - Elektrotechnik
 semester: SS24
 created: 22. April 2024
-professor: 
-cited:
+professor:
 ---
  
 

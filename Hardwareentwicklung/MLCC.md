@@ -3,7 +3,7 @@ tags:
 aliases:
 created: 19th June 2025
 title: MLCC
-draft: false
+release: false
 ---
 
 # Vielschichtkondensatoren - MLCC

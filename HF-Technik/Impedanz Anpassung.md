@@ -33,7 +33,7 @@ professor:
 
 ## Abschlussimpedanz
 
-![TL_QundS](../HF-Technik/assets/TL_QundS.png)
+![TL_QundS](assets/TL_QundS.png)
 
 > [!IMPORTANT] Für hochfrequente Logik-Signale (elektrisch kurz im vergleich zur Flankenanstiegszeit) führen Fehlanpassungen an einer der Impedanzen $Z_{S}$, $Z_{0}$ bzw. $Z_{L}$ zu Reflexionen.  
 > Probleme:

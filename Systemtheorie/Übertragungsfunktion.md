@@ -3,7 +3,7 @@ tags:
   - Schaltungsanalyse
 aliases:
   - Frequenzgang
-keywords: 
+keywords:
 subject:
   - VL
   - Regelungstechnik
@@ -14,7 +14,6 @@ professor:
   - Andreas Springer
 release: false
 title: Übertragungsfunktion
-cited:
 ---
 
 # Übertragungsfunktion

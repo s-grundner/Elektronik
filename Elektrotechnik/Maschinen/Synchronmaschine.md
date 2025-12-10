@@ -9,7 +9,7 @@ semester: SS25
 created: 3. März 2025
 professor:
   - Wolfgang Gruber
-draft: false
+release: false
 title: Synchronmaschine
 ---
  

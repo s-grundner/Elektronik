@@ -36,7 +36,7 @@ Violettes/Blaues Licht ist kurzwellig und energiereich.
 
 ### Prismen-Spektroskop
 
-![325](Pasted%20image%2020220825152529.png)
+
 >![300](assets/fraunhofer_linien.png)  
 > Fraunhofer untersuchte das Sonnenlicht mit einem Prismen-Spektroskop.  
 > Der Physiker beobachtete im Jahr 1814 dunkle Linien im Spektrum des Sonnenlichts. Fraunhofer katalogisierte 570 Fraunhofer-Linien.  

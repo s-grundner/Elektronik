@@ -11,7 +11,7 @@ semester: WS25
 created: 27th February 2025
 professor:
   - Andreas Springer
-draft: true
+release: true
 title: Informationsgehalt
 ---
 

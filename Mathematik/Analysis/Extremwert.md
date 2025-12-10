@@ -10,14 +10,13 @@ aliases:
   - Konkav
   - Satz 11.57
   - Satz 11.56
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 2. Oktober 2023
-professor: 
-cited:
+professor:
 ---
  
 

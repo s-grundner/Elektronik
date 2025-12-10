@@ -1,6 +1,6 @@
 ---
 tags: Informationstheorie
-aliases: 
+aliases:
 keywords: $F$
 subject:
   - KV
@@ -8,7 +8,7 @@ subject:
 semester: WS25
 created: 27th February 2025
 professor:
-draft: true
+release: true
 title: Informationsfluss
 ---
 

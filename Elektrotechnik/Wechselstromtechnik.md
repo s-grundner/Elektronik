@@ -6,7 +6,7 @@ aliases:
   - komplexer Zeiger
   - Zeigerdiagramme
   - Phasor
-keywords: 
+keywords:
 subject:
   - Einführung Elektrotechnik
   - Elektrotechnik
@@ -16,7 +16,6 @@ created: 7. April 2024
 professor:
   - Andreas Springer
   - Bernhard Jakoby
-cited:
 ---
  
 
@@ -73,7 +72,7 @@ Wichtig ist es, keine konventionen zu Verischen.
 > [!success] Diese Konvention hat keinen Einfluss auf die Berechnung des Netzwerks, hat aber einen Vorteil:
 > 
 > Wenn man eine Gleichspannung äquivalent zum Effektivwert an einen Widerstand anhängt Ist die Leistung des Gleichstromnetzwerks genauso groß wie die Mittlere Leistung des Wechselstromnetzwerks. 
-> - Faktor $\sqrt{ 2 }$ kommt vom [Quadratischen Mittelwert](Quadratischer%20Mittelwert.md)
+> - Faktor $\sqrt{ 2 }$ kommt vom Quadratischen Mittelwert
 
 ## Inversion von Zeigern
 

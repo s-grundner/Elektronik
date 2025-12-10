@@ -18,7 +18,7 @@ professor:
 
 # Leitergeometrien von HF-Leitungen
 
-> [!success] Die [charakteristische Impedanz](Leitungswellenwiderstand.md) $Z_{0}$ beschreibt unter anderem die Geometrie einer Leitung
+> [!success] Die charakteristische Impedanz $Z_{0}$ beschreibt unter anderem die Geometrie einer Leitung
 > Man muss daher nicht immer die Maxwellgleichungen für eine Leitungsgeometrie lösen, sondern kann mit der charateristischen Impedanz 
 
 ## TEM - Transversale EM Mode

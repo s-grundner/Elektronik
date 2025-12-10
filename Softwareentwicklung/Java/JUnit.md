@@ -1,15 +1,14 @@
 ---
 tags:
   - flashcards/SWE2
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Softwareentwicklung 2
 semester: SS24
 created: 11. April 2024
-professor: 
-cited:
+professor:
 ---
  
 

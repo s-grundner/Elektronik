@@ -4,7 +4,7 @@ tags:
 aliases:
   - Composite
   - Kompositum
-keywords: 
+keywords:
 subject:
   - Softwareentwicklung 2
   - VL
@@ -12,7 +12,6 @@ semester: SS24
 created: 11. April 2024
 professor:
   - Markus Weninger
-cited:
 ---
  
 

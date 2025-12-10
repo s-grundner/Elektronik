@@ -4,7 +4,6 @@ tags:
 aliases:
   - Einheitskreis
 created: 11. Oktober 2024
-cited:
 ---
 
 # Kreis

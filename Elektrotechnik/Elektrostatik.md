@@ -1,14 +1,13 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Elektrotechnik
   - VL
 semester: SS24
 created: 3. Juni 2024
-professor: 
-cited:
+professor:
 ---
  
 

@@ -1,14 +1,13 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Elektrotechnik
 semester: WS23
 created: 18. April 2023
-professor: 
-cited:
+professor:
 ---
  
 

@@ -89,7 +89,7 @@ $$
 
 - Überlegung zu [Linienladung](Linienladung.md)
 - Überlegung zu [Flächenladung](Flächenladung.md)
-- Überlegung zu [[Kugelförmige Flächenladung]]
+- Überlegung zu Kugelförmige Flächenladung
 
 > [!EXAMPLE]- Stromfluss in Leitern  
 > ![](assets/AufgabeLeitfaehigkeit.png)

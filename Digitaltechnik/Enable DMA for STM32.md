@@ -1,9 +1,8 @@
 ---
 tags:
   - linker
-aliases: 
+aliases:
 created: 22. Juni 2024
-cited:
 ---
 
 # Enable DMA for STM32

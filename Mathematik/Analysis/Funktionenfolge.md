@@ -1,16 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Punktweise Konvergenz
   - Gleichmäßige Konvergenz
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 11. Juni 2024
-professor: 
-cited:
+professor:
 ---
  
 

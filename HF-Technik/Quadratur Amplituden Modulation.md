@@ -10,7 +10,7 @@ semester: WS25
 created: 25th August 2023
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: Quadratur Amplituden Modulation
 ---
 

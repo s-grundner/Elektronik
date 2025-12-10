@@ -10,7 +10,7 @@ subject:
 semester: SS25
 created: 28. Juni 2025
 professor:
-draft: false
+release: false
 title: VFD
 ---
 

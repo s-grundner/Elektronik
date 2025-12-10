@@ -9,7 +9,7 @@ semester: WS25
 created: 15th November 2025
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: Antennenwirkfläche
 ---
 

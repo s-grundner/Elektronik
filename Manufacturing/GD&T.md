@@ -1,8 +1,7 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 11. November 2024
-cited:
 ---
 
 # Geometric Dimension & Tolerance

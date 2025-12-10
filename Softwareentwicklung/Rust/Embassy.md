@@ -2,9 +2,8 @@
 tags:
   - Rust
   - Embedded
-aliases: 
+aliases:
 created: 11. Januar 2025
-cited:
 ---
 
 # [Embassy](https://embassy.dev/)

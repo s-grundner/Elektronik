@@ -8,7 +8,7 @@ subject:
 semester: SS25
 created: 16th June 2025
 professor:
-draft: false
+release: false
 title: Asynchronmaschine
 ---
 

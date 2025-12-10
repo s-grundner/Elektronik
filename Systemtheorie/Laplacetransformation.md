@@ -178,6 +178,6 @@ Polstellenlage vs. Zeitbereichssignal
 # Tags
 
 - [Invers Laplace Transformation Rechner](https://de.symbolab.com/solver/inverse-laplace-calculator)
-- [Delta-Impuls](Delta-Impuls.md)
+- [Delta-Impuls](../Mathematik/Delta-Impuls.md)
 - [korrespondenztabelle - Google Suche](https://www.google.com/search?q=korrespondenztabelle&oq=korrespondenztabelle&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQLhhA0gEINzcwMmowajGoAgCwAgA&sourceid=chrome&ie=UTF-8)
 

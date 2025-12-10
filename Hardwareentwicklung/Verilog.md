@@ -8,7 +8,7 @@ subject:
 semester: WS25
 created: 23rd September 2025
 professor:
-draft: false
+release: false
 title: Verilog
 ---
 

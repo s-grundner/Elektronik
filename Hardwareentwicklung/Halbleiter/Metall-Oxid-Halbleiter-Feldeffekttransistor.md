@@ -15,7 +15,7 @@ professor:
   - Bernhard Jakoby
   - Timm Ostermann
   - Harald Pretl
-draft: false
+release: false
 title: Metall-Oxid-Halbleiter-Feldeffekttransistor
 ---
 
