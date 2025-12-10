@@ -33,7 +33,7 @@ $\Delta EN < 1.7$ polare [Atombindung](Atombindung.md)
 
 ## 3 [Atombindung](Atombindung.md)
 
->![300](Chemie/assets/Atom-bnd.png)
+>![300](assets/Atom-bnd.png)
 
 Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 

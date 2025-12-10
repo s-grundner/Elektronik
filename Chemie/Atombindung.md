@@ -13,14 +13,14 @@ created: 23rd August 2022
 
 # Atombindung
 
-![Atom-bnd](./assets/Atom-bnd.png)
+![Atom-bnd](assets/Atom-bnd.png)
 
 - Wichtigste Art der Bindung zwischen 2 Nichtmetallatomen
 - $\Delta EN < 1.7$
 - Elektronen-Wolken durchdringen einander $\rightarrow$ negative Ladungswolke hält positive Kerne zusammen $\rightarrow$ Neues Teilchen: **Molekül**
 - $H_{2}$ Molekül ist energieärmer als 2x $H$
 
-![molekuel2h#invert_light](./assets/molekuel2h.png)
+![molekuel2h#invert_light](assets/molekuel2h.png)
 
 **Allgemeine Eigenschaften von Stoffen mit Atombindung**
 - Moleküle sind Elektrisch neutral $\rightarrow$ elektrische Isolatoren
@@ -44,10 +44,10 @@ Bestimmen räumliche Anordnung der Atome und Wechselwirkung zwischen Moleküle.
 
 | Molekül  | VSF                                       | Atome                                             |
 | -------- | ----------------------------------------- | ------------------------------------------------- |
-| $Cl_{2}$ | ![#invert_light\|125](assets/VSF-Cl2.png) | ![125](Chemie/assets/Cl.png)                      |
+| $Cl_{2}$ | ![#invert_light\|125](assets/VSF-Cl2.png) | ![125](assets/Cl.png)                      |
 | $O_{2}$  | ![#invert_light\|125](assets/VSF-O2.png)  | ![125](../assets/O.png)                              |
 | $N_{2}$  | ![#invert_light\|125](assets/VSF-N2.png)  | ![125](../assets/N.png)                              |
-| $HCl$    | ![invert_light\|125](assets/VSF-HCl.png)  | ![125](../assets/H.png) ![125](Chemie/assets/Cl.png) |
+| $HCl$    | ![invert_light\|125](assets/VSF-HCl.png)  | ![125](../assets/H.png) ![125](assets/Cl.png) |
 | $H_{2}O$ | ![#invert_light\|125](assets/VSF-H2O.png) | ![125](../assets/H.png) ![125](../assets/O.png)         |
 | $NH_{3}$ | ![#invert_light\|125](assets/VSF-NH3.png) | ![125](../assets/N.png) ![125](../assets/H.png)         |
 | $CH_{4}$ | ![#invert_light\|125](assets/VSF-CH4.png) | ![125](assets/C.png) ![125](../assets/H.png)         |
