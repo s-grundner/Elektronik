@@ -20,7 +20,7 @@ professor:
 
 ## Unidirektionale Konstantstromquelle
 
-![600](assets/UnidirektionaleKonstStrom.md)
+![600](../_assets/UnidirektionaleKonstStrom.md)
 
 # Tags
 

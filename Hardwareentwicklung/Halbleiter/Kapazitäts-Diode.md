@@ -20,7 +20,7 @@ Die Kapazitätsdiode oder Varicap, auch Varaktor oder Abstimmdiode genannt, ist 
 Durch Änderung der angelegten Spannung lässt sich eine Variation der [Kapazität](../../Elektrotechnik/Kapazität.md) von 10:1 erreichen.  
 Somit steht eine elektrisch steuerbare Kapazität zur Verfügung, die die früher üblichen, erheblich größeren Drehkondensatoren weitgehend ersetzt hat.
 
-![500](../assets/varicap.png)
+![500](../../_assets/varicap.png)
 
 $d = f(U)$  
 Die Breite der RLZ ist eine Funktion der Spannung.

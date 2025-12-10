@@ -16,8 +16,8 @@ professor:
 
 # Längstransistor Mit [Zener-Diode](../Halbleiter/Zener-Diode.md)
 
-![Laengstransostor2](../assets/Laengstransostor2.png)
+![Laengstransostor2](../../_assets/Laengstransostor2.png)
 
 # Längsregler
 
-![Laengstransistor](../assets/Laengstransistor.png)
+![Laengstransistor](../../_assets/Laengstransistor.png)

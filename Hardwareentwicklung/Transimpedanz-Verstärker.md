@@ -19,4 +19,4 @@ $$
 U_{A} = -R \cdot I_{E}
 $$
 
-![invert_dark](assets/Pasted%20image%2020250129225306.png)
+![invert_dark](../_assets/Pasted%20image%2020250129225306.png)

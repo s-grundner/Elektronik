@@ -14,7 +14,7 @@ professor:
 
 # Negative Impedance Converter (NIC)
 
-![600](assets/NICschematic.md)
+![600](../_assets/NICschematic.md)
 
 Die Eingangsimpedanz dieser Schaltung wird von den Klemmen als $-Z$ gesehen
 

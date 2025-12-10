@@ -17,12 +17,12 @@ Der Schwingquartz weist eine Sehr stabile Frequenz auf d.h. er hat eine hohe Gü
 
 ## Symbol
 
-![500|325](../assets/quartz.png)
+![500|325](../../_assets/quartz.png)
 
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens  
-> ![500|325](../assets/elek_esb_quartz.png)
+> ![500|325](../../_assets/elek_esb_quartz.png)
 > 
-> ![400|350](../assets/quarz_mechschwing.png)
+> ![400|350](../../_assets/quarz_mechschwing.png)
 > 
 > $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivität.md) (das Schwingen der Masse des Resonators)
 > $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quartzes)

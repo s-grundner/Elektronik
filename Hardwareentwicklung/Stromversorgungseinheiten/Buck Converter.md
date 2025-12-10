@@ -10,14 +10,14 @@ created: 20th April 2022
 
 ## Schaltung
 
-![Buck_converter](../assets/Buck_converter.svg)
+![Buck_converter](../../_assets/Buck_converter.svg)
 
 Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.  
 Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle) der Steuerspannung.
 
 ## Impuls-Zeit Diagramm
 
-![BuckConverterLZD](../assets/BuckConverterLZD.png)
+![BuckConverterLZD](../../_assets/BuckConverterLZD.png)
 
 ## Schaltstufe S
 
@@ -128,7 +128,7 @@ Zu Beachten:
 
 ### Mindest Spulenwert
 
-![Lückgrenze](../assets/Lückgrenze.svg)
+![Lückgrenze](../../_assets/Lückgrenze.svg)
 
 Damit der Spulenstrom in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, muss folgendes gelten:
 
@@ -163,11 +163,11 @@ $$
 
 Die erzeugung von $U_{steuer}$ erfolg mit einem Pulsbreiten modulator und mit einem Regler mit Spannungsreferenz
 
-![bsb](../assets/bsb.svg)
+![bsb](../../_assets/bsb.svg)
 
 ### Funktionsweise des Impulsbreitenmodulators
 
-![Untitled Diagram 1](../assets/Untitled%20Diagram%201.svg)
+![Untitled Diagram 1](../../_assets/Untitled%20Diagram%201.svg)
 
 Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](../Halbleiter/Metall-Oxid-Halbleiter-Feldeffekttransistor.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte Voltage-Mode-Regelung
 

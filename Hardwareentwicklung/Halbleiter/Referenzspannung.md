@@ -53,7 +53,7 @@ $U_{BE}$ wird mit steigender Erwärmung des Transistors kleiner, da $D_{T}$ *neg
 
 ### Schaltung der [Bandabstandsreferenz](https://de.wikipedia.org/wiki/Bandabstandsreferenz)
 
-![invert_light|400](../assets/Bandabstandsreferenz.png)
+![invert_light|400](../../_assets/Bandabstandsreferenz.png)
 
 #### $U_{PTAT}$ Proportional to absolute temperature
 

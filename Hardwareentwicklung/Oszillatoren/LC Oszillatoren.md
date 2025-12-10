@@ -24,7 +24,7 @@ created: 17th November 2022
 # Parallel [Schwingkreis](../../Physik/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
 > [!INFO] Schaltung  
->![LC-osz](../assets/LC-osz.png)
+>![LC-osz](../../_assets/LC-osz.png)
 
 ## Herleitung mit [BHK](Oszillatoren.md)
 
@@ -77,7 +77,7 @@ $$
 > Das erkennt man durch Einsetzen  
 > Daher ist die Summe aus imaginärteil und realteil eine Lösung -> Allgemeine Lösung
 
-![](../assets/Skizze1.png)
+![](../../_assets/Skizze1.png)
 
 $$
 \begin{align*}
@@ -137,7 +137,7 @@ B&= \frac{f_{r}}{Q}=\frac{\omega_{0}\cdot RC}{2\pi\sqrt{LC}}\\
 \end{align*}
 $$
 
-![600](../assets/Skizze2.png)
+![600](../../_assets/Skizze2.png)
 
 $$
 \begin{align*}
@@ -146,7 +146,7 @@ $$
 \end{align*}
 $$
 
-![600](../assets/ParallelZeiger.png)
+![600](../../_assets/ParallelZeiger.png)
 
 - $Y\rightarrow0$ bei $\omega = \omega_{r}$
 - $Z$ wird ein Maximum
@@ -158,7 +158,7 @@ Bandbreite: Obere minus untere [Grenzfrequenz](../Filter-Verstärker/Grenzfreque
 # Serien [Schwingkreis](../../Physik/Schwingkreise.md) mit [OPV](../Operations-Verstärker.md)
 
 > [!INFO] Schaltung  
-> ![Pasted image 20221213082043](../assets/Skizze3.png)
+> ![Pasted image 20221213082043](../../_assets/Skizze3.png)
 
 ## Herleitung mit [BHK](Oszillatoren.md)
 
@@ -175,4 +175,4 @@ Es gilt: $v= 1+ \dfrac{R_{1}}{R_{2}}=\dfrac{u_{a}}{u_{p}}$
 
 # Quellen
 
-![Clock_und_Reset_Generierung](../assets/pdf/Clock_und_Reset_Generierung.pdf)
+![Clock_und_Reset_Generierung](../../_assets/pdf/Clock_und_Reset_Generierung.pdf)

@@ -21,7 +21,7 @@ created: 13th October 2022
 
 ## Schaltbild
 
-![ET_DFW](../assets/ET_DFW.png)
+![ET_DFW](../../_assets/ET_DFW.png)
 
 $$
 U_{a}=U_{e}\cdot \frac{t_{1}}{T_{S}}\cdot \frac{N_{2}}{N_{1}}
@@ -29,7 +29,7 @@ $$
 
 ## Lauf-Zeit Diagramm
 
-![DurchflussWandlerLZD](../assets/DurchflussWandlerLZD.png)
+![DurchflussWandlerLZD](../../_assets/DurchflussWandlerLZD.png)
 
 ## Schaltstufe $S$
 

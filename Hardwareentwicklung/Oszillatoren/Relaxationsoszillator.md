@@ -18,7 +18,7 @@ created: 20th December 2022
 
 ### Schaltung
 
-![Relaxations-Osz](../assets/Relaxations-Osz.png)
+![Relaxations-Osz](../../_assets/Relaxations-Osz.png)
 
 # Tags
 

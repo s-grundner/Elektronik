@@ -45,4 +45,4 @@ LT-Spice Tutorial: <http://eecs.oregonstate.edu/education/docs/ece323/Appendix.p
 
 <http://www.audio-perfection.com/spice-ltspice/distortion-measurements-with-ltspice.html>
 
-![00_Clock_und_Reset_Generierung_intro](../assets/pdf/00_Clock_und_Reset_Generierung_intro.pdf)
+![00_Clock_und_Reset_Generierung_intro](../../_assets/pdf/00_Clock_und_Reset_Generierung_intro.pdf)

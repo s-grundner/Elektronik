@@ -17,7 +17,7 @@ Allgemein wird die [[Filter-Verstärker/Dämpfung]] des Filters mit logarithmisc
 
 | Diagramm                                                                                                                                                                                   |                              |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- |
-| **Amplitudengang**<br>$A=\lvert T(j\omega) \rvert$<br>(Hier nicht in dB)<br><br>**Phasengang**<br>$\varphi=\arctan \left( \frac{\mathrm{Im}(T(j\omega))}{\mathrm{Re}(T(j\omega))} \right)$ | ![500](assets/53_TP_OPV.png) |
+| **Amplitudengang**<br>$A=\lvert T(j\omega) \rvert$<br>(Hier nicht in dB)<br><br>**Phasengang**<br>$\varphi=\arctan \left( \frac{\mathrm{Im}(T(j\omega))}{\mathrm{Re}(T(j\omega))} \right)$ | ![500](../_assets/53_TP_OPV.png) |
 
 
 ### Messungen

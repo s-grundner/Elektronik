@@ -25,7 +25,7 @@ professor:
 - Nachschalten eines T-FF zur Taktsymmetrierung.
 
 > [!WARNING] Kippschaltungen sind durch die Steig-/Fallzeit der Flanken begrenzt (Slew):  
-> ![500](../assets/Kippschalter-slew.png)
+> ![500](../../_assets/Kippschalter-slew.png)
 
 # Baugruppen
 
@@ -53,7 +53,7 @@ Die Frequenz wird von durch folgende Parameter beeinflusst:
 Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile Kippstufe
 
 > [!hint] Schaltung  
-> ![300](../assets/ST-Kippschalter.png)
+> ![300](../../_assets/ST-Kippschalter.png)
 
 | Formeln      |     |
 | ------------ | --- |
@@ -62,20 +62,20 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 
 ### Herleitung
 
-| ![500](../assets/ST-Diag.png) | | 
+| ![500](../../_assets/ST-Diag.png) | | 
 | ----------------------------- | ----------------------------------------------- |
 | Periodendauer $T$ | $T=(t_{3}-t_{2})+(t_{2}-t_{1})$ |
 | Ladedauer $t_L$ | $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$ |
 | Entladedauer $t_E$ | $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$ |
 
 > [!SUMMARY] Entladen
-> ![herl_te](../assets/herl_te.png)
+> ![herl_te](../../_assets/herl_te.png)
 
 > [!SUMMARY] Laden
-> ![Herl_tl](../assets/Herl_tl.png)
+> ![Herl_tl](../../_assets/Herl_tl.png)
 
 > [!SUMMARY] $T$ berechnen
-> ![herl_T|550](../assets/herl_T.png)
+> ![herl_T|550](../../_assets/herl_T.png)
 
 > [!EXAMPLE] Dimensionierung "Invertierenden [Schmitt Trigger](../Schmitt%20Trigger.md)" als Taktgenerator
 > $$
@@ -85,7 +85,7 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > \\
 > \end{align*}
 > $$
-> ![invST-calc1](../assets/invST-calc1.png)
+> ![invST-calc1](../../_assets/invST-calc1.png)
 > $U_{V}$ ist der Offset vom mittelpunkt der Hysterese bei unsymmetrischer $U_{T}^{+}, U_{T}^{-}$
 
 # Tags

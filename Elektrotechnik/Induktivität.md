@@ -141,7 +141,7 @@ nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
 |              Einschaltvorgang einer Induktivität              |              Abschaltvorgang einer Induktivität               |
 | :-----------------------------------------------------------: | :-----------------------------------------------------------: |
-| ![indu-einsch](../Hardwareentwicklung/assets/indu-einsch.png) | ![indu-aussch](../Hardwareentwicklung/assets/indu-aussch.png) |
+| ![indu-einsch](../_assets/indu-einsch.png) | ![indu-aussch](../_assets/indu-aussch.png) |
 |                             #todo                             |                             #todo                             |
 
 ---

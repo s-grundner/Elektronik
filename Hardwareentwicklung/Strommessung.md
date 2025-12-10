@@ -2,4 +2,4 @@
 
 [OPV](Operations-Verstärker.md)-Strommesschaltung
 
-![600](assets/OPV-Strommessung.md)
+![600](../_assets/OPV-Strommessung.md)

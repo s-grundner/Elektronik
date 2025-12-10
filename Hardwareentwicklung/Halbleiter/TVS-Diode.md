@@ -14,13 +14,13 @@ created: 17th August 2023
 
 Je nachdem ob die zu schützende Leitung über oder unter dem Massepotential liegt, muss man bei unidirektionalen TVS-Dioden die Polung beachten.  
 Bidirektionale arbeiten in beide Richtungen.  
-![invert_dark](../assets/TVS-Diode.png)
+![invert_dark](../../_assets/TVS-Diode.png)
 
 ### Anzahl von Kanälen
 
 Oft haben Konnektoren eine Vielzahl an Pole (z.B. HDMI) die geschützt werden müssen.  
 Deshalb gibt es mehrere TVS-Dioden in einem einzigen Package.  
-![invert_dark](../assets/SC7538.png)
+![invert_dark](../../_assets/SC7538.png)
 
 ### Arbeitsspannung
 

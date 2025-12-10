@@ -61,7 +61,7 @@ $$
 ## Herleitung des gepufferten PSO
 
 > [!tip] [Kettenmatrizen](../Kettenmatrix.md) für die Herleitung  
-> ![975](../assets/PSO-kette.png)
+> ![975](../../_assets/PSO-kette.png)
 
 $$
 A = \begin{pmatrix}

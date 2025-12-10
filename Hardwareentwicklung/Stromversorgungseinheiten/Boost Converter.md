@@ -16,7 +16,7 @@ created: 8th June 2022
 
 ## Schaltung
 
-![invert_light](../assets/Boostconverter.svg)
+![invert_light](../../_assets/Boostconverter.svg)
 
 $$ U_{a}\approx U_{e} \cdot \frac{1}{1-DC} $$
 Während der Einschaltphase des [Transistors](../Halbleiter/{MOC}%20Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.  
@@ -83,15 +83,15 @@ $1-DC = \frac{t_{aus}}{T_{S}}$
 
 Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 
-![invert_light](../assets/BuckBoostDisconID.png)  
+![invert_light](../../_assets/BuckBoostDisconID.png)  
 $\overline{I_{D}} = I_{a,min}$  
 $A_{+}$ = $A_{-}$ (Fläche zwischen dem Stromverlauf von $\Delta I_{L}$ und $I_{a,min}$)
 
-![invert_light](../assets/BoostIminLmin.png)
+![invert_light](../../_assets/BoostIminLmin.png)
 
 ## [Kapazität](../../Elektrotechnik/Kapazität.md)
 
-![invert_light](../assets/BuckBoostDisconID.png)  
+![invert_light](../../_assets/BuckBoostDisconID.png)  
 $I_{a,min}$ = $\overline{I_{D}}$ 
 
 $Q=C\cdot U$  

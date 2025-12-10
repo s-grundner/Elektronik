@@ -8,7 +8,7 @@ created: 2nd October 2022
 
 # Sekundär getaktete Schaltregle
 
-![SekGetaktSMPS](../assets/SekGetaktSMPS.png)
+![SekGetaktSMPS](../../_assets/SekGetaktSMPS.png)
 
 ## 1. Netztraffo/Gleichrichter
 
