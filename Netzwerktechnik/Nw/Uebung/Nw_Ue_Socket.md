@@ -2,7 +2,7 @@
 
 ## C UDP Server/Client
 
-![UDP](../../../_assets/assets/NW_Socket_UDP.png)
+![UDP](../../../_assets/NW_Socket_UDP.png)
 
 Der folgende Server kann gestartet werden und wartet auf eine Client-Anfrage. Der anschließend gezeigte Client sendet einen String und wird beendet.
 
@@ -142,7 +142,7 @@ Kompiliert wird mit der Linker-Option *-lws2_32*.
 
 ### Serversoftware (c402)
 
-![Serversocket](../../../_assets/assets/NW_Socket_02.png)
+![Serversocket](../../../_assets/NW_Socket_02.png)
 
 Einfacher Zugriff (ohne irgendwelche Fehlerprüfungen und mit direkten Zugriff in die Struktur) auf den Windows-Socket-Treiber. Damit das klappt muss mit **-lws2_32** gelinkt werden.
 
@@ -198,7 +198,7 @@ Vor *close* wird in einer "sinnvollen" Anwendung kommuniziert (send/recv).
 
 ### Clientsoftware (c403)
 
-![Clientsocket](../../../_assets/assets/NW_Socket_01.png)
+![Clientsocket](../../../_assets/NW_Socket_01.png)
 
 Einfacher Zugriff (ohne irgendwelche Fehlerprüfungen) auf den Windows-Socket-Treiber. Damit das klappt muss mit **-lws2_32** gelinkt werden.
 
@@ -239,7 +239,7 @@ Vor *close* wird in einer "sinnvollen" Anwendung kommuniziert (send/recv).
 
 ## C Select - Chat-Server (c400)
 
-![NW_ClientServer](../../../_assets/assets/NW_ClientServer.png)
+![NW_ClientServer](../../../_assets/NW_ClientServer.png)
 
 In vielen Anwendungen soll ein Server nicht nur einen Client bedienen, sondern gleichzeitig mehrere Clients. Für TCP-Socket-Lösungen kann der Server, wenn er mittels *accept* einen Socket für die Kommunikation erhält, die Kommunikation mit diesem in einen neuen Thread verschieben. Offensichtlich sind manche (zumindest Windows-API-) Socket-Funktionen nicht *Thread-Safe* (keine seriöse Angabe!). Probleme die grundsätzlich auftreten:
 
@@ -316,7 +316,7 @@ rc = FD_ISSET(sock1, &mySet); // rc = 1/TRUE weil sock1 in mySet
 
 Typische Struktur:
 
-![NW_Socket_Select](../../../_assets/assets/NW_Socket_Select.png)
+![NW_Socket_Select](../../../_assets/NW_Socket_Select.png)
 
 Bis *listen* ist die Server-Initialisierung wie für Single-Client-Lösungen. Dann wird die File-Deskriptor-Struktur mit dem *listening Socket* initialisiert und eine Endlosschleife mit *select* gestartet. Bei jedem Verlassen von *select* wird der auslösende Socket ermittelt mit *FD_ISSET*. Je nach Ursache wird dann entweder ein neuer Client dazu genommen (*accept*-Pfad) oder eine Nachricht erhalten. Wenn die erhaltene Nachricht 0 zurückgibt bedeutet das, dass sich der zugehörige Client getrennt hat.
 
@@ -652,7 +652,7 @@ Erstellung einer Server-Anwendung. Stream-SocketVerbindung mit einem Client mitt
 
 Der Ablauf allgemein:
 
-![NW_ClientServer](../../../_assets/assets/NW_ClientServer.png)
+![NW_ClientServer](../../../_assets/NW_ClientServer.png)
 
 In dieser Anwendung wird kein eigener Daemon und kein eigener Service-Prozess erzeugt. Nach dem Akzeptieren des Client-Requests (4) wird ein Connection-Socket erzeugt und der Well-Known-Socket geschlossen (es soll hier nur ein Client bedient werden).
 
@@ -1098,7 +1098,7 @@ Einfacher wie in den vorherigen Beispielen mit den C-APIs des Betriebssystems, k
 
 Grundsätzlich ist der Ablauf gleich wie im rohen Socket-Programmieren:
 
-![NW_ClientServer](../../../_assets/assets/NW_ClientServer.png)
+![NW_ClientServer](../../../_assets/NW_ClientServer.png)
 
 - Ein Server erzeugt einen Socket und wartet auf diesem auf einen Request auf einem konfigurierten Port
 - Wenn eine Anfrage ankommt (und sie vom Server akzeptiert wird) erzeugt der Server einen neuen Socket (und Port)
@@ -1376,7 +1376,7 @@ socket.close();
 
 Es wird ein Socket erzeugt. Mittels eines Ausgabe-Streams wird auf dem Socket geschrieben und auf einem Eingabe-Stream gelesen.
 
-![NW_Socket_05](../../../_assets/assets/NW_Socket_05.png)
+![NW_Socket_05](../../../_assets/NW_Socket_05.png)
 
 **Beispiel**:
 
@@ -1517,7 +1517,7 @@ private static class cliWorker implements Runnable {
 
 ## C# - Einfacher Client/Server (c#053)
 
-![NW_ClientServer](../../../_assets/assets/NW_ClientServer.png)
+![NW_ClientServer](../../../_assets/NW_ClientServer.png)
 
 Als einführendes Beispiel hier eine synchrone Kommunikation. Synchron bedeutet, der Server wartet in der Anwendung bis sich ein Client anmeldet. Während des Wartens ist der Thread blockiert.
 

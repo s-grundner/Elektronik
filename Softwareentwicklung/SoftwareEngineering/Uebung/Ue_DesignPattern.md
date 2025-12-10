@@ -44,7 +44,7 @@ Sehen Sie sich Singleton an in:
 
 Eine einfache Form-Factory hat die folgende Struktur:
 
-![invert_dark](Pattern_Factory_Formen.png)
+![invert_dark](../../../_assets/Pattern_Factory_Formen.png)
 
 Dabei ist die Fabrik nicht weiter abstrahiert sondern eine konkrete Klasse. Verwendet wird die Fabrik auf diese Art:
 

@@ -104,7 +104,7 @@ Beispiel code
 \end{document}
 ```
 
-![](assets/Tikz%202025-03-06%2013.02.39.excalidraw)
+![](../../_assets/Tikz%202025-03-06%2013.02.39.excalidraw.md)
 
 # Convert to Tikz Pic
 

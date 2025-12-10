@@ -116,7 +116,7 @@ Für unsere Wohnorte machen wir das ähnlich: Sepp wohnt in der *Viehwaldstätte
 
 Diese *direkte* Art der Adressierung wird für sämtliche primitiven Datentypen verwendet. Im folgenden Beispiel ist eine Variable b = 107 gesetzt worden. Im Programm wird die Variable mit ihrem Namen b angesprochen, der Inhalt der Variable (107) liegt hier an der Adresse 94. 
 
-![05_Felder01|500](assets/05_Felder01.png)
+![05_Felder01|500](../../_assets/05_Felder01.png)
 
 > [!QUESTION] Was versteht man nun unter **Referenzdatentypen**?  
 > Bei primitiven Datentypen wird der Wert einer Variable direkt unter der Adresse abgelegt für die der Variablenname steht.  
@@ -130,7 +130,7 @@ Diese *direkte* Art der Adressierung wird für sämtliche primitiven Datentypen 
 > Für eine Feldvariable also liegen ab dieser Adresse die Feldwerte.
 
 
-![05_Felder02|500](assets/05_Felder02.png)
+![05_Felder02|500](../../_assets/05_Felder02.png)
 
 In vielen Fällen ist das Wissen über die Art der Adressierung unerheblich. In manchen Fällen erklärt es aber ansonsten seltsam anmutende Fälle:
 
@@ -228,7 +228,7 @@ r[2] = new int[2];		// das 3te r-Element soll ein Array mit 2 Elementen sein
 r[3] = new int[3];		// das 4te r-Element soll ein Array mit 3 Elementen sein
 ```
 
-![05_FelderMehrdim01](assets/05_FelderMehrdim01.png)
+![05_FelderMehrdim01](../../_assets/05_FelderMehrdim01.png)
 
 Wie man in diesem Beispiel erkennt ist es nicht notwendig, dass jedes Array-Element gleich groß sein muss (das wären rechteckige Arrays). Auch hier gibt's die Abkürzung:
 

@@ -28,4 +28,4 @@ professor:
 > - Zutaten fragen bis zu ihren Blattknoten den Preis ab.
 > 
 > > [!note] Graph
-> > ![[CompositMC.png]]
+> > ![[../../_assets/CompositMC.png]]

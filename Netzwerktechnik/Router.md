@@ -8,7 +8,7 @@ created: 10. März 2024
 
 Um Dienste im Internet in Anspruch nehmen zu können, ist ein Router notwendig. Dazu werden interne IP-Adressen in diejenige Adresse übersetzt, die zum Beispiel vom Internet-Provider zur Verfügung gestellt wird. Das kann entweder statisch (fest eingestellt) oder dynamisch ([DHCP](../Protokolle/DHCP.md)) erfolgen. Router haben vielfach noch zusätzliche Optionen - Firewall, Filterung …
 
-![NW_Hub](../_assets/assets/NW_Router.png)
+![NW_Hub](../_assets/NW_Router.png)
 
 Wenn vom Datennetzanbieter kein Netzwerk angeboten wird sondern ein anderes Medium (Telefon, Fernsehkabel …), dann ist zusätzlich zwischen Router und Internet ein **Modem** notwendig. Ein Modem (*Mod*ulator-*Dem*odulator) adaptiert zum Beispiel [Ethernet](../Ethernet.md) auf eine Telefonleitung oder ein Fernsehkabel.
 

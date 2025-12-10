@@ -184,7 +184,7 @@ Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider va
 
 Ein Host wird als Kanonischer-Host-Name, als IP-String (12.333.123.222) oder als 32-Bit IP dargestellt (für IPv4, analog für andere Protokolle).
 
-![invert_dark](../../_assets/assets/NW_AdrAufloesung.png)
+![invert_dark](../../_assets/NW_AdrAufloesung.png)
 
 ```c
 char *inet_ntoa(struct in_addr in);
@@ -222,7 +222,7 @@ Mit dieser Funktion kann der Host zu einer Socket-Deskriptor ermittelt werden. D
 
 Ein Aufbau einer Verbindung erfolgt in TCP mittels Three-Way-Handshake 
 
-![invert_dark](../../_assets/assets/NW_DreiWegeHS.png)
+![invert_dark](../../_assets/NW_DreiWegeHS.png)
 
 - *Host 1* möchte eine Verbindung zu *Host 2* aufbauen. Dazu sendet er ein Segment mit gesetzten **SYN**-Flag. Zusätzlich wird die eigene **SEQ**uenz-Nummer mitgeschickt (Nummer von *Host 1*: **a**). Die Nummer wird benötigt um ankommende Pakete im Anschluss richtig reihen zu können.
 - *Host 2* nimmt die Verbindung an und sendet daher ein Segment mit gesetzten **SYN**- und **ACK**-Flags. Mit ACK wird die von *Host 1* empfangene Sequenznummer inkrementiert wieder zurückgesendet. Als Sequenz-Nummer wird die eigene Sequenznummer **SEQ** mitgesendet (**b**).
