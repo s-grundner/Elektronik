@@ -28,7 +28,7 @@ created: 31st January 2023
 
 Reset bei Systemstart
 > [!NOTE] Einfachster Aufbau  
-> ![POR](../Hardwareentwicklung/assets/POR.png)
+> ![POR](assets/POR.png)
 
 #### Berechnung Der Resetdauer
 
