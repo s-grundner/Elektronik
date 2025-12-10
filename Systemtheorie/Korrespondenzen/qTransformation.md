@@ -10,7 +10,6 @@ created: 7th May 2025
 professor:
 draft: true
 title: QT-Korr
-title: QT-Korr
 release: false
 ---
 

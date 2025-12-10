@@ -10,7 +10,6 @@ created: 24th May 2025
 professor:
 release: false
 title: Hilbertraum
-title: Hilbertraum
 ---
 
 # Hilbertraum

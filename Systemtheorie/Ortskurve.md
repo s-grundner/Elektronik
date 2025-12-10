@@ -10,7 +10,6 @@ created: 16th May 2025
 professor:
 draft: true
 title: Ortskurve
-title: Ortskurve
 release: false
 ---
 
