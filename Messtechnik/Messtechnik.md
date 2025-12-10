@@ -30,7 +30,7 @@ Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgr�
 > - Definition einer Messgröße
 > - Festlegung der Einheit
 
-![invert_dark|900](assets/mestechnik.png)
+![invert_dark|900](../_assets/mestechnik.png)
 
 > [!def] Angabe einer Messgröße ^MESSGR
 > $$ \text{Physikalische Größe} = \text{Zahlenwert } \cdot \text{ Einheit } + \text{Unsicherheit} $$

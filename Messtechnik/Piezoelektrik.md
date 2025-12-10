@@ -29,7 +29,7 @@ created: 7th June 2022
 
 ## Piezogeber
 
-![650](assets/piezo_ions.png)
+![650](../_assets/piezo_ions.png)
 
 In diesem Modell zur Veranschaulichung des Piezoelektrischen Effekts werden zwei sorten von Ionen *(+q und -q)* asymmetrisch angeordnet.
 Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu einer **elastischen Verzerrung** und damit zu einer **induzierten [Polarisation](../Chemie/Polarisation.md)**.  
@@ -38,13 +38,13 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 | ---------------------------------- | ------------------------------------------------------------------- |
 | [Kraft](../Physik/{MOC}%20Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
 
-![piezo_esb](assets/piezo_esb.png)
+![piezo_esb](../_assets/piezo_esb.png)
 
 ![Piezo_effects.png](assets/Piezo_effects.png)
 
 ## Piezoresistiver Geber
 
-![InlineR|425](assets/piezoresistivergeber.png) Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
+![InlineR|425](../_assets/piezoresistivergeber.png) Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
 Es handelt sich dabei um ein **[DMS-System](Dehnungsmessstreifen)** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
 
  - Die Membrane muss gasdicht sein.

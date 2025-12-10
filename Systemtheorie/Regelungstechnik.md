@@ -59,7 +59,7 @@ Beispiele für geregelte Systeme aus verscheiden Bereichen:
 
 ### Mechanisches Beispiel
 
-![invert_dark](../Messtechnik/assets/Pasted%20image%2020250304090245.png)
+![invert_dark](../_assets/Pasted%20image%2020250304090245.png)
 
 > [!example] Feder, Masse Dämpfung
 > 
@@ -105,7 +105,7 @@ Bewegungsgleichung des Mechanischen Teilsystems:
 
 **Abstraktes Schaltbild**
 
-![invert_dark](../Messtechnik/assets/Pasted%20image%2020250307084301.png)
+![invert_dark](../_assets/Pasted%20image%2020250307084301.png)
 
 Rückkopplung von $\omega$ Ergibt sich durch den DC Motor Selbst. 
 

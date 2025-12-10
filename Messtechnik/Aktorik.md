@@ -10,7 +10,7 @@ created: 31st March 2022
 
 Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscomputer) in mechanische [Bewegung](../Physik/Kinematik.md) , bzw. in andere physikalische Größen um.
 
-![Aktor_BSB](assets/Aktor_BSB.svg)
+![Aktor_BSB](../_assets/Aktor_BSB.svg)
 
 # Aktoren Übersicht
 

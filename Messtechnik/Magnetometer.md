@@ -26,4 +26,4 @@ Feldplatten bestehen aus Indiumantimonid (InSb), was eine hohe Elektronenbewegli
 
 # Tags
 
-![MTRS23_02a_Sensorik](assets/PDF/MTRS23_02a_Sensorik%201.pdf)
+![MTRS23_02a_Sensorik](../xEDU/B4_SS25/EMTS/assets/MTRS23_02a_Sensorik%201.pdf)

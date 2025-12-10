@@ -18,7 +18,7 @@ title: Oszilloskop
 
 ## Kanäle
 
-![InlineR|450](assets/Pasted%20image%2020231223004759.png) [^1]
+![InlineR|450](../_assets/Pasted%20image%2020231223004759.png) [^1]
 
 Das Oszilloskop verfügt über ein bis 4 Kanäle Kanäle, mit welchen jeweils verschiedene Signale gemessen werden können. An die BNC-Stecker unterhalb der Kanal-Menü Tasten sind die Proben für die jeweiligen Signal anzustecken.
 
