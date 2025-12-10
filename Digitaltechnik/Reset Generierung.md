@@ -60,7 +60,7 @@ Synchronisiert das loslassen des Reset Signals auf die Falling edge
 Ein Watchdog weckt eine Schaltung wieder auf, wenn sie z.B. keine Rückmeldung erhält.
 
 $\rightarrow$ "seed-key" Prinzip  
-![450](../Hardwareentwicklung/assets/watchdog.png)
+![450](assets/watchdog.png)
 > [!error] Wenn der Key nicht mit dem im LUT übereinstimmt, führt der Watchdog einen Reset durch.
 
 # Tags
