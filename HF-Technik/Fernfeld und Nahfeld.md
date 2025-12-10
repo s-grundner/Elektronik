@@ -29,7 +29,7 @@ Bei der Beschreibung von [Antennen](Antenne.md) macht es einen großen Unterschi
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
 >[!summary] Feldzonen  
->![invert_light|800](assets/Ant_feldzonen.png)
+>![invert_light|800](../_assets/Ant_feldzonen.png)
 
 - Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
 - Im Fernfeld dominiert hingegen der radial orientierte Leistungstransport.

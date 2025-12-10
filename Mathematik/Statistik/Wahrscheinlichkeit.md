@@ -99,7 +99,7 @@ So gilt: Mindestens eines = nicht keines
 
 # Tags
 
-| ![Pasted image 20221211123853](../../_assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](assets/UEB-rechnen-wsk.png) |  
+| ![Pasted image 20221211123853](../../_assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](../../_assets/UEB-rechnen-wsk.png) |  
 | ------------------------------------ | ------------------------ |
 
 [Ereignisraum](Ereignisraum.md)  

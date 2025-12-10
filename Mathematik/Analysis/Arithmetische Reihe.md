@@ -18,4 +18,4 @@ $$
 
 ## Summe Arithmetischer Reihen
 
-![](assets/2023-10-30_15h04_06.png)
+![](../../_assets/2023-10-30_15h04_06.png)

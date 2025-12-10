@@ -56,7 +56,7 @@ Einfach, um das Konzept zu erklären
 $$
 g_{T}(t) = \frac{1}{\sqrt{ T }} \operatorname{rect}\left( \frac{t-T/2}{T} \right)
 $$
-| ![400](../_assets/Excalidraw/Pulseshaper.svg) | ![invert_dark\|600](assets/sincPulseFilter.png) |
+| ![400](../_assets/Excalidraw/Pulseshaper.svg) | ![invert_dark\|600](../_assets/sincPulseFilter.png) |
 | ----------------------------------------- | ----------------------------------- |
 
 %%[🖋 Edit in Excaidraw](../_assets/Excalidraw/Pulseshaper.md)%%
@@ -149,13 +149,13 @@ Der Thresholdetector entscheidet, welches Symbol am Eingang anliegt.
 > - Spezialfall: Als On-Off-Keying (OOK) Beziechnet
 > - Threshold bei $\frac{A_{1}+A_{2}}{2}=0.5$
 > 
-> ![invert_dark|1000](assets/ThresholdDetectOOK.png)
+> ![invert_dark|1000](../_assets/ThresholdDetectOOK.png)
 
 > [!example]- **Beispiel:** Binäre ASK (2-ASK): Bits $(0,1) \mapsto$ Symbole: $(A_{1}=-1, A_{2}=1)$
 > 
 > - Threshold bei $\frac{A_{1}+A_{2}}{2}=0$
 > 
-> ![invert_dark](assets/ThresholdDetectASK.png)
+> ![invert_dark](../_assets/ThresholdDetectASK.png)
 
 ## Nicht-Kohärente Demodulation
 
@@ -201,7 +201,7 @@ $$
 $$
 
 > [!example] Vergleich von $\Phi_{ss}(f)$ einer 2-, 4- und 8-ASK mit Rechteckpulsfilter
-> ![invert_dark|600](assets/ASK_PSD.png)
+> ![invert_dark|600](../_assets/ASK_PSD.png)
 > 
 > Je höher die Ordnung N desto geringer die benötigte Bandbreite, jedoch ist die Fehlerrate auch höher. 
 
@@ -231,7 +231,7 @@ die Durchschnittliche Energie eines Bit ist gegeben durch die Energie der Symbol
 
 > [!example] Vergleich der Fehlerwahrscheinlichkeit einer 2-, 4-, 8-ASK und OOK mit **kohärenter** Demodulation
 > Fehlerkurvenplot mit der Symbolfehlerwahrscheinlichkeit auf der Abzisse
-> ![invert_dark](assets/ASK-FehlerWahrscheinlichkeit.png)
+> ![invert_dark](../_assets/ASK-FehlerWahrscheinlichkeit.png)
 > - $N_{0}$ ... Spektral-Rauschleistungsdichte ([AWGN-Kanalmodell](HF-Technik/AWGN-Kanalmodell.md))
 > - $E_{b}$ ... Durchschnittliche Bit Energie
 > - $SNR = \frac{E_{b}}{N_{0}}$ ... Normiertes Signal zu Rauschverhältnis in dB

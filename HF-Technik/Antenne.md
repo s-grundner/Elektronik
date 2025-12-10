@@ -31,7 +31,7 @@ Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromag
 - Im Empfangsfall (b) nimmt eine Antenne Energie aus einem Wellenfeld auf und regt eine Leitungswelle an ihrem Netzwerktor (Tor 2) an.
 
 >[!summary] Sende- & Empfangsfall  
->![invert_light|800](assets/ant_sende_empf.png)
+>![invert_light|800](../_assets/ant_sende_empf.png)
 
 
 ### Reziprozitätsgesetz

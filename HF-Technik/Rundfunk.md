@@ -9,7 +9,7 @@ created: 21st June 2022
 # Rundfunk
 
 Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.  
-![500](assets/RadioBands.png)
+![500](../_assets/RadioBands.png)
 
 ## Radiowellen
 
@@ -21,7 +21,7 @@ Die Funkbänder im Rundfunkspektrum:
 ### Fortbewegung Der Funkwelle
 
 Eine Radiowelle ist eine [EM-Welle](../Physik/Elektromagnetische%20Wellen.md) und benötigt somit kein Medium, um sich Fortbewegen zu können.  
-![Raum-Bodenwelle|475](assets/Raum-Bodenwelle.png)
+![Raum-Bodenwelle|475](../_assets/Raum-Bodenwelle.png)
 
 ### Energie Der Welle
 

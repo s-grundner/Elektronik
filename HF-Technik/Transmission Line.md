@@ -24,7 +24,7 @@ professor:
 > [!important] Eine Leitung wird als TL behandelt wenn das Signal auf dieser Leitung als ein [RF-Signal](RF-Signal.md) klassifiziert wird.
 > Hier kann die Verbindung zwischen Toren/Komponenten nicht mehr Vernachlässigt werden und wird in der Schaltung mit modelliert:
 
-![invert_dark|700](assets/tl1.png)
+![invert_dark|700](../_assets/tl1.png)
 ^TL-CIRC
 
 
@@ -32,7 +32,7 @@ professor:
 
 Eine TL wird mit seriellen Induktivitäts-Belägen und parallelen Kaüazitäts-Belägen modelliert (Leitermodell):
 
-![invert_dark](assets/tl2.png)
+![invert_dark](../_assets/tl2.png)
 
 ^TL-Modell
 
@@ -150,4 +150,4 @@ $Z_{0}$ ist die characteristische Impedanz.
 Die Länge der Leitung ist gegeben durch das propagation Delay $T_{d}$.
 
 
-![invert_dark|500](assets/LTSpiceTL.png)
+![invert_dark|500](../_assets/LTSpiceTL.png)

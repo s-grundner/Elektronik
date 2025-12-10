@@ -19,14 +19,14 @@ professor:
 
 **Schaltung Zeichnen**
 
-![400](assets/qucs_tut0.png)
+![400](../_assets/qucs_tut0.png)
 
 **Simulationsart festlegen**
 
 - Komponenten -> Simulations -> DC, Transient ...
 - Parameter Einstellen: Typ, Start, Stop, Schrittweite, Schritte
 
-![600](assets/qucs_tut1.png)
+![600](../_assets/qucs_tut1.png)
 
 **Simulation Starten**
 
@@ -34,7 +34,7 @@ professor:
 
 | | |
 | ---------------------------- | ---------------------------- |
-| ![400](assets/qucs_tut2.png) | ![400](assets/qucs_tut3.png) | 
+| ![400](../_assets/qucs_tut2.png) | ![400](../_assets/qucs_tut3.png) | 
 
 **Diagramm anzeigen Lassen**
 
@@ -43,6 +43,6 @@ professor:
 
 | | |
 | ----------------------------------------------- | -------------------------------------------------- |
-| ![](assets/Pasted%20image%2020250121162443.png) | ![500](assets/Pasted%20image%2020250121162229.png) |
+| ![](../_assets/Pasted%20image%2020250121162443.png) | ![500](../_assets/Pasted%20image%2020250121162229.png) |
 
  

@@ -24,5 +24,5 @@ source: ["Martin Aichriedler, Christian Baun"]
 
 ## PDF
 
-- [2-FS_ComputerNetze](assets/Christian-Baun-pdf/2-FS_ComputerNetze.pdf)
-- [3-FS_ComputerNetze](assets/Christian-Baun-pdf/3-FS_ComputerNetze.pdf)
+- [2-FS_ComputerNetze](../xEDU/xExtra/Christian-Baun-pdf/2-FS_ComputerNetze.pdf)
+- [3-FS_ComputerNetze](../xEDU/xExtra/Christian-Baun-pdf/3-FS_ComputerNetze.pdf)

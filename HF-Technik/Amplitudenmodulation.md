@@ -31,11 +31,11 @@ $$
 > - Empfindlich gegen Amplitudenrauschen
 
 
-![invert_dark|500](assets/AM.png)
+![invert_dark|500](../_assets/AM.png)
 
 | Mischer                                  | Spannungsgesteuerter Verstärker (VCA)  |
 | :--------------------------------------: | :--------------------------------------: |
-| ![invert_dark\|500](assets/AM-Mixer.png) | ![invert_dark\|500](assets/AM-VCA.png) |
+| ![invert_dark\|500](../_assets/AM-Mixer.png) | ![invert_dark\|500](../_assets/AM-VCA.png) |
 
 - $s_{\text{IF}}(t)$: Nutzsignal als Schmalbandiges Zwischenfrequenzband (intermediate Frequency)
 - $s_{\text{LO}}(t)$: Träger (Local Oscillator)

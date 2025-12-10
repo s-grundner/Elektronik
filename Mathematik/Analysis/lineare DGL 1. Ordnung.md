@@ -44,7 +44,7 @@ $$
 | [Exponentialansatz](Exponentialansatz.md)             | Ist der **Koeffizient $p$** *konstant*, so kann die Lösung einfacher mit mit einem *[Exponentialansatz](Exponentialansatz.md)* gefunden werden. |
 
 > [!example] Spannung am [Kondensator](../../Elektrotechnik/Kapazität.md) beim Entladen.  
-> ![200](assets/c_disch.png)
+> ![200](../../_assets/c_disch.png)
 
 ### Lösung der *inhomogenen* DGL 1. Ordnung
 

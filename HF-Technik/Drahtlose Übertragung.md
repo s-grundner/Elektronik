@@ -28,7 +28,7 @@ Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welche
 > 
 > **Kleinere Antennen:** Die Länge der Antenne ist oft proportional zur optimalen Wellenlänge $\lambda = \dfrac{c}{f}$
 > 
-> ![invert_dark|200](assets/Stabantenne.png)
+> ![invert_dark|200](../_assets/Stabantenne.png)
 > 
 > **Größere Bandbreite:** Das die Benötigte bandbreite ist für den selben datendurchsatz im verhältnis zur Mittelfrequenz gleich
 > 

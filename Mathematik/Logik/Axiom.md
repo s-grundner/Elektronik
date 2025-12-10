@@ -16,7 +16,7 @@ professor: Andreas Neubauer
 
 # Axiom
 
-![InlineR](assets/AxiomeVis.png)
+![InlineR](../../_assets/AxiomeVis.png)
 
 Grundlage jeder mathematischen Theorie sind gewisse Aussagen, von denen wir ausgehen wollen, sogenannte *Axiome*. Axiome sind Logische Schlussfolgerungen von denen wir ausgehen und nicht bewiesen werden müssen. 
 

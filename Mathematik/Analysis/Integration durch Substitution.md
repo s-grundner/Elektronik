@@ -20,7 +20,7 @@
 > \left(\varphi \circ g^{-1}\right)^{\prime}(x)=\varphi^{\prime}\left(g^{-1}(x)\right)\left(g^{-1}\right)^{\prime}(x)=f\left(g\left(g^{-1}(x)\right)\right) \frac{g^{\prime}\left(g^{-1}(x)\right)}{g^{\prime}\left(g^{-1}(x)\right)}=f(x)
 > $$
 
-![](assets/{9B42AEE1-F75C-4D02-BCF4-136A79659403}.png)
+![](../../_assets/{9B42AEE1-F75C-4D02-BCF4-136A79659403}.png)
 
 ## Nützliche Folgerungen
 
@@ -34,4 +34,4 @@ $$
 
 # Beispiele
 
-![500](assets/SubsIntBsp1.png)![500](assets/SubstIntBsp2.png)
+![500](../../_assets/SubsIntBsp1.png)![500](../../_assets/SubstIntBsp2.png)

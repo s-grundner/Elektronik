@@ -65,7 +65,7 @@ Im medizinischen Bereich:
 
 Telnet aktivieren: <https://praxistipps.chip.de/windows-10-telnet-client-aktivieren-und-deaktivieren_92627> 
 
-![img](../assets/NW_Schichtenmodell_Poster.png)
+![img](../../_assets/assets/NW_Schichtenmodell_Poster.png)
 
 ## Referenzen
 

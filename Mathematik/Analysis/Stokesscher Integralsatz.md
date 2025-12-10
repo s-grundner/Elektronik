@@ -40,7 +40,7 @@ Die Erweiterung des Stokesschen Integralsatz auf geschlossene Flächen in einem 
 
 In der Untenstehenden Erläuterng ist die Fläche $A$ auf einer Ebene dargestellt. Zu Beachten ist dass auch beliebig gekrümmte Flächen den Stokesschen Integralsatz erfüllen:
 
-![invert_dark](assets/3dArea.png)
+![invert_dark](../../_assets/3dArea.png)
 
 ### Rechte Seite
 
@@ -51,27 +51,27 @@ In der Untenstehenden Erläuterng ist die Fläche $A$ auf einer Ebene dargestell
 > 
 > Durch eine Verknüpfung der Vektoren $\boldsymbol{F}$ und $\mathrm{d} \boldsymbol{l}$ mit dem Skalarprodukt geht nur der Anteil $\boldsymbol{F}_{\|}$, der parallel zur Kurve $L$ verläuft, in das Integral ein.
 > 
-> ![invert_dark|1200](assets/StokesRechteSeite.svg)
+> ![invert_dark|1200](../../_assets/StokesRechteSeite.svg)
 > 
 
 ### Linke Seite
 
 > [!question] Linke Seite: $\int_{A}(\nabla \times \boldsymbol{F}) \cdot \mathrm{d} \boldsymbol{a}$
 > 
-> ![invert_dark](assets/StokesLinkeSeite.png)
+> ![invert_dark](../../_assets/StokesLinkeSeite.png)
 > 
 > Der Rotor des Vektorfeldes $\boldsymbol{F}$ zeigt in die Richtung, die normal auf die Ebene steht in der das Vektorfeld Rotiert. (Effekt des [Kreuzproduktes](Algebra/Kreuzprodukt.md))
 > 
 > Es Wird Wiederum nur der Anteil des Vektorfeldes $\nabla \times \boldsymbol{F}$ in das Integral einbezogen, der parallel zu den Flächenelementen $\mathrm{d}\boldsymbol{a}$ verlaufen. (Effekt des [Skalarproduktes](Algebra/Skalarprodukt.md)) 
 > 
-> ![invert_dark](assets/Rot.png)
+> ![invert_dark](../../_assets/Rot.png)
 > Hier ist zu sehen dass sich die Inneren Rotoren des Vektorfeldes aufheben und nur der Randrotor in das Integral einfließt.
 
 ### Schlussfolgerung
 
 > [!success] Schlussfolgerung
 > Durch die oben angeführten Überlegungen lässt darauch schließen dass Integration entlang einer Linie und Integration über die Fläche, bei der sich der Rotor bis auf den Rand aufhebt, äquivalent sind.
-> ![invert_dark](assets/Stokes.png)
+> ![invert_dark](../../_assets/Stokes.png)
 
 ## In der Elektrotechnik
 
