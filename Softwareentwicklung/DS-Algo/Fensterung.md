@@ -20,4 +20,4 @@ Aufgrund der Sidelobes einer Rechteckfensterung wurden weitere Fensterarten eing
 - Hanning Fenster
 
 
-![invert_light](assets/Einschaltsignal_Lobes.png)
+![invert_light](../../_assets/Einschaltsignal_Lobes.png)

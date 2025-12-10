@@ -48,7 +48,7 @@ Die Verzögerung eines LTI-Systems wird durch die [Gruppenlaufzeit](zeitdiskrete
 
 - Verändern ihre eigenschaften über Zeit. Werden an die Samples angepasst. **Zeitvariantes System**
 
-![invert_dark|600](assets/Pasted%20image%2020250305101059.png)
+![invert_dark|600](../_assets/Pasted%20image%2020250305101059.png)
     
 - $s[k]$ = nutzsignal
 - $x'[k]$ = rauschsignal
