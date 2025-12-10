@@ -16,13 +16,13 @@ professor:
 
 # Vielteilchen-Systeme
 
-![[Impuls 2024-01-17 12.14.49.excalidraw]]
+![[assets/Excalidraw/Impuls 2024-01-17 12.14.49.excalidraw]]
 
 ## Massenmittelpunkt von Mehrteilchen-Systeme
 
 $$\vec{r}_{S} = \frac{1}{m_{ges}}\cdot \sum_{i}m_{i}\cdot \vec{r}_{i}$$
 
-![[Impuls 2024-01-17 12.22.10.excalidraw]]
+![[assets/Excalidraw/Impuls 2024-01-17 12.22.10.excalidraw]]
 
 > [!example] Massenmittelpunkt eines Stabes der länge $l$ und $\rho$ = const. befindet sich bei $\frac{l}{2}$  
 > ![[Impuls 2024-01-17 12.42.59.excalidraw]]  

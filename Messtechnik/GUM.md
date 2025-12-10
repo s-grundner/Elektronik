@@ -27,19 +27,18 @@ Der GUM schreibt vor wie die unsicherheit einer Messgröße zu ermitteln ist.
 
 ## Messunsicherheiten
 
-Nach obiger angabe einer Messgröße ist sie nur dann vollständig, wenn es eine Angabe über Messabweichungen enthält. Die Angabe wird als Messunsicherheit bezeichnet. 
+**Ursachen**
 
+- Störung der Messeinrichtung
+- Ablesende Person
 
-### Arten von Messabweichungen
+**Arten**
 
-|                          | Bekannte systematische Messabweichung                   | Unbekannte systematische Messabweichung | statistische Messabweichung                         |
-| ------------------------ | ------------------------------------------------------- | --------------------------------------- | --------------------------------------------------- |
-| Ursache / Charakteristik | Durch das Messprinzip bzw Modell gegebene abweichung.   |                                         | Zufälliges Auftreten von abweichungen z.B. Rauschen |
-| Behandlung               |                                                         |                                         | Wiederholungsmessung                                |
-| Beispiel                 | Spannungsrichtige oder Stromrichtige Widerstandsmessung |                                         |                                                     |
-
-
-
+| Art                                           | Entgegenwirkung                     |
+| --------------------------------------------- | ----------------------------------- |
+| [statistische Messabweichungen](statistische%20Messabweichungen.md) (stets unbekannt) | Wiederholungsmessungen              |
+| bekannte systematische Messabweichung         | bekannte Abweichung kompensieren    |
+| unbekannte systematische Messabweichung       | schwierig, oft nur grob Abschätzbar |
 
 ## Fehlerfortpflanzung
 

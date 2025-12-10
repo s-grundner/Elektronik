@@ -19,7 +19,7 @@
   "newFileLocation": "current",
   "vimMode": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "showInlineTitle": false,
   "showIndentGuide": false,
   "tabSize": 4,

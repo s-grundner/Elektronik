@@ -22,16 +22,16 @@ title: SI-Einheiten
 
 > [!def] **D1 - SI)** Système international d'unités ^SI
 >
-> | Basisgröße  | Formelzeichen | Basiseinheiten | Einheitenzeichen | Gebiet         |
-> | ----------- | ------------- | -------------- | ---------------- | -------------- |
-> | Länge       | $l$           | Meter          | $\mathrm{m}$     | Mechanik       |
-> | Masse       | $m$           | Kilogramm      | $\mathrm{kg}$    |                |
-> | Zeit        | $t$           | Sekunde        | $\mathrm{s}$     |                |
-> | Stromstärke | $I$           | Ampère         | $\mathrm{A}$     | Elektrotechnik |
-> | Temparatur  | $T$           | Kelvin         | $\mathrm{K}$     | Thermodynamik  |
-> | Lichtstärke | $I_{V}$       | Candela        | $\mathrm{cd}$    | Optik          |
-> | Stoffmenge  | n             | Mol            | $\mathrm{mol}$   | Chemie         |
-
+> | Gebiet         | Basisgröße  | Formelzeichen | Basiseinheiten  | Einheitenzeichen |
+> | -------------- | ----------- | ------------- | --------------- | ---------------- |
+> | Mechanik       | Länge       | $l$           | Meter           | $\mathrm{m}$     |
+> |                | Masse       | $m$           | Kilogramm       | $\mathrm{kg}$    |
+> |                | Zeit        | $t$           | Sekunde         | $\mathrm{s}$     |
+> | Elektrotechnik | Stromstärke | $I$           | Ampère          | $\mathrm{A}$     |
+> | Thermodynamik  | Temparatur  | $T$           | Kelvin          | $\mathrm{K}$     |
+> | Optik          | Lichtstärke | $I_{V}$       | Candela         | $\mathrm{cd}$    |
+> | Chemie         | Stoffmenge  | n             | Mol             | $\mathrm{mol}$   |
+> 
 
 - Die SI-Einheiten sind über sieben [physikalische Konstanten](Konstanten/{MOC}%20Konstanten.md) definiert.
 - Dezimale Struktur: Aus jeder Grundeinheit können durch **Präfixe** (Einheitenvorsätze) kleinere und größere Einheiten gebildet werden.
@@ -39,7 +39,6 @@ title: SI-Einheiten
 > [!important] Dieses System ist **kohärent**
 > **Kohärenz** bedeutet, dass alle abgeleiteten Einheiten aus den Basiseinheiten durch Multiplikation und Division gebildet werden können.
 > Um mit SI-Einheiten handlich rechnen zu können, kann man man Einheitenvorsätze verwenden. Jedoch geht bei der Verwendung die Kohärenz verloren.
-
 
 ## Detaillierte Übersicht
 

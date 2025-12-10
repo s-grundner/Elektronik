@@ -15,6 +15,6 @@ ESD kann auftreten bei:
 
 Integrierte Schaltkreise, wie sie in diesem Projekt enthalten sind, sind typischerweise sehr empfindlich gegenüber statischer Entladung. Aufgrund des vielen Interagieren mit der Platine, zum Beispiel beim Einund Ausstecken, muss mittels [TVS-Diode](Halbleiter/TVS-Diode.md) (Transient Voltage Suppression) eine Abschirmung gegen statische Entladung am USB-Eingang vorhanden sein.
 
-![invert_dark](../Digitaltechnik/assets/ESD-Connector.png)
+![invert_dark](assets/ESD-Connector.png)
 
 # Tags

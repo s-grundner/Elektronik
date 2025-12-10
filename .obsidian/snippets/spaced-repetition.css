@@ -1,3 +1,10 @@
-.markdown-preview-view .sr-separator {
-    display: none;
+.markdown-preview-view .callout[data-callout="question"] > p {
+    visibility: hidden;
+    font-size: 0;
+}
+
+.markdown-preview-view .callout[data-callout="question"] > p::after {
+    content: "?";
+    visibility: visible;
+    font-size: initial;
 }

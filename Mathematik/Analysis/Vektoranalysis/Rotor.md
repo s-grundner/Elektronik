@@ -40,7 +40,7 @@ Mit der Rechten hand Regel kann man darauf schließen in welche richtung das Vek
 
 Das kann man an diesem Plot Ausprobieren. Hier ist die Rotation sogar konstant, sodass $\operatorname{rot}\boldsymbol{F}$ gerade nach unten zeigt
 
-![800](../../assets/Rotor.png)
+![800](assets/Rotor.png)
 
 <center><a href="Mathematik/Simulationen/Rotor.nb" class="internal-link">📈Mathematica Notebook</a></center>
 

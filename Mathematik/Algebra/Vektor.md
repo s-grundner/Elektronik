@@ -19,7 +19,7 @@ Ein Vektor $\mathbf{v}$ ist ein Element, welches anstatt eines einzigen Zahlenwe
 - Eine Liste *(genauer ein Tupel)*
 
 Hierbei ist es wichtig, dass die Elemente nicht vertauscht werden können: $\begin{pmatrix}0\\1\end{pmatrix} \neq \begin{pmatrix}1\\0\end{pmatrix}$
-![500](VectorMatrixTensor.png)
+![500](assets/VectorMatrixTensor.png)
 
 
 > [!example] Wozu Vektoren? Darstellung Physikalischer Größen

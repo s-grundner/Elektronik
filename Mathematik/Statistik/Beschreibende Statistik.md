@@ -88,7 +88,7 @@ Kleinster und größter Wert
 
 ## Boxplot
 
-![Boxplot.png](../assets/Boxplot.png)
+![Boxplot.png](assets/Boxplot.png)
 
 ## Streuung 
 

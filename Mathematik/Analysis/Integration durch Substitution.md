@@ -34,4 +34,4 @@ $$
 
 # Beispiele
 
-![500](assets/SubsIntBsp1.png)![500](../../assets/SubstIntBsp2.png)
+![500](assets/SubsIntBsp1.png)![500](assets/SubstIntBsp2.png)

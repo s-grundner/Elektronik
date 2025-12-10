@@ -29,7 +29,7 @@ professor:
 
 | ![](assets/R.png) | ![](assets/L.png) | ![](assets/X.png) | ![](assets/Z.png) | ![](assets/U.png) |
 | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
-| ![](assets/G.png) | ![](assets/C.png) | ![](assets/B.png) | ![](assets/Y.png) | ![](assets/I.png) |
+| ![](assets/G.png) | ![](Elektrotechnik/assets/C.png) | ![](assets/B.png) | ![](assets/Y.png) | ![](assets/I.png) |
 
 
 > [!summary] [**Vierpol-Parameter)**](../Hardwareentwicklung/Vierpol.md) Ein und Ausgangsbeziehungen von Netzwerken

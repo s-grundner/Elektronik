@@ -1,8 +1,8 @@
 ---
-tags:
+tags: 
 aliases:
-  - Temperaturspannnung
-keywords:
+  - Temparaturspannnung
+keywords: 
 subject:
   - VL
   - Einführung Elektronik
@@ -66,9 +66,9 @@ $W_{G}=1.1eV$ für [Silizium](Materialkunde/Silizium.md)
 $$
 U_{\mathrm{T}}=\frac{k_{\mathrm{B}} \cdot T}{e}
 $$
-| $k_{\mathrm{B}}$ | [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md) | $\frac{J}{K}$ |
-| ---------------- | ------------------------------------------------------ | ------------- |
-| $T$              | Absolute Temparatur                                    | $K$           |
-| $e$              | [Elementarladung](Konstanten/Elementarladung.md)       | $As$          |
+| $k_{\mathrm{B}}$ | [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md) |
+| ---------------- | ------------------------------------------------------ |
+| $T$              | Absolute Temparatur                                    |
+| $e$              | [Elementarladung](Konstanten/Elementarladung.md)       |
 
 # Tags

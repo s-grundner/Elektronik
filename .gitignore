@@ -16,6 +16,8 @@ conflict-files-obsidian-git.md
 .obsidian/icons
 .obsidian/themes
 .ipynb_checkpoints
+.directory
+.megaignore
 
 xPN
 xEDU

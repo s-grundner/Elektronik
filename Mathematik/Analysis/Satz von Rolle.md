@@ -18,4 +18,4 @@ cited:
 # Satz von Rolle
 
 
-![[Satz_von_Rolle.svg|invert_dark]]
+![[assets/Satz_von_Rolle.svg|invert_dark]]

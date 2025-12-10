@@ -70,7 +70,7 @@ $$
 $\begin{align*} \lambda_{1}&=\lambda_{2}=- \frac{p}{2} \\ y_{h}&=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}\end{align*}$
 
 > [!WARNING] ergibt nur eine Lösung … es fehlt also etwas  
-> ![Pasted image 20220601193117](../assets/Pasted%20image%2020220601193117.png)
+> ![Pasted image 20220601193117](assets/Pasted%20image%2020220601193117.png)
 
 #### 3. Fall: konjugiert komplexe Lösungen
 

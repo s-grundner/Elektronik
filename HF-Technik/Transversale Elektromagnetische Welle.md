@@ -29,7 +29,7 @@ $$
 
 Die Wellengrößen zeigen normal zur Ausbreitungsrichtung. Die Richtung in die sich die Energie bewegt ist mit dem [Poynting Vektor](HF-Technik/Poynting%20Vektor.md) gegeben: $\mathbf{S} = \mathbf{E}\times \mathbf{H} = (0,0,S_{z})$
 
-![invert_dark](assets/TEMMode.png)
+![](assets/TEMMode.png)
 
 ---
 

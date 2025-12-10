@@ -80,7 +80,7 @@ $$W_{L}=\frac{L \hat{\imath}^{2}(t)}{2}= \frac{L}{2}(I\sqrt{2}\cos(\omega t))^{2
 
 Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer Störung/Auslenkung sich selbst überlassen – je nach [Dämpfung](../Filter-Verstärker/Dämpfung.md) oszillierend oder „kriechend“ in den Gleichgewichtszustand zurückkehrt. Die Frequenz der freien Schwingung ist die [Eigenfrequenz](https://de.wikipedia.org/wiki/Eigenfrequenz "Eigenfrequenz") des Schwingers.
 
-![invert_dark|400](../../Mathematik/assets/e_serien_schwingk_frei.png)
+![invert_dark|400](assets/e_serien_schwingk_frei.png)
 
 Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
@@ -145,13 +145,13 @@ die 3. Fälle der [DGL 2. Ordnung](lineare%20DGL%202.%20Ordnung.md) sind wiefolg
 | [Fall 2.](lineare%20DGL%202.%20Ordnung.md#2.%20Fall%20Doppellösung) | $\delta=\omega_{0}$ | [aperiodischer Grenzfall](https://de.wikipedia.org/wiki/Aperiodischer_Grenzfall) |
 | [Fall 3.](lineare%20DGL%202.%20Ordnung.md#3.%20Fall%20konjugiert%20[komplexe](../mathe%20(3)/Komplexe%20Zahlen.md)%20Lösungen) | $\delta<\omega_{0}$ | Schwingfall |
 
-![invert_dark|400](../../Mathematik/assets/faelle_e_sk.png)
+![invert_dark|400](assets/faelle_e_sk.png)
 
-![Federpendel_verschiedene_Dämpfungen](../../Mathematik/assets/Federpendel_verschiedene_Dämpfungen.gif)
+![Federpendel_verschiedene_Dämpfungen](assets/Federpendel_verschiedene_Dämpfungen.gif)
 
 # Erzwungene Schwingung im realen Serienschwingkreis
 
-![400](../../Mathematik/assets/e_serien_schwingk_erzw.png)
+![400](assets/e_serien_schwingk_erzw.png)
 
 Bei einem erzwungenen [Schwingkreis](Schwingkreise.md) liegt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine Funktion der Spannung $U_{e}(t)$ an.
 
@@ -184,7 +184,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > [!EXAMPLE]  
 > Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
 > 
-> ![300](../../Mathematik/assets/e_serien_schwingk_erzw.png)
+> ![300](assets/e_serien_schwingk_erzw.png)
 > 
 > Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$  
 > Um den eingeschwungenen Zustand zu definieren, wird zunächst $u_{h}$ - die homogene Lösung - ignoriert.
@@ -278,4 +278,4 @@ $$
 \end{align*}
 $$
 
- > ![invert_dark|700](../../Mathematik/assets/frequ_gang_e_serien_schwingk.png)
+ > ![invert_dark|700](assets/frequ_gang_e_serien_schwingk.png)

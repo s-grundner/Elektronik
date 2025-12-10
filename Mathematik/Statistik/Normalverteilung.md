@@ -43,7 +43,7 @@ $$
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
 
 >[!EXAMPLE] Lebensdauer  
->![1175](PNG-Bild%201.png)
+>![1175](assets/PNG-Bild%201.png)
 
 ## Eigenschaften
 

@@ -40,7 +40,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 >[!summary] [Standardabweichung](Standardabweichung.md)  
 > $\sigma(X)=\sqrt{n\cdot p\cdot (1-p)}$
 
-![binom_tree](binom_tree.png)
+![binom_tree](assets/binom_tree.png)
 
 ## Unbekanntes $n$
 
@@ -64,7 +64,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > - 4 Versuche
 > - 6er bei einem Würfel
 > > [!success] Lösung  
-> > ![1375](../assets/Binom-vert.svg)
+> > ![1375](assets/Binom-vert.svg)
 > > $$
 > > \begin{align*}
 > > P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\
@@ -79,13 +79,13 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 
 
 > [!EXAMPLE] Prüfe, ob folgende [Zufallsvariable](Zufallsvariablen) $X$ binomialverteilt ist  
->![Pasted image 20221122111119](../assets/Pasted%20image%2020221122111119.png)
+>![Pasted image 20221122111119](assets/Pasted%20image%2020221122111119.png)
 > > [!success] Lösung  
 > > 2. Nein, das ziehen eines Asses ist davon abhängig, wie viele bereits gezogen wurden  
 > > 3. Ja: $P=\frac{1}{20}$
 
 > [!EXAMPLE] Prüflos  
-> ![725](../assets/Pasted%20image%2020221122112926.png)
+> ![725](assets/Pasted%20image%2020221122112926.png)
 > > [!success] Lösung
 
 # Quellen

@@ -122,7 +122,6 @@ Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechn
 
 ## Diskretisiertes Spektrum
 
-![](Softwareentwicklung/DS-Algo/assets/DFT%202025-01-14%2009.53.12.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](Softwareentwicklung/DS-Algo/assets/DFT%202025-01-14%2009.53.12.excalidraw.md)%%
+![[../Softwareentwicklung/DS-Algo/assets/DFT 2025-01-14 09.53.12.excalidraw]]
 
 # Quellen
