@@ -19,7 +19,7 @@ release: false
 Die Ortskurve beinhaltet die selbe information wie der Frequenzgang.
 
 > [!hint] in MATLAB
-> 
+>
 > ```matlab
 > nyquist()
 > ```
