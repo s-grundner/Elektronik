@@ -33,7 +33,7 @@ def:
 > > [!info] **==$\pi$==** bezeichnet die halbe Länge des Einheitskreises.
 
 **Trignometrische Funktionen im Einheitskreis**
-![invert_dark|500](../assets/Einheitskreis.png)
+![invert_dark|500](../_assets/Einheitskreis.png)
 
 - Die Funktion $\sin(x)$ eingeschränkt auf das Intervall $\left[-\dfrac{\pi}{2}, \dfrac{\pi}{2}\right]$ streng monoton wachsend
 - und die Funktion $\cos (x)$ eingeschränkt auf das Intervall $[0, \pi]$ streng monoton fallend, jeweils mit Bild $[-1,1]$. 

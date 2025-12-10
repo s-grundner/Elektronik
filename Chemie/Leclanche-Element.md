@@ -10,7 +10,7 @@ created: 2. März 2024
 - Zink-Kohle-Batterie (Taschenlampenbatterie)
 - $U=1.5V$
 - Probleme: $Zn$ löst sich auf und die Elektrolytpaste rinnt aus. Spannung sinkt bei Stromentnahme stark ab.
-> ![invert_light|350](../assets/lecl-element.png)  
+> ![invert_light|350](../_assets/lecl-element.png)  
 > Grafitstab (weiß)
 > Zn-Becher (blau)
 > Braunstein ($MnO_{2}$) (orange)  

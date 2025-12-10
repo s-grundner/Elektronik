@@ -38,7 +38,7 @@ Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [inf
 > [!important] Ferminiveau
 > Die in der Formel auftretende **Fermienergie** oder **Ferminiveau** $W_{F}$ ist ein chemisches Potenzial und repäsentiert jenes Energieniveau, das bei Temparatur $T=0$ aufgefüllt wäre.
 
-![600](../assets/Excalidraw/Fermiverteilung%202025-02-07%2015.41.59.excalidraw.md)
+![600](../_assets/Excalidraw/Fermiverteilung%202025-02-07%2015.41.59.excalidraw.md)
 
 ## Zustandsdichte
 

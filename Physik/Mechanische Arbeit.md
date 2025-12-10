@@ -48,7 +48,7 @@ Das Gravitationsfeld ist ein so genanntes *konservatives* Kraftfeld – die Arbe
 
 Beispiel Drehstuhl:
 
-![[../assets/Excalidraw/Drehmoment 2024-01-24 13.13.30.excalidraw]]
+![[../_assets/Excalidraw/Drehmoment 2024-01-24 13.13.30.excalidraw]]
 
 # Flashcards
 

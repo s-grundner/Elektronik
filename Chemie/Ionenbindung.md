@@ -17,7 +17,7 @@ created: 22nd August 2022
 
 # Ionenbindung
 
-![invert_light|650](../assets/Ionen-bdn.png)
+![invert_light|650](../_assets/Ionen-bdn.png)
 
 - wichtigste Art der Bindung zwischen [Metallen](Metallbindung.md) und Nichtmetallen
 - $\Delta EN > 1.7$
@@ -30,7 +30,7 @@ created: 22nd August 2022
 
 Ionenpaare bilden Ionengitter oder Kristallgitter:
 
-![invert_light|300](../assets/IonAnord.png)
+![invert_light|300](../_assets/IonAnord.png)
  - $e^{-} \rightarrow$ Übertragungsreaktion
  - z.B.: $Na^{+}Cl^{-}$ sind ein Ionenpaar
 

@@ -44,7 +44,7 @@ Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** de
 
 | Gesamte Magnethysteresekurve                 | **Lineareisierte** Entmagnetisierungs Kennlinie (2. Quadrant) |
 | -------------------------------------------- | ------------------------------------------------------------- |
-| ![invert_dark\|400](../assets/EntMagnKL.png) | ![invert_dark\|400](../assets/EntMagnKL2.png)                 |
+| ![invert_dark\|400](../_assets/EntMagnKL.png) | ![invert_dark\|400](../_assets/EntMagnKL2.png)                 |
 
 > [!def] **D1 - ENTM)** Linearisierte Entmagnetisierungs Kennlinie ^ENTM
 >
@@ -66,7 +66,7 @@ Man rechnet oft in der Physik mit positiven H werten (konvention) deshalb
 
 Beispiel eines Einfachen Eisenkreises mit Permanentmagneten und Luftspalt **ohne** externe Gegenfelder.
 
-![invert_dark|400](../assets/EinfPMMagnKreis.png)
+![invert_dark|400](../_assets/EinfPMMagnKreis.png)
 
 Man berechnet die Masche des Eisenkreises mit **abgeschaltetem** Permanentmagenten um die reine Wirkung des Magnetkreises zu ermitteln.
 
@@ -116,7 +116,7 @@ $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche W
 
 ### Energiedichte
 
-![invert_light|400](../Elektrotechnik/assets/MagnetKLundEnergie.png)
+![invert_light|400](../_assets/MagnetKLundEnergie.png)
 
 ---
 

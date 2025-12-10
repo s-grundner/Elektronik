@@ -19,7 +19,7 @@ Bei der Leistungsanpassung eines [elektrischen Netzwerks](Lineare%20Elektrische%
 
 ## Beim [Zweipol](Zweipol.md)
 
-![InlineL|256](assets/realeSpgQuelle.png)
+![InlineL|256](../_assets/realeSpgQuelle.png)
 
 $$
 \begin{gathered}

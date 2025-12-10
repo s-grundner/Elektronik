@@ -35,8 +35,8 @@ Die Amplitude des Trägers wird in Diskreten Werten entsprechend dem Information
 
 ## Modulation
 
-![](../assets/Excalidraw/ASK-BSB.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/ASK-BSB.md)%%
+![](../_assets/Excalidraw/ASK-BSB.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/ASK-BSB.md)%%
 
 ### Moduliertes Signal
 
@@ -56,10 +56,10 @@ Einfach, um das Konzept zu erklären
 $$
 g_{T}(t) = \frac{1}{\sqrt{ T }} \operatorname{rect}\left( \frac{t-T/2}{T} \right)
 $$
-| ![400](../assets/Excalidraw/Pulseshaper.svg) | ![invert_dark\|600](assets/sincPulseFilter.png) |
+| ![400](../_assets/Excalidraw/Pulseshaper.svg) | ![invert_dark\|600](assets/sincPulseFilter.png) |
 | ----------------------------------------- | ----------------------------------- |
 
-%%[🖋 Edit in Excaidraw](../assets/Excalidraw/Pulseshaper.md)%%
+%%[🖋 Edit in Excaidraw](../_assets/Excalidraw/Pulseshaper.md)%%
 
 > [!warning] Problem: Rechteckeck puls im Frequenzbereich ist die Sinc-Funktion.
 > Die Sinc-Funktion ist nicht Bandbegrenzt und erstreckt seine Seitenkeulen über das gesamte spektrum. In der Realität ungeeignet.
@@ -90,8 +90,8 @@ Die Einfachste version ist On-Off-Keying. Dabei wird der Sender einfach für 1 e
 
 Die Frequenz und die Phase des Trägersignal stimmt am empfänger **exakt** mit dem am Sender überein.
 
-![](../assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.md)%%
+![](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.md)%%
 
 - $r_{\mathrm{p}}(t)$ ... Rekonstruiertes Basisbandsignal. 
 - $r(t)$ ... Aufgenommenes Passbandsignal
@@ -120,8 +120,8 @@ Tiefpassfilter mit der [Impulsanwort](Systemtheorie/Impulsanwort.md) $g_{\mathrm
 
 Ohne dem Anteil bei der Doppelten Trägerfrequenz erhält man $\dfrac{A[0]g_{\mathrm{T}}(t)}{2}$
 
-![500](../assets/Excalidraw/ASK-DemodSpektrum.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/ASK-DemodSpektrum.md)%%
+![500](../_assets/Excalidraw/ASK-DemodSpektrum.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/ASK-DemodSpektrum.md)%%
 
 Man wählt die Impulsantwort speziell $g_{\mathrm{R}}=2g_{\mathrm{T}}(T-t)$.
 
@@ -217,8 +217,8 @@ Die Symbol pro Bit Fehlerwahrscheinlichkeit $\frac{P_{s}}{P_{b}}$  ist die durch
 
 die Durchschnittliche Energie eines Bit ist gegeben durch die Energie der Symbolamplitude gewichtet mit der Impulsantwort $g_{\mathrm{T}}(t)$des Pulsformungsfilters ([Energie eines Signals](Systemtheorie/Energiesignal.md)) dividiert durch die Anzahl an Bit Pro Symbol.
 
-![600](../assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.md)%%
+![600](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.md)%%
 
 ### Einfluss der ASK Ordnung
 
@@ -253,4 +253,4 @@ Vergleich der OOK bei kohärenter und nicht kohärenter Demodulation
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Kohärent          | $P_{\mathrm{b,co}} = P_{\mathrm{s,co}} = Q \left( \sqrt{ \frac{E_{\mathrm{b}}}{N_{0}} } \right)$                                                                               |
 | Nicht-Kohärent    | $P_{\mathrm{b,nco}} = P_{\mathrm{s,nco}} = \frac{1}{2} Q\left( \sqrt{ \frac{E_{\mathrm{b}}}{N_{0}} } \right) + \frac{1}{2} \exp \left( -\frac{E_{\mathrm{b}}}{2N_{0}} \right)$ |
-![invert_dark|700](../assets/FehlerDemod.png)
+![invert_dark|700](../_assets/FehlerDemod.png)

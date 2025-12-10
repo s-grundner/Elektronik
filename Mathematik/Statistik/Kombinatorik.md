@@ -8,7 +8,7 @@ created: 24th October 2022
 
 # Kombinatorik
 
-![700](../../assets/Kombinatorik-formeln.png)
+![700](../../_assets/Kombinatorik-formeln.png)
 
 >[!EXAMPLE] 6 Kugeln in den Eierkarton mit 10 Boxen  
 > Kugeln nicht unterscheidbar: Kombination  
@@ -37,12 +37,12 @@ nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
 # Tags
 
 - Timischl/Kaiser [Übungen](https://a.digi4school.at/ebook/5011/?page=164)
-- [UE-Kombinatorik](../../assets/pdf/UE-Kombinatorik.pdf)
+- [UE-Kombinatorik](../../_assets/pdf/UE-Kombinatorik.pdf)
 
 ## Übungsaufgaben
 
-- [Kombinatorik](../../assets/pdf/Kombinatorik.pdf)
-- [UEZ-Kombinatorik](../../assets/pdf/UEZ-Kombinatorik.pdf) 
+- [Kombinatorik](../../_assets/pdf/Kombinatorik.pdf)
+- [UEZ-Kombinatorik](../../_assets/pdf/UEZ-Kombinatorik.pdf) 
 
 
 ---

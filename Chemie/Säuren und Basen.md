@@ -54,7 +54,7 @@ Die Stärke einer Base wird durch die $OH^{-}$-Konzentration ausgedrückt, die s
 
 Starke Säuren sind mit Wasser vollständig dissoziiert.  
 Schwache Säuren sind mit Wasser unvollständig dissoziiert.  
-![Pasted image 20220827040951](../assets/Pasted%20image%2020220827040951.png)
+![Pasted image 20220827040951](../_assets/Pasted%20image%2020220827040951.png)
 
 Dissoziationsgrad $\alpha = \dfrac{\text{Konz. der dissoziierten Moleküle}}{\text{Gesamte Konz. der Säure}}=\dfrac{C(A^{-})}{C(HA)}$  
 $H\cdot A\leftrightarrows H^{+}+A^{-}$
@@ -103,7 +103,7 @@ Wasser wirkt als Protonendonator, also als Säure
 
 Ein und derselbe Stoff wirkt je nach Reaktionspartner als Säure oder als Base.
 >**$H_{2}O$:**  
->![350](../assets/h2o-ampholyt.png)  
+>![350](../_assets/h2o-ampholyt.png)  
 >$H_{2}O$ wirkt als Säure  
 >$H_{2}O$ Wirkt als Base  
 $H_{2}O$ ist ein Ampholyt und verhält sich amphoter

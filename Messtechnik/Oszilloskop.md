@@ -44,7 +44,7 @@ Der Einstellung des Triggers legt fest, wann das Oszilloskop eine neue Periode d
 
 Für Messungen höherer Frequenzen ist es wichtig Tastköpfe und nicht einfache BNC-Kabel zu verwenden.
 
-![invert_dark](../Elektrotechnik/assets/OszTastkopfSpgTeiler.png)
+![invert_dark](../_assets/OszTastkopfSpgTeiler.png)
 
 10:1 Tastkopf kann verwendet werden, damit der gesamtwiderstand größer ist und weniger Strom in das Messgerät fließt -> genauere Ergebnisse bei kleinstromigen Schaltungen.
 

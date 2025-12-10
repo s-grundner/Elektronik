@@ -16,7 +16,7 @@ title: Hartley Architektur
 
 Mit der Hartley Architektur lässt sich das konzept der Übertragung von Komplexwertigen signalen schaltungstechnisch realisieren. Relevant für [Software Defined Radio](HF-Technik/Software%20Defined%20Radio.md)
 
-![invert_dark](../assets/HartleyArch.png)
+![invert_dark](../_assets/HartleyArch.png)
 
 ## Mathematische Grundlagen
 
@@ -43,4 +43,4 @@ $$
 
 Komplexwertige signale haben die eigenschaft, dass sie ein asymmetrisches Spektrum besitzen.
 
-![](../assets/Excalidraw/Quadratur%20Amplituden%20Modulation%202025-11-15%2013.35.54.excalidraw.svg)
+![](../_assets/Excalidraw/Quadratur%20Amplituden%20Modulation%202025-11-15%2013.35.54.excalidraw.svg)

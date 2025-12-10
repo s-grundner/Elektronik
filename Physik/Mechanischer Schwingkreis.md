@@ -14,7 +14,7 @@ professor:
 
 # Mechanischer Schwingkreis
 
-![400](../assets/m_schwingk.png)
+![400](../_assets/m_schwingk.png)
 
 >[!info] Bewegungsgleichung: $F_{a} = F_{feder} + F_{reibung}$
 >

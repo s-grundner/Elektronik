@@ -30,7 +30,7 @@ title: Erreichbarkeit
 
 Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können? Diese Definition kann mit der Systemmatrizen $\mathbf{A}$ und $\mathbf{B}$ geprüft werden.
 
-![invert_dark|250](../assets/Erreichbarkeit.png)
+![invert_dark|250](../_assets/Erreichbarkeit.png)
 
 ## Testen Auf Erreichbarkeit
 

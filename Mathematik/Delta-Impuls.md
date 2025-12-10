@@ -74,7 +74,7 @@ $$
 > [!satz] **Abtasteigenschaft** der Dirac Distribution ^ABT
 $$ f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})\mathrm{d}t = f(t)*\delta(t_{0})$$
 
-![invert_dark](../assets/delta_impuls.png)
+![invert_dark](../_assets/delta_impuls.png)
 
 ## Ausblendeigenschaft
 

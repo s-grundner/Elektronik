@@ -17,7 +17,7 @@ professor:
 
 ## Stern-Stern Schaltung
 
-![450](../assets/Pasted%20image%2020240124084846.png)
+![450](../_assets/Pasted%20image%2020240124084846.png)
 
 Bei symmetrischer Last ist der [Strom](../Elektrotechnik/elektrischer%20Strom.md) $i_{N}$ im Neutralleiter 0
 Wicklungen auf der Erzeugerseite als Spannungsquellen.
@@ -31,7 +31,7 @@ N Neutralleiter
 
 ## Dreieck-Dreieck Schaltung
 
-![450](../assets/Pasted%20image%2020240124084937.png)
+![450](../_assets/Pasted%20image%2020240124084937.png)
 
 Unterschied zur Stern Schaltung
 - Strang Spannungen sind außenleiterspannungen
@@ -40,6 +40,6 @@ Unterschied zur Stern Schaltung
 
 ### Zeiger Diagramm
 
-![[../assets/Excalidraw/Dreiphasensysteme 2024-01-24 08.49.51.excalidraw]]
+![[../_assets/Excalidraw/Dreiphasensysteme 2024-01-24 08.49.51.excalidraw]]
 
 ## Leistung

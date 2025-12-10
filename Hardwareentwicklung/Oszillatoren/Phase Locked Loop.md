@@ -20,8 +20,8 @@ title: Phase Locked Loop
 
 Ein PLL ist ein Regelkreis, welches die Phasenlage und damit die Frequenz eines veränderbaren Oszillators so beeinflusst, dass die Phasenabweichung zu einem zu einem äußeren System möglichst konstant ist. 
 
-![](../../assets/Excalidraw/PLL.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/PLL.md)%%
+![](../../_assets/Excalidraw/PLL.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/PLL.md)%%
 
 Beim VCO ist der Term $\frac{1}{s}$ vorhanden (integrator): Die Ausgangsfrequenz des VCO muss wieder in eine Phase umgewandelt werden. Integration des Ausgangs da gilt: $\dot{\varphi} = \omega\implies \int \omega \mathrm{~d}t =\varphi$
 
@@ -39,8 +39,8 @@ Modell des PLLs, welcher um den "locked State" - dem Eingeschwungen Verhalten - 
 | Feedback Divider |    ![invert_dark\|260](../assets/PLL_div.png)     | $\phi_{\mathrm{FB}}(s) = \dfrac{\phi_{\mathrm{out}}}{N}$                                           |
 
 
-![400](../../assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.md)%%
+![400](../../_assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.md)%%
 
 **Forward Loop Gain**
 

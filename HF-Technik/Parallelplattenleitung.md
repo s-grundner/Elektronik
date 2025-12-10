@@ -61,7 +61,7 @@ Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösun
 | Nur H-Feldlinien *normal* zur Fläche $S$ werden Integriert.<br>                                                                                                                                                       |
 
 > [!question] In das Modell eingezeichnet
-> ![invert_dark|500](../assets/KonturInPlatengeometrie.png)
+> ![invert_dark|500](../_assets/KonturInPlatengeometrie.png)
 
 #### Folgerungen der Kontur $C_{0}$
 

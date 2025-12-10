@@ -21,7 +21,7 @@ created: 24th March 2022
 
 Jede **periodische** [Funktion](../Mathematik/Algebra/Abbildung.md) kann als aus einer Summe von Sinus und/oder Cosinus Schwingungen zusammengesetzt werden:
 
-![invert_light|400](../assets/Fourreihe_zerlegung.png)
+![invert_light|400](../_assets/Fourreihe_zerlegung.png)
 
 ## Grundlagen
 
@@ -115,7 +115,7 @@ Besonderheiten:
 ### Periodische [Funktion](../Mathematik/Algebra/Abbildung.md)
 
 $f(x)=f(x+a)$  
-![invert_light|400](../assets/fourReihe.png)
+![invert_light|400](../_assets/fourReihe.png)
 
 > [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](../Mathematik/Algebra/Abbildung.md).  
 > Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Mathematik/Algebra/Abbildung.md) in eine **Fourierreihe** zerlegt werden.
@@ -134,7 +134,7 @@ $f(x)=f(x+a)$
 - $A_{3}\cdot\sin(3x+\varphi)$: 3. Harmonische oder 2. Oberschwingung
 
 >[!EXAMPLE] Rechteckschwingung  
-> ![Fourreihe_k](../assets/Fourreihe_k.png)  
+> ![Fourreihe_k](../_assets/Fourreihe_k.png)  
 > [Klirrfaktor](../Hardwareentwicklung/Oszillatoren/Klirrfaktor.md) … $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
 
 
@@ -145,7 +145,7 @@ $f(x)=f(x+a)$
 
 # Tags
 
-[Fourierreihe HTL Mitschrift](../assets/pdf/Fourierreihe.pdf)
+[Fourierreihe HTL Mitschrift](../_assets/pdf/Fourierreihe.pdf)
 
 ---
 

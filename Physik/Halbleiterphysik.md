@@ -33,7 +33,7 @@ Intrinsisch $\to$ Nicht Dotiert
 
 Unterschiede des Bändermodells verschiedener Leiterklassen:
 
-![invert_light|1000](../assets/Baendermodell.png)
+![invert_light|1000](../_assets/Baendermodell.png)
 
 
 
@@ -139,7 +139,7 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
-> ![600](../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw.md) 
+> ![600](../_assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw.md) 
 > Somit ist eine niedrigere Aktivierungsenergie notwendig, um ein Elektron vom Donator ins Leitungsband zu heben.
 
 In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elektronen als Löcher Verfügbar.
@@ -157,7 +157,7 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Akzeptoratom lokal ein zusätzliches Energieniveau nahe der **Valenzbandkante** darstellen 
-> ![600](../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.47.50.excalidraw.md)
+> ![600](../_assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.47.50.excalidraw.md)
 > Somit ist eine niedrigere Aktivierungsenergie erforderlich, Elektronen vom Valenzband auf das Akzeptor Niveau anzuheben und auf dem Valenzband ein Loch zu hinterlassen.
 
 In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:

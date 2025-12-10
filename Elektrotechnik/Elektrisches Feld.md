@@ -45,7 +45,7 @@ banner_y: 0.336
 >> [!success] Die [Kraft](../Physik/{MOC}%20Kräfte.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $\mathbf{E}$  
 >
 
-![230](assets/EFeld.png)
+![230](../_assets/EFeld.png)
 Das Feld das eine Ladung $Q$ um sich herum erzeugt ist, ähnlich wie beim Schwerefeld mit sternförmig auseinander gehenden Feldlinien verknüpft und mit mit dem Quadrat des Abstandes ab; sein [Betrag](../Mathematik/Algebra/Betrag.md) reduziert sich mit dem Quadrat des Abstands zu dieser Ladung:
 
 $$|\mathbf{E}| = \frac{Q}{4\pi\varepsilon_{0}r^{2}}$$
@@ -61,11 +61,11 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 | :-----------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
 |                                             $\mathbf{F} = m\cdot \mathbf{g}$                                              |                                        $\mathbf{F} = q \cdot \mathbf{E}$                                        |
 |                                  $\mathbf{F} = m\cdot \dfrac{G\cdot M}{\mathbf{r}^{2}}$                                   |                    $\mathbf{F} = q \cdot \dfrac{Q}{4\pi\varepsilon_{0}\cdot \mathbf{r}^{2}}$                    |
-|                                        ![invert_light\|325](assets/GravKraft.png)                                         |                                     ![invert_light\|375](assets/EKraft.png)                                     |
+|                                        ![invert_light\|325](../_assets/GravKraft.png)                                         |                                     ![invert_light\|375](../_assets/EKraft.png)                                     |
 |                                                                                                                           |                                                                                                                 |
 |                                        Gravitationsfeld der Erde mit der Masse $M$                                        |                                       elektrisches Feld einer Ladung $Q$                                        |
 |                      $\mathbf{g} = -\dfrac{G\cdot M}{\lvert  \mathbf{r} \rvert^{3}}\cdot \mathbf{r}$                      |     $\lvert \mathbf{E} \rvert = \dfrac{Q}{4\pi\varepsilon_{0}\lvert \mathbf{r} \rvert^{3}}\cdot \mathbf{r}$     |
-|                                         ![invert_light\|275](assets/GravFeld.png)                                         |                                           ![\|500](assets/EFeld.png)                                            |
+|                                         ![invert_light\|275](../_assets/GravFeld.png)                                         |                                           ![\|500](../_assets/EFeld.png)                                            |
 |                                                                                                                           |                                                                                                                 |
 |                                                          $F_{G}$                                                          |                                                     $F_{E}$                                                     |
 | auf eine Masse $m$ wirkt im Gravitationsfeld $\mathbf{g}$ der Masse $M$ eine [Kraft](../Physik/{MOC}%20Kräfte.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene E-Feld $\mathbf{E}$ eine [Kraft](Coulomb-Kraft.md) |
@@ -92,16 +92,16 @@ $$
 - Überlegung zu Kugelförmige Flächenladung
 
 > [!EXAMPLE]- Stromfluss in Leitern  
-> ![](assets/AufgabeLeitfaehigkeit.png)
+> ![](../_assets/AufgabeLeitfaehigkeit.png)
 >
 > > [!SUCCESS]- Lösung  
-> > ![](assets/UE01_k12136610-1.jpg)
+> > ![](../_assets/UE01_k12136610-1.jpg)
 
 > [!EXAMPLE]- Stromfluss in Leitern 2  
-> ![](assets/AufgabeLeitfähigkeit2.png)
+> ![](../_assets/AufgabeLeitfähigkeit2.png)
 >
 > > [!SUCCESS]- Lösung  
-> > ![](assets/UE01_k12136610-2.jpg)
+> > ![](../_assets/UE01_k12136610-2.jpg)
 
 # Tags
 
@@ -115,7 +115,7 @@ Was beschreibt das elektrische Feld?;;Das elektrische Feld beschreibt Kraftwirku
 <!--SR:!2024-03-19,4,190-->
 Wie verhält sich ein *Elektron* (kinematisch), welches in ein *in x-Richtung orientiertes* homogenes [elektrisches Feld](elektrisches%20Feld.md) eingebracht wird?;;es beschleunigt in negative x-Richtung.
 <!--SR:!2024-04-08,24,270-->
-Ein leifähiger elliptischer Zylinder wird in ein homogenes [E-Feld](elektrisches%20Feld.md) eingebracht: ![](assets/feldAequiPotLinien.png) welches sind die Feldlinien und welches die Äquipotentiallinien
+Ein leifähiger elliptischer Zylinder wird in ein homogenes [E-Feld](elektrisches%20Feld.md) eingebracht: ![](../_assets/feldAequiPotLinien.png) welches sind die Feldlinien und welches die Äquipotentiallinien
 ?
 Normal zur Ellipse: Feldlinien
 Tangential zur Ellipse: Äquipotentiallinien

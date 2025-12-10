@@ -21,7 +21,7 @@ professor:
 
 Wie in Abbildung 1 zu sehen ist, wird für den Aufbau des SAR-ADCs eine [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md)-Baugruppe benötigt. In diesem Aufbau wird der [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md) durch ein [RC-Glied](../Hardwareentwicklung/Filter-Verstärker/Filter.md) realisiert.
 
-| ![invert_dark\|800](../assets/Pasted%20image%2020231223180638.png) |
+| ![invert_dark\|800](../_assets/Pasted%20image%2020231223180638.png) |
 | --------------------------------------------------------------- |
 | Abbildung 1: Aufbau des SAR-ADCs                                |
 

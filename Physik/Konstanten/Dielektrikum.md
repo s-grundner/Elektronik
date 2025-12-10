@@ -55,4 +55,4 @@ Je nachdem wie stark ein Dielektrikum Polarisierbar ist, wird das Feld dementspr
 > [!important] [Polarisation](../../Chemie/Polarisation.md): Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](elektrisches%20Feld.md) aus
 > Dielektrika, die man in ein [elektrisches Feld](elektrisches%20Feld.md) einbringt [Polarisieren](../../Chemie/Polarisation.md) sich, wodurch das [E-Feld](elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nicht Leitfähigkeit sind.
 
-![invert_dark](../../assets/Pasted%20image%2020240310011251.png)
+![invert_dark](../../_assets/Pasted%20image%2020240310011251.png)

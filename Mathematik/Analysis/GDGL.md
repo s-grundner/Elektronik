@@ -95,4 +95,4 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 
 ![](https://www.youtube.com/embed/p_di4Zn4wz4)
 
-[DGL-NOTES HTL](../../assets/pdf/DGL-NOTES.pdf)
+[DGL-NOTES HTL](../../_assets/pdf/DGL-NOTES.pdf)

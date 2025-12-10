@@ -21,7 +21,7 @@ f(x,y) = \begin{bmatrix}
 \end{bmatrix} \qquad x=y=1
 $$
 
-![Hauptsatz der inversen Funktionen 2024-04-16 18.32.36.excalidraw](../assets/Excalidraw/Hauptsatz%20der%20inversen%20Funktionen%202024-04-16%2018.32.36.excalidraw.svg)
+![Hauptsatz der inversen Funktionen 2024-04-16 18.32.36.excalidraw](../_assets/Excalidraw/Hauptsatz%20der%20inversen%20Funktionen%202024-04-16%2018.32.36.excalidraw.svg)
 
 $$
 \begin{align}

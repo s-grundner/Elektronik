@@ -54,7 +54,7 @@ Die Gegeninduktivität wird durch die Topologie, bzw durch die [Leiterbahn](../H
 
 ## Gegeninduktivität $M$
 
-![800](assets/gegenindu.png)
+![800](../_assets/GegenIndu.png)
 
 $$
 \begin{align*}

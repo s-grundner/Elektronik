@@ -90,8 +90,8 @@ Möglichkeiten die Schwingbedingung Herzuleiten:
 
 Eine Oszillator soll idealer weise einen [Dirac-Impuls](../../Mathematik/Delta-Impuls.md) im spektrum an seiner Frequenz generieren. In der Realität wird der Oszillator jedoch irgendwann einmal eingeschaltet (multiplikation mit dem [Einheitssprung](Systemtheorie/Einheitssprungfunktion.md)). Man müsste den Oszillator unendliche lange messen, um einen reinem Dirac zu erhalten. Stattdessen erhält man um die Oszillatorfrequenz ein [Sinc](Mathematik/Sinus%20Cardinalis.md)-Förmiges Spektrum 
 
-![](../../assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.md)%%
+![](../../_assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.md)%%
 
 ## Rauschen
 
@@ -115,7 +115,7 @@ Probleme
 
 # Misc Notes
 
-![[../../assets/Excalidraw/Oszillatoren 2025-01-14 10.25.42.excalidraw]]
+![[../../_assets/Excalidraw/Oszillatoren 2025-01-14 10.25.42.excalidraw]]
 
 
 ![Pasted image 20230124212033](assets/Pasted%20image%2020230124212033.png)

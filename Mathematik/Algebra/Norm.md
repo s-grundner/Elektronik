@@ -149,7 +149,7 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 
 Wir betrachten die Definition des **Einheitsvolumens** $S_p=\left\{\mathbf{x} \in \mathbb{R}^3:\|\mathbf{x}\|_p \leq 1\right\}$ für verschiedene $p$ mit $p \geq 1$.
 
-![](../../assets/NormGeo3.png)
+![](../../_assets/NormGeo3.png)
 
 ---
 

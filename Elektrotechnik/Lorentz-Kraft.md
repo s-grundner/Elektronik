@@ -14,7 +14,7 @@ professor:
 
 # Lorentz-Kraft
 
-![InlineR|384](assets/JakobyFotoLeiden.png)
+![InlineR|384](../_assets/JakobyFotoLeiden.png)
 
 Ruhende [Ladungen](elektrische%20Ladung.md):
 - erzeugen $\vec{E}$

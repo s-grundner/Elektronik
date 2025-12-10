@@ -23,7 +23,7 @@ professor:
 > - Die *Leerlaufspannung* $U_{L}$: Jene [elektrische Spannung](elektrische%20Spannung.md) die im Leerlauf an den Klemmen anliegt
 > - Den *Kurzschlussstrom* $I_{K}$: Der [Strom](elektrischer%20Strom.md) der bei Kurzschluss zwischen den Klemmen fließt
 
-![|425](assets/KlemmenverhaltenLinQuell.png)
+![|425](../_assets/KlemmenverhaltenLinQuell.png)
 
 Die Steigung des Graphen ist: $-\frac{1}{R_{i}} = - \frac{I_{K}}{U_{L}}$
 
@@ -68,7 +68,7 @@ $$
 
 ## Beispiel
 
-![](assets/ESB-Beispiel.png)
+![](../_assets/ESB-Beispiel.png)
 
 $$
 \begin{gathered}

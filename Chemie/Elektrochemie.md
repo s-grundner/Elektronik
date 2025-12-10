@@ -85,7 +85,7 @@ $I = \dfrac{0.5\cdot F}{1800}$
 
 ## Spannungsreihe
 
-![ElektrolyseNagel](../assets/ElektrolyseNagel.png)
+![ElektrolyseNagel](../_assets/ElektrolyseNagel.png)
 
 **Eisennagel in Kupferlösung:** [Kupfer](../Physik/Materialkunde/Kupfer.md) scheidet sich ab und Eisen löst sich.  
 **Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und [Kupfer](../Physik/Materialkunde/Kupfer.md) bleibt Metallisch.  

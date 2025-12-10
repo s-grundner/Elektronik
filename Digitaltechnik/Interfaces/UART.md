@@ -129,4 +129,4 @@ int main(void)
 - [Ringbuffer](Ringbuffer.md)
 - [at644p](AVR%20ATmega644p.md)
 
-![at644p](../../assets/pdf/at644p.pdf)
+![at644p](../../_assets/pdf/at644p.pdf)

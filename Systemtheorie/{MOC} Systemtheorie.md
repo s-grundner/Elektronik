@@ -61,7 +61,7 @@ Zusammenhänge zwischen verschieden Signal-Transformationen
 
 ### Übersicht und Zusammenhänge
 
-![10000](../assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw.md)
+![10000](../_assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw.md)
 
 ### Übersicht: Eigenschaften von $G(s)$, $G(z)$ und $G^\#(q)$
 

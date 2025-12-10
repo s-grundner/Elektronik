@@ -15,4 +15,4 @@ professor:
 
 # Teilbarkeit
 
-![](../../assets/Pasted%20image%2020240127135051.png)
+![](../../_assets/Pasted%20image%2020240127135051.png)

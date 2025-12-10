@@ -62,13 +62,13 @@ Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehr
 
 Die Kontakte des Kommutators (A-a, B-b) weisen eine interne Verbindung auf.
 
-![invert_dark](../assets/DCfunk0.jpg)
+![invert_dark](../../_assets/DCfunk0.jpg)
 
 **Zustand 2)** $I_{A}: b\to a$
 
 Der Rotor hat sich um $90°$ gedreht. Hier wird ersichtlich wie der Stromwender funktioniert.
 
-![invert_dark](../assets/DCfunk90.jpg)
+![invert_dark](../../_assets/DCfunk90.jpg)
 
 ## Stationäres Betriebsverhalten
 
@@ -164,7 +164,7 @@ Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise
 
 Bei der fremderregten Maschine sind Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
 
-![invert_dark|300](../../assets/fremderregt.png)
+![invert_dark|300](../../_assets/fremderregt.png)
 
 $$
 \Phi(I_{\mathrm{E}}) = \frac{\Theta}{\mathfrak{R}}=\frac{NI_{\mathrm{E}}}{\mathfrak{R}}
@@ -179,7 +179,7 @@ Die Reihenschlussmaschine kann - anders als die Nebenschlussmaschine - auch mit 
 
 Hier wird statt einer Erregerinduktivität (mit Eisenrückschluss) ein Permanentmagnet mit Eisenrückschluss verwendet, um den Erregerfluss zu erzeugen.
 
-![invert_dark|300](../../assets/permerregt.png)
+![invert_dark|300](../../_assets/permerregt.png)
 
 $$
 \Phi = \frac{\Theta_{c}'}{\mathfrak{R}_{\mathrm{pm}}+\mathfrak{R}} = \frac{H_{c}'l_{\mathrm{pm}}}{\mathfrak{R}_{\mathrm{pm}}+\mathfrak{R}}, \quad

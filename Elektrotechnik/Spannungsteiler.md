@@ -29,6 +29,6 @@ professor:
 > - Wenn der andere [[Zweipol]] nun ebenfalls frequenzabhängig realisiert wird, dann kann erreicht werden, dass der gesamte Spannungsteiler wieder frequenzunabhängig arbeitet
 >
 > - Wir betrachten als Beispiel die Spannungsmessung mit Hilfe eines [[Oszilloskop|Oszilloskops]], wobei die gemessenen Spannung mit Hilfe eines sogenannten *Tastkopfs* geteilt wird, um die am Oszilloskopeingang maximal erlaubte Spannung nicht zu überschreiten
-> ![[../assets/Excalidraw/Spannungsteiler 2024-04-15 10.40.20.excalidraw]]
+> ![[../_assets/Excalidraw/Spannungsteiler 2024-04-15 10.40.20.excalidraw]]
 
-![[assets/OszTastkopfSpgTeiler.png]]
+![[../_assets/OszTastkopfSpgTeiler.png]]

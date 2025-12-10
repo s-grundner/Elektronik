@@ -34,7 +34,7 @@ $$
 F(x)=\int^{x}_{c}f(t)dt\qquad M_{x}=[c;d]\text{ z.B. } \mathbb{R}
 $$
 
-![PNG-Bild](../../assets/PNG-Bild.png)
+![PNG-Bild](../../_assets/PNG-Bild.png)
 
 
 - Bisher waren [Wahrscheinlichkeitsverteilungen](Wahrscheinlichkeitsverteilung.md) gegeben (z.B. [Binomialverteilung](Binomialverteilung.md)).
@@ -43,7 +43,7 @@ $$
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
 
 >[!EXAMPLE] Lebensdauer  
->![1175](../../assets/PNG-Bild%201.png)
+>![1175](../../_assets/PNG-Bild%201.png)
 
 ## Eigenschaften
 

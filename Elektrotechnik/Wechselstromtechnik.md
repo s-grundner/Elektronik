@@ -33,7 +33,7 @@ Wird ein [elektrisches Netzwerk](Lineare%20Elektrische%20Netzwerke.md) mit Wechs
 
 ## Zeigerdarstellung
 
-![[assets/Wechselstromtechnik 2025-01-15 20.22.21.excalidraw]]
+![[../_assets/Wechselstromtechnik 2025-01-15 20.22.21.excalidraw]]
 
 
 Man nutzt *rotierende* [komplexe Zeiger](Eulersche%20Formel.md) zur Darstellungen von Wechselspannungen und -strömen: 

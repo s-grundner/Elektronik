@@ -33,5 +33,5 @@ $\Rightarrow$ Je größer bei fester Resonanzfrequenz $f_{\mathrm{r}}$ die [Güt
 
 Diese definition der Bandbreite gilt auch für Filter 2. Ordnunung
 
-![](../../assets/Excalidraw/Q-B-Filter-2O.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Q-B-Filter-2O.md)%%
+![](../../_assets/Excalidraw/Q-B-Filter-2O.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Q-B-Filter-2O.md)%%

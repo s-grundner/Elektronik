@@ -94,8 +94,8 @@ Die einzelenen unsicherheiten $u(x_{i})$ der Messgrößen $x_{i}$ sind durch die
 \end{document}
 ```
 
-![600](../assets/Excalidraw/GUM%202025-07-02%2014.42.42.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/GUM%202025-07-02%2014.42.42.excalidraw.md)%%
+![600](../_assets/Excalidraw/GUM%202025-07-02%2014.42.42.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/GUM%202025-07-02%2014.42.42.excalidraw.md)%%
 
 > [!satz] Standard Unsicherheit Nach Typ A
 > $$u(\bar{x})= \frac{u(x_{i})}{\sqrt{ N }}$$
@@ -109,8 +109,8 @@ Die einzelenen unsicherheiten $u(x_{i})$ der Messgrößen $x_{i}$ sind durch die
 - Umgebungsbediungungen
 - Beruhend auf A-Priori Verteilung
 
-![1200](../assets/Excalidraw/GUM%202025-07-02%2014.46.40.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/GUM%202025-07-02%2014.46.40.excalidraw.md)%%
+![1200](../_assets/Excalidraw/GUM%202025-07-02%2014.46.40.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/GUM%202025-07-02%2014.46.40.excalidraw.md)%%
 
 > [!example] Bsp
 > - Geeichtes Messgerät: Toleranzgrenzen

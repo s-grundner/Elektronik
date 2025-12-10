@@ -20,7 +20,7 @@ professor:
 
 # Elektrischer Strom
 
-![InlineR](assets/elekStrom.png)
+![InlineR](../_assets/elekStrom.png)
 
 Die Stromstärke $I$ gibt an, wie viel [Ladung](elektrisches%20Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen [bestimmten Querschnitt](Stromdichte.md) (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](Skineffekt.md)) fließt.
 

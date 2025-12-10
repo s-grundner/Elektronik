@@ -83,11 +83,11 @@ Allgemein (für $n\geq 2$) wird der Laplace-Entwicklungssatz zur ermittlung der 
 > $$\det A=a_{11} a_{22} a_{33}+a_{12} a_{23} a_{31}+a_{13} a_{21} a_{32}-a_{13} a_{22} a_{31}-a_{11} a_{23} a_{32}-a_{12} a_{21} a_{33}$$ 
 > Man rechnet ”*Hauptdiagonalen minus Gegendiagonalen*“ 
 
-![invert_dark|500](../../assets/Pasted%20image%2020250323165958.png)
+![invert_dark|500](../../_assets/Pasted%20image%2020250323165958.png)
 
 Die Determinante von $A = (\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}})$ ist gleich dem [Spatprodukt](Spatprodukt.md) $[\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}}]$. Die geometrische Interpretation der Determinante im $\mathbb{R}^{3\times 3}$ ist demnach das **Volumen** des von den Spaltenvektoren (bzw. Zeilenvektoren) aufgespannten **Parallelepipeds**. Die markierten Pfeile repräsentieren die Vektoren $\mathbf{s}_{1}, \mathbf{s}_{2}, \mathbf{s}_{3}$
 
-![invert_dark|500](../../assets/Pasted%20image%2020250323161221.png)
+![invert_dark|500](../../_assets/Pasted%20image%2020250323161221.png)
 
 ## Sonderfälle
 

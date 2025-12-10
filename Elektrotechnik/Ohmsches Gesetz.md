@@ -26,7 +26,7 @@ $$
 
 # Übung
 
-![[../assets/Excalidraw/Ohmsches Gesetz 2024-03-18 22.31.23.excalidraw]]
+![[../_assets/Excalidraw/Ohmsches Gesetz 2024-03-18 22.31.23.excalidraw]]
 
 # Tags
 

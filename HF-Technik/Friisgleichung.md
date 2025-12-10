@@ -36,7 +36,7 @@ Fragwürdig ist, wieso die Leistungsübertragung mit dem quadrat der Frequenz kl
 - Der Sender Strahlt die Sendeleistung $P_{\mathrm{t}}$ entsprechend der Antennencharakteristik bezogen auf den [Isotroper Kugelstrahler](HF-Technik/Isotroper%20Kugelstrahler.md) ab.
 - Der Empfänger nimmt die Leistung über die [Antennenwirkfläche](HF-Technik/Antennenwirkfläche.md), gewichtet mit dem [Antennengewinn](HF-Technik/Antenne.md#^GAIN) auf.
 
-![invert_dark|1000](../assets/friis.jpg)
+![invert_dark|1000](../_assets/friis.jpg)
 
 Damit die Rechnung näherungsweise korrekt ist, muss die Eintreffende Wellenfront eine **Ebene** sein, d.h keine radiale Krümmung mehr aufweisen. Diese forderung gilt in der [Fraunhofer Zone](HF-Technik/Fernfeld%20und%20Nahfeld.md) mit $r > \frac{2D^{2}}{\lambda}$ in guter Näherung.
 

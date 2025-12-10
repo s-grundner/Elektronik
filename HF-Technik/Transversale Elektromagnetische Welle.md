@@ -11,8 +11,8 @@ created: 28th November 2022
 > [!info] Transversal ist der gegensatz zu Longitudal
 > Beispiel: Die Schallwelle ist eine Longitudalwelle
 
-![](../assets/Excalidraw/Transversale%20Elektromagnetische%20Welle%202025-11-15%2019.18.18.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/Transversale%20Elektromagnetische%20Welle%202025-11-15%2019.18.18.excalidraw.md)%%
+![](../_assets/Excalidraw/Transversale%20Elektromagnetische%20Welle%202025-11-15%2019.18.18.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Transversale%20Elektromagnetische%20Welle%202025-11-15%2019.18.18.excalidraw.md)%%
 
 - Sonderfall einer elektromagnetischen Welle, bei der in Ausbreitungsrichtung sowohl das [elektrische](../Elektrotechnik/Elektrisches%20Feld.md) als auch das [magnetische Feld](../Elektrotechnik/magnetisches%20Feld.md) verschwindet.
 - Magnetische und elektrische Felder ausschließlich in Ebenen senkrecht (transversal) zur Ausbreitungsrichtung.
