@@ -23,7 +23,7 @@ Elektronen-Fermigas aus Metall entfernen
 - Reibung
 - Elektrisches Feld -> [Elektronenemission – Wikipedia](https://de.wikipedia.org/wiki/Elektronenemission)
 
-![invert_dark](assets/AtmoEmision.png)
+![invert_dark](../_assets/AtmoEmision.png)
 
 - Die Elektronen sind bewegte Ladungen, also ein Elektrischer Strom/Magnetfeld
     - Vorallem EM-Wellen
