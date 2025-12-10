@@ -23,7 +23,6 @@ Der **Carnot-[Kreisprozess](https://de.wikipedia.org/wiki/Kreisprozess "Kreispr
 Ziel ist, dass immer ein Zylinder gerade im Arbeitstakt ist.  
 Der Wirkungsgrad eines Ottomotors liegt im Idealfall bei η=35%, meist jedoch deutlich darunter.
 
-![Pasted image 20220910205102.png](Pasted%20image%2020220910205102.png)  
 **Carnot Prozess (Vier Takte)**
 
 1.	Ansaugtakt (Suck)  
