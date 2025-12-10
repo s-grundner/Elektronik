@@ -53,7 +53,7 @@ Synchronisiert das loslassen des Reset Signals auf die Falling edge
 
 ## Reset Bei Spannungseinbruch
 
-![725](../Hardwareentwicklung/assets/reset-spg-einbruch.png)
+![725](assets/reset-spg-einbruch.png)
 
 # Watchdog
 
