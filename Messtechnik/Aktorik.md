@@ -28,13 +28,13 @@ $\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.m
 
 **Funktionsweise:** Der Rotor dreht sich bis $+$ und $-$ bei einander sind, jetzt dreht der Kommutator die Polung um, sodass gleiche Pole beieinanderliegen uns sich abstoßen.
 
-## Fl.-Druck-Aktoren: [Hydraulik](Hydraulik.md)
+## Fl.-Druck-Aktoren: Hydraulik
 
 Hydraulische Aktoren arbeiten mit Druck von Flüssigkeiten.
 
 Vorteil: Wasser ist im flüssigen Zustand unkompremierbar.
 
-## Gasdruck-Aktoren: [Pneumatik](Pneumatik.md)
+## Gasdruck-Aktoren: Pneumatik
 
 Pneumatische Aktoren arbeiten mit Gasdruck
 

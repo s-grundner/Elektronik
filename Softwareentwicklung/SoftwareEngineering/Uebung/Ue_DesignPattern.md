@@ -407,8 +407,6 @@ Rectangle:  oldDraw.  P1(120,200) | P2(180,240)
 
 In Java ist folgendes Brücken-Pattern zu implementieren:
 
- ![Bridge Pattern UML Diagram](bilder/Pattern_Bridge_Beispiel.jpg) 
-
 Bridge-Implementierungs-Interface
 
 Die Ausgabe, wenn BridgePatternDemo-main gestartet wird soll lauten:

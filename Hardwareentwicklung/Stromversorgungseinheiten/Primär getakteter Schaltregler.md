@@ -61,6 +61,3 @@ created: 2nd October 2022
 
 # Tags
 
-![SMPS_intro](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)
-
-![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/DigitalAnalogST/Schaltnetzteile_Schmidt-Walter.pdf)

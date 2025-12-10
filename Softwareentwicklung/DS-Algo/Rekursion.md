@@ -130,9 +130,9 @@ To reduce [time complexity](O-Notation.md), it is recommended to save repeating 
 > 
 > Write a function `gridTraveler(m, n)` that calculates this.
 
-|**Example**|`gridTraveler(2,3)` $\rightarrow$ 3 |
-|-|-|
-| 1. right, right, down<br> 2. right, down, right <br> 3. down, right, right<br>|![gridTraveler(2,3)](gridTraveler(2,3).svg) |
+| **Example**                                                                    | `gridTraveler(2,3)` $\rightarrow$ 3 |
+| ------------------------------------------------------------------------------ | ----------------------------------- |
+| 1. right, right, down<br> 2. right, down, right <br> 3. down, right, right<br> |                                     |
 
 # Beispiele
 

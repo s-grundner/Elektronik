@@ -38,5 +38,3 @@ Sie dient dabei nicht zur Grafischen ermittlung komplexen Größen (Dazu ist das
 ![[../_assets/Ortskurve 2024-01-17 09.24.11.excalidraw|844]]
 
 # Referenzen
-
-[05_Ortskurven](../Messtechnik/assets/pdf/05_Ortskurven.pdf)

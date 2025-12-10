@@ -8,9 +8,10 @@ created: 7th November 2022
 
 # Gradient Descent
 
-Der Gradient Descent ist ein Algorithmus zur Annäherung von der Kostenfunktion $J$ der [Lineare-](../../Systemtheorie/Machine%20Learning/Lineare%20Regression.md) oder [Logistische](../../Systemtheorie/Machine%20Learning/Logistische%20Regression.md) Regression.
+Der Gradient Descent ist ein Algorithmus zur Annäherung von der Kostenfunktion $J$ der Lineare oder Logistische Regression
 
-Der Algorithmus ist eine Kombination aus dem [Newton'schen Annäherungsverfahren](Newton'sches%20Näherungsverfahren.md) und der [Sigmoid Funktion](../../Systemtheorie/Machine%20Learning/Sigmoid%20Funktion.md).  
+Der Algorithmus ist eine Kombination aus dem [Newton'schen Annäherungsverfahren](Newton'sches%20Näherungsverfahren.md) und der Sigmoid Funktion.
+
 Die Kostenfunktion $J$ wird zunächst über $\theta$ aller Eigenschaften partiell Differenziert:
 
 $$

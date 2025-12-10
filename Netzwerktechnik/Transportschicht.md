@@ -20,7 +20,7 @@ created: 6th April 2022
 
 ## Adressierung der Transportschicht
 
-Die Adressierung erfolgt in der Transportschicht mit [Sockets](Sockets)
+Die Adressierung erfolgt in der Transportschicht mit Sockets
 
 ## Protokolle der Transportschicht
 

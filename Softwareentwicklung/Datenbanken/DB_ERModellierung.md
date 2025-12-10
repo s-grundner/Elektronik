@@ -97,7 +97,6 @@ Wenn das Diagramm gut aufgebaut wurde, ergibt sich automatisch eine hohe Normalf
 
 Die Darstellung nach Peter Chen ist für das Zeichnen mit der Hand noch relativ gut möglich, die Darstellung nach Barker ist für größere Strukturen wesentlich komfortabler und übersichtlicher. Von dieser Notation kann einfach mittels [UML](../SoftwareEngineering/UML/UML.md)-Darstellungen in Werkzeugen gearbeitet werden:
 
-![invert_dark](assets\ERD_Barker.png)
 
 ## Fragen
 

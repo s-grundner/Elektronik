@@ -78,5 +78,3 @@ $$
 
 # Tags
 
-![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/DigitalAnalogST/Schaltnetzteile_Schmidt-Walter.pdf)
-
