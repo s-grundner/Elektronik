@@ -27,7 +27,7 @@ Die auf ein System einwirkenden Größen heißen **Eingangsgrößen** $\mathbf{u
 
 Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}$ beobachten. Diese können dann wiederum als [Messgrößen](../../../Messtechnik/Messtechnik.md) aufgenommen werden.
 
-![invert_dark](assets/RegTSystem.png)
+![invert_dark](../_assets/RegTSystem.png)
 
 > [!hint] [Zustandsbeschreibung](Zustandsbeschreibung.md)
 
@@ -78,7 +78,7 @@ Beispiele für geregelte Systeme aus verscheiden Bereichen:
 
 **Ausgangssystem**
 
-![invert_dark|600](assets/RegTMechkreis.png)
+![invert_dark|600](../_assets/RegTMechkreis.png)
 
 **Aufstellen des Gleichungssystems dieses Systems:**
 
@@ -111,4 +111,4 @@ Rückkopplung von $\omega$ Ergibt sich durch den DC Motor Selbst.
 
 **Strukturbild**
 
-![invert_dark](assets/Pasted%20image%2020250310231552.png)
+![invert_dark](../_assets/Pasted%20image%2020250310231552.png)

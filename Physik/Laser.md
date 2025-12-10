@@ -16,4 +16,4 @@ created: 21st November 2022
 
 ## Helium Neon Laser
 
-![NeHe-Laser](assets/NeHe-Laser.png)
+![NeHe-Laser](../_assets/NeHe-Laser.png)

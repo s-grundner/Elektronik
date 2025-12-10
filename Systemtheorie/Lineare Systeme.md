@@ -54,7 +54,7 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 
 ## Zustandsgleichung als Blockdiagramm
 
-![invert_dark](assets/Pasted%20image%2020250306140047.png)
+![invert_dark](../_assets/Pasted%20image%2020250306140047.png)
 
 - Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Eingangsmatrix** $\mathbf{B}$ den (abgeleiteten) Zustandsvariablen zugeführt.
 - Ein Satz von *Integratoren* (für jede Zustandsvariable) bildet mit der **Systemmatrix** $\mathbf{A}$ im Rückführungszweig eine **Rückkopplungsschleife**.

@@ -27,7 +27,7 @@ $$
 \end{cases}
 $$
 
-![invert_dark](assets/Heaviside.png)
+![invert_dark](../_assets/Heaviside.png)
 
 Sie wird zur Beschreibung von Einschaltvorgängen verwendet.
 

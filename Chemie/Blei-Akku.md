@@ -11,7 +11,7 @@ created: 2. März 2024
 	$\rightarrow$ Aräometer
 - $U=2V$
 
->![#invert_light|450](assets/Bleiakku.png)  
+>![#invert_light|450](../_assets/Bleiakku.png)  
 >$H_{2}SO_4$ als **[Elektrolyt](Elektrochemie.md)** 
 
 Anode (-): $Pb\longrightarrow Pb^{2+}+2e^{-}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$  

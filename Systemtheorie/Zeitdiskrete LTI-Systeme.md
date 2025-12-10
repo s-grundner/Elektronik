@@ -52,7 +52,7 @@ Bei FIR: Die Berechnung der Faltung ist äquivalent zur auswertung der DZGL
 
 Um ein gewünschtes Verhalten eines zeitdiskreten LTI-Systems zu erzielen, werden oft einzelne, leicht zu beschreibende Systeme kaskadiert. 
 
-![invert_dark|500](assets/dzgl.png)
+![invert_dark|500](../_assets/dzgl.png)
 
 Die Reaktion des ersten Systems auf den Einheitsimpuls ist $h_{1}[n]$ somit wird die Ausgangsfolge des zweiten Systems und damit die Impulsantwort des Gesamtsystems (oder Ersatzsystems) $h[n]$ zu:
 

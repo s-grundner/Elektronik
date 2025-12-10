@@ -40,7 +40,7 @@ Wie zu sehen entspricht die Anzahl der Valenzelektronen einer Hauptgruppe im [PS
 
 Beispiel diverser Atome in der Anordnung des [PSE](Periodensystem%20der%20Elemente.md)
 
-![invert_light|800](assets/psee-schreibw.png)
+![invert_light|800](../_assets/psee-schreibw.png)
 
 ---
 # Tags

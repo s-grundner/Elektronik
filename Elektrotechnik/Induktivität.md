@@ -94,7 +94,7 @@ Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben s
 
 Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$. Also dass die Spannung an den Klemmen $0$ ist. Das ist hier nicht mehr der Fall.
 
-![invert_dark](../Physik/assets/INdu.png)
+![invert_dark](../_assets/INdu%201.png)
 
 Für die Spulenspannung einer Realen Spule mit Äquvalenten Serienwiderstand $R$ gilt dann
 

@@ -20,7 +20,7 @@ title: Elektromagnet
 > 
 > Elektromagnete sind eine Schnittstelle zwischen den Elektrischen Kräften und der Kinematik.
 > 
-> ![invert_dark](assets/Pasted%20image%2020250310003826.png)
+> ![invert_dark](../_assets/Pasted%20image%2020250310003826.png)
 
 ## Elektromagente als Antriebe
 
@@ -49,7 +49,7 @@ Drei Relevante Elektromagnet-Grundformen:
 
 |             Topfmagnet              |             U-Magnet              | E-Magnet                        |
 | :---------------------------------: | :-------------------------------: | :-----------------------------: |
-| ![invert_dark](assets/TopfEM.png) | ![invert_dark](assets/U_EM.png) | ![invert_dark](assets/E_EM.png) |
+| ![invert_dark](../_assets/TopfEM.png) | ![invert_dark](../_assets/U_EM.png) | ![invert_dark](../_assets/E_EM.png) |
 
 Ziel ist der Entwurf von EM mit verschiedenen **Magnetkraft-Hub** Kennlinien entsprechend der Anwendung. Durch Modifikationen der Grundformen komplexere Magnetkreise erstellbar.
 

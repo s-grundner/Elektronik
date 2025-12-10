@@ -16,7 +16,7 @@ Der Rundfunk dient als Kommunikationsmedium für die Öffentlichkeit.
 ### [Elektromagnetische Wellen](../Physik/Elektromagnetische%20Wellen.md)
 
 Die Funkbänder im Rundfunkspektrum:  
-![EM-Spektrum_Funk](../Physik/assets/EM-Spektrum_Funk.png)
+![EM-Spektrum_Funk](../_assets/EM-Spektrum_Funk.png)
 
 ### Fortbewegung Der Funkwelle
 
@@ -39,5 +39,5 @@ Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 
 # Tags
 
-- [Rundfunk](../Physik/assets/pdf/Rundfunk.pdf)
-- [Elektromagentisches Spektrum](../Physik/assets/pdf/spectrum_20090210.pdf)
+- [Rundfunk](../_assets/pdf/Rundfunk.pdf)
+- [Elektromagentisches Spektrum](../_assets/pdf/spectrum_20090210.pdf)

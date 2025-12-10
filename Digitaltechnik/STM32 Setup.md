@@ -21,7 +21,7 @@ created: 18th August 2023
 
 > [!info]- Projektdatei Erstellen
 > 
-> ![](assets/CreateNewProjSTM32.png)
+> ![](../_assets/CreateNewProjSTM32.png)
 
 > [!info]- MCU Auswählen (Hier *STM32F405RGT6*)
 > Nach dem Erstellen der Projektdatei öffnet sich der ***MCU-Selector***
@@ -32,7 +32,7 @@ created: 18th August 2023
 
 > [!info]- Projektoptionen und Fertigstellung
 > 
-> ![InlineR|381](assets/STM32-Proj_Opt.png)
+> ![InlineR|381](../_assets/STM32-Proj_Opt.png)
 > 
 > Für den Einstig können hier die Standardeinstellungen verwendet werden.
 >

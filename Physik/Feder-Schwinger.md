@@ -17,7 +17,7 @@ professor:
 
 # [Feder](Federkraft.md)-Schwinger
 
-![InlineR](assets/Pasted%20image%2020240125155851.png)  
+![InlineR](../_assets/Pasted%20image%2020240125155851.png)  
 Als einfachstes Modellsystem eines harmonischen Oszillators, betrachten wir eine Masse an einer [Feder](Federkraft.md), die sich reibungsfrei auf einer Unterlage bewegt.
 
 In der Gleichgewichtslage bei $x = 0$ übt die [Feder](Federkraft.md) keine [Kraft]({MOC}%20Kräfte.md) auf den Körper aus, bei einer Auslenkung $x$ wirkt eine [Rückstellkraft](Federkraft.md) die linear mit $x$ ansteigt.

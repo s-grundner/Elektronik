@@ -31,7 +31,7 @@ title: Faltungssumme
  
 Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
 
-![invert_dark|500](assets/LTI-System.png)
+![invert_dark|500](../_assets/LTI-System.png)
 
 Für ein oft vorliegendes kausales LTI-System mit endlicher Impulsantwort (FIR) $h[n] = (h_{0}, h_{1}, \dots, h_{N_{h}-1})$ der länge $N_{h-1}$ gilt die [Differenzengleichung](../Mathematik/Analysis/Differenzengleichung.md):
 

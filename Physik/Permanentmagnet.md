@@ -30,14 +30,14 @@ Die Arbeitsgerade ist jene Gerade, die durch die **Magnetische Rückwirkung** de
 > [!def] **Arbeitspunkt / Betriebspunkt**
 > Der Schnittpunkt der Arbeitsgerade mit der **Magnetkennlinie** bezeichnet man als Betriebspunkt / Arbeitspunkt des Permanentmageneten.
 
-![invert_dark|300](assets/ArbeitsgeradePM.png)
+![invert_dark|300](../_assets/ArbeitsgeradePM.png)
 
 ### Verschiebung der Arbeitsgerade durch Gegenfelder
 
-| ![invert_dark](assets/EinflussAnkerfeldAP1.png)                       | ![invert_dark](assets/EinflussAnkerfeldAP2.png)                                           |
+| ![invert_dark](../_assets/EinflussAnkerfeldAP1.png)                       | ![invert_dark](../_assets/EinflussAnkerfeldAP2.png)                                           |
 | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | Einfluss des Ankerfeldes auf den Arbeitsbereich des Permanentmagenten | Entmagnetisierung durch Veränderung der Magnetkreisgeometrie (z.B. Entfernung des Rotors) |
-| ![invert_dark](assets/EinflussAnkerfeldAP3.png)                       | ![invert_dark](assets/EinflussAnkerfeldAP4.png)                                           |
+| ![invert_dark](../_assets/EinflussAnkerfeldAP3.png)                       | ![invert_dark](../_assets/EinflussAnkerfeldAP4.png)                                           |
 | Enmagnetisierug durch hohe Gegenfelder                                | Entmagentisierung durch Veränderung der Magentkennlinie infloge einer Temperaturerhöhung  |
 
 ## Linearisierte Entmagnetisierungs Kennlinie
@@ -92,7 +92,7 @@ Für den Betreibspunkt setzt man in die Arbeitsgerade die [lin. Emtmagnetisierun
 
 Beispiel einer Gleichstrommaschine bei der Ankerrückwirkungen, also die Induktion der rotierenden Ankerwicklung ein Gegenfeld erzeugen. Bei der Arbeisgerade ist eine zusätzliche Verschiebung abhängig von der Ankerflussdichte durch den Permanentmagneten $B_{\mathrm{mA}}$ zu erkennen.
 
-![invert_dark|400](assets/GSM-ArbeitsKL.jpg)
+![invert_dark|400](../_assets/GSM-ArbeitsKL.jpg)
 
 $$
 B_{\mathrm{mA}}(\varphi) = \frac{Ni}{2} \cdot \frac{\beta(\varphi)}{\beta_{0}} \cdot \frac{\mu_{0}}{\frac{l_{\mathrm{m}}}{\mu_{\mathrm{m}}}+\frac{A_{\mathrm{m}}}{A_{\mathrm{\delta}}l_{\delta}}}
@@ -170,7 +170,7 @@ $$
 
 ## Herleitung 3
 
-![invert_dark](assets/GSM-ArbeitsKL-2.jpg)
+![invert_dark](../_assets/GSM-ArbeitsKL-2.jpg)
 
 Bei der alleinigen Berechnung des Ankerfeldanteils gilt der Permanentmagent als Abgeschaltet:
 

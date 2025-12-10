@@ -29,7 +29,7 @@ Intrinsisch $\to$ Nicht Dotiert
 > 
 > Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
 > 
-> ![invert_dark|1000](assets/SiLeitungsValenzband.png)
+> ![invert_dark|1000](../_assets/SiLeitungsValenzband.png)
 
 Unterschiede des Bändermodells verschiedener Leiterklassen:
 
@@ -41,13 +41,13 @@ Unterschiede des Bändermodells verschiedener Leiterklassen:
 ### Valenz und Leitungsband
 
 Reines Silizium hat die Struktur eines Atomgitters.
-![invert_dark|600](assets/Pasted%20image%2020250207135059.png)
+![invert_dark|600](../_assets/Pasted%20image%2020250207135059.png)
 - Das **Valenzband** ist das Energieniveau der Äußersten elektronen innerhalb des Gitters ([Valenzelektronen](../../Chemie/Valenzelektronen.md))
 - Das **Leitungsband** ist das oberste erlaubte Energieniveau auf dem sich freie elektronen aufhalten können  
 
 
 
-![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
+![invert_dark|500](../_assets/HalbleiterValenzLeitungsband.png)
 
 Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien elektronen, da diese fest an das Atomgitter gebunden sind.
 

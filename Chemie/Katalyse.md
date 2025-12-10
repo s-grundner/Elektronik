@@ -37,7 +37,7 @@ Man braucht: Aktivierungsenergie
 
 ### Energiediagramm Bei Knallgasreaktion
 
->![invert_light|500](assets/AE.png)  
+>![invert_light|500](../_assets/AE.png)  
 >EA ohne Katalysator  
 >EA mit Katalysator
 

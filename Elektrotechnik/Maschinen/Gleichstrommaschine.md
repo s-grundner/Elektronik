@@ -93,7 +93,7 @@ Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM. 
 
 Der Drehsinn des Drehmoments kann wieder daran bestimmt werden, dass der Ankerfluss die Richtung des Erregerflusses über die kürzeste Bewegung anstrebt. 
 
-![invert_light|400](assets/GSM-ESB.png)
+![invert_light|400](../../_assets/GSM-ESB.png)
 
 Dieses Schaltbild kann stationär immer so betrachtet werden, da es im Rotor immer eine Ankerwicklung in dieser Position gibt.
 
@@ -195,7 +195,7 @@ $$
 In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zueinander am Netz. Das Erregerfeld wird direkt durch die Netzspannung eingeprägt.
 
 
-![invert_light|300](assets/nebenschluss.png)
+![invert_light|300](../../_assets/nebenschluss.png)
 
 
 $$
@@ -210,7 +210,7 @@ $$
 
 ### Reihenschlusserregung
 
-![invert_light|300](assets/reihenschluss.png)
+![invert_light|300](../../_assets/reihenschluss.png)
 
 Im Gegensatz zur Nebenschlusserregung sind hier die beiden Wicklungen hintereinandergeschaltet. Der Erregerstrom entspricht daher dem Ankerstrom. Dies bedeutet, dass die Felderregung belastungsabhänging erfolgt. 
 
@@ -231,7 +231,7 @@ $$
 
 In Summe sind diese Momente $0$: $\int M_{c}(\varphi) \mathrm{~d}\varphi_{r}=0$
 
-![invert_dark|500](assets/Nutrasten.png)
+![invert_dark|500](../../_assets/Nutrasten.png)
 
 
 ---

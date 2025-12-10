@@ -33,5 +33,5 @@ Die Verbindung zwischen den Blöcken repräsentieren die Klasse des [Signals](Sy
 
 Als Beispiel der [CC1101](Digitaltechnik/CC1101.md), ein Radar Chip mit digitaler Schnittstelle.
 
-![invert_dark](../Digitaltechnik/assets/cc1101-BSB.png)
+![invert_dark](../_assets/cc1101-BSB.png)
 

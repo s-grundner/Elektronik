@@ -91,7 +91,7 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 > [!hint] Im kontinuierlichen gilt: **vollst. steuerbar** $\iff$ **vollst. erreichbar**
 > Ist das System vollständig Erreichbar ist es ebenso vollständig Steuerbar. Die Steuerbarkeit ist also genauso durch den vollen [Rang](../Mathematik/Algebra/Rang%20einer%20Matrix.md) von $\mathbf{M}_{\mathcal{R}}$ gegeben
 
-![invert_dark|250](assets/Steuerbarkeit.png)
+![invert_dark|250](../_assets/Steuerbarkeit.png)
 
 Warum? $\to$ Zeitinvarianz eines LTI Systems: Vergleicht man die beiden Definitionen, stellt man fest, dass Steuerbarkeit genau die inverse Eigenschaft zur Erreichbarkeit ist.
 

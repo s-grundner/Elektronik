@@ -27,7 +27,7 @@ banner_x: 1
 
 - Die Atome eines Körpers sind auch ohne Krafteinwirkung von außen immer in [Bewegung](Kinematik.md).
 - Einen Festkörper kannst du dir als *[Feder](Federkraft.md)-Kugel-Modell* vorstellen.
-- ![braunschebewegung](assets/braunschebewegung.png)
+- ![braunschebewegung](../_assets/braunschebewegung.png)
 - Die Summe aller kinetischen und potentiellen Energien der Atome eines Körpers wird als **innere Energie** bezeichnet.
 
 ## 3 Joul'sche Wärme

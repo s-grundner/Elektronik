@@ -18,7 +18,7 @@ $B=\Delta m\cdot c^{2}$
 Die Bindungsenergie ist also bereits bei der Bildung des gebundenen Systems freigesetzt und abgegeben worden und nun nicht mehr verfügbar.  
 Unter der *mittleren Bindungsenergie pro Nukleon* versteht man die Bindungsenergie bezogen auf ein Nukleon: $B_{mittel} = \dfrac{B}{A}$
 
-![assets/MittlereBindungsenergie3.png](assets/MittlereBindungsenergie3.png)
+![../_assets/MittlereBindungsenergie3.png](../_assets/MittlereBindungsenergie3.png)
 
 Mit diesem Diagramm kann die freiwerdende Energie ermittelt werden, indem man die Differenz des Produktes aus der Mittleren Bindungsenergie und der Masse der Edukte und der Produkte berechnet.
 

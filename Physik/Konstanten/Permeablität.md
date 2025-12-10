@@ -62,7 +62,7 @@ Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. 
 - Das Material bleibt nach jedem Zyklus des Wechselfeldes magnetisiert.
 - Die relative Permeabilität $\mu_{r}$ ist abhängig von des magnetischen Feldes
 
-![invert_dark|500](assets/hysterese.png)
+![invert_dark|500](../../_assets/hysterese.png)
 
 #### Kenngrößen
 
@@ -76,7 +76,7 @@ Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. 
 > - Ursache: Alle **Weißschen Bezirke** sind gleichgerichtet
 > - Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
-![invert_dark|600](assets/Pasted%20image%2020250509010643.png)
+![invert_dark|600](../../_assets/Pasted%20image%2020250509010643.png)
 
 Abbildung: Verschiebung der Weißschen Bezirke beim Aufmagnetisieren eines ferromagnetischen Materials
 

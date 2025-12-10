@@ -16,7 +16,7 @@ title: Zeitkontinuierliche Signale
 
 #  Zeitkontinuität von Signalen
 
-![invert_dark|600](assets/SignaleZeitkontinuitaet.png)
+![invert_dark|600](../_assets/SignaleZeitkontinuitaet.png)
 
 Ein zeitkontinuierliches Signal ist für alle Zeitpunkte definiert, ein zeitdiskretes Signal nur zu gewissen Zeitpunkten.
 

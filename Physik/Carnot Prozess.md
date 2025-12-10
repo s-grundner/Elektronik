@@ -14,7 +14,7 @@ Der **Carnot-[Kreisprozess](https://de.wikipedia.org/wiki/Kreisprozess "Kreispr
 
 ## Verbrennungsmotor
 
-![550](assets/carnot1.png)
+![550](../_assets/carnot1.png)
 
 **Viertakt-Ottomotor:**
 -	*Die 4 Takte sind:* Ansaugen, Verdichten, Arbeiten, Auspuffen / Suck, Squeeze, Bang, Blow

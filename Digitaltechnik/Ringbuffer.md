@@ -18,7 +18,7 @@ created: 19th April 2022
 Der Ringbuffer ist ein FIFO Speicher, der zwischen Ein und Ausgangsmedium eine Zeit Unabhängigkeit schaffen soll,  
 indem die zu übertragenden Daten nacheinander in einem Array geschrieben werden und bei bedarf gelesen werden können.
 
-![](assets/Circular_Buffer_Animation.gif)
+![](../_assets/Circular_Buffer_Animation.gif)
 
 Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
@@ -31,21 +31,21 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 > - Ist er am Ende des Ringbuffers, kehrt er auf die Anfangspoition zurück
 
 
-![buffer_anim](assets/buffer_anim.gif)
+![buffer_anim](../_assets/buffer_anim.gif)
 
 ## Freier Speicher Im Ringbuffer
 
 > [!summary] Die Größe und der Datentyp des Ringbuffers müssen als einzige Parameter angegeben werden  
 > Freie Größe im Ringbuffer (D… Daten, X … Freier Platz)
 > - Wenn der *Read-Pointer* im Array vor dem *Write-Pointer* ist: `free_size = RINGBUFFER_SIZE - p_write + p_read - 1`  
-> ![RB1](assets/RB1.png)
+> ![RB1](../_assets/RB1.png)
 > - Daraus folgt: Wenn der *Read*-Pointer auf dem *Write*-Pointer ist: `free_size = RINGBUFFER_SIZE - 1`  
-> ![RB2](assets/RB2.png)
+> ![RB2](../_assets/RB2.png)
 > ---
 > - Wenn der *Read-Pointer* im Array hinter dem *Write-Pointer* ist: `free_size = p_read - p_write - 1`  
-> ![RB3](assets/RB3.png)
+> ![RB3](../_assets/RB3.png)
 > - Daraus folgt: Wenn der *Read-Pointer* eine Stelle vor dem *Write-Pointer* ist: `free_Size = 0`  
-> ![RB4](assets/RB4.png)
+> ![RB4](../_assets/RB4.png)
 
 > [!WARNING] Der Tatsächlich für die Daten verfügbare Platz ist um `1` weniger als die angegebene Größe  
 > Es muss eine Stelle im Puffer geben, bei der der Write Pointer stehenbleibt, diese 

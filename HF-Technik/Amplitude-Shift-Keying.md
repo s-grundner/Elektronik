@@ -138,7 +138,7 @@ r[0] &= v(t)\Big|_{t=T}=r(t) * g_{\mathrm{R}}(t)\Big|_{t=T} \\
 \end{align}
 $$
 > [!hint]- Wenn man Zwei Rechteckfunktionen faltet, erhält man eine Trapez- oder im spezialfall eine Dreiecksfunktion
-> ![invert_dark](assets/Convolution_of_box_signal_with_itself.gif)
+> ![invert_dark](../_assets/Convolution_of_box_signal_with_itself.gif)
 
 ### Threshold Detector
 

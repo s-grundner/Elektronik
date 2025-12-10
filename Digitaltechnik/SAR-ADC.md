@@ -29,4 +29,4 @@ Wie in Abbildung 1 zu sehen ist, wird für den Aufbau des SAR-ADCs eine [Filter]
 
 > [!question] Der Algorithmus weist das gleiche verhaöten wie [Binary Search](Softwareentwicklung/DS-Algo/Binary%20Search.md) auf
 
-![invert_dark|525](assets/Waegeverfahren.png)
+![invert_dark|525](../_assets/Waegeverfahren.png)

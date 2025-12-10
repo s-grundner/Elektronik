@@ -20,7 +20,7 @@ professor:
 >[!info] mathematisches Pendel  
 > Das mathematische Pendel ist die Idealisierung eines Fadenpendels bei dem eine Punktmasse $m$ an einem masselosen Faden der Länge $l$ schwingt.
 
-![InlineR|300](assets/Pasted%20image%2020240125163942.png)
+![InlineR|300](../_assets/Pasted%20image%2020240125163942.png)
 
 > [!important] Winkel $\theta$  
 > Das Pendel sei um den Winkel $\theta$ ausgelenkt  

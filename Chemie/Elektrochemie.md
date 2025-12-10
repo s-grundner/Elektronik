@@ -24,7 +24,7 @@ created: 21st August 2022
 Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit [Strom](../Elektrotechnik/elektrischer%20Strom.md).
 
 >[!EXAMPLE] Elektrolyse von $CuCl_{2}$ ([Kupfer](../Physik/Materialkunde/Kupfer.md)(II)-chlorid Lösung)  
->![#invert_light|350](assets/Cucl.png)
+>![#invert_light|350](../_assets/Cucl.png)
 
 | [Reduktion](Oxidation%20und%20Reduktion.md) (Aufnahme von $e^{-}$) | [Oxidation](Oxidation%20und%20Reduktion.md) (Abgabe von $e^{-}$) |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -106,7 +106,7 @@ Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es
 ### Galvanisches Element
 
 elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
-![675](assets/DaniellEL.png)  
+![675](../_assets/DaniellEL.png)  
 [Daniell-Element](Daniell-Element.md)
 
 > [!question] Beim Schließen Des Stromkreises Passiert Folgendes
@@ -129,7 +129,7 @@ elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) 
 [Spannung](../Elektrotechnik/elektrische%20Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
 Vermessung gegen eine Bezugselektrode ist notwendig.  
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$  
-![DaniellEL2](assets/DaniellEL2.png)  
+![DaniellEL2](../_assets/DaniellEL2.png)  
 **Standard:** 
 - Wasserstoffgesättigte Pt-Elemente mit $HCl$: $c = 1.00 mol/l$
 - $p = 1 bar$ 

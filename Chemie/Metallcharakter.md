@@ -1,6 +1,6 @@
 # 3.2 Metallcharakter
 
-![200](assets/x-ab_y-zu.png)
+![200](../_assets/x-ab_y-zu.png)
 
 - [Metalle](Metallbindung.md) sind Elemente mit hoher Leitfähigkeit.
 - $e^{-}$ müssen locker sitzen.

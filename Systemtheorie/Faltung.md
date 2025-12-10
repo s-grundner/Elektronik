@@ -26,7 +26,7 @@ semester: WS24
 > $$
 
 
-![invert_dark](assets/Convolution_of_box_signal_with_itself.gif)
+![invert_dark](../_assets/Convolution_of_box_signal_with_itself.gif)
 
 ## Eigenschaften der Faltung
 

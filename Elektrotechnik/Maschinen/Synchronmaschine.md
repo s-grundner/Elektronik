@@ -19,5 +19,5 @@ title: Synchronmaschine
 **Funktion:** Es werden im Stator Pole nacheinander im Kreis geschalten welchen der Rotor folgt
 **Merkmale:** Drehzahl entspricht genau der Frequenz mit der die Pole geschalten werden
 
-| ![500](assets/SyncB.jpg) | ![500](assets/syncA.jpg) |
+| ![500](../../_assets/SyncB.jpg) | ![500](../../_assets/syncA.jpg) |
 | --------------------------- | --------------------------- |

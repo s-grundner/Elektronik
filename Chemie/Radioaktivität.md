@@ -40,7 +40,7 @@ Bei Positronen Strahler macht man sich zunutze, dass das emittierte Positron im 
 3. Ort eines Positronen Zerfalls und Paarvernichtung  
 4. γ-Quanten fliegen gleichzeitig und im Winkel von 180 Grad zueinander vom Ort des Zerfalls weg.
 
-![](assets/ABG_Strahlung.png)
+![](../_assets/ABG_Strahlung.png)
 
 ## Halbwertszeit
 
