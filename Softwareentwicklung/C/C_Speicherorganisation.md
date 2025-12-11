@@ -22,7 +22,7 @@ Für unser Programm ist dieser Speicher virtuell, als linear adressierbar, zusam
 
 Dieser Speicherbereich wird folgendermaßen aufgeteilt:
 
-![Speicherorg1](../assets/Speicherorg1.png)
+![Speicherorg1](../../_assets/Speicherorg1.png)
 
 Mit einer 32 Bit Adresse kann von 0x0 bis `0xFFFF FFFF` adressiert werden.
 
@@ -245,7 +245,7 @@ Um die Adressen von Variablen zu ermitteln (<https://sourceware.org/binutils/doc
 
 In **Code::Blocks** gibts die Möglichkeiten (Debug -> Information -> Target&Files):
 
-![Speicherorg2](../assets/Speicherorg2.png)
+![Speicherorg2](../../_assets/Speicherorg2.png)
 
 Im Watches-Fenster kann die Adresse einer Variable mit dem Adressoperator ermittelt werden.
 

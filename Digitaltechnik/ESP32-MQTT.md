@@ -1,10 +1,10 @@
 ## ESP32-MQTT
 
-> [!question] [MQTT](../Softwareentwicklung/DevOps/IoT/MQTT.md)
+> [!question] [MQTT](../Softwareentwicklung/IoT/MQTT.md)
 
-In diesem Projekt wird mit einem WLAN-Accesspoint verbunden, anschließend auf den [MQTT](../Softwareentwicklung/DevOps/IoT/MQTT.md)-Broker `test.mosquitto.org` und anschließend ein Zähler gesendet. Gleichzeitig wird ein Topic subscribed und wenn empfangen im Seriellen Monitor ausgegeben.
+In diesem Projekt wird mit einem WLAN-Accesspoint verbunden, anschließend auf den [MQTT](../Softwareentwicklung/IoT/MQTT.md)-Broker `test.mosquitto.org` und anschließend ein Zähler gesendet. Gleichzeitig wird ein Topic subscribed und wenn empfangen im Seriellen Monitor ausgegeben.
 
-![image-20210530174045130](../Softwareentwicklung/DevOps/IoT/assets/Esp32_Mqtt.png)
+![image-20210530174045130](../_assets/Esp32_Mqtt.png)
 
 Passen Sie die WiFi-Einstellungen und die Topics entsprechend an (im Topic wird $$$$ durch das Namenskürzel ersetzt, das Gleiche gilt für die User-Id, diese muss eindeutig zuordenbar sein):
 
@@ -73,7 +73,7 @@ void loop() {
 
 In diesem Projekt werden die WiFi-Verbindungsdaten und die Adresse der MQTT-Brokers in einer eigenen Datei abgelegt. Dafür sind SPIFFS und FS notwendig.
 
-![image-20210530174045130](../Softwareentwicklung/DevOps/IoT/assets/Esp32_Mqtt.png)
+![image-20210530174045130](../_assets/Esp32_Mqtt.png)
 
 Vorab: Installation der Library PubSubClient, in **PlatformIO.ini**:
 

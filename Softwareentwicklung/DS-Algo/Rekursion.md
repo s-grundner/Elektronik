@@ -59,7 +59,7 @@ Grundsätzlich gilt:
 - jedes iterativ lösbare Problem lässt sich auch rekursiv lösen und umgekehrt (nicht immer trivial).
   
 
-![Rekursion](assets/Rekursion.png)
+![Rekursion](../../_assets/Rekursion.png)
 
 ### Basic Attempt / Tought Process
 
@@ -76,7 +76,7 @@ Grundsätzlich gilt:
 > }
 > ```
 
-![275](../assets/reverseString_callStack.svg)
+![275](../../_assets/reverseString_callStack.svg)
 
 ## Memoisation
 

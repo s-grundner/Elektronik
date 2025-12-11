@@ -12,7 +12,7 @@ created: 29th November 2022
 
 Ein-/Ausgabe-Streams: das Lesen und Schreiben von Daten aus oder in ein C-Programm funktioniert über Streams (Datenströme). Werden Daten von der Tastatur gelesen, dann wird dem `stdin`-Stream ein Zeichen eingefügt, das auf der Tastatur gedrückt wird:
 
-![invert](assets/Buffer.png)
+![invert](../../_assets/Buffer.png)
 
 Der Buffer ist als [FIFO Queue](../DS-Algo/FIFO%20Queue.md)-Buffer (First-In-First-Out) organisiert, also wird der erste Wert der in den Buffer reinkommt auch als Erster wieder ausgelesen. Die Reihenfolge der Eingabe entspricht der Reihenfolge der Ausgabe. Der stdio-Stream wird von der Tastatur befüllt und vom C-Programm wieder geleert.
 

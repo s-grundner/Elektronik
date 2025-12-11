@@ -23,7 +23,7 @@ Hier wird nur sehr oberflächlich eingegangen auf den Zugriff auf eine Datenbank
 
 Hier erfolgt ein kurzer Überblick über den Zugriff auf eine Datenbank mittels Node.js Framework. Als Anwendung wird hier die dargestellte Serveranwendung eingeführt:
 
-![REST_SysOverview_03](assets/NodeJs.png)
+![REST_SysOverview_03](../../_assets/NodeJs.png)
 
 Direkt einen Webserver mittels Node.js zu implementieren ist kein übliches Vorgehen. Mittels Node.js kann sehr komfortabel ein **REST-API** erstellt werden.
 

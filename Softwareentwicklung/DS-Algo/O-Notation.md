@@ -22,7 +22,7 @@ Speicherbewertung beschreibt, wie **speichereffizient** ein Algorithmus ist.
 
 Unter Speichereffizienz versteht man, wie viel Speicher ein Algorithmus *während* seiner Ausführung verbraucht
 
-![[assets/Pasted image 20240417112017.png]]
+![[../../_assets/Pasted image 20240417112017.png]]
 
 ## Rechenregeln für Komplexitäten
 

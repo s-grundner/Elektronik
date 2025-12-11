@@ -8,17 +8,17 @@ created: 29th November 2022
 
 # ESP32
 
-![InlineR](../Softwareentwicklung/DevOps/IoT/assets/ESP32_nocase.png) Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../Digitaltechnik/Interfaces/UART.md), [SPI](../../Digitaltechnik/Interfaces/SPI.md), CAN, [I2C](../../Digitaltechnik/Interfaces/I2C.md), I2S, WLAN und Bluetooth.
+![InlineR](../_assets/ESP32_nocase.png) Der ESP32 ist ein Leistungsstarkes System on a Chip (SoC) mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md) sind beispielsweise [UART](../../Digitaltechnik/Interfaces/UART.md), [SPI](../../Digitaltechnik/Interfaces/SPI.md), CAN, [I2C](../../Digitaltechnik/Interfaces/I2C.md), I2S, WLAN und Bluetooth.
 
 
-![InlineL](../Softwareentwicklung/DevOps/IoT/assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Hardwareentwicklung/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
+![InlineL](../_assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Hardwareentwicklung/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
 
 
-Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](../Softwareentwicklung/DevOps/IoT/ESP-AT.md)) auf den Chip heruntergeladen werden.
+Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](../Softwareentwicklung/IoT/ESP-AT.md)) auf den Chip heruntergeladen werden.
 
 # Firmware Entwicklung
 
-Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](../Softwareentwicklung/DevOps/IoT/ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
+Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](../Softwareentwicklung/IoT/ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
 
 - als Editor wird VSCode verwendet
 - für die Toolkette wird [Python](../Softwareentwicklung/Python/Python.md) benötigt
@@ -96,10 +96,10 @@ Im Folgenden sind ein paar Beispiel-Sourcen für notwendige Funktionalitäten.
 
 µController ESP32-Pico
 - [Link-Espressif ESP32-Pico](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-pico-kit.html#)
-- [ESP32-Pico Getting Started](../Softwareentwicklung/DevOps/IoT/Esp32Pico/Espressif_Systems_01162019_ESP32-PICO-KIT-1523019.pdf)
-- [ESP32-Pico Technical Reference Manual](../Softwareentwicklung/DevOps/IoT/Esp32Pico/esp32_technical_reference_manual_en.pdf)
-- [ESP32-Pico Datasheet](../Softwareentwicklung/DevOps/IoT/Esp32Pico/esp32-pico-d4_datasheet_en.pdf)
-- [ESP32-Pico Schematic](../Softwareentwicklung/DevOps/IoT/Esp32Pico/esp32-pico-kit-v4.1_schematic.pdf)
+- [ESP32-Pico Getting Started](../_assets/pdf/Esp32Pico/Espressif_Systems_01162019_ESP32-PICO-KIT-1523019.pdf)
+- [ESP32-Pico Technical Reference Manual](../_assets/pdf/Esp32Pico/esp32_technical_reference_manual_en.pdf)
+- [ESP32-Pico Datasheet](../_assets/pdf/Esp32Pico/esp32-pico-d4_datasheet_en.pdf)
+- [ESP32-Pico Schematic](../_assets/pdf/Esp32Pico/esp32-pico-kit-v4.1_schematic.pdf)
 
 
 Arduino-Framework

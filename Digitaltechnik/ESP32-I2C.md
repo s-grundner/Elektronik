@@ -2,7 +2,7 @@
 
 Der BMP280 ist mit dem ESP32 mittels I²C-Bus verbunden (der Sensor kann auch mittels SPI eingebunden werden):
 
-![img](../Softwareentwicklung/DevOps/IoT/assets/ESP32_BMP280.png)
+![img](../_assets/ESP32_BMP280.png)
 
 Für diese Projekte muss die Library **Adafruit BMP280 Library** installiert werden (PlatformIO.ini):
 

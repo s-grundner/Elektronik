@@ -55,7 +55,7 @@ ptr2 = &num;		// Adresse von var in Adressvariable ptr1 kopieren
 
 Mit dem Adress-Operator *&* kann die Adresse einer Variable ermittelt werden. Diese Adresse kann dann einer Adress-Variable (Zeiger) zugewiesen werden.
 
-![Cpp_Zeiger_01](assets/Cpp_Zeiger_01.png)
+![Cpp_Zeiger_01](../../_assets/Cpp_Zeiger_01.png)
 
 Rechnen mit Adressen: (ptr2 + 1) erhöht die Adresse nicht um 1 sondern um die Größe des Elements, für einen Zeiger auf int wird daher die Adresse um 4 erhöht, und das gilt auch für den Inkrement-Operator:
 
@@ -116,7 +116,7 @@ Bei der Definition eines Arrays ist der wesentliche Unterschied zu Arrays in and
 
 - die Array-Variable *arr* kann auch als Zeiger verstanden werden. Die Adresse die dieser Zeiger beinhaltet ist die Adresse des ersten Elements des Arrays. Sämtliche weiteren Elemente des Arrays sind im Speicher genau auf das erste Element folgend abgelegt. Dadurch kann mittels eines Index relativ effizient auf die einzelnen Elemente zugegriffen werden.
 
-  ![Cpp_Zeiger_01](assets/Cpp_Array_01.png)
+  ![Cpp_Zeiger_01](../../_assets/Cpp_Array_01.png)
 
   In der technischen Realisierung eines Array kann daher der Index direkt zur Adresse des ersten Elements dazugezählt werden.
 

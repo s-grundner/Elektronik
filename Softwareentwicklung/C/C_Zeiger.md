@@ -131,7 +131,7 @@ printf("%x", *ptr);
 
 die Adresse wird um 8 erhöht. Wird eine Adressvariable inkrementiert, dann wird der Wert immer um die Größe des Inhalts erhöht.
 
-![Zeiger1](../assets/Zeiger1.png)
+![Zeiger1](../../_assets/Zeiger1.png)
 
 ## Felder
 

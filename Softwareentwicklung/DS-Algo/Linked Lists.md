@@ -39,13 +39,13 @@ Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten 
 
 Die Elemente so einer Liste werden als **Knoten** bezeichnet. Für das Speichern von drei einfachen Nummern sieht das so aus:
 
-![invert_dark](assets/EinfList02.png)
+![invert_dark](../../_assets/EinfList02.png)
 
 Der Vorteil von einer solchen Liste ist ersichtlich: sie kann beliebig erweitert werden, dazu muss ein neues Element erzeugt werden und entweder an einer beliebigen Stelle oder am Ende eingefügt werden.
 
 Da diese Art der Liste nur in eine Richtung durchgangen werden kann, wird sie als **einfach** verkettete Liste bezeichnet. Alternativ gibt es die **doppelt** verketteten Listen. Sie haben zusätzlich in jedem Knoten einen Zeiger der auf den vorhergehenden Knoten zeigt. Hier wiederum ein einfaches Beispiel dieses Typs:
 
-![invert_dark](assets/EinfList03.png)
+![invert_dark](../../_assets/EinfList03.png)
 
 Diese Liste kann in beide Richtungen durchgangen werden. Sie haben allerdings einen höheren Speicherbedarf.
 
@@ -79,21 +79,21 @@ Der Zeiger des letzten Knotens in **Zyklischen** Listen zeigt auf das erste Elem
 
 Anstatt sich das erste Listenelement zu merken, wird häufig ein **Listenkopf** vorangestellt. Dieser beinhaltet zumindest einen Zeiger auf das erste Listenelement. Zusätzlich wird oft noch die Anzahl der Knoten in der Liste (Anzahl der Elemente) und/oder ein Zeiger auf das letzte Element angefügt.
 
-![invert_dark](assets/EinfList07.png)
+![invert_dark](../../_assets/EinfList07.png)
 
 ## Vorteile Von Listen
 
 1. Einfaches Einfügen von Knoten am Beginn/Ende in der Mitte der Liste. Hier wird das Element 25 zwischen 99 und 37 eingefügt:
 
-![invert_dark](assets/EinfList04.png)
+![invert_dark](../../_assets/EinfList04.png)
 
 1. Einfaches Löschen von Knoten am Beginn/Ende in der Mitte der Liste. Der Zeiger des vorhergehenden Knotens wird angepasst, dann wird (ein Zeiger auf) das Element freigegeben (`free`):
 
-![invert_dark](assets/EinfList05.png)
+![invert_dark](../../_assets/EinfList05.png)
 
 1. Einfaches Verschieben von Knoten innerhalb der Liste. Dazu müssen lediglich die Zeiger verändert werden:
 
-![invert_dark](assets/EinfList06.png)
+![invert_dark](../../_assets/EinfList06.png)
 
 Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil viele Elemente umkopiert werden. Hier werden lediglich einzelne, wenige [Pointer](C_Zeiger.md) angepasst.
 
@@ -102,9 +102,9 @@ Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil vie
 Mit Traversieren ist das Durchlaufen von Listen oder ähnlichen Strukturen gemeint. Wie erfolgt das:
 
 - Begonnen wird das indem ein temporärer Zeiger `ptr` auf das erste Element gelegt wird - also dorthin wo `first` vom Listenkopf zeigt:  
-![invert_dark](assets/EinfList08.png)
+![invert_dark](../../_assets/EinfList08.png)
 - Um auf das nächste Element zugreifen zu können, muss der Hilfs-Zeiger `ptr` auf das Element verschoben werden, welches durch das aktuelle Element mittels `next` erreicht werden kann:  
-![invert_dark](assets/EinfList09.png)
+![invert_dark](../../_assets/EinfList09.png)
 - Dieser Vorgang kann solange wiederholt werden, bis die Anzahl der Elemente `hdr.size` durchlaufen wurde, bis `ptr` auf `NULL` verschoben wird oder bis `ptr` auf `hdr.last` verschoben wird.
 
 In einer doppelt verketteten Liste kann entsprechend auch in die entgegengesetzte Richtung verschoben werden.

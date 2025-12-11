@@ -26,12 +26,12 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 
 ## Infinitesimalrechnung
 
-| [**Differenzialrechnung**](Analysis/Differenzialrechnung.md)                              | [**Integralrechnung**](Analysis/Integralrechnung.md)         |
-| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| [Totale Ableitung](Analysis/Total%20Differenzierbar.md)                                   | [Riemann-Integral](Analysis/Riemann-Integral.md)             |
-| [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)                                  | [Partielle Integration](Analysis/Partielle%20Integration.md) |
-| [Mittelwertsatz der Differenzialrechnung](Analysis/Mittelwertsatz%20der%20Differenzialrechnung.md) | [[Analysis/Mittelwertsatz der Integralrechnung]]                      |
-| [Gradient](Analysis/Vektoranalysis/Gradient.md)<br>                                                      |                                                              |
+| [**Differenzialrechnung**](Analysis/Differenzialrechnung.md)                                       | [**Integralrechnung**](Analysis/Integralrechnung.md)                              |
+| -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| [Totale Ableitung](Analysis/Total%20Differenzierbar.md)                                            | [Riemann-Integral](Analysis/Riemann-Integral.md)                                  |
+| [Partielle Ableitung](Analysis/Partielle%20Ableitung.md)                                           | [Partielle Integration](Analysis/Partielle%20Integration.md)                      |
+| [Mittelwertsatz der Differenzialrechnung](Analysis/Mittelwertsatz%20der%20Differenzialrechnung.md) | [Mittelwertsatz der Integralrechnung](Mittelwertsatz%20der%20Integralrechnung.md) |
+| [Gradient](Analysis/Vektoranalysis/Gradient.md)<br>                                                |                                                                                   |
 
 ## Differentialgleichungen
 

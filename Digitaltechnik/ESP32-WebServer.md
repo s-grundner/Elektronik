@@ -2,11 +2,11 @@
 
 Diese WebServer-Applikation Erzeugt auf der Adresse 192.168.4.1 die folgende Seite:
 
-![image-20210530174045130](../Softwareentwicklung/DevOps/IoT/assets/Esp32_WebServer02.png)
+![image-20210530174045130](../_assets/Esp32_WebServer02.png)
 
 Das einzige Element ist ein Formular mit einem Button (0.html). Durch aktivieren des Buttons wird auf die Seite 1.html umgeschaltet (aktivierter Schalter) und die LED geschaltet.
 
-![](../Softwareentwicklung/DevOps/IoT/assets/Esp32_WebServer.png)
+![](../_assets/Esp32_WebServer.png)
 
 Aufbau WiFi-AccessPoint. Hier in *astral_$$$$* user auf das eigene Benutzerkürzel verändern:
 

@@ -17,4 +17,4 @@ created: 2. März 2024
 Anode (-): $Pb\longrightarrow Pb^{2+}+2e^{-}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$  
 Kathode (+): $Pb^{4+}+2e^{-}\longrightarrow Pb^{2+}(Pb^{2+}+SO_{4}^{2-}\rightarrow PbSO_{4}\downarrow)$  
 $2O^{2-}+4H^{+}\longrightarrow 2H_{2}O$  
-**Gesamtgleichung:** $Pb+PbO_{2}+2H_{2}SO_{4}\longleftrightarrows 2PbSO_{4}+2H_{2}O$ 
+**Gesamtgleichung:** $Pb+PbO_{2}+2H_{2}SO_{4} \longleftrightarrows 2PbSO_{4}+2H_{2}O$ 

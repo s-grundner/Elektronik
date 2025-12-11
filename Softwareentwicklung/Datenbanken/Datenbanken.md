@@ -22,7 +22,7 @@ abgerufen oder abgelegt werden, dann ist der Einsatz von *Datenbanken* zweckmä�
 
 Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: ein *LAMP* [LIFO Stack](../DS-Algo/LIFO%20Stack.md) ist ein Akronym für *LinuxApacheMysqlPhp*, das *X* steht für mehrere OS, das zweite *P* für Perl). Darin ist eine *MariaDB*-Datenbank verfügbar (<https://www.apachefriends.org/de/index.html)> auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. Für diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
 
-![lampStack](../assets/lampStack.png)
+![lampStack](../../_assets/lampStack.png)
 
 ## Anforderung an Eine Datenbank
 
@@ -55,7 +55,7 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
 - **Hierarchische DB**  
   Ein Ursprungknoten von dem hierarchisch Abzweige erfolgen (ähnlich wie ein Dateisystem: Laufwerk->Verzeichnis->Verzeichnis…). Veraltetes Modell; eine kleine Veränderung in der DB Struktur, kann die komplette Struktur zerstören
   
-  ![](assets/DB_hierarchischesModell.png)
+  ![](../../_assets/DB_hierarchischesModell.png)
 
 - **Relationale DB**  
   Organisation in Tabellen (Relationen) - sehr verbreitet, einfach, [redundant](../../Netzwerktechnik/Redundanz.md) (siehe Unten)

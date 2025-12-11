@@ -105,7 +105,7 @@ Der Parameter `-L `gibt den Suchpfad für die Bibliothek an (. = aktueller Pfad)
 
 ## Module
 
-![Module](assets/Module.png)
+![Module](../../_assets/Module.png)
 
 - Cund ein H-Quelldateien werden mittels Präprozessor und Compiler als Objekt-Dateien erstellt
 - Ein Linker erzeugt daraus das Binary - das ausführbare Programm
