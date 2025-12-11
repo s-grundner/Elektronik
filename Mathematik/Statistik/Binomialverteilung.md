@@ -64,7 +64,6 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > - 4 Versuche
 > - 6er bei einem Würfel
 > > [!success] Lösung  
-> > ![1375](../../_assets/Binom-vert.svg)
 > > $$
 > > \begin{align*}
 > > P(k=4) = \binom{4}{4} \cdot\left(\frac{1}{6}\right)^{4} \cdot\left(\frac{5}{6}\right)^{0} = \frac{1}{6^{4}}\\

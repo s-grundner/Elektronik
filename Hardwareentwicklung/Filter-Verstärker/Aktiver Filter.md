@@ -2,14 +2,15 @@
 tags:
   - Baugruppe/OPV
   - Baugruppe/Filter
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Einführung Elektronik
 semester: WS24
 created: 12. Dezember 2024
 professor:
+topic: Hardwareentwicklung/Filter und Verstärker
 ---
  
 

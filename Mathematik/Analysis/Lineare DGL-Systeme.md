@@ -115,7 +115,7 @@ Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ lin
 > [!satz] **S1 - SUPO)** Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
 > Dann bilden die Lösungen des homogenen linearen Systems [AWP 1.2](#^AWP1-2) einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md) ^SUPO
 > 
-> **[Superposition](../../Index/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems [AWP 1.1](#^AWP1-1) bilden eine $m$-dimensionale lineare Mannigfaltigkeit.
+> **[Superposition](../../Dictionary/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems [AWP 1.1](#^AWP1-1) bilden eine $m$-dimensionale lineare Mannigfaltigkeit.
 > Man erhält alle Lösungen von AWP 1.1, indem man zu irgendeiner festen **partikulären** Lösung von AWP 1.1 alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 

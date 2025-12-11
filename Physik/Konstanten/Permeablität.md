@@ -36,7 +36,7 @@ rel-uncertainty: 1.6e-10
 
 ---
 
-Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für [isotrope](../../Index/Isotrop.md) Stoffe folgender **nichtlinearer** Zusammenhang
+Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für [isotrope](../../Dictionary/Isotrop.md) Stoffe folgender **nichtlinearer** Zusammenhang
 
 > [!important] [[../../Elektrotechnik/Materialgesetz.md#^MATG|Materialgesetz]] für **isotrope** Stoffe
 > $$\mathbf{B}= \mu \mathbf{H}, \quad \mu = \mu_{0}\mu_{r} \qquad [\mu] = [\mu_{0}] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$

@@ -32,7 +32,7 @@ professor:
 
 ## Hysterese
 
-## Helmholz'sches [Überlagerungsprinzip](../Index/Superpositionsprinzip.md)
+## Helmholz'sches [Überlagerungsprinzip](../Dictionary/Superpositionsprinzip.md)
 
 ![invST-calc2](../_assets/invST-calc2.png)
 
