@@ -5,7 +5,7 @@ aliases:
   - Neovim
   - NVim
 created: 17. Januar 2024
-title: 
+title: Vim
 release: false
 ---
 

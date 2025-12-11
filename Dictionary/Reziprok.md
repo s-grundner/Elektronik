@@ -4,7 +4,7 @@ tags:
 aliases:
   - Reziprozität
 created: 27th February 2025
-title:
+title: Reziprozität
 release: false
 ---
 

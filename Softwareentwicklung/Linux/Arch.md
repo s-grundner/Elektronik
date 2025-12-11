@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 27. April 2025
-title: 
+title: Arch Linux
 release: false
 ---
 

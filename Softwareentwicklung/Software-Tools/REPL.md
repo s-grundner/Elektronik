@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Read-Eval-Print Loop
 created: 9th May 2025
-title: 
+title: Repeat Eval Print Loop
 release: false
 ---
 

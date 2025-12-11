@@ -1,12 +1,12 @@
 ---
-tags: 
+tags:
 aliases:
   - VSC
   - Versionskontrolle
   - Versionsverwaltung
   - Version-Control
 created: 27. Februar 2025
-title: 
+title: Git
 release: false
 ---
 

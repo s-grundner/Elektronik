@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 9th May 2025
-title: 
+title: SymPy
 release: false
 ---
 

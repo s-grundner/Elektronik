@@ -10,7 +10,7 @@ semester: SS25
 created: 13th May 2025
 professor:
 release: false
-title:
+title: Holomorph
 ---
 
 # Holomorphe Funktionen

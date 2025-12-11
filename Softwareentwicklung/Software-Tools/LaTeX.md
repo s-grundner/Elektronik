@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 6th May 2025
-title: 
+title: LaTeX
 release: false
 ---
 
