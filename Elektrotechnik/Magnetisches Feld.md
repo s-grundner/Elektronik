@@ -16,7 +16,7 @@ created: 31. August 2023
 professor:
   - Bernhard Jakoby
   - Wolfgang Gruber
-release:
+release: false
 title: Das Magnetische Feld
 ---
  
