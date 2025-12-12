@@ -43,7 +43,7 @@ professor:
 | $d$      | Dämpfungskonstante |
 | $k$      | Federkonstante     |
 
-Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md):  
+Man kommt durch umformen auf die finale lineare homogene [Differentialgleichung 2. Ordnung](../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md):  
 
 $$\ddot{y} + \frac{d}{m} \cdot \dot{y} + \frac{k}{m}\cdot y = 0$$
 

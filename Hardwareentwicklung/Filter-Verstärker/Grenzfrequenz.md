@@ -12,7 +12,7 @@ created: 30th November 2022
 
 ## 3dB-Grenzfrequenz
 
-Jene Frequenz bei der das [maximum](Extremwert.md) einer Übertragungsfunktion $T(\omega)$ um $3dB$ (Faktor $\frac{1}{\sqrt{ 2 }}$) gedämpft ist. 
+Jene Frequenz bei der das [maximum](../../Mathematik/Analysis/Extremwert.md) einer Übertragungsfunktion $T(\omega)$ um $3dB$ (Faktor $\frac{1}{\sqrt{ 2 }}$) gedämpft ist. 
 
 $$\mid \underline{ T }(\omega_{g}) \mid = \frac{\lvert T_{\text{max}} \rvert }{\sqrt{ 2 }}$$
 

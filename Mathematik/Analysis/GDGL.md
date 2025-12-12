@@ -29,7 +29,7 @@ def:
 
 ---
 
-**Ordnung:** Die Ordnung der DGL ist durch die höchste Vorkommende [Ableitung](Analysis/Differenzialrechnung.md) bestimmt.
+**Ordnung:** Die Ordnung der DGL ist durch die höchste Vorkommende [Ableitung](Differenzialrechnung.md) bestimmt.
 
 > [!def] **D1 - DGL)** Allgemeine Form ^DGL
 > 
@@ -40,7 +40,7 @@ def:
 > $\implies F\left(t,x,x',\dots,x^{(n)}\right) := x^{(n)}-f\left(t,x,x',\dots, x^{(n-1)}\right)$
 > 
 
-> [!hint] Jede DGL und DGL-System $n$-ter Ordnung lässt sich in ein [DGL-System](Analysis/DGL-System.md) 1. Ordnung überführen
+> [!hint] Jede DGL und DGL-System $n$-ter Ordnung lässt sich in ein [DGL-System](DGL-System.md) 1. Ordnung überführen
 > 
 > **DGL**: Eine Einzige Differentialgleichung
 > **DGL-System**: Ein System aus mehreren Differentialgleichungen die voneinander abhängen
@@ -84,8 +84,8 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
     - Fundamentalmatrix
     - Variation der Konstanten
 - [Laplacetransformation](../../Systemtheorie/Laplacetransformation.md)
-- [Analytische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Analytische%20Verfahren)
-- [Numerische Verfahren](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md#Numerische%20Verfahren)
+- [Analytische Verfahren](Numerische%20Lösungsverfahren%20von%20DGL.md#Analytische%20Verfahren)
+- [Numerische Verfahren](Numerische%20Lösungsverfahren%20von%20DGL.md#Numerische%20Verfahren)
 
 ### Stabilität von Lösungen
 

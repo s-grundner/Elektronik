@@ -56,7 +56,7 @@ i_{R}-i_{C}-i_{L}&=0\\
 \end{align*}
 $$
 
-### Herleitung der [linearen Differentialgleichung 2. Ordnung](lineare%20DGL%202.%20Ordnung.md)
+### Herleitung der [linearen Differentialgleichung 2. Ordnung](../../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md)
 
 $$
 \begin{align*}
@@ -87,7 +87,7 @@ u_{c}(t)&= \tilde{C_{1}}\cdot\cos(\omega t)+\tilde{C_{2}}\sin(\omega t)\\
 \end{align*}
 $$
 
-- Damit die Schaltung ein [Selbstschwingendes](../../Physik/Schwingkreise.md) System sein kann, muss der [](../../Physik/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
+- Damit die Schaltung ein [Selbstschwingendes](../../Physik/Schwingkreise.md) System sein kann, muss der [](../../Physik/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
 
 > [!question] Lösungsansatz
 

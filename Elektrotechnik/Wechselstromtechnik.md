@@ -36,7 +36,7 @@ Wird ein [elektrisches Netzwerk](Lineare%20Elektrische%20Netzwerke.md) mit Wechs
 ![[../_assets/Wechselstromtechnik 2025-01-15 20.22.21.excalidraw]]
 
 
-Man nutzt *rotierende* [komplexe Zeiger](Eulersche%20Formel.md) zur Darstellungen von Wechselspannungen und -strömen: 
+Man nutzt *rotierende* [komplexe Zeiger](../Mathematik/Analysis/Eulersche%20Formel.md) zur Darstellungen von Wechselspannungen und -strömen: 
 
 $$\underline{ u }(t) = \hat{u}\cdot\left(\cos(\omega t+ \varphi) + \underbrace{\color{orange} j\sin(\omega t+ \varphi) }_{ \text{wird eingeführt} }\right) = \hat{u}\cdot e^{ j(\omega t + \varphi)}$$
 

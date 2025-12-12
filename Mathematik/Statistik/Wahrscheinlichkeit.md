@@ -15,7 +15,7 @@ title: Wahrscheinlichkeit
 
 # Wahrscheinlichkeit $P(\omega)$
 
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [Grenzwert](Grenzwert.md) der Folge $\langle h(\omega)\rangle$.
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [Grenzwert](../Analysis/Grenzwert.md) der Folge $\langle h(\omega)\rangle$.
 
 >[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
 

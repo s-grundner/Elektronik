@@ -211,7 +211,7 @@ Die M-ASK ist aufgrund der schrumpfenden Bandbreite in höheren Ordnungen ein **
 
 ## Fehler Performance
 
-Die Symbol pro Bit Fehlerwahrscheinlichkeit $\frac{P_{s}}{P_{b}}$  ist die durchschnittliche Anzahl an Fehlerhaften bits pro Symbol. Der Jeweilige Fehler ergibt sich durch Auswerten der [Q-Funktion](Mathematik/Statistik/Zentraler%20Grenzwertsatz.md#Q-Funktion). Es stellt sich heraus, dass die Fehlerwahrscheinlichkeit immer von $\frac{E_{b}}{N_{0}}$ abhängt.
+Die Symbol pro Bit Fehlerwahrscheinlichkeit $\frac{P_{s}}{P_{b}}$  ist die durchschnittliche Anzahl an Fehlerhaften bits pro Symbol. Der Jeweilige Fehler ergibt sich durch Auswerten der [Q-Funktion](../Mathematik/Statistik/Zentraler%20Grenzwertsatz.md#Q-Funktion). Es stellt sich heraus, dass die Fehlerwahrscheinlichkeit immer von $\frac{E_{b}}{N_{0}}$ abhängt.
 
 ### Durchschnittliche Bit Energie $E_{b}$
 

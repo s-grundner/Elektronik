@@ -66,7 +66,7 @@ $$
 Zwei Möglichkeiten die Resonanzfrequenz zu ermitteln: Bei der Resonanzfrequenz $\omega_{0}$ ist
 
 1. die Impedanz der LC Serienschaltung gleich null: $-\jmath\frac{1}{\omega_{0} C} + \jmath\omega_{0} L = 1 - \omega_{0}^{2}LC = 0$
-2. der Betrag $\left| H_{\text{BP}}(\jmath\omega_{0}) \right|$ maximal ([Extremwert Aufgabe](Mathematik/Analysis/Extremwert.md))
+2. der Betrag $\left| H_{\text{BP}}(\jmath\omega_{0}) \right|$ maximal ([Extremwert Aufgabe](../../Mathematik/Analysis/Extremwert.md))
 
 Es folgt, dass 
 

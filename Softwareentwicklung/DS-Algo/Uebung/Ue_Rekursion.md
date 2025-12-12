@@ -212,7 +212,7 @@ Für einen rekursiven Algorithmus macht man sich keine Gedanken über die umfass
 >
 > Mit der Fähigkeit eine Scheibe zu verschieben, können also 2 Scheiben verschoben werden. Mit dieser Fähigkeit wiederum 3 Scheiben, mit dieser wiederum 4 Scheiben und so fort.
 
-In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann [rekursiv](../Rekursion.md) eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
+In diesem Beispiel ist sehr schön sichtbar, dass eine umfassende Lösung sehr [komplex](../../../Mathematik/Analysis/Komplexe%20Zahlen.md) ist, durch eine schrittweise Vereinfachung des Problems kann [rekursiv](../Rekursion.md) eine sehr einfache Lösung gefunden werden. Das klassische Beispiel sind 64 Scheiben (in Gold und von Priestern zu bewegen). Um die Aufgabenstellung zu lösen, müssen über 500 Milliarden (!) Züge getätigt werden.
 
 Mehr Info: http://www.inf-schule.de/algorithmen/algorithmen/rekursion/problemloesen/einstieg_hanoi
 

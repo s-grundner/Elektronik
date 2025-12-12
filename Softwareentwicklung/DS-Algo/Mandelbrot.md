@@ -8,7 +8,7 @@ created: 30th August 2023
 
 Die Mandelbrot-Menge ist definiert als die Menge der komplexen Zahlen c, für welche die Folge $z_{n+1}=z_n^2+c$ 	mit 	 $z_0=0$ für $n \rightarrow \infty$ beschränkt bleibt.
 
-Das bedeutet es gibt [komplexe Zahlen](Komplexe%20Zahlen.md) c für die wird $z$ unendlich (nicht Mandelbrot-Menge) und andere für die bleibt der Wert beschränkt (Mandelbrot-Menge). Die Formel ist eine rekursive Beschreibung und lässt sich einfach Programmieren:
+Das bedeutet es gibt [komplexe Zahlen](../../Mathematik/Analysis/Komplexe%20Zahlen.md) c für die wird $z$ unendlich (nicht Mandelbrot-Menge) und andere für die bleibt der Wert beschränkt (Mandelbrot-Menge). Die Formel ist eine rekursive Beschreibung und lässt sich einfach Programmieren:
 
 ```java
 int calc(int n, double xn, double yn, double a, double b)
@@ -22,7 +22,7 @@ int calc(int n, double xn, double yn, double a, double b)
 }
 ```
 
-Hier wurde die [komplexe Zahl](Komplexe%20Zahlen.md) in einen Real- (x = Re(z) bzw. a) und einen Imaginärteil (y = Iim(z) bzw. b) aufgespaltet. Das Beispiel wurde in JAVA programmiert um eine grafische Darstellung zu vereinfachen. Die Farbe der Punkte gibt die Anzahl der Iterationsschritte wieder ab denen der [Grenzwert](Grenzwert.md) (MAX) überschritten wird:
+Hier wurde die [komplexe Zahl](../../Mathematik/Analysis/Komplexe%20Zahlen.md) in einen Real- (x = Re(z) bzw. a) und einen Imaginärteil (y = Iim(z) bzw. b) aufgespaltet. Das Beispiel wurde in JAVA programmiert um eine grafische Darstellung zu vereinfachen. Die Farbe der Punkte gibt die Anzahl der Iterationsschritte wieder ab denen der [Grenzwert](../../Mathematik/Analysis/Grenzwert.md) (MAX) überschritten wird:
 
 | ![C_RekursFraktal3](../../_assets/C_RekursFraktal3.png) | ![C_RekursFraktal2](../../_assets/C_RekursFraktal2.png) |
 | ------------------------------------------------ | ------------------------------------------------ |

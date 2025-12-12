@@ -20,7 +20,7 @@ title: Gauss-Puls
 
 ## Gauss Impuls
 
-Der Gauss-Impuls ist die Impulsantwort des Gaussfilters und wird mithilfe der [Q-Funktion](Mathematik/Statistik/Zentraler%20Grenzwertsatz.md#Q-Funktion) beschrieben.
+Der Gauss-Impuls ist die Impulsantwort des Gaussfilters und wird mithilfe der [Q-Funktion](../Mathematik/Statistik/Zentraler%20Grenzwertsatz.md#Q-Funktion) beschrieben.
 
 $$
 g(t) = \frac{Q\left( 2\pi B\left( t-\frac{T}{2} \right) \right)+Q\left( 2\pi B\left( t+\frac{T}{2} \right) \right)}{\sqrt{ \operatorname{\ln}(2) }}

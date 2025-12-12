@@ -21,14 +21,14 @@ professor:
 
 # Lineare Abbildungen
 
-> [!def] **D1 - LINA)** Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md). ^LINA
+> [!def] **D1 - LINA)** Seien $X$ und $Y$ $\mathbb{K}$-[Vektorräume](Vektorraum.md). ^LINA
 > Eine [Abbildung](Abbildung.md) $L: X \rightarrow Y$ heißt linear, wenn sie *Additivität* und *Homogenität* erfüllen.
 >
 > > [!info]- **(a)** Additivität: $\forall x_1, x_2 \in X: L\left(x_1+x_2\right)=L\left(x_1\right)+L\left(x_2\right)$ 
-> > für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](Algebra/Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
+> > für alle $x_{1}$ und alle $x_{2}$ im $X$-[Vektorraum](Vektorraum.md) gilt, dass die Abbildung $L$ von $x_{1}+x_{2}$ gleich der Summe von $L(x_{1})$ und $L(x_{2})$ ist.
 >
 > > [!info]- **(b)** Homogenität: $\forall x \in X, \forall \lambda \in \mathbb{K}: L(\lambda x)=\lambda L(x)$  
-> für alle $x$ im $X$ [Vektorraum](Algebra/Vektorraum.md) und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
+> für alle $x$ im $X$ [Vektorraum](Vektorraum.md) und alle $\lambda$ aus $\mathbb{K}$ gilt, dass die Abbildung $L$ von $\lambda \cdot x$ gleich $\lambda$ mal die Abbildung $L(x)$ ist
 
 
 1. Eine lineare Abbildung heißt auch linearer Operator oder *Homomorphismus*.
@@ -40,7 +40,7 @@ professor:
 
 ## Kern und Bild
 
-Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Algebra/Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
+Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
 
 > [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige **Spalten** der Linearenabbildung $L$. ^BILD
 > $$\mathcal{R}(L) := L(X)$$

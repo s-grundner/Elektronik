@@ -14,7 +14,7 @@ title: AWGN-Kanalmodell
 
 # AWGN Kanalmodell
 
-Der AWGN-Kanal ist ein Modell, der die Rauschleistungdichte in einer Drahtlosen Übertragung modelliert. Er kombiniert viele natürliche Rauschquellen ([Zentraler Grenzwertsatz](Mathematik/Statistik/Zentraler%20Grenzwertsatz.md)), wie Thermisches Rauschen oder Schrotrauschen und bietet ein gutes Modell für Satellit und Weltraumkommunikation.
+Der AWGN-Kanal ist ein Modell, der die Rauschleistungdichte in einer Drahtlosen Übertragung modelliert. Er kombiniert viele natürliche Rauschquellen ([Zentraler Grenzwertsatz](../Mathematik/Statistik/Zentraler%20Grenzwertsatz.md)), wie Thermisches Rauschen oder Schrotrauschen und bietet ein gutes Modell für Satellit und Weltraumkommunikation.
 
 > [!question] Additive White Gaussian Noise
 > - **Noise**: Zufallssignal

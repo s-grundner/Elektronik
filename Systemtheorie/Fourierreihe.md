@@ -27,7 +27,7 @@ Jede **periodische** [Funktion](../Mathematik/Algebra/Abbildung.md) kann als aus
 
 > [!quote] **Theorem von Fourier:** Harmonische Analyse
 > 
-> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer [**Stetigkeit**](../Analysis/Stetigkeit.md), **Integrierbarkeit** und **Monotonie** erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine [Linearkombination](Linearkombination.md) aus Funktionen $u_k(t)$ dargestellt werden.
+> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer [**Stetigkeit**](../Mathematik/Analysis/Stetigkeit.md), **Integrierbarkeit** und **Monotonie** erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine [Linearkombination](../Mathematik/Algebra/Linearkombination.md) aus Funktionen $u_k(t)$ dargestellt werden.
 > 
 > Die Funktionen $u_k(t)$ bilden die Basisfunktionen eines normierten, orthogonalen Funktionensystems, genügen also der Bedingung
 > 
@@ -120,7 +120,7 @@ $f(x)=f(x+a)$
 > [!HINT] Sei $f$ eine $2\pi$-periodische [Funktion](../Mathematik/Algebra/Abbildung.md).  
 > Ist das Perioden-Intervall in **endlich viele Teilintervalle** zerlegbar, in denen $f$ sowohl **stetig, als auch monoton** ist, so kann die [Funktion](../Mathematik/Algebra/Abbildung.md) in eine **Fourierreihe** zerlegt werden.
 > 
-> $f(x)\dots$**Trigonometrisches [Polynom](Polynom.md)**
+> $f(x)\dots$**Trigonometrisches [Polynom](../Mathematik/Algebra/Polynom.md)**
 
 ### Amplituden-Phasenform
 

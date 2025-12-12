@@ -56,5 +56,5 @@ Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in 
 
 ## Anwendung
 
-Ein wichtiger Satz, der den Rotor verwedet ist der [Stokessche Integralsatz](Stokesscher%20Integralsatz.md) der den Zusammenhang zwischen der Rotation eines Vektorfeldes und dem Linienintegral über den Rand einer Fläche beschreibt.
+Ein wichtiger Satz, der den Rotor verwedet ist der [Stokessche Integralsatz](../Stokesscher%20Integralsatz.md) der den Zusammenhang zwischen der Rotation eines Vektorfeldes und dem Linienintegral über den Rand einer Fläche beschreibt.
 Dieser Satz ist wichtig für das Rechnen mit den [Maxwell](Maxwell.md)-Gleichungen

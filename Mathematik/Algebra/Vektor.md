@@ -28,7 +28,7 @@ Hierbei ist es wichtig, dass die Elemente nicht vertauscht werden können: $\beg
 
 
 
-- [Skalarprodukt](../Algebra/Skalarprodukt.md)
+- [Skalarprodukt](Skalarprodukt.md)
 - [Matrix](Matrix.md)
 - Tensor
 - [Vektor Basis](../{MOC}%20Lineare%20Algebra.md)

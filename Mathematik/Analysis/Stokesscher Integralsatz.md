@@ -60,9 +60,9 @@ In der Untenstehenden Erläuterng ist die Fläche $A$ auf einer Ebene dargestell
 > 
 > ![invert_dark](../../_assets/StokesLinkeSeite.png)
 > 
-> Der Rotor des Vektorfeldes $\boldsymbol{F}$ zeigt in die Richtung, die normal auf die Ebene steht in der das Vektorfeld Rotiert. (Effekt des [Kreuzproduktes](Algebra/Kreuzprodukt.md))
+> Der Rotor des Vektorfeldes $\boldsymbol{F}$ zeigt in die Richtung, die normal auf die Ebene steht in der das Vektorfeld Rotiert. (Effekt des [Kreuzproduktes](../Algebra/Kreuzprodukt.md))
 > 
-> Es Wird Wiederum nur der Anteil des Vektorfeldes $\nabla \times \boldsymbol{F}$ in das Integral einbezogen, der parallel zu den Flächenelementen $\mathrm{d}\boldsymbol{a}$ verlaufen. (Effekt des [Skalarproduktes](Algebra/Skalarprodukt.md)) 
+> Es Wird Wiederum nur der Anteil des Vektorfeldes $\nabla \times \boldsymbol{F}$ in das Integral einbezogen, der parallel zu den Flächenelementen $\mathrm{d}\boldsymbol{a}$ verlaufen. (Effekt des [Skalarproduktes](../Algebra/Skalarprodukt.md)) 
 > 
 > ![invert_dark](../../_assets/Rot.png)
 > Hier ist zu sehen dass sich die Inneren Rotoren des Vektorfeldes aufheben und nur der Randrotor in das Integral einfließt.

@@ -104,7 +104,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 - [Mittelwertsatz der Differenzialrechnung](Mittelwertsatz%20der%20Differenzialrechnung.md)
     - Schrankensatz
         - Lipschitzstetigkeit
-    - [L'Hospital](Analysis/L'Hospital.md)
+    - [L'Hospital](L'Hospital.md)
 
 ![Sätze und Folgerungen](Differenzialrechnung%20-%20Sätze%20und%20Folgerungen.canvas)
 
@@ -119,18 +119,18 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > 
 > $f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h)$ und $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$, insbesondere: $\lim _{h \rightarrow 0} r(h)=0$.
 > 
-> Da die [lineare Abbildung](Algebra/Lineare%20Abbildungen.md) $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
+> Da die [lineare Abbildung](../Algebra/Lineare%20Abbildungen.md) $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
 > 
-> Umgekehrt impliziert [Stetigkeit](Analysis/Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die [Betragsfunktion](Algebra/Betrag.md) in $x=0$ stetig, aber nicht differenzierbar.
+> Umgekehrt impliziert [Stetigkeit](Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die [Betragsfunktion](../Algebra/Betrag.md) in $x=0$ stetig, aber nicht differenzierbar.
 > 
 > Aus dem Beweis von Satz 11.6 geht hervor, dass für $n=1$ die Aussage auch gilt, falls $I$ ein Intervall und $x_0 \in I$ ein Randpunkt ist.
 > 
 
 
-Es gibt auch eine andere Möglichkeit, den Ableitungsbegriff auf Funktionen zwischen mehrdimensionalen Räumen zu übertragen, den Begriff der [partiellen Ableitung](Analysis/Partielle%20Ableitung.md), dabei lässt man nun alle Variablen bis auf eine fest und betrachtet die Funktion als Funktion der einen restlichen Variablen.
+Es gibt auch eine andere Möglichkeit, den Ableitungsbegriff auf Funktionen zwischen mehrdimensionalen Räumen zu übertragen, den Begriff der [partiellen Ableitung](Partielle%20Ableitung.md), dabei lässt man nun alle Variablen bis auf eine fest und betrachtet die Funktion als Funktion der einen restlichen Variablen.
 
 # Tags
 
 - [Partielle Ableitung](Partielle%20Ableitung.md)
-- [Totale Ableitung](Analysis/Total%20Differenzierbar.md)
+- [Totale Ableitung](Total%20Differenzierbar.md)
 - [Frechet-Ableitung](Frechet-Ableitung.md)

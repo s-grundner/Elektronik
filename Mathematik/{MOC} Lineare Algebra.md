@@ -29,28 +29,28 @@ Eine Basis des $\mathbb{R}^3$, wie z.B. kartesische Koordinaten oder Kugelkoordi
 
 > [!important] Definitionen für den $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) $X$
 >
-> - **(a)** [[Linearkombination]]
-> - **(b)** [[Lineare Hülle]]
-> - **(c)**, **(d)** [[Lineare Abhängigkeit]]
+> - **(a)** [[Algebra/Linearkombination]]
+> - **(b)** [[Algebra/Lineare Hülle]]
+> - **(c)**, **(d)** [[Algebra/Lineare Abhängigkeit]]
 
 Ein Vektor im $\mathbb{R}^N$ wird bekanntermaßen als Linearkombination der Basisvektoren $\mathbf{x}_1, \ldots, \mathbf{x}_N$ dargestellt.
 
 $$\mathbf{y}=a_1 \mathbf{x}_1+a_2 \mathbf{x}_2+\ldots+a_N \mathbf{x}_N$$
 
 > [!info] Somit wird jeder Vektor in einem festgelegten Koordinatensystem durch seine Koordinaten $a_1, a_2, \ldots, a_N$ beschrieben.
-> Durch die Wahl des Abstandes zweier Vektoren $d(\mathbf{x}, \mathbf{y})$, der [Metrik](Metrischer%20Raum.md), das [innere Produkt](Skalarprodukt.md) $\langle\mathbf{x}, \mathbf{y}\rangle$ und durch die Länge der Vektoren $\|\mathbf{x}\|$, der [Norm](Norm.md), strukturiert man das **Koordinatensystem**, d.h. die **Basis**.
+> Durch die Wahl des Abstandes zweier Vektoren $d(\mathbf{x}, \mathbf{y})$, der [Metrik](Algebra/Metrischer%20Raum.md), das [innere Produkt](Algebra/Skalarprodukt.md) $\langle\mathbf{x}, \mathbf{y}\rangle$ und durch die Länge der Vektoren $\|\mathbf{x}\|$, der [Norm](Algebra/Norm.md), strukturiert man das **Koordinatensystem**, d.h. die **Basis**.
 > 
 
 Umgekehrt stellt sich die Frage, wie die Koordinaten $a_i$ bestimmt werden können.
 
 ### Koordinatenmatrix und Basis
 
-> [!def] **D1 - 10.5)** Seien $X$ und $Y$ endlich-dimensionale $\mathbb{K}$-[Vektorräume](Vektorraum.md) mit zugehörigen Basen $B:=\left(b_1, \ldots, b_n\right)$ und $C:=\left(c_1, \ldots, c_m\right)$. Weiters sei $L \in L(X, Y)$.
+> [!def] **D1 - 10.5)** Seien $X$ und $Y$ endlich-dimensionale $\mathbb{K}$-[Vektorräume](Algebra/Vektorraum.md) mit zugehörigen Basen $B:=\left(b_1, \ldots, b_n\right)$ und $C:=\left(c_1, \ldots, c_m\right)$. Weiters sei $L \in L(X, Y)$.
 > Nach Satz 6.6 (a) gibt es eindeutige Koordinaten $a_{i j}^L \in \mathbb{K}$ mit
 > 
 > $$L b_j=\sum_{i=1}^m a_{i j}^L c_i, \quad j=1, \ldots, n$$
 > 
-> Die [Matrix](Matrix.md) $A^L:=\left(a_{i j}^L\right) \in \mathbb{K}^{m \times n}$ heißt Koordinatenmatrix von $L$ bezüglich der Basen $B$ und $C$.
+> Die [Matrix](Algebra/Matrix.md) $A^L:=\left(a_{i j}^L\right) \in \mathbb{K}^{m \times n}$ heißt Koordinatenmatrix von $L$ bezüglich der Basen $B$ und $C$.
 
 Es gilt dann offensichtlich:
 

@@ -4,7 +4,7 @@
 		{"id":"71d578c0e3349108","type":"group","x":-1520,"y":-1040,"width":3160,"height":680,"label":"Lineare Mehrschrittverfahren (LMSV)"},
 		{"id":"31fa6aedce4e0fb2","type":"text","text":"> [!question] **Explizit:** Nur von $f_{k-1}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet nur **vorherige** Schritte:\n","x":-1148,"y":-83,"width":468,"height":257,"color":"2"},
 		{"id":"435c37a0a592a257","type":"text","text":"> [!question] **Implizit:** Auch von $f_{k}$ Anbhängig\n> Die Verfahrensfunktion Verarbeitet auch **momentane** Schritte","x":945,"y":-83,"width":455,"height":257,"color":"2"},
-		{"id":"aa7b5da1e2d9001a","type":"text","text":"# Numerische Lösungsverfahren von [AWP](GDGL.md#^AWP)\n\n![Numerische Lösungsverfahren von DGL](Mathematik/Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md)","x":-553,"y":-180,"width":1236,"height":440,"color":"5"},
+		{"id":"aa7b5da1e2d9001a","type":"text","text":"# Numerische Lösungsverfahren von [AWP](GDGL.md#^AWP)\n\n![Numerische Lösungsverfahren von DGL](Numerische%20Lösungsverfahren%20von%20DGL.md)","x":-553,"y":-180,"width":1236,"height":440,"color":"5"},
 		{"id":"ef74b03abe8a0a0d","type":"text","text":"Adams Mouton (AM)","x":410,"y":-870,"width":272,"height":60},
 		{"id":"84cc73ee7abb377c","type":"text","text":"### Implizit","x":638,"y":-670,"width":250,"height":60},
 		{"id":"ad2b6b292601bf39","type":"text","text":"Adams Strömer","x":850,"y":-870,"width":250,"height":60},

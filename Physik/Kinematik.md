@@ -53,7 +53,7 @@ $$
 
 <br><br>
 
-> [!WARNING] Bei [Integrieren](Integralrechnung.md) sind die Anfangswerte zu beachten
+> [!WARNING] Bei [Integrieren](../Mathematik/Analysis/Integralrechnung.md) sind die Anfangswerte zu beachten
 > ($+C$… Integrationskonstante)
 
 ## 2 Bewegung in 2/3-Dimensionen

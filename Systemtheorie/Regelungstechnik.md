@@ -36,7 +36,7 @@ Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}
 | hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                         | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |
 | Beispiel - Autofahren) Unterschied ob man bei 50km/h oder bei 130 km/h lenkt / bremst.<br>- Reibung und Kräfte sind Anders. <br>- Motorsteuergerät reagiert anders auf die Eingaben. | Beispiel - Kaffeemaschine: Es wird immer auf das Eingangssignal ein Kaffee folgen |
 
-Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../../../Mathematik/Analysis/GDGL.md), vorallem von physikalischen Systemen.
+Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../Mathematik/Analysis/GDGL.md), vorallem von physikalischen Systemen.
 
 ## Aufgaben eine Regelung
 

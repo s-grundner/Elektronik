@@ -85,7 +85,7 @@ X [k] = \frac{1}{N} \sum^{N-1}_{n=0} x[n]\cdot W_{N}^{kn} && x [n] = \sum^{N-1}_
 \end{align}
 $$
 
-> [!important] Beide Sequenzen lassen sich in [Vektor](../../Mathematik/Algebra/Vektor.md)form darstellen:
+> [!important] Beide Sequenzen lassen sich in [Vektor](../Mathematik/Algebra/Vektor.md)form darstellen:
 >
 > $$
 \begin{align}  
@@ -104,7 +104,7 @@ x[N-1]
 \end{align}
 > $$
 
-Definiert man nun noch die DFT-[Matrix](Matrix.md):
+Definiert man nun noch die DFT-[Matrix](../Mathematik/Algebra/Matrix.md):
 
 $$
 \mathbf{W}_{N} = \begin{pmatrix}

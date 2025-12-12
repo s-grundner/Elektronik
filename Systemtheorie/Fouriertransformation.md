@@ -95,7 +95,7 @@ Der Ursprung der Fouriertransformation ist auf die Fourierreihe zurückzuführen
 > 
 > - Die Berechnung von $F$ aus $f$ heißt *Fourier-Transformation* der Funktion $f$.  
 >
-> - Dadurch entsteht aus einer reellen Funktion $f$ eine [komplexwertige](Komplexe%20Zahlen.md) Funktion $F$.
+> - Dadurch entsteht aus einer reellen Funktion $f$ eine [komplexwertige](../Mathematik/Analysis/Komplexe%20Zahlen.md) Funktion $F$.
 
 >[!success] Die Zeitfunktion $f$ liegt im **Original-** oder **Zeitbereich**, während ihre Fourier-Transformierte im **Frequenz-** oder **Bildbereich** liegt.  
 > Folgende Schreibweisen sind üblich: $F(\omega)=\mathcal{F}\{f(t)\}$

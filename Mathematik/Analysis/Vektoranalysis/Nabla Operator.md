@@ -50,10 +50,10 @@ wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (
 
 Der Nabla-Operator ist Operator und [Vektor](../../Algebra/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem Vektor rechnen, d.h. es gelten die Verknüpfungen wie [Skalarprodukt](../../Algebra/Skalarprodukt.md) und [Kreuzprodukt](../../Algebra/Kreuzprodukt.md)
 
-> [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem [Vektorfeld](Vektoranalysis/Vektorfeld.md) $\mathbf{F}$ haben spezielle Namen:
-> - [Gradient](Vektoranalysis/Gradient.md): $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
+> [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem [Vektorfeld](Vektorfeld.md) $\mathbf{F}$ haben spezielle Namen:
+> - [Gradient](Gradient.md): $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 > - [Divergenz](Divergenz.md): $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
-> - [Rotation](Vektoranalysis/Rotor.md): $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
+> - [Rotation](Rotor.md): $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
 
 ## Allgemeine Rechenregeln
 
@@ -72,7 +72,7 @@ Dabei muss man die Produktregel anwenden, wenn der Nabla-Operator links von eine
 | $\nabla(\boldsymbol{A} \cdot \boldsymbol{B}) = (\boldsymbol{A} \cdot \nabla) \boldsymbol{B} + (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} + \boldsymbol{A} \times (\nabla \times \boldsymbol{B}) + \boldsymbol{B} \times (\nabla \times \boldsymbol{A})$ | Produktregel für das Skalarprodukt zweier Vektorfelder                              |
 | $\nabla \cdot (\varphi \boldsymbol{A}) = \varphi \nabla \cdot \boldsymbol{A} + \boldsymbol{A} \cdot \nabla \varphi$                                                                                                                                       | Produktregel für die Divergenz                                                      |
 | $\nabla \cdot (\boldsymbol{A} \times \boldsymbol{B}) = \boldsymbol{B} \cdot (\nabla \times \boldsymbol{A}) - \boldsymbol{A} \cdot (\nabla \times \boldsymbol{B})$                                                                                         | Divergenz des Kreuzprodukts                                                         |
-| $\nabla \cdot (\nabla \varphi) = \Delta \varphi$                                                                                                                                                                                                          | Divergenz des Gradienten ([Laplace Operator](Vektoranalysis/Laplace%20Operator.md)) |
+| $\nabla \cdot (\nabla \varphi) = \Delta \varphi$                                                                                                                                                                                                          | Divergenz des Gradienten ([Laplace Operator](Laplace%20Operator.md)) |
 | $\nabla \cdot (\nabla \times \boldsymbol{A}) = 0$                                                                                                                                                                                                         | Divergenz des Rotationsoperators                                                    |
 | $\nabla \times (\nabla \varphi) = 0$                                                                                                                                                                                                                      | Rotation des Gradienten                                                             |
 | $\nabla \times (\varphi \boldsymbol{A}) = \varphi \nabla \times \boldsymbol{A} - \boldsymbol{A} \times \nabla \varphi$                                                                                                                                    | Rotation eines Produkts mit Skalarfeld                                              |
@@ -82,4 +82,4 @@ Dabei muss man die Produktregel anwenden, wenn der Nabla-Operator links von eine
 
 ---
 
-- [[Vektoranalysis/Laplace Operator]]
+- [[Laplace Operator]]

@@ -30,7 +30,7 @@ Durch die Linearität elektrischer Punktladungen lassen sich komplexere Ladungs-
 > [!hint] Zur Erinnerung:
 > Superponieren heißt: Gesamtergebnis ist die Summe der einzelnen Teilergebnisse
 > 
-> Aneinanderreihung von Punktladungen: *Punkte* sind beliebig klein $\to$ Summieren von [infinitesimalen](../Mathematik/Analysis/index.md) Punkten ist *[Integrieren](Integralrechnung.md)*   
+> Aneinanderreihung von Punktladungen: *Punkte* sind beliebig klein $\to$ Summieren von [infinitesimalen](../Mathematik/Analysis/index.md) Punkten ist *[Integrieren](../Mathematik/Analysis/Integralrechnung.md)*   
 
 ## Mathematik
 
