@@ -11,6 +11,7 @@ aliases:
   - "#Analysis"
 subject: []
 created: 26th March 2022
+description: "Analysis (auch Infinitesimalrechnung oder Calculus genannt) ist ein Teilgebiet der Mathematik, das sich mit Grenzwerten, Funktionen, Ableitungen und Integralen beschäftigt. Sie bildet die Grundlage für viele Anwendungen in Naturwissenschaften, Technik und Wirtschaft."
 ---
 
 # Analysis
@@ -36,6 +37,5 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 ## Differentialgleichungen
 
 ![{MOC} Analysis 2025-03-03 15.37.16.excalidraw](../../_assets/Excalidraw/{MOC}%20Analysis%202025-03-03%2015.37.16.excalidraw.svg)
-
 
 [^1]: Beliebig Kleinen
