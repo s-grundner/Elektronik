@@ -1,9 +1,11 @@
 ---
 tags:
 aliases:
+  - idempotent
 created: 8th November 2025
-title: Idempotent
+title: Idempotenz
 release: true
+description: Das mehrfache Ausführen einer idempotenten Operation verändert den zustand des Operanden nur einmal
 ---
 
 # Idempotenz

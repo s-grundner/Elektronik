@@ -6,7 +6,7 @@ Einlesen der Schalterzustände und Aktivieren von LEDs.
 
 Grundsätzliche Struktur: 
 
-![](../_assets/Esp32_SwitchLed.png)
+![](../../_assets/Esp32_SwitchLed.png)
 
 ```cpp
 #include <Arduino.h>
@@ -42,7 +42,7 @@ Einlesen der Schalterzustände mittels Interrupt und Aktivieren von LEDs.
 
 Grundsätzliche Struktur: 
 
-![](../_assets/Esp32_SwitchLed.png)
+![](../../_assets/Esp32_SwitchLed.png)
 
 ```cpp
 #include <Arduino.h>

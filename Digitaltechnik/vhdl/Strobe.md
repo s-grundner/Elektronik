@@ -18,4 +18,4 @@ Sind nur für eine Clock Periode 1 High
 - Fällt nach der zweiten Flanke
 - Ist daher nur während einer $\uparrow$-Flanke High
 
-![invert_dark|400](../_assets/strobe.png)
+![invert_dark|400](../../_assets/strobe.png)

@@ -52,7 +52,7 @@ Hierbei bewegen sich zwei Pointer `p_read` und `p_write` durch ein Buffer Array:
 
 ## AVR Example
 
-Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md) `usart0` des µC [ATmega644p](AVR%20ATmega644p.md)
+Im Beispiel soll ein Ringbuffer verwendet werden, um Daten über die serielle [Schnittstelle](Interfaces/index.md) `usart0` des µC [ATmega644p](AVR/AVR%20ATmega644p.md)
 
 ### Header
 
@@ -94,8 +94,8 @@ void ringbuffer_init()
 }
 ```
 
-Anschließend muss die Serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md) initialisiert werden.  
-Serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md):
+Anschließend muss die Serielle [Schnittstelle](Interfaces/index.md) initialisiert werden.  
+Serielle [Schnittstelle](Interfaces/index.md):
 
 | Baudrate |  Enable  |       Stoppbit        |       Datenbits       |     Parity Bit      |      Interrupt      |           Mode            |
 |:--------:|:--------:|:---------------------:|:---------------------:|:-------------------:|:-------------------:|:-------------------------:|

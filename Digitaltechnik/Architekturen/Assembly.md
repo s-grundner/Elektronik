@@ -21,7 +21,7 @@ title: Assembly
 
 **Ebenensicht:**
 
-![invert_dark](../_assets/asm_ebenen.png)
+![invert_dark](../../_assets/asm_ebenen.png)
 
 Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
 - add, sub, mul, load, store ...
@@ -35,13 +35,13 @@ Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Zusammenhänge von operationen schwer erkennbar | Gute Lesbarkeit                                                                                                                  |
 | Einfache Befehle                               | Komplexe Sprachkonstrukte                                                                                                        |
-| Direkter Speicherzugriff                       | Implementiert selbst Memory Management<br>oder ein abstraktes Interface dafür.<br>(Garbage Collector, [Heap](../Softwareentwicklung/DS-Algo/Heap.md), Ownership/Borrowing) |
+| Direkter Speicherzugriff                       | Implementiert selbst Memory Management<br>oder ein abstraktes Interface dafür.<br>(Garbage Collector, [Heap](../../Softwareentwicklung/DS-Algo/Heap.md), Ownership/Borrowing) |
 
 ## Instructionset Architecture
 
 ISA: Instructionset Architecture ([ARM](ARM.md), x86, RISC-V)
 
-![invert_dark](../_assets/asm_stack.png)
+![invert_dark](../../_assets/asm_stack.png)
 
 ---
 

@@ -1,19 +1,15 @@
 ---
 tags:
-  - MOC
-  - Interface
+  - index
+title: Interfaces
+release: false
 aliases:
-  - Schnittstellen
-  - Schnittstelle
-  - Interface
-subject:
-  - dic
-source:
-  - Robert Vogl
-created: 11th April 2022
+  - Interfaces
+  - Digitale Schittstelle
 ---
 
-# Map of Content - Schnittstellen
+
+# Digitale Schnittstellen
 
 ## 1 Serial
 

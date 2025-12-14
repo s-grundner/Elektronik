@@ -21,22 +21,22 @@ created: 18th August 2023
 
 > [!info]- Projektdatei Erstellen
 > 
-> ![](../_assets/CreateNewProjSTM32.png)
+> ![](../../_assets/CreateNewProjSTM32.png)
 
 > [!info]- MCU Auswählen (Hier *STM32F405RGT6*)
 > Nach dem Erstellen der Projektdatei öffnet sich der ***MCU-Selector***
 > 
-> ![](../_assets/MCU-Sel-STM32.png)
+> ![](../../_assets/MCU-Sel-STM32.png)
 > 
 > Hier kann entweder direkt nach einer Part-Nummer gesucht werden, oder nach Eigenschaften und Peripherien gefiltert werden.
 
 > [!info]- Projektoptionen und Fertigstellung
 > 
-> ![InlineR|381](../_assets/STM32-Proj_Opt.png)
+> ![InlineR|381](../../_assets/STM32-Proj_Opt.png)
 > 
 > Für den Einstig können hier die Standardeinstellungen verwendet werden.
 >
-> *Targeted Language:* Grundsätzlich ist für STM32 Projekte die Programmiersprache C empfohlen. Habe ich zwar nicht selbst ausprobiert, aber für [C++](../Softwareentwicklung/Cpp/{MOC}%20Cpp.md) soll es anscheinend Probleme mit dem HAL geben.
+> *Targeted Language:* Grundsätzlich ist für STM32 Projekte die Programmiersprache C empfohlen. Habe ich zwar nicht selbst ausprobiert, aber für [C++](../../Softwareentwicklung/Cpp/{MOC}%20Cpp.md) soll es anscheinend Probleme mit dem HAL geben.
 > 
 > *Executable:* Das Programm ist auf dem MCU Ausführbar.
 > 
@@ -46,10 +46,10 @@ created: 18th August 2023
 
 [STLink V2](https://www.st.com/resource/en/user_manual/um1075-stlinkv2-incircuit-debuggerprogrammer-for-stm8-and-stm32-stmicroelectronics.pdf)
 
-![](../_assets/Pasted%20image%2020250212221236.png)
+![](../../_assets/Pasted%20image%2020250212221236.png)
 
 
-![](../_assets/Pasted%20image%2020250212230247.png)
+![](../../_assets/Pasted%20image%2020250212230247.png)
 
 ## Requirements
 

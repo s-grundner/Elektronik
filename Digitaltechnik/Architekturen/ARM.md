@@ -1,6 +1,6 @@
 # ARM
 
-> [!question] [Rechnerarchitektur](Assembly.md)
+> [!question] [Rechnerarchitektur](Architekturen/Assembly.md)
 
 ## Abbreviations
 

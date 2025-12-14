@@ -17,13 +17,13 @@ title: RISC-V
 
 # RISC-V
 
-> [!question] [Rechnerarchitektur](Assembly.md), [Venus@ICS v0.1.4](https://venus.ics.jku.at/)
+> [!question] [Rechnerarchitektur](Architekturen/Assembly.md), [Venus@ICS v0.1.4](https://venus.ics.jku.at/)
 
 RISC-V: Erweiterbar, open source
 
 - RISC-V != Prozessor
 - LOAD/STORE Architektur
-- Standard namenskonvention um [ISA](Assembly.md) zu Beschreiben
+- Standard namenskonvention um [ISA](Architekturen/Assembly.md) zu Beschreiben
 
 Basics:
 

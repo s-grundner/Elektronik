@@ -19,7 +19,7 @@ Die Bus-Teilnehmer sind hierbei gleichgestellt, was heißt, dass des keinen Mast
 Die Daten werden einfach gesendet. Bei der Verdrahtung ist zu beachten, dass die Übertragungsleitungen überkreuzt angeschlossen werden müssen.  
 ![UART_Wiring](../../_assets/UART_Wiring.png)
 
-UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft über eine USB-Bridge den Flashspeicher beschreiben. Die USB-Bridge spricht das System dabei mit UART an. Auch das Debuggen erfolgt meistens über diese serielle [Schnittstelle](Interfaces/{MOC}%20Schnittstellen.md).
+UART spielt eine wichtige Rolle bei der Arbeit mit SoCs, da deren Firmware oft über eine USB-Bridge den Flashspeicher beschreiben. Die USB-Bridge spricht das System dabei mit UART an. Auch das Debuggen erfolgt meistens über diese serielle [Schnittstelle](index.md).
 
 ## 1 Die Übertragenen Datenpakte Haben Folgendes Format
 
@@ -127,6 +127,6 @@ int main(void)
 # Tags
 
 - [Ringbuffer](Ringbuffer.md)
-- [at644p](AVR%20ATmega644p.md)
+- [at644p](../AVR/AVR%20ATmega644p.md)
 
 ![at644p](../../_assets/pdf/at644p.pdf)

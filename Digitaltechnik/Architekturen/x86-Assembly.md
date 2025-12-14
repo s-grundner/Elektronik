@@ -7,7 +7,7 @@ created: 23. Dezember 2023
 
 # X86 Assembly
 
-> [!question]  [Rechnerarchitektur](Assembly.md)
+> [!question]  [Rechnerarchitektur](Architekturen/Assembly.md)
 
 ## I386 Intel
 

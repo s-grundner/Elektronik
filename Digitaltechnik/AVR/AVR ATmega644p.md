@@ -39,7 +39,7 @@ const int mydata[] PROGMEM = ...
 ## Assembly
 
 > [!EXAMPLE]  
-> ![AVR_Assembly1](../_assets/AVR_Assembly1.png)  
+> ![AVR_Assembly1](../../_assets/AVR_Assembly1.png)  
 > Vor dem Start des Programms wurde das gesamte interne Datenmemory (insklusive der Register R0-R31) auf 0x5A initialisiert. Indirektes Register X=R27:R26  
 > **Was steht nach der Ausführung des Programms (also von C:0x002B-letztem Befehl) auf folgender Adressen:**  
 > D:0x0029 : `0x5A `  
@@ -69,7 +69,7 @@ const int mydata[] PROGMEM = ...
 
 ### Examples
 
-> [!example] Eine Photodiode ist über einen [Widerstand](../Elektrotechnik/Ohmsches%20Gesetz.md) an PA3 angeschlossen. 
+> [!example] Eine Photodiode ist über einen [Widerstand](../../Elektrotechnik/Ohmsches%20Gesetz.md) an PA3 angeschlossen. 
 > - Bei 1 mW/cm² misst man 0,1 V
 > - bei 10 mW/cm² 4 V.
 > 
@@ -223,7 +223,7 @@ int main()
 
 # Tags
 
-- [Schnittstellen](Interfaces/{MOC}%20Schnittstellen.md)
+- [Schnittstellen](Interfaces/index.md)
 - [AVR Tips and API](https://onlinedocs.microchip.com/pr/GUID-78362176-487F-41B9-95C7-B478A9A186EB-en-US-2/index.html?GUID-E8E50411-4A61-4C7B-A8FD-7E07E93F6DDE)
-- [Instruction_Set_8bit](../_assets/pdf/Instruction_Set_8bit.pdf)
-- [at644p](../_assets/pdf/at644p.pdf)
+- [Instruction_Set_8bit](../../_assets/pdf/Instruction_Set_8bit.pdf)
+- [at644p](../../_assets/pdf/at644p.pdf)
