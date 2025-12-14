@@ -59,6 +59,6 @@ professor:
 > $\alpha=1$: Kritische Dämpfung
 > $\alpha = 1.268$: Bessel
 > $\alpha = 1.586$: [Butterworth](Butterworth%20Filter%20Charakteristik.md)
-> $\alpha=2.234$: [Tschebyscheff](Tscheybyscheff%20Filter%20Charakteristik.md)
+> $\alpha=2.234$: [Tschebyscheff](../Tscheybyscheff%20Filter%20Charakteristik.md)
 
 ## Funktionsweise

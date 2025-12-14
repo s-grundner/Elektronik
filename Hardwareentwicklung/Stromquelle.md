@@ -69,11 +69,11 @@ Der Transistor selbst ist natürlich keine Quelle. Er entnimmt lediglich den von
 
 ### Stromspiegel
 
-> [!success] Weiterführend: [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)
+> [!success] Weiterführend: [Stromspiegel](Stromversorgungseinheiten/Stromspiegel.md)
 
 ### Transistorstromquellen mit stromgesteuerter Gegenkopplung
 
-> [!question]- [Stromgesteuerte Spannungsgegenkopplung](Spannungseinstellung.md#Stromgesteuerte%20Spannungsgegenkopplung)
+> [!question]- [Stromgesteuerte Spannungsgegenkopplung](Halbleiter/Spannungseinstellung.md#Stromgesteuerte%20Spannungsgegenkopplung)
 > 
 > ```tikz
 > \usepackage[european, straightvoltages]{circuitikz}

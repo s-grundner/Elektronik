@@ -21,7 +21,7 @@ created: 31st January 2023
 ## Möglichkeiten Zur Resetgenerierung
 
 > [!INFO] Bestimmende Faktoren der Resetdauer
-> - Hochfahren der Systemkomponenten, [Schaltregler](../Hardwareentwicklung/Stromversorgungseinheiten/{MOC}%20Schaltnetzteil.md), [PLL](Oszillatoren/Phase%20Locked%20Loop.md)
+> - Hochfahren der Systemkomponenten, [Schaltregler](../Hardwareentwicklung/Stromversorgungseinheiten/{MOC}%20Schaltnetzteil.md), [PLL](../Hardwareentwicklung/Oszillatoren/Phase%20Locked%20Loop.md)
 > - Pipeline Strukturen im µC
 
 ### Power on Reset (POR)
@@ -65,4 +65,4 @@ $\rightarrow$ "seed-key" Prinzip
 
 # Tags
 
-[Open Collector](Open%20Collector.md)
+[Open Collector](../Hardwareentwicklung/Open%20Collector.md)

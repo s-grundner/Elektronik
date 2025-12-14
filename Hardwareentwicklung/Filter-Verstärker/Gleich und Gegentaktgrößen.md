@@ -20,7 +20,7 @@ professor:
 Die Güte eines Differenzverstärkers ist oft dadurch gegeben, in welchem Verhältnis die Gleich und Gegentakt anteile stehen. 
 
 - [Realer OPV](../Reale%20Eigenschaften%20von%20OPVs.md)
-- [BJT-Differenzverstärker](BJT-Differenzverstärker.md)
+- [BJT-Differenzverstärker](../Halbleiter/BJT-Differenzverstärker.md)
 - [MOSFET-Differenzverstärker](../Halbleiter/MOSFET-Differenzverstärker.md)
 
 

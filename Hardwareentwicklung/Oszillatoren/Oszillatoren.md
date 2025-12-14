@@ -81,7 +81,7 @@ Möglichkeiten die Schwingbedingung Herzuleiten:
 | [Colpitts Oszillator](Colpitts%20Oszillator.md)                                                    | [NE555](NE555.md)                                           |                                                       |                                                             |
 | [Serienschwingkreis](Serienschwingkreis.md)                                                        | [Kippstufe](Kippstufe.md)                                   |                                                       |                                                             |
 | [VCO](Voltage%20Controlled%20Oscillator.md)                                                        | [Relaxationsoszillator](Relaxationsoszillator.md)           |                                                       |                                                             |
-| [Verstärker-Bandpass Modell](Hardwareentwicklung/Oszillatoren/Verstärker-Bandpass%20Oszillator.md) | [Ringoszillator](Ringoszillator.md)                         |                                                       |                                                             |
+| [Verstärker-Bandpass Modell](Verstärker-Bandpass%20Oszillator.md) | [Ringoszillator](Ringoszillator.md)                         |                                                       |                                                             |
 
 > [!question] Diese Oszillatoren sind harmonisch, d.h. Sie erzeugen eine Fundamentale Schwingung und gegeben harmonische Oberschwingungen...
 > d.h. Vielfache der Grundfrequenz. Wie stark diese ausgprägt sind, wird durch den [Klirrfaktor](Klirrfaktor.md) beschrieben.

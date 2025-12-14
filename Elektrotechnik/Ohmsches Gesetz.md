@@ -31,4 +31,4 @@ $$
 # Tags
 
 [Spannungsteiler](Spannungsteiler.md)
-[TDR](Temperatur%20abhängiger%20Widerstand)
+[TDR](../Hardwareentwicklung/Temperatur%20abhängiger%20Widerstand.md)

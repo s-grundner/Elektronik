@@ -9,7 +9,7 @@ created: 19. September 2024
 
 - Prototyp
 - Testing
-- [Zertifizierung](../../../../Hardwareentwicklung/Certification.md)
+- [Zertifizierung](Certification.md)
 - Einkauf
 
 ## Prototyp

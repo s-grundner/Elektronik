@@ -25,7 +25,7 @@ Zusammenhang mit der Güte
 $$
 B=\frac{\omega_{\mathrm{r}}}{2 \pi Q}=\frac{f_{\mathrm{r}}}{Q}
 $$
-$\Rightarrow$ Je größer bei fester Resonanzfrequenz $f_{\mathrm{r}}$ die [Güte](Hardwareentwicklung/Filter-Verstärker/Güte.md) $Q$ eines Schwingkreises, desto kleiner ist seine Bandbreite
+$\Rightarrow$ Je größer bei fester Resonanzfrequenz $f_{\mathrm{r}}$ die [Güte](Güte.md) $Q$ eines Schwingkreises, desto kleiner ist seine Bandbreite
 
 - Eine große Güte führt also zu einem steil-flankigen Frequenzverhalten des Stroms bei einem Serienschwingkreis mit Spannungsspeisung
 

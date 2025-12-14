@@ -162,7 +162,7 @@ $$
 
 # Tags
 
-[Abblockkondensator](Abblockkondensator.md)
+[Abblockkondensator](../Hardwareentwicklung/Abblockkondensator.md)
 
 # Übung & Flashcards
 

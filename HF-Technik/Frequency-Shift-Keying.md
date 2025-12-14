@@ -94,7 +94,7 @@ $$
 
 ## Continuous Phase FSK (CPFSK)
 
-Das Symbol wird auf die Frequenzbestimmende Steuerspannung eines einzelnen [VCO](Hardwareentwicklung/Oszillatoren/Voltage%20Controlled%20Oscillator.md) gemappt.
+Das Symbol wird auf die Frequenzbestimmende Steuerspannung eines einzelnen [VCO](../Hardwareentwicklung/Oszillatoren/Voltage%20Controlled%20Oscillator.md) gemappt.
 
 Der VCO besitzt implizit ein **Integrales verhalten** bezüglich der Phase. D.h. die Phase wird auf-akkumuliert und führt zu einem **Memory-Effekt**. Die Phase ist also anders als beim NCPFSK Abhängig vom Symbol aus der Vorherigen Periode
 

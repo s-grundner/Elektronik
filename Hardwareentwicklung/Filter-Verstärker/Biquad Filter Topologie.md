@@ -17,7 +17,7 @@ professor:
 
 # Biquad Filter Topologie nach Tow-Thomas
 
-Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integratorfilters](OPV-Integrator.md#Integratorfilter).
+Ein Tow-Thomas Filter ist eine schaltungstechnische Realisierung eines [Integratorfilters](../OPV-Integrator.md#Integratorfilter).
 
 Dieser Filter kombiniert einen [aktiven](Aktiver%20Filter.md) Tiefpass und Bandpass 2. Ordnung.
 
@@ -118,7 +118,7 @@ mit den Parametern: $V_{0}=1,\quad \omega_{0}=10^{5}s^{-1}, \quad Q=\frac{1}{\sq
 
 Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermittelt werden.
 
-> [!question] **(A)** [Umkehrsummierer](OPV-Addierer.md) liefert $U_{1}(U_{E}, U_{TP})$
+> [!question] **(A)** [Umkehrsummierer](../OPV-Addierer.md) liefert $U_{1}(U_{E}, U_{TP})$
 > 
 > ```tikz
 > \usepackage[european, straightvoltages]{circuitikz}
@@ -185,7 +185,7 @@ Zwischenspannungen können durch die einzelne Betrachtung jeder OPV Stufe ermitt
 > 
 > $$U_{BP} =-U_{1}\cdot \frac{R_{3}}{R}\cdot \frac{1}{1+j\omega R_{3}C}$$
 
-> [!question] **(C)** [Integrator](OPV-Integrator.md) liefert $U_{TP}(U_{BP})$
+> [!question] **(C)** [Integrator](../OPV-Integrator.md) liefert $U_{TP}(U_{BP})$
 > 
 > ```tikz
 > \usepackage[european, straightvoltages]{circuitikz}

@@ -25,6 +25,6 @@ banner_y: 0.3525
 
 # Tags
 
-[Transistoren]({MOC}%20Transistor.md)  
-[Diode](Diode.md)  
+[Transistoren](../../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md)  
+[Diode](../../Hardwareentwicklung/Halbleiter/Diode.md)  
 [Chemische Bindungen](../../Chemie/Chemische%20Bindungen.md)

@@ -8,9 +8,9 @@ created: 17th January 2023
 
 # Quartzoszillator
 
-> [!question] [Oszillator](Hardwareentwicklung/Oszillatoren/Oszillatoren.md)
+> [!question] [Oszillator](Oszillatoren.md)
 
-Der Schwingquartz weist eine Sehr stabile Frequenz auf d.h. er hat eine hohe Güte. Viel höher als bei einem Elektrischen Schwingkreis realistisch erzielt werden kann. Ein Nachteil ist jedoch, dass die Schwingfrequenz bis maximal in den MHz bereich reicht. Die Abhilfe ist der [Phase Locked Loop](Hardwareentwicklung/Oszillatoren/Phase%20Locked%20Loop.md), welcher die Phasenabweichung eines schneller schwingfähigen Elektrischen Schwingkreises (VCO) mit einem Quartzoszillator als Referenz regelt.
+Der Schwingquartz weist eine Sehr stabile Frequenz auf d.h. er hat eine hohe Güte. Viel höher als bei einem Elektrischen Schwingkreis realistisch erzielt werden kann. Ein Nachteil ist jedoch, dass die Schwingfrequenz bis maximal in den MHz bereich reicht. Die Abhilfe ist der [Phase Locked Loop](Phase%20Locked%20Loop.md), welcher die Phasenabweichung eines schneller schwingfähigen Elektrischen Schwingkreises (VCO) mit einem Quartzoszillator als Referenz regelt.
 
 > [!INFO] Schwingquartze beruhen auf dem Prinzip des Piezoelektrischen Effekts
 > Der Quartz ist daher ein Mechanisches Bauelement 

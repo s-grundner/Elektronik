@@ -15,7 +15,7 @@ title: Digitaler Filter
 
 # Digitale Filter
 
-> [!question] [Filter](Filter.md)
+> [!question] [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md)
 
 ---
 

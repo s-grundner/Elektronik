@@ -87,4 +87,4 @@ Um die 3-dB Grenzfrequenzen $\omega_{c}$ zu erhalten setzt man den Betragsgang g
 
 ### Bandbreite und Güte
 
-> [!question] [Bandbreite](Hardwareentwicklung/Filter-Verstärker/Bandbreite.md) | [Güte](Hardwareentwicklung/Filter-Verstärker/Güte.md)
+> [!question] [Bandbreite](Bandbreite.md) | [Güte](Güte.md)
