@@ -29,7 +29,7 @@ professor:
 
 Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische Verhalten des Zustands eines Systems berücksichtigt.
 
-> [!important] Zentraler Begriff: **Zustandsraum** [(t)](Regelungstechnik/Zustandsbeschreibung.md), [\[n\]](Zeitdiskrete%20Zustandsbeschreibung.md)
+> [!important] Zentraler Begriff: **Zustandsraum** [(t)](Zustandsbeschreibung.md), [\[n\]](Zeitdiskrete%20Zustandsbeschreibung.md)
 
 Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
@@ -45,7 +45,7 @@ Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
 ## Regelung vom Dynamischen Systemen
 
-![](Regelungstechnik/Regelungstechnik.md#^INFO)
+![](Regelungstechnik/index.md#^INFO)
 
 Zur Regelung von Systemen sind folgenden Eigenschaften des Zustandsraumes von Bedeutung
 

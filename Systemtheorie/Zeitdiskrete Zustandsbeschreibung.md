@@ -17,7 +17,7 @@ title: Zeitdiskreter Zustandsraum
 
 > [!question] Zentraler Begriff der [Systemtheorie](index.md)
 
-[Kontinuierliche Zustandsbeschreibung](Regelungstechnik/Zustandsbeschreibung.md) ***:LiArrowBigRightDash:*** 
+[Kontinuierliche Zustandsbeschreibung](Zustandsbeschreibung.md) ***:LiArrowBigRightDash:*** 
 
 ---
 

@@ -42,7 +42,7 @@ Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\ma
 
 ![Kalman-Zerlegung](Regelungstechnik/Kalman-Zerlegung.md#^ERRE)
 
-Das neue System hat die Form (mit den Koeffizienten wie in [ZTRF](Regelungstechnik/Zustandstransformation.md#^ZTRF))
+Das neue System hat die Form (mit den Koeffizienten wie in [ZTRF](Zustandstransformation.md#^ZTRF))
 
 ![](Regelungstechnik/Kalman-Zerlegung.md#^ERRE-DISK)
 

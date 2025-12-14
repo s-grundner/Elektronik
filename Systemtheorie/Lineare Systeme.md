@@ -41,7 +41,7 @@ title: Lineare Systeme
 
 (Zur Erinnerung: Zeilen $\times$ Spalten)
 
-![](Regelungstechnik/Zustandsbeschreibung.md#^ZSGR)
+![](Zustandsbeschreibung.md#^ZSGR)
 
 Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollständig zu beschrieben. Je nachdem ob die Gleichungen bestimmte Vorraussetzungen erfüllen nennt man das System auch ... 
 

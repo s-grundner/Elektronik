@@ -21,7 +21,7 @@ professor:
 
 # Zustandsbeschreibung eines dynamischen Systems
 
-> [!question] Zentraler Begriff der [Systemtheorie](../index.md)
+> [!question] Zentraler Begriff der [Systemtheorie](index.md)
 
 [Zeitdiskrete Zustandsbeschreibung](Zeitdiskrete%20Zustandsbeschreibung.md) ***:LiArrowBigRightDash:***
 

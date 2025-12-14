@@ -34,7 +34,7 @@ title: Zeitdiskrete Beobachtbarkeit
 
 ![BEOB](Regelungstechnik/Kalman-Zerlegung.md#^BEOB)
 
-Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Regelungstechnik/Zustandstransformation.md#^ZTRF))
+Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Zustandstransformation.md#^ZTRF))
 
 ![BEOB-KONT](Regelungstechnik/Kalman-Zerlegung.md#^BEOB-KONT)
 

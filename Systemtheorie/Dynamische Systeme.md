@@ -47,7 +47,7 @@ $$
 $$
 
 
-![](Regelungstechnik/Zustandsbeschreibung.md#^ZSGR)
+![](Zustandsbeschreibung.md#^ZSGR)
 
 Die Ordnung des Systems ist dabei die Dimension des Zustandsvektors $\dim \mathbf{x}=n$.
 

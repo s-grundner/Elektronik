@@ -65,7 +65,7 @@ Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\ma
 
 ![](Regelungstechnik/Kalman-Zerlegung.md#^ERRE)
 
-Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Regelungstechnik/Zustandstransformation.md#^ZTRF))
+Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](../Zustandstransformation.md#^ZTRF))
 
 ![ERRE-KONT](Regelungstechnik/Kalman-Zerlegung.md#^ERRE-KONT)
 

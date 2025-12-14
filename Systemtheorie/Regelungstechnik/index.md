@@ -1,8 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Control Theory
-keywords: 
+  - Regelungstechnik
+keywords:
 subject:
   - Regelungstechnik
   - VL
@@ -29,7 +30,7 @@ Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}
 
 ![invert_dark](../../_assets/RegTSystem.png)
 
-> [!hint] [Zustandsbeschreibung](Regelungstechnik/Zustandsbeschreibung.md)
+> [!hint] [Zustandsbeschreibung](../Zustandsbeschreibung.md)
 
 | [dynamische Systeme](../index.md)                                                                                                                                       | statische Systeme                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
