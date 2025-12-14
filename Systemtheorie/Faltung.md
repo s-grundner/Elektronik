@@ -70,7 +70,7 @@ Diese Eigenschaft ist die **Abtasteigenschaft** der [Dirac-Distribution](../Math
 
 ## Relevanz in der Systemtheorie
 
-> [!question] [Systemtheorie]({MOC}%20Systemtheorie.md)
+> [!question] [Systemtheorie](index.md)
 
 Bei [LTI-Systemen](LTI-Systeme.md) lässt sich das Ausgangssignal $y$ durch Faltung des Eingangssignals $x$ mit der Impulsantwort $h$ Des Systems berechnen. Die Faltungsoperation ist definiert durch das Faltungsintegral bei zeitkontinuierlichen und durch die Faltungssumme bei zeitdiskreten Signalen.
 

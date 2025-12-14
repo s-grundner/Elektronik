@@ -21,7 +21,7 @@ professor:
 
 # Zustandsbeschreibung eines dynamischen Systems
 
-> [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
+> [!question] Zentraler Begriff der [Systemtheorie](../index.md)
 
 [Zeitdiskrete Zustandsbeschreibung](Zeitdiskrete%20Zustandsbeschreibung.md) ***:LiArrowBigRightDash:***
 
@@ -57,7 +57,7 @@ Der Zustandsraum ist die Vorbereitung, um Systeme auf eine beliebige Anzahl von 
 - Im allgemeinen Fall: ein System von Differentialgleichungen
 - Jede Differentialgleichung höherer Ordnung lässt sich in ein System von Differentialgleichungen 1. Ordnung zerlegen
 
-> [!hint]- **Erinnerung:** [Lineare DGL n-ter Ordnung](../Mathematik/Analysis/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](../Mathematik/Analysis/DGL-System.md) 1. Ordnung
+> [!hint]- **Erinnerung:** [Lineare DGL n-ter Ordnung](../../Mathematik/Analysis/Lineare%20DGL%20n-ter%20Ordnung.md) $\to$ [DGL-System](../../Mathematik/Analysis/DGL-System.md) 1. Ordnung
 > Differentialgleichung $n$-ter Ordnung:
 > 
 > $$x^{(n)}+\alpha_n x^{(n-1)}+\ldots+\alpha_3 \ddot{x}+\alpha_2 \dot{x}+\alpha_1 x=u$$
@@ -114,7 +114,7 @@ Der Zustandsvektor $\mathbf{x(t)}$ ist ein Element eines linearen Vektorraumes, 
 >[!example] Zustandsbeschreibung eines Parallelschwingkreis
 > Relevant ist, wo hier die Energie gespeichert wird. 
 
-![invert_dark|400](../_assets/zustandsraum.png)
+![invert_dark|400](../../_assets/zustandsraum.png)
 
 > [!important] Zustansgrößen: $u_C(t)$, $i_L(t)$
 > 

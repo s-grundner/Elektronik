@@ -20,7 +20,7 @@ title: Erreichbarkeit
 
 # Erreichbarkeit von LTI-Systemen
 
-:LiArrowBigRightDash: [Beobachtbarkeit](Beobachtbarkeit.md) 
+:LiArrowBigRightDash: [Beobachtbarkeit](Regelungstechnik/Beobachtbarkeit.md) 
 :LiRefreshCcw: [Erreichbarkeit Zeitdiskreter Systeme](Zeitdiskrete%20Erreichbarkeit.md) 
 
 ---
@@ -30,12 +30,12 @@ title: Erreichbarkeit
 
 Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können? Diese Definition kann mit der Systemmatrizen $\mathbf{A}$ und $\mathbf{B}$ geprüft werden.
 
-![invert_dark|250](../_assets/Erreichbarkeit.png)
+![invert_dark|250](../../_assets/Erreichbarkeit.png)
 
 ## Testen Auf Erreichbarkeit
 
 > [!satz] **S1 - MIMO)** Erreichbarkeitskriterium für $n$-dimensionale [MIMO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO)-Systeme. ^MIMO
-> Das LTI-System ist vollständig erreichbar, wenn die Erreichbarkeits-Matrix $\mathbf{M}_{\mathcal{R}}$ den [Rang](../Mathematik/Algebra/Rang%20einer%20Matrix.md) $n$ hat.
+> Das LTI-System ist vollständig erreichbar, wenn die Erreichbarkeits-Matrix $\mathbf{M}_{\mathcal{R}}$ den [Rang](../../Mathematik/Algebra/Rang%20einer%20Matrix.md) $n$ hat.
 > $$\mathbf{M}_{\mathcal{R}} = \begin{bmatrix}
 > \mathbf{B} & \mathbf{AB} & \mathbf{A}^{2}\mathbf{B} & \dots &  \mathbf{A}^{n-1}\mathbf{B}\\
 > \end{bmatrix}$$
@@ -44,7 +44,7 @@ Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegeb
 Das heißt für ein MIMO-System müssen alle bis auf genau $n$ Spalten linear abhängig sein, damit es gemäß [D1](#^ERRE) volständig erreichbar ist.
 
 > [!satz]- **S2 - SISO)** Erreichbarkeitskriterium für $n$-dimensionale [SISO](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-SISO)-Systeme. ^SISO
-> Das LTI-System ist vollständig erreichbar, wenn die Erreichbarkeits-Matrix $\mathbf{M}_{\mathcal{R}}$ den [Rang](../Mathematik/Algebra/Rang%20einer%20Matrix.md) $n$ hat, d.h. [regulär](../Mathematik/Algebra/Reguläre%20Matrizen.md#^REGM) ist. 
+> Das LTI-System ist vollständig erreichbar, wenn die Erreichbarkeits-Matrix $\mathbf{M}_{\mathcal{R}}$ den [Rang](../../Mathematik/Algebra/Rang%20einer%20Matrix.md) $n$ hat, d.h. [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md#^REGM) ist. 
 > $$\mathbf{M}_{\mathcal{R}} = \begin{bmatrix}
 > \mathbf{b} & \mathbf{Ab} & \mathbf{A}^{2}\mathbf{b} & \dots &  \mathbf{A}^{n-1}\mathbf{b}\\
 > \end{bmatrix}$$
@@ -55,7 +55,7 @@ $\mathcal{R}$ steht für *reachable*. $\mathbf{M}_{\mathcal{R}}$ heißt auch *Er
 
 > [!def] **D2)** Der *Erreichbare Unterraum* $\mathcal{R}$ ist gegeben durch ^ERRE-SUBSPACE
 > $$\mathcal{R} := \operatorname{im}(\mathbf{M}_{\mathcal{R}})$$
->  Das [Bild](../Mathematik/Algebra/Lineare%20Abbildungen.md#^BILD) von $\mathbf{\mathbf{M}}_{\mathcal{R}}$ sind alle linear unabhängigen **Spalten**
+>  Das [Bild](../../Mathematik/Algebra/Lineare%20Abbildungen.md#^BILD) von $\mathbf{\mathbf{M}}_{\mathcal{R}}$ sind alle linear unabhängigen **Spalten**
 
 Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\mathbf{x}_{0} = \mathbf{0}$ die in endlicher Zeit erreicht werden können. Das System ist also vollständig erreichbar wie in [D1](#^ERRE) wenn $\dim\mathbf{M}_{\mathcal{R}} = \dim\mathcal{R} =n$ 
 
@@ -63,11 +63,11 @@ Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\ma
 
 > [!hint] Ist das System nicht vollständig erreichbar, kann das System in ein erreichbares- und ein nicht-erreichbares Teilsystem zerlegen.
 
-![](Kalman-Zerlegung.md#^ERRE)
+![](Regelungstechnik/Kalman-Zerlegung.md#^ERRE)
 
-Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Zustandstransformation.md#^ZTRF))
+Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Regelungstechnik/Zustandstransformation.md#^ZTRF))
 
-![ERRE-KONT](Kalman-Zerlegung.md#^ERRE-KONT)
+![ERRE-KONT](Regelungstechnik/Kalman-Zerlegung.md#^ERRE-KONT)
 
 **Das erreichbare Teilsystem:**
 
@@ -76,7 +76,7 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 
 **Das Nicht-Erreichbare Teilsystem:**
 
-- Das [autonome](../Mathematik/Analysis/Autonomes%20DGL-System.md) Teilsystem $\mathbf{\dot{z}}_{2} = \mathbf{\bar{A}}_{22}\mathbf{z}_{2}$ ist *weder* durch den Eingang $\mathbf{u}$, *noch* durch den Teilzustand $\mathbf{z}_{1}$ beeinflussbar.
+- Das [autonome](../../Mathematik/Analysis/Autonomes%20DGL-System.md) Teilsystem $\mathbf{\dot{z}}_{2} = \mathbf{\bar{A}}_{22}\mathbf{z}_{2}$ ist *weder* durch den Eingang $\mathbf{u}$, *noch* durch den Teilzustand $\mathbf{z}_{1}$ beeinflussbar.
 - $\mathbf{z}_{2}$ ist der Zustand des nicht erreichbaren Teilsystems
 
 ## Steuerbarkeit
@@ -89,15 +89,15 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 > Man nennt das [LTI-System](Kontinuierlicher%20LTI-Zustandsraum.md#^LTI-MIMO) vollständig steuerbar, wenn ausgehend von einem beliebigen Anfangszustand $\mathbf{x}_{0}$ innerhalb einer endlichen Zeit $T_{e}$ mit einer im Intervall $0 \leq t \leq T_{e}$ stückweise stetigen Eingangsgröße $u(t)$ das System in den Zustand $\mathbf{x}(T_{e}) = 0$ übergeführt werden kann
 
 > [!hint] Im kontinuierlichen gilt: **vollst. steuerbar** $\iff$ **vollst. erreichbar**
-> Ist das System vollständig Erreichbar ist es ebenso vollständig Steuerbar. Die Steuerbarkeit ist also genauso durch den vollen [Rang](../Mathematik/Algebra/Rang%20einer%20Matrix.md) von $\mathbf{M}_{\mathcal{R}}$ gegeben
+> Ist das System vollständig Erreichbar ist es ebenso vollständig Steuerbar. Die Steuerbarkeit ist also genauso durch den vollen [Rang](../../Mathematik/Algebra/Rang%20einer%20Matrix.md) von $\mathbf{M}_{\mathcal{R}}$ gegeben
 
-![invert_dark|250](../_assets/Steuerbarkeit.png)
+![invert_dark|250](../../_assets/Steuerbarkeit.png)
 
 Warum? $\to$ Zeitinvarianz eines LTI Systems: Vergleicht man die beiden Definitionen, stellt man fest, dass Steuerbarkeit genau die inverse Eigenschaft zur Erreichbarkeit ist.
 
-Die Fundamentallösung des Systems hat [besondere Eigenschaften](../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM-Eigenschaften)
+Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM-Eigenschaften)
 
-- Die Transitionsmatrix ist immer [regulär](../Mathematik/Algebra/Reguläre%20Matrizen.md) (d.h. Invertierbar)
+- Die Transitionsmatrix ist immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) (d.h. Invertierbar)
 - Folgt man dem Fluss einer Lösung in die umgekehrete Richtung ist das äquivalent zum inversen Fluss 
 
 ## Stabilisierbarkeit
@@ -106,7 +106,7 @@ Die Fundamentallösung des Systems hat [besondere Eigenschaften](../Mathematik/A
 
 ---
 
-Damit das nicht vollständig erreichbare System stabilisierbar ist, muss die Systemmatrix $\mathbf{A}_{22}$ des nicht-erreichbare Teilsystem eine [Hurwitzmatrix](../Mathematik/Analysis/Hurwitz-Matrix.md) sein.
+Damit das nicht vollständig erreichbare System stabilisierbar ist, muss die Systemmatrix $\mathbf{A}_{22}$ des nicht-erreichbare Teilsystem eine [Hurwitzmatrix](../../Mathematik/Analysis/Hurwitz-Matrix.md) sein.
 
 - Alle Eigenwerte sind dann negativ und das nicht-erreichbare teilsystem ist asymptotisch-stabil.
-- Um das System zu stabilisieren kann eine [Zustandsregelung](Zustandsregeler.md) unternommen werden.
+- Um das System zu stabilisieren kann eine [Zustandsregelung](Regelungstechnik/Zustandsregeler.md) unternommen werden.

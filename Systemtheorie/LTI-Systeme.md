@@ -26,7 +26,7 @@ professor:
 
 Zur Grundlage werden zunächst eindimensionale- bzw. Eingrößen-Systeme betrachtet:
 
-![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
+![Systemtheorie](index.md#^SYST)
 
 ## Linearität
 

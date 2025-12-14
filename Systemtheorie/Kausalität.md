@@ -28,7 +28,7 @@ professor:
 > - :LiAudioWaveform:) $x(t) = 0$ für $t < 0$
 > - :LiBarChart2:) $x[n] = 0$ für $n < 0$
 > 
-> **(b)** Ein [System]({MOC}%20Systemtheorie.md) $\mathcal{T}$ heißt kausal, wenn
+> **(b)** Ein [System](index.md) $\mathcal{T}$ heißt kausal, wenn
 > - :LiAudioWaveform: | :LiBarChart2:) zu jedem kausalen Eingangssignal $x$ ein kausales Ausgangssignal $y$ gehört.
 
 Ein kausales System reagiert also keines falls vor einer Aktion am Eingang. Es ist nur eine instantane oder verzögerte Antwort möglich.

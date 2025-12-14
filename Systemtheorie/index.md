@@ -1,7 +1,10 @@
 ---
 tags:
+  - index
   - MOC
   - Systeme
+title: Systemtheorie
+release: true
 aliases:
   - "#Systeme"
   - Systemeigenschaften
@@ -14,12 +17,10 @@ semester: SS25
 created: 11th March 2025
 professor:
   - Andreas Stelzer 🕊️
-release: true
-title: Systemtheorie
 ---
- 
 
-# System
+
+# Signale und Systeme
 
 > [!def] **D1 - SYST)** Eingrößen-System ^SYST
 > $$y(t)=\mathcal{T}\{x\}(t)$$
@@ -28,7 +29,7 @@ title: Systemtheorie
 
 Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische Verhalten des Zustands eines Systems berücksichtigt.
 
-> [!important] Zentraler Begriff: **Zustandsraum** [(t)](Zustandsbeschreibung.md), [\[n\]](Zeitdiskrete%20Zustandsbeschreibung.md)
+> [!important] Zentraler Begriff: **Zustandsraum** [(t)](Regelungstechnik/Zustandsbeschreibung.md), [\[n\]](Zeitdiskrete%20Zustandsbeschreibung.md)
 
 Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
@@ -44,7 +45,7 @@ Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
 ## Regelung vom Dynamischen Systemen
 
-![](Regelungstechnik.md#^INFO)
+![](Regelungstechnik/Regelungstechnik.md#^INFO)
 
 Zur Regelung von Systemen sind folgenden Eigenschaften des Zustandsraumes von Bedeutung
 
@@ -61,7 +62,8 @@ Zusammenhänge zwischen verschieden Signal-Transformationen
 
 ### Übersicht und Zusammenhänge
 
-![10000](../_assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw.md)
+![invert_dark](../_assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Drawing%202025-06-23%2015.38.42.excalidraw.md)%%
 
 ### Übersicht: Eigenschaften von $G(s)$, $G(z)$ und $G^\#(q)$
 

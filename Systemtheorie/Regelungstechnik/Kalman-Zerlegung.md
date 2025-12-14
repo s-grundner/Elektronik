@@ -23,7 +23,7 @@ Ist ein System nicht vollständig Erreichbar, kann es in ein erreichbares- und e
 
 > [!satz] **S)** Kalmanzerlegung bzgl der Erreichbarkeit ^ERRE
 > 
-> Man betrachtet die [Zustandstransformation](Zustandstransformation.md) mit $\mathbf{T} = [\mathbf{U}\quad \mathbf{U}_{C}]$
+> Man betrachtet die [Zustandstransformation](Regelungstechnik/Zustandstransformation.md) mit $\mathbf{T} = [\mathbf{U}\quad \mathbf{U}_{C}]$
 > 
 > $$
 > \mathbf{x} = \begin{bmatrix}
@@ -34,11 +34,11 @@ Ist ein System nicht vollständig Erreichbar, kann es in ein erreichbares- und e
 > $$
 > 
 > - $\mathbf{U}$ ... linear unabhängigen **Spalten** der Erreichbarkeitsmatrix $\mathbf{M}_{\mathcal{R}}$ 
-> - $\mathbf{U}_{C}$ ... Komplement von $\mathbf{U}$ bestehend aus $n-n_{\mathcal{R}}$ Spalten. Wird so gewählt, dass $[\mathbf{U}\quad \mathbf{U}_{C}]$ [regulär](../Mathematik/Algebra/Reguläre%20Matrizen.md) ist.
+> - $\mathbf{U}_{C}$ ... Komplement von $\mathbf{U}$ bestehend aus $n-n_{\mathcal{R}}$ Spalten. Wird so gewählt, dass $[\mathbf{U}\quad \mathbf{U}_{C}]$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) ist.
 > -  $n$ ... Dimension des Zustandes $\mathbf{x}$
 > - $n_{\mathcal{R}}$ ... Dimension des erreichbaren Unterraums $\mathcal{R}$
 
-Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Zustandstransformation.md#^ZTRF))
+Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Regelungstechnik/Zustandstransformation.md#^ZTRF))
 
 - [Zerlegung Zeitkontinuierlicher Systeme](Erreichbarkeit.md#Kalman-Zerlegung%20bezüglich%20der%20Erreichbarkeit)
 
@@ -86,7 +86,7 @@ Ist ein System nicht vollständig Beobachtbar, kann es in ein beobachtbares- und
 
 > [!satz] **S)** Kalmanzerlegung bzgl der Beobachtbarkeit ^BEOB
 > 
-> Man betrachtet die [Zustandstransformation](Zustandstransformation.md) mit $\mathbf{T} = [\mathbf{U}\quad \mathbf{U}_{C}]$
+> Man betrachtet die [Zustandstransformation](Regelungstechnik/Zustandstransformation.md) mit $\mathbf{T} = [\mathbf{U}\quad \mathbf{U}_{C}]$
 > 
 > $$
 > \mathbf{x} = \begin{bmatrix}
@@ -101,7 +101,7 @@ Ist ein System nicht vollständig Beobachtbar, kann es in ein beobachtbares- und
 > -  $n$ ... Dimension des Zustandes $\mathbf{x}$
 > - $n_{O}$ ... Dimension des beobachbaren Unterraums $O$
 
-Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Zustandstransformation.md#^ZTRF))
+Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Regelungstechnik/Zustandstransformation.md#^ZTRF))
 
 - [Zerlegung Zeitkontinuierlicher Systeme](Beobachtbarkeit.md#Kalman-Zerlegung%20bezüglich%20der%20Beobachtbarkeit)
 

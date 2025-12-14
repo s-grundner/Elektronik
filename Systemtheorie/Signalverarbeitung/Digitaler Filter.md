@@ -15,7 +15,7 @@ title: Digitaler Filter
 
 # Digitale Filter
 
-> [!question] [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md)
+> [!question] [Filter](../../Hardwareentwicklung/Filter-Verstärker/Filter.md)
 
 ---
 
@@ -41,14 +41,14 @@ Die Verzögerung eines LTI-Systems wird durch die [Gruppenlaufzeit](zeitdiskrete
 
 ### Filterentwurf
 
-- [FIR-Filter](FIR-Filter.md)
+- [FIR-Filter](../../xEDU/B4_SS25/Signalverarbeitung/FIR-Filter.md)
 - [[IIR-Filter]]
 
 ## Adaptive Filter
 
 - Verändern ihre eigenschaften über Zeit. Werden an die Samples angepasst. **Zeitvariantes System**
 
-![invert_dark|600](../_assets/Pasted%20image%2020250305101059.png)
+![invert_dark|600](../../_assets/Pasted%20image%2020250305101059.png)
     
 - $s[k]$ = nutzsignal
 - $x'[k]$ = rauschsignal

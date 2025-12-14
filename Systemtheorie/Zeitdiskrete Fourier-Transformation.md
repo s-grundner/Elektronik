@@ -18,11 +18,11 @@ title: Zeitdiskrete Fouriertransformation
 # Zeitdiskrete Fourier-Transformation
 
 - [Fouriertransformation](Fouriertransformation.md) ***:LiArrowBigRightDash:***
-- [Diskrete Fourier-Transformation](Systemtheorie/DFT.md) ***:LiArrowBigRightDash:***
+- [Diskrete Fourier-Transformation](Signalverarbeitung/DFT.md) ***:LiArrowBigRightDash:***
 
 ---
 
-> [!important] Die Zeitdiskrete FT hat im gegensatz zur [DFT](Systemtheorie/DFT.md) folgende Eigenschaft
+> [!important] Die Zeitdiskrete FT hat im gegensatz zur [DFT](Signalverarbeitung/DFT.md) folgende Eigenschaft
 > Die Funktion im Zeitbereich ist Zeitdiskret im Frequenzbereich ist sie jedoch kontinuierlich.
 
 Zur [Dualen Poissonschen Summenformel](Poissonsche%20Summenformel.md#^POIS2) erfolgen zwei Substituierungen:

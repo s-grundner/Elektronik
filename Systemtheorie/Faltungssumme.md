@@ -26,7 +26,7 @@ title: Faltungssumme
 
 ## Faltungsmatrix
 
-> [!info] Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md)
+> [!info] Bekannt aus der [Systemtheorie](index.md)
 > das Ausgangssignal $y$ ist das Ergebnis der Faltung des Eingangs $x$ mit der Impulsantwort $h$.
  
 Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
@@ -102,7 +102,7 @@ $$
 ---
 
 - Faltungsmatrix: [INTERNAL - SigV UE01](xEDU/B4_SS25/Signalverarbeitung/UE/UE01.md)
-- [Zyklische Faltung](Zyklische%20Faltung.md)
+- [Zyklische Faltung](Signalverarbeitung/Zyklische%20Faltung.md)
 
 ---
 

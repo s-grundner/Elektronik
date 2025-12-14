@@ -24,7 +24,7 @@ Ein LTI-System wird durch die Zustandsgleichungen Beschrieben:
 
 Oft ist es Sinnvoll den Zustand des Systems zu Transformieren, z.B.
 
-- um dessen [Ruhelage](../Mathematik/Analysis/Ljapunov.md) in den Ursprung zu setzen.
+- um dessen [Ruhelage](../../Mathematik/Analysis/Ljapunov.md) in den Ursprung zu setzen.
 - für eine [Kalman-Zerlegung](Kalman-Zerlegung.md)
 
 
@@ -45,7 +45,7 @@ $$
 
 Manchmal wird auch $\mathbf{T}^{-1} = \mathbf{\bar{T}}$ substituiert.
 
-> [!warning] Vorrausgesetzt ist dabei die [Invertierbarkeit](../Mathematik/Algebra/Reguläre%20Matrizen.md) von $\mathbf{T}$
+> [!warning] Vorrausgesetzt ist dabei die [Invertierbarkeit](../../Mathematik/Algebra/Reguläre%20Matrizen.md) von $\mathbf{T}$
 
 Dieses System ist wieder ein LTI-System der Form:
 
@@ -67,13 +67,13 @@ Dieses System ist wieder ein LTI-System der Form:
 
 ## Lösung der Zustandsgleichung
 
-Die Lösung durch [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md) des Transformierten LTI-Systems ist:
+Die Lösung durch [Variation der Konstanten](../../Mathematik/Analysis/Variation%20der%20Konstanten.md) des Transformierten LTI-Systems ist:
 
 $$
 \mathbf{z}(t;\mathbf{z}_{0}) = \mathbf{\bar{\Phi}}(t)\mathbf{z}_{0} + \int_{0}^{t}\mathbf{\bar{\Phi}}(t-\tau)\bar{\mathbf{B}}\mathbf{u}\mathrm{~d}\tau
 $$
 
-Dabei ist $\mathbf{\bar{\Phi}}(t)$ die [Transitionsmatrix](../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM) des Zustands. Aus [ZTRF](#^ZTRF) erhält man für den Ursprünglichen Zustandsvektor $\mathbf{x}$
+Dabei ist $\mathbf{\bar{\Phi}}(t)$ die [Transitionsmatrix](../../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM) des Zustands. Aus [ZTRF](#^ZTRF) erhält man für den Ursprünglichen Zustandsvektor $\mathbf{x}$
 
 $$
 \mathbf{x}(t;\mathbf{z}_{0}) = \mathbf{Tz}(t) = \mathbf{T\bar{\Phi}}(t)\mathbf{z}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\bar{\Phi}}(t-\tau)\mathbf{\bar{B}u}\mathrm{~d}\tau
@@ -91,6 +91,6 @@ $$
 
 ## Besondere Zustanstransformationen
 
-- [Jordannormalform](../Mathematik/Algebra/Jordannormalform.md)
+- [Jordannormalform](../../Mathematik/Algebra/Jordannormalform.md)
 - [Kalman-Zerlegung](Kalman-Zerlegung.md)
-- [{MOC} Lineare Algebra](../Mathematik/{MOC}%20Lineare%20Algebra.md)
+- [{MOC} Lineare Algebra](../../Mathematik/{MOC}%20Lineare%20Algebra.md)

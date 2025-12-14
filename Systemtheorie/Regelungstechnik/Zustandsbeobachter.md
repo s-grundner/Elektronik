@@ -33,6 +33,6 @@ $$
 
 geeigneter Dimension $n$ mit den **Eingängen** $\mathbf{u}$ und $\mathbf{y}$ konstruieren, welches als **Ausgang** einen *Schätzwert* $\mathbf{\hat{x}} \in \mathbb{R}^{n}$ für $\mathbf{x}$ liefert.
 
-![invert_dark|600](../_assets/Pasted%20image%2020250525200012.png)
+![invert_dark|600](../../_assets/Pasted%20image%2020250525200012.png)
 
 Dieses System beziechnet man als Beobachter.

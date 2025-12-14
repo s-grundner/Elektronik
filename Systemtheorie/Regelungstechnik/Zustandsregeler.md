@@ -28,7 +28,7 @@ Für ein [LTI-System](Kontinuierlicher%20LTI-Zustandsraum.md) ist die Zustandsre
 > - MIMO: $\mathbf{u} = \mathbf{Kx} + \mathbf{v}$
 > - SISO:  $u = \mathbf{k}^\mathrm{T}\mathbf{x} + v$
 
-![invert_dark|500](../_assets/Pasted%20image%2020250525195124.png)
+![invert_dark|500](../../_assets/Pasted%20image%2020250525195124.png)
 
 und man erhält für den *geschlossenen Kreis*
 
@@ -38,7 +38,7 @@ $$ \mathbf{\dot{x}} = (\mathbf{A}+\mathbf{BK})\mathbf{x} + \mathbf{Bv} $$
 
 Man erkennt, dass zur implementierung des Zustandsregler die Messung aller Zustandsgrößen $\mathbf{x}$ erforderlich ist. Aufgrund dieses Nachteils kann ein [Zustandsbeobachter](Zustandsbeobachter.md) substituiert werden, der stattdessen einen Schätzwert $\mathbf{\hat{x}}$   für $\mathbf{x}$ auf Basis von $\mathbf{u}$ und $\mathbf{y}$ liefert.
 
-![invert_dark|500](../_assets/Pasted%20image%2020250525201353.png)
+![invert_dark|500](../../_assets/Pasted%20image%2020250525201353.png)
 
 
 ## Eingrößen-Zustandsregelung (zeitkontinuierlich)

@@ -15,9 +15,9 @@ title: Zeitdiskreter Zustandsraum
 
 # Zustandsbeschreibung eines zeitdiskreten Systems
 
-> [!question] Zentraler Begriff der [Systemtheorie]({MOC}%20Systemtheorie.md)
+> [!question] Zentraler Begriff der [Systemtheorie](index.md)
 
-[Kontinuierliche Zustandsbeschreibung](Zustandsbeschreibung.md) ***:LiArrowBigRightDash:*** 
+[Kontinuierliche Zustandsbeschreibung](Regelungstechnik/Zustandsbeschreibung.md) ***:LiArrowBigRightDash:*** 
 
 ---
 

@@ -27,21 +27,21 @@ Die auf ein System einwirkenden Größen heißen **Eingangsgrößen** $\mathbf{u
 
 Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}$ beobachten. Diese können dann wiederum als [Messgrößen](../../../Messtechnik/Messtechnik.md) aufgenommen werden.
 
-![invert_dark](../_assets/RegTSystem.png)
+![invert_dark](../../_assets/RegTSystem.png)
 
-> [!hint] [Zustandsbeschreibung](Zustandsbeschreibung.md)
+> [!hint] [Zustandsbeschreibung](Regelungstechnik/Zustandsbeschreibung.md)
 
-| [dynamische Systeme]({MOC}%20Systemtheorie.md)                                                                                                                                       | statische Systeme                                                                 |
+| [dynamische Systeme](../index.md)                                                                                                                                       | statische Systeme                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                         | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |
 | Beispiel - Autofahren) Unterschied ob man bei 50km/h oder bei 130 km/h lenkt / bremst.<br>- Reibung und Kräfte sind Anders. <br>- Motorsteuergerät reagiert anders auf die Eingaben. | Beispiel - Kaffeemaschine: Es wird immer auf das Eingangssignal ein Kaffee folgen |
 
-Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../Mathematik/Analysis/GDGL.md), vorallem von physikalischen Systemen.
+Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../../Mathematik/Analysis/GDGL.md), vorallem von physikalischen Systemen.
 
 ## Aufgaben eine Regelung
 
-- [Zustandsregeler](Zustandsregeler.md)
-- [Zustandsbeobachter](Zustandsbeobachter.md)
+- [Zustandsregeler](Regelungstechnik/Zustandsregeler.md)
+- [Zustandsbeobachter](Regelungstechnik/Zustandsbeobachter.md)
 
 > [!hint] Relevante eigenschaften des Zustandsraumes für die Regelung
 > - Erreichbar / Steuerbar
@@ -59,7 +59,7 @@ Beispiele für geregelte Systeme aus verscheiden Bereichen:
 
 ### Mechanisches Beispiel
 
-![invert_dark](../_assets/Pasted%20image%2020250304090245.png)
+![invert_dark](../../_assets/Pasted%20image%2020250304090245.png)
 
 > [!example] Feder, Masse Dämpfung
 > 
@@ -78,7 +78,7 @@ Beispiele für geregelte Systeme aus verscheiden Bereichen:
 
 **Ausgangssystem**
 
-![invert_dark|600](../_assets/RegTMechkreis.png)
+![invert_dark|600](../../_assets/RegTMechkreis.png)
 
 **Aufstellen des Gleichungssystems dieses Systems:**
 
@@ -91,7 +91,7 @@ Kenngrößen des DC-Motors:
 - Winkelgeschwindigkeit des Motors $\omega_{G}$
 - Drehmoment des Motors: $M_{G}$
 
-Gleichungen für den [DC-Motor](../Elektrotechnik/Maschinen/Gleichstrommaschine.md):
+Gleichungen für den [DC-Motor](../../Elektrotechnik/Maschinen/Gleichstrommaschine.md):
 
 - Ankerspannun: $u_{A}=R_{A}i_{A}+ L_{A} \dot{i}_{A} +k_{A}\omega_{G}$
 - Drallsatz: $M_{G}=J\dot{\omega}_{G}=k_{A}\cdot i_{A}$
@@ -105,10 +105,10 @@ Bewegungsgleichung des Mechanischen Teilsystems:
 
 **Abstraktes Schaltbild**
 
-![invert_dark](../_assets/Pasted%20image%2020250307084301.png)
+![invert_dark](../../_assets/Pasted%20image%2020250307084301.png)
 
 Rückkopplung von $\omega$ Ergibt sich durch den DC Motor Selbst. 
 
 **Strukturbild**
 
-![invert_dark](../_assets/Pasted%20image%2020250310231552.png)
+![invert_dark](../../_assets/Pasted%20image%2020250310231552.png)

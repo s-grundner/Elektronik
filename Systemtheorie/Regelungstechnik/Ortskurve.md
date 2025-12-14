@@ -35,6 +35,6 @@ Ortskurve dienen zur Darstellung Komplexer Parameter. Dieser aparamter ist entwe
 
 Sie dient dabei nicht zur Grafischen ermittlung komplexen Größen (Dazu ist das Bode-Diagramm besser) sondern als Überblick zur Frequenzabhängigkeit der Größe.
 
-![[../_assets/Ortskurve 2024-01-17 09.24.11.excalidraw|844]]
+![[../../_assets/Ortskurve 2024-01-17 09.24.11.excalidraw|844]]
 
 # Referenzen

@@ -18,7 +18,7 @@ def:
 # Lineare DGL-Systeme
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
->Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../Physik/Federkraft.md)-Dämpfer [Systeme](../../Systemtheorie/Zustandsbeschreibung.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
+>Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../Physik/Federkraft.md)-Dämpfer [Systeme](../../Systemtheorie/Regelungstechnik/Zustandsbeschreibung.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
 [Allgemeine DGL](GDGL.md): $x' = f(t,x)$
 

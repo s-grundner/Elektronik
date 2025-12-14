@@ -14,7 +14,7 @@ title: Kontinuierliche Systeme
 
 # Dynamische Systeme
 
-> [!question] :LiArrowBigLeftDash: [Systemtheorie]({MOC}%20Systemtheorie.md) |📍| [Lineare Systeme](Lineare%20Systeme.md) :LiArrowBigRightDash:
+> [!question] :LiArrowBigLeftDash: [Systemtheorie](index.md) |📍| [Lineare Systeme](Lineare%20Systeme.md) :LiArrowBigRightDash:
 
 [Zeitdiskrete Systeme](Zeitdiskrete%20Systeme.md) ***:LiRefreshCcw:***
 
@@ -47,7 +47,7 @@ $$
 $$
 
 
-![](Zustandsbeschreibung.md#^ZSGR)
+![](Regelungstechnik/Zustandsbeschreibung.md#^ZSGR)
 
 Die Ordnung des Systems ist dabei die Dimension des Zustandsvektors $\dim \mathbf{x}=n$.
 

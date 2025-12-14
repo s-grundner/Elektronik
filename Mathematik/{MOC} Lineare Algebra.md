@@ -62,7 +62,7 @@ Es gilt dann offensichtlich:
 
 #### Basiswechsel
 
-> [!question] [Zustandstransformation](../../Systemtheorie/Zustandstransformation.md)
+> [!question] [Zustandstransformation](../Systemtheorie/Regelungstechnik/Zustandstransformation.md)
 
 Die Koordinatenmatrix hängt natürlich von der jeweils gewählten Basis ab. Würde man einen Basiswechsel von $B$ zu $\bar{B}$ bzw. $C$ zu $\bar{C}$ vornehmen, dann folgt mit Satz 7.21, dass dann für die Koordinatenmatrix $\bar{A}^L$ bzgl. der neuen Basis gilt:
 

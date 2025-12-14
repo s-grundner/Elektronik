@@ -21,15 +21,14 @@ created: 20th August 2022
 - Diese Elektronen können **Bindungen** (Valenzen) ausbilden. 
 - Die zusammengezählten Hochzahlen der höchsten [Hauptquantenzahl](Orbitalmodell.md) ergeben die Anzahl an Valenzelektronen  
 
-> [!example] z.B.:
-> $$_{6}C\longrightarrow1s^{2}2s^{2}2p^{2} \begin{cases}
-> \rightarrow 2+2=4 \text{ Außenelektronen}\\
-> \rightarrow 4. \text{ Hauptgruppe}
-> \end{cases}$$
-> $$_{16}S\longrightarrow1s^{2}2s^{2}2p^{6}3s^{2}3p^{4}\begin{cases}
-> \rightarrow 2+4=6 \text{ Außenelektronen}\\
-> \rightarrow 6. \text{ Hauptgruppe}
-> \end{cases}$$
+> [!example] Beispiel $C_{6}\longrightarrow1s^{2}2s^{2}2p^{2}$
+> - $2+2=4$ Außenelektronen
+> - Hauptgruppe 4
+
+> [!example]  $S_{16}\longrightarrow1s^{2}2s^{2}2p^{6}3s^{2}3p^{4}$
+>   
+> - $2+4=6$ Außenelektronen
+> - Hauptgruppe 6
 
 
 Atome mit **Vollständig** (8) besetzten [Schalen](Orbitalmodell.md) sind **Reaktionsträge** ([Edelgase](https://de.wikipedia.org/wiki/Edelgase))

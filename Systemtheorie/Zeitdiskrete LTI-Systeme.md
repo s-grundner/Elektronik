@@ -76,7 +76,7 @@ Wegen der kommutativität der [Faltung](Faltungssumme.md), ist die Reihenfolge d
 > 
 > Durch Betrachtung von $h[n]$ folgt unmittelbar
 
-> [!example] Gleitende Mittelwert Bildung - [Moving Average](Moving%20Average.md) ^BSP3
+> [!example] Gleitende Mittelwert Bildung - [Moving Average](Signalverarbeitung/Moving%20Average.md) ^BSP3
 
 > [!example] Vorwärts-Differenz-System ^BSP4
 > *Ausgangssignal:* $y[n] = x[n+1]-x[n]$
