@@ -109,10 +109,10 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 > [!satz] **S - ZTR)** Sätze zu den Rechenregeln der z-Transfomrmation
 >
 > > [!question]- Signalschreibweise
-> > ![](Systemtheorie/Korrespondenzen/zTransformation.md#^Z-T1) 
+> > ![](Korrespondenzen/zTransformation.md#^Z-T1) 
 > 
 > > [!question]- Folgenschreibweise
-> > ![](Systemtheorie/Korrespondenzen/zTransformation.md#^Z-T2) 
+> > ![](Korrespondenzen/zTransformation.md#^Z-T2) 
 
 |     | Endwertsatz     | $\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$ |
 | --- | --------------- | -------------------------------------------------------- |
@@ -136,7 +136,7 @@ Anfangs und Endwertsatz gelten nur, sofern der Grenzwert im Zeitbereich existier
 für die Kausalen Folgen $f[n] : \mathcal{Z}_{I}\left\{ f[n]\cdot \sigma[n] \right\}(z) = F(z)$ mit dem zeitdiskreten Einheitssprung $\sigma[n]$ 
 
 > [!satz]- **S)**
-> ![zTransformation](Systemtheorie/Korrespondenzen/zTransformation.md#^Z-T3)
+> ![zTransformation](Korrespondenzen/zTransformation.md#^Z-T3)
 
 # Motivation der Z-TRF für DZGL
 

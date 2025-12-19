@@ -49,19 +49,25 @@ Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, d
 
 > [!def] **LAPT D1)** Ist eine Funktion auf $t\in\mathbb{R}$ definiert mit $f(t):[0,\infty)$ für $t>0$, so heißt:
 >
-> $$\mathcal{L}\{f(t)\}(s) = F(s) := \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} \tag{LAPT}$$
+> $$
+> \mathcal{L}\{f(t)\}(s) = F(s) := \int_{0}^{\infty}f(t)\cdot e^{-st}\mathrm{~d}t \qquad s\in\mathbb{C} \tag{LAPT}
+> $$
 > 
 > Die Einseitige Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
 $F(s)$ ist eine [holomorphe](../Dictionary/Holomorph.md) Funktion. Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen: 
 
-$$\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t$$
+$$
+\lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t
+$$
 
 ## Pole und Nullstellen
 
 > [!hint] Beschränkung auf rationale Laplace Transformation. Ergebnis ist ein Quotient zweier [Polynome](../Mathematik/Algebra/Polynom.md) 
 > 
-> $$F(s)=\dfrac{Z(s)}{N(s)}$$ 
+> $$
+> F(s)=\dfrac{Z(s)}{N(s)}
+> $$ 
 > 
 > - Nullstellen $s_{\infty}$ des Nennerpolynoms $N(s)$ heißen **Pole** vom $F(s)$.
 > - Nullstellen $s_{0}$ des Zählerpolynoms $Z(s)$ heißen **Nullstellen** von $F(s)$.
@@ -78,7 +84,9 @@ Damit $F(s)$ konvergiert, müssen alle Integrale konvergieren.
 
 > [!satz] **S1 - LTKB)** Konvergenzbedingung für die Laplace-Transformierte 
 > 
-> $$\overset{ n }{ \underset{ i=1 }{ \operatorname{max} } } ~\sigma_{\infty i} < \sigma$$
+> $$
+> \overset{ n }{ \underset{ i=1 }{ \operatorname{max} } } ~\sigma_{\infty i} < \sigma
+> $$
 > 
 > Das heißt, dass das Laplace-Integral in der *Halbebene* **rechts** jenes Pols mit dem **größten Realteil** konvergiert. 
 
@@ -89,10 +97,10 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 > [!satz] **S2 - LTR)** Sätze zu den Rechenregeln für Laplace-Transformationen ^LTR
 >
 > > [!question]- Einfache Schreibweise: $f(t) \circ\mkern-7px-\mkern-7px\bullet F(s)$
-> > ![](Systemtheorie/Korrespondenzen/Laplace.md#^LAPT-T1) 
+> > ![](Korrespondenzen/Laplace.md#^LAPT-T1) 
 > 
 > > [!question]- Explizite Schreibweise: $f(t)\circ\mkern-7px-\mkern-7px\bullet \mathcal{L}\left\{ f(t) \right\}(s)$
-> > ![](Systemtheorie/Korrespondenzen/Laplace.md#^LAPT-T2)
+> > ![](Korrespondenzen/Laplace.md#^LAPT-T2)
 
 > [!satz] **S3 - AEWS)** Anfangs und Endwertsatz ^AEWS
 > 
@@ -100,19 +108,25 @@ Das führt zur **Konvergenzabzisse** im [Pol-Nullstellen Diagramm](#Pol-Nullstel
 > 
 > Es sei vorrausgesetzt, dass der Grenzwert im Zeitbereich existiert
 > 
-> $$\lim_{ t \to 0^+ } f(t) = \lim_{ s \to \infty } s~\mathcal{L}\left\{ f(t) \right\} (s)$$
+> $$
+> \lim_{ t \to 0^+ } f(t) = \lim_{ s \to \infty } s~\mathcal{L}\left\{ f(t) \right\} (s)
+> $$
 > 
 > 2. **zweiter Anfangswertsatz**
 > 
 > Es sei vorrausgesetzt, dass der Grenzwert im Zeitbereich existiert
 > 
-> $$\lim_{ t \to 0^+ } \dot{f}(t) = \lim_{ s \to \infty } (s^{2}\mathcal{L}\left\{ f(t) \right\} (s)-sf(0^+))$$
+> $$
+> \lim_{ t \to 0^+ } \dot{f}(t) = \lim_{ s \to \infty } (s^{2}\mathcal{L}\left\{ f(t) \right\} (s)-sf(0^+))
+> $$
 > 
 > 3. **Endwertsatz**
 > 
 > Endwert satz gilt nur dann, wenn alle Pole Links stehen, außer der Pol bei 0. Bevor der Endwertsatz angewandt wird muss die Funktion auf stabilität geprüft werden.
 > 
-> $$\lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } s~\mathcal{L}\left\{ f(t) \right\} (s)$$
+> $$
+> \lim_{ t \to \infty } f(t) = \lim_{ s \to 0 } s~\mathcal{L}\left\{ f(t) \right\} (s)
+> $$
 > 
 
 Wegen dem Differenzations-Satz bezeichnet man $s$ auch als Differenzations-Operator beim rechnen im Bildbereich
@@ -121,12 +135,15 @@ Wegen dem Differenzations-Satz bezeichnet man $s$ auch als Differenzations-Opera
 
 > [!satz]- **S3 - LAPK)** Korrespondenztabelle ^LAPK
 > 
-> ![](Systemtheorie/Korrespondenzen/Laplace.md#^LAPT-T3)
+> ![](Korrespondenzen/Laplace.md#^LAPT-T3)
 
 ## Rücktransformation
 
 > [!def] **D - ILAPT)** Inverse Laplace Transformation - Umkehrintegral ^ILAPT
-> $$\frac{1}{2\pi j} \int_{\sigma -j\infty}^{\sigma +j\infty}F(s)e^{ st }\mathrm{~d}s$$
+> 
+> $$
+> \frac{1}{2\pi j} \int_{\sigma -j\infty}^{\sigma +j\infty}F(s)e^{ st }\mathrm{~d}s
+> $$
 
 Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 
@@ -143,7 +160,9 @@ Funktionen im Bildbereich treten als rationales Polynom $\frac{z(s)}{n(s)}$ auf
 
 Bedingungen für die Existenz der Laplace-Transformierten $F(s)$ der Funktion $f(t)$:
 
-$$ \lvert f(t) \rvert \leq Me^{ \alpha t } \quad \text{für } t\geq 0 $$
+$$
+\lvert f(t) \rvert \leq Me^{ \alpha t } \quad \text{für } t\geq 0
+$$
 
 für geeignete reelle Konstanten $M$ und $\alpha$ und dass $f(t)$ in jedem endlichen intervall $a\leq t\leq b$ nur endlich viele Sprungstellen besitzt.
 

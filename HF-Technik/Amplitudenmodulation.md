@@ -78,8 +78,8 @@ Im Umkehrschluss gilt, dass ein **komplexwertiges nutzsignal** benötigt werden 
 #### Frequenzverschiebung im Spektrum
 
 - Wie [hier](HF-Technik/Modulation.md#Frequenzverschiebung) geziegt, äußert sich eine Frequenzverscheibung unter anderem durch eine multiplikation von Winkelfunktionen.
-- Eine Multiplikation im Zeitbereich führt zu einer Faltung im Bildbereich ([Fourier-Rechenregel (xiii)](Systemtheorie/Korrespondenzen/Fourier.md#^T1)).
-- Ein Kosinus $s_{\text{LO}}(t)=\cos(2\pi f_{0}t)$ korrespondiert zu zwei [Dirac-Impulse](../Mathematik/Delta-Impuls.md) bei der Positiven und negativen frequenz ([Fourier-Korrespondenz (ii)](Systemtheorie/Korrespondenzen/Fourier.md#^T2))
+- Eine Multiplikation im Zeitbereich führt zu einer Faltung im Bildbereich ([Fourier-Rechenregel (xiii)](../Systemtheorie/Korrespondenzen/Fourier.md#^T1)).
+- Ein Kosinus $s_{\text{LO}}(t)=\cos(2\pi f_{0}t)$ korrespondiert zu zwei [Dirac-Impulse](../Mathematik/Delta-Impuls.md) bei der Positiven und negativen frequenz ([Fourier-Korrespondenz (ii)](../Systemtheorie/Korrespondenzen/Fourier.md#^T2))
 - Faltung mit einem Dirac Delta wertet das Spektrum des Nutzsignals an seiner Stelle aus ([Abstasteigenschaft](../Mathematik/Delta-Impuls.md#^ABT))
 
 ![1000](../_assets/Excalidraw/Amplitudenmodulation%202025-11-15%2001.57.14.excalidraw.svg)

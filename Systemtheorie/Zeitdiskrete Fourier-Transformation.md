@@ -63,7 +63,7 @@ Warum? Ein Zeitdiskretes Signal hat ein kontinuierliches Spektrum. Zu einem Kont
 ## DTFT Rechensätze
 
 > [!satz]- **S1 - DTFT-R)** Rechensätze ^DTFT-R
-> ![DTFT](Systemtheorie/Korrespondenzen/DTFT.md#^DTFT-T1)
+> ![DTFT](Korrespondenzen/DTFT.md#^DTFT-T1)
 
 ### Parseval-Theorem
 

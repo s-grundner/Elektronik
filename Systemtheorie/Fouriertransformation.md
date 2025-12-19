@@ -53,7 +53,7 @@ $F(j\omega)$ ist die **Fourier-Transformierte** oder das Fourierspektrum der Fun
 
 > [!satz] **S1 - FTR)** Rechenregeln der Fouriertransformation ^FTR
 >
-> ![Fourier](Systemtheorie/Korrespondenzen/Fourier.md#^T1)
+> ![Fourier](Korrespondenzen/Fourier.md#^T1)
 
 ## Eigenschaften
 

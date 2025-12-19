@@ -71,7 +71,7 @@ Die $N$ diskreten Werte von $F_{\mathrm{D}}[k]$ ind der Grundperiode sind eine N
 
 > [!satz] **S1)**
 > 
-> ![DFT](Systemtheorie/Korrespondenzen/DFT.md#^T1)
+> ![DFT](../Korrespondenzen/DFT.md#^T1)
 
 ## Korrespondenzen
 
