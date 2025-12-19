@@ -169,7 +169,10 @@ für geeignete reelle Konstanten $M$ und $\alpha$ und dass $f(t)$ in jedem endli
 > [!hint] **Abschätzung der Konvergenzabzisse:** Welche Funktionen können Transformiert werden?
 > 
 > Für spezielle Funktionen lassen sich Abschätzungen für $\sigma$ angeben: Mit $\mathcal{E}$ bezeichnen wir die Menge der Funktionen $f:[0, \infty) \rightarrow \mathbb{R}$, für die gilt, dass $f$ stückweise stetig ist und dass $f$ **höchstens exponentiell** wächst. Das heißt, es existieren $M>0$ und $\alpha \in \mathbb{R}$, sodass
-> $$\lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0$$
+> 
+> $$
+> \lvert f(t) \rvert  \leq M e^{\alpha t}, \quad t \geq 0
+> $$
 > 
 > Sei $f \in \mathcal{E}$ und $s=u+i v$ mit $u, v \in \mathbb{R}$ und $\alpha<u$. Dann gilt:
 > $e^{-s t}=e^{-u t}(\cos (v t)-i \sin (v t))$. Mit $\lvert\cos (v t)-i \sin (v t)\rvert=1$ erhalten wir nun:
