@@ -7,7 +7,7 @@ Evergreen-Skriptum meines Elektronik-Lehrgangs, verfasst im Markdown Editor Obsi
 
 ## [Website](https://s-grundner.github.io)
 
-Astro-Build des Obsidian Vaults
+Astro-Build des Obsidian Vaults ([Repo](https://github.com/s-grundner/s-grundner.github.io))
 
 ## 1 Skriptum Aktualisieren
 
