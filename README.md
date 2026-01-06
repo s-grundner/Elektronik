@@ -5,6 +5,10 @@
 
 Evergreen-Skriptum meines Elektronik-Lehrgangs, verfasst im Markdown Editor Obsidian
 
+## [Website](https://s-grundner.github.io)
+
+Astro-Build des Obsidian Vaults
+
 ## 1 Skriptum Aktualisieren
 
 ```
