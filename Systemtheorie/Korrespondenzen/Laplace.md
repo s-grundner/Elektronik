@@ -74,7 +74,7 @@ Jede der zu transformierenden Funktionen ist [Kausal](Kausalität.md) (multipliz
 | (xi)   | $\cos(\omega_{0}t+\varphi_{0})\cdot \sigma(t)$ | $\dfrac{s \cos \varphi_{0} + \omega_{0} \sin \varphi_{0}}{s^{2}+\omega_{0}^{2}}$ |
 | (xii)  |           $t\cdot \sin(\omega_{0}t)$           |                $\dfrac{2\omega_{0}s}{(s^{2}+\omega_{0}^{2})^{2}}$                |
 | (xiii) |           $t\cdot \cos(\omega_{0}t)$           |                $\dfrac{(s^{2}-\omega_{0}^{2})}{(s^{2}+\omega_{0}^{2})^{2}}$                |
-
+^LAPT-T3
 
 ## Beweise zur den Korrespondenzen
 

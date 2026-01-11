@@ -34,7 +34,7 @@ Im C-Quelltext, der dem Compiler übergeben wird, erscheinen an den Positionen, 
 
 ### Der Typ-Modifizierer Const
 
-Mit [ANSI-C](../C/{MOC}%20C.md) wurde das Schlüsselwort *const* als so genannter *Typ-Modifizierer* eingeführt: Einer Variablen-Definition kann das Schlüsselwort *const* vorangestellt werden. Der Wert der derart deklarierten Variablen muss während der Definition zugewiesen werden und kann nicht durch direkte Zuweisungen verändert werden.
+Mit [ANSI-C](../C/index.md) wurde das Schlüsselwort *const* als so genannter *Typ-Modifizierer* eingeführt: Einer Variablen-Definition kann das Schlüsselwort *const* vorangestellt werden. Der Wert der derart deklarierten Variablen muss während der Definition zugewiesen werden und kann nicht durch direkte Zuweisungen verändert werden.
 
 Beispiel:
 
@@ -74,7 +74,7 @@ const int *ptr = &i;	// Zeiger auf die Konstante i
 *(int *)ptr = 6;		// vor dem Ändern wird auf einen Zeiger auf ein int gecastet
 ```
 
-Im Gegensatz dazu wird in [C++]({MOC}%20Cpp.md) der Inhalt des konstanten Werts nicht verändert (durch den Type-Cast gibt's aber ebenfalls keine Fehlermeldung).
+Im Gegensatz dazu wird in [C++](index.md) der Inhalt des konstanten Werts nicht verändert (durch den Type-Cast gibt's aber ebenfalls keine Fehlermeldung).
 
 Wird *const* im Zusammenhang mit anderen Deklarationsanweisungen verwendet, so ist sehr genau auf die jeweilige Wirkung zu achten.
 
@@ -114,7 +114,7 @@ test-const-ptr.c:15: error: assignment of read-only variable ‘const_buf_ptr’
 */
 ```
 
-Die Anwendungsmöglichkeiten von *const* in C und [C++]({MOC}%20Cpp.md) unterscheiden sich ein wenig.  
+Die Anwendungsmöglichkeiten von *const* in C und [C++](index.md) unterscheiden sich ein wenig.  
 Beispiel:
 
 ```c
@@ -124,7 +124,7 @@ int array[max];       /* Erlaubt in C++,
                          ausser C99 Standard */
 ```
 
-In [ANSI-C](../C/{MOC}%20C.md) kann in dieser Situation nur mit Makros gearbeitet werden:
+In [ANSI-C](../C/index.md) kann in dieser Situation nur mit Makros gearbeitet werden:
 
 ```c
 #define max 255
@@ -185,7 +185,7 @@ struct myStruc{ ... };
 struct myStruc myVar;	// myVar ist eine Struktur-Variable, struc muss angef. werden
 ```
 
-In [C++]({MOC}%20Cpp.md) kann auf das Schlüsselwort (außer in der Definition) verzichtet werden:
+In [C++](index.md) kann auf das Schlüsselwort (außer in der Definition) verzichtet werden:
 
 ```c++
 struct myStruc{ ... };
@@ -193,15 +193,15 @@ struct myStruc{ ... };
 myStruc myVar;	// myVar ist eine Struktur-Variable, struc MUSS NICHT angef. werden
 ```
 
-Weiterer großer Unterschied: in [C++]({MOC}%20Cpp.md) ist *struct* nahezu gleichbedeutend mit *class* (einer Klasse). Es gibt nur einen sehr feinen Unterschied: die Standard-Sichtbarkeit in einer *struct* ist *public* und für *class* *private* (das gilt auch beim Ableiten).
+Weiterer großer Unterschied: in [C++](index.md) ist *struct* nahezu gleichbedeutend mit *class* (einer Klasse). Es gibt nur einen sehr feinen Unterschied: die Standard-Sichtbarkeit in einer *struct* ist *public* und für *class* *private* (das gilt auch beim Ableiten).
 
 ## Konsolenausgabe, Einlesen Von Werten
 
-Ausgabe in C: *printf*, Ein-/Ausgabe in [C++]({MOC}%20Cpp.md): *cout*/*cin*
+Ausgabe in C: *printf*, Ein-/Ausgabe in [C++](index.md): *cout*/*cin*
 
 *cin*/*cout* sind *stream*-Objekte der Klassen *istream* und *ostream* der Bibliothek \<iostream\> (wie auch cerr und clog). Vorteil von den stream-Klassen gegenüber *printf*: Operatoren << >> können überladen werden.
 
-Mit *stream*s wird in [C++]({MOC}%20Cpp.md) mittels Stream-Operator gearbeitet "<<" und ">>". Häufig verwendete Formatspezifizierer:
+Mit *stream*s wird in [C++](index.md) mittels Stream-Operator gearbeitet "<<" und ">>". Häufig verwendete Formatspezifizierer:
 
 - endl - EndLine/Zeilenumbruch und zusätzlich flushen des Buffers - dieses flushen kann teuer sein. Grundsätzlich ist "\n" zu bevorzugen
 - dec - Ausgabe einer Zahl im Dezimalformat (cout << dec << 10;)
@@ -248,7 +248,7 @@ besser ist die Verwendung des Prefix *std::* weil es erstens die Zugehörigkeit 
 
 ## Funktionsaufruf Mit Standardwerten
 
-Im Prototyp von [C++]({MOC}%20Cpp.md) Funktionen können Standardwerte vorgegeben werden:
+Im Prototyp von [C++](index.md) Funktionen können Standardwerte vorgegeben werden:
 
 ```c
 void myFunc(int a = 3, int b = 2);		// oder: void myFunc(int = 3, int = 2 );    <-- ohne Variablename
@@ -273,7 +273,7 @@ void myFunc(int a, int b = 2); // damit muss zumindest a immer mitgegeben werden
 
 ## Variablen-Deklaration in for-Schleife
 
-In [C++]({MOC}%20Cpp.md) kann eine Variable auch im *for*-Schleifen-Kopf definiert werden:
+In [C++](index.md) kann eine Variable auch im *for*-Schleifen-Kopf definiert werden:
 
 ```c
 for (int i = 0; i < size; i++) { ... }

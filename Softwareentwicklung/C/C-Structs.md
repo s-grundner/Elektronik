@@ -1,10 +1,25 @@
 ---
-tags: ["C", "C/struct"]
+tags:
+  - C
+  - C/struct
 aliases: []
+keywords:
+  - C-Programmiersprache
+subject:
+  - VL
+  - Networked Embedded Systems
+semester: WS25
 created: 29th November 2022
+professor:
+release: false
+title: c-structs
 ---
 
-# 14 Strukturen
+# Structs
+
+A struct is a compound data object that allows you to group variables of different data types under a single name/variable. The data types can be the same, but can also be different. It can be tought as a private or user defined data type. We can also declare the internal structure of the struct via a template. A tag to be associated with it in the first line can also be assigned. The reserved keyword "struct" is used. With "." you can select between the members of a struct as: "now.time". The members of a struct can also be union.
+
+
 
 > Strukturen fassen Daten zu einer Einheit zusammen.
 

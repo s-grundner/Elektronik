@@ -21,7 +21,7 @@ title: Assembly
 
 **Ebenensicht:**
 
-![invert_dark](../../_assets/asm_ebenen.png)
+![invert_dark|1000](../../_assets/asm_ebenen.png)
 
 Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
 - add, sub, mul, load, store ...
@@ -41,10 +41,10 @@ Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
 
 ISA: Instructionset Architecture ([ARM](ARM.md), x86, RISC-V)
 
-![invert_dark](../../_assets/asm_stack.png)
+![invert_dark|1000](../../_assets/asm_stack.png)
 
 ---
 
 - [RV-Assembly](RISC-V.md#RV-Assembly)
-- [x86-Assembly](x86-Assembly.md)
+- [x86](x86.md)
 - [ARM-Assembly](ARM.md)

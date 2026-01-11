@@ -3,7 +3,7 @@ tags:
   - C/static
   - C/extern
   - C/volatile
-aliases: []
+aliases:
 created: 29th November 2022
 ---
 

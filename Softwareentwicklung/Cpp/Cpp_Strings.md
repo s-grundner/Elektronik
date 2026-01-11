@@ -43,7 +43,7 @@ String-Literale ("…") sind immer vom Typ Array aus *const char* und werden imm
 
 ### Dynamische C-Strings, new-Operator
 
-Um mittels Zeiger dynamisch mit Strings arbeiten zu können muss in C über Speicherreservierung (*malloc*) und Freigabe (*free*) gearbeitet werden. In C und C++ ist keine variable Array-Größe (Größendefinition durch Parameter oder Eingabe) erlaubt (erst ab [C99](../C/{MOC}%20C.md) oder mit Spracherweiterungen).
+Um mittels Zeiger dynamisch mit Strings arbeiten zu können muss in C über Speicherreservierung (*malloc*) und Freigabe (*free*) gearbeitet werden. In C und C++ ist keine variable Array-Größe (Größendefinition durch Parameter oder Eingabe) erlaubt (erst ab [C99](../C/index.md) oder mit Spracherweiterungen).
 
 In C++ kann ein String dynamisch mit *new* reserviert werden (es wird empfohlen nur diese Variante anstatt *malloc* zu verwenden). Nach der Verwendung ist auf eine Freigabe mittels *delete* (anstatt *free*) zu achten.
 

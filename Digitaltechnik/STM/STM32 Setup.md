@@ -36,7 +36,7 @@ created: 18th August 2023
 > 
 > Für den Einstig können hier die Standardeinstellungen verwendet werden.
 >
-> *Targeted Language:* Grundsätzlich ist für STM32 Projekte die Programmiersprache C empfohlen. Habe ich zwar nicht selbst ausprobiert, aber für [C++](../../Softwareentwicklung/Cpp/{MOC}%20Cpp.md) soll es anscheinend Probleme mit dem HAL geben.
+> *Targeted Language:* Grundsätzlich ist für STM32 Projekte die Programmiersprache C empfohlen. Habe ich zwar nicht selbst ausprobiert, aber für [C++](../../Softwareentwicklung/Cpp/index.md) soll es anscheinend Probleme mit dem HAL geben.
 > 
 > *Executable:* Das Programm ist auf dem MCU Ausführbar.
 > 

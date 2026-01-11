@@ -18,11 +18,11 @@ Eine zentrale Frage im *Netzwerk*: *wie finden Client und Server zueinander?*
 
 In sehr vielen Internet-Anwendungen wird sowohl Serverals auch Clientseitig entweder *TCP* oder *UDP* als Transportprotokoll verwendet. Manchmal wird auch direkt/roh auf *IP* aufgesetzt, entweder wenn kein Transportdienst benötigt wird, oder ein Transportdienst Teil der Anwendung selbst ist.
 
-Für *UDP* und *TCP* werden deren *Portnummern* zur Identifikation verwendet. Standardapplikationen wie *FTP* oder *SMTP* bekommen Serverseitig *well-known-ports* (RFC). Lokale Portnummern eines Knotens werden vom [Betriebssystem](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md) verwaltet.
+Für *UDP* und *TCP* werden deren *Portnummern* zur Identifikation verwendet. Standardapplikationen wie *FTP* oder *SMTP* bekommen Serverseitig *well-known-ports* (RFC). Lokale Portnummern eines Knotens werden vom [Betriebssystem](../Softwareentwicklung/Betriebssysteme/index.md) verwaltet.
 
 Die Kombination von IP-Adresse und Portnummer wird als **Socket** bezeichnet. Eine Kommunikation Server-Client ist durch ein **Paar von Sockets** (Server-Socket, Client-Socket) definiert. Dadurch ist es möglich, dass zur gleichen Zeit zwei Clientprozesse gleichzeitig mit einem Server sprechen können.
 
-Eine Socket-Interface-API wurde in den 1980er Jahren für UNIX-BSD (Berkeley Software Distribution) veröffentlicht. Mittlerweile ist es für viele [Betriebssysteme](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md) verfügbar. Es bietet Verbindung zwischen Client und Server aufzubauen mittels TCP (Stream-Sockets), UDP (Datagram-Socket) oder direkt IP (Raw-Socket):
+Eine Socket-Interface-API wurde in den 1980er Jahren für UNIX-BSD (Berkeley Software Distribution) veröffentlicht. Mittlerweile ist es für viele [Betriebssysteme](../Softwareentwicklung/Betriebssysteme/index.md) verfügbar. Es bietet Verbindung zwischen Client und Server aufzubauen mittels TCP (Stream-Sockets), UDP (Datagram-Socket) oder direkt IP (Raw-Socket):
 
 ![NW_Socket_03](../_assets/NW_Socket_03.png)
 
@@ -68,7 +68,7 @@ Der Vorteil gegenüber der TCP-Kommunikation ist, dass dadurch eine stark reduzi
 
 Für Standard-C sind keine Socket-Zugriffe verfügbar, daher muss mittels OS-APIs gearbeitet werden.
 
-Soll unterschiedlicher Code für verschiedene [Betriebssysteme](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md) kompiliert werden (etwa wie im folgenden unterschiedliche includes), kann das einfach mittels Compiler-Schalter gelöst werden:
+Soll unterschiedlicher Code für verschiedene [Betriebssysteme](../Softwareentwicklung/Betriebssysteme/index.md) kompiliert werden (etwa wie im folgenden unterschiedliche includes), kann das einfach mittels Compiler-Schalter gelöst werden:
 
 ```c++
 #ifdef _WIN32
@@ -314,7 +314,7 @@ for(addrinfo *p = servinfo;p != NULL; p = p->ai_next) {
 freeaddrinfo(servinfo);
 ```
 
-Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider variieren diese Funktionen je nach verwendeten [Betriebssystem](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md).
+Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider variieren diese Funktionen je nach verwendeten [Betriebssystem](../Softwareentwicklung/Betriebssysteme/index.md).
 
 ### Socket()
 

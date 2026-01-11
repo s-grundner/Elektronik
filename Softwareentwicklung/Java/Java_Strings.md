@@ -133,7 +133,7 @@ str = String.format("xxx%7.3xxx",2.34567);		// xxx  2,346xxx
 str = String.format("xxx%7.3xxx",2.3);			// xxx  2,300xxx
 ```
 
-Als Komma wird verwendet, was im [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) in Regionseinstellungen festgelegt wurde.
+Als Komma wird verwendet, was im [Betriebssystem](../Betriebssysteme/index.md) in Regionseinstellungen festgelegt wurde.
 
 Erweitert:
 

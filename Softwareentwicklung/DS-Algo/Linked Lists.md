@@ -95,7 +95,7 @@ Anstatt sich das erste Listenelement zu merken, wird häufig ein **Listenkopf** 
 
 ![invert_dark](../../_assets/EinfList06.png)
 
-Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil viele Elemente umkopiert werden. Hier werden lediglich einzelne, wenige [Pointer](C_Zeiger.md) angepasst.
+Werden die angeführten Operationen in Arrays gemacht, dann müssen zum Teil viele Elemente umkopiert werden. Hier werden lediglich einzelne, wenige [Pointer](../C/C-Pointer.md) angepasst.
 
 ## Traversieren
 

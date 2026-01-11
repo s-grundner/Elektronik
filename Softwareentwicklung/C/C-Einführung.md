@@ -9,10 +9,10 @@ created: 29th November 2022
 
 - Entwickelt ~1975 von Dennis Ritchie / Bell Laboratories als Nachfolger von B
 - Eine der am weitesten verbreiteten Sprachen
-- Implementierung vieler Unix-[Betriebssysteme](../Betriebssysteme/{MOC}%20Operating%20Systems.md) in C
+- Implementierung vieler Unix-[Betriebssysteme](../Betriebssysteme/index.md) in C
 - Viele Kompiler anderer Sprachen sind in C implementiert worden
 - Viele Sprachen übernahmen Teile der Syntax
-- Mehrfach standardisiert ([ANSI-C]({MOC}%20C.md) … [C11]({MOC}%20C.md), [C18]({MOC}%20C.md))
+- Mehrfach standardisiert ([ANSI-C](index.md) … [C11](index.md), [C18](index.md))
 - Imperativ/Prozedural (= keine OOP)
 
 ## Anwendungsgebiete
@@ -31,8 +31,8 @@ Merkmale:
 K&R	(Kernighan and Ritchie)  
 C90  
 C95  
-[C99]({MOC}%20C.md)  
-[C11]({MOC}%20C.md)  
+[C99](index.md)  
+[C11](index.md)  
 C17
 
 …
@@ -65,14 +65,14 @@ Als Anfänger empfiehlt sich eine einfache IDE (Entwicklungsumgebung). Mächtige
 
 2. VisualStudio - <https://www.visualstudio.com/de/downloads/>
 
-   Visual Studio ist eine IDE für [C++](../Cpp/{MOC}%20Cpp.md), für einfache C-Projekte sind einige Einstellungen zu tätigen:
+   Visual Studio ist eine IDE für [C++](../Cpp/index.md), für einfache C-Projekte sind einige Einstellungen zu tätigen:
 
-   [C++](../Cpp/{MOC}%20Cpp.md) Projekt --> Konsolenapplikation
+   [C++](../Cpp/index.md) Projekt --> Konsolenapplikation
 
-   - Datei als *.c speichern (Standard ist [cpp](../Cpp/{MOC}%20Cpp.md))
-   - -->Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/{MOC}%20Cpp.md) --> Erweitert --> Kompilierungsart --> "Als C-Code kompilieren (/TC)"
-   - --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/{MOC}%20Cpp.md) --> Präprozessor --> Präprozessordefinitionen --> "_CRT_SECURE_NO_WARNINGS" einfügen
-   - damit stdfx.h nicht eingebunden werden muss: --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/{MOC}%20Cpp.md) --> Vorkompilierte Header --> Vorkompilierte Header nicht verwenden einstellen
+   - Datei als *.c speichern (Standard ist [cpp](../Cpp/index.md))
+   - -->Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/index.md) --> Erweitert --> Kompilierungsart --> "Als C-Code kompilieren (/TC)"
+   - --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/index.md) --> Präprozessor --> Präprozessordefinitionen --> "_CRT_SECURE_NO_WARNINGS" einfügen
+   - damit stdfx.h nicht eingebunden werden muss: --> Projekt --> ConsoleApplication1-Eigenschaftenseiten --> C/[C++](../Cpp/index.md) --> Vorkompilierte Header --> Vorkompilierte Header nicht verwenden einstellen
 
 3. QtCreator - <http://download.qt.io/official_releases/online_installers/qt-unified-windows-x86-online.exe> (Open Source)
 

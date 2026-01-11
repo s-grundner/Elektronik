@@ -12,14 +12,14 @@ created: 29. November 2022
 
 ## Allgemein
 
-Ein [Betriebssystem]({MOC}%20Operating%20Systems.md) ist die **Software**, die **den Betrieb Computers ermöglicht**.
+Ein [Betriebssystem](index.md) ist die **Software**, die **den Betrieb Computers ermöglicht**.
 
 
 Es **verwaltet Betriebsmittel** wie Speicher, Einund Ausgabegeräte (und stellt sie somit zur Verfügung) und steuert die Ausführung von Programmen. 
 
 ### Aufgaben
 
-Ein [Betriebssystem]({MOC}%20Operating%20Systems.md) hat folgende grundlegende Aufgaben:  
+Ein [Betriebssystem](index.md) hat folgende grundlegende Aufgaben:  
 
 1. Verwaltung
    - CPU: Prozessor(en)
@@ -55,7 +55,7 @@ Ein [Betriebssystem]({MOC}%20Operating%20Systems.md) hat folgende grundlegende A
 
 
 - Reale Maschine = Hardware (CPU + RAM + Peripheriegeräte)
-- Abstrakte Maschine = Reale Maschine + [Betriebssystem]({MOC}%20Operating%20Systems.md)
+- Abstrakte Maschine = Reale Maschine + [Betriebssystem](index.md)
 - Benutzermaschine = Abstrakte Maschine + Anwendungsprogramm  	
 
 ### Klassifizierung Von Betriebssystemen
@@ -83,12 +83,12 @@ Bei bestimmten Betriebssystemen spielt die Verarbeitungszeit eine Rolle. Bei (Ec
 
 ### Schichtenmodell Eines Betriebssystems
 
-Zur logischen Strukturierung wird das [Betriebssystem]({MOC}%20Operating%20Systems.md) normalerweise in mehrere **Schichten** oder Schalen eingeteilt.  
+Zur logischen Strukturierung wird das [Betriebssystem](index.md) normalerweise in mehrere **Schichten** oder Schalen eingeteilt.  
 
 - Die unterste Schale beinhaltet alle **hardwareabhängigen** Teile des Betriebssystems, insbesondere auch die **Verarbeitung von** **Interrupts**.  
   Auf diese Weise ist es möglich, das BS leicht an unterschiedliche Rechnerausstattungen anzupassen.  
 - Die nächste Schicht enthält die grundlegenden **Ein-/Ausgabe**-Dienste für Plattenspeicher und Peripheriegeräte. (**BIOS**)
-- Die darauf folgende Schicht behandelt **Kommunikationsund** **Netzwerkdienste**, **Dateien und** **Dateisysteme**. Weitere Schichten können je nach Anforderung folgen. Ein [Betriebssystem]({MOC}%20Operating%20Systems.md) besitzt also drei oder mehr logische Schichten.
+- Die darauf folgende Schicht behandelt **Kommunikationsund** **Netzwerkdienste**, **Dateien und** **Dateisysteme**. Weitere Schichten können je nach Anforderung folgen. Ein [Betriebssystem](index.md) besitzt also drei oder mehr logische Schichten.
 
 ![OS_Schalenmodell](../../_assets/OS_Schalenmodell.png)
 
@@ -108,7 +108,7 @@ Durch jede Schicht wird eine zunehmende "**Veredelung**" der Hardware erreicht (
 
 Durch die Programmierschnittstelle (**API**, Application Programmer Interface) der höheren Schichten wird auch vermieden, dass jeder Programmierer die grundlegenden Routinen für den Zugriff auf Ein-/Ausgabegeräte und Massenspeicher selbst programmieren muss.  
 
-**Das BS stellt also eine** **definierte Programmierschnittstelle** **zur Verfügung**. Änderungen am BS oder der Hardware wirken sich so nicht auf die Anwenderprogramme aus, die nach wie vor über die gleichen [Betriebssystem]({MOC}%20Operating%20Systems.md)-Aufrufe die Dienste des BS in Anspruch nehmen.
+**Das BS stellt also eine** **definierte Programmierschnittstelle** **zur Verfügung**. Änderungen am BS oder der Hardware wirken sich so nicht auf die Anwenderprogramme aus, die nach wie vor über die gleichen [Betriebssystem](index.md)-Aufrufe die Dienste des BS in Anspruch nehmen.
 
 ![OS Schichtenmodell](../../_assets/OS_Schichtenmodell.png)
 
@@ -134,7 +134,7 @@ Wird allerdings einer der Prozesse in seinem Ablauf blockiert, dann wird solange
 
 - **Prozess**
 
-  Wird ein Programm/Prozedur in einem [Betriebssystem]({MOC}%20Operating%20Systems.md) **ausgeführt**, so wird dieser Ablauf als **Prozess** (**Task**) bezeichnet. Bei der Ausführung von Prozessen entstehen Statusinformationen (Registerinhalte …).
+  Wird ein Programm/Prozedur in einem [Betriebssystem](index.md) **ausgeführt**, so wird dieser Ablauf als **Prozess** (**Task**) bezeichnet. Bei der Ausführung von Prozessen entstehen Statusinformationen (Registerinhalte …).
 
   **Prozess:**
 

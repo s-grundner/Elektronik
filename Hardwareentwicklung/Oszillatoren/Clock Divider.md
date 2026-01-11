@@ -12,7 +12,7 @@ source:
 created: 24th January 2023
 ---
 
-# [Clock](Clock%20Generierung.md) Divider
+# [Clock](Clock-Generierung.md) Divider
 
 Zweier [Potenzen](../../Mathematik/Algebra/Potenzen.md) lassen sich leicht über kaskadierte D-Flip-Flops erzeugen.
 

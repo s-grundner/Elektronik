@@ -1,7 +1,6 @@
 ---
 tags:
   - OS
-  - C
 aliases: []
 created: 29. November 2022
 ---
@@ -9,8 +8,6 @@ created: 29. November 2022
 # Threads - Cpp
 
 <https://www.heise.de/select/ix/2017/5/1492877730281965>
-
-
 
 Seit C++11 gibt es von C++ Unterstützung durch *std::thread*. Davor war Multi-Threading ausschließlich durch direkte OS-APIs möglich. Für Unix-Varianten ist nach wie vor *pthread* sehr präsent. Diese Bibliothek repräsentiert das Standard-POSIX-API. Allgemein ist zu bemerken, dass sich das Verhalten von Threads je nach verwendetem OS unterscheiden kann.
 

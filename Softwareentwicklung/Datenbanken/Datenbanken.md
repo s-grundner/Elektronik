@@ -10,7 +10,7 @@ created: 29th November 2022
 
 ## Definition
 
-Daten können dauerhaft (*persistent* = bleiben nach Beendigung des Systems erhalten) in Dateien gespeichert werden. Die Entscheidung auf welche Art (binär, Text, XML-Formate …) die Daten gespeichert werden, liegt bei einer Anwendung und kann mit Dateiendungen/Dateitypen (.txt, .xls …) gekennzeichnet werden. Die Zugriffsart und der konkurrierende Zugriff mehrerer Anwendungen ist nicht geregelt (entscheidet das [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md)). Sollen:
+Daten können dauerhaft (*persistent* = bleiben nach Beendigung des Systems erhalten) in Dateien gespeichert werden. Die Entscheidung auf welche Art (binär, Text, XML-Formate …) die Daten gespeichert werden, liegt bei einer Anwendung und kann mit Dateiendungen/Dateitypen (.txt, .xls …) gekennzeichnet werden. Die Zugriffsart und der konkurrierende Zugriff mehrerer Anwendungen ist nicht geregelt (entscheidet das [Betriebssystem](../Betriebssysteme/index.md)). Sollen:
 
 - große Datenmengen
 - von vielen Benutzern gleichzeitig

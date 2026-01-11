@@ -44,7 +44,7 @@ Um das MIDI-Wort so kurz wie möglich zu halten, teilen sich des Status und Kana
 | Program Change    | 0xC      | Wechselt zwischen verschiedene Klänge und Instrumente                                                                                                                      |
 | Channel Pressure  | 0xD      | Löst beim Nachdrücken einer Keyboard Taste aus (gilt für alle Noten auf dem Kanal)                                                                                         |
 | Pitch Bend        | 0xE      | Ändert die Tonhöhe des gesamten Kanals in feinen Schritten.                                                                                                                |
-| System Messages   | 0xF      | MIDI [Clock](../../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md), Start, Stop, System [Reset](../Reset%20Generierung.md), Active Sensing |
+| System Messages   | 0xF      | MIDI [Clock](../../Hardwareentwicklung/Oszillatoren/Clock-Generierung.md), Start, Stop, System [Reset](../Reset%20Generierung.md), Active Sensing |
 |                   |          |                                                                                                                                                                            |
 
 ### MIDI Kanal

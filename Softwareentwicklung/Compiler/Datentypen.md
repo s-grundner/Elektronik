@@ -38,5 +38,5 @@ FloatSuffix = "f" | "F" | "d" | "D".
 
 # Tags
 
-- [C_Datentypen](C/C_Datentypen.md)
+- [C-Datentypen](../C/C-Datentypen.md)
 - [Java_Datentypen](Java/Java_Datentypen.md)

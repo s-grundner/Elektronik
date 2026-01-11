@@ -2,7 +2,10 @@
 tags:
   - OS
   - MOC
-aliases: []
+aliases:
+  - Betriebssysteme
+  - Betriebssystem
+  - Operating System
 created: 25th August 2023
 ---
 

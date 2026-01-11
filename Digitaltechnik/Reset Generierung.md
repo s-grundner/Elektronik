@@ -1,10 +1,16 @@
 ---
-tags: []
-aliases: ["Reset"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
-created: 31st January 2023
+tags:
+aliases:
+  - Reset
+keywords:
+subject:
+semester:
+created: 9th December 2025
+professor:
+release: false
+title: Reset Generierung
 ---
+
 
 # Reset Generierung
 
@@ -28,7 +34,7 @@ created: 31st January 2023
 
 Reset bei Systemstart
 > [!NOTE] Einfachster Aufbau  
-> ![POR](../_assets/POR.png)
+> ![invert_light|1000](../_assets/POR.png)
 
 #### Berechnung Der Resetdauer
 
@@ -55,14 +61,10 @@ Synchronisiert das loslassen des Reset Signals auf die Falling edge
 
 ![725](../_assets/reset-spg-einbruch.png)
 
-# Watchdog
+## Reset bei Fehlerhaftem Programmzustand
 
-Ein Watchdog weckt eine Schaltung wieder auf, wenn sie z.B. keine Rückmeldung erhält.
-
-$\rightarrow$ "seed-key" Prinzip  
-![450](../_assets/watchdog.png)
-> [!error] Wenn der Key nicht mit dem im LUT übereinstimmt, führt der Watchdog einen Reset durch.
+> [!question] [Watchdog](Watchdog.md)
 
 # Tags
 
-[Open Collector](../Hardwareentwicklung/Open%20Collector.md)
+- [Open Collector](../Hardwareentwicklung/Open%20Collector.md)

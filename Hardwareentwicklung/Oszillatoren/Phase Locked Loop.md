@@ -87,9 +87,9 @@ Das PWM-Artige Ausgangssignal des PD wird mit einem Tiefpass gemittelt und liefe
 ## VCO
 
 - Der [VCO](Voltage%20Controlled%20Oscillator.md) setzt das Signal in eine Rechteckschwingung um.
-- Interessant ist die sogenannte *center-frequency*, also jede Frequenz, mit der der [Oszillator](Clock%20Generierung.md) im Locked-Zustand schwingt.
+- Interessant ist die sogenannte *center-frequency*, also jede Frequenz, mit der der [Oszillator](Clock-Generierung.md) im Locked-Zustand schwingt.
 - Um sie herum findet der Regelvorgang statt.
-- In PLL-Schaltungen kommen für die [Oszillatoren](Clock%20Generierung.md) hauptsächlich [LC-Oszillatoren](LC%20Oszillatoren.md) (weniger häufig RC-[Oszillatoren](Clock%20Generierung.md)) sowie Ringoszillatoren zum Einsatz.
+- In PLL-Schaltungen kommen für die [Oszillatoren](Clock-Generierung.md) hauptsächlich [LC-Oszillatoren](LC%20Oszillatoren.md) (weniger häufig RC-[Oszillatoren](Clock-Generierung.md)) sowie Ringoszillatoren zum Einsatz.
 
 ## Rauschmodell
 

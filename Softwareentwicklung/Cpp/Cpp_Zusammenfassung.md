@@ -4,7 +4,7 @@ aliases: []
 created: 29. November 2022
 ---
 
-# [C++]({MOC}%20Cpp.md) Zusammenfassung
+# [C++](index.md) Zusammenfassung
 
 ## Datentypen
 
@@ -20,7 +20,7 @@ Grundsätzlich sind die Typen immer Vorzeichen behaftet, ansonsten können sie m
 
 **Ganzzahlen** gibt es in unterschiedlicher Form:
 
-- `int`	hat nicht auf jedem Rechner die gleiche Größe, das hängt von der Hardware/[Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) (Prozessorregister-Breite) und vor allem dem verwendeten Compiler ab.
+- `int`	hat nicht auf jedem Rechner die gleiche Größe, das hängt von der Hardware/[Betriebssystem](../Betriebssysteme/index.md) (Prozessorregister-Breite) und vor allem dem verwendeten Compiler ab.
 
 - `short int`	auf jedem System 2 Bytes
 
@@ -120,7 +120,7 @@ Bei der Definition eines Arrays ist der wesentliche Unterschied zu Arrays in and
 
   In der technischen Realisierung eines Array kann daher der Index direkt zur Adresse des ersten Elements dazugezählt werden.
 
-- Umgekehrt kann in C/[C++]({MOC}%20Cpp.md) daher auf Zeiger mittels des Index-Operators zugegriffen werden (so als ob sie Arrays wären):
+- Umgekehrt kann in C/[C++](index.md) daher auf Zeiger mittels des Index-Operators zugegriffen werden (so als ob sie Arrays wären):
 
   ```c++
   char *zeiger;
@@ -139,7 +139,7 @@ Der c-Dateizugriff funktioniert nach dem Prinzip:
 
 ​	Datei Öffnen -> Datei Lesen/Schreiben -> Datei Schließen
 
-**Datei Öffnen**: Mit dem Öffnen wird eine Datei üblicherweise vom [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) reserviert. Erst wenn ein Zugriff wieder geschlossen (Close) wird, kann die Datei vom [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) freigegeben werden.
+**Datei Öffnen**: Mit dem Öffnen wird eine Datei üblicherweise vom [Betriebssystem](../Betriebssysteme/index.md) reserviert. Erst wenn ein Zugriff wieder geschlossen (Close) wird, kann die Datei vom [Betriebssystem](../Betriebssysteme/index.md) freigegeben werden.
 
 ```c++
 FILE *fhdl = fopen("c:/pfad/myFile.txt", "rt");
@@ -333,9 +333,9 @@ int add(int a, int b) {				// Implementierung
 
 Um Funktionen aufrufen zu können müssen sie darüber bekannt sein. Dafür kann ein Prototyp verwendet werden.
 
-Um Funktionen in anderen C/[C++]({MOC}%20Cpp.md)-Dateien verwenden zu können werden die Prototypen in eigene Dateien ausgelagert. Diese eigenen Dateien können dann überall ohne die Implementierung eingebunden werden.
+Um Funktionen in anderen C/[C++](index.md)-Dateien verwenden zu können werden die Prototypen in eigene Dateien ausgelagert. Diese eigenen Dateien können dann überall ohne die Implementierung eingebunden werden.
 
-Diese Dateien mit den Deklarationen sind **Header**-Dateien mit der Erweiterung **.h**. Die Implementierung wird in gleichbenannte Dateien mit der Erweiterung **.[cpp]({MOC}%20Cpp.md)** geschrieben. Für das Additionsbeispiel:
+Diese Dateien mit den Deklarationen sind **Header**-Dateien mit der Erweiterung **.h**. Die Implementierung wird in gleichbenannte Dateien mit der Erweiterung **.[cpp](index.md)** geschrieben. Für das Additionsbeispiel:
 
 add.h
 

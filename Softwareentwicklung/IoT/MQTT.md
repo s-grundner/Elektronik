@@ -14,7 +14,7 @@ created: 29th November 2022
 
 ## Installation Mosquitto
 
-Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige [Betriebssysteme](../../Betriebssysteme/{MOC}%20Operating%20Systems.md). Für Windows/Linux kann es einfach über die Seite <https://mosquitto.org/download> bezogen werden.
+Um mit MQTT arbeiten zu können wird am einfachsten Mosquitto installiert. Mosquitto gibt's für viele gängige [Betriebssysteme](../Betriebssysteme/index.md). Für Windows/Linux kann es einfach über die Seite <https://mosquitto.org/download> bezogen werden.
 
 Grundsätzlich ist zu unterscheiden:
 

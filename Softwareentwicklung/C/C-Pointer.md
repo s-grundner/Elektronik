@@ -1,14 +1,22 @@
 ---
 tags:
-  - C
-  - Pointer
-  - Heap
 aliases:
+  - Zeiger
   - Pointer
-created: 29th November 2022
+keywords:
+subject:
+  - VL
+  - Networked Embedded Systems
+semester: WS25
+created: 9th December 2025
+professor:
+release: false
+title: C-Pointer
 ---
 
 # Zeiger
+
+A pointer in C is a variable that stores the memory address of another variable. It allows direct manipulation and access to the data stored at that memory location. Pointers are widely used for dynamic memory allocation and efficient data manipulation in C programming.
 
 ## Allgemein
 
@@ -45,7 +53,7 @@ printf("%p", &a);
 
 ## Adressdatentyp
 
-Um mit Adressen arbeiten zu können gibt es den Adressdatentyp. Die Größe dieses Datentyps hängt von der verwendeten Rechnerarchitektur, dem [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) und dem Compiler ab. Für uns gelten 32-Bit-Adressen (4 GB Adressraum). Von Windows werden uns 2 GB zur Verfügung gestellt (ist allgemein in Windows so).
+Um mit Adressen arbeiten zu können gibt es den Adressdatentyp. Die Größe dieses Datentyps hängt von der verwendeten Rechnerarchitektur, dem [Betriebssystem](../Betriebssysteme/index.md) und dem Compiler ab. Für uns gelten 32-Bit-Adressen (4 GB Adressraum). Von Windows werden uns 2 GB zur Verfügung gestellt (ist allgemein in Windows so).
 
 ```c
 int *ptr1;

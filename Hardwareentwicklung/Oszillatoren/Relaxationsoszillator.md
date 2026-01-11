@@ -22,4 +22,4 @@ created: 20th December 2022
 
 # Tags
 
-[Oszillator](Clock%20Generierung.md)
+[Oszillator](Clock-Generierung.md)

@@ -3,26 +3,47 @@ tags:
   - C/free
   - C/malloc
   - DS
-aliases: []
-created: 29th November 2022
+aliases:
+  - C-Memorymanagement
+keywords:
+  - C-Programmiersprache
+subject:
+  - VL
+  - Networked Embedded Systems
+semester: WS25
+created: 9th December 2025
+professor:
+  - Alois Zoitl
+release: false
+title: C Speicherorganisation
 ---
 
 # Speicherorganisation
 
 Es wird nur eine stark vereinfachte Übersicht geboten. Diese Organisation ist Betriebssystemabhängig.
 
+> [!tldr] TLDR: Memory Leaks vermeiden
+> 
+> - Return Out of Scope Variable
+> - Insufficent bound checks -> Buffer Overflows
+> - Integer errors
+> - Uncontrolled format-strings
+> - Use After free()
+> - Use of unitialized variables
+> - Double free()
+
 ## Allgemein
 
 Einem C-Programm wird bei der Ausführung ein Speicherbereich zugewiesen der sich in verschiedene Teile gliedert.  
 Unter Windows wird dem Programm ein maximaler Speicherbereich von 2GB zugewiesen (in Linux ebenfalls).  
-Mehr kann vom Programm nicht verwaltet werden, das [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md) rückt nicht mehr raus (4GB können adressiert werden, 2GB, rund 50% des Speichers werden vom OS für Org. zurückgehalten).  
+Mehr kann vom Programm nicht verwaltet werden, das [Betriebssystem](../Betriebssysteme/index.md) rückt nicht mehr raus (4GB können adressiert werden, 2GB, rund 50% des Speichers werden vom OS für Org. zurückgehalten).  
 Aus Sicht des Programms ist es ein zusammenhängender Speicher. Aus Betriebssystemsicht kann dieser Speicher auf verschiedene Stellen verteilt sein oder sogar komplett oder zum Teil auf auf eine Festplatte ausgelagert sein. 
 
 Für unser Programm ist dieser Speicher virtuell, als linear adressierbar, zusammenhängender Speicher wahrnehmbar.
 
 Dieser Speicherbereich wird folgendermaßen aufgeteilt:
 
-![Speicherorg1](../../_assets/Speicherorg1.png)
+![invert_dark|1000](../../_assets/Speicherorg1.png)
 
 Mit einer 32 Bit Adresse kann von 0x0 bis `0xFFFF FFFF` adressiert werden.
 
@@ -251,7 +272,7 @@ Im Watches-Fenster kann die Adresse einer Variable mit dem Adressoperator ermitt
 
 ## Speicherlecks - *Memory-Leakage*
 
-Speicherlecks sind DIE Fehler in C/[C++](../Cpp/{MOC}%20Cpp.md) schlechthin. Diese Fehler sind der Grund warum viele andere Sprachen, trotz des enormen Potentials von Pointern auf dieses Konzept verzichten.
+Speicherlecks sind DIE Fehler in C/[C++](../Cpp/index.md) schlechthin. Diese Fehler sind der Grund warum viele andere Sprachen, trotz des enormen Potentials von Pointern auf dieses Konzept verzichten.
 
 Speicherleck: es wird Speicher reserviert und nie wieder frei gegeben. Dadurch ist Speicher reserviert (kann nicht verwendet werden) wird aber nicht mehr verwendet. Der Speicherbedarf der Anwendung ist größer als notwendig. Passiert das in Schleifen kann der Bedarf kontinuierlich wachsen. Für Programme wie sie in der Ausbildung entwickelt werden ist das nicht weiter problematisch. Auch das ist mit ein Problem, die Sache wird nicht wahrgenommen. Dadurch übt sich eine gewisse *Schlampigkeit* ein. In einer Anwendung die dann tatsächlich dauerhaft zur Anwendung kommt tritt der Fehler dann in Form von seltsamen Abstürzen auf. Ein typischer Fall ist eine Serveranwendung die ständig läuft. Der Ursache für den Absturz ist im nachhinein sehr schwer zu erkennen.
 
@@ -272,7 +293,7 @@ Hier wird Platz für 10x2 Integer-Werte reserviert aber nur der Speicher für 2 
 Es gibt zahlreiche Tools die unterstützen Speicherlecks zu finden. Ein sehr gutes und bei weitem das bekannteste ist *Valgrind*. Problem: das gibt's nicht für Windows.
 
 > [!success] Lösung:  
-> WSL ein Windows-Linux-Subsystem. Sehr ähnlich wie eine virtuelle Maschine ist das Linux-Subsystem. Allerdings ist es keine vollständig virtuell laufendes OS (samt Kernel) sondern lediglich ein auf [Betriebssystem](../Betriebssysteme/{MOC}%20Operating%20Systems.md)-Schnittstellen aufgesetzte Kompatibilitätsschicht. Dadurch ist es sehr schnell und für Entwickler im MS-Bereich kann sehr einfach und effizient auf Linux-Tools zugegriffen werden und für Linux getestet werden.
+> WSL ein Windows-Linux-Subsystem. Sehr ähnlich wie eine virtuelle Maschine ist das Linux-Subsystem. Allerdings ist es keine vollständig virtuell laufendes OS (samt Kernel) sondern lediglich ein auf [Betriebssystem](../Betriebssysteme/index.md)-Schnittstellen aufgesetzte Kompatibilitätsschicht. Dadurch ist es sehr schnell und für Entwickler im MS-Bereich kann sehr einfach und effizient auf Linux-Tools zugegriffen werden und für Linux getestet werden.
 
 (Howtos: install of WSL)
 
