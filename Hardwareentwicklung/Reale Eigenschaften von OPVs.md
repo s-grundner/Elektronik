@@ -23,6 +23,7 @@ professor:
 # Reale Eigenschaften von OPVs
 
 **Modell:**
+
 ![invert_dark](assets/Pasted%20image%2020251105222011.png)
 
 Charakteristische Größen und deren Größenordnungen

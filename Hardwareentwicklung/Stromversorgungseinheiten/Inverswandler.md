@@ -1,8 +1,12 @@
 ---
-tags: ["Baugruppe/Versorgung/SMPS"]
-aliases: ["Buck-Boost-Converter", "Invertierender Wandler"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppe/Versorgung/SMPS
+aliases:
+  - Buck-Boost-Converter
+subject:
+  - hwe
+source:
+  - Siegbert Schrempf
 created: 26th September 2022
 ---
 

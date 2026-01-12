@@ -21,6 +21,8 @@ title: Momentanphase und Momentanfrequenz
 
 > [!question] [Modulation](HF-Technik/Modulation.md)
 
+Im allgemeinen Lassen sich wechsel Signale als rotierende Zeiger in der Komplexen ebene Darstellen. Pausiert man die Rotation zu einem Beliebigen Zeitpunkt, so weist ein Zeiger, einen Winkel (=Momentanphase) und eine Geschwindigkeit (=Momentanfrequenz), mit der er weiter rotieren würde auf.
+
 Anstelle einer Amplitudenmodulation kann die Information auch direkt in das Argument des Kosinusförmigen Trägers eingeprägt werden. Es gilt im allgemeinen das Argument $\varphi(t)$ zeitlich so zu verändern, dass die information möglichst effektiv auf das gewünschte Frequenzband aufmoduliert wird.
 
 $$

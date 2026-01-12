@@ -1,14 +1,18 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - HF-Systemtechnik 1
+  - VL
+  - Grundlagen der Hochfrequenztechnik
 semester: WS24
 created: 20th January 2025
 professor:
   - Reinhard Feger
+draft: true
+title: HF-Modell einer Parallelplattenleitung
 ---
  
 
