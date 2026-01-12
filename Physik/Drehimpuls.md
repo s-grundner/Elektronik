@@ -21,7 +21,7 @@ Drehimpuls ist nie unabhängig von der Wahl des Bezugssystems.
 
 
 > [!example] Einfache Kreisbewegung mit Radius $r$
-> ![[../assets/Excalidraw/Drehimpuls 2024-01-24 12.48.27.excalidraw]]
+> ![[../_assets/Excalidraw/Drehimpuls 2024-01-24 12.48.27.excalidraw]]
 
 ## Drehimpulserhaltung
 

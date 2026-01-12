@@ -16,7 +16,7 @@ semester: WS24
 
 # Reflexionsfaktor
 
-![](assets/TL_QundS.png)
+![](../_assets/TL_QundS.png)
 
 > [!SUMMARY] $\quad r= \dfrac{Z_{A}-Z_{L}}{Z_{A}+Z_{L}}$
 > $$ r = \frac{U_{r}}{U_{h}} = \frac{\frac{1}{2}(U_{0}-I_{0}\cdot Z_{L})}{\frac{1}{2}(U_{0}+I_{0}\cdot Z_{L})} = \frac{\frac{U_{0}}{I_{0}}-Z_{L}}{\frac{U_{0}}{I_{0}}+Z_{L}}$$
@@ -31,7 +31,7 @@ semester: WS24
 > - wenn $Z_{A}<Z_{L}\to$ negative Reflexionen 😭 
 > 	$\to$ (reflektierter Anteil subtrahiert sich vom Signal $\to$ Undershoot)
 > 
-> ![InlineR|500](assets/OverUnderRefl.png)
+> ![InlineR|500](../_assets/OverUnderRefl.png)
 
 
 > [!INFO] Undershoot hat in modernen digitalen Schaltungen einen größeren Einfluss

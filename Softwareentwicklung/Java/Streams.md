@@ -139,7 +139,7 @@ professor:
 > > [!success]- Lösung
 > > Teilt werte anhand eines prädikats in True oder False ein. Der Boolsche Wert ist der Key einer Map. Das Value ist die Liste, in der die Partitionierten Elemente chillen.
 > > Eine Liste wird daher mit True und die andere mit False Assoziiert
-> > ![](assets/Pasted%20image%2020240626194355.png)
+> > ![](../../_assets/Pasted%20image%2020240626194355.png)
 
 
 --- 

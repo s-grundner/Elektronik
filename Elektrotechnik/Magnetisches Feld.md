@@ -16,7 +16,7 @@ created: 31. August 2023
 professor:
   - Bernhard Jakoby
   - Wolfgang Gruber
-release:
+release: false
 title: Das Magnetische Feld
 ---
  
@@ -50,7 +50,7 @@ $$
 > [!info] Rechte Hand Regel
 > Die Feldlinien sind konzentrische Kreise, die den stromführenden Leiter rechtswendig (s. Rechte-Hand-Regel) „umwirbeln“. Feld um einen (*unendlich ausgedehnten*) langen Draht der den [Strom](elektrischer%20Strom.md) 𝐼 führt:
 >
-> ![invert_dark|300](assets/rechteHandmagn.png)
+> ![invert_dark|300](../_assets/rechteHandmagn.png)
 
 ## Elektromechanische Energieumwandlung
 

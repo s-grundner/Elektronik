@@ -52,7 +52,7 @@ In der allgemeinen Lösung kommen sowohl $\frac{\partial }{\partial t}$ und $\fr
 In der Wechselstromtechnik kann eine Differenzation nach der Zeit durch eine Multiplikation mit $j\omega$. 
 
 > [!question]- Herleitung:
-> ![700](assets/Telegraphengleichung%202025-01-21%2023.00.48.excalidraw.md)
+> ![700](../_assets/Telegraphengleichung%202025-01-21%2023.00.48.excalidraw.md)
 
 Gekoppelte PDGL der TFGL:
 $$
@@ -87,7 +87,7 @@ $$
 
 
 
-![[assets/Telegraphengleichung 2025-01-21 23.36.38.excalidraw]]
+![[../_assets/Telegraphengleichung 2025-01-21 23.36.38.excalidraw]]
 
 
 Der Phasenbelag ist mit der Wellenlänge des Signals verknüpft und bestimmt, wie schnell sich die Welle auf der Leitung ausbreitet.

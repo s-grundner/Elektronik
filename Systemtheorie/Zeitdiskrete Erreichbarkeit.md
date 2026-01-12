@@ -17,7 +17,7 @@ title: Einheitskreismatrix
 # Erreichbarkeit Zeitdiskreter LTI-Systeme
 
 :LiArrowBigRightDash: [Beobachtbarkeit](Zeitdiskrete%20Beobachtbarkeit.md) 
-:LiRefreshCcw: [Erreichbarkeit Zeitkontinuierlicher LTI-Systeme](Erreichbarkeit.md)
+:LiRefreshCcw: [Erreichbarkeit Zeitkontinuierlicher LTI-Systeme](Regelungstechnik/Erreichbarkeit.md)
 
 ---
 
@@ -28,11 +28,11 @@ title: Einheitskreismatrix
 
 Der Test auf Erreichbarkeit erfolgt gleich wie für zeitkontinuierliche Systeme.
 
-![Testen Auf Erreichbarkeit](Erreichbarkeit.md#Testen%20Auf%20Erreichbarkeit)
+![Testen Auf Erreichbarkeit](Regelungstechnik/Erreichbarkeit.md#Testen%20Auf%20Erreichbarkeit)
 
 ## Erreichbarer Unterraum
 
-![Erreichbarer Unterraum](Erreichbarkeit.md#^ERRE-SUBSPACE)
+![Erreichbarer Unterraum](Regelungstechnik/Erreichbarkeit.md#^ERRE-SUBSPACE)
 
 Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\mathbf{x}_{0} = \mathbf{0}$ die in endlicher Zeit erreicht werden können. Das System ist also vollständig erreichbar wie in [D1](#^ERRE) wenn $\dim\mathbf{M}_{\mathcal{R}} = \dim\mathcal{R} =n$ 
 
@@ -40,15 +40,15 @@ Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\ma
 
 > [!hint] Ist das System nicht vollständig erreichbar kann man das es in ein erreichbares Teilsystem und ein nicht-erreichbares Teilsystem zerlegen.
 
-![Kalman-Zerlegung](Kalman-Zerlegung.md#^ERRE)
+![Kalman-Zerlegung](Regelungstechnik/Kalman-Zerlegung.md#^ERRE)
 
 Das neue System hat die Form (mit den Koeffizienten wie in [ZTRF](Zustandstransformation.md#^ZTRF))
 
-![](Kalman-Zerlegung.md#^ERRE-DISK)
+![](Regelungstechnik/Kalman-Zerlegung.md#^ERRE-DISK)
 
 ## Steuerbarkeit
 
-> [!question] :LiRefreshCcw: [Steuerbarkeit Zeitkontinuierlicher Systeme](Erreichbarkeit.md#Steuerbarkeit)
+> [!question] :LiRefreshCcw: [Steuerbarkeit Zeitkontinuierlicher Systeme](Regelungstechnik/Erreichbarkeit.md#Steuerbarkeit)
 
 ---
 
@@ -64,7 +64,7 @@ Das heißt das der nicht-erreichbare Unterraum dann keinen Einfluss auf Folgegli
 
 ## Stabilisierbarkeit
 
-> [!question] [Stabilisierbarkeit Zeitkontinuierlicher LTI-Systeme](Erreichbarkeit.md#Stabilisierbarkeit)
+> [!question] [Stabilisierbarkeit Zeitkontinuierlicher LTI-Systeme](Regelungstechnik/Erreichbarkeit.md#Stabilisierbarkeit)
 
 ---
 

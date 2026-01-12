@@ -34,7 +34,7 @@ in eine **alternative Darstellungsform** übergeführt
 > - [Fouriertransformation](Fouriertransformation.md): Darstellung über Zeit oder Frequenz
 > - [Laplacetransformation](Laplacetransformation.md): $s$-Bereich zur einfacheren Analyse
 
-Weiterführend bei den Frequenzbereichsmethoden in der [Systemtheorie]({MOC}%20Systemtheorie.md#Frequenzbereichsmethoden)
+Weiterführend bei den Frequenzbereichsmethoden in der [Systemtheorie](index.md#Frequenzbereichsmethoden)
 
 ## Integrationskern
 

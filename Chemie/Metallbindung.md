@@ -15,7 +15,7 @@ professor:
 
 # Metallbindung
 
-![invert_dark|340](../assets/metall_bdg_anim.gif)
+![invert_dark|340](../_assets/metall_bdg_anim.gif)
 
 Starke Anziehungskräfte zwischen [Kationen](Ionenbindung.md) und Elektronengas (auch Fermi-[Gas](Allgemeines%20Gasgesetz.md)) halten das Metallgitter zusammen.
 

@@ -45,7 +45,7 @@ Es wird *formulare.html* angelegt:
 
 Beim Öffnen mit einem Browser werden diese Felder dargestellt (exakte Darstellung hängt vom Browser ab):
 
-![einf_001.png](assets/php_einf_001.png)
+![einf_001.png](../../_assets/php_einf_001.png)
 
 In diesem Beispiel werden mit Drücken des Start-Buttons die Daten der vier Felder (Server/Datenbank/User/Passwort) an formulare.php (kommt weiter unten) übertragen.
 
@@ -296,7 +296,7 @@ session_start();
 
 gestartet werden. Damit sind globale Variable verfügbar. In jeder teilnehmenden Seite muss die erste Anweisung ein `session_start()` sein um die Session aufrecht zu erhalten. Damit sind im assoziativen Feld `$_SESSION` globale Variable verfügbar.
 
-![invert_dark](../assets/php_session.png)
+![invert_dark](../../_assets/php_session.png)
 
 # Beispiel Uni-Abfrage
 

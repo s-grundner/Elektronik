@@ -47,18 +47,18 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 
 > [!example] Verwendung in einem Netzteil:
 > 
-> ![Netzteil_sch](../assets/Netzteil_sch.png)
+> ![Netzteil_sch](../../_assets/Netzteil_sch.png)
 
 Verlauf der [elektrische Spannung](../../Elektrotechnik/elektrische%20Spannung.md):
 - Rot: vor der Stufe
 - Gelb: nach der Stufe
 
-![zw_spannungen_netzteil](../assets/zw_spannungen_netzteil.png)
+![zw_spannungen_netzteil](../../_assets/zw_spannungen_netzteil.png)
 
 
 # Tags
 
 - [[Linear Dropout Regulator]]
-- [Linearregler - HTL Mitschrift](../assets/pdf/Linearregler.pdf)
+- [Linearregler - HTL Mitschrift](../../_assets/pdf/Linearregler.pdf)
 
 [^1]: Kontrovers 

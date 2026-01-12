@@ -23,11 +23,11 @@ Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) arbeitet als Schalter ($S$
 
 ## Lauf-Zeit-Diagramm
 
-![invert_light](../assets/BuckBoostLZD.png)
+![invert_light](../../_assets/BuckBoostLZD.png)
 
 | Kontinuierlicher Betrieb                            | Diskontinuierlicher Betrieb                            |
 | --------------------------------------------------- | ------------------------------------------------------ |
-| ![invert_light\|1000](../assets/BuckBoostConID.png) | ![invert_light\|1000](../assets/BuckBoostDisconID.png) |
+| ![invert_light\|1000](../../_assets/BuckBoostConID.png) | ![invert_light\|1000](../../_assets/BuckBoostDisconID.png) |
 | $$I_{a,max}=\overline{I_{D}}$$                      | $$I_{a,min} = \overline{I_{D}}$$                       |
 
 <div style="page-break-after: always;"></div>

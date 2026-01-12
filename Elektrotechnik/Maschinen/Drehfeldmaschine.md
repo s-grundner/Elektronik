@@ -16,4 +16,4 @@ title: Drehfeldmaschine
 
 **Funktion:** Erzeugt ein Drehfeld durch die Verschiedenen Phasen von Drehstromkreisen
 
-![500](assets/DrehFeldM.jpg)
+![500](../../_assets/DrehFeldM.jpg)

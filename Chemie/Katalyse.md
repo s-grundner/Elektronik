@@ -37,7 +37,7 @@ Man braucht: Aktivierungsenergie
 
 ### Energiediagramm Bei Knallgasreaktion
 
->![invert_light|500](assets/AE.png)  
+>![invert_light|500](../_assets/AE.png)  
 >EA ohne Katalysator  
 >EA mit Katalysator
 
@@ -60,7 +60,7 @@ Er wird zuvor **vorübergehend verändert** aber **nicht verbraucht**
 > Beim Schweißen wird Ethin (Acetylen, $C_{2}H_{2}$) verbrannt.  
 > $10g$ Ethin liefern $500kJ$.  
 > Erstellen sie die Reaktionsgleichung und geben sie die Enthalpiedifferenz ($\Delta H$) der Reaktion an.  
-> ![150](assets/C.png) ![150](../assets/H.png)
+> ![150](../_assets/C.png) ![150](../_assets/H.png)
 >
 > > [!success] Lösung  
 > > **RGL:**  

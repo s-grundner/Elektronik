@@ -19,4 +19,4 @@ Für Zweipole gibt es aber eine Konvention, die als Erzeugerund Verbraucherzähl
   - Bei Quellen (Generatoren etc.) wählt man im Erzeugerzählpfeilsystem [Spannung](../../../Elektrotechnik/elektrische%20Spannung.md) und Strom gegensätzlich orientiert (so dass beide in der Regel positiv sein werden).
   - Bei Verbrauchern (Widerständen etc.) wählte man im Verbraucherzählpfeilsystem Spannung und Strom in die gleiche Richtung.
 
-![](../Physik/assets/Pasted%20image%2020240306154811.png)
+![](../_assets/Pasted%20image%2020240306154811.png)

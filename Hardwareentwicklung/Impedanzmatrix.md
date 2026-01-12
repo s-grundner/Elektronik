@@ -3,7 +3,7 @@
 $\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$  
 $\underline{U}_{2}= \underline{I}_{1}\cdot\underline{Z}_{21}+\underline{I}_{2}\cdot\underline{Z}_{22}$
 
-Als [Matrix](Matrix.md): (Zeile $\cdot$ Spalte)
+Als [Matrix](../Mathematik/Algebra/Matrix.md): (Zeile $\cdot$ Spalte)
 
 $$
 \begin{pmatrix}

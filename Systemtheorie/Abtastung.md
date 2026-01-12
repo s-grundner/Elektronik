@@ -49,8 +49,8 @@ Dient zum hin und her wechseln zwischen $G(s) \leftrightarrow G(z)$
 
 
 > [!info] [[Digitaltechnik/ADC]]
-- [Sukzessive Approximation](../Digitaltechnik/SAR-ADC.md)
-- [Sigma-Delta](../Digitaltechnik/Sigma-Delta-ADC.md)
+- [Sukzessive Approximation](../../Digitaltechnik/SAR-ADC.md)
+- [Sigma-Delta](../../Digitaltechnik/Sigma-Delta-ADC.md)
 
 ---
 

@@ -26,12 +26,12 @@ title: Faltungssumme
 
 ## Faltungsmatrix
 
-> [!info] Bekannt aus der [Systemtheorie]({MOC}%20Systemtheorie.md)
+> [!info] Bekannt aus der [Systemtheorie](index.md)
 > das Ausgangssignal $y$ ist das Ergebnis der Faltung des Eingangs $x$ mit der Impulsantwort $h$.
  
 Diese Faltungsoperation lässt sich in die Form einer Linearen Abbildung bringen:
 
-![invert_dark|500](assets/LTI-System.png)
+![invert_dark|500](../_assets/LTI-System.png)
 
 Für ein oft vorliegendes kausales LTI-System mit endlicher Impulsantwort (FIR) $h[n] = (h_{0}, h_{1}, \dots, h_{N_{h}-1})$ der länge $N_{h-1}$ gilt die [Differenzengleichung](../Mathematik/Analysis/Differenzengleichung.md):
 
@@ -102,7 +102,7 @@ $$
 ---
 
 - Faltungsmatrix: [INTERNAL - SigV UE01](xEDU/B4_SS25/Signalverarbeitung/UE/UE01.md)
-- [Zyklische Faltung](Zyklische%20Faltung.md)
+- [Zyklische Faltung](Signalverarbeitung/Zyklische%20Faltung.md)
 
 ---
 

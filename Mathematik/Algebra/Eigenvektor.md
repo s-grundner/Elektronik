@@ -19,9 +19,9 @@ def:
 
 # Eigenwerte, Eigenvektoren
 
-> [!quote] Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) aussagen.  
+> [!quote] Eigenwerte und Eigenvektoren sind wichtige Kenngrößen, die viel über das Verhalten einer [linearen Abbildung](Lineare%20Abbildungen.md) aussagen.  
 
-Eigenvektoren ($\mathbf{v}$) sind [Vektoren](../Algebra/Vektor.md), die unter der linearen Abbildung $\mathbf{A}$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden; diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
+Eigenvektoren ($\mathbf{v}$) sind [Vektoren](Vektor.md), die unter der linearen Abbildung $\mathbf{A}$ ihre Richtung nicht ändern, sondern allenfalls skaliert werden; diesen Skalierungsfaktor nennt man *Eigenwert* $\lambda$:
 
 $$\mathbf{Av} = \lambda \mathbf{v}\tag{EWGL}$$ ^EWGL
 
@@ -38,7 +38,7 @@ Dabei nennt man die Beziehung [EWGL](#^EWGL) **Eigenwertgleichung**.
 Die Eigenwertgleichung ist hier auf eine Seite gebracht. Um das Skalar $\lambda$ an die Dimension der Matrix $\mathbf{A}$ anzupassen, wird sie mit dem Einselement - der Einheitsmatrix - Multipliziert.
 
 - Eigenvektoren zu verschiedenen Eigenwerten sind [linear unabhängig](Lineare%20Abhängigkeit.md).
-- Die [Determinante](../Algebra/Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
+- Die [Determinante](Determinante.md) ist das Produkt aller Eigenwerte: $\det A = \prod^{n}_{i=1}\lambda_{i}$
 - Ist $\det A=0$, so ist *mindestens* ein Eigenwert 0.
 - Eigenwerte einer [Dreiecksmatrix](Dreiecksmatrix.md) bzw. einer [Diagonalmatrix](Diagonalmatrix.md) entsprechen der Elemente auf der *Hauptdiagonalen*.
 
@@ -120,11 +120,11 @@ A= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-> [!hint] Alle [Vektoren](../Algebra/Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Algebra/Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](../Algebra/Vektor.md) mit einer Anderen länge)  
+> [!hint] Alle [Vektoren](Vektor.md) $\vec{x}$ die unter der [linearen Abbildung](Lineare%20Abbildungen.md) $Lx = A^{L}\vec{x}$ nur *skaliert* werden. (Der gleiche [Vektor](Vektor.md) mit einer Anderen länge)  
 >
 > $$A\vec{x}=\lambda \vec{x}$$
 
-Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](Matrix.md) multipliziert mit einem [Vektor](../Algebra/Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](../Algebra/Vektor.md).
+Die Gleichung beinhaltet nun auf der einen Seite eine [Matrix](Matrix.md) multipliziert mit einem [Vektor](Vektor.md) und auf der anderen ein Skalar multipliziert mit einem [Vektor](Vektor.md).
 
 Um aus der Gleichung eine reine Matrizengleichung zu erhalten lässt sich das Skalar auch mit der [Einheitsmatrix](Einheitsmatrix.md) anschreiben:
 
@@ -169,11 +169,11 @@ A\vec{x}-(\lambda \cdot I)\cdot\vec{x} &= \vec{0} \\
 \end{align}
 $$
 
-Eigenvektoren sind also alle [Vektoren](../Algebra/Vektor.md) $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
+Eigenvektoren sind also alle [Vektoren](Vektor.md) $\vec{x}$ mit den dazugehörigen Eigenwerten $\lambda$, die diese Gleichung erfüllen.
 
 ### Charakteristisches [Polynom](Polynom.md)
 
-> [!important] Die Eigenwerte werden durch [Nullstellen](Nullstelle.md) im charakteristischen [Polynom](Polynom.md) berechnet. 
+> [!important] Die Eigenwerte werden durch [Nullstellen](../Analysis/Nullstelle.md) im charakteristischen [Polynom](Polynom.md) berechnet. 
 
 Die [Determinante](Determinante.md) für muss für $A-\lambda \cdot I$ gleich null sein:
 
@@ -196,13 +196,13 @@ Die Gleichung wird nun zu einem [Polynom](Polynom.md) aufgelöst:
 >
 > $$-\lambda^{3}+15\lambda^{2}-54\lambda= 0$$
 >
-> Die [Nullstellen](Nullstelle.md), also die *Eigenwerte*, dieses Polynoms sind:  
+> Die [Nullstellen](../Analysis/Nullstelle.md), also die *Eigenwerte*, dieses Polynoms sind:  
 >
 > $$\lambda_{1} = 0 \qquad \lambda_{2} = 6 \qquad \lambda_{3} = 9$$
 
 ### Eigenvektoren
 
-Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das [LGS](Lineare%20Gleichungssysteme.md) eingesetzt und gelöst werden.
+Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das [LGS](../Analysis/Lineare%20Gleichungssysteme.md) eingesetzt und gelöst werden.
 
 $\lambda_{3}$:
 
@@ -237,7 +237,7 @@ S_{3}'=S_{3}+S_{1}
 \end{align}
 $$
 
-Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](Lineare%20Gleichungssysteme.md) gelöst werden. Pro [Lineare Abhängigkeit](Algebra/Lineare%20Abhängigkeit.md) kann ein Parameter frei gewählt werden:
+Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](../Analysis/Lineare%20Gleichungssysteme.md) gelöst werden. Pro [Lineare Abhängigkeit](Lineare%20Abhängigkeit.md) kann ein Parameter frei gewählt werden:
 
 $$
 0x_{1}+0x_{2}+0x_{3} = 0 \to x_{3} = s, s\in \mathbb{R}
@@ -251,7 +251,7 @@ $$
 -2x_{1} -2\cdot \frac{s}{2}+1\cdot s = 0 \to x_{1} = 0
 $$
 
-Mit der Lösung des [LGS](Lineare%20Gleichungssysteme.md) ergibt sich der Eigenvektor für $\lambda_{3} = 9$ als folgender:
+Mit der Lösung des [LGS](../Analysis/Lineare%20Gleichungssysteme.md) ergibt sich der Eigenvektor für $\lambda_{3} = 9$ als folgender:
 
 $$
 x_{\lambda_{3}}=s\cdot \begin{pmatrix}

@@ -18,7 +18,7 @@ title: Drahtlose Übertragung
 
 Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welches das Nutzsignal so aufbereitet, um es mit einer Antenne über den Freiraum als Elektromagnetische Welle auszustrahlen. 
 
-> [!example] z.B. Praktische Implementierung am [CC1101](Digitaltechnik/CC1101.md)-Radarchip
+> [!example] z.B. Praktische Implementierung am [CC1101](../Digitaltechnik/Devices/CC1101.md)-Radarchip
 
 ## Wieso finden drahtlose Übertragungen immer mit hohen frequenzen statt?
 
@@ -28,11 +28,11 @@ Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welche
 > 
 > **Kleinere Antennen:** Die Länge der Antenne ist oft proportional zur optimalen Wellenlänge $\lambda = \dfrac{c}{f}$
 > 
-> ![invert_dark|200](assets/Stabantenne.png)
+> ![invert_dark|200](../_assets/Stabantenne.png)
 > 
 > **Größere Bandbreite:** Das die Benötigte bandbreite ist für den selben datendurchsatz im verhältnis zur Mittelfrequenz gleich
 > 
-> ![300](../assets/Excalidraw/Bandbreite1.svg)
+> ![300](../_assets/Excalidraw/Bandbreite1.svg)
 > 
 > $$
 > \frac{f_{\text{upper}}-f_{\text{lower}}}{f_{\text{center}}} = \frac{B}{f_{\text{center}}} \approx \text{const.}
@@ -40,8 +40,8 @@ Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welche
 
 Ein wichtiges Ziel ist es also das Nutzsignal im Spektrum Verschieben zu können
 
-![](../assets/Excalidraw/VerschiebungImSpektrum.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/VerschiebungImSpektrum.md)%%
+![](../_assets/Excalidraw/VerschiebungImSpektrum.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/VerschiebungImSpektrum.md)%%
 
 Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschiedene [Modulationsarten](HF-Technik/Modulation.md) zum einsatz.
 

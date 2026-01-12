@@ -15,7 +15,7 @@ title: Wahrscheinlichkeit
 
 # Wahrscheinlichkeit $P(\omega)$
 
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [Grenzwert](Grenzwert.md) der Folge $\langle h(\omega)\rangle$.
+Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [Grenzwert](../Analysis/Grenzwert.md) der Folge $\langle h(\omega)\rangle$.
 
 >[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
 
@@ -91,15 +91,15 @@ So gilt: Mindestens eines = nicht keines
 
 ### Pfadregeln
 
-![Pasted image 20230108013030](../../assets/Pasted%20image%2020230108013030.png)
+![Pasted image 20230108013030](../../_assets/Pasted%20image%2020230108013030.png)
 
-![Pasted image 20230108013044](../../assets/Pasted%20image%2020230108013044.png)
+![Pasted image 20230108013044](../../_assets/Pasted%20image%2020230108013044.png)
 
-![invert_light](../../assets/Pasted%20image%2020230108013054.png)
+![invert_light](../../_assets/Pasted%20image%2020230108013054.png)
 
 # Tags
 
-| ![Pasted image 20221211123853](../../assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](assets/UEB-rechnen-wsk.png) |  
+| ![Pasted image 20221211123853](../../_assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](../../_assets/UEB-rechnen-wsk.png) |  
 | ------------------------------------ | ------------------------ |
 
 [Ereignisraum](Ereignisraum.md)  

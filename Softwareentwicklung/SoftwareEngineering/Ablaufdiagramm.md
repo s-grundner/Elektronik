@@ -16,11 +16,11 @@ professor:
 
 # Ablaufdiagramm
 
-| start | ![100](../DS-Algo/assets/Pasted%20image%2020240313130624.png) | 
+| start | ![100](../../_assets/Pasted%20image%2020240313130624.png) | 
 | --------- |:--------------------------------------------------:|
-| if | ![100](../DS-Algo/assets/Pasted%20image%2020240313130056.png) |
-| while | ![150](../DS-Algo/assets/Pasted%20image%2020240313130246.png) |
-| end while | ![50](../DS-Algo/assets/Pasted%20image%2020240313130517.png) |
+| if | ![100](../../_assets/Pasted%20image%2020240313130056.png) |
+| while | ![150](../../_assets/Pasted%20image%2020240313130246.png) |
+| end while | ![50](../../_assets/Pasted%20image%2020240313130517.png) |
 | return | |
 
 ## 1 D-Diagramm

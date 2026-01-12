@@ -66,7 +66,7 @@ satz:
 > $$
 > 
 > 
-> Nach [Bemerkung 10.11](Algebra/Skalarprodukt.md#Bemerkung%2010.11) existiert ein $c>0$ mit $\left\|g^{\prime}(x) h\right\| \leq c\|h\|$ für alle $h \in \mathbb{R}^n$. Damit folgt die Abschätzung $\left\|g^{\prime}(x) h+r_g(h)\right\| \leq c\|h\|+\left\|r_g(h)\right\|$, also für hinreichend kleines $\|h\| \neq 0$ gilt:
+> Nach [Bemerkung 10.11](../Algebra/Skalarprodukt.md#Bemerkung%2010.11) existiert ein $c>0$ mit $\left\|g^{\prime}(x) h\right\| \leq c\|h\|$ für alle $h \in \mathbb{R}^n$. Damit folgt die Abschätzung $\left\|g^{\prime}(x) h+r_g(h)\right\| \leq c\|h\|+\left\|r_g(h)\right\|$, also für hinreichend kleines $\|h\| \neq 0$ gilt:
 > 
 > $$
 > \frac{\left\|g^{\prime}(x) h+r_g(h)\right\|}{\|h\|} \leq c+1, \quad \text { da } \quad \lim _{h \rightarrow 0} \frac{\left\|r_g(h)\right\|}{\|h\|}=0

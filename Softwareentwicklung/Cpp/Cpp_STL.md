@@ -21,11 +21,11 @@ Die Container und Algorithmen sind im Standard-Namespace *std* definiert. Die fo
 - möglichst einfach (**primitiv**). Kein Vereinen unterschiedlicher Lösungen
 - möglichst **erweiterbar**
 
-![](assets/Stl_Overview.png)
+![](../../_assets/Stl_Overview.png)
 
 Um Algorithmen möglichst von den Datenstrukturen/Containern unabhängig zu machen, sind die Algorithmen so entworfen, dass sie über einheitlich definierte Iteratoren funktionieren.
 
-![](assets/Stl_Allg.png)
+![](../../_assets/Stl_Allg.png)
 
 ```dataview
 LIST FROM #cpp/STL 

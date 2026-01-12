@@ -34,8 +34,8 @@ def:
 
 Der [Körper](Algebraische%20Strukturen.md) $\mathbb{K}$ sei im Folgenden entweder $\mathbb{R}$ oder $\mathbb{C}$. Mit $|\cdot|$ bezeichnen wir jeweils den Betrag in $\mathbb{K}$. Die Normaxiome sind dann wiefolgt definiert.
 
-> [!def] **D1 - NORM** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md). Eine Abbildung $\|\cdot\|: X \rightarrow \mathbb{R}_{0}^{+}$ heißt Norm auf $X$, falls folgende Bedingungen gelten: ^NORM
-> **(N1)** $\forall x \in X:\|x\|=0 \Longleftrightarrow x=0\quad$ (**[Definitheit](Algebra/Definitheit.md)**)
+> [!def] **D1 - NORM** Sei $X$ ein $\mathbb{K}$-[Vektorraum](Vektorraum.md). Eine Abbildung $\|\cdot\|: X \rightarrow \mathbb{R}_{0}^{+}$ heißt Norm auf $X$, falls folgende Bedingungen gelten: ^NORM
+> **(N1)** $\forall x \in X:\|x\|=0 \Longleftrightarrow x=0\quad$ (**[Definitheit](Definitheit.md)**)
 > **(N2)** $\forall x \in X,\, \forall \lambda \in \mathbb{K}:\|\lambda x\|=|\lambda|\|x\|\quad$ (**[Homogenität](Lineare%20Abbildungen.md#^LINA)**)
 > **(N3)** $\forall x, y \in X:\|x+y\| \leq\|x\|+\|y\|\quad$ (**[Dreiecksungleichung](Betrag.md)**)
 > 
@@ -149,7 +149,7 @@ Wir betrachten die Definition der **Einheitsfläche** $S_p=\left\{\mathrm{x} \in
 
 Wir betrachten die Definition des **Einheitsvolumens** $S_p=\left\{\mathbf{x} \in \mathbb{R}^3:\|\mathbf{x}\|_p \leq 1\right\}$ für verschiedene $p$ mit $p \geq 1$.
 
-![](../../assets/NormGeo3.png)
+![](../../_assets/NormGeo3.png)
 
 ---
 

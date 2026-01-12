@@ -15,14 +15,14 @@ title: Verstärker-Bandpass Oszillator
 
 # Oszillator Modell mit Verstärker und Bandpass
 
-> [!question] [Oszillator](Hardwareentwicklung/Oszillatoren/Oszillatoren.md)
+> [!question] [Oszillator](Oszillatoren.md)
 
-![800](../../assets/Excalidraw/OszAmpBPF.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/OszAmpBPF.md)%%
+![800](../../_assets/Excalidraw/OszAmpBPF.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/OszAmpBPF.md)%%
 
 Der **Open Loop Gain** entspricht der Übertragungsfunktion des Bandpasses
 
-![Bandpass](Hardwareentwicklung/Filter-Verstärker/Bandpass.md#^TRANSFERFUNCTION)
+![Bandpass](../Filter-Verstärker/Bandpass.md#^TRANSFERFUNCTION)
 
 Der **Closed Loop Gain** ist
 

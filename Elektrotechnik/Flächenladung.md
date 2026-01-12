@@ -14,4 +14,4 @@ professor:
 
 # Flächenladung
 
-![[../assets/Excalidraw/Flächenladung 2024-03-18 22.06.01.excalidraw]]
+![[../_assets/Excalidraw/Flächenladung 2024-03-18 22.06.01.excalidraw]]

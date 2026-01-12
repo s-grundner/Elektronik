@@ -26,7 +26,7 @@ $$
 Z_{W} = \sqrt{ \frac{\mu}{\varepsilon} }  =\sqrt{ \frac{\mu_{0}\cdot\mu_{r}}{\varepsilon_{0}\cdot \varepsilon_{r}}  }
 $$
 
-![invert_dark](assets/ImpedanzfelderFreiraum.png)
+![invert_dark](../../_assets/ImpedanzfelderFreiraum.png)
 
 Beim Hertzschen Dipol ist der Feldwellenwiderstand im Nahbereich ([Nahfeld](../../HF-Technik/Fernfeld%20und%20Nahfeld.md)) deutlich größer als $377 \Omega$, beim magnetischen Dipol deutlich kleiner
 

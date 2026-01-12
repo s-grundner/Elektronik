@@ -16,9 +16,9 @@ professor:
 
 # Einheitswurzel
 
-> [!question] [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md) | [DFT](Systemtheorie/DFT.md) | [FFT](../Softwareentwicklung/DS-Algo/FFT.md)
+> [!question] [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md) | [DFT](Signalverarbeitung/DFT.md) | [FFT](../Softwareentwicklung/DS-Algo/FFT.md)
 
-Die Einheitswurzel ist eine Abkürzung für eine, häufig in der [DFT](Systemtheorie/DFT.md) benötigten, komplexen Exponentialfunktion mit einem Speziell auf eine **Abtastperiode** $N$ normierte **Phase**. 
+Die Einheitswurzel ist eine Abkürzung für eine, häufig in der [DFT](Signalverarbeitung/DFT.md) benötigten, komplexen Exponentialfunktion mit einem Speziell auf eine **Abtastperiode** $N$ normierte **Phase**. 
 
 > [!def] **D1 - EWRZ)** Einheitswurzel ^EWRZ
 > $$W_{N} := \exp \left( -j \frac{2\pi}{N} \right) $$  
@@ -39,7 +39,7 @@ Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ un
 > $$W_{N}^{n} = \exp \left( -j \frac{2\pi}{N}n \right) \quad \text{mit } n=0,1,\dots, N-1 $$
 
 Die Funktionenfolge der Drehfaktoren ergibt folgendes Bild:
-![700](../assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw.md)
+![700](../_assets/Excalidraw/Einheitswurzel%202025-02-08%2013.06.12.excalidraw.md)
 
 ### Symmetrie
 

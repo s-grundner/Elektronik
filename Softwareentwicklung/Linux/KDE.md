@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 27. Februar 2025
-title: 
+title: K Desktop Environment
 release: false
 ---
 

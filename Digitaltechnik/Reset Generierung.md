@@ -1,10 +1,16 @@
 ---
-tags: []
-aliases: ["Reset"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
-created: 31st January 2023
+tags:
+aliases:
+  - Reset
+keywords:
+subject:
+semester:
+created: 9th December 2025
+professor:
+release: false
+title: Reset Generierung
 ---
+
 
 # Reset Generierung
 
@@ -21,14 +27,14 @@ created: 31st January 2023
 ## Möglichkeiten Zur Resetgenerierung
 
 > [!INFO] Bestimmende Faktoren der Resetdauer
-> - Hochfahren der Systemkomponenten, [Schaltregler](../Hardwareentwicklung/Stromversorgungseinheiten/{MOC}%20Schaltnetzteil.md), [PLL](Oszillatoren/Phase%20Locked%20Loop.md)
+> - Hochfahren der Systemkomponenten, [Schaltregler](../Hardwareentwicklung/Stromversorgungseinheiten/{MOC}%20Schaltnetzteil.md), [PLL](../Hardwareentwicklung/Oszillatoren/Phase%20Locked%20Loop.md)
 > - Pipeline Strukturen im µC
 
 ### Power on Reset (POR)
 
 Reset bei Systemstart
 > [!NOTE] Einfachster Aufbau  
-> ![POR](assets/POR.png)
+> ![invert_light|1000](../_assets/POR.png)
 
 #### Berechnung Der Resetdauer
 
@@ -53,16 +59,12 @@ Synchronisiert das loslassen des Reset Signals auf die Falling edge
 
 ## Reset Bei Spannungseinbruch
 
-![725](assets/reset-spg-einbruch.png)
+![725](../_assets/reset-spg-einbruch.png)
 
-# Watchdog
+## Reset bei Fehlerhaftem Programmzustand
 
-Ein Watchdog weckt eine Schaltung wieder auf, wenn sie z.B. keine Rückmeldung erhält.
-
-$\rightarrow$ "seed-key" Prinzip  
-![450](assets/watchdog.png)
-> [!error] Wenn der Key nicht mit dem im LUT übereinstimmt, führt der Watchdog einen Reset durch.
+> [!question] [Watchdog](Watchdog.md)
 
 # Tags
 
-[Open Collector](Open%20Collector.md)
+- [Open Collector](../Hardwareentwicklung/Open%20Collector.md)

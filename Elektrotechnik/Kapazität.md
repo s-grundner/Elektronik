@@ -24,7 +24,7 @@ professor:
 > [!warning] parasitäre Kapazität
 >  Da die im folgenden beschriebenen Effekte im Prinzip zwischen allen Leitern auftreten (also auch welchen die räumlich weiter entfernt sind), tritt die Kapazität im Prinzip zwischen allen Leitern auf – oft auch unerwünschter Weise, man spricht von parasitären Kapazitäten.
 
-![invert_dark|400](assets/KondensatorBatterie.png)
+![invert_dark|400](../_assets/KondensatorBatterie.png)
 
 > [!TIP] [Ladungen](elektrisches%20Feld.md) verschieben sich solange, bis das [E-Feld](elektrisches%20Feld.md) in den Leitern verschwindet und im Kondensator verteilt ist:
 > 1. Feld wirkt auf bewegliche Elektronen im eingebrachten Kondensator und Anschlussdrähten
@@ -35,19 +35,19 @@ professor:
 
 | Symbol | ESB                               |
 | ------ | --------------------------------- |
-|        | ![invert_light\|400](assets/cap_esb.png) |
+|        | ![invert_light\|400](../_assets/cap_esb.png) |
 
 ## Kenngrößen im Kondensator
 
 ### Die Kapazität
 
-![invert_light](assets/Plattenkondensator.png)
+![invert_light](../_assets/Plattenkondensator.png)
 
 Aus der Überlegung zur [Flächenladung](Flächenladung.md) kennen wir, dass für die beiden Platten gilt:
 
 $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 
-> [!hint] Das Feld der jeweiligen Seite der Platte das zur anderen zeigt, verläuft in die selbe Richtung, wird also [überlagert](../Index/Superpositionsprinzip.md). (wobei sich die äußeren Felder aufheben).
+> [!hint] Das Feld der jeweiligen Seite der Platte das zur anderen zeigt, verläuft in die selbe Richtung, wird also [überlagert](../Dictionary/Superpositionsprinzip.md). (wobei sich die äußeren Felder aufheben).
 > für das Feld im Kondensator ergibt sich: $\lvert \vec{E} \rvert = \frac{Q}{2A\cdot \varepsilon} + \frac{Q}{2A\cdot \varepsilon} = \frac{Q}{A\cdot \varepsilon}$
 > 
 > Mit der [elektrischen Spannung](elektrische%20Spannung.md) im [E-Feld](elektrisches%20Feld.md): $U = \lvert \vec{E} \rvert \cdot d$
@@ -141,7 +141,7 @@ $$
 ## Realer Kondensator
 
 > [!summary] ESB  
-> ![invert_light|400](assets/cap_esb.png)
+> ![invert_light|400](../_assets/cap_esb.png)
 > 
 > - $R_{ESR}$: dielektrische und elektrische Verluste
 > - $ESR$: equivalent series resistance
@@ -162,7 +162,7 @@ $$
 
 # Tags
 
-[Abblockkondensator](Abblockkondensator.md)
+[Abblockkondensator](../Hardwareentwicklung/Abblockkondensator.md)
 
 # Übung & Flashcards
 

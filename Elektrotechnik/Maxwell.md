@@ -65,7 +65,7 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 > [!hint] **Aussage:** Ein Stromdurchflossener Leiter erzeugt um sich herum ein Magnetfeld
 
-![invert_light|500](assets/MW1.png) 
+![invert_light|500](../_assets/MW1.png) 
 
 
 > [!info] Die zeitliche änderung von $\mathbf{D}$ wird auch als Verschiebungsstromdichte $\mathbf{J}_{v}$ bezeichnet. 
@@ -75,7 +75,7 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 > [!hint]- Physikalische Interpretation
 Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
-> ![500](assets/Maxwell%202025-01-15%2018.06.16.excalidraw.md)
+> ![500](../_assets/Maxwell%202025-01-15%2018.06.16.excalidraw.md)
 > Würde die 1. MWG $\operatorname{rot}\mathbf{H}=\mathbf{J}$ lauten, so würde nach dem Einschaltzeitpunkt kein Strom Fließen. Jedoch Verschieben sich sie Ladungen an die Ränder des Spalts. Während dieser verschiebung fließt jedoch der Entsprechende Strom. Jedoch nur während sich das Elektrische feld Aufbaut, daher der Term $\frac{\mathrm{d}\mathbf{D}}{\mathrm{d}t}$.
 > 
 > Während dieser Strom fließt wird natürlich trotzdem ein Magnetfeld aufgebaut, welches die Leiterschleife umgibt.
@@ -111,7 +111,7 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 > \oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{a} \tag{MW2}
 > $$
 
-![500](assets/MW2.png)
+![500](../_assets/MW2.png)
 
 > [!hint] **Aussage:** Ein Sich zeitlichveränderlichs Magnetfeld erzeugt ein Elektrisches Feld.
 
@@ -158,7 +158,7 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 | :------------------------------------------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
 | $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$ | $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$ | $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$ |
 
-![1000](assets/nablaOps.png)
+![1000](../_assets/nablaOps.png)
 
 > [!hint] Gradient
 > 

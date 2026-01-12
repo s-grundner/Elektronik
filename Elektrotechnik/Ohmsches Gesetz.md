@@ -26,9 +26,9 @@ $$
 
 # Übung
 
-![[../assets/Excalidraw/Ohmsches Gesetz 2024-03-18 22.31.23.excalidraw]]
+![[../_assets/Excalidraw/Ohmsches Gesetz 2024-03-18 22.31.23.excalidraw]]
 
 # Tags
 
 [Spannungsteiler](Spannungsteiler.md)
-[TDR](Temperatur%20abhängiger%20Widerstand)
+[TDR](../Hardwareentwicklung/Temperatur%20abhängiger%20Widerstand.md)

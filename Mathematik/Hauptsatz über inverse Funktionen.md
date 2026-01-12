@@ -21,7 +21,7 @@ f(x,y) = \begin{bmatrix}
 \end{bmatrix} \qquad x=y=1
 $$
 
-![Hauptsatz der inversen Funktionen 2024-04-16 18.32.36.excalidraw](../assets/Excalidraw/Hauptsatz%20der%20inversen%20Funktionen%202024-04-16%2018.32.36.excalidraw.svg)
+![Hauptsatz der inversen Funktionen 2024-04-16 18.32.36.excalidraw](../_assets/Excalidraw/Hauptsatz%20der%20inversen%20Funktionen%202024-04-16%2018.32.36.excalidraw.svg)
 
 $$
 \begin{align}
@@ -40,7 +40,7 @@ f&: \mathbb{R}^{n}\to \mathbb{R}^{m}\implies \frac{ \partial f }{ \partial x } \
 $$
 
 - [Jacobi-Matrix](Analysis/Vektoranalysis/Gradient.md)
-- [Determinante](Determinante.md) der [Jacobi-Matrix](Analysis/Vektoranalysis/Gradient.md)
+- [Determinante](Algebra/Determinante.md) der [Jacobi-Matrix](Analysis/Vektoranalysis/Gradient.md)
 - Ist matrix überall regulär (außer 0,0)?
   - Ja $\to$ Funktion ist Lokal invertierbar
 - Ist die Funktion [bijektiv](Algebra/Abbildung.md)?

@@ -28,7 +28,7 @@ professor:
 
 # Junktoren
 
-> [!def] **D1 - JUNK)** Seien $A$ und $B$ [Aussagen](Logik/Aussagenlogik.md) ([Literale](Aussagenlogik.md)), dann heißen: 
+> [!def] **D1 - JUNK)** Seien $A$ und $B$ [Aussagen](Aussagenlogik.md) ([Literale](Aussagenlogik.md)), dann heißen: 
 >
 > | $\neg A$      | lies: nicht $A$          | die *Negation* von $A$            |
 > | ------------- | ------------------------ | --------------------------------- |

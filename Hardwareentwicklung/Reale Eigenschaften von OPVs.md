@@ -24,7 +24,7 @@ professor:
 
 **Modell:**
 
-![invert_dark](assets/Pasted%20image%2020251105222011.png)
+![invert_dark](../_assets/Pasted%20image%2020251105222011.png)
 
 Charakteristische Größen und deren Größenordnungen
 
@@ -47,7 +47,7 @@ Charakteristische Größen und deren Größenordnungen
 | $A_{D}(s) = \dfrac{A_{D0}}{1+s\tau_{0}}$  | $A_{D}(s)=\dfrac{A_{D0}}{1+A_{D 0}k+s\tau_{0}}$ |
 | $f_{g_{0}} = \dfrac{1}{2\pi\tau_{0}}$     | $f_{g}=f_{g 0}\cdot A_{D 0}$                    |
 |                                           | $\lvert A_{D}(f) \rvert=1\to f=f_{T}$           |
-| ![invert_dark\|500](assets/53_TP_OPV.png) | ![invert_dark\|500](assets/53_TP_OPV_k.png)     |
+| ![invert_dark\|500](../_assets/53_TP_OPV.png) | ![invert_dark\|500](../_assets/53_TP_OPV_k.png)     |
 
 $A_D\ldots$ Frequenzabhängige Verstärkung
 $A_{D 0}\ldots$ Verstärkung ohne nachgeschaltetem Tiefpass
@@ -73,7 +73,7 @@ Die Differenz oder auch Leerlaufverstärkung $A_{D}$ gibt das Verhältis einer �
 Die Ausgangsspannung ist im Bereich $U_{\mathrm{A,min}} < U_{\mathrm{A}} <U_{\mathrm{A,max}}$ näherungsweise linear von $U_{D}'$ ($=U_{D}$ um die [Offset Spannung](#Offset%20Spannung) verschoben). Dieser Bereich heißt Aussteuerbereich. Bei den meisten OPVs liegen die Aussteuergrenzen betragsmäßig ca. $3\mathrm{V}$ unter der Betriebsspannung $U_{\mathrm{B}}$.
 
 
-![invert_dark|600](assets/Pasted%20image%2020251105222252.png)
+![invert_dark|600](../_assets/Pasted%20image%2020251105222252.png)
 
 > [!hint] Bei speziellen Rail-to-Rail OPVs leigen die Aussteuergrenzen bis einige $\mathrm{mV}$ unter der Betriebsspannung.
 

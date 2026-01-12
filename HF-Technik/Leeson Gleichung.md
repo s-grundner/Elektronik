@@ -14,7 +14,7 @@ title: Leeson Gleichung
 
 # Leeson Gleichung
 
-Die Leeson Gleichung modelliert die Rauschleistungsverstärkung eines [Oszillators](Hardwareentwicklung/Oszillatoren/Oszillatoren.md) in abhängigkeit der Entfernung von der Carrier/Resonanzfrequenz
+Die Leeson Gleichung modelliert die Rauschleistungsverstärkung eines [Oszillators](../Hardwareentwicklung/Oszillatoren/Oszillatoren.md) in abhängigkeit der Entfernung von der Carrier/Resonanzfrequenz
 
 > [!def] **D - LEES)** Rauschleistungsmodell eines Oszillators ^LEES
 > $$
@@ -26,4 +26,4 @@ Die Leeson Gleichung modelliert die Rauschleistungsverstärkung eines [Oszillato
 
 ## Herleitung
 
-Die Herleitung erfolgt durch die Taylorreihen Approximation des Closed Loop Gains des [Verstärker-Bandpass Modell](Hardwareentwicklung/Oszillatoren/Verstärker-Bandpass%20Oszillator.md) eines Oszillators um die Resonanzfrequenz.
+Die Herleitung erfolgt durch die Taylorreihen Approximation des Closed Loop Gains des [Verstärker-Bandpass Modell](../Hardwareentwicklung/Oszillatoren/Verstärker-Bandpass%20Oszillator.md) eines Oszillators um die Resonanzfrequenz.

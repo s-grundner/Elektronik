@@ -12,7 +12,7 @@ Die UML ist eine ISO genormte Sprache um Software/-Systeme zu Spezifizieren und 
 
 UML-Diagramme Übersicht:
 
-![invert_dark](UML-Diagramme_Uebersicht.png)
+![invert_dark](../../../_assets/UML-Diagramme_Uebersicht.png)
 
 - Use-Case-Diagramme: Beschreibung einzelner Anwendungsfälle (*Use-Cases*). Zur Übersicht, nicht vollständig (um Übersicht zu wahren). Dieses Diagramm ist gut für die Darstellung von Anforderungen an ein System geeignet.
 - Informationsflüsse: Um den Fluss von Information in einem Fluss darzustellen wurde eine Beschreibung von Informationsflüssen in Strukturdiagrammen definiert (kein Beispiel).
@@ -32,7 +32,7 @@ Beschreiben der **Aktionen der Beteiligten**. Dabei:
 
 Beispiel Online Shop:
 
-![invert_dark](UML_UseCase.png)
+![invert_dark](../../../_assets/UML_UseCase.png)
 
 Ein Use-Case-Diagramm ist eine stark reduzierte Darstellung, wichtig sind die Darstellung der Aktoren (Rollen), der Aktionen und wer mit wem in Verbindung zu sehen ist. Dabei werden auch die Beziehung von Use-Cases untereinander dargestellt.
 
@@ -46,7 +46,7 @@ Tool: ArgoUML - <http://argouml.tigris.org>
 
 - Methode: Funktionen einer Klasse
 
-![invert_dark](UML_CD_01.png)
+![invert_dark](../../../_assets/UML_CD_01.png)
 
 Konstruktoren sind statisch, also ebenfalls unterstrichen.
 
@@ -57,7 +57,7 @@ Konstruktoren sind statisch, also ebenfalls unterstrichen.
 - Abstrakte Klasse: Klasse von welcher kein Objekt erzeugt werden kann, da sie virtuelle Elemente besitzt.
 - Interface: Schnittstelle, eine Klasse kann beliebig viele Interfaces implementieren (Java). C++: Abstrakte Klasse, in welcher ausschließlich virtuelle/abstrakte Elemente sind.
 
-![invert_dark](UML_CD_02.png)
+![invert_dark](../../../_assets/UML_CD_02.png)
 
 Virtuelle Funktionen in C++ werden ebenfalls kursiv dargestellt.
 
@@ -75,7 +75,7 @@ Virtuelle Funktionen in C++ werden ebenfalls kursiv dargestellt.
 - Vererbung / Generalisierung / Spezialisierung: Ableitung einer Klasse - durchgehende Linie, Dreieckpfeil (siehe Oben)
 - Pfeile zeigen in welche Richtung ein Zugriff möglich ist (*Navigation*) - und damit auch ob eine Klasse eine Andere kennt (im Beispiel: Person hat eine Message-Liste und kennt die Message(s), umgekehrt weiß die Message nicht wem sie zugeordnet ist).
 
-![invert_dark](UML_CD_03.png)
+![invert_dark](../../../_assets/UML_CD_03.png)
 
 Multiplizität / Kardinalität: mit Zahlen kann die Anzahl von Objekten beschrieben werden die miteinander in Beziehung stehen
 

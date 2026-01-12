@@ -15,10 +15,10 @@ created: 30th January 2023
 
 > [!IMPORTANT] Topologie:  
 > Accumulating register (Accureg) mit Feedbackleitung, betaktet mit dem Ausgang eines [PLL](Phase%20Locked%20Loop.md) *(clk_i)*  
-> ![DTO](../assets/DTO.png)
+> ![DTO](../../_assets/DTO.png)
 > - Das MSB des Accureg wird als Ausgang des DTO verwendet.
 
-![dto-counter](../assets/dto-counter.png)
+![dto-counter](../../_assets/dto-counter.png)
 
 > [!INFO] Die Frequenz ist abhängig von
 > - der Clockfrequenz des [PLL](Phase%20Locked%20Loop.md)
@@ -27,6 +27,6 @@ created: 30th January 2023
 
 # Tags
 
-[Clock Generierung](Clock%20Generierung.md)  
+[Clock-Generierung](Clock-Generierung.md)  
 [Clock Tree Balancing](Clock%20Tree%20Balancing.md)  
 [PLL](Phase%20Locked%20Loop.md)

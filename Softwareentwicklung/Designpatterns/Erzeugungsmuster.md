@@ -106,7 +106,7 @@ Auto *meins = new Bmw();
 - Auto soll verwendet werden um flexibel zu bleiben
 - auf der rechten Seite müsse wir ganz konkret ein Produkt angeben, wenn der Typ hier unterschiedlich sein kann, dann muss eine vielfache Verzweigung eingebaut werden. Gelöst werden kann diese starre Verbindung mittels Factory.
 
- ![invert_dark](UML_Pattern_Factory.png) 
+ ![invert_dark](../../_assets/UML_Pattern_Factory.png) 
 
 Die hier dargestellte Factory ist eine vereinfachte Form für eine einzelne Fabrik. Erweitert wird dieses Pattern indem unterschiedliche Fabriken die gleichen Produktlinien erzeugen.
 

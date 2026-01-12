@@ -45,13 +45,11 @@ Jedes Segment bekommt eine *Sequenznummer*, damit die Pakete wieder in die richt
 
 ### Datenübertragung
 
-![TCP_trans_daten](assets/TCP_trans_daten.png)
+![TCP_trans_daten](../../_assets/TCP_trans_daten.png)
 
 Sender sendet Paket $\rightarrow$ Empfänger bestätigt.
 
 ### Verbindungsabbau
-
-![TCP_trans_aufbau.png](assets/TCP_trans_aufbau.png)
 
 ## Flusskontrolle (Flow Control)
 

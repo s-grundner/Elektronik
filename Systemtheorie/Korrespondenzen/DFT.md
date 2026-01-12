@@ -1,3 +1,12 @@
+---
+tags:
+aliases:
+created: 9th December 2025
+title: DFT Korrespondenzen
+release: false
+---
+
+
 # DFT Korrespondenzen
 
 ## Rechenregeln

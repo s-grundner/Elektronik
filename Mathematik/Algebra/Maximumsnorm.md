@@ -27,7 +27,7 @@ professor:
 > $$\left\| \begin{pmatrix} -5\\ -7\\ 4\\ -9\end{pmatrix} \right\|_\max = \max(|-5| , |7| , |4|, |-9|) = 9 $$
 
 
-Im gegensatz zur [euklidschen Norm](Mathematik/Algebra/Norm.md) entsteht bei der Maximums norm kein Einheitskreis, sondern ein Einheitsquader
+Im gegensatz zur [euklidschen Norm](Norm.md) entsteht bei der Maximums norm kein Einheitskreis, sondern ein Einheitsquader
 
 ```tikz
 \usepackage{pgfplots}

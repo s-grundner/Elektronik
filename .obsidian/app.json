@@ -15,7 +15,7 @@
   "trashOption": "local",
   "spellcheckLanguages": null,
   "spellcheck": false,
-  "attachmentFolderPath": "assets",
+  "attachmentFolderPath": "_assets",
   "newFileLocation": "current",
   "vimMode": true,
   "useMarkdownLinks": true,

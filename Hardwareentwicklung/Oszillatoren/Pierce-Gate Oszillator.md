@@ -18,7 +18,7 @@ created: 1st February 2023
 
 ## Schaltbild des PGO
 
- ![600](../assets/PGO.png)
+ ![600](../../_assets/PGO.png)
 
 ## Passive Bauteile
 

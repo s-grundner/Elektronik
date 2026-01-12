@@ -17,12 +17,12 @@ professor:
 
 Elektromagnetische Verträglichkeit beschreibt die Fähigkeit eines Gerätes oder Systems in seiner elektromagnetischen Umgebung zufriedenstellend zu funktionieren ohne selbst unzulässige Störungen in diese Umgebung einzubringen.
 
-![700](assets/EMV-einfluesse.png)
+![700](../_assets/EMV-einfluesse.png)
 
 > [!INFO] EMV ist eine horizontale Disziplin  
 > … die sich durch alle Bereiche der Elektrotechnik zieht.
 > 
-> ![600](assets/EMV-horiz.png)
+> ![600](../_assets/EMV-horiz.png)
 
 ## EMV-Beeinflussungsmodell
 
@@ -58,7 +58,7 @@ $$\Downarrow$$
 
 > [!INFO] Von Leistungselektronik bis Mikroelektronik gibt es eine große breite, und in der technischen Umsetzung sehr unterschiedliche, Maßnahmen.
 > 
-> ![400](assets/EMV-horiz2.png)
+> ![400](../_assets/EMV-horiz2.png)
 > 
 > Kleine Chip-Kondensatoren gehen bis zu sehr hohen Resonanzfrequenzen.
 

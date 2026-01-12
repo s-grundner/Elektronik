@@ -30,7 +30,7 @@ Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgr�
 > - Definition einer Messgröße
 > - Festlegung der Einheit
 
-![invert_dark|900](assets/mestechnik.png)
+![invert_dark|900](../_assets/mestechnik.png)
 
 > [!def] Angabe einer Messgröße ^MESSGR
 > $$ \text{Physikalische Größe} = \text{Zahlenwert } \cdot \text{ Einheit } + \text{Unsicherheit} $$
@@ -48,7 +48,7 @@ Messen ist das quantitative Erfassen einer Größen. Es dient dazu diese Messgr�
 > 
 
 **Messgeräte** sind die im Signalfluss liegenden Geräte einer Messeinrichtung. Die zwischen den Messgeräten Ausgetauschten **Signale** ($y_{1}, y_{2}$) Enthalten die informationen über die zu messende Größe.
-![invert_dark|1000](assets/Messkette.png)
+![invert_dark|1000](../_assets/Messkette.png)
 
 
 Die Gesamtheit der Systeme die Ein- und Ausgang miteinander verknüpfen, ist die **Messkette**, z.B.:

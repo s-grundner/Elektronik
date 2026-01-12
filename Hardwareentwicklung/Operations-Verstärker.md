@@ -57,5 +57,5 @@ Der OPV ist intern aus meistens drei Blöcken aufgebaut:
 # Quellen
 
 - [uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf](https://www.uni-muenster.de/Physik.AP/Veranstaltungen/F-Praktikum/anleitungen/Operationsverstaerker.pdf)
-- [HTL OPV](assets/pdf/OPV.pdf)
-- [HTL OPV Grundschaltungen](assets/pdf/OPV%20Grundschaltungen.pdf)
+- [HTL OPV](../_assets/pdf/OPV.pdf)
+- [HTL OPV Grundschaltungen](../_assets/pdf/OPV%20Grundschaltungen.pdf)

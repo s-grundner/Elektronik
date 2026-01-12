@@ -16,4 +16,4 @@ professor:
 
 # Maschenstromverfahren
 
-![[../assets/Excalidraw/Drawing 2024-03-19 12.31.14.excalidraw]]
+![[../_assets/Excalidraw/Drawing 2024-03-19 12.31.14.excalidraw]]

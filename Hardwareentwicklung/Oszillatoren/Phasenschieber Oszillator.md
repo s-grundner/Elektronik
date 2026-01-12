@@ -61,7 +61,7 @@ $$
 ## Herleitung des gepufferten PSO
 
 > [!tip] [Kettenmatrizen](../Kettenmatrix.md) für die Herleitung  
-> ![975](../assets/PSO-kette.png)
+> ![975](../../_assets/PSO-kette.png)
 
 $$
 A = \begin{pmatrix}
@@ -76,7 +76,7 @@ j\omega C & 1
 \end{align*}
 $$
 
-[Multiplikation der Matrizen:](Matrix.md) $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$  
+[Multiplikation der Matrizen:](../../Mathematik/Algebra/Matrix.md) $A_{gesamt}=A=A_{a}\cdot A_{b}\cdot A_{c}$  
 Terme $A_{11}\dots A_{22}$ sind sehr lang
 
 $$

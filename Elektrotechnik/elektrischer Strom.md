@@ -20,7 +20,7 @@ professor:
 
 # Elektrischer Strom
 
-![InlineR](assets/elekStrom.png)
+![InlineR](../_assets/elekStrom.png)
 
 Die Stromstärke $I$ gibt an, wie viel [Ladung](elektrisches%20Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen [bestimmten Querschnitt](Stromdichte.md) (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](Skineffekt.md)) fließt.
 
@@ -40,16 +40,18 @@ Während bei der [Influenz](../Elektrotechnik/elektrische%20Influenz.md) die Lad
 
 Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bewerkstelligt werden – dadurch bleibt das treibende elektrische Feld trotz der Elektronenbewegung aufrecht.
 
- > [!info] Mit dem [Drude-Modell](Drude-Modell.md) lässt sich die Elektronenbewegung statistisch Auswerten 
+> [!info] Mit dem [Drude-Modell](Drude-Modell.md) lässt sich die Elektronenbewegung statistisch Auswerten 
 
 ---
 
 > [!info] Technische Stromrichtung
+> 
 > *==Positive==* [Ladung](elektrisches%20Feld.md) *in* die definierte **Stromrichtung** sowie ***==negative==*** [Ladung](elektrisches%20Feld.md) in die *Gegenrichtung* werden *positiv* gezählt (und vice versa).
 > Dies entspricht der sogenannten ***technischen Stromrichtung***
 
- > [!hint] In [Metallen](../Chemie/Metallbindung.md) tragen **nur** negativ geladene Elektronen zum Storm bei!
- > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
+> [!hint] In [Metallen](../Chemie/Metallbindung.md) tragen **nur** negativ geladene Elektronen zum Storm bei!
+> 
+> In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
 
 ---
 

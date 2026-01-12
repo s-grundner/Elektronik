@@ -9,7 +9,7 @@
 > -  $\det\mathbf{A} = 0$
 > - Transformation bewirkt, dass der Raum des Ergebnisses eine niedrigere Dimension hat
 > - Matrix ist nicht invertierbar
-> - [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) ist nicht eindeutig lösbar
+> - [lineares Gleichungssystem](../Analysis/Lineare%20Gleichungssysteme.md) ist nicht eindeutig lösbar
 > - Mindestens ein [Eigenwert](Eigenvektor.md) ist 0.
 > - Matrix ist singulär
 

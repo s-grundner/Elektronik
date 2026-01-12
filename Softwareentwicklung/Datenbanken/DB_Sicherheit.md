@@ -18,7 +18,7 @@ Speichermodell
 
 Arbeiten Sie mit [./DB_09_Sicherheit/](./DB_09_Sicherheit/)
 
-![](assets/xkcd-bobby-tables.png)
+![](../../_assets/xkcd-bobby-tables.png)
 
 ## TLS für den XAMPP-Webserver
 

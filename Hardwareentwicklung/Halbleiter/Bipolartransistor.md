@@ -70,7 +70,7 @@ $$
 
 ### 4-Quadranten Kennlinienfeld
 
-![invert_light|800](../assets/BJT-KL.png)
+![invert_light|800](../../_assets/BJT-KL.png)
 
 ## Arbeitspunkteinstellung
 

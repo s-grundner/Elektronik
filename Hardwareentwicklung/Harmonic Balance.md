@@ -25,4 +25,4 @@ Simulation trennt
 - lineare komponenten
 - nicht-lineare komponenten
 
-![](assets/Pasted%20image%2020250122032106.png)
+![](../_assets/Pasted%20image%2020250122032106.png)

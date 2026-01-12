@@ -7,7 +7,7 @@ created: 2. März 2024
 
 # Voltasche Säule
 
-![350](assets/volt-saeule.png)
+![350](../_assets/volt-saeule.png)
 
 $Zn$ - Zink  
 $Cu$ - Kupfer

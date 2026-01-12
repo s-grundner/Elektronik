@@ -29,7 +29,7 @@ Bei der Beschreibung von [Antennen](Antenne.md) macht es einen großen Unterschi
 > [!caution] Die wichtigen Antennenkenngrößen sind alle für das Fernfeld einer Antenne definiert
 
 >[!summary] Feldzonen  
->![invert_light|800](assets/Ant_feldzonen.png)
+>![invert_light|800](../_assets/Ant_feldzonen.png)
 
 - Das Nahfeld zeichnet sich durch starke reaktive Feldanteile aus, in denen elektrische und magnetische Energie gespeichert wird.
 - Im Fernfeld dominiert hingegen der radial orientierte Leistungstransport.
@@ -65,8 +65,8 @@ Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und de
 - $E$ und $H$ stehen (noch) nicht senkrecht aufeinander
 - noch keine ebene Welle sondern sphärische Wellenfront
 
-![400](../assets/Excalidraw/SpericalWavefront.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/SpericalWavefront.md)%%
+![400](../_assets/Excalidraw/SpericalWavefront.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/SpericalWavefront.md)%%
 
 ### Radiansphäre
 
@@ -90,5 +90,5 @@ Im Fernfeld sind sämtliche **partikuläre Lösungen** der Raumwelle, also alle 
 - Im Fernfeld ist die [Friisgleichung](HF-Technik/Friisgleichung.md) gültig.
 
 
-![400](../assets/Excalidraw/GeradeWellenfront.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/GeradeWellenfront.md)%%
+![400](../_assets/Excalidraw/GeradeWellenfront.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/GeradeWellenfront.md)%%

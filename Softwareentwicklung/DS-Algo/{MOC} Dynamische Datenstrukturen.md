@@ -19,7 +19,7 @@ Elemente werden zur Laufzeit (dynamisch) angelegt (`new, malloc()`)
 
 ## Wichtigste Dynamische Datenstrukturen
 
-| ![](assets/Pasted%20image%2020240424104819.png) | ![](assets/Pasted%20image%2020240424104823.png) | ![](assets/Pasted%20image%2020240424104827.png) |
+| ![](../../_assets/Pasted%20image%2020240424104819.png) | ![](../../_assets/Pasted%20image%2020240424104823.png) | ![](../../_assets/Pasted%20image%2020240424104827.png) |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | [Linked List](Linked%20Lists.md)                                    | [Baum](Tree.md)                          | Graph                                    |
 | - Linear                                 | - Binär                                         |                                          |

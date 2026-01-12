@@ -107,7 +107,7 @@ $$
 
 ## Ungleichung
 
-![](assets/Pasted%20image%2020240127134214.png)
+![](../../_assets/Pasted%20image%2020240127134214.png)
 
 ## Teilbarkeit
 

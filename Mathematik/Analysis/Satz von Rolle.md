@@ -17,4 +17,4 @@ professor:
 # Satz von Rolle
 
 
-![[assets/Satz_von_Rolle.svg|invert_dark]]
+![[../../_assets/Satz_von_Rolle.svg|invert_dark]]

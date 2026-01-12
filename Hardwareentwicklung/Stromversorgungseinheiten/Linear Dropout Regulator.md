@@ -9,7 +9,7 @@ created: 27. Dezember 2023
 # Low Dropout Regulator
 
 Ein Low-Dropout Regulator ist eine Art [linearer Spannungsregler](Linearregler.md) mit einem möglichst geringen Spannungsabfall über dem Ein- und Ausgangskontakt.
-LDOs werden verwendet, um das Rauschen in Versorgungsleitungen zu eliminieren aber auch, um eine (etwas) höhere elektrische Spannung in eine niedrigere elektrische Spannung zu regeln. In diesem Fall werden die 5 Volt der USB-[Schnittstelle](../../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md), in die von den Peripherien am Board benötigten, 3,3 Volt heruntergeregelt.
+LDOs werden verwendet, um das Rauschen in Versorgungsleitungen zu eliminieren aber auch, um eine (etwas) höhere elektrische Spannung in eine niedrigere elektrische Spannung zu regeln. In diesem Fall werden die 5 Volt der USB-[Schnittstelle](../../Digitaltechnik/Interfaces/index.md), in die von den Peripherien am Board benötigten, 3,3 Volt heruntergeregelt.
 
 ## Vorteil gegenüber Schaltreglern
 

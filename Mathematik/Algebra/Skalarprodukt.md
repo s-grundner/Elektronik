@@ -48,7 +48,7 @@ Das Skalarprodukt ist eine Art zwei Vektoren miteinander zu multiplikativ zu ver
 
 Wir zeigen nun, dass man mit Hilfe der Koordinatendarstellung in jedem endlichdimensionalen Raum ein Skalarprodukt definieren kann:
 
-> [!satz] **S1 - SKAP)** Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Algebra/Vektorraum.md) mit [Basis](../{MOC}%20Lineare%20Algebra.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
+> [!satz] **S1 - SKAP)** Sei $X$ ein endlich-dimensionaler $\mathbb{K}$-[Vektorraum](Vektorraum.md) mit [Basis](../{MOC}%20Lineare%20Algebra.md) $B:=\left(b_1, \ldots, b_n\right)$. Dann ist
 > 
 > $$
 > \boxed{ \langle x, y\rangle:=\sum_{i=1}^n x_i y_{i}^{*}} \quad \text { mit } \quad x=\sum_{i=1}^n x_i b_i \quad \text { und } \quad y=\sum_{i=1}^n y_i b_i 

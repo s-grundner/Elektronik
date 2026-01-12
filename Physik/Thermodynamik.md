@@ -54,13 +54,13 @@ Dieser Maximalwert ist von der Lufttemperatur abhängig.
 
 Grafik: maximale absolute Luftfeuchtigkeit in Abhängigkeit der [Temperatur](Temperatur%20und%20Teilchenmodell.md)
 
-![475](assets/RelLuftFeuchte2.png)
+![475](../_assets/RelLuftFeuchte2.png)
 
 ### [Lufthülle der Erde](Lufthülle%20der%20Erde.md)
 
 ### Treibhauseffekt
 
-![Treibhaus](assets/Treibhaus.png)  
+![Treibhaus](../_assets/Treibhaus.png)  
 Sichtbares [Licht](../Chemie/Spektralanalyse.md), UV-Strahlen und Infrarotstrahlen dringen leicht durch die Atmosphäre. Die Erdoberfläche erwärmt sich und gibt Wärmestrahlung in Form von langwelligen Infrarotewellen ab.
 
 Spurengase in der Atmosphäre reflektieren teilweise die ausgesendeten Infrarotstrahlen zurück.  

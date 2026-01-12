@@ -29,7 +29,7 @@ created: 20th August 2022
 
 ### Positronen Emissions-Tomographie (PET)
 
-![](../assets/PET.png)
+![](../_assets/PET.png)
 
 Bei der **Positronen Emissions-Tomographie** (PET) werden radioaktiv markierte Substanzen (Tracer), die Positronen **abstrahlen**, in den **Stoffwechsel eingeschleust** und ihre Verteilung im menschlichen Körper mit einer PET-Kamera aufgezeichnet.
 
@@ -40,13 +40,13 @@ Bei Positronen Strahler macht man sich zunutze, dass das emittierte Positron im 
 3. Ort eines Positronen Zerfalls und Paarvernichtung  
 4. γ-Quanten fliegen gleichzeitig und im Winkel von 180 Grad zueinander vom Ort des Zerfalls weg.
 
-![](assets/ABG_Strahlung.png)
+![](../_assets/ABG_Strahlung.png)
 
 ## Halbwertszeit
 
 Zerfallskonstante und Zerfallsgesetz
 
-Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.  
+Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Wahrscheinlichkeit](../Mathematik/Statistik/Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.  
 Deshalb lässt sich die Aktivität einer Probe von $N$ Atomen zum Zeitpunkt $t$ ausdrücken als:  
 $A(t) = - \dfrac{\mathrm dN}{\mathrm dt}(t) = \lambda \cdot N(t)$
 

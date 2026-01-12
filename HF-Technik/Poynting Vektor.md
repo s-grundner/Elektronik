@@ -16,7 +16,7 @@ $$\mathbf{S}=\mathbf{E}\times \mathbf{H}$$
 
 ## Beim Koaxialleiter
 
-![invert_dark](assets/poynting.png)
+![invert_dark](../_assets/poynting.png)
 
 
 https://www.youtube.com/watch?v=oI_X2cMHNe0

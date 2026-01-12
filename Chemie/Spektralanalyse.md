@@ -16,7 +16,7 @@ created: 25th August 2022
 
 Beim Zerlegen von Sonnenlicht oder dem Licht einer Glühlampe durch ein Glasprisma, erhält man ein **Spektrum**:  
 Ein Farbband von Rot nach Violett  
-![Refraction](../Physik/assets/Refraction.png)  
+![Refraction](../_assets/Refraction.png)  
 Weißes Licht besteht aus der Mischung mehrerer Farben
 
 
@@ -30,22 +30,22 @@ Violettes/Blaues Licht ist kurzwellig und energiereich.
 
 ## Elektromagnetisches Spektrum
 
-[spectrum_20090210](../Physik/assets/pdf/spectrum_20090210.pdf)
+[spectrum_20090210](../_assets/pdf/spectrum_20090210.pdf)
 
 ## Spektrum Des Sonnenlichts
 
 ### Prismen-Spektroskop
 
 
->![300](../assets/fraunhofer_linien.png)  
+>![300](../_assets/fraunhofer_linien.png)  
 > Fraunhofer untersuchte das Sonnenlicht mit einem Prismen-Spektroskop.  
 > Der Physiker beobachtete im Jahr 1814 dunkle Linien im Spektrum des Sonnenlichts. Fraunhofer katalogisierte 570 Fraunhofer-Linien.  
 > Allerdings konnte er das Phänomen noch nicht erklären.
 
 ### Spektroskop Nach Kirchhoff Und Bunsen
 
-![425](assets/Spektroskop%201.png)  
-![Spektroskop](assets/Spektroskop%201.png)  
+![425](../_assets/Spektroskop%201.png)  
+![Spektroskop](../_assets/Spektroskop%201.png)  
 **Funktionsweise:**
 - Das Licht fällt durch einen Spalt in das **Spaltrohr** über eine Linse auf ein Prisma. Der Durchmesser des Spalts kann variiert werden.
 - Am Prisma werden die Wellenanteile des Lichts unterschiedlich gebrochen.
@@ -54,18 +54,18 @@ Violettes/Blaues Licht ist kurzwellig und energiereich.
 
 ### Zusammenhang Mit Den Chemischen Elementen
 
-![alkali_flammen](assets/alkali_flammen.png)  
+![alkali_flammen](../_assets/alkali_flammen.png)  
 Kirchhoff und Bunsen beobachteten, dass bestimmte chemische Elemente die Gasflammen eines Gasbrenners färben.  
 Sie konnten nachweisen, dass die von Fraunhofer beschriebenen schwarzen D-Linien im Sonnenspektrum bei etwa 589 Nanometer mit der von Natriumsalzen in der Flamme emittierten gelben Linie übereinstimmt.  
 Die beiden Chemiker entwickelten 1859 das erste spektralanalytische Verfahren.  
 Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente Rubidium und Cäsium.
 
-![450](../assets/Pasted%20image%2020220825153403.png)
+![450](../_assets/Pasted%20image%2020220825153403.png)
 
 ## Absorption Und Emission
 
-![500](../assets/EmissionAbsorbtion.png)  
-![475](assets/absorbtion_emission.png)
+![500](../_assets/EmissionAbsorbtion.png)  
+![475](../_assets/absorbtion_emission.png)
 1. Wird einem Atom **Energie zugeführt** (Flamme, Lichtbogen), können Elektronen auf **höhere Energieniveaus** gehoben werden.
 2. Es entsteht ein angeregter Zustand. Er ist nur **kurz** beständig, danach fällt das Elektron wieder in den **Grundzustand** zurück.
 3. Dabei wird die **Energie**, die bei der Anregung **aufgenommen** (absorbiert) wurde, **in Form von Licht abgegeben** (emittiert).
@@ -73,7 +73,7 @@ Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente Ru
 
 ### Spektren Typen
 
-![Pasted image 20220825153839](../assets/Pasted%20image%2020220825153839.png)  
+![Pasted image 20220825153839](../_assets/Pasted%20image%2020220825153839.png)  
 Kontinuierliches Spektrum: Enthält keine diskreten Linien (Banden), da es Licht aller Wellenlängen aufweist.
 
 Emissionsspektrum: Enthält diskrete Linien (daher auch Linien-spektrum) , welche durch den Elektronenübergang von angeregten Atomen in den Grundzustand entstehen.

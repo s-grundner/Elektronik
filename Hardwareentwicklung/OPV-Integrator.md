@@ -65,17 +65,17 @@ $$
 
 > [!info]+ Bode-Diagramm
 > 
-> ![500](assets/OPV_Integrator_Bodeplot.png)                             
+> ![500](../_assets/OPV_Integrator_Bodeplot.png)                             
 
 <center><a href="scripts/mathematica/OPV_Integrator.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 ## Funktionsweise
 
-![invert_dark](assets/Pasted%20image%2020241213012458.png)
+![invert_dark](../_assets/Pasted%20image%2020241213012458.png)
 
 # Integratorfilter
 
-![invert_dark](assets/Pasted%20image%2020241213050705.png)
+![invert_dark](../_assets/Pasted%20image%2020241213050705.png)
 
 Durch geschicktes Zusammenschalten von OPV Grundschaltungen können sehr einfach verschiedene [Aktive](Filter-Verstärker/Aktiver%20Filter.md) Filtertypen (Bandpass, Tiefpass, Hochpass) realisiert werden, je nachdem welcher Ausgang benutzt wird.
 

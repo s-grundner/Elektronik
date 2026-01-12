@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 28. Februar 2025
-title: 
+title: Lokaler Git Server
 release: false
 ---
 

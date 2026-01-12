@@ -20,8 +20,8 @@ title: Phase Locked Loop
 
 Ein PLL ist ein Regelkreis, welches die Phasenlage und damit die Frequenz eines veränderbaren Oszillators so beeinflusst, dass die Phasenabweichung zu einem zu einem äußeren System möglichst konstant ist. 
 
-![](../../assets/Excalidraw/PLL.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/PLL.md)%%
+![](../../_assets/Excalidraw/PLL.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/PLL.md)%%
 
 Beim VCO ist der Term $\frac{1}{s}$ vorhanden (integrator): Die Ausgangsfrequenz des VCO muss wieder in eine Phase umgewandelt werden. Integration des Ausgangs da gilt: $\dot{\varphi} = \omega\implies \int \omega \mathrm{~d}t =\varphi$
 
@@ -31,16 +31,16 @@ Modell des PLLs, welcher um den "locked State" - dem Eingeschwungen Verhalten - 
 
 | Block            |                      Bild                      | Funktion                                                                                           |
 | ---------------- | :--------------------------------------------: | -------------------------------------------------------------------------------------------------- |
-| Referenzphase    |    ![invert_dark\|170](../assets/PLL_ref.png)     |                                                                                                    |
-| PFD              |    ![invert_dark\|500](../assets/PLL_PFD.png)     | $I_{\mathrm{CP}}(s) = K_{\phi}\Delta\phi(s)=K_{\phi}(\phi_{\mathrm{in}}(s)-\phi_{\mathrm{FB}}(s))$ |
-| Loop Filter      | ![invert_dark\|250](../assets/PLL_Loopfilter.png) | $V_{\mathrm{tune}}(s) = I_{\mathrm{CP}}(s)Z(s)$                                                    |
-| VCO              |    ![invert_dark\|500](../assets/PLL_VCO.png)     | $f_{\mathrm{out}}(s) = K_{\mathrm{VCO}}V_{\mathrm{tune}}(s)$                                       |
-| Integrator       |    ![invert_dark\|250](../assets/PLL_int.png)     | $\phi_{\mathrm{out}}(s)= \dfrac{f_{\mathrm{out}}(s)}{s}$                                           |
-| Feedback Divider |    ![invert_dark\|260](../assets/PLL_div.png)     | $\phi_{\mathrm{FB}}(s) = \dfrac{\phi_{\mathrm{out}}}{N}$                                           |
+| Referenzphase    |    ![invert_dark\|170](../../_assets/PLL_ref.png)     |                                                                                                    |
+| PFD              |    ![invert_dark\|500](../../_assets/PLL_PFD.png)     | $I_{\mathrm{CP}}(s) = K_{\phi}\Delta\phi(s)=K_{\phi}(\phi_{\mathrm{in}}(s)-\phi_{\mathrm{FB}}(s))$ |
+| Loop Filter      | ![invert_dark\|250](../../_assets/PLL_Loopfilter.png) | $V_{\mathrm{tune}}(s) = I_{\mathrm{CP}}(s)Z(s)$                                                    |
+| VCO              |    ![invert_dark\|500](../../_assets/PLL_VCO.png)     | $f_{\mathrm{out}}(s) = K_{\mathrm{VCO}}V_{\mathrm{tune}}(s)$                                       |
+| Integrator       |    ![invert_dark\|250](../../_assets/PLL_int.png)     | $\phi_{\mathrm{out}}(s)= \dfrac{f_{\mathrm{out}}(s)}{s}$                                           |
+| Feedback Divider |    ![invert_dark\|260](../../_assets/PLL_div.png)     | $\phi_{\mathrm{FB}}(s) = \dfrac{\phi_{\mathrm{out}}}{N}$                                           |
 
 
-![400](../../assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.md)%%
+![400](../../_assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Phase%20Locked%20Loop%202025-11-16%2001.50.03.excalidraw.md)%%
 
 **Forward Loop Gain**
 
@@ -67,15 +67,15 @@ Der Phasedetector vergleicht die Phasenabweichung der Signale. Sind beide Freque
 Ein einfaches Modell für einen Phasendetektor ist ein XOR-Gatter.  
 Je größer die Phasenabweichung, desto höher das "PWM" am Ausgang des XOR Gatters.
 
-![625](../assets/XOR-PD.png)
+![625](../../_assets/XOR-PD.png)
  
 ### Phase Frequency Detector (PFD)
 
 Eine sehr populäre Implementierung für den Phasen Detektor ist der Phase-Frequency-Detector.
 
-![invert_light|900](../assets/PFD.png)
+![invert_light|900](../../_assets/PFD.png)
 
-siehe: [MT-086](../assets/pdf/MT-086.pdf)
+siehe: [MT-086](../../_assets/pdf/MT-086.pdf)
 
 ## Loop Filter
 
@@ -87,9 +87,9 @@ Das PWM-Artige Ausgangssignal des PD wird mit einem Tiefpass gemittelt und liefe
 ## VCO
 
 - Der [VCO](Voltage%20Controlled%20Oscillator.md) setzt das Signal in eine Rechteckschwingung um.
-- Interessant ist die sogenannte *center-frequency*, also jede Frequenz, mit der der [Oszillator](Clock%20Generierung.md) im Locked-Zustand schwingt.
+- Interessant ist die sogenannte *center-frequency*, also jede Frequenz, mit der der [Oszillator](Clock-Generierung.md) im Locked-Zustand schwingt.
 - Um sie herum findet der Regelvorgang statt.
-- In PLL-Schaltungen kommen für die [Oszillatoren](Clock%20Generierung.md) hauptsächlich [LC-Oszillatoren](LC%20Oszillatoren.md) (weniger häufig RC-[Oszillatoren](Clock%20Generierung.md)) sowie Ringoszillatoren zum Einsatz.
+- In PLL-Schaltungen kommen für die [Oszillatoren](Clock-Generierung.md) hauptsächlich [LC-Oszillatoren](LC%20Oszillatoren.md) (weniger häufig RC-[Oszillatoren](Clock-Generierung.md)) sowie Ringoszillatoren zum Einsatz.
 
 ## Rauschmodell
 
@@ -109,5 +109,5 @@ Das PWM-Artige Ausgangssignal des PD wird mit einem Tiefpass gemittelt und liefe
 
 # Tags
 
-[Clock_und_Reset_Generierung](../assets/pdf/Clock_und_Reset_Generierung.pdf)
-[MT-086](../assets/pdf/MT-086.pdf)
+[Clock_und_Reset_Generierung](../../_assets/pdf/Clock_und_Reset_Generierung.pdf)
+[MT-086](../../_assets/pdf/MT-086.pdf)

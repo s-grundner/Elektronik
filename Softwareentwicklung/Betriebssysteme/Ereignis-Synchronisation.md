@@ -11,7 +11,7 @@ Beispiel **Producer-Consumer**:
 
 [FIFO](../DS-Algo/FIFO%20Queue.md)-Buffer, am Einfachsten realisiert als [Ringbuffer](../../Digitaltechnik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
 
-![OS_FiFo](assets/OS_FiFo.png)
+![OS_FiFo](../../_assets/OS_FiFo.png)
 
 ## Exceptions
 

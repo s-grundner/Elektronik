@@ -4,9 +4,11 @@ tags:
   - Bitoperatoren
 aliases:
   - Bitmath
-keywords: 
+keywords:
+  - C-Programmiersprache
 subject:
   - PR
+  - VL
   - Networked Embedded Systems
 semester:
   - SS24

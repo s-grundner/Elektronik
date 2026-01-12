@@ -18,7 +18,7 @@ Referenz-Beispiel:
   - Schreiben
 - Dabei kann folgendes passieren (**Lost-Update**) :
   
-  ![OS_LostUpdate](assets/OS_LostUpdate.png)
+  ![OS_LostUpdate](../../_assets/OS_LostUpdate.png)
   
   
   

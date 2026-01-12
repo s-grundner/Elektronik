@@ -21,7 +21,7 @@ professor:
 > [!INFO] Die *Kinematik* beschäftigt sich mit der Beschreibung der Bewegung von Körpern  
 > Sie beschreibt *wie* sich Körper bewegen, ohne zu fragen *warum*
 
-![](assets/Pasted%20image%2020231015233140.png)
+![](../_assets/Pasted%20image%2020231015233140.png)
 
 ## 1 Bewegung in einer Dimension
 
@@ -38,7 +38,7 @@ Einheit: $[v] = \frac{m}{s}$
 > $a(t)=\frac{dv}{dt} = \frac{d}{dt}\left( \frac{dx}{dt} \right)=\frac{d^{2}x}{dt^{2}}=\ddot{x}(t)$  
 > Einheit: $\frac{m}{s^{2}}$
 
-![InlineR|200](assets/Pasted%20image%2020231011131442.png)
+![InlineR|200](../_assets/Pasted%20image%2020231011131442.png)
 
 $$
 \begin{align}
@@ -53,7 +53,7 @@ $$
 
 <br><br>
 
-> [!WARNING] Bei [Integrieren](Integralrechnung.md) sind die Anfangswerte zu beachten
+> [!WARNING] Bei [Integrieren](../Mathematik/Analysis/Integralrechnung.md) sind die Anfangswerte zu beachten
 > ($+C$… Integrationskonstante)
 
 ## 2 Bewegung in 2/3-Dimensionen
@@ -61,7 +61,7 @@ $$
 > [!TLDR] Vektorschreibweise  
 > Die räumliche Bewegung eines Massenpunktes können wir einfach behandeln, wenn wir die Position des Massenpunktes, seine Geschwindigkeit und seine Beschleunigung als [Vektoren](../Mathematik/Algebra/Vektor.md) auffassen. [Vektoren](../Mathematik/Algebra/Vektor.md) sind Größen, die sowohl einen [Betrag](../Mathematik/Algebra/Betrag.md) als auch eine Richtung im Raum haben (Größen, die nur einen [Betrag](../Mathematik/Algebra/Betrag.md) haben, heißen Skalare).
 
-![InlineR|310](assets/Raumbewegung.png)
+![InlineR|310](../_assets/Raumbewegung.png)
 $$
 \vec{r} = x\cdot \vec{e_{x}} + y\cdot \vec{e_{y}}+ z\cdot \vec{e_{z}}
 $$

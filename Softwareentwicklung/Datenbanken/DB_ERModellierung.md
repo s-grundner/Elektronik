@@ -22,7 +22,7 @@ Beispiel: ein Mitarbeiter kann an einem Kurs teilnehmen.
 
 Ein **Mitarbeiter** (Objekt) mit diversen Eigenschaften (PNr, Name, Adresse) und eine Beziehung **teilnehmen** zu einem weiterem Objekt **Kurs** (KNr, Leiter, Termin).:
 
-![invert_dark](assets/ERD_Einf_02.png)
+![invert_dark](../../_assets/ERD_Einf_02.png)
 
 Vorgangsweise:
 
@@ -36,18 +36,18 @@ Vorgangsweise:
 
 Einzelne Objekte können zu einer Anzahl von gleichartigen Objekten eine Beziehung haben:
 
-![invert_dark](assets/Kardinalitaet_.png)
+![invert_dark](../../_assets/Kardinalitaet_.png)
 
 **Beispiel Kurs:**
 
-![invert_dark](assets/ERD_EinfKardinalitaet_01.png)
+![invert_dark](../../_assets/ERD_EinfKardinalitaet_01.png)
 
 - Ein Mitarbeiter kann an mehr als einem Kurs teilnehmen (m)
 - Ein Kurs kann von mehr als einem Mitarbeiter besucht werden (n)
 
 **Beispiel Bibliothek-Buch:**
 
-![invert_dark](assets/ERD_EinfKardinalitaet_02.png)
+![invert_dark](../../_assets/ERD_EinfKardinalitaet_02.png)
 
 - Ein Buch kann nur von einem Leser ausgeliehen werden (1)
 - Ein Leser kann mehrere Bücher gleichzeitig ausleihen (n) (wenn das so erlaubt ist!)
@@ -67,7 +67,7 @@ u.s.f.
 Es kommt vor, dass unterschiedliche Objekte sehr starke Ähnlichkeiten aufweisen. Beispielsweise gibt es in einer Firma einen Chef, einen Abteilungsleiter, einen Projektleiter, einen Assistenten, einen Einkäufer und viele weitere. Sie alle haben eine Personalnummer, einen Vor-/Nachnamen, eine Adresse …  
 Sie alle sind eine Ausprägung von *Mitarbeiter*, daher: **Projektleiter Is A Mitarbeiter**.
 
-![invert_dark](assets/ERD_IsA.png)
+![invert_dark](../../_assets/ERD_IsA.png)
 
 In den meisten Fällen sind diese isa-Beziehungen 1:n-Beziehungen - für dieses Beispiel handelt es sich um eine 1:1 Beziehung: ein Mitarbeiter kann nur ein Einkäufer oder ein Assistent sein. Ebenso kann ein Assistent nur ein einzelner Mitarbeiter sein. Es kann jedoch auf vorkommen dass hier mehrfache Zuordnungen möglich sind (n:m), etwa wenn es mehrere Assistenten geben kann.
 
@@ -97,7 +97,6 @@ Wenn das Diagramm gut aufgebaut wurde, ergibt sich automatisch eine hohe Normalf
 
 Die Darstellung nach Peter Chen ist für das Zeichnen mit der Hand noch relativ gut möglich, die Darstellung nach Barker ist für größere Strukturen wesentlich komfortabler und übersichtlicher. Von dieser Notation kann einfach mittels [UML](../SoftwareEngineering/UML/UML.md)-Darstellungen in Werkzeugen gearbeitet werden:
 
-![invert_dark](assets\ERD_Barker.png)
 
 ## Fragen
 

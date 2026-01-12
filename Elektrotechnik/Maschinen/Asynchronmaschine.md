@@ -49,7 +49,7 @@ Rotor / Läufer: Ausführung mit Schleifringläufer (selten)
 
 ## Funktionsbild und Kenngrößen
 
-![invert_dark](../../assets/Excalidraw/Asynchronmaschine%202025-06-28%2014.26.55.excalidraw.svg)
+![invert_dark](../../_assets/Excalidraw/Asynchronmaschine%202025-06-28%2014.26.55.excalidraw.svg)
 
 | Kenngröße                   | Symbol, Einheit                          | Beschreibung                                                                                            |
 | --------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -75,8 +75,8 @@ Rotor / Läufer: Ausführung mit Schleifringläufer (selten)
 
 ### Ersatzbild
 
-![invert_dark|500](../../assets/Excalidraw/Asynchronmaschine%202025-06-28%2016.31.00.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Asynchronmaschine%202025-06-28%2016.31.00.excalidraw.md)%%
+![invert_dark|500](../../_assets/Excalidraw/Asynchronmaschine%202025-06-28%2016.31.00.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Asynchronmaschine%202025-06-28%2016.31.00.excalidraw.md)%%
 
 ### Drehzahl-Drehmoment Kennlinie
 
@@ -106,7 +106,7 @@ z.B. mit Trafo. Skalierung der Kurve in der Momentachse
 
 > [!important] Gängigste Ansteuerung mittels [Frequenzumrichter](VFD.md)
 
-[NOTES](Elektrotechnik/Maschinen/assets/NOTES.pdf)
+[NOTES](../../_assets/NOTES.pdf)
 
 ### Über Polumschaltung
 

@@ -10,7 +10,9 @@ created: 31st March 2022
 
 Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscomputer) in mechanische [Bewegung](../Physik/Kinematik.md) , bzw. in andere physikalische Größen um.
 
-![Aktor_BSB](assets/Aktor_BSB.svg)
+![invert_dark|500](../_assets/Excalidraw/Aktor-BSB.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Aktor-BSB.md)%%
+
 
 # Aktoren Übersicht
 
@@ -28,13 +30,13 @@ $\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.m
 
 **Funktionsweise:** Der Rotor dreht sich bis $+$ und $-$ bei einander sind, jetzt dreht der Kommutator die Polung um, sodass gleiche Pole beieinanderliegen uns sich abstoßen.
 
-## Fl.-Druck-Aktoren: [Hydraulik](Hydraulik.md)
+## Fl.-Druck-Aktoren: Hydraulik
 
 Hydraulische Aktoren arbeiten mit Druck von Flüssigkeiten.
 
 Vorteil: Wasser ist im flüssigen Zustand unkompremierbar.
 
-## Gasdruck-Aktoren: [Pneumatik](Pneumatik.md)
+## Gasdruck-Aktoren: Pneumatik
 
 Pneumatische Aktoren arbeiten mit Gasdruck
 
