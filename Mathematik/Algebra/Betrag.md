@@ -39,12 +39,12 @@ $$
 
 Die Dreiecksungleichung besagt, dass eine Dreiecksseite höchstens so lang wie die Summe der beiden anderen Seiten ist. Das „höchstens“ schließt dabei den Sonderfall der Gleichheit ein.
 
-![invert_dark](../../assets/Pasted%20image%2020241022132830.png)
+![invert_dark](../../_assets/Pasted%20image%2020241022132830.png)
 
 ---
 
 > [!example]- Beispiele
-> ![](../../assets/Pasted%20image%2020240127135219.png)
+> ![](../../_assets/Pasted%20image%2020240127135219.png)
 
 ---
 

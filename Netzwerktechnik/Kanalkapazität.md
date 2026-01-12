@@ -40,4 +40,4 @@ Gilt als absolute Obergrenze für die Leistungsfähigkeit eines Nachrichtenkanal
 | $P_{s}$    | Signalleistung |
 | $P_{n}$    | Rauschleistung |
 
-![invert_dark](assets/Nachrichtenquader.png)
+![invert_dark](../_assets/Nachrichtenquader.png)

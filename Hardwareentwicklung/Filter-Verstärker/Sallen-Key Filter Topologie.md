@@ -49,7 +49,7 @@ professor:
 
 |                           Bode Diagramm                           |                    Ortskurve                    |
 | :---------------------------------------------------------------: | :---------------------------------------------: |
-| ![invert_dark\|600](../assets/59_SallenKey.png) | ![invert_dark](../assets/Sallen_Key_Ortskurve.png) |
+| ![invert_dark\|600](../../_assets/59_SallenKey.png) | ![invert_dark](../../_assets/Sallen_Key_Ortskurve.png) |
 
 <center><a href="Scripts/mathematica/SallenKey.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
@@ -59,6 +59,6 @@ professor:
 > $\alpha=1$: Kritische Dämpfung
 > $\alpha = 1.268$: Bessel
 > $\alpha = 1.586$: [Butterworth](Butterworth%20Filter%20Charakteristik.md)
-> $\alpha=2.234$: [Tschebyscheff](Tscheybyscheff%20Filter%20Charakteristik.md)
+> $\alpha=2.234$: [Tschebyscheff](../Tscheybyscheff%20Filter%20Charakteristik.md)
 
 ## Funktionsweise

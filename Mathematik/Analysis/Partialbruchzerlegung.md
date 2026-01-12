@@ -56,7 +56,7 @@ y(x) &= \frac{x^2+4x+10}{(x^2-4)\underbrace{ (x^2+2x+2) }_{ \text{irreduzibler T
 \end{align}
 $$
 
-Ansatz für Partialbruch mit dem rationalen [Polynom](Polynom.md) Gleichsetzen.
+Ansatz für Partialbruch mit dem rationalen [Polynom](../Algebra/Polynom.md) Gleichsetzen.
 
 $$
 \begin{align}
@@ -88,7 +88,7 @@ $$
 
 $$y(x) =x^{2}+4x+10 = (a) + (b) + (c)$$
 
-[Polynom](Polynom.md) Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer [Potenz](../Algebra/Potenzen.md) sortiert:
+[Polynom](../Algebra/Polynom.md) Auflösen um die Faktoren $A$, $B$, $C$ und $D$ zu ermitteln. Zur Vereinfachung werden die Polynome separat betrachtet und absteigend nach ihrer [Potenz](../Algebra/Potenzen.md) sortiert:
 
 $$
 \begin{align}
@@ -109,7 +109,7 @@ x:\quad &4=6A-2B-4C\\
 \end{align}
 $$
 
-Das [LGS](Lineare%20Gleichungssysteme.md) lässt sich als [Matrix](Matrix.md) anschreiben:
+Das [LGS](Lineare%20Gleichungssysteme.md) lässt sich als [Matrix](../Algebra/Matrix.md) anschreiben:
 
 $$
 \begin{pmatrix}

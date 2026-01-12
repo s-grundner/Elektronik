@@ -20,5 +20,5 @@ title: Magnetlager
 > 
 > gebremst
 
-| ![500](assets/Magnetlager2.png) | ![500](assets/Magnetlager1.png) |
+| ![500](../../_assets/Magnetlager2.png) | ![500](../../_assets/Magnetlager1.png) |
 | ------------------------------- | ------------------------------- |

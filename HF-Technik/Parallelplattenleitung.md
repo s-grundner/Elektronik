@@ -21,7 +21,7 @@ professor:
 
 > [!info] Dimensionen der Platten, sodass Vereinfachungen der Berechnungen möglich sind.
 > 
-> ![invert_dark|600](assets/ParallelPlattenLeiterGroessen.png)
+> ![invert_dark|600](../_assets/ParallelPlattenLeiterGroessen.png)
 > 
 > - Platte ist sehr Lang in $z$-Richtung.
 > - $h$ ist vernachlässigbar dünn. 
@@ -33,7 +33,7 @@ Mit diesen Annahmen kann der Parallelplattenleiter als [TE-Mode](Leitergeometrie
 
 Vorraussetzung für TEM-Moden:
 
-![600](assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.md)
+![600](../_assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.md)
 
 > [!info] E-Feld
 > - E-Feld hat keine komponente die in $z$-Richtung zeigt
@@ -56,12 +56,12 @@ Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösun
 | Anwendung des [Induktionsgesetzes](../Elektrotechnik/Maxwell.md#^MW2)                                                                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | $$\nabla \times \mathbf{E}=-\frac{\partial}{\partial t} \mathbf{B} \implies \oint_C \mathbf{E} \cdot \mathrm{d} \mathbf{l}=-\frac{\partial}{\partial t} \iint_S \mu \mathbf{H} \cdot \mathrm{d} \mathbf{s}\tag{MW2}$$ |
-| ![invert_dark\|500](assets/ContourINt.png)                                                                                                                                                                            |
+| ![invert_dark\|500](../_assets/ContourINt.png)                                                                                                                                                                            |
 | Nur E-Feldlinien *entlang* der Kontur $C$ werden Integriert.                                                                                                                                                          |
 | Nur H-Feldlinien *normal* zur Fläche $S$ werden Integriert.<br>                                                                                                                                                       |
 
 > [!question] In das Modell eingezeichnet
-> ![invert_dark|500](../assets/KonturInPlatengeometrie.png)
+> ![invert_dark|500](../_assets/KonturInPlatengeometrie.png)
 
 #### Folgerungen der Kontur $C_{0}$
 
@@ -158,7 +158,7 @@ $$\oint_{C_{2}} \mathbf{H}\cdot\mathrm{d}\mathbf{l} = \iint_{S_{2}}\mathbf{J}\cd
 
 | Stromdichte $\mathbf{J}$ Entlang des Leiters                  | Kontur $C_{2}$ Umkreist eine der Platten                                    |
 | ------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![invert_dark\|500](assets/TEM-Plattenleitung.png) | ![600](assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) |
+| ![invert_dark\|500](../_assets/TEM-Plattenleitung.png) | ![600](../_assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) |
 
 - $h$ ist vernachlässigbar klein.
 - $\mathbf{H}$ existiert nur in $x$-Richtung zwischen den Platten und ist in $y$ **konstant**

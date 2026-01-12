@@ -17,7 +17,7 @@ created: 2nd October 2022
 
 ## Schaltung
 
-![SperrwandlerIMG](../assets/SperrwandlerIMG.png)  
+![SperrwandlerIMG](../../_assets/SperrwandlerIMG.png)  
 Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) arbeitet als Schalter $S$, der mit einer PWM Steuerspannung ($U_{st}$) angesteuert wird.
 $$
 U_{a}= U_{e}\cdot \frac{N_{2}}{N_{1}}\cdot \frac{t_{1}}{T-t_{1}} - U_{FO}

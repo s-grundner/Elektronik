@@ -186,7 +186,7 @@ Hat man Dieses DGL-System erster Ordnung aufgestellt, so kann man es mit Ansätz
 > f_1(x, y)=3 x+4 y+1, \quad f_2(x, y)=x-2 y-1
 > $$
 > 
-> das erhaltene System in [Matrix](Algebra/Matrix.md)-[Vektor](../Algebra/Vektor.md)-Form.
+> das erhaltene System in [Matrix](../Algebra/Matrix.md)-[Vektor](../Algebra/Vektor.md)-Form.
 
 > [!success]- Lösung
 > 

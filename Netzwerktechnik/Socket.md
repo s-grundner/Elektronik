@@ -10,7 +10,7 @@ created: 29th November 2022
 
 Der größte Teil der Kommunikation in Netzwerken findet zwischen Clientund Server-Prozessen statt.
 
-![NW_ClientServerPrinzip](assets/NW_ClientServerPrinzip.png)
+![NW_ClientServerPrinzip](../_assets/NW_ClientServerPrinzip.png)
 
 Das Client-Server-Paar kann grundsätzlich mittels verschiedener Protokolle kommunizieren (solange beide das Gleiche verwenden).
 
@@ -18,13 +18,13 @@ Eine zentrale Frage im *Netzwerk*: *wie finden Client und Server zueinander?*
 
 In sehr vielen Internet-Anwendungen wird sowohl Serverals auch Clientseitig entweder *TCP* oder *UDP* als Transportprotokoll verwendet. Manchmal wird auch direkt/roh auf *IP* aufgesetzt, entweder wenn kein Transportdienst benötigt wird, oder ein Transportdienst Teil der Anwendung selbst ist.
 
-Für *UDP* und *TCP* werden deren *Portnummern* zur Identifikation verwendet. Standardapplikationen wie *FTP* oder *SMTP* bekommen Serverseitig *well-known-ports* (RFC). Lokale Portnummern eines Knotens werden vom [Betriebssystem](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md) verwaltet.
+Für *UDP* und *TCP* werden deren *Portnummern* zur Identifikation verwendet. Standardapplikationen wie *FTP* oder *SMTP* bekommen Serverseitig *well-known-ports* (RFC). Lokale Portnummern eines Knotens werden vom [Betriebssystem](../Softwareentwicklung/Betriebssysteme/index.md) verwaltet.
 
 Die Kombination von IP-Adresse und Portnummer wird als **Socket** bezeichnet. Eine Kommunikation Server-Client ist durch ein **Paar von Sockets** (Server-Socket, Client-Socket) definiert. Dadurch ist es möglich, dass zur gleichen Zeit zwei Clientprozesse gleichzeitig mit einem Server sprechen können.
 
-Eine Socket-Interface-API wurde in den 1980er Jahren für UNIX-BSD (Berkeley Software Distribution) veröffentlicht. Mittlerweile ist es für viele [Betriebssysteme](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md) verfügbar. Es bietet Verbindung zwischen Client und Server aufzubauen mittels TCP (Stream-Sockets), UDP (Datagram-Socket) oder direkt IP (Raw-Socket):
+Eine Socket-Interface-API wurde in den 1980er Jahren für UNIX-BSD (Berkeley Software Distribution) veröffentlicht. Mittlerweile ist es für viele [Betriebssysteme](../Softwareentwicklung/Betriebssysteme/index.md) verfügbar. Es bietet Verbindung zwischen Client und Server aufzubauen mittels TCP (Stream-Sockets), UDP (Datagram-Socket) oder direkt IP (Raw-Socket):
 
-![NW_Socket_03](assets/NW_Socket_03.png)
+![NW_Socket_03](../_assets/NW_Socket_03.png)
 
 Die Unterstützung von Netzwerken/Internet ist allgemein Teil des Betriebssystems (wird oft als **TCP/IP-Stack** bezeichnet).
 
@@ -38,7 +38,7 @@ In vielen Fällen bedient ein einzelner Server mehrere Clients. Dann wird der Se
 
 Ein großer Unterschied zwischen Server und Client ist, dass ein Client für eine Verbindung lediglich 1 Socket benötigt. Soll ein Server nicht nur einen Client bedienen, dann benötigt der Server für jeden Client einen eigenen Socket. Für einen Serverseitigen Socket sind die folgenden Schritte notwendig. 
 
-![Serversocket](assets/NW_Socket_02.png)
+![Serversocket](../_assets/NW_Socket_02.png)
 
 Mit *accept* wird ein neuer Socket erzeugt (und es kann auf eine weitere Anfrage gewartet werden).
 
@@ -50,11 +50,11 @@ Mit *accept* wird ein neuer Socket erzeugt (und es kann auf eine weitere Anfrage
 
 Ein Client ist einer der beiden Endpunkt einer Kommunikation. Der grundsätzliche Ablauf einer Kommunikation ist in der folgenden Abbildung dargestellt:
 
-![Clientsocket](assets/NW_Socket_01.png)
+![Clientsocket](../_assets/NW_Socket_01.png)
 
 #### Verbindungsaufbau
 
-![Serversocket](assets/NW_Socket_04.png)
+![Serversocket](../_assets/NW_Socket_04.png)
 
 ### UDP-Kommunikation
 
@@ -62,13 +62,13 @@ Das UDP-Protokoll garantiert lediglich das Nachrichten korrekte Daten beinhalten
 
 Der Vorteil gegenüber der TCP-Kommunikation ist, dass dadurch eine stark reduzierte Datenmenge übertragen werden muss (es erfolgt kein Handshake mittels Checksummen…). Verwendet werden Datagramme für Daten bei denen es nicht unbedingt notwendig ist, dass sie ihr Ziel erreichen und große Datenmengen übertragen werden: Multimedia-Streams (im schlimmsten Fall Aussetzer) oder Computerspiele (im schlimmsten Fall ruckelnde Bewegungen von Spielfiguren).
 
-![UDP](assets/NW_Socket_UDP.png)
+![UDP](../_assets/NW_Socket_UDP.png)
 
 ## Unterschiedliche OS
 
 Für Standard-C sind keine Socket-Zugriffe verfügbar, daher muss mittels OS-APIs gearbeitet werden.
 
-Soll unterschiedlicher Code für verschiedene [Betriebssysteme](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md) kompiliert werden (etwa wie im folgenden unterschiedliche includes), kann das einfach mittels Compiler-Schalter gelöst werden:
+Soll unterschiedlicher Code für verschiedene [Betriebssysteme](../Softwareentwicklung/Betriebssysteme/index.md) kompiliert werden (etwa wie im folgenden unterschiedliche includes), kann das einfach mittels Compiler-Schalter gelöst werden:
 
 ```c++
 #ifdef _WIN32
@@ -314,7 +314,7 @@ for(addrinfo *p = servinfo;p != NULL; p = p->ai_next) {
 freeaddrinfo(servinfo);
 ```
 
-Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider variieren diese Funktionen je nach verwendeten [Betriebssystem](../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md).
+Für die Adressstrukturen gibt es eine Vielzahl von Helfer-Funktionen. Leider variieren diese Funktionen je nach verwendeten [Betriebssystem](../Softwareentwicklung/Betriebssysteme/index.md).
 
 ### Socket()
 

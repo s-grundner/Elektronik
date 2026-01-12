@@ -98,7 +98,7 @@ THEADER *swap(THEADER *lst, int pos1, int pos2);
 
 Es wird ein Programm minish (Minishell) entwickelt, das eine Historie von eingegebenen Befehlen in einer Liste speichert. Ein Listenknoten TNODE enthält einen String (das eingegebene Kommando). Als Listenkopf soll eine eigene Knotenstruktur THEADER dienen:
 
-![#invert_dark](../assets/ListMinish.png)
+![#invert_dark](../../../_assets/ListMinish.png)
 
 Header/Kopf:
 

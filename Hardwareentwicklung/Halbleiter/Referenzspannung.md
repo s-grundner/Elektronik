@@ -24,7 +24,7 @@ Man nutzt die **Bandabstand-Spannung** eines [Silizium](../../Physik/Materialkun
 $U_{g}= \frac{W_{g}}{e}$  
 wobei $e$ die [Elementarladung](../../Physik/Konstanten/Elementarladung.md) ist.
 
-![invert_light](../../assets/Baendermodell.png)
+![invert_light](../../_assets/Baendermodell.png)
 
 1. [Shockley Gleichung](../../Physik/Shockley%20Gleichung.md)  
 $I_{c}= I_{s}\cdot(e^{\frac{U_{BE}}{\eta\cdot U_{T}}}-1)$  
@@ -53,7 +53,7 @@ $U_{BE}$ wird mit steigender Erwärmung des Transistors kleiner, da $D_{T}$ *neg
 
 ### Schaltung der [Bandabstandsreferenz](https://de.wikipedia.org/wiki/Bandabstandsreferenz)
 
-![invert_light|400](../assets/Bandabstandsreferenz.png)
+![invert_light|400](../../_assets/Bandabstandsreferenz.png)
 
 #### $U_{PTAT}$ Proportional to absolute temperature
 

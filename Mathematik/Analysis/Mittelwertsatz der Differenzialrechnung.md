@@ -20,7 +20,7 @@ release: false
 # Mittelwertsatz der Differenzialrechung
 
 > [!satz] **S1 - MWSD)** 
-> In einem beliebigen Intervall $I$ einer stetigen Funktion $f(x)$ gibt es mindestens eine Stelle $x_{0}$, an der der *Differenzenquotient* dieses Intervalls gleich der [Ableitung](Analysis/Differenzialrechnung.md) ist.
+> In einem beliebigen Intervall $I$ einer stetigen Funktion $f(x)$ gibt es mindestens eine Stelle $x_{0}$, an der der *Differenzenquotient* dieses Intervalls gleich der [Ableitung](Differenzialrechnung.md) ist.
 
 ```tikz
 \usepackage{pgfplots}

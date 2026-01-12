@@ -22,6 +22,6 @@ Die delay time einer einzelnen Inverter Stufe, lässt sich auf kapazitive/resist
 
 ## Schaltung
 
-![ring-osz](../assets/ring-osz.png)
+![ring-osz](../../_assets/ring-osz.png)
 
 # Tags

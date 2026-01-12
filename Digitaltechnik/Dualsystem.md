@@ -146,7 +146,7 @@ Das $r-1$-Komplement des Dualsystems ist das **1er Komplement**, da $r=2$.
 
 > [!example] **Add & Shift**
 > 
-> ![invert_dark](assets/addShift.png)
+> ![invert_dark](../_assets/addShift.png)
 
 
 

@@ -29,6 +29,6 @@ Gilt nur für quadratische Matrizen.
 > - Es gibt keine linearen Abhängigkeiten innerhalb der Matrix
 > - Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
 
-![300](assets/spooder.png)
+![300](../../_assets/spooder.png)
 
 

@@ -27,6 +27,6 @@ title: Magnetische Quellen
 
 | [Permanentmagnet](../Physik/Permanentmagnet.md) | [Elektromagnet](../Physik/Elektromagnet.md) |
 | :---------------------------------------------: | :-----------------------------------------: |
-|    ![invert_dark\|300](assets/PermMagn.png)     |  ![invert_dark\|300](assets/ElektMagn.png)  |
+|    ![invert_dark\|300](../_assets/PermMagn.png)     |  ![invert_dark\|300](../_assets/ElektMagn.png)  |
 
 Der Permanentmagnet selbst hat einen hohen magnetischen widerstand für Fremdfelder ($\mu \approx 1.1$). Äquivalent zum Innwiderstand einer Spannungsquelle.

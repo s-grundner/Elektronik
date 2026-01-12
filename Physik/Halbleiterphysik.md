@@ -29,11 +29,11 @@ Intrinsisch $\to$ Nicht Dotiert
 > 
 > Bandstruktur: Aufpreizung der erlaubten Energieniveaus (siehe [Teilchen im Kasten](Teilchen%20im%20Kasten.md)) durch Wechselwirkungen mit Nachbaratomen.
 > 
-> ![invert_dark|1000](assets/SiLeitungsValenzband.png)
+> ![invert_dark|1000](../_assets/SiLeitungsValenzband.png)
 
 Unterschiede des Bändermodells verschiedener Leiterklassen:
 
-![invert_light|1000](../assets/Baendermodell.png)
+![invert_light|1000](../_assets/Baendermodell.png)
 
 
 
@@ -41,13 +41,13 @@ Unterschiede des Bändermodells verschiedener Leiterklassen:
 ### Valenz und Leitungsband
 
 Reines Silizium hat die Struktur eines Atomgitters.
-![invert_dark|600](assets/Pasted%20image%2020250207135059.png)
+![invert_dark|600](../_assets/Pasted%20image%2020250207135059.png)
 - Das **Valenzband** ist das Energieniveau der Äußersten elektronen innerhalb des Gitters ([Valenzelektronen](../../Chemie/Valenzelektronen.md))
 - Das **Leitungsband** ist das oberste erlaubte Energieniveau auf dem sich freie elektronen aufhalten können  
 
 
 
-![invert_dark|500](assets/HalbleiterValenzLeitungsband.png)
+![invert_dark|500](../_assets/HalbleiterValenzLeitungsband.png)
 
 Bei einem Intrinsischen[^1] halbleiter existieren grundsätzlich keine freien elektronen, da diese fest an das Atomgitter gebunden sind.
 
@@ -139,7 +139,7 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
-> ![600](../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw.md) 
+> ![600](../_assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw.md) 
 > Somit ist eine niedrigere Aktivierungsenergie notwendig, um ein Elektron vom Donator ins Leitungsband zu heben.
 
 In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elektronen als Löcher Verfügbar.
@@ -157,7 +157,7 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Akzeptoratom lokal ein zusätzliches Energieniveau nahe der **Valenzbandkante** darstellen 
-> ![600](../assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.47.50.excalidraw.md)
+> ![600](../_assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.47.50.excalidraw.md)
 > Somit ist eine niedrigere Aktivierungsenergie erforderlich, Elektronen vom Valenzband auf das Akzeptor Niveau anzuheben und auf dem Valenzband ein Loch zu hinterlassen.
 
 In einem derartig dotierter Halbeiter (p-Typ, p ... positiv) sind somit:

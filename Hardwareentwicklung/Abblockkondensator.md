@@ -9,11 +9,11 @@ created: 19th August 2023
 # Abblockkondensator
 
 > [!INFO] Resonanzverlauf  
-> ![500](assets/EMV_impedanz.png)
+> ![500](../_assets/EMV_impedanz.png)
 
 
 Da die [Impedanz](../Elektrotechnik/Impedanz.md) eines Kondensators bis zur Resonanzfrequenz sinkt, können HF-Störungen auf Versorgungsleitungen mit Gleichsignalen oder NF-Signalen durch einen Parallelgeschalteten [Kondensator](../Elektrotechnik/Kapazität.md) (Kurzschluss-geblockt) werden.  
-![300](assets/AbblockCap.png)  
+![300](../_assets/AbblockCap.png)  
 Für das NF-Signal: [Kapazität](../Elektrotechnik/Kapazität.md) ist ein Leerlauf  
 Für die HF-Störung: [Kapazität](../Elektrotechnik/Kapazität.md) ist ein Kurzschluss
 

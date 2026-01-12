@@ -18,13 +18,13 @@ created: 28th March 2022
 
 ## Aufbau
 
-![invert_dark](assets/lwl_aufbau.png)
+![invert_dark](../_assets/lwl_aufbau.png)
 
 ## Arten
 
 ### 1. Monomode Faser
 
-![monomode_faser](assets/monomode_faser.png)
+![monomode_faser](../_assets/monomode_faser.png)
 
 ### 2. Multimode Faser
 
@@ -33,23 +33,23 @@ Die Fortplanzung der Lichtwelle, die im Leiter durch das Material mit unterschie
 
 #### 1. Stufenprofil
 
-![multimode_stufenp](assets/multimode_stufenp.png)
+![multimode_stufenp](../_assets/multimode_stufenp.png)
 
 #### 1. Gradientenprofil
 
-![multimode_gradienten_p](assets/multimode_gradienten_p.png)
+![multimode_gradienten_p](../_assets/multimode_gradienten_p.png)
 
 Hier wird die unterschiedliche ankunftszeit jeder Mode kompensiert
 
 ## Kenngrößen (Stufenindexfaser)
 
-![Optic_fibre-numerical_aperture_diagram.svg](assets/Optic_fibre-numerical_aperture_diagram.svg.png) 
+![Optic_fibre-numerical_aperture_diagram.svg](../_assets/Optic_fibre-numerical_aperture_diagram.svg.png) 
 
 ### 1. Lichtgeschwintigkeit in einer Mode
 
 ### 2. Akzeptanzwinkel $\theta_{max}$
 
- ![Optical-fibre.svg](assets/Optical-fibre.svg.png)
+ ![Optical-fibre.svg](../_assets/Optical-fibre.svg.png)
 
 #### Totalreflexion
 

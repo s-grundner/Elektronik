@@ -9,7 +9,7 @@ created: 19. September 2024
 
 - Prototyp
 - Testing
-- [Zertifizierung](../../../../Hardwareentwicklung/Certification.md)
+- [Zertifizierung](Certification.md)
 - Einkauf
 
 ## Prototyp
@@ -45,7 +45,7 @@ created: 19. September 2024
 
 #### Packaging
 
-![InlineR|300](assets/PackAmmo.png) ***Ammo Packaging***
+![InlineR|300](../_assets/PackAmmo.png) ***Ammo Packaging***
 
 - Papier Tape
 - nur für THT
@@ -56,7 +56,7 @@ created: 19. September 2024
 
 <br>
 
-![InlineR|300](assets/PackBulk.png) ***Bulk Packaging***
+![InlineR|300](../_assets/PackBulk.png) ***Bulk Packaging***
 
 - Sackal 
 - Nicht [ESD](ESD.md) geeignet
@@ -65,7 +65,7 @@ created: 19. September 2024
 
 <br> <br>
 
-![InlineR|300](assets/PackTapeReel.png) ***Cut Tape & Reel Packaging***
+![InlineR|300](../_assets/PackTapeReel.png) ***Cut Tape & Reel Packaging***
 
 - SMD
 - für PnP (Pick and Place) geeignet
@@ -75,7 +75,7 @@ created: 19. September 2024
 
 <br><br>
 
-![InlineR|300](assets/PackTube.png) ***Tube***
+![InlineR|300](../_assets/PackTube.png) ***Tube***
 
 - THT und SMD
 - PnP möglich
@@ -83,7 +83,7 @@ created: 19. September 2024
 
 <br><br><br>
 
-![InlineR|300](assets/PackTray.png) ***Tray***
+![InlineR|300](../_assets/PackTray.png) ***Tray***
 
 - Bevorzugt zur Lagerung
 - PnP möglich
@@ -92,13 +92,13 @@ created: 19. September 2024
 
 <br><br>
 
-![InlineR|300](assets/PackESD.png) ***[ESD](ESD.md) Sackal***
+![InlineR|300](../_assets/PackESD.png) ***[ESD](ESD.md) Sackal***
 
 - Einzeilteile in ESD Sackerl
 
 <br><br><br><br><br>
 
-![InlineR|300](assets/PackMSL.png) ***MSL***
+![InlineR|300](../_assets/PackMSL.png) ***MSL***
 
 - Für Feuchtigkeitsempfindliche komponenten
 - Feuchtigkeits indikator enthalten

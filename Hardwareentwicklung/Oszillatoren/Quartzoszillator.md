@@ -8,21 +8,21 @@ created: 17th January 2023
 
 # Quartzoszillator
 
-> [!question] [Oszillator](Hardwareentwicklung/Oszillatoren/Oszillatoren.md)
+> [!question] [Oszillator](Oszillatoren.md)
 
-Der Schwingquartz weist eine Sehr stabile Frequenz auf d.h. er hat eine hohe Güte. Viel höher als bei einem Elektrischen Schwingkreis realistisch erzielt werden kann. Ein Nachteil ist jedoch, dass die Schwingfrequenz bis maximal in den MHz bereich reicht. Die Abhilfe ist der [Phase Locked Loop](Hardwareentwicklung/Oszillatoren/Phase%20Locked%20Loop.md), welcher die Phasenabweichung eines schneller schwingfähigen Elektrischen Schwingkreises (VCO) mit einem Quartzoszillator als Referenz regelt.
+Der Schwingquartz weist eine Sehr stabile Frequenz auf d.h. er hat eine hohe Güte. Viel höher als bei einem Elektrischen Schwingkreis realistisch erzielt werden kann. Ein Nachteil ist jedoch, dass die Schwingfrequenz bis maximal in den MHz bereich reicht. Die Abhilfe ist der [Phase Locked Loop](Phase%20Locked%20Loop.md), welcher die Phasenabweichung eines schneller schwingfähigen Elektrischen Schwingkreises (VCO) mit einem Quartzoszillator als Referenz regelt.
 
 > [!INFO] Schwingquartze beruhen auf dem Prinzip des Piezoelektrischen Effekts
 > Der Quartz ist daher ein Mechanisches Bauelement 
 
 ## Symbol
 
-![500|325](../assets/quartz.png)
+![500|325](../../_assets/quartz.png)
 
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens  
-> ![500|325](../assets/elek_esb_quartz.png)
+> ![500|325](../../_assets/elek_esb_quartz.png)
 > 
-> ![400|350](../assets/quarz_mechschwing.png)
+> ![400|350](../../_assets/quarz_mechschwing.png)
 > 
 > $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivität.md) (das Schwingen der Masse des Resonators)
 > $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quartzes)

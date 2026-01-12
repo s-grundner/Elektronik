@@ -19,7 +19,7 @@ professor:
 - Spiegelung
 - Skalierung
 
-![](assets/Pasted%20image%2020241120133723.png)
+![](../_assets/Pasted%20image%2020241120133723.png)
 
 > [!important] Skalierungen (Streckungen bzw. Stauchungen) und Verschiebungen eines Signals $f(t)$ in Zeitund Amplitudenrichtung lassen sich durch die Verwendung der Schreibweise
 > 

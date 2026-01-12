@@ -18,7 +18,7 @@ professor:
 
 # Randwertproblem (RWP)
 
-Ein Randwertproblem (RWP) ist ein Problem, bei dem eine [Differenzialgleichungen](Analysis/GDGL.md) zusammen mit Randbedingungen gegeben ist.
+Ein Randwertproblem (RWP) ist ein Problem, bei dem eine [Differenzialgleichungen](GDGL.md) zusammen mit Randbedingungen gegeben ist.
 
 > [!important] Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
 > $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
@@ -104,20 +104,20 @@ Seien $x_{1}, x_{2}$ zwei linear unabhangige Lösungen von $(*)$ auf $[a,b]$.
 > 
 
 
-Eine Lösung existiert, wenn die [[Determinante]] der Koeffizientenmatrix $\neq 0$ ist bzw die [Matrix](Algebra/Matrix.md) invertierbar ist:
+Eine Lösung existiert, wenn die [[../Algebra/Determinante]] der Koeffizientenmatrix $\neq 0$ ist bzw die [Matrix](../Algebra/Matrix.md) invertierbar ist:
 
 $$
 \det\begin{pmatrix}
 R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
 \end{pmatrix} \neq 0
 $$
-In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw garkeine Lösungen für das [LGS](Analysis/Lineare%20Gleichungssysteme.md).
+In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw garkeine Lösungen für das [LGS](Lineare%20Gleichungssysteme.md).
 
 ## Spezialfall: Eigenwertprobleme (EWP)
 
 > [!example] Fortsetzung des Beispiels einer Schwingenden Saite:
 > Wir schreiben nun die **partielle** Differentialgleichung für die Schwingung einer Saite auf: 
-> die **[Wellengleichung](Analysis/Wellengleichung.md)**
+> die **[Wellengleichung](Wellengleichung.md)**
 > partiell da $u(x,t)$ von zwei sich ändernenden Variablen abhängt.
 > 
 > $$

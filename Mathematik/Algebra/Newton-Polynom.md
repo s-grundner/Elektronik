@@ -41,7 +41,7 @@ $$ f\left[x_i\right]:=f_i \quad \wedge \quad f\left[x_i, \ldots, x_{i+k}\right]:
 
 Beispiel 16.10. Gesucht ist das Interpolationspolynom $P$ höchstens zweiten Grades zu den Werten $(0,0),\left(\frac{\pi}{2}, 1\right)$ und $(\pi, 0)$. Für die dividierten Differenzen ergeben sich folgende Werte:
 
-![](../../assets/Pasted%20image%2020240627120709.png)
+![](../../_assets/Pasted%20image%2020240627120709.png)
 
 Damit erhalten wir in Newtonschreibweise für das Interpolationspolynom:
 $$
@@ -52,4 +52,4 @@ $$
 
 Ermitteln Sie für die Stützpunkte $(0,1),(1,1),(2,3),(3,2),(4,1),(5,0)$ das Newtonsche Interpolationspolynom und stellen Sie die Datenpunkte sowie das Polynom graphisch dar.
 
-![](../../assets/Pasted%20image%2020240627121122.png)
+![](../../_assets/Pasted%20image%2020240627121122.png)

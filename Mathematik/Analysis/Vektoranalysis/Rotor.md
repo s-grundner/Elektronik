@@ -25,7 +25,7 @@ Der Rotor ist ein Vektoroperator, der auf ein [Vektorfeld](Vektorfeld.md) im $\m
 > - Die Richtung des Rotors ist Gerade zur Rotationsebene
 > - Die Magnitude des Rotors ist die Dichte des Wirbels
 
-![[../../../Elektrotechnik/assets/Rotor 2025-01-15 21.39.16.excalidraw]]
+![[../../../_assets/Rotor 2025-01-15 21.39.16.excalidraw]]
 
 > [!def] **D1 - ROT)** Der Rotor eines $\mathbb{R}^3$ Vektorfeldes $\mathbf{F} = (F_x, F_y, F_z)$ ist definiert als:
 > 
@@ -40,7 +40,7 @@ Mit der Rechten hand Regel kann man darauf schließen in welche richtung das Vek
 
 Das kann man an diesem Plot Ausprobieren. Hier ist die Rotation sogar konstant, sodass $\operatorname{rot}\boldsymbol{F}$ gerade nach unten zeigt
 
-![800](../assets/Rotor.png)
+![800](../../../_assets/Rotor.png)
 
 <center><a href="Mathematik/Simulationen/Rotor.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
@@ -56,5 +56,5 @@ Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in 
 
 ## Anwendung
 
-Ein wichtiger Satz, der den Rotor verwedet ist der [Stokessche Integralsatz](Stokesscher%20Integralsatz.md) der den Zusammenhang zwischen der Rotation eines Vektorfeldes und dem Linienintegral über den Rand einer Fläche beschreibt.
+Ein wichtiger Satz, der den Rotor verwedet ist der [Stokessche Integralsatz](../Stokesscher%20Integralsatz.md) der den Zusammenhang zwischen der Rotation eines Vektorfeldes und dem Linienintegral über den Rand einer Fläche beschreibt.
 Dieser Satz ist wichtig für das Rechnen mit den [Maxwell](Maxwell.md)-Gleichungen

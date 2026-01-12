@@ -16,7 +16,7 @@ title: Software Defined Radio
 
 > [!question] [Radio](Rundfunk.md)
 
-![invert_dark|1000](assets/SDR.png)
+![invert_dark|1000](../_assets/SDR.png)
 
 ---
 

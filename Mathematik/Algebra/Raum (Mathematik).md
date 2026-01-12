@@ -17,7 +17,7 @@ professor:
 
 Ein Raum ist eine [Menge](Mengenlehre.md) aus mathematischen Objekten mit einer **Struktur**. Ein zentrales Beispiel ist der [Vektorraum](Vektorraum.md)
 
-![invert_dark|250](../../assets/HierarchieRaeume.png)
+![invert_dark|250](../../_assets/HierarchieRaeume.png)
 
 Mit der Definition eines [inneren Produkts](Skalarprodukt.md) in einem linearen Raum, wird auch immer eine [Norm](Norm.md) (Länge) induziert
 

@@ -43,7 +43,7 @@ professor:
 > [!info] Auteilung nach Betrag und Phase (Polardarstellung)
 > $x(t)=|x(t)| \cdot e^{\mathrm{j} \angle x(t)}=\operatorname{abs}(x(t)) \cdot e^{\mathrm{j} \arg (x(t))}$
 
-![invert_dark|600](assets/SignalReelKplx.png)
+![invert_dark|600](../_assets/SignalReelKplx.png)
 
 ### Eigenschaften der Fouriertransformation
 

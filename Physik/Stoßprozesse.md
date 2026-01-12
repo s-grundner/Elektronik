@@ -12,7 +12,7 @@ created: 31st May 2022
 
 # Stoß
 
-![](assets/Pasted%20image%2020240124235139.png)
+![](../_assets/Pasted%20image%2020240124235139.png)
 
 Während des gesamten Stoßprozesses befindet sich der Massenmittelpunkt innerhalb der strichlierten Linie.
 
@@ -45,7 +45,7 @@ $A_{2}, B_{2}$ … Nach dem Stoß
 >
 > Wenn beide Körper nach dem Stoß zusammenkleben und mit identischer Geschwindigkeit weiterbewegen spricht man von einem *vollkommen inelastischen* Stoß.
 
-![](assets/Pasted%20image%2020240125000536.png)
+![](../_assets/Pasted%20image%2020240125000536.png)
 
 #### Energieverlust beim Stoß
 

@@ -20,21 +20,21 @@ professor:
 
 ## Nicht Invertierender Schmitt Trigger
 
-![[assets/Schmitt Trigger 2025-01-13 09.17.44.excalidraw]]
+![[../_assets/Schmitt Trigger 2025-01-13 09.17.44.excalidraw]]
 
 ## Invertierender Schmitt Trigger
 
-![[assets/Schmitt Trigger 2025-01-13 09.27.15.excalidraw]]
+![[../_assets/Schmitt Trigger 2025-01-13 09.27.15.excalidraw]]
 
 # HTL NOTES
 
-![IMG_3622](assets/IMG_3622.jpeg)
+![IMG_3622](../_assets/IMG_3622.jpeg)
 
 ## Hysterese
 
-## Helmholz'sches [Überlagerungsprinzip](../Index/Superpositionsprinzip.md)
+## Helmholz'sches [Überlagerungsprinzip](../Dictionary/Superpositionsprinzip.md)
 
-![invST-calc2](assets/invST-calc2.png)
+![invST-calc2](../_assets/invST-calc2.png)
 
 # Schaltungen mit Schmitt Triggern
 

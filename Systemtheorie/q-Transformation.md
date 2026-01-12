@@ -24,7 +24,7 @@ title: q-Transformation
 > [!quote] Bilineartransformation nach Tustin
 > Für den Entwurf digitaler Regelkreise spielt der Frequenzgang des Abtastsystems dieselbe Rolle wie bei zeitkontinuierlichen Systemen. Die Handhabung der Funktion $G\left( e^{ j\omega T_{a} } \right)$ wird jedoch durch die Tatsache erschwert, dass hier eine transzendente Funktion in $\omega$ vorliegt.
 
-![invert_dark|1000](assets/qVSz.png)
+![invert_dark|1000](../_assets/qVSz.png)
 
 ## Transformationsvorschrift
 

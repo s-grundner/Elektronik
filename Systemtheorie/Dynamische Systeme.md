@@ -14,7 +14,7 @@ title: Kontinuierliche Systeme
 
 # Dynamische Systeme
 
-> [!question] :LiArrowBigLeftDash: [Systemtheorie]({MOC}%20Systemtheorie.md) |📍| [Lineare Systeme](Lineare%20Systeme.md) :LiArrowBigRightDash:
+> [!question] :LiArrowBigLeftDash: [Systemtheorie](index.md) |📍| [Lineare Systeme](Lineare%20Systeme.md) :LiArrowBigRightDash:
 
 [Zeitdiskrete Systeme](Zeitdiskrete%20Systeme.md) ***:LiRefreshCcw:***
 

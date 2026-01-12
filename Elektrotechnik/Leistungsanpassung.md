@@ -19,7 +19,7 @@ Bei der Leistungsanpassung eines [elektrischen Netzwerks](Lineare%20Elektrische%
 
 ## Beim [Zweipol](Zweipol.md)
 
-![InlineL|256](assets/realeSpgQuelle.png)
+![InlineL|256](../_assets/realeSpgQuelle.png)
 
 $$
 \begin{gathered}
@@ -33,7 +33,7 @@ $R_{a} = 0$: Kurzschluss $\to$ es fällt keine Spannung ab, $P=U_{a}\cdot I$: $U
 $R_{a} = \infty$: Leerlauf $\to$ es fließt kein [Strom](elektrischer%20Strom.md), $P = U_{a}\cdot I$: $I = 0 \implies P=0$
 
 > [!question] Ermittlung des Maximums zwischen dieser beiden Extremfällen
-> Der Abschlusswiderstand $R_{a}$ an dem die maximale [Leistung](elektrische%20Leistung.md) umgesetzt wird, lässt sich mit einem Satz aus der [Kurvendiskussion](../Mathematik/{MOC}%20Kurvendiskussion.md) ermitteln. Dieser besagt, dass wenn die erste [Ableitung](../Mathematik/Analysis/Differenzialrechnung.md) an einem Wert der Funktion 0 ergibt, dieser Punkt ein lokales [Maximum](Extremwert.md) oder [Minimum](Extremwert.md) ist.
+> Der Abschlusswiderstand $R_{a}$ an dem die maximale [Leistung](elektrische%20Leistung.md) umgesetzt wird, lässt sich mit einem Satz aus der [Kurvendiskussion](../Mathematik/{MOC}%20Kurvendiskussion.md) ermitteln. Dieser besagt, dass wenn die erste [Ableitung](../Mathematik/Analysis/Differenzialrechnung.md) an einem Wert der Funktion 0 ergibt, dieser Punkt ein lokales [Maximum](../Mathematik/Analysis/Extremwert.md) oder [Minimum](../Mathematik/Analysis/Extremwert.md) ist.
 
 $$
 \begin{aligned}

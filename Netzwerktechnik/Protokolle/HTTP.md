@@ -60,7 +60,7 @@ Ein Response:
 
 Es wird eine Anfrage mittels Browser an einen Web-Server getätigt, die Anfrage wird vom Browser in Form eines HTTP-Requests getätigt. In Folge wird der HTTP-Nachricht ein [TCP](TCP.md)-Header vorangestellt ([TCP](TCP.md)-Paket), diesem wiederum ein IP-Header (IP-Datagramm) und letztlich diesem ein [Ethernet](../Ethernet.md) II-Header. Dieses Paket wird dann gesendet:
 
-![NW_Schichten_HTTP](../assets/NW_Schichten_HTTP.png)
+![NW_Schichten_HTTP](../../_assets/NW_Schichten_HTTP.png)
 
 (das ist eine mögliche Übertragung)
 

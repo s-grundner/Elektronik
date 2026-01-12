@@ -31,7 +31,7 @@ professor:
 > $x(t)$ mit den anfangswerten $x(t_{0})=x_{0}$ ($x_{0}$ und $t_{0}$ können auch Vektoren sein)
 
 > [!info] Die **Übertragungsmatrix** (allg. Jacobimatrix) ist ein Maß zur Güte der Fehlerfortpflanzung.
-> Im falle eines [DGL-Systems](DGL-System.md), sonst ist sie eine $1\times1$-[Matrix](Algebra/Matrix.md).
+> Im falle eines [DGL-Systems](DGL-System.md), sonst ist sie eine $1\times1$-[Matrix](../Algebra/Matrix.md).
 > 
 > $$
 > \begin{align}

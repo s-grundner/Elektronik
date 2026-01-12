@@ -15,4 +15,4 @@ professor:
 
 # Generalized Impedance Converter
 
-![1000](assets/GICexcalidraw.md)
+![1000](../_assets/GICexcalidraw.md)

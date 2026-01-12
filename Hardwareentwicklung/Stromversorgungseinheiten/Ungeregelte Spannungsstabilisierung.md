@@ -6,13 +6,13 @@ Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspann
 
 | Kennwerte                                                                                                           | Schaltung                    |
 | ------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden [Strom](../../Elektrotechnik/elektrischer%20Strom.md)<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](../assets/Z-diode-regler.png) |
+| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden [Strom](../../Elektrotechnik/elektrischer%20Strom.md)<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](../../_assets/Z-diode-regler.png) |
 
 ### Kennlinie
 
 | Kennwerte                                                                                                                                                                                      | Kennlinie                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![600](../assets/z-d-kennlinie.png) |
+| $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![600](../../_assets/z-d-kennlinie.png) |
 
 ### Dimensionierung
 

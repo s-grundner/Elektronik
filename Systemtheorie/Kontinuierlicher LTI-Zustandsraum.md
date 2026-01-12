@@ -132,11 +132,11 @@ $$
 
 ## Reglerentwurf für LTI-Systeme
 
-> [!info] [Zustandsregler](Zustandsregeler.md) 
+> [!info] [Zustandsregler](Regelungstechnik/Zustandsregeler.md) 
 
-> [!info] [Zustandsbeobachter](Zustandsbeobachter.md)
+> [!info] [Zustandsbeobachter](Regelungstechnik/Zustandsbeobachter.md)
 
 Dafür sind Wichtige Eigenschaften
 
-- [Erreichbarkeit](Erreichbarkeit.md)
-- [Beobachtbarkeit](Beobachtbarkeit.md)
+- [Erreichbarkeit](Regelungstechnik/Erreichbarkeit.md)
+- [Beobachtbarkeit](Regelungstechnik/Beobachtbarkeit.md)

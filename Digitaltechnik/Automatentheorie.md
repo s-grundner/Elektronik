@@ -39,7 +39,7 @@ professor:
 ## Moore Automat
 
 
-![invert_dark|400](../assets/Pasted%20image%2020250520225549.png)
+![invert_dark|400](../_assets/Pasted%20image%2020250520225549.png)
 
 $$
 \begin{align}
@@ -52,7 +52,7 @@ Hier ist der Ausgang **indirekt** abhängig von dem Anfangswert.
 
 > [!example]- Beispiel
 > 
-> ![invert_dark](../assets/Pasted%20image%2020250521001259.png)
+> ![invert_dark](../_assets/Pasted%20image%2020250521001259.png)
 > 
 > $$
 > \begin{array}{c|c|c}
@@ -79,7 +79,7 @@ Hier ist der Ausgang **indirekt** abhängig von dem Anfangswert.
 
 
 
-![invert_dark|400](../assets/Pasted%20image%2020250520231609.png)
+![invert_dark|400](../_assets/Pasted%20image%2020250520231609.png)
 
 $$
 \begin{align}
@@ -94,7 +94,7 @@ Hier ist der Ausgang **direkt** abhängig von dem Anfangswert.
 
 > [!example]- Beispiel
 >
-> ![invert_dark|400](../assets/Pasted%20image%2020250521003108.png)
+> ![invert_dark|400](../_assets/Pasted%20image%2020250521003108.png)
 > 
 > $$
 > \begin{array}{c|c|c}
@@ -135,11 +135,11 @@ Mealy und Moore Automaten können daher allgemein nie äquivalent im Sinne der D
 
 >[!example] Erkennung von Folge: abba $\to$ Lampe geht an  
 > Input: ababbbaabbabbaaababbaabbb  
-![invert_dark|500](../assets/exMealy.jpg)
+![invert_dark|500](../_assets/exMealy.jpg)
 > 
 > Erweitern mit Leerzeichen:  
-![invert_dark|500](../assets/exMealyErw.jpg)
+![invert_dark|500](../_assets/exMealyErw.jpg)
 
 ### Mealy-Moore Transformation
 
-![invert_dark|500](../assets/exMoore.jpg)
+![invert_dark|500](../_assets/exMoore.jpg)

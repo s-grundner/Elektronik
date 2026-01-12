@@ -53,7 +53,7 @@ Darin:
 
 Hier wir gezeigt wie die empfangene Sekunden-Zeit (Bruchteile werden vernachlässigt) umgerechnet wird.
 
-- Die Zeit wird aus dem Netzwerk empfangen. Dort gilt die *Network*-Byte Order. Je nach [Betriebssystem](../../../Softwareentwicklung/Betriebssysteme/{MOC}%20Operating%20Systems.md) kann die Byte-Reihenfolge gleich oder anders sein. Die Funktion **ntohl** rechnet auf jedem System korrekt um (**N**etwork**T**o**H**ost **L**ong).
+- Die Zeit wird aus dem Netzwerk empfangen. Dort gilt die *Network*-Byte Order. Je nach [Betriebssystem](../../../Softwareentwicklung/Betriebssysteme/index.md) kann die Byte-Reihenfolge gleich oder anders sein. Die Funktion **ntohl** rechnet auf jedem System korrekt um (**N**etwork**T**o**H**ost **L**ong).
 - Diese 1900-Zeit wird auf 1970-Zeit umgerechnet
 - Mit ctime wird die Zeitzone und die Formatierung in einen String erledigt
 
@@ -244,7 +244,7 @@ void MainWindow::readyRead() {
 
 Erstellen Sie ein Programm das eine graphische Uhr darstellt. Beispielhaft:
 
-![](../../assets/Nw_Ue_NtpUhr.png)
+![](../../../_assets/Nw_Ue_NtpUhr.png)
 
 - Die Uhr soll im Sekunden-Takt aktualisiert werden
 - Im Minuten-Takt soll die Uhrzeit mittels NTP aktualisiert werden

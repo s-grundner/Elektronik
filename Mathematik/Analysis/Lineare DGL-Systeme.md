@@ -28,11 +28,11 @@ def:
 
 Dabei ist $I$ das Lösungsintervall und $m$ die Dimension des Systems bzw die Anzahl an Differenzialgleichungen
 
-> [!info] Bei $A(t)$ handelt es sich um eine [Matrix](Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](Algebra/Vektor.md) in $\mathbb{R}^m$: 
+> [!info] Bei $A(t)$ handelt es sich um eine [Matrix](../Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](../Algebra/Vektor.md) in $\mathbb{R}^m$: 
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 
 
-Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$) lassen sich Anzätze zur Ermittlung der [Fundamentalmatrix](Analysis/Fundamentalmatrix.md) anwenden.
+Ist die Koeffizientenmatrix konstant ($A(t) \mapsto A$) lassen sich Anzätze zur Ermittlung der [Fundamentalmatrix](Fundamentalmatrix.md) anwenden.
 
 > [!question] siehe [Lineare DGL-Systeme mit konstanten Koeffizienten](Lineare%20DGL-Systeme%20mit%20konstanten%20Koeffizienten.md)
 
@@ -59,7 +59,7 @@ $$
 > $C(t)x'=A(t)x+b(t)$ mit $C(t) \in \mathbb{R}^{m \times m}$.
 > So ein System lässt sich nur dann in ein explizites umschreiben, wenn die Matrix $C(t)$ für alle $t$ regulär ist.
 
-Man kann den Satz von [Picard-Lindelöf](Analysis/Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
+Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System erster Ordnung anwenden
 
 - $f(t,x)$ ist definiert auf $I\times \mathbb{R}^m$ (also $f: I \to \mathbb{R}$ )
 - $K \subseteq I$ … $K$ ist ein abgeschlossenes Teilintervall
@@ -68,7 +68,7 @@ Man kann den Satz von [Picard-Lindelöf](Analysis/Picard-Lindelöf.md) auf das D
 
 ## Homogene Gleichung
 
-Sind $x_1$ und $x_2$ Lösungen des linearen homogenen Systems $x'=A(t)x$, so auch jede [Linearkombination](Algebra/Linearkombination.md) davon, da mit $\lambda_1, \lambda_2 \in \mathbb{R}$ gilt:
+Sind $x_1$ und $x_2$ Lösungen des linearen homogenen Systems $x'=A(t)x$, so auch jede [Linearkombination](../Algebra/Linearkombination.md) davon, da mit $\lambda_1, \lambda_2 \in \mathbb{R}$ gilt:
 
 $$
 \begin{aligned}
@@ -109,17 +109,17 @@ $$
 x_{2}= \underbrace{ x_{1} }_{ x_{p} }+(\underbrace{ x_{2}-x_{1} }_{ x_{h} })
 $$
 
-Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](Algebra/Lineare%20Abhängigkeit.md)
+Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](../Algebra/Lineare%20Abhängigkeit.md)
 
 
 > [!satz] **S1 - SUPO)** Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
-> Dann bilden die Lösungen des homogenen linearen Systems [AWP 1.2](#^AWP1-2) einen $m$-dimensionalen [Vektorraum](Algebra/Vektorraum.md) ^SUPO
+> Dann bilden die Lösungen des homogenen linearen Systems [AWP 1.2](#^AWP1-2) einen $m$-dimensionalen [Vektorraum](../Algebra/Vektorraum.md) ^SUPO
 > 
-> **[Superposition](../../Index/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems [AWP 1.1](#^AWP1-1) bilden eine $m$-dimensionale lineare Mannigfaltigkeit.
+> **[Superposition](../../Dictionary/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems [AWP 1.1](#^AWP1-1) bilden eine $m$-dimensionale lineare Mannigfaltigkeit.
 > Man erhält alle Lösungen von AWP 1.1, indem man zu irgendeiner festen **partikulären** Lösung von AWP 1.1 alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 
 > [!question] Wie kommt man von der [[Fundamentalmatrix]] $X(t)$ auf eine partikuläre Lösung $x_{p}$ vom $\dot{x}=A(t)x+b(t)$
-> mit [Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md)
+> mit [Variation der Konstanten](Variation%20der%20Konstanten.md)
 > - Die konstante $c$ wird zu $c(t)$
 

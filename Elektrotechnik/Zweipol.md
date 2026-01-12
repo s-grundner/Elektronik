@@ -20,8 +20,8 @@ professor:
 
 | Widerstand  | Induktivität | Reaktanz | Impedanz | Spannungsquelle |
 | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
-| ![](assets/R.png) | ![](assets/L.png) | ![](assets/X.png) | ![](assets/Z.png) | ![](assets/U.png) |
-| ![](assets/G.png) | ![](assets/C.png) | ![](assets/B.png) | ![](assets/Y.png) | ![](assets/I.png) |
+| ![](../_assets/R.png) | ![](../_assets/L.png) | ![](../_assets/X.png) | ![](../_assets/Z.png) | ![](../_assets/U.png) |
+| ![](../_assets/G.png) | ![](../_assets/C.png) | ![](../_assets/B.png) | ![](../_assets/Y.png) | ![](../_assets/I.png) |
 | Leitwert | Kapazität | Suszeptanz | Admittanz | Stromquelle |
 
 

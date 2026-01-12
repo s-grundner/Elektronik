@@ -14,9 +14,9 @@ professor:
 
 # CMOS
 
-![](assets/CMOS_NOR_NAND.png)
+![](../_assets/CMOS_NOR_NAND.png)
 
-![](assets/CMOS.png)
+![](../_assets/CMOS.png)
 
 > [!SUCCESS] PMOS: macht die 1
 

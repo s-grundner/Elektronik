@@ -3,7 +3,7 @@
 > [!INFO] Oft ist die Impedanz der Quelle und der Leitung niedrig ($10\Omega-100\Omega$) gegenüber der Abschlussimpedanz ($>1000\Omega$)
 > Ohne Maßnahmen treten Reflexionen in hohem Maße auf
 
-![](../Hardwareentwicklung/assets/ParallelTerm.png)
+![](../_assets/ParallelTerm.png)
 
 > [!CHECK] Transmissionline (TL) wird an der Quell-Seite mit einem parallelen Abschlusswiderstand $R_{T}$ terminiert. 
 > Der Widerstand wird so gewählt dass: $Z_{A}\mid\mid R_{T} = Z_{0}$.
@@ -21,7 +21,7 @@
 
 | Ohne Abschluss                                  | parallel Abschluss [^1] |
 | ----------------------------------------------- | ------------------ |
-| ![](../Hardwareentwicklung/assets/SignalIntegritätReflexionSchlecht.png) | ![](../Hardwareentwicklung/assets/SignalIntegritätReflexion.png)                   |
+| ![](../_assets/SignalIntegritätReflexionSchlecht.png) | ![](../_assets/SignalIntegritätReflexion.png)                   |
 
 > [!BUG] Nachteile
 > - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Elektrotechnik/elektrische%20Leistung.md) an $R_{T}$ zu versorgen.

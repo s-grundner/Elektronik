@@ -15,7 +15,7 @@ title: Zeitdiskrete Beobachtbarkeit
 # Beobachtbarkeit Zeitdiskreter LTI-Systeme
 
 :LiArrowBigRightDash: [Erreichbarkeit](Zeitdiskrete%20Erreichbarkeit.md) 
-:LiRefreshCcw: [Beobachtbarkeit Zeitkontinuierlicher Systeme](Beobachtbarkeit.md)
+:LiRefreshCcw: [Beobachtbarkeit Zeitkontinuierlicher Systeme](Regelungstechnik/Beobachtbarkeit.md)
 
 ---
 
@@ -24,7 +24,7 @@ title: Zeitdiskrete Beobachtbarkeit
 
 ## Testen auf Beobachtbarkeit
 
-![Testen auf Beobachtbarkeit](Beobachtbarkeit.md#Testen%20auf%20Beobachtbarkeit)
+![Testen auf Beobachtbarkeit](Regelungstechnik/Beobachtbarkeit.md#Testen%20auf%20Beobachtbarkeit)
 
 ## Nicht-Beobachtbarer Unterraum
 
@@ -32,18 +32,18 @@ title: Zeitdiskrete Beobachtbarkeit
 
 ## Kalman-Zerlegung bezüglich der Beobachtbarkeit
 
-![BEOB](Kalman-Zerlegung.md#^BEOB)
+![BEOB](Regelungstechnik/Kalman-Zerlegung.md#^BEOB)
 
 Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\mathbf{\bar{B}}$ wie in [ZTRF](Zustandstransformation.md#^ZTRF))
 
-![BEOB-KONT](Kalman-Zerlegung.md#^BEOB-KONT)
+![BEOB-KONT](Regelungstechnik/Kalman-Zerlegung.md#^BEOB-KONT)
 
 - $\mathbf{z}_{1}$ ... Zustand des nicht-beobachtbaren Teilsystems
 - $\mathbf{z}_{2}$ ... Zustand des beobachtbaren Teilsystems
 
 ## Rekonstruierbarkeit
 
-> [!question] [Rekonstruierbarkeit Zeitkontinuierlicher LTI-Systeme](Beobachtbarkeit.md#Rekonstruierbarkeit)
+> [!question] [Rekonstruierbarkeit Zeitkontinuierlicher LTI-Systeme](Regelungstechnik/Beobachtbarkeit.md#Rekonstruierbarkeit)
 
 ---
 

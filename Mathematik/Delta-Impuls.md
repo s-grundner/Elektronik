@@ -37,7 +37,7 @@ Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Besch
 > 
 
 $\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.  
-![invert_dark](assets/d_impuls.png)
+![invert_dark](../_assets/d_impuls.png)
 
 $d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
 
@@ -54,7 +54,7 @@ $$
 \end{align*}
 $$
 
-![invert_dark](assets/pseudo_d_impuls.png)
+![invert_dark](../_assets/pseudo_d_impuls.png)
 
 Zur Normierung der *Wirkung* einer solchen Impulsfunktion wurde gewählt, dass die **Impulsfläche 1 ist**:
 
@@ -74,7 +74,7 @@ $$
 > [!satz] **Abtasteigenschaft** der Dirac Distribution ^ABT
 $$ f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})\mathrm{d}t = f(t)*\delta(t_{0})$$
 
-![invert_dark](../assets/delta_impuls.png)
+![invert_dark](../_assets/delta_impuls.png)
 
 ## Ausblendeigenschaft
 

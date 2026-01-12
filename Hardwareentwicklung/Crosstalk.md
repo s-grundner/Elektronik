@@ -14,12 +14,12 @@ professor:
 
 Gemeinsame Kapazität
 
-![invert_dark](assets/CrosstalkKap.png)
+![invert_dark](../_assets/CrosstalkKap.png)
 
 Gemeinsame Induktivität
 
-![invert_dark](assets/CrosstalkINduk.png)
+![invert_dark](../_assets/CrosstalkINduk.png)
 
 Mit der Anwendung des [Leitermodells](../HF-Technik/Transmission%20Line.md) folgt:
 
-![](assets/TLCrosstalk.png)
+![](../_assets/TLCrosstalk.png)

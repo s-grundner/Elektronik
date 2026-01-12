@@ -16,7 +16,7 @@ professor:
 - Tritt bei der Zenerdiode auf
 - Tunneleffekt erklärt auch die elektrische Leitfähigkeit des Kontaktes zweier Leiter, da durch die raue Oberfläche eines Metalles eigentlich nur ein ganz schwacher flächenkontakt besteht
 
-![invert_dark|600](assets/Tunneleffekt.png)
+![invert_dark|600](../_assets/Tunneleffekt.png)
 
 ---
 

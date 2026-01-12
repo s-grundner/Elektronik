@@ -15,7 +15,7 @@ created: 20th August 2022
 # Periodensystem Der Elemente (PSE)
 
 Das PSE ist eine Tabelle, in der die Symbole aller bekannten Elemente nach der Anzahl der Protonen geordnet sind.  
-![PSE](assets/PSE.png)
+![PSE](../_assets/PSE.png)
 
 ## 1 Ordnungsprinzipien Des PSE
 
@@ -52,7 +52,7 @@ Diese $d-e^{-}$ können ebenso wie die $s-e^{-}$ [Valenzelektronen](Valenzelektr
 
 Bei den Elementen der Lanthanoide (seltene Erden) und Actinoide (Transurane) werden f-Orbitale der 3. äußersten [Schale](Orbitalmodell.md) aufgefüllt.
 
->![invert_light|850](assets/pse-orbs.png)
+>![invert_light|850](../_assets/pse-orbs.png)
 
 ## 2 Hauptgruppen
 

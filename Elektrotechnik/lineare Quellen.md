@@ -23,7 +23,7 @@ professor:
 > - Die *Leerlaufspannung* $U_{L}$: Jene [elektrische Spannung](elektrische%20Spannung.md) die im Leerlauf an den Klemmen anliegt
 > - Den *Kurzschlussstrom* $I_{K}$: Der [Strom](elektrischer%20Strom.md) der bei Kurzschluss zwischen den Klemmen fließt
 
-![|425](assets/KlemmenverhaltenLinQuell.png)
+![|425](../_assets/KlemmenverhaltenLinQuell.png)
 
 Die Steigung des Graphen ist: $-\frac{1}{R_{i}} = - \frac{I_{K}}{U_{L}}$
 
@@ -68,7 +68,7 @@ $$
 
 ## Beispiel
 
-![](assets/ESB-Beispiel.png)
+![](../_assets/ESB-Beispiel.png)
 
 $$
 \begin{gathered}
@@ -79,6 +79,6 @@ R_i=\frac{U_L}{I_K}=\frac{R_1 R_2}{R_1+R_2}
 $$
 
 > [!success]- Alternative Methode zur Bestimmung für $R_i$ :
-> Wenn Sie als Last eine *Quelle* (egal ob Spannungsoder Stromquelle) anschließen, so könnten Sie sowohl im Ersatzbild als auch in der echten Schaltung den Beitrag dieser Quelle durch das [[../Index/Superpositionsprinzip]] bestimmen.
+> Wenn Sie als Last eine *Quelle* (egal ob Spannungsoder Stromquelle) anschließen, so könnten Sie sowohl im Ersatzbild als auch in der echten Schaltung den Beitrag dieser Quelle durch das [[../Dictionary/Superpositionsprinzip]] bestimmen.
 > Für die Berechnung des Beitrags dieser Quelle müssen alle anderen Quellen 0 gesetzt werden (Spannungsund Stromquellen durch Kurzschlüsse bzw. Leerläufe ersetzen).
 > Im ESB wird das Netzwerk dann durch $R_i$ repräsentiert; demnach können Sie Im Originalnetzwerk einfach durch Zusammenfassung der sich so ergebenden Widerstände $R_i$ bestimmen - in unserem Fall einfach eine Parallelschaltung von $R_1$ und $R_2$.

@@ -16,7 +16,7 @@ title: GSM-Typenschild
 
 Nenndaten zum [dynamischen Betriebsverhalten](Gleichstrommaschine.md#Dynamisches%20Betriebsverhalten) einer Gleichstrommaschine
 
-![](assets/GSM-Typenschild.png)
+![](../../_assets/GSM-Typenschild.png)
 
 1) Type (letzte Stelle = Anzahl Pole)  
 2) Seriennummer  (1. vier Stellen = Herstellungsjahr)  

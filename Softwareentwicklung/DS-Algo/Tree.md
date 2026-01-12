@@ -19,11 +19,11 @@ Für Bäume gilt:
 - Jeder Knoten, bis auf den **Wurzelknoten (root)**, hat einen Vorgängerknoten.
 - Ein Knoten ohne Nachfolger ist ein **Blatt (leaf)**.
 
-![invert_dark](assets/baum_01.png)
+![invert_dark](../../_assets/baum_01.png)
 
 Haben Knoten in Bäumen maximal zwei Nachfolgeknoten werden diese als **binäre Bäume** bezeichnet. Sie haben große Bedeutung für die Sortierung/Suche von Daten - **binäre Suchbäume**.
 
-![invert_dark](assets/baum_02.png)
+![invert_dark](../../_assets/baum_02.png)
 
 Für einen binären Suchbaum gilt zusätzlich, dass die Werte jedes linken Teilbaums kleiner als die Wurzel ist.
 
@@ -149,7 +149,7 @@ Für das Löschen eines Knotens in binären Suchbäumen müssen zwei Fälle unte
 
 Soll ein Knoten gelöschte werden dem nur ein Knoten folgt:
 
-![invert_dark](assets/baum_04.png)
+![invert_dark](../../_assets/baum_04.png)
 
 Im linken Bild soll Knoten 17 gelöscht werden. Dazu muss der right-Zeiger des Vorgängerknoten 12 der auf 17 zeigt auf Knoten 19 geändert werden (also auf denjenigen Knoten auf den der zu löschende Knoten zeigt). Wenn Knoten 17 keine Folgeknoten hat, dann wird der right-Zeiger von Knoten 12 (der auf Knoten 17 zeigt) auf NULL verändert.
 
@@ -157,7 +157,7 @@ Im rechten Bild soll Knoten 17 gelöscht werden. Dazu muss der right-Zeiger von 
 
 Völlig anders für das Löschen von Knoten mit zwei Folge-Zweigen. Im dargestellten Beispiel soll etwa der Knoten 12 gelöscht werden. Dazu wird der Knoten 12 durch den Knoten mit dem nächsthöheren Wert ersetzt (hier Knoten 14). Der nächsthöhere Knoten ist der Knoten im rechten Teilbaum von 12 der ganz links ist.
 
-![invert_dark](assets/baum_06.png)
+![invert_dark](../../_assets/baum_06.png)
 
 Für das Ersetzten von Knoten 12 durch Knoten 14 wird am einfachsten nur der Wert kopiert und dann Knoten 14 gelöscht. Hätte Knoten 14 noch einen rechten Zweig, dann müsste der Löschvorgang [rekursiv](Rekursion.md) auf diesen Knoten angewendet werden.
 
@@ -167,7 +167,7 @@ Die beschriebene Art kann völlig analog auch auf der anderen Seite erfolgen: 12
 
 Der Grund für die Entwicklung der Bäume ist ja eine effiziente Suchstruktur. Je nachdem in welcher Reihenfolge ein Baum aufgebaut wird kann es zu ungünstigen Konstellationen kommen:
 
-![invert_dark](assets/baum_07.png)
+![invert_dark](../../_assets/baum_07.png)
 
 Um solche Anordnungen zu vermeiden, gibt es balancierte/ausgeglichene Bäume. Um einen Baum auszubalancieren wird der Medianwert ermittelt und als Wurzel gesetzt. Für jede Seite des Baums wird dieser Vorgang wiederholt.
 

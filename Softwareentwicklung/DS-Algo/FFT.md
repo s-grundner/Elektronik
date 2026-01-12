@@ -15,8 +15,8 @@ complexity: $\mathcal{O}(n\cdot\log(n))$
 
 > [!info] Complexity: `$=dv.current().complexity`
 
-> [!hint] FFT $\iff G$ [DFT](../../Systemtheorie/DFT.md)
-> Eigentlich handelt es sich beim FFT-Algorithmus nur um eine Möglichkeit die [DFT](../../Systemtheorie/DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
+> [!hint] FFT $\iff G$ [DFT](../../Systemtheorie/Signalverarbeitung/DFT.md)
+> Eigentlich handelt es sich beim FFT-Algorithmus nur um eine Möglichkeit die [DFT](../../Systemtheorie/Signalverarbeitung/DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
 > Wiederentdeckung deshalb, weil Carl Friedrich Gauß den Algorithmus in seiner ersten Form bereits 1805 entdeckte und verwendete, diese aber nie publizierte.
 > Erst die durch diesen Algorithmus erreichte hohe Durchführungsgeschwindigkeit ermöglicht eine so breit gefächerte Anwendung.
 

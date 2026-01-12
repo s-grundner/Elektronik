@@ -36,7 +36,7 @@ rel-uncertainty: 1.6e-10
 
 ---
 
-Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für [isotrope](../../Index/Isotrop.md) Stoffe folgender **nichtlinearer** Zusammenhang
+Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für [isotrope](../../Dictionary/Isotrop.md) Stoffe folgender **nichtlinearer** Zusammenhang
 
 > [!important] [[../../Elektrotechnik/Materialgesetz.md#^MATG|Materialgesetz]] für **isotrope** Stoffe
 > $$\mathbf{B}= \mu \mathbf{H}, \quad \mu = \mu_{0}\mu_{r} \qquad [\mu] = [\mu_{0}] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$
@@ -62,7 +62,7 @@ Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. 
 - Das Material bleibt nach jedem Zyklus des Wechselfeldes magnetisiert.
 - Die relative Permeabilität $\mu_{r}$ ist abhängig von des magnetischen Feldes
 
-![invert_dark|500](assets/hysterese.png)
+![invert_dark|500](../../_assets/hysterese.png)
 
 #### Kenngrößen
 
@@ -76,11 +76,11 @@ Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. 
 > - Ursache: Alle **Weißschen Bezirke** sind gleichgerichtet
 > - Querschnitt des Magnetkreises größer machen um Sättigungsinduktion zu minimieren
 
-![invert_dark|600](assets/Pasted%20image%2020250509010643.png)
+![invert_dark|600](../../_assets/Pasted%20image%2020250509010643.png)
 
 Abbildung: Verschiebung der Weißschen Bezirke beim Aufmagnetisieren eines ferromagnetischen Materials
 
-| ![invert_dark\|200](../../Elektrotechnik/assets/Mkreis.png)                                                                 | ![invert_dark\|200](../../Elektrotechnik/assets/Mkurve.png)                                                                    |
+| ![invert_dark\|200](../../_assets/Mkreis.png)                                                                 | ![invert_dark\|200](../../_assets/Mkurve.png)                                                                    |
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Durch das Einbringen eines Magnetfeldes durch eine Spule in den Eisenkreis, wird der kern Magnetisiert | Damit ergibt sich für die Magnetische Flussdichte über dem Strom die Hysterese- oder Magnetisierungskurve |
 

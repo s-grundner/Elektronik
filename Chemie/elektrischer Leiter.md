@@ -31,7 +31,7 @@ semester: WS25
 
 > [!success] Valenz (VB) und Leitungsband (LB)
 
-![invert_light|775](../assets/Baendermodell.png)
+![invert_light|775](../_assets/Baendermodell.png)
 
 Energieabstände der Bänder (Bandgap, $W_{g}\to$ g ... gap)
 

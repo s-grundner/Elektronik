@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 30th April 2025
-title: 
+title: Lazy Vim
 release: false
 ---
 

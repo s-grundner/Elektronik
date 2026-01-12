@@ -20,9 +20,9 @@ Beispiele für diese Blöcke sind
 
 | Block-Bezeichnung                                                                      | Symbol                                     | mathematische Beschreibung                             |
 | -------------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------ |
-| [Mischer](HF-Technik/Mischer.md)                                                       | ![invert_dark\|100](../assets/Mixer.png)      | $u_{\text{out}}(t) = u_{1}(t)\cdot u_{2}(t)$           |
-| [Oszillator](Hardwareentwicklung/Oszillatoren/Oszillatoren.md)                         | ![invert_dark\|100](../assets/Oscillator.png) | $u(t) = \cos(2\pi f_{0} t + \phi)$                     |
-| [Phase Frequnecy Detectors](Hardwareentwicklung/Oszillatoren/Phase%20Locked%20Loop.md) | ![invert_dark\|100](assets/PFD%201.png)        | $i_{\text{out}} = K_{\phi}(\phi_{1}(t) + \phi_{2}(t))$ |
+| [Mischer](HF-Technik/Mischer.md)                                                       | ![invert_dark\|100](../_assets/Mixer.png)      | $u_{\text{out}}(t) = u_{1}(t)\cdot u_{2}(t)$           |
+| [Oszillator](Oszillatoren/Oszillatoren.md)                         | ![invert_dark\|100](../_assets/Oscillator.png) | $u(t) = \cos(2\pi f_{0} t + \phi)$                     |
+| [Phase Frequnecy Detectors](Oszillatoren/Phase%20Locked%20Loop.md) | ![invert_dark\|100](../_assets/PFD%201.png)        | $i_{\text{out}} = K_{\phi}(\phi_{1}(t) + \phi_{2}(t))$ |
 
 Die Verbindung zwischen den Blöcken repräsentieren die Klasse des [Signals](Systemtheorie/Signale.md), also in welcher Form die Information zum anderen Block gelangt.
 
@@ -31,7 +31,7 @@ Die Verbindung zwischen den Blöcken repräsentieren die Klasse des [Signals](Sy
 
 ## Beispiel CC1101
 
-Als Beispiel der [CC1101](Digitaltechnik/CC1101.md), ein Radar Chip mit digitaler Schnittstelle.
+Als Beispiel der [CC1101](../Digitaltechnik/Devices/CC1101.md), ein Radar Chip mit digitaler Schnittstelle.
 
-![invert_dark](../Digitaltechnik/assets/cc1101-BSB.png)
+![invert_dark](../_assets/cc1101-BSB.png)
 

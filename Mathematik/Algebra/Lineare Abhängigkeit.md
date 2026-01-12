@@ -91,14 +91,14 @@ professor:
 \lambda_{1} \cdot v_{1}+\lambda_{2} \cdot v_{2}+\ldots+\lambda_{n} \cdot v_{n}=\mathbf{o} \quad \Rightarrow \quad \lambda_{1}=\lambda_{2}=\ldots=\lambda_{n}=0
 > $$
 
-Um die [Vektoren](Vektor.md) $v_{1},v_{2},\dots,v_{n}\in X$ auf lineare Abhängigkeit bzw. lineare Unabhängigkeit zu Prüfen, ist die Gleichung (bzw. das daraus resultierende [LGS](Lineare%20Gleichungssysteme.md))
+Um die [Vektoren](Vektor.md) $v_{1},v_{2},\dots,v_{n}\in X$ auf lineare Abhängigkeit bzw. lineare Unabhängigkeit zu Prüfen, ist die Gleichung (bzw. das daraus resultierende [LGS](../Analysis/Lineare%20Gleichungssysteme.md))
 
 $$
 \lambda_{1}\cdot v_{1}+\lambda_{2}\cdot v_{2}\dots+\lambda_{n}\cdot v_{n}= \mathbf{0}
 $$
 
 Mit noch unbekannten Koeffizienten $\lambda_{1},\lambda_{2},\dots\lambda_{n}\in K$ zu lösen.
-Das [LGS](Lineare%20Gleichungssysteme.md) kann auch als [Matrix](Matrix.md) angeschrieben werden:
+Das [LGS](../Analysis/Lineare%20Gleichungssysteme.md) kann auch als [Matrix](Matrix.md) angeschrieben werden:
 
 $$
 \begin{pmatrix}

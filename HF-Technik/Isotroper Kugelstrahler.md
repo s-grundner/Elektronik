@@ -31,7 +31,7 @@ Die Leistungsverteilung ist über die gesamte Kugeloberfläche Gleichmäßig. Di
 Reale Antennen haben eine ungeleiche Leistungsdichteverteilung, und bündeln die Leistung abhängig von der Richtung (also $\vartheta$ und $\varphi$). Um die Richtwirkung einer Beliebigen Antenne zu quantifizieren, vergleicht man die Strahlungsleistungsdichte $S(r, \vartheta, \varphi)$ zur normierten Strahlungsleistungsdichte des isotropen kugelstrahler.
 
 
-![800](assets/Ant_Richtwirkung_iso.png)
+![800](../_assets/Ant_Richtwirkung_iso.png)
 
 Setzt man Diese größen in Beziehung, erhält man die Direktivität der Antenne in der Einheit $\mathrm{dBi}$
 

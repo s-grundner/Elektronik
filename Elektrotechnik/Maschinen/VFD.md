@@ -19,7 +19,7 @@ title: VFD
 > [!quote] VFD - Varaible Frequency Drive
 > Werden verwendet um die Drehzahl von [Asynchronmaschinen](Asynchronmaschine.md) zu regeln
 
-![](assets/Pasted%20image%2020250628112308.png)
+![](../../_assets/Pasted%20image%2020250628112308.png)
 
 ---
 

@@ -23,9 +23,9 @@ professor:
 
 ## Schaltsymbol
 
-| Symbol                           | reales ESB                                                  |
-| -------------------------------- | ----------------------------------------------------------- |
-| ![invert_light](assets/indu.png) | ![invert_light](assets/indu-esb.png) |
+| Symbol                           | reales ESB                           |
+| -------------------------------- | ------------------------------------ |
+| ![invert_light](../_assets/indu.png) | ![invert_light](../_assets/indu-esb.png) |
 
 ## Kenngrößen der Induktivität
 
@@ -49,7 +49,7 @@ Allgemein gilt der Zusammenhang mit dem [magnetischen Fluss](Magnetischer%20Flus
 > [!def] Magnetischer Zusammenhang
 $$ L_{\mu\nu} = \frac{\mathrm{d}\Psi_{\mu}}{\mathrm{d}i_{\nu}} $$
 
-| ![invert_dark](assets/SelbstIndu.png) | ![invert_dark](assets/GegenIndu.png)                   |
+| ![invert_dark](../_assets/SelbstIndu.png) | ![invert_dark](../_assets/GegenIndu.png)                   |
 | ------------------------------------- | ------------------------------------------------------ |
 | Selbstinduktivität                    | Gegeninduktivität (hier zweisträngig $\mu = 1, \nu=2$) |
 
@@ -57,7 +57,7 @@ Unter Berücksichtigung der nichtlinearen Eisencharakteristikverändert die [Per
 
 Typischer Kennlinienverlauf
 
-![invert_dark](assets/Pasted%20image%2020250512011358.png)
+![invert_dark](../_assets/Pasted%20image%2020250512011358.png)
 
 ### Energie in der Spule
 
@@ -82,7 +82,7 @@ Ein magnetisches Wechselfeld erzeugt elektrische Wirbelfelder - dies bedeutet, d
 
 Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben sich die Ladungen entlang des Leiters und an den Klemmen entsteht eine [Potenzialdifferenz](elektrische%20Spannung.md) - die *induzierte* Spannung.
 
-![invert_dark](assets/Wechselfelder.png)
+![invert_dark](../_assets/Wechselfelder.png)
 
 > [!hint] Induzierte Spannung
 > Diese Wirbelfelder werden durch das [Induktionsgesetz](Maxwell.md#2.%20MWG%20-%20Induktionsgesetz) beschrieben:
@@ -94,7 +94,7 @@ Wenn man einen Leiter entlang des Wirbelfeldes $\vec{E}_{W}$ legt, verschieben s
 
 Im statischen Fall entspricht das der bereits bekannten Beziehung $\oint_{\partial A} \vec{E}\cdot d\vec{s} = 0$. Also dass die Spannung an den Klemmen $0$ ist. Das ist hier nicht mehr der Fall.
 
-![invert_dark](../Physik/assets/INdu.png)
+![invert_dark](../_assets/INdu%201.png)
 
 Für die Spulenspannung einer Realen Spule mit Äquvalenten Serienwiderstand $R$ gilt dann
 
@@ -107,7 +107,7 @@ Für die Spulenspannung einer Realen Spule mit Äquvalenten Serienwiderstand $R$
 
 **Generatoren mit Rotationsbewegung**
 
-| ![invert_dark](assets/SynchGen.png)                      | ![invert_dark](assets/ReluGen.png)                                               |
+| ![invert_dark](../_assets/SynchGen.png)                      | ![invert_dark](../_assets/ReluGen.png)                                               |
 | -------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Prinzip des Sysnchrongenerators                          | Prinzip des Reluktanzgenerators                                                  |
 | Fluss ändert sich nicht (Luftspule rotiert im Luftspalt) | Magnetkreis selbst ändert sich. Breite des Luftspalts ist anhängig von der phase |
@@ -122,7 +122,7 @@ $\vec{\omega}$ ist ein Vektor mit der Richtung seiner Rotationsachse
 
 **Generatoren mit translatorischer Bewegung**
 
-![invert_dark](assets/transGen.png)
+![invert_dark](../_assets/transGen.png)
 
 Analog zur rotatorischen Bewegung gilt die Aufspaltung der Quellspannung $u_{\mathrm{q}} = \frac{\mathrm{d}\Psi}{\mathrm{d}t}(t,\vec{s})$ in eine *induktive* und eine *translatorische* Bewegung:
 
@@ -135,14 +135,14 @@ $$
 Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes entgegenwirkt** ([Lenzsche Regel](../Physik/Lenzsche%20Regel.md)).
 
 
-![indu-pulse](assets/indu-pulse.png)
+![indu-pulse](../_assets/indu-pulse.png)
 
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
-| Einschaltvorgang einer Induktivität    | Abschaltvorgang einer Induktivität     |
-| :--------------------------------------: | :--------------------------------------: |
-| ![indu-einsch](../Hardwareentwicklung/assets/indu-einsch.png) | ![indu-aussch](../Hardwareentwicklung/assets/indu-aussch.png) |
-| #todo                                  | #todo                                  |
+|              Einschaltvorgang einer Induktivität              |              Abschaltvorgang einer Induktivität               |
+| :-----------------------------------------------------------: | :-----------------------------------------------------------: |
+| ![indu-einsch](../_assets/indu-einsch.png) | ![indu-aussch](../_assets/indu-aussch.png) |
+|                             #todo                             |                             #todo                             |
 
 ---
 

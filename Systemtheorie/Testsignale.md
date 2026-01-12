@@ -25,7 +25,7 @@ professor:
 
 Die Rampenfunktion $\rho(t)$ steigt für $t>0$ linear mit der Zeit an.
 
-![400](assets/ramp_func.png)
+![400](../_assets/ramp_func.png)
 
 ## Reelle Exponentialfunktion
 
@@ -221,7 +221,7 @@ $$
 $$
 
 
-![500](assets/dirac_func.png)
+![500](../_assets/dirac_func.png)
 
 ### Eigenschaften
 

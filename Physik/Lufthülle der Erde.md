@@ -23,8 +23,8 @@ at: 10GHz
 | 0.93%  | Argon             |
 | 0.04%  | Kohlenstoffdioxid |  
 \+ Spuren von Anderen Edelgasen  
-![CNO](assets/CNO.png)  
-![Erdatmosphaere](assets/Erdatmosphaere.png)
+![CNO](../_assets/CNO.png)  
+![Erdatmosphaere](../_assets/Erdatmosphaere.png)
 
 
 ---

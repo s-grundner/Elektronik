@@ -44,7 +44,7 @@ Unterscheidung:
 - Containeradapter: diese Container haben keine Iteratoren  
   Beispiele: *stack*, *queue* und *priority_queue*
 
-![](assets/STL_Container.png)
+![](../../_assets/STL_Container.png)
 
 In den meisten Anwendungsfällen für einen sequentiellen Container sind *array* und *vector* die idealen Kandidaten. Gründe: schnellster Zugriff und kleinster Speicher-Overhead.
 

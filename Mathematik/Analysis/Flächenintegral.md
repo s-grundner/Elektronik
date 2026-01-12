@@ -14,7 +14,7 @@ professor:
 
 # Flächenintegral
 
-![InlineR|275](../../Elektrotechnik/assets/Flaechenintegral.png)
+![InlineR|275](../../_assets/Flaechenintegral.png)
 Das in Zusammenhang mit der [Stromdichte](Stromdichte.md) auftretende Flächenintegral ist eine spezielle Form zur Berechnung eines so genannten Flusses.
 
 Die vielleicht naheliegendste Form eines Flusses ist die [Strömung](../Physik/Strömung.md) einer Flüssigkeit. Das Strömungsfeld wird dabei durch das Geschwindigkeitsfeld der $\vec{v}$ [Strömung](../Physik/Strömung.md) beschrieben.

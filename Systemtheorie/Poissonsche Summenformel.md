@@ -57,7 +57,7 @@ Die Transformierte $F_{\mathrm{d}}$ ist eine Summenformel aus $e$-Funktionen gew
 > **Im Frequenzbereich**: Faltung mit dem Spektrum der Delta-Impulsfolge. *(Aus dem Spektrum $F_{a}(j\omega)$ wird eine $\frac{2\pi}{T}$ Periodische Überlagerung)*
 > $$f_{a}(t)\delta(t)\circ\mkern-7px-\mkern-7px\bullet \frac{1}{2\pi}\left[ F_{a}(j\omega)*\omega_{0}\delta_{\omega_{0}}(\omega) \right] = \frac{\omega_{0}}{2\pi}\sum_{k=-\infty}^{\infty} F_{a}(j\omega-jk\omega_{0})\tag{1}$$
 >
-> ![invert_dark|900](assets/DFT1.png)
+> ![invert_dark|900](../_assets/DFT1.png)
 > Aus der Korrespondenz $\delta(t-nT)\circ\mkern-7px-\mkern-7px\bullet e^{ -j\omega nT }$ folgt
 > 
 > $$\sum_{n=-\infty}^{\infty} f_{a}(nT)\delta(t-nT)\circ\mkern-7px-\mkern-7px\bullet \sum_{n=-\infty}^{\infty} f_{a}(nT)e^{ -j\omega nT }\tag{2}$$

@@ -17,7 +17,7 @@ professor:
 
 
 > [!def] **D1 - FUMA)** Definition der Fundamentalmatrix ^FUMA
-> Jedes System $\left\{\mathbf{x}_1, \ldots, \mathbf{x}_m\right\}$ von $m$ [linear unabhängigen](Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](Lineare%20DGL-Systeme.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](Algebra/Matrix.md)
+> Jedes System $\left\{\mathbf{x}_1, \ldots, \mathbf{x}_m\right\}$ von $m$ [linear unabhängigen](../Algebra/Lineare%20Abhängigkeit.md) Lösungen eines [homogenen DGL-Systems](Lineare%20DGL-Systeme.md#^AWP1-2) heißt **Fundamentalsystem**, die zugehörige [Matrix](../Algebra/Matrix.md)
 > 
 > $$
 > \mathbf{X}(t):=\left(\mathbf{x}_1(t), \ldots, \mathbf{x}_m(t)\right)
@@ -40,14 +40,14 @@ Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das D
 > $$
 
 
-Mittels dem [Gauß-Jordan](Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden. Die Lösung $\mathbf{\Phi}_{t}(x_{0})$ beschreibt den Fluss des Systems, also die zeitliche Änderung des Anfangswertes $x_{0}$ unter der Dynamik des Systems. Wenn man diesen Plottet erhält man einen Vektorplot der den Fluss der Lösung visualisiert
+Mittels dem [Gauß-Jordan](../Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden. Die Lösung $\mathbf{\Phi}_{t}(x_{0})$ beschreibt den Fluss des Systems, also die zeitliche Änderung des Anfangswertes $x_{0}$ unter der Dynamik des Systems. Wenn man diesen Plottet erhält man einen Vektorplot der den Fluss der Lösung visualisiert
 
 ## Transitionsmatrix
 
 (Ältere bezeichnung *Matrizant* ist nicht mehr üblich)
 
 > [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
-> Gilt außerdem $\mathbf{X}\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamentalmatrix**, bezeichnet mit $\mathbf{\Phi}$. 
+> Gilt außerdem $\mathbf{X}\left(t_0\right)=\mathbb{1}_m$ (die [Einheitsmatrix](../Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamentalmatrix**, bezeichnet mit $\mathbf{\Phi}$. 
 > 
 >  $$\mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})$$
 
@@ -82,7 +82,7 @@ gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem 
 
 Die Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme.md#^AWP1-1) lässt sich mit der variation der Konstanten lösen
 
- ![Variation der Konstanten](Analysis/Variation%20der%20Konstanten.md#^VARK)  
+ ![Variation der Konstanten](Variation%20der%20Konstanten.md#^VARK)  
 
 ## Ermittlung der Transitionsmatrix
 

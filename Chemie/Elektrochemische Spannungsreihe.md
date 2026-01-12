@@ -9,7 +9,7 @@ created: 12th September 2022
 # Elektrochemische [Spannungs](../Elektrotechnik/elektrische%20Spannung.md)reihe
 
 Ordnet man [Redoxpaare](Oxidation%20und%20Reduktion.md) (z.B.: $Zn_{(RED)}|Zn^{2+}_{(OX)}$) nach ihren Standardpotentialen E° beginnend mit der niedrigsten, so erhält man die Spannungsreihe  
-![800](assets/redoxpaare.png)
+![800](../_assets/redoxpaare.png)
 
 ## Was Lässt Sich Aus Tabelle Ableiten?
 

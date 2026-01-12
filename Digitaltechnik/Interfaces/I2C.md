@@ -1,21 +1,25 @@
 ---
 tags:
   - Interface/Serial/Sync
-  - incomplete
+  - MCU/Connectivity
 aliases:
   - TWI
   - Two-Wire Interface
   - Inter-Integrated-Circuit
+keywords:
 subject:
-  - dic
-source:
-  - Robert Vogl
-created: 11th April 2022
+  - VL
+  - Networked Embedded Systems
+semester: WS25
+created: 9th December 2025
+professor:
+release: false
+title: Inter-Integrated Circuit
 ---
 
 # I²C
 
-I2C is short for Inter-Integrated Circuit, which literally means the interconnection between multiple ICs. I2C is a simple Communication protocol which works on a serial data bus consisting of two wires, the Serial Data Line (SDA) and the Serial [Clock](../../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md) Line (SCL). The I2C-bus has following aspects:
+I2C is short for Inter-Integrated Circuit, which literally means the interconnection between multiple ICs. I2C is a simple Communication protocol which works on a serial data bus consisting of two wires, the Serial Data Line (SDA) and the Serial [Clock](../../Hardwareentwicklung/Oszillatoren/Clock-Generierung.md) Line (SCL). The I2C-bus has following aspects:
 
 - **Serial:** The data is transmitted on one line , where the data word is sent out bit by bit.
 - **Synchronous:** The bus has a clock line, controlling when a data word begins, and a bit is read.
@@ -39,6 +43,3 @@ Communication via I2C works as Follows: (In this case writing one byte to a regi
 | ------ | --- | ------- | --- | --- | --- | ---- | --- | --- |
 | Slave  |     |         | SAK |     | SAK |      | SAK |     |
 
----
-
-# Tags

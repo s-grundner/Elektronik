@@ -89,7 +89,7 @@ Das Heißt, die z-Transformierte konvergiert für alle $z$ mit größerem Betrag
 
 Es konvergieren alle werte vom $z$ **außerhalb** des **Konvergenzkreises** mit dem **Konvergenzradius** $R^{-}$ dessen Wert gleich dem Betrag des größten Poles ist.
 
-![invert_dark|400](assets/Pasted%20image%2020250208225644.png)
+![invert_dark|400](../_assets/Pasted%20image%2020250208225644.png)
 
 in dem Kreis befinden sich also alle Polstellen.
 
@@ -109,10 +109,10 @@ Das Konvergenzgebiet der z-Transformierten eines stabilen Signals schiließt den
 > [!satz] **S - ZTR)** Sätze zu den Rechenregeln der z-Transfomrmation
 >
 > > [!question]- Signalschreibweise
-> > ![](Systemtheorie/Korrespondenzen/zTransformation.md#^Z-T1) 
+> > ![](Korrespondenzen/zTransformation.md#^Z-T1) 
 > 
 > > [!question]- Folgenschreibweise
-> > ![](Systemtheorie/Korrespondenzen/zTransformation.md#^Z-T2) 
+> > ![](Korrespondenzen/zTransformation.md#^Z-T2) 
 
 |     | Endwertsatz     | $\lim_{ n \to \infty } f[n]=\lim_{ z \to 1 } (z-1) F(z)$ |
 | --- | --------------- | -------------------------------------------------------- |
@@ -136,7 +136,7 @@ Anfangs und Endwertsatz gelten nur, sofern der Grenzwert im Zeitbereich existier
 für die Kausalen Folgen $f[n] : \mathcal{Z}_{I}\left\{ f[n]\cdot \sigma[n] \right\}(z) = F(z)$ mit dem zeitdiskreten Einheitssprung $\sigma[n]$ 
 
 > [!satz]- **S)**
-> ![zTransformation](Systemtheorie/Korrespondenzen/zTransformation.md#^Z-T3)
+> ![zTransformation](Korrespondenzen/zTransformation.md#^Z-T3)
 
 # Motivation der Z-TRF für DZGL
 
@@ -163,12 +163,12 @@ $$
 
 | Normal                                                          | vertauschte Reihenfolge                                         |
 | --------------------------------------------------------------- | --------------------------------------------------------------- |
-| ![invert_dark\|900](assets/Pasted%20image%2020250208232743.png) | ![invert_dark\|900](assets/Pasted%20image%2020250208233416.png) |
+| ![invert_dark\|900](../_assets/Pasted%20image%2020250208232743.png) | ![invert_dark\|900](../_assets/Pasted%20image%2020250208233416.png) |
 
 ### Direktform II
 
 kanonische Form, minimaler Speicher
-![invert_dark](assets/Pasted%20image%2020250208232843.png)
+![invert_dark](../_assets/Pasted%20image%2020250208232843.png)
 
 
 ---

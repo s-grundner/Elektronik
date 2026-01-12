@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 1st May 2025
-title: 
+title: Alacritty
 release: false
 ---
 

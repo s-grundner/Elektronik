@@ -26,7 +26,7 @@ professor:
 
 Zur Grundlage werden zunächst eindimensionale- bzw. Eingrößen-Systeme betrachtet:
 
-![Systemtheorie]({MOC}%20Systemtheorie.md#^SYST)
+![Systemtheorie](index.md#^SYST)
 
 ## Linearität
 
@@ -41,7 +41,7 @@ LKE / LKA ... Linearkombination des Ein- / Ausgangs
 
 $\implies \mathcal{T}$ ist eine [lineare Abbildung](../Mathematik/Algebra/Lineare%20Abbildungen.md), welche Additivität und Homogenität erfüllt.
 
-![invert_dark](assets/LinSys.png)
+![invert_dark](../_assets/LinSys.png)
 
 > [!warning] **Zero In Zero-Out** Eigenschaft
 > Ein System ist nur dann echt Linear, wenn 0 am Eingang 0 am Ausgang leifert. ZIZO ist eine *notwendige* Bedingung
@@ -59,13 +59,13 @@ $\implies \mathcal{T}$ ist eine [lineare Abbildung](../Mathematik/Algebra/Linear
 
 ZVA / ZVE ... Zeitverschiebung am Ein- / Ausgang
 
-![invert_dark](assets/Pasted%20image%2020241120155809.png)
+![invert_dark](../_assets/Pasted%20image%2020241120155809.png)
 
 ## Systemantwort
 
 Ist ein lineares, zeitinvariantes System $\mathcal{T}\{\cdot\}$ mit dem Eingangssignal $x(t)$ und dem Ausgangssignal $y(t)$ gegeben, ist oft eine **allgemeine Formulierung** zur Berechnung des **Ausgangssignals** gesucht.
 
-![invert_dark|400](assets/LTI-System.png)
+![invert_dark|400](../_assets/LTI-System.png)
 
 ### Impulsantwort
 

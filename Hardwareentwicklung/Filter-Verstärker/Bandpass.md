@@ -35,8 +35,8 @@ Um das Betragsspektrum auf den Resonanzfall zu **normieren**, wird der Betragsga
 -  $\Omega = \frac{\omega}{\omega_{0}}$ 
 - $H'(j\Omega) = \frac{H(j\Omega)}{V_{0}}$
 
-![900](../../assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.md)%%
+![900](../../_assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Bandpass%202025-11-15%2017.24.56.excalidraw.md)%%
 
 
 ## Güte $Q$
@@ -52,9 +52,9 @@ Notation in der Regelungstechnik oft: $Q =\frac{1}{2\xi}$
 
 ### Schaltung
 
-![1000](../../assets/Excalidraw/BPF-LCR.svg)
+![1000](../../_assets/Excalidraw/BPF-LCR.svg)
 
-%%[🖋 Edit in Excalidraw](../../assets/Excalidraw/BPF-LCR.md)%%
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/BPF-LCR.md)%%
 
 ### Resonanzfrequenz
 
@@ -66,7 +66,7 @@ $$
 Zwei Möglichkeiten die Resonanzfrequenz zu ermitteln: Bei der Resonanzfrequenz $\omega_{0}$ ist
 
 1. die Impedanz der LC Serienschaltung gleich null: $-\jmath\frac{1}{\omega_{0} C} + \jmath\omega_{0} L = 1 - \omega_{0}^{2}LC = 0$
-2. der Betrag $\left| H_{\text{BP}}(\jmath\omega_{0}) \right|$ maximal ([Extremwert Aufgabe](Mathematik/Analysis/Extremwert.md))
+2. der Betrag $\left| H_{\text{BP}}(\jmath\omega_{0}) \right|$ maximal ([Extremwert Aufgabe](../../Mathematik/Analysis/Extremwert.md))
 
 Es folgt, dass 
 
@@ -87,4 +87,4 @@ Um die 3-dB Grenzfrequenzen $\omega_{c}$ zu erhalten setzt man den Betragsgang g
 
 ### Bandbreite und Güte
 
-> [!question] [Bandbreite](Hardwareentwicklung/Filter-Verstärker/Bandbreite.md) | [Güte](Hardwareentwicklung/Filter-Verstärker/Güte.md)
+> [!question] [Bandbreite](Bandbreite.md) | [Güte](Güte.md)

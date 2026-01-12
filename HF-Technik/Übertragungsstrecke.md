@@ -17,7 +17,7 @@ title: Übertragungsstrecke
 
 ## Digital Wireless Communication Link
 
-![](../assets/Excalidraw/cc1101-link.svg)
+![](../_assets/Excalidraw/cc1101-link.svg)
 
 Quellkodierung
 

@@ -23,7 +23,7 @@ Das Eingangssignal kann an den nicht invertierenden Eingang oder an den invertie
 
 ## Nicht-Invertierender Addierer
 
-![invert_dark](assets/Pasted%20image%2020241213005737.png)
+![invert_dark](../_assets/Pasted%20image%2020241213005737.png)
 
 Die Spannung am invertierenden Eingang ist $U_N=U_A \frac{R}{R+R}=\frac{U_A}{2}$. Wenn der OP korrekt arbeitet, dann versucht er $U_D$ auf 0 zu bringen, also $U_N=U_P$. Bei idealerweise verschwindendem Eingangsstrom des OP gilt dann die Knotengleichung:
 

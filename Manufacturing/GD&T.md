@@ -15,7 +15,7 @@ GD&T gibt toleranzen zu features und nicht dimensionen an.
 
 14 Geometrische charakteristiken
 
-![](assets/Pasted%20image%2020241111110524.png)
+![](../_assets/Pasted%20image%2020241111110524.png)
 
 Diese charaktaristika werden in **Feature-Control-Frames** (callouts) angegeben
 

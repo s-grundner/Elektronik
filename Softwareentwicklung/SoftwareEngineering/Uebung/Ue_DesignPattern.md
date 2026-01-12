@@ -44,7 +44,7 @@ Sehen Sie sich Singleton an in:
 
 Eine einfache Form-Factory hat die folgende Struktur:
 
-![invert_dark](Pattern_Factory_Formen.png)
+![invert_dark](../../../_assets/Pattern_Factory_Formen.png)
 
 Dabei ist die Fabrik nicht weiter abstrahiert sondern eine konkrete Klasse. Verwendet wird die Fabrik auf diese Art:
 
@@ -406,8 +406,6 @@ Rectangle:  oldDraw.  P1(120,200) | P2(180,240)
 ## Bridge
 
 In Java ist folgendes Brücken-Pattern zu implementieren:
-
- ![Bridge Pattern UML Diagram](bilder/Pattern_Bridge_Beispiel.jpg) 
 
 Bridge-Implementierungs-Interface
 

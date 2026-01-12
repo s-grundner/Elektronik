@@ -13,4 +13,4 @@ professor:
 
 # Maxwell-Wien-Brücke
 
-![[assets/Pasted image 20240415102954.png]]
+![[../_assets/Pasted image 20240415102954.png]]

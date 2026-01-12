@@ -20,7 +20,7 @@ title: Jordannormalform
 
 Für ein lineares System kann auf dessen lineare Abbildung ein beliebeiger Basiswechsel bzw. Zustandstransformation vorgenommen werden
 
-![](Zustandstransformation.md#^TRF)
+![](../../Systemtheorie/Zustandstransformation.md#^TRF)
 
 > [!success] Wir nehmen hier jedoch nicht irgendeine Matrix $\mathbf{T}$, sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$.
 > Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Analysis/Fundamentalmatrix.md) ist dann leicht zu bestimmen [^1]

@@ -17,5 +17,3 @@ created: 13th October 2022
 [Halbbrücken-Durchflusswandler](Halbbrücken-Durchflusswandler.md)
 
 # Tags
-
-![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/DigitalAnalogST/Schaltnetzteile_Schmidt-Walter.pdf)

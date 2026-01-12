@@ -31,11 +31,11 @@ $$
 > - Empfindlich gegen Amplitudenrauschen
 
 
-![invert_dark|500](assets/AM.png)
+![invert_dark|500](../_assets/AM.png)
 
 | Mischer                                  | Spannungsgesteuerter Verstärker (VCA)  |
 | :--------------------------------------: | :--------------------------------------: |
-| ![invert_dark\|500](assets/AM-Mixer.png) | ![invert_dark\|500](assets/AM-VCA.png) |
+| ![invert_dark\|500](../_assets/AM-Mixer.png) | ![invert_dark\|500](../_assets/AM-VCA.png) |
 
 - $s_{\text{IF}}(t)$: Nutzsignal als Schmalbandiges Zwischenfrequenzband (intermediate Frequency)
 - $s_{\text{LO}}(t)$: Träger (Local Oscillator)
@@ -78,12 +78,12 @@ Im Umkehrschluss gilt, dass ein **komplexwertiges nutzsignal** benötigt werden 
 #### Frequenzverschiebung im Spektrum
 
 - Wie [hier](HF-Technik/Modulation.md#Frequenzverschiebung) geziegt, äußert sich eine Frequenzverscheibung unter anderem durch eine multiplikation von Winkelfunktionen.
-- Eine Multiplikation im Zeitbereich führt zu einer Faltung im Bildbereich ([Fourier-Rechenregel (xiii)](Systemtheorie/Korrespondenzen/Fourier.md#^T1)).
-- Ein Kosinus $s_{\text{LO}}(t)=\cos(2\pi f_{0}t)$ korrespondiert zu zwei [Dirac-Impulse](../Mathematik/Delta-Impuls.md) bei der Positiven und negativen frequenz ([Fourier-Korrespondenz (ii)](Systemtheorie/Korrespondenzen/Fourier.md#^T2))
+- Eine Multiplikation im Zeitbereich führt zu einer Faltung im Bildbereich ([Fourier-Rechenregel (xiii)](../Systemtheorie/Korrespondenzen/Fourier.md#^T1)).
+- Ein Kosinus $s_{\text{LO}}(t)=\cos(2\pi f_{0}t)$ korrespondiert zu zwei [Dirac-Impulse](../Mathematik/Delta-Impuls.md) bei der Positiven und negativen frequenz ([Fourier-Korrespondenz (ii)](../Systemtheorie/Korrespondenzen/Fourier.md#^T2))
 - Faltung mit einem Dirac Delta wertet das Spektrum des Nutzsignals an seiner Stelle aus ([Abstasteigenschaft](../Mathematik/Delta-Impuls.md#^ABT))
 
-![1000](../assets/Excalidraw/Amplitudenmodulation%202025-11-15%2001.57.14.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/Amplitudenmodulation%202025-11-15%2001.57.14.excalidraw.md)%%
+![1000](../_assets/Excalidraw/Amplitudenmodulation%202025-11-15%2001.57.14.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Amplitudenmodulation%202025-11-15%2001.57.14.excalidraw.md)%%
 
 > [!question]- Mathematische herleitung
 > 

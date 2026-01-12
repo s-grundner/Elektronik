@@ -83,5 +83,5 @@ $$
 
 Ein Teil der [Schwingkreis](../../Physik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
 
-![500](../assets/ColpittsCalc.png)  
-![Pasted image 20221128104421](../assets/ColpittsCalc2.png)
+![500](../../_assets/ColpittsCalc.png)  
+![Pasted image 20221128104421](../../_assets/ColpittsCalc2.png)

@@ -90,7 +90,7 @@ Je nach genauigkeit der Kleinsignalannäherung kommen in dem Ausdruck verschiede
 
 - [Zener-Diode](Zener-Diode.md)
 - Tunnel-Diode
-- [Leucht-Dioden](Leucht-Dioden)
+- Leucht-Dioden
 - [Kapazitäts-Diode](Kapazitäts-Diode.md)
 - [TVS-Diode](TVS-Diode.md)
 - [Schottky-Diode](Schottky-Diode.md)

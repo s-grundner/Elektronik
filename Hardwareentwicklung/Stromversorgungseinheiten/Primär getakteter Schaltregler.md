@@ -8,7 +8,7 @@ created: 2nd October 2022
 
 # Primär getakteter [Schaltregler]({MOC}%20Schaltnetzteil.md)
 
-![PrimGetaktSMPS](../assets/PrimGetaktSMPS.png)
+![PrimGetaktSMPS](../../_assets/PrimGetaktSMPS.png)
 
 ## Eigenschaften
 
@@ -38,7 +38,7 @@ created: 2nd October 2022
 - Speichertransformator
 - geringer [Streuverlust](../../HF-Technik/Streuparameter.md) (Streuverlust verursacht Selbstinduktion)
 
-![325](../assets/Trafo-Streuung.png)
+![325](../../_assets/Trafo-Streuung.png)
 
 ### Glättungskondensator
 
@@ -61,6 +61,3 @@ created: 2nd October 2022
 
 # Tags
 
-![SMPS_intro](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)
-
-![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/DigitalAnalogST/Schaltnetzteile_Schmidt-Walter.pdf)

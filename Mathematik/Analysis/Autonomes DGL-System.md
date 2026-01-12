@@ -38,7 +38,7 @@ Mit diesem Ansatz kommt man auch zu einer Lösung für $m>1$: Und zwar mit der [
 
 ### Fundamentallösung
 
-Für die [Fundamentalmatrix](Analysis/Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. der [Transitionsmatrix](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}(t)$ ergibt sich.
+Für die [Fundamentalmatrix](Fundamentalmatrix.md#^FUMA) $\mathbf{X(t)}$ bzw. der [Transitionsmatrix](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}(t)$ ergibt sich.
 
 $$\mathbf{X}(t) = e^{ \mathbf{A}t } \qquad \mathbf{\Phi}(t)=e^{ \mathbf{A}(t-t_{0}) }$$
 

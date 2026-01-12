@@ -20,7 +20,7 @@ created: 6th April 2022
 
 ## Adressierung der Transportschicht
 
-Die Adressierung erfolgt in der Transportschicht mit [Sockets](Sockets)
+Die Adressierung erfolgt in der Transportschicht mit Sockets
 
 ## Protokolle der Transportschicht
 
@@ -44,4 +44,4 @@ Die Adressierung erfolgt in der Transportschicht mit [Sockets](Sockets)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vdc8TCESIg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![9-FS_ComputerNetze](assets/Christian-Baun-pdf/9-FS_ComputerNetze.pdf)
+![9-FS_ComputerNetze](../xEDU/xExtra/Christian-Baun-pdf/9-FS_ComputerNetze.pdf)

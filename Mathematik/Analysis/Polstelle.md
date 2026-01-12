@@ -16,4 +16,4 @@ $x$-Wert an dem $f(x)$ unbestimmt ist.
 
 # Oszillationsstelle
 
-![](../../assets/Pasted%20image%2020231030151256.png)
+![](../../_assets/Pasted%20image%2020231030151256.png)

@@ -1,8 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 3. März 2025
-title: 
+title: Excalidraw
 release: false
 ---
 

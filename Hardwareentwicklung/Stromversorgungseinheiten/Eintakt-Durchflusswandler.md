@@ -16,12 +16,12 @@ created: 13th October 2022
 - [Leistung](../../Elektrotechnik/elektrische%20Leistung.md) bis einige $100W$
 - Transistorsperrspannung $U_{DS} \geq 2U_{e}$
 - Tastverhältnis $\frac{t_{ein}}{T} \leq 0.5$
-- Sehr gute [magnetische Kopplung](../magnetische%20Kopplung.md) notwendig
+- Sehr gute [Magnetische kopplung](../Magnetische%20kopplung.md) notwendig
 - Kleiner Kern ohne Luftspalt
 
 ## Schaltbild
 
-![ET_DFW](../assets/ET_DFW.png)
+![ET_DFW](../../_assets/ET_DFW.png)
 
 $$
 U_{a}=U_{e}\cdot \frac{t_{1}}{T_{S}}\cdot \frac{N_{2}}{N_{1}}
@@ -29,7 +29,7 @@ $$
 
 ## Lauf-Zeit Diagramm
 
-![DurchflussWandlerLZD](../assets/DurchflussWandlerLZD.png)
+![DurchflussWandlerLZD](../../_assets/DurchflussWandlerLZD.png)
 
 ## Schaltstufe $S$
 
@@ -77,6 +77,4 @@ $$
 ---
 
 # Tags
-
-![Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/DigitalAnalogST/Schaltnetzteile_Schmidt-Walter.pdf)
 

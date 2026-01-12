@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # Backtracking - Übungen
 
-## Labyrinth Erzeugung + Grafische Darstellung in Windows ([C++](../../Cpp/{MOC}%20Cpp.md)350, C2104)
+## Labyrinth Erzeugung + Grafische Darstellung in Windows ([C++](../../Cpp/index.md)350, C2104)
 
 Stellen Sie das Labyrinth grafisch dar (es werden Wege und nicht Wände gezeichnet):
 
@@ -96,7 +96,7 @@ Bringen Sie das Java-Programm *VisualLabyrinth.html* zum Laufen. Dazu muss die S
 
 Acht Damen sollen so auf einem 8x8-Felder Schachbrett platziert werden, dass keine Dame eine andere bedroht. Damen bedrohen Figuren entlang der waagrechten, senkrechten und diagonalen Linien:
 
-![8damen](../assets/8damen.png)
+![8damen](../../../_assets/8damen.png)
 
 Wird die Dame im dargestellten Feld gesetzt, dann darf keine weitere Dame auf den mit Punkten markierten Feldern stehen.
 
@@ -219,7 +219,7 @@ Erweitern Sie den js-Code des 8-Damen-Problems so, dass die HTML-Datei Backtrack
 
 Gegeben ist ein Sudoku Feld mit neun 3x3 großen Teilfeldern. Die Teilfelder sind 3x3 angeordnet.
 
-![sudokufeld](../assets/sudokufeld.png)
+![sudokufeld](../../../_assets/sudokufeld.png)
 
 
 
@@ -240,7 +240,7 @@ Zu Beginn sind in manchen Feldern bereits Ziffern eingetragen. Die fehlenden Fel
 
 Mittels Springer (Schachfigur-Pferd) soll auf einem leeren Schachbrett (8x8 Felder) ein Weg gefunden werden um sämtliche Felder genau einmal zu besuchen. Als Bewegung für den Springers ist dabei nur erlaubt: 2 Felder in eine beliebige Richtung und 1 Feld in eine rechtwinklig davon abgehende Richtung:
 
-![springer01](../assets/springer01.png)
+![springer01](../../../_assets/springer01.png)
 
 Es ergeben sich daraus die dargestellten, möglichen acht Bewegungen. Das Ergebnis kann so aussehen (hier Start auf 0/0):
 

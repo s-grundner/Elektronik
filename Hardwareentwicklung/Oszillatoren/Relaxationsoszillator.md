@@ -18,8 +18,8 @@ created: 20th December 2022
 
 ### Schaltung
 
-![Relaxations-Osz](../assets/Relaxations-Osz.png)
+![Relaxations-Osz](../../_assets/Relaxations-Osz.png)
 
 # Tags
 
-[Oszillator](Clock%20Generierung.md)
+[Oszillator](Clock-Generierung.md)

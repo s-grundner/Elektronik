@@ -19,5 +19,5 @@ Ausgangspunkt ist das autome DGL-System eines [freies LTI-System](Systemtheorie/
 
 Dann gilt die Eigenwertgleichung, mit dem Rechtseigenvektor $\mathbf{v}$ zum Eigenwert $\lambda$
 
-![Eigenvektor](Mathematik/Algebra/Eigenvektor.md#^EWGL)
+![Eigenvektor](../Mathematik/Algebra/Eigenvektor.md#^EWGL)
 

@@ -63,7 +63,7 @@ created: 29th November 2022
    - Review
    - Retrospective
 
-![Scrum_01](Scrum_01.png)
+![Scrum_01](../../../_assets/Scrum_01.png)
 
 ## SCRUM Training Series (by COLLABNET)
 

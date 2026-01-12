@@ -11,7 +11,7 @@ created: 4th April 2022
 Das ISO/OSI-Referenzmodell (englisch Open Systems Interconnection model) ist ein Referenzmodell für Netzwerkprotokolle als Schichtenarchitektur. Es wird seit 1983 von der International Telecommunication Union (ITU) und seit 1984 auch von der International Organization for Standardization (ISO) als Standard veröffentlicht. Seine Entwicklung begann im Jahr 1977.
 
 > [!INFO] Zweck des OSI-Modells ist es, Kommunikation über unterschiedlichste technische Systeme hinweg zu beschreiben und die Weiterentwicklung zu begünstigen.  
-> Dazu definiert dieses Modell sieben aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht mit klaren [Schnittstellen](../Digitaltechnik/Interfaces/{MOC}%20Schnittstellen.md) definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn sie wie das [Internet Protocol](Internet%20Protocol.md) eine zentrale Funktion haben.
+> Dazu definiert dieses Modell sieben aufeinanderfolgende Schichten (engl. layers) mit jeweils eng begrenzten Aufgaben. In der gleichen Schicht mit klaren [Schnittstellen](../Digitaltechnik/Interfaces/index.md) definierte Netzwerkprotokolle sind einfach untereinander austauschbar, selbst wenn sie wie das [Internet Protocol](Internet%20Protocol.md) eine zentrale Funktion haben.
 
 > [!WARNING] Früh wurde erkannt: Kommunikation ist komplex, daher:
 > - zur Vereinfachung wird der komplexe (Kommunikations-) Vorgang in einfache Teilschritte aufgeteilt
@@ -27,7 +27,7 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 
 ## Schichten
 
-![invert_dark](assets/NW_Schichtenmodell_Einf.png)
+![invert_dark](../_assets/NW_Schichtenmodell_Einf.png)
 
 | Layer | Name (DE)                                           | Name (EN)                                   | Einheit  |
 |:-----:| --------------------------------------------------- | ------------------------------------------- | -------- |
@@ -48,7 +48,7 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 > 
 > - Schichten 5-7: **Anwendungssystem** - für dieses System ist eine komplette End-zu-End-Verbindung gewährleistet.
 > 
-> ![invert_dark](assets/NW_Schichtenmodell.png)
+> ![invert_dark](../_assets/NW_Schichtenmodell.png)
 > 
 > Definition der Begriffe: Bits, Frames, Pakete, Segmente, Daten (siehe Bild): sind jeweils das Gleiche, kennzeichnen lediglich in welcher Schicht sie sich befinden. Zuordnung von (sehr gängigen) Protokollen zu den Schichten (siehe Bild).
 
@@ -56,7 +56,7 @@ Die Idee ist sehr gut, allerdings haben sich vielfach die unteren Schichten als 
 
 Die Kommunikation mittels eines Schichtenmodells wirkt so als kommuniziert etwa die Darstellungsschicht mittels eines Darstellungsprotokolls mit einem zweiten Teilnehmer der Darstellungsschicht (-> starke Vereinfachung). Unsichtbar ist eine Schicht dafür zuständig in die nächste Schicht zu übertragen. In jedem zwischengeschalteten Teilnehmer funktioniert das gleich. Bis in welche Ebene kommuniziert wird, hängt von der eingesetzten Komponente ab:
 
-![invert_dark](assets/NW_Schichtenmodell_Real.png)
+![invert_dark](../_assets/NW_Schichtenmodell_Real.png)
 
 Hier ist **Host A** mit **Router 1** verbunden. Dieser ist (via weiterer, hier nicht dargestellter Komponenten) wiederum mit einem weiterem **Router n** verbunden. In einem Router (in einem TCP/IP-Netzwerk) werden die empfangenen Daten bis in die Vermittlungsschicht ausgepackt, der Empfänger damit ermittelt, für den Weitertransport wieder entsprechend verpackt und weitergesendet.
 
@@ -69,7 +69,7 @@ Hier ist **Host A** mit **Router 1** verbunden. Dieser ist (via weiterer, hier n
 
 Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protokollen) = DoD-Protokollfamilie (**D**epartment **o**f **D**efence), 4 Ebenen:  
 
- ![invert_dark](assets/NW_Schichtenmodell_IP.png)
+ ![invert_dark](../_assets/NW_Schichtenmodell_IP.png)
 
 > - **Application Layer** OSI-Layer 5,6, und 7; Nachricht bestehend aus Header und Daten.
 > - **Transport Layer** OSI-Layer 4 und teilweise 5; Segment bestehend aus Header und Nachricht und 
@@ -78,7 +78,7 @@ Internet-Protokollfamilie = TCP/IP-Protokollfamilie (nach den beiden Kern Protok
 
 Die niedrigen Schichten beinhalten immer die kompletten oberen Schichten, erweitert um einen Schichtspezifischen Header. Der TCP-Header beinhaltet den Quell-/Ziel-Port, der IP-Header beinhaltet die Quell-/Ziel-IP-Adresse und die beiden [Ethernet](Ethernet.md)-Schichten darunter die Quell-/Ziel-MAC-Adressen (Achtung: Bild nicht maßstabgerecht):
 
-![](assets/NW_Internetprotokollfam.png)
+![](../_assets/NW_Internetprotokollfam.png)
 
 # Tags
 

@@ -62,13 +62,13 @@ Durch den **Kommutator / Stromwender** wird die Stromrichtung immer so *umgekehr
 
 Die Kontakte des Kommutators (A-a, B-b) weisen eine interne Verbindung auf.
 
-![invert_dark](../assets/DCfunk0.jpg)
+![invert_dark](../../_assets/DCfunk0.jpg)
 
 **Zustand 2)** $I_{A}: b\to a$
 
 Der Rotor hat sich um $90°$ gedreht. Hier wird ersichtlich wie der Stromwender funktioniert.
 
-![invert_dark](../assets/DCfunk90.jpg)
+![invert_dark](../../_assets/DCfunk90.jpg)
 
 ## Stationäres Betriebsverhalten
 
@@ -93,7 +93,7 @@ Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM. 
 
 Der Drehsinn des Drehmoments kann wieder daran bestimmt werden, dass der Ankerfluss die Richtung des Erregerflusses über die kürzeste Bewegung anstrebt. 
 
-![invert_light|400](assets/GSM-ESB.png)
+![invert_light|400](../../_assets/GSM-ESB.png)
 
 Dieses Schaltbild kann stationär immer so betrachtet werden, da es im Rotor immer eine Ankerwicklung in dieser Position gibt.
 
@@ -164,7 +164,7 @@ Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise
 
 Bei der fremderregten Maschine sind Erreger- und Ankerwicklung schlatungsmäßig voneinander entkoppelt. Diese Variante wird besonders für drehzahlgeregelte Antriebslösungen herangezogen.
 
-![invert_dark|300](../../assets/fremderregt.png)
+![invert_dark|300](../../_assets/fremderregt.png)
 
 $$
 \Phi(I_{\mathrm{E}}) = \frac{\Theta}{\mathfrak{R}}=\frac{NI_{\mathrm{E}}}{\mathfrak{R}}
@@ -179,7 +179,7 @@ Die Reihenschlussmaschine kann - anders als die Nebenschlussmaschine - auch mit 
 
 Hier wird statt einer Erregerinduktivität (mit Eisenrückschluss) ein Permanentmagnet mit Eisenrückschluss verwendet, um den Erregerfluss zu erzeugen.
 
-![invert_dark|300](../../assets/permerregt.png)
+![invert_dark|300](../../_assets/permerregt.png)
 
 $$
 \Phi = \frac{\Theta_{c}'}{\mathfrak{R}_{\mathrm{pm}}+\mathfrak{R}} = \frac{H_{c}'l_{\mathrm{pm}}}{\mathfrak{R}_{\mathrm{pm}}+\mathfrak{R}}, \quad
@@ -195,7 +195,7 @@ $$
 In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zueinander am Netz. Das Erregerfeld wird direkt durch die Netzspannung eingeprägt.
 
 
-![invert_light|300](assets/nebenschluss.png)
+![invert_light|300](../../_assets/nebenschluss.png)
 
 
 $$
@@ -210,7 +210,7 @@ $$
 
 ### Reihenschlusserregung
 
-![invert_light|300](assets/reihenschluss.png)
+![invert_light|300](../../_assets/reihenschluss.png)
 
 Im Gegensatz zur Nebenschlusserregung sind hier die beiden Wicklungen hintereinandergeschaltet. Der Erregerstrom entspricht daher dem Ankerstrom. Dies bedeutet, dass die Felderregung belastungsabhänging erfolgt. 
 
@@ -231,7 +231,7 @@ $$
 
 In Summe sind diese Momente $0$: $\int M_{c}(\varphi) \mathrm{~d}\varphi_{r}=0$
 
-![invert_dark|500](assets/Nutrasten.png)
+![invert_dark|500](../../_assets/Nutrasten.png)
 
 
 ---

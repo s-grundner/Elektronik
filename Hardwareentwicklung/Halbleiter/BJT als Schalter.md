@@ -6,4 +6,4 @@
 
 ---
 
-- [Transistor_als_Schalter_intro](../assets/pdf/Transistor_als_Schalter_intro.pdf)
+- [Transistor_als_Schalter_intro](../../_assets/pdf/Transistor_als_Schalter_intro.pdf)

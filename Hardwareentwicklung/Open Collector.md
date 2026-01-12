@@ -8,7 +8,7 @@ created: 31st January 2023
 
 # Open Collector
 
-  ![450](assets/open-drain.png)
+  ![450](../_assets/open-drain.png)
 
 # Tags
 

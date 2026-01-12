@@ -104,7 +104,7 @@ $$
 d(\mathbf{x}, \mathbf{y})=\left|x_1-y_1\right|+\left|x_2-y_2\right|+\ldots+\left|x_n-y_n\right|
 $$
 
-![invert_dark|500](../../assets/Pasted%20image%2020241022103316.png)
+![invert_dark|500](../../_assets/Pasted%20image%2020241022103316.png)
 
 
 Für $p=2$ folgt wieder der Euklidsche Abstand

@@ -21,8 +21,8 @@ professor:
 
 ## Schwingkreise als duale Zweipole
 
-![invert_dark](assets/dualZP_SK.png)
+![invert_dark](../_assets/dualZP_SK.png)
 
 # Tags
 
-![4000](../assets/Excalidraw/Schwingkreise%202024-01-17%2009.08.32.excalidraw.md)
+![4000](../_assets/Excalidraw/Schwingkreise%202024-01-17%2009.08.32.excalidraw.md)

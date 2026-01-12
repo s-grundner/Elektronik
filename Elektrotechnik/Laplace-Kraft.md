@@ -17,7 +17,7 @@ professor:
 
 # Magnetische Kraft (Laplace Kraft)
 
-![](assets/LaplaceKraft.png)
+![](../_assets/LaplaceKraft.png)
 
 
 > [!info] Laplace-Kraft: Magentische Kraft
@@ -27,4 +27,4 @@ professor:
 > und ist teil der [Lorentz-Kraft](Lorentz-Kraft.md).
 
 
-![invert_dark](assets/BewegterLeiter.png)
+![invert_dark](../_assets/BewegterLeiter.png)

@@ -57,7 +57,7 @@ Wie findet ein IP Paket den Weg zum Zielrechner:
 
 ### Aufbau eines IPv4-Paketes
 
-![400](../assets/IPv4.png)
+![400](../_assets/IPv4.png)
 
 | Nummer | Segment             | Größe (bit) | Beschreibung / Funktion        |
 | ------ | ------------------- | ----------- | ------------------------------ |

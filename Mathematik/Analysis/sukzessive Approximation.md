@@ -27,11 +27,11 @@ professor:
 > \end{align}
 > $$
 > 
-> 3. Die Lösung $x$ des [AWP](GDGL.md) wird [analytisch](Analysis/Numerische%20Lösungsverfahren%20von%20DGL.md) mit der Funktionenfolge $\varphi_{n}$ approximiert:
+> 3. Die Lösung $x$ des [AWP](GDGL.md) wird [analytisch](Numerische%20Lösungsverfahren%20von%20DGL.md) mit der Funktionenfolge $\varphi_{n}$ approximiert:
 > 
 > $$\boxed{ \varphi_{0}(t) := x_{0}, \quad\varphi_{n}(t):= (A\cdot\varphi_{n-1})(t) }$$
 
-> [!info] Operator $A$ ist eine Abbildung von dem [Raum](Algebra/Raum%20(Mathematik).md) der Stetigen funktionen in sich selbst.
+> [!info] Operator $A$ ist eine Abbildung von dem [Raum](../Algebra/Raum%20(Mathematik).md) der Stetigen funktionen in sich selbst.
 > $A$ nimmt eine stetige Funktion und produziert wieder eine solche
 
 
@@ -59,7 +59,7 @@ $$
 \boxed{ \lvert\lvert g \rvert\rvert _{w}:= \underset{ t \in[t_0 - \alpha, t_0 + \alpha] }{ \operatorname{max} } e^{ -2Lt } \cdot \lvert\lvert g \rvert\rvert _{\infty} }
 $$
 
-$X$ hat keine Löcher bzw. $x$ ist vollständig $\to$   ist ein [Barnachraum](Analysis/Barnachscher%20Fixpunktsatz.md)
+$X$ hat keine Löcher bzw. $x$ ist vollständig $\to$   ist ein [Barnachraum](Barnachscher%20Fixpunktsatz.md)
 
 ## Spezialisierung auf homog. lineare DGL-Systeme
 

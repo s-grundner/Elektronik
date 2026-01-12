@@ -1,4 +1,4 @@
-# Unit-Test Mit QTCreator [C++](../../Cpp/{MOC}%20Cpp.md) (651)
+# Unit-Test Mit QTCreator [C++](index.md) (651)
 
 - [Chapter 1: Writing a Unit Test | Qt Test 5.15.16](https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html)
 - [Qt DevDays 2006 - Unit Testing in Qt Applications: Harald Fernengel - YouTube](https://www.youtube.com/watch?v=MqI8jPFcSkE)

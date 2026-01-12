@@ -16,7 +16,7 @@ professor:
 
 > [!success] Modell für Atom, Stationäre Zustände
 
-![invert_dark](assets/TeilchenImKasten.png)
+![invert_dark](../_assets/TeilchenImKasten.png)
 
 $$
 \psi(x)= \sqrt{ \frac{2}{L} }\cdot \sin\left( \frac{n\pi}{L}\cdot x \right)

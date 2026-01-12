@@ -22,17 +22,17 @@ def:
 # Gradient
 
 > [!def] **D1 - GRAD)** Gradient. Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$
-> Ist $f$ [partiell](Partielle%20Ableitung.md) differenzierbar in $x$, liefert der Gradient von $f$ den [Vektor](../../Algebra/Vektor.md) aller partiellen Ableitungen an der Stelle $x$:
+> Ist $f$ [partiell](../Partielle%20Ableitung.md) differenzierbar in $x$, liefert der Gradient von $f$ den [Vektor](../../Algebra/Vektor.md) aller partiellen Ableitungen an der Stelle $x$:
 > 
 > $$\operatorname{grad} f(x):=\left(\frac{\partial f}{\partial x_1}(x), \ldots, \frac{\partial f}{\partial x_n}(x)\right)=\nabla f(x)$$
 > der *Gradient* von $f$ an der Stelle $x$; statt $\operatorname{grad} f(x)$ verwendet man auch den [Nabla Operator](Nabla%20Operator.md) $\nabla f(x)$ (lies: Nabla $f$ ).
 
 Die Funktion $f:A\to \mathbb{R}$ ist ein **Skalarfeld**. Wendet man den Gradienten darauf an, so erhält man ein Vektorfeld mit der Besonderen Eigenschaft der [Wegunabhängigkeit](Wegunabhängig.md)
 
-## Jacobi [Matrix](Algebra/Matrix.md)
+## Jacobi [Matrix](../../Algebra/Matrix.md)
 
 > [!def] **D2 - JACM)** Jakobi Matrix. Sei $A \subset \mathbb{R}^n$ offen. Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
-> Falls $\dfrac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[Matrix]]
+> Falls $\dfrac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[../../Algebra/Matrix]]
 > 
 > $$
 > J_{f}(x):=\begin{pmatrix}
@@ -42,9 +42,9 @@ Die Funktion $f:A\to \mathbb{R}$ ist ein **Skalarfeld**. Wendet man den Gradient
 > \end{pmatrix}
 > $$
 > 
-> *Jacobi-[[Matrix]]* (oder *Funktionalmatrix*) von $f$ an der Stelle $x$; Symbole: $D f(x)$ oder $J_f(x)$.
+> *Jacobi-[[../../Algebra/Matrix]]* (oder *Funktionalmatrix*) von $f$ an der Stelle $x$; Symbole: $D f(x)$ oder $J_f(x)$.
 
-## Hesse [Matrix](Algebra/Matrix.md)
+## Hesse [Matrix](../../Algebra/Matrix.md)
 
 > [!def] **D2 - HESM)** Die Matrix die sich bei der zweiten partiellen Ableitung ergibt ist die Hessematrix
 > $$
@@ -54,7 +54,7 @@ Die Funktion $f:A\to \mathbb{R}$ ist ein **Skalarfeld**. Wendet man den Gradient
 \dfrac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \dfrac{\partial^2 f}{\partial x_n^2}
 \end{array}\right)
 > $$
-> Die Symmetrie der Hessematrix ist durch den [Satz von Schwarz](Analysis/Partielle%20Ableitung.md) gegeben.
+> Die Symmetrie der Hessematrix ist durch den [Satz von Schwarz](../Partielle%20Ableitung.md) gegeben.
 
 > [!example] $f: \mathbb{R}^{n}\mapsto \mathbb{R}, \quad \vec{x}=(x,y)$
 > 

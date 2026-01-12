@@ -10,7 +10,7 @@ created: 10th September 2022
 
 # Wirkungsquerschnitt
 
-![](assets/Wirkungsquerschnitt.png)
+![](../_assets/Wirkungsquerschnitt.png)
 
 https://de.wikipedia.org/wiki/Wirkungsquerschnitt
 

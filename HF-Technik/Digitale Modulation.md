@@ -19,8 +19,8 @@ title: Digitale Modulation
 
 Digitale Modulation ist ein wichtiger Bestandteil einer digitalen [Übertragungsstrecke](HF-Technik/Übertragungsstrecke.md).
 
-![invert_light](../assets/Excalidraw/digiModChannel.svg)
-%%[🖋 Edit in Excalidraw](../assets/Excalidraw/digiModChannel.md)%%
+![invert_light](../_assets/Excalidraw/digiModChannel.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/digiModChannel.md)%%
 
 |       Signal        | Signalbeschreibung   |                                     Beschreibung                                     | Anmerkung                                                                                          |
 | :-----------------: | -------------------- | :----------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------------------- |

@@ -44,6 +44,6 @@ Der Frequenzgang ist auf der Imaginärachse der Transformierten abgebildet. Der 
 Darstellungsformen des Frequenzganges:
 
 - [Bode Plot](Bode%20Plot.md)
-- [Ortskurve](Ortskurve.md)
+- [Ortskurve](Regelungstechnik/Ortskurve.md)
 
 # Quellen

@@ -18,4 +18,4 @@ professor:
 > [!question] Vektorielles Flächenelements $\Delta \vec{A}$ 
 > Zeigt in Richtung der Flächennormale und der [Betrag](../../Algebra/Betrag.md) entspricht der Fläche.
 
-![InlineR|275](../../../Elektrotechnik/assets/Flaechenintegral.png)
+![InlineR|275](../../../_assets/Flaechenintegral.png)

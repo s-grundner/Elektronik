@@ -16,7 +16,7 @@ professor:
 # Filter
 
 > [!quote] Unter einem Filter versteht man ...
-> ... ein [System](../../Systemtheorie/{MOC}%20Systemtheorie.md), das gewisse Frequezkomponenten eines [Signals](../../Systemtheorie/Signale.md) im Vergleich zu anderen verändert, z.B. durch
+> ... ein [System](../../Systemtheorie/index.md), das gewisse Frequezkomponenten eines [Signals](../../Systemtheorie/Signale.md) im Vergleich zu anderen verändert, z.B. durch
 >
 > - Unterdrückung
 > - Verstärkung
@@ -26,7 +26,7 @@ Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemt
 
 ## Übertragungsfunktionen
 
-- [[Tiefpass]] Filter
+- [[../Tiefpass]] Filter
 - [[Hochpass]] Filter
 - [Bandpass](Bandpass.md) Filter
 - Andere (Kombinationen)
@@ -39,7 +39,7 @@ Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemt
 
 ## Art des Aufbaus
 
-- [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](../../Systemtheorie/Digitaler%20Filter.md)
+- [Passiver Filter](../Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](../../Systemtheorie/Signalverarbeitung/Digitaler%20Filter.md)
 - Filtercharakteristik (Verhalten der Schaltung)
     - Form der Übertragungsfunktion
 - Topologie (Realisierung der Schaltung)

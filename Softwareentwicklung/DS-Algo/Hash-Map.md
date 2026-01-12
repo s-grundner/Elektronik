@@ -30,7 +30,7 @@ Zum Abspeichern steht ein $m$ Plätze großer Speicherbereich (**Behälter**) zu
 Die Hashfunktion $h$ bildet den Wertebereich des Schlüssels auf den Index der $m$ Speicherplätze ab.
 
 > Hashtabellen sind Arrays in welchen sich die Position im Array aus dem Schlüssel von Datenobjekten berechnet.  
-![invert_dark](../assets/HashTable_01.png)
+![invert_dark](../../_assets/HashTable_01.png)
 
 ## Beispiel
 
@@ -71,7 +71,7 @@ Verbesserung durch Reorganisation: Tabellengröße dynamisch, Hashfunktion anpas
 - Jedes Element wird durch einen eindeutigen **Schlüssel** identifiziert.
 
 
-  ![invert_dark](assets/AssocList.png)
+  ![invert_dark](../../_assets/AssocList.png)
 
 Beispiel Telefonbuch:
 
@@ -83,7 +83,7 @@ Beispiel Telefonbuch:
 
   Telefonbuch["Huber"] --> "0662/737373"
 
-für [C++](../Cpp/{MOC}%20Cpp.md):
+für [C++](../Cpp/index.md):
 
 ```c++
 map<string, string> telbuch;			// include map, using std
@@ -96,7 +96,7 @@ telbuch[ "Kaiser" ] = "0500/554432";
 cout << telbuch[ "Maier" ];
 ```
 
-> [!EXAMPLE] Beispiel ([C++](../Cpp/{MOC}%20Cpp.md)):
+> [!EXAMPLE] Beispiel ([C++](../Cpp/index.md)):
 ```c++
 // include iostream, map, string, iterator
 // using 
@@ -130,7 +130,7 @@ if(mapOfWords.find("Mars") == mapOfWords.end())
 ```
 
 - Elemente Einfügen: Zugriff mit eckiger Klammer, dabei wird ein bereits vorhandener Schlüssel einfach Überschrieben. Mittels *.insert* wird ein bestehendes Element nicht überschrieben. Mit *.second* kann gleichzeitig geprüft werden ob das Element eingefügt wurde.
-- Auch für maps in [c++](../Cpp/{MOC}%20Cpp.md) gibt es Iteratoren: siehe Beispiel
+- Auch für maps in [c++](../Cpp/index.md) gibt es Iteratoren: siehe Beispiel
 
 > [!EXAMPLE] Beispiel Java:
 ```java

@@ -35,7 +35,7 @@ void insert (int val) {
 }
 ```
 
-![invert_dark](assets/LinListInsertBeginning.png)
+![invert_dark](../../_assets/LinListInsertBeginning.png)
 
 ---
 
@@ -53,7 +53,7 @@ class List {
 }
 ```
 
-![](assets/LinListInsEnd.png)
+![](../../_assets/LinListInsEnd.png)
 
 #### Suchen
 

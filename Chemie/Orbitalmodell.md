@@ -32,7 +32,7 @@ Unterschalen sind Orbitale
 
 **Kugelsymmetrisch:**
 
->![orb-s#invert_light](../assets/orb-s.png)
+>![orb-s#invert_light](../_assets/orb-s.png)
 
 ### p-Orbitale
 
@@ -40,7 +40,7 @@ Unterschalen sind Orbitale
 
 | px                           | py                           | pz                            |
 | ---------------------------- | ---------------------------- | ----------------------------- |
-| ![orb-px#invert_light](../assets/orb-px.png) | ![orb-py#invert_light](../assets/orb-py.png) | ![orb-pz#invert_light](../assets/orb-pz.png) |
+| ![orb-px#invert_light](../_assets/orb-px.png) | ![orb-py#invert_light](../_assets/orb-py.png) | ![orb-pz#invert_light](../_assets/orb-pz.png) |
 
 Wellenberg  
 Wellental 
@@ -51,7 +51,7 @@ Es gibt 3 Stk.
 
 **Rosettenförmig:**
 
->![orb-d](../assets/orb-d.png)
+>![orb-d](../_assets/orb-d.png)
 
 Es gibt 5 Stk.
 
@@ -59,7 +59,7 @@ Es gibt 5 Stk.
 
 **Komplexere Form:**
 
-![orb-f](../assets/orb-f.png)
+![orb-f](../_assets/orb-f.png)
 
 Es gibt 7 Stk.
 
@@ -76,9 +76,9 @@ Es gibt 7 Stk.
 ## Schreibweise Der Elektronen Konfiguration
 
 > [!example]  
-> ![Ne](../assets/Ne.png)  
+> ![Ne](../_assets/Ne.png)  
 > $1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$  
->![150](../assets/Ne-conf.png)  
+>![150](../_assets/Ne-conf.png)  
 > Anzahl der $e^{-}$  
 > Hauptquantenzahl  
 > Orbitaltyp 

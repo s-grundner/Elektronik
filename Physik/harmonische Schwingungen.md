@@ -33,7 +33,7 @@ professor:
 >- Mechanische [Schwingkreise](Schwingkreise.md)
 >	- [Pendel](Pendel.md)
 >	- [Federschwinger](Feder-Schwinger.md)
-> - Elektrische [Schwingkreise](Schwingkreise.md) ([Oszillatoren](../Hardwareentwicklung/Oszillatoren/Clock%20Generierung.md))
+> - Elektrische [Schwingkreise](Schwingkreise.md) ([Oszillatoren](../Hardwareentwicklung/Oszillatoren/Clock-Generierung.md))
 
 ```tikz
 \usepackage{pgfplots}

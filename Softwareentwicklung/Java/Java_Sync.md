@@ -128,7 +128,7 @@ Beispiel **Producer-Consumer**:
 
 FiFo-Buffer können einfach als [Ringbuffer](../../Digitaltechnik/Ringbuffer.md) realisiert werden. Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
 
-![OS_FiFo](assets/OS_FiFo.png)
+![OS_FiFo](../../_assets/OS_FiFo.png)
 
 Eine einfache Implementierung, die anstatt des Ringbuffers einen Vector verwendet wird im folgenden gezeigt. Aufgrund des ~endlos~ großen Buffers gibt es keinen Overflow sondern nur einen Underflow:
 
@@ -310,7 +310,7 @@ Referenz-Beispiel:
 
   
 
-  ![OS_LostUpdate](assets/OS_LostUpdate.png)
+  ![OS_LostUpdate](../../_assets/OS_LostUpdate.png)
 
   Thread2 liest den ursprünglichen Wert von Var, erhöht ihn und schreibt ihn. Thread1 liest ebenfalls den ursprünglichen Wert, erhöht diesen ebenfalls und überschreibt damit den von Thread2 erhöhten Wert. Der Grund liegt darin, dass die zeitliche Abfolge nicht abgestimmt ist. Die Änderung von Thread2 ist wirkungslos, sein *Update* wird verloren (*lost*).
 
@@ -416,7 +416,7 @@ Als Parameter für `synchronized`kann ein Objekt mitgegeben werden auf welches s
 
 Semaphor(e) gehören zur Gruppe der Mutex-Verfahren und beinhalten eine **Datenstruktur zur Steuerung eines ausschließenden Zugriffs**. Im Betriebssystembereich ist dieses Konzept mit dem **Monitor** verwandt. Die allgemeine Bedeutung von Semaphor ist Signalmast (Formsignal bei der Eisenbahn). Im Bahnverkehr kann ein Gleisabschnitt auch nur von einer maximalen Anzahl (je nach Anzahl der Spuren) Zügen zur gleichen Zeit befahren werden.
 
-![](assets/os-thread-semaphore-eisenbahn.png)
+![](../../_assets/os-thread-semaphore-eisenbahn.png)
 
 Ein binärer Semaphor (nur ein einzelner Thread darf zu einem Zeitpunkt einen Abschnitt betreten - siehe Bild) besitzt:
 

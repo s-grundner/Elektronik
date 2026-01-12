@@ -18,7 +18,7 @@ title: Oszilloskop
 
 ## Kanäle
 
-![InlineR|450](assets/Pasted%20image%2020231223004759.png) [^1]
+![InlineR|450](../_assets/Pasted%20image%2020231223004759.png) [^1]
 
 Das Oszilloskop verfügt über ein bis 4 Kanäle Kanäle, mit welchen jeweils verschiedene Signale gemessen werden können. An die BNC-Stecker unterhalb der Kanal-Menü Tasten sind die Proben für die jeweiligen Signal anzustecken.
 
@@ -44,7 +44,7 @@ Der Einstellung des Triggers legt fest, wann das Oszilloskop eine neue Periode d
 
 Für Messungen höherer Frequenzen ist es wichtig Tastköpfe und nicht einfache BNC-Kabel zu verwenden.
 
-![invert_dark](../Elektrotechnik/assets/OszTastkopfSpgTeiler.png)
+![invert_dark](../_assets/OszTastkopfSpgTeiler.png)
 
 10:1 Tastkopf kann verwendet werden, damit der gesamtwiderstand größer ist und weniger Strom in das Messgerät fließt -> genauere Ergebnisse bei kleinstromigen Schaltungen.
 

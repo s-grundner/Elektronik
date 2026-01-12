@@ -48,4 +48,4 @@ $$
 > Welcher der Widerstände ist ein Heißleiter, welcher ein Kaltleiter?
 > 
 > > [!success]- Lösung  
-> > ![](assets/TDRExample.png)
+> > ![](../_assets/TDRExample.png)
