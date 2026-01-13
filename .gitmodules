@@ -1,0 +1,3 @@
+[submodule ".obsidian"]
+	path = .obsidian
+	url = s-grundner:dotobsidian

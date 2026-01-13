@@ -8,13 +8,6 @@ conflict-files-obsidian-git.md
 *.png~
 
 # Obsidian Plugins
-.obsidian/plugins
-.obsidian/workspace.json
-.obsidian/appearance.json
-.obsidian/community-plugins.json
-.obsidian/core-plugins.json
-.obsidian/icons
-.obsidian/themes
 .ipynb_checkpoints
 .directory
 .megaignore
