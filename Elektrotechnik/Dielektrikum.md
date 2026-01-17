@@ -16,6 +16,7 @@ subject:
 semester: WS25
 created: 15th January 2026
 professor:
+  - Reinhard Feger
 symbol: $\epsilon_{0}$
 value: $8.8541878128(13)\cdot 10^{-12}$
 unit: $\mathrm{\dfrac{As}{Vm}}$

@@ -13,13 +13,12 @@ subject:
   - Grundlagen der Hochfrequenztechnik
 created: 15th January 2026
 keywords:
-  - Grnezflächen
 semester: WS25
 professor:
+  - Reinhard Feger
 release: false
 title: Elektromagnetische Wellen
 ---
-
 
 # Elektromagnetische Wellen
 

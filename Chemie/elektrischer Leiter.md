@@ -17,8 +17,6 @@ release: false
 title: elektrischer Leiter
 ---
 
-
-
 # Elektrische Leitfähigkeit
 
 > [!question] [Materialgesetze](../Elektrotechnik/Materialgesetze.md)
