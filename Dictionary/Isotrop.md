@@ -1,14 +1,21 @@
 ---
 tags:
-  - index
 aliases:
   - Anisotropie
   - Anisotrop
   - Isotriopie
-created: 9th May 2025
+created: 15th January 2026
 title: Isotrop
-release: false
+release: true
+keywords:
+subject:
+  - VL
+  - Grundlagen der Hochfrequenztechnik
+semester: WS25
+professor:
+  - Reinhard Feger
 ---
+
 
 # Isotrop
 
@@ -17,5 +24,5 @@ release: false
 
 ## Kontexte
 
-- [Materialeigenschaft](../Elektrotechnik/Materialgesetz.md#Materialeigenschaften)
+- [Materialeigenschaft](../Elektrotechnik/Materialgesetze.md#Materialeigenschaften)
 - [Isotroper Kugelstrahler](../../HF-Technik/Isotroper%20Kugelstrahler.md)

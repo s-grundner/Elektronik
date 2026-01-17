@@ -30,6 +30,6 @@ Hierbei ist es wichtig, dass die Elemente nicht vertauscht werden können: $\beg
 
 - [Skalarprodukt](Skalarprodukt.md)
 - [Matrix](Matrix.md)
-- Tensor
+- [Tensor](Tensor.md)
 - [Vektor Basis](../{MOC}%20Lineare%20Algebra.md)
 - [{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md)

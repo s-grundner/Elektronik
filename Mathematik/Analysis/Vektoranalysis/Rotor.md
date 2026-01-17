@@ -1,31 +1,36 @@
 ---
-tags: 
+tags:
 aliases:
   - Rotation
   - Curl
-keywords: 
+keywords:
+  - GHFT-V1
 subject:
   - VL
   - Elektrotechnik
-semester: SS24
-created: 4. Januar 2025
+  - Grundlagen der Hochfrequenztechnik
+semester: WS25
+created: 15th January 2026
 professor:
   - Andreas Springer
 def:
   - ROT
+release: true
+title: Rotor
 ---
- 
 
 # Rotor
 
-Der Rotor ist ein Vektoroperator, der auf ein [Vektorfeld](Vektorfeld.md) im $\mathbb{R}^3$ angewendet wird.
+Der Rotor ist ein Vektoroperator, der auf ein [index](index.md) im $\mathbb{R}^3$ angewendet wird.
 
 > [!warning] Nur im $\mathbb{R}^3$
 > Der Rotor eines Vektorfeldes liefert wiederum ein Vektorfeld, das die lokale Drehung des ursprünglichen Vektorfeldes beschreibt.
 > - Die Richtung des Rotors ist Gerade zur Rotationsebene
 > - Die Magnitude des Rotors ist die Dichte des Wirbels
 
-![[../../../_assets/Rotor 2025-01-15 21.39.16.excalidraw]]
+![invert_dark](../../../_assets/Rotor%202025-01-15%2021.39.16.excalidraw.svg)
+
+%% [Edit in Excalidraw](../../../_assets/Rotor%202025-01-15%2021.39.16.excalidraw.md) %%
 
 > [!def] **D1 - ROT)** Der Rotor eines $\mathbb{R}^3$ Vektorfeldes $\mathbf{F} = (F_x, F_y, F_z)$ ist definiert als:
 > 
@@ -40,9 +45,9 @@ Mit der Rechten hand Regel kann man darauf schließen in welche richtung das Vek
 
 Das kann man an diesem Plot Ausprobieren. Hier ist die Rotation sogar konstant, sodass $\operatorname{rot}\boldsymbol{F}$ gerade nach unten zeigt
 
-![800](../../../_assets/Rotor.png)
+![invert_dark|800](../../../_assets/Rotor.png)
 
-<center><a href="Mathematik/Simulationen/Rotor.nb" class="internal-link">📈Mathematica Notebook</a></center>
+<center><a href="/Rotor.nb" class="internal-link">📈Mathematica Notebook</a></center>
 
 ## Eigenschaften
 

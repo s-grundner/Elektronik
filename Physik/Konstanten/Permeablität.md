@@ -32,14 +32,16 @@ rel-uncertainty: 1.6e-10
 
 # Materialgesetz - Permeabilität
 
-> [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md), [Materialgesetz](../../Elektrotechnik/Materialgesetz.md)
+> [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md), [Materialgesetze](../../Elektrotechnik/Materialgesetze.md)
 
 ---
 
-Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen. Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für [isotrope](../../Dictionary/Isotrop.md) Stoffe folgender **nichtlinearer** Zusammenhang
+Die **Permeabilität** $\mu$ bezeichnet die magnetische Leitfähigkeit von Werkstoffen.
 
-> [!important] [[../../Elektrotechnik/Materialgesetz.md#^MATG|Materialgesetz]] für **isotrope** Stoffe
-> $$\mathbf{B}= \mu \mathbf{H}, \quad \mu = \mu_{0}\mu_{r} \qquad [\mu] = [\mu_{0}] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$
+Zwischen der **Flussdichte** $\mathbf{B}$ und der magnetischen Feldstärke $\mathbf{H}$ gilt für [isotrope](../../Dictionary/Isotrop.md) Stoffe folgender **nichtlinearer** Zusammenhang
+
+> [!def] [[../../Elektrotechnik/Materialgesetze#^MATG|Materialgesetz]] für isotrope und nicht dispersive Stoffe
+> $$\mathbf{B}= \mu \mathbf{H} = [\mu_{0}] = \mathrm{\frac{Vs}{Am} = \frac{H}{m}}$$
 > 
 > - $\mu_{0}$ ... [Permeabilität des Vakuums](#^DEF)
 > - $\mu_{r}$ ... relative Permeabiltät des Materials (Einheitenlos)
@@ -80,9 +82,26 @@ Typischer Verlauf einer Weicheisenkennlinie bei Erregung mit einem Wechselfeld. 
 
 Abbildung: Verschiebung der Weißschen Bezirke beim Aufmagnetisieren eines ferromagnetischen Materials
 
+Entfernt man das externe Magnetfeld, verbleiben die Bezirke noch ausgerichtet, wodurch ein Teil des $\mathbf{B}$-Feldes erhalten bleibt (Remanenz). Gemeinesam mit der magnetischen Sättigung ist dadurch die starke nichtlinearität der Permeabilität begründet.
+
 | ![invert_dark\|200](../../_assets/Mkreis.png)                                                                 | ![invert_dark\|200](../../_assets/Mkurve.png)                                                                    |
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | Durch das Einbringen eines Magnetfeldes durch eine Spule in den Eisenkreis, wird der kern Magnetisiert | Damit ergibt sich für die Magnetische Flussdichte über dem Strom die Hysterese- oder Magnetisierungskurve |
+
+## Elektrostatik
+
+> [!satz] **S)** Permeabilität im statischen Fall ^STAT-PERM
+>
+> $$
+> \mu = \mu_{0}\mu_{r} \quad\text{mit}\quad \mu_{r}\in \mathbb{R}
+> $$
+
+## Elektrodynamik
+
+In Wechselfeldern müssen die dynamischen Eigenschaften des Materials berücksichtigt werden.
+
+> [!question] Unterstrichene Symbole deuten darauf hin, dass diese als [Phasor](Wechselstromtechnik.md) notiert sind.
+
 
 ---
 

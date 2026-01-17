@@ -76,7 +76,7 @@ Obwohl die Fläche $\Delta \mathbf{A}_1$ und $\Delta \mathbf{A}_2$ unterschiedli
 > und zeigt in Richtung der lokalen Stromrichtung
 > - (Richtung der mittleren [Geschwindigkeit](../Physik/Kinematik.md) bei positiven Ladungsträgern bzw. entgegengesetzt bei negativen).
 
-$\Delta I$ durch eine Fläche $\Delta \vec{}{A}$ daher: $\Delta I=\vec{J} \cdot \Delta \vec{A}$
+$\Delta I$ durch eine Fläche $\Delta \mathbf{A}$ daher: $\Delta I=\vec{J} \cdot \Delta \vec{A}$
 
 Da die Stromdichte lokal variieren kann, ist die exakte Definition eine differenzielle bzw. muss für einen endlichen Bereich integriert werden:
 $$
@@ -85,9 +85,19 @@ $$
 
 > [!success] Hier kommt das [Flächenintegral](../Mathematik/Analysis/Flächenintegral.md) ($\int _{A}$) zum Einsatz.
 
+## Zusammenhang mit dem E-Feld
+
+> [!question] [elektrische Feld](Elektrisches%20Feld.md)
+
+$$
+\mathbf{J} = \sigma \mathbf{E}
+$$
+
+Diese beziehung gleicht dem [Ohm'schen Gesetz](Ohmsches%20Gesetz.md)
+
 ---
 
 > [!warning] Begriff Dichte
-> Dicht kann alle mögliche bedeuten:
+> Begriff der Dichte hat mehrer bedeutungen
 > - x pro Volumen
 > - x pro Fläche (wie hier)

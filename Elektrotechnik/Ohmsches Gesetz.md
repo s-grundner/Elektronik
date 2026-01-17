@@ -2,16 +2,44 @@
 tags:
   - Schaltungsanalyse
 aliases:
-  - Ohm'sches Gesetz
-  - Ohm'schen Gesetz
-created: 26. September 2023
+  - Ohmschen Gesetz
+created: 15th January 2026
+keywords:
+subject:
+  - VL
+  - Einführung Elektrotechnik
+semester: WS25
+professor:
+  - Bernhard Jakoby
+release: true
+title: Ohmsches Gesetz
 ---
 
-# Das Ohm'sche "Gesetz" - ein Modell
 
-> [!question] [Materialgesetz](Materialgesetz.md)
+# Das Ohmsche "Gesetz" - ein Modell
+
+> [!question] [Materialgesetze](Materialgesetze.md)
 
 ---
+
+Das Ohmsche Gesetz besagt, dass Strom linear über eine Materialeigenschaft - dem Widerstand - mit der elektrischen Spannung zusammenhängen
+
+> [!satz] **S)** Ohmsches Gesetz ^S1-OHM
+> 
+> $$
+> I = \tfrac{1}{R}U
+> $$
+
+Aus sicht der Feldtheorie ist diese beziehung äquivalent zu
+
+> [!satz] **S)** Ohmsches Gesetz ^S2-OHM
+> 
+> $$
+> \mathbf{J} = \sigma \mathbf{E}
+> $$
+> 
+
+## Hintergrund
 
 > [!info] Das [Drude-Modell](Drude-Modell.md) hat uns gelehrt,
 > dass wir uns nicht wundern müssen, dass die Elektronen nicht kontinuierlich beschleunigen, sondern im mittel eine konstante Geschwindikgeit annehmen.

@@ -32,6 +32,9 @@ Diese [Differentationsregeln](Differenzialrechnung.md) folgen aus der [Kettenreg
 > \boxed{ \left(\frac{f}{g}\right)^{\prime}\left(x_0\right)=\frac{g\left(x_0\right) f^{\prime}\left(x_0\right)-f\left(x_0\right) g^{\prime}\left(x_0\right)}{g\left(x_0\right)^2} }
 > $$
 
+
+
+
 ## Beweis der Produktregel
 
 Sei $G: A \rightarrow \mathbb{R}^2$ definiert durch $G(x):=(f(x), g(x))$ für alle $x \in A$ und $F: \mathbb{R}^2 \rightarrow \mathbb{R}$ durch $F(u, v):=u v$ für alle $(u, v) \in \mathbb{R}^2 . F$ hat die stetigen partiellen Ableitungen (Übung!):

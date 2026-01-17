@@ -41,7 +41,7 @@ HF-Leitungen höherer ordnung
 ![invert_dark](../_assets/nonTEM.png)
 
 - Rectangular Waveguide (Rechteck Hohlleiter)
-- [LWL](Lichtwellenleiter.md) - Dielektrischer Wellenleiter Licht Als EM-Welle durch nicht leitendes [Dielektrikum](../Physik/Konstanten/Dielektrikum.md)
+- [LWL](Lichtwellenleiter.md) - Dielektrischer Wellenleiter Licht Als EM-Welle durch nicht leitendes [Dielektrikum](../Elektrotechnik/Dielektrikum.md)
 - Coplanarer Microstrip
 
 

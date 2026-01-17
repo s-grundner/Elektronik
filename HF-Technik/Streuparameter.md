@@ -6,7 +6,7 @@ source: ["Martin Aichriedler"]
 created: 28th September 2022
 ---
 
-# [Streuparameter](https://de.wikipedia.org/wiki/Streuparameter)
+# Streuparameter
 
 **Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
@@ -77,7 +77,7 @@ Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Vierpol](..
 - ==$b_{1}$== ist die vom Eingang (*Tor 1*) auslaufende Welle
 - ==$b_{2}$== ist die vom Ausgang (*Tor 2*) auslaufende Welle
   
-![MGL-Zweitor](../_assets/MGL-Zweitor.png)
+![invert_light](../_assets/MGL-Zweitor.png)
 
 $$
 \begin{pmatrix}
@@ -97,7 +97,7 @@ $$
 
 ### Darstellung der S-Parameter an einem [Vierpol](../Hardwareentwicklung/Vierpol.md)
 
-![Zweitor](../_assets/Zweitor.png)
+![invert_light|300](../_assets/Zweitor.png)
 
 ### Bedeutung der S-Parameter
 
@@ -108,12 +108,7 @@ $$
 | $S_{21}$ | Vorwärts-Transmissionsfaktor  | $S_{21}=\left. \dfrac{b_{2}}{a_{1}}\right._{a_{2}=0}$ | stellt die Vorwärts-Transmission ohne Anregung an Tor 2 dar  |
 | $S_{12}$ | Rückwärts-Transmissionsfaktor | $S_{12}=\left. \dfrac{b_{1}}{a_{2}}\right._{a_{1}=0}$ | stellt die Rückwärts-Transmission ohne Anregung an Tor 1 dar | 
 
-### [](../Hardwareentwicklung/Kettenmatrix.md#Impedanz%20Matrixrechnung%20Matrix|Impedanz%20Matrix)
 
-Standard [Vierpol](../Hardwareentwicklung/Vierpol.md)
+# Referenzen
 
-> [!EXAMPLE] T-Gleid
-
-### [](../Hardwareentwicklung/Kettenmatrix.md#Admittanz%20Matrixrechnung%20Matrix|Admittanz%20Matrix)
-
-# Einführung von Streuparametern und Wellengrößen
+- [Streuparameter](https://de.wikipedia.org/wiki/Streuparameter)

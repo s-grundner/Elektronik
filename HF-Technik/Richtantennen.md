@@ -14,7 +14,7 @@ Richtcharakteristik kann verändert werden, indem man die Erreger Glieder Phasen
 
 Die Keule wird durch konstruktive und destruktive Interferenz der Erreger ([Antennen](Antenne.md)) elektrisch geschwenkt
 
-# Quellen
+# Referenzen
 
 ![](https://youtu.be/vtPPAnvJS6c)
 

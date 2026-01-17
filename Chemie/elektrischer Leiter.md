@@ -1,23 +1,35 @@
 ---
-tags: 
+tags:
 aliases:
   - elektrische Leiter
   - elektrische Leitfähigkeit
   - Konduktivität
-created: 1. März 2024
+created: 15th January 2026
 subject:
-  - Einführung Elektronik
   - VL
+  - Einführung Elektronik
+  - Grundlagen der Hochfrequenztechnik
 professor:
   - Bernhard Jakoby
 semester: WS25
+keywords:
+release: false
+title: elektrischer Leiter
 ---
+
+
 
 # Elektrische Leitfähigkeit
 
-> [!question] [Materialgesetz](../Elektrotechnik/Materialgesetz.md)
+> [!question] [Materialgesetze](../Elektrotechnik/Materialgesetze.md)
 
 ---
+
+In einem elektrisch Leitfähigen Medium ist die Leitfähigkeit $\sigma$ der Zusammenhang zwischen Stromdichte und Elektrischen Feld ([Ohmsches Gesetz](../Elektrotechnik/Ohmsches%20Gesetz.md))
+
+![](../Elektrotechnik/Ohmsches%20Gesetz.md#^S2-OHM)
+
+Diese Materialeigenschaft trägt zu den Verlusten in einem elektrischen Leiter bei (siehe [[../Elektrotechnik/Dielektrikum#V]])
 
 ## Leiterklassen
 
@@ -41,7 +53,7 @@ Energieabstände der Bänder (Bandgap, $W_{g}\to$ g ... gap)
 
 ---
 
-# Related
+## Referenzen
 
 - [The Actual Reason Semiconductors Are Different From Conductors and Insulators. - YouTube](https://www.youtube.com/watch?v=-lHXZk5M6cI)
 - [Why It Was Almost Impossible to Make the Blue LED - YouTube](https://www.youtube.com/watch?v=AF8d72mA41M)

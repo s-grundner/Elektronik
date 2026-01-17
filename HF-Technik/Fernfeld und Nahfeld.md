@@ -65,7 +65,7 @@ Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und de
 - $E$ und $H$ stehen (noch) nicht senkrecht aufeinander
 - noch keine ebene Welle sondern sphärische Wellenfront
 
-![400](../_assets/Excalidraw/SpericalWavefront.svg)
+![300](../_assets/Excalidraw/SpericalWavefront.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/SpericalWavefront.md)%%
 
 ### Radiansphäre
@@ -90,5 +90,5 @@ Im Fernfeld sind sämtliche **partikuläre Lösungen** der Raumwelle, also alle 
 - Im Fernfeld ist die [Friisgleichung](HF-Technik/Friisgleichung.md) gültig.
 
 
-![400](../_assets/Excalidraw/GeradeWellenfront.svg)
+![300](../_assets/Excalidraw/GeradeWellenfront.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/GeradeWellenfront.md)%%

@@ -10,6 +10,7 @@ subject:
 semester: WS25
 created: 11th November 2025
 professor:
+  - Reinhard Feger
 release: true
 title: Drahtlose Übertragung
 ---
@@ -24,7 +25,7 @@ Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welche
 
 > [!question] Was bedeuted hochfrequent: [RF-Signal](HF-Technik/RF-Signal.md)
 
-> [!info]- Mit steigender Frequenz hat man...
+> [!info] Mit steigender Frequenz hat man...
 > 
 > **Kleinere Antennen:** Die Länge der Antenne ist oft proportional zur optimalen Wellenlänge $\lambda = \dfrac{c}{f}$
 > 
@@ -32,7 +33,8 @@ Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welche
 > 
 > **Größere Bandbreite:** Das die Benötigte bandbreite ist für den selben datendurchsatz im verhältnis zur Mittelfrequenz gleich
 > 
-> ![300](../_assets/Excalidraw/Bandbreite1.svg)
+> ![invert_dark|300](../_assets/Excalidraw/Bandbreite1.svg)
+> %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Bandbreite1.md)%%
 > 
 > $$
 > \frac{f_{\text{upper}}-f_{\text{lower}}}{f_{\text{center}}} = \frac{B}{f_{\text{center}}} \approx \text{const.}
@@ -40,7 +42,7 @@ Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welche
 
 Ein wichtiges Ziel ist es also das Nutzsignal im Spektrum Verschieben zu können
 
-![](../_assets/Excalidraw/VerschiebungImSpektrum.svg)
+![invert_dark](../_assets/Excalidraw/VerschiebungImSpektrum.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/VerschiebungImSpektrum.md)%%
 
 Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschiedene [Modulationsarten](HF-Technik/Modulation.md) zum einsatz.

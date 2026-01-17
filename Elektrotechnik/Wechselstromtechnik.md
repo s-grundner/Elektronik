@@ -8,17 +8,18 @@ aliases:
   - Phasor
 keywords:
 subject:
+  - VL
   - Einführung Elektrotechnik
   - Elektrotechnik
-  - VL
+  - Grundlagen der Hochfrequenztechnik
 semester: SS24
 created: 7. April 2024
 professor:
   - Andreas Springer
   - Bernhard Jakoby
+  - Reinhard Feger
 ---
  
-
 # Wechselstromtechnik
 
 Wird ein [elektrisches Netzwerk](Lineare%20Elektrische%20Netzwerke.md) mit Wechselstrom betrieben, so kann die [komplexe Rechnung](../Mathematik/Analysis/Komplexe%20Zahlen.md) zur Ermittlung der Spannungen und Ströme des Netzwerks angewendet werden. Dies gilt nur unter bestimmten Vorraussetzungen. 
@@ -33,7 +34,9 @@ Wird ein [elektrisches Netzwerk](Lineare%20Elektrische%20Netzwerke.md) mit Wechs
 
 ## Zeigerdarstellung
 
-![[../_assets/Wechselstromtechnik 2025-01-15 20.22.21.excalidraw]]
+![invert_dark](../_assets/Wechselstromtechnik%202025-01-15%2020.22.21.excalidraw.svg)
+
+%% [Edit in Excalidraw](Wechselstromtechnik 2025-01-15 20.22.21.excalidraw.md) %%
 
 
 Man nutzt *rotierende* [komplexe Zeiger](../Mathematik/Analysis/Eulersche%20Formel.md) zur Darstellungen von Wechselspannungen und -strömen: 
@@ -54,6 +57,8 @@ $$
 = {\color{orange}\underbrace{ \hat{u}\cdot e^{ j(\varphi_{u}) } }_{ \underline{\hat{u}} }}\cdot e^{ j(\omega t) }
 = {\color{orange}\underline{\hat{u}}\cdot e^{ j(\omega t) }}
 $$
+
+Für Berechnungen verwendet man dann nur $\underline{\hat{u}}$, da der $e^{ j\omega t}$ Term durch die linearität erhalten bleibt.
 
 ### Effektivwert Zeiger
 
@@ -78,28 +83,71 @@ Wichtig ist es, keine konventionen zu Verischen.
 
 Nützlich für die grafische Netzwerkanalyse
 
-# Rechnen ohne Zeiger
+> [!exmple] Geziegt ist hier, wie eine berechnung mit Phasorschreibweise die klassische Zeitbereichsrechnung vereinfacht.
+> 
+> -  [Widerstand](Widerstand.md) $R$
+> 
+> $$
+> \begin{aligned}
+> u(t) & =\hat{u} \cos \left(\omega t+\varphi_u\right) \\
+> i(t) & =\hat{i} \cos \left(\omega t+\varphi_i\right) \\
+> \hat{u} & =R \hat{i} \quad \text { und } \quad \varphi_u=\varphi_i
+> \end{aligned}
+> $$
+> 
+> - [Kondensator](Kapazität.md) $C$
+> 
+> $$
+> \begin{align}
+> i(t) &= C \frac{du(t)}{dt}\\
+> u(t) &= \frac{1}{C} \int i(t) \, dt
+> \end{align}
+> $$
 
-## [Widerstand](Widerstand.md) $R$
+## Felder und Elektromagnetismus
+
+Die die vereinfachung der Phasorschreibweise kann auch auf elektrische und magnetische [Vektorfelder](../Mathematik/Analysis/Vektoranalysis/index.md) angewandt werden und ist besonders hilfreich bei der Berechnung von Feldern in der HF-technik. Vorrausgesetzt sei wieder:
+
+- Sinusförmige Wellenausbreitung
+- Konstante frequenz oder zumindest ausreichend Schmalbandig.
+- Eingeschwungener Zustand der Welle
+
+> [!exmple] Ein sinusiodes elektrisches Feld, welches in die $\mathbf{e}_{x} = (1,0,0)^T$ richtung polarisiert ist lässt sich in Phasor schreibweise wiefolgt anschreiben:
+
+- Das sinusförmige Wechselfeld in abhängigkeit der Zeit:
 
 $$
-\begin{aligned}
-u(t) & =\hat{u} \cos \left(\omega t+\varphi_u\right) \\
-i(t) & =\hat{i} \cos \left(\omega t+\varphi_i\right) \\
-\hat{u} & =R \hat{i} \quad \text { und } \quad \varphi_u=\varphi_i
-\end{aligned}
+\mathbf{E}(x,y,z,{\color{orange}t}) = \mathbf{e}_{x} A(x,y,z) \cos(\omega {\color{orange}t} + \phi)
 $$
 
-## [Kondensator](Kapazität.md) $C$
+- der **Phasor** des elektrischen Feldes als implizit rotierender Zeiger. Beachte dass hier die Zeitabhängigkeit wegfällt.
 
 $$
-\begin{align}
-i(t) &= C \frac{du(t)}{dt}\\
-u(t) &= \frac{1}{C} \int i(t) \, dt
-\end{align}
+\underline{\mathbf{E}}(x,y,z) = \mathbf{e}_{x}A(x,y,z)e^{ j\phi }
 $$
 
+Möchte man die zeitbereichsform aus dem Phasor berechnen, wird der implizit angenommene $e^{ j\omega t }$ Term wieder hinzumultipliziert und der Realteil gebildet, um den Kosinus (siehe [Eulersche Formel](../Mathematik/Analysis/Eulersche%20Formel.md)) wieder zu erhalten.
 
-# Quellen
+$$
+\mathbf{E}(x,y,z,t) = \mathrm{Re}\{\mathbf{\underline{E}}(x,y,z)e^{ j\omega t }\}
+$$
+
+### Phasorschreibweise der Maxwellgleichungen
+
+> [!question] [Maxwell](Maxwell.md)
+
+Auch die Maxwellgleichungen lassen sich in der Phasorschreibweise notieren. Hier werden alle Zeitableitungen zu einer multiplikation mit $j\omega$. Das lässt sich durch eine überlegung mittels der [Fouriertransformation](../Systemtheorie/Fouriertransformation.md) bestätigen.
+
+> [!satz] **S)** MWG in Phasorschreibweise
+> 
+> | | |
+> | - | - |
+> | [1. MWG - Durchflutungssatz](Maxwell.md#1.%20MWG%20-%20Durchflutungssatz) | $\nabla \times \mathbf{\underline{H}} = j\omega \mathbf{\underline{D}}+\mathbf{\underline{J}}$ |
+> | [2. MWG - Induktionsgesetz](Maxwell.md#2.%20MWG%20-%20Induktionsgesetz) | $\nabla \times \mathbf{\underline{E}} = -j\omega\mathbf{\underline{B}}-\mathbf{\underline{M}}$ |
+> | [3. MWG - Gaußsches Gesetz](Maxwell.md#3.%20MWG%20-%20Gaußsches%20Gesetz) | $\nabla \cdot \mathbf{\underline{D}} = \rho$ |
+> | [3. MWG - Quellenfreiheit des B-Feldes](Maxwell.md#4.%20MWG%20-%20Quellenfreiheit%20des%20B-Feldes) | $\nabla \cdot \mathbf{\underline{B}} = 0$ |
+> 
+
+## Referenzen
 
 http://www.gdanielak.de/Tutorium/ET_I/5_Zeigerbilder/Zeigerdiagramme.pdf

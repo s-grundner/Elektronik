@@ -1,15 +1,17 @@
 ---
-tags: 
+tags:
 aliases:
   - Durchflutungssatz
   - MWG
   - Gaußsches Gesetz
-keywords: 
+keywords:
+  - GHFT-V1
 subject:
-  - Elektrotechnik
   - VL
-semester: SS24
-created: 24th January 2024
+  - Elektrotechnik
+  - Grundlagen der Hochfrequenztechnik
+semester: WS25
+created: 15th January 2026
 professor:
   - Bernhard Jakoby
 def:
@@ -21,30 +23,45 @@ satz:
   - MW2
   - MW3
   - MW4
+release: true
+title: Maxwell Gleichungen
 ---
- 
 
 # Maxwell Gleichungen
 
+1. [MWG](#1.%20MWG%20-%20Durchflutungssatz): Durchflutungssatz nach Ampère
+2. [MWG](#2.%20MWG%20-%20Induktionsgesetz): Induktionsgesetz nach Faraday
+3. [MWG](#3.%20MWG%20-%20Gaußsches%20Gesetz): Gaußsches Gesetz: $\mathbf{D}$ ist ein Quellenfeld
+4. [MWG](#4.%20MWG%20-%20Quellenfreiheit%20des%20B-Feldes): $\mathbf{B}$ ist Quellfrei
+
 ## Übersicht
 
-|    Symbol    | Bedeutung                                         |                 |             Einheit             |
-| :----------: | :------------------------------------------------ | :-------------- | :-----------------------------: |
-| $\mathbf{E}$ | [elektrische Feldstärke](Elektrisches%20Feld.md)  | Intesitätsgröße | $\operatorname{V} / \mathrm{m}$ |
-| $\mathbf{B}$ | [magnetische Flussdichte](Magnetisches%20Feld.md) | Intesitätsgröße |  $\mathrm{Vs} / \mathrm{m}^2$   |
-| $\mathbf{H}$ | magnetische Feldstärke                            | Quantitätsgröße |    $\mathrm{A} / \mathrm{m}$    |
-| $\mathbf{D}$ | elektrische Flussdichte                           | Quantitätsgröße |  $\mathrm{As} / \mathrm{m}^2$   |
-| $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md)         |                 |   $\mathrm{A} / \mathrm{m}^2$   |
-|    $\rho$    | Raumladungsdichte                                 |                 |  $\mathrm{As} / \mathrm{m}^3$   |
+|    Symbol    | Bedeutung                                         |                                               |             Einheit             |
+| :----------: | :------------------------------------------------ | :-------------------------------------------- | :-----------------------------: |
+|  $\mathbf{E}$ | [elektrische Feldstärke](Elektrisches%20Feld.md)  | Intesitätsgröße                               | $\operatorname{V} / \mathrm{m}$ |
+|  $\mathbf{B}$ | [magnetische Flussdichte](Magnetisches%20Feld.md) | Intesitätsgröße                               |  $\mathrm{Vs} / \mathrm{m}^2$   |
+|  $\mathbf{H}$ | magnetische Feldstärke                            | Quantitätsgröße                               |    $\mathrm{A} / \mathrm{m}$    |
+|  $\mathbf{D}$ | elektrische Flussdichte                           | Quantitätsgröße                               |  $\mathrm{As} / \mathrm{m}^2$   |
+|  $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md)         |                                               |   $\mathrm{A} / \mathrm{m}^2$   |
+|  $\mathbf{M}$ | magnetische Stromdichte                           | (fiktive größe, vereinfacht oft Berechnungen) |   $\mathrm{V} / \mathrm{m}^2$   |
+|    $\rho$    | Raumladungsdichte                                 |                                               |  $\mathrm{As} / \mathrm{m}^3$   |
 
-Fettgedruckte Größen sind Vektorfelder mit den wichtigsten $\mathbf{E}$ und $\mathbf{B}$
+Fettgedruckte Größen sind Vektorfelder mit den wichtigsten $\mathbf{E}$ und $\mathbf{B}$. Alle diese Vektorfelder hängen sowohl vom ort als auch von der Zeit ab:
+
+$$
+\mathbf{E,B,H,D,J} : \mathbf{F}(x,y,z,t)
+$$
+
+Mit $x,y,z$ als kartesische Koordinaten. Es sind auch Polar- $(r,\theta,\varphi)$ oder Zylinderkoordinaten $(r,h,\varphi)$ möglich.
+
+Für spezielle Bedingungen können die Maxwellgleichungen auch in [Phasorschreibweise](Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) Angeschreieben werden.
 
 ## Differentielle und integrale Formulierung
 
 Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integralsätzen:
 
-|                                                                              |                                                                 |
-| :--------------------------------------------------------------------------- | :-------------------------------------------------------------- |
+| [Divergenz](../Mathematik/Analysis/Vektoranalysis/Divergenz.md)              |     [Rotor](../Mathematik/Analysis/Vektoranalysis/Rotor.md)     |
+| :--------------------------------------------------------------------------: | :-------------------------------------------------------------: |
 | ![](../Mathematik/Analysis/Vektoranalysis/Gaußscher%20Integralsatz.md#^GAUI) | ![](../Mathematik/Analysis/Stokesscher%20Integralsatz.md#^STOI) |
 
 ### 1. MWG - Durchflutungssatz
@@ -75,12 +92,16 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 > [!hint]- Physikalische Interpretation
 Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
-> ![500](../_assets/Maxwell%202025-01-15%2018.06.16.excalidraw.md)
+>
+> ![invert_dark|600](../_assets/Maxwell%202025-01-15%2018.06.16.excalidraw.svg)
+> 
+> %% [Edit in Excalidraw](../_assets/Maxwell%202025-01-15%2018.06.16.excalidraw.md) %%
+> 
 > Würde die 1. MWG $\operatorname{rot}\mathbf{H}=\mathbf{J}$ lauten, so würde nach dem Einschaltzeitpunkt kein Strom Fließen. Jedoch Verschieben sich sie Ladungen an die Ränder des Spalts. Während dieser verschiebung fließt jedoch der Entsprechende Strom. Jedoch nur während sich das Elektrische feld Aufbaut, daher der Term $\frac{\mathrm{d}\mathbf{D}}{\mathrm{d}t}$.
 > 
 > Während dieser Strom fließt wird natürlich trotzdem ein Magnetfeld aufgebaut, welches die Leiterschleife umgibt.
 >
-> [1] Je nach [Dielektrikum](../Physik/Konstanten/Dielektrikum.md) (Isolator) ergibt sich eine Andere Feldstärke: $\mathbf{D}=\varepsilon \mathbf{E}$
+> [1] Je nach [Dielektrikum](Dielektrikum.md) (Isolator) ergibt sich eine Andere Feldstärke: $\mathbf{D}=\varepsilon \mathbf{E}$
 
 > [!hint]- Mathematische Interpretation
 > Der Verschiebungsstrom wird durch die zeitliche veränderung der elektrischen Flussdichte $\mathbf{D}$ hervorgerufen. Dies ist nötig, damit die [[Kontinuitätsgleichung]] erfüllt ist:
@@ -106,10 +127,12 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 
 > [!satz] **S2 - 2. Maxwell-Gleichung)** Faradaysches Induktionsgesetz ^MW2
 > $$
-> \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t}
+> \operatorname{rot} \mathbf{E} = \nabla \times \mathbf{E}=-\frac{\partial \mathbf{B}}{\partial t} - \mathbf{M}
 > \quad\underset{ \text{ Stokes } }{ \iff } \quad 
 > \oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{a} \tag{MW2}
 > $$
+
+$\mathbf{M}$ ist die fikitve größe der magnetischen Stromdichte und hat physikalisch keine Bedeutung. Durch das Einführen dieser größe, vereinfachen sich oft Rechnungen, und das Induktionsgesetz ist symmetrisch zum [Durchflutingssatz](#^MW1). Das Induktionsgesetz ist auch ohne diesen Term gültig.
 
 ![500](../_assets/MW2.png)
 
@@ -148,7 +171,7 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ## Materialgleichungen
 
-![Materialgesetz](Materialgesetz.md#^MATG)
+![Materialgesetze](Materialgesetze.md#^MATG)
 
 ## Mathematische Grundbegriffe
 

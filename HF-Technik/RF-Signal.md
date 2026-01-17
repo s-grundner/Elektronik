@@ -1,16 +1,22 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+  - HF-Signal
+keywords:
+  - GHFT-V1
 subject:
   - KV
+  - VL
   - HF-Systemtechnik 1
-semester: WS24
+  - Grundlagen der Hochfrequenztechnik
+semester: WS25
 created: 4. Oktober 2024
 professor:
+  - Reinhard Feger
+title: RF-Signale
+release: true
 ---
  
-
 # RF-Signale
 
 > [!question] Was ist ein RF Signal?
@@ -34,8 +40,10 @@ professor:
 > [!NOTE] elektrisch kurze Leitung (engl. lumped element) 
 > Eine Leitung ist *elektrisch kurz*, falls die Leitungslänge $l$ deutlich kleiner als die Wellenlänge $\lambda$ bei der Betriebsfrequenz ist bzw. falls die Laufzeit $\uptau$ eines **Sinusförmigen** Signals längs der Leitung deutlich kleiner ist als die Periodendauer $T$ ist.  
 >
-> $$\lambda = \frac{c_{0}}{f}\gg l \qquad \text{oder} \qquad \uptau = \frac{\text{Strecke}}{\text{Geschwindigkeit}} = \frac{l}{c_{0}} \ll T = \frac{1}{f}$$
-
+> $$
+> \lambda = \frac{c_{0}}{f}\gg l \qquad \text{oder} \qquad \uptau = \frac{\text{Strecke}}{\text{Geschwindigkeit}} = \frac{l}{c_{0}} \ll T = \frac{1}{f}
+> $$
+> 
 
 > [!NOTE] nicht elektrisch kurz ($l>\frac{\lambda}{10}$) (engl. [Transmission Line](Transmission%20Line.md))
 >  Zeigt die Spannung längs der Leitung **keinen** konstanten Verlauf mehr, so ist die Leitung ==nicht== als elektrisch ==kurz== anzusehen. In der Praxis geht man davon aus, dass der Effekt ab einer Leitungslänge von **einem Zehntel der Wellenlänge** bedeutsam wird.
@@ -43,4 +51,3 @@ professor:
 > - Bei digitalen Signalen gilt dies für die Flankenanstiegszeit von 10% bis 90% des Pegels
 > - *Alternativ:* 9x die Frequenz des schnellsten digitalen Signals
 >     - da ab der 9ten Harmonischen kann das Signal als Rechecksignal klassifiziert werden.
-> - Auf elektrisch kurzen Leitungen ist die [Eingangsimpedanz](Eingangsimpedanz.md) anzuwenden

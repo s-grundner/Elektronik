@@ -79,7 +79,7 @@ Beispiel: [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen
 
 $\mathbf{E} \in \mathbb{R}^3$: [E-Feld](../../Elektrotechnik/Elektrisches%20Feld.md)
 $\mathbf{B} \in \mathbb{R}^3$ : [B-Feld](../../Elektrotechnik/Magnetisches%20Feld.md)
-$\rho \in\mathbb{R}$: Ladungsdichte, $\varepsilon_{0}\in\mathbb{R}$: [Permittivität](../../Physik/Konstanten/Dielektrikum.md) im Vakuum
+$\rho \in\mathbb{R}$: Ladungsdichte, $\varepsilon_{0}\in\mathbb{R}$: [Permittivität](../../Elektrotechnik/Dielektrikum.md) im Vakuum
 $\mathbf{J}\in \mathbb{R}^{3}$: Stromdichte
 
 $\mathbf{E},\mathbf{B},\rho, \mathbf{J}$ hängen von $t$ und $x \in \mathbb{R}^3$ ab

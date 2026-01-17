@@ -1,20 +1,24 @@
 ---
 tags:
 aliases:
+  - Nabla
 keywords:
 subject:
   - VL
   - Mathematik 2
-semester: SS24
-created: 28. Mai 2024
+  - Grundlagen der Hochfrequenztechnik
+semester: WS25
+created: 15th January 2026
 professor:
+  - Andreas Neubauer
 def:
   - NABL
 satz:
   - NABR
+release: true
+title: Nabla Operator
 ---
  
-
 # Nabla Operator
 
 
@@ -50,7 +54,7 @@ wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (
 
 Der Nabla-Operator ist Operator und [Vektor](../../Algebra/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem Vektor rechnen, d.h. es gelten die Verknüpfungen wie [Skalarprodukt](../../Algebra/Skalarprodukt.md) und [Kreuzprodukt](../../Algebra/Kreuzprodukt.md)
 
-> [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem [Vektorfeld](Vektorfeld.md) $\mathbf{F}$ haben spezielle Namen:
+> [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem [index](index.md) $\mathbf{F}$ haben spezielle Namen:
 > - [Gradient](Gradient.md): $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 > - [Divergenz](Divergenz.md): $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - [Rotation](Rotor.md): $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
@@ -62,23 +66,22 @@ Dabei muss man die Produktregel anwenden, wenn der Nabla-Operator links von eine
 
 > [!satz] **S1 - NABR)** Rechenreglen mit dem Nabla-Operator ^NABR
 > Sind $\psi$ und $\varphi$ differenzierbare Skalarfelder (Funktionen) und $\boldsymbol{A}$ sowie $\boldsymbol{B}$ differenzierbare Vektorfelder, so gilt:
-> ![](#^T1)
->
-
-| **Regel**                                                                                                                                                                                                                                                 | **Anmerkung**                                                                       |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| $\nabla \varphi(\psi) = \frac{\mathrm{d} \varphi}{\mathrm{d} \psi} \nabla \psi$                                                                                                                                                                           | Kettenregel für Gradient                                                            |
-| $\nabla(\psi \varphi) = \psi \nabla \varphi + \varphi \nabla \psi$                                                                                                                                                                                        | Produktregel für Gradient                                                           |
-| $\nabla(\boldsymbol{A} \cdot \boldsymbol{B}) = (\boldsymbol{A} \cdot \nabla) \boldsymbol{B} + (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} + \boldsymbol{A} \times (\nabla \times \boldsymbol{B}) + \boldsymbol{B} \times (\nabla \times \boldsymbol{A})$ | Produktregel für das Skalarprodukt zweier Vektorfelder                              |
-| $\nabla \cdot (\varphi \boldsymbol{A}) = \varphi \nabla \cdot \boldsymbol{A} + \boldsymbol{A} \cdot \nabla \varphi$                                                                                                                                       | Produktregel für die Divergenz                                                      |
-| $\nabla \cdot (\boldsymbol{A} \times \boldsymbol{B}) = \boldsymbol{B} \cdot (\nabla \times \boldsymbol{A}) - \boldsymbol{A} \cdot (\nabla \times \boldsymbol{B})$                                                                                         | Divergenz des Kreuzprodukts                                                         |
-| $\nabla \cdot (\nabla \varphi) = \Delta \varphi$                                                                                                                                                                                                          | Divergenz des Gradienten ([Laplace Operator](Laplace%20Operator.md)) |
-| $\nabla \cdot (\nabla \times \boldsymbol{A}) = 0$                                                                                                                                                                                                         | Divergenz des Rotationsoperators                                                    |
-| $\nabla \times (\nabla \varphi) = 0$                                                                                                                                                                                                                      | Rotation des Gradienten                                                             |
-| $\nabla \times (\varphi \boldsymbol{A}) = \varphi \nabla \times \boldsymbol{A} - \boldsymbol{A} \times \nabla \varphi$                                                                                                                                    | Rotation eines Produkts mit Skalarfeld                                              |
-| $\nabla \times (\boldsymbol{A} \times \boldsymbol{B}) = (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} - \boldsymbol{B} (\nabla \cdot \boldsymbol{A}) + \boldsymbol{A} (\nabla \cdot \boldsymbol{B}) - (\boldsymbol{A} \cdot \nabla) \boldsymbol{B}$        | Rotation des Kreuzprodukts                                                          |
-| $\nabla \times (\nabla \times \boldsymbol{A}) = \nabla (\nabla \cdot \boldsymbol{A}) - \Delta \boldsymbol{A}$                                                                                                                                             | Rotation des Rotationsoperators (vektorieller Laplace-Operator)                     |
-^T1
+> 
+> 
+> | **Regel**                                                                                                                                                                                                                                                 | **Anmerkung**                                                        |
+> | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+> | $\nabla \varphi(\psi) = \frac{\mathrm{d} \varphi}{\mathrm{d} \psi} \nabla \psi$                                                                                                                                                                           | Kettenregel für Gradient                                             |
+> | $\nabla(\psi \varphi) = \psi \nabla \varphi + \varphi \nabla \psi$                                                                                                                                                                                        | Produktregel für Gradient                                            |
+> | $\nabla(\boldsymbol{A} \cdot \boldsymbol{B}) = (\boldsymbol{A} \cdot \nabla) \boldsymbol{B} + (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} + \boldsymbol{A} \times (\nabla \times \boldsymbol{B}) + \boldsymbol{B} \times (\nabla \times \boldsymbol{A})$ | Produktregel für das Skalarprodukt zweier Vektorfelder               |
+> | $\nabla \cdot (\varphi \boldsymbol{A}) = \varphi \nabla \cdot \boldsymbol{A} + \boldsymbol{A} \cdot \nabla \varphi$                                                                                                                                       | Produktregel für die Divergenz                                       |
+> | $\nabla \cdot (\boldsymbol{A} \times \boldsymbol{B}) = \boldsymbol{B} \cdot (\nabla \times \boldsymbol{A}) - \boldsymbol{A} \cdot (\nabla \times \boldsymbol{B})$                                                                                         | Divergenz des Kreuzprodukts                                          |
+> | $\nabla \cdot (\nabla \varphi) = \Delta \varphi$                                                                                                                                                                                                          | Divergenz des Gradienten ([Laplace Operator](Laplace%20Operator.md)) |
+> | $\nabla \cdot (\nabla \times \boldsymbol{A}) = 0$                                                                                                                                                                                                         | Divergenz des Rotationsoperators                                     |
+> | $\nabla \times (\nabla \varphi) = 0$                                                                                                                                                                                                                      | Rotation des Gradienten                                              |
+> | $\nabla \times (\varphi \boldsymbol{A}) = \varphi \nabla \times \boldsymbol{A} - \boldsymbol{A} \times \nabla \varphi$                                                                                                                                    | Rotation eines Produkts mit Skalarfeld                               |
+> | $\nabla \times (\boldsymbol{A} \times \boldsymbol{B}) = (\boldsymbol{B} \cdot \nabla) \boldsymbol{A} - \boldsymbol{B} (\nabla \cdot \boldsymbol{A}) + \boldsymbol{A} (\nabla \cdot \boldsymbol{B}) - (\boldsymbol{A} \cdot \nabla) \boldsymbol{B}$        | Rotation des Kreuzprodukts                                           |
+> | $\nabla \times (\nabla \times \boldsymbol{A}) = \nabla (\nabla \cdot \boldsymbol{A}) - \Delta \boldsymbol{A}$                                                                                                                                             | Rotation des Rotationsoperators (vektorieller Laplace-Operator)      |
+> ^T1
 
 ---
 

@@ -17,5 +17,5 @@ $$
 c_{0} = \frac{1}{\sqrt{ \varepsilon_{0}\mu_{0} }}
 $$
 
-- [Dielektrikum](Dielektrikum.md)
+- [Dielektrikum](../../Elektrotechnik/Dielektrikum.md)
 - [Permeabilität des Vakuums](Permeablität.md)

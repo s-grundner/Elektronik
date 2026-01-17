@@ -17,7 +17,7 @@ professor:
 
 Ermittlung mittels [Eigenwerte](Eigenvektor.md)
 
-> [!def] **D1 - DEFI** Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. $A$ heißt ^D1-DEFI
+> [!def] **D1 - DEFI)** Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. $A$ heißt ^D1-DEFI
 > 
 > (a) **positiv semidefinit**, wenn alle [Eigenwerte](Eigenvektor.md) von $A$ nicht negativ sind. *==($\geq 0$)==*
 > 

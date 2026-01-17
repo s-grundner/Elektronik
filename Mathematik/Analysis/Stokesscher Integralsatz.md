@@ -25,7 +25,7 @@ Der Stokessche Integralsatz ist ein Satz aus der Vektoranalysis, der die Beziehu
 > [!satz] **S1 - STOI)** Stokesscher Integralsatz ^STOI
 > Sei $\boldsymbol{F}$ ein Vektorfeld und $A$ eine Fläche, die von einer geschlossenen Kurve $L$ umgeben ist. Dann gilt:
 > 
-> $$\int_{A}(\nabla \times \boldsymbol{F}) \cdot \mathrm{d} \boldsymbol{a}=\oint_L \boldsymbol{F} \cdot \mathrm{d} \boldsymbol{l}\tag{STOI}$$
+> $$\int_{A}(\nabla \times \mathbf{F}) \cdot \mathrm{d} \mathbf{a}=\oint_L \mathbf{F} \cdot \mathrm{d} \mathbf{l}\tag{STOI}$$
 
 > [!hint]
 > Häufig wird auch statt $L$ der Ausdruck $\partial A$ geschrieben, wodurch verdeutlicht werden soll, dass die Kurve tatsächlich die Kontur der Fläche $A$ ist.

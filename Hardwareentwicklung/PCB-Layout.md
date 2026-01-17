@@ -29,7 +29,7 @@ created: 19th August 2023
 
 ### Stack-Up
 
-1. Dünnes [Dielektrikum](../Physik/Konstanten/Dielektrikum.md) zwischen Signal-Layer und GND-Layer
+1. Dünnes [Dielektrikum](../Elektrotechnik/Dielektrikum.md) zwischen Signal-Layer und GND-Layer
 	- Verbessert die Kopplung zwischen Signal und GND
 	- verringert [Induktivität](../Elektrotechnik/Induktivität.md)
 	- erhöht [Kapazität](../Elektrotechnik/Kapazität.md) zwischen Flächen  
@@ -59,10 +59,12 @@ created: 19th August 2023
 > - Power und GND Vias ==dicht== nebeneinander Platzieren
 > - Mit jedem Signal Via ein Referenz-Via ==dicht== daneben Platzieren 
 
-# Tags
+
+# Referenzen
 
 - [Altium Edu Courses](https://education.altium.com/courses)
 - Produkt [Zertifizieren](Certification.md)
+- [HDI](High%20Density%20Interconnect.md)
 
 ![EM Field and High-Speed Routing Principles - Mike Creeden](https://www.youtube.com/watch?v=3Is7bra3tsc)
 

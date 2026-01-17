@@ -16,11 +16,13 @@ join(list(temperature-coeff[0], temperature-coeff[1]), "$\cdot$") AS "Temp. Koef
 material AS "Komposition"
 
 FROM #Material/Metal 
-WHERE !contains(file.name, "material")
+WHERE !contains(file.name, "Material")
 SORT file.name
 ```
 
 # Substrate
+
+> [!question] [Verlustwinkel](../../Elektrotechnik/Verlustwinkel.md)
 
 ```dataview
 TABLE dielectric AS "Dielektrizitätskonstante $\varepsilon_r$", tan-loss AS "Verlustwinkel $\tan\delta$", at AS "@", material AS "Komposition"

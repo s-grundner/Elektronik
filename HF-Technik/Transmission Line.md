@@ -8,10 +8,10 @@ aliases:
   - Leitermodell
 keywords: 
 subject:
-  - HF-Systemtechnik 1
-  - EMV und SI
   - VL
   - KV
+  - HF-Systemtechnik 1
+  - EMV und SI
 semester: WS24
 created: 4. Oktober 2024
 professor:

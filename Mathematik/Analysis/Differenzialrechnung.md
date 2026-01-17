@@ -17,7 +17,6 @@ professor:
   - Andreas Neubauer
   - Rudolf Frauenschuh
 ---
- 
 
 # Differenzialrechnung
 

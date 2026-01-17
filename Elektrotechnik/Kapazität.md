@@ -55,8 +55,8 @@ $$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
 > $$\boxed{ \frac{U}{d} = \frac{Q}{A\cdot \varepsilon}\implies Q = \varepsilon_{0} \cdot \frac{A}{d} \cdot U = C\cdot U\implies C = \varepsilon \cdot \frac{A}{d} }$$
 >
 > $\varepsilon = \varepsilon_{0}\cdot\varepsilon_{r}$
-> $\varepsilon_{0}$ … [Dielektrizitätskonstante](../Physik/Konstanten/Dielektrikum.md)
-> $\varepsilon_{r}$ … Relative [Permittivität](../Physik/Konstanten/Dielektrikum.md) des [Dielektrikums](../Physik/Konstanten/Dielektrikum.md)
+> $\varepsilon_{0}$ … [Dielektrizitätskonstante](Dielektrikum.md)
+> $\varepsilon_{r}$ … Relative [Permittivität](Dielektrikum.md) des [Dielektrikums](Dielektrikum.md)
 >   
 
 ### [Ladung](elektrisches%20Feld.md) Und Kapazität im Kondensator
@@ -123,7 +123,7 @@ $$
 
 ### Dielekrikum
 
-> [!question] [Dielektrikum](../Physik/Konstanten/Dielektrikum.md)
+> [!question] [Dielektrikum](Dielektrikum.md)
 
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - [MLCC](../Hardwareentwicklung/MLCC.md) - Multilayer **Ceramic** Capacitor
@@ -163,17 +163,3 @@ $$
 # Tags
 
 [Abblockkondensator](../Hardwareentwicklung/Abblockkondensator.md)
-
-# Übung & Flashcards
-
-Warum ist im Kondensator $Q$ proportional zu $U$?
-?
-$$
-\left.\begin{align}
-U = \int \vec{E}\cdot d\vec{s} \implies U \propto E \\
-E = Q \cdot \frac{1}{4\pi\varepsilon_{0}r^{2} }\implies E \propto Q
-\end{align}\right\} \implies U \propto Q
-$$
-Außerdem gilt:
-$i = \frac{dq}{dt} = C\cdot \frac{du}{dt}$
-$dq = C\cdot du\implies Q=C\cdot U$

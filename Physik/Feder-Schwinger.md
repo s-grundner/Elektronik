@@ -1,19 +1,22 @@
 ---
-tags: 
+tags:
 aliases:
   - Masse an einer Feder
   - Federschwinger
   - Federpendel
-keywords: 
+keywords:
 subject:
-  - Physik 1 für TechnikerInnen
   - VL
-semester: WS23
-created: 25. Januar 2024
+  - Physik 1 für TechnikerInnen
+semester: WS25
+created: 15th January 2026
 professor:
   - Gunther Springholz
+release: true
+title: Feder-Schwinger
 ---
  
+
 
 # [Feder](Federkraft.md)-Schwinger
 
