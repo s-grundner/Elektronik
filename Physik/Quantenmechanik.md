@@ -51,7 +51,7 @@ Nobelpreis Einstein: Existenz von Photonen
 > [!important] Zusammenhang Frequenz und Energie:
 > $\omega=2\pi f= 2\pi \cdot \frac{E}{h}$
 
-> [!important] Zusammenhang Wellenzahl $k$-Impuls:
+> [!important] Zusammenhang [Wellenzahl](Wellenzahl.md) $k$-Impuls:
 > $k=\frac{2\pi}{\lambda}\implies p=\hbar \cdot k$ mit $\hbar = \frac{h}{2\pi}$
 
 

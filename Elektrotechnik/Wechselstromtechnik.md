@@ -34,7 +34,7 @@ Wird ein [elektrisches Netzwerk](Lineare%20Elektrische%20Netzwerke.md) mit Wechs
 
 ## Zeigerdarstellung
 
-![invert_dark](../_assets/Wechselstromtechnik%202025-01-15%2020.22.21.excalidraw.svg)
+![invert_dark|400](../_assets/Wechselstromtechnik%202025-01-15%2020.22.21.excalidraw.svg)
 
 %% [Edit in Excalidraw](Wechselstromtechnik 2025-01-15 20.22.21.excalidraw.md) %%
 
@@ -44,7 +44,10 @@ Man nutzt *rotierende* [komplexe Zeiger](../Mathematik/Analysis/Eulersche%20Form
 $$\underline{ u }(t) = \hat{u}\cdot\left(\cos(\omega t+ \varphi) + \underbrace{\color{orange} j\sin(\omega t+ \varphi) }_{ \text{wird eingeführt} }\right) = \hat{u}\cdot e^{ j(\omega t + \varphi)}$$
 
 > [!warning] Physikalisch vorhanden und Messbar ist nur der Realteil
-> $$u(t) = \mathrm{Re}(\underline{u}(t)) = \hat{u}\cos(\omega t+\varphi_{u})$$
+> 
+> $$
+> u(t) = \mathrm{Re}(\underline{u}(t)) = \hat{u}\cos(\omega t+\varphi_{u})
+> $$
 
 ## Notation
 
@@ -60,30 +63,9 @@ $$
 
 Für Berechnungen verwendet man dann nur $\underline{\hat{u}}$, da der $e^{ j\omega t}$ Term durch die linearität erhalten bleibt.
 
-### Effektivwert Zeiger
+### Vereinfachung von Berechungen
 
-> [!info] Notation mit **Effektivwertzeiger**
-> 
-> In der Energietechnik ist die Verwendung des Effektivwertzeigers üblich.
-> Anstatt dem Spitzenwert $\hat{u}$ wird der Effektivwert als Länge der Zeiger verwendet.
-> 
-
-$$
-\underline{U}=\frac{\underline{\hat{u}}}{\sqrt{ 2 }}\qquad \underline{I}=\frac{\underline{\hat{\imath}}}{\sqrt{ 2 }}
-$$
-
-Wichtig ist es, keine konventionen zu Verischen.
-
-> [!success] Diese Konvention hat keinen Einfluss auf die Berechnung des Netzwerks, hat aber einen Vorteil:
-> 
-> Wenn man eine Gleichspannung äquivalent zum Effektivwert an einen Widerstand anhängt Ist die Leistung des Gleichstromnetzwerks genauso groß wie die Mittlere Leistung des Wechselstromnetzwerks. 
-> - Faktor $\sqrt{ 2 }$ kommt vom Quadratischen Mittelwert
-
-## Inversion von Zeigern
-
-Nützlich für die grafische Netzwerkanalyse
-
-> [!exmple] Geziegt ist hier, wie eine berechnung mit Phasorschreibweise die klassische Zeitbereichsrechnung vereinfacht.
+> [!exmple] Geziegt ist hier, wie eine berechnung mit Phasorschreibweise die klassische Zeitbereichsrechnung vereinfacht. #incomplete 
 > 
 > -  [Widerstand](Widerstand.md) $R$
 > 
@@ -104,7 +86,33 @@ Nützlich für die grafische Netzwerkanalyse
 > \end{align}
 > $$
 
+
+### Effektivwert Zeiger
+
+> [!info] Notation mit **Effektivwertzeiger**
+> 
+> In der Energietechnik ist die Verwendung des Effektivwertzeigers üblich.
+> Anstatt dem Spitzenwert $\hat{u}$ wird der Effektivwert als Länge der Zeiger verwendet.
+> 
+
+$$
+\underline{U}=\frac{\underline{\hat{u}}}{\sqrt{ 2 }}\qquad \underline{I}=\frac{\underline{\hat{\imath}}}{\sqrt{ 2 }}
+$$
+
+Wichtig ist es, keine konventionen zu Vermischen.
+
+> [!success] Diese Konvention hat keinen Einfluss auf die Berechnung des Netzwerks, hat aber einen Vorteil:
+> 
+> Wenn man eine Gleichspannung äquivalent zum Effektivwert an einen Widerstand anhängt, ist die Leistung des Gleichstromnetzwerks genauso groß wie die Mittlere Leistung des Wechselstromnetzwerks. 
+> - Faktor $\sqrt{ 2 }$ kommt vom Quadratischen Mittelwert
+
+## Inversion von Zeigern
+
+Nützlich für die grafische Netzwerkanalyse. #incomplete 
+
 ## Felder und Elektromagnetismus
+
+#Elektrodynamik
 
 Die die vereinfachung der Phasorschreibweise kann auch auf elektrische und magnetische [Vektorfelder](../Mathematik/Analysis/Vektoranalysis/index.md) angewandt werden und ist besonders hilfreich bei der Berechnung von Feldern in der HF-technik. Vorrausgesetzt sei wieder:
 

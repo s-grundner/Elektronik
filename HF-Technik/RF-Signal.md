@@ -27,7 +27,7 @@ release: true
 
 > [!success] Besonderheiten bei RF-Signalen
 > - Leitungen auf denen RF-Signale übertragen werden, müssen als [Transmission Lines](Transmission%20Line.md) (TLs) behandelt werden.
-> - Auf einer TL müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigt werden
+> - Auf einer TL müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigt werden. Betrachtung als [Welle](../Mathematik/Analysis/Wellengleichung.md).
 > - RF Signale breiten sich nicht nur auf Leitern, sondern auch in [Substraten / Dielektrika](../Physik/Materialkunde/{MOC}%20Materialkunde.md#Substrate)  aus
 >     - in allen achsen xyz $\to$ Freiraumausbreitung
 > - In unterschiedlichen Substraten / Dielektrika wandert das Signal unterschiedlich schnell
@@ -46,7 +46,7 @@ release: true
 > 
 
 > [!NOTE] nicht elektrisch kurz ($l>\frac{\lambda}{10}$) (engl. [Transmission Line](Transmission%20Line.md))
->  Zeigt die Spannung längs der Leitung **keinen** konstanten Verlauf mehr, so ist die Leitung ==nicht== als elektrisch ==kurz== anzusehen. In der Praxis geht man davon aus, dass der Effekt ab einer Leitungslänge von **einem Zehntel der Wellenlänge** bedeutsam wird.
+>  Zeigt die Spannung längs der Leitung **keinen** konstanten Verlauf mehr, so ist die Leitung *nicht* als elektrisch *kurz* anzusehen. In der Praxis geht man davon aus, dass der Effekt ab einer Leitungslänge von **einem Zehntel der Wellenlänge** bedeutsam wird.
 >  $$\boxed{ l > \frac{\lambda}{10} }$$
 > - Bei digitalen Signalen gilt dies für die Flankenanstiegszeit von 10% bis 90% des Pegels
 > - *Alternativ:* 9x die Frequenz des schnellsten digitalen Signals

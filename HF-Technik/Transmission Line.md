@@ -37,7 +37,7 @@ Eine TL wird mit seriellen Induktivitäts-Belägen und parallelen Kaüazitäts-B
 ^TL-Modell
 
 
-> [!important] Dieses Modell führt zur [Telegraphengleichung](Telegraphengleichung.md),
+> [!important] Dieses Modell führt zur [Telegrafengleichung](Telegrafengleichung.md),
 > einem gekoppelten [PDGL](../Mathematik/Analysis/Partielle%20Differenzialgleichung.md)-System, welche **Spannungswelle** $V(z,t)$ und die **Stromwelle** $I(z,t)$ verknüpft.
 > 
 > Diese Gleichung gilt für alle [Leitergeometrien](Leitergeometrie.md), welche den [TE-Mode](Transversale%20Elektromagnetische%20Welle.md) erfüllen. Je nach Geometrie ändert sich nur die Art, wie die Leitungsbeläge, $L'$ und $C'$ berechnet werden. Die Gleichung hat jedoch immer die selbe form. 
@@ -66,7 +66,7 @@ Mit $U$ und $I$ als Funktion von Spannung und Strom der hinlaufenden und rückla
 
 **Verlustbehaftete Leitung mit Sinusförmiger Wellenform**
 
-Hergeleitet aus der [Lösung der Telegrafengleichung](Telegraphengleichung.md#^LSGTFGL) eingesetzt in die gekoppelte PDGL der TFGL für Sinusgrößen: Im Allgemeinen komplex
+Hergeleitet aus der [Lösung der Telegrafengleichung](Telegrafengleichung.md#^LSGTFGL) eingesetzt in die gekoppelte PDGL der TFGL für Sinusgrößen: Im Allgemeinen komplex
 
 $$
 \underline{ Z }_{0} = \sqrt{ \frac{R'+j\omega L'}{G'+j\omega C'} } \tag{Z0}

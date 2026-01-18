@@ -15,18 +15,20 @@ rel-uncertainty: 1.6e-10
 
 # Freiraumwellenwiderstand
 
-> [!def] $\eta=376.730313412(59)~\Omega$
+> [!def] $\eta_{0}=376.730313412(59)~\Omega$
 > $=\mu_{0} \cdot c\approx 120\pi ~\Omega$
 > - $\mu$ ... [Permeabilitätskonstante](Permeablität.md)
 
+---
 
-Allgemein für nichtleitende Medien ist der Wellenwiderstand:
+Wenn entweder $\mathbf{E}$ oder $\mathbf{H}$ bekannt ist, kann der andere Feldvektor mit den [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen 1 oder 2 berechnet werden. Der Zusammenhang der felder ist die intrinsische Impedanz $\eta$ des dielektrischen Mediums.
 
 $$
-Z_{W} = \sqrt{ \frac{\mu}{\varepsilon} }  =\sqrt{ \frac{\mu_{0}\cdot\mu_{r}}{\varepsilon_{0}\cdot \varepsilon_{r}}  }
+\eta = \frac{\omega\mu}{k} = \sqrt{ \frac{\mu}{\epsilon} }
 $$
 
-![invert_dark](../../_assets/ImpedanzfelderFreiraum.png)
+
+![invert_dark|500](../../_assets/ImpedanzfelderFreiraum.png)
 
 Beim Hertzschen Dipol ist der Feldwellenwiderstand im Nahbereich ([Nahfeld](../../HF-Technik/Fernfeld%20und%20Nahfeld.md)) deutlich größer als $377 \Omega$, beim magnetischen Dipol deutlich kleiner
 

@@ -6,7 +6,6 @@ aliases:
   - Elektromagnetische Welle
   - EM-Welle
   - EM-Feld
-  - EM-Wellenfeld
   - Elektromagnetismus
 subject:
   - VL
@@ -29,8 +28,18 @@ Ein mathematisches Modell zur beschreibung von der zeitlichen und örtlichen Aus
 > 
 > Die [Materialeigenschaften](../Elektrotechnik/Materialgesetze.md) können auch linear/nichtlinear und (oder) auch isotrop/anisotrop sein.
 
+Die Ausbreitung von EM-Wellen werden im allgemeinen durch die [Telegrafengleichungen](../HF-Technik/Telegrafengleichung.md) beschreieben. 
 
+## Größen und Kennwerte
 
+- [Wellenzahl](Wellenzahl.md)
+- [Phasengeschwindigkeit](Phasengeschwindigkeit.md)
+- [Wellenlänge](Wellenlänge.md)
+- [Intrinsische Impedanz des Mediums](Konstanten/Freiraumwellenwiderstand.md)
+
+## Bänder des EM-Spektrums
+
+- [Mikrowellenbereich](../HF-Technik/Mikrowellenbereich.md)
 
 ---
 

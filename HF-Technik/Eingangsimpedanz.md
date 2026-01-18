@@ -19,7 +19,7 @@ Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md)
 > [!NOTE] Kenngrößen  
 > Zur vollständigen Beschreibung der Leitungseinflüsse muss die Leitung neben ihrer Länge $l$ durch zwei zusätzliche Kenngrößen charakterisiert werden:
 > - Leitungswellenwiderstand $Z_{L}$
-> - [Ausbreitungskonstante](Telegraphengleichung.md) $\gamma$.
+> - [Ausbreitungskonstante](Telegrafengleichung.md) $\gamma$.
 > - Abschlussimpedanz $Z_{A}$
 > 
 > Im Schaltungsentwurf sind diese mit zu berücksichtigen!

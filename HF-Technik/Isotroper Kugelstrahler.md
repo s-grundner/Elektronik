@@ -67,8 +67,8 @@ $$
 
 - $l$ ... Länge des Dipols
 - $I_{0}$ ... Amplitude der Stromquelle
-- $\eta = \sqrt{\frac{\mu}{\epsilon}}$ ... Intrinsischer Wellenwiderstand des Freiraumes
-- $k = \frac{2\pi}{\lambda}$ ... Wellenzahl
+- $\eta = \sqrt{\frac{\mu}{\epsilon}}$ ... [Intrinsischer Wellenwiderstand des Freiraumes](../Physik/Konstanten/Freiraumwellenwiderstand.md)
+- $k = \frac{2\pi}{\lambda}$ ... [Wellenzahl](../Physik/Wellenzahl.md)
 
 Die Radiansphäre ist jener Radius $r_{\mathrm{rad}}$, bei dem der Blindleistungsanteil gleich dem Wirkleistungsanteil ist.
 

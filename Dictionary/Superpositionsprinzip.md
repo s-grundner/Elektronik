@@ -1,11 +1,10 @@
 ---
-tags: 
+tags:
 aliases:
-  - Helmholtz
   - Überlagerungsprinzip
   - superponieren
   - Superposition
-keywords: 
+keywords:
 subject:
   - Einführung Elektrotechnik
   - VL
