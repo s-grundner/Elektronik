@@ -62,7 +62,7 @@ $$
 \nabla\times\nabla\times\mathbf{E} = -j\omega\mu (\underbrace{ \nabla \times\mathbf{H} }_{ \text{MW2} }) =\omega^{2}\mu\epsilon\mathbf{E}
 $$
 
-Die Rechenregel für den [Rotor des Rotors (xi)](Vektoranalysis/Nabla%20Operator.md#Allgemeine%20Rechenregeln) eines Vektorfeldes:
+Die Rechenregel für den [Rotor des Rotors (xi)](../Mathematik/Analysis/Vektoranalysis/Nabla%20Operator.md#Allgemeine%20Rechenregeln) eines Vektorfeldes:
 
 $$
 \nabla \times \nabla \times\mathbf{E} = \nabla(\underbrace{ \nabla\cdot \mathbf{E} }_{ \text{MW3} }) - \nabla^{2} \mathbf{E}
