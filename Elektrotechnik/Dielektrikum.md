@@ -8,6 +8,7 @@ aliases:
   - relative Dielektrizitätszahl
   - Dielektrizitätskonstante
   - elektrische Polarisation
+  - suszeptibiität
 keywords:
 subject:
   - VL
@@ -18,7 +19,7 @@ created: 15th January 2026
 professor:
   - Reinhard Feger
 symbol: $\epsilon_{0}$
-value: $8.8541878128(13)\cdot 10^{-12}$
+value: $8.8541878128(13) \cdot 10^{-12}$
 unit: $\mathrm{\dfrac{As}{Vm}}$
 release: true
 title: Dielektrikum
@@ -72,6 +73,8 @@ Die Permittivität ist in der Regel indirekt Proportional zur elektrischen Felds
 
 ## Elektrodynamik
 
+#Elektrodynamik 
+
 In Wechselfeldern müssen die dynamischen Eigenschaften des Materials berücksichtigt werden.
 
 > [!question] Unterstrichene Symbole deuten darauf hin, dass diese als [Phasor](Wechselstromtechnik.md) notiert sind.
@@ -108,15 +111,15 @@ wobei
 > \epsilon = \epsilon'-j\epsilon'' = \epsilon_{0}(1+\chi_{e}) \in \mathbb{C}
 > $$
 
-die komplexe permittivität des Mediums ist. Der Imaginärteil von $\epsilon$ beschreibt [Verluste](Verlustwinkel.md) im Medium (wärme), die durch die dämpfung der schwingenden Dipolmomente verursacht werden (vergleiche mit [Federschwinger](../Physik/Feder-Schwinger.md)).
+die komplexe permittivität des Mediums ist. Der Imaginärteil von $\epsilon$ beschreibt [Verluste](Verlustwinkel.md#Dielektrische%20Materialien) im Medium (wärme), die durch die dämpfung der schwingenden Dipolmomente (vergleiche mit [Federschwinger](../Physik/Feder-Schwinger.md)) und möglicher Leitfähigkeit im eigentlich isolierenden Material verursacht werden.
 
 > [!question] Begründung zur komplexwertigkeit der Permittivität
 > 
-> Bei höher werdenen Frequenzen kommt die Schwingung der Dipole nicht mehr dem Feld hinterher, wodurch eine Phasenverschiebung zwischen Schwingung der Dipole und dem Feld auftritt. 
+> Bei höher werdenen Frequenzen kommt die Schwingung der Dipole nicht mehr dem Feld hinterher, wodurch eine Phasenverschiebung zwischen Schwingung der Dipole und dem Feld auftritt. Das Dipolmoment ist verzögert zur Schwingung des externen feldes, weswegen der Imaginärteil negativ ist.
 
 ## Isotropie
 
-Für [isotrope](../Dictionary/Isotrop.md) dielektrika gilt, dass deren Permittivität ein Skalarer wert ist. Ist ein Material **anisotrop** - bedeutet, dass sich die Permittivität ortsabhängig im Material ändert - wird die Permittivität durch einen [Tensor](../Mathematik/Algebra/Tensor.md) vom Rang 2 (Dyade) beschrieben.
+Für [isotrope](../Dictionary/Isotrop.md) dielektrika gilt, dass deren Permittivität ein *skalarer* Wert ist. Ist ein Material **anisotrop** - bedeutet, dass sich die Permittivität **richtungsabhängig** im Material ändert - wird die Permittivität durch einen [Tensor](../Mathematik/Algebra/Tensor.md) vom Rang 2 (Dyade) beschrieben.
 
 ![invert_dark|400](../_assets/Excalidraw/Dielektrikum%202026-01-16%2020.43.02.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Dielektrikum%202026-01-16%2020.43.02.excalidraw.md)%%
@@ -138,7 +141,7 @@ E_{x} \\ E_{y} \\ E_{z} \\
 \end{bmatrix}
 $$
 
-> [!important] Für Anisotrope Materialien ist die Permittivität ortsabhängig.
+> [!important] Für Anisotrope Materialien ist die Permittivität richtungsanbhänig.
 > 
 > Möchte man die Maxwellgleichungen
 > 
@@ -150,10 +153,4 @@ $$
 > \mathbf{D} = [\epsilon]\mathbf{E}
 > $$
 >  
->  lösen, muss beachtet werden, dass die Ortsableitungen im [Nabla Operator](../Mathematik/Analysis/Vektoranalysis/Nabla%20Operator.md) auch auf die Permittivität unter der Verwendung der Produktregel für die Diveregenz
->  
->  $$
->  \nabla \cdot (\varphi \boldsymbol{A}) = \varphi \nabla \cdot \boldsymbol{A} + \boldsymbol{A} \cdot \nabla \varphi
->  $$
-> 
-> anzuwenden ist.
+>  lösen, muss beachtet werden, dass die Ortsableitungen im Nabla Operator auch auf die Permittivität unter der Verwendung der [Produktregel für die Divergenz (iv)](../Mathematik/Analysis/Vektoranalysis/Nabla%20Operator.md#Allgemeine%20Rechenregeln) anzuwenden ist.

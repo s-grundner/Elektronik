@@ -6,7 +6,6 @@ aliases:
   - Hochfrequenztechnik
   - RF-Engineering
 keywords:
-  - GHFT-V1
 subject:
   - VL
   - Grundlagen der Hochfrequenztechnik
@@ -39,7 +38,7 @@ Klassische Anwendungen im [Mikrowellenbereich](Mikrowellenbereich.md) des Elektr
 
 **Design Komplexität**
 
-- Entwurf von HF-Schaltungen und Leiterplatten erfordert nicht nur das Wissen von konventionellen Schaltungsentwurf, hinzu kommt vorallem Elektromagnetismus und Signalverarbeitung (analog/digital).
+- Entwurf von HF-Schaltungen und Leiterplatten erfordert nicht nur das Wissen von konventionellen Schaltungsentwurf, hinzu kommt vorallem [Elektromagnetismus](../Physik/Elektromagnetische%20Wellen.md) und Signalverarbeitung (analog/digital).
 - Bei Leiterplatten: Nicht nur diskrete Bauteile sind von bedeutung, auch die verbindungen dazwischen sind zu berücksichtigen.
 - Geometrie von elektrischen Leitern ist relevant.
 

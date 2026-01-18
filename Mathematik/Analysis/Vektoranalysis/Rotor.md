@@ -4,7 +4,6 @@ aliases:
   - Rotation
   - Curl
 keywords:
-  - GHFT-V1
 subject:
   - VL
   - Elektrotechnik

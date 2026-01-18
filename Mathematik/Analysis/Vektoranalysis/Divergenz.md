@@ -2,7 +2,6 @@
 tags:
 aliases:
 keywords:
-  - GHFT-V1
 subject:
   - VL
   - Mathematik 2

@@ -3,7 +3,6 @@ tags:
 aliases:
   - HF-Signal
 keywords:
-  - GHFT-V1
 subject:
   - KV
   - VL

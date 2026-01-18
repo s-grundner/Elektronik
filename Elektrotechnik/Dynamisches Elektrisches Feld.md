@@ -8,6 +8,7 @@ subject:
 semester: WS25
 created: 16th January 2026
 professor:
+  - Reinhard Feger
 release: false
 title: Dynamisches Elektrisches Feld
 ---
@@ -18,3 +19,4 @@ title: Dynamisches Elektrisches Feld
 
 ---
 
+- [Telegrafengleichung](../HF-Technik/Telegrafengleichung.md)

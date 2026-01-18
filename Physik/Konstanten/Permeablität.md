@@ -17,8 +17,9 @@ subject:
   - VL
 semester: SS25
 created: 10. März 2025
-professor: 
-release: false
+professor:
+  - Reinhard Feger
+release: true
 title: Permeabilität
 symbol: $\mu_{0}$
 value: $1.25663706127(20) \cdot 10^{-6}$

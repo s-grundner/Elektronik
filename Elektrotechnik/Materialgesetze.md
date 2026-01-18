@@ -35,14 +35,68 @@ Elektrische Verluste des Materials charakterisert man mit dem [Verlustwinkel](Ve
 
 ## Material Eigenschaften
 
-- **Linearität:** Ein Material ist linear, wenn die Materialeigenschaften $\varepsilon_{\mathrm{r}}, \mu_{\mathrm{r}}$ und $\sigma$ unabhängig von den elektromagnetischen Feldgrößen sind, die im Material auftreten.
-	- Beispiel: Die relative Permittivität $\varepsilon_{r}$ ändert sich nicht, wenn die das Material durchsetzende elektrische Feldstärke kleiner oder größer wird.
-- **Zeitinvarianz:** Ein Material ist zeitinvariant, wenn die Materialeigenschaften zeitlich konstant sind.
-- **Isotropie:** Ein Material ist isotrop, wenn die Materialeigenschaften richtungsunabhängig sind.
-	- Ist das Material Isotrop, dann sind die Feldwirkungsgrößen ein **Skalar**.
-	- Ist ein Material Anisotrop, sind die Feldwirkungsgrößen ein **Tensor**.
-- **Dispersion:** Ein Material ist dispersiv, wenn die Materialeigenschaften abhängig von der Frequenz sind.
-- **Homogenität:** Ein Material ist homogen, wenn die Materialeigenschaften sich räumlich nicht ändern.
+### Linearität
+
+Ein Material ist linear, wenn die Materialeigenschaften $\varepsilon_{\mathrm{r}}, \mu_{\mathrm{r}}$ und $\sigma$ unabhängig von den elektromagnetischen Feldgrößen sind, die im Material auftreten.
+
+| Eigenschaft      | Magnetisches Material    | Dielektrisches Material       | Leitfähiges Material        |
+| ---------------- | :------------------------: | :-----------------------------: | :---------------------------: |
+| **Linear**       | $\mu \neq f(\mathbf{H})$ | $\epsilon \neq f(\mathbf{E})$ | $\sigma \neq f(\mathbf{E})$ |
+| **Nicht Linear** | $\mu = f(\mathbf{H})$    | $\epsilon = f(\mathbf{E})$    | $\sigma = f(\mathbf{E})$    |
+
+> [!exmple] Beispiel: Die relative Permittivität $\varepsilon_{r}$ ändert sich nicht, wenn die das Material durchsetzende elektrische Feldstärke kleiner oder größer wird.
+
+### Isotropie
+
+Ein Material ist isotrop, wenn die Materialeigenschaften **richtungsunabhängig** sind.
+
+| Eigenschaft      | Magnetisches Material    | Dielektrisches Material       | Leitfähiges Material        |
+| ---------------- | :------------------------: | :-----------------------------: | :---------------------------: |
+| **Isotrop**       | $\mu$ ist ein Skalar | $\epsilon$ ist ein Skalar | $\sigma$ ist ein Skalar |
+| **Anisotrop**       | $\mu$ ist ein Tensor | $\epsilon$ ist ein Tensor | $\sigma$ ist ein Tensor |
+
+### Dispersion
+
+Ein Material ist dispersiv, wenn die Materialeigenschaften abhängig von der Frequenz sind.
+
+| Eigenschaft         | Magnetisches Material | Dielektrisches Material | Leitfähiges Material |
+| ------------------- | :-------------------: | :---------------------: | :------------------: |
+| **Nicht Dispersiv** |    $\mu \neq f(f)$    |  $\epsilon \neq f(f)$   |  $\sigma \neq f(f)$  |
+| **Dispersiv**       |     $\mu = f(f)$      |    $\epsilon = f(f)$    |   $\sigma = f(f)$    |
+
+### Homogenität
+
+Ein Material ist homogen, wenn sich die Materialeigenschaften räumlich nicht ändern.
+
+| Eigenschaft         | Magnetisches Material    | Dielektrisches Material       | Leitfähiges Material        |
+| ------------------- | :------------------------: | :-----------------------------: | :---------------------------: |
+| **Homogen** | $\mu \neq f(\mathbf{x})$ | $\epsilon \neq f(\mathbf{x})$ | $\sigma \neq f(\mathbf{x})$ |
+| **Inhomogen**       | $\mu = f(\mathbf{x})$    | $\epsilon = f(\mathbf{x})$    | $\sigma = f(\mathbf{x})$    |
+
+$\mathbf{x}$ sind dabei die Räumlichen koordinaten.
+
+- Kartesische Koordinaten: $\mathbf{x} = (x,y,z)$
+- Zylinderkoordinaten: $\mathbf{x} = (r,h,\phi)$
+- Polarkoordinaten: $\mathbf{x} = (r,\phi,\theta)$
+
+### Verluste
+
+| Eigenschaft         | Magnetisches Material | Dielektrisches Material | Leitfähiges Material |
+| ------------------- | :---------------------: | :-----------------------: | :--------------------: |
+| **Verlustlos** | $\mu \in \mathbb{R}$       | $\epsilon \in \mathbb{R}$    | $\sigma \in \mathbb{R}$   |
+| **Verlustbehaftet**       | $\mu \in \mathbb{C}$          | $\epsilon \in \mathbb{C}$       | $\sigma \in \mathbb{C}$      |
+
+Wenn dass Material auch anisotrop ist, dann gilt auch die Tensorweritgkeit mit komplexen und reellen komponenten.
+
+### Zeitinvarianz
+
+Ein Material ist zeitinvariant, wenn die Materialeigenschaften zeitlich konstant sind.
+
+| Eigenschaft         | Magnetisches Material | Dielektrisches Material | Leitfähiges Material |
+| ------------------- | :---------------------: | :-----------------------: | :--------------------: |
+| **Zeitinvariant** | $\mu \neq f(t)$       | $\epsilon \neq f(t)$    | $\sigma \neq f(t)$   |
+| **Zeitvariant**       | $\mu = f(t)$          | $\epsilon = f(t)$       | $\sigma = f(t)$      |
+
 
 ## Felder an verlustfreien dielektrischen Grenzflächen
 
@@ -66,7 +120,7 @@ $\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/F
 > - Die Feldkomponenten von $\mathbf{D}$ und $\mathbf{B}$ **normal** zur Grenzfläche (in Richtung von $\hat{n}$) sind gleich, also kontinuierlich am übergang.
 > - Die Feldkomponenten von $\mathbf{E}$ und $\mathbf{B}$ **tangential** zur Grenzfläche (Normal zu $\hat{n}$) sind gleich, also kontinuierlich am übergang.
 
-Ein sprung könnte nur dann entstehen wenn an den Grenzflächen ein Strom fließt. Ein dielektrisches Material besitzt jedoch keinen Leitwert, weshalb der Strom immer 0 ist.
+Ein sprung könnte nur dann entstehen wenn an den Grenzflächen ein Strom fließt. Ein [dielektrisches Material](Dielektrikum.md) besitzt jedoch keinen Leitwert, weshalb der Strom immer 0 ist.
 
 ## Felder an perfekt leitenden Grenzflächen
 

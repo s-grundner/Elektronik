@@ -20,7 +20,7 @@ professor:
 # Isotrop
 
 > [!quote] Begriff
-> **Isotropie** ist die Unabhängigkeit einer Eigenschaft von der Richtung.
+> **Isotropie** ist die Unabhängigkeit einer Eigenschaft von der **Richtung**.
 
 ## Kontexte
 

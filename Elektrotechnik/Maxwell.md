@@ -5,7 +5,6 @@ aliases:
   - MWG
   - Gaußsches Gesetz
 keywords:
-  - GHFT-V1
 subject:
   - VL
   - Elektrotechnik

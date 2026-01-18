@@ -15,7 +15,7 @@ keywords:
 semester: WS25
 professor:
   - Reinhard Feger
-release: false
+release: true
 title: Elektromagnetische Wellen
 ---
 
@@ -35,7 +35,7 @@ Die Ausbreitung von EM-Wellen werden im allgemeinen durch die [Telegrafengleichu
 - [Wellenzahl](Wellenzahl.md)
 - [Phasengeschwindigkeit](Phasengeschwindigkeit.md)
 - [Wellenlänge](Wellenlänge.md)
-- [Intrinsische Impedanz des Mediums](Konstanten/Freiraumwellenwiderstand.md)
+- [Intrinsische Impedanz des Mediums](Konstanten/Wellenwiderstand.md)
 
 ## Bänder des EM-Spektrums
 

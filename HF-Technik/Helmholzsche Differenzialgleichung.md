@@ -1,8 +1,11 @@
 ---
 tags:
+  - Elektrodynamik
 aliases:
 keywords:
   - Telegrafengleichung
+  - Telegrafenleitungsgleichung
+  - Frequenzbereichs Betrachtung
 subject:
   - VL
   - Grundlagen der Hochfrequenztechnik
@@ -31,10 +34,24 @@ Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\
 
 ### Verlustloses Medium
 
-> [!warning] Damit die Vereinfachung gilt, muss dass Material des Wellenleiters **linear** und **isotrop** sein. 
-> - $\mu$ und $\varepsilon$ sind konstante skalare und reelle Werte und nicht ortsabhängig.
+> [!satz] **S)** Wellengleichung in *verlustlosen*, linearen, isotropen und homogenen dielektrischen Medien
+> 
+> $$
+> \begin{align}
+> \nabla^{2}\mathbf{E} + k^{2}\mathbf{E} = 0 \\
+> \nabla^{2}\mathbf{H} + k^{2}\mathbf{H} = 0
+> \end{align}
+> $$
+>
+> Mit der [Wellenzahl](../Physik/Wellenzahl.md) $k \in\mathbb{R}$
 
-Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem Verlustlosen dielektrischen Medium ($\sigma = 0; \rho=0; \epsilon,\mu\in \mathbb{R}$) und erhält folgende gekoppelte DGLen:
+#### Herleitung der Wellengleichungen
+
+
+> [!warning] Damit die Vereinfachung gilt, muss dass [Material](../Elektrotechnik/Materialgesetze.md) des Wellenleiters **linear**, **isotrop** und **homogen** sein. 
+> - $\mu$ und $\varepsilon$ sind konstante skalare und reelle Werte.
+
+Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustlosen* [dielektrisches](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma = 0; \rho=0; \epsilon,\mu\in \mathbb{R}$) und erhält folgende gekoppelte partielle DGLen:
 
 - [M1](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW1](../Elektrotechnik/Maxwell.md#^MW1): $\nabla\times\mathbf{E} = -j\omega\mu\mathbf{H}$
 - [M2](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW2](../Elektrotechnik/Maxwell.md#^MW2): $\nabla\times\mathbf{H} = j\omega\epsilon\mathbf{E}$
@@ -45,28 +62,28 @@ $$
 \nabla\times\nabla\times\mathbf{E} = -j\omega\mu (\underbrace{ \nabla \times\mathbf{H} }_{ \text{MW2} }) =\omega^{2}\mu\epsilon\mathbf{E}
 $$
 
-Die [Rechenregel für den Rotor des Rotors (xi)](Vektoranalysis/Nabla%20Operator.md#Allgemeine%20Rechenregeln) eines Vektorfeldes:
+Die Rechenregel für den [Rotor des Rotors (xi)](Vektoranalysis/Nabla%20Operator.md#Allgemeine%20Rechenregeln) eines Vektorfeldes:
 
 $$
 \nabla \times \nabla \times\mathbf{E} = \nabla(\underbrace{ \nabla\cdot \mathbf{E} }_{ \text{MW3} }) - \nabla^{2} \mathbf{E}
 $$
 
-[MW3](../Elektrotechnik/Maxwell.md#^MW3) besagt, dass $\nabla\cdot\mathbf{E} = \frac{\rho}{\epsilon}$. Da sich im idealen dielektrikum keine Ladungsquellen befinden ist $\rho=0$, wodurch man für die Wellengleichung im Frequenzbereich erhält ($k$ ... [Wellenzahl](../Physik/Wellenzahl.md)):
+[MW3](../Elektrotechnik/Maxwell.md#^MW3) besagt, dass $\nabla\cdot\mathbf{E} = \frac{\rho}{\epsilon}$. Da sich im idealen dielektrikum keine Ladungsquellen befinden ist $\rho=0$, wodurch man für die Wellengleichung im Frequenzbereich erhält:
 
 $$
 \nabla^{2}\mathbf{E} + \omega^{2}\mu\epsilon\mathbf{E} = 0 \quad \text{bzw.} \quad \nabla^{2}\mathbf{E} + k^{2}\mathbf{E} = 0
 $$
 
-Durch dieselbe Betrachtung für das H-Feld erhält man parallel
+Mit der [Wellenzahl](../Physik/Wellenzahl.md) $k \in \mathbb{R}$. Durch dieselbe Betrachtung für das H-Feld erhält man parallel
 
 $$
 \nabla^{2}\mathbf{H} + \omega^{2}\mu\epsilon\mathbf{H} = 0 \quad \text{bzw.} \quad \nabla^{2}\mathbf{H} + k^{2}\mathbf{H} = 0
 $$
 
 
-Aus den gekoppelten DGL hat man nun nur noch eingrößen DGL erhalten und man kann die Feldausbreitung separat betrachten.
+Aus den gekoppelten DGL hat man nun eine eingrößen DGL erhalten und man kann die Feldausbreitung separat betrachten.
 
-#### Lösung der Telegrafengleichung
+#### Lösung der Wellengleichungen
 
 Für ein einfaches elektrisches Feld mit nur einer Feldkomponente in $\hat{x}$ Richtung und keiner änderung in $x$ und $y$ ($\frac{\partial }{\partial x}=\frac{\partial }{\partial y}=0$), die Wellengleichung reduziert sich zu
 
@@ -82,9 +99,47 @@ $$
 
 Wobei die konstanten $E^{+}$ und $E^{-}$ durch Rand- oder Anfangswerte ermittelt werden müssen.
 
+
+
 ### Verlustbehaftetes Medium
 
+> [!question] [Verluste in dielektrischen Materialien](../Elektrotechnik/Verlustwinkel.md#Dielektrische%20Materialien)
 
+> [!satz] **S)** Wellengleichung in *verlustbehafteten*, linearen, isotropen und homogenen dielektrischen Medien
+> 
+> $$
+> \begin{align}
+> \nabla^{2}\mathbf{E} - \gamma^{2}\mathbf{E} = 0 \\
+> \nabla^{2}\mathbf{H} - \gamma^{2}\mathbf{H} = 0
+> \end{align}
+> $$
+>
+> Mit der [Fortpflanzungskonstante](../Physik/Wellenzahl.md) $\gamma \in\mathbb{C}$
+
+#### Herleitung der Wellengleichung
+
+
+> [!warning] Damit die Vereinfachung gilt, muss dass Material des Wellenleiters **linear**, **isotrop** und **homogen** sein. 
+> - $\mu$ und $\varepsilon$ sind konstante skalare und komplex Werte.
+
+Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustbehafteten* [dielektrischen](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma \neq 0; \rho=0; \epsilon,\mu\in \mathbb{C}$) und erhält folgende gekoppelte partielle DGLen:
+
+- [M1](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW1](../Elektrotechnik/Maxwell.md#^MW1): $\nabla\times\mathbf{E} = -j\omega\mu\mathbf{H}$
+- [M2](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW2](../Elektrotechnik/Maxwell.md#^MW2): $\nabla\times\mathbf{H} = j\omega\epsilon\mathbf{E} + \sigma\mathbf{E}$
+
+...
+
+#incomplete 
+
+...
+
+Die Wellengleichung lautet dann
+
+$$
+\nabla^{2}\mathbf{E} + \omega^{2}\mu\epsilon\left( 1-j \frac{\sigma}{\omega\epsilon} \right)\mathbf{E} = 0 \quad \text{bzw.} \quad \nabla^{2}\mathbf{E} - \gamma^{2}\mathbf{E} = 0
+$$
+
+Mit der [Ausbreitungskonstante](../Physik/Wellenzahl.md) $\gamma \in \mathbb{C}$.
 
 ## Telegrafenleitungsgleichung - Ausbreitung von Spannungs und Stromwellen auf einer Leitung
 
@@ -126,7 +181,7 @@ $$
 
 
 
-![[../_assets/Telegraphengleichung 2025-01-21 23.36.38.excalidraw]]
+![[../_assets/Telegraphengleichung 2025-01-21 23.36.38.excalidraw.md]]
 
 
 Der Phasenbelag ist mit der Wellenlänge des Signals verknüpft und bestimmt, wie schnell sich die Welle auf der Leitung ausbreitet.

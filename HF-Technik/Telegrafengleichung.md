@@ -2,9 +2,6 @@
 tags:
   - RF
 aliases:
-  - Ausbreitungskoeffizient
-  - Fortpflanzungskonstante
-  - Telegrafengleichung
 subject:
   - HF-Systemtechnik 1
   - KV

@@ -3,6 +3,9 @@ tags:
 aliases:
   - D'Alembert
 keywords:
+  - Telegrafengleichung
+  - Telegrafenleitungsgleichung
+  - Zeitbereichsbetrachtung
 subject:
   - VL
   - Mathematik 3

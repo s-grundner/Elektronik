@@ -7,7 +7,7 @@ value: $299\,792\,458$
 unit: $\mathrm{\dfrac{m}{s}}$
 ---
 
-# Lichtegschwindigkeit im Vakuum
+# Lichtgeschwindigkeit im Vakuum
 
 > [!def] $c = 299\,792\,458 \mathrm{\frac{m}{s}}$ ^DEF
 
