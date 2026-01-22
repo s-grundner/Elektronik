@@ -20,7 +20,7 @@ keywords:
 
 # Diode als Bauelement
 
-> [!question] Für den Aufbau einer Diode, siehe [Halbleiterphysik](../../Physik/Halbleiterphysik.md)
+> [!question] Für den Aufbau einer Diode, siehe [Halbleiterphysik](../../Physik/Quantenmechanik/Halbleiterphysik.md)
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -34,7 +34,7 @@ keywords:
 
 Die Strom-Spannungs-Beziehung einer Diode **im Durchlassbereich** ist durch die Shockleygleichung definiert.
 
-![Shockley Gleichung](../../Physik/Shockley%20Gleichung.md#^SHOC)
+![Shockley Gleichung](Shockley%20Gleichung.md#^SHOC)
 
 ## Taylorreihe - Kleinsignalverhalten - Dynamischer Leitwert
 

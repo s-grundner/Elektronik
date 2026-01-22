@@ -9,7 +9,7 @@ created: 7th June 2022
 # Piezoelektrik
 
 > [!example]- Rechenbeispiel
-> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/{MOC}%20Kräfte.md) von $F=1kN$ belastet.
+> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md) von $F=1kN$ belastet.
 > Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/elektrisches%20Feld.md) abgeklungen?
 > $$
 > \begin{align*}
@@ -36,7 +36,7 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 
 | Input                              | Output                                                              |
 | ---------------------------------- | ------------------------------------------------------------------- |
-| [Kraft](../Physik/{MOC}%20Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
+| [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
 
 ![invert_dark](../_assets/piezo_esb.png)
 
@@ -54,8 +54,8 @@ Es handelt sich dabei um ein **DMS-System** aus **mehreren Streifen**, die entwe
 
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  
 [Ladung](../Elektrotechnik/elektrisches%20Feld.md) die zugrunde liegende Deformation zu bestimmen.  
-Der Effekt ist nur von der Längenänderung nicht von [Geschwindigkeit](../Physik/Kinematik.md)  
-bzw. [Beschleunigung](../Physik/Kinematik.md) der Deformation abhängig.
+Der Effekt ist nur von der Längenänderung nicht von [Geschwindigkeit](../Physik/Kinematik/Kinematik.md)  
+bzw. [Beschleunigung](../Physik/Kinematik/Kinematik.md) der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
 

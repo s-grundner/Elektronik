@@ -12,7 +12,7 @@ created: 20th April 2022
 
 ![Buck_converter](../../_assets/Buck_converter.svg)
 
-Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.  
+Der [Transistor](../Halbleiter/Transistor.md) $T$ Arbeitet als Schalter ($S$), der mittels der PWM gesteuerten Spannung $U_{st}$ (Gate-Spannung) mit hoher Frequenz ($50kHz-500kHz$) angesteuert wird.  
 Der Term $DC = \dfrac{t_{1}}{T_{S}}$ beschreibt das Tastverhältnis (Duty-Cycle) der Steuerspannung.
 
 ## Impuls-Zeit Diagramm

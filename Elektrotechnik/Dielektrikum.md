@@ -25,7 +25,6 @@ release: true
 title: Dielektrikum
 ---
  
-
 # Permittivität des Vakuums
 
 > [!def] $\epsilon_{0}=8.8541878128(13)\cdot 10^{-12} \mathrm{\frac{As}{Vm}}$ ^DEF
@@ -111,7 +110,7 @@ wobei
 > \epsilon = \epsilon'-j\epsilon'' = \epsilon_{0}(1+\chi_{e}) \in \mathbb{C}
 > $$
 
-die komplexe permittivität des Mediums ist. Der Imaginärteil von $\epsilon$ beschreibt [Verluste](Verlustwinkel.md#Dielektrische%20Materialien) im Medium (wärme), die durch die dämpfung der schwingenden Dipolmomente (vergleiche mit [Federschwinger](../Physik/Feder-Schwinger.md)) und möglicher Leitfähigkeit im eigentlich isolierenden Material verursacht werden.
+die komplexe permittivität des Mediums ist. Der Imaginärteil von $\epsilon$ beschreibt [Verluste](Verlustwinkel.md#Dielektrische%20Materialien) im Medium (wärme), die durch die dämpfung der schwingenden Dipolmomente (vergleiche mit [Federschwinger](../Physik/Kinematik/Feder-Schwinger.md)) und möglicher Leitfähigkeit im eigentlich isolierenden Material verursacht werden.
 
 > [!question] Begründung zur komplexwertigkeit der Permittivität
 > 
@@ -140,17 +139,3 @@ E_{x} \\ E_{y} \\ E_{z} \\
 E_{x} \\ E_{y} \\ E_{z} \\
 \end{bmatrix}
 $$
-
-> [!important] Für Anisotrope Materialien ist die Permittivität richtungsanbhänig.
-> 
-> Möchte man die Maxwellgleichungen
-> 
-> ![](Maxwell.md#^MW3)
-> 
-> für anisotrope materialien unter verwendung von
-> 
->  $$
-> \mathbf{D} = [\epsilon]\mathbf{E}
-> $$
->  
->  lösen, muss beachtet werden, dass die Ortsableitungen im Nabla Operator auch auf die Permittivität unter der Verwendung der [Produktregel für die Divergenz (iv)](../Mathematik/Analysis/Vektoranalysis/Nabla%20Operator.md#Allgemeine%20Rechenregeln) anzuwenden ist.

@@ -32,4 +32,4 @@ Der Gradientensatz ist die Erweiterung des [Fundamentalsatzes der Analysis](../F
 > $\varphi$ ist also ein Skalarfeld mit dem Zugehörigen [Gradient](Gradient.md)-Vektorfeld $\nabla \varphi$.
 > 
 
-> [!hint] In einem beliebigen konservativen [Kraftfeld](../../../Physik/{MOC}%20Kräfte.md) ist $\varphi$ ein *Potenzial*.
+> [!hint] In einem beliebigen konservativen [Kraftfeld](../../../Physik/Kinematik/{MOC}%20Kräfte.md) ist $\varphi$ ein *Potenzial*.

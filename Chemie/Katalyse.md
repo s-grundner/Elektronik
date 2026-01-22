@@ -22,7 +22,7 @@ Reaktionsgeschwindigkeit (RG): $v=$ Stoffumsatz pro Zeiteinheit ($\frac{mol}{sek
 
 ### Einflüsse Auf Die RG
 
-**[Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) (RGT-Regel)**  
+**[Temperatur](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) (RGT-Regel)**  
 **Druck bzw. Konzentration**  
 **Verteilungszustand**  
 **Art der Stoffe**

@@ -26,16 +26,12 @@ professor:
 > Dadurch entsteht ein *lokales Ungleichgewicht* an [Ladungen](elektrisches%20Feld.md) wodurch ein elektrisches Zusatzfeld erzeugt wird.
 > - dieses Zusatzfeld wirkt dem äußeren Feld entgegen
 
-![](../_assets/elektrInfluenz.png)
+![invert_dark](../_assets/elektrInfluenz.png)
 
 > [!SUCCESS] Die Ladungsschichten am Rand sind so verteilt, dass das durch sie erzeugte Feld das externe Feld im Inneren des Leiters exakt kompensiert  
 > Der gleiche Mechanismus bewirkt auch, dass das elektrische Feld an der Oberfläche von Leitern nie eine Tangentialkomponente hat (Feldlinien immer normal auf die Oberfläche)
 
 ## Faraday Käfig
 
-![Faraday_cage](../_assets/Faraday_cage.gif)
+![invert_dark](../_assets/Faraday_cage.gif)
 
-## Flashcards
-
-*Influenz* beschreibt…;; die Verschiebung von [Ladungen](elektrisches%20Feld.md) in leitfähigen Körpern, die in ein elektrisches Feld eingebracht werden.
-<!--SR:!2024-03-26,11,230-->

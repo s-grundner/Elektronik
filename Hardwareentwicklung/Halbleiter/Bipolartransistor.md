@@ -20,7 +20,7 @@ professor:
 
 # Bipolar-Junction-Transistor
 
-> weitergeleitet von [{MOC} Transistor]({MOC}%20Transistor.md)
+> weitergeleitet von [Transistor](Transistor.md)
 
 | Schaltung                                    | [Emitterschaltung](Kollektorfolger.md)                      | [Basisschaltung](Basisschaltung.md)              | [Kollektorschaltung](Emitterfolger.md)              |
 | :------------------------------------------- | :---------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------------------- |
@@ -59,7 +59,7 @@ Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw
 
 ## Kennlinie
 
-Die Transferkennlinie wird durch die [Shockley Gleichung](../../Physik/Shockley%20Gleichung.md) beschrieben:
+Die Transferkennlinie wird durch die [Shockley Gleichung](Shockley%20Gleichung.md) beschrieben:
 $$
 \begin{align}
 I_{\mathrm{C}}&=I_{\mathrm{S}}\left(e^{\frac{U_{\mathrm{BE}}}{\mathrm{U}_{\mathrm{T}}}}-1\right) \\

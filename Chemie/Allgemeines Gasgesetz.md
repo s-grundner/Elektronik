@@ -37,7 +37,7 @@ $$
 | ------------------------------------------------------ | ---------------------- | ---------------------- |
 | Druck                                                  | $p$                    | $\frac{N}{m^{2}}=Pa$   |
 | [Gasvolumen](../Chemie/Molvolumen.md)                  | $V$                    | $dm^{3}=l$             |
-| [Temperatur](Temperatur%20und%20Teilchenmodell.md)     | $T$                    | $K$                    |
+| [Temperatur](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md)     | $T$                    | $K$                    |
 | Stoffmenge (Molzahl)                                   | $n$                    | $mol$                  |
 | Teilchenzahl                                           | $N$                    | Anzahl                 |
 | [Avogadrokonstante](Konstanten/Avogadrokonstante.md)   | $N_{A}$                | $\frac{1}{mol}$        |

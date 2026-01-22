@@ -18,7 +18,7 @@ created: 19th August 2023
 ![500](../_assets/DFM.png)
 
 - **Design For Solvability: DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
-- **Design For Performance: DFP - Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), [Thermisch](../Physik/Temperatur%20und%20Teilchenmodell.md), [Strom](../Elektrotechnik/elektrischer%20Strom.md) 
+- **Design For Performance: DFP - Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), [Thermisch](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md), [Strom](../Elektrotechnik/elektrischer%20Strom.md) 
 - **Design For Manufacturability: DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil Versorgung/Verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
 
 ## Hochfrequenz Leitungen

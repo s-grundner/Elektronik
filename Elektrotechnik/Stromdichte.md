@@ -74,7 +74,7 @@ Obwohl die Fläche $\Delta \mathbf{A}_1$ und $\Delta \mathbf{A}_2$ unterschiedli
 
 > [!question] Die Stromdichte ist ebenfalls eine [vektorielle](../Mathematik/Algebra/Vektor.md) Größe
 > und zeigt in Richtung der lokalen Stromrichtung
-> - (Richtung der mittleren [Geschwindigkeit](../Physik/Kinematik.md) bei positiven Ladungsträgern bzw. entgegengesetzt bei negativen).
+> - (Richtung der mittleren [Geschwindigkeit](../Physik/Kinematik/Kinematik.md) bei positiven Ladungsträgern bzw. entgegengesetzt bei negativen).
 
 $\Delta I$ durch eine Fläche $\Delta \mathbf{A}$ daher: $\Delta I=\vec{J} \cdot \Delta \vec{A}$
 

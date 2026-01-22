@@ -37,7 +37,7 @@ Diese Materialeigenschaft trägt zu den Verlusten in einem elektrischen Leiter b
 
 ## Bandstruktur
 
-> siehe [Halbleiterphysik](../Physik/Halbleiterphysik.md)
+> siehe [Halbleiterphysik](../Physik/Quantenmechanik/Halbleiterphysik.md)
 
 > [!success] Valenz (VB) und Leitungsband (LB)
 

@@ -54,7 +54,7 @@ $$
 
 ## Elektromechanische Energieumwandlung
 
-Für die Umwandlung der Energie im elektromechanischen Wandler gilt der [Energieerhaltungssatz](Energieerhaltung.md)
+Für die Umwandlung der Energie im elektromechanischen Wandler gilt der [Energieerhaltungssatz](../Physik/Kinematik/Energieerhaltung.md)
 
 $$
 \mathrm{d}W_{\text{el}} = \mathrm{d}W_{\text{mech}} + \mathrm{d}W_{\text{mag}} + \mathrm{d}W_{\text{V}}

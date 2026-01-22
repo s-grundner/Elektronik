@@ -21,10 +21,10 @@ banner_y: 0.3525
 
 # Silizium
 
-> Siehe [[../Halbleiterphysik]] 
+> Siehe [[../Quantenmechanik/Halbleiterphysik]] 
 
 # Tags
 
-[Transistoren](../../Hardwareentwicklung/Halbleiter/{MOC}%20Transistor.md)  
+[Transistoren](../../Hardwareentwicklung/Halbleiter/Transistor.md)  
 [Diode](../../Hardwareentwicklung/Halbleiter/Diode.md)  
 [Chemische Bindungen](../../Chemie/Chemische%20Bindungen.md)

@@ -19,7 +19,7 @@ title: HF-Technik
 
 # HF-Technik
 
-> [!question]  HF-Technik beschäftigt sich mit der forschung und anwendung von [elektromagnetischer Wellen](../Physik/Elektromagnetische%20Wellen.md) als Medium zur Übertragung von Nutzsignalen.
+> [!question]  HF-Technik beschäftigt sich mit der forschung und anwendung von [elektromagnetischer Wellen](../Physik/Feldtheorie/index.md) als Medium zur Übertragung von Nutzsignalen.
 > Als Übetragungskanal können EM-Wellen über elektrische Leiter (PCB-Stripline, Koaxialkabel, Hohlleiter) oder auch über [dielektrische](../Elektrotechnik/Dielektrikum.md) Medien (Luft, PCB-Substrat) ausgebreitet werden.
 
 Hohe Frequenzen ermöglichen:
@@ -34,11 +34,18 @@ Klassische Anwendungen im [Mikrowellenbereich](Mikrowellenbereich.md) des Elektr
 
 > [!question] Was gilt als Hochfrequent? [RF-Signal](RF-Signal.md)
 
+## Stoff
+
+![invert_dark](../_assets/Excalidraw/2026-01-19-Monday%202026-01-19%2014.13.59.excalidraw.svg)
+
+
+%% [Edit in Excalidraw](../_assets/Excalidraw/2026-01-19-Monday%202026-01-19%2014.13.59.excalidraw.md) %%
+
 ## Herausforderungen  von HF-Technik
 
 **Design Komplexität**
 
-- Entwurf von HF-Schaltungen und Leiterplatten erfordert nicht nur das Wissen von konventionellen Schaltungsentwurf, hinzu kommt vorallem [Elektromagnetismus](../Physik/Elektromagnetische%20Wellen.md) und Signalverarbeitung (analog/digital).
+- Entwurf von HF-Schaltungen und Leiterplatten erfordert nicht nur das Wissen von konventionellen Schaltungsentwurf, hinzu kommt vorallem [Elektromagnetismus](../Physik/Feldtheorie/index.md) und Signalverarbeitung (analog/digital).
 - Bei Leiterplatten: Nicht nur diskrete Bauteile sind von bedeutung, auch die verbindungen dazwischen sind zu berücksichtigen.
 - Geometrie von elektrischen Leitern ist relevant.
 

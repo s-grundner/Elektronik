@@ -19,7 +19,7 @@ title: Antenne
 
 ## Grundbegriffe und Kenngrößen
 
-Antennen erzeugen und empfangen [Elektromagnetische Wellen](../Physik/Elektromagnetische%20Wellen.md), die sich im freien Raum ausbreiten:
+Antennen erzeugen und empfangen [index](../Physik/Feldtheorie/index.md), die sich im freien Raum ausbreiten:
 - Im Sendefall: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../Elektrotechnik/elektrische%20Leistung.md) möglichst effizient in eine EM-Welle um.
 - Im Empfangsfall: Die Antenne nimmt aus einen EM-Wellenfeld Energie auf und stellt diese an ihrem [Netzwerktor](Streuparameter.md) zur Verfügung.
 

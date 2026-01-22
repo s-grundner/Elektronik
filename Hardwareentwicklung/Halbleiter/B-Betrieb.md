@@ -9,7 +9,7 @@ created: 22. September 2023
 
 Im B-Betrieb liegt der Arbeitspunkt des Transistors am unteren Ende der Kennlinie.  
 Damit ist es dem Verstärker möglich die Signalamplitude (im Vergleich zum [A-Betrieb](A-Betrieb.md)) zu verdoppeln.  
-Allerdings kann der [Transistor]({MOC}%20Transistor.md) dann nur eine Halbwelle verarbeiten.  
+Allerdings kann der [Transistor](Transistor.md) dann nur eine Halbwelle verarbeiten.  
 Die andere Halbwelle muss durch einen zweiten Transistor im Gegentakt-Betrieb verstärkt werden.
 
 Der B-Betrieb wird bei Gegentaktendstufen durch den [AB-Betrieb](AB-Betrieb.md) ersetzt, da sonst durch die fehlende Basisvorspannung am Transistor Übernahmeverzerrungen auftreten entstehen.

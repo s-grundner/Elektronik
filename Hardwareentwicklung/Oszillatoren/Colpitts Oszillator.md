@@ -81,7 +81,7 @@ $$
 
 ### Kapazitive 3-Punktschaltung
 
-Ein Teil der [Schwingkreis](../../Physik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
+Ein Teil der [Schwingkreis](../../Physik/Kinematik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
 
 ![500](../../_assets/ColpittsCalc.png)  
 ![Pasted image 20221128104421](../../_assets/ColpittsCalc2.png)

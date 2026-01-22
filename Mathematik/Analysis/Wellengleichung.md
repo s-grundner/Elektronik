@@ -20,7 +20,7 @@ title: Wellengleichung
 
 # Wellengleichung
 
-Die Wellengleichung ist eine [Partielle DGL](Partielle%20Differenzialgleichung.md) und dient zur mathematischen Beschreibung der Ausbreitung von Raumwellen. In der Elektrotechnik vorallem der Ausbreitung von [elektromagnetischen Wellen](../../Physik/Elektromagnetische%20Wellen.md)
+Die Wellengleichung ist eine [Partielle DGL](Partielle%20Differenzialgleichung.md) und dient zur mathematischen Beschreibung der Ausbreitung von Raumwellen. In der Elektrotechnik vorallem der Ausbreitung von [elektromagnetischen Wellen](../../Physik/Feldtheorie/index.md)
 
 > [!def] **D)** eindimensionale, homogene Wellengleichung
 > 
@@ -58,7 +58,7 @@ $$
 
 Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\mathbf{E}$ ([elektrisches Feld](../../Elektrotechnik/Elektrisches%20Feld.md)) und $\mathbf{H}$ ([magnetisches Feld](../../Elektrotechnik/Magnetisches%20Feld.md)), dessen Zusammenhang mit den [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen beschreiben werden, lässt sich die Wellengleichung für die Feldkomponenten herleiten.
 
-> [!hint] Die gleiche herangehensweise kann auch bei der [Frequenzberechsbetrachtung](../../HF-Technik/Helmholzsche%20Differenzialgleichung.md) verwendet werden.
+> [!hint] Die gleiche herangehensweise kann auch bei der [Frequenzberechsbetrachtung](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md) verwendet werden.
 
 ### Verlustloses Medium
 
@@ -100,8 +100,8 @@ $$c = \frac{1}{\sqrt{ \mu\epsilon }}$$
 
 ist. Aus den gekoppelten DGL hat man nun nur noch eingrößen DGL erhalten und man kann die Feldausbreitung separat betrachten.
 
+#### Lösung der Wellengleichung
 ### Verlustbehaftetes Medium
-
 
 
 ## Telegrafenleitungsgleichung

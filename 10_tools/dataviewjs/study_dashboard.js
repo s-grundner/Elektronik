@@ -47,7 +47,13 @@ function weightetGPA(pgs) {
 }
 
 function studyProgress() {
-	const tableHeader = ["Planned Credits", "Planned Progress⌛", "Completed Credits", "True Progress⌛", "GPA🐢"];
+	const tableHeader = [
+		"Planned Credits",
+		"Planned Progress⌛",
+		"Completed Credits",
+		"True Progress⌛",
+		"GPA🐢"
+	];
 	dv.table(tableHeader, [[
 		`${all.ects} / ${maxECTS}`, htmlProg(all.ects / maxECTS * 100),
 		`${all.done} / ${maxECTS}`, htmlProg(all.done / maxECTS * 100),
@@ -62,7 +68,12 @@ function semesterProgress() {
 		done: g.rows.filter(p => p.done).map(p => p.ects).sum(),
 		gpa: weightetGPA(g.rows),
 	}));
-	const tableHeader = ["Semester📆", "Semester Credits", "Progress⌛", "Success⭐"];
+	const tableHeader = [
+		"Semester📆",
+		"Semester Credits",
+		"Progress⌛",
+		"Success⭐"
+	];
 	dv.table(tableHeader, prg.map(g => [
 		semPathDecorator(g.key),
 		`${g.done} / ${g.ects}`,

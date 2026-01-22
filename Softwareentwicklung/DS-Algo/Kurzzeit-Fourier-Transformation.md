@@ -1,16 +1,17 @@
 ---
-tags: 
+tags:
 aliases:
   - Kurzzeitspektralanalyse
   - STFT
   - Spektrogramm
-keywords: 
+keywords:
 subject:
   - VL
   - Signalverarbeitung
 semester: SS25
 created: 30th April 2025
-professor: 
+professor:
+  - Mario Huemer
 release: false
 title: Kurzzeit-Fourier-Transformation
 ---

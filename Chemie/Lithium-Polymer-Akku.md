@@ -17,5 +17,5 @@ created: 2. März 2024
 | ---------------------------------------- | ---------------------------------------- |
 | hohe Energiedichte ($140 \frac{Wh}{kg}$) | Geringe Ströme                           |
 |                                          | Empfindlich gegenüber [Ladung](../Elektrotechnik/elektrisches%20Feld.md)             |
-|                                          | Empfindlich gegenüber [Temperatur](../Physik/Temperatur%20und%20Teilchenmodell.md) Extrema |
+|                                          | Empfindlich gegenüber [Temperatur](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Extrema |
 |                                          | Empfindlich gegenüber höhe Ströme        | 

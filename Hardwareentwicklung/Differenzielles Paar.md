@@ -15,4 +15,4 @@ created: 20th August 2023
 
 ![What your Differential Pairs Wish You Knew with Rick Hartley](https://www.youtube.com/watch?v=QG0Apol-oj0)
 
-- [Skineffekt](Skineffekt.md)
+- [Skineffekt](../HF-Technik/Skineffekt.md)

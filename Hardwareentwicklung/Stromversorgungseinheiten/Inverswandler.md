@@ -19,7 +19,7 @@ created: 26th September 2022
 
 ![invert_dark|700](assets/Pasted%20image%2020250511114554.png)
 
-Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird. Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
+Der [Transistor](../Halbleiter/Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird. Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 
 ## Lauf-Zeit-Diagramm
 
@@ -32,7 +32,7 @@ Der [Transistor](../Halbleiter/{MOC}%20Transistor.md) arbeitet als Schalter ($S$
 
 <div style="page-break-after: always;"></div>
 
-## Schalter $S$ bzw. [Transistor](../Halbleiter/{MOC}%20Transistor.md) $T$
+## Schalter $S$ bzw. [Transistor](../Halbleiter/Transistor.md) $T$
 
 $$
 U_{a} \approx -U_{e} \frac{D}{1-D} \qquad \text{mit } D = \dfrac{t_{1}}{T_{s}}
