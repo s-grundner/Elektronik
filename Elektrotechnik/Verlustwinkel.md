@@ -22,6 +22,8 @@ Ein material, das gemischt konduktive und dielektrische Verluste aufweist, chara
 
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Verlustwinkel%202026-01-16%2019.40.26.excalidraw.md)%%
 
+Der Verlustwinkel ist ein Maß zur Güte von [reaktiven](Impedanz.md) Bauelementen ([Induktivität](Induktivität.md), [Kapazität](Kapazität.md)). Mit ihm lässt sich das Verhältnis des Reakiven anteils zum Resistiven anteil ausdrücken. 
+
 ## Dielektrische Materialien
 
 #Elektrodynamik 

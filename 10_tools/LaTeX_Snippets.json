@@ -213,7 +213,7 @@
     },
     {trigger: "text", replacement: "\\text{$0}", options: "mA"
     },
-    {trigger: "bf", replacement: "\\bf{$0}", options: "mA"
+    {trigger: "bf", replacement: "\\mathbf{$0}", options: "mA"
     },
     {trigger: "sr", replacement: "^{2}", options: "mA"
     },
@@ -243,9 +243,9 @@
     },
     {trigger: "im", replacement: "\\mathrm{Im}", options: "m"
     },
-    {trigger: "([a-zA-Z]), \\.", replacement: "\\bf{[[0]]}", options: "rmA"
+    {trigger: "([a-zA-Z]), \\.", replacement: "\\mathbf{[[0]]}", options: "rmA"
     },
-    {trigger: "([a-zA-Z])\\., ", replacement: "\\bf{[[0]]}", options: "rmA"
+    {trigger: "([a-zA-Z])\\., ", replacement: "\\mathbf{[[0]]}", options: "rmA"
     },
     {trigger: "([A-Za-z])(\\d)", replacement: "[[0]]_{[[1]]}", options: "rmA", description: "Auto letter subscript", priority: -1
     },
@@ -253,7 +253,7 @@
     },
     {trigger: "\\hat{([A-Za-z])}(\\d)", replacement: "hat{[[0]]}_{[[1]]}", options: "rmA"
     },
-    {trigger: "\\\\bf{([A-Za-z])}(\\d)", replacement: "\\bf{[[0]]}_{[[1]]}", options: "rmA"
+    {trigger: "\\\\mathbf{([A-Za-z])}(\\d)", replacement: "\\mathbf{[[0]]}_{[[1]]}", options: "rmA"
     },
     {trigger: "\\\\vec{([A-Za-z])}(\\d)", replacement: "\\vec{[[0]]}_{[[1]]}", options: "rmA"
     },

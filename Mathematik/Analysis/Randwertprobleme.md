@@ -117,7 +117,7 @@ In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw 
 
 > [!example] Fortsetzung des Beispiels einer Schwingenden Saite:
 > Wir schreiben nun die **partielle** Differentialgleichung für die Schwingung einer Saite auf: 
-> die **[Wellengleichung](Wellengleichung.md)**
+> die **[Wellengleichung](../../Physik/Feldtheorie/Wellengleichung.md)**
 > partiell da $u(x,t)$ von zwei sich ändernenden Variablen abhängt.
 > 
 > $$

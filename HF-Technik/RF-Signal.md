@@ -26,12 +26,12 @@ release: true
 
 > [!success] Besonderheiten bei RF-Signalen
 > - Leitungen auf denen RF-Signale übertragen werden, müssen als [Transmission Lines](Transmission%20Line.md) (TLs) behandelt werden.
-> - Auf einer TL müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigt werden. Betrachtung als [Welle](../Mathematik/Analysis/Wellengleichung.md).
+> - Auf einer TL müssen nicht nur zeitliche sondern auch **örtliche** Änderungen berücksichtigt werden. Betrachtung als [Welle](../Physik/Feldtheorie/Wellengleichung.md).
 > - RF Signale breiten sich nicht nur auf Leitern, sondern auch in [Substraten / Dielektrika](../Physik/Materialkunde/{MOC}%20Materialkunde.md#Substrate)  aus
 >     - in allen achsen xyz $\to$ Freiraumausbreitung
 > - In unterschiedlichen Substraten / Dielektrika wandert das Signal unterschiedlich schnell
 
-> [!warning] Variation des Signals über Ort und Zeit - [**Welle** ](../Mathematik/Analysis/Wellengleichung.md)
+> [!warning] Variation des Signals über Ort und Zeit - [**Welle** ](../Physik/Feldtheorie/Wellengleichung.md)
 >![invert_dark|1000](../_assets/RF-sign.svg)
 
 ## Frequenz vs. Leitungslänge

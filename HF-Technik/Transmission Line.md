@@ -24,23 +24,21 @@ professor:
 > [!important] Eine Leitung wird als TL behandelt wenn das Signal auf dieser Leitung als ein [RF-Signal](RF-Signal.md) klassifiziert wird.
 > Hier kann die Verbindung zwischen Toren/Komponenten nicht mehr Vernachlässigt werden und wird in der Schaltung mit modelliert:
 
-![invert_dark|700](../_assets/tl1.png)
+![invert_dark|500](../_assets/tl1.png)
 ^TL-CIRC
 
 
 > [!hint] Eine TL ist elektrisch kurz: ${ l > \frac{\lambda}{10} }$ (Faustregel)
 
-Eine TL wird mit seriellen Induktivitäts-Belägen und parallelen Kaüazitäts-Belägen modelliert (Leitermodell):
+Eine TL wird mit seriellen Induktivitäts-Belägen und parallelen Kapazitäts-Belägen modelliert (Leitermodell, hier Verlustlos):
 
-![invert_dark](../_assets/tl2.png)
-
+![invert_dark|600](../_assets/tl2.png)
 ^TL-Modell
 
 
-> [!important] Dieses Modell führt zur [Telegrafengleichung](Telegrafengleichung.md),
-> einem gekoppelten [PDGL](../Mathematik/Analysis/Partielle%20Differenzialgleichung.md)-System, welche **Spannungswelle** $V(z,t)$ und die **Stromwelle** $I(z,t)$ verknüpft.
+> [!important] Dieses Modell wird Mathematisch mit der [Telegrafenleitungsgleichung](Telegrafenleitungsgleichung.md) beschreieben.
 > 
-> Diese Gleichung gilt für alle [Leitergeometrien](Leitergeometrie.md), welche den [TE-Mode](Transversale%20Elektromagnetische%20Welle.md) erfüllen. Je nach Geometrie ändert sich nur die Art, wie die Leitungsbeläge, $L'$ und $C'$ berechnet werden. Die Gleichung hat jedoch immer die selbe form. 
+> Diese Gleichung gilt für alle [Leitergeometrien](Leitergeometrie.md), welche die [TEM-Mode](Transversale%20Elektromagnetische%20Welle.md) erfüllen. Je nach Geometrie ändert sich nur die Art, wie die Leitungsbeläge, $L'$ und $C'$ berechnet werden. Die Gleichung hat jedoch immer die selbe form. 
 > Für TEM ist die Telegrafengleichung außerdem *unabhängig* von der Wellenlänge.
 
 ## Leitungskenngrößen
@@ -66,7 +64,7 @@ Mit $U$ und $I$ als Funktion von Spannung und Strom der hinlaufenden und rückla
 
 **Verlustbehaftete Leitung mit Sinusförmiger Wellenform**
 
-Hergeleitet aus der [Lösung der Telegrafengleichung](Telegrafengleichung.md#^LSGTFGL) eingesetzt in die gekoppelte PDGL der TFGL für Sinusgrößen: Im Allgemeinen komplex
+Hergeleitet aus der [Lösung der Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md#^LSGTFGL) eingesetzt in die gekoppelte PDGL der TFGL für Sinusgrößen: Im Allgemeinen komplex
 
 $$
 \underline{ Z }_{0} = \sqrt{ \frac{R'+j\omega L'}{G'+j\omega C'} } \tag{Z0}

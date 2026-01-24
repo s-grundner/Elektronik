@@ -18,13 +18,13 @@ title: Helmholzsche Differenzialgleichung
 ---
 # Helmholtz Gleichung 
 
-> [!question] [Telegrafengleichung](Telegrafengleichung.md) für Sinusgrößen 
+> [!question] [Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md) für Sinusgrößen 
 
 Die Allgemeine herangehensweise nach D'Alembert im Zeitbereich betrachtet sowohl  $\frac{\partial }{\partial t}$ und $\frac{\partial }{\partial \mathbf{x}}$, welche die Analyse und Lösung der Gleichungen erschwert. Für Sinusförmige größen, welche mit nur einer Frequenz schwingen, lassen sich vereinfachungen der [komplexen Wechselstromrechnung](../Elektrotechnik/Wechselstromtechnik.md) anwenden.
 
 > [!hint]  In der [Wechselstromtechnik](../Elektrotechnik/Wechselstromtechnik.md) kann eine Differenzation nach der Zeit durch eine Multiplikation mit $j\omega$ substituiert werden.
 
-Die Telegraphengleichungen werden dann von der [Wellengleichung](../Mathematik/Analysis/Wellengleichung.md) zu einer gewöhnliche [DGL 2. Ordnung](../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md).
+Die Telegraphengleichungen werden dann von der [Wellengleichung](../Physik/Feldtheorie/Wellengleichung.md) zu einer gewöhnliche [DGL 2. Ordnung](../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md).
 
 ## Telegrafengleichung - Ausbreitung des E und H-Feldes in einem Medium
 
@@ -32,7 +32,7 @@ Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\
 
 > [!hint] [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md) $\mathbf{E} = \mathrm{Re}\{\mathbf{\underline{E}}\cdot e^{ j\omega t}\}$, $\mathbf{E} = f(\mathbf{x},t)$, $\mathbf{\underline{E}} = f(\mathbf{x})$
 
-> [!hint] Die gleiche herangehensweise kann auch in der [Zeitbereichsbetrachtung](../Mathematik/Analysis/Wellengleichung.md) verwendet werden.
+> [!hint] Die gleiche herangehensweise kann auch in der [Zeitbereichsbetrachtung](../Physik/Feldtheorie/Wellengleichung.md) verwendet werden.
 
 ### Verlustloses Medium
 
@@ -47,9 +47,7 @@ Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\
 >
 > Mit der [Wellenzahl](../Physik/Feldtheorie/Wellenzahl.md) $k \in\mathbb{R}$
 
-
 #### Herleitung der Wellengleichungen
-
 
 > [!warning] Damit die Vereinfachung gilt, muss dass [Material](../Elektrotechnik/Materialgesetze.md) des Wellenleiters **linear**, **isotrop** und **homogen** sein. 
 > - $\mu$ und $\varepsilon$ sind konstante skalare und reelle Werte.
@@ -82,7 +80,6 @@ Mit der [Wellenzahl](../Physik/Feldtheorie/Wellenzahl.md) $k \in \mathbb{R}$. Du
 $$
 \nabla^{2}\mathbf{\underline{H}} + \omega^{2}\mu\epsilon\mathbf{\underline{H}} = 0 \quad \text{bzw.} \quad \nabla^{2}\mathbf{\underline{H}} + k^{2}\mathbf{\underline{H}} = 0
 $$
-
 
 Aus den gekoppelten DGL hat man nun eine eingrößen DGL erhalten und man kann die Feldausbreitung separat betrachten.
 
@@ -141,58 +138,10 @@ $$
 \nabla^{2}\mathbf{E} + \omega^{2}\mu\epsilon\left( 1-j \frac{\sigma}{\omega\epsilon} \right)\mathbf{E} = 0 \quad \text{bzw.} \quad \nabla^{2}\mathbf{E} - \gamma^{2}\mathbf{E} = 0
 $$
 
-Mit der [Ausbreitungskonstante](../Physik/Feldtheorie/Wellenzahl.md) $\gamma \in \mathbb{C}$. Durch die selbe Betrachtung für das Magentfeld erhält man dual:
+Mit der Fortpflanzungskonstante $\gamma \in \mathbb{C}$. Durch die selbe Betrachtung für das Magentfeld erhält man dual:
 
 $$
 \nabla^{2}\mathbf{H} - \gamma^{2}\mathbf{H} = 0
 $$
 
 #### Allgemeine Lösung der Wellengleichung
-
-## Telegrafenleitungsgleichung - Ausbreitung von Spannungs und Stromwellen auf einer Leitung
-
-Telegrafenleitungsgleichung: Ausgangspunkt für die [Leitungstheorie](Transmission%20Line.md).
-
-> [!question]- Herleitung:
-> ![700](../_assets/Telegraphengleichung%202025-01-21%2023.00.48.excalidraw.md)
-
-Gekoppelte Differenzialgleichung
-
-$$
-\frac{\partial \underline{U}}{\partial z}(z) = -(R'+j\omega L')\cdot \underline{I}(z),\quad \frac{\partial \underline{I}}{\partial z}(z) = -(G'+j\omega C')\cdot \underline{U}(z)
-$$
-
-> [!def] **D - TFGL)** Telegraphengleichung in Form einer Helmholtzschen Differenzialgleichung der Ausbreitungswelle für **Sinusgrößen**
-> $$\dfrac{\mathrm{d}^{2}u}{\mathrm{d} z^{2}}=u(z)\gamma^{2}, \quad \frac{\mathrm{d}^{2}i}{\mathrm{d}z^{2}}=i(z)\gamma^{2}\tag{TFGL}$$
-^TFGL
-
-
-> [!success] Lösung der Telegraphengleichung für die Ausbreitungswellen für **Sinusgrößen**
->
-> $$ u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}, \quad i(z)= I_{h}\cdot e^{ -\gamma \cdot z } - I_{r}\cdot e^{ \gamma \cdot z }$$
-> 
-> Als Lösung der Telegraphengleichung ergibt sich die Überlagerung gegenläufiger, exponentiell gedämpfter Spannungswellen.
-> 
-> - $U_{h}, I_{h}$ = komplexe Amplitude der hinlaufenden Welle
-> - $U_{r}, I_{r}$ = komplexe Amplitude der rücklaufenden Welle
-^LSGTFGL
-
-### Ausbreitungskoeffizient
-
-> [!summary] komplexer Ausbreitungskoeffizient $\gamma$
-> Die Ausbreitungskonstante $\gamma$ beschreibt die Verlustgrößen der Leitergeometrie. In Ihm steckt die
-> 
-> $$ \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')} = \alpha + j\beta  $$
-> 
-> $(\,\cdot\,)'\,$: **Leitungsbeläge**
-> $\alpha\,$: **Dämpfungsbelag** (Dämpfung der Signalamplitude)
-> $\beta\,$: **Phasenbelag** (Verzögerung der Ausbreitungsgeschwindigkeit)
-
-
-
-![[../_assets/Telegraphengleichung 2025-01-21 23.36.38.excalidraw.md]]
-
-
-Der Phasenbelag ist mit der Wellenlänge des Signals verknüpft und bestimmt, wie schnell sich die Welle auf der Leitung ausbreitet.
-$$\lambda=\frac{2\pi}{\beta}, \quad v_{p} = \lambda f = \frac{\omega}{\beta}$$
-

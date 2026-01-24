@@ -23,6 +23,6 @@ professor:
 
 ![invert_dark](../_assets/dualZP_SK.png)
 
-# Tags
 
-![4000](../_assets/Excalidraw/Schwingkreise%202024-01-17%2009.08.32.excalidraw.md)
+![invert_dark](../_assets/Excalidraw/Schwingkreise%202024-01-17%2009.08.32.excalidraw.svg)
+%% [Edit in Excalidraw](../_assets/Excalidraw/Schwingkreise%202024-01-17%2009.08.32.excalidraw.md) %%

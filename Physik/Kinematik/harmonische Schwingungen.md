@@ -27,7 +27,7 @@ professor:
 > [!important] Besonderheiten
 > - einfache mathematische Beschreibung mit [DGL](../../Mathematik/Analysis/GDGL.md) aus der Bewegungsgleichung
 > - Harmonische Schwingungen sind physikalisch oft mit [Randwertproblemen](../../Mathematik/Analysis/Randwertprobleme.md) verbunden
->   - Zum Beispiel ist eine Schwingenden Saite an dessen beiden enden Fixiert und kann dann mit diesen Randwerten durch die [Wellengleichung](../../Mathematik/Analysis/Wellengleichung.md) beschrieben werden. 
+>   - Zum Beispiel ist eine Schwingenden Saite an dessen beiden enden Fixiert und kann dann mit diesen Randwerten durch die [Wellengleichung](../Feldtheorie/Wellengleichung.md) beschrieben werden. 
 
 > [!info] Modell vieler physikalischer Systeme:
 >- Mechanische [Schwingkreise](Schwingkreise.md)

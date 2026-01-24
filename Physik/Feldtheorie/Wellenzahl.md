@@ -22,12 +22,15 @@ title: Wellenzahl
 > [!def] **D) Wellenzahl**  $k$ (auch Phasenkonstante)
 > 
 > $$
-> k = \omega \sqrt{ \mu\epsilon } \qquad [k] = \frac{1}{m}
+> k = \omega \sqrt{ \mu\epsilon } = \frac{\omega}{v_{p}} \qquad [k] = \frac{1}{m}
 > $$
 >
 > In einem verlustlosen Medium gilt $\mu,\epsilon \in \mathbb{R} \implies k \in \mathbb{R}$.
 
-Für [Verlustbehaftete dielektrische Materialien](../../Elektrotechnik/Verlustwinkel.md) wird die Wellenausbreitung durch die komplexwertige Fortpflanzungskonstante beschreiben.
+- $\epsilon$, $\mu$ ... [Materialparameter](../../Elektrotechnik/Materialgesetze.md)
+- $v_{p}$ ... [Phasengeschwindigkeit](Phasengeschwindigkeit.md)
+
+Für [Verlustbehaftete dielektrische Materialien](../../Elektrotechnik/Verlustwinkel.md) wird die Wellenausbreitung durch die komplexwertige Fortpflanzungskonstante beschreiben. Diese Ausbreitungskonstante ist definiert durch die [Helmholtzsche Differenzialgleichung](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md#Verlustbehaftetes%20Medium)
 
 > [!def] **D) Komplexe Fortpflanzungskonstante** $\gamma$
 > 

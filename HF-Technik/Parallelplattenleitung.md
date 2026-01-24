@@ -188,7 +188,7 @@ $$
 \boxed{ \frac{\partial }{\partial z} I(z,t)=- \frac{\varepsilon w}{d} \frac{\partial}{\partial t}V(z,t) = -C' \frac{\partial}{\partial t}V(z,t) }
 $$
 
-Somit erhalten wir die [Telegrafengleichung](Telegrafengleichung.md) als gekoppelte PDGL, mit den Leitungsbelägen $L'$ und $C'$:
+Somit erhalten wir die [Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md) als gekoppelte PDGL, mit den Leitungsbelägen $L'$ und $C'$:
 
 - Kapazitätsbelag $C' = \frac{\varepsilon w}{d}$
 - Induktivitätsbelag $L' = \frac{\mu d}{w}$

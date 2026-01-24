@@ -19,4 +19,4 @@ title: Dynamisches Elektrisches Feld
 
 ---
 
-- [Telegrafengleichung](../HF-Technik/Telegrafengleichung.md)
+- [Telegrafengleichung](Telegrafengleichung.md)

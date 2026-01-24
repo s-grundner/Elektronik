@@ -23,7 +23,7 @@ title: Snelliussches Brechungsgesetz
 
 Das Snelliussche Brechungsgesetz beschreibt die **Richtungsänderung** der Ausbreitungsrichtung einer **ebenen Welle** beim **Übergang in ein anderes Medium**. Ursache der Brechung genannten Richtungsänderung ist die Änderung der **materialabhängigen Phasengeschwindigkeit**, die als **Brechungsindex** in das Brechungsgesetz eingeht. Das bekannteste Phänomen, welches durch das Brechungsgesetz beschrieben wird, ist die Richtungsablenkung eines Lichtstrahls beim Durchgang einer Mediengrenze. Das Gesetz ist aber nicht auf optische Phänomene begrenzt, sondern gültig für beliebige Wellen, insbesondere Ultraschallwellen.
 
-Das Snelluis Gesetz lautet daher:
+Das Snellius Gesetz lautet daher:
 
 $$
 \begin{align*}

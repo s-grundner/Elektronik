@@ -36,12 +36,12 @@ Wenn entweder $\mathbf{E}$ oder $\mathbf{H}$ bekannt ist, kann der andere Feldve
 > [!satz] **S)**  Für *verlustlose* dielektrische Medien gilt
 > 
 > $$
-> \eta = \frac{\omega\mu}{k} = \sqrt{ \frac{\mu}{\epsilon} }
+> \eta = \frac{\omega\mu}{k} = \sqrt{ \frac{\mu}{\epsilon} } \in \mathbb{R}
 > $$
 
 > [!satz] **S)** Für *verlustbehaftete* dielektrische Medien gilt
 > $$
-> \eta = \frac{j\omega\mu}{\gamma}
+> \eta = \frac{j\omega\mu}{\gamma} \in \mathbb{C}
 > $$
 
 
