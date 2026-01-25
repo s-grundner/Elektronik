@@ -23,8 +23,6 @@ Es wird untersucht, welches Verhalten Elektromagentische Wellen aufweisen, wenn 
 
 ### Felder bei normalem Einfall
 
-> [!info] [Felder bei schrägem Einfall](../Physik/Feldtheorie/Snelliussches%20Brechungsgesetz.md)
-
 An der Grenzfläche zwischen zwei verlustlosen [dielektrischen](Dielektrikum.md) Materialien existieren keine Ladungen oder Oberflächenströme. Daraus folgen die zusammenhänge der Feldgrößen:
 
 ![invert_dark|500](../_assets/Excalidraw/Materialgesetze%202026-01-17%2001.30.39.excalidraw.svg)
@@ -48,6 +46,8 @@ $\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/F
 Ein sprung könnte nur dann entstehen wenn an den Grenzflächen ein Strom fließt. Ein [dielektrisches Material](Dielektrikum.md) besitzt jedoch keinen Leitwert, weshalb der Strom immer 0 ist.
 
 ### Schräger Einfall
+
+- [Snelliussches Brechungsgesetz](../Physik/Feldtheorie/Snelliussches%20Brechungsgesetz.md)
 
 ## Felder an gut leitenden Grenzflächen
 

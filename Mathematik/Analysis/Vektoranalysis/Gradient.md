@@ -29,9 +29,9 @@ def:
 
 Die Funktion $f:A\to \mathbb{R}$ ist ein **Skalarfeld**. Wendet man den Gradienten darauf an, so erhält man ein Vektorfeld mit der Besonderen Eigenschaft der [Wegunabhängigkeit](Wegunabhängig.md)
 
-## Jacobi [Matrix](../../Algebra/Matrix.md)
+## Jacobi Matrix
 
-> [!def] **D2 - JACM)** Jakobi Matrix. Sei $A \subset \mathbb{R}^n$ offen. Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
+> [!def] **D2 - JACM)** Jakobi [Matrix](../../Algebra/Matrix.md). Sei $A \subset \mathbb{R}^n$ offen. Sei $f=\left(f_1, \ldots, f_m\right): A \rightarrow \mathbb{R}^m$ und $x \in A$.
 > Falls $\dfrac{\partial f_i}{\partial x_j}(x)$ für alle $i \in\{1, \ldots, m\}$ und $j \in\{1, \ldots, n\}$ existiert, so heißt die [[../../Algebra/Matrix]]
 > 
 > $$
@@ -42,9 +42,9 @@ Die Funktion $f:A\to \mathbb{R}$ ist ein **Skalarfeld**. Wendet man den Gradient
 > \end{pmatrix}
 > $$
 > 
-> *Jacobi-[[../../Algebra/Matrix]]* (oder *Funktionalmatrix*) von $f$ an der Stelle $x$; Symbole: $D f(x)$ oder $J_f(x)$.
+> *Jacobi-Matrix* (oder *Funktionalmatrix*) von $f$ an der Stelle $x$; Symbole: $D f(x)$ oder $J_f(x)$.
 
-## Hesse [Matrix](../../Algebra/Matrix.md)
+## Hesse Matrix
 
 > [!def] **D2 - HESM)** Die Matrix die sich bei der zweiten partiellen Ableitung ergibt ist die Hessematrix
 > $$

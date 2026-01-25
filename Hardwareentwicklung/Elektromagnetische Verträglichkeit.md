@@ -83,3 +83,5 @@ $$\Downarrow$$
 # Tags
 
 ![How to Achieve Proper Grounding - Rick Hartley](https://www.youtube.com/watch?v=ySuUZEjARPY)
+
+![Solving EMC Problems Fast & Easy - Near Field Measurement in Your Lab](https://www.youtube.com/watch?v=uPgWZWnhIoI)
