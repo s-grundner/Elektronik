@@ -21,17 +21,18 @@ $$
 \gamma = a+j\beta \approx (1+j)\sqrt{ \frac{\omega\mu\sigma}{2} }
 $$
 
-Aus der Lösung der Wellengleichung auf einem Leiter in $z$-Richtung folgt, dass die Welle mit $e^{ -\alpha z }$ gedämpft wird. Die distanz $z$, bei der die Dämpfung $e^{ -1 }$ beträgt, also $z=\frac{1}{\alpha}$, beziechnet man als **Eindringtiefe** (en. *Skin Depth*) $\delta_{s}$.
+Aus der Lösung der Wellengleichung auf einem Leiter in $z$-Richtung folgt, dass die Welle mit $e^{ -\alpha z }$ gedämpft wird. 
 
-> [!def] **D)** Eindringtiefe (Skin depth) $\delta_{s}$
-> 
+> [!def] **D)**  Die distanz $z$, bei der die Dämpfung $e^{ -1 }$ beträgt, also $z=\frac{1}{\alpha}$, beziechnet man als **Eindringtiefe** (en. *Skin Depth*) $\delta_{s}$. ^SKIN-DEPTH
 > $$
 > \delta_{s} := \frac{1}{\alpha} = \sqrt{ \frac{2}{\omega\mu\sigma} }
 > $$
 
-Ist der Leiter perfekt leitfähig ($\sigma\to\infty$) geht die Eindringtiefe gegen $0$. Man spricht in diesem Fall von einer "Elektrische Wand" in dem das $\mathbf{E}$ Feld (damit auch das $\mathbf{H}$ Feld) $0$ wird. Das Feld kann medium nicht mehr durchdringen.
 
-> [!hint] [Felder an perfekt leitenden Grenzflächen](../Elektrotechnik/Materialgesetze.md#Felder%20an%20perfekt%20leitenden%20Grenzflächen)
+> [!hint] Perfekter Leiter
+> Ist der Leiter perfekt leitfähig ($\sigma\to\infty$) geht die Eindringtiefe gegen $0$. Man spricht in diesem Fall von einer "Elektrische Wand" in dem das $\mathbf{E}$ Feld (damit auch das $\mathbf{H}$ Feld) $0$ wird. Das Feld kann medium nicht mehr durchdringen.
+
+Für verlustlose dielektrika ist die eindringtiefe $\delta_{S}\to \infty$
 
 ## Interpretation
 
@@ -41,4 +42,7 @@ Verwendet man ein Metall (guter Leiter) als einen Wellenleiter, ist es nicht nö
 
 ![invert_dark](../_assets/Pasted%20image%2020260119004236.png)
 
-[Image Ref](https://incompliancemag.com/skin-effect-and-surface-currents/)
+
+## Referenzen
+
+[Skin Effect and Surface Currents (Image)](https://incompliancemag.com/skin-effect-and-surface-currents/)

@@ -4,9 +4,8 @@ tags:
   - tikz/circuitikz
 aliases:
   - HF-Übertragungsleitung
-  - Leitungstheorie
   - Leitermodell
-keywords: 
+keywords:
 subject:
   - VL
   - KV

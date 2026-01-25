@@ -24,31 +24,11 @@ title: HF-Technik
 Als Übetragungskanal können EM-Wellen 
 
 - mit [elektrischer Leiter](../Chemie/elektrischer%20Leiter.md) (PCB-Stripline, Koaxialkabel, Hohlleiter) geführt werden.
-	- Themengebiet [Leitungstheorie](Transmission%20Line.md)
+	- Themengebiet [Leitungstheorie](Leitungstheorie.md)
 - über [dielektrische Medien](../Elektrotechnik/Dielektrikum.md) (Luft, PCB-Substrat) ausgebreitet werden.
 	- Themengebiet [Feldtheorie](../Physik/Feldtheorie/index.md)
 
 > [!question] Was gilt als Hochfrequent? [RF-Signal](RF-Signal.md)
-
-
-![invert_dark](../_assets/Excalidraw/FeldVsLeitungstheorie.svg)
-
-
-%% [Edit in Excalidraw](../_assets/Excalidraw/FeldVsLeitungstheorie.md) %%
-
-## Herausforderungen  von HF-Technik
-
-**Design Komplexität**
-
-- Entwurf von HF-Schaltungen und Leiterplatten erfordert nicht nur das Wissen von konventionellen Schaltungsentwurf, hinzu kommt vorallem [Elektromagnetismus](../Physik/Feldtheorie/index.md) und Signalverarbeitung (analog/digital).
-- Bei Leiterplatten: Nicht nur diskrete Bauteile sind von bedeutung, auch die verbindungen dazwischen sind zu berücksichtigen.
-- Geometrie von elektrischen Leitern ist relevant.
-
-**Design Einschränkungen**
-
-- Material Limitationen
-- empfindlich auf [Elektromagnetische Inteferenz](../Hardwareentwicklung/Elektromagnetische%20Verträglichkeit.md) von benachbarten Schaltungen (geteiltes Medium).
-- Kosten (Hochwertige PCB Substrate, [HDI](../Hardwareentwicklung/High%20Density%20Interconnect.md))
 
 ## Telegrafengleichung
 
@@ -63,6 +43,23 @@ Unter der Telegrafengleichung können zwei Anwendungsbereiche gemeint sein:
 
 - **Telegrafengleichung**: Die Ausbreitung von $\mathbf{E}$ und $\mathbf{H}$ Feld in einem Medium (*Elektrodynamik*)
 - **Telegrafenleitungsgleichung**: Die Ausbreitung einer Strom und Spannungswelle auf einer Leitung (*Leitungstheorie*)
+
+![invert_dark](../_assets/Excalidraw/FeldVsLeitungstheorie.svg)
+%% [Edit in Excalidraw](../_assets/Excalidraw/FeldVsLeitungstheorie.md) %%
+## Herausforderungen in der HF-Technik
+
+**Design Komplexität**
+
+- Entwurf von HF-Schaltungen und Leiterplatten erfordert nicht nur das Wissen von konventionellen Schaltungsentwurf, hinzu kommt vorallem [Elektromagnetismus](../Physik/Feldtheorie/index.md) und Signalverarbeitung (analog/digital).
+- Bei Leiterplatten: Nicht nur diskrete Bauteile sind von bedeutung, auch die verbindungen dazwischen sind zu berücksichtigen.
+- Geometrie von elektrischen Leitern ist relevant.
+
+**Design Einschränkungen**
+
+- Material Limitationen
+- empfindlich auf [Elektromagnetische Inteferenz](../Hardwareentwicklung/Elektromagnetische%20Verträglichkeit.md) von benachbarten Schaltungen (geteiltes Medium).
+- Kosten (Hochwertige PCB Substrate, [HDI](../Hardwareentwicklung/High%20Density%20Interconnect.md))
+
 ## Anwendungen der HF-Technik
 
 Hohe Frequenzen ermöglichen:
@@ -70,7 +67,7 @@ Hohe Frequenzen ermöglichen:
 - Höhere Datenraten für Übertragungen
 - Kompaktes [Antennen](Antenne.md) Design.
 
-Klassische Anwendungen im [Mikrowellenbereich](Mikrowellenbereich.md) des Elektromagnetischen Spektrums
+Klassische Anwendungen im [Mikrowellenbänder](Mikrowellenbänder.md) des Elektromagnetischen Spektrums
 
 - $f \in [300~\mathrm{MHz}; 300~\mathrm{GHz}]$
 - $\lambda \in [1~\mathrm{m}; 1~\mathrm{mm}]$

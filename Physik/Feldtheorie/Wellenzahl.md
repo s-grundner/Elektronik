@@ -30,7 +30,14 @@ title: Wellenzahl
 - $\epsilon$, $\mu$ ... [Materialparameter](../../Elektrotechnik/Materialgesetze.md)
 - $v_{p}$ ... [Phasengeschwindigkeit](Phasengeschwindigkeit.md)
 
+## Verlustbehaftung
+
 Für [Verlustbehaftete dielektrische Materialien](../../Elektrotechnik/Verlustwinkel.md) wird die Wellenausbreitung durch die komplexwertige Fortpflanzungskonstante beschreiben. Diese Ausbreitungskonstante ist definiert durch die [Helmholtzsche Differenzialgleichung](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md#Verlustbehaftetes%20Medium)
+
+> [!info] Zusammenfassung der Fortpflanzungskonstante $\gamma$ in unterschiedlichen Medien
+> 
+> ![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenzahl.svg)
+> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/ZusammenfassungWellenzahl.md)%%
 
 > [!def] **D) Komplexe Fortpflanzungskonstante** $\gamma$
 > 

@@ -33,16 +33,17 @@ title: Freiraumwellenwiderstand
 
 Wenn entweder $\mathbf{E}$ oder $\mathbf{H}$ bekannt ist, kann der andere Feldvektor mit den [Maxwell](../../Elektrotechnik/Maxwell.md)-Gleichungen 1 oder 2 berechnet werden. Der Zusammenhang der felder ist die intrinsische Impedanz $\eta$ des dielektrischen Mediums.
 
-> [!satz] **S)**  Für *verlustlose* dielektrische Medien gilt
-> 
-> $$
-> \eta = \frac{\omega\mu}{k} = \sqrt{ \frac{\mu}{\epsilon} } \in \mathbb{R}
-> $$
-
-> [!satz] **S)** Für *verlustbehaftete* dielektrische Medien gilt
+> [!satz] **S)** Wellenwiderstand in Medien
 > $$
 > \eta = \frac{j\omega\mu}{\gamma} \in \mathbb{C}
 > $$
+
+Für Verscheidene Medien lässt sich die [Fortpflanzungskonstante](../Feldtheorie/Wellenzahl.md)  $\gamma = j\omega \sqrt{ \mu\epsilon (1-j\tan\delta) }$ vereinfachen. Der allgemeinste fall ist der für verlustbehaftete Medien.
+
+![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenwiderstand.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/ZusammenfassungWellenwiderstand.md)%%
+
+Wobei $\delta_{S}$ die [Eindringtiefe](../../HF-Technik/Skineffekt.md) ist.
 
 
 ![invert_dark|500](../../_assets/ImpedanzfelderFreiraum.png)

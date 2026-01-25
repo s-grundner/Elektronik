@@ -37,11 +37,17 @@ Die Ausbreitung von EM-Wellen werden im allgemeinen durch die [Telegrafengleichu
 
 ## Größen und Kennwerte
 
-- [Materialparameter](../../Elektrotechnik/Materialgesetze.md)
-- [Ausbreitungskonstante](Wellenzahl.md)
-- [Phasengeschwindigkeit](Phasengeschwindigkeit.md)
-- [Wellenlänge](Wellenlänge.md)
-- [Intrinsische Impedanz des Mediums](Konstanten/Wellenwiderstand.md)
+- [Materialparameter](../../Elektrotechnik/Materialgesetze.md) ... $\epsilon,\mu,\sigma$
+- [Ausbreitungskonstante](Wellenzahl.md) ... $k$ bzw. $\gamma$
+- [Phasengeschwindigkeit](Phasengeschwindigkeit.md) ... $v_{p}$
+- [Wellenlänge](Wellenlänge.md) ... $\lambda$
+- [Intrinsische Impedanz des Mediums](Konstanten/Wellenwiderstand.md) ... $\eta$
+
+### Zusammenfassung der Größen
+
+![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenzahl.svg)
+
+![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenwiderstand.svg)
 
 ## Wellenausbreitung
 
@@ -49,8 +55,12 @@ Die Ausbreitung von EM-Wellen werden im allgemeinen durch die [Telegrafengleichu
 - [Felder an Grenzflächen](../../Elektrotechnik/Felder%20an%20Grenzflächen.md)
 - [RF-Signal](../../HF-Technik/RF-Signal.md)
 
+### Zusammenfassung Felder An Grenzflächen
+
+![invert_dark](../../_assets/Excalidraw/ZusammenfassungGF.svg)
+
 ## Bänder des EM-Spektrums
 
-- [Mikrowellenbereich](../../HF-Technik/Mikrowellenbereich.md)
+- [Mikrowellenbänder](../../HF-Technik/Mikrowellenbänder.md)
 - [PDF](../../_assets/pdf/spectrum_20090210.pdf)
 

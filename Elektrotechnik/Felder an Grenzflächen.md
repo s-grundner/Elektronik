@@ -17,23 +17,30 @@ title: Felder an Grenzflächen
 
 Es wird untersucht, welches Verhalten Elektromagentische Wellen aufweisen, wenn sie von ein Medium in ein anderes Medium mit anderen [Materialparameter](Materialgesetze.md) übergehen.
 
-## Reflexionen an Grenzflächen
+> [!tldr] Zusammenfassung des Feldverhaltens an Grenzflächen
+> 
+> ![invert_dark|900](../_assets/Excalidraw/ZusammenfassungGF.svg)
+> %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/ZusammenfassungGF.md)%%
+
+![Verlustwinkel](Verlustwinkel.md#^LOSS-TAN)
 
 ## Felder an verlustfreien dielektrischen Grenzflächen
 
+> [!info] Es gilt: $\tan\delta = 0 \impliedby \epsilon  \in \mathbb{R}$ bzw. $\sigma =0$
+
 ### Felder bei normalem Einfall
 
-An der Grenzfläche zwischen zwei verlustlosen [dielektrischen](Dielektrikum.md) Materialien existieren keine Ladungen oder Oberflächenströme. Daraus folgen die zusammenhänge der Feldgrößen:
+An der Grenzfläche zwischen zwei verlustlosen [dielektrischen](Dielektrikum.md) Materialien existieren *keine Ladungen oder Oberflächenströme*. Daraus folgen die zusammenhänge der Feldgrößen:
 
 ![invert_dark|500](../_assets/Excalidraw/Materialgesetze%202026-01-17%2001.30.39.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Materialgesetze%202026-01-17%2001.30.39.excalidraw.md)%%
 
 $$
 \begin{align}
-\hat{n} \cdot \mathbf{D}_{1} &= \hat{n} \cdot \mathbf{D}_{2} \\
-\hat{n} \cdot \mathbf{B}_{1} &= \hat{n} \cdot \mathbf{B}_{2} \\
-\hat{n} \times \mathbf{E}_{1} &= \hat{n} \times \mathbf{E}_{2} \\
-\hat{n} \times \mathbf{H}_{1} &= \hat{n} \times \mathbf{H}_{2} \\
+\hat{n} \cdot \mathbf{D}_{1} &= \hat{n} \cdot \mathbf{D}_{2} & \hat{n} \cdot (\mathbf{D}_{2}-\mathbf{D}_{1}) &= 0 \\
+\hat{n} \cdot \mathbf{B}_{1} &= \hat{n} \cdot \mathbf{B}_{2} & \hat{n} \cdot (\mathbf{B}_{2}-\mathbf{B}_{1}) &=0\\
+\hat{n} \times \mathbf{E}_{1} &= \hat{n} \times \mathbf{E}_{2} & \hat{n} \times (\mathbf{E}_{2} - \mathbf{E}_{1}) &= 0 \\
+\hat{n} \times \mathbf{H}_{1} &= \hat{n} \times \mathbf{H}_{2} & \hat{n} \times (\mathbf{H}_{2}-\mathbf{H}_{1}) &= 0 \\
 \end{align}
 $$
 
@@ -49,9 +56,28 @@ Ein sprung könnte nur dann entstehen wenn an den Grenzflächen ein Strom fließ
 
 - [Snelliussches Brechungsgesetz](../Physik/Feldtheorie/Snelliussches%20Brechungsgesetz.md)
 
+## Felder an verlustbehafteten Grenzflächen
+
+> [!info] Es gilt: $\tan\delta \neq 0 \impliedby \epsilon  \in \mathbb{C}$ bzw. $\sigma \neq0$
+
+$$
+\begin{align}
+\hat{n} \cdot (\mathbf{D}_{2}-\mathbf{D}_{1}) &= 0 \\
+\hat{n} \cdot (\mathbf{B}_{2}-\mathbf{B}_{1}) &=0 \\
+\hat{n} \times (\mathbf{E}_{2} - \mathbf{E}_{1}) &= -\mathbf{M}_s \\
+\hat{n} \times (\mathbf{H}_{2}-\mathbf{H}_{1}) &= \mathbf{J}_s \\
+\end{align}
+$$
+
 ## Felder an gut leitenden Grenzflächen
 
+> [!info] Es gilt: $\tan\delta \gg 0 \impliedby \sigma \gg\omega\epsilon$ bzw. $\epsilon''\gg \epsilon'$
+
+[Skineffekt](../HF-Technik/Skineffekt.md)
+
 ## Felder an perfekt leitenden Grenzflächen
+
+> [!info] Es gilt: $\tan\delta \to\infty \impliedby \sigma \to \infty$
 
 ### Qualitative Untersuchung
 

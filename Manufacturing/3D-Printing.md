@@ -40,3 +40,8 @@ Elephant foot
 Materialien / Filamente:
 
 - Epoxidharz
+
+## Youtube Channels
+
+- https://www.youtube.com/@slant3d
+- https://www.youtube.com/@Factorian_Designs
