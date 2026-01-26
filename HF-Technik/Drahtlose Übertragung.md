@@ -23,7 +23,7 @@ Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welche
 
 ## Wieso finden drahtlose Übertragungen immer mit hohen frequenzen statt?
 
-> [!question] Was bedeuted hochfrequent: [RF-Signal](HF-Technik/RF-Signal.md)
+> [!question] Was bedeuted hochfrequent: [Leitungstheorie](Leitungstheorie.md)
 
 > [!info] Mit steigender Frequenz hat man...
 > 

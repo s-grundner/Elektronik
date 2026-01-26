@@ -16,11 +16,12 @@ title: Telegrafenleitungsgleichung
 
 > [!question] Vergleiche [Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md)
 
-Die Telegrafenleitungsgleichungen sind ein Modell zur beschreibeung der ausbreitung von Strom und Spannungswellen eines [RF-Signal](RF-Signal.md) auf einer [Transmission Line](Transmission%20Line.md).
+Die Telegrafenleitungsgleichungen sind ein Modell zur beschreibeung der ausbreitung von Strom und Spannungswellen eines [RF-Signals](Leitungstheorie.md) auf einer [Transmission Line](Transmission%20Line.md).
 
 ![invert_dark](../_assets/tl2.png)
 ^TL-Modell
 
+> Lumped Elements Model
 
 Für **Sinusförmige Größen** erhält man aus dem Leitermodell zunächst ein gekoppeltes [PDGL](../Mathematik/Analysis/Partielle%20Differenzialgleichung.md)-System, welche **Spannungswelle** $U(z,t)$ und die **Stromwelle** $I(z,t)$ verknüpft.
 
@@ -57,7 +58,9 @@ Herleitung und Entkoppelung
 > [!def] **D)** komplexer Ausbreitungskoeffizient $\gamma$
 > Die Ausbreitungskonstante $\gamma$ beschreibt die Verlustgrößen der Leitergeometrie.
 > 
-> $$ \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')} = \alpha + j\beta  $$
+> $$
+> \gamma = \sqrt{(R'+j\omega L')(G'+j\omega C')} = \alpha + j\beta
+> $$
 > 
 > $(\,\cdot\,)'\,$: **Leitungsbeläge**
 > $\alpha\,$: **Dämpfungsbelag** (Dämpfung der Signalamplitude)
@@ -70,11 +73,6 @@ Herleitung und Entkoppelung
 
 
 
-### Wellenkenngrößen
-
-Der Phasenbelag ist mit der [Wellenlänge](../Physik/Feldtheorie/Wellenlänge.md) des Signals verknüpft und bestimmt, wie schnell sich die Welle auf der Leitung ausbreitet ([Phasengeschwindigkeit](../Physik/Feldtheorie/Phasengeschwindigkeit.md)).
-
-$$\lambda=\frac{2\pi}{\beta}, \quad v_{p} = \lambda f = \frac{\omega}{\beta}$$
 
 ## Zeitbereichs Lösung
 

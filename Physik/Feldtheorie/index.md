@@ -22,7 +22,7 @@ release: true
 title: Elektromagnetische Wellen
 ---
 
-# Elektromagnetische Wellen
+# Feldtheorie - Elektromagnetische Wellen
 
 Elektrische und Magnetische Wechselfelder können sich als Wellen über die Zeit im Raum ausbreiten. Das $\mathbf{E}$ und $\mathbf{H}$-Feld ist über die [Maxwell](../../Elektrotechnik/Maxwell.md)-Gleichungen miteinander verkoppelt, weshalb man von Elektromagnetischen Wellen spricht, da das eine nicht ohne das andere existiert.
 
@@ -33,27 +33,26 @@ Ein mathematisches Modell zur beschreibung von der zeitlichen und örtlichen Aus
 > 
 > Die [Materialeigenschaften](../../Elektrotechnik/Materialgesetze.md) können auch linear/nichtlinear und (oder) auch isotrop/anisotrop sein.
 
-Die Ausbreitung von EM-Wellen werden im allgemeinen durch die [Telegrafengleichungen](../../Elektrotechnik/Telegrafengleichung.md) beschrieben. 
+## Wellenparameter
 
-## Größen und Kennwerte
+> [!info]  Wellenparameter sind im allgemeinen von [Materialparameter](../../Elektrotechnik/Materialgesetze.md) ($\epsilon,\mu,\sigma$) und der Frequenz $\omega$ abhängig.
 
-- [Materialparameter](../../Elektrotechnik/Materialgesetze.md) ... $\epsilon,\mu,\sigma$
 - [Ausbreitungskonstante](Wellenzahl.md) ... $k$ bzw. $\gamma$
 - [Phasengeschwindigkeit](Phasengeschwindigkeit.md) ... $v_{p}$
 - [Wellenlänge](Wellenlänge.md) ... $\lambda$
-- [Intrinsische Impedanz des Mediums](Konstanten/Wellenwiderstand.md) ... $\eta$
+- [Wellenimpedanz](Konstanten/Wellenwiderstand.md) ... $\eta$
+- [Eindringtiefe](../../HF-Technik/Skineffekt.md) ... $\delta_{S}$
 
 ### Zusammenfassung der Größen
 
-![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenzahl.svg)
-
-![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenwiderstand.svg)
+![](../../_assets/FeldtheorieGroessen.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/FeldtheorieGroessen.md)%%
 
 ## Wellenausbreitung
 
 - [Helmholtzsche Differenzialgleichung](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md)
 - [Felder an Grenzflächen](../../Elektrotechnik/Felder%20an%20Grenzflächen.md)
-- [RF-Signal](../../HF-Technik/RF-Signal.md)
+- [Leitungstheorie](../../HF-Technik/Leitungstheorie.md)
 
 ### Zusammenfassung Felder An Grenzflächen
 

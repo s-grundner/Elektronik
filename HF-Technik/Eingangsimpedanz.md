@@ -14,30 +14,22 @@ keywords:
 
 # Eingangsimpedanz
 
-Die Leitungstheorie wird auf [HF-Übertragungsleitungen](Transmission%20Line.md) Angewandt, also wenn es sich auf der Leitung um ein [RF-Signal](RF-Signal.md) Handelt.
-
-> [!NOTE] Kenngrößen  
-> Zur vollständigen Beschreibung der Leitungseinflüsse muss die Leitung neben ihrer Länge $l$ durch zwei zusätzliche Kenngrößen charakterisiert werden:
-> - Leitungswellenwiderstand $Z_{L}$
-> - [Ausbreitungskonstante](../Elektrotechnik/Telegrafengleichung.md) $\gamma$.
-> - Abschlussimpedanz $Z_{A}$
-> 
-> Im Schaltungsentwurf sind diese mit zu berücksichtigen!
-
 ## Allgemein
 
-Eingangswiderstand $Z_{E}$ einer allgemeinen, verlustbehafteten Transmission-Line:
+Eingangswiderstand $Z_{\text{in}}$ einer allgemeinen, verlustbehafteten Transmission-Line:
 $$
-Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ \frac{Z_{L}}{Z_{A}}\cdot\tanh(\gamma\cdot l)}{1+ \frac{Z_{A}}{Z_{L}}\cdot\tanh(\gamma\cdot l)}
+Z_{\text{in}}= \frac{U(-l)}{I(-l)} = Z_{0} \dfrac{Z_{L}+ Z_{0}\tanh(\gamma  l)}{Z_{0} + Z_{L} \tanh(\gamma l)}
 $$
 
 ## Verlustlos
 
-Eingangswiderstand $Z_{E}$ einer Verlustlosen Transmission-Line
+Eingangswiderstand $Z_{\text{in}}$ einer Verlustlosen Transmission-Line
 
 $$
-Z_{E}= \frac{U(z)}{I(z)} = Z_{A}\cdot \dfrac{1+ j\frac{Z_{L}}{Z_{A}}\cdot\tan(\gamma\cdot l)}{1+ j\frac{Z_{A}}{Z_{L}}\cdot\tan(\gamma\cdot l)}
+Z_{\text{in}} = \frac{U(-l)}{I(-l)} = Z_{0} \dfrac{Z_{L}+ Z_{0}\tan(\beta l)}{Z_{0} + Z_{L} \tan(\beta l)} = Z_{0} \frac{1+\Gamma_{L}e^{ -2j\beta l }}{1-\Gamma_{L}e^{ -2j\beta l }}
 $$
+
+Wobei $\Gamma_{L}$ der Reflexionsfaktor von der Leitung mit $Z_{0}$ zur Last $Z_{L}$
 
 # Tags
 

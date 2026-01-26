@@ -28,11 +28,11 @@ Als Übetragungskanal können EM-Wellen
 - über [dielektrische Medien](../Elektrotechnik/Dielektrikum.md) (Luft, PCB-Substrat) ausgebreitet werden.
 	- Themengebiet [Feldtheorie](../Physik/Feldtheorie/index.md)
 
-> [!question] Was gilt als Hochfrequent? [RF-Signal](RF-Signal.md)
+> [!question] Was gilt als Hochfrequent? [Leitungstheorie](Leitungstheorie.md)
 
 ## Telegrafengleichung
 
-In der [HF-Technik](index.md) ist man häufig daran Interessiert, wie sich Strom und Spannungswellen auf einer Leitung bzw. [EM-Wellen](../Physik/Feldtheorie/index.md) in einem Medium ausbreiten. Wellen variieren sowohl örtlich als auch zeitlich. Die Wellenbetrachtung ist vorallem für [RF-Signale](RF-Signal.md) notwendig. Man sucht im Allgemeinen einen Weg, die Welle mathematisch zu beschreiben. Die Telegrafengleichungen leifern ein solches Modell.
+In der [HF-Technik](index.md) ist man häufig daran Interessiert, wie sich Strom und Spannungswellen auf einer Leitung bzw. [EM-Wellen](../Physik/Feldtheorie/index.md) in einem Medium ausbreiten. Wellen variieren sowohl örtlich als auch zeitlich. Die Wellenbetrachtung ist vorallem für [RF-Signale](Leitungstheorie.md) notwendig. Man sucht im Allgemeinen einen Weg, die Welle mathematisch zu beschreiben. Die Telegrafengleichungen leifern ein solches Modell.
 
 Zum aufstellen und lösen der [Wellengleichung](../Physik/Feldtheorie/Wellengleichung.md) gibt es in der Elektrotechnik zwei relevante herangehensweisen:
 

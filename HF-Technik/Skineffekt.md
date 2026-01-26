@@ -2,6 +2,7 @@
 tags:
 aliases:
   - evaneszente Welle
+  - Eindringtiefe
 keywords:
 subject:
   - VL
@@ -9,13 +10,14 @@ subject:
 semester: WS25
 created: 9th December 2025
 professor:
+  - Reinhard Feger
 release: false
 title: Skineffekt
 ---
 
 # Skineffekt
 
-Beim übertragen von höherfrequenten Signalen auf einem elektrischen Leiter müssen die Signale als Wellen betrachtet werden ([RF-Signale](RF-Signal.md)). Die propagation von Wellen kann mit der [komplexen Ausbreitungskonstante](../Physik/Feldtheorie/Wellenzahl.md) $\gamma$ beschrieben werden. Ist das Medium ein elektrischer Leiter (mit endlicher Leitfähigkeit) gilt die Annäherung
+Beim übertragen von höherfrequenten Signalen auf einem elektrischen Leiter müssen die Signale als Wellen betrachtet werden ([RF-Signale](Leitungstheorie.md)). Die propagation von Wellen kann mit der [komplexen Ausbreitungskonstante](../Physik/Feldtheorie/Wellenzahl.md) $\gamma$ beschrieben werden. Ist das Medium ein elektrischer Leiter (mit endlicher Leitfähigkeit) gilt die Annäherung
 
 $$
 \gamma = a+j\beta \approx (1+j)\sqrt{ \frac{\omega\mu\sigma}{2} }

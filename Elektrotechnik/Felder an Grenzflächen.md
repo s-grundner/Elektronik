@@ -24,6 +24,15 @@ Es wird untersucht, welches Verhalten Elektromagentische Wellen aufweisen, wenn 
 
 ![Verlustwinkel](Verlustwinkel.md#^LOSS-TAN)
 
+## Reflexionsfaktor
+
+Geht eine Welle von material einer [intrinsischen Impedanz](../Physik/Konstanten/Wellenwiderstand.md) $\eta_{1}$ in ein Material mit $\eta_{2}$ über, so wird ein anteil der Welle reflektiert. 
+
+> [!def] **D)** Reflexionsfaktor $\Gamma$ an einer Grenzfläche
+> $$
+> \Gamma := \frac{\eta_{2}-\eta_{1}}{\eta_{2}+\eta_{1}}
+> $$
+
 ## Felder an verlustfreien dielektrischen Grenzflächen
 
 > [!info] Es gilt: $\tan\delta = 0 \impliedby \epsilon  \in \mathbb{R}$ bzw. $\sigma =0$
