@@ -16,8 +16,9 @@ professor:
 
 # Maximumnorm
 
+Für eine $p$-[Norm](Norm.md) bei der $p\to \infty$, erhält man die *Maximumnorm*. Die Maximumnorm konvergiert gegen das Supremum eines gegebenen endlich dimensionalen Vektors.
 
- > [!summary] Maximumnorm
+ > [!satz] Maximumnorm
 > 
 > $$
 > \|\mathbf{x}\|_{\infty}=\sup \left\{\left|x_1\right|,\left|x_2\right|, \ldots,\left|x_n\right|\right\}

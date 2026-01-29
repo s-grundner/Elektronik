@@ -18,6 +18,41 @@ professor:
 
 # Matrix
 
+Die Matrix ist eine Tensor vom Rang 2 (Dyade).
+
+> [!def] **D - MTRX)** Seien $m,n \in \mathbb{N}$ und $a_{ij} \in \mathbb{K}$, $i = 1,\dots,m$, $j = 1,\dots,n$. Dann bezeichnet man
+> 
+> $$
+> \mathbf{A} = \begin{pmatrix}
+> a_{11} & \dots & a_{1n} \\
+> \vdots & \ddots & \vdots \\
+> a_{m1} & \dots & a_{mn}
+> \end{pmatrix} = (a_{ij})_{i=1,j=1}^{m,n}
+> $$
+> 
+> eine $m\times n$ **Matrix**. Dabei ist die Reihenfolge der indizes:
+> 
+> - $i$ ... Zeilenindex (erste Komponente des Index)
+> - $j$ ... Spaltenindex (zweite Komponente des Index)
+> 
+> Wenn die dimensionen aus dem Kontext bekannt sind schriebt man auch $\mathbf{A}=(a_{ij})$
+
+Die Menge aller Matrizen mit diesen Dimensionen bezeichnen wir mit $\mathbb{K}^{m\times n}$.
+
+- Der Vektor $(a_{i1},\dots,a_{in})$ heißt $i$-te Zeile oder Zeilenvektor $i$.
+- Der Vektor $\begin{pmatrix}a_{1j} \\ \vdots \\ a_{mj}\end{pmatrix}$ heißt j-te Spalte oder Spaltenvektor $j$.
+
+Gilt $m=n$, hießt die Matrix **quadratisch** ($\mathbf{A}\in \mathbb{K}^{n\times n}$). Dazu gibt es ein paar spezialfälle:
+
+1. Gilt $\mathbf{A}^T = \mathbf{A}$, heißt die Matrix **symmetrisch** (Siehe [Transposition](Transponieren.md))
+2. Gilt $a_{ij}=0$ für alle $i\neq j$, ist $\mathbf{A}$ eine [Diagonalmatrix](Diagonalmatrix.md). Sind weiters alle $a_{ii}=1$ ist $\mathbf{A}$ die [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_{n}$
+3. Gilt $a_{ij}=0$ für alle $i,j$, ist $\mathbf{A}$ die **Nullmatrix** $\mathbf{0}_{n}$
+4. Gilt $a_{ij}=0$ für alle $i>j$, ist $\mathbf{A}$ eine obere rechte [Dreiecksmatrix](Dreiecksmatrix.md)
+5. Gilt $a_{ij}=0$ für alle $i<j$, ist $\mathbf{A}$ eine untere linke [Dreiecksmatrix](Dreiecksmatrix.md)
+
+## Axiome
+
+
 > [!def] **D1 - MAAX)** Axiome für Matrizen ^MAAX
 > Seien $\mathbf{A},\mathbf{A}_{1}, \mathbf{A}_{2}\in \mathbb{K}^{m\times n}$ und $\mathbf{B},\mathbf{B}_{1}, \mathbf{B}_{2}\in \mathbb{K}^{n\times p}$ und $\mathbf{C}\in \mathbb{K}^{p\times q}$ Matrizen und $\lambda \in \mathbb{K}$ ein Skalar.
 > 
@@ -49,9 +84,10 @@ professor:
 ## Eigenschaften einer Matrix
 
 - [Reguläre Matrizen](Reguläre%20Matrizen.md)
-- [Singuläre Matrizen](Singuläre%20Matrizen.md)
+- [Singuläre Matrix](Singuläre%20Matrix.md)
 - [Ähnliche Matrizen](Ähnliche%20Matrizen.md)
 - [Nilpotente Matrix](Nilpotente%20Matrix.md)
+- [Unitäre Matrix](Unitäre%20Matrix.md)
 
 ## Operationen auf eine Matrix
 

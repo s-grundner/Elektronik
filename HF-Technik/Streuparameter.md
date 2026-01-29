@@ -8,107 +8,199 @@ created: 28th September 2022
 
 # Streuparameter
 
-**Streuparameter**, abgekürzt **S-Parameter** dienen zur Beschreibung des Verhaltens linearer elektrischer Komponenten und Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
+**Streuparameter**, abgekürzt **S-Parameter**, dienen zur Beschreibung des Verhaltens linearer elektrischer Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
 - Beschreiben z.B. [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
-- Wellenparameter = Teilspannungen 
-- Messen nicht einfach normal wegen $u_{h}$ und $u_{r}$ (hinlaufende und rücklaufende [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md))
+- Wellenparameter = Teilspannungen (siehe [S-Parameter mit Strom und Spannungswellen](#S-Parameter%20mit%20Strom%20und%20Spannungswellen))
 - Widerstandsparameter bei Serienschaltung
 - Leitwert bei Parallelschaltungen
 
-## Allgemein
 
-Ausgehend von der **[Impedanz](../Elektrotechnik/Impedanz.md)** $Z_\nu$ des **Messsystems** am Tor $\nu$ lassen sich die beiden Darstellungen nach folgenden Gleichungen, welche auch als **[Heaviside-Transformation](../Systemtheorie/Einheitssprungfunktion.md)** bezeichnet wird, in Bezug setzen (Wir setzen im Folgenden voraus, dass $Z_0$ positiv reell ist):
+> [!def] **D - Streuparameter)** Allgemein werden die S-Parameter für ein elektrisches Netzwerk mit $n$ Toren als eine $n\times n$-[Matrix](../Mathematik/Algebra/Matrix.md) $\mathbf{S} \in \mathbb{C}^{n\times n}$ ausgedrückt:
+> 
+> $$
+> \mathbf{S} = \begin{pmatrix}
+>     s_{11} & \dots &s_{1n} \\
+>     \vdots &\ddots &\vdots \\
+>     s_{n1} & \dots &s_{nn}
+> \end{pmatrix} = (s_{ij})^{n,n}_{i=1,j=1}
+> $$
+> - Wenn $i=j$, ist $s_{ij}=\Gamma_{i}$ der Reflexionsfaktor am Tor $i$.
+> - Wenn $i\neq j$ ist $s_{ij}=T_{ji}$ der Transmissionsfaktor von Tor $j$ nach Tor $i$.
+> 
+> Die Einheit der S-Parameter ist $1$ (Einheitenlos).
 
-![Eintor](../_assets/Eintor.png)$$a_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right)$$$$b_\nu = \dfrac{1}{2} \cdot \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)$$
-  
-> [!hint] *Die Einheit der Streuparameter ist $\sqrt{W}$*
 
-und durch Umkehrung der Beziehungen:  
+Jedes Elektrische Netzwerk kann mit einer beliebigen Anzahl an *Eintoren* oder einfach Toren dargestellt werden.
 
-$$U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu)$$
+![Eintor](../_assets/Eintor.png)
+> Abbildung 1: Eintor
 
-$$I_\nu = \dfrac{1}{\sqrt{Z_0}} \cdot (a_\nu - b_\nu)$$
+Mit den Vektoren $\mathbf{a},\mathbf{b} \in \mathbb{C}^n$, welche eine *Leistungswellengröße* repräsentieren, lassen sich die in die Tore *eingespeiste* Leisung in $\mathbf{a}$, mit $\mathbf{S}$ auf die aus den Toren *austretenden* Leistung in $\mathbf{b}$ Abbilden.
 
-Die [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U_\nu$ und der [Strom](../Elektrotechnik/elektrischer%20Strom.md) $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrotechnik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
-
-$$Z_\nu = \dfrac{U_\nu}{I_\nu}$$
-
-womit sich mit der [Impedanz](../Elektrotechnik/Impedanz.md) $Z_{0}$ des Messsystems der [Reflexionsfaktor](Reflexionsfaktor.md) $r_{\nu}$ beschreiben lässt als:  
-
-$$r_\nu = \dfrac{b_\nu}{a_\nu} = \dfrac{Z_\nu - Z_0}{Z_\nu + Z_0}, \qquad b_\nu = r_\nu \cdot a_\nu$$
-
-Im einfachsten Fall eines **Eintors** ist der skalare [Reflexionsfaktor](Reflexionsfaktor.md) $r$ gleich dem einen und **einzigen S-Parameter $S_{11}$**.
-
-Bei elektrischen Netzwerken mit mehr als einem Tor wird dieser Zusammenhang mit Hilfe einer [Matrixgleichung](../Mathematik/Algebra/Matrix.md) in Form eines [LGS](../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) ausgedrückt.
-
-Allgemein werden die S-Parameter eines n-Tors als eine n×n-[Matrix](../Mathematik/Algebra/Matrix.md) $S$ und die beiden je n Elemente umfassenden [Vektoren](../Mathematik/Algebra/Vektor.md) $a$ und $b$ als [Matrixgleichung](../Mathematik/Algebra/Matrix.md) ausgedrückt:
-
-$$\mathbf{b} = \mathbf{S} \times \mathbf{a}$$
+$$
+\mathbf{b} = \mathbf{S} \mathbf{a}
+$$
 
 oder in der Elementschreibweise:
 
 $$
 \begin{pmatrix}
-    b_1    \\
-    \vdots \\
-    b_n
-\end{pmatrix}
-=
+    b_1 \\ \vdots \\ b_n
+\end{pmatrix} =
 \begin{pmatrix}
-    S_{11} & \dots &S_{1n} \\
+    s_{11} & \dots &s_{1n} \\
     \vdots &\ddots &\vdots \\
-    S_{n1} & \dots &S_{nn}
+    s_{n1} & \dots &s_{nn}
 \end{pmatrix}
-\times
 \begin{pmatrix}
-    a_1    \\
-    \vdots \\
-    a_n
+    a_1 \\ \vdots \\ a_n
+\end{pmatrix}\tag{1}
+$$
+^1
+
+> [!hint] Die Einheit von $a$ und $b$ ist $\sqrt{W}$. Die Größen repräsentieren *Leistungwellengrößen*
+
+## Messvorschrift
+
+Zur Ermittlung der S-Parameter können an jedem Tor $i$ die Leistungsgrößen $a_{i}$ und $b_{i}$ gemessen werden. Betrachtet man das lineare Gleichungssystem [(1)](#^1), ist zu erkennen, dass die S-parameter durch gezieltes 0 setzen von elementen in $\mathbf{a}$ berechnet werden können. Es gilt
+
+$$
+s_{ij} = \frac{b_{i}}{a_{j}} \quad \text{wenn } \forall p \neq j : a_{p} =0
+$$
+
+Das Nullsetzen von $a_{p}$ bedeuted, dass an diesem Tor keine leistung eingespeist wird. Das heißt auch, dass an diesem Tor keine Leistung wieder zurück ins Netzwerk **reflektiert** wird.
+
+Um die Messvorschrift zu erfüllen, müssen bei der Ermittlung eines S-Parameters an einem Tor, alle anderen Tore mit der charakteristischen Impedanz $Z_{0}$ des Netzwerks angepasst / abgeschlossen werden, damit die gesamte Leistung umgesetzt wird.
+
+> In der Praxis misst man die S-Parameter eines Netzwerks mit einem *Vektoriellen Netzwerkanalysator (VNA)*
+
+## Bedeutung und Zusammenhänge der Größen
+
+Die Leistungsgrößen lassen sich mit dem Strom und der Spannung an einem Tor $\nu$ in Bezug setzen. (Annahme $Z_{0} \in \mathbb{R}$)
+
+![Eintor](../_assets/Eintor.png)
+
+$$
+a_\nu = \dfrac{1}{2} \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right) \qquad b_\nu = \dfrac{1}{2} \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)
+$$
+  
+Durch Umkehrung der Beziehungen erhält man:
+
+$$
+U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu) \qquad I_\nu = \dfrac{1}{\sqrt{Z_0}} \cdot (a_\nu - b_\nu)
+$$
+
+Die [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U_\nu$ und der [Strom](../Elektrotechnik/elektrischer%20Strom.md) $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrotechnik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
+
+$$
+Z_\nu = \dfrac{U_\nu}{I_\nu}
+$$
+
+womit sich mit der Bezugsimpedanz $Z_{0}$ des Messsystems der [Reflexionsfaktor](Reflexionsfaktor.md) $\Gamma_{\nu}$ beschreiben lässt als:  
+
+$$
+\Gamma_\nu = \dfrac{b_\nu}{a_\nu} = \dfrac{Z_\nu - Z_0}{Z_\nu + Z_0}, \qquad b_\nu = \Gamma_\nu \cdot a_\nu
+$$
+
+Im einfachsten Fall eines **Eintors** ist der [Reflexionsfaktor](Reflexionsfaktor.md) $\Gamma_{\nu}$ gleich dem **einzigen S-Parameter $s_{11}$**.
+
+### S-Parameter mit Strom und Spannungswellen
+
+Bei gegebener lösung der Wellengleichung einer Spannugswelle auf einer [Transmission Line](Transmission%20Line.md)
+
+$$
+U_{\nu}(z) = U_{\nu}^+ e^{ -j\gamma z } + U_{\nu}^- e^{ j\gamma z }
+$$
+
+können anstelle der Terme $a_{\nu}$ und $b_{\nu}$ auch die Amplituden der Hin ($U_{\nu}^+$ statt $a_{\nu}$) und Rücklaufenden ($U_{\nu}^-$ statt $b_{\nu}$) Wellen geschreiben werden, da sich diese nur um den Faktor $\sqrt{ Z_{0} }$ unterscheiden und gekürzt werden kann.
+
+$$
+\begin{pmatrix}
+    U_{1}^- \\ \vdots \\ U_n^-
+\end{pmatrix} =
+\begin{pmatrix}
+    s_{11} & \dots &s_{1n} \\
+    \vdots &\ddots &\vdots \\
+    s_{n1} & \dots &s_{nn}
+\end{pmatrix}
+\begin{pmatrix}
+    U_{1}^+ \\ \vdots \\ U_n^+
 \end{pmatrix}
 $$
 
-## [Vierpol](../Hardwareentwicklung/Vierpol.md) Gleichungen
+
+## Zweitor
 
 Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Vierpol](../Hardwareentwicklung/Vierpol.md) -> 4 S-Parameter.
 
-- ==$a_{1}$== ist die am *Tor 1* einlaufende Welle
-- ==$a_{2}$== ist dei am *Tor 2* einlaufende Welle
-- ==$b_{1}$== ist die vom Eingang (*Tor 1*) auslaufende Welle
-- ==$b_{2}$== ist die vom Ausgang (*Tor 2*) auslaufende Welle
-  
 ![invert_light](../_assets/MGL-Zweitor.png)
 
+- $a_{1}$ ist die am *Tor 1* einlaufende Welle
+- $a_{2}$ ist dei am *Tor 2* einlaufende Welle
+- $b_{1}$ ist die vom Eingang (*Tor 1*) auslaufende Welle
+- $b_{2}$ ist die vom Ausgang (*Tor 2*) auslaufende Welle
+  
 $$
 \begin{pmatrix}
-     b_1\\
-     b_2
+     b_1\\ b_2
 \end{pmatrix}
 =
 \begin{pmatrix}
-    S_{11} & S_{12}\\
-    S_{21} & S_{22}
-\end{pmatrix}\times
+    s_{11} & s_{12}\\
+    s_{21} & s_{22}
+\end{pmatrix}
 \begin{pmatrix}
-     a_1\\
-     a_2
+     a_1\\ a_2
 \end{pmatrix}
 $$
 
-### Darstellung der S-Parameter an einem [Vierpol](../Hardwareentwicklung/Vierpol.md)
+### Messvorschrift
+
+
+
+|          | Bezeichnung                   | Messvorschrift                                        | Beschreibung                                                 |
+| -------- | ----------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| $s_{11}$ | Eingangsreflexionsfaktor      | $s_{11}=\left. \dfrac{b_{1}}{a_{1}}\right._{a_{2}=0}$ | stellt die Reflexion am Eingang ohne Anregung an Tor 2 dar   |
+| $s_{22}$ | Ausgangsreflexionsfaktor      | $s_{22}=\left. \dfrac{b_{2}}{a_{2}}\right._{a_{1}=0}$ | stellt die Reflexion am Tor 2 ohne Anregung an Tor 1 dar     |
+| $s_{21}$ | Vorwärts-Transmissionsfaktor  | $s_{21}=\left. \dfrac{b_{2}}{a_{1}}\right._{a_{2}=0}$ | stellt die Vorwärts-Transmission ohne Anregung an Tor 2 dar  |
+| $s_{12}$ | Rückwärts-Transmissionsfaktor | $s_{12}=\left. \dfrac{b_{1}}{a_{2}}\right._{a_{1}=0}$ | stellt die Rückwärts-Transmission ohne Anregung an Tor 1 dar |
+
+Die selben Messvorschriften gelten für Spannungs und Stromwellen
+
+## Verlustfreie Netzwerke
+
+In verlustfreien Netzwerken geht keine Leistung verloren:
+
+$$
+\lVert \mathbf{a} \rVert_{1} = \lVert \mathbf{b} \rVert_{1}
+$$
+
+- $\lVert \cdot \rVert_{1}$ ... [Betragssummennorm](../Mathematik/Algebra/Betragssummennorm.md)
+
+Die Summe aller eintreffenden Leistungswellen ist gleich aller autretenden (reflektierten) Leistungswellen. Daraus folgt, dass die S-Parameter Matrix [unitär](../Mathematik/Algebra/Unitäre%20Matrix.md) ist:
+
+$$
+\mathbf{S}^H\mathbf{S} = \mathbb{1}_{n}
+$$
+
+## Verlustbehaftete Netzwerke
+
+
+In verlustbehafteten Netzwerken wird nicht nur an Lasten der Tore Leistung umgesetzt sondern auch im Netzwerk selbst.
+
+$$
+\lVert \mathbf{a} \rVert_{1} \neq \lVert \mathbf{b} \rVert_{1} \implies \lVert \mathbf{a} \rVert_{1} > \lVert \mathbf{b} \rVert_{1}
+$$
+
+## Signalflussgraphen
+
+
 
 ![invert_light|300](../_assets/Zweitor.png)
 
-### Bedeutung der S-Parameter
 
-|          |                               |                                                       |                                                              |
-| -------- | ----------------------------- | ----------------------------------------------------- | ------------------------------------------------------------ |
-| $S_{11}$ | Eingangsreflexionsfaktor      | $S_{11}=\left. \dfrac{b_{1}}{a_{1}}\right._{a_{2}=0}$ | stellt die Reflexion am Eingang ohne Anregung an Tor 2 dar   |
-| $S_{22}$ | Ausgangsreflexionsfaktor      | $S_{22}=\left. \dfrac{b_{2}}{a_{2}}\right._{a_{1}=0}$ | stellt die Reflexion am Tor 2 ohne Anregung an Tor 1 dar     |
-| $S_{21}$ | Vorwärts-Transmissionsfaktor  | $S_{21}=\left. \dfrac{b_{2}}{a_{1}}\right._{a_{2}=0}$ | stellt die Vorwärts-Transmission ohne Anregung an Tor 2 dar  |
-| $S_{12}$ | Rückwärts-Transmissionsfaktor | $S_{12}=\left. \dfrac{b_{1}}{a_{2}}\right._{a_{1}=0}$ | stellt die Rückwärts-Transmission ohne Anregung an Tor 1 dar | 
-
-
-# Referenzen
+## Referenzen
 
 - [Streuparameter](https://de.wikipedia.org/wiki/Streuparameter)
+- [Scattering parameters](https://en.wikipedia.org/wiki/Scattering_parameters)

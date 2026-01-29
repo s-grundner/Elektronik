@@ -1,26 +1,35 @@
 ---
 tags:
   - Algorithmus/Mathe
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - Mathematik1
 semester: WS23
 created: 29. Januar 2024
-professor: 
-complexity: $\mathcal{O}(n^{3})$
+professor:
+complexity:
 ---
  
 
 # Matrixmultiplikation
 
-> [!info] Complexity: `$=dv.current().complexity`
+> [!info] Complexity: $\mathcal{O}(n^{3})$
+
+> [!def] **D - Matrix Multiplikation)**  Seien $\mathbb{K}^{m\times n}$ und $\mathbf{B} \in \mathbb{K}^{n \times p}$, dann ist das **Produkt** $\mathbf{A}\cdot \mathbf{B}$ definiert als
+> 
+> $$
+> \mathbf{A} \cdot \mathbf{B} := (c_{ij})^{m,p}_{i=1,j=1} \in \mathbb{K}^{m\times p} \quad \text{mit} \quad c_{ij}:= \sum_{k=1}^{i} a_{ik}b_{kj}
+> $$
+
 
 ## Beispiel
 
 Gegeben seien die beiden reellen Matrizen
 
-$A = \begin{pmatrix} 3 & 2 & 1 \\ 1 & 0 & 2 \end{pmatrix} \in \mathbb{R}^{2 \times 3}$ und $B = \begin{pmatrix} 1 & 2 \\ 0 & 1 \\ 4 & 0 \end{pmatrix} \in \mathbb{R}^{3 \times 2}$.
+$$
+\mathbf{A} = \begin{pmatrix} 3 & 2 & 1 \\ 1 & 0 & 2 \end{pmatrix} \in \mathbb{R}^{2 \times 3}, \quad \mathbf{B} = \begin{pmatrix} 1 & 2 \\ 0 & 1 \\ 4 & 0 \end{pmatrix} \in \mathbb{R}^{3 \times 2}
+$$
 
 Da die Matrix $A$ ebenso viele Spalten wie die Matrix $B$ Zeilen besitzt, ist die Matrizenmultiplikation $A \cdot B$ durchführbar. Nachdem $A$ zwei Zeilen und $B$ zwei Spalten hat, wird das Matrizenprodukt ebenfalls zwei Zeilen und Spalten aufweisen. Zur Berechnung des ersten Matrixelements der Ergebnismatrix werden die Produkte der entsprechenden Einträge der ersten Zeile von $A$ und der ersten Spalte von $B$ aufsummiert:
 

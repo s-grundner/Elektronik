@@ -15,6 +15,8 @@ title: Phasengeschwindigkeit
 
 # Phasengeschwindigkeit
 
+Die Geschwindigkeit mit der sich einen Welle in einem Medium fortbewegt, bezeichnet man als Phasengeschwindigkeit.
+
 > [!def] **D) Phasengeschwindigkeit** $v_{p}$
 > 
 > $$
@@ -23,6 +25,7 @@ title: Phasengeschwindigkeit
 
 - $k$ ... [Wellenzahl](Wellenzahl.md)
 - $\epsilon$, $\mu$ ... [Materialparameter](../../Elektrotechnik/Materialgesetze.md)
+
 
 Die Phasengeschwindigkeit für eine Welle ergibt sich, indem die örtliche bewegung eines referenzpunktes auf der Welle (z.B. Wellenspitze) über eine Zeitliche Änderung betrachtet wird.  Im Vakuum ist die Phasengeschwindigkeit die Lichtgeschwindigkeit $c_{0}$.
 
@@ -46,3 +49,15 @@ Um einen festen Punkt auf der Welle zu halten, muss sich die Welle in $+z$ richt
 $$
 \omega t - 
 $$
+
+## Für Wellen einer Leitung
+
+Auf einer Leitung ist die Phasengeschwindigkeit von den Leitungsbelägen abhängig.
+
+> [!def] **D)** Phasengeschwindigkeit einer Welle auf einer Leitung
+> $$
+> v_{p} = \frac{\omega}{\beta} = \frac{1}{\sqrt{ L'C' }}
+> $$
+
+- $\beta$ ... Phasenbelag
+- $L',C'$ ... Induktivitäts- / Kapazitätsbelag

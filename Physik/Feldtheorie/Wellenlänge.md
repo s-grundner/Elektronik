@@ -16,7 +16,7 @@ title: Wellenlänge
 
 # Wellenlänge
 
-Die Wellenlänge $\lambda$ ist definiert als der örtliche abstand zwischen zwei aufeinanderfolgene Maxima, Minima oder einem referenzpunkt auf einer Welle in einem festen Zeitpunkt.
+Die Wellenlänge $\lambda$ ist definiert als der örtliche abstand zwischen zwei aufeinanderfolgene Maxima, Minima oder einem referenzpunkt auf einer Welle zu einem festen Zeitpunkt.
 
 > [!def] **D) Wellenlänge** $\lambda$ für $k \in \mathbb{R}$
 > $$

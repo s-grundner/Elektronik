@@ -9,7 +9,6 @@ semester: WS23
 created: 18. April 2023
 professor:
 ---
- 
 
 # Impedanz
 
@@ -38,14 +37,6 @@ $\underline{ Z }$ und $\underline{Y}$ sind Komplexe größen, $X,G$ **nicht**. D
 | Widerstand $R$  |               $\underline{Z}=R$               |             $\underline{Y}=1 / R$             |
 | Kapazität $C$   | $\underline{Z}=\frac{1}{\mathrm{j} \omega C}$ |      $\underline{Y}=\mathrm{j} \omega C$      |
 | Induktivität $L$ |      $\underline{Z}=\mathrm{j} \omega L$      | $\underline{Y}=\frac{1}{\mathrm{j} \omega L}$ |
-
-# Tags
-
-> [!info] Warum werden $50\Omega$ oft benutzt
-> - Impedanz mit der besten Empfangsleistung: $77\Omega$
-> - Impedanz mit der besten Sendeleistung: $33\Omega$
-> 
-> MIttelwert ist $50\Omega$
 
 - [Impedanz Anpassung](../HF-Technik/Impedanz%20Anpassung.md)
 

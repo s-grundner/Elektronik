@@ -50,7 +50,7 @@ professor:
 	- $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
 3. Ausschlaggebend für weitere Eigenschaften
 	- [Ähnliche Matrizen](Ähnliche%20Matrizen.md)
-	- [Singuläre Matrizen](Singuläre%20Matrizen.md)
+	- [Singuläre Matrix](Singuläre%20Matrix.md)
 	- [Reguläre Matrizen](Reguläre%20Matrizen.md)
 
 ## Ermittlung der Determinante

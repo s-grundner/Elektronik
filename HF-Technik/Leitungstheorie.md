@@ -33,21 +33,22 @@ Signale, die sich in Form einer Welle auf einer Leitungs ausbreiten, bezeichnet 
 
 - Ausbreitungskonstante
 - Phasengeschwindigkeit
-- Wellenlänge
-- Characteristische Impedanz
+- [Wellenlänge](../Physik/Feldtheorie/Wellenlänge.md)
+- Charakteristische Impedanz
 - Eindringtiefe
 
-Der Phasenbelag ist mit der [Wellenlänge](../Physik/Feldtheorie/Wellenlänge.md) des Signals verknüpft und bestimmt, wie schnell sich die Welle auf der Leitung ausbreitet ([Phasengeschwindigkeit](../Physik/Feldtheorie/Phasengeschwindigkeit.md)).
 
-$$\lambda=\frac{2\pi}{\beta}, \quad v_{p} = \lambda f = \frac{\omega}{\beta}$$
+$$
+\lambda=\frac{2\pi}{\beta}, \quad v_{p} = \lambda f = \frac{\omega}{\beta}
+$$
 
 ### Zusammenfassung der Größen
 
-## Wellenausbreitung
+## Modellbildung
 
 - Transmission Line Modell
-- Reflexionsfaktor / SWR / Anpassung
-- Eingangsimpedanz
+- Reflexionsfaktor / SWR / Last Anpassung
+- Eingangsimpedanz / Generator Anpassung
 
 ## Ab wann muss für eine Leitung die Leitungstheorie betrachtet werden?
 

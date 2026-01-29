@@ -19,5 +19,5 @@ title: Nilpotente Matrix
 > $$\mathbf{M}^{k-1} \neq 0, \quad \mathbf{M}^{k} = 0 $$
 > - Das charakteristische Polynom ist $p(s)_{\mathbf{M}}=\det(\lambda \mathbb{1} - \mathbf{M}) = \lambda^{n}$
 > - Alle Eigenwerte sind $0$
-> - eine Nilpotente Matrix ist [singulär](Singuläre%20Matrizen.md)
+> - eine Nilpotente Matrix ist [singulär](Singuläre%20Matrix.md)
 
