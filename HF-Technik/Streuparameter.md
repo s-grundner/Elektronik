@@ -66,7 +66,7 @@ $$
 Zur Ermittlung der S-Parameter können an jedem Tor $i$ die Leistungsgrößen $a_{i}$ und $b_{i}$ gemessen werden. Betrachtet man das lineare Gleichungssystem [(1)](#^1), ist zu erkennen, dass die S-parameter durch gezieltes 0 setzen von elementen in $\mathbf{a}$ berechnet werden können. Es gilt
 
 $$
-s_{ij} = \frac{b_{i}}{a_{j}} \quad \text{wenn } \forall p \neq j : a_{p} =0
+s_{ij} = \frac{b_{i}}{a_{j}} \quad \text{mit } a_{p} = 0, \forall p \neq j
 $$
 
 Das Nullsetzen von $a_{p}$ bedeuted, dass an diesem Tor keine leistung eingespeist wird. Das heißt auch, dass an diesem Tor keine Leistung wieder zurück ins Netzwerk **reflektiert** wird.

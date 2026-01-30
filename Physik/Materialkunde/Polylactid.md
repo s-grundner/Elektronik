@@ -10,4 +10,4 @@ technologies: FDM
 
 # Polylactid (PLA)
 
-Der hier verwendete Kunststoff ist Polylactid (PLA), ein in [FDM](FDM.md)-Druckern häufig verwendeter Polyester, welcher auf aus Pflanzenstärke gewonnener Milchsäure basiert.
+Der hier verwendete Kunststoff ist Polylactid (PLA), ein in [FDM](../../Manufacturing/3D-Printing.md)-Druckern häufig verwendeter Polyester, welcher auf aus Pflanzenstärke gewonnener Milchsäure basiert.

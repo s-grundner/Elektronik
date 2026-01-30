@@ -8,7 +8,8 @@ aliases:
   - Kernel
   - Superposition
   - Bild
-keywords: 
+  - Linearität
+keywords:
 subject:
   - Mathematik 1
   - VL

@@ -1,7 +1,7 @@
 ---
 tags:
   - Material/Metal
-aliases: 
+aliases:
 material:
   - Cu
 spec-resistance:
@@ -10,8 +10,8 @@ spec-resistance:
   - $\rho$
 spec-conductance:
   - "58"
-  - $10^{8}\frac{S}{m}$
-  - $\gamma$
+  - $10^{6}\frac{S}{m}$
+  - $\sigma$
 temperature-coeff:
   - "38"
   - $10^{-4}\frac{1}{K}$
@@ -20,7 +20,7 @@ temperature-coeff:
 
 # Kupfer
 
-## 1 Chemische Eigenschaften
+
 
 ---
 

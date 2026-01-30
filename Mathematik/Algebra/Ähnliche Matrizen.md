@@ -16,3 +16,5 @@ title: Ähnliche Matrizen
 
 > [!def] **D)** Ähnliche Matrizen
 > Haben zwei Matrizen die selbe [Determinante](Determinante.md) bzw die selben [Eigenwerte](Eigenvektor.md), heißen sie **ähnlich**.
+
+Für ähnliche Matrizen ist die [Spur](Spur%20einer%20Matrix.md) gleich.

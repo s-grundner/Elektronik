@@ -1,7 +1,7 @@
 ---
 tags:
   - Material/Metal
-aliases: 
+aliases:
 material:
   - Pb
 spec-resistance:
@@ -11,7 +11,7 @@ spec-resistance:
 spec-conductance:
   - "4.8"
   - $10^{8}\frac{S}{m}$
-  - $\gamma$
+  - $\sigma$
 temperature-coeff:
   - "42"
   - $10^{-4}\frac{1}{K}$

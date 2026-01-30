@@ -12,7 +12,7 @@ _%>
 
 # UE<%* tR += nr%>
 
-<%* tR += `⬅️ [letzte Übung](./UE${next}.md) | [📓](${mainpage}) | [nächste Übung](./UE${prev}.md) ➡️` %>
+<%* tR += `⬅️ [letzte Übung](UE${next}.md) | [📓](${mainpage}) | [nächste Übung](UE${prev}.md) ➡️` %>
 
 ---
 

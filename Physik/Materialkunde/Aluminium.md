@@ -1,7 +1,7 @@
 ---
 tags:
   - Material/Metal
-aliases: 
+aliases:
 material:
   - Al
 spec-resistance:
@@ -11,7 +11,7 @@ spec-resistance:
 spec-conductance:
   - $36$
   - $10^{8}\frac{S}{m}$
-  - $\gamma$
+  - $\sigma$
 temperature-coeff:
   - $39$
   - $10^{-4}\frac{1}{K}$
