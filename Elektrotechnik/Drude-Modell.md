@@ -35,26 +35,26 @@ Da in einem konstanten [Elektrischen Feld](elektrisches%20Feld.md) auf ein Elekt
 
 ## Beweglichkeit $\mu_{e}$- Zusammenhang mit mittlerer Flugzeit
 
-- Thermische Bewegung eines Elektrons in x-Richtung (ohne [elektrisches Feld](elektrisches%20Feld.md)). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der [Geschwindigkeit](../../Physik/Kinematik/Kinematik.md) $\langle v_{e,x} \rangle = 0$
+- Thermische Bewegung eines Elektrons in x-Richtung (ohne [elektrisches Feld](elektrisches%20Feld.md)). Mit jedem Stoß Streuung in zufällige Richtung, Mittelwert der [Geschwindigkeit](../Physik/Kinematik/Kinematik.md) $\langle v_{e,x} \rangle = 0$
 
 Die Gesamtheit der Stöße der Elektronen wird als *Streuung* bezeichnet
 
-![invert_light|800](../../_assets/DrudeStosszeiten.png)
+![invert_light|800](../_assets/DrudeStosszeiten.png)
 
-Die [thermische](../../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung wird mit der Beschleunigung durch das [E-Feld](elektrisches%20Feld.md) überlagert.
+Die [thermische](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung wird mit der Beschleunigung durch das [E-Feld](elektrisches%20Feld.md) überlagert.
 
-Da die [thermische](../../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung der Elektronen *sehr viel größer* ist als die Geschwindigkeitszunahme durch das elektrische Feld, kann man die [Thermische](../../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Bewegung immer noch als *isotrop* Betrachten.
+Da die [thermische](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung der Elektronen *sehr viel größer* ist als die Geschwindigkeitszunahme durch das elektrische Feld, kann man die [Thermische](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Bewegung immer noch als *isotrop* Betrachten.
 
 > [!success] $\left\langle\vec{v}_e\right\rangle=-\dfrac{e \uptau}{m_e} \vec{E}=-\mu_e \vec{E}$
 > 
 > - $\langle v_{e} \rangle$ … Mittlere Geschwindigkeit der Elektronen
-> - $-e$ … [Ladung](elektrisches%20Feld.md) eines Elektrons (negative [Elementarladung](../../Physik/Konstanten/Elementarladung.md))
+> - $-e$ … [Ladung](elektrisches%20Feld.md) eines Elektrons (negative [Elementarladung](../Physik/Konstanten/Elementarladung.md))
 > - $\uptau$ … Mittlere Stoßzeit
 > - $m_{e}$ … Masse eines Elektrons
 > - $\vec{E}$ … [Elektrische Feldstärke](elektrisches%20Feld.md)
 > 
 > $\mu_{e}$ wird als Beweglichkeit bezeichnet.
 
-![invert_light](../../_assets/MittlGeschwE.png)
+![invert_light](../_assets/MittlGeschwE.png)
 
 [^1]: **Isotrop:** Liefert keinen Betrag zum Mittelwert und ist im Mittel $0$.
