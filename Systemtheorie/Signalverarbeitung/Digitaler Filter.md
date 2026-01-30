@@ -41,7 +41,7 @@ Die Verzögerung eines LTI-Systems wird durch die [Gruppenlaufzeit](zeitdiskrete
 
 ### Filterentwurf
 
-- [FIR-Filter](../../xEDU/B4_SS25/Signalverarbeitung/FIR-Filter.md)
+- [FIR-Filter](FIR-Filter.md)
 - [[IIR-Filter]]
 
 ## Adaptive Filter

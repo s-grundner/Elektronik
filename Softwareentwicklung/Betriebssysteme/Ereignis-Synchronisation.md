@@ -11,13 +11,13 @@ Beispiel **Producer-Consumer**:
 
 [FIFO](../DS-Algo/FIFO%20Queue.md)-Buffer, am Einfachsten realisiert als [Ringbuffer](../../Digitaltechnik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
 
-![OS_FiFo](../../_assets/OS_FiFo.png)
+![invert_dark](../../_assets/OS_FiFo.png)
 
 ## Exceptions
 
 Fifo-Klasse [fifo](../DS-Algo/FIFO%20Queue.md).h:
 
-```c++
+```cpp
 #include <stdexcept>
 #include <cassert>
 using namespace  std;
@@ -70,7 +70,7 @@ public:
 
 Testen der FIFO-Klasse main.cpp:
 
-```c++
+```cpp
 #include <iostream>
 #include <cassert>
 #include "fifo.h"
@@ -147,7 +147,7 @@ Besser: der Buffer wird *Thread-Safe* gemacht. Wenn der Buffer schon zu voll ist
 
 Aufbau:
 
-```c++
+```cpp
 #include <condition_variable>
 
 mutex mu;     							// Sperrsync
@@ -156,7 +156,7 @@ condition_variable m_cv;    // Ereignissync
 
 Producer:
 
-```c++
+```cpp
 // -------------------------------- 1ter Thread (Producer):
 unique_lock<mutex> lck(mu);			  // Mutex fuer Blockade
 while (isFull()) m_cv.wait(lck);  // Bis Platz in FiFo & Trigger von CV
@@ -168,7 +168,7 @@ Hier wird, wenn der FiFo-Buffer voll ist, gewartet bis die Bedingungsvariable m_
 
 Consumer:
 
-```c++
+```cpp
 // -------------------------------- 2ter Thread (Consumer):
 unique_lock<mutex> lck(mu);			  // Mutex fuer Blockade
 while (isEmpty()) m_cv.wait(lck); // Bis Element in FiFo & Trigger von CV

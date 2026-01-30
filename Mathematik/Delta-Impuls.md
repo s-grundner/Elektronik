@@ -26,6 +26,7 @@ professor:
 Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
 
 > [!def] **D1 - DIR-$\delta$ )** Dirac-Distribution / Einheitsimpuls ^DIRD
+> 
 > $$
 > \begin{align*}
 > \delta(t) = \begin{cases}
@@ -36,7 +37,8 @@ Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Besch
 > $$
 > 
 
-$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt.  
+$\delta(t)$ ist jedoch im eigentlichen Sinn keine Funktion mehr, da $\infty$ kein Funktionswert ist. Ebenfalls ist das Integral $\int_{-\infty}^{\infty}\delta (t)dt = 1$ im üblichen Sinn nicht mehr möglich. Symbolisch wird der Delta-Impuls durch einen Pfeil dargestellt. 
+
 ![invert_dark](../_assets/d_impuls.png)
 
 $d(t)$ ist eine verallgemeinerte Funktion bzw. Distribution
@@ -72,14 +74,20 @@ $$
 ## Abtasteigenschaft
 
 > [!satz] **Abtasteigenschaft** der Dirac Distribution ^ABT
-$$ f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})\mathrm{d}t = f(t)*\delta(t_{0})$$
+> 
+> $$
+> f(t_{0}) = \int_{-\infty}^{\infty}f(t)\cdot\delta(t-t_{0})\mathrm{d}t = f(t)*\delta(t_{0})
+> $$
 
 ![invert_dark](../_assets/delta_impuls.png)
 
 ## Ausblendeigenschaft
 
 > [!satz] **Ausblendeigenschaft** der Dirac-Distribution ^AUSB
-> $$ x(t)\delta(t-t_{0}) = x(t_{0})\delta(t-t_{0}) $$
+> 
+> $$
+> x(t)\delta(t-t_{0}) = x(t_{0})\delta(t-t_{0})
+> $$
 
 ## Verschiebung und Skalierung
 
@@ -109,7 +117,7 @@ Der Einheitsimpuls ist im Zeitdiskreten tatsächliche eine Funktion.
 
 ---
 
-- [Faltung](../../Systemtheorie/Faltung.md)
-- [Impulsanwort](../../Systemtheorie/Impulsanwort.md)
+- [Faltung](../Systemtheorie/Faltung.md)
+- [Impulsanwort](../Systemtheorie/Impulsanwort.md)
 
  

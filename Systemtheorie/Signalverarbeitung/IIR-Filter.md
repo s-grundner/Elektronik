@@ -15,7 +15,7 @@ title: IIR-Filter
 
 # IIR-Filter
 
-[FIR-Filter](../../xEDU/B4_SS25/Signalverarbeitung/FIR-Filter.md) :LiRefreshCcw:
+[FIR-Filter](FIR-Filter.md) :LiRefreshCcw:
 
 ---
 
