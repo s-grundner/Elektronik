@@ -2,6 +2,7 @@
 <%* let lva = await tp.user.get_lva().sug_lva(tp, sem) _%>
 <%* let typ = await tp.user.get_lva().sug_type(tp) _%>
 <%* let ects = await tp.system.prompt("ECTS", "") _%>
+<%* let category = await tp.user.get_lva().sug_category(tp) _%>
 
 ---
 banner: /assets/banner/JKU-Banner.png
@@ -19,12 +20,10 @@ list: true
 done:
 ects: <%* tR += ects %>
 grade:
+type: <%* tR += category %>
 ---
 
 # <%* tR += lva %>
-
-> [!info] **Klausuren** ✒️
-> 
 
 <%* tp.file.rename(tp.user.get_lva().note_name(lva, typ)) _%> 
 

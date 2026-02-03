@@ -45,10 +45,3 @@ Für Verscheidene Medien lässt sich die [Fortpflanzungskonstante](../Feldtheori
 
 Wobei $\delta_{S}$ die [Eindringtiefe](../../HF-Technik/Skineffekt.md) ist.
 
-
-![invert_dark|500](../../_assets/ImpedanzfelderFreiraum.png)
-
-Beim Hertzschen Dipol ist der Feldwellenwiderstand im Nahbereich ([Nahfeld](../../HF-Technik/Fernfeld%20und%20Nahfeld.md)) deutlich größer als $377 \Omega$, beim magnetischen Dipol deutlich kleiner.
-
-Feld des Hertzschen Dipols $\rightarrow$ Hochimpedanzfeld
-Feld des magnetischen Dipols $\rightarrow$ Niederimpedanzfeld

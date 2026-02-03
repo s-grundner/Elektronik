@@ -13,6 +13,12 @@ async function sug_lva(tp, sem) {
     }
 }
 
+async function sug_category(tp) {
+    const suggestions = ["Pflicht", "Wahl", "Frei"];
+    let type = await tp.system.suggester(suggestions, suggestions, true, "Kategorie");
+    return type;
+}
+
 async function sug_type(tp) {
     const suggestions = ["VL", "UE", "KV", "PR"];
     let type = await tp.system.suggester(suggestions, suggestions, true, "LVA Type");
@@ -78,7 +84,7 @@ function note_link(name, type) {
 }
 
 function get_lva() {
-    return { sug_type, sug_lva, sug_sem, type_string, type_other, note_name, note_link, note_url, sem_to_program }
+    return { sug_type, sug_category, sug_lva, sug_sem, type_string, type_other, note_name, note_link, note_url, sem_to_program }
 }
 
 module.exports = get_lva

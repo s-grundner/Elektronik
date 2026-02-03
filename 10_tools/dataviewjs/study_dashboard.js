@@ -36,6 +36,7 @@ semesterProgress();
 dv.paragraph("---");
 centeredHeader(2, "🔸Lehrveranstaltungen🔸");
 courses();
+typeSelection();
 
 // --- Functions
 
@@ -45,6 +46,7 @@ function weightetGPA(pgs) {
 	let totECTS = graded.map(p => p.ects).sum()
 	return totECTS ? totWeighted / totECTS : 0;
 }
+
 
 function studyProgress() {
 	const tableHeader = [
@@ -128,4 +130,45 @@ function semPathDecorator(key) {
 	if (cmp === 0) return `**${semEmojiDecorator(key)}** 📍`;
 	if (cmp < 0) return `${semEmojiDecorator(key)}  :LiFootprints:`;
 	return `${semEmojiDecorator(key)}`
+}
+
+// --- Additional Type Selection ---
+
+function typeSelection() {
+
+	let maxPflicht = dv.current().dashboard
+		.flatMap(x => {
+			if (x === "Bachelor") return 147;
+			if (x === "Master") return 57;
+		})
+		.reduce((acc, x) => acc + x);
+
+	let maxWahlfach = dv.current().dashboard
+		.flatMap(x => {
+			if (x === "Bachelor") return 21;
+			if (x === "Master") return 48;
+		})
+		.reduce((acc, x) => acc + x);
+
+	let maxFSL = dv.current().dashboard
+		.flatMap(x => {
+			if (x === "Bachelor") return 12;
+			if (x === "Master") return 15;
+		})
+		.reduce((acc, x) => acc + x);
+
+	const tableHeader = [
+		"Pflicht",
+		"Wahlfach",
+		"Freie Studienleistung",
+	];
+	// Group by type
+	let selPflicht = pages.filter(p => p.type === "Pflicht").map(p => p.ects).sum();
+	let selWahlfach = pages.filter(p => p.type === "Wahl").map(p => p.ects).sum();
+	let selFSL = pages.filter(p => p.type === "Frei").map(p => p.ects).sum();
+	dv.table(tableHeader, [[
+		htmlProg(selPflicht / maxPflicht * 100) + `\n ${selPflicht} / ${maxPflicht}`,
+		htmlProg(selWahlfach / maxWahlfach * 100) + `\n ${selWahlfach} / ${maxWahlfach}`,
+		htmlProg(selFSL / maxFSL * 100) + `\n ${selFSL} / ${maxFSL}`
+	]]);
 }

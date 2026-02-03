@@ -30,12 +30,16 @@ Zur Grundlage werden zunächst eindimensionale- bzw. Eingrößen-Systeme betrach
 
 ## Linearität
 
-> [!def] ![D - Lineare Abbildungen](../Mathematik/Algebra/Lineare%20Abbildungen.md#^LINA)
-> 
-> Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn die Linearkombination der Eingänge gleich derselben Linearkombination der Ausgänge ist.
-> $$ \text{LKE} \iff \text{LKA} $$
-> - LKE: $x(t)=a x_1(t)+b x_2(t)$
-> - LKA: $\mathcal{T}\{x\}(t)=\mathcal{T}\{a x_1+b x_2\}(t) = a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t)$
+![D - Lineare Abbildungen](../Mathematik/Algebra/Lineare%20Abbildungen.md#^LINA)
+
+Ein System $\mathcal{T}\{\cdot\}$ ist linear wenn die Linearkombination der Eingänge gleich derselben Linearkombination der Ausgänge ist.
+
+$$
+\text{LKE} \iff \text{LKA}
+$$
+
+- LKE: $x(t)=a x_1(t)+b x_2(t)$
+- LKA: $\mathcal{T}\{x\}(t)=\mathcal{T}\{a x_1+b x_2\}(t) = a \mathcal{T}\left\{x_1\right\}(t)+b \mathcal{T}\left\{x_2\right\}(t)$
 
 LKE / LKA ... Linearkombination des Ein- / Ausgangs
 
