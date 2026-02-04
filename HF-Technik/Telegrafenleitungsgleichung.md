@@ -18,6 +18,8 @@ title: Telegrafenleitungsgleichung
 
 Die Telegrafenleitungsgleichungen sind ein Modell zur beschreibeung der ausbreitung von Strom und Spannungswellen eines [RF-Signals](Leitungstheorie.md) auf einer [Transmission Line](Transmission%20Line.md).
 
+> #incomplete Ersetzten durch allgemein verlustbehaftete Leitung
+
 ![invert_dark](../_assets/tl2.png)
 ^TL-Modell
 
@@ -39,23 +41,32 @@ Herleitung und Entkoppelung
 > [!def] **D - TFGL)** Telegraphenleitungsgleichungen in Form einer Helmholtzschen Differenzialgleichung der Ausbreitungswelle für **Sinusgrößen**
 > $$\dfrac{\mathrm{d}^{2}u}{\mathrm{d} z^{2}}=u(z)\gamma^{2}, \quad \frac{\mathrm{d}^{2}i}{\mathrm{d}z^{2}}=i(z)\gamma^{2}\tag{TFGL}$$
 ^TFGL
+
+> [Helmholtzsche Differenzialgleichung](Helmholtzsche%20Differenzialgleichung.md)
+
 ## Lösung der Telegrafenleitungsgleichung
 
+Als Lösung der Telegraphengleichung ergibt sich die Überlagerung gegenläufiger, exponentiell gedämpfter Spannungswellen.
+
+- $U^+, I^+$ ... Amplituden der Hinlaufenden Wellen
+- $U^-, I^-$ ... Amplituden der Rücklaufenden Wellen
+ 
 > [!success] Lösung der Telegraphengleichung für die Ausbreitungswellen für **Sinusgrößen**
 >
-> $$ u(z)= U_{h}\cdot e^{-\gamma\cdot z}+ U_{r}\cdot e^{\gamma\cdot z}, \quad i(z)= I_{h}\cdot e^{ -\gamma \cdot z } - I_{r}\cdot e^{ \gamma \cdot z }$$
+> $$
+> \begin{align}
+> U(z) &= U^+ e^{-\gamma z}+ U^- e^{\gamma z} \\
+> I(z) &= I^+ e^{-\gamma z} - I^- e^{\gamma z}
+> \end{align}
+> $$
 > 
-> Als Lösung der Telegraphengleichung ergibt sich die Überlagerung gegenläufiger, exponentiell gedämpfter Spannungswellen.
-> 
-> - $U_{h}, I_{h}$ = komplexe Amplitude der hinlaufenden Welle
-> - $U_{r}, I_{r}$ = komplexe Amplitude der rücklaufenden Welle
 ^LSGTFGL
 
 ### Ausbreitungskoeffizient
 
 > [!hint] Vergleiche [Fortpflanzungskonstante](../Physik/Feldtheorie/Wellenzahl.md) für EM-Wellen in verlustbehafteten Medien.
 
-> [!def] **D)** komplexer Ausbreitungskoeffizient $\gamma$
+> [!def] **D)** komplexer Ausbreitungskoeffizient $\gamma$ ^PROP
 > Die Ausbreitungskonstante $\gamma$ beschreibt die Verlustgrößen der Leitergeometrie.
 > 
 > $$

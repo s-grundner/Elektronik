@@ -17,15 +17,13 @@ release: true
 title: RF-Signale
 ---
 
-# Leitungstheorie - RF-Signale
+# Leitungstheorie
 
 > [!question] Vergleiche [Feldtheorie](../Physik/Feldtheorie/index.md)
 
-Bei höher werdenden Frequenzen lässt sich die ausbreitung von Strom und Spannung (dual zum E und H Feld) als Welle beschreiben. 
+Bei höher werdenden Frequenzen lässt sich die ausbreitung von Strom und Spannung (dual zum E und H Feld) als Welle beschreiben.  Signale, die sich in Form einer Welle auf einer Leitungs ausbreiten, bezeichnet man als RF-Signal.
 
 Ein mathematisches Modell zur Beschriebung von der zeitlichen und örtlichen Ausbreitung von U und I Wellen bietet die [Telegrafenleitungsgleichung](Telegrafenleitungsgleichung.md).
-
-Signale, die sich in Form einer Welle auf einer Leitungs ausbreiten, bezeichnet man als RF-Signal.
 
 ## Wellenparameter
 
@@ -41,8 +39,6 @@ Signale, die sich in Form einer Welle auf einer Leitungs ausbreiten, bezeichnet 
 $$
 \lambda=\frac{2\pi}{\beta}, \quad v_{p} = \lambda f = \frac{\omega}{\beta}
 $$
-
-### Zusammenfassung der Größen
 
 ## Modellbildung
 

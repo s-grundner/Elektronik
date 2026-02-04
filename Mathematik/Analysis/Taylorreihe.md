@@ -1,9 +1,10 @@
 ---
-tags: 
+tags:
 aliases:
   - Taylorreihen
   - McLaurenreihe
   - Taylorpolynom
+  - Taylorreihenentwicklung
 subject:
   - Mathematik 1
   - VL
@@ -46,5 +47,10 @@ $$
 \sum_{i=0}^{n} \frac{f^{(i)}(a)}{i!}(x-a)^i + O(n+1)
 $$
 
----
+## Beispiele
 
+- Wurzelfunktionen
+
+$$
+\sqrt{ 1+x } \approx 1 + \frac{x}{2} + \dots
+$$

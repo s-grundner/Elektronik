@@ -48,7 +48,7 @@ created: 19th August 2023
 	- Abschlusswiderstand
 3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Eingangsimpedanz.md) an
 4. Leiterbahnen am Rand der Platine vermeiden
-	- Niedriges [VSWR](../HF-Technik/Stehwellenverhältnis.md)
+	- Niedriges [VSWR](../HF-Technik/Reflexionsfaktor.md)
 	- keine [Reflexionen](../HF-Technik/Reflexionsfaktor.md)
 5. Leiterbahnen *niemals* über Referenzlücken routen
 

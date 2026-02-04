@@ -20,7 +20,7 @@ professor:
 
 # Transmission Line (TL)
 
-> [!important] Eine Leitung wird als TL behandelt wenn das Signal auf dieser Leitung als ein [Leitungstheorie](Leitungstheorie.md) klassifiziert wird.
+> [!important] Eine Leitung wird als TL behandelt wenn das Signal auf dieser Leitung als ein [RF-Signal](Leitungstheorie.md) klassifiziert wird.
 > Hier kann die Verbindung zwischen Toren/Komponenten nicht mehr Vernachlässigt werden und wird in der Schaltung mit modelliert:
 
 ![invert_dark|500](../_assets/tl1.png)

@@ -33,7 +33,7 @@ professor:
 
 ## Abschlussimpedanz
 
-![TL_QundS](../_assets/TL_QundS.png)
+![TL_QundS|600](../_assets/TL_QundS.png)
 
 > [!IMPORTANT] Für hochfrequente Logik-Signale (elektrisch kurz im vergleich zur Flankenanstiegszeit) führen Fehlanpassungen an einer der Impedanzen $Z_{S}$, $Z_{0}$ bzw. $Z_{L}$ zu Reflexionen.  
 > Probleme:
@@ -52,11 +52,11 @@ professor:
 > - weitere: AC parallel, Thevenin, Diode
 
 
-# Tags
+## Tags
 
 - [Paralleler Leitungsabschluss](Paralleler%20Leitungsabschluss.md)
 - [Serieller Leitungsabschluss](../Hardwareentwicklung/Serial%20Termination.md)
 
-# Quellen
+## Quellen
 
 [^1]: [TI AN-903](https://www.ti.com/lit/an/snla034b/snla034b.pdf?ts=1695571735636&ref_url=https%253A%252F%252Fwww.google.com%252F)
