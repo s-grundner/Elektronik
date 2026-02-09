@@ -1,8 +1,10 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Netwerktopologien"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - Netwerktopologien
+subject:
+  - ksn
 created: 5th April 2022
 ---
 

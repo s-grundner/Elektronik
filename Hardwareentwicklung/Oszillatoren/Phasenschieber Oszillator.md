@@ -1,8 +1,12 @@
 ---
-tags: ["Baugruppe/Oszillator", incomplete]
-aliases: ["PSO", "Phaseshift Oscillator"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppe/Oszillator
+  - incomplete
+aliases:
+  - PSO
+  - Phaseshift Oscillator
+subject:
+  - hwe
 created: 7th November 2022
 ---
 

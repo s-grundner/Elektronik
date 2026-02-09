@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["mathe"]
-source: ["Christa Sartorius"]
+subject:
+  - mathe
 created: 19th August 2022
 ---
 

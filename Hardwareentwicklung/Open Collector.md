@@ -1,8 +1,9 @@
 ---
 tags: []
-aliases: ["Open Drain"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+aliases:
+  - Open Drain
+subject:
+  - hwe
 created: 31st January 2023
 ---
 

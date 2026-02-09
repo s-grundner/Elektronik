@@ -1,13 +1,12 @@
 ---
-banner: "https://gamakaai.com/wp-content/uploads/2019/06/java-banner-1-1024x332.png"
+banner: https://gamakaai.com/wp-content/uploads/2019/06/java-banner-1-1024x332.png
 banner_x: 0.5
 tags:
-  - MOC  
+  - MOC
 aliases:
-  - Java  
+  - Java
 subject:
-created: 5. September 2023  
-inst: HTBLuVA Salzburg  
+created: 5. September 2023
 ---
 
 # Map of Content - Java

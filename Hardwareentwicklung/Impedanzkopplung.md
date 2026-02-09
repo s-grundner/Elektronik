@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+subject:
+  - hwe
 created: 27th March 2023
 ---
 

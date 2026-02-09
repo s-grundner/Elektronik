@@ -3,7 +3,6 @@ tags:
   - Chemie/Anorganisch
 aliases:
 subject:
-source:
 created: 10th September 2022
 ---
 

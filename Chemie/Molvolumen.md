@@ -6,8 +6,6 @@ aliases:
   - Gasvolumen
 subject:
   - physik
-source:
-  - Fritz Struber
 created: 10th September 2022
 ---
 

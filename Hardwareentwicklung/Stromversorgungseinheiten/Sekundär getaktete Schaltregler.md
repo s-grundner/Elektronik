@@ -1,8 +1,11 @@
 ---
-tags: ["Baugruppe/Versorgung/SMPS"]
-aliases: ["Sekundär getakteter SMPS", "Sekundär getaktete SMPS"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppe/Versorgung/SMPS
+aliases:
+  - Sekundär getakteter SMPS
+  - Sekundär getaktete SMPS
+subject:
+  - hwe
 created: 2nd October 2022
 ---
 

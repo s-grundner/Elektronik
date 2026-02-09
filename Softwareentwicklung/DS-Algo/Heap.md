@@ -4,8 +4,6 @@ tags:
 aliases: []
 subject:
   - fsst
-source:
-  - ""
 created: 17th April 2022
 ---
 

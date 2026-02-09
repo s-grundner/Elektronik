@@ -1,11 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Wienisches Verschiebunsgesetz
 subject:
   - physik
-source:
-  - Norbert Irnleitner
 created: 28th November 2022
 ---
 

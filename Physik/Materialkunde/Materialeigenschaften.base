@@ -1,0 +1,46 @@
+filters:
+  and:
+    - file.tags.contains("Material")
+    - '!file.tags.contains("Template")'
+views:
+  - type: table
+    name: Alle
+    order:
+      - file.name
+      - material
+    sort:
+      - property: tan-loss
+        direction: DESC
+  - type: table
+    name: Substrate
+    filters:
+      and:
+        - file.tags.contains("Material/Substrate")
+    order:
+      - file.name
+      - tan-loss
+      - dielectric
+      - at
+    columnSize:
+      file.name: 165
+      note.tan-loss: 101
+      note.dielectric: 211
+  - type: table
+    name: Metalle
+    filters:
+      and:
+        - file.tags.contains("Material/Metal")
+    order:
+      - material
+      - file.name
+      - spec-conductance
+      - temperature-coeff
+      - spec-resistance
+    sort:
+      - property: spec-conductance
+        direction: DESC
+  - type: table
+    name: Plastic
+    filters:
+      and:
+        - file.tags.contains("Material/Plastic")

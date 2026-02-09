@@ -1,8 +1,9 @@
 ---
 tags: []
-aliases: ["S-Parameter"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+aliases:
+  - S-Parameter
+subject:
+  - ksn
 created: 28th September 2022
 ---
 

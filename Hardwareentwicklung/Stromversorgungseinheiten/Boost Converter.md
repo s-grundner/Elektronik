@@ -7,8 +7,6 @@ aliases:
   - Tiefsetzsteller
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 8th June 2022
 ---
 

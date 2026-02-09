@@ -1,8 +1,10 @@
 ---
-tags: [""]
-aliases: ["Aktor"]
-subject: ["mtrs"]
-source: ["Norbert Irnleitner"]
+tags:
+  - ""
+aliases:
+  - Aktor
+subject:
+  - mtrs
 created: 31st March 2022
 ---
 

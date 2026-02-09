@@ -1,8 +1,12 @@
 ---
-tags: ["MCU", "Baugruppe/Oszillator"]
-aliases: ["Pierce Gate Oszillator", "PGO"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - MCU
+  - Baugruppe/Oszillator
+aliases:
+  - Pierce Gate Oszillator
+  - PGO
+subject:
+  - hwe
 created: 1st February 2023
 ---
 

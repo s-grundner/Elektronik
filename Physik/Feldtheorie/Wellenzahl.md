@@ -5,6 +5,7 @@ aliases:
   - Phasenkonstante
   - Fortpflanzungskonstante
   - Ausbreitungskoeffizient
+  - Grenzwellenzahl
 keywords:
 subject:
   - VL
@@ -19,6 +20,8 @@ title: Wellenzahl
 
 # Wellenzahl
 
+Für dielektrische Materialien ist die Wellenzahl die anzahl an Wellenlängen die in einem Meter des Mediums platz haben.
+
 > [!def] **D) Wellenzahl**  $k$ (auch Phasenkonstante)
 > 
 > $$
@@ -30,14 +33,12 @@ title: Wellenzahl
 - $\epsilon$, $\mu$ ... [Materialparameter](../../Elektrotechnik/Materialgesetze.md)
 - $v_{p}$ ... [Phasengeschwindigkeit](Phasengeschwindigkeit.md)
 
-## Verlustbehaftung
+## Verlustbehaftete Medien
 
 Für [Verlustbehaftete dielektrische Materialien](../../Elektrotechnik/Verlustwinkel.md) wird die Wellenausbreitung durch die komplexwertige Fortpflanzungskonstante beschreiben. Diese Ausbreitungskonstante ist definiert durch die [Helmholtzsche Differenzialgleichung](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md#Verlustbehaftetes%20Medium)
 
-> [!info] Zusammenfassung der Fortpflanzungskonstante $\gamma$ in unterschiedlichen Medien
-> 
-> ![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenzahl.svg)
-> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/ZusammenfassungWellenzahl.md)%%
+
+Die Forpflanzungskonstante ist die Werweiterung der Wellenzahl mit $\epsilon$ erweitert als Komplexe zahl mit dem Verlustwinkel.
 
 > [!def] **D) Komplexe Fortpflanzungskonstante** $\gamma$
 > 
@@ -51,11 +52,19 @@ Man sieht sofort, dass ein verlustloses Material mit $\tan\delta=0$ dazu führt,
 -  $\beta$ die *Phasenkonstante*
 - $\tan\delta$ der [Verlustwinkel](../../Elektrotechnik/Verlustwinkel.md)
 
+> [!warning]-  Im Allgemeinen Fall gilt nicht $\beta = k$
+> siehe [Transversale Elektromagnetische Welle](../../HF-Technik/Transversale%20Elektromagnetische%20Welle.md)
+
+> [!info] Zusammenfassung der Fortpflanzungskonstante $\gamma$ in unterschiedlichen Medien
+> 
+> ![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenzahl.svg)
+> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/ZusammenfassungWellenzahl.md)%%
+
+### Einsetzen der Modelle
+
 Der Verlust in einem dielektrischen Medium kann zum einen mit der Permittivität als komplexer Wert *oder* der einführung eines intrinsischen Leitwertes modelliert werden. Man kann nun eines der beiden Modelle für den Verlustwinkel einsetzen.
 
 ![](../../Elektrotechnik/Verlustwinkel.md#^LOSS-TAN)
-
-## Einsetzen der Modelle
 
 > [!satz] **S)** $\gamma$ - Verlust als komplexe Permittivität: $\tan \delta=\frac{\epsilon''}{\epsilon'}$
 > 
@@ -74,10 +83,32 @@ Der Verlust in einem dielektrischen Medium kann zum einen mit der Permittivität
 
 - Diese Betrachtung folgt aus der [Herleitung der Helmholtzschen DGL](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md#Herleitung%20der%20Wellengleichung) für verlustbehaftete Medien aus den [Maxwell](../../Elektrotechnik/Maxwell.md)-Gleichungen.
 
-## $\gamma$ in gut leitfähigen Materialien
+### Ausbreitung in gut leitfähigen Materialien
 
 In dielektrischen Materialien ist die Leitfähigkeit $\sigma$ eine parasitäre größe. In Leitfähigkeiten ist das jedoch erwünscht. Im übergan von dielektrika zu leitern gilt $\sigma\gg\epsilon$ bzw. $\epsilon''\gg\epsilon'$. Dann gilt mit guter näherung
 
 $$
-\gamma = \alpha + j\beta \approx j\omega\sqrt{ \mu\epsilon } \sqrt{\frac{\sigma}{j\omega\epsilon} } = (1+j)\sqrt{ \frac{\omega\mu\sigma}{2} }
+\gamma = \alpha + j\beta \approx j\omega\sqrt{ \mu\epsilon } \sqrt{\frac{\sigma}{j\omega\epsilon} } = (1+j)\sqrt{ \frac{\omega\mu\sigma}{2} } = \frac{1+j}{\delta_{S}}
+$$
+
+> $\delta_{S}$ ... [Eindringtiefe](../../HF-Technik/Skineffekt.md)
+
+## Grenzwellenzahl
+
+Die Grenzwellenzahl ist der Grenzwert, bei dem sich eine Welle (z.B in einem Wellenleiter) gerade noch ausbreiten kann.
+
+> [!def] **D)** Grenzwellenzahl (*Cutoff Wavenumber*) $k_{c}$
+> 
+> $$
+> k_{c}^{2} = k^{2}-\beta^{2}
+> $$
+
+In Wellenleitern:
+
+- Wellenleiter mit dem Einleiter-Modell funktionieren nicht bis zur Gleichspannung herunter. Die Grenzwellenzahl ist die Wellenzahl bei der geringsten Frequenz (größten Wellenlänge), bei der sich eine Welle gerade noch auf dem Leiter ausbreiten kann.
+
+Es lassen sich **Grenzwellenlänge** und **Grenzfrequenz** ermmitteln mit:
+
+$$
+\lambda_{c} = \frac{2\pi}{k_{c}} \qquad f_{c} = \frac{k_{c}}{2\pi\sqrt{ \epsilon\mu }}
 $$

@@ -1,8 +1,14 @@
 ---
-tags: ["DB", "DB"]
-aliases: ["ERM", "Entity-Relationship-Modell", "ERD", "Entity-Relationship-Modell"]
-subject: ["fsst"]
-source: ["Roman Schragl", "https://gitlab.com/fosy/htbluva_sbg_fsst/"]
+tags:
+  - DB
+  - DB
+aliases:
+  - ERM
+  - Entity-Relationship-Modell
+  - ERD
+  - Entity-Relationship-Modell
+subject:
+  - fsst
 created: 21st November 2022
 ---
 

@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["chemie"]
-source: ["Fritz Struber"]
+subject:
+  - chemie
 created: 12th September 2022
 ---
 

@@ -1,8 +1,10 @@
 ---
-tags: ["Baugruppe/Oszillator"]
-aliases: ["Clock-Tree-Balancing"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppe/Oszillator
+aliases:
+  - Clock-Tree-Balancing
+subject:
+  - hwe
 created: 31st January 2023
 ---
 

@@ -1,9 +1,7 @@
 ---
 tags:
   - incomplete
-aliases: 
-source:
-  - Rick Hartley
+aliases:
 created: 20th August 2023
 ---
 

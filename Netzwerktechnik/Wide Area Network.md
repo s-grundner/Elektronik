@@ -1,8 +1,10 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["WAN"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - WAN
+subject:
+  - ksn
 created: 4th April 2022
 ---
 

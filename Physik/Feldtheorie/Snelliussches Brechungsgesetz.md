@@ -9,7 +9,6 @@ aliases:
 subject:
   - VL
   - Grundlagen der Hochfrequenztechnik
-source:
 created: 15th January 2026
 keywords:
 semester: WS25

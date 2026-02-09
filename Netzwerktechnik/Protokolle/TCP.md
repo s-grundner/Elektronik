@@ -1,8 +1,10 @@
 ---
 tags: []
-aliases: ["TCP", "Transmission Control Protocol"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+aliases:
+  - TCP
+  - Transmission Control Protocol
+subject:
+  - ksn
 created: 6th May 2022
 ---
 

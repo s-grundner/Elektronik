@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["physik"]
-source: [""]
+subject:
+  - physik
 created: 10th September 2022
 ---
 

@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["dic"]
-source: ["Robert Vogl"]
+subject:
+  - dic
 created: 7th November 2022
 ---
 

@@ -6,10 +6,6 @@ aliases:
   - Fourierreihen
 subject:
   - mathe
-source:
-  - Rudolf Frauenschuh
-  - Laurenz Hölzl
-  - Daniel Ch. v. Grüningen
 created: 24th March 2022
 ---
 

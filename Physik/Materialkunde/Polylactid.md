@@ -4,8 +4,8 @@ tags:
 aliases:
   - PLA
 created: 26. Dezember 2023
-temp: 
-technologies: FDM
+material:
+  - PLA
 ---
 
 # Polylactid (PLA)

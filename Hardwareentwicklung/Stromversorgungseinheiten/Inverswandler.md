@@ -5,8 +5,6 @@ aliases:
   - Buck-Boost-Converter
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 26th September 2022
 ---
 

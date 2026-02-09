@@ -7,8 +7,6 @@ aliases:
   - Abstimmdiode
 subject:
   - hwe
-source:
-  - Siegbert SChrempf
 created: 19th January 2023
 ---
 

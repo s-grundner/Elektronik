@@ -7,8 +7,6 @@ aliases:
   - Primärelemente
 subject:
   - chemie
-source:
-  - Fritz Struber
 created: 21st August 2022
 ---
 

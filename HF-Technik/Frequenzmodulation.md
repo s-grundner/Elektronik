@@ -1,8 +1,9 @@
 ---
 tags: []
-aliases: ["FM"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+aliases:
+  - FM
+subject:
+  - ksn
 created: 2nd December 2022
 ---
 

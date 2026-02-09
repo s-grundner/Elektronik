@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+subject:
+  - mathe
 created: 26th April 2022
 ---
 

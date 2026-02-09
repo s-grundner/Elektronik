@@ -7,11 +7,9 @@ material:
 spec-resistance:
   - "20.8"
   - $10^{-8}\Omega m$
-  - $\rho$
 spec-conductance:
   - "4.8"
   - $10^{8}\frac{S}{m}$
-  - $\sigma$
 temperature-coeff:
   - "42"
   - $10^{-4}\frac{1}{K}$

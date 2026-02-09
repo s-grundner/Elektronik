@@ -5,8 +5,7 @@ aliases:
   - Stack
   - LIFO
   - Kellerspeicher
-subject: 
-source: 
+subject:
 created: 20th April 2022
 ---
 

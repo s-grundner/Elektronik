@@ -8,8 +8,6 @@ aliases:
   - basisch
 subject:
   - chemie
-source:
-  - Fritz Struber
 created: 25th August 2022
 ---
 

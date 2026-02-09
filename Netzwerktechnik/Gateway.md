@@ -1,8 +1,10 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Gateways"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - Gateways
+subject:
+  - ksn
 ---
 
 # Gateways

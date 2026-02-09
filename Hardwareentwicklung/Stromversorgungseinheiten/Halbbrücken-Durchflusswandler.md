@@ -1,8 +1,10 @@
 ---
-tags: ["Baugruppe/Versorgung/SMPS", incomplete]
+tags:
+  - Baugruppe/Versorgung/SMPS
+  - incomplete
 aliases: []
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+subject:
+  - hwe
 created: 13th October 2022
 ---
 

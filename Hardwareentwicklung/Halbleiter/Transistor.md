@@ -10,9 +10,6 @@ aliases:
 subject:
   - hwe
   - Technische Informatik
-source:
-  - Siegbert Schrempf
-  - Michael Offenhuber
 created: 21st March 2022
 ---
 

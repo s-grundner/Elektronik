@@ -1,8 +1,13 @@
 ---
-tags: ["Nachrichtentechnik"]
-aliases: ["LWL", "LLK", "Lichtleitkabel", "Glasfaserkabel"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Nachrichtentechnik
+aliases:
+  - LWL
+  - LLK
+  - Lichtleitkabel
+  - Glasfaserkabel
+subject:
+  - ksn
 created: 28th March 2022
 ---
 

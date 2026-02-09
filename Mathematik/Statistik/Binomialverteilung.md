@@ -1,8 +1,10 @@
 ---
-tags: ["Statistik"]
-aliases: [""]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - Statistik
+aliases:
+  - ""
+subject:
+  - mathe
 created: 16th November 2022
 ---
 

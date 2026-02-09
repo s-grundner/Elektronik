@@ -1,8 +1,10 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Classless Inter Domain Routing"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - Classless Inter Domain Routing
+subject:
+  - ksn
 ---
 
 # CIDR - Classless Inter-Domain Routing

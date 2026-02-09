@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("Konstante")
+    groupBy:
+      property: science
+      direction: ASC
+    order:
+      - file.name
+      - value
+      - unit
+    sort:
+      - property: science
+        direction: ASC
+      - property: file.name
+        direction: ASC

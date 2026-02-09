@@ -1,6 +1,6 @@
 ---
-banner: "Physik/assets/thermodynamik2.png"
-tags: 
+banner: Physik/assets/thermodynamik2.png
+tags:
 aliases:
   - Temperatur
   - Brownsche Bewegung
@@ -9,8 +9,6 @@ aliases:
   - Joulsche Wärme
 subject:
   - physik
-source:
-  - Angela Lindner
 created: 18th August 2022
 banner_x: 1
 ---

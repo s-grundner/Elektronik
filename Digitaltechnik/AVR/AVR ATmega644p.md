@@ -9,8 +9,6 @@ aliases:
   - at644p
 subject:
   - dic
-source:
-  - Robert Vogl
 created: 21st March 2022
 ---
 

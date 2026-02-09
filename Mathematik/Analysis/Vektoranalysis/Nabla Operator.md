@@ -30,7 +30,7 @@ title: Nabla Operator
 > 
 > Wird nicht nach allen Größen differenziert, zum Beispiel wenn gilt, dass $f(\mathbf{x},t)$, wird ein Subskript eingeführt:
 > $$
-> \nabla_{x}f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n-1}} \\ \frac{\partial f}{\partial x_{n}} \end{array}\right) \quad\text{ \small{im Gegensatz zu }}\quad  \nabla f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n}}\\ \frac{\partial f}{\partial t} \end{array}\right)
+> \nabla_{\mathbf{x}}f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n-1}} \\ \frac{\partial f}{\partial x_{n}} \end{array}\right) \quad\text{ \small{im Gegensatz zu }}\quad  \nabla f= \left(\begin{array}{c} \frac{\partial f}{\partial x_{1}} \\ \vdots \\ \frac{\partial f}{\partial x_{n}}\\ \frac{\partial f}{\partial t} \end{array}\right)
 > $$
 
 

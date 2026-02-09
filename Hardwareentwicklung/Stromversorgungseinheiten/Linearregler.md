@@ -8,8 +8,6 @@ aliases:
   - Spannungsstabilisierung
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 16th March 2022
 ---
 

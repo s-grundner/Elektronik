@@ -1,8 +1,11 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["OSI-Modell","OSI-Modells"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - OSI-Modell
+  - OSI-Modells
+subject:
+  - ksn
 created: 4th April 2022
 ---
 

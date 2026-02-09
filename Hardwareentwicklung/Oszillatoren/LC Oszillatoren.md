@@ -8,8 +8,6 @@ aliases:
   - LC-Glied
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 17th November 2022
 ---
 

@@ -6,8 +6,6 @@ aliases:
   - Lineares Gleichungssystem
 subject:
   - mathe
-source:
-  - Christa Sartorius
 created: 19th August 2022
 ---
 

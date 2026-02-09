@@ -1,8 +1,10 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["ARP"]
-subject: ["ksn"]
-source: ["Martin Aichriedler", "Christian Baun"]
+tags:
+  - Netzwerke
+aliases:
+  - ARP
+subject:
+  - ksn
 ---
 
 # Address Resolution Protocol

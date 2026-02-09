@@ -5,8 +5,9 @@ tags:
 aliases:
   - Boltzmann
 symbol: $k_{\mathrm{B}}$
-value: $1.380649 \cdot 10^{-23}$
-unit: $\mathrm{\dfrac{J}{K}}$
+value: "1.380649e-23"
+unit: J/K
+science: Physik
 ---
 
 # Boltzmann Konstante

@@ -5,8 +5,6 @@ aliases:
   - Stoß
   - Stöße
   - Rückstoß
-source:
-  - Angela Lindner
 created: 31st May 2022
 ---
 

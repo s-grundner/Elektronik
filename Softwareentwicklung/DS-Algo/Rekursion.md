@@ -5,9 +5,6 @@ aliases:
   - rekursiv
 subject:
   - fsst
-source:
-  - Anton Hofmann
-  - freecodecamp.org
 created: 18th April 2022
 ---
 

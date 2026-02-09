@@ -51,9 +51,9 @@ $$
 \mathbf{E,B,H,D,J} : \mathbf{F}(x,y,z,t)
 $$
 
-Mit $x,y,z$ als kartesische Koordinaten. Es sind auch Polar- $(r,\theta,\varphi)$ oder Zylinderkoordinaten $(r,h,\varphi)$ möglich.
+Mit $x,y,z$ als kartesische Koordinaten. Es sind auch Polar- $(r,\theta,\varphi)$ oder Zylinderkoordinaten $(r,h,\varphi)$ möglich. Wichtig sind auch die [materiellen Zusammenhänge](Materialgesetze.md) zwischen Intensitäts und Quantitätsgrößen.
 
-Für spezielle Bedingungen können die Maxwellgleichungen auch in [Phasorschreibweise](Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) Angeschreieben werden.
+> [!hint]  Für spezielle Bedingungen können die Maxwellgleichungen auch in [Phasorschreibweise](Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) Angeschreieben werden.
 
 ## Differentielle und integrale Formulierung
 
@@ -71,13 +71,15 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Die Wirbel des Magnetfelds hängen von der Leitungsstromdichte $\mathbf{J}_{l}$ und von der elektrischen Flussdichte $\mathbf{D}$ ab. | Die magnetische Zirkulation über der Randkurve $\partial A$ einer Fläche $A$ ist gleich der Summe aus dem Leitungsstrom und der zeitlichen Änderung des elektrischen Flusses durch die Fläche. |
 
-> [!satz] **S1 - 1. Maxwell Gleichung)** Durchflutungssatz ^MW1
+> [!satz] **S1 - 1. Maxwell Gleichung)** Durchflutungssatz, Amperesches Gesetz ^MW1
 > $$
 > \operatorname{rot} \mathbf{H} = \nabla \times \mathbf{H}=\mathbf{J}_{l}+\underbrace{ \frac{\partial \mathbf{D}}{\partial t} }_{ \mathbf{J}_{v} }
 > \quad\underset{ \text{ Stokes } }{ \iff }\quad
 > \oint_{\partial A} \mathbf{H} \cdot \mathrm{d} \mathbf{s} =\int_A \mathbf{J}_{l} \cdot \mathrm{d} \mathbf{a}+\int_A \frac{\partial \mathbf{D}}{\partial t} \cdot \mathrm{d} \mathbf{a} \tag{MW1}
 > $$
 
+- $\mathbf{J}_{l}$ ... Leitungsstromdichte. Dominiert in Leitern $\sigma \gg$
+- $\mathbf{J}_{v}$ ... Verscheibungsstromdichte. Dominiert in Dielektrika $\epsilon \gg$
 
 > [!hint] **Aussage:** Ein Stromdurchflossener Leiter erzeugt um sich herum ein Magnetfeld
 

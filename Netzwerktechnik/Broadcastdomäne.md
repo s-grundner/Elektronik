@@ -1,8 +1,9 @@
 ---
-tags: ["Netzwerke"]
+tags:
+  - Netzwerke
 aliases: []
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+subject:
+  - ksn
 ---
 
 # Broadcast Domäne

@@ -4,7 +4,6 @@ tags:
 aliases: []
 subject:
   - chemie
-source: []
 created: 10th September 2022
 ---
 

@@ -7,7 +7,6 @@ aliases:
   - Java_OOP
 subject:
   - ""
-inst: 
 created: 29. November 2022
 ---
 

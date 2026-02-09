@@ -8,8 +8,6 @@ aliases:
   - "#DS"
 subject:
   - ""
-inst:
-  - HTBLuVA Salzburg
 created: 29. November 2022
 ---
 

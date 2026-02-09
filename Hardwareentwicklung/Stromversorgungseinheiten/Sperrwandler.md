@@ -5,8 +5,6 @@ aliases:
   - Flyback-Converter
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 2nd October 2022
 ---
 

@@ -10,7 +10,6 @@ subject:
 semester: WS24
 created: 12. Dezember 2024
 professor:
-topic: Hardwareentwicklung/Filter und Verstärker
 ---
  
 

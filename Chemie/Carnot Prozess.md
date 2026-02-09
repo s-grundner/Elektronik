@@ -3,8 +3,6 @@ aliases:
   - Ottomotor
 subject:
   - chemie
-source:
-  - Angela Lindner
 created: 10th September 2022
 ---
 

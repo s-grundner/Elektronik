@@ -6,7 +6,6 @@ aliases:
   - Kurvendiskussion
 subject:
   - mathe
-source: []
 created: 18th April 2022
 ---
 

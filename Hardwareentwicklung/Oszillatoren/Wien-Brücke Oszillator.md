@@ -1,8 +1,11 @@
 ---
-tags: ["Baugruppe/Oszillator"]
-aliases: ["Wien-Brücke", "Wien Brücke"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppe/Oszillator
+aliases:
+  - Wien-Brücke
+  - Wien Brücke
+subject:
+  - hwe
 created: 7th November 2022
 ---
 

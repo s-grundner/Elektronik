@@ -52,7 +52,7 @@ Das kann man an diesem Plot Ausprobieren. Hier ist die Rotation sogar konstant, 
 
 Konservative Vektorfelder sind wirbelfrei. Das bedeutet, dass das Vektorfeld in einem konservativen Vektorfeld keine Drehung aufweist bzw. einen verschwindenden Rotor haben. 
 
-> [!satz] Der Rotor eines Gradientenfeldes ist immer Null:
+> [!satz] Der Rotor eines Gradientenfeldes ist immer Null: ^S1
 >
 > $$\operatorname{rot}\operatorname{grad}f = 0 \iff \nabla \times \nabla f = 0$$
 > 

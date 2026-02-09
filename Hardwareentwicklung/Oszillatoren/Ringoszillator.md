@@ -1,8 +1,9 @@
 ---
-tags: ["Baugruppe/Oszillator"]
+tags:
+  - Baugruppe/Oszillator
 aliases: []
-subject: ["dic"]
-source: ["Siegbert Schremof"]
+subject:
+  - dic
 created: 24th January 2023
 ---
 

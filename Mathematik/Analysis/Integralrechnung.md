@@ -1,8 +1,12 @@
 ---
-tags: ["Analysis", incomplete]
-aliases: ["Integrieren", "Integral"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - Analysis
+  - incomplete
+aliases:
+  - Integrieren
+  - Integral
+subject:
+  - mathe
 created: 26th March 2022
 ---
 

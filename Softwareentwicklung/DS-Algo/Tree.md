@@ -5,8 +5,6 @@ aliases:
   - Baum
 subject:
   - fsst
-source:
-  - Anton Hofmann
 created: 26th April 2022
 ---
 

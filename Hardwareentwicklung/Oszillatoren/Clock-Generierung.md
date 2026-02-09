@@ -6,8 +6,6 @@ aliases:
   - Clock
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 17th October 2022
 ---
 

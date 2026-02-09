@@ -1,8 +1,11 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Layer 3", "Network Layer"]
-subject: ["ksn"]
-source: ["Martin Aichriedler", "Christian Baun"]
+tags:
+  - Netzwerke
+aliases:
+  - Layer 3
+  - Network Layer
+subject:
+  - ksn
 created: 4th April 2022
 ---
 

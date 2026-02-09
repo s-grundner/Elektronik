@@ -1,8 +1,9 @@
 ---
 tags: []
-aliases: ["Q-Faktor"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf", "Michael Offenhuber"]
+aliases:
+  - Q-Faktor
+subject:
+  - hwe
 created: 29th November 2022
 ---
 

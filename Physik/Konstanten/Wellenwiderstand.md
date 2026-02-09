@@ -21,6 +21,7 @@ professor:
   - Reinhard Feger
 release: true
 title: Freiraumwellenwiderstand
+science: Elektromagentismus
 ---
 
 # Freiraumwellenwiderstand

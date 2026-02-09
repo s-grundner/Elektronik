@@ -1,8 +1,15 @@
 ---
-tags: ["Matura"]
-aliases: ["Gasgesetz", "Gasgesetze", "Gas", "Gase", "Universelle Gasgleichung", "Gasgleichung"]
-subject: ["physik"]
-source: ["Angela Lindner"]
+tags:
+  - Matura
+aliases:
+  - Gasgesetz
+  - Gasgesetze
+  - Gas
+  - Gase
+  - Universelle Gasgleichung
+  - Gasgleichung
+subject:
+  - physik
 created: 18th August 2022
 ---
                                                                  

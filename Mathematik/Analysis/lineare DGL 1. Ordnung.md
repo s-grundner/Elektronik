@@ -1,8 +1,12 @@
 ---
-tags: ["DGL", incomplete]
-aliases: ["lineare Differentialgleichungen 1. Ordnung", "lineare Differentialgleichung 1. Ordnung"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - DGL
+  - incomplete
+aliases:
+  - lineare Differentialgleichungen 1. Ordnung
+  - lineare Differentialgleichung 1. Ordnung
+subject:
+  - mathe
 ---
 
 # Lineare Differentialgleichungen 1. Ordnung

@@ -1,8 +1,11 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["LAN", "lokales Netzwerk"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - LAN
+  - lokales Netzwerk
+subject:
+  - ksn
 ---
 
 # Local Area Network

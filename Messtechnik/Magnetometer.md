@@ -1,12 +1,10 @@
 ---
-tags: 
+tags:
 aliases:
   - Hall-Sensor
   - Hallsensor
 subject:
   - mtrs
-source:
-  - Norbert Irnleitner
 created: 31st March 2022
 ---
 

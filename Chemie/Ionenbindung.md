@@ -10,8 +10,6 @@ aliases:
   - Kationen
 subject:
   - chemie
-source:
-  - Fritz Struber
 created: 22nd August 2022
 ---
 

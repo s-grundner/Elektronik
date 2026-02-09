@@ -1,10 +1,8 @@
 ---
 tags:
   - Algorithmus/Suchen
-aliases: 
-subject: 
-source:
-  - ""
+aliases:
+subject:
 created: 17th April 2022
 complexity: $\mathcal{O}(n)$
 ---

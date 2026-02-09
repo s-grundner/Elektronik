@@ -6,8 +6,6 @@ aliases:
   - IP-Adressen
 subject:
   - ksn
-source:
-  - Martin Aichriedler
 ---
 
 # Internet Protokoll

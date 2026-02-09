@@ -1,8 +1,10 @@
 ---
-tags: ["RF"]
-aliases: ["Radio Frequency Identification"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - RF
+aliases:
+  - Radio Frequency Identification
+subject:
+  - ksn
 created: 1st December 2022
 ---
 

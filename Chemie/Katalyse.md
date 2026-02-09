@@ -9,8 +9,6 @@ aliases:
   - Enzyme
 subject:
   - chemie
-source:
-  - Fritz Struber
 created: 23rd August 2022
 ---
 

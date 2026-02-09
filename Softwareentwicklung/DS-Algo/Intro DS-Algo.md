@@ -1,8 +1,9 @@
 ---
-tags: ["Algorithmus"]
+tags:
+  - Algorithmus
 aliases: []
-subject: ["null"]
-source: ["null"]
+subject:
+  - "null"
 created: 18th April 2022
 ---
 

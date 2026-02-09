@@ -1,11 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Abkühlung
 subject:
   - physik
-source:
-  - Rudolf Frauenschuh
 created: 29th March 2022
 ---
 

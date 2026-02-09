@@ -9,8 +9,6 @@ aliases:
   - Netzwerktechnik
 subject:
   - ksn
-source:
-  - Martin Aichriedler
 ---
 
 # Netzwerke

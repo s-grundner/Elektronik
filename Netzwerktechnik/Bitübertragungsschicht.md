@@ -1,8 +1,11 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Physical Layer", "Layer 1"]
-subject: ["ksn"]
-source: ["Martin Aichriedler, Christian Baun"]
+tags:
+  - Netzwerke
+aliases:
+  - Physical Layer
+  - Layer 1
+subject:
+  - ksn
 ---
 
 # Bitübertragungsschicht (OSI-Layer 1)

@@ -4,8 +4,7 @@ tags:
   - Algorithmus/Suchen
 aliases:
   - Binäre Suche
-subject: 
-source: 
+subject:
 created: 18th April 2022
 complexity: $\mathcal{O}(\log(n))$
 ---

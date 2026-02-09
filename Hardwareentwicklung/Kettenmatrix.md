@@ -1,11 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Kettenmatrizen
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 14th November 2022
 ---
 

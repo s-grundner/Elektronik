@@ -1,8 +1,10 @@
 ---
-tags: ["Statistik"]
-aliases: ["Wahrscheinlichkeitsverteilungen"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - Statistik
+aliases:
+  - Wahrscheinlichkeitsverteilungen
+subject:
+  - mathe
 created: 30th November 2022
 ---
 

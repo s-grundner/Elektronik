@@ -1,10 +1,11 @@
 ---
 tags:
   - Konstante
-aliases: 
+aliases:
 symbol: $c_{0}$
-value: $299\,792\,458$
-unit: $\mathrm{\dfrac{m}{s}}$
+value: 299 792 458
+unit: m/s
+science: Allgemein
 ---
 
 # Lichtgeschwindigkeit im Vakuum

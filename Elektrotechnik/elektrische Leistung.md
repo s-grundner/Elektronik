@@ -1,15 +1,10 @@
 ---
-tags: 
+tags:
 aliases:
   - Blindleistungskompensation
   - Scheinleistung
 subject:
   - physik
-source:
-  - Michael Offenhuber
-  - Martin Aichriedler
-  - Siegbert Schrempf
-  - Angela Lindner
 created: 24th November 2022
 ---
 

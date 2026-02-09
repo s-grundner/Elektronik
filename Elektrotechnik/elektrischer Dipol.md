@@ -5,8 +5,6 @@ aliases:
   - "#Dipol"
 subject:
   - ksn
-source:
-  - Martin Aichriedler
 created: 1st December 2022
 ---
 

@@ -5,7 +5,6 @@ aliases:
   - Linked List
   - Verkettete Liste
 subject: []
-source: []
 created: 17th April 2022
 ---
 

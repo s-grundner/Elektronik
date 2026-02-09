@@ -6,8 +6,6 @@ aliases:
   - Netzteil
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 6th April 2022
 ---
 

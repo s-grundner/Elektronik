@@ -1,8 +1,11 @@
 ---
-tags: ["MCU", "Baugruppe/Oszillator"]
-aliases: ["DTO"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - MCU
+  - Baugruppe/Oszillator
+aliases:
+  - DTO
+subject:
+  - hwe
 created: 30th January 2023
 ---
 

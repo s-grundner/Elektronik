@@ -18,7 +18,7 @@ satz:
  
 # Wegunabhängigkeit
 
-Ein Gradientenfeld oder konservatives Feld ist ein [index](index.md), das aus einem Skalarfeld durch Differentiation nach dem Ort abgeleitet wurde. Dieses Vektorfeld hat die Eigenschaft, dass sein Kurvenintegral wegunabhängig ist.
+Ein Gradientenfeld oder konservatives Feld ist ein [Vektorfeld](index.md), das aus einem Skalarfeld durch Differentiation nach dem Ort abgeleitet wurde. Dieses Vektorfeld hat die Eigenschaft, dass sein Kurvenintegral wegunabhängig ist.
 
 ## Gradientensatz
 

@@ -1,8 +1,12 @@
 ---
-tags: ["Statistik"]
-aliases: ["geordnete Stichprobe", "geordnete Stichproben", "Variationen"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - Statistik
+aliases:
+  - geordnete Stichprobe
+  - geordnete Stichproben
+  - Variationen
+subject:
+  - mathe
 created: 4th January 2023
 ---
 

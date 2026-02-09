@@ -1,8 +1,10 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Variable Length Subnet Mask"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - Variable Length Subnet Mask
+subject:
+  - ksn
 created: 8th April 2022
 ---
 

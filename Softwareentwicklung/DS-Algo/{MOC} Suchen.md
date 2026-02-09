@@ -7,8 +7,7 @@ aliases:
   - "#Algorithmus/Suchen"
   - Such-Algorithmus
   - Such-Algorithmen
-subject: 
-inst: HTBLuVA Salzburg
+subject:
 created: 29. November 2022
 complexity: "see: sublist"
 ---

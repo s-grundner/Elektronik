@@ -11,8 +11,6 @@ aliases:
   - junction field-effect transistors
 subject:
   - hwe
-source:
-  - Michael Offenhuber
 created: 25th March 2022
 ---
 

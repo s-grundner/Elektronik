@@ -8,7 +8,7 @@ subject:
 semester: WS25
 created: 16th January 2026
 professor:
-  - Feger
+  - Reinhard Feger
 release: true
 title: Verlustwinkel
 ---
@@ -31,7 +31,7 @@ Der Verlustwinkel ist ein Maß zur Güte von [reaktiven](Impedanz.md) Bauelement
 Verluste in einem [dielektrischen Medium](Dielektrikum.md) können zwei Ursachen haben:
 
 - *Intrinsischer Leitwert* $\sigma$: Ein Dielektrikum soll idealerweise nichtleitend sein. Kann sich jedoch ein gewisser Teil der polarisierenden Ladungen frei bewegen, weist das Material eine gewisse Leitfähigkeit auf. Dadurch baut sich die Feldstärke im Material zu einem Teil ab.
-- *Dämpfung des Dipolmomentes*: In einem Material, das in ein Wechselndes E-Feld eingebracht ist, schwingen die Dipole mit. Die Dipole weisen eine gewisse Ladungsträgheit auf. Ist diese im Verhältnis zur frequenz des Feldes sehr hoch, können die Dipole nicht richtig mit schwingen. Die Schwingung ist gedämpft, wodurch die Feldstärke im Material geschwächt wird.
+- *Dämpfung des Dipolmomentes*: In einem Material, das in ein Wechselndes E-Feld eingebracht ist, schwingen die Dipole mit. Die Dipole weisen eine gewisse Ladungsträgheit auf. Ist diese im Verhältnis zur Frequenz des Feldes sehr hoch, **eilen** die Ladungen dem externen Feld **nach**. Die Schwingung ist gedämpft, wodurch die Feldstärke im Material geschwächt wird.
 
 Diese beiden ursachen können Makroskopisch nicht unterschieden werden. Da die dielektrische Dämpfung und der intrinsische Leitwert nicht unterschieden werden kann, definiert man einzig und allein $\epsilon''$ *oder* $\sigma$ als verlustwirkende Eigenschaft (nur bei konstanter Frequenz).
 
@@ -43,6 +43,12 @@ Diese beiden ursachen können Makroskopisch nicht unterschieden werden. Da die d
 
 Der Verlustwinkel ist ein Wert zur beschreibung der [Güte](../Hardwareentwicklung/Filter-Verstärker/Güte.md). Dieser muss immer zusammen mit einer Frequenz gegeben sein.
 
+Mit dem Verlustwinkel lässt sich die permittivität $\epsilon_{r} \in \mathbb{C}$  als Komplexwertiges Skalar definieren, um die Verluste in dielektrika zu modellieren:
+
+$$
+\epsilon =\epsilon_{0}\epsilon_{r}(1-j\tan\delta)
+$$
+
 ### Herleitung
 
 Aus
@@ -50,6 +56,8 @@ Aus
 - dem [Durchflutungssatz (MW1)](Maxwell.md#1.%20MWG%20-%20Durchflutungssatz) in [Phasorschreibweise](Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen),
 - der [komplexen Permittivität](Dielektrikum.md#Elektrodynamik%20-%20Allgemein)
 - und dem Materialgesetz [M2](Materialgesetze.md#^MATG) und [M3](Materialgesetze.md#^MATG)
+
+In den Durchflutungssatz ist nun das
 
 erhält man
 

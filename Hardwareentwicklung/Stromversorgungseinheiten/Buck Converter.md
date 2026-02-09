@@ -1,8 +1,12 @@
 ---
-tags: ["Baugruppe/Versorgung/SMPS"]
-aliases: ["Abwärtswandler", "Tiefsetzsteller", "Step-Down"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - Baugruppe/Versorgung/SMPS
+aliases:
+  - Abwärtswandler
+  - Tiefsetzsteller
+  - Step-Down
+subject:
+  - hwe
 created: 20th April 2022
 ---
 

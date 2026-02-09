@@ -1,8 +1,12 @@
 ---
-tags: ["Statistik"]
-aliases: ["Zufallsvariablen", "Zufallsgröße", "Zufallsgrößen"]
-subject: ["mathe"]
-source: ["Rudolf Frauenschuh"]
+tags:
+  - Statistik
+aliases:
+  - Zufallsvariablen
+  - Zufallsgröße
+  - Zufallsgrößen
+subject:
+  - mathe
 created: 30th November 2022
 ---
 

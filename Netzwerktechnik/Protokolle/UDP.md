@@ -1,8 +1,10 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["User Data Protocol"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - User Data Protocol
+subject:
+  - ksn
 created: 6th May 2022
 ---
 

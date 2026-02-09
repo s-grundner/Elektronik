@@ -1,8 +1,12 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Data Link Layer", "Layer 2", "Netzzgangsschicht"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - Data Link Layer
+  - Layer 2
+  - Netzzgangsschicht
+subject:
+  - ksn
 created: 4th April 2022
 ---
 

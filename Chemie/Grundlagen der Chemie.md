@@ -1,11 +1,9 @@
 ---
 tags:
   - Chemie/Anorganisch
-aliases: 
+aliases:
 subject:
   - chemie
-source:
-  - Fritz Struber
 created: 19th August 2022
 ---
 

@@ -4,8 +4,6 @@ aliases:
   - Wärmelehre
 subject:
   - physik
-source:
-  - Angela Lindner
 created: 16th August 2022
 ---
 

@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["mtrs"]
-source: ["Norbert Irnleitner"]
+subject:
+  - mtrs
 created: 7th June 2022
 ---
 

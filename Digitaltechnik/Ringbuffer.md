@@ -8,8 +8,6 @@ aliases:
 subject:
   - dic
   - fsst
-source:
-  - Robert Vogl
 created: 19th April 2022
 ---
 

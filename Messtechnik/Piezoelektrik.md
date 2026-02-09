@@ -1,8 +1,12 @@
 ---
 tags: []
-aliases: ["Piezogeber", "Piezo", "Piezoelektrisch", "Piezoeffekt"]
-subject: ["mtrs"]
-source: ["Norbert Irnleitner"]
+aliases:
+  - Piezogeber
+  - Piezo
+  - Piezoelektrisch
+  - Piezoeffekt
+subject:
+  - mtrs
 created: 7th June 2022
 ---
 

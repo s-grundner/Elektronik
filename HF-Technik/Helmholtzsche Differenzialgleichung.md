@@ -114,8 +114,8 @@ Wobei die reellen konstanten $E^{+}$ und $E^{-}$ durch Rand- oder Anfangswerte e
 > 
 > $$
 > \begin{align}
-> \nabla^{2}\mathbf{E} - \gamma^{2}\mathbf{E} = 0 \\
-> \nabla^{2}\mathbf{H} - \gamma^{2}\mathbf{H} = 0
+> \nabla^{2}\mathbf{\underline{ E }} - \gamma^{2}\mathbf{\underline{ E }} = 0 \\
+> \nabla^{2}\mathbf{\underline{ H }} - \gamma^{2}\mathbf{\underline{ H }} = 0
 > \end{align}
 > $$
 >
@@ -127,18 +127,22 @@ Wobei die reellen konstanten $E^{+}$ und $E^{-}$ durch Rand- oder Anfangswerte e
 > [!warning] Damit die Vereinfachung gilt, muss dass Material des Wellenleiters **linear**, **isotrop** und **homogen** sein. 
 > - $\mu$ und $\varepsilon$ sind konstante skalare und komplex Werte.
 
-Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustbehafteten* [dielektrischen](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma \neq 0; \rho=0; \epsilon,\mu\in \mathbb{C}$) und erhält folgende gekoppelte partielle DGLen:
+Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustbehafteten* [dielektrischen](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma \neq 0; \rho=0; \epsilon,\mu\in \mathbb{C}$). Berücksichtig man nun die Leitungsstromdichte $\mathbf{\underline{ J }}_{l} = \sigma\mathbf{\underline{ E }}$, erhält folgende gekoppelte partielle DGLen:
 
-- [M1](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW1](../Elektrotechnik/Maxwell.md#^MW1): $\nabla\times\mathbf{E} = -j\omega\mu\mathbf{H}$
-- [M2](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW2](../Elektrotechnik/Maxwell.md#^MW2): $\nabla\times\mathbf{H} = j\omega\epsilon\mathbf{E} + \sigma\mathbf{E}$
+- [M1](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW2](../Elektrotechnik/Maxwell.md#^MW2): $\nabla\times\mathbf{\underline{ E }} = -j\omega\mu\mathbf{\underline{ H }}$
+- [M2, M3](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW1](../Elektrotechnik/Maxwell.md#^MW1): $\nabla\times\mathbf{\underline{ H }} = j\omega\epsilon\mathbf{\underline{ E }} + \sigma\mathbf{\underline{ E }}$
 
-Wie in der [Herleitung für Verlustlose Medien](#Herleitung%20der%20Wellengleichungen), entkoppelt man die DGL durch andwendung des Rotors. Man berücksichtigt nun $\sigma$. Die Wellengleichung lautet dann
+Wie in der [Herleitung für Verlustlose Medien](#Herleitung%20der%20Wellengleichungen), entkoppelt man die DGL durch andwendung des Rotors.  Die Wellengleichung lautet dann
 
 $$
 \nabla^{2}\mathbf{E} + \omega^{2}\mu\epsilon\left( 1-j \frac{\sigma}{\omega\epsilon} \right)\mathbf{E} = 0 \quad \text{bzw.} \quad \nabla^{2}\mathbf{E} - \gamma^{2}\mathbf{E} = 0
 $$
 
-Mit der Fortpflanzungskonstante $\gamma \in \mathbb{C}$. Durch die selbe Betrachtung für das Magentfeld erhält man dual:
+
+- Mit der [Fortpflanzungskonstante](../Physik/Feldtheorie/Wellenzahl.md#Verllustbehaftete%20Medien) $\gamma \in \mathbb{C}$. 
+- Der Term $\frac{\sigma}{\omega\epsilon}=\tan\delta$ wird auch als [Verlustwinkel](../Elektrotechnik/Verlustwinkel.md) bezeichnet.
+
+Durch die selbe Betrachtung für das Magentfeld erhält man dual:
 
 $$
 \nabla^{2}\mathbf{H} - \gamma^{2}\mathbf{H} = 0

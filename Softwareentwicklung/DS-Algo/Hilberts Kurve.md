@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["fsst"]
-source: [""]
+subject:
+  - fsst
 created: 3rd April 2022
 ---
 

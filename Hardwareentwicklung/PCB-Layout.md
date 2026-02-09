@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Leiterplatte
   - PCB
@@ -7,9 +7,6 @@ aliases:
   - PCB-Design
   - DFM
   - Design for Manufacturability
-source:
-  - Rick Hartley
-  - Mike Creeden
 created: 19th August 2023
 ---
 

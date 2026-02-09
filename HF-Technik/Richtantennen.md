@@ -1,8 +1,11 @@
 ---
 tags: []
-aliases: ["Phase Arrays", "Phase Array", "Array Faktor"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+aliases:
+  - Phase Arrays
+  - Phase Array
+  - Array Faktor
+subject:
+  - ksn
 created: 1st December 2022
 ---
 

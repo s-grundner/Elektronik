@@ -1,8 +1,11 @@
 ---
-tags: ["Netzwerke"]
-aliases: ["Transport Layer", "Layer 4"]
-subject: ["ksn"]
-source: ["Martin Aichriedler"]
+tags:
+  - Netzwerke
+aliases:
+  - Transport Layer
+  - Layer 4
+subject:
+  - ksn
 created: 6th April 2022
 ---
 

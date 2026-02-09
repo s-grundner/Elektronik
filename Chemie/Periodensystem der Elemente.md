@@ -7,8 +7,6 @@ aliases:
   - Periodensystem
 subject:
   - chemie
-source:
-  - Fritz Struber
 created: 20th August 2022
 ---
 

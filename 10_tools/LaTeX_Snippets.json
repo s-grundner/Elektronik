@@ -10,12 +10,6 @@
     },
     { trigger: "\\mid\\mid([A-Za-z])([A-Za-z])", replacement: "\\frac{ \\partial [[0]] }{ \\partial [[1]] } ", options: "rm"
     },
-    {trigger: "partt", replacement: "\\frac{\\partial $0}{\\partial t}$1", options: "mA"
-    },
-    {trigger: "partx", replacement: "\\frac{\\partial $0}{\\partial x}$1", options: "mA"
-    },
-    {trigger: "ppart", replacement: "\\frac{\\partial $0}{\\partial $1}$2", options: "mA"
-    },
     {trigger: "ddt", replacement: "\\frac{\\mathrm{d}$0}{\\mathrm{d}t}$1", options: "mA"
     },
     {trigger: "ddx", replacement: "\\frac{\\mathrm{d}$0}{\\mathrm{d}x}$1", options: "mA"
@@ -582,5 +576,8 @@
     },
     // Misc
     {trigger: "tayl", replacement: "${0:f}(${1:x} + ${2:h}) = ${0:f}(${1:x}) + ${0:f}'(${1:x})${2:h} + ${0:f}''(${1:x}) \\frac{${2:h}^{2}}{2!} + \\dots$3", options: "mA"
+    },
+    
+    {trigger: "grad([A-Za-z])([A-Za-z])([A-Za-z])", replacement: "\\left( \\frac{\\partial}{\partial [[0]]} + \\frac{\\partial}{\\partial [[1]]} + \\frac{\\partial}{\\partial [[2]]}\\right)", options: "mA" 
     },
 ]

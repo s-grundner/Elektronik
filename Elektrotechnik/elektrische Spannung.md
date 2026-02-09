@@ -20,6 +20,12 @@ professor:
 
 # Elektrische Spannung
 
+> [!def] **D)** Elektrische Spannung / Potenzialdifferenz ^DEF
+>
+> $$
+> U_{12} = \varphi_{1} - \varphi_{2} = \int_{1}^{2}\mathbf{E}\cdot\mathrm{d}\mathbf{s}
+> $$
+
 > [!info] Die elektrische Spannung ist die Differenz des Potentials zweier [Ladungen](elektrisches%20Feld.md) in einem [Elektrischen Feld](elektrisches%20Feld.md).
 > Potential: Wir erinnern uns an die [potentielle Energie](../Physik/Kinematik/Energieerhaltung.md).
 > [Arbeit](../Physik/Kinematik/Mechanische%20Arbeit.md): $dW = \vec{F}\cdot d\vec{s}$

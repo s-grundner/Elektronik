@@ -5,8 +5,6 @@ aliases:
   - Single transistor forward converter
 subject:
   - hwe
-source:
-  - Siegbert Schrempf
 created: 13th October 2022
 ---
 

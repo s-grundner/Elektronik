@@ -20,9 +20,10 @@ professor:
   - Reinhard Feger
 symbol: $\epsilon_{0}$
 value: $8.8541878128(13) \cdot 10^{-12}$
-unit: $\mathrm{\dfrac{As}{Vm}}$
+unit: (As)/(Vm)
 release: true
 title: Dielektrikum
+science: Elektromagentismus
 ---
  
 # Permittivität des Vakuums
@@ -107,7 +108,7 @@ wobei
 > [!satz] **S)** komplexe Permittivität ^CPLX-PERM
 >
 > $$
-> \epsilon = \epsilon'-j\epsilon'' = \epsilon_{0}(1+\chi_{e}) \in \mathbb{C}
+> \epsilon = \epsilon'-j\epsilon'' = \epsilon_{0}(1+\chi_{e}) = \epsilon_{0}\epsilon_{r}(1-j\tan\delta) \in \mathbb{C}
 > $$
 
 die komplexe permittivität des Mediums ist. Der Imaginärteil von $\epsilon$ beschreibt [Verluste](Verlustwinkel.md#Dielektrische%20Materialien) im Medium (wärme), die durch die dämpfung der schwingenden Dipolmomente (vergleiche mit [Federschwinger](../Physik/Kinematik/Feder-Schwinger.md)) und möglicher Leitfähigkeit im eigentlich isolierenden Material verursacht werden.

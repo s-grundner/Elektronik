@@ -1,8 +1,8 @@
 ---
 tags: []
 aliases: []
-subject: ["physik"]
-source: ["Fritz Struber", "Angela Lindner"]
+subject:
+  - physik
 created: 7th September 2022
 ---
 

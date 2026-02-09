@@ -1,8 +1,14 @@
 ---
-tags: ["MCU", "Baugruppe/Oszillator"]
-aliases: ["Schwingquartz", "XTAL", "Crystaloscillator", "Quartz"]
-subject: ["hwe"]
-source: ["Siegbert Schrempf"]
+tags:
+  - MCU
+  - Baugruppe/Oszillator
+aliases:
+  - Schwingquartz
+  - XTAL
+  - Crystaloscillator
+  - Quartz
+subject:
+  - hwe
 created: 17th January 2023
 ---
 

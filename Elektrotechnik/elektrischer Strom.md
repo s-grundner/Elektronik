@@ -20,9 +20,11 @@ professor:
 
 # Elektrischer Strom
 
-![InlineR](../_assets/elekStrom.png)
+
 
 Die Stromstärke $I$ gibt an, wie viel [Ladung](elektrisches%20Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen [bestimmten Querschnitt](Stromdichte.md) (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](../HF-Technik/Skineffekt.md)) fließt.
+
+![invert_light](../_assets/elekStrom.png)
 
 Da die Stromstärke natürlich auch *zeitlich variieren* kann, definiert man (wie üblich) diese Änderungsrate [differenziell](../Mathematik/Analysis/Differenzialrechnung.md):
 
@@ -33,6 +35,20 @@ $$
 > [!success] Die Einheit des Stromflusses ist das *Ampere* ($A$);
 > es entspricht einer [Ladung](elektrisches%20Feld.md) von einem [Coulomb](Coulomb-Kraft.md) ($C$) pro Sekunde ($s$).
 > (Daher ist auch $1C=1As$)
+
+## Amperesches Gesetz
+
+Die Erste Maxwell Gleichung Lautet
+
+![](Maxwell.md#^MW1)
+
+Für Elektrische Leiter ist ist die Integral-Form des Ampereschen Gesetz
+
+$$
+I = \oint_{\partial A} \mathbf{H}\cdot\mathrm{d}\mathbf{s}
+$$
+
+Wobei $\partial A$ die Kontur der geschlossenen Leiterfläche $A$ ist.
 
 ---
 

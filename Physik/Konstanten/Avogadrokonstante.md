@@ -4,9 +4,10 @@ tags:
   - Chemie
 aliases:
   - Avogadro
-symbol: $N_{\mathrm{A}}$
-value: $6.02214076\cdot 10^{23}$
-unit: $\mathrm{\dfrac{1}{mol}}$
+symbol: N_A
+value: "6.02214076e23"
+unit: 1/mol
+science: Chemie
 ---
 
 # Avogadro Konstante

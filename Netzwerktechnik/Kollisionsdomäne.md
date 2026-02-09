@@ -1,8 +1,9 @@
 ---
-tags: ["Netzwerke"]
+tags:
+  - Netzwerke
 aliases: []
-subject: ["ksn"]
-source: ["Christian Baun", "Martin Aichriedler"]
+subject:
+  - ksn
 ---
 
 # Kollisionsdomäne

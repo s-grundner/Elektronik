@@ -1,8 +1,10 @@
 ---
 tags: []
-aliases: ["Funk", "Radio"]
-subject: ["ksn, physik"]
-source: ["Martin Aichriedler"]
+aliases:
+  - Funk
+  - Radio
+subject:
+  - ksn, physik
 created: 21st June 2022
 ---
 
