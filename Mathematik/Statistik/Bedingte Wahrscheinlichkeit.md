@@ -53,7 +53,7 @@ gilt, dass sich also die **bedingte Wahrscheinlichkeit** $\mathbb{P'}(A')$ eines
 > 
 > die **bedingte Wahrscheinlichkeit** von $A$ unter $\Omega'$.
 
-![](_assets/Pasted%20image%2020260210215710.png)
+![](../../_assets/bedingteEreignisse.png)
 
 ## Rechnen mit Bedingten Wahrscheinlichkeiten
 
@@ -93,7 +93,7 @@ Veranschaulichung:
 - Die Wahrscheinlichkeit des Weges vom Punkt $X$ über $B_{i}$ nach $Y$ ist gleich dem Produkt der Wahrscheinlichkeiten $\mathbb{P}(B_{i})$ und $\mathbb{P}(A|B_{i})$
 - Die Wahrscheinlichkeit des Weges vom Punkt $X$ nach $Y$ ist gleich der Summe der Wahrscheinlichkeiten aller möglichen Wege
 
-![invert_dark](_assets/Pasted%20image%2020260210224427.png)
+![invert_dark](../../_assets/BedingteWslkGraph.png)
 
 ### Satz von Bayes
 
