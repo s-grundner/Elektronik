@@ -31,19 +31,23 @@ title: HF-Modell einer Parallelplattenleitung
 > - $h$ ist vernachlässigbar dünn. 
 > - Verhältnis $\frac{w}{d}$ ist *groß*, sodass die Feldlinien innerhalb des Leiters als parallel angenommen werden. 
 
-Mit diesen Annahmen kann der Parallelplattenleiter als [TE-Mode](Leitergeometrie.md) betrachtet werden.
+Mit diesen Annahmen kann der Parallelplattenleiter als [TEM-Mode](TEM-Welle.md) betrachtet werden.
 
 ## Annahmen zum Feldverlauf
 
 Vorraussetzung für TEM-Moden:
 
-![600](../_assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.md)
+![invert_dark|600](../_assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.svg)
+
+%% [Edit in Excalidraw](../_assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.md) %%
 
 > [!info] E-Feld
-> - E-Feld hat keine komponente die in $z$-Richtung zeigt
-> - wir nehmen an dass die E-Feld Komponente in $x$-Richtung 0 ist
+> - E-Feld hat keine komponente die in $z$-Richtung zeigt (da TEM)
+> - wir nehmen an dass die E-Feld Komponente in $x$-Richtung 0 ist (da $$)
 > 
-> $$\mathbf{E} = \begin{bmatrix} 0 \\ E_{y}(x,y,z,t) \\ 0 \end{bmatrix} = E_{y}(x,y,z,t)\cdot \mathbf{e}_{y}\quad \text{für} \quad 0 < y < d$$
+> $$
+> \mathbf{E} = \begin{bmatrix} 0 \\ E_{y}(x,y,z,t) \\ 0 \end{bmatrix} = E_{y}(x,y,z,t)\cdot \mathbf{e}_{y}\quad \text{für} \quad 0 < y < d
+> $$
 > 
 
 
@@ -51,7 +55,9 @@ Vorraussetzung für TEM-Moden:
  > - H-Feld hat auch keine komponente in $z$-Richtung
  > - wir nehmen an dass das H-Feld nur in $x$-Richtung zeigt (gegensatz zum E-Feld)
  >
- > $$\mathbf{H}=\begin{bmatrix} H_{x}(x,y,z,t) \\ 0 \\ 0\end{bmatrix} = H_{x}(x,y,z,t)\cdot \mathbf{e}_{x} \quad \text{für} \quad 0<y<d$$
+ > $$
+ > \mathbf{H}=\begin{bmatrix} H_{x}(x,y,z,t) \\ 0 \\ 0\end{bmatrix} = H_{x}(x,y,z,t)\cdot \mathbf{e}_{x} \quad \text{für} \quad 0<y<d
+ > $$
  
 Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösungen)
 
@@ -160,9 +166,11 @@ $$\oint_{C_{2}} \mathbf{H}\cdot\mathrm{d}\mathbf{l} = \iint_{S_{2}}\mathbf{J}\cd
 
 (wegen der TEM ist die Verschiebungsstromdichte 0)
 
-| Stromdichte $\mathbf{J}$ Entlang des Leiters                  | Kontur $C_{2}$ Umkreist eine der Platten                                    |
-| ------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| ![invert_dark\|500](../_assets/TEM-Plattenleitung.png) | ![600](../_assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) |
+| Stromdichte $\mathbf{J}$ Entlang des Leiters           | Kontur $C_{2}$ Umkreist eine der Platten                                                 |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| ![invert_dark\|500](../_assets/TEM-Plattenleitung.png) | ![invert_dark](../_assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.svg) |
+
+%% [Edit in Excalidraw](../_assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) %%
 
 - $h$ ist vernachlässigbar klein.
 - $\mathbf{H}$ existiert nur in $x$-Richtung zwischen den Platten und ist in $y$ **konstant**
@@ -194,3 +202,7 @@ Somit erhalten wir die [Telegrafengleichung](../Elektrotechnik/Telegrafengleichu
 - Induktivitätsbelag $L' = \frac{\mu d}{w}$
 
 Für Andere [TEM-Leitergeometrien](Leitergeometrie.md) sind diese Beläge anders, aber die Form der Gleichung bleibt gleich.
+
+## TEM- TE- und TM-Modellbildung
+
+#incomplete 

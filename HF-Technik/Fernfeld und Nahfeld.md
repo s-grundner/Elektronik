@@ -46,7 +46,7 @@ Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und de
 
 - keine Energieabstrahlung. Das Feld verschindet sofort, wenn die Quelle abgeschalten wird.
 - Blindleistungsaustausch zwischen Antenne und Umgebung dominiert.
-- $E$ und $H$ sind gegeneinander phasenverschoben und stehen nicht senkrecht aufeinander. Nicht [Transversal](Transversale%20Elektromagnetische%20Welle.md)
+- $E$ und $H$ sind gegeneinander phasenverschoben und stehen nicht senkrecht aufeinander. Nicht [Transversal](TEM-Welle.md)
 - Kein reeller Feldwellenwiderstand
 
 > [!warning] aus dem $\mathbf{E}$-feld kann man nicht auf das $\mathbf{H}$-Feld Schließen und umgekehrt.
@@ -82,7 +82,7 @@ Die Radiansphäre ist die Grenze, an der die Blind und Wirkleistung gleich groß
 Im Fernfeld sind sämtliche **partikuläre Lösungen** der Raumwelle, also alle anregungen der Quelle abgeklungen. Die Welle breitet sich von selbst aus.
 
 
-- Feldvektoren E und H stehen senkrecht aufeinander und sind in Phase ([TEM-Welle](HF-Technik/Transversale%20Elektromagnetische%20Welle.md))
+- Feldvektoren E und H stehen senkrecht aufeinander und sind in Phase ([TEM-Welle](TEM-Welle.md))
 - Das richtungsfeld der Leistungsdichte ist homogen $\iff$ die [Poynting Vektoren](HF-Technik/Poynting%20Vektor.md) sind Parallel
 - der Feldwellenwiderstand ist reell
 - Es findet reiner Wirkleistungstransport statt

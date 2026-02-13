@@ -1,5 +1,6 @@
 ---
-tags: Informationstheorie
+tags:
+  - Informationstheorie
 aliases:
 keywords: $C$
 subject:

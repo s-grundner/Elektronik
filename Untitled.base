@@ -1,0 +1,30 @@
+filters:
+  and:
+    - file.ext == "md"
+    - '!file.path.containsAny("_assets", "xEDU", "xPN", "xORG")'
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - title
+      - keywords
+      - file.tags
+    sort:
+      - property: title
+        direction: ASC
+      - property: file.name
+        direction: DESC
+      - property: keywords
+        direction: ASC
+      - property: file.tags
+        direction: DESC
+    columnSize:
+      file.name: 267
+  - type: table
+    name: Stelzer
+    order:
+      - professor
+    sort:
+      - property: professor
+        direction: ASC

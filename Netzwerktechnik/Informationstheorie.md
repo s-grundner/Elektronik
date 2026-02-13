@@ -1,5 +1,6 @@
 ---
-tags: MOC
+tags:
+  - MOC
   - Informationstheorie
 aliases:
 keywords:

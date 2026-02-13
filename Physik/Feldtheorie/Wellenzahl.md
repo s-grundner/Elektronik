@@ -53,7 +53,7 @@ Man sieht sofort, dass ein verlustloses Material mit $\tan\delta=0$ dazu führt,
 - $\tan\delta$ der [Verlustwinkel](../../Elektrotechnik/Verlustwinkel.md)
 
 > [!warning]-  Im Allgemeinen Fall gilt nicht $\beta = k$
-> siehe [Transversale Elektromagnetische Welle](../../HF-Technik/Transversale%20Elektromagnetische%20Welle.md)
+> siehe [TEM-Welle](../../HF-Technik/TEM-Welle.md)
 
 > [!info] Zusammenfassung der Fortpflanzungskonstante $\gamma$ in unterschiedlichen Medien
 > 
@@ -100,7 +100,7 @@ Die Grenzwellenzahl ist der Grenzwert, bei dem sich eine Welle (z.B in einem Wel
 > [!def] **D)** Grenzwellenzahl (*Cutoff Wavenumber*) $k_{c}$
 > 
 > $$
-> k_{c}^{2} = k^{2}-\beta^{2}
+> k_{c}^{2} = k^{2}-\beta^{2} \iff \beta = \sqrt{ k^{2}-k_{c}^{2} }
 > $$
 
 In Wellenleitern:
@@ -112,3 +112,11 @@ Es lassen sich **Grenzwellenlänge** und **Grenzfrequenz** ermmitteln mit:
 $$
 \lambda_{c} = \frac{2\pi}{k_{c}} \qquad f_{c} = \frac{k_{c}}{2\pi\sqrt{ \epsilon\mu }}
 $$
+
+Man kann erkennen, dass wenn in der Wurzel $k^{2}<k_{c}^{2}$ ist, $\beta$ komplex wird:
+
+$$
+k<k_{c} \implies \beta \in \mathbb{C}
+$$
+
+Für ein Komplexes $\beta$ hat der Term $-j\beta z$ einen Realteil und $e^{ -j\beta z }$ weist eine Dämpfung auf. Durch diese Dämpfung klingen die Felder schnell ab. Ab einer gewissen unteren Frequenz wird die Welle direkt beim eintreffen in den Leiter ab $z>0$ gedämpft und sie wird zu einer Evaneszenten Welle.

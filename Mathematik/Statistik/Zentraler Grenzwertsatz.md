@@ -1,3 +1,6 @@
+---
+title: Zentaler Grenzwertsatz
+---
 # Zentraler Grenzwertsatz
 
 Der Zentrale grenzwertsatz besagt, dass wenn mehrere Rauschquellen mit unterschiedlichen Verteilungsfunktionen d.h. unterschiedlichen statistischen Eigenschaften, kann man das in Summe durch eine Gauss-Verteilung Annähern

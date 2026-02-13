@@ -37,7 +37,7 @@ Eine TL wird mit seriellen Induktivitäts-Belägen und parallelen Kapazitäts-Be
 
 > [!important] Dieses Modell wird Mathematisch mit der [Telegrafenleitungsgleichung](Telegrafenleitungsgleichung.md) beschreieben.
 > 
-> Diese Gleichung gilt für alle [Leitergeometrien](Leitergeometrie.md), welche die [TEM-Mode](Transversale%20Elektromagnetische%20Welle.md) erfüllen. Je nach Geometrie ändert sich nur die Art, wie die Leitungsbeläge, $L'$ und $C'$ berechnet werden. Die Gleichung hat jedoch immer die selbe form. 
+> Diese Gleichung gilt für alle [Leitergeometrien](Leitergeometrie.md), welche die [TEM-Mode](TEM-Welle.md) erfüllen. Je nach Geometrie ändert sich nur die Art, wie die Leitungsbeläge, $L'$ und $C'$ berechnet werden. Die Gleichung hat jedoch immer die selbe form. 
 > Für TEM ist die Telegrafengleichung außerdem *unabhängig* von der Wellenlänge.
 
 ## Leitungskenngrößen

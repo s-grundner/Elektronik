@@ -5,7 +5,7 @@ aliases:
   - BIBO
   - Stabilität von Systemen
   - Beschränktheit von Systemen
-keywords: 
+keywords:
 subject:
   - VL
   - Regelungstechnik
@@ -13,7 +13,8 @@ subject:
   - Signale und Systeme
 semester: SS25
 created: 8th April 2025
-professor: Andreas Stelzer
+professor:
+  - Andreas Stelzer 🕊️
 release: false
 title: Stabilität und Beschränktheit
 ---

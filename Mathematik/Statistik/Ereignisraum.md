@@ -14,18 +14,39 @@ title: Ereignisraum
 
 # Ereignisraum $\Omega$
 
+
+> [!def] **D)** Ereignisraum $\Omega$ ^DEF
+> 
+> 1. Die Menge $\Omega$ nennt man den **Ereignisraum** des Zufallsexperiments.
+> 2. Teilmengen $A,B,\dots$ von $\Omega$ nennt man **Ereignisse**.
+> 3. Ein-Elementige Teilmengen $\{\omega\}$ von $\Omega$ nennt man **Elementarereignisse**.
+> 4. Man sagt *"das Ereignis $A$ tritt ein"*, wenn ein Ausgang $\omega$ aus der Menge $A$ realisiert wird.
+
 - [Menge](../Algebra/Mengenlehre.md) aller möglichen [Ereignisse](Ereignis.md) (Ausgänge) $\Omega$
 - Anzahl aller möglichen [Ereignisse](Ereignis.md) $|\Omega|$ (Mächtigkeit)
 
->[!EXAMPLE] 1 Würfel  
-> $\Omega = \{\text{"1"; "2"; "3"; "4"; "5"; "6"}\}$  
+>[!example] 1 Würfel  
+> $\Omega = \{1,2,3,4,5,6\}$  
 > $|\Omega|= 6$
 
->[!EXAMPLE] 2 Würfel  
-> $\Omega=\{2;\dots;12\}\qquad$ Augensumme  
-> $\Omega=\{(1,1);(1,2);\dots;(6,6)\}\qquad$ Würfelkombination ohne Reihenfolge  
-> $\Omega=\{(1,1);(1,2);(2,1);\dots(6,6)\}\qquad$ Würfelkombination mit Reihenfolge
+>[!example] 2 Würfel  
+>
+> Hier beiten sich unterschiedliche Ereignisräume an, die sich je nach Art des Zufallsexperiment wählen lassen.
 > 
+> - $\Omega=\{2,\dots,12\}$ ... Augensumme  
+> - $\Omega=\{(1,1),(1,2),\dots,(6,6)\}$ ... Würfelkombination ohne Reihenfolge  
+> - $\Omega=\{(1,1),(1,2),(2,1),\dots(6,6)\}$ ... Würfelkombination mit Reihenfolge
+
+> [!example] Das Zufallsexperiment besteht im $n$-maligen Werfen einer Münze.
+>
+> 1. Man gebe einen passenden Ereignisraum $\Omega$ für dieses Zufallsexperiment an.
+> 2. Man beschreibe das Ereignis *"es wird maximal $m$ mal Kopf geworfen"* als Teilmenge von $\Omega$.
+> 
+> > [!success]- 
+> > 1. $\Omega = \{ \{ x_{1}, x_{2},\dots,x_{n} \} | x_{1},x_{2},\dots,x_{n} \in \{ 0,1 \} \}$
+> > 2. $A = \left\{  \{  x_{1}, x_{2},\dots,x_{n} \} \in \Omega | \sum_{i=1}^{n} x_{i} \leq m \right\}$
+
+> [!example] 
 
 ## Häufigkeit
 

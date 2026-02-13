@@ -110,5 +110,3 @@ $$
 s^{2}&= \frac{1}{n-1}\cdot\sum\limits_{i=1}^{n}(x_{i}-\overline{x})^{2} &&s=\sqrt{s^{2}}
 \end{align*}
 $$
-
-# Tags

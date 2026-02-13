@@ -78,8 +78,13 @@ Beide Modelle haben eine geliebige Geometrie unter der Bedunging dass die **Rän
 > $$
 > 
 > - $\mathbf{e}(x,y)$ und $\mathbf{h}(x,y)$ sind die Transversalen Feldkomponenten in $x$ und $y$ Richtung
-> - $e_{z}(x,y)$ und $h_{z}(x,y)$ sind die Longitudinalen Feldkomponenten (Bei TEM: $e_{z} = h_{z} = 0$)
 > 
+> $$
+> \mathbf{e}(x,y) = \begin{pmatrix} E_{x}(x,y) \\ E_{y} (x,y) \end{pmatrix} \qquad \mathbf{h}(x,y) = \begin{pmatrix} H_{x}(x,y) \\ H_{y} (x,y) \end{pmatrix}
+> $$
+> 
+> - $e_{z}(x,y)$ und $h_{z}(x,y)$ sind die Longitudinalen Feldkomponenten (Bei TEM: $e_{z} = h_{z} = 0$)
+>  
 >  Die Feldkomponenten sind an sich nur von $x$ und $y$ abhängig. Die einzige Änderung in $z$-Richtung ist mit  $e^{ -j\beta z }$ beschrieben.
 
 [Phasorschreibweise der Maxwellgleichungen](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen):
@@ -156,10 +161,14 @@ $$
 - (3.3a) $\overset{ H_{x} }{ = }$ (3.4b) $\implies$ $E_{y} = f(E_{z},H_{z})$
 
 $$
-E_{y} = \frac{j}{k_{c}^{2}} \left( \beta \frac{ \partial E_{z} }{ \partial y } - \omega\mu \frac{ \partial H_{z} }{ \partial x } \right) \tag{3.5d}
+E_{y} = \frac{j}{k_{c}^{2}} \left( -\beta \frac{ \partial E_{z} }{ \partial y } + \omega\mu \frac{ \partial H_{z} }{ \partial x } \right) \tag{3.5d}
 $$
 
-mit der Grenzwellenzahl (*Cutoff Wavenumber*) $k_{c}^{2} = k^{2} -\beta^{2}$
+mit der Grenzwellenzahl (*Cutoff Wavenumber*)
+
+$$
+k_{c}^{2} = k^{2} -\beta^{2}
+$$
 
 > [!hint] Diese Gleichungen sind Grundlage für die Weiteren Vereinfachungen die für die Lösungen von
 > 

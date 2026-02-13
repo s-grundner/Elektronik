@@ -6,7 +6,6 @@
 <%* if(typ == "UE") tR += "banner: \n" _%>
 tags: 
 aliases: 
-keywords: 
 subject:
   - <%* tR += typ %>
   - <%* tR += lva %>

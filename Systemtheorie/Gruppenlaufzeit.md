@@ -1,15 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Group Delay
-keywords: 
+keywords:
 subject:
   - Signale und Systeme
   - VL
 semester: WS24
 created: 6. Februar 2025
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
   - Mario Huemer
 ---
  
@@ -69,6 +69,9 @@ Diese Verzögerung erfährt eine **Gruppe** der Frequenzen aus denen sich das sc
 > \uptau_{g}(\omega) = - \frac{\mathrm{d}\operatorname{arg}(H(j\omega))}{\mathrm{d}\omega} = \frac{2}{1+ \left( \frac{\omega}{s_{0}} \right)^{2} } \frac{1}{s_{0}} = \frac{2s_{0}}{s_{0}^{2}+\omega^{2}}
 > $$
 
+## Referenzen
+
+- [Group Velocity - Wikipedia](https://en.wikipedia.org/wiki/Group_velocity)
 
 [^1]: Aus deiser betrachtugnsweise leitet sich der begriff Gruppenlaufzeit (engl. group Delay ab)
 

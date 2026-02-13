@@ -47,7 +47,6 @@ function weightetGPA(pgs) {
 	return totECTS ? totWeighted / totECTS : 0;
 }
 
-
 function studyProgress() {
 	const tableHeader = [
 		"Planned Credits",
@@ -57,8 +56,8 @@ function studyProgress() {
 		"GPA🐢"
 	];
 	dv.table(tableHeader, [[
-		`${all.ects} / ${maxECTS}`, htmlProg(all.ects / maxECTS * 100),
-		`${all.done} / ${maxECTS}`, htmlProg(all.done / maxECTS * 100),
+		`${all.ects} / ${maxECTS}`, htmlProg(all.ects, maxECTS),
+		`${all.done} / ${maxECTS}`, htmlProg(all.done, maxECTS),
 		all.gpa.toFixed(3)
 	]]);
 }
@@ -79,7 +78,8 @@ function semesterProgress() {
 	dv.table(tableHeader, prg.map(g => [
 		semPathDecorator(g.key),
 		`${g.done} / ${g.ects}`,
-		htmlProg(g.done / g.ects * 100), g.gpa ? g.gpa.toFixed(3) : "--"
+		htmlProg(g.done, g.ects),
+		g.gpa ? g.gpa.toFixed(3) : "--"
 	]));
 }
 
@@ -90,7 +90,7 @@ function courses() {
 			key: g.key,
 			lva: sortedRows.map(r => dv.fileLink(r.file.path, false, r.file.name.replace("{NOTES}", ""))),
 			ects: sortedRows.map(r => r.ects),
-			done: sortedRows.map(r => r.done ? `✅ **[ ${r.grade || "mEt."} ]**` : "❌")
+			done: sortedRows.map(r => completeDecorator(r.done, r.grade))
 		};
 	});
 	const tableHeader = ["📆", "LVA📖", "Credits 💸", "Completed 🥳"];
@@ -100,13 +100,46 @@ function courses() {
 	);
 }
 
-function htmlProg(value) {
-	return `<progress max=100 value="${value.toFixed(0)}"></progress>`;
-}
+function typeSelection() {
 
-function centeredHeader(lvl, h) {
-	return dv.header(lvl, `<center>${h}</center>`);
+	let maxCompulsory = dv.current().dashboard
+		.flatMap(x => {
+			if (x === "Bachelor") return 147;
+			if (x === "Master") return 57;
+		})
+		.reduce((acc, x) => acc + x);
+
+	let maxElective = dv.current().dashboard
+		.flatMap(x => {
+			if (x === "Bachelor") return 21;
+			if (x === "Master") return 48;
+		})
+		.reduce((acc, x) => acc + x);
+
+	let maxFreeElective = dv.current().dashboard
+		.flatMap(x => {
+			if (x === "Bachelor") return 12;
+			if (x === "Master") return 15;
+		})
+		.reduce((acc, x) => acc + x);
+
+	const tableHeader = [
+		"Pflicht",
+		"Wahlfach",
+		"Freie Studienleistung",
+	];
+	// Group by type
+	let selectedCompulsory = pages.filter(p => p.type === "Pflicht").map(p => p.ects).sum();
+	let selectedElective = pages.filter(p => p.type === "Wahl").map(p => p.ects).sum();
+	let selectedFreeElective = pages.filter(p => p.type === "Frei").map(p => p.ects).sum();
+	
+	dv.table(tableHeader, [[
+		htmlProg(selectedCompulsory, maxCompulsory) + `\n ${selectedCompulsory} / ${maxCompulsory}`,
+		htmlProg(selectedElective, maxElective) + `\n ${selectedElective} / ${maxElective}`,
+		htmlProg(selectedFreeElective, maxFreeElective) + `\n ${selectedFreeElective} / ${maxFreeElective}`
+	]]);
 }
+// --- Locale ---
 
 function currSemKey() {
 	let d = new Date();
@@ -115,10 +148,23 @@ function currSemKey() {
 	return (m >= 7 || m <= 1) ? `WS${y - (m <= 2)}` : `SS${y}`;
 }
 
+// --- Comparators ---
+
 function semComp(a, b) {
 	let yearA = parseInt(a.match(/\d+/));
 	let yearB = parseInt(b.match(/\d+/));
 	return yearB - yearA || b.includes("WS") - a.includes("WS");
+}
+
+// --- Decorators ---
+
+function htmlProg(quota, base) {
+	let value = quota / base * 100;
+	return `<progress max=100 value="${value.toFixed(0)}"></progress>`;
+}
+
+function centeredHeader(lvl, h) {
+	return dv.header(lvl, `<center>${h}</center>`);
 }
 
 function semEmojiDecorator(key) {
@@ -132,43 +178,6 @@ function semPathDecorator(key) {
 	return `${semEmojiDecorator(key)}`
 }
 
-// --- Additional Type Selection ---
-
-function typeSelection() {
-
-	let maxPflicht = dv.current().dashboard
-		.flatMap(x => {
-			if (x === "Bachelor") return 147;
-			if (x === "Master") return 57;
-		})
-		.reduce((acc, x) => acc + x);
-
-	let maxWahlfach = dv.current().dashboard
-		.flatMap(x => {
-			if (x === "Bachelor") return 21;
-			if (x === "Master") return 48;
-		})
-		.reduce((acc, x) => acc + x);
-
-	let maxFSL = dv.current().dashboard
-		.flatMap(x => {
-			if (x === "Bachelor") return 12;
-			if (x === "Master") return 15;
-		})
-		.reduce((acc, x) => acc + x);
-
-	const tableHeader = [
-		"Pflicht",
-		"Wahlfach",
-		"Freie Studienleistung",
-	];
-	// Group by type
-	let selPflicht = pages.filter(p => p.type === "Pflicht").map(p => p.ects).sum();
-	let selWahlfach = pages.filter(p => p.type === "Wahl").map(p => p.ects).sum();
-	let selFSL = pages.filter(p => p.type === "Frei").map(p => p.ects).sum();
-	dv.table(tableHeader, [[
-		htmlProg(selPflicht / maxPflicht * 100) + `\n ${selPflicht} / ${maxPflicht}`,
-		htmlProg(selWahlfach / maxWahlfach * 100) + `\n ${selWahlfach} / ${maxWahlfach}`,
-		htmlProg(selFSL / maxFSL * 100) + `\n ${selFSL} / ${maxFSL}`
-	]]);
+function completeDecorator(isDone, grade) {
+	return isDone ? `✅ **[ ${grade || "mEt."} ]**` : "❌";
 }

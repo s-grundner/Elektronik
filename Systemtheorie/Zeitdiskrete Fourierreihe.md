@@ -1,14 +1,15 @@
 ---
 tags:
   - Analysis
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - Signale und Systeme
   - VL
 semester: WS24
 created: 8. Februar 2025
 professor:
+title: Zeitdiskrete Fourierreihe
 ---
  
 

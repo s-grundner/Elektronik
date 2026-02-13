@@ -29,7 +29,7 @@ $\lvert \vec{C} \rvert = \lvert \vec{A}\times \vec{B} \rvert = \lvert \vec{A} \r
 
 Vektorform:
 
-$\vec{C}= \vec{A} \times \vec{B} =\left(\begin{array}{l} A_y B_z-A_z B_y \\ A_z B_x-A_x B_z \\ A_x B_y-A_y B_z \end{array}\right)$
+$\vec{C}= \vec{A} \times \vec{B} =\left(\begin{array}{l} A_y B_z-A_z B_y \\ A_z B_x-A_x B_z \\ A_x B_y-A_y B_x \end{array}\right)$
 
 
 

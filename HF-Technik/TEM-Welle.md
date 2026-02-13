@@ -1,9 +1,8 @@
 ---
 tags: []
 aliases:
-  - TEM-Welle
+  - Transversale Elektromagnetische Welle
   - Transversale EM-Welle
-  - transversal
 subject:
   - VL
   - Grundlagen der Hochfrequenztechnik
@@ -174,8 +173,4 @@ $$
 ---
 
 ![Electromagnetic Wave Equation in Free Space - YouTube](https://www.youtube.com/watch?v=GMmhSext9Q8)
-
-# Allgemeine TE- TM- und TEM-Lösungen
-
-
 

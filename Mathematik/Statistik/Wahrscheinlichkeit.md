@@ -1,6 +1,7 @@
 ---
 tags:
 aliases:
+  - Unbedingte Wahrscheinlichkeit
 keywords:
 subject:
   - KV
@@ -13,95 +14,72 @@ release: false
 title: Wahrscheinlichkeit
 ---
 
-# Wahrscheinlichkeit $P(\omega)$
+# Wahrscheinlichkeit
 
-Unter der Wahrscheinlichkeit $P(\omega)$ (Probabilität) eines Ausgang eines Zufallsexperiments verstehen wir den [Grenzwert](../Analysis/Grenzwert.md) der Folge $\langle h(\omega)\rangle$.
+Die Wahrscheinlichkeit $\mathbb{P}(A)$ eines Ereignisses $A$ in einem Zufallsexperiment, ist ein Maß für die Tendenz, das dieses Ereignis eintritt.
 
->[!summary] $$P(\omega)=\lim_{h\rightarrow\infty}\langle h_{n}(\omega)\rangle$$
+> [!def] **D)** Wahrscheinlichkeitsmaß (W-Maß) $\mathbb{P}$
+> Eine Abbildung $\mathbb{P}$, welche jedem Ereignis $A \subseteq \Omega$ eine Zahl $\mathbb{P}(A) \in \mathbb{R}$ zuordnet und dabei die drei Eigenschaften
+> 1. $\mathbb{P}(\Omega)=1$
+> 2. für alle Ereignisse $A\subseteq\Omega$ ist $\mathbb{P}(A)\geq 0$
+> 3. für endlich oder abzählbar unendlich viele paarweise disjunkte[^1] Ereignisse $A_{1},A_{2},\dots \subseteq \Omega$ gilt
+>  
+> $$
+> \mathbb{P}(A_{1} \cup A_{2} \cup \dots) = \mathbb{P}(A_{1}) + \mathbb{P}(A_{2}) + \dots
+> $$
+> 
+> besitzt, nennt man ein **Wahrscheinlichkeitsmaß** (kurz W-Maß) auf dem Ereignisraum $\Omega$.
 
-> [!EXAMPLE] Würfel: $P(1)=\dfrac{1}{6}$
-
-Ein Zufallsexperiment ist gekennzeichnet durch:
-- gleiche Ausgangsbedingungen
-- unsicheren Ausgang
-- beliebig wiederholbar
-
->[!EXAMPLE] Beispiele
-> - Würfeln mit einem Würfel
-> - ein Los ziehen
-> - eine Münze werfen
-
-## Wahrscheinlichkeitsfunktion
-
-[Ereignisraum](Ereignisraum.md) $\Omega$:  
-$P: \Omega\in\mathbb{R}\qquad$ (eigentlich $\rightarrow[0;1]$)
-
-> [!summary] $$\sum\limits_{\omega\in\Omega}P(\omega)=1$$
-
+> [!quote]-  Dieser Begriffsbildung sind einige Bemerkungen angebracht
+> 
+> - Falls es sich bei der Menge $\Omega$ um eine endliche oder abzählbare Menge handelt, bereitet diese Definition wenes W-Maßes als Abbildung $\mathbb{P}:\mathcal{P}(\Omega)\to\mathbb{R}$ von der Potenzmenge $\mathcal{P}(\Omega)$ von $\Omega$ in $\mathbb{R}$ keine Probleme
+> - Ist jedoch $\Omega$ eine überabzählbare Menge (etwa $\Omega=[0,1]$, $\Omega=\mathbb{R}$ oder $\Omega = \{ 0,1 \}^{\mathbb{N}}$), so existieren nur triviale Abbildungen $\mathbb{P}:\mathcal{P}(\Omega)\to\mathbb{R}$ von der Potenzmenge $\mathcal{P}(\Omega)$ von $\Omega$ in $\mathbb{R}$ mit diesen drei Eigenschaften.
+> - Diese Problematik lässt sich dadurch beheben, indem man nicht versucht, allen Teilmengen $A \subseteq \Omega$ in sinnvoller Weise eine Wahrscheinlichkeit $\mathbb{P}(A)$ zuzuordnen, sondern **nur jenen** Ereignissen $A \subseteq \Omega$, für die man sich tatsächlich interessiert. 
+> 
+> Bei diesem System der interessierenden Ereignisse $\mathcal{A}$ handelt es sich um eine **Sigma Algebra**, also um eine Teilmenge $\mathcal{A}$ der Potenzmenge $\mathcal{P}(\Omega)$ von mit den drei Eigenschaften
+> 
+> - $\Omega \in \mathcal{A}$
+> - mit $A,B \in \mathcal{A}$ ist auch $A-B\in\mathcal{A}$
+> - mit $A_{1},A_{2},\ldots \in \mathcal{A}$ ist auch $A_{1} \cup A_{1} \cup \ldots \in \mathcal{A}$
 
 ## Rechnen mit Wahrscheinlichkeiten
 
-### Bedingte Wahrscheinlichkeit $P(A|B)$
+> [!hint] Dieses Rechenregeln gelten nur für **unabhängige Ereignisse** (disjunkte Ereignisse[^1]). Für abhängige Ereignisse, siehe [bedingte Wahrscheinlichkeit](Bedingte%20Wahrscheinlichkeit.md).
 
-Ist $P(B)\neq 0$, so heißt der Wert $P(A|B) = \dfrac{P(A\wedge B)}{P(B)}$ die Wahrscheinlichkeit von $A$, unter der Bedingung, dass $B$ eintritt.
-- Die bedingte Wahrscheinlichkeit $A$ unter der Bedingung $B$
+### Additionsregel
+ 
+Die Wahrscheinlichkeit, dass die unabhängigen Ereignisse $A$ **oder** $B \in\Omega$  auftreten, ist gegeben durch
 
-### Additionssatz (ODER-Regel)
+$$
+\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B)
+$$
 
-> [!summary] für beliebige [Ereignisse](Ereignis.md)  
-> $$P(A\vee B) = P(A) + P(B) - P(A\wedge B)$$
-
->[!summary] für [](Ereignis.md#Unvereinbare%20Ereignisse|unvereinbare%20Ereignisse)  
-> $$P(A\vee B) = P(A) + P(B) - 0$$
-
-### Multiplikationssatz (UND-Regel)
-
->[!summary] für beliebige [Ereignisse](Ereignis.md)  
-> $P(A\wedge B)=P(A)\cdot P(B|A)$
-> - $P(B|A) = P\dfrac{A\wedge B}{P(A)}$
-> - $P(A|B) = P\dfrac{A\wedge B}{P(B)}$
-
->[!summary] für [](Ereignis.md#Unabhängige%20Ereignisse|unabhängige%20Ereignisse)  
-> $P(A\wedge B)=P(A)\cdot P(B)$
-
-## Gegenereignis
-
->[!summary] [Wahrscheinlichkeit](Wahrscheinlichkeit.md) für das Gegenereignis von $A$:  
-> $P(\overline{A})=1-P(A)$
-
-öfter ergeben sich Rechenvorteile bei Fragestellungen mit "mindestens" oder auch "höchstens", wenn man zuerst die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) des Gegenereignisses ermittelt.  
-So gilt: Mindestens eines = nicht keines
-
->[!EXAMPLE] gerade & ungerade Zahl beim Roulette  
-> $P(gerade) = 1-P(ungerade)$
-
- >[!EXAMPLE] 26 Schüler: 2 haben den selben Geburtstag  
-> $P(\text{min. 2 den selben Geb.}) = 1-P(\text{es gibt keine 2 mit selben Geb.})$
+> [!satz] **S - Additionssatz)** Sei $\mathbb{P}$ ein W-Maß auf dem Ereignisraum $\Omega$
 > 
-> $\dfrac{365}{365}\cdot\dfrac{364}{365}\cdot\dfrac{363}{365}\dots\dfrac{340}{365} = \dfrac{365!}{365^{26}\cdot339!}=0.4$
+> Die Wahrscheinlichkeit, dass **mindestens** eines von $n$ disjunkten Ereignissen $A_{1},A_{2},\ldots,A_{n}\in\Omega$ auftritt, ist gegeben durch
 > 
-> $1-0.4=0.6$
+> $$
+> \mathbb{P} \left( \bigcup_{i=1}^{n} A_{i} \right) = \sum_{i=1}^{n} \mathbb{P}(A_{i})
+> $$
 
-## Mehrstufige Zufallsvorgänge
+### Multiplikationsregel
 
-- Ein **zusammengesetzter Zufallsvorgang** lässt sich oft in eine Folge von einfacheren Zufallsvorgängen zerlegen.
-- Man spricht dann von einem **mehrstufigen Zufallsvorgang**.
-- Kann durch ein sogenanntes Baumdiagramm veranschaulicht werden.
-- Durch ein Baumdiagramm auch die Berechnung von Wahrscheinlichkeiten erheblich erleichtert werden.  
+Die Wahrscheinlichkeit dass die unabhängigen Ereignisse $A$ **und** $B \in\Omega$ gleichzeitig auftreten
 
-### Pfadregeln
+$$
+\mathbb{P}(A \cap B) = \mathbb{P}(A) \cdot \mathbb{P}(B)
+$$
 
-![Pasted image 20230108013030](../../_assets/Pasted%20image%2020230108013030.png)
+> [!satz] **S - Multiplikationssatz)** Sei $\mathbb{P}$ ein W-Maß auf dem Ereignisraum $\Omega$
+> 
+> Die Wahrscheinlichkeit für das **gemeinsame** Auftreten von $n$ disjunkten Ereignissen $A_{1},A_{2},\ldots,A_{n}\in\Omega$ ist
+> 
+> $$
+> \mathbb{P} \left( \bigcap_{i=1}^{n} A_{i} \right) = \prod_{i=1}^{n} \mathbb{P}(A_{i})
+> $$
 
-![Pasted image 20230108013044](../../_assets/Pasted%20image%2020230108013044.png)
+## Referenzen
 
-![invert_light](../../_assets/Pasted%20image%2020230108013054.png)
+[Zufallsexperimente - Dimitry Efrosinin](../../xEDU/B5_WS25/WuSP/02_Zufallsexperimente.nb)
 
-# Tags
-
-| ![Pasted image 20221211123853](../../_assets/Pasted%20image%2020221211123853.png) | ![UEB-rechnen-wsk](../../_assets/UEB-rechnen-wsk.png) |  
-| ------------------------------------ | ------------------------ |
-
-[Ereignisraum](Ereignisraum.md)  
-[Ereignis](Ereignis.md)  
-<https://studyflix.de/statistik/wahrscheinlichkeit-1932>
+[^1]: Disjunkte Eregnisse $\iff$ **unabhängige Ereignisse** $\iff A \cap B = \{ \}$

@@ -1,8 +1,9 @@
 ---
 tags:
   - Halbleiter/Diode
-aliases: 
+aliases:
 created: 22nd August 2023
+title: Zener-Diode
 ---
 
 # Zener-Diode

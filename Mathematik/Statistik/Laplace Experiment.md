@@ -12,22 +12,29 @@ release: false
 title: Laplace Experiment
 ---
 
-# Laplace Experiment (Laplace Modell)
+# Laplace Experiment
 
-- Ein **[Laplace Experiment](https://studyflix.de/statistik/laplace-experiment-1109)** ist ein Zufallsexperiment, bei dem alle [Elementarereignisse](Ereignis.md) gleichwahrscheinlich sind.
-- Typische Beispiele sind hier auch der Münzwurf oder ein Würfelwurf.
+Eine wichtige Klasse von Zufallsexperimenten sind die sogenannten **Laplace Experimente**:
 
-Ein Fall der häufig vorkommt: $P(\omega_{1})=P(\omega_{2})=\dots=P(\omega_{n})\qquad\forall\omega\in\Omega$
+> [!def] **D)** Laplace Experiment
+> Unter einem **Laplace-Experimente** versteht man ein Zufallsexperiment mit endlich vielen Ausgängen $\omega_{1},\omega_{2},\dots,\omega_{n}$, bei dem auf Grund von geometrisch oder physikalischen Symmetrieüberlegungen alle Elementarereignisse $\{ \omega_{i} \}$ **gleich wahrscheinlich** sind
+> 
 
->[!summary] $P(\omega_{i})=\dfrac{1}{|\Omega|}$  
->mit
-> - $P(\omega_{i})\dots$ die Wahrscheinlichkeit des [Ereignis](Ereignis.md) $\omega$
-> - $|\Omega|\dots$ die Anzahl der möglichen [Ereignisse](Ereignis.md)
 
->[!summary] $P(E)=\dfrac{E}{|\Omega|}$  
-> mit:
-> - $P(E)\dots$ die Wahrscheinlichkeit eines [Ereignis](Ereignis.md)
-> - $E\dots$ die Anzahl der günstigen [Ereignisse](Ereignis.md)
-> - $|\Omega|\dots$ die Anzahl der möglichen [Ereignisse](Ereignis.md) 
+Beispiele für Laplace-Experimente sind
 
-> [!EXAMPLE] $E$ … gerade Zahl beim Roulette: $\dfrac{18}{36}$
+- (Mehrfaches) werfen eines **homogenen** Würfels / Münze.
+- Zufälliges Verteilen von Spielkarten auf Spieler.
+
+$$
+\forall\{ \omega_{i}\}\subset\Omega:\mathbb{P}(\omega_{1})=\mathbb{P}(\omega_{2})=\dots=\mathbb{P}(\omega_{n})
+$$
+
+>[!summary] $\mathbb{P}(\omega_{i})=\dfrac{1}{|\Omega|}$  
+> - $\mathbb{P}(\omega_{i})$ ... die Wahrscheinlichkeit des Elementarereginisses $\omega$
+> - $|\Omega|$ ... die Anzahl der möglichen [Ereignisse](Ereignis.md)
+
+>[!summary] $\mathbb{P}(A)=\dfrac{\left| A \right|}{|\Omega|}$  
+> - $\mathbb{P}(A)$ ... die Wahrscheinlichkeit eines [Ereignis](Ereignis.md) $A$
+> - $\left| A \right|$ ... die Anzahl der günstigen [Ereignisse](Ereignis.md)
+> - $|\Omega|$ ... die Anzahl der möglichen [Ereignisse](Ereignis.md) 

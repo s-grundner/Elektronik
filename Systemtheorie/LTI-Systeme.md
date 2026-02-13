@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - LTI-System
   - LTI-Systemen
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
@@ -11,7 +11,7 @@ subject:
 semester: SS24
 created: 4. März 2024
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
   - Andreas Springer
   - Markus Schöberl
 ---

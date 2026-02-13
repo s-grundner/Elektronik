@@ -23,4 +23,4 @@ _%>
 
 ## Aufgaben
 
-> [!info] `$=dv.current().keywords`
+> [!info] `$=dv.current().tags`

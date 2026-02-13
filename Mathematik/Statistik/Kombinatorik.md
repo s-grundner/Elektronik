@@ -9,7 +9,9 @@ created: 24th October 2022
 
 # Kombinatorik
 
-![700](../../_assets/Kombinatorik-formeln.png)
+Zur Berechnung von Wahrscheinlichkeiten kommt es oft darauf an, die Mächtigkeiten des Ereignisraums $\left| \Omega \right|$ und dem jeweiligen Ereignis $\left| A \right|$ zu kennen (z.B. im Falle eines [Laplace Experiments](Laplace%20Experiment.md)).
+
+![invert_dark](../../_assets/Kombinatorik-formeln.png)
 
 >[!EXAMPLE] 6 Kugeln in den Eierkarton mit 10 Boxen  
 > Kugeln nicht unterscheidbar: Kombination  
@@ -46,8 +48,3 @@ nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
 - [UEZ-Kombinatorik](../../_assets/pdf/UEZ-Kombinatorik.pdf) 
 
 
----
-
-# Tags
-
-- [[../../Digitaltechnik/Grundgatter]]

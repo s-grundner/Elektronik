@@ -14,6 +14,7 @@ temperature-coeff:
   - "42"
   - $10^{-4}\frac{1}{K}$
   - $\alpha$
+title: Zinn
 ---
 
 # Zinn

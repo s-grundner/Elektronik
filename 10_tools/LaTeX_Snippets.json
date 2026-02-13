@@ -350,7 +350,7 @@
     },
     {trigger: "\\subset eq", replacement: "\\subseteq", options: "mA"
     },
-    {trigger: "set", replacement: "\\{ $0 \\}$1", options: "mA"
+    {trigger: "set", replacement: "\\{ $0 \\}$1", options: "m"
     },
     {trigger: "=>", replacement: "\\implies", options: "mA"
     },
@@ -441,6 +441,8 @@
     {trigger: "BB", replacement: "\\mathbf{B}", options: "mA"
     },
     {trigger: "EE", replacement: "\\mathbf{E}", options: "mA"
+    },
+    {trigger: "PP", replacement: "\\mathbb{P}($0)$1", options: "mA"
     },
     // Unit vectors
     {trigger: ":i", replacement: "\\mathbf{i}", options: "mA"

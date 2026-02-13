@@ -57,7 +57,7 @@ $$
 Eine Weitere Vereinfachung lässt sich durch eine [Taylorreihenentwicklung](../Mathematik/Analysis/Taylorreihe.md) ermöglichen um den Wurzelterm wegzubekommen (siehe [Beispiel Wurzelfunktion](../Mathematik/Analysis/Taylorreihe.md#Beispiele)).
 
 $$
-\gamma \approx j\omega \sqrt{ L'C' } \left( 1-\frac{j}{2} \left( \frac{R'}{\omega L'} +\frac{G'}{\omega C'} \right)  \right) {\color{gray} +O(2)}
+\gamma \approx j\omega \sqrt{ L'C' } \left( 1-\frac{j}{2} \left( \frac{R'}{\omega L'} +\frac{G'}{\omega C'} \right) {\color{gray} +O(2)} \right) 
 $$
 
 Aufteilen in Real und imaginärtiel liefert wieder die form $\gamma = \alpha + j\beta$:
@@ -112,7 +112,7 @@ In diesem fall hat die Leitung einen linearen Phasenterm bezogen auf die Frequen
 $$
 \begin{align}
 \gamma &= j\omega \sqrt{ L'C' } \sqrt{ 1-2j \frac{R'}{\omega L'} - \frac{R'^{2}}{\omega^{2}L'^{2}} } \\
-&=j\omega^{2}\sqrt{ L'C' } \left( 1-\frac{R'}{\omega L'} \right)  \\
+&=j\omega\sqrt{ L'C' } \left( 1-j\frac{R'}{\omega L'} \right) \\
 &= R \sqrt{ \frac{C'}{L'} } + j\omega \sqrt{ L'C' } = \alpha + j\beta
 \end{align}
 $$

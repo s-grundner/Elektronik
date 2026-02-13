@@ -1,13 +1,13 @@
 ---
 tags:
   - tikz/circuitikz
-  - Systeme/Kon
+  - Systeme
 aliases:
   - Zustandsvariablen
   - Zustandsbegriff
   - Zustandsgleichung
   - Zustandsgrößen
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
@@ -15,8 +15,9 @@ subject:
 semester: WS24
 created: 18. Dezember 2024
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
   - Markus Schöberl
+title: Zustandsbeschreibung
 ---
 
 # Zustandsbeschreibung eines dynamischen Systems
