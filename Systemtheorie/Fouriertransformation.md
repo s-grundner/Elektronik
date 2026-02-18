@@ -14,7 +14,7 @@ subject:
 semester: WS24
 created: 4. März 2024
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
 def:
   - FT
   - IFT

@@ -75,7 +75,9 @@ Als Lösung der Telegraphengleichung ergibt sich die Überlagerung gegenläufige
 > 
 > $(\,\cdot\,)'\,$: **Leitungsbeläge**
 > $\alpha\,$: **Dämpfungsbelag** (Dämpfung der Signalamplitude)
-> $\beta\,$: **Phasenbelag** (Verzögerung der Ausbreitungsgeschwindigkeit $=k$ ... [Wellenzahl](../Physik/Feldtheorie/Wellenzahl.md))
+> $\beta\,$: **Phasenbelag** (Verzögerung der Ausbreitungsgeschwindigkeit)
+
+Für TEM Leiter gilt $\beta = k$ ... [Wellenzahl](../Physik/Feldtheorie/Wellenzahl.md)
 
 
 

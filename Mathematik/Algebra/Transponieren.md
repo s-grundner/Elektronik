@@ -13,7 +13,7 @@ semester: WS23
 created: 14th January 2026
 professor:
   - Andreas Neubauer
-release: false
+release: true
 title: Transponieren
 ---
 

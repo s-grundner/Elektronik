@@ -12,7 +12,7 @@ created: 27. Dezember 2023
 complexity: $\mathcal{O}(n^{2})$
 semester: WS24
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
 subject:
   - Signale und Systeme
 banner: /assets/banner/SUSBanner.png

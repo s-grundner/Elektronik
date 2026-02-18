@@ -2,13 +2,13 @@
 tags:
   - incomplete
   - Signale/Diskret
-aliases: 
+aliases:
 subject:
   - Signale und Systeme
   - VL
 created: 3rd February 2023
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
 semester: WS24
 ---
 

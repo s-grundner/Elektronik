@@ -1,12 +1,17 @@
 ---
 tags:
   - Statistik
+  - Wahrscheinlichkeitstheorie
 aliases: []
 subject:
-  - mathe
-created: 24th October 2022
+  - KV
+  - Wahrscheinlichkeitstheorie und stochastische Prozesse
+created: 15th January 2026
+semester: WS25
+professor:
+release: false
+title: Kombinatorik
 ---
-
 # Kombinatorik
 
 Zur Berechnung von Wahrscheinlichkeiten kommt es oft darauf an, die Mächtigkeiten des Ereignisraums $\left| \Omega \right|$ und dem jeweiligen Ereignis $\left| A \right|$ zu kennen (z.B. im Falle eines [Laplace Experiments](Laplace%20Experiment.md)).

@@ -2,7 +2,6 @@
 tags:
   - Statistik
 aliases:
-  - ""
 subject:
   - mathe
 created: 16th November 2022

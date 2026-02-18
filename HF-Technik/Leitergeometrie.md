@@ -172,8 +172,8 @@ $$
 
 > [!hint] Diese Gleichungen sind Grundlage für die Weiteren Vereinfachungen die für die Lösungen von
 > 
-> - TE Wellen
-> - TM Wellen
-> - TEM Wellen
+> - [TE-Wellen](TE-Welle.md)
+> - [TM-Welle](TM-Welle.md)
+> - [TEM-Welle](TEM-Welle.md)
 > 
 > getroffen werden Können

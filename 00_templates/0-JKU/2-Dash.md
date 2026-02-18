@@ -1,13 +1,9 @@
+---
 <%* let sem = await tp.user.get_lva().sug_sem(tp) _%>
 <%* let lva = await tp.user.get_lva().sug_lva(tp, sem) _%>
 <%* let typ = await tp.user.get_lva().sug_type(tp) _%>
 <%* let ects = await tp.system.prompt("ECTS", "") _%>
 <%* let category = await tp.user.get_lva().sug_category(tp) _%>
-
----
-banner: /assets/banner/JKU-Banner.png
-banner_y: 0.5
-banner_x: 0.5
 tags:
   - <%* tR += tp.user.get_lva().sem_to_program(sem) %>
 subject:

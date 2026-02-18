@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Bildbereich
   - Transformationskern
@@ -14,7 +14,7 @@ subject:
 semester: WS24
 created: 4. Februar 2025
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
 title: Integraltransformation
 ---
 

@@ -1,5 +1,4 @@
 ---
-banner: "/Elektrotechnik/assets/mast.png"
 tags:
   - E-Feld
 aliases:
@@ -9,7 +8,7 @@ aliases:
   - elektrisches Feld
   - elektrischen Feld
   - elektrische Feld
-keywords: 
+keywords:
 subject:
   - Einführung Elektrotechnik
   - VL
@@ -17,7 +16,6 @@ semester: WS23
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
-banner_y: 0.336
 ---
 
 # Elektrisches Feld
@@ -33,4 +31,3 @@ banner_y: 0.336
 ---
 
 - [Statisches Elektrisches Feld](Statisches%20Elektrisches%20Feld.md)
-- [Dynamisches Elektrisches Feld](Dynamisches%20Elektrisches%20Feld.md)

@@ -1,7 +1,9 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+  - Wahrscheinlichkeitstheorie
+  - Statistik
+aliases:
+keywords:
 subject:
   - KV
   - Wahrscheinlichkeitstheorie und stochastische Prozesse

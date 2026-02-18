@@ -3,7 +3,8 @@ tags:
   - index
 title: <% tp.file.folder() %>
 release: false
-aliases: <% tp.file.folder() %>
+aliases:
+ - <% tp.file.folder() %>
 ---
 
 # <% tp.file.folder() %>

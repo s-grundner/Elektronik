@@ -1,14 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Signale und Systeme
 semester: WS24
 created: 24. November 2024
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
 ---
  
 

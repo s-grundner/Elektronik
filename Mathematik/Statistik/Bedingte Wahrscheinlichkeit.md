@@ -4,7 +4,7 @@ aliases:
   - Satz von Bayes
 keywords:
 subject:
-  - VL
+  - KV
   - Wahrscheinlichkeitstheorie und stochastische Prozesse
 semester: WS25
 created: 10th February 2026
@@ -15,7 +15,7 @@ title: Bedingte Wahrscheinlichkeit
 
 # Bedingte Wahrscheinlichkeit
 
-> [!question] [Unbedingte Wahrscheinlichkeit](Mathematik/Statistik/Wahrscheinlichkeit.md)
+> [!question] [Undbedingte Wahrscheinlichkeit](Wahrscheinlichkeit.md)
 
 Oft hat man es mit einem Zufallsexperiment zu tun, wobei man über die zusätzliche Information *"ein gewisses Ereignis $\Omega'$ ist bereits eingetreten"* verfügt. 
 
@@ -59,7 +59,7 @@ gilt, dass sich also die **bedingte Wahrscheinlichkeit** $\mathbb{P'}(A')$ eines
 
 ### Addition 
 
-Gleich wie [Additionsregel](Mathematik/Statistik/Wahrscheinlichkeit.md#Additionsregel).
+Gleich wie [Additionsregel](Wahrscheinlichkeit.md#Additionsregel).
 
 ### Multiplikationssatz
 
@@ -105,6 +105,9 @@ Mit dem Satz von Bayes lassen sich die Bedingungsreihenfolge der Ereignisse umke
 > $$
 > \mathbb{P}(B_{j}|A) = \frac{\mathbb{P}(A|B_{j})\cdot\mathbb{P}(B_{j})}{\sum_{i=1}^{n} \mathbb{P}(A|B_{i})\cdot\mathbb{P}(B_{i})} = \frac{\mathbb{P}(A|B_{j})\cdot\mathbb{P}(B_{j})}{\mathbb{P}(A)}
 > $$
+
+![Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+![The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko)
 
 
 ## Referenzen

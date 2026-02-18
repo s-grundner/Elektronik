@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Heaviside
   - Einheitssprung
@@ -9,7 +9,7 @@ subject:
 created: 26th April 2022
 semester: WS24
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
 ---
 
 # Die Einheitssprungfunktion

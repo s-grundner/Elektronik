@@ -14,7 +14,7 @@ subject:
 semester: WS24
 created: 2. Oktober 2024
 professor:
-  - Andreas Stelzer
+  - Andreas Stelzer 🕊️
 ---
  
 

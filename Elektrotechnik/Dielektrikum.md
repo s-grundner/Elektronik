@@ -58,7 +58,7 @@ science: Elektromagentismus
 
 Die Materialeigenschaft, wie ein Dielektrikum mit einem [Elektrischen Feld](elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\epsilon$ (Dielektrizitätszahl) bezeichnet. 
 
-Je nach dem ob das elektrische Feld [dynamisch](Dynamisches%20Elektrisches%20Feld.md) (schnell veränderlich) oder [statisch](Statisches%20Elektrisches%20Feld.md) (hinreichend langsam) ist, können Vereinfachungen getroffen werden.
+Je nach dem ob das elektrische Feld dynamisch (schnell veränderlich) oder statisch (hinreichend langsam) ist, können Vereinfachungen getroffen werden.
 
 ## Elektrostatik
 
