@@ -1,21 +1,21 @@
 # Ereignis-Synchronisation
 
 Beispiel **Producer-Consumer**:
-- Ein Produzent-Thread erzeugt Daten und schreibt diese in einen Buffer ([FIFO](../DS-Algo/FIFO%20Queue.md))
-- Ein Konsument-Thread verwendet die Daten des Produzenten weiter. Er holt sie dazu aus dem [FIFO](../DS-Algo/FIFO%20Queue.md)-Speicher
+- Ein Produzent-Thread erzeugt Daten und schreibt diese in einen Buffer ([FIFO](../DSA/FIFO%20Queue.md))
+- Ein Konsument-Thread verwendet die Daten des Produzenten weiter. Er holt sie dazu aus dem [FIFO](../DSA/FIFO%20Queue.md)-Speicher
 - Reale Probleme:
   - der Produzent erzeugt zu viel Daten, der Buffer läuft über (eventuell entnimmt der Konsument die Daten zu langsam) -> *Buffer-Overflow*
   - der Konsument möchte Daten abholen, der Buffer ist allerdings schon leer -> *Buffer-Underflow*
 
   einfachste Lösung: Auslösen einer Exception für Buffer-Overflow/-Underflow
 
-[FIFO](../DS-Algo/FIFO%20Queue.md)-Buffer, am Einfachsten realisiert als [Ringbuffer](../../Digitaltechnik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
+[FIFO](../DSA/FIFO%20Queue.md)-Buffer, am Einfachsten realisiert als [Ringbuffer](../../Digitaltechnik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
 
 ![invert_dark](../../_assets/OS_FiFo.png)
 
 ## Exceptions
 
-Fifo-Klasse [fifo](../DS-Algo/FIFO%20Queue.md).h:
+Fifo-Klasse [fifo](../DSA/FIFO%20Queue.md).h:
 
 ```cpp
 #include <stdexcept>

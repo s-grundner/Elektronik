@@ -1,11 +1,12 @@
 ---
-banner: "Softwareentwicklung/SoftwareEngineering/assets/GoF.png"
+banner: Softwareentwicklung/SoftwareEngineering/assets/GoF.png
 banner_y: "0.3"
 tags:
   - Software-Engineering/DesignPattern
 aliases:
   - Design Patterns
-keywords: 
+  - Entwurfsmuster
+keywords:
 subject:
   - VL
   - Softwareentwicklung 2

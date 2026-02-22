@@ -1,5 +1,5 @@
 ---
-tags: ["Netzwerke"]
+tags: ["ComputerNetzwerke"]
 aliases: ["Presentation Layer", "Layer 6"]
 created: 30th August 2023
 ---

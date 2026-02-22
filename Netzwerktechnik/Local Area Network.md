@@ -1,6 +1,6 @@
 ---
 tags:
-  - Netzwerke
+  - ComputerNetzwerke
 aliases:
   - LAN
   - lokales Netzwerk

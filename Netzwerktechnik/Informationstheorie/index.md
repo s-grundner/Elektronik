@@ -3,6 +3,7 @@ tags:
   - MOC
   - Informationstheorie
 aliases:
+  - Informationstheorie
 keywords:
 subject:
   - KV

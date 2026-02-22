@@ -1,6 +1,6 @@
 ---
 tags:
-  - Netzwerke
+  - ComputerNetzwerke
 aliases:
   - Application Layer
 created: 30th August 2023

@@ -44,13 +44,15 @@ professor:
 > [!info] Ein Netzwerk besteht im allgemeinen aus $n$-Polen ($n\geq 2$)
 > Da sich $n$-Pole durch [Zweipole](Zweipol.md) modellieren lassen, betrachten wir **Nur aus Zweipolen bestehende Netzwerke**.
 > - z.B lassen sich für [Transistoren](../Hardwareentwicklung/Halbleiter/Transistor.md), die in der Regel drei Anschlüsse haben, Ersatzschaltbilder angeben, die Ausschließlich aus Zweipolen bestehen (siehe [Kleinsignal Ersatzschaltbild](../Hardwareentwicklung/Halbleiter/BJT%20Kleinsignalverhalten.md))
-> ![700](../_assets/Schaltungsanalyse%202025-01-13%2022.21.43.excalidraw.md)
+> 
+> ![invert_dark|700](../_assets/Schaltungsanalyse%202025-01-13%2022.21.43.excalidraw.svg)
+> %%[🖋 Edit in Excalidraw](../_assets/Schaltungsanalyse%202025-01-13%2022.21.43.excalidraw.md)%%
 
 Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass das Netzwerk aus $k$ Knoten und $z$ Zweigen.
 
 ## Systematische Analyse linearer Netzwerke
 
-> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/DS-Algo/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
+> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/DSA/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 

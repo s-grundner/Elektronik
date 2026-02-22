@@ -115,7 +115,7 @@ $$
 \end{pmatrix}
 $$
 
-Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechnet werden. Dies führt uns zur [FFT](../../Softwareentwicklung/DS-Algo/FFT.md).
+Die Werte $W$ sind Einheitswurzeln und müssen daher nicht jedes mal neu berechnet werden. Dies führt uns zur [FFT](../../Softwareentwicklung/DSA/FFT.md).
 
 ![[../../_assets/DFT 2025-01-14 10.03.44.excalidraw]]
 

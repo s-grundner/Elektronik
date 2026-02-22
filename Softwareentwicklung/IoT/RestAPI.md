@@ -18,9 +18,9 @@ Grundsätzlich gibts vom Server nur Responses wenns einen Request gibt. Und auch
 
 Wenn von diesem Schema abgewichen werden soll, dann etwa Peer-to-Peer Architektur. Dabei können Server/Client in anderer Abfolge senden/empfangen, etwa ein Server etwas ohne Anfrage senden.
 
-## HTTP im [TCP](../../../Netzwerktechnik/Protokolle/TCP.md)/[IP](../../../Netzwerktechnik/Internet%20Protocol.md) [LIFO Stack](../../DS-Algo/LIFO%20Stack.md) (Youtube2)
+## HTTP im [TCP](../../../Netzwerktechnik/Protokolle/TCP.md)/[IP](../../Netzwerktechnik/Internet%20Protocol.md) [LIFO Stack](../DSA/LIFO%20Stack.md) (Youtube2)
 
-Ein Browser ist eine Anwender-Software. Sie implementiert lediglich die oberste Protokollschicht, für einen Browser also einen HTTP-Request. Dieser wird ans Betriebssystem übergeben. Dieses packt den HTTP-Request in ein [TCP](../../../Netzwerktechnik/Protokolle/TCP.md)-Paket, dieses wiederum wird in ein [IP](../../../Netzwerktechnik/Internet%20Protocol.md)-Paket gepackt. Je nach Anbindung wird das dann in Folge in einen [Ethernet](../../../Netzwerktechnik/Ethernet.md)-Frame gepackt. Dieser wird ins Internet gesendet und kommt beim Server an. Dort wird wiederum die Schichten hochgelaufen bis ins HTTP-Protokoll welches vom Web-Server verarbeitet werden kann. Virtuell spricht der Brower also mit dem Web-Server in HTTP.
+Ein Browser ist eine Anwender-Software. Sie implementiert lediglich die oberste Protokollschicht, für einen Browser also einen HTTP-Request. Dieser wird ans Betriebssystem übergeben. Dieses packt den HTTP-Request in ein [TCP](../../../Netzwerktechnik/Protokolle/TCP.md)-Paket, dieses wiederum wird in ein [IP](../../Netzwerktechnik/Internet%20Protocol.md)-Paket gepackt. Je nach Anbindung wird das dann in Folge in einen [Ethernet](../../../Netzwerktechnik/Ethernet.md)-Frame gepackt. Dieser wird ins Internet gesendet und kommt beim Server an. Dort wird wiederum die Schichten hochgelaufen bis ins HTTP-Protokoll welches vom Web-Server verarbeitet werden kann. Virtuell spricht der Brower also mit dem Web-Server in HTTP.
 
 Komfortabler Weise muss die Anwendung (Browser+Webserver) lediglich das HTTP-Protokoll implementieren.
 
@@ -62,7 +62,7 @@ Cookie: JSESSIONID=2a986787614c ...
   1.1: Version des HTTP-Protokolls
 
 - Kopfzeilen  
-  Host-Adresse und Port (ganz früher hat auf einem Rechner jeder Server eine eigene [IP](../../../Netzwerktechnik/Internet%20Protocol.md) bekommen, später Splitten mit Port)  
+  Host-Adresse und Port (ganz früher hat auf einem Rechner jeder Server eine eigene [IP](../../Netzwerktechnik/Internet%20Protocol.md) bekommen, später Splitten mit Port)  
   User-Agent: Browser-Info  
   Referer: wo kommt die Anfrage her (wenn über Link auf die Seite …)  
   Accept-Encoding: Requester meint ich akzeptiere gezippte Dateien  

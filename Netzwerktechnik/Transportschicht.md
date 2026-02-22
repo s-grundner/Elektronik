@@ -1,6 +1,6 @@
 ---
 tags:
-  - Netzwerke
+  - ComputerNetzwerke
 aliases:
   - Transport Layer
   - Layer 4

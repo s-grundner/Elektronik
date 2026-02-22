@@ -1,5 +1,5 @@
 ---
-tags: ["Netzwerke"]
+tags: ["ComputerNetzwerke"]
 aliases: ["Socket"]
 created: 29th November 2022
 ---

@@ -15,7 +15,7 @@ title: Entscheidungsgehalt
 
 # Entscheidungsgehalt
 
-> [!question] [Informationstheorie](Informationstheorie.md)
+> [!question] [index](Informationstheorie/index.md)
 
 ---
 

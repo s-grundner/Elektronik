@@ -17,4 +17,4 @@ professor:
 
 ---
 
-[FDTD](../DS-Algo/FDTD.md)
+[FDTD](../DSA/FDTD.md)

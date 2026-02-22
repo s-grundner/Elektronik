@@ -7,6 +7,7 @@ aliases:
   - Zustandsbegriff
   - Zustandsgleichung
   - Zustandsgrößen
+  - Zustandsvektor
 keywords:
 subject:
   - VL

@@ -106,12 +106,11 @@ Mit dem Satz von Bayes lassen sich die Bedingungsreihenfolge der Ereignisse umke
 > \mathbb{P}(B_{j}|A) = \frac{\mathbb{P}(A|B_{j})\cdot\mathbb{P}(B_{j})}{\sum_{i=1}^{n} \mathbb{P}(A|B_{i})\cdot\mathbb{P}(B_{i})} = \frac{\mathbb{P}(A|B_{j})\cdot\mathbb{P}(B_{j})}{\mathbb{P}(A)}
 > $$
 
-![Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)
-![The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko)
 
 
 ## Referenzen
 
-[Bedingte Wahrscheinlichkeit - Dimitry Efrosinin](xEDU/B5_WS25/WuSP/10_Bedingte_Wahrscheinlichkeit.nb)
+![Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+![The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko)
 
 [^1]: darunter versteht man paarweise disjunkte Ereignisse $B_{1},B_{2},\ldots,B_{n}$ mit positiver Wahrscheinlichkeit, deren Vereinigung gleich $\Omega$ ist

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Netzwerke
+  - ComputerNetzwerke
 aliases:
   - Layer 3
   - Network Layer

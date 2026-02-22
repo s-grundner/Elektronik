@@ -26,4 +26,4 @@ Ist das Fenster eine Gausssche Glockenkurve -> Gabor Transformation
 
 ---
 
-![Fensterung](Fensterung.md)
+![Fensterung](../../Systemtheorie/Signalverarbeitung/Fensterung.md)

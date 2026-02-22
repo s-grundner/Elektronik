@@ -1,5 +1,5 @@
 ---
-tags: ["Netzwerke"]
+tags: ["ComputerNetzwerke"]
 aliases: ["Session Layer", "Layer 5"]
 created: 30th August 2023
 ---

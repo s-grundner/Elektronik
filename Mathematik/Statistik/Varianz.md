@@ -9,6 +9,45 @@ created: 30th November 2022
 
 # Varianz
 
+Für eine Zufallsvariable $X$ ist die Varianz gegeben durch den Erwartungs wert der quadratischen Abweichung $\sigma_{X}^{2}$ zum Mittelwert $\mu_{X}$:
+
+> [!def] **D)** Varianz
+> 
+> $$
+> \operatorname{Var}(X) := \mathbb{E}[(X-\mathbb{E}(X))^{2}] = \mathbb{E}[(X-\mu_{X})^{2}] =:\sigma_{X}^{2}
+> $$
+
+
+## Allgemeiner Fall
+
+Liegen im Allgemeinen Fall eine Sammlung an Zufallsvariablen als Vektorgröße $(X_{1},X_{2},\ldots,X_{r})^{T} = \mathbf{X} \in \mathbb{R}^{r}$ vor:
+
+$$
+\mathbf{X} = \begin{bmatrix}
+X_{1} \\ X_{2} \\ \vdots \\ X_{r}
+\end{bmatrix}, \quad
+\mathbb{E}(\mathbf{X}) = \begin{bmatrix}
+\mathbb{E}(X_{1}) \\
+\mathbb{E}(X_{2}) \\
+\vdots \\
+\mathbb{E}(X_{r})
+\end{bmatrix} = \begin{bmatrix}
+\mu_{1} \\ \mu_{2} \\ \vdots \\ \mu_{r}
+\end{bmatrix} = \vec{\mu}
+$$
+
+Dann ist die Varianz
+
+$$
+\operatorname{Var}(\mathbf{X}) = \mathbb{E}[\underbrace{ (\mathbf{X}-\mathbb{E}(\mathbf{X}))^{T}}_{1\times r }\cdot\underbrace{ (\mathbf{X}-\mathbb{E}(\mathbf{X})) }_{ r \times 1 }] \in\mathbb{R}
+$$
+
+- [Skalarprodukt](../Algebra/Skalarprodukt.md)
+- [Transposition](../Algebra/Transponieren.md)
+
+
+# Old
+
 $$
 \begin{align*}
 &\sigma^{2}= \frac{1}{n}\cdot\sum\limits_{i=1}^{n}(x_{i}-\overline{x})^{2}\\

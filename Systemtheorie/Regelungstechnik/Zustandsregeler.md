@@ -19,6 +19,7 @@ title: Zustandsregler
 # Lineare Zustandsregelung
 
 :LiRefreshCcw: [Zustandsbeobachter](Zustandsbeobachter.md)
+:LiArrowBigRightDash: [Erreichbarkeit](Erreichbarkeit.md)
 
 ---
 

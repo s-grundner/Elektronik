@@ -17,24 +17,32 @@ professor:
 
 Ermittlung mittels [Eigenwerte](Eigenvektor.md)
 
-> [!def] **D1 - DEFI)** Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. $A$ heißt ^D1-DEFI
+> [!def] **D1 - DEFI)** Sei $\mathbf{A} \in \mathbb{R}^{n \times n}$ symmetrisch. $A$ heißt ^D1-DEFI
 > 
-> (a) **positiv semidefinit**, wenn alle [Eigenwerte](Eigenvektor.md) von $A$ nicht negativ sind. *==($\geq 0$)==*
-> 
-> (b) **positiv definit**, wenn alle [Eigenwerte](Eigenvektor.md) von $A$ positiv sind. *==($>0$)==*
-> 
-> (c) **negativ semidefinit**, wenn alle [Eigenwerte](Eigenvektor.md) von $A$ nicht positiv sind. *==($\leq 0$)==*
-> 
-> (d) **negativ definit**, wenn alle [Eigenwerte](Eigenvektor.md) von $A$ negativ sind. *==($<0$)==*
-> 
-> (e) **indefinit** sonst. *==(Es gibt positive und negative Eigenwerte)==*
-> 
+> 1. **positiv semidefinit**
+>    - $\mathbf{x}\mathbf{A}\mathbf{x}^{T} \geq 0\quad\forall \mathbf{x} \in \mathbb{R}^{n}$
+>    - wenn alle [Eigenwerte](Eigenvektor.md) von $\mathbf{A}$ nicht negativ ($\geq0$) sind. 
+> 2. **positiv definit**
+>    - $\mathbf{x}\mathbf{A}\mathbf{x}^{T} > 0\quad\forall \mathbf{x} \in \mathbb{R}^{n}$
+>    -  wenn alle Eigenwerte von $\mathbf{A}$ positiv ($>0$) sind. 
+> 3. **negativ semidefinit**
+>    - $\mathbf{x}\mathbf{A}\mathbf{x}^{T} \leq 0\quad\forall \mathbf{x} \in \mathbb{R}^{n}$
+>    - wenn alle Eigenwerte von $\mathbf{A}$ nicht positiv ($\leq 0$) sind. 
+> 4. **negativ definit**
+>    - $\mathbf{x}\mathbf{A}\mathbf{x}^{T} < 0\quad\forall \mathbf{x} \in \mathbb{R}^{n}$
+>    - wenn alle Eigenwerte von $\mathbf{A}$ negativ ($<0$) sind. 
+> 5. **indefinit** sonst. *(Es gibt positive und negative Eigenwerte)*
 
-Ermittlung mittels [Hauptminoren](Hauptminoren.md)
+Die definitheit symmetrischer Matrizen kann auch mittels [Hauptminoren](Hauptminoren.md) gezeigt werden.
 
-> [!satz] **S1 - DEFI)** Sei $A \in \mathbb{R}^{n \times n}$ symmetrisch. Dann gilt: ^S1-DEFI
-(a) $A$ ist **positiv** definit $\Longleftrightarrow \forall i \in\{1, \ldots, n\}: M_i>0$
-(b) $A$ ist **negativ** definit $\Longleftrightarrow \forall i \in\{1, \ldots, n\}:(-1)^i M_i>0$
+> [!satz] **S1 - DEFI)** Sei $\mathbf{A} \in \mathbb{R}^{n \times n}$ symmetrisch. Dann gelten die Eigenschaften ^S1-DEFI
+> 1. $\mathbf{A}$ ist **positiv semidefinit**, wenn $M_i\geq 0$
+> 2. $\mathbf{A}$ ist **positiv definit**, wenn $M_i>0$
+> 3. $\mathbf{A}$ ist **negativ semidefinit**, wenn $(-1)^i M_i\geq 0$
+> 4. $\mathbf{A}$ ist **negativ definit**, wenn $(-1)^i M_i>0$
+> 
+>  $\forall i \in\{1, \ldots, n\}$
+>  
 
 
 

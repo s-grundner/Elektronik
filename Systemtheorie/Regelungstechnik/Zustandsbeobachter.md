@@ -36,3 +36,9 @@ geeigneter Dimension $n$ mit den **Eingängen** $\mathbf{u}$ und $\mathbf{y}$ ko
 ![invert_dark|600](../../_assets/Pasted%20image%2020250525200012.png)
 
 Dieses System beziechnet man als Beobachter.
+
+## Kalman Filter
+
+> [!question] [Kalman Filter](../../Mathematik/Statistik/Kalman%20Filter.md)
+
+Ist das System Zufallsgrößen wie Störungen und Rauschen ausgesetzt, so versucht man den Systemzustand abzuschätzen. Eine Möglichkeit dazu bietet der Kalman-Filter (oder Linear Quadratic Estimator - LQE).

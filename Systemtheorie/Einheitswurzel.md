@@ -16,7 +16,7 @@ professor:
 
 # Einheitswurzel
 
-> [!question] [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md) | [DFT](Signalverarbeitung/DFT.md) | [FFT](../Softwareentwicklung/DS-Algo/FFT.md)
+> [!question] [Zeitdiskrete Fourierreihe](Zeitdiskrete%20Fourierreihe.md) | [DFT](Signalverarbeitung/DFT.md) | [FFT](../Softwareentwicklung/DSA/FFT.md)
 
 Die Einheitswurzel ist eine Abkürzung für eine, häufig in der [DFT](Signalverarbeitung/DFT.md) benötigten, komplexen Exponentialfunktion mit einem Speziell auf eine **Abtastperiode** $N$ normierte **Phase**. 
 

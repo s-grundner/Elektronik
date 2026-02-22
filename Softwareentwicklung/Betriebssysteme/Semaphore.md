@@ -13,7 +13,7 @@ Eine weitere Möglichkeit der Synchronisation bieten die sogenannten Semaphore (
 Semaphore beinhalten:
 
 - einen Zähler, dieser signalisiert wieviel Zugänge noch möglich sind. Beim Eintritt wird der Zähler dekrementiert. Wenn der Zähler auf 0 steht, ist kein Eintritt möglich. Beim Verlassen wird der Zähler wiederum inkrementiert.
-- eine [Queue](../DS-Algo/FIFO%20Queue.md), in dieser werden die Threads nach Ankunft gereiht wenn der Zähler 0 ist. Wird der Zähler wieder größer 0, dann wird einer der gequeueten Threads aktiviert.
+- eine [Queue](../DSA/FIFO%20Queue.md), in dieser werden die Threads nach Ankunft gereiht wenn der Zähler 0 ist. Wird der Zähler wieder größer 0, dann wird einer der gequeueten Threads aktiviert.
 
 Im Gegensatz zu [Mutex](Mutex.md) wird von [C++](../Cpp/index.md) kein Semaphor-Mechanismus angeboten und muss daher, wenn gewünscht, selbst implementiert werden:
 

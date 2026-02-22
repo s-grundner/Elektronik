@@ -23,7 +23,7 @@ professor:
 
 
 >[!example]- Preis von zusammengesetzter Ressourcen
-> [[../DS-Algo/Tree|Baum]]-Graphen zur Zusammensetzung von Gegenständen
+> [[../DSA/Tree|Baum]]-Graphen zur Zusammensetzung von Gegenständen
 > - atomare Ressourcen geben einen Preis vor.
 > - Zutaten fragen bis zu ihren Blattknoten den Preis ab.
 > 

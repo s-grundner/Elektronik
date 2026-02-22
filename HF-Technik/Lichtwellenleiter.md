@@ -19,7 +19,7 @@ created: 28th March 2022
 
 1. Schneller
 2. Keine EM Störung
-3. Höhere Bandbreite/ [Kanalkapazität](../Netzwerktechnik/Kanalkapazität.md)
+3. Höhere Bandbreite/ [Kanalkapazität](../Netzwerktechnik/Informationstheorie/Kanalkapazität.md)
 
 ## Aufbau
 

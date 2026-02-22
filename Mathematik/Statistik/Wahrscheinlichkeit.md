@@ -79,8 +79,4 @@ $$
 > \mathbb{P} \left( \bigcap_{i=1}^{n} A_{i} \right) = \prod_{i=1}^{n} \mathbb{P}(A_{i})
 > $$
 
-## Referenzen
-
-[Zufallsexperimente - Dimitry Efrosinin](../../xEDU/B5_WS25/WuSP/02_Zufallsexperimente.nb)
-
 [^1]: Disjunkte Eregnisse $\iff$ **unabhängige Ereignisse** $\iff A \cap B = \{ \}$

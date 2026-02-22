@@ -148,13 +148,24 @@ Es gibt zu den trigonometrischen Funktionen jeweils Umkehrfunktionen, genannt Ar
 
 ## Integrale
 
+
+Trig Funktionen
+
 $$
-\begin{aligned}
-\text{Trig.-Funktionen:} & \int \sin x d x=-\cos x,\quad\int \cos x d x=\sin x,\\
-& \int \tan x d x=-\ln |\cos x| \quad \text { auf } \quad\left((2 k-1) \frac{\pi}{2},(2 k+1) \frac{\pi}{2}\right) \quad(k \in \mathbb{Z})\\
-\text{Arkus-Funktionen:} &  \int \frac{1}{\sqrt{1-x^2}} d x=\arcsin x \quad \text { auf }(-1,1)\\
-&\int \frac{1}{1+x^2} d x=\arctan x
-\end{aligned}
+\begin{gather}
+\int \sin x \mathrm{~d} x=-\cos x \\
+\int \cos x \mathrm{~d} x=\sin x,\\
+\int \tan x \mathrm{~d} x=-\ln |\cos x| \quad x \in\left((2 k-1) \frac{\pi}{2},(2 k+1) \frac{\pi}{2}\right) \quad(k \in \mathbb{Z})
+\end{gather}
+$$
+
+Arkus Funktionen
+
+$$
+\begin{gather}
+\int \frac{1}{\sqrt{1-x^2}} \mathrm{d} x=\arcsin x \quad x \in(-1,1)\\
+\int \frac{1}{1+x^2} \mathrm{d} x=\arctan x
+\end{gather}
 $$
 
 ---

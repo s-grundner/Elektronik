@@ -17,7 +17,7 @@ professor:
 
 # Model-View-Control MVC
 
-Das MVC-Pattern ist kein [Design Patterns](Entwurfsmuster.md) der GoF, allerdings hat es sich für GUI-Anwendungen sehr bewährt.
+Das MVC-Pattern ist kein [Design Patterns](index.md) der GoF, allerdings hat es sich für GUI-Anwendungen sehr bewährt.
 Dabei geht es darum graphische Kontrollelemente von der [Logik](../../Mathematik/Logik/Aussagenlogik.md) zu trennen:
 
  ![invert_dark](../../_assets/Pattern_MVC.png) 

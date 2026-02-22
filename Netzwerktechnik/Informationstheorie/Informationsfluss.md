@@ -15,7 +15,7 @@ title: Informationsfluss
 
 # Informationsfluss $F$
 
-> [!question] [Informationstheorie](Informationstheorie.md)
+> [!question] [index](index.md)
 
 ---
 

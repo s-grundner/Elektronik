@@ -52,6 +52,7 @@ Die Eigenwertgleichung ist hier auf eine Seite gebracht. Um das Skalar $\lambda$
 Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es gibt nur dann Eigenvektoren ungleich null, wenn die Matrix $A-\lambda \mathbb{1}$ **nicht vollen rang** hat also wenn die determinante null ist. Wir Suchen daher eigenwerte sodass diese Bedingung erfüllt ist.
 
 Äquivalente Aussagen für $\det{A-\lambda \mathbb{1}} = 0$ sind:
+
 - hat nicht vollen Rang
 - Das System ist nicht linear Unabhängig
 - Matrix ist singulär
@@ -73,6 +74,8 @@ Es werden mit der Eigenwert Gleichung zu jedem Eigenwert die Vektoren ermittelt.
 > 
 
 Die Geometrische Vielfachheit ist die **Dimension des Eigenraumes**.
+
+Treten keine Vielfachheiten der Eigenwerte auf, sind alle Eigenvektoren **orthogonal**.
 
 ## Hauptvektoren
 

@@ -17,7 +17,7 @@ title: Informationsgehalt
 
 # Informationsgehalt & Entropie 
 
-> [!question] [Informationstheorie](Informationstheorie.md)
+> [!question] [index](index.md)
 
 ---
 

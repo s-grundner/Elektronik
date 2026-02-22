@@ -83,5 +83,36 @@ In der Stochastik ist man weniger an der Zufallsvariable $Z$ selbst (also an dem
 
 ## Verteilungsdichten diskreter Zufallsvariablen
 
-![Verteilungsdichten diskreter Zufallsvariablen](Diskrete%20Verteilung.md#Verteilungsdichten%20diskreter%20Zufallsvariablen)
+![Verteilungsdichten diskreter Zufallsvariablen](Wahrscheinlichkeitsverteilung.md#Verteilungsdichten%20diskreter%20Zufallsvariablen)
 
+## Unabhängige Zufallsvariable
+
+> [!def] **D)** $X, Y, Z_1, Z_2, \ldots$ seien Zufallsvariablen auf einem beliebigen W-Raum $(\Omega, \mathbb{P})$.
+> 
+> 1. Die beiden Zufallsvariablen $X$ und $Y$ heißen **unabhängig**, falls für alle $A, B \subseteq \mathbb{R}$
+> 
+> $$
+> \mathbb{P}(\{X \in A\} \cap\{Y \in B\})=\mathbb{P}(\{X \in A\}) \cdot \mathbb{P}(\{Y \in B\})
+> $$
+> 
+> 2. Die Zufallsvariablen $Z_1, Z_2, \ldots$ heißen **paarweise unabhängig**, falls für alle $i \neq k$ und alle $A, B \subseteq \mathbb{R}$
+> 
+> $$
+> \mathbb{P}(\{Z_i \in A\} \cap\{Z_k \in B\})=\mathbb{P}(\{Z_i \in A\}) \cdot \mathbb{P}(\{Z_k \in B\})
+> $$
+> 
+> 3. Die Zufallsvariablen $Z_1, Z_2, \ldots$ heißen **vollständig unabhängig**, falls für jede Auswahl von $k \in \mathbb{N}$ *paarweise verschiedenen* Zufallsvariablen $Z_{i_1}, Z_{i_2}, \ldots, Z_{i_k}$ und alle $A_1, A_2, \ldots, A_k \subseteq \mathbb{R}$
+> 
+> $$
+> \mathbb{P}(\{Z_{i_1} \in A_1\} \cap\{Z_{i_2} \in A_2\} \cap \ldots \cap\{Z_{i_k} \in A_k\})=\mathbb{P}(\{Z_{i_1} \in A_1\}) \cdot \mathbb{P}(\{Z_{i_2} \in A_2\}) \ldots \mathbb{P}(\{Z_{i_k} \in A_k\})
+> $$
+
+Man kann feststellen, dass zwei Zufallsvariablen unabhängig sind, indem man prüft,
+
+- ob die Bedingte Verteilungsdichte gleich der Marginalverteilungsdichte ist
+
+> [!question] Siehe: [Bedingte Verteilungsdichte](Wahrscheinlichkeitsverteilung.md#Bedingte%20Verteilungsdichte)
+
+- oder ob die [Kovarianz](Kovarianz.md) $\operatorname{Cov}(X,Y) = 0$ ist.
+
+![](Kovarianz.md#^UNCORRELATED)

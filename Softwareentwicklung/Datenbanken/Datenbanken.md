@@ -20,14 +20,14 @@ abgerufen oder abgelegt werden, dann ist der Einsatz von *Datenbanken* zweckmä�
 
 ## Software
 
-Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: ein *LAMP* [LIFO Stack](../DS-Algo/LIFO%20Stack.md) ist ein Akronym für *LinuxApacheMysqlPhp*, das *X* steht für mehrere OS, das zweite *P* für Perl). Darin ist eine *MariaDB*-Datenbank verfügbar (<https://www.apachefriends.org/de/index.html)> auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. Für diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
+Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: ein *LAMP* [LIFO Stack](../DSA/LIFO%20Stack.md) ist ein Akronym für *LinuxApacheMysqlPhp*, das *X* steht für mehrere OS, das zweite *P* für Perl). Darin ist eine *MariaDB*-Datenbank verfügbar (<https://www.apachefriends.org/de/index.html)> auf die via *MySQL* zugegriffen werden kann. In *XAMPP* ist auch ein *Apache*-Web-Server enthalten. Für diesen Webserver kann eine Web-Seite entwickelt werden die mittels *php* auf die Datenbank zugreift.
 
 ![lampStack](../../_assets/lampStack.png)
 
 ## Anforderung an Eine Datenbank
 
 - Sammlung logisch verbundener Daten
-- Speicherung der Daten mit möglichst wenig [Redundanz](../../Netzwerktechnik/Redundanz.md) (Mehrfachspeicherung)
+- Speicherung der Daten mit möglichst wenig [Redundanz](../../Netzwerktechnik/Informationstheorie/Redundanz.md) (Mehrfachspeicherung)
 - Abfragemöglichkeit und Änderbarkeit von Daten
 - Unabhängigkeit der logischen Daten von der physischen Struktur. Wie die Daten physisch gespeichert sind, darf keinen Einfluss auf die Anwendung haben. Wird im Internet eine Information eingeholt, wollen wir uns nicht damit beschäftigen (müssen), auf welche Art die Information irgendwo gespeichert ist.
 - Zugriffsschutz (Rechtevergabe)
@@ -58,7 +58,7 @@ Für die Einführung in Datenbanken empfiehlt sich für uns *XAMPP* (Allgemein: 
   ![](../../_assets/DB_hierarchischesModell.png)
 
 - **Relationale DB**  
-  Organisation in Tabellen (Relationen) - sehr verbreitet, einfach, [redundant](../../Netzwerktechnik/Redundanz.md) (siehe Unten)
+  Organisation in Tabellen (Relationen) - sehr verbreitet, einfach, [redundant](../../Netzwerktechnik/Informationstheorie/Redundanz.md) (siehe Unten)
 
 - **Objektorientiert** - sehr an Computerprogrammierung angepasst (Vertreter: db4o, PostgreSQL). Es können nicht nur Daten sondern auch Algorithmen abgelegt werden (~Methoden von Klassen)
 
@@ -80,7 +80,7 @@ In einer relationalen Datenbank sind die Daten in voneinander abhängigen Tabell
 - Fremdschlüssel: Schlüssel für Zuordnung zu anderer Tabelle (kann mehrfach vorkommen). In dieser anderen Tabelle ist dieser Schlüssel der Primärschlüssel
 - Relationsschema R(A1:D1, …, Ak:Dk) (Gesamtheit der Attribute einer Tabelle)
 - Relationale Datenbank: Menge der Teil-Relationsschemen mit zugehörigen Werten
-- [Redundanz](../../Netzwerktechnik/Redundanz.md): Daten sind in einer Tabelle mehrfach abgelegt. Zum Beispiel kann in einer Rechnungstabelle ein Kunde öfter aufscheinen und ist damit [redundant](../../Netzwerktechnik/Redundanz.md).
+- [Redundanz](../../Netzwerktechnik/Informationstheorie/Redundanz.md): Daten sind in einer Tabelle mehrfach abgelegt. Zum Beispiel kann in einer Rechnungstabelle ein Kunde öfter aufscheinen und ist damit [redundant](../../Netzwerktechnik/Informationstheorie/Redundanz.md).
 - atomar: etwas nicht mehr weiter (sinnvoll) zerlegbares. Ein Name "Max Mustermann" lässt sic in die atomaren Teile "Max" und "Mustermann" zerlegen (es kann ja mehrere Max und mehrere Mustermann geben).
 - Integrität: zusammenpassende Werte. Wenn ein und die gleiche Person Max Mustermann (samt SV-Nr.) in einer DB unterschiedliche Personalnummern hat, ist die Datenbank nicht integer.
 - Statische Integrität: gespeicherte Daten sind in sich integral.

@@ -14,7 +14,7 @@ professor:
 
 # Verhaltensmuster
 
-> [!question] [Design Patterns](Entwurfsmuster.md)
+> [!question] [Design Patterns](index.md)
 
 - [Observer-Pattern](Observer-Pattern.md)
 - [Iterator](../../Java/Iterator.md)

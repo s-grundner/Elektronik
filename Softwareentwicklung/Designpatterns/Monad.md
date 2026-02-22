@@ -12,14 +12,11 @@ created: 10. November 2024
 
 ```tikz
 \usepackage{tikz-cd}
-
 \begin{document}
-
 \begin{tikzcd}[cells={nodes={scale=1.5}}]
 T(T(T(X))) \arrow[r, "T(\mu_X)"] \arrow[d, "\mu_{T(X)}"'] & T(T(X)) \arrow[d, "\mu_X"] \\
 T(T(X)) \arrow[r, "\mu_X"'] & T(X)
 \end{tikzcd}
-
 \end{document}
 ```
 
@@ -33,6 +30,6 @@ Die Einheitsfunktion bildet das Basiselement (welches in dieser Modellierung noc
 
 ---
 
-[Intro zu Monaden](https://www.youtube.com/watch?v=C2w45qRc3aU&t=365s)
+![What is a monad? (Design Pattern) - YouTube](https://www.youtube.com/watch?v=VgA4wCaxp-Q)
 
-[What is a monad? (Design Pattern) - YouTube](https://www.youtube.com/watch?v=VgA4wCaxp-Q)
+![Intro zu Monaden](https://www.youtube.com/watch?v=C2w45qRc3aU&t=365s)

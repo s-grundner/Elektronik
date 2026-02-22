@@ -35,7 +35,7 @@ Letzte Lesbare Sprachebene. Meistens sind die Befehle elementare Operationen
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Zusammenhänge von operationen schwer erkennbar | Gute Lesbarkeit                                                                                                                  |
 | Einfache Befehle                               | Komplexe Sprachkonstrukte                                                                                                        |
-| Direkter Speicherzugriff                       | Implementiert selbst Memory Management<br>oder ein abstraktes Interface dafür.<br>(Garbage Collector, [Heap](../../Softwareentwicklung/DS-Algo/Heap.md), Ownership/Borrowing) |
+| Direkter Speicherzugriff                       | Implementiert selbst Memory Management<br>oder ein abstraktes Interface dafür.<br>(Garbage Collector, [Heap](../../Softwareentwicklung/DSA/Heap.md), Ownership/Borrowing) |
 
 ## Instructionset Architecture
 

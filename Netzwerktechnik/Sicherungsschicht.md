@@ -1,6 +1,6 @@
 ---
 tags:
-  - Netzwerke
+  - ComputerNetzwerke
 aliases:
   - Data Link Layer
   - Layer 2
@@ -33,10 +33,8 @@ created: 4th April 2022
 	- Die betroffene Station antwortet mit seiner IP und der gesuchten MAC.
 	- Mit RARP wird umgekehrt die IP zu einer bekannten MAC-Adresse ermittelt. Unter Windows kann in der Konsole mittels `arp` auf die Zuordnungstabelle zugegriffen werden.
 
-# Tags
+## Referenzen
 
-![4-FS_ComputerNetze](../xEDU/xLiteratur/Netzwerke/Christian-Baun-pdf/4-FS_ComputerNetze.pdf)
-
-![5-FS_ComputerNetze](../xEDU/xLiteratur/Netzwerke/Christian-Baun-pdf/5-FS_ComputerNetze.pdf)
-
-![6-FS_ComputerNetze](../xEDU/xLiteratur/Netzwerke/Christian-Baun-pdf/6-FS_ComputerNetze.pdf)
+- [4-FS_ComputerNetze](../xEDU/xLiteratur/Netzwerke/Christian-Baun-pdf/4-FS_ComputerNetze.pdf)
+- [5-FS_ComputerNetze](../xEDU/xLiteratur/Netzwerke/Christian-Baun-pdf/5-FS_ComputerNetze.pdf)
+- [6-FS_ComputerNetze](../xEDU/xLiteratur/Netzwerke/Christian-Baun-pdf/6-FS_ComputerNetze.pdf)

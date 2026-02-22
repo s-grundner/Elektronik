@@ -8,9 +8,7 @@ created: 31. Dezember 2024
 
 # Dataview JS
 
-```dataview
-LIST FROM #Dataview
-```
+---
 
 
 - [Is it possible to create an external dataview.js file that is dynamically shared across multiple pages? : r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/comments/1fefc4n/is_it_possible_to_create_an_external_dataviewjs/?rdt=60386)
