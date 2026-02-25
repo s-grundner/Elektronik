@@ -39,7 +39,7 @@ Mit der folgenden Skizze wird diese Situation verdeutlicht. Man erkennt
 - Das Ereignis $\{ Z \in B \} = \{ \omega \in \Omega | Z(\omega) \in B \}$
 - Die durch das W-Maß $\mathbb{P}$ auf $\Omega$ und die Zufallsvariable $Z$ bestimmte Verteilung $\mathbb{P}_{Z}$ auf $\mathbb{R}$.
 
-![](../../_assets/Pasted%20image%2020260214012847.png)
+![invert_dark](../../_assets/Pasted%20image%2020260214012847.png)
 
 > [!example]- Beispiele für **diskrete** Zufallsvariablen
 > -	Das Beobachten der Augensumme beim Würfeln mit drei homogenen Würfeln;
@@ -75,15 +75,15 @@ In der Stochastik ist man weniger an der Zufallsvariable $Z$ selbst (also an dem
 > [!satz] **S)** Die Verteilung einer Zufallsvariable $Z$ ist ein W-Maß auf $\mathbb{R}$, es gilt also
 > 1. $\mathbb{P}_{Z}(\mathbb{R}) = 1$
 > 2. für alle Mengen $B\subseteq \mathbb{R}$ ist $\mathbb{P}_{Z}(B)\geq 0$
-> 3. für endlich oder abzählbar unendlich viele paarweise disjunkte Mengen $B_{1},\ldots,B_{n},\ldots \subseteq \mathbb{R}$ gilt
+> 3. für endlich oder abzählbar unendlich viele paarweise disjunkte Mengen $B_{1},\ldots,B_{n},\ldots \subseteq \mathbb{R}$ gilt [^1]
 > 
 > $$
-> \mathbb{P}_{Z}(B_{1} \cup \ldots \cup B_{n} \cup \ldots) = \mathbb{P}_{Z}(B_{1}) + \ldots + \mathbb{P}_{Z}(B_{n}) + \ldots
+> \mathbb{P}_{Z}\left( \textstyle\bigcup_{\{ B_{n} \subseteq \mathbb{R} \}} B_{n} \right) = \sum_{\{ B_{n} \subseteq \mathbb{R} \}} \mathbb{P}_{Z}\left( B_{n} \right) 
 > $$
 
 ## Verteilungsdichten diskreter Zufallsvariablen
 
-![Verteilungsdichten diskreter Zufallsvariablen](Wahrscheinlichkeitsverteilung.md#Verteilungsdichten%20diskreter%20Zufallsvariablen)
+![Verteilungsdichten diskreter Zufallsvariablen](Wahrscheinlichkeitsverteilung.md#^DZ-DF)
 
 ## Unabhängige Zufallsvariable
 
@@ -101,18 +101,24 @@ In der Stochastik ist man weniger an der Zufallsvariable $Z$ selbst (also an dem
 > \mathbb{P}(\{Z_i \in A\} \cap\{Z_k \in B\})=\mathbb{P}(\{Z_i \in A\}) \cdot \mathbb{P}(\{Z_k \in B\})
 > $$
 > 
-> 3. Die Zufallsvariablen $Z_1, Z_2, \ldots$ heißen **vollständig unabhängig**, falls für jede Auswahl von $k \in \mathbb{N}$ *paarweise verschiedenen* Zufallsvariablen $Z_{i_1}, Z_{i_2}, \ldots, Z_{i_k}$ und alle $A_1, A_2, \ldots, A_k \subseteq \mathbb{R}$
+> 1. Die Zufallsvariablen $Z_1, Z_2, \ldots$ heißen **vollständig unabhängig**, falls für jede Auswahl von $n \in \mathbb{N}$ *paarweise verschiedenen* Zufallsvariablen $Z_{i_1}, Z_{i_2}, \ldots, Z_{i_n}$ und alle $A_1, A_2, \ldots, A_n \subseteq \mathbb{R}$ [^2]
 > 
 > $$
-> \mathbb{P}(\{Z_{i_1} \in A_1\} \cap\{Z_{i_2} \in A_2\} \cap \ldots \cap\{Z_{i_k} \in A_k\})=\mathbb{P}(\{Z_{i_1} \in A_1\}) \cdot \mathbb{P}(\{Z_{i_2} \in A_2\}) \ldots \mathbb{P}(\{Z_{i_k} \in A_k\})
+> \mathbb{P}\left(\bigcap_{k=1}^{n} \{ Z_{i_{k}} \in A_{k}\} \right) = \prod_{k=1}^{n}\mathbb{P}(\{ Z_{i_{k}} \in A_{k} \})
 > $$
 
 Man kann feststellen, dass zwei Zufallsvariablen unabhängig sind, indem man prüft,
 
-- ob die Bedingte Verteilungsdichte gleich der Marginalverteilungsdichte ist
+- ob die [Bedingte Verteilungsdichte](Wahrscheinlichkeitsverteilung.md#Bedingte%20Verteilungsdichte) gleich der Marginalverteilungsdichte ist
+- oder ob die [Kovarianz](Kovarianz.md#^UNCORRELATED) $\operatorname{Cov}(X,Y) = 0$ ist.
 
-> [!question] Siehe: [Bedingte Verteilungsdichte](Wahrscheinlichkeitsverteilung.md#Bedingte%20Verteilungsdichte)
+[^1]: $$
+	\mathbb{P}_{Z}(B_{1} \cup \ldots \cup B_{n} \cup \ldots) = \mathbb{P}_{Z}(B_{1}) + \ldots + \mathbb{P}_{Z}(B_{n}) + \ldots
+	$$
 
-- oder ob die [Kovarianz](Kovarianz.md) $\operatorname{Cov}(X,Y) = 0$ ist.
-
-![](Kovarianz.md#^UNCORRELATED)
+[^2]: $$
+	\begin{align}
+	&\mathbb{P}(\{Z_{i_1} \in A_1\} \cap\{Z_{i_2} \in A_2\} \cap \ldots \cap\{Z_{i_n} \in A_n\})\\
+	=~&\mathbb{P}(\{Z_{i_1} \in A_1\}) \cdot \mathbb{P}(\{Z_{i_2} \in A_2\}) \cdot\ldots\cdot \mathbb{P}(\{Z_{i_n} \in A_n\})
+	\end{align}
+	$$

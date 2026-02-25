@@ -81,7 +81,7 @@ Die Punkte an den Stellen $z\in \mathbb{T_{P}}$ entsprechen dabei den Wahrschein
 
 ### Verteilungsdichten diskreter Zufallsvariablen
 
-> [!def] **D)** Unter eine **Verteilungsdichte** $\mathbb{f}_{Z}$ einer **diskreten Zufallsvariable** $Z$ versteht man die Verteilungsdichte der Verteilung $\mathbb{P}_{Z}$ von $Z$, also die Abbilung
+> [!def] **D)** Unter eine **Verteilungsdichte** $\mathbb{f}_{Z}$ einer **diskreten Zufallsvariable** $Z$ versteht man die Verteilungsdichte der Verteilung $\mathbb{P}_{Z}$ von $Z$, also die Abbilung ^DZ-DF
 > 
 > $$
 > \mathbb{f}_{Z} : \mathbb{R} \to \mathbb{R} \quad \text{mit} \quad \mathbb{f}_{Z} (z) = \begin{cases}

@@ -1,6 +1,15 @@
 ---
-title: "Statistik"
+title: Wahrscheinlichkeit, Statistik und Stochastische Prozesse
 description: ""
+tags:
+aliases:
+subject:
+  - KV
+  - Wahrscheinlichkeitstheorie und stochastische Prozesse
+semester: WS25
+created: 22nd February 2026
+professor:
+release: false
 ---
 
 # Wahrscheinlichkeitstheorie
