@@ -55,7 +55,7 @@ professor:
 ## Tags
 
 - [Paralleler Leitungsabschluss](Paralleler%20Leitungsabschluss.md)
-- [Serieller Leitungsabschluss](../Hardwareentwicklung/Serial%20Termination.md)
+- [Serieller Leitungsabschluss](../Analog-Design/Serial%20Termination.md)
 
 ## Quellen
 

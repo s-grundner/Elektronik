@@ -34,7 +34,7 @@ Die Komponenten einer Schwingung in der [lineare DGL zweiter Ordnung](../../Math
 
 # Hardware Implementationen
 
-- [LC Oszillatoren](../../Hardwareentwicklung/Oszillatoren/LC%20Oszillatoren.md)
-- [Colpitts Oszillator](../../Hardwareentwicklung/Oszillatoren/Colpitts%20Oszillator.md)
+- [LC Oszillatoren](../../Analog-Design/Oszillatoren/LC%20Oszillatoren.md)
+- [Colpitts Oszillator](../../Analog-Design/Oszillatoren/Colpitts%20Oszillator.md)
 
 # Tags

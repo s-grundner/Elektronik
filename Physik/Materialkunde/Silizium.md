@@ -15,16 +15,17 @@ at: 10GHz
 semester: WS24
 professor:
   - Bernhard Jakoby
-banner: "assets/banner/GrundnerWafer.jpg"
+banner: assets/banner/GrundnerWafer.jpg
 banner_y: 0.3525
+release: false
 ---
 
 # Silizium
 
-> Siehe [[../Quantenmechanik/Halbleiterphysik]] 
+> Siehe [Halbleiterphysik](../Quantenmechanik/Halbleiterphysik.md) 
 
 # Tags
 
-[Transistoren](../../Hardwareentwicklung/Halbleiter/Transistor.md)  
-[Diode](../../Hardwareentwicklung/Halbleiter/Diode.md)  
+[Transistoren](../../Analog-Design/Halbleiter/Transistor.md)  
+[Diode](../../Analog-Design/Halbleiter/Diode.md)  
 [Chemische Bindungen](../../Chemie/Chemische%20Bindungen.md)

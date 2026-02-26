@@ -10,7 +10,7 @@ created: 31st March 2022
 
 ## Thermoelement
 
-## [PTC](../Hardwareentwicklung/Temperatur%20abhängiger%20Widerstand.md)-[Temperatur](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Sensoren (Kaltleiter)
+## [PTC](../Analog-Design/Temperatur%20abhängiger%20Widerstand.md)-[Temperatur](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Sensoren (Kaltleiter)
 
 ---
 

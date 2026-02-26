@@ -13,7 +13,7 @@ created: 7th June 2022
 # Piezoelektrik
 
 > [!example]- Rechenbeispiel
-> Ein [Quarz](../Hardwareentwicklung/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md) von $F=1kN$ belastet.
+> Ein [Quarz](../Analog-Design/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md) von $F=1kN$ belastet.
 > Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/elektrisches%20Feld.md) abgeklungen?
 > $$
 > \begin{align*}
@@ -68,4 +68,4 @@ Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
 # Tags
 
-[Quarz](../Hardwareentwicklung/Oszillatoren/Quartzoszillator.md)
+[Quarz](../Analog-Design/Oszillatoren/Quartzoszillator.md)

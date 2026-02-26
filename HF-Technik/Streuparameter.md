@@ -11,7 +11,7 @@ created: 28th September 2022
 
 **Streuparameter**, abgekürzt **S-Parameter**, dienen zur Beschreibung des Verhaltens linearer elektrischer Netzwerke im **Kleinsignalverhalten** mittels Wellengrößen.
 
-- Beschreiben z.B. [Filter](../Hardwareentwicklung/Filter-Verstärker/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
+- Beschreiben z.B. [Filter](../Analog-Design/Filter-Verstärker/Filter.md), [Antenne](Antenne.md), [Mischer](Mischer.md)
 - Wellenparameter = Teilspannungen (siehe [S-Parameter mit Strom und Spannungswellen](#S-Parameter%20mit%20Strom%20und%20Spannungswellen))
 - Widerstandsparameter bei Serienschaltung
 - Leitwert bei Parallelschaltungen
@@ -133,7 +133,7 @@ $$
 
 ## Zweitor
 
-Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Vierpol](../Hardwareentwicklung/Vierpol.md) -> 4 S-Parameter.
+Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Vierpol](../Analog-Design/Vierpol.md) -> 4 S-Parameter.
 
 ![invert_light](../_assets/MGL-Zweitor.png)
 

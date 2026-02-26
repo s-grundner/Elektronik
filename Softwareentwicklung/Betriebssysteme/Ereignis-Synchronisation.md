@@ -9,7 +9,7 @@ Beispiel **Producer-Consumer**:
 
   einfachste Lösung: Auslösen einer Exception für Buffer-Overflow/-Underflow
 
-[FIFO](../DSA/FIFO%20Queue.md)-Buffer, am Einfachsten realisiert als [Ringbuffer](../../Digitaltechnik/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
+[FIFO](../DSA/FIFO%20Queue.md)-Buffer, am Einfachsten realisiert als [Ringbuffer](../../Digital-Design/Ringbuffer.md). Die Position des Schreibens und Lesens wird mittels eines Index in einem Array festgelegt. Die 8 Plätze in diesem Beispiel bieten Platz für bis zu 7 Elemente (würden 8 Elemente zugelassen, kann Voll nicht von Leer unterschieden werden …):
 
 ![invert_dark](../../_assets/OS_FiFo.png)
 

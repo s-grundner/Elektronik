@@ -19,7 +19,7 @@ title: Drahtlose Übertragung
 
 Um Daten Drahtlos zu übertragen benötigt man ein elektronisches System, welches das Nutzsignal so aufbereitet, um es mit einer Antenne über den Freiraum als Elektromagnetische Welle auszustrahlen. 
 
-> [!example] z.B. Praktische Implementierung am [CC1101](../Digitaltechnik/Devices/CC1101.md)-Radarchip
+> [!example] z.B. Praktische Implementierung am [CC1101](../Digital-Design/Devices/CC1101.md)-Radarchip
 
 ## Wieso finden drahtlose Übertragungen immer mit hohen frequenzen statt?
 

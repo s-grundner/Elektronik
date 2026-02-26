@@ -80,7 +80,7 @@ Man unterscheidet im Allgemeinen Zwischen **Kohärenter** und **Nicht Kohärente
 Synchronisation der Frequenz
 
 - Domintante Spektrallinien aus dem Spektrum Filtern
-- Mit [PLL](../Hardwareentwicklung/Oszillatoren/Phase%20Locked%20Loop.md) möglich
+- Mit [PLL](../Analog-Design/Oszillatoren/Phase%20Locked%20Loop.md) möglich
 
 Synchronisation der Phase
 

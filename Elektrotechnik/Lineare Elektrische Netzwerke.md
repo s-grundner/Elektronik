@@ -32,9 +32,9 @@ professor:
 | ![](../_assets/G.png) | ![](../_assets/C.png) | ![](../_assets/B.png) | ![](../_assets/Y.png) | ![](../_assets/I.png) |
 
 
-> [!summary] [**Vierpol-Parameter)**](../Hardwareentwicklung/Vierpol.md) Ein und Ausgangsbeziehungen von Netzwerken
+> [!summary] [**Vierpol-Parameter)**](../Analog-Design/Vierpol.md) Ein und Ausgangsbeziehungen von Netzwerken
 
-|    Impedanzmatrix    |     Hybridmatrix     |     [Kettenmatrix](../Hardwareentwicklung/Kettenmatrix.md)     |    [Streuparameter](../HF-Technik/Streuparameter.md)    |
+|    Impedanzmatrix    |     Hybridmatrix     |     [Kettenmatrix](../Analog-Design/Kettenmatrix.md)     |    [Streuparameter](../HF-Technik/Streuparameter.md)    |
 | :------------------: | :------------------: | :------------------: | :------------------: |
 | ![](../_assets/zMat.png) | ![](../_assets/hMat.png) | ![](../_assets/aMat.png) | ![](../_assets/sMat.png) |
 | ![](../_assets/yMat.png) | ![](../_assets/gMat.png) | ![](../_assets/bMat.png) |                      |
@@ -43,7 +43,7 @@ professor:
 
 > [!info] Ein Netzwerk besteht im allgemeinen aus $n$-Polen ($n\geq 2$)
 > Da sich $n$-Pole durch [Zweipole](Zweipol.md) modellieren lassen, betrachten wir **Nur aus Zweipolen bestehende Netzwerke**.
-> - z.B lassen sich für [Transistoren](../Hardwareentwicklung/Halbleiter/Transistor.md), die in der Regel drei Anschlüsse haben, Ersatzschaltbilder angeben, die Ausschließlich aus Zweipolen bestehen (siehe [Kleinsignal Ersatzschaltbild](../Hardwareentwicklung/Halbleiter/BJT%20Kleinsignalverhalten.md))
+> - z.B lassen sich für [Transistoren](../Analog-Design/Halbleiter/Transistor.md), die in der Regel drei Anschlüsse haben, Ersatzschaltbilder angeben, die Ausschließlich aus Zweipolen bestehen (siehe [Kleinsignal Ersatzschaltbild](../Analog-Design/Halbleiter/BJT%20Kleinsignalverhalten.md))
 > 
 > ![invert_dark|700](../_assets/Schaltungsanalyse%202025-01-13%2022.21.43.excalidraw.svg)
 > %%[🖋 Edit in Excalidraw](../_assets/Schaltungsanalyse%202025-01-13%2022.21.43.excalidraw.md)%%
@@ -58,7 +58,7 @@ Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass
 
 ### Verfahren Für die Analyse
 
-- [Knotenpotentialverfahren](../Hardwareentwicklung/Knotenpotentialverfahren.md)
+- [Knotenpotentialverfahren](../Analog-Design/Knotenpotentialverfahren.md)
 - [Maschenstromverfahren](Maschenstromverfahren.md)
 
 ### Grafische Netzwerkanalyse

@@ -37,7 +37,7 @@ $$
 > [!hint] Mit dem Innenwiderstand $R_{i}$ kann der Spannungseinbruch, der Entsteht, wenn eine Last an die Quelle angehängt wird, modelliert werden
 > siehe: [Spannungsquelle](elektrische%20Spannung.md) 
 
-## Norton ESB: [Stromquelle](../Hardwareentwicklung/Stromquelle.md)
+## Norton ESB: [Stromquelle](../Analog-Design/Stromquelle.md)
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}

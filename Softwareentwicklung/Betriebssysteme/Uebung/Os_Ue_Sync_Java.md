@@ -375,7 +375,7 @@ die Funktion `queue.take()` blockiert bis ein Element in der Queue verfügbar is
 
 Erstellen Sie einen Buffer für die Übertragung von Daten zwischen einen Producer und einem Consumer.
 
-- int-[Ringbuffer](../../../Digitaltechnik/Ringbuffer.md), in den Buffer können n-1 Elemente eingefügt werden, die fehlende Stelle wird für die Vollerkennung benötigt
+- int-[Ringbuffer](../../../Digital-Design/Ringbuffer.md), in den Buffer können n-1 Elemente eingefügt werden, die fehlende Stelle wird für die Vollerkennung benötigt
 - Beim Einfügen (enqueue) kann ein Bufferoverflow passieren, dieser ist mittels Exception auszugeben
 - Beim Auslesen (dequeue) kann ein Bufferunderf passieren, dieser ist mittels Exception auszugeben 
 

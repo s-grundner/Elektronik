@@ -16,8 +16,8 @@ professor:
 # Elektrische Schwingungen
 
 > [!info] elementare Schwingkreise
-> [Serienschwingkreis](../Hardwareentwicklung/Oszillatoren/Serienschwingkreis.md)
-> [Parallelschwingkreis](../Hardwareentwicklung/Oszillatoren/Parallelschwingkreis.md)
+> [Serienschwingkreis](../Analog-Design/Oszillatoren/Serienschwingkreis.md)
+> [Parallelschwingkreis](../Analog-Design/Oszillatoren/Parallelschwingkreis.md)
 
 ## Schwingkreise als duale Zweipole
 

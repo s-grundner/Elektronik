@@ -71,5 +71,5 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 
 ---
 
-- [Stromquelle](../Hardwareentwicklung/Stromquelle.md)
-- [[../Hardwareentwicklung/Strommessung]]
+- [Stromquelle](../Analog-Design/Stromquelle.md)
+- [[../Analog-Design/Strommessung]]

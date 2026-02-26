@@ -16,7 +16,7 @@
 > Ist die [Leitung](../HF-Technik/Eingangsimpedanz.md) elektrisch lang?
 > Anwendungen:
 > - DDR ($V_{TT}$ Abschluss)
-> - [CAN](../Digitaltechnik/Interfaces/CAN.md) (Split-Parallelabschluss)
+> - [CAN](../Digital-Design/Interfaces/CAN.md) (Split-Parallelabschluss)
 > - LVDS
 
 | Ohne Abschluss                                  | parallel Abschluss [^1] |

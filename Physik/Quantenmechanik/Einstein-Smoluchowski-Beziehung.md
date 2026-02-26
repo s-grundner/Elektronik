@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Diffusion
-keywords: 
+keywords:
 subject:
   - Einführung Elektronik
   - VL
 semester: WS24
 created: 7. Februar 2025
 professor:
+release: false
 ---
  
 # Einstein-Smoluchowski-Beziehung

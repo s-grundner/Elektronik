@@ -131,7 +131,7 @@ $f(x)=f(x+a)$
 
 >[!EXAMPLE] Rechteckschwingung  
 > ![Fourreihe_k](../_assets/Fourreihe_k.png)  
-> [Klirrfaktor](../Hardwareentwicklung/Oszillatoren/Klirrfaktor.md) … $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
+> [Klirrfaktor](../Analog-Design/Oszillatoren/Klirrfaktor.md) … $k=\dfrac{\sqrt{(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}}{\sqrt{(\frac{6}{\pi})^{2}+(\frac{2}{\pi})^{2}+(\frac{6}{5\pi})^{2}}} = 0.3623$
 
 
 

@@ -14,4 +14,4 @@ professor:
 
 # Ringliste
 
-> siehe: [Ringbuffer](Ringbuffer.md) (Anwendung einer Ringliste)
+> siehe: [Ringbuffer](../../Digital-Design/Ringbuffer.md) (Anwendung einer Ringliste)

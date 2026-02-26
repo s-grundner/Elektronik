@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Einführung Elektronik
 semester: WS24
 created: 15. Oktober 2024
 professor:
+release: false
 ---
  
 

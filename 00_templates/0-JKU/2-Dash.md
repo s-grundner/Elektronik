@@ -7,8 +7,8 @@
 tags:
   - <%* tR += tp.user.get_lva().sem_to_program(sem) %>
 subject:
-  - <%* tR += lva %>
   - <%* tR += typ %>
+  - <%* tR += lva %>
 semester: <%* tR += sem %>
 created: <% tp.file.creation_date("Do MMMM YYYY")%>
 professor:
@@ -33,7 +33,7 @@ type: <%* tR += category %>
 
 ```dataviewjs
 if(dv.current().list) {
-    await dv.view("10_tools/dataviewjs/lva_query", {subjectFilter: "<%* tR += lva %>", subjectType: "<%* tR += typ %>"});
+    await dv.view("10_tools/dataviewjs/lva_query", {subjectFilter: dv.current().subject[1], subjectType: dv.current().subject[0]});
 } else {
 	dv.paragraph("> [!hint] Enable list in frontmatter to view LVA related notes")
 }

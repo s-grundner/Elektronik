@@ -57,8 +57,8 @@ Unter der Telegrafengleichung können zwei Anwendungsbereiche gemeint sein:
 **Design Einschränkungen**
 
 - Material Limitationen
-- empfindlich auf [Elektromagnetische Inteferenz](../Hardwareentwicklung/Elektromagnetische%20Verträglichkeit.md) von benachbarten Schaltungen (geteiltes Medium).
-- Kosten (Hochwertige PCB Substrate, [HDI](../Hardwareentwicklung/High%20Density%20Interconnect.md))
+- empfindlich auf [Elektromagnetische Inteferenz](../Analog-Design/Elektromagnetische%20Verträglichkeit.md) von benachbarten Schaltungen (geteiltes Medium).
+- Kosten (Hochwertige PCB Substrate, [HDI](../Analog-Design/High%20Density%20Interconnect.md))
 
 ## Anwendungen der HF-Technik
 

@@ -48,9 +48,9 @@ Dient zum hin und her wechseln zwischen $G(s) \leftrightarrow G(z)$
 ## Methoden zum Abtasten
 
 
-> [!info] [[Digitaltechnik/ADC]]
-- [Sukzessive Approximation](../../Digitaltechnik/SAR-ADC.md)
-- [Sigma-Delta](../../Digitaltechnik/Sigma-Delta-ADC.md)
+> [!info] [[../Digital-Design/ADC]]
+- [Sukzessive Approximation](../Digital-Design/SAR-ADC.md)
+- [Sigma-Delta](../Digital-Design/Sigma-Delta-ADC.md)
 
 ---
 

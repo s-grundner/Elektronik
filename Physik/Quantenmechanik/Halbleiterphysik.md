@@ -1,5 +1,5 @@
 ---
-banner: "assets/banner/GrundnerWafer.png"
+banner: assets/banner/GrundnerWafer.png
 banner_y: 0.5
 banner_x: 0.5
 tags:
@@ -7,7 +7,7 @@ tags:
 aliases:
   - "#Halbleiter"
   - Halbleiterelektronik
-keywords: 
+keywords:
 subject:
   - Einführung Elektronik
   - VL
@@ -15,6 +15,7 @@ semester: WS24
 created: 7. Februar 2025
 professor:
   - Bernhard Jakoby
+release: false
 ---
  
 # <center>Halbleiterphysik</center>
@@ -140,7 +141,8 @@ Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
 > 
-> ![600](../../_assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw.md) 
+> ![invert_dark|600](../../_assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw.svg)
+> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Halbleiterphysik%202025-02-07%2014.24.34.excalidraw.md)%%
 > 
 > Somit ist eine niedrigere Aktivierungsenergie notwendig, um ein Elektron vom Donator ins Leitungsband zu heben.
 

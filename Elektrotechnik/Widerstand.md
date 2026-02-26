@@ -1,19 +1,17 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
-  - Einf. ET
   - PR
-semester:
-  - WS23
-  - B1
+  - Einführung Elektrotechnik
+semester: WS23
 created: 11. Februar 2024
 professor:
 ---
  
 
-# Widerstand als Bauelement
+# Widerstand ls Bauelement
 
 ## Farbkennzeichnung
 

@@ -41,7 +41,7 @@ Diese beiden ursachen können Makroskopisch nicht unterschieden werden. Da die d
 > \tan\delta := \frac{\epsilon''}{\epsilon'} \quad \text{bzw.} \quad \tan\delta := \frac{\sigma}{\omega\epsilon}
 > $$
 
-Der Verlustwinkel ist ein Wert zur beschreibung der [Güte](../Hardwareentwicklung/Filter-Verstärker/Güte.md). Dieser muss immer zusammen mit einer Frequenz gegeben sein.
+Der Verlustwinkel ist ein Wert zur beschreibung der [Güte](../Analog-Design/Filter-Verstärker/Güte.md). Dieser muss immer zusammen mit einer Frequenz gegeben sein.
 
 Mit dem Verlustwinkel lässt sich die permittivität $\epsilon_{r} \in \mathbb{C}$  als Komplexwertiges Skalar definieren, um die Verluste in dielektrika zu modellieren:
 

@@ -59,4 +59,4 @@ $$
 # Tags
 
 [Spannungsteiler](Spannungsteiler.md)
-[TDR](../Hardwareentwicklung/Temperatur%20abhängiger%20Widerstand.md)
+[TDR](../Analog-Design/Temperatur%20abhängiger%20Widerstand.md)

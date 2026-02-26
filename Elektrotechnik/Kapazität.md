@@ -126,7 +126,7 @@ $$
 > [!question] [Dielektrikum](Dielektrikum.md)
 
 Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
-- [MLCC](../Hardwareentwicklung/MLCC.md) - Multilayer **Ceramic** Capacitor
+- [MLCC](../Analog-Design/MLCC.md) - Multilayer **Ceramic** Capacitor
 - ELKO - **Elektrolyt**kondensator
 - TALKO - **Tantal Elektrolyt**kondensator
 
@@ -162,4 +162,4 @@ $$
 
 # Tags
 
-[Abblockkondensator](../Hardwareentwicklung/Abblockkondensator.md)
+[Abblockkondensator](../Analog-Design/Abblockkondensator.md)

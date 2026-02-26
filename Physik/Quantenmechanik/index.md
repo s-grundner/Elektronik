@@ -13,6 +13,7 @@ semester: WS24
 created: 8. Oktober 2024
 professor:
   - Bernhard Jakoby
+release: false
 ---
  
 
@@ -24,7 +25,7 @@ Elektronen-Fermigas aus Metall entfernen
 - Reibung
 - Elektrisches Feld -> [Elektronenemission – Wikipedia](https://de.wikipedia.org/wiki/Elektronenemission)
 
-![invert_dark](../../_assets/AtmoEmision.png)
+![invert_dark|700](../../_assets/AtmoEmision.png)
 
 - Die Elektronen sind bewegte Ladungen, also ein Elektrischer Strom/Magnetfeld
     - Vorallem EM-Wellen

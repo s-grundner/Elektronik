@@ -95,7 +95,7 @@ $$
 
 # Tags
 
-- [ESD](../Hardwareentwicklung/ESD.md)
+- [ESD](../Analog-Design/ESD.md)
 - [Coulomb-Kraft](Coulomb-Kraft.md)
 - [Elektrisches Feld – Wikipedia](https://de.wikipedia.org/wiki/Elektrisches_Feld)
 

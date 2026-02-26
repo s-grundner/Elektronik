@@ -123,7 +123,7 @@ $$
 \end{array}
 $$
 
-> [!question] [Ansteuerlogik](Ansteuerlogik.md)
+> [!question] [Ansteuerlogik](../../Digital-Design/Ansteuerlogik.md)
 
 ### Dualität
 

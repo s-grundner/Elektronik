@@ -107,4 +107,4 @@ $$
 
 Die Grenzbedingungen sind hier der Anfang und das Ende der Leitung (die Eingangs und Abschluss impedanz). Dabei haben $U_{h}, U_{r}, I_{h}$ und $I_{r}$ eine **beliebige** Wellenform
 
-> [!question] Das $-$ vor $I_{r}\left( t+\frac{z}{c} \right)$ ist durch die Zählpfeilrichtung für [Zweitore](../../Hardwareentwicklung/Vierpol.md) gegeben, da in die Tore hineinfließende Ströme positiv sind.
+> [!question] Das $-$ vor $I_{r}\left( t+\frac{z}{c} \right)$ ist durch die Zählpfeilrichtung für [Zweitore](../Analog-Design/Vierpol.md) gegeben, da in die Tore hineinfließende Ströme positiv sind.

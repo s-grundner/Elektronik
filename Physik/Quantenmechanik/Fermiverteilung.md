@@ -13,6 +13,7 @@ subject:
 semester: WS24
 created: 7. Februar 2025
 professor:
+release: false
 ---
  
 # Fermiverteilung
