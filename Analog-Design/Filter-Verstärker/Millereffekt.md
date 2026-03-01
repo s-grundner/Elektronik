@@ -1,7 +1,6 @@
 ---
 tags:
 aliases:
-  - Kaskode
   - Miller
 keywords:
 subject:
@@ -15,6 +14,8 @@ release: false
 ---
  
 # Millereffekt
+
+> [!tldr] Millereffekt: Scheinbare vergrößerung der Ausgangskapazität
 
 Der Miller-Effekt beschreibt die Effekt, das Kapazitäten die zwischen einen Ein- und Ausgang eines verstärkers geschalten sind einen großen Einfluss auf dessen Grenzfrequenz haben können. Das ist darauf zurückzuführen, dass sich die **Quer-Kapazität** $C_{M}$ durch zwei äquivalente Kapazitäten am Ein- und Ausgang ersetzen lässt. Diese Kapazitäten sind Parallel zu Ein-/Ausgang und ihre größe ist abhängig von der **Verstärkung** der Schaltung. Das führt zu zusätzlichen Eckfrequenzen.
 
@@ -30,12 +31,4 @@ Der Effekt ist in der Praxis an der Basisschaltung nicht stark ausgeprägt, da d
 
 Die CE Kapazität ist wesentlichkleiner als die CB oder BE Kapazitäten.
 
-### Kaskode Schaltung
-
-Die Kaskode Schaltung ist eine Möglichkeit den Miller Effekt zu umgehen. In dieser Emitterschalting mit Kaskode wird die Eingangskapazität durch die Eingangskapazität des oberen Transistors geteilt. 
-
-![invert_dark](assets/Pasted%20image%2020250211120045.png)
-
-Die Schaltung ist also eine Kombination der Emitter und Basisschaltung und Verbindet deren Vorteile:
-- großer Eingangswiderstand der Emitterschaltung ($T_{1}$)
-- geringer Miller-Effekt der Basisschaltung ($T_{2}$)
+> [!success] Umgehung des Miller effekts mit einer [BJT Kaskode Schaltung](BJT%20Kaskode%20Schaltung.md)

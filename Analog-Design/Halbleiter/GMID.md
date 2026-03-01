@@ -17,6 +17,11 @@ Dimensionierung von MOSFETs - Freiheitsgrade: $W$, $L$, $I_{\mathrm{D}}$ (Biasst
 Traditionell *Square Law Model*: $I_{D}$ hängt quadratisch mit einer Threshholdspannung zusammen.
 Bei kleiner werdenden $V_{\mathrm{GS}}$ nicht mehr akkurat. Diffusionsstromanteil des Biasstroms wird höher.
  
+ > [!hint] Bei [BJT](Bipolartransistor.md) ist $g_{\mathrm{m}} / I_{\mathrm{D}}$ immer konstant.
+> 
+> - $g_{\mathrm{m,BJT}} = \frac{I_{\mathrm{C}}}{U_{\mathrm{T}}}$
+> - $g_{\mathrm{m,BJT}} / I_{\mathrm{C}} = \frac{1}{V_{\mathrm{T}}}$
+ 
 ## Modell
 
 Wieso ist $g_{\mathrm{m}} / I_{\mathrm{D}}$ ein Sinnvoller Parameter zur Dimensionierung eines MOSFETs:
@@ -43,7 +48,7 @@ Regionen:
 - Weak Inversion (kleines $V_{\mathrm{GS}}$): $\dfrac{g_{\mathrm{m}}}{I_{\mathrm{D}}} = \dfrac{1}{n V_{\mathrm{T}}}$
 - Strong Inversion (klassisches *Square Law Modell*): $\dfrac{g_{\mathrm{m}}}{I_{\mathrm{D}}}=\dfrac{2}{V_{\mathrm{GS}}-V_{\mathrm{th}}} = \dfrac{2}{V_{\mathrm{od}}}$
 
-Wichtige Graphen
+### Graphen
 
 - $g_{\mathrm{m}} / I_{\mathrm{D}} = f(V_{\mathrm{GS}})$
 - $f_{\mathrm{T}} = f(V_{\mathrm{DS}})$
@@ -51,12 +56,16 @@ Wichtige Graphen
 
 ![invert_dark|500](../../../_assets/Pasted%20image%2020260226170450.png)
 
-## Charakterisierung in Triode Mode
 
-Für die charakterisierung der 
+
+## Charakterisierung in Triode Mode
 
 | ![invert_dark\|500](../../../_assets/Pasted%20image%2020260226174030.png) | ![invert_dark\|500](../../../_assets/Pasted%20image%2020260226174048.png) |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 |                                                                           |                                                                           |
 
 ![invert_dark|400](../../../_assets/Pasted%20image%2020260226164741.png)
+
+## Referenzen
+
+- [MOSFET Diode](MOSFET%20Diode.md)

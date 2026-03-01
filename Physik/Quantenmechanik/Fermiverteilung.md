@@ -20,7 +20,7 @@ release: false
 
 > [!warning] Für die [Halbleiterphysik](Quantenmechanik/Halbleiterphysik.md) hinriechend relevante Grundlagen
 
-Ein Elektron kann gleichzietig nur ein einziges erlaubtes Energieniveau besetzen ([Pauli-Prinzip](Quantenmechanik/Teilchen%20im%20Kasten.md))
+Ein Elektron kann gleichzietig nur ein einziges erlaubtes Energieniveau besetzen
 
 Die Fermiverteilung gibt an, mit welcher Wahrscheinlichkeit ein Energieniveau $W$ von einem der Elektronen in einem Fermigas besetzt ist. (Bei gegebner absoluter Temparatur $T$)
 

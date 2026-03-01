@@ -22,7 +22,7 @@ title: Voltage Controlled Oscillator
 
 Beim [LC-Oszillator](LC%20Oszillatoren.md) wird ein [Schwingkreis](../../Physik/Kinematik/Schwingkreise.md), bestehend aus einer [Induktivität](../../Elektrotechnik/Induktivität.md) und einer [Kapazität](../../Elektrotechnik/Kapazität.md) verwendet. Mittels Kapazitätsdioden, ist die Resonanzfrequenz durch eine Steuerspannung einstellbar.
 
-> [!info] [Colpitts](Colpitts%20Oszillator.md)-Ostillator in [Emitterfolger](../Halbleiter/Emitterfolger.md)  
+> [!info] [Colpitts](Colpitts%20Oszillator.md)-Ostillator in [Kollektorschaltung](../Halbleiter/Kollektorschaltung.md)  
 >
 
 ```tikz

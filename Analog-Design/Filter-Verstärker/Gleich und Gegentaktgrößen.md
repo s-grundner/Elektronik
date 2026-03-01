@@ -21,7 +21,7 @@ Die Güte eines Differenzverstärkers ist oft dadurch gegeben, in welchem Verhä
 
 - [Realer OPV](../Reale%20Eigenschaften%20von%20OPVs.md)
 - [BJT-Differenzverstärker](../Halbleiter/BJT-Differenzverstärker.md)
-- [MOSFET-Differenzverstärker](../Halbleiter/MOSFET-Differenzverstärker.md)
+- [MOSFET Differenzverstärker](../Halbleiter/MOSFET%20Differenzverstärker.md)
 
 
 > [!hint] Anmerkung: Jede beliebige Kombination von $U_{\mathrm{N}}$ und $U_{\mathrm{P}}$ kann als Überlagerung einer Gleichtakt und einer Gegentaktaussteuerung betrachtet werden:

@@ -68,7 +68,7 @@ $$
 
 ## Beispiel
 
-![](../_assets/ESB-Beispiel.png)
+![invert_light|400](../_assets/ESB-Beispiel.png)
 
 $$
 \begin{gathered}

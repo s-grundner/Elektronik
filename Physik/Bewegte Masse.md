@@ -13,7 +13,7 @@ title: Bewegte Masse
 
 # Bewegte Masse
 
-Eine Bewegte Masse $m(v)$ ist Schwerer als die Ruhemasse $m_{0}$, gegeben durch die Beziehung
+Eine Bewegte Masse $m(v)$ ist Schwerer als die Ruhemasse $m_{0}$, gegeben durch die Beziehung[^1]
 
 $$
 m(v) = \frac{m_{0}}{\sqrt{ 1- \frac{v^{2}}{c^{2}} }}
@@ -30,7 +30,7 @@ $$
 m(v) = m_{0}+\frac{m_{0} v^2}{2 c^2}+\frac{3 m_{0} v^4}{8 c^4}+O\left(v^5\right)
 $$
 
-Eingesetzt in die Beziehung zu Energie
+$E=mc^{2}$ ist die gesamte Energie die in einer Masse steckt. Eingesetzt in die Beziehung erhält man
 
 $$
 E=m(v)\cdot c^{2} = m_{0} c ^{2}+\frac{m_{0} v^2}{2}+\dots
@@ -38,6 +38,5 @@ $$
 
 Man erkennt, dass in diesem Ausdruck auch die Kinetische Energie enthalten ist.
 
-## Referenzen
 
-Diese Beziehung wurde von Einsteinmithilfe der Elektrodynamik hergeleitet.
+[^1]: Diese Beziehung wurde von Einsteinmithilfe der Elektrodynamik hergeleitet.

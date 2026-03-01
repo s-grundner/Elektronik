@@ -73,5 +73,6 @@ $$
 
 ## Beispiele Für Wellengleichungen
 
-[Telegrafengleichung](../../Elektrotechnik/Telegrafengleichung.md)
-
+- [Schrödingergleichung](../Quantenmechanik/Schrödingergleichung.md)
+- [Telegrafengleichung](../../Elektrotechnik/Telegrafengleichung.md)
+- Fouriertransformierte Telegrafengleichung: [Helmholtzsche Differenzialgleichung](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md), [Telegrafenleitungsgleichung](../../HF-Technik/Telegrafenleitungsgleichung.md)

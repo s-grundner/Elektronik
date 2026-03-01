@@ -16,27 +16,6 @@ title: Diskrete Verteilung
 
 # Wahrscheinlichkeitsverteilung
 
-- Wahrscheinlichkeitsverteilung beschreibt [Wahrscheinlichkeit](Wahrscheinlichkeit.md) von [Ereignissen](Ereignis.md)
-- Jedem $x_{i}$ wird eine [Wahrscheinlichkeit](Wahrscheinlichkeit.md) zugeordnet
-- verschiedene Arten:
-	- Diskrete Verteilung: [Binomialverteilung](Binomialverteilung.md)
-	- Stetige Verteilung: [Normalverteilung](Normalverteilung.md)
-
-Die Gesamtheit der Werte $x_{i}$ einer diskreten [Zufallsvariable](Zufallsvariable.md) $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt Wahrscheinlichkeitsverteilung dieser [Zufallsvariable](Zufallsvariable.md).
-$$
-G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
-$$
-$M_{x}\rightarrow [0;1]$
-
->[!example] [Erwartungswert](Erwartungswert.md) von 2 Würfeln  
-> ![500](../../_assets/erw_wert_zfv.png)
-
-
-| Wahrscheinlichkeitsdichte                                 | Wahrscheinlichkeitsverteilung                             |
-| --------------------------------------------------------- | --------------------------------------------------------- |
-| ![350](../../_assets/Pasted%20image%2020221210150102.png) | ![300](../../_assets/Pasted%20image%2020221210150004.png) |
-
-
 
 ## Diskrete Verteilungsdichte
 
@@ -97,9 +76,11 @@ Die Punkte an den Stellen $z\in \mathbb{T_{P}}$ entsprechen dabei den Wahrschein
 
 > [!question] [Bedingte Wahrscheinlichkeit](Bedingte%20Wahrscheinlichkeit.md)
 
-$$
-\mathbb{f}_{Y|\{ X=x \}}(y) = \frac{\mathbb{f}_{XY}(x,y)}{\mathbb{f}_{X}(x)}
-$$
+> [!def] **D)** Die Bedingte Wahrscheinlichkeitsdichte
+> 
+> $$
+> \mathbb{f}_{Y|\{ X=x \}}(y) = \frac{\mathbb{f}_{XY}(x,y)}{\mathbb{f}_{X}(x)}
+> $$
 
 - Die Einzelnen Verteilungsdichten $\mathbb{f}_{X}(x)$ und $\mathbb{f}_{Y}(y)$ heißten **Marginalverteilungdichten** der gemeinsamen Verteilungsdichte $\mathbb{f}_{XY}(x,y)$.
 - $\mathbb{f}_{Y|\{ X=x \}}$ heißt Verteilungsdichte von $Y$ unter der Bedingung $\{ X=x \}$
@@ -114,3 +95,27 @@ Die Unabhängigkeit einer Zufallsvaraible kann folglich geprüft werden:
 
 - $X$ ist unabhängig von $Y$, wenn $\mathbb{f}_{X}(x) = \mathbb{f}_{X|\{ Y=y \}}(x)$
 - $Y$ ist unabhängig von $X$, wenn $\mathbb{f}_{Y}(y) = \mathbb{f}_{Y|\{ X=x \}}(y)$
+
+
+## Old
+
+- Wahrscheinlichkeitsverteilung beschreibt [Wahrscheinlichkeit](Wahrscheinlichkeit.md) von [Ereignissen](Ereignis.md)
+- Jedem $x_{i}$ wird eine [Wahrscheinlichkeit](Wahrscheinlichkeit.md) zugeordnet
+- verschiedene Arten:
+	- Diskrete Verteilung: [Binomialverteilung](Binomialverteilung.md)
+	- Stetige Verteilung: [Normalverteilung](Normalverteilung.md)
+
+Die Gesamtheit der Werte $x_{i}$ einer diskreten [Zufallsvariable](Zufallsvariable.md) $X$ zusammen mit den zugehörigen Wahrscheinlichkeiten $p_{i}$ heißt Wahrscheinlichkeitsverteilung dieser [Zufallsvariable](Zufallsvariable.md).
+$$
+G(X)=\sum\limits_{k=0}^{x_{1}}P(X=k) = P(0) + P(1) +\dots +P(x_{1})
+$$
+$M_{x}\rightarrow [0;1]$
+
+>[!example] [Erwartungswert](Erwartungswert.md) von 2 Würfeln  
+> ![500](../../_assets/erw_wert_zfv.png)
+
+
+| Wahrscheinlichkeitsdichte                                 | Wahrscheinlichkeitsverteilung                             |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| ![350](../../_assets/Pasted%20image%2020221210150102.png) | ![300](../../_assets/Pasted%20image%2020221210150004.png) |
+

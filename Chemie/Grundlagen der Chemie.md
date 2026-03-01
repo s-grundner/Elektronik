@@ -73,5 +73,5 @@ Ein Gemisch kann homogen (gleichartig) oder heter ogen (andersartig) sein:
 
 # Tags
 
-[Atommodelle](Atommodelle.md)  
+[Atommodell](../Physik/Atommodell.md)  
 [PSE](Periodensystem%20der%20Elemente.md)  

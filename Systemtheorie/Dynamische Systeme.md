@@ -37,7 +37,7 @@ y_{n} &= g_{n}(t,x_{1},\dots,x_{n},u_{1},\dots,u_{n}) \\
 \end{align}
 $$
 
-Das System ist in Matrixschreibweise lautet:
+Das System lautet schließlich mit allgemein Vektorwertigen größen:
 
 $$
 \begin{align}

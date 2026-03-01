@@ -83,7 +83,7 @@ In der Stochastik ist man weniger an der Zufallsvariable $Z$ selbst (also an dem
 
 ## Verteilungsdichten diskreter Zufallsvariablen
 
-![Verteilungsdichten diskreter Zufallsvariablen](Wahrscheinlichkeitsverteilung.md#^DZ-DF)
+![Verteilungsdichten diskreter Zufallsvariablen](Wahrscheinlichkeitsverteilungsdichte.md#^DZ-DF)
 
 ## Unabhängige Zufallsvariable
 
@@ -109,7 +109,7 @@ In der Stochastik ist man weniger an der Zufallsvariable $Z$ selbst (also an dem
 
 Man kann feststellen, dass zwei Zufallsvariablen unabhängig sind, indem man prüft,
 
-- ob die [Bedingte Verteilungsdichte](Wahrscheinlichkeitsverteilung.md#Bedingte%20Verteilungsdichte) gleich der Marginalverteilungsdichte ist
+- ob die [Bedingte Verteilungsdichte](Wahrscheinlichkeitsverteilungsdichte.md#Bedingte%20Verteilungsdichte) gleich der Marginalverteilungsdichte ist
 - oder ob die [Kovarianz](Kovarianz.md#^UNCORRELATED) $\operatorname{Cov}(X,Y) = 0$ ist.
 
 [^1]: $$

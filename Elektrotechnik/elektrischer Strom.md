@@ -69,7 +69,3 @@ Dies kann durch eine elektrische [Spannungsquelle](../Elektrotechnik/elektrische
 > 
 > In einem metallischen Leiter sind nur die negativ geladenen Elektronen beweglich, die positiv geladenen Atomrümpfe sind im Gitter verankert und sind nicht beweglich.
 
----
-
-- [Stromquelle](../Analog-Design/Stromquelle.md)
-- [[../Analog-Design/Strommessung]]

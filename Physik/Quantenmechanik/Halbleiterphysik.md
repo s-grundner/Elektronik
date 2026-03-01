@@ -63,7 +63,7 @@ Durch thermische Anregung und Störstellen folgt jedoch:
 
 Die Dichte der erzeugten Ladungsträger, also den Elektronen-Loch Paaren, ist die [Eigenleitungsdichte](Fermiverteilung.md). Diese ist für Silizium: $n_{i,\text{ Si}} = 10^{10} \mathrm{cm}^{-3}$
 
-> [!important] [[Fermiverteilung]]: Besetzungswahrscheinlichkeit $F(W)$ in abhängigkeit von der Energie $W$
+> [!important] [Fermiverteilung](Fermiverteilung.md): Besetzungswahrscheinlichkeit $F(W)$ in abhängigkeit von der Energie $W$
 > Die Fermiverteilung beschreibt also:
 > - Thermische Anregung von Elektronen $\iff$ Temperatur abhängige Wahrscheinlichkeit, einen höheren Energiezustand einzunehmen. 
 

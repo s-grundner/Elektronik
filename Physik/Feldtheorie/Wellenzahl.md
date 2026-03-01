@@ -25,7 +25,7 @@ Für dielektrische Materialien ist die Wellenzahl die anzahl an Wellenlängen di
 > [!def] **D) Wellenzahl**  $k$ (auch Phasenkonstante)
 > 
 > $$
-> k = \omega \sqrt{ \mu\epsilon } = \frac{\omega}{v_{p}} = \frac{2\pi}{\lambda} \qquad [k] = \frac{1}{m}
+> k = \frac{2\pi}{\lambda} = \frac{\omega}{v_{p}} = \omega \sqrt{ \mu\epsilon } \qquad [k] = \frac{1}{m}
 > $$
 >
 > In einem verlustlosen Medium gilt $\mu,\epsilon \in \mathbb{R} \implies k \in \mathbb{R}$.

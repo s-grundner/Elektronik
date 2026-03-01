@@ -1,7 +1,6 @@
 ---
 tags:
 aliases:
-  - Pauli-Prinzip
 keywords:
 subject:
   - VL

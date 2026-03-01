@@ -14,7 +14,7 @@ release: false
 # Heisensbergsche Unschärfe
 
 $$
-\Delta x\cdot \Delta p = \hbar 
+\Delta x\cdot \Delta p \geq \frac{\hbar}{2}
 $$
 Ist der Ort $x$ genau bekannt, so ist der [Impuls](../Kinematik/Impuls.md) verstreut
 Ist der [Impuls](../Kinematik/Impuls.md) $p$ genau bekannt, so ist der Ort verstreut

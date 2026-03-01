@@ -15,6 +15,8 @@ release: false
 
 # Stromquelle
 
+> [!question] [lineare Quellen](../Elektrotechnik/lineare%20Quellen.md)
+
 Prinzip einer Stromquelle
 
 ```tikz
@@ -68,34 +70,28 @@ Der Transistor selbst ist natürlich keine Quelle. Er entnimmt lediglich den von
 > Er kann durch dieses Modell mittels der Early-Spanung berücksichtigt werden
 > $$I_{C}=I_{s} e^{\frac{U_{BE}}{n U_{T}}}\left(1+\frac{U_{CE}}{U_{EA}}\right)$$
 
-### Stromspiegel
-
-> [!success] Weiterführend: [Stromspiegel](Stromversorgungseinheiten/Stromspiegel.md)
-
 ### Transistorstromquellen mit stromgesteuerter Gegenkopplung
 
 > [!question]- [Stromgesteuerte Spannungsgegenkopplung](Halbleiter/Spannungseinstellung.md#Stromgesteuerte%20Spannungsgegenkopplung)
-> 
-> ```tikz
-> \usepackage[european, straightvoltages]{circuitikz}
-> \ctikzset{bipoles/length=1cm}
-> \ctikzset{transistors/scale=1.6}
-> \usepackage{amsmath}
-> \begin{document}
-> \begin{circuitikz}[thick, scale=1.5, transform shape, font=\Large]
-> \draw (0,0) node[npn](npn){};
-> \draw (npn.B) to[short, i<=$I_{B}$] ++(-1, 0) coordinate(b);
-> \draw (npn.C) to[R, l=$R_{L}$, v<=$U_{a}$, i<=$I_a$, o-o] ++(0, 2) coordinate(v) node[vcc]{$U_0$};
-> \draw (npn.E) to[R, l_=$R_{E}$] ++(0, -2) coordinate(g) node[color=black, rground]{};
-> \draw (b) to[open, v=$U_q'$,o-o] ++(g) node[rground]{};
-> \draw (b) to[R=$R_{q}$] ++(-2,0) to[V, v_=$U_q$] ++(g) node[rground]{};
-> \end{circuitikz}
-> \end{document}
-> ```
-> 
->
 
-#### Stromquellen für Diskrete Schaltungen
+```tikz
+\usepackage[european, straightvoltages]{circuitikz}
+\ctikzset{bipoles/length=1cm}
+\ctikzset{transistors/scale=1.6}
+\usepackage{amsmath}
+\begin{document}
+\begin{circuitikz}[thick, scale=1.5, transform shape, font=\Large]
+\draw (0,0) node[npn](npn){};
+\draw (npn.B) to[short, i<=$I_{B}$] ++(-1, 0) coordinate(b);
+\draw (npn.C) to[R, l=$R_{L}$, v<=$U_{a}$, i<=$I_a$, o-o] ++(0, 2) coordinate(v) node[vcc]{$U_0$};
+\draw (npn.E) to[R, l_=$R_{E}$] ++(0, -2) coordinate(g) node[color=black, rground]{};
+\draw (b) to[open, v=$U_q'$,o-o] ++(g) node[rground]{};
+\draw (b) to[R=$R_{q}$] ++(-2,0) to[V, v_=$U_q$] ++(g) node[rground]{};
+\end{circuitikz}
+\end{document}
+```
+
+### Stromquellen für Diskrete Schaltungen
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -132,8 +128,13 @@ Der Transistor selbst ist natürlich keine Quelle. Er entnimmt lediglich den von
 | 2   | Diode in Serie zu $R_{2}$                                 | Erhöhte Temperaturstabilität bis hin<br>zur totalen Temperaturkompensation |
 | 3   | Zenerdiode statt $R_{2}$                                  | Robust gegen $U_0$ Schwankungen                                            |
 
----
+
+## Stromspiegel
+
+- [BJT - Stromspiegel](Halbleiter/BJT%20Stromspiegel.md)
+- MOSFET - Stromspiegel
+
 
 ## OPV als Stromquelle
 
-> [!success] Weiterführend: [Konstantstromquelle](OPV/Konstantstromquelle.md)
+- [OPV - Konstantstromquelle](OPV/Konstantstromquelle.md)

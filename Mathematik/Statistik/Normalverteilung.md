@@ -37,7 +37,7 @@ $$
 ![PNG-Bild](../../_assets/PNG-Bild.png)
 
 
-- Bisher waren [Wahrscheinlichkeitsverteilungen](Wahrscheinlichkeitsverteilung.md) gegeben (z.B. [Binomialverteilung](Binomialverteilung.md)).
+- Bisher waren [Wahrscheinlichkeitsverteilungen](Wahrscheinlichkeitsverteilungsdichte.md) gegeben (z.B. [Binomialverteilung](Binomialverteilung.md)).
 - jetzt nurmehr eine Funktion, die die Verteilung angibt
 
 Verteilungen können unterschiedlicher Wertebereiche annehmen.

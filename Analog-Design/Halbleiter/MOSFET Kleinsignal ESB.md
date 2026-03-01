@@ -25,6 +25,7 @@ title: MOSFET Kleinsignal ESB
 > 
 > - Beschriebt, wie der Drainstrom mit der Gate-Source Spannung anstiegt.
 > - Er repräsentiert die Verstärkungsfähigkeit des Transistors
+> - Auch die **Steilheit** der Stromquelle
 
 
 > [!info] **Ausgangsleitwert** $g_{\mathrm{ds}} = \dfrac{ \partial I_\mathrm{D} }{ \partial V_{\mathrm{DS}} }= \dfrac{1}{r_{\mathrm{out}}}$
@@ -54,3 +55,7 @@ title: MOSFET Kleinsignal ESB
 > | - | - | - |
 > | höheres $g_{\mathrm{m}}$ | | größeren Parasitären Kapazitäten |
 > | $\iff$ Höherer Biasstrom oder größeres $\frac{W}{L}$ | | $\iff$ größere Flächen |
+
+## Referenzen
+
+[Unterschied zu Rechnungen mit PMOS und NMOS KSESB](https://electronics.stackexchange.com/questions/684341/equivalent-circuit-of-pmos-amplifier-circuit)

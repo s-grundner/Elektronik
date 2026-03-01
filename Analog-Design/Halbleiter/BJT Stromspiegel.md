@@ -2,7 +2,6 @@
 tags:
   - Halbleiter/BJT
   - tikz/circuitikz
-  - Baugruppe/Versorgung/Stromquelle
 aliases:
 created: 21. September 2023
 keywords:

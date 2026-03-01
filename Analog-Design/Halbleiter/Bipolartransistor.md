@@ -23,7 +23,7 @@ release: false
 
 > weitergeleitet von [Transistor](Transistor.md)
 
-| Schaltung                                    | [Emitterschaltung](Emitterschaltung.md)                      | [Basisschaltung](Basisschaltung.md)              | [Kollektorschaltung](Emitterfolger.md)              |
+| Schaltung                                    | [Emitterschaltung](Emitterschaltung.md)                      | [Basisschaltung](Basisschaltung.md)              | [Kollektorschaltung](Kollektorschaltung.md)              |
 | :------------------------------------------- | :---------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------------------- |
 | Eingangswiderstand $\mathrm{r}_{\mathrm{e}}$ | $100 \Omega \ldots 10 \mathrm{k} \Omega$                    | $10 \Omega \ldots 100 \Omega$                       | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ |
 | Ausgangswiderstand $\mathrm{r}_{\mathrm{a}}$ | $1 \mathrm{k} \Omega \ldots 10 \mathrm{k} \Omega$           | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ | $10 \Omega \ldots 100 \Omega$                       |
@@ -150,7 +150,7 @@ $$
     - [BJT-Kippschaltung](../Oszillatoren/Kippstufe.md#BJT-Kippschaltung)
 - [BJT als Verstärker](BJT%20als%20Verstärker.md)
 - [BJT als Konstantstromquelle](BJT%20als%20Konstantstromquelle.md)
-    - [Stromspiegel](../Stromversorgungseinheiten/Stromspiegel.md)
+    - [BJT Stromspiegel](BJT%20Stromspiegel.md)
 
 ---
 
