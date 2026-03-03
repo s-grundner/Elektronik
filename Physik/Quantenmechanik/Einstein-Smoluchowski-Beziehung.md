@@ -16,9 +16,11 @@ release: false
 
 Diese ist eine Beziehung im Bereich der kinetischen Gastheorie und verknüpft den Diffusionskoeffizienten $D$ mit der Beweglichkeit $\mu$ der Gas-Teilchen.
 
+^DIFKOHL
 $$
 D = \mu \cdot k_{B}\cdot T\tag{DifKo}
 $$
+ 
 $k_{B}$... [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md)
 $T$... absolute Temparatur
 
