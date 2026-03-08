@@ -1,6 +1,7 @@
 ---
 tags:
 aliases:
+  - Welle-Teilchen Dualismus
 created: 26th February 2026
 title: De Broglie
 release: false
