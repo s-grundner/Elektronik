@@ -49,8 +49,6 @@ $$
 
 Die Kreisgleichung ist oft eine Lösung komplexer Gleichungen und Ungleichungen
 
-## Einheitskreis
-
 ## Kreis durch 3 Punkte
 
 Durch umformen der Kreisgleichung erhält man ein Lineares Gleichungssystem 3. Ordnung

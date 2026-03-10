@@ -34,18 +34,18 @@ Es gilt dass $f$ zwei mal Differnzierbar sein muss ($f\in C^{2}$)
 > [!satz] **S1 - EXTR)** Sei $A \subset \mathbb{R}^n$ offen, $f \in C^2(A)$ und $x_0 \in A$:
 > $$\operatorname{grad} f\left(x_0\right)=0$$
 > Falls die Hessematrix $H_f\left(x_0\right)$ von $f$ an der Stelle $x_0$ *positiv* (**negativ**) definit ist, dann ist $x_0$ Stelle eines lokalen *Minimums* (**Maximums**) von $f$.
-> - [Definitheit](../Algebra/Definitheit.md) der Hessenmatrix
+> - [Definitheit](../../Algebra/Definitheit.md) der Hessenmatrix
 > - [Gradient](Vektoranalysis/Gradient.md)
 
-![invert_dark|900](../../_assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
+![invert_dark|900](../../../_assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
 
 ## Konvex / Konkav
 
-![invert_dark|900](../../_assets/{F6039E57-8507-4287-AE4D-B1B0BE7989DD}.png)
+![invert_dark|900](../../../_assets/{F6039E57-8507-4287-AE4D-B1B0BE7989DD}.png)
 
-![invert_dark|900](../../_assets/{83657E46-E605-4AC2-AD43-84EE74C58D15}.png)
+![invert_dark|900](../../../_assets/{83657E46-E605-4AC2-AD43-84EE74C58D15}.png)
 
-![invert_dark|900](../../_assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
+![invert_dark|900](../../../_assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
 
 # Beispiele
 

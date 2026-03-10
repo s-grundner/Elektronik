@@ -77,11 +77,11 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 
 Warum? $\to$ Zeitinvarianz eines LTI Systems: Vergleicht man beide Definitionen, stellt man fest, dass die Rekonstruierbarkeit genau die inverse Eigenschaft zur Beobachtbarkeit ist. 
 
-Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM-Eigenschaften)
+Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathematik/Differentialgleichungen/Fundamentalmatrix.md#^TRSM-Eigenschaften)
 
 - Die Transitionsmatrix ist immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) (d.h. Invertierbar)
 - Folgt man dem Fluss einer Lösung in die umgekehrete Richtung ist das äquivalent zum inversen Fluss 
 
 ## Detektierbarkeit
 
-Das System ist detektierbar, wenn $\mathbf{\bar{A}}_{11}$ der Dreickszerlegung eine [Hurwitz-Matrix](../../Mathematik/Analysis/Hurwitz-Matrix.md) ist.
+Das System ist detektierbar, wenn $\mathbf{\bar{A}}_{11}$ der Dreickszerlegung eine [Hurwitz-Matrix](../../Mathematik/Algebra/Hurwitz-Matrix.md) ist.

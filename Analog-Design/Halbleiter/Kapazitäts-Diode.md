@@ -14,11 +14,11 @@ created: 19th January 2023
 
 > [!question] [Diode](Diode.md)
 
-Die Kapazitätsdiode oder Varicap, auch Varaktor oder Abstimmdiode genannt, ist ein elektronisches [Silizium](../../Physik/Materialkunde/Silizium.md)-Bauteil.  
-Durch Änderung der angelegten Spannung lässt sich eine Variation der [Kapazität](../../Elektrotechnik/Kapazität.md) von 10:1 erreichen.  
-Somit steht eine elektrisch steuerbare Kapazität zur Verfügung, die die früher üblichen, erheblich größeren Drehkondensatoren weitgehend ersetzt hat.
+- Mit der Kapazitätsdiode lassen sich elektrisch steuerbare Kapazität realisieren.
+- Durch Änderung der angelegten Spannung lässt sich eine Variation der [Kapazität](../../Elektrotechnik/Kapazität.md) von 10:1 erreichen.  
+- Durch geeignete Dotierung können Kapazitäten im Bereich von 3 pF bis 300 pF erreicht werden.
 
-![500](../../_assets/varicap.png)
+![invert_light|200](../../_assets/varicap.png)
 
 $d = f(U)$  
 Die Breite der RLZ ist eine Funktion der Spannung.
@@ -27,10 +27,11 @@ Die Breite der RLZ ist eine Funktion der Spannung.
 
 ## Funktionsweise
 
-- Der p-n-Übergang einer [Diode](Diode.md) hat eine [Kapazität](../../Elektrotechnik/Kapazität.md), die von der Breite der Raumladungszone abhängig ist.
-- Wird eine [Diode](Diode.md) in Sperrrichtung betrieben, so entsteht am p-n-Übergang eine Ladungsträgerverarmungszone, an der sich auch ein [Elektrisches Feld](../../Elektrotechnik/Elektrisches%20Feld.md), bedingt durch die fehlenden Ladungsträger, aufbaut.
-- Mit steigender Spannung vergrößert sich die Breite der ladungsfreien Zone, damit nimmt die [Kapazität](../../Elektrotechnik/Kapazität.md) ab.
-- Durch geeignete Dotierung können [Kapazitäten](../../Elektrotechnik/Kapazität.md) im Bereich von 3 pF bis 300 pF erreicht werden.
+Die RLZ (sperrschicht) stellt isolator an der Grenzfläche von $n$ nach $p$ her. Das elektrische Ausgleichsfeld verdrängt die Ladungsträger an diese Grenzflächen, und sie sammeln sich dort an.
+
+![invert_dark](../../xEDU/B3_WS24/Einführung%20Elektronik/assets/NOTES-5.jpg)
+
+- Mit steigender Spannung vergrößert sich die Breite der ladungsfreien Zone, damit nimmt die Kapazität ab.
 
 # Tags
 

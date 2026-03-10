@@ -24,7 +24,7 @@ Die Allgemeine herangehensweise nach D'Alembert im Zeitbereich betrachtet sowohl
 
 > [!hint]  In der [Wechselstromtechnik](../Elektrotechnik/Wechselstromtechnik.md) kann eine Differenzation nach der Zeit durch eine Multiplikation mit $j\omega$ substituiert werden.
 
-Die Telegraphengleichungen werden dann von der [Wellengleichung](../Physik/Feldtheorie/Wellengleichung.md) zu einer gewöhnliche [DGL 2. Ordnung](../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md).
+Die Telegraphengleichungen werden dann von der [Wellengleichung](../Physik/Feldtheorie/Wellengleichung.md) zu einer gewöhnliche [DGL 2. Ordnung](../Mathematik/Differentialgleichungen/lineare%20DGL%202.%20Ordnung.md).
 
 ## Telegrafengleichung - Ausbreitung des E und H-Feldes in einem Medium
 

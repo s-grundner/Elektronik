@@ -41,7 +41,6 @@ Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form, bezeichnet man die Syst
 | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(\mathbf{x}_{k}, \mathbf{u}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(\mathbf{x}_{k}, \mathbf{u}_{k})\end{align}$$ | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(k, \mathbf{x}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(k,\mathbf{x}_{k})\end{align}$$ | $$\begin{align}\mathbf{x}_{k+1} &= \mathbf{f}(\mathbf{x}_{k}) \\ \mathbf{y}_{k} &= \mathbf{g}(\mathbf{x}_{k})\end{align}$$ |
 | Die Zustandsfolgen sind nur indirekt über die Zustandsgrößen von $k$ abhängig                                                                              | Das System besitzt keine externen Stellgrößen                                                                                   | das System ist frei und zeitinvariant                                                                                      |
 
-> [!hint] Auch für Zeitdiskrete Systeme lassen sich Ruhelagen sowie die [Stabilität](../Mathematik/Analysis/Ljapunov.md#Differenzengleichungen) der Lösungsfolge Untersuchen
 
 
 Die Zustandsfolge $\mathbf{f}$ ist die Rekursionsvorschrift zur Ermittlungs des nächsten Zustands. Daher ist es einfacher als bei kontinuierlichen DGL eine Lösung zu finden, da man durch einsetzen des Anfangswertes alle folgegleider rekursiv berechnen kann (Vorausgesetzt sei, dass $\mathbf{u}_{k}, \forall k\in\mathbb{N}$ bekannt sind)
@@ -58,3 +57,12 @@ Da das autonome zeitdiskrete System nur $\mathbf{x}_{k}$ als argument hat, könn
 >  $$\mathbf{x}[k] = \mathbf{\Phi}_{k}(\mathbf{x}_{0}) = \underbrace{ \mathbf{f} \circ \mathbf{f} \circ \dots \circ \mathbf{f} }_{ k\text{-mal} }(\mathbf{x}_{0})$$
 
 z.B $\mathbf{x}_{2} = \mathbf{f}(\mathbf{f}(\mathbf{x}_{0}))$
+
+## Ruhelagen und Stabilität
+
+> [!hint] Auch für Zeitdiskrete Systeme lassen sich Ruhelagen sowie die [Stabilität](../Mathematik/Differentialgleichungen/Ljapunov.md#Differenzengleichungen) der Lösungsfolge Untersuchen
+
+
+> [!warning] Achtung
+> - im **kontinuierlichen** gilt $\dot{\mathbf{x}}(t) = 0$,
+> - im **diskreten** aber $\mathbf{x}_{k+1} = \mathbf{x}_{k}$

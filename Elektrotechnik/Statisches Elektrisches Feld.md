@@ -75,7 +75,7 @@ $$
 \end{align}
 $$
 
-# Beispiele
+## Beispiele
 
 - Überlegung zu [Linienladung](Linienladung.md)
 - Überlegung zu [Flächenladung](Flächenladung.md)
@@ -93,12 +93,8 @@ $$
 > > [!SUCCESS]- Lösung  
 > > ![](../_assets/UE01_k12136610-2.jpg)
 
-# Tags
+## Referenzen
 
 - [ESD](../Analog-Design/ESD.md)
 - [Coulomb-Kraft](Coulomb-Kraft.md)
 - [Elektrisches Feld – Wikipedia](https://de.wikipedia.org/wiki/Elektrisches_Feld)
-
-# Flashcards
-
-

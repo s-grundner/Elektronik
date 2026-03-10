@@ -20,7 +20,7 @@ def:
  
 # Differenzengleichung (DZGL)
 
-[Differenzialgleichungen](GDGL.md) ***:LiArrowBigRightDash:***
+[Differenzialgleichungen](../Differentialgleichungen/index.md) ***:LiArrowBigRightDash:***
 
 ---
 

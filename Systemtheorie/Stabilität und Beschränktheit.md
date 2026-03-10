@@ -39,7 +39,7 @@ title: Stabilität und Beschränktheit
 >
 > - Alle Pole liegen in der linken Halbebene des s-Bereichs und nicht auf der Abzisse.
 > - Realteil der Pole ist $< 0$
-> - Die Systemmatrix ist eine [Hurwitzmatrix](../Mathematik/Analysis/Hurwitz-Matrix.md)
+> - Die Systemmatrix ist eine [Hurwitzmatrix](../Mathematik/Algebra/Hurwitz-Matrix.md)
 > - Das Konvergenzgebiet liegt nur links der Abzisse
 > 
 > **Stabilität für Zeitdiskrete Systeme:**

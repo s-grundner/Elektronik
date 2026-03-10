@@ -13,7 +13,7 @@ LDOs werden verwendet, um das Rauschen in Versorgungsleitungen zu eliminieren ab
 
 ## Vorteil gegenüber Schaltreglern
 
-Gegenüber [Schaltreglern]({MOC}%20Schaltnetzteil.md) haben sie den Vorteil, dass sie kompakt sind und kein Schaltrauschen verursachen. Auch der Wirkungsgrad ist aufgrund der niedrigen Dropout-Spannung hoch genug, jedoch geringer als bei Schaltreglern.
+Gegenüber [Schaltreglern](index.md) haben sie den Vorteil, dass sie kompakt sind und kein Schaltrauschen verursachen. Auch der Wirkungsgrad ist aufgrund der niedrigen Dropout-Spannung hoch genug, jedoch geringer als bei Schaltreglern.
 Es ist zu beachten, dass, um die Stabilität zu gewährleisten, ein 22μF (Tantal/[Elektrolyt](../../Chemie/Elektrochemie.md)) [Kondensator](../../Elektrotechnik/Kapazität.md) am Ausgang angebracht werden sollte.
 C6 und C7 halten hier die Ein- und Ausgangsspannung bei Spannungseinbrüchen möglichst konstant. Außerdem leuchtet eine rote LED leuchtet auf, wenn das Gerät eingesteckt ist.
 

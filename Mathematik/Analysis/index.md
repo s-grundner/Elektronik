@@ -20,8 +20,8 @@ Analysis (gr. auflösen, zerteilen) beschäftigt sich zu einem großen Teil mit 
 
 > [!important] [Fundamentalsatz der Analysis](Fundamentalsatz%20der%20Analysis.md)
 
-- 🗺️[Kurvendiskussion]({MOC}%20Kurvendiskussion.md)
-- [Grenzwert](Grenzwert.md)
+- 🗺️[Kurvendiskussion](Kurvendiskussion/index.md)
+- [Grenzwert](Kurvendiskussion/Grenzwert.md)
 - [Folgen](Folgen.md)
 - [Reihen](Reihe.md)
 

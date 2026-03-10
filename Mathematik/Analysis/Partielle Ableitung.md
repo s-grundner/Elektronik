@@ -29,7 +29,7 @@ Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable
 
 > [!def] **D1 - PART)** Sei $A \subset \mathbb{R}^n$ offen.
 > Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$.
-> $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Grenzwert]] existiert:
+> $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Kurvendiskussion/Grenzwert]] existiert:
 > 
 > $$\lim _{t \rightarrow 0} \frac{f\left((x_1, \ldots, x_{j-1}, x_j+t), (x_{j+1}, \ldots, x_n)\right)-f(x)}{t} =: \frac{\partial f}{\partial x_j}(x)$$
 > 

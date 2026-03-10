@@ -17,7 +17,7 @@ professor:
 
 # Lineare Hülle
 
-> [!question] [{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md) 
+> [!question] [index](index.md) 
 
 > [!def] **D2 - SPAN)** Sei $X$ ein $\mathbb{K}$-Vektorraum: ^SPAN
 > Sei $M \subset X, M \neq \emptyset$. Die Menge aller endlichen Linearkombinationen von Elementen aus $M$ heißt **lineare Hülle** von $M$ bezeichnet mit:

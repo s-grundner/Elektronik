@@ -25,7 +25,7 @@ professor:
 > - Die resultierende [Bewegung](Kinematik/Kinematik.md) folgt einem Sinusbzw. Cosinus förmigen Zeitverlauf.
 
 > [!important] Besonderheiten
-> - einfache mathematische Beschreibung mit [DGL](../../Mathematik/Analysis/GDGL.md) aus der Bewegungsgleichung
+> - einfache mathematische Beschreibung mit [DGL](../../Mathematik/Differentialgleichungen/index.md) aus der Bewegungsgleichung
 > - Harmonische Schwingungen sind physikalisch oft mit [Randwertproblemen](../../Mathematik/Analysis/Randwertprobleme.md) verbunden
 >   - Zum Beispiel ist eine Schwingenden Saite an dessen beiden enden Fixiert und kann dann mit diesen Randwerten durch die [Wellengleichung](../Feldtheorie/Wellengleichung.md) beschrieben werden. 
 

@@ -4,7 +4,9 @@ tags:
 aliases:
   - Coulomb-Kraft
   - Coulombsches Gesetz
-keywords: 
+  - Elektrische Kraft
+  - W
+keywords:
 subject:
   - Einführung Elektrotechnik
   - VL

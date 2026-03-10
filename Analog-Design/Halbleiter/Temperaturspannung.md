@@ -14,5 +14,11 @@ title: Temperaturspannung
 # Temperaturspannung
 
 $$
-V_{\mathrm{T}} = \frac{kT}{q}
+U_{\mathrm{T}} = \frac{kT}{e}
 $$
+
+- $k$ ... [Boltzmannkonstante](../../Physik/Konstanten/Boltzmannkonstante.md)
+- $e$ ... [Elementarladung](../../Physik/Konstanten/Elementarladung.md)
+- $T$ ... Temperatur
+
+Bei Raumtempleratur ($\approx 300\mathrm{K}$) ist $U_{\mathrm{T}} \approx 25.852\mathrm{mV}$

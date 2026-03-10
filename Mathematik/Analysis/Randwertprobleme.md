@@ -18,7 +18,7 @@ professor:
 
 # Randwertproblem (RWP)
 
-Ein Randwertproblem (RWP) ist ein Problem, bei dem eine [Differenzialgleichungen](GDGL.md) zusammen mit Randbedingungen gegeben ist.
+Ein Randwertproblem (RWP) ist ein Problem, bei dem eine [Differenzialgleichungen](../Differentialgleichungen/index.md) zusammen mit Randbedingungen gegeben ist.
 
 > [!important] Bei RWP werden an mindestens zwei verschiedenen Punkten des Lösungsintervalls Bedingungen vorgeschrieben.
 > $x' = f(t,x) \in \mathbb{R}^{m}$ wie bisher mit $t \in[a,b]$
@@ -111,7 +111,7 @@ $$
 R_{1}x_{1} & R_{2}x_{1} \\ R_{1}x_{2} & R_{2}x_{2}
 \end{pmatrix} \neq 0
 $$
-In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw garkeine Lösungen für das [LGS](Lineare%20Gleichungssysteme.md).
+In der Realität kann jedoch $\det = 0$ sein, dann gibt es unendlich viele, bzw garkeine Lösungen für das [LGS](../Algebra/Lineare%20Gleichungssysteme.md).
 
 ## Spezialfall: Eigenwertprobleme (EWP)
 

@@ -33,7 +33,7 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 |        [Durchflutung](../Durchflutung.md) | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\int \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
 
 > [!success] Oft hat man mehrere Maschen in einem Magnetkreis.
-> Ist dies der Fall, so bietet sich das [Maschenstromverfahren](../Maschenstromverfahren.md) aus der Elektritechnik an, um schnell eine [LGS](../../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) für die magnetischen Flüsse aufzustellen. 
+> Ist dies der Fall, so bietet sich das [Maschenstromverfahren](../Maschenstromverfahren.md) aus der Elektritechnik an, um schnell eine [LGS](../../Mathematik/Algebra/Lineare%20Gleichungssysteme.md) für die magnetischen Flüsse aufzustellen. 
 
 ## Entwurf
 

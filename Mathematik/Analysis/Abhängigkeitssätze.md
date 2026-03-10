@@ -13,13 +13,13 @@ professor:
 
 # Abhängigkeitssätze
 
-> [!important] **Abhängigkeitssatz 1:** Es gelten die Voraussetzungen des Satzes von [Picard-Lindelöf](Picard-Lindelöf.md). Dann gilt:
+> [!important] **Abhängigkeitssatz 1:** Es gelten die Voraussetzungen des Satzes von [Picard-Lindelöf](../Differentialgleichungen/Picard-Lindelöf.md). Dann gilt:
 > 
 > $$
 > \lim _{\bar{x}_0 \rightarrow x_0} x\left(t ; t_0, \bar{x}_0\right)=x\left(t ; t_0, x_0\right) \quad \text { für alle } \quad t \in\left[t_0, t_0+\alpha\right)
 > $$
 > 
-> mit $\alpha$ nach dem Satz von [Peano](Peano.md).
+> mit $\alpha$ nach dem Satz von [Peano](../Differentialgleichungen/Peano.md).
 > Ist $f$ in $Q_{u, v}$ sogar stetig differenzierbar nach $x$, dann ist die Lösungsfunktion $x\left(t ; t_0, \cdot\right)$ stetig differenzierbar bei $x_{0}$.
 > 
 
@@ -27,11 +27,11 @@ professor:
 - $f$ muss auf $D$ definiert werden: $f:\mathbb{D}\to \mathbb{R}^m$
 - Lösung existiert auf $[t_{0},t_{0}+x]$
 
-> [!question] Der Ausdruck $x(t;t_{0}, x_{0})$ bedeutet: (Siehe [AWP](GDGL.md))
+> [!question] Der Ausdruck $x(t;t_{0}, x_{0})$ bedeutet: (Siehe [AWP](../Differentialgleichungen/index.md))
 > $x(t)$ mit den anfangswerten $x(t_{0})=x_{0}$ ($x_{0}$ und $t_{0}$ können auch Vektoren sein)
 
 > [!info] Die **Übertragungsmatrix** (allg. Jacobimatrix) ist ein Maß zur Güte der Fehlerfortpflanzung.
-> Im falle eines [DGL-Systems](DGL-System.md), sonst ist sie eine $1\times1$-[Matrix](../Algebra/Matrix.md).
+> Im falle eines [DGL-Systems](../Differentialgleichungen/DGL-System.md), sonst ist sie eine $1\times1$-[Matrix](../Algebra/Matrix.md).
 > 
 > $$
 > \begin{align}

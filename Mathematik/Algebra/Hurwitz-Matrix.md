@@ -30,6 +30,6 @@ Das zeitdiskrete äquivalent einer Hurwitzmatrix ist die [Einheitskreismatrix](.
 
 # Referenzen
 
-- [Autonomes DGL-System](Autonomes%20DGL-System.md)
+- [Autonomes DGL-System](../Differentialgleichungen/Autonomes%20DGL-System.md)
 - [Kontinuierlicher LTI-Zustandsraum](../../Systemtheorie/Kontinuierlicher%20LTI-Zustandsraum.md)
-- [Ljapunov](Ljapunov.md)
+- [Ljapunov](../Differentialgleichungen/Ljapunov.md)

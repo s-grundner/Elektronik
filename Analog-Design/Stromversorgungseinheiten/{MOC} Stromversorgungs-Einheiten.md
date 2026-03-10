@@ -16,7 +16,7 @@ Stromversorgungseinheiten (Netzteile) dienen zur Erzeugung der von elektrischen 
 # Arten Von Netzteilen
 
  - [Linearregler](Linearregler.md)
- - [{MOC} Schaltnetzteil]({MOC}%20Schaltnetzteil.md)
+ - [index](index.md)
 
 ---
 

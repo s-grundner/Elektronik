@@ -10,9 +10,9 @@ Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspann
 
 ### Kennlinie
 
-| Kennwerte                                                                                                                                                                                      | Kennlinie                   |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| $U_{e,min}\dots$<br>$U_{e,max}\dots$<br>$I_{Z,min}\dots$<br>$I_{Z,max}\dots$<br>$R_{V,min}\dots$<br>$R_{V,max}\dots$<br>$P_{tot}\dots$<br><br>$U_{F}\dots$<br>$U_{R}\dots$<br>$I_{F}\dots$<br>$I_{B}\dots$ | ![600](../../_assets/z-d-kennlinie.png) |
+| Kennwerte                                                                                                                                           | Kennlinie                               |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------- |
+| $U_{e,min}$<br>$U_{e,max}$<br>$I_{Z,min}$<br>$I_{Z,max}$<br>$R_{V,min}$<br>$R_{V,max}$<br>$P_{tot}$<br><br>$U_{F}$<br>$U_{R}$<br>$I_{F}$<br>$I_{B}$ | ![600](../../_assets/z-d-kennlinie.png) |
 
 ### Dimensionierung
 

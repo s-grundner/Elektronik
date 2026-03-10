@@ -30,5 +30,5 @@ satz:
 
 # Tags
 
-[Grenzwert](Grenzwert.md)
+[Grenzwert](Kurvendiskussion/Grenzwert.md)
 [BIBO](../../Systemtheorie/Stabilität%20und%20Beschränktheit.md)

@@ -2,6 +2,7 @@
 tags:
 aliases:
   - Diffusion
+  - Diffusionsstrom
 keywords:
 subject:
   - Einführung Elektronik

@@ -18,9 +18,9 @@ def:
 # Lineare DGL-Systeme
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
->Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../Physik/Kinematik/Federkraft.md)-Dämpfer [Systeme](../../Systemtheorie/Zustandsbeschreibung.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
+>Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../../Physik/Kinematik/Federkraft.md)-Dämpfer [Systeme](../../../Systemtheorie/Zustandsbeschreibung.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
 
-[Allgemeine DGL](GDGL.md): $x' = f(t,x)$
+[Allgemeine DGL](index.md): $x' = f(t,x)$
 
 > [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung ^AWP1-1
 > 
@@ -28,7 +28,7 @@ def:
 
 Dabei ist $I$ das Lösungsintervall und $m$ die Dimension des Systems bzw die Anzahl an Differenzialgleichungen
 
-> [!info] Bei $A(t)$ handelt es sich um eine [Matrix](../Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](../Algebra/Vektor.md) in $\mathbb{R}^m$: 
+> [!info] Bei $A(t)$ handelt es sich um eine [Matrix](../../Algebra/Matrix.md) in $\mathbb{R}^{m \times m}$ und bei $b(t)$ um einen [Vektor](../../Algebra/Vektor.md) in $\mathbb{R}^m$: 
 > Die Matrix $A$ heißt **Koeffizientenmatrix** und der Vektor $b$ **Störvektor**.
 
 
@@ -68,7 +68,7 @@ Man kann den Satz von [Picard-Lindelöf](Picard-Lindelöf.md) auf das DGL-System
 
 ## Homogene Gleichung
 
-Sind $x_1$ und $x_2$ Lösungen des linearen homogenen Systems $x'=A(t)x$, so auch jede [Linearkombination](../Algebra/Linearkombination.md) davon, da mit $\lambda_1, \lambda_2 \in \mathbb{R}$ gilt:
+Sind $x_1$ und $x_2$ Lösungen des linearen homogenen Systems $x'=A(t)x$, so auch jede [Linearkombination](../../Algebra/Linearkombination.md) davon, da mit $\lambda_1, \lambda_2 \in \mathbb{R}$ gilt:
 
 $$
 \begin{aligned}
@@ -109,13 +109,13 @@ $$
 x_{2}= \underbrace{ x_{1} }_{ x_{p} }+(\underbrace{ x_{2}-x_{1} }_{ x_{h} })
 $$
 
-Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](../Algebra/Lineare%20Abhängigkeit.md)
+Daraus folgt, wenn die Anfangswerte $x_{0,1},\dots x_{0,k}\in\mathbb{R}^{m}$ liner unabhängig sind, dann sind auch die dazugehörigen eindeutigen Lösungen $x_{1},\dots x_{k}$ [linear unabhängig](../../Algebra/Lineare%20Abhängigkeit.md)
 
 
 > [!satz] **S1 - SUPO)** Seien $A: I \rightarrow \mathbb{R}^m \times \mathbb{R}^m$ und $b: I \rightarrow \mathbb{R}^m$ stetig.
-> Dann bilden die Lösungen des homogenen linearen Systems [AWP 1.2](#^AWP1-2) einen $m$-dimensionalen [Vektorraum](../Algebra/Vektorraum.md) ^SUPO
+> Dann bilden die Lösungen des homogenen linearen Systems [AWP 1.2](#^AWP1-2) einen $m$-dimensionalen [Vektorraum](../../Algebra/Vektorraum.md) ^SUPO
 > 
-> **[Superposition](../../Dictionary/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems [AWP 1.1](#^AWP1-1) bilden eine $m$-dimensionale lineare Mannigfaltigkeit.
+> **[Superposition](../../../Dictionary/Superpositionsprinzip.md)**: Die Lösungen des inhomogenen linearen Systems [AWP 1.1](#^AWP1-1) bilden eine $m$-dimensionale lineare Mannigfaltigkeit.
 > Man erhält alle Lösungen von AWP 1.1, indem man zu irgendeiner festen **partikulären** Lösung von AWP 1.1 alle Lösungen des zugehörigen **homogenen** Systems addiert.
 
 

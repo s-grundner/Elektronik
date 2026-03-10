@@ -6,7 +6,7 @@ created: 7. Februar 2025
 
 # Boostrapping bei Spannungsverstärkern
 
-> Findet man in [SMPS](Stromversorgungseinheiten/{MOC}%20Schaltnetzteil.md), und Mehrstufingen Transistorverstärkern
+> Findet man in [SMPS](Stromversorgungseinheiten/index.md), und Mehrstufingen Transistorverstärkern
 
 ![invert_dark](../_assets/AmpWithBootstrapping.png)
 

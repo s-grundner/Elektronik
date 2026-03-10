@@ -98,7 +98,7 @@ $$
 \end{align}
 $$
 
-da jeder Faktor vor einer [Potenz](../Algebra/Potenzen.md) in einer Polynomgleichung übereinstimmen muss, lässt sich ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) aufstellen.
+da jeder Faktor vor einer [Potenz](../Algebra/Potenzen.md) in einer Polynomgleichung übereinstimmen muss, lässt sich ein [lineares Gleichungssystem](../Algebra/Lineare%20Gleichungssysteme.md) aufstellen.
 
 $$
 \begin{align}
@@ -109,7 +109,7 @@ x:\quad &4=6A-2B-4C\\
 \end{align}
 $$
 
-Das [LGS](Lineare%20Gleichungssysteme.md) lässt sich als [Matrix](../Algebra/Matrix.md) anschreiben:
+Das [LGS](../Algebra/Lineare%20Gleichungssysteme.md) lässt sich als [Matrix](../Algebra/Matrix.md) anschreiben:
 
 $$
 \begin{pmatrix}
@@ -172,7 +172,7 @@ S_{4}''=2S_{2}'-S_{4}'
 \end{align}
 $$
 
-Mit der unteren linken Stufenform kann das [LGS](Lineare%20Gleichungssysteme.md) von unten nach oben gelöst werden
+Mit der unteren linken Stufenform kann das [LGS](../Algebra/Lineare%20Gleichungssysteme.md) von unten nach oben gelöst werden
 
 $$
 \begin{align}

@@ -76,7 +76,7 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 
 **Das Nicht-Erreichbare Teilsystem:**
 
-- Das [autonome](../../Mathematik/Analysis/Autonomes%20DGL-System.md) Teilsystem $\mathbf{\dot{z}}_{2} = \mathbf{\bar{A}}_{22}\mathbf{z}_{2}$ ist *weder* durch den Eingang $\mathbf{u}$, *noch* durch den Teilzustand $\mathbf{z}_{1}$ beeinflussbar.
+- Das [autonome](../../Mathematik/Differentialgleichungen/Autonomes%20DGL-System.md) Teilsystem $\mathbf{\dot{z}}_{2} = \mathbf{\bar{A}}_{22}\mathbf{z}_{2}$ ist *weder* durch den Eingang $\mathbf{u}$, *noch* durch den Teilzustand $\mathbf{z}_{1}$ beeinflussbar.
 - $\mathbf{z}_{2}$ ist der Zustand des nicht erreichbaren Teilsystems
 
 ## Steuerbarkeit
@@ -95,7 +95,7 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 
 Warum? $\to$ Zeitinvarianz eines LTI Systems: Vergleicht man die beiden Definitionen, stellt man fest, dass Steuerbarkeit genau die inverse Eigenschaft zur Erreichbarkeit ist.
 
-Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM-Eigenschaften)
+Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathematik/Differentialgleichungen/Fundamentalmatrix.md#^TRSM-Eigenschaften)
 
 - Die Transitionsmatrix ist immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) (d.h. Invertierbar)
 - Folgt man dem Fluss einer Lösung in die umgekehrete Richtung ist das äquivalent zum inversen Fluss 
@@ -106,7 +106,7 @@ Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathemati
 
 ---
 
-Damit das nicht vollständig erreichbare System stabilisierbar ist, muss die Systemmatrix $\mathbf{A}_{22}$ des nicht-erreichbare Teilsystem eine [Hurwitzmatrix](../../Mathematik/Analysis/Hurwitz-Matrix.md) sein.
+Damit das nicht vollständig erreichbare System stabilisierbar ist, muss die Systemmatrix $\mathbf{A}_{22}$ des nicht-erreichbare Teilsystem eine [Hurwitzmatrix](../../Mathematik/Algebra/Hurwitz-Matrix.md) sein.
 
 - Alle Eigenwerte sind dann negativ und das nicht-erreichbare teilsystem ist asymptotisch-stabil.
 - Um das System zu stabilisieren kann eine [Zustandsregelung](Regelungstechnik/Zustandsregeler.md) unternommen werden.

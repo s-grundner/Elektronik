@@ -60,7 +60,7 @@ $$
 > \end{align}
 > $$
 
-Mit der Ähnlichkeit zum kontinuierlichen LTI-System, findet man auch hier einen Term mit den Eigenschaften einer [Transitionsmatrix](../Mathematik/Analysis/Fundamentalmatrix.md#Transitionsmatrix):
+Mit der Ähnlichkeit zum kontinuierlichen LTI-System, findet man auch hier einen Term mit den Eigenschaften einer [Transitionsmatrix](../Mathematik/Differentialgleichungen/Fundamentalmatrix.md#Transitionsmatrix):
 
 $$
 \mathbf{\Phi}(k) = \mathbf{A}^k \quad \text{erfüllt} \quad \begin{cases}
@@ -71,5 +71,5 @@ $$
 \end{cases}
 $$
 
-Im gegensatz zu DGL-Systemen, unterscheidet man hier, dass $\mathbf{\Phi}$ hier nicht immer [regulär](../Mathematik/Algebra/Determinante.md#Reguläre%20Matrizen) sein kann, sondern nur dann, wenn die Dynamikmatrix $\mathbf{A}$ ebenfalls regulär ist.
+Im gegensatz zu DGL-Systemen, unterscheidet man hier, dass $\mathbf{\Phi}$ hier nicht immer [regulär](../Mathematik/Algebra/Reguläre%20Matrizen.md) sein kann, sondern nur dann, wenn die Dynamikmatrix $\mathbf{A}$ ebenfalls regulär ist.
 

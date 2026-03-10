@@ -23,7 +23,7 @@ Jede **periodische** [Funktion](../Mathematik/Algebra/Abbildung.md) kann als aus
 
 > [!quote] **Theorem von Fourier:** Harmonische Analyse
 > 
-> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer [**Stetigkeit**](../Mathematik/Analysis/Stetigkeit.md), **Integrierbarkeit** und **Monotonie** erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine [Linearkombination](../Mathematik/Algebra/Linearkombination.md) aus Funktionen $u_k(t)$ dargestellt werden.
+> Eine mit der Periode $T$ periodische Funktion $x(t)$, die bestimmte Voraussetzungen bezüglich ihrer [**Stetigkeit**](../Mathematik/Analysis/Kurvendiskussion/Stetigkeit.md), **Integrierbarkeit** und **Monotonie** erfüllt, kann in eine Fourier-Reihe entwickelt, d.h. durch eine [Linearkombination](../Mathematik/Algebra/Linearkombination.md) aus Funktionen $u_k(t)$ dargestellt werden.
 > 
 > Die Funktionen $u_k(t)$ bilden die Basisfunktionen eines normierten, orthogonalen Funktionensystems, genügen also der Bedingung
 > 

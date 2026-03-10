@@ -30,7 +30,7 @@ Dann lässt sich der Lösungsansatz aufstellen:
 
 $$ x_{p}(t)= X(t)\cdot c(t) $$
 
-wobei $X(t)$ die [Fundamentallösung](Fundamentalmatrix.md) ist, welche mittels [Trennen der Variablen](../Algebra/Trennen%20der%20Variablen.md) der homogenen Lösung gefunden werden kann. 
+wobei $X(t)$ die [Fundamentallösung](../Differentialgleichungen/Fundamentalmatrix.md) ist, welche mittels [Trennen der Variablen](../Algebra/Trennen%20der%20Variablen.md) der homogenen Lösung gefunden werden kann. 
 
 > [!hint] Herleitung zur Variation der Konstanten
 >  
@@ -65,7 +65,7 @@ Durch Variation der Konstanten ist eine Eindeutige Lösung des inhomogenen AWP g
 $$x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X(\tau)^{-1} b(\tau) d \tau\right]$$
 
 
-oder häufiger mit Hilfe der [Transitionsmatrix](Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}$ durch
+oder häufiger mit Hilfe der [Transitionsmatrix](../Differentialgleichungen/Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}$ durch
 
 > [!satz] **S1 - VARK)** Variation der Konstanten ^VARK
 > $$

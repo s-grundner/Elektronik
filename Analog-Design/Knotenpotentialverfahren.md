@@ -25,7 +25,7 @@ professor:
 > 2. Die Spannungen aller anderen Knoten (den **Knotenspannungen**) werden relativ zu diesem Bezugsknoten angegeben.
 > 3. Dadurch werden die Maschengleichunge eliminiert.
 >  
-> Aus Einem Netzwerk mit $k$ Knoten lässt sich ein [LGS](../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) mit $k-1$ Gleichungen aufstellen.
+> Aus Einem Netzwerk mit $k$ Knoten lässt sich ein [LGS](../Mathematik/Algebra/Lineare%20Gleichungssysteme.md) mit $k-1$ Gleichungen aufstellen.
 >
 
 Wichtige Schritte:

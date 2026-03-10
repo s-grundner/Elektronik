@@ -36,7 +36,7 @@ Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 | **:LiAudioWaveform: Kontinuierliche Systeme**                                    | :LiBolt: |                                                        **Zeitdiskrete Systeme :LiBarChart2:** |
 | -------------------------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------: |
 |                                                                                  |          |                                                                                               |
-| [:LiArrowBigRightDash:](../Mathematik/Analysis/GDGL.md) Differentialgleichungen  | :LiBolt: | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Differenzengleichung.md) |
+| [:LiArrowBigRightDash:](../Mathematik/Differentialgleichungen/index.md) Differentialgleichungen  | :LiBolt: | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Differenzengleichung.md) |
 |                                                                                  |          |                                                                                               |
 | [:LiArrowBigRightDash:](Dynamische%20Systeme.md) Dynamische Systeme              | :LiBolt: |                        Zeitdiskrete Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20Systeme.md) |
 | [:LiArrowBigRightDash:](Lineare%20Systeme.md) Lineare Systeme                    | :LiBolt: |          Diskrete Lineare Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20Lineare%20Systeme.md) |

@@ -176,7 +176,7 @@ Eigenvektoren sind also alle [Vektoren](Vektor.md) $\vec{x}$ mit den dazugehöri
 
 ### Charakteristisches [Polynom](Polynom.md)
 
-> [!important] Die Eigenwerte werden durch [Nullstellen](../Analysis/Nullstelle.md) im charakteristischen [Polynom](Polynom.md) berechnet. 
+> [!important] Die Eigenwerte werden durch [Nullstellen](../Analysis/Kurvendiskussion/Nullstelle.md) im charakteristischen [Polynom](Polynom.md) berechnet. 
 
 Die [Determinante](Determinante.md) für muss für $A-\lambda \cdot I$ gleich null sein:
 
@@ -199,13 +199,13 @@ Die Gleichung wird nun zu einem [Polynom](Polynom.md) aufgelöst:
 >
 > $$-\lambda^{3}+15\lambda^{2}-54\lambda= 0$$
 >
-> Die [Nullstellen](../Analysis/Nullstelle.md), also die *Eigenwerte*, dieses Polynoms sind:  
+> Die [Nullstellen](../Analysis/Kurvendiskussion/Nullstelle.md), also die *Eigenwerte*, dieses Polynoms sind:  
 >
 > $$\lambda_{1} = 0 \qquad \lambda_{2} = 6 \qquad \lambda_{3} = 9$$
 
 ### Eigenvektoren
 
-Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das [LGS](../Analysis/Lineare%20Gleichungssysteme.md) eingesetzt und gelöst werden.
+Um nun die *Eigenvektoren* auszurechnen müssen lediglich die *Eigenwerte* in das [LGS](Lineare%20Gleichungssysteme.md) eingesetzt und gelöst werden.
 
 $\lambda_{3}$:
 
@@ -240,7 +240,7 @@ S_{3}'=S_{3}+S_{1}
 \end{align}
 $$
 
-Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](../Analysis/Lineare%20Gleichungssysteme.md) gelöst werden. Pro [Lineare Abhängigkeit](Lineare%20Abhängigkeit.md) kann ein Parameter frei gewählt werden:
+Mit dem Eliminieren der linearen Abhängigkeiten kann nun das [LGS](Lineare%20Gleichungssysteme.md) gelöst werden. Pro [Lineare Abhängigkeit](Lineare%20Abhängigkeit.md) kann ein Parameter frei gewählt werden:
 
 $$
 0x_{1}+0x_{2}+0x_{3} = 0 \to x_{3} = s, s\in \mathbb{R}
@@ -254,7 +254,7 @@ $$
 -2x_{1} -2\cdot \frac{s}{2}+1\cdot s = 0 \to x_{1} = 0
 $$
 
-Mit der Lösung des [LGS](../Analysis/Lineare%20Gleichungssysteme.md) ergibt sich der Eigenvektor für $\lambda_{3} = 9$ als folgender:
+Mit der Lösung des [LGS](Lineare%20Gleichungssysteme.md) ergibt sich der Eigenvektor für $\lambda_{3} = 9$ als folgender:
 
 $$
 x_{\lambda_{3}}=s\cdot \begin{pmatrix}
@@ -268,7 +268,7 @@ x_{\lambda_{3}}=s\cdot \begin{pmatrix}
 \end{pmatrix}, s\in \mathbb{R}
 $$
 
-der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [{MOC} Lineare Algebra](../{MOC}%20Lineare%20Algebra.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
+der Eigenraum für diesen Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren [index](index.md) / Erzeugenensystem. Der Eigenraum kann je nach Anzahl der Freiwählbaren Parameter mehrere Dimensionen haben, in diesem Fall jedoch nur eine.
 
 $$
 \begin{align}

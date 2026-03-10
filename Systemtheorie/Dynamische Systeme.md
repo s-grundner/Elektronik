@@ -22,7 +22,7 @@ title: Kontinuierliche Systeme
 
 Dynamische Systeme, die sich durch eine endliche Anzahl n von Zustandsgrößen charakterisieren lassen, werden auch als Systeme mit finitem Zustand[^1] der Ordnung $n$ bezeichnet.
 
-Im zeitkontinuierlichen Fall werden sie durch mathematische Modelle in Form von gewöhnlichen [DGL-Systemen](../Mathematik/Analysis/DGL-System.md) und algebraischen Gleichungen beschrieben. 
+Im zeitkontinuierlichen Fall werden sie durch mathematische Modelle in Form von gewöhnlichen [DGL-Systemen](../Mathematik/Differentialgleichungen/DGL-System.md) und algebraischen Gleichungen beschrieben. 
 
 $$
 \begin{align}
@@ -59,8 +59,8 @@ Haben $\mathbf{f}$ und $\mathbf{g}$ eine bestimmte Form bezeichnet man das Syste
 | Die Zustandsfolgen sind nur indirekt über die Zustandsgrößen von $k$ abhängig                                                        | Das System besitzt keine externen Stellgrößen                                                                       | das System ist frei und zeitinvariant                                                                          |
 
 > [!hint] Es gelten dabei auch die Sätze über DGL-Systeme:
-> - Existenz einer Lösung nach [Picard-Lindelöf](../Mathematik/Analysis/Picard-Lindelöf.md)
-> - Stabilität einer Lösung nach [Ljapunov](../Mathematik/Analysis/Ljapunov.md)
+> - Existenz einer Lösung nach [Picard-Lindelöf](../Mathematik/Differentialgleichungen/Picard-Lindelöf.md)
+> - Stabilität einer Lösung nach [Ljapunov](../Mathematik/Differentialgleichungen/Ljapunov.md)
 
 ## Lineare Systeme
 

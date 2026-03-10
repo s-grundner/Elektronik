@@ -14,7 +14,7 @@ release: false
 title: Diskrete Lineare Systeme
 ---
 
-# Zeitdiskrete Lineare Systeme
+# Zeitdiskrete Lineare Zeitvariante Systeme
 
 > [!question] :LiArrowBigLeftDash: [Zeitdiskrete Systeme](Zeitdiskrete%20Systeme.md) |📍| [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md) :LiArrowBigRightDash:
 

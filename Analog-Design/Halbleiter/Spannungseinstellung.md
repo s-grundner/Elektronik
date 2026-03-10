@@ -117,7 +117,7 @@ Durch Einbau einer Gegenkopplung kann der Arbeitspunkt stabilisiert werden. Eine
 > 
 > Der **Strom** $I_{E}$ steuert die Gegenkopplung der **Spannung** $U_{BE}$.
 
-> [!error] ❌**Nachteil**: Die Gegenkopplung wirkt sich auch auf die Verstärkung aus.
+> [!error] **Nachteil**: Die Gegenkopplung wirkt sich auch auf die Verstärkung aus.
 > > [! success] Lösung dazu ist die [Emitterschaltung](Emitterschaltung.md)
 
 ---

@@ -14,7 +14,7 @@ title: Lineare Systeme
 ---
  
 
-# Lineare Systeme
+# Lineare Zeitvariante Systeme
 
 > [!question] :LiArrowBigLeftDash: [Dynamische Systeme](Dynamische%20Systeme.md) |📍| [LTI-Systeme](LTI-Systeme.md) :LiArrowBigRightDash:
 
@@ -50,7 +50,7 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 | Die Stellgröße bzw. der Eingangsvektor $\mathbf{u}(t)$ ist null                                                          | Die Koeffizientenmatrizen sind konstant. Das System ist daher zusätzlich *zeitinvariant*                                                                                     | Das System ist *frei* und *zeitinvariant*                                                                          |
 | $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}(t)\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}(t)\mathbf{x}(t)\end{align}$$ | $$\begin{align} \mathbf{\dot{x}}(t) = \mathbf{A}\mathbf{x}(t) + \mathbf{B}\mathbf{u}(t) \\ \mathbf{y}(t) = \mathbf{C} \mathbf{x}(t) + \mathbf{D} \mathbf{u}(t) \end{align}$$ | $$\begin{align}\mathbf{\dot{x}}(t)&=\mathbf{A}\mathbf{x}(t) \\ \mathbf{y}(t)&=\mathbf{C}\mathbf{x}(t)\end{align}$$ |
 
- Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%20mit%20konstanten%20Koeffizienten.md) ansetzen.
+ Bei LTI Systemen lassen sich Lösungen wie für [DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Differentialgleichungen/Lineare%20DGL-Systeme%20mit%20konstanten%20Koeffizienten.md) ansetzen.
 
 ## Zustandsgleichung als Blockdiagramm
 
@@ -61,3 +61,33 @@ Diese Gleichungen sind ausriechend, um ein lineares Übertragungssystem vollstä
 - Von den Ausgängen der *Integratoren* wird der nun Integrierte **Zustandsvektor** $\mathbf{x}(t)$ über die **Ausgangsmatrix** $\mathbf{C}$ auf den **Ausgangsvektor** $\mathbf{y}(t)$ abgebildet.
 - Der **Eingangsvektor** $\mathbf{u}(t)$ wird über die **Durchgangsmatrix** $D$ direkt zum **Ausgangsvektor** $\mathbf{y}(t)$ übertragen. (Geht also an den Speichernden elementen des Systems vorbei)
 
+
+## Superposition
+
+Lineare Systeme werden durch Superposition definiert. Mit bekannten Anfangsbedingungen und bekanntem Eingang gilt:
+
+> [!def] **D)** Das mathematische Modell Gl. (2.1) und (2.2) heißt linear, wenn es die Beziehungen
+> 
+> $$
+> \begin{aligned}
+> \mathbf{x}\left(t_0, \mathbf{x}_0, \mathbf{u}(\cdot)\right) & =\mathbf{x}\left(t_0, \mathbf{x}_0, \mathbf{0}\right)+\mathbf{x}\left(t_0, \mathbf{0}, \mathbf{u}(\cdot)\right) \\
+> \mathbf{x}\left(t_0, \alpha_1 \mathbf{x}_{0,1}+\alpha_2 \mathbf{x}_{0,2}, \mathbf{0}\right) & =\alpha_1 \mathbf{x}\left(t_0, \mathbf{x}_{0,1}, \mathbf{0}\right)+\alpha_2 \mathbf{x}\left(t_0, \mathbf{x}_{0,2}, \mathbf{0}\right) \\
+> \mathbf{x}\left(t_0, \mathbf{0}, \beta_1 \mathbf{u}_1(\cdot)+\beta_2 \mathbf{u}_2(\cdot)\right) & =\beta_1 \mathbf{x}\left(t_0, \mathbf{0}, \mathbf{u}_1(\cdot)\right)+\beta_2 \mathbf{x}\left(t_0, \mathbf{0}, \mathbf{u}_2(\cdot)\right)
+> \end{aligned}
+> $$
+> 
+> sowie
+> 
+> $$
+> \begin{aligned}
+> \mathbf{y}\left(t_0, \mathbf{x}_0, \mathbf{u}(\cdot)\right) & =\mathbf{y}\left(t_0, \mathbf{x}_0, \mathbf{0}\right)+\mathbf{y}\left(t_0, \mathbf{0}, \mathbf{u}(\cdot)\right) \\
+> \mathbf{y}\left(t_0, \alpha_1 \mathbf{x}_{0,1}+\alpha_2 \mathbf{x}_{0,2}, \mathbf{0}\right) & =\alpha_1 \mathbf{y}\left(t_0, \mathbf{x}_{0,1}, \mathbf{0}\right)+\alpha_2 \mathbf{y}\left(t_0, \mathbf{x}_{0,2}, \mathbf{0}\right) \\
+> \mathbf{y}\left(t_0, \mathbf{0}, \beta_1 \mathbf{u}_1(\cdot)+\beta_2 \mathbf{u}_2(\cdot)\right) & =\beta_1 \mathbf{y}\left(t_0, \mathbf{0}, \mathbf{u}_1(\cdot)\right)+\beta_2 \mathbf{y}\left(t_0, \mathbf{0}, \mathbf{u}_2(\cdot)\right)
+> \end{aligned}
+> $$
+> 
+> für alle $\alpha_1, \alpha_2, \beta_1, \beta_2 \in \mathbb{R}, \mathbf{u}_1(\cdot), \mathbf{u}_2(\cdot) \in B V^m$ erfüllt.
+
+1. Zeile: Superposition von Eingang und Anfangsbedingung / Zustand.
+2. Zeile: Superposition zweier Zustände
+3. Zeile: Superposition zweier Eingänge

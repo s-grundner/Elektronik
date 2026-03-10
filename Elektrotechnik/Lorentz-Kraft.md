@@ -14,13 +14,15 @@ professor:
 
 # Lorentz-Kraft
 
-![InlineR|384](../_assets/JakobyFotoLeiden.png)
+![invert_dark](../_assets/JakobyFotoLeiden.png)
 
-Ruhende [Ladungen](elektrische%20Ladung.md):
+
+
+[Coulomb-Kraft](Coulomb-Kraft.md) - Ruhende [Ladungen](elektrische%20Ladung.md):
 - erzeugen $\vec{E}$
 - erfahren eine [elektrische Kraft](Coulomb-Kraft.md) in Anwesenheit von $\vec{E}$
 
-Bewegte [Ladungen](elektrische%20Ladung.md):
+[Laplace-Kraft](Laplace-Kraft.md) - Bewegte [Ladungen](elektrische%20Ladung.md):
 - erzeugen $\vec{B}$
 - erfahren eine [magnetische Kraft](Laplace-Kraft.md) in Anwesenheit von $\vec{B}$
 

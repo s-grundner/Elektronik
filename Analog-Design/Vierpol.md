@@ -12,7 +12,7 @@ created: 21st November 2022
 
 > [Zweipol](../Elektrotechnik/Zweipol.md)
 
-Ein Vierpol kann, wenn er linear ist, durch ein [LGS](../Mathematik/Analysis/Lineare%20Gleichungssysteme.md) verschiedener Arten beschrieben werden:
+Ein Vierpol kann, wenn er linear ist, durch ein [LGS](../Mathematik/Algebra/Lineare%20Gleichungssysteme.md) verschiedener Arten beschrieben werden:
 
 - Übertragungsmatrix
 - Hybridmatrix

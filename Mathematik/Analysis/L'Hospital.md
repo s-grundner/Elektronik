@@ -17,7 +17,7 @@ title: L'Hospital
 
 # L'Hospital
 
-> [!IMPORTANT] Führt ein [Grenzwert](Grenzwert.md) auf *einen unbestimmten Ausdruck* der Form "$\frac{0}{0}$" oder "$\frac{\infty}{\infty}$", wo gilt:  
+> [!IMPORTANT] Führt ein [Grenzwert](Kurvendiskussion/Grenzwert.md) auf *einen unbestimmten Ausdruck* der Form "$\frac{0}{0}$" oder "$\frac{\infty}{\infty}$", wo gilt:  
 >
 > $$ \lim_{x\rightarrow a^{+}}\frac{f(x)}{g(x)} = \lim_{x\rightarrow a^{+}}\frac{f'(x)}{g'(x)}, \quad g'(x) \neq 0 $$
 

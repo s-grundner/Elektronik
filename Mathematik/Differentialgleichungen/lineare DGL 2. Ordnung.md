@@ -17,7 +17,7 @@ $$y'' + p\cdot y'+q\cdot y=s(x) $$
 
 ### Lösung der *homogenen* DGL 2. Ordnung
 
-Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL](../Analysis/GDGL.md) 2. Ordnung erfolgt mit dem [Exponentialansatz](Exponentialansatz.md)
+Die Allgemeine Lösung $y_h$ einer homogenen linearen [DGL](index.md) 2. Ordnung erfolgt mit dem [Exponentialansatz](Exponentialansatz.md)
 
 $$
 \begin{align*}
@@ -42,7 +42,7 @@ Je nach Art der Lösungen $\lambda_{1}$ und $\lambda_{2}$ sind drei Fälle zu un
 
 $$\boxed{\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q}}$$
 
-- [P-Q-Formel](../Quadratische%20Gleichung.md)
+- [P-Q-Formel](../../Quadratische%20Gleichung.md)
 
 | Fall    | Bedingung                            | Art der Lösung                                                                                                 | Lösungsansatz für `y`                                                                    |
 | ------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -51,7 +51,7 @@ $$\boxed{\lambda_{1,2} = -\dfrac{p}{2}\pm \sqrt{\Big{(}\dfrac{p}{2}\Big{)}^{2}-q
 | 3. Fall | $\Big{(}\dfrac{p}{2}\Big{)}^{2}-q<0$ | $\lambda_{1,2}=\sigma\pm j\cdot\omega$ <br>(2 konjugiert [komplexe](../Analysis/Komplexe%20Zahlen.md) Lösungen) | $y_{h}=e^{\sigma x}\cdot\Big{[}C_{1}\cdot\cos(\omega x)+C_{2}\cdot\sin(\omega x)\Big{]}$ |
 
 > [!NOTE] $C_{1}$ und $C_{2}$ werden durch die Anfangsbedingung festgelegt  
-> Es müssen immer 2 Lösungen existieren, da die Anfangsbedingungen der Differentialgleichung 2. Ordnung $\frac{dy(x_0)}{dx}$ und $y(x_0)$ sind. Um eine eindeutige Lösung erhalten benötigen wir also 2 Anfangsbedingungen. (z.B. Bei Bewegungsgleichung: Start-[Geschwindigkeit](../../Physik/Kinematik/Kinematik.md) und Startpunkt)
+> Es müssen immer 2 Lösungen existieren, da die Anfangsbedingungen der Differentialgleichung 2. Ordnung $\frac{dy(x_0)}{dx}$ und $y(x_0)$ sind. Um eine eindeutige Lösung erhalten benötigen wir also 2 Anfangsbedingungen. (z.B. Bei Bewegungsgleichung: Start-[Geschwindigkeit](../../../Physik/Kinematik/Kinematik.md) und Startpunkt)
 
 #### 1. Fall: Eindeutige Lösung
 
@@ -70,7 +70,7 @@ $$
 $\begin{align*} \lambda_{1}&=\lambda_{2}=- \frac{p}{2} \\ y_{h}&=(C_{1}+C_{2}x)\cdot e^{\lambda_{0}x}\end{align*}$
 
 > [!WARNING] ergibt nur eine Lösung … es fehlt also etwas  
-> ![Pasted image 20220601193117](../../_assets/Pasted%20image%2020220601193117.png)
+> ![Pasted image 20220601193117](../../../_assets/Pasted%20image%2020220601193117.png)
 
 #### 3. Fall: konjugiert komplexe Lösungen
 
@@ -84,10 +84,10 @@ $\omega = \sqrt{q - \left( \frac{p}{2} \right)^{2}}$
 
 ### Lösung der *inhomogenen* DGL 2. Ordnung
 
-Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](../Analysis/lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](../Analysis/GDGL.md) hat. 
+Die Vorgehensweise gleicht völlig der bei [linearen DGL 1. Ordnung](lineare%20DGL%201.%20Ordnung.md), was seinen Grund in der *Linearität* der [DGL](index.md) hat. 
 
 Die allgemeine Lösung $y$ der inhomogenen Gleichung ist die Summe *("Überlagerung")* der allgemeinen Lösung $y_{h}$ der zugehörigen homogenen Gleichung und irgendeiner partikulären *(speziellen)* Lösung $y_{p}$ der inhomogenen Gleichung: **$y=y_{p}+y_{h}$**. 
 
-Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL](../Analysis/GDGL.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist.
+Das Aufsuchen einer beliebigen partikulären Lösung $y_{p}$ erfolgt wieder am Einfachsten durch einen Lösungsansatz entsprechend der Störfunktion **$s(x)$**. Dies gilt, wenn die [DGL](index.md) konstante Koeffizienten besitzt, was vorraussetzungsgemäß der Fall ist.
 
-- [DGL Störterm-Ansätze](../Analysis/DGL%20Störterm-Ansätze.md)
+- [DGL Störterm-Ansätze](DGL%20Störterm-Ansätze.md)

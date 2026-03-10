@@ -13,7 +13,7 @@ release: false
 
 > [!info] Ressourcen
 > 
-> - [vim-cheatsheet](../../10_tools/pdf/vim-cheatsheet.pdf)
+> - [vim-cheatsheet](../../02-Tools/pdf/vim-cheatsheet.pdf)
 
 ## Movements und Commands
 

@@ -3,6 +3,7 @@ tags:
   - MOC
   - Analysis
   - DGL
+  - index
 aliases:
   - DGL
   - Differenzialgleichungen
@@ -20,6 +21,8 @@ created: 14th March 2022
 def:
   - AWP
   - DGL
+title: DGL
+release: false
 ---
 
 # Gewöhnliche Differentialgleichungen (DGL)
@@ -29,7 +32,7 @@ def:
 
 ---
 
-**Ordnung:** Die Ordnung der DGL ist durch die höchste Vorkommende [Ableitung](Differenzialrechnung.md) bestimmt.
+**Ordnung:** Die Ordnung der DGL ist durch die höchste Vorkommende [Ableitung](../Analysis/Differenzialrechnung.md) bestimmt.
 
 > [!def] **D1 - DGL)** Allgemeine Form ^DGL
 > 
@@ -83,7 +86,7 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
     - Trennen der Variablen
     - Fundamentalmatrix
     - Variation der Konstanten
-- [Laplacetransformation](../../Systemtheorie/Laplacetransformation.md)
+- [Laplacetransformation](../../../Systemtheorie/Laplacetransformation.md)
 - [Analytische Verfahren](Numerische%20Lösungsverfahren%20von%20DGL.md#Analytische%20Verfahren)
 - [Numerische Verfahren](Numerische%20Lösungsverfahren%20von%20DGL.md#Numerische%20Verfahren)
 
@@ -95,4 +98,4 @@ Ein [Randwertproblem](Randwertprobleme.md) (RWP) ist ein Problem, bei dem eine D
 
 ![](https://www.youtube.com/embed/p_di4Zn4wz4)
 
-[DGL-NOTES HTL](../../_assets/pdf/DGL-NOTES.pdf)
+[DGL-NOTES HTL](../../../_assets/pdf/DGL-NOTES.pdf)

@@ -13,10 +13,6 @@ Zener-Dioden sind pn-Dioden mit genau eingestellter Durchbruchsspannung.
 > [!hint] Wegen der extremen Steilheit der Kennlinie im Sperrbereich, eignet sich die Zener-Diode gut als **Spannungsreferenz**.
 > Sie wird zu diesem Zweck über einen Serienwiderstand vorgespannt.
 
-## Anwendung
-
-- [Ungeregelte Spannungsstabilisierung](../Stromversorgungseinheiten/Ungeregelte%20Spannungsstabilisierung.md)
-
 ## Funktionsweise
 
 Grundsätzlich gibt es zwei Durchbruchmechanismen, weche die Einstellung der Durchbruchspannung ermöglchen:
@@ -32,3 +28,7 @@ Bei hoher Dotierung des pn-Übergangs ist die Raumladungszone klein. Ist die Spe
 Für $U_{Z}> 7V$:
 
 Elektronen werden im großen E-Feld derart beschleunigt, dass sie genügend Energie besitzen, um bei einer Kollision mit einem anderen Valenzelektron dieses ins Leitungsband zu heben. Dieses neu erzeugte Elektronen-Loch Paar trätg nun zur Leitung bei und kann weitere Paare durch Kollision erzeugen.
+
+## Anwendung
+
+- [Ungeregelte Spannungsstabilisierung](../Stromversorgungseinheiten/Ungeregelte%20Spannungsstabilisierung.md)

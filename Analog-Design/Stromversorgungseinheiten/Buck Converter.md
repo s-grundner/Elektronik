@@ -183,4 +183,4 @@ Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Kompar
 
 ![Scott Nance Seminar](https://www.youtube.com/watch?v=gq-0ZpcGm8E)
 
-[{MOC} Schaltnetzteil]({MOC}%20Schaltnetzteil.md)
+[index](index.md)

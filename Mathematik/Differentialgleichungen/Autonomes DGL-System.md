@@ -51,7 +51,7 @@ Jedoch ist das Auswerten einer Unendlichenreihe unpraktisch.
 
 ### Eigen und Hauptvektoren
 
-> [!question] [Eigenvektor](../Algebra/Eigenvektor.md)
+> [!question] [Eigenvektor](../../Algebra/Eigenvektor.md)
 
 Durch erweiterung von $e^{tA}$ erhalten wir folgendes:
 
@@ -62,7 +62,7 @@ $$
 > [!info] Zum Exponenten wird $+t\lambda \mathbb{1}-t\lambda \mathbb{1}$ hinzugerechnet.
 > $e^{t\mathbf{A}}=e^{ t\mathbf{A}+t\lambda \mathbb{1}-t\lambda \mathbb{1} }=$
 
-> [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](../Algebra/Eigenvektor.md): 
+> [!important] Durch Umformung erhalten wir den bekannten Ausdruck $A-\lambda \mathbb{1}$ zu den [Eigenvektoren](../../Algebra/Eigenvektor.md): 
 > - Die Vektoren $v$ werden für den Lösungsansatz dazumultipliziert, um die Diagonale Form der Exponenzialmatrix zu erhalten.
 > - Das ist möglich da ja gilt, dass die Linearkombination aller Lösungen wieer eine Lösung ist.  
 > $$
@@ -79,8 +79,8 @@ $$
 > [!important] Um nun eine Fundamentalmatrix zu erhalten, müssen wir **genügend linear unabhängige Eigenvektoren** finden. 
 > 
 > Gibt es nicht genug linearunabhängige Eigenvektoren z.B. wenn es Eigenwerte mit einer algebraische Vielfachheit $>1$ gibt, sucht man bildet man zusätzliche Nebeneigenvektoren
-> - [Hauptvektoren](../Algebra/Eigenvektor.md#Hauptvektoren)
-> - [Jordannormalform](../Algebra/Jordannormalform.md)
+> - [Hauptvektoren](../../Algebra/Eigenvektor.md#Hauptvektoren)
+> - [Jordannormalform](../../Algebra/Jordannormalform.md)
 
 ### Asymptotische Stabilität
 
@@ -98,7 +98,7 @@ Dabei sind die Eigenwerte der Matrix $\mathbf{A}$ in der Form $\lambda = \alpha+
 
 Ersichtlich ist, dass die Lösung asymptotisch Stabil ist, wenn für alle Eigenwerte gilt, dass $\Re(\lambda) = \alpha<0$.
 
-Eine Matrix mit der Eigenschaft, dass ihre Eigenwerte einen **negativen Realteil** besitzen, nennt man [Hurwitz-Matrix](Hurwitz-Matrix.md)
+Eine Matrix mit der Eigenschaft, dass ihre Eigenwerte einen **negativen Realteil** besitzen, nennt man [Hurwitz-Matrix](../../Algebra/Hurwitz-Matrix.md)
 
 
 [^1]:  Eine Eigenschaft des Matrixexponential ist, dass für Diagonalmatrizen die Exponentialfunktion auf deren einzelne Elemete übertragen wird: [hier](Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix) gezeigt.

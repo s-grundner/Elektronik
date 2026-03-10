@@ -9,7 +9,7 @@ subject:
 created: 2nd October 2022
 ---
 
-# Primär getakteter [Schaltregler]({MOC}%20Schaltnetzteil.md)
+# Primär getakteter [Schaltregler](index.md)
 
 ![PrimGetaktSMPS](../../_assets/PrimGetaktSMPS.png)
 

@@ -24,4 +24,4 @@ Wenn die Dynamik/Koeffizientenmatrix eines zeitdiskreten Autonomen System eine E
 
 ---
 
-Das zeitkontiuierliche äquivalent zu einer EHKM ist die [Hurwitz-Matrix](../Mathematik/Analysis/Hurwitz-Matrix.md) 
+Das zeitkontiuierliche äquivalent zu einer EHKM ist die [Hurwitz-Matrix](../Mathematik/Algebra/Hurwitz-Matrix.md) 

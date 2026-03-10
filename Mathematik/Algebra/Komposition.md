@@ -15,7 +15,7 @@ release: false
 title: Komposition
 ---
 
-# Hinterinanderausführung
+# Hintereinanderausführung
 
 > [!def] **D1 - KOMP)** Seien $A$, $B$ und $C$ beliebige Mengen und die Funktionen $f:A\to B$ sowie $g:B\to C$, dann heißt die Funktion
 > $$g\circ f:A\to C, x \mapsto (g\circ f)(x):= g(f(x))$$

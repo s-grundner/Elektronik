@@ -28,17 +28,17 @@ Die Tangente ist eine lineare Näherung (Approximation) an einer Kurve. Sogar di
 
 
 > [!INFO] Bei der Differenzialrechnung wird somit die Änderung in einer Funktionen betrachtet.  
-> Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](GDGL.md))
+> Sie wird in der Physik als häufigste Operation verwendet und benötigt um Naturgesetze zu definieren. (Siehe [DGL](../Differentialgleichungen/index.md))
 
-| ![invert_dark](../../_assets/Differenzial1.png)^fig1 | ![invert_dark](../../_assets/Differenzial2.png) |
+| ![invert_dark](../../../_assets/Differenzial1.png)^fig1 | ![invert_dark](../../../_assets/Differenzial2.png) |
 | --------------------------------------------- | ---------------------------------------- |
 
 
 Steigung der Sekante $k=\dfrac{\Delta y}{\Delta x}=\dfrac{f(x_{0}+\Delta x)-f(x_{0})}{\Delta x}\to$ Differenzenquotient oder mittlere Steigung im Intervall.  
-$Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-Steigung ist die Ableitung. 
+$Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Kurvendiskussion/Grenzwert.md) der Sekanten-Steigung ist die Ableitung. 
 
 > [!def] **D1 - DIFQ)** Differenzialquotient und Differnenzierbarkeit einer Funktion $f$ ^DIFQ
-> Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der [Grenzwert](Grenzwert.md)
+> Die Funktion $f$ mit $y = f(x)$ heißt an der Stelle $x_{0}$ *differenzierbar*, wenn der [Grenzwert](Kurvendiskussion/Grenzwert.md)
 > 
 > $$
 > \boxed{
@@ -47,7 +47,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > $$
 >  existiert. $h = x-x_{0}$ bzw. $x = x_{0}+h$
 > 
-> Diesen [Grenzwert](Grenzwert.md) nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
+> Diesen [Grenzwert](Kurvendiskussion/Grenzwert.md) nennt man *Ableitung* oder *Differenzialquotient* von $f$ an der Stelle $x_{0}$.
 > 
 > Er wird mit $f(x_{0})$, $y'(x_{0})$ oder $\frac{dy}{dx}\Big|_{x=x_{0}}$ (gesprochen: $dy$ nach $dx$ für $x=x_{0}$) bezeichnet.
 > 
@@ -55,7 +55,7 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 
 
 > [!hint] Differenzieren heißt linear approximieren
-> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *[Grenzwert](Grenzwert.md) des Differenzenquotienten*: $f'(x_{0})=\lim_{ \Delta x \to 0}\frac{\Delta y}{\Delta x}$.
+> 1. Der *Differenzialquotient* (die Ableitung) $f'(x)$ ist der *[Grenzwert](Kurvendiskussion/Grenzwert.md) des Differenzenquotienten*: $f'(x_{0})=\lim_{ \Delta x \to 0}\frac{\Delta y}{\Delta x}$.
 > 2. Die Bezeichnung $\frac{dy}{dx}$ soll an die Verwandtschaft der Ableitung mit einem Differenzenquotient erinnern.  
 >     - Differenzierbarkeit einer Funktion an der Stelle $x_{0}$ bedeutet geometrisch, dass es dort eine *Tangente* gibt.  
 >     - Ist eine Funktion also an einer Stelle $x_{0}$ *differenzierbar*, so heißt dies, dass sie dort *linear approximierbar* ist.  
@@ -82,8 +82,8 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 | Potenzfunktion                                                                         | $f(x)=a\cdot x^{n},n\in\mathbb{R}$                         | $f'(x)=a\cdot n\cdot x^{n-1}$                                                                    |
 | [Exponentialfunktion](Exponentialfunktion.md)                                          | $f(x)=a^{x}$ <br>$f(x)=e^{x}$                              | $f'(x)=a^{x}\cdot \ln a$ <br>$f'(x)=e^{x}$                                                       |
 | Logarithmusfunktion                                                                    | $f(x)=\ln x$ <br>$f(x)=\log_{a}$                           | $f'(x)=\frac{1}{x}$ <br>$f'(x)=\frac{1}{x\cdot \ln a}$                                           |
-| [Kreisfunktionen](../Trigonometrische%20Funktionen.md) <br> (*Winkel $x$ im Bogenmaß*) | $f(x)=\sin x$<br>$f(x)=\cos x$<br>$f(x)=\tan x$            | $f'(x)=\cos x$<br>$f'(x)=-\sin x$<br>$f'(x)=1+\tan ^{2}x=\frac{1}{\cos ^{2}x}$                   |
-| [Arkusfunktionen](../Hyperbolische%20Funktionen.md)                                    | $f(x)=\arcsin x$ <br>$f(x)=\arccos x$ <br>$f(x)=\arctan x$ | $f'(x)=\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ <br>$f'(x)=-\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ |
+| [Kreisfunktionen](../../Trigonometrische%20Funktionen.md) <br> (*Winkel $x$ im Bogenmaß*) | $f(x)=\sin x$<br>$f(x)=\cos x$<br>$f(x)=\tan x$            | $f'(x)=\cos x$<br>$f'(x)=-\sin x$<br>$f'(x)=1+\tan ^{2}x=\frac{1}{\cos ^{2}x}$                   |
+| [Arkusfunktionen](../../Hyperbolische%20Funktionen.md)                                    | $f(x)=\arcsin x$ <br>$f(x)=\arccos x$ <br>$f(x)=\arctan x$ | $f'(x)=\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ <br>$f'(x)=-\frac{1}{\sqrt{ 1-x^{2} }}, \|x\| < 1$ |
 
 ## Ableitungsregeln
 
@@ -118,9 +118,9 @@ $Q_{i}$ rückt immer näher zu $P$. Der [Grenzwert](Grenzwert.md) der Sekanten-S
 > 
 > $f\left(x_0+h\right)=f\left(x_0\right)+L h+r(h)$ und $\lim _{h \rightarrow 0} \frac{r(h)}{\|h\|}=0$, insbesondere: $\lim _{h \rightarrow 0} r(h)=0$.
 > 
-> Da die [lineare Abbildung](../Algebra/Lineare%20Abbildungen.md) $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
+> Da die [lineare Abbildung](../../Algebra/Lineare%20Abbildungen.md) $L$ stetig ist, folgt: $\lim _{h \rightarrow 0} f\left(x_0+h\right)=f\left(x_0\right)$, also ist $f$ stetig in $x_0$.
 > 
-> Umgekehrt impliziert [Stetigkeit](Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die [Betragsfunktion](../Algebra/Betrag.md) in $x=0$ stetig, aber nicht differenzierbar.
+> Umgekehrt impliziert [Stetigkeit](Kurvendiskussion/Stetigkeit.md) natürlich nicht Differenzierbarkeit, so ist die [Betragsfunktion](../../Algebra/Betrag.md) in $x=0$ stetig, aber nicht differenzierbar.
 > 
 > Aus dem Beweis von Satz 11.6 geht hervor, dass für $n=1$ die Aussage auch gilt, falls $I$ ein Intervall und $x_0 \in I$ ein Randpunkt ist.
 > 

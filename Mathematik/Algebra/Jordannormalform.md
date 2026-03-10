@@ -23,7 +23,7 @@ Für ein lineares System kann auf dessen lineare Abbildung ein beliebeiger Basis
 ![](../../Systemtheorie/Zustandstransformation.md#^TRF)
 
 > [!success] Wir nehmen hier jedoch nicht irgendeine Matrix $\mathbf{T}$, sondern eine **Basis aus Hauptvektoren** $\mathbf{V}$.
-> Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Analysis/Fundamentalmatrix.md) ist dann leicht zu bestimmen [^1]
+> Es stellt sich heraus, dass für den neuen Zustandsraum von $\mathbf{z}$, die Koeffizientenmatrix $\mathbf{\tilde{A}}$ eine [Diagonalmatrix](Diagonalmatrix.md) ist. Das DGL-System wird zu einem **entkoppelten DGL-System**. Die [Fundamentalmatrix](../Differentialgleichungen/Fundamentalmatrix.md) ist dann leicht zu bestimmen [^1]
 
 Im allgemeinen besteht $\mathbf{V}$ aus allen Hauptvektoren. Diese sind ein Überbegriff für alle reell und komplexwertigen Eigenvektoren und Nebeneigenvektoren, 
 
@@ -131,4 +131,4 @@ $$
 
 ---
 
-[^1]: [Spezialfall: Exponent ist eine Diagonalmatrix](../Analysis/Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix)
+[^1]: [Spezialfall: Exponent ist eine Diagonalmatrix](../Differentialgleichungen/Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix)

@@ -25,7 +25,7 @@ title: Stabilität nach Ljapunov
 
 ### Ruhelagen
 
-Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das [LTI-System](../../Systemtheorie/LTI-Systeme.md) also $0 = \mathbf{Ax}_{S}+\mathbf{Bu}_{S}$
+Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das [LTI-System](../../../Systemtheorie/LTI-Systeme.md) also $0 = \mathbf{Ax}_{S}+\mathbf{Bu}_{S}$
 
 |                        | $\mathbf{u}_{s}=0$                                | $\mathbf{u}_{S}\neq 0$                                                                                                                                           |
 | ---------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -38,7 +38,7 @@ Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das [LTI-System](../../Systemtheori
 > - Ruhelage oben ist **instabil**. Eine kleine Abweichung eskaliertdas System
 > - Das Pendel kehrt nicht mehr in die Ursprüngliche Ruhelage zurück, verlässt also das $\varepsilon$ Gebiet der Phase des Pendels
 > 
-> ![invert_dark|200](../../_assets/LjapPendel.png)
+> ![invert_dark|200](../../../_assets/LjapPendel.png)
 
 ### Stabilität
 
@@ -55,7 +55,7 @@ Wir starten bei einer abweichung $\delta$ von der Ruhelage und bleiben im Gebiet
 | **BIBO Stabil**                                                                                                                                | **Attrahierend**                                                                                                        | **Asymptotisch Stabil**<br>BIBO-Stabil & Attrahierend                                                   |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
 | Die Differenz bleibt für alle $t$ innerhalb einer Grenze $\varepsilon$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz geht für $t \to \infty$ gegen $0$, wenn man nur um einen kleinen Abstand $\delta$ vom Startwert abweicht. | Die Differenz überschreitet den kleinen $\delta$ des Startwertes nicht und geht für $t \to 0$ gegen $0$ |
-| ![](../../_assets/Excalidraw/DGL-Stabil.md)                                                                                                     | ![](../../_assets/Excalidraw/DGL-Attr.md)                                                                                | ![](../../_assets/Excalidraw/DGL-AsympStabil.md)                                                         |
+| ![](../../../_assets/Excalidraw/DGL-Stabil.md)                                                                                                     | ![](../../../_assets/Excalidraw/DGL-Attr.md)                                                                                | ![](../../../_assets/Excalidraw/DGL-AsympStabil.md)                                                         |
 
 ## Differenzengleichungen
 

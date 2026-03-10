@@ -67,6 +67,8 @@ Hat der Eingang sowie der Ausgang die dimension $1$, so handelt es sich um ein *
 > \end{align}
 > $$
 
+- $\mathbf{b}$ ist ein Spaltenvektor
+- $\mathbf{c}^T$ ist ein Spaltenvektor
 
 Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein **Übertragungsystem**, sonst um ein **freies** System. In diesem Fall heißt das freie System aufgrund seiner Zeitinvarianz auch **autonom**.
 
@@ -79,21 +81,56 @@ Ist der Eingangsvektor $\mathbf{u} \neq \mathbf{0}$ handelt es sich um ein **Üb
 
 ## Lösung der Zustandsgleichung
 
-> [!hint] Bei der Zustandsgleichung handelt es sich um ist ein [Lineare DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Analysis/Lineare%20DGL-Systeme%20mit%20konstanten%20Koeffizienten.md)
+> [!hint] Bei der Zustandsgleichung handelt es sich um ist ein [Lineare DGL-Systeme mit konstanten Koeffizienten](../Mathematik/Differentialgleichungen/Lineare%20DGL-Systeme%20mit%20konstanten%20Koeffizienten.md)
 
-Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md#^VARK) angewendet. Für echtlineare LTI-Systeme ist der Startzeitpunkt $t_{0}=0$. Aus [Eigenschaft (iv)](../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM-Eigenschaften) der Transitonsmatrix folgt für die Lösung
+Zur Lösung der Zustandsgleichungen wird die Methode der [Variation der Konstanten](../Mathematik/Analysis/Variation%20der%20Konstanten.md#^VARK) angewendet. Für echtlineare LTI-Systeme ist der Startzeitpunkt $t_{0}=0$. Aus [Eigenschaft (iv)](../Mathematik/Differentialgleichungen/Fundamentalmatrix.md#^TRSM-Eigenschaften) der Transitonsmatrix folgt für die Lösung
 
 > [!satz] **S3 - LTI-LSG)** Eindeutige Lösung von LTI-Systemen ^LTI-LSG
 > $$
 > \mathbf{x}(t)=\mathbf{\Phi}(t)\mathbf{x}_0+\int_{0}^t \mathbf{\Phi}(t-\tau) \mathbf{Bu}(\tau) \mathrm{~d}\tau 
 > $$
 
-Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die [Matrix-Exponentialfunktion](../Mathematik/Analysis/Matrix-Exponentialfunktion.md) anschreiben.
+Da die Koeffizientenmatrizen **konstant** sind, lässt sich ein Ansatz über die [Matrix-Exponentialfunktion](../Mathematik/Differentialgleichungen/Matrix-Exponentialfunktion.md) anschreiben.
 
-> [!satz] **S4 - TRSM-LTI)** [Transitionsmatrix](../Mathematik/Analysis/Fundamentalmatrix.md) von LTI-Systemen ^TRSM-LTI
+> [!satz] **S4 - TRSM-LTI)** [Transitionsmatrix](../Mathematik/Differentialgleichungen/Fundamentalmatrix.md) von LTI-Systemen ^TRSM-LTI
 > $$ \mathbf{\Phi}(t) = e^{ \mathbf{A}t } $$
 
 Um die Fundamentalmatrix aus ihrem Matrix-Exponential aufzulöse, möchte man das System in seine [Jordannormalform](../Mathematik/Algebra/Jordannormalform.md) überführen.
+
+Das Resultierende gelöste System ist daher 
+
+$$
+\begin{align}
+\mathbf{x}(t) &=\mathbf{\Phi}(t)\mathbf{x}_0+\int_{0}^t \mathbf{\Phi}(t-\tau) \mathbf{Bu}(\tau) \mathrm{~d}\tau  \\
+\mathbf{y}(t) &= \mathbf{Cx}(t) + \mathbf{Du}(t)
+\end{align}
+$$
+
+Beweis:
+
+- Mit Ansatz $\mathbf{x}(t)=\boldsymbol{\Phi}(t) \mathbf{p}(t)$,
+- der [Produktregel](../Mathematik/Analysis/Produktregel.md) und
+- den Eigenschaften der [Transitionsmatrix](../Mathematik/Differentialgleichungen/Fundamentalmatrix.md#Transitionsmatrix) erhält man
+
+$$
+\underbrace{ \mathbf{\dot{\Phi}}(t) \mathbf{p}(t)+\boldsymbol{\Phi}(t) \mathbf{\dot{p}}(t) }_{ \dot{\mathbf{x}} }=\mathbf{A} \underbrace{ \boldsymbol{\Phi}(t) \mathbf{p}(t) }_{ \dot{\mathbf{x}} }+\mathbf{B u}(t)
+$$
+
+und damit $\frac{\mathrm{d}}{\mathrm{d} t} \mathbf{p}(t)=\boldsymbol{\Phi}(-t) \mathbf{B u}(t)$. Die Integration liefert
+
+$$
+\mathbf{p}(t)=\mathbf{p}(0)+\int_0^t \boldsymbol{\Phi}(-\tau) \mathbf{B u}(\tau) \mathrm{d} \tau
+$$
+
+sowie
+
+$$
+\mathbf{x}(t)=\boldsymbol{\Phi}(t)\left(\mathbf{p}(0)+\int_0^t \boldsymbol{\Phi}(-\tau) \mathbf{B u}(\tau) \mathrm{d} \tau\right)
+$$
+
+
+Aus $\mathbf{x}(0)=\boldsymbol{\Phi}(0) \mathbf{p}(0)=\mathbf{p}(0)$ und $\boldsymbol{\Phi}(t-\tau)=\boldsymbol{\Phi}(t) \boldsymbol{\Phi}(-\tau)$ folgt Satz 2.4.
+Man beachte, dass die Transitionsmatrix $\boldsymbol{\Phi}(t)$ immer regulär ist. Für den Fluss eines linearen, autonomen Systems gilt $\boldsymbol{\Phi}_t\left(\mathbf{x}_0\right)=\boldsymbol{\Phi}(t) \mathbf{x}_0$.
 
 ## Laplacetransformation von Eingrößensysteme
 

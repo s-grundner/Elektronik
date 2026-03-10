@@ -25,7 +25,7 @@ def:
 ## Verfahren für Anfangswertprobleme
 
 > [!question] Siehe: [Numerische Lösungsverfahren von DGL](Numerische%20Lösungsverfahren%20von%20DGL.md)
-> Mit äquidistanten Diskretisierungsverfahren werden Anfangswertprobleme ([AWP](GDGL.md#^AWP)) numerisch gelöst.
+> Mit äquidistanten Diskretisierungsverfahren werden Anfangswertprobleme ([AWP](../Differentialgleichungen/index.md#^AWP)) numerisch gelöst.
 
 Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des AWP ausrechnen möchte, wird in $N$ Teilintervalle unterteilt. 
 
@@ -63,11 +63,11 @@ Das Zeitintervall $[a, b]$ auf dem man sich die Lösung des AWP ausrechnen möch
 > $$h_{k}=h:= \frac{b-a}{N},\quad t_{k}=t_{0}+kh$$
 
 > [!hint] **Vorraussetzung:** Eindeutige Lösbarkeit
->  Wir nehmen an: das [AWP](GDGL.md)
+>  Wir nehmen an: das [AWP](../Differentialgleichungen/index.md)
 >  $$x^{\prime}=f(t, x), \quad x\left(t_0\right)=x_0\tag{AWP}$$
 > ist eindeutig lösbar in $I$ für alle $t_0 \in I$ und $x_0 \in \mathbb{R}^m$ mit $f \in C\left(I \times \mathbb{R}^m, \mathbb{R}^m\right), \quad I:=[a, b], \quad a<b$.
 >
-> > [!question] Ob ein AWP auf einem Intervall $I$ eindeutig lösbar ist, lässt sich mittels den Sätzen nach [Peano](Peano.md#^PEAN) und [Picard-Lindelöf](Picard-Lindelöf.md#^PILF) zeigen 
+> > [!question] Ob ein AWP auf einem Intervall $I$ eindeutig lösbar ist, lässt sich mittels den Sätzen nach [Peano](../Differentialgleichungen/Peano.md#^PEAN) und [Picard-Lindelöf](../Differentialgleichungen/Picard-Lindelöf.md#^PILF) zeigen 
 
 Wir möchten Näherungen $x_{k}$ für $x(t_{k})$ berechnen.
 

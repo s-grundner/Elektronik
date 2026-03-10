@@ -27,7 +27,7 @@ title: Reset Generierung
 ## Möglichkeiten Zur Resetgenerierung
 
 > [!INFO] Bestimmende Faktoren der Resetdauer
-> - Hochfahren der Systemkomponenten, [Schaltregler](../Analog-Design/Stromversorgungseinheiten/{MOC}%20Schaltnetzteil.md), [PLL](../Analog-Design/Oszillatoren/Phase%20Locked%20Loop.md)
+> - Hochfahren der Systemkomponenten, [Schaltregler](../Analog-Design/Stromversorgungseinheiten/index.md), [PLL](../Analog-Design/Oszillatoren/Phase%20Locked%20Loop.md)
 > - Pipeline Strukturen im µC
 
 ### Power on Reset (POR)

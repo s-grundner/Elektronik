@@ -1,6 +1,6 @@
 async function sug_lva(tp, sem) {
     try {
-        const filePath = `10_tools/templaterjs/lva_lists/${sem}.md`;
+        const filePath = `02-Tools/templaterjs/lva_lists/${sem}.md`;
         console.log(filePath);
         const tFile = tp.app.vault.getFileByPath(filePath);
         const fileContent = await tp.app.vault.read(tFile);
@@ -11,6 +11,15 @@ async function sug_lva(tp, sem) {
         console.log(err);
         return "Error fetching LVA - check console";
     }
+}
+
+function curr_sem_key() {
+	let d = new Date();
+	let m = d.getMonth();
+	let y = d.getFullYear() % 100;
+  let key = (m >= 7 || m <= 1) ? `WS${y - (m <= 2)}` : `SS${y}`;
+  console.log(key);
+	return key;
 }
 
 async function sug_category(tp) {
@@ -84,7 +93,7 @@ function note_link(name, type) {
 }
 
 function get_lva() {
-    return { sug_type, sug_category, sug_lva, sug_sem, type_string, type_other, note_name, note_link, note_url, sem_to_program }
+    return { curr_sem_key, sug_type, sug_category, sug_lva, sug_sem, type_string, type_other, note_name, note_link, note_url, sem_to_program }
 }
 
 module.exports = get_lva

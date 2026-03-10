@@ -15,7 +15,7 @@ professor:
 
 # Partielle DGL
 
-***[Gewöhnliche DGL](GDGL.md) :LiArrowBigRightDash:***
+***[Gewöhnliche DGL](../Differentialgleichungen/index.md) :LiArrowBigRightDash:***
 
 ---
 

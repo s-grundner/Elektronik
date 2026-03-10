@@ -26,7 +26,7 @@ created: 17th November 2022
 
 ## Herleitung mit [BHK](index.md)
 
-## Herleitung mit [DGL](../../Mathematik/Analysis/GDGL.md)
+## Herleitung mit [DGL](../../Mathematik/Differentialgleichungen/index.md)
 
 $$
 \frac{u_{1}}{u_{2}}=1+\frac{(A-1)\cdot R_{1}}{R_{1}}=1+A-1=A
@@ -43,7 +43,7 @@ $$
 \end{align*}
 $$
 
-Bildung einer [DGL](../../Mathematik/Analysis/GDGL.md):
+Bildung einer [DGL](../../Mathematik/Differentialgleichungen/index.md):
 
 $$
 \begin{align*}
@@ -54,7 +54,7 @@ i_{R}-i_{C}-i_{L}&=0\\
 \end{align*}
 $$
 
-### Herleitung der [linearen Differentialgleichung 2. Ordnung](../../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md)
+### Herleitung der [linearen Differentialgleichung 2. Ordnung](../../Mathematik/Differentialgleichungen/lineare%20DGL%202.%20Ordnung.md)
 
 $$
 \begin{align*}
@@ -85,7 +85,7 @@ u_{c}(t)&= \tilde{C_{1}}\cdot\cos(\omega t)+\tilde{C_{2}}\sin(\omega t)\\
 \end{align*}
 $$
 
-- Damit die Schaltung ein [Selbstschwingendes](../../Physik/Kinematik/Schwingkreise.md) System sein kann, muss der [](../../Physik/Kinematik/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../Mathematik/Algebra/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
+- Damit die Schaltung ein [Selbstschwingendes](../../Physik/Kinematik/Schwingkreise.md) System sein kann, muss der [](../../Physik/Kinematik/Schwingkreise.md#Freie%20Schwingungen%20im%20realen%20Serienschwingkreis|Störterm) $0$ sein (Selbsterregt) und ein [](../../Mathematik/Differentialgleichungen/lineare%20DGL%202.%20Ordnung.md#3%20Fall%20konjugiert%20Komplexe%20Zahlen%20komplexe%20Lösungen.md|Schwingfall) ($\delta<\omega_{0}$)
 
 > [!question] Lösungsansatz
 
@@ -160,7 +160,7 @@ Bandbreite: Obere minus untere [Grenzfrequenz](../Filter-Verstärker/Grenzfreque
 
 ## Herleitung mit [BHK](index.md)
 
-## Herleitung mit [DGL](../../Mathematik/Analysis/GDGL.md)
+## Herleitung mit [DGL](../../Mathematik/Differentialgleichungen/index.md)
 
 man betrachtet den Fall der ungedämpften Schwingung mit $\delta = \frac{R}{2L}= 0$
 

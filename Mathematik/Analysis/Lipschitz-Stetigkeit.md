@@ -39,7 +39,7 @@ professor:
 
 ## Folgerungen
 
-- Lösbarkeit einer DGL: [Picard-Lindelöf](Picard-Lindelöf.md)
+- Lösbarkeit einer DGL: [Picard-Lindelöf](../Differentialgleichungen/Picard-Lindelöf.md)
 
 ---
 

@@ -24,16 +24,30 @@ Ein LTI-System wird durch die Zustandsgleichungen Beschrieben:
 
 Oft ist es Sinnvoll den Zustand des Systems zu Transformieren, z.B.
 
-- um dessen [Ruhelage](../../Mathematik/Analysis/Ljapunov.md) in den Ursprung zu setzen.
+- um dessen [Ruhelage](../Mathematik/Differentialgleichungen/Ljapunov.md) in den Ursprung zu setzen.
 - für eine [Kalman-Zerlegung](Kalman-Zerlegung.md)
 
 
 Mit einer **Zustandstransformation** (auch Koordinatentransformation, Basistransformation oder Basiswechsel)
 
 > [!def] Zustandstranformation ^TRF
-> $$ \mathbf{x} = \mathbf{Tz} \iff \mathbf{\dot{x}} = \mathbf{T\dot{z}} $$
+> 
+> $$
+> \mathbf{x} = \mathbf{Tz} \iff \mathbf{\dot{x}} = \mathbf{T\dot{z}}
+> $$
+> 
+> $\mathbf{T}$ muss [regulär](../Mathematik/Algebra/Reguläre%20Matrizen.md) sein.
 
-erhält man durch einsetzten für $\mathbf{x}$ und $\dot{\mathbf{x}}$ das System mit dem **neuen Zustand** $\mathbf{z}$:
+Rückrechnen auf $\mathbf{z}$ erfolgt durch linksseitige Multiplikation mit $\mathbf{T}^{-1}$
+
+$$
+\begin{gather}
+\mathbf{T}^{-1}\mathbf{x} = \mathbf{T}^{-1}\mathbf{Tz} = \mathbb{1} \mathbf{z} = \mathbf{z} \\
+\mathbf{z} = \mathbf{T}^{-1}\mathbf{x}
+\end{gather}
+$$
+
+Einsetzten für $\mathbf{x}$ und $\dot{\mathbf{x}}$ das System mit dem **neuen Zustand** $\mathbf{z}$:
 
 $$
 \begin{align}
@@ -73,7 +87,7 @@ $$
 \mathbf{z}(t;\mathbf{z}_{0}) = \mathbf{\bar{\Phi}}(t)\mathbf{z}_{0} + \int_{0}^{t}\mathbf{\bar{\Phi}}(t-\tau)\bar{\mathbf{B}}\mathbf{u}\mathrm{~d}\tau
 $$
 
-Dabei ist $\mathbf{\bar{\Phi}}(t)$ die [Transitionsmatrix](../../Mathematik/Analysis/Fundamentalmatrix.md#^TRSM) des Zustands. Aus [ZTRF](#^ZTRF) erhält man für den Ursprünglichen Zustandsvektor $\mathbf{x}$
+Dabei ist $\mathbf{\bar{\Phi}}(t)$ die [Transitionsmatrix](../Mathematik/Differentialgleichungen/Fundamentalmatrix.md#^TRSM) des Zustands. Aus [ZTRF](#^ZTRF) erhält man für den Ursprünglichen Zustandsvektor $\mathbf{x}$
 
 $$
 \mathbf{x}(t;\mathbf{z}_{0}) = \mathbf{Tz}(t) = \mathbf{T\bar{\Phi}}(t)\mathbf{z}_{0} + \mathbf{T}\int_{0}^{t}\mathbf{\bar{\Phi}}(t-\tau)\mathbf{\bar{B}u}\mathrm{~d}\tau
@@ -91,6 +105,8 @@ $$
 
 ## Besondere Zustanstransformationen
 
+Aufgaben der Zustandstransformmation ist es, $\mathbf{T}$ geschickt zu wählen, dass das neue system bestimmte eigenschaften erfüllen
+
 - [Jordannormalform](../../Mathematik/Algebra/Jordannormalform.md)
 - [Kalman-Zerlegung](Kalman-Zerlegung.md)
-- [{MOC} Lineare Algebra](../../Mathematik/{MOC}%20Lineare%20Algebra.md)
+- [index](../Mathematik/Algebra/index.md)

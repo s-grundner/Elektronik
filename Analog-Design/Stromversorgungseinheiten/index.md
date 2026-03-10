@@ -1,15 +1,19 @@
 ---
 tags:
   - Baugruppe/Versorgung/SMPS
-  - MOC
+  - index
 aliases:
   - SMPS
   - Switched Mode Power Supply
   - Schaltregler
   - "#Baugruppe/Versorgung/SMPS"
+  - Stromversorgungseinheiten
+  - Schaltnetzteil
 subject:
   - hwe
 created: 6th April 2022
+title: Stromversorgungseinheiten
+release: false
 ---
 
 # Schaltnetzteil
