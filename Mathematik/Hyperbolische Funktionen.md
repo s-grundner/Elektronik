@@ -27,6 +27,15 @@ professor:
 > \end{align}
 > $$
 
+
+$$
+\begin{align}
+\tanh x = \frac{e^{ x } - e^{ -x }}{e^{ x } + e^{ -x }} = \frac{e^{ 2x }-1}{e^{ 2x }+1} = 1- \frac{2}{e^{ 2x }+1} \\
+\coth x = \frac{e^{ x } - e^{ -x }}{e^{ x } + e^{ -x }} = \frac{e^{ 2x }+1}{e^{ 2x }-1} = 1+ \frac{2}{e^{ 2x }-1}
+
+\end{align}
+$$
+
 ## Hyperbolische Zusammenhänge
 
 $$

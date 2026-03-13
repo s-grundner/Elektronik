@@ -4,7 +4,6 @@ tags:
   - Halbleiter/BJT
   - tikz/circuitikz
 aliases:
-  - Kollektorfolger
 subject:
   - Einführung Elektronik
   - VL

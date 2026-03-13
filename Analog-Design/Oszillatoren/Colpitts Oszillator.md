@@ -78,6 +78,12 @@ f_{r} = \frac{1}{2\pi \cdot \sqrt{ L\cdot C_{r} }}
 \end{gathered}
 $$
 
+Entspricht einer $\pi$ Schaltung mit C-L-C:
+
+1. $C_{2}$ Parallel am Eingang ($u_{e}$)
+2. $L$ Seriell
+3. $C_{1}$ Parallel am Ausgang ($u_{a}$)
+
 ### Herleitung
 
 ### Kapazitive 3-Punktschaltung

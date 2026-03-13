@@ -23,17 +23,17 @@ release: false
 
 > weitergeleitet von [Transistor](Transistor.md)
 
-| Schaltung                                    | [Emitterschaltung](Emitterschaltung.md)                      | [Basisschaltung](Basisschaltung.md)              | [Kollektorschaltung](Kollektorschaltung.md)              |
-| :------------------------------------------- | :---------------------------------------------------------- | :-------------------------------------------------- | :-------------------------------------------------- |
-| Eingangswiderstand $\mathrm{r}_{\mathrm{e}}$ | $100 \Omega \ldots 10 \mathrm{k} \Omega$                    | $10 \Omega \ldots 100 \Omega$                       | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ |
-| Ausgangswiderstand $\mathrm{r}_{\mathrm{a}}$ | $1 \mathrm{k} \Omega \ldots 10 \mathrm{k} \Omega$           | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ | $10 \Omega \ldots 100 \Omega$                       |
-| Spannungsverstärkung $V_{\mathrm{u}}$        | $20 \ldots 100$ fach                                        | $100 \ldots 1000$ fach                              | $\leq1$                                             |
-| Gleichstromverstärkung $B$                   | $10 \ldots 50$ fach                                         | $\leq1$                                             | $10 \ldots 4000$ fach                               |
-| Phasendrehung                                | $180^{\circ}$                                               | $0^{\circ}$                                         | $0^{\circ}$                                         |
-| Temperaturabhängigkeit                       | groß                                                        | klein                                               | klein                                               |
-| Leistungsverstärkung $V_{\mathrm{p}}$        | sehr groß                                                   | mittel                                              | klein                                               |
-| Grenzfrequenz $\mathrm{f}_{\mathrm{g}}$      | niedrig                                                     | hoch                                                | niedrig                                             |
-| Anwendungen                                  | NF- und HF -Verstärker <br>Leistungsverstärker <br>Schalter | HF -Verstärker                                      | Anpassungsstufen<br>Impedanzwandler                 |
+| Schaltung                             | [Emitterschaltung](Emitterschaltung.md)                     | [Basisschaltung](Basisschaltung.md)                 | [Kollektorschaltung](Kollektorschaltung.md)            |
+| :------------------------------------ | :---------------------------------------------------------- | :-------------------------------------------------- | :----------------------------------------------------- |
+| Eingangswiderstand $r_{\mathrm{e}}$   | $100 \Omega \ldots 10 \mathrm{k} \Omega$                    | $10 \Omega \ldots 100 \Omega$                       | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$    |
+| Ausgangswiderstand $r_{\mathrm{a}}$   | $1 \mathrm{k} \Omega \ldots 10 \mathrm{k} \Omega$           | $10 \mathrm{k} \Omega \ldots 100 \mathrm{k} \Omega$ | $10 \Omega \ldots 100 \Omega$                          |
+| Spannungsverstärkung $V_{\mathrm{u}}$ | $20 \ldots 100$ fach                                        | $100 \ldots 1000$ fach                              | $\leq1$                                                |
+| Gleichstromverstärkung $B$            | $10 \ldots 50$ fach                                         | $\leq1$                                             | $10 \ldots 4000$ fach                                  |
+| Phasendrehung                         | $180^{\circ}$                                               | $0^{\circ}$                                         | $0^{\circ}$                                            |
+| Temperaturabhängigkeit                | groß                                                        | klein                                               | klein                                                  |
+| Leistungsverstärkung $V_{\mathrm{p}}$ | sehr groß                                                   | mittel                                              | klein                                                  |
+| Grenzfrequenz $f_{\mathrm{g}}$        | niedrig                                                     | hoch                                                | niedrig                                                |
+| Anwendungen                           | NF- und HF -Verstärker <br>Leistungsverstärker <br>Schalter | HF -Verstärker                                      | Anpassungsstufen<br>Impedanzwandler<br>Spannungsfolger |
 
 ## Aufbau
 
