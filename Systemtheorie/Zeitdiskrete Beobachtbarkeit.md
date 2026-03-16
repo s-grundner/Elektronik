@@ -1,7 +1,8 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+  - Systeme/Zeitdiskret
+aliases:
+keywords:
 subject:
   - VL
   - Regelungstechnik

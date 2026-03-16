@@ -99,8 +99,8 @@ Die Unabhängigkeit einer Zufallsvaraible kann folglich geprüft werden:
 
 ## Old
 
-- Wahrscheinlichkeitsverteilung beschreibt [Wahrscheinlichkeit](Wahrscheinlichkeit.md) von [Ereignissen](Ereignis.md)
-- Jedem $x_{i}$ wird eine [Wahrscheinlichkeit](Wahrscheinlichkeit.md) zugeordnet
+- Wahrscheinlichkeitsverteilung beschreibt [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md) von [Ereignissen](Ereignis.md)
+- Jedem $x_{i}$ wird eine [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md) zugeordnet
 - verschiedene Arten:
 	- Diskrete Verteilung: [Binomialverteilung](Binomialverteilung.md)
 	- Stetige Verteilung: [Normalverteilung](Normalverteilung.md)

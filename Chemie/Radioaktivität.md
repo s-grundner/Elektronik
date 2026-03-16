@@ -44,7 +44,7 @@ Bei Positronen Strahler macht man sich zunutze, dass das emittierte Positron im 
 
 Zerfallskonstante und Zerfallsgesetz
 
-Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Wahrscheinlichkeit](../Mathematik/Statistik/Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.  
+Jedes Radionuklid hat eine Zerfallskonstante $\lambda$, die die [Unbedingte Wahrscheinlichkeit](../Mathematik/Statistik/Unbedingte%20Wahrscheinlichkeit.md) pro Zeit Intervall für den Zerfall eines einzelnen Atomkerns angibt.  
 Deshalb lässt sich die Aktivität einer Probe von $N$ Atomen zum Zeitpunkt $t$ ausdrücken als:  
 $A(t) = - \dfrac{\mathrm dN}{\mathrm dt}(t) = \lambda \cdot N(t)$
 

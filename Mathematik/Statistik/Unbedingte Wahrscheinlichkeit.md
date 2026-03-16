@@ -1,14 +1,15 @@
 ---
 tags:
 aliases:
-  - Unbedingte Wahrscheinlichkeit
+  - i.i.d.
+  - independent and identically distributed
 keywords:
 subject:
   - KV
   - Wahrscheinlichkeitstheorie und stochastische Prozesse
   - Übertragungstechnik
-semester: WS25
-created: 27th February 2025
+semester: SS26
+created: 15th January 2026
 professor:
   - Dmitry Efrosinin
 release: false
@@ -45,7 +46,7 @@ Die Wahrscheinlichkeit $\mathbb{P}(A)$ eines Ereignisses $A$ in einem Zufallsexp
 
 ## Rechnen mit Wahrscheinlichkeiten
 
-> [!hint] Dieses Rechenregeln gelten nur für **unabhängige Ereignisse** (disjunkte Ereignisse[^1]). Für abhängige Ereignisse, siehe [bedingte Wahrscheinlichkeit](Bedingte%20Wahrscheinlichkeit.md).
+> [!hint] Dieses Rechenregeln gelten nur für **unabhängige Ereignisse** (disjunkte Ereignisse[^1], i.i.d.). Für abhängige Ereignisse, siehe [bedingte Wahrscheinlichkeit](Bedingte%20Wahrscheinlichkeit.md).
 
 ### Additionsregel
  
@@ -55,13 +56,15 @@ $$
 \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B)
 $$
 
-> [!satz] **S - Additionssatz)** Sei $\mathbb{P}$ ein W-Maß auf dem Ereignisraum $\Omega$
+> [!satz] **S - Additionssatz)** Sei $\mathbb{P}$ ein W-Maß auf dem Ereignisraum $\Omega$ ^ADD
 > 
-> Die Wahrscheinlichkeit, dass **mindestens** eines von $n$ disjunkten Ereignissen $A_{1},A_{2},\ldots,A_{n}\in\Omega$ auftritt, ist gegeben durch
+> Die Wahrscheinlichkeit, dass **mindestens** eines von $n$ Ereignissen $A_{1},A_{2},\ldots,A_{n}\in\Omega$ auftritt, ist gegeben durch
 > 
 > $$
 > \mathbb{P} \left( \bigcup_{i=1}^{n} A_{i} \right) = \sum_{i=1}^{n} \mathbb{P}(A_{i})
 > $$
+
+Für disjunkte und abhängige Ereignisse gültig
 
 ### Multiplikationsregel
 

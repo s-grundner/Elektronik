@@ -29,7 +29,7 @@ title: IIR-Filter
 
 ## Entwurf
 
-- [Bilineartransformation](q-Transformation.md)
+- [Bilineartransformation](../q-Transformation.md)
 
 # Referenzen
 

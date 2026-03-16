@@ -1,6 +1,15 @@
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ARM
+release: false
+---
+
+
 # ARM
 
-> [!question] [Rechnerarchitektur](Assembly.md)
+> [!question] [index](index.md)
 
 ## Abbreviations
 

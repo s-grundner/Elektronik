@@ -2,7 +2,8 @@
 tags:
   - Statistik
   - Wahrscheinlichkeitstheorie
-aliases: []
+aliases:
+  - Kombinatorik
 subject:
   - KV
   - Wahrscheinlichkeitstheorie und stochastische Prozesse
@@ -12,11 +13,13 @@ professor:
 release: false
 title: Kombinatorik
 ---
+
+
 # Kombinatorik
 
 Zur Berechnung von Wahrscheinlichkeiten kommt es oft darauf an, die Mächtigkeiten des Ereignisraums $\left| \Omega \right|$ und dem jeweiligen Ereignis $\left| A \right|$ zu kennen (z.B. im Falle eines [Laplace Experiments](Laplace%20Experiment.md)).
 
-![invert_dark](../../_assets/Kombinatorik-formeln.png)
+![invert_dark](../../../_assets/Kombinatorik-formeln.png)
 
 >[!EXAMPLE] 6 Kugeln in den Eierkarton mit 10 Boxen  
 > Kugeln nicht unterscheidbar: Kombination  
@@ -45,11 +48,11 @@ nicht Unterscheidbare Elemente: [Kombination](Kombination.md)
 # Tags
 
 - Timischl/Kaiser [Übungen](https://a.digi4school.at/ebook/5011/?page=164)
-- [UE-Kombinatorik](../../_assets/pdf/UE-Kombinatorik.pdf)
+- [UE-Kombinatorik](../../../_assets/pdf/UE-Kombinatorik.pdf)
 
 ## Übungsaufgaben
 
-- [Kombinatorik](../../_assets/pdf/Kombinatorik.pdf)
-- [UEZ-Kombinatorik](../../_assets/pdf/UEZ-Kombinatorik.pdf) 
+- [Kombinatorik](../../../_assets/pdf/Kombinatorik.pdf)
+- [UEZ-Kombinatorik](../../../_assets/pdf/UEZ-Kombinatorik.pdf) 
 
 

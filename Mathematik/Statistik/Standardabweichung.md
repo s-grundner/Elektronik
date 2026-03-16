@@ -17,7 +17,7 @@ created: 30th November 2022
 > \end{align*}
 > $$
 > - $V(X)$ … [Varianz](Varianz.md)
-> - $p$ … [Wahrscheinlichkeit](Wahrscheinlichkeit.md)
+> - $p$ … [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)
 > - $n$ … Anzahl der [Ereignisse](Ereignis.md)
 
 > [!IMPORTANT] Standardabweichung $\sigma$ und empirische Standardabweichung $s$  

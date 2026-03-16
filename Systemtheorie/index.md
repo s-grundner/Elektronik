@@ -1,7 +1,6 @@
 ---
 tags:
   - index
-  - MOC
   - Systeme
 title: Systemtheorie
 release: true

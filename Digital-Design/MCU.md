@@ -101,7 +101,7 @@ DRAM, or Dynamic Random Access Memory, is a type of computer memory that stores 
 
 - [C-Programmiersrache](../Softwareentwicklung/C/index.md)
 - [Embedded Rust](../Softwareentwicklung/Rust/Embedded%20Rust.md)
-- [Assembly](Architekturen/Assembly.md)
+- [index](Rechnerarchitektur/index.md)
 
 
 

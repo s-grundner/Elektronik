@@ -1,6 +1,5 @@
 ---
 tags:
-  - Architektur/RISC-V
 aliases:
   - RV-Assembly
 keywords:
@@ -17,13 +16,18 @@ title: RISC-V
 
 # RISC-V
 
-> [!question] [Rechnerarchitektur](Assembly.md), [Venus@ICS v0.1.4](https://venus.ics.jku.at/)
+RISC-V ist ein *offener Standard* für eine [Befehlssatzarchitektur](index.md).
+
+> [!question] Was heißt offener Standard?
+> - Jeder kann einen RISC-V-Prozessor auf Grundlage der offenen ISA-Spezifikation implementieren, ohne Lizenzgebühren (Royalties) zahlen zu müssen
+> - Implementierungen können Open Source oder proprietär (Closed Source) sein
+> - Implementierungen können kommerzialisiert werden
 
 RISC-V: Erweiterbar, open source
 
 - RISC-V != Prozessor
 - LOAD/STORE Architektur
-- Standard namenskonvention um [ISA](Assembly.md) zu Beschreiben
+- Standard namenskonvention um [ISA](index.md) zu Beschreiben
 
 Basics:
 
@@ -98,3 +102,6 @@ Mit load upper immediate und add immedaiate
 
 add immediate (addi) addiert zur nach oben verschobenen Konstaten (von lui) seine bits dazu. Achtung beim vorzeichen. 2er komplement. wenn das 11-bit der unteren words gesetzt ist, dann in eine positive Zahl umwandeln und dann dazu addieren.
 
+## Referenzen
+
+- [Venus@ICS v0.1.4](https://venus.ics.jku.at/)

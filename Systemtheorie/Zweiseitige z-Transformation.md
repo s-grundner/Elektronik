@@ -43,7 +43,7 @@ Zur Anwendung kommt daher meist nur die [Einseitige z-Transformation](z-Transfor
 
 ## Umkehrintegral
 
-Es sei $F(z)$ für alle $\lvert z \rvert \geq R$ holomorph, dann ist $F(z)$ eindeutig in eine (Laurent-) Reihe der Form wie in [1ZTR](z-Transformation#^1ZTR).
+Es sei $F(z)$ für alle $\lvert z \rvert \geq R$ holomorph, dann ist $F(z)$ eindeutig in eine (Laurent-) Reihe der Form wie in [1ZTR](z-Transformation.md#^1ZTR).
 
 Holomorph: Komplex differenzierbar
 

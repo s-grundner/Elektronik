@@ -8,7 +8,7 @@ created: 4th January 2023
 
 # Kombination
 
-Eine *Kombination* oder *ungeordnete Stichprobe* ist in der [Kombinatorik](Kombinatorik.md) eine Auswahl von Objekten aus einer gegebenen [Ereignisraum](Ereignisraum.md) …
+Eine *Kombination* oder *ungeordnete Stichprobe* ist in der [index](index.md) eine Auswahl von Objekten aus einer gegebenen [Ereignisraum](Ereignisraum.md) …
 - … die im Gegensatz zur [Permutation](Permutation.md) nicht alle Objekte der [Ereignisraum](Ereignisraum.md) enthalten muss (Stichprobe)
 - … bei der im Gegensatz zur [Permutation](Permutation.md) und [Variation](Variation.md) die Reihenfolge unberücksichtigt bleibt
 

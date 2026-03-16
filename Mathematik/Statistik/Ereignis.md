@@ -1,7 +1,9 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+  - i.i.d.
+  - independent and identically distributed
+keywords:
 subject:
   - KV
   - Wahrscheinlichkeitstheorie und stochastische Prozesse
@@ -14,10 +16,12 @@ title: Ereignis
 
 # Ereignis $E$
 
-Oft interessiert uns nicht für die [Wahrscheinlichkeit](Wahrscheinlichkeit.md) eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften  
+Oft interessiert uns nicht für die [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md) eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften  
 Das Ereignis $A$ ist eine Teilmenge der [Ereignisraum](Ereignisraum.md) $\Omega$
 
 ## Unabhängige Ereignisse
+
+> [!question] i.i.d. (idependent and identically distributed), disjunkte Ereignisse
 
 Für zwei unabhängige Ereignisse bedeuted, dass das vorherige Eintreten des einen Ereignisses $B$ keinen Einfluss auf das andere $A$ hat, was gleichzusetzen ist mit:
 
@@ -57,24 +61,6 @@ $$
 > \mathbb{P}(A_{1} \cup A_{2} \cup \dots \cup A_{n}) = 1-(1-\mathbb{P}(A_{1}))\cdot(1-\mathbb{P}(A_{2}))\cdot\ldots\cdot(1-\mathbb{P}(A_{n}))
 > $$
 
-## Unvereinbare Ereignisse
-
-![Pasted image 20230107220855](../../_assets/Pasted%20image%2020230107220855.png)
-
->[!summary] Wenn die Ereignisse $A$ & $B$ unvereinbar sind, dann gilt  
->$P(A\vee B)=P(A)+P(B)$  
->$P(A\wedge B)=0$
->
-
-> [!EXAMPLE] Zweimaliges Werfen eines Würfels
-> - $A$: Beim ersten Wurf "6" werfen;
-> - $B$: beim ersten Wurf eine ungerade Augenzahl werfen;
-> - $C$: beim zweiten Wurf "6" werfen;
-> 
-> $A$ ist unvereinbar mit $B\rightarrow$ man kann nicht zugleich "6" und dabei eine ungerade Augenzahl werfen.  
-> $A$ ist mit $C$ vereinbar  
-> $B$ ist mit $C$ vereinbar
-
 # Tags
 
-[Wahrscheinlichkeit](Wahrscheinlichkeit.md)
+[Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)

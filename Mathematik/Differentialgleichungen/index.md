@@ -1,6 +1,5 @@
 ---
 tags:
-  - MOC
   - Analysis
   - DGL
   - index

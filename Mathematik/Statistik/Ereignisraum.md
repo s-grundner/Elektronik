@@ -51,4 +51,4 @@ title: Ereignisraum
 
 # Tags
 
-- [Wahrscheinlichkeit](Wahrscheinlichkeit.md)
+- [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)

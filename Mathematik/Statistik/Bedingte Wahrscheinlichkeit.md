@@ -15,7 +15,7 @@ title: Bedingte Wahrscheinlichkeit
 
 # Bedingte Wahrscheinlichkeit
 
-> [!question] [Undbedingte Wahrscheinlichkeit](Wahrscheinlichkeit.md)
+> [!question] [Undbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)
 
 Oft hat man es mit einem Zufallsexperiment zu tun, wobei man über die zusätzliche Information *"ein gewisses Ereignis $\Omega'$ ist bereits eingetreten"* verfügt. 
 
@@ -59,7 +59,7 @@ gilt, dass sich also die **bedingte Wahrscheinlichkeit** $\mathbb{P'}(A')$ eines
 
 ### Addition 
 
-Gleich wie [Additionsregel](Wahrscheinlichkeit.md#Additionsregel).
+![Additionsregel](Unbedingte%20Wahrscheinlichkeit.md#^ADD)
 
 ### Multiplikationssatz
 
@@ -106,11 +106,9 @@ Mit dem Satz von Bayes lassen sich die Bedingungsreihenfolge der Ereignisse umke
 > \mathbb{P}(B_{j}|A) = \frac{\mathbb{P}(A|B_{j})\cdot\mathbb{P}(B_{j})}{\sum_{i=1}^{n} \mathbb{P}(A|B_{i})\cdot\mathbb{P}(B_{i})} = \frac{\mathbb{P}(A|B_{j})\cdot\mathbb{P}(B_{j})}{\mathbb{P}(A)}
 > $$
 
-
-
 ## Referenzen
 
-![Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)
-![The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko)
+| ![Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM) | ![The medical test paradox, and redesigning Bayes' rule](https://www.youtube.com/watch?v=lG4VkPoG3ko) |
+| - | - |
 
 [^1]: darunter versteht man paarweise disjunkte Ereignisse $B_{1},B_{2},\ldots,B_{n}$ mit positiver Wahrscheinlichkeit, deren Vereinigung gleich $\Omega$ ist
