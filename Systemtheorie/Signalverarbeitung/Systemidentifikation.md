@@ -4,9 +4,10 @@ aliases:
   - Channel Estimation
   - System Identification
 subject:
+  - SE
+  - Bachelorarbeit
   - VL
   - Optimum and Adaptive Signal Processing Systems
-  - Bachelorarbeit
 semester: SS26
 created: 25th March 2026
 professor:

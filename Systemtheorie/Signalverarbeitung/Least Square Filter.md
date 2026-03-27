@@ -2,7 +2,7 @@
 tags:
 aliases:
 subject:
-  - VL
+  - SE
   - Bachelorarbeit
 semester: SS26
 created: 25th March 2026

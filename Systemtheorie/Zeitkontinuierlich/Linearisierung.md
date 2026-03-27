@@ -22,7 +22,7 @@ Falls jedoch nur kleine Auslenkungen des nichtlinearen Systems um eine Ruhelage 
 > 
 > ## Partielle Ableitung
 > 
-> Hier wird die vereinfachte schreibweise für die [Partielle Ableitung](../Mathematik/Analysis/Partielle%20Ableitung.md) einer Funktion $f(\mathbf{x}) \in C^1 (\mathbb{R}^n)$ nach $x_{i}$ an der Stelle $\mathbf{x}=\mathbf{x}_{0}$ verwendet:
+> Hier wird die vereinfachte schreibweise für die [Partielle Ableitung](../../Mathematik/Analysis/Partielle%20Ableitung.md) einer Funktion $f(\mathbf{x}) \in C^1 (\mathbb{R}^n)$ nach $x_{i}$ an der Stelle $\mathbf{x}=\mathbf{x}_{0}$ verwendet:
 > 
 > $$
 > \frac{ \partial }{ \partial x_{i} } f(\mathbf{x})\Bigg|_{\mathbf{x}=\mathbf{x}_{0}} = \frac{ \partial }{ \partial x_{i} } f(\mathbf{x}_{0})
@@ -41,7 +41,7 @@ Falls jedoch nur kleine Auslenkungen des nichtlinearen Systems um eine Ruhelage 
 > ## Gradient
 > 
 > 
-> Als Ableitung der Eindimensionalen Funktion $f(\mathbf{x})$ an der Stelle $\mathbf{x}=\mathbf{x}_0$ wird der [Gradient](../Mathematik/Analysis/Vektoranalysis/Gradient.md) (Zeilenvektor)
+> Als Ableitung der Eindimensionalen Funktion $f(\mathbf{x})$ an der Stelle $\mathbf{x}=\mathbf{x}_0$ wird der [Gradient](../../Mathematik/Analysis/Vektoranalysis/Gradient.md) (Zeilenvektor)
 > 
 > $$
 > \left[\begin{array}{cccc}
@@ -49,8 +49,8 @@ Falls jedoch nur kleine Auslenkungen des nichtlinearen Systems um eine Ruhelage 
 > \end{array}\right]=\frac{\partial}{\partial \mathbf{x}} f\left(\mathbf{x}_0\right)=\mathbf{J}_f\left(\mathbf{x}_0\right)
 > $$
 > 
-> bezeichnet. Die Ableitung einer höherdimensionalen Funktion $\mathbf{f}(\mathbf{x}): \mathbb{R}^n \rightarrow \mathbb{R}^m$ an einer Stelle $\mathbf{x}=\mathbf{x}_0$ ist durch die [Jacobi-Matrix](../Mathematik/Analysis/Vektoranalysis/Gradient.md#Jacobi%20Matrix) gegeben.
-> ![Jacobi-Matrix](../Mathematik/Analysis/Vektoranalysis/Gradient.md#^JACM)
+> bezeichnet. Die Ableitung einer höherdimensionalen Funktion $\mathbf{f}(\mathbf{x}): \mathbb{R}^n \rightarrow \mathbb{R}^m$ an einer Stelle $\mathbf{x}=\mathbf{x}_0$ ist durch die [Jacobi-Matrix](../../Mathematik/Analysis/Vektoranalysis/Gradient.md#Jacobi%20Matrix) gegeben.
+> ![Jacobi-Matrix](../../Mathematik/Analysis/Vektoranalysis/Gradient.md#^JACM)
 
 Für das Weitere wird noch die Taylorformel mit Fehler zweiter Ordnung für Funktionen $\mathbf{f}(\mathbf{x}): \mathbb{R}^n \rightarrow \mathbb{R}^m$ benötigt:
 

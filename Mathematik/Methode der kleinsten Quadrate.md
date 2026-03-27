@@ -3,8 +3,10 @@ tags:
 aliases:
   - Method of Least Squares
 subject:
-  - VL
+  - SE
   - Bachelorarbeit
+  - VL
+  - Optimum and Adaptive Signal Processing Systems
 semester: SS26
 created: 25th March 2026
 professor:

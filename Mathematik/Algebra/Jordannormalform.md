@@ -129,6 +129,6 @@ $$
 
 ## Fall 3: Konjugiert komplexe Eigenwerte
 
----
+
 
 [^1]: [Spezialfall: Exponent ist eine Diagonalmatrix](../Analysis/Differentialgleichungen/Matrix-Exponentialfunktion.md#Spezialfall%20Exponent%20ist%20eine%20Diagonalmatrix)

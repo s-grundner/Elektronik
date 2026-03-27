@@ -5,19 +5,20 @@ aliases:
   - Optimaler Schätzer
   - Optimum Estimator
 subject:
+  - SE
+  - Bachelorarbeit
   - VL
   - Optimum and Adaptive Signal Processing Systems
-  - Bachelorarbeit
 semester: SS26
 created: 25th March 2026
 professor:
 release: false
 title: Optimale FIlter
 ---
+
 # Optimale Filter
 
 Bei Optimalen Filtern werden die Koeffizienten nach einer Kostenfunktion so berechnet, sodass der Fehler für den gewünschten Ausgang minimal wird.
-
 
 ![invert_dark](../../_assets/Pasted%20image%2020260325141459.png)
 
@@ -38,7 +39,7 @@ Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, 
 
 ## Anwendungen für Optimale Filter
 
-- [Systemidentfikation](Systemidentfikation.md)
+- [Systemidentifikation](Systemidentifikation.md)
 - [Inverse Systemidentifikation](Inverse%20Systemidentifikation.md) (Equalization, Systemausgleich)
 - [Rauschunterdrückung / -verminderung](Rauschunterdrückung.md)
 - [Signalprediction](Signalprediction.md)

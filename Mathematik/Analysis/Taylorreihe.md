@@ -51,7 +51,7 @@ $$
 
 Sei $\mathbf{f}(\mathbf{x}) = (f_{1},f_{2},\dots,f_{m}): \mathbb{R}^n\mapsto \mathbb{R}^m$ mit $\mathbf{x} \in \mathbb{R}^n$ kann die Taylorreihe mithilfe des [Gradienten](Vektoranalysis/Gradient.md) Ausgedrückt werden
 
-Als Beispiel: siehe [Linearisierung](../../Systemtheorie/Linearisierung.md)
+Als Beispiel: siehe [Linearisierung](../../Systemtheorie/Zeitkontinuierlich/Linearisierung.md)
 
 
 - - -

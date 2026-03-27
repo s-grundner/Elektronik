@@ -26,4 +26,4 @@ Kompromiss zwischen Rauschunterdrückung und inverser Systemidentifikation muss 
 
 ## Referenzen
 
-[Systemidentfikation](Systemidentfikation.md)
+[Systemidentifikation](Systemidentifikation.md)

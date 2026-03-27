@@ -1,6 +1,7 @@
 ---
 tags:
   - index
+  - Systeme/Zeitdiskret
 aliases:
   - DSV
   - Digitale Signalverarbeitung

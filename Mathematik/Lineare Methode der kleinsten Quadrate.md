@@ -1,8 +1,10 @@
 ---
 tags:
 aliases:
+  - Linear Least Squares
+  - LLS
 subject:
-  - VL
+  - KV
   - Bachelorarbeit
 semester: SS26
 created: 25th March 2026
