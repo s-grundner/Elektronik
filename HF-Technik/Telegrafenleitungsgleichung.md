@@ -25,7 +25,7 @@ Die Telegrafenleitungsgleichungen sind ein Modell zur beschreibeung der ausbreit
 
 > Lumped Elements Model
 
-Für **Sinusförmige Größen** erhält man aus dem Leitermodell zunächst ein gekoppeltes [PDGL](../Mathematik/Analysis/Partielle%20Differenzialgleichung.md)-System, welche **Spannungswelle** $U(z,t)$ und die **Stromwelle** $I(z,t)$ verknüpft.
+Für **Sinusförmige Größen** erhält man aus dem Leitermodell zunächst ein gekoppeltes [PDGL](../Mathematik/Analysis/Differentialgleichungen/Partielle%20Differenzialgleichung.md)-System, welche **Spannungswelle** $U(z,t)$ und die **Stromwelle** $I(z,t)$ verknüpft.
 
 $$
 \frac{\partial \underline{U}}{\partial z}(z) = -(R'+j\omega L')\cdot \underline{I}(z),\quad \frac{\partial \underline{I}}{\partial z}(z) = -(G'+j\omega C')\cdot \underline{U}(z)

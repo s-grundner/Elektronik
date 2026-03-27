@@ -23,7 +23,7 @@ professor:
 
 [Duale Netzwerke – Wikipedia](https://de.wikipedia.org/wiki/Duale_Netzwerke)
 
-> [!info] Lineare Elektrische Netzwerke erfüllen die Vorraussetzungen eines [LTI-Systems](../Systemtheorie/LTI-Systeme.md)
+> [!info] Lineare Elektrische Netzwerke erfüllen die Vorraussetzungen eines [LTI-Systems](../Systemtheorie/Zeitkontinuierlich/LTI-Systeme.md)
 
 > [!summary] [**Duale Zweipole)**](Zweipol.md) Ideale Elementare Komponenten in Netzwerken
 

@@ -30,19 +30,19 @@ Das Verhalten des Systems lässt sich durch die **Ausgangsgrößen** $\mathbf{y}
 
 ![invert_dark](../../_assets/RegTSystem.png)
 
-> [!hint] [Zustandsbeschreibung](../Zustandsbeschreibung.md)
+> [!hint] [Zustandsgrößen](../Zeitkontinuierlich/Zustandsgrößen.md)
 
 | [dynamische Systeme](../index.md)                                                                                                                                       | statische Systeme                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | hängt auch von vergangenen Eingangsgrößen ab                                                                                                                                         | hängt nur vom augenblichlichen wert der Eingangsgrößen ab                         |
 | Beispiel - Autofahren) Unterschied ob man bei 50km/h oder bei 130 km/h lenkt / bremst.<br>- Reibung und Kräfte sind Anders. <br>- Motorsteuergerät reagiert anders auf die Eingaben. | Beispiel - Kaffeemaschine: Es wird immer auf das Eingangssignal ein Kaffee folgen |
 
-Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../../Mathematik/Differentialgleichungen/index.md), vorallem von physikalischen Systemen.
+Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Hauptbestandteil dieser Modelle sind [Differenzialgleichungen](../../Mathematik/Analysis/Differentialgleichungen/index.md), vorallem von physikalischen Systemen.
 
 ## Aufgaben eine Regelung
 
-- [Zustandsregeler](Regelungstechnik/Zustandsregeler.md)
-- [Zustandsbeobachter](Regelungstechnik/Zustandsbeobachter.md)
+- [Zustandsregler](../Zeitkontinuierlich/Zustandsregler.md)
+- [Zustandsbeobachter](../Zeitkontinuierlich/Zustandsbeobachter.md)
 
 > [!hint] Relevante eigenschaften des Zustandsraumes für die Regelung
 > - Erreichbar / Steuerbar

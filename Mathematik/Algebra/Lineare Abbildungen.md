@@ -41,27 +41,30 @@ professor:
 
 ## Kern und Bild
 
-Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $L: X \to Y$
+Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Vektorraum.md) (also entweder $\mathbb{R}$ oder $\mathbb{C}$), $\mathbf{A}: X \to Y$
 
-> [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige **Spalten** der Linearenabbildung $L$. ^BILD
-> $$\mathcal{R}(L) := L(X)$$
+> [!def] **D1 - BILD)** Das Bild sind alle linear Unabhängige **Spalten** der Linearenabbildung $\mathbf{A}$. ^BILD
+>
+> $$
+> \mathcal{R}(\mathbf{A}) := \mathbf{A}(X)
+> $$
 > 
 > - oft auch $\operatorname{im}(L)$ (von *image*)
 > - Mit einer Linearkombination des Bildes, Lässt sich aus $X$ der gesamte Raum $Y$ erreichen.
 
 Die Dimension des Bild ist die Anzahl der Linear Unabhängigen Spalten
 
-> [!def] **D2 - KERN)** Das System $Lx$ das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) ^KERN
->$$\mathcal{N}(L):=\{x \in X: L x=0\}=L^{-1}(\{0\})$$ 
+> [!def] **D2 - KERN)** Das System $\mathbf{Ax}$ das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) ^KERN
+>$$\mathcal{N}(\mathbf{A}):=\{\mathbf{x} \in X: \mathbf{Ax}=0\}=A^{-1}(\{0\})$$ 
 > 
-> - oft auch $\operatorname{ker}(L)$ (von *kernel*)
-> - Der Ausdruck $Lx=0$ wird als Kerngleichung bezeichnet
+> - oft auch $\operatorname{ker}(\mathbf{A})$ (von *kernel*)
+> - Der Ausdruck $\mathbf{Ax}=0$ wird als Kerngleichung bezeichnet
 
-Der Kern ist immer eine [Lineare Hülle](Lineare%20Hülle.md) aus Vektoren in $X$. Die Dimension des Kerns sind die Anzahl an Vektoren die das System $Lx=0$ lösen. Pro Lineare Abhängigkeit der **Zeilenvektoren** von $L$ steigt die Dimension des Kerns um eins.
+Der Kern ist immer eine [Lineare Hülle](Lineare%20Hülle.md) aus Vektoren in $X$. Die Dimension des Kerns sind die Anzahl an Vektoren die das System $\mathbf{Ax}=0$ lösen. Pro Lineare Abhängigkeit der **Zeilenvektoren** von $\mathbf{A}$ steigt die Dimension des Kerns um eins.
 
 
 >[!important] Die Dimension des Kerns plus die Dimension des Bildes ist die Dimension des Defnitionsvektorraum $X$  
-> $\operatorname{dim}(\mathcal{R}(L))+\operatorname{dim}(\mathcal{N}(L))=\operatorname{dim}(X)$  
+> $\operatorname{dim}(\mathcal{R}(\mathbf{A}))+\operatorname{dim}(\mathcal{N}(\mathbf{A}))=\operatorname{dim}(X)$  
 
 ### Injektivität, Surjektivität und Bijektivität
 
@@ -70,9 +73,9 @@ Der Kern ist immer eine [Lineare Hülle](Lineare%20Hülle.md) aus Vektoren in $X
 3. Trifft beides zu, ist die Lineare Abbildung *[bijektiv](Abbildung.md)* 
 
 > [!info] $L: X \to Y$  
-> [Injektiv](Abbildung.md): $\operatorname{ker}(L) = \boldsymbol{0}$, $\operatorname{dim}(\operatorname{ker}(L)) = 0$  
-> [Surjektiv](Abbildung.md): $\operatorname{im}(L) = Y$  
-> [Bijektiv](Abbildung.md): $\operatorname{ker}(L) = \boldsymbol{0} \wedge \operatorname{im}(L) = Y$
+> [Injektiv](Abbildung.md): $\operatorname{ker}(\mathbf{A}) = \boldsymbol{0}$, $\operatorname{dim}(\operatorname{ker}(\mathbf{A})) = 0$  
+> [Surjektiv](Abbildung.md): $\operatorname{im}(\mathbf{A}) = Y$  
+> [Bijektiv](Abbildung.md): $\operatorname{ker}(\mathbf{A}) = \boldsymbol{0} \wedge \operatorname{im}(A) = Y$
 
 # Tags
 

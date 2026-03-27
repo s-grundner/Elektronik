@@ -27,3 +27,7 @@ class GeneralStack {
 ```
 
 ## Stack als dynamische Datenstruktur
+
+## Referenzen
+
+- RISC-V Stack 

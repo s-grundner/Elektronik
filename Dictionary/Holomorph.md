@@ -21,5 +21,5 @@ title: Holomorph
 
 ## Kontext
 
-- [Laplacetransformation](../Systemtheorie/Laplacetransformation.md)
-- [z-Transformation](../Systemtheorie/z-Transformation.md)
+- [Laplacetransformation](../Systemtheorie/Frequenzbereichsmethoden/Laplacetransformation.md)
+- [z-Transformation](../Systemtheorie/Frequenzbereichsmethoden/z-Transformation.md)

@@ -18,6 +18,13 @@ title: FIR-Filter
 
 ---
 
+FIR: Finite Imulse Response
+- Nur Digital Möglich
+- Immer BIBO Stabil
+Bei FIR: Die Berechnung der Faltung ist äquivalent zur auswertung der [DZGL](../../Mathematik/Analysis/Numerische%20Verfahren/Differenzengleichung.md)
+
+Nachteil eines FIR-Filters im vergleich zu IIR-Filter ist, dass diese eine große anzahl an Koeffizienten Benötigen, um die selbe Impulsantwort zu anzunähern
+
 ## Eigenschaften
 
 ### Differenzengleichung
@@ -52,15 +59,15 @@ $$
 H(z) = \frac{b_{0}z^{N} + b_{1}z^{N -1} + \dots + b_{N}}{z^N}
 $$
 
+### Blockdiagramm
+
+![invert_dark|700](../../_assets/Pasted%20image%2020260325210504.png)
+
 ## Entwurf
 
 - Fenstermethode
-- Optimalmethode
-
-### Fenstermethode
-
-### Optimalmethode
+- [Optimalmethode](Optimale%20Filter.md)
 
 # Referenzen
 
-- [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md)
+- [LTI-Systeme](../Zeitdiskret/LTI-Systeme.md)

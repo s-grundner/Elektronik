@@ -21,6 +21,8 @@ professor:
 
 # Analog Digital Umsetzer
 
+> [!question] [Abtaster](../Systemtheorie/Abtastsystem.md#Abtaster)
+
 Ein ADC ermittelt das Verhältnis einer analogen Eingangsgröße zu einer bekannten Referenzgröße und gibt dieses als Digitalwert an. Der unendlich großen Anzahl von möglichen Eingangsamplituden wird dabei eine endliche Anzahl von digitalen Ausgangszuständen (Codes) zugewiesen
 
 ## Full Scale Range

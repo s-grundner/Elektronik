@@ -112,9 +112,9 @@ $$ \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\righ
 
 ### Einheitsmatrix
 
-> [!question] [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_n$
+> [!question] [Einheitsmatrix](Einheitsmatrix.md) $\mathbf{I}_n$
 
-$$\operatorname{det}\left(\mathbb{1}_n\right)=1$$
+$$\operatorname{det}\left(\mathbf{I}_n\right)=1$$
 
 # Tags
 

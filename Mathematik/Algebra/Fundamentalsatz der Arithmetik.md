@@ -11,7 +11,6 @@ professor:
 release: false
 title: Fundamentalsatz der Arithmetik
 ---
-
 # Fundamentalsatz der Arithmetik
 
 > [!satz] **S - ARIT)** Fundamentalsatz der Arithmetik

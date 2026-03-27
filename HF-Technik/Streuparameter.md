@@ -182,7 +182,7 @@ $$
 Die Summe aller eintreffenden Leistungswellen ist gleich aller autretenden (reflektierten) Leistungswellen. Daraus folgt, dass die S-Parameter Matrix [unitär](../Mathematik/Algebra/Unitäre%20Matrix.md) ist:
 
 $$
-\mathbf{S}^H\mathbf{S} = \mathbb{1}_{n}
+\mathbf{S}^H\mathbf{S} = \mathbf{I}_{n}
 $$
 
 ## Verlustbehaftete Netzwerke

@@ -4,12 +4,13 @@ aliases:
   - Welle-Teilchen Dualismus
 created: 26th February 2026
 title: De Broglie
-release: false
+release: true
 subject:
   - VL
   - Einführung Elektronik
 semester: WS24
 professor:
+  - Bernhard Jakoby
 ---
 
 # Atommodelle
@@ -43,13 +44,15 @@ Es gibt Messmethoden um Elektronen als massebehaftete Teilchen aufzufinden. Jedo
 
 > [!info] **Teilchenbetrachtung)** Energie eines massebehafteten Teilchens
 > $$
-> E=mc^{2} \qquad p=mc
+> E=mc^{2}=pc \qquad \impliedby p=mc
 > $$
+
+
 
 > [!info] **Wellenbetrachtung)** Energie einer Welle
 >
 > $$
-> E = hf = h \dfrac{c}{\lambda}
+> E = hf = h \dfrac{c}{\lambda} \qquad
 > $$
  
 Liefert den Zusammenhang zwischen Wellenlänge (bzw [Wellenzahl](../Feldtheorie/Wellenzahl.md)) und Impuls

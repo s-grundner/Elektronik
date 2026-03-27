@@ -28,19 +28,19 @@ professor:
 
 Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische Verhalten des Zustands eines Systems berücksichtigt.
 
-> [!important] Zentraler Begriff: **Zustandsraum** [(t)](Zustandsbeschreibung.md), [\[n\]](Zeitdiskrete%20Zustandsbeschreibung.md)
+> [!important] Zentraler Begriff: **Zustandsraum** [(t)](Zeitkontinuierlich/Zustandsgrößen.md), [\[n\]](Zeitdiskret/Zustandsgrößen.md)
 
 Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
 
 | **:LiAudioWaveform: Kontinuierliche Systeme**                                    | :LiBolt: |                                                        **Zeitdiskrete Systeme :LiBarChart2:** |
 | -------------------------------------------------------------------------------- | :------: | --------------------------------------------------------------------------------------------: |
 |                                                                                  |          |                                                                                               |
-| [:LiArrowBigRightDash:](../Mathematik/Differentialgleichungen/index.md) Differentialgleichungen  | :LiBolt: | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Differenzengleichung.md) |
+| [:LiArrowBigRightDash:](../Mathematik/Analysis/Differentialgleichungen/index.md) Differentialgleichungen  | :LiBolt: | Differenzengleichungen [:LiArrowBigLeftDash:](../Mathematik/Analysis/Numerische%20Verfahren/Differenzengleichung.md) |
 |                                                                                  |          |                                                                                               |
-| [:LiArrowBigRightDash:](Dynamische%20Systeme.md) Dynamische Systeme              | :LiBolt: |                        Zeitdiskrete Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20Systeme.md) |
-| [:LiArrowBigRightDash:](Lineare%20Systeme.md) Lineare Systeme                    | :LiBolt: |          Diskrete Lineare Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20Lineare%20Systeme.md) |
-| [:LiArrowBigRightDash:](LTI-Systeme.md) LTI-Systeme                              | :LiBolt: |                    Diskrete LTI-Systeme [:LiArrowBigLeftDash:](Zeitdiskrete%20LTI-Systeme.md) |
-| [:LiArrowBigRightDash:](Kontinuierlicher%20LTI-Zustandsraum.md) LTI-Zustandsraum | :LiBolt: |        Diskreter LTI-Zustandsraum [:LiArrowBigLeftDash:](Zeitdiskreter%20LTI-Zustandsraum.md) |
+| [:LiArrowBigRightDash:](Zeitkontinuierlich/Dynamische%20Systeme.md) Dynamische Systeme              | :LiBolt: |                        Zeitdiskrete Systeme [:LiArrowBigLeftDash:](Zeitdiskret/Dynamische%20Systeme.md) |
+| [:LiArrowBigRightDash:](Zeitkontinuierlich/Lineare%20Systeme.md) Lineare Systeme                    | :LiBolt: |          Diskrete Lineare Systeme [:LiArrowBigLeftDash:](Zeitdiskret/Lineare%20Systeme.md) |
+| [:LiArrowBigRightDash:](Zeitkontinuierlich/LTI-Systeme.md) LTI-Systeme                              | :LiBolt: |                    Diskrete LTI-Systeme [:LiArrowBigLeftDash:](Zeitdiskret/LTI-Systeme.md) |
+| [:LiArrowBigRightDash:](Zeitkontinuierlich/LTI-Zustandsraum.md) LTI-Zustandsraum | :LiBolt: |        Diskreter LTI-Zustandsraum [:LiArrowBigLeftDash:](Zeitdiskret/LTI-Zustandsraum.md) |
 
 ## Regelung vom Dynamischen Systemen
 

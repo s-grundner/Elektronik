@@ -24,7 +24,7 @@ $$
 $$
 
 $$
-\mathbb{U} = \mathbb{Z} \cdot \mathbb{I}
+\mathbf{u} = \mathbf{Z} \cdot \mathbf{i}
 $$
 
 | $\underline{Z}_{11}$ | Leerlauf Eingangswiderstand     |

@@ -20,7 +20,7 @@ title: Unitäre Matrix
 > [!def] **D - UNIM)** Eine [Matrix](Matrix.md) $\mathbf{A} \in \mathbb{K}^{n\times n}$ ist unitär, wenn gilt
 > 
 > $$
-> \mathbf{A}^H\mathbf{A} = \mathbf{AA}^H = \mathbb{1}_{n}
+> \mathbf{A}^H\mathbf{A} = \mathbf{AA}^H = \mathbf{I}_{n}
 > $$
 > 
 > Woraus folgt
@@ -31,7 +31,7 @@ title: Unitäre Matrix
 
 - $(\cdot)^H$ ... [Hermitesche Transposition](Transponieren.md)
 - $(\cdot)^{-1}$ ... [Inverse](Gauß-Jordan-Verfahren.md) einer Matrix
-- $\mathbb{1}$ ... [Einheitsmatrix](Einheitsmatrix.md)
+- $\mathbf{I}$ ... [Einheitsmatrix](Einheitsmatrix.md)
 
 ## Referenzen
 

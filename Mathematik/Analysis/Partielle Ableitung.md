@@ -29,12 +29,16 @@ Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable
 
 > [!def] **D1 - PART)** Sei $A \subset \mathbb{R}^n$ offen.
 > Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$.
-> $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [[Kurvendiskussion/Grenzwert]] existiert:
+> $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [Grenzwert](Kurvendiskussion/Grenzwert.md) existiert:
 > 
-> $$\lim _{t \rightarrow 0} \frac{f\left((x_1, \ldots, x_{j-1}, x_j+t), (x_{j+1}, \ldots, x_n)\right)-f(x)}{t} =: \frac{\partial f}{\partial x_j}(x)$$
+> $$
+> \lim _{t \rightarrow 0} \frac{f\left(x_1, \ldots, x_{j-1}, {\color{orange}x_j+t}, x_{j+1}, \ldots, x_n\right)-f(\mathbf{x})}{t} =: \frac{\partial f}{\partial x_j}(\mathbf{x})
+> $$
 > 
 > Dieser Grenzwert heißt dann partielle [Ableitung](Differenzialrechnung.md) von $f$ nach $x_j$ (auch bezeichnet mit $f_{x_j}(x)$).
 > Falls in $x$ alle partiellen Ableitungen existieren, so heißt $f$ partiell differenzierbar in $x$.
+
+
 
 > [!satz] **S1 - SCHW)** Satz von Schwarz
 > 

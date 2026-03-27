@@ -37,7 +37,7 @@ $$k_{ges}=THD=\frac{\sqrt{u_{2}^{2}+u_{3}^{2}+u_{4}^{2}+\cdots}}{\sqrt{u_{1}^{2}
 
 # Tags
 
-[Fourierreihe](../../Systemtheorie/Fourierreihe.md)
+[Fourierreihe](../../Systemtheorie/Zeitkontinuierlich/Fourierreihe.md)
 
 LT-Spice Tutorial: <http://eecs.oregonstate.edu/education/docs/ece323/Appendix.pdf>
 

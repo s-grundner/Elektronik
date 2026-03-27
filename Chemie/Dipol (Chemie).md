@@ -11,9 +11,9 @@ created: 15. November 2023
 
 > siehe auch: Elektrischer [elektrischer Dipol](../Elektrotechnik/elektrischer%20Dipol.md)
 
-| [Molekül](Atombindung.md)                    | VSF                    | Ladungsverteilung  |
-| -------------------------- | ---------------------- | ------------------ |
-| $HCl$ <br> $\Delta EN=0.9$ | >![VSF-HCl#invert_light\|250](../_assets/VSF-HCl.png) | >![dpl#invert_light\|250](../_assets/dpl.png) |
+| [Molekül](Atombindung.md)  | VSF                                                  | Ladungsverteilung                            |
+| -------------------------- | ---------------------------------------------------- | -------------------------------------------- |
+| $HCl$ <br> $\Delta EN=0.9$ | ![VSF-HCl#invert_light\|250](../_assets/VSF-HCl.png) | ![dpl#invert_light\|250](../_assets/dpl.png) |
 
 Dipolpfeil zeigt zur negativen [Ladung](../Elektrotechnik/elektrisches%20Feld.md) ([Vektor](../Mathematik/Algebra/Vektor.md) des Dipolmoments)
 > [!info] Wichtigstes Dipolmolekül: $H_{2}O$

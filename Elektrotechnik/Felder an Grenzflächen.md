@@ -61,6 +61,7 @@ $\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/F
 
 Ein sprung könnte nur dann entstehen wenn an den Grenzflächen ein Strom fließt. Ein [dielektrisches Material](Dielektrikum.md) besitzt jedoch keinen Leitwert, weshalb der Strom immer 0 ist.
 
+
 ### Schräger Einfall
 
 - [Snelliussches Brechungsgesetz](../Physik/Feldtheorie/Snelliussches%20Brechungsgesetz.md)

@@ -117,7 +117,7 @@ Der Einheitsimpuls ist im Zeitdiskreten tatsächliche eine Funktion.
 
 ---
 
-- [Faltung](../Systemtheorie/Faltung.md)
+- [Faltung](../Systemtheorie/Zeitkontinuierlich/Faltung.md)
 - [Impulsanwort](../Systemtheorie/Impulsanwort.md)
 
  

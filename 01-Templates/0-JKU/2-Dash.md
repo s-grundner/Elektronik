@@ -35,7 +35,7 @@ type: <% category %>
 
 ```dataviewjs
 if(dv.current().list) {
-    await dv.view("01-Tools/dataviewjs/lva_query", {
+    await dv.view("02-Tools/dataviewjs/lva_query", {
 	    subjectFilter: dv.current().subject[1],
 	    subjectType: dv.current().subject[0]
 	});

@@ -21,7 +21,7 @@ title: Digitaler Filter
 
 ## Lineare Digitalfilter
 
-> [!hint] Stabile und kausale [Zeitdiskrete LTI-Systeme](Zeitdiskrete%20LTI-Systeme.md),
+> [!hint] Stabile und kausale [LTI-Systeme](../Zeitdiskret/LTI-Systeme.md),
 > welche sich durch rationale Überrtagungsfunktionen mit reellen Koeffizienten beschreiben lassen, spielen dabei die wichtigste rolle $\to$ **lineare Digitalfilter**
 
 Also Filter mit einer Übertragungsfunktion der Form
@@ -37,7 +37,7 @@ $$ H(z) = b_{0} + b_{1}z^{-1} + \cdots + b_{N}z^{-N} $$
 > [!question] Ziel:
 > Aufgabe des Filterentwurfs ist es, die **Ordnung** und die **Koeffizienten** der Filterübertragungsfunktion zu einem *vorgegebenen Zielfrequenzgang* zu bestimmen.
 
-Die Verzögerung eines LTI-Systems wird durch die [Gruppenlaufzeit](zeitdiskrete%20Gruppenlaufzeit.md#^GRLZ) charakterisiert.
+Die Verzögerung eines LTI-Systems wird durch die [Gruppenlaufzeit](../Zeitdiskret/Gruppenlaufzeit.md#^GRLZ) charakterisiert.
 
 ### Filterentwurf
 

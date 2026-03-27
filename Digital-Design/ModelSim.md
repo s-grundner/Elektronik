@@ -13,6 +13,8 @@ professor:
 
 # ModelSim
 
+> [!question] [Simulation in VHDL](HDL/VHDL.md#Simulation)
+
 ## Do-File
 
 ```do title="sim.do"

@@ -46,7 +46,7 @@ title: Stabilität und Beschränktheit
 >
 > - Alle Pole liegen innerhalb (nicht auf) dem Einheitskreis
 > - Betrag der Pole ist $< 1$
-> - Die Systemmatrix ist eine [Einheitskreismatrix](Einheitskreismatrix.md)
+> - Die Systemmatrix ist eine [Einheitskreismatrix](../Mathematik/Algebra/Einheitskreismatrix.md)
 > - Das Konvergenzgebiet liegt nur im Einheitskreis
 
 Die Stabilität ist daher nur vom Nennerpolynom $n(s)$ bzw. $n(z)$ der Übertragungsfunktion abhängig. 

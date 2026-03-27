@@ -18,7 +18,7 @@ title: Moving Average
 
 # Gleitende Mittelwertbildung
 
-Dieses System berechnet den $n$-ten Abtastwert der Ausgangsfolge aus dem Mittelwert von $x[n],x[n-1], \dots ,x[n-M]$. Es handelt sich um ein [BIBO](Stabilität%20und%20Beschränktheit.md) stabiles und [kausales](Kausalität.md) [LTI-System](Zeitdiskrete%20LTI-Systeme.md).
+Dieses System berechnet den $n$-ten Abtastwert der Ausgangsfolge aus dem Mittelwert von $x[n],x[n-1], \dots ,x[n-M]$. Es handelt sich um ein [BIBO](Stabilität%20und%20Beschränktheit.md) stabiles und [kausales](Kausalität.md) [LTI-System](../Zeitdiskret/LTI-Systeme.md).
 
 *Ausgangssignal:*
 

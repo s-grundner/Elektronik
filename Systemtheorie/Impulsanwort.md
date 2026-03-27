@@ -13,4 +13,4 @@ professor:
 
 # Impulsantwort
 
-> [Faltung](Faltung.md)
+> [Faltung](Zeitkontinuierlich/Faltung.md)

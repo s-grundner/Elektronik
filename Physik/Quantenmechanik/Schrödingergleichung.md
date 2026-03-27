@@ -8,7 +8,8 @@ subject:
 semester: WS24
 created: 27th February 2026
 professor:
-release: false
+  - Bernhard Jakoby
+release: true
 title: Schrödingergleichung
 ---
 
@@ -20,7 +21,7 @@ $$
 \psi(t,x) \propto e^{ -j\omega t } e^{ jkx } = e^{ -j \tfrac{E}{\hbar} t}e^{ j\tfrac{p}{\hbar} x }
 $$
 
-habe, entdeckte Schrödunger schließlich die [Partielle DGL](../../Mathematik/Analysis/Partielle%20Differenzialgleichung.md) in Form einer [Wellengleichung](../Feldtheorie/Wellengleichung.md):
+habe, entdeckte Schrödunger schließlich die [Partielle DGL](../../Mathematik/Analysis/Differentialgleichungen/Partielle%20Differenzialgleichung.md) in Form einer [Wellengleichung](../Feldtheorie/Wellengleichung.md):
 
 > [!satz] **S)** Schrödungergleichung für ein freies Teilchen
 > 
@@ -62,7 +63,7 @@ auch dafür lässt sich eine Wellengleichung finden
 > -\frac{\hbar^{2}}{2m} \frac{ \partial^{2}\psi(x,t) }{ \partial x^{2} } + V(x)\psi(x,t) = j\hbar \frac{ \partial \psi(x,t) }{ \partial t } 
 > $$
 
-Dazu hat man sich nun von der *erratenen Lösung* der Materiewelle verabschieded und weitere Lösungen gesucht, welche dann tatsächlich von bedeutungs waren.
+Dazu hat man sich nun von der *erratenen Lösung* der Materiewelle verabschieded und weitere Lösungen gesucht, welche dann tatsächlich von Bedeutung waren.
 
 Damit wurde ein neues Fundamentales Naturgesetz entdeckt. Jedoch bleibt noch aus wie das Ergebnis zu interpretieren ist. 
 

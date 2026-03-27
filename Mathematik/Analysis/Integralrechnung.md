@@ -21,7 +21,7 @@ created: 26th March 2022
 > $F(x) = \int f(x) \, dx$
 
 - [Trigonometrische](../Trigonometrische%20Funktionen.md) Substitution
-- Integrieren von rationalen Polynomen $\to$ Anwendung der [Partialbruchzerlegung](Partialbruchzerlegung.md)
+- Integrieren von rationalen Polynomen $\to$ Anwendung der [Partialbruchzerlegung](../Algebra/Partialbruchzerlegung.md)
 
 > [!info]-  Bemerkung aus dem Skriptum
 > ![](../../_assets/{22125BB9-7A2F-4E52-B917-2AAB734F94BE}.png)

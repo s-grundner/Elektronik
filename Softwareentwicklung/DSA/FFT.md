@@ -12,8 +12,8 @@ complexity: $\mathcal{O}(n\cdot\log(n))$
 
 > [!info] Complexity: $\mathcal{O}(n\cdot\log(n))$ 
 
-> [!hint] FFT $\iff$ [DFT](../../Systemtheorie/Signalverarbeitung/DFT.md)
-> Der FFT-Algorithmus  ist eine Möglichkeit, die [DFT](../../Systemtheorie/Signalverarbeitung/DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
+> [!hint] FFT $\iff$ [DFT](../../Systemtheorie/Frequenzbereichsmethoden/DFT.md)
+> Der FFT-Algorithmus  ist eine Möglichkeit, die [DFT](../../Systemtheorie/Frequenzbereichsmethoden/DFT.md) mit hoher Geschwindigkeit durchzuführen. James Cooley und John W. Tukey wiederentdeckten ihn im Jahr 1965.
 > Wiederentdeckung deshalb, weil Carl Friedrich Gauß den Algorithmus in seiner ersten Form bereits 1805 entdeckte und verwendete, diese aber nie publizierte.
 > Erst die durch diesen Algorithmus erreichte hohe Durchführungsgeschwindigkeit ermöglicht eine so breit gefächerte Anwendung.
 

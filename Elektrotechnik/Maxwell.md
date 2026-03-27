@@ -135,7 +135,7 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 
 $\mathbf{M}$ ist die fikitve größe der magnetischen Stromdichte und hat physikalisch keine Bedeutung. Durch das Einführen dieser größe, vereinfachen sich oft Rechnungen, und das Induktionsgesetz ist symmetrisch zum [Durchflutingssatz](#^MW1). Das Induktionsgesetz ist auch ohne diesen Term gültig.
 
-![500](../_assets/MW2.png)
+![invert_light|500](../_assets/MW2.png)
 
 > [!hint] **Aussage:** Ein Sich zeitlichveränderlichs Magnetfeld erzeugt ein Elektrisches Feld.
 
@@ -182,7 +182,7 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 | :------------------------------------------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
 | $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$ | $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$ | $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$ |
 
-![1000](../_assets/nablaOps.png)
+![invert_light|1000](../_assets/nablaOps.png)
 
 > [!hint] Gradient
 > 

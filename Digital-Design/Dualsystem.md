@@ -3,6 +3,8 @@ tags:
   - Algebra
 aliases:
   - Binär
+  - 2er-Komplement
+  - 1er-Komplement
 keywords:
 subject:
   - VL
@@ -108,7 +110,7 @@ Man Beachte dass nicht der gesamte Wertebereich verwendet werden kann, da z.B. f
 
 $$ [r^{n-1}-1, -r^{n-1}] $$
 
-#### 1er Komplement 
+### 1er Komplement 
 
 Das $r-1$-Komplement des Dualsystems ist das **1er Komplement**, da $r=2$.
 

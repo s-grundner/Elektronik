@@ -25,15 +25,16 @@ Eigenvektoren ($\mathbf{v}$) sind [Vektoren](Vektor.md), die unter der linearen 
 
 $$\mathbf{Av} = \lambda \mathbf{v}\tag{EWGL}$$ ^EWGL
 
-|            $A$            |         $v$         |     $\lambda$     |
-| :-----------------------: | :-----------------: | :---------------: |
-| Lineare Abbildung: Matrix | Eigenvektor: Vektor | Eigenwert: Skalar |
+|        $A$         |     $v$      | $\lambda$  |
+| :----------------: | :----------: | :--------: |
+| Lineare Abbildung  | Eigenvektor  | Eigenwert |
+|       Matrix       |    Vektor    |   Skalar   |
 
 Dabei nennt man die Beziehung [EWGL](#^EWGL) **Eigenwertgleichung**.
 
 > [!def] **D1 - EIGV)** Ein Vektor $\mathbf{v}\neq \mathbf{0} \in \mathbb{C}^{m}$ heißt **Eigenvektor** der linearen Abbildung $\mathbf{A}$ zum **Eigenwert** $\lambda$, falls gilt ^EIGV
 > 
-> $$(\mathbf{A}-\lambda \mathbb{1})\cdot \mathbf{v}=\mathbf{0}\tag{EWGL}$$
+> $$(\mathbf{A}-\lambda \mathbf{I})\cdot \mathbf{v}=\mathbf{0}\tag{EWGL}$$
 
 Die Eigenwertgleichung ist hier auf eine Seite gebracht. Um das Skalar $\lambda$ an die Dimension der Matrix $\mathbf{A}$ anzupassen, wird sie mit dem Einselement - der Einheitsmatrix - Multipliziert.
 
@@ -44,14 +45,14 @@ Die Eigenwertgleichung ist hier auf eine Seite gebracht. Um das Skalar $\lambda$
 
 > [!def] **D2 - CHAP)** Charakteristisches Polynom und Eigenwert ^CHAP
 > Das Charakteristische Polynom zur Linearen Abbildung $\mathbf{A}$ ist definiert wie:
-> $$p_{\mathbf{A}}(\lambda) := \det(\mathbf{A}-\lambda \mathbb{1})$$
+> $$p_{\mathbf{A}}(\lambda) := \det(\mathbf{A}-\lambda \mathbf{I})$$
 > 
 > Jeder Wert $\lambda \in\mathbb{C}$ der die Gleichung $p_{\mathbf{A}}(\lambda)=0$ erfüllt, heißt **Eigenwert** von $\mathbf{A}$. Also eine Nullstelle des charakteristischen Polynoms ist.
 
 
-Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es gibt nur dann Eigenvektoren ungleich null, wenn die Matrix $A-\lambda \mathbb{1}$ **nicht vollen rang** hat also wenn die determinante null ist. Wir Suchen daher eigenwerte sodass diese Bedingung erfüllt ist.
+Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es gibt nur dann Eigenvektoren ungleich null, wenn die Matrix $A-\lambda \mathbf{I}$ **nicht vollen rang** hat also wenn die determinante null ist. Wir Suchen daher eigenwerte sodass diese Bedingung erfüllt ist.
 
-Äquivalente Aussagen für $\det{A-\lambda \mathbb{1}} = 0$ sind:
+Äquivalente Aussagen für $\det{A-\lambda \mathbf{I}} = 0$ sind:
 
 - hat nicht vollen Rang
 - Das System ist nicht linear Unabhängig
@@ -59,7 +60,7 @@ Die Eigenwerte sind also Nullstellen des charateristischen Polynoms. Warum? Es g
 
 ## Eigenraum
 
-der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / [Erzeugenensystem](Lineare%20Hülle.md). Der Eigenraum ist also $\ker(\mathbf{A}-\lambda \mathbb{1})$
+der Eigenraum für einen bestimmten Eigenvektor ist die Menge dieser Eigenvektoren bzw. deren Koordinatenmatrix / [Erzeugenensystem](Lineare%20Hülle.md). Der Eigenraum ist also $\ker(\mathbf{A}-\lambda \mathbf{I})$
 
 > [!question] [Kern und Bild](Lineare%20Abbildungen.md#Kern%20und%20Bild)
 
@@ -70,7 +71,7 @@ Es werden mit der Eigenwert Gleichung zu jedem Eigenwert die Vektoren ermittelt.
 > [!def] **D3 - VFHT)** Algebraische und geometrische Vielfachheit. ^VFHT
 > Sei $p_{\mathbf{A}}(\lambda)=0$ das [charakteristische Polynom](#^CHAP) der linearen Abbildung $\mathbf{A}$, mit den Eigenwerten $\lambda$ als dessen Nullstellen
 > - **Algebraische Vielfachheit** $k_{\lambda}$: Ist die Vielfachheit des Eigenwertes
-> - **Geometrische Vielfachheit** $m_{\lambda}$: Ist der Rangverlust des Eigenwertes $\lambda$ $\iff$ $m_{\lambda} =\dim\ker(\mathbf{A}-\mathbb{1}\lambda)$
+> - **Geometrische Vielfachheit** $m_{\lambda}$: Ist der Rangverlust des Eigenwertes $\lambda$ $\iff$ $m_{\lambda} =\dim\ker(\mathbf{A}-\mathbf{I}\lambda)$
 > 
 
 Die Geometrische Vielfachheit ist die **Dimension des Eigenraumes**.
@@ -85,7 +86,7 @@ Die Hauptvektoren und vorallem der durch ihn erzeugte **Hauptraum** verallgemein
 
 > [!def] **D2 - HPTV)** Ein Vektor $v \in \mathbb{C}^m, v \neq 0$, heißt **Hauptvektor** der Stufe $l \in \mathbb{N}$ zum Eigenwert $\lambda \in \sigma(A)$, wenn ^HPTV
 > 
-> $\left(A-\lambda \mathbb{1}_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda \mathbb{1}_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
+> $\left(A-\lambda \mathbf{I}_m\right)^l v=0 \quad$ und $\quad\left(A-\lambda \mathbf{I}_m\right)^p v \neq 0 \quad$ für alle $\quad p=1, \ldots, l-1$
 > 
 > Ein Hauptvektor der Stufe $l=1$ ist offensichtlich ein Eigenvektor.
 
@@ -93,7 +94,7 @@ Nach dieser Definition lassen sich ab dem Eigenvektor auch alle weiteren Hauptve
 
 > [!satz] **S1 - NBEV)** Nebeneigenvektoren ^NBEV
 > Ist $\lambda \in \mathbb{R}$ ein $k$-facher Eigenwert, dessen Eigenraum *keinen Rangverlust* aufweist ($m_{\lambda}=1$), dann existieren zum zugehörigen Eigenvektor $\mathbf{v}_{1}$ weitere $k-1$ linear unabhängige Vektoren, für welche die Gleichung
-> $$(\mathbf{A}-\lambda \mathbb{1})\mathbf{v}_{i+1}=\mathbf{v}_{i},\quad i = 1,2,\dots,k-1\tag{NBEV}$$
+> $$(\mathbf{A}-\lambda \mathbf{I})\mathbf{v}_{i+1}=\mathbf{v}_{i},\quad i = 1,2,\dots,k-1\tag{NBEV}$$
 > erfüllen. Die Vektoren $\mathbf{v}_{1},\dots,\mathbf{v}_{k}$ heißen **Nebeneigenvektoren**. Betrachtet man die obige Gleichung als System, gilt
 > $$\mathbf{AV}=\mathbf{VS},\quad \mathbf{V}=\begin{bmatrix}\mathbf{v}_{1}&\dots &\mathbf{v}_{k}\end{bmatrix}$$
 > mit der Matrix $\mathbf{S} \in \mathbb{R}^{k\times k}$

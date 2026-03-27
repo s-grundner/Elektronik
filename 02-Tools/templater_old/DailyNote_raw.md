@@ -1,23 +1,32 @@
+<%*
+const today = tp.date.now("YYYY-MM-DD");
+const week = tp.date.now("GGGG-[W]WW");
+const yesterday = tp.date.now("YYYY-MM-DD", -1);  
+const tomorrow = tp.date.now("YYYY-MM-DD", 1);  
+const titleDate = tp.date.now("dddd, MMMM D, YYYY");  
+-%>
 ---
-tags: DailyNotes
-created: 2023-10-16 08:37
-banner: "/assets/banner/Forest_Steph_Johnstone.jpg"
+banner: "00-Assets/banner/Forest_Steph_Johnstone.jpg"
+tags:
+ - DailyNotes
+ - BacLog
+created: <% today %>
+week: <% week %>
+exercise_hours: 
+thesis_hours:
 ---
 
-<center> <h1> <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %> </h1> </center>
-<center>⬅️ [Gestern](<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').subtract(1, 'd').format('YYYY-MM-DD-dddd')%>.md) | [Morgen](<% fileDate = moment(tp.file.title, 'YYYY-MM-DD-dddd').add(1, 'd').format('YYYY-MM-DD-dddd') %>.md) ➡️</center>
+<center> <h1> <% titleDate %> </h1> </center>
+
+⬅️ [Gestern](<% yesterday %>.md) | [Morgen](<% tomorrow %>.md) ➡️
+
+<% tp.web.daily_quote() %>
 
 ---
 
-# 📝 Notes
+## Tasks
 
-## 🎒Uni
-
----
-
-# 📅 Kalender
-
-## Todo
+### Todo
 
 ```tasks
 not done
@@ -26,16 +35,13 @@ short mode
 limit 100
 ```
 
----
+### Heute Erledigt
 
-> [!SUMMARY] 😎 Erstellte Notizen
->
-> ```dataview
-> List FROM "" WHERE file.cday = date("<%moment(tp.file.title,'YYYY-MM-DD').format("YYYY-MM-DD")%>") AND !contains(file.name, ".excalidraw") SORT file.ctime asc
-> ```
+```tasks
+done
+(path includes DailyNotes) AND NOT (path includes Rubbish)
+short mode
+done <% today %>
+```
 
-> [!SUMMARY] ✒️ Bearbeitete Notizen
->
-> ```dataview
-> List FROM "" WHERE file.mday = date("<%moment(tp.file.title,'YYYY-MM-DD').format("YYYY-MM-DD")%>") AND !contains(file.name, ".excalidraw") SORT file.mtime asc
-> ```
+## 📅 Kalender

@@ -22,7 +22,7 @@ professor:
  
 # Wechselstromtechnik
 
-Wird ein [elektrisches Netzwerk](Lineare%20Elektrische%20Netzwerke.md) mit Wechselstrom betrieben, so kann die [komplexe Rechnung](../Mathematik/Analysis/Komplexe%20Zahlen.md) zur Ermittlung der Spannungen und Ströme des Netzwerks angewendet werden. Dies gilt nur unter bestimmten Vorraussetzungen. 
+Wird ein [elektrisches Netzwerk](Lineare%20Elektrische%20Netzwerke.md) mit Wechselstrom betrieben, so kann die [komplexe Rechnung](../Mathematik/Algebra/Komplexe%20Zahlen.md) zur Ermittlung der Spannungen und Ströme des Netzwerks angewendet werden. Dies gilt nur unter bestimmten Vorraussetzungen. 
 
 > [!hint] Vorraussetzungen:
 > - [Netzwerk](Lineare%20Elektrische%20Netzwerke.md) ist linear
@@ -144,7 +144,7 @@ $$
 
 > [!question] [Maxwell](Maxwell.md)
 
-Auch die Maxwellgleichungen lassen sich in der Phasorschreibweise notieren. Hier werden alle Zeitableitungen zu einer multiplikation mit $j\omega$. Das lässt sich durch eine überlegung mittels der [Fouriertransformation](../Systemtheorie/Fouriertransformation.md) bestätigen.
+Auch die Maxwellgleichungen lassen sich in der Phasorschreibweise notieren. Hier werden alle Zeitableitungen zu einer multiplikation mit $j\omega$. Das lässt sich durch eine überlegung mittels der [Fouriertransformation](../Systemtheorie/Frequenzbereichsmethoden/Fouriertransformation.md) bestätigen.
 
 > [!satz] **S)** MWG in Phasorschreibweise
 > 

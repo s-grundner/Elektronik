@@ -115,7 +115,7 @@ $$
 
 Je nach genauigkeit der Kleinsignalannäherung kommen in dem Ausdruck verschiedene Potenzen der Spannung $U(t)$ vor. Ist $U(t)$ ein Wechselsignal treten, begründet durch [Doppelwinkelsätze](../../Mathematik/Trigonometrische%20Funktionen.md#Doppelwinkel), Harmonische Oberwellen auf.
 
-> [!hint] Zur Erinnerung - [Fourierreihe](../../Systemtheorie/Fourierreihe.md)
+> [!hint] Zur Erinnerung - [Fourierreihe](../../Systemtheorie/Zeitkontinuierlich/Fourierreihe.md)
 > Jedes Periodische Signal lässt sich durch eine Summe von Sinus und Cosinus Funktionen darstellen. Die Oberwellen treten also getrennt für jede Teil-Frequenz des Signals auf.
 
 ## Materialien

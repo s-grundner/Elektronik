@@ -130,7 +130,7 @@ $$
 
 d.h. der Wert bei Null ist ein Maximum!
 
-Die Kreuzkorrelation ist identisch mit der komplex konjugierten [Faltung](Faltung.md) $\overline{ f(-\uptau) }_{  }$
+Die Kreuzkorrelation ist identisch mit der komplex konjugierten [Faltung](Zeitkontinuierlich/Faltung.md) $\overline{ f(-\uptau) }_{  }$
 
 ---
 

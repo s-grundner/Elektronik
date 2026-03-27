@@ -29,7 +29,7 @@ Eine größe $u$ wird als Welle bezeichnet, wenn die Größe im ort als auch üb
 
 ## Eindimensionale Raumwelle
 
-Die Wellengleichung ist eine [Partielle DGL](Partielle%20Differenzialgleichung.md) und dient zur mathematischen Beschreibung der Ausbreitung von Raumwellen. In der Elektrotechnik vorallem der Ausbreitung von [elektromagnetischen Wellen](../../Physik/Feldtheorie/index.md)
+Die Wellengleichung ist eine [Partielle DGL](../../Mathematik/Analysis/Differentialgleichungen/Partielle%20Differenzialgleichung.md) und dient zur mathematischen Beschreibung der Ausbreitung von Raumwellen. In der Elektrotechnik vorallem der Ausbreitung von [elektromagnetischen Wellen](../../Physik/Feldtheorie/index.md)
 
 > [!def] **D)** eindimensionale, homogene Wellengleichung
 >

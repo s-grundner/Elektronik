@@ -18,11 +18,11 @@ title: Übertragungsfunktion
 
 # Übertragungsfunktion
 
-[Zeitdiskrete Übertragungsfunktion](Zeitdiskrete%20Übertragungsfunktion.md) ***:LiRefreshCcw:***
+[Übertragungsfunktion](Zeitdiskret/Übertragungsfunktion.md) ***:LiRefreshCcw:***
 
 ---
 
-Für die Übertragungsfunktion eines Systems, bildet man die [einseitige Laplacetransformation](Laplacetransformation.md) dessen Impulsantwort.
+Für die Übertragungsfunktion eines Systems, bildet man die [einseitige Laplacetransformation](Frequenzbereichsmethoden/Laplacetransformation.md) dessen Impulsantwort.
 
 Bei der Übertragungsfunktion betrachtet man nur den Eingeschwungenen Zustand. Damit eine Übertragungsfunktion existiert müssen alle Einschwingvorgänge (die homogene Lösung) und Transiente Vorgänge abklingen.
 
@@ -43,7 +43,7 @@ Der Frequenzgang ist auf der Imaginärachse der Transformierten abgebildet. Der 
 
 Darstellungsformen des Frequenzganges:
 
-- [Bode Plot](Bode%20Plot.md)
-- [Ortskurve](Regelungstechnik/Ortskurve.md)
+- [Bode Plot](Frequenzbereichsmethoden/Bode%20Plot.md)
+- [Ortskurve](Ortskurve.md)
 
 # Quellen

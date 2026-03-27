@@ -28,6 +28,18 @@ release: false
 > Wärend dieser Zeit kann der zustand des Ausgangs prellen
 > - Unterschiedliche Laufzeit der inneren Gatter
 
+Gerichteter, zyklenfreier Graph:
+
+- Knoten repräsentieren
+	- Primäre Eingänge
+	- Primäre Ausgänge
+	- Gatter (i.d.R. basierend auf vorher festgelegter Gatterbibliothek)
+- Kanten repräsentieren
+	- Signale zwischen den Gattern
+	- bzw. primären Eingängen/Ausgänge
+
+
+
 ---
 
 # Tags

@@ -45,7 +45,7 @@ Die Menge aller Matrizen mit diesen Dimensionen bezeichnen wir mit $\mathbb{K}^{
 Gilt $m=n$, hießt die Matrix **quadratisch** ($\mathbf{A}\in \mathbb{K}^{n\times n}$). Dazu gibt es ein paar spezialfälle:
 
 1. Gilt $\mathbf{A}^T = \mathbf{A}$, heißt die Matrix **symmetrisch** (Siehe [Transposition](Transponieren.md))
-2. Gilt $a_{ij}=0$ für alle $i\neq j$, ist $\mathbf{A}$ eine [Diagonalmatrix](Diagonalmatrix.md). Sind weiters alle $a_{ii}=1$ ist $\mathbf{A}$ die [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_{n}$
+2. Gilt $a_{ij}=0$ für alle $i\neq j$, ist $\mathbf{A}$ eine [Diagonalmatrix](Diagonalmatrix.md). Sind weiters alle $a_{ii}=1$ ist $\mathbf{A}$ die [Einheitsmatrix](Einheitsmatrix.md) $\mathbf{I}_{n}$
 3. Gilt $a_{ij}=0$ für alle $i,j$, ist $\mathbf{A}$ die **Nullmatrix** $\mathbf{0}_{n}$
 4. Gilt $a_{ij}=0$ für alle $i>j$, ist $\mathbf{A}$ eine obere rechte [Dreiecksmatrix](Dreiecksmatrix.md)
 5. Gilt $a_{ij}=0$ für alle $i<j$, ist $\mathbf{A}$ eine untere linke [Dreiecksmatrix](Dreiecksmatrix.md)
@@ -68,7 +68,7 @@ Gilt $m=n$, hießt die Matrix **quadratisch** ($\mathbf{A}\in \mathbb{K}^{n\time
 > 
 > (c) *Neutrales Element*:
 >
-> - $\mathbb{1}_m \cdot \mathbf{A}=\mathbf{A} \cdot \mathbb{1}_n=\mathbf{A}$
+> - $\mathbf{I}_m \cdot \mathbf{A}=\mathbf{A} \cdot \mathbf{I}_n=\mathbf{A}$
 
 > [!warning] Die Matrixmultilikation ist **nicht kommutativ**
 >  Auch für $m=n=p$ gilt i.a. nicht: $\mathbf{A} \mathbf{B}=\mathbf{B} \mathbf{A}$  
@@ -105,7 +105,7 @@ Eine quadratische Matrix heißt Elementarmatrix, wenn sie aus der Einheitsmatrix
 
 ## Besondere Matrizen
 
-- [Einheitsmatrix](Einheitsmatrix.md) $\mathbb{1}_{m}$ 
+- [Einheitsmatrix](Einheitsmatrix.md) $\mathbf{I}_{m}$ 
 - [[Rotationsmatrix]] 
 - [[Dreiecksmatrix]] 
 - [[Diagonalmatrix]]

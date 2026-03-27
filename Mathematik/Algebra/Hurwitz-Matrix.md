@@ -22,14 +22,14 @@ title: Hurwitz-Matrix
 > [!satz] **S - BIBO)** Hinreichende Bedingung für [BIBO](../../Systemtheorie/Stabilität%20und%20Beschränktheit.md)-Stabilität eines Systems:
 > 
 > Wenn die Koeffizientenmatrix eines zeitkontinuierlichen Autonomen System eine Hurwitzmatrix ist, dann ist das System stabil.
->
-> Warum? Der Realteil ist für den Dämpfungsfaktor in der Lösung der DGL verantwortlich. Ist dieser negativ, konvergiert $e^{ \alpha t } \to 0$.
+
+Warum? Der Realteil ist für den Dämpfungsfaktor in der Lösung der DGL verantwortlich. Ist dieser negativ, konvergiert $e^{ \alpha t } \to 0$.
 
 
-Das zeitdiskrete äquivalent einer Hurwitzmatrix ist die [Einheitskreismatrix](../../Systemtheorie/Einheitskreismatrix.md).
+Das zeitdiskrete äquivalent einer Hurwitzmatrix ist die [Einheitskreismatrix](Einheitskreismatrix.md).
 
 # Referenzen
 
-- [Autonomes DGL-System](../Differentialgleichungen/Autonomes%20DGL-System.md)
-- [Kontinuierlicher LTI-Zustandsraum](../../Systemtheorie/Kontinuierlicher%20LTI-Zustandsraum.md)
-- [Ljapunov](../Differentialgleichungen/Ljapunov.md)
+- [Autonomes DGL-System](../Analysis/Differentialgleichungen/Autonomes%20DGL-System.md)
+- [LTI-Zustandsraum](../../Systemtheorie/Zeitkontinuierlich/LTI-Zustandsraum.md)
+- [Ljapunov](../Analysis/Differentialgleichungen/Ljapunov.md)

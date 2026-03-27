@@ -17,7 +17,7 @@ keywords:
 
 # Kalman Filter
 
-- [Zustandsbeobachter](../../Systemtheorie/Regelungstechnik/Zustandsbeobachter.md)
+- [Zustandsbeobachter](../../Systemtheorie/Zeitkontinuierlich/Zustandsbeobachter.md)
 
 - - -
 
@@ -27,7 +27,7 @@ Durch einen Zustandsbeobachter werden (falls möglich) die Eigenwerte der Matrix
 
 Ähnlich wie beim Zustandsreglerentwurf ist eine günstige Wahl der vorgegebenen Eigenwerte keinesfalls trivial - auch hier kann das Lösen einer Optimierungsaufgabe Abhilfe schaffen.
 
-Im Zeitkontinuierlichenfall wird folgendes [LTI-System](../../Systemtheorie/Kontinuierlicher%20LTI-Zustandsraum.md) als Steckenmodell betrachtet:
+Im Zeitkontinuierlichenfall wird folgendes [LTI-System](../../Systemtheorie/Zeitkontinuierlich/LTI-Zustandsraum.md) als Steckenmodell betrachtet:
 
 $$
 \begin{align}
