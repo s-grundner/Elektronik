@@ -1,21 +1,21 @@
 ---
-tags: 
+tags:
 aliases:
   - zeitdiskreter Frequenzgang
-keywords: 
+keywords:
 subject:
   - VL
   - Regelungstechnik
 semester: SS25
 created: 7th May 2025
-professor: 
-release: false
+professor:
+release: true
 title: Zeitdiskrete Übertragungsfunktion
 ---
 
 # Zeitdiskrete Übertragungsfunktion
 
-[Kontinuierliche Übertragungsfunktion](../Übertragungsfunktion.md) ***:LiRefreshCcw:***
+[Kontinuierliche Übertragungsfunktion](../Zeitkontinuierlich/Übertragungsfunktion.md) ***:LiRefreshCcw:***
 
 ---
 

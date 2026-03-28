@@ -17,3 +17,10 @@ Idempotent beschreibt eine Eigenschaft, bei der die mehrfache Anwendung einer Op
 > Wird der Reset ein zweites mal durchgeführt - also wenn sich das System schon im definierten Zustand befindet - passiert keine Änderung.
 
 
+## Idempotente Matrix
+
+Eine Matrix ist idempotent, wenn sie sich durch die Transformation mit sich selst **nicht Verändert**:
+
+$$
+\mathbf{A} = \mathbf{A}^{n} \quad\forall n \in \mathbb{N}
+$$

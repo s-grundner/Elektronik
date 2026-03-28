@@ -22,6 +22,11 @@ title: Diskrete Systeme
 ---
 
 #todo
+## Differenzengleichung
+
+## Übertragungsfunktion
+
+> [!question] [Übertragungsfunktion](Übertragungsfunktion.md)
 
 ## IIR vs. FIR
 

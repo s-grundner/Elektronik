@@ -55,7 +55,7 @@ Zur Regelung von Systemen sind folgenden Eigenschaften des Zustandsraumes von Be
 
 ## Frequenzbereichsmethoden
 
-Oft ist es wichtig, die [Übertragungsfunktion](Übertragungsfunktion.md) eines Systems zu kennen. Grundlegend zur Transformation in den Frequenzbereich ist im Allgeimenen die [Integraltransformation](Integraltransformation.md)
+Oft ist es wichtig, die [Übertragungsfunktion](Zeitkontinuierlich/Übertragungsfunktion.md) eines Systems zu kennen. Grundlegend zur Transformation in den Frequenzbereich ist im Allgeimenen die [Integraltransformation](Integraltransformation.md)
 
 Zusammenhänge zwischen verschieden Signal-Transformationen 
 

@@ -54,5 +54,5 @@ Man kann diese Dipole auch künstlich richten. Wenn man ein Magnetfeld durch ein
 
 # Tags
 
-[Polarisation](Polarisation.md)
+[Polarisation](../Elektrotechnik/Polarisation.md)
 [Elektrisches Dipolmoment – Wikipedia](https://de.wikipedia.org/wiki/Elektrisches_Dipolmoment)

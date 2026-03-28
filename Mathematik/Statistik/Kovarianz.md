@@ -73,13 +73,13 @@ Z_{1} \\ Z_{2} \\ \vdots \\ Z_{r}
 \mathbb{E}(Z_{r})
 \end{bmatrix} = \begin{bmatrix}
 \mu_{1} \\ \mu_{2} \\ \vdots \\ \mu_{r}
-\end{bmatrix} = \vec{\mu}
+\end{bmatrix} = \boldsymbol{\mu}
 $$
 
 Die Kovarianz einer Vektorwertigen Zufallsvariable ist
 
 $$
-\underbrace{ \operatorname{Cov(\mathbf{Z})} }_{ r \times r } = \mathbb{E} [ \underbrace{ (\mathbf{Z}- \mathbb{E}(\mathbf{Z})) }_{ r \times 1 }\cdot\underbrace{ (\mathbf{Z}-\mathbb{E}(\mathbf{Z}))^{T} }_{ 1 \times r }] =: \mathbf{C}
+\underbrace{ \operatorname{Cov(\mathbf{Z})} }_{ r \times r } = \mathbb{E} ( \underbrace{ (\mathbf{Z}- \mathbb{E}(\mathbf{Z})) }_{ r \times 1 }\cdot\underbrace{ (\mathbf{Z}-\mathbb{E}(\mathbf{Z}))^{T} }_{ 1 \times r }) =: \mathbf{C}
 $$
 
 Sind die Zufallsvariablen $Z_{1},Z_{2},\ldots,Z_{r}$ quadratisch integrierbar, nennt man die quadratischen [Matrizen](../Algebra/Matrix.md)

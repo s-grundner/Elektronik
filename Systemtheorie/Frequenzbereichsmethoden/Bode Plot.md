@@ -18,7 +18,7 @@ release: true
 
 # Bode Plot
 
-Im Bodediagramm wird der [Frequenzgang](Übertragungsfunktion.md) Logarithmisch auf ein Betrags und Phasenspektrum aufgeteilt
+Im Bodediagramm wird der [Frequenzgang](../Zeitkontinuierlich/Übertragungsfunktion.md) Logarithmisch auf ein Betrags und Phasenspektrum aufgeteilt
 
 $$
 G(s)=\frac{V}{s^{r}} \frac{p(s)}{q(s)} \quad \text { mit } \quad p(0)=q(0)=1, \quad r \in \mathbb{Z} 

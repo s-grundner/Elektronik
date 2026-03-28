@@ -49,5 +49,5 @@ Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, 
 
  > [!question] Filter Topologien bestimmen das Kriterium für die Kostenfunktion 
 > 
-> - Wiener Filter
-> - Least Squares Filter
+> - [Wiener Filter](Wiener%20Filter.md)
+> - [Least Square Filter](Least%20Square%20Filter.md)

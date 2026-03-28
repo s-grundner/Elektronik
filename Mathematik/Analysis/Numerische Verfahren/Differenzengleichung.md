@@ -18,7 +18,7 @@ def:
   - DZGL
 ---
  
-# Differenzengleichung (DZGL)
+# Lineare Differenzengleichung (DZGL)
 
 [Differenzialgleichungen](Differentialgleichungen/index.md) ***:LiArrowBigRightDash:***
 

@@ -22,7 +22,7 @@ professor:
 > - Verstärkung
 > - Phasenverschiebung
 
-Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemtheorie/Übertragungsfunktion.md) beschrieben.
+Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemtheorie/Zeitkontinuierlich/Übertragungsfunktion.md) beschrieben.
 
 ## Übertragungsfunktionen
 

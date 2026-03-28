@@ -15,11 +15,13 @@ title: Stochastische Prozesse
 
 Ein Stochastischer Prozess ist eine Sammlung von Zufallsvariablen welche durch **Zeit** indiziert sind.
 
-- Diskrete Zeit: $\{ X_{0},X_{1},X_{2},\ldots \}$
+- Diskrete Zeit: $\{ X_{n} \}_{n=0}^{N} = \{ X_{0},X_{1},X_{2},\ldots \}$
 - Kontinuierliche Zeit: $\{X_{t}\}_{t\geq 0}$
 
 ![invert_dark|500](../../_assets/Excalidraw/Stochastische%20Prozesse%202026-02-21%2002.04.25.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Stochastische%20Prozesse%202026-02-21%2002.04.25.excalidraw.md)%%
+
+(Dabei kann $N$ endlich oder unendlich sein)
 
 **Alternative Definition**
 

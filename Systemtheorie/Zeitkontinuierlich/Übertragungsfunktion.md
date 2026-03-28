@@ -12,13 +12,13 @@ semester: SS24
 created: 4. September 2023
 professor:
   - Andreas Springer
-release: false
+release: true
 title: Übertragungsfunktion
 ---
 
 # Übertragungsfunktion
 
-[Übertragungsfunktion](Zeitdiskret/Übertragungsfunktion.md) ***:LiRefreshCcw:***
+[Zeitdiskrete Übertragungsfunktion](Zeitdiskret/Übertragungsfunktion.md) ***:LiRefreshCcw:***
 
 ---
 
@@ -45,5 +45,3 @@ Darstellungsformen des Frequenzganges:
 
 - [Bode Plot](Frequenzbereichsmethoden/Bode%20Plot.md)
 - [Ortskurve](Ortskurve.md)
-
-# Quellen

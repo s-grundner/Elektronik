@@ -23,4 +23,17 @@ Beim LS-Filter gibt es die **Trainingsphase** und die **Operationsphase**.
 
 Trainingsphase:
 
-- $x[k]$ und  $y[k]$ sind verfügbar
+- Für jeden Eingangs $x[k]$ ist ein passender Ausgang  $y[k]$ verfügbar.
+- Die Filterkoeffizienten werden nach den [linearen Methode der kleinsten Quadrate (LLS)](../../Mathematik/Lineare%20Methode%20der%20kleinsten%20Quadrate.md) approximiert.
+- Der Filter stellt sich dann so ein, dass der Eingang über eine optimale lineare Funktion auf den Ausgang abbildet.
+
+## LLS in Vektorparameter Schreibweise
+
+
+Für ein Signal
+
+$$
+\mathbf{s} = \begin{pmatrix}
+s[0] \\ s[1] \\ \vdots \\ s[N-1]
+\end{pmatrix}
+$$

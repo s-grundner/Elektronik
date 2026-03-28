@@ -24,7 +24,7 @@ Die Polarisation einer EM-Welle ist dadurch definiert, wie der Vektor des E Feld
 
 Vorrausgesetzt sind **verlustlose** und rein **dielektrische** Materialien
 
-![invert_dark|500](../_assets/Pasted%20image%2020260212235107.png)
+![invert_dark|500](../../_assets/Pasted%20image%2020260212235107.png)
 
 - Parallelpolarisiert
 - Normalpolarisiert
@@ -123,8 +123,8 @@ $$
 
 Da es dafür $\tan ^{2}\theta_{i}<0$  jedoch keine reelle Lösung gibt, kann dieser Fall nicht eintreten.
 
-![invert_dark|500](../_assets/2026-02-13_01h41_49.png)
+![invert_dark|500](../../_assets/2026-02-13_01h41_49.png)
 
 ### Vergleich beider Polarisationen
 
-![invert_dark](../_assets/Pasted%20image%2020260213014532.png)
+![invert_dark](../../_assets/Pasted%20image%2020260213014532.png)

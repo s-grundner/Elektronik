@@ -19,7 +19,7 @@ professor:
 
 ---
 
-$H(j\omega)$ ist der [Frequenzgang](../Übertragungsfunktion.md) eines zeitkontinuierlichen LTI-System.
+$H(j\omega)$ ist der [Frequenzgang](Übertragungsfunktion.md) eines zeitkontinuierlichen LTI-System.
 
 > [!def] **D1 - GRLZ)** Gruppenlaufzeit ^GRLZ
 > $$\tau_{g} := - \frac{\mathrm{d}\operatorname{arg}H(j\omega)}{\mathrm{d}\omega}$$ 
