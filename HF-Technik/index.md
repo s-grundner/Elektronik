@@ -80,7 +80,7 @@ Gebiete
 - Medizinische Bildgebung
 ### Drahtlose Netzwerke
 
-> [!exmple]  WLAN-Router: WIFI-6, 5G 4x4 MIMO
+> [!example]  WLAN-Router: WIFI-6, 5G 4x4 MIMO
 > 
 > - Viele verscheidene teilbereiche: HF-Block für WLAN (oben links) und Bluetooth, Prozessor für Digitale Signalverarbeitung. 
 > - Theoretisch hunderte GBit/s möglich
@@ -118,6 +118,7 @@ Gebiete
 > [ImageRef](https://globalpos.com.au/pages/insights)
 >
 > Basiert auf HF-Prinzipien:
+> 
 > - Eine EM-Welle, die sich in einem Medium (Freiraum) Ausbreitet weist eine gewisse Geschwigkeit ($\sim$ Lichtgeschwindigkeit) auf.
 > - Die Satelliten senden Signale aus, welche eine gewisse Laufzeit zum empfänger aufweisen.
 > - Der Empfänger misst die unterschiedlichen Laufzeiten, die die Welle von **mehreren Satelliten** benötigt. Können genügend Satelliten erreicht werden, kann so die Position bestimmt werden.
