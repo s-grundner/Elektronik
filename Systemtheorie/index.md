@@ -21,6 +21,9 @@ professor:
 
 # Signale und Systeme
 
+- Signale ($x$, $y$) sind Träger von Information.
+- Systeme $\mathcal{T}$ bilden Signale am Eingang auf veränderte Signale am Ausgang ab.
+
 > [!def] **D1 - SYST)** Eingrößen-System ^SYST
 > 
 > $$
@@ -29,11 +32,11 @@ professor:
 
 ## Dynamische Systeme im Zeitbereich
 
-Anstelle einer statischen Transformation der Eingangs, wird hier das dynamische Verhalten des Zustands eines Systems berücksichtigt.
+Die dynamik von Systemen (also wie sich Signale mit beliebiger zeilicher änderung verhalten) lassen sich im Allgemeinen durch Differenzialgleichungen beschreiben.
 
 > [!important] Zentraler Begriff: **Zustandsraum** [(t)](Zeitkontinuierlich/Zustandsgrößen.md), [\[n\]](Zeitdiskret/Zustandsgrößen.md)
 
-Die Darstellung des Zustandsraumes erfolgt je nach System unterschiedlich:
+Die Darstellung des Zustandsraumes erfolgt je nach Art des Systems unterschiedlich.
 
 | **:LiAudioWaveform: Kontinuierliche Systeme**                                                            |                                                                               **Zeitdiskrete Systeme :LiBarChart2:** |
 | :------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------: |
