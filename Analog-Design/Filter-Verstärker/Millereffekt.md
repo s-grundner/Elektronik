@@ -19,7 +19,7 @@ release: false
 
 Der Miller-Effekt beschreibt die Effekt, das Kapazitäten die zwischen einen Ein- und Ausgang eines verstärkers geschalten sind einen großen Einfluss auf dessen Grenzfrequenz haben können. Das ist darauf zurückzuführen, dass sich die **Quer-Kapazität** $C_{M}$ durch zwei äquivalente Kapazitäten am Ein- und Ausgang ersetzen lässt. Diese Kapazitäten sind Parallel zu Ein-/Ausgang und ihre größe ist abhängig von der **Verstärkung** der Schaltung. Das führt zu zusätzlichen Eckfrequenzen.
 
-![invert_dark](assets/Pasted%20image%2020250211115450.png)
+![invert_dark](../../_assets/Pasted%20image%2020250211115450.png)
 
 ![invert_dark](assets/Pasted%20image%2020250211115504.png)
 
