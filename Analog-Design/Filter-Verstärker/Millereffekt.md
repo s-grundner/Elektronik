@@ -21,7 +21,7 @@ Der Miller-Effekt beschreibt die Effekt, das Kapazitäten die zwischen einen Ein
 
 ![invert_dark](../../_assets/Pasted%20image%2020250211115450.png)
 
-![invert_dark](assets/Pasted%20image%2020250211115504.png)
+![invert_dark](_assets/../../Pasted%20image%2020250211115504.png)
 
 ## Beim BJT
 

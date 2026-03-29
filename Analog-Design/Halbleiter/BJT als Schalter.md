@@ -2,7 +2,7 @@
 
 |                      NPN                      |                      PNP                      |
 | :-------------------------------------------: | :-------------------------------------------: |
-| ![invert_light\|330](assets/npn-schalter.png) | ![invert_light\|300](assets/pnp-schalter.png) |
+| ![invert_light\|330](../../_assets/npn-schalter.png) | ![invert_light\|300](../../_assets/pnp-schalter.png) |
 
 ---
 

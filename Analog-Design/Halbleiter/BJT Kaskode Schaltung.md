@@ -15,7 +15,7 @@ title: BJT Kaskode Schaltung
 
 Die Kaskode Schaltung ist eine Möglichkeit den Miller Effekt zu umgehen. In dieser Emitterschalting mit Kaskode wird die Eingangskapazität durch die Eingangskapazität des oberen Transistors geteilt. 
 
-![invert_dark](assets/Pasted%20image%2020250211120045.png)
+![invert_dark](../../_assets/Pasted%20image%2020250211120045.png)
 
 Die Schaltung ist also eine Kombination der Emitter und Basisschaltung und Verbindet deren Vorteile:
 - großer Eingangswiderstand der Emitterschaltung ($T_{1}$)

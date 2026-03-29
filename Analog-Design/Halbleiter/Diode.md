@@ -43,17 +43,17 @@ Die Strom-Spannungs-Beziehung einer Diode **im Durchlassbereich** ist durch die 
 
 ### Serien Schaltungen
 
-| Schaltung                                   | ![invert_dark\|1600](assets/Pasted%20image%2020241107144022.png) |
+| Schaltung                                   | ![invert_dark\|1600](../../_assets/Pasted%20image%2020241107144022.png) |
 | ------------------------------------------- | ---------------------------------------------------------------- |
-| Arbeitspunkt                                | ![invert_dark\|1600](assets/Pasted%20image%2020241107144157.png) |
-| Gesamtkennlinie: <br>*Horizontale Scherung* | ![invert_dark\|1600](assets/Pasted%20image%2020241107144325.png) |
+| Arbeitspunkt                                | ![invert_dark\|1600](../../_assets/Pasted%20image%2020241107144157.png) |
+| Gesamtkennlinie: <br>*Horizontale Scherung* | ![invert_dark\|1600](../../_assets/Pasted%20image%2020241107144325.png) |
 
 ### Parallelschaltungen
 
-| Schaltung                                 | ![invert_dark\|1200](assets/Pasted%20image%2020241107144523.png) |
+| Schaltung                                 | ![invert_dark\|1200](../../_assets/Pasted%20image%2020241107144523.png) |
 | ----------------------------------------- | ---------------------------------------------------------------- |
-| Arbeitspunkt                              | ![invert_dark\|1200](assets/Pasted%20image%2020241107144534.png) |
-| Gesamtkennlinie: <br>*Vertikale Scherung* | ![invert_dark\|1200](assets/Pasted%20image%2020241107144545.png) |
+| Arbeitspunkt                              | ![invert_dark\|1200](../../_assets/Pasted%20image%2020241107144534.png) |
+| Gesamtkennlinie: <br>*Vertikale Scherung* | ![invert_dark\|1200](../../_assets/Pasted%20image%2020241107144545.png) |
 
 ## Temperaturabhängigkeit
 

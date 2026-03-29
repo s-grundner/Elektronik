@@ -2,7 +2,7 @@
 
 |          NPN           |           PNP           |
 | :--------------------: | :---------------------: |
-| ![500](assets/NPN.png) |  ![500](assets/PNP.png) |
+| ![500](../../_assets/NPN.png) |  ![500](../../_assets/PNP.png) |
 
 $$
 \begin{align*}

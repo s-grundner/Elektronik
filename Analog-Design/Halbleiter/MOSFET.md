@@ -26,7 +26,7 @@ title: MOSFET
 
 ## Aufbau
 
-![invert_dark|800](assets/Pasted%20image%2020250520151725.png)
+![invert_dark|800](../../_assets/Pasted%20image%2020250520151725.png)
 
 
 > [!tldr] Unter dem Gate entsteht ein Leitender Kanal und stellt somit eine Verbindung zwischen Drain und Source her. 
@@ -67,7 +67,7 @@ beim **N-MOS**:
 
 Aus der Ausgangskennlinie des MOSFETs ist folgendes elektrisches verhalten abzuleiten:
 
-![invert_light](assets/ausgangskl_mosfet.png)
+![invert_light](../../_assets/ausgangskl_mosfet.png)
 
 - Im Sättigungsbereich (Flach): Transitor wirkt als **Spannungsgesteuerte Stromquelle**
 - Im Linearen Bereich: Transistor wirkt als **Spannungsgesteuerter Widerstand**
