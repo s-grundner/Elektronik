@@ -53,32 +53,44 @@ Wegen der kommutativität der [Faltung](Zeitdiskret/Faltungssumme.md), ist die R
 
 ---
 
-# Beispiele für ZD-LTI-Systeme
+## Beispiele für ZD-LTI-Systeme
 
 > [!example] Ideale Verzögerung ^BSP1
-> *Ausgangssignal:* $y[n] = x[n-n_{d}]$ mit $-\infty< n <\infty, n_{d} \in \mathbb{N}$
-> *Impulsantwort:* $h[n] = \delta[n-n_{d}]$
+> 
+> - *Ausgangssignal:* $y[n] = x[n-n_{d}]$ mit $-\infty< n <\infty, n_{d} \in \mathbb{N}$
+> - *Impulsantwort:* $h[n] = \delta[n-n_{d}]$
 > 
 > Durch Betrachtung von $h[n]$ folgt unmittelbar, dass es sich um ein kausales, BIBO stabiles LTI-System handelt.
 
+---
+
 > [!example] Summierer, Akkumulator oder diskreter Integrator ^BSP2
-> *Ausgangssignal:*
-> *Impulsantwort:*
+> 
+> - *Ausgangssignal:*
+> - *Impulsantwort:*
 > 
 > Durch Betrachtung von $h[n]$ folgt unmittelbar
 
-> [!example] Gleitende Mittelwert Bildung - [Moving Average](Signalverarbeitung/Moving%20Average.md) ^BSP3
+---
+
+> [!example] Gleitende Mittelwert Bildung - [Moving Average](../Signalverarbeitung/Moving%20Average.md) ^BSP3
+
+---
 
 > [!example] Vorwärts-Differenz-System ^BSP4
-> *Ausgangssignal:* $y[n] = x[n+1]-x[n]$
-> *Impulsantwort:* $h[n] = \delta[n+1]-\delta[n]$
+> 
+> - *Ausgangssignal:* $y[n] = x[n+1]-x[n]$
+> - *Impulsantwort:* $h[n] = \delta[n+1]-\delta[n]$
 > 
 > Dieses BIBO stabile LTI System ist nicht kausal, da der aktuelle Wert der Ausgangsfolge von einem zukünftigen Wert der Eingangsfolge abhängt. Startet das Eingangssignal beispielsweise bei $n=1$, so startet das Ausgangssignal bereits bei $n=0$
 > 
 
+---
+
 > [!example] Rückwärts-Differenz-System ^BSP5
-> *Ausgangssignal:* $y[n] = x[n]-x[n-1]$
-> *Impulsantwort:* $h[n] = \delta[n]-\delta[n-1]$
+> 
+> - *Ausgangssignal:* $y[n] = x[n]-x[n-1]$
+> - *Impulsantwort:* $h[n] = \delta[n]-\delta[n-1]$
 > 
 > Diese System ist wiederum kausal
 

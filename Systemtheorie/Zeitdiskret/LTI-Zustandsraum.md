@@ -16,7 +16,7 @@ title: Diskreter LTI-Zustandsraum
 
 > [!question] :LiArrowBigLeftDash: [LTI-Systeme](LTI-Systeme.md) |📍
 
-[LTI-Zustandsraum](Zeitkontinuierlich/LTI-Zustandsraum.md) ***:LiRefreshCcw:***
+[LTI-Zustandsraum](../Zeitkontinuierlich/LTI-Zustandsraum.md) ***:LiRefreshCcw:***
 
 ---
 
@@ -30,6 +30,7 @@ title: Diskreter LTI-Zustandsraum
 > $$
 > 
 > überführen. Die Matrizen $\mathbf{A}$,$\mathbf{B}$, $\mathbf{C}$ und $\mathbf{D}$ sind die Koeffizienten(matrizen) der **Zustandsraumdarstellung** 
+> 
 > $$
 > \begin{align}
 > &\mathbf{A} \text{ : Dynamikmatrix } (n\times n)
