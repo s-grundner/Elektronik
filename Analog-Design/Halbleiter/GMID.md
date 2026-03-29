@@ -31,7 +31,7 @@ Wieso ist $g_{\mathrm{m}} / I_{\mathrm{D}}$ ein Sinnvoller Parameter zur Dimensi
 - Damit ist das Maximieren von $g_{\mathrm{m}} / I_{\mathrm{D}}$ sinnvoll für die Dimensionierung.
 - Problem: $f_{\mathrm{T}}$ ist maximal für *geringes* $g_{\mathrm{m}} / I_{\mathrm{D}}$. Tradeoff zw. Geschwindigkeit und Leistungsaufnahme
 
-![invert_dark|500](../../../_assets/gmid-graph.png)
+![invert_dark|500](../../_assets/gmid-graph.png)
 
 ## Vorgehen
 
@@ -69,3 +69,5 @@ Regionen:
 ## Referenzen
 
 - [MOSFET Diode](MOSFET%20Diode.md)
+- [An open-source adaptive event-based ADC for bio-signal acquisition in 130nm CMOS / Submitted by Simon Dorrer, BSc](https://epub.jku.at/urn/urn:nbn:at:at-ubl:1-90281)
+- [Analog (Integrated) Circuit Design](https://iic-jku.github.io/analog-circuit-design/)
