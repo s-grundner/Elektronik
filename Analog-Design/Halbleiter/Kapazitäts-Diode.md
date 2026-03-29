@@ -29,7 +29,7 @@ Die Breite der RLZ ist eine Funktion der Spannung.
 
 Die RLZ (sperrschicht) stellt isolator an der Grenzfläche von $n$ nach $p$ her. Das elektrische Ausgleichsfeld verdrängt die Ladungsträger an diese Grenzflächen, und sie sammeln sich dort an.
 
-![invert_dark](../../xEDU/B3_WS24/Einführung%20Elektronik/assets/NOTES-5.jpg)
+![invert_dark](../../_assets/NOTES-5.jpg)
 
 - Mit steigender Spannung vergrößert sich die Breite der ladungsfreien Zone, damit nimmt die Kapazität ab.
 

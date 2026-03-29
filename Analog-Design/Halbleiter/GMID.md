@@ -60,7 +60,7 @@ Regionen:
 
 ## Charakterisierung in Triode Mode
 
-| ![invert_dark\|500](../../_assets/Pasted%20image%2020260226174030.png) | ![invert_dark\|500](../../../_assets/Pasted%20image%2020260226174048.png) |
+| ![invert_dark\|500](../../_assets/Pasted%20image%2020260226174030.png) | ![invert_dark\|500](../../_assets/Pasted%20image%2020260226174048.png) |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 |                                                                           |                                                                           |
 
