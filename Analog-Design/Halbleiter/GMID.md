@@ -54,17 +54,17 @@ Regionen:
 - $f_{\mathrm{T}} = f(V_{\mathrm{DS}})$
 - Strichlierte Linie: $f_{\mathrm{T, max}} / 10$ als sinnvolle Maximalfrequenz des Nutzsignals.
 
-![invert_dark|500](../../../_assets/Pasted%20image%2020260226170450.png)
+![invert_dark|500](../../_assets/Pasted%20image%2020260226170450.png)
 
 
 
 ## Charakterisierung in Triode Mode
 
-| ![invert_dark\|500](../../../_assets/Pasted%20image%2020260226174030.png) | ![invert_dark\|500](../../../_assets/Pasted%20image%2020260226174048.png) |
+| ![invert_dark\|500](../../_assets/Pasted%20image%2020260226174030.png) | ![invert_dark\|500](../../../_assets/Pasted%20image%2020260226174048.png) |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 |                                                                           |                                                                           |
 
-![invert_dark|400](../../../_assets/Pasted%20image%2020260226164741.png)
+![invert_dark|400](../../_assets/Pasted%20image%2020260226164741.png)
 
 ## Referenzen
 
