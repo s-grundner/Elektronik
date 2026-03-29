@@ -16,7 +16,7 @@ title: Lineare Systeme
 
 # Lineare Zeitvariante Systeme
 
-> [!question] :LiArrowBigLeftDash: [Dynamische Systeme](Zeitkontinuierlich/Dynamische%20Systeme.md) |📍| [LTI-Systeme](Zeitkontinuierlich/LTI-Systeme.md) :LiArrowBigRightDash:
+> [!question] :LiArrowBigLeftDash: [Dynamische Systeme](Dynamische%20Systeme.md) |📍| [LTI-Systeme](LTI-Systeme.md) :LiArrowBigRightDash:
 
 [Lineare Systeme](../Zeitdiskret/Lineare%20Systeme.md) :LiRefreshCcw:
 

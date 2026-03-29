@@ -18,7 +18,7 @@ professor:
 
 # LTI-Systeme
 
-> [!question] :LiArrowBigLeftDash: [Lineare Systeme](Lineare%20Systeme.md) |📍| [LTI-Zustandsraum](Zeitkontinuierlich/LTI-Zustandsraum.md) :LiArrowBigRightDash:
+> [!question] :LiArrowBigLeftDash: [Lineare Systeme](Lineare%20Systeme.md) |📍| [LTI-Zustandsraum](LTI-Zustandsraum.md) :LiArrowBigRightDash:
 
 [LTI-Systeme](../Zeitdiskret/LTI-Systeme.md) ***:LiRefreshCcw:***
 
