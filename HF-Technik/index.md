@@ -93,7 +93,7 @@ Gebiete
 
 ### Smartphones
 
-> [!exmple] iPhone 12
+> [!example] iPhone 12
 > 
 > - Smartphones kombinieren eine große anzahl an drahtlosen funktionen
 > 	- Mobilfunk, WLAN, Bluetooth, GPS, FM-Radio
@@ -108,7 +108,7 @@ Gebiete
 
 ### Navigation
 
-> [!exmple] GNSS - Global Navigation Satellite System
+> [!example] GNSS - Global Navigation Satellite System
 > 
 > - Ermittlung der Position und geschwindigkeit durch messung von Zeitverzögerung und Doppler-Verscheibungen.
 > - Verschiedene Nationen verfügen über deren Eigene SatNav Systeme:
