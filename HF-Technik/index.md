@@ -46,6 +46,7 @@ Unter der Telegrafengleichung können zwei Anwendungsbereiche gemeint sein:
 
 ![invert_dark](../_assets/Excalidraw/FeldVsLeitungstheorie.svg)
 %% [Edit in Excalidraw](../_assets/Excalidraw/FeldVsLeitungstheorie.md) %%
+
 ## Herausforderungen in der HF-Technik
 
 **Design Komplexität**
@@ -78,6 +79,7 @@ Gebiete
 - Radar Systeme
 - Satelliten Kommunikation
 - Medizinische Bildgebung
+
 ### Drahtlose Netzwerke
 
 > [!example]  WLAN-Router: WIFI-6, 5G 4x4 MIMO
