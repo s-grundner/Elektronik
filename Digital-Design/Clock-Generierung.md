@@ -14,8 +14,9 @@ title: Clock-Generierung
 
 Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektrische Schwingung mit konstanter Frequenz und Amplitude erzeugt.
 
-> [!NOTE] Blockschaltbild eines komplexen Taktsystems  
-> ![komplex-dto](../../_assets/komplex-dto.png)
+> [!note] Blockschaltbild eines komplexen Taktsystems  
+> 
+> ![komplex-dto](../_assets/komplex-dto.png)
 > 
 > [PGO](Pierce-Gate%20Oszillator.md) | [PLL](Phase%20Locked%20Loop.md) | [Discrete Time Oscillator](../../Digital-Design/Discrete%20Time%20Oscillator.md) | [Clock Divider](../../Digital-Design/Clock%20Divider.md) | [Clock Tree Balancing](../../Digital-Design/Clock%20Tree%20Balancing.md)
 
@@ -23,4 +24,4 @@ Ein Oszillator ist eine elektrische Schaltung, welche eine ungedämpfte, elektri
 
 # Tags
 
-[Clock_und_Reset_Generierung](../../_assets/pdf/Clock_und_Reset_Generierung.pdf)
+[Clock_und_Reset_Generierung](../_assets/pdf/Clock_und_Reset_Generierung.pdf)
