@@ -220,7 +220,7 @@ Hier wird der Schlüssel mit jedem Zeichen addiert. Überläufe können ignorier
 
 Die obigen Codes sind nach modernen Erkenntnissen statistisch trivial zu Brechen. Aus diesem Grund wird hier jedes Zeichen mit einem anderen Code verschlüsselt.
 
-![Kry_StromChiffre](assets/Kry_StromChiffre.png)
+![Kry_StromChiffre](../../../_assets/Kry_StromChiffre.png)
 
 Dafür wird ein Strom an Schlüsseln generiert. Für unser Beispiel soll dieser Strom mittels Zufallsgenerator erzeugt werden. Es hilft uns, dass der Zufallsgenerator immer die gleiche Zahlenfolge liefert, wenn mit einem gleichen Seed gestartet wird. Dadurch kann beim Entschlüsseln "zufällig" die gleiche Schlüsselfolge generiert werden. Wird der folgende Code ausgeführt, erhält *num* immer den gleichen Wert (auf dem gleichen System).
 
@@ -231,7 +231,7 @@ int num = rand() % 256;
 
 Mit den so erzeugten Schlüsseln wird das Zeichen mittels obiger *XorSubstitution* verschlüsselt.
 
-![Kry_StreamCipher](assets/Kry_StreamCipher_.png)
+![Kry_StreamCipher](../../../_assets/Kry_StreamCipher_.png)
 
 - Erstellen Sie die Klasse *StreamCipher* abgeleitet von der *XorSubstitution*-Klasse.
 
@@ -313,7 +313,7 @@ Um Daten zwischen 2 Kommunikationsteilnehmern sicher (verschlüsselt) austausche
 
 - Will Alice einen Liebesbrief P (Klartext) an Bob schicken, den kein Anderer lesen soll, so verschlüsselt sie ihn mit Bobs öffentlichem Schlüssel $p_B$. Nur Bob ist im Besitz des zugehörigen geheimen Schlüssels $s_B$ und kann damit Alices verschlüsselten Brief C (Chiffrat) entschlüsseln.
 
-![Kry_DHCipher](assets/Kry_DHCipher.png)
+![Kry_DHCipher](../../../_assets/Kry_DHCipher.png)
 
 - Asymmetrische Verfahren können auch verwendet werden, um damit über eine ungeschützte Verbindung einen geheimen symmetrischen Schlüssel zu vereinbaren, der dann zur Verschlüsselung einer vertraulichen Nachricht verwendet wird. Symmetrische Verfahren sind wesentlich schneller (vor allem wichtig bei größeren Datenmengen).
 
@@ -323,7 +323,7 @@ Um Daten zwischen 2 Kommunikationsteilnehmern sicher (verschlüsselt) austausche
 
 - Jeder Kommunikationsteilnehmer veröffentlicht seinen Public Key p bei einem Trustcenter. Dafür wird eine **geheime Zahl s** (Secret Key) gewählt ($s = [1, …, n-1]$) und berechnet den Public Key $p = g^s mod\ n$ und schickt diesen zur Veröffentlichung an das Trustcenter.  
 
-![Kry_DHCipher_02](assets/Kry_DHCipher_02.png)
+![Kry_DHCipher_02](../../../_assets/Kry_DHCipher_02.png)
 
 Beachten Sie:
 
@@ -537,7 +537,7 @@ d = 120 - 7 = 113
 
 Alternative: Tabellarischer Weg (Christian Spannagel):
 
-![Kry_Rsa_Euklid_01](assets/Kry_Rsa_Euklid_01.png)
+![Kry_Rsa_Euklid_01](../../../_assets/Kry_Rsa_Euklid_01.png)
 
 also e = -7: wir wollen eine positive Zahl, damit wir das Ergebnis (Rest) nicht verändern dürfen wir 120 dazuzählen: **e** = -7 + 120 = **113**
 
@@ -575,7 +575,7 @@ Rest: 1 = 19 - 3*6
 
 Alternative: Tabellarischer Weg (Christian Spannagel):
 
-![Kry_Rsa_Euklid_01](assets/Kry_Rsa_Euklid_02.png)
+![Kry_Rsa_Euklid_01](../../../_assets/Kry_Rsa_Euklid_02.png)
 
 also **d** = **19**
 
@@ -619,7 +619,7 @@ Rest: 1 = 3 - 1*2
 
 Alternative: Tabellarischer Weg (Christian Spannagel):
 
-![Kry_Rsa_Euklid_01](assets/Kry_Rsa_Euklid_03.png)
+![Kry_Rsa_Euklid_01](../../../_assets/Kry_Rsa_Euklid_03.png)
 
 also **d** = 120-73 = **47**
 
@@ -1488,7 +1488,7 @@ openssl.exe enc -aes-256-cbc -pass pass:"pw" -in Tux_origBody.ppm -out Tux_encBo
 
 (Diese Prozedur ist allgemein bekannt: <https://www.youtube.com/watch?v=k8zJh1tAcok,> <https://en.wikipedia.org/wiki/File:Tux.jpg,> <https://en.wikipedia.org/wiki/File:Tux_ecb.jpg)>
 
-![Kry_Tux](assets/Kry_Tux_.png)
+![Kry_Tux](../../../_assets/Kry_Tux_.png)
 
 Beim Zusammenfügen des Headerund Body-Teils muss ein Editor verwendet werden der wirklich sämtliche Zeichen korrekt mitkopiert. Alternativ via Kommandozeile (hier Windows):
 
