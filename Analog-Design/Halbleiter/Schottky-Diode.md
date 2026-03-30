@@ -21,7 +21,7 @@ Statt zwei unterschiedlich dotierten Halbleitern wird ein **Metall** mit **n-** 
 > - **Höchstfrequenzdetektor:** Speicherzeiten entfallen fast komplett, da nur ein Typ von Ladungsträgern in der Raumladungszone vorhanden ist.
 > - **Antisättigungsdiode** *(Baker-Clamp):* pn-Diode parallel zur Schottky-Diode verhindert eine Übersättigung der pn-Diode.
 
-![invert_dark](../../xEDU/B3_WS24/Einführung%20Elektronik/assets/NOTES-6.jpg)
+![invert_dark](../../_assets/NOTES-6.jpg)
 
 - Vorteile: Kleinere Vorwärtsspannung
 - Nachteile: Der Sperrstrom ist höher

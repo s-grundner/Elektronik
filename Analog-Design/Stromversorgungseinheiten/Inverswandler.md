@@ -15,7 +15,7 @@ created: 26th September 2022
 
 ## Schaltbild
 
-![invert_dark|700](assets/Pasted%20image%2020250511114554.png)
+![invert_dark|700](../../_assets/Pasted%20image%2020250511114554.png)
 
 Der [Transistor](../Halbleiter/Transistor.md) arbeitet als Schalter ($S$) der mittels PWM ($U_{st}$) angesteuert wird. Dabei wird eine $U_{a}$ mit umgekehrtem Vorzeichen zur Eingangsspannung erzeugt.
 

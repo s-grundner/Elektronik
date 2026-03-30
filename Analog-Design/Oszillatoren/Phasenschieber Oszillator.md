@@ -28,7 +28,7 @@ created: 7th November 2022
 
 ## Schaltung
 
-![925](assets/Pasted%20image%2020230124215050.png)
+![925](../../_assets/Pasted%20image%2020230124215050.png)
 
 ## Herleitung
 

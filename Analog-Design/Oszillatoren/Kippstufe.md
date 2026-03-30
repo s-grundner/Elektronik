@@ -34,7 +34,7 @@ release: false
 
 BJT werden abwechselnd in den Sättigungsbereich gebracht ([BJT als Schalter](../Halbleiter/BJT%20als%20Schalter.md)).
 
-![invert_dark](assets/BJT-Kippstufe.png)
+![invert_dark](../../_assets/BJT-Kippstufe.png)
 
 $$
 \begin{align}
@@ -54,6 +54,7 @@ Die Frequenz wird von durch folgende Parameter beeinflusst:
 Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile Kippstufe
 
 > [!hint] Schaltung  
+> 
 > ![300](../../_assets/ST-Kippschalter.png)
 
 | Formeln      |     |
@@ -69,16 +70,20 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 | Ladedauer $t_L$ | $u_{c}(t)=U_{0}\cdot(1-e^{-\tfrac{t}{\uptau}})$ |
 | Entladedauer $t_E$ | $u_{c}(t)=U_{0}\cdot e^{-\tfrac{t}{\uptau}}$ |
 
-> [!SUMMARY] Entladen
+> [!summary] Entladen
+> 
 > ![herl_te](../../_assets/herl_te.png)
 
-> [!SUMMARY] Laden
+> [!summary] Laden
+> 
 > ![Herl_tl](../../_assets/Herl_tl.png)
 
-> [!SUMMARY] $T$ berechnen
+> [!summary] $T$ berechnen
+> 
 > ![herl_T|550](../../_assets/herl_T.png)
 
-> [!EXAMPLE] Dimensionierung "Invertierenden [Schmitt Trigger](../Schmitt%20Trigger.md)" als Taktgenerator
+> [!example] Dimensionierung "Invertierenden [Schmitt Trigger](../Schmitt%20Trigger.md)" als Taktgenerator
+> 
 > $$
 > \begin{align*}
 > &U_{a,min}=0V=U_{B}^{-} && U_{T}^{-}=2V && f =1kHz&&|&&\text{gesucht}\\
@@ -86,7 +91,6 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > \\
 > \end{align*}
 > $$
+> 
 > ![invST-calc1](../../_assets/invST-calc1.png)
 > $U_{V}$ ist der Offset vom mittelpunkt der Hysterese bei unsymmetrischer $U_{T}^{+}, U_{T}^{-}$
-
-# Tags

@@ -17,7 +17,7 @@ created: 7th November 2022
 
 ## Schaltung
 
-![1000](assets/WB.png)
+![1000](../../_assets/WB.png)
 
 > [!summary]  
 > Resonanzfrequenz: $\omega_{0}=\dfrac{1}{RC}$  

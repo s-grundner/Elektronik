@@ -57,7 +57,7 @@ Z_{g} &=\frac{1+s^{2}L_{1}C_{1}}{s(C_{0}+C_{1})+s^{2}C_{0}C_{1}L_{1}} = \frac{Z(
 
 Reale Wellenform des Schwingquartz
 
-| ![](assets/WAVXTAL1.png) | ![](assets/WAVXTAL2.png) |     |
+| ![](../../_assets/WAVXTAL1.png) | ![](../../_assets/WAVXTAL2.png) |     |
 | ------------------------ | ------------------------ | --- |
 |                          |                          |     |
 

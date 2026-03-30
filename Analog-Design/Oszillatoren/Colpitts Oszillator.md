@@ -20,21 +20,23 @@ release: false
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
 | Colpitts: [kapazitiv](../../Elektrotechnik/Kapazität.md) | Hartley: [induktiv](../../Elektrotechnik/Induktivität.md) | Meissner: transformatorisch                              |
-| -------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
-| ![invert_dark\|300](assets/ColpittsKapazitiv.svg)        | ![invert_dark\|300](assets/HartleyInduktiv.svg)             | ![invert_dark\|200](assets/meissnerTransfomatorisch.svg) |
+| ----------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+| ![invert_dark\|300](../../_assets/ColpittsKapazitiv.svg)        | ![invert_dark\|300](../../_assets/HartleyInduktiv.svg)             | ![invert_dark\|200](../../_assets/meissnerTransfomatorisch.svg) |
 
 Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
+
 - einfache [Kapazitäten](../../Elektrotechnik/Kapazität.md)
 - nur eine [Induktivität](../../Elektrotechnik/Induktivität.md)  
 Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 
-$$V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n$$
+$$
+V_{ges}=1 \qquad \varphi = k\cdot2\pi \qquad k=0\dots n
+$$
 
 ## Schaltung
 
 Ob die Schaltung als Kollektor, Basis oder Emitter schaltung bezeichnet wird, ist davon abhängig wo Ein- und Ausgang definiert ist.
-
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}
@@ -90,5 +92,5 @@ Entspricht einer $\pi$ Schaltung mit C-L-C:
 
 Ein Teil der [Schwingkreis](../../Physik/Kinematik/Schwingkreise.md) Spannung muss phasenrichtig rückgekoppelt werden.
 
-![500](../../_assets/ColpittsCalc.png)  
+![500](../../_assets/ColpittsCalc.png)
 ![Pasted image 20221128104421](../../_assets/ColpittsCalc2.png)
