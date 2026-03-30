@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
 aliases:
   - CZ
   - Zündwilligkeit
   - OZ
   - ROZ
-created: 10. März 2024
+created: 9th December 2025
+title: Oktanzahl
+release: false
 ---
 
 # Oktanzahl OZ

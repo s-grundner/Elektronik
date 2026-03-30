@@ -4,6 +4,7 @@ aliases: []
 subject:
   - hwe
 created: 27th March 2023
+title: Impedanzkopplung
 ---
 
 # [Impedanz](../Elektrotechnik/Impedanz.md) Kopplung

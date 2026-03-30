@@ -7,10 +7,13 @@ aliases:
   - Periodensystem
 subject:
   - chemie
-created: 20th August 2022
+created: 15th January 2026
+title: Periodensystem der Elemente
+release: false
 ---
 
-# Periodensystem Der Elemente (PSE)
+# Perio
+densystem Der Elemente (PSE)
 
 Das PSE ist eine Tabelle, in der die Symbole aller bekannten Elemente nach der Anzahl der Protonen geordnet sind.  
 ![PSE](../_assets/PSE.png)

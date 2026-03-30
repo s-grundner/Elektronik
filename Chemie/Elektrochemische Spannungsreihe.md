@@ -3,13 +3,18 @@ tags: []
 aliases: []
 subject:
   - chemie
-created: 12th September 2022
+created: 15th January 2026
+title: Elektrochemische Spannungsreihe
+release: false
 ---
 
-# Elektrochemische [Spannungs](../Elektrotechnik/elektrische%20Spannung.md)reihe
+# Elektrochemische Spannungsreihe
 
-Ordnet man [Redoxpaare](Oxidation%20und%20Reduktion.md) (z.B.: $Zn_{(RED)}|Zn^{2+}_{(OX)}$) nach ihren Standardpotentialen E° beginnend mit der niedrigsten, so erhält man die Spannungsreihe  
-![800](../_assets/redoxpaare.png)
+> [!question] [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md)
+
+Ordnet man [Redoxpaare](Oxidation%20und%20Reduktion.md) (z.B.: $Zn_{(RED)}|Zn^{2+}_{(OX)}$) nach ihren Standardpotentialen E° beginnend mit der niedrigsten, so erhält man die Spannungsreihe
+
+![invert_dark|800](../_assets/redoxpaare.png)
 
 ## Was Lässt Sich Aus Tabelle Ableiten?
 

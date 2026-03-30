@@ -1,3 +1,12 @@
+---
+tags:
+aliases:
+created: 15th January 2026
+title: Atomradius
+release: false
+---
+
+
 # Atomradius
 
 ![#invert_light|200](../_assets/x-ab_y-zu.png)

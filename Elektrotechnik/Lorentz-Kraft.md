@@ -34,4 +34,4 @@ professor:
 > [!info] Lorentz-Kraft
 > Die [Laplace Kraft](Laplace-Kraft.md) ist nur die Kraft welche aus der Bewegung der [Ladungen](elektrische%20Ladung.md) folgt.
 > Wie wir wissen erzeugen Ladungsträger unabhängig von ihrem kinematischen Zustand ein [elektrisches Feld](elektrisches%20Feld.md) welches eine Kraft auf andere Ladungsträger Verursacht.
-> Diese Kraft [überlagert](../Dictionary/Superpositionsprinzip.md) sich mit der [Laplace Kraft](Laplace-Kraft.md) und wird als Lorentz Kraft bezeichnet.
+> Diese Kraft [überlagert](../Dictionary/Superposition.md) sich mit der [Laplace Kraft](Laplace-Kraft.md) und wird als Lorentz Kraft bezeichnet.

@@ -1,7 +1,10 @@
 ---
 tags: []
-aliases: ["ESD", "Elektrostatische Entladung"]
+aliases:
+  - ESD
+  - Elektrostatische Entladung
 created: 17th August 2023
+title: Elektrostatische Entladung
 ---
 
 # Elektrostatische Entladung

@@ -3,8 +3,9 @@ tags:
   - Chemie/Anorganisch
 aliases: []
 subject:
-  - chemie
-created: 20th August 2022
+created: 15th January 2026
+title: Chemische Bindungen
+release: false
 ---
 
 # Chemische Bindungen

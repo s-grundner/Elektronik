@@ -9,8 +9,11 @@ aliases:
   - Schalen
 subject:
   - chemie
-created: 19th August 2022
+created: 15th January 2026
+title: Orbitalmodell
+release: false
 ---
+
 
 # Orbitalmodell
 

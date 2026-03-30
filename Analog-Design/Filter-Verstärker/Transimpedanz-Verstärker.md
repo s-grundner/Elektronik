@@ -11,6 +11,7 @@ semester: WS24
 created: 29. Januar 2025
 professor:
 release: false
+title: Transimpedanz-Verstärker
 ---
  
 
@@ -20,4 +21,4 @@ $$
 U_{A} = -R \cdot I_{E}
 $$
 
-![invert_dark](../_assets/Pasted%20image%2020250129225306.png)
+![invert_dark](../../_assets/Pasted%20image%2020250129225306.png)

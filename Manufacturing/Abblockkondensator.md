@@ -1,9 +1,10 @@
 ---
-tags: 
+tags:
 aliases:
   - Entkopplungskondensator
   - decoupling
 created: 19th August 2023
+title: Abblockkondensator
 ---
 
 # Abblockkondensator
@@ -26,4 +27,4 @@ Für die HF-Störung: [Kapazität](../Elektrotechnik/Kapazität.md) ist ein Kurz
 
 # Tags
 
-[EMV](Elektromagnetische%20Verträglichkeit.md)
+[EMV](../Manufacturing/Elektromagnetische%20Verträglichkeit.md)

@@ -1,3 +1,6 @@
+---
+title: BJT als Schalter
+---
 # Bipolartransistor als Schalter
 
 |                      NPN                      |                      PNP                      |

@@ -12,6 +12,7 @@ created: 23. September 2023
 professor:
   - Christian Diskus
 release: false
+title: Subtrahierer
 ---
  
 

@@ -11,6 +11,7 @@ semester: WS24
 created: 18. November 2024
 professor:
 release: false
+title: Kleinsignalverhalten
 ---
  
 

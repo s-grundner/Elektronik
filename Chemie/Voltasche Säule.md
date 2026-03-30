@@ -1,9 +1,12 @@
 ---
 tags:
   - Chemie/Elektrochemie/Primärelement
-aliases: 
-created: 2. März 2024
+aliases:
+created: 15th January 2026
+title: Voltasche Säule
+release: false
 ---
+
 
 # Voltasche Säule
 

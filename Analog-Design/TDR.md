@@ -1,10 +1,11 @@
 ---
-tags: 
+tags:
 aliases:
   - NTC
   - PTC
   - Thermoresistiv
-keywords: 
+  - Temperaturabhängiger Widerstand
+keywords:
 subject:
   - UE
   - Einführung Elektrotechnik
@@ -12,6 +13,7 @@ semester: WS23
 created: 28. Januar 2024
 professor:
   - Rafael Ecker
+title: Temperaturabhängiger Widerstand
 ---
  
 

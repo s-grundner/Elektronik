@@ -5,8 +5,8 @@ tags:
 aliases:
   - DTO
 subject:
-  - hwe
 created: 30th January 2023
+title: Discrete Time Oscillator
 ---
 
 # Discrete Time Oscillator

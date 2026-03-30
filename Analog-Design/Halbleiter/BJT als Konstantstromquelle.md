@@ -1,3 +1,6 @@
+---
+title: BJT als Konstantstromquelle
+---
 ## Bipolartransistor als Konstantstromquelle
 
 |          NPN           |           PNP           |

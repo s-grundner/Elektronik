@@ -13,6 +13,7 @@ semester: WS24
 created: 7. Januar 2025
 professor:
 release: false
+title: BJT-Differenzverstärker
 ---
  
 
@@ -67,7 +68,7 @@ Ein Differenzverstärker ist ein Verstärker, der die Differenz zweier Eingangss
 ## Betriebsparameter
 
 > [!question] Charakteristische Größen für den Differenzverstärker
-> - [Betriebsparameter von Verstärkern](../Betriebsparameter.md)
+> - [Betriebsparameter von Verstärkern](../Filter-Verstärker/Betriebsparameter.md)
 > - [Gleich und Gegentaktgrößen](../Filter-Verstärker/Gleich%20und%20Gegentaktgrößen.md)
 > 
 

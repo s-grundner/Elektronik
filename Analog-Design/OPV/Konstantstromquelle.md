@@ -12,6 +12,7 @@ semester: WS24
 created: 23. September 2023
 professor:
 release: false
+title: Konstantstromquelle
 ---
  
 

@@ -1,4 +1,12 @@
-# 3.2 Metallcharakter
+---
+tags:
+aliases:
+created: 15th January 2026
+title: Metallcharakter
+release: false
+---
+
+# Metallcharakter
 
 ![200](../_assets/x-ab_y-zu.png)
 

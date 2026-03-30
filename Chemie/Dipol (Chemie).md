@@ -4,8 +4,11 @@ tags:
 aliases:
   - Dipolmoment
   - Dipolmoments
-created: 15. November 2023
+created: 27th March 2026
+title: Dipol (Chemie)
+release: false
 ---
+
 
 # Dipol
 
@@ -50,9 +53,7 @@ Sind alle Magnetischen Dipole im Material in die Selbe Richtung gerichtet, hat m
 
 Man kann diese Dipole auch künstlich richten. Wenn man ein Magnetfeld durch einen Leiter Legt, richten sich die Dipole. Das Material wird mit hysteresem Verlauf Magnetisiert. Funktioniert nur mit Ferromagnetischen Materialien (Fe, [Ni](../Physik/Materialkunde/Nickel.md), Co).
 
----
-
-# Tags
+## Referenzen
 
 [Polarisation](../Elektrotechnik/Polarisation.md)
 [Elektrisches Dipolmoment – Wikipedia](https://de.wikipedia.org/wiki/Elektrisches_Dipolmoment)

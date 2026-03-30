@@ -15,6 +15,7 @@ semester: WS24
 created: 13. Dezember 2024
 professor:
 release: false
+title: Integrator
 ---
  
 
@@ -88,4 +89,4 @@ Hauptanwendung solcher Filter ist die Realisierung von Bandpässen mit sehr hohe
 
 > [!info] Realisierungen von Integratorfiltern
 > [Biquad](Biquad%20Filter%20Topologie.md)-Filter
-> [State-Variable](State-Variable%20Topologie.md)-Filter
+> [State-Variable](../Filter-Verstärker/State-Variable%20Topologie.md)-Filter

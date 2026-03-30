@@ -1,13 +1,14 @@
 ---
-tags: 
+tags:
 aliases: []
-keywords: 
+keywords:
 subject:
   - ETT Praktikum
   - "382.050"
 semester: 1
 created: 6. Oktober 2023
 professor:
+title: Protokollverfassung
 ---
  
 
@@ -42,3 +43,8 @@ professor:
 > [!SUMMARY] Genauigkeit der Messergebnisse 
 > - Messgrößen auf signifikante Stellen runden und bekannte Fehler angeben
 > - Keine größere Genauigkeit vortäuschen
+
+## TODO
+
+- Latex Templates
+- Online zur verfügung?

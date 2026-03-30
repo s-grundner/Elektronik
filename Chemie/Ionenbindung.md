@@ -9,9 +9,11 @@ aliases:
   - Anionen
   - Kationen
 subject:
-  - chemie
-created: 22nd August 2022
+created: 15th January 2026
+title: Ionenbindung
+release: false
 ---
+
 
 # Ionenbindung
 

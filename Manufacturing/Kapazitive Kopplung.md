@@ -1,8 +1,8 @@
 ---
 tags:
   - EMV
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - EMV und SI
@@ -10,6 +10,7 @@ semester: WS24
 created: 4. September 2023
 professor:
   - Timm Ostermann
+title: Kapazitive Kopplung
 ---
  
 

@@ -12,6 +12,7 @@ semester: WS24
 created: 4. September 2023
 professor:
 release: false
+title: Colpitts Oszillator
 ---
 
 

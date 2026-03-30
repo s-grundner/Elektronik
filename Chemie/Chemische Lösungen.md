@@ -3,8 +3,9 @@ tags:
   - Chemie/Anorganisch
 aliases:
 subject:
-  - chemie
-created: 23rd August 2022
+created: 9th December 2025
+title: Chemische Lösungen
+release: false
 ---
 
 # Lösungen
@@ -22,8 +23,3 @@ Die meisten Stoffe sind in einem LM nur begrenzt löslich.
 **Löslichkeit:** wie viele **$g$** von **$100g$** LM gelöst werden können.  
 **Gesättigte Lösung**  
 **Ungesättigte Lösung**
-
-
----
-
-# Tags

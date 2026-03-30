@@ -13,13 +13,14 @@ subject:
 semester: WS25
 created: 5th November 2025
 professor:
+title: Gleich- und Gegentaktgrößen
 ---
 
 # Gleich und Gegentaktgrößen
 
 Die Güte eines Differenzverstärkers ist oft dadurch gegeben, in welchem Verhältnis die Gleich und Gegentakt anteile stehen. 
 
-- [Realer OPV](../Reale%20Eigenschaften%20von%20OPVs.md)
+- [Realer OPV](../OPV/Realer%20OPV.md)
 - [BJT-Differenzverstärker](../Halbleiter/BJT-Differenzverstärker.md)
 - [MOSFET Differenzverstärker](../Halbleiter/MOSFET%20Differenzverstärker.md)
 

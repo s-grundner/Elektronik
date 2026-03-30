@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Elektrotechnik
   - VL
@@ -10,6 +10,7 @@ semester:
 created: 24th January 2024
 professor:
   - Andreas Springer
+title: Dreiphasensysteme
 ---
  
 

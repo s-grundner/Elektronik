@@ -9,7 +9,9 @@ aliases:
   - Valenzband
 subject:
   - chemie
-created: 20th August 2022
+created: 15th January 2026
+title: Valenzelektronen
+release: false
 ---
 
 # Valenzelektronen

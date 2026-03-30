@@ -5,6 +5,7 @@ aliases:
 subject:
   - hwe
 created: 29th November 2022
+title: Güte
 ---
 
 # Güte

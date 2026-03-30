@@ -3,8 +3,11 @@ tags: []
 aliases: []
 subject:
   - physik
-created: 7th September 2022
+created: 9th December 2025
+title: Kernfusion
+release: false
 ---
+
 
 # Kernfusion
 

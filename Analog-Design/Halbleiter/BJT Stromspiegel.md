@@ -11,6 +11,7 @@ subject:
 semester: WS24
 professor:
 release: false
+title: MOSFET Stromspiegel
 ---
  
 

@@ -9,7 +9,9 @@ aliases:
   - Akkumulatoren
 subject:
   - chemie
-created: 21st August 2022
+created: 9th December 2025
+title: Sekundärelement
+release: false
 ---
 
 # Sekundärelemente (Akkumulatoren)

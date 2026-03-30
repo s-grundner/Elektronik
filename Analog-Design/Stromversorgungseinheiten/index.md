@@ -41,7 +41,7 @@ TABLE WITHOUT ID file.link AS "🗺️Map of Content - SMPS" FROM #Baugruppe/Ver
 
 > [!error] Nachteile
 > - Aufwändige Schaltung
-> - [EMV](../Elektromagnetische%20Verträglichkeit.md)-Störungen
+> - [EMV](../../Manufacturing/Elektromagnetische%20Verträglichkeit.md)-Störungen
 > - Restwelligkeit
 
 ## Einteilung der SMPSs

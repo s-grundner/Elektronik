@@ -1,0 +1,27 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - title.isEmpty()
+        - '!file.path.startsWith("_assets")'
+        - file.ext == "md"
+        - '!file.path.startsWith("xEDU")'
+        - '!file.path.startsWith("xDailyNotes")'
+        - '!file.path.startsWith("01-Templates")'
+        - '!file.path.startsWith("02-Tools")'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.basename
+      - title
+      - tags
+    sort:
+      - property: tags
+        direction: DESC
+    columnSize:
+      file.name: 451
+      file.basename: 228
+      note.title: 163

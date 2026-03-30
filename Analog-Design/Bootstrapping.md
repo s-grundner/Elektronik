@@ -1,7 +1,8 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 created: 7. Februar 2025
+title: Bootstrapping
 ---
 
 # Boostrapping bei Spannungsverstärkern

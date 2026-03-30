@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Technische Informatik
   - KV
@@ -9,14 +9,15 @@ semester: WS23
 created: 10. Oktober 2023
 professor:
   - Timm Ostermann
+title: CMOS
 ---
  
 
 # CMOS
 
-![](../_assets/CMOS_NOR_NAND.png)
+![](../../_assets/CMOS_NOR_NAND.png)
 
-![](../_assets/CMOS.png)
+![](../../_assets/CMOS.png)
 
 > [!SUCCESS] PMOS: macht die 1
 

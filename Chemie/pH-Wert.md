@@ -5,10 +5,13 @@ tags:
 aliases: []
 subject:
   - chemie
-created: 27th August 2022
+created: 15th January 2026
+title: pH-Wert
+release: false
 ---
 
 # pH-Wert
+
 
 Auch für Wasser kann man eine Säurekonstante bestimmen, da in wässriger Lösung die Autoprotolyse des Wassers stattfindet.  
 **Autoprotolyse des Wassers:**

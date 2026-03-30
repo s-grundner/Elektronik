@@ -8,6 +8,7 @@ aliases:
   - DFM
   - Design for Manufacturability
 created: 19th August 2023
+title: PCB-Layouting
 ---
 
 # PCB-Layout
@@ -22,7 +23,7 @@ created: 19th August 2023
 
 ## [Schirmung](Schirmung.md) Von Leiterbahnen
 
-## Maßnahmen Zur Elektromagnetischen Verträglichkeit ([EMV](Elektromagnetische%20Verträglichkeit.md#Komponenten%20und%20Konzepte%20zur%20Verbesserung))
+## Maßnahmen Zur Elektromagnetischen Verträglichkeit ([EMV](../Manufacturing/Elektromagnetische%20Verträglichkeit.md#Komponenten%20und%20Konzepte%20zur%20Verbesserung))
 
 ### Stack-Up
 
@@ -60,7 +61,7 @@ created: 19th August 2023
 # Referenzen
 
 - [Altium Edu Courses](https://education.altium.com/courses)
-- Produkt [Zertifizieren](Certification.md)
+- Produkt [Zertifizieren](../Manufacturing/Certification.md)
 - [HDI](High%20Density%20Interconnect.md)
 
 ![EM Field and High-Speed Routing Principles - Mike Creeden](https://www.youtube.com/watch?v=3Is7bra3tsc)

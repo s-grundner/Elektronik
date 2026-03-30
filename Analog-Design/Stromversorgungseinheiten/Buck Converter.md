@@ -129,7 +129,7 @@ Zu Beachten:
 | Groß     | [Kapazität](../../Elektrotechnik/Kapazität.md)      | Spule                  | Frequenz                |
 | -------- | ----------------- | ---------------------- | ----------------------- |
 | Vorteil  | Stärkere Glättung | kleines $\Delta I_{L}$ | Spule kann kleiner sein |
-| Nachteil |                   | großes Package         | größere [EMV](../Elektromagnetische%20Verträglichkeit.md)            |
+| Nachteil |                   | großes Package         | größere [EMV](../../Manufacturing/Elektromagnetische%20Verträglichkeit.md)            |
 
 ### Mindest Spulenwert
 

@@ -5,6 +5,7 @@ aliases:
 subject:
   - hwe
 created: 14th November 2022
+title: Kettenmatrix
 ---
 
 # Kettenmatrix

@@ -5,6 +5,7 @@ aliases:
 subject:
   - hwe
 created: 7th March 2023
+title: Magnetische Kopplung
 ---
 
 # Magnetische Kopplung

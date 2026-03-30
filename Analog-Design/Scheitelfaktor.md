@@ -11,6 +11,7 @@ subject:
 created: 18. Januar 2024
 professor:
 semester: WS23
+title: Scheitelfaktor
 ---
  
 

@@ -9,9 +9,11 @@ aliases:
   - Universelle Gasgleichung
   - Gasgleichung
 subject:
-  - physik
-created: 18th August 2022
+created: 9th December 2025
+title: Allgemeines Gasgesetz
+release: false
 ---
+
                                                                  
 # Allgemeines Gasgesetz
 

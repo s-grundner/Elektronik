@@ -11,6 +11,7 @@ semester: WS24
 created: 12. Dezember 2024
 professor:
 release: false
+title: Aktiver Filter
 ---
  
 # Aktiver Filter
@@ -19,7 +20,7 @@ release: false
 
 Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](../OPV/index.md)) und haben die eigenschaft den eingang nicht zu Belasten. D.h. eine hochohmige Eingangsimpedanz und eine niederohmige Ausgangsimpedanz. (Impedanzwandlung)
 
-> [!success] Vorteil gegenüber [Passiven Filtern](../Passiver%20Filter.md):
+> [!success] Vorteil gegenüber [Passiven Filtern](Passiver%20Filter.md):
 > - Neben Filterfunktion kann auch eine Verstärkung im Durchlassbereich eingestellt werden 
 > - Beliebeige Filtercharakteristik kann realisiert werden
 > - Kaskadierung mehrerer Filter rückwirkungsfrei möglich
@@ -41,8 +42,8 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](..
     - Abnahme mit $n \cdot 20 \mathrm{~dB} /$ Dekade (mit $n$ der Ordnungszahl) nach der Grenzfrequenz.
 2. **Bessel-Filter**
 3. **[Butterworth](Butterworth%20Filter%20Charakteristik.md)**
-4. **[Tscheybyscheff Typ 1](../Tscheybyscheff%20Filter%20Charakteristik.md#Typ%201) Filter**
-5. **[Tscheybyscheff Typ 2](../Tscheybyscheff%20Filter%20Charakteristik.md#Typ%202) Filter**
+4. **[Tscheybyscheff Typ 1](Tscheybyscheff%20Filter%20Charakteristik.md#Typ%201) Filter**
+5. **[Tscheybyscheff Typ 2](Tscheybyscheff%20Filter%20Charakteristik.md#Typ%202) Filter**
 6. **Cauer (Elliptischer)-Filter**
 
 | ![invert_dark\|900](../../_assets/Pasted%20image%2020241212005303.png) |
@@ -60,8 +61,6 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](..
 >- Das kaskadierte Gesamtfilter hat eine andere Grenzfrequenz als die Teilfilter und evtl. auch eine andere Filtercharakteristik.
 > - Deshalb sind die einzelnen Teilfilter stets so zu dimensionieren, dass gesamt die gewünschte Filtercharakteristik erreicht wird.
 
-
-
 ## Schaltungsentwürfe - Topologien
 
 > [!info] [Einfache Aktive Filter 1. Ordnung](../OPV/Einfache%20Aktive%20Filter%201.%20Ordnung.md)
@@ -75,8 +74,8 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](..
 
 > [!info] Aktive Filter 2. Ordnung
 > - **(TP)** [Sallen-Key Topologie](Sallen-Key%20Filter%20Topologie.md): Filter mit Einfach Gegenkopplung
-> - **(TP)** [Multiple-Feedback Filter Topologie](../Multiple-Feedback%20Filter%20Topologie.md) : Filter mit Mehrfach Gegenkopplung
+> - **(TP)** [Multiple-Feedback Filter Topologie](Multiple-Feedback%20Filter%20Topologie.md) : Filter mit Mehrfach Gegenkopplung
 > - **(TP+BP)**: [Biquad Filter Topologie](../OPV/Biquad%20Filter%20Topologie.md) nach Tow-Thomas
-> - **(TP+BP+HP)**: [State-Variable Topologie](../State-Variable%20Topologie.md) nach KHN (Kerwin-Huelsman-Newcomb)
+> - **(TP+BP+HP)**: [State-Variable Topologie](State-Variable%20Topologie.md) nach KHN (Kerwin-Huelsman-Newcomb)
 > - Andere [Integratorfilter](../OPV/Integrator.md#Integratorfilter)
 

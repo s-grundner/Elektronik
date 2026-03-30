@@ -2,11 +2,12 @@
 tags: []
 aliases: []
 created: 17th August 2023
+title: TVS-Diode
 ---
 
 # TVS-[Diode](Diode.md)
 
-![](../ESD.md)
+![](../../Manufacturing/ESD.md)
 
 ## Kennwerte von TVS-[Dioden](Diode.md)
 
@@ -28,7 +29,7 @@ Die Arbeitsspannung ist die maximale [elektrische Spannung](../../Elektrotechnik
 
 ### Klemmspannung
 
-Im Falle eines [ESD](../ESD.md)-Spikes, wirkt die TVS-Diode niederohmig gegen Masse.  
+Im Falle eines [ESD](../../Manufacturing/ESD.md)-Spikes, wirkt die TVS-Diode niederohmig gegen Masse.  
 Die elektrische Spannung, die dabei an der Diode abfällt, ist die Klemmspannung.  
 Obwohl sie immer noch signifikant höher ist als die Betriebsspannung, ist sie aufgrund der kurzen Dauer nicht weiter gefährlich, trotzdem sollte sie in jedem Anwendungsfall möglichst gering gewählt werden.  
 Einen genauen Wert dafür findet man nur sehr schwer.  

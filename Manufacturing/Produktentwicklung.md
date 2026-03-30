@@ -3,13 +3,14 @@ tags:
   - Product-Development
 aliases:
 created: 19. September 2024
+title: Produktentwicklung
 ---
 
 # Elektronik Produktentwicklung
 
 - Prototyp
 - Testing
-- [Zertifizierung](Certification.md)
+- [Zertifizierung](../Manufacturing/Certification.md)
 - Einkauf
 
 ## Prototyp
@@ -59,7 +60,7 @@ created: 19. September 2024
 ![InlineR|300](../_assets/PackBulk.png) ***Bulk Packaging***
 
 - Sackal 
-- Nicht [ESD](ESD.md) geeignet
+- Nicht [ESD](../Manufacturing/ESD.md) geeignet
 - Typischerweise THT und Prototyp komponenten
 - Nur für Manuelle Bestückung
 
@@ -92,7 +93,7 @@ created: 19. September 2024
 
 <br><br>
 
-![InlineR|300](../_assets/PackESD.png) ***[ESD](ESD.md) Sackal***
+![InlineR|300](../_assets/PackESD.png) ***[ESD](../Manufacturing/ESD.md) Sackal***
 
 - Einzeilteile in ESD Sackerl
 

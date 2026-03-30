@@ -7,7 +7,9 @@ aliases:
   - Primärelemente
 subject:
   - chemie
-created: 21st August 2022
+created: 9th December 2025
+title: Primärelement
+release: false
 ---
 
 # Primärelemente (Batterien)

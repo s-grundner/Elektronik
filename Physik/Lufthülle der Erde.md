@@ -12,6 +12,9 @@ material:
 dielectric: "1"
 tan-loss:
 at: 10GHz
+title: Lufthülle der Erde
+created: 15th January 2026
+release: false
 ---
 
 # Lufthülle der Erde
@@ -22,11 +25,11 @@ at: 10GHz
 | 20.94% | Sauerstoff        |
 | 0.93%  | Argon             |
 | 0.04%  | Kohlenstoffdioxid |  
+
 \+ Spuren von Anderen Edelgasen  
-![CNO](../_assets/CNO.png)  
-![Erdatmosphaere](../_assets/Erdatmosphaere.png)
+
+![invert_dark](../_assets/CNO.png)  
 
 
----
+![invert_dark](../_assets/Erdatmosphaere.png)
 
-# Tags

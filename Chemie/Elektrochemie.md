@@ -7,15 +7,18 @@ aliases:
   - Elektrolyse
 subject:
   - chemie
-created: 21st August 2022
+created: 15th January 2026
+title: Elektrochemie
+release: false
 ---
 
 # Elektrochemie
 
 > [!quote] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
->Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
->Elektrolyte (oder [elektrische Leiter](Metallbindung.md) 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
->$\rightarrow$ sind Leitfähig
+> 
+> Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
+> Elektrolyte (oder [elektrische Leiter](Metallbindung.md) 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
+> $\rightarrow$ sind Leitfähig
 
 ## Elektrolyse
 
@@ -119,16 +122,19 @@ elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) 
 
 #### Welche [Spannung](../Elektrotechnik/elektrische%20Spannung.md) Entsteht
 
-[Spannung](../Elektrotechnik/elektrische%20Spannung.md) bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
-[Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
+Spannung bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
+Spanung $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
 
 ### Standard-Wasserstoffelektrode
 
 [Spannung](../Elektrotechnik/elektrische%20Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
 Vermessung gegen eine Bezugselektrode ist notwendig.  
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$  
+
 ![DaniellEL2](../_assets/DaniellEL2.png)  
+
 **Standard:** 
+
 - Wasserstoffgesättigte Pt-Elemente mit $HCl$: $c = 1.00 mol/l$
 - $p = 1 bar$ 
 - $T = 25°C$
@@ -149,18 +155,20 @@ Mit diesem Verfahren lässt sich die [Elektrochemische Spannungsreihe](Elektroch
 
 ## Technische Nutzbare Galvanische Elemente
 
-### [Primärelement](Primärelement.md)
+### Primärelement
+
+> [!question] [Primärelement](Primärelement.md)
 
 Galvanisches Element mit irreversiblen elektrochemischen Vorgang $\rightarrow$ *nicht Aufladbar* $\rightarrow$ [Batterie](Primärelement.md)  
 
-### [Sekundärelement](Sekundärelement.md)
+### Sekundärelement
+
+> [!question] [Sekundärelement](Sekundärelement.md)
 
 Galvanisches Element, dass sich nach Erschöpfung *wieder Aufladen* lässt $\rightarrow$ [Akkumulator](Sekundärelement.md) pannann
 
-# Tags
+# Referenzen
 
-[Korrosion](Korrosion.md)  
-[Galvanotechnik](https://de.wikipedia.org/wiki/Galvanotechnik)
-
-[Kupferbad sauer JE540 | 1 Liter | 127.1000](https://shop.jentner.de/Kupferbad-sauer-JE540-127.1000)
-[Schwarzrutheniumbad JE12-1 - 5 g/L Ru | Individuelle Menge | 9706.custom](https://shop.jentner.de/Schwarzrutheniumbad-JE12-1-5-g-L-Ru-9706.custom)
+- [Galvanotechnik](https://de.wikipedia.org/wiki/Galvanotechnik)
+- [Kupferbad sauer JE540 | 1 Liter | 127.1000](https://shop.jentner.de/Kupferbad-sauer-JE540-127.1000)
+- [Schwarzrutheniumbad JE12-1 - 5 g/L Ru | Individuelle Menge | 9706.custom](https://shop.jentner.de/Schwarzrutheniumbad-JE12-1-5-g-L-Ru-9706.custom)

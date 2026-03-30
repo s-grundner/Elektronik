@@ -8,6 +8,7 @@ subject:
 semester: SS24
 created: 2. Juli 2024
 professor:
+title: Bandbreite
 ---
  
 # Bandbreite

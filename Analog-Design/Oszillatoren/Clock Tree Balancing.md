@@ -17,4 +17,4 @@ Das heißt, sollten mehr Eingänge getrieben werden, muss das Signal auf-gepuffe
 
 # Tags
 
-[DTO](Discrete%20Time%20Oscillator.md)
+[Discrete Time Oscillator](Discrete%20Time%20Oscillator.md)

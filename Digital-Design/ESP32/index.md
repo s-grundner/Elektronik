@@ -14,7 +14,7 @@ aliases:
 ![InlineR](../../_assets/ESP32_nocase.png) Der ESP32 ist ein Leistungsstarkes RISC-V Mikrokontroller mit einem Dual-Core 32-bit Xtensa LX6 Prozessor des chinesischen Herstellers Espressif, welcher oft aufgrund seiner Vielzahl an Funktionseinheiten, Protokollen und Sensorschnittstellen, im Internet of Things (IoT) Verwendung findet. Integrierte [Schnittstellen](../Interfaces/index.md) sind beispielsweise [UART](../Interfaces/UART.md), [SPI](../Interfaces/SPI.md), CAN, [I2C](../Interfaces/I2C.md), I2S, WLAN und Bluetooth.
 
 
-![InlineL](../../_assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Analog-Design/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
+![InlineL](../../_assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Manufacturing/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
 
 
 Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](../../Softwareentwicklung/IoT/ESP-AT.md)) auf den Chip heruntergeladen werden.

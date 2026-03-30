@@ -6,6 +6,7 @@ aliases:
 subject:
   - ksn
 created: 21st November 2022
+title: Vierpol
 ---
 
 # Vierpol

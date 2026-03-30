@@ -1,8 +1,9 @@
 ---
 tags:
   - Halbleiter/BJT
-aliases: 
+aliases:
 created: 22. September 2023
+title: Verstärker im B-Betrieb
 ---
 
 # B-Betrieb

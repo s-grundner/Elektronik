@@ -9,7 +9,9 @@ aliases:
   - Enzyme
 subject:
   - chemie
-created: 23rd August 2022
+created: 15th January 2026
+title: Katalyse
+release: false
 ---
 
 # Kinetik Und Katalyse
@@ -18,7 +20,8 @@ created: 23rd August 2022
 
 Reaktionsgeschwindigkeit (RG): $v=$ Stoffumsatz pro Zeiteinheit ($\frac{mol}{sek}$)
 
-### Einflüsse Auf Die RG
+### Einflüsse A
+uf Die RG
 
 **[Temperatur](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) (RGT-Regel)**  
 **Druck bzw. Konzentration**  

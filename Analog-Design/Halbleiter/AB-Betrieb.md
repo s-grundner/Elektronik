@@ -2,8 +2,10 @@
 tags:
   - Halbleiter/BJT
   - tikz/circuitikz
-aliases: 
+  - Baugruppe/Verstärker
+aliases:
 created: 22. September 2023
+title: Verstärker im AB-Betrieb
 ---
 
 # AB-Betrieb

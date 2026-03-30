@@ -5,8 +5,11 @@ aliases:
   - Licht
 subject:
   - chemie
-created: 25th August 2022
+created: 15th January 2026
+title: Spektralanalyse
+release: false
 ---
+
 
 # Spektralanalyse
 

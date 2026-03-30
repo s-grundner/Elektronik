@@ -6,6 +6,7 @@ subject:
   - ksn
   - hwe
 created: 25th November 2022
+title: Dampfung
 ---
 
 # Dämpfung

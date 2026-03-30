@@ -13,7 +13,7 @@ release: false
 ## Anwendung
 
 - Filter
-- [Abblock- / Stützkondensator](Abblockkondensator.md) (Power Decoupling)
+- [Abblock- / Stützkondensator](../Manufacturing/Abblockkondensator.md) (Power Decoupling)
 - AC-Überbrückung (AC-Coupling / -Decoupling) z.B. in [Emitterschaltung](Halbleiter/Emitterschaltung.md)
 - RC-Timing Schaltungen
 

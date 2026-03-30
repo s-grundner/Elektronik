@@ -1,8 +1,10 @@
 ---
 tags:
   - Chemie/Elektrochemie/Sekundärelement
-aliases: 
-created: 2. März 2024
+aliases:
+created: 9th December 2025
+title: Brennstoffzelle
+release: false
 ---
 
 # Brennstoffzelle

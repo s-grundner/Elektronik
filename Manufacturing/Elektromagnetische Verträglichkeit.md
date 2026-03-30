@@ -12,6 +12,7 @@ semester: WS24
 created: 4. September 2023
 professor:
   - Timm Ostermann
+title: Elektromagnetische Verträglichkeit
 ---
  
 
@@ -40,7 +41,7 @@ $$\Downarrow$$
 > Kopplungsarten
 > 1. [Kapazitive Kopplung](Kapazitive%20Kopplung.md) (über **gemeinsames** E-Feld)
 > 2. Induktive Kopplung (über **gemeinsames** H-Feld)
-> 3. [Galvanische Kopplung](Galvanische%20Kopplung.md) (über **gemeinsame** Impedanz)
+> 3. [Galvanische Kopplung](../Manufacturing/Galvanische%20Kopplung.md) (über **gemeinsame** Impedanz)
 
 $$\Downarrow$$
 

@@ -1,3 +1,6 @@
+---
+title: Impedanzmatrix
+---
 # Impedanzmatrix
 
 $\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$  

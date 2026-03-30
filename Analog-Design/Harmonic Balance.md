@@ -1,14 +1,15 @@
 ---
 tags:
   - Algorithmus/Elektrotechnik
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - HF-Systemtechnik 1
   - KV
 semester: WS24
 created: 3. Februar 2025
 professor:
+title: Harmonic Balance Algorithmus
 ---
  
 

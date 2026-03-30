@@ -5,9 +5,11 @@ aliases:
   - Molekül
   - Moleküle
 subject:
-  - chemie
-created: 23rd August 2022
+created: 15th January 2026
+title: Atombindung
+release: false
 ---
+
 
 # Atombindung
 

@@ -13,6 +13,7 @@ semester: WS24
 professor:
   - Bernhard Jakoby
 release: false
+title: Kollektorschaltung
 ---
  
 
@@ -65,7 +66,7 @@ $R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer
 
 ## Betriebsparameter
 
-> [!question] [Betriebsparameter](../Betriebsparameter.md)
+> [!question] [Betriebsparameter](../Filter-Verstärker/Betriebsparameter.md)
 >
 > - Eingangswiderstand $r_e$
 > - Ausgangswiderstand $r_a$

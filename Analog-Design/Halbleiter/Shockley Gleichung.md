@@ -13,6 +13,7 @@ professor:
 def:
   - SHOC
 release: false
+title: Shockley Gleichung
 ---
  
 

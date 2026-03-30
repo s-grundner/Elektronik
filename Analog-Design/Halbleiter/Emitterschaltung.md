@@ -13,6 +13,7 @@ professor:
   - Christian Diskus
   - Bernhard Jakoby
 release: false
+title: Emitterschaltung
 ---
 
 # Emitterschaltung

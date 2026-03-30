@@ -13,12 +13,15 @@ aliases:
   - Redoxpaar
 subject:
   - chemie
-created: 19th August 2022
+created: 15th January 2026
+title: Oxidation und Reduktion
+release: false
 ---
 
 # Oxidation Und Reduktion
 
 Oxidation: 
+
 - Ursprüngliche Aufnahme von Sauerstoff
 - gebildete Stoffe: **Oxide**
 - Reaktion ist exotherm ($\Delta H<0$)

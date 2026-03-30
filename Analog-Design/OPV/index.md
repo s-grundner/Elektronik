@@ -31,7 +31,7 @@ title: Operations-Verstärker
 TABLE FROM #Baugruppe/OPV
 ```
 
-> [!important] [Reales Verhalten von OPVs](Reale%20Eigenschaften%20von%20OPVs.md)
+> [!important] [Reales Verhalten von OPVs](Realer%20OPV.md)
 
 ## Realer Aufbau
 

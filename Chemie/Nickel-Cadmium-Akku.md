@@ -1,11 +1,16 @@
 ---
 tags:
   - Chemie/Elektrochemie/Sekundärelement
-aliases: 
-created: 2. März 2024
+aliases:
+created: 9th December 2025
+title: Nickel-Cadmium-Akku
+release: false
 ---
 
-# [Nickel](../Physik/Materialkunde/Nickel.md)-Cadmium-[Akku](Sekundärelement.md)
+
+# Nickel-Cadmium-Akku
+
+> [!question] [Nickel](../Physik/Materialkunde/Nickel.md), [Akku](Sekundärelement.md)
 
 - Für unregelmäßigen Gebrauch besser geeignet.
 - leichter und wartungsfrei.

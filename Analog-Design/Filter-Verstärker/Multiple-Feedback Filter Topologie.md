@@ -12,12 +12,13 @@ semester: WS24
 created: 13. Dezember 2024
 professor:
 release: false
+title: Multiple Feedback Filter
 ---
  
 
 # Filter mit Mehrfach-Gegenkopplung
 
-> [!question] Siehe: [Aktiver Filter](Filter-Verstärker/Aktiver%20Filter.md), [Gegenkopplung](Kopplungsarten.md)
+> [!question] Siehe: [Aktiver Filter](Filter-Verstärker/Aktiver%20Filter.md), [Gegenkopplung](OPV/Kopplungsarten.md)
 
 ```tikz
 \usepackage[european, straightvoltages]{circuitikz}

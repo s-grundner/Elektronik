@@ -1,4 +1,13 @@
-## Ebene Materiewelle
+---
+tags:
+aliases:
+created: 26th February 2026
+title: Ebene Materiewelle
+release: false
+---
+
+
+# Ebene Materiewelle
 
 Eine Wellengröße lässt sich in komplexer Notation schreiben (vgl. [Phasor](../../Elektrotechnik/Wechselstromtechnik.md))
 

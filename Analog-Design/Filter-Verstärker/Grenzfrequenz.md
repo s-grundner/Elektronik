@@ -2,8 +2,9 @@
 tags:
   - incomplete
   - Baugruppe/Filter
-aliases: 
+aliases:
 created: 30th November 2022
+title: Grenzfrequenz
 ---
 
 # Grenzfrequenz

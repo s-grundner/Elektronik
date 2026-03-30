@@ -13,6 +13,7 @@ semester: WS24
 created: 13. Dezember 2024
 professor:
 release: false
+title: State-Variable Filter
 ---
  
 

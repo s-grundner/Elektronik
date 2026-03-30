@@ -7,6 +7,7 @@ aliases:
 subject:
   - hwe
 created: 6th April 2022
+title: Referenzspannung
 ---
 
 # Referenzspannung

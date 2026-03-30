@@ -6,8 +6,8 @@ aliases:
   - PSO
   - Phaseshift Oscillator
 subject:
-  - hwe
 created: 7th November 2022
+title: Phasenschieber Oszillator
 ---
 
 # Phasenschieber Oszillator
@@ -28,7 +28,7 @@ created: 7th November 2022
 
 ## Schaltung
 
-![925](../../_assets/Pasted%20image%2020230124215050.png)
+![invert_dark|925](../../_assets/Pasted%20image%2020230124215050.png)
 
 ## Herleitung
 

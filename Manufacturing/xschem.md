@@ -32,7 +32,7 @@ Namen für Symbole müssen immer mit dem Richtigen Buchstaben beginnen: z.B: Wid
 
 ## Simulator
 
-> [!question] [NgSpice](Spice.md)
+> [!question] [NgSpice](../Manufacturing/Spice.md)
 
 Konfigurieren des NGSpice Terminals
 

@@ -7,7 +7,7 @@ aliases:
   - Knotenspannung
   - Knotenspannungs
   - KCL
-keywords: 
+keywords:
 subject:
   - VL
   - Elektrotechnik
@@ -15,6 +15,7 @@ semester: SS24
 created: 8. Januar 2024
 professor:
   - Andreas Springer
+title: Knotenpotenzialverfahren
 ---
  
 

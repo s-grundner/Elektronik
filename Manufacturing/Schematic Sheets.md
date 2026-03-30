@@ -1,6 +1,8 @@
 ---
 tags:
   - Altium
+  - EDA
+  - ECAD
 aliases:
 created: 8. November 2024
 ---

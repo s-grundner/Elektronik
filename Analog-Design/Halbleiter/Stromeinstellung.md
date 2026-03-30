@@ -17,6 +17,7 @@ professor:
   - Bernhard Jakoby
   - Christian Diskus
 release: false
+title: Stromeinstellung
 ---
  
 

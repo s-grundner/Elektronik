@@ -11,6 +11,7 @@ semester: WS24
 created: 12. Dezember 2024
 professor:
 release: false
+title: Nicht-Invertierender Verstärker
 ---
  
 # Nicht-Invertierender Verstärker

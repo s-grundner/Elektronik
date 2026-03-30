@@ -10,6 +10,7 @@ semester: SS24
 created: 22. Januar 2024
 professor:
   - Andreas Springer
+title: FIR-Filter
 ---
  
 
@@ -39,7 +40,7 @@ Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemt
 
 ## Art des Aufbaus
 
-- [Passiver Filter](../Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](../../Systemtheorie/Signalverarbeitung/Digitaler%20Filter.md)
+- [Passiver Filter](Passiver%20Filter.md) / [Aktiver Filter](Aktiver%20Filter.md) / [Digitaler Filter](../../Systemtheorie/Signalverarbeitung/Digitaler%20Filter.md)
 - Filtercharakteristik (Verhalten der Schaltung)
     - Form der Übertragungsfunktion
 - Topologie (Realisierung der Schaltung)

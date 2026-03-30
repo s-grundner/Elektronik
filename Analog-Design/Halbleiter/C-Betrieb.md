@@ -11,6 +11,7 @@ created: 23. September 2023
 professor:
   - Bernhard Jakoby
 release: false
+title: Verstärker im C-Betrieb
 ---
  
 

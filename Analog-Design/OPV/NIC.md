@@ -10,6 +10,7 @@ semester: WS24
 created: 29. Januar 2025
 professor:
 release: false
+title: Negative Impedance Converter
 ---
  
 

@@ -9,6 +9,7 @@ semester: WS24
 created: 18th November 2024
 professor:
 release: false
+title: Betriebsparameter von Verstärkern
 ---
  
 

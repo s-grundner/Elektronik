@@ -10,6 +10,7 @@ aliases:
 subject:
   - hwe
 created: 17th January 2023
+title: Quartzoszillator
 ---
 
 # Quartzoszillator

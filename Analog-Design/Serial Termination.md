@@ -4,6 +4,7 @@ tags:
 aliases:
   - serieller Leitungsabschluss
 created: 25. September 2023
+title: Serieller Leitungsabschluss
 ---
 
 # Serieller Leitungsabschluss[^1][^2][^3]

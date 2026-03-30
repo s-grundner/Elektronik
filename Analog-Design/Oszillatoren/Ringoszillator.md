@@ -5,6 +5,7 @@ aliases: []
 subject:
   - dic
 created: 24th January 2023
+title: Ringoszillator
 ---
 
 # Ringoszillator

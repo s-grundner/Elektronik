@@ -13,12 +13,13 @@ semester: WS24
 created: 13. Dezember 2024
 professor:
 release: false
+title: Sallen-Key Filter
 ---
  
 
 # Sallen-Key Filter Topologie
 
-> [!question] Siehe: [Aktiver Filter](Aktiver%20Filter.md), [Mitkopplung](../Kopplungsarten.md)
+> [!question] Siehe: [Aktiver Filter](Aktiver%20Filter.md), [Mitkopplung](../OPV/Kopplungsarten.md)
 
 
 > [!info] Aktiver Tiefpass 2. Ordnung mit einfach Mitkopplung
@@ -60,6 +61,6 @@ release: false
 > $\alpha=1$: Kritische Dämpfung
 > $\alpha = 1.268$: Bessel
 > $\alpha = 1.586$: [Butterworth](Butterworth%20Filter%20Charakteristik.md)
-> $\alpha=2.234$: [Tschebyscheff](../Tscheybyscheff%20Filter%20Charakteristik.md)
+> $\alpha=2.234$: [Tschebyscheff](Tscheybyscheff%20Filter%20Charakteristik.md)
 
 ## Funktionsweise

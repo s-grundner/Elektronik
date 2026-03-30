@@ -17,6 +17,7 @@ professor:
   - Siegbert Schrempf
   - Michael Offenhuber
 release: false
+title: Bibpolartransistoren
 ---
 
 # Bipolar-Junction-Transistor
@@ -142,7 +143,7 @@ $$
 
 ## Betriebsparameter
 
-- [Betriebsparameter](../Betriebsparameter.md) von Verstärkern
+- [Betriebsparameter](../Filter-Verstärker/Betriebsparameter.md) von Verstärkern
 
 ## Betriebsarten
 

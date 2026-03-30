@@ -1,6 +1,7 @@
 ---
 tags:
   - tikz/circuitikz
+  - Halbleiter/BJT
 aliases:
   - Basis-Schaltung
 keywords:
@@ -12,6 +13,7 @@ created: 18th November 2024
 professor:
   - Bernhard Jakoby
 release: false
+title: Basisschaltung
 ---
  
 

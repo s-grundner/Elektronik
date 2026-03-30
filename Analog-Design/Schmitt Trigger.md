@@ -15,6 +15,7 @@ semester: WS24
 professor:
   - Christian Diskus
 release: false
+title: Schmitttrigger
 ---
 
 # Schmitt Trigger
@@ -33,7 +34,7 @@ release: false
 
 ## Hysterese
 
-## Helmholz'sches [Überlagerungsprinzip](../Dictionary/Superpositionsprinzip.md)
+## Helmholz'sches [Überlagerungsprinzip](../Dictionary/Superposition.md)
 
 ![invST-calc2](../_assets/invST-calc2.png)
 

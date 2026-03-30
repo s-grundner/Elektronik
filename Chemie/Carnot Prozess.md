@@ -2,9 +2,12 @@
 aliases:
   - Ottomotor
 subject:
-  - chemie
-created: 10th September 2022
+created: 15th January 2026
+tags:
+title: Carnot Prozess
+release: false
 ---
+
 
 # Carnot Prozess
 
@@ -12,7 +15,7 @@ Der **Carnot-[Kreisprozess](https://de.wikipedia.org/wiki/Kreisprozess "Kreispr
 
 ## Verbrennungsmotor
 
-![550](../_assets/carnot1.png)
+![invert_dark|550](../_assets/carnot1.png)
 
 **Viertakt-Ottomotor:**
 -	*Die 4 Takte sind:* Ansaugen, Verdichten, Arbeiten, Auspuffen / Suck, Squeeze, Bang, Blow
@@ -28,7 +31,7 @@ Ansaugen des Benzin-Luftgemisches des Vergasers durch das Einlassventil bei gesc
 2.	Verdichtungstakt (Squeeze)  
 Der sich nach oben bewegenden Kolben verdichtet bei geschlossenen Ventilen den Brennstoff und erwärmt ihn hierbei.
 3.	Arbeitstakt (Bang)  
-Beide Ventile sind geschlossen. Im Moment der größten Verdichtung wird das Benzin-[Luft](Lufthülle%20der%20Erde.md)-Gemisch durch die Zündkerze gezündet. Durch die explosionsartige Verbrennung wird der Kolben nach unten gedrückt, es wird an ihm [Arbeit](../Physik/Kinematik/Mechanische%20Arbeit.md) verrichtet.
+Beide Ventile sind geschlossen. Im Moment der größten Verdichtung wird das Benzin-[Luft](../Physik/Lufthülle%20der%20Erde.md)-Gemisch durch die Zündkerze gezündet. Durch die explosionsartige Verbrennung wird der Kolben nach unten gedrückt, es wird an ihm [Arbeit](../Physik/Kinematik/Mechanische%20Arbeit.md) verrichtet.
 4.	Auspufftakt (Blow)  
 Das Auslassventil wird geöffnet und die verbrannten Abgase werden durch den sich nach oben bewegenden Kolben ausgestoßen.
 

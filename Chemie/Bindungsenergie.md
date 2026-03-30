@@ -3,8 +3,11 @@ tags:
   - Chemie/Anorganisch
 aliases:
 subject:
-created: 10th September 2022
+created: 15th January 2026
+title: Bindungsenergie
+release: false
 ---
+
 
 # Bindungsenergie im Atomkern
 

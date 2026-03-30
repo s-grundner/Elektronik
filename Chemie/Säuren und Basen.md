@@ -8,21 +8,26 @@ aliases:
   - basisch
 subject:
   - chemie
-created: 25th August 2022
+created: 15th January 2026
+title: Säuren und Basen
+release: false
 ---
 
 # Säuren Und Basen
 
-Typische Säuren 
+Typische Säuren: $\rightarrow$ Sauer!
+
 - $H$$Cl$ Salzsäure
 - $H$$NO_{3}$ Salpetersäure
 - $H$$_{2}SO_{4}$ Schwefelsäure  
-$\rightarrow$ Sauer!
 
-Typische Basen:
+ 
+Typische Basen: $\rightarrow$ fühlen sich seifig an!
+
 - $Na$$OH$ Natronlauge
 - $K$$OH$ Kalilauge  
-$\rightarrow$ fühlen sich seifig an!
+
+
 
 ## Arrhenius Theorie
 
@@ -39,6 +44,7 @@ Durch Wasser wird das $HCl$ [Molekül](Atombindung.md) in Ionen aufgespalten.
 Hierbei werden beide Ionen von einer [Hydrathülle](https://studyflix.de/chemie/hydratation-2388) umschlossen. (aq.)  
 
 ### Neutralisation
+
 
 Reaktion einer Säure mit einer Base, in deren Verlauf ein [Salz](Ionenbindung.md) und Wasser entstehen.  
 $HCl+NaOH\longrightarrow NaCl+H_{2}O$  

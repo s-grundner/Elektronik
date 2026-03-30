@@ -52,8 +52,8 @@ created: 2nd October 2022
 
 - Hohe Frequenzen
 - Hohe Ströme
-- [EMV](../Elektromagnetische%20Verträglichkeit.md) gerechter Aufbau
-- [EMV](../Elektromagnetische%20Verträglichkeit.md) Filter
+- [EMV](../../Manufacturing/Elektromagnetische%20Verträglichkeit.md) gerechter Aufbau
+- [EMV](../../Manufacturing/Elektromagnetische%20Verträglichkeit.md) Filter
 - kurze Leitungsführung
 
 # Typen

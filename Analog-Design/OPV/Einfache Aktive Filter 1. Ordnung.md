@@ -11,6 +11,7 @@ semester: WS24
 created: 16. Dezember 2024
 professor:
 release: false
+title: Einfache Aktive Filter 1. Ordnung
 ---
  
 

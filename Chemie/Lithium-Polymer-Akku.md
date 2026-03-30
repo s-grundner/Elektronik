@@ -4,10 +4,15 @@ tags:
 aliases:
   - LiPo
   - Li-Po
-created: 2. März 2024
+created: 9th December 2025
+title: Lithium-Polymer-Akku
+release: false
 ---
 
-# Lithium-Polymer-[Akku](Sekundärelement.md) (LiPo)
+# Lithium-Polymer-Akku (LiPo)
+
+> [!question] [Akku](Sekundärelement.md
+)
 
 - $U=3,7V$
 - Weiterentwicklung des LiPos

@@ -1,11 +1,16 @@
 ---
 tags:
   - Chemie/Elektrochemie/Sekundärelement
-aliases: 
-created: 2. März 2024
+aliases:
+created: 9th December 2025
+title: Lithium-Ionen-Akku
+release: false
 ---
 
-# Lithium-Ionen-[Akku](Sekundärelement.md)
+
+# Lithium-Ionen-Akku
+
+> [!question] [Akku](Sekundärelement.md)
 
 - Müssen völlig Wasserfrei sein. ($Li$ +💧=🔥)
 - **[Elektrolyt](Elektrochemie.md):** organische Lösungsmittel mit $Li^{+}$-Salzen

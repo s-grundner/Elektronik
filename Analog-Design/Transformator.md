@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Einführung Elektrotechnik
   - VL
@@ -9,6 +9,7 @@ semester: WS23
 created: 24th January 2024
 professor:
   - Andreas Springer
+title: Transformator
 ---
  
 

@@ -11,12 +11,13 @@ subject:
   - hwe
   - Technische Informatik
 created: 21st March 2022
+title: Transistor
 ---
 
 # Map of Content - Transistoren
 
 - [Bipolartransistor](Bipolartransistor.md) ([BJT](Bipolartransistor.md))
-- [Sperrschicht-Feldeffekttransistor](Sperrschicht-Feldeffekttransistor.md) ([JFET](Sperrschicht-Feldeffekttransistor.md))
+- [JFET](JFET.md) ([JFET](JFET.md))
 - [MOSFET](MOSFET.md) ([MOSFET](MOSFET.md))
 
 Spannungsgesteuerte Stromquelle

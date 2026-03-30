@@ -8,6 +8,7 @@ aliases:
 subject:
   - hwe
 created: 19th January 2023
+title: Zener-Diode
 ---
 
 # Kapazitäts-Diode
