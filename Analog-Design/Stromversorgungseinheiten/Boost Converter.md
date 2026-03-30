@@ -14,7 +14,8 @@ created: 8th June 2022
 
 ## Schaltung
 
-![invert_light](../../_assets/Boostconverter.svg)
+![invert_light](../../_assets/Boostconverter.png)
+
 
 $$ U_{a}\approx U_{e} \cdot \frac{1}{1-DC} $$
 Während der Einschaltphase des [Transistors](../Halbleiter/Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.  
