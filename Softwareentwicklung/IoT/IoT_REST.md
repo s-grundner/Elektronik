@@ -448,11 +448,10 @@ app.delete('/', function (req, res) {
 
 Starten/Stoppen (enable/disable) eines Service:
 
-???
 
 ## Node.js / Desktop (JS/Node_01_MongoIntro)
 
-![REST_SysOverview_03](../../../_assets/REST_SysOverview_03.png)
+![REST_SysOverview_03](../../_assets/REST_SysOverview_03.png)
 
 <https://www.youtube.com/watch?v=1VA0MPwFcyU>
 

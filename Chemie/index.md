@@ -4,7 +4,7 @@ tags:
 aliases:
   - Chemie
 created: 19th August 2022
-title: Grundlagen der Chemie
+title: Chemie
 release: true
 description: Wissenschaft der Materie und ihrer Veränderungen.
 ---
