@@ -3,7 +3,7 @@ tags:
   - index
 title: Hardwareentwicklung
 release: false
-aliases: Hardwareentwicklung
+aliases: Analoge Schaltungstechnik
 ---
 
 # Analoge Schaltungstechnik

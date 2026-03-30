@@ -10,7 +10,7 @@ created: 22nd January 2026
 professor:
   - Bernhard Jakoby
 release: false
-title: index
+title: Halbleiter Schaltungstechnik
 ---
 
 # Halbleiter Schaltungstechnik
