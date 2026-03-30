@@ -1,10 +1,11 @@
 ---
 tags:
   - index
-title: Digital-Design
+title: Digitale Schaltungstechnik
 release: false
 aliases:
-  - Digital-Design
+  - Digitale Schaltungstechnik
+  - Digital Design
 ---
 
 # Digital-Design

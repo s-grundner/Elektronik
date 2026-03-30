@@ -1,9 +1,11 @@
 ---
 tags:
   - index
-title: Hardwareentwicklung
+title: Analoge Schaltungstechnik
 release: false
-aliases: Analoge Schaltungstechnik
+aliases:
+ - Analoge Schaltungstechnik
+ - Analog-Design
 ---
 
 # Analoge Schaltungstechnik
