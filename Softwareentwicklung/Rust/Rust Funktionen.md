@@ -3,7 +3,7 @@ tags:
   - Rust
 aliases:
 created: 20th January 2025
-title: Funktionenraum
+title: Funktionen
 ---
 
 # Funktionen

@@ -2,8 +2,9 @@
 tags:
   - Rust
 aliases:
+  - Rust
 created: 2. August 2024
-title: rustfmt
+title: Rust
 ---
 
 # Rust Programming Language
