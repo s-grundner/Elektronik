@@ -1,7 +1,7 @@
 ---
-tags: 
+tags:
 aliases: []
-keywords: 
+keywords:
 subject:
   - VL
 semester:
@@ -9,6 +9,7 @@ semester:
   - B2
 created: 6. März 2024
 professor:
+title: Newtonsche Axiome
 ---
  
 

@@ -1,7 +1,10 @@
 ---
-tags: ["DB"]
-aliases: ["phpmyadmin"]
+tags:
+  - DB
+aliases:
+  - phpmyadmin
 created: 29. November 2022
+title: XAMPP
 ---
 
 # XAMPP

@@ -6,6 +6,7 @@ aliases:
   - Stöße
   - Rückstoß
 created: 31st May 2022
+title: Stoßprozesse
 ---
 
 # Stoß

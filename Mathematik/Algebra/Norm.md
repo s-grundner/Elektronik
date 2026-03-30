@@ -21,6 +21,7 @@ axiome:
   - N3
 def:
   - NORM
+title: Normalverteilung
 ---
  
 

@@ -1,12 +1,13 @@
 ---
 tags:
-  - ComputerNetzwerke
+  - OSI-Modell
 aliases:
   - Layer 3
   - Network Layer
 subject:
   - ksn
 created: 4th April 2022
+title: Vermittlungsschicht
 ---
 
 # Vermittlungsschicht (OSI-Layer 3)

@@ -15,6 +15,7 @@ semester: WS23
 created: 19. Oktober 2023
 professor:
   - Bernhard Jakoby
+title: elektrische Influenz
 ---
 
 # Elektrische Influenz

@@ -8,6 +8,7 @@ symbol: $g$
 value: "9.81"
 unit: m/s^2
 science: Allgemein
+title: Erdbeschleunigung
 ---
 
 > [!def] $g = 9.81 \mathrm{\frac{m}{s^{2}}}$ ^DEF

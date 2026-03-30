@@ -3,7 +3,7 @@ tags:
   - Analysis
 aliases:
   - Cauchyscher Mittelwertsatz
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
@@ -11,6 +11,7 @@ semester: WS24
 created: 8. Januar 2025
 professor:
   - Andreas Neubauer
+title: Mittelwertsatz der Integralrechnung
 ---
  
 

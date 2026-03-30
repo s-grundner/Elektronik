@@ -1,7 +1,9 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
 aliases: []
 created: 29th November 2022
+title: Exceptions
 ---
 
 # 10 Ausnahmen / Exceptions

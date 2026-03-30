@@ -8,6 +8,7 @@ aliases:
 subject:
   - mathe
 created: 4th January 2023
+title: Variation der Konstanten
 ---
 
 # Variation

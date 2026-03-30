@@ -7,6 +7,7 @@ aliases:
   - Hash Maps
   - Hash Map
 created: 29th November 2022
+title: Hash-Map
 ---
 
 # Hash-Tabellen

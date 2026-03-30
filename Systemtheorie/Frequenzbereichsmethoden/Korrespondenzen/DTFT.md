@@ -1,3 +1,6 @@
+---
+title: DTFT
+---
 
 # Korrespondenzen der DTFT
 

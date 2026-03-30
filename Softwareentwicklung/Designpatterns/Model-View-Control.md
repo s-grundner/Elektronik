@@ -4,7 +4,7 @@ tags:
 aliases:
   - Model View Control
   - MVC
-keywords: 
+keywords:
 subject:
   - VL
   - Softwareentwicklung 2
@@ -13,6 +13,7 @@ semester:
   - B2
 created: 23. März 2024
 professor:
+title: MVC - Model View Controller
 ---
 
 # Model-View-Control MVC

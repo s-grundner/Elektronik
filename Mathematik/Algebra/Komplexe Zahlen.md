@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - komplexe Rechnung
   - komplex
@@ -11,6 +11,7 @@ professor:
   - Andreas Neubauer
 semester: WS23
 created: 26th April 2022
+title: Komplexe Zahlen
 ---
 
 # Komplexe Zahlen

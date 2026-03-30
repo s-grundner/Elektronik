@@ -15,6 +15,7 @@ created: 22. Oktober 2024
 professor:
   - Andreas Neubauer
   - Andreas Stelzer
+title: Algebraische Strukturen
 ---
  
 

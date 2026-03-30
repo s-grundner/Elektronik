@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - RWP
   - Randwertprobleme
@@ -13,6 +13,7 @@ semester: WS24
 created: 1. Dezember 2024
 professor:
   - Markus Passenbrunner
+title: Randwertproblem
 ---
  
 

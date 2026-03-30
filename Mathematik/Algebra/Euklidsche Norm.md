@@ -1,3 +1,6 @@
+---
+title: Euklidsche Norm
+---
 ## Euklidsche Norm
 
  Standardnorm im Euklidschen Raum $\mathbb{R}^2$ :

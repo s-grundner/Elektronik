@@ -1,7 +1,10 @@
 ---
-tags: ["MS", "VBA"]
-aliases: 
+tags:
+  - MS
+  - VBA
+aliases:
 created: 29. November 2022
+title: VBA Microsoft Access
 ---
 
 # VBA in Access

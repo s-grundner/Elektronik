@@ -23,6 +23,7 @@ semester: WS23
 created: 26. September 2023
 professor:
   - Andreas Neubauer
+title: Junktor
 ---
  
 

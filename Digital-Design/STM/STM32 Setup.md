@@ -9,6 +9,7 @@ aliases:
   - STMicroelectronics
   - "#MCU/STM32"
 created: 18th August 2023
+title: STM32 Setup
 ---
 
 # Getting Started

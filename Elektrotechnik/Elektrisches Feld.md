@@ -16,6 +16,7 @@ semester: WS23
 created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
+title: Statisches Elektrisches Feld
 ---
 
 # Elektrisches Feld

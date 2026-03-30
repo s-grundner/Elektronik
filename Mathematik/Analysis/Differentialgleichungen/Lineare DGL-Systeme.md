@@ -1,18 +1,19 @@
 ---
-tags: 
+tags:
 aliases:
   - AWP 1.1
   - AWP 1.2
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 30. Oktober 2024
-professor: 
+professor:
 def:
   - AWP 1.1
   - AWP 1.2
+title: lineare DGL Systeme
 ---
 
 # Lineare DGL-Systeme

@@ -1,3 +1,6 @@
+---
+title: Orthogonal
+---
 # Orthogonal
 
 Ist das Skalarprodukt zweier Werte in einem Vektorraum null, heißen $x$ und $y$ orthogonal

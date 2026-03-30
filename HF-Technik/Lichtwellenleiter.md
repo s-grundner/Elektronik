@@ -9,6 +9,7 @@ aliases:
 subject:
   - ksn
 created: 28th March 2022
+title: Lichtwellenleiter
 ---
 
 # Lichtwellenleiter

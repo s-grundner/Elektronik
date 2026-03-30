@@ -1,3 +1,8 @@
+---
+tags:
+  - C/Buildsystem
+title: Makefile
+---
 # Makefile
 
 Kompiliervorgänge sind mit jeder Code-Änderung notwendig. Um nicht jedesmal die gesamte Tool-Kette eintippen zu müssen, kann ein Makefile erstellt werden in welchem die einzelnen Schritte abgelegt werden können:

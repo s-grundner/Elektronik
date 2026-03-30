@@ -7,6 +7,7 @@ symbol: $R$
 value: "8.314"
 unit: $\mathrm{\dfrac{N m}{mol K}}$
 science: Chemie
+title: Gaskonstante
 ---
 
 > [!def] $R=8.314 \mathrm{\frac{N m}{mol K}}$ ^DEF

@@ -10,6 +10,7 @@ aliases:
 subject:
   - dic
 created: 21st March 2022
+title: Atmege644p
 ---
 
 # AVR ATmega644p

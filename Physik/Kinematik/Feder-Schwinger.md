@@ -23,7 +23,7 @@ title: Feder-Schwinger
 ![InlineR](../../_assets/Pasted%20image%2020240125155851.png)  
 Als einfachstes Modellsystem eines harmonischen Oszillators, betrachten wir eine Masse an einer [Feder](Kinematik/Federkraft.md), die sich reibungsfrei auf einer Unterlage bewegt.
 
-In der Gleichgewichtslage bei $x = 0$ übt die [Feder](Kinematik/Federkraft.md) keine [Kraft](Kinematik/{MOC}%20Kräfte.md) auf den Körper aus, bei einer Auslenkung $x$ wirkt eine [Rückstellkraft](Kinematik/Federkraft.md) die linear mit $x$ ansteigt.
+In der Gleichgewichtslage bei $x = 0$ übt die [Feder](Kinematik/Federkraft.md) keine [Kraft](Kräfte.md) auf den Körper aus, bei einer Auslenkung $x$ wirkt eine [Rückstellkraft](Kinematik/Federkraft.md) die linear mit $x$ ansteigt.
 
 ## Bewegungsgleichung
 

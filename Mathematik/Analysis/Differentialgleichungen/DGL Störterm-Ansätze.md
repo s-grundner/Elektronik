@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 17. November 2024
 professor:
+title: DGL Störterm-Ansätze
 ---
  
 

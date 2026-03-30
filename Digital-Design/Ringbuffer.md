@@ -9,6 +9,7 @@ subject:
   - dic
   - fsst
 created: 19th April 2022
+title: Ringbuffer
 ---
 
 # Ringbuffer

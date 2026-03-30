@@ -1,7 +1,6 @@
 ---
 tags:
   - DB
-  - DB
 aliases:
   - ERM
   - Entity-Relationship-Modell
@@ -10,6 +9,7 @@ aliases:
 subject:
   - fsst
 created: 21st November 2022
+title: Entity Relationship Modellierung
 ---
 
 # 3 Entity-Relationship-Modell (ERM)

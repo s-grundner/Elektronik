@@ -10,6 +10,7 @@ created: 26th April 2022
 semester: WS24
 professor:
   - Andreas Stelzer 🕊️
+title: Einheitssprungfunktion
 ---
 
 # Die Einheitssprungfunktion

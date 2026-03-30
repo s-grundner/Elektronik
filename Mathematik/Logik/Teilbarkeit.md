@@ -1,15 +1,16 @@
 ---
-tags: 
+tags:
 aliases:
   - ggT
   - kgV
-keywords: 
+keywords:
 subject:
   - Mathematik1
   - "357.100"
 semester: 1
 created: 27. Januar 2024
 professor:
+title: Teilbarkeit
 ---
  
 

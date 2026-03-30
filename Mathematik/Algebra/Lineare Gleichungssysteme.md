@@ -7,6 +7,7 @@ aliases:
 subject:
   - mathe
 created: 19th August 2022
+title: Lineare Gleichungssysteme
 ---
 
 # Lineare Gleichungssysteme

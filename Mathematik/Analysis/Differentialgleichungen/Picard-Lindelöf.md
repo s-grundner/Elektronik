@@ -2,16 +2,17 @@
 tags:
   - DGL/Numerisch
   - Analysis
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 16. Oktober 2024
-professor: 
+professor:
 satz:
   - PILF
+title: Picard-Lindelöf
 ---
  
 

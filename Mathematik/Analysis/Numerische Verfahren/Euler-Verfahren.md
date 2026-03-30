@@ -1,14 +1,15 @@
 ---
 tags:
   - DGL/Numerisch
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 18. Dezember 2024
 professor:
+title: Euler-Verfahren
 ---
  
 

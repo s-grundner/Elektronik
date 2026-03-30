@@ -1,11 +1,11 @@
 ---
 tags:
-  - ""
 aliases:
   - Aktor
 subject:
   - mtrs
 created: 31st March 2022
+title: Aktorik
 ---
 
 # Aktorik

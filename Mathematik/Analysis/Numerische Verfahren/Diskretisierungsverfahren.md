@@ -4,22 +4,23 @@ tags:
   - Analysis/Numerik
 aliases:
   - äquidistante diskretisierung
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
-created: 18. Dezember 2024
-professor: 
-satz: 
+created: 27th March 2026
+professor:
+satz:
 def:
   - ESV
   - ORD
   - LDF
   - GDF
+title: Diskretisierungsverfahren
+release: false
 ---
  
-
 # Diskretisierungsverfahren
 
 ## Verfahren für Anfangswertprobleme

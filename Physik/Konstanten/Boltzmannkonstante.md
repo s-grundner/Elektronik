@@ -8,6 +8,7 @@ symbol: $k_{\mathrm{B}}$
 value: "1.380649e-23"
 unit: J/K
 science: Physik
+title: Boltzmannkonstante
 ---
 
 # Boltzmann Konstante

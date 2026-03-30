@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Verschiebung und Skalierung
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
 semester: WS24
 created: 2. Oktober 2024
 professor:
+title: Elementare Operationen Auf Signale
 ---
  
 

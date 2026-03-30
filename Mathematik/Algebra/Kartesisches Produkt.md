@@ -3,7 +3,7 @@ tags:
   - Algebra
 aliases:
   - Tupel
-keywords: 
+keywords:
 subject:
   - Mathematik 1
   - VL
@@ -12,6 +12,7 @@ created: 12. Oktober 2023
 professor:
   - Andreas Neubauer
   - Robert Pollak
+title: Kartesisches Produkt
 ---
  
 

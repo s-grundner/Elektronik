@@ -1,19 +1,20 @@
 ---
-tags: 
+tags:
 aliases:
   - konservativ
   - Wegunabhängigkeit
   - Gradientensatz
   - Gradientenfeld
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 25. September 2024
-professor: 
+professor:
 satz:
   - GRAS
+title: Wegungabhänigkeit
 ---
  
 # Wegunabhängigkeit
@@ -32,4 +33,4 @@ Der Gradientensatz ist die Erweiterung des [Fundamentalsatzes der Analysis](../F
 > $\varphi$ ist also ein Skalarfeld mit dem Zugehörigen [Gradient](Gradient.md)-Vektorfeld $\nabla \varphi$.
 > 
 
-> [!hint] In einem beliebigen konservativen [Kraftfeld](../../../Physik/Kinematik/{MOC}%20Kräfte.md) ist $\varphi$ ein *Potenzial*.
+> [!hint] In einem beliebigen konservativen [Kraftfeld](../../../Physik/Kinematik/Kräfte.md) ist $\varphi$ ein *Potenzial*.

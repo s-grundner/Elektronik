@@ -1,3 +1,5 @@
+summaries:
+  Empty: values.filter(value.isType("null")).length
 views:
   - type: table
     name: Table
@@ -10,6 +12,8 @@ views:
         - '!file.path.startsWith("xDailyNotes")'
         - '!file.path.startsWith("01-Templates")'
         - '!file.path.startsWith("02-Tools")'
+        - and:
+            - '!file.path.contains("Uebung")'
     groupBy:
       property: file.folder
       direction: ASC
@@ -19,9 +23,15 @@ views:
       - title
       - tags
     sort:
+      - property: file.name
+        direction: DESC
+      - property: title
+        direction: DESC
+      - property: formula.name
+        direction: ASC
       - property: tags
         direction: DESC
     columnSize:
       file.name: 451
-      file.basename: 228
+      file.basename: 279
       note.title: 163

@@ -1,8 +1,12 @@
 ---
 tags: []
-aliases: ["Quotientenkriterium"]
-keywords: ["Konvergenz", "Reihen"]
+aliases:
+  - Quotientenkriterium
+keywords:
+  - Konvergenz
+  - Reihen
 created: 30. September 2023
+title: Quotienten Kriterium
 ---
  
 

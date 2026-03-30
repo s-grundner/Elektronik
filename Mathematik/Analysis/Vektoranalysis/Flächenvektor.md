@@ -1,15 +1,16 @@
 ---
-tags: 
+tags:
 aliases:
   - Flächennormale
   - vektorielles Flächenelement
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
 semester: WS23
 created: 10. Oktober 2024
 professor:
+title: Flächenvektor
 ---
  
 

@@ -6,6 +6,7 @@ aliases:
 subject:
   - mtrs
 created: 31st March 2022
+title: Magnetometer
 ---
 
 # Messung Von Magnetfeldern

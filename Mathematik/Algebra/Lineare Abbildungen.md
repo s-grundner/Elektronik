@@ -17,6 +17,7 @@ semester: WS23
 created: 23. Januar 2024
 professor:
   - Andreas Neubauer
+title: Lineare Abbildungen
 ---
  
 

@@ -8,6 +8,7 @@ aliases:
 subject:
   - hwe
 created: 20th April 2022
+title: Buck Converter
 ---
 
 # Buck Converter

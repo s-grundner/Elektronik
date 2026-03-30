@@ -2,6 +2,7 @@
 tags: []
 aliases: []
 created: 17. September 2023
+title: Altium Designer
 ---
 
 # Altium Designer - [PCB](PCB-Layout.md) Design Unit 1

@@ -103,7 +103,7 @@ func1:
 
 ## Rekursive Funktionen
 
-> [!question] [Rekursion](../../../Softwareentwicklung/DSA/Rekursion.md): Funktion, die sich selbst aufruft
+> [!question] [Rekursion](../../../Softwareentwicklung/DSA/Algorithmen/Rekursion.md): Funktion, die sich selbst aufruft
 
 Bei der Umsetzung in Assembler-Code: Entwicklung der rekursiven Funktion in *zwei* Schritten:
 
@@ -141,7 +141,7 @@ int factorial(int n) {
 
 ### Beispiel: Collatz Schrittzahl
 
-> [!question] [Collatz-Problem](../../../Softwareentwicklung/DSA/Collatz-Problem.md)
+> [!question] [Collatz-Problem](../../../Softwareentwicklung/DSA/Algorithmen/Collatz-Problem.md)
 
 > [!success]- Lösung 
 > 

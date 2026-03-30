@@ -1,3 +1,6 @@
+---
+title: Explizite Einschrittverfahren
+---
 # Explizite Einschrittverfahren
 
 > [!question] [Diskretisierungsverfahren](Numerische%20Verfahren/Diskretisierungsverfahren.md)

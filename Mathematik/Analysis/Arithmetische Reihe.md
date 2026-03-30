@@ -2,6 +2,7 @@
 tags: []
 aliases: []
 created: 30. Oktober 2023
+title: Arithmetische Reihe
 ---
 
 # Arithmetische Reihe

@@ -1,3 +1,6 @@
+---
+title: Geregelte Spannungsstabilisierung
+---
 # Geregelte Spannungsstabilisierung
 
 ## Kontinuierlicher Spannungsregler

@@ -1,8 +1,8 @@
 ---
 tags:
   - Analysis
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
@@ -12,6 +12,7 @@ professor:
   - Markus Passenbrunner
 satz:
   - PEAN
+title: Peano
 ---
  
 

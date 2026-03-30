@@ -17,6 +17,7 @@ subject:
 semester: SS24
 created: 2. Oktober 2023
 professor:
+title: Extremwert
 ---
  
 

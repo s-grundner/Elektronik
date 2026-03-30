@@ -16,6 +16,7 @@ created: 8th April 2022
 professor:
   - Bernhard Jakoby
   - Wolfgang Gruber
+title: Induktivität
 ---
  
 

@@ -7,6 +7,7 @@ aliases:
 subject:
   - hwe
 created: 2nd October 2022
+title: Primär getaktete Schaltregler
 ---
 
 # Primär getakteter [Schaltregler](index.md)

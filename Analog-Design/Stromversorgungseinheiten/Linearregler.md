@@ -9,6 +9,7 @@ aliases:
 subject:
   - hwe
 created: 16th March 2022
+title: Linear Regler
 ---
 
 # Linearregler

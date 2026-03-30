@@ -32,5 +32,6 @@ Blöcke von Standard Operationen:
 > - Integrieren: alle bisherigen werte aufsummieren
 > - Ableiten: Man muss beobachten, wie sich der Wert in kleines zeitstück im voraus ändert hat. 
 > - siehe: [Differenzieren](../Mathematik/Analysis/Differenzialrechnung.md#^fig1). hier rechnet man ja $x_{0}+\Delta x$
+> - Differenziere ist also nicht [Kausal](Kausalität.md)
 
 

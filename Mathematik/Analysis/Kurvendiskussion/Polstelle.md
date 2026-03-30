@@ -5,6 +5,7 @@ tags:
 aliases:
   - Oszillationsstelle
 created: 30th August 2023
+title: Polstelle
 ---
 
 # Polstelle

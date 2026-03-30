@@ -1,7 +1,9 @@
 ---
-tags: ["ComputerNetzwerke"]
-aliases: ["Socket"]
+tags:
+aliases:
+  - Socket
 created: 29th November 2022
+title: Socket
 ---
 
 # Socket

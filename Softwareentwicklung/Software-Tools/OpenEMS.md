@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - HF-Systemtechnik 1
 semester: WS24
 created: 7. Januar 2025
 professor:
+title: OpenEMS
 ---
  
 
@@ -17,4 +18,4 @@ professor:
 
 ---
 
-[FDTD](../DSA/FDTD.md)
+[FDTD](../DSA/Algorithmen/FDTD.md)

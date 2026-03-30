@@ -8,6 +8,7 @@ symbol: $\hbar$
 value: $1.054571817\cdot 10^{-34}$
 unit: $\mathrm{Js}$
 science: Physik
+title: Reduzierte Planck Konstante
 ---
 
 # Reduzierte Planck Konstante

@@ -7,6 +7,7 @@ aliases:
 subject:
   - ksn
 created: 1st December 2022
+title: Richtantennen
 ---
 
 # Richtantennen

@@ -1,8 +1,8 @@
 ---
 tags:
   - Software-Engineering
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Softwareentwicklung 2
@@ -11,6 +11,7 @@ semester:
   - B2
 created: 29. November 2022
 professor:
+title: Unit-Testing
 ---
  
 

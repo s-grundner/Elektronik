@@ -1,7 +1,11 @@
 ---
-tags: ["ComputerNetzwerke"]
-aliases: ["Session Layer", "Layer 5"]
+tags:
+  - OSI-Modell
+aliases:
+  - Session Layer
+  - Layer 5
 created: 30th August 2023
+title: Sitzungsschicht
 ---
 
 # Sitzungsschicht (OSI-Layer 5)

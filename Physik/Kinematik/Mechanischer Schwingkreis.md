@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Physik 1 für TechnikerInnen
   - VL
@@ -9,6 +9,7 @@ semester: WS23
 created: 24. Januar 2024
 professor:
   - Gunther Springholz
+title: Mechanischer Schwingkreis
 ---
  
 

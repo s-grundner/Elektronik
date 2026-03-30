@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Matrixnorm
 keywords:
@@ -10,6 +10,7 @@ subject:
 semester: WS24
 created: 30. Oktober 2024
 professor:
+title: Zeilenbetragssummendorm
 ---
  
 # Matrixnorm

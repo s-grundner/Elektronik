@@ -1,7 +1,9 @@
 ---
-tags: ["IoT"]
+tags:
+  - IoT
 aliases: []
 created: 29th November 2022
+title: IoT Projekte
 ---
 
 # Temperaturmessstation
@@ -14,13 +16,13 @@ Es ist eine Temperaturmessstation zu entwerfen:
 - die Auswertung erfolgt mittels [index](../../Digital-Design/ESP32/index.md)
 - der [index](../../Digital-Design/ESP32/index.md) sendet die Messdaten mittels [MQTT](MQTT.md)-Protokoll an den MQTT-Broker Mosquitto
 - von diesem Broker wiederum werden die Daten von einem RaspberryPi abgerufen
-- der Raspi legt die Daten in einer internen influxDB-[Datenbank](../../Datenbanken/Datenbank.md) ab
+- der Raspi legt die Daten in einer internen influxDB-[index](../Datenbanken/index.md) ab
 - die Bedienerschnittstelle wird mittels Grafana realisiert
 
 ## 1. [index](../../Digital-Design/ESP32/index.md)
 
 - VSCode
-- [Python](../../Python/Python.md)
+- [index](../Python/index.md)
 - Extension PlatformIO
 - Setup Environment <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/>
 - Setup Projekt, Flash-Programmieren, Serial Monitor

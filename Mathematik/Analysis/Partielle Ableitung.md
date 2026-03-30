@@ -3,7 +3,7 @@ tags:
   - Analysis/Differenzieren
 aliases:
   - Satz von Schwarz
-keywords: 
+keywords:
 subject:
   - KV
   - VL
@@ -18,6 +18,7 @@ satz:
   - SCHW
 def:
   - PART
+title: Partielle Ableitung
 ---
  
 

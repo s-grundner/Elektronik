@@ -1,3 +1,6 @@
+---
+title: Magnetischer Fluss
+---
 # Magnetischer Fluss
 
 > [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md)

@@ -7,6 +7,7 @@ aliases:
   - Differentialgleichung 2. Ordnung
   - Differentialgleichungen 2. Ordnung
 subject: mathe
+title: lineare DGL 2. Ordnung
 ---
 
 # Lineare Differentialgleichungen 2. Ordnung

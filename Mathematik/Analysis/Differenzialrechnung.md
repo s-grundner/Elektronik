@@ -1,5 +1,7 @@
 ---
-tags: [Analysis/Differenzieren, tikz]
+tags:
+  - Analysis/Differenzieren
+  - tikz
 aliases:
   - Differenzieren
   - Ableitung
@@ -16,6 +18,7 @@ created: 27. September 2024
 professor:
   - Andreas Neubauer
   - Rudolf Frauenschuh
+title: Differenzialrechnung
 ---
 
 # Differenzialrechnung

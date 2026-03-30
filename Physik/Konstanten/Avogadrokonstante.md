@@ -8,6 +8,7 @@ symbol: N_A
 value: "6.02214076e23"
 unit: 1/mol
 science: Chemie
+title: Avogadrokonstante
 ---
 
 # Avogadro Konstante

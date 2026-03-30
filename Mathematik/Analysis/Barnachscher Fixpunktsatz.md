@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Barnachraum
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 3
@@ -10,6 +10,7 @@ subject:
 semester: WS24
 created: 16. Oktober 2024
 professor:
+title: Barnachscher Fixpunktsatz
 ---
  
 # Barnachscher Fixpunktsatz

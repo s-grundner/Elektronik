@@ -1,0 +1,26 @@
+---
+tags:
+  - Material/Metal
+aliases:
+material:
+  - Cu
+spec-resistance:
+  - "1.72"
+  - $10^{-8}\Omega m$
+spec-conductance:
+  - "58"
+  - $10^{6}\frac{S}{m}$
+temperature-coeff:
+  - "38"
+  - $10^{-4}\frac{1}{K}$
+  - $\alpha$
+title: Kuofer
+---
+
+# Kupfer
+
+
+
+---
+
+- [Metall](../../Chemie/Metallbindung.md)

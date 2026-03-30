@@ -4,7 +4,7 @@ tags:
 aliases:
   - Massenmittelpunkt
   - Massenmittelpunkte
-keywords: 
+keywords:
 subject:
   - Physik 1 für TechnikerInnen
   - VL
@@ -12,6 +12,7 @@ semester: WS23
 created: 17th January 2024
 professor:
   - Gunther Springholz
+title: Vielteilchen Systeme
 ---
 
 # Vielteilchen-Systeme

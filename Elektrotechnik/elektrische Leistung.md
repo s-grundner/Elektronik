@@ -6,6 +6,7 @@ aliases:
 subject:
   - physik
 created: 24th November 2022
+title: eletrische Leistung
 ---
 
 # Elektrische Leistung

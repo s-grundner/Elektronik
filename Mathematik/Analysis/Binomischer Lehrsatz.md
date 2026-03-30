@@ -4,13 +4,14 @@ tags:
 aliases:
   - Binomische Formel
   - Binom
-keywords: 
+keywords:
 subject:
   - Mathematik 1
   - VL
 semester: WS23
 created: 4. März 2024
 professor:
+title: Binomscher Lehrsatz
 ---
 
 # Binom

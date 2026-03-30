@@ -8,7 +8,7 @@ aliases:
   - Satz 10.10
   - Definition 6.13
   - Prähilbertraum
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
@@ -24,6 +24,7 @@ def:
   - SKAX
 satz:
   - SKAP
+title: Skalarprodukt
 ---
  
 

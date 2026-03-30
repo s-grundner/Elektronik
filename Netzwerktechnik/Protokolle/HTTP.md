@@ -1,7 +1,9 @@
 ---
 tags: []
-aliases: ["Hypertext Transfer Protocol"]
+aliases:
+  - Hypertext Transfer Protocol
 created: 30th August 2023
+title: HTTP
 ---
 
 # Hypertext Transfer Protocol

@@ -13,6 +13,7 @@ professor:
   - Andreas Neubauer
 def:
   - TAYL
+title: Taylorreihe
 ---
 
 # Taylorreihe

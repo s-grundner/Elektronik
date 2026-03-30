@@ -4,6 +4,7 @@ tags:
 aliases:
   - PostgreSQL
 created: 29. November 2022
+title: Spring-PostgreSQL für Java
 ---
 
 # Spring-PostgreSQL

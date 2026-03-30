@@ -13,6 +13,7 @@ semester: WS24
 created: 22. September 2023
 professor:
 release: false
+title: Längsregler
 ---
 
 # Längstransistor Mit [Zener-Diode](../Halbleiter/Zener-Diode.md)

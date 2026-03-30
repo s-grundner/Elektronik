@@ -17,6 +17,7 @@ created: 26. November 2025
 professor:
   - Andreas Tröls
   - Marco Da Silva
+title: SAR-ADC
 ---
 
 # Analog Digital Umsetzer

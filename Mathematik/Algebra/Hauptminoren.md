@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 2
@@ -11,6 +11,7 @@ professor:
   - Andreas Neubauer
 def:
   - HMIN
+title: Hauptminoren
 ---
  
 

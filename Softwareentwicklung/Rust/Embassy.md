@@ -4,6 +4,7 @@ tags:
   - Embedded
 aliases:
 created: 11. Januar 2025
+title: Embassy
 ---
 
 # [Embassy](https://embassy.dev/)

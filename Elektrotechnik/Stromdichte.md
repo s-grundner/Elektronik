@@ -1,8 +1,8 @@
 ---
 tags:
   - tikz
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
@@ -10,6 +10,7 @@ semester: WS23
 created: 3. März 2024
 professor:
   - Bernhard Jakoby
+title: Stromdichte
 ---
  
 

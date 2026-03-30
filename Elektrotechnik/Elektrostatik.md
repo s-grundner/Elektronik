@@ -8,6 +8,7 @@ subject:
 semester: SS24
 created: 3. Juni 2024
 professor:
+title: Elektrostatik
 ---
  
 

@@ -4,6 +4,7 @@ tags:
   - C/stream
 aliases: []
 created: 29. November 2022
+title: Streams
 ---
 
 # Umleitungen

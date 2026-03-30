@@ -6,6 +6,7 @@ aliases:
   - Verkettete Liste
 subject: []
 created: 17th April 2022
+title: Linked List
 ---
 
 # Verkette Liste
@@ -22,7 +23,7 @@ Eine Lösung bieten die **verketteten Listen**. Jedes Element einer verketteten 
 
 > [!error] Nachteil gegenüber Arrays
 > Listenknoten sind nicht indexiert, man muss also durch die gesamte Liste iterieren um ein Element zu finden.
-> - Lösung in [Java]({MOC}%20Java.md) ist die `ArrayList<T>` (siehe [[../Java/Generics]]) welche für jedes Element einen Index mitführt.
+> - Lösung in [Java](../Java/index.md) ist die `ArrayList<T>` (siehe [[../Java/Generics]]) welche für jedes Element einen Index mitführt.
 > 
 > Brauchen mehr Speicherplatz
 

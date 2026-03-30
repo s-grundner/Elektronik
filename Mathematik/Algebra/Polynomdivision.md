@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Mathematik1
   - "357.100"
 semester: WS23
 created: 30. August 2023
 professor:
+title: Polynomdivision
 ---
  
 

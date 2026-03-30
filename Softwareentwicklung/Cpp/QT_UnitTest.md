@@ -1,3 +1,8 @@
+---
+tags:
+  - Cpp/QT
+title: Unittests
+---
 # Unit-Test Mit QTCreator [C++](index.md) (651)
 
 - [Chapter 1: Writing a Unit Test | Qt Test 5.15.16](https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html)

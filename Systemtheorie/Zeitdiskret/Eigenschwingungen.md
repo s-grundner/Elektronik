@@ -1,3 +1,6 @@
+---
+title: Eigenschwingungen
+---
 ## Eigenschwingungen
 
 Die Behandlung der Eigenschwingungen von zeitdiskreten LTI-Systemen erfolgt analog zu jener von zeitkontinuierlichen Systemen. Es werden auch hier spezielle Lösungen des autonomen Systems

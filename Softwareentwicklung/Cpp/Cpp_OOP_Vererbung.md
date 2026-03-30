@@ -1,3 +1,9 @@
+---
+tags:
+  - Cpp
+  - OOP
+title: Vererbung
+---
 # Vererbung
 
 Ziel soll sein: einmal programmiert - so oft wie möglich verwenden. Die Vorteile sind klar:

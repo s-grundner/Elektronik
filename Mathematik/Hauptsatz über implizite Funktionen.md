@@ -8,6 +8,7 @@ subject:
 semester: SS24
 created: 16. April 2024
 professor:
+title: Hauptsatz über implizite Funktion
 ---
  
 

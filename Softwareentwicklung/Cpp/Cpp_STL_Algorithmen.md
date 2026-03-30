@@ -4,6 +4,7 @@ tags:
   - Algorithmus
 aliases: []
 created: 5. September 2023
+title: STL Algorithmen
 ---
 
 # [STL](Cpp_STL.md) Algorithmen

@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 16. Oktober 2024
 professor:
+title: Riccati-DGL
 ---
  
 

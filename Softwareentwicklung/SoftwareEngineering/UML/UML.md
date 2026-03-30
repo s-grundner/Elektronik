@@ -4,6 +4,7 @@ tags:
 aliases:
   - Unified Modeling Language
 created: 29th November 2022
+title: UML
 ---
 
 # Unified Modeling Language - UML

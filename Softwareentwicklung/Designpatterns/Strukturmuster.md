@@ -1,8 +1,8 @@
 ---
 tags:
   - Software-Engineering/DesignPattern
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Softwareentwicklung 2
@@ -11,6 +11,7 @@ semester:
   - B2
 created: 23. März 2024
 professor:
+title: Strukturmuster
 ---
 
 # Strukturmuster

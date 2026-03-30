@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Hauptvektoren
   - Hauptvektor
@@ -11,6 +11,7 @@ subject:
 semester: WS24
 created: 30. Oktober 2024
 professor:
+title: Lineare DGL-Systeme mit konstanten koeffizienten
 ---
  
 

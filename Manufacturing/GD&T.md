@@ -2,6 +2,7 @@
 tags:
 aliases:
 created: 11. November 2024
+title: Geometric Dimensioning and Tolerancing
 ---
 
 # Geometric Dimension & Tolerance

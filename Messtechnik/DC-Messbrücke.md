@@ -10,6 +10,7 @@ subject:
 semester: SS24
 created: 31. August 2023
 professor:
+title: DC-Messbrücke
 ---
  
 

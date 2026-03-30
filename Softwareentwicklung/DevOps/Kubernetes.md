@@ -1,9 +1,10 @@
 ---
-tags: 
+tags:
 aliases:
   - k8s
 created: 22. Februar 2025
 release: false
+title: Kubernetes
 ---
 
 # Kubernetes

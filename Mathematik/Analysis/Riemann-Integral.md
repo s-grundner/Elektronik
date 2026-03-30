@@ -13,6 +13,7 @@ semester: SS24
 created: 18. April 2024
 professor:
   - Andreas Neubauer
+title: Riemann Integral
 ---
  
 

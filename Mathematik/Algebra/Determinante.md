@@ -5,7 +5,7 @@ aliases:
   - Sarrus
   - Laplace-Entwicklungssatz
   - Determinanten
-keywords: 
+keywords:
 subject:
   - Mathematik 1
   - VL
@@ -14,6 +14,7 @@ created: 27. Januar 2024
 professor:
   - Andreas Neubauer
   - Susanne Saminger-Platz
+title: Determinante
 ---
  
 
@@ -25,7 +26,7 @@ professor:
 > - ob ein [lineares Gleichungssystem](Lineare%20Gleichungssysteme.md) eindeutig lösbar ist.
 
 > [!def] **D1 - DET)** Determinante: $\det A$ oder $|A|$ ^DET
-> Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DSA/Rekursion.md) definiert:
+> Sei $A$ eine quadratische [Matrix](Matrix.md). Die *Determinante* von $A$ ist [rekursiv](../../Softwareentwicklung/DSA/Algorithmen/Rekursion.md) definiert:
 > - ist $A=(a_{11}\in \mathbb{R}^{1\times 1})$, so ist $\det A$ definiert als:  
 >
 > $$\det A:=a_{11}$$

@@ -4,6 +4,7 @@ aliases: []
 subject:
   - ksn
 created: 28th November 2022
+title: Poynting Vektor
 ---
 
 # Poynting Vektor

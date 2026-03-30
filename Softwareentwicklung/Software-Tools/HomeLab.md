@@ -1,3 +1,6 @@
+---
+title: HomeLab
+---
 # Home Lab Resources
 
 ## Networking

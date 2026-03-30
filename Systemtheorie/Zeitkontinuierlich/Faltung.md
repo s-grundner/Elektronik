@@ -10,6 +10,7 @@ created: 3rd February 2023
 professor:
   - Andreas Stelzer 🕊️
 semester: WS24
+title: Faltungs
 ---
 
 # Faltung

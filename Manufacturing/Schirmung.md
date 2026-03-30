@@ -1,3 +1,6 @@
+---
+title: Schirmung
+---
 # Schirmung
 
 >[!INFO] Die Koppelkapazität teilt sich auf:  

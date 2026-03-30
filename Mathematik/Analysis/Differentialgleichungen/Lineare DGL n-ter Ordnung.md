@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 6th November 2024
 professor:
+title: Lineare DGL n-ter Ordnung
 ---
  
 

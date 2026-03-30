@@ -1,0 +1,25 @@
+---
+tags:
+  - Material/Metal
+aliases:
+material:
+  - Ag
+spec-resistance:
+  - "1.6"
+  - $10^{-8}\Omega m$
+spec-conductance:
+  - "62.5"
+  - $10^{8}\frac{S}{m}$
+temperature-coeff:
+  - "37.7"
+  - $10^{-4}\frac{1}{K}$
+  - $\alpha$
+title: Silber
+---
+
+# Silber
+
+---
+
+- [Metall](../../Chemie/Metallbindung.md)
+

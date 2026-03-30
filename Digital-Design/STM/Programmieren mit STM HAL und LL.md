@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - PR
   - Networked Embedded Systems
@@ -10,6 +10,7 @@ semester:
   - B2
 created: 20. März 2024
 professor:
+title: Programmieren Mit STM HAL und LL
 ---
  
 

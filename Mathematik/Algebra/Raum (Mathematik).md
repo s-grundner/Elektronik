@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Raum
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
@@ -10,6 +10,7 @@ subject:
 semester: WS24
 created: 22. Oktober 2024
 professor:
+title: Freiraumwellenwiderstand
 ---
  
 

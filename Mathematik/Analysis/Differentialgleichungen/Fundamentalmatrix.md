@@ -11,6 +11,7 @@ subject:
 semester: WS24
 created: 30. Oktober 2024
 professor:
+title: Fundamentalmatrix
 ---
  
 
@@ -81,4 +82,4 @@ Die Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme.md#^AWP1-1) lässt sich 
 
 ## Ermittlung der Transitionsmatrix
 
-Zur Ermittlung der Transitionsmatrix kann für **entkoppelte Systeme** bzw. 1-dimensionale Systeme [Trennen der Variablen](../../Algebra/Trennen%20der%20Variablen.md) angewendet werden. Ansonsten bringt man das System in seine [Jordannormalform](../../Algebra/Jordannormalform.md) (Koordinatentransformation des Systems, sodass das neue System entkoppelt ist.)
+Zur Ermittlung der Transitionsmatrix kann für **entkoppelte Systeme** bzw. 1-dimensionale Systeme [Trennen der Variablen](../Trennen%20der%20Variablen.md) angewendet werden. Ansonsten bringt man das System in seine [Jordannormalform](../../Algebra/Jordannormalform.md) (Koordinatentransformation des Systems, sodass das neue System entkoppelt ist.)

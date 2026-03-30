@@ -19,7 +19,7 @@ title: Inter-Integrated Circuit
 
 # I²C
 
-I2C is short for Inter-Integrated Circuit, which literally means the interconnection between multiple ICs. I2C is a simple Communication protocol which works on a serial data bus consisting of two wires, the Serial Data Line (SDA) and the Serial [Clock](../../Analog-Design/Oszillatoren/Clock-Generierung.md) Line (SCL). The I2C-bus has following aspects:
+I2C is short for Inter-Integrated Circuit, which literally means the interconnection between multiple ICs. I2C is a simple Communication protocol which works on a serial data bus consisting of two wires, the Serial Data Line (SDA) and the Serial [Clock](../Clock-Generierung.md) Line (SCL). The I2C-bus has following aspects:
 
 - **Serial:** The data is transmitted on one line , where the data word is sent out bit by bit.
 - **Synchronous:** The bus has a clock line, controlling when a data word begins, and a bit is read.

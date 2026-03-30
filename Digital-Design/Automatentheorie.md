@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Mealy
   - Moore
@@ -15,6 +15,7 @@ semester: WS23
 created: 28. November 2023
 professor:
   - Timm Ostermann
+title: Automatentheorie
 ---
  
 

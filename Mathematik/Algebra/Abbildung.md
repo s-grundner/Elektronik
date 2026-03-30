@@ -1,16 +1,17 @@
 ---
-tags: 
+tags:
 aliases:
   - Abbildungen
   - bijektiv
   - surjektiv
   - injektiv
-keywords: 
+keywords:
 subject:
   - Mathematik 1
 semester: WS23
 created: 7. November 2023
 professor:
+title: Abbildung
 ---
 
 # Abbildungen / Mathematische Funktionen

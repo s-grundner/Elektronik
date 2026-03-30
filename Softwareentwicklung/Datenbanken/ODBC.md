@@ -1,7 +1,9 @@
 ---
-tags: ["DB"]
+tags:
+  - DB
 aliases: []
 created: 29. November 2022
+title: ODBC
 ---
 
 # Open Database Connectivity ODBC

@@ -1,12 +1,13 @@
 ---
-tags: 
+tags:
 aliases:
   - Scheitelpunktform
-keywords: 
-subject: 
-semester: 
+keywords:
+subject:
+semester:
 created: 28. November 2024
 professor:
+title: Quadratische Ergänzung
 ---
  
 # Quadratische Ergänzung

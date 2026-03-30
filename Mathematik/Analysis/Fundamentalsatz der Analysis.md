@@ -3,7 +3,7 @@ tags:
   - Analysis
 aliases:
   - Hauptsatz der Differenzial- und Integralrechnung
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
@@ -13,6 +13,7 @@ professor:
   - Andreas Neubauer
 satz:
   - ALYS
+title: Fundamentalsatz der Analysis
 ---
  
 

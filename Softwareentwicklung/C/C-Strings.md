@@ -1,7 +1,9 @@
 ---
-tags: ["C"]
+tags:
+  - C
 aliases: []
 created: 29th November 2022
+title: Strings
 ---
 
 # Zeichenketten/Strings

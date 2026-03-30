@@ -1,13 +1,14 @@
 ---
-tags: 
+tags:
 aliases: []
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
 semester: WS24
 created: 7. Januar 2025
 professor:
+title: Poissonsche Summenformel
 ---
  
 

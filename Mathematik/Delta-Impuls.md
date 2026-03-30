@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Dirac-Impuls
   - Dirac-Funktion
@@ -13,12 +13,13 @@ subject:
   - Signalverarbeitung
   - Signale und Systeme
 created: 6th November 2024
-keywords: 
+keywords:
 semester: WS23
 professor:
   - Mario Huemer
   - Andreas Neubauer
   - Andreas Stelzer
+title: Delta-Distribution
 ---
 
 # Delta-Impuls $\delta(t)$

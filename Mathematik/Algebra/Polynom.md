@@ -6,18 +6,19 @@ aliases:
   - Nullstellen
   - Nullstelle
   - NST
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
   - KV
 semester: WS23
 created: 30. Oktober 2023
-professor: 
+professor:
 satz:
   - ALGE
 def:
   - POLY
+title: Hurwitzpolynom
 ---
  
 

@@ -7,6 +7,7 @@ aliases:
 subject:
   - hwe
 created: 7th November 2022
+title: Wien-Brücke Oszillator
 ---
 
 # Wien-Brücke Oszillator

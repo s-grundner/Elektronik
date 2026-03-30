@@ -1,7 +1,10 @@
 ---
-tags: ["ComputerNetzwerke"]
-aliases: ["Presentation Layer", "Layer 6"]
+tags:
+aliases:
+  - Presentation Layer
+  - Layer 6
 created: 30th August 2023
+title: Darstellungsschichte
 ---
 
 # Darstellungsschicht (OSI-Layer 6)

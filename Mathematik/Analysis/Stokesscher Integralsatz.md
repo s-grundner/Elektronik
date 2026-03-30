@@ -5,7 +5,7 @@ tags:
   - Analysis/Vektoranalysis
 aliases:
   - Satz von Stokes
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 3
@@ -15,6 +15,7 @@ professor:
   - Andreas Neubauer
 satz:
   - STOI
+title: Stokesscher Integralsatz
 ---
  
 

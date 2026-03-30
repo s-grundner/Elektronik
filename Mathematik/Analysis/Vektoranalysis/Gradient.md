@@ -7,7 +7,7 @@ aliases:
   - Gradienten
   - Hessematrix
   - Hesse-Matrix
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
@@ -17,6 +17,7 @@ professor:
   - Andreas Neubauer
 def:
   - GRAD
+title: GRadient
 ---
 
 # Gradient

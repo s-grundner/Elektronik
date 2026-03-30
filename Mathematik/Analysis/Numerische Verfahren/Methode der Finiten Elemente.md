@@ -4,6 +4,7 @@ tags:
 aliases:
   - finite Element Method
 created: 10. November 2024
+title: Methode der Finiten Elemente
 ---
 
 # Methode der Finiten Elemente

@@ -3,6 +3,7 @@ tags:
   - Rust
 aliases:
 created: 2. August 2024
+title: Datentypen
 ---
 
 # Datentypen

@@ -8,7 +8,7 @@ aliases:
   - Schaltungsanalyse
   - elektrische Netzwerke
   - elektrisches Netzwerk
-keywords: 
+keywords:
 subject:
   - VL
   - Elektrotechnik
@@ -16,6 +16,7 @@ semester: SS24
 created: 4. März 2024
 professor:
   - Andreas Springer
+title: Lineare Elektrische Netzwerke
 ---
  
 
@@ -52,7 +53,7 @@ Wir nehmen an, dass alle Zweipole ($R$, $L$, $C$, Quellen) bekannt sind und dass
 
 ## Systematische Analyse linearer Netzwerke
 
-> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/DSA/{MOC}%20Algorithmus.md)) für die Analyse ist notwendig für:
+> [!info] Eine systematisches Verfahren ([Algorithmus](../Softwareentwicklung/DSA/Algorithmen/index.md)) für die Analyse ist notwendig für:
 > - Analyse komplexerer Netzwerke
 > - Computer gestützte Verfahren
 

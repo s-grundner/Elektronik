@@ -4,7 +4,7 @@ tags:
   - Algebra/LineareAlgebra
 aliases:
   - Gaußsches Eliminationsverfahren
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
@@ -12,6 +12,7 @@ semester: WS23
 created: 27. Januar 2024
 professor:
   - Andreas Neubauer
+title: Gauß-Algorithmus
 ---
 
 # Gauss-Algorithmus

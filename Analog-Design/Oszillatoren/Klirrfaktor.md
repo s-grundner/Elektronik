@@ -6,6 +6,7 @@ aliases:
 subject:
   - hwe
 created: 3rd January 2023
+title: Klirrfaktor
 ---
 
 # Klirrfaktor
@@ -18,7 +19,7 @@ Der Klirrfaktor beschreibt das Verhältnis der Oberwellen zur Grundwelle plus Ob
 > - $N\dots$ Gesamtes Signals (Grundschwingung mit Oberwellen)
 > - $A_{n}\dots$ Amplituden der $n$-ten Komponente
 
-## Klirrfaktor bei [Oszillatoren](Clock-Generierung.md)
+## Klirrfaktor bei [Oszillatoren](../../Digital-Design/Clock-Generierung.md)
 
 - Für Sinusoszillatoren ist die spektrale Reinheit des Ausgangssignals von entscheidender Bedeutung.
 - Der hierbei verwendete Kennwert ist der Klirrfaktor.

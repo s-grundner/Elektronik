@@ -5,6 +5,7 @@ aliases: []
 subject:
   - fsst
 created: 17th April 2022
+title: Heap
 ---
 
 # Heap

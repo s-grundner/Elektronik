@@ -1,8 +1,10 @@
 ---
-tags: ["C"]
+tags:
+  - C
 subject: fsst
 aliases: []
 created: 29th November 2022
+title: Einführung
 ---
 
 # Einführung C

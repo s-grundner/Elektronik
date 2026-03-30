@@ -1,3 +1,6 @@
+---
+title: Macros
+---
 # Macros
 
 > [!example] bezeichnet mit einem '!'

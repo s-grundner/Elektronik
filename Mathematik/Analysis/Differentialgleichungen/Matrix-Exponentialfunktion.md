@@ -1,15 +1,16 @@
 ---
-tags: 
+tags:
 aliases:
   - Matrix-Exponential
   - Matrixexponential
-keywords: 
+keywords:
 subject:
   - Mathematik 3
   - VL
 semester: WS24
 created: 22. Februar 2025
 professor:
+title: Matrix-Exponentialfunktion
 ---
  
 

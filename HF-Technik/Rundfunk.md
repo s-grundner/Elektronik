@@ -6,6 +6,7 @@ aliases:
 subject:
   - ksn, physik
 created: 21st June 2022
+title: Rundfunk
 ---
 
 # Rundfunk

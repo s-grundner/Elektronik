@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Dreiecksungleichung
   - Satz 3.30
-keywords: 
+keywords:
 subject:
   - Mathematik 1
   - VL
@@ -11,6 +11,7 @@ semester: WS23
 created: 23. Oktober 2023
 professor:
   - Andreas Neubauer
+title: Betragssummennorm
 ---
  
 

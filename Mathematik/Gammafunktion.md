@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Signale und Systeme
   - VL
 semester: WS24
 created: 4. Februar 2025
 professor:
+title: Gammafunktion
 ---
  
 

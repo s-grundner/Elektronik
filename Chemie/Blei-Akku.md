@@ -9,7 +9,7 @@ release: false
 
 # Blei Akku
 
-> [!question] [Blei](../Physik/Materialkunde/Blei.md), [Akku](Sekundärelement.md)
+> [!question] [Blei](Materialkunde/Blei.md), [Akku](Sekundärelement.md)
 
 - Der Ladezustand kann mittels der **Dichte** der **Akkusäure** festgestellt werden.  
 	$\rightarrow$ Aräometer

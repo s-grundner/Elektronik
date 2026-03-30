@@ -14,6 +14,7 @@ professor:
   - Andreas Stelzer 🕊️
   - Andreas Springer
   - Markus Schöberl
+title: LTI-Systeme
 ---
 
 # LTI-Systeme

@@ -1,7 +1,10 @@
 ---
-tags: ["Java", "Java/strings"]
+tags:
+  - Java
+  - Java/strings
 aliases: []
 created: 29th November 2022
+title: Strings
 ---
 
 # Zeichenketten / Strings / Stringbuffer

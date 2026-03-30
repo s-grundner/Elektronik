@@ -10,6 +10,7 @@ semester: WS23
 created: 17. April 2024
 professor:
 complexity: $\mathcal{O}(n)$
+title: Hornerschema
 ---
  
 

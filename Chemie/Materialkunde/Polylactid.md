@@ -1,0 +1,14 @@
+---
+tags:
+  - Material/Plastic
+aliases:
+  - PLA
+created: 26. Dezember 2023
+material:
+  - PLA
+title: PLA - Polylactid
+---
+
+# Polylactid (PLA)
+
+Der hier verwendete Kunststoff ist Polylactid (PLA), ein in [FDM](../../Manufacturing/3D-Printing.md)-Druckern häufig verwendeter Polyester, welcher auf aus Pflanzenstärke gewonnener Milchsäure basiert.

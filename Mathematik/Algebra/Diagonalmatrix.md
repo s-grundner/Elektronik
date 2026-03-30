@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Diagonalmatrizen
-keywords: 
+keywords:
 subject:
   - Mathematik 1
   - VL
 semester: WS23
 created: 29. Januar 2024
 professor:
+title: Diagonalmatrix
 ---
  
 

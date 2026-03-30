@@ -1,3 +1,11 @@
+---
+title: Analoge Modulation
+tags:
+aliases:
+created: 9th December 2025
+release: false
+---
+
 # Analoge Modulation
 
 > [!question] [Modulation](Modulation.md)

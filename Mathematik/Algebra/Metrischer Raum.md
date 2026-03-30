@@ -4,19 +4,20 @@ tags:
   - Axiome/Metrik
 aliases:
   - Metrik
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
 semester: WS24
 created: 22. Oktober 2024
-professor: 
+professor:
 axiome:
   - M1
   - M2
   - M3
   - M4
   - M5
+title: Metrischer Raum
 ---
  
 

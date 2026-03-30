@@ -5,6 +5,7 @@ aliases:
 subject:
   - physik
 created: 28th November 2022
+title: Schwarzkörperstrahlung
 ---
 
 # Schwarzkörperstrahlung

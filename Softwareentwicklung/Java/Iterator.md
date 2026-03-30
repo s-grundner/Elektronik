@@ -8,6 +8,7 @@ subject:
 semester: SS24
 created: 20. Juni 2024
 professor:
+title: Iteratoren
 ---
  
 

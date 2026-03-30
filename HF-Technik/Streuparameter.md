@@ -5,6 +5,7 @@ aliases:
 subject:
   - ksn
 created: 28th September 2022
+title: Streubparameter
 ---
 
 # Streuparameter

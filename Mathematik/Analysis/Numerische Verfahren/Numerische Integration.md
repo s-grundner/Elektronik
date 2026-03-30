@@ -9,11 +9,13 @@ subject:
   - VL
   - Mathematik 2
 semester: SS24
-created: 11. Juni 2024
+created: 27th March 2026
 professor:
   - Andreas Neubauer
+title: Numerische Integration
+release: false
 ---
- 
+
 
 # Numerische Integration
 

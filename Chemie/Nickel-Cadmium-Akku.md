@@ -10,7 +10,7 @@ release: false
 
 # Nickel-Cadmium-Akku
 
-> [!question] [Nickel](../Physik/Materialkunde/Nickel.md), [Akku](Sekundärelement.md)
+> [!question] [Nickel](Materialkunde/Nickel.md), [Akku](Sekundärelement.md)
 
 - Für unregelmäßigen Gebrauch besser geeignet.
 - leichter und wartungsfrei.

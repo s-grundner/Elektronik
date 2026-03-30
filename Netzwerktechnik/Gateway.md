@@ -1,10 +1,10 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases:
   - Gateways
 subject:
   - ksn
+title: Gateway
 ---
 
 # Gateways

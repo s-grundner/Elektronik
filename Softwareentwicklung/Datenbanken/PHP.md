@@ -5,6 +5,7 @@ aliases:
   - Personal Home Page Tools
   - Hypertext Preprocessor
 created: 29. November 2022
+title: PHP
 ---
 
 # PHP

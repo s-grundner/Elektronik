@@ -1,10 +1,10 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases:
   - Classless Inter Domain Routing
 subject:
   - ksn
+title: Classless Inter Domain Routing
 ---
 
 # CIDR - Classless Inter-Domain Routing

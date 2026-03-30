@@ -5,6 +5,7 @@ tags:
 aliases:
   - Definitionslücke
 created: 30th August 2023
+title: Definitionsmenge
 ---
 
 # Definitionsmenge

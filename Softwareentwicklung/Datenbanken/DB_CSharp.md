@@ -1,9 +1,9 @@
 ---
 tags:
-  - C#
 aliases:
   - C#
 created: 29. November 2022
+title: Datenbanken in C#
 ---
 
 # C\#

@@ -1,7 +1,9 @@
 ---
-tags: ["IoT"]
+tags:
+  - IoT
 aliases: []
 created: 29th November 2022
+title: Grafana
 ---
 
 # Grafana

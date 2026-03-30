@@ -9,6 +9,7 @@ subject:
 semester: SS24
 created: 8. April 2024
 professor:
+title: Parallelschwingkreis
 ---
  
 

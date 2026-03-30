@@ -7,7 +7,7 @@ aliases:
   - Stroms
   - elektrischen Stroms
   - elektrischen Strom
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
@@ -15,6 +15,7 @@ semester: WS23
 created: 1. März 2024
 professor:
   - Bernhard Jakoby
+title: elektrischer Strom
 ---
  
 

@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Anpass-Netzwerk
   - Matched Termination
@@ -10,6 +10,7 @@ subject:
 semester: WS24
 professor:
   - Reinhard Feger
+title: Impedanz-Anpassung
 ---
 
 # Impedanz Anpassung
@@ -54,7 +55,7 @@ professor:
 
 ## Tags
 
-- [Paralleler Leitungsabschluss](Paralleler%20Leitungsabschluss.md)
+- [Paralleler Leitungsabschluss](../Analog-Design/Paralleler%20Leitungsabschluss.md)
 - [Serieller Leitungsabschluss](../Analog-Design/Serial%20Termination.md)
 
 ## Quellen

@@ -81,7 +81,7 @@ $$
 > Ihr gegenüber steht die [Fourierreihe](Zeitkontinuierlich/Fourierreihe.md), mit welcher sich das Spektrum periodischer Funktionen berechnen lässt.  
 > Sie ist in vielen Bereichen von Wissenschaft und Technik unerlässlich.
 > 
-> - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](Frequenzbereichsmethoden/DFT.md) ([[Frequenzbereichsmethoden/DFT]]) und die Schnelle Fourier Transformation ([FFT](../../Softwareentwicklung/DSA/FFT.md)).
+> - Vor allem bei der Datenkomprimierung spielt sie eine große Rolle. Um sie von einem Computer ausführen zu lassen gibt es die [Diskrete Fourier Transformation](Frequenzbereichsmethoden/DFT.md) ([[Frequenzbereichsmethoden/DFT]]) und die Schnelle Fourier Transformation ([FFT](../Signalverarbeitung/FFT.md)).
 
 ## Unterschied zur Fourierreihe
 

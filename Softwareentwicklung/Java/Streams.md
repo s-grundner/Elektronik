@@ -9,6 +9,7 @@ subject:
 semester: SS24
 created: 21. September 2023
 professor:
+title: Streams
 ---
  
 

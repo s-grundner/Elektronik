@@ -1,3 +1,6 @@
+---
+title: Integration durch Substitution
+---
 # Integration durch Substitution
 
 > [!important] **Substitutionsregel**: Seien $I_0, I \subset \mathbb{R}$ Intervalle, $g: I_0 \rightarrow I$ differenzierbar und $f: I \rightarrow \mathbb{R}$.

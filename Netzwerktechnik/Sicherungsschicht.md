@@ -1,6 +1,6 @@
 ---
 tags:
-  - ComputerNetzwerke
+  - OSI-Modell
 aliases:
   - Data Link Layer
   - Layer 2
@@ -8,6 +8,7 @@ aliases:
 subject:
   - ksn
 created: 4th April 2022
+title: Sicherungsschicht
 ---
 
 # Sicherungsschicht (OSI-Layer 2)

@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Arkusfunktionen
   - Areafunktionen
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
@@ -11,6 +11,7 @@ semester: WS23
 created: 29. September 2024
 professor:
   - Andreas Neubauer
+title: Hyperbolische Funktionen
 ---
  
 

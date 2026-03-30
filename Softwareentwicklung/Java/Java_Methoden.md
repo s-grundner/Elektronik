@@ -7,6 +7,7 @@ aliases:
   - Prozeduren
   - Methoden
 created: 29th November 2022
+title: Methoden
 ---
 
 # 8 Methoden / Funktionen

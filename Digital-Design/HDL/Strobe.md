@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - PR
   - Hardwaredesign
 semester: WS24
 created: 14. Oktober 2024
 professor:
+title: Strobe
 ---
  
 

@@ -17,6 +17,7 @@ created: 10. Oktober 2024
 professor:
   - Reinhard Feger
 release: true
+title: Leitergeometrie
 ---
  
 # Leitergeometrien von HF-Leitungen

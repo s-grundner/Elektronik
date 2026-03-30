@@ -10,6 +10,7 @@ subject:
 semester: WS23
 created: 17. April 2024
 professor:
+title: Definitheit
 ---
  
 

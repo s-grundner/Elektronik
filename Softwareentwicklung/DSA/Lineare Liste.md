@@ -9,6 +9,7 @@ semester: SS24
 created: 24. April 2024
 professor:
   - Rick Rabiser
+title: Lineare Liste
 ---
  
 
@@ -121,6 +122,3 @@ void insert (int val) {
 }
 ```
 
-```java title:"Löschen"
-
-```

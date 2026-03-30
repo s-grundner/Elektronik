@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - D-Diagramm
-keywords: 
+keywords:
 subject:
   - Algorithmen und Datenstrukturen
   - VL
@@ -11,6 +11,7 @@ semester:
   - B2
 created: 13. März 2024
 professor:
+title: Ablaufdiagramme
 ---
  
 

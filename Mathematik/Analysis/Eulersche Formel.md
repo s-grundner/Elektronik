@@ -4,6 +4,7 @@ aliases: []
 subject:
   - mathe
 created: 26th April 2022
+title: Eulersche Formel
 ---
 
 # Eulersche Formel

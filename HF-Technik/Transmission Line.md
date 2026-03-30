@@ -15,6 +15,7 @@ semester: WS24
 created: 4. Oktober 2024
 professor:
   - Reinhard Feger
+title: Transmission Line
 ---
  
 

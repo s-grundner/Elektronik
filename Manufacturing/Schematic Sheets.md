@@ -5,6 +5,7 @@ tags:
   - ECAD
 aliases:
 created: 8. November 2024
+title: Schaltplanentwurf
 ---
 
 # Schematic Sheets

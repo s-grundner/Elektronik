@@ -14,6 +14,7 @@ semester: SS24
 created: 29. November 2022
 professor:
   - Markus Weninger
+title: Designpatterns
 ---
  
 

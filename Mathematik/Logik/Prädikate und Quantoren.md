@@ -22,6 +22,7 @@ semester: WS23
 created: 8. Oktober 2023
 professor:
   - Andreas Neubauer
+title: Prädikate und Quantoren
 ---
 
 # Prädikate und Quantoren

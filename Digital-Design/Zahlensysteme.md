@@ -12,6 +12,7 @@ semester: WS23
 created: 3. Oktober 2023
 professor:
   - Timm Ostermann
+title: Zahlensysteme
 ---
  
 

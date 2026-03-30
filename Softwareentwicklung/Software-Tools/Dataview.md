@@ -4,6 +4,7 @@ tags:
 aliases:
   - "#Dataview"
 created: 31. Dezember 2024
+title: Dataview
 ---
 
 # Dataview JS

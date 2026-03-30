@@ -6,6 +6,7 @@ aliases:
 subject:
   - hwe
 created: 26th September 2022
+title: Inverswandler
 ---
 
 # Inverswandler

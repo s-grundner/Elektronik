@@ -5,6 +5,7 @@ aliases: []
 subject:
   - mathe
 created: 30th November 2022
+title: Standardabweichung
 ---
 
 # Standardabweichung

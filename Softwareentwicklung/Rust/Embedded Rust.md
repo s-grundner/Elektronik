@@ -1,3 +1,6 @@
+---
+title: Embedded Rust
+---
 # Embedded Rust
 
 - [Embassy](Embassy.md)

@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Drude-Theorie
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
@@ -10,6 +10,7 @@ semester: WS23
 created: 2. März 2024
 professor:
   - Bernhard Jakoby
+title: Drude-Modell
 ---
  
 
@@ -27,7 +28,7 @@ Obwohl sich die Elektronen individuell betrachtet durch die [thermische](../../P
 
 ![invert_light|250](../_assets/V_ThermEFeld.png)
 
-Da in einem konstanten [Elektrischen Feld](elektrisches%20Feld.md) auf ein Elektron die [Coulomb-Kraft](Coulomb-Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../../Physik/Kinematik/{MOC}%20Kräfte.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen.
+Da in einem konstanten [Elektrischen Feld](elektrisches%20Feld.md) auf ein Elektron die [Coulomb-Kraft](Coulomb-Kraft.md) $-e\cdot \vec{E}$ wirkt und *massebehaftete* Körper (also auch Elektronen) unter Einfluss einer [Kraft](../Physik/Kinematik/Kräfte.md) beschleunigen, müssten alle Elektronen unter Einfluss dieses E-Feldes in negative Richtung beschleunigen.
 
 > [!warning] Unter Annahme eines konstanten Feldes $\mathbf{E}$ würde ein Elektron mit der Kraft $-e\cdot\mathbf{E}$ beschleunigt.
 > Tatsächlich stellt sich aber eine mittlere Driftgeschwindigkeit 𝐯 ein, die in erster Näherung proportional zu 𝐄 ist.

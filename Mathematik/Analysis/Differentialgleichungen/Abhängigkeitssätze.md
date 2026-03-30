@@ -1,13 +1,16 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+  - Fehlerfortpflanzung
+  - Übertragungsmatrix
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 23. Oktober 2024
 professor:
+title: Abhängigkeitssätze
 ---
  
 
@@ -30,7 +33,7 @@ professor:
 > [!question] Der Ausdruck $x(t;t_{0}, x_{0})$ bedeutet: (Siehe [AWP](Differentialgleichungen/index.md))
 > $x(t)$ mit den anfangswerten $x(t_{0})=x_{0}$ ($x_{0}$ und $t_{0}$ können auch Vektoren sein)
 
-> [!info] Die **Übertragungsmatrix** (allg. Jacobimatrix) ist ein Maß zur Güte der Fehlerfortpflanzung.
+> [!info] Die **Übertragungsmatrix** (allg. [Jacobi-Matrix](../Vektoranalysis/Gradient.md)) ist ein Maß zur Güte der Fehlerfortpflanzung.
 > Im falle eines [DGL-Systems](Differentialgleichungen/DGL-System.md), sonst ist sie eine $1\times1$-[Matrix](../../Algebra/Matrix.md).
 > 
 > $$

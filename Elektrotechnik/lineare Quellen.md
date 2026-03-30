@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Thevenin
   - Norton
-keywords: 
+keywords:
 subject:
   - VL
   - Elektrotechnik
@@ -11,6 +11,7 @@ subject:
 semester: SS24
 created: 11. Februar 2024
 professor:
+title: lineare Quellen
 ---
  
 

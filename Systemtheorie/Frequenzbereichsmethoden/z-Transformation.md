@@ -38,7 +38,7 @@ $$
 z=r\cdot\exp(j\Omega)
 $$
 
-Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitdiskreten Fouriertransformierten vom [Einheitskreis](../../Mathematik/Kreis.md) in die komplexe Zahlenebene
+Die $z$-Transformierte einer Folge ist die **analytische Fortsetzung** der zeitdiskreten Fouriertransformierten vom [Einheitskreis](../../Mathematik/Geometrie/Kreis.md) in die komplexe Zahlenebene
 
 ## Einseitige z-Transformation
 

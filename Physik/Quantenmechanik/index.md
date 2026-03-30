@@ -14,6 +14,7 @@ created: 8. Oktober 2024
 professor:
   - Bernhard Jakoby
 release: false
+title: Quantenmechanik
 ---
  
 

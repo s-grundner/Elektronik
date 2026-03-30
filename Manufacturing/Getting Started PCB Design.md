@@ -1,3 +1,6 @@
+---
+title: Getting Started with PCB Design
+---
 # Some Basic Terms to Help You Get Started in This Course
 
 There is some important terminology that is used to describe PCBs, and this terminology will be used throughout the course in various locations. All of the important terminology has been compiled into a [course glossary](https://edcamp.us/p/glossary), you should refer to this document periodically as you work through the course. Some of the important terms to help you get started and progress through the rest of this unit are listed here:

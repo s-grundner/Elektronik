@@ -1,6 +1,6 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 keywords: []
 subject:
   - Mathematik1
@@ -8,6 +8,7 @@ subject:
 semester: 1
 created: 24. Januar 2024
 professor:
+title: Rotationsmatrix
 ---
  
 

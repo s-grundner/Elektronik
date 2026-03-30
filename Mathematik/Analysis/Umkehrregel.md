@@ -1,14 +1,15 @@
 ---
 tags:
   - Analysis/Differenzieren
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 18. September 2024
 professor:
+title: Umkejrregel
 ---
  
 

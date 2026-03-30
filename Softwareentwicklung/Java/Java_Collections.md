@@ -1,7 +1,10 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - DS
 aliases: []
 created: 29th November 2022
+title: Collections
 ---
 
 # Collections

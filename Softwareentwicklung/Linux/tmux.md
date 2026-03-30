@@ -1,6 +1,7 @@
 ---
 tags:
   - Server/LSTronix
+title: TMUX - Terminal Multiplexer
 ---
 
 # TMUX Installation

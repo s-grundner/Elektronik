@@ -4,6 +4,7 @@ tags:
 aliases:
   - Signal-Synchronisation
 created: 5. September 2023
+title: Semaphore
 ---
 
 # Signal-Synchronisation - Semaphore

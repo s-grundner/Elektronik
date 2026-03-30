@@ -1,16 +1,17 @@
 ---
-tags: 
+tags:
 aliases:
   - linear abhängig
   - linear unabhängig
   - lineare Unabhängigkeit
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
 semester: WS23
 created: 28. September 2024
 professor:
+title: Lineare Abhängigkeit
 ---
  
 

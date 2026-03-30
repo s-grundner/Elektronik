@@ -11,6 +11,7 @@ created: 6. Februar 2025
 professor:
   - Andreas Stelzer 🕊️
   - Mario Huemer
+title: Gruppenlaufzeit
 ---
  
 # Gruppenlaufzeit

@@ -3,18 +3,19 @@ tags:
   - tikz/pgfplot
   - Analysis/Numerik
   - Analysis/DGL
-aliases: 
-keywords: 
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
-created: 16. Dezember 2024
-professor: 
-def: 
+created: 27th March 2026
+professor:
+def:
 satz:
+title: Numerische Lösungsverfahren von DGL
+release: false
 ---
- 
 
 # Numerische DGL
 

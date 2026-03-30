@@ -106,7 +106,7 @@ $$
 
 Wobei $n$ das ganzzahlige Energieniveau ist. Die Wellengleichung, die diese Stehende Welle beschreibt ist die [Schrödingergleichung](Quantenmechanik/Schrödingergleichung.md).
 
-Misst man das Elektron in diesem Orbital, fällt die Welle zu einem Teilchen zusammen. (Daher stammt der Algorithus aus der Informatik [Wavefunction-Collapse](../Softwareentwicklung/DSA/Wavefunction-Collapse.md)).
+Misst man das Elektron in diesem Orbital, fällt die Welle zu einem Teilchen zusammen. (Daher stammt der Algorithus aus der Informatik [Wavefunction-Collapse](../Softwareentwicklung/DSA/Algorithmen/Wavefunction-Collapse.md)).
 
 ## Referenzen
 

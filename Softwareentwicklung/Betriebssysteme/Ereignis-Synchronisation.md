@@ -1,3 +1,6 @@
+---
+title: Ereignissynchronisation
+---
 # Ereignis-Synchronisation
 
 Beispiel **Producer-Consumer**:

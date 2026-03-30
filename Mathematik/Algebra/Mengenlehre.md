@@ -3,13 +3,14 @@ tags:
   - Algebra
 aliases:
   - Menge
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
 semester: WS24
 created: 4. März 2024
 professor:
+title: Mengenlehre
 ---
  
 

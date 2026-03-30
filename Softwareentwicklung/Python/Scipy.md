@@ -2,6 +2,7 @@
 tags:
 aliases:
 created: 7. Januar 2025
+title: SciPy
 ---
 
 # Scipy

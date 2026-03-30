@@ -1,3 +1,6 @@
+---
+title: Korrespondenzen der Fouriertransformation
+---
 
 # Fouriertransformation
 

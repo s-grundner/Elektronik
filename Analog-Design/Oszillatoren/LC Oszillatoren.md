@@ -9,6 +9,7 @@ aliases:
 subject:
   - hwe
 created: 17th November 2022
+title: LC OSzillator
 ---
 
 # LC Oszillatoren

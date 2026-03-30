@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Kausal
   - Antikausal
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
@@ -11,6 +11,7 @@ subject:
 semester: WS24
 created: 4. Februar 2025
 professor:
+title: Kausalität
 ---
  
 

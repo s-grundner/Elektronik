@@ -1,7 +1,9 @@
 ---
-tags: ["Physik"]
+tags:
+  - Physik
 aliases: []
 created: 21st November 2022
+title: Laser
 ---
 
 # Laser

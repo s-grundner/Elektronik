@@ -14,6 +14,7 @@ professor:
   - Michael Offenhuber
   - Siegbert Schrempf
   - Bernhard Jakoby
+title: Kanalkapazität
 ---
 
 # Der Kondensator - ein Ladungsspeicher

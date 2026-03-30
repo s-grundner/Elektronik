@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Norm für Kontinuierliche Signale
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
 semester: WS24
 created: 22. Oktober 2024
 professor:
+title: Lp-Norm
 ---
  
 # Norm für kontinuierliche Signale

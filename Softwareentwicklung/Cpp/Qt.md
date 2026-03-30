@@ -1,10 +1,10 @@
 ---
 tags:
-  - Cpp
-  - Tool/QT
+  - Cpp/QT
 aliases:
   - "#Tool/QT"
 created: 29. November 2022
+title: QT-Korr
 ---
 
 # QT (Cute)

@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - PR
   - Elektrische Messtechnik und Sensorik
 semester: WS25
 created: 15th October 2025
 professor:
+title: Phasenmessung
 ---
 
 # Phasenmessung

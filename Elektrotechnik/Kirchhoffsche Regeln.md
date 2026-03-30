@@ -7,6 +7,7 @@ aliases:
   - Kirchhoff
   - Kirchhoff'sche Regeln
 created: 26. September 2023
+title: Kirchhoffsche Regeln
 ---
 
 # Kirchhoff'sche Regeln

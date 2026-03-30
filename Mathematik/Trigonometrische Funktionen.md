@@ -1,17 +1,18 @@
 ---
-tags: 
+tags:
 aliases:
   - Trigonometrie
   - Kreisfunktionen
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
 semester: WS23
 created: 29. September 2024
-professor: 
+professor:
 def:
   - TRIG
+title: Trigonometrische Funktionen
 ---
  
 

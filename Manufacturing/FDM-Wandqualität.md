@@ -1,3 +1,8 @@
+---
+tags:
+  - 3DP/FDM
+title: Wandqualität
+---
 # Wandqualität
 
 Immer Travelpath des Extruders anschauen: Viele Wall-Crossings -> Stringing

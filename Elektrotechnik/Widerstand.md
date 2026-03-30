@@ -8,6 +8,7 @@ subject:
 semester: WS23
 created: 11. Februar 2024
 professor:
+title: Freiraumwellenwiderstand
 ---
  
 

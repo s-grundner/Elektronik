@@ -5,6 +5,7 @@ aliases: []
 subject:
   - hwe
 created: 20th December 2022
+title: Relaxationsoszillator
 ---
 
 # Relaxationsoszillator
@@ -20,4 +21,4 @@ created: 20th December 2022
 
 # Tags
 
-[Oszillator](Clock-Generierung.md)
+[Oszillator](../../Digital-Design/Clock-Generierung.md)

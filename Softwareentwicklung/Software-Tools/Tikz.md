@@ -1,8 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - "#tikz"
 created: 28. September 2024
+title: Tikz
 ---
 
 # Tikz

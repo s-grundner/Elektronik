@@ -13,6 +13,7 @@ created: 21. Januar 2024
 professor:
   - Bernhard Jakoby
 banner_y: 0.336
+title: Statisches Elektrisches Feld
 ---
 
 # Statisches Elektrisches Feld
@@ -29,10 +30,10 @@ banner_y: 0.336
 
 > [!info] [Coulomb-Kraft](Coulomb-Kraft.md)
 >Ähnlich wie das Schwerefeld einer Masse, kann auch einer einzelnen Ladung ein elektrisches Feld $\mathbf{E}$ zugeordnet werden.  
-> Die [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
+> Die [Kraft](../Physik/Kinematik/Kräfte.md) auf eine Ladung 𝑞, die in dieses Feld eingebracht wird ergibt sich dann aus:
 > $$\mathbf{F}=q\cdot \mathbf{E}$$
 > 
->> [!success] Die [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $\mathbf{E}$  
+>> [!success] Die [Kraft](../Physik/Kinematik/Kräfte.md) auf eine Ladung $q$ in einem von $Q$ hervorgerufenen externen Elektrischen Feld ist proportional zu $q$ und $\mathbf{E}$  
 >
 
 ![230](../_assets/EFeld.png)
@@ -58,7 +59,7 @@ Die Einheit der elektrischen Feldstärke ist $1 \frac{V}{m}$.
 |                                         ![invert_light\|275](../_assets/GravFeld.png)                                         |                                           ![\|500](../_assets/EFeld.png)                                            |
 |                                                                                                                           |                                                                                                                 |
 |                                                          $F_{G}$                                                          |                                                     $F_{E}$                                                     |
-| auf eine Masse $m$ wirkt im Gravitationsfeld $\mathbf{g}$ der Masse $M$ eine [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene E-Feld $\mathbf{E}$ eine [Kraft](Coulomb-Kraft.md) |
+| auf eine Masse $m$ wirkt im Gravitationsfeld $\mathbf{g}$ der Masse $M$ eine [Kraft](../Physik/Kinematik/Kräfte.md) $F_{G}$ | Auf eine Ladung $q$ wirkt durch das durch $Q$ hervorgerufene E-Feld $\mathbf{E}$ eine [Kraft](Coulomb-Kraft.md) |
 
 > [!warning] Unterschied zum G-Feld
 > Ladungen können unterschiedliche Vorzeichen haben, Massen nicht. Elektrische Ladungen können sich daher anziehen und abstoßen, während sich massebehaftete Körper immer anziehen.

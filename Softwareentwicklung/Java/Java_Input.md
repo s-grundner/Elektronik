@@ -1,3 +1,6 @@
+---
+title: Input
+---
 # Eingabe
 
 ## Scanner

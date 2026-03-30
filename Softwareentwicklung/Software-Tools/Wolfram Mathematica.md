@@ -2,6 +2,7 @@
 tags:
 aliases:
 created: 13. Dezember 2024
+title: Wolfram Mathematica
 ---
 
 # Wolfram Mathematica

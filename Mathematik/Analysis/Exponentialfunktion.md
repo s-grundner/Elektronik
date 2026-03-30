@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Exponentialfunktionen
   - Logrithmus
-keywords: 
+keywords:
 subject:
   - Mathematik 1
-semester: 
+semester:
 created: 6. November 2023
 professor:
+title: Exponentialfunktionen
 ---
  
 

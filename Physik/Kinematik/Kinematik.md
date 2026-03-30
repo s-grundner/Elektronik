@@ -13,6 +13,7 @@ semester: WS23
 created: 11. Oktober 2023
 professor:
   - Gunther Springholz
+title: Kinematik
 ---
  
 

@@ -1,7 +1,9 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
 aliases: []
 created: 5. September 2023
+title: Assoziation
 ---
 
 # Assoziation

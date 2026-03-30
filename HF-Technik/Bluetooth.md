@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - BLE
   - Bluetooth Low Energy
-keywords: 
+keywords:
 subject:
   - ELIT Praktikum
 semester: 1
 created: 10. November 2023
 professor:
+title: ESP32 Bluetooth
 ---
  
 

@@ -18,6 +18,7 @@ professor:
   - Andreas Springer
   - Bernhard Jakoby
   - Reinhard Feger
+title: Wechselstromtechnik
 ---
  
 # Wechselstromtechnik

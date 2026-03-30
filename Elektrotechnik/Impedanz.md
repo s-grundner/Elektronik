@@ -8,6 +8,7 @@ subject:
 semester: WS23
 created: 18. April 2023
 professor:
+title: Impedanzmatrix
 ---
 
 # Impedanz

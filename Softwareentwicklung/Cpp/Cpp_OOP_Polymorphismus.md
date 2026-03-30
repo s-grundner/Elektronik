@@ -1,3 +1,9 @@
+---
+tags:
+  - Cpp
+  - OOP
+title: Polymorphismus
+---
 ## Polymorphismus
 
 Übliches Design in der OOP: eine abgeleitete Klasse (Spezialfall der Basisklasse) **ist eine** Basisklasse (allgemeiner Fall der abgeleiteten Klasse). Beispiel.:

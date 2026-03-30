@@ -2,6 +2,7 @@
 tags: []
 aliases: []
 created: 10. März 2024
+title: FTP
 ---
 
 # FTP

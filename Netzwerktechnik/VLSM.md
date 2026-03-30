@@ -1,11 +1,11 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases:
   - Variable Length Subnet Mask
 subject:
   - ksn
 created: 8th April 2022
+title: Variable Length Subnet Mask
 ---
 
 # VLSM - Variable Length Subnet Mask

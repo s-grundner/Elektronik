@@ -1,7 +1,10 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
+  - OOP
 aliases: []
 created: 29th November 2022
+title: Vererbung
 ---
 
 # Objekt Orientierte Programmierung - Vererbung

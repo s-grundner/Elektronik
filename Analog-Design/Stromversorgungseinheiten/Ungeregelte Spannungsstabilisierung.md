@@ -1,3 +1,6 @@
+---
+title: Ungeregelte Spannugsstabilisierung
+---
 # Ungeregelte Spannungsstabilisierung
 
 ## Stabilisierungsschaltung Mit Einer Zener-Diode

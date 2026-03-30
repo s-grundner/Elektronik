@@ -9,6 +9,7 @@ subject:
 semester: SS24
 created: 22. Mai 2024
 professor:
+title: Generics
 ---
  
 

@@ -16,6 +16,7 @@ created: 7. Februar 2025
 professor:
   - Bernhard Jakoby
 release: false
+title: Halbleiterphysik
 ---
  
 # Halbleiterphysik
@@ -25,7 +26,7 @@ Intrinsisch $\to$ Nicht Dotiert
 
 ### Bändermodell
 
-> [!important] Bändermodell des [Siliziums](Silizium.md)
+> [!important] Bändermodell des [Siliziums](../../Chemie/Materialkunde/Silizium.md)
 > 
 > Bandstruktur: Aufpreizung der erlaubten Energieniveaus durch Wechselwirkungen mit Nachbaratomen.
 > 

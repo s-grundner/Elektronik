@@ -9,6 +9,7 @@ subject:
 semester: SS24
 created: 11. April 2024
 professor:
+title: JUnit Tests
 ---
  
 

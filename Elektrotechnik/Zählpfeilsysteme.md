@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
 semester: WS23
 created: 6. März 2024
 professor:
+title: Zählpfeilsystem
 ---
  
 

@@ -5,6 +5,7 @@ aliases:
   - STL
   - Standard Template Library
 created: 29. November 2022
+title: C++ Standardlibrary
 ---
 
 # STL - Standard Template Library

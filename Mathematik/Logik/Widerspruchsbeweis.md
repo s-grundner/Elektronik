@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - reductio ad absurdum
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
 semester: WS23
 created: 28. September 2024
 professor:
+title: Widerspruchsbeweis
 ---
  
 

@@ -6,6 +6,7 @@ aliases:
 subject:
   - ksn
 created: 6th May 2022
+title: TCP
 ---
 
 # TCP - Transmission Control Protocol

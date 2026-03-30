@@ -4,6 +4,7 @@ tags:
 aliases:
   - Agile Softwareentwicklung
 created: 29th November 2022
+title: Scrum
 ---
 
 # Agile Softwareentwicklung / Scrum

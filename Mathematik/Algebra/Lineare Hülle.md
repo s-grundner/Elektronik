@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - Span
   - Spann
@@ -12,6 +12,7 @@ semester: WS23
 created: 28. September 2024
 professor:
   - Andreas Neubauer
+title: Lineare Hülle
 ---
  
 

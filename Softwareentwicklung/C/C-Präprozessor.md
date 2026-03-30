@@ -2,8 +2,9 @@
 tags:
   - C
   - C/makros
-aliases: 
+aliases:
 created: 29th November 2022
+title: Präprozessor
 ---
 
 # Präprozessordirektiven

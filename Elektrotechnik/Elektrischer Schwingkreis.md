@@ -10,6 +10,7 @@ semester: SS24
 created: 24. Januar 2024
 professor:
   - Andreas Springer
+title: Elektrischer Schwingkreis
 ---
  
 

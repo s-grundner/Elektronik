@@ -4,6 +4,7 @@ aliases: []
 subject:
   - mathe
 created: 4th January 2023
+title: Permutation
 ---
 
 # Permutation

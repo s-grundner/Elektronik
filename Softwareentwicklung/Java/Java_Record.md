@@ -1,12 +1,13 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Softwareentwicklung 2
 semester: SS25
 created: 7. März 2024
 professor:
+title: Record
 ---
  
 

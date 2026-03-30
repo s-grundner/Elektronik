@@ -1,3 +1,6 @@
+---
+title: Smith Chart
+---
 # Smith Chart
 
 

@@ -6,6 +6,7 @@ aliases:
   - unendliche Summe
   - Reihen
 created: 30. Oktober 2023
+title: Potenzreihe
 ---
 
 # Reihen

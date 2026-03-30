@@ -1,11 +1,11 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases:
   - IP-Adresse
   - IP-Adressen
 subject:
   - ksn
+title: Internet Protocol
 ---
 
 # Internet Protokoll

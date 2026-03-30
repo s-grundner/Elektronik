@@ -5,6 +5,7 @@ aliases:
 subject:
   - physik
 created: 29th March 2022
+title: Newtonsches Abkühlungsgesetz
 ---
 
 # Newtonsches Abkühlungsgesetz

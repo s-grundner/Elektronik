@@ -1,7 +1,10 @@
 ---
-tags: ["C", "Compiler"]
+tags:
+  - C
+  - Compiler
 aliases: []
 created: 29th November 2022
+title: Module
 ---
 
 # Module

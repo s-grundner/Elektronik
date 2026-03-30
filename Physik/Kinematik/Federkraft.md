@@ -7,7 +7,7 @@ aliases:
   - Hooke'sches Gesetz
   - Federkonstante
   - Rückstellkraft
-keywords: 
+keywords:
 subject:
   - Physik 1 für TechnikerInnen
   - VL
@@ -15,6 +15,7 @@ semester: WS23
 created: 13. Dezember 2023
 professor:
   - Gunther Springholz
+title: Federkraft
 ---
 
 # Federkraft
@@ -24,7 +25,7 @@ Federkräfte sind Rückwirkungskräfte, die entstehen wenn ein Festkörper (z.B.
 
 Der einfachste Fall ist der einer Feder, die um einen gewissen [Betrag](../../Mathematik/Algebra/Betrag.md) $x$ aus der entspannten Ruhelage ($x=0$) gedehnt wird.
 
-Durch die Anziehung der Atome in der Feder entsteht nun eine rückwirkende elastische [Kraft](Kinematik/{MOC}%20Kräfte.md) $F_{F}$, die dieser Dehnung entgegen wirkt.
+Durch die Anziehung der Atome in der Feder entsteht nun eine rückwirkende elastische [Kraft](Kräfte.md) $F_{F}$, die dieser Dehnung entgegen wirkt.
 
 > [!INFO] Im Fall einer *idealen elastischen* Feder ist die rückwirkende Federkraft linear proportional zur Auslenkung $x$:  
 > *Hooke'sches Gesetz:* $\vec{F_{F}} = -k\cdot \vec{x}$
@@ -33,7 +34,7 @@ Das Hooke'sche Gesetz gilt ganz Allgemein immer nur für kleine Auslenkungen bzw
 
 Die Proportionalitätskonstante $k$ heißt Federkonstante und hat die Einheit $\frac{N}{m}$.
 
-Die Federkonstante charakterisiert die Stärke einer Feder und hängt von den Materialeigenschaften aber auch der [Geometrie](../../Mathematik/Algebra/Geometrie.md), Länge, Dicke, etc. der Feder ab.
+Die Federkonstante charakterisiert die Stärke einer Feder und hängt von den Materialeigenschaften aber auch der [index](../../Mathematik/Geometrie/index.md), Länge, Dicke, etc. der Feder ab.
 
 # Tags
 

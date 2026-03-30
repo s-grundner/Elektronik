@@ -5,7 +5,7 @@ aliases:
   - Inverse
   - Gauß-Jordan
   - Invertierbarkeit
-keywords: 
+keywords:
 subject:
   - Mathematik 1
   - VL
@@ -13,6 +13,7 @@ semester: WS23
 created: 27. Januar 2024
 professor:
   - Andreas Neubauer
+title: Gauß-Jordan-Verfahren
 ---
  
 

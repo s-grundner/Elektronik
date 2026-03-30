@@ -1,16 +1,17 @@
 ---
-tags: 
+tags:
 aliases:
   - Totales Differenzial
   - Vollständiges Differenzial
   - Totale Ableitung
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 28. September 2024
 professor:
+title: Total Differenzierbar
 ---
  
 

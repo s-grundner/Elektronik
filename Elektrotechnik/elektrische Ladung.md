@@ -1,11 +1,11 @@
 ---
-tags: 
+tags:
 aliases:
   - Ladung
   - Ladungen
   - Coulomb
   - elektrisch geladen
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
@@ -13,6 +13,7 @@ semester: WS23
 created: 6. März 2024
 professor:
   - Bernhard Jakoby
+title: elektrische Ladung
 ---
  
 

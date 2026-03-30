@@ -10,6 +10,7 @@ subject:
 semester: SS24
 created: 7. April 2024
 professor:
+title: Serienschwingkreis
 ---
 
 # Serienschwingkreis

@@ -3,7 +3,7 @@ tags:
   - Algebra
 aliases:
   - Vektorräume
-keywords: 
+keywords:
 subject:
   - Mathematik 1
   - VL
@@ -11,6 +11,7 @@ semester: WS23
 created: 29. Januar 2024
 professor:
   - Andreas Neubauer
+title: Vektorraum
 ---
  
 

@@ -5,6 +5,7 @@ aliases:
 subject:
   - mathe
 created: 16th November 2022
+title: Binomialverteilung
 ---
 
 # Binomialverteilung $P(X)$

@@ -2,6 +2,7 @@
 tags: []
 aliases: []
 created: 25th August 2023
+title: Docker
 ---
 
 # Docker

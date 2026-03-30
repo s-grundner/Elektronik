@@ -8,6 +8,7 @@ aliases:
 subject:
   - hwe
 created: 8th June 2022
+title: Boost Converter
 ---
 
 # Boost Converter

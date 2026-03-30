@@ -61,7 +61,7 @@ $$
 | $T$              | Absolute Temparatur                                    |
 | $W_{G}$          | Vom Halbleitermaterial abhängiger [Bandabstand](../../Chemie/elektrischer%20Leiter.md)          |
 
-$W_{G}=1.1eV$ für [Silizium](Materialkunde/Silizium.md)
+$W_{G}=1.1eV$ für [Silizium](../../Chemie/Materialkunde/Silizium.md)
 
 ### Temparaturspannung $U_{T}$
 

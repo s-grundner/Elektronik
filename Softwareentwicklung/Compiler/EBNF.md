@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Backus Naur
   - Backus-Naur
-keywords: 
+keywords:
 subject:
   - VL
   - Softwareentwicklung 1
@@ -12,6 +12,7 @@ semester:
   - B1
 created: 9. Oktober 2023
 professor:
+title: EBNF
 ---
 
 # EBNF (Erweiterte Backus Naur Form)

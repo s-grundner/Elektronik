@@ -4,6 +4,7 @@ tags:
   - Java/stream
 aliases: []
 created: 29th November 2022
+title: Konsolenausgabe
 ---
 
 # Ausgabe

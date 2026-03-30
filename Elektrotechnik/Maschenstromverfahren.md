@@ -3,7 +3,7 @@ tags:
   - Algorithmus/Elektrotechnik
 aliases:
   - Maschenstrom
-keywords: 
+keywords:
 subject:
   - Elektrotechnik
   - VL
@@ -11,6 +11,7 @@ semester: SS24
 created: 19th March 2024
 professor:
   - Michael Gattringer
+title: Maschenstromverfahren
 ---
  
 

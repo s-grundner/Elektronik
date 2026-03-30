@@ -9,5 +9,6 @@ subject:
 semester: WS24
 created: 27th November 2024
 professor:
+title: Phasenportrait
 ---
  

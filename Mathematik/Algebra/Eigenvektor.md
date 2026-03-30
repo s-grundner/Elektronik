@@ -1,19 +1,20 @@
 ---
-tags: 
+tags:
 aliases:
   - Eigenwert
   - Eigenwerte
   - Eigen
   - Eigenraum
   - charakteristisches Polynom
-keywords: 
+keywords:
 subject:
   - Mathematik 1
 semester: WS23
 created: 24. Januar 2024
-professor: 
+professor:
 def:
   - EIGV
+title: Eigenvektor
 ---
  
 

@@ -7,6 +7,7 @@ aliases:
   - Kellerspeicher
 subject:
 created: 20th April 2022
+title: LIFO Stack
 ---
 
 # LIFO Stack
@@ -15,10 +16,12 @@ created: 20th April 2022
 class GeneralStack {
 	private Object[] data = new Object[100];
 	private int top = 0;
+	
 	public void push(Object obj) {
 		data[top] = obj;
 		top++;
 	}
+	
 	public Object pop() {
 		top--;
 		return data[top];
@@ -26,8 +29,6 @@ class GeneralStack {
 }
 ```
 
-## Stack als dynamische Datenstruktur
-
 ## Referenzen
 
-- RISC-V Stack 
+- [RISC-V Stack implementierung](../../Digital-Design/Rechnerarchitektur/RISC-V/Stack.md)

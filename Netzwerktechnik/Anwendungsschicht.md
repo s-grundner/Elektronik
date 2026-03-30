@@ -1,9 +1,9 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases:
   - Application Layer
 created: 30th August 2023
+title: Anwendungsschicht
 ---
 
 # Anwendungsschichten (OSI-Layer 5-7)

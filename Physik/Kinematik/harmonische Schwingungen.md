@@ -5,7 +5,7 @@ aliases:
   - harmonische Schwingung
   - harmonischen Schwingungen
   - harmonischer Oszillator
-keywords: 
+keywords:
 subject:
   - Physik für TechnikerInnen
   - VL
@@ -13,13 +13,14 @@ semester: WS23
 created: 24. Januar 2024
 professor:
   - Gunther Springholz
+title: harmonische Schwingungen
 ---
  
 
 # Harmonische Schwingungen
 
 > [!INFO] die *harmonische Schwingung* ist ein wichtiger Spezialfall der periodischen [Bewegung](Kinematik/Kinematik.md).  
-> Sie entsteht immer dann, wenn bei der Auslenkung aus der Ruhelage eine rücktreibende [Kraft](Kinematik/{MOC}%20Kräfte.md) entsteht, welche direkt linear proportional zur Auslenkung ist.
+> Sie entsteht immer dann, wenn bei der Auslenkung aus der Ruhelage eine rücktreibende [Kraft](Kräfte.md) entsteht, welche direkt linear proportional zur Auslenkung ist.
 >
 > - Ein System das diese Bedingung erfüllt wird als *harmonischer Oszillator* bezeichnet.
 > - Die resultierende [Bewegung](Kinematik/Kinematik.md) folgt einem Sinusbzw. Cosinus förmigen Zeitverlauf.
@@ -33,7 +34,7 @@ professor:
 >- Mechanische [Schwingkreise](Schwingkreise.md)
 >	- [Pendel](Pendel.md)
 >	- [Federschwinger](Kinematik/Feder-Schwinger.md)
-> - Elektrische [Schwingkreise](Schwingkreise.md) ([Oszillatoren](../../Analog-Design/Oszillatoren/Clock-Generierung.md))
+> - Elektrische [Schwingkreise](Schwingkreise.md) ([Oszillatoren](../../Digital-Design/Clock-Generierung.md))
 
 ```tikz
 \usepackage{pgfplots}

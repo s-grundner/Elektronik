@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - RAM
   - ROM
@@ -15,6 +15,7 @@ semester: WS23
 created: 9th January 2024
 professor:
   - Timm Ostermann
+title: Speicherzellen
 ---
  
 

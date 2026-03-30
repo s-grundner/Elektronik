@@ -4,7 +4,7 @@ tags:
 aliases:
   - Lenz
   - Lenz'sche Regel
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
@@ -13,6 +13,7 @@ created: 21. November 2022
 professor:
   - Bernhard Jakoby
   - Michale Offenhuber
+title: Lenzsche Regel
 ---
  
 

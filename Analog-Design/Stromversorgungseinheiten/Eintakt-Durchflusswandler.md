@@ -6,6 +6,7 @@ aliases:
 subject:
   - hwe
 created: 13th October 2022
+title: Eintakt Durchflusswandler
 ---
 
 # Eintakt-[Durchflusswandler](Durchflusswandler.md)

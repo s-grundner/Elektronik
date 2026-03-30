@@ -1,15 +1,17 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+  - Analysis/Differenzieren
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 28. September 2024
-professor: 
+professor:
 satz:
   - DQFK
+title: Faktrorregel
 ---
  
 

@@ -4,6 +4,7 @@ tags:
 aliases:
   - Normalform
 created: 29. November 2022
+title: Normalformen
 ---
 
 # Normalformen

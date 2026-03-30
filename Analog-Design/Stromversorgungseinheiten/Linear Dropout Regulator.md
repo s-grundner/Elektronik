@@ -4,6 +4,7 @@ tags:
 aliases:
   - LDO
 created: 27. Dezember 2023
+title: Linear Dropout Regler
 ---
 
 # Low Dropout Regulator

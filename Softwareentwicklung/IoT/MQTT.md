@@ -1,7 +1,10 @@
 ---
-tags: ["IoT"]
-aliases: ["Message Queuing Telemetry Transport"]
+tags:
+  - IoT
+aliases:
+  - Message Queuing Telemetry Transport
 created: 29th November 2022
+title: ESP32-MQTT
 ---
 
 # MQTT - Message Queuing Telemetry Transport

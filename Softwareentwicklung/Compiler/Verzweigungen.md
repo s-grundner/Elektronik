@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Softwareentwicklung 1
@@ -10,6 +10,7 @@ semester:
   - B1
 created: 5. September 2023
 professor:
+title: Verzweigungen
 ---
  
 

@@ -1,15 +1,16 @@
 ---
-tags: 
+tags:
 aliases:
   - Partielle DGL
   - Partielle Differenzialgleichungen
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 8. Januar 2025
 professor:
+title: Partielle Differenzialrechnung
 ---
  
 

@@ -6,6 +6,7 @@ tags:
 aliases:
   - Controller Area Network
 created: 19th August 2023
+title: CAn
 ---
 
 # CAN

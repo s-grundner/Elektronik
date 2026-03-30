@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - UE
   - VL
@@ -11,6 +11,7 @@ created: 3. März 2024
 professor:
   - Rafael Ecker
   - Andreas Springer
+title: Spannungsteiler
 ---
 
 # Spannungsteiler

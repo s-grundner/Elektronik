@@ -8,6 +8,7 @@ subject:
 semester: SS24
 created: 15. April 2024
 professor:
+title: Maxwell-Wien-Brücke
 ---
  
 

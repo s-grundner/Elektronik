@@ -1,3 +1,6 @@
+---
+title: Strings
+---
 # Strings
 
 > [!important] Zwei Typen von Strings:

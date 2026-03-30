@@ -1,5 +1,5 @@
 ---
-tags: 
+tags:
 aliases:
   - vollständige Induktion
 keywords:
@@ -12,6 +12,7 @@ semester: WS23
 created: 27. Januar 2024
 professor:
   - Andreas Neubauer
+title: Induktionsbeweis
 ---
  
 

@@ -10,6 +10,7 @@ professor:
   - Reinhard Feger
 created: 20th August 2023
 semester: WS24
+title: Reflektionsfaktor
 ---
 
 # Reflexionsfaktor

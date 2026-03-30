@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Impulserhaltung
-keywords: 
+keywords:
 subject:
   - Physik für TechnikerInnen
   - VL
@@ -10,6 +10,7 @@ semester: WS23
 created: 17th January 2024
 professor:
   - Gunther Springholz
+title: Impulsantwort
 ---
  
 

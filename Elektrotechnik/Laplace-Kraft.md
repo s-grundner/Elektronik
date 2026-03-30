@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - magnetische Kraft
   - Laplace Kraft
-keywords: 
+keywords:
 subject:
   - VL
 semester:
@@ -12,6 +12,7 @@ semester:
 created: 10. März 2024
 professor:
   - Bernhard Jakoby
+title: Laplace-Kraft
 ---
  
 

@@ -3,6 +3,7 @@ tags:
   - OS
 aliases: []
 created: 29. November 2022
+title: Posix
 ---
 
 # POSIX

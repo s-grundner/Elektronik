@@ -1,8 +1,9 @@
 ---
 tags:
   - Chemie/Elektrochemie/Primärelement
-aliases: 
+aliases:
 created: 2. März 2024
+title: Daniell-Element
 ---
 
 # Daniell-Element

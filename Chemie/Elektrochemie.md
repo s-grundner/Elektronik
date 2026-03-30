@@ -24,7 +24,7 @@ release: false
 
 Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit [Strom](../Elektrotechnik/elektrischer%20Strom.md).
 
->[!EXAMPLE] Elektrolyse von $CuCl_{2}$ ([Kupfer](../Physik/Materialkunde/Kupfer.md)(II)-chlorid Lösung)  
+>[!EXAMPLE] Elektrolyse von $CuCl_{2}$ ([Kupfer](Materialkunde/Kupfer.md)(II)-chlorid Lösung)  
 >![#invert_light|350](../_assets/Cucl.png)
 
 | [Reduktion](Oxidation%20und%20Reduktion.md) (Aufnahme von $e^{-}$) | [Oxidation](Oxidation%20und%20Reduktion.md) (Abgabe von $e^{-}$) |
@@ -56,7 +56,7 @@ $Q = 15.78mol\cdot F \cdot 2$
 **$Q = 3.03\cdot 10^{3}As$**
 
 > [!EXAMPLE] Berechnung der bei einer Elektrolyse abgeschiedenen Masse  
-Wie viel [Silber](../Physik/Materialkunde/Silber.md) (Ag) kann ein [Strom](../Elektrotechnik/elektrischer%20Strom.md) von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
+Wie viel [Silber](Materialkunde/Silber.md) (Ag) kann ein [Strom](../Elektrotechnik/elektrischer%20Strom.md) von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
 $Ag^{+} + e^{-} \longrightarrow Ag$  
 
 $Q=I\cdot t = 200As$
@@ -88,8 +88,8 @@ $I = \dfrac{0.5\cdot F}{1800}$
 
 ![ElektrolyseNagel](../_assets/ElektrolyseNagel.png)
 
-**Eisennagel in Kupferlösung:** [Kupfer](../Physik/Materialkunde/Kupfer.md) scheidet sich ab und Eisen löst sich.  
-**Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und [Kupfer](../Physik/Materialkunde/Kupfer.md) bleibt Metallisch.  
+**Eisennagel in Kupferlösung:** [Kupfer](Materialkunde/Kupfer.md) scheidet sich ab und Eisen löst sich.  
+**Kupfernagel in Eisenlösung:** Eisen bleibt gelöst und [Kupfer](Materialkunde/Kupfer.md) bleibt Metallisch.  
 unedles Fe geht gerne in Lösung! → Lösung wird grün  
 edleres Cu bleibt gerne metallisch oder scheidet sich ab!
 

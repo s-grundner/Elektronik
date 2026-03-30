@@ -1,3 +1,8 @@
+---
+tags:
+  - C/Buildsystem
+title: CMake
+---
 ## CMake
 
 Um aus einem Source-Projekt ein ausführbares Modul zu erzeugen sind mehrere Schritte notwendig. Viele Entwicklungsumgebungen gehen dabei unterschiedliche Wege. Eine moderne und sehr flexible Variante ist *CMake*. Damit wird nicht direkt das ausführbare Modul erzeugt sondern im ersten Schritt eine Konfiguration für die Compilierung erzeugt. In *CLion* wird *CMake* verwendet. Ansonsten kann CMake auch direkt installiert werden.

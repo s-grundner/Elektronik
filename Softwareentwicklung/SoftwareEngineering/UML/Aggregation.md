@@ -1,8 +1,9 @@
 ---
 tags:
   - UML
-aliases: 
+aliases:
 created: 5. September 2023
+title: Aggregation
 ---
 
 # Aggregation (auch Schwache Aggregation)

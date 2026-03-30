@@ -4,6 +4,7 @@ aliases:
   - PQ-Formel
   - ABC-Formel
 created: 9. April 2024
+title: Quadratische Gleichung
 ---
 
 # Quadratische Gleichung

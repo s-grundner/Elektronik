@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Fadenpendel
-keywords: 
+keywords:
 subject:
   - Physik für TechnikerInnen
   - VL
@@ -10,6 +10,7 @@ semester: WS23
 created: 25. Januar 2024
 professor:
   - Gunther Springholz
+title: Pendel
 ---
  
 
@@ -36,8 +37,8 @@ professor:
 ### Bewegungsgleichung
 
 Auf die Masse $m$ wirkt die Gewichtskraft $mg$ und die Zugkraft $T$ im Faden.  
-Die Komponente $mg\cos\theta$ und $T$ heben sich auf und es bleibt die senkrechte Komponente *$F_{r}=-mg\sin\theta$* als rücktreibende [Kraft](Kinematik/{MOC}%20Kräfte.md) übrig.
+Die Komponente $mg\cos\theta$ und $T$ heben sich auf und es bleibt die senkrechte Komponente *$F_{r}=-mg\sin\theta$* als rücktreibende [Kraft](Kräfte.md) übrig.
 
-> [!info] Durch Anwendung des [2. Newtonschen Gesetzes](Kinematik/{MOC}%20Kräfte.md) ($\sum F=0$) erhalten wir die Bewegungsgleichung:  
+> [!info] Durch Anwendung des [2. Newtonschen Gesetzes](Kräfte.md) ($\sum F=0$) erhalten wir die Bewegungsgleichung:  
 >
 > $$F_{r}=m\cdot a=m\cdot l\cdot\ddot{\theta}=-m\cdot g\cdot \sin\theta$$

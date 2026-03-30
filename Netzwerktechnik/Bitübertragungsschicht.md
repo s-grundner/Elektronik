@@ -1,11 +1,11 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases:
   - Physical Layer
   - Layer 1
 subject:
   - ksn
+title: Bitübertragungsschichte
 ---
 
 # Bitübertragungsschicht (OSI-Layer 1)

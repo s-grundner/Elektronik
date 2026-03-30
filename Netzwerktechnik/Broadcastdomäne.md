@@ -1,9 +1,9 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases: []
 subject:
   - ksn
+title: Broadcast-Domäne
 ---
 
 # Broadcast Domäne

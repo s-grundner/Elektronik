@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Elektrotechnik
 semester: WS24
 created: 14. Januar 2025
 professor:
+title: Kontinuitätsgleichung
 ---
  
 

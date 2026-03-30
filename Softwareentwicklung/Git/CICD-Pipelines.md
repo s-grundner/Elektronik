@@ -7,6 +7,7 @@ aliases:
   - Continuous Deployment
   - CI/CD-Pipelines
 created: 29. November 2022
+title: CICD-Pipelines
 ---
 
 # Git - CI/CD - Pipelines

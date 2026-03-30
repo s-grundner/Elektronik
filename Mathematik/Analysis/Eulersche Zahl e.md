@@ -4,6 +4,7 @@ aliases:
 symbol: $e$
 value: $2.718282$
 unit: 1
+title: Eulersche Zahl e
 ---
 
 # Eulersche Zahl e

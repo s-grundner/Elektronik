@@ -4,6 +4,7 @@ aliases:
   - Fused Deposition Modeling
   - Schmelzschichtverfahren
 created: 26. Dezember 2023
+title: 3d-Printing
 ---
 # 3D Printing
 

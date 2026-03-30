@@ -24,7 +24,7 @@ Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](../../
 Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](../../Softwareentwicklung/IoT/ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
 
 - als Editor wird VSCode verwendet
-- für die Toolkette wird [Python](../../Softwareentwicklung/Python/Python.md) benötigt
+- für die Toolkette wird [index](../../Softwareentwicklung/Python/index.md) benötigt
 - für die Entwicklung von µController-Software gibt's die Extension [PlatformIO](../PlatformIO.md)
 
 (Beschreibung: <https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)>

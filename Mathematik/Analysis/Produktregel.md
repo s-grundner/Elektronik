@@ -1,17 +1,18 @@
 ---
-tags: 
+tags:
 aliases:
   - Quotientenregel
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 2
 semester: SS24
 created: 28. September 2024
-professor: 
+professor:
 satz:
   - DQPQ
 release: false
+title: Produktregel
 ---
  
 

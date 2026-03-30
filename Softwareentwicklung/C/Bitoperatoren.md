@@ -15,6 +15,7 @@ semester:
   - B2
 created: 29. November 2022
 professor:
+title: Bitoperatoren
 ---
 
 # Bitoperatoren

@@ -1,7 +1,9 @@
 ---
-tags: ["Cpp"]
+tags:
+  - Cpp
 aliases: []
 created: 29. November 2022
+title: Streams
 ---
 
 # 3 Streams

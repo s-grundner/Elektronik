@@ -9,6 +9,7 @@ subject:
   - mathe
   - hwe
   - physik
+title: Schwinkreise
 ---
 
 # Schwingungen

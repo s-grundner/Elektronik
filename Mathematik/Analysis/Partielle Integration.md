@@ -1,6 +1,6 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 keywords:
   - Stammfunktion ln
 subject:
@@ -10,6 +10,7 @@ semester: SS24
 created: 30. September 2024
 professor:
   - Andreas Neubauer
+title: Partielle Integration
 ---
  
 

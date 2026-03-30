@@ -1,22 +1,23 @@
 ---
-tags: 
+tags:
 aliases:
   - Drehfaktor
   - Roots of Unity
   - Twiddle-Factor
-keywords: 
+keywords:
 subject:
   - Signale und Systeme
   - VL
 semester: WS24
 created: 8. Februar 2025
 professor:
+title: Einheitswurzel
 ---
  
 
 # Einheitswurzel
 
-> [!question] [Zeitdiskrete Fourierreihe](../Frequenzbereichsmethoden/Zeitdiskrete%20Fourierreihe.md) | [DFT](../Frequenzbereichsmethoden/DFT.md) | [FFT](../../Softwareentwicklung/DSA/FFT.md)
+> [!question] [Zeitdiskrete Fourierreihe](../Frequenzbereichsmethoden/Zeitdiskrete%20Fourierreihe.md) | [DFT](../Frequenzbereichsmethoden/DFT.md) | [FFT](FFT.md)
 
 Die Einheitswurzel ist eine Abkürzung für eine, häufig in der [DFT](../Frequenzbereichsmethoden/DFT.md) benötigten, komplexen Exponentialfunktion mit einem Speziell auf eine **Abtastperiode** $N$ normierte **Phase**. 
 
@@ -31,7 +32,7 @@ Die Eigenschaft, dass $W_{N}^N = W_{N}^0 = 1$, führt zu periodischen Eigenschaf
 
 ### Drehung
 
-Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ und $N-1$, gleichmäßig auf dem [Einheitskreis](../../Mathematik/Kreis.md) im komplexen Zahlenraum $\mathbb{C}$, indem die Einheitswurzel über die gesamte Periode **Potenziert** wird. Da die Potenzen der Einheitswurzel eine **Drehung** verursachen, bezeichnet man sie daher of als **Dreh-Faktor** (engl. Twiddle-Factor):
+Die Einheitswurzel unterteilt die Abtastperiode, also alle Werte zwischen $0$ und $N-1$, gleichmäßig auf dem [Einheitskreis](../../Mathematik/Geometrie/Kreis.md) im komplexen Zahlenraum $\mathbb{C}$, indem die Einheitswurzel über die gesamte Periode **Potenziert** wird. Da die Potenzen der Einheitswurzel eine **Drehung** verursachen, bezeichnet man sie daher of als **Dreh-Faktor** (engl. Twiddle-Factor):
 
 
 

@@ -3,6 +3,7 @@ tags: []
 aliases:
   - Java Database Connectivity
 created: 29. November 2022
+title: JDBC - Java Database Connectivity
 ---
 
 # Java Database Connectivity - JDBC

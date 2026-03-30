@@ -23,6 +23,7 @@ def:
   - Def 1.1.
   - Def 1.4.
   - Bsp 1.2.
+title: Aussagelogik
 ---
  
 

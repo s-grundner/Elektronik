@@ -1,8 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Dynamic Host Configuration
 created: 10. März 2024
+title: DHCP
 ---
 
 # DHCP

@@ -1,12 +1,13 @@
 ---
 tags:
-  - ComputerNetzwerke
+  - OSI-Modell
 aliases:
   - Transport Layer
   - Layer 4
 subject:
   - ksn
 created: 6th April 2022
+title: Transportschicht
 ---
 
 # Transportschicht (OSI-Layer 4)

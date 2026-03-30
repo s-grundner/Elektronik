@@ -4,6 +4,7 @@ aliases: []
 subject:
   - mtrs
 created: 7th June 2022
+title: Drehzahlmessung
 ---
 
 # Drehzahlmessung

@@ -10,6 +10,7 @@ aliases:
 subject:
   - fsst
 created: 21st November 2022
+title: SQLite
 ---
 
 # SQL

@@ -8,12 +8,13 @@ aliases:
 subject:
   - mtrs
 created: 7th June 2022
+title: Piezoelektrik
 ---
 
 # Piezoelektrik
 
 > [!example]- Rechenbeispiel
-> Ein [Quarz](../Analog-Design/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md) von $F=1kN$ belastet.
+> Ein [Quarz](../Analog-Design/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kinematik/Kräfte.md) von $F=1kN$ belastet.
 > Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/elektrisches%20Feld.md) abgeklungen?
 > $$
 > \begin{align*}
@@ -40,13 +41,13 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 
 | Input                              | Output                                                              |
 | ---------------------------------- | ------------------------------------------------------------------- |
-| [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
+| [Kraft](../Physik/Kinematik/Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
 
 ![invert_dark](../_assets/piezo_esb.png)
 
 ## Piezoresistiver Geber
 
-![invert_dark|425](../_assets/piezoresistivergeber.png) Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Physik/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
+![invert_dark|425](../_assets/piezoresistivergeber.png) Zur **Druckmessung in Flüssigkeiten und Gasen werden** *piezoresistive Geber* aus [Silizium](../Chemie/Materialkunde/Silizium.md) herangezogen. Sie sind bereits als Brücken im Sensor ausgeführt.  
 Es handelt sich dabei um ein **DMS-System** aus **mehreren Streifen**, die entweder auf einer *Metallmembran* aufgeklebt oder gänzlich durch *Ätztechnik* hergestellt sind.
 
  - Die Membrane muss gasdicht sein.

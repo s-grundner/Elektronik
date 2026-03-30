@@ -6,6 +6,7 @@ created: 30th May 2022
 tags:
   - Mathe
   - Kurvendiskussion
+title: Asymptote
 ---
 
 # Asymptote

@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Reibung
   - Schiefe Ebene
-keywords: 
+keywords:
 subject:
   - Physik 1 für TechnikerInnen
   - VL
@@ -11,6 +11,7 @@ semester: WS23
 created: 14. Dezember 2023
 professor:
   - Gunther Springholz
+title: Reibungskraft
 ---
  
 

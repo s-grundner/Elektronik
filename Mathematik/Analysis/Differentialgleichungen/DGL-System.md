@@ -1,14 +1,15 @@
 ---
-tags: 
+tags:
 aliases:
   - Differenzialgleichungssystem
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 17. Oktober 2024
 professor:
+title: Autonomes DGL-System
 ---
  
 

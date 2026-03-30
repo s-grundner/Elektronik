@@ -1,4 +1,7 @@
-# 6 Datenbankprogrammierung
+---
+title: Datenbank-Programmierung
+---
+# Datenbankprogrammierung
 
 SQL ist als reine Zugriffsund Verwaltungssprache entworfen worden. Anfänglich gab es in SQL keine Kontroll-, Schleifenoder Verzweigungsanweisungen. Sie beschränkt sich auf die Beschreibung und den Zugriff auf die Datenbank.
 

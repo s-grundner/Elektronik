@@ -1,12 +1,13 @@
 ---
 tags:
-  - ComputerNetzwerke
+  - OSI-Modell
 aliases:
   - OSI-Modell
   - OSI-Modells
 subject:
   - ksn
 created: 4th April 2022
+title: OSI-Modell
 ---
 
 # OSI Referenzmodell

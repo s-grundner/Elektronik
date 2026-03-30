@@ -1,3 +1,6 @@
+---
+title: Observer-Pattern
+---
 
 
 ## Observer

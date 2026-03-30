@@ -1,13 +1,14 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
   - Mathematik 3
 semester: WS24
 created: 17. Oktober 2024
 professor:
+title: Variation der Konstanten
 ---
  
 
@@ -30,7 +31,7 @@ Dann lässt sich der Lösungsansatz aufstellen:
 
 $$ x_{p}(t)= X(t)\cdot c(t) $$
 
-wobei $X(t)$ die [Fundamentallösung](Differentialgleichungen/Fundamentalmatrix.md) ist, welche mittels [Trennen der Variablen](../../Algebra/Trennen%20der%20Variablen.md) der homogenen Lösung gefunden werden kann. 
+wobei $X(t)$ die [Fundamentallösung](Differentialgleichungen/Fundamentalmatrix.md) ist, welche mittels [Trennen der Variablen](../Trennen%20der%20Variablen.md) der homogenen Lösung gefunden werden kann. 
 
 > [!hint] Herleitung zur Variation der Konstanten
 >  

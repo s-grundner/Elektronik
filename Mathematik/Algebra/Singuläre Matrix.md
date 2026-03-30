@@ -1,3 +1,6 @@
+---
+title: Singuläre Matrix
+---
 # Singuläre Matrix
 
 > [!question] [Matrix](Matrix.md), [Determinante](Determinante.md)

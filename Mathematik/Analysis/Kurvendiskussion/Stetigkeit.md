@@ -6,6 +6,7 @@ aliases: []
 subject:
   - mathe
 created: 30th May 2022
+title: Stetigkeit
 ---
 
 # Stetigkeit
@@ -20,6 +21,6 @@ Liste Stetiger Funktionsarten
 - Kreisfunktionen $\sin \cos \tan \left( \mathbb{R}\setminus \left\{  k\cdot \pi+\frac{\pi}{2}  \right\} \right)$
 - Rationale Funktionen
 
-# Tags
+# Referenzen
 
-[Lipschitz-Stetigkeit](Lipschitz-Stetigkeit.md)
+- [Lipschitz-Stetigkeit](Lipschitz-Stetigkeit.md)

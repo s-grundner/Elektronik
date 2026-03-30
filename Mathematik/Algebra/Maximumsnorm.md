@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Maximumnorm
   - Tschebyscheff-Norm
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 3
@@ -11,6 +11,7 @@ subject:
 semester: WS24
 created: 22. Oktober 2024
 professor:
+title: Maximumsnorm
 ---
  
 

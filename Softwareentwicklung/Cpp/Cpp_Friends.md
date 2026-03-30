@@ -1,3 +1,6 @@
+---
+title: Friends
+---
 # Friends
 
 Auf *private* Daten einer Klasse kann nur von innerhalb der Klasse selber zugegriffen werden. Ähnlich kann auf *protected* Daten nur aus der Klasse selber oder einer davon abgeleiteten Klasse zugegriffen werden.

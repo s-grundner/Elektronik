@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - Mathematik 1
   - VL
@@ -9,6 +9,7 @@ semester: WS23
 created: 27. Januar 2024
 professor:
   - Andreas Neubauer
+title: Vertauschungsmatrix
 ---
  
 

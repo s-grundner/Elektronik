@@ -1,7 +1,8 @@
 ---
 tags: []
-aliases: 
+aliases:
 created: 9th January 2024
+title: Y-Diagramm
 ---
 
 # Y-Diagramm
@@ -18,7 +19,7 @@ Funktionale Einheiten, die miteinander kommunizieren.
 
 ## Algorithmus Ebene
 
-> [!question] [Algorithmus](../Softwareentwicklung/DSA/{MOC}%20Algorithmus.md)
+> [!question] [Algorithmus](../Softwareentwicklung/DSA/Algorithmen/index.md)
 
 Die Funktionen einzelner Blöcke werden durch Algorithmen in einer Hardware- oder System- Beschreibungssprache modelliert
 

@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - Arbeit
   - Joule
-keywords: 
+keywords:
 subject:
   - VL
   - Physik für TechnikerInnen
@@ -14,6 +14,7 @@ created: 24th January 2024
 professor:
   - Gunther Springholz
   - Bernhard Jakoby
+title: Mechanische Arbeit
 ---
  
 

@@ -14,12 +14,12 @@ title: Referenzspannung
 
 ## Erzeugung vom Referenzspannungen (Band Gap Reference)
 
-Man nutzt die **Bandabstand-Spannung** eines [Silizium](../../Physik/Materialkunde/Silizium.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1.12V$
+Man nutzt die **Bandabstand-Spannung** eines [Silizium](../../Chemie/Materialkunde/Silizium.md) Bauelements zur Erzeugung einer Hochgenauen Referenzspannung $~1.12V$
 
 ### Grundlagen
 
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)  
-[Halbleitermaterialien](../../Physik/Materialkunde/Silizium.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
+[Halbleitermaterialien](../../Chemie/Materialkunde/Silizium.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
 $U_{g}= \frac{W_{g}}{e}$  
 wobei $e$ die [Elementarladung](../../Physik/Konstanten/Elementarladung.md) ist.
 

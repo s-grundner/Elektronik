@@ -10,6 +10,7 @@ subject:
 semester: SS24
 created: 11. Juni 2024
 professor:
+title: Funktionenfolge
 ---
  
 

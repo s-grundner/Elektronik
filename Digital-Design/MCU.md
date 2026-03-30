@@ -30,7 +30,7 @@ title: Mikrocontroller
 - [GPIO](GPIO.md)
 - [RTOS](../Softwareentwicklung/Betriebssysteme/RTOS.md)
 - [DMA](DMA.md)
-- [Clock-Generierung](../Analog-Design/Oszillatoren/Clock-Generierung.md)
+- [Clock-Generierung](Clock-Generierung.md)
 - [Interrupts](Interrupts.md)
 
 ## Analog

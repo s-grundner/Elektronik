@@ -1,10 +1,10 @@
 ---
-tags: 
+tags:
 aliases:
   - Polarisieren
   - Polarisierung
   - Polarisierbar
-keywords: 
+keywords:
 subject:
   - VL
   - Einführung Elektrotechnik
@@ -12,6 +12,7 @@ semester: WS23
 created: 10. März 2024
 professor:
   - Bernhard Jakoby
+title: Polarisation
 ---
  
 

@@ -15,6 +15,7 @@ semester: WS23
 created: 18. Oktober 2023
 professor:
   - Bernhard Jakoby
+title: elektrische Spannung
 ---
  
 
@@ -44,7 +45,7 @@ professor:
 
 ## Spannungsquellen
 
-> [!info] Spannungsquellen beruhen darauf, dass eine [Kraft](../Physik/Kinematik/{MOC}%20Kräfte.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](elektrisches%20Feld.md) (externe Kräfte) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
+> [!info] Spannungsquellen beruhen darauf, dass eine [Kraft](../Physik/Kinematik/Kräfte.md), welche *nicht elektrisch* ist, das treibende [elektrische Feld](elektrisches%20Feld.md) (externe Kräfte) innerhalb der Quelle aufrecht erhält und somit mittels dem [Stromfluss](elektrischer%20Strom.md) eine Potenzialdifferenz bewirkt.
 
 ### Externe Kräfte
 

@@ -1,7 +1,7 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - VL
 semester:
@@ -10,6 +10,7 @@ semester:
 created: 6. März 2024
 professor:
   - Bernhard Jakoby
+title: Leistungsanpassung
 ---
  
 

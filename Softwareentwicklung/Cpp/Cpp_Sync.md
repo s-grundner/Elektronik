@@ -4,6 +4,7 @@ tags:
   - Cpp
 aliases: []
 created: 29. November 2022
+title: Synchronmaschine
 ---
 
 # 3 Os - Synchronisation - Cpp
@@ -46,5 +47,5 @@ Beherzigen Sie folgende Regeln bei der Synchronisierung von Threads:
 
 # Referenzen
 
-- [Java](../Java/{MOC}%20Java.md)-Semaphore/Mutex  
+- [Java](../Java/index.md)-Semaphore/Mutex  
   https://www.mkyong.com/java/java-thread-mutex-and-semaphore-example/

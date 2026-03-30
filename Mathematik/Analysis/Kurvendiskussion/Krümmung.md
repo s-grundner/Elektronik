@@ -2,7 +2,8 @@
 tags:
   - Mathe
   - Kurvendiskussion
-aliases: 
+aliases:
 created: 2. Oktober 2023
+title: Krümmung
 ---
 

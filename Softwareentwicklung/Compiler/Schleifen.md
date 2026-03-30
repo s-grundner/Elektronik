@@ -1,3 +1,6 @@
+---
+title: Schleifen
+---
 # Wiederholungen/Schleifen
 
 Größte Stärke von Rechnersystemen: Wiederholen von gleichen Berechnungen. Grundsätzlich würde man mit einer einzigen Art von Schleifen das Auslangen finden. Zur Steigerung der Lesbarkeit gibt es jedoch unterschiedliche Formen.

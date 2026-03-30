@@ -121,8 +121,8 @@ Je nach genauigkeit der Kleinsignalannäherung kommen in dem Ausdruck verschiede
 
 ## Materialien
 
-- [Silizium](../../Physik/Materialkunde/Silizium.md)
-- [Germanium](../../Physik/Materialkunde/Germanium.md)
+- [Silizium](../../Chemie/Materialkunde/Silizium.md)
+- [Germanium](../../Chemie/Materialkunde/Germanium.md)
 
 ## Dioden Variationen
 

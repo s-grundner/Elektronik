@@ -1,6 +1,6 @@
 ---
-tags: 
-aliases: 
+tags:
+aliases:
 keywords:
   - Volumen des Parallelepipeds
 subject:
@@ -9,6 +9,7 @@ semester: WS25
 created: 27. Januar 2024
 professor:
   - Andreas Neubauer
+title: Spatprodukt
 ---
  
 

@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 aliases:
   - Drehimpulserhaltung
-keywords: 
+keywords:
 subject:
   - Physik 1 für TechnikerInnen
   - VL
@@ -10,6 +10,7 @@ semester: WS23
 created: 24th January 2024
 professor:
   - Gunther Springholz
+title: Drehimpuls
 ---
 
 # Drehimpuls $\vec{L}$

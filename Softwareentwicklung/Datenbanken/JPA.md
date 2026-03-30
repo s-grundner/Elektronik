@@ -4,6 +4,7 @@ tags:
 aliases:
   - Jakarta Persistence API
 created: 29. November 2022
+title: JPA - Jakarta Persistence API
 ---
 
 # Jakarta Persistence API - JPA

@@ -9,6 +9,7 @@ semester: WS24
 created: 15. Oktober 2024
 professor:
 release: false
+title: Heisenbergsche Unschärfe
 ---
  
 # Heisensbergsche Unschärfe

@@ -6,7 +6,7 @@ created: 29th November 2022
 
 # 3 Sortieren - Übungen
 
-## [Bubble Sort](../Bubble%20Sort.md) Für int/txt/struct-Array (2006)
+## [Bubble Sort](../Algorithmen/Sortieren/Bubble%20Sort.md) Für int/txt/struct-Array (2006)
 
 Das folgende Programm soll:
 

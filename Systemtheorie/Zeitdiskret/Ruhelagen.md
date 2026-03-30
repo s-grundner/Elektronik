@@ -1,3 +1,6 @@
+---
+title: Ruhelagen
+---
 ## Ruhelagen
 
 Betrachtet man

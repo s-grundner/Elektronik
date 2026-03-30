@@ -1,3 +1,6 @@
+---
+title: Halbwellen Dipol
+---
 # Halbwellen Dipol
 
 ## Aufbau

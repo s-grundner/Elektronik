@@ -1,7 +1,9 @@
 ---
-tags: ["Java"]
+tags:
+  - Java
 aliases: []
 created: 29th November 2022
+title: Klassendiagramme
 ---
 
 # 21 Klassendiagramme

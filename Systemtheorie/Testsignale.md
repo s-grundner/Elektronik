@@ -3,13 +3,14 @@ tags:
   - tikz/pgfplot
 aliases:
   - Elementare Signale
-keywords: 
+keywords:
 subject:
   - VL
   - Signale und Systeme
 semester: WS24
 created: 8. Oktober 2024
 professor:
+title: Testsignale
 ---
  
 

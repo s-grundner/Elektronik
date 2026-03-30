@@ -1,9 +1,9 @@
 ---
-tags: 
+tags:
 aliases:
   - äußeres Produkt
   - äußere Produkt
-keywords: 
+keywords:
 subject:
   - VL
   - Mathematik 1
@@ -11,6 +11,7 @@ semester: WS23
 created: 3. März 2024
 professor:
   - Andreas Neubauer
+title: Kreuzprodukt
 ---
  
 

@@ -1,7 +1,8 @@
 ---
-tags: []
+tags:
 aliases: []
 created: 10. März 2024
+title: Domain Name Server
 ---
 
 # DNS

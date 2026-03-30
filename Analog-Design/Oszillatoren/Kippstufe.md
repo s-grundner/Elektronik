@@ -14,6 +14,7 @@ semester: WS24
 professor:
   - Bernhard Jakoby
 release: false
+title: Kippstufe
 ---
  
 

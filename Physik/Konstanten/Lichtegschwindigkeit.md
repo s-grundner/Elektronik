@@ -6,6 +6,7 @@ symbol: $c_{0}$
 value: 299 792 458
 unit: m/s
 science: Allgemein
+title: Lichtgeschwindigkeit
 ---
 
 # Lichtgeschwindigkeit im Vakuum

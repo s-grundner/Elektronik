@@ -1,11 +1,11 @@
 ---
 tags:
-  - ComputerNetzwerke
 aliases:
   - Netwerktopologien
 subject:
   - ksn
 created: 5th April 2022
+title: Netzwerk Topoligoen
 ---
 
 # Netzwerktopologien
