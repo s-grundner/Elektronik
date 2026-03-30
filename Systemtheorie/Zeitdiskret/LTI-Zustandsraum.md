@@ -24,8 +24,8 @@ title: Diskreter LTI-Zustandsraum
 > 
 >  $$
 > \begin{align}
-> \mathbf{x}_{k+1} &= \mathbf{A}\mathbf{x}_{k}+\mathbf{B}\mathbf{u}_{k}, \quad \mathbf{x}(0) = \mathbf{x}_{0}\tag{Zustandsgl.}\\
-> \mathbf{y}_{k} &= \mathbf{C} \mathbf{x}_{k} + \mathbf{D} \mathbf{u}_{k} \tag{Ausgangsgl.}
+> \mathbf{x}_{k+1} &= \mathbf{A}\mathbf{x}_{k}+\mathbf{B}\mathbf{u}_{k}, \quad \mathbf{x}(0) = \mathbf{x}_{0} &\text{Zustandsgl.}\\
+> \mathbf{y}_{k} &= \mathbf{C} \mathbf{x}_{k} + \mathbf{D} \mathbf{u}_{k} &\text{Ausgangsgl.}
 > \end{align}
 > $$
 > 

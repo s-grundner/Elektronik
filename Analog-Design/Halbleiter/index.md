@@ -16,6 +16,7 @@ title: Halbleiter Schaltungstechnik
 # Halbleiter Schaltungstechnik
 
 ## Quantenmechanik
+
 - Schrödingergleichung
 - Stationäre Zustände, Gebundene Zustände
 - Tunneleffekt
@@ -50,4 +51,4 @@ Dioden
 
 ## Dreipole
 
-Transostoren
+Transistoren
