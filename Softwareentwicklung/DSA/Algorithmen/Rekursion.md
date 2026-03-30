@@ -106,8 +106,7 @@ To reduce [time complexity](Algorithmen/O-Notation.md), it is recommended to sav
 > ```
 >
 > repeated patterns in the recursion tree are saved in the `memo` object.  
-> ![650](fib_tree.svg)
->
+> 
 > ``` js
 > memo = {
 > 	// memo contents
@@ -135,14 +134,11 @@ To reduce [time complexity](Algorithmen/O-Notation.md), it is recommended to sav
 # Beispiele
 
 - [Binary Search](Suchen/Binary%20Search.md)
-- [Ue_Rekursion](Uebung/Ue_Rekursion.md)
 
 ---
 
 # Tags
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oBt53YbR9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Rekursion - FreeCodeCamp.org](https://youtu.be/IJDJ0kBx2LM?si=AgtIqjkhceLE5A8c)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IJDJ0kBx2LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## [Tail-Call-Optimizations (TCO)](https://stackoverflow.com/questions/310974/what-is-tail-call-optimization).
+- [Tail-Call-Optimizations (TCO)](https://stackoverflow.com/questions/310974/what-is-tail-call-optimization).
