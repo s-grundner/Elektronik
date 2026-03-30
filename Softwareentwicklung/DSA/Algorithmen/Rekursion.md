@@ -74,7 +74,8 @@ Grundsätzlich gilt:
 > }
 > ```
 
-![275](../../../_assets/reverseString_callStack.svg)
+
+![](../../../_assets/ReverseStringCallstack.png)
 
 ## Memoisation
 
