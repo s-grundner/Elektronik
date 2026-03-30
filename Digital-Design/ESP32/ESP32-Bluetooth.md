@@ -1,4 +1,13 @@
-## ESP32-Bluetooth
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32 Bluetooth
+release: false
+---
+
+
+# ESP32-Bluetooth
 
 Mit diesem Beispiel kann mittels z.B. Mobiltelefon auf Bluetooth gepairt werden. Mit einem Bluetooth-Terminal (Serial Bluetooth …) können anschließend Daten an den ESP gesendet werden und im Serial-Monitor angezeigt werden. Verändern Sie in den Bluetooth-Namen *_$$$$* auf das Namenskürzel.
 

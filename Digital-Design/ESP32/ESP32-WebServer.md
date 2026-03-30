@@ -1,4 +1,12 @@
-## ESP32-WebServer
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32-WebServer
+release: false
+---
+
+# ESP32-WebServer
 
 Diese WebServer-Applikation Erzeugt auf der Adresse 192.168.4.1 die folgende Seite:
 

@@ -1,4 +1,12 @@
-## 02_WiFi
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32-WiFi
+release: false
+---
+
+# WiFi
 
 Verbinden als einfacher Endpunkt in einem WLAN.
 

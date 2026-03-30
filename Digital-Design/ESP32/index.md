@@ -1,7 +1,7 @@
 ---
 tags:
   - index
-title: esp32
+title: ESP32
 release: false
 aliases:
   - ESP32

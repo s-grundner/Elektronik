@@ -1,4 +1,12 @@
-## 08_DeepSleepTimer
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32 DeepSleepTimer
+release: false
+---
+
+# DeepSleepTimer
 
 (<https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)>
 

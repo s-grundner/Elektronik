@@ -1,4 +1,13 @@
-## 06_BMP280
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32 I2C
+release: false
+---
+
+
+# BMP280
 
 Der BMP280 ist mit dem ESP32 mittels I²C-Bus verbunden (der Sensor kann auch mittels SPI eingebunden werden):
 

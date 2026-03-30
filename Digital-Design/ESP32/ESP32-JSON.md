@@ -1,4 +1,13 @@
-## 07_Json
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32-JSON
+release: false
+---
+
+
+# Json
 
 Für diese Projekte muss die Library **ArduinoJson by Benoit Blanchon** installiert werden (PlatformIO.ini):
 

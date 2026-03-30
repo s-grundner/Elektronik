@@ -47,7 +47,8 @@ $$
 \begin{align}
 \mathbf{x}_{1} &= \mathbf{Ax}_{0}+\mathbf{Bu}_{0} \\
 \mathbf{x}_{2} &= \mathbf{Ax}_{1}+\mathbf{Bu}_{1} \\
-&= \mathbf{A}(\mathbf{Ax}_{0}+\mathbf{Bu}_{0}) +\mathbf{Bu}_{1} = \mathbf{A}^{2}\mathbf{x}_{0} + \mathbf{ABu}_{0} + \mathbf{Bu}_{1} \\
+&= \mathbf{A}(\mathbf{Ax}_{0}+\mathbf{Bu}_{0}) +\mathbf{Bu}_{1} \\
+&= \mathbf{A}^{2}\mathbf{x}_{0} + \mathbf{ABu}_{0} + \mathbf{Bu}_{1} \\
 &\ \ \vdots
 \end{align}
 $$

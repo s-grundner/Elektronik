@@ -1,4 +1,12 @@
-## ESP32-MQTT
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32-MQTT
+release: false
+---
+
+# ESP32-MQTT
 
 > [!question] [MQTT](../../Softwareentwicklung/IoT/MQTT.md)
 

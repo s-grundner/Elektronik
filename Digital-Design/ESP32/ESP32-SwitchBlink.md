@@ -1,4 +1,12 @@
-## SwitchBlink
+---
+tags:
+aliases:
+created: 15th January 2026
+title: ESP32-SwitchBlink
+release: false
+---
+
+# SwitchBlink
 
 Einlesen der Schalterzustände und Aktivieren von LEDs.
 
