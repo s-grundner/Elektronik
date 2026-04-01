@@ -12,7 +12,8 @@ subject:
 semester: WS24
 created: 13. Dezember 2024
 professor:
-release: false
+  - Christian Diskus
+release: true
 title: Biquad FIlter
 ---
  
@@ -114,7 +115,8 @@ mit den Parametern: $V_{0}=1,\quad \omega_{0}=10^{5}s^{-1}, \quad Q=\frac{1}{\sq
 | :------------------------------------: | :----------------------------------------------: |
 | ![Biquad_Bode](../../_assets/Biquad_Bode.png) | ![Biquad_Ortskurve](../../_assets/Biquad_Ortskurve.png) |
 
-<center><a href="../Simulationen/Biquad.nb" class="internal-link">📈Mathematica Notebook</a></center>
+- [📈Mathematica Notebook](../../Scripts/mathematica/Biquad.nb)
+
 
 ## Funktionsweise
 

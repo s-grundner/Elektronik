@@ -3,6 +3,7 @@ tags:
 aliases:
   - Linear Least Squares
   - LLS
+  - Normale Equations
 subject:
   - SE
   - Bachelorarbeit
@@ -46,7 +47,7 @@ Oft werden die Parameter $\theta_{1}$ und $\theta_{1}$ auch zu einem Parameterve
 > [!hint] $x$ und $y$ sind [Zufallsvariablen](Statistik/Zufallsvariable.md) bzw. Realisierungen eines [stochastischen Prozesses](Statistik/Stochastische%20Prozesse.md). Dabei ist $y$ eine *Abhängige Zufallsvariable* und zwar von der *unabhängigen Zufallsvariable*. $x$
 > Dabei ist es Hier das Ziel, diese Abhängigkeit, mit einer Modellfunktion optimal abzuschätzen.
 
-#incomplete 
+#todo 
 
 ## Vektorparameterfall
 
@@ -60,7 +61,7 @@ x[0] \\ x[1] \\ \vdots \\ x[N-1]
 \end{pmatrix}
 $$
 
-- $\mathbf{s}$ ... zu Modellierendes Signal
+- $\mathbf{s}$ ... Reines Signal
 - $\mathbf{x}$ ... Messwerte
 
 ### Modell
@@ -70,6 +71,9 @@ Ein Lineares Modell für das Signal ist dann,
 $$
 s[n] = \sum_{k=1}^{P}\theta_{k}h_{k}[n]
 $$
+
+- $h_{k}[n]$ Modellfunktion
+- $\theta_{k}$ Parameter
 
 Oder in Matrix Schreibweise
 
@@ -100,6 +104,9 @@ Dabei ist $\mathbf{H} \in \mathbb{R}^{N\times P}$ mit $N > P$ eine *bekannte Mat
 ### Design Matrix
 
 Die Design-Matrix besteht aus $N$ Zeilenvektoren von funktionen $(h_{k}[n])_{k=0}^{P}$, welche die Form des Modells Festlegen.
+
+> [!hint]- Das Modell kann die Daten nur Akkurat annähern wann eine der Modellfunktionen Ähnlich zum Echten Modell ist.
+> z.B: Enthält das Echte Modell Einen Sinus Term, Wird der Parameter $\theta$ welches die Funktion $h[n] = \sin(n)$ gewichtet größer sein. Ist jedoch kein Sinus in den Modell Funktionen vorhanden, wird versucht der Sinus durch die Anderen Funktionen Angenähert zuu werden. Das kann in grenzfällen Schief gehen: bei einem Linearen Modell würde dann z.B. die Gerade konstant beim Mittelwert null gelegt werden.
 
 > [!example]- Typische Formen von $\mathbf{H}$ sind z.B.
 > 
@@ -164,15 +171,14 @@ Die Design-Matrix besteht aus $N$ Zeilenvektoren von funktionen $(h_{k}[n])_{k=0
 > \end{pmatrix}
 > $$
 
-### Kostenfunktion
+### Kostenfunktion und Lösung
 
-- With the measurements $\mathbf{x}$ we regarded the cost function
-
+- Mit den Messungen $\mathbf{x}$ ist die Summe der Fehlerquadrate als Kostenfunktion:
 $$
 J(\boldsymbol{\theta})=\sum_{n=0}^{N-1}(x[n]-y[n ; \boldsymbol{\theta}])^2=\sum_{n=0}^{N-1} e^2[n]=\mathbf{e}^T \mathbf{e}=(\mathbf{x}-\mathbf{H} \boldsymbol{\theta})^T(\mathbf{x}-\mathbf{H} \boldsymbol{\theta})
 $$
 
-- The minimum of $J$, and therefore the LS solution is given by
+- Das Minimum der Kostenfunktion ($J$ ist immer skalar) lässt sich durch den [Gradienten Abstieg](../Softwareentwicklung/DSA/Algorithmen/Gradient%20Descent.md) ermitteln. Dieser Liefert im Linearen Fall die [Normalgleichungen](Normalgleichungen.md) $(\mathbf{H}^{T}\mathbf{H})\hat{\boldsymbol{\theta}} = \mathbf{H}^{T}\mathbf{x}$ und folglich:
 
 $$
 \begin{aligned}
@@ -183,6 +189,5 @@ $$
 
 # Referenzen
 
-[Lineare Modellfunktionen für LLS - Wikipedia](https://de.wikipedia.org/wiki/Methode_der_kleinsten_Quadrate#Lineare_Modellfunktion)
-
-
+- [Lineare Modellfunktionen für LLS - Wikipedia](https://de.wikipedia.org/wiki/Methode_der_kleinsten_Quadrate#Lineare_Modellfunktion)
+- [Normal Equations - Wolfram](https://mathworld.wolfram.com/NormalEquation.html)

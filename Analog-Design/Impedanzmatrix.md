@@ -1,6 +1,11 @@
 ---
 title: Impedanzmatrix
+tags:
+aliases:
+created: 27th March 2026
+release: true
 ---
+
 # Impedanzmatrix
 
 $\underline{U}_{1}= \underline{I}_{1}\cdot\underline{Z}_{11}+\underline{I}_{2}\cdot\underline{Z}_{12}$  

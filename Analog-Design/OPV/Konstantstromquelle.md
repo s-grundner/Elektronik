@@ -11,7 +11,7 @@ subject:
 semester: WS24
 created: 23. September 2023
 professor:
-release: false
+release: true
 title: Konstantstromquelle
 ---
  
@@ -25,6 +25,6 @@ title: Konstantstromquelle
 ![invert_dark|600](../../_assets/UnidirektionaleKonstStrom.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/UnidirektionaleKonstStrom.md)%%
 
-# Tags
+## Referenzen
 
-[EK](https://www.elektronik-kompendium.de/public/schaerer/currop.htm)
+[Elektronik Kompendium](https://www.elektronik-kompendium.de/public/schaerer/currop.htm)

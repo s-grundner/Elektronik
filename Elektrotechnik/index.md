@@ -2,7 +2,7 @@
 tags:
   - index
 title: Elektrotechnik
-release: false
+release: true
 aliases: Elektrotechnik
 ---
 

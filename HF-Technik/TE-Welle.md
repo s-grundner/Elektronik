@@ -11,7 +11,7 @@ subject:
 semester: WS25
 created: 9th February 2026
 professor:
-release: false
+release: true
 title: Transversale E-Welle
 ---
 
@@ -74,3 +74,7 @@ Um die Leiterkenngrößen von TE Wellen zu ermitteln, kann folgende Herangehensw
 2. (3.19) verwenden, um die transversalen Anteile $\mathbf{h}(x,y)$ und $\mathbf{e}(x,y)$ zu berechnen.
 3. Randwerte für die Feldkomponenten definieren, um die unbekannten Konstanten  und $k_{c}$ zu bestimmen.
 4. Die [Ausbreitungskonstanten](../Physik/Feldtheorie/Wellenzahl.md#Grenzwellenzahl) und die Wellenimpedanz $Z_{\text{TE}}$ berechnen
+
+## Referenzen
+
+- Pozar, D. M. (2012). _Microwave engineering_ (4. ed.). Wiley. http://media.obvsg.at/AC08958137-1001

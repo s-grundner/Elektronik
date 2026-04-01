@@ -3,7 +3,7 @@ title: Paralleler Leitungsabschluss
 tags:
 aliases:
 created: 15th January 2026
-release: false
+release: true
 ---
 
 # Paralleler Leitungsabschluss
@@ -11,7 +11,7 @@ release: false
 > [!INFO] Oft ist die Impedanz der Quelle und der Leitung niedrig ($10\Omega-100\Omega$) gegenüber der Abschlussimpedanz ($>1000\Omega$)
 > Ohne Maßnahmen treten Reflexionen in hohem Maße auf
 
-![](../_assets/ParallelTerm.png)
+![invert_light](../_assets/ParallelTerm.png)
 
 > [!CHECK] Transmissionline (TL) wird an der Quell-Seite mit einem parallelen Abschlusswiderstand $R_{T}$ terminiert. 
 > Der Widerstand wird so gewählt dass: $Z_{A}\mid\mid R_{T} = Z_{0}$.
@@ -44,3 +44,6 @@ release: false
 > - Toleranz bei $Z_{0}$ ($5\%, 10\%$) beachten
 > - Toleranz bei $R_{T}$ ($1\%, 10\%$) beachten
 > - Um Undershoot ($R_{T}<Z_{0}$) zu vermeiden $\to$ *$R_{T}$ $10\%$ höher als $Z_{0}$ wählen*
+
+## Referenzen 
+![Parallel Termination Basics - Phil's Lab 119](https://youtu.be/HF-H4iuyBnc)

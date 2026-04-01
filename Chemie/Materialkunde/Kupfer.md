@@ -14,12 +14,10 @@ temperature-coeff:
   - "38"
   - $10^{-4}\frac{1}{K}$
   - $\alpha$
-title: Kuofer
+title: Kupfer
 ---
 
 # Kupfer
-
-
 
 ---
 

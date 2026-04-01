@@ -41,4 +41,4 @@ $$
 
 # Quellen
 
-[Schaltnetzteile_Schmidt-Walter](../../xEDU/xLiteratur/Schaltungstechnik/Schaltnetzteile_Schmidt-Walter.pdf)
+- [Schaltnetzteile_Schmidt_Walter](../../xEDU/xLiteratur/Elektronik/Schaltnetzteile_Schmidt_Walter.pdf)

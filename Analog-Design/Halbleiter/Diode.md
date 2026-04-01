@@ -17,7 +17,7 @@ keywords:
   - Kennlinie
   - Arbeitspunkt
 release: false
-title: Zener-Diode
+title: Diode
 ---
 
 # Diode als Bauelement

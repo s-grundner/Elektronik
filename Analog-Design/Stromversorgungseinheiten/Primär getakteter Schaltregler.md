@@ -12,7 +12,7 @@ title: Primär getaktete Schaltregler
 
 # Primär getakteter [Schaltregler](index.md)
 
-![PrimGetaktSMPS](../../_assets/PrimGetaktSMPS.png)
+![invert_light](../../_assets/PrimGetaktSMPS.png)
 
 ## Eigenschaften
 

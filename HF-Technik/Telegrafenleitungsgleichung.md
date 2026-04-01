@@ -18,7 +18,7 @@ title: Telegrafenleitungsgleichung
 
 Die Telegrafenleitungsgleichungen sind ein Modell zur beschreibeung der ausbreitung von Strom und Spannungswellen eines [RF-Signals](Leitungstheorie.md) auf einer [Transmission Line](Transmission%20Line.md).
 
-> #incomplete Ersetzten durch allgemein verlustbehaftete Leitung
+> #todo Ersetzten durch allgemein verlustbehaftete Leitung
 
 ![invert_dark](../_assets/tl2.png)
 ^TL-Modell

@@ -12,7 +12,8 @@ subject:
 semester: WS24
 created: 13. Dezember 2024
 professor:
-release: false
+  - Christian Diskus
+release: true
 title: Sallen-Key Filter
 ---
  
@@ -53,7 +54,7 @@ title: Sallen-Key Filter
 | :---------------------------------------------------------------: | :---------------------------------------------: |
 | ![invert_dark\|600](../../_assets/59_SallenKey.png) | ![invert_dark](../../_assets/Sallen_Key_Ortskurve.png) |
 
-<center><a href="Scripts/mathematica/SallenKey.nb" class="internal-link">📈Mathematica Notebook</a></center>
+[📈Mathematica Notebook](../../Scripts/mathematica/SallenKey.nb)
 
 
 > [!info] Unterschiedliche Wahlen des Verstärkungsfaktors $\alpha$ ergeben unterschiedliche [Filtercharakteristiken](Aktiver%20Filter.md#Filter%20Charakteristiken):
@@ -62,5 +63,3 @@ title: Sallen-Key Filter
 > $\alpha = 1.268$: Bessel
 > $\alpha = 1.586$: [Butterworth](Butterworth%20Filter%20Charakteristik.md)
 > $\alpha=2.234$: [Tschebyscheff](Tscheybyscheff%20Filter%20Charakteristik.md)
-
-## Funktionsweise

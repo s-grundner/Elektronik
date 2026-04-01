@@ -13,13 +13,13 @@ subject:
   - VL
   - Elektrotechnik
 semester: SS24
-created: 4. März 2024
+created: 27th March 2026
 professor:
   - Andreas Springer
 title: Lineare Elektrische Netzwerke
+release: true
 ---
  
-
 # Lineare Netzwerke
 
 [Duale Netzwerke – Wikipedia](https://de.wikipedia.org/wiki/Duale_Netzwerke)
@@ -69,6 +69,5 @@ Grafisch Hilfsmittel wie [Zeigerdiagramme](Wechselstromtechnik.md) und [Ortskurv
 Im Zusammenhang mit den Zeigerdiagrammen werden wir uns noch mit der [Inversion von Zeigern](Wechselstromtechnik.md#Inversion%20von%20Zeigern) beschäftigen
   - um z.B. Z- oder Y-Zeigerdiagramme von Schaltungen zeichnen zu können, die eine Mischung aus Bauelementen in Serien- und Parallelschaltung enthalten
 
-# Tags
 
 [^1]: Für den Fall der [Wechselstromtechnik](Wechselstromtechnik.md)

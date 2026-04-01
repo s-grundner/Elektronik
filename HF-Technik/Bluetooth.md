@@ -9,7 +9,7 @@ subject:
 semester: 1
 created: 10. November 2023
 professor:
-title: ESP32 Bluetooth
+title: Bluetooth
 ---
  
 

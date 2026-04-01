@@ -47,4 +47,8 @@ title: Multiple Feedback Filter
 
 ## Übertragungsfunktion
 
+#todo 
+
 ## Funktionsweise
+
+#todo

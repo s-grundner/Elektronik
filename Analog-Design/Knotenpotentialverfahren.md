@@ -12,13 +12,13 @@ subject:
   - VL
   - Elektrotechnik
 semester: SS24
-created: 8. Januar 2024
+created: 13th March 2026
 professor:
   - Andreas Springer
-title: Knotenpotenzialverfahren
+title: Knotenpotentialverfahren
+release: true
 ---
  
-
 # Knotenpotential Verfahren
 
 > [!hint] Grundidee
@@ -169,8 +169,8 @@ Die 1 liegt immer auf der Diagonale in der Spalte des Bezugsknotens.
 
 ### Gesteuerte Quellen
 
----
+#todo
 
-# Quellen
+## Referenzen
 
 ![Knotenpotentialverfahren - Schaltungen berechnen, ohne nachzudenken](https://www.youtube.com/watch?v=SxBQ7VUgzEM)

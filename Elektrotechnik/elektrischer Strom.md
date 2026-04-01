@@ -12,16 +12,15 @@ subject:
   - VL
   - Einführung Elektrotechnik
 semester: WS23
-created: 1. März 2024
+created: 15th January 2026
 professor:
   - Bernhard Jakoby
 title: elektrischer Strom
+release: true
 ---
  
 
 # Elektrischer Strom
-
-
 
 Die Stromstärke $I$ gibt an, wie viel [Ladung](elektrisches%20Feld.md) $\Delta Q$ pro Zeiteinheit $\Delta t$ durch einen [bestimmten Querschnitt](Stromdichte.md) (Bei Drähten üblicherweise der Drahtquerschnitt, außer beim [Skineffekt](../HF-Technik/Skineffekt.md)) fließt.
 

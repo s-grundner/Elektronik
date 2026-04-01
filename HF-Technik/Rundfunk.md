@@ -33,11 +33,11 @@ $E=h\cdot f$
 
 ## Vom Sprachsignal Zur Funkwelle
 
-Durch **[Modulation](Modulation.md)** wird ein Niederfrequentes Sprachsignal auf ein Hochfrequentes Trägersignal aufgemischt.  
+Durch **[index](Modulation/index.md)** wird ein Niederfrequentes Sprachsignal auf ein Hochfrequentes Trägersignal aufgemischt.  
 Somit kann das Sprachsignal die Eigenschaften einer HF-[EM-Welle](../Physik/Feldtheorie/index.md) annehmen und zur Übertragung verwendet werden.  
 Durch **Demodulation** erhält der Empfänger das Nutzsignal zurück.
 
-- Verschieden Arten von [Modulation](Modulation.md)
+- Verschieden Arten von [index](Modulation/index.md)
 - Eine [Antenne](Antenne.md) 
 
 # Tags

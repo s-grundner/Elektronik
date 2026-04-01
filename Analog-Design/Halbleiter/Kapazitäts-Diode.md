@@ -6,9 +6,14 @@ aliases:
   - Varaktor
   - Abstimmdiode
 subject:
-  - hwe
-created: 19th January 2023
-title: Zener-Diode
+  - VL
+  - Einführung Elektronik
+created: 13th March 2026
+title: Kapazitäts-Diode
+semester: WS24
+professor:
+  - Bernhard Jakoby
+release: true
 ---
 
 # Kapazitäts-Diode

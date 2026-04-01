@@ -8,6 +8,8 @@ subject:
 semester: WS25
 created: 16th November 2025
 professor:
+  - Werner Haselmayer
+  - Reinhard Feger
 release: true
 title: Übertragungsstrecke
 ---
@@ -17,7 +19,7 @@ title: Übertragungsstrecke
 
 ## Digital Wireless Communication Link
 
-![](../_assets/Excalidraw/cc1101-link.svg)
+![invert_light](../_assets/Excalidraw/cc1101-link.svg)
 
 Quellkodierung
 
@@ -29,7 +31,7 @@ Kanalkodierung
 - Fügt wieder Redundanz hinzu
 - Zusatzinformation z.B. Fehlerkorrektur. Hilft dem Empfänger die Information besser abschätzen zu können
 
-[Digitale Modulation](HF-Technik/Digitale%20Modulation.md)
+[Digitale Modulation](Modulation/Digitale%20Modulation.md)
 
 - Passt die Information an das Basisband an
 - Basisband: Frequenzband rund um 0

@@ -66,7 +66,7 @@ Für Berechnungen verwendet man dann nur $\underline{\hat{u}}$, da der $e^{ j\om
 
 ### Vereinfachung von Berechungen
 
-> [!exmple] Geziegt ist hier, wie eine berechnung mit Phasorschreibweise die klassische Zeitbereichsrechnung vereinfacht. #incomplete 
+> [!exmple] Geziegt ist hier, wie eine berechnung mit Phasorschreibweise die klassische Zeitbereichsrechnung vereinfacht. #todo 
 > 
 > -  [Widerstand](Widerstand.md) $R$
 > 
@@ -109,7 +109,7 @@ Wichtig ist es, keine konventionen zu Vermischen.
 
 ## Inversion von Zeigern
 
-Nützlich für die grafische Netzwerkanalyse. #incomplete 
+Nützlich für die grafische Netzwerkanalyse. #todo 
 
 ## Felder und Elektromagnetismus
 

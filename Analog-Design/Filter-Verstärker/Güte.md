@@ -3,9 +3,14 @@ tags: []
 aliases:
   - Q-Faktor
 subject:
-  - hwe
-created: 29th November 2022
+  - VL
+  - Elektrotechnik
+created: 15th January 2026
 title: Güte
+semester: SS24
+professor:
+  - Andreas Springer
+release: true
 ---
 
 # Güte
@@ -36,16 +41,17 @@ Bei Filtern ab 2. Ordnung kann an der Resonanzfrequenz eine überhöhung auftret
 - $\omega_{0}$ ... Resonanzfrequenz
 - $\omega_{\mathrm{c,upper}}$ ... Obere $3\mathrm{dB}$ Grenzfrequenz
 - $\omega_{\mathrm{c,lower}}$ ... Untere $3\mathrm{dB}$ Grenzfrequenz
+- $\omega_{\mathrm{BW}}$ ... [Bandbreite](Bandbreite.md)
 
 Die Güte ist dann
 
 $$
-Q = \frac{\omega_{0}}{\omega_{\mathrm{c,upper}}-\omega_{\mathrm{c,lower}}}
+Q = \frac{\omega_{0}}{\omega_{\mathrm{c,upper}}-\omega_{\mathrm{c,lower}}} = \frac{\omega_{0}}{\omega_{\mathrm{BW}}}
 $$
 
 Normierte Betragsspektren mit $\Omega = \frac{\omega}{\omega_{0}}$
 
-![](../../_assets/Excalidraw/Q-B-Filter-2O.svg)
+![invert_light](../../_assets/Excalidraw/Q-B-Filter-2O.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Q-B-Filter-2O.md)%%
 
 In diesen Betragsspektren ist auch der Zusammenhang mit der definition der [Bandbreite](Bandbreite.md) zu sehen

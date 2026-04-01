@@ -7,7 +7,8 @@ subject:
 semester: WS24
 created: 26th February 2026
 professor:
-release: false
+  - Bernhard Jakoby
+release: true
 title: Temperaturspannung
 ---
 

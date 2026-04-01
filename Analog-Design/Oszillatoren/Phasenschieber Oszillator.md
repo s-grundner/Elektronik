@@ -1,7 +1,7 @@
 ---
 tags:
   - Baugruppe/Oszillator
-  - incomplete
+  - todo
 aliases:
   - PSO
   - Phaseshift Oscillator
@@ -100,6 +100,6 @@ $$
 \end{align*}
 $$
 
-# Tags
+## Referenzen
 
-[Kettenmatrix](../Kettenmatrix.md)
+- [Kettenmatrix](../Kettenmatrix.md)

@@ -42,7 +42,7 @@ Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und de
 > [!quote]- Rayleigh-Zone: 
 > - Reaktives Nahfeld
 
-> sFür kleine Antennen: $r < \dfrac{\lambda}{2\pi}$  (unterschiedlich für große Antennen)
+Für kleine Antennen: $r < \dfrac{\lambda}{2\pi}$  (unterschiedlich für große Antennen)
 
 - keine Energieabstrahlung. Das Feld verschindet sofort, wenn die Quelle abgeschalten wird.
 - Blindleistungsaustausch zwischen Antenne und Umgebung dominiert.
@@ -58,7 +58,7 @@ Der *Fernfeldabstand* hängt von der verwendeten Wellenlänge $\uplambda$ und de
 > - Radiatives Nahfeld
 > - en. radiating near Field
 
-> $\dfrac{\lambda}{2\pi} < r < \dfrac{2D^{2}}{\lambda}$ ($D$... Antennengröße)
+$\dfrac{\lambda}{2\pi} < r < \dfrac{2D^{2}}{\lambda}$ ($D$... Antennengröße)
 
 - Blindleistung und Wirkleistung gleichen sich aus
 - Strahlungsfeld überwiegt im Vergleich zum reaktiven Feld

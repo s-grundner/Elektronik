@@ -9,12 +9,13 @@ subject:
   - VL
   - Einführung Elektrotechnik
 semester: WS23
-created: 11th April 2023
+created: 15th January 2026
 professor:
   - Michael Offenhuber
   - Siegbert Schrempf
   - Bernhard Jakoby
-title: Kanalkapazität
+title: Kapazität
+release: true
 ---
 
 # Der Kondensator - ein Ladungsspeicher
@@ -131,7 +132,9 @@ Verschiedene Bauformen von Kondensatoren haben unterschiedliche Dielektrika:
 - ELKO - **Elektrolyt**kondensator
 - TALKO - **Tantal Elektrolyt**kondensator
 
-# Kondensator in der [Wechselstromtechnik](Wechselstromtechnik.md) und [Impedanz](Impedanz.md)
+# Kondensator in der Wechselstromtechnik
+
+> [!question] [Wechselstromtechnik](Wechselstromtechnik.md), [Impedanz](Impedanz.md)
 
 ## Idealer Kondensator
 
@@ -161,6 +164,6 @@ $$
 > $L\approx1\mu H$  
 > $R_{ESR}\approx0.1\Omega$
 
-# Tags
+## Referenzen
 
-[Abblockkondensator](../Manufacturing/Abblockkondensator.md)
+- [Abblockkondensator](../Manufacturing/Abblockkondensator.md)

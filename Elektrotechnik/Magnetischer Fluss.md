@@ -1,6 +1,16 @@
 ---
 title: Magnetischer Fluss
+tags:
+aliases:
+subject:
+  - VL
+  - Elektrische Maschinen und Antriebselektronik
+semester: SS25
+created: 15th January 2026
+professor:
+release: true
 ---
+
 # Magnetischer Fluss
 
 > [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md)

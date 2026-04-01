@@ -1,6 +1,11 @@
 ---
 title: Admittanzmatrix
+tags:
+aliases:
+created: 15th January 2026
+release: true
 ---
+
 # Admittanzmatrix
 
 $\underline{I}_{1}= \underline{U}_{1}\cdot\underline{Y}_{11}+\underline{U}_{2}\cdot\underline{Y}_{12}$  

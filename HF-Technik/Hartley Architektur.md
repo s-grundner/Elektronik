@@ -43,4 +43,4 @@ $$
 
 Komplexwertige signale haben die eigenschaft, dass sie ein asymmetrisches Spektrum besitzen.
 
-![](../_assets/Excalidraw/Quadratur%20Amplituden%20Modulation%202025-11-15%2013.35.54.excalidraw.svg)
+![invert_light](../_assets/Excalidraw/Quadratur%20Amplituden%20Modulation%202025-11-15%2013.35.54.excalidraw.svg)

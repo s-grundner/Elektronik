@@ -12,7 +12,7 @@ title: Sekuzndärgeschaltete Schaltregler
 
 # Sekundär getaktete Schaltregle
 
-![SekGetaktSMPS](../../_assets/SekGetaktSMPS.png)
+![invert_light](../../_assets/SekGetaktSMPS.png)
 
 ## 1. Netztraffo/Gleichrichter
 

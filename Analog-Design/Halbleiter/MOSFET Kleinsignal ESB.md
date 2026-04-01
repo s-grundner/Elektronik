@@ -7,7 +7,8 @@ subject:
 semester: WS25
 created: 26th February 2026
 professor:
-release: false
+  - Harald Pretl
+release: true
 title: MOSFET Kleinsignal ESB
 ---
 
@@ -58,4 +59,5 @@ title: MOSFET Kleinsignal ESB
 
 ## Referenzen
 
-[Unterschied zu Rechnungen mit PMOS und NMOS KSESB](https://electronics.stackexchange.com/questions/684341/equivalent-circuit-of-pmos-amplifier-circuit)
+- [Unterschied zu Rechnungen mit PMOS und NMOS KSESB](https://electronics.stackexchange.com/questions/684341/equivalent-circuit-of-pmos-amplifier-circuit)
+- [Analog (Integrated) Circuit Design](https://iic-jku.github.io/analog-circuit-design/)

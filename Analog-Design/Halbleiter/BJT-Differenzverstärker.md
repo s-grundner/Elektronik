@@ -12,11 +12,11 @@ subject:
 semester: WS24
 created: 7. Januar 2025
 professor:
-release: false
+  - Bernhard Jakoby
+release: true
 title: BJT-Differenzverstärker
 ---
  
-
 # BJT-Differenzverstärker
 
 Ein Differenzverstärker ist ein Verstärker, der die Differenz zweier Eingangssignale verstärkt.  Die Schaltung wird mit zwei Emitterschaltungen (Kollektorfolgern), deren Emitter gemeinsam an eine Stromquelle angeschlossen sind realisiert.

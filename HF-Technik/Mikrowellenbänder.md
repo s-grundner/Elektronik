@@ -9,7 +9,7 @@ semester: WS25
 created: 16th January 2026
 professor:
   - Reinhard Feger
-release: false
+release: true
 title: Mikrowellenbereich
 ---
 
@@ -17,7 +17,7 @@ title: Mikrowellenbereich
 
 | Band Name                  | Frequenzbereich        | Anwendungen                                        |
 | -------------------------- | ---------------------- | -------------------------------------------------- |
-| VHF (Very High Frequency)  | $30-300~\mathrm{MHz}$  | [FM](Frequenzmodulation.md)-Radio, TV-Broadcasting |
+| VHF (Very High Frequency)  | $30-300~\mathrm{MHz}$  | [FM](Modulation/Frequenzmodulation.md)-Radio, TV-Broadcasting |
 | UHF (Ultra High Frequency) | $0.3 - 1~\mathrm{GHz}$ | TV, Mobilfunk                                      |
 | L-Band                     | $1-2~\mathrm{GHz}$     | GPS                                                |
 | S-Band                     | $2-4~\mathrm{GHz}$     | Wi-Fi (2.4 GHz), Wetter Radar                      |

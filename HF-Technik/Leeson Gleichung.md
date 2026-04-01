@@ -8,7 +8,8 @@ subject:
 semester: WS25
 created: 15th October 2025
 professor:
-release: false
+  - Reinhard Feger
+release: true
 title: Leeson Gleichung
 ---
 

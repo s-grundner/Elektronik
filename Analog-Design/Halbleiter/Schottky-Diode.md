@@ -10,7 +10,8 @@ subject:
 semester: WS24
 created: 11. Februar 2025
 professor:
-release: false
+  - Bernhard Jakoby
+release: true
 title: Schottky-Diode
 ---
  

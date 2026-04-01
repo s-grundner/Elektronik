@@ -52,11 +52,11 @@ U&=\int_l E d s=E \int_l d s=E l=\frac{J}{\sigma} l=I \frac{1}{\sigma A} l\\
 \end{align}
 $$
 
-# Übung
 
-![[../_assets/Excalidraw/Ohmsches Gesetz 2024-03-18 22.31.23.excalidraw]]
+![500](../_assets/Excalidraw/Ohmsches%20Gesetz%202024-03-18%2022.31.23.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Ohmsches%20Gesetz%202024-03-18%2022.31.23.excalidraw.md)%%
 
-# Tags
+## Referenzen
 
-[Spannungsteiler](Spannungsteiler.md)
-[TDR](../Analog-Design/TDR.md)
+- [Spannungsteiler](Spannungsteiler.md)
+- [TDR](../Analog-Design/TDR.md)

@@ -11,13 +11,14 @@ subject:
 semester: WS25
 created: 5th November 2025
 professor:
-release: false
+  - Reinhard Feger
+release: true
 title: Amplitude Shift Keying (ASK)
 ---
 
 # Amplitude Shift Keying (ASK)
 
-> [!question] ASK ist eine Lineare [Modulation](HF-Technik/Digitale%20Modulation.md) Digitaler Signale
+> [!question] ASK ist eine Lineare [Modulation](Digitale%20Modulation.md) Digitaler Signale
 
 Die Amplitude des Trägers wird in Diskreten Werten entsprechend dem Informationssignal verändert. Es gibt also endlich viele unterschiedliche amplituden
 
@@ -35,8 +36,8 @@ Die Amplitude des Trägers wird in Diskreten Werten entsprechend dem Information
 
 ## Modulation
 
-![](../_assets/Excalidraw/ASK-BSB.svg)
-%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/ASK-BSB.md)%%
+![invert_light](../../_assets/Excalidraw/ASK-BSB.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/ASK-BSB.md)%%
 
 ### Moduliertes Signal
 
@@ -56,10 +57,10 @@ Einfach, um das Konzept zu erklären
 $$
 g_{T}(t) = \frac{1}{\sqrt{ T }} \operatorname{rect}\left( \frac{t-T/2}{T} \right)
 $$
-| ![400](../_assets/Excalidraw/Pulseshaper.svg) | ![invert_dark\|600](../_assets/sincPulseFilter.png) |
-| ----------------------------------------- | ----------------------------------- |
+| ![invert_light\|400](../../_assets/Excalidraw/Pulseshaper.svg) | ![invert_dark\|600](../../_assets/sincPulseFilter.png) |
+| ----------------------------------------------------------- | --------------------------------------------------- |
 
-%%[🖋 Edit in Excaidraw](../_assets/Excalidraw/Pulseshaper.md)%%
+%%[🖋 Edit in Excaidraw](../../_assets/Excalidraw/Pulseshaper.md)%%
 
 > [!warning] Problem: Rechteckeck puls im Frequenzbereich ist die Sinc-Funktion.
 > Die Sinc-Funktion ist nicht Bandbegrenzt und erstreckt seine Seitenkeulen über das gesamte spektrum. In der Realität ungeeignet.
@@ -90,8 +91,8 @@ Die Einfachste version ist On-Off-Keying. Dabei wird der Sender einfach für 1 e
 
 Die Frequenz und die Phase des Trägersignal stimmt am empfänger **exakt** mit dem am Sender überein.
 
-![](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.md)%%
+![invert_light](../../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2015.18.47.excalidraw.md)%%
 
 - $r_{\mathrm{p}}(t)$ ... Rekonstruiertes Basisbandsignal. 
 - $r(t)$ ... Aufgenommenes Passbandsignal
@@ -120,8 +121,8 @@ Tiefpassfilter mit der [Impulsanwort](Systemtheorie/Impulsanwort.md) $g_{\mathrm
 
 Ohne dem Anteil bei der Doppelten Trägerfrequenz erhält man $\dfrac{A[0]g_{\mathrm{T}}(t)}{2}$
 
-![500](../_assets/Excalidraw/ASK-DemodSpektrum.svg)
-%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/ASK-DemodSpektrum.md)%%
+![invert_light|500](../../_assets/Excalidraw/ASK-DemodSpektrum.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/ASK-DemodSpektrum.md)%%
 
 Man wählt die Impulsantwort speziell $g_{\mathrm{R}}=2g_{\mathrm{T}}(T-t)$.
 
@@ -138,7 +139,7 @@ r[0] &= v(t)\Big|_{t=T}=r(t) * g_{\mathrm{R}}(t)\Big|_{t=T} \\
 \end{align}
 $$
 > [!hint]- Wenn man Zwei Rechteckfunktionen faltet, erhält man eine Trapez- oder im spezialfall eine Dreiecksfunktion
-> ![invert_dark](../_assets/Convolution_of_box_signal_with_itself.gif)
+> ![invert_dark](../../_assets/Convolution_of_box_signal_with_itself.gif)
 
 ### Threshold Detector
 
@@ -149,13 +150,13 @@ Der Thresholdetector entscheidet, welches Symbol am Eingang anliegt.
 > - Spezialfall: Als On-Off-Keying (OOK) Beziechnet
 > - Threshold bei $\frac{A_{1}+A_{2}}{2}=0.5$
 > 
-> ![invert_dark|1000](../_assets/ThresholdDetectOOK.png)
+> ![invert_dark|1000](../../_assets/ThresholdDetectOOK.png)
 
 > [!example]- **Beispiel:** Binäre ASK (2-ASK): Bits $(0,1) \mapsto$ Symbole: $(A_{1}=-1, A_{2}=1)$
 > 
 > - Threshold bei $\frac{A_{1}+A_{2}}{2}=0$
 > 
-> ![invert_dark](../_assets/ThresholdDetectASK.png)
+> ![invert_dark](../../_assets/ThresholdDetectASK.png)
 
 ## Nicht-Kohärente Demodulation
 
@@ -188,7 +189,7 @@ Die PSD ist hauptsächlich durch der [Pulsformungsfilter](#Pulsformungsfilter) $
 > $$
 
 - $\mu_{A}$ ... Mittelwert der Amplitudenpegel im Symbolalphabet. Ein Symmetrisches Symbolalphabet liefert $\mu_{A}=0$
-- $\delta(f)$ ... Dirac-Distribution, sodass nur eine Spektrallinie an der Frequenz $f$ aufscheint ([Ausblendeigenschaft](../Mathematik/Delta-Impuls.md#^AUSB))
+- $\delta(f)$ ... Dirac-Distribution, sodass nur eine Spektrallinie an der Frequenz $f$ aufscheint ([Ausblendeigenschaft](../../Mathematik/Delta-Impuls.md#^AUSB))
 - $T$ ... Pulsbreite des Rechteckfilters (=Dauer eines Symbols)
 
 Für den [Rechteckpulsfilter](#Rechteckpuls) gilt $\left| G_{\mathrm{T}}(f) \right|^{2} = T\operatorname{sinc}^{2}(fT)$
@@ -201,7 +202,7 @@ $$
 $$
 
 > [!example] Vergleich von $\Phi_{ss}(f)$ einer 2-, 4- und 8-ASK mit Rechteckpulsfilter
-> ![invert_dark|600](../_assets/ASK_PSD.png)
+> ![invert_dark|600](../../_assets/ASK_PSD.png)
 > 
 > Je höher die Ordnung N desto geringer die benötigte Bandbreite, jedoch ist die Fehlerrate auch höher. 
 
@@ -211,14 +212,14 @@ Die M-ASK ist aufgrund der schrumpfenden Bandbreite in höheren Ordnungen ein **
 
 ## Fehler Performance
 
-Die Symbol pro Bit Fehlerwahrscheinlichkeit $\frac{P_{s}}{P_{b}}$  ist die durchschnittliche Anzahl an Fehlerhaften bits pro Symbol. Der Jeweilige Fehler ergibt sich durch Auswerten der [Q-Funktion](../Mathematik/Statistik/Zentraler%20Grenzwertsatz.md#Q-Funktion). Es stellt sich heraus, dass die Fehlerwahrscheinlichkeit immer von $\frac{E_{b}}{N_{0}}$ abhängt.
+Die Symbol pro Bit Fehlerwahrscheinlichkeit $\frac{P_{s}}{P_{b}}$  ist die durchschnittliche Anzahl an Fehlerhaften bits pro Symbol. Der Jeweilige Fehler ergibt sich durch Auswerten der [Q-Funktion](../../Mathematik/Statistik/Zentraler%20Grenzwertsatz.md#Q-Funktion). Es stellt sich heraus, dass die Fehlerwahrscheinlichkeit immer von $\frac{E_{b}}{N_{0}}$ abhängt.
 
 ### Durchschnittliche Bit Energie $E_{b}$
 
 die Durchschnittliche Energie eines Bit ist gegeben durch die Energie der Symbolamplitude gewichtet mit der Impulsantwort $g_{\mathrm{T}}(t)$des Pulsformungsfilters ([Energie eines Signals](Systemtheorie/Energiesignal.md)) dividiert durch die Anzahl an Bit Pro Symbol.
 
-![600](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.md)%%
+![invert_light|600](../../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Amplitude-Shift-Keying%202025-11-16%2021.37.11.excalidraw.md)%%
 
 ### Einfluss der ASK Ordnung
 
@@ -231,7 +232,9 @@ die Durchschnittliche Energie eines Bit ist gegeben durch die Energie der Symbol
 
 > [!example] Vergleich der Fehlerwahrscheinlichkeit einer 2-, 4-, 8-ASK und OOK mit **kohärenter** Demodulation
 > Fehlerkurvenplot mit der Symbolfehlerwahrscheinlichkeit auf der Abzisse
-> ![invert_dark](../_assets/ASK-FehlerWahrscheinlichkeit.png)
+> 
+> ![invert_dark|500](../../_assets/ASK-FehlerWahrscheinlichkeit.png)
+> 
 > - $N_{0}$ ... Spektral-Rauschleistungsdichte ([AWGN-Kanalmodell](HF-Technik/AWGN-Kanalmodell.md))
 > - $E_{b}$ ... Durchschnittliche Bit Energie
 > - $SNR = \frac{E_{b}}{N_{0}}$ ... Normiertes Signal zu Rauschverhältnis in dB
@@ -253,4 +256,4 @@ Vergleich der OOK bei kohärenter und nicht kohärenter Demodulation
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Kohärent          | $P_{\mathrm{b,co}} = P_{\mathrm{s,co}} = Q \left( \sqrt{ \frac{E_{\mathrm{b}}}{N_{0}} } \right)$                                                                               |
 | Nicht-Kohärent    | $P_{\mathrm{b,nco}} = P_{\mathrm{s,nco}} = \frac{1}{2} Q\left( \sqrt{ \frac{E_{\mathrm{b}}}{N_{0}} } \right) + \frac{1}{2} \exp \left( -\frac{E_{\mathrm{b}}}{2N_{0}} \right)$ |
-![invert_dark|700](../_assets/FehlerDemod.png)
+![invert_dark|700](../../_assets/FehlerDemod.png)

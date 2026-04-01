@@ -45,5 +45,5 @@ Ein wichtiges Ziel ist es also das Nutzsignal im Spektrum Verschieben zu können
 ![invert_dark](../_assets/Excalidraw/VerschiebungImSpektrum.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/VerschiebungImSpektrum.md)%%
 
-Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschiedene [Modulationsarten](HF-Technik/Modulation.md) zum einsatz.
+Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschiedene [Modulationsarten](Modulation/index.md) zum einsatz.
 

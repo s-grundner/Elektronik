@@ -1,0 +1,29 @@
+---
+tags:
+  - Baugruppe/Oszillator
+aliases:
+keywords:
+subject:
+  - VL
+  - Elektrotechnik
+semester: SS24
+created: 24. Januar 2024
+professor:
+  - Andreas Springer
+title: Elektrischer Schwingkreis
+---
+ 
+
+# Elektrische Schwingungen
+
+> [!info] elementare Schwingkreise
+> [Serienschwingkreis](Serienschwingkreis.md)
+> [Parallelschwingkreis](Parallelschwingkreis.md)
+
+## Schwingkreise als duale Zweipole
+
+![invert_dark](../../_assets/dualZP_SK.png)
+
+
+![invert_dark](../../_assets/Excalidraw/Schwingkreise%202024-01-17%2009.08.32.excalidraw.svg)
+%% [Edit in Excalidraw](../../_assets/Excalidraw/Schwingkreise%202024-01-17%2009.08.32.excalidraw.md) %%

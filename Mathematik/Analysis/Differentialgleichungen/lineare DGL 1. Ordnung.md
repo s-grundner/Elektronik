@@ -1,7 +1,7 @@
 ---
 tags:
   - DGL
-  - incomplete
+  - todo
 aliases:
   - lineare Differentialgleichungen 1. Ordnung
   - lineare Differentialgleichung 1. Ordnung

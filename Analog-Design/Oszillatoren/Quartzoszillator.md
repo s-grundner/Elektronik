@@ -9,8 +9,9 @@ aliases:
   - Quartz
 subject:
   - hwe
-created: 17th January 2023
+created: 15th January 2026
 title: Quartzoszillator
+release: true
 ---
 
 # Quartzoszillator
@@ -24,17 +25,17 @@ Der Schwingquartz weist eine Sehr stabile Frequenz auf d.h. er hat eine hohe Gü
 
 ## Symbol
 
-![500|325](../../_assets/quartz.png)
+![invert_light|325](../../_assets/quartz.png)
 
 > [!hint] Elektrisches Ersatzschaltbild des mechanischen Verhaltens  
-> ![500|325](../../_assets/elek_esb_quartz.png)
+> ![invert_light|325](../../_assets/elek_esb_quartz.png)
 > 
-> ![400|350](../../_assets/quarz_mechschwing.png)
+> ![invert_light|350](../../_assets/quarz_mechschwing.png)
 > 
-> $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivität.md) (das Schwingen der Masse des Resonators)
-> $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quartzes)
-> $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Kinematik/Reibungskraft.md)/mechanische Verluste)
-> $C_{0}\dots$ Streukapazität der Elektroden
+> - $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivität.md) (das Schwingen der Masse des Resonators)
+> - $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quartzes)
+> - $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Kinematik/Reibungskraft.md)/mechanische Verluste)
+> - $C_{0}\dots$ Streukapazität der Elektroden
 
 ## [Ableitung](../../Mathematik/Analysis/Differenzialrechnung.md) Der Resonanzfrequenz
 

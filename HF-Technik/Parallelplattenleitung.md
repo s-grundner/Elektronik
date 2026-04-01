@@ -11,7 +11,7 @@ semester: WS24
 created: 20th January 2025
 professor:
   - Reinhard Feger
-draft: true
+release: true
 title: HF-Modell einer Parallelplattenleitung
 ---
  
@@ -42,22 +42,27 @@ Vorraussetzung für TEM-Moden:
 %% [Edit in Excalidraw](../_assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.md) %%
 
 > [!info] E-Feld
+> 
 > - E-Feld hat keine komponente die in $z$-Richtung zeigt (da TEM)
-> - wir nehmen an dass die E-Feld Komponente in $x$-Richtung 0 ist (da $$)
+> - wir nehmen an dass die E-Feld Komponente in $x$-Richtung 0 ist
 > 
 > $$
-> \mathbf{E} = \begin{bmatrix} 0 \\ E_{y}(x,y,z,t) \\ 0 \end{bmatrix} = E_{y}(x,y,z,t)\cdot \mathbf{e}_{y}\quad \text{für} \quad 0 < y < d
+> \mathbf{E} = \begin{bmatrix}
+> 0 \\ E_{y}(x,y,z,t) \\ 0
+> \end{bmatrix} = E_{y}(x,y,z,t)\cdot \mathbf{e}_{y} \quad \text{für} \quad 0 < y < d
 > $$
 > 
 
 
- > [!info] H-Feld
- > - H-Feld hat auch keine komponente in $z$-Richtung
- > - wir nehmen an dass das H-Feld nur in $x$-Richtung zeigt (gegensatz zum E-Feld)
- >
- > $$
- > \mathbf{H}=\begin{bmatrix} H_{x}(x,y,z,t) \\ 0 \\ 0\end{bmatrix} = H_{x}(x,y,z,t)\cdot \mathbf{e}_{x} \quad \text{für} \quad 0<y<d
- > $$
+
+> [!info] H-Feld
+> 
+> - H-Feld hat auch keine komponente in $z$-Richtung
+> - wir nehmen an dass das H-Feld nur in $x$-Richtung zeigt (gegensatz zum E-Feld)
+>
+> $$
+> \mathbf{H}=\begin{bmatrix} H_{x}(x,y,z,t) \\ 0 \\ 0\end{bmatrix} = H_{x}(x,y,z,t)\cdot \mathbf{e}_{x} \quad \text{für} \quad 0<y<d
+> $$
  
 Vereinfachte Lösung mit annahme einer idealen TEM mode (es gibt genauere Lösungen)
 
@@ -205,4 +210,4 @@ Für Andere [TEM-Leitergeometrien](Leitergeometrie.md) sind diese Beläge anders
 
 ## TEM- TE- und TM-Modellbildung
 
-#incomplete 
+#todo 

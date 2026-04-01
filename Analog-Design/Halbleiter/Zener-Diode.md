@@ -2,8 +2,9 @@
 tags:
   - Halbleiter/Diode
 aliases:
-created: 22nd August 2023
+created: 13th March 2026
 title: Zener-Diode
+release: true
 ---
 
 # Zener-Diode

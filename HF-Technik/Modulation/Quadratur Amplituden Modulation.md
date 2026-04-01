@@ -10,12 +10,10 @@ semester: WS25
 created: 25th August 2023
 professor:
   - Reinhard Feger
-release: true
+release: false
 title: Quadratur Amplituden Modulation
 ---
 
-
 # Quadratur Amplituden Modulation
 
-Bei der Quadratur Amplituden modulation werden komplexwertige Signale übertragen.
 

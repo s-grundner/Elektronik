@@ -10,7 +10,7 @@ release: false
 
 # Open Collector
 
-  ![450](../_assets/open-drain.png)
+  ![invert_light|450](../_assets/open-drain.png)
 
 # Tags
 

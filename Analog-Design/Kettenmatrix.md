@@ -4,9 +4,11 @@ aliases:
   - Kettenmatrizen
 subject:
   - hwe
-created: 14th November 2022
+created: 29th January 2026
 title: Kettenmatrix
+release: true
 ---
+
 
 # Kettenmatrix
 
@@ -43,7 +45,7 @@ A & B \\ C & D
 \end{pmatrix}
 $$
 
-# Related
+## Referenzen
 
 - [Vierpoltheorie](Vierpol.md)
 - [Impedanzmatrix](Impedanzmatrix.md)

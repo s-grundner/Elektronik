@@ -11,7 +11,7 @@ semester: WS25
 created: 9th December 2025
 professor:
   - Reinhard Feger
-release: false
+release: true
 title: Skineffekt
 ---
 

@@ -1,15 +1,20 @@
 ---
 tags: []
 aliases: []
-created: 17th August 2023
+created: 15th January 2026
 title: TVS-Diode
+release: true
 ---
 
-# TVS-[Diode](Diode.md)
+# TVS-Diode
 
-![](../../Manufacturing/ESD.md)
+> [!question] [ESD - Schutz](../../Manufacturing/ESD.md), [Diode](Diode.md)
 
-## Kennwerte von TVS-[Dioden](Diode.md)
+---  
+
+> [!question] Transient Voltage Suppression
+
+## Kennwerte von TVS-Dioden
 
 ### Unioder Bidirektional
 

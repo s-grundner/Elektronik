@@ -21,7 +21,7 @@ professor:
 satz:
   - BHK
 title: Oszillatoren
-release: false
+release: true
 ---
  
 
@@ -93,7 +93,7 @@ Möglichkeiten die Schwingbedingung Herzuleiten:
 
 Eine Oszillator soll idealer weise einen [Dirac-Impuls](../../Mathematik/Delta-Impuls.md) im spektrum an seiner Frequenz generieren. In der Realität wird der Oszillator jedoch irgendwann einmal eingeschaltet (multiplikation mit dem [Einheitssprung](Systemtheorie/Einheitssprungfunktion.md)). Man müsste den Oszillator unendliche lange messen, um einen reinem Dirac zu erhalten. Stattdessen erhält man um die Oszillatorfrequenz ein [Sinc](Mathematik/Sinus%20Cardinalis.md)-Förmiges Spektrum 
 
-![](../../_assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.svg)
+![invert_light](../../_assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Oszillatoren%202025-11-15%2014.02.38.excalidraw.md)%%
 
 ## Rauschen

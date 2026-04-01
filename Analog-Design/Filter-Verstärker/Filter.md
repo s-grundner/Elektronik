@@ -32,6 +32,14 @@ Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemt
 - [Bandpass](Bandpass.md) Filter
 - Andere (Kombinationen)
 
+
+> [!info] Übergangsbereiche von Filtern
+> 
+> deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale Filter einen idealen Filter nur approximieren. In der Praxis werden die Filtereigenschaften in sog. Durchlass-, Übergangsund Sperrbereichen definiert und in einem Toleranzschema zusammengefasst. Der Verlauf des zu designenden Filters sollte dann innerhalb der definierten Grenzen liegen.
+> 
+> ![invert_dark|800](../../_assets/Pasted%20image%2020241212004843.png)
+
+
 ## Kenngrößen
 
 - Ordnung (Steilheit)

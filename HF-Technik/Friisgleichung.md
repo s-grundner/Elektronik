@@ -9,6 +9,7 @@ subject:
 semester: WS25
 created: 10th November 2023
 professor:
+  - Reinhard Feger
 release: true
 title: Friisgleichung
 ---

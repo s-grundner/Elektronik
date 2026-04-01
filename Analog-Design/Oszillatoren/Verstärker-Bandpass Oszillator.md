@@ -8,6 +8,7 @@ subject:
 semester: WS25
 created: 15th November 2025
 professor:
+  - Reinhard Feger
 release: true
 title: Verstärker-Bandpass Oszillator
 ---
@@ -17,13 +18,10 @@ title: Verstärker-Bandpass Oszillator
 
 > [!question] [Oszillator](index.md)
 
-![800](../../_assets/Excalidraw/OszAmpBPF.svg)
+![invert_light|800](../../_assets/Excalidraw/OszAmpBPF.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/OszAmpBPF.md)%%
 
 Der **Open Loop Gain** entspricht der Übertragungsfunktion des Bandpasses
 
 ![Bandpass](../Filter-Verstärker/Bandpass.md#^TRANSFERFUNCTION)
 
-Der **Closed Loop Gain** ist
-
-## Einfaches 

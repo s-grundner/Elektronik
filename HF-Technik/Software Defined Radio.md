@@ -18,6 +18,6 @@ title: Software Defined Radio
 
 ![invert_dark|1000](../_assets/SDR.png)
 
----
+## Referenzen
 
 [Wikipedia entry](https://en.wikipedia.org/wiki/Software-defined_radio)

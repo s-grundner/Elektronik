@@ -15,7 +15,7 @@ created: 23. September 2023
 professor:
   - Bernhard Jakoby
   - Christian Diskus
-release: false
+release: true
 title: Addierer
 ---
 

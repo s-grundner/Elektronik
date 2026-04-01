@@ -35,7 +35,7 @@ Wenn man einen Simulator zur verfügung hat, lässt sich folgender Versuch durch
 - Man sucht die grenze zu den Feldlinien, welche in der Antenne enden, versus welche an der Antenne vorbei Strahlen.
 - Diese Fläche ist die Antennenwirkfläche
 
-![600](../_assets/Excalidraw/Effektivflaeche.svg)
+![invert_light|600](../_assets/Excalidraw/Effektivflaeche.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Effektivflaeche.md)%%
 
 Somit lässt sich die Antennenwirkfläche numberisch feststellen. Ein geschlossener Ausdruck ist Simulatorisch jedoch nicht ermittelbar.

@@ -27,15 +27,11 @@ Allgemein wird die [[Filter-Verstärker/Dämpfung]] des Filters mit logarithmisc
 
 Die Grenzfrequenz eines passiven RC Filters 1. Ordnung lässt sich mit 2 Methoden bestimmen:
 
-Zeitkonstante $\tau = RC$ ermitteln.
+1. Zeitkonstante $\tau = RC$ ermitteln.
+2. 3dB dämpfung ermitteln
 
 
-3dB dämpfung ermitteln
-
-Sinus einspeisen, bei der der Filter sehr nahe an
-
-
-# ToDo
+#todo
 
 - LC filter
 - RC Filter

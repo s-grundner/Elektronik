@@ -3,9 +3,14 @@ tags: []
 aliases:
   - S-Parameter
 subject:
-  - ksn
-created: 28th September 2022
-title: Streubparameter
+  - VL
+  - Grundlagen der Hochfrequenztechnik
+created: 27th March 2026
+title: Streuparameter
+semester: WS25
+professor:
+  - Reinhard Feger
+release: true
 ---
 
 # Streuparameter
@@ -81,7 +86,7 @@ Um die Messvorschrift zu erfüllen, müssen bei der Ermittlung eines S-Parameter
 
 Die Leistungsgrößen lassen sich mit dem Strom und der Spannung an einem Tor $\nu$ in Bezug setzen. (Annahme $Z_{0} \in \mathbb{R}$)
 
-![Eintor](../_assets/Eintor.png)
+![invert_light](../_assets/Eintor.png)
 
 $$
 a_\nu = \dfrac{1}{2} \left( \dfrac{U_\nu}{\sqrt{Z_0}} + I_\nu\sqrt{Z_0} \right) \qquad b_\nu = \dfrac{1}{2} \left( \dfrac{U_\nu}{\sqrt{Z_0}} - I_\nu\sqrt{Z_0} \right)

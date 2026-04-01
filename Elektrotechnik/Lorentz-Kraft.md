@@ -6,13 +6,13 @@ subject:
   - VL
   - Einführung Elektrotechnik
 semester: WS23
-created: 2. März 2024
+created: 13th March 2026
 professor:
   - Bernhard Jakoby
 title: Lorentz-Kraft
+release: true
 ---
  
-
 # Lorentz-Kraft
 
 ![invert_dark](../_assets/JakobyFotoLeiden.png)

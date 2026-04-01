@@ -6,11 +6,12 @@ subject:
   - VL
   - Elektrotechnik
 semester: WS24
-created: 14. Januar 2025
+created: 9th December 2025
 professor:
+  - Bernhard Jakoby
 title: Kontinuitätsgleichung
+release: true
 ---
- 
 
 # Kontinuitätsgleichung
 

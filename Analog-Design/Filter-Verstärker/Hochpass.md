@@ -6,9 +6,11 @@ subject:
   - VL
   - Elektrotechnik
 semester: SS24
-created: 22. April 2024
+created: 9th December 2025
 professor:
+  - Andreas Springer
 title: Hochpass
+release: true
 ---
  
 # Hochpass

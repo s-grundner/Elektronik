@@ -16,7 +16,7 @@ title: Aktiver Filter
  
 # Aktiver Filter
 
-> Fortsetzung von: [[Filter]]
+> [!question] [Filter](Filter.md)
 
 Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](../OPV/index.md)) und haben die eigenschaft den eingang nicht zu Belasten. D.h. eine hochohmige Eingangsimpedanz und eine niederohmige Ausgangsimpedanz. (Impedanzwandlung)
 
@@ -28,12 +28,6 @@ Aktive Filter sind ausgezeichnet durch ein verstärkendes Element (z.B. [OPV](..
 >     - Bei niedrigen Frequenzen sind große Induktivitäten nötig.
 >     - umständlich und schlechte elektrische Eigenschaften
 > - Hohe Güte, da keine Induktivitäten verwendet werden
-
-> [!info]- Übergangsbereiche von Filtern
-> 
-> deale Tiefpässe (sog. brick-wall filter) existieren nicht. Daher können reale Filter einen idealen Filter nur approximieren. In der Praxis werden die Filtereigenschaften in sog. Durchlass-, Übergangsund Sperrbereichen definiert und in einem Toleranzschema zusammengefasst. Der Verlauf des zu designenden Filters sollte dann innerhalb der definierten Grenzen liegen.
-> 
-> ![invert_dark|800](../../_assets/Pasted%20image%2020241212004843.png)
 
 ## Filter Charakteristik
 

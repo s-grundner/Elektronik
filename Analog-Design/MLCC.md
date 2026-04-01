@@ -3,7 +3,7 @@ tags:
 aliases:
 created: 19th June 2025
 title: MLCC
-release: false
+release: true
 ---
 
 # Vielschichtkondensatoren - MLCC
@@ -21,13 +21,15 @@ release: false
 
 - Klasse 1:
 	- ➕ Höchste Kapazitätstabilität und -genauigkeit (geringste Toleranz). 
-	- ➕ Stabil gegenüber [Derating](#Derating), Temparaturänderungen
+	- ➕ Stabil gegenüber Derating, Temparaturänderungen
 - Klasse 2:
 	- ➕ Höhere Kapazität gegenüber der Packagegröße
 	- ➖ Niedrigere Stabilität und genauigkeit
 
-## Derating
+## Voltage Derating
 
-# Tags
+> [!warning] Bei Höherer Spannung sinkt die Nennkapazität.
+
+## Referenzen
 
 [Capacitor Hardware Design Basics (MLCC) - Phil's Lab #114 - YouTube](https://www.youtube.com/watch?v=kUruN6WBgSw&list=PLXSyc11qLa1YhVCZ5xWPuPsE5MkgEy5TF)

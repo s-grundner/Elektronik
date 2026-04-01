@@ -6,8 +6,9 @@ aliases:
   - Pierce Gate Oszillator
   - PGO
 subject:
-created: 1st February 2023
-title: Pierce Gate Oscillator
+created: 15th January 2026
+title: Pierce-Gate Oszillator
+release: true
 ---
 
 # Pierce-Gate Oszillator
@@ -22,7 +23,7 @@ title: Pierce Gate Oscillator
 
 ## Schaltbild des PGO
 
- ![600](../../_assets/PGO.png)
+ ![invert_light|600](../../_assets/PGO.png)
 
 ## Passive Bauteile
 

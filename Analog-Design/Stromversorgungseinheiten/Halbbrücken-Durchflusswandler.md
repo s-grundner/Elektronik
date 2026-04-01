@@ -1,7 +1,7 @@
 ---
 tags:
   - Baugruppe/Versorgung/SMPS
-  - incomplete
+  - todo
 aliases: []
 subject:
   - hwe

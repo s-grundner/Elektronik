@@ -23,4 +23,8 @@ title: State-Variable Filter
 
 ## Übertragungsfunktion
 
+#todo 
+
 ## Funktionsweise
+
+#todo

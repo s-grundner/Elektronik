@@ -20,8 +20,8 @@ title: Längsregler
 
 > Basisschaltung
 
-![Laengstransostor2](../../_assets/Laengstransostor2.png)
+![invert_light](../../_assets/Laengstransostor2.png)
 
 # Längsregler
 
-![Laengstransistor](../../_assets/Laengstransistor.png)
+![invert_light](../../_assets/Laengstransistor.png)

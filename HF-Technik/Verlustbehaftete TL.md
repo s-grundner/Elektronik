@@ -12,7 +12,7 @@ semester: WS25
 created: 4th February 2026
 professor:
   - Reinhard Feger
-release: false
+release: true
 title: Verlustbehaftete TL
 ---
 
@@ -148,4 +148,8 @@ $$
 Z_{\text{in}} = \frac{U(-l)}{I(-l)} = Z_{0} \frac{Z_{L} + Z_{0} \tanh(\gamma l)}{Z_{0} + Z_{L} \tanh(\gamma l)}
 $$
 
-> #incomplete Berechnung der Verlustleistung
+> #todo Berechnung der Verlustleistung
+
+## Referenzen
+
+Pozar, D. M. (2012). _Microwave engineering_ (4. ed.). Wiley. http://media.obvsg.at/AC08958137-1001

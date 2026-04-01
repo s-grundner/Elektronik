@@ -3,8 +3,9 @@ tags:
   - Baugruppe/Versorgung
 aliases:
   - LDO
-created: 27. Dezember 2023
-title: Linear Dropout Regler
+created: 13th March 2026
+title: Linear Dropout Regulator
+release: true
 ---
 
 # Low Dropout Regulator

@@ -1,6 +1,6 @@
 ---
 tags:
-  - incomplete
+  - todo
   - Signale/Diskret
 aliases:
 subject:

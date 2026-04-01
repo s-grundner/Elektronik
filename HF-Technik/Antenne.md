@@ -73,7 +73,7 @@ Die Direktivität ist ein idealer Faktor bei dem die Leistung jeder Richtung in 
 - [Richtantennen](Richtantennen.md)
 - Halbwellendipol
 
-# Referenzen
+## Referenzen
 
 ![Starlink und Richtantennen](https://www.youtube.com/embed/qs2QcycggWU)
 

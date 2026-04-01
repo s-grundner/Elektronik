@@ -2,10 +2,10 @@
 tags:
   - index
 title: Analoge Schaltungstechnik
-release: false
+release: true
 aliases:
- - Analoge Schaltungstechnik
- - Analog-Design
+  - Analoge Schaltungstechnik
+  - Analog-Design
 ---
 
 # Analoge Schaltungstechnik

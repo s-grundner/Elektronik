@@ -10,7 +10,8 @@ subject:
 semester: WS24
 created: 16. Dezember 2024
 professor:
-release: false
+  - Christian Diskus
+release: true
 title: Einfache Aktive Filter 1. Ordnung
 ---
  

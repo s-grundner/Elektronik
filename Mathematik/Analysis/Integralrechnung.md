@@ -1,7 +1,7 @@
 ---
 tags:
   - Analysis
-  - incomplete
+  - todo
 aliases:
   - Integrieren
   - Integral

@@ -12,7 +12,7 @@ professor:
   - Bernhard Jakoby
 def:
   - SHOC
-release: false
+release: true
 title: Shockley Gleichung
 ---
  
@@ -72,5 +72,3 @@ $$
 | ---------------- | ------------------------------------------------------ |
 | $T$              | Absolute Temparatur                                    |
 | $e$              | [Elementarladung](Konstanten/Elementarladung.md)       |
-
-# Tags

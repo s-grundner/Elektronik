@@ -9,7 +9,7 @@ semester: SS25
 created: 10. März 2025
 professor:
   - Wolfgang Gruber
-release: false
+release: true
 title: Magnetische Quellen
 ---
  

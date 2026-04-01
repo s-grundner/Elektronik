@@ -19,7 +19,7 @@ title: Momentanphase und Momentanfrequenz
 
 # Momentanphase und Momentanfrequenz
 
-> [!question] [Modulation](HF-Technik/Modulation.md)
+> [!question] [Modulation](Modulation/index.md)
 
 Im allgemeinen Lassen sich wechsel Signale als rotierende Zeiger in der Komplexen ebene Darstellen. Pausiert man die Rotation zu einem Beliebigen Zeitpunkt, so weist ein Zeiger, einen Winkel (=Momentanphase) und eine Geschwindigkeit (=Momentanfrequenz), mit der er weiter rotieren würde auf.
 
@@ -51,8 +51,8 @@ Zu jedem Zeitpunkt / **Moment** lässt sich feststellen welche Phase und welche 
 Man zerlegt den Kosinus in seine komplexen komponenten und man betrachtet den rotierenden Zeiger $e^{ j\varphi(t) }$ als das neues Nutzsignal. Da bekannt ist, dass der zweite Zieger nur konjugiert zum ersten ist, kann der zweite Zeiger entfallen und man erhält ein komplexes Signal. 
 
 
-![1000](../_assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.md)%%
+![invert_light|1000](../../_assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Modulation%202025-11-15%2002.56.31.excalidraw.md)%%
 
 Man kann sich vorstellen, den Zeiger einerseits durch änderung der Momentanphase zu verschieben oder andererseits mit der Momentanfrequenz den zeiger zu beschleunigen. 
 

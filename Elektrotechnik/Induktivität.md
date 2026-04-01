@@ -140,17 +140,14 @@ Grundsätzlich kann man sagen, dass die Induktivität Änderungen des **Stromes 
 
 nach 1-mal $\tau$ sind $63\%$ des Stromes erreicht.
 
-|              Einschaltvorgang einer Induktivität              |              Abschaltvorgang einer Induktivität               |
-| :-----------------------------------------------------------: | :-----------------------------------------------------------: |
-| ![indu-einsch](../_assets/indu-einsch.png) | ![indu-aussch](../_assets/indu-aussch.png) |
-|                             #todo                             |                             #todo                             |
+|     Einschaltvorgang einer Induktivität      |     Abschaltvorgang einer Induktivität      |
+| :------------------------------------------: | :-----------------------------------------: |
+| ![inverrt_light](../_assets/indu-einsch.png) | ![invert_light](../_assets/indu-aussch.png) |
+|                    #todo                     |                    #todo                    |
 
----
 
-# Tags
 
-## Wikipedia
+## Referenzen
 
-[Induktivitäten](<https://de.wikipedia.org/wiki/Induktivit%C3%A4t_(Bauelement)>)
-
-[Spulen](<https://de.wikipedia.org/wiki/Spule_(Elektrotechnik)>)
+- [Induktivitäten](<https://de.wikipedia.org/wiki/Induktivit%C3%A4t_(Bauelement)>)
+- [Spulen](<https://de.wikipedia.org/wiki/Spule_(Elektrotechnik)>)

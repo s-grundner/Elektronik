@@ -14,7 +14,7 @@ subject:
 semester: WS24
 created: 21. November 2024
 professor:
-release: false
+release: true
 title: Kopplungsarten von Filtern
 ---
  

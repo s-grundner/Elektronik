@@ -13,7 +13,7 @@ subject:
   - VL
   - Grundlagen der Hochfrequenztechnik
 keywords:
-release: false
+release: true
 title: Eingangsimpedanz
 ---
 
@@ -42,6 +42,6 @@ $$
 \Gamma_{L} = \frac{Z_{L}-Z_{0}}{Z_L + Z_0}
 $$
 
-# Tags
+## Referenzen
 
 [Veritasium](https://www.youtube.com/watch?v=oI_X2cMHNe0)

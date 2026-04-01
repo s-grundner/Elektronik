@@ -11,10 +11,9 @@ keywords:
 semester: WS25
 professor:
   - Reinhard Feger
-release: false
+release: true
 title: Wellenleiter
 ---
-
 
 # Transversale EM-Welle
 
@@ -170,7 +169,8 @@ $$
 \beta = \omega\sqrt{ \epsilon\mu }
 $$
 
----
+## Referenzen
+
+- Pozar, D. M. (2012). _Microwave engineering_ (4. ed.). Wiley. http://media.obvsg.at/AC08958137-1001
 
 ![Electromagnetic Wave Equation in Free Space - YouTube](https://www.youtube.com/watch?v=GMmhSext9Q8)
-

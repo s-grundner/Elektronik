@@ -21,5 +21,3 @@ Für verlustlose TL gilt $R' = G' = 0$ und die Fortpflanzungskonstante vereinfac
 $$
 \gamma = j\omega \sqrt{ L'C' } = j\beta
 $$
-
-Für die Lösung der U und I wellen auf der Leitung

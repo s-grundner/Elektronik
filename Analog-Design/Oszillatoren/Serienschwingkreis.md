@@ -8,10 +8,12 @@ subject:
   - VL
   - Elektrotechnik
 semester: SS24
-created: 7. April 2024
+created: 27th March 2026
 professor:
 title: Serienschwingkreis
+release: true
 ---
+
 
 # Serienschwingkreis
 
@@ -21,8 +23,9 @@ title: Serienschwingkreis
 
 ## Resonanz
 
-> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal (files::[📈Mathematica Notebook](../../Scripts/mathematica/SerienSK_Impedanz.nb))
-> ![InlineR|300](../../_assets/ImpSSK.png) das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
+> [!info] Bei *Resonanz* ist $\underline{Z}$ minimal
+> 
+> ![invert_light|300](../../_assets/ImpSSK.png) das heißt: $\mathrm{Im}(\underline{Z}) = 0 \implies \underline{Z}(\omega_{r}) = R$
 > 
 > Die Frequenz welche diese Bedingung erfüllt, heißt **Resonanzfrequenz**.
 > 
@@ -34,6 +37,8 @@ title: Serienschwingkreis
 > \boxed{ \omega_{r} = \frac{1}{\sqrt{ LC }} }
 > $$
 > 
+> - [📈Mathematica Notebook](../../Scripts/mathematica/SerienSK_Impedanz.nb)
+
 
 ## Zeiger Diagramm
 
@@ -184,7 +189,7 @@ Die Lösung in der Amplituden-Phasen-Form hat die Form $y(t)_{p} = \hat{y}_{p}\c
 > [!EXAMPLE]  
 > Serienschwingkreis mit einer Eingangsspannung der Funktion: $u_{e}(t)=\hat{u}_{e}\cdot\sin(\omega\cdot t)$
 > 
-> ![300](../../_assets/e_serien_schwingk_erzw.png)
+> ![invert_light|300](../../_assets/e_serien_schwingk_erzw.png)
 > 
 > Zu ermitteln ist eine Funktion für die Kondensatorspannung $u_{c}$  
 > Um den eingeschwungenen Zustand zu definieren, wird zunächst $u_{h}$ - die homogene Lösung - ignoriert.
@@ -260,7 +265,7 @@ $$
 \end{align*}
 $$
 
-> [!NOTE] Das [globale Minimum](../../Mathematik/Analysis/Kurvendiskussion/index.md) wird durch das Null setzen der [ersten Ableitung](../../Mathematik/Analysis/Differenzialrechnung.md) ermittelt.
+> [!note] Das [globale Minimum](../../Mathematik/Analysis/Kurvendiskussion/index.md) wird durch das Null setzen der [ersten Ableitung](../../Mathematik/Analysis/Differenzialrechnung.md) ermittelt.
 
 $$
 \begin{align*}

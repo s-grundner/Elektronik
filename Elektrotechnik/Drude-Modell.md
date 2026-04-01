@@ -7,14 +7,15 @@ subject:
   - VL
   - Einführung Elektrotechnik
 semester: WS23
-created: 2. März 2024
+created: 15th January 2026
 professor:
   - Bernhard Jakoby
 title: Drude-Modell
+release: true
 ---
  
 
-# Drude-Modell - Modell für den elektrischen [Strom](../elektrischer%20Strom.md)
+# Drude-Modell - Modell für den elektrischen Strom
 
 > [!info] Das Drude-Modell beschäftigt sich mit dem [Ladungstransport in einem Leiter](elektrischer%20Strom.md), der durch ein [elektrisches Feld](elektrisches%20Feld.md) hervorgerufen wird.
 > Gemäß einer statistischen Betrachtung, kann die mittlere Geschwindigkeit von Ladungsträgern in einem Leiter unter Einfluss eines Feldes durch die material und temperaturabhängige **Beweglichkeit** $\mu_{e}$ beschrieben werden:

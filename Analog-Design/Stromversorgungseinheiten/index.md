@@ -13,7 +13,7 @@ subject:
   - hwe
 created: 6th April 2022
 title: Stromversorgungseinheiten
-release: false
+release: true
 ---
 
 # Schaltnetzteil
@@ -24,7 +24,6 @@ Auch SMPS (Switched Mode Power Supply)
 TABLE WITHOUT ID file.link AS "🗺️Map of Content - SMPS" FROM #Baugruppe/Versorgung/SMPS AND -#MOC
 ```
 
-^MOC
 
 ## Vor und Nachteile
 
@@ -62,7 +61,7 @@ Steht immer im Datenblatt des jeweiligen Schalt-ICs
 - Switch-Node zwischen Spule und IC sehr Kurz
 - Feedbackleitung dünn und weit weg/isoliert von der Switch Leitung
 
-# References
+## Referenzen
 
 - [Schmidt-Walter Schaltnetzteildimensionierung](http://schmidt-walter-schaltnetzteile.de/smps/smps.html)
 - [SMPS_intro [INTERNAL]](../../xEDU/xLiteratur/Schaltungstechnik/SMPS_intro.pdf)

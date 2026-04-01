@@ -1,7 +1,7 @@
 ---
 tags:
   - Halbleiter/BJT
-  - incomplete
+  - todo
 aliases:
   - Kollektorschaltung
 created: 21st November 2022

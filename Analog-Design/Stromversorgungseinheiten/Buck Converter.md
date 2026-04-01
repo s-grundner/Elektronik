@@ -134,7 +134,7 @@ Zu Beachten:
 
 ### Mindest Spulenwert
 
-![Lückgrenze](../../_assets/Lückgrenze.png)
+![invert_light](../../_assets/Lückgrenze.png)
 
 Damit der Spulenstrom in der Ausschaltphase nicht in den Lückenden Betrieb übergeht, muss folgendes gelten:
 
@@ -169,11 +169,11 @@ $$
 
 Die erzeugung von $U_{steuer}$ erfolg mit einem Pulsbreiten modulator und mit einem Regler mit Spannungsreferenz
 
-![](../../_assets/bsb.png)
+![invert_light](../../_assets/bsb.png)
 
 ### Funktionsweise des Impulsbreitenmodulators
 
-![Untitled Diagram 1](../../_assets/Untitled%20Diagram%201.png)
+![invert_light](../../_assets/Untitled%20Diagram%201.png)
 
 Der Impulsbreitenmodulator besteht aus einem Sägezahngenerator und einem Komparator. Der Komaprator steuert über $U_{st}$ den Schalter ([MOSFET](../Halbleiter/MOSFET.md) + Treiber) an, solange $U_{R}$ größer ist als $U_{sz}$. Nachfolgend gezeigt ist die sogenannte Voltage-Mode-Regelung
 

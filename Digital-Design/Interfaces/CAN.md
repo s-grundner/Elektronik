@@ -2,7 +2,7 @@
 tags:
   - Digital
   - Interface/Serial/Async
-  - incomplete
+  - todo
 aliases:
   - Controller Area Network
 created: 19th August 2023

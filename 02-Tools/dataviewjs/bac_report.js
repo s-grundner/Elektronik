@@ -1,16 +1,6 @@
-
 const pages = dv
     .pages("#BacLog")
     .filter(p => !p.file.folder.includes("Rubbish"));
-
-const hours = {
-    MAX: 240,
-    total: pages.map(p => p.thesis_hours).sum(),
-    weekly: pages.filter(p => p.week === dv.current().week)
-        .filter(p => p.thesis_hours)
-        .map(p => p.thesis_hours)
-        .sum()
-}
 
 function htmlProg(quota, base) {
     let value = quota / base * 100;
@@ -18,25 +8,37 @@ function htmlProg(quota, base) {
 }
 
 async function nameTable() {
+    const hours = {
+        MAX: 240,
+        total: pages.map(p => p.thesis_hours).sum()
+    }
     dv.table(
-        ["Name", "Thesis"],
+        ["Name", "Thesis", "Total Hours"],
         [[
-            "Simon Grundner, k12136610",
-            "Complex-Valued Bias Compensated-LMS"
+            "Simon Grundner\nk12136610",
+            "Complex-Valued Bias Compensated-LMS",
+            `${htmlProg(hours.total, hours.MAX)}\n${hours.total}h / ${hours.MAX}h`
         ]]
     );
 }
 
 async function timeTable() {
+    
+    const weeklyHours = pages.filter(p => p.week === input.week)
+        .filter(p => p.thesis_hours)
+        .map(p => p.thesis_hours)
+        .sum();
+
     dv.table(
-        ["Hours this week", "Total Hours"],
+        ["Hours this week"],
         [[
-            `${hours.weekly}h`,
-            `${htmlProg(hours.total, hours.MAX)} ${hours.total}h / ${hours.MAX}h`
+            `${weeklyHours}h`
         ]]
     );
 }
 
-nameTable();
-timeTable();
-
+if (input) {
+    timeTable();
+} else {
+    nameTable();
+}

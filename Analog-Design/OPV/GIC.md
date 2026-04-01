@@ -11,7 +11,7 @@ subject:
 semester: WS24
 created: 14. Januar 2025
 professor:
-release: false
+release: true
 title: Generalized IMpedance Converter
 ---
  

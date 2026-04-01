@@ -7,15 +7,15 @@ title: Ungeregelte Spannugsstabilisierung
 
 Mittels einer [Zener-Diode](../Halbleiter/Zener-Diode.md) kann eine Ausgansspannung in einem wieten Bereich konstant gehalten werden.
 
-| Kennwerte                                                                                                           | Schaltung                    |
-| ------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden [Strom](../../Elektrotechnik/elektrischer%20Strom.md)<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand|![400](../../_assets/Z-diode-regler.png) |
+| Kennwerte                                                                                                                                                                                                                             | Schaltung                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| $I_{V}\dots$ Gesamtstrom <br>$I_{L}\dots$ Laststrom<br>$I_{Z}\dots$ Z-Dioden [Strom](../../Elektrotechnik/elektrischer%20Strom.md)<br>$U_{Z}\dots$ Z-Dioden Spannnung<br>$R_{V}\dots$Vorlastwiderstand<br>$R_{L}\dots$ Lastwiderstand | ![invert_light\|400](../../_assets/Z-diode-regler.png) |
 
 ### Kennlinie
 
-| Kennwerte                                                                                                                                           | Kennlinie                               |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------: | --------------------------------------- |
-| $U_{e,min}$<br>$U_{e,max}$<br>$I_{Z,min}$<br>$I_{Z,max}$<br>$R_{V,min}$<br>$R_{V,max}$<br>$P_{tot}$<br><br>$U_{F}$<br>$U_{R}$<br>$I_{F}$<br>$I_{B}$ | ![600](../../_assets/z-d-kennlinie.png) |
+| Kennwerte                                                                                                                                           | Kennlinie                                             |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------- |
+| $U_{e,min}$<br>$U_{e,max}$<br>$I_{Z,min}$<br>$I_{Z,max}$<br>$R_{V,min}$<br>$R_{V,max}$<br>$P_{tot}$<br><br>$U_{F}$<br>$U_{R}$<br>$I_{F}$<br>$I_{B}$ | ![invert_light\|600](../../_assets/z-d-kennlinie.png) |
 
 ### Dimensionierung
 

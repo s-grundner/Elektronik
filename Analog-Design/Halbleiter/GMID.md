@@ -7,7 +7,7 @@ subject:
 semester: WS25
 created: 26th February 2026
 professor:
-release: false
+release: true
 title: GMID
 ---
 

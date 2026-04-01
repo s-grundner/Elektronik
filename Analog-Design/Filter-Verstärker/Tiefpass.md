@@ -9,7 +9,9 @@ subject:
 semester: SS24
 created: 22. April 2024
 professor:
+  - Andreas Springer
 title: Tiefpass
+release: true
 ---
  
 

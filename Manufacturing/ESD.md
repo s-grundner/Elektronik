@@ -3,9 +3,11 @@ tags: []
 aliases:
   - ESD
   - Elektrostatische Entladung
-created: 17th August 2023
-title: Elektrostatische Entladung
+created: 15th January 2026
+title: ESD
+release: true
 ---
+
 
 # Elektrostatische Entladung
 
@@ -19,5 +21,3 @@ ESD kann auftreten bei:
 Integrierte Schaltkreise, wie sie in diesem Projekt enthalten sind, sind typischerweise sehr empfindlich gegenüber statischer Entladung. Aufgrund des vielen Interagieren mit der Platine, zum Beispiel beim Einund Ausstecken, muss mittels [TVS-Diode](Halbleiter/TVS-Diode.md) (Transient Voltage Suppression) eine Abschirmung gegen statische Entladung am USB-Eingang vorhanden sein.
 
 ![invert_dark](../_assets/ESD-Connector.png)
-
-# Tags

@@ -10,12 +10,12 @@ subject:
   - UE
   - Einführung Elektrotechnik
 semester: WS23
-created: 28. Januar 2024
+created: 15th January 2026
 professor:
   - Rafael Ecker
-title: Temperaturabhängiger Widerstand
+title: TDR
+release: true
 ---
- 
 
 # Temperatur Abhängiger Widerstand
 

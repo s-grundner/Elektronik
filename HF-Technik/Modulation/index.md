@@ -1,10 +1,12 @@
 ---
 tags:
+  - index
 aliases:
   - Upconversion
   - Downconversion
   - Frequenzverschiebung
   - Modulationsarten
+  - Modulation
 keywords:
 subject:
   - KV
@@ -13,22 +15,23 @@ semester: WS25
 created: 27th February 2025
 professor:
   - Reinhard Feger
-release: true
+release: false
 title: Modulation
 ---
 
 
 # Modulation
 
+
 Zur verschiebung des Nutzsignals in ein gewünschtes Frequenzband kommen verschiedene Modulationsarten zum einsatz.
 
-|                                                             | [Analoge Modulation](HF-Technik/Analoge%20Modulation.md) | [Digitale Modulation](HF-Technik/Digitale%20Modulation.md) |                                                                   |
+|                                                             | [Analoge Modulation](Analoge%20Modulation.md) | [Digitale Modulation](Digitale%20Modulation.md) |                                                                   |
 | ----------------------------------------------------------- | :------------------------------------------------------: | :--------------------------------------------------------: | ----------------------------------------------------------------: |
-| Informations Signal                                         |  ![invert_dark\|600](../_assets/AnalogeModulation-Sig.png)   |   ![invert_dark\|500](../_assets/DigitaleModulationSig.png)    | Informations Signal                                               |
-| Träger Signal                                               |        ![invert_dark\|600](../_assets/ModCarrier.png)        |         ![invert_dark\|500](../_assets/ModCarrier.png)         | Träger Signal                                                     |
-| [Amplituden Modulation](HF-Technik/Amplitudenmodulation.md) |          ![invert_dark\|600](../_assets/ModAM.png)           |           ![invert_dark\|500](../_assets/ModASK.png)           | [Amplitude Shift Keying](HF-Technik/Amplitude-Shift-Keying.md)    |
-| [Frequenz Modulation](HF-Technik/Frequenzmodulation.md)     |         ![invert_dark\|600](../_assets/ModFMPM.png)          |           ![invert_dark\|500](../_assets/ModFSK.png)           | [Frequnecy Shift Keying](HF-Technik/Frequency-Shift-Keying.md)    |
-| Phasen Modulation                                           |         ![invert_dark\|600](../_assets/ModFMPM.png)          |          ![invert_dark\|500 ](../_assets/ModPSK.png)           | Phase Shift Keying |
+| Informations Signal                                         |  ![invert_dark\|600](../../_assets/AnalogeModulation-Sig.png)   |   ![invert_dark\|500](../../_assets/DigitaleModulationSig.png)    | Informations Signal                                               |
+| Träger Signal                                               |        ![invert_dark\|600](../../_assets/ModCarrier.png)        |         ![invert_dark\|500](../../_assets/ModCarrier.png)         | Träger Signal                                                     |
+| [Amplituden Modulation](Amplitudenmodulation.md) |          ![invert_dark\|600](../../_assets/ModAM.png)           |           ![invert_dark\|500](../../_assets/ModASK.png)           | [Amplitude Shift Keying](Amplitude-Shift-Keying.md)    |
+| [Frequenz Modulation](Frequenzmodulation.md)     |         ![invert_dark\|600](../../_assets/ModFMPM.png)          |           ![invert_dark\|500](../../_assets/ModFSK.png)           | [Frequnecy Shift Keying](Frequency-Shift-Keying.md)    |
+| Phasen Modulation                                           |         ![invert_dark\|600](../../_assets/ModFMPM.png)          |          ![invert_dark\|500 ](../../_assets/ModPSK.png)           | Phase Shift Keying |
 
 ## Frequenzverschiebung
 
@@ -69,7 +72,7 @@ Es ist zu sehen, dass eine Frequenzverscheibung mit
 Implementiert werden kann. 
 
 > [!hint] Der erste Term würde nur eine einzige Multiplikation benötigen. 
-> Darauf basiert das Konzept der Analogen [Amplitudenmodulation](HF-Technik/Amplitudenmodulation.md)
+> Darauf basiert das Konzept der Analogen [Amplitudenmodulation](Amplitudenmodulation.md)
 
 ## Demodulation
 
@@ -80,7 +83,7 @@ Man unterscheidet im Allgemeinen Zwischen **Kohärenter** und **Nicht Kohärente
 Synchronisation der Frequenz
 
 - Domintante Spektrallinien aus dem Spektrum Filtern
-- Mit [PLL](../Analog-Design/Oszillatoren/Phase%20Locked%20Loop.md) möglich
+- Mit [PLL](../../Analog-Design/Oszillatoren/Phase%20Locked%20Loop.md) möglich
 
 Synchronisation der Phase
 

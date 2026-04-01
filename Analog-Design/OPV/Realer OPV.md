@@ -13,12 +13,14 @@ subject:
   - UE
   - Einführung Elektronik
 semester: WS25
-created: 5th November 2025
+created: 15th January 2026
 professor:
   - Christian Diskus
   - Andreas Tröls
 title: Reale Eigenschaften von OPVs
+release: true
 ---
+
 
 # Reale Eigenschaften von OPVs
 

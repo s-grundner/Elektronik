@@ -1,6 +1,6 @@
 ---
 tags:
-  - incomplete
+  - todo
   - Baugruppe/OPV
 aliases:
   - Schmitttrigger
@@ -36,7 +36,7 @@ title: Schmitttrigger
 
 ## Helmholz'sches [Überlagerungsprinzip](../Dictionary/Superposition.md)
 
-![invST-calc2](../_assets/invST-calc2.png)
+![invert_light](../_assets/invST-calc2.png)
 
 # Schaltungen mit Schmitt Triggern
 

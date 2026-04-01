@@ -1,6 +1,6 @@
 ---
 tags:
-  - incomplete
+  - todo
 aliases:
 subject:
   - ksn

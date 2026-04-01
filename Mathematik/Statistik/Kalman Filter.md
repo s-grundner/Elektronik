@@ -65,7 +65,7 @@ $$
 
 Minimal wird. Das Ergebnis zeigt folgender Satz
 
-#incomplete
+#todo
 
 
 

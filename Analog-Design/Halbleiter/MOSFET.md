@@ -92,7 +92,7 @@ Die größe eines Mosfets kann durch die Gatebreite $W$ und Gatelänge $L$ einge
 
 ### Betriebsmodi
 
-![](../../_assets/NMOS-KL-feld.png)
+![invert_light](../../_assets/NMOS-KL-feld.png)
 
 Eine ungefähre einteilung der Betriebsmodi eines MOSFETs sind
 
@@ -119,3 +119,7 @@ Eine ungefähre einteilung der Betriebsmodi eines MOSFETs sind
 ### Dimensionierung
 
 In diskreten Schaltungen wird oft das [Square Law Modell](Square%20Law%20Modell.md) zur Modellierung verwendet. Dieses Modell ist jedoch nicht über den gesamten Betriebsbereich akkurat. Mit den Zusätzlichen Freiheitsgraden $L$ und $W$ ist das 
+
+## Referenzen
+
+- [Analog (Integrated) Circuit Design](https://iic-jku.github.io/analog-circuit-design/)
