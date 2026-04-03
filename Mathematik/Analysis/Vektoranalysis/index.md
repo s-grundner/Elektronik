@@ -25,7 +25,7 @@ Im gegensatz zu einem Skalarfeld, dass jedem Punkt einen skalaren Wert (eine Zah
 
 ## Vektorfelder in der Elektotechnik
 
-Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](Elektrisches%20Feld.md) $\mathbf{E}$ und das [magnetische Feld](magnetisches%20Feld.md) $\mathbf{B}$, welche durch die [Maxwell](Maxwell.md)-Gleichungen beschrieben werden. Diese Felder sind [konservativ](Wegunabhängig.md).
+Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](../../../Elektrotechnik/elektrisches%20Feld.md) $\mathbf{E}$ und das [magnetische Feld](magnetisches%20Feld.md) $\mathbf{B}$, welche durch die [Maxwell](Maxwell.md)-Gleichungen beschrieben werden. Diese Felder sind [konservativ](Wegunabhängig.md).
 
 > [!tldr] Im Folgenden werden die physikalischen Ursachen der Mathematischen Operationen auf konservative Vektorfelder erläutert:
 > 

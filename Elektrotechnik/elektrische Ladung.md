@@ -19,13 +19,13 @@ title: elektrische Ladung
 
 # Elektrische Ladung
 
-Elementarteilchen tragen Ladungen in Vielfachen einer so genannten [Elementarladung](../Physik/Konstanten/Elementarladung.md).
+Elementarteilchen tragen Ladungen in Vielfachen einer so genannten [Elementarladung](../Physik/Konstanten%20und%20Einheiten/Elementarladung.md).
 
 > [!info] Ladung
 > $Q=I\cdot t$ (siehe Definition des [elektrischen Stroms](elektrischer%20Strom.md))
-> $Q = n\cdot e$ (Anzahl der Ladungsträger mal der [Elementarladung](../Physik/Konstanten/Elementarladung.md))
+> $Q = n\cdot e$ (Anzahl der Ladungsträger mal der [Elementarladung](../Physik/Konstanten%20und%20Einheiten/Elementarladung.md))
 
-Ein Elektron trägt eine negative [Elementarladung](../Physik/Konstanten/Elementarladung.md) $-e$.
+Ein Elektron trägt eine negative [Elementarladung](../Physik/Konstanten%20und%20Einheiten/Elementarladung.md) $-e$.
 
 Das [Kraftfeld](elektrisches%20Feld.md) einer elektrischen Ladung ähnelt dem Gravitationsfeld einer Masse.
 

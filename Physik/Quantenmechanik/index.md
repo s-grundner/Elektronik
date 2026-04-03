@@ -49,7 +49,7 @@ Nobelpreis Einstein: Existenz von Photonen
 > \end{rcases} \implies\lambda=\frac{h}{p}
 > $$
 > 
-> $h$ ... [Plancksches Wirkungsquantum](../../../Physik/Konstanten/Plancksches%20Wirkungsquantum.md)
+> $h$ ... [Plancksches Wirkungsquantum](../Konstanten%20und%20Einheiten/Plancksches%20Wirkungsquantum.md)
 
 > [!important] Zusammenhang Frequenz und Energie:
 > $\omega=2\pi f= 2\pi \cdot \frac{E}{h}$

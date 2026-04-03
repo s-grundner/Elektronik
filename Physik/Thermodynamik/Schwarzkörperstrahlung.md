@@ -14,7 +14,7 @@ absorbiert auftreffende elektromagnetische [Strahlung](../../Chemie/Radioaktivit
 Er lässt keine [Strahlung](../../Chemie/Radioaktivität.md) hindurch und spiegelt oder streut nichts.  
 Besitz ein **Absorptionsvermögen** von **$\alpha=1$**
 
-## Stefan-[Boltzmann](Konstanten/Boltzmannkonstante.md) Verteilung
+## Stefan-[Boltzmann](../Konstanten%20und%20Einheiten/Boltzmannkonstante.md) Verteilung
 
 $$
 \begin{align*}
@@ -27,7 +27,7 @@ $$
 
 Durch das plancksche Strahlungsgesetz wird beschrieben, wie das Strahlungsspektrum eines schwarzen Körpers in Abhängigkeit von seiner [Temperatur](Thermodynamik/Temperatur%20und%20Teilchenmodell.md) aussieht.
 
-## Stefan-[Boltzmann](Konstanten/Boltzmannkonstante.md)-Gesetz
+## Stefan-[Boltzmann](../Konstanten%20und%20Einheiten/Boltzmannkonstante.md)-Gesetz
 
 Die Strahlungsleistung eines schwarzen Körpers ist proportional zur 4. [Potenz](../../Mathematik/Algebra/Potenzen.md) der [Temperatur](Thermodynamik/Temperatur%20und%20Teilchenmodell.md).  
 $P=\sigma\cdot A\cdot T^{4}$ 

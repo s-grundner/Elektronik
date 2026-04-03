@@ -56,7 +56,7 @@ $$
 I_{\mathrm{S}}=I_{\mathrm{S} 0} \cdot e^{-\frac{W_{\mathrm{G}}}{k_{\mathrm{B}} T}}
 $$
 
-| $k_{\mathrm{B}}$ | [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md) |
+| $k_{\mathrm{B}}$ | [Boltzmannkonstante](../../Physik/Konstanten%20und%20Einheiten/Boltzmannkonstante.md) |
 | ---------------- | ------------------------------------------------------ |
 | $T$              | Absolute Temparatur                                    |
 | $W_{G}$          | Vom Halbleitermaterial abhängiger [Bandabstand](../../Chemie/elektrischer%20Leiter.md)          |
@@ -68,7 +68,7 @@ $W_{G}=1.1eV$ für [Silizium](../../Chemie/Materialkunde/Silizium.md)
 $$
 U_{\mathrm{T}}=\frac{k_{\mathrm{B}} \cdot T}{e}
 $$
-| $k_{\mathrm{B}}$ | [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md) |
+| $k_{\mathrm{B}}$ | [Boltzmannkonstante](../../Physik/Konstanten%20und%20Einheiten/Boltzmannkonstante.md) |
 | ---------------- | ------------------------------------------------------ |
 | $T$              | Absolute Temparatur                                    |
-| $e$              | [Elementarladung](Konstanten/Elementarladung.md)       |
+| $e$              | [Elementarladung](../../Physik/Konstanten%20und%20Einheiten/Elementarladung.md)       |

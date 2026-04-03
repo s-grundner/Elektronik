@@ -76,7 +76,7 @@ In der Untenstehenden Erläuterng ist die Fläche $A$ auf einer Ebene dargestell
 
 ## In der Elektrotechnik
 
-> [!hint] Ist $\boldsymbol{F}$ das [elektrische Feld](../../Elektrotechnik/Elektrisches%20Feld.md) $\boldsymbol{E}$:
+> [!hint] Ist $\boldsymbol{F}$ das [elektrische Feld](../../Elektrotechnik/elektrisches%20Feld.md) $\boldsymbol{E}$:
 > so entspricht das Linienintegral dem [elektrischen Potenzial](../../Elektrotechnik/elektrische%20Spannung.md) $\varphi_{e}$ entlang der Kurve $L$.
 >
 > - Die Potenzialdifferenz ist proportional zur Energie die ein positiv geladenes Teilchen Entlang dieser Linie gewinnt bzw. ein negativ geladenes Teilchen verliert.

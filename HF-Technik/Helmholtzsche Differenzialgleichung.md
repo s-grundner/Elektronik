@@ -28,7 +28,7 @@ Die Telegraphengleichungen werden dann von der [Wellengleichung](../Physik/Feldt
 
 ## Telegrafengleichung - Ausbreitung des E und H-Feldes in einem Medium
 
-Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\mathbf{E}$ ([elektrisches Feld](../../Elektrotechnik/Elektrisches%20Feld.md)) und $\mathbf{H}$ ([magnetisches Feld](../../Elektrotechnik/Magnetisches%20Feld.md)), dessen Zusammenhang mit den [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen beschreiben werden, lässt sich die Wellengleichung für die Feldkomponenten herleiten.
+Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\mathbf{E}$ ([elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md)) und $\mathbf{H}$ ([magnetisches Feld](../../Elektrotechnik/Magnetisches%20Feld.md)), dessen Zusammenhang mit den [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen beschreiben werden, lässt sich die Wellengleichung für die Feldkomponenten herleiten.
 
 > [!hint] [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md) $\mathbf{E} = \mathrm{Re}\{\mathbf{\underline{E}}\cdot e^{ j\omega t}\}$, $\mathbf{E} = f(\mathbf{x},t)$, $\mathbf{\underline{E}} = f(\mathbf{x})$
 

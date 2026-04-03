@@ -50,7 +50,7 @@ Da die [thermische](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md
 > [!success] $\left\langle\vec{v}_e\right\rangle=-\dfrac{e \uptau}{m_e} \vec{E}=-\mu_e \vec{E}$
 > 
 > - $\langle v_{e} \rangle$ … Mittlere Geschwindigkeit der Elektronen
-> - $-e$ … [Ladung](elektrisches%20Feld.md) eines Elektrons (negative [Elementarladung](../Physik/Konstanten/Elementarladung.md))
+> - $-e$ … [Ladung](elektrisches%20Feld.md) eines Elektrons (negative [Elementarladung](../Physik/Konstanten%20und%20Einheiten/Elementarladung.md))
 > - $\uptau$ … Mittlere Stoßzeit
 > - $m_{e}$ … Masse eines Elektrons
 > - $\vec{E}$ … [Elektrische Feldstärke](elektrisches%20Feld.md)

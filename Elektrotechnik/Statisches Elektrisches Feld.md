@@ -18,7 +18,7 @@ title: Statisches Elektrisches Feld
 
 # Statisches Elektrisches Feld
 
-> [!question] [Elektrisches Feld](Elektrisches%20Feld.md)
+> [!question] [elektrisches Feld](elektrisches%20Feld.md)
 
 ---
 

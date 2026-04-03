@@ -109,7 +109,7 @@ $$
 
 --- 
 
-Ebenfalls kann die [Ladung](elektrisches%20Feld.md) über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentialgleichung kommt.
+Ebenfalls kann die [Ladung](../../Elektrotechnik/elektrisches%20Feld.md) über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentialgleichung kommt.
 
 $$
 \begin{align*}

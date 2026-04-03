@@ -54,7 +54,7 @@ $$ L_{\mu\nu} = \frac{\mathrm{d}\Psi_{\mu}}{\mathrm{d}i_{\nu}} $$
 | ------------------------------------- | ------------------------------------------------------ |
 | Selbstinduktivität                    | Gegeninduktivität (hier zweisträngig $\mu = 1, \nu=2$) |
 
-Unter Berücksichtigung der nichtlinearen Eisencharakteristikverändert die [Permeablität](../Physik/Konstanten/Permeablität.md) in Abhängigkeit von der Erregung ihren Wert.
+Unter Berücksichtigung der nichtlinearen Eisencharakteristikverändert die [Permeablität](../Physik/Konstanten%20und%20Einheiten/Permeablität.md) in Abhängigkeit von der Erregung ihren Wert.
 
 Typischer Kennlinienverlauf
 

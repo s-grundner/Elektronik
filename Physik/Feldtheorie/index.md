@@ -29,7 +29,7 @@ Elektrische und Magnetische Wechselfelder können sich als Wellen über die Zeit
 Ein mathematisches Modell zur beschreibung von der zeitlichen und örtlichen Ausbreitung von elektromagnetischen Wellen bieten die [Telegrafengleichung](../../Elektrotechnik/Telegrafengleichung.md).
 
 > [!info] Feldwirkung in einem Medium
-> Im Freiraum (Vakuum) sind reelle, eindimensionale Naturkonstanten ([$\epsilon_0$](../../Elektrotechnik/Dielektrikum.md), [$\mu_0$](Konstanten/Permeablität.md)) ausreichend, um Feldwirkungen zu beschreiben. Wenn die Felder mit Materie in Berührung kommen muss berücksichtig werden, wie das Material mit den Feldern wechselwirkt. 
+> Im Freiraum (Vakuum) sind reelle, eindimensionale Naturkonstanten ([$\epsilon_0$](../../Elektrotechnik/Dielektrikum.md), [$\mu_0$](../Konstanten%20und%20Einheiten/Permeablität.md)) ausreichend, um Feldwirkungen zu beschreiben. Wenn die Felder mit Materie in Berührung kommen muss berücksichtig werden, wie das Material mit den Feldern wechselwirkt. 
 > 
 > Die [Materialeigenschaften](../../Elektrotechnik/Materialgesetze.md) können auch linear/nichtlinear und (oder) auch isotrop/anisotrop sein.
 
@@ -40,7 +40,7 @@ Ein mathematisches Modell zur beschreibung von der zeitlichen und örtlichen Aus
 - [Ausbreitungskonstante](Wellenzahl.md) ... $k$ bzw. $\gamma$
 - [Phasengeschwindigkeit](Phasengeschwindigkeit.md) ... $v_{p}$
 - [Wellenlänge](Wellenlänge.md) ... $\lambda$
-- [Wellenimpedanz](Konstanten/Wellenwiderstand.md) ... $\eta$
+- [Wellenimpedanz](../Konstanten%20und%20Einheiten/Wellenwiderstand.md) ... $\eta$
 - [Eindringtiefe](../../HF-Technik/Skineffekt.md) ... $\delta_{S}$
 
 ### Zusammenfassung der Größen

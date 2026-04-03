@@ -57,8 +57,12 @@ Man sieht sofort, dass ein verlustloses Material mit $\tan\delta=0$ dazu führt,
 
 > [!info] Zusammenfassung der Fortpflanzungskonstante $\gamma$ in unterschiedlichen Medien
 > 
-> ![invert_dark](../../_assets/Excalidraw/ZusammenfassungWellenzahl.svg)
-> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/ZusammenfassungWellenzahl.md)%%
+> |                      Verlustbehaftet <br> $\tan\delta \neq 0$                      |     Verlustlos<br> $\tan\delta = 0$     |                                  Guter Leiter<br> $\tan\delta \gg 0$                                   | Perfekter Leiter<br> $\tan\delta \to \infty$ |
+> | :--------------------------------------------------------------------------------: | :-------------------------------------: | :----------------------------------------------------------------------------------------------------: | :------------------------------------------: |
+> | $\gamma = j\omega\sqrt{ \epsilon\mu }\sqrt{ 1 - j\dfrac{\sigma}{\omega\epsilon} }$ | $\gamma=jk=j\omega\sqrt{ \epsilon\mu }$ |        $\omega=(1+j)\sqrt{ \dfrac{\omega\mu\sigma}{2} } = (1+j) \dfrac{1}{\delta_{\mathrm{S}}}$        |              $\gamma\to\infty$               |
+> |                                                                                    |      $\alpha = 0,\quad \beta = k$       | $\alpha = \beta = \sqrt{ \dfrac{\omega\mu\sigma}{2} }, \quad \delta_{\mathrm{S}} := \dfrac{1}{\alpha}$ |                                              |
+
+
 
 ### Einsetzen der Modelle
 

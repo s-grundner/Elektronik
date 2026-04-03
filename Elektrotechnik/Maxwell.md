@@ -37,7 +37,7 @@ title: Maxwell Gleichungen
 
 |    Symbol    | Bedeutung                                         |                                               |             Einheit             |
 | :----------: | :------------------------------------------------ | :-------------------------------------------- | :-----------------------------: |
-|  $\mathbf{E}$ | [elektrische Feldstärke](Elektrisches%20Feld.md)  | Intesitätsgröße                               | $\operatorname{V} / \mathrm{m}$ |
+|  $\mathbf{E}$ | [elektrische Feldstärke](elektrisches%20Feld.md)  | Intesitätsgröße                               | $\operatorname{V} / \mathrm{m}$ |
 |  $\mathbf{H}$ | magnetische Feldstärke                            | Intesitätsgröße                              |    $\mathrm{A} / \mathrm{m}$    |
 |  $\mathbf{B}$ | [magnetische Flussdichte](Magnetisches%20Feld.md) | Quantitätsgröße                               |  $\mathrm{Vs} / \mathrm{m}^2$   |
 |  $\mathbf{D}$ | elektrische Flussdichte                           | Quantitätsgröße                               |  $\mathrm{As} / \mathrm{m}^2$   |

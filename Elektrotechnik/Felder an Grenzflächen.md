@@ -19,14 +19,19 @@ Es wird untersucht, welches Verhalten Elektromagentische Wellen aufweisen, wenn 
 
 > [!tldr] Zusammenfassung des Feldverhaltens an Grenzflächen
 > 
-> ![invert_dark|900](../_assets/Excalidraw/ZusammenfassungGF.svg)
-> %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/ZusammenfassungGF.md)%%
+> |                 Verlustbehaftet <br> $\tan\delta \neq 0$                  |            Verlustlos<br>$\tan\delta=0$            | Gut / Perfekter Leiter <br>$\tan\delta \gg 0$ / $\tan\delta \to \infty$ |
+> | :-----------------------------------------------------------------------: | :------------------------------------------------: | :---------------------------------------------------------------------: |
+> |             $\hat{n}\cdot(\mathbf{D}_{2}-\mathbf{D}_{1}) = 0$             | $\hat{n}\cdot(\mathbf{D}_{2}-\mathbf{D}_{1}) = 0$  |              $\hat{n}\cdot \mathbf{D} = \rho_{\mathrm{s}}$              |
+> |             $\hat{n}\cdot(\mathbf{B}_{2}-\mathbf{B}_{1}) = 0$             | $\hat{n}\cdot(\mathbf{B}_{2}-\mathbf{B}_{1}) = 0$  |                      $\hat{n}\cdot \mathbf{B} = 0$                      |
+> | $\hat{n}\times(\mathbf{E}_{2}-\mathbf{E}_{1}) = -\mathbf{M}_{\mathrm{s}}$ | $\hat{n}\times(\mathbf{E}_{2}-\mathbf{E}_{1}) = 0$ |                       $\hat{n}\times\mathbf{E}=0$                       |
+> | $\hat{n}\times(\mathbf{H}_{2}-\mathbf{H}_{1}) = \mathbf{J}_{\mathrm{s}}$  | $\hat{n}\times(\mathbf{H}_{2}-\mathbf{H}_{1}) = 0$ |            $\hat{n}\times\mathbf{H}=\mathrm{J}_{\mathrm{s}}$            |
+
 
 ![Verlustwinkel](Verlustwinkel.md#^LOSS-TAN)
 
 ## Reflexionsfaktor
 
-Geht eine Welle von material einer [intrinsischen Impedanz](../Physik/Konstanten/Wellenwiderstand.md) $\eta_{1}$ in ein Material mit $\eta_{2}$ über, so wird ein anteil der Welle reflektiert. 
+Geht eine Welle von material einer [intrinsischen Impedanz](../Physik/Konstanten%20und%20Einheiten/Wellenwiderstand.md) $\eta_{1}$ in ein Material mit $\eta_{2}$ über, so wird ein anteil der Welle reflektiert. 
 
 > [!def] **D)** Reflexionsfaktor $\Gamma$ an einer Grenzfläche
 > $$

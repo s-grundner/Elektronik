@@ -23,7 +23,7 @@ Das Überlagerungsprinzip ist auf die *Linearität* der Schaltung zurückzuführ
 
 In einer linearen Schaltung kann der Einfluss jeder Quelle auf die gesuchten größen getrennt ermittelt werden und die Teilergebnisse aufsummiert werden. Es werden also Iterativ jede Quelle bis auf eine ausgeschalten.
 
-## Elektrische [Ladungen](elektrisches%20Feld.md)
+## Elektrische [Ladungen](../Elektrotechnik/elektrisches%20Feld.md)
 
 Durch die Linearität elektrischer Punktladungen lassen sich komplexere Ladungs-Geometrien leicht berechnen. 
 

@@ -33,7 +33,7 @@ Die Fermiverteilung gibt an, mit welcher Wahrscheinlichkeit ein Energieniveau $W
 
 > [!def] **D1 - FERM)** Fermiverteilung ^FERM
 > $$F(W) = \frac{1}{1+\exp\left(\frac{W-W_{F}}{k_{b}T} \right)}$$
-> $F(W)$... Besetzungswahrscheinlichkeit | $W$... Energie | $W_{F}$... Ferminiveau | $T$... Temperatur | $k_{B}$... [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md)
+> $F(W)$... Besetzungswahrscheinlichkeit | $W$... Energie | $W_{F}$... Ferminiveau | $T$... Temperatur | $k_{B}$... [Boltzmannkonstante](../Konstanten%20und%20Einheiten/Boltzmannkonstante.md)
 
 Der Ausdurck $F(W)\mathrm{~d}W$ beschreibt die Wahrscheinlichkeit, dass das [infinitesimale](../../Mathematik/Analysis/index.md) Energieband $(W, W+\mathrm{d}W)$ bei der Temparatur $T$ besetzt ist.
 

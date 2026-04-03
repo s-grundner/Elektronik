@@ -83,7 +83,7 @@ $$j = j_{p}+j_{n}$$
 
 Störstellen und thermische Gitterschwingungen verursachen eine [mittlere Driftgeschwindigkeit](../../Elektrotechnik/Drude-Modell.md) der Ladungsträger.
 Dabei ist $\mu$ die Beweglichkeit und $E$ die elektrische Feldstärke
-Gefolgt von einer Multiplikation mit der [Elementarladung](Konstanten/Elementarladung.md) $e$ und der Ladungsträgerdichte der Löcher ($p$) bzw der Elektronen ($n$) ergibt den **Driftstrom** 
+Gefolgt von einer Multiplikation mit der [Elementarladung](../Konstanten%20und%20Einheiten/Elementarladung.md) $e$ und der Ladungsträgerdichte der Löcher ($p$) bzw der Elektronen ($n$) ergibt den **Driftstrom** 
 
 $$
 \begin{align}
@@ -136,7 +136,7 @@ Die extrem niedrige Leitfähigkeit von reinen Halbleitern lässt sich durch das 
 - Das Elektron wandert in das Leitungsband, wird frei beweglich und steht permanent als Leitungselektron zur verfügung
 
 Das **Donator** Atom erhält durch die Abgabe seines Valenzelektrons eine **positive** Ladung, und hält daher das **Elektron** Lokal bei sich.
-Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%20Feld.md) entfernt sich das Elektron vom Ortsfesten Donator.
+Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/elektrisches%20Feld.md) entfernt sich das Elektron vom Ortsfesten Donator.
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
@@ -157,7 +157,7 @@ In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elek
 - Durch die Nachrückung der Elektronen entsteht ein Freibewegliches **Loch**
 
 Das **Akzeptor** Atom erhält durch die Aufnahme eines benachbarten Valenzelektrons eine **negative** Ladung, und hält daher das **Loch** Lokal bei sich.
-Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrisches%20Feld.md) entfernt sich das Loch vom Ortsfesten Akzeptor.
+Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/elektrisches%20Feld.md) entfernt sich das Loch vom Ortsfesten Akzeptor.
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Akzeptoratom lokal ein zusätzliches Energieniveau nahe der **Valenzbandkante** darstellen 

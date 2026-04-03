@@ -33,7 +33,7 @@ Elektrische Verluste des Materials charakterisert man mit dem [Verlustwinkel](Ve
 
 ## Materialparameter
 
-- [Permeabilität](../Physik/Konstanten/Permeablität.md) $\mu$
+- [Permeabilität](../Physik/Konstanten%20und%20Einheiten/Permeablität.md) $\mu$
 - [Permittivität](Dielektrikum.md) $\varepsilon$
 - [Konduktivität](../Chemie/elektrischer%20Leiter.md) $\sigma$
 

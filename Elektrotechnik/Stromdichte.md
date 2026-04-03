@@ -88,7 +88,7 @@ $$
 
 ## Zusammenhang mit dem E-Feld
 
-> [!question] [elektrische Feld](Elektrisches%20Feld.md)
+> [!question] [elektrische Feld](elektrisches%20Feld.md)
 
 $$
 \mathbf{J} = \sigma \mathbf{E}

@@ -132,7 +132,7 @@ $$
 H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0
 $$
 
-- [Materialgesetz](Konstanten/Permeablität.md) anwenden: $\mu_{0}H_{\delta}= B_{\delta}$
+- [Materialgesetz](Konstanten%20und%20Einheiten/Permeablität.md) anwenden: $\mu_{0}H_{\delta}= B_{\delta}$
 - Mit der Luftspaltfläche Erweitern: $A_{\delta} / A_{\delta}$
 
 $$

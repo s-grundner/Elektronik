@@ -21,7 +21,7 @@ Man nutzt die **Bandabstand-Spannung** eines [Silizium](../../Chemie/Materialkun
 1. [Bandabstand](https://de.wikipedia.org/wiki/B%C3%A4ndermodell)  
 [Halbleitermaterialien](../../Chemie/Materialkunde/Silizium.md) weisen einen Abstand in Elektronen Volt $eV$ zwischen Valenzband und Leitungsband auf.  
 $U_{g}= \frac{W_{g}}{e}$  
-wobei $e$ die [Elementarladung](../../Physik/Konstanten/Elementarladung.md) ist.
+wobei $e$ die [Elementarladung](../../Physik/Konstanten%20und%20Einheiten/Elementarladung.md) ist.
 
 ![invert_light](../../_assets/Baendermodell.png)
 
@@ -36,7 +36,7 @@ $U_{BE}= U_{T}\cdot \ln(I_{c}/I_{s})$
 | Formelzeichen | Bezeichnung                     | Formel                                                                                                                |     |
 | ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | --- |
 | $\eta$        | Emissionskoeffizient $(\eta=1)$ |                                                                                                                       |     |
-| $U_{T}$       | Temperaturspannung              | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](../../Physik/Konstanten/Boltzmannkonstante.md) |     |
+| $U_{T}$       | Temperaturspannung              | $U_{T}=\frac{k\cdot T}{e}\simeq 25mV$ <br> $k\cdots$ [Boltzmannkonstante](../../Physik/Konstanten%20und%20Einheiten/Boltzmannkonstante.md) |     |
 | $I_{s}$       | Sättigungssperrstrom            |                                                                                                                       |     |
 
 1. Temperaturabhängigkeit der Basis-Emitter-Spannung  

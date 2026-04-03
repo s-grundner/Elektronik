@@ -23,7 +23,7 @@ $$
 D = \mu \cdot k_{B}\cdot T\tag{DifKo}
 $$
  
-$k_{B}$... [Boltzmannkonstante](Konstanten/Boltzmannkonstante.md)
+$k_{B}$... [Boltzmannkonstante](../Konstanten%20und%20Einheiten/Boltzmannkonstante.md)
 $T$... absolute Temparatur
 
 ## In der Halbleiterphysik

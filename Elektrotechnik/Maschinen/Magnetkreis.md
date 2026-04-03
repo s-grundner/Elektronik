@@ -27,7 +27,7 @@ Ein Magnetkreis ist die schematische Darstellung einer Zusammenschaltung aus mag
 | ----------------------------------------: | :--------------------------------------------------: | :------------------------------------------: | :------------------ |
 | [magn. Fluss](../Magnetischer%20Fluss.md) |                        $\Phi$                        |                     $I$                      | Strom               |
 |                         magn. Flussdichte |             $\mathbf{B}=\mu \mathbf{H}$              |        $\mathbf{J}=\sigma \mathbf{E}$        | Stromdichte         |
-|      [Permeablität](../../Physik/Konstanten/Permeablität.md) |                        $\mu$                         |                   $\sigma$                   | Leitwert            |
+|      [Permeablität](../../Physik/Konstanten%20und%20Einheiten/Permeablität.md) |                        $\mu$                         |                   $\sigma$                   | Leitwert            |
 |                 [Reluktanz](Reluktanz.md) |           $\mathfrak{R}=\dfrac{l}{\mu A}$            |           $R=\dfrac{l}{\sigma A}$            | Impedanz            |
 |                            magn. Spannung |              $V = \mathfrak{R} \cdot I$              |                 $U=R\cdot I$                 | Spannung            |
 |        [Durchflutung](../Durchflutung.md) | $\Theta = \oint \mathbf{H}\cdot\mathrm{d}\mathbf{s}$ | $u=\int \mathbf{E}\cdot\mathrm{d}\mathbf{s}$ | induzierte Spannung |
@@ -128,7 +128,7 @@ $$\Theta = \oint_{L} \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \sum_{v=1}^{N}i_{v}$$
 $$2 H_{\delta}\delta + H_{R}l_{R} + H_{S} l_{S} = 2Ni$$
 
 3. Beziehungen Anwenden ^MK-EX-3
-    - [Materialgleichung](../../Physik/Konstanten/Permeablität.md) $\mathbf{B}=\mu \cdot \mathbf{H}$
+    - [Materialgleichung](../../Physik/Konstanten%20und%20Einheiten/Permeablität.md) $\mathbf{B}=\mu \cdot \mathbf{H}$
     - [Magnetischer Fluss](Magnetischer%20Fluss.md): $\Phi = \int _{A}\mathbf{B}\cdot \mathrm{d}\mathbf{a} = B\cdot A$. Dazu mit den Querschnittsflächen $A$ jeder Sektion des Modells erweitern
 
 $$

@@ -24,20 +24,20 @@ Alle Körper sind aus kleinen, sich ständig bewegenden Teilchen aufgebaut.
 
 ## [Gasgesetze](../../Chemie/Allgemeines%20Gasgesetz.md)
 
-**[Avogadro](Konstanten/Avogadrokonstante.md)'sches Gesetz:**  
+**[Avogadro](../Konstanten%20und%20Einheiten/Avogadrokonstante.md)'sches Gesetz:**  
 $p\cdot V = n\cdot R\cdot T$
 
-### Molare [Gaskonstante](Konstanten/Gaskonstante.md), [Molvolumen](../../Chemie/Molvolumen.md), Molare Masse
+### Molare [Gaskonstante](../Konstanten%20und%20Einheiten/Gaskonstante.md), [Molvolumen](../../Chemie/Molvolumen.md), Molare Masse
 
 | Bezeichnung                                         | Formelzeichen | Einheit                                       |
 | --------------------------------------------------- | ------------- | --------------------------------------------- |
-| allgemeine [Gaskonstante](Konstanten/Gaskonstante.md)                             | $R$           | $\dfrac{J}{mol\cdot K}$                       |
+| allgemeine [Gaskonstante](../Konstanten%20und%20Einheiten/Gaskonstante.md)                             | $R$           | $\dfrac{J}{mol\cdot K}$                       |
 | [Molares Volumen](../../Chemie/Molvolumen.md)                                     | $V$           | $\dfrac{dm^{3}}{mol}$ / $\dfrac{m^{3}}{kmol}$ |
 | Molare Masse ([PSE](../../Chemie/Periodensystem%20der%20Elemente.md)) | $M$           | $\dfrac{g}{mol}$ / $\dfrac{kg}{kmol}$         |
 | [Temperatur](Thermodynamik/Temperatur%20und%20Teilchenmodell.md)       | $T$           | $K$                                           |
 | Stoffmenge (Molzahl)                                | $n$           | $mol$                                         |
 | Teilchenzahl                                        | $N$           | Anzahl                                        |
-| [Avogadro](Konstanten/Avogadrokonstante.md) Konstante                                  | $N_{A}$       | $\dfrac{1}{mol}$                              |
+| [Avogadro](../Konstanten%20und%20Einheiten/Avogadrokonstante.md) Konstante                                  | $N_{A}$       | $\dfrac{1}{mol}$                              |
 
 ## Wetter und Klima
 
