@@ -17,100 +17,100 @@ title: Felder an Grenzflächen
 
 Es wird untersucht, welches Verhalten Elektromagentische Wellen aufweisen, wenn sie von ein Medium in ein anderes Medium mit anderen [Materialparameter](Materialgesetze.md) übergehen.
 
-> [!tldr] Zusammenfassung des Feldverhaltens an Grenzflächen
+> [!hint] Zusammenfassung des Feldverhaltens an Grenzflächen
 > 
 > |                 Verlustbehaftet <br> $\tan\delta \neq 0$                  |            Verlustlos<br>$\tan\delta=0$            | Gut / Perfekter Leiter <br>$\tan\delta \gg 0$ / $\tan\delta \to \infty$ |
 > | :-----------------------------------------------------------------------: | :------------------------------------------------: | :---------------------------------------------------------------------: |
-> |             $\hat{n}\cdot(\mathbf{D}_{2}-\mathbf{D}_{1}) = 0$             | $\hat{n}\cdot(\mathbf{D}_{2}-\mathbf{D}_{1}) = 0$  |              $\hat{n}\cdot \mathbf{D} = \rho_{\mathrm{s}}$              |
-> |             $\hat{n}\cdot(\mathbf{B}_{2}-\mathbf{B}_{1}) = 0$             | $\hat{n}\cdot(\mathbf{B}_{2}-\mathbf{B}_{1}) = 0$  |                      $\hat{n}\cdot \mathbf{B} = 0$                      |
-> | $\hat{n}\times(\mathbf{E}_{2}-\mathbf{E}_{1}) = -\mathbf{M}_{\mathrm{s}}$ | $\hat{n}\times(\mathbf{E}_{2}-\mathbf{E}_{1}) = 0$ |                       $\hat{n}\times\mathbf{E}=0$                       |
-> | $\hat{n}\times(\mathbf{H}_{2}-\mathbf{H}_{1}) = \mathbf{J}_{\mathrm{s}}$  | $\hat{n}\times(\mathbf{H}_{2}-\mathbf{H}_{1}) = 0$ |            $\hat{n}\times\mathbf{H}=\mathrm{J}_{\mathrm{s}}$            |
+> |             $\hat{n}\cdot(\mathbf{D}_{2}-\mathbf{D}_{1}) = 0$             | $\hat{n}\cdot(\mathbf{D}_{2}-\mathbf{D}_{1}) = 0$  | $\hat{n}\cdot \mathbf{D} = \rho_{\mathrm{s}}$              |
+> |             $\hat{n}\cdot(\mathbf{B}_{2}-\mathbf{B}_{1}) = 0$             | $\hat{n}\cdot(\mathbf{B}_{2}-\mathbf{B}_{1}) = 0$  | $\hat{n}\cdot \mathbf{B} = 0$                      |
+> | $\hat{n}\times(\mathbf{E}_{2}-\mathbf{E}_{1}) = -\mathbf{M}_{\mathrm{s}}$ | $\hat{n}\times(\mathbf{E}_{2}-\mathbf{E}_{1}) = 0$ |    $\hat{n}\times\mathbf{E}=0$                       |
+> | $\hat{n}\times(\mathbf{H}_{2}-\mathbf{H}_{1}) = \mathbf{J}_{\mathrm{s}}$  | $\hat{n}\times(\mathbf{H}_{2}-\mathbf{H}_{1}) = 0$ |    $\hat{n}\times\mathbf{H}=\mathbf{J}_{\mathrm{s}}$            |
 
 
-![Verlustwinkel](Verlustwinkel.md#^LOSS-TAN)
+![verlustwinkel](verlustwinkel.md#^loss-tan)
 
-## Reflexionsfaktor
+## reflexionsfaktor
 
-Geht eine Welle von material einer [intrinsischen Impedanz](../Physik/Konstanten%20und%20Einheiten/Wellenwiderstand.md) $\eta_{1}$ in ein Material mit $\eta_{2}$ über, so wird ein anteil der Welle reflektiert. 
+geht eine welle von material einer [intrinsischen impedanz](../physik/konstanten%20und%20einheiten/wellenwiderstand.md) $\eta_{1}$ in ein material mit $\eta_{2}$ über, so wird ein anteil der welle reflektiert. 
 
-> [!def] **D)** Reflexionsfaktor $\Gamma$ an einer Grenzfläche
+> [!def] **d)** reflexionsfaktor $\gamma$ an einer grenzfläche
 > $$
-> \Gamma := \frac{\eta_{2}-\eta_{1}}{\eta_{2}+\eta_{1}}
+> \gamma := \frac{\eta_{2}-\eta_{1}}{\eta_{2}+\eta_{1}}
 > $$
 
-## Felder an verlustfreien dielektrischen Grenzflächen
+## felder an verlustfreien dielektrischen grenzflächen
 
-> [!info] Es gilt: $\tan\delta = 0 \impliedby \epsilon  \in \mathbb{R}$ bzw. $\sigma =0$
+> [!info] es gilt: $\tan\delta = 0 \impliedby \epsilon  \in \mathbb{r}$ bzw. $\sigma =0$
 
-### Felder bei normalem Einfall
+### felder bei normalem einfall
 
-An der Grenzfläche zwischen zwei verlustlosen [dielektrischen](Dielektrikum.md) Materialien existieren *keine Ladungen oder Oberflächenströme*. Daraus folgen die zusammenhänge der Feldgrößen:
+an der grenzfläche zwischen zwei verlustlosen [dielektrischen](dielektrikum.md) materialien existieren *keine ladungen oder oberflächenströme*. daraus folgen die zusammenhänge der feldgrößen:
 
-![invert_dark|500](../_assets/Excalidraw/Materialgesetze%202026-01-17%2001.30.39.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Materialgesetze%202026-01-17%2001.30.39.excalidraw.md)%%
-
-$$
-\begin{align}
-\hat{n} \cdot \mathbf{D}_{1} &= \hat{n} \cdot \mathbf{D}_{2} & \hat{n} \cdot (\mathbf{D}_{2}-\mathbf{D}_{1}) &= 0 \\
-\hat{n} \cdot \mathbf{B}_{1} &= \hat{n} \cdot \mathbf{B}_{2} & \hat{n} \cdot (\mathbf{B}_{2}-\mathbf{B}_{1}) &=0\\
-\hat{n} \times \mathbf{E}_{1} &= \hat{n} \times \mathbf{E}_{2} & \hat{n} \times (\mathbf{E}_{2} - \mathbf{E}_{1}) &= 0 \\
-\hat{n} \times \mathbf{H}_{1} &= \hat{n} \times \mathbf{H}_{2} & \hat{n} \times (\mathbf{H}_{2}-\mathbf{H}_{1}) &= 0 \\
-\end{align}
-$$
-
-$\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/Flächenvektor.md) der Grenzfläche.
-
-> [!info] Interpretation
-> - Die Feldkomponenten von $\mathbf{D}$ und $\mathbf{B}$ **normal** zur Grenzfläche (in Richtung von $\hat{n}$) sind gleich, also kontinuierlich am übergang.
-> - Die Feldkomponenten von $\mathbf{E}$ und $\mathbf{B}$ **tangential** zur Grenzfläche (Normal zu $\hat{n}$) sind gleich, also kontinuierlich am übergang.
-
-Ein sprung könnte nur dann entstehen wenn an den Grenzflächen ein Strom fließt. Ein [dielektrisches Material](Dielektrikum.md) besitzt jedoch keinen Leitwert, weshalb der Strom immer 0 ist.
-
-
-### Schräger Einfall
-
-- [Snelliussches Brechungsgesetz](../Physik/Feldtheorie/Snelliussches%20Brechungsgesetz.md)
-
-## Felder an verlustbehafteten Grenzflächen
-
-> [!info] Es gilt: $\tan\delta \neq 0 \impliedby \epsilon  \in \mathbb{C}$ bzw. $\sigma \neq0$
+![invert_dark|500](../_assets/excalidraw/materialgesetze%202026-01-17%2001.30.39.excalidraw.svg)
+%%[🖋 edit in excalidraw](../_assets/excalidraw/materialgesetze%202026-01-17%2001.30.39.excalidraw.md)%%
 
 $$
 \begin{align}
-\hat{n} \cdot (\mathbf{D}_{2}-\mathbf{D}_{1}) &= 0 \\
-\hat{n} \cdot (\mathbf{B}_{2}-\mathbf{B}_{1}) &=0 \\
-\hat{n} \times (\mathbf{E}_{2} - \mathbf{E}_{1}) &= -\mathbf{M}_s \\
-\hat{n} \times (\mathbf{H}_{2}-\mathbf{H}_{1}) &= \mathbf{J}_s \\
+\hat{n} \cdot \mathbf{d}_{1} &= \hat{n} \cdot \mathbf{d}_{2} & \hat{n} \cdot (\mathbf{d}_{2}-\mathbf{d}_{1}) &= 0 \\
+\hat{n} \cdot \mathbf{b}_{1} &= \hat{n} \cdot \mathbf{b}_{2} & \hat{n} \cdot (\mathbf{b}_{2}-\mathbf{b}_{1}) &=0\\
+\hat{n} \times \mathbf{e}_{1} &= \hat{n} \times \mathbf{e}_{2} & \hat{n} \times (\mathbf{e}_{2} - \mathbf{e}_{1}) &= 0 \\
+\hat{n} \times \mathbf{h}_{1} &= \hat{n} \times \mathbf{h}_{2} & \hat{n} \times (\mathbf{h}_{2}-\mathbf{h}_{1}) &= 0 \\
 \end{align}
 $$
 
-## Felder an gut leitenden Grenzflächen
+$\hat{n}$ ist der [flächennormalvektor](../mathematik/analysis/vektoranalysis/flächenvektor.md) der grenzfläche.
 
-> [!info] Es gilt: $\tan\delta \gg 0 \impliedby \sigma \gg\omega\epsilon$ bzw. $\epsilon''\gg \epsilon'$
+> [!info] interpretation
+> - die feldkomponenten von $\mathbf{d}$ und $\mathbf{b}$ **normal** zur grenzfläche (in richtung von $\hat{n}$) sind gleich, also kontinuierlich am übergang.
+> - die feldkomponenten von $\mathbf{e}$ und $\mathbf{b}$ **tangential** zur grenzfläche (normal zu $\hat{n}$) sind gleich, also kontinuierlich am übergang.
 
-[Skineffekt](../HF-Technik/Skineffekt.md)
+ein sprung könnte nur dann entstehen wenn an den grenzflächen ein strom fließt. ein [dielektrisches material](dielektrikum.md) besitzt jedoch keinen leitwert, weshalb der strom immer 0 ist.
 
-## Felder an perfekt leitenden Grenzflächen
 
-> [!info] Es gilt: $\tan\delta \to\infty \impliedby \sigma \to \infty$
+### schräger einfall
 
-### Qualitative Untersuchung
+- [snelliussches brechungsgesetz](../physik/feldtheorie/snelliussches%20brechungsgesetz.md)
 
-Im Falle eines Übergangs zu einem perfekt leitfähigen Materials ($\sigma \to \infty$) müssen alle Feldkomoponenten  innerhalb der leitenden Region null sein. 
+## felder an verlustbehafteten grenzflächen
+
+> [!info] es gilt: $\tan\delta \neq 0 \impliedby \epsilon  \in \mathbb{c}$ bzw. $\sigma \neq0$
 
 $$
 \begin{align}
-\hat{n} \cdot \mathbf{D} &= \rho_{s} \\
-\hat{n} \cdot \mathbf{B} &= 0 \\
-\hat{n} \times \mathbf{E} &= 0 \\
-\hat{n} \times \mathbf{H} &= \mathbf{J}_{s}
+\hat{n} \cdot (\mathbf{d}_{2}-\mathbf{d}_{1}) &= 0 \\
+\hat{n} \cdot (\mathbf{b}_{2}-\mathbf{b}_{1}) &=0 \\
+\hat{n} \times (\mathbf{e}_{2} - \mathbf{e}_{1}) &= -\mathbf{m}_s \\
+\hat{n} \times (\mathbf{h}_{2}-\mathbf{h}_{1}) &= \mathbf{j}_s \\
 \end{align}
 $$
 
-$\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/Flächenvektor.md) der Grenzfläche.
+## felder an gut leitenden grenzflächen
 
-> [!info] Die perfekt leitfähige Grenzfläche agiert als eine "elektrische Wand"
+> [!info] es gilt: $\tan\delta \gg 0 \impliedby \sigma \gg\omega\epsilon$ bzw. $\epsilon''\gg \epsilon'$
+
+[skineffekt](../hf-technik/skineffekt.md)
+
+## felder an perfekt leitenden grenzflächen
+
+> [!info] es gilt: $\tan\delta \to\infty \impliedby \sigma \to \infty$
+
+### qualitative untersuchung
+
+im falle eines übergangs zu einem perfekt leitfähigen materials ($\sigma \to \infty$) müssen alle feldkomoponenten  innerhalb der leitenden region null sein. 
+
+$$
+\begin{align}
+\hat{n} \cdot \mathbf{d} &= \rho_{s} \\
+\hat{n} \cdot \mathbf{b} &= 0 \\
+\hat{n} \times \mathbf{e} &= 0 \\
+\hat{n} \times \mathbf{h} &= \mathbf{j}_{s}
+\end{align}
+$$
+
+$\hat{n}$ ist der [flächennormalvektor](../mathematik/analysis/vektoranalysis/flächenvektor.md) der grenzfläche.
+
+> [!info] die perfekt leitfähige grenzfläche agiert als eine "elektrische wand"
 > 
-> Die Grenzfläche liegt überall auf dem gleichen [elektrischen Potenzial](elektrische%20Spannung.md). Die **tangential** komponenten des $\mathbf{E}$-Feldes sind daher "Kurzgeschlossen".
+> die grenzfläche liegt überall auf dem gleichen [elektrischen potenzial](elektrische%20spannung.md). die **tangential** komponenten des $\mathbf{e}$-feldes sind daher "kurzgeschlossen".
 
-Normal zur fläche kann sehr wohl ein Elektrisches Feld existieren. Als vergleich der Plattenkondensator.
+normal zur fläche kann sehr wohl ein elektrisches feld existieren. als vergleich der plattenkondensator.

@@ -41,10 +41,9 @@ Wenn entweder $\mathbf{E}$ oder $\mathbf{H}$ bekannt ist, kann der andere Feldve
 
 Für Verscheidene Medien lässt sich die [Fortpflanzungskonstante](../Feldtheorie/Wellenzahl.md)  $\gamma = j\omega \sqrt{ \mu\epsilon (1-j\tan\delta) }$ vereinfachen. Der allgemeinste fall ist der für verlustbehaftete Medien.
 
-|                                         |                                  Verlustbehaftet <br> $\tan\delta \neq 0$                                  |                          Verlustlos<br> $\tan\delta = 0$                           |   Guter Leiter<br> $\tan\delta \gg 0$| Perfekter Leiter<br> $\tan\delta \to \infty$    |
-| --------------------------------------- | :--------------------------------------------------------------------------------: | :-----------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :---------------: |
-| Komplexe Ausbreitungskonstante $\gamma$ | $\gamma = j\omega\sqrt{ \epsilon\mu }\sqrt{ 1 - j\dfrac{\sigma}{\omega\epsilon} }$ |            $\gamma=jk=j\omega\sqrt{ \epsilon\mu }$            |                      $\omega=(1+j)\sqrt{ \dfrac{\omega\mu\sigma}{2} }$                       | $\gamma\to\infty$ |
-| Wellenwiderstand $\eta$                 |           $\eta = \sqrt{ \dfrac{j\omega\mu}{\sigma + j\omega\epsilon} }$           | $\eta=\dfrac{\omega\mu}{k}=\sqrt{  \dfrac{\omega}{\epsilon}}$ | $\eta = (1+j)\sqrt{  \dfrac{\omega\mu}{2\sigma}}=(1+j) \dfrac{1}{\sigma\delta_{\mathrm{S}}}$ |    $\eta\to 0$    |
+|                                         |                      Verlustbehaftet <br> $\tan\delta \neq 0$                      |                Verlustlos<br> $\tan\delta = 0$                |                             Guter Leiter<br> $\tan\delta \gg 0$                              | Perfekter Leiter<br> $\tan\delta \to \infty$ |
+| --------------------------------------- | :--------------------------------------------------------------------------------: | :-----------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :------------------------------------------: |
+| Wellenwiderstand $\eta$                 |           $\eta = \sqrt{ \dfrac{j\omega\mu}{\sigma + j\omega\epsilon} }$           | $\eta=\dfrac{\omega\mu}{k}=\sqrt{  \dfrac{\omega}{\epsilon}}$ | $\eta = (1+j)\sqrt{  \dfrac{\omega\mu}{2\sigma}}=(1+j) \dfrac{1}{\sigma\delta_{\mathrm{S}}}$ |                 $\eta\to 0$                  |
  
 Wobei $\delta_{S}$ die [Eindringtiefe](../../HF-Technik/Skineffekt.md) ist.
 
