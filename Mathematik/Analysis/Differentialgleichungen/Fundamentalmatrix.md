@@ -70,7 +70,7 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 > 
 > ### LTI-Systeme
 > 
-> > Ist das System auch zeitinvariant (konstanter Koeffizient), gilt *zusätzlich*
+> > [!question] Ist das System auch **zeitinvariant** (= konstanter Koeffizient), gilt *zusätzlich*
 > 
 > 3. Eine Zeitliche Verschiebung entspricht einer Entsprechenden Transformation.
 > $$
