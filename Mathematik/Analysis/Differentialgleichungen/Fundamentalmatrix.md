@@ -57,14 +57,40 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 
 > [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
 > 
-> |     | **Allgemeine Systeme** |                                                                                      |
-> | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-> | 1.  | $\mathbf{\dot{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})$                                                                                          | Das Fundamentalsystem löst das homogene AWP                                          |
-> | 2.  | $\mathbf{\Phi}(t_{0},t_{0}) = \mathbf{I}$                                                                                                                | Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix           |
-> |     | **LTI-Systeme**                                                                                                                                          | *Ist das System auch zeitinvariant (konstanter Koeffizient), gilt zusätzlich*        |
-> | 3.  | $\mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)$                                                                                            | Eine Zeitliche Verschiebung entspricht einer Entsprechenden Transformation.          |
-> | 4.  | $\mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)$<br>und falls $t_{0}=0$, dann $\mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)$ | Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt |
-> | 5.  |   $\det\mathbf{\Phi}\neq 0$                                                                                                                                                       | Die Transitionsmatrix ist immer [regulär](../../Algebra/Reguläre%20Matrizen.md)         |
+> ### Lineare Systeme
+> 
+> 1. Das Fundamentalsystem löst das homogene AWP
+> $$
+> \mathbf{\dot{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})
+> $$
+> 
+> 2. Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix
+> $$
+> \mathbf{\Phi}(t_{0},t_{0}) = \mathbf{I}
+> $$ 
+> 
+> ### LTI-Systeme
+> 
+> Ist das System auch zeitinvariant (konstanter Koeffizient), gilt zusätzlich
+> 
+> 3. Eine Zeitliche Verschiebung entspricht einer Entsprechenden Transformation.
+> $$
+> \mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)
+> $$
+> 
+> 4. Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
+> $$
+> \mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)
+> $$
+> und falls $t_{0}=0$, dann 
+> $$
+> \mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)
+> $$
+> 
+> 5. Die Transitionsmatrix ist immer [regulär](../../Algebra/Reguläre%20Matrizen.md)
+> $$
+> \det\mathbf{\Phi}\neq 0
+> $$
 
 Der Matrizant ist äquivalent zur Übertragungsmatrix der Fehlerfortpflanzung, da hier
 
