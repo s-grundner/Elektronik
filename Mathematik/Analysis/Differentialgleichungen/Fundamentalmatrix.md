@@ -63,7 +63,6 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 > $$
 > \mathbf{\dot{\Phi}}(t,t_{0})=\mathbf{A}\mathbf{\Phi}(t,t_{0})
 > $$
-> 
 > 2. Die Transitionsmatrix am Anfangswert des Intervalls ist die Einheitsmatrix
 > $$
 > \mathbf{\Phi}(t_{0},t_{0}) = \mathbf{I}
@@ -77,7 +76,6 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 > $$
 > \mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)
 > $$
-> 
 > 4. Für die Inverse gilt, dass man dem Fluss der Lösung in die umgekehrte Richtung Folgt
 > $$
 > \mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)
@@ -86,7 +84,6 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 > $$
 > \mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)
 > $$
-> 
 > 5. Die Transitionsmatrix ist immer [regulär](../../Algebra/Reguläre%20Matrizen.md)
 > $$
 > \det\mathbf{\Phi}\neq 0
