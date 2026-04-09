@@ -22,22 +22,26 @@ title: Partielle Ableitung
 ---
  
 
-# Partielle [Ableitung](Differenzialrechnung.md)
+# Partielle Ableitung
+
+> [!question] [Ableitung](Differenzialrechnung.md)
+
+---
 
 Für Funktionen mit mehreren Argumenten benötigt man einen zusätzlichen Ableitungsbegriff: Die *Partielle Abeitung*
 
 Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable an, wobei die anderen Variablen festgehalten werden. Sind die Variablen die $x$-, $y$ - und $z$-Koordinaten des $\mathbb{R}^3$, so gibt die partielle Ableitung nach diesen die jeweilige Änderung in dieser Dimension des Raumes an.
 
-> [!def] **D1 - PART)** Sei $A \subset \mathbb{R}^n$ offen.
-> Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$.
+> [!def] **D1 - PART)** Sei $A \subset \mathbb{R}^n$ offen. Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$ und $j \in\{1, \ldots, n\}$.
+> 
 > $f$ heißt in $x$ partiell nach $x_j$ differenzierbar, wenn folgender [Grenzwert](Kurvendiskussion/Grenzwert.md) existiert:
 > 
 > $$
-> \lim _{t \rightarrow 0} \frac{f\left(x_1, \ldots, x_{j-1}, {\color{orange}x_j+t}, x_{j+1}, \ldots, x_n\right)-f(\mathbf{x})}{t} =: \frac{\partial f}{\partial x_j}(\mathbf{x})
+> \frac{\partial f}{\partial x_j}(\mathbf{x}) := \lim _{t \rightarrow 0} \frac{f\left(x_1, \ldots, x_{j-1}, {\color{orange}x_j+t}, x_{j+1}, \ldots, x_n\right)-f(\mathbf{x})}{t}
 > $$
 > 
-> Dieser Grenzwert heißt dann partielle [Ableitung](Differenzialrechnung.md) von $f$ nach $x_j$ (auch bezeichnet mit $f_{x_j}(x)$).
-> Falls in $x$ alle partiellen Ableitungen existieren, so heißt $f$ partiell differenzierbar in $x$.
+> - Dieser Grenzwert heißt dann partielle [Ableitung](Differenzialrechnung.md) von $f$ nach $x_j$ (auch bezeichnet mit $f_{x_j}(x)$).
+> - Falls in $x$ alle partiellen Ableitungen existieren, so heißt $f$ partiell differenzierbar in $x$.
 
 
 
@@ -53,7 +57,7 @@ Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable
 > [!info] **Korollar**. Sei $A \subset \mathbb{R}^n$ offen, $k \in \mathbb{N}, k \geq 2$ und $f \in C^k(A)$. 
 > Dann existieren alle möglichen partiellen Ableitungen von $f$ bis zur $k$-ten Ordnung (mit beliebiger Differentiationsreihenfolge). Je zwei Ableitungen derselben Ordnung, bei denen nach denselben Variablen gleich oft differenziert wird, stimmen überein.
 
-> [!info] **Bemerkung**. Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte [Hesse-Matrix](Vektoranalysis/Gradient.md) symmetrisch.
+> [!info] **Bemerkung**. Falls $f \in C^3(A)$ ist, stimmen also etwa $\frac{\partial^3 f}{\partial x \partial y \partial x}$ und $\frac{\partial^3 f}{\partial x^2 \partial y}$ überein. Ist $f \in C^2(A)$, so ist die sogenannte [Hesse Matrix](Vektoranalysis/Hesse%20Matrix.md) symmetrisch.
 > 
 > $$
 > H_f(x):=\left(\begin{array}{ccc}
@@ -69,4 +73,4 @@ Die partielle Ableitung gibt also die Änderung der Funktion nach einer Variable
 
 # Tags
 
-- [[Vektoranalysis/Gradient]]
+- [Gradient](Vektoranalysis/Gradient.md)

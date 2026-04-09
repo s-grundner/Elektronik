@@ -16,8 +16,6 @@ professor:
 if(typ == "VL" || typ == "KV") {
 	tR += "release: false\n";
 	tR += `title: ${tp.file.title}\n`;
-} else if (typ == "UE") {
-	tR += "due:\n";
 }
 -%>
 ---

@@ -10,8 +10,21 @@ title: Linearkombination
 # Kombination
 
 Eine *Kombination* oder *ungeordnete Stichprobe* ist in der [index](index.md) eine Auswahl von Objekten aus einer gegebenen [Ereignisraum](Ereignisraum.md) …
+
 - … die im Gegensatz zur [Permutation](Permutation.md) nicht alle Objekte der [Ereignisraum](Ereignisraum.md) enthalten muss (Stichprobe)
 - … bei der im Gegensatz zur [Permutation](Permutation.md) und [Variation](Variation.md) die Reihenfolge unberücksichtigt bleibt
+
+
+> [!def] **D - BINK)** Binomialkoeffizient ^BINK
+>
+> Der Binomialkoeffizient berechnet die Anzahl der Möglichkeiten, $k$ Elemente aus einer Menge von $n$ Elementen *ohne Zurücklegen* und *ohne Reihenfolge* auszuwählen.
+> 
+> $$
+> \binom{n}{k} := \frac{n!}{k!(n-k)!}
+> $$
+> 
+> gesprochen: *$n$ über $k$* 
+
 
 ## Ohne Wiederholung
 

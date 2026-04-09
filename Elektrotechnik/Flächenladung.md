@@ -15,4 +15,5 @@ title: Flächenladung
 
 # Flächenladung
 
-![[../_assets/Excalidraw/Flächenladung 2024-03-18 22.06.01.excalidraw]]
+![invert_dark](../_assets/Excalidraw/Fl%C3%A4chenladung%202024-03-18%2022.06.01.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Fl%C3%A4chenladung%202024-03-18%2022.06.01.excalidraw.md)%%

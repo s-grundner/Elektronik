@@ -35,12 +35,14 @@ release: false
 
 > [!def] **D1 - DGL)** Allgemeine Form ^DGL
 > 
-> **Implizite Differenzialgleichung:** $F\left(t,x,x',\dots,x^{(n)}\right) = 0$
->  
-> **Explizite Differenzialgleichung:** $x^{(n)}= f\left(t,x,x',\dots,x^{(n-1)}\right)$
-> 
-> $\implies F\left(t,x,x',\dots,x^{(n)}\right) := x^{(n)}-f\left(t,x,x',\dots, x^{(n-1)}\right)$
-> 
+> - **Implizite Differenzialgleichung:** $F\left(t,x,x',\dots,x^{(n)}\right) = 0$
+> - **Explizite Differenzialgleichung:** $x^{(n)}= f\left(t,x,x',\dots,x^{(n-1)}\right)$
+
+Jede Implizite DGL kann in eine Explizite DGL überführt werden.
+ 
+$$
+F\left(t,x,x',\dots,x^{(n)}\right) := x^{(n)}-f\left(t,x,x',\dots, x^{(n-1)}\right)
+$$
 
 > [!hint] Jede DGL und DGL-System $n$-ter Ordnung lässt sich in ein [DGL-System](DGL-System.md) 1. Ordnung überführen
 > 

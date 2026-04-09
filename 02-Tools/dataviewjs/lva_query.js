@@ -20,7 +20,7 @@ async function generateTable(subjectFilter, subjectType) {
 }
 
 async function generateUETable(pgs) {
-  dv.table(["File", "Keywords 🗝️", "Files", "Abgabe 📅"], pgs
+  dv.table(["UE", "Keywords 🗝️", "Files", "Abgabe 📅"], pgs
     .filter(p => p.file.name.includes("UE"))
     .sort(p => {
       let match = p.file.name.match(/\d+/);

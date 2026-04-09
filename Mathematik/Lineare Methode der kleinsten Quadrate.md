@@ -173,6 +173,8 @@ Die Design-Matrix besteht aus $N$ Zeilenvektoren von funktionen $(h_{k}[n])_{k=0
 
 ### Kostenfunktion und Lösung
 
+Als Kostenfunktion wird die Summe der Fehlerquadrate verwendet.
+
 - Mit den Messungen $\mathbf{x}$ ist die Summe der Fehlerquadrate als Kostenfunktion:
 $$
 J(\boldsymbol{\theta})=\sum_{n=0}^{N-1}(x[n]-y[n ; \boldsymbol{\theta}])^2=\sum_{n=0}^{N-1} e^2[n]=\mathbf{e}^T \mathbf{e}=(\mathbf{x}-\mathbf{H} \boldsymbol{\theta})^T(\mathbf{x}-\mathbf{H} \boldsymbol{\theta})

@@ -1,3 +1,4 @@
+---
 <%*
 let nr = await tp.system.prompt("Übungsnummer","",true)
 nr = nr.toString().padStart(2, '0')
@@ -9,6 +10,9 @@ let mainpage = tp.user.get_lva().note_url(lva, type)
 let next = (parseInt(nr) - 1).toString().padStart(2, '0')
 let prev = (parseInt(nr) + 1).toString().padStart(2, '0')
 -%>
+due:
+durationHours:
+---
 
 # UE<% nr %>
 

@@ -55,7 +55,7 @@ Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, d
 > 
 > Die Einseitige Laplace Transformation von $f$, kurz $\mathcal{L}\{f(t)\}(s)$
 
-$F(s)$ ist eine [holomorphe](../../Dictionary/Holomorph.md) Funktion. Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen: 
+$F(s)$ ist eine [holomorphe](../../Mathematik/Analysis/Complex%20Analysis/Holomorphe%20Funktionen.md) Funktion. Die Laplacetransformation ist im Sinne des Uneigentliche Integrals zu verstehen: 
 
 $$
 \lim_{ x \to \infty } \int_{0}^{x}f(t)e^{-st}\mathrm{~d}t

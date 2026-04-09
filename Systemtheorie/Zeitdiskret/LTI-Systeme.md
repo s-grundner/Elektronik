@@ -24,6 +24,8 @@ title: Diskrete Systeme
 #todo
 ## Differenzengleichung
 
+> [!question] [Differenzengleichung](../../Mathematik/Analysis/Numerische%20Verfahren/Differenzengleichung.md)
+
 ## Übertragungsfunktion
 
 > [!question] [Übertragungsfunktion](Übertragungsfunktion.md)

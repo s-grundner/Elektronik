@@ -73,5 +73,3 @@ e^{ \lambda_{1} } & 0 & 0 \\
 \end{pmatrix}
 $$
 Durch das hineinziehen der Summe in die Matrix, erhalten wir eine Diagonalmatrix mit den Exponentialfunktionen der Diagonalelemente. 
-
-Dieser Sonderfall

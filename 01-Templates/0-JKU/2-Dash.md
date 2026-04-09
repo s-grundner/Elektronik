@@ -1,3 +1,4 @@
+---
 <%*
 let sem = await tp.user.get_lva().sug_sem(tp);
 let lva = await tp.user.get_lva().sug_lva(tp, sem);
@@ -5,7 +6,6 @@ let typ = await tp.user.get_lva().sug_type(tp);
 let ects = await tp.system.prompt("ECTS", "");
 let category = await tp.user.get_lva().sug_category(tp);
 -%>
----
 tags:
   - <% tp.user.get_lva().sem_to_program(sem) %>
 subject:
