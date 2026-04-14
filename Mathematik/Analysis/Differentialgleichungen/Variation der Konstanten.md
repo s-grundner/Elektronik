@@ -69,9 +69,20 @@ $$x\left(t ; t_0, x_0\right)=X(t)\left[X\left(t_0\right)^{-1} x_0+\int_{t_0}^t X
 oder häufiger mit Hilfe der [Transitionsmatrix](Differentialgleichungen/Fundamentalmatrix.md#^TRSM) $\mathbf{\Phi}$ durch
 
 > [!satz] **S1 - VARK)** Variation der Konstanten ^VARK
+> 
 > $$
 > x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t  \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right]
 > $$
+
+bzw. für $t_{0}=0$ ist das System affin linear
+
+> [!satz] **S2 - VARK-LTI)** Variation der Konstanten ^VARK-LTI
+> 
+> $$
+> x\left(t ; x_0\right)=\mathbf{\Phi}(t)x_{0}+\int_{0}^t \mathbf{\Phi}(t-\tau) b(\tau) d \tau
+> $$
+
+Die Lösung des Systems hat den charakter eines [Faltungsintegrals](../../../Systemtheorie/Zeitkontinuierlich/Faltung.md)
 
 ## Spezialfall: System der Dimension 1
 

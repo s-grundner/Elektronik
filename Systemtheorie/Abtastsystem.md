@@ -26,7 +26,7 @@ title: Abtastung
 
 Ein idealer [A/D–Wandler](../Digital-Design/ADC.md) (Abtaster) erzeugt aus einem Zeitsignal eine Folge von Werten, die zu äquidistanten Zeitpunkten $kT_{a}, k \in \mathbb{Z}$ dem Zeitsignal entnommen werden. $T_{a}$ ist dabei die *Abtastperiode* oder *Abtastzeit*.
 
-> [!def] **D)** Ideale Abtastung 
+> [!def] **D - ABTA)** Ideale Abtastung 
 > 
 > $$
 > \mathbf{x}[k] := \mathbf{x}(kT_{s})
@@ -41,7 +41,7 @@ Ist eine Zeitkontinuierliches System gegeben, muss zuerst die [Fundamentallösun
 
 Ein idealer [D/A–Wandler](../Digital-Design/DAC.md) (Halteglied) erzeugt aus einer Zahlenfolge eine Treppenfunktion.
 
-> [!def] **D)** 
+> [!def] **D - HALT)** ideales Halteglied
 > 
 > $$
 > y(t) = u_{k}, \quad \text{für}\quad kT_{a} \leq t< (k+1)T_{a}
@@ -51,15 +51,24 @@ Ein idealer [D/A–Wandler](../Digital-Design/DAC.md) (Halteglied) erzeugt aus e
 
 ## Abtastsystem
 
+> [!important] Schnittstelle zwischen [zeitkontinuierlicher](Zeitkontinuierlich/LTI-Zustandsraum.md) und [zeitdiskreter](Zeitdiskret/LTI-Zustandsraum.md) **LTI-Zustandsraum**
+
 Zusammenhang der Eigenwerte: Sind $s_{i}$ die Eigenwerte des kontinuierlichen System und die $z_{i}$ die Eigenwerte des zugehörigen Abgtastsystem mit der Abtastzeit $T_{a}$, gilt der zusammenhang
 
 $$ z_{i} = e^{ s_{i} T_{a} } $$
 
+### Linearisierung von Abtastsysteme
+
+Es gibt 2. Möglichkeiten:
+
+- Schwer: Erst kontinuierliches system abtasten, dann zeitdiskretes System linearisieren
+- Einfach: Erst kontinuierliches system linearisieren, dann zeitdiskretes System abtasten (ist meistens möglich aber nicht immer)
+
+> [!satz] **S)** 
 
 
-### Abtastung nicht linearer Systeme
 
-### Abtastung LTI-Systeme
+
 
 ## Matlab
 

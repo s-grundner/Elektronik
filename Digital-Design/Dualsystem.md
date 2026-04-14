@@ -91,7 +91,6 @@ Das $r$-Komplement des Dualsystems ist das **2er Komplement**, $r=2$.
 Das 2er Komplement ist schwieriger zu bilden aber leichter zu rechnen (einfach Übertrag entfernen).
 
 - Jede $1$ zu $0$, jede $0$ zur $1$
-- Jede $1$ zu $0$, jede $0$ zur $1$
 - und $+1$
 
 **Bildung des 2er Komplements**

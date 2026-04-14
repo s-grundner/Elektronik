@@ -7,18 +7,21 @@ aliases:
   - Erreichbarer Unterraum
   - Gramsche Erreichbarkeitsmatrix
   - Stabilisierbarkeit
-keywords: 
+  - Reachability
+keywords:
 subject:
   - VL
   - Regelungstechnik
 semester: SS25
 created: 25. Mai 2025
-professor: 
+professor:
 release: false
 title: Erreichbarkeit
 ---
 
 # Erreichbarkeit von LTI-Systemen
+
+> [!question] [Regelungstechnik](../Regelungstechnik/index.md)
 
 :LiArrowBigRightDash: [Beobachtbarkeit](Beobachtbarkeit.md) 
 :LiRefreshCcw: [Erreichbarkeit Zeitdiskreter Systeme](../Zeitdiskret/Erreichbarkeit.md) 
@@ -26,7 +29,8 @@ title: Erreichbarkeit
 ---
 
 > [!def] **D1 - ERRE)** Erreichbarkeit eines zeitkontinuierlichen LTI-Systems ^ERRE
-> Man nennt das [zeitkontinuierliche LTI-System](LTI-Zustandsraum.md#^LTI-MIMO) vollständig erreichbar, wenn Ausgehend vom Anfangszustand $\mathbf{x}_{0}=\mathbf{0}$ jeder beliebige Zustand $\mathbf{x}(T_{e})$ innerhalb einer endlichen Zeit $T_{e}$ mit einer im intervall $0 \leq t \leq T_{e}$ stückweise stetigen Eingangsgröße $\mathbf{u}(t)$ erreicht werden kann.
+> 
+> Man nennt das [zeitkontinuierliche LTI-System](LTI-Zustandsraum.md#^LTI-MIMO) vollständig erreichbar, wenn Ausgehend vom Anfangszustand $\mathbf{x}_{0}=\mathbf{0}$ jeder beliebige Zustand $\mathbf{x}(T_{e})$ innerhalb einer endlichen Zeit $T_{e}$ mit einer im intervall $0 \leq t \leq T_{e}$ stückweise stetigen **Eingangsgröße** $\mathbf{u}(t)$ erreicht werden kann.
 
 Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegebenen Zeitpunkt $T_{e}$ alle Zustände erreicht werden können? Diese Definition kann mit der Systemmatrizen $\mathbf{A}$ und $\mathbf{B}$ geprüft werden.
 
@@ -43,21 +47,43 @@ Gibt es also einen Eingangsvektor $\mathbf{u}$, sodass alle Werte zu einem gegeb
 
 Das heißt für ein MIMO-System müssen alle bis auf genau $n$ Spalten linear abhängig sein, damit es gemäß [D1](#^ERRE) volständig erreichbar ist.
 
+Bzw es muss genau $n$ linear unabhängige **Spalten**.
+
 > [!satz]- **S2 - SISO)** Erreichbarkeitskriterium für $n$-dimensionale [SISO](LTI-Zustandsraum.md#^LTI-SISO)-Systeme. ^SISO
-> Das LTI-System ist vollständig erreichbar, wenn die Erreichbarkeits-Matrix $\mathbf{M}_{\mathcal{R}}$ den [Rang](../../Mathematik/Algebra/Rang%20einer%20Matrix.md) $n$ hat, d.h. [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md#^REGM) ist. 
-> $$\mathbf{M}_{\mathcal{R}} = \begin{bmatrix}
+> Das LTI-System ist vollständig erreichbar, wenn die Erreichbarkeits-Matrix $\mathbf{M}_{\mathcal{R}}$ den [Rang](../../Mathematik/Algebra/Rang%20einer%20Matrix.md) $n$ hat.
+> 
+> $$
+> \mathbf{M}_{\mathcal{R}} = \begin{bmatrix}
 > \mathbf{b} & \mathbf{Ab} & \mathbf{A}^{2}\mathbf{b} & \dots &  \mathbf{A}^{n-1}\mathbf{b}\\
-> \end{bmatrix}$$
+> \end{bmatrix}
+> $$
+> 
+> - In diesem Fall ist die Matrix $\mathbf{M}_{\mathcal{R}} \in \mathbb{R}^{n\times n}$ quadratisch.
+> 
 
 $\mathcal{R}$ steht für *reachable*. $\mathbf{M}_{\mathcal{R}}$ heißt auch *Erreichbarkeits- / Steuerbarkeitsmatrix* (Reachability- / Controllabilitymatrix)
 
+> [!hint] Man muss nur bis $n$ prüfen da $\forall k >n$ zeigen kann, dass alle weiteren Spalten auf jedenfall linear abhängig sind:
+> 
+> [Satz von Cayley Hamilton](../../Mathematik/Algebra/Satz%20von%20Cayley%20Hamilton.md)
+
 ## Erreichbarer Unterraum
+
+Schlägt der Test auf Erreichbarkeit fehl, lässt sich ermitteln in welchem Ausmaß das System mit dem Eingang nicht Erreichbar ist:
 
 > [!def] **D2)** Der *Erreichbare Unterraum* $\mathcal{R}$ ist gegeben durch ^ERRE-SUBSPACE
 > $$\mathcal{R} := \operatorname{im}(\mathbf{M}_{\mathcal{R}})$$
 >  Das [Bild](../../Mathematik/Algebra/Lineare%20Abbildungen.md#^BILD) von $\mathbf{\mathbf{M}}_{\mathcal{R}}$ sind alle linear unabhängigen **Spalten**
 
 Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\mathbf{x}_{0} = \mathbf{0}$ die in endlicher Zeit erreicht werden können. Das System ist also vollständig erreichbar wie in [D1](#^ERRE) wenn $\dim\mathbf{M}_{\mathcal{R}} = \dim\mathcal{R} =n$ 
+
+## Gramsche Erreichbarkeitsmatri
+
+ Für den Erreichbaren Teil eines system, ist man daran interessiert mit welchen **spezifischen EIngängen** $\mathbf{u}$ man das System erreichen kann.
+
+$$
+\mathbf{u}(t) = \mathbf{B}^T \left( e^{ \mathbf{A}(T_{e}-t) } \right)^T \mathbf{W}^{-1}_{\mathcal{R}}\bar{\mathbf{x}}
+$$
 
 ## Kalman-Zerlegung bezüglich der Erreichbarkeit
 

@@ -54,6 +54,7 @@ Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Vektorraum.md) (also entweder $\
 > $$
 > 
 > - oft auch $\operatorname{im}(L)$ (von *image*)
+> - Das Bild sind die Menge aller linear unabhängigen Spalten der linearen Abbildung (Matrix) $\mathbf{A}$
 > - Mit einer Linearkombination des Bildes, Lässt sich aus $X$ der gesamte Raum $Y$ erreichen.
 
 Die Dimension des Bild ist die Anzahl der Linear Unabhängigen Spalten

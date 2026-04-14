@@ -145,6 +145,8 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ### 3. MWG - Gaußsches Gesetz
 
+> [!quote] Auch *Satz vom Hüllenfluss*
+
 | **differentielle Form**                                                                                              | **Integralform**                                                                                                                                                |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Das $\mathbf{D}$-Feld ist ein Quellenfeld. Die Ladung (Ladungsdichte $\rho$) ist die Quelle des elektrischen Feldes. | Der (elektrische) Fluss durch die geschlossene Oberfläche $\partial V$ eines Volumens $V$ ist direkt proportional zu der elektrischen Ladung in seinem Inneren. |
@@ -195,6 +197,5 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 > - Damit wird die Kirchhoffsche [Maschenregel](Kirchhoffsche%20Regeln.md) begründet
 > 
 
-# Tags
 
 ![The 4 Maxwell Equations. Get the Deepest Intuition! - YouTube](https://www.youtube.com/watch?v=hJD8ywGrXks)

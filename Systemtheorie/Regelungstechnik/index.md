@@ -41,8 +41,12 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 ## Aufgaben eine Regelung
 
-- [Zustandsregler](../Zeitkontinuierlich/Zustandsregler.md)
-- [Zustandsbeobachter](../Zeitkontinuierlich/Zustandsbeobachter.md)
+![invert_dark|800](../../_assets/Pasted%20image%2020260414090402.png)
+
+Reglerstrukturen:
+
+- Zustandsregelung: **Zustandsraummethoden**, [Zustandsregler](../Zeitkontinuierlich/Zustandsregler.md), [Zustandsbeobachter](../Zeitkontinuierlich/Zustandsbeobachter.md)
+- Ausgangsregelung: Frequentbereichsmethoden, Übertragungsfunktionen
 
 > [!hint] Relevante eigenschaften des Zustandsraumes für die Regelung
 > - Erreichbar / Steuerbar

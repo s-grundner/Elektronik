@@ -17,7 +17,7 @@ title: Zeitdiskreter Zustandsraum
 
 > [!question] Zentraler Begriff der [Systemtheorie](../index.md)
 
-[Kontinuierliche Zustandsbeschreibung](../Zeitkontinuierlich/Zustandsgrößen.md) ***:LiArrowBigRightDash:*** 
+[Zustandsgrößen zeitkontinnuierlicher Systeme](../Zeitkontinuierlich/Zustandsgrößen.md) ***:LiArrowBigRightDash:*** 
 
 ---
 

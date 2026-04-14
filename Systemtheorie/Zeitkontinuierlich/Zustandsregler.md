@@ -18,6 +18,8 @@ title: Zustandsregler
 
 # Lineare Zustandsregelung
 
+> [!question] [Regelungstechnik](../Regelungstechnik/index.md)
+
 :LiRefreshCcw: [Zustandsbeobachter](Zustandsbeobachter.md)
 :LiArrowBigRightDash: [Erreichbarkeit](Erreichbarkeit.md)
 

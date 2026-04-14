@@ -17,6 +17,8 @@ title: Beobachtbarkeit
 
 # Beobachtbarkeit von LTI-Systemen
 
+> [!question] [Regelungstechnik](../Regelungstechnik/index.md)
+
 :LiArrowBigRightDash: [Erreichbarkeit](../Zeitkontinuierlich/Erreichbarkeit.md) 
 :LiRefreshCcw: [Beobachtbarkeit Zeitdiskreter LTI-Systeme](../Zeitdiskret/Beobachtbarkeit.md)
 

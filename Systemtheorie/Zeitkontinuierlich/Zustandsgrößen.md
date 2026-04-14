@@ -25,7 +25,7 @@ title: Zustandsbeschreibung
 
 > [!question] Zentraler Begriff der [Systemtheorie](../index.md)
 
-[Zustandsgrößen](../Zeitdiskret/Zustandsgrößen.md) ***:LiArrowBigRightDash:***
+[Zustandsgrößen zeitdiskreter Systeme](../Zeitdiskret/Zustandsgrößen.md) ***:LiArrowBigRightDash:***
 
 ---
 

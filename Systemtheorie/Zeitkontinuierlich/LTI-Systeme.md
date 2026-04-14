@@ -113,7 +113,7 @@ Die Antwort (Ausgangssignal) auf den Impuls am Einang wird als **Impulsantwort**
 > $$
 > y(t) = \int_{-\infty}^{\infty}x(\uptau)h(t-\uptau)\mathrm{~d}\uptau
 > $$
-> Damit lässt sich das Ausgangssignal $y(t)$ für beliebeiges Eingangssignal $x(t)$ als [**Faltung**](Zeitkontinuierlich/Faltung.md) **mit der Impulsantwort** $h(t)$ beschreiben.
+> Damit lässt sich das Ausgangssignal $y(t)$ für beliebeiges Eingangssignal $x(t)$ als [Faltung](Zeitkontinuierlich/Faltung.md) **mit der Impulsantwort** $h(t)$ beschreiben.
 >
 > $$
 > y(t) = x(t) * h(t)

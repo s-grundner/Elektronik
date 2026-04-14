@@ -3,6 +3,7 @@ tags:
   - todo
   - Signale/Diskret
 aliases:
+  - Faltungsintegral
 subject:
   - Signale und Systeme
   - VL

@@ -20,7 +20,7 @@ title: Kontinuierliche Systeme
 
 ---
 
-Dynamische Systeme, die sich durch eine endliche Anzahl n von Zustandsgrößen charakterisieren lassen, werden auch als Systeme mit finitem Zustand[^1] der Ordnung $n$ bezeichnet.
+Dynamische Systeme, die sich durch eine endliche Anzahl $n$ von Zustandsgrößen charakterisieren lassen, werden auch als Systeme mit finitem Zustand[^1] der Ordnung $n$ bezeichnet.
 
 Im zeitkontinuierlichen Fall werden sie durch mathematische Modelle in Form von gewöhnlichen [DGL-Systemen](../../Mathematik/Analysis/Differentialgleichungen/DGL-System.md) und algebraischen Gleichungen beschrieben. 
 
@@ -39,12 +39,14 @@ $$
 
 Das System lautet schließlich mit allgemein Vektorwertigen größen:
 
-$$
-\begin{align}
-\mathbf{\dot{x}} &= \mathbf{f}(t,\mathbf{x},\mathbf{u}), &\mathbf{x}(t_{0}) = \mathbf{x}_{0} \tag{Zustandsgl.} \\
-\mathbf{y} &= \mathbf{g}(t,\mathbf{x},\mathbf{u}) \tag{Ausgangsgl.}
-\end{align}
-$$
+> [!def] **D - DYNS)** Modell eines Dynamischen Systems
+> 
+> $$
+> \begin{align}
+> \mathbf{\dot{x}} &= \mathbf{f}(t,\mathbf{x},\mathbf{u}), &\mathbf{x}(t_{0}) = \mathbf{x}_{0} \tag{Zustandsgl.} \\
+> \mathbf{y} &= \mathbf{g}(t,\mathbf{x},\mathbf{u}) \tag{Ausgangsgl.}
+> \end{align}
+> $$
 
 
 ![](Zustandsgrößen.md#^ZSGR)

@@ -15,6 +15,7 @@ title: Autonomes DGL-System
 
 # Autonomes DGL-System
 
+
 > [!def] **D)** Autonomes DGL-System
 > 
 > $$\dot{x}= \mathbf{A}\cdot x,\quad x(t_{0}) = x_{0}, \quad x \in\mathbb{R}^{m}, \quad \mathbf{A}\in \mathbb{R}^{m\times m}$$
