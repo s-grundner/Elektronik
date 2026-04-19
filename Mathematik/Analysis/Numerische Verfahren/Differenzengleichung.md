@@ -56,7 +56,7 @@ $$
 y[n] = \sum_{i=1}^{N} a_{i} y[n-i] + \sum_{i=0}^{N} b_{i}u[n-i]
 $$
 
-Zustandsbeschriebung
+Zustandsbeschriebung: Hier wird die DZGL in ein System 1. ORdnung übergrführt (Vergleiche [Lineare DGL-Systeme](../Differentialgleichungen/Lineare%20DGL-Systeme.md))
 
 $$
 \begin{pmatrix}

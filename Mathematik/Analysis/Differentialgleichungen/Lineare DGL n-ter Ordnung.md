@@ -26,20 +26,22 @@ title: Lineare DGL n-ter Ordnung
 Umwandeln in ein lineares [DGL-System 1. Ordnung](Lineare%20DGL-Systeme.md) ergibt die Koeffizientenmatrix $A(t)$ und den Störvektor $b(t)$
 
 $$
-A(t)=\left(\begin{array}{ccccc}
+\mathbf{A}(t)=\left(\begin{array}{ccccc}
 0 & 1 & 0 & \ldots & 0 \\
 0 & 0 & 1 & \ddots & 0 \\
 \vdots & \vdots & \ddots & \ddots & \vdots \\
 0 & 0 & 0 & \ldots & 1 \\
 a_0(t) & a_1(t) & a_2(t) & \ldots & a_{n-1}(t)
-\end{array}\right) \quad \text { und } \quad b(t)=\left(\begin{array}{c}
+\end{array}\right) \quad \text { und } \quad \mathbf{b}(t)=\left(\begin{array}{c}
 0 \\ \vdots \\ 0 \\ s(t)
 \end{array}\right)
 $$
 
-Das LGS hat dann die Form eines [inhomogenen DGL-Systems](Lineare%20DGL-Systeme.md#^AWP1-1) und es Lassen sich dementsprechende Lösungsverfahren anwenden.
+Das LGS hat dann die Form eines [lin. DGL-Systems 1. Ordnung](Lineare%20DGL-Systeme.md#^AWP1-1) und es Lassen sich dementsprechende Lösungsverfahren anwenden.
 
-$$x'(t)=A(t)x(t)+b(t)$$
+$$
+\mathbf{x}'(t)=\mathbf{A}(t)\mathbf{x}(t)+\mathbf{b}(t)
+$$
 
 ## Konstanter Koeffizient
 
@@ -48,7 +50,7 @@ $$x'(t)=A(t)x(t)+b(t)$$
 $$
 \begin{aligned}
 x(t) & =e^{\lambda t} \\
-x^{(3)}(t) & =\lambda^\lambda e^{\lambda t}
+x^{(3)}(t) & =\lambda^3 e^{\lambda t}
 \end{aligned}
 $$
 
@@ -89,7 +91,11 @@ $$
 Dann führt der unbestimmte Ansatz 
 
 $$
-x_0(t)=t^k\left[\left(A_0+A_1 t+\cdots+A_m t^m\right) \cos (\beta t)+\left(B_0+B_1^{-1}+\cdots+B_m t^m\right) \sin (\beta t)\right]
+\begin{align}
+x_0(t) = t^k\Big[ &\left(A_0+A_1 t+\cdots+A_m t^m\right) \cos (\beta t) \\
++&\left(B_0+B_1 t+\cdots+B_m t^m\right) \sin (\beta t)\Big] \\
+
+\end{align}
 $$
 
 Auf eine partikuläre Lösung, wenn $\alpha+i\beta$ eine $k$-Fache Nullstelle von $p(\lambda)$ ist

@@ -18,7 +18,10 @@ title: Lineare DGL-Systeme mit konstanten koeffizienten
 # Lineare [DGL-Systeme](DGL-System.md) mit konstantem Koeffizienten
 
 > [!success]  Diese Ansätze dienen zur Lösung von LTI-Systemen. Diese haben die Form:
-> $$\dot{x} = \mathbf{A}x(t) + \mathbf{B}u$$
+> 
+> $$
+> \dot{\mathbf{x}} = \mathbf{Ax}(t) + \mathbf{Bu}
+> $$
 
 
 $\mathbf{A}$ ist nicht von $t$ Abhängig.

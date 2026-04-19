@@ -111,9 +111,7 @@ $$
 > $$
 > Die Ordnung des Jordanblocks entspricht der algebraischen Vielfachheit des Eigenwertes $\lambda$
 
-Fall 1 gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen.
-
-Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Nebeneigenvektor**.
+Fall 1 gilt nur, wenn die geometrische Vielfachheit $m_{\lambda}$ für diese Eigenwerte gleich der Algebraischen Ist, da mann nur dann genügend Eigenvektoren hat um eine Basis zu erzeugen. Findet man nicht genügend EV muss mann weitere linear unabhängige Vektoren finden, genannt **Nebeneigenvektor**.
 
 Die zu $\mathbf{\tilde{A}} = \mathbf{J}$ zugehörige Transitionsmatrix lautet:
 

@@ -30,34 +30,20 @@ title: Fundamentalmatrix
 Die Fundamentalmatrix ist also die Sammlung aller homogenen Lösungen. Ist das DGL-System aus einer [DGL höherer Ordnung](Lineare%20DGL%20n-ter%20Ordnung.md) entsprungen, ist jede Zeile die Ableitung der Vorherigen.
 
 
-> [!satz] **S1 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
-> 
-> Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $\mathbf{X}(t)$ wie folgt angeben:
-> 
-> $$
-> \begin{gathered}
-> x(t;t_{0},x_{0})=\mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1}\cdot x_{0} =\mathbf{\Phi}(t,t_{0})\cdot x_{0} = \mathbf{\Phi}_{t}(x_{0})\\
-> \implies \mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1} =\mathbf{\Phi}(t,t_{0}) \\
-> \end{gathered}
-> $$
-
-
-Mittels dem [Gauß-Jordan](../../Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden. Die Lösung $\mathbf{\Phi}_{t}(x_{0})$ beschreibt den Fluss des Systems, also die zeitliche Änderung des Anfangswertes $x_{0}$ unter der Dynamik des Systems. Wenn man diesen Plottet erhält man einen Vektorplot der den Fluss der Lösung visualisiert
-
 ## Transitionsmatrix
 
-(Ältere bezeichnung *Matrizant* ist nicht mehr üblich)
+> [!quote] Ältere bezeichnung *Matrizant* ist nicht mehr üblich
 
-> [!def] **D2 - TRSM)** Transitionsmatrix ^TRSM
-> Gilt außerdem $\mathbf{X}\left(t_0\right)=\mathbf{I}_m$ (die [Einheitsmatrix](../../Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so heißt diese Fundamentalmatrix auch **Transitionsmatrix** oder **Hauptfundamentalmatrix**, bezeichnet mit $\mathbf{\Phi}$. 
+> [!def] **D2 - TRSM)** Transitionsmatrix $\mathbf{\Phi}$ ^TRSM
 > 
->  $$\mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})$$
+>  $$
+> \mathbf{X}(t)\cdot \mathbf{X}(t_{0})^{-1}=\mathbf{\Phi}(t, t_{0})
+> $$
 
-Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfangswert bereits eingesetzt zu haben. Bei LTI-Systemen wo $t_{0}=0$ ist ist dies of üblich
+Gilt $\mathbf{X}\left(t_0\right)=\mathbf{I}_m$ (die [Einheitsmatrix](../../Algebra/Einheitsmatrix.md)) für ein $t_0 \in I$, so ist die Fundamentalmatrix *gleich* der Transitionsmatrix.
 
-> [!satz] **S2)** Eigenschaften der **Transitionsmatrix** ^TRSM-Eigenschaften
-> 
-> ### Lineare Systeme
+
+> [!satz] **S2 - TRSM-LTI)** Eigenschaften der **Transitionsmatrix** für LTI-Systeme ^TRSM-LTI
 > 
 > 1. Das Fundamentalsystem löst das homogene AWP
 > $$
@@ -68,10 +54,6 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 > \mathbf{\Phi}(t_{0},t_{0}) = \mathbf{I}
 > $$ 
 > 
-> ### LTI-Systeme
-> 
-> > [!question] Ist das System auch **zeitinvariant** (= konstanter Koeffizient), gilt *zusätzlich*
-> 
 > 3. Eine Zeitliche Verschiebung entspricht einer Entsprechenden Transformation.
 > $$
 > \mathbf{\Phi}(t+\tau) = \mathbf{\Phi}(t)\mathbf{\Phi}(\tau)
@@ -80,23 +62,30 @@ Wenn man schreibt $\mathbf{\Phi}(t)$, dann hat man implizit angenommen den Anfan
 > $$
 > \mathbf{\Phi}(t,t_{0})^{-1} = \mathbf{\Phi}(-t,-t_{0}) = \mathbf{\Phi}(t_{0},t)
 > $$
-> und falls $t_{0}=0$, dann 
+> 	- und falls $t_{0}=0$, dann 
 > $$
 > \mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)
 > $$
-> 5. Die Transitionsmatrix ist immer [regulär](../../Algebra/Reguläre%20Matrizen.md)
+> 6. Die Transitionsmatrix ist immer [regulär](../../Algebra/Reguläre%20Matrizen.md)
 > $$
 > \det\mathbf{\Phi}\neq 0
 > $$
 
-Der Matrizant ist äquivalent zur Übertragungsmatrix der Fehlerfortpflanzung, da hier
+## Lösung von homogenen AWP
 
-$$
-\left(\frac{\partial x}{\partial x_0}\left(t ; t_0, x_0\right)\right)=\mathbf{\Phi}(t)
-$$
 
-gilt, stimmt die **Übertragungsmatrix** für die Fehlerfortpflanzung bei einem AWP mit dem Matrizanten überein.
+> [!satz] **S1 - Eindeutige Lösung)** Sei $x(t;t_{0};x_{0})$ die eindeutige Lösung von $x'=A(t)x,\quad x(t_{0}) = x_{0}$ ^FM-S1
+> 
+> Dann lässt sich die Lösung eines homogenen AWP mit Hilfe einer Fundamentalmatrix $\mathbf{X}(t)$ wie folgt angeben:
+> 
+> $$
+> \begin{gathered}
+> x(t;t_{0},x_{0})=\mathbf{X}(t) \mathbf{X}(t_{0})^{-1} x_{0} =\mathbf{\Phi}(t,t_{0}) x_{0} = \mathbf{\Phi}_{t}(x_{0})
+> \end{gathered}
+> $$
 
+
+Mittels dem [Gauß-Jordan](../../Algebra/Gauß-Jordan-Verfahren.md) Verfahren kann de inverse der Fundamentalmatrix gebildet werden. Die Lösung $\mathbf{\Phi}_{t}(x_{0})$ beschreibt den Fluss des Systems, also die zeitliche Änderung des Anfangswertes $x_{0}$ unter der Dynamik des Systems. Wenn man diesen Plottet erhält man einen Vektorplot der den Fluss der Lösung visualisiert. (= Phasenportrait).
 ## Lösung von Inhomogenen AWP
 
 Die Lösung des [inhomogenen AWP](Lineare%20DGL-Systeme.md#^AWP1-1) lässt sich mit der variation der Konstanten lösen

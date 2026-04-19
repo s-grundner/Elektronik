@@ -48,7 +48,7 @@ Die Darstellung des Zustandsraumes erfolgt je nach Art des Systems unterschiedli
 | [:LiArrowBigRightDash:](Zeitkontinuierlich/LTI-Systeme.md) LTI-Systeme                                   |                                              Diskrete LTI-Systeme [:LiArrowBigLeftDash:](Zeitdiskret/LTI-Systeme.md) |
 | [:LiArrowBigRightDash:](Zeitkontinuierlich/LTI-Zustandsraum.md) LTI-Zustandsraum                         |                                   Diskreter LTI-Zustandsraum [:LiArrowBigLeftDash:](Zeitdiskret/LTI-Zustandsraum.md) |
 
-## Regelung vom Dynamischen Systemen
+## Zustandsraum Methoden
 
 ![](Regelungstechnik/index.md#^INFO)
 

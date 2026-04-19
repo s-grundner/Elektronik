@@ -74,12 +74,12 @@ oder häufiger mit Hilfe der [Transitionsmatrix](Differentialgleichungen/Fundame
 > x\left(t ; t_0, x_0\right)=\mathbf{\Phi}(t)\left[x_0+\int_{t_0}^t  \mathbf{\Phi}(\tau)^{-1} b(\tau) d \tau\right]
 > $$
 
-bzw. für $t_{0}=0$ ist das System affin linear
+Für Konstante Koeffizienten $\mathbf{A}(t) = \mathbf{A}$ gilt wegen den Eigenschaften der Transitionsmatrix für LTI-Systeme ([TRSM-LTI 4](Fundamentalmatrix.md#^TRSM-Eigenschaften)):
 
 > [!satz] **S2 - VARK-LTI)** Variation der Konstanten ^VARK-LTI
 > 
 > $$
-> x\left(t ; x_0\right)=\mathbf{\Phi}(t)x_{0}+\int_{0}^t \mathbf{\Phi}(t-\tau) b(\tau) d \tau
+> \mathbf{x}\left(t ; \mathbf{x}_0\right)=\mathbf{\Phi}(t)x_{0}+\int_{t_{0}}^t \mathbf{\Phi}(t-\tau) \mathbf{b}(\tau) d \tau
 > $$
 
 Die Lösung des Systems hat den charakter eines [Faltungsintegrals](../../../Systemtheorie/Zeitkontinuierlich/Faltung.md)

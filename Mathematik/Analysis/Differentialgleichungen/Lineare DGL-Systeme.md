@@ -19,13 +19,19 @@ title: lineare DGL Systeme
 # Lineare DGL-Systeme
 
 > [!quote] Lineare DGL-Systeme 1. Ordnung
+> 
 >Eine Reihe von naturwissenschaftlichen Problemstellungen, wie z.B. [Feder](../../../Physik/Kinematik/Federkraft.md)-Dämpfer [Systeme](../../../Systemtheorie/Zeitkontinuierlich/Zustandsgrößen.md) der Mechanik oder Kirchhoffsche Netzwerke der Elektrotechnik, lassen sich durch explizite lineare DGL-Systeme erster Ordnung beschreiben.
+>
+> - [Lineare Systeme](../../../Systemtheorie/Zeitkontinuierlich/Lineare%20Systeme.md)
+>
 
-[Allgemeine DGL](index.md): $x' = f(t,x)$
+
 
 > [!def] **D1 - AWP 1.1)** Explizite form linearer DGL-Systeme 1. Ordnung ^AWP1-1
 > 
-> $$x^{\prime}=A(t) x+b(t) \tag{AWP 1.1}\quad t \in I\quad x \in\mathbb{R}^{m}$$
+> $$
+> \mathbf{x}'=\mathbf{A}(t) \mathbf{x}+\mathbf{b}(t) \tag{AWP 1.1}\quad t \in I\quad \mathbf{x} \in\mathbb{R}^{m}
+> $$
 
 Dabei ist $I$ das Lösungsintervall und $m$ die Dimension des Systems bzw die Anzahl an Differenzialgleichungen
 

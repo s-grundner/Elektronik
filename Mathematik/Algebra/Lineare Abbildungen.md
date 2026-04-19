@@ -57,12 +57,16 @@ Seien $X$ und $Y$ ein $\mathbb{K}$ [Vektorraum](Vektorraum.md) (also entweder $\
 > - Das Bild sind die Menge aller linear unabhängigen Spalten der linearen Abbildung (Matrix) $\mathbf{A}$
 > - Mit einer Linearkombination des Bildes, Lässt sich aus $X$ der gesamte Raum $Y$ erreichen.
 
-Die Dimension des Bild ist die Anzahl der Linear Unabhängigen Spalten
+Die Dimension des Bild ist die Anzahl der Linear Unabhängigen Spalten und wird als [Rang](Rang%20einer%20Matrix.md) der Abbilung $\mathbf{A}$ bezeichnet:
+
+$$
+\operatorname{rank} \mathbf{A} = \dim\operatorname{im}\mathbf{A}
+$$
 
 > [!def] **D2 - KERN)** Das System $\mathbf{Ax}$ das auf die Null abbildet (*Urbild der $0$*) ist der **Kern** (oder *Nullraum*) ^KERN
 > 
 >$$
->\mathcal{N}(\mathbf{A}):=\{\mathbf{x} \in X: \mathbf{Ax}=0\}=\mathbf{A}^{-1}(\{0\})
+>\mathcal{N}(\mathbf{A}):=\Big\{\mathbf{x} \in X: \mathbf{Ax}=0\Big\}=\mathbf{A}^{-1}(\{0\})
 >$$ 
 > 
 > - oft auch $\operatorname{ker}(\mathbf{A})$ (von *kernel*)

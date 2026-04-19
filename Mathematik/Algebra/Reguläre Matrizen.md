@@ -19,7 +19,7 @@ title: Reguläre Matrizen
 
 ---
 
-Gilt nur für quadratische Matrizen.
+Gilt nur für quadratische *Matrizen*.
 
 > [!def] **D - REGM)** Für eine reguläre $n\times n$ Matrix $\mathbf{M}$ sind folgende, äquivalente Aussagen wahr: ^REGM
 > - $\det \mathbf{M} \neq 0$
@@ -28,6 +28,8 @@ Gilt nur für quadratische Matrizen.
 > - $\dim(\mathbf{M}) = \dim(\operatorname{im}(\mathbf{M})) = \operatorname{rank}(\mathbf{M})=n$
 > - Es gibt keine linearen Abhängigkeiten innerhalb der Matrix
 > - Transformation bewirkt, dass der Raum die Gleiche Dimension wie der Eingangsvektor hat.
+
+Ansonsten ist die Matrix [singulär](Singuläre%20Matrix.md)
 
 ![300](../../_assets/spooder.png)
 

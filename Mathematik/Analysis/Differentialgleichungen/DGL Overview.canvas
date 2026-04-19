@@ -1,8 +1,5 @@
 {
 	"nodes":[
-		{"id":"22bbefbad0f52ad6","type":"text","text":"# DGL Overview","x":-180,"y":-300,"width":340,"height":80,"color":"6"},
-		{"id":"9df960f46a984f86","type":"text","text":"# RWP","x":44,"y":-117,"width":250,"height":60},
-		{"id":"115deb00231da954","type":"text","text":"# PDGL","x":531,"y":-117,"width":250,"height":60},
 		{"id":"5679e1117c35b638","type":"text","text":"**Inhomogen** $x'=A(t)x+b$","x":-764,"y":100,"width":344,"height":65},
 		{"id":"598af1bfabdb9725","type":"text","text":"**Homogen** $x'=A(t)x$","x":-764,"y":240,"width":344,"height":65},
 		{"id":"2debd1ffdf799fb1","type":"text","text":"Trennen Der Variablen","x":-1320,"y":245,"width":340,"height":60},

@@ -38,13 +38,18 @@ Rechner = Hierarchie von Ebenen
 
 ## Instructionset Architecture
 
+
 ISA: Instructionset Architecture
 
 ![invert_dark|766](../../_assets/asm_stack.png)
 
 Man Unterscheidet:
 
-| Architektur |                         | Beispiele                          |
-| ----------- | ----------------------- | ---------------------------------- |
-| CISC        | Complex Instruction Set | [x86](x86.md), AMD                 |
+| Architektur |                         | Beispiele                               |
+| ----------- | ----------------------- | --------------------------------------- |
+| CISC        | Complex Instruction Set | [x86](x86.md), AMD                      |
 | RISC        | Reduced Instruction set | [ARM](ARM.md), [index](RISC-V/index.md) |
+
+---
+
+![CPU Architecture Explained - YouTube](https://youtu.be/7xWaijDmKDY)
