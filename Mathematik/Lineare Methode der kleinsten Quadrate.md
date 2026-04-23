@@ -32,7 +32,13 @@ $$
 
 werden die Koeffizienten $\theta_{1}, \theta_{2}$ gesucht, damit eine optimale Gerade die durch die Messdaten verläuft entsteht.
 
-Zur optimierung werden nun die *Abweichungen / Anpassungsfehler* zur Modellfunktion $e = f(x_{i})-y_{i}$ berechnet, also
+Zur optimierung werden nun die *Abweichungen / Anpassungsfehler* zur Modellfunktion
+
+$$
+e = f(x_{i})-y_{i}
+$$
+
+berechnet, also
 
 $$
 \begin{align}
@@ -44,14 +50,13 @@ e_{n} &= \theta_{1} + \theta_{2}x_{n} -y_{n}
 $$
 Oft werden die Parameter $\theta_{1}$ und $\theta_{1}$ auch zu einem Parametervektor $\boldsymbol{\theta}=\begin{pmatrix}\theta_{1} \\ \theta_{2}\end{pmatrix}$ zusammengefasst
 
-> [!hint] $x$ und $y$ sind [Zufallsvariablen](Statistik/Zufallsvariable.md) bzw. Realisierungen eines [stochastischen Prozesses](Statistik/Stochastische%20Prozesse.md). Dabei ist $y$ eine *Abhängige Zufallsvariable* und zwar von der *unabhängigen Zufallsvariable*. $x$
+> [!hint] $x$ und $y$ sind [Zufallsvariablen](Statistik/Zufallsvariable.md) bzw. Realisierungen eines [stochastischen Prozesses](Statistik/Stochastische%20Prozesse.md). Dabei ist $y$ eine *Abhängige Zufallsvariable* und zwar von der *unabhängigen Zufallsvariable* $x$
+> 
 > Dabei ist es Hier das Ziel, diese Abhängigkeit, mit einer Modellfunktion optimal abzuschätzen.
-
-#todo 
 
 ## Vektorparameterfall
 
-Angenommen ein gemessenes Signal $\{ x[n] \}_{n=0}^{N-1}$ ist eine gestörte Version des unbekannten Signals $\{ s[n] \}_{n=0}^{N-1}$. Die realisierung dieser [stochastischen Prozesse](Statistik/Stochastische%20Prozesse.md) lassen sich als Vektor von Zufallsvariablen aufschreiben:
+Angenommen ein gemessenes Signal [$\{ x[n] \}_{n=0}^{N-1}$](Statistik/Stochastische%20Prozesse.md) ist eine gestörte Version des unbekannten Signals $\{ s[n] \}_{n=0}^{N-1}$. Die realisierung dieser [stochastischen Prozesse](Statistik/Stochastische%20Prozesse.md) lassen sich als Vektor von Zufallsvariablen aufschreiben:
 
 $$
 \mathbf{s} = \begin{pmatrix}
@@ -164,7 +169,7 @@ Die Design-Matrix besteht aus $N$ Zeilenvektoren von funktionen $(h_{k}[n])_{k=0
 > $$
 > \mathbf{H} = \begin{pmatrix}
 > 0 & 1 & 0 & 1 & \ldots & 0 & 1 \\
-> \sin(\omega_{0}) & \cos(\omega_{0}) & \sin(2\omega_{0}) & \cos(2\omega_{0}) & \ldots & \sin(P\omega_{0}) & \cos P(\omega_{0}) \\
+> \sin(\omega_{0}) & \cos(\omega_{0}) & \sin(2\omega_{0}) & \cos(2\omega_{0}) & \ldots & \sin(P\omega_{0}) & \cos (P\omega_{0}) \\
 > \sin(2\omega_{0}) & \cos(2\omega_{0}) & \sin(4\omega_{0}) & \cos(4\omega_{0}) & \ldots & \sin(2P\omega_{0}) & \cos (2P\omega_{0}) \\
 > \vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots  \\
 > \sin(l\omega_{0}) & \cos(l\omega_{0}) & \sin(2l\omega_{0}) & \cos(2l\omega_{0}) & \ldots & \sin(Pl\omega_{0}) & \cos (Pl\omega_{0}) \\

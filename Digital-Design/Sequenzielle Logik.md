@@ -21,3 +21,7 @@ release: false
 
 ![invert_dark|700](../_assets/Pasted%20image%2020250520163227.png)
 
+## Flip Flops: Schaltungen zum Speichern eines Bits
+
+- [RS-Flip Flop](RS-Flip%20Flop.md)
+- [D-Flip Flop](D-Flip%20Flop.md)

@@ -22,25 +22,38 @@ release: false
 
 # Grundgatter
 
-Logikgatter dienen zur Realiserung von funktionen [boolescher Algebra](../Mathematik/Algebra/Boolesche%20Algebra.md). Siehe [Ansteuerlogik](Ansteuerlogik.md)
+Logikgatter dienen zur Realiserung von Logischer Funktionen.
 
 ---
 
 $a$ und $b$ sind Eingänge und $y$ der Ausgang des jeweiligen Gatters.
 
-| AND    | $y=a\cdot b$                                                       |
+| Gatter | Ausdruck | 
 | ------ | ------------------------------------------------------------------ |
-| NAND   | $y=\overline{a\cdot b}$                                            |
+| AND    | $y=a\cdot b$                                                       |
+| NAND   | $y=\neg(a\cdot b)$                                            |
 | OR     | $y=a+b$                                                            |
-| NOR    | $y=\overline{a + b}$                                               |
+| NOR    | $y=\neg(a + b)$                                               |
 | Buffer | $y=a$                                                              |
-| NOT    | $y = \bar{a}$                                                      |
-| XOR    | $y = a\oplus b = (\bar{a}\cdot b) + (a \cdot \bar{b})$             |
-| XNOR   | $y = \overline{a\oplus b} = (\bar{a} \cdot \bar{b}) + (a \cdot b)$ |
+| NOT    | $y = \neg a$                                                      |
+| XOR    | $y = a\oplus b = (\neg a\cdot b) + (a \cdot \neg b)$             |
+| XNOR   | $y = \neg(a\oplus b) = (\neg a \cdot \neg b) + (a \cdot b)$ |
 
-## Wahrheitstabelle
+- $a, b, \neg a, \neg b, y$ sind [Logische Literale](Logische%20Literale.md) aus der [booleschen Algebra](../Mathematik/Algebra/Boolesche%20Algebra.md)
 
-## Schaltsymbole
+## AND
+
+### AND als Tor
+
+![invert_dark|400](../_assets/Pasted%20image%2020260415150808.png)
+
+Und-Gatter kann wie ein „Tor“ interpretiert werden
+
+- Ein Dateneingang
+- Ein Steuereingang (Enable)
+
+- Steuereingang=1: Dateneingang wird auf Ausgang durchgelassen
+- Steuereingang=0: Dateneingang wird nicht durchgelassen
 
  ---
 

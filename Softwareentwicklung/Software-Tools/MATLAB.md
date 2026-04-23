@@ -196,10 +196,12 @@ title('This is a time discrete sinewave')
 matlab -nosplash -nodesktop
 ```
 
+## MPM
 
-## Related
+Matlab Package Manager
 
-[MATLAB auf Arch Installieren](../../xPN/Blog/MATLAB%20auf%20Arch%20Installieren.md)
+
+
 
 ## Videos
 

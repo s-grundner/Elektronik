@@ -60,7 +60,7 @@ Diese Aussagen sind definiert durch folgende *Wahrheitstabelle*:
 
 Wie die Tabelle aus der obigen Definition zeigt, ist $A \vee B$ genau dann *wahr*, wenn wenigstens eine der beiden Aussagen $A,B$ *wahr* ist.
 
-> [!hint] [Ansteuerlogik](../../Digital-Design/Ansteuerlogik.md)
+> [!hint] [Logische Literale](../../Digital-Design/Logische%20Literale.md)
 > Die *Disjunktion* $\vee$ entspricht also dem nicht-ausschließenden (non-exclusive) **ODER**.
 
 ## Implikation
