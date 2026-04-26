@@ -28,11 +28,11 @@ Ziel ist es, die optimalen Koeffizienten für den Filter zu berechnen, sodass f�
 
 Erfüllt der Schätzer diese Aufgabe, wird er als *optimaler Schätzer* bezeichet.
 
-Begriff *Optimal / Optimum*
-
-- Optimaler Filter heißt nicht "bester" Filter, sondern ein Filter der sich nach der Gewichtung einer Kostenfunktion einstellt.
-- Ändern sich die Annahmen nach denen sich die Gewichtung der Kostenfunktion ergibt.
-- Die Annahmen ergeben sich nach den statistischen Eigenschaften des Eingangssignals und den Performance Kriterien.
+> [!important] Begriff *Optimal / Optimum*
+> 
+> - Optimaler Filter heißt **nicht** "bester" Filter, sondern ein Filter der sich nach der Gewichtung einer Kostenfunktion einstellt.
+> - Ändern sich die Annahmen nach denen sich die Gewichtung der Kostenfunktion ergibt.
+> - Die Annahmen ergeben sich nach den statistischen Eigenschaften des Eingangssignals und den Performance Kriterien.
 
 Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, dass die gewünschte Systemantwort sowie die Eingangssignale realisierungen von [Stochastische Prozesse](../../Mathematik/Statistik/Stochastische%20Prozesse.md) sind.
 
@@ -43,10 +43,33 @@ Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, 
 - [Rauschunterdrückung / -verminderung](Rauschunterdrückung.md)
 - [Signalprediction](Signalprediction.md)
 
-
 ## Filter Topologien
 
  > [!question] Filter Topologien bestimmen das Optimal-Kriterium an die Kostenfunktion
 > 
 > - [Wiener Filter](Wiener%20Filter.md): (*en. Minimum Mean Square Error - MMSE*)
 > - [Least Squares Filter](Least%20Squares%20Filter.md): (*en. Least-Squares - LS*)
+
+## Adaptive Filter
+
+Adaptive Filter prüfen kontinuierlich nach dem Optimum und aktualisieren die Filter parameter.
+
+![invert_dark](../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.md)%%
+
+## Block Adaptive Filter
+
+- Koeffizienten berechnung nur durch bekannte Ein und Ausgangs **Blöcke**
+- Länge der Blöcke bestimmt die Güte der Filterkoeffizienten
+
+> [!question] Methoden
+> [LS-Filter](Least%20Squares%20Filter.md) / [Wiener Filter](Wiener%20Filter.md), die in gewissen abständen neue Trainingsphasen durchlaufen.
+
+## Sample Adaptive Filter
+
+> [!question] [Sample Adaptive Filter](Sample%20Adaptive%20Filter.md)
+
+- Feedback der Samples, um Koeffizienten kontinuierlich anzupassen.
+- Eingang kann weiterhin mit zufallssignal beaufschlagt werden.
+- Einschwingvorgang der Filterkoeffizienten.
+

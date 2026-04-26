@@ -2,10 +2,14 @@
 tags: []
 aliases: []
 subject:
-  - dic
-created: 7th November 2022
+  - SE
+  - Bachelorarbeit
+created: 27th March 2026
 title: Gradient Descent
+semester: SS26
+professor:
 ---
+
 
 # Gradient Descent
 

@@ -17,8 +17,8 @@ function curr_sem_key() {
 	let d = new Date();
 	let m = d.getMonth();
 	let y = d.getFullYear() % 100;
-  let key = (m >= 7 || m <= 1) ? `WS${y - (m <= 2)}` : `SS${y}`;
-  console.log(key);
+    let key = (m >= 7 || m <= 1) ? `WS${y - (m <= 2)}` : `SS${y}`;
+    console.log(key);
 	return key;
 }
 
@@ -29,7 +29,7 @@ async function sug_category(tp) {
 }
 
 async function sug_type(tp) {
-    const suggestions = ["VL", "UE", "KV", "PR"];
+    const suggestions = ["VL", "UE", "KV", "PR", "SE"];
     let type = await tp.system.suggester(suggestions, suggestions, true, "LVA Type");
     return type;
 }

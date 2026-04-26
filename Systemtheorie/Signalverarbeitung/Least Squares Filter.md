@@ -95,3 +95,10 @@ $$
 \mathbf{w} &= (\mathbf{X}^{T}\mathbf{X})^{-1} \mathbf{X}^{T}\mathbf{y} \\
 \end{align}
 $$
+
+## Anwendungen
+
+- [Systemidentifikation](Systemidentifikation.md)
+- [Inverse Systemidentifikation](Inverse%20Systemidentifikation.md) (Equalization, Systemausgleich)
+- [Rauschunterdrückung / -verminderung](Rauschunterdrückung.md)
+- [Signalprediction](Signalprediction.md)
