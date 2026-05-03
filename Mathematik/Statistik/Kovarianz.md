@@ -3,6 +3,7 @@ tags:
 aliases:
   - Korrelationskoeffizient
   - Kovarianzmatrix
+  - Korrelationsmatrix
 keywords:
 subject:
   - KV
@@ -56,7 +57,7 @@ Der Korrelationskoeffizient $\operatorname{Corr}(X,Y)$ ist genau dann gleich $+1
 > [!satz] **S)** Sind die Zufallsvariablen **unabhängig**, dann gilt: ^UNCORRELATED
 > 
 > - $\operatorname{Cov}(X,Y)=0$  und $\operatorname{Corr}(X,Y) = 0$
-> - Achtung $\operatorname{Cor}(X,Y)=0$ alleine zeigt nicht unbedingt, dass die Zufallsvariablen unabhängig sind.
+> - Achtung $\operatorname{Corr}(X,Y)=0$ alleine zeigt nicht unbedingt, dass die Zufallsvariablen unabhängig sind.
 
 ## Allgemeiner Fall
 
@@ -87,7 +88,7 @@ Sind die Zufallsvariablen $Z_{1},Z_{2},\ldots,Z_{r}$ quadratisch integrierbar, n
 > [!def] **D - Kovarianzmatrix $\mathbf{C}$)**  der Zufallsvariablen $Z_{1}, Z_{2}, \ldots Z_{r}$
 > 
 > $$
-> \mathbf{C} := \big(\operatorname{Cov(Z_{i},Z_{k})}\big)_{i=1,k=1}^{r,r} \in \mathbb{R}^{r \times r}
+> \mathbf{C} := \big(\operatorname{Cov}(Z_{i},Z_{k})\big)_{i=1,k=1}^{r,r} \in \mathbb{R}^{r \times r}
 > $$
 
 Auf der Diagonalen sind jeweils die Varianzen.
@@ -95,7 +96,7 @@ Auf der Diagonalen sind jeweils die Varianzen.
 > [!def] **D - Korrelationsmatrix $\mathbf{R}$)** der Zufallsvariablen $Z_{1}, Z_{2}, \ldots Z_{r}$
 > 
 > $$
-> \mathbf{R} := \big(\operatorname{Corr(Z_{i},Z_{k})}\big)_{i=1,k=1}^{r,r} \in \mathbb{R}^{r \times r}
+> \mathbf{R} := \big(\operatorname{Corr}(Z_{i},Z_{k})\big)_{i=1,k=1}^{r,r} \in \mathbb{R}^{r \times r}
 > $$
 
 ## Eigenschaften und Rechenregeln
