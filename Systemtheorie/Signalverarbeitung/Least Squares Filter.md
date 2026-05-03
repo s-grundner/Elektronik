@@ -20,7 +20,7 @@ title: Least Square Filter
 
 Der LS-Filter ist ein Optimaler Filter, dessen Kriterium die **Minimierung der Summe der Fehlerquadrate** ist.
 
-![invert_dark|700](../../_assets/Pasted%20image%2020260325211008.png)
+![invert_dark|700](../../_assets/LS-Filter.png)
 
 LS-Filter wird dabei als FIR-Filter betrachtet.
 

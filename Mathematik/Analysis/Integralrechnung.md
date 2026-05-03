@@ -25,11 +25,11 @@ title: Integralrechnung
 - Integrieren von rationalen Polynomen $\to$ Anwendung der [Partialbruchzerlegung](../Algebra/Partialbruchzerlegung.md)
 
 > [!info]-  Bemerkung aus dem Skriptum
-> ![](../../_assets/{22125BB9-7A2F-4E52-B917-2AAB734F94BE}.png)
+> ![](../../_assets/notes/{22125BB9-7A2F-4E52-B917-2AAB734F94BE}.png)
 
 > [!example]- Beispiel
-> ![700](../../_assets/{6D49E5CF-85D6-4795-8682-52CF8B41ED90}.png)
-> ![|700](../../_assets/{6F9D05DC-946D-4881-A94B-8DBE6019B92A}.png)
+> ![700](../../_assets/notes/neubauer-partialbruchzerlegung.png)
+> ![|700](../../_assets/notes/{6F9D05DC-946D-4881-A94B-8DBE6019B92A}.png)
 
 ### Stammfunktion Vektorwertiger Funktionen
 

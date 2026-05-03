@@ -61,7 +61,7 @@ Sie konnten nachweisen, dass die von Fraunhofer beschriebenen schwarzen D-Linien
 Die beiden Chemiker entwickelten 1859 das erste spektralanalytische Verfahren.  
 Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente Rubidium und Cäsium.
 
-![450](../_assets/Pasted%20image%2020220825153403.png)
+![450](../_assets/Spectrografie.png)
 
 ## Absorption Und Emission
 
@@ -74,7 +74,7 @@ Mit Hilfe dieses Verfahrens entdeckten sie die bis dahin unbekannten Elemente Ru
 
 ### Spektren Typen
 
-![Pasted image 20220825153839](../_assets/Pasted%20image%2020220825153839.png)  
+![Pasted image 20220825153839](../_assets/Spektrogramm.png)  
 Kontinuierliches Spektrum: Enthält keine diskreten Linien (Banden), da es Licht aller Wellenlängen aufweist.
 
 Emissionsspektrum: Enthält diskrete Linien (daher auch Linien-spektrum) , welche durch den Elektronenübergang von angeregten Atomen in den Grundzustand entstehen.

@@ -21,11 +21,11 @@ title: FIR-Filter
 
 > [!def] **D - FIR)** Finite Impulse Response Filter ^FIR
 > 
-> ![invert_dark|700](../../_assets/Pasted%20image%2020260325210504.png)
+> ![invert_dark|700](../../_assets/FIR-Filter.png)
 > 
 > - $x[k]$ ... Eingangssignal
 > - $\hat{y}[k]$ ... Ausgangssignal
-> - $\{w_{i} \}_{i=0}^{p-1}$ ... Filterkoeffizienten
+> - $(w_{i})_{i=0}^{p-1}$ ... Filterkoeffizienten
 > - $p$ ... Länge des FIR Filters
 > 
 > Fasst man die letzten $p-1$ Werte des Eingangssignals in einen Vektor $\mathbf{x}[k]$ und die Filterkoeffizienten in einen Vektor $\mathbf{w}$ zusammen:

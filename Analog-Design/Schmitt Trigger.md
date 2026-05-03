@@ -36,7 +36,7 @@ title: Schmitttrigger
 
 ## Helmholz'sches [Überlagerungsprinzip](../Dictionary/Superposition.md)
 
-![invert_light](../_assets/invST-calc2.png)
+![invert_light](../_assets/notes/invST-calc2.png)
 
 # Schaltungen mit Schmitt Triggern
 

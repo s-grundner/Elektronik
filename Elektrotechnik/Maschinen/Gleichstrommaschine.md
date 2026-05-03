@@ -195,7 +195,7 @@ $$
 In der Nebenschlussmaschine liegen die Erreger- und Ankerwicklung parallel zueinander am Netz. Das Erregerfeld wird direkt durch die Netzspannung eingeprägt.
 
 
-![invert_light|300](../../_assets/nebenschluss.png)
+![invert_light|300](../../_assets/notes/nebenschluss.png)
 
 
 $$

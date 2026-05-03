@@ -83,13 +83,13 @@ $$
 - Überlegung zu Kugelförmige Flächenladung
 
 > [!EXAMPLE]- Stromfluss in Leitern  
-> ![](../_assets/AufgabeLeitfaehigkeit.png)
+> ![](../_assets/notes/AufgabeLeitfaehigkeit.png)
 >
 > > [!SUCCESS]- Lösung  
 > > ![](../_assets/UE01_k12136610-1.jpg)
 
 > [!EXAMPLE]- Stromfluss in Leitern 2  
-> ![](../_assets/AufgabeLeitfähigkeit2.png)
+> ![](../_assets/notes/AufgabeLeitfähigkeit2.png)
 >
 > > [!SUCCESS]- Lösung  
 > > ![](../_assets/UE01_k12136610-2.jpg)

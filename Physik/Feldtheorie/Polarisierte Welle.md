@@ -123,7 +123,7 @@ $$
 
 Da es dafür $\tan ^{2}\theta_{i}<0$  jedoch keine reelle Lösung gibt, kann dieser Fall nicht eintreten.
 
-![invert_dark|500](../../_assets/2026-02-13_01h41_49.png)
+![invert_dark|500](../../_assets/plots/2026-02-13_01h41_49.png)
 
 ### Vergleich beider Polarisationen
 

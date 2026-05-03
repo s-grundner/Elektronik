@@ -83,7 +83,7 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 > [!hint] **Aussage:** Ein Stromdurchflossener Leiter erzeugt um sich herum ein Magnetfeld
 
-![invert_light|500](../_assets/MW1.png) 
+![invert_light|500](../_assets/notes/MW1.png) 
 
 
 > [!info] Die zeitliche änderung von $\mathbf{D}$ wird auch als Verschiebungsstromdichte $\mathbf{J}_{v}$ bezeichnet. 
@@ -94,9 +94,9 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 > [!hint]- Physikalische Interpretation
 Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 >
-> ![invert_dark|600](../_assets/Maxwell%202025-01-15%2018.06.16.excalidraw.svg)
+> ![invert_dark|600](../_assets/Excalidraw/Maxwell%202025-01-15%2018.06.16.excalidraw.svg)
 > 
-> %% [Edit in Excalidraw](../_assets/Maxwell%202025-01-15%2018.06.16.excalidraw.md) %%
+> %% [Edit in Excalidraw](../_assets/Excalidraw/Maxwell%202025-01-15%2018.06.16.excalidraw.md) %%
 > 
 > Würde die 1. MWG $\operatorname{rot}\mathbf{H}=\mathbf{J}$ lauten, so würde nach dem Einschaltzeitpunkt kein Strom Fließen. Jedoch Verschieben sich sie Ladungen an die Ränder des Spalts. Während dieser verschiebung fließt jedoch der Entsprechende Strom. Jedoch nur während sich das Elektrische feld Aufbaut, daher der Term $\frac{\mathrm{d}\mathbf{D}}{\mathrm{d}t}$.
 > 
@@ -135,7 +135,7 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 
 $\mathbf{M}$ ist die fikitve größe der magnetischen Stromdichte und hat physikalisch keine Bedeutung. Durch das Einführen dieser größe, vereinfachen sich oft Rechnungen, und das Induktionsgesetz ist symmetrisch zum [Durchflutingssatz](#^MW1). Das Induktionsgesetz ist auch ohne diesen Term gültig.
 
-![invert_light|500](../_assets/MW2.png)
+![invert_light|500](../_assets/notes/MW2.png)
 
 > [!hint] **Aussage:** Ein Sich zeitlichveränderlichs Magnetfeld erzeugt ein Elektrisches Feld.
 

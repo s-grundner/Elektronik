@@ -117,5 +117,5 @@ $M_{x}\rightarrow [0;1]$
 
 | Wahrscheinlichkeitsdichte                                 | Wahrscheinlichkeitsverteilung                             |
 | --------------------------------------------------------- | --------------------------------------------------------- |
-| ![350](../../_assets/Pasted%20image%2020221210150102.png) | ![300](../../_assets/Pasted%20image%2020221210150004.png) |
+| ![350](../../_assets/HTL-notes-MTRS-1.png) | ![300](../../_assets/HTL-Notes-MTRS.png) |
 

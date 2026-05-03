@@ -21,7 +21,7 @@ Ziel ist es, dass sich der Filter jenen koeffizienten annähert, sodass sich mit
 
 ## Funktion
 
-![invert_dark](../../_assets/Pasted%20image%2020260425170219.png)
+![invert_dark](../../_assets/recreate/AdaptiveFilter.png)
 
 Der Update Algorithmus justiert mit jeder *Sampling-Time* die filter koeffizienten $\mathbf{w}[k]$ nach, sodass eine bestimmte Funktion der differenz zwischen Ist-Ausgang $\hat{y}[k]$ und dem gewünschten Soll-Ausgang $y[k]$ minimiert wird.
 
@@ -33,7 +33,8 @@ $$
 
 - $\mathbf{w}[k]$ startet bei einem beliebigen Anfangswert. 
 - Mit jedem Sample, werden die koeffizienten aktualisiert.
-- Rekursive Methode:
+
+Rekursive Methode:
 
 $$
 \mathbf{w}[k] = \mathbf{w}[k-1] + f(e[k-1])
@@ -46,6 +47,11 @@ $$
 
 > [!quote] Hier werden nur FIR-Filter Betrachtet
 
+## Gradientenabstieg
+
+> [!question] [Wiener Filter](Wiener%20Filter.md)
+
+Um die Filterkoeffizienten anzupassen, wird $f(e[k-1])$ proportional zum negativen Gradienten
 
 ## Anpassungs-Algorithmus
 

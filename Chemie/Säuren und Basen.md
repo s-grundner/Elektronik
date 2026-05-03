@@ -58,7 +58,7 @@ Die Stärke einer Base wird durch die $OH^{-}$-Konzentration ausgedrückt, die s
 
 Starke Säuren sind mit Wasser vollständig dissoziiert.  
 Schwache Säuren sind mit Wasser unvollständig dissoziiert.  
-![Pasted image 20220827040951](../_assets/Pasted%20image%2020220827040951.png)
+![Pasted image 20220827040951](../_assets/notes/anna-krupa1.png)
 
 Dissoziationsgrad $\alpha = \dfrac{\text{Konz. der dissoziierten Moleküle}}{\text{Gesamte Konz. der Säure}}=\dfrac{C(A^{-})}{C(HA)}$  
 $H\cdot A\leftrightarrows H^{+}+A^{-}$

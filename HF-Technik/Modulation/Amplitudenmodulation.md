@@ -31,7 +31,7 @@ $$
 > - Empfindlich gegen Amplitudenrauschen
 
 
-![invert_dark|500](../../_assets/AM.png)
+![invert_dark|500](../../_assets/plots/AM.png)
 
 | Mischer                                  | Spannungsgesteuerter Verstärker (VCA)  |
 | :--------------------------------------: | :--------------------------------------: |

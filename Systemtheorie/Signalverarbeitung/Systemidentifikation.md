@@ -36,8 +36,8 @@ Der Eingang $x[k]$ beider Systeme ist üblicherweise breitbandiges Rauschen.
 
 > [!question] [LS-Filter](Least%20Squares%20Filter.md)
 
-![invert_light|600](../../_assets/Pasted%20image%2020260425143234.png)
-![invert_light|600](../../_assets/Pasted%20image%2020260425143351.png)
+![invert_light|600](../../_assets/plots/matlab-2.png)
+![invert_light|600](../../_assets/plots/matlab-1.png)
 
 > [!success]- Matlab Code - Systemidentifikation mit LS-Filter
 > ```matlab

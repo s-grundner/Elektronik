@@ -38,15 +38,15 @@ Es gilt dass $f$ zwei mal Differnzierbar sein muss ($f\in C^{2}$)
 > - [Definitheit](../../Algebra/Definitheit.md) der Hessenmatrix
 > - [Gradient](Vektoranalysis/Gradient.md)
 
-![invert_dark|900](../../../_assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
+![invert_dark|900](../../../_assets/notes/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
 
 ## Konvex / Konkav
 
-![invert_dark|900](../../../_assets/{F6039E57-8507-4287-AE4D-B1B0BE7989DD}.png)
+![invert_dark|900](../../../_assets/notes/{F6039E57-8507-4287-AE4D-B1B0BE7989DD}.png)
 
-![invert_dark|900](../../../_assets/{83657E46-E605-4AC2-AD43-84EE74C58D15}.png)
+![invert_dark|900](../../../_assets/notes/{83657E46-E605-4AC2-AD43-84EE74C58D15}.png)
 
-![invert_dark|900](../../../_assets/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
+![invert_dark|900](../../../_assets/notes/{B5043AEE-BCCF-42EA-A2DB-29B5ECC1CB8D}.png)
 
 # Beispiele
 

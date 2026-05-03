@@ -106,7 +106,7 @@ z.B. mit Trafo. Skalierung der Kurve in der Momentachse
 
 > [!important] Gängigste Ansteuerung mittels [Frequenzumrichter](VFD.md)
 
-[NOTES](../../_assets/NOTES.pdf)
+[NOTES](../../_assets/emae-notes.pdf)
 
 ### Über Polumschaltung
 

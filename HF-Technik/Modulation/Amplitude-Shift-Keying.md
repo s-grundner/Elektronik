@@ -202,7 +202,7 @@ $$
 $$
 
 > [!example] Vergleich von $\Phi_{ss}(f)$ einer 2-, 4- und 8-ASK mit Rechteckpulsfilter
-> ![invert_dark|600](../../_assets/ASK_PSD.png)
+> ![invert_dark|600](../../_assets/plots/ASK_PSD.png)
 > 
 > Je höher die Ordnung N desto geringer die benötigte Bandbreite, jedoch ist die Fehlerrate auch höher. 
 
@@ -233,7 +233,7 @@ die Durchschnittliche Energie eines Bit ist gegeben durch die Energie der Symbol
 > [!example] Vergleich der Fehlerwahrscheinlichkeit einer 2-, 4-, 8-ASK und OOK mit **kohärenter** Demodulation
 > Fehlerkurvenplot mit der Symbolfehlerwahrscheinlichkeit auf der Abzisse
 > 
-> ![invert_dark|500](../../_assets/ASK-FehlerWahrscheinlichkeit.png)
+> ![invert_dark|500](../../_assets/plots/ASK-FehlerWahrscheinlichkeit.png)
 > 
 > - $N_{0}$ ... Spektral-Rauschleistungsdichte ([AWGN-Kanalmodell](HF-Technik/AWGN-Kanalmodell.md))
 > - $E_{b}$ ... Durchschnittliche Bit Energie

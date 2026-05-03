@@ -116,7 +116,7 @@ $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche W
 
 ### Energiedichte
 
-![invert_light|400](../_assets/MagnetKLundEnergie.png)
+![invert_light|400](../_assets/notes/MagnetKLundEnergie.png)
 
 ---
 

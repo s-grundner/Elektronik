@@ -16,5 +16,5 @@ release: false
 
 > [!question] [OPV](OPV/index.md)
 
-![invert_dark](../../_assets/OPV-Strommessung.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/OPV-Strommessung.md)%%
+![invert_dark](../../_assets/Excalidraw/OPV-Strommessung.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/OPV-Strommessung.md)%%

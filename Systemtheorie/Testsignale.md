@@ -222,7 +222,7 @@ $$
 $$
 
 
-![500](../_assets/dirac_func.png)
+![500](../_assets/recreate/dirac_func.png)
 
 ### Eigenschaften
 

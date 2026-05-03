@@ -24,14 +24,14 @@ title: DC-Messbrücke
 
 | No. | Messbrücke                           | $U_{0}$ gespeist                                      | $I_{0}$ gespeist |   Brückenart   |
 | :-: | ------------------------------------ | ----------------------------------------------------- | ---------------- | :------------: |
-|  a  | ![invert_dark\|250](../_assets/mb_a.png) | $$U_{d}=+\frac{U_{0}}{4}\cdot\frac{\Delta R}{R_{0}}$$ |                  | Viertel-Brücke |
-|  b  | ![invert_dark\|250](../_assets/mb_b.png) | $$U_{d}=-\frac{U_{0}}{4}\cdot\frac{\Delta R}{R_{0}}$$ |                  | Viertel-Brücke |
-|  c  | ![invert_dark\|250](../_assets/mb_c.png) | $$U_{d}=-\frac{U_{0}}{4}\cdot\frac{\Delta R}{R_{0}}$$ |                  | Viertel-Brücke |
-|  d  | ![invert_dark\|250](../_assets/mb_d.png) |                                                       |                  |  Halb-Brücke   |
-|  e  | ![invert_dark\|251](../_assets/mb_e.png) |                                                       |                  |  Halb-Brücke   |
-|  f  | ![invert_dark\|250](../_assets/mb_f.png) |                                                       |                  |  Halb-Brücke   |
-|  g  | ![invert_dark\|250](../_assets/mb_g.png) |                                                       |                  |  Halb-Brücke   |
-|  h  | ![invert_dark\|250](../_assets/mb_h.png) |                                                       |                  |  Voll-Brücke   |
+|  a  | ![invert_dark\|250](../_assets/notes/mb_a.png) | $$U_{d}=+\frac{U_{0}}{4}\cdot\frac{\Delta R}{R_{0}}$$ |                  | Viertel-Brücke |
+|  b  | ![invert_dark\|250](../_assets/notes/mb_b.png) | $$U_{d}=-\frac{U_{0}}{4}\cdot\frac{\Delta R}{R_{0}}$$ |                  | Viertel-Brücke |
+|  c  | ![invert_dark\|250](../_assets/notes/mb_c.png) | $$U_{d}=-\frac{U_{0}}{4}\cdot\frac{\Delta R}{R_{0}}$$ |                  | Viertel-Brücke |
+|  d  | ![invert_dark\|250](../_assets/notes/mb_d.png) |                                                       |                  |  Halb-Brücke   |
+|  e  | ![invert_dark\|251](../_assets/notes/mb_e.png) |                                                       |                  |  Halb-Brücke   |
+|  f  | ![invert_dark\|250](../_assets/notes/mb_f.png) |                                                       |                  |  Halb-Brücke   |
+|  g  | ![invert_dark\|250](../_assets/notes/mb_g.png) |                                                       |                  |  Halb-Brücke   |
+|  h  | ![invert_dark\|250](../_assets/notes/mb_h.png) |                                                       |                  |  Voll-Brücke   |
 
 [Wheatstone-Brücke](Wheatstone-Brücke.md)
 

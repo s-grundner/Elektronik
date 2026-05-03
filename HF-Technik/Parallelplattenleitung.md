@@ -37,9 +37,9 @@ Mit diesen Annahmen kann der Parallelplattenleiter als [TEM-Mode](TEM-Welle.md) 
 
 Vorraussetzung für TEM-Moden:
 
-![invert_dark|600](../_assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.svg)
+![invert_dark|600](../_assets/Excalidraw/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.svg)
 
-%% [Edit in Excalidraw](../_assets/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.md) %%
+%% [Edit in Excalidraw](../_assets/Excalidraw/Parallelplattenleitung%202025-01-20%2020.59.40.excalidraw.md) %%
 
 > [!info] E-Feld
 > 
@@ -173,9 +173,9 @@ $$\oint_{C_{2}} \mathbf{H}\cdot\mathrm{d}\mathbf{l} = \iint_{S_{2}}\mathbf{J}\cd
 
 | Stromdichte $\mathbf{J}$ Entlang des Leiters           | Kontur $C_{2}$ Umkreist eine der Platten                                                 |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| ![invert_dark\|500](../_assets/TEM-Plattenleitung.png) | ![invert_dark](../_assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.svg) |
+| ![invert_dark\|500](../_assets/TEM-Plattenleitung.png) | ![invert_dark](../_assets/Excalidraw/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.svg) |
 
-%% [Edit in Excalidraw](../_assets/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) %%
+%% [Edit in Excalidraw](../_assets/Excalidraw/Parallelplattenleitung%202025-01-20%2023.59.31.excalidraw.md) %%
 
 - $h$ ist vernachlässigbar klein.
 - $\mathbf{H}$ existiert nur in $x$-Richtung zwischen den Platten und ist in $y$ **konstant**

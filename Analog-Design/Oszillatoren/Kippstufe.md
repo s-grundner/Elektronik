@@ -93,6 +93,6 @@ Die [Schmitt Trigger](../Schmitt%20Trigger.md) Kippschaltungen ist eine Astabile
 > \end{align*}
 > $$
 > 
-> ![invert_light](../../_assets/invST-calc1.png)
+> ![invert_light](../../_assets/notes/invST-calc1.png)
 > 
 > $U_{V}$ ist der Offset vom mittelpunkt der Hysterese bei unsymmetrischer $U_{T}^{+}, U_{T}^{-}$

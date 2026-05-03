@@ -36,7 +36,7 @@ title: Lipschitz Stetigkeit
 > [!hint] $L$ ist die gerade, zwischen welcher die Funktion stetig propagiert
 > Für eine lipschitzstetige Funktion existiert ein Doppelkegel (weiß), dessen Ursprung entlang des Graphen bewegt werden kann, sodass der Graph stets außerhalb des Doppelkegels bleibt
 >
-> ![500](../../_assets/Lipschitz_Visualisierung.gif)
+> ![500](../../_assets/Wikipedia-Lipschitz_Visualisierung.gif)
 
 ## Folgerungen
 

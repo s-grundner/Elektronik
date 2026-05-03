@@ -48,7 +48,7 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
 ```
 
 > [!INFO] Den Flasher-Arguments entsprechend, müssen die Pfade sowie deren Offset in das Flash-Download-Tool eingetragen werden.  
-> ![](../../_assets/Pasted%20image%2020230818003454.png)
+> ![](../../_assets/esp-at.png)
 
 > [!INFO] Auch die [SPI](../../Digital-Design/Interfaces/SPI.md) Flash Konfigurationen werden aus den Flasher Arguments entsprechend übernommen:
 >
@@ -60,9 +60,9 @@ Hat man den Firmware Folder entpackt, befindet sich in dem Ordner ein `flasher_a
 >},
 >```
 >
->![](../../_assets/Pasted%20image%2020230818003644.png)
+>![](../../_assets/esp-at-2.png)
 
 > [!INFO] Nun muss nur noch der richtige COM-Port selektiert werden und „Start“ ausgeführt werden.  
-> ![](../../_assets/Pasted%20image%2020230818003709.png)
+> ![](../../_assets/esp-at-3.png)
 
 > [!success] Der Bootloader sollte nun erfolgreich auf den [index](../../Digital-Design/ESP32/index.md) gebrannt worden sein

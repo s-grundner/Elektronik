@@ -20,7 +20,7 @@ title: Transformator
 - Die Transformation von Spannungen, Ströme und/oder Impedanzen ist nur für *zeitlich veränderliche* Spannungen/Ströme möglich, da diese auf dem Prinzip der [Ruheinduktion](../Elektrotechnik/magnetisches%20Feld.md) beruht -> gekoppelte Induktivitäten.
 - Der (Eisen) Kern im Transformator dient zum richten des Magnetischen Flusses
 
-![invert_dark|600](../_assets/Pasted%20image%2020240124090631.png)
+![invert_dark|600](../_assets/magnetkreis.png)
 
 Sehr hohe *relative permeabilität* $\mu_{r}$ des Kerns.
 
@@ -32,7 +32,7 @@ Sehr hohe *relative permeabilität* $\mu_{r}$ des Kerns.
 
 ## Gekoppelte Induktivitäten
 
-![invert_dark](../_assets/Pasted%20image%2020240124091021.png)
+![invert_dark](../_assets/magnetische-kopplung.png)
 
 Wenn ein teil des Flusses der erzeugenden Spule eine Andere durchsetzt, wird ein Fluss in dieser Spule erzeugt.  
 [Strom](../Elektrotechnik/elektrischer%20Strom.md) muss seiner Ursache entgegenwirken
@@ -41,7 +41,7 @@ Wenn ein teil des Flusses der erzeugenden Spule eine Andere durchsetzt, wird ein
 
 ## Wicklungssinn
 
-![invert_dark|450](../_assets/Pasted%20image%2020240124092616.png)
+![invert_dark|450](../_assets/L-wicklungssinn.png)
 
 Wenn die Punkte am selben Ende der beiden Wicklungen sind, addieren sich die Flüsse. Sonst subtrahieren sie sich
 
@@ -56,7 +56,7 @@ $$
 
 ### Transformator im Leerlauf
 
-![invert_dark|600](../_assets/Pasted%20image%2020240124095233.png)
+![invert_dark|600](../_assets/magnet-kreis.png)
 
 $$
 \begin{align}
@@ -76,7 +76,7 @@ Annahmen:
 Der Laststrom $i_{2}$ erzeugt einen Gegenfluss $\phi_{2}$ (Lenz‘sche Regel)
 
 
-![invert_dark|600](../_assets/Pasted%20image%2020240124095307.png)
+![invert_dark|600](../_assets/magnet-kreis-1.png)
 
 siehe Folien Springer: $\dfrac{u_{1}}{u_{2}}=\dfrac{N_{1}}{N_{2}}$
 

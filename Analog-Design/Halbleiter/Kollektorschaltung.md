@@ -62,7 +62,7 @@ $R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer
 
 ## Kleinsignalverhalten
 
-![ksv_kollektorschaltung](../../_assets/ksv_kollektorschaltung.png)
+![ksv_kollektorschaltung](../../_assets/notes/ksv_kollektorschaltung.png)
 
 ## Betriebsparameter
 
@@ -72,7 +72,7 @@ $R_{E}$ ist fester Bestandteil der Kollektorschaltung, daher besitzt diese immer
 > - Ausgangswiderstand $r_a$
 > - Leerlaufspannungsverstärkung $A_0$
 
-![Pasted image 20221121145330](../../_assets/1NoteKollSchRE.png)
+![Pasted image 20221121145330](../../_assets/notes/1NoteKollSchRE.png)
 
 ### Kollektorschaltung Als Impedanzwandler
 

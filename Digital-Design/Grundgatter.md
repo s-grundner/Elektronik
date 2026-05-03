@@ -45,7 +45,7 @@ $a$ und $b$ sind Eingänge und $y$ der Ausgang des jeweiligen Gatters.
 
 ### AND als Tor
 
-![invert_dark|400](../_assets/Pasted%20image%2020260415150808.png)
+![invert_dark|400](../_assets/RA-AND-gate.png)
 
 Und-Gatter kann wie ein „Tor“ interpretiert werden
 

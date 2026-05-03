@@ -44,7 +44,7 @@ Nichtmetalle benutzen [Valenzelektronen](Valenzelektronen.md) gemeinsam.
 	 - [Studyflix](https://studyflix.de/chemie/dipol-dipol-wechselwirkung-2391)
 
 2. Wasserstoffbrückenbindung  
-	![575](../_assets/Pasted%20image%2020220901195604.png)
+	![575](../_assets/simple-club-dipol.png)
 
 3. Van-der-Waals-Kräfte
 	- [Studyflix](https://studyflix.de/chemie/van-der-waals-krafte-1561)

@@ -32,7 +32,7 @@ Im Folgenden betrachten wir Schaltungen zur Erzeugung von Sinusschwingungen, sog
 ![invert_dark|600](../../_assets/RKNW.png)
 
 >[!example]- Verstärker mit Parallelschwingkreis
-> ![500](../../_assets/Oszillatoren%202025-01-14%2010.38.37.excalidraw.md)
+> ![500](../../_assets/Excalidraw/Oszillatoren%202025-01-14%2010.38.37.excalidraw.md)
 > 
 > **Verstärker:** ([Nicht-Invertierender Verstärker](../OPV/Nicht-Invertierender%20Verstärker.md))
 > $$A(j\omega)= \frac{U_{a}}{U_{e}}= 1+\frac{R_{N}}{R_{1}}$$
@@ -121,7 +121,7 @@ Probleme
 ![[../../_assets/Excalidraw/Oszillatoren 2025-01-14 10.25.42.excalidraw]]
 
 
-![Pasted image 20230124212033](../../_assets/Pasted%20image%2020230124212033.png)
+![Pasted image 20230124212033](../../_assets/HTL-Notes-HWE.png)
 
 | Verstärker                                                        | Rückkoppler                                                                |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------- |

@@ -68,7 +68,7 @@ $$
 
 > [!info]+ Bode-Diagramm
 > 
-> ![invert_dark|500](../../_assets/OPV_Integrator_Bodeplot.png)                             
+> ![invert_dark|500](../../_assets/plots/OPV_Integrator_Bodeplot.png)                             
 
 <center><a href="scripts/mathematica/OPV_Integrator.nb" class="internal-link">📈Mathematica Notebook</a></center>
 

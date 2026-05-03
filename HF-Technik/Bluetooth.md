@@ -18,4 +18,4 @@ title: Bluetooth
 > [!INFO] Bluetooth  
 > Signalstärke (RSSI) wird gemessen
 
-![](../_assets/Pasted%20image%2020231110131540.png)
+![](../_assets/bluetooth.png)

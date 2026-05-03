@@ -28,7 +28,7 @@ title: Phasenschieber Oszillator
 
 ## Schaltung
 
-![invert_dark|925](../../_assets/Pasted%20image%2020230124215050.png)
+![invert_dark|925](../../_assets/HTL-Notes-HWE-1.png)
 
 ## Herleitung
 

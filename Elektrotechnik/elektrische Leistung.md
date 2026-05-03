@@ -52,7 +52,7 @@ $\cos \varphi_{k}$ … Leistungsfaktor
 $S=\frac{P}{\cos \varphi_{k}}$
 
 
-![[../_assets/Elektrische Leistung 2024-01-26 10.52.55.excalidraw]]
+![[../_assets/Excalidraw/Elektrische Leistung 2024-01-26 10.52.55.excalidraw]]
 
 > [!example]- 
 ![450](../_assets/Pasted%20image%2020240126111442.png)

@@ -14,4 +14,4 @@ Der Schirm muss jeweils aus gut leitendem Material bestehen, damit der über ihn
 
 > [!EXAMPLE] [PCB](../Manufacturing/PCB-Layout.md) mit übereinander Kreuzende Leiterbahnen  
 > ![525](../_assets/kap_kopplung_bsp1.png)  
-> ![Modellbildung](../_assets/Modellbildung.png)
+> ![Modellbildung](../_assets/notes/Modellbildung.png)

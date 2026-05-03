@@ -52,7 +52,7 @@ title: Sallen-Key Filter
 
 |                           Bode Diagramm                           |                    Ortskurve                    |
 | :---------------------------------------------------------------: | :---------------------------------------------: |
-| ![invert_dark\|600](../../_assets/59_SallenKey.png) | ![invert_dark](../../_assets/Sallen_Key_Ortskurve.png) |
+| ![invert_dark\|600](../../_assets/plots/59_SallenKey.png) | ![invert_dark](../../_assets/Sallen_Key_Ortskurve.png) |
 
 [📈Mathematica Notebook](../../Scripts/mathematica/SallenKey.nb)
 

@@ -17,7 +17,7 @@ title: BJT als Verstärker
 
 | Betriebsarten                                                                                                      | Kennlinie                                       |
 | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
-| [A-Betrieb](A-Betrieb.md)<br>[B-Betrieb](B-Betrieb.md)<br>[AB-Betrieb](AB-Betrieb.md)<br>[C-Betrieb](C-Betrieb.md) | ![](../../_assets/Pasted%20image%2020230922135134.png) |
+| [A-Betrieb](A-Betrieb.md)<br>[B-Betrieb](B-Betrieb.md)<br>[AB-Betrieb](AB-Betrieb.md)<br>[C-Betrieb](C-Betrieb.md) | ![](../../_assets/bjz-kennlinienfeld.png) |
 
 
 ---

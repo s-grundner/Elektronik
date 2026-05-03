@@ -40,7 +40,7 @@ title: Bibpolartransistoren
 
 Ein Bipolartransistor besteht aus zwei gegeneinander geschalteten $p n$-Übergängen ([Dioden](Diode.md)) mit einer gemeinsamen, sehr kleinen ( $p$ oder $n$ ) Zone in der Mitte, der sogenannten Basis $(B)$. Die beiden anderen Zonen heißen Kollektor $(C)$ und Emitter $(E)$. Im regulären Betrieb (Durchlassbetrieb) wird die $B E$-Diode in Durchlass-, die $B C$-Diode in Sperrrichtung betrieben.
 
-![invert_dark](../../_assets/{265200CE-C932-4D7C-8274-C3109067134D}.png)
+![invert_dark](../../_assets/recreate/{265200CE-C932-4D7C-8274-C3109067134D}.png)
 
 Prinzipdarstellungen eines $npn$- und $p n p$-Bipolartransistors (Elektronen bzw. Löcherstromrichtung).
 
@@ -84,7 +84,7 @@ Der Arbeitspunkt
 - bestimmt den maximal möglichen Aussteuerbereich,
 - soll für große Aussteueramplituden in die Mitte des Aussteuerbereiches $\left(U_{\mathrm{CE}, \min } \ldots U_0\right)$ gelegt werden.
 
-![invert_dark](../../_assets/{15B99FC5-3166-4FFB-A1B9-944E5F2E7AE9}.png)
+![invert_dark](../../_assets/recreate/{15B99FC5-3166-4FFB-A1B9-944E5F2E7AE9}.png)
 
 ### Temparatur und Verstärkungsabweichungen
 
@@ -124,14 +124,14 @@ Nun gibt es zwei Einstellungen um jeweils eines dieser Probleme zu lösen:
 \end{document}
 ```
 
-![invert_dark](../../_assets/{8ED7CCB4-8EE7-4420-BCF2-4D12D04047FD}.png)
+![invert_dark](../../_assets/recreate/{8ED7CCB4-8EE7-4420-BCF2-4D12D04047FD}.png)
 
 Funktionen der Arbeitsgeraden
 $$
 I_{\mathrm{B}}=\frac{U_{\mathrm{L}}-U_{\mathrm{BE}}}{R_{\mathrm{i}}} \quad I_{\mathrm{C}}=B \cdot \frac{U_{\mathrm{L}}-U_{\mathrm{BE}}}{R_{\mathrm{i}}}
 $$
 
-![invert_dark](../../_assets/{9C735800-443E-4EBF-BBDF-2F3886884455}.png)
+![invert_dark](../../_assets/recreate/{9C735800-443E-4EBF-BBDF-2F3886884455}.png)
 
 ## Kleinsignalverhalten
 

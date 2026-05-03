@@ -17,8 +17,8 @@ title: MOSFET Kleinsignal ESB
 - Allgemein Nichtlineares Modell
 - Linearisierung um den DC Arbeitspunkt
 
-![invert_dark|700](../../_assets/MOSFET-KSESB.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/MOSFET-KSESB.md)%%
+![invert_dark|700](../../_assets/Excalidraw/MOSFET-KSESB.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/MOSFET-KSESB.md)%%
 
 - $C_{\mathrm{gg}}$ ... Eingangskapazität $C_{\mathrm{gs}}+C_{\mathrm{gd}}+C_{\mathrm{gb}}$
 
@@ -39,8 +39,8 @@ title: MOSFET Kleinsignal ESB
 >
 > Frequenz, bei der der Transistor auf eine Verstärkung von genau 1 Abfällt
 >
-> ![invert_dark|300](../../_assets/MOSFET-FT.svg)
-> %%[🖋 Edit in Excalidraw](../../_assets/MOSFET-FT.md)%%
+> ![invert_dark|300](../../_assets/Excalidraw/MOSFET-FT.svg)
+> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/MOSFET-FT.md)%%
 >
 > $$
 > f_{\mathrm{T}} \approx \frac{g_{\mathrm{m}}}{2\pi C_{\mathrm{gg}}} = \frac{g_{\mathrm{m}}}{2\pi (C_{\mathrm{gs}} + C_{\mathrm{gd}} + C_{\mathrm{gb}}) }

@@ -31,4 +31,4 @@ Grenzwert einer Geometrischen reihe
 $$ \sum_{k=0}^{\infty}q^{k} = \frac{1}{1-q} $$
 ## Summe geometrischer Reihe
 
-![](../../_assets/2023-10-30_15h04_01.png)
+![](../../_assets/notes/2023-10-30_15h04_01.png)

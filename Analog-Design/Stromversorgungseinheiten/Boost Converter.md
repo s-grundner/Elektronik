@@ -87,7 +87,7 @@ Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 $\overline{I_{D}} = I_{a,min}$  
 $A_{+}$ = $A_{-}$ (Fläche zwischen dem Stromverlauf von $\Delta I_{L}$ und $I_{a,min}$)
 
-![invert_light](../../_assets/BoostIminLmin.png)
+![invert_light](../../_assets/notes/BoostIminLmin.png)
 
 ## [Kapazität](../../Elektrotechnik/Kapazität.md)
 

@@ -11,6 +11,31 @@ title: Vektorfelder
 
 # Vektoren
 
+> [!def] **D)** Vektornotation
+> 
+> **Spaltenvektor**
+> 
+> $$
+> \begin{align}
+> \mathbf{w} && {(w_i)}_{i=0}^{p-1} && \begin{pmatrix}
+> w_0 \\ w_1 \\ \vdots \\ w_{p-1}
+> \end{pmatrix}
+> \end{align}
+> $$
+> 
+>   
+> 
+> **Zeilenvektor**
+> 
+> $$
+> \begin{align}
+> \mathbf{w}^{T} && {(w_j)}_{j=0}^{p-1} && \begin{pmatrix}
+> w_0 & w_1 & \cdots & w_{p-1}
+> \end{pmatrix}
+> \end{align}
+> $$
+> 
+
 Ein Vektor $\mathbf{v}$ ist ein Element, welches anstatt eines einzigen Zahlenwertes, aus mehreren Größen besteht. Ein Vektor kann interpretiert werden als:
 
 - Punkt in einem Koordinatenssytem. *(Elemente sind die Koordinaten)*

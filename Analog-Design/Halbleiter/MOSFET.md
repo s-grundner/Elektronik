@@ -92,7 +92,7 @@ Die größe eines Mosfets kann durch die Gatebreite $W$ und Gatelänge $L$ einge
 
 ### Betriebsmodi
 
-![invert_light](../../_assets/NMOS-KL-feld.png)
+![invert_light](../../_assets/plots/NMOS-KL-feld.png)
 
 Eine ungefähre einteilung der Betriebsmodi eines MOSFETs sind
 

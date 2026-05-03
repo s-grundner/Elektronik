@@ -16,7 +16,7 @@ während die Anzahl der Permutationen mit Wiederholung über [Multinomialkoeffi
 
 ## ohne Wiederholung
 
-![Pasted image 20230104153716](../../../_assets/Pasted%20image%2020230104153716.png)
+![Pasted image 20230104153716](../../../_assets/tree.png)
 
 >[!summary] Fakultät:  
 > $$n!$$

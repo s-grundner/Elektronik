@@ -28,9 +28,9 @@ Für $k_{0}>0$ versucht der Filter den Ausgang $\hat{y}[k]$ so gut wie möglich 
 
 > [!question] [LS-Filter](Least%20Squares%20Filter.md)
 
-![invert_light|500](../../_assets/Pasted%20image%2020260425140951.png) 
-![invert_light|500](../../_assets/Pasted%20image%2020260425140939.png)
-![invert_light|500](../../_assets/Pasted%20image%2020260425141018.png)
+![invert_light|500](../../_assets/plots/matlab-4.png) 
+![invert_light|500](../../_assets/plots/matlab-5.png)
+![invert_light|500](../../_assets/plots/matlab-3.png)
 
 > [!success]- Matlab Code - LS Filter 
 > 

@@ -58,7 +58,7 @@ Die Menge an Ziffern ist dann $0$ bis $r-1$ (Dual 0 bis 1, Dezimal 0 bis 9, usw)
 
 ## Konvertieren zwischen polyadischen Systemen
 
-![invert_light|400](../_assets/konvertierungZahlensys.svg)
+![invert_light|400](../_assets/notes/konvertierungZahlensys.svg)
 
 
 ## Darstellung Negativer Zahlen

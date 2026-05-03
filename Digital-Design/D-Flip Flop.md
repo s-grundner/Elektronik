@@ -15,7 +15,7 @@ title: D-Flip Flop
 
 > [!question] [Sequenzielle Logik](Sequenzielle%20Logik.md)
 
-![invert_dark|500](../_assets/Pasted%20image%2020260415151058.png)
+![invert_dark|500](../_assets/RA-DFF-1.png)
 
 S und R werden aus D berechnet
 
@@ -30,4 +30,4 @@ Enable steuert die Datenübernahme ([AND als Tor](Grundgatter.md#AND%20als%20Tor
 - Das D-Latch ist pulsgesteuert (Schreibpuls E)
 - Einfache 1-Bit Speicherzelle
 
-![invert_dark|600](../_assets/Pasted%20image%2020260415151432.png)
+![invert_dark|600](../_assets/RA-DFF.png)

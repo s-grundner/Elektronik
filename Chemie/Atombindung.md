@@ -61,7 +61,7 @@ Die **Molekülform** wird durch Abstoßung der freien und der bindenden Elektron
 
 # Doppel Und Dreifachbindungen
 
-![Pasted image 20220901200104.png](../_assets/Pasted%20image%2020220901200104.png)
+![simple-club-dipol2.png](../_assets/simple-club-dipol2.png)
 
 ## Unpolare Atombindungen
 

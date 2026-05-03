@@ -113,7 +113,7 @@ mit den Parametern: $V_{0}=1,\quad \omega_{0}=10^{5}s^{-1}, \quad Q=\frac{1}{\sq
 
 |             Bode Diagramm              |                    Ortskurve                     |
 | :------------------------------------: | :----------------------------------------------: |
-| ![Biquad_Bode](../../_assets/Biquad_Bode.png) | ![Biquad_Ortskurve](../../_assets/Biquad_Ortskurve.png) |
+| ![Biquad_Bode](../../_assets/plots/Biquad_Bode.png) | ![Biquad_Ortskurve](../../_assets/plots/Biquad_Ortskurve.png) |
 
 - [📈Mathematica Notebook](../../Scripts/mathematica/Biquad.nb)
 

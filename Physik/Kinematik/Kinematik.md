@@ -22,7 +22,7 @@ title: Kinematik
 > [!INFO] Die *Kinematik* beschäftigt sich mit der Beschreibung der Bewegung von Körpern  
 > Sie beschreibt *wie* sich Körper bewegen, ohne zu fragen *warum*
 
-![](../../_assets/Pasted%20image%2020231015233140.png)
+![](../../_assets/kinematik-1.png)
 
 ## 1 Bewegung in einer Dimension
 
@@ -39,7 +39,7 @@ Einheit: $[v] = \frac{m}{s}$
 > $a(t)=\frac{dv}{dt} = \frac{d}{dt}\left( \frac{dx}{dt} \right)=\frac{d^{2}x}{dt^{2}}=\ddot{x}(t)$  
 > Einheit: $\frac{m}{s^{2}}$
 
-![InlineR|200](../../_assets/Pasted%20image%2020231011131442.png)
+![InlineR|200](../../_assets/kinematik.png)
 
 $$
 \begin{align}

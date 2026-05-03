@@ -37,4 +37,4 @@ $$
 \omega_{\mathrm{r}}=\frac{1}{\sqrt{L C}} \sqrt{1-\frac{R_L^2 C}{L}}
 $$
 
-![[../../_assets/Parallelschwingkreis 2025-01-14 10.49.42.excalidraw]]
+![[../../_assets/Excalidraw/Parallelschwingkreis 2025-01-14 10.49.42.excalidraw]]

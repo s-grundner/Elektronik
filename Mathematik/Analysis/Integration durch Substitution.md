@@ -23,7 +23,7 @@ title: Integration durch Substitution
 > \left(\varphi \circ g^{-1}\right)^{\prime}(x)=\varphi^{\prime}\left(g^{-1}(x)\right)\left(g^{-1}\right)^{\prime}(x)=f\left(g\left(g^{-1}(x)\right)\right) \frac{g^{\prime}\left(g^{-1}(x)\right)}{g^{\prime}\left(g^{-1}(x)\right)}=f(x)
 > $$
 
-![](../../_assets/{9B42AEE1-F75C-4D02-BCF4-136A79659403}.png)
+![](../../_assets/notes/{9B42AEE1-F75C-4D02-BCF4-136A79659403}.png)
 
 ## Nützliche Folgerungen
 

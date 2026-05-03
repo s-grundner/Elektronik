@@ -41,7 +41,7 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 ## Aufgaben eine Regelung
 
-![invert_dark|800](../../_assets/Pasted%20image%2020260414090402.png)
+![invert_dark|800](../../_assets/RT-Reglelkreis.png)
 
 Reglerstrukturen:
 

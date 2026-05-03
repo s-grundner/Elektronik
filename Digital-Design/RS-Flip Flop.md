@@ -20,7 +20,7 @@ Ausgänge
 
 ### Schaltung mit NOR-Gattern
 
-![invert_dark|400](../_assets/Pasted%20image%2020260415145018.png)
+![invert_dark|400](../_assets/RA-RS-FF-1.png)
 
 
 | $S$ | $R$ | $Q_{t+1}$ | $\neg Q_{t+1}$ | Verhalten  |
@@ -33,7 +33,7 @@ Ausgänge
 
 ### Schaltung mit NAND-Gattern
 
-![invert_dark|400](../_assets/Pasted%20image%2020260415145532.png)
+![invert_dark|400](../_assets/RA-RS-FF.png)
 
 | $S$ | $R$ | $Q_{t+1}$ | $\neg Q_{t+1}$ | Verhalten  |
 | --- | --- | --------- | -------------- | ---------- |

@@ -79,7 +79,7 @@ Es gibt 7 Stk.
 > [!example]  
 > ![Ne](../_assets/Ne.png)  
 > $1s^{2}2s^{2}2p^{6}\longrightarrow [He] 2s^{2}2p^{6}$  
->![150](../_assets/Ne-conf.png)  
+>![150](../_assets/notes/Ne-conf.png)  
 > Anzahl der $e^{-}$  
 > Hauptquantenzahl  
 > Orbitaltyp 
