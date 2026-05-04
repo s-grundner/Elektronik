@@ -45,18 +45,24 @@ J(\mathbf{w})
 \end{align}
 $$
 
+> [!info] **MSE)** *Mean Square Error* Kostenfunktion $J(\mathbf{w})$ eines Wiener Filters ^WFJ
+> 
+> $$
+> J(\mathbf{w}) = \sigma_{y}^{2}-2\mathbf{w}^T \mathbf{r}_{xy} +\mathbf{w}^T \mathbf{R}_{xx}\mathbf{w}
+> $$
+> 
+> - $\mathbf{R}_{x x}$ ... [Autokorrelationsmatrix](#Autokorrelationsmatrix)
+> - $\mathbf{r}_{xy}$ ... [Kreuzkorrelationsvektor](#Kreuzkorrelationsvektor)
+> - $\sigma_{y}^{2}$ ... Varianz des Filterausgangs
 
-- $\mathbf{R}_{x x}$ ... Autokorrelationsmatrix
-- $\mathbf{r}_{xy}$ ... Kreuzkorrelationsvektor
-
-Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). Daher gibt es nur ein globales minimum $J(\mathbf{w}_{0})$ am Punkt $\mathbf{w}_{0}$.
+Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). Daher gibt es nur **ein** globales minimum $J(\mathbf{w}_{0})$ am Punkt $\mathbf{w}_{0}$.
 
 > [!satz] **S - MMSE)** Minimum Mean Square Error $J(\mathbf{w}_{0})$
 > 
-> Das [minimum](../../Mathematik/Analysis/Kurvendiskussion/Extremwert.md) der Kostenfunktion $J$ kann gefunden werden, indem man dessen [Gradienten](../../Mathematik/Analysis/Vektoranalysis/Gradient.md) gleich null setzt:
+> Das [minimum](../../Mathematik/Analysis/Kurvendiskussion/Extremwert.md) der Kostenfunktion $J$ kann gefunden werden, indem man dessen [Gradienten](../../Mathematik/Analysis/Vektoranalysis/Gradient.md)[^1] gleich null setzt:
 > 
 > $$
-> \mathbf{g}(\mathbf{w}) := \frac{ \partial J(\mathbf{w}) }{ \partial \mathbf{w} } = -2\mathbf{r}_{xy} + 2 \mathbf{R}_{x x}\mathbf{w}\overset{!}{=}\mathbf{0}
+> \mathbf{g}(\mathbf{w}) := \nabla_{\mathbf{w}}J(\mathbf{w}) = -2\mathbf{r}_{xy} + 2 \mathbf{R}_{x x}\mathbf{w}\overset{!}{=}\mathbf{0}
 > $$
 > 
 > Man erhält die [Normalgleichungen](../../Mathematik/Normalgleichungen.md)
@@ -70,6 +76,8 @@ Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). D
 > $$
 > \mathbf{w}_{0} = \mathbf{R}_{xx}^{-1}\mathbf{r}_{xy}
 > $$
+
+
 
 ### Autokorrelationsmatrix
 
@@ -127,3 +135,13 @@ $$
 
 Problem: Die Optimierung fordert die Kenntnis von [Momente 2. Ordnung](../../Mathematik/Statistik/Momenterzeugende%20Funktion.md), welche in der Realität schwer abzuschätzen sind.
 
+[^1]: Hinweis
+	
+	$$
+	\nabla_{\mathbf{w}}J(\mathbf{w}) = \begin{pmatrix}
+	\frac{ \partial }{ \partial w_{0} } \\
+	\frac{ \partial }{ \partial w_{1} } \\
+	\vdots \\
+	\frac{ \partial }{ \partial w_{p-1} }
+	\end{pmatrix} J(w_{0}, w_{1},\ldots,w_{p-1}) \in \mathbb{R}^{p-1}
+	$$

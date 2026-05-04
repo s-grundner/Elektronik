@@ -21,8 +21,8 @@ title: Wirtinger Kalkül
 > 
 > $$
 > \begin{align}
-> \frac{ \partial }{ \partial z} = \frac{1}{2} \left( \frac{ \partial }{ \partial x } - i\frac{ \partial }{ \partial y } \right)  \\
-> \frac{ \partial }{ \partial z^{*}} = \frac{1}{2} \left( \frac{ \partial }{ \partial x } + i\frac{ \partial }{ \partial y } \right)
+> \frac{ \partial }{ \partial z} := \frac{1}{2} \left( \frac{ \partial }{ \partial x } - i\frac{ \partial }{ \partial y } \right)  \\
+> \frac{ \partial }{ \partial z^{*}} := \frac{1}{2} \left( \frac{ \partial }{ \partial x } + i\frac{ \partial }{ \partial y } \right)
 > \end{align}
 > $$
 
@@ -85,3 +85,7 @@ $$
 $$
 
 Methode 2: Kettenregel
+
+## Referenzen
+
+- [Wirtinger Kalkül - Wikipedia](https://de.wikipedia.org/wiki/Wirtinger-Kalk%C3%BCl)

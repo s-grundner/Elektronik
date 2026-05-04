@@ -10,7 +10,7 @@ release: false
 
 # Konforme Abbildung
 
-In der komplexen Analysis ist eine konforme Abbilung eine Funktion $f: \mathbb{C} \to \mathbb{C}$ 
+In der komplexen Analysis ist eine konforme Abbilung eine Funktion $f: \mathbb{C} \to \mathbb{C}$ welche das Gitter der Komplexen nicht verzerrt. Es bleiben also die Gitterlinien im Rechten Winkel zu eineander. Konform = Winkeltreu.
 
 ## Beispiele für Konforme Abbildungen
 
