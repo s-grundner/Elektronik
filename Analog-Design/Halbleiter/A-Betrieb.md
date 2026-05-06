@@ -12,7 +12,7 @@ Ein [Transistor-Verstärker](BJT%20als%20Verstärker.md) im A-Betrieb hat nur ei
 Der Arbeitspunkt liegt in der Mitte der Kennlinie.  
 Das wird durch die Aufteilung der Betriebsspannung bestimmt ($U_{B}= U_{C} + U_{CE}$).  
 Dabei wird die Betriebsspannung zwischen Kollektorwiderstand und [Transistor](Transistor.md) aufgeteilt.  
-Auf diese Weise fällt die Hälfte der [Leistung](../../Elektrotechnik/elektrische%20Leistung.md), die vom Verstärker abgegeben wird, im Verstärker selbst ab und wird in Wärme umgesetzt.
+Auf diese Weise fällt die Hälfte der [Leistung](../../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md), die vom Verstärker abgegeben wird, im Verstärker selbst ab und wird in Wärme umgesetzt.
 
 > [!important] Aus diesem Grund eignet sich ein Verstärker im A-Betrieb nur als Kleinsignal oder als Vorverstärker
 
@@ -50,7 +50,7 @@ Eine Eigenschaft der Kollektorschaltung ist, dass sie zwar eine Spannungsverstä
 
 > [!question] Leistungsumsetzung
 $$\hat{U}_{a, \text { max }}=U_0 \frac{R_L}{R_E+R_L} \Rightarrow P_L=\frac{U_0^2}{2} \frac{R_L}{\left(R_E+R_L\right)^2}$$
-Maximale Leistung bei $R_L=R_E$ ([Leistungsanpassung](../../Elektrotechnik/Leistungsanpassung.md)):
+Maximale Leistung bei $R_L=R_E$ ([Leistungsanpassung](../../Elektrotechnik/Elektrische%20Netzwerke/Leistungsanpassung.md)):
 $$R_L=R_E \Rightarrow P_{L, \text{max}}=\frac{\hat{U}_{a, \text{max}}^2}{2 R_L}=\frac{U_0^2}{8 R_L}$$
 $$P_{\text{ges}}=\underbrace{ P_{L} }_{ \text{Verbraucher} }+\underbrace{ P_{T} }_{ \text{Transistor} }+\underbrace{ P_{RE} }_{ \text{Emitterwiderstand} }$$
 Das heißt dass die hälfte der maximalen Leistung an dem Verstärker selbst abfällt.

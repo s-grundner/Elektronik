@@ -22,7 +22,7 @@ Ein material, das gemischt konduktive und dielektrische Verluste aufweist, chara
 
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Verlustwinkel%202026-01-16%2019.40.26.excalidraw.md)%%
 
-Der Verlustwinkel ist ein Maß zur Güte von [reaktiven](Impedanz.md) Bauelementen ([Induktivität](Induktivität.md), [Kapazität](Kapazität.md)). Mit ihm lässt sich das Verhältnis des Reakiven anteils zum Resistiven anteil ausdrücken. 
+Der Verlustwinkel ist ein Maß zur Güte von [reaktiven](Elektrische%20Netzwerke/Impedanz.md) Bauelementen ([Induktivität](Elektrische%20Netzwerke/Induktivität.md), [Kapazität](Elektrische%20Netzwerke/Kapazität.md)). Mit ihm lässt sich das Verhältnis des Reakiven anteils zum Resistiven anteil ausdrücken. 
 
 ## Dielektrische Materialien
 
@@ -53,7 +53,7 @@ $$
 
 Aus
 
-- dem [Durchflutungssatz (MW1)](Maxwell.md#1.%20MWG%20-%20Durchflutungssatz) in [Phasorschreibweise](Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen),
+- dem [Durchflutungssatz (MW1)](Maxwell.md#1.%20MWG%20-%20Durchflutungssatz) in [Phasorschreibweise](Elektrische%20Netzwerke/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen),
 - der [komplexen Permittivität](Dielektrikum.md#Elektrodynamik%20-%20Allgemein)
 - und dem Materialgesetz [M2](Materialgesetze.md#^MATG) und [M3](Materialgesetze.md#^MATG)
 
@@ -73,7 +73,7 @@ $$
 
 Man kann erkennen, dass das die dielektrische Dämpfung bei einer einzigen frequenz nicht mehr unterscheidbar vom Verlust des Leitwertes ist. Wenn ein dielektrisches Medium verlustbehaftet ist, weiß man also nicht, ob der verlust von einem intrinsischen Leitwert $\sigma$, oder der Dämpfung des Dipolmoments $\epsilon''$ kommt. Der komplexe Faktor vor dem elektrischen Feld kann nun in Real und Imaginärteil  zerlegt werden. Dieser Faktor gilt noch für die gekoppelte MWG. Entkoppelt man die Gleichungen, erhält man für den Faktor die [komplexe Fortpflanzungskonstante](../Physik/Feldtheorie/Wellenzahl.md) $\gamma$.  Dieser ist in der [Helmholtzsche Differenzialgleichung](../HF-Technik/Helmholtzsche%20Differenzialgleichung.md) genauer erläutert.
 
-Die gekoppelte Betrachtung ist trotzdem sinnvoll, da diese Herangehensweise dann direkt auf die Strom und Spannungsbeziehung über komplexe [Impedanzen](Impedanz.md) um gemünzt werden kann. Beachtet man, dass der Verlustwinkel zwischen **Zeiger und Abzisse** (nicht der Ordinate!) liegt, berechnet sich der Winkel mit
+Die gekoppelte Betrachtung ist trotzdem sinnvoll, da diese Herangehensweise dann direkt auf die Strom und Spannungsbeziehung über komplexe [Impedanzen](Elektrische%20Netzwerke/Impedanz.md) um gemünzt werden kann. Beachtet man, dass der Verlustwinkel zwischen **Zeiger und Abzisse** (nicht der Ordinate!) liegt, berechnet sich der Winkel mit
 
 $$
 \begin{gather}

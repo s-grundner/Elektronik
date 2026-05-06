@@ -113,6 +113,8 @@ Die Design-Matrix besteht aus $N$ Zeilenvektoren von funktionen $(h_{k}[n])_{k=0
 > [!hint]- **Fehler durch Modellungenauigkeit:** Das Modell kann die Daten nur Akkurat annähern wann eine der Modellfunktionen Ähnlich zum Echten Modell ist.
 > z.B: Enthält das Echte Modell Einen Sinus Term, Wird der Parameter $\theta$ welches die Funktion $h[n] = \sin(n)$ gewichtet größer sein. Ist jedoch kein Sinus in den Modell Funktionen vorhanden, wird versucht der Sinus durch die Anderen Funktionen Angenähert zuu werden. Das kann in grenzfällen Schief gehen: bei einem Linearen Modell würde dann z.B. die Gerade konstant beim Mittelwert null gelegt werden.
 
+![invert_dark](../_assets/1238A117-43DC-48CC-B6C8-F0FC556B3549.jpg)
+
 > [!example]- Typische Formen von $\mathbf{H}$ sind z.B.
 > 
 > #### Gerade

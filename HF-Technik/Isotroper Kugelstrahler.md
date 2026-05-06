@@ -15,7 +15,7 @@ title: Isotroper Kugelstrahler
 
 # Isotroper Kugelstrahler
 
-> [!important] Der Isotrope Kugelstrahler ist eine theoretische [Antenne](Antenne.md), die die ihr zugeführte [Leistung](../Elektrotechnik/elektrische%20Leistung.md) gleichmäßiges in alle Richtungen abstrahlt.
+> [!important] Der Isotrope Kugelstrahler ist eine theoretische [Antenne](Antenne.md), die die ihr zugeführte [Leistung](../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md) gleichmäßiges in alle Richtungen abstrahlt.
 
 Die *Strahlungsleistungsdichte* $\vec{S}_{\mathrm{iso}}$ des isotropen Kugelstrahlers im *Abstand* $r$ kann aus der zugeführten Leistung $P$ und der *Kugeloberfläche* $O = 4\pi r^{2}$, auf die sich die  verteilt, berechnet werden und dient daher ideal als theoretische Bezugsgröße für die Abstrahlcharakteristik anderer Antenne.
 
@@ -59,7 +59,7 @@ Dieser Wert kann durch mehrere Methoden Hergeleitet werden.
 
 > [!question] [Radiansphäre](HF-Technik/Fernfeld%20und%20Nahfeld.md#Radiansphäre)
 
-Die komplexe [Scheinleistung](Elektrotechnik/elektrische%20Leistung.md) für einen [Dipol](HF-Technik/Hertzscher%20Dipol.md) ist
+Die komplexe [Scheinleistung](../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md) für einen [Dipol](HF-Technik/Hertzscher%20Dipol.md) ist
 
 $$
 P(r) = \eta\frac{\pi}{3} \left| \frac{I_{0}l}{\lambda}\right|^{2} \left( 1-\jmath \frac{1}{(kr)^{3}} \right) 

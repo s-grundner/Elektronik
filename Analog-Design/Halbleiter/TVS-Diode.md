@@ -30,7 +30,7 @@ Deshalb gibt es mehrere TVS-Dioden in einem einzigen Package.
 
 ### Arbeitsspannung
 
-Die Arbeitsspannung ist die maximale [elektrische Spannung](../../Elektrotechnik/elektrische%20Spannung.md), welche im Normalbetrieb auf der Leitung vorkommt. z.B. 3.3V
+Die Arbeitsspannung ist die maximale [elektrische Spannung](../../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md), welche im Normalbetrieb auf der Leitung vorkommt. z.B. 3.3V
 
 ### Klemmspannung
 
@@ -40,7 +40,7 @@ Obwohl sie immer noch signifikant höher ist als die Betriebsspannung, ist sie a
 Einen genauen Wert dafür findet man nur sehr schwer.  
 Man sollte im Datenblatt der TVS-Diode auf Verweise für typische Applikationen achten.
 
-### Intrinsische [Kapazität](../../Elektrotechnik/Kapazität.md)
+### Intrinsische [Kapazität](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md)
 
 Wie bei jedem Bauteil, gibt es gewisse parasitäre Kenngrößen, die im Inneren präsent sind. Bei der TVS Diode ist die Kapazität eine störende, dennoch unvermeidbare, Größe.  
 Bei TVS-Dioden mit hoher Kapazität besteht die Gefahr, dass sehr kurze ESD-Stöße nicht gefiltert werden können.  

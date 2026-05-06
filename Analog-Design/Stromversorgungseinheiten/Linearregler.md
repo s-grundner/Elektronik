@@ -14,7 +14,7 @@ title: Linear Regler
 
 # Linearregler
 
-Stabilisierung Und Regelung Von [elektrische Spannung](../../Elektrotechnik/elektrische%20Spannung.md)
+Stabilisierung Und Regelung Von [elektrische Spannung](../../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md)
 
 Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungsschaltung sind wiefolgt:
 1. Eingangsspannung und Toleranz
@@ -48,7 +48,7 @@ Die notwendigen Kenngrößen zur Beurteilung der Qualität einer Stabilisierungs
 > 
 > ![invert_light](../../_assets/Netzteil_sch.png)
 
-Verlauf der [elektrische Spannung](../../Elektrotechnik/elektrische%20Spannung.md):
+Verlauf der [elektrische Spannung](../../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md):
 - Rot: vor der Stufe
 - Gelb: nach der Stufe
 

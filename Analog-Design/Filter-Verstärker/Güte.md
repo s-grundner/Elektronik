@@ -17,8 +17,8 @@ release: true
 
 Beschreibt, wie stark das Resonanzverhalten ausgeprägt ist.
 
-- Güte vom [Kondensator](../../Elektrotechnik/Kapazität.md): dünnes [Dielektrikum](../../Elektrotechnik/Dielektrikum.md) $\to$ hohe Güte
-- Güte der [Spule](../../Elektrotechnik/Induktivität.md): geringer Serienwiderstand $\to$ hohe Güte
+- Güte vom [Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md): dünnes [Dielektrikum](../../Elektrotechnik/Dielektrikum.md) $\to$ hohe Güte
+- Güte der [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md): geringer Serienwiderstand $\to$ hohe Güte
 
 > [!hint] Bauelement mit der geringsten Güte dominiert die Gesamtgüte.
 > Gute Dielektrika sind in Echt leichter zu realisieren als ein geringer Serienwiderstand in einem Draht.

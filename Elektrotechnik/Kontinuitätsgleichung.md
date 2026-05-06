@@ -24,7 +24,7 @@ $$
 
 > [!question] Herleitung der Kontinuitätsgleichung
 > 
-> Eine von Ladung pro Zeiteinheit durchsetzte Fläche ist der [elektrische Strom](elektrischer%20Strom.md) $i(t)$:
+> Eine von Ladung pro Zeiteinheit durchsetzte Fläche ist der [elektrische Strom](Elektrostatik/elektrischer%20Strom.md) $i(t)$:
 > 
 > $$i(t)= -\frac{\mathrm{d}Q}{\mathrm{d}t}$$
 > 

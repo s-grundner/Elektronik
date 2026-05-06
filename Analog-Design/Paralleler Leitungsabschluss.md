@@ -32,15 +32,15 @@ release: true
 | ![](../_assets/SignalIntegritätReflexionSchlecht.png) | ![](../_assets/SignalIntegritätReflexion.png)                   |
 
 > [!BUG] Nachteile
-> - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Elektrotechnik/elektrische%20Leistung.md) an $R_{T}$ zu versorgen.
-> - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv [Strom](../Elektrotechnik/elektrischer%20Strom.md) verbraucht.
+> - Die Quelle stark genug sein das Signal an der Last, sowie die abfallende [Leistung](../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md) an $R_{T}$ zu versorgen.
+> - Wenn die Quelle im passiven Zustand eine Spannung $\neq V_{T}$ ausgibt wird passiv [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) verbraucht.
 > - Große parallele Busse (z.B. DDR) die für jede [Leitung](../HF-Technik/Eingangsimpedanz.md) einen $R_{T}$ benötigen:
 > 	- Obere Aspekte haben stärkeren Einfluss
 > 	- komplexes Routing
 > 	- benötigt viel Platz
 
 > [!TIP] Tips
-> - $V_{TT}$ wählen, dass wenig [Leistung](../Elektrotechnik/elektrische%20Leistung.md) wie möglich verschwendet wird.
+> - $V_{TT}$ wählen, dass wenig [Leistung](../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md) wie möglich verschwendet wird.
 > - Toleranz bei $Z_{0}$ ($5\%, 10\%$) beachten
 > - Toleranz bei $R_{T}$ ($1\%, 10\%$) beachten
 > - Um Undershoot ($R_{T}<Z_{0}$) zu vermeiden $\to$ *$R_{T}$ $10\%$ höher als $Z_{0}$ wählen*

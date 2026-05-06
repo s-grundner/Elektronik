@@ -20,7 +20,7 @@ title: Boost Converter
 
 $$ U_{a}\approx U_{e} \cdot \frac{1}{1-DC} $$
 Während der Einschaltphase des [Transistors](../Halbleiter/Transistor.md) $(T)$ Fällt die Eingangsspannung $U_{e}$ an der Indukitivät $(L)$ ab.  
-Schaltet der [Transistor](../Halbleiter/Transistor.md) $(T)$ ab, so fließt der [Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{L}$ über die [Diode](../Halbleiter/Diode.md) (D) weiter und lädt den [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{a}$.
+Schaltet der [Transistor](../Halbleiter/Transistor.md) $(T)$ ab, so fließt der [Strom](../../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) $I_{L}$ über die [Diode](../Halbleiter/Diode.md) (D) weiter und lädt den [Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) $C_{a}$.
 
 ## Impuls-Zeit Diagramm
 
@@ -28,18 +28,18 @@ Schaltet der [Transistor](../Halbleiter/Transistor.md) $(T)$ ab, so fließt der 
 
 > [!info] $0<t<t_{1}$: $S_{\text{geschlossen}}$
 > 
-> Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](../../Elektrotechnik/Induktivität.md).
->  - Dabei *speichert die [Spule](../../Elektrotechnik/Induktivität.md) Energie*.
+> Bei geschlossenen Schalter $S$ $(T)$ liegt $U_{e}$ über $L$ an und treibt $I_{L}$ durch die [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md).
+>  - Dabei *speichert die [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md) Energie*.
 >  - Die [Diode](../Halbleiter/Diode.md) sperrt in dieser Zeit.
->  - Der [Kondensator](../../Elektrotechnik/Kapazität.md) $C_{A}$ liefert den [Strom](../../Elektrotechnik/elektrischer%20Strom.md) für den Verbraucher.
+>  - Der [Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) $C_{A}$ liefert den [Strom](../../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) für den Verbraucher.
 
 
 > [!info] $t_{1}<t<T_{s}$: $S_{\text{geöffnet}}$
 > 
-> Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../../Elektrotechnik/Induktivität.md), aufgrund der in ihr gespeicherten Energie den [Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
+> Nach dem öffnen von $S$ $(T)$ treibt die [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md), aufgrund der in ihr gespeicherten Energie den [Strom](../../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) $I_{L}$, durch die, jetzt in *Druchlass-Richtung* liegende, [Diode](../Halbleiter/Diode.md).
 > 
-> Ein Teil der in der [Spule](../../Elektrotechnik/Induktivität.md) gespeicherten Energie, wird in der Sperrphase auf den [Kondensator](../../Elektrotechnik/Kapazität.md) übertragen.  
-> $\rightarrow$ [**Sperrwandler**](Sperrwandler.md), Da die [Spule](../../Elektrotechnik/Induktivität.md) dem [Kondensator](../../Elektrotechnik/Kapazität.md) nur in dieser Phase [Strom](../../Elektrotechnik/elektrischer%20Strom.md) liefert.
+> Ein Teil der in der [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md) gespeicherten Energie, wird in der Sperrphase auf den [Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) übertragen.  
+> $\rightarrow$ [**Sperrwandler**](Sperrwandler.md), Da die [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md) dem [Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) nur in dieser Phase [Strom](../../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) liefert.
 
 ### Herleitung
 
@@ -79,7 +79,7 @@ $t_{aus}= T_{S} - t_{1}$
 $DC = \frac{t_{ein}}{T_{S}}$  
 $1-DC = \frac{t_{aus}}{T_{S}}$
 
-## [Induktivität](../../Elektrotechnik/Induktivität.md)
+## [Induktivität](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md)
 
 Die Mindestinduktivität wird mittelt de, Mindestlaststrom Berechnet
 
@@ -89,7 +89,7 @@ $A_{+}$ = $A_{-}$ (Fläche zwischen dem Stromverlauf von $\Delta I_{L}$ und $I_{
 
 ![invert_light](../../_assets/notes/BoostIminLmin.png)
 
-## [Kapazität](../../Elektrotechnik/Kapazität.md)
+## [Kapazität](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md)
 
 ![invert_light](../../_assets/BuckBoostDisconID.png)  
 $I_{a,min}$ = $\overline{I_{D}}$ 

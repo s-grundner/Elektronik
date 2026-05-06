@@ -16,13 +16,13 @@ release: false
 
 > [!quote] **LUIGI GALVANI (1750)**, **ALESSANDRO VOLTA (1800)**  
 > 
-> Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md).  
+> Bei Kontakt unterschiedlicher [Metalle](Metallbindung.md) mit einer Elektrolytlösung entsteht [elektrische Spannung](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md).  
 > Elektrolyte (oder [elektrische Leiter](Metallbindung.md) 2. Klasse) Lösungen / Schmelzen welche Ionen enthalten  
 > $\rightarrow$ sind Leitfähig
 
 ## Elektrolyse
 
-Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit [Strom](../Elektrotechnik/elektrischer%20Strom.md).
+Abscheidung von Stoffen durch [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) beziehungsweise Zerlegung mit [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md).
 
 >[!EXAMPLE] Elektrolyse von $CuCl_{2}$ ([Kupfer](Materialkunde/Kupfer.md)(II)-chlorid Lösung)  
 >![#invert_light|350](../_assets/Cucl.png)
@@ -39,12 +39,12 @@ Abscheidung von Stoffen durch [Strom](../Elektrotechnik/elektrischer%20Strom.md)
 
 ### Berechnung Elektrolytischer Vorgänge
 
-Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/elektrisches%20Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
+Die durch die Elektrolyte geflossene [Ladung](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) $Q$ (Elektrizitätsmenge) ist das Produkt aus der [Stromstärke](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) $I$ und der Dauer des Stromflusses $t$:  
 $Q=I\cdot t$  
 Faraday Konstante: $F = 96485 \frac{As}{mol}$
 
-> [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige [Ladung](../Elektrotechnik/elektrisches%20Feld.md)  
-Wie viel [Ladung](../Elektrotechnik/elektrisches%20Feld.md) benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
+> [!EXAMPLE] Berechnung der für eine Elektrolyse notwendige [Ladung](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md)  
+Wie viel [Ladung](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) benötigt man um aus Kupfersalzlösung 1kg Cu abzuscheiden?  
 $Cu^{2+} + 2e^{-}\longrightarrow Cu\downarrow$
 
 ---
@@ -56,7 +56,7 @@ $Q = 15.78mol\cdot F \cdot 2$
 **$Q = 3.03\cdot 10^{3}As$**
 
 > [!EXAMPLE] Berechnung der bei einer Elektrolyse abgeschiedenen Masse  
-Wie viel [Silber](Materialkunde/Silber.md) (Ag) kann ein [Strom](../Elektrotechnik/elektrischer%20Strom.md) von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
+Wie viel [Silber](Materialkunde/Silber.md) (Ag) kann ein [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) von $10A$ in $20s$ aus einer Silbersalzlösung abscheiden?  
 $Ag^{+} + e^{-} \longrightarrow Ag$  
 
 $Q=I\cdot t = 200As$
@@ -70,8 +70,8 @@ $107g\dots 1mol$
 $m\ g\dots 2.072\cdot10^{-3}$  
 **$m = 0.2235g$**
 
-> [!EXAMPLE] Berechnung der für eine Elektrolyse erforderlichen [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md)  
-Welche [Stromstärke](../Elektrotechnik/elektrischer%20Strom.md) benötigt man wenn man aus einer Silbersalzlösung in 30min 54g Ag abscheiden will?  
+> [!EXAMPLE] Berechnung der für eine Elektrolyse erforderlichen [Stromstärke](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md)  
+Welche [Stromstärke](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) benötigt man wenn man aus einer Silbersalzlösung in 30min 54g Ag abscheiden will?  
 $Ag^{+}+e^{-}\longrightarrow Ag$  
 $30min = 1800s$
 
@@ -106,7 +106,7 @@ Je leichter ein [Metall](Metallbindung.md) in Lösung geht, desto unedler ist es
 
 ### Galvanisches Element
 
-elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
+elektrochemische [Spannungsquelle](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) bestehend aus 2 Halbelementen die durch eine Membran getrennt sind.  
 ![675](../_assets/DaniellEL.png)  
 [Daniell-Element](Daniell-Element.md)
 
@@ -120,14 +120,14 @@ elektrochemische [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) 
 > 4. Stromkreis ist geschlossen
 > 
 
-#### Welche [Spannung](../Elektrotechnik/elektrische%20Spannung.md) Entsteht
+#### Welche [Spannung](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) Entsteht
 
 Spannung bei Kupfersulfat ($Cu-Zn$) Element: $1.11V$  
 Spanung $U$ ergibt sich aus der Differenz der Metallpotentiale $E°$:  $U = E_{edel} - E_{unedel}$
 
 ### Standard-Wasserstoffelektrode
 
-[Spannung](../Elektrotechnik/elektrische%20Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
+[Spannung](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) eines einzelnen Metalls kann nicht angegeben werden.  
 Vermessung gegen eine Bezugselektrode ist notwendig.  
 $\rightarrow$ *Standard-Wasserstoffelektrode* willkürliches Potential von $H = 0$  
 

@@ -20,7 +20,7 @@ title: Antenne
 ## Grundbegriffe und Kenngrößen
 
 Antennen erzeugen und empfangen [index](../Physik/Feldtheorie/index.md), die sich im freien Raum ausbreiten:
-- Im Sendefall: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../Elektrotechnik/elektrische%20Leistung.md) möglichst effizient in eine EM-Welle um.
+- Im Sendefall: Antenne wandelt an die an ihrem [Tor](Streuparameter.md) zugeführte [Leistung](../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md) möglichst effizient in eine EM-Welle um.
 - Im Empfangsfall: Die Antenne nimmt aus einen EM-Wellenfeld Energie auf und stellt diese an ihrem [Netzwerktor](Streuparameter.md) zur Verfügung.
 
 ### Antennen als Wellentypwandler
@@ -38,12 +38,12 @@ Antennen erzeugen und empfangen [index](../Physik/Feldtheorie/index.md), die sic
 
 > [!hint] Der Sende und Empfangsfall sind [reziprok](../Dictionary/Reziprok.md).
 > 
-> Die Strahlungseigenschaften und auch die [Impedanz](../Elektrotechnik/Impedanz.md) sind im Sende und Empfangsfall gleich.
+> Die Strahlungseigenschaften und auch die [Impedanz](../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md) sind im Sende und Empfangsfall gleich.
 > Dieser Zusammenhang wird als Reziprozität bezeichnet.
 > 
 > Praktisch:
 > - Die Antenne gibt im Sendefall ihre maximale Strahlungdichte in eine Richtung ab.
-> - Ebenso koppelt die Antenne im Empfangsfall die maximale [Leistung](../Elektrotechnik/elektrische%20Leistung.md) einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
+> - Ebenso koppelt die Antenne im Empfangsfall die maximale [Leistung](../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md) einer Welle aus, wenn sie aus einer bestimmten Richtung auf die Antenne trifft.
 
 ### Richtwirkung
 

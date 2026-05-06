@@ -111,6 +111,6 @@ $\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/F
 
 > [!info] Die perfekt leitfähige Grenzfläche agiert als eine "elektrische Wand"
 > 
-> Die Grenzfläche liegt überall auf dem gleichen [elektrischen Potenzial](elektrische%20Spannung.md). Die **tangential** komponenten des $\mathbf{E}$-Feldes sind daher "Kurzgeschlossen".
+> Die Grenzfläche liegt überall auf dem gleichen [elektrischen Potenzial](Elektrostatik/elektrische%20Spannung.md). Die **tangential** komponenten des $\mathbf{E}$-Feldes sind daher "Kurzgeschlossen".
 
 Normal zur fläche kann sehr wohl ein Elektrisches Feld existieren. Als vergleich der Plattenkondensator.

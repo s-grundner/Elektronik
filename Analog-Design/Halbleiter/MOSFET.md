@@ -88,7 +88,7 @@ Die größe eines Mosfets kann durch die Gatebreite $W$ und Gatelänge $L$ einge
 	- Device Speed
 	- Ausgangsleitwert $g_{\mathrm{ds}}$
 	- Device to Device Matching
-- $W$ ist eher ein Skalierungsparameter um die [Stromdichte](../../../Elektrotechnik/Stromdichte.md) (Strenggenommen Ladungsdichte) Anzupassen, um den Maximalstrom einzustellen
+- $W$ ist eher ein Skalierungsparameter um die [Stromdichte](../../Elektrotechnik/Elektrostatik/Stromdichte.md) (Strenggenommen Ladungsdichte) Anzupassen, um den Maximalstrom einzustellen
 
 ### Betriebsmodi
 

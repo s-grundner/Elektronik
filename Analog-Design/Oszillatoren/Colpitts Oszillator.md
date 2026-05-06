@@ -20,15 +20,15 @@ title: Colpitts Oszillator
 
 Besteht aus Emitter/Basis/Kollektor Schaltung mit einer Rückkopplung:
 
-| Colpitts: [kapazitiv](../../Elektrotechnik/Kapazität.md) | Hartley: [induktiv](../../Elektrotechnik/Induktivität.md) | Meissner: transformatorisch                              |
+| Colpitts: [kapazitiv](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) | Hartley: [induktiv](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md) | Meissner: transformatorisch                              |
 | ----------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
 | ![invert_dark\|300](../../_assets/ColpittsKapazitiv.svg)        | ![invert_dark\|300](../../_assets/HartleyInduktiv.svg)             | ![invert_dark\|200](../../_assets/meissnerTransfomatorisch.svg) |
 
 Häufigste Kombination: Colpitts Oszillator (mit kapazitiver Rückkopplung)  
 Vorteil: 
 
-- einfache [Kapazitäten](../../Elektrotechnik/Kapazität.md)
-- nur eine [Induktivität](../../Elektrotechnik/Induktivität.md)  
+- einfache [Kapazitäten](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md)
+- nur eine [Induktivität](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md)  
 Schwingt wenn die Schleifenverstärkung $=1$ und die Phasendrehung über die Schlefe $0\degree$ bzw. $k\cdot2\pi$ ist.
 
 $$

@@ -58,7 +58,7 @@ $$
 
 > [!question]- **Herleitung**
 >
-> [Knotenregel](../../Elektrotechnik/Kirchhoffsche%20Regeln.md)
+> [Knotenregel](../../Elektrotechnik/Elektrische%20Netzwerke/Kirchhoffsche%20Regeln.md)
 > 
 > $$
 > \begin{align}

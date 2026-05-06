@@ -47,6 +47,7 @@ $$
 wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (manchmal auch $\hat{\imath}, \hat{\jmath}, \hat{k}$ genannt).
    
 > [!hint] Der Nabla-Operator lässt sich sowohl auf
+> 
 > - partiell differenzierbare **Skalarfelder** ($f:A\to \mathbb{R}$)
 > - als auch auf partiell differenzierbare **Vektorfelder** ($f:A \to \mathbb{R}^{n}, n \in\mathbb{N}$)
 > 
@@ -55,6 +56,7 @@ wobei $\mathbf{e}_{x, y, z}$ die Einheitsvektoren in $x, y, z$-Richtungen sind (
 Der Nabla-Operator ist Operator und [Vektor](../../Algebra/Vektor.md) in einem, d.h. mit inm lässt sich wie mit einem Vektor rechnen, d.h. es gelten die Verknüpfungen wie [Skalarprodukt](../../Algebra/Skalarprodukt.md) und [Kreuzprodukt](../../Algebra/Kreuzprodukt.md)
 
 > [!important] Verschiedene Vektorielle Verknüpfungen des Nabla Operators mit dem [index](index.md) $\mathbf{F}$ haben spezielle Namen:
+> 
 > - [Gradient](Gradient.md): $\mathrm{grad} \,\mathbf{F} = \nabla \mathbf{F}$
 > - [Divergenz](Divergenz.md): $\mathrm{div}\, \mathbf{F} = \nabla \cdot\mathbf{F}$
 > - [Rotation](Rotor.md): $\mathrm{rot}\, \mathbf{F} = \nabla \times \mathbf{F}$
@@ -83,8 +85,21 @@ Dabei muss man die Produktregel anwenden, wenn der Nabla-Operator links von eine
 | (xi)   | $\nabla \times (\nabla \times \boldsymbol{A}) = \nabla (\nabla \cdot \boldsymbol{A}) - \Delta \boldsymbol{A}$                                                                                                                                             | Rotation des Rotationsoperators ($\Delta$ vektorieller [Laplace Operator](Laplace%20Operator.md)) |
 ^T1
 
-Zu (xi): Rotor des Rotors $\iff$ Gradient der Divergenz $-$ Divergenz des Gradienten
+Zu *(xi)*: Rotor des Rotors $\iff$ Gradient der Divergenz $-$ Divergenz des Gradienten
 
----
 
-- [[Laplace Operator]]
+## Beispiele
+
+> [!example] Es sei $\mathbf{E}$ (*Vektorfeld*) der Vektor des stationären elektrischen Feldes und $\varphi$ (*Skalar*) das zugehörige elektrische Potential. Welche der folgenden Ausdrücke sind gültig?
+> 
+> - [x] $\operatorname{div}\underbrace{ \operatorname{grad}\varphi }_{ \text{Vektor} } \to$ Skalar
+> - [x] $\operatorname{grad}\underbrace{ \operatorname{div}\mathbf{E} }_{ \text{Skalar} } \to$ Vektorfeld
+> - [-] $\operatorname{div}\varphi$
+> - [-] $\operatorname{div}\operatorname{div}\mathbf{E}$
+> - [x] $\operatorname{rot}\underbrace{ \operatorname{rot}\mathbf{E} }_{ \text{Vektor} } \to$ Vektorfeld
+> - [x] $\operatorname{div}\underbrace{ \operatorname{rot}\mathbf{E} }_{ \text{Vektor} } \to$ Skalar
+
+
+## Referenzen
+
+- [Laplace Operator](Laplace%20Operator.md)

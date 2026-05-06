@@ -18,7 +18,11 @@ title: Zustandsbeobachter
 
 # Lineare Zustandsbeobachtung
 
+
+> [!question] **Zustandsraummethoden**, [Regelungstechnik](../Regelungstechnik/index.md)
+
 :LiRefreshCcw: [Zustandsregler](../Zeitkontinuierlich/Zustandsregler.md) 
+:LiArrowBigRightDash: [Beobachtbarkeit](../Zeitkontinuierlich/Beobachtbarkeit.md)
 
 ---
 

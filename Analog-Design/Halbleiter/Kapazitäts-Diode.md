@@ -21,7 +21,7 @@ release: true
 > [!question] [Diode](Diode.md)
 
 - Mit der Kapazitätsdiode lassen sich elektrisch steuerbare Kapazität realisieren.
-- Durch Änderung der angelegten Spannung lässt sich eine Variation der [Kapazität](../../Elektrotechnik/Kapazität.md) von 10:1 erreichen.  
+- Durch Änderung der angelegten Spannung lässt sich eine Variation der [Kapazität](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) von 10:1 erreichen.  
 - Durch geeignete Dotierung können Kapazitäten im Bereich von 3 pF bis 300 pF erreicht werden.
 
 ![invert_light|200](../../_assets/varicap.png)

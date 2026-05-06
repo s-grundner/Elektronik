@@ -2,6 +2,7 @@
 tags:
   - Systeme/LTI
   - Systeme/Kontinuierlich
+  - Regelungstechnik/Zustandsraummethoden
 aliases:
   - Zustandsregelung
   - Regelungsnormalform
@@ -9,8 +10,9 @@ keywords:
 subject:
   - VL
   - Regelungstechnik
-semester: SS25
-created: 4th April 2025
+  - KV
+semester: SS26
+created: 22nd February 2026
 professor:
 release: false
 title: Zustandsregler
@@ -18,16 +20,17 @@ title: Zustandsregler
 
 # Lineare Zustandsregelung
 
-> [!question] [Regelungstechnik](../Regelungstechnik/index.md)
+> [!question] **Zustandsraummethoden**
 
 :LiRefreshCcw: [Zustandsbeobachter](Zustandsbeobachter.md)
-:LiArrowBigRightDash: [Erreichbarkeit](Erreichbarkeit.md)
+:LiArrowBigRightDash: [Erreichbarkeit](../Zeitkontinuierlich/Erreichbarkeit.md)
 
 ---
 
-Für ein [LTI-System](LTI-Zustandsraum.md) ist die Zustandsregelung eine Vorschrift der Form
+Für ein [LTI-System](../Zeitkontinuierlich/LTI-Zustandsraum.md) ist die Zustandsregelung eine Vorschrift der Form
 
-> [!def] **Regelgesetz)** ^REGG
+> [!info] **Regelungs-Gesetz** ^REGG
+> 
 > - MIMO: $\mathbf{u} = \mathbf{Kx} + \mathbf{v}$
 > - SISO:  $u = \mathbf{k}^\mathrm{T}\mathbf{x} + v$
 
@@ -46,9 +49,9 @@ Man erkennt, dass zur implementierung des Zustandsregler die Messung aller Zusta
 
 ## Eingrößen-Zustandsregelung (zeitkontinuierlich)
 
-Betrachtet wird zunächst das eingrößensystem ![eingrößen System](LTI-Zustandsraum.md#^LTI-SISO)
+Betrachtet wird zunächst das eingrößensystem ![eingrößen System](../Zeitkontinuierlich/LTI-Zustandsraum.md#^LTI-SISO)
 
-Die Erreichbarkeit des Systems ist gegeben durch ![SISO](Erreichbarkeit.md#^SISO)
+Die Erreichbarkeit des Systems ist gegeben durch ![SISO](../Zeitkontinuierlich/Erreichbarkeit.md#^SISO)
 
 Der Reglerentwurf für das Eingrößensysteme wird in einem speziellen Koordinatensystem besonders einfach. Die Systemmatrix soll dafür nach dem Basiswechsel eine spezielle Form haben, welche die folgende Eigenschaft hat:
 

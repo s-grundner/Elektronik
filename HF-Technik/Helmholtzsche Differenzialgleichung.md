@@ -20,17 +20,17 @@ title: Helmholzsche Differenzialgleichung
 
 > [!question] [Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md) für Sinusgrößen 
 
-Die Allgemeine herangehensweise nach D'Alembert im Zeitbereich betrachtet sowohl  $\frac{\partial }{\partial t}$ und $\frac{\partial }{\partial \mathbf{x}}$, welche die Analyse und Lösung der Gleichungen erschwert. Für Sinusförmige größen, welche mit nur einer Frequenz schwingen, lassen sich vereinfachungen der [komplexen Wechselstromrechnung](../Elektrotechnik/Wechselstromtechnik.md) anwenden.
+Die Allgemeine herangehensweise nach D'Alembert im Zeitbereich betrachtet sowohl  $\frac{\partial }{\partial t}$ und $\frac{\partial }{\partial \mathbf{x}}$, welche die Analyse und Lösung der Gleichungen erschwert. Für Sinusförmige größen, welche mit nur einer Frequenz schwingen, lassen sich vereinfachungen der [komplexen Wechselstromrechnung](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) anwenden.
 
-> [!hint]  In der [Wechselstromtechnik](../Elektrotechnik/Wechselstromtechnik.md) kann eine Differenzation nach der Zeit durch eine Multiplikation mit $j\omega$ substituiert werden.
+> [!hint]  In der [Wechselstromtechnik](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) kann eine Differenzation nach der Zeit durch eine Multiplikation mit $j\omega$ substituiert werden.
 
 Die Telegraphengleichungen werden dann von der [Wellengleichung](../Physik/Feldtheorie/Wellengleichung.md) zu einer gewöhnliche [DGL 2. Ordnung](../Mathematik/Analysis/Differentialgleichungen/lineare%20DGL%202.%20Ordnung.md).
 
 ## Telegrafengleichung - Ausbreitung des E und H-Feldes in einem Medium
 
-Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\mathbf{E}$ ([elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md)) und $\mathbf{H}$ ([magnetisches Feld](../../Elektrotechnik/Magnetisches%20Feld.md)), dessen Zusammenhang mit den [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen beschreiben werden, lässt sich die Wellengleichung für die Feldkomponenten herleiten.
+Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\mathbf{E}$ ([Elektrisches Feld](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md)) und $\mathbf{H}$ ([magnetisches Feld](../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md)), dessen Zusammenhang mit den [Maxwell](../../Elektrotechnik/Maxwell.md) Gleichungen beschreiben werden, lässt sich die Wellengleichung für die Feldkomponenten herleiten.
 
-> [!hint] [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md) $\mathbf{E} = \mathrm{Re}\{\mathbf{\underline{E}}\cdot e^{ j\omega t}\}$, $\mathbf{E} = f(\mathbf{x},t)$, $\mathbf{\underline{E}} = f(\mathbf{x})$
+> [!hint] [Phasorschreibweise](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) $\mathbf{E} = \mathrm{Re}\{\mathbf{\underline{E}}\cdot e^{ j\omega t}\}$, $\mathbf{E} = f(\mathbf{x},t)$, $\mathbf{\underline{E}} = f(\mathbf{x})$
 
 > [!hint] Die gleiche herangehensweise kann auch in der [Zeitbereichsbetrachtung](../Physik/Feldtheorie/Wellengleichung.md) verwendet werden.
 
@@ -52,7 +52,7 @@ Für eine Ausbreitung der gekoppelten [Vektorfelder](Vektoranalysis/index.md) $\
 > [!warning] Damit die Vereinfachung gilt, muss dass [Material](../Elektrotechnik/Materialgesetze.md) des Wellenleiters **linear**, **isotrop** und **homogen** sein. 
 > - $\mu$ und $\varepsilon$ sind konstante skalare und reelle Werte.
 
-Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustlosen* [dielektrisches](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma = 0; \rho=0; \epsilon,\mu\in \mathbb{R}$) und erhält folgende gekoppelte partielle DGLen:
+Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustlosen* [dielektrisches](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma = 0; \rho=0; \epsilon,\mu\in \mathbb{R}$) und erhält folgende gekoppelte partielle DGLen:
 
 - [M1](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW1](../Elektrotechnik/Maxwell.md#^MW1): $\nabla\times\mathbf{\underline{E}} = -j\omega\mu\mathbf{\underline{H}}$
 - [M2](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW2](../Elektrotechnik/Maxwell.md#^MW2): $\nabla\times\mathbf{\underline{H}} = j\omega\epsilon\mathbf{\underline{E}}$
@@ -127,7 +127,7 @@ Wobei die reellen konstanten $E^{+}$ und $E^{-}$ durch Rand- oder Anfangswerte e
 > [!warning] Damit die Vereinfachung gilt, muss dass Material des Wellenleiters **linear**, **isotrop** und **homogen** sein. 
 > - $\mu$ und $\varepsilon$ sind konstante skalare und komplex Werte.
 
-Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustbehafteten* [dielektrischen](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma \neq 0; \rho=0; \epsilon,\mu\in \mathbb{C}$). Berücksichtig man nun die Leitungsstromdichte $\mathbf{\underline{ J }}_{l} = \sigma\mathbf{\underline{ E }}$, erhält folgende gekoppelte partielle DGLen:
+Man betrachtet die [Materialgesetze](../Elektrotechnik/Materialgesetze.md) und [Maxwell](../Elektrotechnik/Maxwell.md)-Gleichungen in [Phasorschreibweise](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) in einem *verlustbehafteten* [dielektrischen](../Elektrotechnik/Dielektrikum.md) Medium ($\sigma \neq 0; \rho=0; \epsilon,\mu\in \mathbb{C}$). Berücksichtig man nun die Leitungsstromdichte $\mathbf{\underline{ J }}_{l} = \sigma\mathbf{\underline{ E }}$, erhält folgende gekoppelte partielle DGLen:
 
 - [M1](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW2](../Elektrotechnik/Maxwell.md#^MW2): $\nabla\times\mathbf{\underline{ E }} = -j\omega\mu\mathbf{\underline{ H }}$
 - [M2, M3](../Elektrotechnik/Materialgesetze.md#^MATG) $\to$ [MW1](../Elektrotechnik/Maxwell.md#^MW1): $\nabla\times\mathbf{\underline{ H }} = j\omega\epsilon\mathbf{\underline{ E }} + \sigma\mathbf{\underline{ E }}$

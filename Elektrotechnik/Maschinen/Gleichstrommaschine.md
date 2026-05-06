@@ -80,7 +80,7 @@ Berechnungsgrundlagen zum stationären Betriebsverhalten **fremderregter** GSM. 
 | --------------------------------------------------------------- | ---------------------- | -------- | ------------------------------------ |
 | Drehmoment                                                      | $M$                    | $Nm$     |                                      |
 | Drehzahl                                                        | $\omega = 2\pi n$      | $s^{-1}$ | Für $n$ Umdrehungen pro Sekunde      |
-| [Induzierte Spannung](../Induktivität.md#Induzierte%20Spannung) | $U_{q}$                | $V$      |                                      |
+| [Induzierte Spannung](../Elektrische%20Netzwerke/Induktivität.md#Induzierte%20Spannung) | $U_{q}$                | $V$      |                                      |
 | Ankerpannung                                                    | $U_{A}$                | $V$      | Mit Verlust über die Ankerimpedanzen |
 | Ankerwiderstand                                                 | $R_{A}$                | $\Omega$ |                                      |
 | Ankerinduktivität                                               | $L_{A}$                | $H$      |                                      |
@@ -156,8 +156,8 @@ Unter Angabe des Trägheitsmomentes $J$ der Maschine gilt der Drallsatz
 
 Die Zusammenschaltung von Erreger- und Ankerwicklung kann in verschiedener Weise erfolgen. Wichtige Größen und Konzepte sind: 
 
-- [Reluktanz](Reluktanz.md)
-- [Magnetkreis](Magnetkreis.md)
+- [Reluktanz](../Magnetostatik/Reluktanz.md)
+- [Magnetkreis](../Magnetostatik/Magnetkreis.md)
 - [koerzitiv Feldstärke](../../Physik/Permanentmagnet.md)
 
 ### Fremderregung

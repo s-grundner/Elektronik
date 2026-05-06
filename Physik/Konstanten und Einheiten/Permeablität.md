@@ -34,7 +34,7 @@ science: Elektromagentismus
 
 # Materialgesetz - Permeabilität
 
-> [!question] Themenkreis: [Magnetisches Feld](Magnetisches%20Feld.md), [Materialgesetze](../../Elektrotechnik/Materialgesetze.md)
+> [!question] Themenkreis: [Magnetisches Feld](../../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md), [Materialgesetze](../../Elektrotechnik/Materialgesetze.md)
 
 ---
 
@@ -102,7 +102,7 @@ Entfernt man das externe Magnetfeld, verbleiben die Bezirke noch ausgerichtet, w
 
 In Wechselfeldern müssen die dynamischen Eigenschaften des Materials berücksichtigt werden.
 
-> [!question] Unterstrichene Symbole deuten darauf hin, dass diese als [Phasor](Wechselstromtechnik.md) notiert sind.
+> [!question] Unterstrichene Symbole deuten darauf hin, dass diese als [Phasor](../../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) notiert sind.
 
 
 ---

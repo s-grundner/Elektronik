@@ -23,7 +23,7 @@ title: FIR-Filter
 > - Verstärkung
 > - Phasenverschiebung
 
-Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemtheorie/Zeitkontinuierlich/Übertragungsfunktion.md) beschrieben.
+Diese veränderungen werden mithilfe einer [Übertragungsfunktion](../../Systemtheorie/Frequenzbereichsmethoden/Übertragungsfunktion.md) beschrieben.
 
 ## Übertragungsfunktionen
 

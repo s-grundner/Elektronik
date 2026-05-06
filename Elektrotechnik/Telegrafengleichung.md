@@ -23,7 +23,7 @@ title: Telegraphengleichung
 
 > [!question] Vergleiche [Telegrafenleitungsgleichung](Telegrafenleitungsgleichung.md)
 
-Für eine Ausbreitung der gekoppelten [Vektorfelder](../Mathematik/Analysis/Vektoranalysis/index.md) $\mathbf{E}$ ([elektrisches Feld](elektrisches%20Feld.md)) und $\mathbf{H}$ ([magnetisches Feld](Magnetisches%20Feld.md)), dessen Zusammenhang mit den [Maxwell](Maxwell.md) Gleichungen beschreiben werden, lässt sich die Wellengleichung für die Feldkomponenten herleiten.
+Für eine Ausbreitung der gekoppelten [Vektorfelder](../Mathematik/Analysis/Vektoranalysis/index.md) $\mathbf{E}$ ([Elektrisches Feld](Elektrostatik/Elektrisches%20Feld.md)) und $\mathbf{H}$ ([magnetisches Feld](Magnetostatik/Magnetisches%20Feld.md)), dessen Zusammenhang mit den [Maxwell](Maxwell.md) Gleichungen beschreiben werden, lässt sich die Wellengleichung für die Feldkomponenten herleiten.
 
 > [!hint] Die gleiche herangehensweise kann auch bei der [Frequenzberechsbetrachtung](../../HF-Technik/Helmholtzsche%20Differenzialgleichung.md) verwendet werden.
 

@@ -16,7 +16,7 @@ title: Gradient
 
 # Gradient
 
-> [!def] **D1 - GRAD)** Gradient. Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A$
+> [!def] **D1 - GRAD)** Gradient. Sei $f: A \rightarrow \mathbb{R}, x=\left(x_1, \ldots, x_n\right) \in A \subseteq \mathbb{R}^{n}$
 > Ist $f$ [partiell](../Partielle%20Ableitung.md) differenzierbar in $x$, liefert der Gradient von $f$ den [Vektor](../../Algebra/Vektor.md) aller partiellen Ableitungen an der Stelle $x$:
 > 
 > $$

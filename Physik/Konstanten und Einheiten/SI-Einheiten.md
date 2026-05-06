@@ -66,6 +66,8 @@ title: SI-Einheiten
 
 **Magnetische Einheiten**
 
+| Physikalische Größe     | Symbol | Einheit      | Einheits-Symbol                                                 |
+| ----------------------- | ------ | ------------ | --------------------------------------------------------------- |
 | Magnetischer Fluss | $\Phi$ | Weber | $\mathrm{Wb = V~s}$
 | Magnetische Flussdichte | $B$ | Tesla | 
 

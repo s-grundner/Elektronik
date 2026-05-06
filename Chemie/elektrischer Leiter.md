@@ -23,9 +23,9 @@ title: elektrischer Leiter
 
 ---
 
-In einem elektrisch Leitfähigen Medium ist die Leitfähigkeit $\sigma$ der Zusammenhang zwischen Stromdichte und Elektrischen Feld ([Ohmsches Gesetz](../Elektrotechnik/Ohmsches%20Gesetz.md))
+In einem elektrisch Leitfähigen Medium ist die Leitfähigkeit $\sigma$ der Zusammenhang zwischen Stromdichte und Elektrischen Feld ([Ohmsches Gesetz](../Elektrotechnik/Elektrostatik/Ohmsches%20Gesetz.md))
 
-![](../Elektrotechnik/Ohmsches%20Gesetz.md#^S2-OHM)
+![](../Elektrotechnik/Elektrostatik/Ohmsches%20Gesetz.md#^S2-OHM)
 
 Diese Materialeigenschaft trägt zu den Verlusten in einem elektrischen Leiter bei (siehe [[../Elektrotechnik/Dielektrikum#V]])
 

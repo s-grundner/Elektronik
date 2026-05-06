@@ -4,11 +4,11 @@ title: Schirmung
 # Schirmung
 
 >[!INFO] Die Koppelkapazität teilt sich auf:  
->Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die [Kapazität](../Elektrotechnik/Kapazität.md) $C_{S2}$ zwischen Schrim und Nutzkreis.  
+>Die Wirksame Koppelkapazität $C_{K}$ wird reduziert auf die [Kapazität](../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) $C_{S2}$ zwischen Schrim und Nutzkreis.  
 >Bei gleicher Amplitude und $\frac{d}{dt}$ der [Störquelle](../Manufacturing/Störquelle.md) verringert sich damit die eingekoppelte Störspannung.  
 >![Pasted image 20230316091847](../_assets/Schirmung.png)
 
-Der Schirm muss jeweils aus gut leitendem Material bestehen, damit der über ihn abfließende [Strom](../Elektrotechnik/elektrischer%20Strom.md) keinen nennenswerten Spannungsabfall über der Schirmimpedanz $Z_{s} = R_{s}+j\omega L_{s}$ erzeugt.
+Der Schirm muss jeweils aus gut leitendem Material bestehen, damit der über ihn abfließende [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) keinen nennenswerten Spannungsabfall über der Schirmimpedanz $Z_{s} = R_{s}+j\omega L_{s}$ erzeugt.
 
 ![700](../_assets/SchirmLeiterbahn.png)
 

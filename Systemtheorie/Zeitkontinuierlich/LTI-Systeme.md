@@ -3,6 +3,8 @@ tags:
 aliases:
   - LTI-System
   - LTI-Systemen
+  - Impulsantwort
+  - Sprungantwort
 keywords:
 subject:
   - VL

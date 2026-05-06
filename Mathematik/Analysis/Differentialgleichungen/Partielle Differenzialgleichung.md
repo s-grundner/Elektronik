@@ -78,8 +78,8 @@ Dann Spricht man von Drichlét-RB
 
 Beispiel: [Maxwell](../../../Elektrotechnik/Maxwell.md) Gleichungen
 
-$\mathbf{E} \in \mathbb{R}^3$: [E-Feld](../../../Elektrotechnik/elektrisches%20Feld.md)
-$\mathbf{B} \in \mathbb{R}^3$ : [B-Feld](../../../Elektrotechnik/Magnetisches%20Feld.md)
+$\mathbf{E} \in \mathbb{R}^3$: [E-Feld](../../../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md)
+$\mathbf{B} \in \mathbb{R}^3$ : [B-Feld](../../../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md)
 $\rho \in\mathbb{R}$: Ladungsdichte, $\varepsilon_{0}\in\mathbb{R}$: [Permittivität](../../../Elektrotechnik/Dielektrikum.md) im Vakuum
 $\mathbf{J}\in \mathbb{R}^{3}$: Stromdichte
 

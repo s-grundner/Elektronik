@@ -37,7 +37,7 @@ Damit kann eine größere Klasse von Funktionen im Zeitbereich erfasst werden al
 
 Man überprüft mit dem neuen Term $e^st$ nicht nur die Korrelation mit $e^{ j\omega t}$ (also einer Frequenz) sondern zusätzlich mit einem Faktor $e^{ \sigma t}$, wobei man erkennen kann dass nur für negative $\sigma$ der Term für $t \to \infty$ verschwindet. Das System ist also auch nur dann stabil / besitzt einen konvergenten eingeschwungenenen zustand ($\implies$ existenz der Fouriertransformation). siehe [Stabilität des Systems](#Stabilität%20des%20Systems)
 
-Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, da ja $j\Im s = j\omega$. siehe [Übertragungsfunktion](../Zeitkontinuierlich/Übertragungsfunktion.md)
+Der Frequenzgang des Signals ist die Imaginärachse der Laplacetransformation, da ja $j\Im s = j\omega$. siehe [Übertragungsfunktion](Übertragungsfunktion.md)
 
 > [!question] Einseitigkeit:
 > 

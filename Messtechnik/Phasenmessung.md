@@ -13,7 +13,7 @@ title: Phasenmessung
 
 # Phasenmessung
 
-Zur Messung der Phase einer komplexen Größe in der [Wechselstromtechnik](../Elektrotechnik/Wechselstromtechnik.md) gibt es 2 Methoden:
+Zur Messung der Phase einer komplexen Größe in der [Wechselstromtechnik](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) gibt es 2 Methoden:
 
 > [!important] **Methode 1:** Kurvenvergleich
 > Es wird der Sinusförmige Spannungsverlauf an einem ohmschen und an einer komplexen Impedanz gemessen und die Zeit zwischen den Nulldurchgängen ausgewertet.

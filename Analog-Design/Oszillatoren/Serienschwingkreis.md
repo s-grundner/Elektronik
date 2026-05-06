@@ -89,7 +89,7 @@ Freie Schwingungen führt ein Schwingfähiges System aus, das – nach einer St�
 
 Um die Spannung der einzelnen Komponenten ab dem Zeitpunkt $t=0$ zu betrachten, wird nun aus den bekannten Eigenschaften der Bauteile eine [Differentialgleichung 2. Ordnung](../../Mathematik/Analysis/Differentialgleichungen/lineare%20DGL%202.%20Ordnung.md) hergeleitet.
 
-| Einfluss der [Spule](../../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensator](../../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstand](../../Elektrotechnik/Impedanz.md) |
+| Einfluss der [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md) | Einfluss des [Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md)      | Einfluss des [Widerstand](../../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md) |
 | --------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$    | $u_{C}(0) = U_{0}$                           | $u_{R}=i(t)\cdot R$                    |
 |                                   | $q(t)=C\cdot u_{C}(t)$                       |                                        |
@@ -109,7 +109,7 @@ $$
 
 --- 
 
-Ebenfalls kann die [Ladung](../../Elektrotechnik/elektrisches%20Feld.md) über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentialgleichung kommt.
+Ebenfalls kann die [Ladung](../../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) über die Zeit betrachtet werden, sodass man auf einen ähnlichen Ansatz für die Differentialgleichung kommt.
 
 $$
 \begin{align*}
@@ -160,7 +160,7 @@ die 3. Fälle der [DGL 2. Ordnung](../../Mathematik/Analysis/Differentialgleichu
 
 Bei einem erzwungenen [Schwingkreis](../../Physik/Kinematik/Schwingkreise.md) liegt am Eingang eine beliebige Spannung $U_{e}$, oder auch eine Funktion der Spannung $U_{e}(t)$ an.
 
-| Einfluss der [Spule](../../Elektrotechnik/Impedanz.md) | Einfluss des [Kondensators](../../Elektrotechnik/Impedanz.md)      | Einfluss des [Widerstands](../../Elektrotechnik/Impedanz.md) |
+| Einfluss der [Spule](../../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md) | Einfluss des [Kondensators](../../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md)      | Einfluss des [Widerstands](../../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md) |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
 | $u_{L}(t)=L\cdot\frac{di}{dt}$   | $i(t)=C\cdot\frac{du_{c}}{dt}$               | $u_{R}=i(t)\cdot R$                    |
 |                                  | $\frac{di}{dt}=C\cdot \frac{d^{2}u}{dt^{2}}$ |                                        |

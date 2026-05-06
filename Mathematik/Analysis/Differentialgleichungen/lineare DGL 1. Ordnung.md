@@ -48,7 +48,7 @@ $$
 | [Trennen der Variablen](../Trennen%20der%20Variablen.md) | Eine **homogene** lineare [DGL](index.md) 1. Ordnung lässt sich durch [Trennen der Variablen](../Trennen%20der%20Variablen.md) lösen.          |
 | [Exponentialansatz](../../Algebra/Exponentialansatz.md)             | Ist der **Koeffizient $p$** *konstant*, so kann die Lösung einfacher mit mit einem *[Exponentialansatz](../../Algebra/Exponentialansatz.md)* gefunden werden. |
 
-> [!example] Spannung am [Kondensator](../../../Elektrotechnik/Kapazität.md) beim Entladen.  
+> [!example] Spannung am [Kondensator](../../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) beim Entladen.  
 > ![200](../../../_assets/c_disch.png)
 
 ### Lösung der *inhomogenen* DGL 1. Ordnung

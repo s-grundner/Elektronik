@@ -8,7 +8,7 @@ release: true
 
 # Vielschichtkondensatoren - MLCC
 
-> [!info] [Kondensator](../Elektrotechnik/Kapazität.md) - Multilayer Ceramic Capacitors
+> [!info] [Kondensator](../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) - Multilayer Ceramic Capacitors
 
 ## Anwendung
 

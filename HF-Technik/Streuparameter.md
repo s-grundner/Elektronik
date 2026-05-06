@@ -98,7 +98,7 @@ $$
 U_\nu = \sqrt{Z_0} \cdot (a_\nu + b_\nu) \qquad I_\nu = \dfrac{1}{\sqrt{Z_0}} \cdot (a_\nu - b_\nu)
 $$
 
-Die [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) $U_\nu$ und der [Strom](../Elektrotechnik/elektrischer%20Strom.md) $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrotechnik/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
+Die [elektrische Spannung](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) $U_\nu$ und der [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) $I_{\nu}$ am Tor $\nu$ stehen über die nach außen wirkende [Impedanz](../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md) $Z_\nu$ miteinander in Beziehung:  
 
 $$
 Z_\nu = \dfrac{U_\nu}{I_\nu}
@@ -139,7 +139,7 @@ $$
 
 ## Zweitor
 
-Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Vierpol](../Analog-Design/Vierpol.md) -> 4 S-Parameter.
+Die Anzahl der Streuparameter ergibt sich aus dem Quadrat der Tore: [Vierpol](../Elektrotechnik/Elektrische%20Netzwerke/Vierpol.md) -> 4 S-Parameter.
 
 ![invert_light](../_assets/MGL-Zweitor.png)
 

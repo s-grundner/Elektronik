@@ -18,7 +18,7 @@ title: Konstantstromquelle
 
 # Konstantstromquelle Mit OPV
 
-> [!question] [OPV](index.md) | [Stromquelle](Stromquelle.md)
+> [!question] [OPV](index.md) | [Stromquelle](../../Elektrotechnik/Elektrische%20Netzwerke/Stromquelle.md)
 
 ## Unidirektionale Konstantstromquelle
 

@@ -64,7 +64,7 @@ $$
 
 ## Herleitung des gepufferten PSO
 
-> [!tip] [Kettenmatrizen](../Kettenmatrix.md) für die Herleitung  
+> [!tip] [Kettenmatrizen](../../Elektrotechnik/Elektrische%20Netzwerke/Kettenmatrix.md) für die Herleitung  
 > ![975](../../_assets/PSO-kette.png)
 
 $$
@@ -102,4 +102,4 @@ $$
 
 ## Referenzen
 
-- [Kettenmatrix](../Kettenmatrix.md)
+- [Kettenmatrix](../../Elektrotechnik/Elektrische%20Netzwerke/Kettenmatrix.md)

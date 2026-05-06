@@ -16,7 +16,7 @@ title: Permanentmagnet
 
 # Permanentmagnet
 
-> [!question] Themengebiet [Magnetisches Feld](../Elektrotechnik/Magnetisches%20Feld.md)
+> [!question] Themengebiet [Magnetisches Feld](../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md)
 
 ---
 
@@ -126,7 +126,7 @@ $\frac{\beta(\varphi)}{\beta}$ ist dabei ein Verhältnis das die tatsächliche W
 
 Ziel: $B_{\mathrm{m}}(H_{\mathrm{m}})$
 
-- [Durchflutung](../Elektrotechnik/Durchflutung.md): Masche aufstellen, dabei wird der Eisenkreis als ideal angenommen.
+- [Durchflutung](../Elektrotechnik/Magnetostatik/Durchflutung.md): Masche aufstellen, dabei wird der Eisenkreis als ideal angenommen.
 
 $$
 H_{\mathrm{m}}l_{\mathrm{m}} + H_{\delta}l_{\delta}+\underbrace{ H_{\text{Fe}}l_{\text{Fe}} }_{\approx 0} = 0
@@ -139,7 +139,7 @@ $$
 H_{\mathrm{m}}l_{\mathrm{m}} = -\frac{B_{\delta}}{\mu_{0}}l_{\delta}\cdot \frac{A_{\delta}}{A_{\delta}}
 $$
 
-- [Magnetischer Fluss](../Elektrotechnik/Magnetischer%20Fluss.md) einsetzen: $\Phi = B_{\delta}A_{\delta}$
+- [Magnetischer Fluss](../Elektrotechnik/Magnetostatik/Magnetischer%20Fluss.md) einsetzen: $\Phi = B_{\delta}A_{\delta}$
 - Es gibt nur eine Masche. Der Fluss durch den PM der gleiche wie durch den Luftspalt: $\Phi=B_{\mathrm{m}}A_{\mathrm{m}}$
 
 $$
@@ -182,7 +182,7 @@ $$
 \cancel{2}\Phi (\mathfrak{R}_{\mathrm{m}}+\mathfrak{R}_{\delta})-\cancel{2}\frac{Ni}{2} \frac{\beta(\varphi)}{\beta_{0}} = 0
 $$
 
-Es wird jener Fluss durch den Permanentmagenten $\Phi = B_{\mathrm{mA}}A_{\mathrm{m}}$ eingesetzt, und die [Reluktanz](../Elektrotechnik/Maschinen/Reluktanz.md#^RELU) des PMs und des Luftspalts in deren Geometrien zerlegt
+Es wird jener Fluss durch den Permanentmagenten $\Phi = B_{\mathrm{mA}}A_{\mathrm{m}}$ eingesetzt, und die [Reluktanz](../Elektrotechnik/Magnetostatik/Reluktanz.md#^RELU) des PMs und des Luftspalts in deren Geometrien zerlegt
 
 $$
 \begin{align}

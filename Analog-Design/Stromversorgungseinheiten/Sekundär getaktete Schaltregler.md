@@ -42,7 +42,7 @@ Hochfrequenter Teil
 
 ## Prinzip 
 
-- Mittles Schaltglied werden Energieportionen aus der Eingangsspannugsquelle übernommen und in der [Induktivität](../../Elektrotechnik/Induktivität.md) gespeichert.
+- Mittles Schaltglied werden Energieportionen aus der Eingangsspannugsquelle übernommen und in der [Induktivität](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md) gespeichert.
 - $f\approx 20kHz - 2MHz$, des Tastverhältnis bestimmt den Energiefluss.
 - Tiefpass am Ausgang glättet den Kontinuierlichen Energiefluss.
 

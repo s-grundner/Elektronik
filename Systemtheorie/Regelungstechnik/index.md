@@ -43,16 +43,27 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 ![invert_dark|800](../../_assets/RT-Reglelkreis.png)
 
-Reglerstrukturen:
+### Reglerstrukturen
 
-- Zustandsregelung: **Zustandsraummethoden**, [Zustandsregler](../Zeitkontinuierlich/Zustandsregler.md), [Zustandsbeobachter](../Zeitkontinuierlich/Zustandsbeobachter.md)
-- Ausgangsregelung: Frequentbereichsmethoden, Übertragungsfunktionen
+> [!info] [Reglerstrukturen - Mindmap 🧠](../../Reglerstrukturen.canvas)
+
+
+Zustandsregelung: Man verwendet den Systemzustand $\mathbf{x}(t)$ um eine Regelung $\mathbf{K}$ zu erzielen.
+
+- [Zustandsraummethoden](../Zustandsraummethoden.md)
+  
+Ausgangsregelung: man verwendet ausschließlich $y(t)$ um eine 
+
+- [Frequenzbereichsmethoden](../Frequenzbereichsmethoden/index.md)
 
 > [!hint] Relevante eigenschaften des Zustandsraumes für die Regelung
+> 
 > - Erreichbar / Steuerbar
 > - Beobachtbar
 > - Rekonstruierbar / Detektierbar
 > - Beinflusst von der Abtastung
+
+
 
 ## Beispiele
 

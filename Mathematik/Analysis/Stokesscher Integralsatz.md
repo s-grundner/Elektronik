@@ -76,11 +76,11 @@ In der Untenstehenden Erläuterng ist die Fläche $A$ auf einer Ebene dargestell
 
 ## In der Elektrotechnik
 
-> [!hint] Ist $\boldsymbol{F}$ das [elektrische Feld](../../Elektrotechnik/elektrisches%20Feld.md) $\boldsymbol{E}$:
-> so entspricht das Linienintegral dem [elektrischen Potenzial](../../Elektrotechnik/elektrische%20Spannung.md) $\varphi_{e}$ entlang der Kurve $L$.
+> [!hint] Ist $\boldsymbol{F}$ das [elektrische Feld](../../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) $\boldsymbol{E}$:
+> so entspricht das Linienintegral dem [elektrischen Potenzial](../../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) $\varphi_{e}$ entlang der Kurve $L$.
 >
 > - Die Potenzialdifferenz ist proportional zur Energie die ein positiv geladenes Teilchen Entlang dieser Linie gewinnt bzw. ein negativ geladenes Teilchen verliert.
-> - Da die Potenzialdifferenz zwischen Start und Endpunkt gleich $0$ begründet dieser Satz die [Maschenregel](../../Elektrotechnik/Kirchhoffsche%20Regeln.md).
+> - Da die Potenzialdifferenz zwischen Start und Endpunkt gleich $0$ begründet dieser Satz die [Maschenregel](../../Elektrotechnik/Elektrische%20Netzwerke/Kirchhoffsche%20Regeln.md).
 > 
 > > [!quote] Diese Form des Linienintegrals ist in der Integralform der 3. [Maxwell](../../Elektrotechnik/Maxwell.md)-Gleichung - dem Faradayschen Induktionsgesetz - enthalten.
 > 

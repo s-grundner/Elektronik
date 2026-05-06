@@ -37,11 +37,11 @@ title: Maxwell Gleichungen
 
 |    Symbol    | Bedeutung                                         |                                               |             Einheit             |
 | :----------: | :------------------------------------------------ | :-------------------------------------------- | :-----------------------------: |
-|  $\mathbf{E}$ | [elektrische Feldstärke](elektrisches%20Feld.md)  | Intesitätsgröße                               | $\operatorname{V} / \mathrm{m}$ |
+|  $\mathbf{E}$ | [elektrische Feldstärke](Elektrostatik/Elektrisches%20Feld.md)  | Intesitätsgröße                               | $\operatorname{V} / \mathrm{m}$ |
 |  $\mathbf{H}$ | magnetische Feldstärke                            | Intesitätsgröße                              |    $\mathrm{A} / \mathrm{m}$    |
-|  $\mathbf{B}$ | [magnetische Flussdichte](Magnetisches%20Feld.md) | Quantitätsgröße                               |  $\mathrm{Vs} / \mathrm{m}^2$   |
+|  $\mathbf{B}$ | [magnetische Flussdichte](Magnetostatik/Magnetisches%20Feld.md) | Quantitätsgröße                               |  $\mathrm{Vs} / \mathrm{m}^2$   |
 |  $\mathbf{D}$ | elektrische Flussdichte                           | Quantitätsgröße                               |  $\mathrm{As} / \mathrm{m}^2$   |
-|  $\mathbf{J}$ | elektrische [Stromdichte](Stromdichte.md)         |                                               |   $\mathrm{A} / \mathrm{m}^2$   |
+|  $\mathbf{J}$ | elektrische [Stromdichte](Elektrostatik/Stromdichte.md)         |                                               |   $\mathrm{A} / \mathrm{m}^2$   |
 |  $\mathbf{M}$ | magnetische Stromdichte                           | (fiktive größe, vereinfacht oft Berechnungen) |   $\mathrm{V} / \mathrm{m}^2$   |
 |    $\rho$    | Raumladungsdichte                                 |                                               |  $\mathrm{As} / \mathrm{m}^3$   |
 
@@ -53,7 +53,7 @@ $$
 
 Mit $x,y,z$ als kartesische Koordinaten. Es sind auch Polar- $(r,\theta,\varphi)$ oder Zylinderkoordinaten $(r,h,\varphi)$ möglich. Wichtig sind auch die [materiellen Zusammenhänge](Materialgesetze.md) zwischen Intensitäts und Quantitätsgrößen.
 
-> [!hint]  Für spezielle Bedingungen können die Maxwellgleichungen auch in [Phasorschreibweise](Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) Angeschreieben werden.
+> [!hint]  Für spezielle Bedingungen können die Maxwellgleichungen auch in [Phasorschreibweise](Elektrische%20Netzwerke/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) Angeschreieben werden.
 
 ## Differentielle und integrale Formulierung
 
@@ -194,7 +194,7 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 > $$\int_{C_{1}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{1} = \int_{C_{2}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{2} = \varphi(A)-\varphi(B) $$
 > - Wandert man in einem Gradientenfeld über eine Geschlossene Kontur, ist man auf dem Gleichen Potenzial wie zu Beginn.
 > $$\oint_{C} \nabla\varphi\mathrm{~d}\vec{s} = 0 \iff \sum_{\text{Masche}} \varphi = 0 $$
-> - Damit wird die Kirchhoffsche [Maschenregel](Kirchhoffsche%20Regeln.md) begründet
+> - Damit wird die Kirchhoffsche [Maschenregel](Elektrische%20Netzwerke/Kirchhoffsche%20Regeln.md) begründet
 > 
 
 

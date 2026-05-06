@@ -50,7 +50,7 @@ Für Messungen höherer Frequenzen ist es wichtig Tastköpfe und nicht einfache 
 
 ### Frequenzkompensation
 
-> [!important] Das besondere an den Tastköpfen des Oszilloskops ist, dass sie [frequenzkompensierte Spannungsteiler](../Elektrotechnik/Spannungsteiler.md#Frequenzkompensierter%20Spannungsteiler) sind.
+> [!important] Das besondere an den Tastköpfen des Oszilloskops ist, dass sie [frequenzkompensierte Spannungsteiler](../Elektrotechnik/Elektrische%20Netzwerke/Spannungsteiler.md#Frequenzkompensierter%20Spannungsteiler) sind.
 
 Die bedingung für die frequenzunabhängigkeit ist: $R_{V}C_{V} = R_{E}C_{E}$. Um zu Überprüfen ob der Tastkopf korrekt kompensiert ist, kann ein Rechtecksignal direkt am Oszi Ausgang abgegriffen werden, und die Wellenform Betrachtet werden.
 

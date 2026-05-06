@@ -1,6 +1,5 @@
 <%*
 let week = tp.date.now("GGGG-[W]WW");
-tp.file.rename(week);
 -%>
 
 ## <% week %>

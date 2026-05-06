@@ -17,7 +17,7 @@ title: MOSFET Stromspiegel
 
 # Stromspiegel
 
-> [!question] Mit einem Stromspiegel wird ein eingestellter [Strom](../../Elektrotechnik/elektrischer%20Strom.md) im Regelzweig auf den zweiten, geregelten Zweig *gespiegelt*, somit fließt durch diesen Zweig ein konstanter [Strom](../../Elektrotechnik/elektrischer%20Strom.md).
+> [!question] Mit einem Stromspiegel wird ein eingestellter [Strom](../../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) im Regelzweig auf den zweiten, geregelten Zweig *gespiegelt*, somit fließt durch diesen Zweig ein konstanter [Strom](../../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md).
 > Ein Stromspiegel ist eine stromgesteuerte Stromquelle
 
 ```tikz

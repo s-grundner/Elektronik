@@ -13,7 +13,7 @@ Zeigt den Frequenzgang bestehend aus
 - Amplitudengang
 - Phasengang
 
-es werden zwei Diagramme benötigt, da mit komplexer [Wechselstromtechnik](Wechselstromtechnik.md) gerechnet wird
+es werden zwei Diagramme benötigt, da mit komplexer [Wechselstromtechnik](../../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) gerechnet wird
 
 Allgemein wird die [[Filter-Verstärker/Dämpfung]] des Filters mit logarithmischem Verhältnis dargestellt -> dezibel
 - Dezibel ist die Pseudo einheit zur Darstellung von logarithmischen Leistungsverhältnissen

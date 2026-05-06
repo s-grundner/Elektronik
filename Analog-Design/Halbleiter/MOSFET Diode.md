@@ -15,7 +15,7 @@ title: MOSFET Diode
 
 ![invert_dark](../../_assets/Pasted%20image%2020260227165751.png)
 
-- Die Diode wird mit einer [Stromquelle](../Stromquelle.md) *biased*.
+- Die Diode wird mit einer [Stromquelle](../../Elektrotechnik/Elektrische%20Netzwerke/Stromquelle.md) *biased*.
 - Je nach $W$ und $L$ wird sich eine bestimmte Gate-Source Spannung $V_{\mathrm{GS}}$ einstellen.
 
 > [!hint] Hier ist $V_{\mathrm{GS}} = V_{\mathrm{DS}}$

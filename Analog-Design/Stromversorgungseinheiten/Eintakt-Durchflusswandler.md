@@ -12,7 +12,7 @@ title: Eintakt Durchflusswandler
 # Eintakt-[Durchflusswandler](Durchflusswandler.md)
 
 - Eine [galvanisch](../../Chemie/Elektrochemie.md) getrennte, regelbare Ausgangsspannung
-- [Leistung](../../Elektrotechnik/elektrische%20Leistung.md) bis einige $100W$
+- [Leistung](../../Elektrotechnik/Elektrostatik/elektrische%20Leistung.md) bis einige $100W$
 - Transistorsperrspannung $U_{DS} \geq 2U_{e}$
 - Tastverhältnis $\frac{t_{ein}}{T} \leq 0.5$
 - Sehr gute [Magnetische Kopplung](../../Manufacturing/Magnetische%20Kopplung.md) notwendig
@@ -36,7 +36,7 @@ $$
 
 ### $t_{1}<t<T_{s}$: $S_{geöffnet}$
 
-In dieser Phase wird dieser Fluss im Trafokern abgebaut ($I_{1}=0$, $I_{2} = 0$) und der [Strom](../../Elektrotechnik/elektrischer%20Strom.md) $I_{3}$ wird von der Speicherdrossel getrieben.  
+In dieser Phase wird dieser Fluss im Trafokern abgebaut ($I_{1}=0$, $I_{2} = 0$) und der [Strom](../../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) $I_{3}$ wird von der Speicherdrossel getrieben.  
 $N_{1} = N_{1}'\rightarrow$ Dadurch dauert die Ent-Magnetisierung wie die Auf-Magnetisierung.  
 Der Maximale $DC$ beträgt $0.5$  
 Während der Sperrphase liegt an $N_{1}$ Spannung $U_{e}$, welche an $N_{1}$ zu $U_{1}=-U_{e}$ wird.  
@@ -64,7 +64,7 @@ $$
 \frac{N_{2}}{N_{1}}=2\cdot \frac{U_{a}}{U_{e}}
 $$
 
-## [Induktivität](../../Elektrotechnik/Induktivität.md)
+## [Induktivität](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md)
 
 $\Delta I_{L}=\Delta I_{3} \approx 0.2\cdot I_{a}$  
 mit $DC=0.5$ wird:

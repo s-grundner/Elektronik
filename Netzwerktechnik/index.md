@@ -17,7 +17,7 @@ release: false
 
 # Netzwerke
 
-> siehe: [elektrische Netzwerke](../Elektrotechnik/Lineare%20Elektrische%20Netzwerke.md)
+> siehe: [elektrische Netzwerke](../Elektrotechnik/Elektrische%20Netzwerke/index.md)
 
 ## Proprietäres/Offenes System
 

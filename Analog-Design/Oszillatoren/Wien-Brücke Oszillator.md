@@ -14,7 +14,7 @@ title: Wien-Brücke Oszillator
 
 - $kHz-MHz$ Bereich
 - geringer [Klirrfaktor](Klirrfaktor.md)
-- breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[Kondensator](../../Elektrotechnik/Kapazität.md). 
+- breit durchbestimmbar unter Verwendung von Doppel-Poti oder Doppel-Dreh-[Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md). 
 
 ## Schaltung
 

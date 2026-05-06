@@ -26,7 +26,7 @@ $$
 
 - $U_{DS}\approx 0$ (leitet)
 - $I_{1}$ steigt linear an
-- Es baut sich ein [Magnetfeld](../../Elektrotechnik/magnetisches%20Feld.md) mit der Energie $W = \dfrac{L_{1}\cdot Î_{1}}{2}$ auf.
+- Es baut sich ein [Magnetfeld](../../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md) mit der Energie $W = \dfrac{L_{1}\cdot Î_{1}}{2}$ auf.
 - $U_{DS}=0$, weil die [Diode](../Halbleiter/Diode.md) sperrt, $U_{2}$ ist zu $U_{1}$ entgegengesetzt gepolt.
 
 ### $t_{1} < T < T_{S}$
@@ -35,7 +35,7 @@ $$
 - $I_{1}=0$
 - Die Spannung am Transformator (Speichertransformator) polen sich um.
 - Die [Diode](../Halbleiter/Diode.md) wird Leitend
-- Sekundärwicklung gibt die Energie an den [Kondensator](../../Elektrotechnik/Kapazität.md) weiter
+- Sekundärwicklung gibt die Energie an den [Kondensator](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) weiter
 
 ---
 

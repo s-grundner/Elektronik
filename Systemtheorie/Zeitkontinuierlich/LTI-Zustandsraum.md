@@ -106,40 +106,35 @@ $$
 \end{align}
 $$
 
-Beweis:
-
-- Mit Ansatz $\mathbf{x}(t)=\boldsymbol{\Phi}(t) \mathbf{p}(t)$,
-- der [Produktregel](../../Mathematik/Analysis/Produktregel.md) und
-- den Eigenschaften der [Transitionsmatrix](../../Mathematik/Analysis/Differentialgleichungen/Fundamentalmatrix.md#Transitionsmatrix) erhält man
-
-$$
-\underbrace{ \mathbf{\dot{\Phi}}(t) \mathbf{p}(t)+\boldsymbol{\Phi}(t) \mathbf{\dot{p}}(t) }_{ \dot{\mathbf{x}} }=\mathbf{A} \underbrace{ \boldsymbol{\Phi}(t) \mathbf{p}(t) }_{ \dot{\mathbf{x}} }+\mathbf{B u}(t)
-$$
-
-und damit $\frac{\mathrm{d}}{\mathrm{d} t} \mathbf{p}(t)=\boldsymbol{\Phi}(-t) \mathbf{B u}(t)$. Die Integration liefert
-
-$$
-\mathbf{p}(t)=\mathbf{p}(0)+\int_0^t \boldsymbol{\Phi}(-\tau) \mathbf{B u}(\tau) \mathrm{d} \tau
-$$
-
-sowie
-
-$$
-\mathbf{x}(t)=\boldsymbol{\Phi}(t)\left(\mathbf{p}(0)+\int_0^t \boldsymbol{\Phi}(-\tau) \mathbf{B u}(\tau) \mathrm{d} \tau\right)
-$$
-
-
-Aus $\mathbf{x}(0)=\boldsymbol{\Phi}(0) \mathbf{p}(0)=\mathbf{p}(0)$ und $\boldsymbol{\Phi}(t-\tau)=\boldsymbol{\Phi}(t) \boldsymbol{\Phi}(-\tau)$ folgt Satz 2.4.
-Man beachte, dass die Transitionsmatrix $\boldsymbol{\Phi}(t)$ immer regulär ist. Für den Fluss eines linearen, autonomen Systems gilt $\boldsymbol{\Phi}_t\left(\mathbf{x}_0\right)=\boldsymbol{\Phi}(t) \mathbf{x}_0$.
+> [!success]- Beweis: (siehe auch [Variation der Konstanten](../../Mathematik/Analysis/Differentialgleichungen/Variation%20der%20Konstanten.md))
+> 
+> - Mit Ansatz $\mathbf{x}(t)=\boldsymbol{\Phi}(t) \mathbf{p}(t)$,
+> - der [Produktregel](../../Mathematik/Analysis/Produktregel.md) und
+> - den Eigenschaften der [Transitionsmatrix](../../Mathematik/Analysis/Differentialgleichungen/Fundamentalmatrix.md#Transitionsmatrix) erhält man
+> 
+> $$
+> \underbrace{ \mathbf{\dot{\Phi}}(t) \mathbf{p}(t)+\boldsymbol{\Phi}(t) \mathbf{\dot{p}}(t) }_{ \dot{\mathbf{x}} }=\mathbf{A} \underbrace{ \boldsymbol{\Phi}(t) \mathbf{p}(t) }_{ \dot{\mathbf{x}} }+\mathbf{B u}(t)
+> $$
+> 
+> und damit $\frac{\mathrm{d}}{\mathrm{d} t} \mathbf{p}(t)=\boldsymbol{\Phi}(-t) \mathbf{B u}(t)$. Die Integration liefert
+> 
+> $$
+> \mathbf{p}(t)=\mathbf{p}(0)+\int_0^t \boldsymbol{\Phi}(-\tau) \mathbf{B u}(\tau) \mathrm{d} \tau
+> $$
+> 
+> sowie
+> 
+> $$
+> \mathbf{x}(t)=\boldsymbol{\Phi}(t)\left(\mathbf{p}(0)+\int_0^t \boldsymbol{\Phi}(-\tau) \mathbf{B u}(\tau) \mathrm{d} \tau\right)
+> $$
+> 
+> 
+> Aus $\mathbf{x}(0)=\boldsymbol{\Phi}(0) \mathbf{p}(0)=\mathbf{p}(0)$ und $\boldsymbol{\Phi}(t-\tau)=\boldsymbol{\Phi}(t) \boldsymbol{\Phi}(-\tau)$ folgt Satz 2.4.
+> Man beachte, dass die Transitionsmatrix $\boldsymbol{\Phi}(t)$ immer regulär ist. Für den Fluss eines linearen, autonomen Systems gilt $\boldsymbol{\Phi}_t\left(\mathbf{x}_0\right)=\boldsymbol{\Phi}(t) \mathbf{x}_0$.
 
 ## Ruhelagen
 
-|                                                                                                  | $\mathbf{u}_{s}=0$                                                    | $\mathbf{u}_{s}\neq0$                                                                                                                               |
-| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $\det \mathbf{A} \neq 0$<br>(Matrix ist [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md)) | 1 RL: $\mathbf{x}s =\mathbf{A}^{-1}\mathbf{0}=\mathbf{0}$             | 1 RL: $\mathbf{x}_{s}=-\mathbf{A}^{-1}\mathbf{Bu}_{s}$                                                                                              |
-| $\det \mathbf{A} = 0$<br>(Matrix ist [singulär](../../Mathematik/Algebra/Singuläre%20Matrix.md))    | $\infty$-viele RL: $\mathbf{x}_{s} \in \operatorname{ker} \mathbf{A}$ | $\infty$-viele RL, wenn $\mathbf{Bu}_{s} \in \operatorname{im} \mathbf{A}$. <br>Keine RL dalls $\mathbf{Bu}_{s} \notin\operatorname{im} \mathbf{A}$ |
-
-
+> [!question] [Ruhelagen nach Ljapunov](../../Mathematik/Analysis/Differentialgleichungen/Ljapunov.md)
 
 
 ## Laplacetransformation von Eingrößensysteme
@@ -179,9 +174,13 @@ $$
 
 ## Reglerentwurf für LTI-Systeme
 
-> [!info] [Zustandsregler](Zeitkontinuierlich/Zustandsregler.md) 
+> [!question] [Reglerstrukturen](../Regelungstechnik/index.md#Reglerstrukturen)
 
-> [!info] [Zustandsbeobachter](Zeitkontinuierlich/Zustandsbeobachter.md)
+### Zustandsraummethoden
+
+> [!info] [Zustandsregler](Zustandsregler.md) 
+
+> [!info] [Zustandsbeobachter](Zustandsbeobachter.md)
 
 Dafür sind Wichtige Eigenschaften
 

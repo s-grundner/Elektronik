@@ -14,8 +14,8 @@ title: Piezoelektrik
 # Piezoelektrik
 
 > [!example]- Rechenbeispiel
-> Ein [Quarz](../Analog-Design/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Widerstand](../Elektrotechnik/Widerstand.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kinematik/Kräfte.md) von $F=1kN$ belastet.
-> Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/elektrisches%20Feld.md) abgeklungen?
+> Ein [Quarz](../Analog-Design/Oszillatoren/Quartzoszillator.md) mit einer Empfindlichkeit von $k= 2,3\cdot 10^{-12} \frac{As}{N}$, der Fläche $10cm^{2}$, der Dicke $1mm$, dem spezifischen [Ohmsches Gesetz](../Elektrotechnik/Elektrostatik/Ohmsches%20Gesetz.md) $\rho = 10^{14}\Omega cm$ und der relativen Dielektrizitätszahl $\varepsilon_{r}=5$ wird mit einer [Kraft](../Physik/Kinematik/Kräfte.md) von $F=1kN$ belastet.
+> Wie groß ist die Spannung infolge des Piezoeffektes? Wann ist die [Ladung](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) abgeklungen?
 > $$
 > \begin{align*}
 > R_{q} &= \frac{\rho\cdot l}{A} &&= \frac{10^{12}\cdot 10^{-3}}{10\cdot 10^{-4}} = 10^{12}\Omega
@@ -41,7 +41,7 @@ Wird das System nun einer mechanischen Spannung ausgesetzt, führt diese zu eine
 
 | Input                              | Output                                                              |
 | ---------------------------------- | ------------------------------------------------------------------- |
-| [Kraft](../Physik/Kinematik/Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/elektrische%20Spannung.md) |
+| [Kraft](../Physik/Kinematik/Kräfte.md)/Druck | [elektrische Spannung](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) |
 
 ![invert_dark](../_assets/piezo_esb.png)
 
@@ -55,16 +55,16 @@ Es handelt sich dabei um ein **DMS-System** aus **mehreren Streifen**, die entwe
 
 ## Piezoelektrischer Effekt
 
->[!INFO] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische [Ladungen](../Elektrotechnik/elektrisches%20Feld.md) aus.
+>[!INFO] Wird auf eine Ausgeschnittene Fläche des Quarzkristall Druck ausgeübt, so bilden sich an gegenüberliegenden Flächen elektrische [Ladungen](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) aus.
 
 Der piezoelektrische Effekt kann genutzt werden um aus der gemessenen  
-[Ladung](../Elektrotechnik/elektrisches%20Feld.md) die zugrunde liegende Deformation zu bestimmen.  
+[Ladung](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) die zugrunde liegende Deformation zu bestimmen.  
 Der Effekt ist nur von der Längenänderung nicht von [Geschwindigkeit](../Physik/Kinematik/Kinematik.md)  
 bzw. [Beschleunigung](../Physik/Kinematik/Kinematik.md) der Deformation abhängig.
 
 ## Lippmann Effekt (inverser P.e.-Effekt)
 
-Wird ein **[elektrisches Feld](../Elektrotechnik/elektrisches%20Feld.md)** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.  
+Wird ein **[Elektrisches Feld](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md)** angelegt, sorgt dieses für eine **Verschiebung der Ionen** im Festkörper. Da die Bindungen unterschiedlich stark sind, tritt *Deformation*, also **elastische Verzerrung** auf.  
 Man spricht vom **inversen piezoelektrischen (Lippmann) Effekt**.
 
 # Tags

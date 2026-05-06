@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"38aebf6a1f684f99","type":"text","text":"## Ausgangsregelung\n\n- Regelung basiert nur auf $y(t)$","x":-594,"y":40,"width":505,"height":135},
+		{"id":"d5f3fa3fedcdf6ca","type":"text","text":"## Frequenzbereichsmethoden\n\n- Spezifizierung einer [Übertragungsfunktion](Systemtheorie/Frequenzbereichsmethoden/Übertragungsfunktion.md)","x":-594,"y":220,"width":505,"height":149},
+		{"id":"121a230e2e168f87","type":"text","text":"## Zustandsraummetoden\n\nEigenschaften des Zustandsraumes:\n\n- [Erreichbarkeit](Systemtheorie/Zeitkontinuierlich/Erreichbarkeit.md)\n- Steuerbar\n- [Beobachtbarkeit](Systemtheorie/Zeitkontinuierlich/Beobachtbarkeit.md)\n- Rekonstruierbar\n- Beinflusst von der Abtastung","x":60,"y":220,"width":464,"height":320},
+		{"id":"f9aebdc7c1f800d7","type":"text","text":"# Reglerstrukturen","x":-220,"y":-120,"width":400,"height":81},
+		{"id":"056537fce85a2730","type":"text","text":"## Zustandsregelung\n\n- Regelung basiert auf $\\mathbf{x}(t)$","x":60,"y":40,"width":464,"height":135},
+		{"id":"bd8f419ac60002d3","x":740,"y":40,"width":646,"height":240,"type":"file","file":"Systemtheorie/Zeitkontinuierlich/Zustandsregler.md"},
+		{"id":"e3bf3edae41d4796","x":740,"y":440,"width":646,"height":260,"type":"file","file":"Systemtheorie/Zeitkontinuierlich/Zustandsbeobachter.md"},
+		{"id":"cb9188d8b14e87f4","x":1520,"y":209,"width":600,"height":71,"type":"text","text":"## Stabilisierbarkeit"},
+		{"id":"a18e55642ebfe21d","x":740,"y":-260,"width":646,"height":240,"type":"text","text":"## Sätze und Definitionen\n\n- **S)** Die Matrix $A_{R}$\n- **D)** Regelungsnormalform (RNF)\n- **S)** Satz von Cayley Hamilton\n- **S)** Formal von Ackermann - Zustandsregler"},
+		{"id":"17cb1ecb26ad93a3","x":1520,"y":40,"width":600,"height":80,"type":"text","text":"## Transformation auf RNF"},
+		{"id":"5b896f5dacaacd4e","type":"text","text":"## Sätze und Definitionen\n\n- **S)** Die Matrix $A_{O}$\n- **D)** Beobachter-normalform (BNF)\n- **S)** Formal von Ackermann - Zustandsbeobachter","x":740,"y":771,"width":646,"height":240},
+		{"id":"5b2afbfa57bb9c2d","type":"text","text":"## Transformation auf BNF","x":1520,"y":440,"width":600,"height":80},
+		{"id":"b54d458216a190a1","type":"text","text":"## Detektierbarkeit","x":1520,"y":629,"width":600,"height":71},
+		{"id":"cfefb13018836448","x":-1140,"y":425,"width":420,"height":140,"type":"text","text":"## q-Bereich\n\n- Bilinear Transformation"},
+		{"id":"ab2f734c30f6a615","x":-1140,"y":6,"width":420,"height":147,"type":"text","text":"## s-Bereich\n\n- Laplace Transformation"},
+		{"id":"132016edd99e6ce9","x":-1140,"y":220,"width":420,"height":145,"type":"text","text":"## z-Bereich\n\n- z-Transformation"}
+	],
+	"edges":[
+		{"id":"921d0ac03f8fbbe6","fromNode":"f9aebdc7c1f800d7","fromSide":"left","toNode":"38aebf6a1f684f99","toSide":"top"},
+		{"id":"2fda098040f0979f","fromNode":"f9aebdc7c1f800d7","fromSide":"right","toNode":"056537fce85a2730","toSide":"top"},
+		{"id":"fa9039983e072909","fromNode":"38aebf6a1f684f99","fromSide":"bottom","toNode":"d5f3fa3fedcdf6ca","toSide":"top"},
+		{"id":"45a40159a3cc5367","fromNode":"056537fce85a2730","fromSide":"bottom","toNode":"121a230e2e168f87","toSide":"top"},
+		{"id":"5be994617f2aecba","fromNode":"121a230e2e168f87","fromSide":"right","toNode":"bd8f419ac60002d3","toSide":"left"},
+		{"id":"e87e02fa7f502be5","fromNode":"121a230e2e168f87","fromSide":"right","toNode":"e3bf3edae41d4796","toSide":"left"},
+		{"id":"6dd85668e4789294","fromNode":"bd8f419ac60002d3","fromSide":"right","toNode":"cb9188d8b14e87f4","toSide":"left"},
+		{"id":"92ac33ffa7fd3c2d","fromNode":"e3bf3edae41d4796","fromSide":"right","toNode":"b54d458216a190a1","toSide":"left"},
+		{"id":"9eaafbc2133fb225","fromNode":"bd8f419ac60002d3","fromSide":"top","toNode":"a18e55642ebfe21d","toSide":"bottom"},
+		{"id":"1ae9e447743ab78a","fromNode":"bd8f419ac60002d3","fromSide":"right","toNode":"17cb1ecb26ad93a3","toSide":"left"},
+		{"id":"981fe0a912178160","fromNode":"e3bf3edae41d4796","fromSide":"bottom","toNode":"5b896f5dacaacd4e","toSide":"top"},
+		{"id":"fc6159b26d7dcfca","fromNode":"e3bf3edae41d4796","fromSide":"right","toNode":"5b2afbfa57bb9c2d","toSide":"left"},
+		{"id":"8b26484c1c66b1c8","fromNode":"d5f3fa3fedcdf6ca","fromSide":"left","toNode":"132016edd99e6ce9","toSide":"right"},
+		{"id":"e75778bfbd23997e","fromNode":"d5f3fa3fedcdf6ca","fromSide":"left","toNode":"ab2f734c30f6a615","toSide":"right"},
+		{"id":"9365c9f6781b046d","fromNode":"d5f3fa3fedcdf6ca","fromSide":"left","toNode":"cfefb13018836448","toSide":"right"}
+	]
+}

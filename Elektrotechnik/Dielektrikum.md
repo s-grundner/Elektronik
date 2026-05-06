@@ -51,12 +51,12 @@ science: Elektromagentismus
 > Man modelliert diesen Effekt durch so genannte [Dipole](elektrischer%20Dipol.md) – das ist im Modell eine positive Ladung die in einem bestimmten Abstand einer gegengleichen negativen Ladung gegenüber steht.
 > Den Effekt nennt man elektrische *[Polarisation](Polarisation.md)*. 
 
-> [!important] [Polarisation](Polarisation.md): Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](elektrisches%20Feld.md) aus
-> Dielektrika, die man in ein [elektrisches Feld](elektrisches%20Feld.md) einbringt [Polarisieren](Polarisation.md) sich, wodurch das [E-Feld](elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nicht Leitfähigkeit sind.
+> [!important] [Polarisation](Polarisation.md): Ladungsschwerpunkte des Moleküls, richten sich nach dem [elektrischen Feld](Elektrostatik/Elektrisches%20Feld.md) aus
+> Dielektrika, die man in ein [Elektrisches Feld](Elektrostatik/Elektrisches%20Feld.md) einbringt [Polarisieren](Polarisation.md) sich, wodurch das [E-Feld](Elektrostatik/Elektrisches%20Feld.md) abgeschwächt wird, obwohl sie nicht Leitfähigkeit sind.
 
 ![invert_dark](../_assets/Pasted%20image%2020240310011251.png)
 
-Die Materialeigenschaft, wie ein Dielektrikum mit einem [Elektrischen Feld](elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\epsilon$ (Dielektrizitätszahl) bezeichnet. 
+Die Materialeigenschaft, wie ein Dielektrikum mit einem [Elektrischen Feld](Elektrostatik/Elektrisches%20Feld.md) wechselwirkt, wird als Permittivität $\epsilon$ (Dielektrizitätszahl) bezeichnet. 
 
 Je nach dem ob das elektrische Feld dynamisch (schnell veränderlich) oder statisch (hinreichend langsam) ist, können Vereinfachungen getroffen werden.
 
@@ -77,7 +77,7 @@ Die Permittivität ist in der Regel indirekt Proportional zur elektrischen Felds
 
 In Wechselfeldern müssen die dynamischen Eigenschaften des Materials berücksichtigt werden.
 
-> [!question] Unterstrichene Symbole deuten darauf hin, dass diese als [Phasor](Wechselstromtechnik.md) notiert sind.
+> [!question] Unterstrichene Symbole deuten darauf hin, dass diese als [Phasor](Elektrische%20Netzwerke/Wechselstromtechnik.md) notiert sind.
 
 Polarisation von Atomen oder Molekülen erzeugen elektrische [Dipolmomente](../Chemie/Dipol%20(Chemie).md), welche die elektrische Flussdichte $\mathbf{\underline{D}}$ verstärken.
 

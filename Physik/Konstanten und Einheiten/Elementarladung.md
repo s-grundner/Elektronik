@@ -15,7 +15,7 @@ title: Elementarladung
 # Elementarladung
 
 > [!def] $e = 1.602176634\cdot 10^{-19}\mathrm{As}$ ^DEF
-> Die Einheit $1 \mathrm{As}$ wird auch $1 \mathrm{C}$ (*[Coulomb](../../Elektrotechnik/Coulomb-Kraft.md)*) bezeichnet.
+> Die Einheit $1 \mathrm{As}$ wird auch $1 \mathrm{C}$ (*[Coulomb](../../Elektrotechnik/Elektrostatik/Coulomb-Kraft.md)*) bezeichnet.
 
 > [!important] Ein Elektron trägt eine negative Elementarladung.
 > 

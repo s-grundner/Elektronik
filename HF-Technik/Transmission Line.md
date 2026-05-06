@@ -79,7 +79,7 @@ Wie im [Schaltbild](#^TL-CIRC) einer Leitung zu sehen gibt es jedoch eine Last $
 $$\underline{Z}_{L} = \frac{\underline{ U }_{\text{last}}}{\underline{ I }_{\text{last}}}= \frac{\underline{ U }_{h}+\underline{ U }_{r}}{\underline{ I }_{h}-\underline{ I }_{r}}\tag{ZL}$$
 ^ZL
 
-> [!info] $Z_{L}$ ist komplex, wenn für Sinusgrößen mit der komplexen [Wechselstromtechnik](../Elektrotechnik/Wechselstromtechnik.md) gerechnet wird.
+> [!info] $Z_{L}$ ist komplex, wenn für Sinusgrößen mit der komplexen [Wechselstromtechnik](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) gerechnet wird.
 
 > [!hint] Angepasste Leitung: (Leistungsanpassung)
 > Ist $\underline{Z}_{L} = \underline{Z}_{0}$ muss gelten, dass $U_{r}=0$ und $I_{r} = 0$.

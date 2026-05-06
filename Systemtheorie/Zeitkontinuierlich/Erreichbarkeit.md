@@ -135,4 +135,4 @@ Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathemati
 Damit das nicht vollständig erreichbare System stabilisierbar ist, muss die Systemmatrix $\mathbf{A}_{22}$ des nicht-erreichbare Teilsystem eine [Hurwitzmatrix](../../Mathematik/Algebra/Hurwitz-Matrix.md) sein.
 
 - Alle Eigenwerte sind dann negativ und das nicht-erreichbare teilsystem ist asymptotisch-stabil.
-- Um das System zu stabilisieren kann eine [Zustandsregelung](../Zeitkontinuierlich/Zustandsregler.md) unternommen werden.
+- Um das System zu stabilisieren kann eine [Zustandsregelung](Zustandsregler.md) unternommen werden.

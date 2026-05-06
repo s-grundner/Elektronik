@@ -65,7 +65,7 @@ Beide Modelle haben eine geliebige Geometrie unter der Bedunging dass die **Rän
 
 > [!hint] **Annahmen:**  Für die Herleitungen gilt: ^ANNAHMEN
 > 
-> - Die Feldkomponenten sind **eingeschwungen** $\to$ Felder als [Phasor](../Elektrotechnik/Wechselstromtechnik.md)
+> - Die Feldkomponenten sind **eingeschwungen** $\to$ Felder als [Phasor](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md)
 > - Wellenasubreitung in $z$-Richtung
 > - Der betrachtete Teil des Leitermodells ist **Quellfrei**
 > 
@@ -88,7 +88,7 @@ Beide Modelle haben eine geliebige Geometrie unter der Bedunging dass die **Rän
 >  
 >  Die Feldkomponenten sind an sich nur von $x$ und $y$ abhängig. Die einzige Änderung in $z$-Richtung ist mit  $e^{ -j\beta z }$ beschrieben.
 
-[Phasorschreibweise der Maxwellgleichungen](../Elektrotechnik/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen):
+[Phasorschreibweise der Maxwellgleichungen](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen):
 
 $$
 \begin{align}

@@ -50,6 +50,6 @@ Da diese Situation für diese so genannten Leitungselektronen ähnlich ist, wie 
 > [!hint] Die Leitungselektronen führen eine [thermische](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Wimmelbewegung aus.  
 > Der [Betrag](../Mathematik/Algebra/Betrag.md) dieser [Geschwindigkeit](../Physik/Kinematik/Kinematik.md) kann in der Größenordnung von $10^6  \frac{m}{s}$ sein
 >
-> > [!info] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen [Strom](../Elektrotechnik/elektrischer%20Strom.md) verursacht werden
+> > [!info] liegt damit weit über den Driftgeschwindigkeiten, die durch elektrischen [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) verursacht werden
 > > Diese Eigenschaft führt zum [Drude-Modell](../Elektrotechnik/Drude-Modell.md). 
 > 

@@ -21,6 +21,6 @@ release: false
 | Pro                                      | Kontra                                   |
 | ---------------------------------------- | ---------------------------------------- |
 | hohe Energiedichte ($140 \frac{Wh}{kg}$) | Geringe Ströme                           |
-|                                          | Empfindlich gegenüber [Ladung](../Elektrotechnik/elektrisches%20Feld.md)             |
+|                                          | Empfindlich gegenüber [Ladung](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md)             |
 |                                          | Empfindlich gegenüber [Temperatur](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md) Extrema |
 |                                          | Empfindlich gegenüber höhe Ströme        | 

@@ -20,7 +20,7 @@ title: Dreiphasensysteme
 
 ![450](../_assets/3-phasen-stern.png)
 
-Bei symmetrischer Last ist der [Strom](../Elektrotechnik/elektrischer%20Strom.md) $i_{N}$ im Neutralleiter 0
+Bei symmetrischer Last ist der [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) $i_{N}$ im Neutralleiter 0
 Wicklungen auf der Erzeugerseite als Spannungsquellen.
 
 L1, L2 und L3 -> Phasen

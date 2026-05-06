@@ -21,7 +21,7 @@ Die moderne Physik kennt *4* Kräfte:
 
 - Gravitationskraft
 - Elektromagnetische Kraft (Lorentz Kraft)
-  - (in der Elektrotechnik separat als [Coulomb-Kraft](../../Elektrotechnik/Coulomb-Kraft.md) und [magnetische Kraft](../../Elektrotechnik/Laplace-Kraft.md))
+  - (in der Elektrotechnik separat als [Coulomb-Kraft](../../Elektrotechnik/Elektrostatik/Coulomb-Kraft.md) und [magnetische Kraft](../../Elektrotechnik/Laplace-Kraft.md))
 - Starke Kernkraft
 - Schwache Kernkraft
 
@@ -41,7 +41,7 @@ Die moderne Physik kennt *4* Kräfte:
 
 > [!INFO] Fernwirkungskräfte
 > - [Magnetische Kraft](../../Elektrotechnik/Laplace-Kraft.md)
-> - [Coulomb-Kraft](../../Elektrotechnik/Coulomb-Kraft.md)
+> - [Coulomb-Kraft](../../Elektrotechnik/Elektrostatik/Coulomb-Kraft.md)
 > - Gravitationskraft
 
 ## Kraftfeld
@@ -53,9 +53,9 @@ Ein Körper der im Schwerefeld *schwer* ist, lässt sich auch schwer beschleunig
 | Feld                                                          | Wird hervorgerufen durch  | Wirkt auf |
 | ------------------------------------------------------------- | ------------------------- | --------- |
 | Gravitationsfeld                                              | Eine Masse                | Massen    |
-| [elektrisches Feld](../../Elektrotechnik/elektrisches%20Feld.md) | Eine ruhende [Ladung](../../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../../Elektrotechnik/elektrische%20Ladung.md)  |
-| [Magnetisches Feld](../../Elektrotechnik/Magnetisches%20Feld.md) | Eine bewegte [Ladung](../../Elektrotechnik/elektrische%20Ladung.md)       | [Ladungen](../../Elektrotechnik/elektrische%20Ladung.md)  |
-| [Elektro-Magnetisches Feld](Feldtheorie/index.md)   | Eine beschleunigte [Ladung](../../Elektrotechnik/elektrische%20Ladung.md) | [Ladungen](../../Elektrotechnik/elektrische%20Ladung.md)  |
+| [Elektrisches Feld](../../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) | Eine ruhende [Ladung](../../Elektrotechnik/Elektrostatik/elektrische%20Ladung.md)       | [Ladungen](../../Elektrotechnik/Elektrostatik/elektrische%20Ladung.md)  |
+| [Magnetisches Feld](../../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md) | Eine bewegte [Ladung](../../Elektrotechnik/Elektrostatik/elektrische%20Ladung.md)       | [Ladungen](../../Elektrotechnik/Elektrostatik/elektrische%20Ladung.md)  |
+| [Elektro-Magnetisches Feld](Feldtheorie/index.md)   | Eine beschleunigte [Ladung](../../Elektrotechnik/Elektrostatik/elektrische%20Ladung.md) | [Ladungen](../../Elektrotechnik/Elektrostatik/elektrische%20Ladung.md)  |
 
 > [!hint] Begriff: Konservatives Kraftfeld
 > In einem Konservativen Kraftfeld trägt nur der Anteil der Bewegung in die *gleiche* Richtung der Kraftvektoren zur [Arbeit](Mechanische%20Arbeit.md) und alle der daraus folgenden Größen bei.  

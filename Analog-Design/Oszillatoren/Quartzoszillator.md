@@ -32,8 +32,8 @@ Der Schwingquartz weist eine Sehr stabile Frequenz auf d.h. er hat eine hohe Gü
 > 
 > ![invert_light|350](../../_assets/quarz_mechschwing.png)
 > 
-> - $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Induktivität.md) (das Schwingen der Masse des Resonators)
-> - $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Kapazität.md) (Elektrizitätskonstante des Quartzes)
+> - $L_{1}\dots$ Serien-[Induktivität](../../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md) (das Schwingen der Masse des Resonators)
+> - $C_{1}\dots$ Serien-[Kapazität](../../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) (Elektrizitätskonstante des Quartzes)
 > - $R_{1}\dots$ Verlustwiderstand (Dämpfer. Innere [Reibung](../../Physik/Kinematik/Reibungskraft.md)/mechanische Verluste)
 > - $C_{0}\dots$ Streukapazität der Elektroden
 

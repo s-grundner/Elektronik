@@ -22,11 +22,11 @@ Aktoren (en.: actuator) setzen elektrische Signale (z.B. von einem Steuerungscom
 
 [Elektromagnet](../Physik/Elektromagnet.md) Aktoren sind Aktoren, die im allgemeinen auf ein [EM-Feld](../Physik/Feldtheorie/index.md) mit [Bewegung](../Physik/Kinematik/Kinematik.md) reagieren z.B. [Relais](Relais.md)
 
-$\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.md) und [Spule](../Elektrotechnik/Induktivität.md) werden benötigt.
+$\rightarrow$ Mechanische Translation. [Elektromagnet](../Physik/Elektromagnet.md) und [Spule](../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md) werden benötigt.
 
 ### Elektromotor
 
-- Stator mit Permanentmagneten verursacht ein statisches [Magnetfeld](../Elektrotechnik/magnetisches%20Feld.md).
+- Stator mit Permanentmagneten verursacht ein statisches [Magnetfeld](../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md).
 - Rotor mit [Elektromagnet](../Physik/Elektromagnet.md) der sich dreht.
 - Kommutator sorgt für die Umpolung des Rotor.
 

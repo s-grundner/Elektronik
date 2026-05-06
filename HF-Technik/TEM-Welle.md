@@ -20,7 +20,7 @@ title: Wellenleiter
 ![invert_dark|600](../_assets/Excalidraw/Transversale%20Elektromagnetische%20Welle%202025-11-15%2019.18.18.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../_assets/Excalidraw/Transversale%20Elektromagnetische%20Welle%202025-11-15%2019.18.18.excalidraw.md)%%
 
-- Sonderfall einer elektromagnetischen Welle, bei der in Ausbreitungsrichtung sowohl das [elektrische](../Elektrotechnik/elektrisches%20Feld.md) als auch das [magnetische Feld](../Elektrotechnik/magnetisches%20Feld.md) verschwindet.
+- Sonderfall einer elektromagnetischen Welle, bei der in Ausbreitungsrichtung sowohl das [elektrische](../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) als auch das [magnetische Feld](../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md) verschwindet.
 - Magnetische und elektrische Felder ausschließlich in Ebenen senkrecht (transversal) zur Ausbreitungsrichtung.
 - Bildet sich als geführte Welle z. B. zwischen Außen und Innenleiter eines verlustlosen Koaxialkabels aus.
 - Auch die ebene Welle ist ein Beispiel für TEM-Wellen.
@@ -98,7 +98,7 @@ Das Selbe ergebnis erhält man auch für $E_{y}$. Die beiden Feldkomponenten las
 > \nabla^{2}_{xy}\mathbf{h}(x,y) = 0
 > $$
 
-Man kann erkennen, dass für beide Felder nicht nur die Wellengleichung, sondern auch die Laplacegleichung erfüllen. Die Laplacegleichung beschriebt in der Elektrostatik das Verhalten des skalaren [potenzials](../Elektrotechnik/elektrische%20Spannung.md) in Quellfreien regionen.
+Man kann erkennen, dass für beide Felder nicht nur die Wellengleichung, sondern auch die Laplacegleichung erfüllen. Die Laplacegleichung beschriebt in der Elektrostatik das Verhalten des skalaren [potenzials](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) in Quellfreien regionen.
 
 > [!important] Man erkennt in (3.10), dass die Zeitabhängigkeit, die in $k$ enthalten war entfallen ist.
 > Mit dem Entfall der Zeitabhängigkeit kann man darauf schließen, dass diese Gleichung auch in der **Elektrostatik** gilt. Die Transversalen Felder der TEM Welle sind daher die selben wie die statischen Felder, die zwischen zwei leitern existieren.
@@ -159,7 +159,7 @@ Um die Leiterkenngrößen von TEM Wellen zu ermitteln, kann folgende Herangehens
 2. Konstanten finden, indem bekannte Spannungen auf der Leitung als Randwerte eingesetzt werden.
 3. $\mathbf{e}(x,y)$ aus (3.13) und $\mathbf{E}$ aus (3.1a) berechnen.
 4. $\mathbf{h}(x,y)$ aus (3.18) und $\mathbf{H}$ aus (3.1b) berechnen.
-5. [Spannung](../Elektrotechnik/elektrische%20Spannung.md#^DEF) $U$ aus $\mathbf{E}$ Berechnen. Strom mit dem [Amperesches Gesetz](../Elektrotechnik/elektrischer%20Strom.md#Amperesches%20Gesetz) aus $\mathbf{H}$ berechen.
+5. [Spannung](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md#^DEF) $U$ aus $\mathbf{E}$ Berechnen. Strom mit dem [Amperesches Gesetz](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md#Amperesches%20Gesetz) aus $\mathbf{H}$ berechen.
 6. Die charakteristische Impedanz ist gegeben durch 
 $$
 Z_{0} = \frac{U}{I}

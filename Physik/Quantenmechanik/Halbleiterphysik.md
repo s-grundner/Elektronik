@@ -136,7 +136,7 @@ Die extrem niedrige Leitfähigkeit von reinen Halbleitern lässt sich durch das 
 - Das Elektron wandert in das Leitungsband, wird frei beweglich und steht permanent als Leitungselektron zur verfügung
 
 Das **Donator** Atom erhält durch die Abgabe seines Valenzelektrons eine **positive** Ladung, und hält daher das **Elektron** Lokal bei sich.
-Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/elektrisches%20Feld.md) entfernt sich das Elektron vom Ortsfesten Donator.
+Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) entfernt sich das Elektron vom Ortsfesten Donator.
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Donatoratom lokal ein zusätzliches Energieniveau nahe der **Leitungsbandkante** darstellen 
@@ -157,7 +157,7 @@ In einem derartig dotierter Halbeiter (n-Typ, n ... negativ) sind weit mehr Elek
 - Durch die Nachrückung der Elektronen entsteht ein Freibewegliches **Loch**
 
 Das **Akzeptor** Atom erhält durch die Aufnahme eines benachbarten Valenzelektrons eine **negative** Ladung, und hält daher das **Loch** Lokal bei sich.
-Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/elektrisches%20Feld.md) entfernt sich das Loch vom Ortsfesten Akzeptor.
+Durch das Anlegen eines [elektrischen Feldes](../../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) entfernt sich das Loch vom Ortsfesten Akzeptor.
 
 > [!info] Auswirkungen im gezeigt im Bändermodell
 > Im Bändermodell würde ein Akzeptoratom lokal ein zusätzliches Energieniveau nahe der **Valenzbandkante** darstellen 

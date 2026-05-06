@@ -10,7 +10,7 @@ title: Magnetische Kopplung
 
 # Magnetische Kopplung
 
-Bei der magnetischen Kopplung wird die Störgröße über das [magnetische Feld](../Elektrotechnik/magnetisches%20Feld.md) in den Nutzkreis übertragen.
+Bei der magnetischen Kopplung wird die Störgröße über das [magnetische Feld](../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md) in den Nutzkreis übertragen.
 
 > [!WARNING] Ursachen für magnetische beeinflussungen sind, die Magnetfelder stromdurchflossener Leiter, welche bei einer Stromänderung Spannungen in benachbarten Leiterschleifen induzieren.
 
@@ -29,7 +29,7 @@ Die Lastspannung $u_{L}$ erhält durch die magnetisch eingekoppelte Störspannun
 
 ## Modellierung
 
-Modellierung der induzierten Störspannung erfolgt durch eine weitere [Spannungsquelle](../Elektrotechnik/elektrische%20Spannung.md) am Nutzkreis.  
+Modellierung der induzierten Störspannung erfolgt durch eine weitere [Spannungsquelle](../Elektrotechnik/Elektrostatik/elektrische%20Spannung.md) am Nutzkreis.  
 ![700](../_assets/magn_koppl_modell.png)
 
 > [!INFO] Die magnetische Kopplung wird durch die Gegeninduktivität $M$ ausgeprägt.  
@@ -103,4 +103,4 @@ Verringerung der Gegeninduktivität druch:
 
 # Tags
 
-[](../Elektrotechnik/magnetisches%20Feld.md#Magnetische%20Grundgrößen)
+[](../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md#Magnetische%20Grundgrößen)

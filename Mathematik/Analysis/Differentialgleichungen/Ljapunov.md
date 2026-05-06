@@ -21,16 +21,18 @@ title: Stabilität nach Ljapunov
 
 > [!question] [A Visual Explanation of Lyapunov Stability - YouTube](https://www.youtube.com/watch?v=W8YpgG0KuOo)
 
-## Differentialgleichungen
+## Lineare 
+
+> [!question] [LTI-Zustandsraum](../../../Systemtheorie/Zeitkontinuierlich/LTI-Zustandsraum.md)
 
 ### Ruhelagen
 
 Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das [LTI-System](../../../Systemtheorie/Zeitkontinuierlich/LTI-Systeme.md) also $0 = \mathbf{Ax}_{S}+\mathbf{Bu}_{S}$
 
-|                        | $\mathbf{u}_{s}=0$                                | $\mathbf{u}_{S}\neq 0$                                                                                                                                           |
-| ---------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $\det\mathbf{A}\neq 0$ | 1 Ruhelage: $\mathbf{x}_{s}=0$                    | 1 Ruhelage: $\mathbf{x}_{s} = \mathbf{A}^{-1}\mathbf{Bu}_{s}$                                                                                                    |
-| $\det\mathbf{A}=0$     | $\infty$ viele Ruhelagen im Kern von $\mathbf{A}$ | $\infty$ viele Ruhelagen falls $\mathbf{Bu}_{s} \in \operatorname{im}\mathbf{A}$ <br>keine Ruhelagen falls $\mathbf{Bu}_{s} \notin \operatorname{im} \mathbf{A}$ |
+|                                                                                                  | $\mathbf{u}_{s}=0$                                                    | $\mathbf{u}_{s}\neq0$                                                                                                                               |
+| ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $\det \mathbf{A} \neq 0$<br>(Matrix ist [regulär](../../Algebra/Reguläre%20Matrizen.md))         | 1 RL: $\mathbf{x}s =\mathbf{A}^{-1}\mathbf{0}=\mathbf{0}$             | 1 RL: $\mathbf{x}_{s}=-\mathbf{A}^{-1}\mathbf{Bu}_{s}$                                                                                              |
+| $\det \mathbf{A} = 0$<br>(Matrix ist [singulär](../../Algebra/Singuläre%20Matrix.md)) | $\infty$-viele RL: $\mathbf{x}_{s} \in \operatorname{ker} \mathbf{A}$ | $\infty$-viele RL, wenn $\mathbf{Bu}_{s} \in \operatorname{im} \mathbf{A}$. <br>Keine RL dalls $\mathbf{Bu}_{s} \notin\operatorname{im} \mathbf{A}$ |
 
 
 > [!example] Pendel: Das Pendel hat zwei ruhelagen:

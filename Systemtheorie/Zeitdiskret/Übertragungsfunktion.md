@@ -15,7 +15,7 @@ title: Zeitdiskrete Übertragungsfunktion
 
 # Zeitdiskrete Übertragungsfunktion
 
-[Kontinuierliche Übertragungsfunktion](../Zeitkontinuierlich/Übertragungsfunktion.md) ***:LiRefreshCcw:***
+[Kontinuierliche Übertragungsfunktion](../Frequenzbereichsmethoden/Übertragungsfunktion.md) ***:LiRefreshCcw:***
 
 ---
 

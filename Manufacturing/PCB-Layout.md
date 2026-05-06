@@ -16,7 +16,7 @@ title: PCB-Layouting
 ![500](../_assets/DFM.png)
 
 - **Design For Solvability: DFS - Lösbarkeit:** Kann das Board gelöst werden, EDA Kompetenz, Schaltung Abschätzen
-- **Design For Performance: DFP - Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), [Thermisch](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md), [Strom](../Elektrotechnik/elektrischer%20Strom.md) 
+- **Design For Performance: DFP - Leistung:** Signal Integrität, EMV (Strahlt das PCB, ist das PCB empfindlich zu Strahlung), [Thermisch](../Physik/Thermodynamik/Temperatur%20und%20Teilchenmodell.md), [Strom](../Elektrotechnik/Elektrostatik/elektrischer%20Strom.md) 
 - **Design For Manufacturability: DFM - Produzierbarkeit:** So Früh wie möglich die Bauteil Versorgung/Verfügbarkeit prüfen, mit dem Produktionshaus auseinander setzen. Erst Materialien/Stack-Up wählen
 
 ## Hochfrequenz Leitungen
@@ -29,20 +29,20 @@ title: PCB-Layouting
 
 1. Dünnes [Dielektrikum](../Elektrotechnik/Dielektrikum.md) zwischen Signal-Layer und GND-Layer
 	- Verbessert die Kopplung zwischen Signal und GND
-	- verringert [Induktivität](../Elektrotechnik/Induktivität.md)
-	- erhöht [Kapazität](../Elektrotechnik/Kapazität.md) zwischen Flächen  
+	- verringert [Induktivität](../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md)
+	- erhöht [Kapazität](../Elektrotechnik/Elektrische%20Netzwerke/Kapazität.md) zwischen Flächen  
 	$\Big(C=\dfrac{\varepsilon_{0}\cdot\varepsilon_{r}\cdot A}{d}\Big)$
 2. Mindestens 1x GND Layer über/unter einem Signal/Power Layer
 	- Grenzt Eund H-Felder ein
-	- verringert [Induktivität](../Elektrotechnik/Induktivität.md)
+	- verringert [Induktivität](../Elektrotechnik/Elektrische%20Netzwerke/Induktivität.md)
 	- gute Stromrückfluss
 	- gute Leistungsverteilung
 3. Keine aneinander angrenzenden Signal-Layer
 
-### [Leiterbahnen](../HF-Technik/Eingangsimpedanz.md) Und [Anpassung](../Elektrotechnik/Impedanz.md)
+### [Leiterbahnen](../HF-Technik/Eingangsimpedanz.md) Und [Anpassung](../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md)
 
 1. Leiterbahnen kurz halten
-2. Wellenwiderstand / [Impedanz](../Elektrotechnik/Impedanz.md) [Anpassen](../Elektrotechnik/Impedanz.md)
+2. Wellenwiderstand / [Impedanz](../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md) [Anpassen](../Elektrotechnik/Elektrische%20Netzwerke/Impedanz.md)
 	- Abschlusswiderstand
 3. Man strebt grundsätzlich [elektrisch kurze Leitungen](../HF-Technik/Eingangsimpedanz.md) an
 4. Leiterbahnen am Rand der Platine vermeiden
