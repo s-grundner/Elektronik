@@ -63,6 +63,18 @@ Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). D
 > 
 > $$
 > \mathbf{g}(\mathbf{w}) := \nabla_{\mathbf{w}}J(\mathbf{w}) = -2\mathbf{r}_{xy} + 2 \mathbf{R}_{x x}\mathbf{w}\overset{!}{=}\mathbf{0}
+
+- $\mathbf{R}_{x x}$ ... Autokorrelationsmatrix
+- $\mathbf{r}_{xy}$ ... Kreuzkorrelationsvektor
+
+Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). Daher gibt es nur ein globales minimum $J(\mathbf{w}_{0})$ am Punkt $\mathbf{w}_{0}$.
+
+> [!satz] **S - MMSE)** Minimum Mean Square Error $J(\mathbf{w}_{0})$
+> 
+> Das [minimum](../../Mathematik/Analysis/Kurvendiskussion/Extremwert.md) der Kostenfunktion $J$ kann gefunden werden, indem man dessen [Gradienten](../../Mathematik/Analysis/Vektoranalysis/Gradient.md) gleich null setzt:
+> 
+> $$
+> \mathbf{g}(\mathbf{w}) := \frac{ \partial J(\mathbf{w}) }{ \partial \mathbf{w} } = -2\mathbf{r}_{xy} + 2 \mathbf{R}_{x x}\mathbf{w}\overset{!}{=}\mathbf{0}
 > $$
 > 
 > Man erhält die [Normalgleichungen](../../Mathematik/Normalgleichungen.md)
@@ -76,8 +88,6 @@ Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). D
 > $$
 > \mathbf{w}_{0} = \mathbf{R}_{xx}^{-1}\mathbf{r}_{xy}
 > $$
-
-
 
 ### Autokorrelationsmatrix
 
