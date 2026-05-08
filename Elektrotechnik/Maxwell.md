@@ -3,6 +3,7 @@ tags:
 aliases:
   - Durchflutungssatz
   - MWG
+  - Maxwellgleichungen
   - Gaußsches Gesetz
 keywords:
 subject:
@@ -27,6 +28,8 @@ title: Maxwell Gleichungen
 ---
 
 # Maxwell Gleichungen
+
+Die Maxwellschen Gleichungen im Vakuum beschrieben das Verhalten des elektrischen Feldes $\mathbf{E}$ und der magnetischen Flussdichte $\mathbf{B}$ in Abhängigkeit von elektrischen Ladungsdichten $\rho$ und Konvektionsstromdichten $\mathbf{J}$
 
 1. [MWG](#1.%20MWG%20-%20Durchflutungssatz): Durchflutungssatz nach Ampère
 2. [MWG](#2.%20MWG%20-%20Induktionsgesetz): Induktionsgesetz nach Faraday
@@ -186,14 +189,22 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ![invert_light|1000](../_assets/nablaOps.png)
 
-> [!hint] Gradient
+> [!hint] [Gradient](../Mathematik/Analysis/Vektoranalysis/Gradient.md)
 > 
 > - Der Gradient eines Skalarfeldes $\varphi$ ist ein Vektorfeld, das die Richtung und die Steigung des Skalarfeldes angibt.
 > - $\varphi(A)$ hat hier ein höheres Potenzial als $\varphi(B)$.
-> - Es Gilt Wegunabhängigkeit: 
-> $$\int_{C_{1}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{1} = \int_{C_{2}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{2} = \varphi(A)-\varphi(B) $$
+> - Es Gilt [Wegunabhängigkeit](../Mathematik/Analysis/Vektoranalysis/Wegunabhängig.md): 
+>   
+> $$
+> \int_{C_{1}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{1} = \int_{C_{2}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{2} = \varphi(A)-\varphi(B)
+> $$
+> 
 > - Wandert man in einem Gradientenfeld über eine Geschlossene Kontur, ist man auf dem Gleichen Potenzial wie zu Beginn.
-> $$\oint_{C} \nabla\varphi\mathrm{~d}\vec{s} = 0 \iff \sum_{\text{Masche}} \varphi = 0 $$
+> 
+> $$
+> \oint_{C} \nabla\varphi\mathrm{~d}\vec{s} = 0 \iff \sum_{\text{Masche}} \varphi = 0
+> $$
+> 
 > - Damit wird die Kirchhoffsche [Maschenregel](Elektrische%20Netzwerke/Kirchhoffsche%20Regeln.md) begründet
 > 
 

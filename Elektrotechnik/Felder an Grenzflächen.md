@@ -58,7 +58,7 @@ $$
 \end{align}
 $$
 
-$\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/Flächenvektor.md) der Grenzfläche.
+$\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/Flächenintegral.md) der Grenzfläche.
 
 > [!info] Interpretation
 > - Die Feldkomponenten von $\mathbf{D}$ und $\mathbf{B}$ **normal** zur Grenzfläche (in Richtung von $\hat{n}$) sind gleich, also kontinuierlich am übergang.
@@ -107,7 +107,7 @@ $$
 \end{align}
 $$
 
-$\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/Flächenvektor.md) der Grenzfläche.
+$\hat{n}$ ist der [Flächennormalvektor](../Mathematik/Analysis/Vektoranalysis/Flächenintegral.md) der Grenzfläche.
 
 > [!info] Die perfekt leitfähige Grenzfläche agiert als eine "elektrische Wand"
 > 

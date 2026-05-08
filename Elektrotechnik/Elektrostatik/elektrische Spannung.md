@@ -21,6 +21,8 @@ title: elektrische Spannung
 
 # Elektrische Spannung
 
+Aus der [Elektrostatik](index.md) wird die Spannung aus der Potenzialdifferenz im elektrischen Feld definiert.
+
 > [!def] **D)** Elektrische Spannung / Potenzialdifferenz ^DEF
 >
 > $$

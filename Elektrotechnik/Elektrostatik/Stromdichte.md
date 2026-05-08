@@ -84,7 +84,7 @@ $$
 d I=\vec{J} \cdot d \vec{A} \quad \Rightarrow \quad I=\int_A \vec{J} \cdot d \vec{A}
 $$
 
-> [!success] Hier kommt das [Flächenintegral](../../Mathematik/Analysis/Flächenintegral.md) ($\int _{A}$) zum Einsatz.
+> [!success] Hier kommt das [Flächenintegral](../../Mathematik/Analysis/Vektoranalysis/Flächenintegral.md) ($\int _{A}$) zum Einsatz.
 
 ## Zusammenhang mit dem E-Feld
 

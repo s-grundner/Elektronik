@@ -45,7 +45,7 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 ### Reglerstrukturen
 
-> [!info] [Reglerstrukturen - Mindmap 🧠](../../Reglerstrukturen.canvas)
+> [!info] [Reglerstrukturen - Mindmap 🧠](Reglerstrukturen.canvas)
 
 
 Zustandsregelung: Man verwendet den Systemzustand $\mathbf{x}(t)$ um eine Regelung $\mathbf{K}$ zu erzielen.

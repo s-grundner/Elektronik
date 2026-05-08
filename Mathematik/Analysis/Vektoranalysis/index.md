@@ -2,18 +2,20 @@
 tags:
 aliases:
   - Vektorfeld
+  - Feldvektor
 keywords:
 subject:
   - VL
   - Mathematik 2
   - Elektrotechnik
-semester: WS25
-created: 9th December 2025
+  - Theoretische Elektrotechnik
+semester: SS26
+created: 12th April 2026
 professor:
   - Andreas Neubauer
   - Reinhard Feger
-release: true
-title: Vektorfelder
+release: false
+title: index
 ---
 
 # Vektorfelder
@@ -32,6 +34,44 @@ Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](
 > - [Gradient](Gradient.md) und Gradientintegral ([Fundamentalsatz der Analysis](../Fundamentalsatz%20der%20Analysis.md))
 >  - [Divergenz](Divergenz.md) und Divergenzintegral / [Gaußscher Integralsatz](Gaußscher%20Integralsatz.md)
 >  -  [Rotor](Rotor.md) und Rotationsintegral / [Stokesscher Integralsatz](../Stokesscher%20Integralsatz.md)
+
+### Darstellung von Vektorfeldern, Feldlinien
+
+Darstellung der Feldvektoren an (ausgewählten) Punkten. 
+
+![invert_dark|300](../../../_assets/vektorfeld-1.jpg)
+
+Darstellug Durch **Feldlinien**
+
+| ![invert_dark\|800](../../../_assets/vektorfeld-3.jpg)   | ![invert_dark\|300](../../../_assets/vektorfeld-2.jpg)             |
+| -------------------------------------------------------- | ------------------------------------------------------------------ |
+| Feldstärke ist in jedem Punkt *tangential* zur Feldlinie | Die *Dichte* der Feldlinien ist ein Maß für die lokale Feldstärke. |
+
+> [!example] [Gravitationsfeld](../../../Physik/Gravitationsfeld.md)
+
+### Räumliche Differenzation von Feldern
+
+> [!question] [Nabla Operator](Nabla%20Operator.md)
+
+Im Raum gibt es 3 von einander unabhängige Koordinaten, daher gibt es auch mehrere Möglichkeiten, Feldgrößen zu Differnzieren.
+
+Zur Vollständigen Beschreibung von Vektorfeldern sind zwei Differenzialausdrücke relevant.
+
+- [Divergenz](Divergenz.md)
+- [Rotation](Rotor.md)
+
+$\implies$ [Maxwellgleichungen](../../../Elektrotechnik/Maxwell.md)
+
+> [!hint] Wichtige Elemente der Vektoranalysis
+> 
+> - [Gradient](Gradient.md) eines Skalarfeldes
+> - Linienintegral (Wegintegral) eines Vektorfeldes
+> 	- Sonderfall: *Ringintegral* über einen *geschlossenen* Weg
+> - Flächenintegral eines Vektorfeldes
+> 	- Sonderfall: *Hüllintegral* über eine *geschlossene* Fläche / Kontur
+> - Divergenz eines Vektorfeldes als *geschrumpftes* Hüllintegral
+> - Rotor eines Vektorfeldes als *geschrumpftes* Linienintegral
+> - Integralsätze von [Gauß](Gaußscher%20Integralsatz.md) und [Stokes](../Stokesscher%20Integralsatz.md)
 
 ## Referenzen 
 

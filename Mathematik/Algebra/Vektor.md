@@ -4,9 +4,14 @@ aliases:
   - Vektorrechnung
   - Vektoren
 subject:
-  - mathe
-created: 28th September 2022
-title: Vektorfelder
+  - VL
+  - Theoretische Elektrotechnik
+created: 3rd May 2026
+title: Vektor
+semester: SS26
+professor:
+	- Bernhard Jakoby
+release: false
 ---
 
 # Vektoren
@@ -46,14 +51,16 @@ Hierbei ist es wichtig, dass die Elemente nicht vertauscht werden können: $\beg
 ![500](../../_assets/VectorMatrixTensor.png)
 
 
+## Physikalische Relevanz
+
 > [!example] Wozu Vektoren? Darstellung Physikalischer Größen
 > - **Skalare Größen:** Masse $m$, Dichte $\rho$, Temperatur $T$, Ladung $Q$, elektrisches Potenzial $\varphi$
-> - **Vektorielle Größen:** Position $\mathbf{r}$, Geschwindigkeit $\mathbf{v}$, Elektrisches Feld $\mathbf{E}$
+> - **Vektorielle Größen:** Gerichtete physikalische Größen; Position $\mathbf{r}$, Geschwindigkeit $\mathbf{v}$, Elektrisches Feld $\mathbf{E}$
 
-
+## Referenzen
 
 - [Skalarprodukt](Skalarprodukt.md)
 - [Matrix](Matrix.md)
 - [Tensor](Tensor.md)
 - [Vektor Basis](index.md)
-- [index](index.md)
+- [Vektorfeld](../Analysis/Vektoranalysis/index.md)

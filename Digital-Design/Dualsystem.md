@@ -3,8 +3,6 @@ tags:
   - Algebra
 aliases:
   - Binär
-  - 2er-Komplement
-  - 1er-Komplement
 keywords:
 subject:
   - VL
@@ -26,7 +24,7 @@ Das Dualsystem ist ein [Polyadisches Stellenwertsystem](Polyadisches%20Stellenwe
 1. Signed Magnitude
 2. Komplement Darstellung
 	1. Einser- / r-1-Komplement
-	2. Zweiter- / r-2-Komplement
+	2. Zweiter- / r-Komplement
 
 **Überblick**
 
@@ -81,44 +79,13 @@ Man verschwendet also zwei Stellen für die $0$.
 > \end{align}
 > $$
 
+## 2er Komplement
 
-### 2er Komplement
+> [!question] [2er Komplement](2er%20Komplement.md)
 
-Das $r$-Komplement des Dualsystems ist das **2er Komplement**, $r=2$.
+## 1er Komplement
 
-![](Polyadisches%20Stellenwertsystem.md#^R)
-
-Das 2er Komplement ist schwieriger zu bilden aber leichter zu rechnen (einfach Übertrag entfernen).
-
-- Jede $1$ zu $0$, jede $0$ zur $1$
-- und $+1$
-
-**Bildung des 2er Komplements**
-
-Beispiel:
-
-| $N_{r=10}$ | $N_{r=2}$           | $(r=2)^{(n=3)} - N_{(r=10)}$ | $\overline{N_{r=2}}$ | $\overline{N_{r=10}}$ |
-| :----------: | :-------------------: | :----------------------------: | :--------------------: | :---------------------: |
-| $0_{10}$   | $000$               | $8-0=8$                      | $1000$               | $+8_{10}$             |
-| $1_{10}$   | $001$               | $8-1=7$                      | $111$                | $-1_{10}$             |
-| $2_{10}$   | $010$               | $8-2=6$                      | $110$                | $-2_{10}$             |
-| $3_{10}$   | $011$               | $8-3=5$                      | $101$                | $-3_{10}$             |
-| $4_{10}$   | $\color{orange}100$ | $8-4=4$                      | $\color{orange}100$  | $-4_{10}$             |
-
-Man Beachte dass nicht der gesamte Wertebereich verwendet werden kann, da z.B. für $n=3: -4_{10}=4_{10}$. Der Wertebereich des Radix Komplements ist daher
-
-$$ [r^{n-1}-1, -r^{n-1}] $$
-
-### 1er Komplement 
-
-Das $r-1$-Komplement des Dualsystems ist das **1er Komplement**, da $r=2$.
-
-![](Polyadisches%20Stellenwertsystem.md#^R-1)
-
-1er Komplement ist leichter zu bilden, aber schwieriger zu rechnen
-
-- Jede $1$ zu $0$, jede $0$ zur $1$
-- Jede $1$ zu $0$, jede $0$ zur $1$
+> [!question] [1er Komplement](1er%20Komplement.md)
 
 ## Rechnen im Dualsystem
 

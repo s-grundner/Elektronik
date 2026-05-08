@@ -78,15 +78,19 @@ Der Nachteil der Signed Maginitude ist, dass es zwei Darstellungsmöglichkeiten 
 
 #### r-Komplement
 
-Dabei ist $n$ die Anzahl der Stellen von $N$
 
 > [!def] **D - R)** $r$-Komplement ^R
-> $$\overline{N}_{r} = r^{n} - N_{r}$$
+> 
+> $$
+> \overline{N}_{r} = r^{n} - N_{r}
+> $$
+> 
+> - Dabei ist $n$ die Anzahl der Stellen von $N$
 
 Alle Stellen $a_{i}$ werden durch $r - a_{i}$ ersetzt. Es muss gelten $N_{r}+\overline{N}_{r}=0$
 
 - Hier hat man nur eine Darstellung der 0.
-- Im [Dualsystem](Dualsystem.md#2er%20Komplement) bezeichnet als 2er-Komplement mit der Kennung $2\mathrm{K}$ im Index
+- Im [Dualsystem](Dualsystem.md#2er%20Komplement) bezeichnet als [2er Komplement](2er%20Komplement.md) mit der Kennung $2\mathrm{K}$ im Index
 
 Einfacher:
 - $r-1$-Komplement bilden: $a_{i} \to (r-1)-a_{i}$
