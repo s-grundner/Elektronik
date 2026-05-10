@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"68b5d8e7dcb7d6b2","type":"group","x":-1580,"y":298,"width":1410,"height":306,"label":"Applications"},
+		{"id":"2e5790082f553f88","type":"group","x":-1314,"y":-460,"width":1494,"height":263,"label":"Build System"},
+		{"id":"6f588d3acda89a60","type":"group","x":-1545,"y":-51,"width":2045,"height":145,"label":"Language"},
+		{"id":"1aa5db1f9fa98ee0","type":"text","text":"# Rust","x":-35,"y":-25,"width":140,"height":93,"color":"2"},
+		{"id":"b131de533236dc1d","type":"text","text":"# C++\n\n","x":360,"y":-24,"width":120,"height":92,"color":"2"},
+		{"id":"eb4d7cf442fdcfd1","type":"text","text":"## C++ Frameworks\n\n- CUDA\n- Qt\n- RISC-V VP++","x":760,"y":-299,"width":440,"height":200},
+		{"id":"3ac0f972d3a1650f","type":"text","text":"## C++ Libraries\n\n- Raylib\n- Standard Template Library","x":760,"y":-59,"width":440,"height":160},
+		{"id":"9a63c8b87bb2b9f3","type":"text","text":"## C++ Applications\n\n- LLVM\n- Ableton Live\n- Unreal Engine","x":760,"y":161,"width":440,"height":200},
+		{"id":"b4d22759b1a83dc8","type":"text","text":"# C","x":-420,"y":-23,"width":140,"height":90,"color":"2"},
+		{"id":"7032a2a7a563aad6","type":"text","text":"- Linux Kernel Development\n- Embedded Applications","x":-510,"y":318,"width":320,"height":266,"color":"3"},
+		{"id":"b933ba0776e2e994","type":"text","text":"## Memory Safety\n\n- Use After Free\n- Null Pointers\n- data Races\n- Double Free\n","x":258,"y":318,"width":325,"height":266},
+		{"id":"7691ef3375fc5595","type":"text","text":"- .NET Development\n- Windows Applications\n\t- GUI","x":-960,"y":328,"width":344,"height":256,"color":"3"},
+		{"id":"f97b825bca6b6f7c","type":"text","text":"# C#","x":-858,"y":-23,"width":140,"height":90,"color":"2"},
+		{"id":"337f7430c6c96bb0","type":"text","text":"## .NET","x":-913,"y":-299,"width":250,"height":82,"color":"1"},
+		{"id":"2a6475fd655d0591","type":"text","text":"\n❌Systems Language\n✅Services Language\n\n- Backend Systems\n- Databases\n- Cloud Infrastructure\n- DevOps","x":-1560,"y":328,"width":310,"height":256,"color":"3"},
+		{"id":"5f58b6b86418ccec","type":"text","text":"# Go","x":-1525,"y":-23,"width":240,"height":90,"color":"2"},
+		{"id":"361087c274f23239","type":"text","text":"## Cargo","x":-90,"y":-299,"width":250,"height":82,"color":"1"},
+		{"id":"23cc78ebd8c6233f","type":"text","text":"## Gradle / Maven","x":-1294,"y":-298,"width":334,"height":80,"color":"1"},
+		{"id":"892a495667f6bda6","type":"text","text":"# Java","x":-1207,"y":-23,"width":160,"height":90,"color":"2"},
+		{"id":"8ff648b1314f38aa","type":"text","text":"## Make / Ninja","x":-475,"y":-440,"width":250,"height":81,"color":"1"},
+		{"id":"f22f6062525d0437","type":"text","text":"## CMake","x":-475,"y":-299,"width":250,"height":82,"color":"1"}
+	],
+	"edges":[
+		{"id":"766e0e87fb81049f","fromNode":"b131de533236dc1d","fromSide":"right","toNode":"eb4d7cf442fdcfd1","toSide":"left"},
+		{"id":"f49962b27aaa2d1c","fromNode":"b131de533236dc1d","fromSide":"right","toNode":"3ac0f972d3a1650f","toSide":"left"},
+		{"id":"c02f42a25f1a4905","fromNode":"b131de533236dc1d","fromSide":"right","toNode":"9a63c8b87bb2b9f3","toSide":"left"},
+		{"id":"eeccfe4c6d6f590a","fromNode":"5f58b6b86418ccec","fromSide":"bottom","toNode":"2a6475fd655d0591","toSide":"top"},
+		{"id":"8b3726f259e5afcd","fromNode":"f97b825bca6b6f7c","fromSide":"bottom","toNode":"7691ef3375fc5595","toSide":"top"},
+		{"id":"d8d39e3050e38a97","fromNode":"1aa5db1f9fa98ee0","fromSide":"top","toNode":"361087c274f23239","toSide":"bottom"},
+		{"id":"4acbde4c9bc9e879","fromNode":"1aa5db1f9fa98ee0","fromSide":"bottom","toNode":"b933ba0776e2e994","toSide":"top","label":"Fixes ✅"},
+		{"id":"81d70970e27752e9","fromNode":"b131de533236dc1d","fromSide":"bottom","toNode":"b933ba0776e2e994","toSide":"top","label":"Issues ❌"},
+		{"id":"2f2c78a8d42f0df9","fromNode":"f97b825bca6b6f7c","fromSide":"top","toNode":"337f7430c6c96bb0","toSide":"bottom"},
+		{"id":"11a2c340d9ab4316","fromNode":"b4d22759b1a83dc8","fromSide":"bottom","toNode":"b933ba0776e2e994","toSide":"top","label":"Issues ❌"},
+		{"id":"3aca207f908bc4bb","fromNode":"b4d22759b1a83dc8","fromSide":"bottom","toNode":"7032a2a7a563aad6","toSide":"top"},
+		{"id":"e09e15b660239657","fromNode":"1aa5db1f9fa98ee0","fromSide":"bottom","toNode":"7032a2a7a563aad6","toSide":"top"},
+		{"id":"e3fd5c1c19524a62","fromNode":"892a495667f6bda6","fromSide":"top","toNode":"23cc78ebd8c6233f","toSide":"bottom"},
+		{"id":"3357f8315f045658","fromNode":"f22f6062525d0437","fromSide":"top","toNode":"8ff648b1314f38aa","toSide":"bottom"},
+		{"id":"d24ca8b856010c14","fromNode":"b4d22759b1a83dc8","fromSide":"top","toNode":"f22f6062525d0437","toSide":"bottom"},
+		{"id":"5929310bc3de5127","fromNode":"b131de533236dc1d","fromSide":"top","toNode":"f22f6062525d0437","toSide":"bottom"}
+	]
+}

@@ -1,15 +1,34 @@
 ---
 title: Euklidsche Norm
+tags:
+aliases:
+subject:
+  - VL
+  - Signale und Systeme
+semester: WS24
+created: 29th January 2026
+professor:
+release: false
 ---
-## Euklidsche Norm
+
+
+# Euklidsche Norm
+
+> [!question] [Norm](Norm.md)
+
+---
 
  Standardnorm im Euklidschen Raum $\mathbb{R}^2$ :
 
-$$\|\mathbf{x}\|=\sqrt{x_1^2+x_2^2}$$
+$$
+\lVert \mathbf{x} \rVert_{2} =\sqrt{x_1^2+x_2^2}
+$$
 
 Erweiterung der Euklidschen Norm auf $\mathbb{R}^n$
 
-$$\|\mathbf{x}\|=\sqrt{x_1^2+x_2^2+\ldots+x_n^2}$$
+$$
+\lVert \mathbf{x} \rVert_{2} =\sqrt{x_1^2+x_2^2+\ldots+x_n^2}
+$$
 
 Der nächste Satz besagt, dass jeder Prähilbertraum auch ein normierter Raum ist:
 

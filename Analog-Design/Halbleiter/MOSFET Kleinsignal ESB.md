@@ -52,10 +52,10 @@ title: MOSFET Kleinsignal ESB
 > - Höhere mögliche Bandbreite
 > - Bessere RF performance
 > 
-> | $f_{\mathrm{T}}$ erhöht sich mit: | |  $f_{\mathrm{T}}$ verringert sich mit |
-> | - | - | - |
-> | höheres $g_{\mathrm{m}}$ | | größeren Parasitären Kapazitäten |
-> | $\iff$ Höherer Biasstrom oder größeres $\frac{W}{L}$ | | $\iff$ größere Flächen |
+> | $f_{\mathrm{T}}$ erhöht sich mit: |  $f_{\mathrm{T}}$ verringert sich mit |
+> | - | - |
+> | höheres $g_{\mathrm{m}}$ | größeren Parasitären Kapazitäten |
+> | $\iff$ Höherer Biasstrom oder größeres $\frac{W}{L}$ | $\iff$ größere Flächen |
 
 ## Referenzen
 

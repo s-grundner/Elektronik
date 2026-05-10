@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"187e51c184d2bdb6","type":"group","x":-1316,"y":600,"width":1676,"height":510,"label":"Kapazitäten"},
+		{"id":"bdc164a81ffd7645","type":"group","x":-1316,"y":420,"width":756,"height":130,"label":"Kartesisch"},
+		{"id":"4d2e2d1299c23f44","type":"group","x":-1316,"y":80,"width":756,"height":116,"label":"Kugel als Volumen"},
+		{"id":"1eef5b9cb4c2f5ed","type":"group","x":-1316,"y":240,"width":756,"height":116,"label":"Zylinder als Volumen"},
+		{"id":"803793e9996e29c5","type":"text","text":"### Punktladung","x":-1296,"y":100,"width":233,"height":76,"color":"1"},
+		{"id":"d85780ecb905b558","type":"text","text":"# E-Feld\n\n$$\n\\oint_{\\partial V} \\mathbf{E}\\cdot\\mathrm{d}\\mathbf{a} = \\int _{V} \\rho(\\mathbf{r}) \\mathrm{~d}V(\\mathbf{r})\n$$\n\n- Hüllfläche geeignet wählen, sodass $\\mathbf{E} | | \\mathrm{d}\\mathbf{a}$.\n- Dann ist das Ringintegral die Mantelfläche\n- Innerhalb des Volumens: Ladungsdichteverteilung berücksichtigen\n- Außerhalb des Volumens: Volumens Integral $\\int_{V}\\rho \\mathrm{~d}V = Q$","x":-2080,"y":80,"width":680,"height":320},
+		{"id":"338d53fea08a80aa","type":"text","text":"### Geladene Kugel","x":-905,"y":100,"width":305,"height":76,"color":"5"},
+		{"id":"9f37d176f0dd7068","type":"text","text":"## Ladungsverteilungen im inneren\n\n- Ladungsverteilungsdichte als Funktion $\\rho(\\mathbf{r})$ der Koordinaten innerhalb eines Volumens","x":-440,"y":100,"width":537,"height":236},
+		{"id":"77030fda12a4075b","type":"text","text":"# Potenzial\n\n$$\n\\int_{\\mathbf{r}_{a}}^{\\mathbf{r}_{b}} \\mathbf{E} \\cdot\\mathrm{d}\\mathbf{s} =\n\\int_{\\mathbf{r}_{a}}^{\\mathbf{r}_{b}} \\nabla\\varphi \\cdot\\mathrm{d}\\mathbf{s} =\n\\varphi(\\mathbf{r}_{a}) - \\varphi(\\mathbf{r}_{b})\n$$\n\n- Wenn nur eine Elektrode: $\\varphi(\\mathbf{r}) - \\varphi(\\mathbf{r}\\to \\infty) = \\varphi(\\mathbf{r})$ \n- Wenn Zwei Elektroden vorhanden: $\\varphi(\\mathbf{r}_{a}) - \\varphi(\\mathbf{r}_{b}) = U_{ab}$\n\n\n\n\n","x":-2080,"y":496,"width":680,"height":260},
+		{"id":"26444bd318f975ae","type":"text","text":"# Kapazität\n\nZwei Elektroden Erforderlich\n\n$$\nC = \\frac{Q}{\\varphi(\\mathbf{r}_{a}) - \\varphi(\\mathbf{r}_{b})}\n$$","x":-2080,"y":860,"width":680,"height":260},
+		{"id":"fd11985d38334368","type":"text","text":"### Linienladung","x":-1296,"y":260,"width":233,"height":76,"color":"3"},
+		{"id":"b7a7e3fa9d4999e5","type":"text","text":"### Geladener Zylinder","x":-905,"y":260,"width":305,"height":76,"color":"6"},
+		{"id":"6617be2bee3d9494","type":"text","text":"### Kapazität Zwischen zwei Punkte","x":-1287,"y":621,"width":307,"height":185,"color":"1"},
+		{"id":"2ef7a663074554b8","type":"text","text":"### Plattenkondensator\n\n- Seriell Geschichtetes Medium\n- Parallelgeschichtetes Medium\n- Drehkondensator","x":-560,"y":621,"width":360,"height":185,"color":"4"},
+		{"id":"f7db6338178f48e9","type":"text","text":"**Formen**\n- Kreisscheibe, Rechteck ...","x":-905,"y":434,"width":305,"height":96,"color":"4"},
+		{"id":"9d435fb79ed8e6aa","type":"text","text":"### Flächenladung","x":-1296,"y":434,"width":233,"height":96,"color":"4"},
+		{"id":"fb2861f670bc1261","type":"text","text":"### Kugelkondensator\n\n- Konzentrische Kugeln\n\t- Konzentrisch geschichtetes Medium\n- Zwei Kugeln in einem Abstand","x":-140,"y":620,"width":460,"height":184,"color":"5"},
+		{"id":"e2c3b29de5bf366b","type":"text","text":"### Zylinderkondensator\n\n- Konzentrischer Zylinder Kondensator\n\t- Konzentrischs Geschichtetes Medium\n\t- Segmentgeschichtetes Medium","x":-140,"y":892,"width":460,"height":184,"color":"6"},
+		{"id":"e26b74ed18fbe4ff","type":"text","text":"### Kapazität Zwischen Punkt und Platte","x":-1286,"y":940,"width":306,"height":136},
+		{"id":"d6399fae5750e7b7","type":"text","text":"**Spiegelungsprinzip**","x":-1025,"y":860,"width":240,"height":50},
+		{"id":"ead30c90a7373227","type":"text","text":"### Kapazität Zwischen Leiter und Platte","x":-840,"y":940,"width":296,"height":136},
+		{"id":"c9c555b25dceb923","type":"text","text":"### Zweidraht Kondensator","x":-840,"y":620,"width":220,"height":186,"color":"3"}
+	],
+	"edges":[
+		{"id":"36728f5e5a3cb451","fromNode":"fd11985d38334368","fromSide":"right","toNode":"b7a7e3fa9d4999e5","toSide":"left"},
+		{"id":"f7e465d2a4fdb78b","fromNode":"803793e9996e29c5","fromSide":"right","toNode":"338d53fea08a80aa","toSide":"left"},
+		{"id":"514e4b0aa621d766","fromNode":"d85780ecb905b558","fromSide":"bottom","toNode":"77030fda12a4075b","toSide":"top"},
+		{"id":"dd318056c842061b","fromNode":"77030fda12a4075b","fromSide":"bottom","toNode":"26444bd318f975ae","toSide":"top"},
+		{"id":"bffa600f24655d8c","fromNode":"9f37d176f0dd7068","fromSide":"left","toNode":"338d53fea08a80aa","toSide":"right"},
+		{"id":"1c232483c232bcb8","fromNode":"9f37d176f0dd7068","fromSide":"left","toNode":"b7a7e3fa9d4999e5","toSide":"right"},
+		{"id":"5cb458cdd7073b77","fromNode":"26444bd318f975ae","fromSide":"right","toNode":"187e51c184d2bdb6","toSide":"left"},
+		{"id":"18103ddf59cab8bf","fromNode":"9d435fb79ed8e6aa","fromSide":"right","toNode":"f7db6338178f48e9","toSide":"left"},
+		{"id":"b287eedc5c35651d","fromNode":"2ef7a663074554b8","fromSide":"bottom","toNode":"d6399fae5750e7b7","toSide":"right"},
+		{"id":"83d7e3a228e4c7a5","fromNode":"d6399fae5750e7b7","fromSide":"bottom","toNode":"e26b74ed18fbe4ff","toSide":"right"},
+		{"id":"93a14aea3891164f","fromNode":"d6399fae5750e7b7","fromSide":"bottom","toNode":"ead30c90a7373227","toSide":"left"},
+		{"id":"75926a2fda1e3e10","fromNode":"6617be2bee3d9494","fromSide":"right","toNode":"d6399fae5750e7b7","toSide":"top"},
+		{"id":"2178dcec563bd145","fromNode":"c9c555b25dceb923","fromSide":"left","toNode":"d6399fae5750e7b7","toSide":"top"}
+	]
+}

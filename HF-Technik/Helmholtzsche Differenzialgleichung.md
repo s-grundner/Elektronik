@@ -18,7 +18,7 @@ title: Helmholzsche Differenzialgleichung
 ---
 # Helmholtz Gleichung 
 
-> [!question] [Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md) für Sinusgrößen 
+> [!question] [Telegrafengleichung](../Elektrotechnik/Elektrodynamik/Telegrafengleichung.md) für Sinusgrößen 
 
 Die Allgemeine herangehensweise nach D'Alembert im Zeitbereich betrachtet sowohl  $\frac{\partial }{\partial t}$ und $\frac{\partial }{\partial \mathbf{x}}$, welche die Analyse und Lösung der Gleichungen erschwert. Für Sinusförmige größen, welche mit nur einer Frequenz schwingen, lassen sich vereinfachungen der [komplexen Wechselstromrechnung](../Elektrotechnik/Elektrische%20Netzwerke/Wechselstromtechnik.md) anwenden.
 

@@ -16,6 +16,7 @@ title: Linienladungsdichte
 
 # Linienladung
 
-![4000](../_assets/Excalidraw/Linienladung%202024-03-18%2021.53.17.excalidraw.md)
+![invert_dark](../../_assets/Excalidraw/Linienladung%202024-03-18%2021.53.17.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Linienladung%202024-03-18%2021.53.17.excalidraw.md)%%
 
 - [Flächenladung](Flächenladung.md)

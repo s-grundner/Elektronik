@@ -64,7 +64,7 @@ Mit $U$ und $I$ als Funktion von Spannung und Strom der hinlaufenden und rückla
 
 **Verlustbehaftete Leitung mit Sinusförmiger Wellenform**
 
-Hergeleitet aus der [Lösung der Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md#^LSGTFGL) eingesetzt in die gekoppelte PDGL der TFGL für Sinusgrößen: Im Allgemeinen komplex
+Hergeleitet aus der [Lösung der Telegrafengleichung](../Elektrotechnik/Elektrodynamik/Telegrafengleichung.md#^LSGTFGL) eingesetzt in die gekoppelte PDGL der TFGL für Sinusgrößen: Im Allgemeinen komplex
 
 $$
 \underline{ Z }_{0} = \sqrt{ \frac{R'+j\omega L'}{G'+j\omega C'} } \tag{Z0}

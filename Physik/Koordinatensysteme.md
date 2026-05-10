@@ -1,6 +1,7 @@
 ---
 tags:
 aliases:
+  - Ortsvektor
 subject:
   - VL
   - Theoretische Elektrotechnik

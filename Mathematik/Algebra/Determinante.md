@@ -45,11 +45,16 @@ title: Determinante
 
 ## Bedeutung der Determinante
 
-1. Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
-2. Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
+1. [Koordinatentransformation](../../Physik/Koordinatensysteme.md): Mit der Basistransformation eines Vektors (Lineares Gleichungssystem) der Form $A\mathbf{x}=\mathbf{v}$, gibt die Determinante an, um welchen Faktor sich die Fläche (bzw. Volumen, oder höher dimensionale Einheiten) verändert.
+
+
+![invert_dark|600](../../_assets/Excalidraw/Jacobi%20Matrix%202026-05-09%2017.42.57.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Jacobi%20Matrix%202026-05-09%2017.42.57.excalidraw.md)%%
+
+2. [Definitheit](Definitheit.md): Das Vorzeichen der Determinante gibt Hinweise auf das Vorzeichen der Eigenwerte:
 	- $\det(A)>0$ : Alle Eigenwerte haben ein Produkt mit positivem Vorzeichen. Dies kann darauf hindeuten, dass entweder alle Eigenwerte positiv sind (positive Definitheit) oder ein geradzahliges Paar negativer Eigenwerte vorhanden ist.
 	- $\det(A)<0$ : Es gibt eine ungerade Anzahl negativer Eigenwerte, was oft auf Indefinitheit hinweist.
-3. Ausschlaggebend für weitere Eigenschaften
+3. Weitere Eigenschaften
 	- [Ähnliche Matrizen](Ähnliche%20Matrizen.md)
 	- [Singuläre Matrix](Singuläre%20Matrix.md)
 	- [Reguläre Matrizen](Reguläre%20Matrizen.md)
@@ -90,6 +95,10 @@ Die Determinante von $A = (\mathbf{s_{1}},\mathbf{s_{2}}, \mathbf{s_{3}})$ ist g
 
 ![invert_dark|500](../../_assets/Pasted%20image%2020250323161221.png)
 
+### Laplace Entwicklungssatz
+
+#todo
+
 ## Sonderfälle
 
 ### Obere rechte Dreiecksmatrix
@@ -117,8 +126,11 @@ $$ \operatorname{det}\left(\operatorname{diag}\left(d_1, \ldots, d_n\right)\righ
 
 $$\operatorname{det}\left(\mathbf{I}_n\right)=1$$
 
-# Tags
 
-[Mathematrick Determinante](https://www.youtube.com/watch?v=dJ7d9wwC2sw)  
-[Mathematrick Laplace Entwicklungssatz](https://www.youtube.com/watch?v=3cG0HWdmHLI)  
-[Spatprodukt](Spatprodukt.md)
+## Referenzen
+
+
+- [Spatprodukt](Spatprodukt.md)
+- [Determinante der Jacobi Matrix](../Analysis/Vektoranalysis/Jacobi%20Matrix.md#Determinante%20der%20Jacobi%20Matrix)
+- [Determinante, Mathematrick - YouTube](https://www.youtube.com/watch?v=dJ7d9wwC2sw)  
+- [Laplace Entwicklungssatz, Mathematrick - YouTube](https://www.youtube.com/watch?v=3cG0HWdmHLI)  

@@ -38,33 +38,61 @@ Die Maxwellschen Gleichungen im Vakuum beschrieben das Verhalten des elektrische
 
 ## Übersicht
 
-|    Symbol    | Bedeutung                                         |                                               |             Einheit             |
-| :----------: | :------------------------------------------------ | :-------------------------------------------- | :-----------------------------: |
-|  $\mathbf{E}$ | [elektrische Feldstärke](Elektrostatik/Elektrisches%20Feld.md)  | Intesitätsgröße                               | $\operatorname{V} / \mathrm{m}$ |
-|  $\mathbf{H}$ | magnetische Feldstärke                            | Intesitätsgröße                              |    $\mathrm{A} / \mathrm{m}$    |
-|  $\mathbf{B}$ | [magnetische Flussdichte](Magnetostatik/Magnetisches%20Feld.md) | Quantitätsgröße                               |  $\mathrm{Vs} / \mathrm{m}^2$   |
-|  $\mathbf{D}$ | elektrische Flussdichte                           | Quantitätsgröße                               |  $\mathrm{As} / \mathrm{m}^2$   |
-|  $\mathbf{J}$ | elektrische [Stromdichte](Elektrostatik/Stromdichte.md)         |                                               |   $\mathrm{A} / \mathrm{m}^2$   |
-|  $\mathbf{M}$ | magnetische Stromdichte                           | (fiktive größe, vereinfacht oft Berechnungen) |   $\mathrm{V} / \mathrm{m}^2$   |
-|    $\rho$    | Raumladungsdichte                                 |                                               |  $\mathrm{As} / \mathrm{m}^3$   |
+|    Symbol    | Bedeutung                                                       |                                                           |             Einheit             |
+| :----------: | :-------------------------------------------------------------- | :-------------------------------------------------------- | :-----------------------------: |
+| $\mathbf{E}$ | [elektrische Feldstärke](Elektrostatik/Elektrisches%20Feld.md)  | Intesitätsgröße                                           | $\operatorname{V} / \mathrm{m}$ |
+| $\mathbf{H}$ | magnetische Feldstärke                                          | Intesitätsgröße                                           |    $\mathrm{A} / \mathrm{m}$    |
+| $\mathbf{B}$ | [magnetische Flussdichte](Magnetostatik/Magnetisches%20Feld.md) | Quantitätsgröße                                           |  $\mathrm{Vs} / \mathrm{m}^2$   |
+| $\mathbf{D}$ | elektrische Flussdichte                                         | Quantitätsgröße                                           |  $\mathrm{As} / \mathrm{m}^2$   |
+| $\mathbf{J}$ | elektrische [Stromdichte](Elektrostatik/Stromdichte.md)         | Quantitätsgröße                                           |   $\mathrm{A} / \mathrm{m}^2$   |
+| $\mathbf{M}$ | magnetische Stromdichte                                         | **fiktive** Quantitätsgröße, vereinfacht oft Berechnungen |   $\mathrm{V} / \mathrm{m}^2$   |
+|    $\rho$    | Raumladungsdichte                                               |                                                           |  $\mathrm{As} / \mathrm{m}^3$   |
 
 Fettgedruckte Größen sind Vektorfelder mit den wichtigsten $\mathbf{E}$ und $\mathbf{B}$. Alle diese Vektorfelder hängen sowohl vom ort als auch von der Zeit ab:
 
 $$
-\mathbf{E,B,H,D,J} : \mathbf{F}(x,y,z,t)
+\mathbf{E,B,H,D,J} : \mathbf{F}(\mathbf{r},t)
 $$
 
-Mit $x,y,z$ als kartesische Koordinaten. Es sind auch Polar- $(r,\theta,\varphi)$ oder Zylinderkoordinaten $(r,h,\varphi)$ möglich. Wichtig sind auch die [materiellen Zusammenhänge](Materialgesetze.md) zwischen Intensitäts und Quantitätsgrößen.
+- [Koordinatensysteme](../Physik/Koordinatensysteme.md): Mit $\mathbf{r}$ als *Kartesische*- $(x,y,z)$, *Polar*- $(r,\theta,\varphi)$ oder *Zylinder*koordinaten $(r,h,\varphi)$ möglich.
+- [Materialgesetze](Materialgesetze.md): Wichtig sind die materiellen Zusammenhänge zwischen Intensitäts und Quantitätsgrößen.
 
-> [!hint]  Für spezielle Bedingungen können die Maxwellgleichungen auch in [Phasorschreibweise](Elektrische%20Netzwerke/Wechselstromtechnik.md#Phasorschreibweise%20der%20Maxwellgleichungen) Angeschreieben werden.
 
 ## Differentielle und integrale Formulierung
 
 Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxwell Gleichung erfolgt mit den Integralsätzen:
 
-| [Divergenz](../Mathematik/Analysis/Vektoranalysis/Divergenz.md)              |     [Rotor](../Mathematik/Analysis/Vektoranalysis/Rotor.md)     |
-| :--------------------------------------------------------------------------: | :-------------------------------------------------------------: |
-| ![](../Mathematik/Analysis/Vektoranalysis/Gaußscher%20Integralsatz.md#^GAUI) | ![](../Mathematik/Analysis/Stokesscher%20Integralsatz.md#^STOI) |
+|       [Divergenz](../Mathematik/Analysis/Vektoranalysis/Divergenz.md)        |            [Rotor](../Mathematik/Analysis/Vektoranalysis/Rotor.md)             |
+| :--------------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+| ![](../Mathematik/Analysis/Vektoranalysis/Gaußscher%20Integralsatz.md#^GAUI) | ![](../Mathematik/Analysis/Vektoranalysis/Stokesscher%20Integralsatz.md#^STOI) |
+
+
+- [Nabla Operator](../Mathematik/Analysis/Vektoranalysis/Nabla%20Operator.md): $\nabla$
+
+| [Gradient](../Mathematik/Analysis/Vektoranalysis/Gradient.md)         | [Divergenz](../Mathematik/Analysis/Vektoranalysis/Divergenz.md)                | [Rotation](../Mathematik/Analysis/Vektoranalysis/Rotor.md)                                              |
+| :------------------------------------------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$ | $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$ | $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$ |
+
+![invert_light|1000](../_assets/nablaOps.png)
+
+> [!hint]- [Gradientensatz](../Mathematik/Analysis/Vektoranalysis/Wegunabhängig.md)
+> 
+> - Der Gradient eines Skalarfeldes $\varphi$ ist ein Vektorfeld, das die Richtung und die Steigung des Skalarfeldes angibt.
+> - $\varphi(A)$ hat hier ein höheres Potenzial als $\varphi(B)$.
+> - Es Gilt **Wegunabhängigkeit**: 
+>   
+> $$
+> \int_{C_{1}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{1} = \int_{C_{2}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{2} = \varphi(A)-\varphi(B)
+> $$
+> 
+> - Wandert man in einem Gradientenfeld über eine Geschlossene Kontur, ist man auf dem Gleichen Potenzial wie zu Beginn.
+> 
+> $$
+> \oint_{C} \nabla\varphi\mathrm{~d}\vec{s} = 0 \iff \sum_{\text{Masche}} \varphi = 0
+> $$
+> 
+> - Damit wird die Kirchhoffsche [Maschenregel](Elektrische%20Netzwerke/Kirchhoffsche%20Regeln.md) begründet
+> 
 
 ### 1. MWG - Durchflutungssatz
 
@@ -179,34 +207,8 @@ Ist $\frac{\partial \mathbf{B}}{\partial t}=0$ so sind die Bedingungen der Arbei
 
 ![Materialgesetze](Materialgesetze.md#^MATG)
 
-## Mathematische Grundbegriffe
 
-- [Nabla Operator](../Mathematik/Analysis/Vektoranalysis/Nabla%20Operator.md): $\nabla$
-
-| [Gradient](../Mathematik/Analysis/Vektoranalysis/Gradient.md)         | [Divergenz](../Mathematik/Analysis/Vektoranalysis/Divergenz.md)                | [Rotation](../Mathematik/Analysis/Vektoranalysis/Rotor.md)                                              |
-| :------------------------------------------------------: | :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
-| $\operatorname{grad} \,\mathbf{F} = \nabla \mathbf{F}$ | $\operatorname{div}\, \mathbf{F} \equiv \nabla \cdot\mathbf{F}$ | $\operatorname{rot}\, \mathbf{F} \equiv \nabla \times \mathbf{F}$ |
-
-![invert_light|1000](../_assets/nablaOps.png)
-
-> [!hint] [Gradient](../Mathematik/Analysis/Vektoranalysis/Gradient.md)
-> 
-> - Der Gradient eines Skalarfeldes $\varphi$ ist ein Vektorfeld, das die Richtung und die Steigung des Skalarfeldes angibt.
-> - $\varphi(A)$ hat hier ein höheres Potenzial als $\varphi(B)$.
-> - Es Gilt [Wegunabhängigkeit](../Mathematik/Analysis/Vektoranalysis/Wegunabhängig.md): 
->   
-> $$
-> \int_{C_{1}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{1} = \int_{C_{2}} \nabla \varphi \cdot\mathrm{d}\vec{s}_{2} = \varphi(A)-\varphi(B)
-> $$
-> 
-> - Wandert man in einem Gradientenfeld über eine Geschlossene Kontur, ist man auf dem Gleichen Potenzial wie zu Beginn.
-> 
-> $$
-> \oint_{C} \nabla\varphi\mathrm{~d}\vec{s} = 0 \iff \sum_{\text{Masche}} \varphi = 0
-> $$
-> 
-> - Damit wird die Kirchhoffsche [Maschenregel](Elektrische%20Netzwerke/Kirchhoffsche%20Regeln.md) begründet
-> 
+## Referenzen
 
 
 ![The 4 Maxwell Equations. Get the Deepest Intuition! - YouTube](https://www.youtube.com/watch?v=hJD8ywGrXks)

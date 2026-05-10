@@ -3,6 +3,8 @@ tags:
 aliases:
   - Flächennormale
   - vektorielles Flächenelement
+  - Flächenvektor
+  - Flächennormalvektor
 keywords:
 subject:
   - VL
@@ -13,7 +15,6 @@ professor:
   - Bernhard Jakoby
 title: Flächenvektor
 ---
- 
 
 # Flächenintegral
 

@@ -10,7 +10,7 @@ title: Iteratoren
 
 Um Container und Algorithmen möglichst flexibel (miteinander) einsetzen zu können, werden deren Schnittstellen üblicherweise als Iteratoren definiert. Beginnend kann vereinfacht ein Iterator als Zeiger auf die Teilelemente eines Containers verstanden werden. Mittels diesem kann durch die Struktur traversiert werden. Für diese Iteratoren sind unterschiedliche Operatoren verfügbar (++, * …). Die Algorithmen der [STL](Cpp_STL.md) arbeiten nicht direkt mit Containern sondern über Iteratoren (viel einfacher, der Algorithmus muss nur für einen Iterator entwickelt werden und funktioniert für alle Container).
 
->[STL](Cpp_STL.md)-Iteratoren: Referenz auf ein Container-Element. Bietet Zugriff in unterschiedliche Container auf einheitliche Weise.
+> [!hint] [STL](Cpp_STL.md)-Iteratoren: Referenz auf ein Container-Element. Bietet Zugriff in unterschiedliche Container auf einheitliche Weise.
 
 - Iteratoren können erzeugt werden ohne mit einem Container verbunden zu sein.
 - Ein Iterator kann mit einem Container verbunden werden (typisch *begin()* oder *end()*).
@@ -22,7 +22,7 @@ Es werden Kategorien von Iteratoren unterschieden:
 
 2. Output-Iterator: für das sequenzielle Schreiben von Daten (Container, Datei, …). Kein Rückspringen möglich. Zum Schreiben in diesen Iterator wird der Dereferenzierungsoperator * verwendet:
 
-   ```c++
+   ```cpp
    *output = Wert;
    ```
 
@@ -41,13 +41,13 @@ Es werden Kategorien von Iteratoren unterschieden:
 
 Definieren eines Iterators ohne Container:
 
-```c++
+```cpp
 list<int>::iterator it;  // Iterator fuer eine int-Liste (automatisch Bidirect. Iter.)
 ```
 
 Zum Einfügen von Elementen in einem Container kommt es vor, dass nicht definierte Bereiche beschrieben werden sollen:
 
-```c++
+```cpp
 list<int> myList;				    // Definition List, ACHTUNG: ist 0 gross
 list<int>::iterator it;			// bidirektionaler Iterator
 it = myList.begin();
@@ -57,7 +57,7 @@ for (int i = 1; i <= 10; i++)
 
 Dafür werden Insert-Iteratoren (Einfüge-Iteratoren) (spezielle Output-Iteratoren) verwendet:
 
-```c++
+```cpp
 list<int> myList;				// Definition List, ACHTUNG: ist 0 gross
 insert_iterator< list<int> > myInserter(myList,myList.end());   // Insert-Iterator
 

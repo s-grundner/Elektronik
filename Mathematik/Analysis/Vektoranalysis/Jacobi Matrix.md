@@ -1,4 +1,17 @@
-## Jacobi Matrix
+---
+tags:
+aliases:
+  - Funktionalmatrix
+subject:
+semester: SS26
+created: 9th April 2026
+professor:
+release: false
+title: Jacobi Matrix
+---
+
+
+# Jacobi Matrix
 
 Allgemein kann die Differentation als [lineare Abbildung](../../Algebra/Lineare%20Abbildungen.md) verstanden werden. Die [Matrix](../../Algebra/Matrix.md) welche eine Funktion $\mathbf{f}$ auf dessen Ableitung Transformiert, ist die Jacobi Matrix.
 
@@ -24,7 +37,20 @@ $$
 
 (Man beachte dass das Subscript $f$ der Jacobimatrix nicht Fett geschrieben ist.)
 
+## Determinante der Jacobi Matrix
+
+#todo
+
 ## Referenzen
 
+- [Jacobi Matrix - Wikipedia](https://de.wikipedia.org/wiki/Jacobi-Matrix)
+- [Determinante der Jacobi Matrix - Wikipedia](https://de.wikipedia.org/wiki/Funktionaldeterminante)
+- [Krummlinige Koordinaten - Wikipedia](https://de.wikipedia.org/wiki/Krummlinige_Koordinaten)
+
+---
+
+> [!question] [Komplexe Analysis](../Complex%20Analysis/index.md)
 
 ![](https://www.youtube.com/watch?v=0CHZMY02Dhk)
+
+

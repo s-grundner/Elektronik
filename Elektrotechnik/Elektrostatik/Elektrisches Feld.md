@@ -27,15 +27,6 @@ title: Statisches Elektrisches Feld
 > - Die Ursache elektrischen Felder sind selbst Ladungen.
 > - Die Ladungen können ruhen oder in Bewegung sein
 
-
-> [!hint]- Folgende Behandlung des E-Feld gilt nur in der Elektrostatik und näherungsweise bei langsamen Änderungen.
-> 
-> Statisch: 
-> 
-> - es ändert sich nichts mehr (eingeschwungener Zustand)
-> - Keine ruckartigen/schnelle Änderungen
-> - in der HF Technik sind einige Vereinfachungen der Elektrostatik nicht mehr gültig
-
 ---
 
 > [!info] [Coulomb-Kraft](Coulomb-Kraft.md)

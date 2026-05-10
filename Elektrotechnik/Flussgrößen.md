@@ -1,6 +1,20 @@
-## Flussgrößen
+---
+tags:
+aliases:
+subject:
+  - VL
+  - Theoretische Elektrotechnik
+semester: SS26
+created: 8th May 2026
+professor:
+release: false
+title: Flussgrößen
+---
 
-Flussgrößen können durch [Flächenintegrale](../Mathematik/Analysis/Vektoranalysis/Flächenintegral.md)
+
+# Flussgrößen
+
+Flussgrößen werden durch [Flächenintegrale](../Mathematik/Analysis/Vektoranalysis/Flächenintegral.md) eines Vektorfeldes über eine Fläche Quantifiziert.
 
 ## Elektromagnetismus
 

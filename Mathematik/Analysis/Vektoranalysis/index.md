@@ -25,7 +25,7 @@ title: index
 
 Im gegensatz zu einem Skalarfeld, dass jedem Punkt einen skalaren Wert (eine Zahl) zuordnet.
 
-## Vektorfelder in der Elektotechnik
+## Vektorfelder in der Elektrotechnik
 
 Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](../../../Elektrotechnik/Elektrostatik/Elektrisches%20Feld.md) $\mathbf{E}$ und das [magnetische Feld](../../../Elektrotechnik/Magnetostatik/Magnetisches%20Feld.md) $\mathbf{B}$, welche durch die [Maxwell](Maxwell.md)-Gleichungen beschrieben werden. Diese Felder sind [konservativ](Wegunabhängig.md).
 
@@ -33,7 +33,7 @@ Die Bedeutensten Vektorfelder in der Elektrotechnik sind das [elektrische Feld](
 > 
 > - [Gradient](Gradient.md) und Gradientintegral ([Fundamentalsatz der Analysis](../Fundamentalsatz%20der%20Analysis.md))
 >  - [Divergenz](Divergenz.md) und Divergenzintegral / [Gaußscher Integralsatz](Gaußscher%20Integralsatz.md)
->  -  [Rotor](Rotor.md) und Rotationsintegral / [Stokesscher Integralsatz](../Stokesscher%20Integralsatz.md)
+>  -  [Rotor](Rotor.md) und Rotationsintegral / [Stokesscher Integralsatz](Stokesscher%20Integralsatz.md)
 
 ### Darstellung von Vektorfeldern, Feldlinien
 
@@ -71,7 +71,7 @@ $\implies$ [Maxwellgleichungen](../../../Elektrotechnik/Maxwell.md)
 > 	- Sonderfall: *Hüllintegral* über eine *geschlossene* Fläche / Kontur
 > - Divergenz eines Vektorfeldes als *geschrumpftes* Hüllintegral
 > - Rotor eines Vektorfeldes als *geschrumpftes* Linienintegral
-> - Integralsätze von [Gauß](Gaußscher%20Integralsatz.md) und [Stokes](../Stokesscher%20Integralsatz.md)
+> - Integralsätze von [Gauß](Gaußscher%20Integralsatz.md) und [Stokes](Stokesscher%20Integralsatz.md)
 
 ## Referenzen 
 

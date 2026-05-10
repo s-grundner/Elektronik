@@ -14,7 +14,7 @@ title: Telegrafenleitungsgleichung
 
 # Telegrafenleitungsgleichung - Ausbreitung von Spannungs und Stromwellen auf einer Leitung
 
-> [!question] Vergleiche [Telegrafengleichung](../Elektrotechnik/Telegrafengleichung.md)
+> [!question] Vergleiche [Telegrafengleichung](../Elektrotechnik/Elektrodynamik/Telegrafengleichung.md)
 
 Die Telegrafenleitungsgleichungen sind ein Modell zur beschreibeung der ausbreitung von Strom und Spannungswellen eines [RF-Signals](Leitungstheorie.md) auf einer [Transmission Line](Transmission%20Line.md).
 

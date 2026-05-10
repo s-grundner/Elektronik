@@ -32,7 +32,7 @@ release: true
 
 ## Kapazität
 
-> [!def] **D - CAP)** Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](Elektrostatik/elektrische%20Ladung.md) und Spannung im Kondensator:
+> [!def] **D - CAP)** Die Kapazität ist der Proportionalitätsfaktor zwischen [Ladung](Elektrostatik/elektrische%20Ladung.md) und Spannung zwischen zweier Elektroden
 > 
 > $$
 > Q=C\cdot U \qquad [C] = \mathrm{F = \frac{s}{\Omega} = \frac{A^{2}~s^{4}}{kg~m^{2}}}
@@ -40,7 +40,7 @@ release: true
 > 
 > - $\mathrm{F}$ ... Farad
 
-> [!important]- Begründung der proportionalität
+> [!important]- Begründung der proportionalität: Feld einer Punktladung
 > $$
 > \left.\begin{align}
 > U = \int \vec{E}\cdot d\vec{s} \implies U \propto E \\
@@ -48,13 +48,21 @@ release: true
 > \end{align}\right\} \implies U \propto Q
 > $$
 
-## Feldlinien im Kondensator
+Vorgehen zum Ermitteln der Kapazität bei Verschiedenen Geometrien:
+
+1. 
+
+### Plattenkondensator
 
 ![invert_light](../../_assets/Plattenkondensator.png)
 
-Aus der Überlegung zur [Flächenladung](Flächenladung.md) kennen wir, dass für die beiden Platten gilt:
+Aus der Überlegung zur [Flächenladung](../Elektrostatik/Flächenladung.md) kennen wir, dass für die beiden Platten gilt:
 
-$$\lvert \vec{E} \rvert= \frac{Q}{2A\cdot \varepsilon}  $$
+$$
+\mathbf{E}= \frac{Q}{2A\cdot \varepsilon} \cdot \hat{\mathbf{e}}_{d}
+$$
+
+- $\hat{\mathbf{e}}_{d}$ ... Einheits-Normalvektor von Positiver zur Negative Platte
 
 > [!hint] Das Feld der jeweiligen Seite der Platte das zur anderen zeigt, verläuft in die selbe Richtung, wird also [überlagert](../../Dictionary/Superposition.md). (wobei sich die äußeren Felder aufheben).
 > für das Feld im Kondensator ergibt sich: $\lvert \vec{E} \rvert = \frac{Q}{2A\cdot \varepsilon} + \frac{Q}{2A\cdot \varepsilon} = \frac{Q}{A\cdot \varepsilon}$
