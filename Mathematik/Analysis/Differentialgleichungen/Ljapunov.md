@@ -31,7 +31,7 @@ Ruhelage Bedeutet $\mathbf{\dot{x}}=0$. Für das [LTI-System](../../../Systemthe
 
 |                                                                                                  | $\mathbf{u}_{s}=0$                                                    | $\mathbf{u}_{s}\neq0$                                                                                                                               |
 | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| $\det \mathbf{A} \neq 0$<br>(Matrix ist [regulär](../../Algebra/Reguläre%20Matrizen.md))         | 1 RL: $\mathbf{x}s =\mathbf{A}^{-1}\mathbf{0}=\mathbf{0}$             | 1 RL: $\mathbf{x}_{s}=-\mathbf{A}^{-1}\mathbf{Bu}_{s}$                                                                                              |
+| $\det \mathbf{A} \neq 0$<br>(Matrix ist [regulär](../../Algebra/Reguläre%20Matrix.md))         | 1 RL: $\mathbf{x}s =\mathbf{A}^{-1}\mathbf{0}=\mathbf{0}$             | 1 RL: $\mathbf{x}_{s}=-\mathbf{A}^{-1}\mathbf{Bu}_{s}$                                                                                              |
 | $\det \mathbf{A} = 0$<br>(Matrix ist [singulär](../../Algebra/Singuläre%20Matrix.md)) | $\infty$-viele RL: $\mathbf{x}_{s} \in \operatorname{ker} \mathbf{A}$ | $\infty$-viele RL, wenn $\mathbf{Bu}_{s} \in \operatorname{im} \mathbf{A}$. <br>Keine RL dalls $\mathbf{Bu}_{s} \notin\operatorname{im} \mathbf{A}$ |
 
 

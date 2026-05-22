@@ -37,7 +37,7 @@ Mit einer **Zustandstransformation** (auch Koordinatentransformation, Basistrans
 > \mathbf{x} = \mathbf{Tz} \iff \mathbf{\dot{x}} = \mathbf{T\dot{z}}
 > $$
 > 
-> $\mathbf{T}$ muss [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) sein.
+> $\mathbf{T}$ muss [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) sein.
 
 Rückrechnen auf $\mathbf{z}$ erfolgt durch linksseitige Multiplikation mit $\mathbf{T}^{-1}$
 
@@ -60,7 +60,7 @@ $$
 
 Manchmal wird auch $\mathbf{T}^{-1} = \mathbf{\bar{T}}$ substituiert.
 
-> [!warning] Vorrausgesetzt ist dabei die [Invertierbarkeit](../../Mathematik/Algebra/Reguläre%20Matrizen.md) von $\mathbf{T}$
+> [!warning] Vorrausgesetzt ist dabei die [Invertierbarkeit](../../Mathematik/Algebra/Reguläre%20Matrix.md) von $\mathbf{T}$
 
 Dieses System ist wieder ein LTI-System der Form:
 

@@ -83,7 +83,7 @@ Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). D
 > \mathbf{R}_{xx}\mathbf{w}_{0} = \mathbf{r}_{xy}
 > $$
 > 
-> oder äquivalent die **Wiener-Hopf** Lösung (wenn $\mathbf{R}_{x x}$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) ist)
+> oder äquivalent die **Wiener-Hopf** Lösung (wenn $\mathbf{R}_{x x}$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) ist)
 > 
 > $$
 > \mathbf{w}_{0} = \mathbf{R}_{xx}^{-1}\mathbf{r}_{xy}

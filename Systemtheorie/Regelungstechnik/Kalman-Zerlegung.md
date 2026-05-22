@@ -34,7 +34,7 @@ Ist ein System nicht vollständig Erreichbar, kann es in ein erreichbares- und e
 > $$
 > 
 > - $\mathbf{U}$ ... linear unabhängigen **Spalten** der Erreichbarkeitsmatrix $\mathbf{M}_{\mathcal{R}}$ 
-> - $\mathbf{U}_{C}$ ... Komplement von $\mathbf{U}$ bestehend aus $n-n_{\mathcal{R}}$ Spalten. Wird so gewählt, dass $[\mathbf{U}\quad \mathbf{U}_{C}]$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) ist.
+> - $\mathbf{U}_{C}$ ... Komplement von $\mathbf{U}$ bestehend aus $n-n_{\mathcal{R}}$ Spalten. Wird so gewählt, dass $[\mathbf{U}\quad \mathbf{U}_{C}]$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) ist.
 > -  $n$ ... Dimension des Zustandes $\mathbf{x}$
 > - $n_{\mathcal{R}}$ ... Dimension des erreichbaren Unterraums $\mathcal{R}$
 

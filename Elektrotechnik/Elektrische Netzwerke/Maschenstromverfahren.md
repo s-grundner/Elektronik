@@ -17,4 +17,5 @@ title: Maschenstromverfahren
 
 # Maschenstromverfahren
 
-![[../../_assets/Excalidraw/Drawing 2024-03-19 12.31.14.excalidraw]]
+![](../../_assets/Excalidraw/Drawing%202024-03-19%2012.31.14.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Drawing%202024-03-19%2012.31.14.excalidraw.md)%%

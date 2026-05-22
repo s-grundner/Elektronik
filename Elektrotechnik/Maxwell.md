@@ -111,6 +111,7 @@ Die Umrechnung zwischen der differentiellen und integralen Formulierung der Maxw
 
 - $\mathbf{J}_{l}$ ... Leitungsstromdichte. Dominiert in Leitern $\sigma \gg$
 - $\mathbf{J}_{v}$ ... Verscheibungsstromdichte. Dominiert in Dielektrika $\epsilon \gg$
+- $\oint \mathbf{H}\cdot\mathrm{d}\mathbf{s} = \Theta$ ... [Durchflutung](Magnetostatik/Durchflutung.md)
 
 > [!hint] **Aussage:** Ein Stromdurchflossener Leiter erzeugt um sich herum ein Magnetfeld
 
@@ -164,7 +165,7 @@ Gezeigt ist ein Modell einer Leiterschleife mit einem Spalt[1] und einer Quelle.
 > \oint_{\partial A} \mathbf{E} \cdot \mathrm{d} \mathbf{s} =-\int_A \frac{\partial \mathbf{B}}{\partial t} \cdot \mathrm{d} \mathbf{a} \tag{MW2}
 > $$
 
-$\mathbf{M}$ ist die fikitve größe der magnetischen Stromdichte und hat physikalisch keine Bedeutung. Durch das Einführen dieser größe, vereinfachen sich oft Rechnungen, und das Induktionsgesetz ist symmetrisch zum [Durchflutingssatz](#^MW1). Das Induktionsgesetz ist auch ohne diesen Term gültig.
+$\mathbf{M}$ ist die fikitve größe der magnetischen Stromdichte und hat physikalisch keine Bedeutung. Durch das Einführen dieser größe, vereinfachen sich oft Rechnungen, und das Induktionsgesetz ist symmetrisch zum [Durchflutungssatz](#^MW1). Das Induktionsgesetz ist auch ohne diesen Term gültig.
 
 ![invert_light|500](../_assets/notes/MW2.png)
 

@@ -18,7 +18,7 @@ title: Einheitskreismatrix
 > Eine Matrix beziechnet man als Einheitskreismatrix, wenn alle ihre Eigenwerte innerhalb des Einheitskreises auf der Komplexen Ebene liegen.
 > $$\lvert \lambda \rvert < 1$$
 
-Das heißt, der Einheitskreis selbst ist ausgeschlossen.
+Das heißt, der Einheitskreis selbst ist **ausgeschlossen**.
 
 Wenn die Dynamik/Koeffizientenmatrix eines zeitdiskreten Autonomen System eine Einheitskreismatrix ist, dann ist das System stabil.
 

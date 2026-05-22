@@ -66,7 +66,7 @@ Gilt $\mathbf{X}\left(t_0\right)=\mathbf{I}_m$ (die [Einheitsmatrix](../../Algeb
 > $$
 > \mathbf{\Phi}(t)^{-1}=\mathbf{\Phi}(-t)
 > $$
-> 6. Die Transitionsmatrix ist immer [regulär](../../Algebra/Reguläre%20Matrizen.md)
+> 6. Die Transitionsmatrix ist immer [regulär](../../Algebra/Reguläre%20Matrix.md)
 > $$
 > \det\mathbf{\Phi}\neq 0
 > $$

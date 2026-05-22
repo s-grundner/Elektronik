@@ -57,7 +57,7 @@ title: Determinante
 3. Weitere Eigenschaften
 	- [Ähnliche Matrizen](Ähnliche%20Matrizen.md)
 	- [Singuläre Matrix](Singuläre%20Matrix.md)
-	- [Reguläre Matrizen](Reguläre%20Matrizen.md)
+	- [Reguläre Matrix](Reguläre%20Matrix.md)
 
 ## Ermittlung der Determinante
 

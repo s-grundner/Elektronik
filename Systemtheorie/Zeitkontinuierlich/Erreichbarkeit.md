@@ -77,13 +77,23 @@ Schlägt der Test auf Erreichbarkeit fehl, lässt sich ermitteln in welchem Ausm
 
 Der Erreichbare Unterraum beinhaltet die Systemzustände, die ausgehend von $\mathbf{x}_{0} = \mathbf{0}$ die in endlicher Zeit erreicht werden können. Das System ist also vollständig erreichbar wie in [D1](#^ERRE) wenn $\dim\mathbf{M}_{\mathcal{R}} = \dim\mathcal{R} =n$ 
 
-## Gramsche Erreichbarkeitsmatri
+## Gramsche Erreichbarkeitsmatrix
+
+Ist das System vollständig erreichbar, dann hat die Gramsche ERreichbarkeitsmatrix
+
+$$
+\mathbf{W}_{\mathcal{R}} := \int_{0}^{T_{\mathrm{e}}} e^{ \mathbf{A}\tau }\mathbf{BB}^T e^{ \mathbf{A}^T \tau} \mathrm{~d}x 
+$$
+
+$\forall T_{\mathrm{e}} > 0$ vollen Rang ($\iff$ [Reguläre Matrix](../../Mathematik/Algebra/Reguläre%20Matrix.md))
 
  Für den Erreichbaren Teil eines system, ist man daran interessiert mit welchen **spezifischen EIngängen** $\mathbf{u}$ man das System erreichen kann.
 
 $$
 \mathbf{u}(t) = \mathbf{B}^T \left( e^{ \mathbf{A}(T_{e}-t) } \right)^T \mathbf{W}^{-1}_{\mathcal{R}}\bar{\mathbf{x}}
 $$
+
+#todo
 
 ## Kalman-Zerlegung bezüglich der Erreichbarkeit
 
@@ -97,7 +107,7 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 
 **Das erreichbare Teilsystem:**
 
-- Das Teilsystem $\mathbf{\dot{z}}_{1} = \begin{bmatrix} \mathbf{\bar{A}}_{11} & \mathbf{\bar{A}}_{12} \end{bmatrix} \begin{bmatrix} \mathbf{z}_{1} \\ \mathbf{z_{2}}\end{bmatrix} + \mathbf{B}_{11} \mathbf{u}$ ist durch den Zustand $\mathbf{z}_{1}$/$\mathbf{z}_{2}$ und dem Eingang $\mathbf{u}$ beeinflussbar
+- Das Teilsystem $\mathbf{\dot{z}}_{1} = \begin{bmatrix} \mathbf{\bar{A}}_{1} & \mathbf{\bar{A}}_{12} \end{bmatrix} \begin{bmatrix} \mathbf{z}_{1} \\ \mathbf{z_{2}}\end{bmatrix} + \mathbf{B}_{11} \mathbf{u}$ ist durch den Zustand $\mathbf{z}_{1}$/$\mathbf{z}_{2}$ und dem Eingang $\mathbf{u}$ beeinflussbar
 - $\mathbf{z}_{1}$ ist der Zustand des erreichbaren Teilsystems.
 
 **Das Nicht-Erreichbare Teilsystem:**
@@ -123,7 +133,7 @@ Warum? $\to$ Zeitinvarianz eines LTI Systems: Vergleicht man die beiden Definiti
 
 Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathematik/Analysis/Differentialgleichungen/Fundamentalmatrix.md#^TRSM-Eigenschaften)
 
-- Die Transitionsmatrix ist immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) (d.h. Invertierbar)
+- Die Transitionsmatrix ist immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) (d.h. Invertierbar)
 - Folgt man dem Fluss einer Lösung in die umgekehrete Richtung ist das äquivalent zum inversen Fluss 
 
 ## Stabilisierbarkeit

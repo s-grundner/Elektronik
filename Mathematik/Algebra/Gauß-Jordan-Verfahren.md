@@ -23,7 +23,7 @@ Eine Matrix ist genau dann invertierbar, wenn sie regulär ist.
 
 > [!hint] Invertierbar $\iff$ Regulär
 
-![](Reguläre%20Matrizen.md#^REGM)
+![](Reguläre%20Matrix.md#^REGM)
 
 Systematisch lässt sich eine Matrix mit dem Gauß-Jordan-Verfahren Invertieren
 

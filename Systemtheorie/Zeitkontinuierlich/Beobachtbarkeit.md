@@ -39,7 +39,7 @@ title: Beobachtbarkeit
 > $$
 
 > [!satz]- **S2 - SISO)** Beobachtbarkeitskriterium für $n$-dimensionale [SISO](LTI-Zustandsraum.md#^LTI-SISO)-Systeme.
-> Das LTI-System ist vollständig beobachtbar, wenn die Beobachtbarkeits-Matrix $\mathbf{M}_{\mathcal{O}}$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) ist.
+> Das LTI-System ist vollständig beobachtbar, wenn die Beobachtbarkeits-Matrix $\mathbf{M}_{\mathcal{O}}$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) ist.
 >
 > $$
 > \mathbf{M}_{\mathcal{O}} = \begin{bmatrix}
@@ -81,7 +81,7 @@ Warum? $\to$ Zeitinvarianz eines LTI Systems: Vergleicht man beide Definitionen,
 
 Die Fundamentallösung des Systems hat [besondere Eigenschaften](../../Mathematik/Analysis/Differentialgleichungen/Fundamentalmatrix.md#^TRSM-Eigenschaften)
 
-- Die Transitionsmatrix ist immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) (d.h. Invertierbar)
+- Die Transitionsmatrix ist immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) (d.h. Invertierbar)
 - Folgt man dem Fluss einer Lösung in die umgekehrete Richtung ist das äquivalent zum inversen Fluss 
 
 ## Detektierbarkeit

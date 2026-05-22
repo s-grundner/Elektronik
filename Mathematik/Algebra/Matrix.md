@@ -84,7 +84,7 @@ Gilt $m=n$, hießt die Matrix **quadratisch** ($\mathbf{A}\in \mathbb{K}^{n\time
 
 ## Eigenschaften einer Matrix
 
-- [Reguläre Matrizen](Reguläre%20Matrizen.md)
+- [Reguläre Matrix](Reguläre%20Matrix.md)
 - [Singuläre Matrix](Singuläre%20Matrix.md)
 - [Ähnliche Matrizen](Ähnliche%20Matrizen.md)
 - [Nilpotente Matrix](Nilpotente%20Matrix.md)

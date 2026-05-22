@@ -57,4 +57,4 @@ Das Resultierende System hat **immer** die Form (mit $\mathbf{\bar{A}}$ und $\ma
 
 ## Detektierbarkeit
 
-Das System ist detektierbar, wenn $\mathbf{A}_{11}$ eine [Einheitsmatrix](../../Mathematik/Algebra/Einheitsmatrix.md) ist.
+Das System ist detektierbar, wenn $\mathbf{A}_{11}$ eine [Einheitskreismatrix](../../Mathematik/Algebra/Einheitskreismatrix.md) ist.

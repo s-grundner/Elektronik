@@ -73,7 +73,7 @@ $$
 \end{cases}
 $$
 
-Im gegensatz zu DGL-Systemen, unterscheidet man hier, dass $\mathbf{\Phi}$ hier nicht immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrizen.md) sein kann, sondern nur dann, wenn die Dynamikmatrix $\mathbf{A}$ ebenfalls regulär ist.
+Im gegensatz zu DGL-Systemen, unterscheidet man hier, dass $\mathbf{\Phi}$ hier nicht immer [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) sein kann, sondern nur dann, wenn die Dynamikmatrix $\mathbf{A}$ ebenfalls regulär ist.
 
 ---
 
