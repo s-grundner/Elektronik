@@ -8,30 +8,38 @@ release: true
 
 # Admittanzmatrix
 
-$\underline{I}_{1}= \underline{U}_{1}\cdot\underline{Y}_{11}+\underline{U}_{2}\cdot\underline{Y}_{12}$  
-$\underline{I}_{2}= \underline{U}_{1}\cdot\underline{Y}_{21}+\underline{U}_{2}\cdot\underline{Y}_{22}$
+${I}_{1}= {U}_{1}\cdot{Y}_{11}+{U}_{2}\cdot{Y}_{12}$  
+${I}_{2}= {U}_{1}\cdot{Y}_{21}+{U}_{2}\cdot{Y}_{22}$
 
 Als [Matrix](../../Mathematik/Algebra/Matrix.md): (Zeile $\cdot$ Spalte)
 
 $$
 \begin{pmatrix}
-    \underline{I}_{1} \\ 
-    \underline{I}_{2}
+    {I}_{1} \\ 
+    {I}_{2}
 \end{pmatrix}
 =
 \begin{pmatrix}
-    \underline{Y}_{11} & \underline{Y}_{12} \\
-    \underline{Y}_{21} & \underline{Y}_{22}
+    {Y}_{11} & {Y}_{12} \\
+    {Y}_{21} & {Y}_{22}
 \end{pmatrix}
 \cdot
 \begin{pmatrix}
-    \underline{U}_{1} \\ 
-    \underline{U}_{2}
+    {U}_{1} \\ 
+    {U}_{2}
 \end{pmatrix}
 \\
 $$
 
 $$
-\mathbf{I} = \mathbf{Y} \cdot \mathbf{U}
+\mathbf{i} = \mathbf{Y} \cdot \mathbf{u}
 $$
 
+$$
+\begin{align}
+Y_{11} = \frac{I_{1}}{U_{1}} \Bigg|_{U_{2}=0} &&
+Y_{12} = \frac{I_{1}}{U_{2}} \Bigg|_{U_{1}=0} \\
+Y_{21} = \frac{I_{2}}{U_{1}} \Bigg|_{U_{2}=0} &&
+Y_{22} = \frac{I_{2}}{U_{2}} \Bigg|_{U_{1}=0} \\
+\end{align}
+$$

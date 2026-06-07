@@ -85,9 +85,9 @@ http-Endpoint: <https://cookbook.nodered.org/http/create-an-http-endpoint>
   ```
   der Port 1880 ist für Node-RED reserviert.
 
-## [REST](RestAPI.md)-Api
+## [REST](../DevOps/RestAPI.md)-Api
 
-- [REST](RestAPI.md) funktioniert mittels HTTP. Daher wird als Input ein `http`-Node benötigt. Für diesen Node wird als URL "/users" eingestellt.
+- [REST](../DevOps/RestAPI.md) funktioniert mittels HTTP. Daher wird als Input ein `http`-Node benötigt. Für diesen Node wird als URL "/users" eingestellt.
 - Als Output wird ein `http-response`-Node verwendet, die Standardeinstellungen werden nicht verändert.
 
 ![](../../_assets/NodeRed_Rest01.png)

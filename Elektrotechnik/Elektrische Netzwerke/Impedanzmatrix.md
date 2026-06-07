@@ -11,6 +11,8 @@ release: true
 $U_{1}= I_{1}\cdot Z_{11}+ I_{2}\cdot Z_{12}$  
 $U_{2}= I_{1}\cdot Z_{21}+ I_{2}\cdot Z_{22}$
 
+Als [Matrix](../../Mathematik/Algebra/Matrix.md): (Zeile $\cdot$ Spalte)
+
 $$
 \begin{pmatrix}
     {U}_{1} \\ 

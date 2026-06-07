@@ -36,12 +36,13 @@ definiert werden.
 ## Häufig verwendete Mengen
 
 - $\emptyset$ : Leere Menge $\emptyset=\{ \}$
-- $\mathbb{N}$ : Menge der natürlichen Zahlen, also $\mathbb{N}=\{1,2,3, \ldots\}$
+- $\mathbb{N}$ : Menge der natürlichen Zahlen, also $\mathbb{N}=\{0,1,2,3, \ldots\}$
 - $\mathbb{Z}$ : Menge der ganzen Zahlen, also $\mathbb{Z}=\{\ldots,-2,-1,0,1,2, \ldots\}$
 - $\mathbb{Q}$ : Menge der rationalen Zahlen, also derjenigen, die sich als Bruch $\frac{p}{q}$ mit $p, q \in \mathbb{Z}$ darstellen lassen
 - $\mathbb{R}$ : Menge der reellen Zahlen, also der rationalen und irrationalen Zahlen. Irrationale Zahlen wie beispielsweise $\sqrt{2}$ oder $\pi$ lassen sich nicht als Bruch darstellen.
 - $\mathbb{C}$ : Menge der komplexen Zahlen, also Zahlen der Gestalt $x+\mathrm{j} y$ mit $\mathrm{j}=\sqrt{-1}$ und $x, y \in \mathbb{R}$
 - $\mathbb{K}$ : Häufig wird $\mathbb{K}$ anstelle von $\mathbb{R}$ oder $\mathbb{C}$ verwendet, wobei sich der Buchstabe $\mathbb{K}$ vom "Körper" ableitet.
+- $\mathcal{P}(M)$ : [Potenzmenge](Potenzmenge.md). Menge aller Möglichen Untermengen der Menge $M$
 
 Anmerkung: In der DIN wird beispielsweise $\mathbb{N}$ inklusive 0 definiert.
 
@@ -62,3 +63,5 @@ Anmerkung: In der DIN wird beispielsweise $\mathbb{N}$ inklusive 0 definiert.
 > 
 > 1. $A \subset X$ heißt offen: $\Longleftrightarrow A=A^{\circ}$  
 > $A \subset X$ heißt abgeschlossen: $\Longleftrightarrow A=\bar{A}$
+
+

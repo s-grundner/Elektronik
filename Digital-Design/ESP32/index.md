@@ -17,11 +17,11 @@ aliases:
 ![InlineL](../../_assets/ESP32WROOM.png) Für Prototypen sind ESP32-WROOM Module, halbfertige [PCB](../../Manufacturing/PCB-Layout.md)-Module mit gekerbten Löchern als Pins, üblich. Module unterscheiden sich grundlegend im Footprint, welcher durch die Art der [Antenne](../../HF-Technik/Antenne.md), PIF-[Antenne](../../HF-Technik/Antenne.md) oder IPX/UFL Connector, bestimmt ist. Eine vom Footprint unabhängige Kenngröße, ist die Größe des Flash-Memory.
 
 
-Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](../../Softwareentwicklung/IoT/ESP-AT.md)) auf den Chip heruntergeladen werden.
+Um den ESP32 programmieren zu können, muss zuerst die Firmware ([ESP-AT](ESP-AT.md)) auf den Chip heruntergeladen werden.
 
 # Firmware Entwicklung
 
-Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](../../Softwareentwicklung/IoT/ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
+Für die SW-Entwicklung sind verschiedene Entwicklungsplattformen gängig, unter Anderen das SDK von Espressif ([ESP-IDF](ESP-IDF.md)) oder aber Arduino. In dieser Anleitung wird die Arduino-Variante ausgewählt (ist die einfachere für den Einstieg).
 
 - als Editor wird VSCode verwendet
 - für die Toolkette wird [index](../../Softwareentwicklung/Python/index.md) benötigt

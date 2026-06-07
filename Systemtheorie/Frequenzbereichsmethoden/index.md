@@ -1,4 +1,4 @@
-## Frequenzbereichsmethoden
+# Frequenzbereichsmethoden
 
 Oft ist es wichtig, die [Übertragungsfunktion](Übertragungsfunktion.md) eines Systems zu kennen. Grundlegend zur Transformation in den Frequenzbereich ist im Allgeimenen die [Integraltransformation](Integraltransformation.md)
 
