@@ -54,7 +54,7 @@ Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, 
 
 Adaptive Filter prüfen kontinuierlich nach dem Optimum und aktualisieren die Filter parameter.
 
-![invert_dark](../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.svg)
+![](../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.md)%%
 
 ## Block Adaptive Filter

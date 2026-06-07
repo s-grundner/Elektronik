@@ -45,6 +45,9 @@ J(\mathbf{w})
 \end{align}
 $$
 
+- $\mathbf{R}_{x x}$ ... Autokorrelationsmatrix
+- $\mathbf{r}_{xy}$ ... Kreuzkorrelationsvektor
+
 > [!info] **MSE)** *Mean Square Error* Kostenfunktion $J(\mathbf{w})$ eines Wiener Filters ^WFJ
 > 
 > $$
@@ -55,7 +58,7 @@ $$
 > - $\mathbf{r}_{xy}$ ... [Kreuzkorrelationsvektor](#Kreuzkorrelationsvektor)
 > - $\sigma_{y}^{2}$ ... Varianz des Filterausgangs
 
-Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). Daher gibt es nur **ein** globales minimum $J(\mathbf{w}_{0})$ am Punkt $\mathbf{w}_{0}$.
+Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). Daher gibt es nur ein globales minimum $J(\mathbf{w}_{0})$ am Punkt $\mathbf{w}_{0}$.
 
 > [!satz] **S - MMSE)** Minimum Mean Square Error $J(\mathbf{w}_{0})$
 > 
@@ -63,18 +66,6 @@ Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). D
 > 
 > $$
 > \mathbf{g}(\mathbf{w}) := \nabla_{\mathbf{w}}J(\mathbf{w}) = -2\mathbf{r}_{xy} + 2 \mathbf{R}_{x x}\mathbf{w}\overset{!}{=}\mathbf{0}
-
-- $\mathbf{R}_{x x}$ ... Autokorrelationsmatrix
-- $\mathbf{r}_{xy}$ ... Kreuzkorrelationsvektor
-
-Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). Daher gibt es nur ein globales minimum $J(\mathbf{w}_{0})$ am Punkt $\mathbf{w}_{0}$.
-
-> [!satz] **S - MMSE)** Minimum Mean Square Error $J(\mathbf{w}_{0})$
-> 
-> Das [minimum](../../Mathematik/Analysis/Kurvendiskussion/Extremwert.md) der Kostenfunktion $J$ kann gefunden werden, indem man dessen [Gradienten](../../Mathematik/Analysis/Vektoranalysis/Gradient.md) gleich null setzt:
-> 
-> $$
-> \mathbf{g}(\mathbf{w}) := \frac{ \partial J(\mathbf{w}) }{ \partial \mathbf{w} } = -2\mathbf{r}_{xy} + 2 \mathbf{R}_{x x}\mathbf{w}\overset{!}{=}\mathbf{0}
 > $$
 > 
 > Man erhält die [Normalgleichungen](../../Mathematik/Normalgleichungen.md)
@@ -91,31 +82,18 @@ Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). D
 
 ### Autokorrelationsmatrix
 
+
+[^2]:
 $$
-\begin{align}
-\mathbf{R}_{x x} &= \mathrm{E}(\mathbf{x}[k]\mathbf{x}^T[k]) \\
-&= \mathrm{E} \left(
-\begin{pmatrix}
-x[k] \\ x[k-1] \\ \vdots \\ x[k-p+1]
-\end{pmatrix}
-\begin{pmatrix}
-x[k] & x[k-1] & \dots & x[k-p+1]
-\end{pmatrix}
-\right) \\
-&= \mathrm{E}\begin{pmatrix}
-x^{2}[k] & x[k]x[k-1] & \dots & x[k]x[k-p+1] \\
-x[k-1]x[k] & x^{2}[k-1] & & x[k-1]x[k-p+1] \\
-\vdots &  & \ddots & \vdots \\
-x[k-p+1]x[k] & x[k-p+1]x[k-1] & \dots & x^{2}[k-p+1]
-\end{pmatrix} \\
-&= \begin{pmatrix}
+\mathbf{R}_{x x} = \mathrm{E}(\mathbf{x}[k]\mathbf{x}^T[k])
+= \begin{pmatrix}
 r_{xx}[0] & r_{xx}[1] & \dots & r_{xx}[p-1] \\
 r_{xx}[1] & r_{xx}[0] & & \vdots \\
 \vdots & & \ddots & \\
 r_{xx}[p-1] & \dots & & r_{x x}[0] \\
 \end{pmatrix}
-\end{align}
 $$
+Herleitung[^2]
 
 > [!satz] Eigenschaften der Autokorrelationsmatrix
 > 
@@ -154,4 +132,31 @@ Problem: Die Optimierung fordert die Kenntnis von [Momente 2. Ordnung](../../Mat
 	\vdots \\
 	\frac{ \partial }{ \partial w_{p-1} }
 	\end{pmatrix} J(w_{0}, w_{1},\ldots,w_{p-1}) \in \mathbb{R}^{p-1}
+	$$
+
+[^2]: Herleitung:
+	$$
+	\begin{align}
+	\mathbf{R}_{x x} &= \mathrm{E}(\mathbf{x}[k]\mathbf{x}^T[k]) \\
+	&= \mathrm{E} \left(
+	\begin{pmatrix}
+	x[k] \\ x[k-1] \\ \vdots \\ x[k-p+1]
+	\end{pmatrix}
+	\begin{pmatrix}
+	x[k] & x[k-1] & \dots & x[k-p+1]
+	\end{pmatrix}
+	\right) \\
+	&= \mathrm{E}\begin{pmatrix}
+	x^{2}[k] & x[k]x[k-1] & \dots & x[k]x[k-p+1] \\
+	x[k-1]x[k] & x^{2}[k-1] & & x[k-1]x[k-p+1] \\
+	\vdots &  & \ddots & \vdots \\
+	x[k-p+1]x[k] & x[k-p+1]x[k-1] & \dots & x^{2}[k-p+1]
+	\end{pmatrix} \\
+	&= \begin{pmatrix}
+	r_{xx}[0] & r_{xx}[1] & \dots & r_{xx}[p-1] \\
+	r_{xx}[1] & r_{xx}[0] & & \vdots \\
+	\vdots & & \ddots & \\
+	r_{xx}[p-1] & \dots & & r_{x x}[0] \\
+	\end{pmatrix}
+	\end{align}
 	$$

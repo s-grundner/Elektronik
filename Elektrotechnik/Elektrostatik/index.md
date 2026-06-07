@@ -71,7 +71,7 @@ $$
 
 | Potenzial Trichter                                                  | Draufsicht                                                          |
 | :-----------------------------------------------------------------: | :-----------------------------------------------------------------: |
-| ![invert_dark](../../xEDU/1800CD47-2327-4D71-88A1-73E3FE7B55BC.jpg) | ![invert_dark](../../xEDU/B8D70F2D-0B18-4C65-8494-F4B336AF2BDD.jpg) |
+| ![invert_dark](../../_assets/1800CD47-2327-4D71-88A1-73E3FE7B55BC.jpg) | ![invert_dark](../../_assets/B8D70F2D-0B18-4C65-8494-F4B336AF2BDD.jpg) |
 
 > [!success] Das Potenzial lässt sich durch einsetzen des Vorherig berechneten E-Feld $\mathbf{E}(\mathbf{r})$ ermitteln.
 

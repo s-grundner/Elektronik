@@ -29,7 +29,7 @@
 
 |                            Potenzial Trichter                            |                                Draufsicht                                |
 | :----------------------------------------------------------------------: | :----------------------------------------------------------------------: |
-| ![invert_dark\|400](../../xEDU/1800CD47-2327-4D71-88A1-73E3FE7B55BC.jpg) | ![invert_dark\|400](../../xEDU/B8D70F2D-0B18-4C65-8494-F4B336AF2BDD.jpg) |
+| ![invert_dark\|400](../../_assets/1800CD47-2327-4D71-88A1-73E3FE7B55BC.jpg) | ![invert_dark\|400](../../_assets/B8D70F2D-0B18-4C65-8494-F4B336AF2BDD.jpg) |
 
 ---
 
@@ -89,7 +89,7 @@ Man erhält dann das Feld [wie oben](#^E-PUNKT).
 
 Zwecks übersichtlichkeit wird die Punktladung in den Ursprung $\mathbf{r}_{Q}=\mathbf{0}$ gelegt.
 
-![invert_dark|400](../../xEDU/B8D70F2D-0B18-4C65-8494-F4B336AF2BDD.jpg)
+![invert_dark|400](../../_assets/B8D70F2D-0B18-4C65-8494-F4B336AF2BDD.jpg)
 
 Man integriert einen beliebigen Weg von $r$ nach $r_{0}$.
 
