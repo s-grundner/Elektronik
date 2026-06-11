@@ -93,9 +93,7 @@ $$
 
 > [!warning] Problem: Precision can be artificially maximized
 > 
-> Suppose the test set contains: 100 real door events
-> 
-> Model A predicts only **10** door events: 10 correct, 0 wrong
+> Suppose the test set contains 100 real door events. Model A predicts only **10** door events: 10 correct, 0 wrong
 > 
 > |Metric|Value|
 > |---|---|
@@ -105,3 +103,11 @@ $$
 > The model appears excellent if you look only at precision. But it missed **90% of all doors**. For an audio-event detector this is usually undesirable because it barely detects anything.
 
 ### F1
+
+Harmonic Mean of Precision and Recall.
+
+$$
+\mathrm{F 1} = 2 \cdot \frac{Rec \cdot Prec}{Rec + Prec}
+$$
+
+If one of the two scores are small, it pulls down the whole F1 score (vergleiche Parallelschaltung von Widerständen)

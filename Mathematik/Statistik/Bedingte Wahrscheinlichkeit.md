@@ -1,7 +1,7 @@
 ---
 tags:
 aliases:
-  - Satz von Bayes
+  - Satz der Totalen Wahrscheinlichkeit
 keywords:
 subject:
   - KV
