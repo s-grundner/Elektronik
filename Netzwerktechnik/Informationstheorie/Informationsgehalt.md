@@ -7,19 +7,18 @@ keywords: $I_x$, $H$
 subject:
   - KV
   - Übertragungstechnik
-semester: WS25
-created: 27th February 2025
+  - VL
+  - Machine Learning and Pattern Classification
+semester: SS26
+created: 9th December 2025
 professor:
   - Andreas Springer
-release: true
+release: false
 title: Informationsgehalt
 ---
 
+
 # Informationsgehalt & Entropie 
-
-> [!question] [index](index.md)
-
----
 
 
 1. Je Unwahrscheinlicher, desto mehr Informationsgehalt

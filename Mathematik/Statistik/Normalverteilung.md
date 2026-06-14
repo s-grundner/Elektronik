@@ -4,13 +4,16 @@ aliases:
   - Verteilungsfunktion
   - Dichtefunktion
   - PDF
-keywords: 
+keywords:
 subject:
   - KV
   - Übertragungstechnik
+  - VL
+  - Machine Learning and Pattern Classification
 semester: WS25
 created: 11th April 2024
 professor:
+  - Gerhard Widmer
 release: false
 title: Normalverteilung
 ---

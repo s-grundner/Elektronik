@@ -17,21 +17,26 @@ title: Common Machine Learning Algorithms
 - Review their relative advantages and shortcomings
 - Give you a deeper understanding of what the algorithms you are using in your experiments actually do
 
-## Simple Baseline Classifiers
+![](../../_assets/Excalidraw/Common%20Machine%20Learning%20Algorithms%202026-06-14%2014.47.40.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Common%20Machine%20Learning%20Algorithms%202026-06-14%2014.47.40.excalidraw.md)%%
+
+Simple Baseline Classifiers
 
 - Class Frequency Classifier
-- [[Single Gaussian Classifier]]
+- [Single Gaussian Classifier](Single%20Gaussian%20Classifier.md)
 - [Naive Bayes Classifier](Naive%20Bayes%20Classifier.md)
 - $k$-Nearest Neighbours
 
-## Häufig Verwendete
+Häufig verwendet
 
-- Decision Trees
+- [Decision Trees](Decision%20Trees.md)
+- Random Forest
 	- ID3 Algorithmus
 - Support Vektor Machines
+- Feed Forward Neural Networks
 
 
-> [!warning] Achtung bei Distanzbasierte[^1] Algorithmen: Daten müssen vorher normalisiert werden.
+> [!warning] Achtung bei Distanzbasierten[^1] Algorithmen: Daten müssen vorher normalisiert werden.
 
 ## Zusammenfassung
 

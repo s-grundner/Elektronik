@@ -77,8 +77,11 @@ Classification
 
 ## Overfitting und Model-Komplexität
 
-![invert_dark|600](../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.svg)
+
+![invert_dark|500](../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.md)%%
+
+### Bias
 
 > [!info] **Bias** = Fehler wahrscheinlichkeiten, die durch die Einschränkung des Modells hervorommt.
 > 
@@ -93,6 +96,12 @@ Classification
 > - **Softconstraints:** Hohe komplexität mit Kosten gewichten, sodass nur im notfall das Modell komplex werden würde.
 >
 
+- High Bias Algorithmem:
+	- [Naive Bayes Classifier](Naive%20Bayes%20Classifier.md)
+	- Support Vector Machines
+
+### Varianz
+
 Im gegenzug
 
 > [!info] **Varianz** = Fehler wahrscheinlichkeit, die durch hohe komplexität der Modells hervorgerufen wird.
@@ -105,6 +114,11 @@ Im gegenzug
 > ![invert_dark|500](../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.svg)
 > %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.md)%%
 > *Welches der obigen Decisionboundaries ist die echte?*
+
+High Variance Algorithmen:
+
+- k-NN (Nearest Neighbours)
+- Decision Trees
 
 ### Bias-Varianz Tradeoff
 
