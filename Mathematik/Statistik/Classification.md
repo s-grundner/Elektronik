@@ -2,20 +2,26 @@
 tags:
 aliases:
   - Classifier
-  - Learning Algorithm
 subject:
   - VL
   - Machine Learning and Pattern Classification
 semester: SS26
-created: 22nd May 2026
+created: 13th June 2026
 professor:
   - Gerhard Widmer
 release: false
-title: Classification
+title: Classifier Evaluation
 ---
 
 
 # Classification
+
+- Take an abstract look at the classification learning task
+- Discuss need and methods for empirical classifier evaluation
+- Introduce the central problem in machine learning: overfitting avoidance and model selection
+- Take a look at some common classifier evaluation measures
+- Briefly think about cost-sensitive learning
+
 
 > [!cite] Assumptions
 > 
@@ -27,6 +33,9 @@ title: Classification
 > - The training examples have been drawn *independently* and all come from the same distribution $p$ ($\iff$ i.i.d)
 > - The distribution $p(\boldsymbol{X}, \Omega)$ will not change over time (or between training and application time) - it is *stationary*
 
+![invert_dark|800](../../_assets/{NOTES}%20Machine%20Learning%20and%20Pattern%20Classification%20VL%202026-06-10%2017.08.36.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/klassifizierungsproblem.md)%%
+
 ## Learning
 
 - We choose a *learning algorithm* $L$ with an associated *model class* $\mathcal{C}$
@@ -37,6 +46,8 @@ title: Classification
 > 
 > -  [Power Set](../Algebra/Potenzmenge.md): $\mathcal{S} = \mathcal{P}(\boldsymbol{X})$
 > - i.e. all possible training set in this world
+
+- [Common Machine Learning Algorithms](Common%20Machine%20Learning%20Algorithms.md)
 
 Depending on the operation of the learning algorithm, there are specific settings / parameters called [Hyper-Parameters](Hyper-Parameter%20Tuning.md) which can be adjusted to increase the performance of a classifier.
 
@@ -59,55 +70,64 @@ Classification
 	- Classification via regression
 	- needs an additional criterion to make class decision from the probabilities (e.g. $\operatorname{argmax}$)
 
-## Evaluation
+## Evaluierung
 
-### Recall and Precision
+![invert_dark|1000](../../_assets/Excalidraw/Classification%202026-06-13%2015.08.24.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-13%2015.08.24.excalidraw.md)%%
 
-$$
-\begin{align}
-\text{predicted class} \\
-\text{true class~}
-\begin{array}{c|cc}
- & p & n\\
-\hline
-p & \color{red} TP & \color{blue} FN \\
-n & \color{blue} FP & \color{red} TN
-\end{array}
-\end{align}
-$$
+## Overfitting und Model-Komplexität
 
-- $P= {\color{red}TP} + {\color{blue}FN}$ ... total number of $p$ examples
-- $PP= {\color{red}TP} + {\color{blue}FP}$ ... total number of $p$ predictions
+![invert_dark|600](../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.md)%%
 
-**Recall:** proportion of $p$ *instances* that are correctly recognised
-
-$$
-Rec = \frac{TP}{TP + FN} = \frac{TP}{P}
-$$
-
-**Precision:** proportion of $p$ *predictions* that are correct
-
-$$
-Prec = \frac{TP}{TP + FP} = \frac{TP}{PP}
-$$
-
-> [!warning] Problem: Precision can be artificially maximized
+> [!info] **Bias** = Fehler wahrscheinlichkeiten, die durch die Einschränkung des Modells hervorommt.
 > 
-> Suppose the test set contains 100 real door events. Model A predicts only **10** door events: 10 correct, 0 wrong
+> Ziel
 > 
-> |Metric|Value|
-> |---|---|
-> |Precision|10/(10+0)=1.0|
-> |Recall|10/100=0.1|
+> - Overfitting Vermeiden
+> - Den Learning Algorithmus zwingen zu generalisieren
+>
+> Herangehensweise
 > 
-> The model appears excellent if you look only at precision. But it missed **90% of all doors**. For an audio-event detector this is usually undesirable because it barely detects anything.
+> - **Hardconstraints:** Anzahl der Modellparameter fixieren: z.B: nur lineares Modell erlauben
+> - **Softconstraints:** Hohe komplexität mit Kosten gewichten, sodass nur im notfall das Modell komplex werden würde.
+>
 
-### F1
+Im gegenzug
 
-Harmonic Mean of Precision and Recall.
+> [!info] **Varianz** = Fehler wahrscheinlichkeit, die durch hohe komplexität der Modells hervorgerufen wird.
+> 
+> Ein komplexes modell für einen expressiven Datensatz könnte die *tatsächliche* Decision boundary liefern. 
+> Jedoch sehr Sensitiv bzgl den Trainingsdaten. Mit einer geringen Anzahl oder abweichungen in den Trainingsdaten steigt die Wahrscheinlichkeit, dass ein fehler durch eine Abweichung der komplexen decision boundary entsteht.
+> 
+> Viele Modelle könnten die trainingsdaten einfach zufällig fitten.
+> 
+> ![invert_dark|500](../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.svg)
+> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.md)%%
+> *Welches der obigen Decisionboundaries ist die echte?*
 
-$$
-\mathrm{F 1} = 2 \cdot \frac{Rec \cdot Prec}{Rec + Prec}
-$$
+### Bias-Varianz Tradeoff
 
-If one of the two scores are small, it pulls down the whole F1 score (vergleiche Parallelschaltung von Widerständen)
+> [!hint] Tradeoff zwischen **Bias** und **Varianz**
+>
+> - Beschränkung auf einfache Modelle:
+> 	- ✅ Overfitting vermeiden
+> 	- ❌ Wahrscheinlichkeit für Bias-Fehler steigt
+>- Komplexität im Modell erlaubem:
+>	- ✅ Bias fehler-wslk. reduzieren
+>	- ❌ Fehler möglichkeit, dass das komplexe modell garnicht das *echte* ist.
+> 
+
+## Zusammenfassung
+
+Zu erinnern
+
+- general classification scenario
+- different procedures for estimating a classifier’s expected accuracy
+- need for looking at the baseline (class distribution)
+- bias-variance trade-off
+- need for model selection
+- different evaluation measures for classifiers
+- basic ideas of ROC space and classifier selection
+- simple approaches to cost-sensitive learning
+

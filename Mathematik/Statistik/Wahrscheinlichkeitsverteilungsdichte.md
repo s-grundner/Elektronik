@@ -96,6 +96,7 @@ Die Unabhängigkeit einer Zufallsvaraible kann folglich geprüft werden:
 - $X$ ist unabhängig von $Y$, wenn $\mathbb{f}_{X}(x) = \mathbb{f}_{X|\{ Y=y \}}(x)$
 - $Y$ ist unabhängig von $X$, wenn $\mathbb{f}_{Y}(y) = \mathbb{f}_{Y|\{ X=x \}}(y)$
 
+--- 
 
 ## Old
 

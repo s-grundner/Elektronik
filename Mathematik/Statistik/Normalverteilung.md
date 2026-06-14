@@ -17,6 +17,23 @@ title: Normalverteilung
 
 # Normalverteilung
 
+> [!hint] [Zentraler Grenzwertsatz](Zentraler%20Grenzwertsatz.md)
+
+--- 
+
+> [!def] Verteilungsdichtefunktion einer Gaussverteilung
+> 
+> $$
+> p(x) := \frac{1}{\sqrt{ 2\pi\sigma^{2} }} \exp \left( -\frac{(x-\mu)^{2}}{2\sigma^{2}} \right) 
+> $$
+
+## Multivariate Gaussverteilung
+
+Ist $\boldsymbol{x}$ ein höher dimensionaler vektor, lässt sich die Normalverteilungsdichte für beliebige dimensionen definieren mit
+
+- [Kovarianzmatrix](Kovarianz.md) $\Sigma$ bzw. $\mathbf{C}$
+- Mittelwertvektor $\boldsymbol{\mu}$
+
 
 # OLD
 

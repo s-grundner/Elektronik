@@ -21,7 +21,7 @@ release: false
 
 Wslk. Verteilung vs Wslk. Verteilungsdichte (PDF) und CDF
 
-![](../../_assets/ProbabilityBasics.svg)
+![invert_dark](../../_assets/ProbabilityBasics.svg)
 %%[🖋 Edit in Excalidraw](../../_assets/ProbabilityBasics.md)%%
 
 # Stochastische Prozesse
