@@ -11,11 +11,11 @@ let maxECTS = dv.current().dashboard
 	})
 	.reduce((acc, x) => acc + x);
 
-let pagesTags = dv.current().dashboard
+let pagesTagsQuery = dv.current().dashboard
 	.flatMap(x => "#".concat(x))
 	.join(" OR ");
 
-let pages = dv.pages(pagesTags)
+let pages = dv.pages(pagesTagsQuery)
 	.filter(p => !p.file.folder.includes("Rubbish"))
 	.filter(p => p.semester !== null);
 
