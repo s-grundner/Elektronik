@@ -30,5 +30,3 @@ title: Addition
 - Conditional Sum Adder (CSA)
 - Carry-Look-Ahead Adder (CLA)
 	- Parallel Prefix Tree
-
-
