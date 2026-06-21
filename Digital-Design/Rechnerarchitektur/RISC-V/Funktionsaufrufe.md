@@ -94,7 +94,7 @@ Die Return-Adresse `ra` vom Caller muss *vor* dem Aufruf in die Unterfunktion (`
 func1:
 	addi sp, sp, -4    # make space on stack
 	sw   ra, 0(sp)     # save ra on stack
-	jal  func2
+	jal  ra, func2
 	...
 	lw   ra, 0(sp)     # restore ra from stack
 	addi sp, sp, 4     # make space on stack

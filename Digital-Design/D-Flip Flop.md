@@ -41,7 +41,7 @@ steigenden Flanke des sog. Clocksignals (Taktflanke)
 Daten müssen lediglich bei der steigenden Taktflanke stabil sein
 (zzgl. Setup- und Holdzeit)
 
-![invert_dark](../_assets/Pasted%20image%2020260506151114.png)
+![invert_dark|400](../_assets/Pasted%20image%2020260506151114.png)
 
 > [!info] Funktionsweise:
 > 
@@ -64,8 +64,8 @@ $$
 t_{\mathrm{a}} = t_{\mathrm{setup}} + t_{\mathrm{hold}}
 $$
 
-|![invert_dark\|200](../_assets/Pasted%20image%2020260506151827.png)  |![invert_dark\|400](../_assets/Pasted%20image%2020260506151853.png) |
-| - | - |
+| ![invert_dark\|150](../_assets/Pasted%20image%2020260506151827.png) | ![invert_dark\|400](../_assets/Pasted%20image%2020260506151853.png) |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------- |
 
 #### Setup Time Constraint
 
@@ -81,7 +81,9 @@ $$
 > $$
 
 
-![500](../_assets/Pasted%20image%2020260619112622.png)
+![300](../_assets/Pasted%20image%2020260619112622.png)
+
+---
 
 ### Zeitanforderung an die Ausgangssignale
 
@@ -91,8 +93,8 @@ $$
 > *cq*: *C*LK nach *Q*
 
 
-| ![invert_dark\|200](../_assets/Pasted%20image%2020260506152335.png) | ![invert_dark\|400](../_assets/Pasted%20image%2020260506152347.png)|
-| - | - |
+| ![invert_dark\|150](../_assets/Pasted%20image%2020260506152335.png) | ![invert_dark\|400](../_assets/Pasted%20image%2020260506152347.png) |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------- |
 
 #### Hold Time Constraint
 
@@ -107,4 +109,4 @@ $$
 > 
 > - $t_{\mathrm{cd}}$ ... Minimale Kombinatorische Verzögerung *(Combinatorial Delay)*
 
-![500](../_assets/Pasted%20image%2020260619113205.png)
+![300](../_assets/Pasted%20image%2020260619113205.png)
