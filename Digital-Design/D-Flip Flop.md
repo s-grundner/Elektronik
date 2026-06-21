@@ -67,11 +67,26 @@ $$
 |![invert_dark\|200](../_assets/Pasted%20image%2020260506151827.png)  |![invert_dark\|400](../_assets/Pasted%20image%2020260506151853.png) |
 | - | - |
 
+#### Setup Time Constraint
+
+- Einhalten der Setup-Zeit hängt von der Maximal-Verzögerung von R1 durch die kombinatorische Logik ab
+- Eingang zu Register R2 muss mindestens ab $t_{\mathrm{setup}}$ vor der Taktflanke stabil sein
+
+> [!def] Setup Time Constraint
+> 
+> $$
+> \begin{align}
+> \frac{1}{f_{\mathrm{c}}} = T_{\mathrm{c}} > t_{\mathrm{pcq}} + t_{\mathrm{pd}} + t_{\mathrm{setup}} \implies t_{\mathrm{pd}} < T_{\mathrm{c}} - (t_{\mathrm{pcq}}+t_{\mathrm{setup}})
+> \end{align}
+> $$
+
+
+![500](../_assets/Pasted%20image%2020260619112622.png)
+
 ### Zeitanforderung an die Ausgangssignale
 
-**Kontaminationsverzögerung** (contamination delay) $t_{\mathrm{ccq}}$: Zeitfenster nach Taktflanke, nach dem Q beginnen kann sich zu ändern.
-
-**Laufzeitverzögerung** (progation delay) $t_{\mathrm{pcq}}$: Zeitfenster nach Taktflanke, nach dem Q garantiert stabil ist.
+- **Kontaminationsverzögerung** (contamination delay) $t_{\mathrm{ccq}}$: Zeitfenster nach Taktflanke, nach dem *Q beginnen kann sich zu ändern*.
+- **Laufzeitverzögerung** (progation delay) $t_{\mathrm{pcq}}$: Zeitfenster nach Taktflanke, nach dem *Q garantiert stabil* ist.
 
 > *cq*: *C*LK nach *Q*
 
@@ -79,4 +94,17 @@ $$
 | ![invert_dark\|200](../_assets/Pasted%20image%2020260506152335.png) | ![invert_dark\|400](../_assets/Pasted%20image%2020260506152347.png)|
 | - | - |
 
+#### Hold Time Constraint
 
+- Einhalten der Hold-Zeit von Register R2 hängt von der *Minimal-Verzögerung* von Register R1 durch die kombinatorische Logik ab
+- Der Eingang an Register R2 muss mindestens bis $t_{\mathrm{hold}}$ nach der Taktflanke stabil sein
+
+> [!def] Hold Time Constraint
+> 
+> $$
+> t_{\mathrm{ccq}} + t_{\mathrm{cd}} > t_{\mathrm{hold}} \implies t_{\mathrm{cd}} > t_{\mathrm{hold}} - t_{\mathrm{ccq}}
+> $$
+> 
+> - $t_{\mathrm{cd}}$ ... Minimale Kombinatorische Verzögerung *(Combinatorial Delay)*
+
+![500](../_assets/Pasted%20image%2020260619113205.png)

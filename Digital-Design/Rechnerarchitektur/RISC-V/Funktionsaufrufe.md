@@ -129,7 +129,7 @@ int factorial(int n) {
 > `factorial(2): returns 2*factorial(1)`
 > `factorial(1): returns 1`
 > 
-> ---
+> Rekursiver Aufstieg:
 > 
 > `factorial(1): returns 1`
 > `factorial(2): returns 2*1`

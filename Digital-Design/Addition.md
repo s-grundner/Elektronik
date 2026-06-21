@@ -1,6 +1,7 @@
 ---
 tags:
 aliases:
+  - Addierer
 subject:
   - VL
   - Rechnerarchitektur

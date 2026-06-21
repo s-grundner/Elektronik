@@ -1,6 +1,7 @@
 ---
 tags:
 aliases:
+  - RISCV - Calling Convention
 subject:
   - VL
   - Rechnerarchitektur
@@ -63,6 +64,8 @@ Gesicherte Register (`s0-s11`) sind für Variablen verfügbar
 | `sp`                                                                                                                          | `a0-a7`                                                                |
 |                                                                                                                               | `ra`                                                                   |
 
+- Caller: der *Aufrufer* (z.B. main)
+- Callee: der *Aufgerufene* (Unterfunktion)
 
 [^1]: Inhalt bleibt bei Aufruf eines Unterprogramms nicht zwangsweise erhalten
 [^2]: Inhalt bleibt bei Aufruf eines Unterprogramms erhalten.
