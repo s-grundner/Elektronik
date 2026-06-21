@@ -123,6 +123,8 @@ int factorial(int n) {
 }
 ```
 
+---
+
 > [!example]- Beispiel `n=3`
 > 
 > `factorial(3): returns 3*factorial(2)`
@@ -138,6 +140,7 @@ int factorial(int n) {
 ![](../../../_assets/Pasted%20image%2020260324191335.png)
 
 ![](../../../_assets/Pasted%20image%2020260324191447.png)
+
 
 ### Beispiel: Collatz Schrittzahl
 

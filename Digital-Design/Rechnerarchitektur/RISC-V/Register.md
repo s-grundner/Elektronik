@@ -25,33 +25,20 @@ Konventionen legen fest, wie Register heißen und wie sie verwendet werden solle
 | `sp`    | x2     | Stackpointer                       |
 | `gp`    | x3     | Zeiger auf globale Daten           |
 | `tp`    | x4     | Zeiger auf threadlokale daten      |
-| `t0-2`  | x5-7   | temp register[^1]                  |
+| `t0-2`  | x5-7   | temp register                      |
 | `s0/fp` | x8     | Stack-Frame-Zeiger (optional)      |
-| `s1`    | x9     | Gesichertes Register [^2]          |
+| `s1`    | x9     | Gesichertes Register               |
 | `a0-1`  | x10-11 | Funktionsargumente / Rückgabewerte |
 | `a2-7`  | x12-17 | Funktionsargumente                 |
-| `s2-11` | x18-27 | Gesicherte Register[^2]            |
-| `t3-6`  | x28-31 | Temporäre Register [^1]            |
+| `s2-11` | x18-27 | Gesicherte Register                |
+| `t3-6`  | x28-31 | Temporäre Register                 |
 
-### `zero`
 
-Kann nicht überschrieben werden.
-
-### `ra`
-
-Wichtig für [Funktionsaufrufe](Funktionsaufrufe.md). Bei return wird zur Addresse welche in diesem Register gespeichert ist gesprungen.
-
-### `sp`
-
-Zeigt auf das aktuell oberste Datenelement auf dem [Stack](Stack.md).
-
-### Gesicherte Register
-
-Gesicherte Register (`s0-s11`) sind für Variablen verfügbar
-
-### Temporäre Register
-
-- Temporäre Register (`t0-t6`) für Zwischenergebnisse
+- `zero`: Kann nicht überschrieben werden.
+- `ra`: Wichtig für [Funktionsaufrufe](Funktionsaufrufe.md). Bei return wird zur Addresse welche in diesem Register gespeichert ist gesprungen.
+- `sp`: Zeigt auf das aktuell oberste Datenelement auf dem [Stack](Stack.md).
+- Gesicherte Register (`s0-s11`) sind für Variablen verfügbar.  Inhalt bleibt bei Aufruf eines Unterprogramms erhalten.
+- Temporäre Register (`t0-t6`) für Zwischenergebnisse. Inhalt bleibt bei Aufruf eines Unterprogramms nicht zwangsweise erhalten.
 
 ## Sicherungskonvention
 
@@ -59,13 +46,7 @@ Gesicherte Register (`s0-s11`) sind für Variablen verfügbar
 | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | *Callee* muss die Erhaltung der Werte sicherstellen.                                                                          | *Caller* muss die Erhaltung der Werte sicherstellen                    |
 | Der *Caller* erwartet, dass die Werte in diesen Registern nach einem [Funktionsaufruf](Funktionsaufrufe.md) erhalten bleiben. | Der *Callee* (die Funktion) kann die Register beliebeig überschreiben. |
-|                                                                                                                               |                                                                        |
-| `s0-s11`                                                                                                                      | `t0-t6`                                                                |
-| `sp`                                                                                                                          | `a0-a7`                                                                |
-|                                                                                                                               | `ra`                                                                   |
+| `s0-s11`, `sp`                                                                                                                | `t0-t6`, `a0-a7`, `ra`                                                                |
 
 - Caller: der *Aufrufer* (z.B. main)
 - Callee: der *Aufgerufene* (Unterfunktion)
-
-[^1]: Inhalt bleibt bei Aufruf eines Unterprogramms nicht zwangsweise erhalten
-[^2]: Inhalt bleibt bei Aufruf eines Unterprogramms erhalten.
