@@ -20,8 +20,8 @@ title: Naive Bayes Classifier
 >[!success] Annahme: Features sind unabhängig verteilt:
 > Gemeinsame Verteilung wird zum Produkt aller einzelnen verteilung.
 > 
-> - [Multiplikationsregel](Unbedingte%20Wahrscheinlichkeit.md#Multiplikationsregel)
-> - [Bedingte Verteilungsdichte](Wahrscheinlichkeitsverteilungsdichte.md#Bedingte%20Verteilungsdichte)
+> - [Multiplikationsregel](../../../Mathematik/Statistik/Wahrscheinlichkeitsmaß.md#Multiplikationsregel)
+> - [Bedingte Verteilungsdichte](../../../Mathematik/Statistik/PDF.md#Bedingte%20Verteilungsdichte)
 
 
 

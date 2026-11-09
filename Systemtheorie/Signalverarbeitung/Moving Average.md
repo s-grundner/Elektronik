@@ -29,8 +29,30 @@ $$y[n] = \frac{1}{M+1}\sum_{k=0}^{M}x[n-k]$$
 $$h[n] = \frac{1}{M+1}\sum_{k=0}^{M}\delta[n-k] = \begin{cases} \frac{1}{M+1} & \text{für } 0 \leq n < M \\ 0 & \text{sonst} \end{cases}$$
 
 | ![invert_dark](../../_assets/MovingAvgSignal.png) | ![invert_dark](../../_assets/MovingAvgImpulseResponse.png) |
-| :----------------------------------------: | :-------------------------------------------------: |
-| Veranschaulichung der Operation            | Impulsantwort                                       |
+| :-----------------------------------------------: | :--------------------------------------------------------: |
+|          Veranschaulichung der Operation          |                       Impulsantwort                        |
 
 - Der rote Mittelwert ist der Ausgang $y[n_{0}]$
 - Der blaue Mittelwert ist der Ausgang $y[n_{1}]$
+
+## Code
+
+```c
+#define WINDOW_SIZE 4
+int movingAverage(int newSample) {
+	static int samples[WINDOW_SIZE];
+	int i, result = 0;
+	
+	for(i = WINDOW_SIZE - 1; i>0; i--){
+		samples[i] = samples[i-1];
+	}
+	
+	samples[0] = newSample;
+	for(i = 0; i < WINDOW_SIZE; i++){
+		result = result + samples[i];
+	}
+	
+	result = result / WINDOW_SIZE;
+	return result;
+}
+```

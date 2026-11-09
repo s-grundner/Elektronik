@@ -1,10 +1,12 @@
 ---
-tags: 
-aliases: 
-keywords: 
+tags:
+aliases:
+keywords:
 subject:
   - KV
   - Wahrscheinlichkeitstheorie und stochastische Prozesse
+  - VL
+  - Optimum and Adaptive Signal Processing Systems
 semester: WS25
 created: 27th February 2025
 professor:
@@ -18,12 +20,14 @@ title: Ereignisraum
 > [!def] **D)** Ereignisraum $\Omega$ ^DEF
 > 
 > 1. Die Menge $\Omega$ nennt man den **Ereignisraum** des Zufallsexperiments.
-> 2. Teilmengen $A,B,\dots$ von $\Omega$ nennt man **Ereignisse**.
+> 2. Teilmengen $A,B \subseteq\Omega$ nennt man **Ereignisse**.
 > 3. Ein-Elementige Teilmengen $\{\omega\}$ von $\Omega$ nennt man **Elementarereignisse**.
 > 4. Man sagt *"das Ereignis $A$ tritt ein"*, wenn ein Ausgang $\omega$ aus der Menge $A$ realisiert wird.
 
 - [Menge](../Algebra/Mengenlehre.md) aller möglichen [Ereignisse](Ereignis.md) (Ausgänge) $\Omega$
 - Anzahl aller möglichen [Ereignisse](Ereignis.md) $|\Omega|$ (Mächtigkeit)
+
+## Beispiele
 
 >[!example] 1 Würfel  
 > $\Omega = \{1,2,3,4,5,6\}$  
@@ -51,4 +55,4 @@ title: Ereignisraum
 
 # Tags
 
-- [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)
+- [Wahrscheinlichkeitsmaß](Wahrscheinlichkeitsmaß.md)

@@ -14,7 +14,7 @@ title: Inverse Systemidentifikation
 
 # Inverse Systemidentifikation
 
-> [!question] [Optimale Filter](Optimale%20Filter.md)
+> [!question] [Optimale Filter](Statistisch/Optimale%20Filter.md)
 
 ![invert_dark|800](../../_assets/Pasted%20image%2020260325191848.png)
 
@@ -26,4 +26,4 @@ Kompromiss zwischen Rauschunterdrückung und inverser Systemidentifikation muss 
 
 ## Referenzen
 
-[Systemidentifikation](Systemidentifikation.md)
+[Systemidentifikation](Statistisch/Systemidentifikation.md)

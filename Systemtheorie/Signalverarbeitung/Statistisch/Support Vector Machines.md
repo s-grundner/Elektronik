@@ -20,7 +20,7 @@ Man erhöht die dimension der Features, indem man die Features Kombiniert.
 
 > [!question] Nur Binary Classification
 
-![](../../_assets/Pasted%20image%2020260614153402.png)
+![](../../../_assets/Pasted%20image%2020260614153402.png)
 
 
 ## Vorteile

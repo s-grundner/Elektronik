@@ -13,9 +13,9 @@ title: Signalprediction
 
 # Signalprediction
 
-> [!question] [Optimale Filter](Optimale%20Filter.md)
+> [!question] [Optimale Filter](Statistisch/Optimale%20Filter.md)
 
-![invert_dark|700](../../_assets/Pasted%20image%2020260325193134.png)
+![invert_dark|700](../../../_assets/Pasted%20image%2020260325193134.png)
 
 > [!success] **Ziel:** Vorrausschätzung des momentanen Samples $s[k]$ mittels vorherigen Werten
 

@@ -14,7 +14,7 @@ title: Least Square Filter
 
 # Least Square Filter
 
-> [!question] [Optimale Filter](Optimale%20Filter.md)
+> [!question] [Optimale Filter](Statistisch/Optimale%20Filter.md)
 
 ---
 
@@ -98,7 +98,7 @@ $$
 
 ## Anwendungen
 
-- [Systemidentifikation](Systemidentifikation.md)
+- [Systemidentifikation](Statistisch/Systemidentifikation.md)
 - [Inverse Systemidentifikation](Inverse%20Systemidentifikation.md) (Equalization, Systemausgleich)
-- [Rauschunterdrückung / -verminderung](Rauschunterdrückung.md)
-- [Signalprediction](Signalprediction.md)
+- [Rauschunterdrückung / -verminderung](Statistisch/Rauschunterdrückung.md)
+- [Signalprediction](Statistisch/Signalprediction.md)

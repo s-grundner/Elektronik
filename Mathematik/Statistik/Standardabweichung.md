@@ -18,7 +18,7 @@ title: Standardabweichung
 > \end{align*}
 > $$
 > - $V(X)$ … [Varianz](Varianz.md)
-> - $p$ … [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)
+> - $p$ … [Wahrscheinlichkeitsmaß](Wahrscheinlichkeitsmaß.md)
 > - $n$ … Anzahl der [Ereignisse](Ereignis.md)
 
 > [!IMPORTANT] Standardabweichung $\sigma$ und empirische Standardabweichung $s$  

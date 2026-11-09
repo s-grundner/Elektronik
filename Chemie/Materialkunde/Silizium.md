@@ -25,6 +25,12 @@ title: SIlizium
 
 > Siehe [Halbleiterphysik](../../Physik/Quantenmechanik/Halbleiterphysik.md) 
 
+
+Silizium kann sehr gut sehr gezielt oxidiert werden.
+
+Somit kann präzise eine Oxidmaske eingebracht werden.
+
+
 # Tags
 
 [Transistoren](../../Analog-Design/Halbleiter/Transistor.md)  

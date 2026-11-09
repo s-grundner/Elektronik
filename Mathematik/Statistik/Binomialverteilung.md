@@ -28,7 +28,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > mit
 > - $n\dots$ Anzahl der Versuche
 > - $k\dots$ Anzahl der Erfolge
-> - $p\dots$ [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md) eines Erfolgs
+> - $p\dots$ [Wahrscheinlichkeitsmaß](Wahrscheinlichkeitsmaß.md) eines Erfolgs
 > - $\binom{n}{k}\dots$ Binomialkoeffizient 
 
 ## Kennwerte
@@ -46,7 +46,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 
 ## Unbekanntes $n$
 
-> [!EXAMPLE] Wie viele Tickets kann man verkaufen, sodass mit [WSK](Unbedingte%20Wahrscheinlichkeit.md)$=0.9$ der Flug nicht überbucht ist? 
+> [!EXAMPLE] Wie viele Tickets kann man verkaufen, sodass mit [WSK](Wahrscheinlichkeitsmaß.md)$=0.9$ der Flug nicht überbucht ist? 
 > - Fluglinie überbucht Flüge (200 Sitze)
 > - WSK, dass ein gebuchter Passagier erscheint, $p=0.93$  
 > $P(x\leq200)=P(x=0)+P(x=1)+\dots+P(x=200)\geq 0.9$
@@ -54,7 +54,7 @@ Dann ist $X$ binomialverteilt mit den Parametern $n$ und $p$
 > > ausprobieren mit Taschenrechner: binomial CD kumulierte Binomialverteilung  
 > > $n=210$
 
-## Unbekanntes $k$ bei gegebener [WSK](Unbedingte%20Wahrscheinlichkeit.md)
+## Unbekanntes $k$ bei gegebener [WSK](Wahrscheinlichkeitsmaß.md)
 
 > [!EXAMPLE] Bsp  
 > $n=6\qquad p=0.4$  

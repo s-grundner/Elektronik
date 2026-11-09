@@ -10,7 +10,9 @@ function htmlProg(quota, base) {
 async function nameTable() {
     const hours = {
         MAX: 240,
-        total: pages.map(p => p.thesis_hours).sum()
+        total: pages
+            .filter(p => p.thesis_hours)
+            .map(p => p.thesis_hours).sum()
     }
     dv.table(
         ["Name", "Thesis", "Total Hours"],
@@ -24,7 +26,8 @@ async function nameTable() {
 
 async function timeTable() {
     
-    const weeklyHours = pages.filter(p => p.week === input.week)
+    const weeklyHours = pages
+        .filter(p => p.week === input.week)
         .filter(p => p.thesis_hours)
         .map(p => p.thesis_hours)
         .sum();

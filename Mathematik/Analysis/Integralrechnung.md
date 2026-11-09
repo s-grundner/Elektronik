@@ -68,6 +68,11 @@ Anschließend Terme zusammenfassen: $\left( \int f_{1} \, dx \right)\,\cup\left(
 
 - [Riemann-Integral](Riemann-Integral.md)
 
+## Uneigentliche Integrale
+
+- Typ 1: Über $(-\infty,\infty)$
+- Typ 2: Über eine Singularität integrieren
+
 ## Sätze und Folgerungen
 
 - [Wegunabhängig](Vektoranalysis/Wegunabhängig.md)

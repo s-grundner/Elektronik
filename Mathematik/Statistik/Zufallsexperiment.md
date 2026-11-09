@@ -5,6 +5,8 @@ keywords:
 subject:
   - KV
   - Wahrscheinlichkeitstheorie und stochastische Prozesse
+  - VL
+  - Optimum and Adaptive Signal Processing Systems
 semester: WS25
 created: 15th October 2025
 professor:
@@ -24,12 +26,11 @@ title: Zufallsexperiment
 > - das Ziehen mit Zurücklegen von $k$ Kugeln aus einer Urne mit $n$ Kugeln
 > - die Ziehen ohne Zurücklegen von $k$ Kugeln aus einer Urne mit $n\geq k$ Kugeln
 
-Kenngrößen eines Zufallsexperimente
+Maßgebliche kenngröße ist der Ereignisraum
 
-- [Ereignisraum](Ereignisraum.md) $\Omega$
-- Eregnisse $A,B\dots \in\Omega$
-- Elementarereignis $\{\omega\} \in \Omega$
-- Wahrscheinlichkeit eines Ereignisses $\mathbb{P}$
+![](Ereignisraum.md#^DEF)
+
+Ereignisse 
 
 ## Kombination von Ereignissen
 
@@ -40,3 +41,6 @@ Kenngrößen eines Zufallsexperimente
 ## Art des Experiments
 
 - [Laplace Experiment](Laplace%20Experiment.md)
+
+
+---

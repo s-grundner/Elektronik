@@ -16,7 +16,7 @@ title: Ereignis
 
 # Ereignis $E$
 
-Oft interessiert uns nicht für die [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md) eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften  
+Oft interessiert uns nicht für die [Wahrscheinlichkeitsmaß](Wahrscheinlichkeitsmaß.md) eines einzelnen $\omega\in\Omega$, sondern alle $\omega$ mit bestimmten Eigenschaften  
 Das Ereignis $A$ ist eine Teilmenge der [Ereignisraum](Ereignisraum.md) $\Omega$
 
 ## Unabhängige Ereignisse
@@ -63,4 +63,4 @@ $$
 
 # Tags
 
-[Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)
+[Wahrscheinlichkeitsmaß](Wahrscheinlichkeitsmaß.md)

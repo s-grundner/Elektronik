@@ -50,7 +50,7 @@ Zur Beschreibung dieser Modelle werden mathematische Modelle verwendet. Ein Haup
 
 Zustandsregelung: Man verwendet den Systemzustand $\mathbf{x}(t)$ um eine Regelung $\mathbf{K}$ zu erzielen.
 
-- [Zustandsraummethoden](../Zustandsraummethoden.md)
+- [Zustandsraummethoden](Zustandsraummethoden.md)
   
 Ausgangsregelung: man verwendet ausschließlich $y(t)$ um eine 
 

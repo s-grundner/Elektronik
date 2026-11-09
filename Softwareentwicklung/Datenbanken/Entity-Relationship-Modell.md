@@ -3,20 +3,20 @@ tags:
   - DB
 aliases:
   - ERM
-  - Entity-Relationship-Modell
   - ERD
-  - Entity-Relationship-Modell
 subject:
-  - fsst
-created: 21st November 2022
-title: Entity Relationship Modellierung
+  - VL
+  - Datenbanken und Informationssysteme 1
+created: 12th April 2026
+title: Entity Relationsship Modell
+semester: WS26
+professor:
+release: false
 ---
 
-# 3 Entity-Relationship-Modell (ERM)
+# Entity-Relationship-Modell (ERM)
 
-(nach Peter Chen)
-
-Beschreibung der realen Welt durch:
+Man möchte einen ausschnitt der realen Welt modellieren.  Beschreibung der realen Welt durch:
 
 - Entitäten: Menge gleichartiger Objekte (dargestellt durch Rechtecke)
 - Relationship: Beziehungsmöglichkeit (dargestellt durch Rauten) zwischen den Entitäten

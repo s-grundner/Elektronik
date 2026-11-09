@@ -25,8 +25,8 @@ Wichtig: die verscheidenen bäume müssen jeweils **unkorrelierte** Fehler aufwe
 
 Möglichkeit 1: Dataset randomisieren
 
-![invert_dark|800](../../_assets/Excalidraw/Random%20Forest%20Classifier%202026-06-14%2014.34.58.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Random%20Forest%20Classifier%202026-06-14%2014.34.58.excalidraw.md)%%
+![invert_dark|800](../../../_assets/Excalidraw/Random%20Forest%20Classifier%202026-06-14%2014.34.58.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Random%20Forest%20Classifier%202026-06-14%2014.34.58.excalidraw.md)%%
 
 Möglichkeit 2: Lernprozess Randomisieren
 

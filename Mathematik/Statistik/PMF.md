@@ -1,23 +1,17 @@
 ---
 tags:
-  - Statistik
 aliases:
-  - Wahrscheinlichkeitsverteilungen
 subject:
-  - mathe
-  - KV
-  - Wahrscheinlichkeitstheorie und stochastische Prozesse
-created: 14th February 2026
-semester: WS25
+  - VL
+  - Optimum and Adaptive Signal Processing Systems
+semester: WS26
+created: 15th October 2026
 professor:
 release: false
-title: Diskrete Verteilung
+title: PMF
 ---
 
-# Wahrscheinlichkeitsverteilung
-
-
-## Diskrete Verteilungsdichte
+# Wahrscheinlichkeitsverteilung diskreter Zufallsvariablen
 
 Ist $\mathbb{P}$ eine diskrete Verteilung mit dem Träger $\mathbb{T}_{\mathbb{P}}\subseteq \mathbb{R}$ so gilt für alle $B\subseteq \mathbb{R}$
 
@@ -27,7 +21,7 @@ $$
 
 Die diskrete Verteilung $\mathbb{P}$ ist somit durch die Wahrscheinlichkeiten $\mathbb{P}(\{ z \})$ mit $z \in \mathbb{T_{P}}$ vollständig bestimmt.
 
-> [!def] **D - PDF)** Unter eine **Verteilungsdichte** (*Probability Density Funciton - PDF*) $\mathbb{f_{P}}$ einer **diskreten Verteilung** $\mathbb{P}$ mit dem Träger $\mathbb{T_{P}} \subseteq \mathbb{R}$ versteht man die Abbildung
+> [!def] **D - PMF)** Unter eine **Verteilung** (*Probability Mass Funciton - PMF*) $\mathbb{f_{P}}$ versteht man die Abbildung
 > 
 > $$
 > \mathbb{f_{P}} : \mathbb{R} \to \mathbb{R} \quad \text{mit} \quad \mathbb{f_{P}} (z) = \begin{cases}
@@ -100,8 +94,8 @@ Die Unabhängigkeit einer Zufallsvaraible kann folglich geprüft werden:
 
 ## Old
 
-- Wahrscheinlichkeitsverteilung beschreibt [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md) von [Ereignissen](Ereignis.md)
-- Jedem $x_{i}$ wird eine [Unbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md) zugeordnet
+- Wahrscheinlichkeitsverteilung beschreibt [Wahrscheinlichkeitsmaß](Wahrscheinlichkeitsmaß.md) von [Ereignissen](Ereignis.md)
+- Jedem $x_{i}$ wird eine [Wahrscheinlichkeitsmaß](Wahrscheinlichkeitsmaß.md) zugeordnet
 - verschiedene Arten:
 	- Diskrete Verteilung: [Binomialverteilung](Binomialverteilung.md)
 	- Stetige Verteilung: [Normalverteilung](Normalverteilung.md)

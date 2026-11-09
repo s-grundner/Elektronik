@@ -43,7 +43,9 @@ Jede **periodische** [Funktion](../../Mathematik/Algebra/Abbildung.md) kann als 
 
 > [!def] **D - $\mathbb{R}$FR)** Reelle Fourier-Reihe der reellen Funktion $x(t)$  
 > 
-> $$\boxed{ x(t) = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(k \omega_{0} t) + b_{k}\cdot\sin ( k \omega_{0} t)\Big] }$$
+> $$
+> x(t) = \frac{a_{0}}{2} + \sum^{\infty}_{k=1} \Big[a_{k} \cdot \cos(k \omega_{0} t) + b_{k}\cdot\sin ( k \omega_{0} t)\Big]
+> $$
 > 
 
 mit der Grundkreisfrequenz $\omega_0$ aus der Periodendauer $T$
@@ -89,7 +91,9 @@ $$
 
 > [!def] **D - $\mathbb{C}$FR)** Komplexe Fourier-Reihe der rellen Funktion $x(t)$
 >
-> $$\boxed{ x(t)=\sum_{k=-\infty}^{\infty} X_k e^{\mathrm{j} k \omega_0 t} }$$
+> $$
+> x(t)=\sum_{k=-\infty}^{\infty} X_k e^{\mathrm{j} k \omega_0 t} 
+> $$
 
 $X_k \ldots$ spektrale Koeffizienten, mit $X_{-k}=X_k^*$
 
@@ -109,7 +113,7 @@ Besonderheiten:
 
 ---
 
-### Periodische [Funktion](../../Mathematik/Algebra/Abbildung.md)
+### Periodische Funktionen
 
 $f(x)=f(x+a)$  
 ![invert_light|400](../../_assets/fourReihe.png)

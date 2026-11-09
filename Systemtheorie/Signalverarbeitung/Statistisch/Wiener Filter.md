@@ -14,9 +14,9 @@ title: Wiener Filter
 
 # Wiener Filter
 
-> [!question] [Optimale Filter](Optimale%20Filter.md)
+> [!question] [Optimale Filter](Statistisch/Optimale%20Filter.md)
 
-Die Systemantwort sowie die Eingangssignale sind realisierungen [stochastischer Prozesse](../../Mathematik/Statistik/Stochastische%20Prozesse.md). Das Optimierungskriterium für den Wiener Filter (WF) ist der (*Bayesian Mean Square Error - MSE*)
+Die Systemantwort sowie die Eingangssignale sind realisierungen [stochastischer Prozesse](../../../Mathematik/Statistik/Stochastische%20Prozesse.md). Das Optimierungskriterium für den Wiener Filter (WF) ist der (*Bayesian Mean Square Error - MSE*)
 
 - Für die Modellbildung sei Vorrausgesetzt, dass die Stochastischen Prozesse *mittelwertfrei* und *schwach stationär* sind.
 - Für das Modell ist außerdem eine [FIR-Filter](FIR-Filter.md) Struktur vorrausgesetzt.
@@ -62,19 +62,19 @@ Die Kostenfunktion ist quadratisch im Vektor $\mathbf{w}$ (*hyperparaboloid*). D
 
 > [!satz] **S - MMSE)** Minimum Mean Square Error $J(\mathbf{w}_{0})$
 > 
-> Das [minimum](../../Mathematik/Analysis/Kurvendiskussion/Extremwert.md) der Kostenfunktion $J$ kann gefunden werden, indem man dessen [Gradienten](../../Mathematik/Analysis/Vektoranalysis/Gradient.md)[^1] gleich null setzt:
+> Das [minimum](../../../Mathematik/Analysis/Kurvendiskussion/Extremwert.md) der Kostenfunktion $J$ kann gefunden werden, indem man dessen [Gradienten](../../../Mathematik/Analysis/Vektoranalysis/Gradient.md)[^1] gleich null setzt:
 > 
 > $$
 > \mathbf{g}(\mathbf{w}) := \nabla_{\mathbf{w}}J(\mathbf{w}) = -2\mathbf{r}_{xy} + 2 \mathbf{R}_{x x}\mathbf{w}\overset{!}{=}\mathbf{0}
 > $$
 > 
-> Man erhält die [Normalgleichungen](../../Mathematik/Normalgleichungen.md)
+> Man erhält die [Normalgleichungen](../../../Mathematik/Normalgleichungen.md)
 > 
 > $$
 > \mathbf{R}_{xx}\mathbf{w}_{0} = \mathbf{r}_{xy}
 > $$
 > 
-> oder äquivalent die **Wiener-Hopf** Lösung (wenn $\mathbf{R}_{x x}$ [regulär](../../Mathematik/Algebra/Reguläre%20Matrix.md) ist)
+> oder äquivalent die **Wiener-Hopf** Lösung (wenn $\mathbf{R}_{x x}$ [regulär](../../../Mathematik/Algebra/Reguläre%20Matrix.md) ist)
 > 
 > $$
 > \mathbf{w}_{0} = \mathbf{R}_{xx}^{-1}\mathbf{r}_{xy}
@@ -121,7 +121,7 @@ r_{xy}[0] \\ r_{xy}[1] \\ \vdots \\ r_{xy}[p-1]
 $$
 
 
-Problem: Die Optimierung fordert die Kenntnis von [Momente 2. Ordnung](../../Mathematik/Statistik/Momenterzeugende%20Funktion.md), welche in der Realität schwer abzuschätzen sind.
+Problem: Die Optimierung fordert die Kenntnis von [Momente 2. Ordnung](../../../Mathematik/Statistik/Momenterzeugende%20Funktion.md), welche in der Realität schwer abzuschätzen sind.
 
 [^1]: Hinweis
 	

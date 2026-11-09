@@ -51,5 +51,5 @@ Die Darstellung des Zustandsraumes erfolgt je nach Art des Systems unterschiedli
 ## Referenzen
 
 - [Regelungstechnik](Regelungstechnik/index.md)
-- [Zustandsraummethoden](Zustandsraummethoden.md)
+- [Zustandsraummethoden](Regelungstechnik/Zustandsraummethoden.md)
 - [Frequenzbereichsmethoden](Frequenzbereichsmethoden/index.md)

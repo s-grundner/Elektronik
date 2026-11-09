@@ -89,7 +89,7 @@ $$
 ## Entwurf
 
 - Fenstermethode
-- [Optimalmethode](Optimale%20Filter.md)
+- [Optimalmethode](Statistisch/Optimale%20Filter.md)
 
 # Referenzen
 

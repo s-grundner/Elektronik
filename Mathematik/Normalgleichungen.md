@@ -19,3 +19,8 @@ title: Normalgleichungen
 > $$ 
 
 Diese Gleichungen sind Fundamental zum Problem der [linearen kleinsten Quadrate](Lineare%20Methode%20der%20kleinsten%20Quadrate.md), und bilden die Lösung der optimalen Parameter.
+
+## Herleitung mit Gradienten-Abstieg
+
+> [!question] [Gradientenabstieg](../Systemtheorie/Signalverarbeitung/Gradient%20Descent.md)
+

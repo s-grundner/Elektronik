@@ -31,13 +31,14 @@ Ein Merkmal $Z$, dessen numerische Werte die Ergebnisse eines Zufallsvorgangs si
 
 Dem Begriff einer Zufallsvariablen liegt die Vorstellung zu Grunde, dass die mit diesem Mechanismus erzeugten Werte $Z(\omega) \in \mathbb{R}$ dadurch entstehen, dass im Hintergrund ein mehr oder weniger komplexes Zufallsexperiment abläuft, von dessen Realisierungen $\omega\in\Omega$ nur das Merkmal $Z(\omega)\in\mathbb{R}$ beobachtet wird.
 
-Bei einer **Zufallsvariablen** $Z$ handelt es sich somit um eine **Abbildung** $Z:\Omega \to \mathbb{R}$ wobei in vielen Fällen weder der Ereignisraum $\Omega$ noch das dieses Zufallsexperiment steuernde W-Maß $\mathbb{P}$ explizit bekannt sind.
+> [!hint] Bei einer **Zufallsvariablen** $Z$ handelt es sich somit um eine **Abbildung** $Z:\Omega \to \mathbb{R}$,
+>  wobei in vielen Fällen weder der Ereignisraum $\Omega$ noch das dieses Zufallsexperiment steuernde W-Maß $P$ explizit bekannt sind.
 
 Mit der folgenden Skizze wird diese Situation verdeutlicht. Man erkennt
 - Das im Hintergrund ablaufende Zufallsexperiment
 - Den Zufallsmechanismus $Z$, welcher jedem $\omega\in\Omega$ die *zufällige* Zahl $Z(\Omega)$ zuordnet
 - Das Ereignis $\{ Z \in B \} = \{ \omega \in \Omega | Z(\omega) \in B \}$
-- Die durch das W-Maß $\mathbb{P}$ auf $\Omega$ und die Zufallsvariable $Z$ bestimmte Verteilung $\mathbb{P}_{Z}$ auf $\mathbb{R}$.
+- Die durch das W-Maß $P$ auf $\Omega$ und die Zufallsvariable $Z$ bestimmte Verteilung $P_{Z}$ auf $\mathbb{R}$.
 
 ![invert_dark](../../_assets/Pasted%20image%2020260214012847.png)
 
@@ -63,62 +64,62 @@ In der Stochastik ist man weniger an der Zufallsvariable $Z$ selbst (also an dem
 > [!hint] Also mit welchen Wahrscheinlichkeiten die Zahlen $Z(\omega)$, welche durch diesen Mechanismus Z erzeugt werden, auftreten.
 
 > [!def] **D - Verteilung)**
-> Unter der **Verteilung** der Zufallsvariablen $Z$ versteht man eine Abbildung $\mathbb{P}_{Z}$, welche jeder (vernünftigen) Menge $B \subseteq \mathbb{R}$ die Wahrscheinlichkeit
+> Unter der **Verteilung** der Zufallsvariablen $Z$ versteht man eine Abbildung $P_{Z}$, welche jeder (vernünftigen) Menge $B \subseteq \mathbb{R}$ die Wahrscheinlichkeit
 > 
 > $$
-> \mathbb{P}_{Z}(B) = \mathbb{P}(\{ Z \in B \}) = \mathbb{P}(\{ \omega \in \Omega | Z(\omega) \in B \})
+> P_{Z}(B) = P(\{ Z \in B \}) = P(\{ \omega \in \Omega | Z(\omega) \in B \})
 > $$
 > 
-> zuordnet. Die Zahl $\mathbb{P}_{Z}(B)$ gibt somit an, mit welcher Wahrscheinlichkeit durch den Mechanismus $Z$ ein Wert aus der Menge $B$ erzeugt wird. Ist die Zufallsvariable $Z$ diskret bzw stetig, so nennt man auch die Verteilung $\mathbb{P}_{Z}$ **diskret** bzw. **stetig**.
+> zuordnet. Die Zahl $P_{Z}(B)$ gibt somit an, mit welcher Wahrscheinlichkeit durch den Mechanismus $Z$ ein Wert aus der Menge $B$ erzeugt wird. Ist die Zufallsvariable $Z$ diskret bzw stetig, so nennt man auch die Verteilung $P_{Z}$ **diskret** bzw. **stetig**.
 
 
 > [!satz] **S)** Die Verteilung einer Zufallsvariable $Z$ ist ein W-Maß auf $\mathbb{R}$, es gilt also
-> 1. $\mathbb{P}_{Z}(\mathbb{R}) = 1$
-> 2. für alle Mengen $B\subseteq \mathbb{R}$ ist $\mathbb{P}_{Z}(B)\geq 0$
+> 1. $P_{Z}(\mathbb{R}) = 1$
+> 2. für alle Mengen $B\subseteq \mathbb{R}$ ist $P_{Z}(B)\geq 0$
 > 3. für endlich oder abzählbar unendlich viele paarweise disjunkte Mengen $B_{1},\ldots,B_{n},\ldots \subseteq \mathbb{R}$ gilt [^1]
 > 
 > $$
-> \mathbb{P}_{Z}\left( \textstyle\bigcup_{\{ B_{n} \subseteq \mathbb{R} \}} B_{n} \right) = \sum_{\{ B_{n} \subseteq \mathbb{R} \}} \mathbb{P}_{Z}\left( B_{n} \right) 
+> P_{Z}\left( \textstyle\bigcup_{\{ B_{n} \subseteq \mathbb{R} \}} B_{n} \right) = \sum_{\{ B_{n} \subseteq \mathbb{R} \}} P_{Z}\left( B_{n} \right) 
 > $$
 
 ## Verteilungsdichten diskreter Zufallsvariablen
 
-![Verteilungsdichten diskreter Zufallsvariablen](Wahrscheinlichkeitsverteilungsdichte.md#^DZ-DF)
+![Verteilungsdichten diskreter Zufallsvariablen](PMF.md#^DZ-DF)
 
 ## Unabhängige Zufallsvariable
 
-> [!def] **D)** $X, Y, Z_1, Z_2, \ldots$ seien Zufallsvariablen auf einem beliebigen W-Raum $(\Omega, \mathbb{P})$.
+> [!def] **D)** $X, Y, Z_1, Z_2, \ldots$ seien Zufallsvariablen auf einem beliebigen W-Raum $(\Omega, P)$.
 > 
 > 1. Die beiden Zufallsvariablen $X$ und $Y$ heißen **unabhängig**, falls für alle $A, B \subseteq \mathbb{R}$
 > 
 > $$
-> \mathbb{P}(\{X \in A\} \cap\{Y \in B\})=\mathbb{P}(\{X \in A\}) \cdot \mathbb{P}(\{Y \in B\})
+> P(\{X \in A\} \cap\{Y \in B\})=P(\{X \in A\}) \cdot P(\{Y \in B\})
 > $$
 > 
 > 2. Die Zufallsvariablen $Z_1, Z_2, \ldots$ heißen **paarweise unabhängig**, falls für alle $i \neq k$ und alle $A, B \subseteq \mathbb{R}$
 > 
 > $$
-> \mathbb{P}(\{Z_i \in A\} \cap\{Z_k \in B\})=\mathbb{P}(\{Z_i \in A\}) \cdot \mathbb{P}(\{Z_k \in B\})
+> P(\{Z_i \in A\} \cap\{Z_k \in B\})=P(\{Z_i \in A\}) \cdot P(\{Z_k \in B\})
 > $$
 > 
 > 1. Die Zufallsvariablen $Z_1, Z_2, \ldots$ heißen **vollständig unabhängig**, falls für jede Auswahl von $n \in \mathbb{N}$ *paarweise verschiedenen* Zufallsvariablen $Z_{i_1}, Z_{i_2}, \ldots, Z_{i_n}$ und alle $A_1, A_2, \ldots, A_n \subseteq \mathbb{R}$ [^2]
 > 
 > $$
-> \mathbb{P}\left(\bigcap_{k=1}^{n} \{ Z_{i_{k}} \in A_{k}\} \right) = \prod_{k=1}^{n}\mathbb{P}(\{ Z_{i_{k}} \in A_{k} \})
+> P\left(\bigcap_{k=1}^{n} \{ Z_{i_{k}} \in A_{k}\} \right) = \prod_{k=1}^{n}P(\{ Z_{i_{k}} \in A_{k} \})
 > $$
 
 Man kann feststellen, dass zwei Zufallsvariablen unabhängig sind, indem man prüft,
 
-- ob die [Bedingte Verteilungsdichte](Wahrscheinlichkeitsverteilungsdichte.md#Bedingte%20Verteilungsdichte) gleich der Marginalverteilungsdichte ist
+- ob die [Bedingte Verteilungsdichte](PDF.md#Bedingte%20Verteilungsdichte) gleich der Marginalverteilungsdichte ist
 - oder ob die [Kovarianz](Kovarianz.md#^UNCORRELATED) $\operatorname{Cov}(X,Y) = 0$ ist.
 
 [^1]: $$
-	\mathbb{P}_{Z}(B_{1} \cup \ldots \cup B_{n} \cup \ldots) = \mathbb{P}_{Z}(B_{1}) + \ldots + \mathbb{P}_{Z}(B_{n}) + \ldots
+	P_{Z}(B_{1} \cup \ldots \cup B_{n} \cup \ldots) = P_{Z}(B_{1}) + \ldots + P_{Z}(B_{n}) + \ldots
 	$$
 
 [^2]: $$
 	\begin{align}
-	&\mathbb{P}(\{Z_{i_1} \in A_1\} \cap\{Z_{i_2} \in A_2\} \cap \ldots \cap\{Z_{i_n} \in A_n\})\\
-	=~&\mathbb{P}(\{Z_{i_1} \in A_1\}) \cdot \mathbb{P}(\{Z_{i_2} \in A_2\}) \cdot\ldots\cdot \mathbb{P}(\{Z_{i_n} \in A_n\})
+	&P(\{Z_{i_1} \in A_1\} \cap\{Z_{i_2} \in A_2\} \cap \ldots \cap\{Z_{i_n} \in A_n\})\\
+	=~&P(\{Z_{i_1} \in A_1\}) \cdot P(\{Z_{i_2} \in A_2\}) \cdot\ldots\cdot P(\{Z_{i_n} \in A_n\})
 	\end{align}
 	$$

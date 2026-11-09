@@ -11,7 +11,7 @@ professor:
 
 # LMS Algorithmus
 
-> [!question] [Sample Adaptive Filter](Sample%20Adaptive%20Filter.md), [Gradient Descent](Gradient%20Descent.md)
+> [!question] [Sample Adaptive Filter](Statistisch/Sample%20Adaptive%20Filter.md), [Gradient Descent](Gradient%20Descent.md)
 
 $$
 \mathbf{w}[k] = \mathbf{w}[k-1] + \mu \mathbf{x}[k]e[k]
@@ -19,7 +19,7 @@ $$
 
 ## Ablauf
 
-![invert_dark](../../_assets/Pasted%20image%2020260428201730.png)
+![invert_dark](../../../_assets/Pasted%20image%2020260428201730.png)
 
 ## References
 

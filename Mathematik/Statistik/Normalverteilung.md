@@ -1,15 +1,14 @@
 ---
 tags:
 aliases:
-  - Verteilungsfunktion
-  - Dichtefunktion
-  - PDF
+  - Gauss-Verteilung
 keywords:
 subject:
   - KV
   - Übertragungstechnik
   - VL
   - Machine Learning and Pattern Classification
+  - Optimum and Adaptive Signal Processing Systems
 semester: WS25
 created: 11th April 2024
 professor:
@@ -24,13 +23,17 @@ title: Normalverteilung
 
 --- 
 
-> [!def] Verteilungsdichtefunktion einer Gaussverteilung
+> [!def] Verteilungsdichtefunktion einer (univariaten) Gaussverteilung
 > 
 > $$
 > p(x) := \frac{1}{\sqrt{ 2\pi\sigma^{2} }} \exp \left( -\frac{(x-\mu)^{2}}{2\sigma^{2}} \right) 
 > $$
 
-## Multivariate Gaussverteilung
+## Bivaraite Normalverteilung
+
+- Spezialfall: Komplexe Normalverteilung
+
+## Multivariate Normalverteilung
 
 Ist $\boldsymbol{x}$ ein höher dimensionaler vektor, lässt sich die Normalverteilungsdichte für beliebige dimensionen definieren mit
 
@@ -57,7 +60,7 @@ $$
 ![PNG-Bild](../../_assets/PNG-Bild.png)
 
 
-- Bisher waren [Wahrscheinlichkeitsverteilungen](Wahrscheinlichkeitsverteilungsdichte.md) gegeben (z.B. [Binomialverteilung](Binomialverteilung.md)).
+- Bisher waren [Wahrscheinlichkeitsverteilungen](PDF.md) gegeben (z.B. [Binomialverteilung](Binomialverteilung.md)).
 - jetzt nurmehr eine Funktion, die die Verteilung angibt
 
 Verteilungen können unterschiedlicher Wertebereiche annehmen.
@@ -70,10 +73,6 @@ Verteilungen können unterschiedlicher Wertebereiche annehmen.
 ## Symmetrische Intervalle von $\mu$
 
 ## Standardisierte Normalverteilung
-
-## Zentraler Grenzwertsatz
-
-Eine [](Zufallsvariable.md#Stetige%20Zufallsvariablen|stetige%20Zufallsvariable), die sich als Summe sehr vieler unabhängiger Einflussgrößen ergibt, von denen keine dominierend ist, ist näherungsweise normalverteilt.
 
 ## Näherung der [Binomialverteilung](Binomialverteilung.md)
 

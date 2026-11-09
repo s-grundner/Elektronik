@@ -27,7 +27,7 @@ title: Bayesian Decision Theory
 
 ## Klassifizierungsproblem mit Probabilistischer Herangehensweise
 
-> [!question] [Klassifizierungsproblem](../../../Mathematik/Statistik/Classification.md), [Wahrscheinlichkeitstheorie Basics](../../../Mathematik/Statistik/index.md)
+> [!question] [Klassifizierungsproblem](Classification.md), [Wahrscheinlichkeitstheorie Basics](../../../Mathematik/Statistik/index.md)
 
 ![invert_dark](assets/{NOTES}%20Machine%20Learning%20and%20Pattern%20Classification%20VL%202026-06-10%2011.42.44.excalidraw.svg)
 %%[🖋 Edit in Excalidraw](assets/{NOTES}%20Machine%20Learning%20and%20Pattern%20Classification%20VL%202026-06-10%2011.42.44.excalidraw.md)%%
@@ -56,10 +56,11 @@ title: Bayesian Decision Theory
 > - Aktionen: $\alpha_{j} \equiv \text{Predict }\omega_{j}$
 > 
 > $$
-> \boldsymbol{r} = \boldsymbol{\Lambda p} \iff \begin{align}
+> \boldsymbol{r} = \boldsymbol{\Lambda p} \iff
+> \begin{aligned}
 > R(\alpha_{1}|\boldsymbol{x}) = \lambda_{11}P(\omega_{1}|\boldsymbol{x}) + \lambda_{12}P(\omega_{2}|\boldsymbol{x}) \\
 > R(\alpha_{2}|\boldsymbol{x}) = \lambda_{21}P(\omega_{1}|\boldsymbol{x}) + \lambda_{22}P(\omega_{2}|\boldsymbol{x}) \\
-> \end{align}
+> \end{aligned}
 > $$
 > 
 > - Auswahlkriterium: $\text{Choose } \alpha^{*} = \arg\min \boldsymbol{r}$
@@ -83,8 +84,8 @@ title: Bayesian Decision Theory
 
 
 Schlussendlich:
-![invert_dark](../../_assets/Excalidraw/Bayesian%20Decision%20Theory%202026-06-12%2016.34.38.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Bayesian%20Decision%20Theory%202026-06-12%2016.34.38.excalidraw.md)%%
+![invert_dark](../../../_assets/Excalidraw/Bayesian%20Decision%20Theory%202026-06-12%2016.34.38.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Bayesian%20Decision%20Theory%202026-06-12%2016.34.38.excalidraw.md)%%
 
 
 ## Zusammenfassung

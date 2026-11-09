@@ -24,8 +24,8 @@ title: Density Estimation
 > - $P(\omega_{i})$ ... wahre unterliegende *priori* Klassenverteilung
 > - $p(\boldsymbol{x}|\omega_{i})$ ... wahre Klassen bedingte Verteilung der Eigenenschaften (*likelihood*)
 
-![invert_dark](../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.43.36.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.43.36.excalidraw.md)%%
+![invert_dark](../../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.43.36.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.43.36.excalidraw.md)%%
 
 ## Parametric Density Estimation
 
@@ -36,8 +36,8 @@ title: Density Estimation
 5. Our First Learning Algorithms: Single-Gaussian Classifier and Naı̈ve Bayes
 
 
-![invert_dark](../../_assets/Excalidraw/Density%20Estimation%202026-06-12%2018.49.20.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Density%20Estimation%202026-06-12%2018.49.20.excalidraw.md)%%
+![invert_dark](../../../_assets/Excalidraw/Density%20Estimation%202026-06-12%2018.49.20.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Density%20Estimation%202026-06-12%2018.49.20.excalidraw.md)%%
 
 ### Non Parametric Density Estimation
 
@@ -45,5 +45,5 @@ title: Density Estimation
 2. k-NN Density Estimation
 3. Kernel Density Estimation
 
-![invert_dark](../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.42.01.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.42.01.excalidraw.md)%%
+![invert_dark](../../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.42.01.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Density%20Estimation%202026-06-13%2016.42.01.excalidraw.md)%%

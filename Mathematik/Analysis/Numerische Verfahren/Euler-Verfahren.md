@@ -34,7 +34,6 @@ Das Euler-Verfahren ist ein einfaches numerisches Verfahren zur Lösung von Diff
 > $$
 
 
-
 ```tikz
 \usepackage{pgfplots}
 \usepackage{tikz}

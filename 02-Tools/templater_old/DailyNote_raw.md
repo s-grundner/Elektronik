@@ -12,7 +12,6 @@ tags:
  - BacLog
 created: <% today %>
 week: <% week %>
-thesis_hours:
 ---
 
 <center> <h1> <% titleDate %> </h1> </center>

@@ -9,8 +9,8 @@ let category = await tp.user.get_lva().sug_category(tp);
 tags:
   - <% tp.user.get_lva().sem_to_program(sem) %>
 subject:
-  - <% typ %>
   - <% lva %>
+  - <% typ %>
 semester: <% sem %>
 created: <% tp.file.creation_date("DD MMMM YYYY")%>
 professor:
@@ -21,7 +21,7 @@ grade:
 type: <% category %>
 ---
 
-# <% lva %>
+# `$=dv.current().subject`
 
 <%* tp.file.rename(tp.user.get_lva().note_name(lva, typ)) _%> 
 

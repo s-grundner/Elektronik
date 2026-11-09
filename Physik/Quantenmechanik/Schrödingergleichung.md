@@ -71,7 +71,7 @@ Damit wurde ein neues Fundamentales Naturgesetz entdeckt. Jedoch bleibt noch aus
 
 - Die Lösung der Wellengleichung ist im allgemeinen eine komplexe Wellenamplitude $\psi(x,t)$.
 
-Interpretiert wird diese Wellenamplitude als Aufenthalts[wahrscheinlichkeitssdichte](../../Mathematik/Statistik/Wahrscheinlichkeitsverteilungsdichte.md) (PDF), wobei
+Interpretiert wird diese Wellenamplitude als Aufenthalts[wahrscheinlichkeitssdichte](../../Mathematik/Statistik/PDF.md) (PDF), wobei
 
 $$
 \left| \psi(x,t) \right|^{2} \mathrm{d}x

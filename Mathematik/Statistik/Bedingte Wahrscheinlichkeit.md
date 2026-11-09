@@ -15,7 +15,7 @@ title: Bedingte Wahrscheinlichkeit
 
 # Bedingte Wahrscheinlichkeit
 
-> [!question] [Undbedingte Wahrscheinlichkeit](Unbedingte%20Wahrscheinlichkeit.md)
+> [!question] [Undbedingte Wahrscheinlichkeit](Wahrscheinlichkeitsmaß.md)
 
 Oft hat man es mit einem Zufallsexperiment zu tun, wobei man über die zusätzliche Information *"ein gewisses Ereignis $\Omega'$ ist bereits eingetreten"* verfügt. 
 
@@ -59,7 +59,7 @@ gilt, dass sich also die **bedingte Wahrscheinlichkeit** $\mathbb{P'}(A')$ eines
 
 ### Addition 
 
-![Additionsregel](Unbedingte%20Wahrscheinlichkeit.md#^ADD)
+![Additionsregel](Wahrscheinlichkeitsmaß.md#^ADD)
 
 ### Multiplikationssatz
 

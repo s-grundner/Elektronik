@@ -47,7 +47,7 @@ $$
 \end{align}
 $$
 
-- $\delta(t)$ ... [Dirac-Distribution](../Delta-Impuls.md)
+- $\delta(t)$ ... [Dirac-Distribution](../../Mathematik/Delta-Impuls.md)
 
 Außerdem soll hier gelten, dass Rauschen und Störung nicht miteinander korreliert (= [unabhängige Zufallsvariablen](Zufallsvariable.md#Unabhängige%20Zufallsvariable)) sind, also gilt
 

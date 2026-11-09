@@ -1,7 +1,6 @@
 ---
 tags:
 aliases:
-  - Arkusfunktionen
   - Areafunktionen
 keywords:
 subject:

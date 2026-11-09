@@ -17,11 +17,11 @@ title: Systemidentfikation
 
 # Systemidentifikation
 
-> [!question] [Optimale Filter](Optimale%20Filter.md)
+> [!question] [Optimale Filter](Statistisch/Optimale%20Filter.md)
 
 Parallel zu einem Unbekannten System wird ein Optimaler Filter mit dem gleichen Eingang betrieben. Für ein [FIR](FIR-Filter.md)-System sind die Koeffizienten des Filters, dann jene des unbekannten Systems.
 
-![invert_dark|500](../../_assets/Pasted%20image%2020260325184026.png)
+![invert_dark|500](../../../_assets/Pasted%20image%2020260325184026.png)
 
 - $\mathbf{h}$ ... Unbekanntes System
 - $n[k]$ ... Messrauschen
@@ -36,8 +36,8 @@ Der Eingang $x[k]$ beider Systeme ist üblicherweise breitbandiges Rauschen.
 
 > [!question] [LS-Filter](Least%20Squares%20Filter.md)
 
-![invert_light|600](../../_assets/plots/matlab-2.png)
-![invert_light|600](../../_assets/plots/matlab-1.png)
+![invert_light|600](../../../_assets/plots/matlab-2.png)
+![invert_light|600](../../../_assets/plots/matlab-1.png)
 
 > [!success]- Matlab Code - Systemidentifikation mit LS-Filter
 > ```matlab

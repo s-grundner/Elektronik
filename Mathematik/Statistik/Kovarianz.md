@@ -4,6 +4,7 @@ aliases:
   - Korrelationskoeffizient
   - Kovarianzmatrix
   - Korrelationsmatrix
+  - Statistik 2ter Ordnung
 keywords:
 subject:
   - KV

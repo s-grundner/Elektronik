@@ -1,0 +1,22 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="RrRIB2B-0EKUtqsUmlFG">
+    <mxGraphModel dx="761" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OiHFZGyedHQmE07LaBS3-1" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" value="" vertex="1">
+          <mxGeometry height="40" width="120" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OiHFZGyedHQmE07LaBS3-2" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" value="" vertex="1">
+          <mxGeometry height="40" width="120" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OiHFZGyedHQmE07LaBS3-3" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" value="" vertex="1">
+          <mxGeometry height="40" width="120" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OiHFZGyedHQmE07LaBS3-4" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" value="" vertex="1">
+          <mxGeometry height="40" width="120" x="480" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

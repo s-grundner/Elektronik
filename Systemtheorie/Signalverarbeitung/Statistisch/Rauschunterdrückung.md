@@ -18,7 +18,7 @@ title: Rauschunterdrückung
 
 ## Rauschverminderung (Noise Reduction)
 
-![invert_dark|700](../../_assets/Pasted%20image%2020260325184922.png)
+![invert_dark|700](../../../_assets/Pasted%20image%2020260325184922.png)
 
 > [!success] **Ziel:** $\mathbf{w}$ finden, sodass der Filter den Rauschanteil $n[k]$ im Eingangssignal $x[k]$ so gut wie Möglich reduziert.
 
@@ -28,9 +28,9 @@ Für $k_{0}>0$ versucht der Filter den Ausgang $\hat{y}[k]$ so gut wie möglich 
 
 > [!question] [LS-Filter](Least%20Squares%20Filter.md)
 
-![invert_light|500](../../_assets/plots/matlab-4.png) 
-![invert_light|500](../../_assets/plots/matlab-5.png)
-![invert_light|500](../../_assets/plots/matlab-3.png)
+![invert_light|500](../../../_assets/plots/matlab-4.png) 
+![invert_light|500](../../../_assets/plots/matlab-5.png)
+![invert_light|500](../../../_assets/plots/matlab-3.png)
 
 > [!success]- Matlab Code - LS Filter 
 > 
@@ -102,7 +102,7 @@ Für $k_{0}>0$ versucht der Filter den Ausgang $\hat{y}[k]$ so gut wie möglich 
 
 ## Rauschunterdrückung (Noise Cancellation)
 
-![invert_dark|700](../../_assets/Pasted%20image%2020260325185512.png)
+![invert_dark|700](../../../_assets/Pasted%20image%2020260325185512.png)
 
 > [!success] **Ziel:** Entfernung von $n[k]$ aus $y[k]$ sodass $e[k]\approx s[k]$
 

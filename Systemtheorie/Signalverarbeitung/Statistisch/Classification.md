@@ -33,8 +33,8 @@ title: Classifier Evaluation
 > - The training examples have been drawn *independently* and all come from the same distribution $p$ ($\iff$ i.i.d)
 > - The distribution $p(\boldsymbol{X}, \Omega)$ will not change over time (or between training and application time) - it is *stationary*
 
-![invert_dark|800](../../_assets/{NOTES}%20Machine%20Learning%20and%20Pattern%20Classification%20VL%202026-06-10%2017.08.36.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/klassifizierungsproblem.md)%%
+![invert_dark|800](../../../_assets/{NOTES}%20Machine%20Learning%20and%20Pattern%20Classification%20VL%202026-06-10%2017.08.36.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/klassifizierungsproblem.md)%%
 
 ## Learning
 
@@ -44,7 +44,7 @@ title: Classifier Evaluation
 
 > [!def] **D)**  A **Learning Algorithm** $L$ is a function $L:\mathcal{S} \mapsto \mathcal{C}$, where $\mathcal{S}$ is the set of all possible subsets of $\boldsymbol{X}$
 > 
-> -  [Power Set](../Algebra/Potenzmenge.md): $\mathcal{S} = \mathcal{P}(\boldsymbol{X})$
+> -  [Power Set](../../../Mathematik/Algebra/Potenzmenge.md): $\mathcal{S} = \mathcal{P}(\boldsymbol{X})$
 > - i.e. all possible training set in this world
 
 - [Common Machine Learning Algorithms](Common%20Machine%20Learning%20Algorithms.md)
@@ -58,8 +58,8 @@ Classification
 - At prediction time, the classifier $c$ is applied to new cases, and predicts  a *class label* $\omega_{i} \in \Omega$ for each new case.
 	- assumed to come from the same distribution $p(\boldsymbol{X}, \Omega)$ as the training data $\mathcal{D}$
 
-![invert_dark|700](../../_assets/Excalidraw/Classification%202026-05-23%2013.30.56.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-05-23%2013.30.56.excalidraw.md)%%
+![invert_dark|700](../../../_assets/Excalidraw/Classification%202026-05-23%2013.30.56.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Classification%202026-05-23%2013.30.56.excalidraw.md)%%
 
 ## Classifiers
 
@@ -72,14 +72,14 @@ Classification
 
 ## Evaluierung
 
-![invert_dark|1000](../../_assets/Excalidraw/Classification%202026-06-13%2015.08.24.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-13%2015.08.24.excalidraw.md)%%
+![invert_dark|1000](../../../_assets/Excalidraw/Classification%202026-06-13%2015.08.24.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Classification%202026-06-13%2015.08.24.excalidraw.md)%%
 
 ## Overfitting und Model-Komplexität
 
 
-![invert_dark|500](../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.md)%%
+![invert_dark|500](../../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Classification%202026-06-13%2023.19.40.excalidraw.md)%%
 
 ### Bias
 
@@ -111,8 +111,8 @@ Im gegenzug
 > 
 > Viele Modelle könnten die trainingsdaten einfach zufällig fitten.
 > 
-> ![invert_dark|500](../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.svg)
-> %%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.md)%%
+> ![invert_dark|500](../../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.svg)
+> %%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Classification%202026-06-14%2000.02.27.excalidraw.md)%%
 > *Welches der obigen Decisionboundaries ist die echte?*
 
 High Variance Algorithmen:

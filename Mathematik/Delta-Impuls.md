@@ -24,6 +24,10 @@ title: Delta-Distribution
 
 # Delta-Impuls $\delta(t)$
 
+- https://en.wikipedia.org/wiki/Dirac_delta_function
+- https://en.wikipedia.org/wiki/Indicator_function
+- https://en.wikipedia.org/wiki/Dirac_measure
+
 Der **Delta-Impuls** dient zur idealisierten, aber bequemen mathematischen Beschreibung eines sehr **kurzen Impulses**, durch etwa ein *mechanisches oder elektrisches* schwingfähiges System, dass aus dem Ruhezustand angeregt wird.  
 
 > [!def] **D1 - DIR-$\delta$ )** Dirac-Distribution / Einheitsimpuls ^DIRD

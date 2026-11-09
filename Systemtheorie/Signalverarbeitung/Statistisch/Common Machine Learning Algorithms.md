@@ -17,8 +17,8 @@ title: Common Machine Learning Algorithms
 - Review their relative advantages and shortcomings
 - Give you a deeper understanding of what the algorithms you are using in your experiments actually do
 
-![](../../_assets/Excalidraw/Common%20Machine%20Learning%20Algorithms%202026-06-14%2014.47.40.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Common%20Machine%20Learning%20Algorithms%202026-06-14%2014.47.40.excalidraw.md)%%
+![](../../../_assets/Excalidraw/Common%20Machine%20Learning%20Algorithms%202026-06-14%2014.47.40.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Common%20Machine%20Learning%20Algorithms%202026-06-14%2014.47.40.excalidraw.md)%%
 
 Simple Baseline Classifiers
 
@@ -48,4 +48,4 @@ Remember:
 - Why and how combining trees to ensembles (forests) improves learning and robustness
 - The basic concept of Support Vector Machines: linear discrimination in a more expressive space (no formulas)
 
-[^1]: Man arbeitet mit einer Distanz [Metrik](../Algebra/Metrischer%20Raum.md): z.B: Euklidsche Distanz, Manhattan Distanz
+[^1]: Man arbeitet mit einer Distanz [Metrik](../../../Mathematik/Algebra/Metrischer%20Raum.md): z.B: Euklidsche Distanz, Manhattan Distanz

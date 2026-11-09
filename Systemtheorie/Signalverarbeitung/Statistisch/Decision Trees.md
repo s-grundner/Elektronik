@@ -43,10 +43,10 @@ Probleme:
 - Welches Features ist die Wurzel? = Welches feature unterscheidet die Klassen am besten
 - Alle probieren, und schauen für welche werte welche klasse herauskommt.
 
-![](../../_assets/Pasted%20image%2020260614124802.png)
+![](../../../_assets/Pasted%20image%2020260614124802.png)
 
 - **Information Gain:** Jenes Feature auswählen, das die Klassen am unbalanciertesten einordnet.
-- Empirische Klassenverteilung pro zweig: Basiert auf [Entropie](../../Netzwerktechnik/Informationstheorie/Informationsgehalt.md)
+- Empirische Klassenverteilung pro zweig: Basiert auf [Entropie](../../../Netzwerktechnik/Informationstheorie/Informationsgehalt.md)
 
 > [!def] **D)** **Information Gain**
 > 
@@ -78,7 +78,7 @@ Probleme:
 
 ### Visualisierung der Decision Boundaries
 
-![invert_dark|800](../../_assets/Pasted%20image%2020260614130958.png)
+![invert_dark|800](../../../_assets/Pasted%20image%2020260614130958.png)
 
 - Ein Generalisierter Baum hat große Rechtecke.
 - Ein overfit würde jedes Sample in ein eigenes Rechteck rahmen

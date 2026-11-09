@@ -21,7 +21,7 @@ Ziel ist es, dass sich der Filter jenen koeffizienten annähert, sodass sich mit
 
 ## Funktion
 
-![invert_dark](../../_assets/recreate/AdaptiveFilter.png)
+![invert_dark](../../../_assets/recreate/AdaptiveFilter.png)
 
 Der Update Algorithmus justiert mit jeder *Sampling-Time* die filter koeffizienten $\mathbf{w}[k]$ nach, sodass eine bestimmte Funktion der differenz zwischen Ist-Ausgang $\hat{y}[k]$ und dem gewünschten Soll-Ausgang $y[k]$ minimiert wird.
 

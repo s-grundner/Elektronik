@@ -20,7 +20,7 @@ title: Optimale FIlter
 
 Bei Optimalen Filtern werden die Koeffizienten nach einer Kostenfunktion so berechnet, sodass der Fehler für den gewünschten Ausgang minimal wird.
 
-![invert_dark](../../_assets/Pasted%20image%2020260325141459.png)
+![invert_dark](../../../_assets/Pasted%20image%2020260325141459.png)
 
 Ziel ist es, die optimalen Koeffizienten für den Filter zu berechnen, sodass für jeden Eingang $x[k]$ der Filter den Ausgang $\hat{y}[k]$ liefert sodass, für ein Referenz Signal $y[k]$ eine Funktion des Fehlers $e[k]$ (Kostenfunktion) minimal ist.
 
@@ -34,13 +34,13 @@ Erfüllt der Schätzer diese Aufgabe, wird er als *optimaler Schätzer* bezeiche
 > - Ändern sich die Annahmen nach denen sich die Gewichtung der Kostenfunktion ergibt.
 > - Die Annahmen ergeben sich nach den statistischen Eigenschaften des Eingangssignals und den Performance Kriterien.
 
-Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, dass die gewünschte Systemantwort sowie die Eingangssignale realisierungen von [Stochastische Prozesse](../../Mathematik/Statistik/Stochastische%20Prozesse.md) sind.
+Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, dass die gewünschte Systemantwort sowie die Eingangssignale realisierungen von [Stochastische Prozesse](../../../Mathematik/Statistik/Stochastische%20Prozesse.md) sind.
 
 ## Anwendungen für Optimale Filter
 
 - [Systemidentifikation](Systemidentifikation.md)
 - [Inverse Systemidentifikation](Inverse%20Systemidentifikation.md) (Equalization, Systemausgleich)
-- [Rauschunterdrückung / -verminderung](Rauschunterdrückung.md)
+- [Rauschunterdrückung / -verminderung](Statistisch/Rauschunterdrückung.md)
 - [Signalprediction](Signalprediction.md)
 
 ## Filter Topologien
@@ -54,8 +54,8 @@ Um mathematische Modelle für optimale Filter zu entwickeln, setzen wir voraus, 
 
 Adaptive Filter prüfen kontinuierlich nach dem Optimum und aktualisieren die Filter parameter.
 
-![](../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.svg)
-%%[🖋 Edit in Excalidraw](../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.md)%%
+![](../../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.svg)
+%%[🖋 Edit in Excalidraw](../../../_assets/Excalidraw/Optimale%20Filter%202026-04-25%2015.15.35.excalidraw.md)%%
 
 ## Block Adaptive Filter
 
@@ -67,7 +67,7 @@ Adaptive Filter prüfen kontinuierlich nach dem Optimum und aktualisieren die Fi
 
 ## Sample Adaptive Filter
 
-> [!question] [Sample Adaptive Filter](Sample%20Adaptive%20Filter.md)
+> [!question] [Sample Adaptive Filter](Statistisch/Sample%20Adaptive%20Filter.md)
 
 - Feedback der Samples, um Koeffizienten kontinuierlich anzupassen.
 - Eingang kann weiterhin mit zufallssignal beaufschlagt werden.
